@@ -7,13 +7,9 @@
 
 `boot repl`
 
-- Build a single "uberjar":
+- Build a single `uberjar`:
 
 `boot jar`
-
-- Learn about a command:
-
-`boot cljs --help`
 
 - Generate scaffolding for a new project based on a template:
 
@@ -26,3 +22,7 @@
 - Build for production (if using the boot/new template):
 
 `boot prod`
+
+- Display help for a specific task:
+
+`boot {{task}} --help`

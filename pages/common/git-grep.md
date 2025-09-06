@@ -1,4 +1,4 @@
-# git-grep
+# git grep
 
 > Find strings inside files anywhere in a repository's history.
 > Accepts a lot of the same flags as regular `grep`.
@@ -19,3 +19,7 @@
 - Search for a string at a specific point in history:
 
 `git grep {{search_string}} {{HEAD~2}}`
+
+- Search for a string across all branches:
+
+`git grep {{search_string}} $(git rev-list --all)`

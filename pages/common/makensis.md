@@ -12,6 +12,6 @@
 
 `makensis -WX {{path/to/file.nsi}}`
 
-- Print help for a specific command:
+- Display help for a specific command:
 
 `makensis -CMDHELP {{command}}`

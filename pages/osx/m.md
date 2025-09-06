@@ -1,12 +1,13 @@
 # m
 
 > Swiss Army Knife for macOS.
+> More information: <https://github.com/rgcr/m-cli>.
 
 - Get the battery status:
 
 `m battery status`
 
-- Turn off bluetooth:
+- Turn off Bluetooth:
 
 `m bluetooth off`
 

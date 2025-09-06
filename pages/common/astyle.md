@@ -2,13 +2,13 @@
 
 > Source code indenter, formatter, and beautifier for the C, C++, C# and Java programming languages.
 > Upon running, a copy of the original file is created with an ".orig" appended to the original file name.
-> More information: <http://astyle.sourceforge.net/>.
+> More information: <https://astyle.sourceforge.net>.
 
 - Apply the default style of 4 spaces per indent and no formatting changes:
 
 `astyle {{source_file}}`
 
-- Apply the java style with attached braces:
+- Apply the Java style with attached braces:
 
 `astyle --style=java {{path/to/file}}`
 

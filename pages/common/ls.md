@@ -1,6 +1,7 @@
 # ls
 
 > List directory contents.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>.
 
 - List files one per line:
 
@@ -8,20 +9,28 @@
 
 - List all files, including hidden files:
 
-`ls -a`
+`ls {{[-a|--all]}}`
 
-- Long format list (permissions, ownership, size and modification date) of all files:
+- List files with a trailing symbol to indicate file type (directory/, symbolic_link@, executable*, ...):
 
-`ls -la`
+`ls {{[-F|--classify]}}`
 
-- Long format list with size displayed using human readable units (KB, MB, GB):
+- List all files in [l]ong format (permissions, ownership, size, and modification date):
 
-`ls -lh`
+`ls {{[-la|-l --all]}}`
 
-- Long format list sorted by size (descending):
+- List files in [l]ong format with size displayed using human-readable units (KiB, MiB, GiB):
 
-`ls -lS`
+`ls {{[-lh|-l --human-readable]}}`
 
-- Long format list of all files, sorted by modification date (oldest first):
+- List files in [l]ong format, sorted by [S]ize (descending) recursively:
 
-`ls -ltr`
+`ls {{[-lSR|-lS --recursive]}}`
+
+- List files in [l]ong format, sorted by [t]ime the file was modified and in reverse order (oldest first):
+
+`ls {{[-ltr|-lt --reverse]}}`
+
+- Only list directories:
+
+`ls {{[-d|--directory]}} */`

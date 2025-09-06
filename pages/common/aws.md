@@ -1,24 +1,37 @@
 # aws
 
 > The official CLI tool for Amazon Web Services.
+> Some subcommands such as `s3` have their own usage documentation.
 > More information: <https://aws.amazon.com/cli>.
 
-- List all IAM users:
+- Configure the AWS Command-line:
 
-`aws iam list-users`
+`aws configure wizard`
 
-- List all EC2 instances from a specific region:
+- Configure the AWS Command-line using SSO:
 
-`aws ec2 describe-instances --region {{us-east-1}}`
+`aws configure sso`
 
-- Receive message from a specific SQS queue:
+- Get the caller identity (used to troubleshoot permissions):
 
-`aws sqs receive-message --queue-url {{https://queue.amazonaws.com/546123/Test}}`
+`aws sts get-caller-identity`
 
-- Publish message to the specific SNS topic:
+- List AWS resources in a region and output in YAML:
 
-`aws sns publish --topic-arn {{arn:aws:sns:us-east-1:54633:testTopic}} --message "Message"`
+`aws dynamodb list-tables --region {{us-east-1}} --output yaml`
 
-- To see help text for the AWS command:
+- Use auto prompt to help with a command:
+
+`aws iam create-user --cli-auto-prompt`
+
+- Get an interactive wizard for an AWS resource:
+
+`aws dynamodb wizard {{new_table}}`
+
+- Generate a JSON CLI Skeleton (useful for infrastructure as code):
+
+`aws dynamodb update-table --generate-cli-skeleton`
+
+- Display help for a specific command:
 
 `aws {{command}} help`

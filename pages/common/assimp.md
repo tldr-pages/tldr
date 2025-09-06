@@ -1,8 +1,8 @@
 # assimp
 
-> Command-line client for the Open Asset Import Library.
+> Client for the Open Asset Import Library.
 > Supports loading of 40+ 3D file formats, and exporting to several popular 3D formats.
-> More information: <http://www.assimp.org/>.
+> More information: <https://manned.org/assimp>.
 
 - List all supported import formats:
 
@@ -24,10 +24,10 @@
 
 `assimp info {{path/to/file}}`
 
-- List all supported subcommands ("verbs"):
+- Display help:
 
 `assimp help`
 
-- Get help on a specific subcommand (e.g. the parameters specific to it):
+- Display help for a specific subcommand:
 
 `assimp {{subcommand}} --help`

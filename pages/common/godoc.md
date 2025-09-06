@@ -1,9 +1,9 @@
 # godoc
 
-> Show documentation for go packages.
-> More information: <https://godoc.org/>.
+> View documentation for go packages.
+> More information: <https://pkg.go.dev/golang.org/x/tools/cmd/godoc>.
 
-- Display help for package "fmt":
+- Display help for a specific package:
 
 `godoc {{fmt}}`
 
@@ -11,7 +11,7 @@
 
 `godoc {{fmt}} {{Printf}}`
 
-- Serve documentation as a web server on port "6060":
+- Serve documentation as a web server on port 6060:
 
 `godoc -http=:{{6060}}`
 

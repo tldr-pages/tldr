@@ -1,11 +1,12 @@
 # ifup
 
-> Tool used to enable network interfaces.
+> Enable network interfaces.
+> More information: <https://manned.org/ifup.8>.
 
 - Enable interface eth0:
 
 `ifup {{eth0}}`
 
-- Enable all the interfaces defined with "auto" in /etc/network/interfaces:
+- Enable all the interfaces defined with "auto" in `/etc/network/interfaces`:
 
-`ifup -a`
+`ifup {{[-a|--all]}}`

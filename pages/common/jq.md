@@ -1,36 +1,36 @@
 # jq
 
-> A lightweight and flexible command-line JSON processor.
-> More information: <https://stedolan.github.io/jq>.
+> A JSON processor that uses a domain-specific language (DSL).
+> More information: <https://jqlang.github.io/jq/manual/>.
 
-- Output a JSON file, in pretty-print format:
+- Execute a specific expression only using the `jq` binary (print a colored and formatted JSON output):
 
-`jq . {{file.json}}`
+`jq '.' {{path/to/file.json}}`
 
-- Output all elements from arrays (or all key-value pairs from objects) in a JSON file:
+- Execute a specific script:
 
-`jq '.[]' {{file.json}}`
+`{{cat path/to/file.json}} | jq {{[-f|--from-file]}} {{path/to/script.jq}}`
 
-- Read JSON objects from a file into an array, and output it (inverse of `jq .[]`):
+- Pass specific arguments:
 
-`jq --slurp . {{file.json}}`
+`{{cat path/to/file.json}} | jq {{--arg "name1" "value1" --arg "name2" "value2" ...}} '{{. + $ARGS.named}}'`
 
-- Output the first element in a JSON file:
+- Create new JSON object via old JSON objects from multiple files:
 
-`jq '.[0]' {{file.json}}`
+`{{cat path/to/multiple_json_file_*.json}} | jq '{{{newKey1: .key1, newKey2: .key2.nestedKey, ...}}}'`
 
-- Output the value of a given key of the first element in a JSON text from `stdin`:
+- Print specific array items:
 
-`cat {{file.json}} | jq '.[0].{{key_name}}'`
+`{{cat path/to/file.json}} | jq '{{.[index1], .[index2], ...}}'`
 
-- Output the value of a given key of each element in a JSON text from `stdin`:
+- Print all array/object values:
 
-`cat {{file.json}} | jq 'map(.{{key_name}})'`
+`{{cat path/to/file.json}} | jq '.[]'`
 
-- Combine multiple filters:
+- Print objects with 2-condition filter in array:
 
-`cat {{file.json}} | jq 'unique | sort | reverse'`
+`{{cat path/to/file.json}} | jq '.[] | select((.key1=="value1") and .key2=="value2")'`
 
-- Output the value of a given key to a string (and disable JSON output):
+- Add/remove specific keys:
 
-`cat {{file.json}} | jq --raw-output '"some text: \(.{{key_name}})"'`
+`{{cat path/to/file.json}} | jq '. {{+|-}} {{{"key1": "value1", "key2": "value2", ...}}}'`

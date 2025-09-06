@@ -1,15 +1,15 @@
 # box
 
 > A PHP application for building and managing Phars.
-> More information: <https://box-project.github.io/box2>.
+> More information: <https://github.com/box-project/box>.
 
-- Build a new Phar file:
+- Compile a new Phar file:
 
-`box build`
+`box compile`
 
-- Build a new Phar file using a specific config file:
+- Compile a new Phar file using a specific configuration file:
 
-`box build -c {{path/to/config}}`
+`box compile {{[-c|--config]}} {{path/to/config}}`
 
 - Display information about the PHAR PHP extension:
 
@@ -19,7 +19,7 @@
 
 `box info {{path/to/phar_file}}`
 
-- Validate the first found config file in the working directory:
+- Validate the first found configuration file in the working directory:
 
 `box validate`
 
@@ -27,6 +27,6 @@
 
 `box verify {{path/to/phar_file}}`
 
-- Display all available commands and options:
+- Display help:
 
 `box help`

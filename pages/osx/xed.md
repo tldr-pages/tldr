@@ -1,15 +1,16 @@
 # xed
 
-> Opens files for editing in XCode.
+> Opens files for editing in Xcode.
+> More information: <https://keith.github.io/xcode-man-pages/xed.1.html>.
 
-- Open file in XCode:
+- Open file in Xcode:
 
-`xed {{file1}}`
+`xed {{path/to/file1 path/to/file2 ...}}`
 
-- Open file(s) in XCode, create if it doesn't exist:
+- Open file(s) in Xcode, create if it doesn't exist:
 
-`xed -c {{filename1}}`
+`xed --create {{path/to/file1 path/to/file2 ...}}`
 
-- Open a file in XCode and jump to line number 75:
+- Open a file in Xcode and jump to line number 75:
 
-`xed -l 75 {{filename}}`
+`xed --line 75 {{path/to/file}}`

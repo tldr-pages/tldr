@@ -1,6 +1,6 @@
 # meteor
 
-> Full-stack javascript platform for building web applications.
+> Full-stack JavaScript platform for building web applications.
 > More information: <https://meteor.com>.
 
 - Run a meteor project from its root directory in development mode:
@@ -17,11 +17,11 @@
 
 - Add a package to the project:
 
-`meteor add {{package_name}}`
+`meteor add {{package}}`
 
 - Remove a package from the project:
 
-`meteor remove {{package_name}}`
+`meteor remove {{package}}`
 
 - Create a production build of the project as a tarball under the given directory:
 

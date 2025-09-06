@@ -1,6 +1,7 @@
 # ftp
 
 > Interactively transfer files between a local and remote FTP server.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/ftp>.
 
 - Connect to a remote FTP server interactively:
 
@@ -16,7 +17,7 @@
 
 - Run a file containing a list of FTP commands:
 
-`ftp -s:{{path/to/file}} {{host}}`
+`ftp -s:{{path\to\file}} {{host}}`
 
 - Download multiple files (glob expression):
 
@@ -30,6 +31,6 @@
 
 `mdelete {{*.txt}}`
 
-- Display detailed help:
+- Display help:
 
 `ftp --help`

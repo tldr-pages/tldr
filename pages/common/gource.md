@@ -12,18 +12,26 @@
 
 `gource -{{width}}x{{height}}`
 
-- Set a custom time scale for the animation:
+- Specify how long each day should be in the animation (this combines with -c, if provided):
 
-`gource -c {{time_scale_multiplier}}`
+`gource {{[-s|--seconds-per-day]}} {{seconds}}`
 
-- Set how long each day should be in the animation (this combines with -c, if provided):
+- Use fullscreen mode and a custom background color:
 
-`gource -s {{seconds}}`
+`gource {{[-f|--fullscreen ]}} {{[-b|--background-colour]}} {{hex_color_code}}`
 
-- Set fullscreen mode and a custom background color:
-
-`gource -f -b {{hex_color_code}}`
-
-- Set a title for the animation:
+- Specify the animation title:
 
 `gource --title {{title}}`
+
+- Pause the animation:
+
+`<Space>`
+
+- Adjust simulation speed:
+
+`<{{+|-}}>`
+
+- Display help:
+
+`gource {{[-h|--help]}}`

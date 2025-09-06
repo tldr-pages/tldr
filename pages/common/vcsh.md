@@ -1,6 +1,7 @@
 # vcsh
 
-> Version Control System for the home directory using git repositories.
+> Version Control System for the home directory using Git repositories.
+> See also: `chezmoi`, `stow`, `tuckr`, `homeshick`.
 > More information: <https://github.com/RichiH/vcsh>.
 
 - Initialize an (empty) repository:
@@ -15,7 +16,7 @@
 
 `vcsh list`
 
-- Execute a git command on a managed repository:
+- Execute a Git command on a managed repository:
 
 `vcsh {{repository_name}} {{git_command}}`
 
@@ -23,6 +24,6 @@
 
 `vcsh {{push|pull}}`
 
-- Write a custom .gitignore file for a managed repository:
+- Write a custom `.gitignore` file for a managed repository:
 
 `vcsh write-gitignore {{repository_name}}`

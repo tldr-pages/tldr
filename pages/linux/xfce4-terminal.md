@@ -1,6 +1,7 @@
 # xfce4-terminal
 
 > The XFCE4 terminal emulator.
+> More information: <https://docs.xfce.org/apps/xfce4-terminal/start>.
 
 - Open a new terminal window:
 
@@ -24,4 +25,4 @@
 
 - Open multiple new tabs, executing a command in each:
 
-`xfce4-terminal --tab --command "{{command_a}}" --tab --command "{{command_b}}"`
+`xfce4-terminal --tab --command "{{command1}}" --tab --command "{{command2}}"`

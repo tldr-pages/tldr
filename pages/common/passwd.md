@@ -1,19 +1,24 @@
 # passwd
 
-> Passwd is a tool used to change a user's password.
+> Change a user's password.
+> More information: <https://manned.org/passwd>.
 
-- Change the password of the current user:
+- Change the password of the current user interactively:
 
-`passwd {{new_password}}`
+`passwd`
 
-- Change the password of the specified user:
+- Change the password of a specific user:
 
-`passwd {{username}} {{new_password}}`
+`passwd {{username}}`
 
 - Get the current status of the user:
 
-`passwd -S`
+`passwd {{[-S|--status]}}`
 
 - Make the password of the account blank (it will set the named account passwordless):
 
-`passwd -d`
+`passwd {{[-d|--delete]}}`
+
+- Set password programmatically (ideal for install scripts):
+
+`yes {{password}} | passwd`

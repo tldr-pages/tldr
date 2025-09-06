@@ -3,7 +3,7 @@
 > A PHP framework for Behaviour-Driven Development.
 > More information: <https://behat.org>.
 
-- Initialise a new Behat project:
+- Initialize a new Behat project:
 
 `behat --init`
 
@@ -13,7 +13,7 @@
 
 - Run all tests from the specified suite:
 
-`behat --suite={{suite_name}}`
+`behat --suite {{suite_name}}`
 
 - Run tests with a specific output formatter:
 
@@ -23,6 +23,6 @@
 
 `behat --out {{path/to/file}}`
 
-- Display a list of definitions in your test suites:
+- List the definitions in your test suites:
 
 `behat --definitions`

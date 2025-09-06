@@ -1,15 +1,16 @@
 # fsck
 
 > Check the integrity of a filesystem or repair it. The filesystem should be unmounted at the time the command is run.
+> More information: <https://manned.org/fsck>.
 
-- Check filesystem /dev/sda, reporting any damaged blocks:
+- Check filesystem `/dev/sdXN`, reporting any damaged blocks:
 
-`fsck {{/dev/sda}}`
+`sudo fsck {{/dev/sdXN}}`
 
-- Check filesystem /dev/sda, reporting any damaged blocks and interactively letting the user choose to repair each one:
+- Check filesystem `/dev/sdXN`, reporting any damaged blocks and interactively letting the user choose to repair each one:
 
-`fsck -r {{/dev/sda}}`
+`sudo fsck -r {{/dev/sdXN}}`
 
-- Check filesystem /dev/sda, reporting any damaged blocks and automatically repairing them:
+- Check filesystem `/dev/sdXN`, reporting any damaged blocks and [a]utomatically repairing them:
 
-`fsck -a {{/dev/sda}}`
+`sudo fsck -a {{/dev/sdXN}}`

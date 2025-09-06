@@ -1,32 +1,37 @@
-# ripgrep
+# rg
 
-> A fast command-line search tool.
-> More information: <https://github.com/BurntSushi/ripgrep>.
+> Ripgrep, a recursive line-oriented search tool.
+> Aims to be a faster alternative to `grep`.
+> More information: <https://github.com/BurntSushi/ripgrep/blob/master/GUIDE.md>.
 
-- Recursively search the current directory for a regex pattern:
+- Recursively search current directory for a pattern (`regex`):
 
 `rg {{pattern}}`
 
-- Search for pattern including all .gitignored and hidden files:
+- Recursively search for a pattern in a file or directory:
 
-`rg -uu {{pattern}}`
+`rg {{pattern}} {{path/to/file_or_directory}}`
 
-- Search for a pattern only in a certain filetype (e.g., html, css, etc.):
+- Include hidden files and entries listed in `.gitignore`:
 
-`rg -t {{filetype}} {{pattern}}`
+`rg {{[-.|--hidden]}} --no-ignore {{pattern}}`
 
-- Search for a pattern only in a subset of directories:
+- Only search the files whose names match the glob pattern(s) (e.g. `README.*`):
 
-`rg {{pattern}} {{set_of_subdirs}}`
+`rg {{pattern}} {{[-g|--glob]}} {{filename_glob_pattern}}`
 
-- Search for a pattern in files matching a glob (e.g., `README.*`):
+- Recursively list filenames in the current directory that match a pattern:
 
-`rg {{pattern}} -g {{glob}}`
+`rg --files | rg {{pattern}}`
 
-- Only list matched files -- useful when piping to other commands:
+- Only list matched files (useful when piping to other commands):
 
-`rg --files-with-matches {{pattern}}`
+`rg {{[-l|--files-with-matches]}} {{pattern}}`
 
-- Show lines that do not match the given pattern:
+- Show lines that do not match the pattern:
 
-`rg --invert-match {{pattern}}`
+`rg {{[-v|--invert-match]}} {{pattern}}`
+
+- Search for a literal string pattern:
+
+`rg {{[-F|--fixed-strings]}} -- {{string}}`

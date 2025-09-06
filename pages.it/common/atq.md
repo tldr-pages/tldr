@@ -1,6 +1,7 @@
 # atq
 
 > Mostra job programmati dai comandi `at` o `batch`.
+> Maggiori informazioni: <https://manned.org/atq>.
 
 - Mostra i job programmati per l'utente corrente:
 

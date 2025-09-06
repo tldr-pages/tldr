@@ -1,6 +1,6 @@
 # choco pin
 
-> Pin a package at a specific version with Chocolatey.
+> Pin a package at a version with Chocolatey.
 > Pinned packages are skipped automatically when upgrading.
 > More information: <https://chocolatey.org/docs/commands-pin>.
 

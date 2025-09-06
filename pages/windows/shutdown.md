@@ -1,14 +1,19 @@
 # shutdown
 
 > A tool for shutting down, restarting or logging off a machine.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/shutdown>.
 
 - Shutdown the current machine:
 
 `shutdown /s`
 
-- Restart the current machine:
+- Shutdown the current machine force-closing all apps:
 
-`shutdown /r`
+`shutdown /s /f`
+
+- Restart the current machine immediately:
+
+`shutdown /r /t 0`
 
 - Hibernate the current machine:
 
@@ -20,11 +25,7 @@
 
 - Specify a timeout in seconds to wait before shutting down:
 
-`shutdown /s /t {{seconds}}`
-
-- Specify a comment for the shutdown reason:
-
-`shutdown /s /c "{{reason}}"`
+`shutdown /s /t {{8}}`
 
 - Abort a shutdown sequence whose timeout is yet to expire:
 

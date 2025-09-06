@@ -1,6 +1,8 @@
+/* SPDX-License-Identifier: MIT */
+
 @font-face {
-    font-family: 'PT_Serif-Web-Regular';
-    src: url('PT_Serif-Web-Regular.ttf')  format('truetype');
+    font-family: "sans-serif";
+    src: url("NotoSans-Regular.ttf") format("truetype");
 }
 
 p {
@@ -11,24 +13,34 @@ code {
     color: darkslategrey;
 }
 
-h1, h4, h2, ul {
-    font-family: "PT_Serif-Web-Regular";
+h1, h2, h4, ul {
+    font-family: "sans-serif";
 }
 
-h1.titlemain {
+.title-main {
     text-align: center;
     margin-top: 6em;
     font-size: 350%;
 }
 
-h4.titlesub {
+.title-sub {
     text-align: center;
     font-size: 120%;
     color: darkslategrey;
 }
 
-h2.titledir {
+.title-dir {
     text-align: center;
     margin-top: 8.2em;
     font-size: 300%;
+}
+
+/*
+The same is to have this look like a H1 tag, but we want the H2 tag so the
+bookmarks list makes sense.
+*/
+h2.title-page {
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
 }

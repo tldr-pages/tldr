@@ -1,19 +1,24 @@
 # cat
 
 > Print and concatenate files.
+> More information: <https://manned.org/cat.1posix>.
 
-- Print the contents of a file to the standard output:
+- Print the contents of a file to `stdout`:
 
-`cat {{file}}`
+`cat {{path/to/file}}`
 
-- Concatenate several files into the target file:
+- Concatenate several files into an output file:
 
-`cat {{file1}} {{file2}} > {{target_file}}`
+`cat {{path/to/file1 path/to/file2 ...}} > {{path/to/output_file}}`
 
-- Append several files into the target file:
+- Append several files to an output file:
 
-`cat {{file1}} {{file2}} >> {{target_file}}`
+`cat {{path/to/file1 path/to/file2 ...}} >> {{path/to/output_file}}`
 
-- Number all output lines:
+- Copy the contents of a file into an output file without buffering:
 
-`cat -n {{file}}`
+`cat -u {{/dev/tty12}} > {{/dev/tty13}}`
+
+- Write `stdin` to a file:
+
+`cat - > {{path/to/file}}`

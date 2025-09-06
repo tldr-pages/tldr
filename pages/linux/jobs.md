@@ -1,12 +1,14 @@
 # jobs
 
-> BASH builtin for viewing information about processes spawned by the current shell.
+> Shell builtin for viewing information about processes spawned by the current shell.
+> Options other than `-l` and `-p` are exclusive to `bash`.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-jobs>.
 
 - View jobs spawned by the current shell:
 
 `jobs`
 
-- List jobs and their process ids:
+- List jobs and their process IDs:
 
 `jobs -l`
 
@@ -14,7 +16,7 @@
 
 `jobs -n`
 
-- Display process id of process group leader:
+- Display only process IDs:
 
 `jobs -p`
 

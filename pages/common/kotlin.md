@@ -1,7 +1,7 @@
 # kotlin
 
-> Kotlin Application Launcher.
-> More information <https://kotlinlang.org>.
+> Kotlin application launcher.
+> More information: <https://kotlinlang.org>.
 
 - Run a jar file:
 

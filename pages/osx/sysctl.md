@@ -1,6 +1,7 @@
 # sysctl
 
 > Access kernel state information.
+> More information: <https://keith.github.io/xcode-man-pages/sysctl.8.html>.
 
 - Show all available variables and their values:
 
@@ -16,7 +17,7 @@
 
 - Show available CPU features (MMX, SSE, SSE2, SSE3, AES, etc):
 
-`sysctl -n machdep.cpu.feature`
+`sysctl -n machdep.cpu.features`
 
 - Set a changeable kernel state variable:
 

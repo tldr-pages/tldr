@@ -2,8 +2,9 @@
 
 > A wrapper for `lrzip` to simplify compression of directories.
 > See also: `tar`, `lrzuntar`, `lrunzip`.
+> More information: <https://manned.org/lrztar>.
 
-- Archive a directory with `tar`, then compress:
+- Archive a directory with tar, then compress:
 
 `lrztar {{path/to/directory}}`
 

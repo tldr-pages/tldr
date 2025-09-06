@@ -11,11 +11,11 @@
 
 `elm repl`
 
-- Compile an Elm file, output the result to an index.html file:
+- Compile an Elm file, output the result to an `index.html` file:
 
 `elm make {{source}}`
 
-- Compile an Elm file, output the result to a Javascript file:
+- Compile an Elm file, output the result to a JavaScript file:
 
 `elm make {{source}} --output={{destination}}.js`
 
@@ -23,6 +23,6 @@
 
 `elm reactor`
 
-- Install Elm package from https://package.elm-lang.org:
+- Install Elm package from <https://package.elm-lang.org>:
 
 `elm install {{author}}/{{package}}`

@@ -2,10 +2,15 @@
 
 > Secure copy.
 > Copy files between hosts using Secure Copy Protocol over SSH.
+> More information: <https://man.openbsd.org/scp>.
 
 - Copy a local file to a remote host:
 
 `scp {{path/to/local_file}} {{remote_host}}:{{path/to/remote_file}}`
+
+- Use a specific port when connecting to the remote host:
+
+`scp -P {{port}} {{path/to/local_file}} {{remote_host}}:{{path/to/remote_file}}`
 
 - Copy a file from a remote host to a local directory:
 
@@ -23,6 +28,10 @@
 
 `scp {{path/to/local_file}} {{remote_username}}@{{remote_host}}:{{path/to/remote_directory}}`
 
-- Use a specific ssh private key for authentication with the remote host:
+- Use a specific SSH private key for authentication with the remote host:
 
-`scp -i {{~/.ssh/private_key}} {{local_file}} {{remote_host}}:{{/path/remote_file}}`
+`scp -i {{~/.ssh/private_key}} {{path/to/local_file}} {{remote_host}}:{{path/to/remote_file}}`
+
+- Use a specific proxy when connecting to the remote host:
+
+`scp -J {{proxy_username}}@{{proxy_host}} {{path/to/local_file}} {{remote_host}}:{{path/to/remote_file}}`

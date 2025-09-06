@@ -1,6 +1,7 @@
 # printenv
 
-> Print values of all or specific environment variables.
+> Print values of all or environment variables.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/printenv-invocation.html>.
 
 - Display key-value pairs of all environment variables:
 
@@ -12,4 +13,4 @@
 
 - Display the value of a variable and end with NUL instead of newline:
 
-`printenv --null {{HOME}}`
+`printenv {{[-0|--null]}} {{HOME}}`

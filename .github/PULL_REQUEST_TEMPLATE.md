@@ -1,10 +1,13 @@
-<!-- Thank you for sending a PR! -->
-<!-- Please perform the following checks and mark all the boxes accordingly. -->
-<!-- You can remove the checklist items that don't apply to your PR. -->
+<!--
+Thank you for contributing!
+Please fill in the following checklist, removing items that do not apply.
+See also https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md
+-->
 
-- [ ] The page (if new), does not already exist in the repo.
-- [ ] The page is in the correct platform directory (`common/`, `linux/`, etc.)
-- [ ] The page has 8 or fewer examples.
-- [ ] The PR title conforms to the recommended [templates](/tldr-pages/tldr/blob/master/CONTRIBUTING.md#commit-message).
-- [ ] The page follows the [content guidelines](/tldr-pages/tldr/blob/master/CONTRIBUTING.md#guidelines).
-- [ ] The page description includes a link to documentation or a homepage (if applicable).
+- [ ] The page(s) are in the correct platform directories: `common`, `linux`, `osx`, `windows`, `sunos`, `android`, etc.
+- [ ] The page(s) have at most 8 examples.
+- [ ] The page description(s) have links to documentation or a homepage.
+- [ ] The page(s) follow the [content guidelines](/tldr-pages/tldr/blob/main/CONTRIBUTING.md#guidelines).
+- [ ] The page(s) follow the [style guide](/tldr-pages/tldr/blob/main/contributing-guides/style-guide.md).
+- [ ] The PR title conforms to the recommended [templates](/tldr-pages/tldr/blob/main/CONTRIBUTING.md#commit-message-and-pr-title).
+- **Version of the command being documented (if known):**

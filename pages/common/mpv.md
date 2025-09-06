@@ -1,28 +1,37 @@
 # mpv
 
 > A audio/video player based on MPlayer.
-> More information: <https://mpv.io>.
+> See also: `mplayer`, `vlc`.
+> More information: <https://mpv.io/manual/stable/>.
 
-- Play a video or audio file:
+- Play a video or audio from a URL or file:
 
-`mpv {{file}}`
+`mpv {{url|path/to/file}}`
 
 - Jump backward/forward 5 seconds:
 
-`LEFT <or> RIGHT`
+`{{<ArrowLeft>|<ArrowRight>}}`
 
 - Jump backward/forward 1 minute:
 
-`DOWN <or> UP`
+`{{<ArrowDown>|<ArrowUp>}}`
 
-- Decrease or increase playback speed by 10 %:
+- Decrease or increase playback speed by 10%:
 
-`[ <or> ]`
+`{{<[>|<]>}}`
 
-- Play a file at a specified speed (0.01 to 100, default 1):
+- Add subtitles from a file:
 
-`mpv --speed {{speed}} {{file}}`
+`mpv --sub-file={{path/to/file}}`
+
+- Take a screenshot of the current frame (saved to `./mpv-shotNNNN.jpg` by default):
+
+`<s>`
+
+- Play a file at a specified speed (1 by default):
+
+`mpv --speed {{0.01..100}} {{path/to/file}}`
 
 - Play a file using a profile defined in the `mpv.conf` file:
 
-`mpv --profile {{profile_name}} {{file}}`
+`mpv --profile {{profile_name}} {{path/to/file}}`

@@ -15,14 +15,14 @@
 
 `locust --no-web --clients={{100}} --hatch-rate={{1}} --host={{http://example.com}}`
 
-- Start locust in master mode:
+- Start Locust in master mode:
 
 `locust --master --host={{http://example.com}}`
 
-- Connect locust slave to master:
+- Connect Locust slave to master:
 
 `locust --slave --host={{http://example.com}}`
 
-- Connect locust slave to master on a different machine:
+- Connect Locust slave to master on a different machine:
 
 `locust --slave --master-host={{master_hostname}} --host={{http://example.com}}`

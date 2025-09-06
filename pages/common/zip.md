@@ -1,35 +1,33 @@
 # zip
 
-> Package and compress (archive) files into zip file.
+> Package and compress (archive) files into a Zip archive.
+> See also: `unzip`.
+> More information: <https://manned.org/zip>.
 
-- Package and compress a directory and its contents, [r]ecursively:
+- Add files/directories to a specific archive:
 
-`zip -r {{compressed.zip}} {{/path/to/dir}}`
+`zip {{[-r|--recurse-paths]}} {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
-- E[x]clude unwanted files from being added to the compressed archive:
+- Remove files/directories from a specific archive:
 
-`zip -r {{compressed.zip}} {{path/to/dir}} -x {{path/to/exclude}}`
+`zip {{[-d|--delete]}} {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
-- Archive a directory and its contents with the highest level [9] of compression:
+- Archive files/directories excluding specified ones:
 
-`zip -r -{{9}} {{compressed.zip}} {{/path/to/dir}}`
+`zip {{[-r|--recurse-paths]}} {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}} {{[-x|--exclude]}} {{path/to/excluded_files_or_directories}}`
 
-- Package and compress multiple directories and files:
+- Archive files/directories with a specific compression level (`0` - the lowest, `9` - the highest):
 
-`zip -r {{compressed.zip}} {{/path/to/dir1 /path/to/dir2 /path/to/file}}`
+`zip {{[-r|--recurse-paths]}} -{{0..9}} {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
-- Create an encrypted archive (user will be prompted for a password):
+- Create an encrypted archive with a specific password:
 
-`zip -e -r {{compressed.zip}} {{path/to/dir}}`
+`zip {{[-re|--recurse-paths --encrypt]}} {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
-- Add files to an existing zip file:
+- Archive files/directories to a multi-part split Zip archive (e.g. 3 GB parts):
 
-`zip {{compressed.zip}} {{path/to/file}}`
+`zip {{[-rs|--recurse-paths --split-size]}} {{3g}} {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
-- Delete files from an existing zip file:
+- Print a specific archive contents:
 
-`zip -d {{compressed.zip}} "{{foo/*.tmp}}"`
-
-- Archive a directory and its contents to a multi-part [s]plit zip file (e.g. 3GB parts):
-
-`zip -r -s {{3g}} {{compressed.zip}} {{path/to/dir}}`
+`zip {{[-sf|--split-size --freshen]}} {{path/to/compressed.zip}}`

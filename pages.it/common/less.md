@@ -1,6 +1,7 @@
 # less
 
 > Apri un file per lettura interattiva, permettendo di scorrere e cercare testo al suo interno.
+> Maggiori informazioni: <https://greenwoodsoftware.com/less/>.
 
 - Apri un file:
 
@@ -8,28 +9,28 @@
 
 - Muoviti una pagina in giù / su:
 
-`<Spazio> (giù), b (su)`
+`{{<Space>|<b>}}`
 
 - Vai alla fine o all'inizio del file:
 
-`G (fine), g (inizio)`
+`{{<G>|<g>}}`
 
-- Cerca una stringa in avanti (usa `n`/`N` per muoverti al risultato successivo/precedente):
+- Cerca una stringa in avanti (usa `<n>`/`<N>` per muoverti al risultato successivo/precedente):
 
-`/{{stinga}}`
+`</>{{stinga}}`
 
-- Cerca una stringa indietro (usa `n`/`N` per muoverti al risultato successivo/precedente):
+- Cerca una stringa indietro (usa `<n>`/`<N>` per muoverti al risultato successivo/precedente):
 
-`?{{stringa}}`
+`<?>{{stringa}}`
 
 - Aggiorna il file dinamicamente:
 
-`F`
+`<F>`
 
 - Apri il file in un editor di testo:
 
-`v`
+`<v>`
 
 - Esci:
 
-`q`
+`<q>`

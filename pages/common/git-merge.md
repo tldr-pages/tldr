@@ -3,13 +3,13 @@
 > Merge branches.
 > More information: <https://git-scm.com/docs/git-merge>.
 
-- Merge a branch with your current branch:
+- Merge a branch into your current branch:
 
 `git merge {{branch_name}}`
 
 - Edit the merge message:
 
-`git merge -e {{branch_name}}`
+`git merge {{[-e|--edit]}} {{branch_name}}`
 
 - Merge a branch and create a merge commit:
 
@@ -18,3 +18,7 @@
 - Abort a merge in case of conflicts:
 
 `git merge --abort`
+
+- Merge using a specific strategy:
+
+`git merge {{[-s|--strategy]}} {{strategy}} {{[-X|--strategy-option]}} {{strategy_option}} {{branch_name}}`

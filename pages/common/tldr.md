@@ -1,16 +1,37 @@
 # tldr
 
-> Simplified man pages.
-> More information: <https://tldr.sh>.
+> Display simple help pages for command-line tools from the tldr-pages project.
+> Note: The `--language` and `--list` options are not required by the client specification, but most clients implement them.
+> More information: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.
 
-- Get typical usages of a command (hint: this is how you got here!):
+- Print the tldr page for a specific command (hint: this is how you got here!):
 
 `tldr {{command}}`
 
-- Show the tar tldr page for linux:
+- Print the tldr page for a specific subcommand:
 
-`tldr -p {{linux}} {{tar}}`
+`tldr {{command}} {{subcommand}}`
 
-- Get help for a git subcommand:
+- Print the tldr page for a command in the given language (if available, otherwise fall back to English):
 
-`tldr {{git checkout}}`
+`tldr {{[-L|--language]}} {{language_code}} {{command}}`
+
+- Print the tldr page for a command from a specific platform:
+
+`tldr {{[-p|--platform]}} {{android|common|freebsd|linux|osx|netbsd|openbsd|sunos|windows}} {{command}}`
+
+- Update the local cache of tldr pages:
+
+`tldr {{[-u|--update]}}`
+
+- List all pages for the current platform and `common`:
+
+`tldr {{[-l|--list]}}`
+
+- List all available subcommand pages for a command:
+
+`tldr {{[-l|--list]}} | grep {{command}} | column`
+
+- Print the tldr page for a random command:
+
+`tldr {{[-l|--list]}} | shuf {{[-n|--head-count]}} 1 | xargs tldr`

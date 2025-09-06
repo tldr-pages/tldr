@@ -1,15 +1,16 @@
 # atq
 
 > Show jobs scheduled by `at` or `batch` commands.
+> More information: <https://manned.org/atq>.
 
 - Show the current user's scheduled jobs:
 
 `atq`
 
-- Show jobs from queue named 'a' (queues have single-character names):
+- Show jobs from the 'a' [q]ueue (queues have single-character names):
 
 `atq -q {{a}}`
 
-- Show jobs of all users (run as super user):
+- Show jobs of all users (run as superuser):
 
 `sudo atq`

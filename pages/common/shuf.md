@@ -1,19 +1,20 @@
 # shuf
 
 > Generate random permutations.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/shuf-invocation.html>.
 
 - Randomize the order of lines in a file and output the result:
 
-`shuf {{filename}}`
+`shuf {{path/to/file}}`
 
 - Only output the first 5 entries of the result:
 
-`shuf -n {{5}} {{filename}}`
+`shuf {{[-n|--head-count]}} 5 {{path/to/file}}`
 
 - Write the output to another file:
 
-`shuf {{filename}} -o {{output_filename}}`
+`shuf {{path/to/input_file}} {{[-o|--output]}} {{path/to/output_file}}`
 
-- Generate random numbers in range:
+- Generate 3 random numbers in the range 1-10 (inclusive):
 
-`shuf -i {{1-10}}`
+`shuf {{[-n|--head-count]}} 3 {{[-i|--input-range]}} 1-10 {{[-r|--repeat]}}`

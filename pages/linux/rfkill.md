@@ -1,6 +1,7 @@
 # rfkill
 
 > Enable and disable wireless devices.
+> More information: <https://manned.org/rfkill>.
 
 - List devices:
 
@@ -8,7 +9,7 @@
 
 - Filter by columns:
 
-`rfkill -o {{ID,TYPE,DEVICE}}`
+`rfkill {{[-o|--output]}} {{ID,TYPE,DEVICE}}`
 
 - Block devices by type (e.g. bluetooth, wlan):
 
@@ -20,4 +21,4 @@
 
 - Output in JSON format:
 
-`rfkill -J`
+`rfkill {{[-J|--json]}}`

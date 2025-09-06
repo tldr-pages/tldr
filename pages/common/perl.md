@@ -3,30 +3,18 @@
 > The Perl 5 language interpreter.
 > More information: <https://www.perl.org>.
 
-- Parse and execute a Perl script:
+- Print lines from `stdin` [m/] matching `regex1` and case insensitive [/i] `regex2`:
 
-`perl {{script.pl}}`
+`perl -n -e 'print if m/{{regex1}}/ and m/{{regex2}}/i'`
 
-- Check syntax errors on a Perl script:
+- Say [-E] first match group, using a `regex`, ignoring space in `regex` [/x]:
 
-`perl -c {{script.pl}}`
+`perl -n -E 'say $1 if m/{{before}} ( {{group_regex}} ) {{after}}/x'`
 
-- Parse and execute a perl statement:
+- [-i]n-place, with backup, [s/] substitute all occurrence [/g] of `regex` with replacement:
 
-`perl -e {{perl_statement}}`
+`perl -i'.bak' -p -e 's/{{regex}}/{{replacement}}/g' {{path/to/files}}`
 
-- Run a Perl script in debug mode, using `perldebug`:
+- Use perl's inline documentation, some pages also available via manual pages on Linux:
 
-`perl -d {{script.pl}}`
-
-- Loo[p] over all lines of a file, editing them [i]n-place using a find/replace [e]xpression:
-
-`perl -p -i -e 's/{{find}}/{{replace}}/g' {{filename}}`
-
-- Run a find/replace expression on a file, saving the original file with a given extension:
-
-`perl -p -i'.old' -e 's/{{find}}/{{replace}}/g' {{filename}}`
-
-- Run a multi-line find/replace expression on a file, and save the result in another file:
-
-`perl -p0e 's/{{foo\nbar}}/{{foobar}}/g' {{input_file}} > {{output_file}}`
+`perldoc perlrun ; perldoc module ; perldoc -f splice; perldoc -q perlfaq1`

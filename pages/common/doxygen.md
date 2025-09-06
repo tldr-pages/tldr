@@ -1,9 +1,9 @@
 # doxygen
 
 > A documentation system for various programming languages.
-> More information: <http://www.doxygen.nl>.
+> More information: <https://www.doxygen.nl>.
 
-- Generate a default template configuration file "Doxyfile":
+- Generate a default template configuration file `Doxyfile`:
 
 `doxygen -g`
 

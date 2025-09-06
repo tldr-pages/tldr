@@ -1,11 +1,12 @@
 # mkdir
 
-> Creates a directory.
+> Create a directory.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/mkdir>.
 
 - Create a directory:
 
-`mkdir {{directory_name}}`
+`mkdir {{path\to\directory}}`
 
-- Recursively create a nested directory tree:
+- Create a nested directory tree recursively:
 
-`mkdir {{path/to/sub_directory_name}}`
+`mkdir {{path\to\sub_directory}}`

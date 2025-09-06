@@ -1,6 +1,8 @@
 # vgcreate
 
 > Create volume groups combining multiple mass-storage devices.
+> See also: `lvm`.
+> More information: <https://manned.org/vgcreate>.
 
 - Create a new volume group called vg1 using the `/dev/sda1` device:
 

@@ -1,19 +1,29 @@
 # more
 
-> Open a file for interactive reading, allowing scrolling and search (in forward direction only).
+> Interactively display a file, allowing scrolling and searching.
+> See also: `less`.
+> More information: <https://manned.org/more.1p>.
 
 - Open a file:
 
-`more {{source_file}}`
+`more {{path/to/file}}`
 
-- Page down:
+- Display a specific line:
+
+`more +{{line_number}} {{path/to/file}}`
+
+- Go to the next page:
 
 `<Space>`
 
-- Search for a string (press `n` to go to the next match):
+- Search for a string (press `<n>` to go to the next match):
 
-`/{{something}}`
+`</>{{something}}<Enter>`
 
 - Exit:
 
-`q`
+`<q>`
+
+- Display help about interactive commands:
+
+`<h>`

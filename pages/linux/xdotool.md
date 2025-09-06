@@ -1,20 +1,21 @@
 # xdotool
 
-> Command line automation for X11.
+> Automate X11 actions.
+> More information: <https://manned.org/xdotool>.
 
 - Retrieve the X-Windows window ID of the running Firefox window(s):
 
 `xdotool search --onlyvisible --name {{firefox}}`
 
-- Click the right mouse button:
+- Perform a mouse `<RightClick>`:
 
 `xdotool click {{3}}`
 
-- Get the id of the currently active window:
+- Get the ID of the currently active window:
 
 `xdotool getactivewindow`
 
-- Focus on the window with id of 12345:
+- Focus on the window with ID of 12345:
 
 `xdotool windowfocus --sync {{12345}}`
 
@@ -22,6 +23,6 @@
 
 `xdotool type --delay {{500}} "Hello world"`
 
-- Press the enter key:
+- Press the `<Enter>` key:
 
 `xdotool key {{KP_Enter}}`

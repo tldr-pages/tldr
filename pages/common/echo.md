@@ -1,23 +1,29 @@
 # echo
 
 > Print given arguments.
+> See also: `printf`.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>.
 
-- Print a text message. Note: quotes are optional:
+- Print a text message. Note: Quotes are optional:
 
-`echo {{"Hello World"}}`
+`echo "{{Hello World}}"`
 
 - Print a message with environment variables:
 
-`echo {{"My path is $PATH"}}`
+`echo "{{My path is $PATH}}"`
 
 - Print a message without the trailing newline:
 
-`echo -n {{"Hello World"}}`
+`echo -n "{{Hello World}}"`
 
 - Append a message to the file:
 
-`echo {{"Hello World"}} >> {{file.txt}}`
+`echo "{{Hello World}}" >> {{file.txt}}`
 
 - Enable interpretation of backslash escapes (special characters):
 
-`echo -e {{"Column 1\tColumn 2"}}`
+`echo -e "{{Column 1\tColumn 2}}"`
+
+- Print the exit status of the last executed command (Note: In Windows Command Prompt and PowerShell the equivalent commands are `echo %errorlevel%` and `$lastexitcode` respectively):
+
+`echo $?`

@@ -1,35 +1,36 @@
 # cmd
 
 > The Windows command interpreter.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/cmd>.
 
-- Start a new instance of the command interpreter:
+- Start an interactive shell session:
 
 `cmd`
 
-- Run the specified command and then exit:
+- Execute specific [c]ommands:
 
-`cmd /c "{{command}}"`
+`cmd /c {{echo Hello world}}`
 
-- Run the specified command and then enter an interactive shell:
+- Execute a specific script:
 
-`cmd /k "{{command}}"`
+`cmd {{path\to\script.bat}}`
 
-- Disable the usage of `echo` in command output:
+- Execute specific commands and then enter an interactive shell:
+
+`cmd /k {{echo Hello world}}`
+
+- Start an interactive shell session where `echo` is disabled in command output:
 
 `cmd /q`
 
-- Enable or disable command extensions:
-
-`cmd /e:{{on|off}}`
-
-- Enable or disable file or directory autocompletion:
-
-`cmd /f:{{on|off}}`
-
-- Enable or disable environment variable expansion:
+- Start an interactive shell session with delayed [v]ariable expansion enabled or disabled:
 
 `cmd /v:{{on|off}}`
 
-- Force output to use unicode encoding:
+- Start an interactive shell session with command [e]xtensions enabled or disabled:
+
+`cmd /e:{{on|off}}`
+
+- Start an interactive shell session with used [u]nicode encoding:
 
 `cmd /u`

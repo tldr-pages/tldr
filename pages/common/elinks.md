@@ -1,15 +1,15 @@
 # elinks
 
-> A text based browser similar to lynx.
-> More information: <http://elinks.or.cz>.
+> A text based browser similar to `lynx`.
+> More information: <https://github.com/rkd77/elinks>.
 
-- Start elinks:
+- Start ELinks:
 
 `elinks`
 
 - Quit elinks:
 
-`Ctrl + C`
+`<Ctrl c>`
 
 - Dump output of webpage to console, colorizing the text with ANSI control codes:
 

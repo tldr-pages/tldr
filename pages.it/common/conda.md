@@ -1,27 +1,28 @@
 # conda
 
 > Gestione pacchetti, dipendenze ed ambiente per qualsiasi linguaggio di programmazione.
-> Maggiori informazioni: <https://github.com/conda/conda>.
+> Alcuni comandi aggiuntivi, come `create`, hanno la propria documentazione.
+> Maggiori informazioni: <https://docs.conda.io/projects/conda/en/latest/commands/index.html>.
 
 - Crea un nuovo ambiente, installandovi alcuni pacchetti:
 
-`conda create --name {{nome_ambiente}} {{python=2.7 matplotlib}}`
+`conda create {{[-n|--name]}} {{nome_ambiente}} {{python=3.9 matplotlib}}`
 
 - Elenca tutti gli ambienti:
 
-`conda info --envs`
+`conda info {{[-e|--envs]}}`
 
-- Attiva o disattiva un ambiente:
+- Attiva un ambiente:
 
-`conda {{activate|deactivate}} {{nome_ambiente}}`
+`conda activate {{nome_ambiente}}`
+
+- Disattiva un ambiente:
+
+`conda deactivate`
 
 - Elimina un ambiente rimuovendo anche tutti i pacchetti:
 
-`conda remove --name {{nome_ambiente}} --all`
-
-- Cerca un determinato pacchetto nei canali di conda:
-
-`conda search {{package_name}}`
+`conda remove {{[-n|--name]}} {{nome_ambiente}} --all`
 
 - Installa pacchetti nell'ambiente corrente:
 
@@ -33,4 +34,4 @@
 
 - Elimina pacchetti inutilizzati e cache:
 
-`conda clean --all`
+`conda clean {{[-a|--all]}}`

@@ -1,8 +1,9 @@
 # xman
 
 > Manual page viewer for X Window System.
+> More information: <https://manned.org/xman>.
 
-- Start xman in three-button window:
+- Start `xman` in three-button window:
 
 `xman`
 

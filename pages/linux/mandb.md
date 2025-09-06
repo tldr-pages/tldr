@@ -1,6 +1,7 @@
 # mandb
 
 > Manage the pre-formatted manual page database.
+> More information: <https://manned.org/mandb>.
 
 - Purge and process manual pages:
 

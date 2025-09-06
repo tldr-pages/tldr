@@ -1,14 +1,11 @@
 # arp
 
 > Mostra e gestisci la cache ARP di sistema.
+> Maggiori informazioni: <https://manned.org/arp.8>.
 
 - Mostra la tabella ARP corrente:
 
 `arp -a`
-
-- Elimina l'intera cache:
-
-`sudo arp -a -d`
 
 - Elimina una specifica voce:
 

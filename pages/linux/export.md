@@ -1,19 +1,24 @@
 # export
 
-> Command to mark shell variables in the current environment to be exported with any newly forked child processes.
+> Export shell variables to child processes.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-export>.
 
-- Set a new environment variable:
+- Set an environment variable:
 
 `export {{VARIABLE}}={{value}}`
 
-- Remove an environment variable:
+- Unset an environment variable:
 
 `export -n {{VARIABLE}}`
 
-- Mark a shell function for export:
+- Export a [f]unction to child processes:
 
 `export -f {{FUNCTION_NAME}}`
 
-- Append something to the PATH variable:
+- Append a pathname to the environment variable `PATH`:
 
 `export PATH=$PATH:{{path/to/append}}`
+
+- Display a list of active exported variables in shell command form:
+
+`export -p`

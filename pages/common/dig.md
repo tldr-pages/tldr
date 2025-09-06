@@ -1,22 +1,23 @@
 # dig
 
-> DNS Lookup utility.
+> DNS lookup utility.
+> More information: <https://manned.org/dig>.
 
 - Lookup the IP(s) associated with a hostname (A records):
 
 `dig +short {{example.com}}`
 
-- Lookup the mail server(s) associated with a given domain name (MX record):
+- Get a detailed answer for a given domain (A records):
 
-`dig +short {{example.com}} MX`
+`dig +noall +answer {{example.com}}`
 
-- Get all types of records for a given domain name:
+- Query a specific DNS record type associated with a given domain name:
 
-`dig {{example.com}} ANY`
+`dig +short {{example.com}} {{A|MX|TXT|CNAME|NS}}`
 
-- Specify an alternate DNS server to query:
+- Specify an alternate DNS server to query and optionally use DNS over TLS (DoT):
 
-`dig @{{8.8.8.8}} {{example.com}}`
+`dig {{+tls}} @{{1.1.1.1|8.8.8.8|9.9.9.9|...}} {{example.com}}`
 
 - Perform a reverse DNS lookup on an IP address (PTR record):
 
@@ -29,3 +30,7 @@
 - Perform iterative queries and display the entire trace path to resolve a domain name:
 
 `dig +trace {{example.com}}`
+
+- Query a DNS server over a non-standard [p]ort using the TCP protocol:
+
+`dig +tcp -p {{port}} @{{dns_server_ip}} {{example.com}}`

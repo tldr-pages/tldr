@@ -3,17 +3,17 @@
 > Text based IRC client.
 > More information: <https://irssi.org>.
 
-- Open irssi and connect to a server with a nickname:
+- Open Irssi and connect to a server with a nickname:
 
-`irssi -n {{nickname}} -c {{irc.example.com}}`
+`irssi {{[-n|--nick]}} {{nickname}} {{[-c|--connect]}} {{irc.example.com}}`
 
-- Open irssi and connect with a specific server on a given port:
+- Open Irssi and connect with a specific server on a given port:
 
-`irssi -c {{irc.example.com}} -p {{port}}`
+`irssi {{[-c|--connect]}} {{irc.example.com}} {{[-p|--port]}} {{port}}`
 
-- View the help:
+- Display help:
 
-`irssi --help`
+`irssi {{[-?|--help]}}`
 
 - Join a channel:
 

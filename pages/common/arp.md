@@ -1,19 +1,16 @@
 # arp
 
 > Show and manipulate your system's ARP cache.
+> More information: <https://manned.org/arp.8>.
 
-- Show current arp table:
+- Show the current ARP table:
 
 `arp -a`
 
-- Clear the entire cache:
-
-`sudo arp -a -d`
-
-- Delete a specific entry:
+- [d]elete a specific entry:
 
 `arp -d {{address}}`
 
-- Create an entry:
+- [s]et up a new entry in the ARP table:
 
 `arp -s {{address}} {{mac_address}}`

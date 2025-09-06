@@ -1,12 +1,17 @@
 # tshark
 
-> Packet analysis tool, CLI version of wireshark.
+> Packet analysis tool, CLI version of Wireshark.
+> More information: <https://tshark.dev/>.
 
 - Monitor everything on localhost:
 
 `tshark`
 
-- Only output captured packets matching a specific wireshark filter:
+- Only capture packets matching a specific capture filter:
+
+`tshark -f '{{udp port 53}}'`
+
+- Only show packets matching a specific output filter:
 
 `tshark -Y '{{http.request.method == "GET"}}'`
 
@@ -16,7 +21,7 @@
 
 - Specify the format of captured output:
 
-`tshark -T {{json|text|ps|…}}`
+`tshark -T {{json|text|ps|...}}`
 
 - Select specific fields to output:
 
@@ -28,4 +33,4 @@
 
 - Analyze packets from a file:
 
-`tshark -r {{file_name}}.pcap`
+`tshark -r {{path/to/file.pcap}}`

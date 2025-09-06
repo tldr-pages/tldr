@@ -1,6 +1,7 @@
 # df
 
 > Fornisce una panoramica dello spazio utilizzato dai file system sui dischi.
+> Maggiori informazioni: <https://manned.org/df.1posix>.
 
 - Mostra tutti i file system ed il loro utilizzo del disco:
 
@@ -12,4 +13,4 @@
 
 - Mostra il file system ed contenente il file o directory dato ed il suo utilizzo del disco:
 
-`df {{percorso/a/file_o_directory}}`
+`df {{percorso/del/file_o_directory}}`

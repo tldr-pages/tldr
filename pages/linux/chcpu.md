@@ -1,11 +1,12 @@
 # chcpu
 
 > Enable/disable a system's CPUs.
+> More information: <https://manned.org/chcpu>.
 
-- Disable CPUs via a list of CPU ID numbers:
+- Disable one or more CPUs by their IDs:
 
-`chcpu -d {{1,3}}`
+`chcpu {{[-d|--disable]}} {{1,3}}`
 
-- Enable a set of CPUs via a range of CPU ID numbers:
+- Enable one or more ranges of CPUs by their IDs:
 
-`chcpu -e {{1-10}}`
+`chcpu {{[-e|--enable]}} {{1-3,5-7}}`

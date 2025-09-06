@@ -3,11 +3,11 @@
 > A Laravel-based static site builder for PHP.
 > More information: <https://jigsaw.tighten.co>.
 
-- Initialise a project:
+- Initialize a project:
 
 `jigsaw init`
 
-- Initialise a project using a starter template:
+- Initialize a project using a starter template:
 
 `jigsaw init {{template_name}}`
 

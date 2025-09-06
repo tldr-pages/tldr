@@ -5,12 +5,12 @@
 
 - Compress executable:
 
-`upx {{file}}`
+`upx {{path/to/file}}`
 
 - Decompress executable:
 
-`upx -d {{file}}`
+`upx -d {{path/to/file}}`
 
-- Detailed help:
+- Display help:
 
 `upx --help`

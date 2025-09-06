@@ -1,7 +1,8 @@
 # apache2ctl
 
-> The CLI tool to administrate HTTP web server Apache.
-> This commmand comes with Debian based OSes, for RHEL based ones see `httpd`.
+> Administrate the Apache HTTP web server.
+> This command comes with Debian based OSes, for RHEL based ones see `httpd`.
+> More information: <https://manned.org/apache2ctl.8>.
 
 - Start the Apache daemon. Throw a message if it is already running:
 

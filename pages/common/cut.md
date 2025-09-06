@@ -1,27 +1,20 @@
 # cut
 
 > Cut out fields from `stdin` or files.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html>.
 
-- Cut out the first sixteen characters of each line of `stdin`:
+- Print a specific [c]haracter/[f]ield range of each line:
 
-`cut -c {{1-16}}`
+`{{command}} | cut --{{characters|fields}} {{1|1,10|1-10|1-|-10}}`
 
-- Cut out the first sixteen characters of each line of the given files:
+- Print a field range of each line with a specific delimiter:
 
-`cut -c {{1-16}} {{file}}`
+`{{command}} | cut {{[-d|--delimiter]}} "{{delimiter}}" {{[-f|--fields]}} {{1|1,10|1-10|1-|-10}}`
 
-- Cut out everything from the 3rd character to the end of each line:
+- Print a character range of each line of the specific file:
 
-`cut -c {{3-}}`
+`cut {{[-c|--characters]}} {{1}} {{path/to/file}}`
 
-- Cut out the fifth field of each line, using a colon as a field delimiter (default delimiter is tab):
+- Print specific fields of `NUL` terminated lines (e.g. as in `find . -print0`) instead of newlines:
 
-`cut -d'{{:}}' -f{{5}}`
-
-- Cut out the 2nd and 10th fields of each line, using a semicolon as a delimiter:
-
-`cut -d'{{;}}' -f{{2,10}}`
-
-- Cut out the fields 3 through to the end of each line, using a space as a delimiter:
-
-`cut -d'{{ }}' -f{{3-}}`
+`{{command}} | cut {{[-z|--zero-terminated]}} {{[-f|--fields]}} {{1}}`

@@ -2,6 +2,7 @@
 
 > Sends a signal to a process, usually related to stopping the process.
 > All signals except for SIGKILL and SIGSTOP can be intercepted by the process to perform a clean exit.
+> More information: <https://manned.org/kill.1posix>.
 
 - Terminate a program using the default SIGTERM (terminate) signal:
 
@@ -15,7 +16,7 @@
 
 `kill -{{1|HUP}} {{process_id}}`
 
-- Terminate a program using the SIGINT (interrupt) signal. This is typically initiated by the user pressing `Ctrl + C`:
+- Terminate a program using the SIGINT (interrupt) signal. This is typically initiated by the user pressing `<Ctrl c>`:
 
 `kill -{{2|INT}} {{process_id}}`
 

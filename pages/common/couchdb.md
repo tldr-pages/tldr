@@ -1,17 +1,17 @@
 # couchdb
 
-> Command line interface for Apache CouchDB database server.
+> Command-line interface for Apache CouchDB database server.
 > More information: <https://couchdb.apache.org>.
 
-- Start couchdb:
+- Start CouchDB:
 
 `couchdb`
 
-- Start couchdb interactive shell:
+- Start CouchDB interactive shell:
 
 `couchdb -i`
 
-- Start couchdb as a background process:
+- Start CouchDB as a background process:
 
 `couchdb -b`
 

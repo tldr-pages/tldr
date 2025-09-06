@@ -1,36 +1,36 @@
 # xz
 
-> Compress or decompress .xz and .lzma files.
-> More information: <https://tukaani.org/xz/format.html>.
+> Compress or decompress XZ and LZMA files.
+> More information: <https://manned.org/xz>.
 
-- Compress a file to the xz file format:
+- Compress a file using xz:
 
-`xz {{file}}`
+`xz {{path/to/file}}`
 
-- Decompress a xz file:
+- Decompress an XZ file:
 
-`xz -d {{file.xz}}`
+`xz {{[-d|--decompress]}} {{path/to/file.xz}}`
 
-- Compress a file to the lzma file format:
+- Compress a file using lzma:
 
-`xz --format=lzma {{file}}`
+`xz {{[-F|--format]}} lzma {{path/to/file}}`
 
-- Decompress an lzma file:
+- Decompress an LZMA file:
 
-`xz -d --format=lzma {{file.lzma}}`
+`xz {{[-d|--decompress]}} {{[-F|--format]}} lzma {{path/to/file.lzma}}`
 
-- Decompress a file and write to `stdout`:
+- Decompress a file and write to `stdout` (implies `--keep`):
 
-`xz -dc {{file.xz}}`
+`xz {{[-d|--decompress]}} {{[-c|--stdout]}} {{path/to/file.xz}}`
 
 - Compress a file, but don't delete the original:
 
-`xz -k {{file}}`
+`xz {{[-k|--keep]}} {{path/to/file}}`
 
 - Compress a file using the fastest compression:
 
-`xz -0 {{file}}`
+`xz -0 {{path/to/file}}`
 
 - Compress a file using the best compression:
 
-`xz -9 {{file}}`
+`xz -9 {{path/to/file}}`

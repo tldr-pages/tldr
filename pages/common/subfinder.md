@@ -1,25 +1,25 @@
 # subfinder
 
-> A subdomain discovery tool that discovers valid subdomains for websites.
+> Discover valid subdomains for websites.
 > Designed as a passive framework to be useful for bug bounties and safe for penetration testing.
-> More information: <https://github.com/subfinder/subfinder>.
+> More information: <https://docs.projectdiscovery.io/tools/subfinder/running>.
 
 - Find subdomains for a specific domain:
 
-`subfinder -d {{example.com}}`
+`subfinder {{[-d|-domain]}} {{example.com}}`
 
 - Show only the subdomains found:
 
-`subfinder --silent -d {{example.com}}`
+`subfinder -silent {{[-d|-domain]}} {{example.com}}`
 
-- Use bruteforcing to find subdomains:
+- Show only active subdomains:
 
-`subfinder -d {{example.com}} -b`
+`subfinder {{[-nW|-active]}} {{[-d|-domain]}} {{example.com}}`
 
-- Remove wildcard subdomains:
+- Use all sources for enumeration:
 
-`subfinder -nW -d {{example.com}}`
+`subfinder -all {{[-d|-domain]}} {{example.com}}`
 
-- Use a given comma-separated list of resolvers:
+- Use a given comma-separated list of [r]esolvers:
 
-`subfinder -r {{8.8.8.8}},{{1.1.1.1}} -d {{example.com}}`
+`subfinder -r {{8.8.8.8,1.1.1.1,...}} {{[-d|-domain]}} {{example.com}}`

@@ -1,0 +1,9 @@
+# arch
+
+> সিস্টেমের আর্কিটেকচারের নাম দেখানো।
+> `uname` ওয়েবসাইটে দেখানো যাক।
+> আরও তথ্য পাবেন: <https://www.gnu.org/software/coreutils/manual/html_node/arch-invocation.html>।
+
+- সিস্টেম আর্কিটেকচার দেখানো:
+
+`arch`

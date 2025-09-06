@@ -1,16 +1,37 @@
 # emacs
 
 > The extensible, customizable, self-documenting, real-time display editor.
+> See also: `emacsclient`.
 > More information: <https://www.gnu.org/software/emacs>.
 
-- Open emacs in console mode (without X window):
+- Start Emacs and open a file:
 
-`emacs -nw`
+`emacs {{path/to/file}}`
 
-- Open a file in emacs:
+- Open a file at a specified line number:
 
-`emacs {{filename}}`
+`emacs +{{line_number}} {{path/to/file}}`
 
-- Exit emacs:
+- Run an Emacs Lisp file as a script:
 
-`C-x C-c`
+`emacs --script {{path/to/file.el}}`
+
+- Start Emacs in console mode (without an X window):
+
+`emacs {{[-nw|--no-window-system]}}`
+
+- Start an Emacs server in the background (accessible via `emacsclient`):
+
+`emacs --daemon`
+
+- Stop a running Emacs server and all its instances, asking for confirmation on unsaved files:
+
+`emacsclient --eval '(save-buffers-kill-emacs)'`
+
+- Save a file in Emacs:
+
+`<Ctrl x><Ctrl s>`
+
+- Quit Emacs:
+
+`<Ctrl x><Ctrl c>`

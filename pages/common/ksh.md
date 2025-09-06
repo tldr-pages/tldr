@@ -1,21 +1,25 @@
 # ksh
 
-> Korn Shell.
-> `bash` and `sh`-compatible command line interpreter.
-> More information: <http://kornshell.com>.
+> Korn Shell, a Bash-compatible command-line interpreter.
+> See also: `!`, `^`.
+> More information: <https://manned.org/ksh>.
 
-- Start interactive command line interpreter:
+- Start an interactive shell session:
 
 `ksh`
 
-- Execute a command:
+- Execute specific [c]ommands:
 
-`ksh -c {{command}}`
+`ksh -c "{{echo 'ksh is executed'}}"`
 
-- Run commands from a file:
+- Execute a specific script:
 
-`ksh {{file}}`
+`ksh {{path/to/script.ksh}}`
 
-- Run commands from a file and print them as they are executed:
+- Check a specific script for syntax errors without executing it:
 
-`ksh -x {{file}}`
+`ksh -n {{path/to/script.ksh}}`
+
+- Execute a specific script, printing each command in the script before executing it:
+
+`ksh -x {{path/to/script.ksh}}`

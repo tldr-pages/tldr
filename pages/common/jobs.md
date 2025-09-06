@@ -1,6 +1,7 @@
 # jobs
 
 > Display status of jobs in the current session.
+> More information: <https://manned.org/jobs>.
 
 - Show status of all jobs:
 
@@ -8,7 +9,7 @@
 
 - Show status of a particular job:
 
-`jobs {{job_id}}`
+`jobs %{{job_id}}`
 
 - Show status and process IDs of all jobs:
 

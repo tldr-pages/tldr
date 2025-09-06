@@ -1,21 +1,21 @@
 # choco
 
-> A command line interface for the Chocolatey package manager.
-> See `choco install`, `choco upgrade` and other pages for additional information.
+> The Chocolatey package manager.
+> Some subcommands such as `install` have their own usage documentation.
 > More information: <https://chocolatey.org>.
 
-- Execute Chocolatey command:
+- Execute a Chocolatey command:
 
 `choco {{command}}`
 
-- Call general help:
+- Display help:
 
 `choco -?`
 
-- Call help on a specific command:
+- Display help for a specific command:
 
 `choco {{command}} -?`
 
-- Check the Chocolatey version:
+- Display version:
 
 `choco --version`

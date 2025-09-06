@@ -1,19 +1,20 @@
 # tee
 
-> Read from standard input and write to standard output and files (or commands).
+> Read from `stdin` and write to `stdout` and files (or commands).
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/tee-invocation.html>.
 
-- Copy standard input to each FILE, and also to standard output:
+- Copy `stdin` to each file, and also to `stdout`:
 
-`echo "example" | tee {{FILE}}`
+`echo "example" | tee {{path/to/file}}`
 
-- Append to the given FILEs, do not overwrite:
+- Append to the given files, do not overwrite:
 
-`echo "example" | tee -a {{FILE}}`
+`echo "example" | tee {{[-a|--append]}} {{path/to/file}}`
 
-- Print standard input to the terminal, and also pipe it into another program for further processing:
+- Print `stdin` to the terminal, and also pipe it into another program for further processing:
 
 `echo "example" | tee {{/dev/tty}} | {{xargs printf "[%s]"}}`
 
 - Create a directory called "example", count the number of characters in "example" and write "example" to the terminal:
 
-`echo "example" | tee >(xargs mkdir) >(wc -c)`
+`echo "example" | tee >(xargs mkdir) >(wc {{[-c|--bytes]}})`

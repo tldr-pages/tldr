@@ -1,6 +1,6 @@
 # pup
 
-> Command line HTML parsing tool.
+> HTML parsing tool.
 > More information: <https://github.com/ericchiang/pup>.
 
 - Transform a raw HTML file into a cleaned, indented, and colored format:
@@ -11,7 +11,7 @@
 
 `cat {{index.html}} | pup '{{tag}}'`
 
-- Filter HTML by id:
+- Filter HTML by ID:
 
 `cat {{index.html}} | pup '{{div#id}}'`
 

@@ -1,10 +1,11 @@
 # ansible
 
-> Gestisci gruppi di computer da remoto via SSH.
-> Usa il file /etc/ansible/hosts per aggiungere nuovi gruppi/host.
-> Maggiori informazioni: <https://www.ansible.com/>.
+> Gestisce gruppi di computer da remoto via SSH.
+> Usa il file `/etc/ansible/hosts` per aggiungere nuovi gruppi/host.
+> Alcuni comandi aggiuntivi, come `galaxy`, hanno la propria documentazione.
+> Maggiori informazioni: <https://docs.ansible.com/ansible/latest/cli/ansible.html>.
 
-- Lista gli host appartenenti ad un gruppo:
+- Elenca gli host appartenenti ad un gruppo:
 
 `ansible {{gruppo}} --list-hosts`
 
@@ -12,7 +13,7 @@
 
 `ansible {{gruppo}} -m ping`
 
-- Mostra informazioni su di un gruppo di host invocando il modulo "setup":
+- Mostra informazioni su un gruppo di host invocando il modulo "setup":
 
 `ansible {{gruppo}} -m setup`
 
@@ -27,3 +28,7 @@
 - Esegui un comando usando un file di inventory personalizzato:
 
 `ansible {{gruppo}} -i {{file_inventory}} -m command -a '{{comando}}'`
+
+- Elenca i gruppi in un inventory:
+
+`ansible localhost -m debug -a '{{var=groups.keys()}}'`

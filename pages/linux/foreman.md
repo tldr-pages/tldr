@@ -1,6 +1,7 @@
 # foreman
 
 > Manage Procfile-based applications.
+> More information: <https://manned.org/foreman>.
 
 - Start an application with the Procfile in the current directory:
 
@@ -8,7 +9,7 @@
 
 - Start an application with a specified Procfile:
 
-`foreman start -f {{Procfile}}`
+`foreman start {{[-f|--procfile]}} {{Procfile}}`
 
 - Start a specific application:
 
@@ -24,4 +25,4 @@
 
 - Start all processes except the one named "worker":
 
-`foreman start -m all=1,{{worker}}=0`
+`foreman start {{[-m|--formation]}} all=1,{{worker}}=0`

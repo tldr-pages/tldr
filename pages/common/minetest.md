@@ -1,16 +1,16 @@
 # minetest
 
 > Multiplayer infinite-world block sandbox.
-> See also `minetestserver`, the server-only binary.
-> More information: <https://wiki.minetest.net/Minetest>.
+> See also: `minetestserver`, the server-only binary.
+> More information: <https://wiki.minetest.org/Minetest>.
 
-- Start minetest in client mode:
+- Start Minetest in client mode:
 
 `minetest`
 
-- Start minetest in server mode:
+- Start Minetest in server mode by hosting a specific world:
 
-`minetest --server`
+`minetest --server --world {{name}}`
 
 - Write logs to a specific file:
 

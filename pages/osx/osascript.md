@@ -1,6 +1,7 @@
 # osascript
 
-> Run AppleScript or JavaScript for Automation (JXA) from the command line.
+> Run AppleScript or JavaScript for Automation (JXA).
+> More information: <https://keith.github.io/xcode-man-pages/osascript.1.html>.
 
 - Run an AppleScript command:
 
@@ -20,7 +21,7 @@
 
 - Run a JavaScript command:
 
-`osascript -l JavaScript -e '{{console.log("Hello world");}}'`
+`osascript -l JavaScript -e "{{console.log('Hello world');}}"`
 
 - Run a JavaScript file:
 

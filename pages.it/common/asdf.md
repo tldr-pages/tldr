@@ -1,19 +1,19 @@
 # asdf
 
 > Interfaccia da linea di comando per gestire le versionai di diversi pacchetti.
-> Maggiori informazioni: <https://asdf-vm.com>.
+> Maggiori informazioni: <https://asdf-vm.com/manage/commands.html>.
 
 - Elenca tutti i plugin disponibili:
 
-`asdf plugin-list-all`
+`asdf plugin list all`
 
 - Installa un plugin:
 
-`asdf plugin-add {{nome}}`
+`asdf plugin add {{nome}}`
 
 - Elenca tutte le versioni disponibili per un pacchetto:
 
-`asdf list-all {{nome}}`
+`asdf list all {{nome}}`
 
 - Installa una specifica versione di un pacchetto:
 
@@ -21,8 +21,12 @@
 
 - Imposta la versione globale per un pacchetto:
 
-`asdf global {{nome}} {{versiona}}`
+`asdf set -u {{nome}} {{versiona}}`
 
 - Imposta la versiona locale per un pacchetto:
 
-`asdf local {{nome}} {{versiona}}`
+`asdf set {{nome}} {{versiona}}`
+
+- Elenca la versione utilizzata per un pacchetto:
+
+`asdf current {{nome}}`

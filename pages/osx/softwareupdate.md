@@ -1,19 +1,20 @@
 # softwareupdate
 
-> A tool for updating MacOS App Store apps via the command line.
+> Update macOS App Store apps.
+> More information: <https://keith.github.io/xcode-man-pages/softwareupdate.8.html>.
 
 - List all available updates:
 
-`softwareupdate -l`
+`softwareupdate --list`
 
 - Download and install all updates:
 
-`softwareupdate -ia`
+`softwareupdate --install --all`
 
-- Download and install all recommended updates:
+- Download and install all [r]ecommended updates:
 
-`softwareupdate -ir`
+`softwareupdate --install --recommended`
 
 - Download and install a specific app:
 
-`softwareupdate -i {{update_name}}`
+`softwareupdate --install {{update_name}}`

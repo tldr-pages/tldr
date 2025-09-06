@@ -1,6 +1,7 @@
 # apt-file
 
-> Search for files in apt packages, including ones not yet installed.
+> Search for files in `apt` packages, including ones not yet installed.
+> More information: <https://manned.org/apt-file.1>.
 
 - Update the metadata database:
 
@@ -8,8 +9,12 @@
 
 - Search for packages that contain the specified file or path:
 
-`apt-file search {{part/of/filename}}`
+`apt-file {{search|find}} {{path/to/file}}`
 
 - List the contents of a specific package:
 
-`apt-file list {{package_name}}`
+`apt-file {{show|list}} {{package}}`
+
+- Search for packages that match the `regex`:
+
+`apt-file {{search|find}} {{[-x|--regexp]}} {{regex}}`

@@ -2,27 +2,36 @@
 
 > Print and concatenate files.
 > A `cat` clone with syntax highlighting and Git integration.
+> More information: <https://github.com/sharkdp/bat>.
 
-- Print the contents of a file to the standard output:
+- Pretty print the contents of one or more files to `stdout`:
 
-`bat {{file}}`
+`bat {{path/to/file1 path/to/file2 ...}}`
 
 - Concatenate several files into the target file:
 
-`bat {{file1}} {{file2}} > {{target_file}}`
+`bat {{path/to/file1 path/to/file2 ...}} > {{path/to/target_file}}`
 
-- Append several files into the target file:
+- Remove decorations and disable paging (`--style plain` can be replaced with `-p`, or both options with `-pp`):
 
-`bat {{file1}} {{file2}} >> {{target_file}}`
+`bat --style plain --pager never {{path/to/file}}`
 
-- Number all output lines:
+- Highlight a specific line or a range of lines with a different background color:
 
-`bat -n {{file}}`
+`bat {{[-H|--highlight-line]}} {{10|5:10|:10|10:|10:+5}} {{path/to/file}}`
 
-- Syntax highlight a json file:
+- Show non-printable characters like space, tab or newline:
 
-`bat --language json {{file.json}}`
+`bat {{[-A|--show-all]}} {{path/to/file}}`
+
+- Remove all decorations except line numbers in the output:
+
+`bat {{[-n|--number]}} {{path/to/file}}`
+
+- Syntax highlight a JSON file by explicitly setting the language:
+
+`bat {{[-l|--language]}} json {{path/to/file.json}}`
 
 - Display all supported languages:
 
-`bat --list-languages`
+`bat {{[-L|--list-languages]}}`

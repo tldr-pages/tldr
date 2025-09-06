@@ -1,6 +1,7 @@
 # apg
 
-> Creates arbitrarily complex random passwords.
+> Create arbitrarily complex random passwords.
+> More information: <https://manned.org/apg>.
 
 - Create random passwords (default password length is 8):
 
@@ -20,4 +21,4 @@
 
 - Create a password that doesn't appear in a dictionary (the dictionary file has to be provided):
 
-`apg -r {{dictionary_file}}`
+`apg -r {{path/to/dictionary_file}}`

@@ -1,6 +1,7 @@
 # waitress-serve
 
 > Pure Python WSGI HTTP Server.
+> More information: <https://docs.pylonsproject.org/projects/waitress/en/latest/runner.html>.
 
 - Run a Python web app:
 
@@ -22,6 +23,6 @@
 
 `waitress-serve --call {{import.path.wsgi_factory}}`
 
-- Set the URL scheme to https:
+- Use the HTTPS URL scheme:
 
 `waitress-serve --url-scheme={{https}} {{import.path:wsgi_func}}`

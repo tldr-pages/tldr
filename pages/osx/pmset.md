@@ -2,6 +2,7 @@
 
 > Configure macOS power management settings, as one might do in System Preferences > Energy Saver.
 > Commands that modify settings must begin with `sudo`.
+> More information: <https://keith.github.io/xcode-man-pages/pmset.1.html>.
 
 - Display the current power management settings:
 
@@ -10,6 +11,10 @@
 - Display the current power source and battery levels:
 
 `pmset -g batt`
+
+- Put display to sleep immediately:
+
+`pmset displaysleepnow`
 
 - Set display to never sleep when on charger power:
 

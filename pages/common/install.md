@@ -2,23 +2,28 @@
 
 > Copy files and set attributes.
 > Copy files (often executable) to a system location like `/usr/local/bin`, give them the appropriate permissions/ownership.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/install-invocation.html>.
 
-- Copy files to destination:
+- Copy files to the destination:
 
-`install {{path/to/source}} {{path/to/destination}}`
+`install {{path/to/source_file1 path/to/source_file2 ...}} {{path/to/destination}}`
 
-- Copy files to destination, setting their ownership:
+- Copy files to the destination, setting their ownership:
 
-`install -o {{user}} {{path/to/source}} {{path/to/destination}}`
+`install {{[-o|--owner]}} {{user}} {{path/to/source_file1 path/to/source_file2 ...}} {{path/to/destination}}`
 
-- Copy files to destination, setting their group ownership:
+- Copy files to the destination, setting their group ownership:
 
-`install -g {{user}} {{path/to/source}} {{path/to/destination}}`
+`install {{[-g|--group]}} {{user}} {{path/to/source_file1 path/to/source_file2 ...}} {{path/to/destination}}`
 
-- Copy files to destination, setting their `mode`:
+- Copy files to the destination, setting their `mode`:
 
-`install -m {{+x}} {{path/to/source}} {{path/to/destination}}`
+`install {{[-m|--mode]}} {{+x}} {{path/to/source_file1 path/to/source_file2 ...}} {{path/to/destination}}`
 
-- Copy files and apply access/modification times of source to destination:
+- Copy files and apply access/modification times of source to the destination:
 
-`install -p {{path/to/source}} {{path/to/destination}}`
+`install {{[-p|--preserve-timestamps]}} {{path/to/source_file1 path/to/source_file2 ...}} {{path/to/destination}}`
+
+- Copy files and create the directories at the destination if they don't exist:
+
+`install -D {{path/to/source_file1 path/to/source_file2 ...}} {{path/to/destination}}`

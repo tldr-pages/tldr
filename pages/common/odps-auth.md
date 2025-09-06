@@ -1,18 +1,20 @@
 # odps auth
 
 > User authorities in ODPS (Open Data Processing Service).
+> See also: `odps`.
+> More information: <https://www.alibabacloud.com/help/doc-detail/27971.htm>.
 
 - Add a user to the current project:
 
-`add user {{user_name}};`
+`add user {{username}};`
 
 - Grant a set of authorities to a user:
 
-`grant {{action_list}} on {{object_type}} {{object_name}} to user {{user_name}};`
+`grant {{action_list}} on {{object_type}} {{object_name}} to user {{username}};`
 
 - Show authorities of a user:
 
-`show grants for {{user_name}};`
+`show grants for {{username}};`
 
 - Create a user role:
 
@@ -28,4 +30,4 @@
 
 - Grant a role to a user:
 
-`grant {{role_name}} to {{user_name}};`
+`grant {{role_name}} to {{username}};`

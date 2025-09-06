@@ -1,9 +1,9 @@
 # json5
 
-> A command-line tool for converting JSON5 files to JSON.
+> Convert JSON5 files to JSON.
 > More information: <https://json5.org>.
 
-- Convert JSON5 stdin to JSON `stdout`:
+- Convert JSON5 `stdin` to JSON `stdout`:
 
 `echo {{input}} | json5`
 
@@ -23,6 +23,6 @@
 
 `json5 --space {{indent_amount}}`
 
-- View available options:
+- Display help:
 
 `json5 --help`

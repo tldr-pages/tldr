@@ -1,10 +1,11 @@
 # airport
 
 > Wireless network configuration utility.
+> More information: <https://ss64.com/mac/airport.html>.
 
 - Show current wireless status information:
 
-`airport -I`
+`airport --getinfo`
 
 - Sniff wireless traffic on channel 1:
 
@@ -12,8 +13,8 @@
 
 - Scan for available wireless networks:
 
-`airport -s`
+`airport --scan`
 
 - Disassociate from current airport network:
 
-`sudo airport -z`
+`sudo airport --disassociate`

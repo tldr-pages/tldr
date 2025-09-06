@@ -1,8 +1,8 @@
 # minetestserver
 
 > Multiplayer infinite-world block sandbox server.
-> See also `minetest`, the graphical client.
-> More information: <https://wiki.minetest.net/Setting_up_a_server>.
+> See also: `minetest`, the graphical client.
+> More information: <https://wiki.minetest.org/Setting_up_a_server>.
 
 - Start the server:
 
@@ -12,7 +12,7 @@
 
 `minetestserver --world list`
 
-- Specify the world name to load:
+- Load the specified world:
 
 `minetestserver --world {{world_name}}`
 
@@ -20,7 +20,7 @@
 
 `minetestserver --gameid list`
 
-- Specify a game to use:
+- Use the specified game:
 
 `minetestserver --gameid {{game_id}}`
 

@@ -1,21 +1,37 @@
 # zsh
 
-> Z SHell.
-> `bash` and `sh`-compatible command line interpreter.
-> More information: <https://www.zsh.org>.
+> Z SHell, a Bash-compatible command-line interpreter.
+> See also: `bash`, `histexpand`.
+> More information: <https://zsh.sourceforge.io/Doc/Release/Invocation.html#Invocation>.
 
-- Start interactive command line interpreter:
+- Start an interactive shell session:
 
 `zsh`
 
-- Execute command passed as parameter:
+- Execute specific [c]ommands:
 
-`zsh -c {{command}}`
+`zsh -c "{{echo Hello world}}"`
 
-- Run commands from file (script):
+- Execute a specific script:
 
-`zsh {{file}}`
+`zsh {{path/to/script.zsh}}`
 
-- Run commands from file and print them as they are executed:
+- Check a specific script for syntax errors without executing it:
 
-`zsh -x {{file}}`
+`zsh --no-exec {{path/to/script.zsh}}`
+
+- Execute specific commands from `stdin`:
+
+`{{echo Hello world}} | zsh`
+
+- Execute a specific script, printing each command in the script before executing it:
+
+`zsh --xtrace {{path/to/script.zsh}}`
+
+- Start an interactive shell session in verbose mode, printing each command before executing it:
+
+`zsh --verbose`
+
+- Execute a specific command inside `zsh` with disabled glob patterns:
+
+`noglob {{command}}`

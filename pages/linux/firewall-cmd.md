@@ -1,23 +1,37 @@
 # firewall-cmd
 
-> The firewalld command line client.
+> The firewalld command-line client.
+> View and adapt the runtime or permanent firewall configuration state.
+> More information: <https://firewalld.org/documentation/man-pages/firewall-cmd>.
 
-- View the available firewall zones:
+- View all available firewall zones and rules in their runtime configuration state:
 
-`firewall-cmd --get-active-zones`
+`firewall-cmd --list-all-zones`
 
-- View the rules which are currently applied:
+- Permanently move the interface into the block zone, effectively blocking all communication:
 
-`firewall-cmd --list-all`
+`firewall-cmd --permanent --zone {{block}} --change-interface {{enp1s0}}`
 
-- Permanently open the port for a service in the specified zone (like port `443` when in the `public` zone):
+- Permanently open the port for a service in the specified zone (like port 443 when in the `public` zone):
 
-`firewall-cmd --permanent --zone={{public}} --add-service={{https}}`
+`firewall-cmd --permanent --zone {{public}} --add-service {{https}}`
 
-- Permanently close the port for a service in the specified zone (like port `80` when in the `public` zone):
+- Permanently close the port for a service in the specified zone (like port 80 when in the `public` zone):
 
-`firewall-cmd --permanent --zone={{public}} --remove-service={{http}}`
+`firewall-cmd --permanent --zone {{public}} --remove-service {{http}}`
 
-- Reload firewalld to force rule changes to take effect:
+- Permanently forward a port for incoming packets in the specified zone (like port 443 to 8443 when entering the `public` zone):
+
+`firewall-cmd --permanent --zone {{public}} --add-rich-rule 'rule family "{{ipv4|ipv6}}" forward-port port "{{443}}" protocol "{{udp|tcp}}" to-port "{{8443}}"'`
+
+- Reload firewalld to lose any runtime changes and force the permanent configuration to take effect immediately:
 
 `firewall-cmd --reload`
+
+- Save the runtime configuration state to the permanent configuration:
+
+`firewall-cmd --runtime-to-permanent`
+
+- Enable panic mode in case of Emergency. All traffic is dropped, any active connection will be terminated:
+
+`firewall-cmd --panic-on`

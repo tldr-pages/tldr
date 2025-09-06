@@ -19,6 +19,6 @@
 
 `bw get item {{github}}`
 
-- Crea una cartella in un vault bitwarden:
+- Crea una directory in un vault bitwarden:
 
-`{{echo -n '{"name":"Nome cartella"}' | base64}} | bw create folder`
+`{{echo -n '{"name":"Nome directory"}' | base64}} | bw create folder`

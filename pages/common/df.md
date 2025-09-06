@@ -1,15 +1,20 @@
 # df
 
-> Gives an overview of the file system disk space usage.
+> Display an overview of the filesystem disk space usage.
+> More information: <https://manned.org/df.1posix>.
 
-- Display all file systems and their disk usage:
+- Display all filesystems and their disk usage using 512-byte units:
 
 `df`
 
-- Display all file systems and their disk usage in human readable form:
-
-`df -h`
-
-- Display the file system and its disk usage containing the given file or directory:
+- Display the filesystem and its disk usage containing the given file or directory:
 
 `df {{path/to/file_or_directory}}`
+
+- Use 1024-byte units when writing space figures:
+
+`df -k`
+
+- Display information in a portable way:
+
+`df -P`

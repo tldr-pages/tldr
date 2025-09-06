@@ -1,17 +1,21 @@
 # nsenter
 
 > Run a new command in a running process' namespace.
-> Particularly useful for docker images or chroot jails.
-> More information: <https://github.com/jpetazzo/nsenter/>.
+> Particularly useful for Docker images or chroot jails.
+> More information: <https://manned.org/nsenter>.
 
-- Run command in existing processes network namespace:
+- Run a specific command using the same namespaces as an existing process:
 
-`nsenter -t {{pid}} -n {{command}} {{command_arguments}}`
+`nsenter {{[-t|--target]}} {{pid}} {{[-a|--all]}} {{command}} {{command_arguments}}`
 
-- Run a new command in an existing processes ps-table namespace:
+- Run a specific command in an existing process's mount|UTS|IPC|network|PID|user|cgroup|time namespace:
 
-`nsenter -t {{pid}} -p {{command}} {{command_arguments}}`
+`nsenter {{[-t|--target]}} {{pid}} --{{mount|uts|ipc|net|pid|user|cgroup}} {{command}} {{command_arguments}}`
 
-- Run command in existing processes IPC namespace:
+- Run a specific command in an existing process's UTS, time, and IPC namespaces:
 
-`nsenter -t {{pid}} -i {{command}} {{command_arguments}}`
+`nsenter {{[-t|--target]}} {{pid}} {{[-u|--uts]}} {{[-T|--time]}} {{[-i|--ipc]}} -- {{command}} {{command_arguments}}`
+
+- Run a specific command in an existing process's namespace by referencing procfs:
+
+`nsenter {{[-p|--pid=]}}/proc/{{pid}}/pid/net -- {{command}} {{command_arguments}}`

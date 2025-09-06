@@ -1,7 +1,7 @@
 # fastboot
 
-> Communicate with connected Android devices when in bootloader mode (the one place `adb` doesn't work).
-> More information: <https://android.googlesource.com/platform/system/core/+/master/fastboot/#fastboot>.
+> Communicate with connected Android devices when in bootloader mode (the one place ADB doesn't work).
+> More information: <https://cs.android.com/android/platform/superproject/+/main:system/core/fastboot>.
 
 - Unlock the bootloader:
 
@@ -17,12 +17,16 @@
 
 - Flash a given image:
 
-`fastboot flash {{file.zip}}`
+`fastboot flash {{path/to/file.img}}`
 
 - Flash a custom recovery image:
 
-`fastboot flash recovery {{file.img}}`
+`fastboot flash recovery {{path/to/file.img}}`
 
-- Display connected devices:
+- List connected devices:
 
 `fastboot devices`
+
+- Display all information of a device:
+
+`fastboot getvar all`

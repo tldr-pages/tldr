@@ -1,8 +1,9 @@
 # nethogs
 
 > Monitor bandwidth usage per process.
+> More information: <https://github.com/raboof/nethogs>.
 
-- Start nethogs as root (default device is eth0):
+- Start NetHogs as root (default device is `eth0`):
 
 `sudo nethogs`
 
@@ -12,7 +13,7 @@
 
 - Monitor bandwidth on multiple devices:
 
-`sudo nethogs {{device1}} {{device2}}`
+`sudo nethogs {{device1 device2 ...}}`
 
 - Specify refresh rate:
 

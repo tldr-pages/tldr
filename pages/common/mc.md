@@ -1,13 +1,11 @@
 # mc
 
-> Midnight Commander, a terminal based file manager.
-> Navigate the directory structure using the arrow keys, the mouse or by typing the commands into the terminal.
-> More information: <https://midnight-commander.org>.
+> `mc` can refer to multiple commands with the same name.
 
-- Start mc:
+- View documentation for MinIO client:
 
-`mc`
+`tldr mc.cli`
 
-- Start in black and white:
+- View documentation for Midnight Commander:
 
-`mc -b`
+`tldr mc.fm`

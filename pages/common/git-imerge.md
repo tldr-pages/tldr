@@ -1,6 +1,6 @@
-# git-imerge
+# git imerge
 
-> Perform a merge or rebase between two git branches incrementally.
+> Perform a merge or rebase between two Git branches incrementally.
 > Conflicts between branches are tracked down to pairs of individual commits, to simplify conflict resolution.
 > More information: <https://github.com/mhagger/git-imerge>.
 
@@ -26,4 +26,4 @@
 
 - Abort imerge operation, and return to the previous branch:
 
-`git-imerge remove && git checkout {{previous_branch}}`
+`git imerge remove && git checkout {{previous_branch}}`

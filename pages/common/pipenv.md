@@ -1,7 +1,7 @@
 # pipenv
 
 > Simple and unified Python development workflow.
-> Manages packages and the virtual environment for a project.
+> Manage packages and the virtual environment for a project.
 > More information: <https://pypi.org/project/pipenv>.
 
 - Create a new project:
@@ -14,20 +14,24 @@
 
 - Install a package:
 
-`pipenv install {{package_name}}`
+`pipenv install {{package}}`
 
-- Install all the dependencies for a project (including dev):
+- Install all the dependencies for a project:
+
+`pipenv install`
+
+- Install all the dependencies for a project (including dev packages):
 
 `pipenv install --dev`
 
 - Uninstall a package:
 
-`pipenv uninstall {{package_name}}`
+`pipenv uninstall {{package}}`
 
 - Start a shell within the created virtual environment:
 
 `pipenv shell`
 
-- Generate a requirements.txt for a project:
+- Generate a `requirements.txt` (list of dependencies) for a project:
 
 `pipenv lock --requirements`

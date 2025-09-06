@@ -1,6 +1,6 @@
 # virtualboxvm
 
-> The VirtualBox virtual machine management CLI.
+> Manage VirtualBox virtual machines.
 > More information: <https://www.virtualbox.org>.
 
 - Start a virtual machine:
@@ -13,9 +13,9 @@
 
 - Mount the specified DVD image file:
 
-`virtualboxvm --startvm {{name|uuid}} --dvd {{path/to/image_file}}`
+`virtualboxvm --startvm {{name|uuid}} --dvd {{path\to\image_file}}`
 
-- Display a command line window with debug information:
+- Display a command-line window with debug information:
 
 `virtualboxvm --startvm {{name|uuid}} --debug-command-line`
 

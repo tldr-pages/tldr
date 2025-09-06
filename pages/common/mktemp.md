@@ -1,16 +1,24 @@
 # mktemp
 
 > Create a temporary file or directory.
-> More information: <https://www.gnu.org/software/autogen/mktemp.html>.
+> More information: <https://man.openbsd.org/mktemp.1>.
 
-- Create an empty temporary file and return the absolute path to it:
+- Create an empty temporary file and print its absolute path:
 
 `mktemp`
 
-- Create a temporary directory and return the absolute path to it:
+- Use a custom directory if `$TMPDIR` is not set (the default is platform-dependent, but usually `/tmp`):
+
+`mktemp -p /{{path/to/tempdir}}`
+
+- Use a custom path template (`X`s are replaced with random alphanumeric characters):
+
+`mktemp {{/tmp/example.XXXXXXXX}}`
+
+- Use a custom file name template:
+
+`mktemp -t {{example.XXXXXXXX}}`
+
+- Create an empty temporary directory and print its absolute path:
 
 `mktemp -d`
-
-- Create a temporary file with a specified suffix:
-
-`mktemp --suffix "{{.txt}}"`

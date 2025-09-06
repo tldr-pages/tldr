@@ -1,7 +1,7 @@
 # jrnl
 
-> A simple journal application for your command line.
-> More information: <http://jrnl.sh>.
+> A simple journal application.
+> More information: <https://jrnl.sh>.
 
 - Insert a new entry with your editor:
 
@@ -17,7 +17,7 @@
 
 - View everything that happened from the start of last year to the start of last march:
 
-`jrnl -from {{"last year"}} -until {{march}}`
+`jrnl -from "{{last year}}" -until {{march}}`
 
 - Edit all entries tagged with "texas" and "history":
 

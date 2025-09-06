@@ -1,6 +1,7 @@
 # ldconfig
 
 > Configure symlinks and cache for shared library dependencies.
+> More information: <https://manned.org/ldconfig>.
 
 - Update symlinks and rebuild the cache (usually run when a new library is installed):
 
@@ -12,4 +13,4 @@
 
 - Print the libraries in the cache and check whether a given library is present:
 
-`ldconfig -p | grep {{library_name}}`
+`ldconfig {{[-p|--print-cache]}} | grep {{library_name}}`

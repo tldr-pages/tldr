@@ -1,6 +1,6 @@
 # ng
 
-> Command Line Interface (CLI) for creating and managing Angular applications.
+> Create and manage Angular applications.
 > More information: <https://angular.io/cli>.
 
 - Create a new Angular application inside a directory:
@@ -31,6 +31,6 @@
 
 `ng test`
 
-- Check the version of your current Angular installation:
+- Display the version of your current Angular installation:
 
 `ng version`

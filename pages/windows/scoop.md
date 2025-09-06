@@ -1,6 +1,7 @@
 # scoop
 
-> A command-line installer for Windows.
+> The Scoop package manager.
+> Some subcommands such as `bucket` have their own usage documentation.
 > More information: <https://scoop.sh>.
 
 - Install a package:
@@ -13,7 +14,7 @@
 
 - Update all installed packages:
 
-`scoop update *`
+`scoop update --all`
 
 - List installed packages:
 
@@ -27,10 +28,6 @@
 
 `scoop search {{package}}`
 
-- List all known buckets (a bucket is an application repository):
+- Remove old versions of all packages and clear the download cache:
 
-`scoop bucket known`
-
-- Add a bucket by its alias or a Git repository URL:
-
-`scoop bucket add {{bucket}}`
+`scoop cleanup --cache --all`

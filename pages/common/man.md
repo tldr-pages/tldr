@@ -1,23 +1,36 @@
 # man
 
 > Format and display manual pages.
+> More information: <https://manned.org/man>.
 
-- Display man page for a command:
+- Display the man page for a command:
 
 `man {{command}}`
 
-- Display man page for a command from section 7:
+- Open the man page for a command in a browser (`BROWSER` environment variable can replace `=browser_name`):
 
-`man {{command}}.{{7}}`
+`man {{[-Hbrowser_name|--html=browser_name]}} {{command}}`
 
-- Display path searched for manpages:
+- Display the man page for a command from section 7:
 
-`man --path`
+`man {{7}} {{command}}`
 
-- Display location of a manpage rather than the manpage itself:
+- List all available sections for a command:
 
-`man -w {{command}}`
+`man {{[-f|--whatis]}} {{command}}`
 
-- Do a keyword search for manpages containing a search string:
+- Display the path searched for manpages:
 
-`man -k {{keyword}}`
+`man {{[-w|--path]}}`
+
+- Display the location of a manpage rather than the manpage itself:
+
+`man {{[-w|--where]}} {{command}}`
+
+- Display the man page using a specific locale:
+
+`man {{[-L|--locale]}} {{locale}} {{command}}`
+
+- Search for manpages containing a search string:
+
+`man {{[-k|--apropos]}} "{{search_string}}"`

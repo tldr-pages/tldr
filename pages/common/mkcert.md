@@ -1,6 +1,6 @@
 # mkcert
 
-> Tool for making locally-trusted development certificates.
+> Make locally-trusted development certificates.
 > More information: <https://github.com/FiloSottile/mkcert>.
 
 - Install the local CA in the system trust store:
@@ -17,7 +17,7 @@
 
 - Generate wildcard certificate and private key for a given domain and its subdomains:
 
-`mkcert {{"*.example.it"}}`
+`mkcert "{{*.example.it}}"`
 
 - Uninstall the local CA:
 

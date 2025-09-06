@@ -1,7 +1,7 @@
 # gdb
 
 > The GNU Debugger.
-> More information: <https://www.gnu.org/software/gdb>.
+> More information: <https://sourceware.org/gdb/current/onlinedocs/gdb#Invocation>.
 
 - Debug an executable:
 
@@ -9,16 +9,20 @@
 
 - Attach a process to gdb:
 
-`gdb -p {{procID}}`
+`gdb {{[-p|--pid]}} {{procID}}`
 
 - Debug with a core file:
 
-`gdb -c {{core}} {{executable}}`
+`gdb {{[-c|--core]}} {{core}} {{executable}}`
 
 - Execute given GDB commands upon start:
 
-`gdb -ex "{{commands}}" {{executable}}`
+`gdb {{[-ex|--eval-command]}} "{{commands}}" {{executable}}`
 
-- Start gdb and pass arguments:
+- Start `gdb` and pass arguments to the executable:
 
 `gdb --args {{executable}} {{argument1}} {{argument2}}`
+
+- Skip debuginfod and pagination prompts and then print the backtrace:
+
+`gdb {{[-c|--core]}} {{core}} {{executable}} -iex 'set debuginfod enabled on' -iex 'set pagination off' -ex bt`

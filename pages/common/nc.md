@@ -1,40 +1,32 @@
 # nc
 
-> Netcat is a versatile utility for working with TCP or UDP data.
-> More information: <https://nmap.org/ncat>.
+> Redirect I/O into a network stream through this versatile tool.
+> More information: <https://manned.org/nc>.
 
-- Listen on a specified port and print any data received:
+- Start a listener on the specified TCP port and send a file into it:
 
-`nc -l {{port}}`
+`nc -l -p {{port}} < {{filename}}`
 
-- Connect to a certain port (you can then write to this port):
+- Connect to a target listener on the specified port and receive a file from it:
 
-`nc {{ip_address}} {{port}}`
+`nc {{host}} {{port}} > {{received_filename}}`
 
-- Set a timeout:
+- Scan the open TCP ports of a specified host:
 
-`nc -w {{timeout_in_seconds}} {{ipaddress}} {{port}}`
+`nc -v -z -w {{timeout_in_seconds}} {{host}} {{start_port}}-{{end_port}}`
 
-- Serve a file:
+- Start a listener on the specified TCP port and provide your local shell access to the connected party (this is dangerous and can be abused):
 
-`nc -l {{port}} < {{file}}`
+`nc -l -p {{port}} -e {{shell_executable}}`
 
-- Receive a file:
+- Connect to a target listener and provide your local shell access to the remote party (this is dangerous and can be abused):
 
-`nc {{ip_address}} {{port}} > {{file}}`
+`nc {{host}} {{port}} -e {{shell_executable}}`
 
-- Server stay up after client detach:
+- Act as a proxy and forward data from a local TCP port to the given remote host:
 
-`nc -k -l {{port}}`
+`nc -l -p {{local_port}} | nc {{host}} {{remote_port}}`
 
-- Client stay up after EOF:
+- Send an HTTP GET request:
 
-`nc -q {{timeout}} {{ip_address}}`
-
-- Scan the open ports of a specified host:
-
-`nc -v -z {{ip_address}} {{port}}`
-
-- Act as proxy and forward data from a local TCP port to the given remote host:
-
-`nc -l {{local_port}} | nc {{hostname}} {{remote_port}}`
+`echo -e "GET / HTTP/1.1\nHost: {{host}}\n\n" | nc {{host}} 80`

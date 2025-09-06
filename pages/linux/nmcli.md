@@ -1,27 +1,33 @@
 # nmcli
 
-> A command line tool for controlling NetworkManager.
+> Manage the network configuration using NetworkManager.
+> See also: `nmtui`.
+> More information: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
 
-- List all NetworkManager connections (shows name, uuid, type and device):
+- View documentation for managing network interfaces and establishing new Wi-Fi connections:
 
-`nmcli connection`
+`tldr nmcli device`
 
-- Print the available Wi-Fi access points:
+- View documentation for managing network connections:
 
-`nmcli device wifi`
+`tldr nmcli connection`
 
-- Connect to the Wi-Fi network with a specified name and password:
+- View documentation for running `nmcli` as a NetworkManager secret/polkit agent:
 
-`nmcli device wifi connect {{name}} {{password}}`
+`tldr nmcli agent`
 
-- Activate a connection by specifying an uuid:
+- View documentation for managing general settings of NetworkManager:
 
-`nmcli connection up uuid {{uuid}}`
+`tldr nmcli general`
 
-- Deactivate a connection:
+- View documentation for NetworkManager's activity monitor:
 
-`nmcli connection down uuid {{uuid}}`
+`tldr nmcli monitor`
 
-- Print statuses of network interfaces:
+- View documentation for enabling/disabling and checking the status of networking:
 
-`nmcli device status`
+`tldr nmcli networking`
+
+- View documentation for managing radio switches:
+
+`tldr nmcli radio`

@@ -1,6 +1,7 @@
 # prstat
 
 > Report active process statistics.
+> More information: <https://www.unix.com/man-page/sunos/1m/prstat>.
 
 - Examine all processes and reports statistics sorted by CPU usage:
 
@@ -18,6 +19,6 @@
 
 `prstat -m`
 
-- Print out a list of top 5 cpu using processes every second:
+- Print out a list of top 5 CPU using processes every second:
 
 `prstat -c -n 5 -s cpu 1`

@@ -5,11 +5,11 @@
 
 - Esegui un file Crystal:
 
-`crystal {{percorso/al/file.cr}}`
+`crystal {{percorso/del/file.cr}}`
 
 - Compila un file e tutte le sue dipendenze in un unico eseguibile:
 
-`crystal build {{percorso/al/file.cr}}`
+`crystal build {{percorso/del/file.cr}}`
 
 - Avvia un server locale interattivo per testare il linguaggio:
 

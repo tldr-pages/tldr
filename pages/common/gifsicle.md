@@ -1,20 +1,32 @@
 # gifsicle
 
-> Create GIFs.
+> Create, edit, manipulate, and get information about GIF files.
 > More information: <https://www.lcdf.org/gifsicle>.
 
-- Optimise a GIF:
+- Optimize a GIF as a new file:
 
-`gifsicle --batch --optimize=3 {{amin.gif}}`
+`gifsicle {{path/to/input.gif}} {{[-O|--optimize=]}}3 {{[-o|--output]}} {{path/to/output.gif}}`
 
-- Make a GIF animation with gifsicle:
+- Use batch mode (modify each given file in place) and unoptimize a GIF:
 
-`gifsicle --delay={{10}} --loop *.gif > {{anim.gif}}`
+`gifsicle {{[-b|--batch]}} {{path/to/input.gif}} {{[-U|--unoptimize]}}`
 
-- Extract frames from an animation:
+- Extract a frame from a GIF:
 
-`gifsicle {{anim.gif}} '#0' > {{firstframe.gif}}`
+`gifsicle {{path/to/input.gif}} '#{{0}}' > {{path/to/first_frame.gif}}`
 
-- You can also edit animations by replacing, deleting, or inserting frames:
+- Make a GIF animation from selected GIFs:
 
-`gifsicle -b {{anim.gif}} --replace '#0' {{new.gif}}`
+`gifsicle {{*.gif}} {{[-d|--delay]}} {{10}} {{[-l|--loop]}} > {{path/to/output.gif}}`
+
+- Reduce file size using lossy compression:
+
+`gifsicle {{[-b|--batch]}} {{path/to/input.gif}} {{[-O|--optimize=]}}3 --lossy={{100}} {{[-k|--colors]}} {{16}} {{[-f|--dither]}}`
+
+- Delete the first 10 frames and all frames after frame 20 from a GIF:
+
+`gifsicle {{[-b|--batch]}} {{path/to/input.gif}} --delete '#{{0-9}}' '#{{20-}}'`
+
+- Modify all frames by cropping them to a rectangle, changing their scale, flipping them, and rotating them:
+
+`gifsicle {{[-b|--batch]}} --crop {{starting_x}},{{starting_y}}+{{rect_width}}x{{rect_height}} --scale {{0.25}} --flip-horizontal --rotate-{{90|180|270}} {{path/to/input.gif}}`

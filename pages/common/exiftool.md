@@ -1,24 +1,36 @@
 # exiftool
 
 > Read and write meta information in files.
-> More information: <https://owl.phy.queensu.ca/~phil/exiftool>.
+> More information: <https://exiftool.org>.
+
+- Print the EXIF metadata for a given file:
+
+`exiftool {{path/to/file}}`
 
 - Remove all EXIF metadata from the given files:
 
-`exiftool -All= {{file}}`
+`exiftool -All= {{path/to/file1 path/to/file2 ...}}`
 
-- Increase time photo taken by 1 hour in directory:
+- Remove GPS EXIF metadata from given image files:
 
-`exiftool "-AllDates+=0:0:0 1:0:0" {{directory}}`
+`exiftool "-gps*=" {{path/to/image1 path/to/image2 ...}}`
 
-- Decrease time photo taken by 1 day and 2 hours on JPEGs only:
+- Remove all EXIF metadata from the given image files, then re-add metadata for color and orientation:
 
-`exiftool "-AllDates-=0:0:1 2:0:0" -ext jpg`
+`exiftool -All= -tagsfromfile @ -colorspacetags -orientation {{path/to/image1 path/to/image2 ...}}`
 
-- Change only DateTimeOriginal by -1.5 hours & do not keep backups:
+- Move the date at which all photos in a directory were taken 1 hour forward:
+
+`exiftool "-AllDates+=0:0:0 1:0:0" {{path/to/directory}}`
+
+- Move the date at which all JPEG photos in the current directory were taken 1 day and 2 hours backward:
+
+`exiftool "-AllDates-=0:0:1 2:0:0" {{[-ext|-extension]}} jpg`
+
+- Only change the `DateTimeOriginal` field subtracting 1.5 hours, without keeping backups:
 
 `exiftool -DateTimeOriginal-=1.5 -overwrite_original`
 
-- Rename all JPEGs according to a DateTimeOriginal recursively:
+- Recursively rename all JPEG photos in a directory based on the `DateTimeOriginal` field:
 
-`exiftool '-filename<DateTimeOriginal' -d %Y-%m-%d_%H-%M-%S%%lc.%%e {{directory}} -r -ext jpg`
+`exiftool '-filename<DateTimeOriginal' {{[-d|-dateFormat]}} %Y-%m-%d_%H-%M-%S%%lc.%%e {{path/to/directory}} {{[-r|-recurse]}} {{[-ext|-extension]}} jpg`

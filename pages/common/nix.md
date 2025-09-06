@@ -1,24 +1,35 @@
 # nix
 
-> Utilities for the Nix language and store.
-> More information: <https://nixos.org>.
+> A powerful package manager that makes package management reliable, reproducible, and declarative.
+> `nix` is experimental and requires enabling experimental features.
+> See also: `nix classic` for a classic, stable interface.
+> Some subcommands such as `build`, `develop`, `flake`, `registry`, `profile`, `search`, `repl`, `store`, `edit`, `why-depends`, etc. have their own usage documentation.
+> More information: <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix>.
 
-- Search for a package via its name or description:
+- Enable the `nix` command:
 
-`nix search {{search_term}}`
+`mkdir {{[-p|--parents]}} ~/.config/nix; echo 'experimental-features = nix-command flakes' > ~/.config/nix/nix.conf`
 
-- Start a Nix shell with the specified packages available:
+- Search for a package in nixpkgs via its name or description:
 
-`nix run {{nixpkgs.pkg1 nixpkgs.pkg2 nixpkgs.pkg3...}}`
+`nix search nixpkgs {{search_term}}`
 
-- Optimise Nix store disk usage by combining duplicate files:
+- Start a shell with the specified packages from nixpkgs available:
 
-`nix optimise-store`
+`nix shell {{nixpkgs#pkg1 nixpkgs#pkg2 nixpkgs#pkg3 ...}}`
+
+- Install some packages from nixpkgs permanently:
+
+`nix profile install {{nixpkgs#pkg1 nixpkgs#pkg2 nixpkgs#pkg3 ...}}`
+
+- Remove unused paths from Nix store to free up space:
+
+`nix store gc`
 
 - Start an interactive environment for evaluating Nix expressions:
 
 `nix repl`
 
-- Upgrade Nix to the latest stable version:
+- Display help for a specific subcommand:
 
-`nix upgrade-nix`
+`nix help {{subcommand}}`

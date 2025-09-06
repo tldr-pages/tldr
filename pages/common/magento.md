@@ -1,15 +1,15 @@
 # magento
 
-> A CLI for managing the Magento PHP framework.
-> More information: <https://magento.com>.
+> Manage the Magento PHP framework.
+> More information: <https://experienceleague.adobe.com/en/docs/commerce-operations/tools/cli-reference/commerce-on-premises>.
 
-- Enable one or more space-separated modules:
+- Enable one or more modules:
 
-`magento module:enable {{module(s)}}`
+`magento module:enable {{module1 module2 ...}}`
 
-- Disable one or more space-separated modules:
+- Disable one or more modules:
 
-`magento module:disable {{module(s)}}`
+`magento module:disable {{module1 module2 ...}}`
 
 - Update the database after enabling modules:
 

@@ -1,9 +1,9 @@
 # monodevelop
 
 > Cross platform IDE for C#, F# and more.
-> More information: <https://www.monodevelop.com/>.
+> More information: <https://www.monodevelop.com/documentation/>.
 
-- Start Monodevelop:
+- Start MonoDevelop:
 
 `monodevelop`
 
@@ -19,7 +19,7 @@
 
 `monodevelop --new-window`
 
-- Disable redirection of `stdout` and stderr to a log file:
+- Disable redirection of `stdout` and `stderr` to a log file:
 
 `monodevelop --no-redirect`
 

@@ -1,19 +1,36 @@
 # set
 
-> Display, set or unset values of shell attributes and positional parameters.
+> Toggle shell options or set the values of positional parameters.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#The-Set-Builtin>.
 
 - Display the names and values of shell variables:
 
 `set`
 
-- Mark variables that are modified or created for export:
+- Export newly initialized variables to child processes:
 
 `set -a`
 
-- Notify of job termination immediately:
+- Write formatted messages to `stderr` when jobs finish:
 
 `set -b`
 
-- Set various options, e.g. enable `vi` style line editing:
+- Write and edit text in the command-line with `vi`-like keybindings (e.g. `yy`):
 
 `set -o {{vi}}`
+
+- Return to default mode:
+
+`set -o {{emacs}}`
+
+- List all modes:
+
+`set -o`
+
+- Exit the shell when (some) command fails:
+
+`set -e`
+
+- Reset all shell parameters and assign new ones:
+
+`set -- {{argument1 argument2 ...}}`

@@ -1,6 +1,6 @@
 # vault
 
-> A CLI to interact with HashiCorp Vault.
+> Interact with HashiCorp Vault.
 > More information: <https://www.vaultproject.io/docs/commands>.
 
 - Connect to a Vault server and initialize a new encrypted data store:
@@ -22,6 +22,10 @@
 - Read a value from the vault, using the generic back-end called "secret":
 
 `vault read secret/{{hello}}`
+
+- Read a specific field from the value:
+
+`vault read -field={{field_name}} secret/{{hello}}`
 
 - Seal (lock) the Vault server, by removing the encryption key of the data store from memory:
 

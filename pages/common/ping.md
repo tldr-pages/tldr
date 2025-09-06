@@ -1,6 +1,7 @@
 # ping
 
 > Send ICMP ECHO_REQUEST packets to network hosts.
+> More information: <https://manned.org/ping>.
 
 - Ping host:
 
@@ -25,3 +26,7 @@
 - Also display a message if no response was received:
 
 `ping -O {{host}}`
+
+- Ping a host with specific number of pings, per-packet response timeout (`-W`), and total time limit (`-w`) of the entire ping run:
+
+`ping -c {{count}} -W {{seconds}} -w {{seconds}} {{host}}`

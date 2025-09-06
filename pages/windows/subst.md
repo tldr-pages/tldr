@@ -1,6 +1,7 @@
 # subst
 
 > Associates a path with a virtual drive letter.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/subst>.
 
 - List active associations:
 

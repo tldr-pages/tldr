@@ -2,6 +2,7 @@
 
 > Remote Desktop Protocol client.
 > It can be used to connect the remote computer using the RDP protocol.
+> More information: <https://manned.org/rdesktop>.
 
 - Connect to a remote computer (default port is 3389):
 
@@ -11,7 +12,7 @@
 
 `rdesktop -u Administrator -p passwd123 192.168.1.111:3389`
 
-- Connect to a remote computer with full screen (press `Ctrl + Alt + Enter` to exist):
+- Connect to a remote computer with full screen (press `<Ctrl Alt Enter>` to exist):
 
 `rdesktop -u {{username}} -p {{password}} -f {{host:port}}`
 
@@ -23,6 +24,6 @@
 
 `rdesktop -u {{username}} -p {{password}} -d {{domainname}} {{host:port}}`
 
-- Use the 16 bit color (speed up):
+- Use the 16-bit color (speed up):
 
 `rdesktop -u {{username}} -p {{password}} -a 16 {{host:port}}`

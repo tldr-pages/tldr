@@ -3,11 +3,11 @@
 > A PHP static analysis tool for detecting security vulnerabilities.
 > More information: <https://github.com/designsecurity/progpilot>.
 
-- Analyse the current directory:
+- Analyze the current directory:
 
 `progpilot`
 
-- Analyse a specific file or directory:
+- Analyze a specific file or directory:
 
 `progpilot {{path/to/file_or_directory}}`
 

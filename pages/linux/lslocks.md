@@ -1,6 +1,7 @@
 # lslocks
 
 > List local system locks.
+> More information: <https://manned.org/lslocks>.
 
 - List all local system locks:
 
@@ -8,16 +9,16 @@
 
 - List locks with defined column headers:
 
-`lslocks --output {{PID}},{{COMMAND}},{{PATH}}`
+`lslocks {{[-o|--output]}} {{PID}},{{COMMAND}},{{PATH}}`
 
 - List locks producing a raw output (no columns), and without column headers:
 
-`lslocks --raw --noheadings`
+`lslocks {{[-r|--raw]}} {{[-n|--noheadings]}}`
 
 - List locks by PID input:
 
-`lslocks --pid {{PID}}`
+`lslocks {{[-p|--pid]}} {{PID}}`
 
-- List locks with json output to `stdout`:
+- List locks with JSON output to `stdout`:
 
-`lslocks --json`
+`lslocks {{[-J|--json]}}`

@@ -1,15 +1,16 @@
 # apropos
 
-> Search in manpages, for example to find a new command.
+> Search the manual pages for names and descriptions.
+> More information: <https://manned.org/apropos>.
 
-- Search for keyword:
+- Search for a keyword using a `regex`:
 
-`apropos {{regular_expression}}`
+`apropos {{regex}}`
 
-- Search without restricting output to terminal width:
+- Search without restricting the output to the terminal width ([l]ong output):
 
-`apropos -l {{regular_expression}}`
+`apropos {{[-l|--long]}} {{regex}}`
 
-- Search for pages that only contain all of the expressions given (AND search):
+- Search for pages that match all the `regex` given:
 
-`apropos {{regular_expression_1}} -a {{regular_expression_2}} -a {{regular_expression_3}`
+`apropos {{regex_1}} {{[-a|--and]}} {{regex_2}} {{[-a|--and]}} {{regex_3}}`

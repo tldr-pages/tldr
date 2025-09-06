@@ -1,6 +1,6 @@
 # coffee
 
-> Executes CoffeeScript scripts or compiles them into JavaScript.
+> Execute CoffeeScript scripts or compiles them into JavaScript.
 > More information: <https://coffeescript.org#cli>.
 
 - Run a script:
@@ -15,7 +15,7 @@
 
 `coffee --compile {{path/to/file.coffee}} --output {{path/to/file.js}}`
 
-- Run interactive REPL:
+- Start a REPL (interactive shell):
 
 `coffee --interactive`
 

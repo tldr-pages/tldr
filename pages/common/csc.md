@@ -1,7 +1,7 @@
 # csc
 
 > The Microsoft C# Compiler.
-> More information: <https://docs.microsoft.com/dotnet/csharp/language-reference/compiler-options/command-line-building-with-csc-exe>.
+> More information: <https://learn.microsoft.com/dotnet/csharp/language-reference/compiler-options/command-line-building-with-csc-exe>.
 
 - Compile one or more C# files to a CIL executable:
 
@@ -11,7 +11,7 @@
 
 `csc /out:{{path/to/filename}} {{path/to/input_file.cs}}`
 
-- Compile into a '.dll' library instead of an executable:
+- Compile into a `.dll` library instead of an executable:
 
 `csc /target:library {{path/to/input_file.cs}}`
 

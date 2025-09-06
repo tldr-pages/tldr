@@ -1,6 +1,7 @@
 # cpuid
 
 > Display detailed information about all CPUs.
+> More information: <https://manned.org/cpuid.1>.
 
 - Display information for all CPUs:
 
@@ -8,8 +9,8 @@
 
 - Display information only for the current CPU:
 
-`cpuid -1`
+`cpuid {{[-1|--one-cpu]}}`
 
 - Display raw hex information with no decoding:
 
-`cpuid -r`
+`cpuid {{[-r|--raw]}}`

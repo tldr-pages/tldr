@@ -1,6 +1,7 @@
 # datamash
 
-> Tool to perform basic numeric, textual and statistical operations on input textual data files.
+> Perform basic numeric, textual and statistical operations on input textual data files.
+> More information: <https://www.gnu.org/software/datamash/manual/datamash.html#Invoking-datamash>.
 
 - Get max, min, mean and median of a single column of numbers:
 
@@ -12,7 +13,7 @@
 
 - Get the mean of a single column of numbers with a given decimal precision:
 
-`echo -e '1\n2\n3\n4\n5\n5' | datamash -R {{number_of_decimals_wanted}} mean 1`
+`echo -e '1\n2\n3\n4\n5\n5' | datamash {{[-R|--round]}} {{number_of_decimals_wanted}} mean 1`
 
 - Get the mean of a single column of numbers ignoring "Na" and "NaN" (literal) strings:
 

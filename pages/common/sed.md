@@ -1,39 +1,17 @@
 # sed
 
 > Edit text in a scriptable manner.
+> See also: `awk`, `ed`.
+> More information: <https://manned.org/sed.1posix>.
 
-- Replace the first occurrence of a regular expression in each line of a file, and print the result:
+- Replace all `apple` (basic `regex`) occurrences with `mango` (basic `regex`) in all input lines and print the result to `stdout`:
 
-`sed 's/{{regex}}/{{replace}}/' {{filename}}`
+`{{command}} | sed 's/apple/mango/g'`
 
-- Replace all occurrences of an extended regular expression in a file, and print the result:
+- Execute a specific script [f]ile and print the result to `stdout`:
 
-`sed -r 's/{{regex}}/{{replace}}/g' {{filename}}`
+`{{command}} | sed -f {{path/to/script.sed}}`
 
-- Replace all occurrences of a string in a file, overwriting the file (i.e. in-place):
+- Print just a first line to `stdout`:
 
-`sed -i 's/{{find}}/{{replace}}/g' {{filename}}`
-
-- Replace only on lines matching the line pattern:
-
-`sed '/{{line_pattern}}/s/{{find}}/{{replace}}/' {{filename}}`
-
-- Delete lines matching the line pattern:
-
-`sed '/{{line_pattern}}/d' {{filename}}`
-
-- Print only text between n-th line till the next empty line:
-
-`sed -n '{{n}},/^$/p' {{filename}}`
-
-- Apply multiple find-replace expressions to a file:
-
-`sed -e 's/{{find}}/{{replace}}/' -e 's/{{find}}/{{replace}}/' {{filename}}`
-
-- Replace separator / by any other character not used in the find or replace patterns, e.g., #:
-
-`sed 's#{{find}}#{{replace}}#' {{filename}}`
-
-- Print only the n-th line of a file:
-
-`sed '{{n}}q;d' {{filename}}`
+`{{command}} | sed -n '1p'`

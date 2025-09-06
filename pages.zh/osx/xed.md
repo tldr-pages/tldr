@@ -1,15 +1,16 @@
 # xed
 
-> 用 Xcode 打开要编辑的文件.
+> 用 Xcode 打开要编辑的文件。
+> 更多信息：<https://keith.github.io/xcode-man-pages/xed.1.html>.
 
-- 用 XCode 打开文件 :
+- 用 Xcode 打开文件：
 
 `xed {{文件名}}`
 
-- 在 Xcode 中打开文件,如果不存在则创建:
+- 在 Xcode 中打开文件，如果不存在则创建：
 
-`xed -c {{文件名}}`
+`xed --create {{文件名}}`
 
-- 在 Xcode中打开一个文件并跳转到第75行:
+- 在 Xcode 中打开一个文件并跳转到第 75 行：
 
-`xed -l 75 {{文件名}}`
+`xed --line 75 {{文件名}}`

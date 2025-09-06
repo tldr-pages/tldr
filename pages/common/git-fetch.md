@@ -17,8 +17,8 @@
 
 - Also fetch tags from the remote upstream repository:
 
-`git fetch --tags`
+`git fetch {{[-t|--tags]}}`
 
 - Delete local references to remote branches that have been deleted upstream:
 
-`git fetch --prune`
+`git fetch {{[-p|--prune]}}`

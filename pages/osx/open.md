@@ -1,16 +1,17 @@
 # open
 
-> Opens files, directories and applications.
+> Open files, directories and applications.
+> More information: <https://keith.github.io/xcode-man-pages/open.1.html>.
 
 - Open a file with the associated application:
 
 `open {{file.ext}}`
 
-- Run a graphical macOS application:
+- Run a graphical macOS [a]pplication:
 
-`open -a {{Application}}`
+`open -a "{{Application}}"`
 
-- Run a graphical macOS app based on the bundle identifier (refer to `osascript` for an easy way get this):
+- Run a graphical macOS app based on the [b]undle identifier (refer to `osascript` for an easy way to get this):
 
 `open -b {{com.domain.application}}`
 
@@ -18,10 +19,14 @@
 
 `open .`
 
-- Reveal a file in finder:
+- [R]eveal a file in Finder:
 
 `open -R {{path/to/file}}`
 
 - Open all the files of a given extension in the current directory with the associated application:
 
 `open {{*.ext}}`
+
+- Open a [n]ew instance of an application specified via [b]undle identifier:
+
+`open -n -b {{com.domain.application}}`

@@ -1,7 +1,8 @@
 # go
 
-> Tool for managing go source code.
-> More information: <https://golang.org>.
+> Manage Go source code.
+> Some subcommands such as `build` have their own usage documentation.
+> More information: <https://pkg.go.dev/cmd/go>.
 
 - Download and install a package, specified by its import path:
 
@@ -26,3 +27,7 @@
 - Compile and install the current package:
 
 `go install`
+
+- Initialize a new module in the current directory:
+
+`go mod init {{module_name}}`

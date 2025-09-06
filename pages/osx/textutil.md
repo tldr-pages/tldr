@@ -1,23 +1,24 @@
 # textutil
 
-> Used to manipulate text files of various formats.
+> Manipulate text files of various formats.
+> More information: <https://keith.github.io/xcode-man-pages/textutil.1.html>.
 
-- Display information about foo.rtf:
+- Display information about `foo.rtf`:
 
-`textutil -info {{foo.rtf}}`
+`textutil -info {{path/to/foo.rtf}}`
 
-- Convert foo.rtf into foo.html:
+- Convert `foo.rtf` into `foo.html`:
 
-`textutil -convert {{html}} {{foo.rtf}}`
+`textutil -convert {{html}} {{path/to/foo.rtf}}`
 
 - Convert rich text to normal text:
 
-`textutil {{foo.rtf}} -convert {{txt}}`
+`textutil {{path/to/foo.rtf}} -convert {{txt}}`
 
-- Convert foo.txt into foo.rtf, using Times 10 for the font:
+- Convert `foo.txt` into `foo.rtf`, using Times 10 for the font:
 
-`textutil -convert {{rtf}} -font {{Times}} -fontsize {{10}} {{foo.txt}}`
+`textutil -convert {{rtf}} -font {{Times}} -fontsize {{10}} {{path/to/foo.txt}}`
 
-- Load all RTF files in the current directory, concatenates their contents, and writes the result out as index.html with the HTML title set to "Several Files":
+- Load all RTF files in the current directory, concatenates their contents, and writes the result out as `index.html` with the HTML title set to "Several Files":
 
-`textutil -cat {{html}} -title "Several Files" -output {{index.html}} *.rtf`
+`textutil -cat {{html}} -title "Several Files" -output {{path/to/index.html}} *.rtf`

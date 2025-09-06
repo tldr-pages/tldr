@@ -1,14 +1,14 @@
 # vegeta
 
-> A command line utility and a library for HTTP load testing.
-> See also `ab`.
+> A utility and a library for HTTP load testing.
+> See also: `ab`.
 > More information: <https://github.com/tsenart/vegeta>.
 
 - Launch an attack lasting 30 seconds:
 
 `echo "{{GET https://example.com}}" | vegeta attack -duration={{30s}}`
 
-- Launch an attack on a server with a self-signed https certificate:
+- Launch an attack on a server with a self-signed HTTPS certificate:
 
 `echo "{{GET https://example.com}}" | vegeta attack -insecure -duration={{30s}}`
 

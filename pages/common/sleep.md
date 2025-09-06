@@ -1,15 +1,12 @@
 # sleep
 
 > Delay for a specified amount of time.
+> More information: <https://manned.org/sleep>.
 
 - Delay in seconds:
 
 `sleep {{seconds}}`
 
-- Delay in minutes:
+- Execute a specific command after 20 seconds delay:
 
-`sleep {{minutes}}m`
-
-- Delay in hours:
-
-`sleep {{hours}}h`
+`sleep 20 && {{command}}`

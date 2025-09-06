@@ -1,0 +1,7 @@
+# https://github.com/tldr-pages/tldr/issues/7097
+* text=auto eol=lf
+
+# GitHub linguist ignores markdown files by default, but tldr-pages
+# is mostly markdown, so we explicitly make the pages detectable
+pages*/**/*.md linguist-detectable=true
+pages*/**/*.md linguist-documentation=false

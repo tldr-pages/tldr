@@ -1,164 +1,164 @@
-# tldr
+<!-- markdownlint-disable MD041 -->
 
-[![Build status][travis-image]][travis-url]
-[![Gitter chat][gitter-image]][gitter-url]
+<div align="center">
+  <h1><a href="https://tldr.sh/"><img alt="tldr-pages" src="images/banner.png" width=600/></a></h1>
+
+[![Build status][github-actions-image]][github-actions-url]
+[![Matrix chat][matrix-image]][matrix-url]
 [![Merged PRs][prs-merged-image]][prs-merged-url]
-[![Issue stats][issuestats-image]][issuestats-url]
 [![GitHub contributors][contributors-image]][contributors-url]
 [![license][license-image]][license-url]
+[![Mastodon][mastodon-image]][mastodon-url]
 
-[travis-url]: https://travis-ci.org/tldr-pages/tldr/builds
-[travis-image]: https://travis-ci.org/tldr-pages/tldr.svg?branch=master
-[gitter-url]: https://gitter.im/tldr-pages/tldr
-[gitter-image]: https://badges.gitter.im/tldr-pages/tldr.svg
+[github-actions-url]: https://github.com/tldr-pages/tldr/actions
+[github-actions-image]: https://img.shields.io/github/actions/workflow/status/tldr-pages/tldr/ci.yml?branch=main&label=Build
+[matrix-url]: https://matrix.to/#/#tldr-pages:matrix.org
+[matrix-image]: https://img.shields.io/matrix/tldr-pages:matrix.org?label=Chat+on+Matrix
 [prs-merged-url]: https://github.com/tldr-pages/tldr/pulls?q=is:pr+is:merged
-[prs-merged-image]: https://img.shields.io/github/issues-pr-closed-raw/tldr-pages/tldr.svg?label=merged+PRs
-[issuestats-url]: http://isitmaintained.com/project/tldr-pages/tldr
-[issuestats-image]: http://isitmaintained.com/badge/resolution/tldr-pages/tldr.svg
+[prs-merged-image]: https://img.shields.io/github/issues-pr-closed-raw/tldr-pages/tldr.svg?label=Merged+PRs&color=green
 [contributors-url]: https://github.com/tldr-pages/tldr/graphs/contributors
-[contributors-image]: https://img.shields.io/github/contributors/tldr-pages/tldr.svg
-[license-url]: https://github.com/tldr-pages/tldr/blob/master/LICENSE.md
-[license-image]: https://img.shields.io/github/license/tldr-pages/tldr.svg
+[contributors-image]: https://img.shields.io/github/contributors-anon/tldr-pages/tldr.svg?label=Contributors
+[license-url]: https://github.com/tldr-pages/tldr/blob/main/LICENSE.md
+[license-image]: https://img.shields.io/badge/license-CC_BY_4.0-blue.svg?label=License
+[mastodon-url]: https://fosstodon.org/@tldr_pages
+[mastodon-image]: https://img.shields.io/badge/Mastodon-6364FF?logo=mastodon&logoColor=fff
+</div>
 
-A collection of simplified and community-driven man pages.
+## What is tldr-pages?
 
-Install it with `npm install -g tldr`
-or [try the web client](http://tldr.ostera.io).
+The **tldr-pages** project is a collection of community-maintained help pages
+for command-line tools, that aims to be a simpler, more approachable complement
+to traditional [man pages](https://en.wikipedia.org/wiki/Man_page).
 
-## What is tldr?
+Maybe you're new to the command-line world. Perhaps you're just a little rusty or can't always recall the arguments for commands like `lsof`, or `tar`?
 
-New to the command-line world? Or just a little rusty?
-Or perhaps you can't always remember the arguments to `lsof`, or `tar`?
+It certainly doesn't help that, in the past, the first option explained in `man tar` was:
 
-Maybe it doesn't help that the first option explained in `man tar` is:
-
-```
+```console
+$ man tar
+...
 -b blocksize
    Specify the block size, in 512-byte records, for tape drive I/O.
    As a rule, this argument is only needed when reading from or writing to tape drives,
    and usually not even then as the default block size of 20 records (10240 bytes) is very common.
+...
 ```
 
-Surely people could benefit from simplified man pages
-focused on practical examples.
+There is room for simpler help pages focused on practical examples.
 How about:
 
-![tldr screenshot](screenshot.png)
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/tldr-pages/tldr/blob/main/images/tldr-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/tldr-pages/tldr/blob/main/images/tldr-light.png">
+    <img alt="Screenshot of the tldr client displaying the tar command." src="https://github.com/tldr-pages/tldr/blob/main/images/tldr-dark.png">
+</picture>
 
 This repository is just that: an ever-growing collection of examples
-for the most common UNIX / Linux / macOS / SunOS commands.
+for the most common UNIX, Linux, macOS, FreeBSD, NetBSD, OpenBSD,
+SunOS, Android, Windows, and Cisco IOS command-line tools.
 
-## Clients
+## How do I use it?
 
-You can access these pages on your computer using one of the following clients:
+> [!TIP]
+> For browsing without installing a client on your computer,
+> see the web client at <https://tldr.inbrowser.app> (with offline support using PWA).
 
-- [Alfred Workflow](https://github.com/cs1707/tldr-alfred)
-- Android clients:
-  - [tldr-viewer](https://github.com/gianasista/tldr-viewer), available on
-    [Google Play](https://play.google.com/store/apps/details?id=de.gianasista.tldr_viewer)
-  - [tldroid](https://github.com/hidroh/tldroid), available on
-    [Google Play](https://play.google.com/store/apps/details?id=io.github.hidroh.tldroid) *(outdated)*
-- Bash clients:
-  - [tldr](https://github.com/raylee/tldr)
-  - [tldr-bash-client](https://gitlab.com/pepa65/tldr-bash-client)
-- [C# client](https://github.com/principis/tldr-sharp)
-- [C++ client](https://github.com/tldr-pages/tldr-cpp-client):
-  `brew install tldr`
-- [Chrome Extension](https://github.com/hill/tldr-chrome) available on
-  [Chrome Web Store](https://chrome.google.com/webstore/detail/tldr-chrome/nnmlddkpgoecicoallmimonoboialpap)
-- [Crystal client](https://github.com/porras/tlcr):
-  `brew install porras/tap/tlcr`
-- [Dart client](https://github.com/hterkelsen/tldr):
-  `pub global activate tldr`
-- [Dash docset](https://github.com/Moddus/tldr-python-dash-docset):
-  Open `Preferences > Downloads > User Contributed` and find `tldr pages` in the list
-- Docker images:
-    - [tldr-docker](https://github.com/nutellinoit/tldr-docker)- Run the `tldr` command via a docker container: `alias tldr='docker run --rm -it -v ~/.tldr/:/root/.tldr/ nutellinoit/tldr'`
-- [Elixir client](https://github.com/edgurgel/tldr_elixir_client)
-  (binaries not yet available)
-- [Emacs client](https://github.com/kuanyui/tldr.el), available on
-  [MELPA](https://github.com/melpa/melpa)
-- Go clients:
-  - [github.com/pranavraja/tldr](https://github.com/pranavraja/tldr):
-    `go get github.com/pranavraja/tldr`
-    (or [platform binaries](https://github.com/pranavraja/tldr/releases))
-  - [4d63.com/tldr](https://4d63.com/tldr):
-    `go get 4d63.com/tldr` or `brew install 4d63/tldr/tldr`
-    (or [platform binaries](https://github.com/leighmcculloch/tldr/releases))
-  - [github.com/elecprog/tldr](https://github.com/elecprog/tldr):
-    `go get github.com/elecprog/tldr`
-    (or [platform binaries](https://github.com/elecprog/tldr/releases))
-  - [github.com/isacikgoz/tldr](https://github.com/isacikgoz/tldr):
-    `go get github.com/isacikgoz/tldr`
-    (or [platform binaries](https://github.com/isacikgoz/tldr/releases))
-- iOS clients:
-  - [tldr-man-page](https://github.com/freesuraj/TLDR), available on
-    [App Store](https://appsto.re/sg/IQ0-_.i)
-  - [tldr-pages](https://github.com/mflint/ios-tldr-viewer), available on
-    [App Store](https://itunes.apple.com/us/app/tldt-pages/id1071725095?ls=1&mt=8)
-- [Haskell client](https://github.com/psibi/tldr-hs):
-  `stack install tldr`
-- [Node.js client](https://github.com/tldr-pages/tldr-node-client):
-  `npm install -g tldr`
-- [OCaml client](https://github.com/RosalesJ/tldr-ocaml): `opam install tldr`
-- [Perl5 client](https://github.com/shoichikaji/perl-tldr):
-  `cpanm App::tldr`
-- [PHP client](https://github.com/BrainMaestro/tldr-php):
-  `composer global require brainmaestro/tldr`
-- Python clients:
-  - [tldr-python-client](https://github.com/tldr-pages/tldr-python-client):
-    `pip install tldr` or `pacman -S tldr` on Arch Linux
-  - [tldr.py](https://github.com/lord63/tldr.py):
-    `pip install tldr.py`
-- [R client](https://github.com/kirillseva/tldrrr):
-  `devtools::install_github('kirillseva/tldrrr')`
-- [Ruby client](https://github.com/YellowApple/tldrb):
-  `gem install tldrb`
-- Rust clients:
-    - [rust-tldr](https://github.com/rilut/rust-tldr)
-      (thin client with online lookup):
-      `cargo install tldr`
-    - [tealdeer](https://github.com/dbrgn/tealdeer)
-      (fully featured client with offline cache):
-      `cargo install tealdeer`
-- [Visual Studio Code extension](https://github.com/bmuskalla/vscode-tldr) available on [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=bmuskalla.vscode-tldr)
-- Web clients:
-    - [tldr.jsx](https://github.com/ostera/tldr.jsx): http://tldr.ostera.io/
-    - [DistroWatch](https://distrowatch.com/dwres.php?resource=man-pages)
+A popular and convenient way to access these pages on your computer
+is to install the official [Python client](https://github.com/tldr-pages/tldr-python-client), which can be installed via [pip3](https://pypi.org/project/tldr/) (or [other package managers](https://github.com/tldr-pages/tldr-python-client#installation)):
 
-There is also a comprehensive
-[list of clients in our Wiki](https://github.com/tldr-pages/tldr/wiki/TLDR-clients).
+```shell
+pip3 install tldr
+```
 
-## Contributing
+Linux and Mac users can also install the official [Rust Client](https://github.com/tldr-pages/tlrc) using [Homebrew](https://formulae.brew.sh/formula/tlrc)
+(or [other package managers](https://github.com/tldr-pages/tlrc#installation) on other operating systems):
 
-- Your favourite command isn't covered?
-- You can think of more examples for an existing command?
+```shell
+brew install tlrc
+```
 
-Contributions are most welcome!
+Alternatively, you can also use the official [Node.js client](https://github.com/tldr-pages/tldr-node-client), although it has fallen behind in updates:
+
+```shell
+npm install -g tldr
+```
+
+Then you have direct access to simplified, easy-to-read help for commands, such as `tar`,
+accessible through typing `tldr tar` instead of the standard `man tar`.
+
+If you don't want to install any software, check out the [PDF version](https://github.com/tldr-pages/tldr/releases/latest/download/tldr-book.pdf) instead.
+
+> [!NOTE]
+> PDFs for translations are available for most languages. You can find them in the release assets of the [latest release](https://github.com/tldr-pages/tldr/releases/latest).
+
+There are also **various other clients** provided by the community,
+both for the command-line and for other platforms.
+For a comprehensive list of clients, head over to our [Wiki](https://github.com/tldr-pages/tldr/wiki/Clients).
+
+## How do I contribute to tldr-pages?
+
+All contributions are welcome!
+
+Some ways to contribute include:
+
+- Adding your favorite command that isn't covered.
+- Adding examples or improving the content of an existing page.
+- Adding requested pages from our issues with the [help wanted](https://github.com/tldr-pages/tldr/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) label.
+- Translating pages into different languages.
+
+All `tldr` pages are written in Markdown so that they can be edited quite easily and changes can be submitted in
+pull requests here using Git on the command-line or
+using the GitHub web interface.
+
 We strive to maintain a [welcoming and collaborative](GOVERNANCE.md) community.
-Have a look at the [contributing guidelines](CONTRIBUTING.md), and go ahead!
+If it's your first time contributing, have a look at the [contributing guidelines](CONTRIBUTING.md), and go ahead!
+
+If you'd like to contribute to translations, you can visit <https://lukwebsforge.github.io/tldri18n/>
+to see the overall progress of all translations, and which translations are missing or outdated.
+
+You are also welcome to join us on the [matrix chatroom](https://matrix.to/#/#tldr-pages:matrix.org)!
 
 ## Similar projects
 
-- [Cheat](https://github.com/chrisallenlane/cheat)
+- [Command Line Interface Pages](https://github.com/command-line-interface-pages)
+  allows you to write standardized help pages for CLI, directories, and configs.
+
+- [Cheat](https://github.com/cheat/cheat)
   allows you to create and view interactive cheatsheets on the command-line.
-  It was designed to help remind *nix system administrators of options
+  It was designed to help remind Unix system administrators of options
   for commands that they use frequently, but not frequently enough to remember.
 
-- [Bro pages](http://bropages.org/)
-  are a highly readable supplement to man pages.
-  Bro pages show concise, common-case examples for Unix commands.
-  The examples are submitted by the user base, and can be voted up or down;
-  the best entries are what people see first when they look up a command.
+- [cheat.sh](https://cheat.sh/)
+  Aggregates cheat sheets from multiple sources (including tldr-pages)
+  into 1 unified interface.
+
+- [devhints](https://devhints.io/)
+  Rico's cheatsheets are not just focused on the command-line and
+  include a plethora of other cheatsheets related to programming.
 
 - [eg](https://github.com/srsudar/eg)
-  provides detailed examples with explanations on the command line.
+  provides detailed examples with explanations on the command-line.
   Examples come from the repository, but `eg` supports displaying
   custom examples and commands alongside the defaults.
+
+- [kb](https://github.com/gnebbia/kb)
+  is a minimalist command-line knowledge base manager.
+  kb can be used to organize your notes and cheatsheets in a minimalist
+  and clean way. It also supports non-text files.
+
+- [navi](https://github.com/denisidoro/navi)
+  is an interactive cheatsheet tool, which allows you to browse through
+  specific examples or complete commands on the fly.
+
+- [bropages (deprecated)](http://bropages.org)
+  are a highly readable supplement to man pages.
+  It shows concise, common-case examples for Unix commands.
+  The examples are submitted by the user base, and can be voted up or down;
+  the best entries are what people see first when they look up a command.
 
 ## What does "tldr" mean?
 
 TL;DR stands for "Too Long; Didn't Read".
-It originates in Internet slang, where it is used to indicate that a long text
+It originated as Internet slang, where it is used to indicate that a long text
 (or parts of it) has been skipped as too lengthy.
-Read more in Wikipedia's [TL;DR article](https://en.wikipedia.org/wiki/TL;DR).
+Read more in How-To Geek's [article](https://www.howtogeek.com/435266/what-does-tldr-mean-and-how-do-you-use-it/).

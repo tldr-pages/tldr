@@ -1,6 +1,7 @@
 # tree
 
 > Display a graphical tree of the directory structure for a path.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/tree>.
 
 - Display the tree for the current directory:
 
@@ -8,12 +9,12 @@
 
 - Display the tree for a specific directory:
 
-`tree {{path/to/directory}}`
+`tree {{path\to\directory}}`
 
-- Display the tree for a directory including files:
+- Display the tree for a directory including [f]iles:
 
-`tree {{path/to/directory}} /f`
+`tree {{path\to\directory}} /f`
 
-- Display the tree using ASCII characters instead of extended characters:
+- Display the tree using [a]SCII characters instead of extended characters:
 
-`tree {{path/to/directory}} /a`
+`tree {{path\to\directory}} /a`

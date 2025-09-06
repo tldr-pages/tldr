@@ -1,6 +1,7 @@
 # drutil
 
 > Interact with DVD burners.
+> More information: <https://keith.github.io/xcode-man-pages/drutil.1.html>.
 
 - Eject a disk from the drive:
 

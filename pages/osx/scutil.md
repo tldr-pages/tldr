@@ -1,7 +1,8 @@
 # scutil
 
 > Manage system configuration parameters.
-> Necessitates to be root when setting configuration.
+> Require root privileges when setting configuration.
+> More information: <https://keith.github.io/xcode-man-pages/scutil.8.html>.
 
 - Display DNS Configuration:
 

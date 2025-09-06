@@ -1,11 +1,13 @@
 # pbcopy
 
-> Place standard output in the clipboard.
+> Copy data from `stdin` to the clipboard.
+> Comparable to pressing `<Cmd c>` on the keyboard.
+> More information: <https://keith.github.io/xcode-man-pages/pbcopy.1.html>.
 
-- Place the contents of a file in the clipboard:
+- Place the contents of a specific file in the clipboard:
 
-`pbcopy < {{file}}`
+`pbcopy < {{path/to/file}}`
 
-- Place the results of a command in the clipboard:
+- Place the results of a specific command in the clipboard:
 
 `find . -type t -name "*.png" | pbcopy`

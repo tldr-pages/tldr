@@ -1,9 +1,9 @@
 # nokogiri
 
 > An HTML, XML, SAX and Reader parser.
-> More information: <https://nokogiri.org>.
+> More information: <https://manned.org/nokogiri>.
 
-- Parse the contents of a url or file:
+- Parse the contents of a URL or file:
 
 `nokogiri {{url|path/to/file}}`
 
@@ -11,13 +11,13 @@
 
 `nokogiri {{url|path/to/file}} --type {{xml|html}}`
 
-- Load a specific initialisation file before parsing:
+- Load a specific initialization file before parsing:
 
 `nokogiri {{url|path/to/file}} -C {{path/to/config_file}}`
 
 - Parse using a specific encoding:
 
-`nokogiri {{url|path/to/file}} --encoding {{encoding}}`
+`nokogiri {{url|path/to/file}} {{[-E|--encoding]}} {{encoding}}`
 
 - Validate using a RELAX NG file:
 

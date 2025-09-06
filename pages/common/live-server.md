@@ -1,9 +1,9 @@
 # live-server
 
-> A simple development http server with live reload capability.
-> More information: <https://www.npmjs.com/package/live-server>.
+> A simple development HTTP server with live reload capability.
+> More information: <https://github.com/tapio/live-server>.
 
-- Serve an index.html file and reload on changes:
+- Serve an `index.html` file and reload on changes:
 
 `live-server`
 

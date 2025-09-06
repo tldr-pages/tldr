@@ -1,6 +1,7 @@
 # xattr
 
 > Utility to work with extended filesystem attributes.
+> More information: <https://keith.github.io/xcode-man-pages/xattr.1.html>.
 
 - List key:value extended attributes for a given file:
 

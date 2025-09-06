@@ -1,9 +1,9 @@
 # scheme
 
-> MIT Scheme language interperter and REPL (interactive shell).
-> More information: <https://www.gnu.org/software/mit-scheme>.
+> MIT Scheme language interpreter and REPL (interactive shell).
+> More information: <https://www.gnu.org/software/mit-scheme/documentation/stable/mit-scheme-user.html#Command_002dLine-Options>.
 
-- Open an interactive shell (REPL):
+- Start a REPL (interactive shell):
 
 `scheme`
 
@@ -17,7 +17,7 @@
 
 - Load scheme expressions into the REPL:
 
-`scheme --eval {{"(define foo 'x)"}}`
+`scheme --eval "{{(define foo 'x)}}"`
 
 - Open the REPL in quiet mode:
 

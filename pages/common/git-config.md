@@ -1,29 +1,37 @@
 # git config
 
-> Manage custom configuration options for git repositories.
+> Manage custom configuration options for Git repositories.
 > These configurations can be local (for the current repository) or global (for the current user).
 > More information: <https://git-scm.com/docs/git-config>.
 
-- List only local configuration entries (stored in `.git/config` in the current repository):
+- Globally set your name or email (this information is required to commit to a repository and will be included in all commits):
 
-`git config --list --local`
+`git config --global {{user.name|user.email}} "{{Your Name|email@example.com}}"`
 
-- List only global configuration entries (stored in `~/.gitconfig`):
+- List local, global or system configuration entries and show their file location:
 
-`git config --list --global`
+`git config {{[-l|--list]}} --{{local|global|system}} --show-origin`
 
-- List all configuration entries that have been defined either locally or globally:
+- Set the global value of a given configuration entry (in this case an alias):
 
-`git config --list`
+`git config --global {{alias.unstage}} "reset HEAD --"`
 
 - Get the value of a given configuration entry:
 
-`git config alias.unstage`
+`git config {{alias.unstage}}`
 
-- Set the global value of a given configuration entry:
+- Use an alias:
 
-`git config --global alias.unstage "reset HEAD --"`
+`git {{unstage}}`
 
 - Revert a global configuration entry to its default value:
 
-`git config --global --unset alias.unstage`
+`git config --global --unset {{alias.unstage}}`
+
+- Edit the local Git configuration (`.git/config`) in the default editor:
+
+`git config {{[-e|--edit]}}`
+
+- Edit the global Git configuration (`~/.gitconfig` by default or `$XDG_CONFIG_HOME/git/config` if such a file exists) in the default editor:
+
+`git config --global {{[-e|--edit]}}`

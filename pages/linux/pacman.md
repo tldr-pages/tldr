@@ -1,35 +1,38 @@
 # pacman
 
 > Arch Linux package manager utility.
+> See also: `pacman-sync`, `pacman-remove`, `pacman-query`, `pacman-upgrade`, `pacman-files`, `pacman-database`, `pacman-deptest`, `pacman-key`, `pacman-mirrors`.
+> For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
+> More information: <https://manned.org/pacman.8>.
 
-- Synchronize and update all packages:
+- [S]ynchronize and update all packages:
 
-`pacman -Syu`
+`sudo pacman -Syu`
 
 - Install a new package:
 
-`pacman -S {{package_name}}`
+`sudo pacman -S {{package}}`
 
-- Remove a package and its dependencies:
+- [R]emove a package and its dependencies:
 
-`pacman -Rs {{package_name}}`
+`sudo pacman -Rs {{package}}`
 
-- Search the package database for a regular expression or keyword:
+- Search ([s]) the package database for a `regex` or keyword:
 
 `pacman -Ss "{{search_pattern}}"`
 
-- List installed packages and versions:
+- Search the database for packages containing a specific [F]ile:
 
-`pacman -Q`
+`pacman -F "{{file_name}}"`
 
-- List only the explicitly installed packages and versions:
+- List only the [e]xplicitly installed packages and versions:
 
 `pacman -Qe`
 
-- Find which package owns a certain file:
+- List orphan packages (installed as [d]ependencies but not actually required by any package):
 
-`pacman -Qo {{filename}}`
+`pacman -Qtdq`
 
-- Empty package cache to free up space:
+- Empty the entire `pacman` cache:
 
-`pacman -Scc`
+`sudo pacman -Scc`

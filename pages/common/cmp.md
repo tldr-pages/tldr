@@ -1,11 +1,20 @@
 # cmp
 
-> Compare two files.
+> Compare two files byte by byte.
+> More information: <https://www.gnu.org/software/diffutils/manual/diffutils.html#Invoking-cmp>.
 
-- Find the byte number and line number of the first difference between the files:
+- Output char and line number of the first difference between two files:
 
-`cmp {{file1}} {{file2}}`
+`cmp {{path/to/file1}} {{path/to/file2}}`
 
-- Find the byte number and differing bytes of every difference:
+- Output info of the first difference: char, line number, bytes, and values:
 
-`cmp -l {{file1}} {{file2}}`
+`cmp {{[-b|--print-bytes]}} {{path/to/file1}} {{path/to/file2}}`
+
+- Output the byte numbers and values of every difference:
+
+`cmp {{[-l|--verbose]}} {{path/to/file1}} {{path/to/file2}}`
+
+- Compare files but output nothing, yield only the exit status:
+
+`cmp {{[-s|--quiet]}} {{path/to/file1}} {{path/to/file2}}`

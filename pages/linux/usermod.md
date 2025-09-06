@@ -1,15 +1,37 @@
 # usermod
 
-> Modifies a user account.
+> Modify a user account.
+> See also: `users`, `useradd`, `userdel`.
+> More information: <https://manned.org/usermod>.
 
-- Change a user's name:
+- Change a username:
 
-`usermod -l {{newname}} {{user}}`
+`sudo usermod {{[-l|--login]}} {{new_username}} {{username}}`
 
-- Add user to supplementary groups (mind the whitespace):
+- Change a user ID:
 
-`usermod -a -G {{group1,group2}} {{user}}`
+`sudo usermod {{[-u|--uid]}} {{id}} {{username}}`
 
-- Create a new home directory for a user and move their files to it:
+- Change a user shell:
 
-`usermod -m -d {{/path/to/home}} {{user}}`
+`sudo usermod {{[-s|--shell]}} {{path/to/shell}} {{username}}`
+
+- Add a user to supplementary groups (mind the lack of whitespace):
+
+`sudo usermod {{[-aG|--append --groups]}} {{group1,group2,...}} {{username}}`
+
+- Remove a user from specific groups:
+
+`sudo usermod {{[-rG|--remove --groups]}} {{group1,group2,...}} {{username}}`
+
+- Change a user home directory:
+
+`sudo usermod {{[-m|--move-home]}} {{[-d|--home]}} {{path/to/new_home}} {{username}}`
+
+- Lock an account:
+
+`sudo usermod {{[-L|--lock]}} {{username}}`
+
+- Unlock an account:
+
+`sudo usermod {{[-U|--unlock]}} {{username}}`

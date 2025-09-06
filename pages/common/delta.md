@@ -1,0 +1,32 @@
+# delta
+
+> A viewer for Git and diff output.
+> More information: <https://dandavison.github.io/delta/full---help-output.html>.
+
+- Compare files or directories:
+
+`delta {{path/to/old_file_or_directory}} {{path/to/new_file_or_directory}}`
+
+- Compare files or directories, showing the line numbers:
+
+`delta {{[-n|--line-numbers]}} {{path/to/old_file_or_directory}} {{path/to/new_file_or_directory}}`
+
+- Compare files or directories, showing the differences side by side:
+
+`delta {{[-s|--side-by-side]}} {{path/to/old_file_or_directory}} {{path/to/new_file_or_directory}}`
+
+- Compare files or directories, ignoring any Git configuration settings:
+
+`delta --no-gitconfig {{path/to/old_file_or_directory}} {{path/to/new_file_or_directory}}`
+
+- Compare, rendering commit hashes, file names, and line numbers as hyperlinks, according to the hyperlink spec for terminal emulators:
+
+`delta --hyperlinks {{path/to/old_file_or_directory}} {{path/to/new_file_or_directory}}`
+
+- Display the current settings:
+
+`delta --show-config`
+
+- Display supported languages and associated file extensions:
+
+`delta --list-languages`

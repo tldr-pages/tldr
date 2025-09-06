@@ -2,36 +2,36 @@
 
 > JavaScript and Node.js package manager.
 > Manage Node.js projects and their module dependencies.
-> More information: <https://www.npmjs.com/>.
+> More information: <https://docs.npmjs.com/cli/npm>.
 
-- Interactively create a package.json file:
+- Create a `package.json` file with default values (omit `--yes` to do it interactively):
 
-`npm init`
+`npm init {{[-y|--yes]}}`
 
-- Download all the packages listed as dependencies in package.json:
+- Download all the packages listed as dependencies in `package.json`:
 
-`npm install`
+`npm {{[i|install]}}`
 
-- Download a specific version of a package and add it to the list of dependencies in package.json:
+- Download a specific version of a package and add it to the list of dependencies in `package.json`:
 
-`npm install {{module_name}}@{{version}}`
+`npm {{[i|install]}} {{package_name}}@{{version}}`
 
-- Download a package and add it to the list of dev dependencies in package.json:
+- Download the latest version of a package and add it to the list of dev dependencies in `package.json`:
 
-`npm install {{module_name}} --save-dev`
+`npm {{[i|install]}} {{package_name}} {{[-D|--save-dev]}}`
 
-- Download a package and install it globally:
+- Download the latest version of a package and install it globally:
 
-`npm install -g {{module_name}}`
+`npm {{[i|install]}} {{[-g|--global]}} {{package_name}}`
 
-- Uninstall a package and remove it from the list of dependencies in package.json:
+- Uninstall a package and remove it from the list of dependencies in `package.json`:
 
-`npm uninstall {{module_name}}`
+`npm {{[r|uninstall]}} {{package_name}}`
 
-- Print a tree of locally-installed dependencies:
+- List all locally installed dependencies:
 
-`npm list`
+`npm {{[ls|list]}}`
 
-- List top-level globally installed modules:
+- List all top-level globally installed packages:
 
-`npm list -g --depth={{0}}`
+`npm {{[ls|list]}} {{[-g|--global]}} --depth {{0}}`

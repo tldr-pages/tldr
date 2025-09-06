@@ -1,7 +1,8 @@
 # launchctl
 
-> A command-line interface to Apple's `launchd` manager for launch daemons (system-wide services) and launch agents (per-user programs).
+> Control Apple's `launchd` manager for launch daemons (system-wide services) and launch agents (per-user programs).
 > `launchd` loads XML-based `*.plist` files placed in the appropriate locations, and runs the corresponding commands according to their defined schedule.
+> More information: <https://keith.github.io/xcode-man-pages/launchctl.1.html>.
 
 - Activate a user-specific agent to be loaded into `launchd` whenever the user logs in:
 
@@ -19,14 +20,14 @@
 
 `launchctl list`
 
-- Unload a currently loaded agent, e.g. to make changes (note: the plist file is automatically loaded into `launchd` after a reboot and/or logging in):
+- Unload a currently loaded agent, e.g. to make changes (Note: The plist file is automatically loaded into `launchd` after a reboot and/or logging in):
 
 `launchctl unload ~/Library/LaunchAgents/{{my_script}}.plist`
 
-- Manually run a known (loaded) agent/daemon, even if it is not the right time (note: this command uses the agent's label, rather than the filename):
+- Manually run a known (loaded) agent/daemon, even if it is not the right time (Note: This command uses the agent's label, rather than the filename):
 
-`launchctl start {{my_script}}`
+`launchctl start {{script_file}}`
 
 - Manually kill the process associated with a known agent/daemon, if it is running:
 
-`launchctl stop {{my_script}}`
+`launchctl stop {{script_file}}`

@@ -1,6 +1,7 @@
 # sn
 
 > Mono StrongName utility for signing and verifying IL assemblies.
+> More information: <https://manned.org/sn>.
 
 - Generate a new StrongNaming key:
 
@@ -8,7 +9,7 @@
 
 - Re-sign an assembly with the specified private key:
 
-`sn -R {{path/to/assembly.dll}} {{path/to/keypair.snk}}`
+`sn -R {{path/to/assembly.dll}} {{path/to/key_pair.snk}}`
 
 - Show the public key of the private key that was used to sign an assembly:
 

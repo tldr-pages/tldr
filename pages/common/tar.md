@@ -1,37 +1,37 @@
 # tar
 
 > Archiving utility.
-> Often combined with a compression method, such as gzip or bzip.
-> More information: <https://www.gnu.org/software/tar>.
+> Often combined with a compression method, such as `gzip` or `bzip2`.
+> More information: <https://www.gnu.org/software/tar/manual/tar.html>.
 
-- Create an archive from files:
+- [c]reate an archive and write it to a [f]ile:
 
-`tar -cf {{target.tar}} {{file1 file2 file3}}`
+`tar cf {{path/to/target.tar}} {{path/to/file1 path/to/file2 ...}}`
 
-- Create a gzipped archive:
+- [c]reate a g[z]ipped archive and write it to a [f]ile:
 
-`tar -czf {{target.tar.gz}} {{file1 file2 file3}}`
+`tar czf {{path/to/target.tar.gz}} {{path/to/file1 path/to/file2 ...}}`
 
-- Extract an archive in a target directory:
+- [c]reate a g[z]ipped (compressed) archive from a directory using relative paths:
 
-`tar -xf {{source.tar}} -C {{directory}}`
+`tar czf {{path/to/target.tar.gz}} {{[-C|--directory]}} {{path/to/directory}} .`
 
-- Extract a gzipped archive in the current directory:
+- E[x]tract a (compressed) archive [f]ile into the current directory [v]erbosely:
 
-`tar -xzf {{source.tar.gz}}`
+`tar xvf {{path/to/source.tar[.gz|.bz2|.xz]}}`
 
-- Extract a bzipped archive in the current directory:
+- E[x]tract a (compressed) archive [f]ile into the target directory:
 
-`tar -xjf {{source.tar.bz2}}`
+`tar xf {{path/to/source.tar[.gz|.bz2|.xz]}} {{[-C|--directory]}} {{path/to/directory}}`
 
-- Create a compressed archive, using archive suffix to determine the compression program:
+- [c]reate a compressed archive and write it to a [f]ile, using the file extension to [a]utomatically determine the compression program:
 
-`tar -caf {{target.tar.xz}} {{file1 file2 file3}}`
+`tar caf {{path/to/target.tar.xz}} {{path/to/file1 path/to/file2 ...}}`
 
-- List the contents of a tar file:
+- Lis[t] the contents of a tar [f]ile [v]erbosely:
 
-`tar -tvf {{source.tar}}`
+`tar tvf {{path/to/source.tar}}`
 
-- Extract files matching a pattern:
+- E[x]tract files matching a pattern from an archive [f]ile:
 
-`tar -xf {{source.tar}} --wildcards {{"*.html"}}`
+`tar xf {{path/to/source.tar}} --wildcards "{{*.html}}"`

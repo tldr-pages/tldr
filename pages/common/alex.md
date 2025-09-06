@@ -1,6 +1,6 @@
 # alex
 
-> A tool that catches insensitive, inconsiderate writing.
+> Catch insensitive, inconsiderate writing.
 > It helps you find gender favouring, polarising, race related, religion inconsiderate, or other unequal phrasing in text.
 > More information: <https://github.com/get-alex/alex>.
 
@@ -14,8 +14,8 @@
 
 - Analyze a specific file:
 
-`alex {{textfile.md}}`
+`alex {{path/to/file.md}}`
 
-- Analyze all markdown files except `example.md`:
+- Analyze all Markdown files except `example.md`:
 
 `alex *.md !{{example.md}}`

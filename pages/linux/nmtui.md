@@ -1,13 +1,15 @@
 # nmtui
 
 > Text user interface for controlling NetworkManager.
-> Use arrow keys to navigate, enter to select an option.
+> Use `<ArrowKeys>` to navigate, `<Enter>` to select an option.
+> See also: `nmcli`.
+> More information: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmtui.html>.
 
 - Open the user interface:
 
 `nmtui`
 
-- Show a list of available connections, with the option to activate or deactivate them:
+- List available connections, with the option to activate or deactivate them:
 
 `nmtui connect`
 

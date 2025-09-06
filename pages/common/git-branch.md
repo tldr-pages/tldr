@@ -1,15 +1,19 @@
 # git branch
 
-> Main git command for working with branches.
+> Main Git command for working with branches.
 > More information: <https://git-scm.com/docs/git-branch>.
 
-- List local branches. The current branch is highlighted by `*`:
+- List all branches (local and remote; the current branch is highlighted by `*`):
 
-`git branch`
+`git branch {{[-a|--all]}}`
 
-- List all branches (local and remote):
+- List which branches include a specific Git commit in their history:
 
-`git branch -a`
+`git branch {{[-a|--all]}} --contains {{commit_hash}}`
+
+- Show the name of the current branch:
+
+`git branch --show-current`
 
 - Create new branch based on the current commit:
 
@@ -19,10 +23,14 @@
 
 `git branch {{branch_name}} {{commit_hash}}`
 
-- Rename a branch (must not have it checked out to do this):
+- Rename a branch (you must switch to a different branch before doing this):
 
-`git branch -m {{old_branch_name}} {{new_branch_name}}`
+`git branch {{[-m|--move]}} {{old_branch_name}} {{new_branch_name}}`
 
-- Delete a local branch (must not have it checked out to do this):
+- Delete a local branch (you must switch to a different branch before doing this):
 
-`git branch -d {{branch_name}}`
+`git branch {{[-d|--delete]}} {{branch_name}}`
+
+- Delete a remote branch:
+
+`git push {{remote_name}} {{[-d|--delete]}} {{remote_branch_name}}`

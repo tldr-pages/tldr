@@ -2,6 +2,7 @@
 
 > Create ISO files from directories.
 > Also aliased as `genisoimage`.
+> More information: <https://manned.org/mkisofs>.
 
 - Create an ISO from a directory:
 
@@ -9,4 +10,4 @@
 
 - Set the disc label when creating an ISO:
 
-`mkisofs -o {{filename.iso}} -V {{"label_name"}} {{path/to/source_directory}}`
+`mkisofs -o {{filename.iso}} -V "{{label_name}}" {{path/to/source_directory}}`

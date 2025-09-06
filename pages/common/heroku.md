@@ -1,13 +1,13 @@
 # heroku
 
-> Create and manage Heroku apps from the command line.
-> More information: <https://www.heroku.com/>.
+> Create and manage Heroku apps.
+> More information: <https://devcenter.heroku.com/articles/heroku-cli#get-started-with-the-heroku-cli>.
 
-- Login to your heroku account:
+- Log in to your Heroku account:
 
 `heroku login`
 
-- Create a heroku app:
+- Create a Heroku app:
 
 `heroku create`
 

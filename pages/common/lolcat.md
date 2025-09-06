@@ -13,8 +13,8 @@
 
 - Print a file to the console with animated rainbow colors:
 
-`lolcat -a {{path/to/file}}`
+`lolcat {{[-a|--animate]}} {{path/to/file}}`
 
 - Print a file to the console with 24-bit (truecolor) rainbow colors:
 
-`lolcat -t {{path/to/file}}`
+`lolcat {{[-t|--truecolor]}} {{path/to/file}}`

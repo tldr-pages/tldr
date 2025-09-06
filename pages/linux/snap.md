@@ -1,28 +1,11 @@
 # snap
 
-> Tool for managing the "snap" self-contained software packages.
-> Similar to what `apt` is for ".deb".
+> `snap` can refer to multiple commands with the same name.
 
-- Search for a package:
+- View documentation for the packaging solution:
 
-`snap find {{package_name}}`
+`tldr snap.pkg`
 
-- Install a package:
+- View documentation for the European Space Agency Earth observation data processing tool:
 
-`snap install {{package_name}}`
-
-- Update all packages:
-
-`snap refresh`
-
-- Display basic information about installed snap software:
-
-`snap list`
-
-- Uninstall a package:
-
-`snap remove {{package_name}}`
-
-- Check for recent snap changes in the system:
-
-`snap changes`
+`tldr snap.esa`

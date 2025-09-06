@@ -1,10 +1,10 @@
 # rainbowstream
 
 > Terminal-based Twitter client supporting realtime tweetstream, trends, sending, search, favorites and user management.
-> Online help with `h`, up and down arrows for history, tab to auto-complete and 2-tab for suggestion.
+> Online help with `<h>`, `<ArrowUp>` and `<ArrowDown>` for history, `<Tab>` to auto-complete and 2-`<Tab>` for suggestion.
 > More information: <https://github.com/orakaro/rainbowstream>.
 
-- Open rainbowstream:
+- Open RainbowStream:
 
 `rainbowstream`
 
@@ -20,11 +20,11 @@
 
 `t {{message}}`
 
-- Retweet the tweet with given id (id is beside the time):
+- Retweet the tweet with given ID (ID is beside the time):
 
 `rt {{tweet_id}}`
 
-- Favorite the tweet with given id:
+- Favorite the tweet with given ID:
 
 `fav {{tweet_id}}`
 

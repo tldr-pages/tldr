@@ -5,16 +5,16 @@
 
 - Esegui nella directory di un progetto:
 
-`cppclean {{percorso/a/directory_progetto}}`
+`cppclean {{percorso/della/directory_progetto}}`
 
 - Esegui su di un progetto dove gli header sono nella directory "inc1" ed "inc2":
 
-`cppclean {{percorso/a/directory_progetto}} --include-path={{inc1}} --include-path={{inc2}}`
+`cppclean {{percorso/della/directory_progetto}} --include-path {{inc1}} --include-path {{inc2}}`
 
-- Esegui su di uno specifico file "main.cpp":
+- Esegui su di uno specifico file `main.cpp`:
 
 `cppclean {{main.cpp}}`
 
 - Esegui della directory corrente, escludendo la directory "build":
 
-`cppclean {{.}} --exclude={{build}}`
+`cppclean {{.}} --exclude {{build}}`

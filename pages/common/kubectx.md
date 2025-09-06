@@ -1,7 +1,7 @@
 # kubectx
 
 > Utility to manage and switch between `kubectl` contexts.
-> More information: <https://github.com/ahmetb/kubectx>.
+> More information: <https://manned.org/kubectx>.
 
 - List the contexts:
 
@@ -14,6 +14,14 @@
 - Switch to the previous context:
 
 `kubectx -`
+
+- Rename a named context:
+
+`kubectx {{alias}}={{name}}`
+
+- Show the current named context:
+
+`kubectx {{[-c|--current]}}`
 
 - Delete a named context:
 

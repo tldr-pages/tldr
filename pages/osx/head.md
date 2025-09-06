@@ -1,11 +1,20 @@
 # head
 
 > Output the first part of files.
+> More information: <https://keith.github.io/xcode-man-pages/head.1.html>.
 
 - Output the first few lines of a file:
 
-`head -n {{count_of_lines}} {{filename}}`
+`head {{[-n|--lines]}} {{8}} {{path/to/file}}`
 
 - Output the first few bytes of a file:
 
-`head -c {{number_in_bytes}} {{filename}}`
+`head {{[-c|--bytes]}} {{8}} {{path/to/file}}`
+
+- Output everything but the last few lines of a file:
+
+`head {{[-n|--lines]}} -{{8}} {{path/to/file}}`
+
+- Output everything but the last few bytes of a file:
+
+`head {{[-c|--bytes]}} -{{8}} {{path/to/file}}`

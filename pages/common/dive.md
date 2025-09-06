@@ -1,6 +1,6 @@
 # dive
 
-> A tool for exploring a Docker image, layer contents, and discovering ways to shrink it.
+> Explore a Docker image, layer contents, and discover ways to shrink it.
 > More information: <https://github.com/wagoodman/dive>.
 
 - Analyze a Docker image:

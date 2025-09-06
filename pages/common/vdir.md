@@ -1,19 +1,20 @@
 # vdir
 
-> List directory contents.
-> Drop-in replacement for `ls -l`.
+> Verbosely list directory contents.
+> Drop-in replacement for `ls -l -b`.
+> More information: <https://manned.org/vdir>.
 
 - List files and directories in the current directory, one per line, with details:
 
 `vdir`
 
-- List with sizes displayed in human readable units (KB, MB, GB):
+- List with sizes displayed in human-readable units (KB, MB, GB):
 
-`vdir -h`
+`vdir {{[-h|--human-readable]}}`
 
 - List including hidden files (starting with a dot):
 
-`vdir -a`
+`vdir {{[-a|--all]}}`
 
 - List files and directories sorting entries by size (largest first):
 
@@ -29,4 +30,4 @@
 
 - Recursively list all files and directories in a specific directory:
 
-`vdir --recursive {{path/to/directory}}`
+`vdir {{[-R|--recursive]}} {{path/to/directory}}`

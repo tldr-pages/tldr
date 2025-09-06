@@ -1,7 +1,8 @@
 # update-rc.d
 
 > Install and remove services which are System-V style init script links.
-> Init scripts are in the /etc/init.d/.
+> Init scripts are in the `/etc/init.d/`.
+> More information: <https://manned.org/update-rc.d>.
 
 - Install a service:
 

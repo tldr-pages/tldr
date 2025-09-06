@@ -1,25 +1,37 @@
 # 7za
 
-> A file archiver with high compression ratio.
-> A standalone version of `7z` with support for fewer archive types.
-> More information: <https://www.7-zip.org/>.
+> File archiver with a high compression ratio.
+> Similar to `7z` except that it supports fewer file types but is cross-platform.
+> More information: <https://manned.org/7za>.
 
-- Archive a file or directory:
+- [a]rchive a file or directory:
 
-`7za a {{archived.7z}} {{path/to/file_or_directory}}`
+`7za a {{path/to/archive.7z}} {{path/to/file_or_directory}}`
 
-- Extract an existing 7z file with original directory structure:
+- Encrypt an existing archive (including file names):
 
-`7za x {{archived}}`
+`7za a {{path/to/encrypted.7z}} -p{{password}} -mhe={{on}} {{path/to/archive.7z}}`
 
-- Archive using a specific archive type:
+- E[x]tract an archive preserving the original directory structure:
 
-`7za a -t{{zip|gzip|bzip2|tar}} {{archived}} {{path/to/file_or_directory}}`
+`7za x {{path/to/archive.7z}}`
 
-- List available archive types:
+- E[x]tract an archive to a specific directory:
 
-`7za i`
+`7za x {{path/to/archive.7z}} -o{{path/to/output}}`
 
-- List the contents of an archive file:
+- E[x]tract an archive to `stdout`:
 
-`7za l {{archived}}`
+`7za x {{path/to/archive.7z}} -so`
+
+- [a]rchive using a specific archive type:
+
+`7za a -t{{7z|bzip2|gzip|lzip|tar|...}} {{path/to/archive.7z}} {{path/to/file_or_directory}}`
+
+- [l]ist the contents of an archive:
+
+`7za l {{path/to/archive.7z}}`
+
+- Set the level of compression (higher means more compression, but slower):
+
+`7za a {{path/to/archive.7z}} -mx={{0|1|3|5|7|9}} {{path/to/file_or_directory}}`

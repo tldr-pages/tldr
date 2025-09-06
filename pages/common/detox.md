@@ -2,16 +2,16 @@
 
 > Renames files to make them easier to work with.
 > It removes spaces and other such annoyances like duplicate underline characters.
-> More information: <https://github.com/dharple/detox>.
+> More information: <https://manned.org/detox>.
 
 - Remove spaces and other undesirable characters from a file's name:
 
-`detox {{file}}`
+`detox {{path/to/file}}`
 
-- Show how detox would rename all of the files in a directory tree:
+- Show how detox would rename all the files in a directory tree:
 
-`detox --dry-run -r {{directory}}`
+`detox {{[-n|--dry-run]}} -r {{path/to/directory}}`
 
 - Remove spaces and other undesirable characters from all files in a directory tree:
 
-`detox -r {{directory}}`
+`detox -r {{path/to/directory}}`

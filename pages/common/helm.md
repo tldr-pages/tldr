@@ -1,7 +1,8 @@
 # helm
 
-> Helm is a package manager for Kubernetes.
-> More information: <https://helm.sh/>.
+> A package manager for Kubernetes.
+> Some subcommands such as `install` have their own usage documentation.
+> More information: <https://helm.sh/docs/helm/>.
 
 - Create a helm chart:
 
@@ -9,23 +10,23 @@
 
 - Add a new helm repository:
 
-`helm repo add {{repo_name}}`
+`helm repo add {{repository_name}}`
 
 - List helm repositories:
 
-`helm repo list`
+`helm repo {{[ls|list]}}`
 
 - Update helm repositories:
 
-`helm repo update`
+`helm repo {{[up|update]}}`
 
 - Delete a helm repository:
 
-`helm repo remove {{repo_name}}`
+`helm repo {{[rm|remove]}} {{repository_name}}`
 
 - Install a helm chart:
 
-`helm install {{repo_name}}/{{chart_name}}`
+`helm install {{name}} {{repository_name}}/{{chart_name}}`
 
 - Download helm chart as a tar archive:
 
@@ -33,4 +34,4 @@
 
 - Update helm dependencies:
 
-`helm dependency update`
+`helm {{[dep|dependency]}} {{[up|update]}}`

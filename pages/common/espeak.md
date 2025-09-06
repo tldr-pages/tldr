@@ -1,7 +1,7 @@
 # espeak
 
-> Uses text-to-speech to speak through the default sound device.
-> More information: <http://espeak.sourceforge.net>.
+> Use text-to-speech to speak through the default sound device.
+> More information: <https://espeak.sourceforge.net>.
 
 - Speak a phrase aloud:
 
@@ -9,7 +9,7 @@
 
 - Speak a file aloud:
 
-`espeak -f {{filename}}`
+`espeak -f {{path/to/file}}`
 
 - Save output to a WAV audio file, rather than speaking it directly:
 

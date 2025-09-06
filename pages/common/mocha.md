@@ -1,6 +1,6 @@
 # mocha
 
-> Execute Mocha JavaScript test runner.
+> A feature-rich JavaScript test framework.
 > More information: <https://mochajs.org>.
 
 - Run tests with default configuration or as configured in `mocha.opts`:
@@ -11,9 +11,9 @@
 
 `mocha {{directory/with/tests}}`
 
-- Run tests that match a specific grep pattern:
+- Run tests that match a specific `grep` pattern:
 
-`mocha --grep {{^regex$}}`
+`mocha --grep {{regex}}`
 
 - Run tests on changes to JavaScript files in the current directory and once initially:
 

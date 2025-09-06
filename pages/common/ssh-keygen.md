@@ -1,31 +1,37 @@
 # ssh-keygen
 
-> Generate ssh keys user for authentication, password-less logins, and other things.
+> Generate SSH keys used for authentication, password-less logins, and other things.
+> See also: `ssh-copy-id` for installing SSH keys on remote hosts.
+> More information: <https://man.openbsd.org/ssh-keygen>.
 
 - Generate a key interactively:
 
 `ssh-keygen`
 
-- Specify file in which to save the key:
+- Generate an ed25519 key with 32 key derivation function rounds and save the key to a specific file:
 
-`ssh-keygen -f ~/.ssh/{{filename}}`
+`ssh-keygen -t {{ed25519}} -a {{32}} -f {{~/.ssh/filename}}`
 
-- Generate an ed25519 key with 100 key derivation function rounds:
+- Generate an RSA 4096-bit key with email as a comment:
 
-`ssh-keygen -t ed25519 -a 100`
+`ssh-keygen -t {{rsa}} -b {{4096}} -C "{{comment|email}}"`
 
-- Generate an RSA 4096 bit key with your email as a comment:
+- Remove the keys of a host from the known_hosts file (useful when a known host has a new key):
 
-`ssh-keygen -t rsa -b 4096 -C "{{email}}"`
-
-- Retrieve the key fingerprint from a host (useful for confirming the authenticity of the host when first connecting to it via SSH):
-
-`ssh-keygen -l -F {{remote_host}}`
+`ssh-keygen -R {{remote_host}}`
 
 - Retrieve the fingerprint of a key in MD5 Hex:
 
-`ssh-keygen -l -E md5 -f ~/.ssh/{{filename}}`
+`ssh-keygen -l -E {{md5}} -f {{~/.ssh/filename}}`
 
 - Change the password of a key:
 
-`ssh-keygen -p -f ~/.ssh/{{filename}}`
+`ssh-keygen -p -f {{~/.ssh/filename}}`
+
+- Change the type of the key format (for example from OPENSSH format to PEM), the file will be rewritten in-place:
+
+`ssh-keygen -p -N "" -m {{PEM}} -f {{~/.ssh/OpenSSH_private_key}}`
+
+- Retrieve public key from secret key:
+
+`ssh-keygen -y -f {{~/.ssh/OpenSSH_private_key}}`

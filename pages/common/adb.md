@@ -1,7 +1,8 @@
 # adb
 
 > Android Debug Bridge: communicate with an Android emulator instance or connected Android devices.
-> More information: <https://developer.android.com/studio/command-line/adb>.
+> Some subcommands such as `shell` have their own usage documentation.
+> More information: <https://developer.android.com/tools/adb>.
 
 - Check whether the adb server process is running and start it:
 
@@ -27,6 +28,10 @@
 
 `adb push {{path/to/local_file_or_directory}} {{path/to/device_destination_directory}}`
 
-- Get a list of connected devices:
+- List all connected devices:
 
 `adb devices`
+
+- Specify which device to send commands to if there are multiple devices:
+
+`adb -s {{device_ID}} {{shell}}`

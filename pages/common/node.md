@@ -5,16 +5,24 @@
 
 - Run a JavaScript file:
 
-`node {{file}}.js`
+`node {{path/to/file}}`
 
 - Start a REPL (interactive shell):
 
 `node`
 
-- Evaluate JavaScript by passing it in the command:
+- Execute the specified file restarting the process when an imported file is changed (requires Node.js version 18.11+):
 
-`node -e "{{code}}"`
+`node --watch {{path/to/file}}`
 
-- Evaluate and print result, useful to see node's dependencies versions:
+- Evaluate JavaScript code by passing it as an argument:
 
-`node -p "{{process.versions}}"`
+`node {{[-e|--eval]}} "{{code}}"`
+
+- Evaluate and print the result, useful to print node's dependencies versions:
+
+`node {{[-p|--print]}} "process.versions"`
+
+- Activate inspector, pausing execution until a debugger is connected once source code is fully parsed:
+
+`node --no-lazy --inspect-brk {{path/to/file}}`

@@ -3,7 +3,7 @@
 > A mutation testing framework for PHP.
 > More information: <https://infection.github.io>.
 
-- Analyse code using the configuration file (or create one if it does not exist):
+- Analyze code using the configuration file (or create one if it does not exist):
 
 `infection`
 
@@ -19,7 +19,7 @@
 
 `infection --min-covered-msi {{percentage}}`
 
-- Use a specific test framework (defaults to phpunit):
+- Use a specific test framework (defaults to PHPUnit):
 
 `infection --test-framework {{phpunit|phpspec}}`
 

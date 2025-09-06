@@ -13,4 +13,4 @@
 
 - Monitor a process by PID and trigger a notification when the PID disappears:
 
-`noti -w {{process_id}}`
+`noti {{[-w|--pwatch]}} {{process_id}}`

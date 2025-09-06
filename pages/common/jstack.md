@@ -1,15 +1,16 @@
 # jstack
 
-> Java Stack Trace Tool.
+> Java stack trace tool.
+> More information: <https://manned.org/jstack>.
 
-- Print java stack traces for all threads in a java process:
+- Print Java stack traces for all threads in a Java process:
 
 `jstack {{java_pid}}`
 
-- Print mixed mode (java/c++) stack traces for all threads in a java process:
+- Print mixed mode (Java/C++) stack traces for all threads in a Java process:
 
 `jstack -m {{java_pid}}`
 
-- Print stack traces from java core dump:
+- Print stack traces from Java core dump:
 
 `jstack {{/usr/bin/java}} {{file.core}}`

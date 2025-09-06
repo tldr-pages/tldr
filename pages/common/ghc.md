@@ -2,7 +2,7 @@
 
 > The Glasgow Haskell Compiler.
 > Compiles and links Haskell source files.
-> More information: <https://www.haskell.org/ghc>.
+> More information: <https://downloads.haskell.org/ghc/latest/docs/users_guide/usage.html>.
 
 - Find and compile all modules in the current directory:
 
@@ -10,17 +10,17 @@
 
 - Compile a single file:
 
-`ghc {{file.hs}}`
+`ghc {{path/to/file.hs}}`
 
 - Compile using extra optimization:
 
-`ghc -O {{file.hs}}`
+`ghc -O {{path/to/file.hs}}`
 
 - Stop compilation after generating object files (.o):
 
-`ghc -c {{file.hs}}`
+`ghc -c {{path/to/file.hs}}`
 
-- Run Haskell interactive interpreter (REPL):
+- Start a REPL (interactive shell):
 
 `ghci`
 

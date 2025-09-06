@@ -9,7 +9,7 @@
 
 - Esegui il linting di file CSS multipli:
 
-`csslint {{file1.css}} {{file2.css}} {{file3.css}}`
+`csslint {{file1.css file2.css ...}}`
 
 - Elenca tutte le possibili regole di stile:
 

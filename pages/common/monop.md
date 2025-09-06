@@ -1,6 +1,7 @@
 # monop
 
 > Finds and displays signatures of Types and methods inside .NET assemblies.
+> More information: <https://manned.org/monop>.
 
 - Show the structure of a Type built-in of the .NET Framework:
 
@@ -16,15 +17,15 @@
 
 - Only show members defined in the specified Type:
 
-`monop -r:{{path/to/assembly.dll}} --only-declared {{Namespace.Path.To.Type}}`
+`monop -r:{{path/to/assembly.dll}} {{[-d|--declared-only]}} {{Namespace.Path.To.Type}}`
 
 - Show private members:
 
-`monop -r:{{path/to/assembly.dll}} --private {{Namespace.Path.To.Type}}`
+`monop -r:{{path/to/assembly.dll}} {{[-p|--private]}} {{Namespace.Path.To.Type}}`
 
 - Hide obsolete members:
 
-`monop -r:{{path/to/assembly.dll}} --filter-obsolete {{Namespace.Path.To.Type}}`
+`monop -r:{{path/to/assembly.dll}} {{[-f|--filter-obsolete]}} {{Namespace.Path.To.Type}}`
 
 - List the other assemblies that a specified assembly references:
 

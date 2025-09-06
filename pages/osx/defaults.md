@@ -1,18 +1,23 @@
 # defaults
 
 > Read and write macOS user configuration for applications.
+> More information: <https://keith.github.io/xcode-man-pages/defaults.1.html>.
 
 - Read system defaults for an application option:
 
-`defaults read {{application}} {{option}}`
+`defaults read "{{application}}" "{{option}}"`
 
 - Read default values for an application option:
 
-`defaults read -app {{application}} {{option}}`
+`defaults read -app "{{application}}" "{{option}}"`
+
+- Search for a keyword in domain names, keys, and values:
+
+`defaults find "{{keyword}}"`
 
 - Write the default value of an application option:
 
-`defaults write {{application}} {{option}} {{-type}} {{value}}`
+`defaults write "{{application}}" "{{option}}" {{-type}} {{value}}`
 
 - Speed up Mission Control animations:
 
@@ -20,4 +25,4 @@
 
 - Delete all defaults of an application:
 
-`defaults delete {{application}}`
+`defaults delete "{{application}}"`

@@ -1,20 +1,37 @@
 # uname
 
 > Print details about the current machine and the operating system running on it.
-> Note: for additional information about the operating system, try the `lsb_release` command.
+> See also: `lsb_release`.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/uname-invocation.html>.
 
-- Print hardware-related information: machine and processor:
+- Print kernel name:
 
-`uname -mp`
+`uname`
 
-- Print software-related information: operating system, release number, and version:
+- Print all available system information:
 
-`uname -srv`
+`uname {{[-a|--all]}}`
 
-- Print the nodename (hostname) of the system:
+- Print system architecture and processor information:
 
-`uname -n`
+`uname {{[-mp|--machine --processor]}}`
 
-- Print all available system information (hardware, software, nodename):
+- Print kernel name, kernel release and kernel version:
 
-`uname -a`
+`uname {{[-srv|--kernel-name --kernel-release --kernel-version]}}`
+
+- Print system hostname:
+
+`uname {{[-n|--nodename]}}`
+
+- Print the current operating system name:
+
+`uname {{[-o|--operating-system]}}`
+
+- Print the current network node host name:
+
+`uname {{[-n|--nodename]}}`
+
+- Display help:
+
+`uname --help`

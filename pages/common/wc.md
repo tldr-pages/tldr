@@ -1,19 +1,28 @@
 # wc
 
-> Count words, bytes, or lines.
+> Count lines, words, and bytes.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/wc-invocation.html>.
 
-- Count lines in file:
+- Count all lines in a file:
 
-`wc -l {{file}}`
+`wc {{[-l|--lines]}} {{path/to/file}}`
 
-- Count words in file:
+- Count all words in a file:
 
-`wc -w {{file}}`
+`wc {{[-w|--words]}} {{path/to/file}}`
 
-- Count characters (bytes) in file:
+- Count all bytes in a file:
 
-`wc -c {{file}}`
+`wc {{[-c|--bytes]}} {{path/to/file}}`
 
-- Count characters in file (taking multi-byte character sets into account):
+- Count all characters in a file (taking multi-byte characters into account):
 
-`wc -m {{file}}`
+`wc {{[-m|--chars]}} {{path/to/file}}`
+
+- Count all lines, words and bytes from `stdin`:
+
+`{{find .}} | wc`
+
+- Count the length of the longest line in number of characters:
+
+`wc {{[-L|--max-line-length]}} {{path/to/file}}`

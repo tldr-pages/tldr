@@ -1,29 +1,29 @@
 # phing
 
 > A PHP build tool based on Apache Ant.
-> More information: <https://www.phing.info>.
+> More information: <https://www.phing.info/guide/chunkhtml/ch03s03.html>.
 
-- Perform the default task in the "build.xml" file:
+- Perform the default task in the `build.xml` file:
 
 `phing`
 
-- Initialise a new build file:
+- Initialize a new build file:
 
-`phing -i {{path/to/build.xml}}`
+`phing {{[-i|--init]}} {{path/to/build.xml}}`
 
 - Perform a specific task:
 
 `phing {{task_name}}`
 
-- Specify a custom build file path:
+- Use the given build file path:
 
-`phing -f {{path/to/build.xml}} {{task_name}}`
+`phing {{[-f|-buildfile]}} {{path/to/build.xml}} {{task_name}}`
 
-- Specify a log file to output to:
+- Log to the given file:
 
-`phing -b {{path/to/log_file}} {{task_name}}`
+`phing -logfile {{path/to/log_file}} {{task_name}}`
 
-- Specify custom properties to use in the build:
+- Use custom properties in the build:
 
 `phing -D{{property}}={{value}} {{task_name}}`
 

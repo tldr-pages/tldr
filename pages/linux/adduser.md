@@ -1,6 +1,7 @@
 # adduser
 
 > User addition utility.
+> More information: <https://manned.org/adduser>.
 
 - Create a new user with a default home directory and prompt the user to set a password:
 
@@ -21,7 +22,3 @@
 - Create a new user belonging to the specified group:
 
 `adduser --ingroup {{group}} {{username}}`
-
-- Add an existing user to the specified group:
-
-`adduser {{username}} {{group}}`

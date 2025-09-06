@@ -1,17 +1,17 @@
 # trawl
 
-> Prints out network interface information to the console, much like ifconfig/ipconfig/ip/ifdata.
+> Print out network interface information to the console, much like ifconfig/ipconfig/ip/ifdata.
 > More information: <https://github.com/robphoenix/trawl>.
 
 - Show column names:
 
 `trawl -n`
 
-- Filter interface names using a case insensitive regular expression:
+- Filter interface names using a case-insensitive `regex`:
 
 `trawl -f wi`
 
-- Get a list of available interfaces:
+- List available interfaces:
 
 `trawl -i`
 

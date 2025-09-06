@@ -1,6 +1,7 @@
 # zpool
 
 > Manage ZFS pools.
+> More information: <https://manned.org/zpool>.
 
 - Show the configuration and status of all ZFS zpools:
 

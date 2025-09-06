@@ -9,7 +9,7 @@
 
 - Lint a given set of files:
 
-`xo {{file1}}.js {{file2}}.js`
+`xo {{path/to/file1.js path/to/file2.js ...}}`
 
 - Automatically fix any lint issues found:
 

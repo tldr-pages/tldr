@@ -15,9 +15,13 @@
 
 `git checkout {{branch_name}}`
 
+- Switch to the previously checked out branch:
+
+`git checkout -`
+
 - Switch to an existing remote branch:
 
-`git checkout --track {{remote_name}}/{{branch_name}}`
+`git checkout {{[-t|--track]}} {{remote_name}}/{{branch_name}}`
 
 - Discard all unstaged changes in the current directory (see `git reset` for more undo-like commands):
 
@@ -25,8 +29,8 @@
 
 - Discard unstaged changes to a given file:
 
-`git checkout {{file_name}}`
+`git checkout {{path/to/file}}`
 
 - Replace a file in the current directory with the version of it committed in a given branch:
 
-`git checkout {{branch_name}} -- {{file_name}}`
+`git checkout {{branch_name}} -- {{path/to/file}}`

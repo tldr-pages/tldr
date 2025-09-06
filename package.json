@@ -1,27 +1,24 @@
 {
-  "name": "tldr",
-  "version": "1.0.0",
-  "description": "Simplified, community-driven man pages",
+  "name": "tldr-pages",
+  "description": "Simplified and community-driven man pages",
+  "author": "Romain Prieto",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "repository": "tldr-pages/tldr",
+  "homepage": "https://tldr.sh/",
   "dependencies": {
-    "glob": "7.1.3",
-    "markdownlint-cli": "0.15.0",
-    "tldr-lint": "~0.0.7",
-    "husky": "^2.2.0"
+    "glob": "11.0.3",
+    "markdownlint-cli": "^0.45.0",
+    "tldr-lint": "^0.0.20"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7"
   },
   "scripts": {
     "lint-markdown": "markdownlint pages*/**/*.md",
-    "lint-tldr": "tldr-lint ./pages",
-    "test": "bash -c 'markdownlint pages*/**/*.md && tldr-lint ./pages 2>&1 | tee test_result; test ${PIPESTATUS[0]} -eq 0'",
-    "build-index": "node ./scripts/build-index.js | tee pages/index.json > index.json"
+    "lint-tldr-pages": "tldr-lint ./pages",
+    "test": "bash scripts/test.sh",
+    "build-index": "node ./scripts/build-index.js > index.json",
+    "prepare": "husky"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm test"
-    }
-  },
-  "repository": "tldr-pages/tldr",
-  "author": "Romain Prieto",
-  "private": true,
-  "license": "MIT",
-  "homepage": "http://tldr-pages.github.io"
+  "private": true
 }

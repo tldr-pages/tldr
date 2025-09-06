@@ -3,22 +3,34 @@
 > A zero-configuration JavaScript testing platform.
 > More information: <https://jestjs.io>.
 
-- Run all tests:
+- Run all available tests:
 
 `jest`
 
-- Run only tests with a name that matches the regex pattern:
+- Run the test suites from the given files:
 
-`jest -t {{spec_name}}`
+`jest {{path/to/file1 path/to/file2 ...}}`
 
-- Run only tests relating to uncommitted files:
+- Run the test suites from files within the current and subdirectories, whose paths match the given `regex`:
+
+`jest {{regex1}} {{regex2}}`
+
+- Run the tests whose names match the given `regex`:
+
+`jest --testNamePattern {{regex}}`
+
+- Run test suites related to a given source file:
+
+`jest --findRelatedTests {{path/to/source_file.js}}`
+
+- Run test suites related to all uncommitted files:
 
 `jest --onlyChanged`
 
-- Watch files for changes and rerun related tests:
+- Watch files for changes and automatically re-run related tests:
 
 `jest --watch`
 
-- Show help:
+- Display help:
 
 `jest --help`

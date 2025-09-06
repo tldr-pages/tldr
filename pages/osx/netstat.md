@@ -1,27 +1,17 @@
 # netstat
 
-> Displays network-related information such as open connections, open socket ports, etc.
+> Display network-related information such as open connections, open socket ports, etc.
+> See also: `lsof` for listing network connections, including listening ports.
+> More information: <https://keith.github.io/xcode-man-pages/netstat.1.html>.
 
-- List all ports:
-
-`netstat -a`
-
-- List all listening ports:
-
-`netstat -l`
-
-- List listening TCP ports:
-
-`netstat -t`
-
-- Display PID and program names for a specific protocol:
+- Display the PID and program name listening on a specific protocol:
 
 `netstat -p {{protocol}}`
 
-- List information continuously:
-
-`netstat -c`
-
-- Print the routing table:
+- Print the routing table and do not resolve IP addresses to hostnames:
 
 `netstat -nr`
+
+- Print the routing table of IPv4 addresses:
+
+`netstat -nr -f inet`

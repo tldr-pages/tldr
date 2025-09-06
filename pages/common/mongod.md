@@ -3,14 +3,18 @@
 > The MongoDB database server.
 > More information: <https://docs.mongodb.com/manual/reference/program/mongod>.
 
-- Specify a config file:
+- Specify the storage directory (default: `/data/db` on Linux and macOS, `C:\data\db` on Windows):
 
-`mongod --config {{filename}}`
+`mongod --dbpath {{path/to/directory}}`
 
-- Specify the port to listen on:
+- Specify a configuration file:
+
+`mongod --config {{path/to/file}}`
+
+- Specify the port to listen on (default: 27017):
 
 `mongod --port {{port}}`
 
-- Specify database profiling level. 0 is off, 1 is only slow operations, 2 is all:
+- Specify the database profiling level. 0 is off, 1 is only slow operations, 2 is all (default: 0):
 
 `mongod --profile {{0|1|2}}`

@@ -12,7 +12,7 @@
 
 `fisher {{gist_url}}`
 
-- Edit 'fishfile' by hand with your favorite editor and install multiple plugins:
+- Edit 'fishfile' manually with your favorite editor and install multiple plugins:
 
 `{{editor}} ~/.config/fish/fishfile; fisher`
 
@@ -20,14 +20,10 @@
 
 `fisher ls`
 
-- Show available plugins:
-
-`fisher ls-remote`
-
 - Update plugins:
 
-`fisher up`
+`fisher update`
 
 - Remove one or more plugins:
 
-`fisher rm {{plugin1}} {{plugin2}}`
+`fisher remove {{plugin1}} {{plugin2}}`

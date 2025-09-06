@@ -1,19 +1,20 @@
 # strings
 
 > Find printable strings in an object file or binary.
+> More information: <https://manned.org/strings>.
 
 - Print all strings in a binary:
 
-`strings {{file}}`
+`strings {{path/to/file}}`
 
-- Limit results to strings at least *length* characters long:
+- Limit results to strings at least n characters long:
 
-`strings -n {{length}} {{file}}`
+`strings {{[-n|--bytes]}} {{n}} {{path/to/file}}`
 
 - Prefix each result with its offset within the file:
 
-`strings -t d {{file}}`
+`strings {{[-t|--radix]}} d {{path/to/file}}`
 
 - Prefix each result with its offset within the file in hexadecimal:
 
-`strings -t x {{file}}`
+`strings {{[-t|--radix]}} x {{path/to/file}}`

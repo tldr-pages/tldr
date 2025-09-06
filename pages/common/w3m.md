@@ -2,28 +2,28 @@
 
 > A text-based web browser.
 > Supports SSL and mouse input, even over SSH.
-> More information: <http://w3m.sourceforge.net>.
+> More information: <https://w3m.sourceforge.net/MANUAL>.
 
 - Open a URL:
 
-`w3m {{http://example.com}}`
+`w3m {{https://example.com}}`
 
 - Open a URL in monochrome mode:
 
-`w3m {{http://example.com}} -M`
+`w3m {{https://example.com}} -M`
 
 - Open a URL without mouse support:
 
-`w3m {{http://example.com}} --no-mouse`
+`w3m {{https://example.com}} -no-mouse`
 
 - Open a new browser tab:
 
-`Shift + T`
+`<Shift t>`
 
 - Display your browser history:
 
-`Ctrl + H`
+`<Ctrl h>`
 
 - Quit w3m:
 
-`'q' then 'y'`
+`<q><y>`
