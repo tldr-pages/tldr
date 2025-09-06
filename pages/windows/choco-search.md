@@ -13,16 +13,16 @@
 
 - Only include exact matches in the results:
 
-`choco search {{query}} --exact`
+`choco search {{query}} {{[-e|--exact]}}`
 
 - Confirm all prompts automatically:
 
-`choco search {{query}} --yes`
+`choco search {{query}} {{[-y|--yes]}}`
 
 - Specify a custom source to search for packages in:
 
-`choco search {{query}} --source {{source_url|alias}}`
+`choco search {{query}} {{[-s|--source]}} {{source_url|alias}}`
 
 - Provide a username and password for authentication:
 
-`choco search {{query}} --user {{username}} --password {{password}}`
+`choco search {{query}} {{[-u|--user]}} {{username}} {{[-p|--password]}} {{password}}`
