@@ -22,7 +22,7 @@
 
 - Create a screenshot from a specific monitor:
 
-`flameshot screen --number {{2}}`
+`flameshot screen {{[-n|--number]}} {{2}}`
 
 - Create a screenshot and print it to `stdout`:
 
