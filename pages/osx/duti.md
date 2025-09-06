@@ -26,3 +26,7 @@
 - Display all handlers of a given UTI:
 
 `duti -l {{uti}}`
+
+- Find out bundle id:
+
+`osascript -e 'id of app "App Name"'`
