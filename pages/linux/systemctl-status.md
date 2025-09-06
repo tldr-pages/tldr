@@ -26,3 +26,7 @@
 - List all units with a specific state:
 
 `systemctl status --state {{active|inactive|failed}}`
+
+- Show the status of a user unit:
+
+`systemctl status --user {{unit}}`

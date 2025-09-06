@@ -3,7 +3,7 @@
 > Edit systemd unit files.
 > More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#edit%20UNIT%E2%80%A6>.
 
-- Replace a unit file non-destructively:
+- Overlay a unit file non-destructively:
 
 `sudo systemctl edit {{unit_file}}`
 
@@ -14,3 +14,7 @@
 - Create a new unit file:
 
 `sudo systemctl edit {{[-lf|--full --force]}} {{unit_file}}`
+
+- Overlay a user unit file:
+
+`systemctl edit --user {{unit_file}}`

@@ -14,3 +14,7 @@
 - Show the contents of a unit file for a template:
 
 `systemctl cat {{template@}}`
+
+- Show the contents of a user unit file:
+
+`systemctl cat --user {{unit}}`

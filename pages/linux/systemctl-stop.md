@@ -10,3 +10,7 @@
 - Stop a service and suppress warnings:
 
 `systemctl stop --no-warn {{unit}}`
+
+- Stop a user unit:
+
+`systemctl stop --user {{unit}}`
