@@ -1,6 +1,7 @@
 # gum
 
 > Make glamorous shell scripts.
+> See also: `whiptail`, `dialog`.
 > More information: <https://github.com/charmbracelet/gum#tutorial>.
 
 - Interactively pick a specific option to print to `stdout`:

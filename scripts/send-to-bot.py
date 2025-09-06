@@ -9,8 +9,8 @@ BOT_URL = "https://tldr-bot.starbeamrainbowlabs.com"
 
 COMMENT_ERROR = """<!-- tldr-bot - errors -->
 
-The [build](https://github.com/tldr-pages/tldr/actions/runs/{build_id}) for this PR failed
-on commit [`{commit_sha}`](https://github.com/{repo_slug}/commit/{commit_sha}) with the following error(s):
+The [build](https://github.com/tldr-pages/tldr/actions/runs/{build_id}) for this PR failed with the following error(s) at commit
+[`{commit_sha}`](https://github.com/{repo_slug}/commit/{commit_sha}):
 
 ```
 {content}
@@ -21,8 +21,8 @@ Please fix the error(s) and push again.
 
 COMMENT_CHECK = """<!-- tldr-bot - check-results -->
 
-Hello! I've noticed something unusual when checking this PR
-at commit [`{commit_sha}`](https://github.com/{repo_slug}/commit/{commit_sha}):
+Hello! I've noticed something unusual when checking this PR at commit
+[`{commit_sha}`](https://github.com/{repo_slug}/commit/{commit_sha}):
 
 {content}
 

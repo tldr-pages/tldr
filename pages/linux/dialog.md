@@ -1,6 +1,7 @@
 # dialog
 
 > Display dialog boxes on the terminal.
+> See also: `gum`, `whiptail`.
 > More information: <https://manned.org/dialog>.
 
 - Display a message:
