@@ -9,7 +9,7 @@
 
 - Apply a Dev Container Template to a workspace:
 
-`devcontainer templates apply --template-id {{template_id}} --template-args {{template_args}} --workspace-folder {{path/to/workspace}}`
+`devcontainer templates apply {{[-t|--template-id]}} {{template_id}} {{[-a|--template-args]}} {{template_args}} {{[-w|--workspace-folder]}} {{path/to/workspace}}`
 
 - Execute a command on a running Dev Container in the current workspace:
 
