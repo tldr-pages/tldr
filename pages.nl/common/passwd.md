@@ -21,4 +21,4 @@
 
 - Stel het wachtwoord programmatisch in (handig voor installatiescripts):
 
-`yes {{password}} | passwd`
+`yes {{wachtwoord}} | passwd`
