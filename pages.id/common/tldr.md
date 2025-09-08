@@ -34,4 +34,4 @@
 
 - Tampilkan suatu laman bantuan untuk perintah yang dipilih secara acak:
 
-`tldr {{[-l|--list]}} | shuf -n1 | xargs tldr`
+`tldr {{[-l|--list]}} | shuf {{[-n|--head-count]}} 1 | xargs tldr`
