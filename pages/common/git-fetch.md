@@ -23,6 +23,6 @@
 
 `git fetch {{[-p|--prune]}}`
 
-- Deepen current shallow branch by 2 commits
+- Deepen current shallow branch by 2 commits:
 
 `git fetch --deepen 2`
