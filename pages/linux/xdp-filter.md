@@ -26,4 +26,4 @@
 
 - Poll the packets XDP filter is processing every 10000 milliseconds and show the statistics:
 
-`sudo xdp-filter poll --interval 10000`
+`sudo xdp-filter poll --interval {{10000}}`
