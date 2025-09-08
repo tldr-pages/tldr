@@ -22,7 +22,7 @@
 
 - Deny traffic from a specific source MAC address:
 
-`sudo xdp-filter ether --mode src {{mac_address}}`
+`sudo xdp-filter ether {{[-m|--mode]}} src {{mac_address}}`
 
 - Poll packets and show statistics every 10000 milliseconds:
 
