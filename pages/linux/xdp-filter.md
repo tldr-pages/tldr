@@ -24,6 +24,6 @@
 
 `sudo xdp-filter ether --mode src {{1A:2B:3C:4D:5E:6F}}`
 
-- Poll the packets XDP filter is processing every 10000 milliseconds and show the statistics:
+- Poll packets and show statistics every 10000 milliseconds:
 
 `sudo xdp-filter poll --interval {{10000}}`
