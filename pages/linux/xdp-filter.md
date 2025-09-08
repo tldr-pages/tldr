@@ -26,4 +26,4 @@
 
 - Poll packets and show statistics every 10000 milliseconds:
 
-`sudo xdp-filter poll --interval {{10000}}`
+`sudo xdp-filter poll --interval 10000`
