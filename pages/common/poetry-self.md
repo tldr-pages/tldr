@@ -9,11 +9,11 @@
 
 `poetry self add {{package_name}}`
 
-- Install dependencies from the Poetry installation's pyproject.toml file:
+- Install dependencies from the Poetry installation's `pyproject.toml` file:
 
 `poetry self install`
 
-- Lock dependencies from the Poetry installation's pyproject.toml file:
+- Lock dependencies from the Poetry installation's `pyproject.toml` file:
 
 `poetry self lock`
 
@@ -29,10 +29,10 @@
 
 `poetry self show plugins`
 
-- Sync the runtime environment with the Poetry installation's poetry.lock file:
+- Sync the runtime environment with the Poetry installation's `poetry.lock` file:
 
 `poetry self sync`
 
-- Update dependencies from the Poetry installation's pyproject.toml file:
+- Update dependencies from the Poetry installation's `pyproject.toml` file:
 
 `poetry self update`
