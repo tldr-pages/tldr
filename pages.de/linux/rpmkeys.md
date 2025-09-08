@@ -2,7 +2,7 @@
 
 > Werkzeug um RPM Schüssel für RPM Repositorien zu importieren oder löschen.
 > Wenn ein RPM Repository hinzugefügt wird, dann muss man auch den entsprechend RPM Schüssel importieren.
-> Mehr Informationen auf: <https://rpm-software-management.github.io/rpm/man/rpmkeys.8>.
+> Weitere Informationen: <https://rpm-software-management.github.io/rpm/man/rpmkeys.8>.
 
 - Liste alle importierte RMP Schüssel auf. Git auch die Schüssel ID aus welche beim späteren Löschen gebraucht wird:
 
