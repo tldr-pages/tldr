@@ -4,7 +4,7 @@
 > Part of the xdp-tools collection.
 > More information: <https://github.com/xdp-project/xdp-tools/tree/main/xdp-filter>.
 
-- Load the filter on an interface in skb (generic) mode with a default policy to allow unmatched traffic (if the default policy is allow, the list becomes a deny list and vice versa):
+- Load the filter on an interface in skb (generic) mode with default allow policy:
 
 `sudo xdp-filter load --policy allow --mode {{skb}} {{eth0}}`
 
