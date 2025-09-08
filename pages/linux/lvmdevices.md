@@ -31,6 +31,6 @@
 
 `lvmdevices --check`
 
-- Show version:
+- Display version:
 
 `lvmdevices --version`
