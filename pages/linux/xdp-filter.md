@@ -18,7 +18,7 @@
 
 - Deny traffic from a specific source IP address:
 
-`sudo xdp-filter ip --mode src {{source_ip}}`
+`sudo xdp-filter ip {{[-m|--mode]}} src {{source_ip}}`
 
 - Deny traffic from a specific source MAC address:
 
