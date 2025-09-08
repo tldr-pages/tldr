@@ -14,4 +14,4 @@
 
 - Importiere einen RPM Schüssel eines Repositorien:
 
-`sudo rpmkeys --import {{pfad_zu_schüssel_zum_importieren}}`
+`sudo rpmkeys --import {{pfad/zu/rpm_schüssel}}`
