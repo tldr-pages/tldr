@@ -6,3 +6,7 @@
 - Start a unit:
 
 `systemctl start {{unit}}`
+
+- Start a user unit:
+
+`systemctl start --user {{unit}}`
