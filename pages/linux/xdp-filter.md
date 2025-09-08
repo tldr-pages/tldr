@@ -2,7 +2,7 @@
 
 > Load and manage an eBPF XDP packet filter.
 > Part of the xdp-tools collection.
-> More information: <https://github.com/xdp-project/xdp-tools/tree/main/xdp-filter>.
+> More information: <https://github.com/xdp-project/xdp-tools/tree/main/xdp-filter#running-xdp-filter>.
 
 - Load the filter on an interface in skb (generic) mode with default allow policy:
 
