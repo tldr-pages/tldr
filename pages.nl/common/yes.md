@@ -1,7 +1,7 @@
 # yes
 
 > Iets herhaaldelijk uitvoeren.
-> Deze opdracht wordt vaak gebruikt om ja te beantwoorden op elke prompt door installatieopdrachten (zoals apt-get).
+> Deze opdracht wordt vaak gebruikt om ja te beantwoorden op elke prompt door installatieopdrachten (zoals `apt-get`).
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/yes-invocation.html>.
 
 - Toon herhaaldelijk "bericht":

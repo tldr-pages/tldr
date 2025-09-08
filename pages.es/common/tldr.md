@@ -34,4 +34,4 @@
 
 - Imprime la página tldr para un comando aleatorio:
 
-`tldr {{[-l|--list]}} | shuf -n1 | xargs tldr`
+`tldr {{[-l|--list]}} | shuf {{[-n|--head-count]}} 1 | xargs tldr`
