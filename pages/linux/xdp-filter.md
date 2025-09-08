@@ -6,7 +6,7 @@
 
 - Load the filter on an interface in skb (generic) mode with default allow policy:
 
-`sudo xdp-filter load --policy allow --mode skb {{network_interface}}`
+`sudo xdp-filter load {{[-p|--policy]}} allow {{[-m|--mode]}} skb {{network_interface}}`
 
 - Unload the filter from an interface:
 
