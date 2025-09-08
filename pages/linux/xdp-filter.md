@@ -6,23 +6,23 @@
 
 - Load the filter on an interface in skb (generic) mode with default allow policy:
 
-`sudo xdp-filter load --policy allow --mode {{skb}} {{eth0}}`
+`sudo xdp-filter load --policy allow --mode {{xdp_mode}} {{network_interface}}`
 
 - Unload the filter from an interface:
 
-`sudo xdp-filter unload {{eth0}}`
+`sudo xdp-filter unload {{network_interface}}`
 
 - Deny traffic to a specific destination port:
 
-`sudo xdp-filter port {{8080}}`
+`sudo xdp-filter port {{destination_port}}`
 
 - Deny traffic from a specific source IP address:
 
-`sudo xdp-filter ip --mode src {{192.168.1.100}}`
+`sudo xdp-filter ip --mode src {{source_ip}}`
 
 - Deny traffic from a specific source MAC address:
 
-`sudo xdp-filter ether --mode src {{1A:2B:3C:4D:5E:6F}}`
+`sudo xdp-filter ether --mode src {{mac_address}}`
 
 - Poll packets and show statistics every 10000 milliseconds:
 
