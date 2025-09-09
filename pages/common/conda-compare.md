@@ -13,7 +13,7 @@
 
 - Compare packages in environment `myenv` at custom path (i.e. prefix) to packages from the file `file.yml`:
 
-`conda compare {{[-p|--prefix]}} {{/path/to/myenv}} {{/path/to/file.yml}}`
+`conda compare {{[-p|--prefix]}} {{path/to/myenv}} {{path/to/file.yml}}`
 
 - Display help:
 
