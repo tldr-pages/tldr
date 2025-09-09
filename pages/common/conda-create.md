@@ -3,7 +3,7 @@
 > Create new conda environments.
 > More information: <https://docs.conda.io/projects/conda/en/latest/commands/create.html>.
 
-- Create a new environment named `py39`, install Python 3.9, NumPy v1.11 or above in it, and the latest stable version of SciPy. Say [y]es to all confirmations:
+- Create a new environment named `py39`, install Python 3.9, NumPy v1.11 or above in it, and the latest stable version of SciPy. Say yes to all confirmations:
 
 `conda create {{[-ny|--name --yes]}} {{py39}} python={{3.9}} "{{numpy>=1.11 scipy}}"`
 
