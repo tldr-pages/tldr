@@ -23,6 +23,6 @@
 
 `conda clean {{[-f|--force-pkgs-dirs]}}`
 
-- Display detailed [h]elp message:
+- Display help:
 
 `conda clean {{[-h|--help]}}`
