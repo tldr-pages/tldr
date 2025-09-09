@@ -11,7 +11,7 @@
 
 `conda compare {{[-n|--name]}} myenv {{/path/to/file.yml}}`
 
-- Compare packages in environment `myenv` at custom [p]ath (i.e. [p]refix) to packages from the file `file.yml`:
+- Compare packages in environment `myenv` at custom path (i.e. prefix) to packages from the file `file.yml`:
 
 `conda compare {{[-p|--prefix]}} {{/path/to/myenv}} {{/path/to/file.yml}}`
 
