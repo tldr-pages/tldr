@@ -4,7 +4,7 @@
 > See also: `asdf`.
 > More information: <https://python-poetry.org/docs/cli/#debug>.
 
-- Show debug info about Poetry and your project's virtualenv:
+- Show debug info about Poetry and your project's virtual environment:
 
 `poetry debug info`
 
@@ -12,6 +12,6 @@
 
 `poetry debug resolve`
 
-- Show supported packaging tags for your project's active virtualenv:
+- Show supported packaging tags for your project's active virtual environment:
 
 `poetry debug tags`
