@@ -19,6 +19,6 @@
 
 `conda create --clone {{py39}} {{[-n|--name]}} {{py39-copy}}`
 
-- Display detailed [h]elp message:
+- Display help:
 
 `conda create {{[-h|--help]}}`
