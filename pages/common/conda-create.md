@@ -7,7 +7,7 @@
 
 `conda create {{[-ny|--name --yes]}} {{py39}} python={{3.9}} "{{numpy>=1.11 scipy}}"`
 
-- Create a new environment [n]amed `myenv` and install packges listed in files:
+- Create a new environment named `myenv` and install packges listed in files:
 
 `conda create {{[-n|--name]}} myenv --file {{file1.yml}} --file {{file2.yml}}`
 
