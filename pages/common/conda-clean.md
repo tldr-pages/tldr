@@ -7,7 +7,7 @@
 
 `conda clean {{[-avy|--all --verbose --yes]}}`
 
-- Delete only [i]ndex cache, [t]arballs, and [l]og files:
+- Delete only index cache, tarballs, and log files:
 
 `conda clean {{[-itl|--index-cache --tarballs --logfiles]}}`
 
