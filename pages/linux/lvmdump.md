@@ -14,7 +14,7 @@
 
 - Dump the information into a directory instead of a tarball:
 
-`lvmdump -d ./my_dump`
+`lvmdump -d {{path/to/directory}}`
 
 - Show help:
 
