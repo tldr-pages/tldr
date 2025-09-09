@@ -15,7 +15,7 @@
 
 `conda clean {{[-c|--tempfiles]}} {{/path/to/tempfiles}}`
 
-- Delete only unused [p]ackages. Might delete packages installed with softlinks:
+- Delete only unused packages. Might delete packages installed with softlinks:
 
 `conda clean {{[-p|--packages]}}`
 
