@@ -15,7 +15,7 @@
 
 `conda create {{[-p|--prefix]}} {{/path/to/myenv}}`
 
-- Make exact copy of an environment [n]amed `py39`:
+- Make exact copy of an environment named `py39`:
 
 `conda create --clone {{py39}} {{[-n|--name]}} {{py39-copy}}`
 
