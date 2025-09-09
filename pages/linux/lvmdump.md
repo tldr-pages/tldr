@@ -16,6 +16,6 @@
 
 `lvmdump -d {{path/to/directory}}`
 
-- Show help:
+- Display help:
 
 `lvmdump -h`
