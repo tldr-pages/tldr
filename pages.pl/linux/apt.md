@@ -35,4 +35,4 @@
 
 - Wyświetl zainstalowane pakiety:
 
-`apt list --installed`
+`apt list {{[-i|--installed]}}`
