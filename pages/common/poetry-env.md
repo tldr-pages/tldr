@@ -1,10 +1,10 @@
 # poetry-env
 
-> Manage virtualenvs associated with a Poetry project.
+> Manage virtual environments associated with a Poetry project.
 > See also: `asdf`.
 > More information: <https://python-poetry.org/docs/cli/#env>.
 
-- Print the command to activate a virtualenv:
+- Print the command to activate a virtual environment:
 
 `poetry env activate`
 
@@ -12,14 +12,14 @@
 
 `poetry env info {{[-p|--path]}} {{[-e|--executable]}}`
 
-- List all virtualenvs associated with the current project (optionally showing the full path):
+- List all virtual environments associated with the current project (optionally showing the full path):
 
 `poetry env list --full-path`
 
-- Remove specific or all virtualenvs associated with the current project:
+- Remove specific or all virtual environments associated with the current project:
 
 `poetry env remove python {{path/to/executable|environment_name}} | poetry env remove --all`
 
-- Activate or create a virtualenv for the project using the specified python executable:
+- Activate or create a virtual environment for the project using the specified python executable:
 
 `poetry env use python {{path/to/executable}}`
