@@ -14,5 +14,4 @@
 
 - Fechar todas as janelas abertas do thunar:
 
-
 `thunar --quit`
