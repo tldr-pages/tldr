@@ -13,7 +13,7 @@
 
 - Delete only temporary [c]ache files that could not be deleted earlier due to being in-use:
 
-`conda clean {{[-c|--tempfiles]}} {{/path/to/tempfiles}}`
+`conda clean {{[-c|--tempfiles]}} {{path/to/tempfiles}}`
 
 - Delete only unused packages. Might delete packages installed with softlinks:
 
