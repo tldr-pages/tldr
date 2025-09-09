@@ -7,7 +7,7 @@
 
 `conda compare file.yml`
 
-- Compare packages in environment [n]amed `myenv` to packages from the file `file.yml`:
+- Compare packages in environment named `myenv` to packages from the file `file.yml`:
 
 `conda compare {{[-n|--name]}} myenv {{/path/to/file.yml}}`
 
