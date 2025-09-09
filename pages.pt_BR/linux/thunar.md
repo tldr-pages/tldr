@@ -16,4 +16,3 @@
 
 `thunar --quit`
 
-
