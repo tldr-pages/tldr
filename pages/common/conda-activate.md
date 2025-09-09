@@ -20,6 +20,6 @@
 
 `conda activate --no-stack {{myenv3}}`
 
-- Display detailed [h]elp message:
+- Display help:
 
 `conda activate {{[-h|--help]}}`
