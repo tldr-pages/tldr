@@ -1,7 +1,7 @@
 # poetry-self
 
 > Manage the Poetry installation/runtime environment itself.
-> These commands reference pyproject.toml and poetry.lock files in your Poetry configuration directory.
+> These commands reference `pyproject.toml` and `poetry.lock` files in your Poetry configuration directory.
 > See also: `asdf`.
 > More information: <https://python-poetry.org/docs/cli/#self>.
 
