@@ -13,7 +13,7 @@
 
 - Create a new environment named `myenv` at custom path(i.e. prefix):
 
-`conda create {{[-p|--prefix]}} {{/path/to/myenv}}`
+`conda create {{[-p|--prefix]}} {{path/to/myenv}}`
 
 - Make exact copy of an environment named `py39`:
 
