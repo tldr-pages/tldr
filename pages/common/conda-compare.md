@@ -15,6 +15,6 @@
 
 `conda compare {{[-p|--prefix]}} {{/path/to/myenv}} {{/path/to/file.yml}}`
 
-- Display detailed [h]elp message:
+- Display help:
 
 `conda create {{[-h|--help]}}`
