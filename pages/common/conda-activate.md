@@ -10,7 +10,7 @@
 
 - Activate an existing environment named `myenv` located at custom path:
 
-`conda activate {{/path/to/myenv}}`
+`conda activate {{path/to/myenv}}`
 
 - Stack `myenv2` environment on top of a previous environment making libraries/commands/variables from both accessible:
 
