@@ -17,7 +17,7 @@
 
 - Make exact copy of an environment named `py39`:
 
-`conda create --clone {{py39}} {{[-n|--name]}} {{py39-copy}}`
+`conda create --clone py39 {{[-n|--name]}} {{py39-copy}}`
 
 - Display help:
 
