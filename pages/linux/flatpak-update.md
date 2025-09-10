@@ -13,4 +13,4 @@
 
 - Update/Downgrade to a specific commit (also see flatpak remote-info and flatpak mask):
 
-`flatpak update --commit={{COMMIT}} {{com.example.app}}`
+`flatpak update --commit {{COMMIT}} {{com.example.app}}`
