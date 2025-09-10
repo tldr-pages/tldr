@@ -1,4 +1,4 @@
-# poetry-version
+# poetry version
 
 > Manage Poetry project version.
 > Assumes the following project stages: `patch`, `minor`, `major`, `prepatch`, `preminor`, `premajor`, `prerelease`.
