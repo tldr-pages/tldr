@@ -1,7 +1,7 @@
 # mlr
 
 > Miller is like `awk`, `sed`, `cut`, `join`, and `sort` for name-indexed data such as CSV, TSV, and tabular JSON.
-> More information: <https://johnkerl.org/miller/doc>.
+> More information: <https://miller.readthedocs.io>.
 
 - Pretty-print a CSV file in a tabular format:
 

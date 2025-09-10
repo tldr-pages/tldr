@@ -11,6 +11,6 @@
 
 `yes`
 
-- Aceitar tudo solicitado pelo comando apt-get:
+- Aceitar tudo solicitado pelo comando `apt-get`:
 
 `yes | sudo apt-get install {{programa}}`

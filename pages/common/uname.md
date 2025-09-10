@@ -14,7 +14,7 @@
 
 - Print system architecture and processor information:
 
-`uname {{[-mp|--machine --processsor]}}`
+`uname {{[-mp|--machine --processor]}}`
 
 - Print kernel name, kernel release and kernel version:
 

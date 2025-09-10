@@ -3,7 +3,7 @@
 > List available fonts installed on the system.
 > More information: <https://manned.org/fc-list>.
 
-- Return a list of installed fonts in your system:
+- Return a list of installed fonts:
 
 `fc-list`
 
@@ -11,7 +11,7 @@
 
 `fc-list | grep '{{DejaVu Serif}}'`
 
-- Return the number of installed fonts in your system:
+- Return the number of installed fonts:
 
 `fc-list | wc {{[-l|--lines]}}`
 

@@ -1,7 +1,7 @@
 # grub-mkconfig
 
 > Genera un archivo de configuracion de GRUB.
-> Más información: <https://www.gnu.org/software/grub/manual/grub/html_node/Invoking-grub_002dmkconfig.html>.
+> Más información: <https://www.gnu.org/software/grub/manual/grub/grub.html#Invoking-grub_002dmkconfig>.
 
 - Ejecuta el comando solo e imprime la salida a `stdout`:
 
@@ -9,8 +9,8 @@
 
 - Genera el archivo de configuración:
 
-`sudo grub-mkconfig --output={{/boot/grub/grub.cfg}}`
+`sudo grub-mkconfig {{[-o|--output]}} {{/boot/grub/grub.cfg}}`
 
-- Imprime la página de ayuda:
+- Muestra ayuda:
 
-`grub-mkconfig --help`
+`grub-mkconfig {{[-h|--help]}}`

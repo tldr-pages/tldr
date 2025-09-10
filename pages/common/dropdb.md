@@ -6,7 +6,7 @@
 
 - Destroy a database:
 
-`dropdb {{dbname}}`
+`dropdb {{database_name}}`
 
 - Request a verification prompt before any destructive actions:
 
@@ -14,11 +14,11 @@
 
 - Connect with a specific username and destroy a database:
 
-`dropdb {{[-U|--username]}} {{username}} {{dbname}}`
+`dropdb {{[-U|--username]}} {{username}} {{database_name}}`
 
 - Force a password prompt before connecting to the database:
 
-`dropdb {{[-W|--password]}} {{dbname}}`
+`dropdb {{[-W|--password]}} {{database_name}}`
 
 - Suppress a password prompt before connecting to the database:
 
