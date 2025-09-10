@@ -1,4 +1,4 @@
-# poetry-check
+# poetry check
 
 > Manage Poetry file validation and consistency.
 > See also: `asdf`.
