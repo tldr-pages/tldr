@@ -1,7 +1,7 @@
 # tcpreplay
 
 > Reproduce el tráfico de red almacenado en un archivo `pcap`.
-> Más información: <https://tcpreplay.appneta.com/>.
+> Más información: <https://tcpreplay.appneta.com/wiki/tcpreplay-man.html>.
 
 - Lista las interfaces de red disponibles:
 
