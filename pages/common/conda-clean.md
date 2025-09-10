@@ -3,7 +3,7 @@
 > Delete temporary or unused files: index cache, lock files, unused cache packages, tarballs, and log files.
 > More information: <https://docs.conda.io/projects/conda/en/stable/commands/clean.html>.
 
-- Delete all temporary or unused files verbosely. Say yes to all confirmations:
+- Delete all temporary or unused files verbosely and say yes to all confirmations:
 
 `conda clean {{[-avy|--all --verbose --yes]}}`
 
