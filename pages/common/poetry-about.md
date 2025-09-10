@@ -1,4 +1,4 @@
-# poetry-about
+# poetry about
 
 > Get information about Poetry, an application to manage Python packages and dependencies.
 > See also: `asdf`.
