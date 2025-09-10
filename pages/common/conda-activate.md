@@ -18,7 +18,7 @@
 
 - Start a clean environment `myenv3` without stacking it making previous environment libraries/commands/variables not accessible:
 
-`conda activate --no-stack {{myenv3}}`
+`conda activate --no-stack myenv3`
 
 - Display help:
 
