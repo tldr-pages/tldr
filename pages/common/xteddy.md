@@ -7,7 +7,7 @@
 
 `xteddy`
 
-- Use the window manager to display the teddy bear and ignore the "quit" (`q`) command:
+- Use the window manager to display the teddy bear and ignore the "quit" (`<q>`) command:
 
 `xteddy -wm -noquit`
 
