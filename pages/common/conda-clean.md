@@ -11,7 +11,7 @@
 
 `conda clean {{[-itl|--index-cache --tarballs --logfiles]}}`
 
-- Delete only temporary [c]ache files that could not be deleted earlier due to being in-use:
+- Delete only temporary [c]ache files that could not be deleted earlier due to being in use:
 
 `conda clean {{[-c|--tempfiles]}} {{path/to/tempfiles}}`
 
