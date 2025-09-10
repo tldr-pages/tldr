@@ -1,7 +1,7 @@
 # mdbook
 
 > Create online books by writing Markdown files.
-> More information: <https://rust-lang.github.io/mdBook/>.
+> More information: <https://rust-lang.github.io/mdBook/cli/index.html>.
 
 - Create an mdbook project in the current directory:
 

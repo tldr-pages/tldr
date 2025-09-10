@@ -10,3 +10,7 @@
 - Stop a service from running on boot and stop its current execution:
 
 `systemctl disable {{unit}} --now`
+
+- Stop a user service from running on login:
+
+`systemctl disable --user {{unit}}`

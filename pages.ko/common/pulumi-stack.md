@@ -17,7 +17,7 @@
 
 - 모든 프로젝트의 스택 나열:
 
-`pulumi stack ls --all`
+`pulumi stack ls {{[-a|--all]}}`
 
 - 활성 스택 선택:
 
@@ -33,4 +33,4 @@
 
 - 도움말 표시:
 
-`pulumi stack --help`
+`pulumi stack {{[-h|--help]}}`

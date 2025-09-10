@@ -1,7 +1,7 @@
 # choose
 
 > A human-friendly and fast alternative to cut and (sometimes) awk.
-> More information: <https://github.com/theryangeary/choose>.
+> More information: <https://github.com/theryangeary/choose#usage>.
 
 - Print the 5th item from a line (starting from 0):
 
@@ -9,7 +9,7 @@
 
 - Print the first, 3rd, and 5th item from a line, where items are separated by ':' instead of whitespace:
 
-`choose --field-separator '{{:}}' {{0}} {{2}} {{4}}`
+`choose {{[-f|--field-separator]}} '{{:}}' {{0}} {{2}} {{4}}`
 
 - Print everything from the 2nd to 5th item on the line, including the 5th:
 
@@ -17,7 +17,7 @@
 
 - Print everything from the 2nd to 5th item on the line, excluding the 5th:
 
-`choose --exclusive {{1}}:{{4}}`
+`choose {{[-x|--exclusive]}} {{1}}:{{4}}`
 
 - Print the beginning of the line to the 3rd item:
 
@@ -25,7 +25,7 @@
 
 - Print all items from the beginning of the line until the 3rd item (exclusive):
 
-`choose --exclusive :{{2}}`
+`choose {{[-x|--exclusive]}} :{{2}}`
 
 - Print all items from the 3rd to the end of the line:
 

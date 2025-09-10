@@ -26,7 +26,7 @@
 
 - Build a site on your local IP:
 
-`hugo server --bind {{local_ip}} --baseURL {{http://local_ip}}`
+`hugo server --bind {{local_ip}} {{[-b|--baseURL]}} {{http://local_ip}}`
 
 - Build a site to a given directory:
 

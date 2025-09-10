@@ -9,13 +9,13 @@
 
 - Display the last 20 commands (in Zsh it displays all commands starting from the 20th):
 
-`history {{20}}`
+`history 20`
 
 - Display history with timestamps in different formats (only available in Zsh):
 
 `history -{{d|f|i|E}}`
 
-- [c]lear the commands history list (only for current Bash shell):
+- [c]lear the commands history list:
 
 `history -c`
 

@@ -26,4 +26,4 @@
 
 - Ruby 버전 표시:
 
-`ruby -v`
+`ruby {{[-v|--version]}}`
