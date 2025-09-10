@@ -5,7 +5,7 @@
 > See also: `asdf`.
 > More information: <https://python-poetry.org/docs/cli/>.
 
-= Output the current version:
+- Output the current version:
 
 `poetry version {{[-s|--short]}}`
 
