@@ -8,7 +8,7 @@
 
 `conda activate myenv`
 
-- Activate an existing environment named `myenv` located at custom path:
+- Activate an existing environment located at custom path:
 
 `conda activate {{path/to/myenv}}`
 
