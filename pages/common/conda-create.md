@@ -11,7 +11,7 @@
 
 `conda create {{[-n|--name]}} myenv --file {{file1.yml}} --file {{file2.yml}}`
 
-- Create a new environment named `myenv` at custom path(i.e. prefix):
+- Create a new environment named `myenv` at custom path (i.e. prefix):
 
 `conda create {{[-p|--prefix]}} {{path/to/myenv}}`
 
