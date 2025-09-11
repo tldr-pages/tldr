@@ -16,6 +16,6 @@
 
 `fossil help {{subcommando}}`
 
-- Toon de versie:
+- Toon versie:
 
 `fossil version`

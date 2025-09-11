@@ -11,6 +11,6 @@
 
 `bmptopnm {{[-verb|-verbose]}} {{pad/naar/bestand.bmp}}`
 
-- Toon de versie:
+- Toon versie:
 
 `bmptopnm {{[-v|-version]}}`

@@ -11,6 +11,6 @@
 
 `pamtotga -{{cmap|cmap16|mono|rgb}} {{pad/naar/bestand.pam}} > {{pad/naar/uitvoer.tga}}`
 
-- Toon de versie:
+- Toon versie:
 
 `pamtotga {{[-v|-version]}}`
