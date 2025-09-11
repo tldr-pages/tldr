@@ -22,7 +22,7 @@
 
 - Crea una conexión estática exclusivamente IPv6:
 
-`nmcli connection add ifname {{nombre_de_la_interfaz}} type {{ethernet}} ip6 {{2001:db8::2/64}} gw6 {{2001:db8::1}} ipv6.dns {{2001:db8::1}} ipv4.method {{ignore}}`
+`nmcli {{[c|connection]}} {{[a|add]}} ifname {{nombre_de_la_interfaz}} type {{ethernet}} ip6 {{2001:db8::2/64}} gw6 {{2001:db8::1}} ipv6.dns {{2001:db8::1}} ipv4.method {{ignore}}`
 
 - Crea una conexión estática exclusivamente IPv4:
 
