@@ -94,8 +94,11 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [17 August 2025](https://github.com/tldr-pages/tldr/issues/17708) — present
 - **Sarijen ([@Sarijen](https://github.com/Sarijen))**:
   [21 August 2025](https://github.com/tldr-pages/tldr/issues/17757) — present
-- **Adriano Inghingolo ([@SpikeTheDragon40k](https://github.com/SpikeTheDragon40k))**: [22 August 2025](https://github.com/tldr-pages/tldr/issues/17772) — present
-- Owen Voke ([@owenvoke](https://github.com/owenvoke))
+- **Adriano Inghingolo ([@SpikeTheDragon40k](https://github.com/SpikeTheDragon40k))**:
+  [22 August 2025](https://github.com/tldr-pages/tldr/issues/17772) — present
+- **Ali Nazzal ([@ali90h](https://github.com/ali90h))**:
+  [10 September 2025](https://github.com/tldr-pages/tldr/issues/18069) — present
+- Owen Voke ([@owenvoke](https://github.com/owenvoke)):
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
   [28 January 2019](https://github.com/tldr-pages/tldr/issues/2735) — [8 April 2019](https://github.com/tldr-pages/tldr/issues/2874)
