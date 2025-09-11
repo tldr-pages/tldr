@@ -1,6 +1,6 @@
 # pkl
 
-> An embedded configuration language with rich support for validation and tooling.
+> Manages, evaluates, and tests Pkl configuration modules.
 > More information: <https://pkl-lang.org/main/current/pkl-cli>.
 
 - Evaluate the given Pkl modules and produce their rendering results:
