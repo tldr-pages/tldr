@@ -14,3 +14,7 @@
 - Discover API paths:
 
 `pvesh {{[l|ls]}} {{/}}`
+
+- Display API path usage instructions:
+
+`pvesh {{[u|usage]}} {{/pools}}`
