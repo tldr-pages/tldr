@@ -3,7 +3,7 @@
 > Manage Poetry project version.
 > Assumes the following project stages: `patch`, `minor`, `major`, `prepatch`, `preminor`, `premajor`, `prerelease`.
 > See also: `asdf`.
-> More information: <https://python-poetry.org/docs/cli/>.
+> More information: <https://python-poetry.org/docs/cli/#version>.
 
 - Output the current version:
 
