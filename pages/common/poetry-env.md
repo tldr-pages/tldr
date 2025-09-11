@@ -8,7 +8,7 @@
 
 `poetry env activate`
 
-- Display information about the current environment (-p or -e will display the environment's path or executable):
+- Display information about the current environment (`-p` or `-e` will display the environment's path or executable):
 
 `poetry env info {{[-p|--path]}} {{[-e|--executable]}}`
 
@@ -20,6 +20,6 @@
 
 `poetry env remove python {{path/to/executable|environment_name}} | poetry env remove --all`
 
-- Activate or create a virtual environment for the project using the specified python executable:
+- Activate or create a virtual environment for the project using the specified Python executable:
 
 `poetry env use python {{path/to/executable}}`
