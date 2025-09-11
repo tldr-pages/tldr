@@ -1,6 +1,6 @@
 # pkl
 
-> Command line interface for **Pkl**, an embedded configuration language with rich support for validation and tooling.
+> Command line interface for `Pkl`, an embedded configuration language with rich support for validation and tooling.
 > More information: <https://pkl-lang.org/main/current/pkl-cli>.
 
 - Evaluate the given Pkl <modules> and produce their rendering results:
