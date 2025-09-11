@@ -2,7 +2,7 @@
 
 > Manage Poetry file validation and consistency.
 > See also: `asdf`.
-> More information: <https://python-poetry.org/docs/cli/>.
+> More information: <https://python-poetry.org/docs/cli/#check>.
 
 - Check validation and consistency between `pyproject.toml` and `poetry.lock` for Poetry:
 
