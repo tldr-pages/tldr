@@ -21,7 +21,7 @@
 
 - Prepare a Pkl project for publishing as a package:
 
-`pkl project package {{project_directory}}`
+`pkl project package {{path/to/project_directory}}`
 
 - Resolve project dependencies and writes the resolved versions to a file at path `PklProject.deps.json`:
 
