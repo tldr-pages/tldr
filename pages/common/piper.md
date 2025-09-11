@@ -2,7 +2,7 @@
 
 > A fast, local neural text to speech system.
 > Try out and download speech models from <https://rhasspy.github.io/piper-samples>.
-> More information: <https://github.com/rhasspy/piper>.
+> More information: <https://github.com/OHF-Voice/piper1-gpl>.
 
 - Output a WAV [f]ile using a text-to-speech [m]odel (assuming a configuration file at model_path + .json):
 

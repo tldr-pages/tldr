@@ -2,7 +2,7 @@
 
 > The Chocolatey package manager.
 > Some subcommands such as `install` have their own usage documentation.
-> More information: <https://chocolatey.org>.
+> More information: <https://docs.chocolatey.org/en-us/choco/commands/>.
 
 - Execute a Chocolatey command:
 
@@ -10,11 +10,11 @@
 
 - Display help:
 
-`choco -?`
+`choco {{[-h|--help]}}`
 
 - Display help for a specific command:
 
-`choco {{command}} -?`
+`choco {{command}} {{[-h|--help]}}`
 
 - Display version:
 

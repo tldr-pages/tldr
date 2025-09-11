@@ -22,3 +22,7 @@
 - Delete local references to remote branches that have been deleted upstream:
 
 `git fetch {{[-p|--prune]}}`
+
+- Deepen current shallow branch by 2 commits:
+
+`git fetch --deepen 2`
