@@ -1,7 +1,7 @@
 # lvmpersist
 
 > Manage persistent reservations (PR) on block devices or all PVs in a volume group.
-> More information: <https://www.man7.org/linux/man-pages/man8/lvmpersist.8.html>.
+> More information: <https://manned.org/lvmpersist>.
 
 - Start PR on all PVs in a VG with a local key (exclusive access by default):
 
