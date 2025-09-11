@@ -25,4 +25,4 @@
 
 - Resolve project dependencies and writes the resolved versions to a file at path `PklProject.deps.json`:
 
-`pkl project resolve {{project_directory}}`
+`pkl project resolve {{path/to/project_directory}}`
