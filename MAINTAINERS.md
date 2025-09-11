@@ -159,6 +159,8 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [30 May 2025](https://github.com/tldr-pages/tldr/issues/16671) — [30 June 2025](https://github.com/tldr-pages/tldr/issues/17026)
 - Marcher Simon ([@marchersimon](https://github.com/marchersimon)):
   [9 March 2021](https://github.com/tldr-pages/tldr/issues/5390) — [9 April 2021](https://github.com/tldr-pages/tldr/issues/5722), [20 November 2023](https://github.com/tldr-pages/tldr/issues/11381) — [12 July 2025](https://github.com/tldr-pages/tldr/issues/17214)
+- Ali Nazzal ([@ali90h](https://github.com/ali90h)):
+  [10 September 2025](https://github.com/tldr-pages/tldr/issues/18069)
 
 
 ## Organization members
