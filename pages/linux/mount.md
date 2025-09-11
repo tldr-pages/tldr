@@ -33,4 +33,4 @@
 
 - Mount a directory to another directory:
 
-`mount {{[-B|--bind]}} {{path/to/old_dir}} {{path/to/new_dir}}`
+`mount {{[-B|--bind]}} {{path/to/old_directory}} {{path/to/new_directory}}`
