@@ -14,9 +14,9 @@
 
 - Compila un componente sin actualizar el código local y sin compilar sus dependencias:
 
-`kde-builder {{[-S|--no-src]}} {{[-D|--no-include-dependencies]}} {{nombre_componente}}`
+`kde-builder {{[-SD|--no-src --no-include-dependencies]}} {{nombre_componente}}`
 
-- Actualiza [R] los directorios de compilación antes de compilar:
+- Actualiza los directorios de compilación antes de compilar:
 
 `kde-builder {{[-r|--refresh-build]}} {{nombre_componente}}`
 
