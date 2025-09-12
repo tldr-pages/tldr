@@ -12,6 +12,6 @@
 
 `pio {{subcommando}} {{[-h|--help]}}`
 
-- Toon versie:
+- Toon de versie:
 
 `pio --version`

@@ -32,6 +32,6 @@
 
 `clang++ {{pad/naar/bron.cpp}} -O{{1|2|3|fast}} {{[-o|--output]}} {{pad/naar/uitvoerbaar_bestand}}`
 
-- Toon versie:
+- Toon de versie:
 
 `clang++ --version`

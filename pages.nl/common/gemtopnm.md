@@ -11,6 +11,6 @@
 
 `gemtopnm {{[-d|-debug]}} {{pad/naar/bestand.img}}`
 
-- Toon versie:
+- Toon de versie:
 
 `gemtopnm -version`

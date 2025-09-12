@@ -15,6 +15,6 @@
 
 `sudo EDITOR={{editor}} visudo`
 
-- Toon versie:
+- Toon de versie:
 
 `visudo {{[-V|--version]}}`

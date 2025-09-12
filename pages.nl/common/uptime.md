@@ -15,6 +15,6 @@
 
 `uptime {{[-s|--since]}}`
 
-- Toon versie:
+- Toon de versie:
 
 `uptime {{[-V|--version]}}`

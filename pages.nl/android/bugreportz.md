@@ -20,6 +20,6 @@
 
 `bugreportz -h`
 
-- Toon versie:
+- Toon de versie:
 
 `bugreportz -v`

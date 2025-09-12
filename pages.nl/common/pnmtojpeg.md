@@ -7,6 +7,6 @@
 
 `pnmtojpeg {{pad/naar/bestand.pnm}} > {{pad/naar/bestand.jpg}}`
 
-- Toon versie:
+- Toon de versie:
 
 `pnmtojpeg -version`

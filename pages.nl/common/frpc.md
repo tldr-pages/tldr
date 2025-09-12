@@ -24,6 +24,6 @@
 
 `frpc completion {{bash|fish|powershell|zsh}}`
 
-- Toon versie:
+- Toon de versie:
 
 `frpc {{[-v|--version]}}`

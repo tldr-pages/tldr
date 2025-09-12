@@ -24,6 +24,6 @@
 
 `gdm --help`
 
-- Toon versie:
+- Toon de versie:
 
 `gdm --version`

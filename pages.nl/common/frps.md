@@ -24,6 +24,6 @@
 
 `frps completion {{bash|fish|powershell|zsh}}`
 
-- Toon versie:
+- Toon de versie:
 
 `frps {{[-v|--version]}}`
