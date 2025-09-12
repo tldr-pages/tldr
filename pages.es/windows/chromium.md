@@ -18,19 +18,19 @@
 
 - Abrir en modo aplicación (sin barras de herramientas, barra de URL, botones, etc.):
 
-`chromium --app={{https://example.com}}`
+`chromium --app {{https://example.com}}`
 
 - Usar un servidor proxy:
 
-`chromium --proxy-server="{{socks5://hostname:66}}" {{example.com}}`
+`chromium --proxy-server "{{socks5://hostname:66}}" {{example.com}}`
 
 - Abrir con un directorio de perfil personalizado:
 
-`chromium --user-data-dir={{ruta/al/directorio}}`
+`chromium --user-data-dir {{ruta/al/directorio}}`
 
 - Abrir sin validación CORS (útil para probar una API):
 
-`chromium --user-data-dir={{ruta/al/directorio}} --disable-web-security`
+`chromium --user-data-dir {{ruta/al/directorio}} --disable-web-security`
 
 - Abrir con una ventana de Desarrolador para cada pestaña abierta:
 
