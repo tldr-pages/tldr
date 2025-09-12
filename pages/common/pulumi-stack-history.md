@@ -1,7 +1,7 @@
 # pulumi stack history
 
 > Display history for a stack.
-> More information: <https://www.pulumi.com/docs/iac/cli/commands/pulumi_stack_history/>
+> More information: <https://www.pulumi.com/docs/iac/cli/commands/pulumi_stack_history/>.
 
 - Display history for the current stack:
 
