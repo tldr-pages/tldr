@@ -1,7 +1,7 @@
 # poetry
 
 > Manage Python packages and dependencies.
-> Some subcommands such as about, check, env, etc. have their own usage documentation.
+> Some subcommands such as `about`, `check`, `env`, etc. have their own usage documentation.
 > See also: `asdf`, `pipenv`, `hatch`.
 > More information: <https://python-poetry.org/docs/cli/>.
 
