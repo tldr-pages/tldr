@@ -21,7 +21,7 @@
 
 - Mount a CD-ROM device (with the filetype ISO9660) to `/cdrom` (readonly):
 
-`mount {{[-t|--types]}} {{iso9660}} {{[-o|--options]}} ro {{/dev/cdrom}} {{/cdrom}}`
+`mount {{[-t|--types]}} iso9660 {{[-o|--options]}} ro {{/dev/cdrom}} /cdrom`
 
 - Mount all the filesystems defined in `/etc/fstab`:
 
