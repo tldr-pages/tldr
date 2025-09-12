@@ -21,7 +21,7 @@
 
 - Use a downloaded dataset, producing all outputs:
 
-`nextclade run {{[-D|--input-dataset]}} {{path/to/dataset_dir}} {{[-O|--output-all]}} {{path/to/output_dir}} {{path/to/sequences.fasta}}`
+`nextclade run {{[-D|--input-dataset]}} {{path/to/dataset_directory}} {{[-O|--output-all]}} {{path/to/output_directory}} {{path/to/sequences.fasta}}`
 
 - Run on multiple files:
 

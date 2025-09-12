@@ -14,7 +14,7 @@
 
 - Override default configuration file and directory locations:
 
-`soupault --config {{config_path}} --site-dir {{input_dir}} --build-dir {{output_dir}}`
+`soupault --config {{config_path}} --site-dir {{input_directory}} --build-dir {{output_directory}}`
 
 - Extract metadata into a JSON file without generating pages:
 
