@@ -30,7 +30,7 @@
 
 - New working dir to set:
 
-`crane mutate {{[-w|--workdir]}} {{path/to/workdir}}`
+`crane mutate {{[-w|--workdir]}} {{path/to/work_directory}}`
 
 - Display help:
 

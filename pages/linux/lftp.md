@@ -25,8 +25,8 @@
 
 - Download or update an entire directory:
 
-`mirror {{path/to/remote_dir}} {{path/to/local_output_dir}}`
+`mirror {{path/to/remote_directory}} {{path/to/local_output_directory}}`
 
 - Upload or update an entire directory:
 
-`mirror {{[-R|--reverse]}} {{path/to/local_dir}} {{path/to/remote_output_dir}}`
+`mirror {{[-R|--reverse]}} {{path/to/local_directory}} {{path/to/remote_output_directory}}`
