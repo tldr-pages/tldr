@@ -1,7 +1,8 @@
 # poetry
 
 > Manage Python packages and dependencies.
-> See also: `asdf`.
+> Some subcommands such as `about`, `check`, `env`, etc. have their own usage documentation.
+> See also: `asdf`, `pipenv`, `hatch`.
 > More information: <https://python-poetry.org/docs/cli/>.
 
 - Create a new Poetry project in the directory with a specific name:
