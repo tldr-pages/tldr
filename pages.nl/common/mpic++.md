@@ -1,7 +1,7 @@
 # mpic++
 
 > Open MPI wrapper compiler voor C++.
-> Bekijk ook: `mpirun`.
+> Zie ook: `mpirun`.
 > Meer informatie: <https://manned.org/mpicxx>.
 
 - Compileer een Open MPI programma:

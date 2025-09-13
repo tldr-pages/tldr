@@ -1,7 +1,7 @@
 # transmission-show
 
 > Verkrijg informatie over een torrent bestand.
-> Bekijk ook: `transmission`.
+> Zie ook: `transmission`.
 > Meer informatie: <https://manned.org/transmission-show>.
 
 - Toon metadata voor een specifieke torrent:
