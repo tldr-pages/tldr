@@ -3,11 +3,11 @@
 > A GUI SQL client supporting many databases.
 > More information: <https://dbeaver.com/docs/dbeaver/Command-Line/>.
 
-- Open `DBeaver`:
+- Open DBeaver:
 
 `dbeaver`
 
-- Open `DBeaver` connecting to a specific database:
+- Open DBeaver connecting to a specific database:
 
 `dbeaver {{[-con|--connect]}} {{database}}`
 
@@ -19,11 +19,11 @@
 
 `dbeaver --quit`
 
-- Close all tabs within dbeaver:
+- Close all tabs within DBeaver:
 
 `dbeaver --closeTabs`
 
-- Bring `DBeaver` to the top of applications:
+- Bring DBeaver to the top of applications:
 
 `dbeaver --bringToFront`
 
