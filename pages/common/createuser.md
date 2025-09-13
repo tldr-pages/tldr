@@ -3,7 +3,7 @@
 > Create a PostgreSQL user (role).
 > More information: <https://www.postgresql.org/docs/current/app-createuser.html>.
 
-- Create a user interactively (prompts for role attributes):
+- Create a user interactively:
 
 `createuser --interactive {{username}}`
 
