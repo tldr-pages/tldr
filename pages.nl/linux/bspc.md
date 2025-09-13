@@ -1,7 +1,7 @@
 # bspc
 
 > Een tool om `bspwm` te besturen.
-> Bekijk ook: `bspwm`.
+> Zie ook: `bspwm`.
 > Meer informatie: <https://github.com/baskerville/bspwm>.
 
 - Definieer twee virtuele bureaubladen:

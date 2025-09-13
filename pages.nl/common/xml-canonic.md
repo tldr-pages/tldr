@@ -15,6 +15,6 @@
 
 `xml {{[c14n|canonic]}} --exc-with-comments {{pad/naar/invoer.xml|URI}} {{pad/naar/c14n.xpath}}`
 
-- Toon help:
+- Toon de help:
 
 `xml {{[c14n|canonic]}} --help`
