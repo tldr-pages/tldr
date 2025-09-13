@@ -24,7 +24,7 @@
 
 `chromium --proxy-server "{{socks5://hostname:66}}" {{example.com}}`
 
-- Abrir con un directorio de perfil personalizado:
+- Abre con un directorio de perfil personalizado:
 
 `chromium --user-data-dir {{ruta/al/directorio}}`
 
