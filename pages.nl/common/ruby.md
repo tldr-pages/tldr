@@ -24,6 +24,6 @@
 
 `ruby -I {{pad/naar/library_map}} -r {{vereiste_library_naam}} {{pad/naar/bin_map/bin_naam}}`
 
-- Toon versie:
+- Toon de versie:
 
 `ruby {{[-v|--version]}}`
