@@ -1,7 +1,7 @@
 # magick compare
 
 > Maak een vergelijkingsafbeelding om visueel de verschillen te zien tussen twee afbeeldingen.
-> Bekijk ook: `magick`.
+> Zie ook: `magick`.
 > Meer informatie: <https://imagemagick.org/script/compare.php>.
 
 - Vergelijk twee afbeeldingen:

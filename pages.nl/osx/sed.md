@@ -1,7 +1,7 @@
 # sed
 
 > Pas tekst aan in een op een scriptbare manier.
-> Bekijk ook: `awk`, `ed`.
+> Zie ook: `awk`, `ed`.
 > Meer informatie: <https://keith.github.io/xcode-man-pages/sed.1.html>.
 
 - Vervang alle `apple` (basis regex) met `mango` (basis regex) in alle invoerregels en toon het resultaat in `stdout`:

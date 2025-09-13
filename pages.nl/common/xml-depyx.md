@@ -11,6 +11,6 @@
 
 `cat {{pad/naar/invoer.pyx}} | xml {{[p2x|depyx]}} > {{pad/naar/uitvoer.xml}}`
 
-- Toon help:
+- Toon de help:
 
 `xml {{[p2x|depyx]}} --help`

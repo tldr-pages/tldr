@@ -1,7 +1,7 @@
 # git switch
 
 > Wissel tussen Git branches. Vereist Git-versie 2.23+.
-> Bekijk ook: `git checkout`.
+> Zie ook: `git checkout`.
 > Meer informatie: <https://git-scm.com/docs/git-switch>.
 
 - Wissel naar een bestaande branch:

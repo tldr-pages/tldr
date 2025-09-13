@@ -1,7 +1,7 @@
 # xbps-remove
 
 > XBPS hulpprogramma voor het verwijderen van pakketten.
-> Bekijk ook: `xbps`.
+> Zie ook: `xbps`.
 > Meer informatie: <https://manned.org/xbps-remove.1>.
 
 - Verwijder een pakket:

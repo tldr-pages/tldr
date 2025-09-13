@@ -1,4 +1,4 @@
-/pages.ar/ @MachiavelliII
+/pages.ar/ @MachiavelliII @ali90h
 /pages.cs/ @Sarijen
 /pages.de/ @pixelcmtd @gutjuri
 /pages.es/ @kant @ikks
@@ -28,7 +28,7 @@
 /contributing-guides/maintainers-guide.md @sbrl @kbdharun @sebastiaanspeck
 /contributing-guides/style-guide.md @sbrl @kbdharun @sebastiaanspeck
 /contributing-guides/translation-templates/ @kbdharun @sebastiaanspeck
-/contributing-guides/*.ar.md @MachiavelliII
+/contributing-guides/*.ar.md @MachiavelliII @ali90h
 /contributing-guides/*.de.md @pixelcmtd @gutjuri
 /contributing-guides/*.es.md @kant @ikks
 /contributing-guides/*.fa.md @MrMw3

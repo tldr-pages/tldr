@@ -17,7 +17,7 @@
 
 - Use alternative root dir:
 
-`gdebi {{path/to/package.deb}} --root {{path/to/root_dir}}`
+`gdebi {{path/to/package.deb}} --root {{path/to/root_directory}}`
 
 - Display version:
 

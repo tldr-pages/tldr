@@ -2,7 +2,7 @@
 
 > Un sistema neural rápido y local de conversión de texto a voz.
 > Descarga y prueba modelos de habla desde <https://rhasspy.github.io/piper-samples>.
-> Más información: <https://github.com/rhasspy/piper>.
+> Más información: <https://github.com/OHF-Voice/piper1-gpl>.
 
 - Genera un archivo WAV utilizando un modelo de texto a voz (suponiendo un archivo de configuración en model_path + .json):
 

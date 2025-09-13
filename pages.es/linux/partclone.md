@@ -1,7 +1,7 @@
 # partclone
 
 > Copia y restaura particiones desde y hacia una imagen sin tener en cuenta los bloques vacíos.
-> Más información: <https://manned.org/a2disconf.8>.
+> Más información: <https://manned.org/partclone>.
 
 - Copia una partición en una imagen:
 

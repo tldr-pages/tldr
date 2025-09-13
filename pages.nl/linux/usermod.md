@@ -1,7 +1,7 @@
 # usermod
 
 > Wijzig een gebruikersaccount.
-> Bekijk ook: `users`, `useradd`, `userdel`.
+> Zie ook: `users`, `useradd`, `userdel`.
 > Meer informatie: <https://manned.org/usermod>.
 
 - Verander een gebruikersnaam:

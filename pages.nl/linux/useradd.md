@@ -1,7 +1,7 @@
 # useradd
 
 > Maak een nieuwe gebruiker aan.
-> Bekijk ook: `users`, `userdel`, `usermod`.
+> Zie ook: `users`, `userdel`, `usermod`.
 > Meer informatie: <https://manned.org/useradd>.
 
 - Maak een nieuwe gebruiker aan:
