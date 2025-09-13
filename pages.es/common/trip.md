@@ -3,7 +3,7 @@
 > Una herramienta de diagnóstico de red.
 > Combina la funcionalidad de `traceroute` y `ping`.
 > Diseñada para ayudar en el análisis de problemas de red.
-> Más información: <https://trippy.rs/>.
+> Más información: <https://trippy.rs/reference/cli/>.
 
 - Uso básico con parámetros por defecto:
 

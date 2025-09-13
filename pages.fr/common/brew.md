@@ -3,9 +3,9 @@
 > Gestionnaire de paquets pour macOS et Linux.
 > Plus d'informations : <https://docs.brew.sh/Manpage>.
 
-- Installe la dernière version stable d'une formule ou d'un cask (ajouter `--devel` pour une version de développement):
+- Installe la dernière version stable d'une formule ou d'un cask:
 
-`brew install {{formule}}`
+`brew install {{formule|cask}}`
 
 - Liste toutes les formules et les casks installés :
 
@@ -13,7 +13,7 @@
 
 - Met à jour une formule ou cask déjà installé (si rien n'est précisé, toutes les formules et tous les casks installés seront mis à jour) :
 
-`brew upgrade {{formule}}`
+`brew upgrade {{formule|cask}}`
 
 - Récupère la dernière version d'Homebrew et toutes les formules et casks depuis le dépôt source d'Homebrew :
 
@@ -29,7 +29,7 @@
 
 - Affiche les informations d'une formule ou d'un cask (version, chemin d'installation, dépendances, etc.) :
 
-`brew info {{formule}}`
+`brew info {{formule|cask}}`
 
 - Vérifie que l'installation locale d'Homebrew n'a pas de problème :
 

@@ -5,8 +5,8 @@
 
 - Push een gecompileerd `nupkg` naar de gespecificeerde feed:
 
-`choco push --source {{https://push.chocolatey.org/}}`
+`choco push {{[-s|--source]}} {{https://push.chocolatey.org/}}`
 
 - Push een gecompileerd `nupkg` naar de gespecificeerde feed met een timeout in seconden (standaard is 2700):
 
-`choco push --source {{https://push.chocolatey.org/}} --execution-timeout {{500}}`
+`choco push {{[-s|--source]}} {{https://push.chocolatey.org/}} {{[--timeout|--execution-timeout]}} {{500}}`
