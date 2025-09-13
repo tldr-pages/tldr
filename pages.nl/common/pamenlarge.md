@@ -1,7 +1,7 @@
 # pamenlarge
 
 > Vergroot een PAM afbeelding door de pixels te dupliceren.
-> Bekijk ook: `pbmreduce`, `pamditherbw`, `pbmpscale`.
+> Zie ook: `pbmreduce`, `pamditherbw`, `pbmpscale`.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/pamenlarge.html>.
 
 - Vergroot de gespecificeerde afbeelding met de gespecificeerde factor:

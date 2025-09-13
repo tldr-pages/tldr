@@ -27,6 +27,6 @@
 
 `tldr pkgctl repo`
 
-- Toon versie:
+- Toon de versie:
 
 `pkgctl version`

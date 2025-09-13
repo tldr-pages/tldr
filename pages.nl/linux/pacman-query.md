@@ -1,7 +1,7 @@
 # pacman --query
 
 > Arch Linux pakketbeheer hulpprogramma.
-> Bekijk ook: `pacman`.
+> Zie ook: `pacman`.
 > Meer informatie: <https://manned.org/pacman.8>.
 
 - [Q]uery de lokale pakkettendatabase en toon geïnstalleerde pakketten en versies:

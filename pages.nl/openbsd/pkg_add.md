@@ -1,7 +1,7 @@
 # pkg_add
 
 > Installeer/update pakketten in OpenBSD.
-> Bekijk ook: `pkg_info`, `pkg_delete`.
+> Zie ook: `pkg_info`, `pkg_delete`.
 > Meer informatie: <https://man.openbsd.org/pkg_add>.
 
 - Werk alle pakketten bij, inclusief afhankelijkheden:

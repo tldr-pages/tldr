@@ -1,7 +1,7 @@
 # userdel
 
 > Verwijder een gebruikersaccount of verwijder een gebruiker uit een groep.
-> Bekijk ook: `users`, `useradd`, `usermod`.
+> Zie ook: `users`, `useradd`, `usermod`.
 > Meer informatie: <https://manned.org/userdel>.
 
 - Verwijder een gebruiker:

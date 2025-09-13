@@ -1,7 +1,7 @@
 # pamtopng
 
 > Converteer een PAM afbeelding naar PNG.
-> Bekijk ook: `pnmtopng`, `pngtopam`.
+> Zie ook: `pnmtopng`, `pngtopam`.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/pamtopng.html>.
 
 - Converteer de gespecificeerde PAM afbeelding naar PNG:

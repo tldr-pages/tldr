@@ -1,7 +1,7 @@
 # chpass
 
 > Gebruikersdatabase informatie toevoegen of wijzigen, inclusief login shell en wachtwoord.
-> Bekijk ook: `passwd`.
+> Zie ook: `passwd`.
 > Meer informatie: <https://man.freebsd.org/cgi/man.cgi?chpass>.
 
 - Voeg toe of pas interactief de gebruikersdatabase informatie aan voor de huidige gebruiker:

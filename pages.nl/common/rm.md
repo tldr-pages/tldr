@@ -1,7 +1,7 @@
 # rm
 
 > Verwijder bestanden of mappen.
-> Bekijk ook: `rmdir`.
+> Zie ook: `rmdir`.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>.
 
 - Verwijder specifieke bestanden:

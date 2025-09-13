@@ -24,6 +24,6 @@
 
 `mqtt_check.py -debug {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}@{{doelNaam}}`
 
-- Toon help:
+- Toon de help:
 
 `mqtt_check.py --help`

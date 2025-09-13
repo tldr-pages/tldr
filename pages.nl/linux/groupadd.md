@@ -1,7 +1,7 @@
 # groupadd
 
 > Voeg gebruikersgroepen toe aan het systeem.
-> Bekijk ook: `groups`, `groupdel`, `groupmod`.
+> Zie ook: `groups`, `groupdel`, `groupmod`.
 > Meer informatie: <https://manned.org/groupadd>.
 
 - Maak een nieuwe groep aan:

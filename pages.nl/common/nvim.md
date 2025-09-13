@@ -2,7 +2,7 @@
 
 > Neovim, een programmeurs tekstbewerker gebaseerd op Vim, welke verschillende modi aanbied voor verschillende soorten text manipulatie.
 > Op `<i>` drukken in de normale modus, gaat naar de invoer modus. `<Esc>` gaat terug naar de normale modus, die geen reguliere tekst invoer accepteert.
-> Bekijk ook: `vim`, `vimtutor`, `vimdiff`.
+> Zie ook: `vim`, `vimtutor`, `vimdiff`.
 > Meer informatie: <https://neovim.io>.
 
 - Open een bestand:

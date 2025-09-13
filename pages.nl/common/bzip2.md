@@ -1,7 +1,7 @@
 # bzip2
 
 > Een blok-sorteer bestandscompressor.
-> Bekijk ook: `bzcat`, `bunzip2`, `bzip2recover`.
+> Zie ook: `bzcat`, `bunzip2`, `bzip2recover`.
 > Meer informatie: <https://manned.org/bzip2>.
 
 - Comprimeer een bestand:

@@ -1,7 +1,7 @@
 # users
 
 > Toon een lijst van ingelogde gebruikers.
-> Bekijk ook: `useradd`, `userdel`, `usermod`.
+> Zie ook: `useradd`, `userdel`, `usermod`.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/users-invocation.html>.
 
 - Toon ingelogde gebruikersnamen:

@@ -1,7 +1,7 @@
 # ar
 
 > Maken, aanpassen en uitpakken van Unix archieven. Typisch gebruikt voor statische bibliotheken (`.a`) en Debian pakketten (`.deb`).
-> Bekijk ook: `tar`.
+> Zie ook: `tar`.
 > Meer informatie: <https://manned.org/ar>.
 
 - Pak alles uit van een archief:

@@ -1,7 +1,7 @@
 # transmission-daemon
 
 > Daemon bediend met `transmission-remote` of de webinterface.
-> Bekijk ook: `transmission`.
+> Zie ook: `transmission`.
 > Meer informatie: <https://manned.org/transmission-daemon>.
 
 - Start een headless `transmission` sessie:

@@ -1,7 +1,7 @@
 # asciinema
 
 > Neemt op en speelt terminal sessies af en deelt hem optioneel op asciinema.org.
-> Bekijk ook: `terminalizer`.
+> Zie ook: `terminalizer`.
 > Meer informatie: <https://docs.asciinema.org/manual/cli/usage>.
 
 - Associeer de lokale installatie van `asciinema` met het asciinema.org account:

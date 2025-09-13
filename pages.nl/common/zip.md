@@ -1,7 +1,7 @@
 # zip
 
 > Verpak en comprimeer (archiveer) bestanden in een Zip-archief.
-> Bekijk ook: `unzip`.
+> Zie ook: `unzip`.
 > Meer informatie: <https://manned.org/zip>.
 
 - Voeg bestanden/mappen toe aan een specifiek archief:

@@ -1,7 +1,7 @@
 # pamcrater
 
 > Maak een PAM afbeelding van een krater terrein.
-> Bekijk ook: `pamshadedrelief`, `ppmrelief`.
+> Zie ook: `pamshadedrelief`, `ppmrelief`.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/pamcrater.html>.
 
 - Maak een afbeelding van een krater terrein met de gespecificeerde dimensies:

@@ -1,7 +1,7 @@
 # fdisk
 
 > Beheer partitietabellen en partities op een opslagschijf.
-> Bekijk ook: `partprobe`.
+> Zie ook: `partprobe`.
 > Meer informatie: <https://manned.org/fdisk>.
 
 - Toon partities:

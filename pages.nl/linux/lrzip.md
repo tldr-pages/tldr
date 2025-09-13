@@ -1,7 +1,7 @@
 # lrzip
 
 > Een programma voor het comprimeren van grote bestanden.
-> Bekijk ook: `lrunzip`, `lrztar`, `lrzuntar`.
+> Zie ook: `lrunzip`, `lrztar`, `lrzuntar`.
 > Meer informatie: <https://manned.org/lrzip>.
 
 - Comprimeer een bestand met LZMA - langzame compressie, snelle decompressie:

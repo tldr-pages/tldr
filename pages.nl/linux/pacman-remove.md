@@ -1,7 +1,7 @@
 # pacman --remove
 
 > Hulpprogramma voor het beheren van pakketten op Arch Linux.
-> Bekijk ook: `pacman`.
+> Zie ook: `pacman`.
 > Meer informatie: <https://manned.org/pacman.8>.
 
 - Verwijde[R] een pakket en zijn afhankelijkheden recur[s]ief:

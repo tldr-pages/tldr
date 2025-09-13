@@ -1,7 +1,7 @@
 # linode-cli nodebalancers
 
 > Beheer Linode NodeBalancers.
-> Bekijk ook: `linode-cli`.
+> Zie ook: `linode-cli`.
 > Meer informatie: <https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-nodebalancers>.
 
 - Toon alle NodeBalancers:

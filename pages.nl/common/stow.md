@@ -2,7 +2,7 @@
 
 > Symlink-beheerder.
 > Vaak gebruikt om dotfiles te beheren.
-> Bekijk ook: `chezmoi`, `tuckr`, `vcsh`, `homeshick`.
+> Zie ook: `chezmoi`, `tuckr`, `vcsh`, `homeshick`.
 > Meer informatie: <https://www.gnu.org/software/stow/manual/stow.html#Invoking-Stow>.
 
 - Symlink alle bestanden recursief naar de opgegeven map:

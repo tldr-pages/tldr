@@ -1,7 +1,7 @@
 # pnmnorm
 
 > Normaliseer het contrast in een PNM afbeelding.
-> Bekijk ook: `pnmhisteq`.
+> Zie ook: `pnmhisteq`.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/pnmnorm.html>.
 
 - Forceer de helderste pixels om wit te zijn, de donkerste pixels om zwart te zijn en verspreid de tussenliggende pixels lineair:

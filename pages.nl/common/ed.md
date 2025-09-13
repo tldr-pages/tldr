@@ -1,7 +1,7 @@
 # ed
 
 > De originele Unix tekst editor.
-> Bekijk ook: `awk`, `sed`.
+> Zie ook: `awk`, `sed`.
 > Meer informatie: <https://www.gnu.org/software/ed/manual/ed_manual.html>.
 
 - Start een interactieve editor sessie met een leeg document:

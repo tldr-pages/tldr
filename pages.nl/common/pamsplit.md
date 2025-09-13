@@ -1,7 +1,7 @@
 # pamsplit
 
 > Split een Netpbm bestand met meerdere afbeeldingen in meerdere Netpbm bestanden met een enkele afbeelding.
-> Bekijk ook: `pamfile`, `pampick`, `pamexec`.
+> Zie ook: `pamfile`, `pampick`, `pamexec`.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/pamsplit.html>.
 
 - Split een Netpbm bestand met meerdere afbeeldingen in meerdere Netpbm bestanden met een enkele afbeelding:

@@ -1,7 +1,7 @@
 # transmission-create
 
 > Maak BitTorrent `.torrent` bestanden.
-> Bekijk ook: `transmission`.
+> Zie ook: `transmission`.
 > Meer informatie: <https://manned.org/transmission-create>.
 
 - Maak een torrent met een specifieke stukgrootte (in KB):

@@ -1,7 +1,7 @@
 # look
 
 > Toon regels die beginnen met een prefix in een gesorteerd bestand.
-> Bekijk ook: `grep`, `sort`.
+> Zie ook: `grep`, `sort`.
 > Meer informatie: <https://keith.github.io/xcode-man-pages/look.1.html>.
 
 - Zoek naar regels die beginnen met een specifieke prefix in een specifiek bestand:

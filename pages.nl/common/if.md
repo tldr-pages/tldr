@@ -1,7 +1,7 @@
 # if
 
 > Voert voorwaardelijke verwerking uit in shell-scripts.
-> Bekijk ook: `test`, `[`.
+> Zie ook: `test`, `[`.
 > Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#Conditional-Constructs>.
 
 - Voer de opgegeven commando's uit als de exitstatus van het voorwaardelijke commando nul is:

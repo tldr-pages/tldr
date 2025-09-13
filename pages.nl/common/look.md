@@ -2,7 +2,7 @@
 
 > Toon regels die beginnen met een prefix in een gesorteerd bestand.
 > Let op: de regels in het bestand moeten gesorteerd zijn.
-> Bekijk ook: `grep`, `sort`.
+> Zie ook: `grep`, `sort`.
 > Meer informatie: <https://man.openbsd.org/look>.
 
 - Zoek naar regels die beginnen met een specifieke prefix in een specifiek bestand:

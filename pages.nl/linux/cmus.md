@@ -2,7 +2,7 @@
 
 > Command-line muziekspeler.
 > Gebruik `<ArrowKeys>` om te navigeren, `<Enter>` om te selecteren en nummers `<1>`-`<8>` om te wisselen tussen verschillende weergaven.
-> Bekijk ook: `ncmpcpp`, `clementine`, `qmmp`.
+> Zie ook: `ncmpcpp`, `clementine`, `qmmp`.
 > Meer informatie: <https://manned.org/cmus>.
 
 - Open `cmus` in de opgegeven map (dit wordt uw nieuwe werkmap):
