@@ -5,20 +5,20 @@
 
 - Display history for the current stack:
 
-`pulumi stack history`
+`pulumi stack {{[hist|history]}}`
 
 - Display history for the current stack showing full dates instead of relative dates:
 
-`pulumi stack history --full-dates`
+`pulumi stack {{[hist|history]}} --full-dates`
 
 - Display history for the current stack in JSON format:
 
-`pulumi stack history {{[-j|--json]}}`
+`pulumi stack {{[hist|history]}} {{[-j|--json]}}`
 
 - Display history for a specific stack:
 
-`pulumi stack history {{[-s|--stack]}} {{stack_name}}`
+`pulumi stack {{[hist|history]}} {{[-s|--stack]}} {{stack_name}}`
 
 - Display help:
 
-`pulumi stack history {{[-h|--help]}}`
+`pulumi stack {{[hist|history]}} {{[-h|--help]}}`
