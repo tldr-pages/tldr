@@ -1,7 +1,7 @@
 # mpv
 
 > Een audio-/videospeler gebaseerd op MPlayer.
-> Bekijk ook: `mplayer`, `vlc`.
+> Zie ook: `mplayer`, `vlc`.
 > Meer informatie: <https://mpv.io/manual/stable/>.
 
 - Speel een video of audio af van een URL of bestand:

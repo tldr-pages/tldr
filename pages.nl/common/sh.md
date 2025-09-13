@@ -1,7 +1,7 @@
 # sh
 
 > Bourne shell, de standaard opdrachttaalinterpreter.
-> Bekijk ook `histexpand` voor uitbreiding van de geschiedenis.
+> Zie ook `histexpand` voor uitbreiding van de geschiedenis.
 > Meer informatie: <https://manned.org/sh>.
 
 - Start een interactieve shell sessie:

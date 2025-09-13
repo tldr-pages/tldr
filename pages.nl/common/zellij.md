@@ -1,7 +1,7 @@
 # zellij
 
 > Terminal multiplexer met extra functies.
-> Bekijk ook: `tmux` en `screen`.
+> Zie ook: `tmux` en `screen`.
 > Meer informatie: <https://zellij.dev/documentation/>.
 
 - Start een nieuwe benaamde sessie:

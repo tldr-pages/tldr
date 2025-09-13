@@ -1,7 +1,7 @@
 # lrztar
 
 > Een wrapper voor `lrzip` om het comprimeren van mappen te vereenvoudigen.
-> Bekijk ook: `tar`, `lrzuntar`, `lrunzip`.
+> Zie ook: `tar`, `lrzuntar`, `lrunzip`.
 > Meer informatie: <https://manned.org/lrztar>.
 
 - Archiveer een map met tar en comprimeer dan:

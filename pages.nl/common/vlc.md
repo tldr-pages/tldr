@@ -1,7 +1,7 @@
 # vlc
 
 > Cross-platform multimediaspeler.
-> Bekijk ook: `mpv`, `mplayer`, `ytfzf`.
+> Zie ook: `mpv`, `mplayer`, `ytfzf`.
 > Meer informatie: <https://wiki.videolan.org/Documentation:Command_line/>.
 
 - Speel een bestand af:

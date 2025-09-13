@@ -1,7 +1,7 @@
 # zsh
 
 > Z SHell, een Bash-compatibele commandoregel-interpreteerder.
-> Bekijk ook: `bash`, `histexpand`.
+> Zie ook: `bash`, `histexpand`.
 > Meer informatie: <https://zsh.sourceforge.io/Doc/Release/Invocation.html#Invocation>.
 
 - Start een interactieve shell sessie:

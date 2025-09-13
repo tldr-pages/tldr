@@ -1,7 +1,7 @@
 # tail
 
 > Toon het laatste deel van een bestand.
-> Bekijk ook: `head`.
+> Zie ook: `head`.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/tail-invocation.html>.
 
 - Toon laatste aantal regels in een bestand:

@@ -1,7 +1,7 @@
 # nano
 
 > Tekst bewerker. Een verbeterde `pico` kloon.
-> Bekijk ook: `pico`, `rnano`.
+> Zie ook: `pico`, `rnano`.
 > Meer informatie: <https://nano-editor.org/dist/latest/nano.html>.
 
 - Open specifieke bestanden, ga naar het volgende bestand bij het sluiten van de vorige:

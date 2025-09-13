@@ -1,7 +1,7 @@
 # fossil delete
 
 > Verwijder bestanden of mappen uit Fossil-versiebeheer.
-> Bekijk ook: `fossil forget`.
+> Zie ook: `fossil forget`.
 > Meer informatie: <https://fossil-scm.org/home/help/rm>.
 
 - Verwijder een bestand of map uit Fossil-versiebeheer:

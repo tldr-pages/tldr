@@ -1,7 +1,7 @@
 # screen
 
 > Houd een sessie open op een externe server. Beheer meerdere vensters met één SSH-verbinding.
-> Bekijk ook: `tmux` en `zellij`.
+> Zie ook: `tmux` en `zellij`.
 > Meer informatie: <https://manned.org/screen>.
 
 - Start een nieuwe screen sessie:
