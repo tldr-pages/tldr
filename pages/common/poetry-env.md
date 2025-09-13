@@ -8,9 +8,17 @@
 
 `poetry env activate`
 
-- Display information about the current environment (`-p` or `-e` will display the environment's path or executable):
+- Display information about the current environment:
 
-`poetry env info {{[-p|--path]}} {{[-e|--executable]}}`
+`poetry env info`
+
+- Display the path of the current environment:
+
+`poetry env info {{-p|--path}}`
+
+- Display the path of the current environment's Python executable:
+
+`poetry env info {{-e|--executable}}`
 
 - List all virtual environments associated with the current project (optionally showing the full path):
 
