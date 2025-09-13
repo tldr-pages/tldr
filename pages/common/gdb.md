@@ -5,24 +5,24 @@
 
 - Debug an executable:
 
-`gdb {{executable}}`
+`gdb {{path/to/executable}}`
 
-- Attach a process to gdb:
+- Attach a process to `gdb`:
 
 `gdb {{[-p|--pid]}} {{procID}}`
 
 - Debug with a core file:
 
-`gdb {{[-c|--core]}} {{core}} {{executable}}`
+`gdb {{[-c|--core]}} {{path/to/core}} {{path/to/executable}}`
 
 - Execute given GDB commands upon start:
 
-`gdb {{[-ex|--eval-command]}} "{{commands}}" {{executable}}`
+`gdb {{[-ex|--eval-command]}} "{{commands}}" {{path/to/executable}}`
 
 - Start `gdb` and pass arguments to the executable:
 
-`gdb --args {{executable}} {{argument1}} {{argument2}}`
+`gdb --args {{path/to/executable}} {{argument1 argument2 ...}}`
 
-- Skip debuginfod and pagination prompts and then print the backtrace:
+- Skip `debuginfod` and pagination prompts and then print the backtrace:
 
-`gdb {{[-c|--core]}} {{core}} {{executable}} -iex 'set debuginfod enabled on' -iex 'set pagination off' -ex bt`
+`gdb {{[-c|--core]}} {{path/to/core}} {{path/to/executable}} -iex 'set debuginfod enabled on' -iex 'set pagination off' -ex bt`
