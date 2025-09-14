@@ -5,7 +5,7 @@
 
 - Switch to a new root filesystem and execute its default init system:
 
-`systemctl switch-root {{/new/root}}`
+`systemctl switch-root {{path/to/new_root}}`
 
 - Switch to a new root filesystem and run a specific init binary:
 
