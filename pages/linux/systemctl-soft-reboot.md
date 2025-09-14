@@ -14,3 +14,7 @@
 - Schedule a soft reboot for a specific time:
 
 `systemctl soft-reboot --when "{{timestamp}}"`
+
+- Cancel a scheduled soft reboot:
+
+`systemctl soft-reboot --when cancel`
