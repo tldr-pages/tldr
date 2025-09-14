@@ -1,7 +1,7 @@
 # transmission-edit
 
 > Wijzig aankondigings URL's van torrentbestanden.
-> Bekijk ook: `transmission`.
+> Zie ook: `transmission`.
 > Meer informatie: <https://manned.org/transmission-edit>.
 
 - Voeg een URL toe aan de aankondigingslijst van een torrent:

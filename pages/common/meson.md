@@ -9,11 +9,11 @@
 
 - Configure the `builddir` with default values:
 
-`meson setup {{build_dir}}`
+`meson setup {{build_directory}}`
 
 - Build the project:
 
-`meson compile -C {{path/to/build_dir}}`
+`meson compile -C {{path/to/build_directory}}`
 
 - Run all tests in the project:
 

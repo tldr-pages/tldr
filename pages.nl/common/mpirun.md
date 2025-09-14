@@ -1,7 +1,7 @@
 # mpirun
 
 > Voer seriële en parallelle taken uit in Open MPI.
-> Bekijk ook: `mpic++`.
+> Zie ook: `mpic++`.
 > Meer informatie: <https://docs.open-mpi.org/en/main/man-openmpi/man1/mpirun.1.html>.
 
 - Voer een Open MPI programma uit:

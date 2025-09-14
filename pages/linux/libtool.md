@@ -21,7 +21,7 @@
 
 - Complete the installation of `libtool` libraries on the system:
 
-`libtool {{[f|finish]}} {{path/to/installation_dir}}`
+`libtool {{[f|finish]}} {{path/to/installation_directory}}`
 
 - Delete installed libraries or executables:
 

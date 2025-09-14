@@ -10,7 +10,7 @@
 
 - Activate output of all errors and warnings:
 
-`g++ {{path/to/source.cpp}} -Wall {{[-o|--output]}} {{output_executable}}`
+`g++ {{path/to/source.cpp}} -Wall {{[-o|--output]}} {{path/to/output_executable}}`
 
 - Show common warnings, debug symbols in output, and optimize without affecting debugging:
 

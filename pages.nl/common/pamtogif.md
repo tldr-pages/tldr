@@ -1,7 +1,7 @@
 # pamtogif
 
 > Converteer een Netpbm afbeelding naar een ongeanimeerde GIF afbeelding.
-> Bekijk ook: `giftopnm`, `gifsicle`.
+> Zie ook: `giftopnm`, `gifsicle`.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/pamtogif.html>.
 
 - Converteer een Netpbm afbeelding naar een ongeanimeerde GIF afbeelding:
