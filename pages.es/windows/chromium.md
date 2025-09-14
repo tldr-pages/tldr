@@ -28,7 +28,7 @@
 
 `chromium --user-data-dir {{ruta/al/directorio}}`
 
-- Abrir sin validación CORS (útil para probar una API):
+- Abre sin validación CORS (útil para probar una API):
 
 `chromium --user-data-dir {{ruta/al/directorio}} --disable-web-security`
 
