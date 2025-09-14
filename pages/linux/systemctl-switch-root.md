@@ -9,7 +9,7 @@
 
 - Switch to a new root filesystem and run a specific init binary:
 
-`systemctl switch-root {{/new/root}} {{/sbin/init}}`
+`systemctl switch-root {{path/to/new_root}} {{/sbin/init}}`
 
 - Switch to a new root filesystem with verbose output:
 
