@@ -14,11 +14,11 @@
 
 - Display the path of the current environment:
 
-`poetry env info {{-p|--path}}`
+`poetry env info {{[-p|--path]}}`
 
 - Display the path of the current environment's Python executable:
 
-`poetry env info {{-e|--executable}}`
+`poetry env info {{[-e|--executable]}}`
 
 - List all virtual environments associated with the current project (optionally showing the full path):
 
