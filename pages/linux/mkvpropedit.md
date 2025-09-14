@@ -5,16 +5,16 @@
 
 - Delete title:
 
-`mkvpropedit --delete title {{path/to/mkv_file}}`
+`mkvpropedit {{[-d|--delete]}} title {{path/to/mkv_file}}`
 
 - Mark subtitle track 3 as SDH - Subtitles for deaf and hearing impared:
 
-`mkvpropedit {{path/to/mkv_file}} --edit track:s3 --set flag-hearing-impaired=1`
+`mkvpropedit {{path/to/mkv_file}} {{[-e|--edit]}} track:s3 {{[-s|--set]}} flag-hearing-impaired=1`
 
 - Mark audio track 2 as Default:
 
-`mkvpropedit {{path/to/mkv_file}} --edit track:a2 --set flag-default=1`
+`mkvpropedit {{path/to/mkv_file}} {{[-e|--edit]}} track:a2 {{[-s|--set]}} flag-default=1`
 
 - Delete the name of video track 1:
 
-`mkvpropedit {{path/to/mkv_file}} --edit track:v1 --delete name`
+`mkvpropedit {{path/to/mkv_file}} {{[-e|--edit]}} track:v1 {{[-d|--delete]}} name`
