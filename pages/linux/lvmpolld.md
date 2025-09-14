@@ -9,7 +9,7 @@
 
 - Start in the foreground with debug logging:
 
-`lvmpolld {{[-f|--foreground]}} {{[-l|--log]}} {{debug}}`
+`lvmpolld {{[-f|--foreground]}} {{[-l|--log]}} debug`
 
 - Set the idle shutdown timeout (seconds):
 
