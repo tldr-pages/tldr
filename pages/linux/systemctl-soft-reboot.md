@@ -13,4 +13,4 @@
 
 - Schedule a soft reboot for a specific time:
 
-`systemctl soft-reboot --when="{{timestamp}}"`
+`systemctl soft-reboot --when "{{timestamp}}"`
