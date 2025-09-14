@@ -4,15 +4,15 @@
 > Nota: Es posible que necesites reemplazar el comando `chromium` con tu navegador web deseado, como `brave`, `google-chrome`, `microsoft-edge`/`msedge`, `opera` o `vivaldi`.
 > Más información: <https://www.chromium.org/developers/how-tos/run-chromium-with-flags/>.
 
-- Abrir una URL o archivo específico:
+- Abre una URL o archivo específico:
 
 `chromium {{https://example.com|ruta/al/archivo.html}}`
 
-- Abrir en modo incógnito (usa `--inprivate` para Microsoft Edge):
+- Abre en modo incógnito (usa `--inprivate` para Microsoft Edge):
 
 `{{chromium --incognito|msedge --inprivate}} {{example.com}}`
 
-- Abrir en una nueva ventana:
+- Abre en una nueva ventana:
 
 `chromium --new-window {{example.com}}`
 
