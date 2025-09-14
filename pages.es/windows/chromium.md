@@ -20,7 +20,7 @@
 
 `chromium --app {{https://example.com}}`
 
-- Usar un servidor proxy:
+- Usa un servidor proxy:
 
 `chromium --proxy-server "{{socks5://hostname:66}}" {{example.com}}`
 
