@@ -2,7 +2,7 @@
 
 > Gestor de configuración sencillo y reforzado con seguridad de OpenVPN.
 > Diseñado originalmente para el Raspberry Pi, pero también funciona en otros dispositivos Linux.
-> Más información: <https://www.pivpn.io/>.
+> Más información: <https://docs.pivpn.io/openvpn/>.
 
 - Agrega un nuevo dispositivo cliente:
 
