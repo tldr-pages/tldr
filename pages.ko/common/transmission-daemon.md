@@ -18,4 +18,4 @@
 
 - 웹 인터페이스에 대한 특정 설정으로 시작:
 
-`transmission-daemon {{[-T|--auth]}} {{[-u|--username]}} {{사용자명}} {{[-v|--password]}} {{비밀번호}} {{[-p|--port]}} {{9091}} {{[-a|--allowed]}} {{127.0.0.1}}`
+`transmission-daemon {{[-t|--auth]}} {{[-u|--username]}} {{사용자명}} {{[-v|--password]}} {{비밀번호}} {{[-p|--port]}} {{9091}} {{[-a|--allowed]}} {{127.0.0.1}}`
