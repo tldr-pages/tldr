@@ -12,9 +12,9 @@
 
 `conda activate {{path/to/myenv}}`
 
-- Stack `myenv2` environment on top of a previous environment making libraries/commands/variables from both accessible:
+- Stack `myenv` environment on top of a previous environment making libraries/commands/variables from both accessible:
 
-`conda activate --stack myenv2`
+`conda activate --stack myenv`
 
 - Start a clean environment `myenv3` without stacking it making previous environment libraries/commands/variables not accessible:
 
