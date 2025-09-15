@@ -1,7 +1,7 @@
 # cot
 
 > El editor de texto simple para macOS.
-> Más información: <https://coteditor.com/>.
+> Más información: <https://coteditor.com/cot>.
 
 - Inicia CotEditor:
 
