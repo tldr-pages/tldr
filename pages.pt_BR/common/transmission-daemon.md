@@ -18,4 +18,4 @@
 
 - Inicia com configurações específicas para a interface web:
 
-`transmission-daemon {{[-T|--auth]}} {{[-u|--username]}} {{usuario}} {{[-v|--password]}} {{senha}} {{[-p|--port]}} {{9091}} {{[-a|--allowed]}} {{127.0.0.1}}`
+`transmission-daemon {{[-t|--auth]}} {{[-u|--username]}} {{usuario}} {{[-v|--password]}} {{senha}} {{[-p|--port]}} {{9091}} {{[-a|--allowed]}} {{127.0.0.1}}`
