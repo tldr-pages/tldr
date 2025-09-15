@@ -25,7 +25,7 @@
 
 - Klone ein existierendes Repository und rufe nur die neuesten 10 Commits im Standard-Branch ab (spart Zeit):
 
-`git clone --depth {{10}} {{url_zu_repository}}`
+`git clone --depth 10 {{url_zu_repository}}`
 
 - Klone ein existierendes Repository, aber lade nur einen bestimmten Branch herunter:
 
