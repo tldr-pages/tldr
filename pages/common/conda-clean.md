@@ -19,7 +19,7 @@
 
 `conda clean {{[-p|--packages]}}`
 
-- Force delete all writable packages. More broad than the `[-a|--all]` option. Will delete packages installed with softlinks:
+- Force delete all writable packages. More broad than the `--all` option. Will delete packages installed with softlinks:
 
 `conda clean {{[-f|--force-pkgs-dirs]}}`
 
