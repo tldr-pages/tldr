@@ -441,7 +441,7 @@ Try to keep the following order:
 - Program name
 - Input redirection from a file
 - All subcommands
-- Program options
+- Options/Flags
 - Positional arguments/Packages/Data
 - Output redirection to a file
 
