@@ -21,12 +21,12 @@
 
 - List repositories owned by a specific user or organization (if the owner is not set, the default owner will be the currently logged in user):
 
-`gh repo list {{owner}}`
+`gh repo {{[ls|list]}} {{owner}}`
 
 - List only non-forks repositories and limit the number of repositories to list (default: 30):
 
-`gh repo list {{owner}} --source {{[-L|--limit]}} {{limit}}`
+`gh repo {{[ls|list]}} {{owner}} --source {{[-L|--limit]}} {{limit}}`
 
 - List repositories with a specific primary coding language:
 
-`gh repo list {{owner}} {{[-l|--language]}} {{language_name}}`
+`gh repo {{[ls|list]}} {{owner}} {{[-l|--language]}} {{language_name}}`

@@ -14,7 +14,7 @@
 
 - View and filter the open issues of the current repository:
 
-`gh issue list`
+`gh issue {{[ls|list]}}`
 
 - View an issue in the default web browser:
 

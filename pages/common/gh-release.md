@@ -5,7 +5,7 @@
 
 - List releases in a GitHub repository, limited to 30 items:
 
-`gh release list`
+`gh release {{[ls|list]}}`
 
 - Display information about a specific release:
 

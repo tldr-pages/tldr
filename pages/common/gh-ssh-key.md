@@ -5,7 +5,7 @@
 
 - List SSH keys for the currently authenticated user:
 
-`gh ssh-key list`
+`gh ssh-key {{[ls|list]}}`
 
 - Add an SSH key to the currently authenticated user's account:
 

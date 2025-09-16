@@ -13,7 +13,7 @@
 
 - List installed extensions:
 
-`gh {{[ext|extension]}} list`
+`gh {{[ext|extension]}} {{[ls|list]}}`
 
 - Upgrade a specific extension:
 
@@ -25,7 +25,7 @@
 
 - List installed extensions:
 
-`gh {{[ext|extension]}} list`
+`gh {{[ext|extension]}} {{[ls|list]}}`
 
 - Remove an extension:
 
