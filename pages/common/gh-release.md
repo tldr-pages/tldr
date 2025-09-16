@@ -13,7 +13,7 @@
 
 - Create a new release:
 
-`gh release create {{tag}}`
+`gh release {{[new|create]}} {{tag}}`
 
 - Delete a specific release:
 

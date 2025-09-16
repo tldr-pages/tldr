@@ -10,7 +10,7 @@
 
 - Create a new issue:
 
-`gh issue create`
+`gh issue {{[new|create]}}`
 
 - View and filter the open issues of the current repository:
 
@@ -22,7 +22,7 @@
 
 - Create a pull request:
 
-`gh pr create`
+`gh pr {{[new|create]}}`
 
 - View a pull request in the default web browser:
 

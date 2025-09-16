@@ -13,7 +13,7 @@
 
 - Create a new issue in the default web browser:
 
-`gh issue create {{[-w|--web]}}`
+`gh issue {{[new|create]}} {{[-w|--web]}}`
 
 - List the last 10 issues with the `bug` label:
 

@@ -5,11 +5,11 @@
 
 - Create a new Gist from one or more files:
 
-`gh gist create {{path/to/file1 path/to/file2 ...}}`
+`gh gist {{[new|create]}} {{path/to/file1 path/to/file2 ...}}`
 
 - Create a new Gist with a specific [desc]ription:
 
-`gh gist create {{path/to/file1 path/to/file2 ...}} {{[-d|--desc]}} "{{description}}"`
+`gh gist {{[new|create]}} {{path/to/file1 path/to/file2 ...}} {{[-d|--desc]}} "{{description}}"`
 
 - Edit a Gist:
 

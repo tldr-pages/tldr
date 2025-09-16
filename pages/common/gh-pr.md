@@ -6,7 +6,7 @@
 
 - Create a pull request:
 
-`gh pr create`
+`gh pr {{[new|create]}}`
 
 - Check out a specific pull request locally:
 

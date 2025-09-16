@@ -5,7 +5,7 @@
 
 - Create a new repository (if the repository name is not set, the default name will be the name of the current directory):
 
-`gh repo create {{name}}`
+`gh repo {{[new|create]}} {{name}}`
 
 - Clone a repository:
 
