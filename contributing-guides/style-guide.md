@@ -434,6 +434,23 @@ For example, `[d]ownload` in English may be translated into `[d]escargar` in Spa
 
 ## Example commands
 
+### Argument order
+
+Try to keep the following order:
+
+- Program name
+- Input redirection from a file
+- All subcommands
+- Options/Flags
+- Positional arguments/Packages/Data/...
+- Output redirection to a file
+
+For example: `systemctl < input_file.txt status --user pipewire > output_file.txt`
+
+This is only a suggestion and should be disregarded when program functionality or readability dictates otherwise.
+
+If the command does multiple things, try to keep the chronological order in which things happen.
+
 ### Option syntax
 
 - For user-friendliness, prefer **GNU-style long options** (like `--help` rather than `-h`). Make sure that the options are cross-platform compatible (intended to work the same across multiple platforms) for pages in the `common` directory.
