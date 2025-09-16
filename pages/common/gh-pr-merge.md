@@ -29,4 +29,4 @@
 
 - Display help:
 
-`gh pr merge --help`
+`gh pr merge {{[-h|--help]}}`

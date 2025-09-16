@@ -33,4 +33,4 @@
 
 - Display help about a subcommand:
 
-`gh {{[ext|extension]}} {{subcommand}} --help`
+`gh {{[ext|extension]}} {{subcommand}} {{[-h|--help]}}`

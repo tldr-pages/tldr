@@ -17,7 +17,7 @@
 
 - List up to 42 Gists owned by the currently logged in user:
 
-`gh gist list {{[-L|--limit]}} {{42}}`
+`gh gist list {{[-L|--limit]}} 42`
 
 - View a Gist in the default browser without rendering Markdown:
 

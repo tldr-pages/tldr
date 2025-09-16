@@ -9,7 +9,7 @@
 
 - Create a new issue with the `bug` label interactively:
 
-`gh issue create {{[-l|--label]}} "{{bug}}"`
+`gh issue create {{[-l|--label]}} "bug"`
 
 - Create a new issue interactively and assign it to the specified users:
 
@@ -17,7 +17,7 @@
 
 - Create a new issue with a title, body and assign it to the current user:
 
-`gh issue create {{[-t|--title]}} "{{title}}" {{[-b|--body]}} "{{body}}" {{[-a|--assignee]}} "{{@me}}"`
+`gh issue create {{[-t|--title]}} "{{title}}" {{[-b|--body]}} "{{body}}" {{[-a|--assignee]}} "@me"`
 
 - Create a new issue interactively, reading the body text from a file:
 
@@ -29,4 +29,4 @@
 
 - Display help:
 
-`gh issue create --help`
+`gh issue create {{[-h|--help]}}`

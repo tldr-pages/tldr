@@ -17,7 +17,7 @@
 
 - List the last 10 issues with the `bug` label:
 
-`gh issue list {{[-L|--limit]}} {{10}} {{[-l|--label]}} "{{bug}}"`
+`gh issue list {{[-L|--limit]}} 10 {{[-l|--label]}} "bug"`
 
 - List closed issues made by a specific user:
 

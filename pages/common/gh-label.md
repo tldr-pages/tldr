@@ -29,4 +29,4 @@
 
 - Display help for a subcommand:
 
-`gh label {{subcommand}} --help`
+`gh label {{subcommand}} {{[-h|--help]}}`
