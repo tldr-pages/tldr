@@ -10,7 +10,7 @@
 
 - Check out a specific pull request locally:
 
-`gh {{[co|pr checkout]}} {{pr_number}}`
+`gh {{[co|pr checkout]}} {{pr_number|url|branch}}`
 
 - View the changes made in the pull request for the current branch:
 

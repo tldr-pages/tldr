@@ -30,7 +30,7 @@
 
 - Check out a specific pull request locally:
 
-`gh pr checkout {{pr_number}}`
+`gh {{[co|pr checkout]}} {{pr_number|url|branch}}`
 
 - Check the status of a repository's pull requests:
 
