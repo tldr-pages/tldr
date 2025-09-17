@@ -13,7 +13,7 @@
 
 - Ignore specific files:
 
-`nodemon --ignore {{path/to/file_or_directory}}`
+`nodemon {{[-i|--ignore]}} {{path/to/file_or_directory}}`
 
 - Pass arguments to the node application:
 
@@ -25,8 +25,8 @@
 
 - Run an arbitrary non-node script:
 
-`nodemon --exec "{{command_to_run_script}} {{options}}" {{path/to/script}}`
+`nodemon {{[-x|--exec]}} "{{command_to_run_script}} {{options}}" {{path/to/script}}`
 
 - Run a Python script:
 
-`nodemon --exec "python {{options}}" {{path/to/file.py}}`
+`nodemon {{[-x|--exec]}} "python {{options}}" {{path/to/file.py}}`
