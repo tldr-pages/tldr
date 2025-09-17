@@ -26,7 +26,7 @@
 
 - Exécuter une commande en utilisant un fichier d'inventaire personnalisé :
 
-`ansible {{groupe}} {{[-i|--inventory|--inventory-file]}} {{fichier_d'inventaire}} {{[-m|--module-name]}} command {{[-a|--args]}} '{{ma_commande}}'`
+`ansible {{groupe}} {{[-i|--inventory]}} {{fichier_d'inventaire}} {{[-m|--module-name]}} command {{[-a|--args]}} '{{ma_commande}}'`
 
 - Lister les groupes d'un inventaire :
 

@@ -26,7 +26,7 @@
 
 - Executa um comando usando um arquivos de inventário customizado:
 
-`ansible {{grupo}} {{[-i|--inventory|--inventory-file]}} {{arquivo_inventario}} {{[-m|--module-name]}} command {{[-a|--args]}} '{{meu_comando}}'`
+`ansible {{grupo}} {{[-i|--inventory]}} {{arquivo_inventario}} {{[-m|--module-name]}} command {{[-a|--args]}} '{{meu_comando}}'`
 
 - Lista os grupos presentes em um inventário:
 

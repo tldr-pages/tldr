@@ -26,7 +26,7 @@
 
 - 사용자 정의 인벤토리 파일을 사용하여 명령어 실행:
 
-`ansible {{그룹}} {{[-i|--inventory|--inventory-file]}} {{인벤토리_파일}} {{[-m|--module-name]}} command {{[-a|--args]}} '{{나의_명령어}}'`
+`ansible {{그룹}} {{[-i|--inventory]}} {{인벤토리_파일}} {{[-m|--module-name]}} command {{[-a|--args]}} '{{나의_명령어}}'`
 
 - 인벤토리의 그룹을 나열:
 
