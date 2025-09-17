@@ -36,3 +36,7 @@
 - View all past operations:
 
 `dnf {{[hist|history]}}`
+
+- Automatically removes all the unneccessary packages:
+
+`sudo dnf autoremove`
