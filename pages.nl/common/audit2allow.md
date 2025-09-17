@@ -2,7 +2,7 @@
 
 > Scan logs voor berichten over geweigerde machtigingen.
 > Genereer een rapport met Type Enforcement (TE) regels die succesvolle bewerkingen mogelijk toestaan.
-> Bekijk ook: `audit2why`.
+> Zie ook: `audit2why`.
 > Meer informatie: <https://manned.org/audit2allow>.
 
 - Toon alle gegenereerde berichten in audit- en berichtlogs:

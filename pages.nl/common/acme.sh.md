@@ -1,7 +1,7 @@
 # acme.sh
 
 > Shell-script dat het ACME-clientprotocol implementeert, een alternatief voor `certbot`.
-> Bekijk ook `acme.sh dns`.
+> Zie ook: `acme.sh dns`.
 > Meer informatie: <https://github.com/acmesh-official/acme.sh>.
 
 - Geef een certificaat uit met behulp van de webroot-modus:

@@ -1,7 +1,7 @@
 # look
 
 > Toon regels die beginnen met een prefix in een gesorteerd bestand.
-> Bekijk ook: `grep`, `sort`.
+> Zie ook: `grep`, `sort`.
 > Meer informatie: <https://man.freebsd.org/cgi/man.cgi?look>.
 
 - Zoek naar regels die beginnen met een specifieke prefix in een specifiek bestand:
