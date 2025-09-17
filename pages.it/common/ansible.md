@@ -27,7 +27,7 @@
 
 - Esegui un comando usando un file di inventory personalizzato:
 
-`ansible {{gruppo}} {{[-i|--inventory]}} {{file_inventory}} {{[-m|--module-name]}} command {{[-a|--args]}} '{{comando}}'`
+`ansible {{gruppo}} {{[-i|--inventory|--inventory-file]}} {{file_inventory}} {{[-m|--module-name]}} command {{[-a|--args]}} '{{comando}}'`
 
 - Elenca i gruppi in un inventory:
 

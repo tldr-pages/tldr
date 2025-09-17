@@ -26,7 +26,7 @@
 
 - 使用自定义的清单文件执行一个命令：
 
-`ansible {{组}} {{[-i|--inventory]}} {{清单文件}} {{[-m|--module-name]}} command {{[-a|--args]}} '{{命令}}'`
+`ansible {{组}} {{[-i|--inventory|--inventory-file]}} {{清单文件}} {{[-m|--module-name]}} command {{[-a|--args]}} '{{命令}}'`
 
 - 列出清单中的组：
 

@@ -26,7 +26,7 @@
 
 - Jalankan perintah menggunakan berkas [i]nventaris tertentu:
 
-`ansible {{grup}} {{[-i|--inventory]}} {{file_inventaris}} {{[-m|--module-name]}} command {{[-a|--args]}} '{{perintah_saya}}'`
+`ansible {{grup}} {{[-i|--inventory|--inventory-file]}} {{file_inventaris}} {{[-m|--module-name]}} command {{[-a|--args]}} '{{perintah_saya}}'`
 
 - Tampilkan daftar grup dalam sebuah inventaris:
 

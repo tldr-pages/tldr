@@ -26,7 +26,7 @@
 
 - Führe einen Befehl mit einer benutzerdefinierten Inventardatei aus:
 
-`ansible {{Gruppe}} {{[-i|--inventory]}} {{inventardatei}} {{[-m|--module-name]}} command {{[-a|--args]}} '{{befehl}}'`
+`ansible {{Gruppe}} {{[-i|--inventory|--inventoy-file]}} {{inventardatei}} {{[-m|--module-name]}} command {{[-a|--args]}} '{{befehl}}'`
 
 - Liste alle Gruppen eines Inventars auf:
 
