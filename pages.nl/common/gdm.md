@@ -1,7 +1,7 @@
 # gdm
 
 > De GNOME Display Manager (GDM) is een vervanging voor de X Display Manager (XDM).
-> Bekijk ook: `gdm-binary`, `gdmsetup`, `gdm-stop`, `gdm-restart`, `gdm-safe-restart`.
+> Zie ook: `gdm-binary`, `gdmsetup`, `gdm-stop`, `gdm-restart`, `gdm-safe-restart`.
 > Meer informatie: <https://manned.org/gdm>.
 
 - Voer de GNOME Display Manager-applicatie uit:
@@ -24,6 +24,6 @@
 
 `gdm --help`
 
-- Toon versie:
+- Toon de versie:
 
 `gdm --version`

@@ -9,12 +9,12 @@
 
 - Display information for a local package only:
 
-`choco info {{package}} --local-only`
+`choco info {{package}} {{[-l|--local-only]}}`
 
 - Specify a custom source to receive packages information from:
 
-`choco info {{package}} --source {{source_url|alias}}`
+`choco info {{package}} {{[-s|--source]}} {{source_url|alias}}`
 
 - Provide a username and password for authentication:
 
-`choco info {{package}} --user {{username}} --password {{password}}`
+`choco info {{package}} {{[-u|--user]}} {{username}} {{[-p|--password]}} {{password}}`

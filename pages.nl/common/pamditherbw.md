@@ -1,7 +1,7 @@
 # pamditherbw
 
 > Pas dithering toe op een grijze afbeelding, zet het bijvoorbeeld om in een patroon van een zwarte en witte pixels die eruitzien als de originele grijstinten.
-> Bekijk ook: `pbmreduce`.
+> Zie ook: `pbmreduce`.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/pamditherbw.html>.
 
 - Lees een PGM afbeelding, pas dithering toe en sla het op naar een bestand:

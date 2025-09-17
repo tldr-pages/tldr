@@ -1,7 +1,7 @@
 # magick import
 
 > Leg een deel of het geheel van een X server scherm vast en sla de afbeelding op in een bestand.
-> Bekijk ook: `magick`.
+> Zie ook: `magick`.
 > Meer informatie: <https://imagemagick.org/script/import.php>.
 
 - Leg het hele X server scherm vast in een PostScript bestand:

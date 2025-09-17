@@ -9,7 +9,7 @@
 
 - Escanea una organización de GitHub en busca de secretos verificados:
 
-`trufflehog github --org={{trufflesecurity}} --only-verified`
+`trufflehog github --org {{trufflesecurity}} --only-verified`
 
 - Escanea un repositorio de GitHub en busca de claves verificadas y genera un archivo de salida JSON:
 
@@ -17,15 +17,15 @@
 
 - Escanea un repositorio de GitHub junto con sus incidencias y solicitudes de extracción:
 
-`trufflehog github --repo={{https://github.com/trufflesecurity/test_keys}} --issue-comments --pr-comments`
+`trufflehog github --repo {{https://github.com/trufflesecurity/test_keys}} --issue-comments --pr-comments`
 
 - Escanea un cubo S3 en busca de claves verificadas:
 
-`trufflehog s3 --bucket={{nombre_del_cubo}} --only-verified`
+`trufflehog s3 --bucket {{nombre_del_cubo}} --only-verified`
 
 - Escanea cubos S3 utilizando roles IAM:
 
-`trufflehog s3 --role-arn={{iam-role-arn}}`
+`trufflehog s3 --role-arn {{iam-role-arn}}`
 
 - Escanea archivos o directorios individuales:
 

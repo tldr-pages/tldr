@@ -1,7 +1,7 @@
 # bc
 
 > Een rekenmachinetaal met willekeurige precisie.
-> Bekijk ook: `dc`.
+> Zie ook: `dc`.
 > Meer informatie: <https://keith.github.io/xcode-man-pages/bc.1.html>.
 
 - Start een interactieve sessie:

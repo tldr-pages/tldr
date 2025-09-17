@@ -17,7 +17,7 @@
 
 - Muestra los cambios de todos los confirmados desde una fecha/hora dada (una expresión de fecha, por ejemplo "1 week 2 days" o una fecha ISO):
 
-`git diff 'HEAD@{3 months|weeks|days|hours|seconds ago}'`
+`git diff 'HEAD@{{{3 months|weeks|days|hours|seconds ago}}}'`
 
 - Muestra estadísticas de diff, como archivos cambiados, histograma y total de inserciones/eliminaciones de líneas:
 
@@ -29,7 +29,7 @@
 
 - Compara un único archivo entre dos ramas o confirmaciones:
 
-`git diff {{rama_1}}..{{rama_2}} [--] {{ruta/al/archivo}}`
+`git diff {{rama_1}}..{{rama_2}} {{ruta/al/archivo}}`
 
 - Compara distintos archivos de la rama actual con otra rama:
 
