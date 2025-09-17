@@ -1,6 +1,6 @@
 # git subtree
 
-> Merge subtrees together or split repository into subtrees
+> Merge subtrees together or split repository into subtrees.
 > More information: <https://manned.org/git-subtree>.
 
 - Add a Git repository as a subtree amd squash the commits together:
