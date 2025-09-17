@@ -11,6 +11,10 @@
 
 `git show {{commit|tag|branch}}`
 
+- Show only the list of added, renamed or deleted files:
+
+`git show --summary {{commit}}`
+
 - Show information about the 3rd commit from the HEAD of a branch:
 
 `git show {{branch}}~{{3}}`
@@ -26,10 +30,6 @@
 - Show a simplified list of all files changed in a commit (modified, added, and deleted):
 
 `git show --name-only {{commit}}`
-
-- Show only the list of added, renamed or deleted files:
-
-`git show --summary {{commit}}`
 
 - Show the contents of a file as it was at a given revision (e.g. branch, tag or commit):
 
