@@ -1,7 +1,7 @@
 # nodemon
 
 > Watch files and automatically restart a node application when changes are detected.
-> More information: <https://nodemon.io>.
+> More information: <https://github.com/remy/nodemon/tree/main/doc/cli>.
 
 - Execute the specified file and watch a specific file for changes:
 
