@@ -13,12 +13,12 @@
 
 - Instala pacotes listados em um arquivo:
 
-`pip install -r {{requirements.txt}}`
+`pip install {{[-r|--requirement]}} {{requirements.txt}}`
 
 - Instala pacotes a partir de uma URL ou arquivo local (.tar.gz | .whl):
 
-`pip install --find-links {{url|caminho/do/arquivo}}`
+`pip install {{[-f|--find-links]}} {{url|caminho/do/arquivo}}`
 
 - Instala o pacote local no diretório atual no modo de desenvolvimento (editável):
 
-`pip install --editable {{.}}`
+`pip install {{[-e|--editable]}} {{.}}`

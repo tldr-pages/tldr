@@ -13,7 +13,7 @@
 
 - 패키지 업그레이드:
 
-`pip3 install --upgrade {{패키지}}`
+`pip3 install {{[-U|--upgrade]}} {{패키지}}`
 
 - 패키지 제거:
 
@@ -25,7 +25,7 @@
 
 - 파일에서 패키지 설치:
 
-`pip3 install --requirement {{requirements.txt}}`
+`pip3 install {{[-r|--requirement]}} {{requirements.txt}}`
 
 - 설치된 패키지 정보 표시:
 
