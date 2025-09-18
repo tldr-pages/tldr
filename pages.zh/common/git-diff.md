@@ -17,7 +17,7 @@
 
 - 显示过去某段时间内所有提交的变更（日期表达式如“1 week 2 days”或 ISO 日期）：
 
-`git diff 'HEAD@{3 months|weeks|days|hours|seconds ago}'`
+`git diff 'HEAD@{{{3 months|weeks|days|hours|seconds ago}}}'`
 
 - 显示差异统计信息（如文件变更列表、直方图及总行数增删）：
 
@@ -29,7 +29,7 @@
 
 - 比较两个分支或提交之间的单个文件：
 
-`git diff {{分支1}}..{{分支2}} [--] {{路径/到/文件}}`
+`git diff {{分支1}}..{{分支2}} {{路径/到/文件}}`
 
 - 将当前分支的某文件与其他分支的对应文件进行对比：
 

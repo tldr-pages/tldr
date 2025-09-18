@@ -10,7 +10,7 @@
 
 - Inicia e acompanha um diretório específico por novos torrents:
 
-`transmission-daemon --watch-dir {{caminho/para/diretorio}}`
+`transmission-daemon {{[-c|--watch-dir]}} {{caminho/para/diretorio}}`
 
 - Despeja configurações do daemon em formato JSON:
 
@@ -18,4 +18,4 @@
 
 - Inicia com configurações específicas para a interface web:
 
-`transmission-daemon --auth --username {{usuario}} --password {{senha}} --port {{9091}} --allowed {{127.0.0.1}}`
+`transmission-daemon {{[-t|--auth]}} {{[-u|--username]}} {{usuario}} {{[-v|--password]}} {{senha}} {{[-p|--port]}} {{9091}} {{[-a|--allowed]}} {{127.0.0.1}}`
