@@ -13,12 +13,12 @@
 
 - List packages installed in a given path:
 
-`conda list {{[-p|--prefix]}} {{path}}`
+`conda list {{[-p|--prefix]}} {{path/to/environment}}`
 
-- Filter installed packages by regex:
+- Filter installed packages by `regex`:
 
 `conda list {{regex}}`
 
 - Save packages for future use:
 
-`conda list {{[-e|--export]}} > {{package-list.txt}}`
+`conda list {{[-e|--export]}} > {{path/to/package-list.txt}}`
