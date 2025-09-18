@@ -22,4 +22,3 @@
 - Remove a user on the server with address 127.0.0.1 on port 4321 as user "admin" :
 
 `dropuser --username=admin --host=127.0.0.1 --port=4321 {{username}}`
-
