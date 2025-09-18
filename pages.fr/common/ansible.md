@@ -10,24 +10,24 @@
 
 - Ping d'un groupe d'hôtes en invoquant le [m]odule "ping" :
 
-`ansible {{groupe}} -m ping`
+`ansible {{groupe}} {{[-m|--module-name]}} ping`
 
 - Afficher des informations sur un groupe d'hôtes en invoquant le [m]odule "setup" :
 
-`ansible {{groupe}} -m setup`
+`ansible {{groupe}} {{[-m|--module-name]}} setup`
 
 - Exécuter une commande sur un groupe d'hôtes en invoquant le [m]odule "command" avec en paramètre (a) cette commande :
 
-`ansible {{groupe}} -m command -a '{{ma_commande}}'`
+`ansible {{groupe}} {{[-m|--module-name]}} command {{[-a|--args]}} '{{ma_commande}}'`
 
 - Exécuter une commande avec des droits administrateur :
 
-`ansible {{groupe}} --become --ask-become-pass -m command -a '{{ma_commande}}'`
+`ansible {{groupe}} {{[-b|--become]}} --ask-become-pass {{[-m|--module-name]}} command {{[-a|--args]}} '{{ma_commande}}'`
 
 - Exécuter une commande en utilisant un fichier d'inventaire personnalisé :
 
-`ansible {{groupe}} -i {{fichier_d'inventaire}} -m command -a '{{ma_commande}}'`
+`ansible {{groupe}} {{[-i|--inventory]}} {{fichier_d'inventaire}} {{[-m|--module-name]}} command {{[-a|--args]}} '{{ma_commande}}'`
 
 - Lister les groupes d'un inventaire :
 
-`ansible localhost -m debug -a '{{var=groups.keys()}}'`
+`ansible localhost {{[-m|--module-name]}} debug {{[-a|--args]}} '{{var=groups.keys()}}'`
