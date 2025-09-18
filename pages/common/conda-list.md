@@ -9,16 +9,16 @@
 
 - List packages in the named environment:
 
-`conda list -n <environment>`
+`conda list {{[-n|--name]}} {{environment}}`
 
 - List packages installed in a given path:
 
-`conda list -p <path>`
+`conda list {{[-p|--prefix]}} {{path}}`
 
 - Filter installed packages by regex:
 
-`conda list <regex>`
+`conda list {{regex}}`
 
 - Save packages for future use:
 
-`conda list --export > package-list.txt`
+`conda list {{[-e|--export]}} > {{package-list.txt}}`
