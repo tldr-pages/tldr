@@ -18,3 +18,7 @@
 - Split a file with at most 512 bytes in each split without breaking lines:
 
 `split {{[-C|--line-bytes]}} 512 {{path/to/file}}`
+
+- Split into multi files from stdin:
+
+`gzip --stdout -d {{path/to/compressed_file.gz}} | split --lines 1000 - split/`
