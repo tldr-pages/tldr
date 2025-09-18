@@ -10,24 +10,24 @@
 
 - Uji koneksi (ping) kepada grup perangkat tertentu dengan menggunakan [m]odul ping:
 
-`ansible {{grup}} -m ping`
+`ansible {{grup}} {{[-m|--module-name]}} ping`
 
 - Tampilkan informasi faktual tentang suatu grup perangkat dengan menggunakan [m]odul setup:
 
-`ansible {{grup}} -m setup`
+`ansible {{grup}} {{[-m|--module-name]}} setup`
 
 - Jalankan perintah pada suatu kelompok perangkat melalui [m]odul command dengan kumpulan [a]rgumen:
 
-`ansible {{grup}} -m command -a '{{perintah_saya}}'`
+`ansible {{grup}} {{[-m|--module-name]}} command {{[-a|--args]}} '{{perintah_saya}}'`
 
 - Jalankan perintah dengan hak akses administratif:
 
-`ansible {{grup}} --become --ask-become-pass -m command -a '{{perintah_saya}}'`
+`ansible {{grup}} {{[-b|--become]}} --ask-become-pass {{[-m|--module-name]}} command {{[-a|--args]}} '{{perintah_saya}}'`
 
 - Jalankan perintah menggunakan berkas [i]nventaris tertentu:
 
-`ansible {{grup}} -i {{file_inventaris}} -m command -a '{{perintah_saya}}'`
+`ansible {{grup}} {{[-i|--inventory]}} {{file_inventaris}} {{[-m|--module-name]}} command {{[-a|--args]}} '{{perintah_saya}}'`
 
 - Tampilkan daftar grup dalam sebuah inventaris:
 
-`ansible localhost -m debug -a '{{var=groups.keys()}}'`
+`ansible localhost {{[-m|--module-name]}} debug {{[-a|--args]}} '{{var=groups.keys()}}'`

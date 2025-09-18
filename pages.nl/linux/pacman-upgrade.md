@@ -1,7 +1,7 @@
 # pacman --upgrade
 
 > Arch Linux pakketbeheer hulpprogramma.
-> Bekijk ook: `pacman`.
+> Zie ook: `pacman`.
 > Meer informatie: <https://manned.org/pacman.8>.
 
 - Installeer een of meerdere pakketten vanuit bestanden:

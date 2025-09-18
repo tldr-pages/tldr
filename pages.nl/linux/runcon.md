@@ -1,7 +1,7 @@
 # runcon
 
 > Voer een programma uit in een andere SELinux-beveiligingscontext.
-> Bekijk ook: `secon`.
+> Zie ook: `secon`.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/runcon-invocation.html>.
 
 - Toon de beveiligingscontext van de huidige uitvoeringscontext:

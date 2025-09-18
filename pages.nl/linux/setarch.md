@@ -20,6 +20,6 @@
 
 `setarch --list`
 
-- Toon help:
+- Toon de help:
 
 `setarch {{[-h|--help]}}`

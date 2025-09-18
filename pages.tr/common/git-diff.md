@@ -17,7 +17,7 @@
 
 - Belirtilen bir tarihten itibaren yapılmış tüm commit'lerdeki değişiklikleri göster:
 
-`git diff 'HEAD@{3 months|weeks|days|hours|seconds ago}'`
+`git diff 'HEAD@{{{3 months|weeks|days|hours|seconds ago}}}'`
 
 - Belirtilen bir commit'ten itibaren yalnızca üzerinde değişiklik yapılmış dosyaların ismini göster:
 
@@ -29,7 +29,7 @@
 
 - Tek bir dosyayı iki dal veya commit arasında karşılaştır:
 
-`git diff {{dal_1}}..{{dal_2}} [--] {{örnek/dosya}}`
+`git diff {{dal_1}}..{{dal_2}} {{örnek/dosya}}`
 
 - Mevcut daldaki farklı dosyaları başka bir daldakilerle karşılaştır:
 

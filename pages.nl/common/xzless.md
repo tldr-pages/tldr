@@ -1,7 +1,7 @@
 # xzless
 
 > Tekst weergeven van `xz` en `lzma` gecomprimeerde bestanden.
-> Bekijk ook: `less`.
+> Zie ook: `less`.
 > Meer informatie: <https://manned.org/xzless>.
 
 - Bekijk een gecomprimeerd bestand:

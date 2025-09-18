@@ -1,7 +1,7 @@
 # more
 
 > Toon een bestand interactief, met de mogelijkheid om te scrollen en te zoeken.
-> Bekijk ook: `less`.
+> Zie ook: `less`.
 > Meer informatie: <https://manned.org/more.1p>.
 
 - Open een bestand:
