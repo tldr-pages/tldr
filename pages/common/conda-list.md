@@ -1,4 +1,4 @@
-# conda-list
+# conda list
 
 > List installed packages in a conda environment.
 > More information: <https://docs.conda.io/projects/conda/en/stable/commands/list.html>.
