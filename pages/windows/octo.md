@@ -17,4 +17,4 @@
 
 - Deploy a release:
 
-`octo deploy-release --project={{project_name}} --packageversion {{version}} --deployto {{environment_name}} --tenant {{deployment_target}}`
+`octo deploy-release --project {{project_name}} --packageversion {{version}} --deployto {{environment_name}} --tenant {{deployment_target}}`
