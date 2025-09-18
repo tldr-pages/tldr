@@ -9,8 +9,8 @@
 
 - Display the function name, filename and line number:
 
-`addr2line --exe {{path/to/executable}} --functions {{address}}`
+`addr2line {{[-e|--exe]}} {{path/to/executable}} {{[-f|--functions]}} {{address}}`
 
 - Demangle the function name for C++ code:
 
-`addr2line --exe {{path/to/executable}} --functions --demangle {{address}}`
+`addr2line {{[-e|--exe]}} {{path/to/executable}} {{[-f|--functions]}} {{[-C|--demangle]}} {{address}}`
