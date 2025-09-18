@@ -1,7 +1,7 @@
 # gh copilot
 
 > Interact with GitHub Copilot.
-> More information: <https://github.com/github/gh-copilot?tab=readme-ov-file#usage>.
+> More information: <https://github.com/github/gh-copilot#usage>.
 
 - Suggest a command, given a description:
 
