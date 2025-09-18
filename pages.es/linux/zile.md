@@ -1,7 +1,7 @@
 # zile
 
 > Una versión ligera del editor de texto Emacs.
-> Más información: <https://www.gnu.org/software/zile/>.
+> Más información: <https://manned.org/zile>.
 
 - Inicia un búfer para notas temporales, las cuales no serán guardadas:
 
