@@ -5,12 +5,12 @@
 
 - Muestra el nombre de archivo y el número de línea del código fuente desde una dirección de instrucción de un ejecutable:
 
-`addr2line --exe {{ruta/a/ejecutable}} {{dirección}}`
+`addr2line {{[-e|--exe]}} {{path/to/executable}} {{address}}`
 
 - Muestra el nombre de la función, nombre de archivo y número de línea:
 
-`addr2line --exe {{ruta/a/ejecutable}} --functions {{dirección}}`
+`addr2line {{[-e|--exe]}} {{path/to/executable}} {{[-f|--functions]}} {{address}}`
 
 - Decodifica (demangle) el nombre de la función para código C++:
 
-`addr2line --exe {{ruta/a/ejecutable}} --functions --demangle {{dirección}}`
+`addr2line {{[-e|--exe]}} {{path/to/executable}} {{[-f|--functions]}} {{[-C|--demangle]}} {{address}}`
