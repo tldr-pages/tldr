@@ -5,7 +5,7 @@
 
 - Prompt for confirmation and the username before user removal:
 
-`dropuser --interactive`
+`dropuser {{[-i|--interactive]}}`
 
 - Remove user instantly:
 
