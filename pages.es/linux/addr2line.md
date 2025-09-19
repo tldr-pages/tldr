@@ -13,4 +13,4 @@
 
 - Decodifica (demangle) el nombre de la función para código C++:
 
-`addr2line {{[-e|--exe]}} {{path/to/executable}} {{[-f|--functions]}} {{[-C|--demangle]}} {{address}}`
+`addr2line {{[-e|--exe]}} {{ruta/a/ejecutable}} {{[-f|--functions]}} {{[-C|--demangle]}} {{address}}`
