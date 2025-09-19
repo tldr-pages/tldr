@@ -15,7 +15,7 @@
 
 `conda list {{[-p|--prefix]}} {{path/to/environment}}`
 
-- Filter installed packages by `regex`:
+- Filter installed packages using `regex`:
 
 `conda list {{regex}}`
 
