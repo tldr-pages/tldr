@@ -7,10 +7,6 @@
 
 `ibmcloud update`
 
-- Install the Cloud Foundry module for accessing Cloud Foundry services:
-
-`ibmcloud cf install`
-
 - List all available IBM Cloud regions:
 
 `ibmcloud regions`
