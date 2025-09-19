@@ -32,6 +32,6 @@
 
 `asciinema {{[u|upload]}} {{ruta/a/grabación.cast}}`
 
-Transmite la sesión actual de la terminal en una página web local:
+- Transmite la sesión actual de la terminal en una página web local:
 
 `asciinema {{[st|stream]}} --local`
