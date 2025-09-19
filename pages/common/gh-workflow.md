@@ -21,7 +21,7 @@
 
 - List workflow files (use `--all` to include disabled workflows):
 
-`gh workflow list`
+`gh workflow {{[ls|list]}}`
 
 - Run a manual workflow with parameters:
 

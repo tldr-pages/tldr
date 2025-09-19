@@ -14,11 +14,11 @@
 
 - Run the "marquee" screensaver with a specific text and font:
 
-`gh screensaver {{[-s|--saver]}} {{marquee}} -- --message="{{message}}" --font={{font_name}}`
+`gh screensaver {{[-s|--saver]}} marquee -- --message="{{message}}" --font={{font_name}}`
 
 - Run the "starfield" screensaver with a specific density and speed:
 
-`gh screensaver {{[-s|--saver]}} {{starfield}} -- --density {{500}} --speed {{10}}`
+`gh screensaver {{[-s|--saver]}} starfield -- --density {{500}} --speed {{10}}`
 
 - List available screensavers:
 

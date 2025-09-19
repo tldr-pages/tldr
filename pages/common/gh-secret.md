@@ -5,15 +5,15 @@
 
 - List secret keys for the current repository:
 
-`gh secret list`
+`gh secret {{[ls|list]}}`
 
 - List secret keys for a specific organization:
 
-`gh secret list {{[-o|--org]}} {{organization}}`
+`gh secret {{[ls|list]}} {{[-o|--org]}} {{organization}}`
 
 - List secret keys for a specific repository:
 
-`gh secret list {{[-R|--repo]}} {{owner}}/{{repository}}`
+`gh secret {{[ls|list]}} {{[-R|--repo]}} {{owner}}/{{repository}}`
 
 - Set a secret for the current repository (user will be prompted for the value):
 
