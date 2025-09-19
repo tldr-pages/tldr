@@ -8,7 +8,7 @@
 
 `asciinema auth`
 
-- Haz una nueva grabación y guárdala en un archivo local (termínala con `<Ctrl d>` o teclea `exit`):
+- Realiza una nueva grabación y la guarda en un archivo local (presione `<Ctrl d>` o teclea `exit` para finalizar):
 
 `asciinema rec {{ruta/a/grabación.cast}}`
 
@@ -16,7 +16,7 @@
 
 `asciinema play {{ruta/a/grabación.cast}}`
 
-- Reproduce una grabación de terminal alojada en <https://asciinema.org>:
+- Reproduce una grabación de la terminal alojada en <https://asciinema.org>:
 
 `asciinema play https://asciinema.org/a/{{cast_id}}`
 
@@ -31,3 +31,7 @@
 - Carga una sesión de terminal guardada localmente en asciinema.org:
 
 `asciinema upload {{ruta/a/grabación.cast}}`
+
+Transmite la sesión actual de la terminal en una página web local:
+
+`asciinema {{[st|stream]}} --local`
