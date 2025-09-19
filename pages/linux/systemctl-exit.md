@@ -11,6 +11,6 @@
 
 `systemctl --user exit {{code}}`
 
-- Ask the container’s service manager to exit:
+- Ask the container’s service manager to exit (equivalent of `systemctl poweroff` if not in a container):
 
 `systemctl exit`
