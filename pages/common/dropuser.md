@@ -17,7 +17,7 @@
 
 - Remove a user on the server with address 127.0.0.1 on port 4321:
 
-`dropuser -h 127.0.0.1 -p 4321 {{username}}`
+`dropuser {{[-h|--host]}} 127.0.0.1 {{[-p|--port]}} 4321 {{username}}`
 
 - Remove a user on the server with address 127.0.0.1 on port 4321 as user "admin" :
 
