@@ -13,7 +13,7 @@
 
 - 가상 환경에서 설치된 패키지를 나열하고, 전역적으로 설치된 패키지를 제외:
 
-`pip freeze --local > requirements.txt`
+`pip freeze {{[-l|--local]}} > requirements.txt`
 
 - 사용자 사이트에 설치된 패키지 나열:
 
