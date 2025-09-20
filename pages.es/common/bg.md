@@ -8,6 +8,6 @@
 
 `bg`
 
-- Reanuda un trabajo específico y déjalo ejecutarse en segundo plano (usa `jobs` para obtener el número de trabajo):
+- Reanuda un trabajo específico y lo deja ejecutarse en segundo plano (usa `jobs` para obtener el número de trabajo):
 
 `bg %{{numero_de_trabajo}}`
