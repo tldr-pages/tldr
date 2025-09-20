@@ -1,6 +1,6 @@
 # bg
 
-> Reanuda un trabajo suspendido (por ejemplo, usando `<Ctrl z>`) y déjalo ejecutarse en segundo plano.
+> Reanuda un trabajo suspendido (por ejemplo, usando `<Ctrl z>`) y lo deja ejecutándose en segundo plano.
 > Vea también: `jobs`, `fg`, `disown`.
 > Más información: <https://www.gnu.org/software/bash/manual/bash.html#index-bg>.
 
