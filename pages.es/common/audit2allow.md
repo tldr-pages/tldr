@@ -7,7 +7,7 @@
 
 - Muestra todos los mensajes generados en los registros de auditoría y mensajes:
 
-`audit2allow {{[-a|--all]}}`.
+`audit2allow {{[-a|--all]}}`
 
 - Mostrar todos los mensajes generados desde el último arranque:
 
