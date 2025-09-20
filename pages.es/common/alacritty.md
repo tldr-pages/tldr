@@ -26,7 +26,3 @@
 - Utiliza un archivo de configuración alternativo (por defecto es `$XDG_CONFIG_HOME/alacritty/alacritty.toml`):
 
 `alacritty --config-file {{ruta/a/config.toml}}`
-
-- Ejecuta con la recarga de configuración en vivo activada (también puede activarse por defecto en `alacritty.toml`):
-
-`alacritty --live-config-reload --config-file {{ruta/a/config.toml}}`
