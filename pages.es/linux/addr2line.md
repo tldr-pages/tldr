@@ -9,7 +9,7 @@
 
 - Muestra el nombre de la función, nombre de archivo y número de línea:
 
-`addr2line {{[-e|--exe]}} {{path/to/executable}} {{[-f|--functions]}} {{address}}`
+`addr2line {{[-e|--exe]}} {{ruta/a/ejecutable}} {{[-f|--functions]}} {{address}}`
 
 - Decodifica (demangle) el nombre de la función para código C++:
 
