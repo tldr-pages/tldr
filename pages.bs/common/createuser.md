@@ -1,7 +1,7 @@
 # createuser
 
 > Napravi PostgreSQL koristnika (uloga).
-> Više Informacija: <https://www.postgresql.org/docs/current/app-createuser.html>.
+> Više informacija: <https://www.postgresql.org/docs/current/app-createuser.html>.
 
 - Stvori koristnika interaktivno:
 
