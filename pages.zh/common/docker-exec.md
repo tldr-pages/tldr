@@ -13,7 +13,7 @@
 
 - 指定要运行命令的运行目录：
 
-`docker exec {{[-it|--interactive --tty]}} {{[-w|--workdir]}} {{路径/到/文件夹}} {{容器_名}} {{命令}}`
+`docker exec {{[-it|--interactive --tty]}} {{[-w|--workdir]}} {{路径/到/文件夹}} {{容器_名称}} {{命令}}`
 
 - 在现存容器内部，后台执行一个命令，但是保持 `stdin` 开启：
 
