@@ -1,7 +1,7 @@
 # codecrafters
 
 > 복잡한 소프트웨어 구현을 연습.
-> 더 많은 정보: <https://codecrafters.io/>.
+> 더 많은 정보: <https://docs.codecrafters.io/cli/usage>.
 
 - 변경 사항을 적용하지 않고, 테스트를 실행:
 
@@ -14,3 +14,7 @@
 - 변경 사항을 커밋하고 제출하여, 다음 단계로 이동함:
 
 `codecrafters submit`
+
+- 언어 버전 업데이트:
+
+`codecrafters update-buildpack`
