@@ -4,7 +4,7 @@
 > Vea también: `jobs`, `fg`, `disown`.
 > Más información: <https://www.gnu.org/software/bash/manual/bash.html#index-bg>.
 
-- Reanuda el último trabajo suspendido y déjalo ejecutarse en segundo plano:
+- Reanuda el último trabajo suspendido y lo deja ejecutándose en segundo plano:
 
 `bg`
 
