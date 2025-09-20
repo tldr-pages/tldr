@@ -95,7 +95,7 @@ function strip_commands() {
 
   mapfile -t stripped_commands < <(
     grep "$regex" "$file" | 
-    sed 's/{{[^}]*}}/{{}}/g' | 
+    sed -E 's/\{\{([^}]|(\{[^}]*\}))*\}\}/{{}}/g' | 
     sed 's/<[^>]*>//g' | 
     sed 's/([^)]*)//g' | 
     sed 's/"[^"]*"/""/g' | 
