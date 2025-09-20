@@ -9,12 +9,12 @@
 
 - Add a Git repository as a submodule:
 
-`git submodule add {{repository_url}}`
+`git submodule add --branch main {{repository_url}}`
 
 - Add a Git repository as a submodule at the specified directory:
 
-`git submodule add {{repository_url}} {{path/to/directory}}`
+`git submodule add --branch main {{repository_url}} {{path/to/directory}}`
 
 - Update every submodule to its latest commit:
 
-`git submodule foreach git pull`
+`git submodule update --init --recursive --remote`
