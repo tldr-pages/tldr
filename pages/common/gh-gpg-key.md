@@ -10,7 +10,7 @@
 
 - Add a GPG key to the authorized GitHub account by specifying the key file:
 
-`gh gpg-key add {{key_file}}`
+`gh gpg-key add {{path/to/key_file}}`
 
 - Add a GPG key to the authorized GitHub account by specifying the key ID:
 
