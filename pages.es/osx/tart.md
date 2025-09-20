@@ -5,23 +5,23 @@
 
 - Extrae una imagen de VM remota:
 
-`tart pull {{acme.io/org/nombre:tag}}`
+`tart pull {{acme.io/org/name:tag}}`
 
 - Clona una VM desde una fuente de imagen local o remota:
 
-`tart clone {{source-vm}} {{nombre-vm}}`
+`tart clone {{source-vm}} {{vm-name}}`
 
 - Crea una nueva Mac VM a partir de un archivo ipsw específico:
 
-`tart create --from-ipsw={{ultima|ruta/al/archivo.ipsw}} {{nombre-de-la-vm}}`
+`tart create --from-ipsw {{latest|path/to/file.ipsw}} {{vm-name}}`
 
 - Ejecuta una máquina virtual existente:
 
-`tart run {{nombre-de-la-vm}}`
+`tart run {{vm-name}}`
 
 - Ejecuta una máquina virtual existente con un directorio específico montado:
 
-`tart run --dir={{ruta/al/directorio}}:{{ruta/a/directorio local}} {{nombre-de-la-vm}}`
+`tart run --dir {{path/to/directory}}:/{{path/to/local_directory}} {{vm-name}}`
 
 - Lista máquinas virtuales:
 
@@ -29,8 +29,8 @@
 
 - Obtén la dirección IP de una máquina virtual en ejecución:
 
-`tart ip {{nombre-de-la-vm}}`
+`tart ip {{vm-name}}`
 
 - Cambia la resolución de pantalla de una máquina virtual:
 
-`tart set {{nombre-de-la-vm}} --display {{640}}x{{400}}`
+`tart set {{vm-name}} --display {{640}}x{{400}}`
