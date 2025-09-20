@@ -6,16 +6,16 @@
 
 - Initialize or mount an encrypted filesystem:
 
-`encfs /{{path/to/cipher_dir}} /{{path/to/mount_point}}`
+`encfs /{{path/to/cipher_directory}} /{{path/to/mount_point}}`
 
 - Initialize an encrypted filesystem with standard settings:
 
-`encfs --standard /{{path/to/cipher_dir}} /{{path/to/mount_point}}`
+`encfs --standard /{{path/to/cipher_directory}} /{{path/to/mount_point}}`
 
 - Run encfs in the foreground instead of spawning a daemon:
 
-`encfs -f /{{path/to/cipher_dir}} /{{path/to/mount_point}}`
+`encfs -f /{{path/to/cipher_directory}} /{{path/to/mount_point}}`
 
 - Mount an encrypted snapshot of a plain directory:
 
-`encfs --reverse {{path/to/plain_dir}} {{path/to/cipher_dir}}`
+`encfs --reverse {{path/to/plain_directory}} {{path/to/cipher_directory}}`

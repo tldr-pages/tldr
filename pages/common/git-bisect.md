@@ -12,7 +12,7 @@
 
 `git bisect {{good|bad}}`
 
-- After `git bisect` pinpoints the faulty commit, end the bisect session and return to the previous branch:
+- End the bisect session and return to the previous branch:
 
 `git bisect reset`
 

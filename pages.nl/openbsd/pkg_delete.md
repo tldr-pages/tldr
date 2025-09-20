@@ -1,7 +1,7 @@
 # pkg_delete
 
 > Verwijder pakketten in OpenBSD.
-> Bekijk ook: `pkg_add`, `pkg_info`.
+> Zie ook: `pkg_add`, `pkg_info`.
 > Meer informatie: <https://man.openbsd.org/pkg_delete>.
 
 - Verwijder een pakket:

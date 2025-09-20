@@ -2,7 +2,7 @@
 
 > Buscador aproximado (fuzzy search) de la línea de comando.
 > Parecido a `sk`.
-> Más información: <https://github.com/junegunn/fzf>.
+> Más información: <https://github.com/junegunn/fzf#usage>.
 
 - Aplica `fzf` a todos los archivos en el directorio especificado:
 
@@ -26,4 +26,4 @@
 
 - Aplica `fzf` en entradas que no coinciden con `pyc` y coinciden exactamente con `travis`:
 
-`fzf {{[-q|--query]}} "!pyc 'travis"`
+`fzf {{[-q|--query]}} "\!pyc 'travis'`

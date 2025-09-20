@@ -25,7 +25,7 @@
 
 - Clona um repositório existente buscando somente os 10 commits mais recentes na branch padrão (útil para salvar tempo):
 
-`git clone --depth {{10}} {{local_do_repositório_remoto}}`
+`git clone --depth 10 {{local_do_repositório_remoto}}`
 
 - Clona um repositório existente buscando somente uma branch específica:
 

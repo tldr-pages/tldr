@@ -1,7 +1,7 @@
 # aa-status
 
 > Toon de momenteel geladen AppArmor-modules.
-> Bekijk ook: `aa-complain`, `aa-disable`, `aa-enforce`.
+> Zie ook: `aa-complain`, `aa-disable`, `aa-enforce`.
 > Meer informatie: <https://gitlab.com/apparmor/apparmor/-/wikis/manpage_aa-status.8>.
 
 - Controleer de status:
