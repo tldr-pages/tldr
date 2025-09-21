@@ -5,10 +5,6 @@
 > Vea también: `at`, `atq`, `atrm` `mail`.
 > Más información: <https://manned.org/batch>.
 
-- Lanza el servicio `atd`:
-
-`systemctl start atd`
-
 - Ejecuta comandos de `stdin` (presiona `<Ctrl d>` cuando hayas finalizado):
 
 `batch`
