@@ -29,4 +29,4 @@
 
 - Find out bundle id:
 
-`osascript -e 'id of app "App Name"'`
+`osascript -e 'id of app "{{App Name}}"'`
