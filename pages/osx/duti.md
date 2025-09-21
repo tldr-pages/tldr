@@ -1,6 +1,7 @@
 # duti
 
 > Set default applications for document types and URL schemes on macOS.
+> See also: `osascript`.
 > More information: <https://github.com/moretension/duti>.
 
 - Set Safari as the default handler for HTML documents:
@@ -26,7 +27,3 @@
 - Display all handlers of a given UTI:
 
 `duti -l {{uti}}`
-
-- Find out bundle id:
-
-`osascript -e 'id of app "{{App Name}}"'`
