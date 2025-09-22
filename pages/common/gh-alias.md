@@ -5,7 +5,7 @@
 
 - List all the aliases `gh` is configured to use:
 
-`gh alias list`
+`gh alias {{[ls|list]}}`
 
 - Create a `gh` subcommand alias:
 

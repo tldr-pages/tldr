@@ -13,15 +13,15 @@
 
 - Create a new issue in the default web browser:
 
-`gh issue create {{[-w|--web]}}`
+`gh issue {{[new|create]}} {{[-w|--web]}}`
 
 - List the last 10 issues with the `bug` label:
 
-`gh issue list {{[-L|--limit]}} {{10}} {{[-l|--label]}} "{{bug}}"`
+`gh issue {{[ls|list]}} {{[-L|--limit]}} 10 {{[-l|--label]}} "bug"`
 
 - List closed issues made by a specific user:
 
-`gh issue list {{[-s|--state]}} closed {{[-A|--author]}} {{username}}`
+`gh issue {{[ls|list]}} {{[-s|--state]}} closed {{[-A|--author]}} {{username}}`
 
 - Display the status of issues relevant to the user, in a specific repository:
 

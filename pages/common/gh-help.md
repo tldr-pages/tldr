@@ -9,7 +9,7 @@
 
 - Display help for the `gh help` subcommand:
 
-`gh help --help`
+`gh help {{[-h|--help]}}`
 
 - Display help about environment variables that can be used with `gh`:
 
