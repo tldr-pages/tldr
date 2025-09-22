@@ -19,6 +19,6 @@
 
 `dnf clean packages`
 
-- Clean up all dnf repository specific metadata and cached files (all of the above):
+- Clean up all DNF repository specific metadata and cached files (all of the above):
 
 `dnf clean all`
