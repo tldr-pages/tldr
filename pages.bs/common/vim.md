@@ -1,6 +1,6 @@
 # vim
 
-> Vim (Vi IMproved), je uređivač teksta za komandnu liniju koji nudi više režima rada za različite vrste manipulacije tekstom. 
+> Vim (Vi IMproved), je uređivač teksta za komandnu liniju koji nudi više režima rada za različite vrste manipulacije tekstom.
 > Pritiskom na `<i>` u normalnom režimu prelazi se u režim umetanja. Pritiskom na `<Esc>` vraćate se u normalni režim, koji omogućava korištenje Vim komande.
 > Pogledajte isto: `vimdiff`, `vimtutor`, `nvim`, `gvim`.
 > Više informacija: <https://www.vim.org>.
