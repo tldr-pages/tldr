@@ -18,7 +18,7 @@
 
 - Ejecuta un archivo con permisos explícitos o permite todo (solo si confías en la fuente):
 
-`deno run {{[--allow-env|--allow-net|--allow-write|--allow-all]}}} {{jsr:@deno/deployctl}}`
+`deno run {{[--allow-env|--allow-net|--allow-write|--allow-all]}} {{jsr:@deno/deployctl}}`
 
 - Lista y ejecuta tareas desde `deno.json` o scripts desde `package.json`:
 
