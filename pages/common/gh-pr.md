@@ -6,11 +6,11 @@
 
 - Create a pull request:
 
-`gh pr create`
+`gh pr {{[new|create]}}`
 
 - Check out a specific pull request locally:
 
-`gh pr checkout {{pr_number}}`
+`gh {{[co|pr checkout]}} {{pr_number|url|branch}}`
 
 - View the changes made in the pull request for the current branch:
 

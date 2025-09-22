@@ -1,21 +1,38 @@
 # audit2allow
 
-> Crea un módulo de política local SELinux para permitir reglas basadas en operaciones denegadas encontradas en los logs.
-> Nota: Utiliza audit2allow con precaución - revisa siempre la directiva generada antes de aplicarla, ya que puede permitir un acceso excesivo.
+> Analiza los registros en busca de mensajes relativos a permisos denegados.
+> Genera un informe de las reglas de Type Enforcement (TE) que podrían permitir operaciones con éxito.
+> Vea también: `audit2why`.
 > Más información: <https://manned.org/audit2allow>.
 
-- Genera una política local para permitir el acceso a todos los servicios denegados:
+- Muestra todos los mensajes generados en los registros de auditoría y mensajes:
 
-`sudo audit2allow --all -M {{nombre_de_la_normativa_local}}`
+`audit2allow {{[-a|--all]}}`
 
-- Genera un módulo de normativa local para conceder acceso a un proceso/servicio/comando específico de los registros de auditoría:
+- Mostrar todos los mensajes generados desde el último arranque:
 
-`sudo grep {{apache2}} /var/log/audit/audit.log | sudo audit2allow -M {{nombre_de_la_normativa_local}}`
+`audit2allow {{[-b|--boot]}}`
 
-- Inspecciona y revisa el archivo Type Enforcement (.te) para una normativa local:
+- Muestra información detallada sobre los mensajes generados:
 
-`vim {{nombre_de_la_normativa_local}}.te`
+`audit2allow {{[-e|--explain]}}`
 
-- Instala un módulo de normativa local:
+- Activa el modo de salida detallada:
 
-`sudo semodule -i {{nombre_de_la_normativa_local}}.pp`
+`audit2allow {{[-v|--verbose]}}`
+
+- Utiliza macros instaladas para generar una política de referencia:
+
+`audit2allow {{[-R|--reference]}}`
+
+- Especifica un archivo de política para su posterior análisis:
+
+`audit2allow {{[-p|--policy]}} {{ruta/a/archivo_de_directiva}}`
+
+- Limita el análisis a los mensajes con un tipo especificado en `regex`:
+
+`audit2allow {{[-t|--type]}} {{tipo_regex}}`
+
+- Muestra la ayuda:
+
+`audit2allow {{[-h|--help]}}`

@@ -10,11 +10,11 @@
 
 - Create a new issue:
 
-`gh issue create`
+`gh issue {{[new|create]}}`
 
 - View and filter the open issues of the current repository:
 
-`gh issue list`
+`gh issue {{[ls|list]}}`
 
 - View an issue in the default web browser:
 
@@ -22,7 +22,7 @@
 
 - Create a pull request:
 
-`gh pr create`
+`gh pr {{[new|create]}}`
 
 - View a pull request in the default web browser:
 
@@ -30,7 +30,7 @@
 
 - Check out a specific pull request locally:
 
-`gh pr checkout {{pr_number}}`
+`gh {{[co|pr checkout]}} {{pr_number|url|branch}}`
 
 - Check the status of a repository's pull requests:
 

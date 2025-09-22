@@ -10,24 +10,24 @@
 
 - Realiza o ping de um grupo de hosts invocando o módulo ping:
 
-`ansible {{grupo}} -m ping`
+`ansible {{grupo}} {{[-m|--module-name]}} ping`
 
 - Exibe fatos sobre um grupo de hosts invocando o módulo setup:
 
-`ansible {{grupo}} -m setup`
+`ansible {{grupo}} {{[-m|--module-name]}} setup`
 
 - Executa um comando em um grupo de hosts invocando o módulo command com argumentos:
 
-`ansible {{grupo}} -m command -a '{{meu_comando}}'`
+`ansible {{grupo}} {{[-m|--module-name]}} command {{[-a|--args]}} '{{meu_comando}}'`
 
 - Executa um comando com privilégios administrativos:
 
-`ansible {{grupo}} --become --ask-become-pass -m command -a '{{meu_comando}}'`
+`ansible {{grupo}} {{[-b|--become]}} --ask-become-pass {{[-m|--module-name]}} command {{[-a|--args]}} '{{meu_comando}}'`
 
 - Executa um comando usando um arquivos de inventário customizado:
 
-`ansible {{grupo}} -i {{arquivo_inventario}} -m command -a '{{meu_comando}}'`
+`ansible {{grupo}} {{[-i|--inventory]}} {{arquivo_inventario}} {{[-m|--module-name]}} command {{[-a|--args]}} '{{meu_comando}}'`
 
 - Lista os grupos presentes em um inventário:
 
-`ansible localhost -m debug -a '{{var=groups.keys()}}'`
+`ansible localhost {{[-m|--module-name]}} debug {{[-a|--args]}} '{{var=groups.keys()}}'`
