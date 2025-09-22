@@ -8,7 +8,7 @@
 
 `gh repo clone {{eigenaar}}/{{repository}}`
 
-- Maak een nieuwe issue aan:
+- Maak een nieuw issue aan:
 
 `gh issue {{[new|create]}}`
 
