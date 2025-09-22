@@ -25,7 +25,7 @@
 
 - Establece una o más variables y ejecuta un programa:
 
-`env {{variable1=valor variable2=valor variable3=valor ...}}  {{programa}}`
+`env {{variable1=value variable2=value variable3=value ...}}  {{programa}}`
 
 - Ejecuta un programa con un nombre diferente:
 
