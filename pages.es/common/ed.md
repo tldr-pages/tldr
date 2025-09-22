@@ -16,7 +16,7 @@
 
 `ed {{[-v|--verbose]}}`
 
-- Inicia una sesión de edición interactiva con un documento vacío y sin diagnósticos, recuento de bytes ni indicaciones '!'
+- Inicia una sesión de edición interactiva con un documento vacío y sin diagnósticos, recuento de bytes ni indicaciones '!':
 
 `ed {{[-q|--quiet]}} {{[-s|--script]}}`
 
