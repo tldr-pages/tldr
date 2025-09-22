@@ -1,6 +1,7 @@
 # lvmsar
 
-> LVM system activity reporter (not supported under LVM2; prefer `dmstats`).
+> LVM system activity reporter.
+> Not supported under LVM2; prefer `dmstats`.
 > More information: <https://manned.org/lvmsar>.
 
 - Run the legacy reporter (LVM1 systems only):
