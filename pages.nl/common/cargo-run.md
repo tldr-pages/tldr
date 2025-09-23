@@ -1,6 +1,6 @@
 # cargo run
 
-> Voer het huidige Cargo-pakket uit:
+> Voer het huidige Cargo-pakket uit.
 > Opmerking: de werkmap van de uitgevoerde binary wordt ingesteld op de huidige werkmap.
 > Meer informatie: <https://doc.rust-lang.org/cargo/commands/cargo-run.html>.
 
