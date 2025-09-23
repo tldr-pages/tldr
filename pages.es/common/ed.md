@@ -10,7 +10,7 @@
 
 - Inicia una sesión de edición interactiva con un documento vacío y un prompt específico:
 
-`ed {{[-p|--prompt]}} “{{> }}”`
+`ed {{[-p|--prompt]}} '{{> }}'`
 
 - Inicia una sesión de edición interactiva con errores de usuario:
 
