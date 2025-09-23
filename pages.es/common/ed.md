@@ -30,8 +30,8 @@
 
 - Reemplaza una cadena con un reemplazo específico para todas las líneas:
 
-`,s/{{regex}}/{{reemplazo}}/g<Intro>`
+`,s/{{regex}}/{{reemplazo}}/g<Enter>`
 
 - Sale de `ed`:
 
-`q<Intro>`
+`q<Enter>`
