@@ -2,11 +2,11 @@
 
 > Download media contents (videos, audios, images) from the Web.
 > See also: `yt-dlp`, `youtube-viewer`, `instaloader`.
-> More information: <https://you-get.org>.
+> More information: <https://you-get.org/#getting-started>.
 
 - Print media information about a specific media on the web:
 
-`you-get --info {{https://example.com/video?id=value}}`
+`you-get {{[-i|--info]}} {{https://example.com/video?id=value}}`
 
 - Download a media from a specific URL:
 
@@ -18,8 +18,8 @@
 
 - Download a media to a specific location:
 
-`you-get --output-dir {{path/to/directory}} --output-filename {{filename}} {{https://example.com/watch?v=value}}`
+`you-get {{[-o|--output-dir]}} {{path/to/directory}} {{[-O|--output-filename]}} {{filename}} {{https://example.com/watch?v=value}}`
 
 - Download a media using a proxy:
 
-`you-get --http-proxy {{proxy_server}} {{https://example.com/watch?v=value}}`
+`you-get {{[-x|--http-proxy]}} {{proxy_server}} {{https://example.com/watch?v=value}}`
