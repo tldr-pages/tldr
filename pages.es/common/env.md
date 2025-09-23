@@ -29,4 +29,4 @@
 
 - Ejecuta un programa con un nombre diferente:
 
-`env {{[-a|--argv0]}} {{nombre_personalizado}} {{program}}`
+`env {{[-a|--argv0]}} {{custom_name}} {{program}}`
