@@ -7,26 +7,26 @@
 
 `env`
 
-- Ejecuta un programa. A menudo se utiliza en scripts después del shebang (#!) para buscar el camino al programa:
+- Ejecuta un programa. A menudo se utiliza en scripts después del shebang (#!) para buscar la ruta al programa:
 
-`env {{programa}}`
+`env {{program}}`
 
-- Limpia el ambiente y ejecuta un programa:
+- Limpia el entorno y ejecuta un programa:
 
-`env {{[-i|--ignore-environment]}} {{programa}}`
+`env {{[-i|--ignore-environment]}} {{program}}`
 
-- Elimina la variable de entorno y ejecuta un programa:
+- Elimina variable del entorno y ejecuta un programa:
 
-`env {{[-u|--unset]}} {{variable}} {{programa}}`
+`env {{[-u|--unset]}} {{variable}} {{program}}`
 
 - Establece una variable y ejecuta un programa:
 
-`env {{variable}}={{value}} {{programa}}`
+`env {{variable}}={valor}} {{program}}`
 
 - Establece una o más variables y ejecuta un programa:
 
-`env {{variable1=value variable2=value variable3=value ...}}  {{programa}}`
+`env {{variable1=valor variable2=valor variable3=valor ...}} {{program}}`
 
 - Ejecuta un programa con un nombre diferente:
 
-`env {{[-a|--argv0]}} {{nombre_personalizado}} {{programa}}`
+`env {{[-a|--argv0]}} {{nombre_personalizado}} {{program}}`
