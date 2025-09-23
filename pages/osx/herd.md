@@ -1,7 +1,7 @@
 # herd
 
 > An official Laravel PHP development environment for macOS.
-> More information: <https://herd.laravel.com>.
+> More information: <https://herd.laravel.com/docs/macos/advanced-usage/herd-cli>.
 
 - Start the Herd services:
 
