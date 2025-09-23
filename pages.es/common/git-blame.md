@@ -25,7 +25,7 @@
 
 - Imprime el nombre del autor y la información del hash de confirmación para un rango de líneas específico:
 
-`git blame -L {{línea_inicial}},{{línea_final}} {{ruta/al/archivo}}`
+`git blame -L {{start_line}},{{end_line}} {{ruta/al/archivo}}`
 
 - Ignora los espacios en blanco y los movimientos de línea:
 
