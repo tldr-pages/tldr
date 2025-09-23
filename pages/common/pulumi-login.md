@@ -11,6 +11,10 @@
 
 `pulumi login {{url}}`
 
-- Use Pulumi locally, independent of a Pulumi Cloud:
+- Use Pulumi locally, independent of a cloud backend:
 
 `pulumi login {{[-l|--local]}}`
+
+- Display help:
+
+`pulumi login {{[-h|--help]}}`
