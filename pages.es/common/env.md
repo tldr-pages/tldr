@@ -21,11 +21,11 @@
 
 - Establece una variable y ejecuta un programa:
 
-`env {{variable}}={valor}} {{program}}`
+`env {{variable}}={value}} {{program}}`
 
 - Establece una o más variables y ejecuta un programa:
 
-`env {{variable1=valor variable2=valor variable3=valor ...}} {{program}}`
+`env {{variable1=value variable2=value variable3=value ...}} {{program}}`
 
 - Ejecuta un programa con un nombre diferente:
 
