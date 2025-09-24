@@ -18,7 +18,7 @@
 
 - View an issue in the default web browser:
 
-`gh issue view {{[-w|--web]}} {{issue_number}}`
+`gh issue view {{[-w|--web]}} {{issue_number|url}}`
 
 - Create a pull request:
 
@@ -26,7 +26,7 @@
 
 - View a pull request in the default web browser:
 
-`gh pr view {{[-w|--web]}} {{pr_number}}`
+`gh pr view {{[-w|--web]}} {{pr_number|url|branch}}`
 
 - Check out a specific pull request locally:
 
