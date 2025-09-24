@@ -1,7 +1,7 @@
 # scrapy
 
 > Web-crawling framework.
-> More information: <https://scrapy.org>.
+> More information: <https://docs.scrapy.org/en/latest/topics/commands.html#using-the-scrapy-tool>.
 
 - Create a project:
 
