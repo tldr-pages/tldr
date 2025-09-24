@@ -15,7 +15,7 @@
 
 `licensor {{MIT}} "{{Bobby Tables}}" > {{LICENSE}}`
 
-- Specify licence exceptions with a WITH expression:
+- Specify license exceptions with a WITH expression:
 
 `licensor "{{Apache-2.0 WITH LLVM-exception}}" > {{LICENSE}}`
 
