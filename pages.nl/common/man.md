@@ -9,11 +9,11 @@
 
 - Open de man pagina voor een commando in een browser (`BROWSER` omgevingsvariabele kan `=browser_name` vervangen):
 
-`man {{[-Hbrowser_name|--html=browser_name]}} {{commando}}`
+`man {{[-H|--html=]}}{{browser_naam}} {{commando}}`
 
 - Toon de handleiding voor een commando uit sectie 7:
 
-`man {{7}} {{commando}}`
+`man 7 {{commando}}`
 
 - Toon alle beschikbare secties voor een commando:
 
