@@ -14,4 +14,3 @@
 - Print status of repos belonging to an organization :
 
 `gh status {{[-o|--org]}} {{organization}}`
-
