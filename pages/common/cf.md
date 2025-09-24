@@ -1,7 +1,7 @@
 # cf
 
 > Manage apps and services on Cloud Foundry.
-> More information: <https://docs.cloudfoundry.org>.
+> More information: <https://docs.cloudfoundry.org/cf-cli/getting-started.html>.
 
 - Log in to the Cloud Foundry API:
 
