@@ -8,9 +8,9 @@
 
 `aws s3 ls {{bucket_name}}`
 
-- Sync files and directories from local to bucket:
+- Sync files in a directory from local to bucket:
 
-`aws s3 sync {{path/to/file1 path/to/file2 ...}} s3://{{bucket_name}}`
+`aws s3 sync {{path/to/directory1 path/to/directory2 ...}} s3://{{bucket_name}}`
 
 - Sync files and directories from bucket to local:
 
