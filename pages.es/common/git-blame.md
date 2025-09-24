@@ -21,7 +21,7 @@
 
 - Salta al origen de una confirmación específica y rastrea un texto específico y 10 de sus líneas siguientes:
 
-`git blame -L “/{{text}}/”,+10 {{a82812aa}}^ tldr.py`
+`git blame -L '/{{text}}/',+10 {{a82812aa}}^ tldr.py`
 
 - Imprime el nombre del autor y la información del hash de confirmación para un rango de líneas específico:
 
