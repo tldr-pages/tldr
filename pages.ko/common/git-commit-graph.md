@@ -9,7 +9,7 @@
 
 - 모든 브랜치와 태그에서 접근 가능한 커밋들을 포함하는 commit-graph 파일 작성:
 
-`git show-ref --hash | git commit-graph write --stdin-commits`
+`git show-ref {{[-s|--hash]}} | git commit-graph write --stdin-commits`
 
 - 현재 commit-graph 파일의 모든 커밋과 현재 `HEAD`에서 접근 가능한 커밋들을 포함하는 업데이트된 commit-graph 파일 작성:
 
