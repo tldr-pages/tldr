@@ -1,7 +1,7 @@
 # gh status
 
 > Check the status of subscribed repositories on GitHub.
-> More information: <https://cli.github.com/manual/gh>.
+> More information: <https://cli.github.com/manual/gh_status>.
 
 - Print information about all repositories you're subscribed to (issues, pull requests, reviews, mentions, activity, etc.):
 
