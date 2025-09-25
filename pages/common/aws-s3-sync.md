@@ -9,7 +9,7 @@
 
 - Sync files in a directory from a bucket to local:
 
-`aws s3 sync s3://{{bucket_source_name}}/{{path/to/remote_location}} {{path/to/directory}}`
+`aws s3 sync s3://{{bucket_name}}/{{path/to/remote_location}} {{path/to/directory}}`
 
 - Sync objects between two buckets:
 
@@ -17,7 +17,7 @@
 
 - Sync local files to S3 while excluding specific files or directories:
 
-`aws s3 sync {{path/to/directory}} s3://{{bucket_target_name}}/{{path/to/remote_location}} --exclude {{path/to/file}} --exclude {{path/to/directory}}/*`
+`aws s3 sync {{path/to/directory}} s3://{{bucket_name}}/{{path/to/remote_location}} --exclude {{path/to/file}} --exclude {{path/to/directory}}/*`
 
 - Sync objects between buckets and delete destination files not in source:
 
