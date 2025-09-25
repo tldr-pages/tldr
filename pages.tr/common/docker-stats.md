@@ -17,7 +17,7 @@
 
 - Tüm (çalışan veya durmuş) konteynerler için istatistikleri görüntüle:
 
-`docker stats --all`
+`docker stats {{[-a|--all]}}`
 
 - İstatistikleri canlı yayınlamayı durdur ve yalnızca mevcut durumdaki istatistikleri görüntüle:
 
