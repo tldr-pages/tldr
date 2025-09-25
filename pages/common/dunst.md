@@ -12,10 +12,10 @@
 
 `dunst -startup_notification`
 
-- Print coming notifications to `stdout`:
+- Print incoming notifications to `stdout`:
 
 `dunst -print`
 
 - Use the specified configuration file (default: `$XDG_CONFIG_HOME/dunst/dunstrc`):
 
-`dunst -config {{path/to/file}}`
+`dunst {{[-conf|-config]}} {{path/to/file}}`
