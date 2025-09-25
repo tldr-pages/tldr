@@ -9,7 +9,7 @@
 
 - 生成包含所有可达提交的提交图文件：
 
-`git show-ref --hash | git commit-graph write --stdin-commits`
+`git show-ref {{[-s|--hash]}} | git commit-graph write --stdin-commits`
 
 - 生成包含当前提交图文件中所有提交以及从 `HEAD` 可达提交的提交图文件（追加模式）：
 
