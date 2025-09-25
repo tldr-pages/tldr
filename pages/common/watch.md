@@ -13,11 +13,11 @@
 
 - Monitor disk space, highlighting differences as they appear:
 
-`watch {{[-d|--differences]}} {{df}}`
+`watch {{[-d|--differences]}} df`
 
 - Repeatedly run a pipeline and show the result:
 
-`watch "{{command_1}} | {{command_2}} | {{command_3}}"`
+`watch "{{command1}} | {{command2}} | {{command3}}"`
 
 - Exit `watch` if the visible output changes:
 
