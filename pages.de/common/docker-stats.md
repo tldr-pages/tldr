@@ -17,7 +17,7 @@
 
 - Zeige Statistiken für alle Container (laufende und gestoppte):
 
-`docker stats --all`
+`docker stats {{[-a|--all]}}`
 
 - Deaktiviere die laufende Aktualisierung und zeige nur die aktuellen Statistiken:
 
