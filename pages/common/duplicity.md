@@ -15,7 +15,7 @@
 
 - Delete versions older than 1 year from a backup stored on a WebDAV share:
 
-`FTP_PASSWORD={{webdav_login_password}} duplicity remove-older-than {{1Y}} --force {{webdav[s]://user@hostname[:port]/some_dir}}`
+`FTP_PASSWORD={{webdav_login_password}} duplicity remove-older-than {{1Y}} --force {{webdav[s]://user@hostname[:port]/some_directory}}`
 
 - List the available backups:
 
@@ -23,7 +23,7 @@
 
 - List the files in a backup stored on a remote machine, via SSH:
 
-`duplicity list-current-files {{[-t|--time]}} {{YYYY-MM-DD}} scp://{{user@hostname}}/{{path/to/backup/dir}}`
+`duplicity list-current-files {{[-t|--time]}} {{YYYY-MM-DD}} scp://{{user@hostname}}/{{path/to/backup_directory}}`
 
 - Restore a subdirectory from a GnuPG-encrypted local backup to a given location:
 

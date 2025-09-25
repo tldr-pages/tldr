@@ -1,7 +1,7 @@
 # linode-cli account
 
 > Beheer Linode accounts.
-> Bekijk ook: `linode-cli`.
+> Zie ook: `linode-cli`.
 > Meer informatie: <https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-account-management>.
 
 - Bekijk account:

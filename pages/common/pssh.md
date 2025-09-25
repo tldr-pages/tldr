@@ -9,7 +9,7 @@
 
 - Run a command and save the output to separate files:
 
-`pssh {{[-H|--host]}} {{host1}} {{[-H|--host]}} {{host2}} {{[-o|--outdir]}} {{path/to/output_dir}} {{hostname --ip-addresses}}`
+`pssh {{[-H|--host]}} {{host1}} {{[-H|--host]}} {{host2}} {{[-o|--outdir]}} {{path/to/output_directory}} {{hostname --ip-addresses}}`
 
 - Run a command on multiple hosts, specified in a new-line separated file:
 

@@ -1,7 +1,7 @@
 # pamstretch
 
 > Vergroot een PAM afbeelding door te interpoleren tussen pixels.
-> Bekijk ook: `pamstretch-gen`, `pamenlarge`, `pamscale`.
+> Zie ook: `pamstretch-gen`, `pamenlarge`, `pamscale`.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/pamstretch.html>.
 
 - Vergroot een PAM afbeelding met een gehele factor:

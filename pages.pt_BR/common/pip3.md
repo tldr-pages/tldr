@@ -13,7 +13,7 @@
 
 - Atualiza um pacote:
 
-`pip3 install --upgrade {{nome_pacote}}`
+`pip3 install {{[-U|--upgrade]}} {{nome_pacote}}`
 
 - Desinstala um pacote:
 
@@ -25,7 +25,7 @@
 
 - Instala pacotes salvos em um arquivo:
 
-`pip3 install --requirement {{requirements.txt}}`
+`pip3 install {{[-r|--requirement]}} {{requirements.txt}}`
 
 - Mostra informações sobre um pacote instalado:
 

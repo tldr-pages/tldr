@@ -14,3 +14,7 @@
 - Confirma los cambios y los envía, para pasar a la siguiente fase:
 
 `codecrafters submit`
+
+- Actualiza la versión del lenguaje:
+
+`codecrafters update-buildpack`

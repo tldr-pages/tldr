@@ -9,16 +9,16 @@
 
 - Ejecuta el servidor web en el puerto especificado:
 
-`rails server --port {{número_de_puerto}}`
+`rails server {{[-p|--port]}} {{número_de_puerto}}`
 
 - Ejecuta el servidor web en una dirección IP especificada:
 
-`rails server --binding {{dirección_ip}}`
+`rails server {{[-b|--binding]}} {{dirección_ip}}`
 
 - Ejecuta el servidor web en un entorno especificado:
 
-`rails server --environment {{entorno}}`
+`rails server {{[-e|--environment]}} {{entorno}}`
 
 - Muestra la ayuda:
 
-`rails server --help`
+`rails server {{[-h|--help]}}`

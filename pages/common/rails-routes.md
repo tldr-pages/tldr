@@ -9,7 +9,7 @@
 
 - List all routes in an expanded format:
 
-`rails routes --expanded`
+`rails routes {{[-E|--expanded]}}`
 
 - List routes partially matching URL helper method name, HTTP verb, or URL path:
 

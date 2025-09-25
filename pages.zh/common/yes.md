@@ -1,7 +1,7 @@
 # yes
 
 > 重复输出某些内容。
-> 此命令通常用于对安装命令（如 apt-get）每个提示回答是。
+> 此命令通常用于对安装命令（如 `apt-get`）每个提示回答是。
 > 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/yes-invocation.html>.
 
 - 重复输出“{{消息}}”：

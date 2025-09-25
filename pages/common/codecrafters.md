@@ -14,3 +14,7 @@
 - Commit changes and submit, to move to the next stage:
 
 `codecrafters submit`
+
+- Update language version:
+
+`codecrafters update-buildpack`

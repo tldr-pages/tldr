@@ -25,7 +25,7 @@
 
 - Gandakan repositori yang sudah ada dengan hanya mengambil 10 komit paling baru pada branch bawaan (berguna untuk menghemat waktu):
 
-`git clone --depth {{10}} {{lokasi_repositori_remote}}`
+`git clone --depth 10 {{lokasi_repositori_remote}}`
 
 - Gandakan repositori yang sudah ada dengan hanya mengambil dari cabang tertentu:
 

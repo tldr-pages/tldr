@@ -1,7 +1,7 @@
-/pages.ar/ @MachiavelliII
+/pages.ar/ @MachiavelliII @ali90h
 /pages.cs/ @Sarijen
 /pages.de/ @pixelcmtd @gutjuri
-/pages.es/ @kant @ikks
+/pages.es/ @kant
 /pages.fa/ @MrMw3
 /pages.fi/ @Managor
 /pages.fr/ @Nico385412 @nicokosi @noraj
@@ -28,9 +28,9 @@
 /contributing-guides/maintainers-guide.md @sbrl @kbdharun @sebastiaanspeck
 /contributing-guides/style-guide.md @sbrl @kbdharun @sebastiaanspeck
 /contributing-guides/translation-templates/ @kbdharun @sebastiaanspeck
-/contributing-guides/*.ar.md @MachiavelliII
+/contributing-guides/*.ar.md @MachiavelliII @ali90h
 /contributing-guides/*.de.md @pixelcmtd @gutjuri
-/contributing-guides/*.es.md @kant @ikks
+/contributing-guides/*.es.md @kant
 /contributing-guides/*.fa.md @MrMw3
 /contributing-guides/*.fr.md @Nico385412 @nicokosi @noraj
 /contributing-guides/*.hi.md @kbdharun @debghs @karthik-script

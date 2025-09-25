@@ -5,11 +5,11 @@
 
 - List labels for the repository in the current directory:
 
-`gh label list`
+`gh label {{[ls|list]}}`
 
 - View labels for the repository in the current directory in the default web browser:
 
-`gh label list {{[-w|--web]}}`
+`gh label {{[ls|list]}} {{[-w|--web]}}`
 
 - Create a label with a specific name, description and color in hexadecimal format for the repository in the current directory:
 
@@ -29,4 +29,4 @@
 
 - Display help for a subcommand:
 
-`gh label {{subcommand}} --help`
+`gh label {{subcommand}} {{[-h|--help]}}`

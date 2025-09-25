@@ -1,7 +1,7 @@
 # telegram-desktop
 
 > Instant messenger with open source clients, chats and stickers.
-> More information: <https://telegram.org>.
+> More information: <https://manned.org/telegram-desktop>.
 
 - Start GUI:
 

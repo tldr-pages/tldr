@@ -1,7 +1,7 @@
 # pnmquantall
 
 > Voer `pnmquant` tegelijk uit op meerdere bestanden zodat deze een kleurkaart delen.
-> Bekijk ook: `pnmquant`.
+> Zie ook: `pnmquant`.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/pnmquantall.html>.
 
 - Voer `pnmquant` uit op meerdere bestanden met de gespecificeerde parameters en overschrijf de originele bestanden:

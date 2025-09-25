@@ -11,7 +11,7 @@
 
 `file {{[-z|--uncompress]}} {{path/to/file.zip}}`
 
-- Allow file to work with special or device files:
+- Allow `file` to work with special or device files:
 
 `file {{[-s|--special-files]}} {{path/to/file}}`
 

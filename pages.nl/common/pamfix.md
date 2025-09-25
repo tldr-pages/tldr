@@ -1,7 +1,7 @@
 # pamfix
 
 > Repareer errors in PAM, PBM, PGM en PPM bestanden.
-> Bekijk ook: `pamfile`, `pamvalidate`.
+> Zie ook: `pamfile`, `pamvalidate`.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/pamfix.html>.
 
 - Repareer een Netpbm bestand dat zijn laatste deel mist:
