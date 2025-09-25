@@ -16,7 +16,7 @@
 
 `aws s3 sync s3://{{bucket_name}} {{path/to/target}}`
 
-- Sync files and directories with exclusions:
+- Sync files in a directory with exclusions:
 
 `aws s3 sync {{path/to/directory}} s3://{{bucket_name}} --exclude {{path/to/file}} --exclude {{path/to/directory}}/*`
 
