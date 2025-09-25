@@ -30,8 +30,8 @@
 
 - Exclude a specific dependency group/s:
 
-`poetry show {{--without group1,group2,...}}`
+`poetry show --without {{group1,group2,...}}`
 
 - Only show a specific dependency group/s:
 
-`poetry show {{--only group1,group2,...}}`
+`poetry show --only {{group1,group2,...}}`
