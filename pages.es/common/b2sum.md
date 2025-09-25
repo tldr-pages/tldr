@@ -19,7 +19,7 @@
 
 `b2sum {{[-c|--check]}} {{path/to/file.b2}}`
 
-- Mostrar solo un mensaje para los archivos que faltan o cuando falla la verificación:
+- Muestra solo un mensaje para los archivos que faltan o cuando falla la verificación:
 
 `b2sum {{[-c|--check]}} --quiet {{ruta/al/archivo.b2}}`
 
