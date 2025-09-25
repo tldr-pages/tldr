@@ -11,6 +11,6 @@
 
 `gh status {{[-e|--exclude]}} {{repositories}}`
 
-- Print status of repositories belonging to an organization :
+- Print status of repositories belonging to an organization:
 
 `gh status {{[-o|--org]}} {{organization}}`
