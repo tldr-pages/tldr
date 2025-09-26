@@ -9,4 +9,4 @@
 
 - View network traffic on specific interfaces (use the `<ArrowKeys>` to switch interfaces):
 
-`nload devices {{interface_one}} {{interface_two}}`
+`nload devices {{interface1 interface2 ...}}`
