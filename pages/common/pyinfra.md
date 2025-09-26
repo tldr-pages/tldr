@@ -1,7 +1,7 @@
 # pyinfra
 
 > Automates infrastructure at a large scale.
-> More information: <https://docs.pyinfra.com>.
+> More information: <https://docs.pyinfra.com/en/3.x/cli.html>.
 
 - Execute a command over SSH:
 

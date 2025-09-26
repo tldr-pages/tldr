@@ -1,7 +1,7 @@
 # sails
 
 > A realtime enterprise level MVC framework built on top of Node.js.
-> More information: <https://sailsjs.com>.
+> More information: <https://sailsjs.com/documentation/reference/command-line-interface>.
 
 - Start Sails:
 

@@ -2,7 +2,7 @@
 
 > Manage files with Git, without checking their contents in.
 > When a file is annexed, its content is moved into a key-value store, and a symlink is made that points to the content.
-> More information: <https://git-annex.branchable.com>.
+> More information: <https://git-annex.branchable.com/git-annex/>.
 
 - Initialize a repo with Git annex:
 
