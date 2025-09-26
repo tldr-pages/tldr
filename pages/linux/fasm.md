@@ -23,9 +23,3 @@
 - Display help:
 
 `fasm`
-
-- Aditional flags:
- -m <limit>         set the limit in kilobytes for the available memory
- -p <limit>         set the maximum allowed number of passes
- -d <name>=<value>  define symbolic variable
- -s <file>          dump symbolic information for debugging
