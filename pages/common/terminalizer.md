@@ -2,7 +2,7 @@
 
 > Record the terminal, generate animated GIFs and a web player, and optionally upload to <https://terminalizer.com>.
 > See also: `asciinema`.
-> More information: <https://terminalizer.com>.
+> More information: <https://www.terminalizer.com/docs#getting-started>.
 
 - Create the global configuration directory:
 

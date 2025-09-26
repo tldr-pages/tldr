@@ -1,7 +1,7 @@
 # ember
 
 > Ember CLI: create and manage Ember.js applications.
-> More information: <https://cli.emberjs.com>.
+> More information: <https://cli.emberjs.com/release/advanced-use/cli-commands-reference/>.
 
 - Create a new Ember application:
 

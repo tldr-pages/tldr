@@ -2,7 +2,7 @@
 
 > List available commands in the Herd PHP platform.
 > See also: `herd`.
-> More information: <https://herd.laravel.com>.
+> More information: <https://herd.laravel.com/docs/macos/advanced-usage/herd-cli>.
 
 - List all available commands:
 

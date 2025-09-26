@@ -1,7 +1,7 @@
 # svgr
 
 > Transform SVGs into React components.
-> More information: <https://react-svgr.com>.
+> More information: <https://react-svgr.com/docs/options/>.
 
 - Transform a SVG file into a React component to `stdout`:
 
