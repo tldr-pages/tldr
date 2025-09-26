@@ -3,13 +3,13 @@
 > Recursively sync files and directories between your local system and an S3 bucket, or between S3 buckets.
 > More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/sync.html>.
 
-- Sync files and directories from local to a bucket:
+- Sync files in a directory from local to a bucket:
 
-`aws s3 sync {{path/to/file_or_directory}} s3://{{bucket_target_name}}/{{path/to/remote_location}}`
+`aws s3 sync {{path/to/directory}} s3://{{bucket_name}}/{{path/to/remote_location}}`
 
-- Sync files and directories from a bucket to local:
+- Sync files in a directory from a bucket to local:
 
-`aws s3 sync s3://{{bucket_source_name}}/{{path/to/remote_location}} {{path/to/file_or_directory}}`
+`aws s3 sync s3://{{bucket_name}}/{{path/to/remote_location}} {{path/to/directory}}`
 
 - Sync objects between two buckets:
 
@@ -17,7 +17,7 @@
 
 - Sync local files to S3 while excluding specific files or directories:
 
-`aws s3 sync {{path/to/file_or_directory}} s3://{{bucket_target_name}}/{{path/to/remote_location}} --exclude {{path/to/file}} --exclude {{path/to/directory}}/*`
+`aws s3 sync {{path/to/directory}} s3://{{bucket_name}}/{{path/to/remote_location}} --exclude {{path/to/file}} --exclude {{path/to/directory}}/*`
 
 - Sync objects between buckets and delete destination files not in source:
 
@@ -29,7 +29,7 @@
 
 - Sync files to S3 and skip unchanged ones (compare size and modification time):
 
-`aws s3 sync {{path/to/file_or_directory}} s3://{{bucket_name}}/{{path/to/remote_location}} --size-only`
+`aws s3 sync {{path/to/directory}} s3://{{bucket_name}}/{{path/to/remote_location}} --size-only`
 
 - Display help:
 
