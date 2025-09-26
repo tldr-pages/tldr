@@ -9,7 +9,7 @@
 
 - Ensure that the service is shut down while masking:
 
-`systemctl mask {{service_name}} --now`
+`systemctl mask --now {{service_name}}`
 
 - Mask a user service:
 

@@ -17,7 +17,7 @@
 
 - Exibe estatísticas para todos os containers (tanto em execução como parados):
 
-`docker stats --all`
+`docker stats {{[-a|--all]}}`
 
 - Desabilita estatísticas atualizadas e só exibe o status naquele momento:
 

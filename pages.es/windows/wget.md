@@ -4,14 +4,14 @@
 > Nota: si el comando version devuelve un error, PowerShell puede haber sustituido este comando por `Invoke-WebRequest`.
 > Más información: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
-- Ver la documentación del comando original `wget`:
+- Vea la documentación del comando original `wget`:
 
 `tldr wget -p common`
 
-- Ver la documentación del comando `Invoke-WebRequest` de PowerShell:
+- Vea la documentación del comando `Invoke-WebRequest` de PowerShell:
 
 `tldr invoke-webrequest`
 
-- Mostrar versión:
+- Muestra la versión:
 
 `wget --version`

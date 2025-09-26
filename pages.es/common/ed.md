@@ -4,30 +4,34 @@
 > Vea también: `awk`, `sed`.
 > Más información: <https://www.gnu.org/software/ed/manual/ed_manual.html>.
 
-- Inicia una sesión de editor interactivo con un documento vacío:
+- Inicia una sesión de edición interactiva con un documento vacío:
 
 `ed`
 
-- Inicia una sesión de editor interactivo con un documento vacío y un prompt específico:
+- Inicia una sesión de edición interactiva con un documento vacío y un prompt específico:
 
 `ed {{[-p|--prompt]}} '{{> }}'`
 
-- Inicia una sesión de editor interactivo con errores amigables:
+- Inicia una sesión de edición interactiva con errores de usuario:
 
 `ed {{[-v|--verbose]}}`
 
-- Inicia una sesión de editor interactivo con un documento vacío y sin diagnósticos, conteos de bytes y prompt de '!':
+- Inicia una sesión de edición interactiva con un documento vacío y sin diagnósticos, recuento de bytes ni indicaciones '!':
 
-`ed {{[-q|--quiet]}}`
+`ed {{[-q|--quiet]}} {{[-s|--script]}}`
 
-- Inicia una sesión de editor interactivo sin cambio de estado de salida cuando un comando falla:
+- Inicia una sesión de edición interactiva sin cambio de estado de salida cuando falla el comando:
 
 `ed {{[-l|--loose-exit-status]}}`
 
-- Edita un archivo específico (esto muestra el conteo de bytes del archivo cargado):
+- Edita un archivo específico (muestra el recuento de bytes del archivo cargado):
 
 `ed {{ruta/al/archivo}}`
 
-- Reemplaza una cadena con un reemplazo específico en todas las líneas:
+- Reemplaza una cadena con un reemplazo específico para todas las líneas:
 
-`,s/{{expresión_regular}}/{{reemplazo}}/g`
+`,s/{{regex}}/{{replacement}}/g<Enter>`
+
+- Sale de `ed`:
+
+`q<Enter>`
