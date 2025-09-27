@@ -4,14 +4,14 @@
 > Some subcommands such as `add` have their own usage documentation.
 > More information: <https://github.com/Nukesor/pueue>.
 
-- Show general help and available subcommands:
-
-`pueue {{[-h|--help]}}`
-
 - Execute a pueue subcommand:
 
 `pueue {{subcommand}}`
 
-- Check the version of pueue:
+- Display help:
+
+`pueue {{[-h|--help]}}`
+
+- Display version:
 
 `pueue {{[-V|--version]}}`
