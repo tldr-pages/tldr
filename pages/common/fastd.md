@@ -25,6 +25,6 @@
 
 `fastd --show-key {{[-c|--config]}} {{path/to/fastd.conf}}`
 
-- Show the current version:
+- Display version:
 
 `fastd {{[-v|--version]}}`

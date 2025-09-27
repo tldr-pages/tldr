@@ -16,6 +16,6 @@
 
 `hg help {{command}}`
 
-- Check the Mercurial version:
+- Display version:
 
 `hg --version`

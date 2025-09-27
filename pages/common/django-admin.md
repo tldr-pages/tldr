@@ -11,10 +11,10 @@
 
 `django-admin startapp {{app_name}}`
 
-- Check the current version of Django:
-
-`django-admin --version`
-
 - Display help for a specific command:
 
 `django-admin help {{command}}`
+
+- Display version:
+
+`django-admin --version`

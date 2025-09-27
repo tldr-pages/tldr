@@ -32,6 +32,6 @@
 
 `rails console`
 
-- Check current version of rails:
+- Display version:
 
 `rails {{[-v|--version]}}`

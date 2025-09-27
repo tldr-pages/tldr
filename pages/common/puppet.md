@@ -8,10 +8,6 @@
 
 `puppet {{subcommand}}`
 
-- Check the Puppet version:
-
-`puppet --version`
-
 - Display help:
 
 `puppet --help`
@@ -19,3 +15,7 @@
 - Display help for a subcommand:
 
 `puppet help {{subcommand}}`
+
+- Display version:
+
+`puppet --version`
