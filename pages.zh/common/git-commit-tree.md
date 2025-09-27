@@ -14,7 +14,7 @@
 
 - 创建 GPG 签名过的提交对象：
 
-`git commit-tree {{树对象哈希}} -m "{{提交信息}}" --gpg-sign`
+`git commit-tree {{树对象哈希}} -m "{{提交信息}}" {{[-S|--gpg-sign]}}`
 
 - 创建指定父提交的提交对象：
 
