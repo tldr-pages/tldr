@@ -15,10 +15,10 @@
 
 `vlock {{[-a|--all]}}`
 
-- Show help:
+- Display help:
 
 `vlock {{[-h|--help]}}`
 
-- Show version:
+- Display version:
 
 `vlock {{[-v|--version]}}`
