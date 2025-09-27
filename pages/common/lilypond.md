@@ -20,6 +20,6 @@
 
 `lilypond {{[-o|--output]}} {{path/to/output_file}} {{path/to/input_file}}`
 
-- Show the current version of lilypond:
+- Display version:
 
 `lilypond {{[-v|--version]}}`
