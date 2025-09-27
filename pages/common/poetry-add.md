@@ -1,6 +1,6 @@
 # poetry add
 
-> Adds required packages to the `pyproject.toml` file in Poetry.
+> Add required packages to the `pyproject.toml` file in Poetry.
 > See also: `asdf`.
 > More information: <https://python-poetry.org/docs/cli/#about>.
 
