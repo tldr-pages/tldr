@@ -4,30 +4,30 @@
 > Algunos subcomandos como `bucket` tienen su propia documentación de uso.
 > Más información: <https://scoop.sh>.
 
-- Instalar un paquete:
+- Instala un paquete:
 
 `scoop install {{paquete}}`
 
-- Eliminar un paquete:
+- Elimina un paquete:
 
 `scoop uninstall {{paquete}}`
 
-- Actualizar todos los paquetes instalados:
+- Actualiza todos los paquetes instalados:
 
 `scoop update --all`
 
-- Listar paquetes instalados:
+- Lista paquetes instalados:
 
 `scoop list`
 
-- Mostrar información sobre un paquete:
+- Muestra información sobre un paquete:
 
 `scoop info {{paquete}}`
 
-- Buscar un paquete:
+- Busca un paquete:
 
 `scoop search {{paquete}}`
 
-- Eliminar versiones antiguas de todos los paquetes y limpiar la caché de descargas:
+- Elimina versiones antiguas de todos los paquetes y limpia la caché de descargas:
 
 `scoop cleanup --cache --all`
