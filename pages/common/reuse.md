@@ -15,7 +15,7 @@
 
 `reuse annotate {{[-c|--copyright]}} "{{your_name}} <{{your_email}}>" --fallback-dot-license {{path/to/file}}`
 
-- Add licence information to file:
+- Add license information to file:
 
 `reuse annotate {{[-l|--license]}} {{spdx_identifier}} --fallback-dot-license {{path/to/file}}`
 
