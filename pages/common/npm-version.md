@@ -3,7 +3,7 @@
 > Bump a node package version.
 > More information: <https://docs.npmjs.com/cli/npm-version>.
 
-- Check current version:
+- Display version:
 
 `npm version`
 
