@@ -7,6 +7,6 @@
 
 `tldr cd`
 
-- Mostrar la documentación original del comando de PowerShell:
+- Muestra la documentación original del comando de PowerShell:
 
 `tldr set-location`
