@@ -13,6 +13,10 @@
 
 `magick {{path/to/input_image.jpg}} -resize {{100x100}} {{path/to/output_image.jpg}}`
 
+- Resize an image by a percentage:
+
+`magick {{path/to/input_image.png}} -resize {{50}}% {{path/to/output_image.png}}`
+
 - Create a GIF out of all JPEG images in the current directory:
 
 `magick {{*.jpg}} {{path/to/images.gif}}`
