@@ -2,7 +2,7 @@
 
 > Add required packages to the `pyproject.toml` file in Poetry.
 > See also: `asdf`.
-> More information: <https://python-poetry.org/docs/cli/#about>.
+> More information: <https://python-poetry.org/docs/cli/#add>.
 
 - Add required packages:
 
