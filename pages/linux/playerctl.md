@@ -17,16 +17,16 @@
 
 - List all players:
 
-`playerctl --list-all`
+`playerctl {{[-l|--list-all]}}`
 
 - Send a command to a specific player:
 
-`playerctl --player {{player_name}} {{play-pause|next|previous|...}}`
+`playerctl {{[-p|--player]}} {{player_name}} {{play-pause|next|previous|...}}`
 
 - Send a command to all players:
 
-`playerctl --all-players {{play-pause|next|previous|...}}`
+`playerctl {{[-a|--all-players]}} {{play-pause|next|previous|...}}`
 
 - Display metadata about the current track:
 
-`playerctl metadata --format "{{Now playing: \{\{artist\}\} - \{\{album\}\} - \{\{title\}\}}}"`
+`playerctl metadata {{[-f|--format]}} "{{Now playing: \{\{artist\}\} - \{\{album\}\} - \{\{title\}\}}}"`
