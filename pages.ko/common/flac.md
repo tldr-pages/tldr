@@ -9,12 +9,12 @@
 
 - 출력 파일을 지정하여 WAV 파일을 FLAC로 인코딩:
 
-`flac -o {{경로/대상/출력파일.flac}} {{경로/대상/파일.wav}}`
+`flac {{[-o|--output-name]}} {{경로/대상/출력파일.flac}} {{경로/대상/파일.wav}}`
 
 - 출력 파일을 지정하여 FLAC 파일을 WAV로 인코딩:
 
-`flac -d -o {{경로/대상/출력파일.wav}} {{경로/대상/파일.flac}}`
+`flac {{[-d|--decode]}} {{[-o|--output-name]}} {{경로/대상/출력파일.wav}} {{경로/대상/파일.flac}}`
 
 - 올바른 인코딩을 위해 FLAC 파일을 테스트:
 
-`flac -t {{경로/대상/파일.flac}}`
+`flac {{[-t|--test]}} {{경로/대상/파일.flac}}`
