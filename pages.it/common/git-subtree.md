@@ -21,4 +21,4 @@
 
 - Estrai la cronologia di un nuovo progetto dalla cronologia di un albero secondario:
 
-`git subtree split {{[-P|--prefix]}} {percorso/della/directory/}} {{url_repository}} {{[-b|--branch]}} {{nome_ramo}}`
+`git subtree split {{[-P|--prefix]}} {{percorso/della/directory/}} {{url_repository}} {{[-b|--branch]}} {{nome_ramo}}`
