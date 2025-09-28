@@ -10,7 +10,7 @@
 
 - Restaura un archivo sin marcar a la versión de una confirmación específica:
 
-`git restore --source {{confirmación}} {{ruta/al/archivo}}`
+`git restore {{[-s|--source]}} {{confirmación}} {{ruta/al/archivo}}`
 
 - Descarta los cambios sin confirmación para los archivos rastreados:
 
@@ -18,16 +18,16 @@
 
 - Desmarca un archivo:
 
-`git restore --staged {{ruta/al/archivo}}`
+`git restore {{[-S|--staged]}} {{ruta/al/archivo}}`
 
 - Desmarca todos los archivos:
 
-`git restore --staged :/`
+`git restore {{[-S|--staged]}} :/`
 
 - Descarta todos los cambios de los archivos, marcados o no:
 
-`git restore --worktree --staged :/`
+`git restore {{[-W|--worktree]}} {{[-S|--staged]}} :/`
 
 - Selecciona interactivamente secciones de archivos para restaurar:
 
-`git restore --patch`
+`git restore {{[-p|--patch]}}`
