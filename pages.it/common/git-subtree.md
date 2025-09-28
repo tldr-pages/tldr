@@ -5,7 +5,7 @@
 
 - Aggiungi un repository Git come albero secondario:
 
-`git subtree add {{[-P|--prefix]}} {percorso/della/directory/}} --squash {{url_repository}} {{master}}`
+`git subtree add {{[-P|--prefix]}} {{percorso/della/directory/}} --squash {{url_repository}} {{master}}`
 
 - Aggiorna l'albero secondario di un repository al suo commit più recente:
 
