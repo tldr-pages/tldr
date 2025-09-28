@@ -9,12 +9,12 @@
 
 - Elimina de manera forzada contenedores:
 
-`docker rm --force {{contenedor1 contenedor2 ...}}`
+`docker rm {{[-f|--force]}} {{contenedor1 contenedor2 ...}}`
 
 - Elimina un contenedor y sus volúmenes:
 
-`docker rm --volumes {{contenedor}}`
+`docker rm {{[-v|--volumes]}} {{contenedor}}`
 
 - Muestra la ayuda:
 
-`docker rm --help`
+`docker rm {{[-h|--help]}}`
