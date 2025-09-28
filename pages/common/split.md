@@ -21,4 +21,4 @@
 
 - Split into multiple files from `stdin`:
 
-`gzip {{[-cd|--stdout --decompress]}} {{path/to/compressed_file.gz}} | split {{[-l|--lines]}} 1000 - split/`
+`gzip {{[-cd|--stdout --decompress]}} {{path/to/compressed_file.gz}} | split {{[-l|--lines]}} 1000 - {{path/to/output}}`
