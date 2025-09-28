@@ -9,12 +9,12 @@
 
 - Supprimer des conteneurs par la force :
 
-`docker rm --force {{conteneur1 conteneur2 ...}}`
+`docker rm {{[-f|--force]}} {{conteneur1 conteneur2 ...}}`
 
 - Supprimer un conteneur et ses volumes :
 
-`docker rm --volumes {{conteneur}}`
+`docker rm {{[-v|--volumes]}} {{conteneur}}`
 
 - Affiche l'aide :
 
-`docker rm --help`
+`docker rm {{[-h|--help]}}`
