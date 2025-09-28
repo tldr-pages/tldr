@@ -11,10 +11,6 @@
 
 `chainctl auth logout`
 
-- Check which version you have installed:
-
-`chainctl version`
-
 - Update to the latest version:
 
 `chainctl update`
@@ -34,3 +30,7 @@
 - List package version data from repositories available to your account (e.g., package_name=go):
 
 `chainctl packages versions list {{package_name}}`
+
+- Display version:
+
+`chainctl version`
