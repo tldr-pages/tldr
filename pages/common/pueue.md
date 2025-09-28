@@ -12,7 +12,7 @@
 
 `pueue status`
 
-- Send data to a task's stdin:
+- Send data to a task's `stdin`:
 
 `pueue send {{task_id}} {{"hello"}}`
 
