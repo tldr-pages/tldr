@@ -2,7 +2,7 @@
 
 > A task management tool for sequential and parallel execution of long-running tasks.
 > Some subcommands such as `add` have their own usage documentation.
-> More information: <https://github.com/Nukesor/pueue>.
+> More information: <https://github.com/Nukesor/pueue#how-to-use-it>.
 
 - Add a command to the task list:
 
