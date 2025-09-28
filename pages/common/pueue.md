@@ -16,7 +16,7 @@
 
 `pueue send {{task_id}} {{"hello"}}`
 
-- View a task's stdout and stderr, as well as basic information about that task:
+- View a task's `stdout` and `stderr`, as well as basic information about that task:
 
 `pueue log {{task_id}}`
 
