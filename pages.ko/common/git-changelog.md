@@ -10,19 +10,19 @@
 
 - 현재 버전의 커밋 나열:
 
-`git changelog --list`
+`git changelog {{[-l|--list]}}`
 
 - `2.1.0` 태그부터 현재까지의 커밋 범위 나열:
 
-`git changelog --list --start-tag {{2.1.0}}`
+`git changelog {{[-l|--list]}} {{[-s|--start-tag]}} {{2.1.0}}`
 
 - `0.5.0` 태그와 `1.0.0` 태그 사이의 커밋 범위를 보기 좋게 나열:
 
-`git changelog --start-tag {{0.5.0}} --final-tag {{1.0.0}}`
+`git changelog {{[-s|--start-tag]}} {{0.5.0}} {{[-f|--final-tag]}} {{1.0.0}}`
 
 - 커밋 `0b97430`과 태그 `1.0.0` 사이의 커밋 범위를 보기 좋게 나열:
 
-`git changelog --start-commit {{0b97430}} --final-tag {{1.0.0}}`
+`git changelog --start-commit {{0b97430}} {{[-f|--final-tag]}} {{1.0.0}}`
 
 - 출력 파일로 `CHANGELOG.md` 지정:
 
@@ -30,4 +30,4 @@
 
 - 현재 변경 로그 파일의 내용을 완전히 교체:
 
-`git changelog --prune-old`
+`git changelog {{[-p|--prune-old]}}`
