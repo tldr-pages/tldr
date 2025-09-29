@@ -6,11 +6,11 @@
 
 - Git prune tarafından silinebilecek nesneleri onları silmeden raporla:
 
-`git prune --dry-run`
+`git prune {{[-n|--dry-run]}}`
 
 - Erişilemeyen nesneleri buda ve `stdout`'a budanan şeyleri görüntüle:
 
-`git prune --verbose`
+`git prune {{[-v|--verbose]}}`
 
 - Erişilemeyen nesneleri budarken ilerlemeyi göster:
 
