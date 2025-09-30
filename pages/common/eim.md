@@ -1,15 +1,15 @@
 # eim
 
-> ESP-IDF Installation Manager (EIM): Unified tool to install and manage ESP-IDF.
-> More information: <https://docs.espressif.com/projects/idf-im-ui/en/latest/>.
+> Install and manage ESP-IDF.
+> More information: <https://docs.espressif.com/projects/idf-im-ui/en/latest/cli_commands.html>.
 
-- Install default (latest) ESP-IDF version on default location:
+- Install default (latest) ESP-IDF version on default location (C:\esp on Windows and ~/.espressif on POSIX systems):
 
 `eim install`
 
 - Install a specific ESP-IDF version non-interactively (default headless mode):
 
-`eim install -i {{v5.3.2}}`
+`eim install {{[-i|--idf-versions]}} {{v5.3.2}}`
 
 - Run the interactive, guided installation wizard:
 
@@ -17,7 +17,7 @@
 
 - Install a specific version to a custom path, forcing interactive mode (to prompt for choices):
 
-`eim install -i {{v5.3.2}} -p {{/opt/esp-idf}} -n false`
+`eim install {{[-i|--idf-versions]}} {{v5.3.2}} {{[-p|--path]}} {{/opt/esp-idf}} {{[-n|--non-interactive]}} false`
 
 - List all currently installed ESP-IDF versions:
 
@@ -29,7 +29,7 @@
 
 - Install in headless mode using all options defined in a TOML configuration file:
 
-`eim install --config {{path/to/config.toml}}`
+`eim install {{[-c|--config]}} {{path/to/config.toml}}`
 
 - Install offline using a pre-downloaded archive file:
 
