@@ -7,7 +7,7 @@
 
 `eim install`
 
-- 非交互式安装特定 ESP-IDF 版本（默认无头模式）：
+- 非交互式安装特定 ESP-IDF 版本：
 
 `eim install {{[-i|--idf-versions]}} {{v5.3.2}}`
 

@@ -7,7 +7,7 @@
 
 `eim install`
 
-- Install a specific ESP-IDF version non-interactively (default headless mode):
+- Install a specific ESP-IDF version:
 
 `eim install {{[-i|--idf-versions]}} {{v5.3.2}}`
 
