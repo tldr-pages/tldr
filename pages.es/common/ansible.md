@@ -1,33 +1,33 @@
 # ansible
 
-> Gestiona grupos de ordenadores de forma remota a través de SSH. (usa el fichero `/etc/ansible/hosts` para añadir nuevos grupos de hosts).
-> Algunos subcomandos como `galaxy` tienen su propia documentación.
-> Más información: <https://www.ansible.com/>.
+> Gestiona grupos de ordenadores remotamente sobre SSH. (usa el archivo `/etc/ansible/hosts` para añadir nuevos grupos/hosts).
+> Algunos subcomandos como `galaxy` tienen su propia documentación de uso.
+> Más información: <https://docs.ansible.com/ansible/latest/cli/ansible.html>.
 
-- Lista los hosts pertenecientes a un grupo:
+- Lista de hosts pertenecientes a un grupo:
 
 `ansible {{grupo}} --list-hosts`
 
 - Hace ping a un grupo de hosts invocando al módulo ping:
 
-`ansible {{grupo}} -m ping`
+`ansible {{grupo}} {{[-m|--module-name]}} ping`
 
 - Muestra información sobre un grupo de hosts invocando al módulo setup:
 
-`ansible {{grupo}} -m setup`
+`ansible {{grupo}} {{[-m|--module-name]}} setup`
 
-- Ejecuta un comando en un grupo de hosts invocando el módulo de command con argumentos:
+- Ejecuta un comando en un grupo de hosts invocando el módulo command con argumentos:
 
-`ansible {{grupo}} -m command -a '{{mi_comando}}'`
+`ansible {{grupo}} {{[-m|--module-name]}} command {{[-a|--args]}} '{{mi_comando}}'`
 
 - Ejecuta un comando con privilegios administrativos:
 
-`ansible {{grupo}} --become --ask-become-pass -m command -a '{{mi_comando}}'`
+`ansible {{grupo}} {{[-b|--become]}} --ask-become-pass {{[-m|--module-name]}} command {{[-a|--args]}} '{{mi_comando}}'`
 
 - Ejecuta un comando utilizando un archivo de inventario personalizado:
 
-`ansible {{grupo}} -i {{archivo_de_inventario}} -m command -a '{{mi_comando}}'`
+`ansible {{grupo}} {{[-i|--inventory]}} {{archivo_de_inventario}} {{[-m|--module-name]}} command {{[-a|--args]}} '{{mi_comando}}'`
 
 - Lista los grupos de un inventario:
 
-`ansible localhost -m debug -a '{{var=groups.keys()}}'`
+`ansible localhost {{[-m|--module-name]}} debug {{[-a|--args]}} '{{var=groups.keys()}}'`

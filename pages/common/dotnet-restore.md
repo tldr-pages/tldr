@@ -25,4 +25,4 @@
 
 - Restore dependencies with a specific verbosity level:
 
-`dotnet restore --verbosity {{quiet|minimal|normal|detailed|diagnostic}}`
+`dotnet restore {{[-v|--verbosity]}} {{quiet|minimal|normal|detailed|diagnostic}}`

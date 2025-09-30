@@ -1,7 +1,7 @@
 # gprintenv
 
-> Questo comando è un alias per `-p linux printenv`.
+> Questo comando è un alias per `printenv`.
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux printenv`
+`tldr printenv`

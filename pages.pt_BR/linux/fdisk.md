@@ -14,24 +14,24 @@
 
 - Uma vez particionando um disco, cria uma partição:
 
-`n`
+`<n>`
 
 - Uma vez particionando um disco, seleciona uma partição para excluir:
 
-`d`
+`<d>`
 
 - Uma vez particionando um disco, mostra uma tabela de partições:
 
-`p`
+`<p>`
 
 - Uma vez particionando um disco, grava em disco as mudanças feitas:
 
-`w`
+`<w>`
 
 - Uma vez particionando um disco, descarta as mudanças feitas:
 
-`q`
+`<q>`
 
 - Uma vez particionando um disco, abre o menu de ajuda:
 
-`m`
+`<m>`

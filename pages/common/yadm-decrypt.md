@@ -1,4 +1,4 @@
-# yadm-decrypt
+# yadm decrypt
 
 > Decrypt files that were encrypted by `yadm`.
 > When activating this command you will be prompted for a password.

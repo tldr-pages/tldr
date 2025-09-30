@@ -2,7 +2,7 @@
 
 > Aplicação web para criar e compartilhar documentos que contem código, visualizações e anotações.
 > Usado principalmente para análise de dados, computação científica e aprendizado de máquinas (machine learning).
-> Mais informações: <https://jupyter.org>.
+> Mais informações: <https://docs.jupyter.org/en/latest/>.
 
 - Inicia um servidor de notebooks Jupyter no diretório atual:
 
@@ -18,7 +18,7 @@
 
 - Inicia um servidor em uma porta específica:
 
-`jupyter notebook --port={{porta}}`
+`jupyter notebook --port {{porta}}`
 
 - Lista de servidores de notebooks atualmente em funcionamento:
 

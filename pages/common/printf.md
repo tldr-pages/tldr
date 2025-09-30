@@ -1,7 +1,8 @@
 # printf
 
 > Format and print text.
-> More information: <https://www.gnu.org/software/coreutils/printf>.
+> See also: `echo`.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/printf-invocation.html>.
 
 - Print a text message:
 

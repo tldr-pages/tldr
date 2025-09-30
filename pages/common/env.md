@@ -1,7 +1,7 @@
 # env
 
 > Show the environment or run a program in a modified environment.
-> More information: <https://www.gnu.org/software/coreutils/env>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/env-invocation.html>.
 
 - Show the environment:
 
@@ -13,11 +13,11 @@
 
 - Clear the environment and run a program:
 
-`env -i {{program}}`
+`env {{[-i|--ignore-environment]}} {{program}}`
 
 - Remove variable from the environment and run a program:
 
-`env -u {{variable}} {{program}}`
+`env {{[-u|--unset]}} {{variable}} {{program}}`
 
 - Set a variable and run a program:
 
@@ -25,4 +25,8 @@
 
 - Set one or more variables and run a program:
 
-`env {{variable1}}={{value}} {{variable2}}={{value}} {{variable3}}={{value}} {{program}}`
+`env {{variable1=value variable2=value variable3=value ...}} {{program}}`
+
+- Run a program under a different name:
+
+`env {{[-a|--argv0]}} {{custom_name}} {{program}}`

@@ -10,4 +10,4 @@
 
 - Toon bestandsnamen zodra ze gevonden zijn:
 
-`sudo updatedb --verbose`
+`sudo updatedb {{[-v|--verbose]}}`

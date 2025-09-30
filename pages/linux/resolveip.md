@@ -11,6 +11,6 @@
 
 `resolveip {{1.1.1.1}}`
 
-- Silent mode. Produces less output:
+- Resolve a hostname to an IP address with less output:
 
-`resolveip --silent {{example.org}}`
+`resolveip {{[-s|--silent]}} {{example.org}}`

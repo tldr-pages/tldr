@@ -1,6 +1,6 @@
 # snowsql
 
-> SnowSQL command-line client for Snowflake's Data Cloud.
+> SnowSQL client for Snowflake's Data Cloud.
 > More information: <https://docs.snowflake.com/en/user-guide/snowsql.html>.
 
 - Connect to a specific instance at <https://account.snowflakecomputing.com> (password can be provided in prompt or configuration file):

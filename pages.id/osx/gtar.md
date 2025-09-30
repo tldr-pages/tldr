@@ -1,7 +1,7 @@
 # gtar
 
-> Perintah ini merupakan alias dari `-p linux tar`.
+> Perintah ini merupakan alias dari `tar`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux tar`
+`tldr tar`

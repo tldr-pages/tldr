@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux tftp`
+`tldr {{[-p|--platform]}} linux tftp`

@@ -2,7 +2,7 @@
 
 > Manage packages and configuration options of an existing TeX Live installation.
 > Some subcommands such as `paper` have their own usage documentation.
-> More information: <https://www.tug.org/texlive/tlmgr.html>.
+> More information: <https://www.tug.org/texlive/doc/tlmgr.html#ACTIONS>.
 
 - Install a package and its dependencies:
 

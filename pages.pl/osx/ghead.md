@@ -1,7 +1,7 @@
 # ghead
 
-> To polecenie jest aliasem `-p linux head`.
+> To polecenie jest aliasem GNU `head`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux head`
+`tldr {{[-p|--platform]}} linux head`

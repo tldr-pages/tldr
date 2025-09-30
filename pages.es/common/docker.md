@@ -6,7 +6,7 @@
 
 - Lista todos los contenedores de Docker (en ejecución y detenidos):
 
-`docker ps --all`
+`docker ps {{[-a|--all]}}`
 
 - Inicia un contenedor desde una imagen con un nombre personalizado:
 
@@ -26,7 +26,7 @@
 
 - Inicia una línea de comandos dentro de un contenedor en ejecución:
 
-`docker exec -it {{nombre_de_contenedor}} {{sh}}`
+`docker exec {{[-it|--interactive --tty]}} {{nombre_de_contenedor}} {{sh}}`
 
 - Elimina un contenedor detenido:
 
@@ -34,4 +34,4 @@
 
 - Obtén y sigue los registros de un contenedor:
 
-`docker logs -f {{nombre_de_contenedor}}`
+`docker logs {{[-f|--follow]}} {{nombre_de_contenedor}}`

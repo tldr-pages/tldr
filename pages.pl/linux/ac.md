@@ -9,15 +9,15 @@
 
 - Wyświetl ile godzin użytkownicy byli połączeni:
 
-`ac --individual-totals`
+`ac {{[-p|--individual-totals]}}`
 
 - Wyświetl ile godzin konkretny użytkownik był połączony:
 
-`ac --individual-totals {{użytkownik}}`
+`ac {{[-p|--individual-totals]}} {{użytkownik}}`
 
 - Wyświetl ile godzin na dzień konkretny użytkownik był podłączony (z podsumowaniem):
 
-`ac --daily-totals --individual-totals {{użytkownik}}`
+`ac {{[-d|--daily-totals]}} {{[-p|--individual-totals]}} {{użytkownik}}`
 
 - Wyświetlaj także dodatkowe szczegóły:
 

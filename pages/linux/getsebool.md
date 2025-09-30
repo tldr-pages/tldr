@@ -14,4 +14,4 @@
 
 - Show the current setting of all booleans with explanations:
 
-`sudo semanage boolean {{-l|--list}}`
+`sudo semanage boolean {{[-l|--list]}}`

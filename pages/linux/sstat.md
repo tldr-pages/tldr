@@ -5,12 +5,12 @@
 
 - Display status information of a comma-separated list of jobs:
 
-`sstat --jobs={{job_id}}`
+`sstat {{[-j|--jobs]}} {{job_id}}`
 
 - Display job ID, average CPU and average virtual memory size of a comma-separated list of jobs, with pipes as column delimiters:
 
-`sstat --parsable --jobs={{job_id}} --format={{JobID,AveCPU,AveVMSize}}`
+`sstat {{[-p|--parsable]}} {{[-j|--jobs]}} {{job_id}} {{[-o|--format]}} {{JobID,AveCPU,AveVMSize}}`
 
 - Display list of fields available:
 
-`sstat --helpformat`
+`sstat {{[-e|--helpformat]}}`

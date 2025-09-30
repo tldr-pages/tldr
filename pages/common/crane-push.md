@@ -17,4 +17,4 @@
 
 - Display help:
 
-`crane push {{-h|--help}}`
+`crane push {{[-h|--help]}}`

@@ -9,15 +9,15 @@
 
 - Kayıtları yazdır ve izle:
 
-`docker logs -f {{konteyner_ismi}}`
+`docker logs {{[-f|--follow]}} {{konteyner_ismi}}`
 
 - Son 5 kaydı yazdır:
 
-`docker logs {{konteyner_ismi}} --tail {{5}}`
+`docker logs {{konteyner_ismi}} {{[-n|--tail]}} {{5}}`
 
 - Kayıtları yazdır ve zaman damgaları ile iliştir:
 
-`docker logs -t {{konteyner_ismi}}`
+`docker logs {{[-t|--timestamps]}} {{konteyner_ismi}}`
 
 - Belli bir konteyner çalışma zamanındaki (i.e. 23m, 10s, 2013-01-02T13:23:37) kayıtları yazdır:
 

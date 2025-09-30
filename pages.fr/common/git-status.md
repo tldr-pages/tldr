@@ -10,12 +10,12 @@
 
 - Affiche les fichiers modifiés (version courte) :
 
-`git status -s`
+`git status {{[-s|--short]}}`
 
 - Affiche les fichiers modifiés, sans tenir des comptes des fichiers non-suivis :
 
-`git status --untracked-files=no`
+`git status {{[-uno|--untracked-files=no]}}`
 
 - Affiche les fichiers modifiés (version courte) avec les informations de branche :
 
-`git status -sb`
+`git status {{[-sb|--short --branch]}}`

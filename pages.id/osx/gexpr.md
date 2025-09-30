@@ -1,7 +1,7 @@
 # gexpr
 
-> Perintah ini merupakan alias dari `-p linux expr`.
+> Perintah ini merupakan alias dari `expr`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux expr`
+`tldr expr`

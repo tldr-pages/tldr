@@ -1,7 +1,7 @@
 # ac
 
 > Toon statistieken over hoe lang gebruikers verbonden zijn geweest.
-> Meer informatie: <https://man.openbsd.org/ac>.
+> Meer informatie: <https://manned.org/ac.8>.
 
 - Toon hoe lang de huidige gebruiker verbonden is in uren:
 

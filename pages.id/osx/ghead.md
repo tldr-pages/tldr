@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux head`
+`tldr {{[-p|--platform]}} linux head`

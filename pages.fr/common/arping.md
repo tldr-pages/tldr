@@ -2,7 +2,7 @@
 
 > Découvre et sonde des hôtes dans un réseau en utilisant le protocol ARP.
 > Très utile pour la découverte d'adresse MAC.
-> Plus d'informations : <https://github.com/ThomasHabets/arping>.
+> Plus d'informations : <https://manned.org/arping>.
 
 - Ping un hôte par paquets de requête ARP :
 

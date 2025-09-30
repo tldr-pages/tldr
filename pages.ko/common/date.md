@@ -1,7 +1,7 @@
 # date
 
 > 시스템 날짜 설정 및 표시.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/date>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/date-invocation.html>.
 
 - 기본 로컬 형식을 사용하여 현재 날짜 표시:
 

@@ -6,19 +6,19 @@
 
 - Toon alle bestandslabelregels:
 
-`sudo semanage fcontext --list`
+`sudo semanage fcontext {{[-l|--list]}}`
 
 - Toon alle door de gebruiker gedefinieerde bestandslabelregels zonder koppen:
 
-`sudo semanage fcontext --list --locallist --noheading`
+`sudo semanage fcontext {{[-l|--list]}} {{[-C|--locallist]}} {{[-n|--noheading]}}`
 
 - Voeg een door de gebruiker gedefinieerde regel toe die elk pad labelt dat overeenkomt met een PCRE-regex:
 
-`sudo semanage fcontext --add --type {{samba_share_t}} {{'/mnt/share(/.*)?'}}`
+`sudo semanage fcontext {{[-a|--add]}} {{[-t|--type]}} {{samba_share_t}} {{'/mnt/share(/.*)?'}}`
 
 - Verwijder een door de gebruiker gedefinieerde regel met behulp van zijn PCRE-regex:
 
-`sudo semanage fcontext --delete {{'/mnt/share(/.*)?'}}`
+`sudo semanage fcontext {{[-d|--delete]}} {{'/mnt/share(/.*)?'}}`
 
 - Herlabel een map recursief door de nieuwe regels toe te passen:
 

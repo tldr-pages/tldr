@@ -3,22 +3,26 @@
 > Busca subdominios de un dominio.
 > Más información: <https://github.com/owasp-amass/amass/blob/master/doc/user_guide.md#the-enum-subcommand>.
 
-- Búsqueda pasiva de subdominios de un dominio:
+- Encuentra (pasivamente) subdominios de un [d]ominio:
 
-`amass enum -passive -d {{nombre_de_dominio}}`
+`amass enum -d {{nombre_dominio}}`
 
-- Busca subdominios de un dominio y los verifica activamente intentando resolver los subdominios encontrados:
+- Encuentra subdominios de un [d]ominio y los verifica activamente intentando resolver los subdominios encontrados:
 
-`amass enum -active -d {{nombre_de_dominio}} -p {{80,443,8080}}`
+`amass enum -active -d {{nombre_dominio}} -p {{80,443,8080}}`
 
-- Hace una búsqueda en su modalidad fuerza bruta de subdominios:
+- Realiza una búsqueda de sub[d]ominios por fuerza bruta:
 
-`amass enum -brute -d {{nombre_de_dominio}}`
+`amass enum -brute -d {{nombre_dominio}}`
 
 - Guarda los resultados en un archivo de texto:
 
-`amass enum -o {{archivo_salida}} -d {{nombre_de_dominio}}`
+`amass enum -o {{archivo_de_salida}} -d {{nombre_dominio}}`
 
-- Guarda los resultados a una base de datos:
+- Guarda la salida del terminal en un archivo y otros resultados detallados en un directorio:
 
-`amass enum -o {{archivo_salida}} -dir {{ruta/a/directorio_base_de_datos}}`
+`amass enum -o {{fichero_de_salida}} -dir {{ruta/a/directorio}} -d {{nombre_dominio}}`
+
+- Lista todas las fuentes de datos disponibles:
+
+`amass enum -list`

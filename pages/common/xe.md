@@ -1,7 +1,7 @@
 # xe
 
 > Execute a command once for each line piped from another command or file.
-> More information: <https://github.com/leahneukirchen/xe>.
+> More information: <https://github.com/leahneukirchen/xe/blob/master/README>.
 
 - Run a command once for each line of input data as arguments:
 

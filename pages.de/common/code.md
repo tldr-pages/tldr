@@ -1,7 +1,7 @@
 # code
 
 > Visual Studio Code.
-> Weitere Informationen: <https://github.com/microsoft/vscode>.
+> Weitere Informationen: <https://code.visualstudio.com/docs/configure/command-line>.
 
 - Öffne Visual Studio Code:
 
@@ -13,11 +13,11 @@
 
 - Vergleiche zwei bestimmte Dateien:
 
-`code --diff {{pfad/zu/datei1}} {{pfad/zu/datei2}}`
+`code {{[-d|--diff]}} {{pfad/zu/datei1}} {{pfad/zu/datei2}}`
 
 - Öffne bestimmte Dateien und/oder Verzeichnisse in einem neuen Fenster:
 
-`code --new-window {{pfad/zu/datei_oder_verzeichnis1 pfad/zu/datei_oder_verzeichnis2 ...}}`
+`code {{[-n|--new-window]}} {{pfad/zu/datei_oder_verzeichnis1 pfad/zu/datei_oder_verzeichnis2 ...}}`
 
 - Installiere oder lösche bestimmte Erweiterung:
 

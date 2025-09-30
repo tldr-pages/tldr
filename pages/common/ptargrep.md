@@ -1,6 +1,6 @@
 # ptargrep
 
-> Find regular expression patterns in tar archive files.
+> Find `regex` patterns in tar archive files.
 > More information: <https://manned.org/ptargrep>.
 
 - Search for a pattern within one or more tar archives:
@@ -9,8 +9,8 @@
 
 - Extract to the current directory using the basename of the file from the archive:
 
-`ptargrep --basename "{{search_pattern}}" {{path/to/file}}`
+`ptargrep {{[-b|--basename]}} "{{search_pattern}}" {{path/to/file}}`
 
 - Search for a case-insensitive pattern matching within a tar archive:
 
-`ptargrep --ignore-case "{{search_pattern}}" {{path/to/file}}`
+`ptargrep {{[-i|--ignore-case]}} "{{search_pattern}}" {{path/to/file}}`

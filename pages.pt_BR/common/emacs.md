@@ -12,9 +12,13 @@
 
 `emacs +{{numero_linha}} {{caminho/para/arquivo}}`
 
+- Inicia um arquivo Emacs Lisp como script:
+
+`emacs --script {{caminho/para/arquivo.el}}`
+
 - Inicia o Emacs em modo console (sem uma janela X):
 
-`emacs --no-window-system`
+`emacs {{[-nw|--no-window-system]}}`
 
 - Inicia um servidor Emacs em segundo plano (acessível através do `emacsclient`):
 
@@ -26,8 +30,8 @@
 
 - Salva um arquivo em Emacs:
 
-`<Ctrl> + X, <Ctrl> + S`
+`<Ctrl x><Ctrl s>`
 
-- Deixa o Emacs:
+- Sai do Emacs:
 
-`<Ctrl> + X, <Ctrl> + C`
+`<Ctrl x><Ctrl c>`

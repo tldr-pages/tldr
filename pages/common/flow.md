@@ -1,7 +1,7 @@
 # flow
 
 > A static type checker for JavaScript.
-> More information: <https://flow.org>.
+> More information: <https://flow.org/en/docs/cli/>.
 
 - Run a flow check:
 

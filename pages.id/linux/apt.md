@@ -35,4 +35,4 @@
 
 - Tampilkan daftar paket yang telah terpasang:
 
-`apt list --installed`
+`apt list {{[-i|--installed]}}`

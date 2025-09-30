@@ -1,16 +1,16 @@
 # bc
 
 > Un lenguaje de calculadora de precisión arbitraria.
-> Vea también: `dc`.
+> Vea también: `dc`, `qalc`.
 > Más información: <https://manned.org/bc>.
 
 - Inicia una sesión interactiva:
 
 `bc`
 
-- Inicia una sesión interactiva con la biblioteca matemática estándar activada:
+- Inicia una sesión [i]nteractiva con la bib[l]ioteca matemática estándar activada:
 
-`bc --mathlib`
+`bc --interactive --mathlib`
 
 - Calcula una expresión:
 
@@ -27,3 +27,7 @@
 - Calcula una función seno/coseno/arctangente/logaritmo natural/exponencial utilizando `mathlib`:
 
 `echo '{{s|c|a|l|e}}({{1}})' | bc --mathlib`
+
+- Ejecuta un guión factorial en línea (inline):
+
+`echo "define factorial(n) { if (n <= 1) return 1; return n*factorial(n-1); }; factorial({{10}})" | bc`

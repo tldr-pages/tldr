@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux dir`
+`tldr {{[-p|--platform]}} linux dir`

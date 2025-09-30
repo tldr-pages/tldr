@@ -1,7 +1,7 @@
 # gdd
 
-> Dit commando is een alias van `-p linux dd`.
+> Dit commando is een alias van GNU `dd`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux dd`
+`tldr {{[-p|--platform]}} linux dd`

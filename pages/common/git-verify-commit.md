@@ -10,7 +10,7 @@
 
 - Check commits for a GPG signature and show details of each commit:
 
-`git verify-commit {{commit_hash1 optional_commit_hash2 ...}} --verbose`
+`git verify-commit {{commit_hash1 optional_commit_hash2 ...}} {{[-v|--verbose]}}`
 
 - Check commits for a GPG signature and print the raw details:
 

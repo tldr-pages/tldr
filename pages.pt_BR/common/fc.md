@@ -14,3 +14,19 @@
 - Exibe um histórico dos últimos comandos executados:
 
 `fc -l`
+
+- Lista os comandos recentes em ordem reversa:
+
+`fc -l -r`
+
+- Edita e executa um comando do histórico:
+
+`fc {{número}}`
+
+- Edita comandos em um dado intervalo e executa-os:
+
+`fc '{{416}}' '{{420}}'`
+
+- Mosta ajuda:
+
+`fc --help`

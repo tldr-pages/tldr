@@ -4,7 +4,7 @@
 > Il servizio atd (o atrun) deve essere attivo per eseguire i comandi.
 > Maggiori informazioni: <https://manned.org/batch>.
 
-- Esegui i comandi inseriti standard input (premere `Ctrl + D` dopo aver inserito i comandi):
+- Esegui i comandi inseriti standard input (premere `<Ctrl d>` dopo aver inserito i comandi):
 
 `batch`
 

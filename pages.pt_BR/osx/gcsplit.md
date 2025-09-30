@@ -4,4 +4,4 @@
 
 - Exibe documentação sobre o comando original:
 
-`tldr -p linux csplit`
+`tldr {{[-p|--platform]}} linux csplit`

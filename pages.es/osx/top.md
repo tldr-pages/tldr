@@ -17,8 +17,8 @@
 
 - Inicia top mostrando sólo los procesos que pertenecen a un usuario determinado:
 
-`top -user {{nombre_usuario}}`
+`top -user {{usuario}}`
 
 - Muestra información de ayuda sobre comandos interactivos:
 
-`?`
+`<?>`

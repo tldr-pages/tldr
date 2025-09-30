@@ -1,7 +1,7 @@
 # arpspoof
 
 > Forge ARP replies to intercept packets.
-> More information: <https://monkey.org/~dugsong/dsniff>.
+> More information: <https://manned.org/arpspoof>.
 
 - Poison all hosts to intercept packets on [i]nterface for the host:
 

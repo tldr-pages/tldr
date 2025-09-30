@@ -5,8 +5,8 @@
 
 - List all virtual machines:
 
-`qm list`
+`qm {{[l|list]}}`
 
 - List all virtual machines with a full status about the ones which are currently running:
 
-`qm list --full 1`
+`qm {{[l|list]}} --full 1`

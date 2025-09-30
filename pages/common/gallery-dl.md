@@ -7,6 +7,10 @@
 
 `gallery-dl "{{url}}"`
 
+- Save images to a specific directory:
+
+`gallery-dl --destination {{path/to/directory}} "{{url}}"`
+
 - Retrieve pre-existing cookies from your web browser (useful for sites that require login):
 
 `gallery-dl --cookies-from-browser {{browser}} "{{url}}"`

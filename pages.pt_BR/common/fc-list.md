@@ -3,6 +3,14 @@
 > Exibe todas as fontes disponíveis no sistema.
 > Mais informações: <https://manned.org/fc-list>.
 
-- Exibe as fontes instaladas correspondentes ao critério de busca:
+- Retorna uma lista de fontes instaladas no seu sistema:
 
-`fc-list | grep '{{criterio_de_busca}}'`
+`fc-list`
+
+- Retorna uma lista de fontes com um dado nome:
+
+`fc-list | grep '{{DejaVu Serif}}'`
+
+- Retorna o número de fontes instaladas no seu sistema:
+
+`fc-list | wc -l`

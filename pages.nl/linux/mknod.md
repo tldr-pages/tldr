@@ -1,7 +1,7 @@
 # mknod
 
 > Maak speciale bestanden voor blok- of tekenapparaten aan.
-> Meer informatie: <https://www.gnu.org/software/coreutils/mknod>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/mknod-invocation.html>.
 
 - Maak een blokapparaat aan:
 
@@ -17,4 +17,4 @@
 
 - Maak een apparaatbestand aan met de standaard SELinux-beveiligingscontext:
 
-`sudo mknod -Z {{pad/naar/apparaat_bestand}} {{type}} {{groot_apparaatnummer}} {{klein_apparaatnummer}}`
+`sudo mknod {{[-Z |--context=]}}{{pad/naar/apparaat_bestand}} {{type}} {{groot_apparaatnummer}} {{klein_apparaatnummer}}`

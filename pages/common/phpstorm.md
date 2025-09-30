@@ -1,7 +1,7 @@
 # phpstorm
 
 > A cross-platform IDE for PHP based on the JetBrains IntelliJ platform.
-> More information: <https://jetbrains.com/phpstorm>.
+> More information: <https://www.jetbrains.com/help/phpstorm/working-with-the-ide-features-from-command-line.html#arguments>.
 
 - Open a specific directory:
 

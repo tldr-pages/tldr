@@ -9,4 +9,4 @@
 
 - Don't show informative messages:
 
-`sudo a2disconf --quiet {{configuration_file}}`
+`sudo a2disconf {{[-q|--quiet]}} {{configuration_file}}`

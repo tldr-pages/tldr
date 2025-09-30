@@ -1,7 +1,7 @@
 # gpathchk
 
-> Perintah ini merupakan alias dari `-p linux pathchk`.
+> Perintah ini merupakan alias dari `pathchk`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux pathchk`
+`tldr pathchk`

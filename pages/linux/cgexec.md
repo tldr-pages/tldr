@@ -4,6 +4,6 @@
 > Multiple cgroup types (aka controllers) exist, such as `cpu`, `memory`, etc.
 > More information: <https://manned.org/cgexec>.
 
-- Execute a process in a given cgroup with given controller:
+- Execute a process in a given c[g]roup with given controller:
 
 `cgexec -g {{controller}}:{{cgroup_name}} {{process_name}}`

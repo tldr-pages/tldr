@@ -1,7 +1,7 @@
 # cat
 
 > Imprime e concatena arquivos.
-> Mais informações: <https://www.gnu.org/software/coreutils/cat>.
+> Mais informações: <https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html>.
 
 - Imprime o conteúdo de um arquivo na `stdout`:
 
@@ -21,8 +21,8 @@
 
 - [n]umera todas as linhas de saída:
 
-`cat -n {{caminho/para/arquivo}}`
+`cat {{[-n|--number]}} {{caminho/para/arquivo}}`
 
 - Exibe caracteres não imprimíveis e espaço em branco (com o prefixo `M-` se não for ASCII):
 
-`cat -v -t -e {{caminho/para/arquivo}}`
+`cat {{[-vte|--show-nonprinting -t -e]}} {{caminho/para/arquivo}}`

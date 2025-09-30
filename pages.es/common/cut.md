@@ -1,7 +1,7 @@
 # cut
 
 > Corta campos de `stdin` o archivos.
-> Más información: <https://www.gnu.org/software/coreutils/cut>.
+> Más información: <https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html>.
 
 - Imprime un rango específico de caracteres/campos de cada línea:
 

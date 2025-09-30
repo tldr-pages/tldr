@@ -1,8 +1,8 @@
 # git
 
 > Sistem kontrol versi terdistribusi.
-> Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `commit`, `add`, `branch`, `checkout`, `push`, dsb.
-> Informasi lebih lanjut: <https://git-scm.com/>.
+> Beberapa subperintah seperti `commit`, `add`, `branch`, `checkout`, `push`, dsb. mempunyai dokumentasi terpisah.
+> Informasi lebih lanjut: <https://git-scm.com/docs/git>.
 
 - Jalankan suatu subperintah Git:
 

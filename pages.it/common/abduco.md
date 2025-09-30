@@ -1,7 +1,7 @@
 # abduco
 
 > Gestore di sessioni di terminale.
-> Maggiori informazioni: <https://www.brain-dump.org/projects/abduco/>.
+> Maggiori informazioni: <https://manned.org/abduco>.
 
 - List sessioni:
 
@@ -17,7 +17,7 @@
 
 - Esci da una sessione:
 
-`<Ctrl> + \`
+`<Ctrl \>`
 
 - Entra in una sessione in modalità sola lettura:
 

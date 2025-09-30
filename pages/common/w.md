@@ -1,13 +1,20 @@
 # w
 
-> Show who is logged on and what they are doing.
-> Print user login, TTY, remote host, login time, idle time, current process.
+> Display who is logged in and their processes.
 > More information: <https://manned.org/w>.
 
-- Show logged-in users info:
+- Display information about all users who are currently logged in:
 
 `w`
 
-- Show logged-in users info without a header:
+- Display information about a specific user:
 
-`w -h`
+`w {{username}}`
+
+- Display logged-in user information without a header:
+
+`w {{[-h|--no-header]}}`
+
+- Display information without including the login, JCPU and PCPU columns:
+
+`w {{[-s|--short]}}`

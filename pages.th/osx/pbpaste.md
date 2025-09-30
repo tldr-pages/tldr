@@ -1,8 +1,8 @@
 # pbpaste
 
 > ส่งเนื้อหาของคลิปบอร์ดไปยังผลผลิตมาตรฐาน (`stdout`)
-> เทียบได้กับการกดปุ่ม Cmd + V บนแป้นพิมพ์
-> ข้อมูลเพิ่มเติม: <https://keith.github.io/xcode-man-pages/pbpaste.1.html>
+> เทียบได้กับการกดปุ่ม `<Cmd v>` บนแป้นพิมพ์
+> ข้อมูลเพิ่มเติม: <https://keith.github.io/xcode-man-pages/pbcopy.1>
 
 - เขียนเนื้อหาของคลิปบอร์ดไปยังไฟล์:
 

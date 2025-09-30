@@ -1,7 +1,7 @@
 # udevadm
 
 > Linux `udev` management tool.
-> More information: <https://www.freedesktop.org/software/systemd/man/udevadm>.
+> More information: <https://www.freedesktop.org/software/systemd/man/udevadm.html>.
 
 - Monitor all device events:
 
@@ -9,19 +9,19 @@
 
 - Print `uevents` sent out by the kernel:
 
-`sudo udevadm monitor --kernel`
+`sudo udevadm monitor {{[-k|--kernel]}}`
 
 - Print device events after being processed by `udev`:
 
-`sudo udevadm monitor --udev`
+`sudo udevadm monitor {{[-u|--udev]}}`
 
 - List attributes of device `/dev/sda`:
 
-`sudo udevadm info --attribute-walk {{/dev/sda}}`
+`sudo udevadm info {{[-a|--attribute-walk]}} {{/dev/sda}}`
 
 - Reload all `udev` rules:
 
-`sudo udevadm control --reload-rules`
+`sudo udevadm control {{[-R|--reload]}}`
 
 - Trigger all `udev` rules to run:
 

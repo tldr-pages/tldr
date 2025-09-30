@@ -6,4 +6,4 @@
 
 - Scale up a PAM image by the specified decimal factor:
 
-`pamstretch-gen {{N}} {{path/to/image.pam}} > {{path/to/output.pam}}`
+`pamstretch-gen {{n}} {{path/to/image.pam}} > {{path/to/output.pam}}`

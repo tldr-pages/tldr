@@ -1,9 +1,10 @@
 # airmon-ng
 
 > 激活无线网络设备的监控模式。
+> 属于 `aircrack-ng` 套件的一部分。
 > 更多信息：<https://www.aircrack-ng.org/doku.php?id=airmon-ng>.
 
-- 列出无线设备和它们的状态：
+- 列出无线设备及其状态：
 
 `sudo airmon-ng`
 

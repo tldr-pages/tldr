@@ -1,36 +1,33 @@
 # asciinema
 
-> 录制和播放终端会话，也可以把他们分享到 asciinema.org.
+> 录制和回放终端会话，并可选分享到 <https://asciinema.org>。
+> 另见：`terminalizer`。
 > 更多信息：<https://docs.asciinema.org/manual/cli/usage>.
 
-- 将本地安装的`asciinema`与 asciinema.org 账号关联：
+- 将本地安装的 `asciinema` 与 asciinema.org 账号关联：
 
 `asciinema auth`
 
-- 进行新的录制（完成后，将提示用户上传或在本地保存）：
+- 新建录制并保存到本地文件（按 `<Ctrl d>` 或输入 `exit` 结束）：
 
-`asciinema rec`
+`asciinema rec {{路径/到/录制文件.cast}}`
 
-- 进行新的录制，保存到本地的文件中：
+- 从本地文件回放终端录制：
 
-`asciinema rec {{文件路径.cast}}`
+`asciinema play {{路径/到/录制文件.cast}}`
 
-- 从本地文件中播放终端录屏：
-
-`asciinema play {{文件路径.cast}}`
-
-- 在 asciinema.org 中播放终端录屏：
+- 回放托管在 <https://asciinema.org> 的终端录制：
 
 `asciinema play https://asciinema.org/a/{{文件 ID}}`
 
-- 进行新的录制，将闲置时间设置为最多 2.5 秒：
+- 新建录制，限制空闲时间最多 2.5 秒：
 
-`asciinema rec {{-i|--idle-time-limit}} 2.5`
+`asciinema rec {{[-i|--idle-time-limit]}} 2.5`
 
-- 打印本地保存的录像的完整输出：
+- 打印本地保存录制的完整输出：
 
-`asciinema cat {{文件路径.cast}}`
+`asciinema cat {{路径/到/录制文件.cast}}`
 
-- 从本地上传一个录屏到 asciinema.org：
+- 上传本地保存的终端录制到 asciinema.org：
 
-`asciinema upload {{文件路径.cast}}`
+`asciinema upload {{路径/到/录制文件.cast}}`

@@ -2,7 +2,7 @@
 
 > Display and concatenate files with lines in reversed order.
 > See also: `cat`.
-> More information: <https://www.gnu.org/software/coreutils/tac>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/tac-invocation.html>.
 
 - Concatenate specific files in reversed order:
 
@@ -12,14 +12,14 @@
 
 `{{cat path/to/file}} | tac`
 
-- Use a specific [s]eparator:
+- Use a specific separator:
 
-`tac -s {{separator}} {{path/to/file1 path/to/file2 ...}}`
+`tac {{[-s|--separator]}} {{separator}} {{path/to/file1 path/to/file2 ...}}`
 
-- Use a specific [r]egex as a [s]eparator:
+- Use a specific `regex` as a separator:
 
-`tac -r -s {{separator}} {{path/to/file1 path/to/file2 ...}}`
+`tac {{[-r|--regex]}} {{[-s|--separator]}} {{separator}} {{path/to/file1 path/to/file2 ...}}`
 
-- Use a separator [b]efore each file:
+- Use a separator before each file:
 
-`tac -b {{path/to/file1 path/to/file2 ...}}`
+`tac {{[-b|--before]}} {{path/to/file1 path/to/file2 ...}}`

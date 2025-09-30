@@ -9,15 +9,15 @@
 
 - Print how long users have been connected in hours:
 
-`ac --individual-totals`
+`ac {{[-p|--individual-totals]}}`
 
 - Print how long a particular user has been connected in hours:
 
-`ac --individual-totals {{username}}`
+`ac {{[-p|--individual-totals]}} {{username}}`
 
 - Print how long a particular user has been connected in hours per day (with total):
 
-`ac --daily-totals --individual-totals {{username}}`
+`ac {{[-d|--daily-totals]}} {{[-p|--individual-totals]}} {{username}}`
 
 - Also display additional details:
 

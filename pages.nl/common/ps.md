@@ -17,15 +17,15 @@
 
 - Toon alle processen van de huidige gebruiker in extra volledig formaat:
 
-`ps --user $(id -u) -F`
+`ps {{[-u|--user]}} $(id {{[-u|--user]}}) -F`
 
 - Toon alle processen van de huidige gebruiker als een boomstructuur:
 
-`ps --user $(id -u) f`
+`ps {{[-u|--user]}} $(id {{[-u|--user]}}) f`
 
 - Verkrijg de parent PID van een proces:
 
-`ps -o ppid= -p {{pid}}`
+`ps {{[-o|--format]}} ppid= {{[-p|--pid]}} {{pid}}`
 
 - Sorteer processen op geheugengebruik:
 

@@ -19,14 +19,14 @@
 
 `<Spazio>`
 
-- Cerca una stringa (tocca `n` per passare alla corrispondenza successiva):
+- Cerca una stringa (tocca `<n>` per passare alla corrispondenza successiva):
 
-`/{{qualcose}}`
+`</>{{qualcose}}<Enter>`
 
 - Smettere:
 
-`q`
+`<q>`
 
 - Mostra aiuto per comando interattivo:
 
-`h`
+`<h>`

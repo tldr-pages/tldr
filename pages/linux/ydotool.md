@@ -7,14 +7,14 @@
 
 `ydotoold`
 
-- Perform a left click input:
+- Perform a `<LeftClick>` input:
 
 `ydotool click 0xC0`
 
-- Perform a right click input:
+- Perform a `<RightClick>` input:
 
 `ydotool click 0xC1`
 
-- Input Alt+F4:
+- Input `<Alt F4>`:
 
 `ydotool key 56:1 62:1 62:0 56:0`

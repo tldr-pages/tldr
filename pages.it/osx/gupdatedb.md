@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux updatedb`
+`tldr {{[-p|--platform]}} linux updatedb`

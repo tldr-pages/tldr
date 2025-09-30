@@ -2,20 +2,20 @@
 
 > El gestor de paquetes Chocolatey.
 > Algunos subcomandos como `install` tienen su propia documentación de uso.
-> Más información: <https://chocolatey.org>.
+> Más información: <https://docs.chocolatey.org/en-us/choco/commands/>.
 
-- Ejecuta un comando Chocolatey:
+- Ejecutar un comando Chocolatey:
 
 `choco {{comando}}`
 
-- Llama a la ayuda general:
+- Muestra ayuda:
 
-`choco -?`
+`choco {{[-h|--help]}}`
 
-- Llama a la ayuda sobre un comando específico:
+- Muestra ayuda sobre un comando específico:
 
-`choco {{comando}} -?`
+`choco {{comando}} {{[-h|--help]}}`
 
-- Revisa la versión de Chocolatey:
+- Muestra la versión de Chocolatey:
 
 `choco --version`

@@ -1,7 +1,7 @@
 # exif
 
 > Lihat dan ubah informasi metadata EXIF pada berkas-berkas JPEG.
-> Informasi lebih lanjut: <https://github.com/libexif/exif/>.
+> Informasi lebih lanjut: <https://manned.org/exif>.
 
 - Tampilkan daftar informasi EXIF yang terdapat pada suatu berkas gambar:
 

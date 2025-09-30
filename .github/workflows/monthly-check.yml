@@ -5,6 +5,10 @@ on:
   schedule:
     - cron: "0 0 1 * *"
 
+permissions:
+  contents: read
+  issues: write
+
 jobs:
   check-usernames:
     runs-on: ubuntu-latest
@@ -17,7 +21,7 @@ jobs:
         key: cache-lychee-${{ github.sha }}
         restore-keys: cache-lychee-
 
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
       with:
         fetch-depth: 0
 
@@ -27,8 +31,9 @@ jobs:
         sort -u usernames.txt -o usernames.txt
 
     - name: Lychee URL checker
-      uses: lycheeverse/lychee-action@v1
+      uses: lycheeverse/lychee-action@885c65f3dc543b57c898c8099f4e08c8afd178a2 # v2.6.1
       id: lychee
+      continue-on-error: true
       with:
         args: >-
           --cache 
@@ -40,7 +45,7 @@ jobs:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
     - name: Find the last report issue open
-      uses: micalevisk/last-issue-action@v2
+      uses: micalevisk/last-issue-action@0d40124cc99ac8601c2516007f0c98ef3d27537b # v2.3.0
       id: last-issue
       with:
         state: open
@@ -50,7 +55,7 @@ jobs:
 
     - name: Update last report open issue created
       if: ${{ env.lychee_exit_code != 0 }}
-      uses: peter-evans/create-issue-from-file@v5
+      uses: peter-evans/create-issue-from-file@e8ef132d6df98ed982188e460ebb3b5d4ef3a9cd # v5.0.1
       with:
         title: GitHub usernames with errors
         content-filepath: lychee/out.md
@@ -62,7 +67,7 @@ jobs:
       run: gh issue close ${{ steps.last-issue.outputs.issue-number }}
 
     - name: Save lychee cache
-      uses: actions/cache/save@v4
+      uses: actions/cache/save@5a3ec84eff668545956fd18022155c47e93e2684 # v4.2.3
       if: always()
       with:
         path: .lycheecache

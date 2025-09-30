@@ -6,12 +6,12 @@
 
 - Initialize the bottle (run once, at start):
 
-`genie -i`
+`genie {{[-i|--initialize]}}`
 
 - Run a login shell inside the bottle:
 
-`genie -s`
+`genie {{[-s|--shell]}}`
 
 - Run a specified command inside the bottle:
 
-`genie -c {{command}}`
+`genie {{[-c|--command]}} {{command}}`

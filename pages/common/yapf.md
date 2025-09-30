@@ -5,12 +5,8 @@
 
 - Display a diff of the changes that would be made, without making them (dry-run):
 
-`yapf --diff {{path/to/file}}`
-
-- Format the file in-place and display a diff of the changes:
-
-`yapf --diff --in-place {{path/to/file}}`
+`yapf {{[-d|--diff]}} {{path/to/file}}`
 
 - Recursively format all Python files in a directory, concurrently:
 
-`yapf --recursive --in-place --style {{pep8}} --parallel {{path/to/directory}}`
+`yapf {{[-ri|--recursive --in-place]}} --style {{pep8}} {{[-p|--parallel]}} {{path/to/directory}}`

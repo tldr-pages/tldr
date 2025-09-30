@@ -13,4 +13,4 @@
 
 - Monitora i log di Clockwork per più progetti:
 
-`clockwork-cli {{percorso/della/directory1 percorso/della/directory2 …}}`
+`clockwork-cli {{percorso/della/directory1 percorso/della/directory2 ...}}`

@@ -27,7 +27,7 @@
 
 `bundle update --group {{development}}`
 
-- Toon de geïnstalleerde gems in de `Gemfile` welke  nieuwere versies beschikbaar hebben:
+- Toon de geïnstalleerde gems in de `Gemfile` welke nieuwere versies beschikbaar hebben:
 
 `bundle outdated`
 

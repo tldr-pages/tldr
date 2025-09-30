@@ -13,12 +13,12 @@
 
 - Display the credentials of a configured repository:
 
-`transcrypt --display`
+`transcrypt {{[-d|--display]}}`
 
 - Initialize and decrypt a fresh clone of a configured repository:
 
-`transcrypt --cipher={{cipher}}`
+`transcrypt {{[-c|--cipher]}} {{cipher}}`
 
 - Rekey to change the encryption cipher or password:
 
-`transcrypt --rekey`
+`transcrypt {{[-r|--rekey]}}`

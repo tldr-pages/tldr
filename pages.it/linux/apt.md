@@ -34,4 +34,4 @@
 
 - Elenca i pacchetti installati:
 
-`apt list --installed`
+`apt list {{[-i|--installed]}}`

@@ -26,12 +26,12 @@
 
 - 현재 디렉터리의 Rust 프로젝트를 릴리스 프로파일로 빌드:
 
-`cargo build --release`
+`cargo {{[b|build]}} {{[-r|--release]}}`
 
 - 야간 컴파일러를 사용하여 현재 디렉터리의 Rust 프로젝트 빌드 (`rustup` 필요):
 
-`cargo +nightly build`
+`cargo +nightly {{[b|build]}}`
 
 - 특정 스레드 수를 사용하여 빌드 (기본값은 논리적 CPU 수):
 
-`cargo build --jobs {{스레드_수}}`
+`cargo {{[b|build]}} --jobs {{스레드_수}}`

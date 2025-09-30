@@ -18,20 +18,20 @@
 
 - Create an annotated tag with the given message:
 
-`git tag {{tag_name}} -m {{tag_message}}`
+`git tag {{tag_name}} {{[-m|--message]}} {{tag_message}}`
 
 - Delete the tag with the given name:
 
-`git tag {{-d|--delete}} {{tag_name}}`
+`git tag {{[-d|--delete]}} {{tag_name}}`
 
 - Get updated tags from remote:
 
-`git fetch --tags`
+`git fetch {{[-t|--tags]}}`
 
 - Push a tag to remote:
 
 `git push origin tag {{tag_name}}`
 
-- List all tags whose ancestors include a given commit:
+- List all tags which contain a given commit (HEAD if not specified):
 
 `git tag --contains {{commit}}`

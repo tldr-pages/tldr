@@ -2,7 +2,7 @@
 
 > 추가, 커밋 및 푸시 루틴 자동화.
 > `git-extras`의 일부.
-> 더 많은 정보: <https://github.com/tj/git-extras/blob/master/Commands.md#git-magic>.
+> 더 많은 정보: <https://manned.org/git-magic>.
 
 - 생성된 메시지로 변경 사항 커밋:
 

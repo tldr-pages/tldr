@@ -7,13 +7,13 @@
 
 `git show`
 
-- Show information about a given commit:
+- Show information about a specific commit, tag, or branch (such as `HEAD` for the latest commit):
 
-`git show {{commit}}`
+`git show {{commit|tag|branch}}`
 
-- Show information about the commit associated with a given tag:
+- Show only the list of added, renamed or deleted files:
 
-`git show {{tag}}`
+`git show --summary {{commit}}`
 
 - Show information about the 3rd commit from the HEAD of a branch:
 
@@ -21,15 +21,15 @@
 
 - Show a commit's message in a single line, suppressing the diff output:
 
-`git show --oneline -s {{commit}}`
+`git show --oneline {{[-s|--no-patch]}} {{commit}}`
 
 - Show only statistics (added/removed characters) about the changed files:
 
 `git show --stat {{commit}}`
 
-- Show only the list of added, renamed or deleted files:
+- Show a simplified list of all files changed in a commit (modified, added, and deleted):
 
-`git show --summary {{commit}}`
+`git show --name-only {{commit}}`
 
 - Show the contents of a file as it was at a given revision (e.g. branch, tag or commit):
 

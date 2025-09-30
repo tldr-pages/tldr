@@ -3,7 +3,7 @@
 > Find filenames quickly.
 > More information: <https://keith.github.io/xcode-man-pages/locate.1.html>.
 
-- Look for pattern in the database. Note: the database is recomputed periodically (usually weekly or daily):
+- Look for pattern in the database. Note: The database is recomputed periodically (usually weekly or daily):
 
 `locate "{{pattern}}"`
 

@@ -1,7 +1,7 @@
 # go env
 
 > Go 툴체인이 사용하는 환경 변수를 관리합니다.
-> 더 많은 정보: <https://golang.org/cmd/go/#hdr-Print_Go_environment_information>.
+> 더 많은 정보: <https://pkg.go.dev/cmd/go#hdr-Print_Go_environment_information>.
 
 - 모든 환경 변수 표시:
 

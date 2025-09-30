@@ -18,4 +18,4 @@
 
 - Use a specific tool (opendiff) to show changes since a given commit:
 
-`git difftool --tool={{opendiff}} {{commit}}`
+`git difftool {{[-t|--tool]}} {{opendiff}} {{commit}}`

@@ -1,7 +1,7 @@
 # settings
 
 > ஆண்ட்ராய்டு ஓஎஸ் பற்றிய தகவல்களைப் பெறுங்கள்.
-> மேலும் விவரத்திற்கு: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
+> மேலும் விவரத்திற்கு: <https://web.archive.org/web/20240525010124/https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
 
 - `குளோபல்` பெயர்வெளியில் அமைப்புகளின் பட்டியலைக் காண்பி:
 

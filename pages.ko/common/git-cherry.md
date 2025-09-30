@@ -5,7 +5,7 @@
 
 - 상류에 동등한 커밋이 있는 커밋(및 그 메시지) 표시:
 
-`git cherry {{-v|--verbose}}`
+`git cherry {{[-v|--verbose]}}`
 
 - 다른 상류 및 주제 브랜치 지정:
 

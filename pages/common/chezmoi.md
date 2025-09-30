@@ -1,4 +1,4 @@
-# Chezmoi
+# chezmoi
 
 > A multi-machine dotfile manager, written in Go.
 > See also: `stow`, `tuckr`, `vcsh`, `homeshick`.

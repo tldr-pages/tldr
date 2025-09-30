@@ -13,11 +13,11 @@
 
 - Print what would happen in a run without making the displayed changes:
 
-`sudo btrbk --verbose dryrun`
+`sudo btrbk {{[-v|--verbose]}} dryrun`
 
 - Run backup routines verbosely, show progress bar:
 
-`sudo btrbk --progress --verbose run`
+`sudo btrbk --progress {{[-v|--verbose]}} run`
 
 - Only create snapshots for configured subvolumes:
 

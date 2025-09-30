@@ -6,19 +6,19 @@
 
 - Push image based on a base image:
 
-`crane append {{-b|--base}} {{image_name}}`
+`crane append {{[-b|--base]}} {{image_name}}`
 
 - Push image with appended layer from tarball:
 
-`crane append {{-f|--new_layer}} {{layer_name1 layer_name2 ...}}`
+`crane append {{[-f|--new_layer]}} {{layer_name1 layer_name2 ...}}`
 
 - Push image with appended layer with new tag:
 
-`crane append {{-t|--new_tag}} {{tag_name}}`
+`crane append {{[-t|--new_tag]}} {{tag_name}}`
 
 - Push resulting image to new tarball:
 
-`crane append {{-o|--output}} {{path/to/tarball}}`
+`crane append {{[-o|--output]}} {{path/to/tarball}}`
 
 - Use empty base image of type OCI media instead of Docker:
 
@@ -30,4 +30,4 @@
 
 - Display help:
 
-`crane append {{-h|--help}}`
+`crane append {{[-h|--help]}}`

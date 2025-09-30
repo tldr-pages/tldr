@@ -11,13 +11,13 @@
 
 `lstopo --no-factorize`
 
-- Show the summarized system topology with only [p]hysical indices (i.e. as seen by the OS):
+- Show the summarized system topology with only physical indices (i.e. as seen by the OS):
 
-`lstopo --physical`
+`lstopo {{[-p|--physical]}}`
 
 - Write the full system topology to a file in the specified format:
 
-`lstopo --no-factorize --output-format {{console|ascii|tex|fig|svg|pdf|ps|png|xml}} {{path/to/file}}`
+`lstopo --no-factorize {{[--of|--output-format]}} {{console|ascii|tex|fig|svg|pdf|ps|png|xml}} {{path/to/file}}`
 
 - Output in monochrome or greyscale:
 

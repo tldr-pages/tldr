@@ -9,8 +9,8 @@
 
 - Check if a directory is a mountpoint without showing any output:
 
-`mountpoint -q {{path/to/directory}}`
+`mountpoint {{[-q|--quiet]}} {{path/to/directory}}`
 
 - Show major/minor numbers of a mountpoint's filesystem:
 
-`mountpoint --fs-devno {{path/to/directory}}`
+`mountpoint {{[-d|--fs-devno]}} {{path/to/directory}}`

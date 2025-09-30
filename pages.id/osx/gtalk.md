@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux talk`
+`tldr {{[-p|--platform]}} linux talk`

@@ -10,4 +10,4 @@
 
 - Display all peers that have provided routing information:
 
-`peerindex -r {{master6.mrt}}`
+`peerindex {{[-r|--only-refs]}} {{master6.mrt}}`

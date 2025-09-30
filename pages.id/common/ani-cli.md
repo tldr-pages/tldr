@@ -1,7 +1,7 @@
 # ani-cli
 
 > Program baris perintah (CLI) untuk menelusuri dan menonton film anime.
-> Informasi lebih lanjut: <https://github.com/pystardust/ani-cli>.
+> Informasi lebih lanjut: <https://manned.org/ani-cli>.
 
 - Cari anime dengan nama:
 

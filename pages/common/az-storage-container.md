@@ -6,11 +6,11 @@
 
 - Create a container in a storage account:
 
-`az storage container create --account-name {{storage_account_name}} --name {{container_name}} --public-access {{access_level}} --fail-on-exist`
+`az storage container create --account-name {{storage_account_name}} {{[-n|--name]}} {{container_name}} --public-access {{access_level}} --fail-on-exist`
 
 - Generate a shared access signature for the container:
 
-`az storage container generate-sas --account-name {{storage_account_name}} --name {{container_name}} --permissions {{sas_permissions}} --expiry {{expiry_date}} --https-only`
+`az storage container generate-sas --account-name {{storage_account_name}} {{[-n|--name]}} {{container_name}} --permissions {{sas_permissions}} --expiry {{expiry_date}} --https-only`
 
 - List containers in a storage account:
 
@@ -18,4 +18,4 @@
 
 - Mark the specified container for deletion:
 
-`az storage container delete --account-name {{storage_account_name}} --name {{container_name}} --fail-not-exist`
+`az storage container delete --account-name {{storage_account_name}} {{[-n|--name]}} {{container_name}} --fail-not-exist`

@@ -7,14 +7,22 @@
 
 `cd {{camí/al/directori}}`
 
-- Accedeix al directori `home` del usuari actual:
-
-`cd`
-
 - Accedeix al directori pare del directori actual:
 
 `cd ..`
 
+- Accedeix al directori `home` de l'usuari actual:
+
+`cd`
+
+- Accedeix al directori `home` de l'usuari donat:
+
+`cd ~{{username}}`
+
 - Accedeix al directori escollit prèviament:
 
 `cd -`
+
+- Accedeix a l'arrel del directori actual:
+
+`cd /`

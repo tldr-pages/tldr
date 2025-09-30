@@ -5,7 +5,7 @@
 
 - Voer een commando uit op de host vanuit de Distrobox container:
 
-`distrobox-host-exec "{{command}}"`
+`distrobox-host-exec "{{commando}}"`
 
 - Voer het `ls` commando uit op de host vanuit de Distrobox container:
 

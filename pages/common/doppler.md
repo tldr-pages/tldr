@@ -8,7 +8,7 @@
 
 `doppler setup`
 
-- Setup Doppler project and config in current directory:
+- Setup Doppler project and configuration in current directory:
 
 `doppler setup`
 

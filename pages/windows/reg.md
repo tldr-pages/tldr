@@ -18,7 +18,7 @@
 
 - View documentation for searching, viewing, and comparing keys:
 
-`tldr reg {{compare|flags|query}}`
+`tldr reg {{compare|query}}`
 
 - View documentation for exporting and importing registry keys not preserving the key ownerships and ACLs:
 

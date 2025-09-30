@@ -9,7 +9,7 @@
 
 - Spegne la macchina:
 
-`halt --poweroff`
+`halt {{[-p|--poweroff]}}`
 
 - Riavvia la macchina:
 

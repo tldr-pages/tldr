@@ -1,6 +1,6 @@
 # http-server-upload
 
-> Zero-configuration command-line HTTP server which provides a lightweight interface to upload files.
+> Zero-configuration HTTP server which provides a lightweight interface to upload files.
 > More information: <https://github.com/crycode-de/http-server-upload>.
 
 - Start an HTTP server on the default port to upload files to the current directory:

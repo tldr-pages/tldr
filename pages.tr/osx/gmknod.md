@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux mknod`
+`tldr {{[-p|--platform]}} linux mknod`

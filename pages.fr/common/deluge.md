@@ -1,7 +1,7 @@
 # deluge
 
 > Client BitTorrent à base de ligne de commande.
-> Plus d'informations : <https://deluge-torrent.org>.
+> Plus d'informations : <https://manned.org/deluge>.
 
 - Télécharge un torrent :
 
@@ -9,7 +9,7 @@
 
 - Télécharge un torrent à l'aide d'un fichier de configuration particulier :
 
-`deluge -c {{chemin/vers/fichier_configuration}} {{url|magnet|chemin/vers/fichier}}`
+`deluge {{[-c|--config]}} {{chemin/vers/fichier_configuration}} {{url|magnet|chemin/vers/fichier}}`
 
 - Télécharge un torrent et lance un interface usager particulier :
 
@@ -17,4 +17,4 @@
 
 - Télécharge un torrent et enregistre les journaux dans un ficher :
 
-`deluge -l {{chemin/vers/fichier_journalisation}} {{url|magnet|chemin/vers/fichier}}`
+`deluge {{[-l|--logfile]}} {{chemin/vers/fichier_journalisation}} {{url|magnet|chemin/vers/fichier}}`

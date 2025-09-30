@@ -3,6 +3,6 @@
 > Zapobiegaj usypaniu pulpitu.
 > Więcej informacji: <https://manned.org/caffeinate>.
 
-- Zapobiegaj usypaniu pulpitu (użyj `Ctrl + C`, aby wyjść):
+- Zapobiegaj usypaniu pulpitu (użyj `<Ctrl c>`, aby wyjść):
 
 `caffeinate`

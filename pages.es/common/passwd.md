@@ -9,12 +9,12 @@
 
 - Cambia la contraseña de un usuario específico:
 
-`passwd {{nombre_usuario}}`
+`passwd {{usuario}}`
 
 - Obtiene el estado actual del usuario:
 
-`passwd {{-S|--status}}`
+`passwd {{[-S|--status]}}`
 
 - Hace que la contraseña de la cuenta esté en blanco (hará que la cuenta nombrada no tenga contraseña):
 
-`passwd {{-d|--delete}}`
+`passwd {{[-d|--delete]}}`

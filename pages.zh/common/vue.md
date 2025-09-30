@@ -2,7 +2,7 @@
 
 > 适用于 Vue.js 项目的多用途命令行接口。
 > 此命令也有关于其子命令的文件，例如：`build`。
-> 更多信息：<https://cli.vuejs.org>.
+> 更多信息：<https://cli.vuejs.org/guide/>.
 
 - 交互式地创建一个新的 Vue 项目：
 

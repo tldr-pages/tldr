@@ -18,7 +18,7 @@
 
 - Tambahkan bucket yang tidak dikenal bersarkan nama dan URL repository Git:
 
-`scoop bucket add {{nama}} {{https://contoh.com/repository.git}}`
+`scoop bucket add {{nama}} {{https://example.com/repository.git}}`
 
 - Hapus suatu bucket berdasarkan namanya:
 

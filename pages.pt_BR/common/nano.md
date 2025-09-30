@@ -1,7 +1,7 @@
 # nano
 
 > Editor de texto de linha de comando. Um clone melhorado de `Pico`.
-> Mais informações: <https://nano-editor.org>.
+> Mais informações: <https://nano-editor.org/dist/latest/nano.html>.
 
 - Inicia o editor:
 
@@ -9,7 +9,7 @@
 
 - Inicia o editor sem usar arquivos de configuração:
 
-`nano --ignorercfiles`
+`nano {{[-I|--ignorercfiles]}}`
 
 - Abre arquivos específicos, passando para o próximo arquivos ao fechar o anterior:
 
@@ -21,12 +21,12 @@
 
 - Abre um arquivo e habilita soft wrapping:
 
-`nano --softwrap {{caminho/para/arquivo}}`
+`nano {{[-S|--softwrap]}} {{caminho/para/arquivo}}`
 
 - Abre um arquivo e indenta novas linhas de acordo com a indentação da linha anterior:
 
-`nano --autoindent {{caminho/para/arquivo}}`
+`nano {{[-i|--autoindent]}} {{caminho/para/arquivo}}`
 
 - Abre um arquivo e cria um arquivo de backup (`caminho/para/arquivo~`) ao salvá-lo:
 
-`nano --backup {{caminho/para/arquivo}}`
+`nano {{[-B|--backup]}} {{caminho/para/arquivo}}`

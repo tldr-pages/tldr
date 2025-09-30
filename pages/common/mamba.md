@@ -6,15 +6,15 @@
 
 - Create a new environment, installing the specified packages into it:
 
-`mamba create --name {{environment_name}} {{python=3.10 matplotlib}}`
+`mamba create {{[-n|--name]}} {{environment_name}} {{python=3.10 matplotlib}}`
 
-- Install packages into the current environment, specifying the package [c]hannel:
+- Install packages into the current environment, specifying the package channel:
 
-`mamba install -c {{conda-forge}} {{python=3.6 numpy}}`
+`mamba install {{[-c|--channel]}} {{conda-forge}} {{python=3.6 numpy}}`
 
 - Update all packages in the current environment:
 
-`mamba update --all`
+`mamba update {{[-a|--all]}}`
 
 - Search for a specific package across repositories:
 
@@ -22,11 +22,11 @@
 
 - List all environments:
 
-`mamba info --envs`
+`mamba info {{[-e|--envs]}}`
 
-- Remove unused [p]ackages and [t]arballs from the cache:
+- Remove unused packages and tarballs from the cache:
 
-`mamba clean -pt`
+`mamba clean {{[-pt|--packages --tarballs]}}`
 
 - Activate an environment:
 

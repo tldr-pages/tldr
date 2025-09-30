@@ -6,7 +6,7 @@
 
 - Update debtap database (before the first run):
 
-`sudo debtap --update`
+`sudo debtap {{[-u|--update]}}`
 
 - Convert the specified package:
 
@@ -14,8 +14,8 @@
 
 - Convert the specified package bypassing all questions, except for editing metadata files:
 
-`debtap --quiet {{path/to/package.deb}}`
+`debtap {{[-q|--quiet]}} {{path/to/package.deb}}`
 
 - Generate a PKGBUILD file:
 
-`debtap --pkgbuild {{path/to/package.deb}}`
+`debtap {{[-p|--pkgbuild]}} {{path/to/package.deb}}`

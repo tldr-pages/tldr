@@ -1,7 +1,7 @@
 # racket
 
 > Racket language interpreter.
-> More information: <https://racket-lang.org>.
+> More information: <https://docs.racket-lang.org/reference/running-sa.html#%28part._mz-cmdline%29>.
 
 - Start a REPL (interactive shell):
 
@@ -13,11 +13,11 @@
 
 - Execute a Racket expression:
 
-`racket --eval "{{expression}}"`
+`racket {{[-e|--eval]}} "{{expression}}"`
 
 - Run module as a script (terminates option list):
 
-`racket --lib {{module_name}} --main {{arguments}}`
+`racket {{[-l|--lib]}} {{module_name}} {{[-m|--main]}} {{arguments}}`
 
 - Start a REPL (interactive shell) for the `typed/racket` hashlang:
 

@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux fold`
+`tldr {{[-p|--platform]}} linux fold`

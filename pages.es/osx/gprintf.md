@@ -1,7 +1,7 @@
 # gprintf
 
-> Este comando es un alias de `-p linux printf`.
+> Este comando es un alias de `printf`.
 
-- Muestra la documentación del comando original:
+- Vea la documentación para el comando original:
 
-`tldr -p linux printf`
+`tldr printf`

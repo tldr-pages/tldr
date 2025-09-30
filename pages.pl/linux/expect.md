@@ -11,6 +11,6 @@
 
 `expect -c "{{polecenia}}"`
 
-- Wejdź do interaktywnego REPL (użyj `exit` lub Ctrl + D, aby wyjść):
+- Wejdź do interaktywnego REPL (użyj `exit` lub `<Ctrl d>`, aby wyjść):
 
 `expect -i`

@@ -2,7 +2,7 @@
 
 > Manage and administer a Neo4j DBMS (Database Management System).
 > See also: `cypher-shell`, `mysqld`.
-> More information: <https://neo4j.com/docs/operations-manual/current/tools/neo4j-admin/>.
+> More information: <https://neo4j.com/docs/operations-manual/current/neo4j-admin-neo4j-cli/>.
 
 - Start the DBMS:
 

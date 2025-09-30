@@ -27,8 +27,8 @@
 
 - Builda il progetto Rust nella directory corrente:
 
-`cargo build`
+`cargo {{[b|build]}}`
 
 - Builda utilizzando più job (thread) paralleli:
 
-`cargo build --jobs {{numero_job}}`
+`cargo {{[b|build]}} --jobs {{numero_job}}`

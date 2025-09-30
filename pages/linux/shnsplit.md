@@ -17,4 +17,4 @@
 
 - Split a `.wav` file into files of the form "track-number - album - title":
 
-`shnsplit -f {{path/to/file.cue}} {{path/to/file.wav}} -t "%n - %a - %t`
+`shnsplit -f {{path/to/file.cue}} {{path/to/file.wav}} -t "%n - %a - %t"`

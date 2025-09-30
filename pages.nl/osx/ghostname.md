@@ -1,7 +1,7 @@
 # ghostname
 
-> Dit commando is een alias van `-p linux hostname`.
+> Dit commando is een alias van GNU `hostname`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux hostname`
+`tldr hostname`

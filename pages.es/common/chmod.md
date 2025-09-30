@@ -1,7 +1,7 @@
 # chmod
 
 > Cambia los permisos de acceso de un archivo o directorio.
-> Más información: <https://www.gnu.org/software/coreutils/chmod>.
+> Más información: <https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html>.
 
 - Otorga al [u]suario que es propietario del archivo permiso para [x] ejecutarlo:
 
@@ -29,8 +29,8 @@
 
 - Otorga al [g]rupo y a [o]tros el derecho para escribir (w) un directorio y su contenido:
 
-`chmod -R g+w,o+w {{ruta/al/directorio}}`
+`chmod {{[-R|--recursive]}} g+w,o+w {{ruta/al/directorio}}`
 
 - Concede de forma recursiva [a] todos los usuarios permisos de lectu[r]a a los archivos y permisos de e[X]ecución a los subdirectorios dentro de un directorio:
 
-`chmod -R a+rX {{ruta/al/directorio}}`
+`chmod {{[-R|--recursive]}} a+rX {{ruta/al/directorio}}`

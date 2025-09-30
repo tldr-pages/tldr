@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux nl`
+`tldr {{[-p|--platform]}} linux nl`

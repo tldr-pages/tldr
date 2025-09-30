@@ -20,7 +20,7 @@
 
 `ollama list`
 
-- Pull/Update a specific model:
+- Pull a specific model:
 
 `ollama pull {{model}}`
 
@@ -32,6 +32,6 @@
 
 `ollama rm {{model}}`
 
-- Create a model from a `Modelfile` ([f]):
+- Create a model from a `Modelfile`:
 
-`ollama create {{new_model_name}} -f {{path/to/Modelfile}}`
+`ollama create {{new_model_name}} {{[-f|--file]}} {{path/to/Modelfile}}`

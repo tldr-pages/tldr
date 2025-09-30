@@ -1,7 +1,7 @@
 # rtv
 
 > Reddit Terminal Viewer.
-> Use arrow keys to navigate. Right and Left to view and return from a submission, respectively.
+> Use `<ArrowKeys>` to navigate. `<ArrowRight>` and `<ArrowLeft>` to view and return from a submission, respectively.
 > More information: <https://github.com/michael-lazar/rtv>.
 
 - Open the front page:
@@ -14,16 +14,16 @@
 
 - Expand/collapse comments:
 
-`[space]`
+`<Space>`
 
 - Open link:
 
-`o`
+`<o>`
 
 - Log in:
 
-`u`
+`<u>`
 
 - Display help:
 
-`?`
+`<?>`

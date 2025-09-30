@@ -1,7 +1,7 @@
 # gifconfig
 
-> Este comando é um apelido de `-p linux ifconfig`.
+> Este comando é um apelido de `ifconfig`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux ifconfig`
+`tldr ifconfig`

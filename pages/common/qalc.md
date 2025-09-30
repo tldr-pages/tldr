@@ -1,20 +1,20 @@
 # qalc
 
-> Powerful and easy to use command-line calculator.
+> Powerful and easy to use calculator.
 > See also: `bc`.
 > More information: <https://qalculate.github.io/manual/qalc.html>.
 
-- Launch in [i]nteractive mode:
+- Launch in interactive mode:
 
-`qalc {{--interactive}}`
+`qalc {{[-i|--interactive]}}`
 
-- Launch in [t]erse mode (print the results only):
+- Launch in terse mode (print the results only):
 
-`qalc --terse`
+`qalc {{[-t|--terse]}}`
 
-- Update currency [e]xchange rates:
+- Update currency exchange rates:
 
-`qalc --exrates`
+`qalc {{[-e|--exrates]}}`
 
 - Perform calculations non-interactively:
 
@@ -24,6 +24,6 @@
 
 `qalc --{{list-functions|list-prefixes|list-units|list-variables}}`
 
-- Execute commands from a [f]ile:
+- Execute commands from a file:
 
-`qalc --file {{path/to/file}}`
+`qalc {{[-f|--file]}} {{path/to/file}}`

@@ -1,7 +1,7 @@
 # pulseaudio
 
 > Ses sistem arkaplan uygulaması ve yöneticisi.
-> Daha fazla bilgi için: <https://www.freedesktop.org/wiki/Software/PulseAudio/>.
+> Daha fazla bilgi için: <https://manned.org/pulseaudio>.
 
 - Pulseaudio'nun çalışıp çalışmadığını kontrol et (sıfır olmayan çıktı, çalışmadığı anlamına gelir):
 
@@ -13,7 +13,7 @@
 
 - Arkaplanda çalışan tüm PulseAudio uygulamalarını öldür:
 
-`pulseaudio --kill`
+`pulseaudio {{[-k|--kill]}}`
 
 - Müsait modülleri sırala:
 
@@ -21,4 +21,4 @@
 
 - Belirtilen argümanlarla bir modülü mevcut çalışan arkaplan uygulamasına yükle:
 
-`pulseaudio --load="{{modül_ismi}} {{argümanlar}}"`
+`pulseaudio {{[-L|--load]}} "{{modül_ismi}} {{argümanlar}}"`

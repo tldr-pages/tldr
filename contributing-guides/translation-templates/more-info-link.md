@@ -1,6 +1,6 @@
 # More information link
 
-For all our pages we suggest having a [more information link](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/style-guide.md#more-information-links) which contains a link 
+For all our pages we suggest having a [more information link](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/style-guide.md#more-information-links) which contains a link
 to the official documentation of the command-line reference or the man page.
 This file contains a list of all translations of the more information link template from
 [set-more-info-link.py](https://github.com/tldr-pages/tldr/blob/main/scripts/set-more-info-link.py#L66-L102).
@@ -65,7 +65,7 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 ### bn
 
 ```markdown
-> আরও তথ্য পাবেন: <https://example.com>.
+> আরও তথ্য পাবেন: <https://example.com>।
 ```
 
 ---
@@ -129,7 +129,7 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 ### fi
 
 ```markdown
-> Lisätietoja: <https://example.com>.
+> Lisätietoa: <https://example.com>.
 ```
 
 ---
@@ -145,7 +145,7 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 ### hi
 
 ```markdown
-> अधिक जानकारी: <https://example.com>.
+> अधिक जानकारी: <https://example.com>।
 ```
 
 ---
@@ -169,7 +169,7 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 ### ja
 
 ```markdown
-> 詳しくはこちら: <https://example.com>.
+> もっと詳しく: <https://example.com>。
 ```
 
 ---
@@ -201,7 +201,7 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 ### ne
 
 ```markdown
-> थप जानकारी: <https://example.com>.
+> थप जानकारी: <https://example.com>।
 ```
 
 ---
@@ -297,7 +297,7 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 ### th
 
 ```markdown
-> ข้อมูลเพิ่มเติม: <https://example.com>.
+> ข้อมูลเพิ่มเติม: <https://example.com>
 ```
 
 ---

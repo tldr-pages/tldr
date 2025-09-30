@@ -1,7 +1,7 @@
 # gtty
 
-> Perintah ini merupakan alias dari `-p linux tty`.
+> Perintah ini merupakan alias dari `tty`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux tty`
+`tldr tty`

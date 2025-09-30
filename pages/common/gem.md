@@ -1,11 +1,11 @@
 # gem
 
 > A package manager for the Ruby programming language.
-> More information: <https://guides.rubygems.org>.
+> More information: <https://guides.rubygems.org/command-reference/>.
 
 - Search for remote gem(s) and show all available versions:
 
-`gem search {{regular_expression}} --all`
+`gem search {{regex}} {{[-a|--all]}}`
 
 - Install the latest version of a gem:
 
@@ -13,11 +13,11 @@
 
 - Install a specific version of a gem:
 
-`gem install {{gem_name}} --version {{1.0.0}}`
+`gem install {{gem_name}} {{[-v|--version]}} {{1.0.0}}`
 
 - Install the latest matching (SemVer) version of a gem:
 
-`gem install {{gem_name}} --version '~> {{1.0}}'`
+`gem install {{gem_name}} {{[-v|--version]}} '~> {{1.0}}'`
 
 - Update a gem:
 
@@ -33,4 +33,4 @@
 
 - Uninstall a specific version of a gem:
 
-`gem uninstall {{gem_name}} --version {{1.0.0}}`
+`gem uninstall {{gem_name}} {{[-v|--version]}} {{1.0.0}}`

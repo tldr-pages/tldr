@@ -5,15 +5,15 @@
 
 - Use an existing location as workspace path:
 
-`azurite {{-l|--location}} {{path/to/directory}}`
+`azurite {{[-l|--location]}} {{path/to/directory}}`
 
 - Disable access log displayed in console:
 
-`azurite {{-s|--silent}}`
+`azurite {{[-s|--silent]}}`
 
 - Enable debug log by providing a file path as log destination:
 
-`azurite {{-d|--debug}} {{path/to/debug.log}}`
+`azurite {{[-d|--debug]}} {{path/to/debug.log}}`
 
 - Customize the listening address of Blob/Queue/Table service:
 

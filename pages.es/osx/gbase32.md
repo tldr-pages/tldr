@@ -1,7 +1,7 @@
 # gbase32
 
-> Este comando es un alias de `-p linux base32`.
+> Este comando es un alias de `base32`.
 
-- Muestra la documentación del comando original:
+- Vea la documentación para el comando original:
 
-`tldr -p linux base32`
+`tldr base32`

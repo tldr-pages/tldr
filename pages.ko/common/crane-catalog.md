@@ -13,4 +13,4 @@
 
 - 도움말 표시:
 
-`crane catalog {{-h|--help}}`
+`crane catalog {{[-h|--help]}}`

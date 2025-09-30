@@ -1,7 +1,7 @@
 # gmv
 
-> Este comando é um apelido de `-p linux mv`.
+> Este comando é um apelido de `mv`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux mv`
+`tldr mv`

@@ -17,4 +17,4 @@
 
 - 도움말 표시:
 
-`crane digest {{-h|--help}}`
+`crane digest {{[-h|--help]}}`

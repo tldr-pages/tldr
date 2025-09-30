@@ -1,7 +1,7 @@
 # lxc network
 
 > Manage networks for LXD containers.
-> More information: <https://linuxcontainers.org/lxd/docs/master/networks>.
+> More information: <https://documentation.ubuntu.com/lxd/latest/reference/manpages/lxc/network/>.
 
 - List all available networks:
 

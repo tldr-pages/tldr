@@ -1,7 +1,7 @@
 # xxhsum
 
 > Print or verify checksums using fast non-cryptographic algorithm xxHash.
-> More information: <https://github.com/Cyan4973/xxHash>.
+> More information: <https://manned.org/xxhsum>.
 
 - Calculate the checksum for a file using a specific algorithm:
 

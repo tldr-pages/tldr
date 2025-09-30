@@ -5,16 +5,16 @@
 
 - Draai de invoer-afbeelding tegen de klok in met de gespecificeerde graden::
 
-`pamflip -rotate{{90|180|270}} {{pad/naar/invoer.pam}} > {{pad/naar/uitvoer.pam}}`
+`pamflip {{[-r|-rotate]}}{{90|180|270}} {{pad/naar/invoer.pam}} > {{pad/naar/uitvoer.pam}}`
 
 - Flip links met rechts:
 
-`pamflip -leftright {{pad/naar/invoer.pam}} > {{pad/naar/uitvoer.pam}}`
+`pamflip {{[-lr|-leftright]}} {{pad/naar/invoer.pam}} > {{pad/naar/uitvoer.pam}}`
 
 - Flip boven met onder:
 
-`pamflip -topbottom {{pad/naar/invoer.pam}} > {{pad/naar/uitvoer.pam}}`
+`pamflip {{[-tb|-topbottom]}} {{pad/naar/invoer.pam}} > {{pad/naar/uitvoer.pam}}`
 
 - Flip de invoer-afbeelding met de diagonaal:
 
-`pamflip -transpose {{pad/naar/invoer.pam}} > {{pad/naar/uitvoer.pam}}`
+`pamflip {{[-xy|-transpose]}} {{pad/naar/invoer.pam}} > {{pad/naar/uitvoer.pam}}`

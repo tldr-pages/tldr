@@ -10,4 +10,4 @@
 
 - Crea una còpia amb salts de línia en format Unix:
 
-`dos2unix -n {{nom_del_arxiu}} {{nou_nom_del_arxiu}}`
+`dos2unix {{[-n|--newfile]}} {{nom_del_arxiu}} {{nou_nom_del_arxiu}}`

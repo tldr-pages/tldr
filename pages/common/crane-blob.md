@@ -9,4 +9,4 @@
 
 - Display help:
 
-`crane blob {{-h|--help}}`
+`crane blob {{[-h|--help]}}`

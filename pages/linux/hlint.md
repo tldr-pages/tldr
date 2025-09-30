@@ -9,7 +9,7 @@
 
 - Check all Haskell files and generate a report:
 
-`hlint {{path/to/directory}} --report`
+`hlint {{path/to/directory}} {{[-r|--report]}}`
 
 - Automatically apply most suggestions:
 

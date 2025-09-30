@@ -1,7 +1,7 @@
 # yarn
 
 > Pengelola paket alternatif untuk JavaScript dan Node.js.
-> Informasi lebih lanjut: <https://yarnpkg.com>.
+> Informasi lebih lanjut: <https://yarnpkg.com/cli>.
 
 - Pasang suatu modul secara global:
 

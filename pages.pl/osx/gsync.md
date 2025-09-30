@@ -1,7 +1,7 @@
 # gsync
 
-> To polecenie jest aliasem `-p linux sync`.
+> To polecenie jest aliasem GNU `sync`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux sync`
+`tldr sync`

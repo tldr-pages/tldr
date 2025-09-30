@@ -18,14 +18,14 @@
 
 `gcrane --insecure {{subcommand}}`
 
-- Specify the platform in the form os/arch{{/variant}}{{:osversion}} (e.g. linux/amd64). (default all):
+- Specify the platform in the form `os/arch/variant:osversion` (e.g. `linux/amd64`). (default all):
 
 `gcrane --platform {{platform}} {{subcommand}}`
 
 - Enable debug logs:
 
-`gcrane {{-v|--verbose}} {{subcommand}}`
+`gcrane {{[-v|--verbose]}} {{subcommand}}`
 
 - Display help:
 
-`gcrane {{-h|--help}}`
+`gcrane {{[-h|--help]}}`

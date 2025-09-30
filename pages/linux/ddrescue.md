@@ -1,7 +1,7 @@
 # ddrescue
 
 > Data recovery tool that reads data from damaged block devices.
-> More information: <https://www.gnu.org/software/ddrescue/>.
+> More information: <https://www.gnu.org/software/ddrescue/manual/ddrescue_manual.html#Invoking-ddrescue>.
 
 - Take an image of a device, creating a log file:
 
@@ -9,4 +9,4 @@
 
 - Clone Disk A to Disk B, creating a log file:
 
-`sudo ddrescue --force --no-scrape {{/dev/sdX}} {{/dev/sdY}} {{path/to/log.txt}}`
+`sudo ddrescue {{[-f|--force]}} {{[-n|--no-scrape]}} {{/dev/sdX}} {{/dev/sdY}} {{path/to/log.txt}}`

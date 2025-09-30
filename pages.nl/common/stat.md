@@ -9,20 +9,20 @@
 
 - Toon eigenschappen van een specifiek bestand zoals grootte, permissies, aanmaak- en toegangsdatums en meer zonder labels:
 
-`stat --terse {{pad/naar/bestand}}`
+`stat {{[-t|--terse]}} {{pad/naar/bestand}}`
 
 - Toon informatie over het bestandssysteem waar een specifiek bestand zich bevindt:
 
-`stat --file-system {{pad/naar/bestand}}`
+`stat {{[-f|--file-system]}} {{pad/naar/bestand}}`
 
 - Toon alleen octale bestandspermissies:
 
-`stat --format="%a %n" {{pad/naar/bestand}}`
+`stat {{[-c|--format]}} "%a %n" {{pad/naar/bestand}}`
 
 - Toon de eigenaar en groep van een specifiek bestand:
 
-`stat --format="%U %G" {{pad/naar/bestand}}`
+`stat {{[-c|--format]}} "%U %G" {{pad/naar/bestand}}`
 
 - Toon de grootte van een specifiek bestand in bytes:
 
-`stat --format="%s %n" {{pad/naar/bestand}}`
+`stat {{[-c|--format]}} "%s %n" {{pad/naar/bestand}}`

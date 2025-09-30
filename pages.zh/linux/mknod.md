@@ -1,7 +1,7 @@
 # mknod
 
 > 创建块或字符设备特殊文件。
-> 更多信息：<https://www.gnu.org/software/coreutils/mknod>.
+> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/mknod-invocation.html>.
 
 - 创建块设备：
 
@@ -17,4 +17,4 @@
 
 - 使用 SELinux 默认安全上下文创建设备文件：
 
-`sudo mknod -Z {{路径/到/设备文件}} {{类型}} {{主设备号}} {{次设备号}}`
+`sudo mknod {{[-Z |--context=]}}{{路径/到/设备文件}} {{类型}} {{主设备号}} {{次设备号}}`

@@ -9,7 +9,7 @@
 
 `Select-String -Path "{{path\to\file}}" -Pattern '{{search_pattern}}'`
 
-- Search for an exact string (disables regular expressions):
+- Search for an exact string (disables `regex`):
 
 `Select-String -SimpleMatch "{{exact_string}}" {{path\to\file}}`
 

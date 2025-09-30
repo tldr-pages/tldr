@@ -9,11 +9,11 @@
 
 - Copy `report6part4.txt` to `./french/rapport6partie4.txt` along with all similarly named files:
 
-`mmv -c "{{report*part*.txt}}" "{{./french/rapport#1partie#2.txt}}"`
+`mmv {{[-c|--copy]}} "{{report*part*.txt}}" "{{./french/rapport#1partie#2.txt}}"`
 
 - Append all `.txt` files into one file:
 
-`mmv -a "{{*.txt}}" "{{all.txt}}"`
+`mmv {{[-a|--append]}} "{{*.txt}}" "{{all.txt}}"`
 
 - Convert dates in filenames from "M-D-Y" format to "D-M-Y" format:
 

@@ -1,7 +1,7 @@
 # gchroot
 
-> Perintah ini merupakan alias dari `-p linux chroot`.
+> Perintah ini merupakan alias dari `chroot`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux chroot`
+`tldr chroot`

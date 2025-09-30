@@ -8,15 +8,15 @@
 
 `uv init`
 
-- Create a new Python project in a directory with the given name:
+- Create a new Python project at the specified path:
 
-`uv init {{project_name}}`
+`uv init {{path/to/directory}}`
 
-- Add a new package to the project:
+- Add a new dependency to the project:
 
 `uv add {{package}}`
 
-- Remove a package from the project:
+- Remove a dependency from the project:
 
 `uv remove {{package}}`
 

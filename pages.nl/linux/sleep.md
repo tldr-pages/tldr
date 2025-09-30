@@ -1,7 +1,7 @@
 # sleep
 
 > Wacht voor een gespecificeerde hoeveelheid tijd.
-> Meer informatie: <https://www.gnu.org/software/coreutils/sleep>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/sleep-invocation.html>.
 
 - Wacht in seconden:
 

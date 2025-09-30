@@ -2,7 +2,7 @@
 
 > Apache Guacamole proxy daemon.
 > Support loader for client plugins to interface between the Guacamole protocol and any arbitrary remote desktop protocol (e.g. RDP, VNC, Other).
-> More information: <https://guacamole.apache.org/>.
+> More information: <https://manned.org/guacd>.
 
 - Bind to a specific port on localhost:
 

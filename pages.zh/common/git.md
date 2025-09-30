@@ -2,7 +2,7 @@
 
 > 分布式版本控制系统。
 > 类似如 `commit`、`add`、`branch`、`checkout`、`push` 等子命令都有自己的使用文档，可以通过 `tldr git {{子命令}}` 的形式查阅。
-> 更多信息：<https://git-scm.com/>.
+> 更多信息：<https://git-scm.com/docs/git>.
 
 - 执行 git 的子命令：
 

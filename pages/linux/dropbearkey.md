@@ -1,7 +1,7 @@
 # dropbearkey
 
 > Generate SSH keys in Dropbear format.
-> More information: <https://manned.org/dropbearkey.1>.
+> More information: <https://manned.org/dropbearkey>.
 
 - Generate an SSH key of [t]ype ed25519 and write it to key [f]ile:
 

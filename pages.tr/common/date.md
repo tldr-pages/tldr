@@ -1,7 +1,7 @@
 # date
 
 > Sistem tarihini görüntüleyin veya ayarlayın.
-> Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/date>.
+> Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/manual/html_node/date-invocation.html>.
 
 - Varsayılan yerel biçimi kullanarak geçerli tarihi görüntüleyin:
 

@@ -9,4 +9,4 @@
 
 - Specify a seed to a the pseudo-random number generator:
 
-`ppmspread {{a}} {{path/to/input_file.ppm}} -randomseed {{seed}} > {{path/to/output_file.ppm}}`
+`ppmspread {{a}} {{path/to/input_file.ppm}} {{[-r|-randomseed]}} {{seed}} > {{path/to/output_file.ppm}}`

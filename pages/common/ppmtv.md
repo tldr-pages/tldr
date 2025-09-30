@@ -10,8 +10,8 @@
 
 - Suppress all informational messages:
 
-`ppmtv -quiet`
+`ppmtv {{[-q|-quiet]}}`
 
 - Display version:
 
-`ppmtv -version`
+`ppmtv {{[-v|-version]}}`

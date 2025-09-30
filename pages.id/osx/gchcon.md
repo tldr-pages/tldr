@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux chcon`
+`tldr {{[-p|--platform]}} linux chcon`

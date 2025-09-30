@@ -1,7 +1,7 @@
 # guname
 
-> To polecenie jest aliasem `-p linux uname`.
+> To polecenie jest aliasem GNU `uname`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux uname`
+`tldr {{[-p|--platform]}} common uname`

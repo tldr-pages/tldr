@@ -13,24 +13,24 @@
 
 - Gandakan hanya direktori `.git` pada repositori saat ini:
 
-`git clone --no-checkout {{lokasi_repositori_remote}}`
+`git clone {{[-n|--no-checkout]}} {{lokasi_repositori_remote}}`
 
 - Gandakan repositori lokal:
 
-`git clone --local {{jalan/menuju/repositori/lokal}}`
+`git clone {{[-l|--local]}} {{jalan/menuju/repositori/lokal}}`
 
 - Gandakan dengan senyap:
 
-`git clone --quiet {{lokasi_repositori_remote}}`
+`git clone {{[-q|--quiet]}} {{lokasi_repositori_remote}}`
 
 - Gandakan repositori yang sudah ada dengan hanya mengambil 10 komit paling baru pada branch bawaan (berguna untuk menghemat waktu):
 
-`git clone --depth {{10}} {{lokasi_repositori_remote}}`
+`git clone --depth 10 {{lokasi_repositori_remote}}`
 
 - Gandakan repositori yang sudah ada dengan hanya mengambil dari cabang tertentu:
 
-`git clone --branch {{name}} --single-branch {{lokasi_repositori_remote}}`
+`git clone {{[-b|--branch]}} {{name}} --single-branch {{lokasi_repositori_remote}}`
 
 - Gandakan repositori yang sudah ada menggunakan perintah SSH tertentu:
 
-`git clone --config core.sshCommand="{{ssh -i jalan/menuju/kunci_ssh_privat}}" {{lokasi_repositori_remote}}`
+`git clone {{[-c|--config]}} core.sshCommand="{{ssh -i jalan/menuju/kunci_ssh_privat}}" {{lokasi_repositori_remote}}`

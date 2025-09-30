@@ -5,11 +5,11 @@
 
 - Show all available variables and their values:
 
-`sysctl -a`
+`sysctl {{[-a|--all]}}`
 
 - Set a changeable kernel state variable:
 
-`sysctl -w {{section.tunable}}={{value}}`
+`sysctl {{[-w|--write]}} {{section.tunable}}={{value}}`
 
 - Get currently open file handlers:
 
@@ -21,4 +21,4 @@
 
 - Apply changes from `/etc/sysctl.conf`:
 
-`sysctl -p`
+`sysctl {{[-p|--load]}}`

@@ -1,7 +1,7 @@
 # gfactor
 
-> Bu komut `-p linux factor` için bir takma addır.
+> Bu komut `factor` için bir takma addır.
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux factor`
+`tldr factor`

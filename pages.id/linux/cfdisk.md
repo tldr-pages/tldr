@@ -9,4 +9,4 @@
 
 - Buat kemudian kelola tabel partisi baru terhadap suatu perangkat penyimpanan keras:
 
-`cfdisk --zero {{/dev/sdX}}`
+`cfdisk {{[-z|--zero]}} {{/dev/sdX}}`

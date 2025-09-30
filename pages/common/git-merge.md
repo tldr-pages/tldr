@@ -9,7 +9,7 @@
 
 - Edit the merge message:
 
-`git merge --edit {{branch_name}}`
+`git merge {{[-e|--edit]}} {{branch_name}}`
 
 - Merge a branch and create a merge commit:
 
@@ -21,4 +21,4 @@
 
 - Merge using a specific strategy:
 
-`git merge --strategy {{strategy}} --strategy-option {{strategy_option}} {{branch_name}}`
+`git merge {{[-s|--strategy]}} {{strategy}} {{[-X|--strategy-option]}} {{strategy_option}} {{branch_name}}`

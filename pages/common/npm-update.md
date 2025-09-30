@@ -1,20 +1,20 @@
 # npm update
 
 > Update packages in the current project.
-> More information: <https://docs.npmjs.com/cli/commands/npm-update>.
+> More information: <https://docs.npmjs.com/cli/npm-update>.
 
 - Update all packages in the current project:
 
-`npm update`
+`npm {{[up|update]}}`
 
 - Update a specific package in the current project:
 
-`npm update {{package}}`
+`npm {{[up|update]}} {{package}}`
 
 - Update a package globally:
 
-`npm update -g {{package}}`
+`npm {{[up|update]}} {{[-g|--global]}} {{package}}`
 
 - Update multiple packages at once:
 
-`npm update {{package1 package2 ...}}`
+`npm {{[up|update]}} {{package1 package2 ...}}`

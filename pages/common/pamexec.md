@@ -10,4 +10,4 @@
 
 - Stop processing if a command terminates with a nonzero exit status:
 
-`pamexec {{command}} {{path/to/image.pam}} -check`
+`pamexec {{command}} {{path/to/image.pam}} {{[-c|-check]}}`

@@ -26,12 +26,12 @@
 
 - 使用 release 模式在当前目录中构建 Rust 项目：
 
-`cargo build --release`
+`cargo {{[b|build]}} {{[-r|--release]}}`
 
 - 使用最新的编译器在当前目录中构建 Rust 项目 （需要 `rustup`)：
 
-`cargo +nightly build`
+`cargo +nightly {{[b|build]}}`
 
 - 使用特定数量的线程构建 （默认为逻辑 CPU 的数量)：
 
-`cargo build --jobs {{线程数}}`
+`cargo {{[b|build]}} --jobs {{线程数}}`

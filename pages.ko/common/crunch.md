@@ -1,7 +1,7 @@
 # crunch
 
 > 단어 목록 생성기.
-> 더 많은 정보: <https://sourceforge.net/projects/crunch-wordlist/>.
+> 더 많은 정보: <https://manned.org/crunch>.
 
 - 소문자만 사용하여 길이가 1부터 3인 단어 목록을 출력:
 

@@ -1,7 +1,7 @@
 # greadlink
 
-> Este comando es un alias de `-p linux readlink`.
+> Este comando es un alias de `readlink`.
 
-- Muestra la documentación del comando original:
+- Vea la documentación para el comando original:
 
-`tldr -p linux readlink`
+`tldr readlink`

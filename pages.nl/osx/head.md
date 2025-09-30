@@ -5,16 +5,16 @@
 
 - Geef de eerste paar regels van een bestand weer:
 
-`head --lines {{8}} {{pad/naar/bestand}}`
+`head {{[-n|--lines]}} {{8}} {{pad/naar/bestand}}`
 
 - Geef de eerste paar bytes van een bestand weer:
 
-`head --bytes {{8}} {{pad/naar/bestand}}`
+`head {{[-c|--bytes]}} {{8}} {{pad/naar/bestand}}`
 
 - Geef alles behalve de laatste paar regels van een bestand weer:
 
-`head --lines -{{8}} {{pad/naar/bestand}}`
+`head {{[-n|--lines]}} -{{8}} {{pad/naar/bestand}}`
 
 - Geef alles behalve de laatste paar bytes van een bestand weer:
 
-`head --bytes -{{8}} {{pad/naar/bestand}}`
+`head {{[-c|--bytes]}} -{{8}} {{pad/naar/bestand}}`

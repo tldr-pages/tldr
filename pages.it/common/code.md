@@ -1,7 +1,7 @@
 # code
 
 > Visual Studio Code.
-> Maggiori informazioni: <https://github.com/microsoft/vscode>.
+> Maggiori informazioni: <https://code.visualstudio.com/docs/configure/command-line>.
 
 - Apri VS Code:
 

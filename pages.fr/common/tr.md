@@ -1,7 +1,7 @@
 # tr
 
 > Convertisseur de caractères : exécute des remplacements basés sur des caractères uniques et des jeux de caractères.
-> Plus d'informations : <https://www.gnu.org/software/coreutils/tr>.
+> Plus d'informations : <https://www.gnu.org/software/coreutils/manual/html_node/tr-invocation.html>.
 
 - Remplace toutes les occurrences d'un caractère dans un fichier, et affiche le résultat :
 

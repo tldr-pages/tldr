@@ -2,7 +2,7 @@
 
 > Shell builtin for viewing information about processes spawned by the current shell.
 > Options other than `-l` and `-p` are exclusive to `bash`.
-> More information: <https://manned.org/jobs>.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-jobs>.
 
 - View jobs spawned by the current shell:
 

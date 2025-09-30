@@ -9,8 +9,8 @@
 
 - Securely discard all blocks on a device, removing all data:
 
-`blkdiscard --secure {{/dev/device}}`
+`blkdiscard {{[-s|--secure]}} {{/dev/device}}`
 
 - Discard the first 100 MB of a device:
 
-`blkdiscard --length {{100MB}} {{/dev/device}}`
+`blkdiscard {{[-l|--length]}} {{100MB}} {{/dev/device}}`

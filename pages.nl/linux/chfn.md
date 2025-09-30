@@ -5,16 +5,16 @@
 
 - Werk het "Naam"-veld van een gebruiker bij in de uitvoer van `finger`:
 
-`chfn -f {{nieuwe_weergavenaam}} {{gebruikersnaam}}`
+`chfn {{[-f|--full-name]}} {{nieuwe_weergavenaam}} {{gebruikersnaam}}`
 
 - Werk het "Kantoornummer"-veld van een gebruiker bij voor de uitvoer van `finger`:
 
-`chfn -o {{nieuw_kantoornummer}} {{gebruikersnaam}}`
+`chfn {{[-o|--office]}} {{nieuw_kantoornummer}} {{gebruikersnaam}}`
 
 - Werk het "Kantoor Telefoonnummer"-veld van een gebruiker bij voor de uitvoer van `finger`:
 
-`chfn -p {{nieuw_kantoor_telefoonnummer}} {{gebruikersnaam}}`
+`chfn {{[-p|--office-phone]}} {{nieuw_kantoor_telefoonnummer}} {{gebruikersnaam}}`
 
 - Werk het "Thuis Telefoonnummer"-veld van een gebruiker bij voor de uitvoer van `finger`:
 
-`chfn -h {{nieuw_thuis_telefoonnummer}} {{gebruikersnaam}}`
+`chfn {{[-h|--home-phone]}} {{nieuw_thuis_telefoonnummer}} {{gebruikersnaam}}`

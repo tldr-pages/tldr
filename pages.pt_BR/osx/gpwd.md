@@ -1,7 +1,7 @@
 # gpwd
 
-> Este comando é um apelido de `-p linux pwd`.
+> Este comando é um apelido de `pwd`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux pwd`
+`tldr pwd`

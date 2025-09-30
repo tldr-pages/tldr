@@ -1,8 +1,7 @@
 # cpush
 
-> Dit commando is een alias van `choco-push`.
-> Meer informatie: <https://docs.chocolatey.org/en-us/create/commands/push>.
+> Dit commando is een alias van `choco push`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr choco-push`
+`tldr choco push`

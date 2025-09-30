@@ -8,9 +8,9 @@
 
 `bc`
 
-- Start een [i]nteractieve sessie met de standaard wiskundige [b]ibliotheek ingeschakeld:
+- Start een interactieve sessie met de standaard wiskundige bibliotheek ingeschakeld:
 
-`bc --interactive --mathlib`
+`bc {{[-i|--interactive]}} {{[-l|--mathlib]}}`
 
 - Bereken een uitdrukking:
 
@@ -26,7 +26,7 @@
 
 - Bereken een sinus/cosinus/arctangens/natuurlijke logaritme/exponentiële functie met behulp van `mathlib`:
 
-`echo '{{s|c|a|l|e}}({{1}})' | bc --mathlib`
+`echo '{{s|c|a|l|e}}({{1}})' | bc {{[-l|--mathlib]}}`
 
 - Voer een inline faculteitsscript uit:
 

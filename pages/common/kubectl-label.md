@@ -5,7 +5,7 @@
 
 - Label a pod:
 
-`kubectl label pod {{pod_name}} {{key}}={{value}}`
+`kubectl label {{[po|pod]}} {{pod_name}} {{key}}={{value}}`
 
 - Update a pod label by overwriting the existing value:
 
@@ -13,12 +13,12 @@
 
 - Label all pods in the namespace:
 
-`kubectl label pods --all {{key}}={{value}}`
+`kubectl label {{[po|pods]}} --all {{key}}={{value}}`
 
 - Label a pod identified by the pod definition file:
 
-`kubectl label -f {{pod_definition_file}} {{key}}={{value}}`
+`kubectl label {{[-f|--filename]}} {{pod_definition_file}} {{key}}={{value}}`
 
 - Remove the label from a pod:
 
-`kubectl label pod {{pod_name}} {{key}}-`
+`kubectl label {{[po|pod]}} {{pod_name}} {{key}}-`

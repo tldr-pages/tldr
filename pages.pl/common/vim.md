@@ -1,7 +1,7 @@
 # vim
 
 > Vim (Vi IMproved), edytor tekstu wiersza polecenia, oferuje kilka trybów dla różnych rodzajów manipulacji tekstem.
-> Naciśnięcie `i` powoduje przejście do trybu edycji. `<Esc>` wraca do normalnego trybu, który pozwala na używanie komend.
+> Naciśnięcie `<i>` powoduje przejście do trybu edycji. `<Esc>` wraca do normalnego trybu, który pozwala na używanie komend.
 > Więcej informacji: <https://www.vim.org>.
 
 - Otwórz plik:
@@ -14,24 +14,24 @@
 
 - Zobacz instrukcję pomocy Vim:
 
-`:help<Enter>`
+`<:>help<Enter>`
 
 - Wyjdź bez zapisywania:
 
-`{{ZZ|:wq<Enter>}}`
+`{{<Esc><Z><Z>|<Esc><:>x<Enter>|<Esc><:>wq<Enter>}}`
 
 - Cofnij ostatnią operację:
 
-`<Esc>u`
+`<Esc><u>`
 
-- Wyszukaj wzorzec w pliku (naciśnij `n`/`N` przejść do następnego/poprzedniego dopasowania):
+- Wyszukaj wzorzec w pliku (naciśnij `<n>`/`<N>` przejść do następnego/poprzedniego dopasowania):
 
-`/{{szukaj_wzorca}}<Enter>`
+`</>{{szukaj_wzorca}}<Enter>`
 
 - Wykonaj podstawienie wyrażenia regularnego w całym pliku:
 
-`:%s/{{wzorzec}}/{{zastąpienie}}/g<Enter>`
+`<:>%s/{{wzorzec}}/{{zastąpienie}}/g<Enter>`
 
 - Wyświetlaj numery linii:
 
-`:set nu<Enter>`
+`<:>set nu<Enter>`

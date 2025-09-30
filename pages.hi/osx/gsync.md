@@ -1,7 +1,7 @@
 # gsync
 
-> यह आदेश `-p linux sync` का उपनाम है।
+> यह आदेश `sync` का उपनाम है।
 
 - मूल आदेश के लिए दस्तावेज़ देखें:
 
-`tldr -p linux sync`
+`tldr sync`

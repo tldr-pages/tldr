@@ -1,7 +1,7 @@
 # acpi
 
 > Affiche l'état de la batterie ou des renseignements sur la température.
-> Plus d'informations : <https://sourceforge.net/projects/acpiclient/files/acpiclient/>.
+> Plus d'informations : <https://manned.org/acpi>.
 
 - Affiche les informations sur la batterie :
 

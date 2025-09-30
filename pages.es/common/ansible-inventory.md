@@ -10,11 +10,11 @@
 
 - Muestra un inventario personalizado:
 
-`ansible-inventory --list --inventory {{ruta/al/archivo_o_script_o_directorio}}`
+`ansible-inventory --list {{[-i|--inventory-file]}} {{ruta/al/archivo_o_script_o_directorio}}`
 
 - Muestra el inventario por defecto en YAML:
 
-`ansible-inventory --list --yaml`
+`ansible-inventory --list {{[-y|--yaml]}}`
 
 - Vuelca el inventario por defecto a un fichero:
 

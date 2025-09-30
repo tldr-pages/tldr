@@ -1,7 +1,7 @@
 # gtsort
 
-> Este comando é um alias de `-p linux tsort`.
+> Este comando é um alias de `tsort`.
 
-- Exibe documentação do comando original:
+- Ver documentação do comando original:
 
-`tldr -p linux tsort`
+`tldr tsort`

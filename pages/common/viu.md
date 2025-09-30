@@ -9,16 +9,16 @@
 
 - Render an image or GIF from the internet using `curl`:
 
-`curl -s {{https://example.com/image.png}} | viu -`
+`curl {{[-s|--silent]}} {{https://example.com/image.png}} | viu -`
 
 - Render an image with a transparent background:
 
-`viu -t {{path/to/file}}`
+`viu {{[-t|--transparent]}} {{path/to/file}}`
 
 - Render an image with a specific width and height in pixels:
 
-`viu -w {{width}} -h {{height}} {{path/to/file}}`
+`viu {{[-w|--width]}} {{width}} {{[-h|--height]}} {{height}} {{path/to/file}}`
 
 - Render an image or GIF and display its file name:
 
-`viu -n {{path/to/file}}`
+`viu {{[-n|--name]}} {{path/to/file}}`

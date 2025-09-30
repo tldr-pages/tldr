@@ -1,6 +1,6 @@
 # khal
 
-> A text-based calendar and scheduling application for the command-line.
+> A text-based calendar and scheduling application.
 > More information: <https://lostpackets.de/khal>.
 
 - Start Khal on interactive mode:

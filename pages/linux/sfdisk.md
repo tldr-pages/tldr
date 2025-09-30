@@ -5,7 +5,7 @@
 
 - Back up the partition layout to a file:
 
-`sudo sfdisk {{-d|--dump}} {{path/to/device}} > {{path/to/file.dump}}`
+`sudo sfdisk {{[-d|--dump]}} {{path/to/device}} > {{path/to/file.dump}}`
 
 - Restore a partition layout:
 
@@ -13,7 +13,7 @@
 
 - Set the type of a partition:
 
-`sfdisk --part-type {{path/to/device}}} {{partition_number}} {{swap}}`
+`sfdisk --part-type {{path/to/device}} {{partition_number}} {{swap}}`
 
 - Delete a partition:
 
@@ -21,4 +21,4 @@
 
 - Display help:
 
-`sfdisk {{-h|--help}}`
+`sfdisk {{[-h|--help]}}`

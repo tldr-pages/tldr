@@ -5,15 +5,15 @@
 
 - 기존 위치를 작업공간 경로로 사용:
 
-`azurite {{-l|--location}} {{경로/대상/디렉터리}}`
+`azurite {{[-l|--location]}} {{경로/대상/디렉터리}}`
 
 - 콘솔에 표시된 액세스 로그를 비활성화:
 
-`azurite {{-s|--silent}}`
+`azurite {{[-s|--silent]}}`
 
 - 파일 경로를 로그 대상으로 제공하여, 디버그 로그를 활성화:
 
-`azurite {{-d|--debug}} {{경로/대상/debug.log}}`
+`azurite {{[-d|--debug]}} {{경로/대상/debug.log}}`
 
 - Blob/Queue/Table 서비스의 수신 주소를 사용자 정의:
 

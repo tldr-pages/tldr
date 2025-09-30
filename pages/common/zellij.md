@@ -1,25 +1,25 @@
 # zellij
 
 > Terminal multiplexer with batteries included.
-> See also `tmux` and `screen`.
+> See also: `tmux`, `screen`.
 > More information: <https://zellij.dev/documentation/>.
 
 - Start a new named session:
 
-`zellij --session {{name}}`
+`zellij {{[-s|--session]}} {{name}}`
 
 - List existing sessions:
 
-`zellij list-sessions`
+`zellij {{[ls|list-sessions]}}`
 
 - Attach to the most recently used session:
 
-`zellij attach`
+`zellij {{[a|attach]}}`
 
 - Open a new pane (inside a zellij session):
 
-`<Alt> + N`
+`<Alt n>`
 
 - Detach from the current session (inside a zellij session):
 
-`<Ctrl> + O, D`
+`<Ctrl o><d>`

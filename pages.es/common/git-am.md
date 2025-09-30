@@ -10,7 +10,7 @@
 
 - Aplica un archivo de parche remoto:
 
-`curl -L {{https://ejemplo.com/file.patch}} | git apply`
+`curl {{[-L|--location]}} {{https://ejemplo.com/file.patch}} | git apply`
 
 - Aborta el proceso de aplicar un archivo de parche:
 

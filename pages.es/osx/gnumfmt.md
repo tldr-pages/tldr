@@ -1,7 +1,7 @@
 # gnumfmt
 
-> Este comando es un alias de `-p linux numfmt`.
+> Este comando es un alias de `numfmt`.
 
-- Muestra la documentación del comando original:
+- Vea la documentación para el comando original:
 
-`tldr -p linux numfmt`
+`tldr numfmt`

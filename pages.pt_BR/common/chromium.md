@@ -5,23 +5,23 @@
 
 - Abre uma URL ou arquivo específico:
 
-`chromium {{https://exemplo.com|caminho/para/arquivo.html}}`
+`chromium {{https://example.com|caminho/para/arquivo.html}}`
 
 - Abre no modo de navegação anônima (incógnito):
 
-`chromium --incognito {{exemplo.com}}`
+`chromium --incognito {{example.com}}`
 
 - Abre em uma nova janela:
 
-`chromium --new-window {{exemplo.com}}`
+`chromium --new-window {{example.com}}`
 
 - Abre no modo aplicativo (sem barra de tarefas, barra de URL, botões, etc.):
 
-`chromium --app={{https://exemplo.com}}`
+`chromium --app={{https://example.com}}`
 
 - Usa um servidor proxy:
 
-`chromium --proxy-server="{{socks5://hostname:66}}" {{exemplo.com}}`
+`chromium --proxy-server="{{socks5://hostname:66}}" {{example.com}}`
 
 - Abre com um diretório de perfil customizado:
 

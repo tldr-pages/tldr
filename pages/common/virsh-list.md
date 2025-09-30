@@ -1,4 +1,4 @@
-# virsh-list
+# virsh list
 
 > List the ID, name, and state of virtual machines.
 > See also: `virsh`.

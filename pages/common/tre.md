@@ -24,9 +24,9 @@
 
 `tre --editor {{command}}`
 
-- Print files within the tree hierarchy, excluding all paths that match the provided regular expression:
+- Print files within the tree hierarchy, excluding all paths that match the provided `regex`:
 
-`tre --exclude {{regular_expression}}`
+`tre --exclude {{regex}}`
 
 - Display version:
 

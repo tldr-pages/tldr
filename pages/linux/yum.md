@@ -1,29 +1,8 @@
 # yum
 
-> Package management utility for RHEL, Fedora, and CentOS (for older versions).
-> For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
-> More information: <https://manned.org/yum>.
+> This command is an alias of `dnf` on modern distros.
+> For older distros (e.g. CentOS 7), `yum` is a distinct program from `dnf`. Some subcommands and options may be different.
 
-- Install a new package:
+- View documentation for the original command:
 
-`yum install {{package}}`
-
-- Install a new package and assume yes to all questions (also works with update, great for automated updates):
-
-`yum -y install {{package}}`
-
-- Find the package that provides a particular command:
-
-`yum provides {{command}}`
-
-- Remove a package:
-
-`yum remove {{package}}`
-
-- Display available updates for installed packages:
-
-`yum check-update`
-
-- Upgrade installed packages to the newest available versions:
-
-`yum upgrade`
+`tldr dnf`

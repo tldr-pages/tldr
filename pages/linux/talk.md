@@ -1,7 +1,7 @@
 # talk
 
 > A visual communication program which copies lines from your terminal to that of another user.
-> More information: <https://www.gnu.org/software/inetutils/manual/html_node/talk-invocation.html>.
+> More information: <https://www.gnu.org/software/inetutils/manual/inetutils.html#talk-invocation>.
 
 - Start a talk session with a user on the same machine:
 
@@ -17,8 +17,8 @@
 
 - Clear text on both terminal screens:
 
-`<Ctrl>+D`
+`<Ctrl d>`
 
 - Exit the talk session:
 
-`<Ctrl>+C`
+`<Ctrl c>`

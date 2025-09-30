@@ -9,11 +9,11 @@
 
 - Zet gecodeerde uitvoer naar een specifieke breedte (`0` schakelt het uit):
 
-`base64 {{-w|--wrap}} {{0|76|...}} {{pad/naar/bestand}}`
+`base64 {{[-w|--wrap]}} {{0|76|...}} {{pad/naar/bestand}}`
 
 - Decodeer een bestand:
 
-`base64 {{-d|--decode}} {{pad/naar/bestand}}`
+`base64 {{[-d|--decode]}} {{pad/naar/bestand}}`
 
 - Encodeer `stdin`:
 
@@ -21,4 +21,4 @@
 
 - Decodeer `stdin`:
 
-`{{commando}} | base64 {{-d|--decode}}`
+`{{commando}} | base64 {{[-d|--decode]}}`

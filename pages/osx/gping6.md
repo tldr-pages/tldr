@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr -p linux ping6`
+`tldr ping6`

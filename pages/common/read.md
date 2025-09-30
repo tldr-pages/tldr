@@ -1,7 +1,7 @@
 # read
 
 > Shell builtin for retrieving data from `stdin`.
-> More information: <https://manned.org/read.1p>.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-read>.
 
 - Store data that you type from the keyboard:
 
@@ -17,7 +17,7 @@
 
 - Assign multiple values to multiple variables:
 
-`read {{_ variable1 _ variable2}} <<< {{"The surname is Bond"}}`
+`read {{_ variable1 _ variable2}} <<< "{{The surname is Bond}}"`
 
 - Do not let backslash (\\) act as an escape character:
 

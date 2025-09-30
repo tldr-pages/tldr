@@ -1,20 +1,20 @@
 # xml canonic
 
 > Make XML documents canonical.
-> More information: <https://xmlstar.sourceforge.net/docs.php>.
+> More information: <https://xmlstar.sourceforge.net/doc/UG/xmlstarlet-ug.html#idm47077139560880>.
 
 - Make an XML document canonical, preserving comments:
 
-`xml canonic {{path/to/input.xml|URI}} > {{path/to/output.xml}}`
+`xml {{[c14n|canonic]}} {{path/to/input.xml|URI}} > {{path/to/output.xml}}`
 
 - Make an XML document canonical, removing comments:
 
-`xml canonic --without-comments {{path/to/input.xml|URI}} > {{path/to/output.xml}}`
+`xml {{[c14n|canonic]}} --without-comments {{path/to/input.xml|URI}} > {{path/to/output.xml}}`
 
 - Make XML exclusively canonical, using an XPATH from a file, preserving comments:
 
-`xml canonic --exc-with-comments {{path/to/input.xml|URI}} {{path/to/c14n.xpath}}`
+`xml {{[c14n|canonic]}} --exc-with-comments {{path/to/input.xml|URI}} {{path/to/c14n.xpath}}`
 
 - Display help:
 
-`xml canonic --help`
+`xml {{[c14n|canonic]}} --help`

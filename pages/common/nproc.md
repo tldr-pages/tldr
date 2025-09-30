@@ -1,7 +1,7 @@
 # nproc
 
 > Print the number of processing units (normally CPUs) available.
-> More information: <https://www.gnu.org/software/coreutils/nproc>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/nproc-invocation.html>.
 
 - Display the number of available processing units:
 

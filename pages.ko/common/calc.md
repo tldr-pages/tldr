@@ -1,7 +1,7 @@
 # calc
 
 > 터미널의 대화형 임의 정밀도 계산기.
-> 더 많은 정보: <https://github.com/lcn2/calc>.
+> 더 많은 정보: <https://manned.org/calc>.
 
 - 대화형 모드에서 `calc`을 시작:
 

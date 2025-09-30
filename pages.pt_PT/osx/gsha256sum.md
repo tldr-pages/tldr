@@ -1,7 +1,7 @@
 # gsha256sum
 
-> Este comando é um alias de `-p linux sha256sum`.
+> Este comando é um alias de `sha256sum`.
 
-- Exibe documentação do comando original:
+- Ver documentação do comando original:
 
-`tldr -p linux sha256sum`
+`tldr sha256sum`

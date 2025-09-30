@@ -1,7 +1,7 @@
 # ged
 
-> Dieser Befehl ist ein Alias von `-p linux ed`.
+> Dieser Befehl ist ein Alias von `ed`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 
-`tldr -p linux ed`
+`tldr ed`

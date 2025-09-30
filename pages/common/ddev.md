@@ -1,7 +1,7 @@
 # ddev
 
 > Container based local development tool for PHP environments.
-> More information: <https://ddev.readthedocs.io>.
+> More information: <https://ddev.readthedocs.io/en/stable/users/usage/cli/>.
 
 - Start up a project:
 
@@ -11,9 +11,9 @@
 
 `ddev config`
 
-- [f]ollow the log trail:
+- Follow the log trail:
 
-`ddev logs -f`
+`ddev logs {{[-f|--follow]}}`
 
 - Run composer within the container:
 
@@ -25,7 +25,7 @@
 
 - Export a database:
 
-`ddev export-db --file={{/tmp/db.sql.gz}}`
+`ddev export-db {{[-f|--file]}} {{/tmp/db.sql.gz}}`
 
 - Run a specific command within a container:
 

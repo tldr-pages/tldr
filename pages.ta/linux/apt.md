@@ -34,4 +34,4 @@
 
 - நிறுவப்பட்ட தொகுப்புகளை பட்டியலிடுங்கள்:
 
-`apt list --installed`
+`apt list {{[-i|--installed]}}`

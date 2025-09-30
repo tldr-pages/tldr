@@ -17,16 +17,16 @@
 
 - Create an automount point that mounts the actual file system at the time of first access:
 
-`systemd-mount --automount=yes {{path/to/file_or_device}}`
+`systemd-mount --automount yes {{path/to/file_or_device}}`
 
 - Unmount one or more devices:
 
-`systemd-mount --umount {{path/to/mount_point_or_device1}} {{path/to/mount_point_or_device2}}`
+`systemd-mount {{[-u|--umount]}} {{path/to/mount_point_or_device1 path/to/mount_point_or_device2 ...}}`
 
 - Mount a file system (image or block device) with a specific file system type:
 
-`systemd-mount --type={{file_system_type}} {{path/to/file_or_device}} {{path/to/mount_point}}`
+`systemd-mount {{[-t|--type]}} {{file_system_type}} {{path/to/file_or_device}} {{path/to/mount_point}}`
 
 - Mount a file system (image or block device) with additional mount options:
 
-`systemd-mount --options={{mount_options}} {{path/to/file_or_device}} {{path/to/mount_point}}`
+`systemd-mount {{[-o|--options]}} {{mount_options}} {{path/to/file_or_device}} {{path/to/mount_point}}`

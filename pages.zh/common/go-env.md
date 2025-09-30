@@ -1,7 +1,7 @@
 # go env
 
 > 管理 Go 工具链使用的环境变量。
-> 更多信息：<https://golang.org/cmd/go/#hdr-Print_Go_environment_information>.
+> 更多信息：<https://pkg.go.dev/cmd/go#hdr-Print_Go_environment_information>.
 
 - 显示所有环境变量：
 

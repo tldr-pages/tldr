@@ -2,7 +2,7 @@
 
 > Display information about a Git repository.
 > Part of `git-extras`.
-> More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-summary>.
+> More information: <https://manned.org/git-summary>.
 
 - Display data about a Git repository:
 

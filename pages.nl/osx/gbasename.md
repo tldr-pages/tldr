@@ -1,7 +1,7 @@
 # gbasename
 
-> Dit commando is een alias van `-p linux basename`.
+> Dit commando is een alias van GNU `basename`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux basename`
+`tldr basename`

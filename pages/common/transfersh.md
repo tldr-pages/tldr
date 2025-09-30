@@ -1,6 +1,6 @@
 # transfersh
 
-> An unofficial command-line client for transfer.sh.
+> An unofficial client for transfer.sh.
 > More information: <https://github.com/AlpixTM/transfersh>.
 
 - Upload a file to transfer.sh:
@@ -21,7 +21,7 @@
 
 - Upload all files from a directory recursively:
 
-`transfersh --recursive {{path/to/directory/}}`
+`transfersh --recursive {{path/to/directory}}/`
 
 - Upload a specific directory as an uncompressed tar:
 

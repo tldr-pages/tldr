@@ -10,24 +10,24 @@
 
 - Show metadata with ID 0 in `settings`:
 
-`pw-metadata {{-n|--name}} {{settings}} {{0}}`
+`pw-metadata {{[-n|--name]}} {{settings}} {{0}}`
 
 - List all available metadata objects:
 
-`pw-metadata {{-l|--list}}`
+`pw-metadata {{[-l|--list]}}`
 
 - Keep running and log the changes to the metadata:
 
-`pw-metadata {{-m|--monitor}}`
+`pw-metadata {{[-m|--monitor]}}`
 
 - Delete all metadata:
 
-`pw-metadata {{-d|--delete}}`
+`pw-metadata {{[-d|--delete]}}`
 
 - Set `log.level` to 1 in `settings`:
 
-`pw-metadata --name {{settings}} {{0}} {{log.level}} {{1}}`
+`pw-metadata {{[-n|--name]}} {{settings}} {{0}} {{log.level}} {{1}}`
 
 - Display help:
 
-`pw-metadata --help`
+`pw-metadata {{[-h|--help]}}`

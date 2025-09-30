@@ -9,8 +9,8 @@
 
 - Upgrade to the latest development release:
 
-`sudo do-release-upgrade --devel-release`
+`sudo do-release-upgrade {{[-d|--devel-release]}}`
 
 - Upgrade to the latest proposed release:
 
-`sudo do-release-upgrade --proposed`
+`sudo do-release-upgrade {{[-p|--proposed]}}`

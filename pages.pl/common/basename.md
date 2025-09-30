@@ -1,7 +1,7 @@
 # basename
 
 > Usuwa wiodące nazwy katalogów ze ścieżki.
-> Więcej informacji: <https://www.gnu.org/software/coreutils/basename>.
+> Więcej informacji: <https://www.gnu.org/software/coreutils/manual/html_node/basename-invocation.html>.
 
 - Wyświetl wyłącznie nazwę pliku ze ścieżki:
 

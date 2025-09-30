@@ -9,16 +9,16 @@
 
 - 모든 태그 복사:
 
-`crane copy {{소스}} {{대상}} {{-a|--all-tags}}`
+`crane copy {{소스}} {{대상}} {{[-a|--all-tags]}}`
 
 - 최대 동시 복사본 수를 설정, 기본값은 GOMAXPROCS:
 
-`crane copy {{소스}} {{대상}} {{-j|--jobs}} {{int}}`
+`crane copy {{소스}} {{대상}} {{[-j|--jobs]}} {{int}}`
 
 - 대상의 기존 태그를 덮어쓰지 않음:
 
-`crane copy {{소스}} {{대상}} {{-n|--no-clobber}}`
+`crane copy {{소스}} {{대상}} {{[-n|--no-clobber]}}`
 
 - 도움말 표시:
 
-`crane copy {{-h|--help}}`
+`crane copy {{[-h|--help]}}`

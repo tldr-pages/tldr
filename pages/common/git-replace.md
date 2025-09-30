@@ -9,8 +9,8 @@
 
 - Delete existing replace refs for the given objects:
 
-`git replace --delete {{object}}`
+`git replace {{[-d|--delete]}} {{object}}`
 
-- Edit an object’s content interactively:
+- Edit an object's content interactively:
 
 `git replace --edit {{object}}`

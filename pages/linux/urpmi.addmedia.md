@@ -3,7 +3,7 @@
 > Add media in Mageia.
 > Note: Mageia documentation uses medium and repository as synonymous.
 > See also: `urpmi`, `urpmi.update`, `urpme`, `urpmi.removemedia`, `urpmf`, `urpmq`.
-> More information: <https://wiki.mageia.org/en/URPMI#urpme>.
+> More information: <https://man.linuxreviews.org/man8/urpmi.addmedia.8.html>.
 
 - Add a medium:
 
@@ -11,7 +11,7 @@
 
 - Add a medium from a hard drive (run `genhdlist2` in the directory first):
 
-`sudo urpmi.addmedia --distrib HD file:/{{/path/to/repo}}`
+`sudo urpmi.addmedia --distrib HD file://{{path/to/repo}}`
 
 - Add important media from a chosen mirror:
 

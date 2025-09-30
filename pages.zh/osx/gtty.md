@@ -1,7 +1,7 @@
 # gtty
 
-> 这是 `-p linux tty` 命令的一个别名。
+> 这是 `tty` 命令的一个别名。
 
 - 原命令的文档在：
 
-`tldr -p linux tty`
+`tldr tty`

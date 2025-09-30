@@ -1,6 +1,6 @@
 # termdown
 
-> Countdown timer and stopwatch for the command-line.
+> Countdown timer and stopwatch.
 > More information: <https://github.com/trehn/termdown>.
 
 - Start a stopwatch:

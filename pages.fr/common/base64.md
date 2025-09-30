@@ -9,11 +9,11 @@
 
 - Envelopper la sortie codée à une largeur spécifique (`0` désactive l'enveloppement) :
 
-`base64 {{-w|--wrap}} {{0|76|...}} {{chemin/vers/fichier}}`
+`base64 {{[-w|--wrap]}} {{0|76|...}} {{chemin/vers/fichier}}`
 
 - Décode un fichier :
 
-`base64 {{-d|--decode}} {{chemin/vers/fichier}}`
+`base64 {{[-d|--decode]}} {{chemin/vers/fichier}}`
 
 - Encode depuis `stdin` :
 
@@ -21,4 +21,4 @@
 
 - Décode depuis `stdin` :
 
-`{{commande}} | base64 {{-d|--decode}}`
+`{{commande}} | base64 {{[-d|--decode]}}`

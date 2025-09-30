@@ -1,7 +1,7 @@
 # dysk
 
 > Muestra información del sistema de archivos en una tabla.
-> Más información: <https://dystroy.org/dysk>.
+> Más información: <https://manned.org/dysk>.
 
 - Obtén una visión general estándar de tus discos habituales:
 
@@ -9,16 +9,16 @@
 
 - Ordena por tamaño libre:
 
-`dysk --sort free`
+`dysk {{[-s|--sort]}} free`
 
 - Incluye solo discos HDD:
 
-`dysk --filter 'disk = HDD'`
+`dysk {{[-f|--filter]}} 'disk = HDD'`
 
 - Excluye discos SSD:
 
-`dysk --filter 'disk <> SSD'`
+`dysk {{[-f|--filter]}} 'disk <> SSD'`
 
 - Muestra discos con alta ocupación o poco espacio libre:
 
-`dysk --filter 'use > 65% | free < 50G'`
+`dysk {{[-f|--filter]}} 'use > 65% | free < 50G'`

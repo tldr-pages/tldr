@@ -1,7 +1,7 @@
 # abduco
 
 > 터미널 세션 관리자.
-> 더 많은 정보: <https://www.brain-dump.org/projects/abduco/>.
+> 더 많은 정보: <https://manned.org/abduco>.
 
 - 세션 목록:
 
@@ -17,7 +17,7 @@
 
 - 세션으로부터 제거:
 
-`<Ctrl> + \`
+`<Ctrl \>`
 
 - 읽기 전용 모드로 세션 연결하기:
 

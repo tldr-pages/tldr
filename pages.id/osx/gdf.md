@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux df`
+`tldr {{[-p|--platform]}} linux df`

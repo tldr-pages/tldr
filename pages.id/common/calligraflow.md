@@ -1,7 +1,7 @@
 # calligraflow
 
 > Aplikasi pengolah flowchart dan diagram, bagian dari Calligra.
-> Lihat juga:  `calligrastage`, `calligrawords`, `calligrasheets`.
+> Lihat juga: `calligrastage`, `calligrawords`, `calligrasheets`.
 > Informasi lebih lanjut: <https://manned.org/calligraflow>.
 
 - Buka aplikasi pengolah flowchart dan diagram:

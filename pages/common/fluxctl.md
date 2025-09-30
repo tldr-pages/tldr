@@ -1,6 +1,6 @@
 # fluxctl
 
-> Command-line tool for Flux v1.
+> Tool for Flux v1.
 > More information: <https://fluxcd.io/legacy/flux/references/fluxctl>.
 
 - List workloads currently running in the cluster on specific namespace:

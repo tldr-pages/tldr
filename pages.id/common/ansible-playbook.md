@@ -9,19 +9,19 @@
 
 - Jalankan kumpulan tugas playbook dengan [i]nventaris mesin secara kustom:
 
-`ansible-playbook {{playbook}} -i {{berkas_inventaris}}`
+`ansible-playbook {{playbook}} {{[-i|--inventory]}} {{berkas_inventaris}}`
 
 - Jalankan kumpulan tugas playbook dengan variabel [e]kstra sebagaimana didefinisikan dalam barisan perintah (command-line):
 
-`ansible-playbook {{playbook}} -e "{{variabel1}}={{nilai1}} {{variabel2}}={{nilai2}}"`
+`ansible-playbook {{playbook}} {{[-e|--extra-vars]}} "{{variabel1}}={{nilai1}} {{variabel2}}={{nilai2}}"`
 
 - Jalankan kumpulan tugas playbook dengan variabel [e]kstra sebagaimana didefinisikan di dalam suatu berkas JSON:
 
-`ansible-playbook {{playbook}} -e "@{{daftar_variabel.json}}"`
+`ansible-playbook {{playbook}} {{[-e|--extra-vars]}} "@{{daftar_variabel.json}}"`
 
 - Jalankan kumpulan tugas playbook dengan konfigurasi tag tertentu:
 
-`ansible-playbook {{playbook}} --tags {{tag1,tag2}}`
+`ansible-playbook {{playbook}} {{[-t|--tags|]}} {{tag1,tag2}}`
 
 - Jalankan kumpulan tugas playbook, dimulai dari nama tugas spesifik:
 
@@ -29,4 +29,4 @@
 
 - Jalankan kumpulan tugas playbook tanpa melakukan perubahan sebenarnya (dry-run):
 
-`ansible-playbook {{playbook}} --check --diff`
+`ansible-playbook {{playbook}} {{[-C|--check|]}} {{[-D|--diff|]}}`

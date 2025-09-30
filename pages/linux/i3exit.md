@@ -1,7 +1,7 @@
 # i3exit
 
 > Exit the i3 window manager.
-> More information: <https://gitlab.manjaro.org/packages/community/i3/i3exit>.
+> More information: <https://gitlab.manjaro.org/packages/extra/i3exit/-/blob/master/i3exit>.
 
 - Log out of i3:
 

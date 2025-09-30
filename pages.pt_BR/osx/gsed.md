@@ -4,4 +4,4 @@
 
 - Exibe documentação sobre o comando original:
 
-`tldr -p linux sed`
+`tldr {{[-p|--platform]}} linux sed`

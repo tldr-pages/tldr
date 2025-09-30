@@ -6,4 +6,4 @@
 
 - 특정 스토리지 이름을 사용하여 VMDK/qcow2/raw 디스크 이미지 가져오기:
 
-`qm importdisk {{가상_머신_ID}} {{경로/대상/디스크}} {{저장소_이름}} --format {{qcow2|raw|vmdk}}`
+`qm disk import {{가상_머신_ID}} {{경로/대상/디스크}} {{저장소_이름}} --format {{qcow2|raw|vmdk}}`

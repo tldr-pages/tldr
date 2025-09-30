@@ -11,7 +11,7 @@
 
 `cargo bench --no-fail-fast`
 
-- Compile, but don’t run benchmarks:
+- Compile, but don't run benchmarks:
 
 `cargo bench --no-run`
 
@@ -31,6 +31,6 @@
 
 `cargo bench --bins`
 
-- Benchmark the package’s library:
+- Benchmark the package's library:
 
 `cargo bench --lib`

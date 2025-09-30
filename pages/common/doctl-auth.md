@@ -9,7 +9,7 @@
 
 - List authentication contexts (API tokens):
 
-`doctl auth list`
+`doctl auth {{[ls|list]}}`
 
 - Switch contexts (API tokens):
 
@@ -21,4 +21,4 @@
 
 - Show available commands:
 
-`doctl auth --help`
+`doctl auth {{[-h|--help]}}`

@@ -1,6 +1,6 @@
 # ex
 
-> Command-line text editor.
+> Text editor.
 > See also: `vim`.
 > More information: <https://www.vim.org>.
 
@@ -20,13 +20,13 @@
 
 `/{{search_pattern}}<Enter>`
 
-- Perform a regular expression substitution in the whole file:
+- Perform a `regex` substitution in the whole file:
 
-`%s/{{regular_expression}}/{{replacement}}/g<Enter>`
+`%s/{{regex}}/{{replacement}}/g<Enter>`
 
 - Insert text:
 
-`i<Enter>{{text}}<C-c>`
+`i<Enter>{{text}}<Ctrl c>`
 
 - Switch to Vim:
 

@@ -9,11 +9,11 @@
 
 - Decompress a file:
 
-`lz4 -d {{file.lz4}}`
+`lz4 {{[-d|--decompress]}} {{file.lz4}}`
 
 - Decompress a file and write to `stdout`:
 
-`lz4 -dc {{file.lz4}}`
+`lz4 {{[-dc|--decompress --stdout]}} {{file.lz4}}`
 
 - Package and compress a directory and its contents:
 
@@ -21,8 +21,8 @@
 
 - Decompress and unpack a directory and its contents:
 
-`lz4 -dc {{dir.tar.lz4}} | tar -xv`
+`lz4 {{[-dc|--decompress --stdout]}} {{dir.tar.lz4}} | tar -xv`
 
 - Compress a file using the best compression:
 
-`lz4 -9 {{path/to/file}}`
+`lz4 {{[-12|--best]}} {{path/to/file}}`

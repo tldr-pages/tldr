@@ -1,7 +1,7 @@
 # gtest
 
-> Perintah ini merupakan alias dari `-p linux test`.
+> Perintah ini merupakan alias dari `test`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux test`
+`tldr test`

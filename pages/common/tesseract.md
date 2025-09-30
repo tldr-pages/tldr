@@ -1,7 +1,7 @@
 # tesseract
 
 > OCR (Optical Character Recognition) engine.
-> More information: <https://github.com/tesseract-ocr/tesseract>.
+> More information: <https://github.com/tesseract-ocr/tesseract/blob/main/doc/tesseract.1.asc>.
 
 - Recognize text in an image and save it to `output.txt` (the `.txt` extension is added automatically):
 
@@ -17,7 +17,7 @@
 
 - Specify a custom page segmentation mode (default is 3):
 
-`tesseract -psm {{0_to_10}} {{image.png}} {{output}}`
+`tesseract --psm {{0_to_10}} {{image.png}} {{output}}`
 
 - List page segmentation modes and their descriptions:
 

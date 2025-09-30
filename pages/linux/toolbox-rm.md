@@ -10,8 +10,8 @@
 
 - Remove all `toolbox` containers:
 
-`toolbox rm --all`
+`toolbox rm {{[-a|--all]}}`
 
 - Force the removal of a currently active `toolbox` container:
 
-`toolbox rm --force {{container_name}}`
+`toolbox rm {{[-f|--force]}} {{container_name}}`

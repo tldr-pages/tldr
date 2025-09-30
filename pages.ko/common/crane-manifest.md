@@ -9,4 +9,4 @@
 
 - 도움말 표시:
 
-`crane manifest {{-h|--help}}`
+`crane manifest {{[-h|--help]}}`

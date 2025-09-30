@@ -13,7 +13,7 @@
 
 - 패치 형식으로 변경 사항 표시:
 
-`git diff-tree {{-p|--patch}} {{tree-ish1}} {{tree-ish2}}`
+`git diff-tree {{[-p|--patch]}} {{tree-ish1}} {{tree-ish2}}`
 
 - 특정 경로로 변경 사항 필터링:
 

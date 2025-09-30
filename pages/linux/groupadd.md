@@ -10,8 +10,8 @@
 
 - Create a new system group:
 
-`sudo groupadd --system {{group_name}}`
+`sudo groupadd {{[-r|--system]}} {{group_name}}`
 
 - Create a new group with the specific groupid:
 
-`sudo groupadd --gid {{id}} {{group_name}}`
+`sudo groupadd {{[-g|--gid]}} {{id}} {{group_name}}`

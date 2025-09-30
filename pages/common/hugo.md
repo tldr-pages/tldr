@@ -2,7 +2,7 @@
 
 > Template-based static site generator. Uses modules, components, and themes.
 > Some subcommands such as `server` have their own usage documentation.
-> More information: <https://gohugo.io>.
+> More information: <https://gohugo.io/commands/>.
 
 - Create a new Hugo site:
 
@@ -22,15 +22,15 @@
 
 - Build a site including pages that are marked as a "draft":
 
-`hugo --buildDrafts`
+`hugo {{[-D|--buildDrafts]}}`
 
 - Build a site on your local IP:
 
-`hugo server --bind {{local-ip}} --baseURL {{http://local-ip}}`
+`hugo server --bind {{local_ip}} {{[-b|--baseURL]}} {{http://local_ip}}`
 
 - Build a site to a given directory:
 
-`hugo --destination {{path/to/destination}}`
+`hugo {{[-d|--destination]}} {{path/to/destination}}`
 
 - Build a site, start up a webserver to serve it, and automatically reload when pages are edited:
 

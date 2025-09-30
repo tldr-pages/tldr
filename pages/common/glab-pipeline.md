@@ -1,7 +1,7 @@
 # glab pipeline
 
 > List, view, and run GitLab CI/CD pipelines.
-> More information: <https://glab.readthedocs.io/en/latest/pipeline>.
+> More information: <https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/index.md>.
 
 - View a running pipeline on the current branch:
 

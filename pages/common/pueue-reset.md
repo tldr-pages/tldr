@@ -13,4 +13,4 @@
 
 - Reset without asking for confirmation:
 
-`pueue reset --force`
+`pueue reset {{[-f|--force]}}`

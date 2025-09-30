@@ -9,7 +9,7 @@
 
 - 사용자 정의 네트워크 생성:
 
-`docker network create --driver {{드라이버_이름}} {{네트워크_이름}}`
+`docker network create {{[-d|--driver]}} {{드라이버_이름}} {{네트워크_이름}}`
 
 - 하나 이상의 네트워크에 대한 자세한 정보 표시:
 

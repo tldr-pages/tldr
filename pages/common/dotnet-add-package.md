@@ -13,15 +13,15 @@
 
 - Add a specific version of a package to the project:
 
-`dotnet add package {{package}} --version {{1.0.0}}`
+`dotnet add package {{package}} {{[-v|--version]}} {{1.0.0}}`
 
 - Add a package using a specific NuGet source:
 
-`dotnet add package {{package}} --source {{https://api.nuget.org/v3/index.json}}`
+`dotnet add package {{package}} {{[-s|--source]}} {{https://api.nuget.org/v3/index.json}}`
 
 - Add a package only when targeting a specific framework:
 
-`dotnet add package {{package}} --framework {{net7.0}}`
+`dotnet add package {{package}} {{[-f|--framework]}} {{net7.0}}`
 
 - Add and specify the directory where to restore packages (`~/.nuget/packages` by default):
 

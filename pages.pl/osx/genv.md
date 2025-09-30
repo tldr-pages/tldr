@@ -1,7 +1,7 @@
 # genv
 
-> To polecenie jest aliasem `-p linux env`.
+> To polecenie jest aliasem GNU `env`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux env`
+`tldr env`

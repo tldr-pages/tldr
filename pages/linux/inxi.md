@@ -7,10 +7,30 @@
 
 `inxi`
 
-- Print a full description of CPU, memory, disk, network and process information:
+- Print a full description of CPU, memory, disk, network, and process information and filter sensitive information:
 
-`inxi -Fz`
+`inxi {{[-ez|--expanded --filter]}}`
 
-- Print information about the distribution's repository:
+- Print a summary of CPU information:
 
-`inxi -r`
+`inxi {{[-C|--cpu]}}`
+
+- Print a summary of graphics information:
+
+`inxi {{[-G|--graphics]}}`
+
+- Print a summary of system RAM:
+
+`inxi {{[-m|--memory]}}`
+
+- Print a summary of system audio:
+
+`inxi {{[-A|--audio]}}`
+
+- Print available sensor data:
+
+`inxi {{[-s|--sensors]}}`
+
+- Print information about the distribution's repositories:
+
+`inxi {{[-r|--repos]}}`

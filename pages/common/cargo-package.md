@@ -10,4 +10,4 @@
 
 - Display what files would be included in the tarball without actually creating it:
 
-`cargo package --list`
+`cargo package {{[-l|--list]}}`

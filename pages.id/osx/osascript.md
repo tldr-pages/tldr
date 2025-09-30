@@ -5,11 +5,11 @@
 
 - Jalankan sebuah perintah AppleScript:
 
-`osascript -e "{{say 'Halo dunia'}}"`
+`osascript -e '{{say "Halo dunia"}}'`
 
 - Jalankan beberapa perintah AppleScript:
 
-`osascript -e "{{say 'Halo'}}" -e "{{say 'dunia'}}"`
+`osascript -e '{{say "Halo"}}' -e '{{say "dunia"}}'`
 
 - Mengeksekusi perintah dari file AppleScript yang telah terkompilasi (`*.scpt`), terbundel (`*.scptd`), atau secara plaintext (`*.applescript`):
 

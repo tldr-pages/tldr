@@ -1,7 +1,7 @@
 # gptx
 
-> To polecenie jest aliasem `-p linux ptx`.
+> To polecenie jest aliasem GNU `ptx`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux ptx`
+`tldr {{[-p|--platform]}} linux ptx`

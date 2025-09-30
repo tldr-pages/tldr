@@ -9,7 +9,7 @@
 
 - Elenca tutti i rami (locali e remoti):
 
-`git branch -a`
+`git branch {{[-a|--all]}}`
 
 - Crea un nuovo ramo a partire dal commit corrente:
 
@@ -21,8 +21,8 @@
 
 - Rinomina un ramo (non applicabile sul ramo corrente):
 
-`git branch {{-m|--move}} {{vecchio_nome}} {{nuovo_nome}}`
+`git branch {{[-m|--move]}} {{vecchio_nome}} {{nuovo_nome}}`
 
 - Cancella un ramo locale (non applicabile sul ramo corrente):
 
-`git branch {{-d|--delete}} {{nome_ramo}}`
+`git branch {{[-d|--delete]}} {{nome_ramo}}`

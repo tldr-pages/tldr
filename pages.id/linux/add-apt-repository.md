@@ -1,7 +1,7 @@
 # add-apt-repository
 
 > Kelola definisi repositori `apt`.
-> Informasi lebih lanjut: <https://manned.org/apt-add-repository>.
+> Informasi lebih lanjut: <https://manned.org/add-apt-repository>.
 
 - Tambah repositori `apt` baru:
 
@@ -9,7 +9,7 @@
 
 - Hilangkan sebuah repositori `apt`:
 
-`add-apt-repository --remove {{repositori}}`
+`add-apt-repository {{[-r|--remove]}} {{repositori}}`
 
 - Perbarui cache paket setelah menambahkan sebuah repositori:
 
@@ -17,4 +17,4 @@
 
 - Izinkan sumber paket untuk diunduh dari repositori:
 
-`add-apt-repository --enable-source {{repositori}}`
+`add-apt-repository {{[-s|--enable-source]}} {{repositori}}`

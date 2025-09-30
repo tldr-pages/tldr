@@ -1,7 +1,7 @@
 # gunits
 
-> Este comando é um apelido de `-p linux units`.
+> Este comando é um apelido de `units`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux units`
+`tldr units`

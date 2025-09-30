@@ -3,22 +3,22 @@
 > Network Interface Configurator.
 > More information: <https://net-tools.sourceforge.io/man/ifconfig.8.html>.
 
-- View network settings of an Ethernet adapter:
+- View network settings of an interface:
 
-`ifconfig eth0`
+`ifconfig {{interface_name}}`
 
 - Display details of all interfaces, including disabled interfaces:
 
 `ifconfig -a`
 
-- Disable eth0 interface:
+- Disable an interface:
 
-`ifconfig eth0 down`
+`ifconfig {{interface_name}} down`
 
-- Enable eth0 interface:
+- Enable an interface:
 
-`ifconfig eth0 up`
+`ifconfig {{interface_name}} up`
 
-- Assign IP address to eth0 interface:
+- Assign an IP address to an interface:
 
-`ifconfig eth0 {{ip_address}}`
+`ifconfig {{interface_name}} {{ip_address}}`

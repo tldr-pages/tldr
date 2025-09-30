@@ -1,7 +1,7 @@
 # gmkdir
 
-> To polecenie jest aliasem `-p linux mkdir`.
+> To polecenie jest aliasem GNU `mkdir`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux mkdir`
+`tldr mkdir`

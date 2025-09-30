@@ -10,15 +10,15 @@
 
 - Check for outdated dependencies found in every workspace package:
 
-`pnpm outdated -r`
+`pnpm outdated {{[-r|--recursive]}}`
 
 - Filter outdated packages using a package selector:
 
 `pnpm outdated --filter {{package_selector}}`
 
-- List outdated packages [g]lobally:
+- List outdated packages globally:
 
-`pnpm outdated --global`
+`pnpm outdated {{[-g|--global]}}`
 
 - Print details of outdated packages:
 
@@ -32,6 +32,6 @@
 
 `pnpm outdated --compatible`
 
-- Check only outdated [D]ev dependencies:
+- Check only outdated dev dependencies:
 
-`pnpm outdated --dev`
+`pnpm outdated {{[-D|--dev]}}`

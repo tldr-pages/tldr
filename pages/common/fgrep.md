@@ -10,20 +10,20 @@
 
 - Search only lines that match entirely in one or more files:
 
-`fgrep -x {{search_string}} {{path/to/file1 path/to/file2 ...}}`
+`fgrep {{[-x|--line-regexp]}} {{search_string}} {{path/to/file1 path/to/file2 ...}}`
 
 - Count the number of lines that match the given string in a file:
 
-`fgrep -c {{search_string}} {{path/to/file}}`
+`fgrep {{[-c|--count]}} {{search_string}} {{path/to/file}}`
 
 - Show the line number in the file along with the line matched:
 
-`fgrep -n {{search_string}} {{path/to/file}}`
+`fgrep {{[-n|--line-number]}} {{search_string}} {{path/to/file}}`
 
 - Display all lines except those that contain the search string:
 
-`fgrep -v {{search_string}} {{path/to/file}}`
+`fgrep {{[-v|--invert-match]}} {{search_string}} {{path/to/file}}`
 
 - Display filenames whose content matches the search string at least once:
 
-`fgrep -l {{search_string}} {{path/to/file1 path/to/file2 ...}}`
+`fgrep {{[-l|--files-with-matches]}} {{search_string}} {{path/to/file1 path/to/file2 ...}}`

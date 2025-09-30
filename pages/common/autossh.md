@@ -2,7 +2,7 @@
 
 > Run, monitor and restart SSH connections.
 > Auto-reconnects to keep port forwarding tunnels up. Accepts all SSH flags.
-> More information: <https://www.harding.motd.ca/autossh>.
+> More information: <https://manned.org/autossh>.
 
 - Start an SSH session, restarting when the [M]onitoring port fails to return data:
 

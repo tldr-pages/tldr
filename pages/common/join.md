@@ -1,7 +1,7 @@
 # join
 
 > Join lines of two sorted files on a common field.
-> More information: <https://www.gnu.org/software/coreutils/join>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/join-invocation.html>.
 
 - Join two files on the first (default) field:
 

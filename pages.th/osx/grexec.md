@@ -4,4 +4,4 @@
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr -p linux rexec`
+`tldr {{[-p|--platform]}} linux rexec`

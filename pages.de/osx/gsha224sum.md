@@ -1,7 +1,7 @@
 # gsha224sum
 
-> Dieser Befehl ist ein Alias von `-p linux sha224sum`.
+> Dieser Befehl ist ein Alias von `sha224sum`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 
-`tldr -p linux sha224sum`
+`tldr sha224sum`

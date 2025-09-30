@@ -6,28 +6,28 @@
 
 - Open een SVG-bestand in de Inkscape GUI:
 
-`inkscape {{bestandsnaam.svg}}`
+`inkscape {{pad/naar/bestand.svg}}`
 
 - Exporteer een SVG-bestand in een bitmap met het standaardformaat (PNG) en de standaardresolutie (96 DPI):
 
-`inkscape {{bestandsnaam.svg}} -o {{bestandsnaam.png}}`
+`inkscape {{pad/naar/bestand.svg}} {{[-o|--export-filename]}} {{pad/naar/bestandsnaam.png}}`
 
 - Exporteer een SVG-bestand in een bitmap van 600x400 pixels (vervorming van de aspectverhouding mogelijk):
 
-`inkscape {{bestandsnaam.svg}} -o {{bestandsnaam.png}} -w {{600}} -h {{400}}`
+`inkscape {{pad/naar/bestand.svg}} {{[-o|--export-filename]}} {{pad/naar/bestandsnaam.png}} {{[-w|--export-width]}} 600 {{[-h|--export-height]}} 400`
 
 - Exporteer de tekening (selectiekader van alle objecten) van een SVG-bestand in een bitmap:
 
-`inkscape {{bestandsnaam.svg}} -o {{bestandsnaam.png}} -D`
+`inkscape {{pad/naar/bestand.svg}} {{[-o|--export-filename]}} {{pad/naar/bestandsnaam.png}} {{[-D|--export-area-drawing]}}`
 
 - Exporteer een enkel object, gezien zijn ID, in een bitmap:
 
-`inkscape {{bestandsnaam.svg}} -i {{id}} -o {{object.png}}`
+`inkscape {{pad/naar/bestand.svg}} {{[-i|--export-id]}} {{id}} {{[-o|--export-filename]}} {{object.png}}`
 
 - Exporteer een SVG-document naar PDF, converteer alle teksten naar paden:
 
-`inkscape {{bestandsnaam.svg}} -o {{bestandsnaam.pdf}} --export-text-to-path`
+`inkscape {{pad/naar/bestand.svg}} {{[-o|--export-filename]}} {{bestandsnaam.pdf}} {{[-T|--export-text-to-path]}}`
 
-- Dupliceer het object met id="pad123", roteer het duplicaat 90 graden, sla het bestand op, en sluit Inkscape af:
+- Dupliceer het object met id="path123", roteer het duplicaat 90 graden, sla het bestand op, en sluit Inkscape af:
 
-`inkscape {{bestandsnaam.svg}} --select=path123 --verb="{{EditDuplicate;ObjectRotate90;FileSave;FileQuit}}"`
+`inkscape {{pad/naar/bestand.svg}} --select=path123 --verb="{{EditDuplicate;ObjectRotate90;FileSave;FileQuit}}"`

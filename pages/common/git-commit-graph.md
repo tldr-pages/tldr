@@ -9,7 +9,7 @@
 
 - Write a commit-graph file containing all reachable commits:
 
-`git show-ref --hash | git commit-graph write --stdin-commits`
+`git show-ref {{[-s|--hash]}} | git commit-graph write --stdin-commits`
 
 - Write a commit-graph file containing all commits in the current commit-graph file along with those reachable from `HEAD`:
 

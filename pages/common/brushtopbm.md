@@ -9,4 +9,4 @@
 
 - Display version:
 
-`brushtopbm -version`
+`brushtopbm {{[-v|-version]}}`

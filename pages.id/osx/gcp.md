@@ -1,7 +1,7 @@
 # gcp
 
-> Perintah ini merupakan alias dari `-p linux cp`.
+> Perintah ini merupakan alias dari `cp`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux cp`
+`tldr cp`

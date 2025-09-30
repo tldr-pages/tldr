@@ -1,7 +1,7 @@
 # sngrep
 
 > Display SIP calls message flows from terminal.
-> More information: <https://github.com/irontec/sngrep>.
+> More information: <https://manned.org/sngrep>.
 
 - Visualize SIP packets from a PCAP file:
 

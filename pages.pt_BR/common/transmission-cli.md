@@ -2,7 +2,7 @@
 
 > Um cliente BitTorrent leve e de linha de comando.
 > Esta ferramenta foi descontinuada. Por favor, veja `transmission-remote`.
-> Mais informações: <https://transmissionbt.com>.
+> Mais informações: <https://manned.org/transmission-cli>.
 
 - Baixa um torrent específico:
 
@@ -10,7 +10,7 @@
 
 - Baixa um torrent para um diretório específico:
 
-`transmission-cli --download-dir {{caminho/para/diretório_download}} {{url|magnet|caminho/para/arquivo}}`
+`transmission-cli {{[-w|--download-dir]}} {{caminho/para/diretório_download}} {{url|magnet|caminho/para/arquivo}}`
 
 - Cria um arquivo torrent de um arquivo ou diretório específico:
 
@@ -18,20 +18,20 @@
 
 - Especifica o limite de velocidade de download (em KB/s):
 
-`transmission-cli --downlimit {{50}} {{url|magnet|caminho/para/arquivo}}`
+`transmission-cli {{[-d|--downlimit]}} {{50}} {{url|magnet|caminho/para/arquivo}}`
 
 - Especifica o limite de velocidade de upload (em KB/s):
 
-`transmission-cli --uplimit {{50}} {{url|magnet|caminho/para/arquivo}}`
+`transmission-cli {{[-u|--uplimit]}} {{50}} {{url|magnet|caminho/para/arquivo}}`
 
 - Usa uma porta específica para conexões:
 
-`transmission-cli --port {{número_porta}} {{url|magnet|caminho/para/arquivo}}`
+`transmission-cli {{[-p|--port]}} {{número_porta}} {{url|magnet|caminho/para/arquivo}}`
 
 - Força criptografia para conexões com pares:
 
-`transmission-cli --encryption-required {{url|magnet|caminho/para/arquivo}}`
+`transmission-cli {{[-er|--encryption-required]}} {{url|magnet|caminho/para/arquivo}}`
 
 - Usa uma lista de bloqueio de pares formatados em Bluetack:
 
-`transmission-cli --blocklist {{url_lista_bloqueio|caminho/para/lista_bloqueio}} {{url|magnet|caminho/para/arquivo}}`
+`transmission-cli {{[-b|--blocklist]}} {{url_lista_bloqueio|caminho/para/lista_bloqueio}} {{url|magnet|caminho/para/arquivo}}`

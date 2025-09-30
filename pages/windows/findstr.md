@@ -17,11 +17,11 @@
 
 - Find strings using a case-insensitive search:
 
-`findstr /i "{{string1 string2 ...}}" *"`
+`findstr /i "{{string1 string2 ...}}" *`
 
-- Find strings in all files using regular expressions:
+- Find strings in all files using `regex`:
 
-`findstr /r "{{expression}}" *`
+`findstr /r "{{regex}}" *`
 
 - Find a literal string (containing spaces) in all text files:
 

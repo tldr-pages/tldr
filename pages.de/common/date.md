@@ -1,7 +1,7 @@
 # date
 
 > Setze die Systemzeit oder zeige sie an.
-> Weitere Informationen: <https://www.gnu.org/software/coreutils/date>.
+> Weitere Informationen: <https://www.gnu.org/software/coreutils/manual/html_node/date-invocation.html>.
 
 - Zeige das aktuelle Datum im Format der eingestellten Locale an:
 

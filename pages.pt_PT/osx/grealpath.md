@@ -1,7 +1,7 @@
 # grealpath
 
-> Este comando é um alias de `-p linux realpath`.
+> Este comando é um alias de `realpath`.
 
-- Exibe documentação do comando original:
+- Ver documentação do comando original:
 
-`tldr -p linux realpath`
+`tldr realpath`

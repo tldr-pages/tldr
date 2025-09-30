@@ -1,13 +1,7 @@
 # libuser-lid
 
-> Display a user's groups or a group's users.
-> On Fedora and Arch Linux, this program is installed as `lid`.
-> More information: <https://manned.org/lid.8>.
+> This command is an alias of `lid`.
 
-- List primary and secondary groups of a specific user:
+- View documentation for the original command:
 
-`sudo lid {{username}}`
-
-- List users of a specific group:
-
-`sudo lid --group {{name}}`
+`tldr lid.libuser`

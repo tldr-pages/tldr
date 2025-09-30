@@ -3,7 +3,7 @@
 > Create a squashfs filesystem from a tar archive.
 > More information: <https://manned.org/sqfstar>.
 
-- Create a squashfs filesystem (compressed using `gzip` by default) from an uncompressed  tar  archive:
+- Create a squashfs filesystem (compressed using `gzip` by default) from an uncompressed tar archive:
 
 `sqfstar {{filesystem.squashfs}} < {{archive.tar}}`
 
@@ -19,6 +19,6 @@
 
 `zstdcat {{archive.tar.zst}} | sqfstar {{filesystem.squashfs}} "{{*.gz}}"`
 
-- Create a squashfs filesystem from a tar archive compressed with `lz4`, excluding files matching a regular expression:
+- Create a squashfs filesystem from a tar archive compressed with `lz4`, excluding files matching a `regex`:
 
-`lz4cat {{archive.tar.lz4}} | sqfstar {{filesystem.squashfs}} -regex "{{regular_expression}}"`
+`lz4cat {{archive.tar.lz4}} | sqfstar {{filesystem.squashfs}} -regex "{{regex}}"`

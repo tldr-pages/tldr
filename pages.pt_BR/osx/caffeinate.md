@@ -15,10 +15,10 @@
 
 `caffeinate -w {{pid}}`
 
-- Evita a suspensão (use `Ctrl + C` para sair):
+- Evita a suspensão (use `<Ctrl c>` para sair):
 
 `caffeinate -i`
 
-- Evita a suspensão do disco (use `Ctrl + C` para sair):
+- Evita a suspensão do disco (use `<Ctrl c>` para sair):
 
 `caffeinate -m`

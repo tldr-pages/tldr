@@ -1,7 +1,7 @@
 # mlr
 
 > Miller is like `awk`, `sed`, `cut`, `join`, and `sort` for name-indexed data such as CSV, TSV, and tabular JSON.
-> More information: <https://johnkerl.org/miller/doc>.
+> More information: <https://miller.readthedocs.io>.
 
 - Pretty-print a CSV file in a tabular format:
 
@@ -27,6 +27,6 @@
 
 `echo '{"hello":"world", "foo":"bar"}' | mlr --ijson --ojson --jvstack cat`
 
-- Filter lines of a compressed CSV file treating numbers as strings:
+- Filter lines of a compressed CSV file treating numbers as [S]trings:
 
-`mlr --prepipe 'gunzip' --csv filter -S '${{fieldName}} =~ "{{regular_expression}}"' {{example.csv.gz}}`
+`mlr --prepipe 'gunzip' {{[-c|--csv]}} filter {{[-S|--infer-none]}} '${{fieldName}} =~ "{{regex}}"' {{example.csv.gz}}`

@@ -19,6 +19,6 @@
 
 `e2image -r {{/dev/sdXN}} {{path/to/image_file}}`
 
-- Create a QCOW2 image file instead of a normal or raw image file:
+- Create a [Q]COW2 image file instead of a normal or raw image file:
 
 `e2image -Q {{/dev/sdXN}} {{path/to/image_file}}`

@@ -9,4 +9,4 @@
 
 - Display version:
 
-`jpegtopnm -version`
+`jpegtopnm {{[-v|-version]}}`

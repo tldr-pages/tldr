@@ -1,7 +1,7 @@
 # gmake
 
-> Este comando es un alias de `-p linux make`.
+> Este comando es un alias de `make`.
 
-- Muestra la documentación del comando original:
+- Vea la documentación para el comando original:
 
-`tldr -p linux make`
+`tldr make`

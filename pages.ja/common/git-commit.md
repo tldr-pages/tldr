@@ -1,19 +1,19 @@
 # git commit
 
 > リポジトリにファイルをコミットします。
-> 詳しくはこちら: <https://git-scm.com/docs/git-commit>
+> もっと詳しく: <https://git-scm.com/docs/git-commit>。
 
 - メッセージと共に、ステージ済のファイルをリポジトリにコミットする:
 
-`git commit --message "{{メッセージ}}"`
+`git commit {{[-m|--message]}} "{{メッセージ}}"`
 
 - ファイルから読みとったメッセージと共に、ステージ済のファイルをコミットする:
 
-`git commit --file {{コミットメッセージが書かれたファイルへのパス}}`
+`git commit {{[-F|--file]}} {{コミットメッセージが書かれたファイルへのパス}}`
 
 - 変更されたファイルを全て自動的にステージし、メッセージと共にコミットする:
 
-`git commit --all --message "{{メッセージ}}"`
+`git commit {{[-a|--all]}} {{[-m|--message]}} "{{メッセージ}}"`
 
 - 今のステージ済の変更を最後のコミットに付け足し、コミットハッシュを変更する:
 
@@ -25,4 +25,4 @@
 
 - ステージ済のファイルが無くても、コミットを作る:
 
-`git commit --message "{{メッセージ}}" --allow-empty`
+`git commit {{[-m|--message]}} "{{メッセージ}}" --allow-empty`

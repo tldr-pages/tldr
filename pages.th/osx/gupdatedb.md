@@ -4,4 +4,4 @@
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr -p linux updatedb`
+`tldr {{[-p|--platform]}} linux updatedb`

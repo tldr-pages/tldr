@@ -1,37 +1,37 @@
 # rsync
 
-> Transfer file ke atau dari sebuah _remote host_ (bukan di antara 2 _remote host_).
-> Bisa transfer satuan file, maupun beberapa file yang sesuai dengan pola tertentu.
+> Transfer kumpulan berkas baik menuju atau dari suatu host jarak jauh (namun tidak antara dua host jarak jauh), secara konfigurasi bawaan menggunakan SSH.
+> Untuk mendefinisikan suatu alamat sumber jarak jauh, gunakan `user@host:jalan/menuju/berkas_atau_direktori`.
 > Informasi lebih lanjut: <https://download.samba.org/pub/rsync/rsync.1>.
 
-- Transfer file dari lokal ke _remote host_:
+- Transfer suatu berkas:
 
-`rsync {{lokasi/ke/file_lokal}} {{remote_host}}:{{lokasi/ke/remote_directory}}`
+`rsync {{jalan/menuju/sumber}} {{jalan/menuju/tujuan}}`
 
-- Transfer file dari _remote host_ ke lokal:
+- Gunakan mode arsip (salin direktori secara rekursif, salin tautan simbolik tanpa menyelesaikan, dan pertahankan izin, kepemilikan, dan waktu modifikasi):
 
-`rsync {{remote_host}}:{{lokasi/ke/remote_file}} {{lokasi/ke/direktori_lokal}}`
+`rsync {{[-a|--archive]}} {{jalan/menuju/sumber}} {{jalan/menuju/tujuan}}`
 
-- Transfer file dalam mode [a]rsip (untuk menyimpan atribut-atribut) dan terkompres (_[z]ipped_) secara _[v]erbose_ dan progresnya dapat dibaca orang (_[h]uman-readable [P]rogress_):
+- Kompres data saat dikirim ke tujuan, tampilkan informasi kemajuan secara verbose dan dapat dibaca manusia, dan simpan sebagian file yang ditransfer jika terganggu:
 
-`rsync {{-zvhP|--compress --verbose --human-readable --partial --progress}} {{lokasi/ke/file_lokal}} {{remote_host}}:{{lokasi/ke/remote_directory}}`
+`rsync {{[-zvhP|--compress --verbose --human-readable --partial --progress]}} {{jalan/menuju/sumber}} {{jalan/menuju/tujuan}}`
 
-- Transfer direktori dan semua isiny dari remote ke lokal:
+- Salin kumpulan direktori secara rekursif:
 
-`rsync {{-r|--recursive}} {{remote_host}}:{{lokasi/ke/remote_directory}} {{lokasi/ke/direktori_lokal}}`
+`rsync {{[-r|--recursive]}} {{jalan/menuju/sumber}} {{jalan/menuju/tujuan}}`
 
-- Transfer isi direktori (namun bukan direktori itu sendiri) dari remote ke lokal:
+- Transfer isi direktori, tetapi bukan direktori itu sendiri:
 
-`rsync {{-r|--recursive}} {{remote_host}}:{{lokasi/ke/remote_directory}}/ {{lokasi/ke/direktori_lokal}}`
+`rsync {{[-r|--recursive]}} {{jalan/menuju/sumber/}} {{jalan/menuju/tujuan}}`
 
-- Transfer direktori secara [r]ecursif, dalam [a]rsip (untuk menyimpan atribut-atribut), menyelesaikan _soft[l]inks_ yang terkandung di sana, dan mengabaikan file-file yang sudah ditransfer kecuali jika file itu lebih baru (_[u]nless newer_):
+- Gunakan mode arsip, selesaikan tautan simbolik, dan lewati file yang lebih baru di tujuan:
 
-`rsync {{-auL|--archive --update --copy-links}} {{remote_host}}:{{lokasi/ke/remote_file}} {{lokasi/ke/direktori_lokal}}`
+`rsync {{[-auL|--archive --update --copy-links]}} {{jalan/menuju/sumber}} {{jalan/menuju/tujuan}}`
 
-- Transfer file melalui SSH dan hapus file-file lokal yang tidak ada di _remote host_:
+- Transfer direktori dari host jarak jauh yang menjalankan `rsyncd` dan hapus file di tujuan yang tidak ada di sumber:
 
-`rsync {{-e|--rsh}} ssh --delete {{remote_host}}:{{lokasi/ke/remote_file}} {{lokasi/ke/file_lokal}}`
+`rsync {{[-r|--recursive]}} --delete rsync://{{host}}:{{jalan/menuju/sumber}} {{jalan/menuju/tujuan}}`
 
-- Transfer file melalui SSH dengan menggunakan port yang yang berbeda dari bawaan dan tampilkan progres global:
+- Transfer file melalui SSH menggunakan port yang berbeda dari default (22) dan tampilkan kemajuan proses secara global:
 
-`rsync {{-e|--rsh}} 'ssh -p {{port}}' --info=progress2 {{remote_host}}:{{lokasi/ke/remote_file}} {{lokasi/ke/file_lokal}}`
+`rsync {{[-e|--rsh]}} 'ssh -p {{port}}' --info=progress2 {{host}}:{{jalan/menuju/sumber}} {{jalan/menuju/tujuan}}`

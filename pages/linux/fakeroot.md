@@ -11,7 +11,7 @@
 
 `fakeroot -- {{command}} {{command_arguments}}`
 
-- Run a command as fakeroot and save the environment to a file on exit:
+- Run a command as fakeroot and [s]ave the environment to a file on exit:
 
 `fakeroot -s {{path/to/file}} -- {{command}} {{command_arguments}}`
 
@@ -21,8 +21,8 @@
 
 - Run a command keeping the real ownership of files instead of pretending they are owned by root:
 
-`fakeroot --unknown-is-real -- {{command}} {{command_arguments}}`
+`fakeroot {{[-u|--unknown-is-real]}} -- {{command}} {{command_arguments}}`
 
 - Display help:
 
-`fakeroot --help`
+`fakeroot {{[-h|--help]}}`

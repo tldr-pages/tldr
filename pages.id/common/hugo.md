@@ -1,7 +1,7 @@
 # hugo
 
 > Penghasil situs web statis berbasis template. Menggunakan modul, komponen dan tema.
-> Informasi lebih lanjut: <https://gohugo.io>.
+> Informasi lebih lanjut: <https://gohugo.io/commands/>.
 
 - Buat sebuah proyek situs web Hugo baru:
 
@@ -21,15 +21,15 @@
 
 - Bangun situs web termasuk halaman yang ditandai sebagai "draft":
 
-`hugo --buildDrafts`
+`hugo {{[-D|--buildDrafts]}}`
 
 - Bangun situs web dengan untuk dijalankan pada alamat IP lokal:
 
-`hugo server --bind {{ip-lokal}} --baseURL {{http://ip-lokal}}`
+`hugo server --bind {{ip_lokal}} {{[-b|--baseURL]}} {{http://ip_lokal}}`
 
 - Bangun situs web menuju direktori yang ditentukan:
 
-`hugo --destination {{alamat/tujuan}}`
+`hugo {{[-d|--destination]}} {{alamat/tujuan}}`
 
 - Bangun situs web dan jalankan peladen (server) untuk menyajikannya, dengan memuat ulang saat terdapat halaman yang berubah:
 

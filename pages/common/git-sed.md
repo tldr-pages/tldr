@@ -2,7 +2,7 @@
 
 > Replace patterns in git-controlled files using sed.
 > Part of `git-extras`.
-> More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-sed>.
+> More information: <https://manned.org/git-sed>.
 
 - Replace the specified text in the current repository:
 
@@ -12,7 +12,7 @@
 
 `git sed -c '{{find_text}}' '{{replace_text}}'`
 
-- Replace the specified text, using regular expressions:
+- Replace the specified text, using `regex`:
 
 `git sed -f g '{{find_text}}' '{{replace_text}}'`
 

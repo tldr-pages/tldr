@@ -1,7 +1,7 @@
 # npm run
 
 > Run a script.
-> More information: <https://docs.npmjs.com/cli/commands/npm-run-script>.
+> More information: <https://docs.npmjs.com/cli/npm-run>.
 
 - Run a script:
 
@@ -25,4 +25,4 @@
 
 - Run a script named `test`:
 
-`npm test`
+`npm {{[t|test]}}`

@@ -1,6 +1,6 @@
 # vt
 
-> Command-line interface for VirusTotal.
+> Interface for VirusTotal.
 > API key from a VirusTotal account is required for this command.
 > More information: <https://github.com/VirusTotal/vt-cli>.
 

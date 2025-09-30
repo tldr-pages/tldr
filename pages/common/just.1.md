@@ -13,11 +13,11 @@
 
 - Edit justfile in the default editor:
 
-`just -e`
+`just {{[-e|--edit]}}`
 
 - List available recipes in the justfile:
 
-`just -l`
+`just {{[-l|--list]}}`
 
 - Print justfile:
 

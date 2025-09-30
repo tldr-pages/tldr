@@ -1,7 +1,7 @@
 # firefox
 
 > 一个自由、开源的网络浏览器。
-> 更多信息：<https://developer.mozilla.org/en-US/docs/Mozilla/Command_Line_Options>.
+> 更多信息：<https://wiki.mozilla.org/Firefox/CommandLineOptions>.
 
 - 启动 Firefox 并打开网页：
 

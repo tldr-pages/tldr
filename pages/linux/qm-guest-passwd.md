@@ -5,8 +5,8 @@
 
 - Set a password for a specific user in a virtual machine interactively:
 
-`qm guest passwd {{vm_id}} {{username}}`
+`qm {{[g|guest]}} {{[p|passwd]}} {{vm_id}} {{username}}`
 
 - Set an already hashed password for a specific user in a virtual machine interactively:
 
-`qm guest passwd {{vm_id}} {{username}} --crypted 1`
+`qm {{[g|guest]}} {{[p|passwd]}} {{vm_id}} {{username}} --crypted 1`

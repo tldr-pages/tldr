@@ -1,7 +1,7 @@
 # gmknod
 
-> To polecenie jest aliasem `-p linux mknod`.
+> To polecenie jest aliasem GNU `mknod`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux mknod`
+`tldr {{[-p|--platform]}} linux mknod`

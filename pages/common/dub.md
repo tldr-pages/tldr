@@ -9,7 +9,7 @@
 
 - Non-interactively create a new D project:
 
-`dub init {{project_name}} -n`
+`dub init {{project_name}} {{[-n|--non-interactive]}}`
 
 - Build and run a D project:
 
@@ -25,4 +25,4 @@
 
 - Display help:
 
-`dub --help`
+`dub {{[-h|--help]}}`

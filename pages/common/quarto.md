@@ -13,7 +13,7 @@
 
 - Render input file(s) to different formats:
 
-`quarto render {{path/to/file.{{qmd|rmd|ipynb}}}} --to {{html|pdf|docx}}`
+`quarto render {{path/to/file.[qmd|rmd|ipynb]}} --to {{html|pdf|docx}}`
 
 - Render and preview a document or a website:
 

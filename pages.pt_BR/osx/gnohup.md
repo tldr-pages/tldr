@@ -1,7 +1,7 @@
 # gnohup
 
-> Este comando é um apelido de `-p linux nohup`.
+> Este comando é um apelido de `nohup`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux nohup`
+`tldr nohup`

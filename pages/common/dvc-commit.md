@@ -13,4 +13,4 @@
 
 - Recursively commit all DVC-tracked files in a directory:
 
-`dvc commit --recursive {{path/to/directory}}`
+`dvc commit {{[-R|--recursive]}} {{path/to/directory}}`

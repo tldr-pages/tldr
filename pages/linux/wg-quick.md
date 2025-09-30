@@ -1,7 +1,7 @@
 # wg-quick
 
 > Quickly set up WireGuard tunnels based on config files.
-> More information: <https://www.wireguard.com/quickstart/>.
+> More information: <https://manned.org/wg-quick>.
 
 - Set up a VPN tunnel:
 

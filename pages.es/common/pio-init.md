@@ -1,7 +1,7 @@
 # pio init
 
-> Este comando es un alias de `pio project`.
+> Este comando es un alias de `pio project init`.
 
-- Muestra la documentación del comando original:
+- Vea la documentación para el comando original:
 
 `tldr pio project`

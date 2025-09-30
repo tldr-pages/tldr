@@ -5,12 +5,12 @@
 
 - Run a `doctl databases maintenance-window` command with an access token:
 
-`doctl databases maintenance-window {{command}} --access-token {{access_token}}`
+`doctl {{[d|databases]}} {{[mw|maintenance-window]}} {{command}} {{[-t|--access-token]}} {{access_token}}`
 
 - Retrieve details about a database cluster's maintenance windows:
 
-`doctl databases maintenance-window get {{database_id}}`
+`doctl {{[d|databases]}} {{[mw|maintenance-window]}} {{[g|get]}} {{database_id}}`
 
 - Update the maintenance window for a database cluster:
 
-`doctl databases maintenance-window update {{database_id}} --day {{day_of_the_week}} --hour {{hour_in_24_hours_format}}`
+`doctl {{[d|databases]}} {{[mw|maintenance-window]}} {{[u|update]}} {{database_id}} --day {{day_of_the_week}} --hour {{hour_in_24_hours_format}}`

@@ -1,7 +1,7 @@
 # namcap
 
 > Check binary packages and source `PKGBUILD`s for common packaging mistakes.
-> More information: <https://manned.org/namcap.1>.
+> More information: <https://manned.org/namcap>.
 
 - Check a specific `PKGBUILD` file:
 
@@ -11,6 +11,6 @@
 
 `namcap {{path/to/package.pkg.tar.zst}}`
 
-- Check a file, printing extra [i]nformational messages:
+- Check a file, printing extra informational messages:
 
-`namcap -i {{path/to/file}}`
+`namcap {{[-i|--info]}} {{path/to/file}}`

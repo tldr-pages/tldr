@@ -10,7 +10,7 @@
 
 - Herunterladen und Integrieren einer Patch-Datei:
 
-`curl -L {{https://beispiel.de/datei.patch}} | git apply`
+`curl {{[-L|--location]}} {{https://beispiel.de/datei.patch}} | git apply`
 
 - Brich das Integrieren einer Patch-Datei ab:
 

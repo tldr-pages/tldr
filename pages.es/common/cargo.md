@@ -26,12 +26,12 @@
 
 - Construye el proyecto Rust en el directorio actual utilizando el perfil de lanzamiento:
 
-`cargo build --release`
+`cargo {{[b|build]}} {{[-r|--release]}}`
 
 - Construye el proyecto Rust en el directorio actual utilizando el compilador nightly (requiere `rustup`):
 
-`cargo +nightly build`
+`cargo +nightly {{[b|build]}}`
 
 - Construye usando un número específico de hilos (por defecto es el número de CPUs lógicas):
 
-`cargo build --jobs {{numero_de_hilos}}`
+`cargo {{[b|build]}} --jobs {{número_de_hilos}}`

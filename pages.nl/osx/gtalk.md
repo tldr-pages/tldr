@@ -1,7 +1,7 @@
 # gtalk
 
-> Dit commando is een alias van `-p linux talk`.
+> Dit commando is een alias van GNU `talk`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux talk`
+`tldr {{[-p|--platform]}} linux talk`

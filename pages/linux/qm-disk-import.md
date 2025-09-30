@@ -6,4 +6,4 @@
 
 - Import a VMDK/qcow2/raw disk image using a specific storage name:
 
-`qm importdisk {{vm_id}} {{path/to/disk}} {{storage_name}} --format {{qcow2|raw|vmdk}}`
+`qm {{[di|disk]}} {{[i|import]}} {{vm_id}} {{path/to/disk}} {{storage_name}} --format {{qcow2|raw|vmdk}}`

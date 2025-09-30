@@ -5,28 +5,28 @@
 
 - Yönlendirme tablosunu görüntüle:
 
-`ip route {{show|list}}`
+`ip {{[r|route]}}`
 
 - Ağ geçidini kullanan öntanımlı bir yönlendirme ekle:
 
-`sudo ip route add default via {{ağ_geçidi_ip_adresi}}`
+`sudo ip {{[r|route]}} {{[a|add]}} default via {{ağ_geçidi_ip_adresi}}`
 
 - `eth0` arayüzünü kullanan öntanımlı bir yönlendirme ekle:
 
-`sudo ip route add default dev {{eth0}}`
+`sudo ip {{[r|route]}} {{[a|add]}} default dev {{eth0}}`
 
 - Statik bir yönlendirme ekle:
 
-`sudo ip route add {{hedef_ip_adresi}} via {{ağ_geçidi_ip_adresi}} dev {{eth0}}`
+`sudo ip {{[r|route]}} {{[a|add]}} {{hedef_ip_adresi}} via {{ağ_geçidi_ip_adresi}} dev {{eth0}}`
 
 - Statik bir yönlendirmeyi sil:
 
-`sudo ip route del {{hedef_ip_adresi}} dev {{eth0}}`
+`sudo ip {{[r|route]}} {{[d|delete]}} {{hedef_ip_adresi}} dev {{eth0}}`
 
 - Statik bir yönlendirmeyi değiştir:
 
-`sudo ip route {{change|replace}} {{hedef_ip_adresi}} via {{ağ_geçidi_ip_adresi}} dev {{eth0}}`
+`sudo ip {{[r|route]}} {{change|replace}} {{hedef_ip_adresi}} via {{ağ_geçidi_ip_adresi}} dev {{eth0}}`
 
 - Bir IP adresine ulaşmak için çekirdek tarafından hangi yönlendirmenin kullanılacağını göster:
 
-`ip route get {{hedef_ip_adresi}}`
+`ip {{[r|route]}} {{[g|get]}} {{hedef_ip_adresi}}`

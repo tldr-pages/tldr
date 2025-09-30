@@ -1,7 +1,7 @@
 # ifdata
 
 > Display information about a network interface.
-> More information: <https://joeyh.name/code/moreutils/>.
+> More information: <https://manned.org/ifdata>.
 
 - Display the whole configuration of the specified interface:
 

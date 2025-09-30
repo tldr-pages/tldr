@@ -5,8 +5,8 @@
 
 - Verplaats een virtuele schijf:
 
-`qm disk move {{vm_id}} {{bestemming}} {{index}}`
+`qm {{[di|disk]}} {{[m|move]}} {{vm_id}} {{bestemming}} {{index}}`
 
 - Verwijder de vorige kopie van de virtuele schijf:
 
-`qm disk move -delete {{vm_id}} {{bestemming}} {{index}}`
+`qm {{[di|disk]}} {{[m|move]}} --delete {{vm_id}} {{bestemming}} {{index}}`

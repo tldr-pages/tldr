@@ -1,7 +1,7 @@
 # gbasenc
 
-> Este comando é um apelido de `-p linux basenc`.
+> Este comando é um apelido de `basenc`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux basenc`
+`tldr basenc`

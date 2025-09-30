@@ -9,7 +9,7 @@
 
 - Crea una rete definita da un utente:
 
-`docker network create --driver {{nome_del_driver}} {{nome_rete}}`
+`docker network create {{[-d|--driver]}} {{nome_del_driver}} {{nome_rete}}`
 
 - Mostra informazioni dettagliate su una lista di reti (separata da spazi):
 

@@ -1,11 +1,11 @@
 # brightnessctl
 
 > മോണിറ്ററിന്റെ പ്രകാശതീവ്രത ലഭിക്കുവാനും നിയന്ത്രിക്കുവാനുമുള്ള ഗ്നു/ലിനക്സ് അധിഷ്ഠിത യൂട്ടിലിറ്റി.
-> കൂടുതൽ വിവരങ്ങൾ: <https://github.com/Hummer12007/brightnessctl>.
+> കൂടുതൽ വിവരങ്ങൾ: <https://github.com/Hummer12007/brightnessctl#usage>.
 
 - പ്രകാശം നിയന്ത്രിക്കാനാവുന്ന ഡിവൈസുകൾ കാണുവാൻ:
 
-`brightnessctl --list`
+`brightnessctl {{[-l|--list]}}`
 
 - നിലവിലുള്ള പ്രകാശതീവ്രത അറിയുവാൻ:
 

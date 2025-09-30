@@ -9,8 +9,8 @@
 
 - Display help:
 
-`caffeine --help`
+`caffeine {{[-h|--help]}}`
 
 - Display version:
 
-`caffeine --version`
+`caffeine {{[-V|--version]}}`

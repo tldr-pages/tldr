@@ -1,7 +1,7 @@
 # gtac
 
-> To polecenie jest aliasem `-p linux tac`.
+> To polecenie jest aliasem GNU `tac`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux tac`
+`tldr tac`

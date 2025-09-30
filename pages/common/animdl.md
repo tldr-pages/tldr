@@ -10,11 +10,11 @@
 
 - Download a specific anime by specifying an episode range:
 
-`animdl download {{anime_title}} {{-r|--range}} {{start_episode}}-{{end_episode}}`
+`animdl download {{anime_title}} {{[-r|--range]}} {{start_episode}}-{{end_episode}}`
 
 - Download a specific anime by specifying a download directory:
 
-`animdl download {{anime_title}} {{-d|--download-dir}} {{path/to/download_directory}}`
+`animdl download {{anime_title}} {{[-d|--download-dir]}} {{path/to/download_directory}}`
 
 - Grab the stream URL for a specific anime:
 
@@ -34,4 +34,4 @@
 
 - Stream the latest episode of a specific anime:
 
-`animdl stream {{anime_title}} {{-s|--special}} latest`
+`animdl stream {{anime_title}} {{[-s|--special]}} latest`

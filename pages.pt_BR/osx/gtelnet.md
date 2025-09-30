@@ -1,7 +1,7 @@
 # gtelnet
 
-> Este comando é um apelido de `-p linux telnet`.
+> Este comando é um apelido de `telnet`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux telnet`
+`tldr telnet`

@@ -1,7 +1,7 @@
 # grm
 
-> Questo comando è un alias per `-p linux rm`.
+> Questo comando è un alias per `rm`.
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux rm`
+`tldr rm`

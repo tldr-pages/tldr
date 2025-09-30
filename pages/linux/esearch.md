@@ -8,7 +8,7 @@
 
 `esearch -db pubmed -query "{{selective serotonin reuptake inhibitor}}"`
 
-- Search the protein database using a query and regexp:
+- Search the protein database using a query and `regex`:
 
 `esearch -db {{protein}} -query {{'Escherichia*'}}`
 
@@ -16,6 +16,6 @@
 
 `esearch -db nuccore -query "{{insulin [PROT] AND rodents [ORGN]}}"`
 
-- Display [h]elp:
+- Display help:
 
-`esearch -h`
+`esearch {{[-h|-help]}}`

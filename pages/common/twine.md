@@ -7,13 +7,13 @@
 
 `twine upload dist/*`
 
-- Upload to the Test PyPI [r]epository to verify things look right:
+- Upload to the Test PyPI repository to verify things look right:
 
-`twine upload -r testpypi dist/*`
+`twine upload {{[-r|--repository]}} testpypi dist/*`
 
-- Upload to PyPI with a specified [u]sername and [p]assword:
+- Upload to PyPI with a specified username and password:
 
-`twine upload -u {{username}} -p {{password}} dist/*`
+`twine upload {{[-u|--username]}} {{username}} {{[-p|--password]}} {{password}} dist/*`
 
 - Upload to an alternative repository URL:
 

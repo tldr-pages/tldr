@@ -4,22 +4,34 @@
 > Note: A local repository needs to be defined in `/etc/pacman.conf` and `vifm` needs to be installed for this to fully function.
 > More information: <https://github.com/aurutils/aurutils>.
 
+- Initialize the repository that matches the path in `/etc/pacman.conf`:
+
+`repo-add {{path/to/database.db.tar.gz}}`
+
 - Search the AUR database for a package:
 
 `aur search {{keyword}}`
 
-- Download a package and its dependencies from AUR, build them and add them to a local repository:
+- Download one or more packages and their dependencies from the AUR, build them, and add them to a local repository:
 
-`aur sync {{package}}`
+`aur sync {{package1 package2 ...}}`
 
-- [l]ist packages available in your local repository:
+- List packages available in your local repository:
 
-`aur repo --list`
+`aur repo {{[-l|--list]}}`
 
-- [u]pgrade local repository packages:
+- Upgrade local repository packages:
 
-`aur sync --upgrades`
+`aur sync {{[-u|--upgrades]}}`
+
+- Clean build files after install:
+
+`aur sync {{[-C|--clean]}} {{package}}`
 
 - Install a package without viewing changes in Vim and do not confirm dependency installation:
 
-`aur sync --noview --noconfirm {{package}}`
+`aur sync --noview {{[-n|--noconfirm]}} {{package}}`
+
+- Remove a package form the repository metadata (does not remove the package file itself):
+
+`repo-remove {{path/to/database.db.tar.gz}} {{package}}`

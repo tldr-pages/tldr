@@ -9,7 +9,7 @@
 
 - Apaga el sistema (el mateix que `poweroff`):
 
-`reboot --poweroff`
+`reboot {{[-p|--poweroff]}}`
 
 - Atura el sistema (el mateix que halt):
 
@@ -17,8 +17,8 @@
 
 - Reinicia inmediatament sense contactar l'adminstrador del sistema:
 
-`reboot --force`
+`reboot {{[-f|--force]}}`
 
 - Escriu l'entrada wtmp shutdown sense reiniciar el sistema:
 
-`reboot --wtmp-only`
+`reboot {{[-w|--wtmp-only]}}`

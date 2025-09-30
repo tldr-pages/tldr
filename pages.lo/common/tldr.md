@@ -13,7 +13,7 @@
 
 - ສະແດງຫນ້າ tldr ສໍາລັບຄໍາສັ່ງສໍາລັບເວທີ [p] ສະເພາະ:
 
-`tldr -p {{android|linux|osx|sunos|windows}} {{ຄໍາສັ່ງ}}`
+`tldr {{[-p|--platform]}} {{android|linux|osx|sunos|windows}} {{ຄໍາສັ່ງ}}`
 
 - ປັບ​ປຸງ​ຖານ​ຄວາມ​ຈໍາ​ທ້ອງ​ຖິ່ນ​ຂອງ tldr ຫນ້າ​:
 

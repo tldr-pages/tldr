@@ -8,14 +8,14 @@
 
 `chsh`
 
-- Stel een specifieke login[s]hell in voor de huidige gebruiker:
+- Toon beschikbare shells:
 
-`chsh --shell {{pad/naar/shell}}`
+`chsh {{[-l|--list-shells]}}`
 
-- Stel een login[s]hell in voor een specifieke gebruiker:
+- Stel een specifieke login shell in voor de huidige gebruiker:
 
-`sudo chsh --shell {{pad/naar/shell}} {{gebruikersnaam}}`
+`chsh {{[-s|--shell]}} {{pad/naar/shell}}`
 
-- Toon ([l]) beschikbare shells:
+- Stel een login shell in voor een specifieke gebruiker:
 
-`chsh --list-shells`
+`sudo chsh {{[-s|--shell]}} {{pad/naar/shell}} {{gebruikersnaam}}`

@@ -1,7 +1,7 @@
 # gtr
 
-> Este comando é um apelido de `-p linux tr`.
+> Este comando é um apelido de `tr`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux tr`
+`tldr tr`

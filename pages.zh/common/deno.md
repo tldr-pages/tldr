@@ -1,7 +1,7 @@
 # deno
 
 > 一个安全的 JavaScript 和 TypeScript 运行时。
-> 更多信息：<https://deno.land>.
+> 更多信息：<https://docs.deno.com/runtime/reference/cli>.
 
 - 运行 JavaScript 或 TypeScript 文件：
 

@@ -12,7 +12,7 @@
 
 `img2pdf {{path/to/file.gif}} --first-frame-only --output {{path/to/file.pdf}}`
 
-- Auto orient the image, use a specific  page size in landscape mode, and set a border of specific sizes horizontally and vertically:
+- Auto orient the image, use a specific page size in landscape mode, and set a border of specific sizes horizontally and vertically:
 
 `img2pdf {{path/to/image.ext}} --auto-orient --pagesize {{A4^T}} --border {{2cm}}:{{5.1cm}} --output {{path/to/file.pdf}}`
 

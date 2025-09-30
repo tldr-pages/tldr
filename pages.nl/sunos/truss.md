@@ -6,7 +6,7 @@
 
 - Start het traceren van een programma door het uit te voeren, en de tracering van alle child processes:
 
-`truss -f {{program}}`
+`truss -f {{programma}}`
 
 - Start het traceren van een specifiek proces aan de hand van het PID:
 
@@ -14,7 +14,7 @@
 
 - Start het traceren van een programma door het uit te voeren, en toont alle argumenent en omgevingsinstellingen:
 
-`truss -a -e {{program}}`
+`truss -a -e {{programma}}`
 
 - Telt tijd, oproepen, en fouten voor elke systeem call en geeft een oplijsting bij de beindiging van de applicatie:
 
@@ -22,4 +22,4 @@
 
 - Traceert een process filter output via system call:
 
-`truss -p {{pid}} -t {{system_call_name}}`
+`truss -p {{pid}} -t {{system_call_naam}}`

@@ -1,7 +1,7 @@
 # firefox
 
 > Um browser livre e de código aberto.
-> Mais informações: <https://developer.mozilla.org/en-US/docs/Mozilla/Command_Line_Options>.
+> Mais informações: <https://wiki.mozilla.org/Firefox/CommandLineOptions>.
 
 - Inicie o Firefox e abra uma página web:
 
@@ -25,7 +25,7 @@
 
 - Tire uma screenshot de uma página web no modo headless:
 
-`firefox --headless --screenshot {{caminho/para/arquivo_de_saida.png}} {{https://exemplo.com/}}`
+`firefox --headless --screenshot {{caminho/para/arquivo_de_saida.png}} {{https://example.com/}}`
 
 - Use um perfil específico para permitir que múltiplas instâncias separadas do Firefox rodem ao mesmo tempo:
 

@@ -1,7 +1,7 @@
 # gshred
 
-> Este comando es un alias de `-p linux shred`.
+> Este comando es un alias de `shred`.
 
-- Muestra la documentación del comando original:
+- Vea la documentación para el comando original:
 
-`tldr -p linux shred`
+`tldr shred`

@@ -1,7 +1,7 @@
 # gpathchk
 
-> Questo comando è un alias per `-p linux pathchk`.
+> Questo comando è un alias per `pathchk`.
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux pathchk`
+`tldr pathchk`

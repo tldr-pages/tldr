@@ -1,6 +1,6 @@
 # route
 
-> Use route cmd to set the route table.
+> Show and manipulate the route table.
 > More information: <https://manned.org/route>.
 
 - Display the information of route table:

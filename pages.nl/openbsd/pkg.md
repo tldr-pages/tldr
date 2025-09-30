@@ -1,6 +1,6 @@
 # pkg
 
-> OpenBSD pakketbeheerder hulpprogramma.
+> OpenBSD pakketbeheer hulpprogramma.
 > Meer informatie: <https://www.openbsd.org/faq/faq15.html>.
 
 - Bekijk de documentatie voor installeren/updaten van pakketten:

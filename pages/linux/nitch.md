@@ -7,10 +7,10 @@
 
 `nitch`
 
-- Display [h]elp:
+- Display help:
 
-`nitch --help`
+`nitch {{[-h|--help]}}`
 
-- Display [v]ersion:
+- Display version:
 
-`nitch --version`
+`nitch {{[-v|--version]}}`

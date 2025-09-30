@@ -2,7 +2,7 @@
 
 > Crea, edita y ejecuta fácilmente programas en Java autocontenidos de sólo código fuente.
 > Ver también: `java`.
-> Más información: <https://www.jbang.dev/documentation/guide/latest/cli/jbang.html>.
+> Más información: <https://www.jbang.dev/documentation/jbang/latest/cli/jbang.html>.
 
 - Inicializa una clase en Java simple:
 

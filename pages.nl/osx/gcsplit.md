@@ -1,7 +1,7 @@
 # gcsplit
 
-> Dit commando is een alias van `-p linux csplit`.
+> Dit commando is een alias van GNU `csplit`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux csplit`
+`tldr {{[-p|--platform]}} linux csplit`

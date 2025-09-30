@@ -1,7 +1,7 @@
 # gatsby
 
 > Static site generator for React.
-> More information: <https://gatsbyjs.com>.
+> More information: <https://www.gatsbyjs.com/docs/reference/gatsby-cli/>.
 
 - Create a new site:
 

@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr -p linux sha384sum`
+`tldr sha384sum`

@@ -1,7 +1,7 @@
 # sleep
 
 > Wacht voor een gespecificeerde hoeveelheid tijd.
-> Meer informatie: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/sleep.html>.
+> Meer informatie: <https://manned.org/sleep>.
 
 - Wacht in seconden:
 

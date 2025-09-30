@@ -1,24 +1,20 @@
 # df
 
-> Entrega información general del uso de espacio en disco del sistema de archivos.
+> Muestra una visión general del uso del espacio en disco del sistema de archivos.
 > Más información: <https://manned.org/df.1posix>.
 
-- Muestra todos los sistemas de archivos y sus usos de disco:
+- Muestra todos los sistemas de ficheros y su uso de disco usando unidades de 512 bytes:
 
 `df`
 
-- Muestra todos los sistemas de archivos y sus usos de disco en formato legible para humanos:
-
-`df -h`
-
-- Muestra el sistema de archivos que contiene determinado archivo o directorio y su uso de disco:
+- Muestra el sistema de archivos y su uso del disco que contiene el archivo o directorio dado:
 
 `df {{ruta/al/archivo_o_directorio}}`
 
-- Muestra estadísticas sobre el número de inodos libres:
+- Utiliza unidades de 1024 bytes en las columnas de cifras de espacio:
 
-`df -i`
+`df -k`
 
-- Muestra sistemas de archivos excluyendo los tipos especificados:
+- Muestra la información de forma portátil (formato POSIX):
 
-`df -x {{squashfs}} -x {{tmpfs}}`
+`df -P`

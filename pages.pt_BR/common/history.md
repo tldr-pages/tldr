@@ -1,7 +1,7 @@
 # history
 
 > Histórico de linha da comando.
-> Mais informações: <https://www.gnu.org/software/bash/manual/html_node/Bash-History-Builtins.html>.
+> Mais informações: <https://www.gnu.org/software/bash/manual/html_node/Bash-History-Builtins.html#index-history>.
 
 - Exibe a lista de histórico de comandos com números de linha:
 
@@ -10,6 +10,10 @@
 - Exibe os últimos 20 comandos (em Zsh ele exibe todos os comandos a partir do 20º):
 
 `history {{20}}`
+
+- Exibe histórico com data e hora em diferentes formatos (diponível apenas em Zsh):
+
+`history -{{d|f|i|E}}`
 
 - Limpa a lista do histórico de comandos (apenas para o shell Bash atual):
 

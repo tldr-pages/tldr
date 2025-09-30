@@ -2,7 +2,7 @@
 
 > Z SHell — командный интерпретатор, совместимый с Bash.
 > Смотри также `histexpand` про подстановку команд из списка истории.
-> Больше информации: <https://www.zsh.org>.
+> Больше информации: <https://zsh.sourceforge.io/Doc/Release/Invocation.html#Invocation>.
 
 - Запустить интерактивную сессию оболочки:
 

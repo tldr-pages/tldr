@@ -5,7 +5,7 @@
 
 - Run with concurrent users and a specified amount of requests per second:
 
-`loadtest --concurrency {{10}} --rps {{200}} {{https://example.com}}`
+`loadtest {{[-c|--concurrency]}} {{10}} {{[--rps|--requestsPerSecond]}} {{200}} {{https://example.com}}`
 
 - Run with a custom HTTP header:
 
@@ -13,4 +13,4 @@
 
 - Run with a specific HTTP method:
 
-`loadtest --method {{GET}} {{https://example.com}}`
+`loadtest {{[-m|--method]}} {{GET}} {{https://example.com}}`

@@ -1,7 +1,7 @@
 # yaa
 
 > Maak en beheer YAA-archieven.
-> Meer informatie: <https://keith.github.io/xcode-man-pages/yaa.1.html>.
+> Meer informatie: <https://www.manpagez.com/man/1/yaa/>.
 
 - Maak een archief van een map:
 
@@ -15,7 +15,7 @@
 
 `yaa extract -i {{pad/naar/archive_file.yaa}}`
 
-- Lijst de inhoud van een archief op:
+- Toon de inhoud van een archief:
 
 `yaa list -i {{pad/naar/archive_file.yaa}}`
 

@@ -1,6 +1,6 @@
 # pprof
 
-> Command-line tool for visualization and analysis of profile data.
+> Visualize and analyze profiling data.
 > More information: <https://github.com/google/pprof>.
 
 - Generate a text report from a specific profiling file, on fibbo binary:

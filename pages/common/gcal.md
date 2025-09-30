@@ -1,7 +1,7 @@
 # gcal
 
 > Display calendar.
-> More information: <https://www.gnu.org/software/gcal>.
+> More information: <https://www.gnu.org/software/gcal/manual/gcal.html#Invoking-Gcal>.
 
 - Display calendar for the current month:
 

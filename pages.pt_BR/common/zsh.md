@@ -2,7 +2,7 @@
 
 > Z SHell, um interpretador de linha de comando compatível com o Bash.
 > Veja também `bash`, `histexpand`.
-> Mais informações: <https://www.zsh.org>.
+> Mais informações: <https://zsh.sourceforge.io/Doc/Release/Invocation.html#Invocation>.
 
 - Inicie uma sessão shell interativa:
 

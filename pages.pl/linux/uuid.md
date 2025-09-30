@@ -1,7 +1,7 @@
 # uuid
 
 > Twórz i dekoduj uniwersalne identyfikatory (UUID).
-> Zobacz też `uuidgen`.
+> Zobacz także `uuidgen`.
 > Więcej informacji: <https://manned.org/uuid>.
 
 - Stwórz UUIDv1 (oparte o zegar systemowy i - jeśli dostępne - adres sprzętowy):

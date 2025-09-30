@@ -128,7 +128,7 @@ Algunos subcomandos, como `example command`, tienen su propia documentación de 
 ### fi
 
 ```markdown
-Joillakin alakomennoilla, kuten `example command`, on omat käyttöoppaansa.
+Joillakin alikomennoilla, kuten `example command`, on omat käyttöoppaansa.
 ```
 
 ---
@@ -152,7 +152,7 @@ Certaines sous-commandes comme `example command` ont leur propre documentation.
 ### id
 
 ```markdown
-Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `example command`.
+Beberapa subperintah seperti `example command` mempunyai dokumentasi terpisah.
 ```
 
 ---

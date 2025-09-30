@@ -9,7 +9,7 @@
 
 - Create a user-defined network:
 
-`docker network create --driver {{driver_name}} {{network_name}}`
+`docker network create {{[-d|--driver]}} {{driver_name}} {{network_name}}`
 
 - Display detailed information about one or more networks:
 

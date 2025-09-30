@@ -3,15 +3,15 @@
 > The Perl 5 language interpreter.
 > More information: <https://www.perl.org>.
 
-- Print lines from `stdin` [m/] matching regex1 and case insensitive [/i] regex2:
+- Print lines from `stdin` [m/] matching `regex1` and case insensitive [/i] `regex2`:
 
 `perl -n -e 'print if m/{{regex1}}/ and m/{{regex2}}/i'`
 
-- Say [-E] first match group, using a regexp, ignoring space in regex [/x]:
+- Say [-E] first match group, using a `regex`, ignoring space in `regex` [/x]:
 
-`perl -n -E 'say $1 if m/{{before}} (  {{group_regex}}  ) {{after}}/x'`
+`perl -n -E 'say $1 if m/{{before}} ( {{group_regex}} ) {{after}}/x'`
 
-- [-i]n-place, with backup, [s/] substitute all occurrence [/g] of regex with replacement:
+- [-i]n-place, with backup, [s/] substitute all occurrence [/g] of `regex` with replacement:
 
 `perl -i'.bak' -p -e 's/{{regex}}/{{replacement}}/g' {{path/to/files}}`
 

@@ -1,7 +1,7 @@
 # puppet agent
 
 > Ruft die Client-Konfiguration eines Puppetservers ab und setzt diese auf dem System um.
-> Weitere Informationen: <https://puppet.com/docs/puppet/7/man/agent.html>.
+> Weitere Informationen: <https://github.com/puppetlabs/puppet/blob/main/references/man/agent.md>.
 
 - Registriere die Node bei einem Puppetserver und wende den empfangenen Katalog an:
 

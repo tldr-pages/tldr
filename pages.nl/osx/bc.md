@@ -14,7 +14,7 @@
 
 - Bereken een uitdrukking:
 
-`bc --expression='{{5 / 3}}'`
+`bc --expression '{{5 / 3}}'`
 
 - Voer een script uit:
 
@@ -22,8 +22,8 @@
 
 - Bereken een uitdrukking met de gespecificeerde schaal:
 
-`bc --expression='scale = {{10}}; {{5 / 3}}'`
+`bc --expression '{{scale = 10; 5 / 3}}'`
 
 - Bereken een sinus/cosinus/arctangens/natuurlijke logaritme/exponentiële functie met behulp van `mathlib`:
 
-`bc --mathlib --expression='{{s|c|a|l|e}}({{1}})'`
+`bc --mathlib --expression '{{s|c|a|l|e}}({{1}})'`

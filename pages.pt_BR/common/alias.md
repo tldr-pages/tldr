@@ -4,7 +4,11 @@
 > Apelidos expiram ao final da sessão atual do shell de comando, a menos que sejam definidos no arquivo de configuração do shell, por exemplo `~/.bashrc`.
 > Mais informações: <https://tldp.org/LDP/abs/html/aliases.html>.
 
-- Cria um apelido:
+- Lista todos os apelidos:
+
+`alias`
+
+- Cria um apelido genérico:
 
 `alias {{apelido}}="{{comando}}"`
 

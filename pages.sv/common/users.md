@@ -1,7 +1,7 @@
 # users
 
 > Visa en lista över inloggade användare.
-> Mer information: <https://www.gnu.org/software/coreutils/users>.
+> Mer information: <https://www.gnu.org/software/coreutils/manual/html_node/users-invocation.html>.
 
 - Visa en lista över inloggade användare:
 

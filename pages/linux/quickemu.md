@@ -1,7 +1,7 @@
 # quickemu
 
 > Build and manage highly optimised desktop virtual machines quickly.
-> See also: `quickget`, for preparing VM configurations.
+> See also: `quickget` for preparing VM configurations.
 > More information: <https://github.com/quickemu-project/quickemu>.
 
 - Create and run a virtual machine from a configuration file:
@@ -12,7 +12,7 @@
 
 `quickemu --status-quo --vm {{path/to/file.conf}}`
 
-- Start the virtual machine in full-screen mode (<Ctrl> + <Alt> + f to exit) and select the display backend (`sdl` by default):
+- Start the virtual machine in full-screen mode (`<Ctrl Alt f>` to exit) and select the display backend (`sdl` by default):
 
 `quickemu --fullscreen --display {{sdl|gtk|spice|spice-app|none}} --vm {{path/to/file.conf}}`
 

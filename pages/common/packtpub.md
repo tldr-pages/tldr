@@ -5,11 +5,11 @@
 
 - Download the daily offer book into the current directory with the specified book format (defaults to `pdf`):
 
-`packtpub download --type {{pdf|ebup|mobi}}`
+`packtpub download {{[-t|--type]}} {{pdf|ebup|mobi}}`
 
 - Download the daily offer book into the specified directory:
 
-`packtpub download --dir {{path/to/directory}}`
+`packtpub download {{[-d|--dir]}} {{path/to/directory}}`
 
 - Start an interactive login to packtpub.com:
 

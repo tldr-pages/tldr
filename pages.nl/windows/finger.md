@@ -16,6 +16,6 @@
 
 `finger {{gebruiker}}@{{host}} -l`
 
-- Toon helpinformatie:
+- Toon de helpinformatie:
 
 `finger /?`

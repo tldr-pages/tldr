@@ -1,7 +1,7 @@
 # ginstall
 
-> Perintah ini merupakan alias dari `-p linux install`.
+> Perintah ini merupakan alias dari `install`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux install`
+`tldr install`

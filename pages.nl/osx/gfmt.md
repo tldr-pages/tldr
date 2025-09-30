@@ -1,7 +1,7 @@
 # gfmt
 
-> Dit commando is een alias van `-p linux fmt`.
+> Dit commando is een alias van GNU `fmt`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux fmt`
+`tldr fmt`

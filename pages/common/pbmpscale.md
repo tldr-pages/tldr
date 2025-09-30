@@ -6,4 +6,4 @@
 
 - Enlarge a PBM image by the specified factor with edge smoothing:
 
-`pbmpscale {{N}} {{path/to/image.pbm}} > {{path/to/file.pbm}}`
+`pbmpscale {{n}} {{path/to/image.pbm}} > {{path/to/file.pbm}}`

@@ -1,7 +1,7 @@
 # ggrep
 
-> Questo comando è un alias per `-p linux grep`.
+> Questo comando è un alias per `grep`.
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux grep`
+`tldr grep`

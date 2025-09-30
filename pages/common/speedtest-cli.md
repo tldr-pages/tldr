@@ -1,7 +1,7 @@
 # speedtest-cli
 
 > Test internet bandwidth using <https://speedtest.net>.
-> See also `speedtest` for the official CLI.
+> See also: `speedtest` for the official CLI.
 > More information: <https://github.com/sivel/speedtest-cli>.
 
 - Run a speed test:

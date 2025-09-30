@@ -1,7 +1,7 @@
 # units
 
 > Convert between two units of measure.
-> More information: <https://www.gnu.org/software/units/>.
+> More information: <https://www.gnu.org/software/units/manual/units.html>.
 
 - Run in interactive mode:
 

@@ -1,7 +1,7 @@
 # abduco
 
 > 终端会话管理器。
-> 更多信息：<https://www.brain-dump.org/projects/abduco/>.
+> 更多信息：<https://manned.org/abduco>.
 
 - 列出会话：
 
@@ -17,7 +17,7 @@
 
 - 从一个会话中分离：
 
-`<Ctrl> + \`
+`<Ctrl \>`
 
 - 以只读模式附加到一个会话：
 

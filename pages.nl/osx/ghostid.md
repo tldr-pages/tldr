@@ -1,7 +1,7 @@
 # ghostid
 
-> Dit commando is een alias van `-p linux hostid`.
+> Dit commando is een alias van GNU `hostid`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux hostid`
+`tldr hostid`

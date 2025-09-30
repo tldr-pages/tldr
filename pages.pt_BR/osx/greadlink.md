@@ -1,7 +1,7 @@
 # greadlink
 
-> Este comando é um apelido de `-p linux readlink`.
+> Este comando é um apelido de `readlink`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux readlink`
+`tldr readlink`

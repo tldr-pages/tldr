@@ -1,7 +1,7 @@
 # pulumi destroy
 
 > Destroy all existing resources in a stack.
-> More information: <https://www.pulumi.com/docs/cli/commands/pulumi_destroy/>.
+> More information: <https://www.pulumi.com/docs/iac/cli/commands/pulumi_destroy/>.
 
 - Destroy all resources in the current stack:
 
@@ -9,11 +9,11 @@
 
 - Destroy all resources in a specific stack:
 
-`pulumi destroy --stack {{stack}}`
+`pulumi destroy {{[-s|--stack]}} {{stack}}`
 
 - Automatically approve and destroy resources after previewing:
 
-`pulumi destroy --yes`
+`pulumi destroy {{[-y|--yes]}}`
 
 - Exclude protected resources from being destroyed:
 

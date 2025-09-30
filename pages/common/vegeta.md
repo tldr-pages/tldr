@@ -1,7 +1,7 @@
 # vegeta
 
-> A command-line utility and a library for HTTP load testing.
-> See also `ab`.
+> A utility and a library for HTTP load testing.
+> See also: `ab`.
 > More information: <https://github.com/tsenart/vegeta>.
 
 - Launch an attack lasting 30 seconds:

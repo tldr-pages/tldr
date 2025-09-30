@@ -1,7 +1,7 @@
 # code
 
 > Editor de código extensible y multiplataforma.
-> Más información: <https://github.com/microsoft/vscode>.
+> Más información: <https://code.visualstudio.com/docs/configure/command-line>.
 
 - Inicia Visual Studio Code:
 
@@ -13,11 +13,11 @@
 
 - Compara dos archivos específicos:
 
-`code --diff {{ruta/al/archivo1}} {{ruta/al/archivo2}}`
+`code {{[-d|--diff]}} {{ruta/al/archivo1}} {{ruta/al/archivo2}}`
 
 - Abre archivos o directorios específicos en una nueva ventana:
 
-`code --new-window {{ruta/al/archivo_o_directorio1 ruta/al/archivo_o_directorio2 ...}}`
+`code {{[-n|--new-window]}} {{ruta/al/archivo_o_directorio1 ruta/al/archivo_o_directorio2 ...}}`
 
 - Instala/desinstala una extensión específica:
 

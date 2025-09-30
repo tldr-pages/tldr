@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux rexec`
+`tldr {{[-p|--platform]}} linux rexec`

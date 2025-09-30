@@ -34,4 +34,4 @@
 
 - Mostra tots els paquets instalats:
 
-`apt list --installed`
+`apt list {{[-i|--installed]}}`

@@ -6,7 +6,7 @@
 
 - Directly run your command:
 
-`ntfyme exec {{-c|--cmd}} {{command}}`
+`ntfyme exec {{[-c|--cmd]}} {{command}}`
 
 - Pipe your command and run:
 
@@ -18,7 +18,7 @@
 
 - Track and terminate the process after prolonged suspension:
 
-`ntfyme exec {{-t|--track-process}} {{-c|--cmd}} {{command}}`
+`ntfyme exec {{[-t|--track-process]}} {{[-c|--cmd]}} {{command}}`
 
 - Setup the tool configurations interactively:
 

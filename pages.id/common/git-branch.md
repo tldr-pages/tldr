@@ -5,11 +5,11 @@
 
 - Tampilkan daftar semua cabang (lokal dan remote; cabang saat ini ditandai oleh `*`) :
 
-`git branch --all`
+`git branch {{[-a|--all]}}`
 
 - Tampilkan daftar semua cabang yang memiliki komit Git tertentu di dalam riwayat:
 
-`git branch --all --contains {{hash_komit}}`
+`git branch {{[-a|--all]}} --contains {{hash_komit}}`
 
 - Tampilkan nama cabang saat ini:
 
@@ -25,12 +25,12 @@
 
 - Ubah nama cabang (harus bukan cabang saat ini untuk melakukannya):
 
-`git branch {{-m|--move}} {{nama_cabang_lama}} {{nama_cabang_baru}}`
+`git branch {{[-m|--move]}} {{nama_cabang_lama}} {{nama_cabang_baru}}`
 
 - Hapus cabang lokal (harus bukan cabang saat ini untuk melakukannya):
 
-`git branch {{-d|--delete}} {{nama_cabang}}`
+`git branch {{[-d|--delete]}} {{nama_cabang}}`
 
 - Hapus cabang remote:
 
-`git push {{nama_remote}} --delete {{nama_cabang_remote}}`
+`git push {{nama_remote}} {{[-d|--delete]}} {{nama_cabang_remote}}`

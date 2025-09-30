@@ -26,3 +26,7 @@
 - Compila um arquivo Dart para um binário nativo:
 
 `dart compile exe {{caminho/para/arquivo.dart}}`
+
+- Aplica correções automáticas ao projeto atual:
+
+`dart fix --apply`

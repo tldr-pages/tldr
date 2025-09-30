@@ -1,8 +1,8 @@
 # pushd
 
 > Place a directory on a stack so it can be accessed later.
-> See also `popd` to switch back to original directory and `dirs` to display directory stack contents.
-> More information: <https://www.gnu.org/software/bash/manual/html_node/Directory-Stack-Builtins.html>.
+> See also: `popd` to switch back to original directory and `dirs` to display directory stack contents.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-pushd>.
 
 - Switch to directory and push it on the stack:
 

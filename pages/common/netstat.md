@@ -6,28 +6,28 @@
 
 - List all ports:
 
-`netstat --all`
+`netstat {{[-a|--all]}}`
 
 - List all listening ports:
 
-`netstat --listening`
+`netstat {{[-l|--listening]}}`
 
 - List listening TCP ports:
 
-`netstat --tcp`
+`netstat {{[-t|--tcp]}}`
 
 - Display PID and program names:
 
-`netstat --program`
+`netstat {{[-p|--program]}}`
 
 - List information continuously:
 
-`netstat --continuous`
+`netstat {{[-c|--continuous]}}`
 
 - List routes and do not resolve IP addresses to hostnames:
 
-`netstat --route --numeric`
+`netstat {{[-rn|--route --numeric]}}`
 
 - List listening TCP and UDP ports (+ user and process if you're root):
 
-`netstat --listening --program --numeric --tcp --udp --extend`
+`netstat {{[-tulpne|--tcp --udp --listening --program --numeric --extend]}}`

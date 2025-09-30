@@ -5,7 +5,7 @@
 
 - Escanea un repositorio remoto:
 
-`gitleaks detect --repo-url {{https://github.com/nombre_usuario/repositorio.git}}`
+`gitleaks detect --repo-url {{https://github.com/usuario/repositorio.git}}`
 
 - Escanea un directorio local:
 

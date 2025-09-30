@@ -11,6 +11,6 @@
 
 `caffeinate -s {{comando}}`
 
-- Impedisci la sospensione fino alla pressione della combinazione di tasti Ctrl-C:
+- Impedisci la sospensione fino alla pressione della combinazione di tasti `<Ctrl c>`:
 
 `caffeinate -i`

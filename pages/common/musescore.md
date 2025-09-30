@@ -2,7 +2,7 @@
 
 > MuseScore 3 sheet music editor.
 > See also: `lilypond`.
-> More information: <https://musescore.org/en/handbook/3/command-line-options>.
+> More information: <https://musescore.org/en/handbook/4/command-line-options>.
 
 - Use a specific audio driver:
 

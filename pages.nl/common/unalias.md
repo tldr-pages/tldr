@@ -1,7 +1,8 @@
 # unalias
 
 > Verwijder aliassen.
-> Meer informatie: <https://manned.org/unalias>.
+> Zie ook: `alias`.
+> Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#index-unalias>.
 
 - Verwijder een alias:
 

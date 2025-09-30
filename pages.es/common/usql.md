@@ -5,7 +5,7 @@
 
 - Conecta a una base de datos específica:
 
-`usql {{sqlserver|mysql|postgres|sqlite3|...}}://{{nombre_usuario}}:{{contraseña}}@{{host}}:{{puerto}}/{{nombre_base_de_datos}}`
+`usql {{sqlserver|mysql|postgres|sqlite3|...}}://{{usuario}}:{{contraseña}}@{{host}}:{{puerto}}/{{nombre_base_de_datos}}`
 
 - Ejecuta comandos desde un archivo:
 

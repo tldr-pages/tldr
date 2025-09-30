@@ -13,4 +13,4 @@
 
 - Always produce a color TIFF image, even if the input image is greyscale:
 
-`pamtotiff -color {{path/to/input_file.pam}} > {{path/to/output_file.tiff}}`
+`pamtotiff {{[-c|-color]}} {{path/to/input_file.pam}} > {{path/to/output_file.tiff}}`

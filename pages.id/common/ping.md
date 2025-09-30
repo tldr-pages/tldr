@@ -1,28 +1,32 @@
 # ping
 
-> Mengirim paket-paket ICMP ECHO_REQUEST ke host dalam jaringan.
+> Kirim kumpulan paket ICMP ECHO_REQUEST (sebagai pesan "ping") ke host dalam jaringan.
 > Informasi lebih lanjut: <https://manned.org/ping>.
 
-- Ping host:
+- Ping suatu host:
 
 `ping {{host}}`
 
-- Ping host dalam jumlah kali tertentu:
+- Ping suatu host dengan jumlah pengulangan yang ditetapkan:
 
 `ping -c {{jumlah}} {{host}}`
 
-- Ping host, dengan menentukan interval dalam sekian detik di antara request (asalnya 1 detik):
+- Ping suatu host, dengan menentukan interval dalam sekian detik di antara permintaan (asalnya 1 detik):
 
-`ping -i {{jumlah-detik}} {{host}}`
+`ping -i {{detik}} {{host}}`
 
-- Ping host tanpa mencoba untuk melihat alamat dari nama-nama simbolis:
+- Ping suatu host tanpa mencoba untuk melihat alamat dari nama-nama simbolis:
 
 `ping -n {{host}}`
 
-- Ping host dan membunyikan bel saat paket diterima (jika terminal anda mendukungnya):
+- Ping suatu host dan membunyikan bel saat paket diterima (jika terminal anda mendukungnya):
 
 `ping -a {{host}}`
 
-- Menampilkan juga pesan jika tidak ada respon yang diterima:
+- Tampilkan juga pesan jika tidak ada respon yang diterima:
 
 `ping -O {{host}}`
+
+- Ping suatu host dengan jumlah pengulangan yang ditetapkan, batas timeout (`-W`) untuk setiap balasan, serta batas waktu (`-w`) eksekusi bagi keseluruhan proses ping berjalan:
+
+`ping -c {{jumlah}} -W {{detik}} -w {{detik}} {{host}}`

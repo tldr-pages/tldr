@@ -18,7 +18,7 @@
 
 - Resume all tasks and start their children:
 
-`pueue start --all --children`
+`pueue start {{[-a|--all]}} --children`
 
 - Resume all tasks in a specific group:
 

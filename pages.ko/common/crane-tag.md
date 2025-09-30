@@ -10,4 +10,4 @@
 
 - 도움말 표시:
 
-`crane tag {{-h|--help}}`
+`crane tag {{[-h|--help]}}`

@@ -9,11 +9,11 @@
 
 - Reinicia inmediatament:
 
-`shutdown -r now`
+`shutdown {{[-r|--reboot]}} now`
 
 - Reinicia després de 5 minuts:
 
-`shutdown -r +{{5}} &`
+`shutdown {{[-r|--reboot]}} +{{5}} &`
 
 - Apaga a la 1:00 PM (format 24h):
 

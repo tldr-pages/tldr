@@ -3,6 +3,6 @@
 > Create a Minix filesystem inside a partition.
 > More information: <https://manned.org/mkfs.minix>.
 
-- Create a Minix filesystem inside partition 1 on device b (`sdb1`):
+- Create a Minix filesystem inside partition Y on device X:
 
-`mkfs.minix {{/dev/sdb1}}`
+`mkfs.minix {{/dev/sdXY}}`

@@ -18,3 +18,7 @@
 - Display a specific date (represented as a Unix timestamp) using the default format:
 
 `date -r {{1473305798}}`
+
+- Display a date relative to the current date using the default format:
+
+`date -v {{+1d}} -v {{-20m}}`

@@ -12,6 +12,10 @@
 
 `bugreportz -p`
 
+- Android 버그 보고서의 내용을 `stdout`에 작성:
+
+`bugreportz -s`
+
 - 도움말 표시:
 
 `bugreportz -h`

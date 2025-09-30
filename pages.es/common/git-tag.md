@@ -1,7 +1,7 @@
 # git tag
 
 > Crea, muestra, borra o verifica etiquetas.
-> Una etiqueta es una referencia estática a una confirmación específica.
+> Una etiqueta (tag) es una referencia estática a una confirmación (commit).
 > Más información: <https://git-scm.com/docs/git-tag>.
 
 - Muestra todas las etiquetas:
@@ -18,16 +18,20 @@
 
 - Crea una etiqueta anotada con el mensaje especificado:
 
-`git tag {{nombre_de_la_etiqueta}} -m {{mensaje_de_la_etiqueta}}`
+`git tag {{nombre_de_la_etiqueta}} {{[-m|--message]}} {{mensaje_de_la_etiqueta}}`
 
 - Elimina la etiqueta con el nombre especificado:
 
-`git tag -d {{nombre_de_la_etiqueta}}`
+`git tag {{[-d|--delete]}} {{nombre_de_la_etiqueta}}`
 
-- Obtén las etiquetas actualizadas de upstreams:
+- Obtén las etiquetas actualizadas del remoto (remote):
 
-`git fetch --tags`
+`git fetch {{[-t|--tags]}}`
 
-- Muestra todas las etiquetas cuyos ancestros incluyan una confirmación específica:
+- Envía una etiqueta al remoto:
+
+`git push origin tag {{nombre_de_la_etiqueta}}`
+
+- Muestra todas las etiquetas cuyos ancestros incluyen una confirmación específica:
 
 `git tag --contains {{confirmación}}`

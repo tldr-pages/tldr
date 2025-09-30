@@ -9,7 +9,7 @@
 
 - Tulis file grafik komit yang berisi semua komit yang dapat dijangkau:
 
-`git show-ref --hash | git commit-graph write --stdin-commits`
+`git show-ref {{[-s|--hash]}} | git commit-graph write --stdin-commits`
 
 - Tulis file grafik komit yang berisi semua komit dalam file grafik komit saat ini beserta yang dapat dijangkau dari `HEAD`:
 

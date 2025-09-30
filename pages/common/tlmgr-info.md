@@ -1,7 +1,7 @@
 # tlmgr info
 
 > Show information about TeX Live packages.
-> More information: <https://www.tug.org/texlive/tlmgr.html>.
+> More information: <https://www.tug.org/texlive/doc/tlmgr.html#info>.
 
 - List all available TeX Live packages, prefexing installed ones with `i`:
 
@@ -29,7 +29,7 @@
 
 - Show only specific information about a package:
 
-`tlmgr info {{package}} --data "{{name}},{{category}},{{installed}},{{size}},{{depends}},..."`
+`tlmgr info {{package}} --data "{{name}},{{category}},{{installed}},{{size}},{{depends}},{{...}}"`
 
 - Print all available packages as JSON encoded array:
 

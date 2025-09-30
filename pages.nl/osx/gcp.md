@@ -1,7 +1,7 @@
 # gcp
 
-> Dit commando is een alias van `-p linux cp`.
+> Dit commando is een alias van GNU `cp`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux cp`
+`tldr cp`

@@ -9,11 +9,11 @@
 
 - Compress a file using the best compression method:
 
-`pigz -9 {{path/to/file}}`
+`pigz {{[-9|--best]}} {{path/to/file}}`
 
 - Compress a file using no compression and 4 processors:
 
-`pigz -0 -p{{4}} {{path/to/file}}`
+`pigz -0 {{[-p|--processes]}} {{4}} {{path/to/file}}`
 
 - Compress a directory using tar:
 
@@ -21,8 +21,8 @@
 
 - Decompress a file:
 
-`pigz -d {{archive.gz}}`
+`pigz {{[-d|--decompress]}} {{archive.gz}}`
 
 - List the contents of an archive:
 
-`pigz -l {{archive.tar.gz}}`
+`pigz {{[-l|--list]}} {{archive.tar.gz}}`

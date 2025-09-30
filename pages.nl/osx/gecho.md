@@ -1,7 +1,7 @@
 # gecho
 
-> Dit commando is een alias van `-p linux echo`.
+> Dit commando is een alias van GNU `echo`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux echo`
+`tldr echo`

@@ -22,3 +22,7 @@
 - Show a bare list of directories and files, with no additional information:
 
 `dir /b`
+
+- Sort results by date/time, oldest first:
+
+`dir /o:d`

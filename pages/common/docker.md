@@ -6,7 +6,7 @@
 
 - List all Docker containers (running and stopped):
 
-`docker ps --all`
+`docker ps {{[-a|--all]}}`
 
 - Start a container from an image, with a custom name:
 
@@ -24,14 +24,14 @@
 
 `docker images`
 
-- Open an [i]nteractive [t]ty with Bourne shell (`sh`) inside a running container:
+- Open an interactive tty with Bourne shell (`sh`) inside a running container:
 
-`docker exec -it {{container_name}} {{sh}}`
+`docker exec {{[-it|--interactive --tty]}} {{container_name}} {{sh}}`
 
-- Remove a stopped container:
+- Remove stopped containers:
 
-`docker rm {{container_name}}`
+`docker rm {{container1 container2 ...}}`
 
 - Fetch and follow the logs of a container:
 
-`docker logs -f {{container_name}}`
+`docker logs {{[-f|--follow]}} {{container_name}}`

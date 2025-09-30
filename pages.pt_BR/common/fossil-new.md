@@ -1,8 +1,7 @@
 # fossil new
 
-> Este comando é um apelido de  `fossil init`.
-> Mais informações: <https://fossil-scm.org/home/help/new>.
+> Este comando é um apelido de `fossil init`.
 
 - Exibe documentação sobre o comando original:
 
-`tldr fossil-init`
+`tldr fossil init`

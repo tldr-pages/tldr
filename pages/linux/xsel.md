@@ -3,26 +3,26 @@
 > X11 selection and clipboard manipulation tool.
 > More information: <https://manned.org/xsel>.
 
-- Use a command's output as input of the clip[b]oard (equivalent to `Ctrl + C`):
+- Use a command's output as input of the clipboard (equivalent to `<Ctrl c>`):
 
-`echo 123 | xsel -ib`
+`echo 123 | xsel {{[-ib|--input --clipboard]}}`
 
 - Use the contents of a file as input of the clipboard:
 
-`cat {{path/to/file}} | xsel -ib`
+`cat {{path/to/file}} | xsel {{[-ib|--input --clipboard]}}`
 
-- Output the clipboard's contents into the terminal (equivalent to `Ctrl + V`):
+- Output the clipboard's contents into the terminal (equivalent to `<Ctrl v>`):
 
-`xsel -ob`
+`xsel {{[-ob|--output --clipboard]}}`
 
 - Output the clipboard's contents into a file:
 
-`xsel -ob > {{path/to/file}}`
+`xsel {{[-ob|--output --clipboard]}} > {{path/to/file}}`
 
 - Clear the clipboard:
 
-`xsel -cb`
+`xsel {{[-cb|--clear --clipboard]}}`
 
-- Output the X11 primary selection's contents into the terminal (equivalent to a mouse middle-click):
+- Output the X11 primary selection's contents into the terminal (equivalent to a mouse `<MiddleClick>`):
 
-`xsel -op`
+`xsel {{[-op|--output --primary]}}`

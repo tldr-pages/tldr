@@ -2,29 +2,29 @@
 
 > Manajer paket JavaScript dan Node.js yang cepat dan efisien.
 > Mengelola proyek Node.js dan dependensi modulnya.
-> Informasi lebih lanjut: <https://pnpm.io>.
+> Informasi lebih lanjut: <https://pnpm.io/pnpm-cli>.
 
 - Buat file `package.json` file:
 
 `pnpm init`
 
-- Unduh semua paket yang terdaftar sebagai dependensi di package.json:
+- Unduh semua paket yang terdaftar sebagai dependensi di `package.json`:
 
 `pnpm install`
 
-- Unduh versi tertentu dari sebuah paket dan menambahkan ke daftar dependensi di package.json:
+- Unduh versi tertentu dari sebuah paket dan menambahkan ke daftar dependensi di `package.json`:
 
 `pnpm add {{nama_modul}}@{{versi}}`
 
-- Unduh paket dan menambahkan ke daftar dependensi [D]ev di package.json:
+- Unduh paket dan menambahkan ke daftar dependensi [D]ev di `package.json`:
 
-`pnpm add -D {{module_name}}`
+`pnpm add {{[-D|--save-dev]}} {{module_name}}`
 
 - Unduh paket dan instal secara [g]lobal:
 
-`pnpm add -g {{module_name}}`
+`pnpm add {{[-g|--global]}} {{module_name}}`
 
-- Copot pemasangan paket dan hapus dari daftar dependensi di package.json:
+- Copot pemasangan paket dan hapus dari daftar dependensi di `package.json`:
 
 `pnpm remove {{module_name}}`
 
@@ -34,4 +34,4 @@
 
 - Buat daftar modul tingkat atas yang diinstal secara [g]lobal:
 
-`pnpm list -g --depth={{0}}`
+`pnpm list {{[-g|--global]}} --depth {{0}}`

@@ -21,7 +21,7 @@
 
 - Resume compilation from a specific dependency:
 
-`kdesrc-build --resume-from={{dependency_component}} {{component_name}}`
+`kdesrc-build --resume-from {{dependency_component}} {{component_name}}`
 
 - Run a component with a specified executable name:
 

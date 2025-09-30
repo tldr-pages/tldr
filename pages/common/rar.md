@@ -5,7 +5,7 @@
 
 - Archive 1 or more files:
 
-`rar a {{path/to/archive_name.rar}} {{path/to/file1}} {{path/to/file2}} {{path/to/file3}}`
+`rar a {{path/to/archive_name.rar}} {{path/to/file1 path/to/file2 path/to/file3 ...}}`
 
 - Archive a directory:
 

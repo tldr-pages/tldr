@@ -13,4 +13,4 @@
 
 - Find packages which are only recommended or suggested (but not required) by another package:
 
-`deborphan --nice-mode`
+`deborphan {{[-n|--nice-mode]}}`

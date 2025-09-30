@@ -1,7 +1,7 @@
 # gpinky
 
-> Perintah ini merupakan alias dari `-p linux pinky`.
+> Perintah ini merupakan alias dari `pinky`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux pinky`
+`tldr pinky`

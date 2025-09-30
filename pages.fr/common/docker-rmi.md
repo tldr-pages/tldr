@@ -13,7 +13,7 @@
 
 - Supprimer une image en forçant la suppression :
 
-`docker rmi --force {{image}}`
+`docker rmi {{[-f|--force]}} {{image}}`
 
 - Supprimer une image sans supprimer les parents non étiquetés :
 

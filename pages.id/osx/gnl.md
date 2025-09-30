@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux nl`
+`tldr {{[-p|--platform]}} linux nl`

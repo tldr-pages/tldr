@@ -14,7 +14,7 @@
 
 - Calculate an expression:
 
-`bc --expression='{{5 / 3}}'`
+`bc --expression '{{5 / 3}}'`
 
 - Execute a script:
 
@@ -22,8 +22,8 @@
 
 - Calculate an expression with the specified scale:
 
-`bc --expression='scale = {{10}}; {{5 / 3}}'`
+`bc --expression '{{scale = 10; 5 / 3}}'`
 
 - Calculate a sine/cosine/arctangent/natural logarithm/exponential function using `mathlib`:
 
-`bc --mathlib --expression='{{s|c|a|l|e}}({{1}})'`
+`bc --mathlib --expression '{{s|c|a|l|e}}({{1}})'`

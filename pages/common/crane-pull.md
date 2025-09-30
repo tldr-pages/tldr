@@ -13,7 +13,7 @@
 
 - Path to cache image layers:
 
-`crane pull {{image_name}} {{path/to/tarball}} {{-c|--cache_path}} {{path/to/cache}}`
+`crane pull {{image_name}} {{path/to/tarball}} {{[-c|--cache_path]}} {{path/to/cache}}`
 
 - Format in which to save images (default 'tarball'):
 
@@ -21,4 +21,4 @@
 
 - Display help:
 
-`crane pull {{-h|--help}}`
+`crane pull {{[-h|--help]}}`

@@ -9,7 +9,7 @@
 
 - Send a file or directory with a specific passphrase:
 
-`croc send --code {{passphrase}} {{path/to/file_or_directory}}`
+`croc send {{[-c|--code]}} {{passphrase}} {{path/to/file_or_directory}}`
 
 - Receive a file or directory on receiving machine:
 

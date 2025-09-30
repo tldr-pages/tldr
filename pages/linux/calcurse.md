@@ -1,7 +1,7 @@
 # calcurse
 
 > A text-based calendar and scheduling application for the command-line.
-> More information: <https://calcurse.org>.
+> More information: <https://github.com/lfos/calcurse/blob/pu/doc/calcurse.1.txt>.
 
 - Start `calcurse` on interactive mode:
 
@@ -9,7 +9,7 @@
 
 - Print the appointments and events for the current day and exit:
 
-`calcurse --appointment`
+`calcurse {{[-a|--appointment]}}`
 
 - Remove all local calcurse items and import remote objects:
 

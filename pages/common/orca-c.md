@@ -26,12 +26,12 @@
 
 - Show the main menu inside of ORCA:
 
-`F1`
+`<F1>`
 
 - Show all shortcuts inside of ORCA:
 
-`?`
+`<?>`
 
 - Show all ORCA operators inside of ORCA:
 
-`<Ctrl> + g`
+`<Ctrl g>`

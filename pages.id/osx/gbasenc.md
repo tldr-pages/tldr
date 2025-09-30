@@ -1,7 +1,7 @@
 # gbasenc
 
-> Perintah ini merupakan alias dari `-p linux basenc`.
+> Perintah ini merupakan alias dari `basenc`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux basenc`
+`tldr basenc`

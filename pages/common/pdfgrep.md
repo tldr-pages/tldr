@@ -1,7 +1,7 @@
 # pdfgrep
 
 > Search text in PDF files.
-> More information: <https://pdfgrep.org>.
+> More information: <https://pdfgrep.org/doc.html>.
 
 - Find lines that match pattern in a PDF:
 
@@ -9,16 +9,16 @@
 
 - Include file name and page number for each matched line:
 
-`pdfgrep --with-filename --page-number {{pattern}} {{file.pdf}}`
+`pdfgrep {{[-H|--with-filename]}} {{[-n|--page-number]}} {{pattern}} {{file.pdf}}`
 
 - Do a case-insensitive search for lines that begin with "foo" and return the first 3 matches:
 
-`pdfgrep --max-count {{3}} --ignore-case {{'^foo'}} {{file.pdf}}`
+`pdfgrep {{[-m|--max-count]}} {{3}} {{[-i|--ignore-case]}} {{'^foo'}} {{file.pdf}}`
 
 - Find pattern in files with a `.pdf` extension in the current directory recursively:
 
-`pdfgrep --recursive {{pattern}}`
+`pdfgrep {{[-r|--recursive]}} {{pattern}}`
 
 - Find pattern on files that match a specific glob in the current directory recursively:
 
-`pdfgrep --recursive --include {{'*book.pdf'}} {{pattern}}`
+`pdfgrep {{[-r|--recursive]}} --include {{'*book.pdf'}} {{pattern}}`

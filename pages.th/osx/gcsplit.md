@@ -4,4 +4,4 @@
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr -p linux csplit`
+`tldr {{[-p|--platform]}} linux csplit`

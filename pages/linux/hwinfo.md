@@ -3,17 +3,17 @@
 > Probe for the hardware present in the system.
 > More information: <https://manpages.opensuse.org/hwinfo/hwinfo.8.en.html>.
 
-- Get graphics card information:
+- Display all available hardware information:
 
-`hwinfo --gfxcard`
+`hwinfo`
 
-- Get network device information:
+- Display information about a specific hardware component:
 
-`hwinfo --network`
+`hwinfo --{{cpu|memory|disk|gfxcard|network|usb|pci|keyboard|mouse|monitor|sound|fingerprint|...}}`
 
-- List disks and CD-ROM drives, abbreviating the output:
+- Display information about a specific hardware component succinctly:
 
-`hwinfo --short --disk --cdrom`
+`hwinfo {{--component}} --short`
 
 - Write all hardware information to a file:
 

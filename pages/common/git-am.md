@@ -1,7 +1,7 @@
 # git am
 
 > Apply patch files and create a commit. Useful when receiving commits via email.
-> See also `git format-patch`, which can generate patch files.
+> See also: `git format-patch` which can generate patch files.
 > More information: <https://git-scm.com/docs/git-am>.
 
 - Apply and commit changes following a local patch file:
@@ -10,7 +10,7 @@
 
 - Apply and commit changes following a remote patch file:
 
-`curl -L {{https://example.com/file.patch}} | git apply`
+`curl {{[-L|--location]}} {{https://example.com/file.patch}} | git apply`
 
 - Abort the process of applying a patch file:
 

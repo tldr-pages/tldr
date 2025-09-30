@@ -5,19 +5,19 @@
 
 - Connect to a remote host:
 
-`rpcclient --user {{domain}}\{{username}}%{{password}} {{ip}}`
+`rpcclient {{[-U|--user]}} {{domain}}\{{username}}%{{password}} {{ip}}`
 
 - Connect to a remote host on a domain without a password:
 
-`rpcclient --user {{username}} --workgroup {{domain}} --no-pass {{ip}}`
+`rpcclient {{[-U|--user]}} {{username}} {{[-W|--workgroup]}} {{domain}} {{[-N|--no-pass]}} {{ip}}`
 
 - Connect to a remote host, passing the password hash:
 
-`rpcclient --user {{domain}}\{{username}} --pw-nt-hash {{ip}}`
+`rpcclient {{[-U|--user]}} {{domain}}\{{username}} --pw-nt-hash {{ip}}`
 
 - Execute shell commands on a remote host:
 
-`rpcclient --user {{domain}}\{{username}}%{{password}} --command {{semicolon_separated_commands}} {{ip}}`
+`rpcclient {{[-U|--user]}} {{domain}}\{{username}}%{{password}} {{[-c|--command]}} {{semicolon_separated_commands}} {{ip}}`
 
 - Display domain users:
 

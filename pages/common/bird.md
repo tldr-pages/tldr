@@ -2,7 +2,7 @@
 
 > BIRD Internet Routing Daemon.
 > Routing daemon with support for BGP, OSPF, Babel and others.
-> More information: <https://bird.network.cz/>.
+> More information: <https://bird.network.cz/?get_doc&v=30&f=bird-1.html#ss1.3>.
 
 - Start Bird with a specific configuration file:
 

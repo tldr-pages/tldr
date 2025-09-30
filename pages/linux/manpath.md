@@ -9,4 +9,4 @@
 
 - Show the entire global manpath:
 
-`manpath --global`
+`manpath {{[-g|--global]}}`

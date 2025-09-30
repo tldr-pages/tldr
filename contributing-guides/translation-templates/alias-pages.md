@@ -165,7 +165,7 @@ The templates can be changed when necessary.
 
 > Este comando es un alias de `example`.
 
-- Ver documentación para el comando original:
+- Vea la documentación para el comando original:
 
 `tldr example`
 ```

@@ -1,7 +1,7 @@
 # kahlan
 
 > A unit and Behaviour Driven Development test framework for PHP.
-> More information: <https://kahlan.github.io>.
+> More information: <https://kahlan.github.io/docs/cli-options.html>.
 
 - Run all specifications in the "spec" directory:
 

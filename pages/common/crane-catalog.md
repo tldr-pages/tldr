@@ -13,4 +13,4 @@
 
 - Display help:
 
-`crane catalog {{-h|--help}}`
+`crane catalog {{[-h|--help]}}`

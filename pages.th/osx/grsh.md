@@ -4,4 +4,4 @@
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr -p linux rsh`
+`tldr {{[-p|--platform]}} linux rsh`

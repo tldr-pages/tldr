@@ -9,12 +9,12 @@
 
 - Read from another command and print to stdout:
 
-`journalctl -b --follow | tspin`
+`journalctl {{[-b|--boot]}} {{[-f|--follow]}} | tspin`
 
 - Read from file and print to `stdout`:
 
-`tspin {{path/to/application.log}} --print`
+`tspin {{path/to/application.log}} {{[-p|--print]}}`
 
-- Read from stdin and print to `stdout`:
+- Read from `stdin` and print to `stdout`:
 
 `echo "2021-01-01 12:00:00 [INFO] This is a log message" | tspin`

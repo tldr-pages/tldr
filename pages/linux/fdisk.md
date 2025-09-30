@@ -1,37 +1,37 @@
 # fdisk
 
-> Manage partition tables and partitions on a hard disk.
+> Manage partition tables and partitions on a storage drive.
 > See also: `partprobe`.
 > More information: <https://manned.org/fdisk>.
 
 - List partitions:
 
-`sudo fdisk -l`
+`sudo fdisk {{[-l|--list]}}`
 
 - Start the partition manipulator:
 
 `sudo fdisk {{/dev/sdX}}`
 
-- Once partitioning a disk, create a partition:
+- Create a [n]ew partition:
 
-`n`
+`<n>`
 
-- Once partitioning a disk, select a partition to delete:
+- Select a partition to [d]elete:
 
-`d`
+`<d>`
 
-- Once partitioning a disk, view the partition table:
+- View the [p]artition table:
 
-`p`
+`<p>`
 
-- Once partitioning a disk, write the changes made:
+- [w]rite the changes made:
 
-`w`
+`<w>`
 
-- Once partitioning a disk, discard the changes made:
+- Discard the changes made and [q]uit:
 
-`q`
+`<q>`
 
-- Once partitioning a disk, open a help menu:
+- Open a help [m]enu:
 
-`m`
+`<m>`

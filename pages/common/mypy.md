@@ -7,17 +7,17 @@
 
 `mypy {{path/to/file.py}}`
 
-- Type check a specific [m]odule:
+- Type check a specific module:
 
-`mypy -m {{module_name}}`
+`mypy {{[-m|--module]}} {{module_name}}`
 
-- Type check a specific [p]ackage:
+- Type check a specific package:
 
-`mypy -p {{package_name}}`
+`mypy {{[-p|--package]}} {{package_name}}`
 
 - Type check a string of code:
 
-`mypy -c "{{code}}"`
+`mypy {{[-c|--command]}} "{{code}}"`
 
 - Ignore missing imports:
 
@@ -25,12 +25,12 @@
 
 - Show detailed error messages:
 
-`mypy --show-traceback {{path/to/file_or_directory}}`
+`mypy {{[--tb|--show-traceback]}} {{path/to/file_or_directory}}`
 
 - Specify a custom configuration file:
 
 `mypy --config-file {{path/to/config_file}}`
 
-- Display [h]elp:
+- Display help:
 
-`mypy -h`
+`mypy {{[-h|--help]}}`

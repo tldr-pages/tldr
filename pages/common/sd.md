@@ -3,7 +3,7 @@
 > Intuitive find and replace.
 > More information: <https://github.com/chmln/sd>.
 
-- Trim some whitespace using a regular expression (output stream: `stdout`):
+- Trim some whitespace using a `regex` (output stream: `stdout`):
 
 `{{echo 'lorem ipsum 23   '}} | sd '\s+$' ''`
 
@@ -13,7 +13,7 @@
 
 - Find and replace in a specific file (output stream: `stdout`):
 
-`sd -p {{'window.fetch'}} {{'fetch'}} {{path/to/file.js}}`
+`sd {{[-p|--preview]}} {{'window.fetch'}} {{'fetch'}} {{path/to/file.js}}`
 
 - Find and replace in all files in the current project (output stream: `stdout`):
 

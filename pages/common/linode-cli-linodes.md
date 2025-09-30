@@ -18,7 +18,7 @@
 
 - Update settings for a Linode:
 
-`linode-cli linodes update {{linode_id}} --label {{[new_label}}`
+`linode-cli linodes update {{linode_id}} --label {{new_label}}`
 
 - Delete a Linode:
 

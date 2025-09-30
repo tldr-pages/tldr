@@ -1,7 +1,7 @@
 # gyes
 
-> Dit commando is een alias van `-p linux yes`.
+> Dit commando is een alias van GNU `yes`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux yes`
+`tldr yes`

@@ -1,7 +1,7 @@
 # gegrep
 
-> Este comando é um apelido de `-p linux egrep`.
+> Este comando é um apelido de `egrep`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux egrep`
+`tldr egrep`

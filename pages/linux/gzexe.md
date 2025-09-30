@@ -8,6 +8,6 @@
 
 `gzexe {{path/to/executable}}`
 
-- Decompress a compressed executable in-place (i.e. convert the shell script back to an uncompressed binary):
+- [d]ecompress a compressed executable in-place (i.e. convert the shell script back to an uncompressed binary):
 
 `gzexe -d {{path/to/compressed_executable}}`

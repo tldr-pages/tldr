@@ -1,7 +1,7 @@
 # guname
 
-> Dit commando is een alias van `-p linux uname`.
+> Dit commando is een alias van GNU `uname`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux uname`
+`tldr {{[-p|--platform]}} common uname`

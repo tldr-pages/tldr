@@ -1,28 +1,28 @@
 # grex
 
-> Generate regular expressions.
+> Generate `regex`s.
 > More information: <https://github.com/pemistahl/grex>.
 
-- Generate a simple regular expression:
+- Generate a simple `regex`:
 
 `grex {{space_separated_strings}}`
 
-- Generate a case-insensitive regular expression:
+- Generate a case-insensitive `regex`:
 
-`grex -i {{space_separated_strings}}`
+`grex {{[-i|--ignore-case]}} {{space_separated_strings}}`
 
 - Replace digits with '\d':
 
-`grex -d {{space_separated_strings}}`
+`grex {{[-d|--digits]}} {{space_separated_strings}}`
 
 - Replace Unicode word character with '\w':
 
-`grex -w {{space_separated_strings}}`
+`grex {{[-w|--words]}} {{space_separated_strings}}`
 
 - Replace spaces with '\s':
 
-`grex -s {{space_separated_strings}}`
+`grex {{[-s|--spaces]}} {{space_separated_strings}}`
 
 - Add {min, max} quantifier representation for repeating sub-strings:
 
-`grex -r {{space_separated_strings}}`
+`grex {{[-r|--repetitions]}} {{space_separated_strings}}`

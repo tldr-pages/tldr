@@ -26,12 +26,12 @@
 
 - Build the Rust project in the current directory using the release profile:
 
-`cargo build --release`
+`cargo {{[b|build]}} {{[-r|--release]}}`
 
 - Build the Rust project in the current directory using the nightly compiler (requires `rustup`):
 
-`cargo +nightly build`
+`cargo +nightly {{[b|build]}}`
 
 - Build using a specific number of threads (default is the number of logical CPUs):
 
-`cargo build --jobs {{number_of_threads}}`
+`cargo {{[b|build]}} --jobs {{number_of_threads}}`

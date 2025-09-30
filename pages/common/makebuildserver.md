@@ -9,4 +9,4 @@
 
 - Force creating a fresh virtual machine:
 
-`makebuildserver --clean`
+`makebuildserver {{[-c|--clean]}}`

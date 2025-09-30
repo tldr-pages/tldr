@@ -13,7 +13,7 @@
 
 - Send changes from a specific local branch to its remote counterpart, and set the remote one as the default push/pull target of the local one:
 
-`git push -u {{remote_name}} {{local_branch}}`
+`git push {{[-u|--set-upstream]}} {{remote_name}} {{local_branch}}`
 
 - Send changes from a specific local branch to a specific remote branch:
 
@@ -25,7 +25,7 @@
 
 - Delete a branch in a remote repository:
 
-`git push {{remote_name}} --delete {{remote_branch}}`
+`git push {{remote_name}} {{[-d|--delete]}} {{remote_branch}}`
 
 - Remove remote branches that don't have a local counterpart:
 

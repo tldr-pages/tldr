@@ -9,4 +9,4 @@
 
 - Compensate for non-square pixels by scaling the width of the image:
 
-`sldtoppm -adjust {{path/to/input.sld}} > {{path/to/output.ppm}}`
+`sldtoppm {{[-a|-adjust]}} {{path/to/input.sld}} > {{path/to/output.ppm}}`

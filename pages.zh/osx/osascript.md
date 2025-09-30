@@ -5,11 +5,11 @@
 
 - 运行一个 AppleScript 命令：
 
-`osascript -e "{{say '你好世界'}}"`
+`osascript -e '{{say "你好世界"}}'`
 
 - 运行多条 AppleScript 命令：
 
-`osascript -e "{{say '你好'}}" -e "{{say '世界'}}"`
+`osascript -e '{{say "你好"}}' -e '{{say "世界"}}'`
 
 - 运行一个已编译的脚本（`*.scpt`），包脚本（`*.scptd`），或明文的（`*.applescript`）AppleScript 文件：
 

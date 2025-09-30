@@ -4,4 +4,4 @@
 
 - Exibe documentação do comando original:
 
-`tldr -p linux mknod`
+`tldr {{[-p|--platform]}} linux mknod`

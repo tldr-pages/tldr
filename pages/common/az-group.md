@@ -6,16 +6,16 @@
 
 - Create a new resource group:
 
-`az group create --name {{name}} --location {{location}}`
+`az group create {{[-n|--name]}} {{name}} {{[-l|--location]}} {{location}}`
 
 - Check if a resource group exists:
 
-`az group exists --name {{name}}`
+`az group exists {{[-n|--name]}} {{name}}`
 
 - Delete a resource group:
 
-`az group delete --name {{name}}`
+`az group delete {{[-n|--name]}} {{name}}`
 
 - Wait until a condition of the resource group is met:
 
-`az group wait --name {{name}} --{{created|deleted|exists|updated}}`
+`az group wait {{[-n|--name]}} {{name}} --{{created|deleted|exists|updated}}`

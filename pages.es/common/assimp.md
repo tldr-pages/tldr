@@ -2,7 +2,7 @@
 
 > Cliente de línea de comandos para la biblioteca Open Asset Import.
 > Admite la carga de más de 40 formatos de archivo 3D y la exportación a varios formatos 3D populares.
-> Más información: <https://assimp-docs.readthedocs.io/>.
+> Más información: <https://manned.org/assimp>.
 
 - Lista todos los formatos de importación soportados:
 

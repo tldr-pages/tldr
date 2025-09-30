@@ -1,7 +1,7 @@
 # alacritty
 
 > Lintas platform, terakselerasi GPU terminal emulator.
-> Informasi lebih lanjut: <https://github.com/alacritty/alacritty>.
+> Informasi lebih lanjut: <https://manned.org/alacritty>.
 
 - Buka jendela Alacritty baru:
 

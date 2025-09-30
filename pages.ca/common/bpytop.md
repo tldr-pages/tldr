@@ -13,15 +13,15 @@
 
 - Canvia a mode minimalista:
 
-`m`
+`<m>`
 
 - Busca processos o programes executant-se:
 
-`f`
+`<f>`
 
 - Canvia ajustaments:
 
-`M`
+`<M>`
 
 - Mostra la versió:
 

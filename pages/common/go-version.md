@@ -1,7 +1,7 @@
 # go version
 
 > Display Go version.
-> More information: <https://golang.org/cmd/go/#hdr-Print_Go_version>.
+> More information: <https://pkg.go.dev/cmd/go#hdr-Print_Go_version>.
 
 - Display version:
 

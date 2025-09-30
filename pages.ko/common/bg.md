@@ -1,6 +1,6 @@
 # bg
 
-> 일시 중단된 작업을 다시 시작하고 (예. `Ctrl + Z`), 그 작업이 background에서 동작하게 유지.
+> 일시 중단된 작업을 다시 시작하고 (예. `<Ctrl z>`), 그 작업이 background에서 동작하게 유지.
 > 더 많은 정보: <https://manned.org/bg>.
 
 - 가장 최근에 일시 중단된 작업을 재개하고 background에서 실행:

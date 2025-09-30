@@ -1,7 +1,7 @@
 # gnice
 
-> To polecenie jest aliasem `-p linux nice`.
+> To polecenie jest aliasem GNU `nice`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux nice`
+`tldr nice`

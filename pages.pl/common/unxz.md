@@ -1,7 +1,6 @@
 # unxz
 
-> To polecenie jest aliasem `xz`.
-> Więcej informacji: <https://manned.org/unxz>.
+> To polecenie jest aliasem `xz --decompress`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

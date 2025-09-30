@@ -9,8 +9,8 @@
 
 - Produce the output in the DirectColor format:
 
-`pnmtoxwd -directcolor {{path/to/input_file.pnm}} > {{path/to/output_file.xwd}}`
+`pnmtoxwd {{[-d|-directcolor]}} {{path/to/input_file.pnm}} > {{path/to/output_file.xwd}}`
 
 - Set the color depth of the output to b bits:
 
-`pnmtoxwd -pseudodepth {{b}} {{path/to/input_file.pnm}} > {{path/to/output_file.xwd}}`
+`pnmtoxwd {{[-ps|-pseudodepth]}} {{b}} {{path/to/input_file.pnm}} > {{path/to/output_file.xwd}}`

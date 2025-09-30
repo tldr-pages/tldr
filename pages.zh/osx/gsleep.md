@@ -4,4 +4,4 @@
 
 - 原命令的文档在：
 
-`tldr -p linux sleep`
+`tldr {{[-p|--platform]}} linux sleep`

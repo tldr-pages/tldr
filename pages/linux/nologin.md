@@ -5,7 +5,7 @@
 
 - Set a user's login shell to `nologin` to prevent the user from logging in:
 
-`chsh -s {{user}} nologin`
+`chsh {{[-s|--shell]}} {{user}} nologin`
 
 - Customize message for users with the login shell of `nologin`:
 

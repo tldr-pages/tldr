@@ -2,20 +2,20 @@
 
 > Compare package files using different modes.
 > See also: `pkgctl`.
-> More information: <https://manned.org/pkgctl-diff.1>.
+> More information: <https://manned.org/pkgctl-diff>.
 
-- Compare package files in tar content [l]ist different mode (default):
+- Compare package files in tar content list different mode (default):
 
-`pkgctl diff --list {{path/to/file|pkgname}}`
+`pkgctl diff {{[-l|--list]}} {{path/to/file|pkgname}}`
 
-- Compare package files in [d]iffoscope different mode:
+- Compare package files in diffoscope different mode:
 
-`pkgctl diff --diffoscope {{path/to/file|pkgname}}`
+`pkgctl diff {{[-d|--diffoscope]}} {{path/to/file|pkgname}}`
 
 - Compare package files in `.PKGINFO` different mode:
 
-`pkgctl diff --pkginfo {{path/to/file|pkgname}}`
+`pkgctl diff {{[-p|--pkginfo]}} {{path/to/file|pkgname}}`
 
 - Compare package files in `.BUILDINFO` different mode:
 
-`pkgctl diff --buildinfo {{path/to/file|pkgname}}`
+`pkgctl diff {{[-b|--buildinfo]}} {{path/to/file|pkgname}}`

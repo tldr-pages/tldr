@@ -6,7 +6,7 @@
 
 - Liste laufende und gestoppte Container auf:
 
-`docker ps --all`
+`docker ps {{[-a|--all]}}`
 
 - Erzeuge einen Container aus einem Image und benenne ihn:
 
@@ -26,7 +26,7 @@
 
 - Öffne eine Konsole innerhalb eines bereits laufenden Containers:
 
-`docker exec -it {{container_name}} {{sh}}`
+`docker exec {{[-it|--interactive --tty]}} {{container_name}} {{sh}}`
 
 - Lösche einen gestoppten Container:
 
@@ -34,4 +34,4 @@
 
 - Zeige die Logs eines Containers an und aktualisiere sie automatisch:
 
-`docker logs -f {{container_name}}`
+`docker logs {{[-f|--follow]}} {{container_name}}`

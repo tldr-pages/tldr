@@ -11,6 +11,6 @@
 
 `caffeinate -s {{command}}`
 
-- Menghindari mode sleep sampai anda mengetik Ctrl-C:
+- Menghindari mode sleep sampai anda mengetik `<Ctrl c>`:
 
 `caffeinate -i`

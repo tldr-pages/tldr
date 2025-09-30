@@ -1,7 +1,7 @@
 # grealpath
 
-> Dit commando is een alias van `-p linux realpath`.
+> Dit commando is een alias van GNU `realpath`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux realpath`
+`tldr realpath`

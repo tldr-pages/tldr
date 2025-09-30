@@ -18,7 +18,7 @@
 
 - Update the memory limit in [M]egabytes for a specific container:
 
-`docker update --memory {{limit}}M {{container_name}}`
+`docker update {{[-m|--memory]}} {{limit}}M {{container_name}}`
 
 - Update the maximum number of process IDs allowed inside a specific container (use `-1` for unlimited):
 

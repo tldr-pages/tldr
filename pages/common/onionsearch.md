@@ -22,4 +22,4 @@
 
 - List all supported search engines:
 
-`onionsearch --help | grep -A1 -i "supported engines"`
+`onionsearch --help | grep {{[-A|--after-context]}} 1 {{[-i|--ignore-case]}} "supported engines"`

@@ -22,3 +22,7 @@
 - Toon een lijst met mappen en bestanden, zonder extra informatie:
 
 `dir /b`
+
+- Sorteer resultaten op datum/tijd, oudste eerst:
+
+`dir /o:d`

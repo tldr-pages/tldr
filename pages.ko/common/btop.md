@@ -10,12 +10,12 @@
 
 - 지정된 사전 설정으로 `btop`을 시작:
 
-`btop --preset {{0..9}}`
+`btop {{[-p|--preset]}} {{0..9}}`
 
 - 16가지 색상과 TTY 친화적인 그래프 기호를 사용해, TTY 모드에서 `btop`을 시작:
 
-`btop --tty_on`
+`btop {{[-t|--tty]}}`
 
 - 24비트 색상 모드 대신 256색 모드에서 `btop`을 시작:
 
-`btop --low-color`
+`btop {{[-l|--low-color]}}`

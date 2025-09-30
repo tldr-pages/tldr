@@ -9,8 +9,8 @@
 
 - Detect unused secrets in a specific namespace:
 
-`k8s-unused-secret-detector -n {{namespace}}`
+`k8s-unused-secret-detector {{[-n|--namespace]}} {{namespace}}`
 
 - Delete unused secrets in a specific namespace:
 
-`k8s-unused-secret-detector -n {{namespace}} | kubectl delete secret -n {{namespace}}`
+`k8s-unused-secret-detector {{[-n|--namespace]}} {{namespace}} | kubectl delete secret {{[-n|--namespace]}} {{namespace}}`

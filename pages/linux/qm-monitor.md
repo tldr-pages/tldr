@@ -5,4 +5,4 @@
 
 - Enter the QEMU Monitor interface of a specific virtual machine:
 
-`qm monitor {{vm_id}}`
+`qm {{[mo|monitor]}} {{vm_id}}`

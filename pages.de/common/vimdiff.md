@@ -10,28 +10,28 @@
 
 - Bewege den Cursor zum linken|rechten Fenster:
 
-`<Ctrl> + w {{h|l}}`
+`<Ctrl w>{{<h>|<l>}}`
 
 - Springe zum vorigen Unterschied:
 
-`[c`
+`<[><c>`
 
 - Springe zum nächsten Unterschied:
 
-`]c`
+`<]><c>`
 
 - Kopiere die hervorgehobenen Unterschiede vom anderen in das aktuelle Fenster:
 
-`do`
+`<d><o>`
 
 - Kopiere die hervorgehobenen Unterschiede vom aktuellen in das andere Fenster:
 
-`dp`
+`<d><p>`
 
 - Aktualisiere die hervorgehobenen Unterschiede und Textfaltungen:
 
-`:diffupdate`
+`<:>diffupdate`
 
 - Öffne/Schließe die Textfaltung unter dem Cursor:
 
-`za`
+`<z><a>`

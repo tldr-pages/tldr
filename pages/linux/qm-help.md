@@ -5,8 +5,8 @@
 
 - Display help for a specific command:
 
-`qm help {{command}}`
+`qm {{[h|help]}} {{command}}`
 
 - Display help for a specific command with detailed information:
 
-`qm help {{command}} --verbose {{true|false}}`
+`qm {{[h|help]}} {{command}} --verbose {{true|false}}`

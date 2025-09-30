@@ -16,6 +16,6 @@
 
 `bitcoind -chain={{main|test|signet|regtest}}`
 
-- Start the Bitcoin Core daemon using specific config file and data directory:
+- Start the Bitcoin Core daemon using specific configuration file and data directory:
 
 `bitcoind -conf={{path/to/bitcoin.conf}} -datadir={{path/to/directory}}`

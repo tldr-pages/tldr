@@ -5,20 +5,20 @@
 
 - Zeige Details zu Pods in einem bestimmten [n]amespace an:
 
-`kubectl describe pods --namespace {{namespace}}`
+`kubectl describe pods {{[-n|--namespace]}} {{namespace}}`
 
 - Zeige Details zu Nodes in einem bestimmten [n]amespace an:
 
-`kubectl describe nodes --namespace {{namespace}}`
+`kubectl describe nodes {{[-n|--namespace]}} {{namespace}}`
 
 - Zeige Details zu einem bestimmten Pod in einem bestimmten [n]amespace an:
 
-`kubectl describe pods {{pod_name}} --namespace {{namespace}}`
+`kubectl describe pods {{pod_name}} {{[-n|--namespace]}} {{namespace}}`
 
 - Zeige Details zu einer bestimmten Node in einem bestimmten [n]amespace an:
 
-`kubectl describe nodes {{node_name}} --namespace {{namespace}}`
+`kubectl describe nodes {{node_name}} {{[-n|--namespace]}} {{namespace}}`
 
 - Zeige Details zu Ressourcen, die in einer YAML Datei definiert sind, an:
 
-`kubectl describe --file {{pfad/zu/manifest.yaml}}`
+`kubectl describe {{[-f|--filename]}} {{pfad/zu/manifest.yaml}}`

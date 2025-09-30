@@ -1,27 +1,31 @@
 # gt
 
 > Create and manage sequences of dependent code changes (stacks) for Git and GitHub.
-> More information: <https://docs.graphite.dev>.
+> More information: <https://graphite.dev/docs/get-started>.
 
-- Authenticate the CLI with Graphite's API:
+- Initialize `gt` for the repository in the current directory:
 
-`gt auth --token {{graphite_cli_auth_token}}`
-
-- Initialise `gt` for the repository in the current directory:
-
-`gt repo init`
+`gt init`
 
 - Create a new branch stacked on top of the current branch and commit staged changes:
 
-`gt branch create {{branch_name}}`
+`gt create {{branch_name}}`
 
 - Create a new commit and fix upstack branches:
 
-`gt commit create -m {{commit_message}}`
+`gt modify -cam {{commit_message}}`
 
 - Force push all branches in the current stack to GitHub and create or update PRs:
 
 `gt stack submit`
+
+- Checkout different branch (prompts interactive mode when branch name is omitted):
+
+`gt co {{branch_name}}`
+
+- Sync stack with remote version (also deletes merged branches):
+
+`gt sync`
 
 - Log all tracked stacks:
 

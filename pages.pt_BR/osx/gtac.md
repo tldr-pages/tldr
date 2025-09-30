@@ -1,7 +1,7 @@
 # gtac
 
-> Este comando é um apelido de `-p linux tac`.
+> Este comando é um apelido de `tac`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux tac`
+`tldr tac`

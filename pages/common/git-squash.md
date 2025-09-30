@@ -2,7 +2,7 @@
 
 > Squash multiple commits into a single commit.
 > Part of `git-extras`.
-> More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-squash>.
+> More information: <https://manned.org/git-squash>.
 
 - Merge all commits from a specific branch into the current branch as a single commit:
 

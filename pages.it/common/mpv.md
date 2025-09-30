@@ -1,7 +1,7 @@
 # mpv
 
 > Un player audio/video basato su MPlayer.
-> Maggiori informazioni: <https://mpv.io>.
+> Maggiori informazioni: <https://mpv.io/manual/stable/>.
 
 - Riproduci un file video o audio:
 
@@ -9,15 +9,15 @@
 
 - Salta avanti/indietro di 5 secondi:
 
-`SINISTRA <oppure> DESTRA`
+`{{<ArrowLeft>|<ArrowRight>}}`
 
 - Salta indietro/avanti di 1 minuto:
 
-`GIÙ <oppure> SU`
+`{{<ArrowDown>|<ArrowUp>}}`
 
 - Riduci o aumenta la velocità di riproduzione del 10%:
 
-`[ <oppure> ]`
+`{{<[>|<]>}}`
 
 - Riproduci un file a una velocità specifica (da 0.01 a 100, normalmente 1):
 

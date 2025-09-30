@@ -8,14 +8,14 @@
 
 `macptopbm {{path/to/file.macp}} > {{path/to/output.pbm}}`
 
-- Skip over a specified number of bytes when reading the file:
+- Skip over `n` bytes when reading the file:
 
-`macptopbm -extraskip {{N}} > {{path/to/output.pbm}}`
+`macptopbm {{[-e|-extraskip]}} {{n}} > {{path/to/output.pbm}}`
 
 - Suppress all informational messages:
 
-`macptopbm -quiet > {{path/to/output.pbm}}`
+`macptopbm {{[-q|-quiet]}} > {{path/to/output.pbm}}`
 
 - Display version:
 
-`macptopbm -version`
+`macptopbm {{[-v|-version]}}`

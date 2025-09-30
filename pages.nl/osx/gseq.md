@@ -1,7 +1,7 @@
 # gseq
 
-> Dit commando is een alias van `-p linux seq`.
+> Dit commando is een alias van GNU `seq`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux seq`
+`tldr seq`
