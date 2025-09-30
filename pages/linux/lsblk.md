@@ -33,4 +33,4 @@
 
 - Display a customized summary using a comma-separated list of columns:
 
-`lsblk {{[-o|--output]}} {{NAME,SERIAL,MODEL,TRAN,TYPE,SIZE,FSTYPE,MOUNTPOINT,...}}`
+`lsblk {{[-o|--output]}} {{NAME,ROTA,SERIAL,MODEL,TRAN,TYPE,SIZE,FSTYPE,MOUNTPOINT,...}}`
