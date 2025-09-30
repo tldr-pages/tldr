@@ -1,7 +1,7 @@
 # join
 
 > Voeg regels van twee gesorteerde bestanden samen op een gemeenschappelijk veld.
-> Meer informatie: <https://www.gnu.org/software/coreutils/join>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/join-invocation.html>.
 
 - Voeg twee bestanden samen op het eerste (standaard) veld:
 

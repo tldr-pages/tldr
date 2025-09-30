@@ -1,7 +1,7 @@
 # dd
 
 > Convert and copy a file.
-> More information: <https://www.gnu.org/software/coreutils/dd>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/dd-invocation.html>.
 
 - Make a bootable USB drive from an isohybrid file (such as `archlinux-xxx.iso`) and show the progress:
 
@@ -25,4 +25,4 @@
 
 - Check the progress of an ongoing `dd` operation (run this command from another shell):
 
-`kill -USR1 $(pgrep -x dd)`
+`kill -USR1 $(pgrep {{[-x|--exact]}} dd)`

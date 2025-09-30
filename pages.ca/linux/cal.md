@@ -9,11 +9,11 @@
 
 - Mostra el calendari del més anterior, actual i pròxim:
 
-`cal -3`
+`cal {{[-3|--three]}}`
 
 - Fa servir el dilluns com a primer dia de la setmana:
 
-`cal --monday`
+`cal {{[-m|--monday]}}`
 
 - Mostra el calendari per un any concret (4 dígits):
 

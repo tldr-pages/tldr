@@ -14,12 +14,12 @@
 
 - Be verbose when generating the mirrorlist:
 
-`rankmirrors -v {{/etc/pacman.d/mirrorlist}}`
+`rankmirrors {{[-v|--verbose]}} {{/etc/pacman.d/mirrorlist}}`
 
 - Test only a specific URL:
 
-`rankmirrors --url {{url}}`
+`rankmirrors {{[-u|--url]}} {{url}}`
 
 - Output only the response times instead of a full mirrorlist:
 
-`rankmirrors --times {{/etc/pacman.d/mirrorlist}}`
+`rankmirrors {{[-t|--times]}} {{/etc/pacman.d/mirrorlist}}`

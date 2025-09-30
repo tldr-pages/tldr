@@ -13,7 +13,7 @@
 
 - Remove forçadamente uma imagem:
 
-`docker rmi --force {{imagem}}`
+`docker rmi {{[-f|--force]}} {{imagem}}`
 
 - Remove uma imagem sem apagar suas imagens pais que não possuem tags:
 

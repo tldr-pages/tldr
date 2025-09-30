@@ -7,24 +7,24 @@
 
 - Run a command with the given scheduling class and priority:
 
-`ionice -c {{scheduling_class}} -n {{priority}} {{command}}`
+`ionice {{[-c|--class]}} {{scheduling_class}} {{[-n|--classdata]}} {{priority}} {{command}}`
 
-- Set I/O scheduling [c]lass of a running process with a specific [p]id, [P]gid or [u]id:
+- Set I/O scheduling class of a running process with a specific [p]id, [P]gid or [u]id:
 
-`ionice -c {{scheduling_class}} -{{p|P|u}} {{id}}`
+`ionice {{[-c|--class]}} {{scheduling_class}} -{{p|P|u}} {{id}}`
 
-- Run a command with custom I/O scheduling [c]lass and priority:
+- Run a command with custom I/O scheduling class and priority:
 
-`ionice -c {{scheduling_class}} -n {{priority}} {{command}}`
+`ionice {{[-c|--class]}} {{scheduling_class}} {{[-n|--classdata]}} {{priority}} {{command}}`
 
 - Ignore failure to set the requested priority:
 
-`ionice -t -n {{priority}} -p {{pid}}`
+`ionice {{[-t|--ignore]}} {{[-n|--classdata]}} {{priority}} {{[-p|--pid]}} {{pid}}`
 
 - Run the command even in case it was not possible to set the desired priority (this can happen due to insufficient privileges or an old kernel version):
 
-`ionice -t -n {{priority}} -p {{pid}}`
+`ionice {{[-t|--ignore]}} {{[-n|--classdata]}} {{priority}} {{[-p|--pid]}} {{pid}}`
 
 - Print the I/O scheduling class and priority of a running process:
 
-`ionice -p {{pid}}`
+`ionice {{[-p|--pid]}} {{pid}}`

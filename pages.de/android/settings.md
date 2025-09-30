@@ -1,7 +1,7 @@
 # settings
 
 > Verwalte Android-Systemeinstellungen.
-> Weitere Informationen: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
+> Weitere Informationen: <https://web.archive.org/web/20240525010124/https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
 
 - Gib eine Liste aller Einstellungen im Namespace `global` aus:
 

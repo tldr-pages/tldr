@@ -10,7 +10,7 @@
 
 - Recursively check a given directory, and don't print progress messages:
 
-`cppcheck --quiet {{path/to/directory}}`
+`cppcheck {{[-q|--quiet]}} {{path/to/directory}}`
 
 - Check a given file, specifying which tests to perform (by default only errors are shown):
 

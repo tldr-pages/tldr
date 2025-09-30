@@ -1,7 +1,7 @@
 # act
 
 > Docker를 사용하여 로컬로 GitHub작업 실행.
-> 더 많은 정보: <https://github.com/nektos/act>.
+> 더 많은 정보: <https://manned.org/act>.
 
 - 가능한 작업들 목록:
 

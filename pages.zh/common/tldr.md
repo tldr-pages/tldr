@@ -14,20 +14,24 @@
 
 - 用指定语言打印命令的 tldr 页面（如果没有，返回英语）：
 
-`tldr --language {{语言代码}} {{命令}}`
+`tldr {{[-L|--language]}} {{语言代码}} {{命令}}`
 
 - 打印指定平台的命令的 tldr 页面：
 
-`tldr --platform {{android|common|freebsd|linux|osx|netbsd|openbsd|sunos|windows}} {{命令}}`
+`tldr {{[-p|--platform]}} {{android|common|freebsd|linux|osx|netbsd|openbsd|sunos|windows}} {{命令}}`
 
 - 更新 tldr 页面的本地缓存：
 
-`tldr --update`
+`tldr {{[-u|--update]}}`
 
 - 列出当前平台和 `common` 的所有页面：
 
-`tldr --list`
+`tldr {{[-l|--list]}}`
 
 - 列出某个命令的所有可用子命令页面：
 
-`tldr --list | grep {{命令}} | column`
+`tldr {{[-l|--list]}} | grep {{命令}} | column`
+
+- 打印随机命令的 tldr 页面：
+
+`tldr {{[-l|--list]}} | shuf {{[-n|--head-count]}} 1 | xargs tldr`

@@ -1,7 +1,7 @@
 # gfalse
 
-> Perintah ini merupakan alias dari `-p linux false`.
+> Perintah ini merupakan alias dari `false`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux false`
+`tldr false`

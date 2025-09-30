@@ -1,7 +1,7 @@
 # go build
 
 > Go kaynaklarını derle.
-> Daha fazla bilgi için: <https://golang.org/cmd/go/#hdr-Compile_packages_and_dependencies>.
+> Daha fazla bilgi için: <https://pkg.go.dev/cmd/go#hdr-Compile_packages_and_dependencies>.
 
 - Bir 'package main' dosyasını derle (çıktı uzantısız bir dosya ismi olacak):
 

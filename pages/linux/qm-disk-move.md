@@ -5,8 +5,8 @@
 
 - Move a virtual disk:
 
-`qm disk move {{vm_id}} {{destination}} {{index}}`
+`qm {{[di|disk]}} {{[m|move]}} {{vm_id}} {{destination}} {{index}}`
 
 - Delete the previous copy of the virtual disk:
 
-`qm disk move -delete {{vm_id}} {{destination}} {{index}}`
+`qm {{[di|disk]}} {{[m|move]}} --delete {{vm_id}} {{destination}} {{index}}`

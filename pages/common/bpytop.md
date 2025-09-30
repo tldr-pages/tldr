@@ -14,15 +14,15 @@
 
 - Toggle minimal mode:
 
-`m`
+`<m>`
 
 - Search for running programs or processes:
 
-`f`
+`<f>`
 
 - Change settings:
 
-`M`
+`<M>`
 
 - Display version:
 

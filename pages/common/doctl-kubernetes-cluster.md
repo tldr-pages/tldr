@@ -5,24 +5,24 @@
 
 - Create a Kubernetes cluster:
 
-`doctl kubernetes cluster create --count {{3}} --region {{nyc1}} --size {{s-1vcpu-2gb}} --version {{latest}} {{cluster_name}}`
+`doctl {{[k|kubernetes]}} {{[c|cluster]}} {{[c|create]}} --count {{3}} --region {{nyc1}} --size {{s-1vcpu-2gb}} --version {{latest}} {{cluster_name}}`
 
 - List all Kubernetes clusters:
 
-`doctl kubernetes cluster list`
+`doctl {{[k|kubernetes]}} {{[c|cluster]}} {{[ls|list]}}`
 
 - Fetch and save the kubeconfig:
 
-`doctl kubernetes cluster kubeconfig save {{cluster_name}}`
+`doctl {{[k|kubernetes]}} {{[c|cluster]}} {{[cfg|kubeconfig]}} {{[s|save]}} {{cluster_name}}`
 
 - Check for available upgrades:
 
-`doctl kubernetes cluster get-upgrades {{cluster_name}}`
+`doctl {{[k|kubernetes]}} {{[c|cluster]}} {{[gu|get-upgrades]}} {{cluster_name}}`
 
 - Upgrade a cluster to a new Kubernetes version:
 
-`doctl kubernetes cluster upgrade {{cluster_name}}`
+`doctl {{[k|kubernetes]}} {{[c|cluster]}} upgrade {{cluster_name}}`
 
 - Delete a cluster:
 
-`doctl kubernetes cluster delete {{cluster_name}}`
+`doctl {{[k|kubernetes]}} {{[c|cluster]}} {{[d|delete]}} {{cluster_name}}`

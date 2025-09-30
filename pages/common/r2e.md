@@ -2,7 +2,7 @@
 
 > Forwards RSS feeds to an email address.
 > Requires a configured `sendmail` or smtp setup.
-> More information: <https://github.com/rss2email/rss2email>.
+> More information: <https://manned.org/r2e>.
 
 - Create a new feed database that sends email to an email address:
 
@@ -23,3 +23,7 @@
 - Delete a feed at a specified index:
 
 `r2e delete {{index}}`
+
+- Display help:
+
+`r2e {{[-h|--help]}}`

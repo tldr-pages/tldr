@@ -2,7 +2,7 @@
 
 > Manage GitLab merge requests.
 > Some subcommands such as `create` have their own usage documentation.
-> More information: <https://glab.readthedocs.io/en/latest/mr>.
+> More information: <https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/mr/index.md>.
 
 - Create a merge request:
 

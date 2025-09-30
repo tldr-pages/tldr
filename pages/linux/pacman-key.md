@@ -10,23 +10,23 @@
 
 - Add the default Arch Linux keys:
 
-`sudo pacman-key --populate {{archlinux}}`
+`sudo pacman-key --populate`
 
 - List keys from the public keyring:
 
-`pacman-key --list-keys`
+`pacman-key {{[-l|--list-keys]}}`
 
 - Add the specified keys:
 
-`sudo pacman-key --add {{path/to/keyfile.gpg}}`
+`sudo pacman-key {{[-a|--add]}} {{path/to/keyfile.gpg}}`
 
 - Receive a key from a key server:
 
-`sudo pacman-key --recv-keys "{{uid|name|email}}"`
+`sudo pacman-key {{[-r|--recv-keys]}} "{{uid|name|email}}"`
 
 - Print the fingerprint of a specific key:
 
-`pacman-key --finger "{{uid|name|email}}"`
+`pacman-key {{[-f|--finger]}} "{{uid|name|email}}"`
 
 - Sign an imported key locally:
 
@@ -34,4 +34,4 @@
 
 - Remove a specific key:
 
-`sudo pacman-key --delete "{{uid|name|email}}"`
+`sudo pacman-key {{[-d|--delete]}} "{{uid|name|email}}"`

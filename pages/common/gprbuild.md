@@ -9,7 +9,7 @@
 
 - Build a specific [P]roject file:
 
-`gprbuild -P{{project_name}}`
+`gprbuild -P {{project_name}}`
 
 - Clean up the build workspace:
 
@@ -17,4 +17,4 @@
 
 - Install compiled binaries:
 
-`gprinstall --prefix {{path/to/installation/dir}}`
+`gprinstall --prefix {{path/to/installation_directory}}`

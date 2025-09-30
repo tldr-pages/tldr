@@ -1,7 +1,7 @@
 # sxiv
 
 > Simple X Image Viewer.
-> More information: <https://github.com/muennich/sxiv>.
+> More information: <https://manned.org/sxiv>.
 
 - Open an image:
 

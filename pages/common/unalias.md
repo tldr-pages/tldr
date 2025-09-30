@@ -1,7 +1,8 @@
 # unalias
 
 > Remove aliases.
-> More information: <https://manned.org/unalias>.
+> See also: `alias`.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-unalias>.
 
 - Remove an alias:
 

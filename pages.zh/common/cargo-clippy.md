@@ -19,6 +19,10 @@
 
 `cargo clippy --package {{包名}}`
 
+- 运行特定 lint 组的检查（参见 <https://rust-lang.github.io/rust-clippy/stable/index.html#?groups=cargo,complexity,correctness,deprecated,nursery,pedantic,perf,restriction,style,suspicious>）：
+
+`cargo clippy -- --warn clippy::{{lint组}}`
+
 - 将警告视为错误：
 
 `cargo clippy -- --deny warnings`

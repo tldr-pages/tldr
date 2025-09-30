@@ -6,4 +6,4 @@
 
 - Command used by `qmigrate` during data migration from a VM to another host:
 
-`qm mtunnel`
+`qm {{[mt|mtunnel]}}`

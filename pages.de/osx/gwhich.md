@@ -1,7 +1,7 @@
 # gwhich
 
-> Dieser Befehl ist ein Alias von `-p linux which`.
+> Dieser Befehl ist ein Alias von `which`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 
-`tldr -p linux which`
+`tldr which`

@@ -1,6 +1,6 @@
 # trans
 
-> Translate Shell is a command-line translator.
+> Translate Shell, a command-line translator.
 > More information: <https://github.com/soimort/translate-shell>.
 
 - Translate a word (language is detected automatically):
@@ -9,7 +9,7 @@
 
 - Get a brief translation:
 
-`trans --brief "{{word_or_sentence_to_translate}}"`
+`trans {{[-b|-brief]}} "{{word_or_sentence_to_translate}}"`
 
 - Translate a word into french:
 
@@ -21,4 +21,4 @@
 
 - Behave like a dictionary to get the meaning of a word:
 
-`trans -d {{word}}`
+`trans {{[-d|-dictionary]}} {{word}}`

@@ -13,4 +13,4 @@
 
 - Write the specified string into the SGI image header's `imagename` field:
 
-`pnmtosgi -imagename {{string}} {{path/to/input.pnm}} > {{path/to/output.sgi}}`
+`pnmtosgi {{[-i|-imagename]}} {{string}} {{path/to/input.pnm}} > {{path/to/output.sgi}}`

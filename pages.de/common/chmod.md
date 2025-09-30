@@ -1,7 +1,7 @@
 # chmod
 
 > Ändere die Zugriffsberechtigungen einer Datei oder eines Verzeichnisses.
-> Weitere Informationen: <https://www.gnu.org/software/coreutils/chmod>.
+> Weitere Informationen: <https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html>.
 
 - Gib dem Besitzer einer Datei ([u]ser) das Recht, sie auszuführen (e[x]ecute):
 
@@ -29,8 +29,8 @@
 
 - Ändere Rechte rekursiv, indem der Besitzer[g]ruppe und anderen ([o]thers) die Rechte zum Schreiben ([w]rite) geben werden:
 
-`chmod -R g+w,o+w {{pfad/zu/verzeichnis}}`
+`chmod {{[-R|--recursive]}} g+w,o+w {{pfad/zu/verzeichnis}}`
 
 - Gib [a]llen Benutzern rekursiv Rechte zum Lesen ([r]ead) von Dateien und Ausführen (e[X]ecute) von Unterverzeichnissen innerhalb eines Verzeichnisses:
 
-`chmod -R a+rX {{pfad/zu/verzeichnis}}`
+`chmod {{[-R|--recursive]}} a+rX {{pfad/zu/verzeichnis}}`

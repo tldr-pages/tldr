@@ -10,12 +10,12 @@
 
 - Monitor a remote instance:
 
-`pw-top --remote {{remote_name}}`
+`pw-top {{[-r|--remote]}} {{remote_name}}`
 
 - Print information periodically instead of running in interactive mode:
 
-`pw-top --batch-mode`
+`pw-top {{[-b|--batch-mode]}}`
 
 - Print information periodically for a specific number of times:
 
-`pw-top --batch-mode --iterations {{3}}`
+`pw-top {{[-b|--batch-mode]}} {{[-n|--iterations]}} {{3}}`

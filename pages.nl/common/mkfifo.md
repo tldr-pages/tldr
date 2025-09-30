@@ -1,7 +1,7 @@
 # mkfifo
 
 > Maak FIFOs (benoemde pipes).
-> Meer informatie: <https://www.gnu.org/software/coreutils/mkfifo>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/mkfifo-invocation.html>.
 
 - Maak een benoemde pipe op een opgegeven pad:
 
@@ -9,7 +9,7 @@
 
 - Stuur data naar een benoemde pipe en stuur het commando naar de achtergrond:
 
-`echo {{"Hello World"}} > {{pad/naar/pipe}} &`
+`echo "{{Hello World}}" > {{pad/naar/pipe}} &`
 
 - Ontvang data van benoemde pipe:
 
@@ -17,4 +17,4 @@
 
 - Deel je terminal sessie in real-time:
 
-`mkfifo {{pad/naar/pipe}}; script -f {{pad/naar/pipe}}`
+`mkfifo {{pad/naar/pipe}}; script {{[-f|--flush]}} {{pad/naar/pipe}}`

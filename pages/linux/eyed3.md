@@ -1,7 +1,7 @@
 # eyeD3
 
 > Read and manipulate metadata of MP3 files.
-> More information: <https://eyed3.readthedocs.io>.
+> More information: <https://manned.org/eyeD3>.
 
 - View information about an MP3 file:
 
@@ -9,11 +9,11 @@
 
 - Set the title of an MP3 file:
 
-`eyeD3 --title "{{A Title}}" {{filename.mp3}}`
+`eyeD3 {{[-t|--title]}} "{{A Title}}" {{filename.mp3}}`
 
 - Set the album of all the MP3 files in a directory:
 
-`eyeD3 --album "{{Album Name}}" {{*.mp3}}`
+`eyeD3 {{[-A|--album]}} "{{Album Name}}" {{*.mp3}}`
 
 - Set the front cover art for an MP3 file:
 

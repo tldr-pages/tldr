@@ -1,7 +1,7 @@
 # act
 
 > Запуск GitHub Actions локально с использованием Docker.
-> Больше информации: <https://github.com/nektos/act>.
+> Больше информации: <https://manned.org/act>.
 
 - Вывести список доступных actions:
 

@@ -1,7 +1,7 @@
 # mknod
 
 > Create block or character device special files.
-> More information: <https://www.gnu.org/software/coreutils/mknod>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/mknod-invocation.html>.
 
 - Create a block device:
 
@@ -17,4 +17,4 @@
 
 - Create a device file with default SELinux security context:
 
-`sudo mknod -Z {{path/to/device_file}} {{type}} {{major_device_number}} {{minor_device_number}}`
+`sudo mknod {{[-Z |--context=]}}{{path/to/device_file}} {{type}} {{major_device_number}} {{minor_device_number}}`

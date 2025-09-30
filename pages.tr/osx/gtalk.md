@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux talk`
+`tldr {{[-p|--platform]}} linux talk`

@@ -2,7 +2,7 @@
 
 > Vea información de dispositivos del sistema por bus y clases.
 > Este comando es parte del paquete `sysfs`.
-> Más información: <https://github.com/linux-ras/sysfsutils>.
+> Más información: <https://manned.org/systool>.
 
 - Lista todos los atributos de los dispositivos de un bus (ej. `pci`, `usb`). Vea todos los buses usando `ls /sys/bus`:
 

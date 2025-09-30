@@ -1,7 +1,7 @@
 # nnn
 
 > Interactive terminal file manager and disk usage analyzer.
-> More information: <https://github.com/jarun/nnn>.
+> More information: <https://github.com/jarun/nnn/wiki/Usage#program-options>.
 
 - Open the current directory (or specify one as the first argument):
 
@@ -23,6 +23,6 @@
 
 `nnn -T {{a|d|e|r|s|t|v}}`
 
-- Open a file you have selected. Select the file then press `o`, and type a program to open the file in:
+- Open a file you have selected. Select the file then press `<o>`, and type a program to open the file in:
 
 `nnn -o`

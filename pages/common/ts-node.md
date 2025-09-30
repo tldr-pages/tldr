@@ -1,7 +1,7 @@
 # ts-node
 
 > Run TypeScript code directly, without any compiling.
-> More information: <https://typestrong.org/ts-node>.
+> More information: <https://typestrong.org/ts-node/docs/options>.
 
 - Execute a TypeScript file without compiling (`node` + `tsc`):
 
@@ -9,11 +9,11 @@
 
 - Execute a TypeScript file without loading `tsconfig.json`:
 
-`ts-node --skip-project {{path/to/file.ts}}`
+`ts-node --skipProject {{path/to/file.ts}}`
 
 - Evaluate TypeScript code passed as a literal:
 
-`ts-node --eval '{{console.log("Hello World")}}'`
+`ts-node {{[-e|--eval]}} '{{console.log("Hello World")}}'`
 
 - Execute a TypeScript file in script mode:
 
@@ -21,8 +21,8 @@
 
 - Transpile a TypeScript file to JavaScript without executing it:
 
-`ts-node --transpile-only {{path/to/file.ts}}`
+`ts-node {{[-T|--transpileOnly]}} {{path/to/file.ts}}`
 
-- Display TS-Node help:
+- Display help:
 
-`ts-node --help`
+`ts-node {{[-h|--help]}}`

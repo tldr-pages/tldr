@@ -7,14 +7,14 @@
 
 `pcdovtoppm {{pad/naar/bestand.pcd}} > {{pad/naar/uitvoer.ppm}}`
 
-- Specificeer de [m]aximale breedte van de uitvoer-afbeelding en de maximale grootte ([s]) van elke afbeelding die in de uitvoer wordt opgenomen:
+- Specificeer de maximale breedte van de uitvoer-afbeelding en de maximale grootte van elke afbeelding die in de uitvoer wordt opgenomen:
 
-`pcdovtoppm -m {{breedte}} -s {{grootte}} {{pad/naar/bestand.pcd}} > {{pad/naar/uitvoer.ppm}}`
+`pcdovtoppm {{[-m|-maxwidth]}} {{breedte}} {{[-s|-size]}} {{grootte}} {{pad/naar/bestand.pcd}} > {{pad/naar/uitvoer.ppm}}`
 
-- Specificeer het maximale [a]antal afbeeldingen en het maximale aantal kleuren ([c]):
+- Specificeer het maximale aantal afbeeldingen en het maximale aantal kleuren:
 
-`pcdovtoppm -a {{n_afbeeldingen}} -c {{n_kleuren}} {{pad/naar/bestand.pcd}} > {{pad/naar/uitvoer.ppm}}`
+`pcdovtoppm {{[-a|-across]}} {{n_afbeeldingen}} {{[-c|-colors]}} {{n_kleuren}} {{pad/naar/bestand.pcd}} > {{pad/naar/uitvoer.ppm}}`
 
-- Gebruik het gespecificeerde lettertype ([f]) voor annotaties en kleur de achtergrond [w]it:
+- Gebruik het gespecificeerde lettertype voor annotaties en kleur de achtergrond wit:
 
-`pcdovtoppm -f {{lettertype}} -w {{pad/naar/bestand.pcd}} > {{pad/naar/uitvoer.ppm}}`
+`pcdovtoppm {{[-f|-font]}} {{lettertype}} {{[-w|-white]}} {{pad/naar/bestand.pcd}} > {{pad/naar/uitvoer.ppm}}`

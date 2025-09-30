@@ -1,7 +1,7 @@
 # cat
 
 > Print en concateneer bestanden.
-> Meer informatie: <https://www.gnu.org/software/coreutils/cat>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html>.
 
 - Print de inhoud van een bestand naar `stdout`:
 
@@ -21,8 +21,8 @@
 
 - [n]ummer alle uitvoerregels:
 
-`cat -n {{pad/naar/bestand}}`
+`cat {{[-n|--number]}} {{pad/naar/bestand}}`
 
 - Toon niet-afdrukbare en witruimtekarakters (met `M-` prefix als niet-ASCII):
 
-`cat -v -t -e {{pad/naar/bestand}}`
+`cat {{[-vte|--show-nonprinting -t -e]}} {{pad/naar/bestand}}`

@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux sleep`
+`tldr {{[-p|--platform]}} linux sleep`

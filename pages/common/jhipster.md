@@ -1,7 +1,7 @@
 # jhipster
 
 > Web application generator using either monolithic or microservices architecture.
-> More information: <https://www.jhipster.tech/>.
+> More information: <https://www.jhipster.tech/creating-an-app/#command-line-options>.
 
 - Generate a simple full-stack project (monolithic or microservices):
 
@@ -25,7 +25,7 @@
 
 - Import a JDL file to configure your application (see: <https://start.jhipster.tech/jdl-studio/>):
 
-`jhipster import-jdl {{first_file.jh second_file.jh ... n_file.jh}}`
+`jhipster import-jdl {{file1.jh file2.jh ...}}`
 
 - Generate a CI/CD pipeline for your application:
 

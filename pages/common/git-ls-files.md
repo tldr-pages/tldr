@@ -5,16 +5,16 @@
 
 - Show deleted files:
 
-`git ls-files --deleted`
+`git ls-files {{[-d|--deleted]}}`
 
 - Show modified and deleted files:
 
-`git ls-files --modified`
+`git ls-files {{[-m|--modified]}}`
 
 - Show ignored and untracked files:
 
-`git ls-files --others`
+`git ls-files {{[-o|--others]}}`
 
 - Show untracked files, not ignored:
 
-`git ls-files --others --exclude-standard`
+`git ls-files {{[-o|--others]}} --exclude-standard`

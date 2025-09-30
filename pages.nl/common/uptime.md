@@ -1,7 +1,7 @@
 # uptime
 
 > Toon hoe lang het systeem actief is en andere informatie.
-> Meer informatie: <https://www.gnu.org/software/coreutils/uptime>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/uptime-invocation.html>.
 
 - Toon de huidige tijd, uptime, aantal ingelogde gebruikers en andere informatie:
 
@@ -9,12 +9,12 @@
 
 - Toon alleen de tijd dat het systeem is opgestart:
 
-`uptime --pretty`
+`uptime {{[-p|--pretty]}}`
 
 - Toon de datum en tijd waarop het systeem is opgestart:
 
-`uptime --since`
+`uptime {{[-s|--since]}}`
 
 - Toon de versie:
 
-`uptime --version`
+`uptime {{[-V|--version]}}`

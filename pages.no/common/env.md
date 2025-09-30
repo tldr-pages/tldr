@@ -1,7 +1,7 @@
 # env
 
 > Vis miljøet eller kjør et program i et modifisert miljø.
-> Mer informasjon: <https://www.gnu.org/software/coreutils/env>.
+> Mer informasjon: <https://www.gnu.org/software/coreutils/manual/html_node/env-invocation.html>.
 
 - Vis miljøet:
 

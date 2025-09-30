@@ -9,7 +9,7 @@
 
 - Crea e inicia todos los contenedores en segundo plano usando un archivo `docker-compose.yml` desde el directorio actual:
 
-`docker compose up --detach`
+`docker compose up {{[-d|--detach]}}`
 
 - Inicia todos los contenedores, y se reconstruye si es necesario:
 
@@ -17,7 +17,7 @@
 
 - Inicia todos los contenedores especificando un nombre de proyecto y utilizando un archivo de composición alternativo:
 
-`docker compose -p {{nombre_proyecto}} --file {{ruta/al/archivo}} up`
+`docker compose {{[-p|--project-name]}} {{nombre_proyecto}} {{[-f|--file]}} {{ruta/al/archivo}} up`
 
 - Detiene todos los contenedores en ejecución:
 
@@ -25,12 +25,12 @@
 
 - Detiene y elimina todos los contenedores, redes, imágenes y volúmenes:
 
-`docker compose down --rmi all --volumes`
+`docker compose down --rmi all {{[-v|--volumes]}}`
 
 - Sigue los registros de todos los contenedores:
 
-`docker compose logs --follow`
+`docker compose logs {{[-f|--follow]}}`
 
 - Sigue los registros de un contenedor específico:
 
-`docker compose logs --follow {{nombre_del_contenedor}}`
+`docker compose logs {{[-f|--follow]}} {{nombre_del_contenedor}}`

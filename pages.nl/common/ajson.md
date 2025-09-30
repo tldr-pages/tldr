@@ -13,7 +13,7 @@
 
 - Lees JSON van een URL en evalueer een opgegeven JSONPath-expressie:
 
-`ajson '{{avg($..price)}}' '{{https://voorbeeld.com/api/}}'`
+`ajson '{{avg($..price)}}' '{{https://example.com/api/}}'`
 
 - Lees wat eenvoudige JSON en bereken een waarde:
 

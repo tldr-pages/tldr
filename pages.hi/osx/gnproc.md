@@ -1,7 +1,7 @@
 # gnproc
 
-> यह आदेश `-p linux nproc` का उपनाम है।
+> यह आदेश `nproc` का उपनाम है।
 
 - मूल आदेश के लिए दस्तावेज़ देखें:
 
-`tldr -p linux nproc`
+`tldr nproc`

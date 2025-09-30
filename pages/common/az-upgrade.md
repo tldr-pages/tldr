@@ -14,4 +14,4 @@
 
 - Upgrade Azure CLI and Extensions without prompting for confirmation:
 
-`az version --all --yes`
+`az upgrade --all {{[-y|--yes]}}`

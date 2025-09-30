@@ -13,4 +13,4 @@
 
 - Produceer altijd een gekleurde TIFF afbeelding, ook als de invoer afbeelding een grijsschaal is:
 
-`pamtotiff -color {{pad/naar/invoer_bestand.pam}} > {{pad/naar/uitvoer_bestand.tiff}}`
+`pamtotiff {{[-c|-color]}} {{pad/naar/invoer_bestand.pam}} > {{pad/naar/uitvoer_bestand.tiff}}`

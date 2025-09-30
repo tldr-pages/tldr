@@ -18,4 +18,4 @@
 
 - Display version:
 
-`pbmtoascii -version`
+`pbmtoascii {{[-v|-version]}}`

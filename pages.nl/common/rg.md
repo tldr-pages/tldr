@@ -1,37 +1,37 @@
 # rg
 
-> Ripgrep is een recursieve regel-georiënteerde zoek tool.
+> Ripgrep, een recursieve regel-georiënteerde zoek tool.
 > Wil een sneller alternatief zijn dan `grep`.
-> Meer informatie: <https://github.com/BurntSushi/ripgrep>.
+> Meer informatie: <https://github.com/BurntSushi/ripgrep/blob/master/GUIDE.md>.
 
-- Zoek recursief in de huidige map naar een reguliere expressie:
+- Zoek recursief in de huidige map naar een patroon (reguliere expressie):
 
-`rg {{reguliere_expressie}}`
+`rg {{patroon}}`
 
-- Zoek recursief in de huidige map naar een reguliere expressie, inclusief verborgen bestanden en bestanden opgenomen in `.gitignore`:
+- Zoek recursief naar een patroon in een bestand of map:
 
-`rg --no-ignore --hidden {{reguliere_expressie}}`
+`rg {{patroon}} {{pad/naar/bestand_of_map}}`
 
-- Zoek alleen in een subset van mappen naar een reguliere expressie:
+- Voeg verborgen bestanden en onderdelen van de `.gitignore` toe:
 
-`rg {{reguliere_expressie}} {{set_van_submappen}}`
+`rg {{[-.|--hidden]}} --no-ignore {{patroon}}`
 
-- Zoek in bestanden die overeenkomen met een glob (bijv. `README.*`) naar een reguliere expressie:
+- Zoek in bestanden die overeenkomen met een glob (bijv. `README.*`) naar een patroon:
 
-`rg {{reguliere_expressie}} --glob {{glob}}`
+`rg {{patroon}} {{[-g|--glob]}} {{bestandsnaam_glob_patroon}}`
 
-- Zoek naar bestandsnamen die overeenkomen met een reguliere expressie:
+- Toon recursief de bestandsnamen welke overeenkomen met een pattern:
 
-`rg --files | rg {{reguliere_expressie}}`
+`rg --files | rg {{patroon}}`
 
 - Toon alleen overeenkomende bestanden (handig bij het doorsturen naar andere commando's):
 
-`rg --files-with-matches {{reguliere_expressie}}`
+`rg {{[-l|--files-with-matches]}} {{patroon}}`
 
 - Toon regels die niet overeenkomen met de gegeven reguliere expressie:
 
-`rg --invert-match {{reguliere_expressie}}`
+`rg {{[-v|--invert-match]}} {{patroon}}`
 
 - Zoek naar een letterlijk string pattroon:
 
-`rg --fixed-strings -- {{string}}`
+`rg {{[-D|--fixed-strings]}} -- {{string}}`

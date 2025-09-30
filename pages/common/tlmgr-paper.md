@@ -1,7 +1,7 @@
 # tlmgr paper
 
 > Manage paper size options of an TeX Live installation.
-> More information: <https://www.tug.org/texlive/tlmgr.html>.
+> More information: <https://www.tug.org/texlive/doc/tlmgr.html#paper>.
 
 - Show the default paper size used by all TeX Live programs:
 

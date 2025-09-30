@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux rexec`
+`tldr {{[-p|--platform]}} linux rexec`

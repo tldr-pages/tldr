@@ -5,11 +5,11 @@
 
 - 사용 가능한 네트워크 인터페이스 나열:
 
-`tcpdump -D`
+`tcpdump {{[-D|--list-interfaces]}}`
 
 - 특정 인터페이스의 트래픽 캡처:
 
-`tcpdump -i {{eth0}}`
+`sudo tcpdump {{[-i|--interface]}} {{eth0}}`
 
 - 콘솔에서 콘텐츠(ASCII)를 표시하는 모든 TCP 트래픽을 캡처:
 
@@ -21,7 +21,7 @@
 
 - 특정 인터페이스, 소스, 목적지 및 목적지 포트에서 트래픽을 캡처:
 
-`tcpdump -i {{eth0}} src {{192.168.1.1}} and dst {{192.168.1.2}} and dst port {{80}}`
+`sudo tcpdump {{[-i|--interface]}} {{eth0}} src {{192.168.1.1}} and dst {{192.168.1.2}} and dst port {{80}}`
 
 - 네트워크 트래픽 캡처:
 

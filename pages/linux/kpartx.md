@@ -3,9 +3,9 @@
 > Create device maps from partition tables.
 > More information: <https://manned.org/kpartx>.
 
-- Add partition mappings:
+- Add partition mappings and print created mappings:
 
-`kpartx -a {{whole_disk.img}}`
+`kpartx -av {{whole_disk.img}}`
 
 - Delete partition mappings:
 

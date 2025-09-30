@@ -8,13 +8,13 @@
 
 `chafa {{path/to/file}}`
 
-- Render an image with 24-bit [c]olor:
+- Render an image with 24-bit color:
 
-`chafa -c full {{path/to/file}}`
+`chafa {{[-c|--colors]}} full {{path/to/file}}`
 
 - Improve image rendering with small color palettes using dithering:
 
-`chafa -c 16 --dither ordered {{path/to/file}}`
+`chafa {{[-c|--colors]}} 16 --dither ordered {{path/to/file}}`
 
 - Render an image, making it appear pixelated:
 
@@ -22,4 +22,4 @@
 
 - Render a monochrome image with only braille characters:
 
-`chafa -c none --symbols braille {{path/to/file}}`
+`chafa {{[-c|--colors]}} none --symbols braille {{path/to/file}}`

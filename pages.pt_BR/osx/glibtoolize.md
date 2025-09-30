@@ -4,4 +4,4 @@
 
 - Exibe documentação sobre o comando original:
 
-`tldr -p linux libtoolize`
+`tldr {{[-p|--platform]}} linux libtoolize`

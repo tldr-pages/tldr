@@ -1,29 +1,28 @@
 # nmcli general
 
 > Beheer algemene instellingen van NetworkManager.
-> Dit subcommando kan ook aangeroepen worden met `nmcli g`.
-> Meer informatie: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
+> Meer informatie: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html#general>.
 
 - Toon de algemene status van NetworkManager:
 
-`nmcli general`
+`nmcli {{[g|general]}}`
 
 - Toon de hostname van het huidige apparaat:
 
-`nmcli general hostname`
+`nmcli {{[g|general]}} {{[h|hostname]}}`
 
 - Verander de hostname van het huidige apparaat:
 
-`sudo nmcli general hostname {{new_hostname}}`
+`sudo nmcli {{[g|general]}} {{[h|hostname]}} {{nieuwe_hostnaam}}`
 
 - Toon de permissies van NetworkManager:
 
-`nmcli general permissions`
+`nmcli {{[g|general]}} {{[p|permissions]}}`
 
 - Toon het huidige logging level en domeinen:
 
-`nmcli general logging`
+`nmcli {{[g|general]}} {{[l|logging]}}`
 
 - Zet het logging level en/of domainen (zie `man NetworkManager.conf` voor alle beschikbare domeinen):
 
-`nmcli general logging level {{INFO|OFF|ERR|WARN|DEBUG|TRACE}} domain {{domein_1,domein_2,...}}`
+`sudo nmcli {{[g|general]}} {{[l|logging]}} {{[l|level]}} {{INFO|OFF|ERR|WARN|DEBUG|TRACE}} domain {{domein_1,domein_2,...}}`

@@ -14,12 +14,12 @@
 
 - Run a program creating a new process:
 
-`setsid --fork {{program}}`
+`setsid {{[-f|--fork]}} {{program}}`
 
 - Return the exit code of a program as the exit code of setsid when the program exits:
 
-`setsid --wait {{program}}`
+`setsid {{[-w|--wait]}} {{program}}`
 
 - Run a program in a new session setting the current terminal as the controlling terminal:
 
-`setsid --ctty {{program}}`
+`setsid {{[-c|--ctty]}} {{program}}`

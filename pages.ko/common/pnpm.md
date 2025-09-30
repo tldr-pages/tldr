@@ -2,7 +2,7 @@
 
 > 빠르고, 디스크 공간 효율적인 Node.js용 패키지 관리자.
 > Node.js 프로젝트 및 해당 모듈 의존성 관리.
-> 더 많은 정보: <https://pnpm.io>.
+> 더 많은 정보: <https://pnpm.io/pnpm-cli>.
 
 - `package.json` 파일 생성:
 
@@ -18,11 +18,11 @@
 
 - 패키지를 다운로드하고 `package.json`의 개발([D]ev) 의존성 목록에 추가:
 
-`pnpm add -D {{모듈_이름}}`
+`pnpm add {{[-D|--save-dev]}} {{모듈_이름}}`
 
 - 패키지를 다운로드하고 전역적으로([g]lobally) 설치:
 
-`pnpm add -g {{모듈_이름}}`
+`pnpm add {{[-g|--global]}} {{모듈_이름}}`
 
 - 패키지를 제거하고 `package.json`의 종속성 목록에서 제거:
 
@@ -34,4 +34,4 @@
 
 - 최상위 전역적으로([g]lobally) 설치된 모듈 나열:
 
-`pnpm list -g --depth={{0}}`
+`pnpm list {{[-g|--global]}} --depth {{0}}`

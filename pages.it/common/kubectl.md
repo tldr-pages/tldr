@@ -6,7 +6,7 @@
 
 - Elenca le informazioni su una risorsa in maniera dettagliata:
 
-`kubectl get {{pod|service|deployment|ingress|...}} -o wide`
+`kubectl get {{pod|service|deployment|ingress|...}} {{[-o|--output]}} wide`
 
 - Aggiorna il pod specificato con l'etichetta 'unhealthy' e il valore 'true':
 

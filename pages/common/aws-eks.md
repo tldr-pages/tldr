@@ -6,7 +6,7 @@
 
 - Create an EKS Cluster:
 
-`aws eks create-cluster --name {{cluster_name}} --role-arn {{eks_service_role_arn}} --resources-vpc-config {{subnetIds={{subnet_ids}},securityGroupIds={{security_group_ids}}}}`
+`aws eks create-cluster --name {{cluster_name}} --role-arn {{eks_service_role_arn}} --resources-vpc-config subnetIds={{subnet_ids}},securityGroupIds={{security_group_ids}}`
 
 - Update kubeconfig to connect to the EKS Cluster:
 

@@ -1,6 +1,6 @@
 # sgpt
 
-> Command-line productivity tool powered by OpenAI's GPT models.
+> Productivity tool powered by OpenAI's GPT models.
 > More information: <https://github.com/TheR1D/shell_gpt#readme>.
 
 - Use it as a search engine, asking for the mass of the sun:
@@ -19,7 +19,7 @@
 
 `sgpt --chat {{session_name}} "{{please remember my favorite number: 4}}"`
 
-- Start a `REPL` (Read–eval–print loop) session:
+- Start a `REPL` (Read-eval-print loop) session:
 
 `sgpt --repl {{command}}`
 

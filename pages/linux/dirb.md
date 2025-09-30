@@ -1,7 +1,7 @@
 # dirb
 
 > Scan HTTP-based webservers for directories and files.
-> More information: <https://dirb.sourceforge.net>.
+> More information: <https://manned.org/dirb>.
 
 - Scan a webserver using the default wordlist:
 

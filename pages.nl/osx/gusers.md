@@ -1,7 +1,7 @@
 # gusers
 
-> Dit commando is een alias van `-p linux users`.
+> Dit commando is een alias van GNU `users`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux users`
+`tldr users`

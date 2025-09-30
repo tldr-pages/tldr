@@ -17,7 +17,7 @@
 
 - Install a helm chart and generate a name:
 
-`helm install {{repository_name}}/{{chart_name}} --generate-name`
+`helm install {{repository_name}}/{{chart_name}} {{[-g|--generate-name]}}`
 
 - Perform a dry run:
 
@@ -29,4 +29,4 @@
 
 - Install a helm chart passing a custom values file:
 
-`helm install {{name}} {{repository_name}}/{{chart_name}} --values {{path/to/values.yaml}}`
+`helm install {{name}} {{repository_name}}/{{chart_name}} {{[-f|--values]}} {{path/to/values.yaml}}`

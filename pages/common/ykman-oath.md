@@ -12,9 +12,9 @@
 
 `ykman oath access change`
 
-- Add a new account (`--issuer` is optional):
+- Add a new account (the issuer is optional):
 
-`ykman oath accounts add --issuer {{issuer}} {{name}}`
+`ykman oath accounts add {{[-i|--issuer]}} {{issuer}} {{name}}`
 
 - List all accounts (with their issuers):
 

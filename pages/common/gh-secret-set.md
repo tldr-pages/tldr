@@ -13,12 +13,12 @@
 
 - Set a secret for a specific repository:
 
-`gh secret set {{name}} --body {{value}} --repo {{owner}}/{{repository}}`
+`gh secret set {{name}} {{[-b|--body]}} {{value}} {{[-R|--repo]}} {{owner}}/{{repository}}`
 
 - Set an organization secret for specific repositories:
 
-`gh secret set {{name}} --org {{organization}} --repos "{{repository1,repository2,...}}"`
+`gh secret set {{name}} {{[-o|--org]}} {{organization}} {{[-r|--repos]}} "{{repository1,repository2,...}}"`
 
 - Set an organization secret with a specific visibility:
 
-`gh secret set {{name}} --org {{organization}} --visibility {{all|private|selected}}`
+`gh secret set {{name}} {{[-o|--org]}} {{organization}} {{[-v|--visibility]}} {{all|private|selected}}`

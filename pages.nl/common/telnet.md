@@ -17,11 +17,11 @@
 
 - Verstuur de standaard escape-tekencombinatie om de sessie te beëindigen:
 
-`<Ctrl> + ]`
+`<Ctrl ]>`
 
 - Start `telnet` met "x" als het sessie beëindigingsteken:
 
-`telnet -e {{x}} {{ip_adres}} {{poort}}`
+`telnet {{[-e|--escape]}} {{x}} {{ip_adres}} {{poort}}`
 
 - Telnet naar de Star Wars-animatie:
 

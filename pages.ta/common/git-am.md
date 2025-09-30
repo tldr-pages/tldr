@@ -10,7 +10,7 @@
 
 - ரிமோட் பேட்ச் கோப்பைப் பின்பற்றி, மாற்றங்களைச் செய்யுங்கள்:
 
-`curl -L {{https://example.com/file.patch}} | git apply`
+`curl {{[-L|--location]}} {{https://example.com/file.patch}} | git apply`
 
 - பேட்ச் கோப்பைப் பயன்படுத்துவதற்கான செயல்முறையை நிறுத்தவும்:
 

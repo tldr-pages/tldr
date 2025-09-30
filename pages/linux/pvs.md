@@ -10,19 +10,19 @@
 
 - Display non-physical volumes:
 
-`pvs -a`
+`pvs {{[-a|--all]}}`
 
 - Change default display to show more details:
 
-`pvs -v`
+`pvs {{[-v|--verbose]}}`
 
 - Display only specific fields:
 
-`pvs -o {{field_name_1}},{{field_name_2}}`
+`pvs {{[-o|--options]}} {{field_name_1}},{{field_name_2}}`
 
 - Append field to default display:
 
-`pvs -o +{{field_name}}`
+`pvs {{[-o|--options]}} +{{field_name}}`
 
 - Suppress heading line:
 

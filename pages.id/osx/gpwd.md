@@ -1,7 +1,7 @@
 # gpwd
 
-> Perintah ini merupakan alias dari `-p linux pwd`.
+> Perintah ini merupakan alias dari `pwd`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux pwd`
+`tldr pwd`

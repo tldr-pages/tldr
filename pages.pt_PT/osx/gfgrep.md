@@ -1,7 +1,7 @@
 # gfgrep
 
-> Este comando é um alias de `-p linux fgrep`.
+> Este comando é um alias de `fgrep`.
 
-- Exibe documentação do comando original:
+- Ver documentação do comando original:
 
-`tldr -p linux fgrep`
+`tldr fgrep`

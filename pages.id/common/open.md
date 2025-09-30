@@ -4,7 +4,7 @@
 
 - Lihat dokumentasi perintah `open` yang disediakan dalam macOS:
 
-`tldr open -p osx`
+`tldr open {{[-p|--platform]}} osx`
 
 - Lihat dokumentasi perintah `open` yang disediakan dalam fish:
 

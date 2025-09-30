@@ -9,11 +9,11 @@
 
 - Envolve a saída codificada em uma largura específica (`0` desabilita o encapsulamento):
 
-`base32 {{-w|--wrap}} {{0|76|...}} {{caminho/para/arquivo}}`
+`base32 {{[-w|--wrap]}} {{0|76|...}} {{caminho/para/arquivo}}`
 
 - Decodifica um arquivo:
 
-`base32 {{-d|--decode}} {{caminho/para/arquivo}}`
+`base32 {{[-d|--decode]}} {{caminho/para/arquivo}}`
 
 - Codifica a partir de `stdin`:
 
@@ -21,4 +21,4 @@
 
 - Decodifica a partir de `stdin`:
 
-`{{algum_comando}} | base32 {{-d|--decode}}`
+`{{algum_comando}} | base32 {{[-d|--decode]}}`

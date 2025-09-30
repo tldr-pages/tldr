@@ -3,22 +3,22 @@
 > Converte e copia um arquivo.
 > Mais informações: <https://manned.org/dd.1p>.
 
-- Cria um USB drive bootável a partir de um arquivo isohybrid (como uma `archlinux-xxx.iso`) e mostra o progresso:
+- Cria um dispositivo USB inicializável a partir de um arquivo isohybrid (tal como `archlinux-xxx.iso`) e mostra o progresso:
 
-`dd if={{caminho/para/arquivo.iso}} of={{/dev/usb_drive}} status=progress`
+`dd if={{caminho/para/arquivo.iso}} of={{/dev/dispositivo_usb}} status=progress`
 
-- Clona um drive para outro drive com 4 MiB block e ignora erros:
+- Clona um dispositivo para outro dispositivo com bloco de 4 MiB e descarta escritas antes que o comando termine:
 
-`dd bs=4194304 conv=noerror if={{/dev/drive_fonte}} of={{/dev/drive_destino}}`
+`dd bs=4194304 conv=fsync if={{/dev/dispositivo_origem}} of={{/dev/dispositivo_destino}}`
 
-- Gera um arquivo com um número específico de bytes aleatórios utilizando o kernel random driver:
+- Gera um arquivo com um número específico de bytes aleatórios utilizando o driver random do kernel:
 
-`dd bs={{100}} count={{1}} if=/dev/urandom of={{caminho/para/arquivo_random}}`
+`dd bs={{100}} count={{1}} if=/dev/urandom of={{caminho/para/arquivo_aleatório}}`
 
-- Faz o benchmark da performance de escrita de um disco:
+- Faz análise do desempenho da escrita sequencial de um disco:
 
 `dd bs={{1024}} count={{1000000}} if=/dev/zero of={{caminho/para/arquivo_1GB}}`
 
-- Gera um backup do sistema em um arquivo IMG e mostra o progresso:
+- Cria um backup do sistema, salva-o em arquivo IMG (pode ser restaurado posteriormente trocando `if` e `of`) e mostra o progresso:
 
-`dd if={{/dev/dispositivo_drive}} of={{caminho/para/arquivo.img}} status=progress`
+`dd if={{/dev/dispositivo}} of={{caminho/para/arquivo.img}} status=progress`

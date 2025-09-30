@@ -1,7 +1,7 @@
 # gexpr
 
-> Este comando é um apelido de `-p linux expr`.
+> Este comando é um apelido de `expr`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux expr`
+`tldr expr`

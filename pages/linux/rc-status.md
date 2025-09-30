@@ -1,7 +1,7 @@
 # rc-status
 
 > Show status info about runlevels.
-> See also `openrc`.
+> See also: `openrc`.
 > More information: <https://manned.org/rc-status>.
 
 - Show a summary of services and their status:
@@ -10,24 +10,24 @@
 
 - Include services in all runlevels in the summary:
 
-`rc-status --all`
+`rc-status {{[-a|--all]}}`
 
 - List services that have crashed:
 
-`rc-status --crashed`
+`rc-status {{[-c|--crashed]}}`
 
 - List manually started services:
 
-`rc-status --manual`
+`rc-status {{[-m|--manual]}}`
 
 - List supervised services:
 
-`rc-status --supervised`
+`rc-status {{[-S|--supervised]}}`
 
-- Get the current runlevel:
+- Display the current runlevel:
 
-`rc-status --runlevel`
+`rc-status {{[-r|--runlevel]}}`
 
 - List all runlevels:
 
-`rc-status --list`
+`rc-status {{[-l|--list]}}`

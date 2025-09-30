@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux rlogin`
+`tldr {{[-p|--platform]}} linux rlogin`

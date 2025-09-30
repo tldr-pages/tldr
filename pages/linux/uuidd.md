@@ -5,12 +5,12 @@
 
 - Generate a random UUID:
 
-`uuidd --random`
+`uuidd {{[-r|--random]}}`
 
 - Generate a bulk number of random UUIDs:
 
-`uuidd --random --uuids {{number_of_uuids}}`
+`uuidd {{[-r|--random]}} {{[-n|--uuids]}} {{number_of_uuids}}`
 
 - Generate a time-based UUID, based on the current time and MAC address of the system:
 
-`uuidd --time`
+`uuidd {{[-t|--time]}}`

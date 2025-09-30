@@ -1,8 +1,8 @@
 # git feature
 
 > Create or merge feature branches.
-> Feature branches obey the format feature/<name>.
-> More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-feature>.
+> Feature branches obey the format feature/name.
+> More information: <https://manned.org/git-feature>.
 
 - Create and switch to a new feature branch:
 
@@ -18,4 +18,4 @@
 
 - Send changes from a specific feature branch to its remote counterpart:
 
-`git feature {{feature_branch}} --remote {{remote_name}}`
+`git feature {{feature_branch}} {{[-r|--remote]}} {{remote_name}}`

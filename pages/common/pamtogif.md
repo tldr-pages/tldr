@@ -10,8 +10,8 @@
 
 - Mark the specified color as transparent in the output GIF file:
 
-`pamtogif -transparent {{color}} {{path/to/image.pam}} > {{path/to/output.gif}}`
+`pamtogif {{[-t|-transparent]}} {{color}} {{path/to/image.pam}} > {{path/to/output.gif}}`
 
 - Include the specified text as a comment in the output GIF file:
 
-`pamtogif -comment "{{Hello World!}}" {{path/to/image.pam}} > {{path/to/output.gif}}`
+`pamtogif {{[-c|-comment]}} "{{Hello World!}}" {{path/to/image.pam}} > {{path/to/output.gif}}`

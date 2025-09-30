@@ -1,7 +1,7 @@
 # gifconfig
 
-> यह आदेश `-p linux ifconfig` का उपनाम है।
+> यह आदेश `ifconfig` का उपनाम है।
 
 - मूल आदेश के लिए दस्तावेज़ देखें:
 
-`tldr -p linux ifconfig`
+`tldr ifconfig`

@@ -12,7 +12,7 @@
 
 `adb kill-server`
 
-- Start een afstandshell voor de doelemulator of apparaatinstantie:
+- Start een remote shell voor de doel-emulator of apparaat-instantie:
 
 `adb shell`
 
@@ -28,6 +28,10 @@
 
 `adb push {{pad/naar/lokaal/bestand_of_map}} {{pad/naar/extern/bestand_of_map}}`
 
-- Krijg een lijst met aangesloten apparaten:
+- Toon alle aangesloten apparaten:
 
 `adb devices`
+
+- Specificeer naar welk apparaat de opdrachten verzonden dienen te worden als er meerdere apparaten zijn:
+
+`adb -s {{apparaat_ID}} {{shell}}`

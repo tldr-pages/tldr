@@ -1,7 +1,7 @@
 # gbasenc
 
-> Dit commando is een alias van `-p linux basenc`.
+> Dit commando is een alias van GNU `basenc`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux basenc`
+`tldr basenc`

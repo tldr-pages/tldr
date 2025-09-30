@@ -1,29 +1,37 @@
 # aria2c
 
 > 快速下载工具。
-> 支持 HTTP(S), FTP, SFTP, BitTorrent, and Metalink.
+> 支持 HTTP(S)、FTP、SFTP、BitTorrent 和 Metalink。
 > 更多信息：<https://aria2.github.io>.
 
-- 下载一个 URI 到文件：
+- 将特定 URI 下载到一个文件：
 
-`aria2c {{url}}`
+`aria2c "{{url}}"`
 
-- 从多个源处下载一个资源：
+- 从一个 URI 下载文件，并指定输出文件名：
 
-`aria2c {{url_1}} {{url_2}}`
+`aria2c --out {{路径/到/文件}} "{{url}}"`
 
-- 通过保存在一个文件中的 URL 列表来下载资源：
+- 并行下载多个不同的文件：
 
-`aria2c -i {{文件名}}`
+`aria2c --force-sequential {{false}} "{{url1 url2 ...}}"`
 
-- 使用多个连接下载资源：
+- 从不同的镜像下载相同的文件，并验证已下载文件的校验和：
 
-`aria2c -s {{连接数量}} {{url}}`
+`aria2c --checksum {{sha-256}}={{hash}} "{{url1}}" "{{url2}}" "{{urlN}}"`
 
-- 通过带用户名密码验证的 FTP 协议下载资源：
+- 下载文件中列出的 URI，并指定并行下载的数量：
 
-`aria2c --ftp-user={{用户名}} --ftp-passwd={{密码}} {{url}}`
+`aria2c --input-file {{路径/到/文件}} --max-concurrent-downloads {{下载数}}`
 
-- 限制下载速度（bytes/s）：
+- 使用多个连接进行下载：
 
-`aria2c --max-download-limit={{速度}} {{url}}`
+`aria2c --split {{连接数}} "{{url}}"`
+
+- 使用用户名和密码进行 FTP 下载：
+
+`aria2c --ftp-user {{用户名}} --ftp-passwd {{密码}} "{{url}}"`
+
+- 限制下载速度为字节/秒（bytes/s）：
+
+`aria2c --max-download-limit {{速度}} "{{url}}"`

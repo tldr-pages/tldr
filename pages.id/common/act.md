@@ -1,7 +1,7 @@
 # act
 
 > Jalankan GitHub Actions secara lokal melalui Docker.
-> Informasi lebih lanjut: <https://github.com/nektos/act>.
+> Informasi lebih lanjut: <https://manned.org/act>.
 
 - Tampilkan daftar actions (tugas dalam GitHub Actions) yang tersedia:
 
@@ -15,9 +15,9 @@
 
 `act {{jenis_event}}`
 
-- Jalankan tugas/[a]ction tertentu:
+- Jalankan tugas/[j]ob tertentu:
 
-`act -a {{action_id}}`
+`act -j {{job_id}}`
 
 - Tampilkan tugas-tugas yang akan dijalankan ta[n]pa mengeksekusikannya (dry-run):
 
@@ -29,4 +29,4 @@
 
 - Jalankan [W]orkflow tertentu:
 
-`act push -W {{jalam/menuju/workflow}}`
+`act push -W {{jalan/menuju/workflow}}`

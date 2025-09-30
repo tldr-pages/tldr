@@ -1,7 +1,7 @@
 # gtruncate
 
-> Questo comando è un alias per `-p linux truncate`.
+> Questo comando è un alias per `truncate`.
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux truncate`
+`tldr truncate`

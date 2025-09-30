@@ -20,10 +20,10 @@
 
 `zoxide add {{path/to/directory}}`
 
-- Remove a directory from `zoxide`'s database interactively:
+- Remove a directory from `zoxide`'s database:
 
-`zoxide remove {{path/to/directory}} --interactive`
+`zoxide remove {{path/to/directory}}`
 
-- Generate shell configuration for command aliases (`z`, `za`, `zi`, `zq`, `zr`):
+- Generate shell configuration for command aliases (`z`, `zi`):
 
-`zoxide init {{bash|fish|zsh}}`
+`zoxide init {{bash|elvish|fish|nushell|posix|powershell|tcsh|xonsh|zsh}}`

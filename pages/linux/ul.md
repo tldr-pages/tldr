@@ -10,4 +10,4 @@
 
 - Display the contents of the file with underlines made of dashes `-`:
 
-`ul -i {{file.txt}}`
+`ul {{[-i|--indicated]}} {{file.txt}}`

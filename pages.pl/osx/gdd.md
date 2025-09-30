@@ -1,7 +1,7 @@
 # gdd
 
-> To polecenie jest aliasem `-p linux dd`.
+> To polecenie jest aliasem GNU `dd`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux dd`
+`tldr {{[-p|--platform]}} linux dd`

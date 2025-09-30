@@ -1,6 +1,6 @@
 # jrnl
 
-> A simple journal application for your command-line.
+> A simple journal application.
 > More information: <https://jrnl.sh>.
 
 - Insert a new entry with your editor:

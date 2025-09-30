@@ -5,31 +5,31 @@
 
 - List files one per line:
 
-`eza --oneline`
+`eza {{[-1|--oneline]}}`
 
 - List all files, including hidden files:
 
-`eza --all`
+`eza {{[-a|--all]}}`
 
 - Long format list (permissions, ownership, size and modification date) of all files:
 
-`eza --long --all`
+`eza {{[-al|--all --long]}}`
 
 - List files with the largest at the top:
 
-`eza --reverse --sort={{size}}`
+`eza {{[-r|--reverse]}} {{[-s|--sort]}} {{size}}`
 
 - Display a tree of files, three levels deep:
 
-`eza --long --tree --level={{3}}`
+`eza {{[-lT|--long --tree]}} {{[-L|--level]}} {{3}}`
 
 - List files sorted by modification date (oldest first):
 
-`eza --long --sort={{modified}}`
+`eza {{[-l|--long]}} {{[-s|--sort]}} {{modified}}`
 
 - List files with their headers, icons, and Git statuses:
 
-`eza --long --header --icons --git`
+`eza {{[-lh|--long --header]}} --icons --git`
 
 - Don't list files mentioned in `.gitignore`:
 

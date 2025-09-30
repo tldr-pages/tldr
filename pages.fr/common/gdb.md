@@ -9,15 +9,15 @@
 
 - Attache un processus à gdb :
 
-`gdb -p {{identifiant_processus}}`
+`gdb {{[-p|--pid]}} {{identifiant_processus}}`
 
 - Débogue avec un fichier comme image mémoire :
 
-`gdb -c {{fichier}} {{exécutable}}`
+`gdb {{[-c|--core]}} {{fichier}} {{exécutable}}`
 
 - Execute les commandes gdb données au démarrage :
 
-`gdb -ex "{{commandes}}" {{exécutable}}`
+`gdb {{[-ex|--eval-command]}} "{{commandes}}" {{exécutable}}`
 
 - Démarre gdb en passant des arguments à l'exécutable :
 

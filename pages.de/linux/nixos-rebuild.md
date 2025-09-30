@@ -9,7 +9,7 @@
 
 - Gib der neu erstellten Standardkonfiguration einen Namen:
 
-`sudo nixos-rebuild switch -p {{name}}`
+`sudo nixos-rebuild switch {{[-p|--profile-name]}} {{name}}`
 
 - Erstelle und wechsle zu einer neuen Konfiguration, nutze diese künftig als Standardkonfiguration und installiere Updates:
 
@@ -30,3 +30,7 @@
 - Erstelle die Konfiguration und öffne diese in einer virtuellen Maschine:
 
 `sudo nixos-rebuild build-vm`
+
+- Liste die verfügbaren Generationen wie im Bootloader-Menü auf:
+
+`nixos-rebuild list-generations`

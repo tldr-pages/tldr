@@ -1,7 +1,7 @@
 # zapier build
 
 > Build a pushable `zip` of a Zapier integration.
-> More information: <https://github.com/zapier/zapier-platform/blob/main/packages/cli/docs/cli.md#build>.
+> More information: <https://platform.zapier.com/reference/cli#build>.
 
 - Create a build:
 
@@ -13,4 +13,4 @@
 
 - Show extra debugging output:
 
-`zapier build {{-d|--debug}}`
+`zapier build {{[-d|--debug]}}`

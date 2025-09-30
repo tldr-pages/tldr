@@ -9,4 +9,4 @@
 
 - Affiche tous les exécutables correspondants à la requête, s'il y en a plus qu'un :
 
-`which -a {{exécutable}}`
+`which {{[-a|--all]}} {{exécutable}}`

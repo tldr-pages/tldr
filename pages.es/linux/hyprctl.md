@@ -19,11 +19,11 @@
 
 `hyprctl workspaces`
 
-- Llama a un gestor con un argumento:
+- Llama a un despachador:
 
-`hyprctl dispatch exec {{aplicación}}`
+`hyprctl dispatch {{despachador}}`
 
-- Establece una palabra clave de configuración de forma dinámica:
+- Establece una configuración de una palabra clave (keyword) de forma dinámica:
 
 `hyprctl keyword {{palabra_clave}} {{valor}}`
 

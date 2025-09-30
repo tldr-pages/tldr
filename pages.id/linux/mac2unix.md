@@ -11,11 +11,11 @@
 
 - Ganti format namun simpan perubahan sebagai berkas baru:
 
-`mac2unix {{-n|--newfile}} {{jalan/menuju/berkas}} {{jalan/menuju/berkas_baru}}`
+`mac2unix {{[-n|--newfile]}} {{jalan/menuju/berkas}} {{jalan/menuju/berkas_baru}}`
 
 - Tampilkan informasi suatu berkas teks:
 
-`mac2unix {{-i|--info}} {{jalan/menuju/berkas}}`
+`mac2unix {{[-i|--info]}} {{jalan/menuju/berkas}}`
 
 - Tetap jaga/tambahkan/hapus simbol Byte Order Mark (BOM) saat mengubah isi berkas:
 

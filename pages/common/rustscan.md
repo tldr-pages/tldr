@@ -1,36 +1,37 @@
 # rustscan
 
-> Fast Port Scanner written in Rust with `nmap` built in.
-> More information: <https://github.com/RustScan/RustScan>.
+> Modern Port Scanner written in Rust.
+> Note: `nmap` must be installed for some of the examples below to work.
+> More information: <https://github.com/bee-san/RustScan/wiki>.
 
-- Scan all ports of one or more comma-delimited [a]ddresses using the default values:
+- Scan all ports of one or more comma-delimited addresses using the default values:
 
-`rustscan --addresses {{ip_or_hostname}}`
+`rustscan {{[-a|--addresses]}} {{ip_or_hostname}}`
 
-- Scan the [t]op 1000 ports with service and version detection:
+- Scan the top 1000 ports with service and version detection:
 
-`rustscan --top --addresses {{address_or_addresses}}`
+`rustscan --top {{[-a|--addresses]}} {{address_or_addresses}}`
 
-- Scan a specific list of [p]orts:
+- Scan a specific list of ports:
 
-`rustscan --ports {{port1,port2,...,portN}} --addresses {{address_or_addresses}}`
+`rustscan {{[-p|--ports]}} {{port1,port2,...}} {{[-a|--addresses]}} {{address_or_addresses}}`
 
 - Scan a specific range of ports:
 
-`rustscan --range {{start-end}} --addresses {{address_or_addresses}}`
+`rustscan {{[-r|--range]}} {{start}}-{{end}} {{[-a|--addresses]}} {{address_or_addresses}}`
 
-- Add script arguments to `nmap`:
+- Invoke `nmap` functionalities (Nmap's OS detection and default scripts):
 
-`rustscan --addresses {{address_or_addresses}} -- -A -sC`
+`rustscan {{[-a|--addresses]}} {{address_or_addresses}} -- -O {{[-sC|--script=default]}}`
 
-- Scan with custom [b]atch size (default: 4500) and [t]imeout (default: 1500ms):
+- Scan with custom batch size (default: 4500) and timeout (default: 1500ms):
 
-`rustscan --batch-size {{batch_size}} --timeout {{timeout}} --addresses {{address_or_addresses}}`
+`rustscan {{[-b|--batch-size]}} {{batch_size}} {{[-t|--timeout]}} {{timeout}} {{[-a|--addresses]}} {{address_or_addresses}}`
 
 - Scan with specific port order:
 
-`rustscan --scan-order {{serial|random}} --addresses {{address_or_addresses}}`
+`rustscan --scan-order {{serial|random}} {{[-a|--addresses]}} {{address_or_addresses}}`
 
 - Scan in greppable mode (only output of the ports, no `nmap`):
 
-`rustscan --greppable --addresses {{address_or_addresses}}`
+`rustscan {{[-g|--greppable]}} {{[-a|--addresses]}} {{address_or_addresses}}`

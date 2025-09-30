@@ -6,11 +6,11 @@
 
 - List available action plugins (modules):
 
-`ansible-doc --list`
+`ansible-doc {{[-l|--list]}}`
 
 - List available plugins of a specific type:
 
-`ansible-doc --type {{become|cache|callback|cliconf|connection|...}} --list`
+`ansible-doc {{[-t|--type]}} {{become|cache|callback|cliconf|connection|...}} {{[-l|--list]}}`
 
 - Show information about a specific action plugin (module):
 
@@ -18,12 +18,12 @@
 
 - Show information about a plugin with a specific type:
 
-`ansible-doc --type {{become|cache|callback|cliconf|connection|...}} {{plugin_name}}`
+`ansible-doc {{[-t|--type]}} {{become|cache|callback|cliconf|connection|...}} {{plugin_name}}`
 
 - Show the playbook snippet for action plugin (modules):
 
-`ansible-doc --snippet {{plugin_name}}`
+`ansible-doc {{[-s|--snippet]}} {{plugin_name}}`
 
 - Show information about an action plugin (module) as JSON:
 
-`ansible-doc --json {{plugin_name}}`
+`ansible-doc {{[-j|--json]}} {{plugin_name}}`

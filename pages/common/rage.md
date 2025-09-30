@@ -1,6 +1,6 @@
 # rage
 
-> A simple, secure and modern file encryption tool (and Rust library) with small explicit keys, no config options, and UNIX-style composability.
+> A simple, secure and modern file encryption tool (and Rust library) with small explicit keys, no configuration options, and UNIX-style composability.
 > Rust implementation of `age`.
 > More information: <https://github.com/str4d/rage>.
 

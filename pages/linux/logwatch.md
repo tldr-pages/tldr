@@ -9,4 +9,4 @@
 
 - Restrict report to only include information for a selected service:
 
-`logwatch --range {{all}} --service {{apache|pam_unix|etc}}`
+`logwatch --range {{all}} --service {{apache|pam_unix|...}}`

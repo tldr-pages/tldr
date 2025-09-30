@@ -6,32 +6,32 @@
 
 - Lista interfaces com informações detalhadas:
 
-`ip address`
+`ip {{[a|address]}}`
 
 - Lista interfaces com breves informações sobre a camada de rede:
 
-`ip -brief address`
+`ip {{[-br a|-brief address]}}`
 
 - Lista interfaces com breves informações sobre a camada de link de dados:
 
-`ip -brief link`
+`ip {{[-br l|-brief link]}}`
 
 - Exibe a tabela de roteamento:
 
-`ip route`
+`ip {{[r|route]}}`
 
 - Mostra vizinhos (ARP tabela):
 
-`ip neighbour`
+`ip {{[n|neighbour]}}`
 
 - Ativa / desativa uma interface:
 
-`ip link set {{interface}} {{up|down}}`
+`sudo ip {{[l|link]}} {{[s|set]}} {{interface}} {{up|down}}`
 
 - Adiciona / remove um endereço de IP a uma interface:
 
-`ip addr add/del {{ip}}/{{mask}} dev {{interface}}`
+`sudo ip {{[a|address]}} {{add|delete}} {{ip}}/{{mask}} dev {{interface}}`
 
 - Adiciona uma rota padrão:
 
-`ip route add default via {{ip}} dev {{interface}}`
+`sudo ip {{[r|route]}} {{[a|add]}} default via {{ip}} dev {{interface}}`

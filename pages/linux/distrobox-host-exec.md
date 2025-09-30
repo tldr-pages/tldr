@@ -1,6 +1,7 @@
 # distrobox-host-exec
 
-> Execute a command on the host from inside a Distrobox container. See also: `tldr distrobox`.
+> Execute a command on the host from inside a Distrobox container.
+> See also: `distrobox`.
 > More information: <https://distrobox.it/usage/distrobox-host-exec>.
 
 - Execute command on the host system from inside the Distrobox container:

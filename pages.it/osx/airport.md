@@ -1,7 +1,7 @@
 # airport
 
 > Strumento di configurazione delle reti senza fili.
-> Maggiori informazioni: <https://keith.github.io/xcode-man-pages/airport.1.html>.
+> Maggiori informazioni: <https://ss64.com/mac/airport.html>.
 
 - Mostra le informazioni relative allo stato attuale delle connessioni senza fili:
 

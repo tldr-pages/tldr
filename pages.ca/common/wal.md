@@ -1,7 +1,7 @@
 # wal
 
 > Una eina per crear esquemes de colors basats en els colors dominants del fons de pantalla.
-> Més informació: <https://github.com/dylanaraps/pywal>.
+> Més informació: <https://github.com/dylanaraps/pywal/wiki/Getting-Started>.
 
 - Preveure l'esquema de colors:
 

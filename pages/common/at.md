@@ -4,11 +4,7 @@
 > Results will be sent to the users mail.
 > More information: <https://manned.org/at>.
 
-- Start the `atd` daemon:
-
-`systemctl start atd`
-
-- Create commands interactively and execute them in 5 minutes (press `<Ctrl> + D` when done):
+- Create commands interactively and execute them in 5 minutes (press `<Ctrl d>` when done):
 
 `at now + 5 minutes`
 
@@ -23,3 +19,11 @@
 - Execute commands from a given file next Tuesday:
 
 `at -f {{path/to/file}} 9:30 PM Tue`
+
+- List all queued jobs for the current user (same as `atq`):
+
+`at -l`
+
+- View a specied job:
+
+`at -c {{job_number}}`

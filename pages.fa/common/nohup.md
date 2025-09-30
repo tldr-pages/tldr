@@ -1,7 +1,7 @@
 # nohup
 
 > اجرای یک پردازش در پس زمینه حتی زمانی که ترمینال بسته شود.
-> اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/nohup>.
+> اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/manual/html_node/nohup-invocation.html>.
 
 - اجرای پردازش در پس زمینه فارغ از اجرا بودن ترمینال:
 

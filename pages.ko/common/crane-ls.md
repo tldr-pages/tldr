@@ -13,8 +13,8 @@
 
 - 다이제스트 태그 생략:
 
-`crane ls {{-o|--omit-digest-tags}}`
+`crane ls {{[-o|--omit-digest-tags]}}`
 
 - 도움말 표시:
 
-`crane ls {{-h|--help}}`
+`crane ls {{[-h|--help]}}`

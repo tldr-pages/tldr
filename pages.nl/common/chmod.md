@@ -1,7 +1,7 @@
 # chmod
 
 > Verander de toegangstoestemmingen van een bestand of map.
-> Meer informatie: <https://www.gnu.org/software/coreutils/chmod>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html>.
 
 - Geef een gebruiker ([u]ser) die het bestand beheert het recht om deze uit te voeren (e[x]ecute):
 
@@ -29,8 +29,8 @@
 
 - Verander de toestemmingen recursief, waarbij de [g]roep en anderen ([o]thers) de mogelijkheid tot schrijven ([w]rite) krijgen:
 
-`chmod -R g+w,o+w {{map}}`
+`chmod {{[-R|--recursive]}} g+w,o+w {{map}}`
 
 - Geef recursief alle gebruikers ([a]ll users) toegang om bestanden te lezen ([r]ead) en uitvoertoestemming (e[X]ecute) voor alle onderliggende mappen in een map:
 
-`chmod -R a+rX {{pad/naar/map}}`
+`chmod {{[-R|--recursive]}} a+rX {{pad/naar/map}}`

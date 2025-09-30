@@ -1,7 +1,7 @@
 # gwhoami
 
-> Perintah ini merupakan alias dari `-p linux whoami`.
+> Perintah ini merupakan alias dari `whoami`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux whoami`
+`tldr whoami`

@@ -19,6 +19,6 @@
 
 `sl -l`
 
-- Deixa o usuário sair (CTRL + C):
+- Deixa o usuário sair (`<Ctrl c>`):
 
 `sl -e`

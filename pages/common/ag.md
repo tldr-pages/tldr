@@ -1,32 +1,32 @@
 # ag
 
 > The Silver Searcher. Like `ack`, but aims to be faster.
-> More information: <https://github.com/ggreer/the_silver_searcher>.
+> More information: <https://manned.org/ag>.
 
 - Find files containing "foo", and print the line matches in context:
 
-`ag {{foo}}`
+`ag foo`
 
 - Find files containing "foo" in a specific directory:
 
-`ag {{foo}} {{path/to/directory}}`
+`ag foo {{path/to/directory}}`
 
-- Find files containing "foo", but only [l]ist the filenames:
+- Find files containing "foo", but only list the filenames:
 
-`ag -l {{foo}}`
+`ag {{[-l|--files-with-matches]}} foo`
 
-- Find files containing "FOO" case-[i]nsensitively, and print [o]nly the match, rather than the whole line:
+- Find files containing "FOO" case-insensitively, and print only the match, rather than the whole line:
 
-`ag -i -o {{FOO}}`
+`ag {{[-i|--ignore-case]}} {{[-o|--only-matching]}} FOO`
 
 - Find "foo" in files with a name matching "bar":
 
-`ag {{foo}} -G {{bar}}`
+`ag foo {{[-G|--file-search-regex]}} bar`
 
-- Find files whose contents match a regular expression:
+- Find files whose contents match a `regex`:
 
 `ag '{{^ba(r|z)$}}'`
 
 - Find files with a name matching "foo":
 
-`ag -g {{foo}}`
+`ag {{[-g|--filename-pattern]}} foo`

@@ -5,4 +5,4 @@
 
 - Add `n` gigabytes to a virtual disk:
 
-`qm disk resize {{vm_id}} {{disk_name}} +{{n}}G`
+`qm {{[di|disk]}} {{[resi|resize]}} {{vm_id}} {{disk_name}} +{{n}}G`

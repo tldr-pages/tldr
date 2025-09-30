@@ -9,8 +9,8 @@
 
 - Write the current software clock time to the hardware clock (sometimes used during system setup):
 
-`hwclock --systohc`
+`hwclock {{[-w|--systohc]}}`
 
 - Write the current hardware clock time to the software clock:
 
-`hwclock --hctosys`
+`hwclock {{[-s|--hctosys]}}`

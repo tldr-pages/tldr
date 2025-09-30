@@ -2,7 +2,7 @@
 
 > Mit dem ARP Protokoll Hosts in einem Netzwerk entdecken und untersuchen.
 > Nützlich für die Entdeckung von MAC-Adressen.
-> Weitere Informationen: <https://github.com/ThomasHabets/arping>.
+> Weitere Informationen: <https://manned.org/arping>.
 
 - Pinge einen Host mit ARP Request Paketen:
 

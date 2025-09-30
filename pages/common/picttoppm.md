@@ -9,8 +9,8 @@
 
 - Force any images in the PICT file to be output at full resolution:
 
-`picttoppm -fullres {{path/to/file.pict}} > {{path/to/file.ppm}}`
+`picttoppm {{[-fu|-fullres]}} {{path/to/file.pict}} > {{path/to/file.ppm}}`
 
 - Do not assume that the input file contains a PICT header and execute quickdraw operations only:
 
-`picttoppm -noheader -quickdraw {{path/to/file.pict}} > {{path/to/file.ppm}}`
+`picttoppm {{[-n|-noheader]}} {{[-quic|-quickdraw]}} {{path/to/file.pict}} > {{path/to/file.ppm}}`

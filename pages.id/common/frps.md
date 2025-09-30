@@ -10,15 +10,15 @@
 
 - Jalankan layanan menggunakan berkas konfigurasi dengan format terbaru berbasis TOML (`frps.toml` daripada `frps.ini`) pada direktori saat ini:
 
-`frps {{-c|--config}} ./frps.toml`
+`frps {{[-c|--config]}} ./frps.toml`
 
 - Start the service, using a specific configuration file:
 
-`frps {{-c|--config}} {{jalan/menuju/berkas}}`
+`frps {{[-c|--config]}} {{jalan/menuju/berkas}}`
 
 - Periksa apakah isi suatu berkas konfigurasi menggunakan format yang valid:
 
-`frps verify {{-c|--config}} {{jalan/menuju/berkas}}`
+`frps verify {{[-c|--config]}} {{jalan/menuju/berkas}}`
 
 - Tampilkan isi skrip shell yang perlu dijalankan untuk mengaktifkan fitur penyelesaian perintah otomatis (autocomplete) bagi Bash, fish, PowerShell, maupun Zsh:
 
@@ -26,4 +26,4 @@
 
 - Tampilkan informasi versi:
 
-`frps {{-v|--version}}`
+`frps {{[-v|--version]}}`

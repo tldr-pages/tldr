@@ -1,7 +1,7 @@
 # grmdir
 
-> Dit commando is een alias van `-p linux rmdir`.
+> Dit commando is een alias van GNU `rmdir`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux rmdir`
+`tldr rmdir`

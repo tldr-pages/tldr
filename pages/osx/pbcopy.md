@@ -1,7 +1,7 @@
 # pbcopy
 
 > Copy data from `stdin` to the clipboard.
-> Comparable to pressing Cmd + C on the keyboard.
+> Comparable to pressing `<Cmd c>` on the keyboard.
 > More information: <https://keith.github.io/xcode-man-pages/pbcopy.1.html>.
 
 - Place the contents of a specific file in the clipboard:

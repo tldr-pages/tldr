@@ -1,7 +1,7 @@
 # mv
 
 > Verplaats of hernoem bestanden en mappen.
-> Meer informatie: <https://www.gnu.org/software/coreutils/mv>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/mv-invocation.html>.
 
 - Hernoem een bestand of map als het doel geen bestaande map is:
 
@@ -15,22 +15,22 @@
 
 `mv {{pad/naar/bron1 pad/naar/bron2 ...}} {{pad/naar/bestaande_map}}`
 
-- Vraag niet om bevestiging ([f]) voordat bestaande bestanden worden overschreven:
+- Vraag niet om bevestiging voordat bestaande bestanden worden overschreven:
 
-`mv --force {{pad/naar/bron}} {{pad/naar/doel}}`
+`mv {{[-f|--force]}} {{pad/naar/bron}} {{pad/naar/doel}}`
 
-- Vraag om bevestiging [i]nteractief voordat bestaande bestanden worden overschreven, ongeacht de bestandsrechten:
+- Vraag om bevestiging interactief voordat bestaande bestanden worden overschreven, ongeacht de bestandsrechten:
 
-`mv --interactive {{pad/naar/bron}} {{pad/naar/doel}}`
+`mv {{[-i|--interactive]}} {{pad/naar/bron}} {{pad/naar/doel}}`
 
-- Overschrijf ([n]) geen bestaande bestanden op de doelbestemming:
+- Overschrijf geen bestaande bestanden op de doelbestemming:
 
-`mv --no-clobber {{pad/naar/bron}} {{pad/naar/doel}}`
+`mv {{[-n|--no-clobber]}} {{pad/naar/bron}} {{pad/naar/doel}}`
 
-- Verplaats bestanden in [v]erbose-modus, waarbij de bestanden worden getoond nadat ze zijn verplaatst:
+- Verplaats bestanden in verbose-modus, waarbij de bestanden worden getoond nadat ze zijn verplaatst:
 
-`mv --verbose {{pad/naar/bron}} {{pad/naar/doel}}`
+`mv {{[-v|--verbose]}} {{pad/naar/bron}} {{pad/naar/doel}}`
 
-- Specificeer de doelmap ([t]) (handig in situaties waarin de doelmap het eerste argument moet zijn):
+- Specificeer de doelmap (handig in situaties waarin de doelmap het eerste argument moet zijn):
 
-`{{find /var/log -type f -name '*.log' -print0}} | {{xargs -0}} mv --target-directory {{pad/naar/doel_map}}`
+`{{find /var/log -type f -name '*.log' -print0}} | {{xargs -0}} mv {{[-t|--target-directory]}} {{pad/naar/doel_map}}`

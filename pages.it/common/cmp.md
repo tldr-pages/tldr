@@ -9,4 +9,4 @@
 
 - Trova ogni coppia di byte differenti ed il relativo indice:
 
-`cmp -l {{file1}} {{file2}}`
+`cmp {{[-l|--verbose]}} {{file1}} {{file2}}`

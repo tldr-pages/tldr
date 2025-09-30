@@ -5,8 +5,8 @@
 
 - Unduh konten URL ke file:
 
-`ruget {{https://contoh.com/file}}`
+`ruget {{https://example.com/file}}`
 
 - Unduh konten URL ke file [o]utput tertentu:
 
-`ruget --output {{nama_file}} {{https://contoh.com/file}}`
+`ruget --output {{nama_file}} {{https://example.com/file}}`

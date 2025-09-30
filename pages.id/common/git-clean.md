@@ -7,21 +7,21 @@
 
 `git clean`
 
-- Hapus menggunakan mode [i]nteraktif:
+- Hapus menggunakan mode interaktif:
 
-`git clean {{-i|--interactive}}`
+`git clean {{[-i|--interactive]}}`
 
 - Tampilkan kumpulan berkas yang akan dihapus tanpa menghapusnya:
 
-`git clean --dry-run`
+`git clean {{[-n|--dry-run]}}`
 
 - Hapus berkas-berkas secara paksa:
 
-`git clean {{-f|--force}}`
+`git clean {{[-f|--force]}}`
 
 - Hapus kumpulan [d]irektori secara paksa:
 
-`git clean {{-f|--force}} -d`
+`git clean {{[-f|--force]}} -d`
 
 - Hapus berkas-berkas yang tak dilacak, termasuk berkas yang dikecualikan (menurut daftar `.gitignore` dan `.git/info/exclude`):
 

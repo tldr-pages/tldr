@@ -1,7 +1,7 @@
 # sops
 
 > SOPS (Secrets OPerationS): a simple and flexible tool for managing secrets.
-> More information: <https://github.com/mozilla/sops>.
+> More information: <https://github.com/getsops/sops>.
 
 - Encrypt a file:
 

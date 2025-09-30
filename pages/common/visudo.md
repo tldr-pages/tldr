@@ -9,7 +9,7 @@
 
 - Check the sudoers file for errors:
 
-`sudo visudo -c`
+`sudo visudo {{[-c|--check]}}`
 
 - Edit the sudoers file using a specific editor:
 
@@ -17,4 +17,4 @@
 
 - Display version information:
 
-`visudo --version`
+`visudo {{[-V|--version]}}`

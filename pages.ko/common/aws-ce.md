@@ -1,36 +1,36 @@
-# aws-ce
+# aws ce
 
-> 클라우드 환경에서 액세스 제어 및 보안 설정 분석 및 관리.
-> 더 많은 정보: <https://awe-ce-cli.documentation.com/latest/reference/awe-ce/index.html>.
+> AWS Cost Explorer 서비스를 통한 비용 관리 작업 수행합니다.
+> 더 많은 정보: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ce/index.html>.
 
-- 새로운 접근 제어 분석기 생성:
+- 이상 모니터 생성:
 
-`awe-ce create-analyzer --analyzer-name {{분석기_이름}} --type {{타입}} --tags {{태그}}`
+`aws ce create-anomaly-monitor --monitor {{모니터_이름}} --monitor-type {{모니터_유형}}`
 
-- 존재하는 접근 제어 분석기 삭제:
+- 이상 구독 생성:
 
-`awe-ce delete-analyzer --analyzer-arn {{analyzer_arn}}`
+`aws ce create-anomaly-subscription --subscription {{구독_이름}} --monitor-arn {{모니터_arn}} --subscribers {{구독자}}`
 
-- 특정 접근 제어 분석기 세부 정보 얻기:
+- 이상 조회:
 
-`awe-ce get-analyzer --analyzer-arn {{analyzer_arn}}`
+`aws ce get-anomalies --monitor-arn {{모니터_arn}} --start-time {{시작_날짜}} --end-time {{종료_날짜}}`
 
-- 모든 접근 제어 분석기 나열:
+- 비용 및 사용량 조회:
 
-`awe-ce list-analyzers`
+`aws ce get-cost-and-usage --time-period {{시작_날짜}}/{{종료_날짜}} --granularity {{세분화}} --metrics {{메트릭}}`
 
-- 접근 제어 분석기 설정 업데이트:
+- 비용 예측 조회:
 
-`awe-ce update-analyzer --analyzer-arn {{analyzer_arn}} --tags {{새로운_태그}}`
+`aws ce get-cost-forecast --time-period {{시작_날짜}}/{{종료_날짜}} --granularity {{세분화}} --metric {{메트릭}}`
 
-- 새로운 접근 제어 분석기 아카이브 규칙 생성:
+- 예약 사용량 조회:
 
-`awe-ce create-archive-rule --analyzer-arn {{analyzer_arn}} --rule-name {{규칙_이름}} --filter {{필터}}`
+`aws ce get-reservation-utilization --time-period {{시작_날짜}}/{{종료_날짜}} --granularity {{세분화}}`
 
-- 접근 제어 분석기 아카이브 규칙 삭제:
+- 비용 카테고리 정의 목록 조회:
 
-`awe-ce delete-archive-rule --analyzer-arn {{analyzer_arn}} --rule-name {{규칙_이름}}`
+`aws ce list-cost-category-definitions`
 
-- 모든 접근 제어 분석기 아카이브 규칙 나열:
+- 리소스 태깅:
 
-`awe-ce list-archive-rules --analyzer-arn {{analyzer_arn}}`
+`aws ce tag-resource --resource-arn {{리소스_arn}} --tags {{태그}}`

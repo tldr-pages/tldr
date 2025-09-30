@@ -6,4 +6,4 @@
 
 - Voer een proces uit in een bepaalde cgroup met een bepaalde controller:
 
-`cgexec -g {{controller}}:{{cgroup_name}} {{process_name}}`
+`cgexec -g {{controller}}:{{cgroup_naam}} {{proces_naam}}`

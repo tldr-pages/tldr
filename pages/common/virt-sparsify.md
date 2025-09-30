@@ -2,7 +2,7 @@
 
 > Make virtual machine drive images thin-provisioned.
 > Note: Use only for offline machines to avoid data corruption.
-> More information: <https://libguestfs.org>.
+> More information: <https://manned.org/virt-sparsify>.
 
 - Create a sparsified compressed image without snapshots from an unsparsified one:
 

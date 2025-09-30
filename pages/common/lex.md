@@ -2,8 +2,8 @@
 
 > Lexical analyzer generator.
 > Given the specification for a lexical analyzer, generates C code implementing it.
-> Note: on most major OSes, this command is an alias for `flex`.
-> More information: <https://manned.org/lex.1>.
+> Note: On most major OSes, this command is an alias for `flex`.
+> More information: <https://manned.org/lex>.
 
 - Generate an analyzer from a Lex file, storing it to the file `lex.yy.c`:
 

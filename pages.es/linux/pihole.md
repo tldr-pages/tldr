@@ -1,36 +1,28 @@
 # pihole
 
 > Interfaz de terminal para el servidor DNS de bloqueo de anuncios Pi-hole.
-> Más información: <https://docs.pi-hole.net/core/pihole-command/>.
+> Más información: <https://docs.pi-hole.net/main/pihole-command>.
 
-- Verifica el estado del daemon de Pi-hole:
+- Verifica el estado del programa residente de Pi-hole:
 
 `pihole status`
 
 - Actualiza Pi-hole y Gravity:
 
-`pihole -up`
+`pihole {{[-up|updatePihole]}}`
 
-- Monitorea el estado detallado del sistema:
-
-`pihole chronometer`
-
-- Inicia o detiene el daemon:
+- Inicia o detiene el programa residente:
 
 `pihole {{enable|disable}}`
 
-- Reinicia el daemon (no el servidor en sí):
-
-`pihole restartdns`
-
 - Incluye en lista blanca o negra un dominio:
 
-`pihole {{whitelist|blacklist}} {{ejemplo.com}}`
+`pihole {{allowlist|denylist}} {{example.com}}`
 
 - Busca en las listas un dominio:
 
-`pihole query {{ejemplo.com}}`
+`pihole {{[-q|query]}} {{example.com}}`
 
 - Abre un registro de conexiones en tiempo real:
 
-`pihole tail`
+`pihole {{[-t|tail]}}`

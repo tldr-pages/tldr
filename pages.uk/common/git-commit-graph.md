@@ -9,7 +9,7 @@
 
 - Записує файл графіку комітів, що містить набір усіх досяжних комітів:
 
-`git show-ref --hash | git commit-graph write --stdin-commits`
+`git show-ref {{[-s|--hash]}} | git commit-graph write --stdin-commits`
 
 - Записує файл графіку комітів, що містить усі коміти у поточному файлі графіку комітів разом з тими, до яких можна отримати доступ з `HEAD`:
 

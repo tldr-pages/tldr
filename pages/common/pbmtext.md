@@ -14,8 +14,8 @@
 
 - Render text using a custom font supplied as a PBM file:
 
-`pbmtext -font {{path/to/font.pbm}} "{{Hello World!}}" > {{path/to/output.pbm}}`
+`pbmtext {{[-f|-font]}} {{path/to/font.pbm}} "{{Hello World!}}" > {{path/to/output.pbm}}`
 
 - Specify the number of pixels between characters and lines:
 
-`echo "{{Hello\nWorld!}}" | pbmtext -space {{3}} -lspace {{10}} > {{path/to/output.pbm}}`
+`echo "{{Hello\nWorld!}}" | pbmtext {{[-s|-space]}} {{3}} {{[-ls|-lspace]}} {{10}} > {{path/to/output.pbm}}`

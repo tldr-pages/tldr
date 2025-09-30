@@ -9,4 +9,4 @@
 
 - Specify a prefix string to be printed in the output UIL file:
 
-`pamtouil -name {{uilname}} {{path/to/input.pnm|pam}} > {{path/to/output.uil}}`
+`pamtouil {{[-n|-name]}} {{uilname}} {{path/to/input.pnm|pam}} > {{path/to/output.uil}}`

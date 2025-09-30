@@ -2,7 +2,7 @@
 
 > Enable devices and files for swapping.
 > Note: `path/to/file` can either point to a regular file or a swap partition.
-> More information: <https://manned.org/swapon>.
+> More information: <https://manned.org/swapon.8>.
 
 - Show swap information:
 
@@ -14,7 +14,7 @@
 
 - Enable all swap areas specified in `/etc/fstab` except those with the `noauto` option:
 
-`swapon --all`
+`swapon {{[-a|--all]}}`
 
 - Enable a swap partition by its label:
 

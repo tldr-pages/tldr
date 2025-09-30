@@ -5,16 +5,16 @@
 
 - Display the list of all the interfaces:
 
-`bmon -a`
+`bmon {{[-a|--show-all]}}`
 
 - Display data transfer rates in bits per second:
 
-`bmon -b`
+`bmon {{[-b|--use-bit]}}`
 
 - Specify the policy to define which network interface(s) is/are displayed:
 
-`bmon -p {{interface_1,interface_2,interface_3}}`
+`bmon {{[-p|--policy]}} {{interface_1,interface_2,interface_3}}`
 
 - Specify the interval (in seconds) in which rate per counter is calculated:
 
-`bmon -R {{2.0}}`
+`bmon {{[-R|--rate-interval]}} {{2.0}}`

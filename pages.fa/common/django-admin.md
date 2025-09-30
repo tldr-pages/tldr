@@ -1,7 +1,7 @@
 # django-admin
 
 > جعبه ابزار فریمورک جنگو برای کارهای مدیریتی.
-> اطلاعات بیشتر: <https://docs.djangoproject.com/en/4.2/ref/django-admin/>.
+> اطلاعات بیشتر: <https://docs.djangoproject.com/en/stable/ref/django-admin/>.
 
 - ساخت یک پروژه جنگو جدید:
 

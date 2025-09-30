@@ -16,6 +16,6 @@
 
 `!{{command}} {{command_arguments}}`
 
-- Exit the interactive Git shell (or press Ctrl + D):
+- Exit the interactive Git shell (or press `<Ctrl d>`):
 
 `exit`

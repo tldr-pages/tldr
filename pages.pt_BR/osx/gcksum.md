@@ -1,7 +1,7 @@
 # gcksum
 
-> Este comando é um apelido de `-p linux cksum`.
+> Este comando é um apelido de `cksum`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux cksum`
+`tldr cksum`

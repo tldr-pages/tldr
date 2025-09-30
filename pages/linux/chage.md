@@ -5,20 +5,24 @@
 
 - List password information for the user:
 
-`chage --list {{username}}`
+`chage {{[-l|--list]}} {{username}}`
 
 - Enable password expiration in 10 days:
 
-`sudo chage --maxdays {{10}} {{username}}`
+`sudo chage {{[-M|--maxdays]}} {{10}} {{username}}`
 
 - Disable password expiration:
 
-`sudo chage --maxdays {{-1}} {{username}}`
+`sudo chage {{[-M|--maxdays]}} {{-1}} {{username}}`
 
 - Set account expiration date:
 
-`sudo chage --expiredate {{YYYY-MM-DD}} {{username}}`
+`sudo chage {{[-E|--expiredate]}} {{YYYY-MM-DD}} {{username}}`
 
 - Force user to change password on next log in:
 
-`sudo chage --lastday {{0}} {{username}}`
+`sudo chage {{[-d|--lastday]}} {{0}} {{username}}`
+
+- Re-enable an account:
+
+`sudo chage {{[-E|--expiredate]}} -1 {{username}}`

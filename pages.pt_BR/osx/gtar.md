@@ -1,7 +1,7 @@
 # gtar
 
-> Este comando é um apelido de `-p linux tar`.
+> Este comando é um apelido de `tar`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux tar`
+`tldr tar`

@@ -1,7 +1,7 @@
 # ghostname
 
-> คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux hostname`
+> คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `hostname`
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr -p linux hostname`
+`tldr hostname`

@@ -9,11 +9,11 @@
 
 - Список всії наявних локалізацій:
 
-`locale --all-locales`
+`locale {{[-a|--all-locales]}}`
 
 - Показати всі доступні локалізації та пов'язані метадані:
 
-`locale --all-locales --verbose`
+`locale {{[-a|--all-locales]}} {{[-v|--verbose]}}`
 
 - Відображення поточного формату дати:
 

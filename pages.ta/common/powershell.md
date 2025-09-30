@@ -10,4 +10,4 @@
 
 - மரபு விண்டோஸ் PowerShell (பதிப்பு 5.1 மற்றும் கீழே) குறிப்பிடும் கட்டளைக்கான ஆவணங்களைப் பார்க்கவும்:
 
-`tldr powershell -p windows`
+`tldr powershell {{[-p|--platform]}} windows`

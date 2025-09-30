@@ -7,14 +7,14 @@
 
 `ydotoold`
 
-- Realiza un clic con el botón izquierdo:
+- Realiza `<LeftClick>`:
 
 `ydotool click 0xC0`
 
-- Realiza un clic con el botón derecho:
+- Realiza `<RightClick>`:
 
 `ydotool click 0xC1`
 
-- Ingresa la combinación de teclas Alt+F4:
+- Ingresa la combinación de teclas `<Alt F4>`:
 
 `ydotool key 56:1 62:1 62:0 56:0`

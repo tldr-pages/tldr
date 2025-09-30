@@ -1,6 +1,7 @@
 # ssh-keygen
 
 > Generate SSH keys used for authentication, password-less logins, and other things.
+> See also: `ssh-copy-id` for installing SSH keys on remote hosts.
 > More information: <https://man.openbsd.org/ssh-keygen>.
 
 - Generate a key interactively:

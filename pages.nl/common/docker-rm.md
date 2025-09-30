@@ -9,12 +9,12 @@
 
 - Verwijdeer een container geforceerd:
 
-`docker rm --force {{container1 container2 ...}}`
+`docker rm {{[-f|--force]}} {{container1 container2 ...}}`
 
 - Verwijder een container en de volumes:
 
-`docker rm --volumes {{container}}`
+`docker rm {{[-v|--volumes]}} {{container}}`
 
 - Toon de help:
 
-`docker rm --help`
+`docker rm {{[-h|--help]}}`

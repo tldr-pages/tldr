@@ -1,7 +1,7 @@
 # pass otp
 
 > A pass extension for managing one-time-password (OTP) tokens.
-> More information: <https://github.com/tadfisher/pass-otp#readme>.
+> More information: <https://manned.org/pass-otp>.
 
 - Prompt for an otpauth URI token and create a new pass file:
 
@@ -17,12 +17,12 @@
 
 - Copy and don't print a 2FA code using the OTP token in a pass file:
 
-`pass otp --clip {{path/to/pass}}`
+`pass otp {{[-c|--clip]}} {{path/to/pass}}`
 
 - Display a QR code using the OTP token stored in a pass file:
 
-`pass otp uri --qrcode {{path/to/pass}}`
+`pass otp uri {{[-q|--qrcode]}} {{path/to/pass}}`
 
 - Prompt for an OTP secret value specifying issuer and account (at least one must be specified) and append to existing pass file:
 
-`pass otp append --secret --issuer {{issuer_name}} --account {{account_name}} {{path/to/pass}}`
+`pass otp append {{[-s|--secret]}} {{[-i|--issuer]}} {{issuer_name}} {{[-a|--account]}} {{account_name}} {{path/to/pass}}`

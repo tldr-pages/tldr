@@ -9,4 +9,4 @@
 
 - Download a specific file from a competition dataset:
 
-`kaggle competitions download {{competition}} -f {{filename}}`
+`kaggle competitions download {{competition}} {{[-f|--file]}} {{filename}}`

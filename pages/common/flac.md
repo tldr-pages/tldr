@@ -9,12 +9,12 @@
 
 - Encode a WAV file to FLAC, specifying the output file:
 
-`flac -o {{path/to/output.flac}} {{path/to/file.wav}}`
+`flac {{[-o|--output-name]}} {{path/to/output.flac}} {{path/to/file.wav}}`
 
 - Decode a FLAC file to WAV, specifying the output file:
 
-`flac -d -o {{path/to/output.wav}} {{path/to/file.flac}}`
+`flac {{[-d|--decode]}} {{[-o|--output-name]}} {{path/to/output.wav}} {{path/to/file.flac}}`
 
 - Test a FLAC file for the correct encoding:
 
-`flac -t {{path/to/file.flac}}`
+`flac {{[-t|--test]}} {{path/to/file.flac}}`

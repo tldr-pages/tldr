@@ -1,7 +1,7 @@
 # glogger
 
-> Dieser Befehl ist ein Alias von `-p linux logger`.
+> Dieser Befehl ist ein Alias von GNU `logger`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 
-`tldr -p linux logger`
+`tldr {{[-p|--platform]}} linux logger`

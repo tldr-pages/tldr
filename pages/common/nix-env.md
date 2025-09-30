@@ -5,32 +5,32 @@
 
 - List all installed packages:
 
-`nix-env -q`
+`nix-env {{[-q|--query]}}`
 
 - Query installed packages:
 
-`nix-env -q {{search_term}}`
+`nix-env {{[-q|--query]}} {{search_term}}`
 
 - Query available packages:
 
-`nix-env -qa {{search_term}}`
+`nix-env {{[-qa|--query --available]}} {{search_term}}`
 
 - Install package:
 
-`nix-env -iA nixpkgs.{{pkg_name}}`
+`nix-env {{[-iA|--install --attr]}} nixpkgs.{{pkg_name}}`
 
 - Install a package from a URL:
 
-`nix-env -i {{pkg_name}} --file {{example.com}}`
+`nix-env {{[-i|--install]}} {{pkg_name}} {{[-f|--file]}} {{example.com}}`
 
 - Uninstall package:
 
-`nix-env -e {{pkg_name}}`
+`nix-env {{[-e|--uninstall]}} {{pkg_name}}`
 
 - Upgrade one package:
 
-`nix-env -u {{pkg_name}}`
+`nix-env {{[-u|--upgrade]}} {{pkg_name}}`
 
 - Upgrade all packages:
 
-`nix-env -u`
+`nix-env {{[-u|--upgrade]}}`

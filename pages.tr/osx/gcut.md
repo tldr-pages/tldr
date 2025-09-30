@@ -1,7 +1,7 @@
 # gcut
 
-> Bu komut `-p linux cut` için bir takma addır.
+> Bu komut `cut` için bir takma addır.
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux cut`
+`tldr {{[-p|--platform]}} common cut`

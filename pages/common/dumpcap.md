@@ -5,16 +5,16 @@
 
 - Display available interfaces:
 
-`dumpcap --list-interfaces`
+`dumpcap {{[-D|--list-interfaces]}}`
 
 - Capture packets on a specific interface:
 
-`dumpcap --interface {{1}}`
+`dumpcap {{[-i|--interface]}} {{1}}`
 
 - Capture packets to a specific location:
 
-`dumpcap --interface {{1}} -w {{path/to/output_file.pcapng}}`
+`dumpcap {{[-i|--interface]}} {{1}} -w {{path/to/output_file.pcapng}}`
 
 - Write to a ring buffer with a specific max file limit of a specific size:
 
-`dumpcap --interface {{1}} -w {{path/to/output_file.pcapng}} --ring-buffer filesize:{{500000}} --ring-buffer files:{{10}}`
+`dumpcap {{[-i|--interface]}} {{1}} -w {{path/to/output_file.pcapng}} {{[-b|--ring-buffer]}} filesize:{{500000}} {{[-b|--ring-buffer]}} files:{{10}}`

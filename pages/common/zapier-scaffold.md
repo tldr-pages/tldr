@@ -1,7 +1,7 @@
 # zapier scaffold
 
 > Add a starting trigger, create, search, or resource to an integration.
-> More information: <https://github.com/zapier/zapier-platform/blob/main/packages/cli/docs/cli.md#scaffold>.
+> More information: <https://platform.zapier.com/reference/cli#scaffold>.
 
 - Scaffold a new trigger, create, search, or resource:
 
@@ -9,11 +9,11 @@
 
 - Specify a custom destination directory for the scaffolded files:
 
-`zapier scaffold {{trigger|search|create|resource}} {{noun}} {{-d|--dest}}={{path/to/directory}}`
+`zapier scaffold {{trigger|search|create|resource}} {{noun}} {{[-d|--dest]}}={{path/to/directory}}`
 
 - Overwrite existing files when scaffolding:
 
-`zapier scaffold {{trigger|search|create|resource}} {{noun}} {{-f|--force}}`
+`zapier scaffold {{trigger|search|create|resource}} {{noun}} {{[-f|--force]}}`
 
 - Exclude comments from the scaffolded files:
 
@@ -21,4 +21,4 @@
 
 - Show extra debugging output:
 
-`zapier scaffold {{-d|--debug}}`
+`zapier scaffold {{[-d|--debug]}}`

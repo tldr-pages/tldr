@@ -6,7 +6,7 @@
 
 - Toon alle bestanden, inclusief verborgen bestanden:
 
-`dir --all`
+`dir {{[-a|--all]}}`
 
 - Toon bestanden inclusief hun auteur (`-l` is vereist):
 
@@ -14,12 +14,12 @@
 
 - Toon bestanden en sluit degenen uit die overeenkomen met een specifiek patroon:
 
-`dir --hide={{patroon}}`
+`dir --hide {{patroon}}`
 
 - Toon subdirectories recursief:
 
-`dir --recursive`
+`dir {{[-R|--recursive]}}`
 
-- Toon hulp:
+- Toon de help:
 
 `dir --help`

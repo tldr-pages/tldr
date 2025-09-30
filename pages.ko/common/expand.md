@@ -1,7 +1,7 @@
 # expand
 
 > 탭을 공백으로 변환.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/expand>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/expand-invocation.html>.
 
 - 각 파일의 탭을 공백으로 변환하여 `stdout`에 작성:
 

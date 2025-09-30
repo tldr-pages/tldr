@@ -1,7 +1,7 @@
 # gcut
 
-> Este comando é um apelido de `-p linux cut`.
+> Este comando é um apelido de `cut`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux cut`
+`tldr {{[-p|--platform]}} common cut`

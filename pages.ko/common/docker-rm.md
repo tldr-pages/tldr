@@ -9,12 +9,12 @@
 
 - 컨테이너 강제 제거:
 
-`docker rm --force {{컨테이너1 컨테이너2 ...}}`
+`docker rm {{[-f|--force]}} {{컨테이너1 컨테이너2 ...}}`
 
 - 컨테이너와 그 볼륨 제거:
 
-`docker rm --volumes {{컨테이너}}`
+`docker rm {{[-v|--volumes]}} {{컨테이너}}`
 
 - 도움말 표시:
 
-`docker rm --help`
+`docker rm {{[-h|--help]}}`

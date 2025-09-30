@@ -1,7 +1,7 @@
 # puppet apply
 
 > Wende ein Puppet-Manifest lokal an.
-> Weitere Informationen: <https://puppet.com/docs/puppet/7/man/apply.html>.
+> Weitere Informationen: <https://github.com/puppetlabs/puppet/blob/main/references/man/apply.md>.
 
 - Wende ein Manifest an:
 

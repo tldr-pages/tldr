@@ -1,7 +1,7 @@
 # gyes
 
-> To polecenie jest aliasem `-p linux yes`.
+> To polecenie jest aliasem GNU `yes`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux yes`
+`tldr yes`

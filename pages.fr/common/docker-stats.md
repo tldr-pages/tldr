@@ -17,7 +17,7 @@
 
 - Afficher les statistiques d'utilisation des ressources pour tous les conteneurs (y compris ceux qui ne sont pas en cours d'exécution) :
 
-`docker stats --all`
+`docker stats {{[-a|--all]}}`
 
 - Desactiver le flux en direct des statistiques d'utilisation des ressources et afficher les statistiques une seule fois :
 

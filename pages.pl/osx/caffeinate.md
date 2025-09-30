@@ -11,10 +11,10 @@
 
 `caffeinate -s "{{command}}"`
 
-- Nie usypiaj dopóki nie przerwiesz naciskając `Ctrl - C`:
+- Nie usypiaj dopóki nie przerwiesz naciskając `<Ctrl c>`:
 
 `caffeinate -i`
 
-- Nie usypiaj dysku twardego dopóki nie przerwiesz naciskając `Ctrl + C`:
+- Nie usypiaj dysku twardego dopóki nie przerwiesz naciskając `<Ctrl c>`:
 
 `caffeinate -m`

@@ -1,7 +1,7 @@
 # gjoin
 
-> 這是 `-p linux join` 命令的一個別名。
+> 這是 `join` 命令的一個別名。
 
 - 原命令的文件在：
 
-`tldr -p linux join`
+`tldr join`

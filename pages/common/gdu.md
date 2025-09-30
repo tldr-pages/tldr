@@ -19,7 +19,7 @@
 
 `gdu --ignore-dirs {{path/to/directory1,path/to/directory2,...}}`
 
-- Ignore paths by regular expression:
+- Ignore paths by `regex`:
 
 `gdu --ignore-dirs-pattern '{{.*[abc]+}}'`
 

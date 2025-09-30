@@ -1,7 +1,7 @@
 # crontab
 
 > Plan cron jobs zodat deze volgens een tijdsinterval voor de huidige gebruiker worden uitgevoerd.
-> Meer informatie: <https://crontab.guru/>.
+> Meer informatie: <https://manned.org/crontab>.
 
 - Pas het crontab bestand aan voor de huidige gebruiker:
 
@@ -33,4 +33,4 @@
 
 - Voorbeeld crontab entry, welke iedere vrijdag om 02:30 een specifiek script draait:
 
-`30 2 * * Fri {{/absoluut/pad/naar/script.sh}}`
+`30 2 * * Fri /{{pad/naar/script.sh}}`

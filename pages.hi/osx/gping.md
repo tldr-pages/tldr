@@ -1,7 +1,7 @@
 # gping
 
-> यह आदेश `-p linux ping` का उपनाम है।
+> यह आदेश `ping` का उपनाम है।
 
 - मूल आदेश के लिए दस्तावेज़ देखें:
 
-`tldr -p linux ping`
+`tldr {{[-p|--platform]}} common ping`

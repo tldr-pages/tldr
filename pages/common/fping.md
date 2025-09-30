@@ -9,12 +9,12 @@
 
 - List alive hosts within a subnet generated from a netmask:
 
-`fping {{-a|--alive}} {{-g|--generate}} {{192.168.1.0/24}}`
+`fping {{[-a|--alive]}} {{[-g|--generate]}} {{192.168.1.0/24}}`
 
 - List alive hosts within a subnet generated from an IP range and prune per-probe results:
 
-`fping {{-q|--quiet}} {{-a|--alive}} {{-g|--generate}} {{192.168.1.1}} {{192.168.1.254}}`
+`fping {{[-q|--quiet]}} {{[-a|--alive]}} {{[-g|--generate]}} {{192.168.1.1}} {{192.168.1.254}}`
 
 - List unreachable hosts within a subnet generated from a netmask:
 
-`fping {{-u|--unreach}} {{-g|--generate}} {{192.168.1.0/24}}`
+`fping {{[-u|--unreach]}} {{[-g|--generate]}} {{192.168.1.0/24}}`

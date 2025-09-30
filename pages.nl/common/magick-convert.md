@@ -20,9 +20,9 @@
 
 `magick convert {{pad/naar/invoer_afbeelding.png}} -define jpeg:extent=512kb {{pad/naar/uitvoer_afbeelding.jpg}}`
 
-- Verticaal/horizontaal toevoegen van afbeeldingen:
+- Verticaal/horizontaal toevoegen van afbeeldingen en maak de lege ruimte transparant:
 
-`magick convert {{pad/naar/afbeelding1.png pad/naar/afbeelding2.png ...}} {{-append|+append}} {{pad/naar/uitvoer_afbeelding.png}}`
+`magick convert -background none {{pad/naar/afbeelding1.png pad/naar/afbeelding2.png ...}} {{-append|+append}} {{pad/naar/uitvoer_afbeelding.png}}`
 
 - Maak een GIF van een series van afbeeldingen met 100ms pauze ertusen:
 

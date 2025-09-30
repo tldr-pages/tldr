@@ -21,4 +21,4 @@
 
 - Extrae el último volcado de memoria a un fichero:
 
-`coredumpctl --output={{ruta/al/archivo}} dump {{programa}}`
+`coredumpctl --output {{ruta/al/archivo}} dump {{programa}}`

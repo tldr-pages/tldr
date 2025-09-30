@@ -9,7 +9,7 @@
 
 - Describe the contents of the specified GEM image:
 
-`gemtopnm -d {{path/to/file.img}}`
+`gemtopnm {{[-d|-debug]}} {{path/to/file.img}}`
 
 - Display version:
 

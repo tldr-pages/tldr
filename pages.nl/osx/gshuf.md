@@ -1,7 +1,7 @@
 # gshuf
 
-> Dit commando is een alias van `-p linux shuf`.
+> Dit commando is een alias van GNU `shuf`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux shuf`
+`tldr {{[-p|--platform]}} coomon shuf`

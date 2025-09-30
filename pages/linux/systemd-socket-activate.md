@@ -1,7 +1,7 @@
 # systemd-socket-activate
 
 > Socket activation for systemd services.
-> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemd-socket-activate.html>.
+> More information: <https://www.freedesktop.org/software/systemd/man/systemd-socket-activate.html>.
 
 - Activate a service when a specific socket is connected:
 
@@ -21,4 +21,4 @@
 
 - Activate a service with a specified port:
 
-`systemd-socket-activate {{path/to/socket.service}} -l {{8080}}`
+`systemd-socket-activate {{path/to/socket.service}} {{[-l|--listen]}} {{8080}}`

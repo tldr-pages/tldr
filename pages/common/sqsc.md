@@ -1,6 +1,6 @@
 # sqsc
 
-> A command-line AWS Simple Queue Service client.
+> An AWS Simple Queue Service client.
 > More information: <https://github.com/yongfei25/sqsc>.
 
 - List all queues:

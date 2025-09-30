@@ -1,20 +1,20 @@
 # rtmpdump
 
 > Dump media content streamed over the RTMP protocol.
-> More information: <https://rtmpdump.mplayerhq.hu/>.
+> More information: <https://rtmpdump.mplayerhq.hu/rtmpdump.1.html>.
 
 - Download a file:
 
-`rtmpdump --rtmp {{rtmp://example.com/path/to/video}} -o {{file.ext}}`
+`rtmpdump {{[-r|--rtmp]}} {{rtmp://example.com/path/to/video}} {{[-o|--flv]}} {{file.ext}}`
 
 - Download a file from a Flash player:
 
-`rtmpdump --rtmp {{rtmp://example.com/path/to/video}} --swfVfy {{http://example.com/player}} --flashVer "{{LNX 10,0,32,18}}" -o {{file.ext}}`
+`rtmpdump {{[-r|--rtmp]}} {{rtmp://example.com/path/to/video}} {{[-W|--swfVfy]}} {{http://example.com/player}} {{[-f|--flashVer]}} "{{LNX 10,0,32,18}}" {{[-o|--flv]}} {{file.ext}}`
 
 - Specify connection parameters if they are not detected correctly:
 
-`rtmpdump --rtmp {{rtmp://example.com/path/to/video}} --app {{app_name}} --playpath {{path/to/video}} -o {{file.ext}}`
+`rtmpdump {{[-r|--rtmp]}} {{rtmp://example.com/path/to/video}} {{[-a|--app]}} {{app_name}} {{[-y|--playpath]}} {{path/to/video}} {{[-o|--flv]}} {{file.ext}}`
 
 - Download a file from a server that requires a referrer:
 
-`rtmpdump --rtmp {{rtmp://example.com/path/to/video}} --pageUrl {{http://example.com/webpage}} -o {{file.ext}}`
+`rtmpdump {{[-r|--rtmp]}} {{rtmp://example.com/path/to/video}} {{[-p|--pageUrl]}} {{http://example.com/webpage}} {{[-o|--flv]}} {{file.ext}}`

@@ -1,7 +1,7 @@
 # gtsort
 
-> To polecenie jest aliasem `-p linux tsort`.
+> To polecenie jest aliasem GNU `tsort`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux tsort`
+`tldr tsort`

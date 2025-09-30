@@ -1,38 +1,38 @@
 # dnsx
 
 > A fast and multi-purpose DNS toolkit to run multiple DNS queries.
-> Note: input to `dnsx` needs to be passed through `stdin` (pipe `|`) in some cases.
+> Note: Input to `dnsx` needs to be passed through `stdin` (pipe `|`) in some cases.
 > See also: `dig`, `dog`, `dnstracer`.
-> More information: <https://github.com/projectdiscovery/dnsx>.
+> More information: <https://docs.projectdiscovery.io/tools/dnsx/running>.
 
 - Query the A record of a (sub)domain and show [re]sponse received:
 
-`echo {{example.com}} | dnsx -a -re`
+`echo {{example.com}} | dnsx -a {{[-re|-resp]}}`
 
 - Query all the DNS records (A, AAAA, CNAME, NS, TXT, SRV, PTR, MX, SOA, AXFR, CAA):
 
-`dnsx -recon -re <<< {{example.com}}`
+`dnsx -recon {{[-re|-resp]}} <<< {{example.com}}`
 
 - Query a specific type of DNS record:
 
-`echo {{example.com}} | dnsx -re -{{a|aaaa|cname|ns|txt|srv|ptr|mx|soa|any|axfr|caa}}`
+`echo {{example.com}} | dnsx {{[-re|-resp]}} -{{a|aaaa|cname|ns|txt|srv|ptr|mx|soa|any|axfr|caa}}`
 
-- Output [r]esponse [o]nly (do not show the queried domain or subdomain):
+- Output response only (do not show the queried domain or subdomain):
 
-`echo {{example.com}} | dnsx -ro`
+`echo {{example.com}} | dnsx {{[-ro|-resp-only]}}`
 
-- Display raw response of a query, specifying [r]esolvers to use and retry attempts for failures:
+- Display raw response of a query, specifying resolvers to use and retry attempts for failures:
 
-`echo {{example.com}} | dnsx -{{debug|raw}} -resolver {{1.1.1.1,8.8.8.8,...}} -retry {{number}}`
+`echo {{example.com}} | dnsx -{{debug|raw}} {{[-r|-resolver]}} {{1.1.1.1,8.8.8.8,...}} -retry {{number}}`
 
 - Brute force DNS records using a placeholder:
 
-`dnsx -domain {{FUZZ.example.com}} -wordlist {{path/to/wordlist.txt}} -re`
+`dnsx {{[-d|-domain]}} {{FUZZ.example.com}} {{[-w|-wordlist]}} {{path/to/wordlist.txt}} {{[-re|-resp]}}`
 
-- Brute force DNS records from a list of [d]omains and wordlists, appending [o]utput to a file with [n]o [c]olor codes:
+- Brute force DNS records from a list of domains and wordlists, appending output to a file with no color codes:
 
-`dnsx -domain {{path/to/domain.txt}} -wordlist {{path/to/wordlist.txt}} -re -output {{path/to/output.txt}} -no-color`
+`dnsx {{[-d|-domain]}} {{path/to/domain.txt}} {{[-w|-wordlist]}} {{path/to/wordlist.txt}} {{[-re|-resp]}} {{[-o|-output]}} {{path/to/output.txt}} {{[-nc|-no-color]}}`
 
-- Extract `CNAME` records for the given list of subdomains, with [r]ate [l]imiting DNS queries per second:
+- Extract `CNAME` records for the given list of subdomains, with rate limiting DNS queries per second:
 
-`subfinder -silent -d {{example.com}} | dnsx -cname -re -rl {{number}}`
+`subfinder -silent {{[-d|-domain]}} {{example.com}} | dnsx -cname {{[-re|-resp]}} {{[-rl|-rate-limit]}} {{number}}`

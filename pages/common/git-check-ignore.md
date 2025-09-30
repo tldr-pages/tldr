@@ -21,4 +21,4 @@
 
 - Include details about the matching pattern for each path:
 
-`git check-ignore --verbose {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
+`git check-ignore {{[-v|--verbose]}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`

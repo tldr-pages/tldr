@@ -1,7 +1,7 @@
 # gchcon
 
-> To polecenie jest aliasem `-p linux chcon`.
+> To polecenie jest aliasem GNU `chcon`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux chcon`
+`tldr {{[-p|--platform]}} linux chcon`

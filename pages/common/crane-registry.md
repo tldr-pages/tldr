@@ -14,12 +14,12 @@
 
 - Path to a directory where blobs will be stored:
 
-`crane registry serve --disk {{path/to/store_dir}}`
+`crane registry serve --disk {{path/to/store_directory}}`
 
-- Display help:
+- Display help for `crane registry`:
 
-`crane registry {{-h|--help}}`
+`crane registry {{[-h|--help]}}`
 
-- Display help:
+- Display help for `crane registry serve`:
 
-`crane registry serve {{-h|--help}}`
+`crane registry serve {{[-h|--help]}}`

@@ -13,11 +13,11 @@
 
 - Get logs for any streams in the specified group between 1 and 2 hours ago:
 
-`awslogs get {{/var/log/syslog}} --start='{{2h ago}}' --end='{{1h ago}}'`
+`awslogs get {{/var/log/syslog}} {{[-s|--start]}} '{{2h ago}}' {{[-e|--end]}} '{{1h ago}}'`
 
 - Get logs that match a specific CloudWatch Logs Filter pattern:
 
-`awslogs get {{/aws/lambda/my_lambda_group}} --filter-pattern='{{ERROR}}'`
+`awslogs get {{/aws/lambda/my_lambda_group}} --filter-pattern '{{ERROR}}'`
 
 - Watch logs for any streams in the specified group:
 

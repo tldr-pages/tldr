@@ -1,10 +1,11 @@
 # lid
 
-> Note: This page is currently a redirection stub. If you are familiar with this program, please open a pull request.
-> Query ID database and report results.
-> On Fedora and Arch Linux, the binary name `lid` is taken by another program. See `tldr libuser-lid`.
-> More information: <https://www.gnu.org/software/idutils/>.
+> `lid` can refer to multiple commands with the same name.
 
-- View documentation for `libuser-lid`:
+- View documentation for the `libuser` tool:
 
-`tldr libuser-lid`
+`tldr lid.libuser`
+
+- View documentation for the `idutils` tool:
+
+`tldr lid.idutils`

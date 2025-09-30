@@ -13,7 +13,7 @@
 
 - Toon een lijst inclusief lokale programma's:
 
-`choco list --include-programs`
+`choco list {{[-i|--include-programs]}}`
 
 - Toon alleen goedgekeurde pakketten:
 
@@ -21,7 +21,7 @@
 
 - Geef een aangepaste bron op om pakketten van weer te geven:
 
-`choco list --source {{bron_url|alias}}`
+`choco list {{[-s|--source]}} {{bron_url|alias}}`
 
 - Geef een gebruikersnaam en wachtwoord voor authenticatie op:
 

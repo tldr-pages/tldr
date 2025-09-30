@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux libtoolize`
+`tldr {{[-p|--platform]}} linux libtoolize`

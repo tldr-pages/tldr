@@ -1,7 +1,7 @@
 # vipe
 
 > Run a text editor in the middle of a UNIX pipeline.
-> More information: <https://joeyh.name/code/moreutils/>.
+> More information: <https://manned.org/vipe>.
 
 - Edit the output of `command1` before piping it into `command2`:
 

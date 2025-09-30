@@ -1,8 +1,7 @@
 # mvn
 
-> Apache Maven.
-> 用于构建和管理基于 Java 的项目的工具。
-> 更多信息：<https://maven.apache.org>.
+> Apache Maven：构建和管理基于 Java 的项目。
+> 更多信息：<https://manned.org/mvn>.
 
 - 编译项目：
 
@@ -30,8 +29,8 @@
 
 - 清理然后使用给定的构建配置文件打包代码：
 
-`mvn clean -P {{构建配置}} package`
+`mvn clean -P {{构建配置文件}} package`
 
 - 使用 main 方法运行一个类：
 
-`mvn exec:java -Dexec.mainClass="{{com.example.Main}}" -Dexec.args="{{参数1 参数2}}"`
+`mvn exec:java -Dexec.mainClass="{{com.example.Main}}" -Dexec.args="{{参数1 参数2 ...}}"`

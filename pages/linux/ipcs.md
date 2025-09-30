@@ -12,26 +12,26 @@
 
 `ipcs {{--shmems|--queues|--semaphores}}`
 
-- Show full details on the resource with a specific [i]D:
+- Show full details on the resource with a specific ID:
 
-`ipcs {{--shmems|--queues|--semaphores}} --id {{resource_id}}`
+`ipcs {{--shmems|--queues|--semaphores}} {{[-i|--id]}} {{resource_id}}`
 
-- Show [l]imits in [b]ytes or in a human-readable format:
+- Show limits in [b]ytes or in a human-readable format:
 
-`ipcs --limits {{--bytes|--human}}`
+`ipcs {{[-l|--limits]}} {{--bytes|--human}}`
 
-- Show s[u]mmary about current usage:
+- Show summary about current usage:
 
-`ipcs --summary`
+`ipcs {{[-u|--summary]}}`
 
-- Show [c]reator's and owner's UIDs and PIDs for all IPC facilities:
+- Show creator's and owner's UIDs and PIDs for all IPC facilities:
 
-`ipcs --creator`
+`ipcs {{[-c|--creator]}}`
 
-- Show the [p]ID of the last operators for all IPC facilities:
+- Show the PID of the last operators for all IPC facilities:
 
-`ipcs --pid`
+`ipcs {{[-p|--pid]}}`
 
-- Show last access [t]imes for all IPC facilities:
+- Show last access times for all IPC facilities:
 
-`ipcs --time`
+`ipcs {{[-t|--time]}}`

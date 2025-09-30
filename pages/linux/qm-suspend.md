@@ -6,12 +6,12 @@
 
 - Suspend a virtual machine by ID:
 
-`qm suspend {{vm_id}} {{integer}}`
+`qm {{[su|suspend]}} {{vm_id}} {{integer}}`
 
 - Skip the lock check when suspending the VM:
 
-`qm suspend {{vm_id}} {{integer}} --skiplock`
+`qm {{[su|suspend]}} {{vm_id}} {{integer}} --skiplock`
 
 - Skip the lock check for storage when suspending the VM:
 
-`qm suspend {{vm_id}} {{integer}} --skiplockstorage`
+`qm {{[su|suspend]}} {{vm_id}} {{integer}} --skiplockstorage`

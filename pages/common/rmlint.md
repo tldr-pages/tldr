@@ -7,30 +7,30 @@
 
 `rmlint {{path/to/directory1 path/to/directory2 ...}}`
 
-- Check for space wasters, preferably keeping files in tagged directories (after the double slash):
+- Check for duplicates bigger than a specific size, preferably keeping files in tagged directories (after the double slash):
 
-`rmlint {{path/to/directory}} // {{path/to/original_directory}}`
+`rmlint {{[-s|--size]}} {{1MB}} {{path/to/directory}} // {{path/to/original_directory}}`
 
 - Check for space wasters, keeping everything in the untagged directories:
 
-`rmlint --keep-all-untagged {{path/to/directory}} // {{path/to/original_directory}}`
+`rmlint {{[-k|--keep-all-untagged]}} {{path/to/directory}} // {{path/to/original_directory}}`
 
 - Delete duplicate files found by an execution of `rmlint`:
 
 `./rmlint.sh`
 
-- Find duplicate directory trees:
+- Find duplicate directory trees based on data, ignoring names:
 
-`rmlint --merge-directories {{path/to/directory}}`
+`rmlint {{[-D|--merge-directories]}} {{path/to/directory}}`
 
 - Mark files at lower path [d]epth as originals, on tie choose shorter [l]ength:
 
-`rmlint --rank-by={{dl}} {{path/to/directory}}`
+`rmlint {{[-S|--rank-by]}} {{dl}} {{path/to/directory}}`
 
-- Find only duplicates that have the same filename in addition to the same contents:
+- Find files with identical filename and contents, and link rather than delete the duplicates:
 
-`rmlint --match-basename {{path/to/directory}}`
+`rmlint {{[-c|--config]}} sh:link {{[-b|--match-basename]}} {{path/to/directory}}`
 
-- Find only duplicates that have the same extension in addition to the same contents:
+- Use `data` as master directory. Find only duplicates in backup that are also in `data`. Do not delete any files in `data`:
 
-`rmlint --match-extension {{path/to/directory}}`
+`rmlint {{path/to/backup}} // {{path/to/data}} {{[-k|--keep-all-tagged]}} {{[-m|--must-match-tagged]}}`

@@ -1,9 +1,9 @@
 # abduco
 
 > Terminal sessiemanager.
-> Meer informatie: <https://www.brain-dump.org/projects/abduco/>.
+> Meer informatie: <https://manned.org/abduco>.
 
-- Lijst van sessies:
+- Toon alle sessies:
 
 `abduco`
 
@@ -17,7 +17,7 @@
 
 - Loskoppelen van een sessie:
 
-`<Ctrl> + \`
+`<Ctrl \>`
 
 - Voeg toe aan een sessie in alleen-lezen modus:
 

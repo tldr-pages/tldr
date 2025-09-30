@@ -1,7 +1,7 @@
 # darkhttpd
 
 > Darkhttpd 웹 서버.
-> 더 많은 정보: <https://unix4lyfe.org/darkhttpd>.
+> 더 많은 정보: <https://github.com/emikulic/darkhttpd#how-to-run-darkhttpd>.
 
 - 지정된 문서 경로를 제공하는 서버 시작:
 

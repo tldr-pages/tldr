@@ -1,7 +1,7 @@
 # info
 
-> Reads documentation stored in the info format.
-> More information: <https://en.wikipedia.org/wiki/Info_(Unix)>.
+> Read documentation stored in the info format.
+> More information: <https://manned.org/info>.
 
 - Start reading top-level directory menu:
 

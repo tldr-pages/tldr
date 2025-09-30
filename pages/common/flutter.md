@@ -28,6 +28,10 @@
 
 `flutter build apk --target-platform {{android-arm}},{{android-arm64}}`
 
+- Delete the `build` and `.dart_tool` directories:
+
+`flutter clean`
+
 - Display help about a specific command:
 
 `flutter help {{command}}`

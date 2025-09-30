@@ -5,7 +5,7 @@
 
 - Combine labels equal in their high-order bits:
 
-`ipaggmanip --prefix {{16}} {{path/to/file}}`
+`ipaggmanip {{[-p|--prefix]}} {{16}} {{path/to/file}}`
 
 - Remove labels with a count smaller than a given number of bytes and output a random sample of such labels:
 
@@ -13,4 +13,4 @@
 
 - Replace each label's count with 1 if it is non-zero:
 
-`ipaggmanip --posterize {{path/to/file}}`
+`ipaggmanip {{[-P|--posterize]}} {{path/to/file}}`

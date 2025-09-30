@@ -6,11 +6,11 @@
 
 - Set the max number of counts before a filesystem is checked to 2:
 
-`tune2fs -c {{2}} {{/dev/sdXN}}`
+`tune2fs -c 2 {{/dev/sdXN}}`
 
 - Set the filesystem label to MY_LABEL:
 
-`tune2fs -L {{'MY_LABEL'}} {{/dev/sdXN}}`
+`tune2fs -L 'MY_LABEL' {{/dev/sdXN}}`
 
 - Enable discard and user-specified extended attributes for a filesystem:
 
@@ -18,4 +18,4 @@
 
 - Enable journaling for a filesystem:
 
-`tune2fs -o^{{nobarrier}} {{/dev/sdXN}}`
+`tune2fs -o ^{{nobarrier}} {{/dev/sdXN}}`

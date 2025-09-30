@@ -2,7 +2,7 @@
 
 > 지정된 사용자의 커밋을 확인.
 > `git-extras`의 일부.
-> 더 많은 정보: <https://github.com/tj/git-extras/blob/master/Commands.md#git-standup>.
+> 더 많은 정보: <https://manned.org/git-standup>.
 
 - 지정된 작성자의 최근 10일간의 커밋 보기:
 

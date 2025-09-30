@@ -7,7 +7,7 @@
 
 `ROPgadget --binary {{path/to/binary}}`
 
-- Filter gadgets in the binary file by a regular expression:
+- Filter gadgets in the binary file by a `regex`:
 
 `ROPgadget --binary {{path/to/binary}} --re {{regex}}`
 

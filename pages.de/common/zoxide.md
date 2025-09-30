@@ -20,9 +20,9 @@
 
 `zoxide add {{path/to/directory}}`
 
-- Entferne interaktiv ein Verzeichnis aus der Datenbank von `zoxide`:
+- Entferne ein Verzeichnis aus der Datenbank von `zoxide`:
 
-`zoxide remove {{path/to/directory}} --interactive`
+`zoxide remove {{path/to/directory}}`
 
 - Generiere Shell-Konfigurationen für Befehls-Aliase (`z`, `za`, `zi`, `zq`, `zr`) für die angegebene Shell:
 

@@ -1,7 +1,7 @@
 # gbasenc
 
-> Dieser Befehl ist ein Alias von `-p linux basenc`.
+> Dieser Befehl ist ein Alias von `basenc`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 
-`tldr -p linux basenc`
+`tldr basenc`

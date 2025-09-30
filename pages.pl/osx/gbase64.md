@@ -1,7 +1,7 @@
 # gbase64
 
-> To polecenie jest aliasem `-p linux base64`.
+> To polecenie jest aliasem GNU `base64`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux base64`
+`tldr {{[-p|--platform]}} common base64`

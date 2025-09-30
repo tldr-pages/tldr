@@ -18,12 +18,12 @@
 
 - Numérote toutes les lignes affichées :
 
-`bat --number {{fichier}}`
+`bat {{[-n|--number]}} {{fichier}}`
 
 - Affiche le contenu d'un fichier JSON sur la sortie standard avec mise en valeur de la syntaxe :
 
-`bat --language json {{chemin/vers/fichier.json}}`
+`bat {{[-l|--language]}} json {{chemin/vers/fichier.json}}`
 
 - Affiche tous les langages pris en charge :
 
-`bat --list-languages`
+`bat {{[-L|--list-languages]}}`

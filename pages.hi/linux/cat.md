@@ -1,7 +1,7 @@
 # cat
 
 > फ़ाइलों को प्रिंट करता है और जोड़ता है।
-> अधिक जानकारी: <https://www.gnu.org/software/coreutils/cat>।
+> अधिक जानकारी: <https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html>।
 
 - फ़ाइल की सामग्री को मानक (standard) आउटपुट पर प्रिंट करें:
 
@@ -21,8 +21,8 @@
 
 - संख्या ([n]umber) सभी आउटपुट लाइनें:
 
-`cat -n {{फ़ाइल/का/पथ}}`
+`cat {{[-n|--number]}} {{फ़ाइल/का/पथ}}`
 
 - गैर-मुद्रण योग्य और खाली स्थान वाले वर्ण प्रदर्शित करें (`M-` उपसर्ग के साथ यदि गैर-ASCII है):
 
-`cat -v -t -e {{फ़ाइल/का/पथ}}`
+`cat {{[-vte|--show-nonprinting -t -e]}} {{फ़ाइल/का/पथ}}`

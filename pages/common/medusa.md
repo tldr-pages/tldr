@@ -1,7 +1,7 @@
 # medusa
 
 > A modular and parallel login brute-forcer for a variety of protocols.
-> More information: <https://jmk-foofus.github.io/medusa/medusa.html>.
+> More information: <https://manned.org/medusa>.
 
 - List all installed modules:
 

@@ -9,7 +9,7 @@
 
 - Avvia un'unione e cambia il messaggio predefinito:
 
-`git merge --edit {{ramo_da_unire}}`
+`git merge {{[-e|--edit]}} {{ramo_da_unire}}`
 
 - Avvia un'unione e committa l'operazione:
 

@@ -3,30 +3,30 @@
 > Toon netwerkgerelateerde informatie zoals open verbindingen, open socketpoorten, enz.
 > Meer informatie: <https://manned.org/netstat>.
 
-- Lijst alle poorten:
+- Toon alle poorten:
 
-`netstat --all`
+`netstat {{[-a|--all]}}`
 
-- Lijst alle luisterende poorten:
+- Toon alle luisterende poorten:
 
-`netstat --listening`
+`netstat {{-l|--listening]}}`
 
-- Lijst luisterende TCP-poorten:
+- Toon luisterende TCP-poorten:
 
-`netstat --tcp`
+`netstat {{-t|--tcp]}}`
 
 - Toon PID en programmanamen:
 
-`netstat --program`
+`netstat {{[-p|--program]}}`
 
-- Lijst informatie continu:
+- Toon continu informatie:
 
-`netstat --continuous`
+`netstat {{[-c|--continuous]}}`
 
-- Lijst routes en los IP-adressen niet op naar hostnamen:
+- Toon routes en los IP-adressen niet op naar hostnamen:
 
-`netstat --route --numeric`
+`netstat {{[-rn|--route --numeric]}}`
 
-- Lijst luisterende TCP- en UDP-poorten (+ gebruiker en proces als je root bent):
+- Toon luisterende TCP- en UDP-poorten (+ gebruiker en proces als je root bent):
 
-`netstat --listening --program --numeric --tcp --udp --extend`
+`netstat {{[-tulpne|--tcp --udp --listening --program --numeric --extend]}}`

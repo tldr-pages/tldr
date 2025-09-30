@@ -15,7 +15,7 @@
 
 `konsole --new-tab`
 
-- 在后台打开 Konsole 并在按下 Ctrl+Shift+F12（默认）时显示在最前面：
+- 在后台打开 Konsole 并在按下 `<Ctrl Shift F12>`（默认）时显示在最前面：
 
 `konsole --background-mode`
 

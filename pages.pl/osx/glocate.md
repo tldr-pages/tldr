@@ -1,7 +1,7 @@
 # glocate
 
-> To polecenie jest aliasem `-p linux locate`.
+> To polecenie jest aliasem GNU `locate`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux locate`
+`tldr {{[-p|--platform]}} linux locate`

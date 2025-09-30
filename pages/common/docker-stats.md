@@ -17,7 +17,7 @@
 
 - Display statistics for all containers (both running and stopped):
 
-`docker stats --all`
+`docker stats {{[-a|--all]}}`
 
 - Disable streaming stats and only pull the current stats:
 

@@ -1,7 +1,7 @@
 # mkfifo
 
 > Make FIFOs (named pipes).
-> More information: <https://www.gnu.org/software/coreutils/mkfifo>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/mkfifo-invocation.html>.
 
 - Create a named pipe at a given path:
 
@@ -9,7 +9,7 @@
 
 - Send data through a named pipe and send the command to the background:
 
-`echo {{"Hello World"}} > {{path/to/pipe}} &`
+`echo "{{Hello World}}" > {{path/to/pipe}} &`
 
 - Receive data through a named pipe:
 
@@ -17,4 +17,4 @@
 
 - Share your terminal session in real-time:
 
-`mkfifo {{path/to/pipe}}; script -f {{path/to/pipe}}`
+`mkfifo {{path/to/pipe}}; script {{[-f|--flush]}} {{path/to/pipe}}`

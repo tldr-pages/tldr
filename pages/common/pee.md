@@ -2,7 +2,7 @@
 
 > Tee `stdin` to pipes.
 > See also: `tee`.
-> More information: <https://joeyh.name/code/moreutils/>.
+> More information: <https://manned.org/pee>.
 
 - Run each command, providing each one with a distinct copy of `stdin`:
 

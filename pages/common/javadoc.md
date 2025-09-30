@@ -5,7 +5,7 @@
 
 - Generate documentation for Java source code and save the result in a directory:
 
-`javadoc -d {{path/to/directory/}} {{path/to/java_source_code}}`
+`javadoc -d {{path/to/directory}}/ {{path/to/java_source_code}}`
 
 - Generate documentation with a specific encoding:
 

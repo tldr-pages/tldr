@@ -10,8 +10,16 @@
 
 - Check a partition for bad blocks before creating the swap area:
 
-`sudo mkswap -c {{path/to/file}}`
+`sudo mkswap {{[-c|--check]}} {{path/to/file}}`
 
 - Specify a label for the partition (to allow `swapon` to use the label):
 
-`sudo mkswap -L {{label}} {{/dev/sda1}}`
+`sudo mkswap {{[-L|--label]}} {{label}} {{/dev/sdXY}}`
+
+- Use the specified UUID:
+
+`sudo mkswap {{[-U|--uuid]}} {{clear|random|time|UUID_value}}`
+
+- Set up a swap file (for btrfs, see `tldr btrfs filesystem` instead):
+
+`sudo mkswap {{[-s|--size]}} {{file_size}} {{[-F|--file]}} {{path/to/swapfile}}`

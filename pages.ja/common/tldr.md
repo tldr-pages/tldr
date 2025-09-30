@@ -1,7 +1,7 @@
 # tldr
 
 > コマンドの簡単なマニュアル。
-> 詳しくはこちら: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>
+> もっと詳しく: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>。
 
 - コマンドのよくある使用例を見られます (ヒント: このページにたどり着いた方法です！):
 
@@ -9,7 +9,7 @@
 
 - tarのlinux向けtldrページを見る:
 
-`tldr -p {{linux}} {{tar}}`
+`tldr {{[-p|--platform]}} {{linux}} {{tar}}`
 
 - gitのサブコマンドについての情報を見る:
 

@@ -6,11 +6,11 @@
 
 - Liste les entrées de configurations locales (stockées dans `.git/config` du répertoire courant) :
 
-`git config --list --local`
+`git config {{[-l|--list]}} --local`
 
 - Liste les entrées de configuration globales (stockées dans `~/.gitconfig`) :
 
-`git config --list --global`
+`git config {{[-l|--list]}} --global`
 
 - Récupère la valeur d'une entrée de configuration :
 
@@ -26,8 +26,8 @@
 
 - Édite le fichier de configuration du référentiel courant dans l'éditeur par défaut :
 
-`git config --edit`
+`git config {{[-e|--edit]}}`
 
 - Édite le fichier de configuration globale dans l'éditeur par défaut :
 
-`git config --global --edit`
+`git config --global {{[-e|--edit]}}`

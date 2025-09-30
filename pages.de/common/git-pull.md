@@ -9,7 +9,7 @@
 
 - Lade Änderungen vom Standard-Repository herunter und wende einen Rebase an:
 
-`git pull --rebase`
+`git pull {{[-r|--rebase]}}`
 
 - Lade Änderungen vom Standard-Repository herunter und führe diese in den HEAD zusammen:
 

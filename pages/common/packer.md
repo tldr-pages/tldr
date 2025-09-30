@@ -1,7 +1,7 @@
 # packer
 
 > Build automated machine images.
-> More information: <https://www.packer.io/>.
+> More information: <https://developer.hashicorp.com/packer/docs/commands>.
 
 - Build an image:
 

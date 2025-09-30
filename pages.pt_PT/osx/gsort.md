@@ -1,7 +1,7 @@
 # gsort
 
-> Este comando é um alias de `-p linux sort`.
+> Este comando é um alias de `sort`.
 
-- Exibe documentação do comando original:
+- Ver documentação do comando original:
 
-`tldr -p linux sort`
+`tldr sort`

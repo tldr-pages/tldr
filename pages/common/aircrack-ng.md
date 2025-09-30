@@ -8,6 +8,10 @@
 
 `aircrack-ng -w {{path/to/wordlist.txt}} {{path/to/capture.cap}}`
 
+- Crack key using multiple CPU threads from capture file using [w]ordlist:
+
+`aircrack-ng -p {{number}} -w {{path/to/wordlist.txt}} {{path/to/capture.cap}}`
+
 - Crack key from capture file using [w]ordlist and the access point's [e]ssid:
 
 `aircrack-ng -w {{path/to/wordlist.txt}} -e {{essid}} {{path/to/capture.cap}}`

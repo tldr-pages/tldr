@@ -1,7 +1,7 @@
 # gtalk
 
-> To polecenie jest aliasem `-p linux talk`.
+> To polecenie jest aliasem GNU `talk`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux talk`
+`tldr {{[-p|--platform]}} linux talk`

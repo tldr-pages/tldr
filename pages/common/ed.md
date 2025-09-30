@@ -10,19 +10,19 @@
 
 - Start an interactive editor session with an empty document and a specific prompt:
 
-`ed --prompt='> '`
+`ed {{[-p|--prompt]}} '{{> }}'`
 
 - Start an interactive editor session with user-friendly errors:
 
-`ed --verbose`
+`ed {{[-v|--verbose]}}`
 
 - Start an interactive editor session with an empty document and without diagnostics, byte counts and '!' prompt:
 
-`ed --quiet`
+`ed {{[-q|--quiet]}} {{[-s|--script]}}`
 
 - Start an interactive editor session without exit status change when command fails:
 
-`ed --loose-exit-status`
+`ed {{[-l|--loose-exit-status]}}`
 
 - Edit a specific file (this shows the byte count of the loaded file):
 
@@ -30,4 +30,8 @@
 
 - Replace a string with a specific replacement for all lines:
 
-`,s/{{regular_expression}}/{{replacement}}/g`
+`,s/{{regex}}/{{replacement}}/g<Enter>`
+
+- Exit `ed`:
+
+`q<Enter>`

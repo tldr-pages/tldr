@@ -17,4 +17,4 @@
 
 - 도움말 표시:
 
-`crane push {{-h|--help}}`
+`crane push {{[-h|--help]}}`

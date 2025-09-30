@@ -15,7 +15,7 @@
 
 `ipcs -b`
 
-- Show [c]reator’s user name and group name for all IPC facilities:
+- Show [c]reator's user name and group name for all IPC facilities:
 
 `ipcs -c`
 

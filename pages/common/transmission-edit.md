@@ -4,10 +4,14 @@
 > See also: `transmission`.
 > More information: <https://manned.org/transmission-edit>.
 
-- Add or remove a URL from a torrent's announce list:
+- Add a URL to a torrent's announce list:
 
-`transmission-edit --{{add|delete}} {{http://example.com}} {{path/to/file.torrent}}`
+`transmission-edit {{[-a|--add]}} {{http://example.com}} {{path/to/file.torrent}}`
+
+- Remove a URL from a torrent's announce list:
+
+`transmission-edit {{[-d|--delete]}} {{http://example.com}} {{path/to/file.torrent}}`
 
 - Update a tracker's passcode in a torrent file:
 
-`transmission-edit --replace {{old-passcode}} {{new-passcode}} {{path/to/file.torrent}}`
+`transmission-edit {{[-r|--replace]}} {{old-passcode}} {{new-passcode}} {{path/to/file.torrent}}`

@@ -4,6 +4,6 @@
 > No debe invocarse manualmente.
 > Más información: <https://keith.github.io/xcode-man-pages/biomesyncd.8.html>.
 
-- Inicia el daemon:
+- Inicia el proceso residente:
 
 `biomesyncd`

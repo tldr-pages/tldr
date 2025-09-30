@@ -6,12 +6,12 @@
 
 - Betreed een Distrobox container:
 
-`distrobox-enter {{container_name}}`
+`distrobox-enter {{container_naam}}`
 
 - Betreed een Distrobox container en voer een commando uit bij het inloggen:
 
-`distrobox-enter {{container_name}} -- {{sh -l}}`
+`distrobox-enter {{container_naam}} -- {{sh -l}}`
 
 - Betreed een Distrobox container zonder een tty the instanteren:
 
-`distrobox-enter --name {{container_name}} -- {{uptime -p}}`
+`distrobox-enter {{[-n|--name]}} {{container_naam}} -- {{uptime --pretty}}`

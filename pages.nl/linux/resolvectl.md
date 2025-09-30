@@ -26,7 +26,7 @@
 
 - Verkrijg een MX record van een domein:
 
-`resolvectl --legend={{no}} --type={{MX}} query {{domein}}`
+`resolvectl --legend {{no}} {{[-t|--type]}} {{MX}} query {{domein}}`
 
 - Resolve een SRV record, bijvoorbeeld _xmpp-server._tcp gmail.com:
 

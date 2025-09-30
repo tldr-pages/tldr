@@ -9,28 +9,28 @@
 
 - Tüm (durmuş veya çalışan) Docker konteynerlerini listele:
 
-`docker ps --all`
+`docker ps {{[-a|--all]}}`
 
 - En son oluşturulan (durmuş veya çalışan) konteynerleri listele:
 
-`docker ps --latest`
+`docker ps {{[-l|--latest]}}`
 
 - İsimlerinde belirtilen dizeleri içeren konteynerleri filtrele:
 
-`docker ps --filter="name={{isim}}"`
+`docker ps {{[-f|--filter]}} "name={{isim}}"`
 
 - Belirtilen imge ile akrabalık taşıyan konteynerleri filtrele:
 
-`docker ps --filter "ancestor={{imge}}:{{tag}}"`
+`docker ps {{[-f|--filter]}} "ancestor={{imge}}:{{tag}}"`
 
 - Konteynerleri çıkış durum koduna göre filtrele:
 
-`docker ps --all --filter="exited={{kod}}"`
+`docker ps {{[-a|--all]}} {{[-f|--filter]}} "exited={{kod}}"`
 
 - Konteynerleri mevcut durumlarına (oluşturulma, çalışma, silinme, durma, çıkma ve ölme) göre sırala:
 
-`docker ps --filter "status={{mevcut_durum}}"`
+`docker ps {{[-f|--filter]}} "status={{mevcut_durum}}"`
 
 - Belirtilmiş bir hacmi gömen veya belirtilmiş bir yola gömülmüş hacmi içeren konteynerleri filtrele:
 
-`docker ps --filter "volume={{örnek/dizin}}" --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Mounts}}"`
+`docker ps {{[-f|--filter]}} "volume={{örnek/dizin}}" --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Mounts}}"`

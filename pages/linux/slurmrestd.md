@@ -5,7 +5,7 @@
 
 - Change the group ID (and drop supplemental groups) before processing client requests:
 
-`slurmrestd --g {{group_id}} {{[host]:port | unix:/path/to/socket}}`
+`slurmrestd -g {{group_id}} {{[host]:port | unix:/path/to/socket}}`
 
 - Comma-delimited list of authentication plugins to load:
 

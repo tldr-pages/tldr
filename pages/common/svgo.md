@@ -10,23 +10,23 @@
 
 - Optimize a file and save the result to another file:
 
-`svgo {{test.svg}} -o {{test.min.svg}}`
+`svgo {{test.svg}} {{[-o|--output]}} {{test.min.svg}}`
 
 - Optimize all SVG files within a directory (overwrites the original files):
 
-`svgo -f {{path/to/directory/with/svg/files}}`
+`svgo {{[-f|--folder]}} {{path/to/directory/with/svg/files}}`
 
 - Optimize all SVG files within a directory and save the resulting files to another directory:
 
-`svgo -f {{path/to/input/directory}} -o {{path/to/output/directory}}`
+`svgo {{[-f|--folder]}} {{path/to/input/directory}} {{[-o|--output]}} {{path/to/output/directory}}`
 
 - Optimize SVG content passed from another command, and save the result to a file:
 
-`{{cat test.svg}} | svgo -i - -o {{test.min.svg}}`
+`{{cat test.svg}} | svgo {{[-i|--input]}} - {{[-o|--output]}} {{test.min.svg}}`
 
 - Optimize a file and print out the result:
 
-`svgo {{test.svg}} -o -`
+`svgo {{test.svg}} {{[-o|--output]}} -`
 
 - Show available plugins:
 

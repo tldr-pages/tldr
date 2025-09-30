@@ -7,18 +7,22 @@
 
 `msfconsole`
 
-- Launch the console [q]uietly without any banner:
+- Launch the console quietly without any banner:
 
-`msfconsole --quiet`
+`msfconsole {{[-q|--quiet]}}`
 
-- Do [n]ot enable database support:
+- Do not enable database support:
 
-`msfconsole --no-database`
+`msfconsole {{[-n|--no-database]}}`
 
-- E[x]ecute console commands (Note: use `;` for passing multiple commands):
+- Execute console commands (Note: Use `;` for passing multiple commands):
 
-`msfconsole --execute-command "{{use auxiliary/server/capture/ftp; set SRVHOST 0.0.0.0; set SRVPORT 21; run}}"`
+`msfconsole {{[-x|--execute-command]}} "{{use auxiliary/server/capture/ftp; set SRVHOST 0.0.0.0; set SRVPORT 21; run}}"`
 
-- Display [v]ersion:
+- Display help:
 
-`msfconsole --version`
+`msfconsole {{[-h|--help]}}`
+
+- Display version:
+
+`msfconsole {{[-v|--version]}}`

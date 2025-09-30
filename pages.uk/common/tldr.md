@@ -9,7 +9,7 @@
 
 - Показує tldr сторінку для команди `cd` на вказаній платформі:
 
-`tldr -p {{android|linux|osx|sunos|windows}} {{cd}}`
+`tldr {{[-p|--platform]}} {{android|linux|osx|sunos|windows}} {{cd}}`
 
 - Показує tldr сторінку для підкоманди Git `git checkout`:
 
@@ -17,4 +17,4 @@
 
 - Оновлює локальні tldr сторінки (якщо клієнт підтримує кешування):
 
-`tldr -u`
+`tldr {{[-u|--update]}}`

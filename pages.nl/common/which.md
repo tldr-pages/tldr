@@ -9,4 +9,4 @@
 
 - Als er meerdere uitvoerbare bestanden zijn die overeenkomen, toon ze allemaal:
 
-`which -a {{uitvoerbaar_bestand}}`
+`which {{[-a|--all]}} {{uitvoerbaar_bestand}}`

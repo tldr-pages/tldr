@@ -1,7 +1,7 @@
 # gchroot
 
-> Bu komut `-p linux chroot` için bir takma addır.
+> Bu komut `chroot` için bir takma addır.
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux chroot`
+`tldr chroot`

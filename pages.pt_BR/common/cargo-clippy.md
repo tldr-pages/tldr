@@ -19,6 +19,10 @@
 
 `cargo clippy --package {{pacote}}`
 
+- Executa verificações para um grupo de validadores (veja <https://rust-lang.github.io/rust-clippy/stable/index.html#?groups=cargo,complexity,correctness,deprecated,nursery,pedantic,perf,restriction,style,suspicious>):
+
+`cargo clippy -- --warn clippy::{{grupo_de_validadores}}`
+
 - Executa validações tratando avisos como erros:
 
 `cargo clippy -- --deny warnings`

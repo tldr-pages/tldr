@@ -5,20 +5,20 @@
 
 - Crea un nuevo usuario con un directorio home predeterminado y solicita al usuario que establezca una contraseña:
 
-`adduser {{nombre_de_usuario}}`
+`adduser {{usuario}}`
 
 - Crea un nuevo usuario sin un directorio home:
 
-`adduser --no-create-home {{nombre_de_usuario}}`
+`adduser --no-create-home {{usuario}}`
 
 - Crea un nuevo usuario con un directorio home en la ruta especificada:
 
-`adduser --home {{ruta/a/home}} {{nombre_de_usuario}}`
+`adduser --home {{ruta/a/home}} {{usuario}}`
 
 - Crea un nuevo usuario con el intérprete de comandos especificado establecido como intérprete de comandos de inicio de sesión:
 
-`adduser --shell {{ruta/a/shell}} {{nombre_de_usuario}}`
+`adduser --shell {{ruta/a/shell}} {{usuario}}`
 
 - Crea un nuevo usuario que pertenezca al grupo especificado:
 
-`adduser --ingroup {{group}} {{nombre_de_usuario}}`
+`adduser --ingroup {{group}} {{usuario}}`

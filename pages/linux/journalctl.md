@@ -3,21 +3,21 @@
 > Query the systemd journal.
 > More information: <https://manned.org/journalctl>.
 
-- Show all messages with priority level 3 (errors) from this [b]oot:
+- Show all messages with priority level 3 (errors) from this boot:
 
-`journalctl -b --priority=3`
+`journalctl {{[-b|--boot]}} {{[-p|--priority]}} 3`
 
 - Delete journal logs which are older than 2 days:
 
-`journalctl --vacuum-time=2d`
+`journalctl --vacuum-time 2d`
 
-- Show only the last N li[n]es and [f]ollow new messages (like `tail -f` for traditional syslog):
+- Show only the last `n` lines and follow new messages (like `tail -f` for traditional syslog):
 
-`journalctl --lines {{N}} --follow`
+`journalctl {{[-n|--lines]}} {{n}} {{[-f|--follow]}}`
 
-- Show all messages by a specific [u]nit:
+- Show all messages by a specific unit:
 
-`journalctl --unit {{unit}}`
+`journalctl {{[-u|--unit]}} {{unit}}`
 
 - Show logs for a given unit since the last time it started:
 
@@ -25,7 +25,7 @@
 
 - Filter messages within a time range (either timestamp or placeholders like "yesterday"):
 
-`journalctl --since {{now|today|yesterday|tomorrow}} --until "{{YYYY-MM-DD HH:MM:SS}}"`
+`journalctl {{[-S|--since]}} {{now|today|yesterday|tomorrow}} {{[-U|--until]}} "{{YYYY-MM-DD HH:MM:SS}}"`
 
 - Show all messages by a specific process:
 

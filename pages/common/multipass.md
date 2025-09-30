@@ -1,7 +1,7 @@
 # multipass
 
 > Manage Ubuntu virtual machines using native hypervisors.
-> More information: <https://multipass.run/>.
+> More information: <https://documentation.ubuntu.com/multipass/en/latest/reference/command-line-interface/#>.
 
 - List the aliases that can be used to launch an instance:
 
@@ -9,7 +9,7 @@
 
 - Launch a new instance, set its name and use a cloud-init configuration file:
 
-`multipass launch -n {{instance_name}} --cloud-init {{configuration_file}}`
+`multipass launch {{[-n|--name]}} {{instance_name}} --cloud-init {{configuration_file}}`
 
 - List all the created instances and some of their properties:
 

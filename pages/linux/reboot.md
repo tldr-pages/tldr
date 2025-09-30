@@ -9,7 +9,7 @@
 
 - Power off the system (same as `poweroff`):
 
-`reboot --poweroff`
+`reboot {{[-p|--poweroff]}}`
 
 - Halt (terminates all processes and shuts down the CPU) the system (same as `halt`):
 
@@ -17,8 +17,8 @@
 
 - Reboot immediately without contacting the system manager:
 
-`reboot --force`
+`reboot {{[-f|--force]}}`
 
 - Write the wtmp shutdown entry without rebooting the system:
 
-`reboot --wtmp-only`
+`reboot {{[-w|--wtmp-only]}}`

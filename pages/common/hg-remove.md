@@ -1,7 +1,7 @@
 # hg remove
 
 > Remove specified files from the staging area.
-> More information: <https://www.mercurial-scm.org/doc/hg.1.html#remove>.
+> More information: <https://www.mercurial-scm.org/help/commands/remove>.
 
 - Remove files or directories from the staging area:
 
@@ -9,16 +9,16 @@
 
 - Remove all staged files matching a specified pattern:
 
-`hg remove --include {{pattern}}`
+`hg remove {{[-I|--include]}} {{pattern}}`
 
 - Remove all staged files, excluding those that match a specified pattern:
 
-`hg remove --exclude {{pattern}}`
+`hg remove {{[-X|--exclude]}} {{pattern}}`
 
 - Recursively remove sub-repositories:
 
-`hg remove --subrepos`
+`hg remove {{[-S|--subrepos]}}`
 
 - Remove files from the repository that have been physically removed:
 
-`hg remove --after`
+`hg remove {{[-A|--after]}}`

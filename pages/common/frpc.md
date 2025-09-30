@@ -10,15 +10,15 @@
 
 - Start the service, using the newer TOML configuration file (`frps.toml` instead of `frps.ini`) in the current directory:
 
-`frpc {{-c|--config}} ./frps.toml`
+`frpc {{[-c|--config]}} ./frps.toml`
 
 - Start the service, using a specific configuration file:
 
-`frpc {{-c|--config}} {{path/to/file}}`
+`frpc {{[-c|--config]}} {{path/to/file}}`
 
 - Check if the configuration file is valid:
 
-`frpc verify {{-c|--config}} {{path/to/file}}`
+`frpc verify {{[-c|--config]}} {{path/to/file}}`
 
 - Print autocompletion setup script for Bash, fish, PowerShell, or Zsh:
 
@@ -26,4 +26,4 @@
 
 - Display version:
 
-`frpc {{-v|--version}}`
+`frpc {{[-v|--version]}}`

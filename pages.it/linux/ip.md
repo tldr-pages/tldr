@@ -1,37 +1,37 @@
 # ip
 
 > Mostra / manipola routing, dispositivi, criteri di routing e tunnel.
-> Alcuni sottocomandi, come `ip address`, hanno una propria documentazione d'uso.
+> Alcuni sottocomandi, come `address`, hanno una propria documentazione d'uso.
 > Maggiori informazioni: <https://www.manned.org/ip.8>.
 
 - Elenca le interfacce con informazioni dettagliate:
 
-`ip address`
+`ip {{[a|address]}}`
 
 - Elenca le interfacce con informazioni brevi sul livello di rete:
 
-`ip -brief address`
+`ip {{[-br a|-brief address]}}`
 
 - Elenca le interfacce con informazioni brevi sul livello di collegamento:
 
-`ip -brief link`
+`ip {{[-br l|-brief link]}}`
 
 - Visualizza la tabella di routing:
 
-`ip route`
+`ip {{[r|route]}}`
 
 - Mostra i vicini (tabella ARP):
 
-`ip neighbour`
+`ip {{[n|neighbour]}}`
 
 - Attiva/disattiva un'interfaccia:
 
-`ip link set {{interfaccia}} {{up|down}}`
+`sudo ip {{[l|link]}} {{[s|set]}} {{interfaccia}} {{up|down}}`
 
 - Aggiungi/elimina un indirizzo IP a/da un'interfaccia:
 
-`ip addr add/del {{ip}}/{{mask}} dev {{interfaccia}}`
+`sudo ip {{[a|address]}} {{add|delete}} {{ip}}/{{mask}} dev {{interfaccia}}`
 
 - Aggiungi una route predefinita:
 
-`ip route add default via {{ip}} dev {{interfaccia}}`
+`sudo ip {{[r|route]}} {{[a|add]}} default via {{ip}} dev {{interfaccia}}`

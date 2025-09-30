@@ -1,7 +1,7 @@
 # pic
 
 > Picture preprocessor for the groff (GNU Troff) document formatting system.
-> See also `groff` and `troff`.
+> See also: `groff`, `troff`.
 > More information: <https://manned.org/pic>.
 
 - Process input with pictures, saving the output for future typesetting with groff to PostScript:

@@ -5,23 +5,23 @@
 
 - Operate on the specified directory instead of the root directory of the host system:
 
-`sudo systemd-firstboot --root={{path/to/root_directory}}`
+`sudo systemd-firstboot --root {{path/to/root_directory}}`
 
 - Set the system keyboard layout:
 
-`sudo systemd-firstboot --keymap={{keymap}}`
+`sudo systemd-firstboot --keymap {{keymap}}`
 
 - Set the system hostname:
 
-`sudo systemd-firstboot --hostname={{hostname}}`
+`sudo systemd-firstboot --hostname {{hostname}}`
 
 - Set the root user's password:
 
-`sudo systemd-firstboot --root-password={{password}}`
+`sudo systemd-firstboot --root-password {{password}}`
 
 - Prompt the user interactively for a specific basic setting:
 
-`sudo systemd-firstboot --prompt={{setting}}`
+`sudo systemd-firstboot --prompt {{setting}}`
 
 - Force writing configuration even if the relevant files already exist:
 

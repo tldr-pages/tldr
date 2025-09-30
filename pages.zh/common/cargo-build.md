@@ -5,28 +5,28 @@
 
 - 在本地路径中构建由 `Cargo.toml` 清单文件定义的一个或多个包：
 
-`cargo build`
+`cargo {{[b|build]}}`
 
 - 以 release 模式构建，并进行优化：
 
-`cargo build --release`
+`cargo {{[b|build]}} {{[-r|--release]}}`
 
 - 要求 `Cargo.lock` 文件为最新版本：
 
-`cargo build --locked`
+`cargo {{[b|build]}} --locked`
 
 - 构建工作区中的所有包：
 
-`cargo build --workspace`
+`cargo {{[b|build]}} --workspace`
 
 - 构建特定的包：
 
-`cargo build --package {{包名}}`
+`cargo {{[b|build]}} {{[-p|--package]}} {{包名}}`
 
 - 仅构建指定的二进制文件：
 
-`cargo build --bin {{名称}}`
+`cargo {{[b|build]}} --bin {{名称}}`
 
 - 仅构建指定的测试目标：
 
-`cargo build --test {{测试名称}}`
+`cargo {{[b|build]}} --test {{测试名称}}`

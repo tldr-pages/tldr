@@ -4,4 +4,4 @@
 
 - 原命令的文档在：
 
-`tldr -p linux talk`
+`tldr {{[-p|--platform]}} linux talk`

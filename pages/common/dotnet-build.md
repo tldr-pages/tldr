@@ -13,7 +13,7 @@
 
 - Compile in release mode:
 
-`dotnet build --configuration {{Release}}`
+`dotnet build {{[-c|--configuration]}} {{Release}}`
 
 - Compile without restoring dependencies:
 
@@ -21,12 +21,12 @@
 
 - Compile with a specific verbosity level:
 
-`dotnet build --verbosity {{quiet|minimal|normal|detailed|diagnostic}}`
+`dotnet build {{[-v|--verbosity]}} {{quiet|minimal|normal|detailed|diagnostic}}`
 
 - Compile for a specific runtime:
 
-`dotnet build --runtime {{runtime_identifier}}`
+`dotnet build {{[-r|--runtime]}} {{runtime_identifier}}`
 
 - Specify the output directory:
 
-`dotnet build --output {{path/to/directory}}`
+`dotnet build {{[-o|--output]}} {{path/to/directory}}`

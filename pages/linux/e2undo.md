@@ -16,7 +16,7 @@
 
 `e2undo {{path/to/undo_file}} {{/dev/sdXN}}`
 
-- Perform an undo operation and display verbose information:
+- Perform an undo operation and display [v]erbose information:
 
 `e2undo -v {{path/to/undo_file}} {{/dev/sdXN}}`
 

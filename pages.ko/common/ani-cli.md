@@ -1,7 +1,7 @@
 # ani-cli
 
 > 애니메이션을 탐색하고 시청할 수 있는 커멘드라인 인터페이스.
-> 더 많은 정보: <https://github.com/pystardust/ani-cli>.
+> 더 많은 정보: <https://manned.org/ani-cli>.
 
 - 이름으로 애니메이션 검색:
 

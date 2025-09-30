@@ -1,29 +1,30 @@
 # iptables
 
 > Configure tables, chains and rules of the Linux kernel IPv4 firewall.
-> Use `ip6tables` to set rules for IPv6 traffic. See also: `iptables-save`, `iptables-restore`.
+> Use `ip6tables` to set rules for IPv6 traffic.
+> See also: `iptables-save`, `iptables-restore`.
 > More information: <https://manned.org/iptables>.
 
 - View chains, rules, packet/byte counters and line numbers for the filter table:
 
-`sudo iptables --verbose --numeric --list --line-numbers`
+`sudo iptables {{[-vnL --line-numbers|--verbose --numeric --list --line-numbers]}}`
 
-- Set chain [P]olicy rule:
+- Set chain policy rule:
 
-`sudo iptables --policy {{chain}} {{rule}}`
+`sudo iptables {{[-P|--policy]}} {{chain}} {{rule}}`
 
-- [A]ppend rule to chain policy for IP:
+- Append rule to chain policy for IP:
 
-`sudo iptables --append {{chain}} --source {{ip}} --jump {{rule}}`
+`sudo iptables {{[-A|--append]}} {{chain}} {{[-s|--source]}} {{ip}} {{[-j|--jump]}} {{rule}}`
 
-- [A]ppend rule to chain policy for IP considering [p]rotocol and port:
+- Append rule to chain policy for IP considering protocol and port:
 
-`sudo iptables --append {{chain}} --source {{ip}} --protocol {{tcp|udp|icmp|...}} --dport {{port}} --jump {{rule}}`
+`sudo iptables {{[-A|--append]}} {{chain}} {{[-s|--source]}} {{ip}} {{[-p|--protocol]}} {{tcp|udp|icmp|...}} --dport {{port}} {{[-j|--jump]}} {{rule}}`
 
 - Add a NAT rule to translate all traffic from the `192.168.0.0/24` subnet to the host's public IP:
 
-`sudo iptables --table {{nat}} --append {{POSTROUTING}} --source {{192.168.0.0/24}} --jump {{MASQUERADE}}`
+`sudo iptables {{[-t|--table]}} {{nat}} {{[-A|--append]}} {{POSTROUTING}} {{[-s|--source]}} {{192.168.0.0/24}} {{[-j|--jump]}} {{MASQUERADE}}`
 
-- [D]elete chain rule:
+- Delete chain rule:
 
-`sudo iptables --delete {{chain}} {{rule_line_number}}`
+`sudo iptables {{[-D|--delete]}} {{chain}} {{rule_line_number}}`

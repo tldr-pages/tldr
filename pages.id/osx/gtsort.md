@@ -1,7 +1,7 @@
 # gtsort
 
-> Perintah ini merupakan alias dari `-p linux tsort`.
+> Perintah ini merupakan alias dari `tsort`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux tsort`
+`tldr tsort`

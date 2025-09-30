@@ -9,8 +9,8 @@
 
 - Bangun dan pasang suatu formula dari kode sumber (seluruh formula yang dibutuhkan tetap akan diunduh sebagai berkas jadian / bottle):
 
-`brew install --build-from-source {{formula}}`
+`brew install {{[-s|--build-from-source]}} {{formula}}`
 
 - Unduh manifest dan tampilkan daftar formula/cask yang akan dipasang tanpa melakukannya (dry-run):
 
-`brew install --dry-run {{formula|cask}}`
+`brew install {{[-n|--dry-run]}} {{formula|cask}}`

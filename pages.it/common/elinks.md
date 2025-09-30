@@ -1,7 +1,7 @@
 # elinks
 
 > Un browser testuale simile a lynx.
-> Maggiori informazioni: <http://elinks.or.cz>.
+> Maggiori informazioni: <https://github.com/rkd77/elinks>.
 
 - Avvia elinks:
 
@@ -9,7 +9,7 @@
 
 - Termina elinks:
 
-`<Ctrl> + C`
+`<Ctrl c>`
 
 - Stampa l'output di una pagina web nella console, colorando il testo con codici di controllo ANSI:
 

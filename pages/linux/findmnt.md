@@ -17,8 +17,12 @@
 
 - Find filesystems in specific type:
 
-`findmnt -t {{ext4}}`
+`findmnt {{[-t|--types]}} {{ext4,virtiofs,btrfs,...}}`
 
 - Find filesystems with specific label:
 
 `findmnt LABEL={{BigStorage}}`
+
+- Check mount table content in detail and verify `/etc/fstab`:
+
+`findmnt {{[-x|--verify]}} --verbose`

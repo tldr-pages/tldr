@@ -9,4 +9,4 @@
 
 - Enable all the interfaces defined with "auto" in `/etc/network/interfaces`:
 
-`ifup -a`
+`ifup {{[-a|--all]}}`

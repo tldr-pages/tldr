@@ -9,8 +9,8 @@
 
 - List only `toolbox` containers:
 
-`toolbox list --containers`
+`toolbox list {{[-c|--containers]}}`
 
 - List only `toolbox` images:
 
-`toolbox list --images`
+`toolbox list {{[-i|--images]}}`

@@ -1,6 +1,8 @@
 # awk
 
 > A versatile programming language for working on files.
+> Note: Different implementations of AWK often make this a symlink of their binary.
+> See also: `gawk`.
 > More information: <https://github.com/onetrueawk/awk>.
 
 - Print the fifth column (a.k.a. field) in a space-separated file:

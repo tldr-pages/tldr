@@ -1,7 +1,7 @@
 # gbasenc
 
-> यह आदेश `-p linux basenc` का उपनाम है।
+> यह आदेश `basenc` का उपनाम है।
 
 - मूल आदेश के लिए दस्तावेज़ देखें:
 
-`tldr -p linux basenc`
+`tldr basenc`

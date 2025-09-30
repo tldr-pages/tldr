@@ -21,7 +21,7 @@
 
 - Convert multiple files to `bgm_(original name).wav` (Default `-o` pattern is `?f.wav`):
 
-`vgmstream_cli -o {{path/to/bgm_?f.wav}} {{path/to/file1.adc}} {{path/to/file2.adc}}`
+`vgmstream_cli -o {{path/to/bgm_?f.wav}} {{path/to/file1.adc path/to/file2.adc ...}}`
 
 - Play the file looping endlessly (`channels` and `rate` must match metadata):
 

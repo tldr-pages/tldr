@@ -1,7 +1,7 @@
 # gdf
 
-> Dit commando is een alias van `-p linux df`.
+> Dit commando is een alias van GNU `df`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux df`
+`tldr {{[-p|--platform]}} linux df`

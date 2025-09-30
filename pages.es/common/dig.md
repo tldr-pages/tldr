@@ -1,32 +1,36 @@
 # dig
 
-> Utilidad de consulta para DNS.
+> Utilidad de búsqueda DNS.
 > Más información: <https://manned.org/dig>.
 
-- Consulta la(s) IP(s) asociadas a un nombre de equipo (registros A):
+- Busca la(s) IP(s) asociada(s) a un nombre de host (registros A):
 
 `dig +short {{example.com}}`
 
-- Obtén una respuesta detallada para un dominio determinado (registros A):
+- Muestra una respuesta detallada para un dominio dado (registros A):
 
 `dig +noall +answer {{example.com}}`
 
-- Consulta un tipo de registro DNS específico asociado a un dominio determinado:
+- Consulta un tipo de registro DNS específico asociado a un nombre de dominio determinado:
 
 `dig +short {{example.com}} {{A|MX|TXT|CNAME|NS}}`
 
-- Especifica un servidor DNS alterno a consultar:
+- Especifica un servidor DNS alternativo para consultar y, opcionalmente, utiliza DNS sobre TLS (DoT):
 
-`dig @{{8.8.8.8}} {{example.com}}`
+`dig {{+tls}} @{{1.1.1.1|8.8.8.8|9.9.9.9|...}} {{example.com}}`
 
-- Realiza una búsqueda DNS inversa para una dirección IP (registro PTR):
+- Realiza una búsqueda DNS inversa en una dirección IP (registro PTR):
 
 `dig -x {{8.8.8.8}}`
 
-- Encuentra servidores de nombre autoritativos para la zona y muestra registros SOA:
+- Busca servidores de nombres autoritativos para la zona y muestra los registros SOA:
 
 `dig +nssearch {{example.com}}`
 
-- Realiza consultas iterativas y muestra el trazado de ruta completo para resolver un dominio:
+- Realiza consultas iterativas y muestra la ruta de rastreo completa para resolver un nombre de dominio:
 
 `dig +trace {{example.com}}`
+
+- Consulta un servidor DNS a través de un [p]uerto no estándar utilizando el protocolo TCP:
+
+`dig +tcp -p {{puerto}} @{{dns_servidor_ip}} {{example.com}}`

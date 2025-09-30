@@ -5,16 +5,16 @@
 
 - Garbage collect from the cache, keeping only versions referenced by the current workspace:
 
-`dvc gc --workspace`
+`dvc gc {{[-w|--workspace]}}`
 
 - Garbage collect from the cache, keeping only versions referenced by branch, tags, and commits:
 
-`dvc gc --all-branches --all-tags --all-commits`
+`dvc gc {{[-a|--all-branches]}} {{[-T|--all-tags]}} {{[-a|--all-commits]}}`
 
 - Garbage collect from the cache, including the default cloud remote storage (if set):
 
-`dvc gc --all-commits --cloud`
+`dvc gc {{[-a|--all-commits]}} {{[-c|--cloud]}}`
 
 - Garbage collect from the cache, including a specific cloud remote storage:
 
-`dvc gc --all-commits --cloud --remote {{remote_name}}`
+`dvc gc {{[-a|--all-commits]}} {{[-c|--cloud]}} {{[-r|--remote]}} {{remote_name}}`

@@ -9,8 +9,8 @@
 
 - Check connection with a specific hostname and port:
 
-`pg_isready --host={{hostname}} --port={{port}}`
+`pg_isready {{[-h|--host]}} {{hostname}} {{[-p|--port]}} {{port}}`
 
 - Check connection displaying a message only when the connection fails:
 
-`pg_isready --quiet`
+`pg_isready {{[-q|--quiet]}}`

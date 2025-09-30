@@ -1,7 +1,7 @@
 # gbasename
 
-> คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux basename`
+> คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `basename`
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr -p linux basename`
+`tldr basename`

@@ -19,7 +19,7 @@
 
 `ntfy trigger {{my_webhook}}`
 
-- Subscribe to a topic (Ctrl-C to stop listening):
+- Subscribe to a topic (`<Ctrl c>` to stop listening):
 
 `ntfy sub {{home_automation}}`
 

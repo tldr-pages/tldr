@@ -13,20 +13,20 @@
 
 - Execute a specific Python file and start a REPL:
 
-`ptpython -i {{path/to/file.py}}`
+`ptpython {{[-i|--interactive]}} {{path/to/file.py}}`
 
 - Open the menu:
 
-`F2`
+`<F2>`
 
 - Open the history page:
 
-`F3`
+`<F3>`
 
 - Toggle paste mode:
 
-`F6`
+`<F6>`
 
 - Quit:
 
-`<Ctrl> + D`
+`<Ctrl d>`

@@ -1,7 +1,7 @@
 # gfmt
 
-> Cette commande est un alias de `-p linux fmt`.
+> Cette commande est un alias de `fmt`.
 
 - Voir la documentation de la commande originale :
 
-`tldr -p linux fmt`
+`tldr fmt`

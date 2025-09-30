@@ -6,11 +6,11 @@
 
 - Tampilkan daftar modul/plugin yang tersedia:
 
-`ansible-doc --list`
+`ansible-doc {{[-l|--list]}}`
 
 - Tampilkan daftar modul/plugin berdasarkan jenisnya:
 
-`ansible-doc --type {{become|cache|callback|cliconf|connection|...}} --list`
+`ansible-doc {{[-t|--type]}} {{become|cache|callback|cliconf|connection|...}} {{[-l|--list]}}`
 
 - Tampilkan informasi mengenai suatu modul/plugin:
 
@@ -18,12 +18,12 @@
 
 - Tampilkan informasi mengenai suatu modul/plugin berdasarkan jenis spesifiknya:
 
-`ansible-doc --type {{become|cache|callback|cliconf|connection|...}} {{nama_plugin}}`
+`ansible-doc {{[-t|--type]}} {{become|cache|callback|cliconf|connection|...}} {{nama_plugin}}`
 
 - Lihat contoh cara penggunaan (dalam playbook) bagi suatu modul/plugin:
 
-`ansible-doc --snippet {{nama_plugin}}`
+`ansible-doc {{[-s|--snippet]}} {{nama_plugin}}`
 
 - Tampilkan informasi mengenai suatu plugin/modul dalam format JSON:
 
-`ansible-doc --json {{nama_plugin}}`
+`ansible-doc {{[-j|--json]}} {{nama_plugin}}`

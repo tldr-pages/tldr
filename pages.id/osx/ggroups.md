@@ -1,7 +1,7 @@
 # ggroups
 
-> Perintah ini merupakan alias dari `-p linux groups`.
+> Perintah ini merupakan alias dari `groups`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux groups`
+`tldr groups`

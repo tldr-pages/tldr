@@ -9,24 +9,24 @@
 
 - 특정 사용자가 소유한 프로세스를 표시하는 `htop`을 시작합니다:
 
-`htop --user {{사용자 이름}}`
+`htop {{[-u|--user]}} {{사용자 이름}}`
 
 - 지정된 `sort_item`을 기준으로 프로세스를 정렬합니다(사용 가능한 옵션을 보려면 `htop --sort help`을 사용):
 
-`htop --sort {{sort_item}}`
+`htop {{[-s|--sort]}} {{sort_item}}`
 
 - 업데이트 사이에 지정된 지연(10분의 1초)으로 `htop`을 시작(예: 50 = 5초):
 
-`htop --delay {{50}}`
+`htop {{[-d|--delay]}} {{50}}`
 
 - htop을 실행하는 동안 대화형 명령 확인:
 
-`?`
+`<?>`
 
 - 다른 탭으로 전환:
 
-`tab`
+`<Tab>`
 
 - 도움말 표시:
 
-`htop --help`
+`htop {{[-h|--help]}}`

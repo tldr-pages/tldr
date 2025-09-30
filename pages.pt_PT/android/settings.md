@@ -1,7 +1,7 @@
 # settings
 
 > Exibe, edita e apaga configurações do sistema Android.
-> Mais informações: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
+> Mais informações: <https://web.archive.org/web/20240525010124/https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
 
 - Exibe a lista de configurações no namespace `global`:
 

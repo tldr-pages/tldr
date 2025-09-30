@@ -4,4 +4,4 @@
 
 - Voir la documentation de la commande originale :
 
-`tldr -p linux logger`
+`tldr {{[-p|--platform]}} linux logger`

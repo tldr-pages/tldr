@@ -1,7 +1,7 @@
 # glogger
 
-> To polecenie jest aliasem `-p linux logger`.
+> To polecenie jest aliasem GNU `logger`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux logger`
+`tldr {{[-p|--platform]}} linux logger`

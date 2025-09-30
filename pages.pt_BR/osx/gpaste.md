@@ -1,7 +1,7 @@
 # gpaste
 
-> Este comando é um apelido de `-p linux paste`.
+> Este comando é um apelido de `paste`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux paste`
+`tldr paste`

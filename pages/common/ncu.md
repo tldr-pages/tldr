@@ -8,7 +8,7 @@
 
 `ncu`
 
-- List outdated global npm packages:
+- List outdated global `npm` packages:
 
 `ncu --global`
 
@@ -24,7 +24,7 @@
 
 `ncu --target {{minor}}`
 
-- List outdated dependencies that match a keyword or regular expression:
+- List outdated dependencies that match a keyword or `regex`:
 
 `ncu --filter {{keyword|/regex/}}`
 

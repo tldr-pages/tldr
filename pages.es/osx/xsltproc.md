@@ -1,7 +1,7 @@
 # xsltproc
 
 > Transforma XML con XSLT para producir una salida (normalmente HTML o XML).
-> Más información: <http://www.xmlsoft.org/xslt/xsltproc.html>.
+> Más información: <https://manned.org/xsltproc>.
 
 - Transforma un archivo XML con una hoja de estilos XSLT específica:
 

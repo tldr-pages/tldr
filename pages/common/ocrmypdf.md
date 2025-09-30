@@ -5,11 +5,7 @@
 
 - Create a new searchable PDF/A file from a scanned PDF or image file:
 
-`ocrmypdf {{path/to/input_file}} {{path/to/output.pdf}}`
-
-- Replace a scanned PDF file with a searchable PDF file:
-
-`ocrmypdf {{path/to/file.pdf}} {{path/to/file.pdf}}`
+`ocrmypdf {{path/to/input}} {{path/to/output.pdf}}`
 
 - Skip pages of a mixed-format input PDF file that already contain text:
 
@@ -17,11 +13,15 @@
 
 - Clean, de-skew, and rotate pages of a poor scan:
 
-`ocrmypdf --clean --deskew --rotate-pages {{path/to/input_file}} {{path/to/output.pdf}}`
+`ocrmypdf --clean --deskew --rotate-pages {{path/to/input.pdf}} {{path/to/output.pdf}}`
 
-- Set the metadata of the searchable PDF file:
+- Perform lossy optimization on a PDF without performing any OCR:
 
-`ocrmypdf --title "{{title}}" --author "{{author}}" --subject "{{subject}}" --keywords "{{keyword; key phrase; ...}}" {{path/to/input_file}} {{path/to/output.pdf}}`
+`ocrmypdf --tesseract-timeout 0 --optimize 2 --skip-text {{path/to/input.pdf}} {{path/to/output.pdf}}`
+
+- Set the metadata of a searchable PDF file:
+
+`ocrmypdf --title "{{title}}" --author "{{author}}" --subject "{{subject}}" --keywords "{{keyword; key phrase; ...}}" {{path/to/input.pdf}} {{path/to/output.pdf}}`
 
 - Display help:
 

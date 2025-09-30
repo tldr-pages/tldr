@@ -1,7 +1,7 @@
 # gchroot
 
-> Este comando é um apelido de `-p linux chroot`.
+> Este comando é um apelido de `chroot`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux chroot`
+`tldr chroot`

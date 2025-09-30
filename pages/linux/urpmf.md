@@ -2,7 +2,7 @@
 
 > Find files in packages and query information about them in Mageia.
 > See also: `urpmi`, `urpme`, `urpmi.addmedia`, `urpmi.removemedia`, `urpmi.update`, `urpmq`.
-> More information: <https://wiki.mageia.org/en/URPMI#urpmi.removemedia>.
+> More information: <https://man.linuxreviews.org/man8/urpmf.8.html>.
 
 - Search for packages that contain a file:
 

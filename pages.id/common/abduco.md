@@ -1,7 +1,7 @@
 # abduco
 
 > Manajer sesi Terminal.
-> Informasi lebih lanjut: <https://www.brain-dump.org/projects/abduco/>.
+> Informasi lebih lanjut: <https://manned.org/abduco>.
 
 - Tampilkan sesi-sesi yang sedang aktif:
 
@@ -17,7 +17,7 @@
 
 - Keluar dari sesi:
 
-`<Ctrl> + \`
+`<Ctrl \>`
 
 - Buk[A] sesi saat ini dalam mode non-interaktif alias [r]ead-only:
 

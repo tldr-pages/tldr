@@ -1,7 +1,7 @@
 # pbcopy
 
 > 将来自标准输入的数据放入剪贴板。
-> 相当于在键盘上按下 Cmd + C.
+> 相当于在键盘上按下 `<Cmd c>`.
 > 更多信息：<https://keith.github.io/xcode-man-pages/pbcopy.1.html>.
 
 - 将文件的内容放入剪贴板：

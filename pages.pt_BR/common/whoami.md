@@ -1,7 +1,7 @@
 # whoami
 
 > Imprime o nome do usuário associado com o ID do usuário efetivamente atual.
-> Mais informações: <https://www.gnu.org/software/coreutils/whoami>.
+> Mais informações: <https://www.gnu.org/software/coreutils/manual/html_node/whoami-invocation.html>.
 
 - Exibe o nome do usuário logado:
 

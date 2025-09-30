@@ -9,23 +9,23 @@
 
 - Aplica uma instrução `CMD` do Dockerfile à imagem criada:
 
-`docker commit --change "CMD {{comando}}" {{contêiner}} {{imagem}}:{{tag}}`
+`docker commit {{[-c|--change]}} "CMD {{comando}}" {{contêiner}} {{imagem}}:{{tag}}`
 
 - Aplica uma instrução `ENV` do Dockerfile à imagem criada:
 
-`docker commit --change "ENV {{nome}}={{valor}}" {{contêiner}} {{imagem}}:{{tag}}`
+`docker commit {{[-c|--change]}} "ENV {{nome}}={{valor}}" {{contêiner}} {{imagem}}:{{tag}}`
 
 - Cria uma imagem com um autor específico nos metadados:
 
-`docker commit --author "{{autor}}" {{contêiner}} {{imagem}}:{{tag}}`
+`docker commit {{[-a|--author]}} "{{autor}}" {{contêiner}} {{imagem}}:{{tag}}`
 
 - Cria uma imagem com um comentário específico nos metadados:
 
-`docker commit --message "{{comentário}}" {{contêiner}} {{imagem}}:{{tag}}`
+`docker commit {{[-m|--message]}} "{{comentário}}" {{contêiner}} {{imagem}}:{{tag}}`
 
 - Cria uma imagem sem pausar o contêiner durante o commit:
 
-`docker commit --pause {{false}} {{contêiner}} {{imagem}}:{{tag}}`
+`docker commit {{[-p|--pause]}} {{false}} {{contêiner}} {{imagem}}:{{tag}}`
 
 - Exibe ajuda:
 

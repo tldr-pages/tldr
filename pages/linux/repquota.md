@@ -5,24 +5,24 @@
 
 - Report stats for all quotas in use:
 
-`sudo repquota -all`
+`sudo repquota {{[-a|--all]}}`
 
 - Report quota stats for all users, even those who aren't using any of their quota:
 
-`sudo repquota -v {{filesystem}}`
+`sudo repquota {{[-v|--verbose]}} {{filesystem}}`
 
 - Report on quotas for users only:
 
-`repquota --user {{filesystem}}`
+`repquota {{[-u|--user]}} {{filesystem}}`
 
 - Report on quotas for groups only:
 
-`sudo repquota --group {{filesystem}}`
+`sudo repquota {{[-g|--group]}} {{filesystem}}`
 
 - Report on used quota and limits in a human-readable format:
 
-`sudo repquota --human-readable {{filesystem}}`
+`sudo repquota {{[-s|--human-readable]}} {{filesystem}}`
 
 - Report on all quotas for users and groups in a human-readable format:
 
-`sudo repquota -augs`
+`sudo repquota {{[-augs|--all --user --group --human-readable]}}`

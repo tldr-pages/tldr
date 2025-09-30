@@ -1,8 +1,7 @@
 # fossil ci
 
-> Ця команда є псевдонімом для  `fossil commit`.
-> Більше інформації: <https://fossil-scm.org/home/help/commit>.
+> Ця команда є псевдонімом для `fossil commit`.
 
 - Дивись документацію для оригінальної команди:
 
-`tldr fossil-commit`
+`tldr fossil commit`

@@ -1,7 +1,7 @@
 # b2sum
 
 > Calculate BLAKE2 cryptographic checksums.
-> More information: <https://www.gnu.org/software/coreutils/b2sum>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/b2sum-invocation.html>.
 
 - Calculate the BLAKE2 checksum for one or more files:
 
@@ -15,14 +15,18 @@
 
 `{{command}} | b2sum`
 
-- Read a file of BLAKE2 sums and filenames and verify all files have matching checksums:
+- Read a file of BLAKE2 checksums and filenames and verify all files have matching checksums:
 
-`b2sum --check {{path/to/file.b2}}`
+`b2sum {{[-c|--check]}} {{path/to/file.b2}}`
 
 - Only show a message for missing files or when verification fails:
 
-`b2sum --check --quiet {{path/to/file.b2}}`
+`b2sum {{[-c|--check]}} --quiet {{path/to/file.b2}}`
 
 - Only show a message when verification fails, ignoring missing files:
 
-`b2sum --ignore-missing --check --quiet {{path/to/file.b2}}`
+`b2sum --ignore-missing {{[-c|--check]}} --quiet {{path/to/file.b2}}`
+
+- Check a known BLAKE2 checksum of a file:
+
+`echo {{known_blake2_checksum_of_the_file}} {{path/to/file}} | b2sum {{[-c|--check]}}`

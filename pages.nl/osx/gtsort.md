@@ -1,7 +1,7 @@
 # gtsort
 
-> Dit commando is een alias van `-p linux tsort`.
+> Dit commando is een alias van GNU `tsort`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux tsort`
+`tldr tsort`

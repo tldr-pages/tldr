@@ -1,6 +1,6 @@
 # xdg-desktop-menu
 
-> Command-line tool for installing or uninstalling desktop menu items.
+> Install or uninstall desktop menu items.
 > More information: <https://manned.org/xdg-desktop-menu>.
 
 - Install an application to the desktop menu system:

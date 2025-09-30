@@ -4,4 +4,4 @@
 
 - Exibe documentação do comando original:
 
-`tldr -p linux logger`
+`tldr {{[-p|--platform]}} linux logger`

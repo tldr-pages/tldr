@@ -1,7 +1,7 @@
 # chmod
 
 > 修改文件或目录的访问权限。
-> 更多信息：<https://www.gnu.org/software/coreutils/chmod>.
+> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html>.
 
 - 授予所有者［u］执行［x］文件的权限：
 
@@ -29,8 +29,8 @@
 
 - 递归授予用户组［g］和其他用户［o］目录下所有文件和子目录的写［w］权限：
 
-`chmod -R g+w,o+w {{目录}}`
+`chmod {{[-R|--recursive]}} g+w,o+w {{目录}}`
 
 - 递归授予所有用户［a］目录下文件的读［r］权限和子目录的执行［X］权限：
 
-`chmod -R a+rX {{目录}}`
+`chmod {{[-R|--recursive]}} a+rX {{目录}}`

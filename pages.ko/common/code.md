@@ -1,7 +1,7 @@
 # code
 
 > 확장 가능한 크로스 플랫폼 코드 에디터.
-> 더 많은 정보: <https://github.com/microsoft/vscode>.
+> 더 많은 정보: <https://code.visualstudio.com/docs/configure/command-line>.
 
 - Visual Studio Code 실행:
 
@@ -13,11 +13,11 @@
 
 - 두 파일 비교:
 
-`code --diff {{파일의/경로1}} {{파일의/경로2}}`
+`code {{[-d|--diff]}} {{파일의/경로1}} {{파일의/경로2}}`
 
 - 특정 파일 혹은 디렉토리를 새로운 창에서 열기:
 
-`code --new-window {{파일/혹은/디렉토리의/경로1 파일/혹은/디렉토리의/경로2 ...}}`
+`code {{[-n|--new-window]}} {{파일/혹은/디렉토리의/경로1 파일/혹은/디렉토리의/경로2 ...}}`
 
 - 특정 확장 프로그램 설치/삭제:
 

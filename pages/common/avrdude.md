@@ -1,7 +1,7 @@
 # avrdude
 
 > Driver program for Atmel AVR microcontrollers programming.
-> More information: <https://www.nongnu.org/avrdude/>.
+> More information: <https://www.nongnu.org/avrdude/user-manual/avrdude_3.html#Option-Descriptions>.
 
 - [r]ead the flash ROM of a AVR microcontroller with a specific [p]art ID:
 

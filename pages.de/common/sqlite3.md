@@ -1,7 +1,7 @@
 # sqlite3
 
 > Das Kommandozeileninterface für SQLite 3, welches eine eigenständige dateibasierte eingebettete SQL-Engine ist.
-> Weitere Informationen: <https://sqlite.org>.
+> Weitere Informationen: <https://sqlite.org/cli.html>.
 
 - Starte eine interaktive Shell mit einer neuen Datenbank:
 

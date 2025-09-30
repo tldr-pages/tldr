@@ -29,8 +29,8 @@
 
 - Ignore the specified files and directories:
 
-`onefetch {{-e|--exclude}} {{path/to/file_or_directory|regular_expression}}`
+`onefetch {{[-e|--exclude]}} {{path/to/file_or_directory|regex}}`
 
 - Only detect languages from the specified categories (default: programming and markup):
 
-`onefetch {{-T|--type}} {{programming|markup|prose|data}}`
+`onefetch {{[-T|--type]}} {{programming|markup|prose|data}}`

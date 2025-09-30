@@ -1,7 +1,7 @@
 # gcksum
 
-> Dit commando is een alias van `-p linux cksum`.
+> Dit commando is een alias van GNU `cksum`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux cksum`
+`tldr cksum`

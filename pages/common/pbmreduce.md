@@ -6,12 +6,12 @@
 
 - Reduce the specified image by the specified factor:
 
-`pbmreduce {{N}} {{path/to/image.pbm}} > {{path/to/output.pbm}}`
+`pbmreduce {{n}} {{path/to/image.pbm}} > {{path/to/output.pbm}}`
 
 - Use simple thresholding when reducing:
 
-`pbmreduce -threshold {{N}} {{path/to/image.pbm}} > {{path/to/output.pbm}}`
+`pbmreduce {{[-t|-threshold]}} {{n}} {{path/to/image.pbm}} > {{path/to/output.pbm}}`
 
 - Use the specified threshold for all quantizations:
 
-`pbmreduce -value {{0.6}} {{N}} {{path/to/image.pbm}} > {{path/to/output.pbm}}`
+`pbmreduce {{[-va|-value]}} {{0.6}} {{n}} {{path/to/image.pbm}} > {{path/to/output.pbm}}`

@@ -4,7 +4,7 @@
 
 - View documentation for the command available in macOS:
 
-`tldr open -p osx`
+`tldr open {{[-p|--platform]}} osx`
 
 - View documentation for the command available through fish:
 

@@ -1,7 +1,7 @@
 # gnl
 
-> To polecenie jest aliasem `-p linux nl`.
+> To polecenie jest aliasem GNU `nl`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux nl`
+`tldr {{[-p|--platform]}} linux nl`

@@ -17,15 +17,15 @@
 
 - 以 extra full 格式列出当前用户的所有进程：
 
-`ps --user $(id -u) -F`
+`ps {{[-u|--user]}} $(id {{[-u|--user]}}) -F`
 
 - 以树形方式列出当前用户的所有进程：
 
-`ps --user $(id -u) f`
+`ps {{[-u|--user]}} $(id {{[-u|--user]}}) f`
 
 - 获取一个进程的父进程 ID：
 
-`ps -o ppid= -p {{进程 ID}}`
+`ps {{[-o|--format]}} ppid= {{[-p|--pid]}} {{进程 ID}}`
 
 - 按内存使用量对进程进行排序：
 

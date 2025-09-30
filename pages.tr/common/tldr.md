@@ -9,7 +9,7 @@
 
 - Linux için tar tldr sayfasını göster:
 
-`tldr -p {{linux}} {{tar}}`
+`tldr {{[-p|--platform]}} {{linux}} {{tar}}`
 
 - Bir Git alt komutu için yardım al:
 
@@ -17,4 +17,4 @@
 
 - (Eğer alıcı önbellek oluşumunu destekliyorsa) Yerel paketleri güncelle:
 
-`tldr -u`
+`tldr {{[-u|--update]}}`

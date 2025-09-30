@@ -18,4 +18,4 @@
 
 - Lakukan perubahan pada direktori kerja saat ini tanpa mencatat komit baru:
 
-`git cherry-pick --no-commit {{komit}}`
+`git cherry-pick {{[-n|--no-commit]}} {{komit}}`

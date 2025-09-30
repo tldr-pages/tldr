@@ -6,7 +6,7 @@
 
 - Lista todos os containers Docker (em execução e parados):
 
-`docker ps --all`
+`docker ps {{[-a|--all]}}`
 
 - Inicializa um container com um nome personalizado a partir de uma imagem:
 
@@ -26,7 +26,7 @@
 
 - Abre um terminal dentro de um container em execução:
 
-`docker exec -it {{nome_container}} {{sh}}`
+`docker exec {{[-it|--interactive --tty]}} {{nome_container}} {{sh}}`
 
 - Remove um container parado:
 
@@ -34,4 +34,4 @@
 
 - Obtém e acompanha o histórico de um container:
 
-`docker logs -f {{nome_container}}`
+`docker logs {{[-f|--follow]}} {{nome_container}}`

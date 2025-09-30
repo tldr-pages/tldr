@@ -34,4 +34,4 @@
 
 - Fecha uma sessão travada:
 
-`<Enter> ~ .`
+`<Enter><~><.>`

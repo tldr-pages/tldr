@@ -2,7 +2,7 @@
 
 > GitHub와 원활하게 작업.
 > `config`와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
-> 더 많은 정보: <https://cli.github.com/>.
+> 더 많은 정보: <https://cli.github.com/manual/gh>.
 
 - GitHub 리포지토리를 로컬에 복제:
 

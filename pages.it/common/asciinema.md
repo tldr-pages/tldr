@@ -23,9 +23,9 @@
 
 `asciinema play https://asciinema.org/a/{{id_registrazione}}`
 
-- Avvia una nuova registrazione, limitando qualsiasi periodo di [i]nattività a 2.5 secondi:
+- Avvia una nuova registrazione, limitando qualsiasi periodo di inattività a 2.5 secondi:
 
-`asciinema rec {{-i|--idle-time-limit}} 2.5`
+`asciinema rec {{[-i|--idle-time-limit]}} 2.5`
 
 - Stampa l'output completo di una sessione locale:
 

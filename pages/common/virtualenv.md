@@ -1,7 +1,7 @@
 # virtualenv
 
 > Create virtual isolated Python environments.
-> More information: <https://virtualenv.pypa.io/>.
+> More information: <https://virtualenv.pypa.io/en/latest/cli_interface.html>.
 
 - Create a new environment:
 
@@ -9,11 +9,11 @@
 
 - Customize the prompt prefix:
 
-`virtualenv --prompt={{prompt_prefix}} {{path/to/venv}}`
+`virtualenv --prompt {{prompt_prefix}} {{path/to/venv}}`
 
 - Use a different version of Python with virtualenv:
 
-`virtualenv --python={{path/to/pythonbin}} {{path/to/venv}}`
+`virtualenv {{[-p|--python]}} {{path/to/pythonbin}} {{path/to/venv}}`
 
 - Start (select) the environment:
 

@@ -9,16 +9,16 @@
 
 - Copy all tags:
 
-`crane copy {{source}} {{target}} {{-a|--all-tags}}`
+`crane copy {{source}} {{target}} {{[-a|--all-tags]}}`
 
 - Set the maximum number of concurrent copies, defaults to GOMAXPROCS:
 
-`crane copy {{source}} {{target}} {{-j|--jobs}} {{int}}`
+`crane copy {{source}} {{target}} {{[-j|--jobs]}} {{int}}`
 
 - Avoid overwriting existing tags in target:
 
-`crane copy {{source}} {{target}} {{-n|--no-clobber}}`
+`crane copy {{source}} {{target}} {{[-n|--no-clobber]}}`
 
 - Display help:
 
-`crane copy {{-h|--help}}`
+`crane copy {{[-h|--help]}}`

@@ -31,3 +31,6 @@ venv
 
 # Generated pycache
 __pycache__
+
+# Generated log
+debug.log

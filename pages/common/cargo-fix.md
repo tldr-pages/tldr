@@ -15,7 +15,7 @@
 
 `cargo fix --edition`
 
-- Fix the package’s library:
+- Fix the package's library:
 
 `cargo fix --lib`
 

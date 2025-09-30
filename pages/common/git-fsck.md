@@ -16,3 +16,11 @@
 - List all root nodes found:
 
 `git fsck --root`
+
+- Show all unreachable and dangling objects, ignore reflogs, and perform a full integrity check:
+
+`git fsck --dangling --no-reflogs --unreachable --full`
+
+- Check connectivity only (skip object integrity verification):
+
+`git fsck --connectivity-only`

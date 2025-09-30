@@ -1,7 +1,7 @@
 # settings
 
 > دریافت اطلاعات مربوط به سیستم عامل اندروید.
-> اطلاعات بیشتر: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
+> اطلاعات بیشتر: <https://web.archive.org/web/20240525010124/https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
 
 - نمایش یک فهرست از تنظیمات داخل فضای نام `global` :
 

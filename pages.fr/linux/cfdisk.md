@@ -9,4 +9,4 @@
 
 - Crée une nouvelle table de partitions pour un appareil spécifique et la gère :
 
-`cfdisk --zero {{/dev/sdX}}`
+`cfdisk {{[-z|--zero]}} {{/dev/sdX}}`

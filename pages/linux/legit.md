@@ -5,7 +5,7 @@
 
 - Switch to a specified branch, stashing and restoring unstaged changes:
 
-`git switch {{target_branch}}`
+`git sw {{target_branch}}`
 
 - Synchronize current branch, automatically merging or rebasing, and stashing and unstashing:
 
@@ -25,4 +25,4 @@
 
 - Remove the last commit from the history:
 
-`git undo {{--hard}}`
+`git undo --hard`

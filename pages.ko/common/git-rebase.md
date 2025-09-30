@@ -10,7 +10,7 @@
 
 - 커밋을 재배치, 생략, 결합 또는 수정할 수 있도록 하는 대화형 리베이스 시작:
 
-`git rebase {{-i|--interactive}} {{대상_기저_브랜치_또는_커밋_해시}}`
+`git rebase {{[-i|--interactive]}} {{대상_기저_브랜치_또는_커밋_해시}}`
 
 - 충돌하는 파일 편집 후, 병합 실패로 중단된 리베이스 계속하기:
 
@@ -30,8 +30,8 @@
 
 - 마지막 5개의 커밋을 그대로 다시 적용해, 재배치, 생략, 결합 또는 수정할 수 있도록 멈추기:
 
-`git rebase {{-i|--interactive}} {{HEAD~5}}`
+`git rebase {{[-i|--interactive]}} {{HEAD~5}}`
 
 - 작업 브랜치 버전을 우선하는 방식으로 모든 충돌을 자동으로 해결 (`theirs` 키워드는 이 경우 반대 의미를 갖습니다):
 
-`git rebase {{-X|--strategy-option}} theirs {{브랜치_이름}}`
+`git rebase {{[-X|--strategy-option]}} theirs {{브랜치_이름}}`

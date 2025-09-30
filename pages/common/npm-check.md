@@ -9,12 +9,12 @@
 
 - Interactively update out-of-date packages:
 
-`npm-check --update`
+`npm-check {{[-u|--update]}}`
 
 - Update everything without prompting:
 
-`npm-check --update-all`
+`npm-check {{[-y|--update-all]}}`
 
 - Don't check for unused packages:
 
-`npm-check --skip-unused`
+`npm-check {{[-s|--skip-unused]}}`

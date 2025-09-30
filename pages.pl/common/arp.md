@@ -1,7 +1,7 @@
 # arp
 
 > Pokaż i manipuluj systemową pamięcią podręczną ARP.
-> Więcej informacji: <https://manned.org/arp>.
+> Więcej informacji: <https://manned.org/arp.8>.
 
 - Pokaż bieżącą tabelę ARP:
 

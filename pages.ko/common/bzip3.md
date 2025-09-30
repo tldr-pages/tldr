@@ -1,7 +1,7 @@
 # bzip3
 
 > 효율적인 파일 압축 도구.
-> 더 많은 정보: <https://github.com/kspalaiologos/bzip3>.
+> 더 많은 정보: <https://manned.org/bzip3>.
 
 - 파일 압축:
 
@@ -9,24 +9,24 @@
 
 - 파일 압축 해제([d]ecompress):
 
-`bzip3 -d {{경로/대상/압축된_파일.bz3}}`
+`bzip3 {{[-d|--decode]}} {{경로/대상/압축된_파일.bz3}}`
 
 - 파일을 `stdout`([c])으로 압축 해제:
 
-`bzip3 -dc {{경로/대상/압축된_파일.bz3}}`
+`bzip3 {{[-dc|--decode --stdout]}} {{경로/대상/압축된_파일.bz3}}`
 
 - 아카이브 파일 내 각 파일의 무결성을 테스트:
 
-`bzip3 --test {{경로/대상/압축된_파일.bz3}}`
+`bzip3 {{[-t|--test]}} {{경로/대상/압축된_파일.bz3}}`
 
 - 자세한 정보로 처리된 각 파일의 압축 비율을 표시:
 
-`bzip3 --verbose {{경로/대상/압축된_파일들.bz3}}`
+`bzip3 {{[-v|--verbose]}} {{경로/대상/압축된_파일들.bz3}}`
 
 - 기존 파일을 덮어쓰면서 압축을 해제:
 
-`bzip3 -d --force {{경로/대상/압축된_파일.bz3}}`
+`bzip3 {{[-d|--decode]}} {{[-f--force]}} {{경로/대상/압축된_파일.bz3}}`
 
 - 도움말 표시:
 
-`bzip3 -h`
+`bzip3 {{[-h|--help]}}`

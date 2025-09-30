@@ -1,7 +1,7 @@
 # b2sum
 
 > BLAKE2 மறையீட்டு சரிகாண்தொகைகளைக் கணி அல்லது சரிபார்.
-> மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/b2sum>.
+> மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/manual/html_node/b2sum-invocation.html>.
 
 - ஒன்று அல்லது அதற்கு மேற்பட்ட கோப்புகளுக்கான BLAKE2 சரிகாண்தொகையைக் கணி:
 

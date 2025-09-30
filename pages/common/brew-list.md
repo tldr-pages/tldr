@@ -22,3 +22,7 @@
 - List only casks:
 
 `brew list --cask`
+
+- List only pinned formulae:
+
+`brew list --pinned`

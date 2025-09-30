@@ -5,8 +5,8 @@
 
 - Open a serial port using the specified baud rate:
 
-`microcom --port {{path/to/serial_port}} --speed {{baud_rate}}`
+`microcom {{[-p|--port]}} {{/dev/ttyXYZ}} {{[-s|--speed]}} {{baud_rate}}`
 
 - Establish a telnet connection to the specified host:
 
-`microcom --telnet {{hostname}}:{{port}}`
+`microcom {{[-t|--telnet]}} {{hostname}}:{{port}}`

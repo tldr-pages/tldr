@@ -19,9 +19,9 @@
 
 `hyprctl workspaces`
 
-- Call a dispatcher with an argument:
+- Call a dispatcher:
 
-`hyprctl dispatch exec {{app}}`
+`hyprctl dispatch {{dispatcher}}`
 
 - Set a configuration keyword dynamically:
 

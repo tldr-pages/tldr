@@ -1,7 +1,7 @@
 # mg
 
 > A small, fast, and portable text editor based on `emacs`.
-> More information: <https://github.com/hboetes/mg>.
+> More information: <https://manned.org/mg>.
 
 - Open a file for editing:
 

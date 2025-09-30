@@ -1,7 +1,7 @@
 # calibre-server
 
 > A server application to distribute e-books over a network.
-> Note: e-books must already be imported into the library using the GUI or the `calibredb` CLI.
+> Note: E-books must already be imported into the library using the GUI or the `calibredb` CLI.
 > Part of the Calibre e-book library.
 > More information: <https://manual.calibre-ebook.com/generated/en/calibre-server.html>.
 

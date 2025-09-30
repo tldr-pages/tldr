@@ -5,7 +5,7 @@
 
 - Launch a Git daemon with a whitelisted set of directories:
 
-`git daemon --export-all {{path/to/directory1}} {{path/to/directory2}}`
+`git daemon --export-all {{path/to/directory1 path/to/directory2 ...}}`
 
 - Launch a Git daemon with a specific base directory and allow pulling from all sub-directories that look like Git repositories:
 

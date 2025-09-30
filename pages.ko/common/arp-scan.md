@@ -5,7 +5,7 @@
 
 - 현재 로컬 네트워크 검색:
 
-`arp-scan --localnet`
+`arp-scan {{[-l|--localnet]}}`
 
 - 사용자 정의 비트마스크를 사용하여 IP 네트워크 스캔:
 

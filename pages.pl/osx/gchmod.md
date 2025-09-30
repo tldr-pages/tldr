@@ -1,7 +1,7 @@
 # gchmod
 
-> To polecenie jest aliasem `-p linux chmod`.
+> To polecenie jest aliasem GNU `chmod`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux chmod`
+`tldr chmod`

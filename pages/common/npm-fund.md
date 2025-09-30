@@ -1,7 +1,7 @@
 # npm fund
 
 > Retrieve funding information from packages.
-> More information: <https://docs.npmjs.com/cli/commands/npm-fund>.
+> More information: <https://docs.npmjs.com/cli/npm-fund>.
 
 - List dependencies with funding URL for the project in the current directory:
 
@@ -11,6 +11,6 @@
 
 `npm fund {{package}}`
 
-- List dependencies with a funding URL for a specific [w]orkspace for the project in the current directory:
+- List dependencies with a funding URL for a specific workspace for the project in the current directory:
 
-`npm fund -w {{workspace}}`
+`npm fund {{[-w|--workspace]}} {{workspace}}`

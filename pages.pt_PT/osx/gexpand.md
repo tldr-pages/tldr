@@ -1,7 +1,7 @@
 # gexpand
 
-> Este comando é um alias de `-p linux expand`.
+> Este comando é um alias de `expand`.
 
-- Exibe documentação do comando original:
+- Ver documentação do comando original:
 
-`tldr -p linux expand`
+`tldr expand`

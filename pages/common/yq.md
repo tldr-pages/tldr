@@ -1,6 +1,6 @@
 # yq
 
-> A lightweight and portable command-line YAML processor.
+> A lightweight and portable YAML processor.
 > More information: <https://mikefarah.gitbook.io/yq/>.
 
 - Output a YAML file, in pretty-print format (v4+):
@@ -9,7 +9,7 @@
 
 - Output a YAML file, in pretty-print format (v3):
 
-`yq read {{path/to/file.yaml}} --colors`
+`yq read {{path/to/file.yaml}} {{[-C|--colors]}}`
 
 - Output the first element in a YAML file that contains only an array (v4+):
 
@@ -21,11 +21,11 @@
 
 - Set (or overwrite) a key to a value in a file (v4+):
 
-`yq eval '.{{key}} = "{{value}}"' --inplace {{path/to/file.yaml}}`
+`yq eval '.{{key}} = "{{value}}"' {{[-i|--inplace]}} {{path/to/file.yaml}}`
 
 - Set (or overwrite) a key to a value in a file (v3):
 
-`yq write --inplace {{path/to/file.yaml}} '{{key}}' '{{value}}'`
+`yq write {{[-i|--inplace]}} {{path/to/file.yaml}} '{{key}}' '{{value}}'`
 
 - Merge two files and print to `stdout` (v4+):
 
@@ -33,4 +33,4 @@
 
 - Merge two files and print to `stdout` (v3):
 
-`yq merge {{path/to/file1.yaml}} {{path/to/file2.yaml}} --colors`
+`yq merge {{path/to/file1.yaml}} {{path/to/file2.yaml}} {{[-C|--colors]}}`

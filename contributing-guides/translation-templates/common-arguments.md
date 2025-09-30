@@ -1,7 +1,7 @@
 # Common arguments
 
 This page provides translations of commonly used arguments to simplify maintaining pages in foreign languages.  
-The best way to edit this file is by using [tableconvert.com](https://tableconvert.com/).  
+The best way to edit this file is by using [tableconvert.com](https://tableconvert.com/markdown-to-markdown).  
 There, the old table can be **imported**, **edited** in a WYSIWYG editor and **exported** again.  
 Only the left-alignment of the header gets lost and has to be re-added again (`|----` → `|:---`).
 
@@ -16,8 +16,8 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | cs    | cesta/k/souboru       | cesta/k/adresari         | cesta/k/souboru_ci_adresari          | balíček       | jmeno_uzivatele    |
 | da    | sti/til/fil           | sti/til/mappe            | sti/til/fil_eller_mappe              | pakke         | brugernavn         |
 | de    | pfad/zu/datei         | pfad/zu/verzeichnis      | pfad/zu/datei_oder_verzeichnis       | paket         | benutzername       |
-| es    | ruta/al/archivo       | ruta/al/directorio       | ruta/al/archivo_o_directorio         | paquete       | nombre_de_usuario  |
-| fi    | polku/tiedostoon      | polku/hakemistoon        | polku/tiedostoon_vai_hakemistoon     | paketti       | tunnus             |
+| es    | ruta/al/archivo       | ruta/al/directorio       | ruta/al/archivo_o_directorio         | paquete       | usuario            |
+| fi    | polku/tiedostoon      | polku/hakemistoon        | polku/tiedostoon_tai_hakemistoon     | paketti       | tunnus             |
 | fr    | chemin/vers/fichier   | chemin/vers/dossier      | chemin/vers/fichier_ou_dossier       | paquet        | nom_d_utilisateur  |
 | hi    | फ़ाइल/का/पथ           | निर्देशिका/का/पथ         | फ़ाइल_या_निर्देशिका/का/पथ            | पैकेज         | उपयोगकर्ता_नाम     |
 | id    | jalan/menuju/berkas   | jalan/menuju/direktori   | jalan/menuju/berkas_atau_direktori   | paket         | nama_pengguna      |
@@ -32,7 +32,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | pt_BR | caminho/para/arquivo  | caminho/para/diretorio   | caminho/para/arquivo_ou_diretorio    | pacote        | nome_do_usuario    |
 | pt_PT | caminho/para/ficheiro | caminho/para/diretório   | caminho/para/ficheiro_ou_diretório   | pacote        | nome_de_utilizador |
 | ro    | cale/către/fișier     | cale/către/director      | cale/către/fișier_sau_director       | pachet        | nume_utilizator    |
-| ru    | путь/до/файла         | путь/до/папки            | путь/до/файла_или_папки              | пакет         | имя_пользователя   |
+| ru    | путь/к/файлу          | путь/к/каталогу          | путь/к/файлу_или_каталогу            | пакет         | имя_пользователя   |
 | sh    | put/do/datoteke       | put/do/direktorija       | put/do/datoteke_ili_direktorija      | paket         | korisničko_ime     |
 | sr    | put/do/datoteke       | put/do/direktorijuma     | put/do/datoteke_ili_direktorijuma    | paket         | korisničko_ime     |
 | sv    | sökväg/till/fil       | sökväg/till/katalog      | sökväg/till/fil_eller_katalog        | paket         | användarnamn       |

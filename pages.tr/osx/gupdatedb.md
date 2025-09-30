@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux updatedb`
+`tldr {{[-p|--platform]}} linux updatedb`

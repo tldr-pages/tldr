@@ -1,7 +1,7 @@
 # basenc
 
 > 지정된 인코딩을 사용하여 파일 또는 `stdin`을 `stdout`으로 인코딩하거나 디코딩함.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/basenc>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/basenc-invocation.html>.
 
 - base64 인코딩으로 파일을 인코딩:
 

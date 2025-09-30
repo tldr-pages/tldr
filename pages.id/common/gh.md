@@ -2,7 +2,7 @@
 
 > Memudahkan pengaksesan GitHub dari command-line.
 > Beberapa subcommands seperti `gh config` memiliki dokumentasi sendiri.
-> Informasi lebih lanjut: <https://cli.github.com/>.
+> Informasi lebih lanjut: <https://cli.github.com/manual/gh>.
 
 - Mengklon sebuah GitHub repositori di lokal:
 

@@ -1,15 +1,23 @@
 # checkupdates
 
 > Check pending updates in Arch Linux.
-> More information: <https://manned.org/checkupdates.8>.
+> More information: <https://manned.org/checkupdates>.
 
-- List pending updates:
+- Synchronize the database and list pending updates:
 
 `checkupdates`
 
-- List pending updates and download the packages to the `pacman` cache:
+- List pending updates without syncing the database:
 
-`checkupdates --download`
+`checkupdates {{[-n|--nosync]}}`
+
+- Display the list of pending updates if it differs from the last time this option was used:
+
+`checkupdates {{[-c|--change]}}`
+
+- List pending updates and download the packages to the `pacman` cache (`/var/cache/pacman/pkg`):
+
+`checkupdates {{[-d|--download]}}`
 
 - List pending updates using a specific `pacman` database:
 
@@ -17,4 +25,4 @@
 
 - Display help:
 
-`checkupdates --help`
+`checkupdates {{[-h|--help]}}`

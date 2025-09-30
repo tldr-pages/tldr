@@ -1,7 +1,7 @@
 # gtest
 
-> Este comando es un alias de `-p linux test`.
+> Este comando es un alias de `test`.
 
-- Muestra la documentación del comando original:
+- Vea la documentación para el comando original:
 
-`tldr -p linux test`
+`tldr test`

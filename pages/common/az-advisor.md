@@ -10,7 +10,7 @@
 
 - Show Azure Advisor configuration for the given subscription or resource group:
 
-`az advisor configuration show --resource_group {{resource_group}}`
+`az advisor configuration show {{[-g|--resource-group]}} {{resource_group}}`
 
 - List Azure Advisor recommendations:
 
@@ -18,8 +18,8 @@
 
 - Enable Azure Advisor recommendations:
 
-`az advisor recommendation enable --resource_group {{resource_group}}`
+`az advisor recommendation enable {{[-g|--resource-group]}} {{resource_group}}`
 
 - Disable Azure Advisor recommendations:
 
-`az advisor recommendation disable --resource_group {{resource_group}}`
+`az advisor recommendation disable {{[-g|--resource-group]}} {{resource_group}}`

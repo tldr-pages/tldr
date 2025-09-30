@@ -6,19 +6,19 @@
 
 - 기본 이미지를 기반으로 하는 이미지 푸시:
 
-`crane append {{-b|--base}} {{이미지_이름}}`
+`crane append {{[-b|--base]}} {{이미지_이름}}`
 
 - tarball에서 추가된 레이어가 있는 이미지 푸시:
 
-`crane append {{-f|--new_layer}} {{레이어_이름1 레이어_이름2 ...}}`
+`crane append {{[-f|--new_layer]}} {{레이어_이름1 레이어_이름2 ...}}`
 
 - 새로운 태그가 포함된 레이어가 추가된 이미지 푸시:
 
-`crane append {{-t|--new_tag}} {{태그_이름}}`
+`crane append {{[-t|--new_tag]}} {{태그_이름}}`
 
 - 결과 이미지를 새 tarball로 푸시:
 
-`crane append {{-o|--output}} {{경로/대상/tarball}}`
+`crane append {{[-o|--output]}} {{경로/대상/tarball}}`
 
 - Docker 대신 OCI 미디어 유형의 비어있는 기본 이미지를 사용:
 
@@ -30,4 +30,4 @@
 
 - 도움말 표시:
 
-`crane append {{-h|--help}}`
+`crane append {{[-h|--help]}}`

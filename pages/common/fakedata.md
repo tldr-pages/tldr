@@ -13,11 +13,11 @@
 
 - Generate data with a specific output format:
 
-`fakedata --format {{csv|tab|sql}} {{generator}}`
+`fakedata {{[-f|--format]}} {{csv|tab|sql}} {{generator}}`
 
 - Generate a given number of data items (defaults to 10):
 
-`fakedata --limit {{n}} {{generator}}`
+`fakedata {{[-l|--limit]}} {{n}} {{generator}}`
 
 - Generate data using a custom output template (the first letter of generator names must be capitalized):
 

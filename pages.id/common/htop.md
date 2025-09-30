@@ -1,28 +1,36 @@
 # htop
 
-> Menampilkan informasi waktu nyata dinamis tentang proses yang berjalan. Versi `top` yang disempurnakan.
+> Tampilkan informasi waktu nyata dinamis tentang proses yang berjalan. Versi `top` yang disempurnakan.
 > Informasi lebih lanjut: <https://htop.dev/>.
 
-- Mulai htop:
+- Mulai `htop`:
 
 `htop`
 
-- Mulai htop menampilkan proses yang dimiliki oleh pengguna tertentu:
+- Mulai `htop` dan tampilkan proses yang dimiliki oleh pengguna tertentu:
 
-`htop --user {{nama_pengguna}}`
+`htop {{[-u|--user]}} {{username}}`
 
-- Urutkan proses berdasarkan `sort_item` yang ditentukan (gunakan `htop --sort help` untuk opsi yang tersedia  ):
+- Tampilkan daftar proses beserta hierarki penugasannya dalam bentuk tampilan pohon untuk menunjukkan relasi proses induk beserta anak-anaknya:
 
-`htop --sort {{sort_item}}`
+`htop {{[-t|--tree]}}`
+
+- Urutkan proses berdasarkan `sort_item` yang ditentukan (gunakan `htop --sort help` untuk opsi yang tersedia):
+
+`htop {{[-s|--sort]}} {{sort_item}}`
+
+- Jalankan `htop` dengan jangka waktu pemuatan ulang (refresh) data tertentu, dalam bentuk sepersepuluh detik (yakni 50 = 5 detik):
+
+`htop {{[-d|--delay]}} {{50}}`
 
 - Lihat perintah interaktif saat menjalankan htop:
 
-`?`
+`<?>`
 
-- Beralih ke tab lain:
+- Alihkan tampilan menuju tab lain:
 
-`tab`
+`<Tab>`
 
 - Tampilkan bantuan:
 
-`htop --help`
+`htop {{[-h|--help]}}`

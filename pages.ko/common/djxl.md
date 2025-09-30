@@ -10,4 +10,4 @@
 
 - 매우 상세한 도움말 페이지를 표시:
 
-`djxl --help --verbose --verbose --verbose --verbose`
+`djxl {{[-h -v -v -v -v|--help --verbose --verbose --verbose --verbose]}}`

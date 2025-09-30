@@ -1,6 +1,7 @@
 # modinfo
 
 > Extract information about a Linux kernel module.
+> See also: `kmod` for other module management commands.
 > More information: <https://manned.org/modinfo>.
 
 - List all attributes of a kernel module:
@@ -9,4 +10,4 @@
 
 - List the specified attribute only:
 
-`modinfo -F {{author|description|license|parm|filename}} {{kernel_module}}`
+`modinfo {{[-F|--field]}} {{author|description|license|parm|filename|version|...}} {{kernel_module}}`

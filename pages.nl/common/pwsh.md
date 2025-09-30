@@ -1,7 +1,7 @@
 # pwsh
 
 > Command-line shell en scripting taal specifiek ontworpen voor systeemadministratie.
-> Dit commando refereert naar PowerShell versie 6 en hoger (ook wel bekend als  PowerShell Core en cross-platform PowerShell).
+> Dit commando refereert naar PowerShell versie 6 en hoger (ook wel bekend als PowerShell Core en cross-platform PowerShell).
 > Om de originele Windows versie (5.1 en lager, ook wel bekend als de legacy Windows PowerShell) te gebruiken, gebruik `powershell` in plaats van `pwsh`.
 > Meer informatie: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_pwsh>.
 

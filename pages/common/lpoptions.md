@@ -6,7 +6,7 @@
 
 - Set the default printer:
 
-`lpoptions -d {{printer[/instance]}}`
+`lpoptions -d {{printer}}/{{instance}}`
 
 - List printer-specific options of a specific printer:
 

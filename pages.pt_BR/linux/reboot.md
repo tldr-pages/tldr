@@ -9,7 +9,7 @@
 
 - Desliga o sistema (igual a `poweroff`):
 
-`reboot --poweroff`
+`reboot {{[-p|--poweroff]}}`
 
 - Suspende o sistema (igual a `halt`):
 
@@ -17,8 +17,8 @@
 
 - Reinicia imediatamente sem entrar em contato com o gerente do sistema:
 
-`reboot --force`
+`reboot {{[-f|--force]}}`
 
 - Escreve a entrada wtmp shutdown sem reinicializar o sistema:
 
-`reboot --wtmp-only`
+`reboot {{[-w|--wtmp-only]}}`

@@ -15,7 +15,7 @@
 
 `nl -b {{a|n}} {{path/to/file}}`
 
-- Number only the [b]ody lines that match a basic regular expression (BRE) [p]attern:
+- Number only the [b]ody lines that match a basic `regex` (BRE) [p]attern:
 
 `nl -b p'FooBar[0-9]' {{path/to/file}}`
 

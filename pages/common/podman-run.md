@@ -21,7 +21,7 @@
 
 - Run command in a new container with bind mounted volumes:
 
-`podman run --volume {{/path/to/host_path}}:{{/path/to/container_path}} {{image:tag}} {{command}}`
+`podman run --volume /{{path/to/host_path}}:/{{path/to/container_path}} {{image:tag}} {{command}}`
 
 - Run command in a new container with published ports:
 

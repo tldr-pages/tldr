@@ -1,7 +1,7 @@
 # gnproc
 
-> Este comando é um apelido de `-p linux nproc`.
+> Este comando é um apelido de `nproc`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux nproc`
+`tldr nproc`

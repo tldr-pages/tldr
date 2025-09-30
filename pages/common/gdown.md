@@ -17,8 +17,8 @@
 
 - Download a folder using its ID or the full URL:
 
-`gdown {{folder_id|url}} -O {{path/to/output_directory}} --folder`
+`gdown {{folder_id|url}} {{[-O|--output]}} {{path/to/output_directory}} --folder`
 
 - Download a tar archive, write it to `stdout` and extract it:
 
-`gdown {{tar_url}} -O - --quiet | tar xvf -`
+`gdown {{tar_url}} {{[-O|--output]}} - {{[-q|--quiet]}} | tar xvf -`

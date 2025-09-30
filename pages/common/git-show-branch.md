@@ -13,15 +13,15 @@
 
 - Compare all remote tracking branches:
 
-`git show-branch --remotes`
+`git show-branch {{[-r|--remotes]}}`
 
 - Compare both local and remote tracking branches:
 
-`git show-branch --all`
+`git show-branch {{[-a|--all]}}`
 
 - List the latest commits in all branches:
 
-`git show-branch --all --list`
+`git show-branch {{[-a|--all]}} --list`
 
 - Compare a given branch with the current branch:
 
@@ -33,4 +33,4 @@
 
 - Keep going a given number of commits past the common ancestor:
 
-`git show-branch --more {{5}} {{commit|branch_name|ref}} {{commit|branch_name|ref}} {{...}}`
+`git show-branch --more {{5}} {{branch_name1|ref1|commit1 branch_name2|ref2|commit2 ...}}`

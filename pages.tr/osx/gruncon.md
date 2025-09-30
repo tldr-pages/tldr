@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux runcon`
+`tldr {{[-p|--platform]}} linux runcon`

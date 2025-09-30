@@ -3,7 +3,7 @@
 > Build a tree object using `ls-tree` formatted text.
 > More information: <https://git-scm.com/docs/git-mktree>.
 
-- Build a tree object and verify that each tree entry’s hash identifies an existing object:
+- Build a tree object and verify that each tree entry's hash identifies an existing object:
 
 `git mktree`
 

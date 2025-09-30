@@ -5,24 +5,24 @@
 
 - Only run tests containing a specific string in their names:
 
-`cargo test {{testname}}`
+`cargo {{[t|test]}} {{test_name}}`
 
 - Set the number of simultaneous running test cases:
 
-`cargo test -- --test-threads {{count}}`
+`cargo {{[t|test]}} -- --test-threads {{count}}`
 
 - Test artifacts in release mode, with optimizations:
 
-`cargo test --release`
+`cargo {{[t|test]}} {{[-r|--release]}}`
 
 - Test all packages in the workspace:
 
-`cargo test --workspace`
+`cargo {{[t|test]}} --workspace`
 
 - Run tests for a specific package:
 
-`cargo test --package {{package}}`
+`cargo {{[t|test]}} {{[-p|--package]}} {{package}}`
 
 - Run tests without hiding output from test executions:
 
-`cargo test -- --nocapture`
+`cargo {{[t|test]}} -- --nocapture`

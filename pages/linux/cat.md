@@ -1,7 +1,7 @@
 # cat
 
 > Print and concatenate files.
-> More information: <https://www.gnu.org/software/coreutils/cat>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html>.
 
 - Print the contents of a file to `stdout`:
 
@@ -19,10 +19,10 @@
 
 `cat - > {{path/to/file}}`
 
-- [n]umber all output lines:
+- Number all output lines:
 
-`cat -n {{path/to/file}}`
+`cat {{[-n|--number]}} {{path/to/file}}`
 
 - Display non-printable and whitespace characters (with `M-` prefix if non-ASCII):
 
-`cat -v -t -e {{path/to/file}}`
+`cat {{[-vte|--show-nonprinting -t -e]}} {{path/to/file}}`

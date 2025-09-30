@@ -14,7 +14,7 @@
 
 - GPG 키로 인증된 커밋 객체 생성:
 
-`git commit-tree {{tree}} -m "{{message}}" --gpg-sign`
+`git commit-tree {{tree}} -m "{{message}}" {{[-S|--gpg-sign]}}`
 
 - 지정된 부모 커밋 객체를 가진 커밋 객체 생성:
 

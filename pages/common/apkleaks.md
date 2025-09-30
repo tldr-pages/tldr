@@ -4,14 +4,14 @@
 > Note: APKLeaks utilizes the `jadx` disassembler to decompile APK files.
 > More information: <https://github.com/dwisiswant0/apkleaks>.
 
-- Scan an APK [f]ile for URIs, endpoints, and secrets:
+- Scan an APK file for URIs, endpoints, and secrets:
 
-`apkleaks --file {{path/to/file.apk}}`
+`apkleaks {{[-f|--file]}} {{path/to/file.apk}}`
 
-- Scan and save the [o]utput to a specific file:
+- Scan and save the output to a specific file:
 
-`apkleaks --file {{path/to/file.apk}} --output {{path/to/output.txt}}`
+`apkleaks {{[-f|--file]}} {{path/to/file.apk}} {{[-o|--output]}} {{path/to/output.txt}}`
 
-- Pass `jadx` disassembler [a]rguments:
+- Pass `jadx` disassembler arguments:
 
-`apkleaks --file {{path/to/file.apk}} --args "{{--threads-count 5 --deobf}}"`
+`apkleaks {{[-f|--file]}} {{path/to/file.apk}} {{[-a|--args]}} "{{--threads-count 5 --deobf}}"`

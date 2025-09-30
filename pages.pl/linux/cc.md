@@ -1,7 +1,6 @@
 # cc
 
-> To polecenie jest aliasem dla `gcc`.
-> Więcej informacji: <https://gcc.gnu.org>.
+> To polecenie jest aliasem `gcc`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

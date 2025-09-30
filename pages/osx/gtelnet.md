@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr -p linux telnet`
+`tldr telnet`

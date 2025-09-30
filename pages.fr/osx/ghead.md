@@ -4,4 +4,4 @@
 
 - Voir la documentation de la commande originale :
 
-`tldr -p linux head`
+`tldr {{[-p|--platform]}} linux head`

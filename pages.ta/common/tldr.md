@@ -14,16 +14,16 @@
 
 - கொடுக்கப்பட்ட [L] மொழியில் கட்டளைக்காக `tldr` பக்கத்தை அச்சிடவும் (கிடைத்தால், இல்லையெனில் ஆங்கிலத்திற்குத் திரும்பவும்):
 
-`tldr --language {{மொழி_குறியீடு}} {{கட்டளை}}`
+`tldr {{[-L|--language]}} {{மொழி_குறியீடு}} {{கட்டளை}}`
 
 - ஒரு குறிப்பிட்ட [p] தளத்திலிருந்து ஒரு கட்டளைக்கு `tldr` பக்கத்தை அச்சிடவும்:
 
-`tldr --platform {{android|common|freebsd|linux|osx|netbsd|openbsd|sunos|windows}} {{கட்டளை}}`
+`tldr {{[-p|--platform]}} {{android|common|freebsd|linux|osx|netbsd|openbsd|sunos|windows}} {{கட்டளை}}`
 
 - `tldr` பக்கங்களின் உள்ளூர் தற்காலிக சேமிப்பை [u] புதுப்பிக்கவும்:
 
-`tldr --update`
+`tldr {{[-u|--update]}}`
 
 - தற்போதைய இயங்குதளத்திற்கான அனைத்து பக்கங்களையும் பட்டியலிடவும் மற்றும் `common`:
 
-`tldr --list`
+`tldr {{[-l|--list]}}`

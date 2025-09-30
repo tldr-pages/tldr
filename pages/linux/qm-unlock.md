@@ -5,4 +5,4 @@
 
 - Unlock a specific virtual machine:
 
-`qm unlock {{vm_id}}`
+`qm {{[u|unlock]}} {{vm_id}}`

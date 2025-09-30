@@ -9,19 +9,19 @@
 
 - Show the battery icon and set the update interval to 20 seconds:
 
-`cbatticon --update-interval {{20}}`
+`cbatticon {{[-u|--update-interval]}} {{20}}`
 
 - List available icon types:
 
-`cbatticon --list-icon-types`
+`cbatticon {{[-t|--list-icon-types]}}`
 
 - Show the battery icon with a specific icon type:
 
-`cbatticon --icon-type {{standard|notification|symbolic}}`
+`cbatticon {{[-i|--icon-type]}} {{standard|notification|symbolic}}`
 
 - List available power supplies:
 
-`cbatticon --list-power-supplies`
+`cbatticon {{[-p|--list-power-supplies]}}`
 
 - Show the battery icon for a specific battery:
 
@@ -29,4 +29,4 @@
 
 - Show the battery icon and which command to execute when the battery level reaches the set critical level:
 
-`cbatticon --critical-level {{5}} --command-critical-level {{poweroff}}`
+`cbatticon {{[-r|--critical-level]}} {{5}} {{[-c|--command-critical-level]}} {{poweroff}}`

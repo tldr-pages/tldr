@@ -4,4 +4,4 @@
 
 - Exibe documentação sobre o comando original:
 
-`tldr -p linux sleep`
+`tldr {{[-p|--platform]}} linux sleep`

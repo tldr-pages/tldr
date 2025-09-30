@@ -6,8 +6,8 @@
 
 - Slice a Netpbm image such that the resulting tiles have the specified height and width:
 
-`pamdice -outstem {{path/to/filename_stem}} -height {{value}} -width {{value}} {{path/to/input.ppm}}`
+`pamdice {{[-o|-outstem]}} {{path/to/filename_stem}} {{[-he|-height]}} {{value}} {{[-w|-width]}} {{value}} {{path/to/input.ppm}}`
 
 - Make the produced pieces overlap by the specified amount horizontally and vertically:
 
-`pamdice -outstem {{path/to/filename_stem}} -height {{value}} -width {{value}} -hoverlap {{value}} -voverlap {{value}} {{path/to/input.ppm}}`
+`pamdice {{[-o|-outstem]}} {{path/to/filename_stem}} {{[-he|-height]}} {{value}} {{[-w|-width]}} {{value}} {{[-ho|-hoverlap]}} {{value}} {{[-vo|-voverlap]}} {{value}} {{path/to/input.ppm}}`

@@ -9,7 +9,7 @@
 
 - Analyze a heap dump, specifying an alternate port for the HTTP server:
 
-`jhat -p {{port}} {{dump_file.bin}}`
+`jhat {{[-p|-port]}} {{port}} {{dump_file.bin}}`
 
 - Analyze a dump letting `jhat` use up to 8 GB RAM (2-4x dump size recommended):
 

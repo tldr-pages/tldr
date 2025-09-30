@@ -1,7 +1,7 @@
 # pants
 
 > Herramienta de flujo de trabajo rápida, escalable, fácil de usar y de código abierto.
-> Más información: <https://www.pantsbuild.org/2.20/docs/using-pants/command-line-help>.
+> Más información: <https://www.pantsbuild.org/stable/docs/using-pants/command-line-help>.
 
 - Lista todos los objetivos:
 

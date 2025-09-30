@@ -2,7 +2,7 @@
 
 > Start a graphical user interface for `tlmgr`.
 > `tlmgr gui` depends on the package `perl-tk`, which has to be installed manually.
-> More information: <https://www.tug.org/texlive/tlmgr.html>.
+> More information: <https://www.tug.org/texlive/doc/tlmgr.html#gui>.
 
 - Start a GUI for `tlmgr`:
 

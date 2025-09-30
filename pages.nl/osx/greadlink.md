@@ -1,7 +1,7 @@
 # greadlink
 
-> Dit commando is een alias van `-p linux readlink`.
+> Dit commando is een alias van GNU `readlink`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux readlink`
+`tldr readlink`

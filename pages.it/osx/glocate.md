@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux locate`
+`tldr {{[-p|--platform]}} linux locate`

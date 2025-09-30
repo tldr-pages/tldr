@@ -2,21 +2,21 @@
 
 > Toon regels die beginnen met een prefix in een gesorteerd bestand.
 > Let op: de regels in het bestand moeten gesorteerd zijn.
-> Bekijk ook: `grep`, `sort`.
+> Zie ook: `grep`, `sort`.
 > Meer informatie: <https://man.openbsd.org/look>.
 
 - Zoek naar regels die beginnen met een specifieke prefix in een specifiek bestand:
 
 `look {{prefix}} {{pad/naar/bestand}}`
 
-- Zoek hoofdletterongevoelig ([f]) alleen op alfanumerieke tekens ([d]):
+- Zoek hoofdletterongevoelig alleen op alfanumerieke tekens:
 
-`look -f -d {{prefix}} {{pad/naar/bestand}}`
+`look {{[-f|--ignore-case]}} {{[-d|--alphanum]}} {{prefix}} {{pad/naar/bestand}}`
 
-- Specificeer een string-[t]erminatiekarakter (standaard is spatie):
+- Specificeer een karakter voor het beëindigen van een string (standaard een spatie):
 
-`look -t {{,}}`
+`look {{[-t|--terminate]}} {{,}}`
 
-- Zoek in `/usr/share/dict/words` (`--ignore-case` en `--alphanum` worden aangenomen):
+- Zoek in `/usr/share/dict/words` (`--alphanum` en `--ignore-case` worden verondersteld):
 
 `look {{prefix}}`

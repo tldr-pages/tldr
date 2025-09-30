@@ -1,7 +1,7 @@
 # gfactor
 
-> Este comando é um alias de `-p linux factor`.
+> Este comando é um alias de `factor`.
 
-- Exibe documentação do comando original:
+- Ver documentação do comando original:
 
-`tldr -p linux factor`
+`tldr factor`

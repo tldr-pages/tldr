@@ -10,24 +10,24 @@
 
 - Salva um arquivo:
 
-`<Ctrl> + S`
+`<Ctrl s>`
 
 - Corta a linha inteira:
 
-`<Ctrl> + K`
+`<Ctrl k>`
 
-- Procura por um padrão no arquivo (pressione `Ctrl + N`/`Ctrl + P` para ir para a próxima/anterior correspondência):
+- Procura por um padrão no arquivo (pressione `<Ctrl n>`/`<Ctrl p>` para ir para a próxima/anterior correspondência):
 
-`<Ctrl> + F "{{padrão}}" <Enter>`
+`<Ctrl f>{{padrão}}<Enter>`
 
 - Executa um comando:
 
-`<Ctrl> + E {{comando}} <Enter>`
+`<Ctrl e>{{comando}}<Enter>`
 
 - Realiza uma substituição em todo o arquivo:
 
-`<Ctrl> + E replaceall "{{padrão}}" "{{substituição}}" <Enter>`
+`<Ctrl e>replaceall "{{padrão}}" "{{substituição}}"<Enter>`
 
 - Sai:
 
-`<Ctrl> + Q`
+`<Ctrl q>`

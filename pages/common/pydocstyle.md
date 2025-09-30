@@ -9,11 +9,11 @@
 
 - Show an explanation of each error:
 
-`pydocstyle {{-e|--explain}} {{file.py|path/to/directory}}`
+`pydocstyle {{[-e|--explain]}} {{file.py|path/to/directory}}`
 
 - Show debug information:
 
-`pydocstyle {{-d|--debug}} {{file.py|path/to/directory}}`
+`pydocstyle {{[-d|--debug]}} {{file.py|path/to/directory}}`
 
 - Display the total number of errors:
 

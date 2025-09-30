@@ -19,6 +19,10 @@
 
 `ipconfig /release {{适配器}}`
 
-- 清除所有 DNS 缓存：
+- 显示所有本地 DNS 缓存：
+
+`ipconfig /displaydns`
+
+- 清除所有本地 DNS 缓存：
 
 `ipconfig /flushdns`

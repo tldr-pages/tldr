@@ -1,7 +1,7 @@
 # deluge-console
 
 > Interfaccia interattiva da linea di comando per il client BitTorrent Deluge.
-> Maggiori informazioni: <https://deluge-torrent.org>.
+> Maggiori informazioni: <https://deluge-torrent.org/userguide/thinclient/>.
 
 - Avvia un'interfaccia interattiva da console:
 

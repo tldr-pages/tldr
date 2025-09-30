@@ -1,7 +1,7 @@
 # gcut
 
-> Perintah ini merupakan alias dari `-p linux cut`.
+> Perintah ini merupakan alias dari `cut`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux cut`
+`tldr {{[-p|--platform]}} common cut`

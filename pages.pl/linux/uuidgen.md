@@ -1,7 +1,7 @@
 # uuidgen
 
 > Stwórz unikalny identyfikator (UUIDs).
-> Zobacz też `uuid`.
+> Zobacz także `uuid`.
 > Więcej informacji: <https://manned.org/uuidgen>.
 
 - Stwórz losowy UUIDv4:

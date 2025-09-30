@@ -18,12 +18,12 @@
 
 - Tüm çıktı satırlarını numaralandır:
 
-`bat --number {{dosya}}`
+`bat {{[-n|--number]}} {{dosya}}`
 
 - Bir JSON dosyasının sözdizimini vurgula:
 
-`bat --language json {{dosya.json}}`
+`bat {{[-l|--language]}} json {{dosya.json}}`
 
 - Desteklenen tüm dilleri görüntüle:
 
-`bat --list-languages`
+`bat {{[-L|--list-languages]}}`

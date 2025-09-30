@@ -1,7 +1,7 @@
 # gcomm
 
-> 这是 `-p linux comm` 命令的一个别名。
+> 这是 `comm` 命令的一个别名。
 
 - 原命令的文档在：
 
-`tldr -p linux comm`
+`tldr comm`

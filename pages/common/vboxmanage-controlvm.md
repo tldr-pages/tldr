@@ -1,4 +1,4 @@
-# vboxmanage-controlvm
+# VBoxManage controlvm
 
 > Change the state and the settings of a currently running virtual machine.
 > More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-controlvm>.

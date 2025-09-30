@@ -1,7 +1,7 @@
 # gmkdir
 
-> Este comando é um alias de `-p linux mkdir`.
+> Este comando é um alias de `mkdir`.
 
-- Exibe documentação do comando original:
+- Ver documentação do comando original:
 
-`tldr -p linux mkdir`
+`tldr mkdir`

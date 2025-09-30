@@ -18,4 +18,4 @@
 
 - Print a specific number of lines from the tail of output:
 
-`pueue log --lines {{number_of_lines}} {{task_id}}`
+`pueue log {{[-l|--lines]}} {{number_of_lines}} {{task_id}}`

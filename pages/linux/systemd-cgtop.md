@@ -10,7 +10,7 @@
 
 - Change the sort order:
 
-`systemd-cgtop --order={{cpu|memory|path|tasks|io}}`
+`systemd-cgtop --order {{cpu|memory|path|tasks|io}}`
 
 - Show the CPU usage by time instead of percentage:
 
@@ -18,7 +18,7 @@
 
 - Change the update interval in seconds (or one of these time units: `ms`, `us`, `min`):
 
-`systemd-cgtop --delay={{interval}}`
+`systemd-cgtop {{[-d|--delay]}} {{interval}}`
 
 - Only count userspace processes (without kernel threads):
 

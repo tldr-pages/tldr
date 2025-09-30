@@ -16,14 +16,14 @@
 
 `crane --insecure {{subcommand}}`
 
-- Specify the platform in the form os/arch{{/variant}}{{:osversion}} (e.g. linux/amd64). (default all):
+- Specify the platform in the form `os/arch/variant:osversion` (e.g. `linux/amd64`). (default all):
 
-`crane  --platform {{platform}} {{subcommand}}`
+`crane --platform {{platform}} {{subcommand}}`
 
 - Enable debug logs for a subcommand:
 
-`crane {{-v|--verbose}} {{subcommand}}`
+`crane {{[-v|--verbose]}} {{subcommand}}`
 
 - Display help for a subcommand:
 
-`crane {{-h|--help}} {{subcommand}}`
+`crane {{[-h|--help]}} {{subcommand}}`

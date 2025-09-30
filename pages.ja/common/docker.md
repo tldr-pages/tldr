@@ -2,11 +2,11 @@
 
 > Dockerコンテナ及びDockerイメージの管理を行います。
 > `run` のようないくつかのサブコマンドには、使用方法についての独自のドキュメントがあります。
-> 詳しくはこちら: <https://docs.docker.com/reference/cli/docker/>
+> もっと詳しく: <https://docs.docker.com/reference/cli/docker/>。
 
 - 全てのDockerコンテナを表示する(実行中・停止中、両方のコンテナ):
 
-`docker ps --all`
+`docker ps {{[-a|--all]}}`
 
 - イメージからカスタムのコンテナ名でコンテナを起動する:
 
@@ -26,7 +26,7 @@
 
 - 実行中のコンテナ内でシェルを開く:
 
-`docker exec -it {{コンテナ名}} {{sh}}`
+`docker exec {{[-it|--interactive --tty]}} {{コンテナ名}} {{sh}}`
 
 - 停止中のコンテナを削除する:
 
@@ -34,4 +34,4 @@
 
 - コンテナのログを取得・追跡する:
 
-`docker logs -f {{コンテナ名}}`
+`docker logs {{[-f|--follow]}} {{コンテナ名}}`

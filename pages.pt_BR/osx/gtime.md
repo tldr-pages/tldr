@@ -1,7 +1,7 @@
 # gtime
 
-> Este comando é um apelido de `-p linux time`.
+> Este comando é um apelido de `time`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux time`
+`tldr time`

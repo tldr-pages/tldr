@@ -13,7 +13,7 @@
 
 - Monitor bandwidth on multiple devices:
 
-`sudo nethogs {{device1}} {{device2}}`
+`sudo nethogs {{device1 device2 ...}}`
 
 - Specify refresh rate:
 

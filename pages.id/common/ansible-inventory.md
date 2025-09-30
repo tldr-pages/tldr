@@ -10,11 +10,11 @@
 
 - Tampilkan suatu inventaris kustom:
 
-`ansible-inventory --list --inventory {{jalan/menuju/berkas_atau_skrip_atau_direktori}}`
+`ansible-inventory --list {{[-i|--inventory-file]}} {{jalan/menuju/berkas_atau_skrip_atau_direktori}}`
 
 - Tampilkan informasi inventaris default dalam format YAML:
 
-`ansible-inventory --list --yaml`
+`ansible-inventory --list {{[-y|--yaml]}}`
 
 - Simpan informasi inventaris default ke dalam suatu berkas teks:
 

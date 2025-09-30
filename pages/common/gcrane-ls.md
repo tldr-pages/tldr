@@ -14,8 +14,8 @@
 
 - Whether to recurse through repositories:
 
-`gcrane ls {{repository}} {{-r|--recursive}}`
+`gcrane ls {{repository}} {{[-r|--recursive]}}`
 
 - Display help:
 
-`gcrane ls {{-h|--help}}`
+`gcrane ls {{[-h|--help]}}`

@@ -1,7 +1,7 @@
 # greadlink
 
-> To polecenie jest aliasem `-p linux readlink`.
+> To polecenie jest aliasem GNU `readlink`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux readlink`
+`tldr readlink`

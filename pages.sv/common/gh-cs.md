@@ -1,8 +1,7 @@
 # gh cs
 
-> Det här kommandot är ett alias för  `gh codespace`.
-> Mer information: <https://cli.github.com/manual/gh_codespace>.
+> Det här kommandot är ett alias för `gh codespace`.
 
 - Se dokumentationen för orginalkommandot:
 
-`tldr gh-codespace`
+`tldr gh codespace`

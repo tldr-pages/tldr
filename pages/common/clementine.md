@@ -2,7 +2,7 @@
 
 > A modern music player and library organizer.
 > See also: `audacious`, `qmmp`, `cmus`, `mpv`.
-> More information: <https://github.com/clementine-player/Clementine/wiki>.
+> More information: <https://manned.org/clementine>.
 
 - Start the GUI or bring it to front:
 
@@ -14,11 +14,11 @@
 
 - Toggle between pausing and playing:
 
-`clementine --play-pause`
+`clementine {{[-t|--play-pause]}}`
 
 - Stop playback:
 
-`clementine --stop`
+`clementine {{[-s|--stop]}}`
 
 - Skip to the next or previous track:
 
@@ -26,12 +26,12 @@
 
 - Create a new playlist with one or more music files or URLs:
 
-`clementine --create {{url1 url2 ... | path/to/music1.ext path/to/music2.ext ...}}`
+`clementine {{[-c|--create]}} {{url1 url2 ...|path/to/music1.ext path/to/music2.ext ...}}`
 
 - Load a playlist file:
 
-`clementine --load {{path/to/playlist.ext}}`
+`clementine {{[-l|--load]}} {{path/to/playlist.ext}}`
 
 - Play a specific track in the currently loaded playlist:
 
-`clementine --play-track {{5}}`
+`clementine {{[-k|--play-track]}} {{5}}`

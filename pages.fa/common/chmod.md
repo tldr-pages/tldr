@@ -1,7 +1,7 @@
 # chmod
 
 > تغییر مجوز(ها)ی دسترسی به یک فایل یا پوشه.
-> اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/chmod>.
+> اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html>.
 
 - به مالک فایل دسترسی اجرا میدهد:
 
@@ -29,8 +29,8 @@
 
 - به صورت بازگشتی به گروه و دیگران دسترسی نوشتن میدهد:
 
-`chmod -R g+w,o+w {{path/to/directory}}`
+`chmod {{[-R|--recursive]}} g+w,o+w {{path/to/directory}}`
 
 - به صورت بازگشتی در پوشه و زیرپوشه(ها) دسترسی اجرا و خواندن فایل(ها) را میدهد:
 
-`chmod -R a+rX {{path/to/directory}}`
+`chmod {{[-R|--recursive]}} a+rX {{path/to/directory}}`

@@ -2,7 +2,7 @@
 
 > Simple IRC client.
 > Part of the suckless tools.
-> More information: <https://tools.suckless.org/sic/>.
+> More information: <https://manned.org/sic>.
 
 - Connect to the default host (irc.ofct.net) with the nickname set in the `$USER` environment variable:
 

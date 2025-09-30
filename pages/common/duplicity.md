@@ -3,7 +3,7 @@
 > Create incremental, compressed, encrypted and versioned backups.
 > Can also upload the backups to a variety of backend services.
 > It is worth mentioning that depending on the version, some options may not be available (e.g. `--gio` in 2.0.0).
-> More information: <https://duplicity.gitlab.io>.
+> More information: <https://duplicity.gitlab.io/stable/duplicity.1.html#name>.
 
 - Backup a directory via FTPS to a remote machine, encrypting it with a password:
 
@@ -15,7 +15,7 @@
 
 - Delete versions older than 1 year from a backup stored on a WebDAV share:
 
-`FTP_PASSWORD={{webdav_login_password}} duplicity remove-older-than {{1Y}} --force {{webdav[s]://user@hostname[:port]/some_dir}}`
+`FTP_PASSWORD={{webdav_login_password}} duplicity remove-older-than {{1Y}} --force {{webdav[s]://user@hostname[:port]/some_directory}}`
 
 - List the available backups:
 
@@ -23,7 +23,7 @@
 
 - List the files in a backup stored on a remote machine, via SSH:
 
-`duplicity list-current-files --time {{YYYY-MM-DD}} scp://{{user@hostname}}/{{path/to/backup/dir}}`
+`duplicity list-current-files {{[-t|--time]}} {{YYYY-MM-DD}} scp://{{user@hostname}}/{{path/to/backup_directory}}`
 
 - Restore a subdirectory from a GnuPG-encrypted local backup to a given location:
 

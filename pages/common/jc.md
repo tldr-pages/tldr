@@ -1,20 +1,11 @@
 # jc
 
-> Convert the output of multiple commands to JSON.
-> More information: <https://github.com/kellyjonbrazil/jc>.
+> `jc` can refer to multiple commands with the same name.
 
-- Convert command output to JSON via pipe:
+- View documentation for the `JSON` serializer:
 
-`{{ifconfig}} | jc {{--ifconfig}}`
+`tldr jc.json`
 
-- Convert command output to JSON via magic syntax:
+- View documentation for the `autojump` alias:
 
-`jc {{ifconfig}}`
-
-- Output pretty JSON via pipe:
-
-`{{ifconfig}} | jc {{--ifconfig}} -p`
-
-- Output pretty JSON via magic syntax:
-
-`jc -p {{ifconfig}}`
+`tldr autojump`

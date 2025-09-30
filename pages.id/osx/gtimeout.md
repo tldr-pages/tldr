@@ -1,7 +1,7 @@
 # gtimeout
 
-> Perintah ini merupakan alias dari `-p linux timeout`.
+> Perintah ini merupakan alias dari `timeout`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux timeout`
+`tldr timeout`

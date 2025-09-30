@@ -1,7 +1,7 @@
 # mklost+found
 
 > Create a lost+found directory.
-> More information: <https://manned.org/mklost+found>.
+> More information: <https://linux.die.net/man/8/mklost+found>.
 
 - Create a `lost+found` directory in the current directory:
 

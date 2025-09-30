@@ -9,16 +9,16 @@
 
 - List all streamable files contained in a torrent (given as a magnet link):
 
-`peerflix "{{magnet:?xt=urn:btih:0123456789abcdef0123456789abcdef01234567}}" --list`
+`peerflix "{{magnet:?xt=urn:btih:0123456789abcdef0123456789abcdef01234567}}" {{[-l|--list]}}`
 
 - Stream the largest file in a torrent, given as a torrent URL, to VLC:
 
-`peerflix "{{http://example.net/music.torrent}}" --vlc`
+`peerflix "{{http://example.net/music.torrent}}" {{[-v|--vlc]}}`
 
 - Stream the largest file in a torrent to MPlayer, with subtitles:
 
-`peerflix "{{torrent_url|magnet_link}}" --mplayer --subtitles {{subtitle-file.srt}}`
+`peerflix "{{torrent_url|magnet_link}}" {{[-m|--mplayer]}} {{[-t|--subtitles]}} {{subtitle-file.srt}}`
 
 - Stream all files from a torrent to Airplay:
 
-`peerflix "{{torrent_url|magnet_link}}" --all --airplay`
+`peerflix "{{torrent_url|magnet_link}}" {{[-a|--all]}} {{[-s|--airplay]}}`

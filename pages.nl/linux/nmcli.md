@@ -3,17 +3,17 @@
 > Beheer de netwerk configuratie via NetworkManager.
 > Meer informatie: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
 
-- Bekijk de documentatie voor het draaien van `nmcli` als een NetworkManager secret/polkit agent:
+- Bekijk de documentatie voor het beheren van netwerkinterfaces en het opzetten van nieuwe Wi-Fi-verbindingen:
 
-`tldr nmcli agent`
+`tldr nmcli device`
 
 - Bekijk de documentatie voor het beheren van netwerkverbindingen:
 
 `tldr nmcli connection`
 
-- Bekijk de documentatie voor het beheren van netwerkinterfaces en het opzetten van nieuwe Wi-Fi-verbindingen:
+- Bekijk de documentatie voor het draaien van `nmcli` als een NetworkManager secret/polkit agent:
 
-`tldr nmcli device`
+`tldr nmcli agent`
 
 - Bekijk de documentatie voor het beheren van algemene instellingen van NetworkManager:
 

@@ -1,6 +1,6 @@
 # task
 
-> Command-line to-do list manager.
+> To-do list manager.
 > More information: <https://taskwarrior.org/docs/>.
 
 - Add a new task which is due tomorrow:

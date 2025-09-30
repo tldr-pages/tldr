@@ -1,7 +1,7 @@
 # gtrue
 
-> Este comando é um apelido de `-p linux true`.
+> Este comando é um apelido de `true`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux true`
+`tldr true`

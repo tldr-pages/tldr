@@ -1,7 +1,7 @@
 # bind
 
 > Bash builtin to manage bash hotkeys and variables.
-> More information: <https://www.gnu.org/software/bash/manual/bash.html#Bash-Builtins>.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-bind>.
 
 - List all bound commands and their hotkeys:
 

@@ -1,7 +1,7 @@
 # mv
 
 > Mueve o renombra archivos y directorios.
-> Más información: <https://www.gnu.org/software/coreutils/mv>.
+> Más información: <https://www.gnu.org/software/coreutils/manual/html_node/mv-invocation.html>.
 
 - Cambia el nombre de un archivo o directorio cuando el destino no es un directorio existente:
 
@@ -15,22 +15,22 @@
 
 `mv {{ruta/a/origen1 ruta/a/origen2 ...}} {{ruta/a/directorio_existente}}`
 
-- No pedir confirmación ([f]) antes de sobrescribir los archivos existentes:
+- No pedir confirmación antes de sobrescribir los archivos existentes:
 
-`mv --force {{ruta/a/origen}} {{ruta/a/destino}}`
+`mv {{[-f|--force]}} {{ruta/a/origen}} {{ruta/a/destino}}`
 
-- Pedir confirmación [i]nteractivamente antes de sobrescribir archivos existentes, independientemente de los permisos de los archivos:
+- Pedir confirmación interactivamente antes de sobrescribir archivos existentes, independientemente de los permisos de los archivos:
 
-`mv --interactive {{ruta/a/origen}} {{ruta/a/destino}}`
+`mv {{[-i|--interactive]}} {{ruta/a/origen}} {{ruta/a/destino}}`
 
-- No sobrescribir ([n]) los archivos existentes en el destino:
+- No sobrescribir los archivos existentes en el destino:
 
-`mv --no-clobber {{ruta/a/origen}} {{ruta/a/destino}}`
+`mv {{[-n|--no-clobber]}} {{ruta/a/origen}} {{ruta/a/destino}}`
 
-- Mueve archivos en modo [v]erbose, mostrando los archivos después de moverlos:
+- Mueve archivos en modo verboso, mostrando los archivos después de moverlos:
 
-`mv --verbose {{ruta/a/origen}} {{ruta/a/destino}}`
+`mv {{[-v|--verbose]}} {{ruta/a/origen}} {{ruta/a/destino}}`
 
-- Especifica el directorio de des[t]ino para poder utilizar herramientas externas para recopilar archivos movibles:
+- Especifica el directorio de destino para poder utilizar herramientas externas para recopilar archivos movibles:
 
-`{{find /var/log -type f -name '*.log' -print0}} | {{xargs -0}} mv --target-directory {{ruta/a/directorio_destino}}`
+`{{find /var/log -type f -name '*.log' -print0}} | {{xargs -0}} mv {{[-t|--target-directory]}} {{ruta/a/directorio_destino}}`

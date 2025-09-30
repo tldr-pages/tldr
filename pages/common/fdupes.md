@@ -13,20 +13,20 @@
 
 - Search a directory recursively:
 
-`fdupes -r {{path/to/directory}}`
+`fdupes {{[-r|--recurse]}} {{path/to/directory}}`
 
 - Search multiple directories, one recursively:
 
-`fdupes {{directory1}} -R {{directory2}}`
+`fdupes {{path/to/irectory1}} {{[-R|--recurse:]}} {{path/to/directory2}}`
 
 - Search recursively, considering hardlinks as duplicates:
 
-`fdupes -rH {{path/to/directory}}`
+`fdupes {{[-rH|--recurse --hardlinks]}} {{path/to/directory}}`
 
 - Search recursively for duplicates and display interactive prompt to pick which ones to keep, deleting the others:
 
-`fdupes -rd {{path/to/directory}}`
+`fdupes {{[-rd|--recurse --delete]}} {{path/to/directory}}`
 
 - Search recursively and delete duplicates without prompting:
 
-`fdupes -rdN {{path/to/directory}}`
+`fdupes {{[-rdN|--recurse --delete --noprompt]}} {{path/to/directory}}`

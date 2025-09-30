@@ -1,7 +1,7 @@
 # gjoin
 
-> Este comando es un alias de `-p linux join`.
+> Este comando es un alias de `join`.
 
-- Muestra la documentación del comando original:
+- Vea la documentación para el comando original:
 
-`tldr -p linux join`
+`tldr join`

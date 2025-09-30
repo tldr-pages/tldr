@@ -1,7 +1,7 @@
 # abduco
 
 > Manageur de session dans un terminal.
-> Plus d'informations : <https://www.brain-dump.org/projects/abduco/>.
+> Plus d'informations : <https://manned.org/abduco>.
 
 - Affiche les sessions :
 
@@ -17,7 +17,7 @@
 
 - Quitte la session courante :
 
-`<Ctrl> + \`
+`<Ctrl \>`
 
 - Rejoint une session en mode lecture seule :
 

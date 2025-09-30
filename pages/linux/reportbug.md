@@ -13,4 +13,4 @@
 
 - Write the bug report to a file instead of sending it by e-mail:
 
-`reportbug -o {{filename}} {{package}}`
+`reportbug {{[-o|--output]}} {{filename}} {{package}}`

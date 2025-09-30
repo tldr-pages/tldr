@@ -17,4 +17,4 @@
 
 - Display version:
 
-`ppmtoarbtxt -version`
+`ppmtoarbtxt {{[-v|-version]}}`

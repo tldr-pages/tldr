@@ -6,4 +6,4 @@
 
 - Importeer een VMDK/qcow2/raw schijf image met behulp van een specifieke opslagnaam:
 
-`qm importdisk {{vm_id}} {{pad/naar/schijf}} {{opslagnaam}} --format {{qcow2|raw|vmdk}}`
+`qm {{[di|disk]}} {{[i|import]}} {{vm_id}} {{pad/naar/schijf}} {{opslagnaam}} --format {{qcow2|raw|vmdk}}`

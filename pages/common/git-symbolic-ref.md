@@ -17,8 +17,8 @@
 
 - Delete a reference by name:
 
-`git symbolic-ref --delete refs/{{name}}`
+`git symbolic-ref {{[-d|--delete]}} refs/{{name}}`
 
 - For scripting, hide errors with `--quiet` and use `--short` to simplify ("refs/heads/X" prints as "X"):
 
-`git symbolic-ref --quiet --short refs/{{name}}`
+`git symbolic-ref {{[-q|--quiet]}} --short refs/{{name}}`

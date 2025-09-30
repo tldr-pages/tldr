@@ -10,4 +10,4 @@
 
 - Exit the tutor:
 
-`<Esc> :q <Enter>`
+`<Esc><:>q<Enter>`

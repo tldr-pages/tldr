@@ -2,7 +2,7 @@
 
 > An audio player with an interface similar to Winamp or XMMS.
 > See also: `clementine`, `ncmpcpp`, `cmus`.
-> More information: <https://qmmp.ylsoftware.com>.
+> More information: <https://manned.org/qmmp>.
 
 - Launch the GUI:
 
@@ -10,7 +10,7 @@
 
 - Start or stop the currently playing audio:
 
-`qmmp --play-pause`
+`qmmp {{[-t|--play-pause]}}`
 
 - Seek [f]or[w]ar[d]s or [b]ack[w]ar[d]s a specific amount of time in seconds:
 

@@ -9,11 +9,11 @@
 
 - Say yes to all updates:
 
-`topgrade -y`
+`topgrade {{[-y|--yes]}}`
 
 - Cleanup temporary/old files:
 
-`topgrade -c`
+`topgrade {{[-c|--cleanup]}}`
 
 - Disable a certain update operation:
 

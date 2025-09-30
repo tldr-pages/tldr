@@ -5,16 +5,16 @@
 
 - Destroy a specific virtual machine:
 
-`qm destroy {{vm_id}}`
+`qm {{[des|destroy]}} {{vm_id}}`
 
 - Destroy all disks that are not explicitly referenced in a specific virtual machine's configuration:
 
-`qm destroy {{vm_id}} --destroy-unreferenced-disks`
+`qm {{[des|destroy]}} {{vm_id}} --destroy-unreferenced-disks`
 
 - Destroy a virtual machine and remove from all locations (inventory, backup jobs, high availability managers, etc.):
 
-`qm destroy {{vm_id}} --purge`
+`qm {{[des|destroy]}} {{vm_id}} --purge`
 
 - Destroy a specific virtual machine ignoring locks and forcing destroy:
 
-`sudo qm destroy {{vm_id}} --skiplock`
+`sudo qm {{[des|destroy]}} {{vm_id}} --skiplock`

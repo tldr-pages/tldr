@@ -9,4 +9,4 @@
 
 - Display additional build information:
 
-`cargo version --verbose`
+`cargo version {{[-v|--verbose]}}`

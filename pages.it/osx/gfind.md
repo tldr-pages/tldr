@@ -1,7 +1,7 @@
 # gfind
 
-> Questo comando è un alias per `-p linux find`.
+> Questo comando è un alias per `find`.
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux find`
+`tldr find`

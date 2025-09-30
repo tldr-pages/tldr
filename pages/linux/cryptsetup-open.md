@@ -1,7 +1,7 @@
 # cryptsetup open
 
 > Create a decrypted mapping of an encrypted volume.
-> Note: with TRIM enabled, minimal data leakage in form of freed block information, perhaps sufficient to determine the filesystem in use may occur.
+> Note: With TRIM enabled, minimal data leakage in form of freed block information, perhaps sufficient to determine the filesystem in use may occur.
 > However, you still most likely want to enable it, because the data inside is still safe and SSDs without TRIM will wear out faster.
 > More information: <https://manned.org/cryptsetup-open>.
 
@@ -11,7 +11,7 @@
 
 - Use a keyfile instead of a passphrase:
 
-`cryptsetup open --key-file {{path/to/file}} {{/dev/sdXY}} {{mapping_name}}`
+`cryptsetup open {{[-k|--key-file]}} {{path/to/file}} {{/dev/sdXY}} {{mapping_name}}`
 
 - Allow the use of TRIM on the device:
 
@@ -23,4 +23,4 @@
 
 - Open a LUKS volume and make the decrypted mapping read-only:
 
-`cryptsetup open --readonly {{/dev/sdXY}} {{mapping_name}}`
+`cryptsetup open {{[-r|--readonly]}} {{/dev/sdXY}} {{mapping_name}}`

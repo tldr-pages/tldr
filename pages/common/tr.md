@@ -1,7 +1,7 @@
 # tr
 
 > Translate characters: run replacements based on single characters and character sets.
-> More information: <https://www.gnu.org/software/coreutils/tr>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/tr-invocation.html>.
 
 - Replace all occurrences of a character in a file, and print the result:
 
@@ -17,11 +17,11 @@
 
 - Delete all occurrences of the specified set of characters from the input:
 
-`tr -d '{{input_characters}}' < {{path/to/file}}`
+`tr {{[-d|--delete]}} '{{input_characters}}' < {{path/to/file}}`
 
 - Compress a series of identical characters to a single character:
 
-`tr -s '{{input_characters}}' < {{path/to/file}}`
+`tr {{[-s|--squeeze-repeats]}} '{{input_characters}}' < {{path/to/file}}`
 
 - Translate the contents of a file to upper-case:
 
@@ -29,4 +29,4 @@
 
 - Strip out non-printable characters from a file:
 
-`tr -cd "[:print:]" < {{path/to/file}}`
+`tr {{[-cd|--complement --delete]}} "[:print:]" < {{path/to/file}}`

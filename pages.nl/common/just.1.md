@@ -13,11 +13,11 @@
 
 - Pas de justfile aan in de standaard tekstbewerker:
 
-`just -e`
+`just {{[-e|--edit]}}`
 
 - Toon een lijst met beschikbare recepten in de justfile:
 
-`just -l`
+`just {{[-l|--list]}}`
 
 - Toon de justfile:
 

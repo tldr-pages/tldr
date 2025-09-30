@@ -1,7 +1,7 @@
 # ag
 
 > The Silver Searcher. Seperti `ack`, namun bertujuan untuk lebih cepat daripadanya.
-> Informasi lebih lanjut: <https://github.com/ggreer/the_silver_searcher>.
+> Informasi lebih lanjut: <https://manned.org/ag>.
 
 - Cari file yang mengandung teks "foo", dan cetak baris teks yang cocok:
 

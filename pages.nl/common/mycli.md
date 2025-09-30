@@ -1,7 +1,7 @@
 # mycli
 
-> Een command-line client voor MySQL die automatische aanvulling en syntaxisaccentuering kan uitvoeren.
-> Meer informatie: <https://mycli.net>.
+> Een CLI voor MySQL, MariaDB en Percona die automatische aanvulling en syntaxisaccentuering kan uitvoeren.
+> Meer informatie: <https://manned.org/mycli>.
 
 - Verbinden met een lokale database op poort 3306, met de gebruikersnaam van de huidige gebruiker:
 
@@ -9,8 +9,8 @@
 
 - Verbinden met een database (gebruiker wordt gevraagd om een wachtwoord):
 
-`mycli -u {{gebruikersnaam}} {{database_naam}}`
+`mycli {{[-u|--user]}} {{gebruikersnaam}} {{database_naam}}`
 
 - Verbinden met een database op een andere host:
 
-`mycli -h {{database_host}} -P {{poort}} -u {{gebruikersnaam}} {{database_naam}}`
+`mycli {{[-h|--host]}} {{database_host}} {{[-P|--port]}} {{poort}} {{[-u|--user]}} {{gebruikersnaam}} {{database_naam}}`

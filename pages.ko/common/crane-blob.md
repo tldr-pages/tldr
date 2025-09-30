@@ -9,4 +9,4 @@
 
 - 도움말 표시:
 
-`crane blob {{-h|--help}}`
+`crane blob {{[-h|--help]}}`

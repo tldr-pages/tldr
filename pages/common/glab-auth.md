@@ -1,7 +1,7 @@
 # glab auth
 
 > Authenticate with a GitLab host.
-> More information: <https://glab.readthedocs.io/en/latest/auth>.
+> More information: <https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/auth/index.md>.
 
 - Log in with interactive prompt:
 
@@ -9,7 +9,7 @@
 
 - Log in with a token:
 
-`glab auth login --token {{token}}`
+`glab auth login {{[-t|--token]}} {{token}}`
 
 - Check authentication status:
 
@@ -17,4 +17,4 @@
 
 - Log in to a specific GitLab instance:
 
-`glab auth login --hostname {{gitlab.example.com}}`
+`glab auth login {{[-h|--hostname]}} {{gitlab.example.com}}`

@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux talk`
+`tldr {{[-p|--platform]}} linux talk`

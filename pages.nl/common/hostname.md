@@ -9,15 +9,11 @@
 
 - Toon het netwerkadres van de hostnaam:
 
-`hostname -i`
-
-- Toon alle netwerkadressen van de host:
-
-`hostname -I`
+`hostname {{[-i|--ip-addresses]}}`
 
 - Toon de FQDN (Fully Qualified Domain Name):
 
-`hostname --fqdn`
+`hostname {{[-f|--fqdn]}}`
 
 - Stel een nieuwe hostnaam in:
 

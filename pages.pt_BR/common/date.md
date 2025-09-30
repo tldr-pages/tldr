@@ -1,7 +1,7 @@
 # date
 
 > Define ou exibe a data do sistema.
-> Mais informações: <https://www.gnu.org/software/coreutils/date>.
+> Mais informações: <https://www.gnu.org/software/coreutils/manual/html_node/date-invocation.html>.
 
 - Exibe a data atual usando o formato padrão de localidade:
 

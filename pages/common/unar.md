@@ -9,16 +9,16 @@
 
 - Extract an archive to the specified directory:
 
-`unar -o {{path/to/directory}} {{path/to/archive}}`
+`unar {{[-o|-output-directory]}} {{path/to/directory}} {{path/to/archive}}`
 
 - Force overwrite if files to be unpacked already exist:
 
-`unar -f {{path/to/archive}}`
+`unar {{[-f|-force-overwrite]}} {{path/to/archive}}`
 
 - Force rename if files to be unpacked already exist:
 
-`unar -r {{path/to/archive}}`
+`unar {{[-r|-force-rename]}} {{path/to/archive}}`
 
 - Force skip if files to be unpacked already exist:
 
-`unar -s {{path/to/archive}}`
+`unar {{[-s|-force-skip]}} {{path/to/archive}}`

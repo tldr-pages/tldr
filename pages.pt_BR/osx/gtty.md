@@ -1,7 +1,7 @@
 # gtty
 
-> Este comando é um apelido de `-p linux tty`.
+> Este comando é um apelido de `tty`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux tty`
+`tldr tty`

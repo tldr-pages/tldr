@@ -6,3 +6,7 @@
 - Reconfigure one or more packages:
 
 `dpkg-reconfigure {{package1 package2 ...}}`
+
+- Reconfigure console font setup:
+
+`dpkg-reconfigure console-setup`

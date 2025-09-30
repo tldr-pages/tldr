@@ -1,7 +1,7 @@
 # piodebuggdb
 
-> Este comando es un alias de `pio debug`.
+> Este comando es un alias de `pio debug --interface=gdb`.
 
-- Muestra la documentación del comando original:
+- Vea la documentación para el comando original:
 
 `tldr pio debug`

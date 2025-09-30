@@ -1,7 +1,7 @@
 # gwhois
 
-> यह आदेश `-p linux whois` का उपनाम है।
+> यह आदेश `whois` का उपनाम है।
 
 - मूल आदेश के लिए दस्तावेज़ देखें:
 
-`tldr -p linux whois`
+`tldr whois`

@@ -1,10 +1,9 @@
 # last
 
-> List information of last user logins.
-> See also: `lastb`, `login`.
-> More information: <https://manned.org/last.1>.
+> View the last logged in users.
+> More information: <https://manned.org/last>.
 
-- List login information (e.g., username, terminal, boot time, kernel) of all users:
+- View last login infromation (e.g., username, terminal, boot time, kernel) of all users as read from `/var/log/wtmp`:
 
 `last`
 
@@ -12,26 +11,26 @@
 
 `last {{username}}`
 
-- List information of a specific TTY:
+- Specify how many of the last logins to show:
 
-`last {{tty1}}`
+`last {{[-n|--limit]}} {{login_count}}`
 
-- List most recent information (by default, the newest are at the top):
+- Print the full date and time for entries and then display the hostname column last to prevent truncation:
 
-`last | tac`
+`last {{[-F|--fulltimes]}} {{[-a|--hostlast]}}`
 
-- List information of system boots:
+- View all logins by a specific user and show the IP address instead of the hostname:
 
-`last "{{system boot}}"`
+`last {{username}} {{[-i|--ip]}}`
 
-- List information with a specific [t]imestamp format:
+- List information since a specific time and date:
 
-`last --time-format {{notime|full|iso}}`
+`last {{[-s|--since]}} {{-7days}}`
 
-- List information [s]ince a specific time and date:
+- View all recorded reboots (i.e., the last logins of the pseudo user "reboot"):
 
-`last --since {{-7days}}`
+`last reboot`
 
-- List information (i.e., hostname and IP) of remote hosts:
+- Display help:
 
-`last --dns`
+`last {{[-h|--help]}}`

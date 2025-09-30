@@ -10,16 +10,16 @@
 
 - Start displaying the size of files and directories:
 
-`br --sizes`
+`br {{[-s|--sizes]}}`
 
 - Start displaying permissions:
 
-`br --permissions`
+`br {{[-p|--permissions]}}`
 
 - Start displaying directories only:
 
-`br --only-folders`
+`br {{[-f|--only-folders]}}`
 
 - Start displaying hidden files and directories:
 
-`br --hidden`
+`br {{[-h|--hidden]}}`

@@ -4,7 +4,7 @@
 > Usługa atd (lub atrun) powinna być uruchomiona dla rzeczywistych wykonań.
 > Więcej informacji: <https://manned.org/at>.
 
-- Wykonaj polecenia z `stdin` po upływie 5 minut (naciśnij `Ctrl + D` po zakończeniu):
+- Wykonaj polecenia z `stdin` po upływie 5 minut (naciśnij `<Ctrl d>` po zakończeniu):
 
 `at now + 5 minutes`
 

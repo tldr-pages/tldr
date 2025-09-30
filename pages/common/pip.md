@@ -14,7 +14,7 @@
 
 - Upgrade a package:
 
-`pip install --upgrade {{package}}`
+`pip install {{[-U|--upgrade]}} {{package}}`
 
 - Uninstall a package:
 
@@ -30,4 +30,4 @@
 
 - Install packages from a file:
 
-`pip install --requirement {{requirements.txt}}`
+`pip install {{[-r|--requirement]}} {{requirements.txt}}`

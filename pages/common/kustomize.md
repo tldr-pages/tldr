@@ -9,7 +9,7 @@
 
 - Build a kustomization file and deploy it with `kubectl`:
 
-`kustomize build . | kubectl apply -f -`
+`kustomize build . | kubectl apply {{[-f|--filename]}} -`
 
 - Set an image in the kustomization file:
 

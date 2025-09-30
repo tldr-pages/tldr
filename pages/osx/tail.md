@@ -16,11 +16,11 @@
 
 `tail -c {{8}} {{path/to/file}}`
 
-- Print the last lines of a given file and keep reading it until `Ctrl + C`:
+- Print the last lines of a given file and keep reading it until `<Ctrl c>`:
 
 `tail -f {{path/to/file}}`
 
-- Keep reading file until `Ctrl + C`, even if the file is inaccessible:
+- Keep reading file until `<Ctrl c>`, even if the file is inaccessible:
 
 `tail -F {{path/to/file}}`
 

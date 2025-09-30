@@ -21,7 +21,7 @@
 
 - Switch to an existing remote branch:
 
-`git checkout --track {{remote_name}}/{{branch_name}}`
+`git checkout {{[-t|--track]}} {{remote_name}}/{{branch_name}}`
 
 - Discard all unstaged changes in the current directory (see `git reset` for more undo-like commands):
 

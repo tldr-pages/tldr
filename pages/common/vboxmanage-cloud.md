@@ -1,4 +1,4 @@
-# vboxmanage-cloud
+# VBoxManage cloud
 
 > VirtualBox command-line interface for managing cloud instances and images.
 > More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-cloud>.
@@ -9,7 +9,7 @@
 
 - Create a new instance:
 
-`VBoxManage cloud --provider={{provider_name}} --profile={{profile_name}} instance create --domain-name={{domain_name}} --image-id={{image_id}} | {{--options...}}`
+`VBoxManage cloud --provider={{provider_name}} --profile={{profile_name}} instance create --domain-name={{domain_name}} --image-id={{image_id}}`
 
 - Gather information about a particular instance:
 

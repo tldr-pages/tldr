@@ -1,7 +1,7 @@
 # gxargs
 
-> To polecenie jest aliasem `-p linux xargs`.
+> To polecenie jest aliasem GNU `xargs`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux xargs`
+`tldr xargs`

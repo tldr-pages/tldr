@@ -1,11 +1,7 @@
 # bpftrace
 
 > Linux eBPF 的高级跟踪语言。
-> 更多信息：<https://github.com/iovisor/bpftrace>.
-
-- 显示 bpftrace 版本：
-
-`bpftrace -V`
+> 更多信息：<https://github.com/bpftrace/bpftrace/blob/master/man/adoc/bpftrace.adoc>.
 
 - 列出所有可用的探针：
 
@@ -26,3 +22,7 @@
 - 进行试运行并以 eBPF 格式显示输出：
 
 `sudo bpftrace -d -e '{{单行程序}}'`
+
+- 显示 版本：
+
+`bpftrace {{[-V|--version]}}`

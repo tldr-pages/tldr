@@ -1,7 +1,7 @@
 # calc
 
 > Kalkulator interaktif dengan tingkat ketepatan tinggi untuk terminal.
-> Informasi lebih lanjut: <https://github.com/lcn2/calc>.
+> Informasi lebih lanjut: <https://manned.org/calc>.
 
 - Jalankan program `calc` secara interaktif:
 

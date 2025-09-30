@@ -1,7 +1,7 @@
 # gftp
 
-> Este comando é um apelido de `-p linux ftp`.
+> Este comando é um apelido de `ftp`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux ftp`
+`tldr ftp`

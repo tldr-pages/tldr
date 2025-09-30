@@ -1,7 +1,7 @@
 # cp
 
 > फाइलों और निर्देशिकाओं की प्रतिलिपि बनाएँ।
-> अधिक जानकारी: <https://www.gnu.org/software/coreutils/cp>।
+> अधिक जानकारी: <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>।
 
 - किसी फ़ाइल को दूसरे स्थान पर कॉपी करें:
 

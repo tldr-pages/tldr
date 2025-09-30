@@ -1,7 +1,7 @@
 # sam
 
 > AWS Serverless Application Model (SAM) CLI.
-> More information: <https://github.com/awslabs/aws-sam-cli>.
+> More information: <https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/using-sam-cli-corecommands.html>.
 
 - Initialize a serverless application:
 
@@ -9,7 +9,7 @@
 
 - Initialize a serverless application with a specific runtime:
 
-`sam init --runtime {{python3.7}}`
+`sam init {{[-r|--runtime]}} {{python3.7}}`
 
 - Package a SAM application:
 

@@ -17,4 +17,4 @@
 
 - Do not dim the area outside the Maxwell triangle:
 
-`ppmcie -full > {{path/to/output.ppm}}`
+`ppmcie {{[-f|-full]}} > {{path/to/output.ppm}}`

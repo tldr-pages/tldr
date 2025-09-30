@@ -25,7 +25,7 @@
 
 - Create a logical volume with size 10G from volume group vg1:
 
-`sudo lvm lvcreate -L {{10G}} {{vg1}}`
+`sudo lvm lvcreate {{[-L|--size]}} {{10G}} {{vg1}}`
 
 - Display information about logical volumes:
 

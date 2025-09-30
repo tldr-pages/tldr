@@ -1,7 +1,7 @@
 # settings
 
 > Tampilkan informasi terhadap pengaturan sistem operasi Android.
-> Informasi lebih lanjut: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
+> Informasi lebih lanjut: <https://web.archive.org/web/20240525010124/https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
 
 - Tampilkan daftar pengaturan di dalam namespace `global`:
 

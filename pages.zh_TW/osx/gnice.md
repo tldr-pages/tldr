@@ -1,7 +1,7 @@
 # gnice
 
-> 這是 `-p linux nice` 命令的一個別名。
+> 這是 `nice` 命令的一個別名。
 
 - 原命令的文件在：
 
-`tldr -p linux nice`
+`tldr nice`

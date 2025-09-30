@@ -2,7 +2,7 @@
 
 > Image printing in the terminal.
 > See also: `pixterm`, `chafa`.
-> More information: <https://github.com/posva/catimg>.
+> More information: <https://manned.org/catimg>.
 
 - Print a JPEG, PNG, or GIF to the terminal:
 

@@ -9,12 +9,12 @@
 
 - Verschiebe die Teile horizontal:
 
-`{{A|D|Pfeiltaste Links|Pfeiltaste Rechts}}`
+`{{<a>|<d>|<ArrowLeft>|<ArrowRight>}}`
 
 - Drehe die Teile:
 
-`{{W|Pfeiltaste nach oben}}`
+`{{<w>|<ArrowUp>}}`
 
 - Lasse die Teile schnell fallen:
 
-`{{S|Pfeiltaste nach unten}}`
+`{{<s>|<ArrowDown>}}`

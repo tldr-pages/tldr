@@ -2,7 +2,7 @@
 
 > Компилятор Glasgow Haskell Compiler.
 > Компиляция и компоновка исходных файлов Haskell.
-> Больше информации: <https://www.haskell.org/ghc>.
+> Больше информации: <https://downloads.haskell.org/ghc/latest/docs/users_guide/usage.html>.
 
 - Найти и скомпилировать все модули в текущей папке:
 

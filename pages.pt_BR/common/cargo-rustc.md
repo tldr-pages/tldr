@@ -33,4 +33,4 @@
 
 - Compila apenas o binário especificado:
 
-`cargo --bin {{nome}}`
+`cargo rustc --bin {{nome}}`

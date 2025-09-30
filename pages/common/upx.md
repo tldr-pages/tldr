@@ -11,6 +11,6 @@
 
 `upx -d {{path/to/file}}`
 
-- Detailed help:
+- Display help:
 
 `upx --help`

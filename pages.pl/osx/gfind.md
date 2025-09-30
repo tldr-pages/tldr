@@ -1,7 +1,7 @@
 # gfind
 
-> To polecenie jest aliasem `-p linux find`.
+> To polecenie jest aliasem GNU `find`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux find`
+`tldr find`

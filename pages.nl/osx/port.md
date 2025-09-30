@@ -1,6 +1,6 @@
 # port
 
-> Pakketbeheerder voor macOS.
+> Pakketbeheer voor macOS.
 > Meer informatie: <https://www.macports.org>.
 
 - Zoek naar een pakket:
@@ -11,7 +11,7 @@
 
 `sudo port install {{pakket}}`
 
-- Lijst geïnstalleerde pakketten:
+- Toon geïnstalleerde pakketten:
 
 `port installed`
 

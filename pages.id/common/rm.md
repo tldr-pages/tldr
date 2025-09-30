@@ -2,7 +2,7 @@
 
 > Hapus berkas atau direktori.
 > Lihat juga: `rmdir`.
-> Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/rm>.
+> Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>.
 
 - Hapus berkas dari lokasi manapun:
 

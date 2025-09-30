@@ -1,13 +1,7 @@
 # pw-play
 
-> Grava arquivos de áudio através do PipeWire.
-> Atalho para pw-cat --playback.
-> Mais informações: <https://fedoraproject.org/wiki/QA:Testcase_PipeWire_PipeWire_CLI>.
+> Este comando é um apelido de `pw-cat --playback`.
 
-- Toca um som em formato WAV no alvo padrão:
+- Veja documentação sobre o comando original:
 
-`pw-play {{caminho/para/arquivo.wav}}`
-
-- Toca um arquivo em formato WAV com um volume específico:
-
-`pw-play --volume={{0.1}} {{caminho/para/arquivo.wav}}`
+`tldr pw-cat`

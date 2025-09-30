@@ -9,15 +9,15 @@
 
 - Binde einen Prozess an gdb:
 
-`gdb -p {{prozess_ID}}`
+`gdb {{[-p|--pid]}} {{prozess_ID}}`
 
 - Debugge mit einer Kerndatei:
 
-`gdb -c {{kerndatei}} {{ausführbare_datei}}`
+`gdb {{[-c|--core]}} {{kerndatei}} {{ausführbare_datei}}`
 
 - Führe angegebene Befehle beim Start von gdb aus:
 
-`gdb -ex "{{befehle}}" {{ausführbare_datei}}`
+`gdb {{[-ex|--eval-command]}} "{{befehle}}" {{ausführbare_datei}}`
 
 - Starte gdb und übergib Argumente an die ausführbare Datei:
 

@@ -9,16 +9,16 @@
 
 - View the factors determining the specified job's scheduling priority:
 
-`sprio --jobs={{job_id_1,job_id_2,...}}`
+`sprio {{[-j|--jobs]}} {{job_id_1,job_id_2,...}}`
 
 - Output additional information:
 
-`sprio --long`
+`sprio {{[-l|--long]}}`
 
 - View information for the jobs of specified users:
 
-`sprio --user={{user_name_1,user_name_2,...}}`
+`sprio {{[-u|--user]}} {{user_name_1,user_name_2,...}}`
 
 - Print the weights for each factor determining job scheduling priority:
 
-`sprio --weights`
+`sprio {{[-w|--weights]}}`

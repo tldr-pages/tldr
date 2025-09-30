@@ -6,7 +6,7 @@
 
 - Toon alle Docker containers (actief en gestopte):
 
-`docker ps --all`
+`docker ps {{[-a|--all]}}`
 
 - Start een container van een image, met een aangepaste naam:
 
@@ -24,14 +24,14 @@
 
 `docker images`
 
-- Open een shell in een actieve container:
+- Open een interactieve tty met Bourne shell (`sh`) binnen een draaiende container:
 
-`docker exec -it {{container_naam}} {{sh}}`
+`docker exec {{[-it|--interactive --tty]}} {{container_naam}} {{sh}}`
 
 - Verwijder een gestopte container:
 
 `docker rm {{container_naam}}`
 
-- Volg de logs van een container:
+- Vang en volg de logs van een container:
 
-`docker logs -f {{container_naam}}`
+`docker logs {{[-f|--follow]}} {{container_naam}}`

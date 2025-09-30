@@ -1,7 +1,7 @@
 # gb2sum
 
-> Perintah ini merupakan alias dari `-p linux b2sum`.
+> Perintah ini merupakan alias dari `b2sum`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux b2sum`
+`tldr b2sum`

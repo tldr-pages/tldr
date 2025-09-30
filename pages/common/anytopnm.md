@@ -9,4 +9,4 @@
 
 - Display version:
 
-`anytopnm -version`
+`anytopnm {{[-v|-version]}}`

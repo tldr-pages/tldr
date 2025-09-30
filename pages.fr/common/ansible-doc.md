@@ -6,11 +6,11 @@
 
 - Liste les plugins action (modules) disponibles :
 
-`ansible-doc --list`
+`ansible-doc {{[-l|--list]}}`
 
 - Liste les plugins disponible d'un certain type :
 
-`ansible-doc --type {{type_de_plugin}} --list`
+`ansible-doc {{[-t|--type]}} {{type_de_plugin}} {{[-l|--list]}}`
 
 - Affiche les informations sur un plugin action (module) spécifique :
 
@@ -18,12 +18,12 @@
 
 - Affiche les informations sur un plugin avec un certain type :
 
-`ansible-doc --type {{type_de_plugin}} {{nom_du_plugin}}`
+`ansible-doc {{[-t|--type]}} {{type_de_plugin}} {{nom_du_plugin}}`
 
 - Affiche le raccourci playbook d'un plugin action (module) :
 
-`ansible-doc --snippet {{nom_du_plugin}}`
+`ansible-doc {{[-s|--snippet]}} {{nom_du_plugin}}`
 
 - Affiche les informations sur un plugin action (module) en JSON :
 
-`ansible-doc --json {{nom_du_plugin}}`
+`ansible-doc {{[-j|--json]}} {{nom_du_plugin}}`

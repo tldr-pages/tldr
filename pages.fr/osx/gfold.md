@@ -4,4 +4,4 @@
 
 - Voir la documentation de la commande originale :
 
-`tldr -p linux fold`
+`tldr {{[-p|--platform]}} linux fold`

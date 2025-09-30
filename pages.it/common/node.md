@@ -13,11 +13,11 @@
 
 - Esegue il codice JavaScript che viene specificato come argomento:
 
-`node -e "{{codice}}"`
+`node {{[-e|--eval]}} "{{codice}}"`
 
 - Valuta un'espressione e ne stampa il risultato, questo comando specifico è utile per vedere le versioni delle dipendenze di node:
 
-`node -p "process.versions"`
+`node {{[-p|--print]}} "process.versions"`
 
 - Attiva il debugger mettendo in pausa l'esecuzione finché il codice sorgente non viene caricato:
 

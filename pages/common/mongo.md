@@ -1,7 +1,7 @@
 # mongo
 
 > The legacy MongoDB shell. See `mongosh` for the new shell.
-> Note: all connection options can be replaced with one string: `mongodb://user@host:port/db_name?authSource=authdb_name`.
+> Note: All connection options can be replaced with one string: `mongodb://user@host:port/db_name?authSource=authdb_name`.
 > More information: <https://docs.mongodb.com/manual/reference/program/mongo>.
 
 - Connect to a local database on the default port (`mongodb://localhost:27017`):

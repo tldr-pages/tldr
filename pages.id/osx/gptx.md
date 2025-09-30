@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux ptx`
+`tldr {{[-p|--platform]}} linux ptx`

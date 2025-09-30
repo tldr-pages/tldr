@@ -17,8 +17,8 @@
 
 - 원격 업스트림 저장소에서 태그도 함께 가져오기:
 
-`git fetch --tags`
+`git fetch {{[-t|--tags]}}`
 
 - 업스트림에서 삭제된 원격 브랜치에 대한 로컬 참조 삭제:
 
-`git fetch --prune`
+`git fetch {{[-p|--prune]}}`

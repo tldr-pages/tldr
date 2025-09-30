@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux runcon`
+`tldr {{[-p|--platform]}} linux runcon`

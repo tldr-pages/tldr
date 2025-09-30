@@ -1,7 +1,7 @@
 # gchown
 
-> Este comando é um apelido de `-p linux chown`.
+> Este comando é um apelido de `chown`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux chown`
+`tldr chown`

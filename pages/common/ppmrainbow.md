@@ -9,8 +9,8 @@
 
 - Specify the size of the output in pixels:
 
-`ppmrainbow -width {{width}} -height {{height}} {{color1 color2 ...}} > {{path/to/output_file.ppm}}`
+`ppmrainbow {{[-w|-width]}} {{width}} {{[-h|-height]}} {{height}} {{color1 color2 ...}} > {{path/to/output_file.ppm}}`
 
 - End the rainbow with the last color specified, do not repeat the first color:
 
-`ppmrainbow -norepeat {{color1 color2 ...}} > {{path/to/output_file.ppm}}`
+`ppmrainbow {{[-n|-norepeat]}} {{color1 color2 ...}} > {{path/to/output_file.ppm}}`

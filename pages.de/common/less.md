@@ -9,28 +9,28 @@
 
 - Scrolle eine Seite runter / hoch:
 
-`<Leertaste> (runter), b (hoch)`
+`{{<Space>|<b>}}`
 
 - Springe zum Ende / Anfang der Datei:
 
-`G (Ende), g (Pos1)`
+`{{<G>|<g>}}`
 
-- Suche nach einer Zeichenkette vorwärts (n/N um zur nächsten/vorherigen Übereinstimmung zu springen):
+- Suche nach einer Zeichenkette vorwärts (`<n>`/`<N>` um zur nächsten/vorherigen Übereinstimmung zu springen):
 
-`/{{suche}}`
+`</>{{suche}}`
 
-- Suche nach einer Zeichenkette rückwärts (n/N um zur nächsten/vorherigen Übereinstimmung zu springen):
+- Suche nach einer Zeichenkette rückwärts (`<n>`/`<N>` um zur nächsten/vorherigen Übereinstimmung zu springen):
 
-`?{{suche}}`
+`<?>{{suche}}`
 
 - Folge der Ausgabe des geöffneten Buffers:
 
-`F`
+`<F>`
 
 - Öffne die Datei in einem Editor:
 
-`v`
+`<v>`
 
 - Beende `less`:
 
-`q`
+`<q>`

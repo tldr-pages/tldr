@@ -1,7 +1,7 @@
 # laravel
 
 > Pasang framework Laravel framework dari command-line.
-> Informasi lebih lanjut: <https://laravel.com>.
+> Informasi lebih lanjut: <https://laravel.com/docs/installation>.
 
 - Buat aplikasi Laravel baru:
 

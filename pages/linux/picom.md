@@ -9,7 +9,7 @@
 
 - Start `picom` as a background process:
 
-`picom -b`
+`picom {{[-b|--daemon]}}`
 
 - Use a custom configuration file:
 

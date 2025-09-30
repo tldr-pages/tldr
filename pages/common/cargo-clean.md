@@ -13,7 +13,7 @@
 
 - Remove release artifacts (the `target/release` directory):
 
-`cargo clean --release`
+`cargo clean {{[-r|--release]}}`
 
 - Remove artifacts in the directory of the given profile (in this case, `target/debug`):
 

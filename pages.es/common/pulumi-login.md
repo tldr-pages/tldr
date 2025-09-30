@@ -1,7 +1,7 @@
 # pulumi login
 
 > Inicia sesión en Pulumi Cloud.
-> Más información: <https://www.pulumi.com/docs/cli/commands/pulumi_login/>.
+> Más información: <https://www.pulumi.com/docs/iac/cli/commands/pulumi_login/>.
 
 - Inicia sesión en el servidor administrado Pulumi Cloud, de manera predeterminada en `app.pulumi.cloud`:
 
@@ -13,4 +13,4 @@
 
 - Utiliza Pulumi localmente, independientemente de Pulumi Cloud:
 
-`pulumi login {{-l|--local}}`
+`pulumi login {{[-l|--local]}}`

@@ -13,7 +13,7 @@
 
 - Screenshot a specific region:
 
-`grim -g "{{<x_position>,<y_position> <width>x<height>}}"`
+`grim -g "{{x_position}},{{y_position}} {{width}}x{{height}}"`
 
 - Select a specific region and screenshot it, (using slurp):
 

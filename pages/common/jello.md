@@ -1,6 +1,6 @@
 # jello
 
-> A command-line JSON processor using Python syntax.
+> A JSON processor using Python syntax.
 > More information: <https://github.com/kellyjonbrazil/jello>.
 
 - Pretty-print JSON or JSON-Lines data from `stdin` to `stdout`:
@@ -25,7 +25,7 @@
 
 - Output the value of multiple keys as a new JSON object (assuming the input JSON has the keys `key_name1` and `key_name2`):
 
-`cat {{file.json}} | jello '{"{{key1}}": _.{{key_name1}}, "{{key_name}}": _.{{key_name2}}}'`
+`cat {{file.json}} | jello '{{{"key1": _.key_name1, "key2": _.key_name2, ...}}}'`
 
 - Output the value of a given key to a string (and disable JSON output):
 

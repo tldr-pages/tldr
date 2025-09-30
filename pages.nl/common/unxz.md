@@ -1,7 +1,6 @@
 # unxz
 
-> Dit commando is een alias van `xz`.
-> Meer informatie: <https://manned.org/unxz>.
+> Dit commando is een alias van `xz --decompress`.
 
 - Bekijk de documentatie van het originele commando:
 

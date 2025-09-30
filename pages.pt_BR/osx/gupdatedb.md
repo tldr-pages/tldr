@@ -4,4 +4,4 @@
 
 - Exibe documentação sobre o comando original:
 
-`tldr -p linux updatedb`
+`tldr {{[-p|--platform]}} linux updatedb`

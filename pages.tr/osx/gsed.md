@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux sed`
+`tldr {{[-p|--platform]}} linux sed`

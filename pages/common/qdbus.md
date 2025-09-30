@@ -13,11 +13,11 @@
 
 - List methods, signals and properties available on a specific object:
 
-`qdbus {{service_name}} {{/path/to/object}}`
+`qdbus {{service_name}} /{{path/to/object}}`
 
 - Execute a specific method passing arguments and display the returned value:
 
-`qdbus {{service_name}} {{/path/to/object}} {{method_name}} {{argument1}} {{argument2}}`
+`qdbus {{service_name}} /{{path/to/object}} {{method_name}} {{argument1 argument2 ...}}`
 
 - Display the current brightness value in a KDE Plasma session:
 

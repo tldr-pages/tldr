@@ -1,6 +1,6 @@
 # avo
 
-> The official command-line interface for Avo.
+> The official interface for Avo.
 > More information: <https://www.avo.app/docs/implementation/cli>.
 
 - Initialize a workspace in the current directory:

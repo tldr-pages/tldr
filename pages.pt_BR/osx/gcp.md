@@ -1,7 +1,7 @@
 # gcp
 
-> Este comando é um apelido de `-p linux cp`.
+> Este comando é um apelido de `cp`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux cp`
+`tldr cp`

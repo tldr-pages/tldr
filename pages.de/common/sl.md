@@ -19,6 +19,6 @@
 
 `sl -l`
 
-- Lasse den Benutzer abbrechen (STRG + C):
+- Lasse den Benutzer abbrechen (`<Ctrl c>`):
 
 `sl -e`

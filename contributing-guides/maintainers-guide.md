@@ -63,13 +63,13 @@ for the behavior expected of tldr-pages maintainers.
 - It is suggested to wait for a few hours before merging a PR with new additions to English pages. This is to allow other maintainers to review the changes and provide feedback.
 
 - If a PR is non-English and there are automatic reviewers added via [CODEOWNERS](https://github.com/tldr-pages/tldr/blob/main/.github/CODEOWNERS), the PR at least needs one approval from one of the CODEOWNERS.
-  - If a PR fails to get a review from one of the CODEOWNERS after a few days, the first maintainer should ping the CODEOWNERS for review.
-  - If it still lingers around for **over 10 days without an approval from one of the CODEOWNERS**, the PR can be merged if it has two approvals.
-  - If it only has one approval, please read the next point.
+    - If a PR fails to get a review from one of the CODEOWNERS after a few days, the first maintainer should ping the CODEOWNERS for review.
+    - If it still lingers around for **over 10 days without an approval from one of the CODEOWNERS**, the PR can be merged if it has two approvals.
+    - If it only has one approval, please read the next point.
 
 - If a PR fails to get a review from a second maintainer after a few days,
-  the first maintainer should ping others for review. 
-  - If it still lingers around for **over a week without a second maintainer’s approval**, the first maintainer (if Owner) can go ahead and merge it. 
+  the first maintainer should ping others for review.
+    - If it still lingers around for **over a week without a second maintainer’s approval**, the first maintainer (if Owner) can go ahead and merge it.
     Otherwise, a message can be sent in the chatroom asking other maintainers to review the PR.
 
 - If the only issues holding up a merge are **trivial fixes**
@@ -103,13 +103,15 @@ for the behavior expected of tldr-pages maintainers.
 
 - It is suggested to clean up the commit message when merging a PR. For small commits, use:
 
-  ```
+  ```txt
   page-name: a short description of the change
 
   Co-authored-by: ...
   ```
-  if you think a more descriptive message is needed, use asterisks:
-  ```
+
+  If you think a more descriptive message is needed, use asterisks:
+
+  ```txt
   page-name: a short description of the change
 
   * some more information
@@ -145,3 +147,79 @@ for the behavior expected of tldr-pages maintainers.
 - If the CLA check is frozen at the message "Status waiting to be reported", it is recommended to close and reopen the pull requests to retrigger the check (and notify the contributor about the same).
 
 For reference to see if a contributor has signed the CLA, visit the dashboard at <https://cla-assistant.io/>.
+
+## V. Creating a client specification release
+
+### Pre-requisites
+
+- Ensure client specification changes are discussed with the other maintainers and community members in GitHub and chatroom, and the changes have been agreed upon and enough time has been provided for everyone to review the changes.
+- Tag all client spec PRs under a [milestone](https://github.com/tldr-pages/tldr/milestones) for ease of release.
+- Ensure [GPG signing](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key) has been setup for your account.
+- It is suggested to prepare the release notes to add to the client specification release in advance.
+    - The release notes should mention pending breaking architectural changes from previous client specifications (if any).
+    - Along with the changelog, the release notes must explain the client specification changes in detail along with examples (if any).
+
+### Steps
+
+1. Merge all applicable PRs that modify the client specification and ensure they are documented in the [CHANGELOG section of client specification](/CLIENT-SPECIFICATION.md#changelog).
+2. Bump the version to the upcoming release (in the client specification file) and inform other maintainers in the chatroom about the release.
+3. Clone the repository locally to your device:
+
+```sh
+git clone https://github.com/tldr-pages/tldr
+```
+
+4. Cross check the additions, version and changelog details in the client specification file.
+5. Create a signed tag using the command
+
+```sh
+git tag -s vX.Y.Z
+```
+
+> [!NOTE]\
+> Replace `X.Y.Z` with the client specification version.
+
+> [!TIP]\
+> If any commits are merged after the client specification file's version bump commit and before tagging, when creating the tag
+> you can use the command: `git tag -s vX.Y.Z <commit hash>` (i.e. `git tag -s v2.3 3b17800`) to tag a older commit.
+
+6. Verify the created signed tag's details using the command:
+
+```sh
+git tag -v vX.Y.Z
+```
+
+7. Now, push the tag to the repository using the command:
+
+```sh
+git push origin vX.Y.Z
+```
+
+8. Verify the tag's creation [here](https://github.com/tldr-pages/tldr/tags) and then navigate to the [releases](https://github.com/tldr-pages/tldr/releases) tab and draft a new release.
+9. Choose the tag you just pushed and add the release notes prepared previously along with an appropriate release title and then enable the "Create a discussion for this release" option.
+10. Now publish the release and proceed with the below post-release steps.
+
+### Post-release steps
+
+- Once the release is published, [view the workflow run of `copy-release-assets.yml`](https://github.com/tldr-pages/tldr/actions/workflows/copy-release-assets.yml) and after its successful completion ensure the assets are copied from the previous release.
+- Notify the [social media managers](https://github.com/tldr-pages/access#social-media-accounts) to post about the client specification release on Mastodon and other platforms to inform the wider community about the release.
+
+## VI. Periodic Maintenance Tasks
+
+To maintain the quality and relevance of the tldr-pages project, maintainers are encouraged to regularly perform the following tasks:
+
+- **Monitor software updates** — Regularly check if the tools documented in tldr-pages have been updated — especially those introducing breaking changes. Update relevant pages accordingly and, where appropriate, encourage contributors to do the same.
+
+- **Validate external links** — Periodically check that all links across the documentation and pages are functional. Consider using https://github.com/tldr-pages/tldr-maintenance/issues/129 for link-checking pages and other automated link-checking tools to detect broken URLs for documentation. Then replace or remove any broken links.
+
+- **Update client status on the wiki** — Ensure the list of clients in the project's [Wiki](https://github.com/tldr-pages/tldr/wiki) reflects their current development status (active, inactive, deprecated). Reach out to maintainers of clients when needed for status updates.
+
+- **Track and document new clients** — Look out for new tldr clients being developed. When appropriate, add them to the Wiki or relevant documentation, and encourage their maintainers to follow the project’s conventions and style guidelines.
+
+- **Revise CONTRIBUTING.md and the Style Guide** — Make sure that [`CONTRIBUTING.md`](https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md) and the [Style Guide](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/style-guide.md) reflect current conventions. If community conventions shift, update these documents to guide future contributions.
+
+- **Maintain collaborators and Org members list** — Periodically review the list of collaborators and organization members. Remove inactive members and onboard new contributors who have demonstrated consistent involvement. Document any changes using an issue with the `community` label.
+
+- **Manage "Let's document" and translation requests** — Monitor and update issues labeled as `let's document` or language-specific translation requests. While these are often maintained by issue authors, there’s room for improvement through automation — for example, updating issue status based on milestones or completed PRs.
+
+- **Review translated pages** — Check the [tldr-maintenance repository](https://github.com/tldr-pages/tldr-maintenance/issues/127) for issues or inconsistencies with translated pages.

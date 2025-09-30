@@ -7,21 +7,21 @@
 
 `cal`
 
-- Display [3] months spanning the date:
+- Display 3 months spanning the date:
 
-`cal -3`
+`cal {{[-3|--three]}}`
 
-- Display the whole calendar for the current [y]ear:
+- Display the whole calendar for the current year:
 
-`cal --year`
+`cal {{[-y|--year]}}`
 
 - Display the next twelve months:
 
-`cal --twelve`
+`cal {{[-Y|--twelve]}}`
 
 - Use Monday as the first day of the week:
 
-`cal --monday`
+`cal {{[-m|--monday]}}`
 
 - Display a calendar for a specific year (4 digits):
 

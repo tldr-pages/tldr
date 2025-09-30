@@ -1,7 +1,7 @@
 # apk
 
 > Gerenciador de pacotes da distribuição Alpine.
-> Mais informações: <https://manned.org/apk>.
+> Mais informações: <https://wiki.alpinelinux.org/wiki/Alpine_Package_Keeper>.
 
 - Atualiza os índices dos pacotes disponíveis:
 

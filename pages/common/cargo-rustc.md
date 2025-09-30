@@ -10,11 +10,11 @@
 
 - Build artifacts in release mode, with optimizations:
 
-`cargo rustc --release`
+`cargo rustc {{[-r|--release]}}`
 
 - Compile with architecture-specific optimizations for the current CPU:
 
-`cargo rustc --release -- -C target-cpu=native`
+`cargo rustc {{[-r|--release]}} -- -C target-cpu=native`
 
 - Compile with speed optimizations:
 
@@ -30,8 +30,8 @@
 
 - Build a specific package:
 
-`cargo rustc --package {{package}}`
+`cargo rustc {{[-p|--package]}} {{package}}`
 
 - Build only the specified binary:
 
-`cargo --bin {{name}}`
+`cargo rustc --bin {{name}}`
