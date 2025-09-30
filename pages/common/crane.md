@@ -4,26 +4,34 @@
 > Some subcommands such as `pull`, `push`, `copy`, etc. have their own usage documentation.
 > More information: <https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane.md/>.
 
-- Execute a `crane` subcommand:
+- Build or pull images if they don't exists:
 
-`crane {{subcommand}}`
+`crane up/lift {{[-d|--detach]}}`
 
-- Allow pushing non-distributable (foreign) layers:
+- Start stopped container:
 
-`crane --allow-nondistributable-artifacts {{subcommand}}`
+`crane start {{target}}`
 
-- Allow image references to be fetched without TLS:
+- Stop running containers:
 
-`crane --insecure {{subcommand}}`
+`crane stop {{target}}`
 
-- Specify the platform in the form os/arch{{/variant}}{{:osversion}} (e.g. linux/amd64). (default all):
+- Execute command in target container:
 
-`crane  --platform {{platform}} {{subcommand}}`
+`crane exec {{target}} {{<cmd>}}`
 
-- Enable debug logs for a subcommand:
+- Remove stopped container:
 
-`crane {{-v|--verbose}} {{subcommand}}`
+`crane rm {{[-f|--force]}} {{target}}`
 
-- Display help for a subcommand:
+- Push containers to the regsitry:
 
-`crane {{-h|--help}} {{subcommand}}`
+`crane push {{target}}`
+
+- Show container logs:
+
+`crane logs {{target}}`
+
+- Show container statuses:
+
+`crane status`
