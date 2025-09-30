@@ -126,7 +126,7 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [06 August 2022](https://github.com/tldr-pages/tldr/issues/8309) — [14 December 2022](https://github.com/tldr-pages/tldr/issues/9625)
 - Lin Cheng Chieh ([@blueskyson](https://github.com/blueskyson)):
   [12 August 2021](https://github.com/tldr-pages/tldr/issues/6330) — [4 January 2023](https://github.com/tldr-pages/tldr/issues/9671)
-- Lena ([@acuteenvy](https://github.com/acuteenvy)):
+- Lena Pastwa ([@acuteenvy](https://github.com/acuteenvy)):
   [13 May 2023](https://github.com/tldr-pages/tldr/issues/10187) — [21 June 2023](https://github.com/tldr-pages/tldr/issues/10406)
 - Juri ([@gutjuri](https://github.com/gutjuri)):
   [06 October 2023](https://github.com/tldr-pages/tldr/issues/10874) — [24 October 2023](https://github.com/tldr-pages/tldr/issues/11201)
@@ -225,7 +225,7 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [4 January 2023](https://github.com/tldr-pages/tldr/issues/9671) — [7 July 2023](https://github.com/tldr-pages/tldr/issues/10054)
 - Matthew Peveler ([@MasterOdin](https://github.com/MasterOdin)):
   [18 March 2021](https://github.com/tldr-pages/tldr/issues/5473) — [15 November 2023](https://github.com/tldr-pages/tldr/issues/11509)
-- Lena ([@acuteenvy](https://github.com/acuteenvy)):
+- Lena Pastwa ([@acuteenvy](https://github.com/acuteenvy)):
   [21 June 2023](https://github.com/tldr-pages/tldr/issues/10406) — [27 December 2023](https://github.com/tldr-pages/tldr/issues/11839)
 - Sebastiaan Speck ([@sebastiaanspeck](https://github.com/sebastiaanspeck)):
   [24 October 2023](https://github.com/tldr-pages/tldr/issues/11202) — [28 April 2024](https://github.com/tldr-pages/tldr/issues/12687)
@@ -263,7 +263,7 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [19 June 2023](https://github.com/tldr-pages/tldr/issues/10057) — present
 - **Lin Cheng Chieh ([@blueskyson](https://github.com/blueskyson))**:
   [7 July 2023](https://github.com/tldr-pages/tldr/issues/10054) — present
-- **Lena ([@acuteenvy](https://github.com/acuteenvy))**:
+- **Lena Pastwa ([@acuteenvy](https://github.com/acuteenvy))**:
   [27 December 2023](https://github.com/tldr-pages/tldr/issues/11839) — present
 - **Sebastiaan Speck ([@sebastiaanspeck](https://github.com/sebastiaanspeck))**:
   [28 April 2024](https://github.com/tldr-pages/tldr/issues/12687) — present
