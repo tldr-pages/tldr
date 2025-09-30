@@ -13,4 +13,4 @@
 
 - Sobrescreve o arquivo no caminho alvo se ele já existir:
 
-`git mv --force {{arquivo}} {{alvo}}`
+`git mv {{[-f|--force]}} {{arquivo}} {{alvo}}`
