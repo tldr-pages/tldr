@@ -16,7 +16,7 @@
 
 - Print images that can be garbage collected:
 
-`gcrane gc {{gcr.io/${PROJECT_ID}/repo}}
+`gcrane gc {{gcr.io/${PROJECT_ID}/repo}}`
 
 - Delete images that can be garbage collected:
 
