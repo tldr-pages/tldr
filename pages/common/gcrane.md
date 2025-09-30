@@ -6,26 +6,18 @@
 > Some subcommands such as `completion`, `gc`, `help` are specific to gcrane and have their own usage documentation.
 > More information: <https://github.com/google/go-containerregistry/blob/main/cmd/gcrane/README.md>.
 
-- Execute a `gcrane` subcommand:
+- List tags, manifests, and sub-repostiories:
 
-`gcrane {{subcommand}}`
+`gcrane ls {{gcr.io/${PROJECT_ID}}}`
 
-- Allow pushing non-distributable (foreign) layers:
+- Copy images from one registry to another:
 
-`gcrane --allow-nondistributable-artifacts {{subcommand}}`
+`gcrane cp {{[-r|--recursive]}} {{gcr.io/${PROJECT_ID_FROM/repo}}} {{gcr.io/${PROJECT_ID_TO/repo}}}`
 
-- Allow image references to be fetched without TLS:
+- Print images that can be garbage collected:
 
-`gcrane --insecure {{subcommand}}`
+`gcrane gc {{gcr.io/${PROJECT_ID}/repo}}
 
-- Specify the platform in the form os/arch{{/variant}}{{:osversion}} (e.g. linux/amd64). (default all):
+- Delete images that can be garbage collected:
 
-`gcrane --platform {{platform}} {{subcommand}}`
-
-- Enable debug logs:
-
-`gcrane {{-v|--verbose}} {{subcommand}}`
-
-- Display help:
-
-`gcrane {{-h|--help}}`
+`gcrane gc gcr.io/${PROJECT_ID}/repo | xargs -n1 gcrane delete`
