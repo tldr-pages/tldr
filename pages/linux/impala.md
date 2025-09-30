@@ -3,7 +3,7 @@
 > Manage WiFi networks through a TUI.
 > More information: <https://github.com/pythops/impala>.
 
-- Launch impala in station mode:
+- Launch `impala` in station mode:
 
 `impala`
 
