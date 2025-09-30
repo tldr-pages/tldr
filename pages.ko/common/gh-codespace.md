@@ -9,7 +9,7 @@
 
 - 사용 가능한 모든 코드스페이스 나열:
 
-`gh {{[cs|codespace]}} list`
+`gh {{[cs|codespace]}} {{[ls|list]}}`
 
 - SSH를 통해 코드스페이스에 대화식으로 연결:
 

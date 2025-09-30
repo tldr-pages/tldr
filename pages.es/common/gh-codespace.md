@@ -9,7 +9,7 @@
 
 - Lista todos los codespaces disponibles:
 
-`gh {{[cs|codespace]}} list`
+`gh {{[cs|codespace]}} {{[ls|list]}}`
 
 - Conecta a un codespace vía SSH de forma interactiva:
 
