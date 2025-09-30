@@ -13,4 +13,4 @@
 
 - Delimita l'output utilizzando caratteri NUL invece di una nuova linea (utile in combinazione con `xargs`):
 
-`dirname --zero {{percorso/del/file_or_directory1 percorso/del/file_or_directory2 ...}}`
+`dirname {{[-z|--zero]}} {{percorso/del/file_or_directory1 percorso/del/file_or_directory2 ...}}`
