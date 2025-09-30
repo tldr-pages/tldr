@@ -11,6 +11,6 @@
 
 `systemctl poweroff --force`
 
-- Power off the system immediately without sending notifications to logged-in users: 
+- Power off the system immediately without sending notifications to logged-in users:
 
 `systemctl poweroff --force --no-wall`
