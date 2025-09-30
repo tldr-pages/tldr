@@ -21,7 +21,7 @@
 
 - Ga naar de bovenliggende commit van een specifieke commit en volg een specifieke tekst en de 10 regels die daarop volgen:
 
-`git blame -L '/{{text}}/',+10 {{a82812aa}}^ tldr.py`
+`git blame -L '/{{text}}/',+10 {{a82812aa}}^ {{pad/naar/bestand}}`
 
 - Toon auteursnaam en commit hash informatie voor een specifieke regelbereik:
 
