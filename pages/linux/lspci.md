@@ -15,7 +15,7 @@
 
 `lspci -k`
 
-- Show a [s]pecific device:
+- [s]elect a specific device:
 
 `lspci -s {{00:18.3}}`
 
