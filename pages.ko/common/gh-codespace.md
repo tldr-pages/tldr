@@ -33,4 +33,4 @@
 
 - 하위 명령어에 대한 도움말 표시:
 
-`gh {{[cs|codespace]}} {{code|cp|create|delete|edit|...}} --help`
+`gh {{[cs|codespace]}} {{code|cp|create|delete|edit|...}} {{[-h|--help]}}`

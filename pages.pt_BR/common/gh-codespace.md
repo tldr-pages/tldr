@@ -33,4 +33,4 @@
 
 - Exibe ajuda para um subcomando:
 
-`gh {{[cs|codespace]}} {{code|cp|create|delete|edit|...}} --help`
+`gh {{[cs|codespace]}} {{code|cp|create|delete|edit|...}} {{[-h|--help]}}`
