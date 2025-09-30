@@ -13,4 +13,4 @@
 
 - Force l'écrasement d'un fichier :
 
-`git mv --force {{file}} {{cible}}`
+`git mv {{[-f|--force]}} {{file}} {{cible}}`
