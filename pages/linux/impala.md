@@ -7,7 +7,7 @@
 
 `impala`
 
-- Launch impala in Access Point mode:
+- Launch `impala` in Access Point mode:
 
 `impala {{[-m|--mode]}} ap`
 
