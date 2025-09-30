@@ -1,6 +1,7 @@
 # whereis
 
 > Locate the binary, source, and manual page files for a command.
+> See also: `which`, `whatis`, `type`.
 > More information: <https://manned.org/whereis>.
 
 - Locate binary, source and man pages for SSH:
