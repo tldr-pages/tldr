@@ -15,10 +15,10 @@
 
 `pip install {{[-r|--requirement]}} {{pad/naar/requirements.txt}}`
 
-- Installeer pakketten vanaf een URL of lokaal bestandsarchief (bijv. `.tar.gz` of `.whl`)
+- Installeer pakketten vanaf een URL of lokaal bestandsarchief (bijv. `.tar.gz` of `.whl`):
 
 `pip install {{[-f|--find-links]}} {{url|pad/naar/bestand}}`
 
-- Installeer het lokale pakket in de huidige map in develop-modus
+- Installeer het lokale pakket in de huidige map in develop-modus:
 
 `pip install {{[-e|--editable]}} .`
