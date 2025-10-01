@@ -23,14 +23,15 @@
 
 `htop {{[-d|--delay]}} {{50}}`
 
+- Disable all system and process changing features:
+
+`htop --readonly`
+
 - See interactive commands while running htop:
 
-`<?>`
+`{{<F1>|<?>}}`
 
 - Switch to a different tab:
 
 `<Tab>`
 
-- Display help:
-
-`htop {{[-h|--help]}}`
