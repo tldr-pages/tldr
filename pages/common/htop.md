@@ -34,4 +34,3 @@
 - Switch to a different tab:
 
 `<Tab>`
-
