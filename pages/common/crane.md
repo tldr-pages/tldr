@@ -4,34 +4,34 @@
 > Some subcommands such as `pull`, `push`, `copy`, etc. have their own usage documentation.
 > More information: <https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane.md/>.
 
-- Build or pull images if they don't exists:
+- Log in to a registry:
 
-`crane up/lift {{[-d|--detach]}}`
+`crane auth login {{registry}} -u {{user}} -p {{password}}`
 
-- Start stopped container:
+- List the repos in a registry:
 
-`crane start {{target}}`
+`crane catalog {{registry}} {{[--full-ref]}}`
 
-- Stop running containers:
+- List the tags in a repostiory:
 
-`crane stop {{target}}`
+`crane ls {{repository}} {{[-o|--omit-digest-tags]}}`
 
-- Execute command in target container:
+- Pull remote images by reference and store their contents locally:
 
-`crane exec {{target}} {{<cmd>}}`
+`crane pull {{image}} {{tarball}}`
 
-- Remove stopped container:
+- Push local image contents to a remote registry:
 
-`crane rm {{[-f|--force]}} {{target}}`
+`crane push {{path}} {{image}}`
 
-- Push containers to the regsitry:
+- Efficiently tag a remote image:
 
-`crane push {{target}}`
+`crane tag {{image}} {{tag}}`
 
-- Show container logs:
+- Efficiently copy a remote image from src to dst while retaining the digest value:
 
-`crane logs {{target}}`
+`crane copy {{src}} {{dst}} {{[-a|-all-tags]}}`
 
-- Show container statuses:
+- Delete an image reference from its registry:
 
-`crane status`
+`crane delete {{image}}`
