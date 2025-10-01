@@ -19,6 +19,6 @@
 
 `cargo msrv set {{version}}`
 
-- Verify whether the MSRV is satisfyable by compiling the project using the specified version of Rust:
+- Verify whether the MSRV is satisfiable by compiling the project using the specified version of Rust:
 
 `cargo msrv verify`
