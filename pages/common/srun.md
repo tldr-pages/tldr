@@ -1,4 +1,4 @@
-# scrun
+# srun
 
 > Run a command under the Slurm workload manager.
 > More information: <https://slurm.schedmd.com/srun.html>.
