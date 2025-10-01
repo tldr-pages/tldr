@@ -12,7 +12,8 @@
 `srun -n 4 {{path/to/program}}`
 
 - Allocate memory for a job:
-`srun --mem=8G my_program`
+
+`srun --mem=8G {{path/to/program}}`
 
 - Run a job on a specific partition:
 
