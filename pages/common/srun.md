@@ -15,7 +15,8 @@
 `srun --mem=8G my_program`
 
 - Run a job on a specific partition:
-`srun -p gpu my_program`
+
+`srun -p gpu {{path/to/program}}`
 
 - Run a job and save output to a file:
 
