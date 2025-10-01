@@ -1,7 +1,7 @@
 # srun
 
 > Run a command under the Slurm workload manager.
-> More information: <https://slurm.schedmd.com/srun.html>
+> More information: <https://slurm.schedmd.com/srun.html>.
 
 - Run a simple command interactively:
 
@@ -22,4 +22,3 @@
 - Run a job and save the output to a file:
 
 `srun my_program > output.txt`
-
