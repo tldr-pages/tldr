@@ -11,6 +11,10 @@
 
 `agg --cols 80 --rows 25 {{path/to/demo.cast}} {{path/to/demo.gif}}`
 
+- Create a GIF with a font size of 24 pixels:
+
+`agg --font-size 24 {{path/to/demo.cast}} {{path/to/demo.gif}}`
+
 - Display help:
 
 `agg {{[-h|--help]}}`
