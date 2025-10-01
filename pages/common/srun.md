@@ -10,7 +10,7 @@
   `srun {{[-n|--ntasks]}} 4 my_program`
 
 - Allocate 8 GB of memory:
-  `srun {{--mem}} 8G my_program`
+  `srun --mem 8G my_program`
 
 - Run a job on a specific partition:
   `srun {{[-p|--partition]}} gpu my_program`
