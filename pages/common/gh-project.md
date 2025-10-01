@@ -1,6 +1,6 @@
 # gh project
 
-> Work with GitHub Projects on the command line.
+> Work with GitHub Projects.
 > More information: <https://cli.github.com/manual/gh_project>.
 
 - List projects owned by the currently authenticated user:
