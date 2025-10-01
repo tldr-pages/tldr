@@ -18,4 +18,5 @@
 `srun -p gpu my_program`
 
 - Run a job and save output to a file:
-`srun my_program > output.txt`
+
+`srun {{path/to/program}} > {{path/to/output}}`
