@@ -8,16 +8,20 @@
 
 - List tags, manifests, and sub-repostiories:
 
-`gcrane ls {{container_registry}}/{{project_id}}`
+`gcrane ls {{registry}}/{{project_id}}`
 
 - Copy images from one registry to another:
 
-`gcrane cp {{[-r|--recursive]}} {{source_container_registry}}/{{source_project_id}}/{{repository}} {{target_container_registry}}/{{target_project_id}}/{{repository}}`
+`gcrane cp {{[-r|--recursive]}} {{source_registry}}/{{source_project_id}}/{{repository}} {{target_registry}}/{{target_project_id}}/{{repository}}`
 
 - Print images that can be garbage collected:
 
-`gcrane gc {{container_registry}}/{{project_id}}/{{repository}}`
+`gcrane gc {{registry}}/{{project_id}}/{{repository}}`
 
 - Delete images that can be garbage collected:
 
-`gcrane gc {{container_registry}}/{{project_id}}/{{repository}} | xargs -n1 gcrane delete`
+`gcrane gc {{registry}}/{{project_id}}/{{repository}} | xargs -n1 gcrane delete`
+
+- Example from a specific registry with specific ID:
+
+`gcrane ls {{gcr.io}}/{{my-project-id}}`
