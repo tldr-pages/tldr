@@ -11,9 +11,9 @@
 
 `cargo deb {{[-o|--output]}} {{path/to/file_or_directory}}`
 
-- Compile for the specified Rust target:
+- Compile for the specified Rust target triple:
 
-`cargo deb --target {{target_triple}}`
+`cargo deb --target {{x86_64-unknown-linux-gnu}}`
 
 - Select which package to use in a Cargo workspace:
 
