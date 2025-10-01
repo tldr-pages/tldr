@@ -7,7 +7,8 @@
 `srun hostname`
 
 - Run a job with 4 CPUs:
-`srun -n 4 my_program`
+
+`srun -n 4 {{path/to/program}}`
 
 - Allocate memory for a job:
 `srun --mem=8G my_program`
