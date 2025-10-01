@@ -4,6 +4,7 @@
 > More information: <https://slurm.schedmd.com/srun.html>.
 
 - Run a simple command interactively:
+
 `srun hostname`
 
 - Run a job with 4 CPUs:
