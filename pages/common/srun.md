@@ -1,24 +1,20 @@
 # srun
 
-> Run a command under the Slurm workload manager.
-> More information: <https://slurm.schedmd.com/srun.html>.
+> Run a command under the Slurm workload manager.  
+> More information: <https://slurm.schedmd.com/srun.html>
 
 - Run a simple command interactively:
+  `srun hostname`
 
-`srun hostname`
+- Run a job with 4 tasks (CPUs):
+  `srun {{[-n|--ntasks]}} 4 my_program`
 
-- Run a job with 4 CPUs:
-
-`srun -n 4 {{path/to/program}}`
-
-- Allocate memory for a job:
-
-`srun --mem=8G {{path/to/program}}`
+- Allocate 8 GB of memory:
+  `srun {{--mem}} 8G my_program`
 
 - Run a job on a specific partition:
+  `srun {{[-p|--partition]}} gpu my_program`
 
-`srun -p gpu {{path/to/program}}`
+- Run a job and save the output to a file:
+  `srun my_program > output.txt`
 
-- Run a job and save output to a file:
-
-`srun {{path/to/program}} > {{path/to/output}}`
