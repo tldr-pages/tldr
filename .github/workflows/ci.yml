@@ -26,9 +26,14 @@ jobs:
         node-version: 'lts/*'
         cache: 'npm'
 
-    - name: Set up PR environment
-      if: github.event.number != null
-      run: echo "PULL_REQUEST_ID=${{ github.event.number }}" >> $GITHUB_ENV
+    - name: Set up environment variables
+      run: |
+        if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+          echo "PULL_REQUEST_ID=${{ github.event.number }}" >> $GITHUB_ENV
+          echo "COMMIT_SHA=${{ github.event.pull_request.head.sha }}" >> $GITHUB_ENV
+        else
+          echo "COMMIT_SHA=${{ github.sha }}" >> $GITHUB_ENV
+        fi
 
     - name: Install npm dependencies
       run: npm ci
