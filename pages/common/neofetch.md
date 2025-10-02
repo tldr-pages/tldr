@@ -1,13 +1,15 @@
 # neofetch
 
-> Display information about your operating system, software and hardware.
+> Display information about the operating system, software and hardware.
+> Note: `neofetch` is no longer maintained.
+> See also: `fastfetch`.
 > More information: <https://github.com/dylanaraps/neofetch>.
 
 - Return the default config, and create it if it's the first time the program runs:
 
 `neofetch`
 
-- Trigger an info line from appearing in the output, where 'infoname' is the function name in the configuration file, e.g. memory:
+- Trigger an info line from appearing in the output, where `infoname` is the function name in the configuration file, e.g. memory:
 
 `neofetch --{{enable|disable}} {{infoname}}`
 

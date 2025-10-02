@@ -2,6 +2,7 @@
 
 > Display the type of command the shell will execute.
 > Note: All examples are not POSIX compliant.
+> See also: `whereis`, `which`, `whatis`.
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#index-type>.
 
 - Display the type of a command:

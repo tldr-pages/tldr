@@ -7,18 +7,18 @@
 
 `pip freeze`
 
-- List installed packages and write it to the `requirements.txt` file:
+- Write installed packages to the `requirements.txt` file:
 
 `pip freeze > requirements.txt`
 
 - List installed packages in a virtual environment, excluding globally installed packages:
 
-`pip freeze {{[-l|--local]}} > requirements.txt`
+`pip freeze {{[-l|--local]}}`
 
 - List installed packages in the user-site:
 
-`pip freeze --user > requirements.txt`
+`pip freeze --user`
 
 - List all packages, including `pip`, `distribute`, `setuptools`, and `wheel` (they are skipped by default):
 
-`pip freeze --all > requirements.txt`
+`pip freeze --all`
