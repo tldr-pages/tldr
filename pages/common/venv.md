@@ -1,6 +1,6 @@
 # venv
 
-> Create lightweight virtual environments in python.
+> Create lightweight virtual environments in Python.
 > More information: <https://docs.python.org/library/venv.html>.
 
 - Create a Python virtual environment:
@@ -9,7 +9,7 @@
 
 - Activate the virtual environment (Linux and macOS):
 
-`source {{path/to/virtual_environment}}/bin/activate`
+`{{[.|source]}} {{path/to/virtual_environment}}/bin/activate`
 
 - Activate the virtual environment (Windows):
 
