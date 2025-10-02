@@ -6,8 +6,8 @@
 
 - Uninstall a formula/cask:
 
-`brew uninstall {{formula|cask}}`
+`brew {{[rm|uninstall]}} {{formula|cask}}`
 
 - Uninstall a cask and remove all associated files:
 
-`brew uninstall --zap {{cask}}`
+`brew {{[rm|uninstall]}} --zap {{cask}}`
