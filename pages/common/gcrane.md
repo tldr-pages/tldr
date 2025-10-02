@@ -22,6 +22,6 @@
 
 `gcrane gc {{registry}}/{{project_id}}/{{repository}} | xargs -n1 gcrane delete`
 
-- Example from a specific registry with specific ID:
+- List a specific registry with specific ID:
 
 `gcrane ls {{gcr.io}}/{{my-project-id}}`
