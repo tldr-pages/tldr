@@ -10,7 +10,7 @@
 
 - Run with debug logging:
 
-`crush -d`
+`crush {{[-d|--debug]}}`
 
 - Run with debug logging in a specific directory:
 
