@@ -1,30 +1,37 @@
 # magick
 
-> Create, edit, compose, or convert between image formats.
-> This tool replaces `convert` in ImageMagick 7+. See `magick convert` to use the old tool in versions 7+.
-> Some subcommands, such as `mogrify` have their own usage documentation.
-> More information: <https://imagemagick.org>.
+> Create, edit, compose, and convert images.
+> This is the unified command-line interface for ImageMagick v7+.
+> More information: <https://imagemagick.org/script/magick.php>.
 
-- Convert between image formats:
+- Convert an image from JPEG to PNG:
 
-`magick {{path/to/input_image.png}} {{path/to/output_image.jpg}}`
+`magick {{path/to/input.jpg}} {{path/to/output.png}}`
 
-- Resize an image, making a new copy:
+- Resize an image to 50% of its original dimensions:
 
-`magick {{path/to/input_image.jpg}} -resize {{100x100}} {{path/to/output_image.jpg}}`
+`magick {{path/to/input.png}} -resize 50% {{path/to/output.png}}`
 
-- Resize an image by a percentage:
+- Resize an image to specific dimensions, keeping aspect ratio:
 
-`magick {{path/to/input_image.png}} -resize {{50}}% {{path/to/output_image.png}}`
+`magick {{path/to/input.png}} -resize {{800x600}} {{path/to/output.png}}`
 
-- Create a GIF out of all JPEG images in the current directory:
+- Create a GIF from a series of images with 100ms delay between frames:
 
-`magick {{*.jpg}} {{path/to/images.gif}}`
+`magick {{path/to/frame*.jpg}} -delay {{10}} {{path/to/animation.gif}}`
 
-- Create a checkerboard pattern:
+- Rotate an image 90 degrees clockwise:
 
-`magick -size {{640x480}} pattern:checkerboard {{path/to/checkerboard.png}}`
+`magick {{path/to/input.png}} -rotate {{90}} {{path/to/output.png}}`
 
-- Create a PDF file out of all JPEG images in the current directory:
+- Apply a blur effect to an image:
 
-`magick {{*.jpg}} -adjoin {{path/to/file.pdf}}`
+`magick {{path/to/input.png}} -blur {{0x8}} {{path/to/output.png}}`
+
+- Add text to an image:
+
+`magick {{path/to/input.png}} -pointsize {{36}} -fill {{white}} -annotate {{+10+50}} {{text}} {{path/to/output.png}}`
+
+- Display information about an image:
+
+`magick identify {{path/to/image.png}}`
