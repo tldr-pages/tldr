@@ -16,10 +16,6 @@
 
 `crush {{[-d|--debug]}} {{[-c|--cwd]}} {{path/to/project}}`
 
-- Display version:
-
-`crush {{[-v|--version]}}`
-
 - Run a single non-interactive prompt:
 
 `crush run "{{Explain the use of context in Go}}"`
@@ -27,3 +23,7 @@
 - Run in dangerous mode (auto-accept all permissions):
 
 `crush {{[-y|--yolo]}}`
+
+- Display version:
+
+`crush {{[-v|--version]}}`
