@@ -16,7 +16,7 @@
 
 - Copy images from one registry to another:
 
-`gcrane cp {{[-r|--recursive]}} {{source_registry}}/{{source_project_id}}/{{repository}} {{target_registry}}/{{target_project_id}}/{{repository}}`
+`gcrane cp {{[-r|--recursive]}} {{source_registry}}/{{project_id}}/{{repository}} {{target_registry}}/{{project_id}}/{{repository}}`
 
 - Print images that can be garbage collected:
 
