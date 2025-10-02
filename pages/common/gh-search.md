@@ -33,4 +33,4 @@
 
 - Open the search query in the web browser:
 
-`gh search {{subcommand}} {{query}} --web`
+`gh search {{subcommand}} --web {{query}}`
