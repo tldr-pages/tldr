@@ -16,9 +16,9 @@
 
 `crush {{[-d|--debug]}} {{[-c|--cwd]}} {{path/to/project}}`
 
-- Print version:
+- Display version:
 
-`crush -v`
+`crush {{[-v|--version]}}`
 
 - Run a single non-interactive prompt:
 
