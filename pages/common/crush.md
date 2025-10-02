@@ -26,4 +26,4 @@
 
 - Run in dangerous mode (auto-accept all permissions):
 
-`crush -y`
+`crush {{[-y|--yolo]}}`
