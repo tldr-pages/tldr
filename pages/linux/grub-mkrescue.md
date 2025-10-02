@@ -19,6 +19,10 @@
 
 `grub-mkrescue --disable-cli --output {{grub.iso}} {{path/to/source}}`
 
+- Preload specific GRUB modules into the image (quote when specifying multiple modules):
+
+`grub-mkrescue --modules "{{part_gpt iso9660}}" --output {{grub.iso}} {{path/to/source}}`
+
 - Pass additional options directly to xorriso (use `--` to switch to xorriso mode):
 
 `grub-mkrescue --output {{grub.iso}} -- {{-volid}} {{volume_name}} {{path/to/source}}`
@@ -29,4 +33,4 @@
 
 - Display version:
 
-`grub-mkrescue {{[-V|--version]}}`
+`grub-mkrescue {{--version}}`
