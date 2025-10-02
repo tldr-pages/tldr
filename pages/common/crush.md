@@ -22,7 +22,7 @@
 
 - Run a single non-interactive prompt:
 
-`crush run {{"Explain the use of context in Go"}}`
+`crush run "{{Explain the use of context in Go}}"`
 
 - Run in dangerous mode (auto-accept all permissions):
 
