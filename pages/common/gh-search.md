@@ -5,7 +5,7 @@
 
 - Search for code containing specific keywords:
 
-`gh search code {{keyword1}} {{keyword2}}`
+`gh search code {{keyword1 keyword2 ...}}`
 
 - Search for issues with a specific phrase:
 
@@ -13,15 +13,15 @@
 
 - Search commits by a specific author:
 
-`gh search commits --author={{username}}`
+`gh search commits --author {{username}}`
 
 - Search pull requests assigned to yourself that are still open:
 
-`gh search prs --assignee=@me --state=open`
+`gh search prs --assignee @me --state open`
 
 - Search repositories in an organization by topic:
 
-`gh search repos --owner={{org_name}} --topic={{topic_name}}`
+`gh search repos --owner {{org_name}} --topic {{topic_name}}`
 
 - Exclude search results with a specific qualifier (Unix-like systems):
 
