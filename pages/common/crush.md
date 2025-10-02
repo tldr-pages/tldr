@@ -14,7 +14,7 @@
 
 - Run with debug logging in a specific directory:
 
-`crush -d -c {{path/to/project}}`
+`crush {{[-d|--debug]}} {{[-c|--cwd]}} {{path/to/project}}`
 
 - Print version:
 
