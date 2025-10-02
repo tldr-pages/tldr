@@ -9,7 +9,7 @@
 
 - Voorkom dat een service automatisch opstart en stop de huidige uitvoering:
 
-`systemctl disable {{eenheid}} --now`
+`systemctl disable --now {{eenheid}}`
 
 - Voorkom dat een gebruikersservice automatisch opstart na het inloggen:
 
