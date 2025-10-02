@@ -23,14 +23,14 @@
 
 `gh search repos --owner {{org_name}} --topic {{topic_name}}`
 
-- Exclude search results with a specific qualifier (Unix-like systems):
+- Search issues without a certain label (Unix-like systems):
 
 `gh search issues -- "{{search_query}} -label:{{label_name}}"`
 
-- Exclude search results with a specific qualifier (PowerShell):
+- Search issues without a certain label (PowerShell):
 
 `gh --% search issues -- "{{search_query}} -label:{{label_name}}"`
 
 - Open the search query in the web browser:
 
-`gh search {{subcommand}} --web {{query}}`
+`gh search {{subcommand}} {{[-w|--web]}} {{query}}`
