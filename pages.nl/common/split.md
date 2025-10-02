@@ -18,3 +18,7 @@
 - Splits een bestand met maximaal 512 bytes in elk deel zonder regels te breken:
 
 `split {{[-C|--line-bytes]}} 512 {{pad/naar/bestand}}`
+
+- Splits in meerdere bestanden vanuit `stdin`:
+
+`gzip {{[-cd|--stdout --decompress]}} {{pad/naar/gecomprimeerd_bestand.gz}} | split {{[-l|--lines]}} {{1000}} - {{pad/naar/uitvoer}}`
