@@ -22,7 +22,7 @@
 
 - Push local image contents to a remote registry:
 
-`crane push {{path}} {{image}}`
+`crane push {{path/to/directory_or_tarball}} {{image}}`
 
 - Efficiently tag a remote image:
 
@@ -30,7 +30,7 @@
 
 - Efficiently copy a remote image from src to dst while retaining the digest value:
 
-`crane copy {{src}} {{dst}} {{[-a|-all-tags]}}`
+`crane copy {{src}} {{dst}} {{[-a|--all-tags]}}`
 
 - Delete an image reference from its registry:
 
