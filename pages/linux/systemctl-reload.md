@@ -6,7 +6,7 @@
 
 - Reload a service:
 
-`systemctl reload nginx`
+`systemctl reload {{nginx}}`
 
 - Reload multiple services:
 
