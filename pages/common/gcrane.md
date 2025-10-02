@@ -6,6 +6,10 @@
 > Some subcommands such as `completion`, `gc`, `help` are specific to gcrane and have their own usage documentation.
 > More information: <https://github.com/google/go-containerregistry/blob/main/cmd/gcrane/README.md>.
 
+- Login to a registry:
+
+`gcrane auth login {{registry}} {{[-u|--username]}} {{user}} {{[-p|--password]}} {{password}}`
+
 - List tags, manifests, and sub-repostiories:
 
 `gcrane ls {{registry}}/{{project_id}}`
@@ -25,3 +29,7 @@
 - List a specific registry with specific ID:
 
 `gcrane ls {{gcr.io}}/{{my-project-id}}`
+
+- Migrate all images from US registry to EU registry:
+
+`gcrane cp -r {{gcr.io}}/{{my-project-id}}/{{repository}} {{eu.gcr.io}}/{{my-project-id}}/{{repository}}`
