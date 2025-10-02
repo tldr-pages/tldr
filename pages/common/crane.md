@@ -6,13 +6,13 @@
 
 - Log in to a registry:
 
-`crane auth login {{registry}} -u {{user}} -p {{password}}`
+`crane auth login {{registry}} {{[-u|--username]}} {{user}} {{[-p|--password]}} {{password}}`
 
 - List the repos in a registry:
 
-`crane catalog {{registry}} {{[--full-ref]}}`
+`crane catalog {{registry}} --full-ref`
 
-- List the tags in a repostiory:
+- List the tags in a repository:
 
 `crane ls {{repository}} {{[-o|--omit-digest-tags]}}`
 
