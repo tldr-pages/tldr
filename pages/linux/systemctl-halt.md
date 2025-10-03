@@ -30,4 +30,4 @@
 
 - Cancel a scheduled halt:
 
-`systemctl halt --when=cancel`
+`systemctl halt --when cancel`
