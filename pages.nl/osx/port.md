@@ -1,7 +1,7 @@
 # port
 
 > Pakketbeheer voor macOS.
-> Meer informatie: <https://www.macports.org>.
+> Meer informatie: <https://guide.macports.org/#using.port>.
 
 - Zoek naar een pakket:
 

@@ -6,4 +6,4 @@
 
 - Fetch the newest version of Homebrew and all formulae:
 
-`brew update`
+`brew {{[up|update]}}`

@@ -5,24 +5,24 @@
 
 - List all installed formulae and casks:
 
-`brew list`
+`brew {{[ls|list]}}`
 
 - List files belonging to an installed formula:
 
-`brew list {{formula}}`
+`brew {{[ls|list]}} {{formula}}`
 
 - List artifacts of a cask:
 
-`brew list {{cask}}`
+`brew {{[ls|list]}} {{cask}}`
 
 - List only formulae:
 
-`brew list --formula`
+`brew {{[ls|list]}} --formula`
 
 - List only casks:
 
-`brew list --cask`
+`brew {{[ls|list]}} --cask`
 
 - List only pinned formulae:
 
-`brew list --pinned`
+`brew {{[ls|list]}} --pinned`
