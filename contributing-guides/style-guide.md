@@ -401,6 +401,12 @@ the part of the address that starts with `?view=`.
 > See also: `date` for Unix information, `uname` for system information and `umount` for unmounting partitions.
 ```
 
+- When a command features subcommands, those page can be referenced with the following line. Note that only the subcommand is named:
+
+```md
+> Some subcommands such as `commit`, `add`, `branch`, `switch`, `push`, etc. have their own usage documentation.
+```
+
 ## Example descriptions
 
 ### Short option mnemonics
