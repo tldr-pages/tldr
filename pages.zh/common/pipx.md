@@ -15,7 +15,7 @@
 
 `pipx list`
 
-- 在临时虚拟环境中运行应用程序（当包名与可执行文件不同时）：
+- 在临时虚拟环境中运行应用程序（当软件包名与可执行文件不同时）：
 
 `pipx run --spec {{httpx-cli}} {{httpx}} {{http://www.github.com}}`
 
