@@ -7,10 +7,6 @@
 
 `difft {{path/to/file1}} {{path/to/file2}}`
 
-- Compare files using git diff with difftastic:
-
-`git diff --ext-diff`
-
 - Display a side-by-side diff:
 
 `difft --display {{side-by-side}} {{path/to/file1}} {{path/to/file2}}`
