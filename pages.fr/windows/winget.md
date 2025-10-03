@@ -1,7 +1,7 @@
 # winget
 
 > Gestionnaire de paquets Windows.
-> Plus d’informations : <https://learn.microsoft.com/windows/package-manager/winget/>.
+> Plus d’informations : <https://learn.microsoft.com/windows/package-manager/winget>.
 
 - Installer un paquet :
 
