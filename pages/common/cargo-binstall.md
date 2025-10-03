@@ -8,7 +8,7 @@
 
 `cargo binstall {{package}}`
 
-- Install a specific version of a package from (latest by default):
+- Install a specific version of a package (latest by default):
 
 `cargo binstall {{package}}@{{version}}`
 
