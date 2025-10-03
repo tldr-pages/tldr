@@ -25,7 +25,7 @@
 
 - Show only the changed hunks without any surrounding context:
 
-`difft --context {{0}} {{path/to/file1}} {{path/to/file2}}`
+`difft --context 0 {{path/to/file1}} {{path/to/file2}}`
 
 - Display the list of supported languages:
 
