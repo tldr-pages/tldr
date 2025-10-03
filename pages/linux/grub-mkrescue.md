@@ -11,9 +11,9 @@
 
 `grub-mkrescue --directory {{/usr/lib/grub/i386-pc}} --output {{grub.iso}} {{path/to/source}}`
 
-- Use XZ compression for GRUB files when building the image:
+- Use compression for GRUB files when building the image:
 
-`grub-mkrescue --compress xz --output {{grub.iso}} {{path/to/source}}`
+`grub-mkrescue --compress {{no|xz|gz|lzo}} --output {{grub.iso}} {{path/to/source}}`
 
 - Disable the GRUB command-line interface in the generated image:
 
