@@ -1,7 +1,7 @@
 # cd
 
-> Affiche le répertoire de travail actuel ou permet de se déplacer vers un autre répertoire.  
-> Dans PowerShell, cette commande est un alias de `Set-Location`. Cette documentation est basée sur la version `cmd` de `cd`.  
+> Affiche le répertoire de travail actuel ou permet de se déplacer vers un autre répertoire.
+> Dans PowerShell, cette commande est un alias de `Set-Location`. Cette documentation est basée sur la version `cmd` de `cd`.
 > Plus d’informations : <https://learn.microsoft.com/fr-fr/windows-server/administration/windows-commands/cd>.
 
 - Voir la documentation de la commande PowerShell équivalente :
