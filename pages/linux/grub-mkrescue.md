@@ -13,17 +13,17 @@
 
 - Use XZ compression for GRUB files when building the image:
 
-`grub-mkrescue --compress {{xz}} --output {{grub.iso}} {{path/to/source}}`
+`grub-mkrescue --compress xz --output {{grub.iso}} {{path/to/source}}`
 
 - Disable the GRUB command-line interface in the generated image:
 
 `grub-mkrescue --disable-cli --output {{grub.iso}} {{path/to/source}}`
 
-- Preload specific GRUB modules into the image (quote when specifying multiple modules):
+- Preload specific GRUB modules into the image:
 
 `grub-mkrescue --modules "{{part_gpt iso9660}}" --output {{grub.iso}} {{path/to/source}}`
 
-- Pass additional options directly to xorriso (use `--` to switch to xorriso mode):
+- Pass additional options directly to xorriso:
 
 `grub-mkrescue --output {{grub.iso}} -- {{-volid}} {{volume_name}} {{path/to/source}}`
 
@@ -33,4 +33,4 @@
 
 - Display version:
 
-`grub-mkrescue {{--version}}`
+`grub-mkrescue --version`
