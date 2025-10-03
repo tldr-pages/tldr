@@ -15,7 +15,7 @@
 
 `netsh wlan disconnect`
 
-- Show the current wireless network profile:
+- Show current wireless network interfaces and status:
 
 `netsh wlan show interfaces`
 
@@ -27,10 +27,6 @@
 
 `netsh wlan delete profile name="{{SSID}}"`
 
-- Add a new wireless network profile from an XML file:
-
-`netsh wlan add profile filename="{{profile.xml}}"`
-
 - Enable hosted network (turn PC into Wi-Fi hotspot):
 
 `netsh wlan set hostednetwork mode=allow ssid="{{SSID}}" key="{{password}}"`
@@ -38,7 +34,3 @@
 - Start the hosted network:
 
 `netsh wlan start hostednetwork`
-
-- Stop the hosted network:
-
-`netsh wlan stop hostednetwork`
