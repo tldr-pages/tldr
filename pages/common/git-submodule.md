@@ -17,4 +17,4 @@
 
 - Update every submodule to its latest commit:
 
-`git submodule foreach git pull`
+`git submodule update --init --recursive --remote`
