@@ -29,4 +29,4 @@
 
 - Vacuum a database using multiple parallel jobs:
 
-`vacuumdb --jobs {{number_of_jobs}} {{database_name}}`
+`vacuumdb --jobs={{number_of_jobs}} {{database_name}}`
