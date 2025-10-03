@@ -9,7 +9,7 @@
 
 - Display a side-by-side diff:
 
-`difft --display {{side-by-side}} {{path/to/file1}} {{path/to/file2}}`
+`difft --display side-by-side {{path/to/file1}} {{path/to/file2}}`
 
 - Ignore comments when comparing:
 
