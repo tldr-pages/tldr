@@ -1,6 +1,8 @@
 # htop
 
-> Display dynamic real-time information about running processes. An enhanced version of `top`.
+> Display dynamic real-time information about running processes.
+> An enhanced version of `top`.
+> See also: `top`, `btop`, `btm`.
 > More information: <https://manned.org/htop>.
 
 - Start `htop`:
