@@ -2,7 +2,7 @@
 
 > Display dynamic real-time information about running processes.
 > An enhanced version of `top`.
-> See also: `top`, `btop`, `btm`.
+> See also: `top`, `atop`, `glances`, `btop`, `btm`.
 > More information: <https://manned.org/htop>.
 
 - Start `htop`:
