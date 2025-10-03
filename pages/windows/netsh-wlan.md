@@ -1,7 +1,7 @@
 # netsh wlan
 
 > Manage wireless networks on Windows using the command line.
-> More information: <https://docs.microsoft.com/en-us/windows-server/networking/technologies/netsh/netsh-wlan>.
+> More information: <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/netsh>.
 
 - Show all available wireless networks:
 
