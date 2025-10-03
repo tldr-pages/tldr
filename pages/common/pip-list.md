@@ -9,11 +9,11 @@
 
 - List outdated packages that can be upgraded:
 
-`pip list {{[-o|--outdated]}}`
+`pip list --outdated`
 
 - List up-to-date packages:
 
-`pip list {{[-u|--uptodate]}}`
+`pip list --uptodate`
 
 - List packages with JSON formatting:
 
