@@ -1,6 +1,6 @@
 # vacuumdb
 
-> It garbage-collects and analyzes a PostgreSQL database.
+> Garbage-collect and analyze a PostgreSQL database.
 > More information: <https://www.postgresql.org/docs/current/app-vacuumdb.html>.
 
 - Vacuum a specific database:
