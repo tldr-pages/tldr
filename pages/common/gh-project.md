@@ -9,7 +9,7 @@
 
 - List projects owned by a specific user or organization:
 
-`gh project list --owner {{owner}}`
+`gh project {{[ls|list]}} --owner {{owner}}`
 
 - View a project by number:
 
