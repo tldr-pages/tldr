@@ -5,7 +5,7 @@
 
 - List projects owned by the currently authenticated user:
 
-`gh project list`
+`gh project {{[ls|list]}}`
 
 - List projects owned by a specific user or organization:
 
