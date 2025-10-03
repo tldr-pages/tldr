@@ -23,7 +23,7 @@
 
 `difft --language {{rust}} {{path/to/file1}} {{path/to/file2}}`
 
-- Show only the changed hunks without context:
+- Show only the changed hunks without any surrounding context:
 
 `difft --context {{0}} {{path/to/file1}} {{path/to/file2}}`
 
