@@ -9,7 +9,7 @@
 
 - Show all information about a package:
 
-`pip show {{[-v|--verbose]}} {{package}}
+`pip show {{[-v|--verbose]}} {{package}}`
 
 - Show all installed files for a package:
 
