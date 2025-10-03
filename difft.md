@@ -20,6 +20,10 @@
 
 `difft --display {{side-by-side|side-by-side-show-both|inline|json}} {{path/to/file1}} {{path/to/file2}}`
 
+- Show only the changed hunks without any surrounding context:
+  
+`difft --context 0 {{path/to/file1}} {{path/to/file2}}`
+
 - Ignore comments when comparing:
 
 `difft --ignore-comments {{path/to/file1}} {{path/to/file2}}`
