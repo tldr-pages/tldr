@@ -1,7 +1,7 @@
 # pip uninstall
 
 > Uninstall Python packages.
-> More information: <https://pip.pypa.io>.
+> More information: <https://pip.pypa.io/en/stable/cli/pip_uninstall/>.
 
 - Uninstall a package:
 

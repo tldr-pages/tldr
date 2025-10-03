@@ -13,6 +13,10 @@
 
 `magick {{pad/naar/invoer_afbeelding.png}} -resize {{100x100}} {{pad/naar/uitvoer_afbeelding.jpg}}`
 
+- Wijzig de grootte van een afbeelding met een percentage:
+
+`magick {{pad/naar/invoer_afbeelding.png}} -resize {{50}}% {{pad/naar/uitvoer_afbeelding.png}}`
+
 - Maak een GIF van alle JPEG-afbeeldingen uit de huidige map:
 
 `magick {{*.jpg}} {{pad/naar/uitvoer_afbeelding.gif}}`
