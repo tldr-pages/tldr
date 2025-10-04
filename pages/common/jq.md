@@ -7,13 +7,13 @@
 
 `jq '.' {{path/to/file.json}}`
 
+- Output compact JSON (no pretty-printing):
+
+`jq {{[-c|--compact-output]}} '.' {{path/to/file.json}}`
+
 - Execute a specific script:
 
 `{{cat path/to/file.json}} | jq {{[-f|--from-file]}} {{path/to/script.jq}}`
-
-- Pass specific arguments:
-
-`{{cat path/to/file.json}} | jq {{--arg "name1" "value1" --arg "name2" "value2" ...}} '{{. + $ARGS.named}}'`
 
 - Create new JSON object via old JSON objects from multiple files:
 
