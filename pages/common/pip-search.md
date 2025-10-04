@@ -10,4 +10,4 @@
 
 - Search for packages using a custom package index:
 
-`pip search {{[-i|--index]}} {{https://test.pypi.org/simple/}} {{query}}`
+`pip search {{[-i|--index]}} {{example.com}} {{query}}`
