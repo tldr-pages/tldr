@@ -8,7 +8,7 @@
 
 `{{command}} | sed 's/apple/mango/g'`
 
-- Replace all occurrences of a string in a file and overwrite the file [i]n-place:
+- Replace all occurrences of a string in a file and overwrite the file in-place:
 
 `sed {{[-i|--in-place]}} 's/{{find}}/{{replace}}/g' {{path/to/file}}`
 
