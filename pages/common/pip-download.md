@@ -21,4 +21,4 @@
 
 - Download a package from a specific index URL:
 
-`pip download {{[-u|--index-url]}} {{url}} {{package}}`
+`pip download {{[-i|--index-url]}} {{url}} {{package}}`
