@@ -8,7 +8,7 @@
 
 `fossil {{[rm|delete]}} {{ruta/al/archivo_o_directorio}}`
 
-- Elimina un archivo o directorio del control de versiones Fossil, y también lo elimina del disco:
+- Elimina un archivo o directorio del control de versiones Fossil y también lo elimina del disco:
 
 `fossil {{[rm|delete]}} --hard {{ruta/al/archivo_o_directorio}}`
 
