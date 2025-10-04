@@ -8,9 +8,9 @@
 
 `{{command}} | sed 's/apple/mango/g'`
 
-- Replace all occurrences of a string in a file and overwrite the file [i]n-place:
+- Replace only the first occurrence of `apple` in each line:
 
-`sed {{[-i|--in-place]}} 's/{{find}}/{{replace}}/g' {{path/to/file}}`
+`{{command}} | sed 's/apple/mango/'`
 
 - Replace only on lines matching a specific pattern:
 
@@ -24,7 +24,7 @@
 
 `{{command}} | sed -n '/{{start_pattern}}/,/{{end_pattern}}/p'`
 
-- Execute a specific script [f]ile and print the result to `stdout`:
+- Execute a specific script file and print the result to `stdout`:
 
 `{{command}} | sed -f {{path/to/script.sed}}`
 
@@ -32,6 +32,6 @@
 
 `{{command}} | sed -n '1p'`
 
-- Replace only the first occurrence in each line and write the result to a different file:
+- Apply multiple substitution expressions:
 
-`sed 's/{{find}}/{{replace}}/' {{path/to/input_file}} > {{path/to/output_file}}`
+`{{command}} | sed -e 's/{{find1}}/{{replace1}}/g' -e 's/{{find2}}/{{replace2}}/g'`
