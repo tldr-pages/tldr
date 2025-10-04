@@ -2,7 +2,7 @@
 
 > Affiche le répertoire de travail actuel ou permet de se déplacer vers un autre répertoire.
 > Dans PowerShell, cette commande est un alias de `Set-Location`. Cette documentation est basée sur la version `cmd` de `cd`.
-> Plus d’informations : <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
+> Plus d'informations : <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
 
 - Voir la documentation de la commande PowerShell équivalente :
 
@@ -24,7 +24,7 @@
 
 `cd ..`
 
-- Aller dans le répertoire personnel de l’utilisateur courant :
+- Aller dans le répertoire personnel de l'utilisateur courant :
 
 `cd %userprofile%`
 
