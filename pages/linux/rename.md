@@ -4,7 +4,7 @@
 
 - View documentation for the Perl version:
 
-`tldr -p common rename`
+`tldr {{[-p|--platform]}} common rename`
 
 - View documentation for the `util-linux` version:
 
