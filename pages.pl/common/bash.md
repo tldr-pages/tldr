@@ -2,7 +2,7 @@
 
 > Bourne-Again SHell, interpreter komend powłoki systemowej kompatybilny z `sh`.
 > Zobacz także: `zsh`, `histexpand`.
-> Więcej informacji: <https://www.gnu.org/software/bash/manual/html_node/Invoking-Bash.html>.
+> Więcej informacji: <https://www.gnu.org/software/bash/manual/bash.html#Invoking-Bash>.
 
 - Rozpocznij interaktywną sesję powłoki:
 

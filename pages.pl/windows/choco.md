@@ -2,7 +2,7 @@
 
 > Interfejs wiersza polecenia dla menadżera pakietów Chocolatey.
 > Niektóre podkomendy takie jak `install` posiadają osobną dokumentację.
-> Więcej informacji: <https://chocolatey.org>.
+> Więcej informacji: <https://docs.chocolatey.org/en-us/choco/commands/>.
 
 - Wykonanie podkomendy:
 
