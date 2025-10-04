@@ -11,7 +11,7 @@
 
 `grub-mkrescue --directory {{/usr/lib/grub/i386-pc}} --output {{grub.iso}} {{path/to/source}}`
 
-- Use compression for GRUB files when building the image:
+- Use compression for GRUB files when building the image, setting `no` disables compression:
 
 `grub-mkrescue --compress {{no|xz|gz|lzo}} --output {{grub.iso}} {{path/to/source}}`
 
