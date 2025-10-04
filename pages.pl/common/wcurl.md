@@ -12,7 +12,7 @@
 
 `wcurl {{[-o|--output]}} {{bar}} {{https://example.com/foo}}`
 
-- Pobierz zawartość URL, z paskiem postępu i domyślnie za pomocą HTTP/2:
+- Pobierz zawartość URL, wyświetl pasek postępu i domyślnie użyj HTTP/2:
 
 `wcurl --curl-options "--progress-bar --http2" {{https://example.com/foo}}`
 
