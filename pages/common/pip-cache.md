@@ -1,6 +1,6 @@
 # pip cache
 
-> Inspect and manage pip’s wheel cache.
+> Inspect and manage pip's wheel cache.
 > More information: <https://pip.pypa.io/en/stable/cli/pip_cache/>.
 
 - Show the location of the pip cache directory:
