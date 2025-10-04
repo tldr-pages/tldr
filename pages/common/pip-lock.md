@@ -1,4 +1,4 @@
-# pip-lock
+# pip lock
 
 > Lock Python packages and their dependencies into a reproducible file.
 > Experimental feature of pip.
