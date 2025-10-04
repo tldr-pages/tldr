@@ -2,7 +2,7 @@
 
 > Python-pakketbeheerder.
 > Sommige subcommando's zoals `install` hebben hun eigen documentatie.
-> Meer informatie: <https://pip.pypa.io>.
+> Meer informatie: <https://pip.pypa.io/en/stable/cli/pip/>.
 
 - Installeer een pakket (zie `pip install` voor meer installatievoorbeelden):
 
