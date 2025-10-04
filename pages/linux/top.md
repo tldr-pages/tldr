@@ -1,6 +1,7 @@
 # top
 
 > Display dynamic real-time information about running processes.
+> See also: `htop`, `atop`, `glances`, `btop`, `btm`.
 > More information: <https://manned.org/top>.
 
 - Start `top`:
