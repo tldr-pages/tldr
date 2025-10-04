@@ -7,7 +7,7 @@
 
 `pip index versions {{package}}`
 
-- List versions from a specific index (`--index-url`):
+- List versions from a specific index:
 
 `pip index versions {{package}} --index-url {{https://test.pypi.org/simple/}}`
 
