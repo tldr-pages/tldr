@@ -6,12 +6,12 @@
 
 - Elimina todas las rutas del almacén desusados por las generaciones actuales de cada perfil:
 
-`sudo nix-collect-garbage {{[-d|--delete-old]}}`
+`nix-collect-garbage {{[-d|--delete-old]}}`
 
 - Simula la eliminación de rutas del almacén antiguas:
 
-`sudo nix-collect-garbage {{[-d|--delete-old]}} --dry-run`
+`nix-collect-garbage {{[-d|--delete-old]}} --dry-run`
 
 - Elimina todas las rutas del almacén más antiguas que 30 días:
 
-`sudo nix-collect-garbage --delete-older-than 30d`
+`nix-collect-garbage --delete-older-than 30d`

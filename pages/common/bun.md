@@ -2,7 +2,7 @@
 
 > JavaScript runtime and toolkit.
 > Includes a bundler, a test runner, and a package manager.
-> More information: <https://bun.sh>.
+> More information: <https://bun.com/docs>.
 
 - Run a JavaScript file or a `package.json` script:
 
