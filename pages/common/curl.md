@@ -16,6 +16,10 @@
 
 `curl {{[-O|--remote-name]}} {{https://example.com/filename.zip}}`
 
+- Download a file, saving the output under a custom filename:
+
+`curl {{[-o|--output]}} {{path/to/file}} {{https://example.com}}`
+
 - Send form-encoded data (POST request of type `application/x-www-form-urlencoded`). Use `--data @file_name` or `--data @'-'` to read from `stdin`:
 
 `curl {{[-X|--request]}} POST {{[-d|--data]}} {{'name=bob'}} {{http://example.com/form}}`
@@ -31,7 +35,3 @@
 - Pass client certificate and key for a resource, skipping certificate validation:
 
 `curl {{[-E|--cert]}} {{client.pem}} --key {{key.pem}} {{[-k|--insecure]}} {{https://example.com}}`
-
-- Resolve a hostname to a custom IP address, with verbose output (similar to editing the `/etc/hosts` file for custom DNS resolution):
-
-`curl {{[-v|--verbose]}} --resolve {{example.com}}:{{80}}:{{127.0.0.1}} {{http://example.com}}`
