@@ -1,4 +1,4 @@
-# pip-search
+# pip search
 
 > Search for Python packages by name or summary.
 > Deprecated for PyPI; may work with other package indexes.
