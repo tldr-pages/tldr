@@ -2,24 +2,9 @@
 
 > Reload systemd manager configuration.
 > Use this after creating, modifying, or deleting unit files.
-> This does not reload service configuration; use `systemctl reload` for that.
+> See also: `systemctl reload` for reloading service configuration.
+> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#daemon-reload>.
 
-- Reload systemd after editing unit files:
-
-`systemctl daemon-reload`
-
-- Reload systemd after creating a new unit:
+- Reload systemd to apply changes in unit files:
 
 `systemctl daemon-reload`
-
-- Start a new unit after reloading systemd:
-
-`systemctl start {{myservice}}`
-
-- Reload systemd after modifying a unit:
-
-`systemctl daemon-reload`
-
-- Restart a changed service:
-
-`systemctl restart {{nginx}}`
