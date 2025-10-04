@@ -1,7 +1,6 @@
 # pip inspect
 
 > Inspect the Python environment and produce a report in JSON format.
-> Shows detailed information about installed packages and their metadata.
 > More information: <https://pip.pypa.io/en/stable/cli/pip_inspect/>.
 
 - Inspect the current environment:
