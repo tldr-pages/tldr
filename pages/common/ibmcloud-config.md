@@ -1,7 +1,7 @@
 # ibmcloud config
 
 > Modify or read out values in the IBM Cloud CLI configuration.
-> More information: <https://cloud.ibm.com/docs/cli?topic=cli-ibmcloud_cli>.
+> More information: <https://cloud.ibm.com/docs/cli?topic=cli-ibmcloud_cli#ibmcloud_config>.
 
 - Set HTTP request timeout to 30 seconds:
 
