@@ -7,28 +7,28 @@
 
 - Search for all SELinux AVC denial events:
 
-`sudo ausearch -m avc`
+`sudo ausearch {{[-m|--message]}} avc`
 
 - Search for events related to a specific executable:
 
-`sudo ausearch -c {{httpd}}`
+`sudo ausearch {{[-c|--comm]}} {{httpd}}`
 
 - Search for events from a specific user:
 
-`sudo ausearch -ui {{1000}}`
+`sudo ausearch {{[-ui|--uid]}} {{1000}}`
 
 - Search for events in the last 10 minutes:
 
-`sudo ausearch -ts recent`
+`sudo ausearch {{[-ts|--start]}} recent`
 
 - Search for failed login attempts:
 
-`sudo ausearch -m user_login -sv no`
+`sudo ausearch {{[-m|--message]}} user_login {{[-sv|--success]}} no`
 
 - Search for events related to a specific file:
 
-`sudo ausearch -f {{path/to/file}}`
+`sudo ausearch {{[-f|--file]}} {{path/to/file}}`
 
 - Display results in raw format for further processing:
 
-`sudo ausearch -m avc --raw`
+`sudo ausearch {{[-m|--message]}} avc --raw`
