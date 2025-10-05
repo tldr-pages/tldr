@@ -21,7 +21,7 @@
 
 - Perform a full vacuum (more aggressive, locks tables, rewrites the whole table):
 
-`vacuumdb --full {{database_name}}`
+`vacuumdb {{[-f|--full]}} {{database_name}}`
 
 - Vacuum with verbose output:
 
