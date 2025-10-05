@@ -9,7 +9,7 @@
 
 - Generate hash using a specific algorithm:
 
-`pip hash {{[-a|--algorithm]}} {{sha256}} {{path/to/package.whl}}`
+`pip hash {{[-a|--algorithm]}} {{sha256|sha384|sha512|...}} {{path/to/package.whl}}`
 
 - Generate hashes for multiple files:
 
