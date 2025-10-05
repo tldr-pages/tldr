@@ -25,7 +25,7 @@
 
 - Set volume to at most a specific percentage:
 
-`pulseaudio-ctl atmost {{100}}`
+`pulseaudio-ctl atmost {{percentage}}`
 
 - Toggle mute:
 
