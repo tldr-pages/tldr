@@ -18,7 +18,7 @@
 
 - Modify a network interface type definition:
 
-`sudo semanage interface -m -t {{ipsec_spd_t}} {{eth1}}`
+`sudo semanage interface {{[-m|--modify]}} {{[-t|--type]}} {{ipsec_spd_t}} {{eth1}}`
 
 - List interface type definitions in a customized format:
 
