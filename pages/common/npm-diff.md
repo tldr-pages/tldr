@@ -22,7 +22,7 @@
 
 - Show only filenames that differ:
 
-`npm diff --diff-name-only --diff={{package_name}}@{{version1}} --diff={{package_name}}@{{version2}}`
+`npm diff --diff-name-only --diff {{package_name}}@{{version1}} --diff {{package_name}}@{{version2}}`
 
 - Compare specific files or directories only:
 
