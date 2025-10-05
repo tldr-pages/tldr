@@ -1,7 +1,7 @@
 # poweroff
 
 > Matikan sistem.
-> Informasi lebih lanjut: <https://www.manned.org/poweroff>.
+> Informasi lebih lanjut: <https://manned.org/poweroff>.
 
 - Matikan sistem:
 
