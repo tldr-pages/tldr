@@ -6,7 +6,7 @@
 
 - Compare two specific package versions:
 
-`npm diff --diff={{package_name}}@{{version1}} --diff={{package_name}}@{{version2}}`
+`npm diff --diff {{package_name}}@{{version1}} --diff {{package_name}}@{{version2}}`
 
 - Compare current local package with latest published version:
 
