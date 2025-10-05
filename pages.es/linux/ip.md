@@ -2,7 +2,7 @@
 
 > Muestra/manipula enrutamientos, dispositivos, políticas de enrutamiento y túneles.
 > Algunos subcomandados como `address` tienen su propia documentación de uso.
-> Más información: <https://www.manned.org/ip.8>.
+> Más información: <https://manned.org/ip.8>.
 
 - Lista las interfaces con información detallada:
 

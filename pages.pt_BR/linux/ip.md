@@ -2,7 +2,7 @@
 
 > Mostra / manipula roteamento, dispositivos, roteamento baseado em póliticas e túneis.
 > Alguns subcomandos como `address` têm suas pŕoprias documentações de uso.
-> Mais informações: <https://www.manned.org/ip.8>.
+> Mais informações: <https://manned.org/ip.8>.
 
 - Lista interfaces com informações detalhadas:
 
