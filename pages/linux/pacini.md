@@ -13,7 +13,7 @@
 
 - Query a custom configuration file:
 
-`pacini /path/to/config.conf`
+`pacini {{/path/to/config.conf}}`
 
 - Display help:
 
