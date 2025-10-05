@@ -25,7 +25,7 @@
 
 - Vacuum with verbose output:
 
-`vacuumdb --verbose {{database_name}}`
+`vacuumdb {{[-v|--verbose]}} {{database_name}}`
 
 - Vacuum a database using multiple parallel jobs:
 
