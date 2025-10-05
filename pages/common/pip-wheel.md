@@ -13,7 +13,7 @@
 
 - Build wheel to a specific directory:
 
-`pip wheel {{package}} --wheel-dir {{path/to/directory}}`
+`pip wheel {{package}} {{[-w|--wheel-dir]}} {{path/to/directory}}`
 
 - Build wheel without dependencies:
 
