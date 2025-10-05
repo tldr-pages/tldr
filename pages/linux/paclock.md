@@ -1,19 +1,11 @@
 # paclock
 
-> Lock/Unlock the Alpm Database.
+> Lock/Unlock the libalpm database (used by pacman) to prevent or allow simultaneous package management operations.
 > More information: <https://github.com/andrewgregory/pacutils/blob/master/doc/paclock.pod>.
 
 - List all available packages:
 
 `paclock`
-
-- Display usage information:
-
-`paclock --help`
-
-- Display version information and exit:
-
-`paclock --version`
 
 - Write the lock file path to stdout:
 
@@ -26,3 +18,11 @@
 - Lock the database(default):
 
 `paclock --lock`
+
+- Display help:
+
+`paclock --help`
+
+- Display version:
+
+`paclock --version`
