@@ -35,4 +35,3 @@
 - Update the Limine installation (refresh bootloader files):
 
 `limine update`
-
