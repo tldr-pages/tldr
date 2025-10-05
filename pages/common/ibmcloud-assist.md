@@ -6,11 +6,3 @@
 - Ask a question to the AI assistant:
 
 `ibmcloud assist "{{How do I create a Kubernetes cluster?}}"`
-
-- Get help about updating the CLI:
-
-`ibmcloud assist "How do I update the CLI?"`
-
-- Ask about resource management:
-
-`ibmcloud assist "How do I list my resources?"`
