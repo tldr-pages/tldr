@@ -15,13 +15,9 @@
 
 `ghq get --look {{repository_url}}`
 
-- Clone a repository via SSH using the `-p` flag:
+- Clone a repository via SSH:
 
 `ghq get -p {{user}}/{{project}}`
-
-- Clone a repository with a shallow clone (Git only):
-
-`ghq get --shallow {{repository_url}}`
 
 - Update an existing repository to the latest version:
 
@@ -31,23 +27,10 @@
 
 `ghq list`
 
-- List all locally cloned repositories with full paths:
+- List locally cloned repositories with full paths:
 
 `ghq list --full-path`
-
-- List locally cloned repositories matching a query:
-
-`ghq list {{query}}`
 
 - Remove a locally cloned repository:
 
 `ghq rm {{user}}/{{project}}`
-
-- Display the path to the ghq root directory:
-
-`ghq root`
-
-- Create a new repository in the ghq root:
-
-`ghq create {{user}}/{{project}}`
-
