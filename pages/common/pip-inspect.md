@@ -23,6 +23,6 @@
 
 `pip inspect --path {{path/to/environment}}`
 
-- Inspect with verbose output:
+- Inspect with verbose output (Note: the `-v` flag can be repeated to increase verbosity):
 
 `pip inspect {{[-v|--verbose]}}`
