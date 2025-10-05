@@ -1,7 +1,7 @@
 # mysqlcheck
 
 > Check and repair MySQL tables.
-> More information: <https://dev.mysql.com/doc/refman/en/mysqlcheck.html>.
+> More information: <https://dev.mysql.com/doc/refman/8.4/en/mysqlcheck.html>.
 
 - Check a table:
 

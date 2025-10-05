@@ -3,7 +3,7 @@
 > Google에서 개발한 Chromium 웹 브라우저를 기반으로 Microsoft가 개발한 현대적인 웹 브라우저.
 > 이 명령은 Windows에서는 `msedge`로 사용 가능합니다.
 > 참고: `chromium`의 추가 명령 인수도 Microsoft Edge 제어에 사용할 수 있습니다.
-> 더 많은 정보: <https://microsoft.com/edge>.
+> 더 많은 정보: <https://www.microsoft.com/edge/>.
 
 - 특정 URL 또는 파일 열기:
 

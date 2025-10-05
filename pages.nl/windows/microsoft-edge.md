@@ -1,7 +1,7 @@
 # microsoft-edge
 
 > De command-line utility van Microsoft Edge is beschikbaar als `msedge` voor Windows en `microsoft-edge` voor andere platforms.
-> Meer informatie: <https://microsoft.com/edge>.
+> Meer informatie: <https://www.microsoft.com/edge/>.
 
 - Bekijk de documentatie voor Microsoft Edge voor Windows:
 
