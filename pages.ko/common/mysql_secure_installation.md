@@ -1,7 +1,7 @@
 # mysql_secure_installation
 
 > MySQL을 보다 안전하게 설정.
-> 더 많은 정보: <https://dev.mysql.com/doc/refman/en/mysql-secure-installation.html>.
+> 더 많은 정보: <https://dev.mysql.com/doc/refman/8.4/en/mysql-secure-installation.html>.
 
 - 대화형 설정 시작:
 
