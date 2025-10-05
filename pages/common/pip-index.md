@@ -11,7 +11,7 @@
 
 `pip index versions {{package}} --index-url {{https://test.pypi.org/simple/}}`
 
-- Include pre-release versions (`--pre`):
+- Include pre-release versions:
 
 `pip index versions {{package}} --pre`
 
