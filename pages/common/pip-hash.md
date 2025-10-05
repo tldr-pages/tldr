@@ -1,7 +1,6 @@
 # pip hash
 
 > Compute hashes of package archives for verification.
-> These hashes can be used with --hash in requirements files for secure installations.
 > More information: <https://pip.pypa.io/en/stable/cli/pip_hash/>.
 
 - Generate hash for a package file:
