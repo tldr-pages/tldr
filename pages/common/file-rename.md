@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr -p common rename`
+`tldr {{[-p|--platform]}} common rename`

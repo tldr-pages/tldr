@@ -1,7 +1,7 @@
 # hyprpm
 
 > Hyprland Wayland 컴포지터의 플러그인을 제어.
-> 더 많은 정보: <https://wiki.hyprland.org/Plugins/Using-Plugins/#hyprpm>.
+> 더 많은 정보: <https://wiki.hypr.land/Plugins/Using-Plugins/#hyprpm>.
 
 - 플러그인 추가:
 
