@@ -11,14 +11,6 @@
 
 `pip hash {{[-a|--algorithm]}} {{sha256}} {{path/to/package.whl}}`
 
-- Generate hash using SHA384:
-
-`pip hash --algorithm sha384 {{path/to/package.whl}}`
-
-- Generate hash using SHA512:
-
-`pip hash --algorithm sha512 {{path/to/package.whl}}`
-
 - Generate hashes for multiple files:
 
 `pip hash {{path/to/package1.whl path/to/package2.whl ...}}`
