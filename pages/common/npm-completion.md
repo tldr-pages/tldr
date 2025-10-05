@@ -18,4 +18,4 @@
 
 - Write completions script to a directory:
 
-`npm completion > /usr/local/etc/bash_completion.d/npm`
+`npm completion > {{path/to/directory/npm}}`
