@@ -15,7 +15,7 @@
 
 - Display a summary of recent SELinux alerts:
 
-`sudo sealert -b`
+`sudo sealert {{[-b|--browser]}}`
 
 - Analyze SELinux denials and show detailed recommendations:
 
