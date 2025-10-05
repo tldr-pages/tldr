@@ -17,7 +17,7 @@
 
 - Vacuum and update statistics for the query planner:
 
-`vacuumdb --analyze {{database_name}}`
+`vacuumdb {{[-z|--analyze]}} {{database_name}}`
 
 - Perform a full vacuum (more aggressive, locks tables, rewrites the whole table):
 
