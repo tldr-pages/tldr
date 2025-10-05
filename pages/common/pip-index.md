@@ -19,6 +19,6 @@
 
 `pip index versions {{package}} --extra-index-url {{https://example.com/simple/}}`
 
-- List versions for a specific platform (`--platform`):
+- List versions for a specific platform:
 
 `pip index versions {{package}} --platform {{linux_x86_64}}`
