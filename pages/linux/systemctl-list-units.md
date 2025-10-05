@@ -14,11 +14,11 @@
 
 - Filter by unit type (e.g., service):
 
-`systemctl list-units --type=service`
+`systemctl list-units --type service`
 
 - Filter by state (e.g., running):
 
-`systemctl list-units --state=running`
+`systemctl list-units --state running`
 
 - Filter by a name pattern (e.g., systemd*):
 
