@@ -2,7 +2,7 @@
 
 > Ukazuje/nastavuje routování, zařízení, pravidla routování a tunely.
 > Některé dílčí příkazy jako je `address` mají svou vlastní dokumentaci.
-> Více informací: <https://www.manned.org/ip.8>.
+> Více informací: <https://manned.org/ip.8>.
 
 - Vypsat rozhraní s podrobnými informacemi:
 
