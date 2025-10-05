@@ -3,7 +3,7 @@
 > Lock/Unlock the libalpm database (used by pacman) to prevent or allow simultaneous package management operations.
 > More information: <https://github.com/andrewgregory/pacutils/blob/master/doc/paclock.pod>.
 
-- List all available packages:
+- Lock the database (default behavior):
 
 `paclock`
 
