@@ -15,13 +15,13 @@
 
 `pacini --verbose`
 
-- Display directives listed in section `name`:
+- Display directives listed in a specific section:
 
-`pacini --section=name`
+`pacini --section {{section_name}}`
 
 - Query a custom configuration file:
 
-`pacini {{/path/to/config.conf}}`
+`pacini {{path/to/config.conf}}`
 
 - Display help:
 
