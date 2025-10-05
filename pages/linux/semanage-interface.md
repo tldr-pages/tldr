@@ -6,7 +6,7 @@
 
 - List all interface type definitions:
 
-`sudo semanage interface -l`
+`sudo semanage interface {{[-l|--list]}}`
 
 - Add a network interface type definition:
 
