@@ -11,7 +11,7 @@
 
 - Analyze a specific alert ID from system logs:
 
-`sudo sealert -l {{alert_id}}`
+`sudo sealert {{[-l|--lookupid]}} {{alert_id}}`
 
 - Display a summary of recent SELinux alerts:
 
