@@ -15,8 +15,8 @@
 
 - Run a script and specify the init script context explicitly:
 
-`sudo run_init -t {{initrc_t}} {{path/to/script}}`
+`sudo run_init {{[-t|--type]}} {{initrc_t}} {{path/to/script}}`
 
 - Display the context that would be used without running the script:
 
-`sudo run_init -n {{path/to/script}}`
+`sudo run_init {{[-n|--dry-run]}} {{path/to/script}}`
