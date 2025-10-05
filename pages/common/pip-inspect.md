@@ -25,4 +25,4 @@
 
 - Inspect with verbose output:
 
-`pip inspect --verbose`
+`pip inspect {{[-v|--verbose]}}`
