@@ -1,4 +1,4 @@
-# semanage-interface
+# semanage interface
 
 > Manage SELinux network interface type definitions.
 > See also: `semanage`, `semanage-port`.
