@@ -16,6 +16,6 @@
 
 `npm completion >> ~/.zshrc`
 
-- Save completion to a system-wide completion directory:
+- Write completions script to a directory:
 
 `npm completion > /usr/local/etc/bash_completion.d/npm`
