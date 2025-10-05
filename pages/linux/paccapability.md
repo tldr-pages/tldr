@@ -1,16 +1,16 @@
 # paccapability
 
-> Query libalpm Capabilities.
+> Queries and Displays the Capabilities supported by libalpm.
 > More information: <https://github.com/andrewgregory/pacutils/blob/master/doc/paccapability.pod>.
 
 - List all available packages:
 
 `paccapability`
 
-- Display usage information:
+- Display help:
 
 `paccapability --help`
 
-- Display version information and exit:
+- Display version:
 
 `paccapability --version`
