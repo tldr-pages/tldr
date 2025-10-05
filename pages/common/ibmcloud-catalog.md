@@ -1,7 +1,7 @@
 # ibmcloud catalog
 
 > Manage the IBM Cloud catalog.
-> More information: <https://cloud.ibm.com/docs/cli?topic=cli-ibmcloud_cli>.
+> More information: <https://cloud.ibm.com/docs/cli?topic=cli-ibmcloud_catalog>.
 
 - List all catalog entries:
 
