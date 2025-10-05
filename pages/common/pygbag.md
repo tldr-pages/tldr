@@ -33,4 +33,4 @@
 
 - Display help information:
 
-`pygbag --help`
+`pygbag {{[-h|--help]}}`
