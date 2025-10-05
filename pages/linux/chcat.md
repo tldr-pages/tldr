@@ -7,7 +7,7 @@
 
 - List all available categories:
 
-`sudo chcat -L`
+`sudo chcat {{[-L|--list]}}`
 
 - Add a category to a file:
 
@@ -27,4 +27,4 @@
 
 - Remove all categories from a file:
 
-`sudo chcat -d {{path/to/file}}`
+`sudo chcat {{[-d|--delete]}} {{path/to/file}}`
