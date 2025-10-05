@@ -13,4 +13,4 @@
 
 - Cluster a specific table in a database:
 
-`clusterdb --table {{table_name}} {{database_name}}`
+`clusterdb {{[-t|--table]}} {{table_name}} {{database_name}}`
