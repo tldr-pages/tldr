@@ -2,7 +2,7 @@
 
 > Remove files or directories from Fossil version control.
 > See also: `fossil forget`.
-> More information: <https://fossil-scm.org/home/help/rm>.
+> More information: <https://fossil-scm.org/home/help/delete>.
 
 - Remove a file or directory from Fossil version control:
 

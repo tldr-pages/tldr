@@ -1,7 +1,7 @@
-# fossil delete
+# fossil rm
 
-> यो आदेश `fossil rm` को उपनाम हो |
+> यो आदेश `fossil delete` को उपनाम हो |
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 
-`tldr fossil rm`
+`tldr fossil delete`
