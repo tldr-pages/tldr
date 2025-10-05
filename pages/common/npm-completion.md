@@ -16,6 +16,6 @@
 
 `npm completion >> ~/.zshrc`
 
-- Write completions script to a directory:
+- Write completions script to a specific file:
 
-`npm completion > {{path/to/directory/npm}}`
+`npm completion > {{path/to/file}}`
