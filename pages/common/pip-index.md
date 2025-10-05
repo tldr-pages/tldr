@@ -15,7 +15,7 @@
 
 `pip index versions {{package}} --pre`
 
-- Include an additional index (`--extra-index-url`):
+- Include an additional index:
 
 `pip index versions {{package}} --extra-index-url {{https://example.com/simple/}}`
 
