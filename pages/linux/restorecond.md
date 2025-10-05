@@ -9,7 +9,7 @@
 
 `sudo restorecond`
 
-- Run restorecond in verbose mode to see restoration events:
+- Run `restorecond` in [v]erbose mode to see restoration events:
 
 `sudo restorecond -v`
 
