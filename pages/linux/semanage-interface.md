@@ -14,7 +14,7 @@
 
 - Delete a network interface type definition:
 
-`sudo semanage interface -d {{eth0}}`
+`sudo semanage interface {{[-d|--delete]}} {{eth0}}`
 
 - Modify a network interface type definition:
 
