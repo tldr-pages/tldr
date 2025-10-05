@@ -1,6 +1,7 @@
 # routel
 
 > List IP routing in a human readable format.
+> See also: `ip route`, `route`.
 > More information: <https://manned.org/man/routel>.
 
 - Display the default routing table:
