@@ -1,7 +1,7 @@
 # ibmcloud account
 
 > Manage IBM Cloud accounts and users.
-> More information: <https://cloud.ibm.com/docs/cli?topic=cli-ibmcloud_cli>.
+> More information: <https://cloud.ibm.com/docs/cli?topic=cli-ibmcloud_commands_account>.
 
 - List all accounts:
 
