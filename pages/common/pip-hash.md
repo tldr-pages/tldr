@@ -25,4 +25,4 @@
 
 - Generate hash for downloaded archive:
 
-`pip hash {{./downloads/package-1.0.tar.gz}}`
+`pip hash {{path/to/package.tar.gz}}`
