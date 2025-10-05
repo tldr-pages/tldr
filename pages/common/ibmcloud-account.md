@@ -22,7 +22,3 @@
 - List organizations in the account:
 
 `ibmcloud account orgs`
-
-- View documentation for account management subcommands:
-
-`tldr ibmcloud-account-{{subcommand}}`
