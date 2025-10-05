@@ -9,7 +9,7 @@
 
 - Vacuum all databases:
 
-`vacuumdb --all`
+`vacuumdb {{[-a|--all]}}`
 
 - Vacuum a specific table in a database:
 
