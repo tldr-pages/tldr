@@ -9,7 +9,7 @@
 
 - Build wheels for packages in requirements file:
 
-`pip wheel -r {{requirements.txt}}`
+`pip wheel {{[-r|--requirement]}} {{path/to/requirements.txt}}`
 
 - Build wheel to a specific directory:
 
