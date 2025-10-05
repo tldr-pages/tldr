@@ -7,7 +7,7 @@
 
 - Start a new shell with a specific SELinux role:
 
-`newrole -r {{role_name}}`
+`newrole {{[-r|--role]}} {{role_name}}`
 
 - Start a new shell with a specific SELinux type:
 
