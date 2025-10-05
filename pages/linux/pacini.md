@@ -11,6 +11,10 @@
 
 `pacini --section-list`
 
+- Query a custom configuration file:
+
+`pacini /path/to/config.conf`
+
 - Display help:
 
 `pacini --help`
