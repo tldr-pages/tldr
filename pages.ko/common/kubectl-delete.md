@@ -17,11 +17,11 @@
 
 - 지정된 네임스페이스의 모든 포드 삭제:
 
-`kubectl delete {{[po|pods]}} --all --namespace {{네임스페이스}}`
+`kubectl delete {{[po|pods]}} --all {{[-n|--namespace]}} {{네임스페이스}}`
 
 - 지정된 네임스페이스의 모든 배포 및 서비스 삭제:
 
-`kubectl delete {{[deploy|deployment]}},{{[svc|services]}} --all --namespace {{네임스페이스}}`
+`kubectl delete {{[deploy|deployment]}},{{[svc|services]}} --all {{[-n|--namespace]}} {{네임스페이스}}`
 
 - 모든 노드 삭제:
 
