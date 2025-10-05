@@ -11,7 +11,7 @@
 
 - Start a new shell with a specific SELinux type:
 
-`newrole -t {{type_name}}`
+`newrole {{[-t|--type]}} {{type_name}}`
 
 - Start a new shell with a specific SELinux level:
 
