@@ -1,7 +1,7 @@
 # ibmcloud billing
 
 > Retrieve usage and billing information for IBM Cloud.
-> More information: <https://cloud.ibm.com/docs/cli?topic=cli-ibmcloud_cli>.
+> More information: <https://cloud.ibm.com/docs/account?topic=account-ibmcloud_billing>.
 
 - View account usage:
 
