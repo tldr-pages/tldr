@@ -9,7 +9,7 @@
 
 - List images available:
 
-`ibmcloud cr {{[images,image-list]}}`
+`ibmcloud cr {{[images|image-list]}}`
 
 - Inspect an image data:
 
@@ -17,7 +17,7 @@
 
 - Run vulnerability assessment on an image:
 
-`ibmcloud cr {{[va,vulnerability-assessment]}} {{image}}`
+`ibmcloud cr {{[va|vulnerability-assessment]}} {{image}}`
 
 - Log the local Docker or Podman client in to IBM Cloud Container Registry:
 

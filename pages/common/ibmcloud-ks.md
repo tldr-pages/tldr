@@ -5,19 +5,19 @@
 
 - View the details of a cluster:
 
-`ibmcloud ks cluster get {{[-c,--cluster]}} {{cluster_id}}`
+`ibmcloud ks cluster get {{[-c|--cluster]}} {{cluster_id}}`
 
 - View the rotation status of Cluster Authority certificates for a cluster:
 
-`ic ks cluster ca status {{[-c,--cluster]}} {{cluster_id}}`
+`ic ks cluster ca status {{[-c|--cluster]}} {{cluster_id}}`
 
 - View worker pools of a cluster:
 
-`ibmcloud ks worker-pool ls {{[-c,--cluster]}} {{cluster_id}}`
+`ibmcloud ks worker-pool ls {{[-c|--cluster]}} {{cluster_id}}`
 
 - Delete a worker node and replace it with a new worker node in the same worker pool:
 
-`ibmcloud ks worker replace {{[-c,--cluster]}} {{cluster_id}} {{[-w,--worker]}} {{worker_id}}`
+`ibmcloud ks worker replace {{[-c|--cluster]}} {{cluster_id}} {{[-w|--worker]}} {{worker_id}}`
 
 - List all actions available under this command:
 
