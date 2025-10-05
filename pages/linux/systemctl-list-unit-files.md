@@ -18,8 +18,8 @@
 
 - Print output directly to stdout (disable pager):
 
-`systemctl --no-pager list-unit-files`
+`systemctl list-unit-files` --no-pager
 
 - Print output without headers or footers (for scripts):
 
-`systemctl --no-legend list-unit-files`
+`systemctl list-unit-files` --no-legend
