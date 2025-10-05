@@ -6,7 +6,7 @@
 
 - List all SELinux users:
 
-`sudo semanage user --list`
+`sudo semanage user {{[-l|--list]}}`
 
 - Add a new SELinux user:
 
