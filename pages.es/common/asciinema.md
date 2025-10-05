@@ -2,7 +2,7 @@
 
 > Graba y reproduce sesiones de terminal, y opcionalmente compártelas en <https://asciinema.org>.
 > Vea también: `terminalizer`.
-> Más información: <https://docs.asciinema.org/manual/cli/usage>.
+> Más información: <https://docs.asciinema.org/manual/cli/>.
 
 - Asocia la instalación local de `asciinema` con una cuenta de asciinema.org:
 
