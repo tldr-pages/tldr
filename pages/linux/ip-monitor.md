@@ -9,7 +9,7 @@
 
 - Specify the type to monitor:
 
-`ip {{[mo|monitor]}} {{link|address|route||neigh|rule|maddress|...}}`
+`ip {{[mo|monitor]}} {{link|address|route|neigh|rule|maddress|...}}`
 
 - Replay an event file (can be generated with `rtmon`):
 
