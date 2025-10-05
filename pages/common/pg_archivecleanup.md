@@ -1,0 +1,24 @@
+# pg_archivecleanup
+
+> Remove old WAL archive files in PostgreSQL.
+> More information: <https://www.postgresql.org/docs/current/pgarchivecleanup.html>.
+
+- Clean an archive directory up to a given WAL file:
+
+`pg_archivecleanup {{archivelocation}} {{oldestkeptwalfile}}`
+
+- Perform a dry run (list files that would be removed):
+
+`pg_archivecleanup {{[-n|--dry-run]}} {{archivelocation}} {{oldestkeptwalfile}}`
+
+- Strip a file extension before deciding deletion (e.g., compressed files):
+
+`pg_archivecleanup {{[-x|--strip-extension]}} {{extension}} {{archivelocation}} {{oldestkeptwalfile}}`
+
+- Remove backup history files too (in addition to WAL):
+
+`pg_archivecleanup {{[-b|--clean-backup-history]}} {{archivelocation}} {{oldestkeptwalfile}}`
+
+- Enable debug logging output:
+
+`pg_archivecleanup {{[-d|--debug]}} {{archivelocation}} {{oldestkeptwalfile}}`
