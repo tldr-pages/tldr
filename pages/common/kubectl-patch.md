@@ -1,7 +1,7 @@
 # kubectl patch
 
 > Patches Kubernetes resources with new values.
-> More information: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#patch>.
+> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_patch>.
 
 - Partially patch a secret using a strategic merge JSON patch to remove the finalizer:
 
