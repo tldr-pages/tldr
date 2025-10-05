@@ -21,4 +21,4 @@
 
 - Remove the annotation from a pod:
 
-`kubectl label {{[po|pod]}} {{pod_name}} {{key}}-`
+`kubectl annotate {{[po|pod]}} {{pod_name}} {{key}}-`
