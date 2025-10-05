@@ -1,7 +1,7 @@
 # mysqld
 
 > MySQL 데이터베이스 서버 시작.
-> 더 많은 정보: <https://dev.mysql.com/doc/refman/en/mysqld.html>.
+> 더 많은 정보: <https://dev.mysql.com/doc/refman/8.4/en/mysqld.html>.
 
 - MySQL 데이터베이스 서버 시작:
 
