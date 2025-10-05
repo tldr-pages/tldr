@@ -1,7 +1,7 @@
 # radare2
 
 > Un conjunto de herramientas de ingeniería inversa.
-> Más información: <https://www.radare.org/r/docs.html>.
+> Más información: <https://book.rada.re/first_steps/commandline_flags.html>.
 
 - Abre un archivo en modo escritura sin analizar los encabezados del formato de archivo:
 
