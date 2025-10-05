@@ -13,7 +13,7 @@
 
 - Vacuum a specific table in a database:
 
-`vacuumdb {{[-t |--table=]}}{{table_name}} {{database_name}}`
+`vacuumdb {{[-t|--table]}} {{table_name}} {{database_name}}`
 
 - Vacuum and update statistics for the query planner:
 
