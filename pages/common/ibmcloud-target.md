@@ -1,7 +1,7 @@
 # ibmcloud target
 
 > Set or view the target account, region, or resource group.
-> More information: <https://cloud.ibm.com/docs/cli?topic=cli-ibmcloud_cli>.
+> More information: <https://cloud.ibm.com/docs/cli?topic=cli-ibmcloud_cli#ibmcloud_target>.
 
 - View the current target account and region:
 
