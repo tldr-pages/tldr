@@ -15,7 +15,7 @@
 
 - Start a new shell with a specific SELinux level:
 
-`newrole -l {{s0-s0:c0.c1023}}`
+`newrole {{[-l|--level]}} {{s0-s0:c0.c1023}}`
 
 - Display the current SELinux context:
 
