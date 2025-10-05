@@ -1,7 +1,7 @@
 # poweroff
 
 > 시스템을 종료합니다.
-> 더 많은 정보: <https://www.manned.org/poweroff>.
+> 더 많은 정보: <https://manned.org/poweroff>.
 
 - 시스템 종료:
 
