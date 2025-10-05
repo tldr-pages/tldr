@@ -9,7 +9,7 @@
 
 - Generate hash using a specific algorithm:
 
-`pip hash --algorithm {{sha256}} {{path/to/package.whl}}`
+`pip hash {{[-a|--algorithm]}} {{sha256}} {{path/to/package.whl}}`
 
 - Generate hash using SHA384:
 
