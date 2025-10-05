@@ -14,7 +14,7 @@
 
 - Compare current local package with a specific version:
 
-`npm diff --diff={{package_name}}@{{version}}`
+`npm diff --diff {{package_name}}@{{version}}`
 
 - Compare a package in the current directory with the registry version:
 
