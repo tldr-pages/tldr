@@ -19,7 +19,7 @@
 
 - Analyze SELinux denials and show detailed recommendations:
 
-`sudo sealert -a /var/log/audit/audit.log -v`
+`sudo sealert {{[-a|--analyze]}} {{/var/log/audit/audit.log}} -v`
 
 - Monitor audit log in real-time for new alerts:
 
