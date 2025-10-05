@@ -7,14 +7,15 @@
 
 `pacini`
 
-- Display usage information:
-
-`pacini --help`
-
 - List configured sections:
 
 `pacini --section-list`
 
-- Display version information and exit:
+- Display help:
+
+`pacini --help`
+
+- Display version:
 
 `pacini --version`
+ 
