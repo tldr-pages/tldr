@@ -1,7 +1,7 @@
 # poweroff
 
 > Apaga la màquina.
-> Més informació: <https://www.manned.org/poweroff>.
+> Més informació: <https://manned.org/poweroff>.
 
 - Apaga la màquina:
 
