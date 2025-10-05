@@ -14,3 +14,7 @@
 - Check whether a unit is active without printing the state to `stdout`:
 
 `systemctl is-active --quiet {{unit}}`
+
+- Check whether a user unit is active:
+
+`systemctl is-active --user {{unit}}`
