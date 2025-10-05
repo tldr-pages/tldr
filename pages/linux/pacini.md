@@ -1,6 +1,6 @@
 # pacini
 
-> Query Pacman-style Configuration Files
+> Query Pacman-style Configuration Files.
 > More information: <https://github.com/andrewgregory/pacutils/blob/master/doc/pacini.pod>.
 
 - List all available packages:
