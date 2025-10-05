@@ -10,19 +10,19 @@
 
 - Add a login mapping (map Linux user to SELinux user):
 
-`sudo semanage login {{[-a|--add]}} {{[-s|--seuser]}} {{user_u}} {{username}}`
+`sudo semanage login {{[-a|--add]}} {{[-s|--seuser]}} {{selinux_user}} {{linux_username}}`
 
 - Delete a login mapping:
 
-`sudo semanage login {{[-d|--delete]}} {{username}}`
+`sudo semanage login {{[-d|--delete]}} {{linux_username}}`
 
 - Modify an existing login mapping:
 
-`sudo semanage login {{[-m|--modify]}} {{[-s|--seuser]}} {{staff_u}} {{username}}`
+`sudo semanage login {{[-m|--modify]}} {{[-s|--seuser]}} {{selinux_user}} {{linux_username}}`
 
 - Add a login mapping with a specific MLS/MCS range:
 
-`sudo semanage login {{[-a|--add]}} {{[-s|--seuser]}} {{user_u}} {{[-r|--range]}} {{s0-s0:c0.c1023}} {{username}}`
+`sudo semanage login {{[-a|--add]}} {{[-s|--seuser]}} {{user_u}} {{[-r|--range]}} {{s0-s0:c0.c1023}} {{linux_username}}`
 
 - List only customized login mappings:
 
