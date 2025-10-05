@@ -3,7 +3,7 @@
 > Query tool for pacman-style configuration files like /etc/pacman.conf.
 > More information: <https://github.com/andrewgregory/pacutils/blob/master/doc/pacini.pod>.
 
-- List all available packages:
+- Show the full parsed configuration file (default: /etc/pacman.conf):
 
 `pacini`
 
