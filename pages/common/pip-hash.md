@@ -21,7 +21,7 @@
 
 - Generate hashes for multiple files:
 
-`pip hash {{path/to/package1.whl}} {{path/to/package2.whl}}`
+`pip hash {{path/to/package1.whl path/to/package2.whl ...}}`
 
 - Generate hash for downloaded archive:
 
