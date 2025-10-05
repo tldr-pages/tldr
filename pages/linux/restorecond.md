@@ -1,0 +1,30 @@
+# restorecond
+
+> Daemon that monitors file creation and automatically restores SELinux contexts.
+> Useful for directories where files are frequently created with incorrect contexts.
+> See also: `restorecon`, `semanage-fcontext`.
+> More information: <https://manned.org/restorecond>.
+
+- Start the restorecond daemon:
+
+`sudo restorecond`
+
+- Run restorecond in verbose mode to see restoration events:
+
+`sudo restorecond -v`
+
+- Run restorecond in debug mode:
+
+`sudo restorecond -d`
+
+- Run restorecond in foreground mode (do not daemonize):
+
+`sudo restorecond -f`
+
+- Check the status of the restorecond service:
+
+`sudo systemctl status restorecond`
+
+- Enable restorecond to start at boot:
+
+`sudo systemctl enable --now restorecond`
