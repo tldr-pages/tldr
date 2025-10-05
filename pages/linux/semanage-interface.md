@@ -22,4 +22,4 @@
 
 - List interface type definitions in a customized format:
 
-`sudo semanage interface -l -C`
+`sudo semanage interface {{[-l|--list]}} {{[-C|--locallist]}}`
