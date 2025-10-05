@@ -8,6 +8,6 @@
 
 `npm edit {{package_name}}`
 
-- Edit a specific package (you must have it installed locally first):
+- Edit a specific package:
 
 `npm edit {{express}}`
