@@ -1,7 +1,7 @@
 # whatweb
 
 > Escáner web de nueva generación.
-> Más información: <https://morningstarsecurity.com/research/whatweb>.
+> Más información: <https://github.com/urbanadventurer/WhatWeb/>.
 
 - Escanea sitios web/objetivos en busca de tecnologías web:
 
