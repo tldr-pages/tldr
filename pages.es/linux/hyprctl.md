@@ -1,7 +1,7 @@
 # hyprctl
 
 > Controla partes del compositor Hyprland Wayland.
-> Más información: <https://wiki.hyprland.org/Configuring/Using-hyprctl>.
+> Más información: <https://wiki.hypr.land/Configuring/Using-hyprctl/>.
 
 - Recarga la configuración de Hyprland:
 
