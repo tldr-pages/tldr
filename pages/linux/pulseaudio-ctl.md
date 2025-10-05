@@ -9,7 +9,7 @@
 
 - Increase volume by a specific amount:
 
-`pulseaudio-ctl up {{10}}`
+`pulseaudio-ctl up {{amount}}`
 
 - Decrease volume by 5%:
 
