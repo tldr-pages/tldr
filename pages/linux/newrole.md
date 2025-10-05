@@ -23,4 +23,4 @@
 
 - Start a new shell with both role and type:
 
-`newrole -r {{role_name}} -t {{type_name}}`
+`newrole {{[-r|--role]}} {{role_name}} {{[-t|--type]}} {{type_name}}`
