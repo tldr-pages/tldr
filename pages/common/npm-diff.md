@@ -18,7 +18,7 @@
 
 - Compare a package in the current directory with the registry version:
 
-`npm diff --diff={{package_name}}`
+`npm diff --diff {{package_name}}`
 
 - Show only filenames that differ:
 
