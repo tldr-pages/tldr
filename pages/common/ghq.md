@@ -13,7 +13,7 @@
 
 - Clone a repository and cd into it:
 
-`ghq get -look {{repository_url}}`
+`ghq get --look {{repository_url}}`
 
 - Clone a repository via SSH using the `-p` flag:
 
