@@ -1,7 +1,7 @@
 # pip lock
 
 > Lock Python packages and their dependencies into a reproducible file.
-> Experimental feature of pip.
+> Experimental feature of `pip`.
 > More information: <https://pip.pypa.io/en/stable/cli/pip_lock/>.
 
 - Generate a `pylock.toml` for the current project:
