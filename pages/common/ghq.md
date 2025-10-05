@@ -3,7 +3,7 @@
 > Manage remote repository clones organized by hostname and path.
 > More information: <https://github.com/x-motemen/ghq>.
 
-- Clone a repository under the ghq root directory (default is `~/ghq`):
+- Clone a repository under the `ghq` root directory (default is `~/ghq`):
 
 `ghq get {{repository_url}}`
 
