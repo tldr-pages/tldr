@@ -11,7 +11,7 @@
 
 `ghq get {{user}}/{{project}}`
 
-- Clone a repository and cd into it:
+- Clone a repository and `cd` into it:
 
 `ghq get --look {{repository_url}}`
 
