@@ -30,4 +30,4 @@
 
 - Ignore whitespace when comparing:
 
-`npm diff --diff-ignore-all-space --diff={{package_name}}@{{version1}} --diff={{package_name}}@{{version2}}`
+`npm diff --diff-ignore-all-space --diff {{package_name}}@{{version1}} --diff {{package_name}}@{{version2}}`
