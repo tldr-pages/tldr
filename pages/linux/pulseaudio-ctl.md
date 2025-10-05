@@ -21,7 +21,7 @@
 
 - Set volume to a specific percentage:
 
-`pulseaudio-ctl set {{50}}`
+`pulseaudio-ctl set {{percentage}}`
 
 - Set volume to at most a specific percentage:
 
