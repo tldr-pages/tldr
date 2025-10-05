@@ -9,7 +9,7 @@
 
 - Compile and create an executable with a custom name:
 
-`cl /Fe{{path/to/output_executable}} {{path/to/source.c}}`
+`cl /Fe {{path/to/output_executable}} {{path/to/source.c}}`
 
 - Compile a source file with optimization enabled:
 
