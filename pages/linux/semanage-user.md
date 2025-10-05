@@ -6,24 +6,24 @@
 
 - List all SELinux users:
 
-`sudo semanage user {{[-l|--list]}}`
+`sudo semanage user --list`
 
 - Add a new SELinux user:
 
-`sudo semanage user {{[-a|--add]}} {{[-R|--roles]}} "{{staff_r sysadm_r}}" {{myuser_u}}`
+`sudo semanage user --add --roles {{role_name}} {{selinux_user}}`
 
 - Delete a SELinux user:
 
-`sudo semanage user {{[-d|--delete]}} {{myuser_u}}`
+`sudo semanage user --delete {{selinux_user}}`
 
 - Modify an existing SELinux user's roles:
 
-`sudo semanage user {{[-m|--modify]}} {{[-R|--roles]}} "{{staff_r}}" {{user_u}}`
+`sudo semanage user --modify --roles {{role_name}} {{selinux_user}}`
 
 - Add a SELinux user with a specific MLS/MCS range:
 
-`sudo semanage user {{[-a|--add]}} {{[-R|--roles]}} {{user_r}} {{[-r|--range]}} {{s0-s0:c0.c1023}} {{guest_u}}`
+`sudo semanage user --add --roles {{role_name}} --range {{s0-s0:c0.c1023}} {{selinux_user}}`
 
 - List only customized SELinux users:
 
-`sudo semanage user {{[-l|--list]}} {{[-C|--locallist]}}`
+`sudo semanage user --list --locallist`
