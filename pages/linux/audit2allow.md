@@ -7,20 +7,32 @@
 
 - Generate allow rules from recent audit denials and display them:
 
-`sudo audit2allow -a`
+`sudo audit2allow {{[-a|--all]}}`
 
 - Generate allow rules from a specific audit log file:
 
-`sudo audit2allow -i {{path/to/audit.log}}`
+`sudo audit2allow {{[-i|--input]}} {{path/to/audit.log}}`
 
 - Generate a policy module from recent audit denials:
 
-`sudo audit2allow -a -M {{my_module}}`
+`sudo audit2allow {{[-a|--all]}} {{[-M|--module]}} {{module_name}}`
+
+- Display detailed information around generated messages:
+
+`sudo audit2allow {{[-a|--all]}} {{[-e|--explain]}}`
+
+- Use installed macros to generate a reference policy:
+
+`sudo audit2allow {{[-a|--all]}} {{[-R|--reference]}}`
 
 - Install the generated policy module:
 
-`sudo semodule -i {{my_module.pp}}`
+`sudo semodule {{[-i|--install]}} {{module_name.pp}}`
 
 - Generate allow rules for a specific service:
 
-`sudo ausearch -m avc -c {{httpd}} | audit2allow -M {{httpd_policy}}`
+`sudo ausearch {{[-m|--message]}} avc {{[-c|--comm]}} {{service_name}} | audit2allow {{[-M|--module]}} {{policy_name}}`
+
+- Enable verbose output mode:
+
+`sudo audit2allow {{[-a|--all]}} {{[-v|--verbose]}}`
