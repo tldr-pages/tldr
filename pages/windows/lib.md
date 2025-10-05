@@ -17,12 +17,12 @@
 
 - Remove an object file from a library:
 
-`lib /REMOVE:{{path/to/file.obj}} {{path/to/library.lib}}`
+`lib /REMOVE :{{path/to/file.obj}} {{path/to/library.lib}}`
 
 - Extract an object file from a library:
 
-`lib /EXTRACT:{{path/to/file.obj}} {{path/to/library.lib}}`
+`lib /EXTRACT :{{path/to/file.obj}} {{path/to/library.lib}}`
 
 - Create an import library from a DLL:
 
-`lib /DEF:{{path/to/definition.def}} /OUT:{{path/to/import.lib}}`
+`lib /DEF :{{path/to/definition.def}} /OUT:{{path/to/import.lib}}`
