@@ -5,7 +5,7 @@
 
 - Create a static library from object files:
 
-`lib /OUT:{{path/to/library.lib}} {{path/to/file1.obj path/to/file2.obj ...}}`
+`lib /OUT :{{path/to/library.lib}} {{path/to/file1.obj path/to/file2.obj ...}}`
 
 - List the contents of a library:
 
