@@ -17,9 +17,9 @@
 
 `sudo restorecond -d`
 
-- Run restorecond in foreground mode (do not daemonize):
+- Use alternative restorecond.conf file:
 
-`sudo restorecond -f`
+`sudo restorecond -f restorecond_file`
 
 - Check the status of the restorecond service:
 
