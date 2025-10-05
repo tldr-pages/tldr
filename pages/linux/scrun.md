@@ -31,6 +31,6 @@
 
 `scrun --debug {{create|start|kill|delete}} {{container_id}}`
 
-- Display version information:
+- Display version:
 
 `scrun --version`
