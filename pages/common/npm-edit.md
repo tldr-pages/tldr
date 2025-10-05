@@ -11,4 +11,3 @@
 - Edit a specific package (you must have it installed locally first):
 
 `npm edit {{express}}`
- 
