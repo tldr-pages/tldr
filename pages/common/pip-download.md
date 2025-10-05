@@ -17,7 +17,7 @@
 
 - Download a package for a specific platform and Python version:
 
-`pip download --only-binary=:all: --platform {{platform}} --python-version {{version}} {{package}}`
+`pip download --only-binary :all: --platform {{platform}} --python-version {{version}} {{package}}`
 
 - Download a package from a specific index URL:
 
