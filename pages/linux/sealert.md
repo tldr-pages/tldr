@@ -7,7 +7,7 @@
 
 - Analyze all recent SELinux denials:
 
-`sudo sealert -a /var/log/audit/audit.log`
+`sudo sealert {{[-a|--analyze]}} {{/var/log/audit/audit.log}}`
 
 - Analyze a specific alert ID from system logs:
 
