@@ -1,6 +1,6 @@
 # paclock
 
-> lock/unlock the alpm database.
+> Lock/Unlock the Alpm Database.
 > More information: <https://github.com/andrewgregory/pacutils/blob/master/doc/paclock.pod>.
 
 - List all available packages:
