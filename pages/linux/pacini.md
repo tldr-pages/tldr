@@ -18,4 +18,3 @@
 - Display version:
 
 `pacini --version`
- 
