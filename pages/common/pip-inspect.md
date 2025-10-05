@@ -21,7 +21,7 @@
 
 - Inspect packages in a specific path:
 
-`pip inspect --path {{/path/to/environment}}`
+`pip inspect --path {{path/to/environment}}`
 
 - Inspect with verbose output:
 
