@@ -19,10 +19,6 @@
 
 `pip index versions {{package}} --extra-index-url {{https://example.com/simple/}}`
 
-- Output versions in JSON format (`--format json`):
-
-`pip index versions {{package}} --format json`
-
 - List versions for a specific platform (`--platform`):
 
 `pip index versions {{package}} --platform {{linux_x86_64}}`
