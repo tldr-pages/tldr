@@ -50,3 +50,4 @@
 - Create a new repository in the ghq root:
 
 `ghq create {{user}}/{{project}}`
+
