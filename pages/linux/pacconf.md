@@ -3,7 +3,7 @@
 > Queries and Displays pacman's configuration options, showing either the full configuration or specific directive values as parsed by pacman.
 > More information: <https://github.com/andrewgregory/pacutils/blob/master/doc/pacconf.pod>.
 
-- List all available packages:
+- Show full parsed pacman configuration:
 
 `pacconf`
 
