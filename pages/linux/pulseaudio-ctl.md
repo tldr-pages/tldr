@@ -17,7 +17,7 @@
 
 - Decrease volume by a specific amount:
 
-`pulseaudio-ctl down {{10}}`
+`pulseaudio-ctl down {{amount}}`
 
 - Set volume to a specific percentage:
 
