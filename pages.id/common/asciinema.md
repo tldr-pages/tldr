@@ -2,7 +2,7 @@
 
 > Rekam dan putar ulang sesi terminal, dan secara opsional membagikannya di <https://asciinema.org>.
 > Lihat juga: `terminalizer`.
-> Informasi lebih lanjut: <https://docs.asciinema.org/manual/cli/usage>.
+> Informasi lebih lanjut: <https://docs.asciinema.org/manual/cli/>.
 
 - Masuk dengan suatu akun asciinema.org:
 
