@@ -9,7 +9,7 @@
 
 - View the rotation status of Cluster Authority certificates for a cluster:
 
-`ic ks cluster ca status {{[-c|--cluster]}} {{cluster_id}}`
+`ibmcloud ks cluster ca status {{[-c|--cluster]}} {{cluster_id}}`
 
 - View worker pools of a cluster:
 
