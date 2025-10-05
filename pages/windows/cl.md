@@ -25,7 +25,7 @@
 
 - Specify the output directory for compiled files:
 
-`cl /Fo{{path/to/output_directory/}} {{path/to/source.c}}`
+`cl /Fo {{path/to/output_directory/}} {{path/to/source.c}}`
 
 - Compile with warnings as errors:
 
