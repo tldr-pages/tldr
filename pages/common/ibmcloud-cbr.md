@@ -1,7 +1,7 @@
 # ibmcloud cbr
 
 > Manage Context Based Restrictions in IBM Cloud.
-> More information: <https://cloud.ibm.com/docs/cli?topic=cli-ibmcloud_cli>.
+> More information: <https://cloud.ibm.com/docs/account?topic=account-cbr-plugin>.
 
 - List all network zones:
 
