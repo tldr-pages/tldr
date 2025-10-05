@@ -3,7 +3,7 @@
 > 마이크로소프트에서 개발한 최신 웹 브라우저로, 구글에서 개발한 크로미움 웹 브라우저를 기반으로 합니다.
 > 이 명령어는 다른 플랫폼에서는 `microsoft-edge`로 사용할 수 있습니다.
 > 참고: `chromium`에서 추가 명령어 인수로 Microsoft Edge를 제어할 수 있습니다.
-> 더 많은 정보: <https://microsoft.com/edge>.
+> 더 많은 정보: <https://www.microsoft.com/edge/>.
 
 - 특정 URL 또는 파일 열기:
 

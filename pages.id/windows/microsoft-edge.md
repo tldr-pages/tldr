@@ -1,7 +1,7 @@
 # microsoft-edge
 
 > Perintah Microsoft Edge tersedia sebagai `msedge` untuk platform Windows dan `microsoft-edge` untuk platform lainnya.
-> Informasi lebih lanjut: <https://microsoft.com/edge>.
+> Informasi lebih lanjut: <https://www.microsoft.com/edge/>.
 
 - Lihat dokumentasi untuk perintah Microsoft Edge untuk Windows:
 

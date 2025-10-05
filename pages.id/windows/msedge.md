@@ -3,7 +3,7 @@
 > Aplikasi peramban web (web browser) dari Microsoft yang dibangun berdasarkan peramban Chromium yang dikembangkan oleh Google.
 > Perintah ini tersedia sebagai `microsoft-edge` dalam perangkat selain Windows.
 > Catatan: Anda mungkin dapat menggunakan argumen perintah `chromium` lainnya untuk dapat mengatur jalannya Microsoft Edge.
-> Informasi lebih lanjut: <https://microsoft.com/edge>.
+> Informasi lebih lanjut: <https://www.microsoft.com/edge/>.
 
 - Buka suatu URL atau berkas:
 

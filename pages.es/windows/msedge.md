@@ -3,7 +3,7 @@
 > Navegador web moderno desarrollado por Microsoft basado en el navegador web Chromium desarrollado por Google.
 > Este comando está disponible como `microsoft-edge` en otras plataformas.
 > Nota: Argumentos adicionales del comando de `chromium` también pueden ser utilizables para controlar Microsoft Edge.
-> Más información: <https://microsoft.com/edge>.
+> Más información: <https://www.microsoft.com/edge/>.
 
 - Abrir una URL o archivo específico:
 
