@@ -8,7 +8,7 @@
 
 `npm diff --diff {{package_name}}@{{version1}} --diff {{package_name}}@{{version2}}`
 
-- Compare current local package with latest published version:
+- Compare current local packages with latest published version:
 
 `npm diff`
 
