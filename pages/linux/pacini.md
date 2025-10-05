@@ -1,6 +1,6 @@
 # pacini
 
-> Query tool for pacman-style configuration files like /etc/pacman.conf.
+> Query pacman-style configuration files.
 > More information: <https://github.com/andrewgregory/pacutils/blob/master/doc/pacini.pod>.
 
 - Show the full parsed configuration file (default: /etc/pacman.conf):
