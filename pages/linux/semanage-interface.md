@@ -10,7 +10,7 @@
 
 - Add a network interface type definition:
 
-`sudo semanage interface -a -t {{netif_t}} {{eth0}}`
+`sudo semanage interface {{[-a|--add]}} {{[-t|--type]}} {{netif_t}} {{eth0}}`
 
 - Delete a network interface type definition:
 
