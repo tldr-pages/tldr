@@ -1,7 +1,7 @@
 # ibmcloud plugin
 
 > Manage plugins and plugin repositories for the IBM Cloud CLI.
-> More information: <https://cloud.ibm.com/docs/cli?topic=cli-ibmcloud_cli>.
+> More information: <https://cloud.ibm.com/docs/cli?topic=cli-plug-ins>.
 
 - List all installed plugins:
 
