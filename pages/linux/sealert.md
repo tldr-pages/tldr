@@ -23,4 +23,4 @@
 
 - Monitor audit log in real-time for new alerts:
 
-`sudo tail -f /var/log/audit/audit.log | sealert -l -`
+`sudo tail {{[-f|--follow]}} {{/var/log/audit/audit.log}} | sealert {{[-l|--lookupid]}} -`
