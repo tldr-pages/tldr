@@ -6,28 +6,28 @@
 
 - List all installed policy modules:
 
-`sudo semodule -l`
+`sudo semodule {{[-l|--list]}}`
 
 - Install a new policy module:
 
-`sudo semodule -i {{path/to/module.pp}}`
+`sudo semodule {{[-i|--install]}} {{path/to/module.pp}}`
 
 - Remove a policy module:
 
-`sudo semodule -r {{module_name}}`
+`sudo semodule {{[-r|--remove]}} {{module_name}}`
 
 - Enable a policy module:
 
-`sudo semodule -e {{module_name}}`
+`sudo semodule {{[-e|--enable]}} {{module_name}}`
 
 - Disable a policy module:
 
-`sudo semodule -d {{module_name}}`
+`sudo semodule {{[-d|--disable]}} {{module_name}}`
 
 - Reload all policy modules:
 
-`sudo semodule -R`
+`sudo semodule {{[-R|--reload]}}`
 
 - Display the version of installed policy modules:
 
-`sudo semodule -l -v`
+`sudo semodule {{[-l|--list]}} {{[-v|--verbose]}}`
