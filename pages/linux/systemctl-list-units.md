@@ -26,8 +26,8 @@
 
 - Print output directly to stdout (disable pager):
 
-`systemctl --no-pager list-units`
+`systemctl list-units --no-pager`
 
 - Print output without headers or footers (for scripts):
 
-`systemctl --no-legend list-units`
+`systemctl list-units --no-legend`
