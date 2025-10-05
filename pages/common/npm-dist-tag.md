@@ -26,4 +26,4 @@
 
 - Add a tag with two-factor authentication:
 
-`npm dist-tag add {{package_name}}@{{version}} {{tag}} --otp={{one_time_password}}`
+`npm dist-tag add {{package_name}}@{{version}} {{tag}} --otp {{one_time_password}}`
