@@ -23,4 +23,4 @@
 
 - Use a specific root path for context matching:
 
-`sudo setfiles {{[-r|--rootpath]}} {{/old/path}} /etc/selinux/targeted/contexts/files/file_contexts {{/new/path}}`
+`sudo setfiles {{[-r|--rootpath]}} {{path/to/old_directory}} /etc/selinux/targeted/contexts/files/file_contexts {{path/to/new_directory}}`
