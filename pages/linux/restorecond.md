@@ -13,7 +13,7 @@
 
 `sudo restorecond -v`
 
-- Run restorecond in debug mode:
+- Run `restorecond` in [d]ebug mode:
 
 `sudo restorecond -d`
 
