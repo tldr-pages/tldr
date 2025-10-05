@@ -1,7 +1,7 @@
 # pacfile
 
 > Displays Information about package files, including repository data, file system checks, and database comparisons.
-> More information: <https://github.com/andrewgregory/pacutils/blob/master/doc/pacconf.pod>.
+> More information: <https://github.com/andrewgregory/pacutils/blob/master/doc/pacfile.pod>.
 
 - List all available packages:
 
