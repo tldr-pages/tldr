@@ -9,7 +9,7 @@
 
 - Cluster all databases:
 
-`clusterdb --all`
+`clusterdb {{[-a|--all]}}`
 
 - Cluster a specific table in a database:
 
