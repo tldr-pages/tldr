@@ -1,4 +1,4 @@
-# route
+# routel
 
 > List IP routing in a human readable format.
 > More information: <https://manned.org/man/routel>.
