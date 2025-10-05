@@ -1,24 +1,24 @@
-# pacheck
+# paccheck
 
-> Checks Installed Packages on an Arch-based system to verify dependencies, integrity, and consistency.
+> Checks installed packages on an Arch-based system to verify dependencies, integrity, and consistency.
 > More information: <https://github.com/andrewgregory/pacutils/blob/master/doc/paccheck.pod>.
 
 - List all available packages:
 
-`pacheck`
+`paccheck`
 
 - Only display messages if a problem is found:
 
-`pacheck --quiet`
+`paccheck --quiet`
 
 - Check that all package dependencies are satisfied:
 
-`pacheck --depends`
+`paccheck --depends`
 
 - Display help:
 
-`pacheck --help`
+`paccheck --help`
 
 - Display version:
 
-`pacheck --version`
+`paccheck --version`
