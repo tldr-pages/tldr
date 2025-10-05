@@ -11,10 +11,10 @@
 
 `kubectl version --client`
 
-- Output the client and server version information for the current context in json:
+- Output the client and server version information for the current context in JSON:
 
-`kubectl version --json`
+`kubectl version {{[-o|--output]}} json`
 
-- Output the client and server version information for the current context in yaml:
+- Output the client and server version information for the current context in YAML:
 
-`kubectl version --yaml`
+`kubectl version {{[-o|--output]}} yaml`
