@@ -1,7 +1,7 @@
 # npm diff
 
-> Compare package versions and show differences.
-> Similar to git diff, shows differences between package versions from the npm registry.
+> Compare package versions from the `npm` registry and show differences.
+> Similar to `git diff`.
 > More information: <https://docs.npmjs.com/cli/commands/npm-diff>.
 
 - Compare two specific package versions:
