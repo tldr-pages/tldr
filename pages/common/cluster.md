@@ -1,7 +1,6 @@
 # cluster
 
 > Find clusters in a graph and augment the graph with this information.
-> Reads a DOT graph, detects node clusters, and updates nodes with a `cluster` attribute.
 > More information: <https://graphviz.org/pdf/cluster.1.pdf>.
 
 - Generate clusters that optimize modularity and print the result to stdout:
