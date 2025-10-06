@@ -21,4 +21,4 @@
 
 - Enable debug logging output:
 
-`pg_archivecleanup {{[-d|--debug]}} {{archivelocation}} {{oldestkeptwalfile}}`
+`pg_archivecleanup {{[-d|--debug]}} {{path/to/archive}} {{path/to/walfile}}`
