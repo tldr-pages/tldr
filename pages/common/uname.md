@@ -28,10 +28,6 @@
 
 `uname {{[-o|--operating-system]}}`
 
-- Print the current network node host name:
-
-`uname {{[-n|--nodename]}}`
-
 - Display help:
 
 `uname --help`
