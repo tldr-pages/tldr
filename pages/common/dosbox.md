@@ -13,7 +13,7 @@
 
 - Mount a folder as C: and run an executable:
 
-`dosbox -c "MOUNT C {{path/to/folder}} {{path/to/executable.exe}}"`
+`dosbox {{path/to/executable.exe}} -c "MOUNT C {{path/to/folder}}"`
 
 - Start DOSBox in fullscreen mode:
 
