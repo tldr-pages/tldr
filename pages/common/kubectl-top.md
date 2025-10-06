@@ -5,28 +5,28 @@
 
 - Get the resource consumption of all nodes:
 
-`kubectl top {{node|nodes}}`
+`kubectl top {{[no|nodes]}}`
 
 - Get resource consumption of a specific node:
 
-`kubectl top {{node|nodes}} {{node_name}}`
+`kubectl top {{[no|nodes]}} {{node_name}}`
 
 - Get resource consumption of all pods:
 
-`kubectl top {{po|pod|pods}}`
+`kubectl top {{[po|pods]}}`
 
 - Get resource consumption of a specific pod:
 
-`kubectl top {{po|pod|pods}} {{pod_name}}`
+`kubectl top {{[po|pods]}} {{[pod_name]}}`
 
 - Get resource consumption of all pods in a namespace:
 
-`kubectl top {{po|pod|pods}} --namespace {{namespace_name}}`
+`kubectl top {{[po|pods]}} {{[-n|--namespace]}} {{namespace_name}}`
 
 - Get resource consumption of all containers in a pod:
 
-`kubectl top {{po|pod|pods}} --containers`
+`kubectl top {{[po|pods]}} --containers`
 
 - Get resource consumption of all pods with specified label:
 
-`kubectl top {{po|pod|pods}} -l {{key=value}}`
+`kubectl top {{[po|pods]}} -l {{key=value}}`
