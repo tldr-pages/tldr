@@ -9,7 +9,7 @@
 
 - Export the entire repository to a file:
 
-`git fast-export --all > {{history.txt}}`
+`git fast-export --all > {{path/to/history.txt}}`
 
 - Export a specific branch only:
 
