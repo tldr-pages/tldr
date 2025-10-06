@@ -22,8 +22,8 @@
 
 - Set the maximum number of clusters (by default 0, meaning there is no limit):
 
-`gvmap -C {{10}} {{graph.gv}} > {{map.xdot}}`
+`gvmap -C {{10}} {{graph.gv}} -o {{output.xdot}}`
 
 - Only draw cluster 2 (by default, all clusters are drawn):
 
-`gvmap -highlight={{2}} {{graph.gv}} > {{map.xdot}}`
+`gvmap -highlight={{2}} {{graph.gv}} -o {{output.xdot}}`
