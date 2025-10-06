@@ -13,24 +13,24 @@
 
 - Package and build without starting the test server:
 
-`pygbag --build {{path/to/project_folder}}`
+`pygbag {{path/to/project_folder}} --build`
 
 - Package with a specific template:
 
-`pygbag --template {{template_name.tmpl}} {{path/to/project_folder}}`
+`pygbag {{path/to/project_folder}} --template {{template_name.tmpl}}`
 
 - Package and create a ZIP archive for itch.io:
 
-`pygbag --archive {{path/to/project_folder}}`
+`pygbag {{path/to/project_folder}} --archive`
 
 - Package with optimization turned off:
 
-`pygbag --no_opt {{path/to/project_folder}}`
+`pygbag {{path/to/project_folder}} --no_opt`
 
 - Specify a custom port for the test server:
 
-`pygbag --port {{8080}} {{path/to/project_folder}}`
+`pygbag {{path/to/project_folder}} --port {{8080}}`
 
 - Display help information:
 
-`pygbag {{[-h|--help]}}`
+`pygbag --help`
