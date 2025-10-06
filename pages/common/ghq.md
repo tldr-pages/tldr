@@ -11,17 +11,17 @@
 
 `ghq get {{user}}/{{project}}`
 
-- Clone a repository and `cd` into it:
+- Clone a repository and cd into it:
 
-`ghq get --look {{repository_url}}`
+`ghq get {{repository_url}} --look`
 
 - Clone a repository via SSH:
 
-`ghq get -p {{user}}/{{project}}`
+`ghq get {{user}}/{{project}} -p`
 
 - Update an existing repository to the latest version:
 
-`ghq get -u {{repository_url}}`
+`ghq get {{repository_url}} -u`
 
 - List all locally cloned repositories:
 
