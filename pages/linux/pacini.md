@@ -11,9 +11,9 @@
 
 `pacini --section-list`
 
-- Display directive names:
+- Always show directive names even if only one directive is provided:
 
-`pacini --verbose`
+`pacini --verbose {{directive}}`
 
 - Display directives listed in a specific section:
 
