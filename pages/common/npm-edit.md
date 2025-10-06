@@ -8,6 +8,3 @@
 
 `npm edit {{package_name}}`
 
-- Edit a specific package:
-
-`npm edit {{express}}`
