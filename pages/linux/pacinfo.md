@@ -11,7 +11,7 @@
 
 `pacinfo --no-timeout {{package_name}}`
 
-- Display additional package information:
+- Display sizes in bytes and date values as Unix timestamps:
 
 `pacinfo --raw {{package_name}}`
 
