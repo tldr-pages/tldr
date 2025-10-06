@@ -29,4 +29,4 @@
 
 - Get resource consumption of all pods with specified label:
 
-`kubectl top {{[po|pods]}} -l {{key=value}}`
+`kubectl top {{[po|pods]}} {{[-l|--selector]}} {{key=value}}`
