@@ -17,7 +17,7 @@
 
 - Remove backup history files too:
 
-`pg_archivecleanup {{[-b|--clean-backup-history]}} {{archivelocation}} {{oldestkeptwalfile}}`
+`pg_archivecleanup {{[-b|--clean-backup-history]}} {{path/to/archive}} {{path/to/walfile}}`
 
 - Enable debug logging output:
 
