@@ -13,7 +13,7 @@
 
 - Always show directive names even if only one directive is provided:
 
-`pacconf --verbose`
+`pacconf --verbose {{directive}}`
 
 - Display only first value of multi-value options:
 
