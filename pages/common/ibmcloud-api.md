@@ -7,7 +7,7 @@
 
 `ibmcloud api`
 
-- Set the API endpoint to cloud.ibm.com:
+- Set the API endpoint to `cloud.ibm.com`:
 
 `ibmcloud api cloud.ibm.com`
 
