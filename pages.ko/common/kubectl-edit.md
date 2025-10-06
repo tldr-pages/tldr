@@ -1,7 +1,7 @@
 # kubectl edit
 
 > Kubernetes 리소스를 편집.
-> 더 많은 정보: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#edit>.
+> 더 많은 정보: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_edit>.
 
 - Pod 편집:
 
