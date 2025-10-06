@@ -7,6 +7,10 @@
 
 `paccheck`
 
+- Check the specified packages:
+
+`paccheck {{package1 package2 ...}}`
+
 - Only display messages if a problem is found:
 
 `paccheck --quiet`
