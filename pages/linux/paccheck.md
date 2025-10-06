@@ -1,9 +1,9 @@
 # paccheck
 
-> Checks installed packages on an Arch-based system to verify dependencies, integrity, and consistency.
+> Check installed packages on an Arch-based system to verify dependencies, integrity, and consistency.
 > More information: <https://github.com/andrewgregory/pacutils/blob/master/doc/paccheck.pod>.
 
-- List all available packages:
+- List and check all installed packages:
 
 `paccheck`
 
