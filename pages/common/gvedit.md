@@ -1,7 +1,6 @@
 # gvedit
 
 > Simple Graphviz graph editor and viewer.
-> Allows editing and viewing multiple graphs, each in its own window.
 > More information: <https://graphviz.org/pdf/gvedit.1.pdf>.
 
 - Open a Graphviz file in the editor:
