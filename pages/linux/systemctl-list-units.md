@@ -16,7 +16,7 @@
 
 `systemctl list-units --type service`
 
-- Filter by state (e.g., running):
+- Filter by state:
 
 `systemctl list-units --state running`
 
