@@ -8,18 +8,22 @@
 
 `systemctl list-unit-files`
 
-- Filter by state (e.g., enabled):
+- Filter by state:
 
-`systemctl list-unit-files --state enabled`
+`systemctl list-unit-files --state {{enabled|disabled|static|...}}`
 
-- Filter by a name pattern (e.g., sshd*):
+- Filter by unit type:
+
+`systemctl list-unit-files {{[-t|--type]}} {{service|socket|timer|...}}`
+
+- Filter by a name pattern:
 
 `systemctl list-unit-files 'sshd*'`
 
-- Print output directly to stdout (disable pager):
+- Print output directly to `stdout`:
 
 `systemctl list-unit-files --no-pager`
 
-- Print output without headers or footers (for scripts):
+- Print output without headers or footers:
 
 `systemctl list-unit-files --no-legend`
