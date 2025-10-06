@@ -13,9 +13,9 @@
 
 `newrole {{[-t|--type]}} {{type_name}}`
 
-- Start a new shell with a specific SELinux level (levels range from `s0` to `s15`, `-` indicates level range, categories start with `c`, `:` separates level from categories, `.` indicates category range):
+- Start a new shell with a specific SELinux level (format: `s0-s0:c0.c1023` where levels range from `s0` to `s15`, `-` indicates level range, categories start with `c`, `:` separates level from categories, `.` indicates category range):
 
-`newrole {{[-l|--level]}} {{level_range}}`
+`newrole {{[-l|--level]}} {{s0-s0:c0.c1023}}`
 
 - Display the current SELinux context:
 
