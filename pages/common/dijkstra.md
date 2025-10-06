@@ -1,7 +1,6 @@
 # dijkstra
 
 > Compute shortest-path distances from a single source node in a graph.
-> Reads graphs, computes distances, and sets node and graph attributes such as `dist`, `prev`, and `maxdist`.
 > More information: <https://graphviz.org/pdf/dijkstra.1.pdf>.
 
 - Compute distances from a given source node in a graph file:
