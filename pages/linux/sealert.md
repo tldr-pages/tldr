@@ -17,10 +17,6 @@
 
 `sudo sealert {{[-b|--browser]}}`
 
-- Analyze SELinux denials and show detailed recommendations:
-
-`sudo sealert {{[-a|--analyze]}} {{/var/log/audit/audit.log}} -v`
-
 - Monitor audit log in real-time for new alerts:
 
 `sudo tail {{[-f|--follow]}} {{/var/log/audit/audit.log}} | sealert {{[-l|--lookupid]}} -`
