@@ -17,6 +17,10 @@
 
 `sudo audit2allow {{[-a|--all]}} {{[-M|--module]}} {{module_name}}`
 
+- Explain why SELinux denials occurred (audit2why):
+
+`sudo audit2allow {{[-a|--all]}} --why`
+
 - Display detailed information around generated messages:
 
 `sudo audit2allow {{[-a|--all]}} {{[-e|--explain]}}`
@@ -24,10 +28,6 @@
 - Use installed macros to generate a reference policy:
 
 `sudo audit2allow {{[-a|--all]}} {{[-R|--reference]}}`
-
-- Install the generated policy module:
-
-`sudo semodule {{[-i|--install]}} {{module_name.pp}}`
 
 - Generate allow rules for a specific service:
 
