@@ -9,15 +9,15 @@
 
 - Update the database entries without extracting or removing any packages:
 
-`pacrepairdb --dbonly {{package_name}}`
+`pacrepairdb {{package_name}} --dbonly`
 
 - Display the packages to be repaired and the cache packages to be used without making any changes:
 
-`pacrepairdb --print-only {{package_name}}`
+`pacrepairdb {{package_name}} --print-only`
 
 - Display additional progress and debug information:
 
-`pacrepairdb --verbose {{package_name}}`
+`pacrepairdb {{package_name}} --verbose`
 
 - Display help:
 
