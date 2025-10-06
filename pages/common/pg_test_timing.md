@@ -7,6 +7,6 @@
 
 `pg_test_timing`
 
-- Run for a custom duration (in seconds):
+- Run for a custom duration:
 
 `pg_test_timing {{[-d|--duration]}} {{seconds}}`
