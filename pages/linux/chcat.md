@@ -23,7 +23,7 @@
 
 - Display the categories of a file:
 
-`ls -Z {{path/to/file}}`
+`ls {{[-Z|--context]}} {{path/to/file}}`
 
 - Remove all categories from a file:
 
