@@ -6,12 +6,12 @@
 
 - Delete all store paths unused by current generations of each profile:
 
-`sudo nix-collect-garbage {{[-d|--delete-old]}}`
+`nix-collect-garbage {{[-d|--delete-old]}}`
 
 - Simulate the deletion of old store paths:
 
-`sudo nix-collect-garbage {{[-d|--delete-old]}} --dry-run`
+`nix-collect-garbage {{[-d|--delete-old]}} --dry-run`
 
 - Delete all store paths older than 30 days:
 
-`sudo nix-collect-garbage --delete-older-than 30d`
+`nix-collect-garbage --delete-older-than 30d`

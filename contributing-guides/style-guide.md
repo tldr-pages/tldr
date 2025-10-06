@@ -317,6 +317,8 @@ When describing keycaps or a keyboard shortcut for a utility, use the same [keyp
 
 If a program requires root privileges to run and doesn't provide its own prompt for a password, prepend the command with `sudo` (e.g. `sudo apt update`).
 
+Avoid explaining general UNIX concepts that could apply to any command (i.e. relative/absolute paths, glob patterns/wildcards, special character escaping, program return values, ...)
+
 ### Standardized Terms
 
 Some terms are used repeatedly throughout pages, and as such, should be standardized. These include:
@@ -399,6 +401,12 @@ the part of the address that starts with `?view=`.
 
 ```md
 > See also: `date` for Unix information, `uname` for system information and `umount` for unmounting partitions.
+```
+
+- When a command features subcommands, those pages can be referenced with the following line. Note that only the subcommand is named:
+
+```md
+> Some subcommands such as `commit`, `add`, `branch`, `switch`, `push`, etc. have their own usage documentation.
 ```
 
 ## Example descriptions
