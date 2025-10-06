@@ -7,7 +7,7 @@
 
 `clang-check {{path/to/file.cpp}} --`
 
-- Dumps the Abstract Syntax Tree for debugging:
+- Dump the Abstract Syntax Tree for debugging:
 
 `clang-check {{path/to/file.cpp}} -ast-dump --`
 
