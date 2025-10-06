@@ -29,7 +29,7 @@
 
 - Enable debug logging:
 
-`scrun --debug {{create|start|kill|delete}} {{container_id}}`
+`scrun {{create|start|kill|delete}} {{container_id}} --debug`
 
 - Display version:
 
