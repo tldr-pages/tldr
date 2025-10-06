@@ -4,7 +4,7 @@
 > See also: `systemctl enable`, `systemctl disable`.
 > More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#is-enabled%20UNIT%E2%80%A6>.
 
-- Show the enable state:
+- Show the enablement state:
 
 `systemctl is-enabled {{unit1 unit2 ...}}`
 
