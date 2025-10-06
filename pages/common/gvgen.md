@@ -1,7 +1,6 @@
 # gvgen
 
 > Generate simple, structured abstract graphs.
-> Supports cycles, grids, trees, meshes, and other standard graph types.
 > More information: <https://graphviz.org/pdf/gvgen.1.pdf>.
 
 - Generate a cycle with 10 vertices and edges:
