@@ -17,7 +17,7 @@
 
 - Get resource consumption of a specific pod:
 
-`kubectl top {{[po|pods]}} {{[pod_name]}}`
+`kubectl top {{[po|pods]}} {{pod_name}}`
 
 - Get resource consumption of all pods in a namespace:
 
