@@ -4,7 +4,9 @@
 > More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_version/>.
 
 - Print the client and server versions:
+
 `kubectl version`
 
 - Show the client version only:
-`kubectl version {{--client}}`
+
+`kubectl version --client`
