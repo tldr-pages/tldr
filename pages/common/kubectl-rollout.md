@@ -1,7 +1,7 @@
 # kubectl rollout
 
 > Manage the rollout of a Kubernetes resource (deployments, daemonsets, and statefulsets).
-> More information: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#rollout>.
+> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_rollout>.
 
 - Start a rolling restart of a resource:
 
