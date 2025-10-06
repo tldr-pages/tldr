@@ -10,15 +10,15 @@
 
 - Add a network interface type definition:
 
-`sudo semanage interface {{[-a|--add]}} {{[-t|--type]}} {{netif_t}} {{eth0}}`
+`sudo semanage interface {{[-a|--add]}} {{[-t|--type]}} {{type_name}} {{interface_name}}`
 
 - Delete a network interface type definition:
 
-`sudo semanage interface {{[-d|--delete]}} {{eth0}}`
+`sudo semanage interface {{[-d|--delete]}} {{interface_name}}`
 
 - Modify a network interface type definition:
 
-`sudo semanage interface {{[-m|--modify]}} {{[-t|--type]}} {{ipsec_spd_t}} {{eth1}}`
+`sudo semanage interface {{[-m|--modify]}} {{[-t|--type]}} {{type_name}} {{interface_name}}`
 
 - List interface type definitions in a customized format:
 
