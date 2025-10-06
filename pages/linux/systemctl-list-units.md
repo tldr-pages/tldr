@@ -24,7 +24,7 @@
 
 `systemctl list-units 'systemd*'`
 
-- Print output directly to stdout (disable pager):
+- Print output directly to `stdout`:
 
 `systemctl list-units --no-pager`
 
