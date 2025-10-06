@@ -5,7 +5,7 @@
 
 - Clean an archive directory up to a given WAL file:
 
-`pg_archivecleanup {{archivelocation}} {{oldestkeptwalfile}}`
+`pg_archivecleanup {{path/to/archive}} {{path/to/walfile}}`
 
 - Perform a dry run (list files that would be removed):
 
