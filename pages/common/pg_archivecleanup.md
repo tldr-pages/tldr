@@ -15,7 +15,7 @@
 
 `pg_archivecleanup {{[-x|--strip-extension]}} {{extension}} {{path/to/archive}} {{path/to/walfile}}`
 
-- Remove backup history files too (in addition to WAL):
+- Remove backup history files too:
 
 `pg_archivecleanup {{[-b|--clean-backup-history]}} {{archivelocation}} {{oldestkeptwalfile}}`
 
