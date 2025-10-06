@@ -19,7 +19,7 @@
 
 - Display the current SELinux context:
 
-`id -Z`
+`id {{[-Z|--context]}}`
 
 - Start a new shell with both role and type:
 
