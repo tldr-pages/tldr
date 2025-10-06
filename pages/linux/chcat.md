@@ -19,7 +19,7 @@
 
 - Set specific categories for a file (replacing existing ones):
 
-`sudo chcat {{CategoryName1,CategoryName2}} {{path/to/file}}`
+`sudo chcat {{CategoryName1,CategoryName2,...}} {{path/to/file}}`
 
 - Display the categories of a file:
 
