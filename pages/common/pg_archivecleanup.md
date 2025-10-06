@@ -7,7 +7,7 @@
 
 `pg_archivecleanup {{path/to/archive}} {{path/to/walfile}}`
 
-- Perform a dry run (list files that would be removed):
+- Perform a dry run (list files that would be removed without actually doing it):
 
 `pg_archivecleanup {{[-n|--dry-run]}} {{path/to/archive}} {{path/to/walfile}}`
 
