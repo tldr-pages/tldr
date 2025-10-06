@@ -2,7 +2,7 @@
 
 > Interact with Talos Linux, a minimal and immutable Kubernetes distribution.
 > See also: `kubectl`.
-> More information: <https://www.talos.dev/v1.9/reference/cli/>.
+> More information: <https://www.talos.dev/latest/reference/cli/>.
 
 - Apply a config to a fresh node:
 
