@@ -11,12 +11,12 @@
 
 - Explain SELinux denials from a specific audit log file:
 
-`sudo audit2why -i {{path/to/audit.log}}`
+`sudo audit2why {{[-i|--input]}} {{path/to/audit.log}}`
 
 - Explain all SELinux denials from the audit log:
 
-`sudo ausearch -m avc | audit2why`
+`sudo ausearch {{[-m|--message]}} avc | audit2why`
 
 - Explain denials for a specific service:
 
-`sudo ausearch -m avc -c {{httpd}} | audit2why`
+`sudo ausearch {{[-m|--message]}} avc {{[-c|--comm]}} {{service_name}} | audit2why`
