@@ -8,7 +8,7 @@
 
 `systemctl is-enabled {{unit1 unit2 ...}}`
 
-- Suppress output and return only the exit status:
+- Suppress output and return only the exit code:
 
 `systemctl is-enabled {{unit}} --quiet`
 
