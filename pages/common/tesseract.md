@@ -5,19 +5,19 @@
 
 - Recognize text in an image and save it to `output.txt` (the `.txt` extension is added automatically):
 
-`tesseract {{image.png}} {{output}}`
+`tesseract {{path/to/image.png}} output`
 
-- Specify a custom language (default is English) with an ISO 639-2 code (e.g. deu = Deutsch = German):
+- Specify a custom [l]anguage (default is English) with an ISO 639-2 code (e.g. deu = Deutsch = German):
 
-`tesseract -l deu {{image.png}} {{output}}`
+`tesseract -l deu {{path/to/image.png}} {{path/to/output}}`
 
-- List the ISO 639-2 codes of available languages:
+- List the ISO 639-2 codes of installed languages:
 
 `tesseract --list-langs`
 
-- Specify a custom page segmentation mode (default is 3):
+- Specify a custom [p]age [s]egmentation [m]ode (default is 3):
 
-`tesseract --psm {{0_to_10}} {{image.png}} {{output}}`
+`tesseract --psm {{0..13}} {{path/to/image.png}} {{path/to/output}}`
 
 - List page segmentation modes and their descriptions:
 
