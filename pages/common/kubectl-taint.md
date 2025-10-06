@@ -1,7 +1,7 @@
 # kubectl taint
 
 > Update the taints on nodes.
-> More information: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#taint>.
+> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_taint>.
 
 - Apply taint to a node:
 
