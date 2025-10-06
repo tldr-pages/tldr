@@ -7,7 +7,7 @@
 
 `paclock`
 
-- Write the lock file path to `stdout`:
+- Write the lock file path to `stdout` (without locking the database):
 
 `paclock --print`
 
