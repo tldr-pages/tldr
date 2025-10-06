@@ -5,8 +5,8 @@ See also https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md
 -->
 
 - [ ] The page(s) are in the correct platform directories: `common`, `linux`, `osx`, `windows`, `sunos`, `android`, etc.
-- [ ] The page(s) have at most 8 examples.
 - [ ] The page description(s) have links to documentation or a homepage.
+- [ ] The PR contais at maximum 5 pages.
 - [ ] The page(s) follow the [content guidelines](/tldr-pages/tldr/blob/main/CONTRIBUTING.md#guidelines).
 - [ ] The page(s) follow the [style guide](/tldr-pages/tldr/blob/main/contributing-guides/style-guide.md).
 - [ ] The PR title conforms to the recommended [templates](/tldr-pages/tldr/blob/main/CONTRIBUTING.md#commit-message-and-pr-title).
