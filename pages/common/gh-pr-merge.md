@@ -1,32 +1,25 @@
 # gh pr merge
 
-> Merge GitHub pull requests.
+> Merge a GitHub pull request.
+> Part of the GitHub CLI: `gh`.
 > More information: <https://cli.github.com/manual/gh_pr_merge>.
 
-- Merge the pull request associated with the current branch interactively:
+- Merge with a merge commit:
 
-`gh pr merge`
+`gh pr merge {{123}} --merge`
 
-- Merge the specified pull request, interactively:
+- Squash and merge, then delete the branch:
 
-`gh pr merge {{pr_number}}`
+`gh pr merge {{123}} --squash --delete-branch`
 
-- Merge the pull request, removing the branch on both the local and the remote:
+- Rebase and merge:
 
-`gh pr merge {{[-d|--delete-branch]}}`
+`gh pr merge {{123}} --rebase`
 
-- Merge the current pull request with the specified merge strategy:
+- Enable auto-merge (squash):
 
-`gh pr merge --{{merge|squash|rebase}}`
+`gh pr merge {{123}} --auto --squash`
 
-- Merge the current pull request with the specified merge strategy and commit message:
+- Merge with admin privileges (if allowed):
 
-`gh pr merge --{{merge|squash|rebase}} {{[-t|--subject]}} {{commit_message}}`
-
-- Squash the current pull request into one commit with the message body and merge:
-
-`gh pr merge {{[-s|--squash]}} {{[-b|--body]}} "{{commit_message_body}}"`
-
-- Display help:
-
-`gh pr merge {{[-h|--help]}}`
+`gh pr merge {{123}} --admin`
