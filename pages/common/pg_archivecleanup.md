@@ -11,7 +11,7 @@
 
 `pg_archivecleanup {{[-n|--dry-run]}} {{path/to/archive}} {{path/to/walfile}}`
 
-- Strip a file extension before deciding deletion (e.g., compressed files):
+- Strip a file extension before deciding deletion:
 
 `pg_archivecleanup {{[-x|--strip-extension]}} {{extension}} {{archivelocation}} {{oldestkeptwalfile}}`
 
