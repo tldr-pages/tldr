@@ -13,7 +13,7 @@
 
 - Strip a file extension before deciding deletion:
 
-`pg_archivecleanup {{[-x|--strip-extension]}} {{extension}} {{archivelocation}} {{oldestkeptwalfile}}`
+`pg_archivecleanup {{[-x|--strip-extension]}} {{extension}} {{path/to/archive}} {{path/to/walfile}}`
 
 - Remove backup history files too (in addition to WAL):
 
