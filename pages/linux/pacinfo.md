@@ -1,9 +1,9 @@
 # pacinfo
 
-> Query information about installed packages.
+> Display information about installed packages.
 > More information: <https://github.com/andrewgregory/pacutils/blob/master/doc/pacinfo.pod>.
 
-- Query information about a specific package:
+- Display information about a specific package:
 
 `pacinfo {{package_name}}`
 
