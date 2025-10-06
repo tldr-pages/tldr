@@ -14,7 +14,7 @@
 
 - Filter by unit type:
 
-`systemctl list-units --type service`
+`systemctl list-units {{[-t|--type]}} {{service|socket|timer|...}}`
 
 - Filter by state:
 
