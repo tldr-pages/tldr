@@ -20,7 +20,7 @@
 
 `systemctl list-units --state running`
 
-- Filter by a name pattern (e.g., systemd*):
+- Filter by a name pattern:
 
 `systemctl list-units 'systemd*'`
 
