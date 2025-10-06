@@ -10,7 +10,7 @@
 
 - List all units, including inactive ones:
 
-`systemctl list-units --all`
+`systemctl list-units {{[-a|--all]}}`
 
 - Filter by unit type:
 
