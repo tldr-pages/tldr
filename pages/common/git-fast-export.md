@@ -17,7 +17,7 @@
 
 - Export with progress shown:
 
-`git fast-export --progress {{5}} --all > {{repo_progress.export}}`
+`git fast-export --progress {{5}} --all > {{path/to/repo_progress.export}}`
 
 - Export only a specific subdirectory’s history:
 
