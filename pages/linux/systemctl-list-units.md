@@ -18,7 +18,7 @@
 
 - Filter by state:
 
-`systemctl list-units --state running`
+`systemctl list-units --state {{running|listening|dead|...}}`
 
 - Filter by a name pattern:
 
