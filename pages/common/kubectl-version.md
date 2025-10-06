@@ -5,7 +5,6 @@
 
 - Print the client and server versions:
 
-
 `kubectl version`
 
 - Show the client version only:
