@@ -21,4 +21,4 @@
 
 - Export only a specific subdirectory’s history:
 
-`git fast-export --all -- {{path/to/subdir}} > {{subdir.dat}}`
+`git fast-export --all -- {{path/to/subdir}} > {{path/to/subdir.dat}}`
