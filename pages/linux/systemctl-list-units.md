@@ -12,7 +12,7 @@
 
 `systemctl list-units --all`
 
-- Filter by unit type (e.g., service):
+- Filter by unit type:
 
 `systemctl list-units --type service`
 
