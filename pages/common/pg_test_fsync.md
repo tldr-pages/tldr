@@ -7,7 +7,7 @@
 
 `pg_test_fsync`
 
-- Specify a custom test duration (in seconds):
+- Specify a custom test duration:
 
 `pg_test_fsync {{[-s|--secs-per-test]}} {{seconds}}`
 
