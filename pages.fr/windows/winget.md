@@ -7,7 +7,7 @@
 
 `winget {{[add|install]}} {{paquet}}`
 
-- Supprime un paquet (Remarque : `remove` peut aussi être utilisé à la place de `uninstall`) :
+- Supprime un paquet (remarque : `remove` peut aussi être utilisé à la place de `uninstall`) :
 
 `winget {{[rm|uninstall]}} {{paquet}}`
 
@@ -27,7 +27,7 @@
 
 `winget {{[ls|list]}} {{[-s|--source]}} winget`
 
-- Importe des paquets depuis un fichier, ou exporter les paquets installés vers un fichier :
+- Importe des paquets depuis un fichier, ou exporte les paquets installés vers un fichier :
 
 `winget {{import|export}} {{--import-file|--output}} {{chemin/vers/fichier}}`
 
