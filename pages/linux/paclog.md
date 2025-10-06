@@ -15,9 +15,9 @@
 
 `paclog --warnings`
 
-- Display package name and action type (install, upgrade, remove, etc.):
+- Display package name and action type:
 
-`paclog --package {{package_name}} --action {{action_type}}`
+`paclog --package {{package_name}} --action {{install|upgrade|remove|...}}`
 
 - Display the list of installed packages according to the log:
 
