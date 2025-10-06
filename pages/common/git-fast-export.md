@@ -15,9 +15,9 @@
 
 `git fast-export {{main}}`
 
-- Export with progress shown:
+- Export with `progress` statements every `n` objects (for showing progress during `git fast-import`):
 
-`git fast-export --progress {{5}} --all > {{path/to/file}}`
+`git fast-export --progress {{n}} --all > {{path/to/file}}`
 
 - Export only a specific subdirectory’s history:
 
