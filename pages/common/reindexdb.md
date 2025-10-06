@@ -9,7 +9,7 @@
 
 - Reindex a specific database using connection options:
 
-`reindexdb {{[-h|--host]}} {{hostname}} {{[-p|--port]}} {{port}} {{[-U|--username]}} {{username}} {{database_name}}`
+`reindexdb {{database_name}} {{[-h|--host]}} {{hostname}} {{[-p|--port]}} {{port}} {{[-U|--username]}} {{username}}`
 
 - Reindex all databases:
 
@@ -17,20 +17,20 @@
 
 - Reindex a specific table in a database:
 
-`reindexdb {{[-t|--table]}} {{table_name}} {{database_name}}`
+`reindexdb {{database_name}} {{[-t|--table]}} {{table_name}}`
 
 - Reindex a specific index in a database:
 
-`reindexdb {{[-i|--index]}} {{index_name}} {{database_name}}`
+`reindexdb {{database_name}} {{[-i|--index]}} {{index_name}}`
 
 - Reindex a specific schema in a database:
 
-`reindexdb {{[-S|--schema]}} {{schema_name}} {{database_name}}`
+`reindexdb {{database_name}} {{[-S|--schema]}} {{schema_name}}`
 
 - Reindex with verbose output:
 
-`reindexdb {{[-v|--verbose]}} {{database_name}}`
+`reindexdb {{database_name}} {{[-v|--verbose]}}`
 
 - Reindex a database using multiple parallel jobs:
 
-`reindexdb {{[-j|--jobs]}} {{number_of_jobs}} {{database_name}}`
+`reindexdb {{database_name}} {{[-j|--jobs]}} {{number_of_jobs}}`
