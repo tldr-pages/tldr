@@ -7,4 +7,3 @@
 - Edit a locally installed package in the default editor:
 
 `npm edit {{package_name}}`
-
