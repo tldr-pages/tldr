@@ -9,7 +9,7 @@
 
 - Perform a dry run (list files that would be removed):
 
-`pg_archivecleanup {{[-n|--dry-run]}} {{archivelocation}} {{oldestkeptwalfile}}`
+`pg_archivecleanup {{[-n|--dry-run]}} {{path/to/archive}} {{path/to/walfile}}`
 
 - Strip a file extension before deciding deletion (e.g., compressed files):
 
