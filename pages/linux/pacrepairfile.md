@@ -7,7 +7,7 @@
 
 `pacrepairfile {{path/to/file}} --package`
 
-- Reset a File Quietly:
+- Reset a file quietly:
 
 `pacrepairfile {{package_name}} --quiet --package`
 
