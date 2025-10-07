@@ -22,7 +22,7 @@
 
 - Continua lendo um arquivo até `<Ctrl c>`, mesmo que ele fique inacessível:
 
-`tail [-F|--retry --follow] {{caminho/para/arquivo}}`
+`tail {{[-F|--retry --follow]}} {{caminho/para/arquivo}}`
 
 - Mostra as últimas 'num' linhas de um arquivo e atualiza a cada 'n' segundos:
 
