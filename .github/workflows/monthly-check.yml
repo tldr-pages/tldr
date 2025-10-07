@@ -55,7 +55,7 @@ jobs:
 
     - name: Update last report open issue created
       if: ${{ env.lychee_exit_code != 0 }}
-      uses: peter-evans/create-issue-from-file@e8ef132d6df98ed982188e460ebb3b5d4ef3a9cd # v5.0.1
+      uses: peter-evans/create-issue-from-file@fca9117c27cdc29c6c4db3b86c48e4115a786710 # v6.0.0
       with:
         title: GitHub usernames with errors
         content-filepath: lychee/out.md
