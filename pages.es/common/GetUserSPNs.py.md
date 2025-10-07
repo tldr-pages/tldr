@@ -14,7 +14,7 @@
 
 - Guarda el resultado en un archivo:
 
-GetUserSPNs.py {{dominio}}/{{nombredeusuario}}:{{contraseña}} -dc-ip {{dominio_controlador_ip}} -outputfile {{ruta/al/archivo_salida}}`
+`GetUserSPNs.py {{dominio}}/{{nombredeusuario}}:{{contraseña}} -dc-ip {{dominio_controlador_ip}} -outputfile {{ruta/al/archivo_salida}}`
 
 - Pide solo tickets TGS:
 
