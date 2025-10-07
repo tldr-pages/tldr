@@ -27,6 +27,6 @@
 
 `gvgen -d -v -c {{6}}`
 
-- Display usage information:
+- Display help:
 
 `gvgen -?`
