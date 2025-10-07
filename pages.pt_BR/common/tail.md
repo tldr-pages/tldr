@@ -1,6 +1,7 @@
 # tail
 
 > Exibe a parte final de um arquivo.
+> Veja também: `head`.
 > Mais informações: <https://www.gnu.org/software/coreutils/manual/html_node/tail-invocation.html>.
 
 - Mostra as últimas 'contagem' linhas de um arquivo:
