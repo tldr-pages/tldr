@@ -8,10 +8,6 @@
 
 `systemctl preset {{unit1 unit2 ...}}`
 
-- Enable and disable units according to preset policy:
-
-`systemctl preset {{unit}} --preset-mode full`
-
 - Enable only if marked as enabled in the preset policy:
 
 `systemctl preset {{unit}} --preset-mode enable-only`
