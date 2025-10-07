@@ -1,7 +1,7 @@
 # kubectl rollout
 
 > Kubernetes 리소스(배포, 데몬셋, 스테이트풀셋)의 롤아웃 관리.
-> 더 많은 정보: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#rollout>.
+> 더 많은 정보: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_rollout>.
 
 - 리소스의 롤링 재시작 시작:
 

@@ -2,7 +2,7 @@
 
 > 검색 가능한 데이터베이스에 쉘 기록을 저장하세요.
 > 선택적으로 컴퓨터 간에 암호화된 기록을 동기화하세요.
-> 더 많은 정보: <https://atuin.sh/docs/commands>.
+> 더 많은 정보: <https://docs.atuin.sh/>.
 
 - 쉘에 atuin 설치:
 

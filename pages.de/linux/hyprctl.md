@@ -1,7 +1,7 @@
 # hyprctl
 
 > Steuere Teile des Hyprland Wayland-Compositors.
-> Weitere Informationen: <https://wiki.hyprland.org/Configuring/Using-hyprctl>.
+> Weitere Informationen: <https://wiki.hypr.land/Configuring/Using-hyprctl/>.
 
 - Lade die Hyprland-Konfiguration neu:
 
