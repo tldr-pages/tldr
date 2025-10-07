@@ -1,7 +1,7 @@
 # kubectl wait
 
 > Espera a que los recursos alcancen un estado determinado.
-> Más información: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#wait>.
+> Más información: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_wait>.
 
 - Espera a que un despliegue esté disponible:
 

@@ -449,11 +449,12 @@ Try to keep the following order:
 - Program name
 - Input redirection from a file
 - All subcommands
-- Options/Flags
 - Positional arguments/Packages/Data/...
+- Option flags
+- Options with arguments
 - Output redirection to a file
 
-For example: `systemctl < input_file.txt status --user pipewire > output_file.txt`
+For example: `systemctl < input_file.txt status pipewire --user > output_file.txt`
 
 This is only a suggestion and should be disregarded when program functionality or readability dictates otherwise.
 
