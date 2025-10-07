@@ -26,4 +26,4 @@
 
 - Mostra as últimas 'num' linhas de um arquivo e atualiza a cada 'n' segundos:
 
-`tail [-n|--lines] {{contagem}} [-s|--sleep-interval] {{segundos}} [-f|--follow] {{caminho/para/arquivo}}`
+`tail {{[-n|--lines]}} {{contagem}} [-s|--sleep-interval] {{segundos}} [-f|--follow] {{caminho/para/arquivo}}`
