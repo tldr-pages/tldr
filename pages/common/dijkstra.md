@@ -11,7 +11,7 @@
 
 `dijkstra -d {{source_node file}}`
 
-- Set each node reachable from source_node to it's distance from the source_node:
+- Set each node reachable from source_node to it's distance from the `source_node`:
 
 `dijkstra -p {{source_node file}}`
 
