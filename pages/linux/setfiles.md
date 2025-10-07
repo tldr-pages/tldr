@@ -11,16 +11,16 @@
 
 - Set file contexts recursively and show changes:
 
-`sudo setfiles {{[-v|--verbose]}} /etc/selinux/targeted/contexts/files/file_contexts {{path/to/directory}}`
+`sudo setfiles /etc/selinux/targeted/contexts/files/file_contexts {{path/to/directory}} {{[-v|--verbose]}}`
 
 - Preview what would be changed without actually modifying contexts:
 
-`sudo setfiles {{[-n|--nochange]}} /etc/selinux/targeted/contexts/files/file_contexts {{path/to/directory}}`
+`sudo setfiles /etc/selinux/targeted/contexts/files/file_contexts {{path/to/directory}} {{[-n|--nochange]}}`
 
 - Set file contexts and verify them:
 
-`sudo setfiles {{[-v|--verbose]}} {{[-F|--force]}} /etc/selinux/targeted/contexts/files/file_contexts {{path/to/directory}}`
+`sudo setfiles /etc/selinux/targeted/contexts/files/file_contexts {{path/to/directory}} {{[-v|--verbose]}} {{[-F|--force]}}`
 
 - Use a specific root path for context matching:
 
-`sudo setfiles {{[-r|--rootpath]}} {{path/to/old_directory}} /etc/selinux/targeted/contexts/files/file_contexts {{path/to/new_directory}}`
+`sudo setfiles /etc/selinux/targeted/contexts/files/file_contexts {{path/to/new_directory}} {{[-r|--rootpath]}} {{path/to/old_directory}}`
