@@ -26,7 +26,7 @@
 
 - Compare specific files or directories only:
 
-`npm diff --diff {{package_name}}@{{version1}} --diff {{package_name}}@{{version2}} {{path/to/file_or_directory}}`
+`npm diff {{path/to/file_or_directory}} --diff {{package_name}}@{{version1}} --diff {{package_name}}@{{version2}}`
 
 - Ignore whitespace when comparing:
 
