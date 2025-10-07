@@ -11,7 +11,7 @@
 
 `dijkstra -d {{source_node file}}`
 
-- Set each node reachable from source_node to it's distance from the `source_node`:
+- Record the [p]revious closest node for each node on the shortest path:
 
 `dijkstra -p {{source_node file}}`
 
