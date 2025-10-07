@@ -1,7 +1,6 @@
 # gh pr checks
 
 > View CI checks for a GitHub pull request.
-> Part of the GitHub CLI: `gh`.
 > More information: <https://cli.github.com/manual/gh_pr_checks>.
 
 - Show checks for the pull request of the current branch:
