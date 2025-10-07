@@ -26,5 +26,3 @@
 - Print the supported API resources with a specific API group:
 
 `kubectl api-resources --api-group {{api_group}}`
-
-
