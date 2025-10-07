@@ -9,15 +9,15 @@
 
 - List outdated packages that can be upgraded:
 
-`pip list --outdated`
+`pip list {{[-o|--outdated]}}`
 
 - List up-to-date packages:
 
-`pip list --uptodate`
+`pip list {{[-u|--uptodate]}}`
 
 - List packages with JSON formatting:
 
-`pip list --format=json`
+`pip list --format json`
 
 - List packages that are not required by other packages:
 
@@ -33,4 +33,4 @@
 
 - List packages in freeze format (unlike `pip freeze`, does not show editable install information):
 
-`pip list --format=freeze`
+`pip list --format freeze`
