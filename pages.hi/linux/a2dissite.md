@@ -1,7 +1,7 @@
 # `a2dissite`
 
 > Debian-आधारित ऑपरेटिंग सिस्टम्स पर Apache वर्चुअल होस्ट को निष्क्रिय (Disable) करने के लिए उपयोग किया जाता है। 
-> अधिक जानकारी: [https://manned.org/a2dissite.8](https://manned.org/a2dissite.8)
+> अधिक जानकारी: <https://manned.org/a2dissite.8>.
 
 - किसी वर्चुअल होस्ट को निष्क्रिय करने के लिए:
 
