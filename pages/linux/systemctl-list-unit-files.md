@@ -18,7 +18,7 @@
 
 - Filter by a name pattern:
 
-`systemctl list-unit-files 'sshd*'`
+`systemctl list-unit-files '{{sshd*}}'`
 
 - Print output directly to `stdout`:
 
