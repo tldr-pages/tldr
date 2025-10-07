@@ -13,8 +13,8 @@
 
 - Specify which directories (or files) to include:
 
-`git sparse-checkout set {{path/to/folder}}`
+`git sparse-checkout set {{path/to/directory}}`
 
 - Add more paths later:
 
-`git sparse-checkout add {{path/to/folder}}`
+`git sparse-checkout add {{path/to/directory}}`
