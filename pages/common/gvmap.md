@@ -15,7 +15,7 @@
 
 `gvmap -e {{graph.gv}} -o {{output.xdot}}`
 
-- Specify a color scheme (1: pastel, 2: blue-yellow, 3: white-red, etc.):
+- Specify a [c]olor scheme (1: pastel, 2: blue-yellow, 3: white-red, etc.):
 
 `gvmap -c {{2}} {{graph.gv}} -o {{output.xdot}}`
 
