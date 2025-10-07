@@ -15,6 +15,6 @@
 
 `gvedit -v {{path/to/graph.gv}}`
 
-- Display usage information:
+- Display help:
 
 `gvedit -?`
