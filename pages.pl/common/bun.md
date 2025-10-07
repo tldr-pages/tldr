@@ -2,7 +2,7 @@
 
 > Środowisko uruchomieniowe JavaScript i zestaw narzędzi.
 > Zawiera kompilator, narzędzie do uruchamiania testów i menadżera pakietów.
-> Więcej informacji: <https://bun.sh>.
+> Więcej informacji: <https://bun.com/docs>.
 
 - Uruchom plik JavaScript lub skrypt `package.json`:
 
