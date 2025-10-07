@@ -1,6 +1,7 @@
 # clang-check
 
-> A tool for basic error checking and working with Clang's Abstract Syntax Tree (AST). It is part of Clang's LibTooling and is useful for debugging and analyzing C/C++ code.
+> Check basic erros and work with Clang's Abstract Syntax Tree (AST).
+> Part of Clang's LibTooling and is useful for debugging and analyzing C/C++ code.
 > More information: <https://clang.llvm.org/docs/ClangCheck.html>.
 
 - Run default checks on a source file:
