@@ -6,7 +6,7 @@
 
 - Mostra as últimas 'contagem' linhas de um arquivo:
 
-`tail [-n|--lines] {{contagem}} {{caminho/para/arquivo}}`
+`tail {{[-n|--lines]}} {{contagem}} {{caminho/para/arquivo}}`
 
 - Exibe um arquivo a partir de um número de linha específico:
 
