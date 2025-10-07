@@ -11,19 +11,19 @@
 
 `gvgen -g {{4,3}}`
 
-- Generate a binary tree of height 5:
+- Generate a binary [t]ree of height 5:
 
 `gvgen -t {{5}}`
 
-- Generate a complete bipartite graph with 3 and 4 vertices:
+- Generate a complete [b]ipartite graph with 3 and 4 vertices:
 
 `gvgen -b {{3,4}}`
 
-- Create a random graph and write it to a file:
+- Create a [r]andom graph and [o]utput it to a file:
 
 `gvgen -r {{10,5}} -o {{random.gv}}`
 
-- Generate a directed graph with verbose output:
+- Generate a [d]irected graph with [v]erbose output:
 
 `gvgen -d -v -c {{6}}`
 
