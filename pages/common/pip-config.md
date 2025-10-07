@@ -13,20 +13,20 @@
 
 - Set the value for a command option:
 
-`pip config {{--global|--user|--site}} set {{command.option}} {{value}}`
+`pip config set {{command.option}} {{value}} {{--global|--user|--site}}`
 
 - Get the value for a command option:
 
-`pip config {{--global|--user|--site}} get {{command.option}}`
+`pip config get {{command.option}} {{--global|--user|--site}}`
 
 - Unset the value for a command option:
 
-`pip config {{--global|--user|--site}} unset {{command.option}}`
+`pip config unset {{command.option}} {{--global|--user|--site}}`
 
 - Edit the configuration file with the default editor:
 
-`pip config {{--global|--user|--site}} edit`
+`pip config edit {{--global|--user|--site}}`
 
 - Edit the configuration file with a specific editor:
 
-`pip config {{--global|--user|--site}} --editor {{path/to/editor/binary}} edit`
+`pip config edit {{--global|--user|--site}} --editor {{path/to/editor/binary}}`
