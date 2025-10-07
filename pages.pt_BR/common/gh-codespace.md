@@ -5,32 +5,32 @@
 
 - Cria um codespace no GitHub interativamente:
 
-`gh codespace create`
+`gh {{[cs|codespace]}} create`
 
 - Lista todos os codespaces disponíveis:
 
-`gh codespace list`
+`gh {{[cs|codespace]}} {{[ls|list]}}`
 
 - Conecta a um codespace via SSH interativamente:
 
-`gh codespace ssh`
+`gh {{[cs|codespace]}} ssh`
 
 - Transfere um arquivo específico para um codespace interativamente:
 
-`gh codespace cp {{caminho/para/arquivo_fonte}} remote:{{caminho/para/arquivo_remoto}}`
+`gh {{[cs|codespace]}} cp {{caminho/para/arquivo_fonte}} remote:{{caminho/para/arquivo_remoto}}`
 
 - Lista os ports de um codespace interativamente:
 
-`gh codespace ports`
+`gh {{[cs|codespace]}} ports`
 
 - Exibe os registros de um codespace interativamente:
 
-`gh codespace logs`
+`gh {{[cs|codespace]}} logs`
 
 - Exclui um codespace interativamente:
 
-`gh codespace delete`
+`gh {{[cs|codespace]}} delete`
 
 - Exibe ajuda para um subcomando:
 
-`gh codespace {{code|cp|create|delete|edit|...}} --help`
+`gh {{[cs|codespace]}} {{code|cp|create|delete|edit|...}} {{[-h|--help]}}`

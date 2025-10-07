@@ -2,7 +2,7 @@
 
 > Affiche / manipule l'adressage, le routage, les interfaces et périphériques réseau, les règles de routage et les tunnels.
 > Certaines commandes comme `address` ont leur propre documentation.
-> Plus d'informations : <https://www.manned.org/ip.8>.
+> Plus d'informations : <https://manned.org/ip.8>.
 
 - Liste les interfaces avec des infos détaillées :
 

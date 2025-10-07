@@ -14,7 +14,7 @@
 
 - Bir dosyanın kısımlarını geri al:
 
-`git reset --patch {{dosya/konumu}}`
+`git reset {{[-p|--patch]}} {{dosya/konumu}}`
 
 - Son commit'i, dosya sisteminde yapılan değişiklikleri geri almadan geri al:
 

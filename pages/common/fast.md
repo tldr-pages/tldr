@@ -14,3 +14,7 @@
 - Display results on a single line to reduce spacing:
 
 `fast --single-line`
+
+- Display complete results - download/upload speeds, latency, and ISP info:
+
+`fast --verbose`

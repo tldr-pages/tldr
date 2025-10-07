@@ -2,7 +2,7 @@
 
 > Store your shell history in a searchable database.
 > Optionally sync your encrypted history between machines.
-> More information: <https://atuin.sh/docs/commands>.
+> More information: <https://docs.atuin.sh/>.
 
 - Install atuin into your shell:
 

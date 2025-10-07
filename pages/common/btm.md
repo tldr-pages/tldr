@@ -1,8 +1,9 @@
 # btm
 
-> An alternative to `top`.
-> Aims to be lightweight, cross-platform and more graphical than `top`.
-> More information: <https://github.com/ClementTsang/bottom>.
+> Display system information about the CPU, memory, disks, network and processes.
+> An enhanced alternative to `top`.
+> See also: `btop`, `glances`, `atop`, `htop`, `top`.
+> More information: <https://clementtsang.github.io/bottom/nightly/#usage-and-configuration>.
 
 - Show the default layout (CPU, memory, temperatures, disk, network, and processes):
 
@@ -10,11 +11,11 @@
 
 - Enable basic mode, removing charts and condensing data (similar to `top`):
 
-`btm --basic`
+`btm {{[-b|--basic]}}`
 
 - Use big dots instead of small ones in charts:
 
-`btm --dot_marker`
+`btm {{[-m|--dot_marker]}}`
 
 - Show also battery charge and health status:
 
@@ -22,4 +23,4 @@
 
 - Refresh every 250 milliseconds and show the last 30 seconds in the charts:
 
-`btm --rate 250 --default_time_value 30000`
+`btm {{[-r|--rate]}} 250 {{[-t|--default_time_value]}} 30000`

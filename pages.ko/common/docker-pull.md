@@ -9,11 +9,11 @@
 
 - 조용한 모드로 특정 Docker 이미지 다운로드:
 
-`docker pull --quiet {{이미지}}:{{태그}}`
+`docker pull {{[-q|--quiet]}} {{이미지}}:{{태그}}`
 
 - 특정 Docker 이미지의 모든 태그 다운로드:
 
-`docker pull --all-tags {{이미지}}`
+`docker pull {{[-a|--all-tags]}} {{이미지}}`
 
 - 특정 플랫폼의 Docker 이미지 다운로드 (예: linux/amd64):
 
@@ -21,4 +21,4 @@
 
 - 도움말 표시:
 
-`docker pull --help`
+`docker pull {{[-h|--help]}}`

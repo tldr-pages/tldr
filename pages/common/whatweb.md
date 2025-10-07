@@ -1,7 +1,7 @@
 # whatweb
 
 > Next-generation web scanner.
-> More information: <https://morningstarsecurity.com/research/whatweb>.
+> More information: <https://github.com/urbanadventurer/WhatWeb/>.
 
 - Scan websites/targets for web technologies:
 

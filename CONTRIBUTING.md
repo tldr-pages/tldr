@@ -74,6 +74,7 @@ The `pages` directory and `pages.*` language-specific directories contain the pl
 
 - `android`: Android
 - `cisco-ios`: Cisco IOS
+- `dos`: MS-DOS/DOSBox/FreeDOS
 - `freebsd`: FreeBSD
 - `openbsd`: OpenBSD
 - `osx`: OSX/Mac OS/macOS (will be replaced by `macos`)

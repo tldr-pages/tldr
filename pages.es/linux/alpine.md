@@ -14,4 +14,4 @@
 
 - Sale de alpine:
 
-`q + y`
+`<q><y>`

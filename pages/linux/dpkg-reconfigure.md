@@ -10,3 +10,7 @@
 - Reconfigure console font setup:
 
 `dpkg-reconfigure console-setup`
+
+- Reconfigure the timezone:
+
+`dpkg-reconfigure tzdata`

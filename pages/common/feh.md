@@ -11,6 +11,10 @@
 
 `feh {{[-r|--recursive]}} {{path/to/images}}`
 
+- View images and display the file name at the top-left of the images:
+
+`feh {{[-d|--draw-filename]}} {{path/to/images}}`
+
 - View images without window borders:
 
 `feh {{[-x|--borderless]}} {{path/to/images}}`
