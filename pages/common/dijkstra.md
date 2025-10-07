@@ -15,6 +15,6 @@
 
 `dijkstra -p {{source_node file}}`
 
-- Assign large distance values to unreachable nodes:
+- [a]ssign large distance values to unreachable nodes:
 
 `dijkstra -a {{source_node file}}`
