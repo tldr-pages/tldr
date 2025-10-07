@@ -14,4 +14,4 @@
 
 - Restart a user unit:
 
-`systemctl restart --user {{unit}}`
+`systemctl restart {{unit}} --user`

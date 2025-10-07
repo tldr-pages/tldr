@@ -14,4 +14,4 @@
 
 - Reload a service for the current user:
 
-`systemctl --user reload {{pipewire}}`
+`systemctl reload {{pipewire}} --user`
