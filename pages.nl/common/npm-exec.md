@@ -7,7 +7,7 @@
 
 `npm {{[x|exec]}} {{commando}} {{argument1 argument2 ...}}`
 
-- Specificeer het pakket expliciet (handig als er meerdere commando's dezelfde naam hebben):
+- Specificeer het pakket expliciet (handig als meerdere commando's dezelfde naam hebben):
 
 `npm {{[x|exec]}} --package {{pakket}} {{commando}}`
 
