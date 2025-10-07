@@ -27,4 +27,4 @@
 
 - Enable restorecond to start at boot:
 
-`sudo systemctl enable --now restorecond`
+`sudo systemctl enable restorecond --now`
