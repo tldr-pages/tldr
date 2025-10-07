@@ -10,7 +10,7 @@
 
 - Exibe um arquivo a partir de um número de linha específico:
 
-`tail [-n|--lines] +{{contagem}} {{caminho/para/arquivo}}`
+`tail {{[-n|--lines]}} +{{contagem}} {{caminho/para/arquivo}}`
 
 - Mostra uma quantidade específica de bytes a partir do final de um arquivo:
 
