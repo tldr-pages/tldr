@@ -23,7 +23,7 @@
 
 `grub-mkrescue --modules "{{part_gpt iso9660}}" --output {{grub.iso}} {{path/to/source}}`
 
-- Pass additional options directly to xorriso:
+- Pass additional options directly to `xorriso`:
 
 `grub-mkrescue --output {{grub.iso}} -- {{-volid}} {{volume_name}} {{path/to/source}}`
 
