@@ -16,6 +16,6 @@
 
 `dotty -lmmode {{sync|async}} {{path/to/graph.gv}}`
 
-- Set the message verbosity level (`0` for minimal, `1` for detailed):
+- Set the m[e]ssage verbosity [l]evel (`0` for minimal, `1` for detailed):
 
 `dotty -ellev {{1}} {{path/to/graph.gv}}`
