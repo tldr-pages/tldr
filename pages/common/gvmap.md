@@ -19,7 +19,7 @@
 
 `gvmap -c {{2}} {{graph.gv}} -o {{output.xdot}}`
 
-- Set the maximum number of clusters (by default 0, meaning there is no limit):
+- Set the maximum number of [C]lusters (by default 0, meaning there is no limit):
 
 `gvmap -C {{10}} {{graph.gv}} -o {{output.xdot}}`
 
