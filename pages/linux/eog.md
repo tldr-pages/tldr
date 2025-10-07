@@ -1,6 +1,6 @@
 # eog
 
-> Open and view images using the Eye of GNOME image viewer.
+> Open and view images.
 
 - Open an image file:
 
