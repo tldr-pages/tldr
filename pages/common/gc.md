@@ -12,7 +12,7 @@
 
 `gc -n {{path/to/file.dot}}`
 
-- Count only edges:
+- Count only [e]dges:
 
 `gc -e {{path/to/file.dot}}`
 
