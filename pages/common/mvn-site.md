@@ -9,7 +9,7 @@
 
 - Generate a site for a specific Maven project (multi-module build):
 
-`mvn site -pl {{module_name}}`
+`mvn site {{[-pl|--projects]}} {{module_name}}`
 
 - Clean previous site output before generating a new one:
 
