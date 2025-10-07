@@ -10,7 +10,7 @@
 
 - Usa autenticación pass-the-hash:
 
-`GetUserSPNs.py {{dominio}}/{nombre_usuario}} -hashes {{LM_Hash}}:{{NT_Hash}} -dc-ip {{domain_controller_ip}}`.
+`GetUserSPNs.py {{dominio}}/{nombre_usuario}} -hashes {{LM_Hash}}:{{NT_Hash}} -dc-ip {{domain_controller_ip}}`
 
 - Guarda el resultado en un archivo:
 
