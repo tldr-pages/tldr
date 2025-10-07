@@ -9,12 +9,12 @@
 
 - Skip tests during installation:
 
-`mvn install -DskipTests`
+`mvn install {{[-D|--define]}} skipTests`
 
 - Force update of dependencies before installing:
 
-`mvn install -U`
+`mvn install {{[-U|--update-snapshots]}}`
 
 - Skip test compilation and execution:
 
-`mvn install -Dmaven.test.skip=true`
+`mvn install {{[-D|--define]}} maven.test.skip=true`
