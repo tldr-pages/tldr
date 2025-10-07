@@ -24,7 +24,7 @@
 
 `pip freeze > {{requirements.txt}}`
 
-- List installed packages: 
+- List installed packages:
 
 `pip list`
 
