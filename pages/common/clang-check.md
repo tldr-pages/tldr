@@ -1,6 +1,6 @@
 # clang-check
 
-> Check basic erros and work with Clang's Abstract Syntax Tree (AST).
+> Check basic errors and work with Clang's Abstract Syntax Tree (AST).
 > Part of Clang's LibTooling and is useful for debugging and analyzing C/C++ code.
 > More information: <https://manned.org/clang-check>.
 
