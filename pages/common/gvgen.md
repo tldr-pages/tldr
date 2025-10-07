@@ -7,7 +7,7 @@
 
 `gvgen -c {{10}}`
 
-- Generate a 4×3 grid:
+- Generate a 4×3 [g]rid:
 
 `gvgen -g {{4,3}}`
 
