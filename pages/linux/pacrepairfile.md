@@ -3,9 +3,9 @@
 > Reset properties on files managed by alpm.
 > More information: <https://github.com/andrewgregory/pacutils/blob/master/doc/pacrepairfile.pod>.
 
-- Search for the package that owns a given file:
+- Search for the package and reset the properties of a file:
 
-`pacrepairfile {{file_path}} --package`
+`pacrepairfile {{path/to/file}} --package`
 
 - Reset a File Quietly:
 
