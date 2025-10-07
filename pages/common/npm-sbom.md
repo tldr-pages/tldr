@@ -9,7 +9,7 @@
 
 - Exclude both `dev` and `optional` dependencies:
 
-`npm sbom --omit=dev --omit=optional`
+`npm sbom --omit dev --omit optional`
 
 - Generate an SBOM based only on the `package-lock.json`:
 
