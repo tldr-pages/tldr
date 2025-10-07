@@ -1,21 +1,21 @@
 # choco
 
-> Interfejs wiersza polecenia dla menadżera pakietów Chocolatey.
+> Menedżer pakietów Chocolatey.
 > Niektóre podkomendy takie jak `install` posiadają osobną dokumentację.
-> Więcej informacji: <https://chocolatey.org>.
+> Więcej informacji: <https://docs.chocolatey.org/en-us/choco/commands/>.
 
-- Wykonanie podkomendy:
+- Uruchom podkomendę Chocolatey:
 
 `choco {{komenda}}`
 
-- Wyświetlenie ogólnej pomocy:
+- Wyświetl pomoc:
 
-`choco -?`
+`choco {{[-h|--help]}}`
 
-- Wyświetlenie pomocy dla konkretnej podkomendy:
+- Wyświetl pomoc dla podanej podkomendy:
 
-`choco {{komenda}} -?`
+`choco {{komenda}} {{[-h|--help]}}`
 
-- Wyświetlenie zainstalowanej wersji Chocolatey:
+- Wyświetl wersję:
 
 `choco --version`
