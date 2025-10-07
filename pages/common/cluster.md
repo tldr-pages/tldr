@@ -7,7 +7,7 @@
 
 `cluster {{input.gv}}`
 
-- Specify a target number of clusters (approximate) to generate (0 by default):
+- Specify a target number of [C]lusters (approximate) to generate (0 by default):
 
 `cluster -C {{5}} {{input.gv}}`
 
