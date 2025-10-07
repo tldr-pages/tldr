@@ -1,7 +1,6 @@
 # dotty
 
 > A customizable interactive graph editor for the X Window System.
-> Built on top of `dot` and `lefty`, it allows viewing and editing of graphs visually.
 > Note: The dotty tool has been depracated, but this entry is retained to aid anyone still using it.
 > More information: <https://graphviz.org/pdf/dotty.1.pdf>.
 
