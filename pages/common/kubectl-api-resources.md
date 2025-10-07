@@ -1,7 +1,7 @@
 # kubectl api-resources
 
 > Print the supported API resources on the server.
-> More information: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#api-resources>.
+> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_api-resources>.
 
 - Print the supported API resources:
 
@@ -25,4 +25,4 @@
 
 - Print the supported API resources with a specific API group:
 
-`kubectl api-resources --api-group={{api_group}}`
+`kubectl api-resources --api-group {{api_group}}`

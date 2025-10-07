@@ -6,12 +6,12 @@
 
 - Lösche alle Speicherpfade, die von den aktuellen Generationen der einzelnen Profile nicht verwendet werden:
 
-`sudo nix-collect-garbage --delete-old`
+`nix-collect-garbage --delete-old`
 
 - Simuliere die Löschung alter Speicherpfade:
 
-`sudo nix-collect-garbage --delete-old --dry-run`
+`nix-collect-garbage --delete-old --dry-run`
 
 - Lösche alle Speicherpfade, die älter als 30 Tage sind:
 
-`sudo nix-collect-garbage --delete-older-than 30d`
+`nix-collect-garbage --delete-older-than 30d`

@@ -2,6 +2,7 @@
 
 > Transfers data from or to a server.
 > Supports most protocols, including HTTP, HTTPS, FTP, SCP, etc.
+> See also: `wget`.
 > More information: <https://curl.se/docs/manpage.html>.
 
 - Make an HTTP GET request and dump the contents in `stdout`:
@@ -28,7 +29,7 @@
 
 `curl {{[-d|--data]}} {{'{"name":"bob"}'}} {{[-H|--header]}} {{'Content-Type: application/json'}} {{http://example.com/users/1234}}`
 
-- Pass client certificate and key for a resource, skipping certificate validation:
+- Pass client certificate and private key for the request, skipping certificate validation:
 
 `curl {{[-E|--cert]}} {{client.pem}} --key {{key.pem}} {{[-k|--insecure]}} {{https://example.com}}`
 

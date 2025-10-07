@@ -6,12 +6,12 @@
 
 - 각 프로필의 현재 세대에서 사용되지 않는 모든 저장소 경로 삭제:
 
-`sudo nix-collect-garbage --delete-old`
+`nix-collect-garbage --delete-old`
 
 - 오래된 저장소 경로 삭제 시뮬레이션:
 
-`sudo nix-collect-garbage --delete-old --dry-run`
+`nix-collect-garbage --delete-old --dry-run`
 
 - 30일보다 오래된 모든 저장소 경로 삭제:
 
-`sudo nix-collect-garbage --delete-older-than 30d`
+`nix-collect-garbage --delete-older-than 30d`
