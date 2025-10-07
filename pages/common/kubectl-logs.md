@@ -21,12 +21,12 @@
 
 - Show pod logs newer than a relative time like `10s`, `5m`, or `1h`:
 
-`kubectl logs --since={{relative_time}} {{pod_name}}`
+`kubectl logs --since {{relative_time}} {{pod_name}}`
 
 - Show the 10 most recent logs in a pod:
 
-`kubectl logs --tail={{10}} {{pod_name}}`
+`kubectl logs --tail {{10}} {{pod_name}}`
 
 - Show all pod logs for a given deployment:
 
-`kubectl logs deployment/{{deployment_name}}`
+`kubectl logs {{[deploy|deployment]}}/{{deployment_name}}`
