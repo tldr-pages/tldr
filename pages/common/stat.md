@@ -7,7 +7,7 @@
 
 `stat {{path/to/file}}`
 
-- Display properties about a specific file such as size, permissions, creation and access dates among others without labels:
+- Display properties about a specific file, only showing the raw result data without labels:
 
 `stat {{[-t|--terse]}} {{path/to/file}}`
 
