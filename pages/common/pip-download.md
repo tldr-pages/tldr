@@ -13,12 +13,12 @@
 
 - Download a package and its dependencies to a specific directory:
 
-`pip download {{[-d|--dest]}} {{path/to/directory}} {{package}}`
+`pip download {{package}} {{[-d|--dest]}} {{path/to/directory}}`
 
 - Download a package for a specific platform and Python version:
 
-`pip download --only-binary :all: --platform {{platform}} --python-version {{version}} {{package}}`
+`pip download {{package}} --only-binary :all: --platform {{platform}} --python-version {{version}}`
 
 - Download a package from a specific index URL:
 
-`pip download {{[-i|--index-url]}} {{url}} {{package}}`
+`pip download {{package}} {{[-i|--index-url]}} {{url}}`
