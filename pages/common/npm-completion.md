@@ -7,7 +7,7 @@
 
 `npm completion`
 
-- Add completion to your shell profile (bash):
+- Add completion to your shell profile (Bash):
 
 `npm completion >> ~/.bashrc`
 
