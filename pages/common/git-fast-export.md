@@ -1,6 +1,6 @@
 # git fast-export
 
-> Exports the contents and history of a Git repository in a streamable, plain-text format.
+> Export the contents and history of a Git repository in a streamable, plain-text format.
 > More information: <https://manned.org/git-fast-export>.
 
 - Export the entire Git repository history to `stdout`:
