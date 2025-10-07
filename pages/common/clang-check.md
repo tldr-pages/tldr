@@ -2,7 +2,7 @@
 
 > Check basic erros and work with Clang's Abstract Syntax Tree (AST).
 > Part of Clang's LibTooling and is useful for debugging and analyzing C/C++ code.
-> More information: <https://clang.llvm.org/docs/ClangCheck.html>.
+> More information: <https://manned.org/clang-check>.
 
 - Run default checks on a source file:
 
