@@ -8,7 +8,7 @@
 
 `gc {{path/to/file.dot}}`
 
-- Count only nodes:
+- Count only [n]odes:
 
 `gc -n {{path/to/file.dot}}`
 
