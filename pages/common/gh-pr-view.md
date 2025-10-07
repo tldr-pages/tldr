@@ -1,7 +1,6 @@
 # gh pr view
 
 > View details of a GitHub pull request.
-> Part of the GitHub CLI: `gh`.
 > More information: <https://cli.github.com/manual/gh_pr_view>.
 
 - View the pull request associated with the current branch:
@@ -14,12 +13,8 @@
 
 - Open the pull request in the default web browser:
 
-`gh pr view --web`
-
-- Show changed files:
-
-`gh pr view {{123}} --files`
+`gh pr view {{[-w|--web]}}`
 
 - Show comments in the terminal:
 
-`gh pr view {{123}} --comments`
+`gh pr view {{123}} {{[-c|--comments]}}`
