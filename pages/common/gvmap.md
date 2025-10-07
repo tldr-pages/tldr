@@ -11,7 +11,7 @@
 
 `gvmap -D {{graph.gv}}`
 
-- Include graph edges in the output map:
+- Include graph edges in the [o]utput map:
 
 `gvmap -e {{graph.gv}} -o {{output.xdot}}`
 
