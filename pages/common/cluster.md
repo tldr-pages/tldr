@@ -15,7 +15,7 @@
 
 `cluster -c {{1}} {{input.gv}}`
 
-- Save the output to a file:
+- Save the [o]utput to a file:
 
 `cluster -o {{output.gv}} {{input.gv}}`
 
