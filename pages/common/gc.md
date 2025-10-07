@@ -1,4 +1,3 @@
-
 # gc
 
 > Count nodes, edges, connected components, or clusters in Graphviz `.dot` files.
