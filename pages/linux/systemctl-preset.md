@@ -8,9 +8,17 @@
 
 `systemctl preset {{unit1 unit2 ...}}`
 
-- Control how presets are applied:
+- Enable and disable units according to preset policy:
 
-`systemctl preset {{unit}} --preset-mode {{full|enable-only|disable-only}}`
+`systemctl preset {{unit}} --preset-mode full`
+
+- Enable only if marked as enabled in the preset policy:
+
+`systemctl preset {{unit}} --preset-mode enable-only`
+
+- Disable only if marked as disabled in the preset policy:
+
+`systemctl preset {{unit}} --preset-mode disable-only`
 
 - Suppress output and return only the exit code:
 
