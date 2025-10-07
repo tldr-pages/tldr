@@ -12,7 +12,7 @@
 
 `dotty -V`
 
-- Set the layout mode to synchronous (`sync`) or asynchronous (`async`):
+- Set the [l]ayout [m]ode to synchronous or asynchronous:
 
 `dotty -lmmode {{sync|async}} {{path/to/graph.gv}}`
 
