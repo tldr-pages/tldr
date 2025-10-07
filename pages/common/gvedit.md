@@ -11,7 +11,7 @@
 
 `gvedit -s {{path/to/graph.gv}}`
 
-- Enable verbose mode:
+- Enable [v]erbose mode:
 
 `gvedit -v {{path/to/graph.gv}}`
 
