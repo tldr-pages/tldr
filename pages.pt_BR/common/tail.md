@@ -18,7 +18,7 @@
 
 - Exibe as últimas linhas de um arquivo e continua lendo até pressionar `<Ctrl c>`:
 
-`tail [-f|--follow] {{caminho/para/arquivo}}`
+`tail {{[-f|--follow]}} {{caminho/para/arquivo}}`
 
 - Continua lendo um arquivo até `<Ctrl c>`, mesmo que ele fique inacessível:
 
