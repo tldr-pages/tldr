@@ -19,6 +19,6 @@
 
 `cluster -o {{output.gv}} {{input.gv}}`
 
-- Enable verbose mode:
+- Enable [v]erbose mode:
 
 `cluster -v {{input.gv}}`
