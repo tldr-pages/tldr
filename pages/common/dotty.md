@@ -8,7 +8,7 @@
 
 `dotty {{path/to/graph.gv}}`
 
-- Start Dotty with the version information displayed:
+- Start Dotty with the [V]ersion information displayed:
 
 `dotty -V`
 
