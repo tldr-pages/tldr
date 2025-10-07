@@ -14,4 +14,4 @@
 
 - Suppress output and return only the exit code:
 
-`systemctl preset {{unit}} --quiet`
+`systemctl preset {{unit}} {{[-q|--quiet]}}`
