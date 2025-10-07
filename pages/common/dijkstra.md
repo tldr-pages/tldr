@@ -7,7 +7,7 @@
 
 `dijkstra {{source_node file}}`
 
-- Treat the graph as directed when computing distances:
+- Treat the graph as [d]irected when computing distances:
 
 `dijkstra -d {{source_node file}}`
 
