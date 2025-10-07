@@ -19,7 +19,7 @@ This section contains a summary of the scripts available in this directory. For 
 - [set-more-info-link.py](set-more-info-link.py) is a Python script to generate or update more information links across pages.
 - [set-page-title.py](set-page-title.py) is a Python script to update the title across pages.
 - [test.sh](test.sh) script runs some basic tests on every PR/commit to ensure the pages are valid and the code is formatted correctly.
-- [wrong-filename.sh](wrong-filename.sh) script checks the consistency between the filenames and the page title.
+- [wrong-filename.py](wrong-filename.py) script checks the consistency between the filenames and the page title.
 - [update-command.py](update-command.py) is a Python script to update the common contents of a command example across all languages.
 
 ## Compatibility
@@ -34,5 +34,5 @@ The table below shows the compatibility of user-executable scripts with differen
 | [set-alias-pages.py](set-alias-pages.py) | ✅ | ✅ | ✅ |
 | [set-more-info-link.py](set-more-info-link.py) | ✅ | ✅ | ✅ |
 | [set-page-title.py](set-page-title.py) | ✅ | ✅ | ✅ |
-| [wrong-filename.sh](wrong-filename.sh) | ✅ | ❌ | ❌ (WSL ✅)|
+| [wrong-filename.py](wrong-filename.py) | ✅ | ✅ | ✅ |
 | [update-command.py](update-command.py) | ✅ | ✅ | ✅ |

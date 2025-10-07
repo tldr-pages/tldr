@@ -5,7 +5,7 @@
 
 - Edit a pod in the default namespace:
 
-`kubectl edit {{[po|pod]}}/{{pod_name}}`
+`kubectl edit {{[po|pods]}}/{{pod_name}}`
 
 - Edit a deployment in the default namespace:
 

@@ -18,7 +18,7 @@
 
 - Display resource (CPU/Memory/Storage) usage of nodes or pods:
 
-`kubectl top {{pod|node}}`
+`kubectl top {{pods|node}}`
 
 - Print the address of the master and cluster services:
 
