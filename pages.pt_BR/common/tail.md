@@ -14,7 +14,7 @@
 
 - Mostra uma quantidade específica de bytes a partir do final de um arquivo:
 
-`tail [-c|--bytes] {{contagem}} {{caminho/para/arquivo}}`
+`tail {{[-c|--bytes]}} {{contagem}} {{caminho/para/arquivo}}`
 
 - Exibe as últimas linhas de um arquivo e continua lendo até pressionar `<Ctrl c>`:
 
