@@ -17,7 +17,7 @@
 
 `sudo audit2allow {{[-a|--all]}} {{[-M|--module]}} {{module_name}}`
 
-- Explain why SELinux denials occurred (audit2why):
+- Explain why SELinux denials occurred (same as `audit2why`):
 
 `sudo audit2allow {{[-a|--all]}} --why`
 
