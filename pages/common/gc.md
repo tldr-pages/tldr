@@ -16,7 +16,7 @@
 
 `gc -e {{path/to/file.dot}}`
 
-- Count connected components:
+- Count [c]onnected components:
 
 `gc -c {{path/to/file.dot}}`
 
