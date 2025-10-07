@@ -14,8 +14,8 @@
 
 - Set the [l]ayout [m]ode to synchronous or asynchronous:
 
-`dotty -lmmode {{sync|async}} {{path/to/graph.gv}}`
+`dotty -lm {{sync|async}} {{path/to/graph.gv}}`
 
 - Set the m[e]ssage verbosity [l]evel (`0` for minimal, `1` for detailed):
 
-`dotty -ellev {{1}} {{path/to/graph.gv}}`
+`dotty -el {{0|1}} {{path/to/graph.gv}}`
