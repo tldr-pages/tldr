@@ -3,7 +3,7 @@
 > Install and manage ESP-IDF.
 > More information: <https://docs.espressif.com/projects/idf-im-ui/en/latest/cli_commands.html>.
 
-- Install the default (latest) ESP-IDF version on default location (`C:\esp` on Windows and `~/.espressif` on POSIX systems):
+- Install the default (latest) ESP-IDF version in the default location (`C:\esp` on Windows and `~/.espressif` on POSIX systems):
 
 `eim install`
 
