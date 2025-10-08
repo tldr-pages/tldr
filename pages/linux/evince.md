@@ -9,7 +9,7 @@
 
 - Open multiple documents:
 
-`evince {{file1.pdf}} {{file2.pdf}}`
+`evince {{file1.pdf file2.pdf ...}}`
 
 - Open in fullscreen mode:
 
