@@ -1,7 +1,7 @@
 # pyats
 
 > Cisco's vendor-agnostic test automation framework for network and systems validation.
-> More information: <https://developer.cisco.com/pyats/>.
+> More information: <https://developer.cisco.com/docs/pyats/api/>.
 
 - Run a test job from a Python file:
 
