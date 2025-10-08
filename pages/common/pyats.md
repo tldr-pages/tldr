@@ -1,20 +1,24 @@
 # pyats
 
-> A vendor agnostic test automation framework by Cisco Systems, used for network and systems testing.
+> Cisco's vendor-agnostic test automation framework for network and systems validation.
 > More information: <https://developer.cisco.com/pyats/>.
 
-- Run a `pyATS` subcommand:
+- Run a test job from a Python file:
 
-`pyats {{subcommand}}`
+  `pyats run job {{path/to/job_file.py}}`
 
-- Display help:
+- Parse the output of a show command from a device:
 
-`pyats --help`
+  `pyats parse "show version" --testbed {{path/to/testbed.yaml}}`
 
-- Display help about a specific subcommand:
+- List all available parsers or testbeds:
 
-`pyats {{subcommand}} --help`
+  `pyats list`
 
-- Display version:
+- Check the current version:
 
-`pyats version check`
+  `pyats version check`
+
+- Display help for a subcommand:
+
+  `pyats {{subcommand}} --help`
