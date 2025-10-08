@@ -1,7 +1,7 @@
 # mvn site
 
 > Generate a project website based on the information in the `pom.xml` file.
-> More information: <https://maven.apache.org/plugins/maven-site-plugin/>.
+> More information: <https://manned.org/mvn>.
 
 - Generate a project site using the site plugin:
 
