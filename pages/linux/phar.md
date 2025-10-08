@@ -31,6 +31,6 @@
 
 `phar sign -f {{path/to/phar_file}} -h openssl -y {{path/to/private_key}}`
 
-- Display help and available hashing/compression algorithms:
+- Display help:
 
 `phar help`
