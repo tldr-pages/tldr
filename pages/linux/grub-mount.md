@@ -9,28 +9,28 @@
 
 - Mount an entire disk image's second partition, `-r` specifies the partition number in the image:
 
-`grub-mount -r {{2}} {{disk.img}} {{/mnt}}`
+`grub-mount {{[-r|--root]}} {{2}} {{disk.img}} {{/mnt}}`
 
 - Mount an encrypted device and prompt for a passphrase:
 
-`grub-mount -C {{/dev/sda2}} {{/mnt}}`
+`grub-mount {{[-C|--crypto]}} {{/dev/sda2}} {{/mnt}}`
 
 - Load a ZFS encryption key from a file:
 
-`grub-mount -K {{/path/to/zfs.key}} {{/dev/sdX}} {{/mnt}}`
+`grub-mount {{[-K|--zfs-key]}} {{/path/to/zfs.key}} {{/dev/sdX}} {{/mnt}}`
 
 - Show debugging output for a matching category:
 
-`grub-mount -d {{string}} {{image}} {{/mnt}}`
+`grub-mount {{[-d|--debug]}} {{string}} {{image}} {{/mnt}}`
 
 - Enable verbose output:
 
-`grub-mount -v {{image}} {{/mnt}}`
+`grub-mount {{[-v|--verbose]}} {{image}} {{/mnt}}`
 
-- Show help or version information:
+- Display help:
 
 `grub-mount {{[-?|--help]}}`
 
-- Display version information:
+- Display version:
 
 `grub-mount --version`
