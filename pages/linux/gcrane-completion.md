@@ -1,7 +1,7 @@
 # gcrane completion
 
 > Generate the autocompletion script for gcrane for the specified shell.
-> The available shells are Bash, Fish, PowerShell, and Zsh.
+> The available shells are Bash, fish, PowerShell, and Zsh.
 > More information: <https://github.com/google/go-containerregistry/blob/main/cmd/gcrane/README.md>.
 
 - Generate the autocompletion script for your shell:
