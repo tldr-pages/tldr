@@ -9,7 +9,7 @@
 
 - Open multiple images:
 
-`eog {{image1.jpg image2.png}}`
+`eog {{image1.jpg image2.png ...}}`
 
 - Open images in fullscreen mode:
 
