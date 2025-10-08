@@ -16,7 +16,7 @@
 
 `source <(gcrane completion bash/zsh)`
 
-- Load completions in your current shell session (Fish):
+- Load completions in your current shell session (fish):
 
 `gcrane completion fish | source`
 
@@ -28,7 +28,7 @@
 
 `gcrane completion zsh > "${fpath[1]}/_gcrane"`
 
-- Load completions for every new session (Fish):
+- Load completions for every new session (fish):
 
 `gcrane completion fish > ~/.config/fish/completions/gcrane.fish`
 
