@@ -5,7 +5,7 @@
 
 - Run a test job from a Python file:
 
-  `pyats run job {{path/to/job_file.py}}`
+`pyats run job {{path/to/job_file.py}}`
 
 - Parse the output of a show command from a device:
 
