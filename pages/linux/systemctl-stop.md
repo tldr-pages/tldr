@@ -9,8 +9,8 @@
 
 - Stop a service and suppress warnings:
 
-`systemctl stop --no-warn {{unit}}`
+`systemctl stop {{unit}} --no-warn`
 
 - Stop a user unit:
 
-`systemctl stop --user {{unit}}`
+`systemctl stop {{unit}} --user`

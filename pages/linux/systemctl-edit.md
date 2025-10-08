@@ -9,12 +9,12 @@
 
 - Edit an unit file:
 
-`sudo systemctl edit {{[-l|--full]}} {{unit_file}}`
+`sudo systemctl edit {{unit_file}} {{[-l|--full]}}`
 
 - Create a new unit file:
 
-`sudo systemctl edit {{[-lf|--full --force]}} {{unit_file}}`
+`sudo systemctl edit {{unit_file}} {{[-lf|--full --force]}}`
 
 - Overlay a user unit file:
 
-`systemctl edit --user {{unit_file}}`
+`systemctl edit {{unit_file}} --user`
