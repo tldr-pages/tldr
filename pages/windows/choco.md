@@ -3,34 +3,34 @@
 > The Chocolatey package manager for Windows.
 > More information: <https://docs.chocolatey.org/en-us/choco/commands/>.
 
-- Install a package from the default Chocolatey repository and agree to prompts:
+- Install a package:
 
-`choco install {{packageName}} -y`
+`choco install {{package_name}} -y`
 
-- Upgrade a specific installed package to the latest version:
+- Upgrade a specific package:
 
-`choco upgrade {{packageName}} -y`
+`choco upgrade {{package_name}} -y`
 
-- Upgrade all outdated packages:
+- Upgrade all packages:
 
 `choco upgrade all -y`
 
 - Uninstall a package:
 
-`choco uninstall {{packageName}} -y`
+`choco uninstall {{package_name}} -y`
 
-- Search for packages by name or keyword:
+- Search for packages:
 
 `choco search {{query}}`
 
-- List all packages installed on the machine:
+- List installed packages:
 
 `choco list --local-only`
 
-- Show packages that have newer versions available:
+- Show outdated packages:
 
 `choco outdated`
 
-- Install a package from a local folder or private source:
+- Install a package from a local source:
 
-`choco install {{packageName}} --source '{{path\to\folder_or_feed}}' -y`
+`choco install {{package_name}} --source '{{path\to\source}}' -y`
