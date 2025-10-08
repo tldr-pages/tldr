@@ -19,7 +19,7 @@
 
 - Run the Puppet agent to fetch and apply configurations from the master:
 
-`puppet agent --test`
+`puppet agent {{[-t|--test]}}`
 
 - Display help for a specific subcommand:
 
@@ -27,8 +27,8 @@
 
 - Display general help:
 
-`puppet --help`
+`puppet {{[-h|--help]}}`
 
-- Display the Puppet version:
+- Display version:
 
-`puppet --version`
+`puppet {{[-V|--version]}}`
