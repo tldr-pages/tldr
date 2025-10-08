@@ -7,7 +7,7 @@
 
 `npm {{[x|exec]}} {{command}} {{argument1 argument2 ...}}`
 
-- In case multiple commands with the same name exist, it is possible to explicitly specify the package:
+- Specify the package explicitly (useful if multiple commands with the same name exist):
 
 `npm {{[x|exec]}} --package {{package}} {{command}}`
 
@@ -15,7 +15,7 @@
 
 `npm {{[x|exec]}} --no-install {{command}} {{argument1 argument2 ...}}`
 
-- Execute a specific command suppressing any output from `npm` itself:
+- Execute a specific command, suppressing any output from `npm` itself:
 
 `npm {{[x|exec]}} --quiet {{command}} {{argument1 argument2 ...}}`
 

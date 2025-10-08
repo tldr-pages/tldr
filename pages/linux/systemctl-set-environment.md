@@ -13,4 +13,4 @@
 
 - Set an environment variable for the user service manager:
 
-`systemctl --user set-environment {{var value}}`
+`systemctl set-environment {{var value}} --user`

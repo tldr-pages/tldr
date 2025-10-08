@@ -9,4 +9,4 @@
 
 - Start a user unit:
 
-`systemctl start --user {{unit}}`
+`systemctl start {{unit}} --user`
