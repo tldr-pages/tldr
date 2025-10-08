@@ -19,7 +19,7 @@
 
 `df -i`
 
-- Use 1024-byte units when showing size figures:
+- Use [k]ibibyte (1024 byte) units when showing size figures:
 
 `df -k`
 
