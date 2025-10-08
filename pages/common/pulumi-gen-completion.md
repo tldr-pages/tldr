@@ -1,7 +1,7 @@
 # pulumi gen-completion
 
 > Generate completion scripts for the Pulumi CLI.
-> Supported shells are Bash, Zsh, Fish.
+> Supported shells are Bash, Zsh, fish.
 > More information: <https://www.pulumi.com/docs/iac/cli/commands/pulumi_gen-completion/>.
 
 - Generate completion scripts:
