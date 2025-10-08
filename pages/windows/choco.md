@@ -1,7 +1,7 @@
 # choco
 
 > The Chocolatey package manager for Windows.
-> Some subcommands such as `install`, `upgrade`, `uninstall` have their own usage documentation.
+> Some subcommands such as `new`, `pack`, `pin` have their own usage documentation.
 > More information: <https://docs.chocolatey.org/en-us/choco/commands/>.
 
 - Install a package:
