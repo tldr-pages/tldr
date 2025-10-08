@@ -1,6 +1,6 @@
 # choco
 
-> The Chocolatey package manager for Windows.
+> The Chocolatey package manager.
 > Some subcommands such as `install`, `upgrade`, `pin` have their own usage documentation.
 > More information: <https://docs.chocolatey.org/en-us/choco/commands/>.
 
