@@ -9,6 +9,6 @@
 
 `busybox {{ls|rm|mkdir|cat|...}} {{args}}`
 
-- Display help and a list of functions:
+- Display help:
 
 `busybox --help`
