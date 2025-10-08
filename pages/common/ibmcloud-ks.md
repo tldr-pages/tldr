@@ -15,7 +15,7 @@
 
 `ibmcloud ks worker-pool ls {{[-c|--cluster]}} {{cluster_id}}`
 
-- Delete a worker node and replace it with a new worker node in the same worker pool:
+- Delete a worker node and replace it with a new one in the same worker pool:
 
 `ibmcloud ks worker replace {{[-c|--cluster]}} {{cluster_id}} {{[-w|--worker]}} {{worker_id}}`
 
