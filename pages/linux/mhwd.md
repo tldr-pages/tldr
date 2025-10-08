@@ -1,6 +1,6 @@
 # mhwd
 
-> Manjaro Hardware Detection utility  .
+> Manjaro Hardware Detection utility.
 > More information: <https://wiki.manjaro.org/index.php/Manjaro_Hardware_Detection_Overview>.
 
 - List available drivers:
