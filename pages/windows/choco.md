@@ -10,7 +10,7 @@
 
 - Upgrade a specific installed package:
 
-`choco upgrade {{package_name}} {{[-y|--yes]}}`
+`choco upgrade {{package_name}}`
 
 - Upgrade all outdated packages and automatically confirm all prompts:
 
