@@ -1,31 +1,31 @@
 # kubectl delete
 
 > Lösche Kubernetes-Ressourcen.
-> Weitere Informationen: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#delete>.
+> Weitere Informationen: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_delete>.
 
 - Lösche einen bestimmten Pod:
 
-`kubectl delete pod {{pod_name}}`
+`kubectl delete {{[po|pod]}} {{pod_name}}`
 
 - Lösche ein bestimmtes Deployment:
 
-`kubectl delete deployment {{deployment_name}}`
+`kubectl delete {{[deploy|deployment]}} {{deployment_name}}`
 
 - Lösche eine bestimmte Node:
 
-`kubectl delete node {{node_name}}`
+`kubectl delete {{[no|node]}} {{node_name}}`
 
 - Lösche alle Pods in einem bestimmten Namespaces:
 
-`kubectl delete pods --all --namespace {{namespace}}`
+`kubectl delete {{[po|pods]}} --all {{[-n|--namespace]}} {{namespace}}`
 
 - Lösche alle Deployments und Services in einem bestimmten Namespace:
 
-`kubectl delete deployments,services --all --namespace {{namespace}}`
+`kubectl delete {{[deploy|deployment]}},{{[svc|services]}} --all {{[-n|--namespace]}} {{namespace}}`
 
 - Lösche alle Nodes:
 
-`kubectl delete nodes --all`
+`kubectl delete {{[no|nodes]}} --all`
 
 - Lösche Resourcen, die in einer YAML Datei definiert sind:
 

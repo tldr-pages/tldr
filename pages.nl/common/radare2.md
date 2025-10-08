@@ -1,7 +1,7 @@
 # radare2
 
 > Een set van reverse engineering tools.
-> Meer informatie: <https://www.radare.org/r/docs.html>.
+> Meer informatie: <https://book.rada.re/first_steps/commandline_flags.html>.
 
 - Open een schrijfbaar bestand zonder het parsen van de bestandsformaat headers:
 

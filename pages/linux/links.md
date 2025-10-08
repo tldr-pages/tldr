@@ -2,7 +2,7 @@
 
 > Command-line text-only web browser.
 > See also: `links2'.
-> More information: <http://links.twibright.com/user_en.html#subch-browser_calibration>.
+> More information: <https://links.twibright.com/user_en.html#subch-browser_calibration>.
 
 - Visit a website:
 

@@ -1,7 +1,7 @@
 # pgrep
 
 > 이름으로 프로세스를 찾거나 신호를 보냅니다.
-> 더 많은 정보: <https://www.manned.org/pgrep>.
+> 더 많은 정보: <https://manned.org/pgrep>.
 
 - 실행 중인 프로세스 중 일치하는 명령 문자열을 가진 프로세스의 PID 반환:
 

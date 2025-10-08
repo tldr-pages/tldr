@@ -9,11 +9,11 @@
 
 - Télécharge une image Docker spécifique en mode silencieux :
 
-`docker pull --quiet {{image}}:{{étiquette}}`
+`docker pull {{[-q|--quiet]}} {{image}}:{{étiquette}}`
 
 - Télécharge toutes les étiquettes d'une image Docker spécifique :
 
-`docker pull --all-tags {{image}}`
+`docker pull {{[-a|--all-tags]}} {{image}}`
 
 - Télécharge un image Docker pour une plateforme spécifique, ex : linux/amd64 :
 
@@ -21,4 +21,4 @@
 
 - Affiche l'aide :
 
-`docker pull --help`
+`docker pull {{[-h|--help]}}`

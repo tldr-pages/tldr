@@ -1,6 +1,8 @@
 # htop
 
-> Display dynamic real-time information about running processes. An enhanced version of `top`.
+> Display dynamic real-time information about running processes.
+> An enhanced version of `top`.
+> See also: `top`, `atop`, `glances`, `btop`, `btm`.
 > More information: <https://manned.org/htop>.
 
 - Start `htop`:
@@ -23,14 +25,14 @@
 
 `htop {{[-d|--delay]}} {{50}}`
 
+- Disable all system and process changing features:
+
+`htop --readonly`
+
 - See interactive commands while running htop:
 
-`<?>`
+`{{<F1>|<?>}}`
 
 - Switch to a different tab:
 
 `<Tab>`
-
-- Display help:
-
-`htop {{[-h|--help]}}`

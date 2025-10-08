@@ -24,6 +24,6 @@
 
 `fzf {{[-q|--query]}} "^core go$ | rb$ | py$"`
 
-- Start `fzf` op items die niet overeenkomen met `pyc` en exact overeenkomen met `travis`:
+- Start `fzf` op items die niet overeenkomen met `pyc`, maar wel `travis` bevatten:
 
-`fzf {{[-q|--query]}} "\!pyc 'travis'"`
+`fzf {{[-q|--query]}} '!pyc travis'`
