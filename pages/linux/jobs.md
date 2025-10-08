@@ -1,7 +1,7 @@
 # jobs
 
 > Shell builtin for viewing information about processes spawned by the current shell.
-> Options other than `-l` and `-p` are exclusive to `bash`.
+> Options other than `-l` and `-p` are exclusive to Bash.
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#index-jobs>.
 
 - View jobs spawned by the current shell:
