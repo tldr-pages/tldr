@@ -9,16 +9,16 @@
 
 - Parse the output of a show command from a device:
 
-  `pyats parse "show version" --testbed {{path/to/testbed.yaml}}`
+`pyats parse "show version" --testbed {{path/to/testbed.yaml}}`
 
 - List all available parsers or testbeds:
 
-  `pyats list`
+`pyats list`
 
 - Check the current version:
 
-  `pyats version check`
+`pyats version check`
 
 - Display help for a subcommand:
 
-  `pyats {{subcommand}} --help`
+`pyats {{subcommand}} --help`
