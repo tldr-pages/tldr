@@ -1,6 +1,6 @@
 # evince
 
-> View documents such as PDF, PostScript, and TIFF using the GNOME Document Viewer.
+> View documents.
 > More information: <https://manned.org/evince>.
 
 - Open a PDF file:
