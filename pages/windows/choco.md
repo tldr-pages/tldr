@@ -1,21 +1,36 @@
 # choco
 
-> The Chocolatey package manager.
-> Some subcommands such as `install` have their own usage documentation.
+> The Chocolatey package manager for Windows.
 > More information: <https://docs.chocolatey.org/en-us/choco/commands/>.
 
-- Execute a Chocolatey command:
+- Install a package from the default Chocolatey repository and agree to prompts:
 
-`choco {{command}}`
+`choco install {{packageName}} -y`
 
-- Display help:
+- Upgrade a specific installed package to the latest version:
 
-`choco {{[-h|--help]}}`
+`choco upgrade {{packageName}} -y`
 
-- Display help for a specific command:
+- Upgrade all outdated packages:
 
-`choco {{command}} {{[-h|--help]}}`
+`choco upgrade all -y`
 
-- Display version:
+- Uninstall a package:
 
-`choco --version`
+`choco uninstall {{packageName}} -y`
+
+- Search for packages by name or keyword:
+
+`choco search {{query}}`
+
+- List all packages installed on the machine:
+
+`choco list --local-only`
+
+- Show packages that have newer versions available:
+
+`choco outdated`
+
+- Install a package from a local folder or private source:
+
+`choco install {{packageName}} --source '{{path\to\folder_or_feed}}' -y`
