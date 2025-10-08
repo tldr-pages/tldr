@@ -1,7 +1,7 @@
 # gcrane completion
 
 > Generate the autocompletion script for gcrane for the specified shell.
-> The available shells are Bash, Fish, PowerShell, and Zsh.
+> The available shells are Bash, fish, PowerShell, and Zsh.
 > More information: <https://github.com/google/go-containerregistry/blob/main/cmd/gcrane/README.md>.
 
 - Generate the autocompletion script for your shell:
@@ -16,7 +16,7 @@
 
 `source <(gcrane completion bash/zsh)`
 
-- Load completions in your current shell session (Fish):
+- Load completions in your current shell session (fish):
 
 `gcrane completion fish | source`
 
@@ -28,7 +28,7 @@
 
 `gcrane completion zsh > $(brew --prefix)/share/zsh/site-functions/_gcrane`
 
-- Load completions for every new session (Fish):
+- Load completions for every new session (fish):
 
 `gcrane completion fish > ~/.config/fish/completions/gcrane.fish`
 
