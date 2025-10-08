@@ -19,6 +19,6 @@
 
 `vgremove --config '{{global/locking_type=1}}' {{volume_group}}`
 
-- Display help text for usage information:
+- Display help:
 
 `vgremove {{[-h|--help]}}`
