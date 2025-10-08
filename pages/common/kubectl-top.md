@@ -27,6 +27,6 @@
 
 `kubectl top {{[po|pods]}} --containers`
 
-- Get resource consumption of all pods with specified label:
+- Get resource consumption of all pods with the specified label:
 
 `kubectl top {{[po|pods]}} {{[-l|--selector]}} {{key=value}}`
