@@ -25,4 +25,4 @@
 
 - Forward port 8888 on localhost and selected IP to the pod port 5000:
 
-`kubectl port-forward {{[po|pods]}}/{{pod_name}} 8888:5000 --address localhost,10.19.21.23`
+`kubectl port-forward {{[po|pods]}}/{{pod_name}} 8888:5000 --address localhost,{{10.19.21.23}}`
