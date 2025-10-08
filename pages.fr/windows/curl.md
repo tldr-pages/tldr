@@ -1,6 +1,6 @@
 # curl
 
-> Dans PowerShell, cette commande peut être un alias de `Invoke-WebRequest` lorsque le programme original `curl` (<https://curl.se>) n'est pas correctement installé.  
+> Dans PowerShell, cette commande peut être un alias de `Invoke-WebRequest` lorsque le programme original `curl` (<https://curl.se>) n'est pas correctement installé.
 > Plus d'informations : <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - Affiche la documentation de la commande `curl` originale :
