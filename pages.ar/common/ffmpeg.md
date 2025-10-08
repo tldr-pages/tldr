@@ -1,7 +1,7 @@
 # ffmpeg
 
 > أداة لتحويل الفيديو.
-> المزيد من التفاصيل: <https://ffmpeg.org/>
+> المزيد من التفاصيل: < https://ffmpeg.org/ffmpeg.html#Options.>
 
 - استخراج الصوت من فيديو وحفظه بصيغة MP3:
 
