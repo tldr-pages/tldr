@@ -25,8 +25,8 @@
 
 - Copy a file's contents into the clipboard:
 
-`copyq copy < {{path/to/file.txt}}`
+`copyq < {{path/to/file.txt}} copy`
 
 - Copy a JPEG image into the clipboard:
 
-`copyq copy image/jpeg < {{path/to/image.jpg}}`
+`copyq < {{path/to/image.jpg}} copy image/jpeg`
