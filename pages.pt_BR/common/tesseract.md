@@ -1,6 +1,6 @@
 # tesseract
 
-> Mecanismo OCR (Reconhecimento Óptico de Caracteres).
+> Ferramenta para OCR (Reconhecimento Óptico de Caracteres).
 > Mais Informações: <https://github.com/tesseract-ocr/tesseract/blob/main/doc/tesseract.1.asc>.
 
 - Reconhece o texto em uma imagem e salva-o no arquivo `saida.txt` (a extensão `.txt` é adicionada automaticamente):
