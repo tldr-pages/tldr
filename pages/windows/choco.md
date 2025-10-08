@@ -6,19 +6,19 @@
 
 - Install a package:
 
-`choco install {{package_name}} {{-y|--yes}}`
+`choco install {{package_name}} {{[-y|--yes]}}`
 
 - Upgrade a specific installed package:
 
-`choco upgrade {{package_name}} {{-y|--yes}}`
+`choco upgrade {{package_name}} {{[-y|--yes]}}`
 
 - Upgrade all outdated packages and automatically confirm all prompts:
 
-`choco upgrade all {{-y|--yes}}`
+`choco upgrade all {{[-y|--yes]}}`
 
 - Uninstall a package and automatically confirm all prompts:
 
-`choco uninstall {{package_name}} {{-y|--yes}}`
+`choco uninstall {{package_name}} {{[-y|--yes]}}`
 
 - Search for packages by name or keyword:
 
@@ -34,4 +34,4 @@
 
 - Install a package from a local source:
 
-`choco install {{package_name}} --source {{path\to\folder_or_feed}} {{-y|--yes}}`
+`choco install {{package_name}} --source {{path\to\folder_or_feed}} {{[-y|--yes]}}`
