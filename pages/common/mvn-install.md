@@ -1,7 +1,7 @@
 # mvn install
 
 > Install third-party Maven dependencies and build the project.
-> More information: <https://maven.apache.org/guides/getting-started/index.html#How_do_I_create_a_JAR_and_install_it_in_my_local_repository.3F>.
+> More information: <https://manned.org/mvn>.
 
 - Compile, test, package, and install the project into the local repository:
 
