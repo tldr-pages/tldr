@@ -32,6 +32,6 @@
 
 `del {{file_pattern}} /a {{attribute}}`
 
-- Display help:
+- Display help and list available attributes:
 
 `del /?`
