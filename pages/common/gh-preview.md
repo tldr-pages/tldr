@@ -6,7 +6,7 @@
 
 - Preview all available prompter types:
 
-`gh preview prompter`
+`gh preview {{command}}`
 
 - Preview a specific prompter type (for example, select):
 
