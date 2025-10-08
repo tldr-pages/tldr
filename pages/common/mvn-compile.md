@@ -1,7 +1,7 @@
 # mvn compile
 
 > Compile a Maven project's source code.
-> More information: <https://maven.apache.org/plugins/maven-compiler-plugin/compile-mojo.html>.
+> More information: <https://manned.org/mvn>.
 
 - Compile the project's source code:
 
