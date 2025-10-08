@@ -13,11 +13,11 @@
 
 - Open in fullscreen mode:
 
-`evince --fullscreen {{path/to/file.pdf}}`
+`evince {{[-f|--fullscreen]}} {{path/to/file.pdf}}`
 
 - Open in presentation mode:
 
-`evince --presentation {{path/to/file.pdf}}`
+`evince {{[-s|--presentation]}} {{path/to/file.pdf}}`
 
 - Open a specific page number:
 
