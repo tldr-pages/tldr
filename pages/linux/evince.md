@@ -21,4 +21,4 @@
 
 - Open a specific page number:
 
-`evince --page-label={{5}} {{path/to/file.pdf}}`
+`evince --page-label {{5}} {{path/to/file.pdf}}`
