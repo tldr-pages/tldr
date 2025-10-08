@@ -13,7 +13,7 @@
 
 - Use [H]uman-readable units (based on powers of 1000):
 
-`df -{{-si|H}}`
+`df {{[-H|--si]}}`
 
 - Display the filesystem containing the specified file or directory:
 
