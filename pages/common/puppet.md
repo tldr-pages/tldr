@@ -9,7 +9,7 @@
 
 `puppet apply {{path/to/file.pp}}`
 
-- Apply a manifest in `noop` (dry-run) mode to preview changes:
+- Apply a manifest in no operation (dry-run) mode to preview changes:
 
 `puppet apply --noop {{path/to/file.pp}}`
 
