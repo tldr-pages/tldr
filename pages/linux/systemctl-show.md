@@ -17,7 +17,7 @@
 
 - Show properties of a specific user unit:
 
-`systemctl show --user {{unit}}`
+`systemctl show {{unit}} --user`
 
 - Include empty properties in the list:
 
@@ -25,4 +25,4 @@
 
 - Only show the specified properties:
 
-`systemctl show {{[-p|--property]}} {{Wants,Conflicts,...}} {{unit}}`
+`systemctl show {{unit}} {{[-p|--property]}} {{Wants,Conflicts,...}}`

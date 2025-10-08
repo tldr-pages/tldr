@@ -29,4 +29,4 @@
 
 - Show the status of a user unit:
 
-`systemctl status --user {{unit}}`
+`systemctl status {{unit}} --user`
