@@ -6,7 +6,7 @@
 
 - Install a package:
 
-`choco install {{package_name}} {{[-y|--yes]}}`
+`choco install {{package_name}}`
 
 - Upgrade a specific installed package:
 
