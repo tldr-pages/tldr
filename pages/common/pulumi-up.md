@@ -15,7 +15,7 @@
 
 `pulumi up {{[-s|--stack]}} {{stack}}`
 
-- Refresh the state of the stack's resources before this update:
+- Refresh the state of the stack's resources before updating:
 
 `pulumi up {{[-r|--refresh]}}`
 
