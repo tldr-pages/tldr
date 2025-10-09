@@ -26,7 +26,7 @@
 
 - Descomprime un archivo sobrescribiendo los archivos existentes:
 
-`bzip2 {{[-f|--force]}}} {{ruta/al/archivo_comprimido.bz2}}`
+`bzip2 {{[-f|--force]}} {{ruta/al/archivo_comprimido.bz2}}`
 
 - Muestra la ayuda:
 
