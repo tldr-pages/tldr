@@ -9,7 +9,7 @@
 
 - Install a package from a flake on GitHub into a custom profile:
 
-`nix profile install {{github:owner/repo/pkg}} --profile {{./path/to/directory}}`
+`nix profile install {{github:owner/repo/pkg}} --profile {{path/to/directory}}`
 
 - List packages currently installed in the default profile:
 

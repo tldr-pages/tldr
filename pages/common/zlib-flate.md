@@ -6,12 +6,12 @@
 
 - Compress a file:
 
-`zlib-flate -compress < {{path/to/input_file}} > {{path/to/compressed.zlib}}`
+`zlib-flate < {{path/to/input_file}} -compress > {{path/to/compressed.zlib}}`
 
 - Uncompress a file:
 
-`zlib-flate -uncompress < {{path/to/compressed.zlib}} > {{path/to/output_file}}`
+`zlib-flate < {{path/to/compressed.zlib}} -uncompress > {{path/to/output_file}}`
 
 - Compress a file with a specified compression level. 0=Fastest (Worst), 9=Slowest (Best):
 
-`zlib-flate -compress={{compression_level}} < {{path/to/input_file}} > {{path/to/compressed.zlib}}`
+`zlib-flate < {{path/to/input_file}} -compress={{compression_level}} > {{path/to/compressed.zlib}}`

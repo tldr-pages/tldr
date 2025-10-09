@@ -13,4 +13,4 @@
 
 - Add a user-level `Wants` dependency:
 
-`systemctl --user add-wants {{target}} {{unit}}`
+`systemctl add-wants {{target}} {{unit}} --user`

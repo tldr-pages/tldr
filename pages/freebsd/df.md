@@ -3,7 +3,7 @@
 > Display an overview of the filesystem disk space usage.
 > More information: <https://man.freebsd.org/cgi/man.cgi?df>.
 
-- Display all filesystems and their disk usage using 512-byte units:
+- Display all filesystems and their disk usage (using 512-byte units):
 
 `df`
 
@@ -15,15 +15,15 @@
 
 `df -{{-si|H}}`
 
-- Display the filesystem and its disk usage containing the given file or directory:
+- Display the filesystem containing the specified file or directory:
 
 `df {{path/to/file_or_directory}}`
 
-- Include statistics on the number of free and used [i]nodes including the filesystem [T]ypes:
+- Include statistics on the number of free and used [i]nodes, including the filesystem [T]ypes:
 
 `df -iT`
 
-- Use 1024-byte units when writing space figures:
+- Use [k]ibibyte (1024 byte) units when showing size figures:
 
 `df -k`
 

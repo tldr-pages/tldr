@@ -14,7 +14,7 @@
 
 - Send an email that contains file content:
 
-`mail --subject "{{$HOSTNAME filename.txt}}" {{to_user@example.com}} < {{path/to/filename.txt}}`
+`mail < {{path/to/file.txt}} --subject "{{$HOSTNAME filename.txt}}" {{to_user@example.com}}`
 
 - Send a `tar.gz` file as an attachment:
 
