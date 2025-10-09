@@ -22,7 +22,7 @@
 
 - تضمين مسارات للرؤوس والمكتبات والربط بمكتبة:
 
-`g++ {{path/to/source.cpp}} -o {{path/to/output_executable}} -I{{path/to/header}} -L{{path/to/library}} -l{{library_name}}`
+`g++ {{path/to/source.cpp}} {{-o|--output}} {{path/to/output_executable}} -I{{path/to/header}} -L{{path/to/library}} -l{{library_name}}`
 
 - ترجمة ثم ربط عدة ملفات مصدر على خطوتين:
 
