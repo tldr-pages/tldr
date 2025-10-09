@@ -20,7 +20,7 @@
 
 `firewall-cmd --permanent --zone {{public}} --remove-service {{http}}`
 
-- Reenviar permanentemente un puerto para paquetes entrantes en la zona especificada (como el puerto 443 al 8443 cuando entra en la zona `public`):
+- Reenvía permanentemente un puerto para paquetes entrantes en la zona especificada (como el puerto 443 al 8443 cuando entra en la zona `public`):
 
 `firewall-cmd --permanent --zone {{public}} --add-rich-rule 'rule family "{{ipv4|ipv6}}" forward-port port "{{443}}" protocol "{{udp|tcp}}" to-port "{{8443}}"'`
 
