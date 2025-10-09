@@ -7,7 +7,7 @@
 
 `pct {{[ex|exec]}} {{100}} {{command}}`
 
-- Open a bash shell in a container:
+- Open a Bash shell in a container:
 
 `pct {{[ex|exec]}} {{100}} bash`
 
