@@ -3,7 +3,7 @@
 > Motor de OCR (Reconhecimento Óptico de Caracteres).
 > Mais informações: <https://github.com/tesseract-ocr/tesseract/blob/main/doc/tesseract.1.asc>.
 
-- Reconhece o texto em uma imagem e salva-o no arquivo `output.txt` (a extensão `.txt` é adicionada automaticamente):
+- Reconhece o texto em uma imagem e salva-o no arquivo `saida.txt` (a extensão `.txt` é adicionada automaticamente):
 
 `tesseract {{caminho/para/imagem.png}} output`
 
