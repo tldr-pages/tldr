@@ -1,6 +1,6 @@
 # powertop
 
-> Optimierung des Energieverbrauchs
+> Optimierung des Energieverbrauchs.
 > Mehr Informationen: <https://github.com/fenrus75/powertop>.
 
 - Kalibrierung der Stromverbrauchsmessungen:
