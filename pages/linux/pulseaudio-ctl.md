@@ -1,6 +1,6 @@
 # pulseaudio-ctl
 
-> Control PulseAudio volume from the command line.
+> Control PulseAudio volume.
 > More information: <https://github.com/graysky2/pulseaudio-ctl>.
 
 - Increase volume by 5%:
