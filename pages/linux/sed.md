@@ -30,7 +30,7 @@
 
 - [i]nsert a new line at the beginning of a file, overwriting the original file in-place:
 
-`sed {{[-i|--in-place]}} '1i\your new line text\' {{path/to/file}}`
+`sed {{[-i|--in-place]}} '1i your new line text' {{path/to/file}}`
 
 - Delete blank lines (with or without spaces/tabs) from a file, overwriting the original file in-place:
 
