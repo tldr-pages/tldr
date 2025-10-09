@@ -6,7 +6,7 @@
 
 - ترجمة ملف أو عدة ملفات مصدر إلى ملف تنفيذي:
 
-`g++ {{path/to/source1.cpp path/to/source2.cpp ...}} -o {{path/to/output_executable}}`
+`g++ {{path/to/source1.cpp path/to/source2.cpp ...}} {{-o|--output}} {{path/to/output_executable}}`
 
 - إظهار جميع التحذيرات:
 
