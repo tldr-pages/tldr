@@ -25,7 +25,7 @@
 
 - تحويل فيديو AVI إلى MP4 بصوت AAC بمعدل 128kbit وفيديو h264 بـ CRF 23:
 
-`ffmpeg -i {{path/to/input_video.avi}} {{[-c|--codec]}}:a aac -b:a 128k {{[-c|--codec]}}:v libx264 -crf 23 {{path/to/output_video.mp4}}`
+`ffmpeg -i {{path/to/input_video}}.avi {{[-c|-codec]}}:a aac -b:a 128k {{[-c|-codec]}}:v libx264 -crf 23 {{path/to/output_video}}.mp4`
 
 - إعادة تغليف فيديو MKV إلى MP4 دون إعادة ترميز الصوت أو الفيديو:
 
