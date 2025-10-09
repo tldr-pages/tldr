@@ -34,4 +34,4 @@
 
 - Feed a file as additional pre-prompt input:
 
-`tgpt --provider {{blackboxai}} "{{prompt}}" < {{path/to/file}}`
+`tgpt < {{path/to/file}} --provider {{blackboxai}} "{{prompt}}"`
