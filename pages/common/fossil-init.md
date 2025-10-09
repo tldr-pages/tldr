@@ -6,4 +6,4 @@
 
 - Create a new repository in a named file:
 
-`fossil init {{path/to/filename}}`
+`fossil init {{path/to/file}}`

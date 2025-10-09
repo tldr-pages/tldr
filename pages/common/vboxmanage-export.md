@@ -5,7 +5,7 @@
 
 - Specify the target OVA file:
 
-`VBoxManage export --output {{path/to/filename.ova}}`
+`VBoxManage export --output {{path/to/file.ova}}`
 
 - Export in OVF 0.9 legacy mode:
 

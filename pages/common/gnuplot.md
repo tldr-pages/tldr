@@ -13,7 +13,7 @@
 
 - Set the output format by executing a command before loading the definition file:
 
-`gnuplot -e "{{set output "path/to/filename.png" size 1024,768}}" {{path/to/definition.plt}}`
+`gnuplot -e "{{set output "path/to/file.png" size 1024,768}}" {{path/to/definition.plt}}`
 
 - Persist the graph plot preview window after gnuplot exits:
 

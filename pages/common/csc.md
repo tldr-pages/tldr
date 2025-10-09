@@ -9,7 +9,7 @@
 
 - Specify the output filename:
 
-`csc /out:{{path/to/filename}} {{path/to/input_file.cs}}`
+`csc /out:{{path/to/file}} {{path/to/input_file.cs}}`
 
 - Compile into a `.dll` library instead of an executable:
 

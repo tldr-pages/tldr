@@ -26,7 +26,7 @@
 
 - Load a database from a specified archive file through `stdin`:
 
-`neo4j-admin database load --from-stdin {{database_name}} --overwrite-destination=true < {{path/to/filename.dump}}`
+`neo4j-admin < {{path/to/file.dump}} database load --from-stdin {{database_name}} --overwrite-destination=true`
 
 - Display help:
 

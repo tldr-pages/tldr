@@ -17,7 +17,7 @@
 
 - Print content of a file in the self-extracting binary without extraction:
 
-`{{./path/to/binary}} -c {{path/to/filename}}`
+`{{./path/to/binary}} -c {{path/to/file}}`
 
 - Print comments on Zip archive in the self-extracting binary:
 
