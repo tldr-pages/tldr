@@ -23,7 +23,7 @@
 
 `pulseaudio-ctl set {{percentage}}`
 
-- Set volume to at most a specific percentage:
+- Set volume to a specific percentage if the current volume is higher than the provided value:
 
 `pulseaudio-ctl atmost {{percentage}}`
 
