@@ -11,7 +11,7 @@
 
 `plasmashell --replace & disown`
 
-- Display help on command-line options:
+- Display help:
 
 `plasmashell {{[-h|--help]}}`
 
