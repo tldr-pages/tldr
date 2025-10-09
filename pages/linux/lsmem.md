@@ -13,4 +13,4 @@
 
 - List memory information with size in bytes:
 
-`lsmem --bytes`
+`lsmem {{[-b|--bytes]}}`
