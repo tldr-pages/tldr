@@ -9,7 +9,7 @@
 
 - Path to file with list of published image references:
 
-`crane push {{path/to/tarball}} {{image_name}} --image-refs {{path/to/filename}}`
+`crane push {{path/to/tarball}} {{image_name}} --image-refs {{path/to/file}}`
 
 - Push a collection of images as a single index (required if path has multiple images):
 

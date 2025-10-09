@@ -13,4 +13,4 @@
 
 - Read a man page in a `.deb` [f]ile:
 
-`debman -f {{path/to/filename.deb}} {{command}}`
+`debman -f {{path/to/file.deb}} {{command}}`

@@ -19,6 +19,6 @@
 
 `git fast-export --progress {{n}} --all > {{path/to/file}}`
 
-- Export only a specific subdirectory’s history:
+- Export only a specific subdirectory's history:
 
 `git fast-export --all -- {{path/to/directory}} > {{path/to/file}}`

@@ -13,4 +13,4 @@
 
 - Read image from `stdin`:
 
-`crane export - {{path/to/filename}}`
+`crane export - {{path/to/file}}`

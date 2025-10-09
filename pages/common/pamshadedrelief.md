@@ -10,4 +10,4 @@
 
 - Gamma adjust the image by the specified factor:
 
-`pamshadedrelief {{[-g|-gamma]}} {{factor}} < {{path/to/input.pam}} > {{path/to/output.pam}}`
+`pamshadedrelief < {{path/to/input.pam}} {{[-g|-gamma]}} {{factor}} > {{path/to/output.pam}}`

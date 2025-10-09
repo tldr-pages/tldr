@@ -25,4 +25,4 @@
 
 - Capture a screenshot of a local file:
 
-`pageres {{local_file_path.html}} {{1366x768}}`
+`pageres {{path/to/local_file.html}} {{1366x768}}`
