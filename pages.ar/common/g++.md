@@ -18,7 +18,7 @@
 
 - اختيار معيار اللغة المستهدف (C++98/C++11/C++14/C++17):
 
-`g++ {{path/to/source.cpp}} -std={{c++98|c++11|c++14|c++17}} -o {{path/to/output_executable}}`
+`g++ {{path/to/source.cpp}} -std={{c++98|c++11|c++14|c++17}} {{-o|--output}} {{path/to/output_executable}}`
 
 - تضمين مسارات للرؤوس والمكتبات والربط بمكتبة:
 
