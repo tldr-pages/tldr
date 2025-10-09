@@ -5,7 +5,7 @@
 
 - Mount a block device or file system image to a mount point:
 
-`grub-mount {{/dev/sda1}} {{/mnt}}`
+`grub-mount {{/dev/sdXY}} {{/mnt}}`
 
 - Mount an entire disk image's second partition, `-r` specifies the partition number in the image:
 
@@ -13,7 +13,7 @@
 
 - Mount an encrypted device and prompt for a passphrase:
 
-`grub-mount {{[-C|--crypto]}} {{/dev/sda2}} {{/mnt}}`
+`grub-mount {{[-C|--crypto]}} {{/dev/sdXY}} {{/mnt}}`
 
 - Load a ZFS encryption key from a file:
 
