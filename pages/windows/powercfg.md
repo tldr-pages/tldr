@@ -9,7 +9,7 @@
 
 - List all available power schemes:
 
-`powercfg /list`
+`powercfg {{[/L|/list]}}`
 
 - Set the active power scheme by its GUID:
 
