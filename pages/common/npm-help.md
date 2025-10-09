@@ -1,15 +1,12 @@
-# npm help 
+# npm help
 
 > Displays an overview of npm syntax, frequently used commands, and a short description of each command.
-> https://docs.npmjs.com/cli/commands/npm-help
+> More information: <https://docs.npmjs.com/cli/commands/npm-help>.
 
+- Display the documentation for a specific command:
 
-- Displays the documentation for a specific command:  
 `npm help <command>`
 
+- Display a list of help topics that most closely match a given term:
 
-- Displays a list of help topics that most closely match the given term:  
 `npm help-search <term>`
-
-
-npm help: add page
