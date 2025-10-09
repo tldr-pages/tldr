@@ -1,6 +1,6 @@
 # git sparse-checkout
 
-> Check out only part of a repository’s files instead of cloning or checking out everything.
+> Check out only part of a repository's files instead of cloning or checking out everything.
 > More information: <https://manned.org/git-sparse-checkout>.
 
 - Enable sparse checkout:

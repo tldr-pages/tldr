@@ -10,7 +10,7 @@
 
 - Show the unit of the current shell in user service manager (services managed for your login session):
 
-`systemctl --user whoami`
+`systemctl whoami --user`
 
 - Show the unit a specific process belongs to:
 

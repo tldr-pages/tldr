@@ -21,7 +21,7 @@
 
 - Path to a file containing a commit-msg:
 
-`gitlint --msg-filename {{path/to/filename}}`
+`gitlint --msg-filename {{path/to/file}}`
 
 - Read staged commit meta-info from the local repository:
 

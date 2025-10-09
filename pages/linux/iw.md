@@ -32,6 +32,6 @@
 
 `iw reg get`
 
-- Display help for all commands:
+- Display help:
 
 `iw help`

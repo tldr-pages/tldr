@@ -7,11 +7,11 @@
 
 `df`
 
-- Display all filesystems and their disk usage in human-readable form:
+- Display all filesystems in human-readable form:
 
 `df {{[-h|--human-readable]}}`
 
-- Display the filesystem and its disk usage containing the given file or directory:
+- Display the filesystem containing the specified file or directory:
 
 `df {{path/to/file_or_directory}}`
 
