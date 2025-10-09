@@ -1,38 +1,38 @@
 # htop
 
-> Display dynamic real-time information about running processes.
-> An enhanced version of `top`.
-> See also: `top`, `atop`, `glances`, `btop`, `btm`.
-> More information: <https://manned.org/htop>.
+> عرض معلومات ديناميكية لحظية عن العمليات الجارية.
+> نسخة محسنة من `top`.
+> انظر أيضًا: `top` و`atop` و`glances` و`btop` و`btm`.
+> لمزيد من التفاصيل: <https://manned.org/htop>.
 
-- Start `htop`:
+- تشغيل `htop`:
 
 `htop`
 
-- Start `htop` displaying processes owned by a specific user:
+- تشغيل `htop` لعرض العمليات المملوكة لمستخدم محدد:
 
 `htop {{[-u|--user]}} {{username}}`
 
-- Display processes hierarchically in a tree view to show the parent-child relationships:
+- عرض العمليات بشكل هرمي لإظهار علاقة الأصل والفرع:
 
 `htop {{[-t|--tree]}}`
 
-- Sort processes by a specified `sort_item` (use `htop --sort help` for available options):
+- فرز العمليات حسب `sort_item` المحدد (استخدم `htop --sort help` لعرض الخيارات المتاحة):
 
 `htop {{[-s|--sort]}} {{sort_item}}`
 
-- Start `htop` with the specified delay between updates, in tenths of a second (i.e. 50 = 5 seconds):
+- تشغيل `htop` مع تأخير محدد بين التحديثات بوحدات عُشر الثانية (مثال: 50 = 5 ثوانٍ):
 
 `htop {{[-d|--delay]}} {{50}}`
 
-- Disable all system and process changing features:
+- تعطيل جميع ميزات تغيير النظام والعمليات:
 
 `htop --readonly`
 
-- See interactive commands while running htop:
+- عرض الأوامر التفاعلية أثناء التشغيل:
 
 `{{<F1>|<?>}}`
 
-- Switch to a different tab:
+- الانتقال إلى علامة تبويب أخرى:
 
 `<Tab>`
