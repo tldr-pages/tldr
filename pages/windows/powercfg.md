@@ -21,7 +21,7 @@
 
 - Turn off the display after a specific number of minutes on battery power:
 
-`powercfg /change monitor-timeout-dc {{minutes}}`
+`powercfg {{[/X|/change]}} monitor-timeout-dc {{minutes}}`
 
 - Put the system to sleep after a specific number of minutes on AC power:
 
