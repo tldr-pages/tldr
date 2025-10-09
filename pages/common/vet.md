@@ -17,7 +17,7 @@
 
 - Scan any OSS package for malware:
 
-`vet inspect malware --purl {{package_purl}}`
+`vet inspect malware --purl {{package_url}}`
 
 - Start the MCP server for AI enabled security in code editors like Cursor:
 
