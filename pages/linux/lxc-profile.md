@@ -17,7 +17,7 @@
 
 - Edit a specific profile importing the configuration values from a file:
 
-`lxc profile edit {{profile_name}} < {{config.yaml}}`
+`lxc < {{config.yaml}} profile edit {{profile_name}}`
 
 - Launch a new container with specific profiles:
 
