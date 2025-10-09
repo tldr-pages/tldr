@@ -8,7 +8,7 @@
 
 `firewall-cmd --list-all-zones`
 
-- Mover permanentemente la interfaz a la zona de bloqueo, bloqueando efectivamente toda comunicación:
+- Mueve permanentemente la interfaz a la zona de bloqueo, bloqueando efectivamente toda comunicación:
 
 `firewall-cmd --permanent --zone {{block}} --change-interface {{enp1s0}}`
 
