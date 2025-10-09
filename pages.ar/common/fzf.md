@@ -2,7 +2,7 @@
 
 > أداة بحث تقريبي (fuzzy) لسطر الأوامر.
 > مشابهة لـ `sk`.
-> المزيد من التفاصيل: <https://github.com/junegunn/fzf#usage>
+> لمزيد من التفاصيل: <https://github.com/junegunn/fzf#usage>.
 
 - تشغيل `fzf` على جميع الملفات داخل المجلد المحدد:
 
