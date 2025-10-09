@@ -11,6 +11,6 @@
 
 `lvrename {{vg_name}} {{old_lv}} {{new_lv}}`
 
-- Answer “yes” to any prompts:
+- Answer "yes" to any prompts:
 
 `lvrename {{[-y|--yes]}} {{/dev/vg_name/old_lv}} {{/dev/vg_name/new_lv}}`
