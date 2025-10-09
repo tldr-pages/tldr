@@ -5,12 +5,12 @@
 
 - Exit the user service manager:
 
-`systemctl --user exit`
+`systemctl exit --user`
 
 - Exit the user service manager with a specific exit code:
 
-`systemctl --user exit {{code}}`
+`systemctl exit {{code}} --user`
 
-- Ask the container’s service manager to exit (equivalent of `systemctl poweroff` if not in a container):
+- Ask the container's service manager to exit (equivalent of `systemctl poweroff` if not in a container):
 
 `systemctl exit`

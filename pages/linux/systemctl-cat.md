@@ -17,4 +17,4 @@
 
 - Show the contents of a user unit file:
 
-`systemctl cat --user {{unit}}`
+`systemctl cat {{unit}} --user`

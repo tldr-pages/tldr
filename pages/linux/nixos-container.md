@@ -9,7 +9,7 @@
 
 - Create a NixOS container with a specific configuration file:
 
-`sudo nixos-container create {{container_name}} --config-file {{nix_config_file_path}}`
+`sudo nixos-container create {{container_name}} --config-file {{path/to/nix_config_file}}`
 
 - Start, stop, terminate, or destroy a specific container:
 

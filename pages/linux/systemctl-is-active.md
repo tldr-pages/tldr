@@ -13,8 +13,8 @@
 
 - Check whether a unit is active without printing the state to `stdout`:
 
-`systemctl is-active {{[-q|--quiet]}} {{unit}}`
+`systemctl is-active {{unit}} {{[-q|--quiet]}}`
 
 - Check whether a user unit is active:
 
-`systemctl is-active --user {{unit}}`
+`systemctl is-active {{unit}} --user`
