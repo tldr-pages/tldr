@@ -4,7 +4,7 @@
 > Visualiza y adapta el estado de configuración del firewall, sea en tiempo de ejecución o permanente.
 > Más información: <https://firewalld.org/documentation/man-pages/firewall-cmd>.
 
-- Ver todas las zonas y reglas del firewall disponibles en su estado de configuración de tiempo de ejecución:
+- Visualiza todas las zonas y reglas del firewall disponibles en su estado de configuración en tiempo de ejecución:
 
 `firewall-cmd --list-all-zones`
 
