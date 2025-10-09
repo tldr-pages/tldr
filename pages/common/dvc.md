@@ -8,7 +8,7 @@
 
 `dvc {{subcommand}}`
 
-- Display general help:
+- Display help:
 
 `dvc {{[-h|--help]}}`
 

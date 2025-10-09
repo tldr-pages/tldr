@@ -9,4 +9,4 @@
 
 - Specify the rasterop:
 
-`pbmtobbnbg {{3}} < {{path/to/image.pbm}} > {{path/to/output.dpd}}`
+`pbmtobbnbg < {{path/to/image.pbm}} {{3}} > {{path/to/output.dpd}}`

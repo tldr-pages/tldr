@@ -14,4 +14,4 @@
 
 - Unset an environment variable in the user service manager:
 
-`systemctl --user unset-environment {{var}}`
+`systemctl unset-environment {{var}} --user`

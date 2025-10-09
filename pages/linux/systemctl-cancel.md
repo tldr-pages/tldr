@@ -17,4 +17,4 @@
 
 - Cancel a job in the user service manager:
 
-`systemctl cancel --user {{job_id}}`
+`systemctl cancel {{job_id}} --user`

@@ -14,7 +14,7 @@
 
 - Build the default package from a flake in some directory:
 
-`nix build {{./path/to/directory}}`
+`nix build {{path/to/directory}}`
 
 - Build a package without making the `result` symlink, instead printing the store path to the `stdout`:
 

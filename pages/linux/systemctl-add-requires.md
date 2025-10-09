@@ -13,4 +13,4 @@
 
 - Add a user-level `Requires` dependency:
 
-`systemctl --user add-requires {{target}} {{unit}}`
+`systemctl add-requires {{target}} {{unit}} --user`
