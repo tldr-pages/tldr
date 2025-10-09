@@ -16,7 +16,7 @@
 
 `az container logs {{[-n|--name]}} {{nombre}} {{[-g|--resource-group]}} {{grupo_de_recursos}}`
 
-- Obtenga los detalles de un grupo de contenedores:
+- Visualiza los detalles de un grupo de contenedores:
 
 `az container show {{[-n|--name]}} {{nombre}} {{[-g|--resource-group]}} {{grupo_de_recursos}}`
 
