@@ -14,7 +14,7 @@
 
 - إظهار التحذيرات الشائعة، تضمين رموز التصحيح، وتحسين لا يؤثر في إزالة التصحيح:
 
-`g++ {{path/to/source.cpp}} -Wall -g -Og -o {{path/to/output_executable}}`
+`g++ {{path/to/source.cpp}} -Wall {{-g|--debug}} -Og {{-o|--output}} {{path/to/output_executable}}`
 
 - اختيار معيار اللغة المستهدف (C++98/C++11/C++14/C++17):
 
