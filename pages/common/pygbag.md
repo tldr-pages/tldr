@@ -19,7 +19,7 @@
 
 `pygbag {{path/to/project_folder}} --template {{template_name.tmpl}}`
 
-- Package and create a ZIP archive for itch.io:
+- Package and create a ZIP archive for <https://itch.io>:
 
 `pygbag {{path/to/project_folder}} --archive`
 
