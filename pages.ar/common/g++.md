@@ -26,7 +26,7 @@
 
 - ترجمة ثم ربط عدة ملفات مصدر على خطوتين:
 
-`g++ -c {{path/to/source1.cpp}} {{path/to/source2.cpp}} ... && g++ -o {{path/to/output_executable}} {{path/to/source1.o}} {{path/to/source2.o}} ...`
+`g++ {{[-c|--compile]}} {{path/to/source1.cpp path/to/source2.cpp ...}} && g++ {{[-o|--output]}} {{path/to/output_executable}} {{path/to/source1.o path/to/source2.o ...}}`
 
 - تحسين الأداء عند الترجمة:
 
