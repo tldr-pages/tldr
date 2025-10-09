@@ -32,6 +32,6 @@
 
 `choco outdated`
 
-- Install a package from a local source:
+- Install a package from a specific source:
 
 `choco install {{package_name}} {{[-s|--source]}} {{source}}`
