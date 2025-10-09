@@ -24,7 +24,7 @@
 
 `firewall-cmd --permanent --zone {{public}} --add-rich-rule 'rule family "{{ipv4|ipv6}}" forward-port port "{{443}}" protocol "{{udp|tcp}}" to-port "{{8443}}"'`
 
-- Recargar firewalld para perder cualquier cambio en tiempo de ejecución y forzar que la configuración permanente tome efecto inmediatamente:
+- Recarga firewall para perder cualquier cambio en tiempo de ejecución y forzar que la configuración permanente tome efecto inmediatamente:
 
 `firewall-cmd --reload`
 
