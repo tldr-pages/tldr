@@ -1,6 +1,6 @@
 # zinit
 
-> Flexible and blazing fast `zsh` plugin manager.
+> Flexible and blazing fast Zsh plugin manager.
 > More information: <https://github.com/zdharma-continuum/zinit>.
 
 - Show all installed plugins:
