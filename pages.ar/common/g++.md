@@ -30,7 +30,7 @@
 
 - تحسين الأداء عند الترجمة:
 
-`g++ {{path/to/source.cpp}} -O{{1|2|3|fast}} -o {{path/to/output_executable}}`
+`g++ {{path/to/source.cpp}} -O{{1|2|3|fast}} {{-o|--output}} {{path/to/output_executable}}`
 
 - عرض الإصدار:
 
