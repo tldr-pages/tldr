@@ -17,7 +17,7 @@
 
 - Comprueba la integridad de cada fichero dentro del archivo comprimido:
 
-`bzip3 {{[-t|--test]}}} {{ruta/al/archivo_comprimido.bz3}}`
+`bzip3 {{[-t|--test]}} {{ruta/al/archivo_comprimido.bz3}}`
 
 - Muestra la relación de compresión de cada archivo procesado con información detallada:
 
