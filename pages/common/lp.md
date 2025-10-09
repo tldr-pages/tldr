@@ -9,19 +9,19 @@
 
 - Print a file to the default printer:
 
-`lp {{path/to/filename}}`
+`lp {{path/to/file}}`
 
 - Print a file to a named printer (see `lpstat` command):
 
-`lp -d {{printer_name}} {{path/to/filename}}`
+`lp -d {{printer_name}} {{path/to/file}}`
 
 - Print `n` copies of a file to the default printer:
 
-`lp -n {{n}} {{path/to/filename}}`
+`lp -n {{n}} {{path/to/file}}`
 
 - Print only certain pages to the default printer (print pages 1, 3-5, and 16):
 
-`lp -P 1,3-5,16 {{path/to/filename}}`
+`lp -P 1,3-5,16 {{path/to/file}}`
 
 - Resume printing a job:
 
