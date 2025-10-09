@@ -34,4 +34,4 @@
 
 - Install a package from a local source:
 
-`choco install {{package_name}} --source {{path\to\folder_or_feed}}`
+`choco install {{package_name}} {{[-s|--source]}} {{source}}`
