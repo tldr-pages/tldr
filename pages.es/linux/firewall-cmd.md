@@ -12,7 +12,7 @@
 
 `firewall-cmd --permanent --zone {{block}} --change-interface {{enp1s0}}`
 
-- Abrir permanentemente el puerto para un servicio en la zona especificada (como el puerto 443 cuando está en la zona `public`):
+- Abre permanentemente el puerto para un servicio en la zona especificada (como el puerto 443 cuando está en la zona `public`):
 
 `firewall-cmd --permanent --zone {{public}} --add-service {{https}}`
 
