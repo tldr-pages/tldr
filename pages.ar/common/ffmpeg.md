@@ -29,7 +29,7 @@
 
 - إعادة تغليف فيديو MKV إلى MP4 دون إعادة ترميز الصوت أو الفيديو:
 
-`ffmpeg -i {{path/to/input_video.mkv}} {{[-c|--codec]}} copy {{path/to/output_video.mp4}}`
+`ffmpeg -i {{path/to/input_video}}.mkv {{[-c|-codec]}} copy {{path/to/output_video}}.mp4`
 
 - تحويل فيديو MP4 إلى ترميز VP9 بأفضل جودة باستخدام قيمة CRF (النطاق الموصى به 15–35) وb:v=0:
 
