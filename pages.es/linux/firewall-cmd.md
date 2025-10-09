@@ -1,7 +1,7 @@
 # firewall-cmd
 
 > El cliente de línea de comandos de firewalld.
-> Ver y adaptar el estado de configuración del firewall en tiempo de ejecución o permanente.
+> Visualiza y adapta el estado de configuración del firewall, sea en tiempo de ejecución o permanente.
 > Más información: <https://firewalld.org/documentation/man-pages/firewall-cmd>.
 
 - Ver todas las zonas y reglas del firewall disponibles en su estado de configuración de tiempo de ejecución:
