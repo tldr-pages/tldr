@@ -21,7 +21,7 @@
 
 - قص مقطع فيديو من وقت بداية mm:ss إلى وقت نهاية mm2:ss2 (تجاهل -to للقص حتى النهاية):
 
-`ffmpeg -i {{path/to/input_video.mp4}} -ss {{mm:ss}} -to {{mm2:ss2}} {{[-c|--codec]}} copy {{path/to/output_video.mp4}}`
+`ffmpeg -i {{path/to/input_video.mp4}} -ss {{mm:ss}} -to {{mm2:ss2}} {{[-c|-codec]}} copy {{path/to/output_video.mp4}}`
 
 - تحويل فيديو AVI إلى MP4 بصوت AAC بمعدل 128kbit وفيديو h264 بـ CRF 23:
 
@@ -33,4 +33,4 @@
 
 - تحويل فيديو MP4 إلى ترميز VP9 بأفضل جودة باستخدام قيمة CRF (النطاق الموصى به 15–35) وb:v=0:
 
-`ffmpeg -i {{path/to/input_video.mp4}} {{[-c|-codec]}}:v libvpx-vp9 -crf {{30}} -b:v 0 {{[-c|--codec]}}:a libopus -vbr on -threads {{number_of_threads}} {{path/to/output_video}}.webm`
+`ffmpeg -i {{path/to/input_video.mp4}} {{[-c|-codec]}}:v libvpx-vp9 -crf {{30}} -b:v 0 {{[-c|-codec]}}:a libopus -vbr on -threads {{number_of_threads}} {{path/to/output_video}}.webm`
