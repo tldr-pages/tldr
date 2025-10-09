@@ -10,20 +10,20 @@
 
 - Bootstrap the `etcd` cluster on a node:
 
-`talosctl bootstrap {{[-n|--nodes]}} {{node_ip}} --talosconfig {{path/to/talosconfig}}`
+`talosctl bootstrap {{[-n|--nodes]}} {{node_ip}}`
 
 - Edit an API resource:
 
-`talosctl edit {{resource_to_edit}} {{[-n|--nodes]}} {{node_ip}} --talosconfig {{path/to/talosconfig}}`
+`talosctl edit {{resource_to_edit}} {{[-n|--nodes]}} {{node_ip}}`
 
 - Get resources:
 
-`talosctl get {{resource_to_get}} {{[-n|--nodes]}} {{node_ip}} --talosconfig {{path/to/talosconfig}}`
+`talosctl get {{resource_to_get}} {{[-n|--nodes]}} {{node_ip}}`
 
 - Download the admin kube configuration from a node:
 
-`talosctl kubeconfig {{[-n|--nodes]}} {{node_ip}} --talosconfig {{path/to/talosconfig}}`
+`talosctl kubeconfig {{[-n|--nodes]}} {{node_ip}}`
 
 - Reset a node:
 
-`talosctl reset {{[-n|--nodes]}} {{node_ip}} --talosconfig {{path/to/talosconfig}}`
+`talosctl reset {{[-n|--nodes]}} {{node_ip}}`
