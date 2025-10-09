@@ -5,7 +5,7 @@
 
 - Create a squashfs filesystem (compressed using `gzip` by default) from an uncompressed tar archive:
 
-`sqfstar {{filesystem.squashfs}} < {{archive.tar}}`
+`sqfstar < {{archive.tar}} {{filesystem.squashfs}}`
 
 - Create a squashfs filesystem from a tar archive compressed with `gzip`, and [comp]ress the filesystem using a specific algorithm:
 
