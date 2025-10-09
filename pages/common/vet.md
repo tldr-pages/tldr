@@ -9,7 +9,7 @@
 
 - Scan the `package-lock.json` manifest file:
 
-`vet scan {{[-M|--manifests]}} {{path/to/manifest-file}}`
+`vet scan {{[-M|--manifests]}} {{path/to/manifest_file}}`
 
 - Scan with filter to fail on any critical vulnerability found in the codebase:
 
@@ -17,7 +17,7 @@
 
 - Scan any OSS package for malware:
 
-`vet inspect malware --purl {{package-purl}}`
+`vet inspect malware --purl {{package_purl}}`
 
 - Start the MCP server for AI enabled security in code editors like Cursor:
 
