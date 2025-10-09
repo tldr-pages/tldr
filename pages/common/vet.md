@@ -5,20 +5,20 @@
 
 - Scan the current directory:
 
-`vet scan -D .`
+`vet scan {{[-D|--directory]}} .`
 
 - Scan the `package-lock.json` manifest file:
 
-`vet scan -M package-lock.json`
+`vet scan {{[-M|--manifests]}} {{path/to/manifest-file}}`
 
 - Scan with filter to fail on any critical vulnerability found in the codebase:
 
-`vet scan -D . --filter 'vulns.critical.exists(p, true)' --filter-fail`
+`vet scan {{[-D|--directory]}} {{path/to/directory}} --filter 'vulns.critical.exists(p, true)' --filter-fail`
 
 - Scan any OSS package for malware:
 
-`vet inspect malware --purl pkg:/npm/nyc-config@10.0.0`
+`vet inspect malware --purl {{package-purl}}`
 
-- Manage and query cloud resources (control plane):
+- Start the MCP server for AI enabled security in code editors like Cursor:
 
-`vet cloud`
+`vet server mcp`
