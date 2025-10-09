@@ -9,7 +9,7 @@
 
 - List memory information in JSON format:
 
-`lsmem --json`
+`lsmem {{[-J|--json]}}`
 
 - List memory information with size in bytes:
 
