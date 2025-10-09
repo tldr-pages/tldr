@@ -16,7 +16,7 @@
 
 `firewall-cmd --permanent --zone {{public}} --add-service {{https}}`
 
-- Cerrar permanentemente el puerto para un servicio en la zona especificada (como el puerto 80 cuando está en la zona `public`):
+- Cierra permanentemente el puerto para un servicio en la zona especificada (como el puerto 80 cuando está en la zona `public`):
 
 `firewall-cmd --permanent --zone {{public}} --remove-service {{http}}`
 
