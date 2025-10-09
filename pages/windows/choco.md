@@ -26,7 +26,7 @@
 
 - List all packages installed on the machine:
 
-`choco list --local-only`
+`choco list {{-l|--local}}`
 
 - Show packages that have newer versions available:
 
