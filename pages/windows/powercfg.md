@@ -25,7 +25,7 @@
 
 - Put the system to sleep after a specific number of minutes on AC power:
 
-`powercfg /change standby-timeout-ac {{minutes}}`
+`powercfg {{[/X|/change]}} standby-timeout-ac {{minutes}}`
 
 - Generate a system sleep diagnostics report and save it to a file:
 
