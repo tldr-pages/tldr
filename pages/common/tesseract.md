@@ -5,7 +5,7 @@
 
 - Recognize text in an image and save it to `output.txt` (the `.txt` extension is added automatically):
 
-`tesseract {{path/to/image.png}} output`
+`tesseract {{path/to/image.png}} {{output}}`
 
 - Specify a custom [l]anguage (default is English) with an ISO 639-2 code (e.g. deu = Deutsch = German):
 
