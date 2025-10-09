@@ -1,21 +1,37 @@
 # choco
 
 > The Chocolatey package manager.
-> Some subcommands such as `install` have their own usage documentation.
+> Some subcommands such as `install`, `upgrade`, `pin` have their own usage documentation.
 > More information: <https://docs.chocolatey.org/en-us/choco/commands/>.
 
-- Execute a Chocolatey command:
+- Install a package:
 
-`choco {{command}}`
+`choco install {{package_name}}`
 
-- Display help:
+- Upgrade a specific installed package:
 
-`choco {{[-h|--help]}}`
+`choco upgrade {{package_name}}`
 
-- Display help for a specific command:
+- Upgrade all outdated packages and automatically confirm all prompts:
 
-`choco {{command}} {{[-h|--help]}}`
+`choco upgrade all {{[-y|--yes]}}`
 
-- Display version:
+- Uninstall a package and automatically confirm all prompts:
 
-`choco --version`
+`choco uninstall {{package_name}} {{[-y|--yes]}}`
+
+- Search for packages by name or keyword:
+
+`choco search {{query}}`
+
+- List all packages installed on the machine:
+
+`choco list`
+
+- Show packages that have newer versions available:
+
+`choco outdated`
+
+- Install a package from a specific source:
+
+`choco install {{package_name}} {{[-s|--source]}} {{source}}`
