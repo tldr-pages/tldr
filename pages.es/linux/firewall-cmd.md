@@ -32,6 +32,6 @@
 
 `firewall-cmd --runtime-to-permanent`
 
-- Habilitar el modo pánico en caso de emergencia. Todo el tráfico es descartado, cualquier conexión activa será terminada:
+- Habilita el modo pánico en caso de emergencia. Todo el tráfico es descartado, cualquier conexión activa será terminada:
 
 `firewall-cmd --panic-on`
