@@ -2,7 +2,7 @@
 
 > ترجمة ملفات مصدر C++.
 > جزء من حزمة GCC (مجموعة مترجمات جنو).
-> المزيد من التفاصيل: <https://gcc.gnu.org/onlinedocs/gcc/C_002b_002b-Dialect-Options.html>
+> لمزيد من التفاصيل: <https://gcc.gnu.org/onlinedocs/gcc/C_002b_002b-Dialect-Options.html>.
 
 - ترجمة ملف أو عدة ملفات مصدر إلى ملف تنفيذي:
 
