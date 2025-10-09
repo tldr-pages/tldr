@@ -15,6 +15,6 @@
 
 `sudo powertop --auto-tune`
 
-- Erstellet einen Bericht für eine bestimmte Anzahl von Sekunden (anstelle der standardmäßigen 20 Sekunden).:
+- Erstellet einen Bericht für eine bestimmte Anzahl von Sekunden (anstelle der standardmäßigen 20 Sekunden):
 
 `sudo powertop --time={{5}}`
