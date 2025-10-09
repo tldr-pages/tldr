@@ -31,6 +31,6 @@
 
 `pygbag {{path/to/project_folder}} --port {{8080}}`
 
-- Display help information:
+- Display help:
 
 `pygbag --help`
