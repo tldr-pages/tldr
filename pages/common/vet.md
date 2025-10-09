@@ -1,7 +1,7 @@
 # vet
 
 > Scan package manifests, directories, container images, or GitHub repositories to identify vulnerabilities, malicious packages, and enforce security policies using CEL expressions.
-> More information: <https://github.com/safedep/vet>.
+> More information: <https://safedep.github.io/vet>.
 
 - Scan the current directory:
 
