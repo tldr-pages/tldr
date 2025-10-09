@@ -16,6 +16,6 @@
 
 `finger {{user}}@{{host}} -l`
 
-- Display help information:
+- Display help:
 
 `finger /?`

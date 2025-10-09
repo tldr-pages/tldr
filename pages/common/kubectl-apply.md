@@ -6,7 +6,7 @@
 
 - Apply a configuration to a resource by file name:
 
-`kubectl apply {{[-f|--filename]}} {{path/to/filename}}`
+`kubectl apply {{[-f|--filename]}} {{path/to/file}}`
 
 - Apply a configuration to a resource from `kustomization.yaml` in a directory:
 
@@ -18,12 +18,12 @@
 
 - Edit the latest last-applied-configuration annotations of resources from the default editor:
 
-`kubectl apply edit-last-applied {{[-f|--filename]}} {{path/to/filename}}`
+`kubectl apply edit-last-applied {{[-f|--filename]}} {{path/to/file}}`
 
 - Set the latest last-applied-configuration annotations by setting it to match the contents of a file:
 
-`kubectl apply set-last-applied {{[-f|--filename]}} {{path/to/filename}}`
+`kubectl apply set-last-applied {{[-f|--filename]}} {{path/to/file}}`
 
 - View the latest last-applied-configuration annotations by type/name or file:
 
-`kubectl apply view-last-applied {{[-f|--filename]}} {{path/to/filename}}`
+`kubectl apply view-last-applied {{[-f|--filename]}} {{path/to/file}}`
