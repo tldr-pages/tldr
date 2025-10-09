@@ -28,7 +28,7 @@
 
 `firewall-cmd --reload`
 
-- Guardar el estado de configuración de tiempo de ejecución en la configuración permanente:
+- Guarda el estado de configuración de tiempo de ejecución en la configuración permanente:
 
 `firewall-cmd --runtime-to-permanent`
 
