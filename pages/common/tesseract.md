@@ -3,9 +3,9 @@
 > OCR (Optical Character Recognition) engine.
 > More information: <https://github.com/tesseract-ocr/tesseract/blob/main/doc/tesseract.1.asc>.
 
-- Recognize text in an image and save it to `output.txt` (the `.txt` extension is added automatically):
+- Recognize text in an image and save it to the given path (a `.txt` extension is added automatically):
 
-`tesseract {{path/to/image.png}} output`
+`tesseract {{path/to/image.png}} {{path/to/output_file}}`
 
 - Specify a custom [l]anguage (default is English) with an ISO 639-2 code (e.g. deu = Deutsch = German):
 
