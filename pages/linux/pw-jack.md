@@ -5,7 +5,7 @@
 
 - Run a command with its arguments, using PipeWire:
 
-`pw-jack {{command}} {{arguments...}}`
+`pw-jack {{command}} {{argument1 argument2 ...}}`
 
 - Run a command in verbose mode:
 
