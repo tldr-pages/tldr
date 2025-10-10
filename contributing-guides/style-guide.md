@@ -530,6 +530,7 @@ When documenting optional placeholders like paths or file extensions, it is sugg
 
 - Do not put placeholders inside placeholders.
 - Do not use placeholders when the value is explicitly stated in the description of the command. For example:
+
 ```md
 - Refresh the output every 2 seconds:
 
