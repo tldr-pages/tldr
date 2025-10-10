@@ -5,28 +5,28 @@
 
 - Print LVM on-disk headers and structures (label, PV header, MDA header, metadata area):
 
-`pvck --dump headers {{/dev/sdXN}}`
+`pvck {{/dev/sdXN}} --dump headers`
 
 - Print the current VG metadata text:
 
-`pvck --dump metadata {{/dev/sdXN}}`
+`pvck {{/dev/sdXN}} --dump metadata`
 
 - List all metadata versions found in the metadata area:
 
-`pvck --dump metadata_all {{/dev/sdXN}}`
+`pvck {{/dev/sdXN}} --dump metadata_all`
 
 - Search common locations for metadata when headers may be damaged, and save it to a file:
 
-`pvck --dump metadata_search {{[-f|--file]}} {{path/to/metadata.txt}} {{/dev/sdXN}}`
+`pvck {{/dev/sdXN}} --dump metadata_search {{[-f|--file]}} {{path/to/metadata.txt}}`
 
 - Select the second metadata area (mda2) when printing metadata:
 
-`pvck --dump metadata --settings "mda_num=2" {{/dev/sdXN}}`
+`pvck {{/dev/sdXN}} --dump metadata --settings "mda_num=2"`
 
 - Repair headers and metadata using a metadata input file (use with care):
 
-`pvck --repair {{[-f|--file]}} {{path/to/metadata_file}} {{/dev/sdXN}}`
+`pvck {{/dev/sdXN}} --repair {{[-f|--file]}} {{path/to/metadata_file}}`
 
 - Repair only the PV header and label header:
 
-`pvck --repairtype pv_header {{/dev/sdXN}}`
+`pvck {{/dev/sdXN}}` --repairtype pv_header
