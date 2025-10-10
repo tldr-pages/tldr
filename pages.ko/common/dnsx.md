@@ -2,7 +2,7 @@
 
 > 여러 DNS 쿼리를 실행하기 위한 빠르고 목적이 다양한 DNS 도구 키트.
 > 참고: 어떤 경우에는 `dnsx`에 대한 입력이 `stdin` (파이프 `|`)를 통해 전달되어야 함.
-> See also: `dig`, `dog`, `dnstracer`.
+> 같이 보기: `dig`, `dog`, `dnstracer`.
 > 더 많은 정보: <https://docs.projectdiscovery.io/tools/dnsx/running>.
 
 - (하위)도메인의 A 레코드를 쿼리하고 수신된 응답([re]sponse)을 표시:
