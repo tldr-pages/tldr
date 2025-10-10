@@ -1,7 +1,7 @@
 # pecl
 
 > Manage PHP extensions from the PHP Extension Community Library.
-> More information: <https://pecl.php.net>.
+> More information: <https://manned.org/pecl>.
 
 - Display a list of available commands:
 
