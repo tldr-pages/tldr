@@ -1,6 +1,6 @@
 # mvn archetype
 
-> Generate a new Maven project from a predefined template (archetype).  
+> Generate a new Maven project from a predefined template (archetype).
 > More information: <https://maven.apache.org/archetype/maven-archetype-plugin/usage.html>.
 
 - Generate a new project interactively:
