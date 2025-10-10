@@ -17,8 +17,8 @@
 
 - 使用自定义提示词前缀进行创建：
 
-`uv venv --prompt {{my_project}}`
+`uv venv --prompt {{我的_项目}}`
 
 - 创建并允许覆盖现有环境：
 
-`uv venv --allow-existing {{虚拟环境名称}}`
+`uv venv --allow-existing {{虚拟环境_名称}}`
