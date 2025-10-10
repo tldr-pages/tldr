@@ -18,7 +18,7 @@
 
 - Elimina un módulo y los que dependen de él desde el núcleo:
 
-`sudo modprobe --remove-dependencies {{nombre_del_módulo}}`
+`sudo modprobe {{[-r|--remove]}} --remove-holders {{nombre_del_módulo}}`
 
 - Muestra las dependencias de un módulo del kernel:
 
