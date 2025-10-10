@@ -6,7 +6,7 @@
 
 - Apply a config to a fresh node:
 
-`talosctl apply-config {{[-i|--insecture]}} {{[-n|--nodes]}} {{control_plane_ip}} {{[-f|--files]}} {{path/to/controlplane.yaml}}`
+`talosctl apply-config {{[-i|--insecture]}} {{[-n|--nodes]}} {{control_plane_ip}} {{[-f|--file]}} {{path/to/control_plane.yaml}}`
 
 - Bootstrap the `etcd` cluster on a node:
 
