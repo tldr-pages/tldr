@@ -29,4 +29,4 @@
 
 - Repair only the PV header and label header:
 
-`pvck {{/dev/sdXN}}` --repairtype pv_header
+`pvck {{/dev/sdXN}} --repairtype pv_header`
