@@ -526,8 +526,16 @@ When documenting optional placeholders like paths or file extensions, it is sugg
 
 - Use `{{path/to/source.ext}}` instead of `{{path/to/source.tar[.gz|.bz2|.xz]}}`.
 
-> [!IMPORTANT]
-> Do not put placeholders inside placeholders.
+#### Exceptions
+
+- Do not put placeholders inside placeholders.
+- Do not use placeholders when the value is explicitly stated in the description of the command. For example:
+
+```md
+- Refresh the output every 2 seconds:
+
+`free {{[-s|--seconds]}} 2`
+```
 
 ### Keypress syntax
 
