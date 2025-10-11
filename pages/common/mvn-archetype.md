@@ -9,4 +9,4 @@
 
 - Generate a project using specific archetype and parameters:
 
-`mvn archetype:generate -DarchetypeGroupId={{group_id}} -DarchetypeArtifactId={{artifact_id}} -DarchetypeVersion={{version}} -DgroupId={{project_group_id}} -DartifactId={{project_name}} -DinteractiveMode=false`
+`mvn archetype:generate {{[-D|--define]}} archetypeGroupId={{group_id}} {{[-D|--define]}} archetypeArtifactId={{artifact_id}} {{[-D|--define]}} archetypeVersion={{version}} {{[-D|--define]}} groupId={{project_group_id}} {{[-D|--define]}} artifactId={{project_name}} {{[-D|--define]}} interactiveMode=false`
