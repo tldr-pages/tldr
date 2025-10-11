@@ -7,6 +7,12 @@
 
 `mvn archetype:generate`
 
-- Generate a project using specific archetype and parameters:
+- Generate a project non-interactively with specific archetype and project parameters:
 
-`mvn archetype:generate {{[-D|--define]}} archetypeGroupId={{group_id}} {{[-D|--define]}} archetypeArtifactId={{artifact_id}} {{[-D|--define]}} archetypeVersion={{version}} {{[-D|--define]}} groupId={{project_group_id}} {{[-D|--define]}} artifactId={{project_name}} {{[-D|--define]}} interactiveMode=false`
+`mvn archetype:generate \
+  {{[-D|--define]}} archetypeGroupId={{group_id}} \
+  {{[-D|--define]}} archetypeArtifactId={{artifact_id}} \
+  {{[-D|--define]}} archetypeVersion={{version}} \
+  {{[-D|--define]}} groupId={{project_group_id}} \
+  {{[-D|--define]}} artifactId={{project_name}} \
+  {{[-D|--define]}} interactiveMode=false`
