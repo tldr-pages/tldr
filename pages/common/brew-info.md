@@ -1,6 +1,6 @@
 # brew info
 
-> Display information for Homebrew installation and formulas.
+> Display information for Homebrew installation and formulae.
 > More information: <https://docs.brew.sh/Manpage#info-abv-options-formulacask->.
 
 - Display statistics for Homebrew installation:
