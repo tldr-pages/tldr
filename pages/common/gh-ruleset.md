@@ -33,4 +33,4 @@
 
 - Open the list of rulesets for a specific repository in the browser:
 
-`gh {{[rs|ruleset]}} {{[ls|list]}} {{[-R|--repo]}} {{owner}}/{{repo}} --web`
+`gh {{[rs|ruleset]}} {{[ls|list]}} {{[-R|--repo]}} {{owner}}/{{repo}} {{[-w|--web]}}`
