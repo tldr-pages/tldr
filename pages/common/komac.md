@@ -25,7 +25,7 @@
 
 - Sync your fork of winget-pkgs with the upstream repository:
 
-`komac {{[sync|sync-fork|merge-upstream]}}`
+`komac {{[sync|sync-fork]}}`
 
 - Update the stored GitHub token:
 
