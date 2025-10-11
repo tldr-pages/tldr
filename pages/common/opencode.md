@@ -3,7 +3,7 @@
 > AI coding agent built for the terminal.
 > More information: <https://opencode.ai/docs/cli/>.
 
-- Start the terminal UI without using any arguments:
+- Start the interactive terminal UI:
 
 `opencode`
 
