@@ -1,21 +1,37 @@
 # choco
 
 > De Chocolatey pakket manager.
-> Sommige subcommando's zoals `install` hebben hun eigen gebruiksdocumentatie.
+> Sommige subcommando's zoals `install`, `upgrade`, `pin` hebben hun eigen gebruiksdocumentatie.
 > Meer informatie: <https://docs.chocolatey.org/en-us/choco/commands/>.
 
-- Voer een Chocolatey commando uit:
+- Installeer een pakket:
 
-`choco {{commando}}`
+`choco install {{pakketnaam}}`
 
-- Toon de algemene help:
+- Upgrade een specifiek geïnstalleerd pakket:
 
-`choco {{[-h|--help]}}`
+`choco upgrade {{pakketnaam}}`
 
-- Toon de help voor een specifiek commando:
+- Upgrade alle verouderde pakketten en bevestig automatisch alle vragen:
 
-`choco {{commando}} {{[-h|--help]}}`
+`choco upgrade all {{[-y|--yes]}}`
 
-- Bekijk de Chocolatey versie:
+- Verwijder een pakket en bevestig automatisch alle vragen:
 
-`choco --version`
+`choco uninstall {{pakketnaam}} {{[-y|--yes]}}`
+
+- Zoek voor pakketten op naam of sleutelwoord:
+
+`choco search {{query}}`
+
+- Toon alle geïnstalleerde pakketten:
+
+`choco list`
+
+- Toon pakketten die verouderd zijn:
+
+`choco outdated`
+
+- Installeer een pakket van een specifieke bron:
+
+`choco install {{pakketnaam}} {{[-s|--source]}} {{bron}}`
