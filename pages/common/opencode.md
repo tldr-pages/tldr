@@ -13,7 +13,7 @@
 
 - Run opencode in a non-interactive mode by passing a prompt directly:
 
-`opencode run [message..]`
+`opencode run {{message}}`
 
 - Manage AI assistant agents for OpenCode:
 
