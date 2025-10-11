@@ -11,7 +11,7 @@
 
 `systemctl kill {{[-s|--signal]}} {{signal_number|signal_name}} {{unit}}`
 
-- Send a `SIGHUP` signal to only the main process of a unit, which often reloads its configuration:
+- Send a `SIGHUP` signal to only the main process of a unit:
 
 `systemctl kill {{[-s|--signal]}} SIGHUP --kill-whom main {{unit}}`
 
