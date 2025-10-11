@@ -1,7 +1,6 @@
 # tginfo
 
 > Manage a Telegram account.
-> This tool is a part of `tgcloud`, `tgsend`, `tgutil`.
 > See also: `tgcloud`, `tgsend`, `tgutil`.
 > More information: <https://pypi.org/project/telegram-cloud/>.
 
