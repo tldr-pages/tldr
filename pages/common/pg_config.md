@@ -3,10 +3,6 @@
 > Display information about the installed PostgreSQL version.
 > More information: <https://www.postgresql.org/docs/current/app-pgconfig.html>.
 
-- Show only the version of PostgreSQL:
-
-`pg_config --version`
-
 - Show the directory where PostgreSQL binaries are installed:
 
 `pg_config --bindir`
@@ -30,3 +26,7 @@
 - Display help:
 
 `pg_config {{[-?|--help]}}`
+
+- Display version:
+
+`pg_config --version`
