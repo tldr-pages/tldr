@@ -28,6 +28,10 @@
 
 `pip show {{pakket}}`
 
+- Toon geïnstalleerde pakketten:
+
+`pip list`
+
 - Installeer pakketten van een bestand:
 
 `pip install {{[-r|--requirement]}} {{requirements.txt}}`
