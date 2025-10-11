@@ -1,31 +1,35 @@
 # gcrane
 
 > Beheer tool voor containerafbeeldingen.
-> Deze tool implementeert een superset van de `crane`-commando's, met aanvullende commando's die specifiek zijn voor `gcr.io`.
+> Deze tool implementeert een superset van de `crane`-commando's, met aanvullende commando's die specifiek zijn voor Google Container Registry (`gcr.io`).
 > Sommige subcommando's zoals `append`, `auth`, `copy`, enz. hebben hun eigen gebruiksdocumentatie die te vinden is onder `crane`.
 > Sommige subcommando's zoals `completion`, `gc`, `help` zijn specifiek voor gcrane en hebben hun eigen gebruiksdocumentatie.
 > Meer informatie: <https://github.com/google/go-containerregistry/blob/main/cmd/gcrane/README.md>.
 
-- Voer een `gcrane`-subcommando uit:
+- Log in op een register:
 
-`gcrane {{subcommando}}`
+`gcrane auth login {{register}} {{[-u|--username]}} {{gebruiker}} {{[-p|--password]}} {{wachtwoord}}`
 
-- Sta het pushen van niet-distributieve (vreemde) lagen toe:
+- Toon tags, manifesten en sub-repositories:
 
-`gcrane --allow-nondistributable-artifacts {{subcommando}}`
+`gcrane ls {{register}}/{{project_id}}`
 
-- Sta het ophalen van afbeeldingsreferenties zonder TLS toe:
+- Kopieer images van een register naar een andere:
 
-`gcrane --insecure {{subcommando}}`
+`gcrane cp {{[-r|--recursive]}} {{bronregister}}/{{project_id}}/{{repository}} {{doelregister}}/{{project_id}}/{{repository}}`
 
-- Specificeer het platform in de vorm os/arch{{/variant}}{{:osversion}} (bijv. linux/amd64). (standaard alles):
+- Toon images die door de garbage collecter verzameld kunnen worden:
 
-`gcrane --platform {{platform}} {{subcommando}}`
+`gcrane gc {{register}}/{{project_id}}/{{repository}}`
 
-- Schakel debuglogs in:
+- Verwijder images die door de garbage collecter verzameld kunnen worden:
 
-`gcrane {{[-v|--verbose]}} {{subcommando}}`
+`gcrane gc {{register}}/{{project_id}}/{{repository}} | xargs {{[-n|--max-args]}} 1 gcrane delete`
 
-- Toon de help:
+- Toon een specifiek register met een specifieke ID:
 
-`gcrane {{[-h|--help]}}`
+`gcrane ls {{gcr.io}}/{{mijn-project-id}}`
+
+- Migreer alle images van het VS-register naar het EU-register:
+
+`gcrane cp {{[-r|--recursive]}} {{gcr.io}}/{{mijn-project-id}}/{{repository}} {{eu.gcr.io}}/{{mijn-project-id}}/{{repository}}`

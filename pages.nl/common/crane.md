@@ -4,26 +4,34 @@
 > Sommige subcommando's zoals `pull`, `push`, `copy`, enz. hebben hun eigen gebruiksdocumentatie.
 > Meer informatie: <https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane.md/>.
 
-- Voer een `crane` subcommando uit:
+- Log in op een register:
 
-`crane {{subcommando}}`
+`crane auth login {{register}} {{[-u|--username]}} {{gebruiker}} {{[-p|--password]}} {{wachtwoord}}`
 
-- Sta het pushen van niet-distribueerbare (buitenlandse) lagen toe:
+- Toon de repositories in een register:
 
-`crane --allow-nondistributable-artifacts {{subcommando}}`
+`crane catalog {{register}} --full-ref`
 
-- Sta het ophalen van afbeeldingsreferenties zonder TLS toe:
+- Toon de tags in een repository:
 
-`crane --insecure {{subcommando}}`
+`crane ls {{repository}} {{[-o|--omit-digest-tags]}}`
 
-- Geef het platform op in de vorm os/arch{{/variant}}{{:osversion}} (bijv. linux/amd64). (standaard alle):
+- Haal externe images op door middel van referentie en sla de inhoud ervan lokaal op:
 
-`crane --platform {{platform}} {{subcommando}}`
+`crane pull {{image}} {{tarball}}`
 
-- Schakel debuglogs in voor een subcommando:
+- Push lokale inhoud van images naar een externe repository:
 
-`crane {{[-v|--verbose]}} {{subcommando}}`
+`crane push {{pad/naar/map_of_tarball}} {{image}}`
 
-- Toon de help voor een subcommando:
+- Tag efficiënt een externe image:
 
-`crane {{[-h|--help]}} {{subcommando}}`
+`crane tag {{image}} {{tag}}`
+
+- Kopieer efficiënt een externe image van `src` naar `dst` terwijl de digest-waarde behouden blijft:
+
+`crane copy src dst {{[-a|--all-tags]}}`
+
+- Verwijder een image-referentie van zijn register:
+
+`crane delete {{image}}`

@@ -15,6 +15,10 @@
 
 `pulumi up {{[-s|--stack]}} {{stack}}`
 
+- Ververs de status van de bronnen van de stack voor het updaten:
+
+`pulumi up {{[-r|--refresh]}}`
+
 - Toon de stack-uitvoer niet:
 
 `pulumi up --suppress-outputs`
@@ -22,3 +26,7 @@
 - Ga door met het updaten van de bronnen, zelfs als er een fout optreedt:
 
 `pulumi up --continue-on-error`
+
+- Toon de help:
+
+`pulumi up {{[-h|--help]}}`

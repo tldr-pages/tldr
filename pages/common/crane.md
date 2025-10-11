@@ -28,9 +28,9 @@
 
 `crane tag {{image}} {{tag}}`
 
-- Efficiently copy a remote image from src to dst while retaining the digest value:
+- Efficiently copy a remote image from `src` to `dst` while retaining the digest value:
 
-`crane copy {{src}} {{dst}} {{[-a|--all-tags]}}`
+`crane copy src dst {{[-a|--all-tags]}}`
 
 - Delete an image reference from its registry:
 

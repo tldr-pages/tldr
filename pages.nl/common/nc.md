@@ -5,7 +5,7 @@
 
 - Start een luisteraar op de opgegeven TCP poort en stuur er een bestand in:
 
-`nc -l -p {{poort}} < {{bestandsnaam}}`
+`nc < {{bestandsnaam}} -l -p {{poort}}`
 
 - Maak verbinding met een doelluisteraar op de opgegeven poort en ontvang er een bestand uit:
 
