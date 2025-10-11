@@ -29,7 +29,7 @@
 
 - Update the stored GitHub token:
 
-`komac token {{[update|new|add]}} {{[-t|--token]}} {{your_github_token}}`
+`komac token {{[add|update]}} {{[-t|--token]}} {{your_github_token}}`
 
 - Generate shell autocompletion script:
 
