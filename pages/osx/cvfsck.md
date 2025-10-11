@@ -2,7 +2,6 @@
 
 > Check and repair an Xsan file system volume.
 > Part of the Xsan file system utilities on macOS.
-> Requires superuser privileges.
 > More information: <https://www.manpagez.com/man/1/cvfsck/>.
 
 - Check an Xsan volume for metadata corruption:
