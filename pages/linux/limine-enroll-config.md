@@ -12,6 +12,6 @@
 
 `limine-enroll-config --reset {{path/to/BOOTX64.EFI}}`
 
-- Display the help message:
+- Display help:
 
 `limine-enroll-config --help`
