@@ -24,13 +24,13 @@
 
 `pip freeze > {{requirements.txt}}`
 
-- Toon informatie over geïnstalleerde pakketten:
-
-`pip show {{pakket}}`
-
 - Toon geïnstalleerde pakketten:
 
 `pip list`
+
+- Toon informatie over geïnstalleerde pakketten:
+
+`pip show {{pakket}}`
 
 - Installeer pakketten van een bestand:
 
