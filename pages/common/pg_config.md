@@ -29,4 +29,4 @@
 
 - Display help:
 
-`pg_config [-?|--help]`
+`pg_config {{[-?|--help]}}`
