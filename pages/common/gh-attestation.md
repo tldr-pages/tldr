@@ -1,4 +1,4 @@
-# gh-attestation
+# gh attestation
 
 > Download and verify artifact attestations to ensure their integrity and provenance.
 > More information: <https://cli.github.com/manual/gh_attestation>.
