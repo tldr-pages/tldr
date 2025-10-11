@@ -1,6 +1,6 @@
 # zrok
 
-> Open-source sharing tool to expose local services and files to the internet.
+> Expose local services and files to the internet.
 > Part of the OpenZiti project, offering secure, zero-trust sharing.
 > More information: <https://docs.zrok.io>.
 
