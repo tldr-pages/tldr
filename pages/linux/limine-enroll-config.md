@@ -8,7 +8,7 @@
 
 `limine-enroll-config {{path/to/BOOTX64.EFI}} {{blake2b_hash}}`
 
-- Remove an enrolled hash from the executable, disabling the config integrity check:
+- Remove the enrolled hash from the executable, disabling the config integrity check:
 
 `limine-enroll-config --reset {{path/to/BOOTX64.EFI}}`
 
