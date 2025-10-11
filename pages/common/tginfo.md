@@ -4,10 +4,10 @@
 > See also: `tgcloud`, `tgsend`, `tgutil`.
 > More information: <https://pypi.org/project/telegram-cloud/>.
 
-- Search all PDFs inside a telegram conversation:
+- Search for all files inside a Telegram conversation based on their filename or caption:
 
-`tginfo {{[-n|--name]}}  {{session_name}} {{[-u|--username]}}  {{chat_id}} {{[-s|--search]}} "SEARCH VALUE / FILE EXTENSION"`
+`tginfo {{[-n|--name]}}  {{session_name}} {{[-u|--username]}}  {{chat_id}} {{[-s|--search]}} "SEARCH VALUE / FILE NAME"`
 
-- Get info for all Media inside a telegram chat:
+- Get info for all media inside a Telegram chat:
 
 `tginfo {{[-n|--name]}} {{session_name}} {{[-u|--username]}} {{chat_id}}`
