@@ -1,6 +1,6 @@
 # limine-entry-tool
 
-> A helper script to manage (create, update, or delete) Limine bootloader entries on UEFI systems.
+> A helper script to manage Limine bootloader entries on UEFI systems.
 > More information: <https://gitlab.com/Zesko/limine-entry-tool/-/blob/master/README.md>.
 
 - Scan for other active UEFI boot entries and add them to the Limine menu:
