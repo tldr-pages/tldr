@@ -2,7 +2,7 @@
 
 > An AI coding agent with interactive terminal UI for intelligent coding assistance.
 > Supports multiple AI providers including OpenAI, Anthropic Claude, Google Gemini, and more.
-> More information: <https://opencode.ai.>
+> More information: <https://opencode.ai>.
 
 - Start opencode in interactive mode:
 
