@@ -8,7 +8,7 @@
 
 `zrok invite`
 
-- Enable the zrok environment with the token from your invitation email:
+- Enable the zrok environment with the token from an invitation email:
 
 `zrok enable {{your_token}}`
 
