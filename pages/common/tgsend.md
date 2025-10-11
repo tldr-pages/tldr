@@ -4,10 +4,10 @@
 > See also: `tgcloud`, `tginfo`, `tgutil`.
 > More information: <https://pypi.org/project/telegram-cloud/>.
 
-- Send message to chat:
+- Send a message to a chat:
 
 `tgsend {{[-n|--name]}}  {{session_name}} {{[-u|--username]}}  {{chat_id}} "MESSAGE TO SEND"`
 
-- Send message to chat with silent notificaton:
+- Send a message to chat with silent notification:
 
 `tgsend {{[-n|--name]}}  {{session_name}} {{[-u|--username]}}  {{chat_id}} --silent "MESSAGE TO SEND"`
