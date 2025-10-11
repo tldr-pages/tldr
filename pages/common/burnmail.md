@@ -1,15 +1,15 @@
 # burnmail
 
-> A simple tool to manage temporary email addresses with a TUI.
+> Manage temporary email addresses with a TUI.
 > More information: <https://github.com/fraluc06/burnmail>.
 
 - Generate a new disposable email address:
 
-`burnmail g`
+`burnmail {{[g|generate]}}`
 
 - List inbox messages (press `<Enter>` to view details):
 
-`burnmail m`
+`burnmail {{[m|messages]}}`
 
 - Display current account information:
 
@@ -17,4 +17,4 @@
 
 - Delete the active email account:
 
-`burnmail d`
+`burnmail {{[d|delete]}}`
