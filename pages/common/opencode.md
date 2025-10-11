@@ -17,7 +17,7 @@
 
 - Manage AI assistant agents for OpenCode:
 
-`opencode agent [command]`
+`opencode agent {{command}}`
 
 - Create a new agent with custom configuration:
 
