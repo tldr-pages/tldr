@@ -11,6 +11,6 @@
 
 `color /?`
 
-- Modifie la couleur du premier plan et l'arrière-plan de la console à l'aide de nombres hexadécimaux (`1-9,a-f`) :
+- Modifie la couleur du premier plan et de l'arrière-plan de la console à l'aide de nombres hexadécimaux (`1-9,a-f`) :
 
 `color {{code_premier_plan}}{{code_arrière_plan}}`
