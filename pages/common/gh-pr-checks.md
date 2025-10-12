@@ -9,12 +9,12 @@
 
 - Show checks for a specific pull request:
 
-`gh pr checks {{123}}`
+`gh pr checks {{pr_number}}`
 
 - Watch checks and update in real time until completion:
 
-`gh pr checks {{123}} --watch`
+`gh pr checks {{pr_number}} --watch`
 
 - Show only required checks:
 
-`gh pr checks {{123}} --required`
+`gh pr checks {{pr_number}} --required`
