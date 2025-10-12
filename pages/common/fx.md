@@ -1,28 +1,28 @@
 # fx
 
 > View and process JSON.
-> More information: <https://github.com/antonmedv/fx>.
+> More information: <https://fx.wtf/getting-started>.
 
 - View a JSON file interactively:
 
-`fx file.json`
+`fx {{path/to/file.json}}`
 
-- Pretty-print and colorize JSON from stdin:
+- Pretty-print and colorize JSON from `stdin`:
 
-`cat file.json | fx`
+`cat {{path/to/file.json}} | fx`
 
 - Open JSON data from a URL:
 
-`curl https://example.com/products | fx`
+`curl {{url}} | fx`
 
 - Filter JSON using JavaScript-like expressions:
 
-`fx file.json .name`
+`fx {{path/to/file.json}} {{.name}}`
 
 - Parse input as TOML to JSON:
 
-`fx --toml Cargo.toml`
+`fx --toml {{path/to/file.toml}}`
 
 - Parse input as YAML to JSON:
 
-`fx --yaml pipeline.yaml`
+`fx --yaml {{path/to/file.yaml}}`
