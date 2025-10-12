@@ -9,7 +9,7 @@
 
 - Restore a partition layout:
 
-`sudo sfdisk {{path/to/device}} < {{path/to/file.dump}}`
+`sudo sfdisk < {{path/to/file.dump}} {{path/to/device}}`
 
 - Set the type of a partition:
 

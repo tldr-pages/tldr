@@ -18,4 +18,4 @@
 
 - Replace environment variables in an input file from a space-separated list:
 
-`envsubst '{{$USER $SHELL $HOME}}' < {{path/to/input_file}}`
+`envsubst < {{path/to/input_file}} '{{$USER $SHELL $HOME}}'`

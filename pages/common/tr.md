@@ -5,7 +5,7 @@
 
 - Replace all occurrences of a character in a file, and print the result:
 
-`tr {{find_character}} {{replace_character}} < {{path/to/file}}`
+`tr < {{path/to/file}} {{find_character}} {{replace_character}}`
 
 - Replace all occurrences of a character from another command's output:
 
@@ -13,20 +13,20 @@
 
 - Map each character of the first set to the corresponding character of the second set:
 
-`tr '{{abcd}}' '{{jkmn}}' < {{path/to/file}}`
+`tr < {{path/to/file}} '{{abcd}}' '{{jkmn}}'`
 
 - Delete all occurrences of the specified set of characters from the input:
 
-`tr {{[-d|--delete]}} '{{input_characters}}' < {{path/to/file}}`
+`tr < {{path/to/file}} {{[-d|--delete]}} '{{input_characters}}'`
 
 - Compress a series of identical characters to a single character:
 
-`tr {{[-s|--squeeze-repeats]}} '{{input_characters}}' < {{path/to/file}}`
+`tr < {{path/to/file}} {{[-s|--squeeze-repeats]}} '{{input_characters}}'`
 
 - Translate the contents of a file to upper-case:
 
-`tr "[:lower:]" "[:upper:]" < {{path/to/file}}`
+`tr < {{path/to/file}} "[:lower:]" "[:upper:]"`
 
 - Strip out non-printable characters from a file:
 
-`tr {{[-cd|--complement --delete]}} "[:print:]" < {{path/to/file}}`
+`tr < {{path/to/file}} {{[-cd|--complement --delete]}} "[:print:]"`
