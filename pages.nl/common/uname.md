@@ -28,10 +28,6 @@
 
 `uname {{[-o|--operating-system]}}`
 
-- Toon de huidige netwerk node hostnaam:
-
-`uname {{[-n|--nodename]}}`
-
 - Toon de help:
 
 `uname --help`
