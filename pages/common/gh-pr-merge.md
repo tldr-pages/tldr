@@ -9,7 +9,7 @@
 
 - Merge the current branch into the specified pull request:
 
-`gh pr merge {{123}} {{[-m|--merge]}}`
+`gh pr merge {{pr_number}} {{[-m|--merge]}}`
 
 - Squash and merge, then delete the branch:
 
