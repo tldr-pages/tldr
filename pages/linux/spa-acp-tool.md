@@ -9,7 +9,7 @@
 
 - Probe a specific ALSA card by ID:
 
-`spa-acp-tool {{c|card}} {{card_id}}`
+`spa-acp-tool {{[c|card]}} {{card_id}}`
 
 - List available ALSA profiles for a card:
 
