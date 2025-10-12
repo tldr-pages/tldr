@@ -14,11 +14,11 @@
 
 - Start a fallback shell using a specific home directory path:
 
-`systemd-home-fallback-shell --home={{/home/username}}`
+`systemd-home-fallback-shell --home {{/home/username}}`
 
 - Use a specific shell instead of the default:
 
-`systemd-home-fallback-shell --shell={{/bin/bash}} {{username}}`
+`systemd-home-fallback-shell --shell {{/bin/bash}} {{username}}`
 
 - Run a command inside the fallback shell instead of starting an interactive session:
 
