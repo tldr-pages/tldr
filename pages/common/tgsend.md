@@ -6,8 +6,8 @@
 
 - Send a message to a chat:
 
-`tgsend {{[-n|--name]}}  {{session_name}} {{[-u|--username]}}  {{chat_id}} "MESSAGE TO SEND"`
+`tgsend {{[-n|--name]}} {{session_name}} {{[-u|--username]}} {{chat_id}} "{{message}}"`
 
 - Send a message to chat with silent notification:
 
-`tgsend {{[-n|--name]}}  {{session_name}} {{[-u|--username]}}  {{chat_id}} --silent "MESSAGE TO SEND"`
+`tgsend {{[-n|--name]}} {{session_name}} {{[-u|--username]}} {{chat_id}} --silent "{{message}}"`
