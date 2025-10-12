@@ -17,7 +17,7 @@
 
 - Specify a [c]olor scheme (1: pastel, 2: blue-yellow, 3: white-red, etc.):
 
-`gvmap -c {{2}} {{graph.gv}} -o {{output.xdot}}`
+`gvmap -c {{1|2|3|...}} {{graph.gv}} -o {{output.xdot}}`
 
 - Set the maximum number of [C]lusters (by default 0, meaning there is no limit):
 
