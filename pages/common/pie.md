@@ -5,7 +5,7 @@
 
 - Install or update an extension:
 
-`pie install {{extension}}`
+`pie install {{vendor}}/{{extension}}`
 
 - List installed extensions and their versions:
 
@@ -13,7 +13,7 @@
 
 - Display information about a specific package:
 
-`pie info {{extension}}`
+`pie info {{vendor}}/{{extension}}`
 
 - List the configured repositories:
 
