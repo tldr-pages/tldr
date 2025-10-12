@@ -11,7 +11,7 @@
 
 `sudo powertop --html={{power_report.html}}`
 
-- Ermittle und wende die optimalen Einstellungen an
+- Ermittle und wende die optimalen Einstellungen an:
 
 `sudo powertop --auto-tune`
 
