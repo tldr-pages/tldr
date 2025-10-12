@@ -3,7 +3,7 @@
 > Generate simple, structured abstract graphs.
 > More information: <https://graphviz.org/pdf/gvgen.1.pdf>.
 
-- Generate a [c]ycle with 10 vertices and edges:
+- Generate a [c]ycle with 10 vertices and edges and write it to `stdout`:
 
 `gvgen -c {{10}}`
 
