@@ -7,7 +7,7 @@
 
 `cluster {{input.gv}}`
 
-- Specify a target number of [C]lusters (approximate) to generate (0 by default):
+- Specify a target number of [C]lusters (approximate) to generate (0 by default, meaning a number that approximately optimizes the modularity):
 
 `cluster -C {{5}} {{input.gv}}`
 
