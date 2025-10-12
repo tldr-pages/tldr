@@ -13,7 +13,7 @@
 
 - Use a different [c]lustering method (0: modularity clustering, 1: modularity quality):
 
-`cluster -c {{1}} {{input.gv}}`
+`cluster -c {{0|1}} {{input.gv}}`
 
 - Save the [o]utput to a file:
 
