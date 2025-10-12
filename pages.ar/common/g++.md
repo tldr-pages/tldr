@@ -10,7 +10,7 @@
 
 - إظهار جميع التحذيرات:
 
-`g++ {{path/to/source.cpp}} -Wall {{[-o|--output]}}  {{path/to/output_executable}}`
+`g++ {{path/to/source.cpp}} -Wall {{[-o|--output]}} {{path/to/output_executable}}`
 
 - إظهار التحذيرات الشائعة، تضمين رموز التصحيح، وتحسين لا يؤثر في إزالة التصحيح:
 
