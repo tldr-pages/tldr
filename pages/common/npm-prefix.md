@@ -1,7 +1,7 @@
 # npm prefix
 
 > Print the local or global prefix to `stdout`.
-> More information: <https://docs.npmjs.com/cli/v8/commands/npm-prefix>.
+> More information: <https://docs.npmjs.com/cli/commands/npm-prefix>.
 
 - Print the local prefix:
 
