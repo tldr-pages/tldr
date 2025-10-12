@@ -10,7 +10,7 @@
 
 - Download a song in quiet mode (automatically select the first result):
 
-`ytmdl {{-q|--quiet}} {{song_name}}`
+`ytmdl {{[-q|--quiet]}} {{song_name}}`
 
 - Download a song to a specific directory:
 
