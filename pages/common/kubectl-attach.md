@@ -17,8 +17,8 @@
 
 - Create an interactive session with a pod:
 
-`kubectl attach {{pod_name}} {{[-i|--stdin]}} {{[-t|--tty]}}`
+`kubectl attach {{pod_name}} {{[-it|--stdin --tty]}}`
 
 - Create an interactive session with a specific container from a pod:
 
-`kubectl attach {{pod_name}} {{[-c|--container]}} {{container_name}} {{[-i|--stdin]}} {{[-t|--tty]}}`
+`kubectl attach {{pod_name}} {{[-c|--container]}} {{container_name}} {{[-it|--stdin --tty]}}`
