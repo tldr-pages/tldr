@@ -1,7 +1,7 @@
 # burnmail
 
 > Manage temporary email addresses with a TUI.
-> More information: <https://github.com/fraluc06/burnmail>.
+> More information: <https://github.com/fraluc06/burnmail#usage>.
 
 - Generate a new disposable email address:
 
