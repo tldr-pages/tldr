@@ -1,6 +1,6 @@
 # gvmap
 
-> Finds clusters and creates a geographical map highlighting clusters.
+> Find clusters and creates a geographical map highlighting clusters.
 > More information: <https://graphviz.org/pdf/gvmap.1.pdf>.
 
 - Generate a clustered map layout from a DOT format graph:
