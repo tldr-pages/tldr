@@ -1,7 +1,7 @@
 # systemctl is-enabled
 
 > Verifica si los archivos de unidad están habilitados.
-> Ver también: `systemctl enable`, `systemctl disable`.
+> Vea también: `systemctl enable`, `systemctl disable`.
 > Más información: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#is-enabled%20UNIT%E2%80%A6>.
 
 - Muestra el estado de habilitación:
