@@ -18,4 +18,3 @@
 - Describe given configuration parameters. If no arguments given, show information for all configuration parameters.:
 
 `conda config {{--describe}} {{<option>}}`
-
