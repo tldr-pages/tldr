@@ -1,6 +1,6 @@
 # dnf versionlock
 
-> Protect packages from updates to newer versions
+> Protect packages from updates to newer versions.
 > Not default to `dnf` but supported via `dnf-plugins-core`.
 > See also: `dnf`.
 > More information: <https://dnf-plugins-core.readthedocs.io/en/latest/versionlock.html>.
@@ -17,10 +17,10 @@
 
 `dnf versionlock list`
 
-- Remove any matching versionlock entries.
+- Remove any matching versionlock entries:
 
 `dnf versionlock delete {{package}}`
 
-- Remove all versionlock entries.
+- Remove all versionlock entries:
 
 `dnf versionlock clear`
