@@ -4,7 +4,7 @@
 > Note: This tool has been deprecated, but this entry is retained to aid anyone still using it.
 > More information: <https://graphviz.org/pdf/dotty.1.pdf>.
 
-- Open a graph file (.gv or .dot) in the Dotty editor:
+- Open a graph file (`.gv` or `.dot`) in the Dotty editor:
 
 `dotty {{path/to/graph.gv}}`
 
