@@ -1,11 +1,7 @@
 # vgcfgrestore
 
-> To restore volume group configuration  (not user data) from a text back up file produced by vgcfgbackup.
+> Restore volume group configuration  (not user data) from a text back up file produced by vgcfgbackup.
 > More information: <https://manned.org/vgcfgrestore>.
-
-- The `vgcfgrestore` restores the metadata of a VG from a text back up file produced by vgcfgbackup (to `/etc/lvm/backup/` by default):
-
-`vgcfgrestore`
 
 - Restore VG metadata from last backup.:
 
