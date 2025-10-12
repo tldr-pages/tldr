@@ -8,7 +8,7 @@
 
 `ytmdl {{song_name}}`
 
-- Download a song in quiet mode (automatically select the first result):
+- Download the first result without prompting:
 
 `ytmdl {{[-q|--quiet]}} {{song_name}}`
 
