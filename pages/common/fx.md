@@ -1,6 +1,6 @@
 # fx
 
-> Terminal JSON viewer and processor.
+> View and process JSON.
 > More information: <https://github.com/antonmedv/fx>.
 
 - View a JSON file interactively:
@@ -13,7 +13,7 @@
 
 - Open JSON data from a URL:
 
-`curl https://dummyjson.com/products | fx`
+`curl https://example.com/products | fx`
 
 - Filter JSON using JavaScript-like expressions:
 
