@@ -3,18 +3,18 @@
 > Optimierung des Energieverbrauchs.
 > Weitere Informationen: <https://github.com/fenrus75/powertop>.
 
-- Kalibrierung der Stromverbrauchsmessungen:
+- Kalibriere die Stromverbrauchsmessung:
 
 `sudo powertop --calibrate`
 
-- HTML-Stromverbrauchsbericht im aktuellen Verzeichnis erstellen:
+- Erstelle einen HTML-Stromverbrauchsbericht im aktuellen Verzeichnis:
 
 `sudo powertop --html={{power_report.html}}`
 
-- Optimale Einstellungen ermitteln und anwenden:
+- Ermittle und wende die optimalen Einstellungen an
 
 `sudo powertop --auto-tune`
 
-- Erstellet einen Bericht für eine bestimmte Anzahl von Sekunden (anstelle der standardmäßigen 20 Sekunden):
+- Erstelle den Bericht für die gewünschte Dauer (statt der voreingestellten 20 Sekunden):
 
 `sudo powertop --time={{5}}`
