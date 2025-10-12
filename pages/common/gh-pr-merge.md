@@ -11,7 +11,7 @@
 
 `gh pr merge {{pr_number}} {{[-m|--merge]}}`
 
-- Squash and merge, then delete the branch:
+- Squash and merge a pull request, then delete the branch:
 
 `gh pr merge {{123}} {{[-sd|--squash --delete-branch]}}`
 
