@@ -3,7 +3,7 @@
 > Syncs your project’s environment with the `poetry.lock` file.
 > These commands reference `poetry.lock` files in your Poetry configuration directory.
 > More information: <https://python-poetry.org/docs/cli/#sync>.
-> See also <https://python-poetry.org/docs/managing-dependencies/#group-include-pep735> and <https://python-poetry.org/docs/pyproject/#extras>.
+> See also: <https://python-poetry.org/docs/managing-dependencies/#group-include-pep735> and <https://python-poetry.org/docs/pyproject/#extras>.
 
 - Syncs your project’s environment with the `poetry.lock` file:
 
