@@ -1,7 +1,7 @@
 # limine
 
 > An advanced, portable, multiprotocol bootloader.
-> Some tools such as `limine-enroll-config`, `limine-entry-tool`, and `limine-snapper-sync` have their own usage documentation.
+> See also: `limine-enroll-config`, `limine-entry-tool`, `limine-snapper-sync`.
 > More information: <https://limine-bootloader.org/>.
 
 - Install Limine to an MBR-partitioned disk:
