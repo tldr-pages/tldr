@@ -17,8 +17,8 @@
 
 - Validate an integration with additional debug output:
 
-`zapier validate --debug`
+`zapier validate {{[-d|--debug]}}`
 
 - Validate an integration with a different output structure:
 
-`zapier validate --format {{plain|json|raw|row|table}}`
+`zapier validate {{[-f|--format]}} {{plain|json|raw|row|table}}`
