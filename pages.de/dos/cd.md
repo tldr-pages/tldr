@@ -1,7 +1,7 @@
 # CD
 
 > Ändere das aktuelle Arbeitsverzeichnis.
-> Weitere Informationen: <https://www.gnu.org/software/bash/manual/bash.html#index-cd>.
+> Weitere Informationen: <https://www.dosbox.com/wiki/Commands#CD_.28Change_Directory.29>.
 
 - Wechsle in das angegebene Verzeichnis:
 
