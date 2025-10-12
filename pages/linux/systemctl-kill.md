@@ -1,7 +1,7 @@
 # systemctl kill
 
 > Send a signal to one or more processes of a unit.
-> More information: <https://man7.org/linux/man-pages/man1/systemctl.1.html>.
+> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#kill%20PATTERN%E2%80%A6>.
 
 - Send the `SIGTERM` signal to a unit to terminate it:
 
