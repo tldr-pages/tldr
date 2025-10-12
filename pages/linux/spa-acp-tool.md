@@ -5,32 +5,32 @@
 
 - List all ALSA objects:
 
-`undefined{{[l|list]}}`
+`spa-acp-tool {{[l|list]}}`
 
 - Probe a specific ALSA card by ID:
 
-`undefined{{c|card}} {{card_id}}`
+`spa-acp-tool {{c|card}} {{card_id}}`
 
 - List available ALSA profiles for a card:
 
-`undefined{{[lpr|list-profiles]}} {{card_id}}`
+`spa-acp-tool {{[lpr|list-profiles]}} {{card_id}}`
 
 - Set the active ALSA profile by ID:
 
-`undefined{{[spr|set-profile]}} {{profile_id}}`
+`spa-acp-tool {{[spr|set-profile]}} {{profile_id}}`
 
 - List available devices for a card:
 
-`undefined{{[ld|list-devices]}} {{card_id}}`
+`spa-acp-tool {{[ld|list-devices]}} {{card_id}}`
 
 - Get volume from a device:
 
-`undefined{{[gv|get-volume]}} {{device_id}}`
+`spa-acp-tool {{[gv|get-volume]}} {{device_id}}`
 
 - Set volume on a device:
 
-`undefined{{[v|set-volume]}} {{device_id}} {{volume_level}}`
+`spa-acp-tool {{[v|set-volume]}} {{device_id}} {{volume_level}}`
 
 - Toggle mute state on a device:
 
-`undefined{{[m|toggle-mute]}} {{device_id}}`
+`spa-acp-tool {{[m|toggle-mute]}} {{device_id}}`

@@ -5,4 +5,4 @@
 
 - Display information about a SPA plugin:
 
-`undefined{{path/to/plugin.so}}`
+`spa-inspect {{path/to/plugin.so}}`
