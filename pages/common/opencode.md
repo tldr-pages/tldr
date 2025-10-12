@@ -1,6 +1,6 @@
 # opencode
 
-> AI coding agent built.
+> AI coding agent.
 > More information: <https://opencode.ai/docs/cli/>.
 
 - Start the interactive terminal UI:
