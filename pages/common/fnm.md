@@ -6,11 +6,11 @@
 
 - Install a specific version of Node.js:
 
-`fnm install {{node_version}}`
+`fnm {{[i|install]}} {{node_version}}`
 
 - List all available Node.js versions and highlight the default one:
 
-`fnm list`
+`fnm {{[ls|list]}}`
 
 - Use a specific version of Node.js in the current shell:
 
@@ -22,4 +22,4 @@
 
 - Uninstall a given Node.js version:
 
-`fnm uninstall {{node_version}}`
+`fnm {{[uni|uninstall]}} {{node_version}}`
