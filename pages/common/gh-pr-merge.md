@@ -25,4 +25,4 @@
 
 - Merge with admin privileges (if allowed):
 
-`gh pr merge {{123}} --admin`
+`gh pr merge {{pr_number}} --admin`
