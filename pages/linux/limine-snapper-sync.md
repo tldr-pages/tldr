@@ -1,7 +1,7 @@
 # limine-snapper-sync
 
 > Synchronize Limine boot menu entries with Btrfs snapshots managed by Snapper.
-> More information: <https://gitlab.com/Zesko/limine-snapper-sync/-/blob/master/README.md>.
+> More information: <https://gitlab.com/Zesko/limine-snapper-sync>.
 
 - Manually synchronize Snapper snapshots to create boot entries in Limine:
 
