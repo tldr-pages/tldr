@@ -21,7 +21,7 @@
 
 - Enable auto-merge (squash):
 
-`gh pr merge {{123}} --auto {{[-s|--squash]}}`
+`gh pr merge {{pr_number}} --auto {{[-s|--squash]}}`
 
 - Merge with admin privileges (if allowed):
 
