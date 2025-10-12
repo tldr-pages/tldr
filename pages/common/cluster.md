@@ -3,7 +3,7 @@
 > Find clusters in a graph and augment the graph with this information.
 > More information: <https://graphviz.org/pdf/cluster.1.pdf>.
 
-- Generate clusters that optimize modularity and print the result to stdout:
+- Generate clusters that optimize modularity and print the result to `stdout`:
 
 `cluster {{input.gv}}`
 
