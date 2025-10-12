@@ -13,4 +13,4 @@
 
 - Test an integration with additional debug output:
 
-`zapier test --debug`
+`zapier test {{[-d|--debug]}}`
