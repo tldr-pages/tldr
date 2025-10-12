@@ -10,8 +10,8 @@
 
 - Unmask and start a service immediately:
 
-`systemctl unmask --now {{service_name}}`
+`systemctl unmask {{service_name}} --now`
 
 - Unmask a user service:
 
-`systemctl unmask --user {{service_name}}`
+`systemctl unmask {{service_name}} --user`

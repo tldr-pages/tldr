@@ -9,7 +9,7 @@
 
 - Upload a file to a bucket:
 
-`exo storage put {{file_path}} {{bucket_name}}/{{prefix/}}`
+`exo storage put {{path/to/file}} {{bucket_name}}/{{prefix/}}`
 
 - List the objects within a bucket:
 

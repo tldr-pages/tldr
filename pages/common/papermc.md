@@ -21,7 +21,7 @@
 
 - Restore world data from a backup:
 
-`papermc restore {{path/to/filename}}`
+`papermc restore {{path/to/file}}`
 
 - Display help:
 

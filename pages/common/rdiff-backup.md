@@ -17,4 +17,4 @@
 
 - Restore backed up files as they were 3 days ago:
 
-`rdiff-backup restore --at 3D  {{path/to/backup}} {{path/to/destination}}`
+`rdiff-backup restore --at 3D {{path/to/backup}} {{path/to/destination}}`

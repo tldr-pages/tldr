@@ -1,6 +1,6 @@
 # git fast-export
 
-> Exports the contents and history of a Git repository in a streamable, plain-text format.
+> Export the contents and history of a Git repository in a streamable, plain-text format.
 > More information: <https://manned.org/git-fast-export>.
 
 - Export the entire Git repository history to `stdout`:
@@ -19,6 +19,6 @@
 
 `git fast-export --progress {{n}} --all > {{path/to/file}}`
 
-- Export only a specific subdirectory’s history:
+- Export only a specific subdirectory's history:
 
 `git fast-export --all -- {{path/to/directory}} > {{path/to/file}}`
