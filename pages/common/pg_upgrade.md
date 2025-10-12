@@ -21,7 +21,7 @@
 
 - Use hard links instead of copying files to the new cluster:
 
-`pg_upgrade {{[-k|--link]}} {{[-b|--old-bindir]}} {{path/to/old/bin}} {{[-B|--new-bindir]}} {{path/to/new/bin}} {{[-d|--old-datadir]}} {{path/to/old/data}} {{[-D|--new-datadir]}} {{path/to/new/data}}`
+`pg_upgrade {{[-k|--link]}} {{[-b|--old-bindir]}} {{path/to/old_bin}} {{[-B|--new-bindir]}} {{path/to/new_bin}} {{[-d|--old-datadir]}} {{path/to/old_data}} {{[-D|--new-datadir]}} {{path/to/new_data}}`
 
 - Display help:
 
