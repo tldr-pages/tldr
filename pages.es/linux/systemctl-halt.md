@@ -1,7 +1,7 @@
 # systemctl-halt
 
 > Apaga y detiene el sistema (detiene el kernel del SO pero mantiene el hardware encendido).
-> Ver también: `halt`.
+> Vea también: `halt`.
 > Más información: <https://www.freedesktop.org/software/systemd/man/systemctl.html#halt>.
 
 - Detiene el sistema:
