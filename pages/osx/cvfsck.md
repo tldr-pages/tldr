@@ -4,18 +4,18 @@
 > Part of the Xsan file system utilities on macOS.
 > More information: <https://www.manpagez.com/man/1/cvfsck/>.
 
-- Check an Xsan volume for metadata corruption:
+- Check an Xsan volume for metadata corruption (read-only mode):
 
 `sudo cvfsck {{/Volumes/XsanVolume}}`
 
-- Repair a corrupted Xsan volume:
+- Repair a corrupted Xsan volume (make modifications to fix problems):
 
 `sudo cvfsck -w {{/Volumes/XsanVolume}}`
 
-- Display a list of all files and their metadata:
+- Log problems to the system log (used mainly during automatic startup checks):
 
 `sudo cvfsck -l {{/Volumes/XsanVolume}}`
 
-- Print help for available options:
+- Report free-space fragmentation on an Xsan volume:
 
-`cvfsck -h`
+`sudo cvfsck -f {{/Volumes/XsanVolume}}`
