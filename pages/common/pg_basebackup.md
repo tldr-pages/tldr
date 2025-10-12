@@ -14,7 +14,7 @@
 
 - Create a compressed backup (`gzip`) in tar format:
 
-`pg_basebackup {{[-D|--pgdata]}} {{/path/to/backup_dir}} {{[-F|--format]}} t {{[-z|--gzip]}}`
+`pg_basebackup {{[-D|--pgdata]}} {{/path/to/backup_dir}} {{[-F|--format]}} {{t}} {{[-z|--gzip]}}`
 
 - Create an incremental backup using a previous manifest file:
 
