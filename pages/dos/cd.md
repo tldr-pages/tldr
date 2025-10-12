@@ -1,7 +1,7 @@
 # CD
 
 > Change the current working directory.
-> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-cd>.
+> More information: <https://www.dosbox.com/wiki/Commands#CD_.28Change_Directory.29>.
 
 - Go to the specified directory:
 
