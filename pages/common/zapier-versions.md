@@ -9,12 +9,12 @@
 
 - Include deprecated versions:
 
-`zapier versions --all`
+`zapier versions {{[-a|--all]}}`
 
 - Display additional debug output:
 
-`zapier versions --debug`
+`zapier versions {{[-d|--debug]}}`
 
 - List the versions with a different output structure:
 
-`zapier versions --format {{plain|json|raw|row|table}}`
+`zapier versions {{[-f|--format]}} {{plain|json|raw|row|table}}`
