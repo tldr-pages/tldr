@@ -7,7 +7,7 @@
 
 `gh pr merge`
 
-- Merge with a merge commit:
+- Merge the current branch into the specified pull request:
 
 `gh pr merge {{123}} {{[-m|--merge]}}`
 
