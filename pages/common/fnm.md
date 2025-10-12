@@ -8,6 +8,10 @@
 
 `fnm {{[i|install]}} {{node_version}}`
 
+- Install Node.js LTS:
+
+`fnm {{[i|install]}} --lts`
+
 - List all available Node.js versions and highlight the default one:
 
 `fnm {{[ls|list]}}`
