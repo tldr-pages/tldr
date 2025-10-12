@@ -17,7 +17,7 @@
 
 - Rebase and merge:
 
-`gh pr merge {{123}} {{[-r|--rebase]}}`
+`gh pr merge {{pr_number}} {{[-r|--rebase]}}`
 
 - Enable auto-merge (squash):
 
