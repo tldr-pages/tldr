@@ -13,7 +13,7 @@
 
 - Squash and merge a pull request, then delete the branch:
 
-`gh pr merge {{123}} {{[-sd|--squash --delete-branch]}}`
+`gh pr merge {{pr_number}} {{[-sd|--squash --delete-branch]}}`
 
 - Rebase and merge:
 
