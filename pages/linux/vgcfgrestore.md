@@ -7,7 +7,7 @@
 
 `vgcfgrestore {{vg_name}}`
 
-- Restore VG metadata from specified backup-file :
+- Restore VG metadata from specified backup-file:
 
 `vgcfgrestore {{[-f|--file]}} {{/path/to/file}} {{vg_name}}`
 
