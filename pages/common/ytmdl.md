@@ -14,7 +14,7 @@
 
 - Download a song to a specific directory:
 
-`ytmdl {{-o|--output-dir}} {{path/to/directory}} {{song_name}}`
+`ytmdl {{[-o|--output-dir]}} {{path/to/directory}} {{song_name}}`
 
 - Download a song from a YouTube URL:
 
