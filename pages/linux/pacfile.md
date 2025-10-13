@@ -9,7 +9,7 @@
 
 - Compare database values to the file system:
 
-`pacfile --check {{path/to/file_or_directory}}`
+`pacfile {{path/to/file_or_directory}} --check`
 
 - Display help:
 
