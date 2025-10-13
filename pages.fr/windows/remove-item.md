@@ -1,6 +1,6 @@
 # Remove-Item
 
-> Supprimez des fichier, des dossiers, ainsi que des clés et sous-clés de registre.
+> Supprime des fichier, des dossiers, ainsi que des clés et sous-clés de registre.
 > Cette commande ne peut être exécutée que via PowerShell.
 > Plus d'informations : <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/remove-item>.
 
