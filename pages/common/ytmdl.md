@@ -1,7 +1,7 @@
 # ytmdl
 
 > Download songs from YouTube and automatically add metadata.
-> Fetches song information (artist, album, cover art) from iTunes, Spotify, and other sources.
+> Fetch song information (artist, album, cover art) from iTunes, Spotify, and other sources.
 > More information: <https://github.com/deepjyoti30/ytmdl#usage>.
 
 - Download a song by name (with interactive selection):
