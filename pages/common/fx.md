@@ -19,10 +19,10 @@
 
 `fx {{path/to/file.json}} {{.name}}`
 
-- Parse input as TOML to JSON:
+- Parse a TOML input file into JSON:
 
 `fx --toml {{path/to/file.toml}}`
 
-- Parse input as YAML to JSON:
+- Parse a YAML input file into JSON:
 
 `fx --yaml {{path/to/file.yaml}}`
