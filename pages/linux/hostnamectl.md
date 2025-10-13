@@ -1,7 +1,7 @@
 # hostnamectl
 
 > Get or set the hostname of the computer.
-> More information: <https://manned.org/hostnamectl>.
+> More information: <https://www.freedesktop.org/software/systemd/man/hostnamectl.html>.
 
 - Get the hostname of the computer:
 
