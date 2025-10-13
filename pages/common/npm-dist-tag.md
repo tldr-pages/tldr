@@ -1,7 +1,7 @@
 # npm dist-tag
 
 > Manage distribution tags on packages.
-> More information: <https://docs.npmjs.com/cli/commands/npm-dist-tag>.
+> More information: <https://docs.npmjs.com/cli/npm-dist-tag>.
 
 - List all distribution tags for a package:
 
