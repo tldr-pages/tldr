@@ -5,6 +5,10 @@
 > See also: `dnf`.
 > More information: <https://dnf-plugins-core.readthedocs.io/en/latest/versionlock.html>.
 
+- List the current versionlock entries:
+
+`dnf versionlock`
+
 - Add a versionlock for all available packages matching the spec:
 
 `dnf versionlock add {{package}}`
@@ -12,10 +16,6 @@
 - Add an exclude (within versionlock) for the available packages matching the spec:
 
 `dnf versionlock exclude {{package}}`
-
-- List the current versionlock entries.:
-
-`dnf versionlock list`
 
 - Remove any matching versionlock entries:
 
