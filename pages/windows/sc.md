@@ -5,16 +5,24 @@
 
 - Show the status of a service (no service name will list all services):
 
-`sc.exe query {{service_name}}`
+`sc query {{service_name}}`
 
 - Start a service asynchronously:
 
-`sc.exe create {{service_name}} binpath= {{path\to\service_binary_file}}`
+`sc start {{service_name}}`
 
 - Stop a service asynchronously:
 
-`sc.exe delete {{service_name}}`
+`sc stop {{service_name}}`
+
+- Create a service:
+
+`sc create {{service_name}} binpath= {{path\to\service_binary_file}}`
+
+- Delete a service:
+
+`sc delete {{service_name}}`
 
 - Set the type of a service:
 
-`sc.exe config {{service_name}} type= {{service_type}}`
+`sc config {{service_name}} type= {{service_type}}`
