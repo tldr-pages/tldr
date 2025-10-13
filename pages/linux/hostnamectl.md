@@ -1,4 +1,4 @@
- # hostnamectl
+# hostnamectl
 
 > Get or set the hostname of the computer.
 > More information: <https://www.freedesktop.org/software/systemd/man/hostnamectl.html>.
