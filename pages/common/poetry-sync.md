@@ -9,7 +9,7 @@
 
 - Exclude one or more dependency groups for the installation:
 
-`poetry sync --without {{test|docs}}`
+`poetry sync --without {{test|docs|...}}`
 
 - Select optional dependency groups:
 
