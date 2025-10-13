@@ -13,7 +13,7 @@
 
 - Connect to a specific remote PipeWire instance:
 
-`pw-mididump {{[-r|--remote=]}}{{remote_instance_name}}`
+`pw-mididump {{[-r|--remote]}} {{remote_instance_name}}`
 
 - Display help:
 
