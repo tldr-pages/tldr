@@ -34,4 +34,4 @@
 
 - Display help:
 
-`ytmdl {{-h|--help}}`
+`ytmdl {{[-h|--help]}}`
