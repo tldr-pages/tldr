@@ -17,4 +17,4 @@
 
 - List timers matching a specific state (e.g., active, failed):
 
-`systemctl list-timers --state={{state}}`
+`systemctl list-timers --state {{state}}`
