@@ -17,11 +17,11 @@
 
 - Move the duplicate files in a TXT file to a different directory:
 
-`fclones move {{path/to/target_directory}} < {{path/to/file.txt}}`
+`fclones < {{path/to/file.txt}} move {{path/to/target_directory}}`
 
 - Perform a dry run for soft links in a TXT file without actually linking:
 
-`fclones link --soft < {{path/to/file.txt}} --dry-run 2 > /dev/null`
+`fclones < {{path/to/file.txt}} link --soft --dry-run 2 > /dev/null`
 
 - Delete the newest duplicates from the current directory without storing them in a file:
 
