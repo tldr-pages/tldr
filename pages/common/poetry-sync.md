@@ -1,6 +1,6 @@
 # poetry sync
 
-> Syncs your project’s environment with the `poetry.lock` file.
+> Syncs your project's environment with the `poetry.lock` file.
 > More information: <https://python-poetry.org/docs/cli/#sync>.
 
 - Sync your project’s environment with the `poetry.lock` file:
