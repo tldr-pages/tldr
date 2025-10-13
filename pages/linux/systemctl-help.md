@@ -9,7 +9,7 @@
 
 - Show the manual pages for multiple units:
 
-`systemctl help {{unit1}} {{unit2}}`
+`systemctl help {{unit1 unit2 ...}}`
 
 - Show the manual page for a user unit:
 
