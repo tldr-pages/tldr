@@ -5,8 +5,8 @@
 
 - Start the record (creates a preliminary link file):
 
-`in-toto-record start {{[-n|--step-name]}} {{path/to/edit_file1 path/to/edit_file2 ...}} -k {{path/to/key_file}} {{[-m|--materials]}} {{.}}`
+`in-toto-record start {{[-n|--step-name]}} {{path/to/edit_file1 path/to/edit_file2 ...}} --signing-key {{path/to/key_file}} {{[-m|--materials]}} {{.}}`
 
 - Stop the record (expects a preliminary link file):
 
-`in-toto-record stop {{[-n|--step-name]}} {{path/to/edit_file1 path/to/edit_file2 ...}} -k {{path/to/key_file}} {{[-p|--products]}} {{.}}`
+`in-toto-record stop {{[-n|--step-name]}} {{path/to/edit_file1 path/to/edit_file2 ...}} --signing-key {{path/to/key_file}} {{[-p|--products]}} {{.}}`
