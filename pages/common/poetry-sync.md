@@ -2,7 +2,6 @@
 
 > Syncs your project’s environment with the `poetry.lock` file.
 > These commands reference `poetry.lock` files in your Poetry configuration directory.
-> See also: <https://python-poetry.org/docs/managing-dependencies/#group-include-pep735> and <https://python-poetry.org/docs/pyproject/#extras>.
 > More information: <https://python-poetry.org/docs/cli/#sync>.
 
 - Sync your project’s environment with the `poetry.lock` file:
@@ -11,11 +10,11 @@
 
 - Exclude one or more dependency groups for the installation:
 
-`poetry sync --without test,docs`
+`poetry sync --without {{test,docs}}`
 
 - Select optional dependency groups:
 
-`poetry sync --with test,docs`
+`poetry sync --with {{test,docs}}`
 
 - Install all dependency groups including optional groups:
 
@@ -23,7 +22,7 @@
 
 - Install specific dependency groups:
 
-`poetry sync --only test,docs`
+`poetry sync --only {{test,docs}}`
 
 - Install project without dependencies:
 
@@ -31,7 +30,7 @@
 
 - Specify extras to install:
 
-`poetry sync -E |—extras`
+`poetry sync {{[-E |--extras]}}`
 
 - Skip the defaulted package installation for your project:
 
