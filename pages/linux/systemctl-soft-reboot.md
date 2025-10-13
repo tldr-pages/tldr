@@ -1,7 +1,7 @@
 # systemctl soft-reboot
 
 > Shut down and reboot userspace, leaving the kernel running.
-> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#soft-reboot>.
+> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#soft-reboot>.
 
 - Perform a soft reboot immediately:
 
