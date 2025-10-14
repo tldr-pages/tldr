@@ -3,18 +3,26 @@
 > Modify configuration values in .condarc.
 > More information: <https://docs.conda.io/projects/conda/en/latest/commands/config.html>.
 
-- Show current configuration values. Shows all configuration values if no arguments given.:
+- Show current configuration values. Shows all configuration values if no arguments given:
 
-`conda config {{--show}} {{setting_name}}`
+`conda config --show {{setting_name}}`
 
-- Set or remove a configuration value:
+- Set a configuration value:
 
-`conda config {{[--set|--remove]}} {{key}} {{value}}`
+`conda config --set {{key}} {{value}}`
 
-- Append or prepend a value to an existing configuration key:
+- Remove a configuration value:
 
-`conda config {{[--append|--prepend]}} {{key}} {{value}}`
+`conda config --remove {{key}} {{value}}
 
-- Describe given configuration parameters. If no arguments given, show information for all configuration parameters.:
+- Append a value to an existing configuration key list:
 
-`conda config {{--describe}} {{option}}`
+`conda config --append {{key}} {{value}}`
+
+- Prepend a value to an existing configuration key list:
+
+`conda config --prepend {{key}} {{value}}
+
+- Describe given configuration parameters. If no arguments given, show information for all configuration parameters:
+
+`conda config {{--describe}} {{configuration_option}}`
