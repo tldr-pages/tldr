@@ -2,7 +2,7 @@
 
 > Unset one or more service manager environment variables.
 > This undoes the effect of `systemctl set-environment`.
-> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#unset-environment%20VARIABLE%E2%80%A6>.
+> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#unset-environment%20VARIABLE%E2%80%A6>.
 
 - Unset a single environment variable:
 
