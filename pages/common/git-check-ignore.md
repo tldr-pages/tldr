@@ -13,7 +13,7 @@
 
 - Use pathnames, one per line, from `stdin`:
 
-`git check-ignore --stdin < {{path/to/file_list}}`
+`git < {{path/to/file_list}} check-ignore --stdin`
 
 - Do not check the index (used to debug why paths were tracked and not ignored):
 
