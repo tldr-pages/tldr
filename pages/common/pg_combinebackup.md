@@ -18,9 +18,9 @@
 
 - Use file cloning (reflinks) for efficient copy if supported:
 
-`pg_combinebackup {{--clone}} {{path/to/full_backup}} {{path/to/incremental_backup}} {{[-o|--output]}} {{path/to/output_directory}}`
+`pg_combinebackup --clone {{path/to/full_backup}} {{path/to/incremental_backup}} {{[-o|--output]}} {{path/to/output_directory}}`
 
-- Use the copy_file_range system call for efficient copying:
+- Use the `copy_file_range` system call for efficient copying:
 
 `pg_combinebackup --copy-file-range {{path/to/full_backup}} {{path/to/incremental_backup}} {{[-o|--output]}} {{path/to/output_directory}}`
 
@@ -30,8 +30,8 @@
 
 - Disable fsync for faster but unsafe writes (testing only):
 
-`pg_combinebackup --no-sync {{path/to/backups...}} {{[-o|--output]}} {{path/to/output_directory}}`
+`pg_combinebackup --no-sync {{path/to/backup1 path/to/backup2 ...}} {{[-o|--output]}} {{path/to/output_directory}}`
 
 - Show detailed debug output:
 
-`pg_combinebackup {{[-d|--debug]}} {{path/to/backups...}} {{[-o|--output]}} {{path/to/output_directory}}`
+`pg_combinebackup {{[-d|--debug]}} {{path/to/backup1 path/to/backup2 ...}} {{[-o|--output]}} {{path/to/output_directory}}`
