@@ -13,7 +13,7 @@
 
 - Remove a configuration value:
 
-`conda config --remove {{key}} {{value}}
+`conda config --remove {{key}} {{value}}`
 
 - Append a value to an existing configuration key list:
 
@@ -21,7 +21,7 @@
 
 - Prepend a value to an existing configuration key list:
 
-`conda config --prepend {{key}} {{value}}
+`conda config --prepend {{key}} {{value}}`
 
 - Describe given configuration parameters. If no arguments given, show information for all configuration parameters:
 
