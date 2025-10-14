@@ -1,6 +1,6 @@
 # oma
 
-> A package management frontend for dpkg-based GNU/Linux distributions and acts as the default package manager for [AOSC OS](https://aosc.io/), which enhances user experience and network performances.
+> A package management frontend for dpkg-based Linux distributions.
 > More information: <https://github.com/AOSC-Dev/oma>.
 
 - Enter the interactive package management interface:
