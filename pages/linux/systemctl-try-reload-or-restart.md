@@ -1,7 +1,7 @@
 # systemctl try-reload-or-restart
 
 > Reload one or more units if they support it; otherwise restart them.
-> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#try-reload-or-restart%20PATTERN%E2%80%A6>.
+> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#try-reload-or-restart%20PATTERN%E2%80%A6>.
 
 - Reload or restart a specific unit:
 
