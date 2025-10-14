@@ -17,7 +17,7 @@
 
 - Start a slideshow:
 
-`eog --slide-show {{path/to/image.jpg}}`
+`eog --slide-show {{path/to/directory}}`
 
 - Open a single image without image collection:
 
