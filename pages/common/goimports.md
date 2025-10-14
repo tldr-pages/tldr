@@ -1,6 +1,6 @@
 # goimports
 
-> Updates Go import lines, adding missing ones and removing unreferenced ones.
+> Update Go import lines, adding missing ones and removing unreferenced ones.
 > More information: <https://pkg.go.dev/golang.org/x/tools/cmd/goimports>.
 
 - Display the completed import source file:
