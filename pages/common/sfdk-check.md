@@ -1,6 +1,6 @@
 # sfdk check
 
-> Performs quality checks.
+> Perform quality checks.
 > More information: <https://github.com/sailfishos/sailfish-qtcreator/blob/master/share/qtcreator/sfdk/modules/20-building-mb2/doc/command.cmake.adoc>.
 
 - Display test suites:
