@@ -21,7 +21,7 @@
 
 - Execute SQL statements from a script file:
 
-`mariadb {{db_name}} < {{path/to/script.sql}} > {{path/to/output.tab}}`
+`mariadb < {{path/to/script.sql}} {{db_name}} > {{path/to/output.tab}}`
 
 - Check memory and open file usage at exit:
 
