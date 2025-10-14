@@ -1,7 +1,7 @@
 # pg_combinebackup
 
 > Reconstruct a full (synthetic) PostgreSQL backup from an incremental backup chain.
-> Specify all backups from oldest to newest; the output is written to the directory specified by `-o`.
+> When specifying multiple backups order them from oldest to newest
 > More information: <https://www.postgresql.org/docs/current/app-pgcombinebackup.html>.
 
 - Combine a full and incremental backup into one synthetic full backup:
