@@ -26,11 +26,11 @@
 
 - Relocate a tablespace during reconstruction:
 
-`pg_combinebackup {{path/to/backup1 path/to/backup2 ...}} {{[-T|--tablespace-mapping]}} {{/old/tablespace}}={{/new/tablespace}} {{[-o|--output]}} {{path/to/output_directory}}`
+`pg_combinebackup {{path/to/backup1 path/to/backup2 ...}} {{[-T|--tablespace-mapping]}} /{{path/to/old_tablespace}}=/{{path/to/new_tablespace}} {{[-o|--output]}} {{path/to/output_directory}}`
 
 - Disable fsync for faster but unsafe writes (testing only):
 
-`pg_combinebackup --no-sync {{path/to/backup1 path/to/backup2 ...}} {{[-o|--output]}} {{path/to/output_directory}}`
+`pg_combinebackup {{[-N|--no-sync]}} {{path/to/backup1 path/to/backup2 ...}} {{[-o|--output]}} {{path/to/output_directory}}`
 
 - Show detailed debug output:
 
