@@ -12,7 +12,7 @@
 
 `mvn dependency:analyze`
 
-- Copy all project dependencies:
+- Copy all project dependencies (by default, to `target/dependency/`):
 
 `mvn dependency:copy-dependencies`
 
