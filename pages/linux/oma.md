@@ -31,6 +31,6 @@
 
 `sudo oma refresh`
 
-- Get a full list of available sub-commands and arguments:
+- Display help:
 
 `oma help`
