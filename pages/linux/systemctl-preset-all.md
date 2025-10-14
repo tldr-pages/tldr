@@ -2,7 +2,7 @@
 
 > Reset the enablement state of all installed units to the defaults specified in preset policy files.
 > See also: `systemctl preset`, `systemctl list-unit-files`.
-> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#preset-all>.
+> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#preset-all>.
 
 - Reset the enablement state of all installed units:
 

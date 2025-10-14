@@ -1,7 +1,7 @@
 # kernel-install
 
 > Add and remove kernel and initrd images to and from `/boot`.
-> More information: <https://manned.org/kernel-install.8>.
+> More information: <https://www.freedesktop.org/software/systemd/man/kernel-install.html>.
 
 - Add kernel and initramfs images to bootloader partition:
 
