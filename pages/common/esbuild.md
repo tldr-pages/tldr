@@ -9,7 +9,7 @@
 
 - Bundle a JSX application from `stdin`:
 
-`esbuild --bundle --outfile={{path/to/out.js}} < {{path/to/file.jsx}}`
+`esbuild < {{path/to/file.jsx}} --bundle --outfile={{path/to/out.js}}`
 
 - Bundle and minify a JSX application with source maps in `production` mode:
 

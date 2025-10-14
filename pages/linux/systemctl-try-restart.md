@@ -1,7 +1,7 @@
 # systemctl try-restart
 
 > Restart one or more units only if they are currently running.
-> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#try-restart%20PATTERN%E2%80%A6>.
+> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#try-restart%20PATTERN%E2%80%A6>.
 
 - Restart a specific unit if it is running:
 

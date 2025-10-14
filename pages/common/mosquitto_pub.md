@@ -21,7 +21,7 @@
 
 - Send the contents of a file (`data.txt`), by reading from `stdin` and send the entire input as a message and publish it to `sensors/temperature` topic:
 
-`mosquitto_pub {{[-t|--topic]}} {{sensors/temperature}} {{[-s|--stdin-file]}} < {{data.txt}}`
+`mosquitto_pub < {{data.txt}} {{[-t|--topic]}} {{sensors/temperature}} {{[-s|--stdin-file]}}`
 
 - Read newline delimited data from `stdin` as a message and publish it to `sensors/temperature` topic:
 

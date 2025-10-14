@@ -1,7 +1,7 @@
 # npm completion
 
 > Enable or set up tab-completion for npm commands.
-> More information: <https://docs.npmjs.com/cli/commands/npm-completion>.
+> More information: <https://docs.npmjs.com/cli/npm-completion>.
 
 - Enable tab-completion for the current shell session:
 
