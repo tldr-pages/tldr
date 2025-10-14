@@ -1,6 +1,6 @@
 # pw-mididump
 
-> Dump MIDI messages to stdout.
+> Dump MIDI messages to `stdout`.
 > More information: <https://docs.pipewire.org/page_man_pw-mididump_1.html>.
 
 - Listen for and dump all incoming MIDI events:
