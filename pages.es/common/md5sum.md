@@ -25,7 +25,7 @@
 
 - Muestra un mensaje solo cuando falla la verificación, ignorando los archivos que faltan:
 
-`md5sum --ignore-missing {{[-c|--check]}}} --quiet {{ruta/al/archivo.md5}}`
+`md5sum --ignore-missing {{[-c|--check]}} --quiet {{ruta/al/archivo.md5}}`
 
 - Comprueba la suma de comprobación MD5 conocida de un archivo:
 
