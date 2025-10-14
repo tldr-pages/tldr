@@ -1,7 +1,7 @@
 # systemctl default
 
 > Enter system default mode.
-> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#default>.
+> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#default>.
 
 - Enter default mode as a blocking operation:
 

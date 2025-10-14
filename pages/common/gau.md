@@ -13,7 +13,7 @@
 
 - Fetch all URLs of several domains from an input file, running multiple threads:
 
-`gau --threads {{4}} < {{path/to/domains.txt}}`
+`gau < {{path/to/domains.txt}} --threads {{4}}`
 
 - Write [o]utput results to a file:
 

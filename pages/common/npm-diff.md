@@ -2,7 +2,7 @@
 
 > Compare package versions from the `npm` registry and show differences.
 > Similar to `git diff`.
-> More information: <https://docs.npmjs.com/cli/commands/npm-diff>.
+> More information: <https://docs.npmjs.com/cli/npm-diff>.
 
 - Compare two specific package versions:
 

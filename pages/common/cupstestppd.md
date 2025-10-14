@@ -12,7 +12,7 @@
 
 - Get the PPD file from `stdin`, showing detailed conformance testing results:
 
-`cupstestppd -v - < {{path/to/file.ppd}}`
+`cupstestppd < {{path/to/file.ppd}} -v -`
 
 - Test all PPD files under the current directory, printing the names of each file that does not conform:
 
