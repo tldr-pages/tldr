@@ -1,7 +1,7 @@
 # mvn package
 
 > Package the compiled code of a Maven project into its distributable format (such as a JAR or WAR).
-> More information: <https://maven.apache.org/plugins/maven-jar-plugin/usage.html>.
+> More information: <https://manned.org/mvn>.
 
 - Package a project:
 
