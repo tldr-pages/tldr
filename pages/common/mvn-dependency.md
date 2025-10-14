@@ -22,4 +22,4 @@
 
 - Force Maven to update all dependencies from remote repositories:
 
-`mvn dependency:resolve -U`
+`mvn dependency:resolve {{[-U|--update-snapshots]}}`
