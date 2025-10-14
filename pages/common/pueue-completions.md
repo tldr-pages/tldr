@@ -1,6 +1,6 @@
 # pueue completions
 
-> Generate shell completion files for Bash, Elvish, Fish, PowerShell, and Zsh.
+> Generate shell completion files for Bash, Elvish, fish, PowerShell, and Zsh.
 > More information: <https://github.com/Nukesor/pueue>.
 
 - Generate completions for Bash:
