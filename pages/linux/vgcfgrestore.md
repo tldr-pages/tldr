@@ -9,7 +9,7 @@
 
 - Restore VG metadata from specified backup-file:
 
-`vgcfgrestore {{[-f|--file]}} {{/path/to/file}} {{vg_name}}`
+`vgcfgrestore {{[-f|--file]}} {{path/to/file}} {{vg_name}}`
 
 - List all VG metadata backups:
 
@@ -17,4 +17,4 @@
 
 - List one VG metadata backup file:
 
-`vgcfgrestore {{[-l|--list ]}} {{[ -f|--file]}} {{/path/to/file}} {{vg_name}}`
+`vgcfgrestore {{[-l|--list ]}} {{[ -f|--file]}} {{path/to/file}} {{vg_name}}`
