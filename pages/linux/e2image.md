@@ -15,7 +15,7 @@
 
 `e2image -I {{/dev/sdXN}} {{path/to/image_file}}`
 
-- Create a large raw sparse file with metadata at proper offsets:
+- Create a large [r]aw sparse file with metadata at proper offsets:
 
 `e2image -r {{/dev/sdXN}} {{path/to/image_file}}`
 
