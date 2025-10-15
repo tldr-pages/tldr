@@ -9,4 +9,4 @@
 
 - ইনস্টল বা আপডেটের সময় বিস্তারিত ভার্সন তথ্য (verbose version info) দেখতে:
 
-`sudo apt install {{[-V|--verbose-versions]}} {{package}}`
+`sudo apt install {{[-V|--verbose-versions]}} {{প্যাকেজ}}`
