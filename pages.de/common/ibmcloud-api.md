@@ -1,7 +1,7 @@
 # ibmcloud api
 
 > IBM Cloud-API-Endpunkt festlegen oder anzeigen.
-> Mehr Informationen: <https://cloud.ibm.com/docs/cli?topic=cli-ibmcloud_cli#ibmcloud_api>.
+> Weitere Informationen: <https://cloud.ibm.com/docs/cli?topic=cli-ibmcloud_cli#ibmcloud_api>.
 
 - Gib den aktuellen API-Endpunkt aus:
 
