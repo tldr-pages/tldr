@@ -1,8 +1,8 @@
 # flameshot
 
-> একটি GUI সহ স্ক্রিনশট ইউটিলিটি।
+> GUI সহ স্ক্রিনশট ইউটিলিটি।
 > টেক্সট, শেইপ, কালার এবং imgur এর মতো বেসিক ইমেজ এডিটিং সাপোর্ট করে।
-> বিস্তারিত জানার জন্য: <https://flameshot.org/docs/advanced/commandline-options/>।
+> আরও তথ্য পাবেন: <https://flameshot.org/docs/advanced/commandline-options/>।
 
 - সম্পূর্ণ স্ক্রিনের স্ক্রিনশট নিতে:
 
@@ -14,7 +14,7 @@
 
 - নির্দিষ্ট পাথে স্ক্রিনশট সেভ করতে:
 
-`flameshot gui {{[-p|--path]}} {{path/to/directory}}`
+`flameshot gui {{[-p|--path]}} {{পাথ/টু/ডিরেক্টরি}}`
 
 - সরলীকৃত মোডে (simplified mode) ইন্টারঅ্যাকটিভভাবে স্ক্রিনশট নিতে:
 
