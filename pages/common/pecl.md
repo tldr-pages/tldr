@@ -11,7 +11,7 @@
 
 `pecl install {{package}}`
 
-- List installed package:
+- List installed packages:
 
 `pecl list`
 
