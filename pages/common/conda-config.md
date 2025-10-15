@@ -3,6 +3,10 @@
 > Modify configuration values in `.condarc`.
 > More information: <https://docs.conda.io/projects/conda/en/latest/commands/config.html>.
 
+- Show all configuration values:
+
+`conda config --show`
+
 - Show current value of a configuration option:
 
 `conda config --show {{config_option}}`
