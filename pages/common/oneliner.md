@@ -1,4 +1,3 @@
-
 # oneliner
 
 > Turn plain English into shell commands using OpenAI, Claude, or local LLMs, designed to teach, not replace your knowledge.  
