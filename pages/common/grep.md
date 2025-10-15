@@ -5,7 +5,7 @@
 
 - Search for a pattern within a file:
 
-`grep "{{search_pattern}}" {{path/to/file}}`
+`grep "{{search_pattern}}" {{path/to/file1 path/to/file2 ...}}`
 
 - Search for an exact string (disables `regex`es):
 
