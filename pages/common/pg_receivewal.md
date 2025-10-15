@@ -1,6 +1,6 @@
 # pg_receivewal
 
-> Streams the write-ahead log from a running PostgreSQL cluster.
+> Stream the write-ahead log from a running PostgreSQL cluster.
 > More information: <https://www.postgresql.org/docs/current/app-pgreceivewal.html>.
 
 - Stream WAL to a local directory (minimum required):
