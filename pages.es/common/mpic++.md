@@ -6,7 +6,7 @@
 
 - Compila un programa Open MPI:
 
-`mpic++ {{ruta/al/archivo_fuente}}
+`mpic++ {{ruta/al/archivo_fuente}}`
 
 - Muestra todas las banderas del wrapper:
 
