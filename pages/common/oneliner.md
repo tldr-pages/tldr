@@ -1,41 +1,30 @@
 
 # oneliner
 
-> Turn plain English into shell commands using OpenAI, Claude, or local LLMs — designed to teach, not replace your knowledge  
-> Commands are shown by default and not executed unless `--run` is used  
-> More information: <https://github.com/dorochadev/oneliner>
+> Turn plain English into shell commands using OpenAI, Claude, or local LLMs, designed to teach, not replace your knowledge.  
+> Commands are shown by default and not executed unless `--run` is used.  
+> More information: <https://github.com/dorochadev/oneliner>.
 
 - Generate a shell command from plain English  
-  ```bash
-  oneliner "find all jpg files larger than 10MB"
-  ```
+
+`oneliner "find all jpg files larger than 10MB"`
 
 - Explain what a command does
 
-  ```bash
-  oneliner --explain "delete node_modules recursively"
-  ```
+`oneliner --explain "delete node_modules recursively"`
 
 - Copy a generated command to the clipboard
 
-  ```bash
-  oneliner --clipboard "compress all pdfs"
-  ```
+  `oneliner --clipboard "compress all pdfs"`
 
 - Show a detailed, educational breakdown of a command
 
-  ```bash
-  oneliner --breakdown "list all active network connections"
-  ```
+  `oneliner --breakdown "list all active network connections"`
 
 - Execute a generated command (use with caution)
 
-  ```bash
-  oneliner --run "list files larger than 1GB"
-  ```
+  `oneliner --run "list files larger than 1GB"`
 
 - Interactively confirm before executing a generated command
 
-  ```bash
-  oneliner --interactive "delete temporary files in /tmp"
-  ```
+  `oneliner --interactive "delete temporary files in /tmp"`
