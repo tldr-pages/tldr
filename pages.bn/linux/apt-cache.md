@@ -5,20 +5,20 @@
 
 - বর্তমান সোর্সে কোনো প্যাকেজ খোঁজার জন্য:
 
-`apt-cache search {{query}}`
+`apt-cache search {{কোয়েরি}}`
 
 - কোনো নির্দিষ্ট প্যাকেজের তথ্য দেখতে:
 
-`apt-cache show {{package}}`
+`apt-cache show {{প্যাকেজ}}`
 
 - কোনো প্যাকেজ ইনস্টল করা আছে কিনা এবং তা আপডেটেড কিনা দেখতে:
 
-`apt-cache policy {{package}}`
+`apt-cache policy {{প্যাকেজ}}`
 
 - কোনো প্যাকেজের ডিপেন্ডেন্সিগুলো (dependencies) দেখতে:
 
-`apt-cache depends {{package}}`
+`apt-cache depends {{প্যাকেজ}}`
 
 - কোন প্যাকেজগুলো একটি নির্দিষ্ট প্যাকেজের উপর নির্ভর করে তা দেখতে:
 
-`apt-cache rdepends {{package}}`
+`apt-cache rdepends {{প্যাকেজ}}`

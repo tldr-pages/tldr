@@ -5,20 +5,20 @@
 
 - বর্তমান সিস্টেমের প্যাকেজ অবস্থা একটি নির্দিষ্ট ডিরেক্টরিতে ক্লোন করতে:
 
-`apt-clone clone {{path/to/directory}}`
+`apt-clone clone {{পাথ/টু/ডিরেক্টরি}}`
 
 - ব্যাকআপের জন্য একটি ক্লোন ফাইল (`tar.gz`) তৈরি করতে:
 
-`apt-clone clone --destination {{path/to/backup.tar.gz}}`
+`apt-clone clone --destination {{পাথ/টু/backup.tar.gz}}`
 
 - একটি ক্লোন ফাইল থেকে সিস্টেমের প্যাকেজ অবস্থা পুনরুদ্ধার করতে:
 
-`apt-clone restore {{path/to/backup.tar.gz}}`
+`apt-clone restore {{পাথ/টু/backup.tar.gz}}`
 
 - কোনো ক্লোন ফাইলের তথ্য (যেমন রিলিজ, আর্কিটেকচার ইত্যাদি) দেখতে:
 
-`apt-clone info {{path/to/backup.tar.gz}}`
+`apt-clone info {{পাথ/টু/backup.tar.gz}}`
 
 - ক্লোন ফাইলটি বর্তমান সিস্টেমে পুনরুদ্ধারযোগ্য কিনা পরীক্ষা করতে:
 
-`apt-clone restore {{path/to/backup.tar.gz}} --destination {{path/to/restore}}`
+`apt-clone restore {{পাথ/টু/backup.tar.gz}} --destination {{পাথ/টু/restore}}`
