@@ -3,17 +3,22 @@
 > Debian এবং Ubuntu-তে ব্যবহৃত একটি প্যাকেজ অনুসন্ধান (package query) টুল।
 > বিস্তারিত জানার জন্য: [https://manned.org/apt-cache.8](https://manned.org/apt-cache.8)
 
-* বর্তমান সোর্সে কোনো প্যাকেজ খোঁজার জন্য:
-  `apt-cache search {{query}}`
+- বর্তমান সোর্সে কোনো প্যাকেজ খোঁজার জন্য:
 
-* কোনো নির্দিষ্ট প্যাকেজের তথ্য দেখতে:
-  `apt-cache show {{package}}`
+`apt-cache search {{query}}`
 
-* কোনো প্যাকেজ ইনস্টল করা আছে কিনা এবং তা আপডেটেড কিনা দেখতে:
-  `apt-cache policy {{package}}`
+- কোনো নির্দিষ্ট প্যাকেজের তথ্য দেখতে:
 
-* কোনো প্যাকেজের ডিপেন্ডেন্সিগুলো (dependencies) দেখতে:
-  `apt-cache depends {{package}}`
+`apt-cache show {{package}}`
 
-* কোন প্যাকেজগুলো একটি নির্দিষ্ট প্যাকেজের উপর নির্ভর করে তা দেখতে:
-  `apt-cache rdepends {{package}}`
+- কোনো প্যাকেজ ইনস্টল করা আছে কিনা এবং তা আপডেটেড কিনা দেখতে:
+
+`apt-cache policy {{package}}`
+
+- কোনো প্যাকেজের ডিপেন্ডেন্সিগুলো (dependencies) দেখতে:
+
+`apt-cache depends {{package}}`
+
+- কোন প্যাকেজগুলো একটি নির্দিষ্ট প্যাকেজের উপর নির্ভর করে তা দেখতে:
+
+`apt-cache rdepends {{package}}`
