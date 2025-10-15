@@ -10,7 +10,7 @@
 
 - Set the semicolon-separated list of directories to search in:
 
-`PATH {{path/to/directory1;path/to/directory2...}}`
+`PATH {{path/to/directory1;path/to/directory2;...}}`
 
 - Append a directory to the search path:
 
