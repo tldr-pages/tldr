@@ -1,11 +1,11 @@
 # conda config
 
-> Modify configuration values in .condarc.
+> Modify configuration values in `.condarc`.
 > More information: <https://docs.conda.io/projects/conda/en/latest/commands/config.html>.
 
-- Show current configuration values. Shows all configuration values if no arguments given:
+- Show current value of a configuration option:
 
-`conda config --show {{setting_name}}`
+`conda config --show {{config_option}}`
 
 - Set a configuration value:
 
@@ -23,6 +23,6 @@
 
 `conda config --prepend {{key}} {{value}}`
 
-- Describe given configuration parameters. If no arguments given, show information for all configuration parameters:
+- Describe given configuration option:
 
-`conda config {{--describe}} {{configuration_option}}`
+`conda config --describe {{config_option}}`
