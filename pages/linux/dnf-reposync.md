@@ -11,7 +11,7 @@
 
 - Synchronize all packages and define a custom save location:
 
-`dnf reposync {{[-p|--download-path]}} {{path/to/directory}} --repoid {{repo_name}}`
+`dnf reposync --repoid {{repo_name}} {{[-p|--download-path]}} {{path/to/directory}}`
 
 - Synchronize all packages and metadata:
 
@@ -19,12 +19,12 @@
 
 - Download only newest packages per-repo:
 
-`dnf reposync {{[-n|--newest-only]}} --repoid {{repo_name}}`
+`dnf reposync --repoid {{repo_name}} {{[-n|--newest-only]}}`
 
 - Print just urls of what would be downloaded, don’t download:
 
-`dnf reposync {{[-u|--urls]}} --repoid {{repo_name}}`
+`dnf reposync --repoid {{repo_name}} {{[-u|--urls]}}`
 
 - Try to set the timestamps of the downloaded files to those on the remote side:
 
-`dnf reposync --remote-time --repoid {{repo_name}}`
+`dnf reposync --repoid {{repo_name}} --remote-time`
