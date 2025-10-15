@@ -1,7 +1,7 @@
 # kdash
 
-> A simple terminal dashboard for Kubernetes.
-> Mode information: <https://github.com/kdash-rs/kdash/#usage>.
+> A simple dashboard for Kubernetes.
+> More information: <https://github.com/kdash-rs/kdash/#usage>.
 
 - Show dashboard:
 

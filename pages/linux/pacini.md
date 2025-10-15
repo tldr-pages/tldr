@@ -9,15 +9,15 @@
 
 - List configured sections:
 
-`pacini --section-list`
+`pacini {{path/to/file}} --section-list`
 
 - Always show directive names even if only one directive is provided:
 
-`pacini --verbose {{directive}}`
+`pacini {{path/to/file}} --verbose`
 
 - Display directives listed in a specific section:
 
-`pacini --section {{section_name}}`
+`pacini {{path/to/file}} --section {{section_name}}`
 
 - Display help:
 
