@@ -18,7 +18,7 @@
 
 - Print the tldr page for a command from a specific platform:
 
-`tldr {{[-p|--platform]}} {{android|common|freebsd|linux|osx|netbsd|openbsd|sunos|windows}} {{command}}`
+`tldr {{[-p|--platform]}} {{android|cisco-ios|common|dos|freebsd|linux|netbsd|openbsd|osx|sunos|windows}} {{command}}`
 
 - Update the local cache of tldr pages:
 
