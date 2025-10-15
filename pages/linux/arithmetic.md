@@ -11,6 +11,6 @@
 
 `arithmetic -o {{+|-|x|/}}`
 
-- Specify a range. Addition and multiplication problems would feature numbers between 0 and range, inclusive. Subtraction and division problems would have required result and number to be operated on, between 0 and range:
+- Specify a [r]ange. Addition and multiplication problems would feature numbers between 0 and range, inclusive. Subtraction and division problems would have required result and number to be operated on, between 0 and range:
 
 `arithmetic -r {{7}}`
