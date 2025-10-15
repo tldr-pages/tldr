@@ -13,7 +13,7 @@
 
 - Increase the verbosity level (use multiple times for more verbosity, e.g. `-vvv`):
 
-`pipewire-pulse -v`
+`pipewire-pulse {{[-v|--verbose]}}`
 
 - Display help:
 
