@@ -5,26 +5,26 @@
 > See also: `dnf`.
 > More information: <https://dnf-plugins-core.readthedocs.io/en/latest/reposync.html>.
 
-- Synchronize all packages from the repository with id “the_repo”. The synchronized copy is saved in “the_repo” subdirectory of the current working directory:
+- Synchronize all packages from the repository with id `repo_name`. The synchronized copy is saved in `repo_name` subdirectory of the current working directory:
 
-`dnf reposync --repoid={{the_repo}}`
+`dnf reposync --repoid {{repo_name}}`
 
-- Synchronize all packages from the repository with id “the_repo”. In this case files are saved in “/path/to/directory” directory:
+- Synchronize all packages and define a custom save location:
 
-`dnf reposync -p {{/path/to/directory}} --repoid={{the_repo}}`
+`dnf reposync {{[-p|--download-path]}} {{path/to/directory}} --repoid {{repo_name}}`
 
-- Synchronize all packages and metadata from “the_repo” repository:
+- Synchronize all packages and metadata:
 
-`dnf reposync --repoid={{the_repo}} --download-metadata`
+`dnf reposync --repoid {{repo_name}} --download-metadata`
 
 - Download only newest packages per-repo:
 
-`dnf reposync {{-n|--newest-only}} --repoid={{the_repo}}`
+`dnf reposync {{[-n|--newest-only]}} --repoid {{repo_name}}`
 
 - Print just urls of what would be downloaded, don’t download:
 
-`dnf reposync {{-u|--urls}} --repoid={{the_repo}}`
+`dnf reposync {{[-u|--urls]}} --repoid {{repo_name}}`
 
 - Try to set the timestamps of the downloaded files to those on the remote side:
 
-`dnf reposync --remote-time --repoid={{the_repo}}`
+`dnf reposync --remote-time --repoid {{repo_name}}`
