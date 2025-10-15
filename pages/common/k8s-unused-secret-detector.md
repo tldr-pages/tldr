@@ -13,4 +13,4 @@
 
 - Delete unused secrets in a specific namespace:
 
-`k8s-unused-secret-detector {{[-n|--namespace]}} {{namespace}} | kubectl delete secret {{[-n|--namespace]}} {{namespace}}`
+`k8s-unused-secret-detector {{[-n|--namespace]}} {{namespace}} | kubectl delete secrets {{[-n|--namespace]}} {{namespace}}`
