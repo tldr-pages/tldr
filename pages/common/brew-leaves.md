@@ -17,4 +17,4 @@
 
 - Display help:
 
-`brew install {{[-h|--help]}}`
+`brew leaves {{[-h|--help]}}`
