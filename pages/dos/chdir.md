@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr cd`
+`tldr {{[-p|--platform]}} dos cd`
