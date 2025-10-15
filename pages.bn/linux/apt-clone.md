@@ -1,7 +1,7 @@
 # apt-clone
 
 > Debian-ভিত্তিক সিস্টেমের প্যাকেজ অবস্থা (package state) ক্লোন, ব্যাকআপ বা পুনরুদ্ধার (restore) করার জন্য ব্যবহৃত টুল।
-> বিস্তারিত জানার জন্য: [https://github.com/mvo5/apt-clone](https://github.com/mvo5/apt-clone)
+> আরও তথ্য পাবেন: <https://github.com/mvo5/apt-clone>।
 
 - বর্তমান সিস্টেমের প্যাকেজ অবস্থা একটি নির্দিষ্ট ডিরেক্টরিতে ক্লোন করতে:
 
