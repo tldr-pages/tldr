@@ -10,7 +10,3 @@
 - Display help for a specific command:
 
 `poetry help {{config|show|...}}`
-
-- Display help for a specific command using the `—help` option:
-
-`poetry {{config|show|...}} --help`
