@@ -1,6 +1,6 @@
 # pg_waldump
 
-> Display a human-readable rendering of the write-ahead log (WAL) of a PostgreSQL cluster (for debugging/inspection purposes).
+> Display a human-readable rendering of the write-ahead log (WAL).
 > More information: <https://www.postgresql.org/docs/current/pgwaldump.html>.
 
 - Basic invocation reading a WAL segment (or range):
@@ -9,28 +9,28 @@
 
 - Specify the WAL file directory:
 
-`pg_waldump {{[-p|--path]}} {{path}} {{[startseg]}} {{[endseg]}}`
+`pg_waldump {{[startseg]}} {{[endseg]}} {{[-p|--path]}} {{path}}`
 
 - Start from a particular WAL location (LSN):
 
-`pg_waldump {{[-s|--start]}} {{lsn}} {{[startseg]}} {{[endseg]}}`
+`pg_waldump {{[startseg]}} {{[endseg]}} {{[-s|--start]}} {{lsn}}`
 
 - Stop at a particular WAL location (LSN):
 
-`pg_waldump {{[-e|--end]}} {{lsn}} {{[startseg]}} {{[endseg]}}`
+`pg_waldump {{[startseg]}} {{[endseg]}} {{[-e|--end]}} {{lsn}}`
 
 - Follow new WAL entries as they arrive:
 
-`pg_waldump {{[-f|--follow]}} {{[startseg]}} {{[endseg]}}`
+`pg_waldump {{[startseg]}} {{[endseg]}} {{[-f|--follow]}}`
 
 - Limit number of records shown:
 
-`pg_waldump {{[-n|--limit]}} {{count}} {{[startseg]}} {{[endseg]}}`
+`pg_waldump {{[startseg]}} {{[endseg]}} {{[-n|--limit]}} {{count}}`
 
 - Quiet mode (suppress output except errors):
 
-`pg_waldump {{[-q|--quiet]}} {{[startseg]}} {{[endseg]}}`
+`pg_waldump {{[startseg]}} {{[endseg]}} {{[-q|--quiet]}}`
 
 - Filter by resource manager:
 
-`pg_waldump {{[-r|--rmgr]}} {{rmgr_name}} {{[startseg]}} {{[endseg]}}`
+`pg_waldump {{[startseg]}} {{[endseg]}} {{[-r|--rmgr]}} {{rmgr_name}}`
