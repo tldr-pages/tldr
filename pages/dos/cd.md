@@ -1,7 +1,7 @@
 # CD
 
 > Change the current working directory.
-> More information: <https://www.dosbox.com/wiki/Commands#CD_.28Change_Directory.29>.
+> More information: <https://help.fdos.org/en/hhstndrd/command/cd.htm>.
 
 - Go to the specified directory:
 
