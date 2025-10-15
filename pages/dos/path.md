@@ -14,11 +14,11 @@
 
 - Append a directory to the search path:
 
-`PATH %PATH%;{{path/to/directory}}
+`PATH %PATH%;{{path/to/directory}}`
 
 - Add a directory to the beginning of the search path:
 
-`PATH {{path/to/directory}};%PATH%
+`PATH {{path/to/directory}};%PATH%`
 
 - Clear the search path:
 
