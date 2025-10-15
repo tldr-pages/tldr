@@ -8,7 +8,7 @@
 
 `arping {{host_ip}}`
 
-- Ping a host on a specific interface:
+- Ping a host on a specific [I]nterface:
 
 `arping -I {{interface}} {{host_ip}}`
 

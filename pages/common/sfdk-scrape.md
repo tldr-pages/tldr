@@ -15,7 +15,7 @@
 
 `sfdk scrape --stable`
 
-- Scrape while saving patches to a specified [o]utput directory:
+- Scrape while saving patches to a specified output directory:
 
 `sfdk scrape {{[-o|--output-dir]}} {{directory}}`
 

@@ -1,7 +1,7 @@
 # php
 
 > PHP command-line interface.
-> More information: <https://php.net>.
+> More information: <https://www.php.net/manual/en/features.commandline.options.php>.
 
 - Parse and execute a PHP script:
 
@@ -15,11 +15,11 @@
 
 `php {{[-a|--interactive]}}`
 
-- Run PHP code (Notes: Don't use <? ?> tags; escape double quotes with backslash):
+- Run PHP code (Notes: Don't use `<? ?>` tags; escape double quotes with backslash):
 
 `php {{[-r|--run]}} "{{code}}"`
 
-- Start a PHP built-in web [S]erver in the current directory:
+- Start a PHP built-in web server in the current directory:
 
 `php {{[-S|--server]}} {{host}}:{{port}}`
 

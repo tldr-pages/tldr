@@ -20,6 +20,6 @@
 
 `ksh -n {{path/to/script.ksh}}`
 
-- Execute a specific script, printing each command in the script before executing it:
+- E[x]ecute a specific script, printing each command in the script before executing it:
 
 `ksh -x {{path/to/script.ksh}}`

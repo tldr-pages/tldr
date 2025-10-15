@@ -31,6 +31,6 @@
 
 `chmod {{[-R|--recursive]}} g+w,o+w {{path/to/directory}}`
 
-- Recursively give [a]ll users [r]ead permissions to files and e[X]ecute permissions to sub-directories within a directory:
+- Recursively give [a]ll users [r]ead permissions to files and e[X]ecute permissions to sub-directories and files that have at least one execution permission:
 
 `chmod {{[-R|--recursive]}} a+rX {{path/to/directory}}`

@@ -3,7 +3,7 @@
 > Show information about the usage of XSI IPC facilities: shared memory segments, message queues, and semaphore arrays.
 > More information: <https://manned.org/ipcs.1p>.
 
-- Show information about all the IPC:
+- Show information about [a]ll the IPC:
 
 `ipcs -a`
 

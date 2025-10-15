@@ -3,7 +3,7 @@
 > Display information about a network interface.
 > More information: <https://manned.org/ifdata>.
 
-- Display the whole configuration of the specified interface:
+- [p]rint the whole configuration of the specified interface:
 
 `ifdata -p {{eth0}}`
 
@@ -11,11 +11,11 @@
 
 `ifdata -e {{eth0}}`
 
-- Display the IPv4 [a]dress and the [n]etmask of the specified interface:
+- [p]rint the IPv4 [a]dress and the [n]etmask of the specified interface:
 
 `ifdata -pa -pn {{eth0}}`
 
-- Display the [N]etwork adress, the [b]roadcast adress, and the MTU of the specified interface:
+- [p]rint the [N]etwork adress, the [b]roadcast adress, and the [m]TU of the specified interface:
 
 `ifdata -pN -pb -pm {{eth0}}`
 

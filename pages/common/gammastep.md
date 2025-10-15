@@ -1,7 +1,7 @@
 # gammastep
 
 > Adjust the screen's color temperature according to the time of day.
-> More information: <https://gitlab.com/chinstrap/gammastep>.
+> More information: <https://manned.org/gammastep>.
 
 - Turn on Gammastep with a specific [t]emperature during the day (e.g. 5700k) and at night (e.g. 3600k):
 
