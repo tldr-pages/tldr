@@ -1,6 +1,7 @@
 # silicon
 
 > Create an image of source code.
+> See also: `freeze`.
 > More information: <https://github.com/Aloxaf/silicon>.
 
 - Generate an image from a specific source file:
