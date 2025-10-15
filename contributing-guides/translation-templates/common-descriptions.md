@@ -31,7 +31,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | pt_BR | Mostra ajuda geral           | Mostra a versão                                      |
 | pt_PT |                              |                                                      |
 | ro    |                              |                                                      |
-| ru    |                              |                                                      |
+| ru    | Показать справку             | Показать версию                                      |
 | sh    |                              |                                                      |
 | sr    | Prikazuje opštu pomoć        | Proverava verziju                                    |
 | sv    |                              |                                                      |
