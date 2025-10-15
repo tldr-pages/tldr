@@ -3,7 +3,7 @@
 > Run a program in a new security context.
 > More information: <https://docs.pipewire.org/page_man_pw-container_1.html>.
 
-- Create a new security context and print its socket address to 'stdout':
+- Create a new security context and print its socket address to `stdout`:
 
 `pw-container`
 
