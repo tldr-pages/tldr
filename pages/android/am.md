@@ -11,7 +11,7 @@
 
 `am start -a {{android.intent.action.VIEW}} -d {{tel:123}}`
 
-- Start an activity matching a specific action and [c]ategory:
+- Start an activity matching a specific [a]ction and [c]ategory:
 
 `am start -a {{android.intent.action.MAIN}} -c {{android.intent.category.HOME}}`
 
