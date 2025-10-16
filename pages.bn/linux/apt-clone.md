@@ -9,16 +9,16 @@
 
 - ব্যাকআপের জন্য একটি ক্লোন ফাইল (`tar.gz`) তৈরি করতে:
 
-`apt-clone clone --destination {{পাথ/টু/backup.tar.gz}}`
+`apt-clone clone --destination {{পাথ/টু/ব্যাকআপ.tar.gz}}`
 
 - একটি ক্লোন ফাইল থেকে সিস্টেমের প্যাকেজ অবস্থা পুনরুদ্ধার করতে:
 
-`apt-clone restore {{পাথ/টু/backup.tar.gz}}`
+`apt-clone restore {{পাথ/টু/ব্যাকআপ.tar.gz}}`
 
 - কোনো ক্লোন ফাইলের তথ্য (যেমন রিলিজ, আর্কিটেকচার ইত্যাদি) দেখতে:
 
-`apt-clone info {{পাথ/টু/backup.tar.gz}}`
+`apt-clone info {{পাথ/টু/ব্যাকআপ.tar.gz}}`
 
 - ক্লোন ফাইলটি বর্তমান সিস্টেমে পুনরুদ্ধারযোগ্য কিনা পরীক্ষা করতে:
 
-`apt-clone restore {{পাথ/টু/backup.tar.gz}} --destination {{পাথ/টু/restore}}`
+`apt-clone restore {{পাথ/টু/ব্যাকআপ.tar.gz}} --destination {{পাথ/টু/রিস্টোর}}`
