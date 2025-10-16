@@ -1,6 +1,6 @@
 # vncviewer
 
-> Launches a VNC (Virtual Network Computing) client.
+> Launch a VNC (Virtual Network Computing) client.
 > More information: <https://manned.org/vncviewer>.
 
 - Launch a VNC client which connects to a host on a given display:
