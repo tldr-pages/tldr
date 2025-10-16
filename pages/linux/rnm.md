@@ -1,7 +1,7 @@
 # rnm
 
 > Bulk Rename Utility.
-> More information: <https://github.com/neurobin/rnm>.
+> More information: <https://github.com/neurobin/rnm#basic-options>.
 
 - Replace a search string with a replacement string in filenames:
 
