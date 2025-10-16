@@ -29,4 +29,4 @@
 
 - Generate Makefile.in for multiple directories (with subdir support):
 
-`automake --add-missing`
+`automake {{[-a|--add-missing]}}`
