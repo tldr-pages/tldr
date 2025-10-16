@@ -17,7 +17,7 @@
 
 - Add verbose output for debugging:
 
-`automake --verbose`
+`automake {{[-v|--verbose]}}`
 
 - Display help for command-line options:
 
