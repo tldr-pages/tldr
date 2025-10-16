@@ -2,6 +2,7 @@
 
 > Generate images of code and terminal output.
 > Supported formats are PNG, SVG, and WebP.
+> See also: `silicon`.
 > More information: <https://github.com/charmbracelet/freeze#flags>.
 
 - Generate an image of code based on a file:
