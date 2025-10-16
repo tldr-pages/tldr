@@ -29,8 +29,8 @@
 
 - Grant a permission for an app:
 
-`adb shell pm grant {{package}} {{android.permission.CAMERA | android.permission.ACCESS_FINE_LOCATION | android.permission.READ_CONTACTS | android.permission.WRITE_EXTERNAL_STORAGE}}`
+`adb shell pm grant {{package}} {{android.permission.CAMERA|android.permission.ACCESS_FINE_LOCATION|android.permission.READ_CONTACTS|...}}`
 
 - Revoke a permission for an app:
 
-`adb shell pm revoke {{package}} {{android.permission.CAMERA | android.permission.ACCESS_FINE_LOCATION | android.permission.READ_CONTACTS | android.permission.WRITE_EXTERNAL_STORAGE}}`
+`adb shell pm revoke {{package}} {{android.permission.CAMERA|android.permission.ACCESS_FINE_LOCATION|android.permission.READ_CONTACTS|...}}`
