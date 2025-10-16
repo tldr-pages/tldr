@@ -3,7 +3,7 @@
 > A fast and multi-purpose DNS toolkit to run multiple DNS queries.
 > Note: Input to `dnsx` needs to be passed through `stdin` (pipe `|`) in some cases.
 > See also: `dig`, `dog`, `dnstracer`.
-> More information: <https://docs.projectdiscovery.io/tools/dnsx/running>.
+> More information: <https://docs.projectdiscovery.io/opensource/dnsx/usage>.
 
 - Query the A record of a (sub)domain and show [re]sponse received:
 
@@ -11,7 +11,7 @@
 
 - Query all the DNS records (A, AAAA, CNAME, NS, TXT, SRV, PTR, MX, SOA, AXFR, CAA):
 
-`dnsx -recon {{[-re|-resp]}} <<< {{example.com}}`
+`dnsx <<< {{example.com}} -recon {{[-re|-resp]}}`
 
 - Query a specific type of DNS record:
 

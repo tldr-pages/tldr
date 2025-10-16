@@ -15,6 +15,10 @@
 
 `pulumi up {{[-s|--stack]}} {{stack}}`
 
+- Refresh the state of the stack's resources before updating:
+
+`pulumi up {{[-r|--refresh]}}`
+
 - Don't display stack outputs:
 
 `pulumi up --suppress-outputs`
@@ -22,3 +26,7 @@
 - Continue updating the resources, even if an error is encountered:
 
 `pulumi up --continue-on-error`
+
+- Display help:
+
+`pulumi up {{[-h|--help]}}`
