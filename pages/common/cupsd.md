@@ -15,22 +15,22 @@
 
 `cupsd -l`
 
-- Start `cupsd` using the specified [`c`]`upsd.conf` configuration file:
+- Start `cupsd` using the specified `cupsd.conf` [c]onfiguration file:
 
 `cupsd -c {{path/to/cupsd.conf}}`
 
-- Start `cupsd` using the specified `cups-file`[`s`]`.conf` configuration file:
+- Start `cupsd` using the specified `cups-files.conf` configuration file:
 
 `cupsd -s {{path/to/cups-files.conf}}`
 
-- [t]est the [`c`]`upsd.conf` configuration file for errors:
+- [t]est the `cupsd.conf` [c]onfiguration file for errors:
 
 `cupsd -t -c {{path/to/cupsd.conf}}`
 
-- [t]est the `cups-file`[`s`]`.conf` configuration file for errors:
+- [t]est the `cups-files.conf` configuration file for errors:
 
 `cupsd -t -s {{path/to/cups-files.conf}}`
 
-- Display help:
+- Display [h]elp:
 
 `cupsd -h`
