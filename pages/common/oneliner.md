@@ -25,4 +25,4 @@
 
 - Interactively confirm before executing a generated command:
 
-`oneliner {{[-i|--interactive]}} "delete temporary files in /tmp"`
+`oneliner {{[-i|--interactive]}} "{{delete temporary files in /tmp}}"`
