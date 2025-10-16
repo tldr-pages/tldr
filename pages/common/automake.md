@@ -19,7 +19,7 @@
 
 `automake {{[-v|--verbose]}}`
 
-- Display help for command-line options:
+- Display help:
 
 `automake --help`
 
