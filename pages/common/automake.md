@@ -7,7 +7,7 @@
 
 `automake`
 
-- Generate Makefile.in for a non-GNU project (foreign mode):
+- Generate `Makefile.in` for a non-GNU project (foreign mode):
 
 `automake --foreign`
 
