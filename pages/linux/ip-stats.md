@@ -3,6 +3,7 @@
 > Manage and show interface statistics.
 > Part of the `iproute2` suite.
 > More information: <https://man7.org/linux/man-pages/man8/ip-stats.8.html>.
+
 - Show all interface statistics across all network devices:
 
 `ip stats show`
@@ -34,15 +35,3 @@
 - Enable Layer 3 hardware statistics collection on a device:
 
 `ip stats set dev {{network_interface}} l3_stats on`
-
-- Disable Layer 3 hardware statistics collection on a device:
-
-`ip stats set dev {{network_interface}} l3_stats off`
-
-- Show extended statistics for bridge or bond devices:
-
-`ip stats show group xstats subgroup {{bridge|bond}}`
-
-- Show extended statistics for bridge slaves:
-
-`ip stats show group xstats_slave subgroup bridge`
