@@ -15,7 +15,7 @@
 
 `findstr /s "{{string1 string2 ...}}" *`
 
-- Find strings using a case-insensitive search:
+- Find strings using a case-[i]nsensitive search:
 
 `findstr /i "{{string1 string2 ...}}" *`
 
@@ -27,10 +27,10 @@
 
 `findstr /c:"{{string1 string2 ...}}" *.txt`
 
-- Display the line number before each matching line:
+- Display the line [n]umber before each matching line:
 
 `findstr /n "{{string1 string2 ...}}" *`
 
-- Display only the filenames that contain a match:
+- Display only the filenames that contain a [m]atch:
 
 `findstr /m "{{string1 string2 ...}}" *`
