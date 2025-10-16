@@ -9,7 +9,7 @@
 
 - Proxy part of the Kubernetes API while serving static files from a local directory:
 
-`kubectl proxy --www {{path/to/static_dir}} --www-prefix {{/static_prefix/}} --api-prefix {{/api_subset/}}`
+`kubectl proxy {{[-w|--www]}} {{path/to/static_dir}} {{[-P|--www-prefix]}} {{/static_prefix/}} --api-prefix {{/api_subset/}}`
 
 - Proxy the entire Kubernetes API under a custom prefix:
 
@@ -17,15 +17,15 @@
 
 - Serve the Kubernetes API on a specific port while also serving static content:
 
-`kubectl proxy --port {{port}} --www {{path/to/static_dir}}`
+`kubectl proxy {{[-p|--port]}} {{port}} {{[-w|--www]}} {{path/to/static_dir}}`
 
 - Run a proxy on a random local port, printing the chosen port to stdout:
 
-`kubectl proxy --port 0`
+`kubectl proxy {{[-p|--port]}} 0`
 
 - Run the proxy on a Unix domain socket instead of a TCP port:
 
-`kubectl proxy --unix-socket {{path/to/socket}}`
+`kubectl proxy {{[-u|--unix-socket]}} {{path/to/socket}}`
 
 - Accept connections from remote hosts by listening on all interfaces (use caution when exposing the proxy publicly):
 
