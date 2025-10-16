@@ -11,7 +11,7 @@
 
 `rga --rga-list-adapters`
 
-- Change which adapters to use (e.g. ffmpeg, pandoc, poppler etc.):
+- Change which adapters to use (e.g. `ffmpeg`, `pandoc`, `poppler` etc.):
 
 `rga --rga-adapters={{adapter1,adapter2}} {{regex}}`
 
