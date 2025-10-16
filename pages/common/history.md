@@ -33,4 +33,4 @@
 
 - Run a command without adding it to history by adding a leading space:
 
-` {{command}}`
+`<Space>{{command}}`
