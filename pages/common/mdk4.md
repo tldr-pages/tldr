@@ -1,7 +1,7 @@
 # mdk4
 
 > A proof-of-concept tool to exploit common IEEE 802.11 protocol weaknesses.
-> Note: Exercise extreme caution as this tool can disrupt WiFi networks and disconnect nearby users.
+> Note: Exercise extreme caution as this tool can disrupt Wi-Fi networks and disconnect nearby users.
 > See also: `airodump-ng`, `airmon-ng`.
 > More information: <https://github.com/aircrack-ng/mdk4>.
 
