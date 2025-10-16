@@ -9,7 +9,7 @@
 
 - List all timers, including inactive ones:
 
-`systemctl list-timers --all`
+`systemctl list-timers {{[-a|--all]}}`
 
 - List timers matching a pattern:
 
