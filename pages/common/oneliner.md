@@ -18,7 +18,7 @@
 
 - Show a detailed, educational breakdown of a command:
 
-`oneliner --breakdown "list all active network connections"`
+`oneliner {{[-b|--breakdown]}} "list all active network connections"`
 
 - Execute a generated command (use with caution):
 
