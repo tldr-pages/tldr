@@ -10,7 +10,7 @@
 
 - Explain what a command does:
 
-`oneliner --explain "delete node_modules recursively"`
+`oneliner {{[-e|--explain]}} "delete node_modules recursively"`
 
 - Copy a generated command to the clipboard:
 
