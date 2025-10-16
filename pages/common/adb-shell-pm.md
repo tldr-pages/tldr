@@ -1,6 +1,6 @@
-# pm
+# adb shell pm
 
-> Android Package Manager tool. Use via `adb shell pm` to manage packages, permissions, users, features, and system information.
+> Android Package Manager tool.
 > More information: <https://developer.android.com/tools/adb>.
 
 - Print the path to the APK of a package:
@@ -9,7 +9,7 @@
 
 - Install an app package from a given path:
 
-`adb shell pm install {{/path/to/app.apk}}`
+`adb shell pm install /{{path/to/app.apk}}`
 
 - Uninstall a package from the device:
 
@@ -29,8 +29,8 @@
 
 - Grant a permission for an app:
 
-`adb shell pm grant {{package}} {{permission}}`
+`adb shell pm grant {{package}} {{android.permission.CAMERA | android.permission.ACCESS_FINE_LOCATION | android.permission.READ_CONTACTS | android.permission.WRITE_EXTERNAL_STORAGE}}`
 
 - Revoke a permission for an app:
 
-`adb shell pm revoke {{package}} {{permission}}`
+`adb shell pm revoke {{package}} {{android.permission.CAMERA | android.permission.ACCESS_FINE_LOCATION | android.permission.READ_CONTACTS | android.permission.WRITE_EXTERNAL_STORAGE}}`
