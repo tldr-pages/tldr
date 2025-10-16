@@ -5,7 +5,7 @@
 
 - Generate a shell command from plain English:
 
-`oneliner "find all jpg files larger than 10MB"`
+`oneliner "{{find all jpg files larger than 10MB}}"`
 
 - Explain what a command does:
 
