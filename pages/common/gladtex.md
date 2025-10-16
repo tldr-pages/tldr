@@ -8,7 +8,7 @@
 
 `gladtex {{path/to/input.htex}}`
 
-- Save the converted file to a specific location:
+- Save the converted file to a specific [o]utput file:
 
 `gladtex {{path/to/input.htex}} -o {{path/to/output.html}}`
 
@@ -30,4 +30,4 @@
 
 - Convert Markdown to HTML using `pandoc` and `gladtex`:
 
-`pandoc -s -t html --gladtex {{path/to/input.md}} | gladtex -o {{path/to/output.html}}`
+`pandoc {{[-s|--standalone]}} {{[-t|--to]}} html --gladtex {{path/to/input.md}} | gladtex -o {{path/to/output.html}}`
