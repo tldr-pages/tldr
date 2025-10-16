@@ -5,7 +5,7 @@
 > See also: `dnf`.
 > More information: <https://dnf-plugins-core.readthedocs.io/en/latest/reposync.html>.
 
-- Synchronize all packages from the repository with id `repo_name`. The synchronized copy is saved in `repo_name` subdirectory of the current working directory:
+- Synchronize all packages from the repository with id `repo_name` to a subdirectory `repo_name` of the current working directory:
 
 `dnf reposync --repoid {{repo_name}}`
 
@@ -21,7 +21,7 @@
 
 `dnf reposync --repoid {{repo_name}} {{[-n|--newest-only]}}`
 
-- Print just urls of what would be downloaded, don’t download:
+- Just print URLs of what would be downloaded, don’t download:
 
 `dnf reposync --repoid {{repo_name}} {{[-u|--urls]}}`
 
