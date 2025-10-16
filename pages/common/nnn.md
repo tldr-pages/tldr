@@ -7,15 +7,15 @@
 
 `nnn`
 
-- Start in detailed mode:
+- Start in [d]etailed mode:
 
 `nnn -d`
 
-- Show hidden files:
+- Show [H]idden files:
 
 `nnn -H`
 
-- Open an existing bookmark (defined in the `NNN_BMS` environment variable):
+- Open an existing [b]ookmark (defined in the `NNN_BMS` environment variable):
 
 `nnn -b {{bookmark_name}}`
 
