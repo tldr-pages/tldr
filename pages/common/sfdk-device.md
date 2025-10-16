@@ -1,6 +1,6 @@
 # sfdk device
 
-> Maintains and controls registered devices.
+> Maintain and control registered devices.
 > More information: <https://docs.sailfishos.org/Develop/Apps/Tutorials/Building_packages_-_advanced_techniques/#running-the-sample-application-in-the-emulator>.
 
 - Display the registered devices:
