@@ -15,10 +15,10 @@
 
 `automake {{[-v|--verbose]}}`
 
-- Display help:
-
-`automake --help`
-
 - Add missing standard files (INSTALL, COPYING, depcomp, etc.):
 
 `automake {{[-a|--add-missing]}}`
+
+- Display help:
+
+`automake --help`
