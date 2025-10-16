@@ -25,7 +25,7 @@
 
 - Specify an alternate directory for output files:
 
-`automake --output-dir {{path/to/output_directory}}`
+`automake {{[-o|--output-dir]}} {{path/to/output_directory}}`
 
 - Generate Makefile.in for multiple directories (with subdir support):
 
