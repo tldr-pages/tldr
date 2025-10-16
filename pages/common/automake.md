@@ -3,7 +3,7 @@
 > Automated Makefile generation for software projects using GNU standards.
 > More information: <https://www.gnu.org/software/automake/manual/automake.html#automake-Invocation>.
 
-- Run automake to regenerate Makefiles after editing Makefile.am:
+- Run automake to regenerate Makefiles after editing `Makefile.am`:
 
 `automake`
 
