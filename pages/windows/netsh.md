@@ -1,9 +1,8 @@
 # netsh
 
 > Manage Windows network settings.
-> Some commands require administrator privileges.
-> See also: `netsh wlan`
-> More information: (https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/netsh)
+> See also: `netsh wlan`.
+> More information: <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/netsh>.
 
 - Add a helper Dynamic Link Library (DLL):
 
@@ -25,10 +24,10 @@
 
 `netsh trace show interfaces`
 
-- Exit 'netsh' shell
+- Exit the shell:
 
 `exit`
 
 - Display help:
 
-`netsh help` 
+`netsh help`
