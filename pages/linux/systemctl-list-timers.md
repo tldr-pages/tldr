@@ -15,6 +15,6 @@
 
 `systemctl list-timers {{pattern}}`
 
-- List timers matching a specific state (e.g., active, failed):
+- List timers matching a specific state:
 
-`systemctl list-timers --state {{state}}`
+`systemctl list-timers --state {{active|inactive|failed|...}}`
