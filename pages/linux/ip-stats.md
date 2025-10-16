@@ -1,7 +1,6 @@
 # ip stats
 
 > Manage and show interface statistics.
-> Part of the `iproute2` suite.
 > More information: <https://man7.org/linux/man-pages/man8/ip-stats.8.html>.
 
 - Show all interface statistics across all network devices:
