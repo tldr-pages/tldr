@@ -2,7 +2,7 @@
 
 > أداة أرشفة.
 > غالبًا ما تُستخدم مع طريقة ضغط، مثل `gzip` أو `bzip2`.
-> لمزيد من التفاصيل: <https://www.gnu.org/software/tar>.
+> لمزيد من التفاصيل: <https://www.gnu.org/software/tar/manual/tar.html>.
 
 - إنشاء أرشيف وكتابته إلى ملف:
 

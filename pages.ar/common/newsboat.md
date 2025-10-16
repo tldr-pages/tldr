@@ -1,7 +1,7 @@
 # newsboat
 
 > هو قارئ خلاصة آر إس إس للطرفية أو الكونسول.
-> لمزيد من التفاصيل: <https://newsboat.org/>.
+> لمزيد من التفاصيل: <https://newsboat.org/releases/2.40/docs/newsboat.html#_first_steps>.
 
 - إستيراد روابط الخلاصات من ملف OPML:
 
