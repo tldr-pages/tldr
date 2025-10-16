@@ -18,7 +18,7 @@
 
 - Download a song from a YouTube URL:
 
-`ytmdl --url https://www.youtube.com/watch?v={{video_id}}`
+`ytmdl --url https://www.youtube.com/watch?v={{oHg5SJYRHA0}}`
 
 - Download a song in a specific format (mp3, m4a, or opus):
 
