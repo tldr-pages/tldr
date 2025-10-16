@@ -1,7 +1,6 @@
 # oneliner
 
 > Turn plain English into shell commands using OpenAI, Claude, or local LLMs, designed to teach, not replace your knowledge.
-> Commands are shown by default and not executed unless `--run` is used.
 > More information: <https://github.com/dorochadev/oneliner#-usage-flags>.
 
 - Generate a shell command from plain English:
