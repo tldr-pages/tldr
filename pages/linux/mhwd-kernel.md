@@ -19,6 +19,6 @@
 
 `sudo mhwd-kernel {{[-r|--remove]}} {{kernel}}`
 
-- Install a kernel replacing the currently running kernel:
+- Install a kernel, replacing the currently running kernel:
 
 `sudo mhwd-kernel {{[-i|--install]}} {{kernel}} rmc`
