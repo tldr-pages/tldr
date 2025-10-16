@@ -2,7 +2,7 @@
 
 > Create an image of source code.
 > See also: `freeze`.
-> More information: <https://github.com/Aloxaf/silicon>.
+> More information: <https://github.com/Aloxaf/silicon#examples>.
 
 - Generate an image from a specific source file:
 
