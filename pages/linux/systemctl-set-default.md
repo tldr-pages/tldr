@@ -1,7 +1,7 @@
 # systemctl set-default
 
 > Symlink the `default.target` alias to the given target unit.
-> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#set-default%20TARGET>.
+> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#set-default%20TARGET>.
 
 - Set `systemd`'s default boot mode:
 
