@@ -1,6 +1,6 @@
 # git delete-submodule
 
-> Delete a submodule from a `git` repository.
+> Delete a submodule from a Git repository.
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-delete-submodule>.
 
