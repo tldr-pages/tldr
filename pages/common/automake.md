@@ -1,7 +1,7 @@
 # automake
 
 > Automated Makefile generation for software projects using GNU standards.
-> More information: <https://www.gnu.org/software/automake/>.
+> More information: <https://www.gnu.org/software/automake/manual/automake.html#automake-Invocation>.
 
 - Create a template Makefile.in from Makefile.am:
 
