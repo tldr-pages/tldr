@@ -5,7 +5,7 @@
 
 - إستيراد روابط الخلاصات من ملف OPML:
 
-`newsboat -i {{my-feeds.xml}}`
+`newsboat {{[-i|--import-from-opml]}} {{my-feeds.xml}}`
 
 - إضافة روابط الخلاصات يدوياً:
 
@@ -13,11 +13,11 @@
 
 - إبدأ newsboat وقم بتحديث كل الخلاصات عند بدء التشغيل:
 
-`newsboat -r`
+`newsboat {{[-r|--refresh-on-start]}}`
 
 - نفذ أمر أو عدة أوامر مفصولة بمسافات بدون الحاجة إلي فتح newsboat:
 
-`newsboat -x {{reload print-unread ...}}`
+`newsboat {{[-x|--execute]}} {{reload print-unread ...}}`
 
 - انظر إختصارات لوحة المفاتيح (الإختصارت الأكثر شيوعاً مرئية في شريط الحالة):
 
