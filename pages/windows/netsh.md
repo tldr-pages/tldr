@@ -3,7 +3,7 @@
 > Manage Windows network settings.
 > Some commands require administrator privileges.
 > See also: `netsh wlan`
-> More information: https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/netsh
+> More information: (https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/netsh)
 
 - Add a helper Dynamic Link Library (DLL):
 
