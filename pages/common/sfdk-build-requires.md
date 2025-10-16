@@ -1,6 +1,6 @@
 # sfdk build-requires
 
-> Updates build time dependencies.
+> Update build time dependencies.
 > More information: <https://github.com/sailfishos/sailfish-qtcreator/blob/master/share/qtcreator/sfdk/modules/20-building-mb2/doc/command.build-requires.adoc>.
 
 - Run a subcommand refreshing the cache:
