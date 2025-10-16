@@ -21,7 +21,7 @@
 
 - Execute a generated command (use with caution):
 
-`oneliner {{[-r|--run]}} "list files larger than 1GB"`
+`oneliner {{[-r|--run]}} "{{list files larger than 1GB}}"`
 
 - Interactively confirm before executing a generated command:
 
