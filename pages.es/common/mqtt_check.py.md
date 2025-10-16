@@ -4,7 +4,7 @@
 > Parte de la suite Impacket.
 > Más información: <https://github.com/fortra/impacket>.
 
-- Comprueba las credenciales de inicio de sesión MQTT para un objetivo (nombre de host del broker MQTT):
+- Comprueba las credenciales de inicio de sesión MQTT para un objetivo (nombre del host del broker MQTT):
 
 `mqtt_check.py {{dominio}}/{{nombre_de_usuario}}:{{contraseña}}@{{nombre_del_destino}}`
 
