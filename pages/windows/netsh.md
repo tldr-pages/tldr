@@ -1,7 +1,7 @@
 # netsh
 
 > Manage Windows network settings.
-> See also: `netsh wlan`.
+> Some subcommands such as `wlan` have their own usage documentation.
 > More information: <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/netsh>.
 
 - Add a helper Dynamic Link Library (DLL):
