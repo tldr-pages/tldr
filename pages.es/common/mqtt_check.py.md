@@ -22,7 +22,7 @@
 
 - Habilita salida de depuración:
 
-`mqtt_check.py -debug {{dominio}}/{{nombre_de_usuario}}:{{contraseña}}@{nombre_del_destino}}`
+`mqtt_check.py -debug {{dominio}}/{{nombre_de_usuario}}:{{contraseña}}@{{nombre_del_destino}}`
 
 - Muestra la ayuda:
 
