@@ -13,7 +13,7 @@
 
 - Copy a generated command to the clipboard:
 
-`oneliner {{[-c|--clipboard]}} "compress all pdfs"`
+`oneliner {{[-c|--clipboard]}} "{{compress all pdfs}}"`
 
 - Show a detailed, educational breakdown of a command:
 
