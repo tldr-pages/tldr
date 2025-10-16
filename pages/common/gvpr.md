@@ -1,7 +1,6 @@
 # gvpr
 
 > A graph pattern scanning and processing language for Graphviz.
-> It provides a way to query and transform graph structures using a pattern matching language.
 > More information: <https://graphviz.org/pdf/gvpr.1.pdf>.
 
 - Process a graph and write the result to an output file:
