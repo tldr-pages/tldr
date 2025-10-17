@@ -10,7 +10,7 @@
 
 - Extract text and save to a file:
 
-`trafilatura -u {{url}} -o {{path/to/output.txt}}`
+`trafilatura {{[-u|--URL]}} {{url}} {{[-o|--output-dir]}} {{path/to/output.txt}}`
 
 - Extract text in JSON format:
 
