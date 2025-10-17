@@ -15,7 +15,7 @@
 
 `sudo removepkg -preserve {{package_name}}`
 
-- Copy package under `/tmp/preserved_packages/{{package_name}}` without removing:
+- Copy package under `/tmp/preserved_packages/package_name` without removing:
 
 `removepkg -copy {{package_name}}`
 
