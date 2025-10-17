@@ -34,4 +34,4 @@
 
 - Display help for more options:
 
-`trafilatura --help`
+`trafilatura {{[-h|--help]}}`
