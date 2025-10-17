@@ -10,7 +10,7 @@
 
 - Include all dependency types (not only `Requires=` and `Wants=`):
 
-`systemctl list-dependencies {{unit}} --all`
+`systemctl list-dependencies {{unit}} {{[-a|--all]}}`
 
 - Limit the tree to a specific unit type:
 
