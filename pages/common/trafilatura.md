@@ -26,7 +26,7 @@
 
 - Extract text while preserving HTML formatting:
 
-`trafilatura -u {{url}} --formatting`
+`trafilatura {{[-u|--URL]}} {{url}} --formatting`
 
 - Extract text including comments:
 
