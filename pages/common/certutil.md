@@ -7,7 +7,7 @@
 
 `certutil -N -d .`
 
-- List all certificates in a database:
+- [L]ist all certificates in a database:
 
 `certutil -L -d .`
 
