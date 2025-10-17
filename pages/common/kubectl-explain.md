@@ -1,4 +1,4 @@
-# kubectl-explain
+# kubectl explain
 
 > Display the documentation of a Kubernetes API resource, including available fields and descriptions.
 > More information: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands/#explain>.
