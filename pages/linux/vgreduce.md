@@ -15,8 +15,4 @@
 - Removes all missing physical volumes from the volume group, if there are no logical volumes allocated on those. This resumes normal operation of the volume group (new logical volumes may again be created, changed and so on).
 If this is not possible (there are logical volumes referencing the missing physical volumes) and you cannot or do not want to remove them manually, you can run this option with --force to have vgreduce remove any partial LVs.
 
-Any logical volumes and dependent snapshots that were partly on the missing disks get removed completely. This includes those parts that lie on disks that are still present.
-
-If your logical volumes spanned several disks including the ones that are lost, you might want to try to salvage data first by activating your logical volumes with --partial as described in lvm.
-
 `sudo vgremove --removemissing [VOLUME_GROUP_NAME]`
