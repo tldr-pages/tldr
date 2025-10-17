@@ -5,7 +5,7 @@
 
 - Get GRUB filesystem module for a path:
 
-`sudo grub-probe {{[-t|--target=]}}fs {{/boot/grub}}`
+`sudo grub-probe {{[-t|--target]}} fs {{/boot/grub}}`
 
 - Get the system device containing a path:
 
