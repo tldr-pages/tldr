@@ -9,8 +9,8 @@
 
 - Make multiple nodes schedulable again:
 
-`kubectl uncordon {{node_name1}} {{node_name2}} {{...}}`
+`kubectl uncordon {{node_name1 node_name2 ...}}`
 
 - Use a specific kubeconfig context when uncordoning:
 
-`kubectl --context {{context_name}} uncordon {{node_name}}`
+`kubectl uncordon {{node_name}} --context {{context_name}}`
