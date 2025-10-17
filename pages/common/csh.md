@@ -8,7 +8,7 @@
 
 `csh`
 
-- Start an interactive shell session without loading startup configs:
+- Start an interactive shell session [f]aster without loading startup configs:
 
 `csh -f`
 
