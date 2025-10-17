@@ -11,10 +11,6 @@
 
 `kubectl kustomize {{path/to/directory}}`
 
-- Build resources and display the output:
-
-`kubectl kustomize {{path/to/directory}} | less`
-
 - Build resources from a remote URL:
 
 `kubectl kustomize {{https://github.com/user/repo/path}}`
@@ -25,4 +21,4 @@
 
 - Build resources with load restrictor disabled:
 
-`kubectl kustomize --load-restrictor={{LoadRestrictionsNone}} {{path/to/directory}}`
+`kubectl kustomize --load-restrictor {{LoadRestrictionsNone}} {{path/to/directory}}`
