@@ -1,6 +1,6 @@
 # vgreduce
 
-> vgreduce allows you to remove one or more unused physical volumes from a volume group
+> vgreduce allows you to remove one or more unused physical volumes from a volume group.
 > See also: `lvm`, `vgreduce`.
 > More information: <https://linux.die.net/man/8/vgreduce>.
 
@@ -12,6 +12,6 @@
 
 `sudo vgremove -a [VOLUME_GROUP_NAME]`
 
-- Removes all missing physical volumes from the volume group, if there are no logical volumes allocated on those. This resumes normal operation of the volume group (new logical volumes may again be created, changed and so on).If this is not possible (there are logical volumes referencing the missing physical volumes) and you cannot or do not want to remove them manually, you can run this option with --force to have vgreduce remove any partial LVs.
+- Removes all missing physical volumes from the volume group, if there are no logical volumes allocated on those. If there are logical volumes referencing the missing physical volumes you can run this option with --force:
 
 `sudo vgremove --removemissing [VOLUME_GROUP_NAME]`
