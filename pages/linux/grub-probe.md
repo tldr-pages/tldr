@@ -13,7 +13,7 @@
 
 - Get GRUB disk name for a system device:
 
-`sudo grub-probe {{[-d|--device]}} {{[-t|--target]}} drive {{/dev/sdX}}`
+`sudo grub-probe {{[-t|--target]}} drive {{/dev/sdX}} {{[-d|--device]}}`
 
 - Get filesystem UUID:
 
