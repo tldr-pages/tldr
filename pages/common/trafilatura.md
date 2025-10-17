@@ -18,7 +18,7 @@
 
 - Extract text from multiple URLs listed in a file:
 
-`trafilatura --input-file {{path/to/url_list.txt}}`
+`trafilatura {{[-i|--input-file]}} {{path/to/url_list.txt}}`
 
 - Crawl a website using its sitemap:
 
