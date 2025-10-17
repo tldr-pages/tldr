@@ -10,8 +10,8 @@
 
 - Mark multiple nodes as unschedulable:
 
-`kubectl cordon {{node_name1}} {{node_name2}} {{...}}`
+`kubectl cordon {{node_name1 node_name2 ...}}`
 
 - Mark a node using a specific kubeconfig context as unschedulable:
 
-`kubectl --context {{context_name}} cordon {{node_name}}`
+`kubectl cordon --context {{context_name}} {{node_name}}`
