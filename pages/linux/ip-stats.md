@@ -11,7 +11,7 @@
 
 `ip {{[st|stats]}} show dev {{network_interface}}`
 
-- Show link-layer statistics (same as `ip -s link show`):
+- Show link-layer statistics (same as `ip -statistics link show`):
 
 `ip {{[st|stats]}} show group link`
 
