@@ -17,4 +17,4 @@
 
 - Use a specific kubeconfig context:
 
-`kubectl --context {{context_name}} cluster-info`
+`kubectl cluster-info --context {{context_name}}`
