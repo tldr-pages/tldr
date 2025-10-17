@@ -6,7 +6,7 @@
 
 - Extract text from a URL:
 
-`trafilatura -u {{url}}`
+`trafilatura {{[-u|--URL]}} {{url}}`
 
 - Extract text and save to a file:
 
