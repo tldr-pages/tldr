@@ -30,7 +30,7 @@
 
 - Extract text including comments:
 
-`trafilatura -u {{url}} --with-comments`
+`trafilatura {{[-u|--URL]}} {{url}} --with-comments`
 
 - Display help for more options:
 
