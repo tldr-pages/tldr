@@ -9,11 +9,11 @@
 
 - Perform a dry run:
 
-`pg_resetwal {{[-n|--dry-run]}} {{[-D|--pgdata]}} {{path/to/data}}`
+`pg_resetwal {{[-D|--pgdata]}} {{path/to/data}} {{[-n|--dry-run]}}`
 
 - Force the WAL and control information reset:
 
-`pg_resetwal {{[-f|--force]}} {{[-D|--pgdata]}} {{path/to/data}}`
+`pg_resetwal {{[-D|--pgdata]}} {{path/to/data}} {{[-f|--force]}}`
 
 - Display help:
 
