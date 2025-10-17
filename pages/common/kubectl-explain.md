@@ -17,7 +17,7 @@
 
 - Show all fields recursively for a resource:
 
-`kubectl explain {{pod}} --recursive`
+`kubectl explain {{po|pod|pods}} --recursive`
 
 - Display help:
 
