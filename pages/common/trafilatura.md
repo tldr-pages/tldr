@@ -14,7 +14,7 @@
 
 - Extract text in JSON format:
 
-`trafilatura -u {{url}} --json-output`
+`trafilatura {{[-u|--URL]}} {{url}} --json`
 
 - Extract text from multiple URLs listed in a file:
 
