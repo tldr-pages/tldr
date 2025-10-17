@@ -3,7 +3,7 @@
 > Display the documentation of a Kubernetes API resource, including available fields and descriptions.
 > More information: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands/#explain>.
 
-- Show documentation for a resource, such as Pod:
+- Show documentation for a resource:
 
 `kubectl explain {{pods|nodes|deployments|...}}`
 
