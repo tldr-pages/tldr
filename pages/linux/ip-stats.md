@@ -5,7 +5,7 @@
 
 - Show all interface statistics across all network devices:
 
-`ip {{[st|stats]}} show`
+`ip {{[st|stats]}}`
 
 - Show statistics for a specific network interface:
 
