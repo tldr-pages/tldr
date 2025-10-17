@@ -8,7 +8,7 @@
 
 `ssh {{username}}@{{remote_host}}`
 
-- Connect to a remote server with a specific identity (private key):
+- Connect to a remote server with a specific [i]dentity (private key):
 
 `ssh -i {{path/to/key_file}} {{username}}@{{remote_host}}`
 

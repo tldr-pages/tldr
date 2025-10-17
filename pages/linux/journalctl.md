@@ -1,7 +1,7 @@
 # journalctl
 
 > Query the systemd journal.
-> More information: <https://manned.org/journalctl>.
+> More information: <https://www.freedesktop.org/software/systemd/man/journalctl.html>.
 
 - Show all messages with priority level 3 (errors) from this boot:
 

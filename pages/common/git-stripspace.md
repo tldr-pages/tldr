@@ -13,4 +13,4 @@
 
 - Convert all lines in a file into Git comments:
 
-`git stripspace {{[-c|--comment-lines]}} < {{path/to/file}}`
+`git < {{path/to/file}} stripspace {{[-c|--comment-lines]}}`
