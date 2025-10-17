@@ -29,4 +29,4 @@
 
 - Probe using a custom device map:
 
-`sudo grub-probe {{[-m|--device-map]}} {{path/to/custom_device.map}} {{[-t|--target]}} drive {{/boot/grub}}`
+`sudo grub-probe {{[-t|--target]}} drive {{/boot/grub}} {{[-m|--device-map]}} {{path/to/custom_device.map}}`
