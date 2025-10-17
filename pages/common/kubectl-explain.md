@@ -5,7 +5,7 @@
 
 - Show documentation for a resource, such as Pod:
 
-`kubectl explain {{pod}}`
+`kubectl explain {{pods|nodes|deployments|...}}`
 
 - Show documentation for a sub-resource or field of an object, such as spec.containers in Pod:
 
