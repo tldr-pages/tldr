@@ -1,4 +1,4 @@
-# pm list packages
+# adb shell pm list packages
 
 > List installed, known, or filtered packages on an Android device.
 > More information: <https://developer.android.com/tools/adb>.
