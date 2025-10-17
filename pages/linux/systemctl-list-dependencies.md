@@ -27,5 +27,3 @@
 - Print output without headers or footers (for scripts):
 
 `systemctl list-dependencies {{unit}} --no-legend`
-
-
