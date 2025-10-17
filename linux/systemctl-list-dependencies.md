@@ -14,7 +14,7 @@
 
 - Limit the tree to a specific unit type:
 
-`systemctl list-dependencies {{unit}} --type {{service|socket|target|mount|...}}`
+`systemctl list-dependencies {{unit}} {{[-t|--type]}} {{service|socket|target|mount|...}}`
 
 - Reverse the direction to show units that depend on the specified unit:
 
