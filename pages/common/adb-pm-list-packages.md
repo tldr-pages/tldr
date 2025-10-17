@@ -1,7 +1,6 @@
 # pm list packages
 
-> List installed, known, or filtered packages on an Android device via Package Manager.
-> Used with `adb shell`. Various flags allow filtering and extra package information.
+> List installed, known, or filtered packages on an Android device.
 > More information: <https://developer.android.com/tools/adb>.
 
 - List all installed packages:
