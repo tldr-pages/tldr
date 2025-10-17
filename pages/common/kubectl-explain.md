@@ -1,7 +1,7 @@
 # kubectl explain
 
 > Display the documentation of a Kubernetes API resource, including available fields and descriptions.
-> More information: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands/#explain>.
+> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_explain/>.
 
 - Show documentation for a resource:
 
