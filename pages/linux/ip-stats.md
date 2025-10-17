@@ -23,7 +23,7 @@
 
 `ip stats show dev {{network_interface}} group offload`
 
-- Show a specific offload subgroup, such as `l3_stats`:
+- Show a specific offload subgroup:
 
 `ip stats show dev {{network_interface}} group offload subgroup {{l3_stats|cpu_hit|hw_stats_info}}`
 
