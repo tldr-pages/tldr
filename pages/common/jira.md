@@ -9,8 +9,8 @@
 
 - List issues from the current sprint, assigned to me:
 
-`jira sprint list --current -a$(jira me)`
+`jira sprint list --current {{[-a|--assignee]}} $(jira me)`
 
 - Create a new issue, optionally set a parent issue:
 
-`jira issue create --parent {{parent}}`
+`jira issue create {{[-P|--parent]}} {{parent}}`

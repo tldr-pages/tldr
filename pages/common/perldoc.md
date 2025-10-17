@@ -7,7 +7,7 @@
 
 `perldoc -{{f|v|a}} {{name}}`
 
-- Search in the question headings of Perl FAQ:
+- Search in the [q]uestion headings of Perl FAQ:
 
 `perldoc -q {{regex}}`
 
