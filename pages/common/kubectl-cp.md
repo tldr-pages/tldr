@@ -6,7 +6,7 @@
 
 - Copy a local file to a pod:
 
-`kubectl cp {{path/to/local_file}} {{pod_name}}:{{/path/in/pod}}`
+`kubectl cp {{path/to/local_file}} {{pod_name}}:/{{path/in/pod}}`
 
 - Copy a file from a pod to the local machine:
 
