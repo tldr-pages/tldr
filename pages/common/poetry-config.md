@@ -7,7 +7,7 @@
 
 `poetry config --list`
 
-- Remove the a previously set setting named by `setting-key`:
+- Remove the a previously set setting:
 
 `poetry config {{config_key}} --unset`
 
