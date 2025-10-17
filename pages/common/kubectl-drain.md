@@ -22,4 +22,4 @@
 
 - Drain nodes selected by a label selector:
 
-`kubectl drain --selector {{key}}={{value}}`
+`kubectl drain {{[-l|--selector]}} {{key}}={{value}}`
