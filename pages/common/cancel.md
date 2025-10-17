@@ -28,6 +28,6 @@
 
 `cancel -a {{printer}}`
 
-- Cancel the current job of a specific server and then delete ([x]) job data files:
+- Cancel the current job of a specific [h]ost server and then delete ([x]) job data files:
 
 `cancel -h {{server}} -x`

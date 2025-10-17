@@ -7,7 +7,7 @@
 
 `smbmap --host-file {{path/to/file}}`
 
-- Display SMB shares and permissions on a host, prompting for user's password or NTLM hash:
+- Display SMB shares and permissions on a [H]ost, prompting for user's password or NTLM hash:
 
 `smbmap {{[-u|--username]}} {{username}} --prompt -H {{ip}}`
 
