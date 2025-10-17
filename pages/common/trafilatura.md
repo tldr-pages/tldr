@@ -2,7 +2,7 @@
 
 > A Python tool for web scraping and crawling that extracts main text, metadata, and comments from web pages.
 > Designed for creating text corpora and extracting structured content.
-> More information: <https://trafilatura.readthedocs.io/en/latest/>.
+> More information: <https://trafilatura.readthedocs.io/en/latest/usage-cli.html#further-information>.
 
 - Extract text from a URL:
 
