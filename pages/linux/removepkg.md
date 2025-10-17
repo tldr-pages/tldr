@@ -11,7 +11,7 @@
 
 `removepkg -warn {{package_name}}`
 
-- Reconstruct the package subtree in `/tmp/preserved_packages/{{package_name}}` and remove the package:
+- Reconstruct the package subtree in `/tmp/preserved_packages/package_name` and remove the package:
 
 `sudo removepkg -preserve {{package_name}}`
 
