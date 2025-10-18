@@ -33,4 +33,4 @@
 
 - Voer een commando uit zonder het toe te voegen aan de geschiedenis door het toevoegen van een spatie aan het begin:
 
-`<Space>{{command}}`
+`<Spatie>{{command}}`
