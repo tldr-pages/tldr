@@ -1,7 +1,7 @@
 # ip tuntap
 
 > Manage TUN/TAP virtual network interfaces.
-> More information: <https://manned.org/ip-tuntap>.
+> More information: <https://baturin.org/docs/iproute2/#ip-tuntap>.
 
 - Show all existing TUN/TAP devices:
 
