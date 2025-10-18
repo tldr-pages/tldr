@@ -13,7 +13,7 @@
 
 - Set a maximum timeout(in seconds) for entering the root password before continuing normal boot:
 
-`sudo sulogin {{[-t|--timeout]}} {{60}}`
+`sudo sulogin {{[-t|--timeout]}} {{timeout}}`
 
 - Start root's shell as a login shell:
 
