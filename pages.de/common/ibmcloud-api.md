@@ -19,7 +19,7 @@
 
 `ibmcloud api private.cloud.ibm.com --vpc`
 
-- Umgehe SSL Validierung für HTTP Anfragen:
+- Umgehe SSL Validierung für HTTPS Anfragen:
 
 `ibmcloud api https://cloud.ibm.com --skip-ssl-validation`
 
