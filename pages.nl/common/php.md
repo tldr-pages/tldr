@@ -1,7 +1,7 @@
 # php
 
 > PHP command-line interface.
-> Meer informatie: <https://php.net>.
+> Meer informatie: <https://www.php.net/manual/en/features.commandline.options.php>.
 
 - Parse en voer een PHP-script uit:
 
@@ -15,11 +15,11 @@
 
 `php {{[-a|--interactive]}}`
 
-- Voer PHP-code uit (Opmerkingen: Gebruik geen <? ?> tags; escape dubbele aanhalingstekens met backslash):
+- Voer PHP-code uit (Opmerkingen: Gebruik geen `<? ?>` tags; escape dubbele aanhalingstekens met backslash):
 
 `php {{[-r|--run]}} "{{code}}"`
 
-- Start een PHP ingebouwde web[S]erver in de huidige map:
+- Start een PHP ingebouwde webserver in de huidige map:
 
 `php {{[-S|--server]}} {{host}}:{{poort}}`
 
