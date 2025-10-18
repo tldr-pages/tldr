@@ -1,6 +1,7 @@
 # airmon-ng
 
 > Active le mode surveillance sur les appareils sans fils.
+> Fait partie de la suite logicielle réseau Aircrack-ng.
 > Plus d'informations : <https://www.aircrack-ng.org/doku.php?id=airmon-ng>.
 
 - Liste les appareils sans fils et leurs statuts :
