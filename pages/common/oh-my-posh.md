@@ -2,7 +2,7 @@
 
 > A cross-platform prompt theme engine for any shell.
 > Provides consistent and customizable shell prompts across operating systems.
-> More Information: <https://ohmyposh.dev/docs>.
+> More information: <https://ohmyposh.dev/docs>.
 
 - Display current shell name:
 
