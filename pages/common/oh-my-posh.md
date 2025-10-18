@@ -18,7 +18,7 @@
 
 - Initialize oh-my-posh for Zsh:
 
-`eval "$(oh-my-posh init zsh --config ~/<theme>.omp.json)"`
+`eval "$(oh-my-posh init zsh --config {{path/to/theme}})"`
 
 - Enable live reloading:
 
