@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr Ventoy2Disk`
+`tldr ventoy2disk`
