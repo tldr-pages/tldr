@@ -30,3 +30,7 @@
 - Voeg een commando toe aan de geschiedenis zonder het uit te voeren:
 
 `history -s {{commando}}`
+
+- Voer een commanodo uit zonder het toe te voegen aan de geschiedenis door het toevoegen van een spatie aan het begin:
+
+`<Space>{{command}}`
