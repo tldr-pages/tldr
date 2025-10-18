@@ -23,6 +23,6 @@
 
 `ibmcloud api https://cloud.ibm.com --skip-ssl-validation`
 
-- Entferne den API-Endpunkt:
+- Entferne den aktuellen API-Endpunkt:
 
 `ibmcloud api --unset`
