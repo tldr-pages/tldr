@@ -14,4 +14,3 @@
 - Preview without Extracting:
 
 `Expand-Archive -Path "{{C:\Files\example.zip}}" -DestinationPath "{{C:\ExtractedFiles}}" -WhatIf`
-
