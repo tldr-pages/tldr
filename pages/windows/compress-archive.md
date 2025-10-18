@@ -1,6 +1,6 @@
 # Compress-Archive
 
-> A cmdlet in PowerShell is used to create compressed (zipped) archive files
+> A cmdlet in PowerShell used to create compressed (zipped) archive files
 > More information: <https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.archive/compress-archive>
 
 - Compress a Single File
