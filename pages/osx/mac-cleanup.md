@@ -15,7 +15,7 @@
 
 `mac-cleanup {{[-n|--dry-run]}}`
 
-- Specify the directory with custom cleanup path:
+- Specify the directory with custom cleanup modules:
 
 `mac-cleanup {{[-p|--custom-path]}} {{path/to/directory}}`
 
