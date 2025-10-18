@@ -9,7 +9,7 @@
 
 - Forget a file's recorded resolution:
 
-`git rerere forget {{file}}`
+`git rerere forget {{path/to/file}}`
 
 - Check the status of recorded resolutions:
 
