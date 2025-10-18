@@ -5,23 +5,23 @@
 
 - Display WAL records from a specific segment:
 
-`pg_waldump {{startseg}}`
+`pg_waldump {{start_segment}}`
 
 - Display WAL records between two segments:
 
-`pg_waldump {{startseg}} {{endseg}}`
+`pg_waldump {{start_segment}} {{end_segment}}`
 
 - Follow WAL in real-time:
 
-`pg_waldump {{startseg}} {{[-f|--follow]}}`
+`pg_waldump {{start_segment}} {{[-f|--follow]}}`
 
 - Display records with full page images:
 
-`pg_waldump {{startseg}} {{[-w|--fullpage]}}`
+`pg_waldump {{start_segment}} {{[-w|--fullpage]}}`
 
 - Display summary statistics instead of individual records:
 
-`pg_waldump {{startseg}} {{[-z|--stats]}}`
+`pg_waldump {{start_segment}} {{[-z|--stats]}}`
 
 - Display help:
 
