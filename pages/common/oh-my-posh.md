@@ -14,7 +14,7 @@
 
 - Initialize oh-my-posh for Powershell:
 
-`oh-my-posh init pwsh --config ~/<theme>.omp.json | Invoke-Expression`
+`oh-my-posh init pwsh --config {{path/to/theme}} | Invoke-Expression`
 
 - Initialize oh-my-posh for Zsh:
 
