@@ -10,7 +10,7 @@
 
 - Initialize oh-my-posh for Bash:
 
-`eval "$(oh-my-posh init bash --config ~/<theme>.omp.json)"`
+`eval "$(oh-my-posh init bash --config {{path/to/theme}})"`
 
 - Initialize oh-my-posh for Powershell:
 
