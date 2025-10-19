@@ -11,7 +11,7 @@
 
 `Compress-Archive -Path "{{path\to\file1.txt}}", "{{path\to\file2.txt}}" -DestinationPath "{{path\to\files.zip}}"`
 
-- Compress a Folder:
+- Compress a directory:
 
 `Compress-Archive -Path "{{path\to\folder}}" -DestinationPath "{{path\to\folder.zip}}"`
 
