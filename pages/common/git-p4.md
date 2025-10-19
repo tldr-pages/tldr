@@ -21,4 +21,4 @@
 
 - Clone the full Perforce history instead of only the latest changelist:
 
-`git p4 clone {{p4-depot-path}}@all`
+`git p4 clone {{path/to/p4_depot}}@all`
