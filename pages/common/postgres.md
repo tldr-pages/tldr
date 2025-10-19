@@ -15,6 +15,6 @@
 
 `postgres --{{work-mem}}={{1234}}`
 
-- Start in single-user mode for a specific database:
+- Start in single-user mode for a specific database (defaults to the user name):
 
 `postgres --single -D {{path/to/datadir}} {{my_database}}`
