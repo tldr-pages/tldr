@@ -7,7 +7,7 @@
 
 `sudo removepkg {{package_name}}`
 
-- Generate a report of a simulated removal to standard out:
+- Generate a report of a simulated removal to `stdout`:
 
 `removepkg -warn {{package_name}}`
 
