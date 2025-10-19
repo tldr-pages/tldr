@@ -2,6 +2,7 @@
 
 > Python command-line interface for Cloudflare API.
 > More information: <https://github.com/cloudflare/python-cloudflare>.
+
 - Display account information:
 
 `cli4 {{/user}}`
