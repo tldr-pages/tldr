@@ -1,7 +1,7 @@
 # oh-my-posh
 
 > Cross platform prompt engine for any shell.
-> More information: <https://ohmyposh.dev/docs>.
+> More information: <https://ohmyposh.dev/docs/installation/customize>.
 
 - Display current shell name:
 
