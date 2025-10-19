@@ -25,4 +25,4 @@
 
 - Set both owner (UID) and group (GID) for a TUN/TAP device:
 
-`sudo ip {{[tunt|tuntap]}} {{[a|add]}} {{[d|dev]}} {{tap0}} {{[m|mode]}} {{tap}} user {{username}} group {{groupname}}`
+`sudo ip {{[tunt|tuntap]}} {{[a|add]}} {{[d|dev]}} {{tap0}} {{[m|mode]}} {{tap}} user {{username}} group {{group_name}}`
