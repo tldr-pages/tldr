@@ -3,18 +3,18 @@
 > Krachtig, intelligent flashcardprogramma.
 > Meer informatie: <https://docs.ankiweb.net>.
 
-- Start `anki`:
+- Start de GUI:
 
 `anki`
 
-- Start `anki` met een specifiek profiel:
+- Gebruik een specifiek profiel:
 
-`anki -p {{profiel_naam}}`
+`anki {{[-p|--profile]}} {{profiel_naam}}`
 
-- Start `anki` in een specifieke taal:
+- Gebruik een specifieke taal:
 
-`anki -l {{taal}}`
+`anki {{[-l|--lang]}} {{taal}}`
 
-- Start `anki` vanaf een specifieke map, in plaats van de standaardmap (`~/Anki`):
+- Gebruik een andere map dan de standaardmap (`~/Anki` voor de standaardmap):
 
-`anki -b {{pad/naar/map}}`
+`anki {{[-b|--base]}} {{pad/naar/map}}`

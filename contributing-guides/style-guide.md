@@ -456,7 +456,7 @@ Try to keep the following order:
 
 For example: `systemctl < input_file.txt status pipewire --user > output_file.txt`
 
-This is only a suggestion and should be disregarded when program functionality or readability dictates otherwise.
+This is only a suggestion and should be disregarded when program functionality or readability dictates otherwise. For example when a page is repeating arguments between commands try to to align them vertically.
 
 If the command does multiple things, try to keep the chronological order in which things happen.
 
