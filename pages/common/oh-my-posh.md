@@ -1,6 +1,6 @@
 # oh-my-posh
 
-> A cross-platform prompt theme engine for any shell.
+> Cross platform prompt engine for any shell.
 > Provides consistent and customizable shell prompts across operating systems.
 > More information: <https://ohmyposh.dev/docs>.
 
