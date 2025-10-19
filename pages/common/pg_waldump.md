@@ -1,6 +1,6 @@
 # pg_waldump
 
-> Display a human-readable rendering of the write-ahead log of a PostgreSQL database cluster.
+> Display a human-readable rendering of the write-ahead log (WAL) of a PostgreSQL database cluster.
 > More information: <https://www.postgresql.org/docs/current/pgwaldump.html>.
 
 - Display WAL records from a specific segment:
@@ -11,22 +11,30 @@
 
 `pg_waldump {{start_segment}} {{end_segment}}`
 
-- Follow WAL in real-time:
+- Specify the WAL file directory:
 
-`pg_waldump {{start_segment}} {{[-f|--follow]}}`
+`pg_waldump {{start_segment}} {{end_segment}} {{[-p|--path]}} {{path}}`
+
+- Follow new WAL entries as they arrive:
+
+`pg_waldump {{start_segment}} {{end_segment}} {{[-f|--follow]}}`
 
 - Display records with full page images:
 
-`pg_waldump {{start_segment}} {{[-w|--fullpage]}}`
+`pg_waldump {{start_segment}} {{end_segment}} {{[-w|--fullpage]}}`
+
+- Limit number of records shown:
+
+`pg_waldump {{start_segment}} {{end_segment}} {{[-n|--limit]}} {{count}}`
 
 - Display summary statistics instead of individual records:
 
-`pg_waldump {{start_segment}} {{[-z|--stats]}}`
+`pg_waldump {{start_segment}} {{end_segment}} {{[-z|--stats]}}`
+
+- Filter by resource manager:
+
+`pg_waldump {{start_segment}} {{end_segment}} {{[-r|--rmgr]}} {{rmgr_name}}`
 
 - Display help:
 
 `pg_waldump {{[-?|--help]}}`
-
-- Display version:
-
-`pg_waldump {{[-V|--version]}}`
