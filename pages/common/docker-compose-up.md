@@ -9,7 +9,7 @@
 
 - Start services in the background (detached mode):
 
-`docker-compose up --detach`
+`docker-compose up {{[-d|--detach]}}`
 
 - Start services and rebuild images before starting:
 
@@ -17,11 +17,11 @@
 
 - Start specific services only:
 
-`docker-compose up {{service1 service2}}`
+`docker-compose up {{service1 service2 ...}}`
 
 - Start services with custom compose file:
 
-`docker-compose --file {{path/to/docker-compose.yml}} up`
+`docker-compose {{[-f|--file]}} {{path/to/docker-compose.yml}} up`
 
 - Start services and remove orphaned containers:
 
