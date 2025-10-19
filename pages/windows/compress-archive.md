@@ -13,7 +13,7 @@
 
 - Compress a directory:
 
-`Compress-Archive -Path "{{path\to\folder}}" -DestinationPath "{{path\to\folder.zip}}"`
+`Compress-Archive -Path "{{path\to\directory}}" -DestinationPath "{{path\to\directory.zip}}"`
 
 - Update an existing archive:
 
