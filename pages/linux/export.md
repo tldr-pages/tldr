@@ -19,6 +19,6 @@
 
 `export PATH=$PATH:{{path/to/append}}`
 
-- Display a list of active exported variables in shell command form:
+- [p]rint a list of active exported variables in shell command form:
 
 `export -p`

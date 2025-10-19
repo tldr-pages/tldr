@@ -1,28 +1,28 @@
 # dotnet publish
 
-> Публикует .NET-приложение и его зависимости в папку для развёртываения на целевой системе.
+> Публикует .NET-приложение и его зависимости в каталог для развёртывания на целевой системе.
 > Больше информации: <https://learn.microsoft.com/dotnet/core/tools/dotnet-publish>.
 
 - Скомпилировать проект .NET в режиме release:
 
-`dotnet publish --configuration Release {{путь/до/файла_проекта}}`
+`dotnet publish {{[-c|--configuration]}} Release {{путь/к/файлу_проекта}}`
 
 - Опубликовать ваше приложение с заданной средой исполнения .NET Core:
 
-`dotnet publish --self-contained true --runtime {{идентификатор_среды_исполения}} {{путь/до/файла_проекта}}`
+`dotnet publish {{[-sc|--self-contained]}} true {{[-r|--runtime]}} {{идентификатор_среды_исполнения}} {{путь/к/файлу_проекта}}`
 
 - Упаковать приложение в один исполняемый файл для заданной платформы:
 
-`dotnet publish --runtime {{идентификатор_среды_исполения}} -p:PublishSingleFile=true {{путь/до/файла_проекта}}`
+`dotnet publish {{[-r|--runtime]}} {{идентификатор_среды_исполнения}} -p:PublishSingleFile=true {{путь/к/файлу_проекта}}`
 
 - Обрезать неиспользуемые библиотеки чтобы уменьшить размер развёртывания приложения:
 
-`dotnet publish --self-contained true --runtime {{идентификатор_среды_исполения}} -p:PublishTrimmed=true {{путь/до/файла_проекта}}`
+`dotnet publish {{[-sc|--self-contained]}} true {{[-r|--runtime]}} {{идентификатор_среды_исполнения}} -p:PublishTrimmed=true {{путь/к/файлу_проекта}}`
 
 - Скомпилировать проект .NET без восстановления зависимостей:
 
-`dotnet publish --no-restore {{путь/до/файла_проекта}}`
+`dotnet publish --no-restore {{путь/к/файлу_проекта}}`
 
-- Указать целевую папку:
+- Указать целевой каталог:
 
-`dotnet publish --output {{путь/до/папки}} {{путь/до/файла_проекта}}`
+`dotnet publish {{[-o|--output]}} {{путь/к/каталогу}} {{путь/к/файлу_проекта}}`

@@ -5,11 +5,11 @@
 
 - Download and run `rustup-init` to install `rustup` and the default Rust toolchain:
 
-`curl https://sh.rustup.rs -sSf | sh -s`
+`curl https://sh.rustup.rs {{[-sSf|--silent --show-error --fail]}} | sh -s`
 
 - Download and run `rustup-init` and pass arguments to it:
 
-`curl https://sh.rustup.rs -sSf | sh -s -- {{arguments}}`
+`curl https://sh.rustup.rs {{[-sSf|--silent --show-error --fail]}} | sh -s -- {{arguments}}`
 
 - Run `rustup-init` and specify additional components or targets to install:
 

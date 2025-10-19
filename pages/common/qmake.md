@@ -1,7 +1,7 @@
 # qmake
 
 > Generate Makefiles from Qt project files.
-> More information: <https://doc.qt.io/qt-6/qmake-manual.html>.
+> More information: <https://doc.qt.io/qt-6/qmake-running.html>.
 
 - Generate a `Makefile` from a project file in the current directory:
 
