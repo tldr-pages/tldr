@@ -5,11 +5,11 @@
 
 - Clone a Perforce depot into a new Git repository:
 
-`git p4 clone {{p4-depot-path}}`
+`git p4 clone {{path/to/p4_depot}}`
 
 - Sync changes from Perforce into the current Git repository:
 
-`git p4 sync {{p4-depot-path}}`
+`git p4 sync {{path/to/p4_depot}}`
 
 - Rebase local commits on top of the latest Perforce changes:
 
