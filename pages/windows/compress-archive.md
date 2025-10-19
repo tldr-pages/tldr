@@ -7,7 +7,7 @@
 
 `Compress-Archive -Path "{{path\to\file.txt}}" -DestinationPath "{{path\to\file.zip}}"`
 
-- Compress Multiple Files:
+- Compress multiple files:
 
 `Compress-Archive -Path "{{path\to\file1.txt}}", "{{path\to\file2.txt}}" -DestinationPath "{{path\to\files.zip}}"`
 
