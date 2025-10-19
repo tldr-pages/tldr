@@ -1,4 +1,4 @@
-# minio-server
+# minio server
 
 > MinIO server command for starting the MinIO S3 compatible storage engine.
 > More information: <https://github.com/minio/minio>.
