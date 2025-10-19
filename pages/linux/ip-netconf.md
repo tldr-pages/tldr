@@ -9,16 +9,16 @@
 
 - Show network configuration for a specific interface:
 
-`ip {{[netc|netconf]}} show dev {{network_interface}}`
-
-- Show configuration for interfaces in a specific network namespace:
-
-`ip {{[netc|netconf]}} show name {{namespace}}`
+`ip {{[netc|netconf]}} {{[s|show]}} dev {{network_interface}}`
 
 - Show only IPv4 network configuration:
 
-`ip -4 {{[netc|netconf]}} show all`
+`ip -4 {{[netc|netconf]}} {{[s|show]}} all`
 
 - Show only IPv6 network configuration:
 
-`ip -6 {{[netc|netconf]}} show all`
+`ip -6 {{[netc|netconf]}} {{[s|show]}} all`
+
+- Show network configuration for all interfaces in a given namespace:
+
+`ip netns exec {{namespace_name}} ip {{[netc|netconf]}} {{[s|show]}} all`
