@@ -8,7 +8,7 @@
 
 `nmap -v{{1|2|3}} {{ip_or_hostname}}`
 
-- Run a ping sweep over an entire subnet or individual hosts very aggressively:
+- Run a ping sweep over an entire [s]ub[n]et or individual hosts very aggressively:
 
 `nmap -T5 -sn {{192.168.0.0/24|ip_or_hostname1,ip_or_hostname2,...}}`
 
@@ -16,7 +16,7 @@
 
 `sudo nmap -A -iL {{path/to/file.txt}}`
 
-- Scan a specific list of ports (use `-p-` for all ports from 1 to 65535):
+- Scan a specific list of [p]orts (use `-p-` for all ports from 1 to 65535):
 
 `nmap -p {{port1,port2,...}} {{ip_or_host1,ip_or_host2,...}}`
 
@@ -28,10 +28,10 @@
 
 `nmap --script "default and safe" {{ip_or_host1,ip_or_host2,...}}`
 
-- Scan for web servers running on standard ports 80 and 443 using all available `http-*` NSE scripts:
+- Scan for web servers running on standard [p]orts 80 and 443 using all available `http-*` NSE scripts:
 
 `nmap --script "http-*" {{ip_or_host1,ip_or_host2,...}} -p 80,443`
 
-- Attempt evading IDS/IPS detection by using an extremely slow scan (`-T0`), decoy source addresses (`-D`), [f]ragmented packets, random data and other methods:
+- Attempt evading IDS/IPS detection by using an extremely slow scan (`-T0`), [D]ecoy source addresses, [f]ragmented packets, random data and other methods:
 
 `sudo nmap -T0 -D {{decoy_ip1,decoy_ip2,...}} --source-port {{53}} -f --data-length {{16}} -Pn {{ip_or_host}}`

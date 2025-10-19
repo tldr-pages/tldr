@@ -7,7 +7,7 @@
 
 `apropos {{regex}}`
 
-- Search without restricting the output to the terminal width ([l]ong output):
+- Search without restricting the output to the terminal width (long output):
 
 `apropos {{[-l|--long]}} {{regex}}`
 

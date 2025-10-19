@@ -33,6 +33,6 @@
 
 `pwsh -InputFormat {{Text|XML}}`
 
-- Bepaal hoe een uitvoer van Powershell word geformateerd:
+- Bepaal hoe een uitvoer van Powershell word geformatteerd:
 
 `pwsh -OutputFormat {{Text|XML}}`
