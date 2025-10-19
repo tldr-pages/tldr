@@ -13,7 +13,7 @@
 
 - Merge multiple files, continuing on failures:
 
-`git merge-index -o git-merge-one-file -- {{path1}} {{path2}}`
+`git merge-index -o git-merge-one-file -- {{path/to/file1 path/to/file2 ...}}`
 
 - Quietly merge all files with a custom program:
 
