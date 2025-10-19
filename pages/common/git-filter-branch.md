@@ -5,7 +5,7 @@
 
 - Remove a file from all commits:
 
-`git filter-branch --tree-filter 'rm -f {{file}}' HEAD`
+`git filter-branch --tree-filter 'rm {{[-f|--force]}} {{file}}' HEAD`
 
 - Update author email:
 
