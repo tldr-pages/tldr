@@ -21,4 +21,4 @@
 
 - Set compression level:
 
-`Compress-Archive -Path "{{path\to\folder}}" -DestinationPath "{{path\to\folder.zip}}" -CompressionLevel {{Optimal | Fastest | NoCompression}}`
+`Compress-Archive -Path "{{path\to\directory}}" -DestinationPath "{{path\to\directory.zip}}" -CompressionLevel {{Optimal|Fastest|NoCompression}}`
