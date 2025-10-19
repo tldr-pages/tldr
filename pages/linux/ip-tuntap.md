@@ -9,20 +9,20 @@
 
 - Create a TUN device with a specific name:
 
-`sudo ip {{[tunt|tuntap]}} add dev {{tun0}} mode tun`
+`sudo ip {{[tunt|tuntap]}} {{[a|add]}} {{[d|dev]}} {{tun0}} {{[m|mode]}} {{[t|tun]}}`
 
 - Create a TAP device with a specific name:
 
-`sudo ip {{[tunt|tuntap]}} add dev {{tap0}} mode tap`
+`sudo ip {{[tunt|tuntap]}} {{[a|add]}} {{[d|dev]}} {{tap0}} {{[m|mode]}} {{[t|tap]}}`
 
 - Delete a TUN or TAP device:
 
-`sudo ip {{[tunt|tuntap]}} del dev {{tun0|tap0}} mode {{tun|tap}}`
+`sudo ip {{[tunt|tuntap]}} {{[d|delete]}} {{[d|dev]}} {{tun0|tap0}} {{[m|mode]}} {{tun|tap}}`
 
 - Set the owner (UID) of a TUN/TAP device:
 
-`sudo ip {{[tunt|tuntap]}} add dev {{tun0}} mode {{tun|tap}} user {{username}}`
+`sudo ip {{[tunt|tuntap]}} {{[a|add]}} {{[d|dev]}} {{tun0}} {{[m|mode]}} {{tun|tap}} user {{username}}`
 
 - Set both owner (UID) and group (GID) for a TUN/TAP device:
 
-`sudo ip {{[tunt|tuntap]}} add dev {{tap0}} mode {{tap}} user {{username}} group {{groupname}}`
+`sudo ip {{[tunt|tuntap]}} {{[a|add]}} {{[d|dev]}} {{tap0}} {{[m|mode]}} {{tap}} user {{username}} group {{groupname}}`
