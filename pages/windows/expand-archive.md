@@ -11,6 +11,6 @@
 
 `Expand-Archive -Path "{{path\to\example.zip}}" -DestinationPath "{{path\to\extracted_files}}" -Force`
 
-- Preview without Extracting:
+- Preview without extracting:
 
 `Expand-Archive -Path "{{path\to\example.zip}}" -DestinationPath "{{path\to\extracted_files}}" -WhatIf`
