@@ -9,7 +9,7 @@
 
 - Merge a specific file:
 
-`git merge-index git-merge-one-file -- {{path}}`
+`git merge-index git-merge-one-file -- {{path/to/file}}`
 
 - Merge multiple files, continuing on failures:
 
