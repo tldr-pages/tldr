@@ -1,38 +1,37 @@
 # poetry
 
-> Manage Python packages and dependencies.
-> Some subcommands such as `about`, `check`, `env`, etc. have their own usage documentation.
-> See also: `asdf`, `pipenv`, `hatch`.
+> Python dependency and package manager.
+> Create projects, manage dependencies/virtual environments, build and publish packages.
 > More information: <https://python-poetry.org/docs/cli/>.
 
-- Create a new Poetry project in the directory with a specific name:
+- Create a new project in a directory:
 
 `poetry new {{project_name}}`
 
-- Install and add a dependency and its sub-dependencies to the `pyproject.toml` file in the current directory:
-
-`poetry add {{dependency}}`
-
-- Install the project dependencies using the `pyproject.toml` file in the current directory:
-
-`poetry install`
-
-- Interactively (append `-n` for non-interactively) initialize the current directory as a new Poetry project:
+- Initialize Poetry in the current directory (interactive):
 
 `poetry init`
 
-- Get the latest version of all dependencies and update `poetry.lock`:
+- Add a runtime dependency:
 
-`poetry update`
+`poetry add {{package}}`
 
-- Execute a command inside the project's virtual environment:
+- Add a dependency to a specific group (for example, "dev"):
+
+`poetry add --group {{dev}} {{package}}`
+
+- Install dependencies from `pyproject.toml` / `poetry.lock`:
+
+`poetry install`
+
+- Run a command inside the project's virtual environment:
 
 `poetry run {{command}}`
 
-- Bump the version of the project in `pyproject.toml`:
+- Update all dependencies to the latest allowed versions:
 
-`poetry version {{patch|minor|major|prepatch|preminor|premajor|prerelease}}`
+`poetry update`
 
-- Spawn a shell within the project's virtual environment (for versions below 2.0, use `poetry shell`):
+- Build a source distribution and a wheel:
 
-`eval "$(poetry env activate)"`
+`poetry build`
