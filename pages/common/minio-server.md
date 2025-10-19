@@ -13,4 +13,4 @@
 
 - Start a server as part of a cluster of 2 nodes:
 
-`minio server {{hostname-of-node1}} {{/path/to/data/directory}} {{hostname-of-node2}} {{/path/to/data/directory}}`
+`minio server {{node1_hostname}} {{/path/to/data/directory}} {{node2_hostname}} {{/path/to/data/directory}}`
