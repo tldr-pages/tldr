@@ -1,37 +1,37 @@
 # jj
 
-> Jujutsu, a version control system.
-> Some subcommands such as `log`, `desc`, `new`, `git`, etc. have their own usage documentation.
-> More information: <https://jj-vcs.github.io/jj/latest/cli-reference/>.
+> Jujutsu: a Git-compatible version control system.
+> Uses a stageless, change-based model; interoperates with Git via `jj git`.
+> More information: <https://jj-vcs.github.io/jj/latest/>.
 
-- Update description of the revisions specified by given revsets (e.g. `B::D`, `A..D`, `B|C|D`, etc.):
+- Initialize a colocated Jujutsu repository in the current Git project:
 
-`jj {{[desc|describe]}} {{[-m|--message]}} "{{message}}" {{[-r|--revision]}} {{revsets}}`
+`jj git init --colocate`
 
-- Create a new commit/revision on top of a given revision:
+- Show the working copy status and the current `@` change:
 
-`jj new {{revset}}`
+`jj status`
 
-- Create a new merge commit on top of multiple revisions:
+- Create a new change on top of the current one with a message:
 
-`jj new {{revset1 revset2 ...}}`
+`jj new -m "{{short_description}}"`
 
-- Update the working copy to point to a revision:
+- Amend the current change's description:
 
-`jj edit {{revset}}`
+`jj describe -m "{{updated_message}}"`
 
-- Undo the previous command (which may itself have been `undo`):
+- View recent history (last 20 changes):
 
-`jj undo`
+`jj log -n {{20}}`
 
-- Execute a jj subcommand without snapshotting the working copy:
+- Create (or move) a bookmark (branch-like pointer) to the current change:
 
-`jj --ignore-working-copy {{subcommand}}`
+`jj bookmark set {{bookmark_name}}`
 
-- Execute a jj subcommand at an operation:
+- Push changes and bookmarks to the default Git remote (allow creating new bookmarks):
 
-`jj {{[--at-op|--at-operation]}} {{operation}} {{subcommand}}`
+`jj git push --allow-new`
 
-- Display help for a specific subcommand (like `new`, `commit`, `desc`, etc.):
+- Fetch changes from the default Git remote:
 
-`jj help {{subcommand}}`
+`jj git fetch`
