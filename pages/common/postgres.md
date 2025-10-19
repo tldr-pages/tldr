@@ -3,7 +3,7 @@
 > Run the PostgreSQL database server.
 > More information: <https://www.postgresql.org/docs/current/app-postgres.html>.
 
-- Start the server on a specific port:
+- Start the server on a specific port (defaults to 5432):
 
 `postgres -p {{1234}}`
 
