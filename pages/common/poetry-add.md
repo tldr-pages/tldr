@@ -1,25 +1,28 @@
 # poetry add
 
-> Add required packages to the `pyproject.toml` file in Poetry.
-> See also: `asdf`.
+> Add dependencies to the current Poetry project.
 > More information: <https://python-poetry.org/docs/cli/#add>.
 
-- Add required packages:
+- Add the latest compatible version of a package:
 
-`poetry add {{package_name}}`
+`poetry add {{package}}`
 
-- Add required packages to a specific group of dependencies:
+- Add a package with a version constraint:
 
-`poetry add {{package_name}} --group {{group_name}}`
+`poetry add {{package}}@{{^1.2}}`
 
-- Add a specific version of a package:
+- Add a package to a group (for example, "dev"):
 
-`poetry add {{package_name}}=={{version}}`
+`poetry add --group {{dev}} {{package}}`
 
-- Add a specific version of a package equal to or earlier than a given version:
+- Add one or more optional extras from a package:
 
-`poetry add {{package_name}}<={{version}}`
+`poetry add {{package}} -E {{extra1}} -E {{extra2}}`
 
-- Add a specific version of a package equal to or later than a given version:
+- Add a package directly from a Git repository:
 
-`poetry add {{package_name}}>={{version}}`
+`poetry add git+https://github.com/{{user}}/{{repo}}.git`
+
+- Add a package from a local path:
+
+`poetry add {{path/to/local_package}}`
