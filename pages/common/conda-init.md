@@ -12,10 +12,6 @@
 
 `conda init --all`
 
-- Initialize conda for the current user (default):
-
-`conda init --user`
-
 - Initialize conda for all users on the system:
 
 `conda init --system`
