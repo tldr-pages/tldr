@@ -5,7 +5,7 @@
 
 - Start the server on a specific port (defaults to 5432):
 
-`postgres -p {{1234}}`
+`postgres -p {{5433}}`
 
 - Set a runtime parameter (short form):
 
