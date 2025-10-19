@@ -1,7 +1,7 @@
 # conda notices
 
 > Retrieve latest channel notifications.
-> More information: <https://docs.conda.io/projects/conda/en/latest/commands/notices.html#>.
+> More information: <https://docs.conda.io/projects/conda/en/latest/commands/notices.html>.
 
 - Show notices for the default channel and all `.condarc` channels:
 
@@ -13,4 +13,4 @@
 
 - Ignore default and `.condarc` channels. Requires -c flag:
 
-`conda notices --override-channels -c {{channel_name}}`
+`conda notices {{[-c|--channel]}} {{channel_name}} --override-channels`

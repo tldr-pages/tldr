@@ -3,13 +3,13 @@
 > Export environment details.
 > More information: <https://docs.conda.io/projects/conda/en/latest/commands/export.html>.
 
-- Export the current environment details to stdout:
+- Export the current environment details to `stdout`:
 
 `conda export`
 
 - Export the current environment details to a `YAML` file:
 
-`conda export {{[-f|--file]}} my-env.yaml`
+`conda export {{[-f|--file]}} {{path/to/environment.yaml}}`
 
 - Export details in a specific format:
 
