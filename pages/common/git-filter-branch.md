@@ -1,4 +1,4 @@
-# git-filter-branch
+# git filter-branch
 
 > Change branch history, like removing files.
 > More information: <https://git-scm.com/docs/git-filter-branch>.
