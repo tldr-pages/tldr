@@ -15,10 +15,6 @@
 
 `ip {{netconf}} show name {{namespace}}`
 
-- Display detailed IPv4/IPv6 configuration for all interfaces:
-
-`ip {{-details}} {{netconf}} show all`
-
 - Show only IPv4 network configuration:
 
 `ip -4 {{netconf}} show all`
