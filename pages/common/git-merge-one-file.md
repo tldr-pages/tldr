@@ -5,16 +5,16 @@
 
 - Resolve a simple merge conflict for a file:
 
-`git merge-one-file {{path}}`
+`git merge-one-file {{path/to/file}}`
 
 - Use as a helper in merge-index for a file:
 
-`git merge-index git-merge-one-file {{path}}`
+`git merge-index git-merge-one-file {{path/to/file}}`
 
 - Handle a binary file merge:
 
-`git merge-one-file -p {{path}}`
+`git merge-one-file -p {{path/to/file}}`
 
 - Apply after read-tree in a scripted merge:
 
-`git read-tree -m {{branch1}} {{branch2}} && git merge-index git-merge-one-file {{path}}`
+`git read-tree -m {{branch1}} {{branch2}} && git merge-index git-merge-one-file {{path/to/file}}`
