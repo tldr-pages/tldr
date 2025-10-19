@@ -9,11 +9,11 @@
 
 - Set a runtime parameter (short form):
 
-`postgres -c {{work_mem=1234}}`
+`postgres -c {{shared_buffers=128MB}}`
 
 - Set a runtime parameter (long form):
 
-`postgres --{{work-mem}}={{1234}}`
+`postgres --{{shared-buffers}}={{128MB}}`
 
 - Start in single-user mode for a specific database (defaults to the user name):
 
