@@ -7,7 +7,7 @@
 
 `sudo installpkg {{path/to/package.tgz}}`
 
-- Generate a report of a simulated installation to standard out:
+- Generate a report of a simulated installation to `stdout`:
 
 `installpkg -warn {{path/to/package.tgz}}`
 
