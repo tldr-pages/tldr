@@ -19,10 +19,6 @@
 
 `pg_waldump {{start_segment}} {{end_segment}} {{[-f|--follow]}}`
 
-- Display records with full page images:
-
-`pg_waldump {{start_segment}} {{end_segment}} {{[-w|--fullpage]}}`
-
 - Limit number of records shown:
 
 `pg_waldump {{start_segment}} {{end_segment}} {{[-n|--limit]}} {{count}}`
