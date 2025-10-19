@@ -13,7 +13,7 @@
 
 - Create a TAP device with a specific name:
 
-`sudo ip {{[tunt|tuntap]}} {{[a|add]}} {{[d|dev]}} {{tap0}} {{[m|mode]}} {{[t|tap]}}`
+`sudo ip {{[tunt|tuntap]}} {{[a|add]}} {{[d|dev]}} {{tap0}} {{[m|mode]}} tap`
 
 - Delete a TUN or TAP device:
 
