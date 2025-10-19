@@ -2,7 +2,7 @@
 
 > Run a fallback shell for users managed by `systemd-homed`.
 > Used when the configured login shell is missing or cannot be executed.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemd-home-fallback-shell.html>.
+> More information: <https://man7.org/linux/man-pages/man8/systemd-homed.service.8.html>.
 
 - Start a fallback shell for the current user:
 
@@ -28,6 +28,6 @@
 
 `systemd-home-fallback-shell --verbose {{username}}`
 
-- Show version information:
+- Display version:
 
 `systemd-home-fallback-shell --version`
