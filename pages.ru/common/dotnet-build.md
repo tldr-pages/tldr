@@ -3,17 +3,17 @@
 > Собирает приложение .NET и все его зависимости.
 > Больше информации: <https://learn.microsoft.com/dotnet/core/tools/dotnet-build>.
 
-- Скомпилировать проект или решение в текущей директории:
+- Скомпилировать проект или решение в текущем каталоге:
 
 `dotnet build`
 
 - Скомпилировать проект или решение .NET в режиме debug:
 
-`dotnet build {{путь/до/проекта_или_решения}}`
+`dotnet build {{путь/к/проекту_или_решению}}`
 
 - Скомпилировать в режиме release:
 
-`dotnet build --configuration {{Release}}`
+`dotnet build {{[-c|--configuration]}} {{Release}}`
 
 - Скомпилировать без восстановления зависимостей:
 
@@ -21,12 +21,12 @@
 
 - Скомпилировать с заданным уровнем детализации выводимой информации:
 
-`dotnet build --verbosity {{quiet|minimal|normal|detailed|diagnostic}}`
+`dotnet build {{[-v|--verbosity]}} {{quiet|minimal|normal|detailed|diagnostic}}`
 
 - Скомпилировать для заданной среды исполнения:
 
-`dotnet build --runtime {{идентификатор_среды_исполения}}`
+`dotnet build {{[-r|--runtime]}} {{идентификатор_среды_исполнения}}`
 
-- Указать целевую папку:
+- Указать целевой каталог:
 
-`dotnet build --output {{путь/до/папки}}`
+`dotnet build {{[-o|--output]}} {{путь/к/каталогу}}`
