@@ -5,20 +5,20 @@
 
 - Compress a single file:
 
-`Compress-Archive -Path "{{path\to\file.txt}}" -DestinationPath "{{path\to\file.zip}}"`
+`Compress-Archive -Path {{path\to\file.txt}} -DestinationPath {{path\to\file.zip}}`
 
 - Compress multiple files:
 
-`Compress-Archive -Path {{"path\to\file1", "path\to\file2", ...}} -DestinationPath "{{path\to\files.zip}}"`
+`Compress-Archive -Path {{path\to\file1, path\to\file2, ...}} -DestinationPath {{path\to\files.zip}}`
 
 - Compress a directory:
 
-`Compress-Archive -Path "{{path\to\directory}}" -DestinationPath "{{path\to\directory.zip}}"`
+`Compress-Archive -Path {{path\to\directory}} -DestinationPath {{path\to\directory.zip}}`
 
 - Update an existing archive:
 
-`Compress-Archive -Path "{{path\to\file}}" -DestinationPath "{{path\to\directory.zip}}" -Update`
+`Compress-Archive -Path {{path\to\file}} -DestinationPath {{path\to\directory.zip}} -Update`
 
 - Set compression level:
 
-`Compress-Archive -Path "{{path\to\directory}}" -DestinationPath "{{path\to\directory.zip}}" -CompressionLevel {{Optimal|Fastest|NoCompression}}`
+`Compress-Archive -Path {{path\to\directory}} -DestinationPath {{path\to\directory.zip}} -CompressionLevel {{Optimal|Fastest|NoCompression}}`
