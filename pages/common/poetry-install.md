@@ -1,20 +1,28 @@
 # poetry install
 
-> Install all dependencies for a Python project as defined in the pyproject.toml file.
+> Install the dependencies of the current Poetry project.
 > More information: <https://python-poetry.org/docs/cli/#install>.
 
-- Install dependencies:
+- Install all default dependency groups:
 
 `poetry install`
 
-- Skip installing the project itself as a dependency:
+- Include additional dependency groups (comma-separated):
+
+`poetry install --with {{dev,docs}}`
+
+- Exclude dependency groups:
+
+`poetry install --without {{dev}}`
+
+- Only install a specific dependency group:
+
+`poetry install --only {{main}}`
+
+- Sync the environment to match the lockfile exactly (remove extras):
+
+`poetry install --sync`
+
+- Install dependencies but skip installing the current project as a package:
 
 `poetry install --no-root`
-
-- Install only production dependencies:
-
-`poetry install --without dev`
-
-- Install optional dependenciy groups:
-
-`poetry install --with test,docs`
