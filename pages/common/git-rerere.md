@@ -1,4 +1,4 @@
-# git-rerere
+# git rerere
 
 > Reuse fixes for merge conflicts.
 > More information: <https://git-scm.com/docs/git-rerere>.
