@@ -1,7 +1,6 @@
 # oh-my-posh
 
 > Cross platform prompt engine for any shell.
-> Provides consistent and customizable shell prompts across operating systems.
 > More information: <https://ohmyposh.dev/docs>.
 
 - Display current shell name:
