@@ -17,7 +17,7 @@
 
 - Update an existing archive:
 
-`Compress-Archive -Path "{{path\to\file.txt}}" -DestinationPath "{{path\to\Folder.zip}}" -Update`
+`Compress-Archive -Path "{{path\to\file}}" -DestinationPath "{{path\to\directory.zip}}" -Update`
 
 - Set compression level:
 
