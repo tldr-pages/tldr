@@ -1,4 +1,4 @@
-# git-merge-tree
+# git merge-tree
 
 > Merge branches without changing files.
 > More information: <https://git-scm.com/docs/git-merge-tree>.
