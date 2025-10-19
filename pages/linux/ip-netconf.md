@@ -5,7 +5,7 @@
 
 - Show network configuration for all interfaces:
 
-`ip {{netconf}} show all`
+`ip {{[netc|netconf]}}`
 
 - Show network configuration for a specific interface:
 
