@@ -9,7 +9,7 @@
 
 `vagrant destroy`
 
-- Target a machine by name or id:
+- Target a machine by name or ID:
 
 `vagrant destroy {{name|id}}`
 

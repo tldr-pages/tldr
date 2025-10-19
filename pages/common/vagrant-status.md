@@ -8,6 +8,6 @@
 
 `vagrant status`
 
-- Target a machine by name or id:
+- Target a machine by name or ID:
 
 `vagrant status {{name|id}}`

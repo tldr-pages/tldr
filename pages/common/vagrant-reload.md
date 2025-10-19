@@ -9,7 +9,7 @@
 
 `vagrant reload`
 
-- Target a machine by name or id:
+- Target a machine by name or ID:
 
 `vagrant reload {{name|id}}`
 
