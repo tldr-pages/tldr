@@ -11,6 +11,6 @@
 
 `conda notices {{[-c|--channel]}} {{channel_name}}`
 
-- Ignore default and `.condarc` channels. Requires -c flag:
+- Ignore default and `.condarc` channels:
 
 `conda notices {{[-c|--channel]}} {{channel_name}} --override-channels`
