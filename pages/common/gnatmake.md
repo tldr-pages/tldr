@@ -7,7 +7,7 @@
 
 `gnatmake {{source_file1.adb source_file2.adb ...}}`
 
-- Set a custom executable name:
+- Set a custom [o]utput executable name:
 
 `gnatmake -o {{executable_name}} {{source_file.adb}}`
 

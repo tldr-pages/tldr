@@ -17,7 +17,7 @@
 
 - Store a key-value pair, reading the value from a file:
 
-`etcdctl put {{my/file}} < {{path/to/file.txt}}`
+`etcdctl < {{path/to/file.txt}} put {{my/file}}`
 
 - Save a snapshot of the etcd keystore:
 

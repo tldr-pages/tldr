@@ -1,7 +1,7 @@
 # hostnamectl
 
 > الحصول على اسم المضيف أو تعيينه لجهاز الكمبيوتر.
-> لمزيد من التفاصيل: <https://manned.org/hostnamectl>.
+> لمزيد من التفاصيل: <https://www.freedesktop.org/software/systemd/man/hostnamectl.html>.
 
 - الحصول على اسم المضيف لجهاز الكمبيوتر:
 

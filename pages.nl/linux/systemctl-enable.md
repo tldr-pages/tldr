@@ -9,8 +9,8 @@
 
 - Schakel het automatisch opstarten van een service in en start het nu:
 
-`systemctl enable --now {{eenheid}}`
+`systemctl enable {{eenheid}} --now`
 
 - Schakel het automatisch opstarten van een gebruikersservice na het inloggen in:
 
-`systemctl enable --user {{eenheid}}`
+`systemctl enable {{eenheid}} --user`

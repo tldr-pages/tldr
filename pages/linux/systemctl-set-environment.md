@@ -1,7 +1,7 @@
 # systemctl set-environment
 
 > Set one or more service manager environment variables.
-> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#set-environment%20VARIABLE=VALUE%E2%80%A6>.
+> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#set-environment%20VARIABLE=VALUE%E2%80%A6>.
 
 - Set a single environment variable:
 

@@ -1,7 +1,7 @@
 # systemctl switch-root
 
 > Switch to a new root filesystem and execute a new system manager.
-> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#switch-root%20ROOT%20INIT>.
+> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#switch-root%20ROOT%20INIT>.
 
 - Switch to a new root filesystem and execute its default init system:
 

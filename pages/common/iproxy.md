@@ -15,6 +15,6 @@
 
 `iproxy --udid {{device_udid}} {{local_port}}:{{device_port}}`
 
-- Bind a local port and forward it to a network-connected device with WiFi sync enabled:
+- Bind a local port and forward it to a network-connected device with Wi-Fi sync enabled:
 
 `iproxy --network {{local_port}}:{{device_port}}`
