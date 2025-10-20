@@ -25,7 +25,7 @@
 
 - Start a headless opencode server for API access:
 
-`opencode serve --port {{port}} --hostname {{hostname}}`
+`opencode serve {{[-h|--hostname]}} {{hostname}} {{[-p|--port]}} {{port}}`
 
 - Manage AI assistant agents for OpenCode:
 
