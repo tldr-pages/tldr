@@ -1,7 +1,6 @@
 # msgattrib
 
 > Filter and manipulate message attributes in `.po` translation files.
-> Useful for selecting, cleaning, and modifying messages based on their state (translated, fuzzy, obsolete, etc.).
 > More information: <https://www.gnu.org/software/gettext/manual/html_node/msgattrib-Invocation.html>.
 
 - Keep only translated messages:
