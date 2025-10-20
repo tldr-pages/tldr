@@ -6,7 +6,7 @@
 
 - Remove physical volume from volume group:
 
-`sudo vgreduce [VOLUME_GROUP_NAME] [PHYSICAL_VOLUME_NAME]`
+`sudo vgreduce {{volume_group}} {{volume_name}}`
 
 - Remove all empty physical volumes if none are given on command line:
 
