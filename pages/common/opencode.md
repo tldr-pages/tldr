@@ -1,7 +1,6 @@
 # opencode
 
 > An AI coding agent built for the terminal.
-> The OpenCode CLI by default starts the TUI when run without any arguments.
 > More information: <https://opencode.ai/docs/cli/>.
 
 - Start the interactive TUI:
