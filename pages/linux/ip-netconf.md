@@ -2,6 +2,7 @@
 
 > Display configuration parameters.
 > More information: <https://manned.org/ip-netconf>.
+
 - Show network configuration for all interfaces:
 
 `ip {{[netc|netconf]}}`
