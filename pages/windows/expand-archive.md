@@ -5,12 +5,12 @@
 
 - Extract a ZIP file to a folder:
 
-`Expand-Archive -Path "{{path\to\example.zip}}" -DestinationPath "{{path\to\extracted_files}}"`
+`Expand-Archive -Path {{path\to\example.zip}} -DestinationPath {{path\to\extracted_files}}`
 
 - Overwrite existing files:
 
-`Expand-Archive -Path "{{path\to\example.zip}}" -DestinationPath "{{path\to\extracted_files}}" -Force`
+`Expand-Archive -Path {{path\to\example.zip}} -DestinationPath {{path\to\extracted_files}} -Force`
 
 - Preview without extracting:
 
-`Expand-Archive -Path "{{path\to\example.zip}}" -DestinationPath "{{path\to\extracted_files}}" -WhatIf`
+`Expand-Archive -Path {{path\to\example.zip}} -DestinationPath {{path\to\extracted_files}} -WhatIf`
