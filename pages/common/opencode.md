@@ -13,7 +13,7 @@
 
 - Use a specific model and agent:
 
-`opencode run --model {{provider/model}} --agent {{agent_name}} "{{message}}"`
+`opencode run {{[-m|--model]}} {{provider}}/{{model}} --agent {{agent_name}} "{{message}}"`
 
 - List all available models from configured providers:
 
