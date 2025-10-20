@@ -30,3 +30,7 @@
 - Add a command to history without running it:
 
 `history -s {{command}}`
+
+- Run a command without adding it to history by adding a leading space:
+
+`<Space>{{command}}`

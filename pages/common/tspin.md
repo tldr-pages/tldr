@@ -7,7 +7,7 @@
 
 `tspin {{path/to/application.log}}`
 
-- Read from another command and print to stdout:
+- Read from another command and print to `stdout`:
 
 `journalctl {{[-b|--boot]}} {{[-f|--follow]}} | tspin`
 
