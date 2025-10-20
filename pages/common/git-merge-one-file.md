@@ -1,4 +1,4 @@
-# git-merge-one-file
+# git merge-one-file
 
 > Resolve a single file merge after a trivial merge.
 > More information: <https://git-scm.com/docs/git-merge-one-file>.
