@@ -25,7 +25,7 @@
 
 - List datasets matching a search term:
 
-`kaggle datasets list -s {{search_term}}`
+`kaggle datasets list {{-s|--search}} {{search_term}}`
 
 - Download all files from a dataset:
 
@@ -33,4 +33,4 @@
 
 - List kernels (notebooks) matching a search term:
 
-`kaggle kernels list -s {{search_term}}`
+`kaggle kernels list {{-s|--search}} {{search_term}}`
