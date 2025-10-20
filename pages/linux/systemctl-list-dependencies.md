@@ -2,7 +2,7 @@
 
 > Show a unit's dependency tree in systemd.
 > See also: `systemctl list-units` to list loaded units.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#list-dependencies%20UNIT%E2%80%A6>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#%0A%20%20%20%20%20%20%20%20%20%20%20%20list-dependencies%0A%20%20%20%20%20%20%20%20%20%20%20%20UNIT...%0A%20%20%20%20%20%20%20%20%20%20>.
 
 - Show the dependency tree of `default.target`:
 
