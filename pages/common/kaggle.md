@@ -13,7 +13,7 @@
 
 - List competitions matching a search term:
 
-`kaggle competitions list {{-s|--search}} {{search_term}}`
+`kaggle competitions list {{[-s|--search]}} {{search_term}}`
 
 - List files available for a specific competition:
 
@@ -21,11 +21,12 @@
 
 - Submit a file to a competition with a message:
 
-`kaggle competitions submit {{competition}} -f {{submission.csv}} -m "{{message}}"`
+`kaggle competitions submit {{competition}} {{[-f|--file]}} {{submission.csv}} {{[-m|--message]}} "{{message}}"`
+
 
 - List datasets matching a search term:
 
-`kaggle datasets list {{-s|--search}} {{search_term}}`
+`kaggle datasets list {{[-s|--search]}} {{search_term}}`
 
 - Download all files from a dataset:
 
@@ -33,4 +34,4 @@
 
 - List kernels (notebooks) matching a search term:
 
-`kaggle kernels list {{-s|--search}} {{search_term}}`
+`kaggle kernels list {{[-s|--search]}} {{search_term}}`
