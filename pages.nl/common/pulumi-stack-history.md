@@ -7,7 +7,7 @@
 
 `pulumi stack {{[hist|history]}}`
 
-- Toon de geschiedenis van de huidige stack, waarbij volledige data worden vertoont in plaats van relatieve data:
+- Toon de geschiedenis van de huidige stack, waarbij volledige datums worden getoond in plaats van relatieve datums:
 
 `pulumi stack {{[hist|history]}} --full-dates`
 
