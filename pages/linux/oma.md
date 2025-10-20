@@ -1,7 +1,7 @@
 # oma
 
 > A package management frontend for dpkg-based Linux distributions.
-> More information: <https://github.com/AOSC-Dev/oma>.
+> More information: <https://github.com/AOSC-Dev/oma#usage>.
 
 - Enter the interactive package management interface:
 
