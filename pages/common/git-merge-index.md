@@ -1,4 +1,4 @@
-# git-merge-index
+# git merge-index
 
 > Run a merge program on files that need merging.
 > More information: <https://git-scm.com/docs/git-merge-index>.
