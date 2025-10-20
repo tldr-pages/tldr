@@ -5,7 +5,7 @@
 
 - Reconhece o texto em uma imagem e salva-o no arquivo `saida.txt` (a extensão `.txt` é adicionada automaticamente):
 
-`tesseract {{caminho/para/imagem.png}} saida`
+`tesseract {{caminho/para/imagem.png}} {{saida}}`
 
 - Especifica uma [l]inguagem personalizada (o padrão é inglês) com um código ISO 639-2 (ex. deu = Deutsch = Alemão):
 
