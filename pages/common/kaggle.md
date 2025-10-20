@@ -13,7 +13,7 @@
 
 - List competitions matching a search term:
 
-`kaggle competitions list -s {{search_term}}`
+`kaggle competitions list {{-s|--search}} {{search_term}}`
 
 - List files available for a specific competition:
 
