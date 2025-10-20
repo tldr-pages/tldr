@@ -31,6 +31,6 @@
 
 `oh-my-posh debug`
 
-- Update oh-my-posh to latest version:
+- Update to latest version:
 
 `oh-my-posh upgrade`
