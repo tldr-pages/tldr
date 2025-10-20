@@ -1,6 +1,6 @@
 # vgreduce
 
-> Vgreduce allows you to remove one or more unused physical volumes from a volume group.
+> Remove one or more unused physical volumes from a volume group.
 > See also: `lvm`, `vgreduce`.
 > More information: <https://linux.die.net/man/8/vgreduce>.
 
