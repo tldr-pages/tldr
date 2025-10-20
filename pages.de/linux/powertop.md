@@ -9,7 +9,7 @@
 
 - Erstelle einen HTML-Stromverbrauchsbericht im aktuellen Verzeichnis:
 
-`sudo powertop --html={{power_report.html}}`
+`sudo powertop --html={{stromverbrauchsbericht.html}}`
 
 - Ermittle und wende die optimalen Einstellungen an:
 
