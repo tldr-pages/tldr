@@ -5,12 +5,12 @@
 
 - Start a server using the default configuration:
 
-`minio server {{path/to/data/directory}}`
+`minio server {{path/to/data_directory}}`
 
 - Start a server binding to a different port for the API and web console:
 
-`minio server --address ":42069" --console-address ":8008" {{path/to/data/directory}}`
+`minio server --address ":42069" --console-address ":8008" {{path/to/data_directory}}`
 
 - Start a server as part of a cluster of 2 nodes:
 
-`minio server {{node1_hostname}} {{path/to/data/directory}} {{node2_hostname}} {{path/to/data/directory}}`
+`minio server {{node1_hostname}} {{path/to/data_directory}} {{node2_hostname}} {{path/to/data_directory}}`
