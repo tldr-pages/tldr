@@ -1,7 +1,7 @@
 # journalctl
 
 > Запросить записи из журнала systemd.
-> Больше информации: <https://manned.org/journalctl>.
+> Больше информации: <https://www.freedesktop.org/software/systemd/man/journalctl.html>.
 
 - Показать все сообщения с уровнем приоритета 3 (ошибки) с момента текущей загрузки:
 
