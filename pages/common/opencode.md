@@ -1,19 +1,32 @@
 # opencode
 
-> AI coding agent.
+> An AI coding agent built for the terminal.
+> The OpenCode CLI by default starts the TUI when run without any arguments.
 > More information: <https://opencode.ai/docs/cli/>.
 
-- Start the interactive terminal UI:
+- Start the interactive TUI:
 
 `opencode`
+
+- Run opencode in non-interactive mode by passing a prompt directly:
+
+`opencode run "{{message}}"`
+
+- Use a specific model and agent:
+
+`opencode run --model {{provider/model}} --agent {{agent_name}} "{{message}}"`
 
 - List all available models from configured providers:
 
 `opencode models`
 
-- Run opencode in a non-interactive mode by passing a prompt directly:
+- Manage credentials and login for providers:
 
-`opencode run {{message}}`
+`opencode auth login`
+
+- Start a headless opencode server for API access:
+
+`opencode serve --port {{port}} --hostname {{hostname}}`
 
 - Manage AI assistant agents for OpenCode:
 
