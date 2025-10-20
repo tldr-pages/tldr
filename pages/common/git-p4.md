@@ -1,4 +1,4 @@
-# git-p4
+# git p4
 
 > Import from and submit to Perforce repositories.
 > More information: <https://git-scm.com/docs/git-p4>.
