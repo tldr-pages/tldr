@@ -7,15 +7,15 @@
 
 `oh-my-posh get shell`
 
-- Initialize oh-my-posh for Bash:
+- Initialize for Bash:
 
 `eval "$(oh-my-posh init bash --config {{path/to/theme}})"`
 
-- Initialize oh-my-posh for Powershell:
+- Initialize for Powershell:
 
 `oh-my-posh init pwsh --config {{path/to/theme}} | Invoke-Expression`
 
-- Initialize oh-my-posh for Zsh:
+- Initialize for Zsh:
 
 `eval "$(oh-my-posh init zsh --config {{path/to/theme}})"`
 
