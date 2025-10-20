@@ -23,7 +23,6 @@
 
 `kaggle competitions submit {{competition}} {{[-f|--file]}} {{submission.csv}} {{[-m|--message]}} "{{message}}"`
 
-
 - List datasets matching a search term:
 
 `kaggle datasets list {{[-s|--search]}} {{search_term}}`
