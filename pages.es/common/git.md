@@ -28,7 +28,7 @@
 
 `git push`
 
-- Obtener los cambios realizados en un remoto:
+- Obtiene los cambios realizados en un repositorio remoto:
 
 `git pull`
 
