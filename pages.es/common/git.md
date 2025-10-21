@@ -32,6 +32,6 @@
 
 `git pull`
 
-- Restablecer todo al estado del último commit:
+- Restablece todo al estado del último commit:
 
 `git reset --hard; git clean {{[-f|--force]}}`
