@@ -3,7 +3,7 @@
 > Descarga objetos y referencias de un repositorio remoto.
 > Más información: <https://git-scm.com/docs/git-fetch>.
 
-- Descarga los últimos cambios del repositorio remoto *upstream* por defecto (si se ha establecido):
+- Descarga los últimos cambios del repositorio remoto upstream por defecto (si se ha establecido):
 
 `git fetch`
 
