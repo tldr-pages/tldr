@@ -5,24 +5,24 @@
 
 - Rebuild a specific package:
 
-`npm rebuild {{package}}`
+`npm {{[rb|rebuild]}} {{package}}`
 
 - Rebuild all installed packages:
 
-`npm rebuild`
+`npm {{[rb|rebuild]}}`
 
 - Rebuild with verbose output:
 
-`npm rebuild --verbose`
+`npm {{[rb|rebuild]}} --verbose`
 
 - Rebuild a package in a specific directory:
 
-`npm rebuild --prefix={{path/to/dir}} {{package}}`
+`npm {{[rb|rebuild]}} --prefix={{path/to/dir}} {{package}}`
 
 - Rebuild without using the npm cache:
 
-`npm rebuild --no-cache`
+`npm {{[rb|rebuild]}} --no-cache`
 
 - Rebuild in global mode:
 
-`npm rebuild -g`
+`npm {{[rb|rebuild]}} -g`
