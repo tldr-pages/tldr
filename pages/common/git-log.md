@@ -27,9 +27,9 @@
 
 `git log {{[-i|--regexp-ignore-case]}} --grep {{search_string}}`
 
-- Show the last N number of commits from a certain author:
+- Show the last `n` number of commits from a certain author:
 
-`git log {{[-n|--max-count]}} {{number}} --author "{{author}}"`
+`git log {{[-n|--max-count]}} {{n}} --author "{{author}}"`
 
 - Show commits between two dates (yyyy-mm-dd):
 
