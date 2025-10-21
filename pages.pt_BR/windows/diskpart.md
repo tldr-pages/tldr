@@ -12,7 +12,7 @@ list disk
 - Seleciona um volume:
 select volume {{volume}}
 
-- Atribua uma letra de unidade ao volume selecionado:
+- Atribui uma letra de unidade ao volume selecionado:
 assign letter {{letter}}
 
 - Crie uma nova partição:
