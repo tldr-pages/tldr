@@ -16,7 +16,7 @@
 
 `git status`
 
-- Preparar todos los cambios para un commit:
+- Prepara todos los cambios para un commit:
 
 `git add {{[-A|--all]}}`
 
