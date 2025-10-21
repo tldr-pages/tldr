@@ -20,7 +20,7 @@
 
 `git add {{[-A|--all]}}`
 
-- Confirmar los cambios en el historial de versiones:
+- Confirma los cambios en el historial de versiones:
 
 `git commit {{[-m|--message]}} {{texto_del_mensaje}}`
 
