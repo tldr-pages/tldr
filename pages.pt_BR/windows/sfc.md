@@ -9,7 +9,7 @@
 - Verifica sem corrigir automaticamente:
 `sfc /verifyonly`
 
-- Executar no modo offline:
+- Executa no modo offline:
 `sfc /scannow /offbootdir={{C:\}} /offwindir={{C:\Windows}}`
    
 
