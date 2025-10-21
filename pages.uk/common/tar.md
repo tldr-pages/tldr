@@ -2,7 +2,7 @@
 
 > Утиліта архівування.
 > Часто поєднується з методом стиснення, таким як `gzip` або `bzip2`.
-> Більше інформації: <https://www.gnu.org/software/tar>.
+> Більше інформації: <https://www.gnu.org/software/tar/manual/tar.html>.
 
 - Створити ([c]reate) архів і записати його у файл ([f]ile):
 
