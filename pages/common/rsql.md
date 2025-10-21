@@ -21,7 +21,7 @@
 
 - Run a query and exit:
 
-`rsql --url "{{sqlite://database.db}}" -- "SELECT * FROM users LIMIT 10"`
+`rsql --url "{{sqlite://database.db}}" -- "{{SELECT * FROM users LIMIT 10}}"`
 
 - Set default format:
 
