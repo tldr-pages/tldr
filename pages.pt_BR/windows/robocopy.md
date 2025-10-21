@@ -22,5 +22,5 @@ Mais informações: https://learn.microsoft.com/windows-server/administration/wi
 - Permitir retomada automática se a conexão de rede for perdida e limitar o número de tentativas a 5 com tempo de espera de 15 segundos entre elas:
  robocopy {{caminho\para\diretorio_origem}} {{caminho\para\diretorio_destino}} /Z /R:5 /W:15
 
-- Exibir ajuda:
+- Exibe ajuda:
   robocopy /?
