@@ -9,7 +9,7 @@
 
 - Start a server binding to a different port for the API and web console:
 
-`minio server --address ":42069" --console-address ":8008" {{path/to/data_directory}}`
+`minio server --address ":{{port}}" --console-address ":{{port}}" {{path/to/data_directory}}`
 
 - Start a server as part of a cluster of 2 nodes:
 
