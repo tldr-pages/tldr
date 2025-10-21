@@ -12,7 +12,7 @@
 
 `git clone {{https://example.com/repo.git}}`
 
-- Ver el estado del repositorio local:
+- Muestra el estado del repositorio local:
 
 `git status`
 
