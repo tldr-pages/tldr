@@ -1,6 +1,7 @@
 # Valheim
 
 > Create and start a headless Valheim server.
+> Note: Configure the server by editing a copy of the `start_server.sh` script.
 > More information: <https://www.valheimgame.com/support/a-guide-to-dedicated-servers/>.
 
 - Start the server:
