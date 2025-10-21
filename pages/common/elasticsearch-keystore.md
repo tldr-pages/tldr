@@ -15,7 +15,7 @@
 
 `elasticsearch-keystore add {{setting_name}}`
 
-- Add a setting from standard input:
+- Add a setting from `stdin`:
 
 `echo "{{setting_value}}" | elasticsearch-keystore add --stdin {{setting_name}}`
 
