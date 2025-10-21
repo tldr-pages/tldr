@@ -3,13 +3,13 @@
 > Output the first part of files.
 > More information: <https://www.gnu.org/software/coreutils/manual/html_node/head-invocation.html>.
 
-- Show last 10 lines in a file:
+- Show first 10 lines in a file:
 
-`tail {{path/to/file}}`
+`head {{path/to/file}}`
 
-- Show last 10 lines of multiple files:
+- Show first 10 lines of multiple files:
 
-`tail {{path/to/file1 path/to/file2 ...}}`
+`head {{path/to/file1 path/to/file2 ...}}`
 
 - Output the first 5 lines of a file:
 
