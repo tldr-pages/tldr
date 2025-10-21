@@ -6,7 +6,7 @@
 - Verifica integridade dos arquivos do sistema:
 `sfc /scannow`
 
-- Verificar sem corrigir automaticamente:
+- Verifica sem corrigir automaticamente:
 `sfc /verifyonly`
 
 - Executar no modo offline:
