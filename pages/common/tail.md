@@ -4,6 +4,14 @@
 > See also: `head`.
 > More information: <https://www.gnu.org/software/coreutils/manual/html_node/tail-invocation.html>.
 
+- Show last 10 lines in a file:
+
+`tail {{path/to/file}}`
+
+- Show last 10 lines of multiple files:
+
+`tail {{path/to/file1 path/to/file2 ...}}`
+
 - Show last 'count' lines in file:
 
 `tail {{[-n|--lines]}} {{count}} {{path/to/file}}`
