@@ -24,7 +24,7 @@
 
 `git commit {{[-m|--message]}} {{texto_del_mensaje}}`
 
-- Enviar los commits locales a un repositorio remoto:
+- Envía los commits locales a un repositorio remoto:
 
 `git push`
 
