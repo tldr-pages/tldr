@@ -19,7 +19,7 @@
 
 `kubectl proxy {{[-p|--port]}} {{port}} {{[-w|--www]}} {{path/to/static_dir}}`
 
-- Run a proxy on a random local port, printing the chosen port to stdout:
+- Run a proxy on a random local port, printing the chosen port to `stdout`:
 
 `kubectl proxy {{[-p|--port]}} 0`
 
