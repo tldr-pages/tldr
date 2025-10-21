@@ -16,10 +16,10 @@
 
 `llvm-mc -o {{path/to/output.s}} {{path/to/input.bc}}`
 
-- Assemble assembly code from standard input stream and show encoding to standard output stream:
+- Assemble assembly code from `stdin` and show encoding to `stdout`:
 
 `echo "{{addl %eax, %ebx}}" | llvm-mc -show-encoding -show-inst`
 
-- Disassemble machine code from standard input stream for specified triple:
+- Disassemble machine code from `stdin` for specified triple:
 
 `echo "{{0xCD 0x21}}" | llvm-mc --disassemble -triple={{target_name}}`
