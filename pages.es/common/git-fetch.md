@@ -22,3 +22,7 @@
 - Elimina las referencias locales a ramas remotas que han sido eliminadas de upstream:
 
 `git fetch {{[-p|--prune]}}`
+
+- Ahonda la rama superficial actual en 2 commits:
+
+`git fetch --deepen 2`
