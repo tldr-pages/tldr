@@ -7,7 +7,7 @@
 
 `pkl eval {{module.pkl}}`
 
-- Run as a server that communicates over standard input/output:
+- Run as a server that communicates over `stdin` and `stdout`:
 
 `pkl server`
 
