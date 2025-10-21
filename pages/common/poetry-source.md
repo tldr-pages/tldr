@@ -10,7 +10,7 @@
 
 - Set the priority of a source:
 
-`poetry source add --priority {{primary|supplemental|explicit}} pypi-test https://test.pypi.org/simple/`
+`poetry source add --priority {{primary|supplemental|explicit}} {{source_name}} {{source_url}}`
 
 - Display info for all sources:
 
