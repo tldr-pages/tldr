@@ -9,4 +9,4 @@
 
 - Copy an artifact, that is not built using Maven to the remote repository. The url where the artifact will be deployed, the id of the remote repository and the file to be copied are required:
 
-`mvn deploy:deploy-file {{[-D|--define]}}url=URLOfTheRemoteRepository {{[-D|--define]}}repositoryId=ServerIdFromSettingsXML {{[-D|--define]}}file=yourArtifact`
+`mvn deploy:deploy-file {{[-D|--define]}} url={{URLOfTheRemoteRepository}} {{[-D|--define]}} repositoryId={{ServerIdFromSettingsXML}} {{[-D|--define]}} file={{FileToBeDeployed}}`
