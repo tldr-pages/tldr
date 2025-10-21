@@ -9,7 +9,7 @@ diskpart
 - Lista todos os discos:
 list disk
 
-- Selecione um volume:
+- Seleciona um volume:
 select volume {{volume}}
 
 - Atribua uma letra de unidade ao volume selecionado:
