@@ -1,7 +1,7 @@
 # git
 
-> Sistema de control de versiones distribuido.  
-> Algunos subcomandos como `commit`, `add`, `branch`, `switch`, `push`, etc. tienen su propia documentación de uso.  
+> Sistema de control de versiones distribuido.
+> Algunos subcomandos como `commit`, `add`, `branch`, `switch`, `push`, etc. tienen su propia documentación de uso.
 > Más información: <https://git-scm.com/docs/git>.
 
 - Crear un repositorio Git vacío:
