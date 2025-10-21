@@ -1,7 +1,7 @@
 # CD
 
 > Change the current working directory.
-> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-cd>.
+> More information: <https://help.fdos.org/en/hhstndrd/command/cd.htm>.
 
 - Go to the specified directory:
 

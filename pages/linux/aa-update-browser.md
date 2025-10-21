@@ -4,7 +4,7 @@
 > Part of the AppArmor suite.
 > More information: <https://manned.org/aa-update-browser>.
 
-- List available browser abstraction profiles:
+- [l]ist available browser abstraction profiles:
 
 `sudo aa-update-browser -l`
 
@@ -12,7 +12,7 @@
 
 `sudo aa-update-browser -d {{path/to/profile}}`
 
-- Update a profile with specific abstractions:
+- [u]pdate a profile with specific abstractions:
 
 `sudo aa-update-browser -u {{abstraction1,abstraction2,...}} {{path/to/profile}}`
 

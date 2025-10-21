@@ -171,7 +171,7 @@ Command Prompt command's tldr description, for example:
 > The "View documentation of the equivalent PowerShell command" example is optional and must be excluded if the page already has the maximum number (8) of examples.
 
 2. **Provides a new alias but only executable in PowerShell**, such as `ni` for `New-Item`. In this case, use the [standard alias template](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/translation-templates/alias-pages.md),
-but add the word "In Powershell," (or equivalent) to indicate that the command is exclusive to PowerShell. For example,
+but add the word "In PowerShell," (or equivalent) to indicate that the command is exclusive to PowerShell. For example,
 
 ```md
 # ni
@@ -437,7 +437,7 @@ For example, `[d]ownload` in English may be translated into `[d]escargar` in Spa
 - Optionally, mnemonics and their enclosed terms can be separated with brackets from the rest of the description (i.e. `([a]ll)`) in translations and specific pages to provide additional context or mention a word not present in the description.
 
 > [!NOTE]\
-> In cases where the character isn't present in the translated word, you can highlight the option next to the equivalent word or you can add the English work beside the translation inside a bracket.
+> In cases where the character isn't present in the translated word, you can highlight the option next to the equivalent word or you can add the English word beside the translation inside a bracket.
 > For example, `E[x]tract` in English may be translated into `ekstrak [x]` or `ekstrak (E[x]tract)` in Indonesian.
 
 ## Example commands
@@ -456,7 +456,7 @@ Try to keep the following order:
 
 For example: `systemctl < input_file.txt status pipewire --user > output_file.txt`
 
-This is only a suggestion and should be disregarded when program functionality or readability dictates otherwise.
+This is only a suggestion and should be disregarded when program functionality or readability dictates otherwise. For example when a page is repeating arguments between commands try to to align them vertically.
 
 If the command does multiple things, try to keep the chronological order in which things happen.
 
@@ -526,8 +526,16 @@ When documenting optional placeholders like paths or file extensions, it is sugg
 
 - Use `{{path/to/source.ext}}` instead of `{{path/to/source.tar[.gz|.bz2|.xz]}}`.
 
-> [!IMPORTANT]
-> Do not put placeholders inside placeholders.
+#### Exceptions
+
+- Do not put placeholders inside placeholders.
+- Do not use placeholders when the value is explicitly stated in the description of the command. For example:
+
+```md
+- Refresh the output every 2 seconds:
+
+`free {{[-s|--seconds]}} 2`
+```
 
 ### Keypress syntax
 

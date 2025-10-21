@@ -1,6 +1,6 @@
 # sfdk emulator
 
-> Maintains and controls emulators.
+> Maintain and control emulators.
 > More information: <https://github.com/sailfishos/sailfish-qtcreator/blob/master/share/qtcreator/sfdk/modules/40-testing-maintain/doc/command.emulator.adoc>.
 
 - Display the installed emulators:

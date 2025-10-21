@@ -14,4 +14,4 @@
 
 - Pick all files from an archive (copy-[i]n), generating directories where needed, in verbose mode:
 
-`cpio {{[-idv|--extract --make-directories --verbose]}} < {{archive.cpio}}`
+`cpio < {{archive.cpio}} {{[-idv|--extract --make-directories --verbose]}}`
