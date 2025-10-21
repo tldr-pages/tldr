@@ -32,6 +32,6 @@
 
 `tail {{[-F|--retry --follow]}} {{path/to/file}}`
 
-- Show last 'count' lines in `file` and refresh every `seconds` seconds:
+- Show last `count` lines in a file and refresh every `seconds` seconds:
 
 `tail {{[-n|--lines]}} {{count}} {{[-s|--sleep-interval]}} {{seconds}} {{[-f|--follow]}} {{path/to/file}}`
