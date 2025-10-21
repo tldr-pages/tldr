@@ -3,7 +3,7 @@
 > Syncs your project's environment with the `poetry.lock` file.
 > More information: <https://python-poetry.org/docs/cli/#sync>.
 
-- Sync your project’s environment with the `poetry.lock` file:
+- Sync your project's environment with the `poetry.lock` file:
 
 `poetry sync`
 
