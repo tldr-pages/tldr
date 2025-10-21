@@ -6,7 +6,7 @@
 - Executa o diskpart sozinho em um prompt de comando administrativo para entrar na linha de comando:
 diskpart
 
-- Listar todos os discos:
+- Lista todos os discos:
 list disk
 
 - Selecione um volume:
