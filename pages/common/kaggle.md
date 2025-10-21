@@ -9,7 +9,7 @@
 
 - Download a specific file from a competition dataset:
 
-`kaggle competitions download {{competition}} {{[-f|--file]}} {{filename}}`
+`kaggle competitions download {{competition}} {{[-f|--file]}} {{path/to/file}}`
 
 - List competitions matching a search term:
 
@@ -21,7 +21,7 @@
 
 - Submit a file to a competition with a message:
 
-`kaggle competitions submit {{competition}} {{[-f|--file]}} {{submission.csv}} {{[-m|--message]}} "{{message}}"`
+`kaggle competitions submit {{competition}} {{[-f|--file]}} {{path/to/submission.csv}} {{[-m|--message]}} "{{message}}"`
 
 - List datasets matching a search term:
 
@@ -29,7 +29,7 @@
 
 - Download all files from a dataset:
 
-`kaggle datasets download {{owner/dataset_name}}`
+`kaggle datasets download {{owner}}/{{dataset_name}}`
 
 - List kernels (notebooks) matching a search term:
 
