@@ -9,4 +9,4 @@
 
 - Search with multiple words:
 
-`npm help-search {{keyword1 keyword2}}`
+`npm help-search {{keyword1 keyword2 ...}}`
