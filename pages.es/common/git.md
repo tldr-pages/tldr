@@ -8,7 +8,7 @@
 
 `git init`
 
-- Clonar un repositorio Git remoto desde Internet:
+- Clona un repositorio Git remoto desde Internet:
 
 `git clone {{https://example.com/repo.git}}`
 
