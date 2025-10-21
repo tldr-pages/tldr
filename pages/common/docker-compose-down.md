@@ -29,7 +29,7 @@
 
 - Stop and remove containers with a custom timeout in seconds:
 
-`docker-compose down {{[-t|--timeout]}} {{30}}`
+`docker-compose down {{[-t|--timeout]}} {{timeout}}`
 
 - Remove containers for services not defined in the Compose file:
 
