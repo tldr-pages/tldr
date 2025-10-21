@@ -29,7 +29,7 @@
 
 - View logs until a specific time:
 
-`docker-compose logs --until {{2024-12-31T23:59:59}}`
+`docker-compose logs --until {{timestamp}}`
 
 - View logs for multiple specific services:
 
