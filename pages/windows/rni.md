@@ -12,9 +12,9 @@
 
 `Rename-Item -Path "{{path/to/directory}}" -NewName "{{new_directory_name}}"`
 
-- Rename and move a file or directory:
+- Rename and move a file:
 
-`Rename-Item -Path "{{path/to/file_or_directory}}" -NewName "{{path/to/new_file_or_directory_name}}"`
+`Rename-Item -Path "{{path/to/file}}" -NewName "{{path/to/new_file_name}}"`
 
 - Rename a file by force:
 
