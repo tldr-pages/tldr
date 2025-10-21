@@ -1,7 +1,7 @@
 # minio server
 
 > MinIO server command for starting the MinIO S3 compatible storage engine.
-> More information: <https://github.com/minio/minio>.
+> More information: <https://docs.min.io/enterprise/aistor-object-store/reference/aistor-server/>.
 
 - Start a server using the default configuration:
 
