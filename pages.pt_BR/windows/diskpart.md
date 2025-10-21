@@ -3,7 +3,7 @@
 > Gerenciador de disco, volume e partição.
 > Mais informações: https://learn.microsoft.com/windows-server/administration/windows-commands/diskpart .
 
-- Execute o diskpart sozinho em um prompt de comando administrativo para entrar na linha de comando:
+- Executa o diskpart sozinho em um prompt de comando administrativo para entrar na linha de comando:
 diskpart
 
 - Listar todos os discos:
