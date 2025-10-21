@@ -21,7 +21,7 @@
 
 - View only the last N lines of logs for each container:
 
-`docker-compose logs --tail {{100}}`
+`docker-compose logs {{[-n|--tail]}} {{100}}`
 
 - View logs from a specific time onwards:
 
