@@ -1,7 +1,7 @@
 # oma
 
 > 一款为使用 dpkg 的发行版打造的软件包管理前端。
-> 更多信息：<https://github.com/AOSC-Dev/oma>.
+> 更多信息：<https://github.com/AOSC-Dev/oma#usage>.
 
 - 进入交互式包管理界面：
 
