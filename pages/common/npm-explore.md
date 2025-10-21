@@ -1,4 +1,4 @@
-# npm-explore
+# npm explore
 
 > Browse an installed npm package.
 > More information: <https://docs.npmjs.com/cli/v10/commands/npm-explore>.
