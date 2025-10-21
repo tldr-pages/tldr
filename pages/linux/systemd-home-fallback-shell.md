@@ -1,8 +1,8 @@
 # systemd-home-fallback-shell
 
 > Run a fallback shell for users managed by `systemd-homed`.
-> Used when the configured login shell is missing or cannot be executed.
-> More information: <https://man7.org/linux/man-pages/man8/systemd-homed.service.8.html>.
+> This command is an internal component and not intended to be invoked directly by users.
+> There is no dedicated documentation for this command; its behavior is inferred from `systemd-homed`.
 
 - Start a fallback shell for the current user:
 
