@@ -25,7 +25,7 @@
 
 - View logs from a specific time onwards:
 
-`docker-compose logs --since {{2024-01-01T00:00:00}}`
+`docker-compose logs --since {{timestamp}}`
 
 - View logs until a specific time:
 
