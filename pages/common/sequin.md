@@ -14,7 +14,7 @@
 
 - Examine a file containing ANSI sequences (e.g., a TUI golden file):
 
-`cat {{./testdata/MyCuteApp.golden}} | sequin`
+`cat {{path/to/file.golden}} | sequin`
 
 - Execute a command directly within a fake TTY to inspect its output:
 
