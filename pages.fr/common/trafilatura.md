@@ -20,7 +20,7 @@
 
 `trafilatura --input-file {{chemin/vers/liste_urls.txt}}`
 
-- Crawler un site web en utilisant son sitemap :
+- Crawle un site web en utilisant son sitemap :
 
 `trafilatura --sitemap {{url_vers_sitemap.xml}}`
 
