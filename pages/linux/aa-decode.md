@@ -11,7 +11,7 @@
 
 `sudo aa-decode {{logfile}}`
 
-- Decode logs from standard input (e.g., redirected file):
+- Decode logs from `stdin` (e.g., redirected file):
 
 `sudo aa-decode - < {{logfile}}`
 

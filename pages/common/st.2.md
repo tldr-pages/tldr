@@ -7,7 +7,7 @@
 
 `st {{path/to/file}}`
 
-- Print statistics from standard input:
+- Print statistics from `stdin`:
 
 `cat {{path/to/file}} | st`
 
