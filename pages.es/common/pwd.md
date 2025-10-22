@@ -10,3 +10,7 @@
 - Muestra el directorio actual y resuelve todos los enlaces simbólicos (es decir, muestra la ruta "física"):
 
 `pwd {{[-P|--physical]}}`
+
+- Mostrar ayuda:
+
+`pwd --help`
