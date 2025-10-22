@@ -9,7 +9,7 @@
 
 - Specify an editor to open with:
 
-`fc -e {{'emacs'}}`
+`fc -e '{{emacs}}'`
 
 - List recent commands from history:
 
