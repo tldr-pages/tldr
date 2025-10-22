@@ -11,6 +11,6 @@
 
 `pwd {{[-P|--physical]}}`
 
-- Mostrar ayuda:
+- Muestra la ayuda:
 
 `pwd --help`
