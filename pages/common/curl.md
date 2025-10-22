@@ -27,7 +27,7 @@
 
 - Send data in JSON format, specifying the appropriate Content-Type header:
 
-`curl {{[-d|--data]}} '{{{"name":"bob"}}}' {{[-H|--header]}} {{'Content-Type: application/json'}} {{http://example.com/users/1234}}`
+`curl {{[-d|--data]}} '{{{"name":"bob"}}}' {{[-H|--header]}} '{{Content-Type: application/json}}' {{http://example.com/users/1234}}`
 
 - Pass client certificate and private key for the request, skipping certificate validation:
 
