@@ -2,6 +2,7 @@
 
 > Open a connection to a Valkey server.
 > More information: <https://valkey.io/topics/cli/>.
+
 - Connect to the local server:
 
 `valkey-cli`
