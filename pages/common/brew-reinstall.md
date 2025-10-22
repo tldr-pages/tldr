@@ -11,10 +11,10 @@
 
 `brew reinstall {{[-v|--verbose]}} {{formula|cask}}`
 
-Make some output more quiet:
+- Make some output more quiet:
 
 `brew reinstall {{[-q|--quiet]}} {{formula|cask}}`
 
-Display help:
+- Display help:
 
 `brew reinstall {{[-h|--help]}}`
