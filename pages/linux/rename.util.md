@@ -5,7 +5,7 @@
 > Note: This page refers to the command from the `util-linux` package.
 > More information: <https://manned.org/rename>.
 
-- Rename files using simple substitutions (substitute 'foo' with 'bar' wherever found):
+- Rename files using simple substitutions (substitute `foo` with `bar` wherever found):
 
 `rename {{foo}} {{bar}} {{*}}`
 

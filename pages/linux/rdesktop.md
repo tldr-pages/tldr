@@ -16,7 +16,7 @@
 
 `rdesktop -u {{username}} -p {{password}} -f {{host:port}}`
 
-- Use the customed resolution (use the letter 'x' between the number):
+- Use the customed resolution (use the letter `x` between the number):
 
 `rdesktop -u {{username}} -p {{password}} -g 1366x768 {{host:port}}`
 
