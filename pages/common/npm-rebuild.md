@@ -17,7 +17,7 @@
 
 - Rebuild a package in a specific directory:
 
-`npm {{[rb|rebuild]}} --prefix={{path/to/dir}} {{package}}`
+`npm {{[rb|rebuild]}} --prefix {{path/to/dir}} {{package}}`
 
 - Rebuild without using the npm cache:
 
