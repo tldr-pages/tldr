@@ -1,4 +1,4 @@
-# gcb 
+# gcb
 
 > This command is an alias of `get-clipboard`.
 
