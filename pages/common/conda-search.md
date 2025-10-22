@@ -26,5 +26,3 @@
 - Search if package is installed in any local environments:
 
 `conda search --envs {{package_name}}`
-
-
