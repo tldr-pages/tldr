@@ -15,6 +15,10 @@
 
 `paru -Sua`
 
+- Remove an installed package, it's configuration files, and dependencies:
+
+`paru -Rns {{package}}`
+
 - Get information about a package:
 
 `paru -Si {{package}}`
