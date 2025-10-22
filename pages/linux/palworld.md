@@ -7,9 +7,9 @@
 
 `{{path/to/PalServer.sh}}`
 
-- Start the server with a specific port and maximum number of players:
+- Start the server with a specific port and a specific number of players:
 
-`{{path/to/PalServer.sh}} -port={{8211}} -players={{32}}`
+`{{path/to/PalServer.sh}} -port={{8211}} -players={{1..32}}`
 
 - Start a public lobby server:
 
