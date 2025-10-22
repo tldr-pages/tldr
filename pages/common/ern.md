@@ -17,7 +17,7 @@
 
 - Publish an Electrode Native container to a local Maven repository:
 
-`ern publish-container --publisher {{maven}} --platform {{android}} --extra {{'{"groupId":"com.walmart.ern","artifactId":"quickstart"}'}}`
+`ern publish-container --publisher {{maven}} --platform {{android}} --extra '{{{"groupId":"com.walmart.ern","artifactId":"quickstart"}}}'`
 
 - Transform an iOS container into a pre-compiled binary framework:
 

@@ -17,7 +17,7 @@
 
 - Delete all files with a `.backup` extension:
 
-`find . -name {{'*.backup'}} | xe rm -v`
+`find . -name '{{*.backup}}' | xe rm -v`
 
 - Run up to `max-jobs` processes in parallel; the default is 1. If `max-jobs` is 0, xe will run as many processes as cpu cores:
 
