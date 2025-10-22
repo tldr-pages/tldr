@@ -13,4 +13,4 @@
 
 - View a CSV file with unconventional delimiters:
 
-`x_x {{[-d|--delimiter]}} {{';'}} {{[-q|--quotechar]}} {{'|'}} {{file.csv}}`
+`x_x {{[-d|--delimiter]}} '{{;}}' {{[-q|--quotechar]}} {{'|'}} {{file.csv}}`
