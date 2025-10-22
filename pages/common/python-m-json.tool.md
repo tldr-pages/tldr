@@ -8,6 +8,6 @@
 
 `python -m json.tool {{path/to/file.json}}`
 
-- Validate and pretty-print JSON from standard input:
+- Validate and pretty-print JSON from `stdin`:
 
 `echo '{{{"key": "value"}}}' | python -m json.tool`
