@@ -24,7 +24,7 @@
 
 `trafilatura --sitemap {{url_zur_sitemap.xml}}`
 
-- Extrahiere Text mit beibehaltener HTML-Formatierung:
+- Extrahiere Text unter Beibehaltung der HTML-Formatierung:
 
 `trafilatura -u {{url}} --formatting`
 
