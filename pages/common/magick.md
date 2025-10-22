@@ -17,6 +17,10 @@
 
 `magick {{path/to/input_image.png}} -resize {{50}}% {{path/to/output_image.png}}`
 
+- Scale an image to have a specified file size:
+
+`magick {{path/to/input_image.png}} -define jpeg:extent={{512kb}} {{path/to/output_image.jpg}}`
+
 - Create a GIF out of all JPEG images in the current directory:
 
 `magick {{*.jpg}} {{path/to/images.gif}}`
