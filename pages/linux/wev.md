@@ -7,7 +7,7 @@
 
 `wev`
 
-- Print all event reveived by a specific Wayland interface:
+- Print all events received by a specific Wayland interface:
 
 `wev -f {{wl_keyboard}}`
 
