@@ -4,7 +4,7 @@
 > See also: `ssh`.
 > More information: <https://github.com/charmbracelet/confettysh>.
 
-- Start a local confettysh server:
+- Start a local `confettysh` server:
 
 `confettysh`
 
