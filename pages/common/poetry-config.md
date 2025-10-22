@@ -15,7 +15,7 @@
 
 `poetry config {{config_key}}`
 
-- Change or add a new configuration setting by passing a value after the setting’s name:
+- Change or add a new configuration setting by passing a value after the setting's name:
 
 `poetry config {{config_key}} {{config_value}}`
 
