@@ -13,8 +13,8 @@
 
 - Find and replace in a specific file (output stream: `stdout`):
 
-`sd {{[-p|--preview]}} {{'window.fetch'}} {{'fetch'}} {{path/to/file.js}}`
+`sd {{[-p|--preview]}} '{{window.fetch}}' '{{fetch}}' {{path/to/file.js}}`
 
 - Find and replace in all files in the current project (output stream: `stdout`):
 
-`sd {{'from "react"'}} {{'from "preact"'}} "$(find . -type f)"`
+`sd {{'from "react"'}} '{{from "preact"}}' "$(find . -type f)"`
