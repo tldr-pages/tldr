@@ -17,7 +17,7 @@
 
 - Continue to the next pattern's commands without checking the pattern:
 
-`case {{$ANIMAL}} in {{cat}}) echo {{"It's a cat"}} ;& {{dog}}) {{echo "It's either a dog or cat fell through"}} ;& *) {{echo "Fallback"}} ;; esac`
+`case {{$ANIMAL}} in {{cat}}) {{echo "It's a cat"}} ;& {{dog}}) {{echo "It's either a dog or cat fell through"}} ;& *) {{echo "Fallback"}} ;; esac`
 
 - Display help:
 

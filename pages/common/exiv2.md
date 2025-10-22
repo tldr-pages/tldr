@@ -25,4 +25,4 @@
 
 - Rename the file, prepending the date and time from metadata (not from the file timestamp):
 
-`exiv2 {{[-r|--rename]}} {{'%Y%m%d_%H%M%S_:basename:'}} {{path/to/file}}`
+`exiv2 {{[-r|--rename]}} '{{%Y%m%d_%H%M%S_:basename:}}' {{path/to/file}}`

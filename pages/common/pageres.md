@@ -13,7 +13,7 @@
 
 - Provide a custom filename template:
 
-`pageres {{https://example.com/}} {{1024x768}} --filename={{'<%= date %> - <%= url %>'}}`
+`pageres {{https://example.com/}} {{1024x768}} --filename='{{<%= date %> - <%= url %>}}'`
 
 - Capture a specific element on a page:
 
