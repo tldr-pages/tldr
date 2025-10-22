@@ -9,7 +9,7 @@
 
 - Search for a package along with its details:
 
-`conda search {{package_name}} --info`
+`conda search {{package_name}} {{[-i|--info]}}`
 
 - Search for packages containing `string` in the package name:
 
