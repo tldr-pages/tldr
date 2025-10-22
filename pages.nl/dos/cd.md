@@ -5,11 +5,11 @@
 
 - Ga naar de gegeven map:
 
-`cd {{PAD\NAAR\MAP}}`
+`CD {{PAD\NAAR\MAP}}`
 
 - Ga naar de ouder van de huidige map:
 
-`cd ..`
+`CD ..`
 
 - Ga naar de root-map van de huidige schijf:
 
