@@ -7,22 +7,22 @@
 
 `git fetch`
 
-- Descarga las ramas nuevas de un repositorio remoto *upstream* específico:
+- Descarga las ramas nuevas de un repositorio remoto upstream específico:
 
 `git fetch {{remote_name}}`
 
-- Descarga los últimos cambios de todos los repositorios remotos *upstream*:
+- Descarga los últimos cambios de todos los repositorios remotos upstream:
 
 `git fetch --all`
 
-- Descarga también las etiquetas de un repositorio *upstream*:
+- Descarga también las etiquetas de un repositorio upstream:
 
 `git fetch {{[-t|--tags]}}`
 
-- Elimina las referencias locales a ramas remotas que han sido eliminadas de *upstream*:
+- Elimina las referencias locales a ramas remotas que han sido eliminadas de upstream:
 
 `git fetch {{[-p|--prune]}}`
 
-- Ahonda la rama superficial actual en 2 *commits*:
+- Ahonda la rama superficial actual en 2 commits:
 
 `git fetch --deepen 2`
