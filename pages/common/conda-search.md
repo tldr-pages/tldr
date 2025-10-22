@@ -13,7 +13,7 @@
 
 - Search for packages containing `string` in the package name:
 
-`conda search "*{{string}}*"`
+`conda search "*string*"`
 
 - Search for specific version of the package:
 
