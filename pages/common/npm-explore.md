@@ -1,7 +1,7 @@
 # npm explore
 
 > Browse an installed npm package.
-> More information: <https://docs.npmjs.com/cli/v10/commands/npm-explore>.
+> More information: <https://docs.npmjs.com/cli/npm-explore>.
 
 - Browse an installed package:
 
