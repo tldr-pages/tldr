@@ -1,8 +1,9 @@
 # confettysh
 
 > A fun SSH server that displays animated confetti or fireworks in the terminal.
-> More information: <https://github.com/charmbracelet/confettysh>.
 > See also: `ssh`.
+> More information: <https://github.com/charmbracelet/confettysh>.
+
 
 - Start a local confettysh server:
 
