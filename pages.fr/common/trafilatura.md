@@ -10,7 +10,7 @@
 
 - Extraire le texte et sauvegarder dans un fichier :
 
-`trafilatura -u {{url}} -o {{chemin/vers/sortie.txt}}`
+`trafilatura -u {{url}} -o {{chemin/vers/fichier.txt}}`
 
 - Extraire le texte au format JSON :
 
