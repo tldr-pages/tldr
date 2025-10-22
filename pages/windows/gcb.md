@@ -1,25 +1,24 @@
-# gcb
+# Get-Clipboard
 
 > A powershell command to get content from clipboard.
-> This command is an alias of `Get-Clipboard`.
 > More information: <https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-clipboard>.
 
 - Get clipboard text:
 
-`gcb`
+`Get-Clipboard`
 
 - Get clipboard content as specific text format:
 
-`gcb -TextFormatType {{Text|Html|Rtf}}`
+`Get-Clipboard -TextFormatType {{Text|Html|Rtf}}`
 
 - Get raw clipboard content:
 
-`gcb -Raw`
+`Get-Clipboard -Raw`
 
 - Retrive an Image:
 
-`gcb -Format Image`
+`Get-Clipboard -Format Image`
 
 - Get file paths copied in explorer:
 
-`gcb -Format FileDropList`
+`Get-Clipboard -Format FileDropList`
