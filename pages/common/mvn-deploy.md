@@ -3,7 +3,7 @@
 > Add an artifact to a remote repository.
 > More information: <https://manned.org/mvn>.
 
-- Copy the final artifact into the remote repository configured in the settings.xml file:
+- Copy the final artifact into the remote repository configured in the `settings.xml` file:
 
 `mvn deploy`
 
