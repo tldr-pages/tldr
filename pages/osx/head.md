@@ -11,14 +11,14 @@
 
 `head {{[-5|--lines 5]}} {{path/to/file}}`
 
-- Output the first N lines of a file:
+- Output the first `count` lines of a file:
 
 `head {{[-n|--lines]}} {{count}} {{path/to/file}}`
 
-- Output the first N bytes of a file:
+- Output the first `bytes` bytes of a file:
 
 `head {{[-c|--bytes]}} {{bytes}} {{path/to/file}}`
 
-- Output the first lines of multiple files:
+- Output the first 10 lines of multiple files:
 
 `head {{path/to/file1 path/to/file2 ...}}`
