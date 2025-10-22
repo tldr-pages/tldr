@@ -10,11 +10,11 @@
 
 - Start Wishlist in server mode to provide remote access:
 
-`wishlist serve`
+`wishlist {{[s|serve]}}`
 
 - Use a custom configuration file:
 
-`wishlist --config {{path/to/config.yaml}}`
+`wishlist {{[-c|--config]}} {{path/to/config.yaml}}`
 
 - Discover SSH endpoints using Zeroconf (mDNS/Bonjour):
 
