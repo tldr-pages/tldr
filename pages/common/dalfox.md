@@ -9,7 +9,7 @@
 
 - Scan a URL using a header for authentication:
 
-`dalfox url {{http://example.com}} {{[-H|--header]}} {{'X-My-Header: 123'}}`
+`dalfox url {{http://example.com}} {{[-H|--header]}} '{{X-My-Header: 123}}'`
 
 - Scan a list of URLs from a file:
 
