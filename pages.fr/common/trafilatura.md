@@ -8,7 +8,7 @@
 
 `trafilatura -u {{url}}`
 
-- Extraire le texte et sauvegarder dans un fichier :
+- Extraire le texte et sauve le résultat dans un fichier :
 
 `trafilatura -u {{url}} -o {{chemin/vers/fichier.txt}}`
 
