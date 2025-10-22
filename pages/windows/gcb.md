@@ -15,7 +15,7 @@
 
 `Get-Clipboard -Raw`
 
-- Retrive an Image:
+- Retrieve an Image:
 
 `Get-Clipboard -Format Image`
 
