@@ -102,7 +102,9 @@ def get_pages_dir(root: Path) -> list[Path]:
     list (list of Path's): Path's of page entry and platform, e.g. "page.fr/common".
     """
 
-    return [d for d in root.iterdir() if d.name.startswith("pages")]
+    return [
+        d for d in root.iterdir() if d.name.startswith("pages") and not d.is_symlink()
+    ]
 
 
 def test_get_pages_dir():
