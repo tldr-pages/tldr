@@ -9,7 +9,7 @@
 
 - Create a tarball from a specific package folder:
 
-`npm pack path/to/package_folder`
+`npm pack {{path/to/package_directory}}`
 
 - Run a dry run to preview the tarball contents without creating it:
 
