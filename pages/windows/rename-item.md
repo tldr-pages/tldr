@@ -1,7 +1,6 @@
 # Rename-Item
 
 > Powershell command to rename an item.
-> This command is an alias of `Rename-Item`.
 > More information: <https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/rename-item>.
 
 - Rename a file:
