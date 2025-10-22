@@ -10,7 +10,7 @@
 
 - Search the protein database using a query and `regex`:
 
-`esearch -db {{protein}} -query {{'Escherichia*'}}`
+`esearch -db {{protein}} -query '{{Escherichia*}}'`
 
 - Search the nucleotide database for sequences whose metadata contain insulin and rodents:
 
