@@ -17,4 +17,4 @@
 
 - List one VG metadata backup file:
 
-`vgcfgrestore {{[-l|--list ]}} {{[ -f|--file]}} {{path/to/file}} {{vg_name}}`
+`vgcfgrestore {{[-l|--list]}} {{[-f|--file]}} {{path/to/file}} {{vg_name}}`

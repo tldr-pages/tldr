@@ -23,7 +23,7 @@
 
 `apparmor_parser {{[-p|--preprocess]}} {{[-o|--ofile]}} {{path/to/output.cache}} {{[-Q|--skip-kernel-load]}} {{path/to/profile}}`
 
-- Preprocess and print binary profile to stdout without loading:
+- Preprocess and print binary profile to `stdout` without loading:
 
 `apparmor_parser {{[-p|--preprocess]}} {{[-S|--stdout]}} {{[-Q|--skip-kernel-load]}} {{path/to/profile}}`
 
