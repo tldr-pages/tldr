@@ -7,6 +7,10 @@
 
 `head {{path/to/file}}`
 
+- Output the first 5 lines of a file:
+
+`head {{[-5|--lines 5]}} {{path/to/file}}`
+
 - Output the first N lines of a file:
 
 `head {{[-n|--lines]}} {{count}} {{path/to/file}}`
