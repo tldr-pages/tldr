@@ -18,7 +18,7 @@
 
 - Scale an image to have a specified file size:
 
-`magick convert {{path/to/input_image.png}} -define jpeg:extent=512kb {{path/to/output_image.jpg}}`
+`magick convert {{path/to/input_image.png}} -define jpeg:extent={{512kb}} {{path/to/output_image.jpg}}`
 
 - Vertically/horizontally append images and have the empty space be transparent:
 
