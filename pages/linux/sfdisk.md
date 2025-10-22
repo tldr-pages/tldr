@@ -13,11 +13,11 @@
 
 - Set the type of a partition:
 
-`sfdisk --part-type {{/dev/sdX}} {{partition_number}} {{swap}}`
+`sudo sfdisk --part-type {{/dev/sdX}} {{partition_number}} {{swap}}`
 
 - Delete a partition:
 
-`sfdisk --delete {{/dev/sdX}} {{partition_number}}`
+`sudo sfdisk --delete {{/dev/sdX}} {{partition_number}}`
 
 - Display help:
 
