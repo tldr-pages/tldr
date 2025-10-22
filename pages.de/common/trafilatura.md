@@ -4,7 +4,7 @@
 > Extrahiert Haupttext, Metadaten und Kommentare von Webseiten.
 > Weitere Informationen: <https://trafilatura.readthedocs.io/en/latest/>.
 
-- Extrahiere Text von einer URL:
+- Extrahiere Text einer Website:
 
 `trafilatura -u {{url}}`
 
