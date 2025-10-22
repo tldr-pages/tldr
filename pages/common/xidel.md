@@ -9,7 +9,7 @@
 
 - Print the title of all pages found by a Google search and download them:
 
-`xidel {{https://www.google.com/search?q=test}} {{[-f|--follow]}} "{{//a/extract(@href, 'url[?]q=([^&]+)&', 1)[. != '']}}" {{[-e|--extract]}} {{//title}} --download {{'{$host}/'}}`
+`xidel {{https://www.google.com/search?q=test}} {{[-f|--follow]}} "{{//a/extract(@href, 'url[?]q=([^&]+)&', 1)[. != '']}}" {{[-e|--extract]}} {{//title}} --download '{{{$host}/}}'`
 
 - Follow all links on a page and print the titles, with XPath:
 
