@@ -1,6 +1,6 @@
 # wishlist
 
-> SSH directory and multiplexer from Charmbracelet.
+> SSH directory and multiplexer.
 > Acts as a single entry point for connecting to SSH servers or Wish applications.
 > More information: <https://github.com/charmbracelet/wishlist>.
 
