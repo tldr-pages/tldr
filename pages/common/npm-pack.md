@@ -21,4 +21,4 @@
 
 - Specify a custom registry to fetch package metadata from:
 
-`npm pack --registry https://registry.npmjs.org/`
+`npm pack --registry {{https://registry.npmjs.org/}}`
