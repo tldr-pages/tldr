@@ -1,7 +1,7 @@
 # poweroff
 
 > সিস্টেমের পাওয়ার বন্ধ করুন।
-> আরও তথ্য পাবেন: <https://www.manned.org/poweroff>।
+> আরও তথ্য পাবেন: <https://manned.org/poweroff>।
 
 - সিস্টেমের পাওয়ার বন্ধ করুন:
 

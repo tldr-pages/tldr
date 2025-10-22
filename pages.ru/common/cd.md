@@ -1,7 +1,7 @@
 # cd
 
 > Изменить текущий рабочий каталог.
-> Больше информации: <https://manned.org/cd>.
+> Больше информации: <https://www.gnu.org/software/bash/manual/bash.html#index-cd>.
 
 - Перейти в указанный каталог:
 

@@ -1,29 +1,37 @@
 # git
 
 > Sistema de control de versiones distribuido.
-> Algunos subcomandos como `commit`, `add`, `branch`, `checkout`, `push`, etc., tienen su propia documentación de uso.
+> Algunos subcomandos como `commit`, `add`, `branch`, `switch`, `push`, etc. tienen su propia documentación de uso.
 > Más información: <https://git-scm.com/docs/git>.
 
-- Ejecuta un subcomando de Git:
+- Crea un repositorio Git vacío:
 
-`git {{subcomando}}`
+`git init`
 
-- Ejecuta un subcomando de Git en un repositorio en la ruta raíz especificada:
+- Clona un repositorio Git remoto desde Internet:
 
-`git -C {{ruta/al/repositorio}} {{subcomando}}`
+`git clone {{https://example.com/repo.git}}`
 
-- Ejecuta un subcomando de Git con configuración personalizada:
+- Muestra el estado del repositorio local:
 
-`git -c '{{config.clave}}={{valor}}' {{subcomando}}`
+`git status`
 
-- Muestra ayuda general:
+- Prepara todos los cambios para un commit:
 
-`git --help`
+`git add {{[-A|--all]}}`
 
-- Muestra ayuda sobre un subcomando de Git (p. ej., `clone`, `add`, `push`, `log`, etc.):
+- Confirma los cambios en el historial de versiones:
 
-`git help {{subcomando}}`
+`git commit {{[-m|--message]}} {{texto_del_mensaje}}`
 
-- Muestra la versión:
+- Envía los commits locales a un repositorio remoto:
 
-`git --version`
+`git push`
+
+- Obtiene los cambios realizados en un repositorio remoto:
+
+`git pull`
+
+- Restablece todo al estado del último commit:
+
+`git reset --hard; git clean {{[-f|--force]}}`

@@ -21,7 +21,7 @@
 
 `dnf reposync --repoid {{repo_name}} {{[-n|--newest-only]}}`
 
-- Just print URLs of what would be downloaded, don’t download:
+- Just print URLs of what would be downloaded, don't download:
 
 `dnf reposync --repoid {{repo_name}} {{[-u|--urls]}}`
 

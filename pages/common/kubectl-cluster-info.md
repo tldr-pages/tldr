@@ -7,7 +7,7 @@
 
 `kubectl cluster-info`
 
-- Dump current cluster state to standard output (for debugging):
+- Dump current cluster state to `stdout` (for debugging):
 
 `kubectl cluster-info dump`
 
