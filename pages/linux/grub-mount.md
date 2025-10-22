@@ -17,7 +17,7 @@
 
 - Load a ZFS encryption key from a file:
 
-`grub-mount {{[-K|--zfs-key]}} {{/path/to/zfs.key}} {{/dev/sdX}} {{/mnt}}`
+`grub-mount {{[-K|--zfs-key]}} /{{path/to/zfs.key}} {{/dev/sdX}} {{/mnt}}`
 
 - Show debugging output for a matching category:
 
