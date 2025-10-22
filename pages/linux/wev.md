@@ -19,7 +19,7 @@
 
 `wev -F {{wl_keyboard}}:{{key}}`
 
-- Write the `wl_keyboards`'s keymap to a specified file:
+- Write the `wl_keyboards`'s keymap to a file:
 
 `wev -M {{path/to/file}}`
 
