@@ -1,7 +1,7 @@
 # npm prune
 
 > Remove extraneous packages from `node_modules`.
-> More information: <https://docs.npmjs.com/cli/commands/npm-prune>.
+> More information: <https://docs.npmjs.com/cli/npm-prune>.
 
 - Remove all extraneous packages not listed in dependencies:
 
@@ -22,7 +22,3 @@
 - Remove specific packages by name:
 
 `npm prune {{package_name}}`
-
-- Prune packages in all configured workspaces:
-
-`npm prune --workspaces`
