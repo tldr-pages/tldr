@@ -1,7 +1,7 @@
 # npm-pack
 
 > Create a tarball from a package.
-> More information: <https://docs.npmjs.com/cli/v10/commands/npm-pack>.
+> More information: <https://docs.npmjs.com/cli/npm-pack>.
 
 - Create a `.tgz` tarball from the current project:
 
