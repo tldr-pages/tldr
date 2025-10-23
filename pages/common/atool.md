@@ -16,7 +16,7 @@
 
 `atool {{[-X|--extract-to]}} {{path/to/output_directory}} {{archive.rar}}`
 
-- Display a specific file's content from an archive to standard output (like `cat`):
+- Display a specific file's content from an archive to `stdout` (like `cat`):
 
 `atool {{[-c|--cat]}} {{archive.tar}} {{path/to/file_in_archive.txt}}`
 

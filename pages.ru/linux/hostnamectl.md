@@ -1,7 +1,7 @@
 # hostnamectl
 
 > Получение и установка имени хоста компьютера.
-> Больше информации: <https://manned.org/hostnamectl>.
+> Больше информации: <https://www.freedesktop.org/software/systemd/man/hostnamectl.html>.
 
 - Получить имя хоста компьютера:
 

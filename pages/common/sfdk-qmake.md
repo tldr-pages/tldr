@@ -1,6 +1,6 @@
 # sfdk qmake
 
-> Executes qmake build step.
+> Execute qmake build step.
 > More information: <https://github.com/sailfishos/sailfish-qtcreator/blob/master/share/qtcreator/sfdk/modules/20-building-mb2/doc/command.qmake.adoc>.
 
 - Run qmake build:

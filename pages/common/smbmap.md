@@ -7,7 +7,7 @@
 
 `smbmap --host-file {{path/to/file}}`
 
-- Display SMB shares and permissions on a host, prompting for user's password or NTLM hash:
+- Display SMB shares and permissions on a [H]ost, prompting for user's password or NTLM hash:
 
 `smbmap {{[-u|--username]}} {{username}} --prompt -H {{ip}}`
 
@@ -23,9 +23,9 @@
 
 `smbmap {{[-u|--username]}} {{username}} {{[-p|--password]}} {{password}} -d {{domain}} -H {{ip_or_hostname}}`
 
-- Locate and download files [R]ecursively up to N levels depth, searching for filename pattern (`regex`), and excluding certain shares:
+- Locate and download files [R]ecursively up to `n` levels depth, searching for filename pattern (`regex`), and excluding certain shares:
 
-`smbmap --host-file {{path/to/file}} {{[-u|--username]}} {{username}} {{[-p|--password]}} {{password}} -q -R --depth {{number}} --exclude {{sharename}} -A {{filepattern}}`
+`smbmap --host-file {{path/to/file}} {{[-u|--username]}} {{username}} {{[-p|--password]}} {{password}} -q -R --depth {{n}} --exclude {{sharename}} -A {{filepattern}}`
 
 - Upload file through smb using username and password:
 

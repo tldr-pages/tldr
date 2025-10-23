@@ -1,6 +1,6 @@
 # rargs
 
-> Execute a command for each line of standard input.
+> Execute a command for each line of `stdin`.
 > Like `xargs`, but with pattern matching support.
 > More information: <https://github.com/lotabout/rargs>.
 

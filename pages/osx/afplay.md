@@ -15,6 +15,6 @@
 
 `afplay --rate {{0.5}} {{path/to/file}}`
 
-- Play the first N seconds of a sound file:
+- Play the first `n` seconds of a sound file:
 
-`afplay --time {{seconds}} {{path/to/file}}`
+`afplay --time {{n}} {{path/to/file}}`
