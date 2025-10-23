@@ -3,9 +3,9 @@
 > Android Package Manager tool.
 > More information: <https://developer.android.com/tools/adb>.
 
-- Print the path to the APK of a package:
+- List installed packages:
 
-`adb shell pm path {{package}}`
+`adb shell pm list packages`
 
 - Install an app package from a given path:
 
