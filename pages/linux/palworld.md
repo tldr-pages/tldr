@@ -7,7 +7,7 @@
 
 `{{path/to/PalServer.sh}}`
 
-- Start the server with a specific port and a specific number of players:
+- Start the server with a specific port and set a maximum player count:
 
 `{{path/to/PalServer.sh}} -port={{8211}} -players={{1..32}}`
 
