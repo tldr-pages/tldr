@@ -3,10 +3,6 @@
 > Manage topics, clusters, groups, security and more via a single binary.
 > More information: <https://docs.redpanda.com/current/reference/rpk/>.
 
-- Display version:
-
-`rpk version`
-
 - Create a new topic:
 
 `rpk topic create {{topic_name}}`
@@ -34,3 +30,7 @@
 - Describe a consumer group with lag information:
 
 `rpk group describe {{group_name}}`
+
+- Display version:
+
+`rpk version`
