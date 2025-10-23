@@ -25,4 +25,4 @@
 
 - Rebuild in global mode:
 
-`npm {{[rb|rebuild]}} -g`
+`npm {{[rb|rebuild]}} {{[-g|--global]}}`
