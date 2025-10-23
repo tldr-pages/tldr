@@ -21,11 +21,11 @@
 
 - Sign a new session cookie with a secret key:
 
-`flask-unsign {{[-s|--sign]}} {{[-c|--cookie]}} {{"{'logged_in': False}"}} {{[-S|--secret]}} {{secret}}`
+`flask-unsign {{[-s|--sign]}} {{[-c|--cookie]}} "{{{'logged_in': False}}}" {{[-S|--secret]}} {{secret}}`
 
 - Sign a session cookie using legacy timestamp (useful for old versions):
 
-`flask-unsign {{[-s|--sign]}} {{[-c|--cookie]}} {{"{'logged_in': False}"}} {{[-S|--secret]}} {{secret}} {{[-l|--legacy]}}`
+`flask-unsign {{[-s|--sign]}} {{[-c|--cookie]}} "{{{'logged_in': False}}}" {{[-S|--secret]}} {{secret}} {{[-l|--legacy]}}`
 
 - Brute-force a session cookie with custom threads and no literal evaluation:
 
