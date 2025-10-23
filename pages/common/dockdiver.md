@@ -25,4 +25,4 @@
 
 - Add custom headers as JSON (e.g., '{"X-Custom": "Value"}'):
 
-`dockdiver -url {{https://example.com}} -list -headers {{'{"X-Custom": "Value"}'}}`
+`dockdiver -url {{https://example.com}} -list -headers '{{{"X-Custom": "Value"}}}'`
