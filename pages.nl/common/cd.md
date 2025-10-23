@@ -7,7 +7,7 @@
 
 `cd {{pad/naar/map}}`
 
-- Ga naar de ouder van de huidge map:
+- Ga naar de ouder van de huidige map:
 
 `cd ..`
 
