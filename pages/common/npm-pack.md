@@ -1,4 +1,4 @@
-# npm-pack
+# npm pack
 
 > Create a tarball from a package.
 > More information: <https://docs.npmjs.com/cli/npm-pack>.
