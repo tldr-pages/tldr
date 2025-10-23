@@ -2,6 +2,6 @@
 
 > Este comando es un alias de `gh accesibility`.
 
-- Ver la documentación del comando original:
+- Vea la documentación del comando original:
 
 `tldr gh accesibility`
