@@ -1,7 +1,6 @@
 # npm-pack
 
 > Create a tarball from a package.
-> Useful for testing how your package will look if published, or to share it manually.
 > More information: <https://docs.npmjs.com/cli/v10/commands/npm-pack>.
 
 - Create a `.tgz` tarball from the current project:
