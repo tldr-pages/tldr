@@ -15,9 +15,9 @@
 
 `rpk topic produce {{topic_name}}`
 
-- Consume messages from a topic:
+- Consume messages from multiple topics:
 
-`rpk topic consume {{topic_name}}`
+`rpk topic consume {{topic_name1 topic_name2 ...}}`
 
 - List all topics:
 
