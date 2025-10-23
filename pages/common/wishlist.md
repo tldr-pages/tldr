@@ -27,7 +27,3 @@
 - Discover SSH nodes from a Tailscale tailnet:
 
 `wishlist --tailscale.net={{tailnet_name}} --tailscale.key={{tskey-api-abc123}}`
-
-- Run Wishlist in Docker:
-
-`docker run -p 2222:22 -v $PWD/.wishlist:/wishlist docker.io/charmcli/wishlist:latest`
