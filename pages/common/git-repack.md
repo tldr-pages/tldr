@@ -7,7 +7,7 @@
 
 `git repack`
 
-- Also remove redundant objects after packing:
+- Remove redundant objects after packing:
 
 `git repack -d`
 
