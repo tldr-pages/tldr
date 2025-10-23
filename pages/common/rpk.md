@@ -3,7 +3,7 @@
 > Manage topics, clusters, groups, security and more via a single binary.
 > More information: <https://docs.redpanda.com/current/reference/rpk/>.
 
-- Display the version of rpk and Redpanda:
+- Display version:
 
 `rpk version`
 
