@@ -1,4 +1,4 @@
-# npm-prune
+# npm prune
 
 > Remove extraneous packages from `node_modules` that are not listed in `package.json`.
 > Helps keep dependencies tidy.
