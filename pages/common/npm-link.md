@@ -2,7 +2,7 @@
 
 > Symlink a local package into the global `node_modules` or another project for development.
 > Useful for working on dependencies locally.
-> More information: <https://docs.npmjs.com/cli/v10/commands/npm-link>.
+> More information: <https://docs.npmjs.com/cli/npm-link>.
 
 - Symlink the current package globally:
 
