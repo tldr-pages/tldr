@@ -15,9 +15,9 @@
 
 `pastel pick`
 
-- Generate a set of N visually distinct colors:
+- Generate a set of `n` visually distinct colors:
 
-`pastel distinct {{8}}`
+`pastel distinct {{n}}`
 
 - List all X11/CSS color names:
 
