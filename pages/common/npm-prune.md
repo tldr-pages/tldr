@@ -1,7 +1,6 @@
 # npm prune
 
 > Remove extraneous packages from `node_modules` that are not listed in `package.json`.
-> Helps keep dependencies tidy.
 > More information: <https://docs.npmjs.com/cli/npm-prune>.
 
 - Remove unlisted packages from `node_modules`:
