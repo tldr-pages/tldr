@@ -14,7 +14,7 @@
 
 - Send data to a task's `stdin`:
 
-`pueue send {{task_id}} {{"hello"}}`
+`pueue send {{task_id}} "{{hello}}"`
 
 - View a task's `stdout` and `stderr`, as well as basic information about that task:
 
