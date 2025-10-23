@@ -10,3 +10,11 @@
 - Also remove redundant objects after packing:
 
 `git repack -d`
+
+- Repack all objects into a single pack:
+
+`git repack -a`
+
+- Limit the repack to local objects only:
+
+`git repack -l`
