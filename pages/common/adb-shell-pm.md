@@ -25,7 +25,7 @@
 
 - Disable a package or component:
 
-`adb shell pm disable {{package_or_class}}`
+`adb shell pm disable-user {{package_or_class}}`
 
 - Grant a permission for an app:
 
