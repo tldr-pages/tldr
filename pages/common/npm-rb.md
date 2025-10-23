@@ -5,4 +5,3 @@
 - View documentation for the original command:
 
 `tldr npm-rebuild`
-
