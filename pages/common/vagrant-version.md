@@ -8,6 +8,6 @@
 
 `vagrant version`
 
-- See the currently installed version:
+- Display version:
 
 `vagrant --version`
