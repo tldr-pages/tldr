@@ -5,7 +5,7 @@
 
 - Rename a file:
 
-`Rename-Item -Path "{{path/to/file}}" -NewName "{{new_file_name}}"`
+`{{[ren|Rename-Item]}} -Path "{{path/to/file}}" -NewName "{{new_file_name}}"`
 
 - Rename a directory:
 
