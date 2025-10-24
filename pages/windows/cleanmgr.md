@@ -1,6 +1,6 @@
 # cleanmgr
 
-> Clear unnecessary files from your computer's hard disk.
+> Clear unnecessary files from the computer's hard disk.
 > More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/cleanmgr>.
 
 - Open Disk Cleanup for a specific drive:
