@@ -4,30 +4,30 @@
 > Requires an elevated Command Prompt.
 > More information: <https://learn.microsoft.com/windows-hardware/drivers/devtest/pnputil>
 
-- List all the installed driver packages:
+- List all installed driver packages:
 
 `pnputil /enum-drivers`
 
-- Install the driver package from an INF file:
+- Install a driver package from an INF file:
 
 `pnputil /add-driver {{path\to\driver.inf}}`
 
-- Add and install all the INF files in a folder:
+- Add and install all INF files in a folder (including subdirectories):
 
 `pnputil /add-driver {{path\to\folder\*.inf}} /subdirs`
 
-- Delete the driver package using its published name:
+- Delete a driver package using its published name:
 
 `pnputil /delete-driver {{oemXX.inf}}`
 
-- Install the driver package (using published name):
+- Install a driver package using its published name:
 
 `pnputil /install-driver {{oemXX.inf}}`
 
-- Export all the driver packages to a folder:
+- Export all driver packages to a folder:
 
 `pnputil /export-driver * {{path\to\folder}}`
 
-- List all the devices:
+- List all devices:
 
 `pnputil /enum-devices`
