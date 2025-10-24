@@ -1,6 +1,6 @@
 # rpk
 
-> Manage topics, clusters, groups, security and more via a single binary.
+> Manage Redpanda topics, clusters, groups, security and more via a single binary.
 > More information: <https://docs.redpanda.com/current/reference/rpk/>.
 
 - Create a new topic:
