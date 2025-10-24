@@ -3,9 +3,9 @@
 > Android Package Manager tool.
 > More information: <https://developer.android.com/tools/adb>.
 
-- Print the path to the APK of a package:
+- List installed packages:
 
-`adb shell pm path {{package}}`
+`adb shell pm list packages`
 
 - Install an app package from a given path:
 
@@ -25,7 +25,7 @@
 
 - Disable a package or component:
 
-`adb shell pm disable {{package_or_class}}`
+`adb shell pm disable-user {{package_or_class}}`
 
 - Grant a permission for an app:
 
