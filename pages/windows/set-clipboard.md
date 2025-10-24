@@ -5,7 +5,7 @@
 
 - Copy text to the clipboard:
 
-`Set-Clipboard -Value "{{text}}"`
+`{{[scb|Set-Clipboard]}} -Value "{{text}}"`
 
 - Copy multiple texts to clipboard separated by new line:
 
