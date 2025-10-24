@@ -3,7 +3,7 @@
 > Redirect I/O into a network stream through this versatile tool.
 > More information: <https://manned.org/nc>.
 
-- Start a listener on the specified TCP port and send a file into it:
+- Start a [l]istener on the specified TCP-[p]ort and send a file into it:
 
 `nc < {{filename}} -l -p {{port}}`
 
@@ -15,7 +15,7 @@
 
 `nc -v -z -w {{timeout_in_seconds}} {{host}} {{start_port}}-{{end_port}}`
 
-- Start a listener on the specified TCP port and provide your local shell access to the connected party (this is dangerous and can be abused):
+- Start a [l]istener on the specified TCP [p]ort and provide your local shell access to the connected party (this is dangerous and can be abused):
 
 `nc -l -p {{port}} -e {{shell_executable}}`
 
