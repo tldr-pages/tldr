@@ -9,16 +9,16 @@
 
 - Copy multiple texts to clipboard separated by new line:
 
-`Set-Clipboard -Value @("{{text 1}}", "{{text 2}}", "{{text 3}}")`
+`{{[scb|Set-Clipboard]}} -Value @("{{text 1}}", "{{text 2}}", "{{text 3}}")`
 
 - Copy files or directories to clipboard:
 
-`Set-Clipboard -Path "{{path/to/files_or_directories}}"`
+`{{[scb|Set-Clipboard]}} -Path "{{path/to/files_or_directories}}"`
 
 - Copy multiple files:
 
-`Set-Clipboard -Path "{{path/to/file1}}","{{path/to/file2}}","{{path/to/file3}}"`
+`{{[scb|Set-Clipboard]}} -Path "{{path/to/file1}}","{{path/to/file2}}","{{path/to/file3}}"`
 
 - To clear the clipboard:
 
-`Set-Clipboard ""`
+`{{[scb|Set-Clipboard]}} ""`
