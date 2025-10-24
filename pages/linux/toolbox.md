@@ -19,3 +19,7 @@
 - Display version:
 
 `toolbox --version`
+
+- List all available toolbox containers:
+
+`toolbox list`
