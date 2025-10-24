@@ -1,6 +1,6 @@
 # oauth2c
 
-> Command-line tool for interacting with OAuth 2.0 authorization servers.
+> Interact with OAuth 2.0 authorization servers.
 > More information: <https://github.com/cloudentity/oauth2c>.
 
 - Fetch an access token using client credentials:
