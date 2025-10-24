@@ -5,7 +5,7 @@
 
 - Get clipboard text:
 
-`Get-Clipboard`
+`{{[gcb|Get-Clipboard]}}`
 
 - Get clipboard content as specific text format:
 
