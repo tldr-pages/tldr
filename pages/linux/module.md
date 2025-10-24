@@ -34,11 +34,3 @@
 - Save the current set of loaded modules:
 
 `module save {{collection_name}}`
-
-- Restore a saved module collections
-
-`module restore {{collection_name}}`
-
-- List all saved collections
-
-`module savelist`
