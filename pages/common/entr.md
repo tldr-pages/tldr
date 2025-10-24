@@ -9,7 +9,7 @@
 
 - Rebuild and test with `make` if any `.c` source files in the current directory change:
 
-`{{ls *.c}} | entr {{'make && make test'}}`
+`{{ls *.c}} | entr '{{make && make test}}'`
 
 - Send a `SIGTERM` to any previously spawned ruby subprocesses before executing `ruby main.rb`:
 
@@ -25,7 +25,7 @@
 
 - Rebuild the project if source files change, limiting output to the first few lines:
 
-`{{find src/}} | entr -s {{'make | sed 10q'}}`
+`{{find src/}} | entr -s '{{make | sed 10q}}'`
 
 - Launch and auto-[r]eload a Node.js server:
 

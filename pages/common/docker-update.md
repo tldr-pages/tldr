@@ -6,11 +6,11 @@
 
 - Update restart policy to apply when a specific container exits:
 
-`docker update --restart={{always|no|on-failure|unless-stopped}} {{container_name}}`
+`docker update --restart {{always|no|on-failure|unless-stopped}} {{container_name}}`
 
 - Update the policy to restart up to three times a specific container when it exits with non-zero exit status:
 
-`docker update --restart=on-failure:3 {{container_name}}`
+`docker update --restart on-failure:3 {{container_name}}`
 
 - Update the number of CPUs available to a specific container:
 

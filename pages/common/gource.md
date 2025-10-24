@@ -18,7 +18,7 @@
 
 - Use fullscreen mode and a custom background color:
 
-`gource {{[-f|--fullscreen ]}} {{[-b|--background-colour]}} {{hex_color_code}}`
+`gource {{[-f|--fullscreen]}} {{[-b|--background-colour]}} {{hex_color_code}}`
 
 - Specify the animation title:
 

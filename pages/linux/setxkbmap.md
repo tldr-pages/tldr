@@ -9,7 +9,7 @@
 
 - Set multiple keyboard layouts, their variants and switching option:
 
-`setxkbmap -layout {{us,de}} -variant {{,qwerty}} -option {{'grp:alt_caps_toggle'}}`
+`setxkbmap -layout {{us,de}} -variant {{,qwerty}} -option '{{grp:alt_caps_toggle}}'`
 
 - List all layouts:
 
