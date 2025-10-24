@@ -5,7 +5,7 @@
 
 - Select full path and size from temporary or configuration files in a given directory:
 
-`fselect size, path from {{path/to/directory}} where name = '{{*.cfg}}' or name = {{'*.tmp'}}`
+`fselect size, path from {{path/to/directory}} where name = '{{*.cfg}}' or name = '{{*.tmp}}'`
 
 - Find square images:
 
