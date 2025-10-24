@@ -5,16 +5,24 @@
 
 - Toon de status van een service (geen service naam zal alle services tonen):
 
-`sc.exe query {{service_naam}}`
+`sc query {{service_naam}}`
 
 - Start een service asynchroon:
 
-`sc.exe create {{service_naam}} binpath= {{pad\naar\service_binary_bestand}}`
+`sc start {{service_naam}} binpath= {{pad\naar\service_binary_bestand}}`
 
 - Stop een service asynchroon:
 
-`sc.exe delete {{service_naam}}`
+`sc stop {{service_naam}}`
+
+- Maak een service aan:
+
+`sc create {{service_naam}} binpath= {{pad\naar\service_binary_bestand}}`
+
+- Verwijder een service:
+
+`sc delete {{service_naam}}`
 
 - Zet het type van een service:
 
-`sc.exe config {{service_naam}} type= {{service_type}}`
+`sc config {{service_naam}} type= {{service_type}}`

@@ -4,6 +4,14 @@
 > Zie ook: `head`.
 > Meer informatie: <https://keith.github.io/xcode-man-pages/tail.1.html>.
 
+- Toon de laatste 10 regels van een bestand:
+
+`tail {{pad/naar/bestand}}`
+
+- Toon de laatste 10 regels van meerdere bestanden:
+
+`tail {{path/to/file1 path/to/file2 ...}}`
+
 - Toon laatste aantal regels in een bestand:
 
 `tail -n {{8}} {{pad/naar/bestand}}`
@@ -24,6 +32,6 @@
 
 `tail -F {{pad/naar/bestand}}`
 
-- Toon de laatste aantal regels in een bestand en ververs iedere 'n' seconden:
+- Toon de laatste `aantal` regels in een bestand en ververs iedere `seconden` seconden:
 
-`tail -n {{8}} -s {{10}} -f {{pad/naar/bestand}}`
+`tail -n {{aantal}} -s {{seconden}} -f {{pad/naar/bestand}}`
