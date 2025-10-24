@@ -17,7 +17,7 @@
 
 - Read from a specific coprocess `stdout`:
 
-`read {{variable}} <&"${{{name[0]}}}"`
+`read <&"${{{name[0]}}}" {{variable}}`
 
 - Create a coprocess which repeatedly reads `stdin` and runs some commands on the input:
 
@@ -29,4 +29,4 @@
 
 - Create and use a coprocess running `bc`:
 
-`coproc BC { bc --mathlib; }; echo "1/3" >&"${BC[1]}"; read output <&"${BC[0]}"; echo "$output"`
+`coproc BC { bc --mathlib; }; echo "1/3" >&"${BC[1]}"; read <&"${BC[0]}" output; echo "$output"`

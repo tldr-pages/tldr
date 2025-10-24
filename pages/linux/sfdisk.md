@@ -5,19 +5,19 @@
 
 - Back up the partition layout to a file:
 
-`sudo sfdisk {{[-d|--dump]}} {{path/to/device}} > {{path/to/file.dump}}`
+`sudo sfdisk {{[-d|--dump]}} {{/dev/sdX}} > {{path/to/file.dump}}`
 
 - Restore a partition layout:
 
-`sudo sfdisk < {{path/to/file.dump}} {{path/to/device}}`
+`sudo sfdisk < {{path/to/file.dump}} {{/dev/sdX}}`
 
 - Set the type of a partition:
 
-`sfdisk --part-type {{path/to/device}} {{partition_number}} {{swap}}`
+`sudo sfdisk --part-type {{/dev/sdX}} {{partition_number}} {{swap}}`
 
 - Delete a partition:
 
-`sfdisk --delete {{path/to/device}} {{partition_number}}`
+`sudo sfdisk --delete {{/dev/sdX}} {{partition_number}}`
 
 - Display help:
 

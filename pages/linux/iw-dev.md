@@ -12,11 +12,11 @@
 
 `sudo iw dev {{wlp}} set type managed`
 
-- Set device WiFi channel (device must first be in monitor mode with the interface up):
+- Set device Wi-Fi channel (device must first be in monitor mode with the interface up):
 
 `sudo iw dev {{wlp}} set channel {{channel_number}}`
 
-- Set device WiFi frequency in Mhz (device must first be in monitor mode with the interface up):
+- Set device Wi-Fi frequency in Mhz (device must first be in monitor mode with the interface up):
 
 `sudo iw dev {{wlp}} set freq {{freq_in_mhz}}`
 

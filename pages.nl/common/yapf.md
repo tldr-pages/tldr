@@ -3,7 +3,7 @@
 > Python stijlgidschecker.
 > Meer informatie: <https://github.com/google/yapf>.
 
-- Toon de geformateerde diff die zal optreden uit:
+- Toon de geformatteerde diff die zal optreden uit:
 
 `yapf {{[-d|--diff]}} {{pad/naar/bestand}}`
 

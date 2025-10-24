@@ -2,7 +2,7 @@
 
 > List units that systemd currently has in memory.
 > See also: `systemctl list-unit-files` for listing installed unit files.
-> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#list-units%20PATTERN%E2%80%A6>.
+> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#list-units%20PATTERN%E2%80%A6>.
 
 - List units which are active, have pending jobs, or have failed:
 

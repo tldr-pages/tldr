@@ -5,11 +5,11 @@
 
 - List all available packages:
 
-`pacfile`
+`pacfile {{path/to/file_or_directory}}`
 
 - Compare database values to the file system:
 
-`pacfile --check`
+`pacfile {{path/to/file_or_directory}} --check`
 
 - Display help:
 

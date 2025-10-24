@@ -12,6 +12,6 @@
 
 `Get-History -Id {{id}}`
 
-- Display the last N commands:
+- Display the last `n` commands:
 
-`Get-History -Count {{10}}`
+`Get-History -Count {{n}}`

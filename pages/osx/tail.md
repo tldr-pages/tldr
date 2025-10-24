@@ -24,6 +24,6 @@
 
 `tail -F {{path/to/file}}`
 
-- Show last 'count' lines in 'file' and refresh every 'seconds' seconds:
+- Show last `count` lines in a file and refresh every `seconds` seconds:
 
-`tail -n {{8}} -s {{10}} -f {{path/to/file}}`
+`tail -n {{count}} -s {{seconds}} -f {{path/to/file}}`

@@ -1,7 +1,7 @@
 # timedatectl
 
 > Control the system time and date.
-> More information: <https://manned.org/timedatectl>.
+> More information: <https://www.freedesktop.org/software/systemd/man/timedatectl.html>.
 
 - Check the current system clock time:
 
