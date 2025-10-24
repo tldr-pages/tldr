@@ -9,7 +9,7 @@
 
 `sudo audit2why`
 
-- Leg SELinux-weigeringen van een specifiek auditlogbestand uit
+- Leg SELinux-weigeringen van een specifiek auditlogbestand uit:
 
 `sudo audit2why {{[-i|--input]}} {{pad/naar/audit.log}}`
 
