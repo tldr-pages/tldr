@@ -9,7 +9,7 @@
 
 - Start een service asynchroon:
 
-`sc start {{service_naam}} binpath= {{pad\naar\service_binary_bestand}}`
+`sc start {{service_naam}}`
 
 - Stop een service asynchroon:
 
