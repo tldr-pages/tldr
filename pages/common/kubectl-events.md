@@ -25,7 +25,7 @@
 
 - Show events for type `Warning` or `Normal`:
 
-`kubectl events --types=Warning,Normal`
+`kubectl events --types Warning,Normal`
 
 - Output events in YAML format:
 
