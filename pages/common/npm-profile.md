@@ -22,6 +22,9 @@
 - Manage two-factor authentication (2FA) for your account:
 
 `npm {{profile}} {{enable-2fa}}`
+
+- Disable two-factor authentication (2FA) for your account:
+
 `npm {{profile}} {{disable-2fa}}`
 
 - Set your public email address:
