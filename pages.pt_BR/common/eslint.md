@@ -17,4 +17,4 @@
 
 - Faz lint usando o arquivo de configuração especificado:
 
-`eslint {{[-c|--config]}} {{caminho/para/config}} {{caminho/para/arquivo1.js caminho/para/arquivo2.js ...}}`
+`eslint {{[-c|--config]}} {{caminho/para/arquivo_de_configuracao}} {{caminho/para/arquivo1.js caminho/para/arquivo2.js ...}}`
