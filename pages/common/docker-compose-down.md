@@ -1,6 +1,6 @@
 # docker compose down
 
-> Stop and remove containers, networks, images, and volumes created by docker-compose up.
+> Stop and remove containers, networks, images, and volumes created by `docker compose up`.
 > More information: <https://docs.docker.com/reference/cli/docker/compose/down/>.
 
 - Stop and remove all containers and networks:
