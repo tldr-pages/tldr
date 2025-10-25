@@ -1,6 +1,7 @@
 # npm hook
 
 > Manage npm registry hooks for packages.
+> Note: This command has been deprecated.
 > More information: <https://docs.npmjs.com/cli/hook>.
 
 - List all existing hooks:
