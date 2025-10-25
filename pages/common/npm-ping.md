@@ -7,6 +7,6 @@
 
 `npm ping`
 
-- Ping a given npm registry and verify authentication.
+- Ping a given npm registry and verify authentication:
 
 `npm ping {{registry}}`
