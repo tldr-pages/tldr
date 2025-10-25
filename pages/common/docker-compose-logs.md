@@ -19,7 +19,7 @@
 
 `docker compose logs {{[-t|--timestamps]}}`
 
-- View only the last N lines of logs for each container:
+- View only the last `n` lines of logs for each container:
 
 `docker compose logs {{[-n|--tail]}} {{n}}`
 
