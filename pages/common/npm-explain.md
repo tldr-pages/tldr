@@ -13,8 +13,8 @@
 
 - Include peer dependencies in the explanation:
 
-`npm explain {{package_name}} --include {{peer}}`
+`npm explain {{package_name}} --include peer`
 
-- Limit explanation depth (e.g., 2 levels deep):
+- Limit explanation depth to 2 levels deep:
 
-`npm explain {{package_name}} --depth {{2}}`
+`npm explain {{package_name}} --depth 2`
