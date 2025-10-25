@@ -16,7 +16,7 @@
 
 `tv list-channels`
 
-- Fuzzy-pick from lines piped on standard input:
+- Fuzzy-pick from lines piped on `stdin`:
 
 `{{command}} | tv`
 
