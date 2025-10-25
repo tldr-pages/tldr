@@ -2,6 +2,7 @@
 
 > View output from containers in a Docker Compose application.
 > More information: <https://docs.docker.com/reference/cli/docker/compose/logs/>.
+
 - View logs for all services:
 
 `docker compose logs`
@@ -10,7 +11,7 @@
 
 `docker compose logs {{service_name}}`
 
-- View logs and follow new output (like tail -f):
+- View logs and follow new output (like `tail -f`):
 
 `docker compose logs {{[-f|--follow]}}`
 
