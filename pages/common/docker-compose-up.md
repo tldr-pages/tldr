@@ -21,7 +21,7 @@
 
 - Start services with custom compose file:
 
-`docker compose {{[-f|--file]}} {{path/to/docker-compose.yml}} up`
+`docker compose {{[-f|--file]}} {{path/to/config}} up`
 
 - Start services and remove orphaned containers:
 
