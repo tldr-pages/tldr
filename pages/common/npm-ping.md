@@ -3,7 +3,7 @@
 > Ping npm registry.
 > More information: <https://docs.npmjs.com/cli/npm-ping>.
 
-- Ping the configured npm registry and verify authentication.
+- Ping the configured npm registry and verify authentication:
 
 `npm ping`
 
