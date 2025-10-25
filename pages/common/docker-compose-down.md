@@ -25,7 +25,7 @@
 
 - Stop and remove containers using an alternate compose file:
 
-`docker compose {{[-f|--file]}} {{path/to/file.yml}} down`
+`docker compose {{[-f|--file]}} {{path/to/config}} down`
 
 - Stop and remove containers with a custom timeout in seconds:
 
