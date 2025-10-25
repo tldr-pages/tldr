@@ -4,7 +4,7 @@
 > Note: This command has been deprecated.
 > More information: <https://docs.npmjs.com/cli/hook>.
 
-- List all existing hooks:
+- List all active hooks:
 
 `npm hook ls`
 
