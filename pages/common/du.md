@@ -19,13 +19,13 @@
 
 `du {{[-ah|--all --human-readable]}} {{path/to/directory}}`
 
-- List the human-readable sizes of a directory and any subdirectories, up to N levels deep:
+- List the human-readable sizes of a directory and any subdirectories, up to `n` levels deep:
 
-`du {{[-h|--human-readable]}} {{[-d|--max-depth]}} N {{path/to/directory}}`
+`du {{[-h|--human-readable]}} {{[-d|--max-depth]}} {{n}} {{path/to/directory}}`
 
 - List the human-readable size of all `.jpg` files in current directory, and show a cumulative total at the end:
 
-`du {{[-ch|--total --human-readable]}} {{./*.jpg}}`
+`du {{[-ch|--total --human-readable]}} *.jpg`
 
 - List all files and directories (including hidden ones) above a certain threshold size (useful for investigating what is actually taking up the space):
 

@@ -13,7 +13,7 @@
 
 - Do a case-insensitive search for lines that begin with "foo" and return the first 3 matches:
 
-`pdfgrep {{[-m|--max-count]}} {{3}} {{[-i|--ignore-case]}} {{'^foo'}} {{file.pdf}}`
+`pdfgrep {{[-m|--max-count]}} {{3}} {{[-i|--ignore-case]}} '{{^foo}}' {{file.pdf}}`
 
 - Find pattern in files with a `.pdf` extension in the current directory recursively:
 
@@ -21,4 +21,4 @@
 
 - Find pattern on files that match a specific glob in the current directory recursively:
 
-`pdfgrep {{[-r|--recursive]}} --include {{'*book.pdf'}} {{pattern}}`
+`pdfgrep {{[-r|--recursive]}} --include '{{*book.pdf}}' {{pattern}}`
