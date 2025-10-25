@@ -5,20 +5,20 @@
 
 - Rename a file:
 
-`{{[ren|Rename-Item]}} -Path "{{path/to/file}}" -NewName "{{new_file_name}}"`
+`Rename-Item -Path "{{path/to/file}}" -NewName "{{new_file_name}}"`
 
 - Rename a directory:
 
-`{{[ren|Rename-Item]}} -Path "{{path/to/directory}}" -NewName "{{new_directory_name}}"`
+`Rename-Item -Path "{{path/to/directory}}" -NewName "{{new_directory_name}}"`
 
 - Rename and move a file:
 
-`{{[ren|Rename-Item]}} -Path "{{path/to/file}}" -NewName "{{path/to/new_file_name}}"`
+`Rename-Item -Path "{{path/to/file}}" -NewName "{{path/to/new_file_name}}"`
 
 - Rename a file by force:
 
-`{{[ren|Rename-Item]}} -Path "{{path/to/file}}" -NewName "{{new_file_name}}" -Force`
+`Rename-Item -Path "{{path/to/file}}" -NewName "{{new_file_name}}" -Force`
 
 - Prompt confirmation before renaming a file:
 
-`{{[ren|Rename-Item]}} -Path "{{path/to/file}}" -NewName "{{new_file_name}}" {{[-Confirm|-cf]}}`
+`Rename-Item -Path "{{path/to/file}}" -NewName "{{new_file_name}}" {{[-Confirm|-cf]}}`
