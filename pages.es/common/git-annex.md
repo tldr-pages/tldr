@@ -2,7 +2,7 @@
 
 > Administra archivos con Git sin registrar su contenido.
 > Cuando se anexa un archivo, su contenido se mueve a un almacén de clave-valor y se crea un enlace simbólico que apunta a dicho contenido.
-> Más información aquí: <https://git-annex.branchable.com/git-annex/>.
+> Más información: <https://git-annex.branchable.com/git-annex/>.
 
 - Inicializa un repositorio con Git annex:
 
