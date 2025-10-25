@@ -3,7 +3,7 @@
 > Redirect I/O into a network stream through this versatile tool.
 > More information: <https://manned.org/nc>.
 
-- Start a [l]istener on the specified TCP-[p]ort and send a file into it:
+- Start a [l]istener on the specified TCP [p]ort and send a file into it:
 
 `nc < {{filename}} -l -p {{port}}`
 
