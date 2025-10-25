@@ -19,7 +19,3 @@
 - Update a hook with new information:
 
 `npm hook update {{hook_id}} {{target_url}}`
-
-- Get detailed info about a specific hook:
-
-`npm hook get {{hook_id}}`
