@@ -11,7 +11,7 @@
 
 `docker compose logs {{service_name}}`
 
-- View logs and follow new output (like `tail -f`):
+- View logs and follow new output (like `tail --follow`):
 
 `docker compose logs {{[-f|--follow]}}`
 
