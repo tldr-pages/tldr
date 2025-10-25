@@ -23,7 +23,7 @@
 
 - Prepend "foo" to all filenames in the current directory:
 
-`rename {{''}} {{'foo'}} {{*}}`
+`rename '' '{{foo}}' {{*}}`
 
 - Rename a group of increasingly numbered files zero-padding the numbers up to 3 digits:
 
