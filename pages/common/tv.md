@@ -8,9 +8,9 @@
 
 `tv`
 
-- Open a specific channel (e.g., files, env, git-repos):
+- Open a specific channel:
 
-`tv {{channel_name}}`
+`tv {{files|env|git-repos|...}}`
 
 - List all available channels:
 
