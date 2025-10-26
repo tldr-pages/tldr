@@ -24,6 +24,6 @@
 
 `git annex get {{ruta/al/archivo_o_directorio}}`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `git annex help`
