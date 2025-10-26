@@ -16,6 +16,10 @@
 
 `mvn idea:workspace`
 
+- Generate only module (`.iml`) files:
+
+`mvn idea:module`
+
 - Delete all generated project files:
 
 `mvn idea:clean`
