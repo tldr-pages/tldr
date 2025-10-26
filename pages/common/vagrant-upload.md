@@ -13,7 +13,7 @@
 
 - Specify which type of compression to use. Default type is `zip`:
 
-`vagrant upload --compression-type {{[tgz|zip]}} {{path/to/source_file_or_directory}} {{path/to/destination_file_or_directory}} {{name|id}}`
+`vagrant upload --compression-type {{tgz|zip}} {{path/to/source_file_or_directory}} {{path/to/destination_file_or_directory}} {{name|id}}`
 
 - Create a temporary location on the guest machine and upload files to that location:
 
