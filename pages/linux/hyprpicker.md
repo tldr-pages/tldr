@@ -2,7 +2,7 @@
 
 > Minimal Wayland color picker for wlroots compositors (e.g., Hyprland).
 > Requires a Wayland session. For clipboard autocopy, `wl-copy` must be installed.
-> More information: <https://github.com/hyprwm/hyprpicker](https://github.com/hyprwm/hyprpicker/>.
+> More information: <https://wiki.hypr.land/Hypr-Ecosystem/hyprpicker/>.
 
 - Pick a color in the default (hex) format:
 
