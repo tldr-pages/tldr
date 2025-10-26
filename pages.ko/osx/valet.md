@@ -1,6 +1,6 @@
 # valet
 
-> Laravel 개발 환경으로, `http://<example>.test`에서 로컬 터널을 통해 사이트를 호스팅할 수 있습니다.
+> Laravel 개발 환경으로, `http://example.test`에서 로컬 터널을 통해 사이트를 호스팅할 수 있습니다.
 > 더 많은 정보: <https://laravel.com/docs/valet>.
 
 - valet 데몬 시작:
