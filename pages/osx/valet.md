@@ -11,7 +11,7 @@
 
 `valet park`
 
-- View 'parked' paths:
+- View "parked" paths:
 
 `valet paths`
 
