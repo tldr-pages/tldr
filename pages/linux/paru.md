@@ -1,6 +1,7 @@
 # paru
 
 > An AUR helper and pacman wrapper.
+> See also: `pacman`, `yay`.
 > More information: <https://github.com/Morganamilo/paru>.
 
 - Interactively search for and install a package:
