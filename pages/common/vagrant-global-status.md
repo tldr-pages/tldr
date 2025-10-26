@@ -2,7 +2,7 @@
 
 > Display the state of all Vagrant machines on the system.
 > The info is based on a cache, which may become stale and require pruning.
-> See also `vagrant`.
+> See also: `vagrant`.
 > More information: <https://developer.hashicorp.com/vagrant/docs/cli/global-status>.
 
 - Display the state of all machines:
