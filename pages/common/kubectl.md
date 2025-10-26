@@ -8,7 +8,7 @@
 
 `kubectl get {{pod|service|deployment|ingress|...}} {{[-o|--output]}} wide`
 
-- Update specified pod with the label 'unhealthy' and the value 'true':
+- Update specified pod with the label `unhealthy` and the value `true`:
 
 `kubectl label pods {{name}} unhealthy=true`
 
