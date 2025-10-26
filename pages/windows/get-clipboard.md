@@ -1,6 +1,7 @@
 # Get-Clipboard
 
 > A powershell command to get content from clipboard.
+> Note: `gcb` can be used as an alias for `Get-Clipboard`.
 > More information: <https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-clipboard>.
 
 - Get clipboard text:
