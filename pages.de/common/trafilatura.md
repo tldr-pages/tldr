@@ -2,7 +2,7 @@
 
 > Ein Python-Tool zum Extrahieren und Crawlen von Webinhalten.
 > Extrahiert Haupttext, Metadaten und Kommentare von Webseiten.
-> Weitere Informationen: <https://trafilatura.readthedocs.io/en/latest/>.
+> Weitere Informationen: <https://trafilatura.readthedocs.io/en/latest/usage-cli.html#further-information>.
 
 - Extrahiere Text einer Website:
 
