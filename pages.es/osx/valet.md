@@ -1,6 +1,6 @@
 # valet
 
-> Un entorno de desarrollo Laravel que permite alojar sitios a través de túneles locales en `http://<ejemplo>.test`.
+> Un entorno de desarrollo Laravel que permite alojar sitios a través de túneles locales en `http://ejemplo.test`.
 > Más información: <https://laravel.com/docs/valet>.
 
 - Inicia el daemon valet:
