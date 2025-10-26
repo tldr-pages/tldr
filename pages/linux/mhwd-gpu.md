@@ -13,11 +13,11 @@
 
 - Set a custom Xorg configuration for an Nvidia GPU:
 
-`sudo mhwd-gpu --setmod nvidia --setxorg {{/path/to/nvidia.conf}}`
+`sudo mhwd-gpu --setmod nvidia --setxorg /{{path/to/nvidia.conf}}`
 
 - Set a custom Xorg configuration for an AMD GPU:
 
-`sudo mhwd-gpu --setmod {{catalyst|ati}} --setxorg {{/path/to/amdgpu.conf}}`
+`sudo mhwd-gpu --setmod {{catalyst|ati}} --setxorg /{{path/to/amdgpu.conf}}`
 
 - Display help:
 
