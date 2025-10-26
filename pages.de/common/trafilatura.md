@@ -6,19 +6,19 @@
 
 - Extrahiere Text einer Website:
 
-`trafilatura -u {{url}}`
+`trafilatura {{[-u|--URL]}} {{url}}`
 
 - Extrahiere Text und speichere diesen in einer Datei:
 
-`trafilatura -u {{url}} -o {{pfad/zur/ausgabe.txt}}`
+`trafilatura {{[-u|--URL]}} {{url}} {{[-o|--output-dir]}} {{pfad/zur/ausgabe.txt}}`
 
 - Extrahiere Text im JSON-Format:
 
-`trafilatura -u {{url}} --json-output`
+`trafilatura {{[-u|--URL]}} {{url}} --json`
 
 - Extrahiere Text von mehreren URLs aus einer Datei:
 
-`trafilatura --input-file {{pfad/zur/url_liste.txt}}`
+`trafilatura {{[-i|--input-file]}} {{pfad/zur/url_liste.txt}}`
 
 - Crawle eine Website basierend auf einer Sitemap:
 
@@ -26,12 +26,12 @@
 
 - Extrahiere Text unter Beibehaltung der HTML-Formatierung:
 
-`trafilatura -u {{url}} --formatting`
+`trafilatura {{[-u|--URL]}} {{url}} --formatting`
 
 - Extrahiere Text inklusive Kommentare:
 
-`trafilatura -u {{url}} --with-comments`
+`trafilatura {{[-u|--URL]}} {{url}} --with-comments`
 
 - Zeige Hilfe an:
 
-`trafilatura --help`
+`trafilatura {{[-h|--help]}}`

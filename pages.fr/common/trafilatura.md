@@ -2,23 +2,23 @@
 
 > Un outil Python pour l'extraction et le crawling de contenu web.
 > Extrait le texte principal, les métadonnées et les commentaires des pages web.
-> Plus d'informations : <https://trafilatura.readthedocs.io/en/latest/>.
+> Plus d'informations : <https://trafilatura.readthedocs.io/en/latest/usage-cli.html#further-information>.
 
 - Extraire le texte d'une URL :
 
-`trafilatura -u {{url}}`
+`trafilatura {{[-u|--URL]}} {{url}}`
 
 - Extraire le texte et sauve le résultat dans un fichier :
 
-`trafilatura -u {{url}} -o {{chemin/vers/fichier.txt}}`
+`trafilatura {{[-u|--URL]}} {{url}} {{[-o|--output-dir]}} {{chemin/vers/fichier.txt}}`
 
 - Extraire le texte au format JSON :
 
-`trafilatura -u {{url}} --json-output`
+`trafilatura {{[-u|--URL]}} {{url}} --json`
 
 - Extraire le texte de plusieurs URLs listées dans un fichier :
 
-`trafilatura --input-file {{chemin/vers/liste_urls.txt}}`
+`trafilatura {{[-i|--input-file]}} {{chemin/vers/liste_urls.txt}}`
 
 - Crawle un site web en utilisant son sitemap :
 
@@ -26,12 +26,12 @@
 
 - Extraire le texte en conservant le formatage HTML :
 
-`trafilatura -u {{url}} --formatting`
+`trafilatura {{[-u|--URL]}} {{url}} --formatting`
 
 - Extraire le texte avec les commentaires :
 
-`trafilatura -u {{url}} --with-comments`
+`trafilatura {{[-u|--URL]}} {{url}} --with-comments`
 
 - Affiche l'aide pour plus d'options :
 
-`trafilatura --help`
+`trafilatura {{[-h|--help]}}`
