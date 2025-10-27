@@ -1,7 +1,7 @@
 # Rename-Item
 
 > Powershell command to rename an item.
-> Note: `ren` and `rni` can both be used as an alias for `Set-Clipboard`.
+> Note: `ren` and `rni` can both be used as an alias for `Rename-Item`.
 > More information: <https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/rename-item>.
 
 - Rename a file:
