@@ -13,7 +13,7 @@
 
 - Open repository pages for multiple packages:
 
-`npm repo {{package_name1}} {{package_name2}}`
+`npm repo {{package_name1 package_name2 ...}}`
 
 - Print the repository URL instead of opening it in the browser:
 
