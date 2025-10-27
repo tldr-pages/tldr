@@ -11,7 +11,7 @@ AI or machine translation will be closed.
 
 -->
 
-#### Checklist
+### Checklist
 
 - [ ] The page(s) are in the correct platform directories: `common`, `linux`, `osx`, `windows`, `sunos`, `android`, etc.
 - [ ] The page description(s) have links to documentation or a homepage.
