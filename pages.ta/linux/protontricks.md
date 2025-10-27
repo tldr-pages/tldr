@@ -1,7 +1,7 @@
 # protontricks
 
 > புரோட்டான் இயக்கப்பட்ட கேம்களுக்கான ஒயின்ட்ரிக்ஸ் கட்டளைகளை இயக்கும் எளிய ரேப்பர்.
-> மேலும் விவரத்திற்கு: <https://github.com/Matoking/protontricks>.
+> மேலும் விவரத்திற்கு: <https://github.com/Matoking/protontricks#usage>.
 
 - புரோட்டான்ட்ரிக்ஸ் GUI ஐ இயக்கவும்:
 
