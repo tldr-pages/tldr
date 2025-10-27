@@ -14,7 +14,7 @@
 
 - Copy the picked color to the clipboard:
 
-`hyprpicker -a`
+`hyprpicker {{[-a|--autocopy]}}`
 
 - Disable colored output (print plain text only):
 
