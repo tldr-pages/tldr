@@ -26,7 +26,7 @@
 
 - Store the picked color in a shell variable:
 
-`{{color}}=$(hyprpicker -f {{hex}})`
+`{{color}}=$(hyprpicker {{[-f|--format]}} {{hex}})`
 
 - Display help:
 
