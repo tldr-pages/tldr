@@ -28,6 +28,6 @@
 
 `{{color}}=$(hyprpicker -f {{hex}})`
 
-- Show help:
+- Display help:
 
 `hyprpicker -h`
