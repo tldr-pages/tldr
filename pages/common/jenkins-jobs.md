@@ -3,7 +3,7 @@
 > An open-source automation server that facilitates the automation of software development lifecycle.
 > More information: <https://www.jenkins.io/doc/>.
 
-- List all jobs
+- List all jobs:
 
 `java -jar jenkins-cli.jar -s http://{{jenkins-url}} list-jobs`
 
@@ -27,6 +27,6 @@
 
 `java -jar jenkins-cli.jar -s http://{{jenkins-url}} copy-job {{source_job}} {{distination_job}}`
 
-- Reanme a job
+- Reanme a job:
 
 `java -jar jenkins-cli.jar -s http://{{jenkins-url}} rename-job {{old_job_name}} {{new_job_name}}`
