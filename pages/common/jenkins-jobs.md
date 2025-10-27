@@ -1,4 +1,4 @@
-# jenkins jobs
+# jenkins job
 
 > An open-source automation server that facilitates the automation of software development lifecycle.
 > More information: <https://www.jenkins.io/doc/>.
