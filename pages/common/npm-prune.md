@@ -2,6 +2,7 @@
 
 > Remove extraneous packages from `node_modules`.
 > Note: Extraneous packages are those present in the node_modules folder that are not listed as any package's dependency list.
+> More information: <https://docs.npmjs.com/cli/npm-prune>.
 
 - Remove all extraneous packages not listed in dependencies:
 
