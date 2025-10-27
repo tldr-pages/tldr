@@ -2,13 +2,6 @@
 Thank you for contributing!
 Please fill in the following checklist, removing items that do not apply.
 See also https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md.
-
-NOTE: We strongly discourage using generative AI tools to create new pages,
-as their output is often inaccurate and may not follow our style guidelines. 
-Machine translation tools may be used for reference, but their results must be thoroughly 
-proofread before submission. Any pull request suspected of being generated entirely by 
-AI or machine translation will be closed.
-
 -->
 
 ### Checklist
