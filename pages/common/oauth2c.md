@@ -1,7 +1,7 @@
 # oauth2c
 
 > Interact with OAuth 2.0 authorization servers.
-> More information: <https://github.com/cloudentity/oauth2c>.
+> More information: <https://github.com/cloudentity/oauth2c#usage>.
 
 - Fetch an access token using client credentials:
 
