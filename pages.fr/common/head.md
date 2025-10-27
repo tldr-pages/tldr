@@ -6,4 +6,3 @@
 - Affiche les premières lignes d'un fichier :
 
 `head -n {{nombre}} {{chemin/vers/fichier}}`
-
