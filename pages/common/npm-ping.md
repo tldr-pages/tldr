@@ -7,6 +7,6 @@
 
 `npm ping`
 
-- Ping custom npm registry:
+- Ping custom `npm` registry:
 
 `npm ping --registry {{custom_registry_url}}`
