@@ -1,6 +1,6 @@
 # scb
 
-> This is an alias for `Set-Clipboard`.
+> This command is an alias of `Set-Clipboard`.
 
 - View documentation:
 
