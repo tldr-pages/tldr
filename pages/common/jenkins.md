@@ -1,9 +1,9 @@
-# jenkins cli 
+# jenkins cli
 
-> an open-source automation server that facilitates the automation of software development lifecycle.
+> An open-source automation server that facilitates the automation of software development lifecycle.
 > More information: <https://www.jenkins.io/doc/>.
 
-- Connect to Jenkins CLI:
+- Connect to jenkins CLI:
 
 `java -jar jenkins-cli.jar -s http://{{jenkins-url}} -auth {{username}}:{{api_token}}`
 
@@ -11,14 +11,14 @@
 
 `java -jar jenkins-cli.jar -s http://{{jenkins-url}} help`
 
-- Get Jenkins Version:
+- Get Version:
 
 `java -jar jenkins-cli.jar -s http://{{jenkins-url}} version`
 
-- Restart Jenkins:
+- Restart jenkins:
 
 `java -jar jenkins-cli.jar -s http://{{jenkins-url}} restart`
 
-- Shutdown Jenkins:
+- Shutdown jenkins:
 
 `java -jar jenkins-cli.jar -s http://{{jenkins-url}} shutdown`
