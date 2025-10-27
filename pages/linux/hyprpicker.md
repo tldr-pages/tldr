@@ -8,7 +8,7 @@
 
 `hyprpicker`
 
-- Pick a color and output in a specific format (`hex`, `rgb`, `hsl`, `hsv`, `cmyk`):
+- Pick a color and output in a specific format:
 
 `hyprpicker {{[-f|--format]}} {{hex|rgb|hsl|hsv|cmyk}}`
 
