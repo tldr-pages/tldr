@@ -22,7 +22,7 @@
 
 - Use long options for format and autocopy:
 
-`hyprpicker --format {{rgb}} --autocopy`
+`hyprpicker {{[-f|--format]}} {{rgb}} {{[-a|--autocopy]}}`
 
 - Store the picked color in a shell variable:
 
