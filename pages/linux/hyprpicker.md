@@ -18,7 +18,7 @@
 
 - Disable colored output (print plain text only):
 
-`hyprpicker -n`
+`hyprpicker {{[-n|--no-fancy]}}`
 
 - Use long options for format and autocopy:
 
