@@ -4,7 +4,7 @@
 > Note: This command is unaware of workspaces.
 > More information: <https://docs.npmjs.com/cli/npm-profile>.
 
-- View your npm profile details:
+- View the npm profile details:
 
 `npm profile get`
 
@@ -16,11 +16,11 @@
 
 `npm profile set {{property}} {{value}}`
 
-- Set your public email address:
+- Set the public email address:
 
 `npm profile set email {{email}}`
 
-- Set your public name:
+- Set the public name:
 
 `npm profile set fullname {{name}}`
 
