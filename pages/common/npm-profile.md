@@ -24,7 +24,7 @@
 
 `npm profile set name {{name}}`
 
-- Enable two-factor authentication (2FA):
+- Enable two-factor authentication (2FA) (defaults to `auth-and-writes`):
 
 `npm profile enable-2fa {{auth-only|auth-and-writes}}`
 
