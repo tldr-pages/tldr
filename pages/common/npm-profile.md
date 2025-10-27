@@ -24,6 +24,10 @@
 
 `npm profile set fullname {{name}}`
 
+- Set a new password:
+
+`npm profile set password`
+
 - Enable two-factor authentication (2FA) (defaults to `auth-and-writes`):
 
 `npm profile enable-2fa {{auth-only|auth-and-writes}}`
