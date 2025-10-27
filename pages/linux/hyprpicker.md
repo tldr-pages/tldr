@@ -30,4 +30,4 @@
 
 - Display help:
 
-`hyprpicker -h`
+`hyprpicker {{[-h|--help]}}`
