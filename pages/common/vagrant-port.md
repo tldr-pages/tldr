@@ -4,7 +4,7 @@
 > See also: `vagrant`.
 > More information: <https://developer.hashicorp.com/vagrant/docs/cli/port>.
 
-- List all port mappings:
+- List all port mappings of machine(s) running in the current directory:
 
 `vagrant port`
 
