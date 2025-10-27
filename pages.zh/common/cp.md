@@ -1,6 +1,7 @@
 # cp
 
 > 复制文件和目录。
+> <!-- Hacktoberfest small clarification -->
 > 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
 
 - 将文件复制到另一个位置：
