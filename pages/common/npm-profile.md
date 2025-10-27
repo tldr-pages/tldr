@@ -1,6 +1,6 @@
 # npm profile
 
-> Manage your npm profile and related settings.
+> Manage the npm profile and related settings.
 > Note: This command is unaware of workspaces.
 > More information: <https://docs.npmjs.com/cli/npm-profile>.
 
