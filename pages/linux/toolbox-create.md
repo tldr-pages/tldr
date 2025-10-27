@@ -17,8 +17,8 @@
 
 - Create a `toolbox` container from a custom Fedora image:
 
-`toolbox create {{[-i|--image]}} {{registry.fedoraproject.org/fedora-toolbox:39}}`
+`toolbox create {{[-i|--image]}} {{quay.io/fedora/fedora:42}}`
 
-- Create a `toolbox` container using the default image for Fedora 39:
+- Create a `toolbox` container using the default image for Fedora 42:
 
-`toolbox create {{[-d|--distro]}} {{fedora}} {{[-r|--release]}} {{f39}}`
+`toolbox create {{[-d|--distro]}} {{fedora}} {{[-r|--release]}} {{f42}}`

@@ -11,9 +11,9 @@
 
 `sudo debootstrap --variant=minbase stable {{path/to/debian-root}}/`
 
-- Create an Ubuntu 20.04 system inside the `focal-root` directory with a local mirror:
+- Create an Ubuntu 24.04 system inside the `noble-root` directory with a local mirror:
 
-`sudo debootstrap focal {{path/to/focal-root}}/ {{file:///path/to/mirror/}}`
+`sudo debootstrap noble {{path/to/noble-root}}/ {{file:///path/to/mirror/}}`
 
 - Switch to a bootstrapped system:
 
