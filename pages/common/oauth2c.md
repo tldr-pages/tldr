@@ -33,4 +33,4 @@
 
 - Run in silent mode without browser:
 
-`oauth2c {{issuer_url}} --client-id {{client_id}} --silent --no-browser`
+`oauth2c {{issuer_url}} --client-id {{client_id}} {{[-s|--silent]}} --no-browser`
