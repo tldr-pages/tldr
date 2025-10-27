@@ -1,6 +1,6 @@
 # rni
 
-> `rni` is the alias for `Rename-Item`.
+> This command is an alias of `Rename-Item`.
 
 - View documentation for original command:
 
