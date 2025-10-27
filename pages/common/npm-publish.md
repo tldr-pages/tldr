@@ -33,4 +33,4 @@
 
 - Publish with a one-time password for 2FA-enabled accounts:
 
-`npm publish --otp {{123456}}`
+`npm publish --otp {{one_time_password}}`
