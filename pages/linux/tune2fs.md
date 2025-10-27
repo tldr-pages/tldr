@@ -14,11 +14,11 @@
 
 - Enable discard and user-specified extended attributes for a filesystem:
 
-`sudo tune2fs -o {{discard,user_xattr}} {{/dev/sdXN}}`
+`sudo tune2fs -o discard,user_xattr {{/dev/sdXN}}`
 
 - Enable journaling for a filesystem:
 
-`sudo tune2fs -o ^{{nobarrier}} {{/dev/sdXN}}`
+`sudo tune2fs -o has_journal {{/dev/sdXN}}`
 
 - Assign a new randomly-generated UUID to a filesystem:
 
