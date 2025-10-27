@@ -5,7 +5,7 @@
 
 - Create a new job:
 
-`java -jar jenkins-cli.jar -s http://{{jenkins-url}} create-job {{job_name}} < config.xml`
+`java -jar jenkins-cli.jar -s http://{{jenkins-url}} create-job {{job_name}} < {{path_to_file}}`
 
 - Build a job:
 
@@ -17,4 +17,4 @@
 
 - Get job configurations:
 
-`java -jar jenkins-cli.jar -s http://{{jenkins-url}} get-job {{job_name}} > config.xml`
+`java -jar jenkins-cli.jar -s http://{{jenkins-url}} get-job {{job_name}} > {{path_to_file}}`
