@@ -27,6 +27,6 @@
 
 `aws cloudformation detect-stack-drift --stack-name {{stack-id}} --profile {{profile}}`
 
-- Check the drift status output of a stack using 'StackDriftDetectionId' from the previous command output:
+- Check the drift status output of a stack using `StackDriftDetectionId` from the previous command output:
 
 `aws cloudformation describe-stack-resource-drifts --stack-name {{stack-drift-detection-id}} --profile {{profile}}`

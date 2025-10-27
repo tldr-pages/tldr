@@ -16,9 +16,9 @@
 
 `rdesktop -u {{username}} -p {{password}} -f {{host:port}}`
 
-- Use the customed resolution (use the letter 'x' between the number):
+- Use a custom resolution (use the letter `x` between the numbers):
 
-`rdesktop -u {{username}} -p {{password}} -g 1366x768 {{host:port}}`
+`rdesktop -u {{username}} -p {{password}} -g {{1366}}x{{768}} {{host:port}}`
 
 - Connect to a remote computer using domain user:
 

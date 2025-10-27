@@ -24,6 +24,6 @@
 
 `tail -F {{pad/naar/bestand}}`
 
-- Toon de laatste aantal regels in een bestand en ververs iedere 'n' seconden:
+- Toon de laatste `aantal` regels in een bestand en ververs iedere `seconden` seconden:
 
-`tail -n {{8}} -s {{10}} -f {{pad/naar/bestand}}`
+`tail -n {{aantal}} -s {{seconden}} -f {{pad/naar/bestand}}`

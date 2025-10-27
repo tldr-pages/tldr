@@ -7,7 +7,7 @@
 
 `gatsby new {{site_name}}`
 
-- Create a new site with a Gatsby 'starter':
+- Create a new site with a Gatsby `starter`:
 
 `gatsby new {{site_name}} {{url_of_starter_github_repo}}`
 

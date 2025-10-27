@@ -18,7 +18,7 @@
 
 - Schaal een afbeelding zodat deze een gespecificeerde bestandsgrootte heeft:
 
-`magick convert {{pad/naar/invoer_afbeelding.png}} -define jpeg:extent=512kb {{pad/naar/uitvoer_afbeelding.jpg}}`
+`magick convert {{pad/naar/invoer_afbeelding.png}} -define jpeg:extent={{512kb}} {{pad/naar/uitvoer_afbeelding.jpg}}`
 
 - Verticaal/horizontaal toevoegen van afbeeldingen en maak de lege ruimte transparant:
 
