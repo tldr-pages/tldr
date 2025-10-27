@@ -11,7 +11,7 @@
 
 `java -jar jenkins-cli.jar -s http://{{jenkins-url}} create-view {{view_name}}`
 
-- Delele a view:
+- Delete a view:
 
 `java -jar jenkins-cli.jar -s http://{{jenkins-url}} delete-view {{view_name}}`
 
