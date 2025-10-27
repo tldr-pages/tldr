@@ -31,6 +31,6 @@
 
 `npm pkg fix`
 
-- Get or set values across all workspaces:
+- Get multiple values across all workspaces:
 
-`npm {{pkg}} get {{name}} {{version}} --ws`
+`npm pkg get {{name}} {{version}} --ws`
