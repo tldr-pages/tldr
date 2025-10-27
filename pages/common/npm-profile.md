@@ -34,4 +34,3 @@
 - Set your public name:
 
 `npm {{profile}} {{set}} name <name>`
-
