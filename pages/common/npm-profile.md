@@ -1,36 +1,33 @@
 # npm profile
 
 > Manage your npm profile and related settings.
+> Note: This command is unaware of workspaces.
 > More information: <https://docs.npmjs.com/cli/npm-profile>.
 
 - View your npm profile details:
 
-`npm {{profile}} {{get}}`
+`npm profile get`
 
 - Set or update a profile property:
 
-`npm {{profile}} {{set}} <property> <value>`
+`npm profile set {{property}} {{value}}`
 
 - View a specific property of your profile:
 
-`npm {{profile}} {{get}} <property>`
+`npm profile get {{property}}`
 
-- View the npm profile of another user:
+- Enable two-factor authentication (2FA):
 
-`npm {{profile}} {{get}} <username>`
+`npm profile enable-2fa {{auth-only|auth-and-writes}}`
 
-- Manage two-factor authentication (2FA) for your account:
+- Disable two-factor authentication (2FA):
 
-`npm {{profile}} {{enable-2fa}}`
-
-- Disable two-factor authentication (2FA) for your account:
-
-`npm {{profile}} {{disable-2fa}}`
+`npm profile disable-2fa`
 
 - Set your public email address:
 
-`npm {{profile}} {{set}} email <email>`
+`npm profile set email {{email}}`
 
 - Set your public name:
 
-`npm {{profile}} {{set}} name <name>`
+`npm profile set name {{name}}`
