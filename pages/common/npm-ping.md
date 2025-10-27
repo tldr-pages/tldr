@@ -1,6 +1,6 @@
 # npm-ping
 
-> Ping the configured or given npm registry and verify authentication.
+> Ping the configured or given `npm` registry and verify authentication.
 > More information: <https://docs.npmjs.com/cli/npm-ping>.
 
 - Ping the default npm registry:
