@@ -11,6 +11,10 @@
 
 `npm pkg get {{name}} {{version}}`
 
+- Get multiple values across all workspaces:
+
+`npm pkg get {{name}} {{version}} --ws`
+
 - Get a nested or array property value:
 
 `npm pkg get {{contributors[0].email}}`
@@ -30,7 +34,3 @@
 - Auto-fix common errors in `package.json`:
 
 `npm pkg fix`
-
-- Get multiple values across all workspaces:
-
-`npm pkg get {{name}} {{version}} --ws`
