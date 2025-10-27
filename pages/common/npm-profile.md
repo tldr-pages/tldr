@@ -8,21 +8,13 @@
 
 `npm profile get`
 
-- Set or update a profile property:
-
-`npm profile set {{property}} {{value}}`
-
 - View a specific property of your profile:
 
 `npm profile get {{property}}`
 
-- Enable two-factor authentication (2FA):
+- Set or update a profile property:
 
-`npm profile enable-2fa {{auth-only|auth-and-writes}}`
-
-- Disable two-factor authentication (2FA):
-
-`npm profile disable-2fa`
+`npm profile set {{property}} {{value}}`
 
 - Set your public email address:
 
@@ -31,3 +23,11 @@
 - Set your public name:
 
 `npm profile set name {{name}}`
+
+- Enable two-factor authentication (2FA):
+
+`npm profile enable-2fa {{auth-only|auth-and-writes}}`
+
+- Disable two-factor authentication (2FA):
+
+`npm profile disable-2fa`
