@@ -3,7 +3,7 @@
 > Netcat is een veelzijdig hulpprogramma voor het omleiden van IO naar een netwerkstream.
 > Meer informatie: <https://manned.org/nc>.
 
-- Start een luisteraar op de opgegeven TCP poort en stuur er een bestand in:
+- Start een [l]uisteraar op de opgegeven TCP-[p]oort en stuur er een bestand in:
 
 `nc < {{bestandsnaam}} -l -p {{poort}}`
 
@@ -11,11 +11,11 @@
 
 `nc {{host}} {{poort}} > {{ontvangen_bestandsnaam}}`
 
-- Scan de open TCP poorten van een opgegeven host:
+- Scan de open TCP-poorten van een opgegeven host:
 
-`nc -v -z -w {{timeout_in_seconden}} {{host}} {{start_port}}-{{end_port}}`
+`nc -v -z -w {{timeout_in_seconden}} {{host}} {{start_poort}}-{{eind_poort}}`
 
-- Start een luisteraar op de opgegeven TCP poort en geef uw lokale shell toegang tot de verbonden partij (dit is gevaarlijk en kan worden misbruikt):
+- Start een [l]uisteraar op de opgegeven TCP-[p]oort en geef uw lokale shell toegang tot de verbonden partij (dit is gevaarlijk en kan worden misbruikt):
 
 `nc -l -p {{poort}} -e {{shell_executable}}`
 
@@ -23,9 +23,9 @@
 
 `nc {{host}} {{poort}} -e {{shell_executable}}`
 
-- Fungeer als een proxy en stuur gegevens door van een lokale TCP poort naar de opgegeven externe host:
+- Fungeer als een proxy en stuur gegevens door van een lokale TCP-[p]oort naar de opgegeven externe host:
 
-`nc -l -p {{local_port}} | nc {{host}} {{remote_port}}`
+`nc -l -p {{lokale_poort}} | nc {{host}} {{externe_poort}}`
 
 - Stuur een HTTP GET verzoek:
 
