@@ -22,7 +22,7 @@
 
 - Set your public name:
 
-`npm profile set name {{name}}`
+`npm profile set fullname {{name}}`
 
 - Enable two-factor authentication (2FA) (defaults to `auth-and-writes`):
 
