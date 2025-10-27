@@ -11,9 +11,9 @@
 
 `sudo debootstrap --variant=minbase stable {{path/to/debian-root}}/`
 
-- Create an Ubuntu 24.04 system inside the `noble-root` directory with a local mirror:
+- Create an Debian Unstable system inside the `sid-root` directory with a local mirror:
 
-`sudo debootstrap noble {{path/to/noble-root}}/ {{file:///path/to/mirror/}}`
+`sudo debootstrap sid {{path/to/sid-root}}/ {{file:///path/to/mirror/}}`
 
 - Switch to a bootstrapped system:
 
