@@ -5,24 +5,24 @@
 
 - Open the repository page of the current project (based on `package.json`):
 
-`npm {{repo}}`
+`npm repo`
 
 - Open the repository page of a specific package from the registry:
 
-`npm {{repo}} <package_name>`
+`npm repo {{package_name}}`
 
 - Open repository pages for multiple packages:
 
-`npm {{repo}} <package_name1> <package_name2>`
+`npm repo {{package_name1}} {{package_name2}}`
 
 - Print the repository URL instead of opening it in the browser:
 
-`npm {{repo}} --browser false`
+`npm repo --browser false`
 
 - Open the repository page for a package in a specific browser:
 
-`npm {{repo}} --browser <browser_name>`
+`npm repo --browser {{browser_name}}`
 
 - Open the repository page of a package in a specific workspace:
 
-`npm {{repo}} --workspace <workspace_name>`
+`npm repo --workspace {{workspace_name}}`
