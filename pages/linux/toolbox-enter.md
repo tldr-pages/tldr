@@ -12,6 +12,6 @@
 
 `toolbox enter {{[-r|--release]}} {{release}}`
 
-- Enter a toolbox container using the default image for Fedora 42:
+- Enter a toolbox container using the default image for a specific Fedora release:
 
-`toolbox enter {{[-d|--distro]}} {{fedora}} {{[-r|--release]}} {{f42}}`
+`toolbox enter {{[-d|--distro]}} {{fedora}} {{[-r|--release]}} f{{version}}`
