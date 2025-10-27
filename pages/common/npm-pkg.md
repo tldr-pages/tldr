@@ -1,7 +1,7 @@
 # npm pkg
 
 > Show or modify `package.json` properties.
-> More information: <https://docs.npmjs.com/cli/v9/commands/npm-pkg>.
+> More information: <https://docs.npmjs.com/cli/commands/npm-pkg>.
 
 - Get the value of a specific property:
 
