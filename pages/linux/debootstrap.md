@@ -11,7 +11,7 @@
 
 `sudo debootstrap --variant=minbase stable {{path/to/debian-root}}/`
 
-- Create an Debian Unstable system inside the `sid-root` directory with a local mirror:
+- Create a Debian Unstable system inside the `sid-root` directory with a local mirror:
 
 `sudo debootstrap sid {{path/to/sid-root}}/ {{file:///path/to/mirror/}}`
 
