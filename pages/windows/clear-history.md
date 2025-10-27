@@ -1,7 +1,7 @@
 # Clear-History
 
 > A powershell command to clear the entries in the current session.
-> Note: `clhy` can both be used as an alias for `Clear-History`.
+> Note: `clhy` can be used as an alias for `Clear-History`.
 > More information: <https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/clear-history>.
 
 - Clear all command history:
