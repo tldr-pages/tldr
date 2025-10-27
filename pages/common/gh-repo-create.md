@@ -1,7 +1,7 @@
 # gh repo create
 
 > Create a new GitHub repository.
-> Note: `--public`, `--private`, or `--internal` required when not running interactively.
+> Note: `--public`, `--private`, or `--internal` is required when not running interactively.
 > More information: <https://cli.github.com/manual/gh_repo_create>.
 
 - Create a new repository interactively:
