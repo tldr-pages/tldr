@@ -10,7 +10,7 @@
 
 - Pick a color and output in a specific format (`hex`, `rgb`, `hsl`, `hsv`, `cmyk`):
 
-`hyprpicker -f {{hex|rgb|hsl|hsv|cmyk}}`
+`hyprpicker {{[-f|--format]}} {{hex|rgb|hsl|hsv|cmyk}}`
 
 - Copy the picked color to the clipboard:
 
