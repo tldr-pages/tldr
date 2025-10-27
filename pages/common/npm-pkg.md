@@ -17,11 +17,11 @@
 
 - Set a property to a specific value:
 
-`npm {{pkg}} set {{version=1.2.3}}`
+`npm {{pkg}} set {{property}}={{value}}`
 
 - Set multiple properties at once:
 
-`npm {{pkg}} set {{description='Awesome package'}} {{engines.node='>=10'}}`
+`npm {{pkg}} set {{property1}}={{value1}} {{property2}}={{value2}}`
 
 - Delete a property from `package.json`:
 
