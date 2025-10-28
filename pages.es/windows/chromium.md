@@ -6,7 +6,7 @@
 
 - Abre una URL o archivo específico:
 
-`chromium {{https://example.com|ruta/al/archivo.html}}`
+`chromium {{https://example.com|ruta\al\archivo.html}}`
 
 - Abre en modo incógnito (usa `--inprivate` para Microsoft Edge):
 
@@ -26,11 +26,11 @@
 
 - Abre con un directorio de perfil personalizado:
 
-`chromium --user-data-dir {{ruta/al/directorio}}`
+`chromium --user-data-dir {{ruta\al\directorio}}`
 
 - Abre sin validación CORS (útil para probar una API):
 
-`chromium --user-data-dir {{ruta/al/directorio}} --disable-web-security`
+`chromium --user-data-dir {{ruta\al\directorio}} --disable-web-security`
 
 - Abre con una ventana de Desarrolador para cada pestaña abierta:
 

@@ -7,7 +7,7 @@
 
 - Buka suatu URL atau berkas:
 
-`msedge {{https://example.com|jalan/menuju/berkas.html}}`
+`msedge {{https://example.com|jalan\menuju\berkas.html}}`
 
 - Buka dalam mode peramban privat (InPrivate):
 
@@ -27,11 +27,11 @@
 
 - Buka dengan direktori profil pengguna tertentu:
 
-`msedge --user-data-dir={{jalan/menuju/direktori}}`
+`msedge --user-data-dir={{jalan\menuju\direktori}}`
 
 - Buka dengan menonaktifkan validasi CORS (berguna untuk menguji akses suatu API):
 
-`msedge --user-data-dir={{jalan/menuju/direktori}} --disable-web-security`
+`msedge --user-data-dir={{jalan\menuju\direktori}} --disable-web-security`
 
 - Selalu buka jendela alat DevTools (pembantu pengembang web) setiap kali membuka tab baru:
 

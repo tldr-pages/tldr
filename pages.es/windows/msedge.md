@@ -7,31 +7,31 @@
 
 - Abrir una URL o archivo específico:
 
-`msedge {{https://ejemplo.com|ruta/al/archivo.html}}`
+`msedge {{https://example.com|ruta\al\archivo.html}}`
 
 - Abrir en modo InPrivate:
 
-`msedge --inprivate {{ejemplo.com}}`
+`msedge --inprivate {{example.com}}`
 
 - Abrir en una nueva ventana:
 
-`msedge --new-window {{ejemplo.com}}`
+`msedge --new-window {{example.com}}`
 
 - Abrir en modo aplicación (sin barras de herramientas, barra de URL, botones, etc.):
 
-`msedge --app {{https://ejemplo.com}}`
+`msedge --app {{https://example.com}}`
 
 - Usar un servidor proxy:
 
-`msedge --proxy-server "{{socks5://hostname:66}}" {{ejemplo.com}}`
+`msedge --proxy-server "{{socks5://hostname:66}}" {{example.com}}`
 
 - Abrir con un directorio de perfil personalizado:
 
-`msedge --user-data-dir {{ruta/al/directorio}}`
+`msedge --user-data-dir {{ruta\al\directorio}}`
 
 - Abrir sin validación CORS (útil para probar una API):
 
-`msedge --user-data-dir {{ruta/al/directorio}} --disable-web-security`
+`msedge --user-data-dir {{ruta\al\directorio}} --disable-web-security`
 
 - Abrir con una ventana de DevTools para cada pestaña abierta:
 
