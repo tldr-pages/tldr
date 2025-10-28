@@ -7,18 +7,22 @@
 
 `alacritty`
 
-- Jalankan Alacritty pada direktori tertentu:
+- Jalankan Alacritty sebagai peladen daemon (tanpa membuat jendela baru):
+
+`alacritty --daemon`
+
+- Buat jendela baru pada proses Alacritty yang sedang berjalan:
+
+`alacritty msg create-window`
+
+- Jalankan Alacritty pada direktori tertentu (dapat juga bekerja dalam `alacritty msg create-window`):
 
 `alacritty --working-directory {{jalan/menuju/direktori}}`
 
-- Jalankan perintah di jendela Alacritty baru:
+- Jalankan perintah di jendela Alacritty baru (dapat juga bekerja dalam `alacritty msg create-window`):
 
 `alacritty -e {{perintah}}`
 
 - Gunakan berkas konfigurasi alternatif untuk memuat program (nilai default `$XDG_CONFIG_HOME/alacritty/alacritty.toml`):
 
 `alacritty --config-file {{jalan/menuju/konfigurasi.toml}}`
-
-- Jalankan dan aktifkan fitur muat ulang konfigurasi secara langsung/otomatis (dapat juga diaktifkan secara default di `alacritty.toml`):
-
-`alacritty --live-config-reload --config-file {{jalan/menuju/konfigurasi.toml}}`
