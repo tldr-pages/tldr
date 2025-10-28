@@ -13,7 +13,7 @@
 
 - 각 일치하는 전후 및 전후 3줄의 컨텍스트를 출력:
 
-`bzgrep --{{context|before-context|after-context}}={{3}} "{{검색_패턴}}" {{경로/대상/파일}}`
+`bzgrep --{{context|before-context|after-context}} {{3}} "{{검색_패턴}}" {{경로/대상/파일}}`
 
 - 각 일치 항목의 파일 이름과 줄 번호를 출력:
 
