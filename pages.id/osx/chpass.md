@@ -5,9 +5,9 @@
 > Lihat juga: `passwd`.
 > Informasi lebih lanjut: <https://man.freebsd.org/cgi/man.cgi?chpass>.
 
-- Tentukan syel masuk secara spsifik untuk pengguna saat ini secara interaktif:
+- Tentukan syel masuk secara spesifik untuk pengguna saat ini secara interaktif:
 
-`chpass`
+`su -c chpass`
 
 - Tentukan [s]yel masuk secara spesifik untuk pengguna saat ini:
 
