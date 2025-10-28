@@ -1,7 +1,7 @@
 # ARK: Survival Evolved
 
 > Create and start a headless ARK: Survival Evolved server.
-> More information: <https://ark.wiki.gg/wiki/Server_configuration>. 
+> More information: <https://ark.wiki.gg/wiki/Server_configuration>.
 
 - Start the server with a specific map (this is a required argument):
 
