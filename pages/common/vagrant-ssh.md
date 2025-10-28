@@ -16,6 +16,6 @@
 
 `vagrant ssh {{[-c|--command]}} {{ssh_command}}`
 
-- SSH without authentication:
+- SSH without authentication, leaving authentication up to the user:
 
 `vagrant ssh {{[-p|--plain]}}`
