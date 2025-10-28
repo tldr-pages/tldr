@@ -7,7 +7,7 @@
 
 `screenfetch`
 
-- Take a screenshot (requires 'scrot'):
+- Take a screenshot (requires `scrot`):
 
 `screenfetch -s`
 

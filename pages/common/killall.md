@@ -8,7 +8,7 @@
 
 `killall {{process_name}}`
 
-- List available signal names (to be used without the 'SIG' prefix):
+- List available signal names (to be used without the `SIG` prefix):
 
 `killall {{[-l|--list]}}`
 

@@ -17,6 +17,10 @@
 
 `magick {{pad/naar/invoer_afbeelding.png}} -resize {{50}}% {{pad/naar/uitvoer_afbeelding.png}}`
 
+- Schaal een afbeelding naar een bepaalde bestandsgrootte:
+
+`magick {{pad/naar/invoer_afbeelding.png}} -define jpeg:extent={{512kb}} {{pad/naar/uitvoer_afbeelding.png}}`
+
 - Maak een GIF van alle JPEG-afbeeldingen uit de huidige map:
 
 `magick {{*.jpg}} {{pad/naar/uitvoer_afbeelding.gif}}`

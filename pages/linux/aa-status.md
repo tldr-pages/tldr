@@ -8,6 +8,14 @@
 
 `sudo aa-status`
 
+- Display status in JSON format:
+
+`sudo aa-status --json`
+
+- Display status in pretty JSON format:
+
+`sudo aa-status --pretty-json`
+
 - Display the number of loaded policies:
 
 `sudo aa-status --profiled`

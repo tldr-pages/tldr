@@ -120,14 +120,6 @@ You are also welcome to join us on the [matrix chatroom](https://matrix.to/#/#tl
 
 ## Similar projects
 
-- [Command Line Interface Pages](https://github.com/command-line-interface-pages)
-  allows you to write standardized help pages for CLI, directories, and configs.
-
-- [Cheat](https://github.com/cheat/cheat)
-  allows you to create and view interactive cheatsheets on the command-line.
-  It was designed to help remind Unix system administrators of options
-  for commands that they use frequently, but not frequently enough to remember.
-
 - [cheat.sh](https://cheat.sh/)
   Aggregates cheat sheets from multiple sources (including tldr-pages)
   into 1 unified interface.
@@ -149,6 +141,14 @@ You are also welcome to join us on the [matrix chatroom](https://matrix.to/#/#tl
 - [navi](https://github.com/denisidoro/navi)
   is an interactive cheatsheet tool, which allows you to browse through
   specific examples or complete commands on the fly.
+
+- [Cheat](https://github.com/cheat/cheat)
+  allows you to create and view interactive cheatsheets on the command-line.
+  It was designed to help remind Unix system administrators of options
+  for commands that they use frequently, but not frequently enough to remember.
+
+- [Command Line Interface Pages](https://github.com/command-line-interface-pages)
+  allows you to write standardized help pages for CLI, directories, and configs.
 
 - [bropages (deprecated)](http://bropages.org)
   are a highly readable supplement to man pages.

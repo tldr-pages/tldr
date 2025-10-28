@@ -29,7 +29,7 @@
 
 `compgen -k`
 
-- See all available commands/aliases starting with 'ls':
+- See all available commands/aliases starting with `ls`:
 
 `compgen -ac {{ls}}`
 
