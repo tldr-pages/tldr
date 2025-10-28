@@ -11,7 +11,7 @@
 
 `xterm -fullscreen`
 
-- Ouvrir une fenêtre de terminal avec un fond d'écran bleu sombre (_darkblue_) et une couleur de police jaune (_yellow_):
+- Ouvre une fenêtre de terminal avec un fond d'écran bleu sombre (`darkblue`) et une couleur de police jaune (`yellow`) :
  
 `xterm -bg {{darkblue}} -fg {{yellow}}`
 
