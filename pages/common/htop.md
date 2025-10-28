@@ -29,7 +29,7 @@
 
 `htop --readonly`
 
-- See interactive commands while running htop:
+- See interactive commands while running `htop`:
 
 `{{<F1>|<?>}}`
 
