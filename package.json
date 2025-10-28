@@ -14,6 +14,7 @@
     "husky": "^9.1.7"
   },
   "scripts": {
+    "tool:tldr-lint": "tldr-lint",
     "lint-markdown": "markdownlint pages*/**/*.md",
     "lint-tldr-pages": "tldr-lint ./pages",
     "test": "bash scripts/test.sh",

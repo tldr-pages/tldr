@@ -217,17 +217,19 @@ Of course, this shouldn't sacrifice content clarity, such as when documenting to
 
 Once you have written a `tldr` page, you can test its syntax locally using [`tldr-lint`](https://github.com/tldr-pages/tldr-lint).
 
-The latest version of [NodeJS](https://nodejs.org) is required to install `tldr-lint` with the following command:
+You can install it by running this command in the tldr repository folder:
 
 ```sh
-npm install --global tldr-lint
+npm install tldr-lint
 ```
 
 Once it is installed, you can test your page by running the following command:
 
 ```sh
-tldr-lint {{path/to/page.md}}
+npm run tool:tldr-lint {{path/to/page.md}}
 ```
+
+
 
 Now, you are ready to submit a pull request!
 
