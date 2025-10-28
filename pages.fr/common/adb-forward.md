@@ -15,6 +15,6 @@
 
 `adb forward --remove tcp:{{port_local}}`
 
-- Supprime tout les règles de direction :
+- Supprime tout les règles de redirection :
 
 `adb forward --remove-all`
