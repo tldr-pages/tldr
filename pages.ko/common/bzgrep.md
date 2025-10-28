@@ -29,4 +29,4 @@
 
 - 패턴과 일치하지 않는 줄을 `stdin`으로 검색:
 
-`cat {{/path/to/bz/compressed/file}} | bzgrep --invert-match "{{검색_패턴}}"`
+`cat {{/path/to/bz_compressed_file}} | bzgrep --invert-match "{{검색_패턴}}"`
