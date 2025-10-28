@@ -15,7 +15,7 @@
 
 `adb shell pm list permission-groups`
 
-- Affiche toutes les permissions connus :
+- Affiche toutes les permissions connues :
 
 `adb shell pm list permissions`
 
