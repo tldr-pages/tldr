@@ -3,7 +3,7 @@
 > Emulateur de terminal pour le système de fenêtrage _X Window System_.
 > Plus d'informations: <https://manned.org/xterm>.
 
-- Ouvrir une nouvelle fenêtre de terminal ayant pour titre `Exemple` : 
+- Ouvre une nouvelle fenêtre de terminal ayant pour titre `Exemple` : 
 
 `xterm -T {{Exemple}}`
 
