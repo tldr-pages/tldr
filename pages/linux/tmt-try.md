@@ -13,7 +13,7 @@
 
 - Use a specific operating system:
 
-`tmt try {{fedora-41}}`
+`tmt try {{rhel-9}}`
 
 - Select both custom image and provision method:
 
