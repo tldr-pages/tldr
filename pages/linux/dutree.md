@@ -1,7 +1,7 @@
 # dutree
 
 > A tool that uses colorful text-based trees to analyze file system usage.
-> More information: <https://github.com/nachoparker/dutree/blob/master/README.md>
+> More information: <https://github.com/nachoparker/dutree/blob/master/README.md>.
 
 - Show a graphical tree of the current directory:
 
