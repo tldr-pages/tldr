@@ -29,4 +29,4 @@
 
 - உதவியைக்  காட்டு:
 
-`protontricks --help`
+`protontricks {{[-h|--help]}}`
