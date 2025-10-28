@@ -32,8 +32,8 @@ To get started, please [sign](https://cla-assistant.io/tldr-pages/tldr) the
 > When submitting a new command, please base your PR against the `main` branch and check if there's already a pull request in progress for it.
 
 > [!WARNING]
-> We strongly discourage using generative AI tools to create new pages,
-as their output is often inaccurate and may not follow our style guidelines. For translations, machine translation tools may be used as reference, but their results must be thoroughly proofread before submission.
+> We strongly discourage using generative AI tools to create new pages, as their output is often inaccurate and may not follow our style guidelines.
+> For translations, machine translation tools may be used as reference, but their results must be thoroughly proofread before submission.
 > Pull requests suspected of being made in whole or in part through generative AI or machine translation software without human-review will be closed.
 
 ## Guidelines
