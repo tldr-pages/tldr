@@ -15,7 +15,7 @@
  
 `xterm -bg {{darkblue}} -fg {{yellow}}`
 
-- Ouvrir une fenêtre de terminal de 100 charactères de large (par ligne) et 35 lignes de hauteur, positionnée sur l'écran au point x=200px, y=20px:
+- Ouvre une fenêtre de terminal de 100 charactères de large (par ligne) et 35 lignes de hauteur, positionnée sur l'écran au point x=200px, y=20px :
  
 `xterm -geometry {{100}}x{{35}}+{{200}}+{{20}}`
 
