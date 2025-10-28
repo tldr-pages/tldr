@@ -9,7 +9,7 @@
 
 - Show a specific directory:
 
-`dutree {{path/to/dir}}`
+`dutree {{path/to/directory}}`
 
 - Aggregate items smaller than a number of KB (or M for MB, or G for GB):
 
