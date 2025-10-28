@@ -7,7 +7,7 @@
 
 - Open a specific URL or file:
 
-`msedge {{https://example.com|path/to/file.html}}`
+`msedge {{https://example.com|path\to\file.html}}`
 
 - Open in InPrivate mode:
 
@@ -27,11 +27,11 @@
 
 - Open with a custom profile directory:
 
-`msedge --user-data-dir {{path/to/directory}}`
+`msedge --user-data-dir {{path\to\directory}}`
 
 - Open without CORS validation (useful to test an API):
 
-`msedge --user-data-dir {{path/to/directory}} --disable-web-security`
+`msedge --user-data-dir {{path\to\directory}} --disable-web-security`
 
 - Open with a DevTools window for each tab opened:
 
