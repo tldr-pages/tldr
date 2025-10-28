@@ -1,16 +1,16 @@
 # explorer
 
-> Windows File Explorer: penjelajah file pada Windows.
+> Windows Explorer: Penjelajah berkas pada Windows.
 > Informasi lebih lanjut: <https://ss64.com/nt/explorer.html>.
 
-- Membuka Windows Explorer:
+- Buka Windows Explorer:
 
 `explorer`
 
-- Membuka Windows Explorer di direktori saat ini:
+- Buka Windows Explorer dalam direktori saat ini:
 
 `explorer .`
 
-- Membuka Windows Explorer di direktori tertentu:
+- Buka Windows Explorer dalam suatu direktori tertentu:
 
-`explorer {{jalan/menuju/direktori}}`
+`explorer {{jalan\menuju\direktori}}`
