@@ -1,6 +1,6 @@
 # module
 
-> Modify a users' environment using the module command.
+> Modify a users' environment.
 > More information: <https://lmod.readthedocs.io/en/latest/010_user.html>.
 
 - Display available modules:
@@ -30,3 +30,7 @@
 - Specify user-created modules:
 
 `module use {{path/to/module_file1 path/to/module_file2 ...}}`
+
+- Save the current set of loaded modules:
+
+`module save {{collection_name}}`
