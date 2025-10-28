@@ -3,9 +3,9 @@
 > Work with GitHub repositories.
 > More information: <https://cli.github.com/manual/gh_repo>.
 
-- Create a new repository (if the repository name is not set, the default name will be the name of the current directory):
+- Create a new repository interactively:
 
-`gh repo {{[new|create]}} {{name}}`
+`gh repo {{[new|create]}}`
 
 - Clone a repository:
 
