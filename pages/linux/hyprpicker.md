@@ -20,10 +20,6 @@
 
 `hyprpicker {{[-n|--no-fancy]}}`
 
-- Use long options for format and autocopy:
-
-`hyprpicker {{[-f|--format]}} {{rgb}} {{[-a|--autocopy]}}`
-
 - Store the picked color in a shell variable:
 
 `{{color}}=$(hyprpicker {{[-f|--format]}} {{hex}})`
