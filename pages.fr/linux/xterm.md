@@ -19,6 +19,6 @@
  
 `xterm -geometry {{100}}x{{35}}+{{200}}+{{20}}`
 
-- Ouvrir une fenétre de teminal en utilisant la police `Serif` en taille 20:
+- Ouvre une fenêtre de teminal en utilisant la police `Serif` en taille 20 :
 
 `xterm -fa {{'Serif'}} -fs {{20}}`
