@@ -23,7 +23,7 @@
 
 `adb shell pm list packages -s`
 
-- Liste seulement les paquets tierces (pas système) :
+- Liste seulement les paquets tiers (hors système) :
 
 `adb shell pm list packages -3`
 
