@@ -32,6 +32,6 @@
 
 `chromium --user-data-dir {{ruta\al\directorio}} --disable-web-security`
 
-- Abre con una ventana de Desarrolador para cada pestaña abierta:
+- Abre con una ventana de DevTools para cada pestaña abierta:
 
 `chromium --auto-open-devtools-for-tabs`
