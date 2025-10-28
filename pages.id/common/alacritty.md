@@ -21,7 +21,7 @@
 
 - Jalankan perintah di jendela Alacritty baru (dapat juga bekerja dalam `alacritty msg create-window`):
 
-`alacritty -e {{perintah}}`
+`alacritty {{[-e|--command]}} {{perintah}}`
 
 - Gunakan berkas konfigurasi alternatif untuk memuat program (nilai default `$XDG_CONFIG_HOME/alacritty/alacritty.toml`):
 
