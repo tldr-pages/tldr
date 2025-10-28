@@ -7,7 +7,7 @@
 
 `xterm -T {{Exemple}}`
 
-- Ouvrir une nouvelle fenêtre de terminal en mode plein écran:
+- Ouvre une nouvelle fenêtre de terminal en mode plein écran :
 
 `xterm -fullscreen`
 
