@@ -1,7 +1,7 @@
 # xterm
 
 > Emulateur de terminal pour le système de fenêtrage X Window System.
-> Plus d'informations: <https://manned.org/xterm>.
+> Plus d'informations : <https://manned.org/xterm>.
 
 - Ouvre une nouvelle fenêtre de terminal ayant pour titre `Exemple` : 
 
