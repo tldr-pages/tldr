@@ -1,0 +1,29 @@
+# rabbitmq-diagnostics
+
+> Diagnose, monitor, and run health checks on RabbitMQ nodes.
+> Many subcommands are delegated to `rabbitmqctl`.
+> More information: <https://www.rabbitmq.com/docs/man/rabbitmq-diagnostics.8.html>.
+
+- List resource alarms:
+
+`rabbitmq-diagnostics alarms`
+
+- List node certificates:
+
+`rabbitmq-diagnostics certificates`
+
+- Check if RabbitMQ is running on the target node:
+
+`rabbitmq-diagnostics check_running`
+
+- Run peer discovery:
+
+`rabbitmq-diagnostics discover_peers`
+
+- List listeners (bound sockets):
+
+`rabbitmq-diagnostics listeners`
+
+- Print the last N log lines on the target node:
+
+`rabbitmq-diagnostics log_tail --number {{N}}`
