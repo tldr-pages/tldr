@@ -9,7 +9,7 @@
 
 - Specificeer een editor om mee te openen:
 
-`fc -e {{'emacs'}}`
+`fc -e '{{emacs}}'`
 
 - Toon recente commando's uit de geschiedenis:
 
