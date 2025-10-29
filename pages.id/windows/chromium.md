@@ -6,7 +6,7 @@
 
 - Buka suatu URL atau berkas:
 
-`chromium {{https://example.com|jalan/menuju/berkas.html}}`
+`chromium {{https://example.com|jalan\menuju\berkas.html}}`
 
 - Buka dalam mode peramban privat (incognito) (gunakan `--inprivate` untuk Microsoft Edge):
 
@@ -18,19 +18,19 @@
 
 - Buka dalam mode aplikasi web (tanpa bilah toolbar, URL bar, tombol navigasi, dsb.):
 
-`chromium --app={{https://example.com}}`
+`chromium --app {{https://example.com}}`
 
 - Hubungkan peramban dengan suatu peladen proksi:
 
-`chromium --proxy-server="{{socks5://hostname:66}}" {{example.com}}`
+`chromium --proxy-server "{{socks5://hostname:66}}" {{example.com}}`
 
 - Buka dengan direktori profil pengguna tertentu:
 
-`chromium --user-data-dir={{jalan/menuju/direktori}}`
+`chromium --user-data-dir {{jalan\menuju\direktori}}`
 
 - Buka dengan menonaktifkan validasi CORS (berguna untuk menguji akses suatu API):
 
-`chromium --user-data-dir={{jalan/menuju/direktori}} --disable-web-security`
+`chromium --user-data-dir {{jalan\menuju\direktori}} --disable-web-security`
 
 - Selalu buka jendela alat DevTools (pembantu pengembang web) setiap kali membuka tab baru:
 

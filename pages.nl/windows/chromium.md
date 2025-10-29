@@ -6,7 +6,7 @@
 
 - Open een specifieke URL of bestand:
 
-`chromium {{https://example.com|path/naar/bestand.html}}`
+`chromium {{https://example.com|path\naar\bestand.html}}`
 
 - Open in incognito modus (gebruik `--inprivate` voor Microsoft Edge):
 
@@ -26,11 +26,11 @@
 
 - Open met een aangepaste profiel map:
 
-`chromium --user-data-dir {{pad/naar/map}}`
+`chromium --user-data-dir {{pad\naar\map}}`
 
 - Open zonder CORS validatie (handig om een API te testen):
 
-`chromium --user-data-dir {{pad/naar/map}} --disable-web-security`
+`chromium --user-data-dir {{pad\naar\map}} --disable-web-security`
 
 - Open met een DevTools venster voor elk geopend tabblad:
 
