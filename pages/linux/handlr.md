@@ -17,7 +17,7 @@
 
 - Set MPV as the default application for all audio files:
 
-`handlr set {{'audio/*'}} {{mpv.desktop}}`
+`handlr set '{{audio/*}}' {{mpv.desktop}}`
 
 - List all default apps:
 

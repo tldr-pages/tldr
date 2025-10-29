@@ -4,7 +4,15 @@
 > See also: `head`.
 > More information: <https://www.gnu.org/software/coreutils/manual/html_node/tail-invocation.html>.
 
-- Show last 'count' lines in file:
+- Show last 10 lines in a file:
+
+`tail {{path/to/file}}`
+
+- Show last 10 lines of multiple files:
+
+`tail {{path/to/file1 path/to/file2 ...}}`
+
+- Show last `count` lines in file:
 
 `tail {{[-n|--lines]}} {{count}} {{path/to/file}}`
 
@@ -24,6 +32,6 @@
 
 `tail {{[-F|--retry --follow]}} {{path/to/file}}`
 
-- Show last 'count' lines in 'file' and refresh every 'seconds' seconds:
+- Show last `count` lines in a file and refresh every `seconds` seconds:
 
 `tail {{[-n|--lines]}} {{count}} {{[-s|--sleep-interval]}} {{seconds}} {{[-f|--follow]}} {{path/to/file}}`

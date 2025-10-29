@@ -17,7 +17,7 @@
 
 - Search for resources in Pulumi Cloud using Pulumi AI with a plaintext natural language query:
 
-`pulumi org search ai {{[-q|--query]}} {{"show me all load balancers in my organization"}}`
+`pulumi org search ai {{[-q|--query]}} "{{show me all load balancers in my organization}}"`
 
 - Display help:
 

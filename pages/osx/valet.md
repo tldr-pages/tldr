@@ -1,6 +1,6 @@
 # valet
 
-> A Laravel development environment that allows hosting sites via local tunnels on `http://<example>.test`.
+> A Laravel development environment that allows hosting sites via local tunnels on `http://example.test`.
 > More information: <https://laravel.com/docs/valet>.
 
 - Start the valet daemon:
@@ -11,7 +11,7 @@
 
 `valet park`
 
-- View 'parked' paths:
+- View "parked" paths:
 
 `valet paths`
 

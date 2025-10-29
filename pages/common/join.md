@@ -9,7 +9,7 @@
 
 - Join two files using a comma (instead of a space) as the field separator:
 
-`join -t {{','}} {{path/to/file1}} {{path/to/file2}}`
+`join -t ',' {{path/to/file1}} {{path/to/file2}}`
 
 - Join field3 of file1 with field1 of file2:
 

@@ -4,9 +4,9 @@
 > See also: `head`.
 > More information: <https://keith.github.io/xcode-man-pages/tail.1.html>.
 
-- Show last 'count' lines in file:
+- Show last 8 lines in file:
 
-`tail -n {{8}} {{path/to/file}}`
+`tail -n 8 {{path/to/file}}`
 
 - Print a file from a specific line number:
 
@@ -24,6 +24,6 @@
 
 `tail -F {{path/to/file}}`
 
-- Show last 'count' lines in 'file' and refresh every 'seconds' seconds:
+- Show last `count` lines in a file and refresh every `seconds` seconds:
 
-`tail -n {{8}} -s {{10}} -f {{path/to/file}}`
+`tail -n {{count}} -s {{seconds}} -f {{path/to/file}}`
