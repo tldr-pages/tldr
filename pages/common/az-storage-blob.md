@@ -6,7 +6,7 @@
 
 - Download a blob to a file path specifying a source container:
 
-`az storage blob download --account-name {{storage_account_name}} --account-key {{storage_account_key}} {{[-c|--container-name]}} {{container_name}} {{[-n|--name]}} {{blob_name}} {{[-f|--file]}} {{path/to/local_file}}`
+`az storage blob download --account-name {{storage_account_name}} --account-key {{storage_account_key}} {{[-c|--container-name]}} {{container_name}} {{[-n|--name]}} {{blob_name}} {{[-f|--file]}} {{path/to/file}}`
 
 - Download blobs from a blob container recursively:
 
@@ -14,7 +14,7 @@
 
 - Upload a local file to blob storage:
 
-`az storage blob upload --account-name {{storage_account_name}} --account-key {{storage_account_key}} {{[-c|--container-name]}} {{container_name}} {{[-n|--name]}} {{blob_name}} {{[-f|--file]}} {{path/to/local_file}}`
+`az storage blob upload --account-name {{storage_account_name}} --account-key {{storage_account_key}} {{[-c|--container-name]}} {{container_name}} {{[-n|--name]}} {{blob_name}} {{[-f|--file]}} {{path/to/file}}`
 
 - Delete a blob object:
 

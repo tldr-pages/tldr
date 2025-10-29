@@ -6,7 +6,7 @@
 
 - Descarga un blob a una ruta de acceso de archivo especificando un contenedor de origen:
 
-`az storage blob download --account-name {{nombre_cuenta_almacenamiento}} --account-key {{llave_cuenta_almacenamiento}} {{[-c|--container-name]}} {{nombre_contenedor}} {{[-n|--name]}} {{nombre_blob}} {{[-f|--file]}} {{ruta/al/archivo_local}}`
+`az storage blob download --account-name {{nombre_cuenta_almacenamiento}} --account-key {{llave_cuenta_almacenamiento}} {{[-c|--container-name]}} {{nombre_contenedor}} {{[-n|--name]}} {{nombre_blob}} {{[-f|--file]}} {{ruta/al/archivo}}`
 
 - Descargue blobs desde un contenedor de blobs recursivamente:
 
@@ -14,7 +14,7 @@
 
 - Upload a local file to blob storage:
 
-`az storage blob upload --account-name {{nombre_cuenta_almacenamiento}} --account-key {{llave_cuenta_almacenamiento}} {{[-c|--container-name]}} {{nombre_contenedor}} {{[-n|--name]}} {{nombre_blob}} {{[-f|--file]}} {{ruta/al/archivo_local}}`
+`az storage blob upload --account-name {{nombre_cuenta_almacenamiento}} --account-key {{llave_cuenta_almacenamiento}} {{[-c|--container-name]}} {{nombre_contenedor}} {{[-n|--name]}} {{nombre_blob}} {{[-f|--file]}} {{ruta/al/archivo}}`
 
 - Delete a blob object:
 
