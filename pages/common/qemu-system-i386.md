@@ -9,7 +9,7 @@
 
 - Boot a QEMU instance from a live ISO image:
 
-`qemu-system-i386 -hda {{image_name.img}} -cdrom {{os_image.iso}} -boot d -m {{4096}}`
+`qemu-system-i386 -hda {{image_name.img}} -m {{4096}} -cdrom {{os_image.iso}} -boot d`
 
 - Boot from a physical device (e.g. from USB to test a bootable medium):
 
