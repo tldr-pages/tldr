@@ -6,7 +6,7 @@
 
 - Download a blob to a file path specifying a source container:
 
-`az storage blob download --account-name {{storage_account_name}} --account-key {{storage_account_key}} {{[-c|--container-name]}} {{container_name}} {{[-n|--name]}} {{path/to/blob}} {{[-f|--file]}} {{path/to/local_file}}`
+`az storage blob download --account-name {{storage_account_name}} --account-key {{storage_account_key}} {{[-c|--container-name]}} {{container_name}} {{[-n|--name]}} {{blob_name}} {{[-f|--file]}} {{path/to/local_file}}`
 
 - Download blobs from a blob container recursively:
 
@@ -14,12 +14,12 @@
 
 - Upload a local file to blob storage:
 
-`az storage blob upload --account-name {{storage_account_name}} --account-key {{storage_account_key}} {{[-c|--container-name]}} {{container_name}} {{[-n|--name]}} {{path/to/blob}} {{[-f|--file]}} {{path/to/local_file}}`
+`az storage blob upload --account-name {{storage_account_name}} --account-key {{storage_account_key}} {{[-c|--container-name]}} {{container_name}} {{[-n|--name]}} {{blob_name}} {{[-f|--file]}} {{path/to/local_file}}`
 
 - Delete a blob object:
 
-`az storage blob delete --account-name {{storage_account_name}} --account-key {{storage_account_key}} {{[-c|--container-name]}} {{container_name}} {{[-n|--name]}} {{path/to/blob}}`
+`az storage blob delete --account-name {{storage_account_name}} --account-key {{storage_account_key}} {{[-c|--container-name]}} {{container_name}} {{[-n|--name]}} {{blob_name}}`
 
 - Generate a shared access signature for a blob:
 
-`az storage blob generate-sas --account-name {{storage_account_name}} --account-key {{storage_account_key}} {{[-c|--container-name]}} {{container_name}} {{[-n|--name]}} {{path/to/blob}} --permissions {{permission_set}} --expiry {{Y-m-d'T'H:M'Z'}} --https-only`
+`az storage blob generate-sas --account-name {{storage_account_name}} --account-key {{storage_account_key}} {{[-c|--container-name]}} {{container_name}} {{[-n|--name]}} {{blob_name}} --permissions {{permission_set}} --expiry {{Y-m-d'T'H:M'Z'}} --https-only`
