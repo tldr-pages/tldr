@@ -18,11 +18,11 @@
 
 - Download a package and add it to the list of dev dependencies in `package.json`:
 
-`pnpm add {{[-D|--save-dev]}} {{module_name}}`
+`pnpm add {{module_name}} {{[-D|--save-dev]}}`
 
 - Download a package and install it globally:
 
-`pnpm add {{[-g|--global]}} {{module_name}}`
+`pnpm add {{module_name}} {{[-g|--global]}}`
 
 - Uninstall a package and remove it from the list of dependencies in `package.json`:
 
