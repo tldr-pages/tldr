@@ -8,30 +8,30 @@
 
 `sudo fdisk {{[-l|--list]}}`
 
-- Start the partition manipulator:
+- Start the partition manipulator (interactive mode):
 
 `sudo fdisk {{/dev/sdX}}`
 
-- Create a [n]ew partition:
+- Open a help [m]enu (in interactive mode):
 
-`<n>`
+`<m>`
 
-- Select a partition to [d]elete:
-
-`<d>`
-
-- View the [p]artition table:
+- View the [p]artition table (in interactive mode):
 
 `<p>`
 
-- [w]rite the changes made:
+- Create a [n]ew partition (in interactive mode):
+
+`<n>`
+
+- Select a partition to [d]elete (in interactive mode):
+
+`<d>`
+
+- [w]rite the changes made (in interactive mode):
 
 `<w>`
 
-- Discard the changes made and [q]uit:
+- Discard the changes made and [q]uit (in interactive mode):
 
 `<q>`
-
-- Open a help [m]enu:
-
-`<m>`
