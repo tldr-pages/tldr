@@ -1,6 +1,6 @@
 # conda update
 
-> Update packages within a Conda environment, including Conda itself.
+> Update packages within a conda environment, including conda itself.
 > More information: <https://docs.conda.io/projects/conda/en/latest/commands/update.html>.
 
 - Update all packages in the current environment:
@@ -11,7 +11,7 @@
 
 `conda update {{package_name}}`
 
-- Update Conda itself in the base environment:
+- Update conda itself in the base environment:
 
 `conda update {{[-n|--name]}} base conda`
 
