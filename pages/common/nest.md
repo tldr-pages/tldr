@@ -22,3 +22,7 @@
 - Import a library into the current NestJS project:
 
 `nest add {{library_name}}`
+
+- Generate a new module:
+
+`nest {{[g|generate]}} {{[mo|module]}} {{module_name}}`
