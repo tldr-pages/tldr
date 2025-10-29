@@ -5,7 +5,7 @@
 
 - Run command as new root directory:
 
-`sudo chroot {{path/to/new/root}} {{command}}`
+`sudo chroot {{path/to/new_root}} {{command}}`
 
 - Use a specific user and group:
 

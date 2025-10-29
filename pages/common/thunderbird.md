@@ -13,4 +13,4 @@
 
 - Use a specific user profile directory:
 
-`thunderbird --profile {{path/to/profile/directory}}`
+`thunderbird --profile {{path/to/profile_directory}}`

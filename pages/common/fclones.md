@@ -9,7 +9,7 @@
 
 - Search multiple directories for duplicate files and cache the results:
 
-`fclones group --cache {{path/to/directory1 path/to/directory2}}`
+`fclones group --cache {{path/to/directory1 path/to/directory2 ...}}`
 
 - Search only the specified directory for duplicate files, skipping subdirectories and save the results into a file:
 
