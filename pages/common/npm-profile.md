@@ -8,7 +8,7 @@
 
 `npm profile get`
 
-- View a specific property of your profile:
+- View a specific property of the profile:
 
 `npm profile get {{property}}`
 
@@ -24,7 +24,7 @@
 
 `npm profile set fullname {{name}}`
 
-- Set a new password:
+- Set a new password interactively:
 
 `npm profile set password`
 
