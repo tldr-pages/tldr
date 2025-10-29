@@ -31,6 +31,6 @@
 
 `{{path/to/ShooterGameServer}} {{TheIsland}} -automanagedmods`
 
-- Enable crossplay between Steam and EGS:
+- Enable crossplay between Steam and Epic Games Store:
 
 `{{path/to/ShooterGameServer}} {{TheIsland}} -crossplay -PublicIPForEpic={{ip_address}}`
