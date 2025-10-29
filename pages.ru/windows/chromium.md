@@ -6,7 +6,7 @@
 
 - Открыть указанный URL-адрес или файл:
 
-`chromium {{https://example.com|путь/к/файлу.html}}`
+`chromium {{https://example.com|путь\к\файлу.html}}`
 
 - Открыть в режиме инкогнито (используйте `--inprivate` для Microsoft Edge):
 
@@ -26,11 +26,11 @@
 
 - Открыть с пользовательским каталогом профиля:
 
-`chromium --user-data-dir {{путь/к/каталогу}}`
+`chromium --user-data-dir {{путь\к\каталогу}}`
 
 - Открыть без проверки CORS (полезно для тестирования API):
 
-`chromium --user-data-dir {{путь/к/каталогу}} --disable-web-security`
+`chromium --user-data-dir {{путь\к\каталогу}} --disable-web-security`
 
 - Открыть с окном DevTools для каждой новой вкладки:
 

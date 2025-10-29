@@ -18,7 +18,7 @@
 
 - Specify a user database entry in the `passwd` file format:
 
-`su -c 'chpass -a {{username:encrypted_password:uid:gid:...}} -s {{path/to/file}}' {{username}}`
+`su -c 'chpass -a {{username:encrypted_password:uid:gid:...}} -s {{path/to/shell}}' {{username}}`
 
 - Only update the [l]ocal password file:
 
