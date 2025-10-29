@@ -10,7 +10,7 @@
 
 - Download all the packages listed as dependencies in `package.json`:
 
-`pnpm install`
+`pnpm {{[i|install]}}`
 
 - Download a specific version of a package and add it to the list of dependencies in `package.json`:
 
@@ -26,12 +26,12 @@
 
 - Uninstall a package and remove it from the list of dependencies in `package.json`:
 
-`pnpm remove {{module_name}}`
+`pnpm {{[rm|remove]}} {{module_name}}`
 
 - Print a tree of locally installed modules:
 
-`pnpm list`
+`pnpm {{[ls|list]}}`
 
 - List top-level globally installed modules:
 
-`pnpm list {{[-g|--global]}} --depth {{0}}`
+`pnpm {{[ls|list]}} {{[-g|--global]}} --depth {{0}}`
