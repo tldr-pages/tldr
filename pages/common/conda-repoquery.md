@@ -1,16 +1,29 @@
-# conda repoquery
+# conda-repoquery
 
-> Advanced search for packages in a conda repository.
-> More information: <https://docs.conda.io/projects/conda/en/latest/commands/repoquery/index.html>.
+> Query package information and relationships within a conda repository.
+> Useful for exploring dependencies, versions, and reverse dependencies of packages.
+> More information: <https://docs.conda.io/projects/conda/en/latest/commands/repoquery.html>.
 
-- Show available versions of the specified package:
+- Search for a specific package across all available repositories:
 
-`conda repoquery search {{package}}`
+`conda repoquery search {{package_name}}`
 
-- Show dependencies of the specified package:
+- Show all available versions of a package (including build numbers):
 
-`conda repoquery depends {{package}}`
+`conda repoquery search {{package_name}} --info`
 
-- Show packages that depend on the specified package:
+- Show all dependencies required by a specific package:
 
-`conda repoquery whoneeds {{package}}`
+`conda repoquery depends {{package_name}}`
+
+- Show which packages depend on a specific package (reverse dependencies):
+
+`conda repoquery whoneeds {{package_name}}`
+
+- List all packages available in the current environment’s repositories:
+
+`conda repoquery list`
+
+- Show package details in JSON format (for use in scripts or automation):
+
+`conda repoquery search {{package_name}} --json`
