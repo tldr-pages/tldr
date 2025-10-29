@@ -27,6 +27,6 @@
 
 `java -jar jenkins-cli.jar -s http://{{jenkins-url}} copy-job {{source_job}} {{distination_job}}`
 
-- Reanme a job:
+- Rename a job:
 
 `java -jar jenkins-cli.jar -s http://{{jenkins-url}} rename-job {{old_job_name}} {{new_job_name}}`
