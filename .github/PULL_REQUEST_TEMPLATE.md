@@ -14,3 +14,5 @@ See also https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md.
 - [ ] The PR is authored by me, or has been human-reviewed if it was created with AI or machine translation software.
 - [ ] The PR title conforms to the recommended [templates](/tldr-pages/tldr/blob/main/CONTRIBUTING.md#commit-message-and-pr-title).
 - **Version of the command being documented (if known):**
+
+Reference issue: #
