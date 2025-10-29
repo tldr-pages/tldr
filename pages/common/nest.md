@@ -23,6 +23,6 @@
 
 `nest add {{library_name}}`
 
-- Generate a new module:
+- Generate a new component:
 
-`nest {{[g|generate]}} {{[mo|module]}} {{module_name}}`
+`nest {{[g|generate]}} {{module|controller|service|...}} {{module_name}}`
