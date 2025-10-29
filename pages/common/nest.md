@@ -26,3 +26,7 @@
 - Generate a new component:
 
 `nest {{[g|generate]}} {{module|controller|service|...}} {{module_name}}`
+
+- Display help:
+
+`nest`
