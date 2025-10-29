@@ -8,18 +8,18 @@
 
 `az storage blob download --account-name {{nombre_cuenta_almacenamiento}} --account-key {{llave_cuenta_almacenamiento}} {{[-c|--container-name]}} {{nombre_contenedor}} {{[-n|--name]}} {{nombre_blob}} {{[-f|--file]}} {{ruta/al/archivo}}`
 
-- Descargue blobs desde un contenedor de blobs recursivamente:
+- Descarga blobs desde un contenedor de blobs recursivamente:
 
 `az storage blob download-batch --account-name {{nombre_cuenta_almacenamiento}} --account-key {{llave_cuenta_almacenamiento}} {{[-s|--source]}} {{nombre_contenedor}} --pattern {{filename_regex}} {{[-d|--destination]}} {{ruta/al/destino}}`
 
-- Upload a local file to blob storage:
+- Sube un archivo local al almacenamiento de blobs:
 
 `az storage blob upload --account-name {{nombre_cuenta_almacenamiento}} --account-key {{llave_cuenta_almacenamiento}} {{[-c|--container-name]}} {{nombre_contenedor}} {{[-n|--name]}} {{nombre_blob}} {{[-f|--file]}} {{ruta/al/archivo}}`
 
-- Delete a blob object:
+- Elimina un objeto blob:
 
 `az storage blob delete --account-name {{nombre_cuenta_almacenamiento}} --account-key {{llave_cuenta_almacenamiento}} {{[-c|--container-name]}} {{nombre_contenedor}} {{[-n|--name]}} {{nombre_blob}}`
 
-- Generate a shared access signature for a blob:
+- Genera una firma de acceso compartido para un blob:
 
 `az storage blob generate-sas --account-name {{nombre_cuenta_almacenamiento}} --account-key {{llave_cuenta_almacenamiento}} {{[-c|--container-name]}} {{nombre_contenedor}} {{[-n|--name]}} {{nombre_blob}} --permissions {{grupo_permisos}} --expiry {{Y-m-d'T'H:M'Z'}} --https-only`
