@@ -3,7 +3,7 @@
 > Windows Package Manager.
 > More information: <https://learn.microsoft.com/windows/package-manager/winget>.
 
-- Install a package:
+- Install a package (use `--source` when package is available from multiple sources):
 
 `winget {{[add|install]}} {{package}}`
 
