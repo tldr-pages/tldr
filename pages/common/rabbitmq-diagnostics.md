@@ -24,6 +24,6 @@
 
 `rabbitmq-diagnostics listeners`
 
-- Print the last N log lines on the target node:
+- Print the last `n` log lines on the target node:
 
-`rabbitmq-diagnostics log_tail --number {{N}}`
+`rabbitmq-diagnostics log_tail --number {{n}}`
