@@ -13,7 +13,7 @@
 
 - Get multiple values across all workspaces:
 
-`npm pkg get {{name}} {{version}} --ws`
+`npm pkg get {{name}} {{version}} {{[--ws|--workspaces]}}`
 
 - Get a nested or array property value:
 
