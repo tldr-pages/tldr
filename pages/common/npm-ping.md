@@ -1,4 +1,4 @@
-# npm-ping
+# npm ping
 
 > Ping `npm` registry.
 > More information: <https://docs.npmjs.com/cli/npm-ping>.
