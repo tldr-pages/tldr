@@ -6,7 +6,7 @@
 
 - Add a helper Dynamic Link Library (DLL):
 
-`netsh add helper {{C:\\Path\\to\\file.dll}}`
+`netsh add helper {{C:\Path\to\file.dll}}`
 
 - Show all loaded helper DLLs:
 
@@ -14,11 +14,11 @@
 
 - Delete a helper DLL:
 
-`netsh delete helper {{C:\\Path\\to\\file.dll}}`
+`netsh delete helper {{C:\Path\to\file.dll}}`
 
 - Export your network configuration settings to a file:
 
-`netsh dump > {{C:\\NetConfig\\netsh_config.txt}}`
+`netsh dump > {{C:\NetConfig\netsh_config.txt}}`
 
 - Show available network interfaces for tracing:
 
