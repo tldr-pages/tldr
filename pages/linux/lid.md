@@ -1,11 +1,29 @@
 # lid
 
-> `lid` can refer to multiple commands with the same name.
+> Search for patterns in an ID database created by `mkid`.
+> Part of GNU IDUtils.
+> More information: <https://www.gnu.org/software/idutils/manual/html_node/lid-invocation.html>.
 
-- View documentation for the `libuser` tool:
+- Search for a token in the ID database:
 
-`tldr lid.libuser`
+`lid {{token}}`
 
-- View documentation for the `idutils` tool:
+- Search for files containing a specific regular expression:
 
-`tldr lid.idutils`
+`lid -r '{{regex_pattern}}'`
+
+- Match tokens exactly (case-sensitive):
+
+`lid -e {{token}}`
+
+- Limit the number of results displayed:
+
+`lid -l {{number}} {{token}}`
+
+- Display database information (without searching):
+
+`lid --statistics`
+
+- Show version information:
+
+`lid --version`
