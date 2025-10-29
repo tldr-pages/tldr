@@ -6,7 +6,7 @@
 
 - Download and install a package, specified by its import path:
 
-`go get {{package_path}}`
+`go get {{path/to/package}}`
 
 - Compile and run a source file (it has to contain a `main` package):
 
