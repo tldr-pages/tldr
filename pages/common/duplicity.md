@@ -7,7 +7,7 @@
 
 - Backup a directory via FTPS to a remote machine, encrypting it with a password:
 
-`FTP_PASSWORD={{ftp_login_password}} PASSPHRASE={{encryption_password}} duplicity {{path/to/source_directory}} {{ftps://user@hostname/path/to/target_directory/}}`
+`FTP_PASSWORD={{ftp_login_password}} PASSPHRASE={{encryption_password}} duplicity {{path/to/source_directory}} {{ftps://user@hostname/path/to/target_directory}}/`
 
 - Backup a directory to Amazon S3, doing a full backup every month:
 
