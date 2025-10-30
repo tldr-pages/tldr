@@ -6,7 +6,7 @@
 
 - Install all dependencies listed in `package.json`:
 
-`bun install`
+`bun {{[i|install]}}`
 
 - Install only production dependencies (skips `devDependencies`):
 
