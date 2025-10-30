@@ -5,11 +5,11 @@
 
 - Display information about installed nest version:
 
-`nest info`
+`nest {{[i|info]}}`
 
 - Create a new NestJS project in a directory of the same name:
 
-`nest new {{project_name}}`
+`nest {{[n|new]}} {{project_name}}`
 
 - Build a specific NestJS project:
 
@@ -22,3 +22,11 @@
 - Import a library into the current NestJS project:
 
 `nest add {{library_name}}`
+
+- Generate a new component:
+
+`nest {{[g|generate]}} {{module|controller|service|...}} {{component_name}}`
+
+- Display help:
+
+`nest`
