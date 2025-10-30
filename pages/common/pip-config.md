@@ -29,4 +29,4 @@
 
 - Edit the configuration file with a specific editor:
 
-`pip config edit {{--global|--user|--site}} --editor {{path/to/editor/binary}}`
+`pip config edit {{--global|--user|--site}} --editor {{path/to/editor_binary}}`

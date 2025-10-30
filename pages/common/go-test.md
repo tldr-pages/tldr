@@ -21,7 +21,7 @@
 
 - Test the package in the current directory and run all benchmarks for 50 seconds:
 
-`go test -v -bench . -benchtime {{50s}}`
+`go test -v -bench . -benchtime 50s`
 
 - Test the package with coverage analysis:
 
