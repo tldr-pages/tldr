@@ -13,7 +13,7 @@
 
 - Install dependencies exactly from the `bun.lockb` lockfile (frozen lockfile):
 
-`bun install --frozen-lockfile`
+`bun {{[i|install]}} --frozen-lockfile`
 
 - Force re-download all packages from the registry, ignoring the cache:
 
