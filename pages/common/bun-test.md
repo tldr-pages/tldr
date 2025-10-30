@@ -2,7 +2,7 @@
 
 > Run tests using Bun's built-in test runner.
 > It is a fast, Jest-compatible test runner that looks for `*.test.ts` (and similar) files.
-> More information: <https://bun.com/docs/cli/test>
+> More information: <https://bun.com/docs/cli/test>.
 
 - Run all test files found in the project:
 

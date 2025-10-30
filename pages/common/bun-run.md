@@ -1,7 +1,7 @@
 # bun run
 
 > Execute a JavaScript/TypeScript file, or a script from `package.json`.
-> More information: <https://bun.com/docs/cli/run>
+> More information: <https://bun.com/docs/cli/run>.
 
 - Run a script defined in `package.json`:
 

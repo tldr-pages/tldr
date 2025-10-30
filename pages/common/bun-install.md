@@ -2,7 +2,7 @@
 
 > Installs dependencies for a project from `package.json`.
 > It is the built-in package manager for the Bun JavaScript toolkit.
-> More information: <https://bun.com/docs/cli/install>
+> More information: <https://bun.com/docs/cli/install>.
 
 - Install all dependencies listed in `package.json`:
 
