@@ -9,16 +9,16 @@
 
 - List Available Commands:
 
-`java -jar jenkins-cli.jar -s http://{{jenkins-url}} help`
+`java -jar jenkins-cli.jar -s {{jenkins_server_url}} help`
 
 - Get Version:
 
-`java -jar jenkins-cli.jar -s http://{{jenkins-url}} version`
+`java -jar jenkins-cli.jar -s {{jenkins_server_url}} version`
 
 - Restart jenkins:
 
-`java -jar jenkins-cli.jar -s http://{{jenkins-url}} restart`
+`java -jar jenkins-cli.jar -s {{jenkins_server_url}} restart`
 
 - Shutdown jenkins:
 
-`java -jar jenkins-cli.jar -s http://{{jenkins-url}} shutdown`
+`java -jar jenkins-cli.jar -s {{jenkins_server_url}} shutdown`
