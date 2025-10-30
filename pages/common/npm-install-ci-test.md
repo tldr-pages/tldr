@@ -10,4 +10,4 @@
 
 - Display detailed logs during installation and testing:
 
-`npm install-ci-test --verbose`
+`npm {{[cit|install-ci-test]}} --verbose`
