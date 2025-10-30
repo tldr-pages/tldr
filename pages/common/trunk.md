@@ -9,7 +9,7 @@
 
 - Build for production at root or subdirectory:
 
-`trunk build --release --dist {{path/to/distribution}} --public-url /{{path/to/app/subdirectory}}`
+`trunk build --release --dist {{path/to/distribution}} --public-url /{{path/to/app_subdirectory}}`
 
 - List all available tools in the repo and if they are enabled:
 

@@ -25,8 +25,8 @@
 
 - Recursively search files in a bzip2 compressed tar archive for a pattern:
 
-`bzgrep {{[-r|--recursive]}} "{{search_pattern}}" {{path/to/tar/file}}`
+`bzgrep {{[-r|--recursive]}} "{{search_pattern}}" {{path/to/tar_file}}`
 
 - Search `stdin` for lines that do not match a pattern:
 
-`cat {{path/to/bz/compressed/file}} | bzgrep {{[-v|--invert-match]}} "{{search_pattern}}"`
+`cat {{path/to/bz_compressed_file}} | bzgrep {{[-v|--invert-match]}} "{{search_pattern}}"`

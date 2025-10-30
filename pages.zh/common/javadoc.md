@@ -5,7 +5,7 @@
 
 - 生成 Java 源代码的文档并将结果保存在文件夹中：
 
-`javadoc -d {{path/to/directory/}} {{path/to/java_source_code}}`
+`javadoc -d {{path/to/directory}}/ {{path/to/java_source_code}}`
 
 - 生成指定编码的文档：
 

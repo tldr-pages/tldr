@@ -14,11 +14,11 @@
 
 - Optimize all SVG files within a directory (overwrites the original files):
 
-`svgo {{[-f|--folder]}} {{path/to/directory/with/svg/files}}`
+`svgo {{[-f|--folder]}} {{path/to/directory_with_svg_files}}`
 
 - Optimize all SVG files within a directory and save the resulting files to another directory:
 
-`svgo {{[-f|--folder]}} {{path/to/input/directory}} {{[-o|--output]}} {{path/to/output/directory}}`
+`svgo {{[-f|--folder]}} {{path/to/input_directory}} {{[-o|--output]}} {{path/to/output_directory}}`
 
 - Optimize SVG content passed from another command, and save the result to a file:
 

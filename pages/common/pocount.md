@@ -5,7 +5,7 @@
 
 - Print a colorful table with the translation progress of a file:
 
-`pocount {{path/to/file/file.po}}`
+`pocount {{path/to/file.po}}`
 
 - Print translation progress of various files, one line per file:
 
