@@ -17,7 +17,7 @@
 
 - Force re-download all packages from the registry, ignoring the cache:
 
-`bun install --force`
+`bun {{[i|install]}} {{[-f|--force]}}`
 
 - Install a single package (this is an alias for `bun add`):
 
