@@ -17,4 +17,4 @@
 
 - Show the version:
 
-`cython --version`
+`cython {{[-V|--version]}}`
