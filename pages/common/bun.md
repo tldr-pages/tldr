@@ -4,6 +4,10 @@
 > Includes a bundler, a test runner, and a package manager.
 > More information: <https://bun.com/docs>.
 
+- Create a new Bun project in the current directory:
+
+`bun init`
+
 - Run a JavaScript file or a `package.json` script:
 
 `bun run {{path/to/file|script_name}}`
@@ -23,10 +27,6 @@
 - Remove a dependency from `package.json`:
 
 `bun {{[rm|remove]}} {{module_name}}`
-
-- Create a new Bun project in the current directory:
-
-`bun init`
 
 - Start a REPL (interactive shell):
 
