@@ -14,7 +14,7 @@
 
 - Create a new test with a template and a link:
 
-`tmt test create --template {{beakerlib}} --link {{verifies:issue#1234}}`
+`tmt test create {{[-t|--template]}} {{beakerlib}} --link {{verifies:issue#1234}}`
 
 - List available tests, plans, or stories:
 
@@ -22,7 +22,7 @@
 
 - Show detailed test metadata in the given context:
 
-`tmt --context {{arch=aarch64}} test show`
+`tmt {{[-c|--context]}} {{arch=aarch64}} test show`
 
 - Validate tmt files against the specification:
 
@@ -30,7 +30,7 @@
 
 - Use filter:
 
-`tmt tests ls --filter {{tag:foo}} --filter {{tier:0}}`
+`tmt tests ls {{[-f|--filter]}} {{tag:foo}} {{[-f|--filter]}} {{tier:0}}`
 
 - Display help:
 
