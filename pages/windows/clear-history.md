@@ -4,7 +4,7 @@
 > Note: `clhy` can be used as an alias for `Clear-History`.
 > More information: <https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/clear-history>.
 
-- Clear all command history:
+- Clear all command history from current session:
 
 `Clear-History`
 
