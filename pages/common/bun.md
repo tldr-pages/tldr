@@ -14,15 +14,15 @@
 
 - Download and install all the packages listed as dependencies in `package.json`:
 
-`bun install`
+`bun {{[i|install]}}`
 
 - Add a dependency to `package.json`:
 
-`bun add {{module_name}}`
+`bun {{[a|add]}} {{module_name}}`
 
 - Remove a dependency from `package.json`:
 
-`bun remove {{module_name}}`
+`bun {{[rm|remove]}} {{module_name}}`
 
 - Create a new Bun project in the current directory:
 
