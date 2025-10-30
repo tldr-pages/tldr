@@ -9,7 +9,7 @@
 
 - Install only production dependencies (skips `devDependencies`):
 
-`bun install --production`
+`bun {{[i|install]}} --production`
 
 - Install dependencies exactly from the `bun.lockb` lockfile (frozen lockfile):
 
