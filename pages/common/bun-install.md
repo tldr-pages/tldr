@@ -21,4 +21,4 @@
 
 - Install a single package (this is an alias for `bun add`):
 
-`bun install {{package_name}}`
+`bun {{[i|install]}} {{package_name}}@{{version}}`
