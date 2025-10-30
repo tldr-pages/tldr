@@ -7,6 +7,15 @@
 
 `bun {{[i|install]}}`
 
+- Install a single package (this is an alias for `bun add`):
+
+`bun {{[i|install]}} {{package_name}}@{{version}}`
+
+- Install a package globally:
+
+`bun {{[i|install]}} {{[-g|--global]}} {{package_name}}`
+
+
 - Install only production dependencies (skips `devDependencies`):
 
 `bun {{[i|install]}} --production`
@@ -18,7 +27,3 @@
 - Force re-download all packages from the registry, ignoring the cache:
 
 `bun {{[i|install]}} {{[-f|--force]}}`
-
-- Install a single package (this is an alias for `bun add`):
-
-`bun {{[i|install]}} {{package_name}}@{{version}}`
