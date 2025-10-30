@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr bun-install`
+`tldr bun install`
