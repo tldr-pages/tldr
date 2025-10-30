@@ -2,7 +2,7 @@
 
 > Test Management Tool for creating, running, and debugging tests.
 > Some subcommands such as `run`, `try`, etc. have their own usage documentation.
-> More information: <https://tmt.readthedocs.io>.
+> More information: <https://tmt.readthedocs.io/en/stable/examples.html>.
 
 - List available tests, plans, and stories:
 
