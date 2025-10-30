@@ -5,20 +5,20 @@
 
 - List all plugins:
 
-`java -jar jenkins-cli.jar -s http://{{jenkins-url}} list-plugins`
+`java -jar jenkins-cli.jar -s {{jenkins_server_url}} list-plugins`
 
 - Install a plugin:
 
-`java -jar jenkins-cli.jar -s http://{{jenkins-url}} install-plugin {{plugin_name}}`
+`java -jar jenkins-cli.jar -s {{jenkins_server_url}} install-plugin {{plugin_name}}`
 
 - Update a plugin:
 
-`java -jar jenkins-cli.jar -s http://{{jenkins-url}} install-plugin {{plugin_name}} --deploy`
+`java -jar jenkins-cli.jar -s {{jenkins_server_url}} install-plugin {{plugin_name}} --deploy`
 
 - Update all plugin:
 
-`java -jar jenkins-cli.jar -s http://{{jenkins-url}} install-plugin all`
+`java -jar jenkins-cli.jar -s {{jenkins_server_url}} install-plugin all`
 
 - Uninstall a plugin:
 
-`java -jar jenkins-cli.jar -s http://{{jenkins-url}} uninstall-plugin {{plugin_name}}`
+`java -jar jenkins-cli.jar -s {{jenkins_server_url}} uninstall-plugin {{plugin_name}}`
