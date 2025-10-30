@@ -25,7 +25,7 @@
 
 - Generate a new component:
 
-`nest {{[g|generate]}} {{module|controller|service|...}} {{module_name}}`
+`nest {{[g|generate]}} {{module|controller|service|...}} {{component_name}}`
 
 - Display help:
 
