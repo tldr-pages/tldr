@@ -1,28 +1,37 @@
 # ani-cli
 
 > Program baris perintah (CLI) untuk menelusuri dan menonton film anime.
+> Lihat juga: `animdl`.
 > Informasi lebih lanjut: <https://manned.org/ani-cli>.
 
-- Cari anime dengan nama:
+- Cari konten anime dengan nama:
 
-`ani-cli "{{nama_anime}}"`
+`ani-cli "{{judul_anime}}"`
 
-- Unduh ([d]ownload) suatu episode:
+- Unduh konten suatu episode:
 
-`ani-cli -d "{{nama_anime}}"`
+`ani-cli {{[-d|--download]}} "{{judul_anime}}"`
 
-- Gunakan [v]LC untuk memutar film:
+- Unduh konten suatu rentang episode:
 
-`ani-cli -v "{{nama_anime}}"`
+`ani-cli {{[-d|--download]}} {{[-r|--range]}} "{{1 6}}" "{{judul_anime}}"`
 
-- Tonton satu [e]pisode:
+- Unduh konten suatu seri (rangkaian dari seluruh episode) secara menyeluruh:
 
-`ani-cli -e {{nomor_episode}} "{{nama_anime}}"`
+`ani-cli {{[-d|--download]}} {{[-r|--range]}} "1 -1" "{{judul_anime}}"`
 
-- Lanjut ([c]ontinue) menonton anime dari riwayat:
+- Gunakan VLC untuk memutar film:
 
-`ani-cli -c`
+`ani-cli {{[-v|-vlc]}} "{{judul_anime}}"`
 
-- Mutakhirkan ([U]pdate) program `ani-cli`:
+- Tonton suatu [e]pisode:
 
-`ani-cli -U`
+`ani-cli {{[-e|--episode]}} {{nomor_episode}} "{{judul_anime}}"`
+
+- Lanjut menonton anime dari riwayat:
+
+`ani-cli {{[-c|--continue]}}`
+
+- Mutakhirkan program `ani-cli`:
+
+`ani-cli {{[-U|--update]}}`
