@@ -1,0 +1,25 @@
+# bun install
+
+> Installs dependencies for a project from `package.json`.
+> It is the built-in package manager for the Bun JavaScript toolkit.
+> More information: <https://bun.com/docs/cli/install>
+
+- Install all dependencies listed in `package.json`:
+
+`bun install`
+
+- Install only production dependencies (skips `devDependencies`):
+
+`bun install --production`
+
+- Install dependencies exactly from the `bun.lockb` lockfile (frozen lockfile):
+
+`bun install --frozen-lockfile`
+
+- Force re-download all packages from the registry, ignoring the cache:
+
+`bun install --force`
+
+- Install a single package (this is an alias for `bun add`):
+
+`bun install {{package_name}}`
