@@ -15,7 +15,6 @@
 
 `bun {{[i|install]}} {{[-g|--global]}} {{package_name}}`
 
-
 - Install only production dependencies (skips `devDependencies`):
 
 `bun {{[i|install]}} --production`
