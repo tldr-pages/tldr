@@ -17,7 +17,7 @@
 
 - Show amount of space used by children folders:
 
-`skicka du {{path/to/parent/folder}}`
+`skicka du {{path/to/parent_folder}}`
 
 - Create a folder:
 
