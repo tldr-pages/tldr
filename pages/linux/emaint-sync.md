@@ -1,7 +1,7 @@
 # emaint-sync
 
 > Synchronize Portage repositories.
-> More info: <https://wiki.gentoo.org/wiki/Portage#emaint>.
+> More information: <https://wiki.gentoo.org/wiki/Portage#emaint>.
 
 - Synchronize repositories that are set to auto-sync (default for most repositories):
 
