@@ -1,6 +1,6 @@
 # bun install
 
-> Installs dependencies for a project from `package.json`.
+> Install JavaScript dependencies for a project from `package.json`.
 > More information: <https://bun.com/docs/cli/install>.
 
 - Install all dependencies listed in `package.json`:
