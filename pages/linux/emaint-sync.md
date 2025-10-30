@@ -1,13 +1,16 @@
 # emaint-sync
 
 > Synchronize Portage repositories.
-> More information: <https://wiki.gentoo.org/wiki/Portage#emaint>.
+> More info: <https://wiki.gentoo.org/wiki/Portage#emaint>.
 
-- Synchronize all repositories set to auto-sync:
+- Synchronize repositories that are set to auto-sync (default for most repositories):
+
 `sudo emaint sync --auto`
 
 - Synchronize a specific repository:
-`sudo emaint sync --repo {{repository_name}}`
 
-- Synchronize all repositories and show verbose output:
-`sudo emaint sync --auto --verbose`
+`sudo emaint sync --repo {{repository}}`
+
+- Synchronize all repositories:
+
+`sudo emaint sync --allrepos`
