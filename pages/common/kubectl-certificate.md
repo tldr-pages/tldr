@@ -22,4 +22,3 @@
 - Force reapproval of a certificate signing request that was previously denied:
 
 `kubectl certificate approve --force {{csr_name}}`
-
