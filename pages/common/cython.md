@@ -9,11 +9,11 @@
 
 - Compile into C++ code:
 
-`cython --cplus {{path_to_file}}`
+`cython --cplus {{path/to/file}}`
 
 - Specify an output file:
 
-`cython {{[-o|--output-file]}} {{path_to_output_file}} {{path_to_file}}`
+`cython {{[-o|--output-file]}} {{path/to/output_file}} {{path/to/file}}`
 
 - Display version:
 
