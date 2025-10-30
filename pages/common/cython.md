@@ -5,7 +5,7 @@
 
 - Compile into C code:
 
-`cython {{path_to_file}}`
+`cython {{path/to/file}}`
 
 - Compile into C++ code:
 
