@@ -8,7 +8,7 @@
 
 `sudo fdisk {{[-l|--list]}}`
 
-- Start the partition manipulator:
+- Start the interactive partition manipulator:
 
 `sudo fdisk {{/dev/sdX}}`
 
