@@ -13,7 +13,7 @@
 
 - Specify an output file:
 
-`cython -o {{path_to_output_file}} {{path_to_file}}`
+`cython {{[-o|--output-file]}} {{path_to_output_file}} {{path_to_file}}`
 
 - Show the version:
 
