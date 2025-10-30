@@ -1,37 +1,29 @@
 # bun
 
-> JavaScript runtime and toolkit.
-> Includes a bundler, a test runner, and a package manager.
+> All-in-one JavaScript runtime, bundler, test runner, and npm-compatible package manager.
+> Some subcommands such as `run`, `test`, `install`, `build`, and `create` have their own usage documentation.
 > More information: <https://bun.com/docs>.
 
-- Run a JavaScript file or a `package.json` script:
+- Show help:
 
-`bun run {{path/to/file|script_name}}`
+`bun --help`
 
-- Run unit tests:
+- Show version:
 
-`bun test`
+`bun --version`
 
-- Download and install all the packages listed as dependencies in `package.json`:
+- View documentation for running scripts:
 
-`bun install`
+`tldr bun-run`
 
-- Add a dependency to `package.json`:
+- View documentation for testing:
 
-`bun add {{module_name}}`
+`tldr bun-test`
 
-- Remove a dependency from `package.json`:
+- View documentation for installing and managing dependencies:
 
-`bun remove {{module_name}}`
+`tldr {{bun-install|bun-add|bun-remove|bun-update}}`
 
-- Create a new Bun project in the current directory:
+- View documentation for building or scaffolding projects:
 
-`bun init`
-
-- Start a REPL (interactive shell):
-
-`bun repl`
-
-- Upgrade Bun to the latest version:
-
-`bun upgrade`
+`tldr {{bun-build|bun-create}}`
