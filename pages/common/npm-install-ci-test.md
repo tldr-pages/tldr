@@ -6,7 +6,7 @@
 
 - Install dependencies and run tests:
 
-`npm install-ci-test`
+`npm {{[cit|install-ci-test]}}`
 
 - Display detailed logs during installation and testing:
 
