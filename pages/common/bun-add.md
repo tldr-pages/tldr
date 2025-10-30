@@ -1,6 +1,7 @@
 # bun add
 
 > Modern JavaScript runtime, package manager, bundler, and test runner.
+> Note: `a` can be used as an alias for `add`.
 > More information: <https://bun.com/docs>.
 
 - Install a single package:
