@@ -33,4 +33,4 @@
 
 - Mount a directory into a specific instance:
 
-`multipass mount {{path/to/local/directory}} {{instance_name}}:{{path/to/target/directory}}`
+`multipass mount {{path/to/local_directory}} {{instance_name}}:{{path/to/target_directory}}`

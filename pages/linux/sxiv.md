@@ -17,8 +17,8 @@
 
 - Open one or more images as a slideshow:
 
-`sxiv -S {{seconds}} {{path/to/image1 path/to/image2}}`
+`sxiv -S {{seconds}} {{path/to/image1 path/to/image2 ...}}`
 
 - Open one or more images in thumbnail mode:
 
-`sxiv -t {{path/to/image1 path/to/image2}}`
+`sxiv -t {{path/to/image1 path/to/image2 ...}}`

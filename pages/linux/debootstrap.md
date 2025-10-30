@@ -13,7 +13,7 @@
 
 - Create a Debian Unstable system inside the `sid-root` directory with a local mirror:
 
-`sudo debootstrap sid {{path/to/sid-root}}/ {{file:///path/to/mirror/}}`
+`sudo debootstrap sid {{path/to/sid-root}}/ {{file:///path/to/mirror}}/`
 
 - Switch to a bootstrapped system:
 

@@ -15,7 +15,7 @@
 
 - Start the GUI and import MIDI or Hydrogen file:
 
-`lmms --import {{path/to/midi/or/hydrogen/file}}`
+`lmms --import {{path/to/midi_or_hydrogen_file}}`
 
 - Start the GUI with a specified window size:
 
@@ -23,16 +23,16 @@
 
 - Dump a `.mmpz` file:
 
-`lmms dump {{path/to/mmpz/file.mmpz}}`
+`lmms dump {{path/to/mmpz_file.mmpz}}`
 
 - Render a project file:
 
-`lmms render {{path/to/mmpz_or_mmp/file}}`
+`lmms render {{path/to/mmpz_or_mmp_file}}`
 
 - Render the individual tracks of a project file:
 
-`lmms rendertracks {{path/to/mmpz_or_mmp/file}} {{path/to/dump/directory}}`
+`lmms rendertracks {{path/to/mmpz_or_mmp_file}} {{path/to/dump_directory}}`
 
 - Render with custom samplerate, format, and as a loop:
 
-`lmms render --samplerate {{88200}} --format {{ogg}} --loop --output {{path/to/output/file.ogg}}`
+`lmms render --samplerate {{88200}} --format {{ogg}} --loop --output {{path/to/output_file.ogg}}`

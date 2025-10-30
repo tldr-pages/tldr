@@ -17,7 +17,7 @@
 
 - Recursively synchronize a directory to a destination using 8 concurrent synchronization jobs spread over two remote workers (machine1 and machine2):
 
-`fpsync -v -n 8 -E -w login@machine1 -w login@machine2 -d /{{path/to/shared/directory}} /{{path/to/source}}/ /{{path/to/destination}}/`
+`fpsync -v -n 8 -E -w login@machine1 -w login@machine2 -d /{{path/to/shared_directory}} /{{path/to/source}}/ /{{path/to/destination}}/`
 
 - Recursively synchronize a directory to a destination using 4 local workers, each one transferring at most 1000 files and 100 MB per synchronization job:
 

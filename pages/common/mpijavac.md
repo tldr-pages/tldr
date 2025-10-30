@@ -10,7 +10,7 @@
 
 - Pass application-specific classpaths to compiler:
 
-`mpijavac -cp {{path/to/my/app.jar}} {{path/to/source_file.java}}`
+`mpijavac -cp {{path/to/app.jar}} {{path/to/source_file.java}}`
 
 - Show the flags necessary to build MPI Java applications:
 
