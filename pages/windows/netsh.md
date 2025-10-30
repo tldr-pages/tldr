@@ -18,7 +18,7 @@
 
 - Export your network configuration settings to a file:
 
-`netsh dump > {{C:\NetConfig\netsh_config.txt}}`
+`netsh dump > {{C:\Output\to\output_file.txt}}`
 
 - Show available network interfaces for tracing:
 
