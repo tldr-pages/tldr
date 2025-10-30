@@ -10,7 +10,7 @@
 
 - Descarga blobs desde un contenedor de blobs recursivamente:
 
-`az storage blob download-batch --account-name {{nombre_cuenta_almacenamiento}} --account-key {{llave_cuenta_almacenamiento}} {{[-s|--source]}} {{nombre_contenedor}} --pattern {{filename_regex}} {{[-d|--destination]}} {{ruta/al/destino}}`
+`az storage blob download-batch --account-name {{nombre_cuenta_almacenamiento}} --account-key {{llave_cuenta_almacenamiento}} {{[-s|--source]}} {{nombre_contenedor}} --pattern {{nombre_archivo_regex}} {{[-d|--destination]}} {{ruta/al/destino}}`
 
 - Sube un archivo local al almacenamiento de blobs:
 
