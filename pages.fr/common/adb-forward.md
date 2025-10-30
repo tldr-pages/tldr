@@ -9,7 +9,7 @@
 
 - Redirige un port TCP vers un émulateur ou appareil spécifique (identifié par ID / numéro de [s]érie):
 
-`adb -s {{device_ID}} forward tcp:{{local_port}} tcp:{{remote_port}}`
+`adb -s {{ID_appareil}} forward tcp:{{port_local}} tcp:{{port_distant}}`
 
 - Liste toutes les redirections :
 
