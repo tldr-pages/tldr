@@ -5,7 +5,7 @@
 
 - Connect to jenkins CLI:
 
-`java -jar jenkins-cli.jar -s http://{{jenkins-url}} -auth {{username}}:{{api_token}}`
+`java -jar jenkins-cli.jar -s {{jenkins_server_url}} -auth {{username}}:{{api_token}}`
 
 - List Available Commands:
 
