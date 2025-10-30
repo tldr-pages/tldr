@@ -1,4 +1,4 @@
-# emaint sync
+# emaint-sync
 
 > Synchronize Portage repositories.
 > More information: <https://wiki.gentoo.org/wiki/Portage#emaint>.
