@@ -6,28 +6,28 @@
 
 - Install a single package:
 
-`bun add {{package}}`
+`bun {{[a|add]}} {{package}}`
 
 - Install multiple packages:
 
-`bun add {{package1}} {{package2}}`
+`bun {{[a|add]}} {{package1}} {{package2}}`
 
 - Install from a Git repository:
 
-`bun add {{git_url}}`
+`bun {{[a|add]}} {{git_url}}`
 
 - Install a specific version:
 
-`bun add {{package}}@{{version}}`
+`bun {{[a|add]}} {{package}}@{{version}}`
 
 - Install from local file or directory:
 
-`bun add file:{{path/to/file_or_directory}}`
+`bun {{[a|add]}} file:{{path/to/file_or_directory}}`
 
 - Add a dev dependency:
 
-`bun add {{[-d|--dev]}} {{package}}`
+`bun {{[a|add]}} {{[-d|--dev]}} {{package}}`
 
 - Add a package globally:
 
-`bun add {{[-g|--global]}} {{package}}`
+`bun {{[a|add]}} {{[-g|--global]}} {{package}}`
