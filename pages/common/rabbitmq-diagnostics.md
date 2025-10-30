@@ -12,9 +12,9 @@
 
 `rabbitmq-diagnostics certificates`
 
-- Check if RabbitMQ is running on the target node:
+- Check if RabbitMQ is running on the specified node:
 
-`rabbitmq-diagnostics check_running`
+`rabbitmq-diagnostics check_running --node {{node}}`
 
 - Run peer discovery:
 
@@ -24,6 +24,6 @@
 
 `rabbitmq-diagnostics listeners`
 
-- Print the last `n` log lines on the target node:
+- Print the last `n` log lines on the specified node:
 
-`rabbitmq-diagnostics log_tail --number {{n}}`
+`rabbitmq-diagnostics log_tail --number {{n}} --node {{node}}`
