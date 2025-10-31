@@ -25,8 +25,8 @@
 
 - Duplicate onto multiple parents (creates a merge commit):
 
-`jj duplicate --destination {{dest1}} --destination {{dest2}} {{revset}}`
+`jj duplicate --destination {{destination1}} --destination {{destination2}} {{revset}}`
 
 - Duplicate multiple revisions:
 
-`jj duplicate {{revset1}} {{revset2}} {{...}}`
+`jj duplicate {{revset1 revset2 ...}}`
