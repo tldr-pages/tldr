@@ -1,7 +1,7 @@
 # tv
 
 > Cross-platform, fast, extensible fuzzy-finder tool.
-> Works with “channels” (e.g., files, env, git repos) or from `stdin`.
+> Works with "channels" (e.g., files, env, git repos) or from `stdin`.
 > More information: <https://alexpasmantier.github.io/television/>.
 
 - Launch with the default channel:

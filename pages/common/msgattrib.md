@@ -1,7 +1,7 @@
 # msgattrib
 
 > Filter and manipulate message attributes in `.po` translation files.
-> More information: <https://www.gnu.org/software/gettext/manual/html_node/msgattrib-Invocation.html>.
+> More information: <https://www.gnu.org/software/gettext/manual/gettext.html#msgattrib-Invocation>.
 
 - Keep only translated messages:
 
