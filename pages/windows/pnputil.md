@@ -2,7 +2,7 @@
 
 > Manage the driver store and driver packages on Windows.
 > Requires an elevated Command Prompt.
-> More information: <https://learn.microsoft.com/en-us/windows-hardware/drivers/devtest/pnputil-command-syntax>.
+> More information: <https://learn.microsoft.com/windows-hardware/drivers/devtest/pnputil-command-syntax>.
 
 - List all installed driver packages:
 
