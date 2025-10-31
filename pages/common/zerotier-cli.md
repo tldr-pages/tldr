@@ -1,6 +1,7 @@
 # zerotier-cli
 
 > Manage a local ZeroTier node and its network memberships.
+> Most of these commands require `sudo`.
 > More information: <https://docs.zerotier.com/cli/>.
 
 - Show node status:

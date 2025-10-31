@@ -1,7 +1,7 @@
 # zerotier-idtool
 
 > Manage ZeroTier identities (public/private keys, addresses).
-> More information: <https://man.archlinux.org/man/zerotier-idtool.1.en>.
+> More information: <https://github.com/zerotier/ZeroTierOne/blob/dev/doc/zerotier-idtool.1.md>.
 
 - Generate a new identity pair and write to two files:
 

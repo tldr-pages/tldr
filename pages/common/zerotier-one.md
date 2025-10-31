@@ -1,7 +1,8 @@
 # zerotier-one
 
 > ZeroTier service daemon.
-> More information: <https://docs.zerotier.com/>.
+> Most of these commands require `sudo`.
+> More information: <https://github.com/zerotier/ZeroTierOne/blob/dev/doc/zerotier-one.8.md>.
 
 - Start the daemon in the foreground:
 
