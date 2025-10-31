@@ -1,16 +1,16 @@
 # nb
 
-> Command-line note-taking, bookmarking, and archiving tool.
+> Note-taking, bookmarking, and archiving tool.
 > Supports encryption, tagging, wiki-style links, Git syncing, Pandoc conversion, and more.
-> More information: <https://github.com/xwmx/nb>.
+> More information: <https://github.com/xwmx/nb#-help>.
 
 - Create a new note in your `$EDITOR`:
 
-`nb add "{{note_title}}"`
+`nb {{[a|add]}} "{{note_title}}"`
 
 - Edit a note in your `$EDITOR`:
 
-`nb edit {{note_id}}`
+`nb {{[e|edit]}} {{note_id}}`
 
 - List all notes in the current notebook:
 
@@ -18,20 +18,20 @@
 
 - Add a todo:
 
-`nb todos add {{title}}`
+`nb {{[to|todos]}} {{[a|add]}} {{title}}`
 
 - Import a file:
 
-`nb import ({{path}} | {{url}})`
+`nb import ({{path/to/file|url}})`
 
 - Search for notes containing a keyword:
 
-`nb search "{{keyword}}"`
+`nb {{[q|search]}} "{{keyword}}"`
 
 - Sync notes via Git:
 
 `nb sync`
 
-- Help information:
+- Display help:
 
 `nb help`
