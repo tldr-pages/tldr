@@ -1,9 +1,9 @@
-name: Monthly check GitHub usernames
+name: Monthly check GitHub usernames in CODEOWNERS and MAINTAINERS.md
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 1 * *"
+    - cron: "0 0 1 * *" # Run on the 1st of every month at midnight UTC
 
 permissions:
   contents: read
@@ -13,62 +13,60 @@ jobs:
   check-usernames:
     runs-on: ubuntu-latest
     steps:
-    - name: Restore lychee cache
-      id: restore-cache
-      uses: actions/cache/restore@v4
-      with:
-        path: .lycheecache
-        key: cache-lychee-${{ github.sha }}
-        restore-keys: cache-lychee-
 
-    - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+    - name: Checkout repository
+      uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
       with:
         fetch-depth: 0
 
-    - run: |
-        cat .github/CODEOWNERS | grep -o "@[a-zA-Z0-9_-]\+" | sort -u | sed 's/@/https:\/\/api.github.com\/users\//' > usernames.txt
-        cat MAINTAINERS.md | grep -o "\*\*.*@[a-zA-Z0-9_-]\+.*\*\*" | grep -o "@[a-zA-Z0-9_-]\+" | sort -u | sed 's/@/https:\/\/api.github.com\/users\//' >> usernames.txt
-        sort -u usernames.txt -o usernames.txt
+    # Extract GitHub @usernames from the CODEOWNERS and MAINTAINERS.md files
+    # and convert them to GitHub API URLs for validation
+    - name: Extract GitHub usernames for validation
+      run: |
+        {
+          grep -oP         '@[\w-]+' .github/CODEOWNERS
+          grep -oP '\*\*.+\K@[\w-]+' MAINTAINERS.md # Only get current maintainers (marked up in **bold**)
+        } | sort -u | sed 's#@#https://api.github.com/users/#' > username_urls.txt
 
-    - name: Lychee URL checker
+    - name: Validate GitHub usernames with the Lychee URL checker
       uses: lycheeverse/lychee-action@885c65f3dc543b57c898c8099f4e08c8afd178a2 # v2.6.1
-      id: lychee
+      id: lychee # Step ID to reference later
       continue-on-error: true
       with:
         args: >-
-          --cache 
-          --verbose 
-          --no-progress 
+          --verbose
+          --no-progress
           --max-concurrency 25
-          usernames.txt
+          --output lychee_report.txt
+          username_urls.txt
       env:
-        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Find the last report issue open
+    - name: Find an existing username validation issue
       uses: micalevisk/last-issue-action@0d40124cc99ac8601c2516007f0c98ef3d27537b # v2.3.0
-      id: last-issue
+      id: last-issue # Step ID to reference later
       with:
-        state: open
+        state: all
         labels: check usernames
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Update last report open issue created
-      if: ${{ env.lychee_exit_code != 0 }}
+    - name: Create or update username validation issue if there are errors
+      if: steps.lychee.outcome == 'failure'
       uses: peter-evans/create-issue-from-file@fca9117c27cdc29c6c4db3b86c48e4115a786710 # v6.0.0
       with:
         title: GitHub usernames with errors
-        content-filepath: lychee/out.md
+        content-filepath: lychee_report.txt
         issue-number: ${{ steps.last-issue.outputs.issue-number }}
         labels: check usernames
 
-    - name: Close last report open issue
-      if: ${{ env.lychee_exit_code == 0 && steps.last-issue.outputs.has-found == 'true' }}
-      run: gh issue close ${{ steps.last-issue.outputs.issue-number }}
-
-    - name: Save lychee cache
-      uses: actions/cache/save@5a3ec84eff668545956fd18022155c47e93e2684 # v4.2.3
-      if: always()
-      with:
-        path: .lycheecache
-        key: ${{ steps.restore-cache.outputs.cache-primary-key }}
+    - name: Close or reopen username validation issue as needed
+      if: steps.last-issue.outputs.has-found == 'true'
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        if [[ "${{ steps.lychee.outcome }}" == "success" ]]; then
+          gh issue close ${{ steps.last-issue.outputs.issue-number }} --comment "All usernames are valid again. Closing this issue."
+        else
+          gh issue reopen ${{ steps.last-issue.outputs.issue-number }} --comment "Invalid usernames found. Reopening this issue."
+        fi
