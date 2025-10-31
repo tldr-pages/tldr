@@ -1,19 +1,20 @@
 # cleanmgr
 
 > Clear unnecessary files from the computer's hard disk.
+> Deprecated in newer Windows versions and replaced by "Storage Sense".
 > More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/cleanmgr>.
 
 - Open Disk Cleanup for a specific drive:
 
-`cleanmgr {{/d|/D}} {{C}}`
+`cleanmgr /d {{C}}`
 
 - Open Disk Cleanup with all options selected by default:
 
-`cleanmgr {{/d|/D}} {{C}} /lowdisk`
+`cleanmgr /d {{C}} /lowdisk`
 
 - Clean up all files automatically without user prompts:
 
-`cleanmgr {{/d|/D}} {{C}} /verylowdisk`
+`cleanmgr /d {{C}} /verylowdisk`
 
 - Configure which files to clean and save the settings to a specific profile:
 
