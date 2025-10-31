@@ -4,7 +4,6 @@
 > Supports encryption, tagging, wiki-style links, Git syncing, Pandoc conversion, and more.
 > More information: <https://github.com/xwmx/nb>.
 
-
 - Create a new note in your `$EDITOR`:
 
 `nb add "{{note_title}}"`
@@ -12,10 +11,6 @@
 - Edit a note in your `$EDITOR`:
 
 `nb edit {{note_id}}`
-
-- Add a bookmark:
-
-`nb {{url}}`
 
 - List all notes in the current notebook:
 
@@ -36,10 +31,6 @@
 - Sync notes via Git:
 
 `nb sync`
-
-- Convert a note to another format using Pandoc:
-
-`nb export "{{note_title}}" --to pdf`
 
 - Help information:
 
