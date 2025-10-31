@@ -2,7 +2,7 @@
 
 > Command-line note-taking, bookmarking, and archiving tool.
 > Supports encryption, tagging, wiki-style links, Git syncing, Pandoc conversion, and more.
-> More information: <https://github.com/xwmx/nb>
+> More information: <https://github.com/xwmx/nb>.
 
 
 - Create a new note in your `$EDITOR`:
@@ -23,11 +23,7 @@
 
 - Add a todo:
 
-`nb todo add {{title}}`
-
-- Add a task: 
-
-`nb task add {{title}}`
+`nb todos add {{title}}`
 
 - Import a file:
 
