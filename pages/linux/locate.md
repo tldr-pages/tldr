@@ -9,7 +9,7 @@
 
 - Look for a pattern case-insensitively:
 
-`locate -i "{{pattern}}"`
+`locate {{[-i|--ignore-case]}} "{{pattern}}"`
 
 - Look for a file by its exact filename (a pattern containing no globbing characters is interpreted as `*pattern*`):
 
