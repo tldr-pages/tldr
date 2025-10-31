@@ -5,7 +5,7 @@
 
 - Check out a working copy from a repository:
 
-`svn {{[co|checkout]}} {{url/to/repository}}`
+`svn {{[co|checkout]}} {{file:///path/to/repository}}`
 
 - Bring changes from the repository into the working copy:
 

@@ -18,4 +18,4 @@
 
 - Forward `stdin`/`stdout` to a custom D-Bus address:
 
-`systemd-stdio-bridge {{[-p|--bus-path]}} unix:path={{/custom/dbus/socket}}`
+`systemd-stdio-bridge {{[-p|--bus-path]}} unix:path=/{{path/to/dbus_socket}}`
