@@ -22,4 +22,4 @@
 
 - Speak twice as fast, with huge gaps between sentences:
 
-`echo {{Speaking twice the speed. With added drama!}} | piper -m {{foo.onnx}} --length_scale {{0.5}} --sentence_silence {{2}} -f {{drama.wav}}`
+`echo {{Speaking twice the speed. With added drama!}} | piper -m {{file.onnx}} --length_scale {{0.5}} --sentence_silence {{2}} -f {{drama.wav}}`

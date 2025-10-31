@@ -29,4 +29,4 @@
 
 - Update metadata about a node, such as its availability, labels, or roles:
 
-`docker node update --{{availability|role|label-add|...}} {{active|worker|foo|...}} {{node1}}`
+`docker node update --{{availability|role|label-add|...}} {{active|worker|...}} {{node1}}`

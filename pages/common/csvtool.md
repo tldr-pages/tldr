@@ -11,9 +11,9 @@
 
 `csvtool {{[-c|--column]}} {{2,4}} {{path/to/file.csv}}`
 
-- Extract lines from a CSV file where the second column exactly matches `Foo`:
+- Extract lines from a CSV file where the second column exactly matches `String`:
 
-`csvtool {{[-c|--column]}} {{2}} {{[-s|--search]}} '{{^Foo$}}' {{path/to/file.csv}}`
+`csvtool {{[-c|--column]}} {{2}} {{[-s|--search]}} '{{^String$}}' {{path/to/file.csv}}`
 
 - Extract lines from a CSV file where the second column starts with `Bar`:
 
