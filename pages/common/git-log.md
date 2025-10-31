@@ -3,7 +3,8 @@
 > Show a history of commits.
 > More information: <https://git-scm.com/docs/git-log>.
 
-- Show the sequence of commits starting from the current one, in reverse chronological order of the Git repository in the current working directory:
+- Show the sequence of commits in reverse chronological order:
+
 
 `git log`
 
