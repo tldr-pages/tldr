@@ -5,7 +5,7 @@
 
 - Convert object data from multiple JSON files to a CSV file with header (`-oh`) and double quote:
 
-`trdsql -ocsv -oh "SELECT * FROM {{path/to/file/*.json}}" | sed 's/\([^,]*\)/"&"/g' > {{path/to/file.csv}}`
+`trdsql -ocsv -oh "SELECT * FROM {{path/to/directory/*.json}}" | sed 's/\([^,]*\)/"&"/g' > {{path/to/file.csv}}`
 
 - Interpret JSON list as a table and put objects inside as columns (path/to/file.json: `{"list":[{"age":"26","name":"Tanaka"}]}`):
 

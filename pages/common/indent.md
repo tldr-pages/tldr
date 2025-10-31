@@ -5,7 +5,7 @@
 
 - Format C/C++ source according to the Linux style guide, automatically back up the original files, and replace with the indented versions:
 
-`indent {{[-linux|--linux-style]}} {{path/to/source.c}} {{path/to/another_source.c}}`
+`indent {{[-linux|--linux-style]}} {{path/to/source1.c path/to/source2.c ...}}`
 
 - Format C/C++ source according to the GNU style, saving the indented version to a different file:
 

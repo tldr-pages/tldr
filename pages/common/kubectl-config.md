@@ -31,4 +31,4 @@
 
 - Permanently add custom kubeconfig files:
 
-`export KUBECONFIG="{{$HOME.kube/config:path/to/custom/kubeconfig.yaml}}" kubectl config get-contexts`
+`export KUBECONFIG="{{$HOME.kube/config:path/to/custom_kubeconfig.yaml}}" kubectl config get-contexts`
