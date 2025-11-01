@@ -2,7 +2,7 @@
 
 > Control the mako daemon.
 > Sends IPC commands to the running mako daemon. Some subcommands such as `dismiss`, `invoke`, and `mode` have their own usage documentation.
-> More information: <https://github.com/emersion/mako> or <https://man.archlinux.org/man/makoctl.1.en>.
+> More information: <https://man.archlinux.org/man/makoctl.1.en>.
 
 - List all current notifications:
 

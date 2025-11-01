@@ -2,7 +2,7 @@
 
 > Notification daemon for Wayland compositors.
 > Can be controlled with `makoctl`.
-> More information: <https://github.com/emersion/mako> or `man 5 mako`.
+> More information: <https://manned.org/man/arch/mako.5>.
 
 - Start the mako notification daemon:
 
@@ -31,4 +31,3 @@
 - View documentation for controlling mako:
 
 `tldr makoctl`
-

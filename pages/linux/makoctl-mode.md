@@ -2,7 +2,7 @@
 
 > Manage notification modes in mako.
 > Modes can be used to change notification behavior (e.g., do-not-disturb).
-> More information: <https://github.com/emersion/mako> or <https://man.archlinux.org/man/makoctl.1.en>..
+> More information: <https://man.archlinux.org/man/makoctl.1.en>.
 
 - List all currently active modes:
 
