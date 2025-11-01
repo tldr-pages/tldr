@@ -26,7 +26,7 @@
 
 - Display help:
 
-`mako --help`
+`mako {{[-h|--help]}}`
 
 - View documentation for controlling mako:
 
