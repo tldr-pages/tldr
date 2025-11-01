@@ -24,15 +24,3 @@
 - Display help and all available subcommands:
 
 `makoctl help`
-
-- View documentation for dismissing notifications:
-
-`tldr makoctl-dismiss`
-
-- View documentation for invoking notification actions:
-
-`tldr makoctl-invoke`
-
-- View documentation for managing modes:
-
-`tldr makoctl-mode`
