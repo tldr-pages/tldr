@@ -25,7 +25,7 @@
 
 - Convert a remote HTML file to markdown and print the result to `stdout`:
 
-`pandoc {{[-f|--from]}} {{html}} {{[-t|--to]}} {{markdown}} {{https://example.com}}`
+`pandoc {{[-f|--from]}} html {{[-t|--to]}} markdown {{https://example.com}}`
 
 - List all supported input formats:
 
