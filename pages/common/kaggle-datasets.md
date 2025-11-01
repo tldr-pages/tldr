@@ -21,7 +21,7 @@
 
 - Download metadata of dataset:
 
-` kaggle datasets metadata -d {{dataset_name}}`
+`kaggle datasets metadata -d {{dataset_name}}`
 
 - Initialize metadata for dataset:
 
