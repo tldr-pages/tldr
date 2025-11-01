@@ -10,7 +10,7 @@
 
 - Start with a custom configuration file:
 
-`mako --config {{path/to/config}}`
+`mako {{[-c|--config]}} {{path/to/config}}`
 
 - Set maximum number of visible notifications:
 
