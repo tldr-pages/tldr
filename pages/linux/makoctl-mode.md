@@ -22,4 +22,4 @@
 
 - Set specific modes, replacing all current modes:
 
-`makoctl mode -s {{mode1}} {{mode2}}`
+`makoctl mode -s {{mode1 mode2 ...}}`
