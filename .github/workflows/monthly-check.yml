@@ -33,11 +33,11 @@ jobs:
       id: lychee # Step ID to reference later
       continue-on-error: true
       with:
+        output: lychee_report.txt
         args: >-
           --verbose
           --no-progress
           --max-concurrency 25
-          --output lychee_report.txt
           username_urls.txt
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
