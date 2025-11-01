@@ -1,6 +1,6 @@
 # Set-Clipboard
 
-> Powershell command to set content to clipboard.
+> PowerShell command to set content to clipboard.
 > Note: `scb` can be used as an alias for `Set-Clipboard`.
 > More information: <https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/set-clipboard>.
 

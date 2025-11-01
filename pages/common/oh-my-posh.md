@@ -11,7 +11,7 @@
 
 `eval "$(oh-my-posh init bash --config {{path/to/theme}})"`
 
-- Initialize for Powershell:
+- Initialize for PowerShell:
 
 `oh-my-posh init pwsh --config {{path/to/theme}} | Invoke-Expression`
 
