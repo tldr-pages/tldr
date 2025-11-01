@@ -207,7 +207,7 @@ The templates can be changed when necessary.
 
 > Cette commande est un alias de `example`.
 
-- Voir la documentation de la commande originale :
+- Affiche la documentation de la commande originale :
 
 `tldr example`
 ```
