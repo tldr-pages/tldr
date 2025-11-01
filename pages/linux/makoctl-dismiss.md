@@ -1,7 +1,7 @@
 # makoctl dismiss
 
 > Dismiss notifications in mako.
-> More information: <https://man.archlinux.org/man/makoctl.1.en>.
+> More information: <https://manned.org/makoctl>.
 
 - Dismiss the most recent notification:
 
