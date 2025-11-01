@@ -12,7 +12,7 @@
 
 `makoctl mode -a {{do-not-disturb}}`
 
-- Remove one or more modes:
+- Remove a mode:
 
 `makoctl mode -r {{do-not-disturb}}`
 
