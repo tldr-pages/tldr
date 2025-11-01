@@ -27,7 +27,3 @@
 - Display help:
 
 `mako {{[-h|--help]}}`
-
-- View documentation for controlling mako:
-
-`tldr makoctl`
