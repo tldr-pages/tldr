@@ -1,0 +1,24 @@
+# makoctl dismiss
+
+> Dismiss notifications in mako.
+> More information: <https://github.com/emersion/mako> or <https://man.archlinux.org/man/makoctl.1.en>..
+
+- Dismiss the most recent notification:
+
+`makoctl dismiss`
+
+- Dismiss a specific notification by ID:
+
+`makoctl dismiss -n {{notification_id}}`
+
+- Dismiss all notifications:
+
+`makoctl dismiss --all`
+
+- Dismiss all notifications in the same group:
+
+`makoctl dismiss --group`
+
+- Dismiss without adding to history:
+
+`makoctl dismiss --no-history`
