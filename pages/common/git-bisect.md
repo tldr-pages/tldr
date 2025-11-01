@@ -20,6 +20,18 @@
 
 `git bisect skip`
 
+- Start a bisect session considering only commits that modify a specific file or directory:
+
+`git bisect start {{bad_commit}} {{good_commit}} -- {{path/to/file_or_directory}}`
+
+- Automate the bisect process using a test script that `exit`s with 0 for "good" and non-zero for "bad":
+
+`git bisect run {{path/to/test_script}} {{[script arguments...]}}`
+
 - Display a log of what has been done so far:
 
 `git bisect log`
+
+- Show remaining candidate commits to be checked:
+
+`git bisect visualize`
