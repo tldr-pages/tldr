@@ -17,7 +17,7 @@
 
 - Dismiss all notifications in the same group:
 
-`makoctl dismiss --group`
+`makoctl dismiss {{[-g|--group]}}`
 
 - Dismiss without adding to history:
 
