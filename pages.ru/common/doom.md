@@ -1,26 +1,40 @@
-# Doom source port
+# doom
 
-> Референс
-> ZDoom wiki - Multiplayer: https://zdoom.org/wiki/Multiplayer
+> Классический шутер с открытым исходным кодом и поддержкой мультиплеера и моддинга.
+> Больше информации: <https://zdoom.org/wiki/Multiplayer>
 
-## Main tags
-Если WAD в текущей папке и имеет стандартное название
-```shell
-<sourceport>
-```
-Если выбрать нужно WAD
-```shell
-<sourceport> -iwad <wad>
-```
-Моды
-```shell
-<sourceport> -iwad <wad> -file <pak3> <more mods can be included here>
-```
-Ну и дополнительные комманды по типу читов
-```shell
-<sourceport> -iwad <wad> +<your command here>
-```
-Мультиплеер:
-```shell
-<sourceport> -iwad <wad> <other parameters> +map <map> -host <number_of_players>
-```
+- Запустить:
+
+`<исходный_порт>`
+
+- Запустить с выбранным WAD:
+
+`<исходный_порт> -iwad <путь/к/WAD/файлу>`
+
+- Запустить с выбранным WAD и дополнениями:
+
+`<исходный_порт> -iwad <путь/к/WAD/файлу> -file <путь/к/PK3/дополнениям> <more mods can be included here>`
+
+- Запустить с авто-старт командами:
+
+`<исходный_порт> -iwad <путь/к/WAD/файлу> +<команда>`
+
+- Запустить с мультиплеером (кооператив):
+
+`<исходный_порт> -iwad <путь/к/WAD/файлу> +map <карта> -host <количество_игроков>`
+
+- Запустить с мультиплеером (deathmatch):
+
+`<исходный_порт> -iwad <путь/к/WAD/файлу> +map <карта> -host <количество_игроков> -deathmatch`
+
+- Присоединиться к серверу:
+
+`<исходный_порт> -iwad <путь/к/WAD/файлу> -join <домен/IP>`
+
+- Play demo:
+
+`<исходный_порт> -iwad <wad> -playdemo <demofile>.lmp`
+
+- Record demo:
+
+`<исходный_порт> -iwad <wad> -record <demofile>.lmp`
