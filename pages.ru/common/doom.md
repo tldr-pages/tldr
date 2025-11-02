@@ -33,8 +33,8 @@
 
 - Play demo:
 
-`<исходный_порт> -iwad <wad> -playdemo <demofile>.lmp`
+`<исходный_порт> -iwad <путь/к/WAD/файлу> -playdemo <demofile>.lmp`
 
 - Record demo:
 
-`<исходный_порт> -iwad <wad> -record <demofile>.lmp`
+`<исходный_порт> -iwad <путь/к/WAD/файлу> -record <demofile>.lmp`
