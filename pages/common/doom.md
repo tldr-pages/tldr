@@ -1,40 +1,36 @@
 # doom
 
-> Open source classic boomer shooter with modding and multiplayer.
-> More information: <https://zdoom.org/wiki/Main_Page>
+> Classic open-source boomer shooter featuring modding and multiplayer.
+> More information: <https://zdoom.org/wiki/Main_Page>.
 
-- Start doom:
+- Start Doom:
 
-`<sourceport>`
+`<sourceport>`.
 
-- Start with selected wad:
+- Start with selected WAD:
 
-`<sourceport> -iwad <wad>`
+`<sourceport> -iwad <wad>`.
 
-- Start with wad and mods:
+- Start with WAD and mods:
 
-`<sourceport> -iwad <wad> -file <pak3> <more mods can be included here>`
+`<sourceport> -iwad <wad> -file <pak3> <other mods>`.
 
 - Start with auto-starting commands:
 
-`<sourceport> -iwad <wad> +<your command here>`
+`<sourceport> -iwad <wad> +<command>`.
 
 - Host co-op multiplayer:
 
-`<sourceport> -iwad <wad> +map <map> -host <number_of_players>`
+`<sourceport> -iwad <wad> +map <map> -host <number>`.
 
 - Host deathmatch multiplayer:
 
-`<sourceport> -iwad <wad> +map <map> -host <number_of_players> -deathmatch`
+`<sourceport> -iwad <wad> +map <map> -host <number> -deathmatch`.
 
 - Join multiplayer:
 
-`<sourceport> -iwad <wad> -join <ip>`
+`<sourceport> -iwad <wad> -join <ip>`.
 
 - Play demo:
 
-`<sourceport> -iwad <wad> -playdemo <demofile>.lmp`
-
-- Record demo:
-
-`<sourceport> -iwad <wad> -record <demofile>.lmp`
+`<sourceport> -iwad <wad> -playdemo <demo>.lmp`.
