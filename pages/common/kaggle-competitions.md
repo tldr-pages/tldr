@@ -9,15 +9,15 @@
 
 - Download Competition Data:
 
-`kaggle competitions download -c {{competition_name}}`
+`kaggle competitions download {{competition_name}}`
 
 - Download specific file:
 
-`kaggle competitions download -c {{competition_name}} -f {{file}}`
+`kaggle competitions download {{competition_name}} -f {{file}}`
 
 - Submit files to a competition:
 
-`kaggle competitions submit -c {{competition-name}} -f {{file-path}} -m "{{message}}"`
+`kaggle competitions submit {{competition-name}} -f {{file-path}} -m "{{message}}"`
 
 - Show or Download leaderboard:
 
@@ -25,4 +25,4 @@
 
 - View Submissions:
 
-`kaggle competitions submissions -c {{competition_name}}`
+`kaggle competitions submissions {{competition_name}}`
