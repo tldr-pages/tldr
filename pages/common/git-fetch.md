@@ -29,4 +29,4 @@
 
 - Update the `main` branch without switching to it (equivalent to `git pull`):
 
-`git fetch {{origin}} {{main}}:{{main}}`
+`git fetch {{origin}} main:main`
