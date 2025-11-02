@@ -13,7 +13,7 @@
 
 - Dismiss all notifications:
 
-`makoctl dismiss --all`
+`makoctl dismiss {{[-a|--all]}}`
 
 - Dismiss all notifications in the same group:
 
