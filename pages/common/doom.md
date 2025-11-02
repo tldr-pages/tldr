@@ -21,15 +21,15 @@
 
 - Host co-op multiplayer:
 
-`<sourceport> -iwad <wad> <other parameters> +map <map> -host <number_of_players>`
+`<sourceport> -iwad <wad> +map <map> -host <number_of_players>`
 
 - Host deathmatch multiplayer:
 
-`<sourceport> -iwad <wad> <othere parameters> +map <map> -host <number_of_players> -deathmatch`
+`<sourceport> -iwad <wad> +map <map> -host <number_of_players> -deathmatch`
 
 - Join multiplayer:
 
-`<sourceport> -iwad <wad> <other parameters> -join <ip>`
+`<sourceport> -iwad <wad> -join <ip>`
 
 - Play demo:
 
