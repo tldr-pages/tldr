@@ -8,7 +8,7 @@
 
 `makoctl mode`
 
-- Add one or more modes:
+- Add a mode:
 
 `makoctl mode -a {{do-not-disturb}}`
 
