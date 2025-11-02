@@ -1,26 +1,40 @@
-# Doom source port
+# doom
 
-> Reference
-> ZDoom wiki - Multiplayer: https://zdoom.org/wiki/Multiplayer
+> Open source classic boomer shooter with modding and multiplayer.
+> More information: <https://zdoom.org/wiki/Multiplayer>
 
-## Main tags
-Just an wad
-```shell
-<sourceport>
-```
-If custom name
-```shell
-<sourceport> -iwad <wad>
-```
-And mods
-```shell
-<sourceport> -iwad <wad> -file <pak3> <more mods can be included here>
-```
-And you can add commands like
-```shell
-<sourceport> -iwad <wad> +<your command here>
-```
-To run doom multiplayer:
-```shell
-<sourceport> -iwad <wad> <other parameters> +map <map> -host <number_of_players>
-```
+- Start doom:
+
+`<sourceport>`
+
+- Start with selected wad:
+
+`<sourceport> -iwad <wad>`
+
+- Start with wad and mods:
+
+`<sourceport> -iwad <wad> -file <pak3> <more mods can be included here>`
+
+- Start with auto-starting commands:
+
+`<sourceport> -iwad <wad> +<your command here>`
+
+- Host co-op multiplayer:
+
+`<sourceport> -iwad <wad> <other parameters> +map <map> -host <number_of_players>`
+
+- Host deathmatch multiplayer:
+
+`<sourceport> -iwad <wad> <othere parameters> +map <map> -host <number_of_players> -deathmatch`
+
+- Join multiplayer:
+
+`<sourceport> -iwad <wad> <other parameters> -join <ip>`
+
+- Play demo:
+
+`<sourceport> -iwad <wad> -playdemo <demofile>.lmp`
+
+- Record demo:
+
+`<sourceport> -iwad <wad> -record <demofile>.lmp`
