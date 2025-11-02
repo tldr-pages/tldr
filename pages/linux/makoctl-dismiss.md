@@ -21,4 +21,4 @@
 
 - Dismiss without adding to history:
 
-`makoctl dismiss --no-history`
+`makoctl dismiss {{[-h|--no-history]}}`
