@@ -1,16 +1,24 @@
 # fdisk
 
 > Manage partition tables and partitions on a storage drive.
-> See also: `partprobe`.
+> See also: `partprobe`, `parted`, `cfdisk`.
 > More information: <https://manned.org/fdisk>.
 
 - List partitions:
 
 `sudo fdisk {{[-l|--list]}}`
 
-- Start the partition manipulator:
+- Start the interactive partition manipulator:
 
 `sudo fdisk {{/dev/sdX}}`
+
+- Open a help [m]enu:
+
+`<m>`
+
+- View the [p]artition table:
+
+`<p>`
 
 - Create a [n]ew partition:
 
@@ -20,10 +28,6 @@
 
 `<d>`
 
-- View the [p]artition table:
-
-`<p>`
-
 - [w]rite the changes made:
 
 `<w>`
@@ -31,7 +35,3 @@
 - Discard the changes made and [q]uit:
 
 `<q>`
-
-- Open a help [m]enu:
-
-`<m>`
