@@ -1,6 +1,6 @@
 # bun link
 
-> Modern JavaScript runtime, package manager, bundler, and test runner.
+> Bun command to register the current package as a linkable package.
 > More information: <https://bun.com/docs/pm/cli/link>.
 
 - Link the package globally:
