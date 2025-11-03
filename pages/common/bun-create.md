@@ -3,7 +3,7 @@
 > Create a new project from a template.
 > More information: <https://bun.com/docs/runtime/templating/create>.
 
-- Create a new project from an official template in the current directory (must be empty):
+- Create a new project from an official template (interactively):
 
 `bun {{[c|create]}} {{template}} .`
 
