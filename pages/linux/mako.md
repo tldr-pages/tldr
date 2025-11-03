@@ -4,7 +4,7 @@
 > Can be controlled with `makoctl`.
 > More information: <https://manned.org/mako>.
 
-- Start the mako notification daemon:
+- Start the `mako` notification daemon:
 
 `mako`
 
