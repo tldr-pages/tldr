@@ -1,6 +1,6 @@
 # makoctl invoke
 
-> Invoke actions on notifications in mako.
+> Invoke actions on notifications in `mako`.
 > More information: <https://manned.org/makoctl>.
 
 - Invoke the default action on the most recent notification:
