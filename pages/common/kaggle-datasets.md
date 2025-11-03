@@ -25,7 +25,7 @@
 
 - Initialize metadata for dataset:
 
-`kaggle datasets init -p {{path/to/dataset}}`
+`kaggle datasets init {{[-p|--path]}} {{path/to/dataset}}`
 
 - Delete a dataset:
 
