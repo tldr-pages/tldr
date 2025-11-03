@@ -9,7 +9,7 @@
 
 - Search dataset by name:
 
-`kaggle datasets list -s "{{dataset_name}}"`
+`kaggle datasets list {{[-s|--search]}} "{{dataset_name}}"`
 
 - Download a dataset:
 
