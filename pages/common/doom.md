@@ -1,7 +1,7 @@
 # doom
 
 > Classic open-source boomer shooter featuring modding and multiplayer.
-> More information: <https://zdoom.org/wiki/Main_Page>.
+> More information: <https://doomwiki.org/wiki/Source_port_parameters>.
 
 - Start Doom:
 
