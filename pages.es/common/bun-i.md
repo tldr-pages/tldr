@@ -2,6 +2,6 @@
 
 > Este comando es un alias de `bun install`.
 
-- Vea la documentación del comando original:
+- Vea la documentación para el comando original:
 
 `tldr bun install`
