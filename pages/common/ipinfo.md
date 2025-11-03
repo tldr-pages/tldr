@@ -1,6 +1,7 @@
 # ipinfo
 
 > Official CLI for the IPinfo.io IP geolocation and network intelligence API.
+> Note: Some commands will require a token from IPinfo.io.
 > More information: <https://github.com/ipinfo/cli#quick-start>.
 
 - Display details for your current IP address:
