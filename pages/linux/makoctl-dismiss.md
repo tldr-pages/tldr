@@ -15,7 +15,7 @@
 
 `makoctl dismiss {{[-a|--all]}}`
 
-- Dismiss all notifications in the same group:
+- Dismiss all notifications in the first group:
 
 `makoctl dismiss {{[-g|--group]}}`
 
