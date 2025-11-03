@@ -1,7 +1,7 @@
 # bun c
 
-> This is an alias for `bun create`.
+> This command is an alias of `bun create`.
 
-- See documentation for the original command:
+- View documentation for the original command:
 
 `tldr bun create`
