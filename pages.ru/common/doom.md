@@ -5,28 +5,28 @@
 
 - Запустить Doom:
 
-`{{sourceport}}`.
+`{{sourceport}}`
 
 - Запустить с выбранным WAD:
 
-`{{sourceport}} -iwad {{wad}}`.
+`{{sourceport}} -iwad {{wad}}`
 
 - Запустить с WAD и модами:
 
-`{{sourceport}} -iwad {{wad}} -file {{pak3}} {{other mods}}`.
+`{{sourceport}} -iwad {{wad}} -file {{pak3}} {{other mods}}`
 
 - Запустить с автостартовыми командами:
 
-`{{sourceport}} -iwad {{wad}} +{{command}}`.
+`{{sourceport}} -iwad {{wad}} +{{command}}`
 
 - Запустить кооперативный многопользовательский режим:
 
-`{{sourceport}} -iwad {{wad}} +map {{map}} -host {{players}}`.
+`{{sourceport}} -iwad {{wad}} +map {{map}} -host {{players}}`
 
 - Запустить многопользовательский режим "Смерть на поле боя":
 
-`{{sourceport}} -iwad {{wad}} +map {{map}} -host {{players}} -deathmatch`.
+`{{sourceport}} -iwad {{wad}} +map {{map}} -host {{players}} -deathmatch`
 
 - Присоединиться к многопользовательской игре:
 
-`{{sourceport}} -iwad {{wad}} -join {{ip}}`.
+`{{sourceport}} -iwad {{wad}} -join {{ip}}`
