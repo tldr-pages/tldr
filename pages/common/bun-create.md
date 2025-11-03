@@ -5,7 +5,7 @@
 
 - Create a new project from an official template (interactively):
 
-`bun {{[c|create]}} {{template}} .`
+`bun {{[c|create]}} {{template}}`
 
 - Create a new project from an official template in a new directory:
 
