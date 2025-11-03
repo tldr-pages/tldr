@@ -13,7 +13,7 @@
 
 - Run all steps and adjust the provision step options:
 
-`tmt run {{[-a|--all]}} provision {{[-h|--how]}} {{container}} --image {{fedora:rawhide}}`
+`tmt run {{[-a|--all]}} provision {{[-h|--how]}} {{container}} {{[-i|--image]}} {{fedora:rawhide}}`
 
 - Run only selected plans and tests:
 
