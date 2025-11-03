@@ -5,28 +5,28 @@
 
 - Start Doom:
 
-`{{sourceport}}`.
+`{{sourceport}}`
 
 - Start with selected WAD:
 
-`{{sourceport}} -iwad {{wad}}`.
+`{{sourceport}} -iwad {{wad}}`
 
 - Start with WAD and mods:
 
-`{{sourceport}} -iwad {{wad}} -file {{pak3}} {{other mods}}`.
+`{{sourceport}} -iwad {{wad}} -file {{pak3}} {{other mods}}`
 
 - Start with auto-starting commands:
 
-`{{sourceport}} -iwad {{wad}} +{{command}}`.
+`{{sourceport}} -iwad {{wad}} +{{command}}`
 
 - Host co-op multiplayer:
 
-`{{sourceport}} -iwad {{wad}} +map {{map}} -host {{players}}`.
+`{{sourceport}} -iwad {{wad}} +map {{map}} -host {{players}}`
 
 - Host deathmatch multiplayer:
 
-`{{sourceport}} -iwad {{wad}} +map {{map}} -host {{players}} -deathmatch`.
+`{{sourceport}} -iwad {{wad}} +map {{map}} -host {{players}} -deathmatch`
 
 - Join multiplayer:
 
-`{{sourceport}} -iwad {{wad}} -join {{ip}}`.
+`{{sourceport}} -iwad {{wad}} -join {{ip}}`
