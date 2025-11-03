@@ -3,7 +3,7 @@
 > Manage Kaggle datasets from command line.
 > More information: <https://github.com/Kaggle/kaggle-api/blob/main/docs/README.md#datasets>.
 
-- List all dataset:
+- List all datasets owned by a user or organization:
 
 `kaggle datasets list --user {{username}}`
 
