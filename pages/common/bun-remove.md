@@ -11,7 +11,7 @@
 
 `bun {{[rm|remove]}} {{package_name1 package_name2 ...}}`
 
-- Remove a [g]lobally installed package:
+- Remove a globally installed package:
 
 `bun {{[rm|remove]}} {{[-g|--global]}} {{package_name}}`
 
