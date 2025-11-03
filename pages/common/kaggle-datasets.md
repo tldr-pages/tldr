@@ -13,7 +13,7 @@
 
 - Download a dataset:
 
-`kaggle datasets download -d "{{dataset_name}}"`
+`kaggle datasets download "{{dataset_name}}"`
 
 - Create a dataset with visibility type:
 
@@ -21,7 +21,7 @@
 
 - Download metadata of dataset:
 
-`kaggle datasets metadata -d {{dataset_name}}`
+`kaggle datasets metadata {{dataset_name}}`
 
 - Initialize metadata for dataset:
 
@@ -29,4 +29,4 @@
 
 - Delete a dataset:
 
-`kaggle datasets delete -d {{dataset_name}}`
+`kaggle datasets delete {{dataset_name}}`
