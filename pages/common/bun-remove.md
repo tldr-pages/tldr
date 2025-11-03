@@ -9,7 +9,7 @@
 
 - Remove multiple dependencies:
 
-`bun {{[rm|remove]}} {{package_name1}} {{package_name2}}`
+`bun {{[rm|remove]}} {{package_name1 package_name2 ...}}`
 
 - Remove a [g]lobally installed package:
 
