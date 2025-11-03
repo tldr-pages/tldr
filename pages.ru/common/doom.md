@@ -23,7 +23,7 @@
 
 `{{sourceport}} -iwad {{wad}} +map {{map}} -host {{players}}`
 
-- Запустить многопользовательский режим "Смерть на поле боя":
+- Запустить многопользовательский режим "deathmatch":
 
 `{{sourceport}} -iwad {{wad}} +map {{map}} -host {{players}} -deathmatch`
 
