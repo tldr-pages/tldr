@@ -11,6 +11,10 @@
 
 `sudo emaint sync {{[-r|--repo]}} {{repository}}`
 
+- Synchronize all repositories:
+
+`sudo emaint sync {{[-A|--allrepos]}}`
+
 - Clear the Portage resume list:
 
 `sudo emaint cleanresume {{[-f|--fix]}}`
