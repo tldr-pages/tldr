@@ -1,6 +1,6 @@
 # makoctl dismiss
 
-> Dismiss notifications in mako.
+> Dismiss notifications in `mako`.
 > More information: <https://manned.org/makoctl>.
 
 - Dismiss the most recent notification:
