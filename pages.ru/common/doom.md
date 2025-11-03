@@ -1,36 +1,32 @@
 # doom
 
-> Классический шутер с открытым исходным кодом, включающий моддинг и многопользовательский режим.
-> Дополнительная информация: <https://zdoom.org/wiki/Main_Page>.
+> Классический шутер с открытым исходным кодом, ориентированный на моддинг и многопользовательский режим.
+> Более подробная информация: <https://zdoom.org/wiki/Main_Page>.
 
 - Запустить Doom:
 
-`<sourceport>`.
+`{{sourceport}}`.
 
 - Запустить с выбранным WAD:
 
-`<sourceport> -iwad <wad>`.
+`{{sourceport}} -iwad {{wad}}`.
 
 - Запустить с WAD и модами:
 
-`<sourceport> -iwad <wad> -file <pak3> <другие моды>`.
+`{{sourceport}} -iwad {{wad}} -file {{pak3}} {{other mods}}`.
 
-- Запустить с авто-запускающими командами:
+- Запустить с автостартовыми командами:
 
-`<sourceport> -iwad <wad> +<команда>`.
+`{{sourceport}} -iwad {{wad}} +{{command}}`.
 
-- Хостить кооперативный многопользовательский режим:
+- Запустить кооперативный многопользовательский режим:
 
-`<sourceport> -iwad <wad> +map <карта> -host <число>`.
+`{{sourceport}} -iwad {{wad}} +map {{map}} -host {{players}}`.
 
-- Хостить многопользовательский режим на смерть:
+- Запустить многопользовательский режим "Смерть на поле боя":
 
-`<sourceport> -iwad <wad> +map <карта> -host <число> -deathmatch`.
+`{{sourceport}} -iwad {{wad}} +map {{map}} -host {{players}} -deathmatch`.
 
-- Присоединиться к многопользовательскому режиму:
+- Присоединиться к многопользовательской игре:
 
-`<sourceport> -iwad <wad> -join <ip>`.
-
-- Играть демо:
-
-`<sourceport> -iwad <wad> -playdemo <демофайл>.lmp`.
+`{{sourceport}} -iwad {{wad}} -join {{ip}}`.
