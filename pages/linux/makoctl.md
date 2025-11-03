@@ -20,6 +20,6 @@
 
 `makoctl restore`
 
-- Display help and all available subcommands:
+- Display help:
 
 `makoctl help`
