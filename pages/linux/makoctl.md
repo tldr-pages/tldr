@@ -12,7 +12,7 @@
 
 `makoctl history`
 
-- Reload the mako configuration file:
+- Reload the configuration file:
 
 `makoctl reload`
 
