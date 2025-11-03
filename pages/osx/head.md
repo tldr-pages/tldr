@@ -15,6 +15,6 @@
 
 `head {{[-n|--lines]}} {{count}} {{path/to/file}}`
 
-- Output the first n `bytes` of a file:
+- Output the first `n` bytes of a file:
 
-`head {{[-c|--bytes]}} {{bytes}} {{path/to/file}}`
+`head {{[-c|--bytes]}} {{n}} {{path/to/file}}`
