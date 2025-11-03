@@ -1,7 +1,6 @@
 # makoctl
 
-> Control the mako daemon.
-> Sends IPC commands to the running mako daemon.
+> Control the `mako` notification daemon.
 > Some subcommands such as `dismiss`, `invoke`, and `mode` have their own usage documentation.
 > More information: <https://manned.org/makoctl>.
 
