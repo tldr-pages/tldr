@@ -19,7 +19,7 @@
 
 `koji moshimoshi`
 
-- Display koji client and kojihub version
+- Display koji client and kojihub version:
 
 `koji version`
 
