@@ -9,7 +9,7 @@
 
 - Convert `file.rtf` into `file.html`:
 
-`textutil -convert {{html}} {{path/to/file.rtf}}`
+`textutil -convert html {{path/to/file.rtf}}`
 
 - Convert rich text to normal text:
 
