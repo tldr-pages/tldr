@@ -17,7 +17,7 @@
 
 - Convert `file.txt` into `file.rtf`, using Times 10 for the font:
 
-`textutil -convert {{rtf}} -font {{Times}} -fontsize {{10}} {{path/to/file.txt}}`
+`textutil -convert rtf -font Times -fontsize 10 {{path/to/file.txt}}`
 
 - Load all RTF files in the current directory, concatenates their contents, and writes the result out as `index.html` with the HTML title set to "Several Files":
 
