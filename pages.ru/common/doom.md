@@ -6,8 +6,8 @@
 
 - Запустить кооперативный многопользовательский режим:
 
-`{{zandronum-server}} -iwad {{wad}} +map {{map}} -host {{players}}`
+`{{zandronum-server}} -iwad {{wad}} +map {{карта}} -host {{число_игроков}}`
 
 - Запустить многопользовательский режим "deathmatch":
 
-`{{zandronum-server}} -iwad {{wad}} +map {{map}} -host {{players}} -deathmatch`
+`{{zandronum-server}} -iwad {{wad}} +map {{карта}} -host {{число_игроков}} -deathmatch`
