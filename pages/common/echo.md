@@ -28,6 +28,6 @@
 
 `echo $?`
 
-Pass text to another program through `stdin`:
+- Pass text to another program through `stdin`:
 
 `echo "{{Hello World}}" | {{program}}`
