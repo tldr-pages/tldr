@@ -27,3 +27,7 @@
 - Print the exit status of the last executed command (Note: In Windows Command Prompt and PowerShell the equivalent commands are `echo %errorlevel%` and `$lastexitcode` respectively):
 
 `echo $?`
+
+Pass text to another program through `stdin`:
+
+`echo "{{Hello World}}" | {{program}}`
