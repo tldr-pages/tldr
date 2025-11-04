@@ -22,7 +22,7 @@
 
 - Group notifications by application name:
 
-`mako --group-by {{app-name}}`
+`mako --group-by {{app_name}}`
 
 - Display help:
 
