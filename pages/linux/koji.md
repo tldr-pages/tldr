@@ -15,10 +15,14 @@
 
 `koji help`
 
-- Display help for a specific subcommand (like `build`, `tag-build`, `download-build`, `buildinfo`,`call`, etc.):
-
-`koji {{subcommand}} --help`
-
 - Introduce yourself to test connectivity with koijhub:
 
 `koji moshimoshi`
+
+- Display koji client and kojihub version
+
+`koji version`
+
+- Display help for a specific subcommand (like `build`, `tag-build`, `download-build`, `buildinfo`,`call`, etc.):
+
+`koji {{subcommand}} --help`
