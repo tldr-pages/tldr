@@ -1,7 +1,7 @@
 # sudo
 
 > 以超级用户或其他用户身份执行单个命令。
-> 更多信息： <https://www.sudo.ws/sudo.html>.
+> 更多信息：<https://www.sudo.ws/sudo.html>.
 
 - 以超级用户身份运行命令：
 
