@@ -1,6 +1,6 @@
 # tmt run
 
-> Execute tmt test steps. By default, all steps are run.
+> Execute `tmt` test steps. By default, all steps are run.
 > More information: <https://tmt.readthedocs.io/en/stable/stories/cli.html#run>.
 
 - Run all test steps for each plan:
