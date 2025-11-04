@@ -1,4 +1,4 @@
-# doom
+# DOOM
 
 > Classic open-source boomer shooter featuring modding and multiplayer.
 > `zandronum-server` can be replaced with almost any sourceport.
