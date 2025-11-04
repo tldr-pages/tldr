@@ -27,6 +27,6 @@
 
 `cat {{[-vte|--show-nonprinting -t -e]}} {{path/to/file}}`
 
- - Pass file contents to another program through `stdin`:
+- Pass file contents to another program through `stdin`:
 
 `cat "{{Hello World}}" | {{program}}`
