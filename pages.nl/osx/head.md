@@ -11,9 +11,9 @@
 
 `head {{[-5|--lines 5]}} {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
 
-- Geef de eerste `aantal` regels van een bestand weer:
+- Geef de eerste `n` regels van een bestand weer:
 
-`head {{[-n|--lines]}} {{aantal}} {{pad/naar/bestand}}`
+`head {{[-n|--lines]}} {{n}} {{pad/naar/bestand}}`
 
 - Geef de eerste `n` bytes van een bestand weer:
 
