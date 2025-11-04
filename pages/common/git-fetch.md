@@ -26,3 +26,7 @@
 - Deepen current shallow branch by 2 commits:
 
 `git fetch --deepen 2`
+
+- Update the `main` branch without switching to it (equivalent to `git pull`):
+
+`git fetch {{origin}} main:main`
