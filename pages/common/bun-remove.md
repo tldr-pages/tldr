@@ -1,6 +1,7 @@
 # bun remove
 
 > Remove a dependency from `package.json`.
+> Note: `rm` can be used as an alias for `remove`.
 > More information: <https://bun.sh/docs/cli/remove>.
 
 - Remove a dependency:
