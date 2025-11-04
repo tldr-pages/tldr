@@ -1,6 +1,6 @@
 # makoctl mode
 
-> Manage notification modes in mako.
+> Manage notification modes in `mako`.
 > Modes can be used to change notification behavior (e.g., do-not-disturb).
 > More information: <https://manned.org/makoctl>.
 
