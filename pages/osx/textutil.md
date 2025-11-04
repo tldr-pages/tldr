@@ -13,7 +13,7 @@
 
 - Convert rich text to normal text:
 
-`textutil {{path/to/file.rtf}} -convert {{txt}}`
+`textutil {{path/to/file.rtf}} -convert txt`
 
 - Convert `file.txt` into `file.rtf`, using Times 10 for the font:
 
