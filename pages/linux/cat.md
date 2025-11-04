@@ -26,3 +26,7 @@
 - Display non-printable and whitespace characters (with `M-` prefix if non-ASCII):
 
 `cat {{[-vte|--show-nonprinting -t -e]}} {{path/to/file}}`
+
+ - Pass file contents to another program through `stdin`:
+
+`cat "{{Hello World}}" | {{program}}`
