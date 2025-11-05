@@ -9,7 +9,7 @@
 
 - Convert the output from another command to PDF, using a specific PDF engine:
 
-`{{command}} | pandoc --pdf-engine {{tectonic|weasyprint|typst|...}} {{[-o|--output]}} {{path/to/output.pdf}}`
+`{{command}} | pandoc {{[-f|--from]}} {{input_format}} --pdf-engine {{tectonic|weasyprint|typst|...}} {{[-o|--output]}} {{path/to/output.pdf}}`
 
 - Convert to a standalone file with the appropriate headers/footers (for LaTeX, HTML, etc.):
 
