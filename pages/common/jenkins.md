@@ -1,4 +1,4 @@
-# jenkins cli
+# jenkins-cli
 
 > An open-source automation server that facilitates the automation of software development lifecycle.
 > More information: <https://www.jenkins.io/doc/>.
@@ -7,11 +7,11 @@
 
 `java -jar jenkins-cli.jar -s {{jenkins_server_url}} -auth {{username}}:{{api_token}}`
 
-- List Available Commands:
+- Display help:
 
 `java -jar jenkins-cli.jar -s {{jenkins_server_url}} help`
 
-- Get Version:
+- Display Version:
 
 `java -jar jenkins-cli.jar -s {{jenkins_server_url}} version`
 
