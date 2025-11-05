@@ -15,17 +15,17 @@
 
 `cat {{path/to/file1 path/to/file2 ...}} >> {{path/to/output_file}}`
 
-- Write `stdin` to a file:
+- Write to a file interactively:
 
-`cat - > {{path/to/file}}`
+`cat > {{path/to/file}}`
 
 - Number all output lines:
 
 `cat {{[-n|--number]}} {{path/to/file}}`
 
-- Display non-printable and whitespace characters (with `M-` prefix if non-ASCII):
+- Display all characters, including tabs, line endings, and non-printing characters:
 
-`cat {{[-vte|--show-nonprinting -t -e]}} {{path/to/file}}`
+`cat {{[-A|--show-all]}} {{path/to/file}}`
 
 - Pass file contents to another program through `stdin`:
 

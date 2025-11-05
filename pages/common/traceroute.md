@@ -1,6 +1,7 @@
 # traceroute
 
 > Print the route packets trace to network host.
+> See also: `mtr`.
 > More information: <https://manned.org/traceroute>.
 
 - Traceroute to a host:
