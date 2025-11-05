@@ -23,6 +23,6 @@
 
 `bun unlink --global {{package_name}}`
 
-- Show help:
+- Display help:
 
 `bun link --help`
