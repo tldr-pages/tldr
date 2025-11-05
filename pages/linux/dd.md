@@ -1,7 +1,7 @@
 # dd
 
 > Convert and copy a file.
-> See also: `dd`.
+> See also: `caligula`.
 > More information: <https://www.gnu.org/software/coreutils/manual/html_node/dd-invocation.html>.
 
 - Make a bootable USB drive from an isohybrid file (such as `archlinux-xxx.iso`) and show the progress:
