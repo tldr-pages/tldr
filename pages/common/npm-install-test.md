@@ -1,12 +1,12 @@
 # npm install-test
 
-> Install dependencies and then run tests in a Node.js project.
 > Equivalent to running `npm install` followed by `npm test`.
+> Note: `it` can be used as shorthand for `install-test`
 > More information: <https://docs.npmjs.com/cli/v8/commands/npm-install-test>.
 
 - Install all dependencies and then run tests:
 
-`npm {{[it|install-test]}}`
+`npm install-test`
 
 - Install a specific package and then run tests:
 
