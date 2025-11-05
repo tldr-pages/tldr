@@ -18,11 +18,11 @@
 
 - Export dependencies for a specific format:
 
-`poetry export {{[-f|--format]}} {{requirements.txt}} {{[-o|--output]}} {{requirements.txt}}`
+`poetry export {{[-o|--output]}} {{requirements.txt}} {{[-f|--format]}} {{requirements.txt}}`
 
 - Export only specific dependency groups:
 
-`poetry export --only {{main}} {{[-o|--output]}} {{requirements.txt}}`
+`poetry export {{[-o|--output]}} {{requirements.txt}} --only {{main}}`
 
 - Display help:
 
