@@ -7,14 +7,6 @@
 
 `java -jar jenkins-cli.jar -s {{jenkins_server_url}} -auth {{username}}:{{api_token}}`
 
-- Display help:
-
-`java -jar jenkins-cli.jar -s {{jenkins_server_url}} help`
-
-- Display Version:
-
-`java -jar jenkins-cli.jar -s {{jenkins_server_url}} version`
-
 - Restart jenkins:
 
 `java -jar jenkins-cli.jar -s {{jenkins_server_url}} restart`
@@ -22,3 +14,11 @@
 - Shutdown jenkins:
 
 `java -jar jenkins-cli.jar -s {{jenkins_server_url}} shutdown`
+
+- Display help:
+
+`java -jar jenkins-cli.jar -s {{jenkins_server_url}} help`
+
+- Display Version:
+
+`java -jar jenkins-cli.jar -s {{jenkins_server_url}} version`
