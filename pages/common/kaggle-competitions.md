@@ -19,7 +19,7 @@
 
 `kaggle competitions submit {{competition_name}} {{[-f|--file]}} {{path/to/file}} {{[-m|--message]}} "{{message}}"`
 
-- Show or Download leaderboard:
+- Show or download leaderboard:
 
 `kaggle competitions leaderboard {{competition-name}} {{--show|--download}}`
 
