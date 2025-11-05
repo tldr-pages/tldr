@@ -37,7 +37,7 @@ grep -r Converts
 grep -r Launches
 grep -r —
 grep -r "’"
-grep -r "”"
+grep -r '”'
 grep -ir initialise
 grep -ir licence
 grep -r "^-" | grep "{{"
