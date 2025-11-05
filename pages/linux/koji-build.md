@@ -3,7 +3,7 @@
 > Build a package.
 > More information: <https://docs.pagure.org/koji>.
 
-- Build a package from src.rpm:
+- Build a package from `src.rpm`:
 
 `koji build {{target}} {{path/to/src.rpm}}`
 
