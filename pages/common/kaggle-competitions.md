@@ -21,7 +21,7 @@
 
 - Show or download leaderboard:
 
-`kaggle competitions leaderboard {{competition-name}} {{--show|--download}}`
+`kaggle competitions leaderboard {{competition_name}} {{--show|--download}}`
 
 - View Submissions:
 
