@@ -13,7 +13,7 @@
 
 - Download specific file:
 
-`kaggle competitions download {{competition_name}} -f {{file}}`
+`kaggle competitions download {{competition_name}} {{[-f|--file]}} {{file}}`
 
 - Submit files to a competition:
 
