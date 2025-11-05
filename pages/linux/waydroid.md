@@ -5,7 +5,7 @@
 
 - Start Waydroid:
 
-`waydroid`
+`waydroid show-full-ui`
 
 - Initialize Waydroid (required on first run or after reinstalling Android):
 
