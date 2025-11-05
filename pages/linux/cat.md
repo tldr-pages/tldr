@@ -23,6 +23,6 @@
 
 `cat {{[-n|--number]}} {{path/to/file}}`
 
-- Display non-printable and whitespace characters (with `M-` prefix if non-ASCII):
+- Display all characters, including tabs, line endings, and non-printing characters:
 
-`cat {{[-vte|--show-nonprinting -t -e]}} {{path/to/file}}`
+`cat {{[-A|--show-all]}} {{path/to/file}}`
