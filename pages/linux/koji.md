@@ -23,6 +23,6 @@
 
 `koji {{subcommand}} --help`
 
-- Display koji client and kojihub version:
+- Display version:
 
 `koji version`
