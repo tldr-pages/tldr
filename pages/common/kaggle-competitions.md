@@ -7,7 +7,7 @@
 
 `kaggle competitions list`
 
-- Download Competition Data:
+- Download competition data:
 
 `kaggle competitions download {{competition_name}}`
 
