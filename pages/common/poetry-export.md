@@ -14,7 +14,7 @@
 
 - Export dependencies without hashes:
 
-`poetry export --without-hashes {{[-o|--output]}} {{requirements.txt}}`
+`poetry export {{[-o|--output]}} {{requirements.txt}} --without-hashes`
 
 - Export dependencies for a specific format:
 
