@@ -5,7 +5,7 @@
 
 - List all datasets owned by a user or organization:
 
-`kaggle datasets list --user {{username}}`
+`kaggle {{[d|datasets]}} list --user {{username}}`
 
 - Search dataset by name:
 
