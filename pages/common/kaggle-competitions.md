@@ -17,7 +17,7 @@
 
 - Submit files to a competition:
 
-`kaggle competitions submit {{competition-name}} -f {{file-path}} -m "{{message}}"`
+`kaggle competitions submit {{competition_name}} {{[-f|--file]}} {{path/to/file}} {{[-m|--message]}} "{{message}}"`
 
 - Show or Download leaderboard:
 
