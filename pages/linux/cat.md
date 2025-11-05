@@ -29,4 +29,4 @@
 
 - Pass file contents to another program through `stdin`:
 
-`cat "{{Hello World}}" | {{program}}`
+`cat {{path/to/file}} | {{program}}`
