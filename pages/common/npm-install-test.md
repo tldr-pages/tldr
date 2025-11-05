@@ -10,12 +10,12 @@
 
 - Install a specific package and then run tests:
 
-`npm {{[it|install-test]}} {{package_name}}`
+`npm install-test {{package_name}}`
 
 - Install a package and save it as a dependency before running tests:
 
-`npm {{[it|install-test]}} {{package_name}} {{[-S|--save]}}`
+`npm install-test {{package_name}} {{[-S|--save]}}`
 
 - Install dependencies globally and then run tests:
 
-`npm {{[it|install-test]}} {{[-g|--global]}}`
+`npm install-test {{[-g|--global]}}`
