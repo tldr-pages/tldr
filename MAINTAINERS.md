@@ -100,6 +100,10 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [10 September 2025](https://github.com/tldr-pages/tldr/issues/18069) — present
 - **Sadeed Waseem ([@sadeeed](https://github.com/Sadeeed))**:
   [04 October 2025](https://github.com/tldr-pages/tldr/issues/18393) — present
+- **Ivan Baluta ([@ivanbaluta](https://github.com/ivanbaluta))**:
+  [03 November 2025](https://github.com/tldr-pages/tldr/issues/19176) — present
+- **Meinard Francisco ([@znarfm](https://github.com/znarfm))**:
+  [04 November 2025](https://github.com/tldr-pages/tldr/issues/19190) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke)):
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
