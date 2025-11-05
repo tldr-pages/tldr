@@ -17,7 +17,7 @@
 
 - Create a dataset with visibility type:
 
-`kaggle datasets create {{[-p|--path]}} {{path/to/dataset}} {{--public|--private}}`
+`kaggle {{[d|datasets]}} create {{[-p|--path]}} {{path/to/dataset}} {{[-u|--public]}}`
 
 - Download metadata of dataset:
 
