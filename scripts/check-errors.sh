@@ -14,9 +14,9 @@ grep -r linuxcommandlibrary
 grep -r /html_node/ | grep -v coreutils | grep -v emacs | grep -v grub
 grep -r "#>"
 grep -ri "check.* help"
-grep -r ?ref_type=heads
-grep -r ?tab=readme-ov-file
-grep -r ?utm_source=chatgpt.com
+grep -r "?ref_type=heads"
+grep -r "?tab=readme-ov-file"
+grep -r "?utm_source=chatgpt.com"
 grep -r file_path
 grep -r http://target
 grep -r "directory/}}"
@@ -36,10 +36,10 @@ grep -r Deploys
 grep -r Converts
 grep -r Launches
 grep -r —
-grep -r ’
-grep -r ”
+grep -r "’"
+grep -r "”"
 grep -ir initialise
 grep -ir licence
-grep -r "^-" | grep {{
+grep -r "^-" | grep "{{"
 find . -type f -executable
 grep -vr ^\` | grep "'[a-zA-Z][a-zA-Z]*'"
