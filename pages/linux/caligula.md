@@ -1,6 +1,7 @@
 # caligula
 
 > A user-friendly, lightweight TUI for disk imaging.
+> See also: `dd`.
 > More information: <https://github.com/ifd3f/caligula>.
 
 - Flash an ISO to a drive:
