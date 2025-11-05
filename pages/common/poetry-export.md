@@ -10,7 +10,7 @@
 
 - Export dependencies including development dependencies:
 
-`poetry export --dev {{[-o|--output]}} {{requirements-dev.txt}}`
+`poetry export {{[-o|--output]}} {{requirements-dev.txt}} --dev`
 
 - Export dependencies without hashes:
 
