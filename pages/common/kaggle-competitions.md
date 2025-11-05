@@ -5,7 +5,7 @@
 
 - List all competitions:
 
-`kaggle competitions list`
+`kaggle {{[c|competitions]}} list`
 
 - Download competition data:
 
