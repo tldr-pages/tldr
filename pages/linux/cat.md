@@ -26,3 +26,7 @@
 - Display all characters, including tabs, line endings, and non-printing characters:
 
 `cat {{[-A|--show-all]}} {{path/to/file}}`
+
+- Pass file contents to another program through `stdin`:
+
+`cat {{path/to/file}} | {{program}}`
