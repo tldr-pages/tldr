@@ -11,7 +11,7 @@
 
 `poetry init --name {{package_name}} --author "{{author_name <email@example.com>}}"`
 
-- Create a `pyproject.toml` file without interaction (use defaults):
+- Create a `pyproject.toml` file without interaction (using defaults):
 
 `poetry init {{[-i|--no-interaction]}}`
 
