@@ -9,7 +9,7 @@
 
 - Create a `pyproject.toml` file with prefilled values:
 
-`poetry init --name {{package_name}} --author "{{Author Name <email@example.com>}}"`
+`poetry init --name {{package_name}} --author "{{author_name <email@example.com>}}"`
 
 - Create a `pyproject.toml` file without interaction (use defaults):
 
