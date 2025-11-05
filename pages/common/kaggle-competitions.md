@@ -23,6 +23,6 @@
 
 `kaggle competitions leaderboard {{competition_name}} {{--show|--download}}`
 
-- View Submissions:
+- View submissions:
 
 `kaggle competitions submissions {{competition_name}}`
