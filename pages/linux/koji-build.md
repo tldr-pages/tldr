@@ -15,7 +15,7 @@
 
 `koji build --scratch {{target}} {{path/to/src.rpm}}`
 
-- Wait on the build, even if running in the background:
+- Wait on the build, even if it's running in the background:
 
 `koji build --wait {{target}} {{path/to/src.rpm}}`
 
