@@ -18,4 +18,4 @@
 
 - Resume from an interrupted download:
 
-`wcurl --curl-options "--continue-at -" {{https://example.com/foo}}`
+`wcurl --curl-options "--clobber --continue-at -" {{https://example.com/foo}}`
