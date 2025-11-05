@@ -9,19 +9,19 @@
 
 - Link a package locally to a project:
 
-`bun link {{package-name}}`
+`bun link {{package_name}}`
 
 - Link directly from a local path:
 
-`bun link {{path}}`
+`bun link {{path/to/package}}`
 
 - Unlink a package:
 
-`bun unlink {{package-name}}`
+`bun unlink {{package_name}}`
 
 - Unlink a global package:
 
-`bun unlink --global {{package-name}}`
+`bun unlink --global {{package_name}}`
 
 - Show help:
 
