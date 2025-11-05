@@ -23,6 +23,6 @@
 
 `koji build --nowait {{target}} {{path/to/src.rpm}}`
 
-- Dispaly help:
+- Display help:
 
 `koji build --help`
