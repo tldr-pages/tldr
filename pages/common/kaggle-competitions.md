@@ -9,20 +9,20 @@
 
 - Download competition data:
 
-`kaggle competitions download {{competition_name}}`
+`kaggle {{[c|competitions]}} download {{competition_name}}`
 
 - Download specific file:
 
-`kaggle competitions download {{competition_name}} {{[-f|--file]}} {{file}}`
+`kaggle {{[c|competitions]}} download {{competition_name}} {{[-f|--file]}} {{file}}`
 
 - Submit files to a competition:
 
-`kaggle competitions submit {{competition_name}} {{[-f|--file]}} {{path/to/file}} {{[-m|--message]}} "{{message}}"`
+`kaggle {{[c|competitions]}} submit {{competition_name}} {{[-f|--file]}} {{path/to/file}} {{[-m|--message]}} "{{message}}"`
 
 - Show or download leaderboard:
 
-`kaggle competitions leaderboard {{competition_name}} {{--show|--download}}`
+`kaggle {{[c|competitions]}} leaderboard {{competition_name}} {{--show|--download}}`
 
 - View submissions:
 
-`kaggle competitions submissions {{competition_name}}`
+`kaggle {{[c|competitions]}} submissions {{competition_name}}`
