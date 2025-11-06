@@ -5,11 +5,11 @@
 
 - Print basic information:
 
-`koji buildinfo {{[BuildID NVR ...]}}`
+`koji buildinfo {{BuildID NVR ...}}`
 
 - Print basic information with changelog:
 
-`koji buildinfo --changelog {{[BuildID1 BuildID2 ... NVR1 NVR2 ...]}}`
+`koji buildinfo --changelog {{BuildID NVR ...}}`
 
 - Display help:
 
