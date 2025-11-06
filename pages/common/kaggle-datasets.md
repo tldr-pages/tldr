@@ -9,11 +9,11 @@
 
 - Search dataset by name:
 
-`kaggle datasets list {{[-s|--search]}} "{{dataset_name}}"`
+`kaggle {{[d|datasets]}} list {{[-s|--search]}} "{{dataset_name}}"`
 
 - Download a dataset:
 
-`kaggle datasets download "{{dataset_name}}"`
+`kaggle {{[d|datasets]}} download "{{dataset_name}}"`
 
 - Create a public dataset:
 
@@ -21,12 +21,12 @@
 
 - Download metadata of dataset:
 
-`kaggle datasets metadata {{dataset_name}}`
+`kaggle {{[d|datasets]}} metadata {{dataset_name}}`
 
 - Initialize metadata for dataset:
 
-`kaggle datasets init {{[-p|--path]}} {{path/to/dataset}}`
+`kaggle {{[d|datasets]}} init {{[-p|--path]}} {{path/to/dataset}}`
 
 - Delete a dataset:
 
-`kaggle datasets delete {{dataset_name}}`
+`kaggle {{[d|datasets]}} delete {{dataset_name}}`
