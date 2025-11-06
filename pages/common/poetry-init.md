@@ -13,7 +13,7 @@
 
 - Create a `pyproject.toml` file without interaction (using defaults):
 
-`poetry init {{[-i|--no-interaction]}}`
+`poetry init {{[-n|--no-interaction]}}`
 
 - Create a `pyproject.toml` file and add a dependency:
 
