@@ -9,7 +9,7 @@
 
 - Download RPMs signed with the given key:
 
-`koji download-build --key {{key}} {{BuildID|RPM|NVR}}`
+`koji download-build {{BuildID|RPM|NVR}} --key {{key}}`
 
 - Only download RPMs for given arch:
 
