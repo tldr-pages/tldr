@@ -35,3 +35,7 @@
 - E[x]tract files matching a pattern from an archive [f]ile:
 
 `tar xf {{path/to/source.tar}} --wildcards "{{*.html}}"`
+
+- Extract only specific files from an archive:
+`tar xf {{source.tar}} {{path/to/file1}} {{path/to/file2}}`
+    
