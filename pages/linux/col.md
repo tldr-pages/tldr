@@ -13,7 +13,7 @@
 
 - Remove backspaces, output only the last character written to each position:
 
-`{{command}} | col -b`
+`{{command}} | col {{[-b|--no-backspaces]}}`
 
 - Specify a buffer size with a specific number of lines:
 
