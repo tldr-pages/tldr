@@ -19,6 +19,6 @@
 
 `java -jar jenkins-cli.jar -s {{jenkins_server_url}} help`
 
-- Display Version:
+- Display version:
 
 `java -jar jenkins-cli.jar -s {{jenkins_server_url}} version`
