@@ -13,11 +13,11 @@
 
 - Only download RPMs for given arch:
 
-`koji download-build --arch {{x86_64,aarch64,noarch,...}} {{BuildID|RPM|NVR}}`
+`koji download-build {{BuildID|RPM|NVR}} --arch {{x86_64,aarch64,noarch,...}}`
 
 - Download the given RPM:
 
-`koji download-build --rpm {{RPM}}`
+`koji download-build {{RPM}} --rpm`
 
 - Display help:
 
