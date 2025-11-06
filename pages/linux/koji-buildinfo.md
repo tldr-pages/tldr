@@ -9,7 +9,7 @@
 
 - Print basic information with changelog:
 
-`koji buildinfo --changelog {{BuildID NVR ...}}`
+`koji buildinfo {{BuildID NVR ...}} --changelog`
 
 - Display help:
 
