@@ -1,7 +1,7 @@
 # systemctl set-property
 
 > Set the specified unit properties at runtime.
-> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#set-property%20UNIT%20PROPERTY=VALUE%E2%80%A6>.
+> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#set-property%20UNIT%20PROPERTY=VALUE%E2%80%A6>.
 
 - Set a property for a running service:
 
