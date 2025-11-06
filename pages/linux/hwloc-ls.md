@@ -12,7 +12,6 @@
 
 `hwloc-ls --only pu`
 
-
 - Display the topology with physical indexes:
 
 `hwloc-ls --physical`
