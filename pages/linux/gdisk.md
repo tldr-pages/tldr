@@ -24,6 +24,6 @@
 
 `sudo gdisk -m {{/dev/sdX}}`
 
-- Display detailed help information:
+- Display help:
 
 `sudo gdisk -? {{/dev/sdX}}`
