@@ -13,7 +13,7 @@
 
 - Set a property only for the current runtime session (not persistent):
 
-`systemctl set-property --runtime {{unit}} {{property}}={{value}}`
+`systemctl set-property {{unit}} {{property}}={{value}} --runtime`
 
 - Reset a property to its default value:
 
