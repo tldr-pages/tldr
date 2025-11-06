@@ -15,7 +15,7 @@
 
 `kaggle datasets download "{{dataset_name}}"`
 
-- Create a dataset with visibility type:
+- Create a public dataset:
 
 `kaggle {{[d|datasets]}} create {{[-p|--path]}} {{path/to/dataset}} {{[-u|--public]}}`
 
