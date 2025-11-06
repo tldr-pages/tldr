@@ -26,4 +26,3 @@
 - Process a file with reverse line feeds and save the cleaned output:
 
 `cat {{path/to/input_file}} | col -x > {{output_file}}`
-
