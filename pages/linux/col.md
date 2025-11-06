@@ -1,34 +1,32 @@
-col
+# col
 
-    Filter reverse line feeds from input.
-    More information: https://manned.org/col.
+> Filter reverse line feeds from input.
+> More information: <https://manned.org/col>.
 
-    Filter reverse line feeds from input:
+- Filter reverse line feeds from input:
 
-{{command}} | col
+`{{command}} | col`
 
-    Filter reverse line feeds and output with spaces instead of tabs:
+- Filter reverse line feeds and output with spaces instead of tabs:
 
-{{command}} | col -x
+`{{command}} | col -x`
 
-    Remove backspaces, output only the last character written to each position:
+- Remove backspaces, output only the last character written to each position:
 
-{{command}} | col -b
+`{{command}} | col -b`
 
-    Specify a buffer size with a specific number of lines:
+- Specify a buffer size with a specific number of lines:
 
-{{command}} | col -l {{num}}
+`{{command}} | col -l {{num}}`
 
-Examples:
+- Format a manual page for viewing with `less`:
 
-    Format a manual page for viewing with less:
+`man ls | col -b | less`
 
-man ls | col -b | less
+- Process a file with reverse line feeds and save the cleaned output:
 
-    Process a file with reverse line feeds and save the cleaned output:
+`col -x < {{input_file}} > {{output_file}}`
 
-col -x < {{input_file}} > {{output_file}}
+- Filter output while converting multiple spaces to tabs:
 
-    Filter output while converting multiple spaces to tabs:
-
-{{command}} | col -x
+`{{command}} | col -x`
