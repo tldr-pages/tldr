@@ -3,7 +3,7 @@
 > 切换 shell 到另一个用户。
 > 更多信息：<https://manned.org/su>.
 
-- 切换到超级用户（需要root密码）：
+- 切换到超级用户（需要 root 密码）：
 
 `su`
 
