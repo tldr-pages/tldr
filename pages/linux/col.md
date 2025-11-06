@@ -27,6 +27,3 @@
 
 `cat {{path/to/input_file}} | col -x > {{output_file}}`
 
-- Filter output while converting multiple spaces to tabs:
-
-`{{command}} | col -x`
