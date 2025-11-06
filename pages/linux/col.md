@@ -25,7 +25,7 @@
 
 - Process a file with reverse line feeds and save the cleaned output:
 
-`col -x < {{input_file}} > {{output_file}}`
+`cat {{path/to/input_file}} | col -x > {{output_file}}`
 
 - Filter output while converting multiple spaces to tabs:
 
