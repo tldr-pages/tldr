@@ -9,11 +9,11 @@
 
 - Do't wait on task:
 
-`koji tag-build --nowait {{tag}} {{NVR1 NVR2 ...}}`
+`koji tag-build {{tag}} {{NVR1 NVR2 ...}} --nowait`
 
 - Force operation:
 
-`koji tag-build --force {{tag}} {{NVR1 NVR2 ...}}`
+`koji tag-build {{tag}} {{NVR1 NVR2 ...}} --force`
 
 - Display help:
 
