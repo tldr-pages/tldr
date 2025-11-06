@@ -5,7 +5,7 @@
 
 - Print basic information:
 
-`koji buildinfo {{[BuildID1 BuildID2 ... NVR1 NVR2 ...]}}`
+`koji buildinfo {{[BuildID NVR ...]}}`
 
 - Print basic information with changelog:
 
