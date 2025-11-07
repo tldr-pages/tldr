@@ -17,7 +17,7 @@
 
 - Vuelca un repositorio con un puerto personalizado y un límite de velocidad:
 
-`dockdiver -url http://example.com -dump {{nombre_repositorio}} -port {{puerto}} -rate {{solicitudes_por_segundo}} -dir {{ruta/a/directorio_salida}}`
+`dockdiver -url {{http://example.com}} -dump {{nombre_repositorio}} -port {{puerto}} -rate {{solicitudes_por_segundo}} -dir {{ruta/a/directorio_salida}}`
 
 - Vuelca todos los repositorios con token de portador para autorización:
 
