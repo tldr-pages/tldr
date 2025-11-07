@@ -9,7 +9,7 @@
 
 - Bundle multiple entry points to an output directory:
 
-`bun build {{path/to/entry1.ts path/to/entry2.ts}} --outdir {{path/to/dist}}`
+`bun build {{path/to/entry1.ts path/to/entry2.ts ...}} --outdir {{path/to/dist}}`
 
 - Bundle with source maps for debugging:
 
