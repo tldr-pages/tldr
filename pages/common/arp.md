@@ -5,6 +5,10 @@
 
 - Show the current ARP table:
 
+`arp`
+
+- Show [a]lternative BSD style output format with on fixed columns 
+
 `arp -a`
 
 - [d]elete a specific entry:
