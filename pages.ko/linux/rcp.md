@@ -2,7 +2,7 @@
 
 > 로컬 및 원격 시스템 간에 파일을 복사합니다.
 > `cp` 명령의 동작을 모방하지만, 다른 기기 간에 작동합니다.
-> 더 많은 정보: <https://www.gnu.org/software/inetutils/manual/html_node/rcp-invocation.html>.
+> 더 많은 정보: <https://www.gnu.org/software/inetutils/manual/inetutils.html#rcp-invocation>.
 
 - 파일을 원격 호스트로 복사:
 

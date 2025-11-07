@@ -1,7 +1,7 @@
 # guix package
 
 > Guix 패키지를 설치, 업그레이드, 제거하거나 이전 구성으로 롤백합니다.
-> 더 많은 정보: <https://guix.gnu.org/manual/html_node/Invoking-guix-package.html>.
+> 더 많은 정보: <https://guix.gnu.org/manual/en/guix.html#Invoking-guix-package>.
 
 - 새 패키지 설치:
 

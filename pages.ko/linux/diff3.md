@@ -1,7 +1,7 @@
 # diff3
 
 > 세 개의 파일을 줄 단위로 비교합니다.
-> 더 많은 정보: <https://www.gnu.org/software/diffutils/manual/html_node/Invoking-diff3.html>.
+> 더 많은 정보: <https://www.gnu.org/software/diffutils/manual/diffutils.html#Invoking-diff3>.
 
 - 파일 비교:
 

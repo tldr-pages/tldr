@@ -1,7 +1,7 @@
 # diff3
 
 > Compara 3 arquivos linha por linha.
-> Mais informações: <https://www.gnu.org/software/diffutils/manual/html_node/Invoking-diff3.html>.
+> Mais informações: <https://www.gnu.org/software/diffutils/manual/diffutils.html#Invoking-diff3>.
 
 - Compara os arquivos:
 
