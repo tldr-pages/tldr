@@ -18,4 +18,4 @@
 
 - Display help:
 
-`hwloc-ls --help`
+`hwloc-ls {{[-h|--help]}}`
