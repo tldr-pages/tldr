@@ -5,12 +5,12 @@
 
 - 다른 인코딩 방식으로 사진 촬영:
 
-`rpicam-still -e {{bmp|png|rgb|yuv420}} -o {{경로/대상/파일.[bmp|png|rgb|yuv420]}}`
+`rpicam-still {{[-e|--encoding]}} {{bmp|png|rgb|yuv420}} {{[-o|--output]}} {{경로/대상/파일.[bmp|png|rgb|yuv420]}}`
 
 - RAW 이미지 촬영:
 
-`rpicam-still -r -o {{경로/대상/파일.jpg}}`
+`rpicam-still {{[-r|--raw]}} {{[-o|--output]}} {{경로/대상/파일.jpg}}`
 
 - 100초 노출 이미지 촬영:
 
-`rpicam-still -o {{경로/대상/파일.jpg}} --shutter 100000`
+`rpicam-still {{[-o|--output]}} {{경로/대상/파일.jpg}} --shutter 100000`
