@@ -30,4 +30,4 @@
 
 - Exclude specific checks or services:
 
-`prowler kubernetes {{[-e|--excluded-checks]}} {{etcd_encryption}} --exclude-services {{ietcd apiserver ...}}`
+`prowler kubernetes {{[-e|--excluded-checks]}} {{etcd_encryption}} --exclude-services {{ietcd|apiserver|...}}`
