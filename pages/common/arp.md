@@ -7,7 +7,7 @@
 
 `arp`
 
-- Show [a]lternative BSD style output format with on fixed columns 
+- Show [a]lternative BSD style output format with on fixed columns:
 
 `arp -a`
 
