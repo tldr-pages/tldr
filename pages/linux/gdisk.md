@@ -12,7 +12,7 @@
 
 `sudo gdisk {{/dev/sdX}}`
 
-- Open a help [?]menu:
+- Open a help menu:
 
 `<?>`
 
@@ -32,10 +32,10 @@
 
 `<d>`
 
-- [w]rite table to disk and exit:
+- Write table to disk and exit:
 
 `<w>`
 
-- [q]uit without saving changes:
+- Quit without saving changes:
 
 `<q>`
