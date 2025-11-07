@@ -16,11 +16,11 @@
 
 `<?>`
 
-- change a partition's name
+- [c]hange a partition's name:
 
 `<c>`
 
-- show detailed [i]nformation on a partition
+- Show detailed [i]nformation on a partition:
 
 `<i>`
 
