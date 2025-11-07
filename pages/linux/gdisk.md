@@ -4,10 +4,42 @@
 > See also: `cfdisk`, `fdisk`, `parted`.
 > More information: <https://manned.org/gdisk>.
 
-- Start partition manipulator for a specific disk:
+- List partitions:
+
+`sudo gdisk {{[-l|--list]}}`
+
+- Start the interactive partition manipulator:
 
 `sudo gdisk {{/dev/sdX}}`
 
-- Display partition table without entering interactive mode:
+- Open a help [?]enu:
 
-`sudo gdisk -l {{/dev/sdX}}`
+`<?>`
+
+- change a partition's name
+
+`<c>`
+
+- show detailed [i]nformation on a partition
+
+`<i>`
+
+- Print the [p]artition table:
+
+`<p>`
+
+- Add a [n]ew partition:
+
+`<n>`
+
+- Select a partition to [d]elete:
+
+`<d>`
+
+- [w]rite table to disk and exit:
+
+`<w>`
+
+- [q]uit without saving changes:
+
+`<q>`
