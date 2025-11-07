@@ -12,13 +12,9 @@
 
 `sudo gdisk {{/dev/sdX}}`
 
-- Open a help [?]enu:
+- Open a help [?]menu:
 
 `<?>`
-
-- [c]hange a partition's name:
-
-`<c>`
 
 - Show detailed [i]nformation on a partition:
 
