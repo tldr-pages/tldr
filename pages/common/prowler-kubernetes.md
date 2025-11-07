@@ -22,7 +22,7 @@
 
 - Run checks for selected Kubernetes services:
 
-`prowler kubernetes {{[-s|--services]}} {{ietcd apiserver ...}}`
+`prowler kubernetes {{[-s|--services]}} {{ietcd|apiserver|...}}`
 
 - Run a specific Kubernetes check:
 
