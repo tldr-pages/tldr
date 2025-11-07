@@ -16,6 +16,6 @@
 
 `koji call build '"{{git+https://src.fedoraproject.org/rpms/vim.git#e847a50297a216229050bf4db3d06a139104e7cf}}"' \"{{target}}\" --kwargs '{"channel":"default"}'`
 
-- Display help
+- Display help:
 
 `koji call --help`
