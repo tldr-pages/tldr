@@ -13,15 +13,15 @@
 
 - Perform a scratch build:
 
-`koji build --scratch {{target}} {{path/to/src.rpm}}`
+`koji build {{target}} {{path/to/src.rpm}} --scratch`
 
 - Wait on the build, even if it's running in the background:
 
-`koji build --wait {{target}} {{path/to/src.rpm}}`
+`koji build {{target}} {{path/to/src.rpm}} --wait`
 
 - Don't wait on build:
 
-`koji build --nowait {{target}} {{path/to/src.rpm}}`
+`koji build {{target}} {{path/to/src.rpm}} --nowait`
 
 - Display help:
 
