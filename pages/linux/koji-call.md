@@ -1,7 +1,7 @@
 # koji call
 
-> Execute an arbitrary XML-RPC call
-> eg: build function declaration is build(src, target, opts=None, priority=None, channel=None)
+> Execute an arbitrary XML-RPC call.
+> eg: build function declaration is build(src, target, opts=None, priority=None, channel=None).
 > More information: <https://koji.fedoraproject.org/koji/api>.
 
 - Call build function with scratch option:
