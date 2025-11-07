@@ -32,6 +32,6 @@
 
 `<d>`
 
-- Quit without saving changes:
+- [q]uit without saving changes:
 
 `<q>`
