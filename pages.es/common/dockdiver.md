@@ -25,4 +25,4 @@
 
 - Añade cabeceras personalizadas como JSON (por ejemplo, '{"X-Custom": "Value"}'):
 
-`dockdiver -url {{http://example.com}} -list -headers {{'{"X-Custom": "Value"}'}}`
+`dockdiver -url {{http://example.com}} -list -headers '{{{"X-Custom": "Value"}}}'`
