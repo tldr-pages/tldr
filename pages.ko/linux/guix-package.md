@@ -5,23 +5,23 @@
 
 - 새 패키지 설치:
 
-`guix package -i {{패키지}}`
+`guix package {{[-i|--install]}} {{패키지}}`
 
 - 패키지 제거:
 
-`guix package -r {{패키지}}`
+`guix package {{[-r|--remove]}} {{패키지}}`
 
 - 정규 표현식으로 패키지 데이터베이스 검색:
 
-`guix package -s "{{검색_패턴}}"`
+`guix package {{[-s|--search]}} "{{검색_패턴}}"`
 
 - 설치된 패키지 나열:
 
-`guix package -I`
+`guix package {{[-I|--list-installed]}}`
 
 - 생성 목록 나열:
 
-`guix package -l`
+`guix package {{[-l|--list-generations]}}`
 
 - 이전 생성으로 롤백:
 

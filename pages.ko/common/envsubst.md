@@ -18,4 +18,4 @@
 
 - 공백으로 구분된 목록에서 입력 파일의 환경 변수를 변경:
 
-`envsubst '{{$USER $SHELL $HOME}}' < {{경로/대상/입력_파일}}`
+`envsubst < {{경로/대상/입력_파일}} '{{$USER $SHELL $HOME}}'`

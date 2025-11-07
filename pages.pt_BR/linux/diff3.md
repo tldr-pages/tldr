@@ -9,4 +9,4 @@
 
 - Exibe todas as diferenças, destacando os conflitos:
 
-`diff3 --show-all {{caminho/para/arquivo1}} {{caminho/para/arquivo2}} {{caminho/para/arquivo3}}`
+`diff3 {{[-A|--show-all]}} {{caminho/para/arquivo1}} {{caminho/para/arquivo2}} {{caminho/para/arquivo3}}`
