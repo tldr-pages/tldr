@@ -11,7 +11,7 @@
 
 `clamscan -r {{ruta/al/directorio}}`
 
-- Escanea datos desde 'stdin`:
+- Escanea datos desde `stdin`:
 
 `{{comando}} | clamscan -`
 

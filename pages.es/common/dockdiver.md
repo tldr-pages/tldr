@@ -5,11 +5,11 @@
 
 - Lista todos los repositorios en un registro Docker:
 
-`dockdiver -url {{http://target}} -list`
+`dockdiver -url {{https://example.com}} -list`
 
 - Vuelca un repositorio específico al directorio de salida por defecto (docker_dump):
 
-`dockdiver -url {{http://target}} -dump {{nombre_repositorio}}`
+`dockdiver -url {{https://example.com}} -dump {{nombre_repositorio}}`
 
 - Vuelca todos los repositorios con autenticación básica:
 
