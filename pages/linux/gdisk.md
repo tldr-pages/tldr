@@ -32,10 +32,6 @@
 
 `<d>`
 
-- Write table to disk and exit:
-
-`<w>`
-
 - Quit without saving changes:
 
 `<q>`
