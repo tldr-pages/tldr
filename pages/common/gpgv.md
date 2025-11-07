@@ -1,6 +1,7 @@
 # gpgv
 
 > Verify OpenPGP signatures.
+> Note: `gpgv` reads trusted pubkeys from `~/.gnupg/trustedkeys.kbx` in absence of the `--keyring` option.
 > See also: `gpg`.
 > More information: <https://www.gnupg.org/documentation/manuals/gnupg/gpgv.html>.
 
@@ -18,4 +19,4 @@
 
 - Verify a detached signature using a specific public key file in plain text format (`.txt`):
 
-`gpg --dearmor {{[-o|--output]}} {{path/to/pubkey.gpg}} < {{path/to/pubkey.txt}} && gpgv --keyring {{path/to/pubkey.gpg}} {{path/to/signature.asc}} {{path/to/data_file}}`
+`gpg --dearmor {{[-o|--output]}} {{path/to/pubkey.gpg}} {{path/to/pubkey.txt}} && gpgv --keyring {{path/to/pubkey.gpg}} {{path/to/signature.asc}} {{path/to/data_file}}`
