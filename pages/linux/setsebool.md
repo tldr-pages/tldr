@@ -18,7 +18,7 @@
 
 - Set or unset multiple booleans [P]ersistently at once:
 
-`sudo setsebool -P {{ftpd_use_fusefs=1 mount_anyfile=0 ...}}`
+`sudo setsebool -P {{key1 1 key2 0 ...}}`
 
 - Set or unset a boolean persistently (alternative method using `semanage-boolean`):
 
