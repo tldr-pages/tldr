@@ -14,7 +14,7 @@
 
 - Display the topology with physical indexes:
 
-`hwloc-ls --physical`
+`hwloc-ls {{[-p|--physical]}}`
 
 - Display help:
 
