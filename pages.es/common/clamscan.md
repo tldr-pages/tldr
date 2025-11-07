@@ -9,7 +9,7 @@
 
 - Escanea todos los archivos recursivamente en un directorio específico:
 
-`clamscan -r {{ruta/al/directorio}}`
+`clamscan {{[-r|--recursive]}} {{ruta/al/directorio}}`
 
 - Escanea datos desde `stdin`:
 
@@ -17,15 +17,15 @@
 
 - Escanea usando un archivo de bases de datos de virus o directorio de archivos:
 
-`clamscan --database {{ruta/al/archivo_o_directorio_con_base_de_datos}}`
+`clamscan {{[-d|--database]}} {{ruta/al/archivo_o_directorio_con_base_de_datos}}`
 
 - Escanea el directorio actual y muestra solo los archivos infectados:
 
-`clamscan --infected`
+`clamscan {{[-i|--infected]}}`
 
 - Imprime el informe de la exploración a un archivo de registro (log):
 
-`clamscan --log {{ruta/al/archivo_de_registro}}`
+`clamscan {{[-l|--log]}} {{ruta/al/archivo_de_registro}}`
 
 - Mueve archivos infectados a un directorio específico:
 
