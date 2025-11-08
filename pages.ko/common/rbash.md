@@ -3,7 +3,7 @@
 > 제한된 Bash 셸로, `bash --restricted`와 동등합니다.
 > 작업 디렉토리 변경, 명령 출력 리디렉션, 환경 변수 수정 등을 허용하지 않습니다.
 > 히스토리 확장을 위해 `histexpand`도 참조하세요.
-> 더 많은 정보: <https://www.gnu.org/software/bash/manual/html_node/The-Restricted-Shell>.
+> 더 많은 정보: <https://www.gnu.org/software/bash/manual/bash.html#The-Restricted-Shell>.
 
 - 대화형 셸 세션 시작:
 

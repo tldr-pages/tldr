@@ -1,7 +1,7 @@
 # hello
 
 > Stampa a schermo "Hello, world!", "hello, world" oppure del testo personalizzabile.
-> Maggiori informazioni: <https://www.gnu.org/software/hello/manual/html_node/Invoking-hello.html>.
+> Maggiori informazioni: <https://www.gnu.org/software/hello/manual/hello.html#Invoking-hello>.
 
 - Stampa a schermo "Hello, world!":
 
