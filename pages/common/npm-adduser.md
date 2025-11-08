@@ -9,7 +9,7 @@
 
 - Log in to a private registry with a specific scope:
 
-`npm login --scope {{@organization}} --registry {{https://registry.mycorp.com}}`
+`npm login --scope {{@organization}} --registry {{https://registry.example.com}}`
 
 - Log out from a specific scope and remove the auth token:
 
