@@ -7,9 +7,13 @@
 
 `locate "{{pattern}}"`
 
+- Look for a pattern case-insensitively:
+
+`locate -i "{{pattern}}"`
+
 - Look for a file by its exact filename (a pattern containing no globbing characters is interpreted as `*pattern*`):
 
-`locate */{{filename}}`
+`locate "*/{{filename}}"`
 
 - Recompute the database. You need to do it if you want to find recently added files:
 

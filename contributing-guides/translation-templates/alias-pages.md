@@ -165,7 +165,7 @@ The templates can be changed when necessary.
 
 > Este comando es un alias de `example`.
 
-- Vea la documentación para el comando original:
+- Vea la documentación del comando original:
 
 `tldr example`
 ```
@@ -207,7 +207,7 @@ The templates can be changed when necessary.
 
 > Cette commande est un alias de `example`.
 
-- Voir la documentation de la commande originale :
+- Affiche la documentation de la commande originale :
 
 `tldr example`
 ```

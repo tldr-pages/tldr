@@ -1,6 +1,7 @@
 # stat
 
 > Display file and filesystem information.
+> See also: `file`.
 > More information: <https://www.gnu.org/software/coreutils/manual/html_node/stat-invocation.html>.
 
 - Display properties about a specific file such as size, permissions, creation and access dates among others:
