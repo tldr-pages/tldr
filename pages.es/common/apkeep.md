@@ -1,7 +1,7 @@
 # apkeep
 
 > Descarga archivos APK de varias fuentes.
-> Más información: <https://github.com/EFForg/apkeep>.
+> Más información: <https://github.com/EFForg/apkeep/blob/master/USAGE>.
 
 - Descarga un archivo APK al directorio especificado:
 
