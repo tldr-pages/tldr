@@ -5,8 +5,8 @@
 
 - Start the partition manipulator with a specific device:
 
-`cfdisk {{/dev/sdX}}`
+`sudo cfdisk {{/dev/sdX}}`
 
 - Create a new partition table for a specific device and manage it:
 
-`cfdisk {{[-z|--zero]}} {{/dev/sdX}}`
+`sudo cfdisk {{[-z|--zero]}} {{/dev/sdX}}`
