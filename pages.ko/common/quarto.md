@@ -13,7 +13,7 @@
 
 - 입력 파일을 다양한 형식으로 렌더링:
 
-`quarto render {{경로/대상/파일.{{qmd|rmd|ipynb}}}} --to {{html|pdf|docx}}`
+`quarto render {{경로/대상/파일.[qmd|rmd|ipynb]}} --to {{html|pdf|docx}}`
 
 - 문서나 웹사이트를 렌더링하고 미리보기:
 
