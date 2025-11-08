@@ -6,6 +6,7 @@ grep -rE "{{\[[a-z]\|--[a-z]+\]}}"
 grep -r "{{-[a-zA-Z][a-zA-Z]|-"
 grep -r "{{\[ "
 grep -r " ]}}"
+# shellcheck disable=SC2016
 find . -type f -print0 | xargs -0 awk '{ q=gsub(/"/,"&"); if(q % 2 != 0) print FILENAME ": " $0 }'
 grep -r "{{[^}]*{{"
 grep -r www.manned
