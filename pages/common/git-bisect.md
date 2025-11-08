@@ -24,7 +24,7 @@
 
 `git bisect start {{bad_commit}} {{good_commit}} -- {{path/to/file_or_directory}}`
 
-- Automate the bisect process using a test script that `exit`s with 0 for "good" and non-zero for "bad":
+- Automate the bisect process using a test script that `exit`s with 0 for "good" and non-zero for "bad" (script arguments are optional):
 
 `git bisect run {{path/to/test_script}} {{[script arguments...]}}`
 
