@@ -1,7 +1,7 @@
 # autoexpect
 
-> Expect script generator from watching a session
-> More information: <https://linux.die.net/man/1/autoexpect>
+> Expect script generator from watching a session.
+> More information: <https://linux.die.net/man/1/autoexpect>.
 
 - Spawn shell, and generate script from it:
 
