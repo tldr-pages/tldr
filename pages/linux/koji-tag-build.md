@@ -7,7 +7,7 @@
 
 `koji tag-build {{tag}} {{NVR1 NVR2 ...}}`
 
-- Do't wait on task:
+- Don't wait on task:
 
 `koji tag-build {{tag}} {{NVR1 NVR2 ...}} --nowait`
 
