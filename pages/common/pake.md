@@ -13,7 +13,7 @@
 
 - Package a web page with a custom application name and icon:
 
-`pake --name {{Google}} --icon {{path/to/icon.ico}} {{https://www.example.com/}}`
+`pake --name {{application_name}} --icon {{path/to/icon.ico}} {{https://www.example.com/}}`
 
 - Package a web page with a non-resizable window:
 
