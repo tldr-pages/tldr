@@ -6,11 +6,11 @@
 
 - Make a bootable USB drive from an isohybrid file (such as `archlinux-xxx.iso`) and show the progress:
 
-`dd if={{path/to/file.iso}} of={{/dev/usb_drive}} status=progress`
+`sudo dd if={{path/to/file.iso}} of={{/dev/usb_drive}} status=progress`
 
 - Clone a drive to another drive with 4 MiB block size and flush writes before the command terminates:
 
-`dd bs=4M conv=fsync if={{/dev/source_drive}} of={{/dev/dest_drive}}`
+`sudo dd bs=4M conv=fsync if={{/dev/source_drive}} of={{/dev/dest_drive}}`
 
 - Generate a file with a specific number of random bytes by using kernel random driver:
 
@@ -26,4 +26,4 @@
 
 - Check the progress of an ongoing `dd` operation (run this command from another shell):
 
-`kill -USR1 $(pgrep {{[-x|--exact]}} dd)`
+`progress`

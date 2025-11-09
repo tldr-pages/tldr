@@ -5,11 +5,11 @@
 
 - Synchronize list of packages and versions available. This should be run first, before running subsequent `aptitude` commands:
 
-`aptitude update`
+`sudo aptitude update`
 
 - Install a new package and its dependencies:
 
-`aptitude install {{package}}`
+`sudo aptitude install {{package}}`
 
 - Search for a package:
 
@@ -21,16 +21,16 @@
 
 - Remove a package and all packages depending on it:
 
-`aptitude remove {{package}}`
+`sudo aptitude remove {{package}}`
 
 - Upgrade installed packages to the newest available versions:
 
-`aptitude upgrade`
+`sudo aptitude upgrade`
 
 - Upgrade installed packages (like `aptitude upgrade`) including removing obsolete packages and installing additional packages to meet new package dependencies:
 
-`aptitude full-upgrade`
+`sudo aptitude full-upgrade`
 
 - Put an installed package on hold to prevent it from being automatically upgraded:
 
-`aptitude hold '?installed({{package}})'`
+`sudo aptitude hold '?installed({{package}})'`
