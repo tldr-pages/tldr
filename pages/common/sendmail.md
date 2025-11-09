@@ -9,8 +9,8 @@
 
 - Send an email from sender@example.com (assuming the mail server is configured for this) to receiver@example.com containing the message in `message.txt`:
 
-`sendmail < {{message.txt}} -f {{sender@example.com}} {{receiver@example.com}}`
+`sendmail < message.txt -f sender@example.com receiver@example.com`
 
 - Send an email from sender@example.com (assuming the mail server is configured for this) to receiver@example.com containing the file `file.zip`:
 
-`sendmail < {{file.zip}} -f {{sender@example.com}} {{receiver@example.com}}`
+`sendmail < file.zip -f sender@example.com receiver@example.com`
