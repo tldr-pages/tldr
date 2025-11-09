@@ -16,7 +16,6 @@
 
 `sgdisk {{[-m|--gpttombr]}}={{1:2:3:4}} {{/dev/sdX}}`
 
-
 - Delete a partition entry by number (data in sectors remains untouched):
 
 `sgdisk {{[-d|--delete]}}={{1}} {{/dev/sdX}}`
