@@ -8,6 +8,14 @@
 
 `sudo aa-status`
 
+- Toon status in JSON-formaat:
+
+`sudo aa-status --json`
+
+- Toon status in geformatteerd JSON-formaat:
+
+`sudo aa-status --pretty-json`
+
 - Toon het aantal geladen profielen:
 
 `sudo aa-status --profiled`

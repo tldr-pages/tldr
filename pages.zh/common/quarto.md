@@ -13,7 +13,7 @@
 
 - 将输入文件渲染为不同格式：
 
-`quarto render {{路径/到/文件.{{qmd|rmd|ipynb}}}} --to {{html|pdf|docx}}`
+`quarto render {{路径/到/文件.[qmd|rmd|ipynb]}} --to {{html|pdf|docx}}`
 
 - 渲染并预览文档或网站：
 

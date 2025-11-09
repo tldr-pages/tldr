@@ -1,6 +1,7 @@
 # carbonyl
 
 > View webpages on the terminal using a Chromium backend.
+> See also: `browsh`.
 > More information: <https://github.com/fathyb/carbonyl>.
 
 - Open an `about:blank` page:
