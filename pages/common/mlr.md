@@ -9,7 +9,7 @@
 
 - Receive JSON data and pretty print the output:
 
-`echo '{"hello":"world"}' | mlr --ijson --opprint cat`
+`{{echo '{"key":"value"}'}} | mlr --ijson --opprint cat`
 
 - Sort alphabetically on a field:
 
@@ -25,7 +25,7 @@
 
 - Receive JSON and format the output as vertical JSON:
 
-`echo '{"hello":"world", "foo":"bar"}' | mlr --ijson --ojson --jvstack cat`
+`{{echo '{"key1":"value1", "key2":"value2"}'}} | mlr --ijson --ojson --jvstack cat`
 
 - Filter lines of a compressed CSV file treating numbers as [S]trings:
 
