@@ -20,7 +20,7 @@
 
 `dd bs={{1M}} count={{1024}} if=/dev/zero of={{路径/到/file_1GB}}`
 
-- 创建系统备份，将其保存为 IMG 文件（以后可以通过交换 if 和 of 来恢复），并显示进度：
+- 创建系统备份，将其保存为 IMG 文件（以后可以通过交换 `if` 和 `of` 来恢复），并显示进度：
 
 `dd if={{/dev/drive_device}} of={{路径/到/file.img}} status=progress`
 
