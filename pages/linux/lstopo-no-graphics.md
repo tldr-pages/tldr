@@ -1,8 +1,7 @@
-# hwloc-ls
+# lstopo-no-graphics
 
 > Manage and query hardware topology information.
-> Part of the Portable Hardware Locality (hwloc) toolset.
-> More information: <https://manned.org/hwloc>.
+> More information: <https://manned.org/lstopo-no-graphics>.
 
 - Display the machine topology in a tree format:
 
