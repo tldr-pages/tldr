@@ -1,34 +1,37 @@
 # speedtest
 
-> Official command-line interface for testing internet bandwidth using <https://speedtest.net>.
-> Note: Some platforms link `speedtest` to `speedtest-cli` or other tools like `librespeed`, which can also be installed as `speedtest` on certain Linux distributions.
-> These command examples apply only to the official client.
+> Official command-line interface for testing internet bandwidth using speedtest.net.
+> Note: This page describes the official Ookla speedtest CLI.
 > More information: <https://www.speedtest.net/apps/cli>.
 
 - Run a speed test:
 
 `speedtest`
 
-- Run a speed test and specify the unit of the output:
+- Run a speed test without sharing results:
 
-`speedtest {{[-u|--unit]}} {{auto-decimal-bits|auto-decimal-bytes|auto-binary-bits|auto-binary-bytes}}`
+`speedtest --no-upload`
 
-- Run a speed test and specify the output format:
+- Run a speed test and generate a shareable result picture:
 
-`speedtest {{[-f|--format]}} {{human-readable|csv|tsv|json|jsonl|json-pretty}}`
+`speedtest --share`
 
-- Run a speed test and specify the number of decimal points to use (0 to 8, defaults to 2):
+- Run a speed test in bytes per second instead of bits:
 
-`speedtest {{[-P|--precision]}} {{precision}}`
+`speedtest --unit=bytes`
 
-- Run a speed test and print its progress (only available for output format `human-readable` and `json`):
+- Run a speed test and output results as JSON:
 
-`speedtest {{[-p|--progress]}} {{yes|no}}`
+`speedtest --format=json`
 
-- List all `speedtest.net` servers, sorted by distance:
+- List all speedtest servers sorted by distance:
 
-`speedtest {{[-L|--servers]}}`
+`speedtest --servers`
 
-- Run a speed test to a specific `speedtest.net` server:
+- Run a speed test using a specific server:
 
-`speedtest {{[-s|--server-id]}} {{server_id}}`
+`speedtest --server-id={{server_id}}`
+
+- Run a speed test with specific precision (0-8, default is 2):
+
+`speedtest --precision={{precision}}`
