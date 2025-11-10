@@ -17,7 +17,7 @@
 
 - Specify a buffer size with a specific number of lines:
 
-`{{command}} | col -l {{num}}`
+`{{command}} | col {{[-l|--lines]}} {{num}}` 
 
 - Format a manual page for viewing with `less`:
 
