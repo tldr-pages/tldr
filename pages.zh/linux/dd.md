@@ -1,6 +1,7 @@
 # dd
 
-> 转换和复制文件。另请参阅：caligula。
+> 转换和复制文件。
+> 另请参阅：caligula。
 > 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/dd-invocation.html>.
 
 - 从 isohybrid 文件（如 archlinux-xxx.iso）创建可启动 USB 驱动器并显示进度：
