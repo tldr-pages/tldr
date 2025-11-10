@@ -9,7 +9,7 @@
 
 - Muestra los registros de un contenedor especificado en un pod:
 
-`kubectl logs --container {{nombre_del_contenedor}} {{nombre_del_contenedor}}`
+`kubectl logs {{[-c|--container]}} {{nombre_del_contenedor}} {{nombre_del_contenedor}}`
 
 - Muestra los registros de todos los contenedores de un pod:
 
@@ -17,16 +17,16 @@
 
 - Transmite los registros del pod:
 
-`kubectl logs --follow {{nombre_del_pod}}`
+`kubectl logs {{[-f|--follow]}} {{nombre_del_pod}}`
 
 - Muestra los registros de pods más recientes dado un tiempo relativo como `10s`, `5m` o `1h`:
 
-`kubectl logs --since={{tiempo_relativo}} {{nombre_del_pod}}`
+`kubectl logs --since {{tiempo_relativo}} {{nombre_del_pod}}`
 
 - Muestra los 10 registros más recientes de un pod:
 
-`kubectl logs --tail={{10}} {{nombre_del_pod}}`
+`kubectl logs --tail {{10}} {{nombre_del_pod}}`
 
 - Muestra todos los registros de un pod para un despliegue determinado:
 
-`kubectl logs deployment/{{nombre_del_despliegue}}`
+`kubectl logs {{[deploy|deployment]}}/{{nombre_del_despliegue}}`
