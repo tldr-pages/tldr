@@ -24,6 +24,6 @@
 
 `dd if={{/dev/drive_device}} of={{路径/到/file.img}} status=progress`
 
-- 检查正在进行的 dd 操作的进度（从另一个 shell 运行此命令）：
+- 检查正在进行的 `dd` 操作的进度（从另一个 shell 运行此命令）：
 
 `kill -USR1 $(pgrep {{[-x|--exact]}} dd)`
