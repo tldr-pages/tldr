@@ -9,17 +9,17 @@
 
 - 执行指定文件夹中的所有程序：
 
-`dex {{[-a|--autostart]}} {{[-s|--search-paths]}} {{路径/到/目录1}}:{{路径/到/目录2}}:{{路径/到/目录3}}`
+`dex {{[-a|--autostart]}} {{[-s|--search-paths]}} {{路径/到/目录1}}:{{路径/到/目录2}}:{{路径/到/目录3}}:`
 
-- 预览在 GNOME 特定自动启动中将会执行的程序：
+- 预览在 GNOME 特定自动启动中会执行的程序：
 
 `dex {{[-a|--autostart]}} {{[-e|--environment]}} {{GNOME}}`
 
-- 预览在常规自动启动中将会执行的程序：
+- 预览在常规自动启动中会执行的程序：
 
 `dex {{[-a|--autostart]}} {{[-d|--dry-run]}}`
 
-- 预览 DesktopEntry 属性 Name 的值：
+- 预览 DesktopEntry 属性 `Name` 的值：
 
 `dex {{[-p|--property]}} {{Name}} {{路径/到/文件.desktop}}`
 
@@ -27,6 +27,6 @@
 
 `dex {{[-c|--create]}} {{路径/到/文件.desktop}}`
 
-- 在给定的终端中执行单个程序（桌面文件中 Terminal=true）：
+- 在指定终端中执行单个程序（桌面文件中设置了 `Terminal=true`）：
 
-`dex --term {{terminal}} {{路径/到/文件.desktop}}`
+`dex --term {{终端}} {{路径/到/文件.desktop}}`
