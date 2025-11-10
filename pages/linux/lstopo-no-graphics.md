@@ -6,16 +6,16 @@
 
 - Display the machine topology in a tree format:
 
-`hwloc-ls`
+`lstopo-no-graphics`
 
 - Display only physical cores (ignore logical processors):
 
-`hwloc-ls --only pu`
+`lstopo-no-graphics --only pu`
 
 - Display the topology with physical indexes:
 
-`hwloc-ls {{[-p|--physical]}}`
+`lstopo-no-graphics {{[-p|--physical]}}`
 
 - Display help:
 
-`hwloc-ls {{[-h|--help]}}`
+`lstopo-no-graphics {{[-h|--help]}}`
