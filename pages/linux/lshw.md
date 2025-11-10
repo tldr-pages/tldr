@@ -1,6 +1,7 @@
 # lshw
 
 > List detailed information about hardware configurations as root user.
+> See also: `inxi`, `hwinfo`.
 > More information: <https://ezix.org/project/wiki/HardwareLiSter>.
 
 - Launch the X11 GUI (if available):

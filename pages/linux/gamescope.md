@@ -1,6 +1,7 @@
 # gamescope
 
 > A micro-compositor used as a game layer.
+> See also: `cage`.
 > More information: <https://github.com/ValveSoftware/gamescope>.
 
 - Run a program with gamescope on the terminal:

@@ -1,6 +1,7 @@
 # doas
 
 > Execute a command as another user.
+> See also: `sudo`, `pkexec`, `run0`.
 > More information: <https://man.openbsd.org/doas>.
 
 - Run a command as root:

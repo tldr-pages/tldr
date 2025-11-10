@@ -6,28 +6,28 @@
 
 - Display information about logical volumes:
 
-`lvs`
+`sudo lvs`
 
 - Display all logical volumes:
 
-`lvs {{[-a|--all]}}`
+`sudo lvs {{[-a|--all]}}`
 
 - Change default display to show more details:
 
-`lvs {{[-v|--verbose]}}`
+`sudo lvs {{[-v|--verbose]}}`
 
 - Display only specific fields:
 
-`lvs {{[-o|--options]}} {{field_name_1}},{{field_name_2}}`
+`sudo lvs {{[-o|--options]}} {{field_name_1}},{{field_name_2}}`
 
 - Append field to default display:
 
-`lvs {{[-o|--options]}} +{{field_name}}`
+`sudo lvs {{[-o|--options]}} +{{field_name}}`
 
 - Suppress heading line:
 
-`lvs --noheadings`
+`sudo lvs --noheadings`
 
 - Use a separator to separate fields:
 
-`lvs --separator {{=}}`
+`sudo lvs --separator {{=}}`

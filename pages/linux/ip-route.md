@@ -1,6 +1,7 @@
 # ip route
 
 > IP Routing table management subcommand.
+> See also: `routel`.
 > More information: <https://manned.org/ip-route>.
 
 - Display the `main` routing table:

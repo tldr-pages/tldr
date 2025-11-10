@@ -5,4 +5,4 @@
 
 - Create a Minix filesystem inside partition Y on device X:
 
-`mkfs.minix {{/dev/sdXY}}`
+`sudo mkfs.minix {{/dev/sdXY}}`

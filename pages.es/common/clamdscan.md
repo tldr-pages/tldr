@@ -7,7 +7,7 @@
 
 `clamdscan {{ruta/al/archivo_o_directorio}}`
 
-- Escanea desde 'stdin`:
+- Escanea desde `stdin`:
 
 `{{comando}} | clamdscan -`
 

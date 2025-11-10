@@ -1,7 +1,7 @@
 # pip install
 
 > Instala pacotes Python.
-> Mais informações: <https://pip.pypa.io>.
+> Mais informações: <https://pip.pypa.io/en/stable/cli/pip_install/>.
 
 - Instala um pacote:
 
@@ -21,4 +21,4 @@
 
 - Instala o pacote local no diretório atual no modo de desenvolvimento (editável):
 
-`pip install {{[-e|--editable]}} {{.}}`
+`pip install {{[-e|--editable]}} .`
