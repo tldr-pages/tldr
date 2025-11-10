@@ -9,7 +9,7 @@
 
 - Change the password of a specific user:
 
-`passwd {{username}}`
+`sudo passwd {{username}}`
 
 - Get the current status of the user:
 
