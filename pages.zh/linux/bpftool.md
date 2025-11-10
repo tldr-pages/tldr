@@ -4,7 +4,7 @@
 > 某些子命令（如 `prog`）有各自的用法文档。
 > 更多信息：<https://manned.org/bpftool>.
 
-- 列出已加载的 eBPF 程序信息：
+- 列出已加载的 `eBPF` 程序信息：
 
 `bpftool prog list`
 
