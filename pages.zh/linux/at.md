@@ -3,7 +3,7 @@
 > 在指定时间执行一次性命令。执行结果将通过邮件发送给用户。
 > 更多信息：<https://manned.org/at>.
 
-- 启动 atd 守护进程：
+- 启动 `atd` 守护进程：
 
 `systemctl start atd`
 
