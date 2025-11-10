@@ -21,7 +21,7 @@
 
 - Format a manual page for viewing with `less`:
 
-`man ls | col -b | less`
+`man ls | col {{[-b|--no-backspaces]}} | less`
 
 - Process a file with reverse line feeds and save the cleaned output:
 
