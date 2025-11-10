@@ -2,7 +2,7 @@
 
 > Un monitor de recursos que muestra información sobre la CPU, memoria, discos, red y procesos.
 > Una versión C++ de `bpytop`.
-> Más información: <https://github.com/aristocratos/btop>.
+> Más información: <https://github.com/aristocratos/btop#command-line-options>.
 
 - Inicia `btop`:
 
@@ -23,3 +23,11 @@
 - Establece la tasa de actualización a 500 milisegundos:
 
 `btop {{[-u|--update]}} 500`
+
+- Sale de `btop`:
+
+`<q>`
+
+- Muestra la ayuda:
+
+`btop {{[-h|--help]}}`
