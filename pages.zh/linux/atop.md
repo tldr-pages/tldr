@@ -4,7 +4,7 @@
 另请参阅：htop, top, btop, btm, glances。
 > 更多信息：<https://manned.org/atop>.
 
-- 启动 atop：
+- 启动：
 
 `atop`
 
