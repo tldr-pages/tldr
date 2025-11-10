@@ -7,7 +7,7 @@
 
 `systemctl start atd`
 
-- 以交互方式创建命令并在 5 分钟后执行（完成后按 `Ctrl + D`）：
+- 以交互方式创建命令并在 5 分钟后执行（完成后按 `<Ctrl d>`）：
 
 `at now + 5 minutes`
 
