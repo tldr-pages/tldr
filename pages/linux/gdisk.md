@@ -16,9 +16,9 @@
 
 `<?>`
 
-- Show detailed [i]nformation on a partition:
+- [w]rite table to disk and exit:
 
-`<i>`
+`<w>`
 
 - Print the [p]artition table:
 
