@@ -5,6 +5,10 @@
 
 - Filter reverse line feeds and output with spaces instead of tabs:
 
+- Filter reverse line feeds from input:
+
+`{{command}} | col`
+
 `{{command}} | col {{[-x|--spaces]}}`
 
 - Remove backspaces, output only the last character written to each position:
