@@ -9,4 +9,4 @@
 
 - 在安装或更新过程中显示详细的软件包版本信息：
 
-`sudo apt install {{-V|--verbose-versions}} {{软件包}}`
+`sudo apt install {{[-V|--verbose-versions]}} {{软件包}}`
