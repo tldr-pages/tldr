@@ -13,7 +13,7 @@
 
 - Build the project while skipping tests:
 
-`gradle build {{[-x test|--exclude-task test]}}`
+`gradle build {{[-x|--exclude-task]}} test`
 
 - Build with more detailed logging:
 
