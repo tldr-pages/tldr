@@ -1,4 +1,4 @@
-# hwloc-ls
+# lstopo-no-graphics
 
 > This command is an alias of `lstopo-no-graphics`.
 
