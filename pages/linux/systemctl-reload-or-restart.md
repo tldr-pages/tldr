@@ -3,7 +3,7 @@
 > Reload unit(s) otherwise restart them.
 > More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#reload-or-restart%20PATTERN%E2%80%A6>.
 
-- Reload or Restart a unit:
+- Reload or restart a unit:
 
 `systemctl reload-or-restart {{unit}}`
 
