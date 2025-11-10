@@ -16,10 +16,6 @@
 
 `<?>`
 
-- [w]rite table to disk and exit:
-
-`<w>`
-
 - Print the [p]artition table:
 
 `<p>`
@@ -35,3 +31,7 @@
 - [q]uit without saving changes:
 
 `<q>`
+
+- [w]rite table to disk and exit:
+
+`<w>`
