@@ -9,7 +9,7 @@
 
 - 지정된 포트 번호에서 사이트 구축 및 제공:
 
-`hugo server --port {{포트_번호}}`
+`hugo server {{[-p|--port]}} {{포트_번호}}`
 
 - 지원되는 출력 형식 (HTML, XML 등)을 최소화하면서 사이트를 구축하고 제공:
 
@@ -17,4 +17,4 @@
 
 - 도움말 표시:
 
-`hugo server --help`
+`hugo server {{[-h|--help]}}`
