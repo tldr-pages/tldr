@@ -28,10 +28,11 @@
 
 `<d>`
 
-- [q]uit without saving changes:
-
-`<q>`
 
 - [w]rite table to disk and exit:
 
 `<w>`
+
+- [q]uit without saving changes:
+
+`<q>`
