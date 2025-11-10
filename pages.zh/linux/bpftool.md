@@ -8,7 +8,7 @@
 
 `bpftool prog list`
 
-- 列出内核网络子系统中的 eBPF 程序附件：
+- 列出内核网络子系统中的 `eBPF` 程序附件：
 
 `bpftool net list`
 
