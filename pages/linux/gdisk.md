@@ -28,7 +28,6 @@
 
 `<d>`
 
-
 - [w]rite table to disk and exit:
 
 `<w>`
