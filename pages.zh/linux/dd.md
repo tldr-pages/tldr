@@ -26,4 +26,4 @@
 
 - 检查正在进行的 `dd` 操作的进度（从另一个 shell 运行此命令）：
 
-`sudo kill -USR1 $(pgrep {{[-x|--exact]}} dd)`
+`kill -USR1 $(pgrep {{[-x|--exact]}} dd)`
