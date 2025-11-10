@@ -3,11 +3,11 @@
 > Filter reverse line feeds from input.
 > More information: <https://manned.org/col>.
 
-- Filter reverse line feeds and output with spaces instead of tabs:
-
 - Filter reverse line feeds from input:
 
 `{{command}} | col`
+
+- Filter reverse line feeds and output with spaces instead of tabs:
 
 `{{command}} | col {{[-x|--spaces]}}`
 
