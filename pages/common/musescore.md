@@ -1,8 +1,8 @@
 # musescore
 
-> MuseScore 3 sheet music editor.
+> MuseScore sheet music editor.
 > See also: `lilypond`.
-> More information: <https://musescore.org/en/handbook/4/command-line-options>.
+> More information: <https://handbook.musescore.org/appendix/command-line-usage>.
 
 - Use a specific audio driver:
 
