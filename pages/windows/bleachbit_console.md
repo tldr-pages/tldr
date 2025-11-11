@@ -25,4 +25,4 @@
 
 - Select the same options as in the GUI and add more to it:
 
-`bleachbit_console.exe --clean --preset {{cleaner1.option1 cleaner2.* ...}}`
+`bleachbit_console.exe --preview --preset {{cleaner1.option1 cleaner2.* ...}}`
