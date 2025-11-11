@@ -4,7 +4,7 @@
 > 注意：如果 version 命令返回错误，则 PowerShell 可能已将此命令替换为 `Invoke-WebRequest`。
 > 更多信息：<https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
-- 查看原始 wget 命令的文档：
+- 查看原始 `wget` 命令的文档：
 
 `tldr wget {{[-p|--platform]}} common`
 
