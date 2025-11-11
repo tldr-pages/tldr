@@ -8,7 +8,7 @@
 
 `tldr wget {{[-p|--platform]}} common`
 
-- 查看 PowerShell 的 Invoke-WebRequest 命令的文档：
+- 查看 PowerShell 的 `Invoke-WebRequest` 命令的文档：
 
 `tldr invoke-webrequest`
 
