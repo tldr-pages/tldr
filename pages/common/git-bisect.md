@@ -26,7 +26,7 @@
 
 - Automate the bisect process using a test script that `exit`s with 0 for "good" and non-zero for "bad" (script arguments are optional):
 
-`git bisect run {{path/to/test_script}} {{[script arguments...]}}`
+`git bisect run {{path/to/test_script}} {{script_arguments}}`
 
 - Display a log of what has been done so far:
 
