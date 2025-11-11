@@ -26,7 +26,7 @@
 
 - Create a new playlist with one or more music files or URLs:
 
-`clementine {{[-c|--create]}} {{url1 url2 ...|path/to/music1.ext path/to/music2.ext ...}}`
+`clementine {{[-c|--create]}} {{url1|path/to/music1.ext url2|path/to/music2.ext ...}}`
 
 - Load a playlist file:
 
