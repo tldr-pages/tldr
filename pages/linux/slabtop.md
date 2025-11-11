@@ -1,7 +1,7 @@
 # slabtop
 
 > Display kernel slab cache information in real time.
-> see also: `top`, `htop`, `atop`.
+> See also: `top`, `htop`, `atop`.
 > More information: <https://manned.org/slabtop>.
 
 - Start `slabtop`:
