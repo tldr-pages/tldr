@@ -10,7 +10,7 @@
 
 - Start playing music:
 
-`clementine {{url|path/to/music.ext}}`
+`clementine {{URL|path/to/music.ext}}`
 
 - Toggle between pausing and playing:
 
@@ -26,7 +26,7 @@
 
 - Create a new playlist with one or more music files or URLs:
 
-`clementine {{[-c|--create]}} {{url1|path/to/music1.ext url2|path/to/music2.ext ...}}`
+`clementine {{[-c|--create]}} {{URL1|path/to/music1.ext URL2|path/to/music2.ext ...}}`
 
 - Load a playlist file:
 
