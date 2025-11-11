@@ -21,4 +21,4 @@
 
 - Jump to the previous conflicted parent:
 
-`jj prev {{--conflict}}`
+`jj prev --conflict`

@@ -21,4 +21,4 @@
 
 - Jump to the next conflicted child:
 
-`jj next {{--conflict}}`
+`jj next --conflict`
