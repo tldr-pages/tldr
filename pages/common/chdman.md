@@ -18,7 +18,7 @@
 
 - Verify integrity of CHD file:
 
-`chdman verif {{[-i|--input]}} {{path/to/file.chd}}`
+`chdman verify {{[-i|--input]}} {{path/to/file.chd}}`
 
 - View CHD metadata information:
 
