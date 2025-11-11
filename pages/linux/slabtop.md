@@ -10,15 +10,15 @@
 
 - Sort by cache size:
 
-`slabtop {{[-s|--sort-override]}} {{cache_size}}`
+`slabtop {{[-s|--sort]}} {{cache_size}}`
 
 - Sort by number of objects:
 
-`slabtop {{[-s|--sort-override]}} {{number_objects}}`
+`slabtop {{[-s|--sort]}} {{number_objects}}`
 
 - Sort by object size:
 
-`slabtop {{[-s|--sort-override]}} {{size_object}}`
+`slabtop {{[-s|--sort]}} {{size_object}}`
 
 - Display once and then exit:
 
