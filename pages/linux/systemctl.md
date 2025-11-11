@@ -6,23 +6,23 @@
 
 - Show all running services:
 
-`systemctl status`
+`sudo systemctl status`
 
 - List failed units:
 
-`systemctl --failed`
+`sudo systemctl --failed`
 
 - Start/Stop/Restart/Reload/Show the status a service:
 
-`systemctl {{start|stop|restart|reload|status}} {{unit}}`
+`sudo systemctl {{start|stop|restart|reload|status}} {{unit}}`
 
 - Enable/Disable a unit to be started on bootup:
 
-`systemctl {{enable|disable}} {{unit}}`
+`sudo systemctl {{enable|disable}} {{unit}}`
 
 - Reload systemd, scan for new or changed units:
 
-`systemctl daemon-reload`
+`sudo systemctl daemon-reload`
 
 - Check if a unit is active/enabled/failed:
 
@@ -34,4 +34,4 @@
 
 - Show the contents & absolute path of a unit file or edit it:
 
-`systemctl {{cat|edit}} {{unit}}`
+`sudo systemctl {{cat|edit}} {{unit}}`
