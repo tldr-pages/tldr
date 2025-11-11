@@ -1,7 +1,7 @@
 # yaourt
 
 > Arch Linux 유틸리티로 Arch User Repository(AUR)에서 패키지를 빌드합니다.
-> 더 많은 정보: <https://linuxcommandlibrary.com/man/yaourt>.
+> 더 많은 정보: <https://archlinux.fr/yaourt-en>.
 
 - 모든 패키지 동기화 및 업데이트 (AUR 포함):
 

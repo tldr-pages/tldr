@@ -6,28 +6,28 @@
 
 - Display information about physical volumes:
 
-`pvs`
+`sudo pvs`
 
 - Display non-physical volumes:
 
-`pvs {{[-a|--all]}}`
+`sudo pvs {{[-a|--all]}}`
 
 - Change default display to show more details:
 
-`pvs {{[-v|--verbose]}}`
+`sudo pvs {{[-v|--verbose]}}`
 
 - Display only specific fields:
 
-`pvs {{[-o|--options]}} {{field_name_1}},{{field_name_2}}`
+`sudo pvs {{[-o|--options]}} {{field_name_1}},{{field_name_2}}`
 
 - Append field to default display:
 
-`pvs {{[-o|--options]}} +{{field_name}}`
+`sudo pvs {{[-o|--options]}} +{{field_name}}`
 
 - Suppress heading line:
 
-`pvs --noheadings`
+`sudo pvs --noheadings`
 
 - Use separator to separate fields:
 
-`pvs --separator {{special_character}}`
+`sudo pvs --separator {{special_character}}`

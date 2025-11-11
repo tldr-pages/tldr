@@ -10,12 +10,12 @@
 
 - Enable a given swap area:
 
-`swapon {{path/to/file}}`
+`sudo swapon {{path/to/file}}`
 
 - Enable all swap areas specified in `/etc/fstab` except those with the `noauto` option:
 
-`swapon {{[-a|--all]}}`
+`sudo swapon {{[-a|--all]}}`
 
 - Enable a swap partition by its label:
 
-`swapon -L {{label}}`
+`sudo swapon -L {{label}}`
