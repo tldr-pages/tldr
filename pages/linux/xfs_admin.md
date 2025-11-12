@@ -9,7 +9,7 @@
 
 - Set the filesystem label:
 
-`xfs_admin {{[-L|--Label]}} "{{label}}" {{/dev/sdX}}`
+`sudo xfs_admin {{[-L|--Label]}} "{{label}}" {{/dev/sdX}}`
 
 - Display the filesystem UUID:
 
