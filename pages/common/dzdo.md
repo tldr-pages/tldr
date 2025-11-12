@@ -32,6 +32,6 @@
 
 `dzdo -v`
 
-- Display version information:
+- Display version:
 
 `dzdo -V`
