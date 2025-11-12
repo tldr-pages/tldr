@@ -10,7 +10,7 @@
 
 - Install multiple packages:
 
-`bun add {{package1}} {{package2}}`
+`bun add {{package1 package2 ...}}`
 
 - Install from a Git repository:
 
