@@ -21,7 +21,7 @@
 
 - Generate a new UUID for the filesystem:
 
-`xfs_admin {{[-U|--UUID]}} generate {{/dev/sdX}}`
+`sudo xfs_admin {{[-U|--UUID]}} generate {{/dev/sdX}}`
 
 - Display help:
 
