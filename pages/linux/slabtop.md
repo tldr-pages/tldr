@@ -18,7 +18,7 @@
 
 - Sort by object size:
 
-`slabtop {{[-s|--sort]}} {{size_object}}`
+`slabtop {{[-s|--sort]}} {{object_size}}`
 
 - Display once and then exit:
 
