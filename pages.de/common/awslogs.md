@@ -13,11 +13,11 @@
 
 - Rufe alle Logs für jegliche Streams in der angegebenen Log-Gruppe für die letzten 1 bis 2 Stunden ab:
 
-`awslogs get {{/var/log/syslog}} --start='{{2h ago}}' --end='{{1h ago}}'`
+`awslogs get {{/var/log/syslog}} {{[-s|--start]}} '{{2h ago}}' {{[-e|--end]}} '{{1h ago}}'`
 
 - Rufe alle Logs für einen bestimmten CloudWatch-Logs Filter-Ausdruck ab:
 
-`awslogs get {{/aws/lambda/meine_lambda_gruppe}} --filter-pattern='{{ERROR}}'`
+`awslogs get {{/aws/lambda/meine_lambda_gruppe}} --filter-pattern '{{ERROR}}'`
 
 - Beobachte Logs für jegliche Streams in der angegebenen Log-Gruppe:
 
