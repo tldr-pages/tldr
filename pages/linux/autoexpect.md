@@ -13,4 +13,4 @@
 
 - Run command, generate and save script from it to file:
 
-`autoexpect -f {{file}} {{command}}`
+`autoexpect -f {{path/to/file}} {{command}}`
