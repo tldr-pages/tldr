@@ -10,19 +10,19 @@
 
 - Set the MP3 output bitrate in kbit/s:
 
-`musescore --bitrate {{bitrate}}`
+`musescore {{[-b|--bitrate]}} {{bitrate}}`
 
 - Start MuseScore in debug mode:
 
-`musescore --debug`
+`musescore {{[-d|--debug]}}`
 
 - Enable experimental features, such as layers:
 
-`musescore --experimental`
+`musescore {{[-e|--experimental]}}`
 
 - Export the given file to the specified output file. The file type depends on the given extension:
 
-`musescore --export-to {{output_file}} {{input_file}}`
+`musescore {{[-o|--export-to]}} {{output_file}} {{input_file}}`
 
 - Print a diff between the given scores:
 
@@ -30,4 +30,4 @@
 
 - Specify a MIDI import operations file:
 
-`musescore --midi-operations {{path/to/file}}`
+`musescore {{[-M|--midi-operations]}} {{path/to/file}}`
