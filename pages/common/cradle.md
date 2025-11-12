@@ -1,21 +1,37 @@
 # cradle
 
-> The Cradle PHP framework.
-> Some subcommands such as `install` have their own usage documentation.
+> The Cradle PHP framework command-line tool.
+> Some subcommands such as `install` and `package` have their own usage documentation.
 > More information: <https://cradlephp.github.io>.
 
-- Connect to a server:
+- Install Cradle components (prompts for additional info):
+
+`cradle install`
+
+- Force install and overwrite files:
+
+`cradle install --force`
+
+- Connect to a remote server (see `config/deploy.php`):
 
 `cradle connect {{server_name}}`
 
-- Execute a Cradle command:
+- Execute a Cradle command or subcommand:
 
 `cradle {{command}}`
 
-- Display help:
+- Install a package into the current Cradle instance:
+
+`cradle package install {{package_name}}`
+
+- List installed packages:
+
+`cradle package list`
+
+- Display general help:
 
 `cradle help`
 
-- Display help for a specific command:
+- Show version information:
 
-`cradle {{command}} help`
+`cradle --version`
