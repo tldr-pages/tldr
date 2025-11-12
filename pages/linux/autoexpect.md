@@ -7,7 +7,7 @@
 
 `autoexpect`
 
-- Run command, and generate script from it:
+- Run a command and generate a script from it:
 
 `autoexpect {{command}}`
 
