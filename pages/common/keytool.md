@@ -1,7 +1,7 @@
 # keytool
 
 > A certificate management utility included with Java.
-> More information: <https://docs.oracle.com/en/java/javase/20/docs/specs/man/keytool.html>.
+> More information: <https://docs.oracle.com/en/java/javase/25/docs/specs/man/keytool.html>.
 
 - Create a keystore:
 
