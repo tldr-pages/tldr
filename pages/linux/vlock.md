@@ -7,18 +7,27 @@
 
 `vlock`
 
-- Lock current virtual console session via flag:
+- Lock only current virtual console (default behavior):
 
-`vlock {{[-c|--current]}}`
+`vlock -c`
 
 - Lock all virtual console sessions:
 
-`vlock {{[-a|--all]}}`
+`vlock -a`
 
 - Display help:
 
-`vlock {{[-h|--help]}}`
+`vlock -h`
 
-- Display version:
+- Show version information
 
-`vlock {{[-v|--version]}}`
+`vlock -v`
+
+- Lock the current session and switch to another user for login:
+
+`vlock -n`
+
+- Show a list of logged-in users:
+
+`vlock -s`
+
