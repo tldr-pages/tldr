@@ -11,6 +11,6 @@
 
 `autoexpect {{command}}`
 
-- Run command, generate and save script from it to file:
+- Run a command, generate a script, and save the script to a specified file:
 
 `autoexpect -f {{path/to/file}} {{command}}`
