@@ -14,7 +14,7 @@
 
 - Sort by number of objects:
 
-`sudo slabtop {{[-s|--sort]}} {{number}}`
+`sudo slabtop {{[-s|--sort]}} o`
 
 - Sort by object size:
 
