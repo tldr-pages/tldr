@@ -2,7 +2,7 @@
 
 > List IP routing in a human readable format.
 > See also: `ip route`, `route`.
-> More information: <https://manned.org/man/routel>.
+> More information: <https://manned.org/routel>.
 
 - Display the default routing table:
 
