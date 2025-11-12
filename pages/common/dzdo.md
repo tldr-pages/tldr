@@ -2,7 +2,7 @@
 
 > Execute privileged commands as root or another user via Active Directory roles.
 > Similar to `sudo` but integrated with Delinea; supports Ansible become plugin.
-> More information: <https://docs.delinea.com/online-help/server-suite/commandref/centrify-command-reference-2025.pdf>.
+> More information: <https://docs.delinea.com/online-help/server-suite/commandref/centrify-command-reference-2025.pdf#page=102>.
 
 - Run a command with elevated privileges:
 
