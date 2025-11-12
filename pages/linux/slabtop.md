@@ -26,4 +26,4 @@
 
 - Display help:
 
-`sudo slabtop {{[-h|--help]}}`
+`slabtop {{[-h|--help]}}`
