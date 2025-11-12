@@ -2,7 +2,7 @@
 
 > Un ejecutor de modelos de lenguaje grande.
 > Para ver una lista de los modelos disponibles, consulta <https://ollama.com/library>.
-> Más información: <https://github.com/ollama/ollama>.
+> Más información: <https://github.com/ollama/ollama#cli-reference>.
 
 - Inicia el demonio requerido para ejecutar otros comandos:
 
@@ -18,7 +18,7 @@
 
 - Lista los modelos descargados:
 
-`ollama list`
+`ollama {{[ls|list]}}`
 
 - Descarga/actualiza un modelo específico:
 
@@ -34,4 +34,4 @@
 
 - Crea un modelo desde un `Modelfile` ([f]):
 
-`ollama create {{nombre_nuevo_modelo}} -f {{ruta/al/Modelfile}}`
+`ollama create {{nombre_nuevo_modelo}} {{[-f|--file]}} {{ruta/al/Modelfile}}`
