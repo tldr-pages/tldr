@@ -13,7 +13,7 @@
 
 - Display the filesystem UUID:
 
-`xfs_admin {{[-u|--uuid]}} {{/dev/sdX}}`
+`sudo xfs_admin {{[-u|--uuid]}} {{/dev/sdX}}`
 
 - Set the filesystem UUID (use with caution):
 
