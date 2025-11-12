@@ -1,0 +1,22 @@
+# Node modules and logs
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Git and configs
+.git
+.gitignore
+
+# OS / editor files
+.DS_Store
+.vscode
+.idea
+
+# Test and cache folders
+coverage
+__tests__
+.cache
+
+# Docker itself
+Dockerfile
+.dockerignore

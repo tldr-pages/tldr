@@ -168,3 +168,85 @@ TL;DR stands for "Too Long; Didn't Read".
 It originated as Internet slang, where it is used to indicate that a long text
 (or parts of it) has been skipped as too lengthy.
 Read more in How-To Geek's [article](https://www.howtogeek.com/435266/what-does-tldr-mean-and-how-do-you-use-it/).
+
+
+# 🧾 TLDR Pages Linter (Dockerized)
+A simple setup to **lint TLDR pages** using Docker — no need to install Node.js or dependencies manually. This ensures a clean, consistent environment for validating all pages in the `./pages` directory. You can lint all TLDR pages locally using Docker or Docker Compose.
+
+## 🚀 Installation & Setup
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/tldr-pages/tldr.git
+    cd tldr
+    ```
+2. Build the Docker image:
+    ```bash
+    docker compose build
+    ```
+3. Run the linter:
+    ```bash
+    docker compose up
+    ```
+
+This will build the Node.js environment inside Docker, install dependencies (including `tldr-lint`), and run lint checks for all pages inside `./pages`. You don’t need to install Node.js or `tldr-lint` manually! Just use the Docker setup to lint and validate your contributions.  
+Run:
+```bash
+docker compose up
+```
+This automatically checks your TLDR pages using the latest `tldr-lint` rules — ensuring your pull requests follow the correct formatting before submission.
+
+## 🧰 Common Commands
+| Command | Description |
+|----------|-------------|
+| `docker compose build --no-cache` | Rebuild image from scratch |
+| `docker compose up` | Run the linter in Docker |
+| `docker compose down` | Stop and remove the container |
+
+To remove built images and containers:
+```bash
+docker compose down --rmi all
+```
+
+## ✅ Notes
+- Make sure Docker and Docker Compose are installed on your system.
+- The linter runs automatically inside the container; no extra setup required.
+- Exiting with code `0` means all pages passed the lint check.
+
+## 🧑‍💻 Example Output
+```
+> lint-tldr-pages
+> tldr-lint ./pages
+
+All pages passed lint checks ✅
+```
+
+## ⚙️ Docker Setup Reference
+**Dockerfile**
+```dockerfile
+FROM node:22-alpine
+WORKDIR /app
+COPY package*.json ./
+RUN npm install
+COPY . .
+CMD ["npm", "run", "lint-tldr-pages"]
+```
+
+**docker-compose.yml**
+```yaml
+services:
+  tldr:
+    build: .
+    container_name: tldr-pages
+    command: npm run lint-tldr-pages
+    volumes:
+      - .:/app
+    working_dir: /app
+```
+
+## 🧠 Why Docker?
+This setup helps new contributors lint TLDR pages without worrying about local setup.  
+No global installs, no dependency conflicts — just:
+```bash
+docker compose up
+```
+and your TLDR pages are validated instantly 🧩

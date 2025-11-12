@@ -1,0 +1,7 @@
+services:
+  tldr:
+    build: .
+    container_name: tldr-pages
+    volumes:
+      - .:/app
+    working_dir: /app
