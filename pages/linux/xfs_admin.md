@@ -25,4 +25,4 @@
 
 - Display help:
 
-`sudo xfs_admin`
+`xfs_admin`
