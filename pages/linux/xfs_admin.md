@@ -5,7 +5,7 @@
 
 - Display the filesystem label:
 
-`xfs_admin {{[-l|--list]}} {{/dev/sdX}}`
+`sudo xfs_admin {{[-l|--list]}} {{/dev/sdX}}`
 
 - Set the filesystem label:
 
