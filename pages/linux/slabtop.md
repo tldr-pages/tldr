@@ -6,24 +6,24 @@
 
 - Start `slabtop`:
 
-`slabtop`
+`sudo slabtop`
 
 - Sort by cache size:
 
-`slabtop {{[-s|--sort]}} {{cache_size}}`
+`sudo slabtop {{[-s|--sort]}} {{cache_size}}`
 
 - Sort by number of objects:
 
-`slabtop {{[-s|--sort]}} {{number}}`
+`sudo slabtop {{[-s|--sort]}} {{number}}`
 
 - Sort by object size:
 
-`slabtop {{[-s|--sort]}} {{object_size}}`
+`sudo slabtop {{[-s|--sort]}} {{object_size}}`
 
 - Display once and then exit:
 
-`slabtop {{[-o|--once]}}`
+`sudo slabtop {{[-o|--once]}}`
 
 - Display help:
 
-`slabtop {{[-h|--help]}}`
+`sudo slabtop {{[-h|--help]}}`
