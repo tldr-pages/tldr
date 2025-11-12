@@ -1,29 +1,37 @@
 # dzdo
 
-> Escalate privileges based on Active Directory.
-> Similar to `sudo` but integrated with Active Directory for privilege management.
-> More information: <https://manned.org/dzdo>.
+> Execute privileged commands as root or another user via Active Directory roles.
+> Similar to `sudo` but integrated with Delinea; supports Ansible become plugin.
+> More information: <https://docs.delinea.com/online-help/server-suite/commandref/centrify-command-reference-2025.pdf>.
 
-- Run a command as the superuser:
+- Run a command with elevated privileges:
 
 `dzdo {{command}}`
 
 - Run a command as another user:
 
-`dzdo {{[-u|--user]}} {{user}} {{command}}`
+`dzdo -u {{user}} {{command}}`
 
-- Edit a file as the superuser with your default editor:
+- Edit a file with elevated privileges using the default editor:
 
-`dzdo {{[-e|--edit]}} {{path/to/file}}`
+`dzdo -e {{path/to/file}}`
 
-- Launch the default shell with superuser privileges:
+- Launch an interactive login shell with elevated privileges:
 
-`dzdo {{[-s|--shell]}}`
+`dzdo -i`
 
-- List the allowed commands for the invoking user:
+- Launch the default shell with elevated privileges:
 
-`dzdo {{[-l|--list]}}`
+`dzdo -s`
 
-- Display help:
+- List allowed commands for the current user:
 
-`dzdo {{[-h|--help]}}`
+`dzdo -l`
+
+- Validate and update authentication timestamp:
+
+`dzdo -v`
+
+- Display version information:
+
+`dzdo -V`
