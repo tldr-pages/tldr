@@ -14,7 +14,7 @@
 
 - Sort by number of objects:
 
-`slabtop {{[-s|--sort]}} {{number_objects}}`
+`slabtop {{[-s|--sort]}} {{number}}`
 
 - Sort by object size:
 
