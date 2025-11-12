@@ -2,7 +2,7 @@
 
 > Un ejecutor de modelos de lenguaje grande.
 > Para ver una lista de los modelos disponibles, consulta <https://ollama.com/library>.
-> Más información: <https://github.com/ollama/ollama>.
+> Más información: <https://github.com/ollama/ollama#cli-reference>.
 
 - Inicia el demonio requerido para ejecutar otros comandos:
 
