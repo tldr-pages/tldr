@@ -3,7 +3,7 @@
 > Expect script generator from watching a session.
 > More information: <https://manned.org/autoexpect>.
 
-- Spawn shell, and generate script from it:
+- Spawn a shell and generate a script from it:
 
 `autoexpect`
 
