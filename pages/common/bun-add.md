@@ -1,32 +1,33 @@
 # bun add
 
 > Modern JavaScript runtime, package manager, bundler, and test runner.
+> Note: `a` can be used as an alias for `add`
 > More information: <https://bun.com/docs>.
 
 - Install a single package:
 
-`bun {{[a|add]}} {{package}}`
+`bun add {{package}}`
 
 - Install multiple packages:
 
-`bun {{[a|add]}} {{package1}} {{package2}}`
+`bun add {{package1}} {{package2}}`
 
 - Install from a Git repository:
 
-`bun {{[a|add]}} {{git_url}}`
+`bun add {{git_url}}`
 
 - Install a specific version:
 
-`bun {{[a|add]}} {{package}}@{{version}}`
+`bun add {{package}}@{{version}}`
 
 - Install from local file or directory:
 
-`bun {{[a|add]}} file:{{path/to/file_or_directory}}`
+`bun add file:{{path/to/file_or_directory}}`
 
 - Add a dev dependency:
 
-`bun {{[a|add]}} {{[-d|--dev]}} {{package}}`
+`bun add {{[-d|--dev]}} {{package}}`
 
 - Add a package globally:
 
-`bun {{[a|add]}} {{[-g|--global]}} {{package}}`
+`bun add {{[-g|--global]}} {{package}}`
