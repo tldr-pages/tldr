@@ -4,10 +4,6 @@
 > See also: `lilypond`.
 > More information: <https://handbook.musescore.org/appendix/command-line-usage>.
 
-- Use a specific audio driver:
-
-`musescore --audio-driver {{jack|alsa|portaudio|pulse}}`
-
 - Set the MP3 output bitrate in kbit/s:
 
 `musescore {{[-b|--bitrate]}} {{bitrate}}`
