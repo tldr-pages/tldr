@@ -10,7 +10,7 @@
 
 - Sort by cache size:
 
-`sudo slabtop {{[-s|--sort]}} {{cache_size}}`
+`sudo slabtop {{[-s|--sort]}} c`
 
 - Sort by number of objects:
 
