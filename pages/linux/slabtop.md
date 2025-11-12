@@ -18,7 +18,7 @@
 
 - Sort by object size:
 
-`sudo slabtop {{[-s|--sort]}} {{object_size}}`
+`sudo slabtop {{[-s|--sort]}} s`
 
 - Display once and then exit:
 
