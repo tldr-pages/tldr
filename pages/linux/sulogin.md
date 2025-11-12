@@ -1,7 +1,7 @@
 # sulogin
 
 > Log in as root during single-user mode.
-> More information: <https://manned.org/man/sulogin>.
+> More information: <https://manned.org/sulogin>.
 
 - Start `sulogin` on the default console:
 
