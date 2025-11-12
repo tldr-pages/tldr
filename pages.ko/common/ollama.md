@@ -18,7 +18,7 @@
 
 - 다운로드된 모델 나열:
 
-`ollama list`
+`ollama {{[ls|list]}}`
 
 - 특정 모델 가져오기/업데이트:
 
@@ -34,4 +34,4 @@
 
 - `Modelfile`로부터 모델 생성:
 
-`ollama create {{새_모델_이름}} -f {{경로/대상/Modelfile}}`
+`ollama create {{새_모델_이름}} {{[-f|--file]}} {{경로/대상/Modelfile}}`

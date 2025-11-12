@@ -18,7 +18,7 @@
 
 - List downloaded models:
 
-`ollama list`
+`ollama {{[ls|list]}}`
 
 - Pull a specific model:
 
