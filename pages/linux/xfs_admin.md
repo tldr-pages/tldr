@@ -17,7 +17,7 @@
 
 - Set the filesystem UUID (use with caution):
 
-`xfs_admin {{[-U|--UUID]}} {{uuid}} {{/dev/sdX}}`
+`sudo xfs_admin {{[-U|--UUID]}} {{uuid}} {{/dev/sdX}}`
 
 - Generate a new UUID for the filesystem:
 
