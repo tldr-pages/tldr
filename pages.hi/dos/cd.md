@@ -1,4 +1,4 @@
-# cd
+# CD
 
 > वर्तमान कार्यशील डायरेक्टरी बदलें।
 > अधिक जानकारी: <https://help.fdos.org/en/hhstndrd/command/cd.htm>|
