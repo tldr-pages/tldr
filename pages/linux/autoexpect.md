@@ -1,6 +1,6 @@
 # autoexpect
 
-> Expect script generator from watching a session.
+> Generate a script from watching a session.
 > More information: <https://manned.org/autoexpect>.
 
 - Spawn a shell and generate a script from it:
