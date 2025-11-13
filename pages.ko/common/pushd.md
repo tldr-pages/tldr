@@ -2,7 +2,7 @@
 
 > 디렉터리를 스택에 쌓아 나중에 접근할 수 있도록 합니다.
 > 원래 디렉터리로 돌아가려면 `popd`, 디렉터리 스택 내용을 보려면 `dirs`를 같이 보세요.
-> 더 많은 정보: <https://www.gnu.org/software/bash/manual/html_node/Directory-Stack-Builtins.html#index-pushd>.
+> 더 많은 정보: <https://www.gnu.org/software/bash/manual/bash.html#index-pushd>.
 
 - 디렉터리로 이동하고 스택에 추가:
 

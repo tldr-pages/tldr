@@ -13,11 +13,11 @@
 
 - 1~2시간 전 사이에 지정된 그룹의 모든 스트림에 대한 로그를 가져옴:
 
-`awslogs get {{/var/log/syslog}} --start='{{2h ago}}' --end='{{1h ago}}'`
+`awslogs get {{/var/log/syslog}} {{[-s|--start]}} '{{2h ago}}' {{[-e|--end]}} '{{1h ago}}'`
 
 - 특정 CloudWatch Logs 필터 패턴과 일치하는 로그 가져오기:
 
-`awslogs get {{/aws/lambda/my_lambda_group}} --filter-pattern='{{ERROR}}'`
+`awslogs get {{/aws/lambda/my_lambda_group}} --filter-pattern '{{ERROR}}'`
 
 - 지정된 그룹의 모든 스트림에 대한 로그를 감시:
 

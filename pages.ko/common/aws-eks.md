@@ -6,7 +6,7 @@
 
 - EKS 클러스터 생성:
 
-`aws eks create-cluster --name {{클러스터_이름}} --role-arn {{eks_service_role_arn}} --resources-vpc-config {{subnetIds={{subnet_ids}},securityGroupIds={{security_group_ids}}}}`
+`aws eks create-cluster --name {{클러스터_이름}} --role-arn {{eks_service_role_arn}} --resources-vpc-config subnetIds={{subnet_ids}},securityGroupIds={{security_group_ids}}`
 
 - EKS 클러스터에 연결하기 위한 kubeconfig를 업데이트:
 

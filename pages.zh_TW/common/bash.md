@@ -2,7 +2,7 @@
 
 > Bourne-Again SHell. 一個與 `sh` 相容的命令列。
 > 參照 `histexpand` 以使用 history expansion 特性。
-> 更多資訊：<https://www.gnu.org/software/bash/manual/html_node/Invoking-Bash.html>.
+> 更多資訊：<https://www.gnu.org/software/bash/manual/bash.html#Invoking-Bash>.
 
 - 開啟互動式 shell：
 

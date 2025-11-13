@@ -9,7 +9,7 @@
 
 - Get multiple properties at once:
 
-`npm pkg get {{name version ...}}`
+`npm pkg get {{name|version|...}}`
 
 - Get multiple values across all workspaces:
 

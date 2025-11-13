@@ -18,7 +18,7 @@
 
 - Run checks for selected GCP services:
 
-`prowler gcp {{[-s|--services]}} {{iam compute ...}}`
+`prowler gcp {{[-s|--services]}} {{iam|compute|...}}`
 
 - Run a specific GCP check:
 
@@ -26,4 +26,4 @@
 
 - Exclude specific checks or services:
 
-`prowler gcp {{[-e|--excluded-checks]}} {{gcp_storage_bucket_logging_enabled}} --exclude-services {{iam compute ...}}`
+`prowler gcp {{[-e|--excluded-checks]}} {{gcp_storage_bucket_logging_enabled}} --exclude-services {{iam|compute|...}}`

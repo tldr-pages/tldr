@@ -1,6 +1,6 @@
 # Clear-History
 
-> A powershell command to clear the entries in the current session.
+> Delete entries from the PowerShell session command history.
 > Note: `clhy` can be used as an alias for `Clear-History`.
 > More information: <https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/clear-history>.
 
@@ -14,7 +14,7 @@
 
 - Clear multiple commands by name:
 
-`Clear-History -CommandLine "{{command_1}}", "{{command_2}}"`
+`Clear-History -CommandLine {{"command1", "command2", ...}}`
 
 - Clear a specific history entry by ID:
 
@@ -22,7 +22,7 @@
 
 - Clear multiple IDs:
 
-`Clear-History -Id {{id_1}}, {{id_2}}, {{id_3}}`
+`Clear-History -Id {{id1, id2, ...}}`
 
 - Clear commands within a range of IDs:
 
