@@ -28,7 +28,7 @@
 
 `cradle package list`
 
-- Display general help:
+- Display help:
 
 `cradle help`
 
