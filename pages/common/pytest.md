@@ -26,3 +26,7 @@
 - Run tests without capturing output:
 
 `pytest --capture=no`
+
+- Run tests with increased [v]erbosity, displaying individual test names:
+
+`pytest -v`

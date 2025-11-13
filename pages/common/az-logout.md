@@ -10,4 +10,4 @@
 
 - Log out a specific username:
 
-`az logout --username {{alias@somedomain.com}}`
+`az logout --username {{alias@example.com}}`
