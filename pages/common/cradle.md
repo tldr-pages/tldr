@@ -1,6 +1,6 @@
 # cradle
 
-> The Cradle PHP framework command-line tool.
+> The Cradle PHP framework.
 > Some subcommands such as `install` and `package` have their own usage documentation.
 > More information: <https://cradlephp.github.io>.
 
