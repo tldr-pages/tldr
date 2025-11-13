@@ -16,9 +16,9 @@
 
 `cradle connect {{server_name}}`
 
-- Execute a Cradle command or subcommand:
+- Display the current Cradle configuration:
 
-`cradle {{command}}`
+`cradle config show`
 
 - Install a package into the current Cradle instance:
 
