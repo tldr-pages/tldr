@@ -14,7 +14,7 @@
 
 - Cancel a task with verbose output:
 
-`koji --verbose cancel {{task_id}}`
+`koji cancel --verbose {{task_id}}`
 
 - Display help:
 
