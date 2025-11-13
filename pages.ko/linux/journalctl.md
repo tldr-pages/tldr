@@ -1,7 +1,7 @@
 # journalctl
 
 > systemd 저널을 조회합니다.
-> 더 많은 정보: <https://manned.org/journalctl>.
+> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/journalctl.html>.
 
 - 현재 부트에서 우선순위 레벨 3(오류)로 모든 메시지 표시:
 

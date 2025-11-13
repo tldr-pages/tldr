@@ -1,7 +1,7 @@
 # gdb
 
 > GNU 디버거.
-> 더 많은 정보: <https://www.gnu.org/software/gdb>.
+> 더 많은 정보: <https://sourceware.org/gdb/current/onlinedocs/gdb#Invocation>.
 
 - 실행파일을 디버깅합니다:
 

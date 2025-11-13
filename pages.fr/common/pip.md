@@ -2,7 +2,7 @@
 
 > Gestionnaire des paquets pour Python.
 > Certaines commandes comme `pip install` ont leur propre documentation.
-> Plus d'informations : <https://pip.pypa.io>.
+> Plus d'informations : <https://pip.pypa.io/en/stable/cli/pip/>.
 
 - Installe un paquet :
 

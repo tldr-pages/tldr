@@ -1,7 +1,7 @@
 # helm
 
 > Helm é um gerenciador de pacores para Kubernetes.
-> Mais informações: <https://helm.sh/>.
+> Mais informações: <https://helm.sh/docs/helm/>.
 
 - Cria um chart do helm:
 

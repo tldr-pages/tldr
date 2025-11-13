@@ -1,7 +1,7 @@
 # gcal
 
 > 달력 표시.
-> 더 많은 정보: <https://www.gnu.org/software/gcal>.
+> 더 많은 정보: <https://www.gnu.org/software/gcal/manual/gcal.html#Invoking-Gcal>.
 
 - 이번 달의 달력 표시:
 

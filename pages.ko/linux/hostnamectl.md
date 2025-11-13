@@ -1,7 +1,7 @@
 # hostnamectl
 
 > 컴퓨터의 호스트명을 가져오거나 설정합니다.
-> 더 많은 정보: <https://manned.org/hostnamectl>.
+> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/hostnamectl.html>.
 
 - 컴퓨터의 호스트명 가져오기:
 

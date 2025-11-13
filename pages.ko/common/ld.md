@@ -1,7 +1,7 @@
 # ld
 
 > 오브젝트 파일을 함께 링크.
-> 더 많은 정보: <https://sourceware.org/binutils/docs-2.38/ld.html>.
+> 더 많은 정보: <https://sourceware.org/binutils/docs/ld.html>.
 
 - 특정 오브젝트 파일을 의존성 없이 실행 파일로 링크:
 

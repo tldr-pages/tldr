@@ -2,7 +2,7 @@
 
 > Praproses dan susun kode sumber C dan C++, lalu rakit dan gabungkan bersama-sama.
 > Bagian dari GCC (GNU Compiler Collection).
-> Informasi lebih lanjut: <https://gcc.gnu.org>.
+> Informasi lebih lanjut: <https://gcc.gnu.org/onlinedocs/gcc/>.
 
 - Ubah beberapa sumber kode menjadi program:
 

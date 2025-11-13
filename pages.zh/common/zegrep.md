@@ -1,7 +1,7 @@
 # zegrep
 
 > 使用 `egrep` 在压缩文件中查找扩展正则表达式模式。
-> 更多信息：<https://www.unix.com/man-page/freebsd/1/zegrep/>.
+> 更多信息：<https://manned.org/zegrep>.
 
 - 在压缩文件中搜索扩展正则表达式（支持 `?`, `+`, `{}`, `()` 和 `|`），区分大小写：
 

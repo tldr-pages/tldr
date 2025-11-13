@@ -1,7 +1,7 @@
 # svn
 
 > Subversion 명령줄 클라이언트 도구.
-> 더 많은 정보: <https://subversion.apache.org>.
+> 더 많은 정보: <https://svnbook.red-bean.com/en/1.7/svn-book.html#svn.ref.svn>.
 
 - 저장소에서 작업 복사본 체크아웃:
 

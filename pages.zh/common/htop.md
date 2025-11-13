@@ -1,7 +1,7 @@
 # htop
 
 > 显示正在运行的进程的动态实时信息。`top` 的增强版。
-> 更多信息：<https://htop.dev/>.
+> 更多信息：<https://manned.org/htop>.
 
 - 启动 `htop`:
 

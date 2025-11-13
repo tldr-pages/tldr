@@ -1,7 +1,7 @@
 # npm run
 
 > Corre un guión (script).
-> Más información: <https://docs.npmjs.com/cli/commands/npm-run-script>.
+> Más información: <https://docs.npmjs.com/cli/npm-run>.
 
 - Corre un guión:
 

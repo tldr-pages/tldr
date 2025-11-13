@@ -1,7 +1,7 @@
 # nextclade
 
 > 바이러스 유전체 정렬, 계통 할당 및 품질 검사를 위한 생물정보학 도구.
-> 더 많은 정보: <https://docs.nextstrain.org/projects/nextclade/en/stable/user/nextclade-cli/index.html>.
+> 더 많은 정보: <https://docs.nextstrain.org/projects/nextclade/en/stable/user/nextclade-cli/reference.html>.
 
 - 사용자 제공 [r]eference에 시퀀스를 정렬하고, 정렬 결과를 파일로 출력:
 

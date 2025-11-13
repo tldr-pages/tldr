@@ -1,7 +1,7 @@
 # authconfig
 
 > Interface de linha comandos para configurar o sistema de autenticação.
-> Mais informações: <https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system-level_authentication_guide/authconfig-install>.
+> Mais informações: <https://manned.org/authconfig>.
 
 - Exibe as configurações atuais (ou dry run):
 

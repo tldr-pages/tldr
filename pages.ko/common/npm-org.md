@@ -1,7 +1,7 @@
 # npm org
 
 > 조직을 관리.
-> 더 많은 정보: <https://docs.npmjs.com/cli/commands/npm-org>.
+> 더 많은 정보: <https://docs.npmjs.com/cli/npm-org>.
 
 - 조직에 새 사용자 추가:
 

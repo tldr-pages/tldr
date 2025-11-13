@@ -1,7 +1,7 @@
 # gendesk
 
 > 通过指定少量信息的命令来生成`.desktop`文件以及下载图标。
-> 更多信息：<https://gendesk.roboticoverlords.org>.
+> 更多信息：<https://manned.org/gendesk>.
 
 - 创建一个名为`应用程序`的`.desktop`文件：
 

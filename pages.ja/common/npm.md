@@ -2,7 +2,7 @@
 
 > JavaScript と Node.js のパッケージマネージャ。
 > Node.js プロジェクトとそのモジュールの依存関係を管理します。
-> もっと詳しく: <https://www.npmjs.com>。
+> もっと詳しく: <https://docs.npmjs.com/cli/npm>。
 
 - デフォルト値の `package.json` ファイルを生成 (対話的に行う場合は `--yes` を省略):
 

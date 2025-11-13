@@ -2,7 +2,7 @@
 
 > 빠른 Node.js 버전 관리자.
 > Node.js 버전을 설치, 제거하거나 전환.
-> 더 많은 정보: <https://github.com/Schniz/fnm>.
+> 더 많은 정보: <https://github.com/Schniz/fnm/blob/master/docs/commands.md>.
 
 - 특정 버전의 Node.js를 설치:
 

@@ -1,7 +1,7 @@
 # espanso
 
 > 用 Rust 编写的跨平台文本扩展器。
-> 更多信息：<https://espanso.org>.
+> 更多信息：<https://espanso.org/docs/command%20lIne/cli_list/>.
 
 - 检查状态：
 

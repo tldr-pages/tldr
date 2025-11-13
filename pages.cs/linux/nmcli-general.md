@@ -2,7 +2,7 @@
 
 > Spravuje obecné nastavení NetworkManageru.
 > Tento dílčí příkaz může být zvolán také pomocí `nmcli g`.
-> Více informací: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
+> Více informací: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html#general>.
 
 - Zobrazit obecný stav NetworkManageru:
 

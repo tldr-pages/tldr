@@ -2,7 +2,7 @@
 
 > Reproductor de música per a la terminal.
 > Utilitzeu `<ArrowKeys>` per navegar, `<Enter>` per seleccionar, i els y los números `<1>`-`<8>` per canviar entre les diferents vistes.
-> Més informació: <https://cmus.github.io>.
+> Més informació: <https://manned.org/cmus>.
 
 - Obre cmus en un directori concret:
 
