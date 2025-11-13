@@ -7,10 +7,6 @@
 
 `sudo aureport`
 
-- Show a summary of failed events:
-
-`sudo aureport --failed`
-
 - Generate a summary of login events:
 
 `sudo aureport {{[-l|--login]}}`
@@ -30,3 +26,7 @@
 - List all audit files and the time range of events they cover:
 
 `sudo aureport {{[-t|--log-time]}}`
+
+- Display help:
+
+`aureport --help`
