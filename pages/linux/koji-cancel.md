@@ -10,7 +10,7 @@
 
 - Cancel multiple tasks:
 
-`koji cancel {{task_id1}} {{task_id2}}`
+`koji cancel {{task_id1 task_id2 ...}}`
 
 - Cancel a task with verbose output:
 
@@ -18,4 +18,4 @@
 
 - Display help:
 
-`koji cancel --help`
+`koji cancel {{[-h|--help]}}`
