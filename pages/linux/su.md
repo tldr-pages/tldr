@@ -21,12 +21,13 @@
 
 - Switch to a given user and use a specific shell (e.g., zsh, fish, bash):
 
-`su {{-s}} {{/path/to/shell}} {{username}}`
-
-- Display version information:
-
-`su {{[-V|--version]}}`
+`su {{[-s|--shell]}} /{{path/to/shell}} {{username}}`
 
 - Display help:
 
 `su {{[-h|--help]}}`
+
+- Display version :
+
+`su {{[-V|--version]}}`
+
