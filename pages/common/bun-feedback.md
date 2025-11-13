@@ -11,6 +11,6 @@
 
 `bun feedback {{filename}}`
 
-- Send feedback with email address:
+- Send feedback with email address attached:
 
 `bun feedback {{filename or text}} --email {{email@address}}`
