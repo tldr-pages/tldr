@@ -1,7 +1,6 @@
 # koji cancel
 
 > Cancel active tasks running on the Koji build system.
-> Useful for stopping builds or long-running operations that are no longer required.
 > More information: <https://docs.pagure.org/koji/>.
 
 - Cancel a task by its ID:
