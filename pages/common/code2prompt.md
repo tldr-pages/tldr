@@ -1,4 +1,3 @@
-```markdown
 # code2prompt
 
 > Generate AI-ready prompts from a codebase (extracts, filters and formats code for LLMs).
@@ -27,5 +26,3 @@
 - Run as an MCP server for dynamic agent integration (advanced):
 
 `code2prompt server --port {{1234}}`
-
-``` 

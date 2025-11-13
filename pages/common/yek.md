@@ -1,4 +1,3 @@
-```markdown
 # yek
 
 > Serialize a repository or directory into an LLM-friendly single file (fast Rust-based repomapper).
@@ -31,5 +30,3 @@
 - Include a directory tree header in the output:
 
 `yek {{src/}} --tree-header`
-
-``` 
