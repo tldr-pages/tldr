@@ -1,6 +1,6 @@
 # bun feedback
 
-> Sends feedback to bun
+> Sends feedback to `Bun`.
 > More information: <https://bun.com/docs/feedback>
 
 - Send text as feedback:
