@@ -13,7 +13,7 @@
 
 - Set a system locale variable:
 
-`localectl set-locale {{LANG}}={{en_US.UTF-8}}`
+`sudo localectl set-locale {{LANG}}={{en_US.UTF-8}}`
 
 - List available keymaps:
 
@@ -21,4 +21,4 @@
 
 - Set the system keyboard mapping for the console and X11:
 
-`localectl set-keymap {{us}}`
+`sudo localectl set-keymap {{us}}`
