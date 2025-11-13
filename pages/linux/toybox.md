@@ -24,4 +24,6 @@
 
 `toybox ls`
 
-- Example: remove a
+- Example: remove a file:
+
+`toybox rm {{file}}`
