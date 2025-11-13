@@ -32,6 +32,6 @@
 
 `cradle help`
 
-- Show version information:
+- Display version:
 
 `cradle --version`
