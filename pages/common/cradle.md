@@ -10,7 +10,7 @@
 
 - Force install and overwrite files:
 
-`cradle install --force`
+`cradle install {{[-f|--force]}}`
 
 - Connect to a remote server (see `config/deploy.php`):
 
