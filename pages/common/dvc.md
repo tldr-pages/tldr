@@ -8,14 +8,14 @@
 
 `dvc {{subcommand}}`
 
-- Display help:
+- Display general help:
 
-`dvc {{[-h|--help]}}`
+`dvc --help`
 
-- Display help about a specific subcommand:
+- Display help for a specific subcommand:
 
-`dvc {{subcommand}} {{[-h|--help]}}`
+`dvc {{subcommand}} --help`
 
-- Display version:
+- Display version information:
 
 `dvc --version`
