@@ -8,7 +8,7 @@
 
 `sudo slabtop`
 
-- Sort by cache size:
+- Sort by [c]ache size:
 
 `sudo slabtop {{[-s|--sort]}} c`
 
