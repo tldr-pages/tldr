@@ -14,7 +14,7 @@
 
 - Run checks for selected AWS services:
 
-`prowler aws {{[-s|--services]}} {{s3 ec2 ...}}`
+`prowler aws {{[-s|--services]}} {{s3|ec2|...}}`
 
 - Run a specific AWS check:
 
@@ -22,4 +22,4 @@
 
 - Exclude specific checks or services:
 
-`prowler aws {{[-e|--excluded-checks]}} {{s3_bucket_public_access}} --exclude-services {{s3 ec2 ...}}`
+`prowler aws {{[-e|--excluded-checks]}} {{s3_bucket_public_access}} --exclude-services {{s3|ec2|...}}`
