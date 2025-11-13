@@ -10,15 +10,15 @@
 
 - Request search results from specific search engines:
 
-`onionsearch "{{string}}" --engines {{tor66 deeplink phobos ...}}`
+`onionsearch "{{string}}" --engines {{tor66|deeplink|phobos|...}}`
 
 - Exclude certain search engines when searching:
 
-`onionsearch "{{string}}" --exclude {{candle ahmia ...}}`
+`onionsearch "{{string}}" --exclude {{candle|ahmia|...}}`
 
 - Limit the number of pages to load per engine:
 
-`onionsearch "{{stuxnet}}" --engines {{tor66 deeplink phobos ...}} --limit {{3}}`
+`onionsearch "{{stuxnet}}" --engines {{tor66|deeplink|phobos|...}} --limit {{3}}`
 
 - List all supported search engines:
 
