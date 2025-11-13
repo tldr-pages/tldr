@@ -33,6 +33,6 @@
 
 `poetry version {{patch|minor|major|prepatch|preminor|premajor|prerelease}}`
 
-- திட்டத்தின் virtual environment இல் ஒரு shell திறக்க (2.0 க்குக் கீழே உள்ள பதிப்புகளுக்கு `poetry shell` பயன்படுத்தவும்):
+- திட்டத்தின் மெய்நிகர் சூழலில் ஒரு shell திறக்க (2.0 க்குக் கீழே உள்ள பதிப்புகளுக்கு `poetry shell` பயன்படுத்தவும்):
 
 `eval "$(poetry env activate)"`
