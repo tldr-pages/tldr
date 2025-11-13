@@ -18,3 +18,14 @@
 - Zobrazit aktuální stav připojení:
 
 `nmcli {{[n|networking]}} {{[c|connectivity]}} {{[c|check]}}`
+
+
+- Zobrazit poslední známý stav připojení:
+
+`nmcli {{[n|networking]}} {{[c|connectivity]}}`
+
+- Zobrazit aktuální stav připojení:
+
+`nmcli {{[n|networking]}} {{[c|connectivity]}} {{[c|check]}}`
+
+
