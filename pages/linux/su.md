@@ -27,7 +27,7 @@
 
 `su {{[-h|--help]}}`
 
-- Display version :
+- Display version:
 
 `su {{[-V|--version]}}`
 
