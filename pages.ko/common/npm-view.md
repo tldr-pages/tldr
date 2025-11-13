@@ -1,7 +1,7 @@
 # npm view
 
 > 패키지에 대한 레지스트리 정보를 조회.
-> 더 많은 정보: <https://docs.npmjs.com/cli/commands/npm-view>.
+> 더 많은 정보: <https://docs.npmjs.com/cli/npm-view>.
 
 - 패키지의 최신 버전에 대한 정보 조회:
 

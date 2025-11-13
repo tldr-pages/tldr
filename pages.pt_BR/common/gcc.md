@@ -1,7 +1,7 @@
 # gcc
 
 > Pré-processa e compila arquivos de código fonte C e C++, depois monta-os e vincula-os.
-> Mais informações: <https://gcc.gnu.org>.
+> Mais informações: <https://gcc.gnu.org/onlinedocs/gcc/>.
 
 - Compila múltiplos arquivos de código fonte, produzindo um arquivo executável:
 

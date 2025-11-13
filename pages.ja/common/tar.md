@@ -2,7 +2,7 @@
 
 > アーカイブ(複数のファイルやフォルダを 1 つのファイルに纏める)の為のユーティリティー。
 > gzip や bzip2 などの圧縮方法と組み合わせることが多いです。
-> もっと詳しく: <https://www.gnu.org/software/tar>。
+> もっと詳しく: <https://www.gnu.org/software/tar/manual/tar.html>。
 
 - アーカイブを作成し、それをファイルに書き込む:
 

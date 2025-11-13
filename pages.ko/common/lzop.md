@@ -1,7 +1,7 @@
 # lzop
 
 > LZO 압축을 사용하여 파일을 압축하거나 압축 해제.
-> 더 많은 정보: <https://www.lzop.org/>.
+> 더 많은 정보: <https://www.lzop.org/lzop_man.php>.
 
 - 파일을 `.lzo` 확장자로 새 파일로 압축:
 

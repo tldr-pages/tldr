@@ -2,7 +2,7 @@
 
 > 命令行模糊查找器。
 > 类似于 `sk`.
-> 更多信息：<https://github.com/junegunn/fzf>.
+> 更多信息：<https://github.com/junegunn/fzf#usage>.
 
 - 对指定目录中的所有文件启动 `fzf`:
 

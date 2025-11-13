@@ -1,7 +1,7 @@
 # pwgen
 
 > 발음 가능한 비밀번호 생성.
-> 더 많은 정보: <https://github.com/tytso/pwgen>.
+> 더 많은 정보: <https://manned.org/pwgen>.
 
 - 랜덤 비밀번호 생성 (특수문자 포함):
 

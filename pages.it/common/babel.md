@@ -1,7 +1,7 @@
 # babel
 
 > Un transpiler che converte codice JavaScript da sintassi ES6/ES7 ad ES5.
-> Maggiori informazioni: <https://babeljs.io/>.
+> Maggiori informazioni: <https://babeljs.io/docs/babel-cli>.
 
 - Transpila uno specifico file e stampa il risultato su `stdout`:
 

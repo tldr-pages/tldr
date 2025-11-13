@@ -1,7 +1,7 @@
 # phing
 
 > Apache Ant를 기반으로 한 PHP 빌드 도구.
-> 더 많은 정보: <https://www.phing.info>.
+> 더 많은 정보: <https://www.phing.info/guide/chunkhtml/ch03s03.html>.
 
 - `build.xml` 파일에서 기본 태스크 수행:
 

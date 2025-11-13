@@ -1,7 +1,7 @@
 # cd
 
 > تغيير مجلد العمل الحالي.
-> لمزيد من التفاصيل: <https://www.gnu.org/software/bash/manual/bash.html#index-cd>
+> لمزيد من التفاصيل: <https://www.gnu.org/software/bash/manual/bash.html#index-cd>.
 
 - اللانتقال إلى المجلد المذكور:
 

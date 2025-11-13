@@ -1,7 +1,7 @@
 # grub-install
 
 > GRUB을 장치에 설치.
-> 더 많은 정보: <https://www.gnu.org/software/grub/manual/grub/html_node/Installing-GRUB-using-grub_002dinstall.html>.
+> 더 많은 정보: <https://www.gnu.org/software/grub/manual/grub/grub.html#Installing-GRUB-using-grub_002dinstall>.
 
 - BIOS 시스템에 GRUB 설치:
 

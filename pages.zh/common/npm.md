@@ -2,7 +2,7 @@
 
 > JavaScript 和 Node.js 包管理器。
 > 管理 Node.js 项目及其模块依赖项。
-> 更多信息：<https://www.npmjs.com>.
+> 更多信息：<https://docs.npmjs.com/cli/npm>.
 
 - 使用默认值创建一个 `package.json` 文件（省略 `--yes` 以交互方式执行）：
 

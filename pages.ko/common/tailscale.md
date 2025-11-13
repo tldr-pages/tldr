@@ -2,7 +2,7 @@
 
 > 개인 WireGuard 네트워크 서비스.
 > `up`와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
-> 더 많은 정보: <https://tailscale.com>.
+> 더 많은 정보: <https://tailscale.com/kb/1080/cli>.
 
 - Tailscale에 연결:
 

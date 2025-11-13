@@ -2,7 +2,7 @@
 
 > Executar aplicativos de GUI e interfaces de desktop seguramente em contêineres do Docker.
 > Veja também `xephyr`.
-> Mais informações: <https://github.com/mviereck/x11docker>.
+> Mais informações: <https://github.com/mviereck/x11docker#terminal-syntax>.
 
 - Inicia o VLC em um contêiner:
 

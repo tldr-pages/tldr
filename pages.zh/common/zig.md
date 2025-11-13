@@ -1,7 +1,7 @@
 # zig
 
 > Zig 编译器和工具链。
-> 更多信息：<https://ziglang.org>.
+> 更多信息：<https://ziglang.org/documentation/master/>.
 
 - 编译当前目录下的项目：
 

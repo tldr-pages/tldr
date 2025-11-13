@@ -1,7 +1,7 @@
 # systemd-socket-activate
 
 > systemd 서비스의 소켓 활성화.
-> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/latest/systemd-socket-activate.html>.
+> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/systemd-socket-activate.html>.
 
 - 특정 소켓이 연결되었을 때 서비스를 활성화:
 

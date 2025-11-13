@@ -2,7 +2,7 @@
 
 > Compila arquivos de código fonte C++.
 > Parte do GCC (GNU Compiler Collection).
-> Mais informações: <https://gcc.gnu.org>.
+> Mais informações: <https://gcc.gnu.org/onlinedocs/gcc/C_002b_002b-Dialect-Options.html>.
 
 - Compila um arquivo de código fonte para um binário executável:
 

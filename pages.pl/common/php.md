@@ -1,7 +1,7 @@
 # php
 
 > Interfejs wiersza poleceń PHP.
-> Więcej informacji: <https://php.net>.
+> Więcej informacji: <https://www.php.net/manual/en/features.commandline.options.php>.
 
 - Parsuj i uruchom skrypt PHP:
 

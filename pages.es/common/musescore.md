@@ -2,7 +2,7 @@
 
 > MuseScore editor de música de 3 hojas.
 > Vea también: `lilypond`.
-> Más información: <https://musescore.org/en/handbook/4/command-line-options>.
+> Más información: <https://handbook.musescore.org/appendix/command-line-usage>.
 
 - Utiliza un controlador de audio específico:
 

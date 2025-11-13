@@ -1,7 +1,7 @@
 # qrencode
 
 > 二维码生成器。支持 PNG 和 EPS 格式。
-> 更多信息：<https://fukuchi.org/works/qrencode>.
+> 更多信息：<https://manned.org/qrencode>.
 
 - 将字符串转换为二维码并保存到输出文件：
 

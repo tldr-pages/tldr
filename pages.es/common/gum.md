@@ -1,7 +1,7 @@
 # gum
 
 > Produce guiones glamorosos para el intérprete de comando.
-> Más información: <https://github.com/charmbracelet/gum>.
+> Más información: <https://github.com/charmbracelet/gum#tutorial>.
 
 - Ofrece varias opciones para elegir una y la imprime en `stdout`:
 

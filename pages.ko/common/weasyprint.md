@@ -1,7 +1,7 @@
 # weasyprint
 
 > HTML을 PDF 또는 PNG로 렌더링.
-> 더 많은 정보: <https://weasyprint.org/>.
+> 더 많은 정보: <https://doc.courtbouillon.org/weasyprint/stable/api_reference.html#command-line-api>.
 
 - HTML 파일을 PDF로 렌더링:
 

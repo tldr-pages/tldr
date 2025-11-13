@@ -1,7 +1,7 @@
 # betterlockscreen
 
 > 간단하고, 미니멀한 잠금 화면.
-> 더 많은 정보: <https://github.com/betterlockscreen/betterlockscreen>.
+> 더 많은 정보: <https://github.com/betterlockscreen/betterlockscreen#usage>.
 
 - 화면 잠금:
 

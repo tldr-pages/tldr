@@ -2,7 +2,7 @@
 
 > Python 패키지 관리자.
 > `install`와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
-> 더 많은 정보: <https://pip.pypa.io>.
+> 더 많은 정보: <https://pip.pypa.io/en/stable/cli/pip/>.
 
 - 패키지 설치 (`pip install`에서 더 많은 설치 예시 확인 가능):
 

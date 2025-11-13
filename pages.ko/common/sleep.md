@@ -1,7 +1,7 @@
 # sleep
 
 > 지정된 시간만큼 지연.
-> 더 많은 정보: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/sleep.html>.
+> 더 많은 정보: <https://manned.org/sleep>.
 
 - 초 단위 지연:
 

@@ -1,7 +1,7 @@
 # gt
 
 > Git 및 GitHub에 대한 종속 코드 변경(스택) 시퀀스를 생성하고 관리.
-> 더 많은 정보: <https://docs.graphite.dev>.
+> 더 많은 정보: <https://graphite.dev/docs/get-started>.
 
 - Graphite의 API를 사용하여 CLI 인증:
 

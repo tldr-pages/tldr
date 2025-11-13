@@ -1,7 +1,7 @@
 # godoc
 
 > Go 패키지에 대한 문서를 확인.
-> 더 많은 정보: <https://godoc.org/>.
+> 더 많은 정보: <https://pkg.go.dev/golang.org/x/tools/cmd/godoc>.
 
 - 특정 패키지에 대한 도움말 표시:
 

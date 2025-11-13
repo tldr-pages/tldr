@@ -1,7 +1,7 @@
 # pdfgrep
 
 > 在 PDF 文件中搜索文本。
-> 更多信息：<https://pdfgrep.org>.
+> 更多信息：<https://pdfgrep.org/doc.html>.
 
 - 在 PDF 中查找与关键词匹配的行：
 
