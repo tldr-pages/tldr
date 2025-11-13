@@ -2,7 +2,7 @@
 
 > 웹에서 파일을 다운로드합니다.
 > HTTP, HTTPS 및 FTP를 지원합니다.
-> 더 많은 정보: <https://www.gnu.org/software/wget>.
+> 더 많은 정보: <https://www.gnu.org/software/wget/manual/wget.html>.
 
 - URL 내용을 파일(이 경우 "foo")로 다운로드:
 

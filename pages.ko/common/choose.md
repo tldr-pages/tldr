@@ -1,7 +1,7 @@
 # choose
 
 > cut 및 (때떄로) awk에 대한 사람 친화적이고 빠른 대안.
-> 더 많은 정보: <https://github.com/theryangeary/choose>.
+> 더 많은 정보: <https://github.com/theryangeary/choose#usage>.
 
 - 한 줄에서 5번째 항목을 출력 (0부터 시작):
 

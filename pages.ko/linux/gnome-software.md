@@ -1,7 +1,7 @@
 # gnome-software
 
 > 애플리케이션을 추가 및 제거하고 시스템을 업데이트합니다.
-> 더 많은 정보: <https://apps.gnome.org/app/org.gnome.Software/>.
+> 더 많은 정보: <https://manned.org/gnome-software>.
 
 - GNOME Software GUI를 실행 중이 아니면 시작:
 

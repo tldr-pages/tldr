@@ -1,7 +1,7 @@
 # pdfjam
 
 > LaTeX의 pdfpages 패키지를 사용하여 PDF를 처리하는 셸 프론트엔드.
-> 더 많은 정보: <https://github.com/rrthomas/pdfjam>.
+> 더 많은 정보: <https://github.com/pdfjam/pdfjam/blob/master/doc/pdfjam-help.txt>.
 
 - 두 개 이상의 PDF 병합:
 

@@ -1,7 +1,7 @@
 # cot
 
 > macOS용 텍스트 편집기.
-> 더 많은 정보: <https://coteditor.com/>.
+> 더 많은 정보: <https://coteditor.com/cot>.
 
 - CotEditor 시작:
 

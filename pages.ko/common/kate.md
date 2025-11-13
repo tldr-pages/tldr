@@ -1,7 +1,7 @@
 # kate
 
 > KDE의 고급 텍스트 편집기.
-> 더 많은 정보: <https://kate-editor.org/>.
+> 더 많은 정보: <https://docs.kde.org/stable/en/kate/kate/fundamentals.html#starting-from-the-command-line>.
 
 - 특정 파일 열기:
 

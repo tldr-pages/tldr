@@ -2,7 +2,7 @@
 
 > alias （コマンド文字列を置き換える別名）を作成します。
 > alias は `~/.bashrc` などの shell の設定ファイルで定義されない限り、現在のセッションで失効します。
-> もっと詳しく: <https://tldp.org/LDP/abs/html/aliases.html>。
+> もっと詳しく: <https://www.gnu.org/software/bash/manual/bash.html#index-alias>。
 
 - alias の一覧表示:
 

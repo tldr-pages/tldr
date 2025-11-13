@@ -1,7 +1,7 @@
 # jarsigner
 
 > Java 아카이브(JAR) 파일 서명 및 검증 도구.
-> 더 많은 정보: <https://docs.oracle.com/en/java/javase/20/docs/specs/man/jarsigner.html>.
+> 더 많은 정보: <https://docs.oracle.com/en/java/javase/25/docs/specs/man/jarsigner.html>.
 
 - JAR 파일 서명:
 

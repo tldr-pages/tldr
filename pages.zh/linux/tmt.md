@@ -2,7 +2,7 @@
 
 > 创建、运行和调试测试的测试管理工具。
 > 诸如`运行`、`尝试`等子命令，均有相应的用法文档。
-> 更多信息：<https://tmt.readthedocs.io>.
+> 更多信息：<https://tmt.readthedocs.io/en/stable/examples.html>.
 
 - 列举可用的测试、计划和用户故事：
 

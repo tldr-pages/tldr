@@ -2,7 +2,7 @@
 
 > Player de música via terminal.
 > Use `<ArrowKeys>` para navegar, `<Enter>` para selecionar, e números `<1>`-`<8>` para alterar as telas de opções.
-> Mais informações: <https://cmus.github.io>.
+> Mais informações: <https://manned.org/cmus>.
 
 - Inicia o cmus em um diretório específico:
 

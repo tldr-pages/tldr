@@ -1,7 +1,7 @@
 # zegrep
 
 > 압축 파일에서 `egrep`을 사용하여 확장 정규 표현식 패턴 찾기.
-> 더 많은 정보: <https://www.unix.com/man-page/freebsd/1/zegrep/>.
+> 더 많은 정보: <https://manned.org/zegrep>.
 
 - 압축 파일에서 확장 정규 표현식(대소문자 구분)을 검색 (`?`, `+`, `{}`, `()` 및 `|` 지원):
 

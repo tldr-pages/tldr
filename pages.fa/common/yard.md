@@ -1,7 +1,7 @@
 # yard
 
 > ابزار مستند سازی برای زبان برنامه نویسی روبی.
-> اطلاعات بیشتر: <https://yardoc.org/>.
+> اطلاعات بیشتر: <https://rubydoc.info/gems/yard/file/docs/GettingStarted.md#using-yard-to-generate-documentation>.
 
 - ساخت مستندات:
 

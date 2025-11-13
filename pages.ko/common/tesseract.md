@@ -1,7 +1,7 @@
 # tesseract
 
 > OCR (Optical Character Recognition) 엔진.
-> 더 많은 정보: <https://github.com/tesseract-ocr/tesseract>.
+> 더 많은 정보: <https://github.com/tesseract-ocr/tesseract/blob/main/doc/tesseract.1.asc>.
 
 - 이미지에서 텍스트를 인식하여 `output.txt`에 저장 (`.txt` 확장자는 자동으로 추가됨):
 

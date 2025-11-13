@@ -1,7 +1,7 @@
 # php
 
 > PHP 명령줄 인터페이스.
-> 더 많은 정보: <https://php.net>.
+> 더 많은 정보: <https://www.php.net/manual/en/features.commandline.options.php>.
 
 - PHP 스크립트를 구문 분석하고 실행:
 

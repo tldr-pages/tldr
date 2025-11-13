@@ -1,7 +1,7 @@
 # cpio
 
 > 아카이브 안팎으로 파일을 복사. cpio의 custom binary, old ASCII, new ASCII, crc, HPUX binary, HPUX old ASCII, old tar, POSIX.1 tar.와 같은 아카이브 형식을 지원함.
-> 더 많은 정보: <https://www.gnu.org/software/cpio>.
+> 더 많은 정보: <https://www.gnu.org/software/cpio/manual/cpio.html#Invoking-cpio>.
 
 - 표준 입력에서 파일 이름 목록을 가져와서 cpio의 이진 형식으로 아카이브[o]에 추가:
 

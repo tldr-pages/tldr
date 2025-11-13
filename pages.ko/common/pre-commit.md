@@ -1,7 +1,7 @@
 # pre-commit
 
 > 커밋 전에 실행되는 Git 훅을 생성.
-> 더 많은 정보: <https://pre-commit.com>.
+> 더 많은 정보: <https://pre-commit.com/#command-line-interface>.
 
 - Git 훅에 pre-commit 설치:
 
