@@ -16,7 +16,7 @@
 
 `sudo slabtop {{[-s|--sort]}} o`
 
-- Sort by object size:
+- Sort by object [s]ize:
 
 `sudo slabtop {{[-s|--sort]}} s`
 
