@@ -1,7 +1,7 @@
 # aureport
 
 > Generate summary reports of auditd logs.
-> More information: <https://linux.die.net/man/8/aureport>.
+> More information: <https://manned.org/aureport>.
 
 - Display a summary of auditd events:
 
