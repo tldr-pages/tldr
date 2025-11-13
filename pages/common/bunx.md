@@ -12,7 +12,7 @@
 
 `bunx {{package_name}} --version`
 
-- Force an executable to run with the Bun runtime (instead of node):
+- Force an executable to run with the `Bun` runtime (instead of `Node`):
 
 `bunx --bun {{package_name}}`
 
