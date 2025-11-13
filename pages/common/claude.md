@@ -1,7 +1,7 @@
 # claude
 
 > An agent-based coding tool that understands your code base and helps you code faster through natural language commands.
-> More information: <https://docs.anthropic.com/en/docs/claude-code/overview>.
+> More information: <https://code.claude.com/docs/en/overview>.
 
 - Execute with prompt:
 
@@ -22,3 +22,11 @@
 - Get the list of configurations:
 
 `claude config list`
+
+- Continue the most recent session:
+
+`claude {{[-c|--continue]}}`
+
+- Interactively select a session to continue:
+
+`claude {{[-r|--resume]}}`
