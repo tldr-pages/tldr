@@ -1,7 +1,7 @@
 # jdeps
 
 > Java 类依赖分析器。
-> 更多信息：<https://docs.oracle.com/en/java/javase/20/docs/specs/man/jdeps.html>.
+> 更多信息：<https://docs.oracle.com/en/java/javase/25/docs/specs/man/jdeps.html>.
 
 - 分析 `.jar` 或 `.class` 文件的依赖关系：
 

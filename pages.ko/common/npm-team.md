@@ -1,7 +1,7 @@
 # npm team
 
 > `npm` 레지스트리에서 조직 내 팀을 관리.
-> 더 많은 정보: <https://docs.npmjs.com/cli/commands/npm-team>.
+> 더 많은 정보: <https://docs.npmjs.com/cli/npm-team>.
 
 - 조직 내 팀에 사용자 추가:
 

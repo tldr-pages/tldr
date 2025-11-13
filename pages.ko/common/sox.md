@@ -2,7 +2,7 @@
 
 > Sound eXchange: 오디오 파일을 재생, 녹음 및 변환하는 도구.
 > 오디오 형식은 확장자로 식별됩니다.
-> 더 많은 정보: <https://sox.sourceforge.net>.
+> 더 많은 정보: <https://manned.org/sox>.
 
 - 두 오디오 파일을 하나로 병합:
 

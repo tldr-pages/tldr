@@ -2,7 +2,7 @@
 
 > Administra los ajustes generales de NetworkManager.
 > Este subcomando también se puede invocar con `nmcli g`.
-> Más información: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
+> Más información: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html#general>.
 
 - Muestra el estado general de NetworkManager:
 

@@ -2,7 +2,7 @@
 
 > 带有 GUI 界面的 Screenshot 工具。
 > 支持基本的图像编辑，例如文本，形状，颜色和 imgur。
-> 更多信息：<https://flameshot.org>.
+> 更多信息：<https://flameshot.org/docs/advanced/commandline-options/>.
 
 - 全屏截图：
 

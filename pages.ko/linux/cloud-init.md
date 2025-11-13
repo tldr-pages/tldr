@@ -1,7 +1,7 @@
 # cloud-init
 
 > 클라우드 인스턴스 초기화를 관리하는 명령줄 도구.
-> 더 많은 정보: <https://cloudinit.readthedocs.io>.
+> 더 많은 정보: <https://cloudinit.readthedocs.io/en/latest/reference/cli.html>.
 
 - 가장 최근에 실행된 cloud-init의 상태 표시:
 

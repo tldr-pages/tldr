@@ -2,7 +2,7 @@
 
 > JavaScript 运行时和工具箱。
 > 包含打包工具、测试运行器和包管理器。
-> 更多信息：<https://bun.sh>.
+> 更多信息：<https://bun.com/docs>.
 
 - 运行 JavaScript 文件或 `package.json` 脚本：
 

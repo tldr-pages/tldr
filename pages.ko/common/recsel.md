@@ -1,7 +1,7 @@
 # recsel
 
 > recfile에서 레코드를 출력: 사람이 편집할 수 있는 일반 텍스트 데이터베이스.
-> 더 많은 정보: <https://www.gnu.org/software/recutils/manual/recutils.html>.
+> 더 많은 정보: <https://www.gnu.org/software/recutils/manual/recutils.html#Invoking-recsel>.
 
 - 이름 및 버전 필드 추출:
 

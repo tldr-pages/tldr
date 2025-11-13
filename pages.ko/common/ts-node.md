@@ -1,7 +1,7 @@
 # ts-node
 
 > TypeScript 코드를 컴파일 없이 직접 실행.
-> 더 많은 정보: <https://typestrong.org/ts-node>.
+> 더 많은 정보: <https://typestrong.org/ts-node/docs/options>.
 
 - TypeScript 파일을 컴파일 없이 실행 (`node` + `tsc`):
 

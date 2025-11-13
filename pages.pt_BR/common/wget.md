@@ -2,7 +2,7 @@
 
 > Baixar arquivos da Internet.
 > Suporta HTTP, HTTPS, e FTP.
-> Mais informações: <https://www.gnu.org/software/wget>.
+> Mais informações: <https://www.gnu.org/software/wget/manual/wget.html>.
 
 - Baixa o conteúdo de uma URL para o arquivo (nomeado como "foo" neste caso):
 

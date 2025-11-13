@@ -1,7 +1,7 @@
 # dbus-daemon
 
 > 여러 프로그램이 메시지를 교환할 수 있도록 하는 D-Bus 메시지 데몬.
-> 더 많은 정보: <https://www.freedesktop.org/wiki/Software/dbus/>.
+> 더 많은 정보: <https://dbus.freedesktop.org/doc/dbus-daemon.1.html>.
 
 - 구성 파일을 사용하여 데몬 실행:
 

@@ -1,7 +1,7 @@
 # sleep
 
 > Fördröjning under bestämd tid.
-> Mer information: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/sleep.html>.
+> Mer information: <https://manned.org/sleep>.
 
 - Fördröj i sekunder:
 

@@ -1,7 +1,7 @@
 # aspell
 
 > Mesin pengecek ejaan secara interaktif.
-> Informasi lebih lanjut: <http://aspell.net/>.
+> Informasi lebih lanjut: <http://aspell.net/man-html/index.html>.
 
 - Lakukan pengecekan ejaan terhadap suatu berkas:
 

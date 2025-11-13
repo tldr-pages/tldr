@@ -1,7 +1,7 @@
 # nginx
 
 > Nginx 웹 서버.
-> 더 많은 정보: <https://nginx.org/en/>.
+> 더 많은 정보: <https://nginx.org/docs/switches.html>.
 
 - 기본 설정 파일로 서버 시작:
 

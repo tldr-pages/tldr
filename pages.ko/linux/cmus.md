@@ -3,7 +3,7 @@
 > 명령줄 음악 플레이어.
 > `<ArrowKeys>`로 탐색하고, `<Enter>`으로 선택하며, 숫자 `<1>`-`<8>`로 다른 보기를 전환합니다.
 > 같이 보기: `ncmpcpp`, `clementine`, `qmmp`.
-> 더 많은 정보: <https://cmus.github.io>.
+> 더 많은 정보: <https://manned.org/cmus>.
 
 - 지정된 디렉토리로 cmus 열기 (해당 디렉토리가 새로운 작업 디렉토리가 됩니다):
 

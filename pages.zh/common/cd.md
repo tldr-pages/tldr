@@ -1,7 +1,7 @@
 # cd
 
 > 更改当前工作目录。
-> 更多信息：<https://manned.org/cd>.
+> 更多信息：<https://www.gnu.org/software/bash/manual/bash.html#index-cd>.
 
 - 转到指定目录：
 
