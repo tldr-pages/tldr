@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  # This is the name of your service (e.g., 'web')
+  app:
+    # Use the Dockerfile in the current directory to build the image
+    build: .
+    # Map port 80 on your host machine to port 8000 in the container (change as needed)
+    ports:
+      - "80:8000"
+    # Restart the container if it fails
+    restart: always
+    # If the app needs persistent data, add volumes here
+    # volumes:
+    #  - .:/app
