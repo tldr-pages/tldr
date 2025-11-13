@@ -8,7 +8,7 @@
 
 `bunx {{package_name}} "{{command_argument}}"`
 
-- Execute a binary from a locally installed dependency (if found):
+- Check the version of a locally installed package (if found):
 
 `bunx {{package_name}} --version`
 
