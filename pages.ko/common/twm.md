@@ -1,7 +1,7 @@
 # twm
 
 > X Window 시스템을 위한 윈도우 매니저.
-> 더 많은 정보: <https://gitlab.freedesktop.org/xorg/app/twm>.
+> 더 많은 정보: <https://manned.org/twm>.
 
 - 기본 X 서버에 연결:
 

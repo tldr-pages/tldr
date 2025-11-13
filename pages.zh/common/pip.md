@@ -1,7 +1,7 @@
 # pip
 
 > Python 主流的包安装管理工具。
-> 更多信息：<https://pip.pypa.io>.
+> 更多信息：<https://pip.pypa.io/en/stable/cli/pip/>.
 
 - 安装包（通过 `pip install` 查看更多安装示例）：
 

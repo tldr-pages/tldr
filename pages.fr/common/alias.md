@@ -2,7 +2,7 @@
 
 > Créé des alias -- mots qui sont remplacés par une commande textuelle.
 > Les alias expirent avec la session courante shell, sauf s'il a été défini dans le fichier de configuration shell, par exemple `~/.bashrc`.
-> Plus d'informations : <https://tldp.org/LDP/abs/html/aliases.html>.
+> Plus d'informations : <https://www.gnu.org/software/bash/manual/bash.html#index-alias>.
 
 - Liste tous les alias :
 

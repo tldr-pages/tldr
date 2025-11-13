@@ -1,7 +1,7 @@
 # composer
 
 > ابزاری بسته محور برای مدیریت وابستگی های پروژه های PHP.
-> اطلاعات بیشتر: <https://getcomposer.org/>.
+> اطلاعات بیشتر: <https://getcomposer.org/doc/03-cli.md>.
 
 - ساخت یک فایل `composer.json` به صورت کنشگرا:
 

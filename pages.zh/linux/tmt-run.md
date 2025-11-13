@@ -1,7 +1,7 @@
 # tmt run
 
 > 执行测试步骤。默认情况下，所有测试步骤都被执行。
-> 更多信息：<https://tmt.readthedocs.io/en/stable/overview.html#run>.
+> 更多信息：<https://tmt.readthedocs.io/en/stable/stories/cli.html#run>.
 
 - 在每一个计划中执行所有测试步骤：
 

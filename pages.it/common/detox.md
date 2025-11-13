@@ -2,7 +2,7 @@
 
 > Rinomina file per renderli facili da utilizzare.
 > Rimuove spazi e altri caratteri fastidiosi come doppi caratteri underline.
-> Maggiori informazioni: <https://github.com/dharple/detox>.
+> Maggiori informazioni: <https://manned.org/detox>.
 
 - Rimuovi spazi ed altri caratteri indesiderabili dal nome di un file:
 

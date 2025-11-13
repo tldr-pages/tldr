@@ -3,7 +3,7 @@
 > 一个具有额外功能和修复的 youtube-dl 分支。
 > 从 YouTube 和其他网站下载视频。
 > 请参阅：`yt-dlp`，`ytfzf`。
-> 更多信息：<https://github.com/yt-dlp/yt-dlp>.
+> 更多信息：<https://github.com/yt-dlp/yt-dlp#usage-and-options>.
 
 - 下载视频或播放列表（使用下面命令的默认选项）：
 

@@ -1,7 +1,7 @@
 # bootctl
 
 > EFI 펌웨어 부트 설정을 제어하고 부트 로더를 관리합니다.
-> 더 많은 정보: <https://manned.org/bootctl>.
+> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/bootctl.html>.
 
 - 시스템 펌웨어 및 부트 로더에 대한 정보 표시:
 

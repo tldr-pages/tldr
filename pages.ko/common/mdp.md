@@ -1,7 +1,7 @@
 # mdp
 
 > 명령줄 기반 도구로, Markdown 파일로부터 프레젠테이션을 만듭니다.
-> 더 많은 정보: <https://github.com/visit1985/mdp>.
+> 더 많은 정보: <https://manned.org/mdp>.
 
 - 터미널에서 Markdown 파일로 프레젠테이션 시작:
 

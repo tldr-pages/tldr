@@ -1,7 +1,7 @@
 # plesk
 
 > Plesk 호스팅 제어 패널.
-> 더 많은 정보: <https://docs.plesk.com>.
+> 더 많은 정보: <https://docs.plesk.com/en-US/obsidian/cli-linux/plesk-utility.75661/>.
 
 - 관리자 사용자에 대한 자동 로그인 링크 생성 및 출력:
 

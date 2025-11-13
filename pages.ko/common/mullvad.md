@@ -2,7 +2,7 @@
 
 > Mullvad VPN을 위한 CLI 클라이언트.
 > 같이 보기: `fastd`, `ivpn`, `mozillavpn`, `warp-cli`.
-> 더 많은 정보: <https://mullvad.net/>.
+> 더 많은 정보: <https://mullvad.net/en/help/how-use-mullvad-cli>.
 
 - 지정된 계정 번호로 Mullvad 계정 연결:
 

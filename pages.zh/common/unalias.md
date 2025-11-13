@@ -1,7 +1,7 @@
 # unalias
 
 > 移除别名。
-> 更多信息：<https://manned.org/unalias>.
+> 更多信息：<https://www.gnu.org/software/bash/manual/bash.html#index-unalias>.
 
 - 移除一个别名：
 

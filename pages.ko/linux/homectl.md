@@ -1,7 +1,7 @@
 # homectl
 
 > systemd-homed 서비스를 사용하여 홈 디렉토리를 생성, 제거, 변경 또는 검사합니다.
-> 더 많은 정보: <https://manned.org/homectl>.
+> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/homectl.html>.
 
 - 사용자 계정과 관련된 홈 디렉토리 나열:
 

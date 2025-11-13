@@ -2,7 +2,7 @@
 
 > Administra el estado de red de NetworkManager.
 > Este subcomando también se puede invocar con `nmcli n`.
-> Más información: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
+> Más información: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html#networking>.
 
 - Muestra el estado de red de NetworkManager:
 

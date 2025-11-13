@@ -2,7 +2,7 @@
 
 > C と C++ のソースファイルを前処理してコンパイルし、アセンブルしてリンクします。
 > GCC (GNU Compiler Collection) の一部です。
-> もっと詳しく: <https://gcc.gnu.org>。
+> もっと詳しく: <https://gcc.gnu.org/onlinedocs/gcc/>。
 
 - 複数のソースファイルを実行ファイルにコンパイルする:
 

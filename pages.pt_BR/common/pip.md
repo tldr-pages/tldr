@@ -2,7 +2,7 @@
 
 > Gerenciador de pacotes para Python.
 > Alguns sub-comandos, como `pip install` possuem sua própria documentação.
-> Mais informações: <https://pip.pypa.io>.
+> Mais informações: <https://pip.pypa.io/en/stable/cli/pip/>.
 
 - Instala um pacote (veja `pip install` para mais exemplos de instalação):
 

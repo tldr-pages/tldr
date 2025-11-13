@@ -1,7 +1,7 @@
 # brightnessctl
 
 > GUN/Linux 操作系统上用来读取和控制设备亮度的实用工具。
-> 更多信息：<https://github.com/Hummer12007/brightnessctl>.
+> 更多信息：<https://github.com/Hummer12007/brightnessctl#usage>.
 
 - 列出亮度可变的设备：
 

@@ -1,7 +1,7 @@
 # zek
 
 > 从 XML 生成一个 Go 结构体。
-> 更多信息：<https://github.com/miku/zek>.
+> 更多信息：<https://github.com/miku/zek#usage>.
 
 - 从 `stdin` 中给定的 XML 生成一个 Go 结构体，并将输出显示在 `stdout` 上：
 

@@ -1,7 +1,7 @@
 # brotli
 
 > Brotli 압축을 사용하여 파일을 압축/압축 해제.
-> 더 많은 정보: <https://github.com/google/brotli>.
+> 더 많은 정보: <https://manned.org/brotli>.
 
 - 파일을 압축하여 파일 옆에 압축 버전을 생성:
 
