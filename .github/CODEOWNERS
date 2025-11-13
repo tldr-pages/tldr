@@ -14,8 +14,8 @@
 /pages.pt_BR/ @isaacvicente @renie
 /pages.ta/ @kbdharun
 /pages.tr/ @tansiret
-/pages.zh/ @blueskyson @einverne
-/pages.zh_TW/ @blueskyson
+/pages.zh/ @blueskyson @einverne @DustMerlin
+/pages.zh_TW/ @blueskyson @DustMerlin
 
 /*.md @sbrl @kbdharun @sebastiaanspeck
 /.devcontainer/* @kbdharun @sebastiaanspeck
