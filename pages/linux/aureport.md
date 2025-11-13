@@ -11,7 +11,7 @@
 
 `sudo aureport {{[-l|--login]}}`
 
-- List all Syscall report:
+- List all syscall reports:
 
 `sudo aureport {{[-s|--syscall]}}`
 
