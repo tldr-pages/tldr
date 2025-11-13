@@ -12,7 +12,7 @@
 
 `sudo slabtop {{[-s|--sort]}} c`
 
-- Sort by number of objects:
+- Sort by number of [o]bjects:
 
 `sudo slabtop {{[-s|--sort]}} o`
 
