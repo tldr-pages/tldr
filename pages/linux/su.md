@@ -30,4 +30,3 @@
 - Display version:
 
 `su {{[-V|--version]}}`
-
