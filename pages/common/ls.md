@@ -2,8 +2,12 @@
 
 > List directory contents.
 > More information: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>.
+- List files sorted by size (largest first):
+`ls -lSh`
 
 - List files one per line:
+- List files with their sizes and details:
+`ls -lh`
 
 `ls -1`
 
