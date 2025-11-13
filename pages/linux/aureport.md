@@ -21,7 +21,7 @@
 
 - Show a summary of events for a specific time range:
 
-`sudo aureport {{[-ts|--start]}} {{start_time}} {{[-te|--end]}}-te {{end_time}}`
+`sudo aureport {{[-ts|--start]}} {{start_time}} {{[-te|--end]}} {{end_time}}`
 
 - List all audit files and the time range of events they cover:
 
