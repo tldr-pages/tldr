@@ -25,7 +25,7 @@
 
 `poetry update`
 
-- திட்டத்தின் virtual environment இல் ஒரு கட்டளையை இயக்கு:
+- திட்டத்தின் மெய்நிகர் சூழலில் ஒரு கட்டளையை இயக்கு:
 
 `poetry run {{command}}`
 
