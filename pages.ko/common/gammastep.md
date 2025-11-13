@@ -1,4 +1,4 @@
-# Gammastep
+# gammastep
 
 > 하루 중 시간에 따라 화면의 색온도를 조정.
 > 더 많은 정보: <https://manned.org/gammastep>.

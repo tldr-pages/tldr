@@ -1,4 +1,4 @@
-# fossil delete
+# fossil rm
 
 > Denne kommandoen er et alias for `fossil rm`.
 
