@@ -1,7 +1,7 @@
 # bun feedback
 
 > Sends feedback to bun
-> More information: https://bun.com/docs/feedback
+> More information: <https://bun.com/docs/feedback>
 
 - Send text as feedback:
 
