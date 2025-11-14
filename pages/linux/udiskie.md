@@ -1,7 +1,7 @@
 # udiskie
 
 > Automounter for removable media using udisks2.
-> More information: <https://github.com/coldfix/udiskie>.
+> More information: <https://github.com/coldfix/udiskie/wiki/Usage>.
 
 - Start udiskie with tray icon and notifications:
 
