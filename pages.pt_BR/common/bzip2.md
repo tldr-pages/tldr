@@ -22,7 +22,7 @@
 
 - Exibe a taxa de compressão para cada arquivo processado com informações detalhadas:
 
-`bzip2 -{{[-v|--verbose]}} {{caminho/para/arquivos_compactados.bz2}}`
+`bzip2 {{[-v|--verbose]}} {{caminho/para/arquivos_compactados.bz2}}`
 
 - Descompacta um arquivo sobrescrevendo arquivos existentes:
 
