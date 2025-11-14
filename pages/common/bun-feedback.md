@@ -9,7 +9,7 @@
 
 - Send file as feedback:
 
-`bun feedback {{filename}}`
+`bun feedback {{path/to/file}}`
 
 - Send feedback with email address attached:
 
