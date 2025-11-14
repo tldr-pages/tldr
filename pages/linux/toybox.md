@@ -12,10 +12,6 @@
 
 `toybox {{command}} --help`
 
-- Show version information:
-
-`toybox --version`
-
 - Run a Toybox command explicitly (useful if another command with the same name exists in `$PATH`):
 
 `toybox {{command}} {{arguments}}`
@@ -27,3 +23,7 @@
 - Remove a file:
 
 `toybox rm {{path/to/file}}`
+
+- Show version information:
+
+`toybox --version`
