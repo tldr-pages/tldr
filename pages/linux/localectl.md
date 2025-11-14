@@ -21,4 +21,4 @@
 
 - Set the system keyboard mapping for the console and X11:
 
-`sudo localectl set-keymap {{us}}`
+`localectl set-keymap {{us}}`
