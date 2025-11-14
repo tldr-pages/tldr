@@ -1,6 +1,6 @@
 # sgdisk
 
-> Command-line tool for managing GUID Partition Tables (GPT) on Linux and Unix.
+> Manage GUID Partition Tables (GPT).
 > Part of the GPT fdisk suite; designed for scripting and automation.
 > More information: <https://manned.org/sgdisk>.
 
