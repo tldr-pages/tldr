@@ -1,28 +1,30 @@
 # koji
 
-> Interact with kojihub.
+> Interact with a Koji build system.
+> Koji is used for building and tracking RPM packages, and the `koji` command communicates with `kojihub`.
 > More information: <https://docs.pagure.org/koji>.
 
-- Execute a koji subcommand:
-
-`koji {{subcommand}}`
-
-- Introduce yourself to test connectivity with koijhub:
-
-`koji moshimoshi`
-
-- Display help about global options:
-
-`koji --help`
-
-- Display help to get all available commands:
+- Show general help:
 
 `koji help`
 
-- Display help for a specific subcommand (like `build`, `tag-build`, `download-build`, `buildinfo`,`call`, etc.):
+- Run a specific Koji subcommand:
 
-`koji {{subcommand}} --help`
+`koji {{subcommand}}`
 
-- Display version:
+- Display information about your Koji configuration:
 
-`koji version`
+`koji list-api`
+
+- Show the latest builds for a package:
+
+`koji latest-build {{tag}} {{package}}`
+
+- List all available tags:
+
+`koji list-tags`
+
+- List all tasks:
+
+`koji list-tasks`
+
