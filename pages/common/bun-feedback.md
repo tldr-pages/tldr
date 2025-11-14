@@ -7,9 +7,9 @@
 
 `bun feedback "{{Feedback text!}}"`
 
-- Send file as feedback:
+- Send one or more files as feedback:
 
-`bun feedback {{path/to/file}}`
+`bun feedback {{path/to/file1 path/to/file2 ...}}`
 
 - Send feedback with email address attached:
 
