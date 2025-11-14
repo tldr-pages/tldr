@@ -1,6 +1,6 @@
 # adb shell pm list
 
-> 列出程序包管理器中所管理的用户，程序包，权限，插桩测试 (instrumentation)，权限组，功能和库。
+> 列出软件包管理器中所管理的用户，软件包，权限，插桩测试 (instrumentation)，权限组，功能和库。
 > 更多信息：<https://developer.android.com/tools/adb>.
 
 - 列出所有已安装的包：
