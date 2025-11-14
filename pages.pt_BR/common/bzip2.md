@@ -1,6 +1,6 @@
 # bzip2
 
-> Um compressor de arquivos que utiliza o algoritmo Burrows–Wheeler.
+> Um compressor de arquivos que utiliza o algoritmo Burrows-Wheeler.
 > Mais informações: <https://manned.org/bzip2>.
 
 - Compacta um arquivo:
