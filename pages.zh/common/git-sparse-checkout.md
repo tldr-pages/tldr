@@ -11,10 +11,10 @@
 
 `git sparse-checkout disable`
 
-- 指定要包含的目录（或文件）：
+- 指定要包含的目录或文件：
 
-`git sparse-checkout set {{路径/到/文件或目录}}`
+`git sparse-checkout set {{路径/到/目录或文件}}`
 
-- 稍后添加更多路径：
+- 稍后添加更多目录或文件：
 
-`git sparse-checkout add {{路径/到/文件或目录}}`
+`git sparse-checkout add {{路径/到/目录或文件}}`
