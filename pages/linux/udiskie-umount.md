@@ -14,7 +14,7 @@
 
 - Eject an optical drive:
 
-`udiskie-umount --eject {{/media/username/cdrom}}`
+`udiskie-umount --eject {{path/to/mount}}`
 
 - Display help:
 
