@@ -1,15 +1,14 @@
 # nvm
 
-> Disambiguation: Multiple implementations of Node Version Manager exist.
-> Use the appropriate page below depending on your shell or operating system.
+> Disambiguation for different implementations of Node Version Manager (NVM).
 
-- **nvm (POSIX/Linux/macOS)** — Original Node Version Manager:
+- Original NVM for POSIX/Linux/macOS:
   `nvm`
 
-- **nvm-windows** — Windows alternative Node Version Manager:
+- Windows version of NVM:
   `nvm-windows`
 
-- **nvm.fish** — Fish shell version of Node Version Manager:
+- Fish shell version of NVM:
   `nvm.fish`
 
-> More information: https://github.com/nvm-sh/nvm
+> More information: <https://github.com/nvm-sh/nvm>
