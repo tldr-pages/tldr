@@ -3,7 +3,7 @@
 > Run Armed Bear Common Lisp (ABCL) on the JVM.  
 > More information: <https://abcl.org/>.
 
-- Start the REPL:  
+- Start the REPL under JVM:  
   `abcl`
 
 - Load a Lisp file:  
