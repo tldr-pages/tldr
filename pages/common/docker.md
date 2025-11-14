@@ -24,13 +24,17 @@
 
 `docker images`
 
-- Open an interactive tty with Bourne shell (`sh`) inside a running container:
+- Open an interactive shell inside a running container:
 
-`docker exec {{[-it|--interactive --tty]}} {{container_name}} {{sh}}`
+`docker exec {{[-it|--interactive --tty]}} {{container_name}} {{bash|sh}}`
 
 - Remove stopped containers:
 
 `docker rm {{container1 container2 ...}}`
+
+- Remove unused containers, networks, and images:
+
+`docker system prune`
 
 - Fetch and follow the logs of a container:
 

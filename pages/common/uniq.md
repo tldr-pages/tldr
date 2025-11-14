@@ -1,6 +1,6 @@
 # uniq
 
-> Output the unique lines from a input or file.
+> Output the unique lines from an input or file.
 > Since it does not detect repeated lines unless they are adjacent, we need to sort them first.
 > More information: <https://www.gnu.org/software/coreutils/manual/html_node/uniq-invocation.html>.
 

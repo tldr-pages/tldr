@@ -28,9 +28,13 @@
 
 `git push`
 
-- Pull any changes made to a remote:
+- Pull any changes made to a remote repository:
 
 `git pull`
+
+- Show the commit history:
+
+`git log {{[--oneline]}}`
 
 - Reset everything the way it was in the latest commit:
 

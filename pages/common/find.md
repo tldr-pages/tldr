@@ -28,6 +28,10 @@
 
 `find {{root_path}} -name '{{*.ext}}' -exec {{wc -l}} {} \;`
 
+- Find files modified within the last 7 days:
+
+`find {{root_path}} -mtime {{-7}}`
+
 - Find all files modified today and pass the results to a single command as arguments:
 
 `find {{root_path}} -daystart -mtime {{-1}} -exec {{tar -cvf archive.tar}} {} \+`

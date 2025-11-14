@@ -17,6 +17,10 @@
 
 `curl {{[-O|--remote-name]}} {{https://example.com/filename.zip}}`
 
+- Download a file with progress bar and resume capability if the download was interrupted:
+
+`curl {{[-C|--continue-at]}} - {{[-#|--progress-bar]}} {{[-O|--remote-name]}} {{https://example.com/filename.zip}}` 
+
 - Send form-encoded data (POST request of type `application/x-www-form-urlencoded`). Use `--data @file_name` or `--data @'-'` to read from `stdin`:
 
 `curl {{[-X|--request]}} POST {{[-d|--data]}} '{{name=bob}}' {{http://example.com/form}}`
