@@ -13,7 +13,7 @@
 
 - Set a system locale variable:
 
-`sudo localectl set-locale {{LANG}}={{en_US.UTF-8}}`
+`localectl set-locale {{LANG}}={{en_US.UTF-8}}`
 
 - List available keymaps:
 
