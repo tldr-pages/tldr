@@ -12,10 +12,6 @@
 
 `udiskie --mount`
 
-- Unmount all mounted devices:
-
-`udiskie --umount`
-
 - Run udiskie without using a config file:
 
 `udiskie --no-config`
@@ -31,10 +27,6 @@
 - Enable verbose output:
 
 `udiskie --verbose`
-
-- Suppress all output:
-
-`udiskie --quiet`
 
 - Show help message:
 
