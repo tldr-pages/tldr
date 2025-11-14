@@ -8,10 +8,6 @@
 
 `udiskie --tray --notify`
 
-- Mount all available devices:
-
-`udiskie-mount -a`
-
 - Run udiskie without using a config file:
 
 `udiskie --no-config`
