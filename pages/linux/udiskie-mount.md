@@ -16,6 +16,6 @@
 
 `udiskie-mount --verbose {{/dev/sdX1}}`
 
-- Show help message:
+- Display help:
 
 `udiskie-mount --help`
