@@ -17,7 +17,7 @@
 
 - Display package actions of a specific type:
 
-`paclog --action {{all|install|reinstall|upgrade|downgrade|remove}}`
+`paclog --action {{install|reinstall|upgrade|downgrade|remove|all}}`
 
 - Display only errors, warnings, and notes:
 
