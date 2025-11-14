@@ -12,6 +12,6 @@
 
 `udiskie-dmenu --rofi`
 
-- Show help message:
+- Display help:
 
 `udiskie-dmenu --help`
