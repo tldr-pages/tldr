@@ -1,7 +1,7 @@
 # cd
 
 > تغییر دایرکتوری جاری.
-> اطلاعات بیشتر: <https://manned.org/cd>.
+> اطلاعات بیشتر: <https://www.gnu.org/software/bash/manual/bash.html#index-cd>.
 
 - تغییر مسیر به دایرکتوری مشخص شده:
 

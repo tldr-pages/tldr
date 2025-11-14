@@ -1,7 +1,7 @@
 # wine
 
 > Unix 기반 시스템에서 Windows 실행 파일을 실행.
-> 더 많은 정보: <https://wiki.winehq.org/>.
+> 더 많은 정보: <https://gitlab.winehq.org/wine/wine/-/wikis/Commands>.
 
 - `wine` 환경에서 특정 프로그램 실행:
 

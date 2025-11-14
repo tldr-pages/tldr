@@ -1,7 +1,7 @@
 # ffmpeg
 
 > Tool per convertire audio e video.
-> Maggiori informazioni: <https://ffmpeg.org>.
+> Maggiori informazioni: <https://ffmpeg.org/ffmpeg.html#Options>.
 
 - Estrai l'audio da un video e salvalo come MP3:
 

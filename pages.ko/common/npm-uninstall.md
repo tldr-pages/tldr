@@ -1,7 +1,7 @@
 # npm uninstall
 
 > 패키지 제거.
-> 더 많은 정보: <https://docs.npmjs.com/cli/v8/commands/npm-uninstall>.
+> 더 많은 정보: <https://docs.npmjs.com/cli/npm-uninstall>.
 
 - 현재 프로젝트에서 패키지 제거:
 

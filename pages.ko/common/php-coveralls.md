@@ -1,7 +1,7 @@
 # php-coveralls
 
 > Coveralls를 위한 PHP 클라이언트.
-> 더 많은 정보: <https://php-coveralls.github.io/php-coveralls>.
+> 더 많은 정보: <https://php-coveralls.github.io/php-coveralls/#cli-options>.
 
 - Coveralls에 커버리지 정보를 전송:
 

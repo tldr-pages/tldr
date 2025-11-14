@@ -2,7 +2,7 @@
 
 > Outil de capture d'écran avec une interface graphique.
 > Ajoute du texte, des formes, des couleurs et envoie à imgur.
-> Plus d'informations : <https://flameshot.org>.
+> Plus d'informations : <https://flameshot.org/docs/advanced/commandline-options/>.
 
 - Lancez Flameshot en mode graphique :
 

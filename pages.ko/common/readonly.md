@@ -1,7 +1,7 @@
 # readonly
 
 > 읽기 전용 셸 변수를 설정합니다.
-> 더 많은 정보: <https://manned.org/readonly.1posix>.
+> 더 많은 정보: <https://www.gnu.org/software/bash/manual/bash.html#index-readonly>.
 
 - 읽기 전용 변수 설정:
 

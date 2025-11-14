@@ -1,7 +1,7 @@
 # cloc
 
 > Conta e calcola le differenze di linee di codice sorgente e commenti.
-> Maggiori informazioni: <https://github.com/AlDanial/cloc>.
+> Maggiori informazioni: <https://github.com/AlDanial/cloc#options->.
 
 - Conta tutte le linee di codice in una directory:
 

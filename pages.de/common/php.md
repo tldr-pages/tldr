@@ -1,7 +1,7 @@
 # php
 
 > PHP Befehlszeilenschnittstelle.
-> Weitere Informationen: <https://php.net>.
+> Weitere Informationen: <https://www.php.net/manual/en/features.commandline.options.php>.
 
 - Analysiere ein PHP-Skript und führe es aus:
 

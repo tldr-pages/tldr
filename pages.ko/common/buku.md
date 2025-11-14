@@ -1,7 +1,7 @@
 # buku
 
 > 명령어 브라우저 독립적인 북마크 관리자.
-> 더 많은 정보: <https://github.com/jarun/Buku>.
+> 더 많은 정보: <https://github.com/jarun/Buku#usage>.
 
 - "키워드"와 일치하고 "개인 정보 보호" 태그가 있는 모든 북마크를 표시:
 

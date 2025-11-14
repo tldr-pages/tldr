@@ -2,7 +2,7 @@
 
 > Komut satırı belirsiz bulucu.
 > Sk'ya benzer.
-> Daha fazla bilgi için: <https://github.com/junegunn/fzf>.
+> Daha fazla bilgi için: <https://github.com/junegunn/fzf#usage>.
 
 - Belirtilen dizindeki tüm dosyalarda FZF'yi başlat:
 

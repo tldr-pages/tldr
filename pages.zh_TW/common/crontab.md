@@ -1,7 +1,7 @@
 # crontab
 
 > 排程作業按時間間隔執行。
-> 更多資訊：<https://crontab.guru/>.
+> 更多資訊：<https://manned.org/crontab>.
 
 - 編輯目前使用者的排程文件：
 

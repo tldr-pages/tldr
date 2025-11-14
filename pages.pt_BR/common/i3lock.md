@@ -1,7 +1,7 @@
 # i3lock
 
 > Bloqueador de tela simples para o gerenciador de janelas i3.
-> Mais informações: <https://i3wm.org/i3lock>.
+> Mais informações: <https://manned.org/i3lock>.
 
 - Bloqueia a tela com uma tela branca:
 

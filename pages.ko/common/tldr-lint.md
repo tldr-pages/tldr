@@ -1,7 +1,7 @@
 # tldr-lint
 
 > `tldr` 페이지를 검사하고 포맷.
-> 더 많은 정보: <https://github.com/tldr-pages/tldr-lint>.
+> 더 많은 정보: <https://github.com/tldr-pages/tldr-lint#usage>.
 
 - 모든 페이지 검사:
 

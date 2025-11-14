@@ -1,7 +1,7 @@
 # npm fund
 
 > 패키지에서 자금 정보를 검색합니다.
-> 더 많은 정보: <https://docs.npmjs.com/cli/commands/npm-fund>.
+> 더 많은 정보: <https://docs.npmjs.com/cli/npm-fund>.
 
 - 현재 폴더에 있는 프로젝트에 대한 자금 조달 URL로 의존성을 나열:
 

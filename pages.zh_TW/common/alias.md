@@ -2,7 +2,7 @@
 
 > 建立快捷鍵名稱 -- 取代命令字串的單字。
 > 快捷鍵只會在現有的 shell 有效，除非在 shell 的設定檔中定義快捷鍵，例如：`~/.bashrc`.
-> 更多資訊：<https://tldp.org/LDP/abs/html/aliases.html>.
+> 更多資訊：<https://www.gnu.org/software/bash/manual/bash.html#index-alias>.
 
 - 列出所有快捷鍵：
 

@@ -1,7 +1,7 @@
 # timedatectl
 
 > 控制系统时间和日期。
-> 更多信息：<https://manned.org/timedatectl>.
+> 更多信息：<https://www.freedesktop.org/software/systemd/man/timedatectl.html>.
 
 - 检查当前系统时钟时间：
 

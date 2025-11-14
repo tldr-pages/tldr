@@ -2,7 +2,7 @@
 
 > 显示有关 CPU、内存、磁盘、网络和进程的信息的资源监视器。
 > `bpytop` 的 C++ 版本。
-> 更多信息：<https://github.com/aristocratos/btop>.
+> 更多信息：<https://github.com/aristocratos/btop#command-line-options>.
 
 - 启动 `btop`:
 

@@ -1,7 +1,7 @@
 # npm install
 
 > Node paketleri kurmayı sağlar.
-> Daha fazla bilgi için: <https://docs.npmjs.com/cli/commands/npm-install>.
+> Daha fazla bilgi için: <https://docs.npmjs.com/cli/npm-install>.
 
 - `package.json` dosyasında listelenen bağımlılıkları kurar:
 

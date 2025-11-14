@@ -2,7 +2,7 @@
 
 > 정규 표현식을 사용하여 파일에서 패턴을 재귀적으로 찾기.
 > `grep -r`와 동일합니다.
-> 더 많은 정보: <https://www.gnu.org/software/grep/manual/grep.html>.
+> 더 많은 정보: <https://www.gnu.org/software/grep/manual/grep.html#Command_002dline-Options>.
 
 - 현재 작업 디렉토리에서 패턴을 재귀적으로 검색:
 

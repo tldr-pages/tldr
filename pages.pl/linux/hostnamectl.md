@@ -1,7 +1,7 @@
 # hostnamectl
 
 > Wyświetl lub ustaw nazwę hosta tego komputera.
-> Więcej informacji: <https://manned.org/hostnamectl>.
+> Więcej informacji: <https://www.freedesktop.org/software/systemd/man/hostnamectl.html>.
 
 - Wyświetl nazwę hosta tego komputera:
 

@@ -1,7 +1,7 @@
 # kismet
 
 > 무선 네트워크 및 장치 감지기, 스니퍼, 워드라이빙 도구, WIDS(무선 침입 탐지) 프레임워크.
-> 더 많은 정보: <https://www.kismetwireless.net/>.
+> 더 많은 정보: <https://www.kismetwireless.net/docs/readme/starting/commandline/>.
 
 - 특정 무선 인터페이스에서 패킷 캡처:
 

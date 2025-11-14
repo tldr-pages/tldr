@@ -2,7 +2,7 @@
 
 > NetworkManager를 사용하여 네트워크 인터페이스를 관리하고 새로운 Wi-Fi 연결을 설정합니다.
 > 이 하위 명령은 `nmcli d`로도 호출할 수 있습니다.
-> 더 많은 정보: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
+> 더 많은 정보: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html#device>.
 
 - 모든 네트워크 인터페이스의 상태를 출력:
 
