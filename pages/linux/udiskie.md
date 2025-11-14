@@ -32,6 +32,6 @@
 
 `udiskie --help`
 
-- Show version information:
+- Display version:
 
 `udiskie --version`
