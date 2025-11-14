@@ -27,4 +27,3 @@
 - List all tasks:
 
 `koji list-tasks`
-
