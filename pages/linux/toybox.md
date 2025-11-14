@@ -16,7 +16,7 @@
 
 `toybox --version`
 
-- Run a Toybox command explicitly (useful if another command with the same name exists in PATH):
+- Run a Toybox command explicitly (useful if another command with the same name exists in `$PATH`):
 
 `toybox {{command}} {{arguments}}`
 
