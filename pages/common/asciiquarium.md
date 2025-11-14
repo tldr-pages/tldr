@@ -7,9 +7,9 @@
 
 `asciiquarium`
 
-- Exit `asciiquarium`:
+- Pipe the output through `lolcat` for rainbow colors:
 
-`<q>`
+`asciiquarium | lolcat`
 
 - Toggle [p]ause:
 
@@ -19,6 +19,6 @@
 
 `<r>`
 
-- Pipe the output through `lolcat` for rainbow colors:
+- Exit `asciiquarium`:
 
-`asciiquarium | lolcat`
+`<q>`
