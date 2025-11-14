@@ -8,7 +8,7 @@
 
 `bpftool prog list`
 
-- 列出内核网络子系统中的 `eBPF` 程序附件：
+- 列出内核网络子系统中的 `eBPF` 程序附加点：
 
 `bpftool net list`
 
@@ -16,7 +16,7 @@
 
 `bpftool link list`
 
-- 列出系统中所有的 `raw_tracepoint`、`tracepoint`、`kprobe` 附件：
+- 列出系统中所有的 `raw_tracepoint`、`tracepoint`、`kprobe` 附加点：
 
 `bpftool perf list`
 
