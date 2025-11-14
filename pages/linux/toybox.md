@@ -26,4 +26,4 @@
 
 - Remove a file:
 
-`toybox rm {{file}}`
+`toybox rm {{path/to/file}}`
