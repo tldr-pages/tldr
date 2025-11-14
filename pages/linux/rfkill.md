@@ -9,7 +9,7 @@
 
 - Filter by columns:
 
-`rfkill {{[-o|--output]}} {{ID,TYPE,DEVICE}}`
+`rfkill {{[-o|--output]}} {{ID,TYPE,DEVICE,...}}`
 
 - Block devices by type:
 
