@@ -13,11 +13,11 @@
 
 - Block devices by type:
 
-`rfkill block {{bluetooth|wifi|...}}`
+`rfkill block {{bluetooth|wifi|gps|nfc...}}`
 
 - Unblock devices by type:
 
-`rfkill unblock {{bluetooth|wifi|...}}`
+`rfkill unblock {{bluetooth|wifi|gps|nfc...}}`
 
 - Output in JSON format:
 
