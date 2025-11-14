@@ -4,7 +4,7 @@
 > Commonly used in Android and embedded Linux systems.
 > More information: <https://landley.net/toybox/>.
 
-- List all available Toybox commands (applets):
+- List all available Toybox commands:
 
 `toybox`
 
