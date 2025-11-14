@@ -6,7 +6,7 @@
 
 - Mount all handleable devices:
 
-`udiskie-mount -a`
+`udiskie-mount {{[-a|--all]}}`
 
 - Mount a specific device:
 
