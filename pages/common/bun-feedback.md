@@ -13,4 +13,4 @@
 
 - Send feedback with email address attached:
 
-`bun feedback {{filename or text}} --email {{email@address}}`
+`bun feedback {{path/to/file|text}} --email {{email@address}}`
