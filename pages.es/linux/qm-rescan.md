@@ -1,12 +1,7 @@
 # qm rescan
 
-> Revisa de nuevo (rescan) todos los almacenamientos (storages) y actualiza los tamaños de discos e imágenes de disco no utilizadas de una máquina virtual.
-> Más información: <https://pve.proxmox.com/pve-docs/qm.1.html>.
+> Este comando es un alias de `qm disk rescan`.
 
-- Restaura todos los almacenamientos y actualiza los tamaños de disco e imágenes de disco no utilizadas de la máquina virtual indicada:
+- Vea la documentación del comando original:
 
-`qm rescan {{id_mv}}`
-
-- Realiza una simulación de rescan en una máquina virtual específica y no escribe ningún cambio en las configuraciones:
-
-`qm rescan --dryrun {{true}} {{id_mv}}`
+`tldr qm disk rescan`

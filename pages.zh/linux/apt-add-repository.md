@@ -1,20 +1,7 @@
 # apt-add-repository
 
-> 管理 APT 仓库。
-> 更多信息：<https://manned.org/apt-add-repository.1>.
+> 这是 `add-apt-repository` 命令的一个别名。
 
-- 添加一个 APT 仓库：
+- 原命令的文档在：
 
-`apt-add-repository {{repository_spec}}`
-
-- 移除一个 APT 仓库：
-
-`apt-add-repository --remove {{repository_spec}}`
-
-- 添加一个 APT 仓库之后更新包缓存：
-
-`apt-add-repository --update {{repository_spec}}`
-
-- 开启源码包：
-
-`apt-add-repository --enable-source {{repository_spec}}`
+`tldr add-apt-repository`
