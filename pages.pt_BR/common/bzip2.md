@@ -1,7 +1,7 @@
 # bzip2
 
 > Um compressor de arquivos que utiliza o algoritmo Burrows-Wheeler.
-> Veja também: ``bzcat`, `bunzip2`, `bzip2recover`.
+> Veja também: `bzcat`, `bunzip2`, `bzip2recover`.
 > Mais informações: <https://manned.org/bzip2>.
 
 - Compacta um arquivo:
