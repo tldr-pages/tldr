@@ -2,19 +2,19 @@
 
 
 
-> Show the version information for the Koji client or server.
+> Display the version of the Koji client or server.
 
-> More information: <https://docs.pagure.org/koji/>.
+> More information: <https://docs.fedoraproject.org/en-US/koji/>.
 
 
 
-\- Display the Koji client version:
+\- Display the client version:
 
 `koji version`
 
 
 
-\- Display the Koji server (hub) version:
+\- Display the server (hub) version:
 
 `koji version --server`
 
