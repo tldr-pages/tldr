@@ -14,7 +14,7 @@
 
 - Convert a GPT disk to MBR format using up to four partitions:
 
-`sgdisk {{[-m|--gpttombr]}}={{1:2:3:4}} {{/dev/sdX}}`
+`sgdisk {{[-m|--gpttombr]}} {{1:2:3:4}} {{/dev/sdX}}`
 
 - Delete a partition entry by number (data in sectors remains untouched):
 
