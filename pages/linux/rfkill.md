@@ -11,13 +11,13 @@
 
 `rfkill {{[-o|--output]}} {{ID,TYPE,DEVICE}}`
 
-- Block devices by type (e.g. bluetooth, wlan):
+- Block devices by type:
 
-`rfkill block {{bluetooth}}`
+`rfkill block {{bluetooth|wifi|...}}`
 
-- Unblock devices by type (e.g. bluetooth, wlan):
+- Unblock devices by type:
 
-`rfkill unblock {{wlan}}`
+`rfkill unblock {{bluetooth|wifi|...}}`
 
 - Output in JSON format:
 
