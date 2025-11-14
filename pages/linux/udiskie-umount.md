@@ -1,7 +1,7 @@
 # udiskie-umount
 
 > Manually unmount devices using udiskie.
-> See also: `udiskie`, `udiskie-mount`
+> See also: `udiskie`, `udiskie-mount`.
 > More information: <https://github.com/coldfix/udiskie/wiki/Usage>.
 
 - Unmount a mounted device:

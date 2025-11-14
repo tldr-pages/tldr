@@ -1,7 +1,7 @@
 # udiskie-mount
 
 > Manually mount devices using udiskie.
-> See also: `udiskie`, `udiskie-umount`
+> See also: `udiskie`, `udiskie-umount`.
 > More information: <https://github.com/coldfix/udiskie/wiki/Usage>.
 
 - Mount all handleable devices:

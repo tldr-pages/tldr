@@ -1,7 +1,7 @@
 # udiskie
 
 > A user-level automounter for removable media using udisks2.
-> See also: `udiskie-mount`, `udiskie-umount`
+> See also: `udiskie-mount`, `udiskie-umount`.
 > More information: <https://github.com/coldfix/udiskie/wiki/Usage>.
 
 - Start udiskie with tray icon and notifications:
