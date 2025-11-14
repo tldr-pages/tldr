@@ -11,7 +11,7 @@
 
 `paclog --commandline`
 
-- Display when modifications have been made to a package:
+- Display log events for a specific package:
 
 `paclog --package {{package_name}}`
 
