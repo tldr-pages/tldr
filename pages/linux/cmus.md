@@ -1,6 +1,6 @@
 # cmus
 
-> Command-line Music Player.
+> Music Player.
 > Use `<ArrowKeys>` to navigate, `<Enter>` to select, and numbers `<1>`-`<8>` switch between different views.
 > See also: `ncmpcpp`, `clementine`, `qmmp`.
 > More information: <https://manned.org/cmus>.
