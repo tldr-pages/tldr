@@ -7,6 +7,6 @@
 
 `systemctl service-log-level {{service_name}}`
 
-- Set the log level of a service (0–7 or a syslog level name):
+- Set the log level of a service (the level name can be replaced with a number from 0 to 7):
 
-`systemctl service-log-level {{service_name}} {{level}}`
+`systemctl service-log-level {{service_name}} {{emerg|alert|crit|err|warning|notice|info|debug}}`
