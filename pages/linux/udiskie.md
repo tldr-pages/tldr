@@ -28,7 +28,7 @@
 
 `udiskie --verbose`
 
-- Show help message:
+- Display help:
 
 `udiskie --help`
 
