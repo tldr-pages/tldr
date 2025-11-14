@@ -1,4 +1,4 @@
-# Chezmoi
+# chezmoi
 
 > Go로 작성된, 다중 머신 도트파일 관리자.
 > 참고: `stow`, `tuckr`, `vcsh`, `homeshick`.
