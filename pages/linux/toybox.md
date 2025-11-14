@@ -20,7 +20,7 @@
 
 `toybox {{command}} {{arguments}}`
 
-- Example: list files in the current directory using Toybox:
+- List files in the current directory using Toybox:
 
 `toybox ls`
 
