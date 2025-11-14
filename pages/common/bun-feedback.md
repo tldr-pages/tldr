@@ -1,7 +1,7 @@
 # bun feedback
 
 > Sends feedback to `Bun`.
-> More information: <https://bun.com/docs/feedback>.
+> More information: <https://bun.com/docs/feedback#use-bun-feedback>.
 
 - Send text as feedback:
 
