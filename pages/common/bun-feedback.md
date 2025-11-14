@@ -5,7 +5,7 @@
 
 - Send text as feedback:
 
-`bun feedback  "{{Feedback text!}}"`
+`bun feedback "{{Feedback text!}}"`
 
 - Send file as feedback:
 
