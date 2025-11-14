@@ -2,7 +2,7 @@
 
 > 데이터 버전 관리: 데이터용 `git`과 유사.
 > `commit`과 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
-> 더 많은 정보: <https://dvc.org/>.
+> 더 많은 정보: <https://dvc.org/doc/command-reference>.
 
 - DVC 하위 명령 실행:
 

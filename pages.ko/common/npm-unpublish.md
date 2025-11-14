@@ -1,7 +1,7 @@
 # npm unpublish
 
 > npm 레지스트리에서 패키지를 제거.
-> 더 많은 정보: <https://docs.npmjs.com/cli/v8/commands/npm-unpublish>.
+> 더 많은 정보: <https://docs.npmjs.com/cli/npm-unpublish>.
 
 - 특정 패키지 버전 언퍼블리시:
 

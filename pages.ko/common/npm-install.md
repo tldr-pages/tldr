@@ -1,7 +1,7 @@
 # npm install
 
 > Node 패키지 설치.
-> 더 많은 정보: <https://docs.npmjs.com/cli/commands/npm-install>.
+> 더 많은 정보: <https://docs.npmjs.com/cli/npm-install>.
 
 - `package.json`에 나열된 의존성 설치:
 

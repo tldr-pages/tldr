@@ -1,7 +1,7 @@
 # babel
 
 > Un transpilateur qui convertit du code JavaScript avec la syntaxe ES6/ES7 en syntaxe ES5.
-> Plus d'informations : <https://babeljs.io/>.
+> Plus d'informations : <https://babeljs.io/docs/babel-cli>.
 
 - Transpile une fichier spécifié et affiche le résultat dans la sortie standard :
 

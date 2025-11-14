@@ -1,7 +1,7 @@
 # gunicorn
 
 > Python 的 WSGI HTTP 服务器。
-> 更多信息：<https://gunicorn.org/>.
+> 更多信息：<https://docs.gunicorn.org/en/latest/run.html>.
 
 - 运行 Python web 应用程序：
 

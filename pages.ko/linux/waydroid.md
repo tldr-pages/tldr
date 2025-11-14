@@ -1,7 +1,7 @@
 # waydroid
 
 > Ubuntu와 같은 일반적인 Linux 시스템에서 전체 Android 시스템을 부팅하기 위한 컨테이너 기반 접근 방식.
-> 더 많은 정보: <https://docs.waydro.id>.
+> 더 많은 정보: <https://docs.waydro.id/usage/waydroid-command-line-options>.
 
 - Waydroid 시작:
 

@@ -1,7 +1,7 @@
 # drupal-check
 
 > 더 이상 사용되지 않는 Drupal PHP 코드를 확인.
-> 더 많은 정보: <https://github.com/mglaman/drupal-check>.
+> 더 많은 정보: <https://github.com/mglaman/drupal-check#usage>.
 
 - 더 이상 사용되지 않는 특정 디렉터리의 코드를 확인:
 

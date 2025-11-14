@@ -1,7 +1,7 @@
 # i3lock
 
 > i3 윈도우 관리자를 위해 만들어진 간단한 화면 잠금 도구.
-> 더 많은 정보: <https://i3wm.org/i3lock>.
+> 더 많은 정보: <https://manned.org/i3lock>.
 
 - 흰색 배경으로 화면 잠금:
 

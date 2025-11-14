@@ -1,7 +1,7 @@
 # npm update
 
 > 현재 프로젝트의 패키지를 업데이트.
-> 더 많은 정보: <https://docs.npmjs.com/cli/commands/npm-update>.
+> 더 많은 정보: <https://docs.npmjs.com/cli/npm-update>.
 
 - 현재 프로젝트의 모든 패키지 업데이트:
 

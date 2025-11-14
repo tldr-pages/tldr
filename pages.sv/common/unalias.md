@@ -1,7 +1,7 @@
 # unalias
 
 > Ta bort alias.
-> Mer information: <https://manned.org/unalias>.
+> Mer information: <https://www.gnu.org/software/bash/manual/bash.html#index-unalias>.
 
 - Ta bort en alias:
 

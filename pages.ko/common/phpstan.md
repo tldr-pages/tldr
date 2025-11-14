@@ -1,7 +1,7 @@
 # phpstan
 
 > 코드의 버그를 발견하기 위한 PHP 정적 분석 도구.
-> 더 많은 정보: <https://github.com/phpstan/phpstan>.
+> 더 많은 정보: <https://phpstan.org/user-guide/command-line-usage>.
 
 - 하나 이상의 디렉터리 분석:
 

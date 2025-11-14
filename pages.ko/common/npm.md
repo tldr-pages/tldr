@@ -2,7 +2,7 @@
 
 > JavaScript 및 Node.js 패키지 관리자.
 > Node.js 프로젝트 및 모듈 의존성을 관리합니다.
-> 더 많은 정보: <https://www.npmjs.com>.
+> 더 많은 정보: <https://docs.npmjs.com/cli/npm>.
 
 - 기본값으로 `package.json` 파일 생성 (`--yes`를 생략하면 대화식으로 진행):
 

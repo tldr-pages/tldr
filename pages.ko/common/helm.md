@@ -2,7 +2,7 @@
 
 > Kubernetes 패키지 관리자.
 > `install`과 같은 하위 명령어에는 자체 사용법 문서가 있음.
-> 더 많은 정보: <https://helm.sh/>.
+> 더 많은 정보: <https://helm.sh/docs/helm/>.
 
 - helm 차트 생성:
 

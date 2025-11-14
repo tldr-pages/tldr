@@ -1,7 +1,7 @@
 # jdupes
 
 > 一个强大的重复文件查找器，并且是 fdupes 的一个增强分支。
-> 更多信息：<https://codeberg.org/jbruchon/jdupes>.
+> 更多信息：<https://codeberg.org/jbruchon/jdupes#usage>.
 
 - 搜索单个目录：
 

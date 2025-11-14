@@ -1,7 +1,7 @@
 # qutebrowser
 
 > 一个基于 PyQt5 的键盘驱动、类似 vim 的浏览器。
-> 更多信息：<https://qutebrowser.org/>.
+> 更多信息：<https://qutebrowser.org/doc/qutebrowser.1.html>.
 
 - 使用指定存储目录打开 qutebrowser：
 

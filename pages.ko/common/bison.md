@@ -1,7 +1,7 @@
 # bison
 
 > GNU 파서 생성기.
-> 더 많은 정보: <https://www.gnu.org/software/bison/>.
+> 더 많은 정보: <https://manned.org/bison>.
 
 - bison 정의 파일을 컴파일:
 

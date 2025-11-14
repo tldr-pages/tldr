@@ -1,7 +1,7 @@
 # devenv
 
 > Nix를 사용하여 빠르고, 선언적이며, 재현 가능하고 구성 가능한 개발자 환경을 의미.
-> 더 많은 정보: <https://devenv.sh>.
+> 더 많은 정보: <https://devenv.sh/getting-started/#commands>.
 
 - 환경 초기화:
 

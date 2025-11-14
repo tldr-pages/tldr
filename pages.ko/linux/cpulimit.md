@@ -1,7 +1,7 @@
 # cpulimit
 
 > 다른 프로세스의 CPU 사용을 제한하는 도구.
-> 더 많은 정보: <https://cpulimit.sourceforge.net/>.
+> 더 많은 정보: <https://manned.org/cpulimit>.
 
 - PID 1234인 기존 프로세스의 CPU 사용을 25%로 제한:
 

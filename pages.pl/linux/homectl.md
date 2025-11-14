@@ -1,7 +1,7 @@
 # homectl
 
 > Twórz, usuwaj, zmieniaj lub sprawdzaj katalogi domowe używając usługi systemd-homed.
-> Więcej informacji: <https://manned.org/homectl>.
+> Więcej informacji: <https://www.freedesktop.org/software/systemd/man/homectl.html>.
 
 - Wyświetl konta użytkowników i ich powiązane katalogi domowe:
 

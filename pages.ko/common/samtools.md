@@ -2,7 +2,7 @@
 
 > 고처리량 시퀀싱(유전체학) 데이터를 처리하기 위한 도구.
 > SAM/BAM/CRAM 형식의 데이터를 읽기/쓰기/편집/색인/보기 위해 사용됩니다.
-> 더 많은 정보: <https://www.htslib.org>.
+> 더 많은 정보: <https://www.htslib.org/doc/samtools.html>.
 
 - SAM 입력 파일을 BAM 스트림으로 변환하고 파일로 저장:
 

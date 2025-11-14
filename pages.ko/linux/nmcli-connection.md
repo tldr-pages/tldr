@@ -2,7 +2,7 @@
 
 > NetworkManager와 함께 연결 관리.
 > 이 하위 명령은 `nmcli c`로도 호출할 수 있습니다.
-> 더 많은 정보: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
+> 더 많은 정보: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html#connection>.
 
 - 모든 NetworkManager 연결 나열(이름, UUID, 유형 및 장치 표시):
 

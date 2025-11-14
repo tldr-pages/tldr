@@ -1,7 +1,7 @@
 # ngrok
 
 > Reverse-Proxy, welcher einen sicheren Tunnel von einem öffentlichen Endpunkt zu einem lokal verfügbaren Webservice erstellt.
-> Weitere Informationen: <https://ngrok.com>.
+> Weitere Informationen: <https://ngrok.com/docs/agent/cli/>.
 
 - Veröffentliche einen lokalen HTTP-Service auf dem angegebenen Port:
 

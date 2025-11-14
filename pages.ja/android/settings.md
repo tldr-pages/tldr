@@ -1,7 +1,7 @@
 # settings
 
 > Android OSに関連する情報を取得します。
-> もっと詳しく: <https://web.archive.org/web/20240525010124/https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
+> もっと詳しく: <https://web.archive.org/web/20240525010124/https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>。
 
 - `global` 名前空間にある設定を表示します:
 

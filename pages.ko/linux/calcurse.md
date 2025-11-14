@@ -1,7 +1,7 @@
 # calcurse
 
 > 명령줄에서 사용할 수 있는 텍스트 기반의 일정 관리 및 달력 애플리케이션.
-> 더 많은 정보: <https://calcurse.org>.
+> 더 많은 정보: <https://github.com/lfos/calcurse/blob/pu/doc/calcurse.1.txt>.
 
 - 인터랙티브 모드로 `calcurse` 시작:
 

@@ -1,7 +1,7 @@
 # umask
 
 > 管理用户为新创建文件设置的读/写/执行权限掩码（即被限制的权限）。
-> 更多信息：<https://manned.org/umask>.
+> 更多信息：<https://www.gnu.org/software/bash/manual/bash.html#index-umask>.
 
 - 显示当前掩码（八进制表示）：
 
