@@ -18,15 +18,15 @@
 
 - Delete a partition entry by number (data in sectors remains untouched):
 
-`sgdisk {{[-d|--delete]}}={{1}} {{/dev/sdX}}`
+`sgdisk {{[-d|--delete]}} {{1}} {{/dev/sdX}}`
 
 - Save the current in-memory GPT data (protective MBR, headers, and table) to a binary backup file:
 
-`sgdisk {{[-b|--backup]}}={{/path/to/backup.gpt}} {{/dev/sdX}}`
+`sgdisk {{[-b|--backup]}} {{/path/to/backup.gpt}} {{/dev/sdX}}`
 
 - Load GPT data from a backup file (restoring from a non-original disk is not recommended):
 
-`sgdisk {{[-l|--load-backup]}}={{/path/to/backup.gpt}} {{/dev/sdX}}`
+`sgdisk {{[-l|--load-backup]}} {{/path/to/backup.gpt}} {{/dev/sdX}}`
 
 - Verify GPT structures for CRC errors, mismatches, or inconsistencies:
 
