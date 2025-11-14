@@ -6,7 +6,7 @@
 
 - Unmount a mounted device:
 
-`udiskie-umount {{/media/username/device}}`
+`udiskie-umount {{path/to/mount}}`
 
 - Unmount and power down a USB device:
 
