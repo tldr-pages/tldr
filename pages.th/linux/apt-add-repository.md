@@ -1,20 +1,7 @@
 # apt-add-repository
 
-> ควบคุมและจัดการที่อยู่ของคลัง APT.
-> ข้อมูลเพิ่มเติม: <https://manned.org/apt-add-repository.1>
+> คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `add-apt-repository`
 
-- เพิ่มที่หมายของคลัง APT:
+- เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`apt-add-repository {{ที่อยู่จำเพาะของคลัง}}`
-
-- ลบคลัง APT:
-
-`apt-add-repository --remove {{ที่อยู่จำเพาะของคลัง}}`
-
-- อัพเดตข้อมูลแคชหลังจากเพิ่มคลัง APT:
-
-`apt-add-repository --update {{ที่อยู่จำเพาะของคลัง}}`
-
-- อนุญาตให้เข้าถึงซอรส์โค้ดของโปรแกรมในคลัง:
-
-`apt-add-repository --enable-source {{ที่อยู่จำเพาะของคลัง}}`
+`tldr add-apt-repository`
