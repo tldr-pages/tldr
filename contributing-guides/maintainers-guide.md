@@ -5,24 +5,23 @@ for the behavior expected of tldr-pages maintainers.
 
 > [!NOTE]
 > This text is a living standard;
-> that is, it is meant to *describe* the project's maintenance practices,
-> rather than *prescribe* them.
+> That is, it's is meant to *describe* the project's maintenance practices rather than *prescribe* them.
 > As a maintainer, you're expected to refer to it for clarification
-> about the collaborative workflows of the project,
+> About the collaborative workflows of the project,
 > but also to propose changes to it
 > that you feel would make it more useful
 > as a guideline for current and future maintainers.
 
-## I. Responding to contributions
+## I. Responding to Contributions
 
 - When responding to issues or pull requests,
   remember that you're temporarily the face of the tldr-pages project.
   **Be welcoming and friendly**, and if you don't know how to answer,
-  ping other maintainers who you think might have a say.
+  mention other maintainers who might provide input.
 
 - **Help keep the project responsive**.
   New discussion threads (issues or pull requests)
-  should receive a response within 3 days, ideally.
+  should ideally receive a response within three days.
   You can respond yourself
   or ask other members to provide their thoughts/opinions.
   In addition, if possible, try to hang around in the
@@ -30,23 +29,23 @@ for the behavior expected of tldr-pages maintainers.
   regularly as well, or at least show up every now and then.
 
 - **Know when and how to say no**.
-  Sometimes requests or contributions need to be declined,
+  Occasionally ,requests or contributions need to be declined,
   at least in their current form.
-  The project has developed multiple guidelines over time to handle edge cases
-  — get acquainted with them, and point them out when necessary.
-  Be polite, but firm: it saves everyone's time and patience
+  The project has established several guidelines to handle special cases
+  — get familaiarize yourself with them, and reference them when necessary.
+  Be polite yet firm: it saves everyone's time and patience
   to make expectations clear early.
 
 - Always remember to **thank every contribution**,
-  even when it can't be accepted (in fact, especially then).
-  Keep in mind that
+  even if their contribution cannot be accepted - especially in those cases.
+  Remember that
   [every form of contribution](https://github.com/all-contributors/all-contributors)
   (pull request, feature request, bug report, etc.)
   is a voluntary gift of time offered to the tldr-pages project
   by someone who cares about it,
   so make sure it's clear that we don't take it for granted.
 
-- Try to **keep the entire contribution process web-based**, if possible,
+- Whenever possible, **keep the entire contribution process web-based**
   to ensure it is accessible and straightforward.
   If you're comfortable with Git, consider offering to perform
   interactive rebases or other command-line operations
@@ -55,14 +54,14 @@ for the behavior expected of tldr-pages maintainers.
 
 ## II. Handling PRs
 
-- PRs should be merged once they
-  (1) **pass the automated tests** (GitHub Actions, CLA signing, etc.),
-  (2) have the **review comments addressed**,
-  (3) get **approved reviews by two maintainers** (the second maintainer can merge immediately after approving).
+- Pull requests should be merged once they
+  (1) **Pass the automated tests** GitHub Actions and CLA signing verification.
+  (2) Have all **review comments addressed** and resolved.
+  (3) Receive **approval from two maintainers** (the second maintainer can merge immediately after approving).
 
-- It is suggested to wait for a few hours before merging a PR with new additions to English pages. This is to allow other maintainers to review the changes and provide feedback.
+- It's recommended to wait for a few hours before merging a Pull request that add new English pages. This is to allow other maintainers to review the changes and provide feedback.
 
-- If a PR is non-English and there are automatic reviewers added via [CODEOWNERS](https://github.com/tldr-pages/tldr/blob/main/.github/CODEOWNERS), the PR at least needs one approval from one of the CODEOWNERS.
+- If a Pull request is non-English and there are automatic reviewers added via [CODEOWNERS](https://github.com/tldr-pages/tldr/blob/main/.github/CODEOWNERS), the PR at least needs one approval from one of the CODEOWNERS.
     - If a PR fails to get a review from one of the CODEOWNERS after a few days, the first maintainer should ping the CODEOWNERS for review.
     - If it still lingers around for **over 10 days without an approval from one of the CODEOWNERS**, the PR can be merged if it has two approvals.
     - If it only has one approval, please read the next point.
@@ -136,14 +135,14 @@ for the behavior expected of tldr-pages maintainers.
 
 ## III. Transparency
 
-- All non-confidential requests/mail made/sent on behalf of the project
+- All non-confidential requests or mail made on behalf of the project
  should be documented as an issue with the [archive](https://github.com/tldr-pages/tldr/issues?q=label%3Aarchive) label
   and must be communicated with other maintainers.
 - All repository/organization settings changes must be documented as an issue with the [archive](https://github.com/tldr-pages/tldr/issues?q=label%3Aarchive) label.
 
 ## IV. Handling failing actions and CLA checks
 
-- While merging multiple pull requests at the same time there is a chance that the deploy step might fail in the GitHub Actions workflow. In such cases, the maintainer should only **re-run** the workflow of the commit which was last merged (to prevent overwriting of assets by previous commits).
+- While merging multiple pull requests at the same time there is a chance that the deploy step might fail in the GitHub Actions workflow. In such cases, the maintainer should only **re-run** the workflow of the recently merged commit (to prevent previous commits from overwriting assets).
 - If the CLA check is frozen at the message "Status waiting to be reported", it is recommended to close and reopen the pull requests to retrigger the check (and notify the contributor about the same).
 
 For reference to see if a contributor has signed the CLA, visit the dashboard at <https://cla-assistant.io/>.
