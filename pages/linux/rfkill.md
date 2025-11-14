@@ -17,7 +17,7 @@
 
 - Unblock devices by type:
 
-`rfkill unblock {{bluetooth|wifi|gps|nfc...}}`
+`rfkill unblock {{bluetooth|wifi|gps|nfc|...}}`
 
 - Output in JSON format:
 
