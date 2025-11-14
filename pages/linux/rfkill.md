@@ -13,7 +13,7 @@
 
 - Block devices by type:
 
-`rfkill block {{bluetooth|wifi|gps|nfc...}}`
+`rfkill block {{bluetooth|wifi|gps|nfc|...}}`
 
 - Unblock devices by type:
 
