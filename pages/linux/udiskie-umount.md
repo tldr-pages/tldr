@@ -10,7 +10,7 @@
 
 - Unmount and power down a USB device:
 
-`udiskie-umount --detach {{/media/username/device}}`
+`udiskie-umount --detach {{path/to/mount}}`
 
 - Eject an optical drive:
 
