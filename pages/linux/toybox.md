@@ -8,10 +8,6 @@
 
 `toybox`
 
-- Display help information for a specific command:
-
-`toybox {{command}} --help`
-
 - Run a Toybox command explicitly (useful if another command with the same name exists in `$PATH`):
 
 `toybox {{command}} {{arguments}}`
@@ -23,6 +19,10 @@
 - Remove a file:
 
 `toybox rm {{path/to/file}}`
+
+- Display help information for a specific command:
+
+`toybox {{command}} --help`
 
 - Show version information:
 
