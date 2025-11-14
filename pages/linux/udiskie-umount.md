@@ -16,6 +16,6 @@
 
 `udiskie-umount --eject {{/media/username/cdrom}}`
 
-- Show help message:
+- Display help:
 
 `udiskie-umount --help`
