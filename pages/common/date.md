@@ -3,7 +3,7 @@
 > Set or display the system date.
 > More information: <https://www.gnu.org/software/coreutils/manual/html_node/date-invocation.html>.
 
--Display the current date in your locale's format:
+- Display the current date in your locale's format:
 
 `date +%c`
 
