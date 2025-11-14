@@ -15,7 +15,7 @@
 
 `<p>`
 
-- [R]edraw aquarium and all entities:
+- [r]edraw aquarium and all entities:
 
 `<r>`
 
