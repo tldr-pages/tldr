@@ -1,7 +1,7 @@
 # systemctl service-log-level
 
 > Get or set the runtime log level of a service via D-Bus.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#service-log-level%20SERVICE%20%5BLEVEL%5D>
+> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#service-log-level%20SERVICE%20%5BLEVEL%5D>.
 
 - Show the current log level of a service:
 
