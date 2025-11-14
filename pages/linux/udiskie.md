@@ -9,7 +9,7 @@
 
 - Mount all available devices:
 
-`udiskie --mount`
+`udiskie-mount -a`
 
 - Run udiskie without using a config file:
 
