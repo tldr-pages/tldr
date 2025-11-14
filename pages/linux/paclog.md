@@ -11,13 +11,17 @@
 
 `paclog --commandline`
 
+- Display when modifications have been made to a package :
+
+`paclog --package {{package_name}}`
+
+- Display package actions of a specific type:
+
+`paclog --action {{all|install|reinstall|upgrade|downgrade|remove}}`
+
 - Display only errors, warnings, and notes:
 
 `paclog --warnings`
-
-- Display package name and action type:
-
-`paclog --package {{package_name}} --action {{install|upgrade|remove|...}}`
 
 - Display the list of installed packages according to the log:
 
