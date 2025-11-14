@@ -1,7 +1,7 @@
 # asciiquarium
 
 > Display an animated aquarium in ASCII art inside the terminal.
-> More information: <https://robobunny.com/projects/asciiquarium/html/>.
+> More information: <https://robobunny.com/projects/asciiquarium/html/?page=2>.
 
 - Start `asciiquarium`:
 
