@@ -21,7 +21,7 @@
 
 - Delete only untracked files matching specific paths or glob patterns:
 
-`git clean {{[-f|--force]}} -- {{path/to/directory}} {{'*.ext}}`
+`git clean {{[-f|--force]}} -- {{path/to/directory}} '{{*.ext}}'`
 
 - Delete untracked files except those matching the given patterns:
 
