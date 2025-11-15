@@ -31,3 +31,7 @@
 - Toon een log van wat er tot nu toe is gedaan:
 
 `git bisect log`
+
+- Toon de resterende kandidaat-commits die nog gecontroleerd moeten worden:
+
+`git bisect visualize`
