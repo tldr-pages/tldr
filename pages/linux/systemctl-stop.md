@@ -5,12 +5,12 @@
 
 - Stop a unit:
 
-`systemctl stop {{unit}}`
+`sudo systemctl stop {{unit}}`
 
 - Stop a service and suppress warnings:
 
-`systemctl stop {{unit}} --no-warn`
+`sudo systemctl stop {{unit}} --no-warn`
 
 - Stop a user unit:
 
-`systemctl stop {{unit}} --user`
+`sudo systemctl stop {{unit}} --user`
