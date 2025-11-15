@@ -1,6 +1,6 @@
 # spf
 
-> superfile – 現代的終端機檔案管理器。
+> superfile - 現代的終端機檔案管理器。
 > 更多資訊：<https://github.com/yorukot/superfile>.
 
 - 使用指定路徑啟動 `spf`：
