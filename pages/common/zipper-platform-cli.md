@@ -21,4 +21,3 @@
 - List all available environments:
 
 `zipper-platform-cli environments`
-
