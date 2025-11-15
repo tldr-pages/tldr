@@ -1,7 +1,7 @@
 # koji help
 
 > Display help information for Koji commands.
-> More information: <https://docs.pagure.org/koji/HOWTO/>.
+> More information: <https://docs.pagure.org/koji/HOWTO/#exploring-koji>.
 
 - Display all available commands:
 
