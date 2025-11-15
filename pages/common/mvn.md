@@ -1,36 +1,36 @@
 # mvn
 
 > Apache Maven: build and manage Java-based projects.
-> More information: <https://manned.org/mvn>.
+> More information: <https://maven.apache.org/guides/>.
 
 - Compile a project:
 
 `mvn compile`
 
-- Compile and package the compiled code in its distributable format, such as a `jar`:
+- Compile and package the project into a distributable format (such as a JAR):
 
 `mvn package`
 
-- Compile and package, skipping unit tests:
+- Compile and package the project while skipping unit tests:
 
-`mvn package {{[-D|--define]}} skipTests`
+`mvn package -DskipTests`
 
-- Install the built package in local maven repository. (This will invoke the compile and package commands too):
+- Install the built package into the local Maven repository (also runs compile and package):
 
 `mvn install`
 
-- Delete build artifacts from the target directory:
+- Remove build artifacts from the `target` directory:
 
 `mvn clean`
 
-- Do a clean and then invoke the package phase:
+- Clean the project and then run the package phase:
 
 `mvn clean package`
 
-- Clean and then package the code with a given build profile:
+- Clean and package the project using a specific build profile:
 
-`mvn clean {{[-P|--activate-profiles]}} {{profile}} package`
+`mvn clean -P {{profile}} package`
 
-- Run a class with a main method:
+- Run a class with a `main` method using the Exec plugin:
 
-`mvn exec:java {{[-D|--define]}} exec.mainClass="{{com.example.Main}}" {{[-D|--define]}} exec.args="{{argument1 argument2 ...}}"`
+`mvn exec:java -Dexec.mainClass="{{com.example.Main}}" -Dexec.args="{{argument1 argument2 ...}}"`
