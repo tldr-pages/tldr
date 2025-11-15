@@ -17,7 +17,7 @@
 
 - Produce structured JSON output:
 
-`code2prompt {{path/to/project}} {{[-F|--output-format]}} {{json}}`
+`code2prompt {{path/to/project}} {{[-F|--output-format]}} json`
 
 - Use a custom Handlebars template when generating the prompt:
 
