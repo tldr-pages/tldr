@@ -2,7 +2,7 @@
 
 > A command-line tool used for managing Zipper Platform applications. View project status, deploy apps, and manage environments. More information: <https://zipperplatform.com>.
 
-- Display general help:
+- Display help:
 
 `zipper-platform-cli help`
 
