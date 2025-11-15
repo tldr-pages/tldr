@@ -7,11 +7,11 @@
 
 - Installeer een pakket:
 
-`dpkg {{[-i|--install]}} {{pad/naar/bestand.deb}}`
+`sudo dpkg {{[-i|--install]}} {{pad/naar/bestand.deb}}`
 
 - Verwijder een pakket:
 
-`dpkg {{[-r|--remove]}} {{pakket}}`
+`sudo dpkg {{[-r|--remove]}} {{pakket}}`
 
 - Toon geïnstalleerde pakketten:
 
@@ -31,4 +31,4 @@
 
 - Schoon een geïnstalleerd of al verwijderd pakket op, inclusief configuratie:
 
-`dpkg {{[-P|--purge]}} {{pakket}}`
+`sudo dpkg {{[-P|--purge]}} {{pakket}}`
