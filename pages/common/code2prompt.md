@@ -9,20 +9,17 @@
 
 - Include only specific files and exclude a directory:
 
-`code2prompt {{path/to/project}} --include "{{**/*.rs}}" --exclude "{{tests/**}}"`
+`code2prompt {{path/to/project}} {{[-i|--include]}} "{{**/*.rs}}" {{[-e|--exclude]}} "{{tests/**}}"`
 
 - Write the prompt to a file instead of the clipboard:
 
-`code2prompt {{path/to/project}} --output-file {{my_prompt.txt}}`
+`code2prompt {{path/to/project}} {{[-O|--output-file]}} {{my_prompt.txt}}`
 
 - Produce structured JSON output:
 
-`code2prompt {{path/to/project}} --output-format {{json}}`
+`code2prompt {{path/to/project}} {{[-F|--output-format]}} {{json}}`
 
 - Use a custom Handlebars template when generating the prompt:
 
-`code2prompt {{path/to/project}} --template {{my_template.hbs}}`
+`code2prompt {{path/to/project}} {{[-t|--template]}} {{my_template.hbs}}`
 
-- Run as an MCP server for dynamic agent integration (advanced):
-
-`code2prompt server --port {{1234}}`

@@ -9,7 +9,7 @@
 
 - Serialize specific directories and write output to a directory:
 
-`yek {{path/to/directory path/to/directory2 ...}} --output-dir {{/tmp/yek}}`
+`yek {{path/to/directory path/to/directory2 ...}} --output-dir {{path/to/output_directory}}`
 
 - Process multiple files or use glob patterns (quote globs to avoid shell expansion):
 
