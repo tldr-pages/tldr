@@ -19,3 +19,7 @@
 - Run a combined shell command:
 
 `bun exec "mkdir test && cd test"`
+
+- Run a script file:
+
+`bun exec {{path/to/script}}`
