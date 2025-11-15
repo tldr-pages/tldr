@@ -1,6 +1,6 @@
 # toybox
 
-> Multipurpose command-line tool that provides many standard Unix utilities.
+> Multipurpose tool that provides many standard Unix utilities.
 > Commonly used in Android and embedded Linux systems.
 > More information: <https://landley.net/toybox/>.
 
