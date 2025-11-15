@@ -1,20 +1,21 @@
 # uptime
 
-> Tell how long the system has been running and other information.
-> More information: <https://www.gnu.org/software/coreutils/manual/html_node/uptime-invocation.html>.
+> Display how long the system has been running, along with the current time, number of logged-in users, and system load.
+> More information: https://manned.org/uptime.
 
-- Print current time, uptime, number of logged-in users and other information:
+- Show the current uptime information:
 
 `uptime`
 
-- Show only the amount of time the system has been booted for:
+- Show how long the system has been running in a human-readable format:
 
-`uptime {{[-p|--pretty]}}`
+`uptime --pretty`
 
-- Print the date and time the system booted up at:
+- Show the exact date and time when the system booted:
 
-`uptime {{[-s|--since]}}`
+`uptime --since`
 
-- Display version:
+- Display version information:
 
-`uptime {{[-V|--version]}}`
+`uptime --version`
+
