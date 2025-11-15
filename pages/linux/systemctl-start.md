@@ -5,8 +5,8 @@
 
 - Start a unit:
 
-`systemctl start {{unit}}`
+`sudo systemctl start {{unit}}`
 
 - Start a user unit:
 
-`systemctl start {{unit}} --user`
+`sudo systemctl start {{unit}} --user`
