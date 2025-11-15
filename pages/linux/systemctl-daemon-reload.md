@@ -7,4 +7,4 @@
 
 - Reload systemd to apply changes in unit files:
 
-`systemctl daemon-reload`
+`sudo systemctl daemon-reload`
