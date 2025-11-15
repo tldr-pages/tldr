@@ -28,3 +28,6 @@
 `expo run:android`
 `expo run:ios`
 
+git add expo.md
+git commit -m "Fix TLDR parse error: proper info block spacing and LF line endings"
+git push origin add-expo-page
