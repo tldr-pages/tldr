@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2e3" height="1200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <linearGradient id="a">
+   <stop stop-color="#97d6d2" offset="0"/>
+   <stop stop-color="#4d9182" offset="1"/>
+  </linearGradient>
+  <linearGradient id="b" x1="10%" x2="90%" y1="10%" y2="90%" xlink:href="#a"/>
+  <linearGradient id="c" x1="90%" x2="10%" y1="90%" y2="10%" xlink:href="#a"/>
+  <style type="text/css"><![CDATA[
+        @font-face {
+          font-family: 'Sometype Mono';
+          src: url('./SometypeMono-Regular.ttf');
+        }
+        @font-face {
+          font-family: 'Sometype Mono';
+          src: url('./SometypeMono-Bold.ttf');
+          font-weight: bold;
+        }
+      ]]></style>
+ </defs>
+ <!-- start of logo.svg -->
+ <g transform="translate(600,-70)">
+  <!-- 2000/2 - 460/2 - 170 = 1000 - 230 - 170 = 1000 - 400 = 600 -->
+  <rect x="170" y="170" width="460" height="460" rx="50" ry="50" fill="url(#b)"/>
+  <rect x="210" y="210" width="380" height="380" rx="40" ry="40" fill="url(#c)"/>
+  <text x="215" y="490" fill="#203050" font-family="'Sometype Mono'" font-size="300">$_ </text>
+ </g>
+ <!-- end of logo.svg -->
+ <g fill="#7ebfb7" font-family="Sometype Mono, monospace" text-anchor="middle">
+  <text x="1000" y="850" font-size="280px" font-weight="bold"><tspan fill="#438980" font-family="'Sometype Mono'" font-weight="bold">tldr-pages</tspan></text>
+  <text x="1000" y="1070" font-size="61.333px" font-variant="small-caps" font-weight="500" style="inline-size:2003.78;white-space:pre" xml:space="preserve"/>
+ </g>
+ <text fill="black" font-family="sans-serif" font-size="40px" style="line-height:1.25;shape-inside:url(#rect47);white-space:pre" xml:space="preserve"/>
+</svg>

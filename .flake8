@@ -1,0 +1,5 @@
+[flake8]
+max-line-length = 88
+# We ignore E501 as black handles it for us, and in a way that ignores strings
+# that go over the line length, as opposed to flake8 which flags such strings.
+extend-ignore = E203,E501

@@ -1,0 +1,28 @@
+# setxkbmap
+
+> Set the keyboard using the X Keyboard Extension.
+> More information: <https://manned.org/setxkbmap>.
+
+- Set the keyboard in French AZERTY:
+
+`setxkbmap {{fr}}`
+
+- Set multiple keyboard layouts, their variants and switching option:
+
+`setxkbmap -layout {{us,de}} -variant {{,qwerty}} -option '{{grp:alt_caps_toggle}}'`
+
+- List all layouts:
+
+`localectl list-x11-keymap-layouts`
+
+- List variants for the layout:
+
+`localectl list-x11-keymap-variants {{de}}`
+
+- List available switching options:
+
+`localectl list-x11-keymap-options | grep grp:`
+
+- Display help:
+
+`setxkbmap -help`

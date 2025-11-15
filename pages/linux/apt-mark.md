@@ -1,0 +1,24 @@
+# apt-mark
+
+> Utility to change the status of installed packages.
+> More information: <https://manned.org/apt-mark.8>.
+
+- Mark a package as automatically installed:
+
+`sudo apt-mark auto {{package}}`
+
+- Hold a package at its current version and prevent updates to it:
+
+`sudo apt-mark hold {{package}}`
+
+- Allow a package to be updated again:
+
+`sudo apt-mark unhold {{package}}`
+
+- Show manually installed packages:
+
+`apt-mark showmanual`
+
+- Show held packages that aren't being updated:
+
+`apt-mark showhold`

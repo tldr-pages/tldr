@@ -1,0 +1,13 @@
+# peerindex
+
+> Inspect MRT TABLE_DUMPV2 Peer Index Table.
+> Can read files compressed with `gzip`, `bzip2` and `xz`.
+> More information: <https://codeberg.org/1414codeforge/ubgpsuite>.
+
+- List all peers:
+
+`peerindex {{master6.mrt}}`
+
+- Display all peers that have provided routing information:
+
+`peerindex {{[-r|--only-refs]}} {{master6.mrt}}`

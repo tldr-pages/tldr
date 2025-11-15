@@ -1,0 +1,38 @@
+name: Codespell
+permissions:
+  contents: read
+
+on: 
+  pull_request:
+    # Ignore all other languages except English
+    paths-ignore:
+      - 'pages.*/*/*'
+      - 'contributing-guides/style-guide.*.md'
+      - 'package-lock.json'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@24d32ffd492484c1d75e0c0b894501ddb9d30d62 # v47.0.0
+        with:
+          # Ignore all other languages except English
+          files_ignore: |
+            pages.*/*/*
+            contributing-guides/style-guide.*.md
+            package-lock.json
+
+      - uses: codespell-project/actions-codespell@8f01853be192eb0f849a5c7d721450e7a467c579 # v2.2
+        with:
+          ignore_words_file: .github/codespell-ignore
+          # Exit with 0 regardless of typos.
+          only_warn: 1
+          # Skip non-English pages
+          skip: ./pages.*/*/*.md,./contributing-guides/style-guide.*.md
+          # Only check files in the PR
+          path: ${{ steps.changed-files.outputs.all_changed_files }}

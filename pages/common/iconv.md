@@ -1,0 +1,16 @@
+# iconv
+
+> Convert text from one encoding to another.
+> More information: <https://manned.org/iconv>.
+
+- Convert file to a specific encoding, and print to `stdout`:
+
+`iconv {{[-f|--from-code]}} {{from_encoding}} {{[-t|--to-code]}} {{to_encoding}} {{input_file}}`
+
+- Convert file to the current locale's encoding, and output to a file:
+
+`iconv {{[-f|--from-code]}} {{from_encoding}} {{input_file}} > {{output_file}}`
+
+- List supported encodings:
+
+`iconv {{[-l|--list]}}`

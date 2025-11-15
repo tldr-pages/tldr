@@ -1,0 +1,24 @@
+# git subtree
+
+> Outil pour gérer les dépendances de projet en tant que sous-projets.
+> Plus d'informations : <https://manned.org/git-subtree>.
+
+- Ajout d'un dépôt Git en tant que sous-arbre :
+
+`git subtree add {{[-P|--prefix]}} {{chemin/vers/repertoire/}} --squash {{repository_url}} {{master}}`
+
+- Mettre à jour le sous-arbre avec son dernier commit :
+
+`git subtree pull {{[-P|--prefix]}} {{chemin/vers/repertoire/}} {{repository_url}} {{master}}`
+
+- Merge le dépot d'un sous arbre dans la branche master :
+
+`git subtree merge {{[-P|--prefix]}} {{chemin/vers/repertoire/}} --squash {{repository_url}} {{master}}`
+
+- Pousser les commits vers le dépôt d'un sous-arbre :
+
+`git subtree push {{[-P|--prefix]}} {{chemin/vers/repertoire/}} {{repository_url}} {{master}}`
+
+- Extraire un nouvel historique de projet de l'historique d'un sous-arbre :
+
+`git subtree split {{[-P|--prefix]}} {{chemin/vers/repertoire/}} {{repository_url}} {{[-b|--branch]}} {{nom_de_branche}}`

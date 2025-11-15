@@ -1,0 +1,28 @@
+# mandb
+
+> Manage the pre-formatted manual page database.
+> More information: <https://manned.org/mandb>.
+
+- Purge and process manual pages:
+
+`mandb`
+
+- Update a single entry:
+
+`mandb --filename {{path/to/file}}`
+
+- Create entries from scratch instead of updating:
+
+`mandb --create`
+
+- Only process user databases:
+
+`mandb --user-db`
+
+- Do not purge obsolete entries:
+
+`mandb --no-purge`
+
+- Check the validity of manual pages:
+
+`mandb --test`

@@ -1,0 +1,20 @@
+# kexec
+
+> Directly reboot into a new kernel.
+> More information: <https://manned.org/kexec>.
+
+- Load a new kernel:
+
+`kexec {{[-l|--load]}} {{path/to/kernel}} --initrd={{path/to/initrd}} --command-line={{arguments}}`
+
+- Load a new kernel with current boot parameters:
+
+`kexec {{[-l|--load]}} {{path/to/kernel}} --initrd={{path/to/initrd}} --reuse-cmdline`
+
+- Execute a currently loaded kernel:
+
+`kexec {{[-e|--exec]}}`
+
+- Unload current kexec target kernel:
+
+`kexec {{[-u|--unload]}}`

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="800">
+  <defs>
+    <linearGradient id="a">
+      <stop offset="0" stop-color="#97d6d2"/>
+      <stop offset="1" stop-color="#4d9182"/>
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="b" x1="10%" y1="10%" x2="90%" y2="90%"/>
+    <linearGradient xlink:href="#a" id="c" x1="90%" y1="90%" x2="10%" y2="10%"/>
+    <style type="text/css">
+      <![CDATA[
+        @font-face {
+          font-family: 'Sometype Mono';
+          src: url('./SometypeMono-Regular.ttf');
+        }
+      ]]>
+    </style>
+  </defs>
+  <rect width="100%" height="100%" x="0" y="0" fill="#203050"/>
+  <rect width="460" height="460" x="170" y="170" rx="50" ry="50" fill="url(#b)"/>
+  <rect width="380" height="380" x="210" y="210" rx="40" ry="40" fill="url(#c)"/>
+  <text x="215" y="490" font-size="300" font-family="Sometype Mono, monospace" fill="#203050">
+    $_
+  </text>
+</svg>

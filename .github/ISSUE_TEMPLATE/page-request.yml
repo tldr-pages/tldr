@@ -1,0 +1,47 @@
+name: 📄 Page request
+title: "Page request: "
+description: Request creation of a page.
+labels: new command, help wanted
+body:
+  - type: textarea
+    attributes:
+      label: Command description
+      description: Describe a command you want to be summarized.
+      placeholder: Tell us about the command!
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Command details
+      description: Describe any details related to a command.
+      placeholder: e.g. command version
+  - type: input
+    attributes:
+      label: Documentation
+      description: Link to the official documentation.
+      placeholder: https://example.com
+  - type: dropdown
+    attributes:
+      label: Platform
+      description: What platform does the program run on? (Select "Common" if the program works on more than one platform)
+      options:
+        - Android
+        - Common
+        - FreeBSD
+        - Linux
+        - macOS (OS X)
+        - NetBSD
+        - OpenBSD
+        - SunOS
+        - Windows
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: VCS repository link (e.g. GitHub, GitLab)
+      description: Link to the Version Control System repository if the project is open source.
+      placeholder: https://github.com/user/repo
+  - type: textarea
+    attributes:
+      label: Additional information
+      description: Provide additional information if the command differs between platforms.

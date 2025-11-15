@@ -1,0 +1,24 @@
+{
+  "name": "tldr-pages",
+  "description": "Simplified and community-driven man pages",
+  "author": "Romain Prieto",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "repository": "tldr-pages/tldr",
+  "homepage": "https://tldr.sh/",
+  "dependencies": {
+    "glob": "11.0.3",
+    "markdownlint-cli": "^0.45.0",
+    "tldr-lint": "^0.0.20"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7"
+  },
+  "scripts": {
+    "lint-markdown": "markdownlint pages*/**/*.md",
+    "lint-tldr-pages": "tldr-lint ./pages",
+    "test": "bash scripts/test.sh",
+    "build-index": "node ./scripts/build-index.js > index.json",
+    "prepare": "husky"
+  },
+  "private": true
+}
