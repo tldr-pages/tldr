@@ -22,4 +22,3 @@
 - Use a custom Handlebars template when generating the prompt:
 
 `code2prompt {{path/to/project}} {{[-t|--template]}} {{my_template.hbs}}`
-
