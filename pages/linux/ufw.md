@@ -14,6 +14,10 @@
 
 - Show `ufw` rules, along with their numbers:
 
+- Allow incoming traffic on port 5432 with a comment identifying the rule:
+
+`sudo ufw allow 5432 comment "{{description}}"`
+
 `sudo ufw status numbered`
 
 - Allow incoming traffic on port 5432 on this host with a comment identifying the service:

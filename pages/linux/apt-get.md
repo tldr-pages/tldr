@@ -1,3 +1,18 @@
+- Update the list of available packages and versions:
+
+`sudo apt-get update`
+
+- Install a package, or update it to the latest available version:
+
+`sudo apt-get install {{package_name}}`
+
+- Remove a package:
+
+`sudo apt-get remove {{package_name}}`
+
+- Remove a package and its configuration files:
+
+`sudo apt-get purge {{package_name}}`
 # apt-get
 
 > Debian and Ubuntu package management utility.
