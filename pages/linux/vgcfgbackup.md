@@ -5,20 +5,20 @@
 
 - Back up metadata for all volume groups (to `/etc/lvm/backup/` by default):
 
-`vgcfgbackup`
+`sudo vgcfgbackup`
 
 - Back up metadata for a specific volume group:
 
-`vgcfgbackup {{vg_name}}`
+`sudo vgcfgbackup {{vg_name}}`
 
 - Write the backup to a specific file:
 
-`vgcfgbackup {{[-f|--file]}} {{path/to/backup}} {{vg_name}}`
+`sudo vgcfgbackup {{[-f|--file]}} {{path/to/backup}} {{vg_name}}`
 
 - Back up multiple VGs using a filename template (`%s` becomes the VG name):
 
-`vgcfgbackup {{[-f|--file]}} {{/tmp/vg-backup-%s}} {{vg1 vg2 ...}}`
+`sudo vgcfgbackup {{[-f|--file]}} {{/tmp/vg-backup-%s}} {{vg1 vg2 ...}}`
 
 - Increase verbosity (repeat `-v` for more detail):
 
-`vgcfgbackup {{[-v|--verbose]}} {{vg_name}}`
+`sudo vgcfgbackup {{[-v|--verbose]}} {{vg_name}}`
