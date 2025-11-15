@@ -9,7 +9,7 @@
 
 - Serialize specific directories and write output to a directory:
 
-`yek {{path/to/directory path/to/directory2...}} --output-dir {{/tmp/yek}}`
+`yek {{path/to/directory path/to/directory2 ...}} --output-dir {{/tmp/yek}}`
 
 - Process multiple files or use glob patterns (quote globs to avoid shell expansion):
 
@@ -17,7 +17,7 @@
 
 - Cap the token-based output size to 128k tokens:
 
-`yek {{path/to/directory}} --tokens {{128k}}`
+`yek {{path/to/directory}} --tokens 128k`
 
 - Cap the byte-based max output size and set an explicit output file name:
 
