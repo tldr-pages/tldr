@@ -1,4 +1,4 @@
-# yadm-transcrypt
+# yadm transcrypt
 
 > `transcrypt`가 설치된 경우, 이 명령을 통해 `transcrypt`에 직접 옵션을 전달할 수 있습니다.
 > yadm 저장소를 사용하도록 환경이 구성되어 있습니다.

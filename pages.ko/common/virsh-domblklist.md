@@ -1,4 +1,4 @@
-# virsh-domblklist
+# virsh domblklist
 
 > 가상 머신과 연결된 블록 장치에 대한 정보 나열.
 > 같이 보기: `virsh`.
