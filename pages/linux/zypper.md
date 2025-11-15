@@ -7,6 +7,24 @@
 - Synchronize list of packages and versions available:
 
 `sudo zypper {{[ref|refresh]}}`
+- Synchronize list of packages and versions available:
+  `zypper {{ref|refresh}}`
+  `sudo zypper {{ref|refresh}}`
+
+- Install a new package:
+  `zypper {{in|install}} {{package}}`
+  `sudo zypper {{in|install}} {{package}}`
+
+- Remove a package:
+  `zypper {{rm|remove}} {{package}}`
+  `sudo zypper {{rm|remove}} {{package}}`
+
+- Upgrade installed packages to the newest available versions:
+  `zypper {{up|update}}`
+  `sudo zypper {{up|update}}`
+
+- Search for a package via keyword:
+  `zypper search {{keyword}}`
 
 - Install a new package:
 
