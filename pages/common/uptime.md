@@ -1,21 +1,18 @@
 # uptime
 
 > Display how long the system has been running, along with the current time, number of logged-in users, and system load.
-> More information: https://manned.org/uptime.
+> More information: <https://manned.org/uptime>.
 
-- Show the current uptime information:
-
+- Print current time, uptime, number of logged-in users, and load averages:
 `uptime`
 
-- Show how long the system has been running in a human-readable format:
+- Show only the amount of time the system has been up:
+`uptime {{-p}}`
 
-`uptime --pretty`
+- Show the date and time the system booted:
+`uptime {{-s}}`
 
-- Show the exact date and time when the system booted:
+- Display the version:
+`uptime {{-V}}`
 
-`uptime --since`
-
-- Display version information:
-
-`uptime --version`
 
