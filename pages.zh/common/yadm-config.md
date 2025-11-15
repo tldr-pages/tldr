@@ -1,4 +1,4 @@
-# yadm-config
+# yadm config
 
 > 传递选项给 `yadm` 的配置文件。更改由 `yadm` 管理的仓库的 `.config`。
 > 更多信息：<https://github.com/TheLocehiliosan/yadm/blob/master/yadm.md#configuration>.

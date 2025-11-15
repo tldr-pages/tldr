@@ -1,4 +1,4 @@
-# git-grep
+# git grep
 
 > Belirtilen söz dizisini bir deponun geçmişi dahil tüm dosyalarında ara.
 > Sıradan `grep` komutundaki birçok ek bu komut için de aynen geçerlidir.
