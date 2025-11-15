@@ -26,4 +26,3 @@
 - List files sorted by size:
 
 `ls -lS`
-
