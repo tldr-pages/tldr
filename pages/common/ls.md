@@ -4,14 +4,19 @@
 > More information: <https://www.gnu.org/software/coreutils/ls>.
 
 - List files one per line:
-ls -1
+`ls -1`
 
 - List all files including hidden ones:
-ls -a
+`ls -a`
 
 - List files with human readable sizes:
-ls -lh
+`ls -lh`
 
 - List files sorted by size:
-ls -lS
+`ls -lS`
+- List files with human readable sizes:
+`ls -lh`
+
+- List files sorted by size:
+`ls -lS`
 
