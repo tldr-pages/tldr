@@ -1,4 +1,4 @@
-# vboxmanage-clonevm
+# VBoxManage clonevm
 
 > 기존 가상 머신(VM)의 복제본 생성.
 > 더 많은 정보: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-clonevm>.
