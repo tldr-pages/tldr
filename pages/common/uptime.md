@@ -18,4 +18,3 @@
 - Display the version:
 
 `uptime {{-V}}`
-
