@@ -4,30 +4,20 @@
 > More information: <https://docs.expo.dev/eas/>
 
 - Build an Android APK or AAB:
-
 `expo build:android`
 
 - Build an iOS IPA:
-
 `expo build:ios`
 
 - Run the app in Expo Go:
-
 `expo start`
 
 - Install a dependency:
-
 `expo install <package_name>`
 
 - Prebuild native Android/iOS projects:
-
 `expo prebuild`
 
-- List the main tasks:
-
+- Run the app on Android or iOS:
 `expo run:android`
 `expo run:ios`
-
-git add expo.md
-git commit -m "Fix TLDR parse error: proper info block spacing and LF line endings"
-git push origin add-expo-page
