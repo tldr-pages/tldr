@@ -20,7 +20,7 @@
 
 `toolbox help {{subcommand}}`
 
-- Display general help:
+- Display help:
 
 `toolbox {{[-h|--help]}}`
 
