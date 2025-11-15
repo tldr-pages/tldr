@@ -24,6 +24,6 @@
 
 `toybox {{command}} --help`
 
-- Show version information:
+- Display version:
 
 `toybox --version`
