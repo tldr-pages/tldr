@@ -1,6 +1,6 @@
 # cli53
 
-> Command line tool for Amazon Route 53.
+> Tool for Amazon Route 53.
 > More information: <https://github.com/barnybug/cli53>.
 
 - List domains:
