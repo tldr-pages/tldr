@@ -1,24 +1,17 @@
 # bun exec
 
-> Run a package’s binary without installing it globally.
-> More information: <https://bun.sh/docs>.
+> Execute a shell script directly with Bun.
+> Note: When running from a shell, remember to escape quotes.
+> More information: <https://bun.sh/docs/runtime/shell>.
 
-- Run a binary from the npm registry:
+- Run a simple command:
+`bun exec "echo hello"`
 
-`bun exec {{package_name}}`
+- Run a command with flags:
+`bun exec "ls -la"`
 
-- Run a binary and pass arguments to it:
+- Run a command containing quotes:
+`bun exec "echo \"hello friends\""`
 
-`bun exec {{package_name}} {{arg1}} {{arg2}}`
-
-- Run a specific version of a package:
-
-`bun exec {{package_name}}@{{version}}`
-
-- Run a local project’s binary:
-
-`bun exec ./path/to/{{script.js}}`
-
-- Use bun exec with npx-style behavior:
-
-`bun exec -- {{command}} {{args}}`
+- Run a combined shell command:
+`bun exec "mkdir test && cd test"`
