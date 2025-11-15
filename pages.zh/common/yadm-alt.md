@@ -1,4 +1,4 @@
-# yadm-alt
+# yadm alt
 
 > 为任何被管理的文件创建符号链接并处理模板。
 > 了解更多关于模板的信息：<https://yadm.io/docs/templates>。
