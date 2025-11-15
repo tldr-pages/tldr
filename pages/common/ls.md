@@ -1,23 +1,17 @@
 # ls
 
 > List directory contents.
-> More information: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>.
-# ls - List directory contents
+> More information: <https://www.gnu.org/software/coreutils/ls>.
 
-List files and directories.
-
-- List files in the current directory:
-`ls`
-
-- List files in long format (permissions, owner, size):
-`ls -l`
+- List files one per line:
+ls -1
 
 - List all files including hidden ones:
-`ls -a`
+ls -a
 
-- List files with human-readable file sizes:
-`ls -lh`
+- List files with human readable sizes:
+ls -lh
 
-- List files sorted by size (largest first):
-`ls -S`
+- List files sorted by size:
+ls -lS
 
