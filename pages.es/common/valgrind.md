@@ -2,7 +2,7 @@
 
 > Programa para un conjunto de herramientas expertas con programas de perfilado, optimización y depuración.
 > Entre las herramientas de uso común cabe citar: `memcheck`, `cachegrind`, `callgrind`, `massif`, `helgrind` y `drd`.
-> Más información: <https://www.valgrind.org>.
+> Más información: <https://valgrind.org/docs/manual/manual-core.html#manual-core.options>.
 
 - Utiliza la herramienta Memcheck (por defecto) para mostrar un diagnóstico del uso de la memoria por `programa`:
 

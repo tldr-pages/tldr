@@ -1,7 +1,7 @@
 # fc
 
 > Abre o último comando executado em um editor de texto.
-> Mais informações: <https://manned.org/fc>.
+> Mais informações: <https://www.gnu.org/software/bash/manual/bash.html#index-fc>.
 
 - Abre o último comando executado no editor de texto padrão do sistema:
 

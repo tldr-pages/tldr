@@ -1,7 +1,7 @@
 # feh
 
 > 轻量级图像查看工具。
-> 更多信息：<https://feh.finalrewind.org>.
+> 更多信息：<https://man.finalrewind.org/1/feh/>.
 
 - 查看本地图像或使用 URL：
 

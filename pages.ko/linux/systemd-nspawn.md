@@ -1,7 +1,7 @@
 # systemd-nspawn
 
 > 경량 컨테이너에서 명령이나 운영 체제를 실행.
-> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/latest/systemd-nspawn.html>.
+> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/systemd-nspawn.html>.
 
 - 컨테이너에서 명령 실행:
 

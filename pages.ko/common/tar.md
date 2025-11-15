@@ -2,7 +2,7 @@
 
 > 아카이브 유틸리티.
 > 종종 `gzip` 또는 `bzip2`와 같은 압축 방법과 결합하여 사용됩니다.
-> 더 많은 정보: <https://www.gnu.org/software/tar>.
+> 더 많은 정보: <https://www.gnu.org/software/tar/manual/tar.html>.
 
 - 아카이브 생성 후 파일로 저장:
 

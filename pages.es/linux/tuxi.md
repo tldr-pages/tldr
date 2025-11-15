@@ -1,7 +1,7 @@
 # tuxi
 
 > Recorre resultados de búsqueda en Google y páginas de resultados de herramientas de búsqueda y proporciona respuestas instantáneas y concisas.
-> Más información: <https://github.com/Bugswriter/tuxi>.
+> Más información: <https://github.com/Bugswriter/tuxi#usage>.
 
 - Hace una búsqueda usando Google:
 

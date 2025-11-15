@@ -2,7 +2,7 @@
 
 > Archivovací nástroj.
 > Často kombinován s komprimovací metodou, například `gzip` nebo `bzip2`.
-> Více informací: <https://www.gnu.org/software/tar>.
+> Více informací: <https://www.gnu.org/software/tar/manual/tar.html>.
 
 - Vytvořit archiv a zapsat jej do souboru:
 

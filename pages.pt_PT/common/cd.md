@@ -1,7 +1,7 @@
 # cd
 
 > Mudar o diretório atual.
-> Mais informações: <https://manned.org/cd>.
+> Mais informações: <https://www.gnu.org/software/bash/manual/bash.html#index-cd>.
 
 - Vai para um dado diretório:
 

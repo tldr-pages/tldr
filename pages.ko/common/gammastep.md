@@ -1,7 +1,7 @@
-# Gammastep
+# gammastep
 
 > 하루 중 시간에 따라 화면의 색온도를 조정.
-> 더 많은 정보: <https://gitlab.com/chinstrap/gammastep>.
+> 더 많은 정보: <https://manned.org/gammastep>.
 
 - 낮(예: 5700k)과 밤(예: 3600k)에 특정 온도([t]emperature)로 Gammastep은 켜기:
 

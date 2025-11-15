@@ -1,7 +1,7 @@
 # highlight
 
 > 구문 강조된 소스 코드를 다양한 형식으로 출력.
-> 더 많은 정보: <http://www.andre-simon.de/doku/highlight/highlight.php>.
+> 더 많은 정보: <http://andre-simon.de/doku/highlight/en/highlight.php>.
 
 - 소스 코드 파일에서 완전한 HTML 문서를 생성:
 

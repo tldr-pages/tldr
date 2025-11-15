@@ -1,7 +1,7 @@
 # help2man
 
 > 실행 파일의 `--help` 및 `--version` 출력에서 간단한 매뉴얼 페이지 생성.
-> 더 많은 정보: <https://www.gnu.org/software/help2man>.
+> 더 많은 정보: <https://www.gnu.org/software/help2man/#Invoking-help2man>.
 
 - 실행 파일에 대한 매뉴얼 페이지를 생성:
 

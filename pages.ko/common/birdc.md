@@ -2,7 +2,7 @@
 
 > BIRD 원격 제어.
 > bird로부터 경로와 같은 정보를 검색하고 런타임 중에 구성을 수행.
-> 더 많은 정보: <https://bird.network.cz/>.
+> 더 많은 정보: <https://bird.network.cz/?get_doc&v=30&f=bird-4.html>.
 
 - 원격 제어 콘솔을 열기:
 

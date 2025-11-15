@@ -2,7 +2,7 @@
 
 > 다른 명령, 파일 등으로부터 전달된 인수를 사용하여 명령을 실행.
 > 입력은 하나의 텍스트 블록으로 처리되며 공백, 탭, 개행 및 파일 끝에서 별개의 조각으로 분리됩니다.
-> 더 많은 정보: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/xargs.html>.
+> 더 많은 정보: <https://www.gnu.org/software/findutils/manual/html_mono/find.html#Invoking-xargs>.
 
 - 입력 데이터를 인수로 사용하여 명령 실행:
 

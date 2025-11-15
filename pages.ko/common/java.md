@@ -1,7 +1,7 @@
 # java
 
 > Java 애플리케이션 실행기.
-> 더 많은 정보: <https://docs.oracle.com/en/java/javase/20/docs/specs/man/java.html>.
+> 더 많은 정보: <https://docs.oracle.com/en/java/javase/25/docs/specs/man/java.html>.
 
 - 메인 메서드를 포함한 Java `.class` 파일을 클래스 이름만 사용하여 실행:
 

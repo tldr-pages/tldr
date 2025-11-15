@@ -1,7 +1,7 @@
 # jpegoptim
 
 > 优化 JPEG 图像。
-> 更多信息：<https://github.com/tjko/jpegoptim>.
+> 更多信息：<https://manned.org/jpegoptim>.
 
 - 优化一组 JPEG 图像，保留所有相关数据：
 

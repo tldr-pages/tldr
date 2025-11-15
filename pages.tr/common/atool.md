@@ -1,7 +1,7 @@
 # atool
 
 > Çeşitli biçimlerdeki arşivleri yönetin.
-> Daha fazla bilgi için: <https://www.nongnu.org/atool/>.
+> Daha fazla bilgi için: <https://manned.org/atool>.
 
 - Bir zip arşivindeki dosyaları listele:
 

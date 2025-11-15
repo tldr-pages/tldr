@@ -1,4 +1,4 @@
-# git-grep
+# git grep
 
 > Cerca stringhe nello storico dei file tracciati nel repository.
 > Supporta molti degli stessi parametri accettati dal comando `grep` tradizionale.

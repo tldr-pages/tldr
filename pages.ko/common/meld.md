@@ -1,7 +1,7 @@
 # meld
 
 > 그래픽 차이 및 병합 도구.
-> 더 많은 정보: <https://meldmerge.org/>.
+> 더 많은 정보: <https://manned.org/meld>.
 
 - `meld` 시작:
 

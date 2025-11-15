@@ -1,7 +1,7 @@
 # npm cache
 
 > npm 패키지 캐시 관리.
-> 더 많은 정보: <https://docs.npmjs.com/cli/commands/npm-cache>.
+> 더 많은 정보: <https://docs.npmjs.com/cli/npm-cache>.
 
 - 특정 패키지를 캐시에 추가:
 

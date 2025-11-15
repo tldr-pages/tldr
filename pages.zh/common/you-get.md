@@ -2,7 +2,7 @@
 
 > 从网络下载媒体内容（视频、音频、图像）。
 > 请参阅：`yt-dlp`，`youtube-viewer`，`instaloader`。
-> 更多信息：<https://you-get.org>.
+> 更多信息：<https://you-get.org/#getting-started>.
 
 - 打印网络上指定媒体的媒体信息：
 

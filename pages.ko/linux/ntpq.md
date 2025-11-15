@@ -1,7 +1,7 @@
 # ntpq
 
 > 네트워크 타임 프로토콜(NTP) 데몬 질의 도구.
-> 더 많은 정보: <https://manned.org/man/ntpq.1>.
+> 더 많은 정보: <https://manned.org/ntpq.1>.
 
 - 대화형 모드로 `ntpq` 시작:
 

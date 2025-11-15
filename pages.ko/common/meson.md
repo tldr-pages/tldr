@@ -1,7 +1,7 @@
 # meson
 
 > SCons와 유사한 빌드 시스템으로, Python을 프론트엔드 언어로 사용하고 Ninja를 빌드 백엔드로 사용합니다.
-> 더 많은 정보: <https://mesonbuild.com>.
+> 더 많은 정보: <https://mesonbuild.com/Commands.html>.
 
 - 주어진 이름과 버전으로 C 프로젝트 생성:
 

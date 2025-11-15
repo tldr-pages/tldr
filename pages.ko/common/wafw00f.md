@@ -1,7 +1,7 @@
 # wafw00f
 
 > 웹 애플리케이션 방화벽(WAF) 제품을 식별하고 지문을 채취하여 사이트를 보호.
-> 더 많은 정보: <https://github.com/EnableSecurity/wafw00f>.
+> 더 많은 정보: <https://github.com/EnableSecurity/wafw00f/wiki/Usage#arguments-list>.
 
 - 웹사이트가 WAF를 사용 중인지 확인:
 

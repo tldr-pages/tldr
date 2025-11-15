@@ -1,7 +1,7 @@
 # pacstrap
 
 > Arch Linux 설치 스크립트로, 지정된 새로운 루트 디렉터리에 패키지를 설치합니다.
-> 더 많은 정보: <https://manned.org/pacstrap.8>.
+> 더 많은 정보: <https://manned.org/pacstrap>.
 
 - `base` 패키지, 리눅스 커널 및 일반 하드웨어용 펌웨어 설치:
 
