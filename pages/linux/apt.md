@@ -3,9 +3,9 @@
 > Package manager for Debian-based distributions.
 > Intended as a user-friendly alternative to `apt-get` for interactive use.
 > For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
-> More information: <https://manned.org/apt.8>.
+> More information: <https://wiki.debian.org/apt>.
 
-- Update the list of available packages and versions (recommended before running other `apt` commands):
+- Update the list of available packages and versions (recommended to run before install or upgrade):
 
 `sudo apt update`
 
@@ -33,6 +33,6 @@
 
 `sudo apt upgrade`
 
-- List all installed packages:
+- List installed packages only:
 
-`apt list {{[-i|--installed]}}`
+`apt list --installed`
