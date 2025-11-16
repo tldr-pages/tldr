@@ -4,7 +4,6 @@
 > تُستخدم عادةً في بيئات المؤسسات التي تعتمد على التحكم المركزي في السياسات (مثل Active Directory).
 > centrify-command-reference-2025.pdfلمزيد من التفاصيل: <https://docs.delinea.com/online-help/server-suite/commandref/centrify-command-reference-2025.pdf#page=102>.
 
-
 - تشغيل أمر كمستخدم الجذر (root):
 
 `dzdo {{أمر}}`
