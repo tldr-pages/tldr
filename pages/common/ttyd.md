@@ -3,11 +3,11 @@
 > Share a terminal or any command over the web.
 > More information: <https://github.com/tsl0922/ttyd#command-line-options>.
 
-- Start a web server sharing the `bash` shell on the default port (7681):
+- Start a read only web server sharing Bash shell on the default port (7681):
 
 `ttyd bash`
 
-- Start `bash` on a specific port:
+- Start Bash on a specific port:
 
 `ttyd {{[-p|--port]}} {{8080}} bash`
 
