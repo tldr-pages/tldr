@@ -2,7 +2,8 @@
 
 > تنفيذ أوامر بامتيازات مرتفعة كمستخدم الجذر (root) أو كمستخدم آخر عبر أدوار Active Directory.
 > مشابه لـ `sudo` ولكنه مدمج مع Delinea؛ ويدعم إضافة Ansible become.
-> لمزيد من المعلومات:  <https://github.com/tldr-pages/tldr/blob/main/contributing-guides/translation-templates/more-info-link.md>.
+> لمزيد من التفاصيل: <https://docs.delinea.com/online-help/server-suite/commandref/centrify-command-reference-2025.pdf#page=102>.
+
 - تشغيل أمر بامتيازات مرتفعة:
 
 `dzdo {{أمر}}`
