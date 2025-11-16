@@ -1,28 +1,28 @@
 # deepseek
 
-> A command-line interface for interacting with DeepSeek language models.
-> More information: <https://github.com/holasoymalva/deepseek-cli>.
+> A command-line AI coding assistant using DeepSeek Coder models.
+> More information: <https://github.com/holasoymalva/deepseek-cli#cli-commands>.
 
-- Run a prompt using the default DeepSeek model:
+- Start interactive mode:
 
-`deepseek "{{write a haiku about the ocean}}"`
+`deepseek`
+
+- Run a single prompt:
+
+`deepseek chat "{{write a Python function for binary search}}"`
 
 - Specify a model to use:
 
-`deepseek --model {{deepseek-chat}} "{{explain quantum tunneling}}"`
+`deepseek --model {{deepseek-coder:6.7b}}`
 
-- Run the model with a system instruction:
+- Set up the local environment (Ollama):
 
-`deepseek --system "{{You are a helpful assistant.}}" "{{summarize this text}}"`
+`deepseek setup`
 
-- Stream the response token-by-token:
+- Force the CLI to use local mode:
 
-`deepseek --stream "{{what is the capital of Japan?}}"`
+`deepseek --local`
 
-- Provide input from a file:
-
-`deepseek --input {{path/to/file.txt}}`
-
-- Show help for available flags:
+- Show help information:
 
 `deepseek --help`
