@@ -31,6 +31,6 @@
 
 `lsblk --exclude {{1,7,...}}`
 
-- Display only specific output columns (comma-separated):
+- Sort results by size (new useful example):
 
-`lsblk --output {{NAME}},{{SIZE}},{{FSTYPE}},{{MOUNTPOINT}}`
+`lsblk --sort {{SIZE}}`
