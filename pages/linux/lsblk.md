@@ -1,36 +1,36 @@
 # lsblk
 
-> List information about devices.
+> List information about block devices.
 > More information: <https://manned.org/lsblk>.
 
 - List all storage devices in a tree-like format:
 
 `lsblk`
 
-- Also list empty devices:
+- Show empty devices:
 
-`lsblk {{[-a|--all]}}`
+`lsblk --all`
 
-- Print the SIZE column in bytes rather than in a human-readable format:
+- Display sizes in bytes instead of human-readable format:
 
-`lsblk {{[-b|--bytes]}}`
+`lsblk --bytes`
 
-- Output info about filesystems:
+- Show filesystem information:
 
-`lsblk {{[-f|--fs]}}`
+`lsblk --fs`
 
 - Use ASCII characters for tree formatting:
 
-`lsblk {{[-i|--ascii]}}`
+`lsblk --ascii`
 
-- Output info about block-device topology:
+- Show block-device topology information:
 
-`lsblk {{[-t|--topology]}}`
+`lsblk --topology`
 
-- Exclude the devices specified by the comma-separated list of major device numbers:
+- Exclude specific devices using a comma-separated list of device major numbers:
 
-`lsblk {{[-e|--exclude]}} {{1,7,...}}`
+`lsblk --exclude {{1,7,...}}`
 
-- Display a customized summary using a comma-separated list of columns:
+- Display only specific output columns (comma-separated):
 
-`lsblk {{[-o|--output]}} {{NAME,ROTA,SERIAL,MODEL,TRAN,TYPE,SIZE,FSTYPE,MOUNTPOINT,...}}`
+`lsblk --output {{NAME}},{{SIZE}},{{FSTYPE}},{{MOUNTPOINT}}`
