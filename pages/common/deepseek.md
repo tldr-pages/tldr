@@ -1,7 +1,7 @@
 # deepseek
 
 > A command-line interface for interacting with DeepSeek language models.
-> More information: <https://github.com/deepseek-ai>.
+> More information: <https://pypi.org/project/deepseek/>.
 
 - Run a prompt using the default DeepSeek model:
 
