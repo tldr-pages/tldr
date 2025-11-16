@@ -26,3 +26,7 @@
 - Add {min, max} quantifier representation for repeating sub-strings:
 
 `grex {{[-r|--repetitions]}} {{space_separated_strings}}`
+
+- Generate `regex` of test cases (separated by newline) from a file:
+
+`grex {{[-f|--file]}} {{path/to/file}}`
