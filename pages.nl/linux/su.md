@@ -18,3 +18,15 @@
 - Voer een commando uit als een andere gebruiker:
 
 `su - {{gebruikersnaam}} {{[-c|--command]}} "{{commando}}"`
+
+- Wissel naar een bepaalde gebruiker en gebruik een specifieke shell (bijv. Zsh, fish, Bash):
+
+`su {{[-s|--shell]}} /{{pad/naar/shell}} {{gebruikersnaam}}`
+
+- Toon de help:
+
+`su {{[-h|--help]}}`
+
+- Toon de versie:
+
+`su {{[-V|--version]}}`

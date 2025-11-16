@@ -1,6 +1,7 @@
 # echo
 
 > Toont gegeven argumenten.
+> Zie ook: `printf`.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>.
 
 - Toon een tekstbericht. Let op: aanhalingstekens zijn optioneel:
@@ -26,3 +27,7 @@
 - Toon de afsluitstatus van de laatst uitgevoerde opdracht (Let op: in Windows Command Prompt en PowerShell zijn de equivalente opdrachten respectievelijk `echo %errorlevel%` en `$lastexitcode`):
 
 `echo $?`
+
+- Geef tekst door aan een ander programma via `stdin`:
+
+`echo "{{Hallo Wereld}}" | {{programma}}`

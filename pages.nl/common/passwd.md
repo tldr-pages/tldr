@@ -9,7 +9,7 @@
 
 - Verander het wachtwoord van een specifieke gebruiker:
 
-`passwd {{gebruikersnaam}}`
+`sudo passwd {{gebruikersnaam}}`
 
 - Toon de huidige status van de gebruiker:
 

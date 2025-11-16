@@ -1,15 +1,16 @@
 # dd
 
 > Converteer en kopieer een bestand.
+> Zie ook: `caligula`.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/dd-invocation.html>.
 
 - Maak een opstartbare USB-schijf van een isohybrid-bestand (zoals `archlinux-xxx.iso`) en toon de voortgang:
 
-`dd if={{pad/naar/bestand.iso}} of={{/dev/usb_schijf}} status=progress`
+`sudo dd if={{pad/naar/bestand.iso}} of={{/dev/usb_schijf}} status=progress`
 
 - Kopieer een schijf naar een andere schijf met een blokgrootte van 4 MiB en schrijf alle gegevens voordat het commando eindigt:
 
-`dd bs=4M conv=fsync if={{/dev/bron_schijf}} of={{/dev/doel_schijf}}`
+`sudo dd bs=4M conv=fsync if={{/dev/bron_schijf}} of={{/dev/doel_schijf}}`
 
 - Genereer een bestand met een specifiek aantal willekeurige bytes met behulp van de kernel random driver:
 
@@ -25,4 +26,4 @@
 
 - Bekijk de voortgang van een lopende `dd` operatie (voer dit commando uit vanaf een andere shell):
 
-`kill -USR1 $(pgrep -x dd)`
+`progress`
