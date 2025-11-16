@@ -1,6 +1,6 @@
 # npm stars
 
-> View packages marked as favorites.  
+> View packages marked as favorites.
 > More information: <https://docs.npmjs.com/cli/commands/npm-stars>.
 
 - Show all starred packages by the currently logged-in user:
