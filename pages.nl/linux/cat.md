@@ -15,14 +15,18 @@
 
 `cat {{pad/naar/bestand1 pad/naar/bestand2 ...}} >> {{pad/naar/uitvoerbestand}}`
 
-- Schrijf `stdin` naar een bestand:
+- Schrijf interactief naar een bestand:
 
-`cat - > {{pad/naar/bestand}}`
+`cat > {{pad/naar/bestand}}`
 
-- [n]ummer alle uitvoerregels:
+- Nummer alle uitvoerregels:
 
 `cat {{[-n|--number]}} {{pad/naar/bestand}}`
 
 - Toon niet-afdrukbare en witruimtekarakters (met `M-` prefix als niet-ASCII):
 
-`cat {{[-vte|--show-nonprinting -t -e]}} {{pad/naar/bestand}}`
+`cat {{[-A|--show-all]}} {{pad/naar/bestand}}`
+
+- Geef de inhoud van een bestand door aan een ander programma via `stdin`:
+
+`cat {{pad/naar/bestand}} | {{programma}}`
