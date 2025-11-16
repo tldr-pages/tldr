@@ -1,7 +1,7 @@
 # ceph
 
 > Un sistema de almacenamiento unificado.
-> Más información: <https://ceph.io/en>.
+> Más información: <https://docs.ceph.com/en/latest/man/8/ceph/>.
 
 - Comprueba el estado del cluster:
 

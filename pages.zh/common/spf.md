@@ -1,6 +1,6 @@
 # spf
 
-> superfile – 现代终端文件管理器。
+> superfile - 现代终端文件管理器。
 > 更多信息：<https://github.com/yorukot/superfile>.
 
 - 使用指定路径启动 `spf`：

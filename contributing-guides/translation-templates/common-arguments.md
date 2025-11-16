@@ -10,14 +10,14 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 
 | en    | path/to/file          | path/to/directory        | path/to/file_or_directory            | package       | username           |
 |-------|-----------------------|--------------------------|--------------------------------------|---------------|--------------------|
-| bn    | পাথ/টু/ফাইল           | পাথ/টু/ডিরেক্টরি         | পথ/থেকে/ফাইল_অথবা_ডিরেক্টরি          | প্যাকেজ       | ইউজারনেম           |
+| bn    | ফাইল/এর/পাথ           | ডিরেক্টরি/এর/পাথ         | ফাইল_অথবা_ডিরেক্টরি/এর/পাথ          | প্যাকেজ       | ইউজারনেম           |
 | bs    | put/do/datoteke       | put/do/direktorija       | put/do/datoteke_ili_direktorija      | paket         | korisničko_ime     |
 | ca    | camí/al/fitxer        | camí/al/directori        | camí/al/fitxer_o_directori           | paquet        | nom_usuari         |
 | cs    | cesta/k/souboru       | cesta/k/adresari         | cesta/k/souboru_ci_adresari          | balíček       | jmeno_uzivatele    |
 | da    | sti/til/fil           | sti/til/mappe            | sti/til/fil_eller_mappe              | pakke         | brugernavn         |
 | de    | pfad/zu/datei         | pfad/zu/verzeichnis      | pfad/zu/datei_oder_verzeichnis       | paket         | benutzername       |
 | es    | ruta/al/archivo       | ruta/al/directorio       | ruta/al/archivo_o_directorio         | paquete       | usuario            |
-| fi    | polku/tiedostoon      | polku/hakemistoon        | polku/tiedostoon_tai_hakemistoon     | paketti       | tunnus             |
+| fi    | polku/tiedostoon      | polku/hakemistoon        | polku/tiedostoon_tai_hakemistoon     | paketti       | käyttäjätunnus     |
 | fr    | chemin/vers/fichier   | chemin/vers/dossier      | chemin/vers/fichier_ou_dossier       | paquet        | nom_d_utilisateur  |
 | hi    | फ़ाइल/का/पथ           | निर्देशिका/का/पथ         | फ़ाइल_या_निर्देशिका/का/पथ            | पैकेज         | उपयोगकर्ता_नाम     |
 | id    | jalan/menuju/berkas   | jalan/menuju/direktori   | jalan/menuju/berkas_atau_direktori   | paket         | nama_pengguna      |

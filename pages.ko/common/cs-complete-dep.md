@@ -1,4 +1,4 @@
-# cs complete dep
+# cs complete-dep
 
 > 웹에서 직접 검색하지 않고도 라이브러리를 검색할 수 있음.
 > 더 많은 정보: <https://get-coursier.io/docs/cli-complete>.
