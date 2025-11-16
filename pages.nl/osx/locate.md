@@ -7,7 +7,7 @@
 
 `locate "{{patroon}}"`
 
-- Zoek naar een patroon zonder ([i]) op hoofdletters te letten:
+- Zoek naar een patroon waarbij hoofdletters worden genegeerd ([i]):
 
 `locate -i "{{pattern}}"`
 

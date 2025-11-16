@@ -7,7 +7,7 @@
 
 `locate "{{pattern}}"`
 
-- Look for a pattern case-[i]nsensitively:
+- Look for a pattern while [i]gnoring cases:
 
 `locate -i "{{pattern}}"`
 
