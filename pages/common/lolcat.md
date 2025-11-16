@@ -11,7 +11,7 @@
 
 `{{fortune}} | lolcat`
 
-- Use a seed to generate consistent colors (default: `0` as in random)
+- Use a seed to generate consistent colors (default: `0` as in random):
 
 `lolcat {{[-S|--seed]}} {{number}} {{path/to/file}}`
 
