@@ -1,7 +1,7 @@
 # code2prompt
 
 > Generate AI-ready prompts from a codebase (extracts, filters and formats code for LLMs).
-> More information: <https://code2prompt.dev/docs/tutorials/getting_started/>.
+> More information: <https://code2prompt.dev/docs/how_to/filter_files/>.
 
 - Generate a prompt for the current project and copy it to the clipboard (default behaviour):
 
