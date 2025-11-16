@@ -1,32 +1,38 @@
 # pio
 
 > PlatformIO command-line interface for building, uploading, and managing embedded development projects.
-> More information: <https://docs.platformio.org>.
+> Some subcommands such as `run` have their own usage documentation.
+> More information: <https://docs.platformio.org/en/latest/core/userguide/>.
 
-- Initialize a new PlatformIO project in the current directory:
+- Initialize a new PlatformIO project:
 
-`pio project init`
+`pio project init --board {{esp32dev}}`
 
-- Build the project (compile source files):
+- Build the project in the current directory:
 
 `pio run`
 
-- Upload firmware to the connected board as defined in `platformio.ini`:
+- Upload firmware to the device:
 
-`pio run --target upload`
+`pio run {{[-t|--target]}} upload`
 
 - Clean previous build files:
 
-`pio run --target clean`
+`pio run {{[-t|--target]}} clean`
 
-- Open the PlatformIO Serial Monitor:
+- List detailed system information:
+
+`pio system info`
+
+- List supported boards for a platform:
+
+`pio boards {{platform}}`
+
+- Monitor the serial output:
 
 `pio device monitor`
 
-- List all available development boards:
+- Display the installed version of PlatformIO:
 
-`pio boards`
+`pio --version`
 
-- List installed and available platforms:
-
-`pio platform list`
