@@ -9,15 +9,15 @@
 
 - Start `bash` on a specific port:
 
-`ttyd bash {{[-p|--port]}} {{8080}}`
+`ttyd {{[-p|--port]}} {{8080}} bash`
 
 - Allow clients to write to the terminal:
 
-`ttyd {{command}} {{[-W|--writable]}}`
+`ttyd {{[-W|--writable]}} {{command}}`
 
-- Enable a client option, like ZMODEM file transfers:
+- Set client options:
 
-`ttyd {{command}} {{[-t|--client-option]}} {{option=value}}`
+`ttyd {{[-t|--client-option]}} {{key=value}} {{command}}`
 
 - Display help:
 
