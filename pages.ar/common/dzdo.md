@@ -1,10 +1,10 @@
 # dzdo
 
-> أداة سطر أوامر مشابهة لـ `sudo`.
-> تُستخدم عادةً في بيئات المؤسسات التي تعتمد على التحكم المركزي في السياسات (مثل Active Directory).
-> centrify-command-reference-2025.pdfلمزيد من التفاصيل: <https://docs.delinea.com/online-help/server-suite/commandref/centrify-command-reference-2025.pdf#page=102>.
+> تنفيذ أوامر بامتيازات مرتفعة كمستخدم الجذر (root) أو كمستخدم آخر عبر أدوار Active Directory.
+> مشابه لـ `sudo` ولكنه مدمج مع Delinea؛ ويدعم إضافة Ansible become.
+> لمزيد من المعلومات: <https://docs.delinea.com/online-help/server-suite/commandref/centrify-command-reference-2025.pdf#page=102>.
 
-- تشغيل أمر كمستخدم الجذر (root):
+- تشغيل أمر بامتيازات مرتفعة:
 
 `dzdo {{أمر}}`
 
@@ -23,6 +23,10 @@
 - تشغيل الصدفة الافتراضية بامتيازات مرتفعة:
 
 `dzdo -s`
+
+- عرض الأوامر المسموح بها للمستخدم الحالي:
+
+`dzdo -l`
 
 - التحقق من صحة الطابع الزمني للمصادقة وتحديثه:
 
