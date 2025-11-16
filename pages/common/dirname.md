@@ -3,7 +3,7 @@
 > Calculates the parent directory of a file or directory path.
 > More information: <https://www.gnu.org/software/coreutils/manual/html_node/dirname-invocation.html>.
 
-- Calculate the parent directory of a given path:
+- Calculate the parent directory of a given file or directory path:
 
 `dirname {{path/to/file_or_directory}}`
 
