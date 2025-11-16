@@ -18,3 +18,7 @@
 - Create multiple nested directories recursively:
 
 `mkdir {{[-p|--parents]}} {{path/to/{a,b}/{x,y,z}/{h,i,j}}}`
+
+- Create a directory with specific permissions (e.g., rwxr-xr-x):
+
+`mkdir --mode={{755}} {{directory_name}}`
