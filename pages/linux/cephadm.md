@@ -2,7 +2,7 @@
 
 > Deploy and manage a Ceph cluster using containers.
 > Part of the Ceph orchestrator framework.
-> More information: <https://docs.ceph.com/en/latest/cephadm/>.
+> More information: <https://docs.ceph.com/en/latest/man/8/cephadm/>.
 
 - Bootstrap a new Ceph cluster on the current host:
 
