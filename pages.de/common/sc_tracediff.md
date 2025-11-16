@@ -11,6 +11,6 @@
 
 `sc_tracediff -a {{path/to/file1.warts}} {{path/to/file2.warts}}`
 
-- Zeige den Unterschied zwischen den traceroutes in zwei `warts'-Dateien und versuche, wenn möglich, DNS-Namen und nicht IP-Adressen anzuzeigen:
+- Zeige den Unterschied zwischen den traceroutes in zwei `warts`-Dateien und versuche, wenn möglich, DNS-Namen und nicht IP-Adressen anzuzeigen:
 
 `sc_tracediff -n {{path/to/file1.warts}} {{path/to/file2.warts}}`

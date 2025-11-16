@@ -8,7 +8,7 @@
 
 `megatools-dl {{https://mega.nz/...}}`
 
-- Descarga los archivos de un enlace 'mega.nz` a un directorio específico:
+- Descarga los archivos de un enlace `mega.nz` a un directorio específico:
 
 `megatools-dl --path {{ruta/al/directorio}} {{https://mega.nz/...}}`
 

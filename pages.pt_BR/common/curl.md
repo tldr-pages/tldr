@@ -8,7 +8,7 @@
 
 `curl {{https://example.com}}`
 
-- Faz um pedido HTTP GET, segue redirecionamentos ``3xx` e descarrega os cabeçalhos da resposta e conteúdos para `stdout`:
+- Faz um pedido HTTP GET, segue redirecionamentos `3xx` e descarrega os cabeçalhos da resposta e conteúdos para `stdout`:
 
 `curl {{[-L|--location]}} {{[-D|--dump-header]}} - {{https://example.com}}`
 
