@@ -9,8 +9,8 @@
 
 - 파일에서 공백 및 Git 주석 제거:
 
-`cat {{경로/대상/파일}} | git stripspace --strip-comments`
+`cat {{경로/대상/파일}} | git stripspace {{[-s|--strip-comments]}}`
 
 - 파일의 모든 줄을 Git 주석으로 변환:
 
-`git stripspace --comment-lines < {{경로/대상/파일}}`
+`git stripspace {{[-c|--comment-lines]}} < {{경로/대상/파일}}`

@@ -9,8 +9,8 @@
 
 - Gereksiz boşlukları ve Git yorumlarını dosyadan kırp:
 
-`cat {{örnek/dosya}} | git stripspace --strip-comments`
+`cat {{örnek/dosya}} | git stripspace {{[-s|--strip-comments]}}`
 
 - Bir dosyadaki tüm satırları Git yorumlarına çevir:
 
-`git stripspace --comment-lines < {{örnek/dosya}}`
+`git stripspace {{[-c|--comment-lines]}} < {{örnek/dosya}}`
