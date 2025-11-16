@@ -26,7 +26,7 @@
 
 - Exclude files that match a specific `regex`:
 
-`fd {{string}} {{[-E]--exclude}} {{regex}}`
+`fd {{string}} {{[-E|--exclude]}} {{regex}}`
 
 - Execute a command on each search result returned:
 
