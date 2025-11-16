@@ -1,0 +1,21 @@
+# bun audit
+
+> Check installed packages for known security vulnerabilities.  
+> More information: <https://bun.com/docs/pm/cli/audit>.
+
+- Audit all dependencies in a project with a `bun.lock` file:
+`bun audit`
+
+- Show only vulnerabilities at or above a specific severity level (`low|moderate|high|critical`):
+`bun audit --audit-level={{severity_level}}`
+
+- Audit only production dependencies:
+`bun audit --prod`
+
+- Ignore a specific CVE ID:
+`bun audit --ignore {{cve_id}}`
+
+- Output the raw JSON report:
+`bun audit --json`
+
+- Exit codes: `0` for no vulnerabilities, `1` when vulnerabilities are found.
