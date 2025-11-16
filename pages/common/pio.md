@@ -1,17 +1,33 @@
 # pio
 
-> Development environment for embedded boards.
-> Some subcommands such as `run` have their own usage documentation.
-> More information: <https://docs.platformio.org/en/latest/core/userguide/>.
+> PlatformIO command-line interface for building, uploading, and managing embedded development projects.
+> More information: <https://docs.platformio.org>.
 
-- Display help and list subcommands:
+- Initialize a new PlatformIO project in the current directory:
 
-`pio {{[-h|--help]}}`
+`pio project init`
 
-- Display help for a specific subcommand:
+- Build the project (compile source files):
 
-`pio {{subcommand}} {{[-h|--help]}}`
+`pio run`
 
-- Display version:
+- Upload firmware to the connected board as defined in `platformio.ini`:
 
-`pio --version`
+`pio run --target upload`
+
+- Clean previous build files:
+
+`pio run --target clean`
+
+- Open the PlatformIO Serial Monitor:
+
+`pio device monitor`
+
+- List all available development boards:
+
+`pio boards`
+
+- List installed and available platforms:
+
+`pio platform list`
+
