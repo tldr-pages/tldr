@@ -21,4 +21,4 @@
 
 - Display help:
 
-`npm stars --help`
+`npm stars {{[-h|--help]}}`
