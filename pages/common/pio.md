@@ -35,4 +35,3 @@
 - Display the installed version of PlatformIO:
 
 `pio --version`
-
