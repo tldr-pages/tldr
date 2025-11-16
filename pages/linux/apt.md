@@ -6,25 +6,32 @@
 > More information: <https://manned.org/apt.8>.
 
 - Update the list of available packages and versions (recommended before running other `apt` commands):
-  sudo apt update
+
+`sudo apt update`
 
 - Search for packages by name or description:
-  apt search {{package}}
+
+`apt search {{package}}`
 
 - Search for packages by name only (supports wildcards like `*`):
-  apt list {{package}}
+
+`apt list {{package}}`
 
 - Show detailed information about a package:
-  apt show {{package}}
+
+`apt show {{package}}`
 
 - Install a package or update it to the latest version:
-  sudo apt install {{package}}
+
+`sudo apt install {{package}}`
 
 - Remove a package (use `purge` instead to also remove configuration files):
-  sudo apt remove {{package}}
+
+`sudo apt remove {{package}}`
 
 - Upgrade all installed packages to their latest versions:
-  sudo apt upgrade
+`sudo apt upgrade`
 
 - List all installed packages:
-  apt list {{[-i|--installed]}}
+
+`apt list {{[-i|--installed]}}`
