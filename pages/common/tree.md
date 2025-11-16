@@ -36,7 +36,6 @@
 `tree -I '{{directory_name1|directory_name2}}'`
 
 - Limit the depth of the directory tree:
-  tree -L 2
-Add example for limiting directory depth in the tree command
+  `tree -L 2`
 
 
