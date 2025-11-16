@@ -19,7 +19,7 @@
 
 `su - {{username}} {{[-c|--command]}} "{{command}}"`
 
-- Switch to a given user and use a specific shell (e.g., zsh, fish, bash):
+- Switch to a given user and use a specific shell (e.g., Zsh, fish, Bash):
 
 `su {{[-s|--shell]}} /{{path/to/shell}} {{username}}`
 
