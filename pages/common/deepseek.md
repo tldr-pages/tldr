@@ -11,7 +11,7 @@
 
 `deepseek chat "{{write a Python function for binary search}}"`
 
-- Specify a model to use:
+- Start interactive mode with a specific model:
 
 `deepseek --model {{deepseek-coder:6.7b}}`
 
