@@ -10,7 +10,7 @@
 
 - Add a new host to the cluster:
 
-`cephadm add-host {{hostname}} {{ip_address}}`
+`sudo cephadm add-host {{hostname}} {{ip_address}}`
 
 - Deploy a specific service (e.g., mgr, mon, osd):
 
