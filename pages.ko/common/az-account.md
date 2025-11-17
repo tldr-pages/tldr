@@ -10,7 +10,7 @@
 
 - `구독`을 햔재 활성 구독으로 설정:
 
-`az account set --subscription {{구독_아이디}}`
+`az account set {{[-s|--subscription]}} {{구독_아이디}}`
 
 - 현재 활성 구독이 지원되는 지역을 나열:
 
@@ -22,4 +22,4 @@
 
 - 현재 활성화된 구독의 세부 정보를 특정 형식으로 출력:
 
-`az account show --output {{json|tsv|table|yaml}}`
+`az account show {{[-o|--output]}} {{json|tsv|table|yaml}}`
