@@ -6,7 +6,7 @@
 
 - Bootstrap a new Ceph cluster on the current host:
 
-`cephadm bootstrap --mon-ip {{monitor_ip}}`
+`sudo cephadm bootstrap --mon-ip {{monitor_ip}}`
 
 - Add a new host to the cluster:
 
