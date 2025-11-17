@@ -18,7 +18,7 @@
 
 - Check the status of cluster services:
 
-`cephadm shell -- ceph {{[-s|--status]}}`
+`sudo cephadm shell -- ceph {{[-s|--status]}}`
 
 - Enter a shell environment inside the Ceph container:
 
