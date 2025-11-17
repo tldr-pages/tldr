@@ -14,7 +14,7 @@
 
 - Deploy a specific service (e.g., mgr, mon, osd):
 
-`cephadm deploy {{service_type}} --name {{service_name}}`
+`sudo cephadm deploy {{service_type}} --name {{service_name}}`
 
 - Check the status of cluster services:
 
