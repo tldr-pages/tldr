@@ -1,7 +1,7 @@
 # pip uninstall
 
 > Python 패키지 제거.
-> 더 많은 정보: <https://pip.pypa.io>.
+> 더 많은 정보: <https://pip.pypa.io/en/stable/cli/pip_uninstall/>.
 
 - 패키지 제거:
 

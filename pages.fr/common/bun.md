@@ -2,7 +2,7 @@
 
 > Moteur d'exécution et boîte à outils JavaScript.
 > Comprend un empaqueteur, un exécuteur de tests et un gestionnaire de paquets.
-> Plus d'informations : <https://bun.sh>.
+> Plus d'informations : <https://bun.com/docs>.
 
 - Exécute un fichier JavaScript ou un script référencé dans `package.json` :
 

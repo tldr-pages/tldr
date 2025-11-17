@@ -1,7 +1,7 @@
 # zig
 
 > Zig 컴파일러 및 툴체인.
-> 더 많은 정보: <https://ziglang.org>.
+> 더 많은 정보: <https://ziglang.org/documentation/master/>.
 
 - 현재 디렉토리의 프로젝트 컴파일:
 

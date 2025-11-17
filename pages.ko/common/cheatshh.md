@@ -2,7 +2,7 @@
 
 > 참조할 수 있도록 사용자 정의된 설명, tldr 및 그룹이 포함된 CLI 치트시트.
 > `<Enter>` 키를 눌러 명령을 클립보드에 복사하고 종료.
-> 더 많은 정보: <https://github.com/AnirudhG07/cheatshh>.
+> 더 많은 정보: <https://github.com/AnirudhG07/cheatshh/blob/main/docs/man/cheatshh.1>.
 
 - 치트시트에 새로운 명령 추가([a]dd):
 

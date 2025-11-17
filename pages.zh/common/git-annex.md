@@ -2,7 +2,7 @@
 
 > 用 Git 管理文件，但不将其内容提交到版本库中。
 > 当文件被附属时，其内容会被移至键值存储中，并创建一个指向该内容的符号链接。
-> 更多信息：<https://git-annex.branchable.com>.
+> 更多信息：<https://git-annex.branchable.com/git-annex/>.
 
 - 初始化一个带有 Git annex 的仓库：
 

@@ -1,7 +1,7 @@
 # jps
 
 > 현재 사용자의 JVM 프로세스 상태를 표시.
-> 더 많은 정보: <https://docs.oracle.com/en/java/javase/20/docs/specs/man/jps.html>.
+> 더 많은 정보: <https://docs.oracle.com/en/java/javase/25/docs/specs/man/jps.html>.
 
 - 모든 JVM 프로세스 나열:
 

@@ -1,7 +1,7 @@
 # avahi-resolve
 
 > 호스트 이름과 IP 주소 간 변환.
-> 더 많은 정보: <https://www.avahi.org/>.
+> 더 많은 정보: <https://manned.org/avahi-resolve>.
 
 - 로컬 서비스를 IPv4로 변환:
 

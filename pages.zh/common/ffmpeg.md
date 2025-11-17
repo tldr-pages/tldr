@@ -1,7 +1,7 @@
 # ffmpeg
 
 > 视频转换工具。
-> 更多信息：<https://ffmpeg.org>.
+> 更多信息：<https://ffmpeg.org/ffmpeg.html#Options>.
 
 - 从视频中提取音频并保存为 MP3 格式：
 

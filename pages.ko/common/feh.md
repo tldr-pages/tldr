@@ -1,7 +1,7 @@
 # feh
 
 > 경량 이미지 보기 유틸리티.
-> 더 많은 정보: <https://feh.finalrewind.org>.
+> 더 많은 정보: <https://man.finalrewind.org/1/feh/>.
 
 - 로컬에서 또는 URL을 사용하여 이미지 보기:
 

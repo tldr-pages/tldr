@@ -1,7 +1,7 @@
 # avahi-resolve
 
 > Traduce entre nombres de host y direcciones IP.
-> Más información: <https://www.avahi.org/>.
+> Más información: <https://manned.org/avahi-resolve>.
 
 - Resuelve un servicio local a su dirección IPv4:
 

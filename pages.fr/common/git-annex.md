@@ -2,7 +2,7 @@
 
 > Gérez les fichiers avec Git, sans archiver leur contenu.
 > Lorsqu'un fichier est annexé, son contenu est déplacé dans un stockage clé-valeur et un lien symbolique est créé qui pointe vers le contenu.
-> Plus d'informations : <https://git-annex.branchable.com>.
+> Plus d'informations : <https://git-annex.branchable.com/git-annex/>.
 
 - Initialise le dépôt :
 

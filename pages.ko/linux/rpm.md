@@ -2,7 +2,7 @@
 
 > RPM 패키지 관리 도구.
 > 다른 패키지 관리자의 동등한 명령을 보려면 <https://wiki.archlinux.org/title/Pacman/Rosetta>.
-> 더 많은 정보: <https://rpm.org/>.
+> 더 많은 정보: <https://rpm-software-management.github.io/rpm/man/rpm.8>.
 
 - httpd 패키지의 버전 표시:
 

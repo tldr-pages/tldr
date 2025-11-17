@@ -1,7 +1,7 @@
 # npm run
 
 > 스크립트 실행.
-> 더 많은 정보: <https://docs.npmjs.com/cli/commands/npm-run-script>.
+> 더 많은 정보: <https://docs.npmjs.com/cli/npm-run>.
 
 - 스크립트 실행:
 

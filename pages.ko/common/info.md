@@ -1,7 +1,7 @@
 # info
 
 > info 형식으로 저장된 문서를 읽음.
-> 더 많은 정보: <https://manned.org/man/info>.
+> 더 많은 정보: <https://manned.org/info>.
 
 - 최상위 디렉토리 메뉴 읽기 시작:
 

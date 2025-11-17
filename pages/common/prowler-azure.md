@@ -26,7 +26,7 @@
 
 - Run checks for selected Azure services:
 
-`prowler azure {{[-s|--services]}} {{defender iam ...}}`
+`prowler azure {{[-s|--services]}} {{defender|iam|...}}`
 
 - Run a specific Azure check:
 
@@ -34,4 +34,4 @@
 
 - Exclude specific checks or services:
 
-`prowler azure {{[-e|--excluded-checks]}} {{storage_blob_public_access_level_is_disabled}} --exclude-services {{defender iam ...}}`
+`prowler azure {{[-e|--excluded-checks]}} {{storage_blob_public_access_level_is_disabled}} --exclude-services {{defender|iam|...}}`

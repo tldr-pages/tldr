@@ -1,7 +1,7 @@
 # rlwrap
 
 > REPL 명령에 라인 편집, 지속적인 히스토리 및 프롬프트 완성을 추가.
-> 더 많은 정보: <https://github.com/hanslub42/rlwrap>.
+> 더 많은 정보: <https://manned.org/rlwrap>.
 
 - 라인 편집, 지속적인 히스토리 및 프롬프트 완성을 사용하여 REPL 명령 실행:
 

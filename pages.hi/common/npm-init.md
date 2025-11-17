@@ -1,7 +1,7 @@
 # npm init
 
 > एक `package.json` फ़ाइल बनाएँ।
-> अधिक जानकारी: <https://docs.npmjs.com/cli/commands/npm-init>।
+> अधिक जानकारी: <https://docs.npmjs.com/cli/npm-init>।
 
 - संकेतों के साथ एक नया पैकेज प्रारंभ करें:
 

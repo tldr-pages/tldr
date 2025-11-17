@@ -1,7 +1,7 @@
 # handbrakecli
 
 > HandBrake 비디오 변환 및 DVD 리핑 도구에 대한 명령줄 인터페이스.
-> 더 많은 정보: <https://handbrake.fr/>.
+> 더 많은 정보: <https://handbrake.fr/docs/en/latest/cli/command-line-reference.html>.
 
 - 비디오 파일을 MKV(AAC 160kbit 오디오 및 x264 CRF20 비디오)로 변환:
 

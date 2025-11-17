@@ -1,7 +1,7 @@
 # python
 
 > Penerjemah bahasa Python.
-> Informasi lebih lanjut: <https://www.python.org>.
+> Informasi lebih lanjut: <https://docs.python.org/using/cmdline.html>.
 
 - Jalankan REPL (shell interaktif):
 

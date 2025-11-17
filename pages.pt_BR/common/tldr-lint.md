@@ -1,7 +1,7 @@
 # tldr-lint
 
 > Faz lint e formata páginas `tldr`.
-> Mais informações: <https://github.com/tldr-pages/tldr-lint>.
+> Mais informações: <https://github.com/tldr-pages/tldr-lint#usage>.
 
 - Faz lint de todas páginas:
 

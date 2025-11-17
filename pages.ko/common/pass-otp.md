@@ -1,7 +1,7 @@
 # pass otp
 
 > 일회용 비밀번호(OTP) 토큰 관리를 위한 pass 확장 기능.
-> 더 많은 정보: <https://github.com/tadfisher/pass-otp#readme>.
+> 더 많은 정보: <https://manned.org/pass-otp>.
 
 - otpauth URI 토큰을 입력 받고 새로운 pass 파일 생성:
 

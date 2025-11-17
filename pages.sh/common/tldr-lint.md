@@ -1,7 +1,7 @@
 # tldr-lint
 
 > Lintuje i formatira tldr stranice.
-> Više informacija: <https://github.com/tldr-pages/tldr-lint>.
+> Više informacija: <https://github.com/tldr-pages/tldr-lint#usage>.
 
 - Lintuj sve stranice:
 

@@ -1,7 +1,7 @@
 # mosquitto
 
 > MQTT 브로커.
-> 더 많은 정보: <https://mosquitto.org/>.
+> 더 많은 정보: <https://mosquitto.org/man/mosquitto-8.html>.
 
 - Mosquitto 시작:
 

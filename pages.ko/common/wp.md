@@ -1,7 +1,7 @@
 # wp
 
 > WordPress 인스턴스를 관리하는 공식 명령줄 인터페이스.
-> 더 많은 정보: <https://wp-cli.org/>.
+> 더 많은 정보: <https://developer.wordpress.org/cli/commands/>.
 
 - 운영 체제, 셸, PHP 및 WP-CLI(`wp`) 설치 정보 출력:
 

@@ -1,7 +1,7 @@
 # composer
 
 > Un gestore di dipendenze a pacchetti per progetti PHP.
-> Maggiori informazioni: <https://getcomposer.org/>.
+> Maggiori informazioni: <https://getcomposer.org/doc/03-cli.md>.
 
 - Aggiungi un pacchetto come dipendenza per questo progetto, aggiungendolo a `composer.json`:
 

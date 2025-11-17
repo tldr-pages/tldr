@@ -1,7 +1,7 @@
 # cf
 
 > Cloud Foundry에서 앱과 서비스를 관리.
-> 더 많은 정보: <https://docs.cloudfoundry.org>.
+> 더 많은 정보: <https://docs.cloudfoundry.org/cf-cli/getting-started.html>.
 
 - Cloud Foundry API에 로그인:
 

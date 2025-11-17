@@ -3,7 +3,7 @@
 > 추가 기능과 수정이 포함된 youtube-dl 포크.
 > YouTube 및 기타 웹사이트에서 동영상을 다운로드합니다.
 > 같이 보기: `yt-dlp`, `ytfzf`.
-> 더 많은 정보: <https://github.com/yt-dlp/yt-dlp>.
+> 더 많은 정보: <https://github.com/yt-dlp/yt-dlp#usage-and-options>.
 
 - 동영상 또는 재생목록 다운로드 (아래 명령의 기본 옵션 사용):
 

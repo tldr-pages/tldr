@@ -2,7 +2,7 @@
 
 > 명령줄 퍼지 찾기.
 > `sk`와 유사.
-> 더 많은 정보: <https://github.com/junegunn/fzf>.
+> 더 많은 정보: <https://github.com/junegunn/fzf#usage>.
 
 - 지정된 디렉터리의 모든 파일에서 `fzf`를 시작:
 

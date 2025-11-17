@@ -1,7 +1,7 @@
 # heroku
 
 > Heroku 애플리케이션 생성 및 관리.
-> 더 많은 정보: <https://www.heroku.com/>.
+> 더 많은 정보: <https://devcenter.heroku.com/articles/heroku-cli#get-started-with-the-heroku-cli>.
 
 - Heroku 계정에 로그인:
 

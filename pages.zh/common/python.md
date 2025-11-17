@@ -1,7 +1,7 @@
 # python
 
 > Python 语言解释器。
-> 更多信息：<https://www.python.org>.
+> 更多信息：<https://docs.python.org/using/cmdline.html>.
 
 - 启动 REPL（交互式 shell）：
 

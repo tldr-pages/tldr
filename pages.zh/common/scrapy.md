@@ -1,7 +1,7 @@
 # scrapy
 
 > Web 爬取框架。
-> 更多信息：<https://scrapy.org>.
+> 更多信息：<https://docs.scrapy.org/en/latest/topics/commands.html#using-the-scrapy-tool>.
 
 - 创建一个项目：
 

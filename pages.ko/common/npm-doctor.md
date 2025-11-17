@@ -1,7 +1,7 @@
 # npm doctor
 
 > npm 환경의 상태를 점검.
-> 더 많은 정보: <https://docs.npmjs.com/cli/commands/npm-doctor>.
+> 더 많은 정보: <https://docs.npmjs.com/cli/npm-doctor>.
 
 - `npm`의 기본 상태 점검 수행:
 

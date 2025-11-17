@@ -1,7 +1,7 @@
 # npm
 
 > Ein Kommandozeilenwerkzeug für die Verwaltung von JavaScript und Node.js Paketen (Packages).
-> Weitere Informationen: <https://www.npmjs.com>.
+> Weitere Informationen: <https://docs.npmjs.com/cli/npm>.
 
 - Erstelle eine `package.json` Datei interaktiv:
 
