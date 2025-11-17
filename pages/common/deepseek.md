@@ -1,6 +1,6 @@
 # deepseek
 
-> A command-line AI coding assistant using DeepSeek Coder models.
+> An AI coding assistant using DeepSeek Coder models.
 > More information: <https://github.com/holasoymalva/deepseek-cli#cli-commands>.
 
 - Start interactive mode:
