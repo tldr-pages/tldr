@@ -1,8 +1,36 @@
 # ip route list
 
-> 這是 `ip route show`.命令的一個別名。
-> 更多資訊：<https://manned.org/ip-route>.
+> 用於顯示 IP 路由表的子指令。
+> 更多資訊：https://manned.org/ip-route
 
-- 原命令的文件在：
+- 顯示 main（主要）路由表：
 
-`tldr ip route show`
+ip {{[r|route]}} {{[l|list]}}
+
+- 顯示主要路由表（與上例相同）：
+
+ip {{[r|route]}} {{[l|list]}} {{[t|table]}} {{main|254}}
+
+- 顯示 local（本機）路由表：
+
+ip {{[r|route]}} {{[l|list]}} {{[t|table]}} {{local|255}}
+
+- 顯示所有路由表：
+
+ip {{[r|route]}} {{[l|list]}} {{[t|table]}} {{all|unspec|0}}
+
+- 僅列出指定網路介面的路由：
+
+ip {{[r|route]}} {{[l|list]}} dev {{ethX}}
+
+- 列出指定 scope（作用範圍）的路由：
+
+ip {{[r|route]}} {{[l|list]}} {{[s|scope]}} link
+
+- 顯示 routing cache（路由快取）：
+
+ip {{[r|route]}} {{[l|list]}} {{[c|cache]}}
+
+- 僅顯示 IPv6 或 IPv4 路由：
+
+ip {{-6|-4}} {{[r|route]}}
