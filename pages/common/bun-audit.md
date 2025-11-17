@@ -9,7 +9,7 @@
 
 - Show only vulnerabilities at or above a specific severity level:
 
-`bun audit --audit-level={{low|moderate|high|critical}}`
+`bun audit --audit-level {{low|moderate|high|critical}}`
 
 - Audit only production dependencies:
 
