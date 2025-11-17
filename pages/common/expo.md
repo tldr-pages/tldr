@@ -1,6 +1,6 @@
 # expo
 
-> Build, develop, and deploy React Native apps using Expo.
+> Build, develop, and deploy React Native apps.
 > More information: <https://docs.expo.dev/eas/>.
 
 - Build an Android APK or AAB:
