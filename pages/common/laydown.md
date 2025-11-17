@@ -1,6 +1,6 @@
 # laydown
 
-> Command line application to prepare for Daily Standup.
+> Prepare for Daily Standup.
 > More information: <https://github.com/badjr13/laydown>.
 
 - Add an item to DID section:

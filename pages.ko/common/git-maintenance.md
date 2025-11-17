@@ -1,4 +1,4 @@
-# git-maintenance
+# git maintenance
 
 > Git 저장소 데이터를 최적화하기 위한 작업 실행.
 > 더 많은 정보: <https://git-scm.com/docs/git-maintenance>.

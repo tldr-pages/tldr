@@ -1,12 +1,12 @@
 # cfdisk
 
-> Een programma voor het beheren van partitie tabellen en partities op een harde schijf met het gebruik van een UI.
+> Beheer partitietabellen en partities op een harde schijf met het gebruik van een UI.
 > Meer informatie: <https://manned.org/cfdisk>.
 
-- Start de partitie manipulator met een specifiek apparaat:
+- Start de partitiemanipulator met een specifiek apparaat:
 
-`cfdisk {{/dev/sdX}}`
+`sudo cfdisk {{/dev/sdX}}`
 
-- Creëer een nieuwe partitie tabel voor een specifiek apparaat en beheer het:
+- Creëer een nieuwe partitietabel voor een specifiek apparaat en beheer het:
 
-`cfdisk {{[-z|--zero]}} {{/dev/sdX}}`
+`sudo cfdisk {{[-z|--zero]}} {{/dev/sdX}}`

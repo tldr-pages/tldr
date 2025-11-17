@@ -1,4 +1,4 @@
-# Pint
+# pint
 
 > PHP 코드 스타일을 고정하는 의견이 반영된 도구로, PHP-CS-Fixer를 기반으로 합니다.
 > 더 많은 정보: <https://laravel.com/docs/pint>.
