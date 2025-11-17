@@ -18,7 +18,3 @@
 - Output results in JSON format:
 
 `bun info {{package_name}} --json`
-
-- Display metadata for multiple packages:
-
-`bun info {{package1}} {{package2}}`
