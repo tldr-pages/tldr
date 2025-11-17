@@ -26,4 +26,4 @@
 
 - Remove a service from the cluster:
 
-`cephadm rm-service {{service_type}} --name {{service_name}}`
+`sudo cephadm rm-service {{service_type}} --name {{service_name}}`
