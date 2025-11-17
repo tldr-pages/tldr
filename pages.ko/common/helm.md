@@ -14,15 +14,15 @@
 
 - helm 레포지토리 나열:
 
-`helm repo list`
+`helm repo {{[ls|list]}}`
 
 - helm 레포지토리 업데이트:
 
-`helm repo update`
+`helm repo {{[up|update]}}`
 
 - helm 레포지토리 삭제:
 
-`helm repo remove {{레포지토리_이름}}`
+`helm repo {{[rm|remove]}} {{레포지토리_이름}}`
 
 - helm 차트 설치:
 
@@ -34,4 +34,4 @@
 
 - helm 종속성 업데이트:
 
-`helm dependency update`
+`helm {{[dep|dependency]}} {{[up|update]}}`

@@ -1,4 +1,4 @@
-# yadm-gitconfig
+# yadm gitconfig
 
 > 向 `git config` 传递选项。更改由 `yadm` 管理的仓库的 `.gitconfig`。
 > 请参阅：`git config`。

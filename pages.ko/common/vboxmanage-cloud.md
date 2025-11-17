@@ -1,4 +1,4 @@
-# vboxmanage-cloud
+# VBoxManage cloud
 
 > 클라우드 인스턴스 및 이미지를 관리하기 위한 VirtualBox 명령줄 인터페이스.
 > 더 많은 정보: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-cloud>.
