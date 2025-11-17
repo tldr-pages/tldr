@@ -10,3 +10,7 @@
 - Display help for specific subcommand (such as `build`, `call`, `cancel`, `tag-build`, etc.):
 
 `koji help {{subcommand}}`
+
+- Display help:
+
+`koji {{[-h|--help]}}`
