@@ -1,6 +1,6 @@
 # bun exec
 
-> Execute a shell script directly with Bun.
+> Execute shell commands or script files using Bun's runtime.
 > Note: When running from a shell, remember to escape quotes.
 > More information: <https://bun.sh/docs/runtime/shell>.
 
