@@ -13,8 +13,8 @@
 
 - Download the latest version of a package and add it to the list of dev dependencies in `package.json`:
 
-`npm {{[i|install]}} {{[-D|--save-dev]}} {{package_name}}`
+`npm {{[i|install]}} {{package_name}} {{[-D|--save-dev]}}`
 
 - Download the latest version of a package and install it globally:
 
-`npm {{[i|install]}} {{[-g|--global]}} {{package_name}}`
+`npm {{[i|install]}} {{package_name}} {{[-g|--global]}}`
