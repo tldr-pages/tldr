@@ -5,33 +5,25 @@
 > More information: <https://wiki.ubuntu.com/UncomplicatedFirewall>.
 
 - Enable `ufw`:
-
 `sudo ufw enable`
 
 - Disable `ufw`:
-
 `sudo ufw disable`
 
 - Show `ufw` rules, along with their numbers:
-
 `sudo ufw status numbered`
 
 - Allow incoming traffic on port 5432 on this host with a comment identifying the service:
-
-`sudo ufw allow 5432 comment "{{Service}}"`
+`sudo ufw allow 5432 comment "{{service_name}}"`
 
 - Allow only TCP traffic from 192.168.0.4 to any address on this host, on port 22:
-
 `sudo ufw allow proto tcp from 192.168.0.4 to any port 22`
 
 - Deny traffic on port 80 on this host:
-
 `sudo ufw deny 80`
 
 - Deny all UDP traffic to ports in range 8412:8500:
-
 `sudo ufw deny proto udp from any to any port 8412:8500`
 
-- Delete a particular rule. The rule number can be retrieved from the `ufw status numbered` command:
-
+- Delete a particular rule by number:
 `sudo ufw delete {{rule_number}}`
