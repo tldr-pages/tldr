@@ -6,7 +6,7 @@
 
 - Initialize (or re-encrypt) the storage using one or more GPG IDs:
 
-`pass init {{gpg_id_1}} {{gpg_id_2}}`
+`pass init {{gpg_id_1 gpg_id_2 ...}}`
 
 - Save a new password and additional information (press `<Ctrl d>` on a new line to complete):
 

@@ -12,7 +12,7 @@
 
 `systemctl --failed`
 
-- Start/Stop/Restart/Reload/Show the status a service:
+- Start/Stop/Restart/Reload/Show the status of a service:
 
 `systemctl {{start|stop|restart|reload|status}} {{unit}}`
 
