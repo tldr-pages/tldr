@@ -1,7 +1,7 @@
 # bun-info
 
 > View package metadata from the npm registry.
-> More information: <https://bun.com/docs/cli/info>.
+> More information: <https://bun.com/docs/pm/cli/info>.
 
 - Display metadata for a package:
 
