@@ -22,7 +22,7 @@
 
 - Enter a shell environment inside the Ceph container:
 
-`cephadm shell`
+`sudo cephadm shell`
 
 - Remove a service from the cluster:
 
