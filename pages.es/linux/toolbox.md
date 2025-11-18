@@ -1,20 +1,28 @@
 # toolbox
 
-> Gestiona entornos de línea de comandos en contenedores de Linux.
-> Algunos subcomandos como `create` tienen su propia documentación de uso.
-> Más información: <https://manned.org/toolbox.1>.
+> Administra entornos de línea de comandos en contenedores en Linux.
+> Algunos subcomandos, como `create`, tienen su propia documentación de uso.
+> Más información: <https://manned.org/toolbox>.
 
-- Ejecuta un subcomando de `toolbox`:
+- Entra en un contenedor para utilizarlo de forma interactiva:
 
-`toolbox {{subcomando}}`
+`toolbox enter {{contenedor}}`
 
-- Muestra ayuda para un subcomando específico (como `create`, `enter`, `rm`, `rmi`, etc.):
+- Elimina uno o varios contenedores:
+
+`toolbox rm {{contenedor1 contenedor2 ...}}`
+
+- Elimina una o varias imágenes:
+
+`toolbox rmi {{imagen1 imagen2 ...}}`
+
+- Muestra la ayuda para un subcomando específico (como `create`, `enter`, `rm`, `rmi`, etc.):
 
 `toolbox help {{subcomando}}`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
-`toolbox --help`
+`toolbox {{[-h|--help]}}`
 
 - Muestra la versión:
 
