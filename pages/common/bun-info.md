@@ -7,7 +7,7 @@
 
 `bun info {{package_name}}`
 
-- Display metadata for a specific version:
+- Display the specific version metadata:
 
 `bun info {{package_name}}@{{version}}`
 
