@@ -1,6 +1,6 @@
 # bun outdated
 
-> Show dependencies that have newer versions available.
+> List dependencies in your project that have newer versions available.
 > More information: <https://bun.com/docs/pm/cli/outdated>.
 
 - List all outdated dependencies in the current project:
