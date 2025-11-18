@@ -25,4 +25,4 @@
 
 - Print specific fields of of lines that use `NUL` to terminate lines instead of newlines:
 
-`{{find . -print0}} | cut {{[-z|--zero-terminated]}} {{[-f|--fields]}} {{1}}`
+`{{find . -print0}} | cut {{[-z|--zero-terminated]}} {{[-d|--delimiter]}} "{{/}}" {{[-f|--fields]}} {{2}}`
