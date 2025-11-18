@@ -1,0 +1,20 @@
+# kubectl delete
+
+> Exclui um recurso usando nome de arquivo, entrada padrão (stdin), recurso e nome, ou recurso e seletor de rótulo.
+> Mais informações: <https://kubernetes.io/docs/reference/kubectl/cheatsheet/>.
+
+- Excluir um pod pelo nome:
+
+`kubectl delete pod {{pod_name}}`
+
+- Excluir um deployment identificado em 'deployment.yaml':
+
+`kubectl delete -f {{path/to/deployment.yaml}}`
+
+- Excluir todos os pods e services com um rótulo específico:
+
+`kubectl delete pod,service -l {{label_name}}={{label_value}}`
+
+- Excluir todos os recursos em um determinado namespace:
+
+`kubectl delete all --all -n {{namespace}}`
