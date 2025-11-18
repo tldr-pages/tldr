@@ -18,3 +18,15 @@
 - Excluir todos os recursos em um determinado namespace:
 
 `kubectl delete all --all -n {{namespace}}`
+
+- Excluir todos os deployments e services em um namespace especificado:
+
+`kubectl delete {{[deploy|deployments]}},{{[svc|services]}} --all {{[-n|--namespace]}} {{namespace}}`
+
+- Excluir todos os nodes:
+
+`kubectl delete {{[no|nodes]}} --all`
+
+- Excluir recursos definidos em um manifesto YAML:
+
+`kubectl delete {{[-f|--filename]}} {{path/to/manifest.yaml}}`
