@@ -13,7 +13,7 @@
 
 - Explain why packages from a specific organization are installed:
 
-`bun why "{{@organization/*}}"`
+`bun why "@{{organization}}/*"`
 
 - Show only top-level dependencies:
 
