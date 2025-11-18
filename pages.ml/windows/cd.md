@@ -2,7 +2,7 @@
 
 > നിലവിലെ പ്രവർത്തന ഡയറക്ടറി കാണിക്കുക അല്ലെങ്കിൽ മറ്റൊരു ഡയറക്ടറിയിലേക്ക് മാറുക.
 > PowerShell-ൽ, ഈ കമാൻഡ് `Set-Location` എന്നതിനുള്ള ഒരു alias ആണ്.
-> കൂടുതൽ വിവരങ്ങൾ: https://learn.microsoft.com/windows-server/administration/windows-commands/cd.
+> കൂടുതൽ വിവരങ്ങൾ: https://learn.microsoft.com/windows-server/administration/windows-commands/cd
 
 - സമാനമായ PowerShell കമാൻഡിന്റെ ഡോക്യുമെന്റേഷൻ കാണുക:
 `tldr set-location`
