@@ -26,7 +26,7 @@
 
 - Schoon de lokale repository op - verwijder pakketbestanden (`.deb`) van onderbroken downloads die niet langer kunnen worden gedownload:
 
-`apt-get autoclean`
+`sudo apt-get autoclean`
 
 - Verwijder alle pakketten die niet meer nodig zijn:
 
