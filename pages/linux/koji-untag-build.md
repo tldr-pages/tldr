@@ -25,4 +25,4 @@
 
 - Display help:
 
-`koji untag-build --help`
+`koji untag-build {{[-h|--help]}}`

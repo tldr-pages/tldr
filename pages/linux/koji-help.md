@@ -7,10 +7,10 @@
 
 `koji help`
 
-- Display help for specific subcommand (such as `build`, `call`, `cancel`, `tag-build`, etc.):
+- Display help for specific category (Available categories are: admin, all, bind, build, download, info, misc, monitor, search):
 
-`koji help {{subcommand}}`
+`koji help {{category}}`
 
 - Display help:
 
-`koji {{[-h|--help]}}`
+`koji help {{[-h|--help]}}`
