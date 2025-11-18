@@ -17,4 +17,4 @@
 
 - 稍后添加更多：
 
-`git sparse-checkout add {{路径/到/目录或文件}}`
+`git sparse-checkout add {{路径/到/目录}}`
