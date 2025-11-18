@@ -26,7 +26,7 @@
 
 - Nettoyage du dépôt local - supprime les fichiers de paquets (`.deb`) des téléchargements interrompus qui ne peuvent plus être téléchargés :
 
-`apt-get autoclean`
+`sudo apt-get autoclean`
 
 - Suppression de tous les paquets qui ne sont plus nécessaires :
 

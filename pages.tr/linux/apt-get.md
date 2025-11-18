@@ -26,7 +26,7 @@
 
 - Yerel depoyu temizleyin - kullanılmayan gereksiz paket dosyalarını (.deb) silin:
 
-`apt-get autoclean`
+`sudo apt-get autoclean`
 
 - Artık gerekmeyen paketleri silin:
 

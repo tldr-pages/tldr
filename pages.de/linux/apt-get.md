@@ -26,7 +26,7 @@
 
 - Reinige das Repository:
 
-`apt-get autoclean`
+`sudo apt-get autoclean`
 
 - Entferne alle Pakete, die nicht mehr benötigt werden:
 

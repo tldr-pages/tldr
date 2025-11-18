@@ -27,7 +27,7 @@
 
 - 로컬 저장소 정리 - 중단된 다운로드로 인해 더 이상 다운로드할 수 없는 패키지 파일(`.deb`) 제거:
 
-`apt-get autoclean`
+`sudo apt-get autoclean`
 
 - 더 이상 필요하지 않은 모든 패키지 제거:
 

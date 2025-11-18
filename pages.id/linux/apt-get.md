@@ -26,7 +26,7 @@
 
 - Bersihkan repositori lokal, hapus file paket (`.deb`) yang sebelumnya gagal diunduh dan tidak bisa diunduh kembali:
 
-`apt-get autoclean`
+`sudo apt-get autoclean`
 
 - Hapus semua paket yang tidak diperlukan kembali:
 

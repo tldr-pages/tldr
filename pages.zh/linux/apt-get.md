@@ -26,7 +26,7 @@
 
 - 清理本地仓库 - 移除下载中断后无法再继续下载的（`.deb`）包文件：
 
-`apt-get autoclean`
+`sudo apt-get autoclean`
 
 - 移除所有不再需要的软件包：
 

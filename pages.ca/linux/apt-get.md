@@ -26,7 +26,7 @@
 
 - Neteja el repositori local - eliminant fitxers de paquet (`.deb`) de descàrregues interrompudes que ja no es poden descarregar:
 
-`apt-get autoclean`
+`sudo apt-get autoclean`
 
 - Elimina tots els paquets inneccessaris:
 

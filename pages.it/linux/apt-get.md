@@ -26,7 +26,7 @@
 
 - Pulisce gli archivi locali - rimuovendo i file (.deb) da scaricamenti interrotti che non possono più essere scaricati:
 
-`apt-get autoclean`
+`sudo apt-get autoclean`
 
 - Rimuove tutti i pacchetti che non sono più necessari:
 

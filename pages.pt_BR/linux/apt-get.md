@@ -26,7 +26,7 @@
 
 - Limpa o repositório local — removendo os arquivos de pacotes (`.deb`) de downloads interrompidos que não podem mais ser baixados:
 
-`apt-get autoclean`
+`sudo apt-get autoclean`
 
 - Remove todos os pacotes obsoletos:
 

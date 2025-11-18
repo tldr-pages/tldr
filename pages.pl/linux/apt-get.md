@@ -26,7 +26,7 @@
 
 - Wyczyść lokalne repozytorium - usuwa wszystkie pliki pakietów (`.deb`) z przerwanych pobrań które nie mogą już być pobrane:
 
-`apt-get autoclean`
+`sudo apt-get autoclean`
 
 - Usuń wszystkie pakiety, które już nie są potrzebne:
 

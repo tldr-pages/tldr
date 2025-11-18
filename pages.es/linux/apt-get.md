@@ -26,7 +26,7 @@
 
 - Limpia el repositorio local: elimina los archivos de paquetes (`.deb`) de descargas interrumpidas que ya no pueden descargarse:
 
-`apt-get autoclean`
+`sudo apt-get autoclean`
 
 - Elimina todos los paquetes que ya no sean necesarios:
 
