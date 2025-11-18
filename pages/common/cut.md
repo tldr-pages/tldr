@@ -19,7 +19,7 @@
 
 `{{command}} | cut {{[-d|--delimiter]}} "{{delimiter}}" {{[-f|--fields]}} 2-`
 
-- Use space as a delimiter and print only the first 3 fields
+- Use space as a delimiter and print only the first 3 fields:
 
 `{{command}} | cut {{[-d|--delimiter]}} " " {{[-f|--fields]}} -3`
 
