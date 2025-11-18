@@ -25,4 +25,4 @@
 
 - Designate package build number of the package being created:
 
-`conda package --pkg-build {{number}}`
+`conda package --pkg-build {{build_number}}`
