@@ -31,6 +31,6 @@
 
 `grex {{[-f|--file]}} {{path/to/file}}`
 
-- Do not generate anchors and non-capture groups
+- Do not generate anchors and non-capture groups:
 
 `grex --no-anchors {{[-g|--capture-groups]}} {{string1 string2 ...}}`
