@@ -7,23 +7,23 @@
 
 - 사용 가능한 패키지 및 버전 목록 업데이트 (다른 `apt-get` 명령어 실행 전에 권장됨):
 
-`apt-get update`
+`sudo apt-get update`
 
 - 패키지 설치 또는 최신 버전으로 업데이트:
 
-`apt-get install {{패키지}}`
+`sudo apt-get install {{패키지}}`
 
 - 패키지 제거:
 
-`apt-get remove {{패키지}}`
+`sudo apt-get remove {{패키지}}`
 
 - 패키지 및 구성 파일 제거:
 
-`apt-get purge {{패키지}}`
+`sudo apt-get purge {{패키지}}`
 
 - 설치된 모든 패키지를 최신 버전으로 업그레이드:
 
-`apt-get upgrade`
+`sudo apt-get upgrade`
 
 - 로컬 저장소 정리 - 중단된 다운로드로 인해 더 이상 다운로드할 수 없는 패키지 파일(`.deb`) 제거:
 
@@ -31,8 +31,8 @@
 
 - 더 이상 필요하지 않은 모든 패키지 제거:
 
-`apt-get autoremove`
+`sudo apt-get autoremove`
 
 - 설치된 패키지 업그레이드 (`upgrade`와 유사하지만, 불필요한 패키지를 제거하고 새로운 의존성을 충족하기 위해 추가 패키지를 설치):
 
-`apt-get dist-upgrade`
+`sudo apt-get dist-upgrade`

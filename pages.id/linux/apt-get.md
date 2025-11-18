@@ -6,23 +6,23 @@
 
 - Perbarui daftar paket yang tersedia beserta versinya (hal ini direkomendasikan untuk dijalankan sebelum menjalankan perintah `apt-get` yang lain):
 
-`apt-get update`
+`sudo apt-get update`
 
 - Pasang sebuah paket, atau perbarui ke versi terbaru yang tersedia:
 
-`apt-get install {{paket}}`
+`sudo apt-get install {{paket}}`
 
 - Hapus sebuah paket:
 
-`apt-get remove {{paket}}`
+`sudo apt-get remove {{paket}}`
 
 - Hapus sebuah paket dan file konfigurasinya:
 
-`apt-get purge {{paket}}`
+`sudo apt-get purge {{paket}}`
 
 - Perbarui semua paket yang terpasang ke versi terbaru yang tersedia:
 
-`apt-get upgrade`
+`sudo apt-get upgrade`
 
 - Bersihkan repositori lokal, hapus file paket (`.deb`) yang sebelumnya gagal diunduh dan tidak bisa diunduh kembali:
 
@@ -30,8 +30,8 @@
 
 - Hapus semua paket yang tidak diperlukan kembali:
 
-`apt-get autoremove`
+`sudo apt-get autoremove`
 
 - Perbarui paket yang terinstal (mirip `upgrade`), namun hapus paket yang tidak dipakai kembali dan pasang paket tambahan untuk memenuhi dependensi baru:
 
-`apt-get dist-upgrade`
+`sudo apt-get dist-upgrade`

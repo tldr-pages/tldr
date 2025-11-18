@@ -6,23 +6,23 @@
 
 - Aktualisiere die Liste der Paketquellen (es wird empfohlen diesen Befehl zu Beginn auszuführen):
 
-`apt-get update`
+`sudo apt-get update`
 
 - Installiere ein Paket oder aktualisiere es zur neuesten Version:
 
-`apt-get install {{paket}}`
+`sudo apt-get install {{paket}}`
 
 - Entferne ein Paket:
 
-`apt-get remove {{paket}}`
+`sudo apt-get remove {{paket}}`
 
 - Entferne ein Paket und die dazugehörigen Konfigurationen:
 
-`apt-get purge {{paket}}`
+`sudo apt-get purge {{paket}}`
 
 - Aktualisiere alle Pakete auf die neueste Version:
 
-`apt-get upgrade`
+`sudo apt-get upgrade`
 
 - Reinige das Repository:
 
@@ -30,8 +30,8 @@
 
 - Entferne alle Pakete, die nicht mehr benötigt werden:
 
-`apt-get autoremove`
+`sudo apt-get autoremove`
 
 - Aktualisiere alle Pakete (wie `upgrade`), aber entfernt alle obsoleten Pakete:
 
-`apt-get dist-upgrade`
+`sudo apt-get dist-upgrade`
