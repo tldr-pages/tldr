@@ -21,4 +21,4 @@
 
 - Generate a patch file and store it in a custom directory:
 
-`bun patch --commit {{node_modules/path/to/package}} --patches-dir {{directory}}`
+`bun patch --commit {{path/to/package}} --patches-dir {{directory}}`
