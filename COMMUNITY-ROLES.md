@@ -21,12 +21,13 @@ the metrics used are objective, easy to check, and explicitly described below. (
 exceptions can always be considered through open community discussion.)
 
 > [!IMPORTANT]
-> It is required to have a secure [two-factor authentication (2FA)](https://github.com/settings/security) method (Authenticator app/Webkeys/Security Keys/GitHub mobile) enabled for your GitHub account
+> It is required to have a secure [two-factor authentication (2FA)](https://github.com/settings/security) method (Authenticator app/Security Keys/GitHub mobile) enabled for your GitHub account
 > to be added as an outside collaborator or a member of the tldr-pages organization.
 
 > [!WARNING]
-> **SMS-based 2FA methods are not considered secure enough** so we
-> require all maintainers to disable SMS-based 2FA and use a more secure method.
+> SMS-based 2FA methods pose a higher risk of being compromised,
+> so **we require all maintainers to disable SMS-based 2FA**
+> and use more secure methods.
 
 ## When to change roles
 
@@ -114,7 +115,7 @@ using one of the template messages below as a base.
    Either way, thanks for all your work so far!
 
    > [!NOTE]
-   > It is required to have a secure [two-factor authentication (2FA)](https://github.com/settings/security) method (Authenticator app/Webkeys/Security Keys/GitHub mobile) enabled for your
+   > It is required to have a secure [two-factor authentication (2FA)](https://github.com/settings/security) method (Authenticator app/Security Keys/GitHub mobile) enabled for your
    > GitHub account to be added as a collaborator to the tldr-pages/tldr repository.
    ```
 
@@ -130,13 +131,13 @@ using one of the template messages below as a base.
    Feel free to use this reply comment template:
 
    ```md
-   Welcome to tldr! I've sent you an invitation to this repository. 
+   Welcome to tldr! I've sent you an invitation to become a collaborator in this repository. 
    
    Feel free to close this issue with a pull request, updating the [MAINTAINERS.md](https://github.com/tldr-pages/tldr/blob/main/MAINTAINERS.md#repository-collaborators) file's active collaborator section with a new entry.
 
    Also add yourself to the [CODEOWNERS](https://github.com/tldr-pages/tldr/blob/main/.github/CODEOWNERS) file if you wish to take responsibility for reviewing PRs for a language's translations or a specific directory.
 
-   We also have a [matrix chatroom](https://matrix.to/#/#tldr-pages:matrix.org) if you wish to hang out.
+   We also have a [Matrix chat room](https://matrix.to/#/#tldr-pages:matrix.org), which we recommend as a way to stay in touch with community discussions and other maintainers.
    ```
 
 ### Adding new organization members
@@ -174,11 +175,11 @@ using one of the template messages below as a base.
    Feel free to use this reply comment template:
 
    ```md
-   Welcome to tldr-pages! I've sent you an invitation to this Organization.
+   Welcome to tldr-pages! I've sent you an invitation to become a member of the organization. Once you accept it, don't forget to set your membership to ["Public" visibility](https://github.com/orgs/tldr-pages/people).
    
    Feel free to close this issue with a pull request, updating the [MAINTAINERS.md](https://github.com/tldr-pages/tldr/blob/main/MAINTAINERS.md#organization-members) file's active organization members section with a new entry.
 
-   And update your existing [repository collaborator](https://github.com/tldr-pages/tldr/blob/main/MAINTAINERS.md#repository-collaborators) entry in [MAINTAINERS.md](https://github.com/tldr-pages/tldr/blob/main/MAINTAINERS.md) file and move it to the bottom of the collaborators list.
+   Make sure to update your existing [repository collaborator](https://github.com/tldr-pages/tldr/blob/main/MAINTAINERS.md#repository-collaborators) entry in [MAINTAINERS.md](https://github.com/tldr-pages/tldr/blob/main/MAINTAINERS.md) file and move it to the bottom of the collaborators list.
 
    Additionally, if you haven't already, add yourself to the [CODEOWNERS](https://github.com/tldr-pages/tldr/blob/main/.github/CODEOWNERS) file if you wish to take responsibility for reviewing PRs for a language's translations or a specific directory.
    ```
@@ -218,9 +219,9 @@ using one of the template messages below as a base.
    
    Feel free to close this issue with a pull request, updating the [MAINTAINERS.md](https://github.com/tldr-pages/tldr/blob/main/MAINTAINERS.md#organization-owners) file's active organization owners section with a new entry.
 
-   And update your existing [organization member](https://github.com/tldr-pages/tldr/blob/main/MAINTAINERS.md#organization-members) entry in [MAINTAINERS.md](https://github.com/tldr-pages/tldr/blob/main/MAINTAINERS.md) file and move it to the bottom of the members list.
+   Make sure to update your existing [organization member](https://github.com/tldr-pages/tldr/blob/main/MAINTAINERS.md#organization-members) entry in [MAINTAINERS.md](https://github.com/tldr-pages/tldr/blob/main/MAINTAINERS.md) file and move it to the bottom of the members list.
 
-   As an owner, you will be able to perform role changes and also manage the organization's settings. I request you to be extra careful to avoid any accidental misconfigurations and also discuss any major changes beforehand with other maintainers before implementing them.
+   As an owner, you will be able to perform role changes and also manage the organization's settings. I request you to be extra careful to avoid any accidental misconfigurations and also discuss any changes beforehand with other maintainers before implementing them.
    ```
 
 ### Removing inactive organization members
