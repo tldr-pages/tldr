@@ -3,7 +3,7 @@
 > Cut out fields from `stdin` or files.
 > More information: <https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html>.
 
-- Print the 5th character on each line:
+- Print the fifth character on each line:
 
 `{{command}} | cut {{[-c|--characters]}} 5`
 
