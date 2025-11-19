@@ -11,7 +11,7 @@
 
 `bun patch {{package}}@{{version}}`
 
-- Prepare a package located at a path:
+- Prepare a package located at a specific path:
 
 `bun patch {{path/to/package}}`
 
