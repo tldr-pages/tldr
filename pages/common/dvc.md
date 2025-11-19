@@ -1,10 +1,18 @@
 # dvc
 
-> Data Version Control: like `git` for data.
+> Data Version Control system for machine learning projects.
 > Some subcommands such as `commit` have their own usage documentation.
 > More information: <https://dvc.org/doc/command-reference>.
 
-- Execute a DVC subcommand:
+- Initialize a new DVC project:
+
+`dvc init`
+
+- Add one or more data files or directories to tracking:
+
+`dvc add {{path/to/file_or_directory}}`
+
+- Execute a specific subcommand:
 
 `dvc {{subcommand}}`
 

@@ -9,4 +9,4 @@
 
 - Display help:
 
-`koji taginfo --help`
+`koji taginfo {{[-h|--help]}}`

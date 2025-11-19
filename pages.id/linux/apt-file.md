@@ -17,4 +17,4 @@
 
 - Cari paket yang sesuai dengan `ekspresi_reguler`:
 
-`apt-file {{search|find}} --regexp {{ekspresi_reguler}}`
+`apt-file {{search|find}} {{[-x|--regexp]}} {{ekspresi_reguler}}`
