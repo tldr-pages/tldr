@@ -1,17 +1,17 @@
 # foot
 
-> A fast, lightweight and minimalistic Wayland terminal emulator.
+> A fast, lightweight, and minimalistic Wayland terminal emulator.
 > More information: <https://codeberg.org/dnkl/foot>.
 
-- Spawn a `foot` terminal:
+- Spawn a terminal:
 
 `foot`
 
-- Verify your `foot` config:
+- Verify your config:
 
 `foot {{[-C|--check-config]}}`
 
-- Start the `foot`server (optional can pass a socket path):
+- Start the server (optionally specify a socket path):
 
 `foot {{[-s|--server]}} {{path/to/socket}}`
 
