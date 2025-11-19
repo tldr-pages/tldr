@@ -9,16 +9,16 @@
 
 - Verify your `foot` config:
 
-`foot [-C|--check-config]`
+`foot {{[-C|--check-config]}}`
 
 - Start the `foot`server (optional can pass a socket path):
 
-`foot [-s|--server={{path/to/socket}}]`
+`foot {{[-s|--server]}} {{path/to/socket}}`
 
 - Display help:
 
-`foot [-h|--help]`
+`foot {{[-h|--help]}}`
 
 - Display version information:
 
-`foot [-v|--version]`
+`foot {{[-v|--version]}}`
