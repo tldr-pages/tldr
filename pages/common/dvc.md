@@ -1,6 +1,6 @@
 # dvc
 
-> Data Version Control is a command-line tool designed to bring version control capabilities to data.
+> Data Version Control system for Machine Learning projects.
 > Some subcommands such as `commit` have their own usage documentation.
 > More information: <https://dvc.org/doc/command-reference>.
 
