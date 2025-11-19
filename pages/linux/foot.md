@@ -1,7 +1,7 @@
 # foot
 
 > A fast, lightweight and minimalistic Wayland terminal emulator.
-> More information: <https://codeberg.org/dnkl/foot.wiki>.
+> More information: <https://codeberg.org/dnkl/foot>.
 
 - Spawn a `foot` terminal:
 
