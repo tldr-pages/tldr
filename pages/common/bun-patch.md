@@ -13,7 +13,7 @@
 
 - Prepare a package located at a path:
 
-`bun patch {{node_modules/path/to/package}}`
+`bun patch {{path/to/package}}`
 
 - Generate a patch file for changes made to a package:
 
