@@ -5,7 +5,7 @@
 
 - Create an ext2 filesystem on a partition:
 
-`sudo mke2fs -t {{ext2}} {{/dev/sdXY}}`
+`sudo mke2fs -t ext2 {{/dev/sdXY}}`
 
 - Create an ext3 filesystem on a partition:
 
