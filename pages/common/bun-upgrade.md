@@ -3,7 +3,7 @@
 > Upgrade Bun to the latest version.
 > More information: <https://bun.com/docs/installation#upgrading>.
 
-- Upgrade Bun to the latest stable version:
+- Upgrade to the latest stable version:
 
 `bun upgrade`
 
