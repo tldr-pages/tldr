@@ -7,14 +7,14 @@
 
 `anki`
 
-- Use um perfil específico:
+- Usa um perfil específico:
 
 `anki {{[-p|--profile]}} {{nome_perfil}}`
 
-- Use um idioma específico:
+- Usa um idioma específico:
 
 `anki {{[-l|--lang]}} {{idioma}}`
 
-- Use uma pasta diferente (o padrão é `~/Anki`):
+- Usa uma pasta diferente (o padrão é `~/Anki`):
 
 `anki {{[-b|--base]}} {{caminho/para/pasta}}`
