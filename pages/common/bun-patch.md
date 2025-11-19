@@ -17,7 +17,7 @@
 
 - Generate a patch file for changes made to a package:
 
-`bun patch --commit {{node_modules/path/to/package}}`
+`bun patch --commit {{path/to/package}}`
 
 - Generate a patch file and store it in a custom directory:
 
