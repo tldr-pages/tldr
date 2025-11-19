@@ -13,4 +13,4 @@
 
 - Create an ext4 filesystem on a partition:
 
-`sudo mke2fs -t {{ext4}} {{/dev/sdXY}}`
+`sudo mke2fs -t ext4 {{/dev/sdXY}}`
