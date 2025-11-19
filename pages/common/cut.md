@@ -7,7 +7,7 @@
 
 `{{command}} | cut {{[-c|--characters]}} 5`
 
-- Print fifth to tenth character of each line of the specific file:
+- Print the fifth to tenth character of each line of the specified file:
 
 `cut {{[-c|--characters]}} 5-10 {{path/to/file}}`
 
