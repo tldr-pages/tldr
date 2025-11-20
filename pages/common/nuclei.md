@@ -33,4 +33,4 @@
 
 - Use an AI prompt to dynamically generate a template to scan a target (projectdiscovery cloud pdcp API key needs to be configured using `nuclei -auth`):
 
-`nuclei {{[-u|-target]}} {{https://example.com}} {{[-ai|-prompt]}} {{find admin login endpoints}}`
+`nuclei {{[-u|-target]}} {{https://example.com}} {{[-ai|-prompt]}} {{"find admin login endpoints"}}`
