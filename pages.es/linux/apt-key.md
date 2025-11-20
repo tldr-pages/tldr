@@ -17,7 +17,7 @@
 
 - Añade un clave remota al almacén de claves de confianza:
 
-`wget -qO - {{https://host.tld/archivo.clave}} | apt-key add -`
+`wget {{[-qO|--quiet --output-document]}} - {{https://host.tld/archivo.clave}} | apt-key add -`
 
 - Añade una clave de un servidor de claves con el identificador de la clave:
 
