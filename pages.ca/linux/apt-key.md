@@ -18,7 +18,7 @@
 
 - Afegir una clau remota al magatzem de claus de confiança:
 
-`wget -qO - {{https://host.tld/archiu.clau}} | apt-key add -`
+`wget {{[-qO|--quiet --output-document]}} - {{https://host.tld/archiu.clau}} | apt-key add -`
 
 - Afegir una clau d'un servidor de claus amb l'identificador de la clau:
 
