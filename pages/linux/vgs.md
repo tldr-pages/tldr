@@ -18,7 +18,7 @@
 
 - Display only specific fields:
 
-`sudo vgs {{[-o|--options]}} {{field_name1,field_name2,...}}`
+`sudo vgs {{[-o|--options]}} {{field_name_1,field_name_2,...}}`
 
 - Append field to default display:
 
