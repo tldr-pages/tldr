@@ -261,7 +261,7 @@ To commit a suggestion to your pull request, click on `Commit suggestion`:
 If you want to commit multiple suggestions, go to the "Files changed" tab and batch all suggestions. Now, click the `Commit suggestions` button and enter a commit message to create a single commit.
 
 > [!IMPORTANT]
-> Do not force push. We would prefer to preserve commit history within the pull request so that the order of events stays chronological. All pull requests will be squashed so the mess will be contained in the PR.
+> Do not force push. We would prefer to preserve commit history within the pull request so that the order of events between comments and commits stays chronological. All pull requests will be squashed so a messy commit history will be contained in the PR.
 
 ### Commit message and PR title
 
