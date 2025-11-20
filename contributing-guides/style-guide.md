@@ -49,7 +49,7 @@ Example:
 
 - Open specific files:
 
-`krita {{path/to/image1 path/to/image2 ...}}`
+`krita {{path/to/image_1 path/to/image_2 ...}}`
 
 - Start without a splash screen:
 
@@ -515,9 +515,9 @@ Keep the following guidelines in mind when choosing placeholders:
 
 #### Grouping placeholders
 
-- If a command can optionally take 1 or more arguments of the same kind, use an ellipsis: `{{placeholder1 placeholder2 ...}}`.
-  For instance, if multiple paths are expected, use `{{path/to/directory1 path/to/directory2 ...}}`.
-- If only one of the multiple options is possible, write it as: `{{placeholder1|placeholder2|placeholder3}}`. If there are more than 3 possible values, you can use `|...` after the last item.
+- If a command can optionally take 1 or more arguments of the same kind, use an ellipsis: `{{placeholder_1 placeholder_2 ...}}`.
+  For instance, if multiple paths are expected, use `{{path/to/directory_1 path/to/directory_2 ...}}`.
+- If only one of the multiple options is possible, write it as: `{{placeholder_1|placeholder_2|placeholder_3}}`. If there are more than 3 possible values, you can use `|...` after the last item.
 - Use two dots to mark a range of possible values, for example `{{1..5}}` or `{{a..z}}`.
 
 #### Optional placeholders
