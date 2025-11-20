@@ -13,8 +13,8 @@
 
 - Tail multiple containers from multiple pods:
 
-`kubetail {{my_app}} {{[-c|--container]}} {{my_container1}} {{[-c|--container]}} {{my_container2}}`
+`kubetail {{my_app}} {{[-c|--container]}} {{my_container_1}} {{[-c|--container]}} {{my_container_2}}`
 
 - Tail multiple applications at the same time separate them by comma:
 
-`kubetail {{my_app1,my_app2,...}}`
+`kubetail {{my_app_1,my_app_2,...}}`
