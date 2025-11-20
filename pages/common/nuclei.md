@@ -31,6 +31,6 @@
 
 `nuclei {{[-t|-templates]}} {{path/to/nuclei-templates/http}} {{[-u|-target]}} {{https://example.com}} {{[-v|-verbose]}} {{[-o|-output]}} {{path/to/results}}`
 
-- Use AI prompt to generate a template dynamically to scan a target (projectdiscovery cloud pdcp API key needs to be configured using `nuclei -auth`):
+- Use an AI prompt to dynamically generate a template to scan a target (projectdiscovery cloud pdcp API key needs to be configured using `nuclei -auth`):
 
 `nuclei {{[-u|-target]}} {{https://example.com}} {{[-ai|-prompt]}} {{find admin login endpoints}}`
