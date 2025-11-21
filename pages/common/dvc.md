@@ -16,10 +16,6 @@
 
 `dvc add {{path/to/file_or_directory}}`
 
-- Remove files or directories from tracking:
-
-`dvc remove {{path/to/file_or_directory}}`
-
 - Show project status:
 
 `dvc status`
