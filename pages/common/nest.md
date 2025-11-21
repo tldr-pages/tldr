@@ -11,6 +11,10 @@
 
 `nest {{[n|new]}}`
 
+- Create a new NestJS project without prompting:
+
+`nest {{[n|new]}} {{project_name}} {{[-p|--package-manager]}} {{npm|yarn|pnpm}}`
+
 - Build the NestJS project in the current working directory:
 
 `nest build`
