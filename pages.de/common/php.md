@@ -9,28 +9,28 @@
 
 - Überprüfe die Syntax eines PHP-Skripts:
 
-`php -l {{pfad/zu/datei}}`
+`php {{[-l|--syntax-check]}} {{pfad/zu/datei}}`
 
 - Führen PHP interaktiv aus:
 
-`php -a`
+`php {{[-a|--interactive]}}`
 
 - Führe einen PHP-Befehl aus:
 
-`php -r "{{befehl}}"`
+`php {{[-r|--run]}} "{{befehl}}"`
 
 - Starte den in PHP integrierten Webserver im aktuellen Verzeichnis:
 
-`php -S {{host:port}}`
+`php {{[-S|--server]}} {{host:port}}`
 
 - Zeige eine Liste der installierten PHP-Erweiterungen:
 
-`php -m`
+`php {{[-m|--modules]}}`
 
 - Zeige Informationen zur aktuellen PHP-Konfiguration an:
 
-`php -i`
+`php {{[-i|--info]}}`
 
 - Zeige Informationen zu einer bestimmten Funktion an:
 
-`php --rf {{funktionsname}}`
+`php {{[--rf|--rfunction]}} {{funktionsname}}`

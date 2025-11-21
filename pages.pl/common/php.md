@@ -9,28 +9,28 @@
 
 - Sprawdź składnię skryptu PHP (np. lint):
 
-`php -l {{plik}}`
+`php {{[-l|--syntax-check]}} {{plik}}`
 
 - Uruchom PHP interaktywnie:
 
-`php -a`
+`php {{[-a|--interactive]}}`
 
 - Uruchom kod PHP (uwagi: nie używaj znaczników <? ?> ; unikaj podwójnych cudzysłowów z odwrotnym ukośnikiem):
 
-`php -r "{{kod}}"`
+`php {{[-r|--run]}} "{{kod}}"`
 
 - Uruchom wbudowany serwer PHP w bieżącym katalogu:
 
-`php -S {{host:port}}`
+`php {{[-S|--server]}} {{host:port}}`
 
 - Uzyskaj listę zainstalowanych rozszerzeń PHP:
 
-`php -m`
+`php {{[-m|--modules]}}`
 
 - Wyświetl informacje o bieżącej konfiguracji PHP:
 
-`php -i`
+`php {{[-i|--info]}}`
 
 - Wyświetl informacje o konkretnej funkcji:
 
-`php --rf {{nazwa_funkcji}}`
+`php {{[--rf|--rfunction]}} {{nazwa_funkcji}}`
