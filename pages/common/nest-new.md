@@ -3,7 +3,7 @@
 > Initialize Nest applications.
 > More information: <https://docs.nestjs.com/cli/usages#nest-new>.
 
-- Create a new NestJS project interactively::
+- Create a new NestJS project interactively:
 
 `nest {{[n|new]}}`
 
