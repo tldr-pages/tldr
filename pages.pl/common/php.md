@@ -21,7 +21,7 @@
 
 - Uruchom wbudowany serwer PHP w bieżącym katalogu:
 
-`php {{[-S|--server]}} {{host:port}}`
+`php {{[-S|--server]}} {{host}}:{{port}}`
 
 - Uzyskaj listę zainstalowanych rozszerzeń PHP:
 

@@ -21,7 +21,7 @@
 
 - Starte den in PHP integrierten Webserver im aktuellen Verzeichnis:
 
-`php {{[-S|--server]}} {{host:port}}`
+`php {{[-S|--server]}} {{host}}:{{port}}`
 
 - Zeige eine Liste der installierten PHP-Erweiterungen:
 
