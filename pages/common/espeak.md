@@ -1,7 +1,7 @@
 # espeak
 
 > Use text-to-speech to speak through the default sound device.
-> More information: <https://espeak.sourceforge.net>.
+> More information: <https://manned.org/espeak>.
 
 - Speak a phrase aloud:
 
