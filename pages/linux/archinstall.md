@@ -6,4 +6,3 @@
 - Start the interactive installer:
 
 `archinstall`
-
