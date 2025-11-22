@@ -1,7 +1,7 @@
 # mr
 
 > Manage all of your version control repositories at once.
-> More information: <https://myrepos.branchable.com>.
+> More information: <https://manned.org/mr>.
 
 - Register a repository:
 

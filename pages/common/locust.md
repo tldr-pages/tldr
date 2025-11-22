@@ -1,28 +1,28 @@
 # locust
 
 > Load-testing tool to determine number of concurrent users a system can handle.
-> More information: <https://locust.io>.
+> More information: <https://docs.locust.io/en/stable/configuration.html#configuration>.
 
 - Load-test "example.com" with web interface using locustfile.py:
 
-`locust --host={{http://example.com}}`
+`locust {{[-H|--host]}} {{http://example.com}}`
 
 - Use a different test file:
 
-`locust --locustfile={{test_file.py}} --host={{http://example.com}}`
+`locust {{[-H|--host]}} {{http://example.com}} {{[-f|--locustfile]}} {{test_file.py}}`
 
 - Run test without web interface, spawning 1 user a second until there are 100 users:
 
-`locust --no-web --clients={{100}} --hatch-rate={{1}} --host={{http://example.com}}`
+`locust {{[-H|--host]}} {{http://example.com}} --no-web --clients={{100}} --hatch-rate {{1}}`
 
 - Start Locust in master mode:
 
-`locust --master --host={{http://example.com}}`
+`locust {{[-H|--host]}} {{http://example.com}} --master`
 
 - Connect Locust slave to master:
 
-`locust --slave --host={{http://example.com}}`
+`locust {{[-H|--host]}} {{http://example.com}} --slave`
 
 - Connect Locust slave to master on a different machine:
 
-`locust --slave --master-host={{master_hostname}} --host={{http://example.com}}`
+`locust {{[-H|--host]}} {{http://example.com}} --slave --master-host {{master_hostname}}`
