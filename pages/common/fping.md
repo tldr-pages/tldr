@@ -1,7 +1,7 @@
 # fping
 
 > A more powerful ping which can ping multiple hosts.
-> More information: <https://fping.org>.
+> More information: <https://fping.org/fping.8.html>.
 
 - List the status of all hosts within a range:
 
