@@ -1,7 +1,7 @@
 # qm disk move
 
 > Move a virtual disk from one storage to another within the same Proxmox cluster.
-> More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
+> More information: <https://pve.proxmox.com/pve-docs/qm.1.html#cli_qm_disk_move>.
 
 - Move a virtual disk:
 

@@ -1,7 +1,7 @@
 # pct create
 
 > Create LXC containers in Proxmox.
-> More information: <https://pve.proxmox.com/pve-docs/pct.1.html>.
+> More information: <https://pve.proxmox.com/pve-docs/pct.1.html#cli_pct_create>.
 
 - Create a container from a template with 4GB size, give it 512MiB of memory and unlimited access to CPU:
 
