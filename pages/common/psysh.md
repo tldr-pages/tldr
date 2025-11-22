@@ -1,7 +1,7 @@
 # psysh
 
 > A runtime developer console, interactive debugger and REPL for PHP.
-> More information: <https://psysh.org>.
+> More information: <https://github.com/bobthecow/psysh/wiki/CLI-options>.
 
 - Open a shell in the current directory:
 
@@ -13,4 +13,4 @@
 
 - Use a specific configuration file:
 
-`psysh --config {{path/to/file}}`
+`psysh {{[-c|--config]}} {{path/to/file}}`
