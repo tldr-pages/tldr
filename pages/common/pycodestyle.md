@@ -1,4 +1,4 @@
-v# pycodestyle
+# pycodestyle
 
 > Check Python code against PEP 8 style conventions.
 > More information: <https://pycodestyle.pycqa.org/en/latest/intro.html#example-usage-and-output>.
