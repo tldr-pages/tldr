@@ -1,7 +1,7 @@
 # qm disk rescan
 
 > Rescan all storages and update disk sizes and unused disk images of virtual machines.
-> More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
+> More information: <https://pve.proxmox.com/pve-docs/qm.1.html#cli_qm_disk_rescan>.
 
 - Rescan all storages and update disk sizes and unused disk images:
 

@@ -18,11 +18,11 @@
 
 - 기본 동기화 서버에 계정 등록:
 
-`atuin register -u {{사용자명}} -e {{이메일}} -p {{비밀번호}}`
+`atuin register {{[-u|--username]}} {{사용자명}} {{[-e|--email]}} {{이메일}} {{[-p|--password]}} {{비밀번호}}`
 
 - 기본 동기화 서버에 로그인:
 
-`atuin login -u {{사용자명}} -p {{비밀번호}}`
+`atuin login {{[-u|--username]}} {{사용자명}} {{[-p|--password]}} {{비밀번호}}`
 
 - 동기화 서버와의 동기화 기록:
 

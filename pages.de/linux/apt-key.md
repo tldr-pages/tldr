@@ -18,7 +18,7 @@
 
 - Füge einen Remote-Schlüssel hinzu:
 
-`wget -qO - {{https://host.tld/filename.key}} | apt-key add -`
+`wget {{[-qO|--quiet --output-document]}} - {{https://host.tld/filename.key}} | apt-key add -`
 
 - Füge einen Schlüssel von einem Schlüsselserver hinzu nur mit der Schlüssel-ID:
 

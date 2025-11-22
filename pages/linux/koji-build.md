@@ -25,4 +25,4 @@
 
 - Display help:
 
-`koji build --help`
+`koji build {{[-h|--help]}}`

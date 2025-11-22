@@ -18,4 +18,4 @@
 
 - Display help:
 
-`koji call --help`
+`koji call {{[-h|--help]}}`
