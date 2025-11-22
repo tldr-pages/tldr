@@ -3,6 +3,10 @@
 > Run a script.
 > More information: <https://docs.npmjs.com/cli/npm-run>.
 
+- List available scripts:
+
+`npm run`
+
 - Run a script:
 
 `npm run {{script_name}}`
