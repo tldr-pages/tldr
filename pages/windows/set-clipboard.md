@@ -20,6 +20,6 @@
 
 `Set-Clipboard -Path "{{path/to/file1}}","{{path/to/file2}}","{{path/to/file3}}"`
 
-- To clear the clipboard:
+- Clear the clipboard:
 
 `Set-Clipboard ""`
