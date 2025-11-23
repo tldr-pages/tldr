@@ -21,7 +21,7 @@
 
 - Connect Locust worker to master:
 
-`locust {{[-H|--host]}} {{http://example.com}} --slave`
+`locust {{[-H|--host]}} {{http://example.com}} --worker`
 
 - Connect Locust slave to master on a different machine:
 
