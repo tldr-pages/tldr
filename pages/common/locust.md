@@ -13,7 +13,7 @@
 
 - Run test without web interface, spawning 1 user a second until there are 100 users:
 
-`locust {{[-H|--host]}} {{http://example.com}} --no-web --clients={{100}} --hatch-rate {{1}}`
+`locust {{[-H|--host]}} {{http://example.com}} --headless {{[-u|--users]}} 100 {{[-r|--spawn-rate]}} 1`
 
 - Start Locust in master mode:
 
