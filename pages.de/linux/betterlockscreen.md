@@ -5,16 +5,16 @@
 
 - Sperre den Bildschirm:
 
-`betterlockscreen --lock`
+`betterlockscreen {{[-l|--lock]}}`
 
 - Ändere den Hintergrund des Sperrbildschirms:
 
-`betterlockscreen -u {{pfad/zu/bild.png}}`
+`betterlockscreen {{[-u|--update]}} {{pfad/zu/bild.png}}`
 
 - Sperre den Bildschirm und zeige benutzerdefinierten Text an:
 
-`betterlockscreen -l pixel -t "{{benutzerdefinierter Sperrbildschirmtext}}"`
+`betterlockscreen {{[-l|--lock]}} pixel {{[-t|--text]}} "{{benutzerdefinierter Sperrbildschirmtext}}"`
 
 - Sperre den Bildschirm mit einer benutzerdefinierten Monitor-Auszeit in Sekunden:
 
-`betterlockscreen --off {{5}} -l`
+`betterlockscreen --off {{5}} {{[-l|--lock]}}`
