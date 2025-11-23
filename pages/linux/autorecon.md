@@ -3,7 +3,7 @@
 > A multi-threaded network reconnaissance tool which performs automated enumeration of services.
 > More information: <https://github.com/Tib3rius/AutoRecon>.
 
-- Perform reconnaissance on target host(s) (detailed scan results will be dumped in `./results`):
+- Perform reconnaissance on target host(s) (detailed scan results will be dumped in `results`):
 
 `sudo autorecon {{host_or_ip1,host_or_ip2,...}}`
 
