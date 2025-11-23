@@ -1,11 +1,6 @@
-# whoami
+# hello
 
-> Print the current logged-in user. More information: <https://man7.org/linux/man-pages/man1/whoami.1.html>
+> Print a simple greeting.
 
-- Display the current username:
-
-  `whoami`
-
-- Display the username in uppercase:
-
-  `whoami | tr '[:lower:]' '[:upper:]'`
+- Print a simple greeting:
+`echo "Hello, world!"`
