@@ -21,7 +21,7 @@
 
 - List all subkeys of a given key on another NixOS configuration:
 
-`NIXOS_CONFIG={{path_to_configuration.nix}} nixos-option {{option_key}}`
+`NIXOS_CONFIG={{path/to/configuration.nix}} nixos-option {{option_key}}`
 
 - Show recursively all values of a user:
 
