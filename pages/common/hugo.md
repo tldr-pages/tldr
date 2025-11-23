@@ -16,7 +16,7 @@
 
 `hugo new {{section_name}}/{{page_name}}`
 
-- Build a site to the `./public/` directory:
+- Build a site to the `public` directory:
 
 `hugo`
 
