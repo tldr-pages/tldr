@@ -1,7 +1,7 @@
 # bun pm bin
 
 > Print the path to Bun's package manager bin directory.
-> More information: <https://bun.com/docs/pm/cli/pm>.
+> More information: <https://bun.com/docs/pm/cli/pm#bin>.
 
 - Print the local project's `node_modules/.bin` directory:
 
