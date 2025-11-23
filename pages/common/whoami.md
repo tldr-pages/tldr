@@ -2,10 +2,10 @@
 
 > Print the current logged-in user. More information: <https://man7.org/linux/man-pages/man1/whoami.1.html>.
 
-- Display the current username:
+Display the current username:
 
-  `whoami`
+`whoami`
 
 - Display the username in uppercase:
 
-  `whoami | tr '[:lower:]' '[:upper:]'`
+`whoami|tr'[:lower:]''[:upper:]'`
