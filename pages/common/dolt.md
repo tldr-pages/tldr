@@ -16,13 +16,13 @@
 
 `dolt remote add {{repository_name}} {{url}}`
 
-- Record stages changes to the repository:
-
-`dolt commit {{[-m|--message]}} {{commit_message}}`
-
 - Stage changes to tables:
 
 `dolt add {{table_name}}`
+
+- Record staged changes to the repository:
+
+`dolt commit {{[-m|--message]}} "{{commit_message}}"`
 
 - Push local changes to a remote:
 
