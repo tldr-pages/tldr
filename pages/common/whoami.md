@@ -1,12 +1,12 @@
 # whoami
 
-> Print the username associated with the current effective user ID.
-> More information: <https://www.gnu.org/software/coreutils/manual/html_node/whoami-invocation.html>.
+> Print the current logged-in user.
+> More information: <https://man7.org/linux/man-pages/man1/whoami.1.html>
 
-- Display currently logged username:
+- Display the current username:
 
-`whoami`
+  `whoami`
 
-- Display the username after a change in the user ID:
+- Display the username in uppercase (example using `tr`):
 
-`sudo whoami`
+  `whoami | tr '[:lower:]' '[:upper:]'`
