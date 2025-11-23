@@ -19,7 +19,7 @@
 
 `locust {{[-H|--host]}} {{http://example.com}} --master`
 
-- Connect Locust slave to master:
+- Connect Locust worker to master:
 
 `locust {{[-H|--host]}} {{http://example.com}} --slave`
 
