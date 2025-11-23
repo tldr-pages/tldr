@@ -1,6 +1,7 @@
 # paru
 
 > An AUR helper and pacman wrapper.
+> See also: `pacman`, `yay`.
 > More information: <https://github.com/Morganamilo/paru>.
 
 - Interactively search for and install a package:
@@ -14,6 +15,10 @@
 - Upgrade AUR packages:
 
 `paru -Sua`
+
+- Remove an installed package, it's configuration files, and dependencies:
+
+`paru -Rns {{package}}`
 
 - Get information about a package:
 

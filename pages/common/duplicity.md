@@ -7,7 +7,7 @@
 
 - Backup a directory via FTPS to a remote machine, encrypting it with a password:
 
-`FTP_PASSWORD={{ftp_login_password}} PASSPHRASE={{encryption_password}} duplicity {{path/to/source/directory}} {{ftps://user@hostname/target/directory/path/}}`
+`FTP_PASSWORD={{ftp_login_password}} PASSPHRASE={{encryption_password}} duplicity {{path/to/source_directory}} {{ftps://user@hostname/path/to/target_directory}}/`
 
 - Backup a directory to Amazon S3, doing a full backup every month:
 
@@ -19,7 +19,7 @@
 
 - List the available backups:
 
-`duplicity collection-status "file://{{absolute/path/to/backup/directory}}"`
+`duplicity collection-status "file://{{absolute/path/to/backup_directory}}"`
 
 - List the files in a backup stored on a remote machine, via SSH:
 
@@ -27,4 +27,4 @@
 
 - Restore a subdirectory from a GnuPG-encrypted local backup to a given location:
 
-`PASSPHRASE={{gpg_key_password}} duplicity restore --encrypt-key {{gpg_key_id}} --path-to-restore {{relative/path/restoredirectory}} file://{{absolute/path/to/backup/directory}} {{path/to/directory/to/restore/to}}`
+`PASSPHRASE={{gpg_key_password}} duplicity restore --encrypt-key {{gpg_key_id}} --path-to-restore {{relative/path/restoredirectory}} file://{{absolute/path/to/backup_directory}} {{path/to/directory_to_restore_to}}`

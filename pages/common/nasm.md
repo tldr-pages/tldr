@@ -1,7 +1,7 @@
 # nasm
 
 > The Netwide Assembler, a portable 80x86 assembler.
-> More information: <https://www.nasm.us/xdoc/2.16.03/html/nasmdoc2.html>.
+> More information: <https://www.nasm.us/xdoc/3.01/html/nasmdoc2.html>.
 
 - Assemble `source.asm` into a binary file `source`, in the (default) raw binary format:
 

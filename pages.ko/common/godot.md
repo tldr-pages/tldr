@@ -1,7 +1,7 @@
 # godot
 
 > 오픈 소스 2D 및 3D 게임 엔진.
-> 더 많은 정보: <https://godotengine.org/>.
+> 더 많은 정보: <https://docs.godotengine.org/en/latest/tutorials/editor/command_line_tutorial.html>.
 
 - 현재 디렉터리에 `project.godot` 파일이 포함되어 있으면 프로젝트를 실행하고, 그렇지 않으면 프로젝트 관리자를 열기:
 

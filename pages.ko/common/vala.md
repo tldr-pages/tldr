@@ -2,7 +2,7 @@
 
 > Vala 코드 실행기.
 > 튜토리얼: <https://wiki.gnome.org/Projects/Vala/Tutorial>.
-> 더 많은 정보: <https://valadoc.org/>.
+> 더 많은 정보: <https://docs.vala.dev/index.html>.
 
 - gtk+와 함께 Vala 파일 실행:
 

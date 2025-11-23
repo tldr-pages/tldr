@@ -1,7 +1,7 @@
 # dust
 
 > Dust는 어떤 디렉토리가 디스크 공간을 사용하고 있는지에 대한 즉각적인 개요를 제공.
-> 더 많은 정보: <https://github.com/bootandy/dust>.
+> 더 많은 정보: <https://github.com/bootandy/dust#usage>.
 
 - 현재 디렉토리에 대한 정보 표시:
 

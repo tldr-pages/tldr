@@ -1,7 +1,7 @@
 # cd
 
 > वर्तमान कार्य निर्देशिका को बदलें।
-> अधिक जानकारी: <https://manned.org/cd>।
+> अधिक जानकारी: <https://www.gnu.org/software/bash/manual/bash.html#index-cd>।
 
 - दी गई निर्देशिका पर जाएं:
 

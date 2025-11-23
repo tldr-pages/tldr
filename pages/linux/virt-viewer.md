@@ -1,7 +1,7 @@
 # virt-viewer
 
 > Minimal graphical interface for a virtual machine (VM).
-> Note: 'domain' refers to the name, UUID or ID for the existing VMs.
+> Note: `domain` refers to the name, UUID or ID for the existing VMs.
 > See also: `virsh`.
 > More information: <https://manned.org/virt-viewer>.
 

@@ -1,7 +1,7 @@
 # nasm
 
 > Netwide Assembler, 휴대용 80x86 어셈블러.
-> 더 많은 정보: <https://www.nasm.us/xdoc/2.16.03/html/nasmdoc2.html>.
+> 더 많은 정보: <https://www.nasm.us/xdoc/3.01/html/nasmdoc2.html>.
 
 - `source.asm`을 (기본) raw 바이너리 형식의 바이너리 파일 `source`로 어셈블:
 

@@ -1,7 +1,7 @@
 # cryfs
 
 > 클라우드용 암호화 파일 시스템.
-> 더 많은 정보: <https://www.cryfs.org/>.
+> 더 많은 정보: <https://manned.org/cryfs>.
 
 - 암호화 된 파일 시스템 마운트. 초기화 마법사는 처음 실행될 때 시작:
 

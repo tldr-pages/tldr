@@ -1,4 +1,4 @@
-# qownnotes
+# QOwnNotes
 
 > Markdown 笔记应用程序。
 > 可以选择与 Nextcloud 和 ownCloud 的笔记应用程序集成。

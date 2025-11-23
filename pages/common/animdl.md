@@ -1,6 +1,6 @@
 # animdl
 
-> A highly efficient, powerful and fast anime scraper.
+> A highly efficient, powerful, and fast anime scraper.
 > See also: `ani-cli`.
 > More information: <https://github.com/justfoolingaround/animdl>.
 

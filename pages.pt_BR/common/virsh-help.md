@@ -1,4 +1,4 @@
-# virsh-help
+# virsh help
 
 > Exibir informações sobre comandos ou grupos de comandos do `virsh`.
 > Veja também: `virsh`.

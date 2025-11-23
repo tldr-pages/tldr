@@ -1,7 +1,7 @@
 # yard
 
 > Ruby 的文档工具。
-> 更多信息：<https://yardoc.org/>.
+> 更多信息：<https://rubydoc.info/gems/yard/file/docs/GettingStarted.md#using-yard-to-generate-documentation>.
 
 - 创建文档：
 

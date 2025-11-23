@@ -3,6 +3,18 @@
 > Geef het eerste deel van bestanden weer.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/head-invocation.html>.
 
+- Toon de eerste 10 regels van een bestand:
+
+`head {{pad/naar/bestand}}`
+
+- Toon de eerste 10 regels van meerdere bestanden:
+
+`head {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
+
+- Toon de eerste 5 regels van een bestand:
+
+`head {{[-5|--lines 5]}} {{pad/naar/bestand}}`
+
 - Geef de eerste paar regels van een bestand weer:
 
 `head {{[-n|--lines]}} {{aantal}} {{pad/naar/bestand}}`

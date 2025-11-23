@@ -9,7 +9,7 @@
 
 - Expose a local HTTP service on a specific host:
 
-`ngrok http {{foo.dev}}:{{80}}`
+`ngrok http {{example.com}}:{{80}}`
 
 - Expose a local HTTPS server:
 

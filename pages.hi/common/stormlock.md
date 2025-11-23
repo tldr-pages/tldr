@@ -1,4 +1,4 @@
-# Stormlock
+# stormlock
 
 > केंद्रीकृत लॉकिंग सिस्टम।
 > अधिक जानकारी: <https://github.com/tmccombs/stormlock>।

@@ -3,18 +3,26 @@
 > Cut out fields from `stdin` or files.
 > More information: <https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html>.
 
-- Print a specific [c]haracter/[f]ield range of each line:
+- Print the fifth character on each line:
 
-`{{command}} | cut --{{characters|fields}} {{1|1,10|1-10|1-|-10}}`
+`{{command}} | cut {{[-c|--characters]}} 5`
 
-- Print a field range of each line with a specific delimiter:
+- Print the fifth to tenth character of each line of the specified file:
 
-`{{command}} | cut {{[-d|--delimiter]}} "{{delimiter}}" {{[-f|--fields]}} {{1|1,10|1-10|1-|-10}}`
+`cut {{[-c|--characters]}} 5-10 {{path/to/file}}`
 
-- Print a character range of each line of the specific file:
+- Split each line in a file by a delimiter into fields and print fields two and six (default delimiter is `TAB`):
 
-`cut {{[-c|--characters]}} {{1}} {{path/to/file}}`
+`cut {{[-f|--fields]}} 2,6 {{path/to/file}}`
 
-- Print specific fields of `NUL` terminated lines (e.g. as in `find . -print0`) instead of newlines:
+- Split each line by the specified delimiter and print all from the second field onward:
 
-`{{command}} | cut {{[-z|--zero-terminated]}} {{[-f|--fields]}} {{1}}`
+`{{command}} | cut {{[-d|--delimiter]}} "{{delimiter}}" {{[-f|--fields]}} 2-`
+
+- Use space as a delimiter and print only the first 3 fields:
+
+`{{command}} | cut {{[-d|--delimiter]}} " " {{[-f|--fields]}} -3`
+
+- Print specific fields of lines that use `NUL` to terminate lines instead of newlines:
+
+`{{find . -print0}} | cut {{[-z|--zero-terminated]}} {{[-d|--delimiter]}} "{{/}}" {{[-f|--fields]}} {{2}}`

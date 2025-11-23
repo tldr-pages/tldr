@@ -1,7 +1,7 @@
 # perl
 
 > Perl 5 언어 인터프리터.
-> 더 많은 정보: <https://www.perl.org>.
+> 더 많은 정보: <https://perldoc.perl.org/perl>.
 
 - `stdin`에서 regex1과 일치하고 대소문자를 구분하지 않는 regex2와 일치하는 행 출력:
 

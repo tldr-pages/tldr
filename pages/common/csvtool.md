@@ -11,14 +11,14 @@
 
 `csvtool {{[-c|--column]}} {{2,4}} {{path/to/file.csv}}`
 
-- Extract lines from a CSV file where the second column exactly matches 'Foo':
+- Extract lines from a CSV file where the second column exactly matches `String`:
 
-`csvtool {{[-c|--column]}} {{2}} {{[-s|--search]}} '{{^Foo$}}' {{path/to/file.csv}}`
+`csvtool {{[-c|--column]}} {{2}} {{[-s|--search]}} '{{^String$}}' {{path/to/file.csv}}`
 
-- Extract lines from a CSV file where the second column starts with 'Bar':
+- Extract lines from a CSV file where the second column starts with `Bar`:
 
 `csvtool {{[-c|--column]}} {{2}} {{[-s|--search]}} '{{^Bar}}' {{path/to/file.csv}}`
 
-- Find lines in a CSV file where the second column ends with 'Baz' and then extract the third and sixth columns:
+- Find lines in a CSV file where the second column ends with `Baz` and then extract the third and sixth columns:
 
 `csvtool {{[-c|--column]}} {{2}} {{[-s|--search]}} '{{Baz$}}' {{path/to/file.csv}} | csvtool {{[-e|--no-header]}} {{[-c|--column]}} {{3,6}}`

@@ -2,6 +2,7 @@
 
 > Zet gegevens over van of naar een server.
 > Ondersteunt de meeste protocollen, waaronder HTTP, HTTPS, FTP, SCP, enz.
+> Zie ook: `wget`.
 > Meer informatie: <https://curl.se/docs/manpage.html>.
 
 - Maak een HTTP GET-verzoek en dump de inhoud naar `stdout`:
@@ -18,17 +19,17 @@
 
 - Stuur form-encoded [g]egevens (POST-verzoek van het type `application/x-www-form-urlencoded`). Gebruik `--data @file_name` of `--data @'-'` om van `stdin` te lezen:
 
-`curl {{[-X|--request]}} POST {{[-d|--data]}} {{'name=bob'}} {{http://example.com/form}}`
+`curl {{[-X|--request]}} POST {{[-d|--data]}} '{{name=bob}}' {{http://example.com/form}}`
 
 - Stuur een verzoek met een extra header, met behulp van een aangepaste HTTP-methode en via een pro[x]y (zoals BurpSuite), waarbij onveilige zelfondertekende certificaten worden genegeerd:
 
-`curl {{[-k|--insecure]}} {{[-x|--proxy]}} {{http://127.0.0.1:8080}} {{[-H|--header]}} {{'Authorization: Bearer token'}} {{[-X|--request]}} {{GET|PUT|POST|DELETE|PATCH|...}} {{https://example.com}}`
+`curl {{[-k|--insecure]}} {{[-x|--proxy]}} {{http://127.0.0.1:8080}} {{[-H|--header]}} '{{Authorization: Bearer token}}' {{[-X|--request]}} {{GET|PUT|POST|DELETE|PATCH|...}} {{https://example.com}}`
 
 - Verstuur gegevens in JSON-formaat, met de juiste Content-Type [H]eader:
 
-`curl {{[-d|--data]}} {{'{"name":"bob"}'}} {{[-H|--header]}} {{'Content-Type: application/json'}} {{http://example.com/users/1234}}`
+`curl {{[-d|--data]}} '{{{"name":"bob"}}}' {{[-H|--header]}} '{{Content-Type: application/json}}' {{http://example.com/users/1234}}`
 
-- Verstrek een clientcertificaat en sleutel voor een bron, en sla de certificaatvalidatie over:
+- Verstrek een clientcertificaat en privésleutel voor het verzoek, en sla de certificaatvalidatie over:
 
 `curl {{[-E|--cert]}} {{client.pem}} --key {{key.pem}} {{[-k|--insecure]}} {{https://example.com}}`
 

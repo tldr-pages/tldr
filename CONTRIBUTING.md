@@ -31,6 +31,11 @@ To get started, please [sign](https://cla-assistant.io/tldr-pages/tldr) the
 > [!NOTE]
 > When submitting a new command, please base your PR against the `main` branch and check if there's already a pull request in progress for it.
 
+> [!WARNING]
+> We strongly discourage using generative AI tools to create new pages, as their output is often inaccurate and may not follow our style guidelines.
+> For translations, machine translation tools may be used as reference, but their results must be thoroughly proofread before submission.
+> Pull requests suspected of being made in whole or in part through generative AI or machine translation software without human-review will be closed.
+
 ## Guidelines
 
 The basic format of a `tldr` page is a set of concrete usage examples.
@@ -256,7 +261,7 @@ To commit a suggestion to your pull request, click on `Commit suggestion`:
 If you want to commit multiple suggestions, go to the "Files changed" tab and batch all suggestions. Now, click the `Commit suggestions` button and enter a commit message to create a single commit.
 
 > [!IMPORTANT]
-> Do not force push. We would prefer to preserve commit history so that the order of events is preserved. All pull requests will be squashed so a messy pull request will not matter.
+> Do not force push to pull request branches, unless strictly necessary. We would prefer to preserve commit history within the pull request, so that the order of events between review comments and the commits that address them stays chronological. Pull requests will typically be squashed, so a messy commit history in the PR branch is not necessarily problematic.
 
 ### Commit message and PR title
 

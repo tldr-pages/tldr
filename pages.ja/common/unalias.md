@@ -1,7 +1,7 @@
 # unalias
 
 > alias を削除します。
-> もっと詳しく: <https://manned.org/unalias>。
+> もっと詳しく: <https://www.gnu.org/software/bash/manual/bash.html#index-unalias>。
 
 - alias を削除する:
 

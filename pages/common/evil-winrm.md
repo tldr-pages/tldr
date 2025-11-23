@@ -22,7 +22,7 @@
 
 - Upload a file to the host:
 
-`PS > upload {{path/to/local/file}} {{path/to/remote/file}}`
+`PS > upload {{path/to/local_file}} {{path/to/remote_file}}`
 
 - List all loaded PowerShell functions:
 

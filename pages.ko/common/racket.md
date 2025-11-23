@@ -1,7 +1,7 @@
 # racket
 
 > Racket 언어 인터프리터.
-> 더 많은 정보: <https://racket-lang.org>.
+> 더 많은 정보: <https://docs.racket-lang.org/reference/running-sa.html#%28part._mz-cmdline%29>.
 
 - REPL(대화형 셸) 시작:
 

@@ -1,38 +1,38 @@
 # audit2allow
 
-> Scan logs voor berichten over geweigerde machtigingen.
-> Genereer een rapport met Type Enforcement (TE) regels die succesvolle bewerkingen mogelijk toestaan.
-> Zie ook: `audit2why`.
+> Genereer SELinux-beleidsregels op basis van auditlogs.
+> Onderdeel van het `policycoreutils-python-utils` pakket.
+> Zie ook: `audit2why`, `ausearch`, `semodule`.
 > Meer informatie: <https://manned.org/audit2allow>.
 
-- Toon alle gegenereerde berichten in audit- en berichtlogs:
+- Genereer toestemmingsregels op basis van recente auditweigeringen en toon deze:
 
-`audit2allow {{[-a|--all]}}`
+`sudo audit2allow {{[-a|--all]}}`
 
-- Toon alle gegenereerde berichten sinds de laatste keer opstarten:
+- Genereer toestemmingsregels op basis van een specifiek auditlogbestand:
 
-`audit2allow {{[-b|--boot]}}`
+`sudo audit2allow {{[-i|--input]}} {{pad/naar/audit.log}}`
 
-- Toon gedetailleerde informatie rondom gegenereerde berichten:
+- Genereer een beleidsmodule op basis van recente auditweigeringen:
 
-`audit2allow {{[-e|--explain]}}`
+`sudo audit2allow {{[-a|--all]}} {{[-M|--module]}} {{module_naam}}`
 
-- Schakel verbose output in:
+- Leg uit waarom SELinux-weigeringen plaatsvonden (hetzelfde als `audit2why`):
 
-`audit2allow {{[-v|--verbose]}}`
+`sudo audit2allow {{[-a|--all]}} --why`
+
+- Toon gedetailleerde informatie over gegenereerde berichten:
+
+`sudo audit2allow {{[-a|--all]}} {{[-e|--explain]}}`
 
 - Gebruik geïnstalleerde macro's om een referentiebeleid te genereren:
 
-`audit2allow {{[-R|--reference]}}`
+`sudo audit2allow {{[-a|--all]}} {{[-R|--reference]}}`
 
-- Geef een beleidsbestand op voor verdere analyse:
+- Genereer toestemmingsregels voor een specifieke service:
 
-`audit2allow {{[-p|--policy]}} {{pad/naar/beleidsbestand}}`
+`sudo ausearch {{[-m|--message]}} avc {{[-c|--comm]}} {{service_naam}} | audit2allow {{[-M|--module]}} {{beleidsnaam}}`
 
-- Beperk de analyse tot berichten met een type dat is opgegeven in `regex`:
+- Schakel uitgebreide uitvoermodus in:
 
-`audit2allow {{[-t|--type]}} {{type_regex}}`
-
-- Toon de help:
-
-`audit2allow {{[-h|--help]}}`
+`sudo audit2allow {{[-a|--all]}} {{[-v|--verbose]}}`

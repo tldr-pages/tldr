@@ -1,7 +1,7 @@
 # choose
 
 > Alternatif ramah-manusia dan cepat terhadap perintah cut dan (terkadang) awk.
-> Informasi lebih lanjut: <https://github.com/theryangeary/choose>.
+> Informasi lebih lanjut: <https://github.com/theryangeary/choose#usage>.
 
 - Cetak item ke-5 dari suatu baris (dimulai dari 0):
 

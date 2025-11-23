@@ -1,7 +1,7 @@
 # gatsby
 
 > React용 정적 사이트 생성기.
-> 더 많은 정보: <https://gatsbyjs.com>.
+> 더 많은 정보: <https://www.gatsbyjs.com/docs/reference/gatsby-cli/>.
 
 - 새로운 사이트 생성:
 

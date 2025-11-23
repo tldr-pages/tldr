@@ -1,6 +1,7 @@
 # cmatrix
 
 > Shows a scrolling Matrix like screen in the terminal.
+> See also: `cbonsai`.
 > More information: <https://manned.org/cmatrix>.
 
 - Enable [a]synchronous scrolling:

@@ -1,7 +1,7 @@
 # virt-install
 
 > libvirt를 사용하여 가상 머신을 생성하고 OS 설치를 시작합니다.
-> 더 많은 정보: <https://virt-manager.org/>.
+> 더 많은 정보: <https://manned.org/virt-install>.
 
 - 1 GB RAM과 12 GB 스토리지를 가진 가상 머신을 생성하고 Debian 설치 시작:
 

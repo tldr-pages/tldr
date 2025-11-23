@@ -1,19 +1,19 @@
 # nginx
 
 > Nginx web server.
-> More information: <https://nginx.org/en/>.
+> More information: <https://nginx.org/docs/switches.html>.
 
-- Start server with the default configuration file:
+- Start the server with the default configuration file:
 
 `nginx`
 
-- Start server with a custom configuration file:
+- Start the server with a custom configuration file:
 
 `nginx -c {{configuration_file}}`
 
-- Start server with a prefix for all relative paths in the configuration file:
+- Start the server with a prefix for all relative paths in the configuration file:
 
-`nginx -c {{configuration_file}} -p {{prefix/for/relative/paths}}`
+`nginx -c {{configuration_file}} -p {{path/to/prefix}}`
 
 - Test the configuration without affecting the running server:
 

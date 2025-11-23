@@ -7,9 +7,9 @@
 
 `pandoc {{path/to/input.md}} {{[-o|--output]}} {{path/to/output.pdf}}`
 
-- Convert a Markdown file to PDF using the specified PDF engine:
+- Convert the output from another command to PDF, using a specific PDF engine:
 
-`pandoc {{path/to/input.md}} --pdf-engine {{tectonic|weasyprint|typst|...}} {{[-o|--output]}} {{path/to/output.pdf}}`
+`{{command}} | pandoc {{[-f|--from]}} {{input_format}} --pdf-engine {{tectonic|weasyprint|typst|...}} {{[-o|--output]}} {{path/to/output.pdf}}`
 
 - Convert to a standalone file with the appropriate headers/footers (for LaTeX, HTML, etc.):
 
@@ -22,6 +22,10 @@
 - Transform a document using a Lua script (see <https://pandoc.org/lua-filters.html> for more information):
 
 `pandoc {{path/to/input}} {{[-L|--lua-filter]}} {{path/to/filter.lua}} {{[-o|--output]}} {{path/to/output}}`
+
+- Convert a remote HTML file to markdown and print the result to `stdout`:
+
+`pandoc {{[-f|--from]}} html {{[-t|--to]}} markdown {{https://example.com}}`
 
 - List all supported input formats:
 

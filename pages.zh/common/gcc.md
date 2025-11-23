@@ -2,7 +2,7 @@
 
 > 预处理和编译 C 和 C++ 源文件，然后汇编并将他们链接起来。
 > GCC (GNU Compiler Collection) 项目的组件之一。
-> 更多信息：<https://gcc.gnu.org>.
+> 更多信息：<https://gcc.gnu.org/onlinedocs/gcc/>.
 
 - 将一组源文件编译为二进制文件：
 

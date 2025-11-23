@@ -2,7 +2,7 @@
 
 > Interfaccia a linea di comando per il gestore pacchetti Chocolatey.
 > Alcuni sottocomandi come `choco install` hanno la loro documentazione.
-> Maggiori informazioni: <https://chocolatey.org>.
+> Maggiori informazioni: <https://docs.chocolatey.org/en-us/choco/commands/>.
 
 - Esegui comandi Chocolatey:
 

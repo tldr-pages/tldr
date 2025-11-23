@@ -19,6 +19,6 @@
 
 `yaourt -Ss {{query}}`
 
-- List installed packages, versions, and repositories (AUR packages will be listed under the repository name 'local'):
+- List installed packages, versions, and repositories (AUR packages will be listed under the repository name `local`):
 
 `yaourt -Q`

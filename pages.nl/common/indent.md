@@ -5,7 +5,7 @@
 
 - Formatteer C/C++-broncode volgens de Linux style guide, maak automatisch een back-up van de originele bestanden en vervang deze door de ingesprongen versies:
 
-`indent {{[-linux|--linux-style]}} {{pad/naar/bron.c}} {{pad/naar/andere_bron.c}}`
+`indent {{[-linux|--linux-style]}} {{pad/naar/bron1.c pad/naar/bron2.c ...}}`
 
 - Formatteer C/C++-broncode volgens de GNU-stijl en sla de ingesprongen versie op in een ander bestand:
 

@@ -12,7 +12,7 @@
 
 `tail {{path/to/file1 path/to/file2 ...}}`
 
-- Show last 'count' lines in file:
+- Show last `count` lines in file:
 
 `tail {{[-n|--lines]}} {{count}} {{path/to/file}}`
 

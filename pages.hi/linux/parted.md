@@ -2,7 +2,7 @@
 
 > एक पार्टीशन मैनिपुलेशन प्रोग्राम।
 > देखें भी: `partprobe`.
-> अधिक जानकारी: <https://www.gnu.org/software/parted/parted.html>।
+> अधिक जानकारी: <https://www.gnu.org/software/parted/manual/parted.html#Invoking-Parted>।
 
 - सभी ब्लॉक डिवाइस पर पार्टीशनों की सूची दिखाएं:
 

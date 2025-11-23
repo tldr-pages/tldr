@@ -1,7 +1,7 @@
 # timedatectl
 
 > 시스템 시간과 날짜를 제어합니다.
-> 더 많은 정보: <https://manned.org/timedatectl>.
+> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/timedatectl.html>.
 
 - 현재 시스템 시계 시간 확인:
 

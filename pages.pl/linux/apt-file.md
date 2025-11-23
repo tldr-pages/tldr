@@ -17,4 +17,4 @@
 
 - Wyszukaj pakiety, które pasują do podanego `wyrażenia_regularnego`:
 
-`apt-file {{search|find}} --regexp {{wyrażenie_regularne}}`
+`apt-file {{search|find}} {{[-x|--regexp]}} {{wyrażenie_regularne}}`

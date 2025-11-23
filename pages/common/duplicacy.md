@@ -5,7 +5,7 @@
 
 - Use current directory as the repository, initialize a SFTP storage and encrypt the storage with a password:
 
-`duplicacy init {{[-e|-encrypt]}} {{snapshot_id}} {{sftp://user@192.168.2.100/path/to/storage/}}`
+`duplicacy init {{[-e|-encrypt]}} {{snapshot_id}} {{sftp://user@192.168.2.100/path/to/storage}}/`
 
 - Save a snapshot of the repository to the default storage:
 

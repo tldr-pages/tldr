@@ -1,7 +1,7 @@
 # venv
 
 > Python에서 가벼운 가상 환경을 생성.
-> 더 많은 정보: <https://docs.python.org/3/library/venv.html>.
+> 더 많은 정보: <https://docs.python.org/library/venv.html>.
 
 - Python 가상 환경 생성:
 

@@ -23,3 +23,7 @@
 - Reboot into the previous ostree deployment:
 
 `bootc rollback`
+
+- Apply transactional changes to the system configuration:
+
+`bootc edit`

@@ -1,7 +1,7 @@
 # phive
 
 > 안전한 PHP 애플리케이션 배포를 위한 Phar 설치 및 검증 환경.
-> 더 많은 정보: <https://phar.io>.
+> 더 많은 정보: <https://phar.io/#Usage>.
 
 - 사용 가능한 별칭이 있는 Phar 목록 표시:
 

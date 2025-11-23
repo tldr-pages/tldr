@@ -1,7 +1,7 @@
 # xmlto
 
 > XML 문서에 XSL 스타일시트를 적용.
-> 더 많은 정보: <https://pagure.io/xmlto>.
+> 더 많은 정보: <https://manned.org/xmlto>.
 
 - DocBook XML 문서를 PDF 형식으로 변환:
 

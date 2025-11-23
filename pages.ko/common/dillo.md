@@ -1,7 +1,7 @@
 # dillo
 
 > 느린 컴퓨터를 위한 경량 웹 브라우저.
-> 더 많은 정보: <https://www.dillo.org/>.
+> 더 많은 정보: <https://manned.org/dillo>.
 
 - Dillo 실행:
 

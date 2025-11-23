@@ -3,11 +3,11 @@
 > Utility for managing Non-Volatile DIMMs.
 > More information: <https://manned.org/ndctl>.
 
-- Create an 'fsdax' mode namespace:
+- Create an `fsdax` mode namespace:
 
 `ndctl create-namespace --mode={{fsdax}}`
 
-- Change the mode of a namespace to 'raw':
+- Change the mode of a namespace to `raw`:
 
 `ndctl create-namespace --reconfigure={{namespaceX.Y}} --mode={{raw}}`
 
@@ -23,7 +23,7 @@
 
 `ndctl list -vvv --namespace={{namespaceX.Y}}`
 
-- Run a monitor to watch for SMART health events for NVDIMMs on the 'ACPI.NFIT' bus:
+- Run a monitor to watch for SMART health events for NVDIMMs on the `ACPI.NFIT` bus:
 
 `ndctl monitor --bus={{ACPI.NFIT}}`
 

@@ -1,7 +1,7 @@
 # nginx
 
 > Nginx Webserver.
-> Weitere Informationen: <https://nginx.org/en/>.
+> Weitere Informationen: <https://nginx.org/docs/switches.html>.
 
 - Starte den Server mit der standardmäßigen Konfigurationsdatei:
 

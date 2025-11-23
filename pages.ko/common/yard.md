@@ -1,7 +1,7 @@
 # yard
 
 > Ruby를 위한 문서화 도구.
-> 더 많은 정보: <https://yardoc.org/>.
+> 더 많은 정보: <https://rubydoc.info/gems/yard/file/docs/GettingStarted.md#using-yard-to-generate-documentation>.
 
 - 문서 생성:
 

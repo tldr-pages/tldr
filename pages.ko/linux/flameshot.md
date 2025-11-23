@@ -2,7 +2,7 @@
 
 > GUI가 있는 스크린샷 도구.
 > 텍스트, 도형, 색상, imgur 같은 기본 이미지 편집을 지원합니다.
-> 더 많은 정보: <https://flameshot.org>.
+> 더 많은 정보: <https://flameshot.org/docs/advanced/commandline-options/>.
 
 - 전체 화면 스크린샷 생성:
 

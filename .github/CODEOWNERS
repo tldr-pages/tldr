@@ -1,4 +1,5 @@
 /pages.ar/ @MachiavelliII @ali90h
+/pages.bn/ @badhon495
 /pages.cs/ @Sarijen
 /pages.de/ @pixelcmtd @gutjuri
 /pages.es/ @kant
@@ -12,10 +13,11 @@
 /pages.nl/ @sebastiaanspeck @leonvsc @Waples @dmmqz
 /pages.pl/ @acuteenvy @spageektti
 /pages.pt_BR/ @isaacvicente @renie
+/pages.ru/ @ivanbaluta
 /pages.ta/ @kbdharun
 /pages.tr/ @tansiret
-/pages.zh/ @blueskyson @einverne
-/pages.zh_TW/ @blueskyson
+/pages.zh/ @blueskyson @einverne @DustMerlin @zhb4
+/pages.zh_TW/ @blueskyson @DustMerlin @zhb4
 
 /*.md @sbrl @kbdharun @sebastiaanspeck
 /.devcontainer/* @kbdharun @sebastiaanspeck
@@ -40,6 +42,7 @@
 /contributing-guides/*.nl.md @sebastiaanspeck @leonvsc @Waples @dmmqz
 /contributing-guides/*.pl.md @acuteenvy @spageektti
 /contributing-guides/*.pt_BR.md @isaacvicente @renie
+/contributing-guides/*.ru.md @ivanbaluta
 /contributing-guides/*.ta.md @kbdharun
 /contributing-guides/*.tr.md @tansiret
 /contributing-guides/*.zh.md @blueskyson @einverne

@@ -1,7 +1,7 @@
 # terminator
 
 > 여러 GNOME 터미널을 하나의 창에서 배열.
-> 더 많은 정보: <https://gnome-terminator.org/>.
+> 더 많은 정보: <https://gnome-terminator.readthedocs.io/en/latest/advancedusage.html>.
 
 - `terminator` 창 시작:
 
