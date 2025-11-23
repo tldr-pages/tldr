@@ -13,7 +13,7 @@
 
 - Sperre den Bildschirm und zeige benutzerdefinierten Text an:
 
-`betterlockscreen {{[-l|--lock]}} pixel {{[-t|--text]}} "{{benutzerdefinierter Sperrbildschirmtext}}"`
+`betterlockscreen {{[-l|--lock]}} pixel --text "{{benutzerdefinierter Sperrbildschirmtext}}"`
 
 - Sperre den Bildschirm mit einer benutzerdefinierten Monitor-Auszeit in Sekunden:
 

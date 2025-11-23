@@ -13,7 +13,7 @@
 
 - Lock the screen, showing some custom text:
 
-`betterlockscreen {{[-l|--lock]}} pixel {{[-t|--text]}} "{{custom lock screen text}}"`
+`betterlockscreen {{[-l|--lock]}} pixel --text "{{custom lock screen text}}"`
 
 - Lock the screen, with a custom monitor off timeout in seconds:
 

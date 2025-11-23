@@ -13,7 +13,7 @@
 
 - 锁屏并显示一些自定义文本：
 
-`betterlockscreen {{[-l|--lock]}} pixel {{[-t|--text]}} "{{自定义锁屏文本}}"`
+`betterlockscreen {{[-l|--lock]}} pixel --text "{{自定义锁屏文本}}"`
 
 - 锁屏并自定义显示屏关闭超时秒数：
 

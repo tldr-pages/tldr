@@ -13,7 +13,7 @@
 
 - 사용자 지정 텍스트를 표시하며 화면 잠금:
 
-`betterlockscreen {{[-l|--lock]}} pixel {{[-t|--text]}} "{{사용자 지정 잠금 화면 텍스트}}"`
+`betterlockscreen {{[-l|--lock]}} pixel --text "{{사용자 지정 잠금 화면 텍스트}}"`
 
 - 사용자 지정 모니터 꺼짐 시간(초)을 설정하여 화면 잠금:
 
