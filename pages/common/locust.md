@@ -23,6 +23,6 @@
 
 `locust {{[-H|--host]}} {{http://example.com}} --worker`
 
-- Connect Locust slave to master on a different machine:
+- Connect Locust worker to master on a different machine:
 
 `locust {{[-H|--host]}} {{http://example.com}} --slave --master-host {{master_hostname}}`
