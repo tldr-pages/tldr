@@ -1,16 +1,13 @@
 # hello
 
-> Print "Hello, world!", "hello, world" or a customizable text.
-> More information: <https://www.gnu.org/software/hello/manual/hello.html#Invoking-hello>.
+> Print a friendly greeting.
+> More information: https://example.com/hello.
 
-- Print "Hello, world!":
+- Print a simple greeting:
+  `hello`
 
-`hello`
+- Print greeting with name:
+  `hello "Arsiya"`
 
-- Print "hello, world", the traditional type:
-
-`hello {{[-t|--traditional]}}`
-
-- Print a text message:
-
-`hello {{[-g|--greeting]}} "{{greeting_text}}"`
+- Use with environment variable:
+  `NAME="Arsiya" hello`
