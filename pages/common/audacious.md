@@ -10,7 +10,7 @@
 
 - Start a new instance and play an audio:
 
-`audacious {{[-N--new-instance]}} {{path/to/audio}}`
+`audacious {{[-N|--new-instance]}} {{path/to/audio}}`
 
 - Enqueue a specific directory of audio files:
 
