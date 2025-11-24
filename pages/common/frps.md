@@ -8,9 +8,9 @@
 
 `frps`
 
-- Start the service, using the newer TOML configuration file (`frps.toml` instead of `frps.ini`) in the current directory:
+- Start the service, using the newer TOML configuration file:
 
-`frps {{[-c|--config]}} ./frps.toml`
+`frps {{[-c|--config]}} {{path/to/frps.toml}}`
 
 - Start the service, using a specified configuration file:
 

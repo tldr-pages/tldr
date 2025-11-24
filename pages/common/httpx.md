@@ -32,6 +32,6 @@
 
 `httpx {{[-u|-target]}} {{host1,host2,...}} {{[-mc|-match-code]}} {{200,301,304}}`
 
-- Run a probe against a URL saving screenshots of certain paths, with screenshot timeouts (assets are saved in `./output`):
+- Run a probe against a URL saving screenshots of certain paths, with screenshot timeouts (assets are saved in `output`):
 
 `httpx {{[-u|-target]}} {{https://www.github.com}} -path {{/tldr-pages/tldr,/projectdiscovery/httpx}} {{[-ss|-screenshot]}} {{[-st|-screenshot-timeout]}} {{10}}`
