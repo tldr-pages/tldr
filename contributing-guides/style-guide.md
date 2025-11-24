@@ -358,7 +358,7 @@ If there is no documentation page to be found, you can link to the author's webs
 For commands documented there, we recommend using <https://keith.github.io/xcode-man-pages/>, an HTML export of all Apple's man pages bundled with Xcode.
 
 > [!IMPORTANT]
-> All links must be enclosed inside angular brackets (`<` and `>`)  for proper rendering in clients..
+> All links must be enclosed inside angular brackets (`<` and `>`)  for proper rendering in clients.
 
 - It is suggested to use a more information link with English content in both translations and English pages. That's because the links can eventually change, but the translations are often out of sync with the English pages.
 
