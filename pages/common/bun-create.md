@@ -18,7 +18,7 @@
 
 - Create a new project from a local template:
 
-`bun create {{./path/to/template}} {{path/to/destination}}`
+`bun create {{path/to/template}} {{path/to/destination}}`
 
 - Create a new project, overwriting the destination directory if it exists:
 
