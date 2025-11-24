@@ -1,7 +1,7 @@
 # bettercap
 
 > Bettercap is an extremely powerful, modular MITM framework for network attacks, sniffing, and monitoring.
-> More information: https://www.bettercap.org/project/introduction/
+> More information: <https://www.bettercap.org/project/introduction/>.
 
 - Select target interface (eth0):
 
