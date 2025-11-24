@@ -1,19 +1,19 @@
 # cline
 
-> Cline is the command-line interface for Cline Bot.
-> Official documentation: https://docs.cline.bot/cline-cli/cli-reference
+> Command-line interface for the Cline AI assistant.
+> More information: https://docs.cline.bot/cline-cli/cli-reference.
 
-- Display help:
+- Show help:
 `cline --help`
 
-- Display version:
+- Show version:
 `cline --version`
 
-- Connect to a Cline Bot instance:
-`cline connect <instance_url>`
+- Connect to a Cline instance:
+`cline connect {{instance_url}}`
 
 - Execute a command on the bot:
-`cline run "<command>"`
+`cline run "{{command}}"`
 
-- Get bot status:
+- Show the status of the bot:
 `cline status`
