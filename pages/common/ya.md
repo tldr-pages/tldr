@@ -3,11 +3,11 @@
 > Manage Yazi plugins and flavors, publish or subscribe to DDS messages.
 > More information: <https://yazi-rs.github.io/docs/cli>.
 
-- Add packages:
+- Add a package:
 
 `ya pkg add {{PACKAGE}}`
 
-- Delete packages:
+- Delete a package:
 
 `ya pkg delete {{PACKAGE}}`
 
