@@ -1,4 +1,4 @@
-# yadm-transcrypt
+# yadm transcrypt
 
 > 如果已安装 `transcrypt`，此命令允许直接向 `transcrypt` 传递选项。
 > 环境配置为使用 yadm 仓库。

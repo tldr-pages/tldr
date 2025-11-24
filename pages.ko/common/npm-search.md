@@ -1,7 +1,7 @@
 # npm search
 
 > `npm` 레지스트리에서 패키지를 검색.
-> 더 많은 정보: <https://docs.npmjs.com/cli/commands/npm-search>.
+> 더 많은 정보: <https://docs.npmjs.com/cli/npm-search>.
 
 - 이름으로 패키지 검색:
 

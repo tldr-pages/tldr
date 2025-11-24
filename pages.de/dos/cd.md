@@ -1,7 +1,7 @@
 # CD
 
 > Ändere das aktuelle Arbeitsverzeichnis.
-> Weitere Informationen: <https://www.dosbox.com/wiki/Commands#CD_.28Change_Directory.29>.
+> Weitere Informationen: <https://help.fdos.org/en/hhstndrd/command/cd.htm>.
 
 - Wechsle in das angegebene Verzeichnis:
 

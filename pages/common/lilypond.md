@@ -2,7 +2,7 @@
 
 > Typeset music and/or produce MIDI from file.
 > See also: `musescore`.
-> More information: <https://lilypond.org>.
+> More information: <https://lilypond.org/doc/v2.24/Documentation/usage/command_002dline-usage>.
 
 - Compile a lilypond file into a PDF:
 

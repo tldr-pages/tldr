@@ -1,7 +1,7 @@
 # set
 
 > 셸 옵션을 토글하거나 위치 매개변수의 값을 설정.
-> 더 많은 정보: <https://manned.org/set.1posix>.
+> 더 많은 정보: <https://www.gnu.org/software/bash/manual/bash.html#The-Set-Builtin>.
 
 - 셸 변수의 이름과 값을 표시:
 

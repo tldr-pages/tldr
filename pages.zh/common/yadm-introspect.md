@@ -1,4 +1,4 @@
-# yadm-introspect
+# yadm introspect
 
 > 查看由 `yadm` 管理的数据。
 > 内省的目的是支持命令行补全。

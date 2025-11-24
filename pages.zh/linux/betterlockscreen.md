@@ -1,7 +1,7 @@
 # betterlockscreen
 
 > 简洁的锁屏程序。
-> 更多信息：<https://github.com/betterlockscreen/betterlockscreen>.
+> 更多信息：<https://github.com/betterlockscreen/betterlockscreen#usage>.
 
 - 锁定屏幕：
 

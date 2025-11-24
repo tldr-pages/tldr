@@ -1,7 +1,7 @@
 # sleep
 
 > 延迟指定的一段时间。
-> 更多信息：<https://pubs.opengroup.org/onlinepubs/9699919799/utilities/sleep.html>.
+> 更多信息：<https://manned.org/sleep>.
 
 - 按秒数延迟：
 

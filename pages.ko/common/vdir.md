@@ -2,7 +2,7 @@
 
 > 디렉토리 내용 나열.
 > `ls -l`의 대체품.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/vdir-invocation.html>.
+> 더 많은 정보: <https://manned.org/vdir>.
 
 - 현재 디렉토리의 파일 및 디렉토리를 한 줄에 하나씩 자세히 나열:
 

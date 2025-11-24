@@ -1,7 +1,7 @@
 # nodemon
 
 > 파일을 감시하고 변경 사항이 감지되면 Node 애플리케이션을 자동으로 재시작.
-> 더 많은 정보: <https://nodemon.io>.
+> 더 많은 정보: <https://github.com/remy/nodemon/tree/main/doc/cli>.
 
 - 지정된 파일을 실행하고 특정 파일의 변경 사항 감시:
 

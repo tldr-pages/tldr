@@ -374,9 +374,14 @@ def prompt_alias_page_info(page_path: str) -> AliasPageContent:
         )
     )
     print(create_colored_line(Colors.GREEN, "Example: npm run-script"))
-    title = input(create_colored_line(Colors.CYAN, "Enter page title: ")).strip()
+    page_name = Path(page_path).stem
+    title = input(
+        create_colored_line(
+            Colors.CYAN, f"Enter page title (press Enter to use {page_name}): "
+        )
+    ).strip()
     if not title:
-        raise SystemExit(create_colored_line(Colors.RED, "Title cannot be empty"))
+        title = page_name
 
     print(
         create_colored_line(

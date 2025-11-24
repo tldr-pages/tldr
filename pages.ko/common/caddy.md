@@ -1,7 +1,7 @@
 # caddy
 
 > Go로 작성된 자동 HTTPS를 갖춘 엔터프라이즈급 오픈 소스 웹 서버.
-> 더 많은 정보: <https://caddyserver.com>.
+> 더 많은 정보: <https://caddyserver.com/docs/command-line>.
 
 - 포어그라운드에서 Caddy를 시작:
 

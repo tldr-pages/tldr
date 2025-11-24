@@ -1,7 +1,7 @@
 # pinta
 
 > 무료 오픈 소스 드로잉 및 이미지 편집 프로그램.
-> 더 많은 정보: <https://www.pinta-project.com/>.
+> 더 많은 정보: <https://www.pinta-project.com/user-guide/overview/>.
 
 - Pinta 시작:
 

@@ -1,7 +1,7 @@
 # port
 
 > macOS 包管理器软件（类似 brew）。
-> 更多信息：<https://www.macports.org>.
+> 更多信息：<https://guide.macports.org/#using.port>.
 
 - 搜索包：
 

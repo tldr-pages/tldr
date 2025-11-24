@@ -2,7 +2,7 @@
 
 > Manajer paket Chocolatey.
 > Beberapa subperintah seperti `install` mempunyai dokumentasi terpisah.
-> Informasi lebih lanjut: <https://chocolatey.org>.
+> Informasi lebih lanjut: <https://docs.chocolatey.org/en-us/choco/commands/>.
 
 - Jalankan suatu perintah Chocolatey:
 

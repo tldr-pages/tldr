@@ -2,7 +2,7 @@
 
 > Gerenciador de versão Node.js rápido.
 > Instale, Desinstale ou alterne entre as versões do Node.js.
-> Mais informações: <https://github.com/Schniz/fnm>.
+> Mais informações: <https://github.com/Schniz/fnm/blob/master/docs/commands.md>.
 
 - Instala uma versão específica do Node.js:
 

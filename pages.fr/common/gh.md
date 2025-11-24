@@ -10,27 +10,27 @@
 
 - Crée une nouvelle issue :
 
-`gh issue create`
+`gh issue {{[new|create]}}`
 
 - Affiche et filtre les issues ouvertes du dépôt courant :
 
-`gh issue list`
+`gh issue {{[ls|list]}}`
 
 - Affiche une issue dans le navigateur Web par défaut :
 
-`gh issue view --web {{numéro_de_l'issue}}`
+`gh issue view {{[-w|--web]}} {{numéro_de_l'issue}}`
 
 - Crée une pull request :
 
-`gh pr create`
+`gh pr {{[new|create]}}`
 
 - Affiche une pull request dans le navigateur Web par défaut :
 
-`gh pr view --web {{numéro_de_la_PR}}`
+`gh pr view {{[-w|--web]}} {{numéro_de_la_PR}}`
 
 - Observe une pull request spécifique localement :
 
-`gh pr checkout {{numéro_de_la_PR}}`
+`gh {{[co|pr checkout]}} {{numéro_de_la_PR}}`
 
 - Affiche le statut des pull requests du dépôt courant :
 

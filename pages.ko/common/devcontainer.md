@@ -1,7 +1,7 @@
 # devcontainer
 
 > Docker 컨테이너를 개발 환경으로 사용.
-> 더 많은 정보: <https://containers.dev/>.
+> 더 많은 정보: <https://containers.dev/implementors/reference/>.
 
 - Dev Container 생성 및 실행:
 

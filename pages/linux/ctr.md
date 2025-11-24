@@ -1,7 +1,7 @@
 # ctr
 
 > Manage `containerd` containers and images.
-> More information: <https://containerd.io>.
+> More information: <https://manned.org/ctr>.
 
 - List all containers (running and stopped):
 

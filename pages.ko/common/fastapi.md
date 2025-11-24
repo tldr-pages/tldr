@@ -1,7 +1,7 @@
 # fastapi
 
 > Uvicorn을 기반으로 동작하는 FastAPI 앱 실행용 CLI 도구.
-> 추가 정보: <https://manned.org/fastapi>.
+> 더 많은 정보: <https://manned.org/fastapi>.
 
 - 자동 재시작 기능을 사용하여 FastAPI 앱 실행 (개발용):
 

@@ -1,7 +1,7 @@
 # esbuild
 
 > Empacotador e minificador JavaScript construído para velocidade.
-> Mais informações: <https://esbuild.github.io/>.
+> Mais informações: <https://esbuild.github.io/api/#general-options>.
 
 - Empacota uma aplicação JavaScript e imprime para `stdout`:
 

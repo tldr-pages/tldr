@@ -2,7 +2,7 @@
 
 > `find` 的替代工具。
 > 旨在比 `find` 更快且更易于使用。
-> 更多信息：<https://github.com/sharkdp/fd>.
+> 更多信息：<https://github.com/sharkdp/fd#how-to-use>.
 
 - 递归查找当前目录中匹配特定模式的文件：
 

@@ -1,7 +1,7 @@
 # vagrant
 
 > Gère des environnements de développement légers, reproductibles et portables.
-> Plus d'informations : <https://www.vagrantup.com>.
+> Plus d'informations : <https://developer.hashicorp.com/vagrant/docs/cli>.
 
 - Crée un fichier Vagrantfile dans le répertoire actuel avec l'image Vagrant de base :
 

@@ -1,7 +1,7 @@
 # grub-install
 
 > 安装 GRUB 到设备。
-> 更多信息：<https://www.gnu.org/software/grub/manual/grub/html_node/Installing-GRUB-using-grub_002dinstall.html>.
+> 更多信息：<https://www.gnu.org/software/grub/manual/grub/grub.html#Installing-GRUB-using-grub_002dinstall>.
 
 - 安装 GRUB 到基于 BIOS 的系统：
 

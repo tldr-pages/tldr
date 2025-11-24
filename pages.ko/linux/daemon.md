@@ -1,7 +1,7 @@
 # daemon
 
 > 프로세스를 데몬으로 실행.
-> 더 많은 정보: <https://manned.org/daemon>.
+> 더 많은 정보: <https://manned.org/daemon.1>.
 
 - 명령어를 데몬으로 실행:
 

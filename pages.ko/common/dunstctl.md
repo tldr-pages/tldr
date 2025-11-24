@@ -1,7 +1,7 @@
 # dunstctl
 
 > `dunst` 제어 명령어.
-> 더 많은 정보: <https://manned.org/dunstctl>.
+> 더 많은 정보: <https://dunst-project.org/documentation/dunstctl>.
 
 - 알림 일시 중지:
 

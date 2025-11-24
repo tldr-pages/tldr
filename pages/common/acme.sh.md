@@ -2,7 +2,7 @@
 
 > Shell script implementing ACME client protocol, an alternative to `certbot`.
 > See also: `acme.sh dns`.
-> More information: <https://github.com/acmesh-official/acme.sh>.
+> More information: <https://github.com/acmesh-official/acme.sh#2-just-issue-a-cert>.
 
 - Issue a certificate using webroot mode:
 

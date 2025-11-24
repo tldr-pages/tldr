@@ -1,7 +1,7 @@
 # cmatrix
 
 > Genera lettere che cadono, come in Matrix.
-> Maggiori informazioni: <https://github.com/abishekvashok/cmatrix>.
+> Maggiori informazioni: <https://manned.org/cmatrix>.
 
 - Attivare lo scorrimento asincrono:
 

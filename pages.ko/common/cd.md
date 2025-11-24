@@ -1,7 +1,7 @@
 # cd
 
 > 현재 작업중인 디렉토리 변경.
-> 더 많은 정보: <https://manned.org/cd>.
+> 더 많은 정보: <https://www.gnu.org/software/bash/manual/bash.html#index-cd>.
 
 - 지정된 디렉토리로 이동:
 

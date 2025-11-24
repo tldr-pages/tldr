@@ -1,4 +1,4 @@
-# npm check
+# npm-check
 
 > 오래되고, 부정확하고, 사용되지 않는 npm 패키지 의존성을 확인하세요.
 > 더 많은 정보: <https://github.com/dylang/npm-check>.

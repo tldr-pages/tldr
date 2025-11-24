@@ -1,7 +1,7 @@
 # npm token
 
 > npm 레지스트리를 위한 인증 토큰을 관리하고 생성.
-> 더 많은 정보: <https://docs.npmjs.com/cli/commands/npm-token>.
+> 더 많은 정보: <https://docs.npmjs.com/cli/npm-token>.
 
 - 새 인증 토큰 생성:
 

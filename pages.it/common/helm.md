@@ -2,7 +2,7 @@
 
 > Helm è un gestore di pacchetti per Kubernetes.
 > Alcuni comandi aggiuntivi, come `install`, hanno la propria documentazione.
-> Maggiori informazioni: <https://helm.sh/>.
+> Maggiori informazioni: <https://helm.sh/docs/helm/>.
 
 - Crea una helm chart:
 
@@ -14,15 +14,15 @@
 
 - Elenca i repositories helm:
 
-`helm repo list`
+`helm repo {{[ls|list]}}`
 
 - Aggiorna i repositories helm:
 
-`helm repo update`
+`helm repo {{[up|update]}}`
 
 - Cancella un repository helm:
 
-`helm repo remove {{nome_repository}}`
+`helm repo {{[rm|remove]}} {{nome_repository}}`
 
 - Installa una helm chart:
 
@@ -34,4 +34,4 @@
 
 - Aggiorna le dipendenze helm:
 
-`helm dependency update`
+`helm {{[dep|dependency]}} {{[up|update]}}`

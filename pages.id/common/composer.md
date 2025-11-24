@@ -1,7 +1,7 @@
 # composer
 
 > Manajer paket untuk proyek PHP.
-> Informasi lebih lanjut: <https://getcomposer.org/>.
+> Informasi lebih lanjut: <https://getcomposer.org/doc/03-cli.md>.
 
 - Buat sebuah berkas `composer.json` secara interaktif:
 

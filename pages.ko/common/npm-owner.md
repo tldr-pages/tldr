@@ -1,7 +1,7 @@
 # npm owner
 
 > 게시된 패키지의 소유권 관리.
-> 더 많은 정보: <https://docs.npmjs.com/cli/commands/npm-owner>.
+> 더 많은 정보: <https://docs.npmjs.com/cli/npm-owner>.
 
 - 새 사용자를 패키지의 관리자로 추가:
 

@@ -1,7 +1,7 @@
 # multipass
 
 > 네이티브 하이퍼바이저를 사용하여 Ubuntu 가상 머신을 관리.
-> 더 많은 정보: <https://multipass.run/>.
+> 더 많은 정보: <https://documentation.ubuntu.com/multipass/en/latest/reference/command-line-interface/>.
 
 - 인스턴스를 시작할 때 사용할 수 있는 별칭 나열:
 

@@ -5,8 +5,8 @@
 
 - Generate locales:
 
-`locale-gen`
+`sudo locale-gen`
 
 - Do not delete undefined locales:
 
-`locale-gen --keep-existing`
+`sudo locale-gen --keep-existing`

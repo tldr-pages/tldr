@@ -1,7 +1,7 @@
 # chronyc
 
 > Chrony NTP 데몬을 쿼리합니다.
-> 더 많은 정보: <https://chrony-project.org/doc/4.6.1/chronyc.html>.
+> 더 많은 정보: <https://chrony-project.org/doc/latest/chronyc.html>.
 
 - 대화형 모드로 `chronyc` 시작:
 

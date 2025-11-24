@@ -1,7 +1,7 @@
 # haxelib
 
 > Haxe 라이브러리 관리자.
-> 더 많은 정보: <https://lib.haxe.org/>.
+> 더 많은 정보: <https://lib.haxe.org/documentation/using-haxelib/>.
 
 - Haxe 라이브러리 검색:
 
