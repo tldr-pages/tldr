@@ -7,17 +7,21 @@
 
 `nest {{[i|info]}}`
 
-- Create a new NestJS project in a directory of the same name:
+- Create a new NestJS project interactively:
 
-`nest {{[n|new]}} {{project_name}}`
+`nest {{[n|new]}}`
 
-- Build a specific NestJS project:
+- Create a new NestJS project without prompting:
 
-`nest build {{project_name}}`
+`nest {{[n|new]}} {{project_name}} {{[-p|--package-manager]}} {{npm|yarn|pnpm}}`
 
-- Run a specific NestJS project:
+- Build the NestJS project in the current working directory:
 
-`nest start {{project_name}}`
+`nest build`
+
+- Run the NestJS project in the current working directory:
+
+`nest start`
 
 - Import a library into the current NestJS project:
 

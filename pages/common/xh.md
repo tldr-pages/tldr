@@ -13,7 +13,7 @@
 
 `xh post {{https://postman-echo.com/post}} {{name=john}} {{age=25}}`
 
-- Send a GET request with query parameters (e.g. `https://postman-echo.com/response-headers?foo1=bar1&foo2=bar2`):
+- Send a GET request with query parameters (e.g. <https://postman-echo.com/response-headers?foo1=bar1&foo2=bar2>):
 
 `xh get {{https://postman-echo.com/response-headers}} {{foo1==bar1}} {{foo2==bar2}}`
 
