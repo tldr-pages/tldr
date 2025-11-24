@@ -9,12 +9,12 @@
 
 - Ubah suatu berkas `.adoc` ke dalam format HTML dengan menggunakan suatu berkas definisi penggayaan (stylesheet) CSS:
 
-`asciidoctor -a stylesheet {{jalan/menuju/stylesheet.css}} {{jalan/menuju/berkas.adoc}}`
+`asciidoctor {{[-a|--attribute]}} stylesheet={{jalan/menuju/stylesheet.css}} {{jalan/menuju/berkas.adoc}}`
 
 - Ubah suatu berkas `.adoc` menuju format HTML layak semat (embeddable), hanya bangunkan isi tag body HTML:
 
-`asciidoctor --embedded {{jalan/menuju/berkas.adoc}}`
+`asciidoctor {{[-e|--embedded]}} {{jalan/menuju/berkas.adoc}}`
 
 - Ubah suatu berkas `.adoc` menuju PDF melalui pustaka pendukung `asciidoctor-pdf`:
 
-`asciidoctor --backend {{pdf}} --require {{asciidoctor-pdf}} {{jalan/menuju/berkas.adoc}}`
+`asciidoctor {{[-b|--backend]}} pdf {{[-r|--require]}} asciidoctor-pdf {{jalan/menuju/berkas.adoc}}`

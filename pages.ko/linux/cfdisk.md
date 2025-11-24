@@ -5,8 +5,8 @@
 
 - 특정 장치로 파티션 조작기 시작:
 
-`cfdisk {{/dev/sdX}}`
+`sudo cfdisk {{/dev/sdX}}`
 
 - 특정 장치에 대한 새 파티션 테이블 생성 및 관리:
 
-`cfdisk {{[-z|--zero]}} {{/dev/sdX}}`
+`sudo cfdisk {{[-z|--zero]}} {{/dev/sdX}}`
