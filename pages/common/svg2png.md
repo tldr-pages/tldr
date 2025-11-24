@@ -9,19 +9,19 @@
 
 - Convert an SVG file to PNG with a specific width (preserving aspect ratio):
 
-`svg2png --width {{800}} {{path/to/file.svg}} {{path/to/output.png}}`
+`svg2png {{[-w|--width]}} {{800}} {{path/to/file.svg}} {{path/to/output.png}}`
 
 - Convert an SVG file to PNG with a specific height (preserving aspect ratio):
 
-`svg2png --height {{600}} {{path/to/file.svg}} {{path/to/output.png}}`
+`svg2png {{[-h|--height]}} {{600}} {{path/to/file.svg}} {{path/to/output.png}}`
 
 - Convert an SVG file to PNG with both width and height (image centered in space):
 
-`svg2png --width {{800}} --height {{600}} {{path/to/file.svg}} {{path/to/output.png}}`
+`svg2png {{[-w|--width]}} {{800}} {{[-h|--height]}} {{600}} {{path/to/file.svg}} {{path/to/output.png}}`
 
 - Convert an SVG file to PNG scaled by a factor:
 
-`svg2png --scale {{2.0}} {{path/to/file.svg}} {{path/to/output.png}}`
+`svg2png {{[-s|--scale]}} {{2.0}} {{path/to/file.svg}} {{path/to/output.png}}`
 
 - Convert an SVG from stdin to PNG on stdout:
 
