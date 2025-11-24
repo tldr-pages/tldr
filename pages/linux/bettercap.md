@@ -30,3 +30,4 @@
 - Inject a custom script (inject.js) into any website the target visits:
 
 `set http.proxy.script inject.js; http.proxy on`
+
