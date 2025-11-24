@@ -18,4 +18,4 @@
 
 - Convierte un archivo de instalación específico al formato Debian y lo instala en el sistema:
 
-`sudo alien {{[-d|--to-deb]}} --install {{ruta/al/archivo}}`
+`sudo alien {{[-d|--to-deb]}} {{[-i|--install]}} {{ruta/al/archivo}}`

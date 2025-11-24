@@ -18,4 +18,4 @@
 
 - 특정 설치 파일을 Debian 형식으로 변환하고 시스템에 설치:
 
-`sudo alien {{[-d|--to-deb]}} --install {{경로/대상/파일}}`
+`sudo alien {{[-d|--to-deb]}} {{[-i|--install]}} {{경로/대상/파일}}`

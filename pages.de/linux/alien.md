@@ -17,4 +17,4 @@
 
 - Ein spezifisches Installationspaket in das Debian Format umwandeln und auf dem System installieren:
 
-`sudo alien {{[-d|--to-deb]}} --install {{pfad/zu/paket}}`
+`sudo alien {{[-d|--to-deb]}} {{[-i|--install]}} {{pfad/zu/paket}}`

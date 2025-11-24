@@ -17,4 +17,4 @@
 
 - Convertit un fichier d'installation spécifique vers le format Debian et l'installe sur le système :
 
-`sudo alien {{[-d|--to-deb]}} --install {{chemin/vers/fichier}}`
+`sudo alien {{[-d|--to-deb]}} {{[-i|--install]}} {{chemin/vers/fichier}}`

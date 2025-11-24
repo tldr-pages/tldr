@@ -17,4 +17,4 @@
 
 - Konwertuj wskazany plik instalacyjny do formatu Debiana i zainstaluj go w systemie:
 
-`sudo alien {{[-d|--to-deb]}} --install {{ścieżka/do/pliku}}`
+`sudo alien {{[-d|--to-deb]}} {{[-i|--install]}} {{ścieżka/do/pliku}}`
