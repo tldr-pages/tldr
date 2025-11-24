@@ -17,4 +17,4 @@
 
 - Convierte un archivo `.adoc` dado en un PDF utilizando la biblioteca `asciidoctor-pdf`:
 
-`asciidoctor {{[-b|--backend]}} pdf {{[-r|--require]}} {{asciidoctor-pdf}} {{ruta/al/archivo.adoc}}`
+`asciidoctor {{[-b|--backend]}} pdf {{[-r|--require]}} asciidoctor-pdf {{ruta/al/archivo.adoc}}`

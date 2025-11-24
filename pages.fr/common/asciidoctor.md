@@ -17,4 +17,4 @@
 
 - Convertis un fichier `.adoc` vers un PDF en utilisant la librairie `asciidoctor-pdf` :
 
-`asciidoctor {{[-b|--backend]}} pdf {{[-r|--require]}} {{asciidoctor-pdf}} {{chemin/vers/fichier.adoc}}`
+`asciidoctor {{[-b|--backend]}} pdf {{[-r|--require]}} asciidoctor-pdf {{chemin/vers/fichier.adoc}}`

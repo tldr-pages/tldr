@@ -17,4 +17,4 @@
 
 - `asciidoctor-pdf` 라이브러리를 사용하여 특정 `.adoc` 파일을 PDF로 변환:
 
-`asciidoctor {{[-b|--backend]}} pdf {{[-r|--require]}} {{asciidoctor-pdf}} {{경로/대상/파일.adoc}}`
+`asciidoctor {{[-b|--backend]}} pdf {{[-r|--require]}} asciidoctor-pdf {{경로/대상/파일.adoc}}`

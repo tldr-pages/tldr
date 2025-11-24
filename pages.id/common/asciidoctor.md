@@ -17,4 +17,4 @@
 
 - Ubah suatu berkas `.adoc` menuju PDF melalui pustaka pendukung `asciidoctor-pdf`:
 
-`asciidoctor {{[-b|--backend]}} pdf {{[-r|--require]}} {{asciidoctor-pdf}} {{jalan/menuju/berkas.adoc}}`
+`asciidoctor {{[-b|--backend]}} pdf {{[-r|--require]}} asciidoctor-pdf {{jalan/menuju/berkas.adoc}}`
