@@ -1,7 +1,7 @@
 # cline
 
 > Command-line interface for the Cline AI assistant.
-> More information: https://docs.cline.bot/cline-cli/cli-reference.
+> More information: <https://docs.cline.bot/cline-cli/cli-reference>.
 
 - Show help:
 `cline --help`
