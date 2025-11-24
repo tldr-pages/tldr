@@ -1,28 +1,28 @@
 # ya
 
-> Manage Yazi packages and plugins.
-> More information: <https://github.com/sxyazi/yazi>.
+> Manage Yazi plugins and flavors, publish or subscribe to DDS messages.
+> More information: <https://yazi-rs.github.io/docs/cli>.
 
-- Add a package:
+- Add packages:
 
-`ya pack {{[-a|--all]}} {{package}}`
+`ya pkg add {{PACKAGE}}`
+
+- Delete packages:
+
+`ya pkg delete {{PACKAGE}}`
 
 - Upgrade all packages:
 
-`ya pack {{[-u|--upgrade]}}`
+`ya pkg upgrade`
+
+- Emit a command to be executed by the current instance:
+
+`ya emit {{NAME}} {{ARGS}}`
 
 - Subscribe to messages from all remote instances:
 
-`ya sub {{kinds}}`
+`ya sub {{KINDS}}`
 
 - Publish a message to the current instance with string body:
 
-`ya pub --str {{string_message}}`
-
-- Publish a message to the current instance with JSON body:
-
-`ya pub --json {{json_message}}`
-
-- Publish a message to the specified instance with string body:
-
-`ya pub-to --str {{message}} {{receiver}} {{kind}}`
+`ya pub --str {{STR}}`
