@@ -1,7 +1,7 @@
 # jest
 
 > A zero-configuration JavaScript testing platform.
-> More information: <https://jestjs.io>.
+> More information: <https://jestjs.io/docs/cli>.
 
 - Run all available tests:
 
@@ -13,7 +13,7 @@
 
 - Run the test suites from files within the current and subdirectories, whose paths match the given `regex`:
 
-`jest {{regex1}} {{regex2}}`
+`jest {{regex1 regex2 ...}}`
 
 - Run the tests whose names match the given `regex`:
 
