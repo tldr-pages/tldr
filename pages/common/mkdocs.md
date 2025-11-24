@@ -1,7 +1,7 @@
 # mkdocs
 
 > Project documentation with Markdown.
-> More information: <https://www.mkdocs.org>.
+> More information: <https://www.mkdocs.org/user-guide/cli/>.
 
 - Create a new mkdocs project:
 

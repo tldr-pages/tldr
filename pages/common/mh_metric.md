@@ -1,7 +1,7 @@
 # mh_metric
 
 > Calculate and enforce code metrics for MATLAB or Octave code.
-> More information: <https://misshit.org>.
+> More information: <https://florianschanda.github.io/miss_hit/cli.html>.
 
 - Print the code metrics for the specified files:
 

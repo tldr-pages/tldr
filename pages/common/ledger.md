@@ -1,7 +1,7 @@
 # ledger
 
 > A powerful, double-entry accounting system.
-> More information: <https://www.ledger-cli.org>.
+> More information: <https://ledger-cli.org/doc/ledger.1.html>.
 
 - Print a balance report showing totals:
 
@@ -9,7 +9,7 @@
 
 - List all postings in Expenses ordered by amount:
 
-`ledger register {{expenses}} --sorted {{amount}}`
+`ledger register {{expenses}} {{[-S|--sort]}} {{amount}}`
 
 - Print total Expenses other than Drinks and Food:
 
