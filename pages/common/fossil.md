@@ -1,7 +1,7 @@
 # fossil
 
 > A distributed version control system supporting bug tracking, wiki, and a built-in web interface—all in a single file.
-> More information: <https://fossil-scm.org/>.
+> More information: <https://fossil-scm.org/home/help>.
 
 - Initialize a new repository file:
 `fossil init {{path/to/repository.fossil}}`
