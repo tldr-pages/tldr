@@ -2,7 +2,7 @@
 
 > Fast download utility.
 > Supports HTTP(S), FTP, SFTP, BitTorrent, and Metalink.
-> More information: <https://aria2.github.io>.
+> More information: <https://aria2.github.io/manual/en/html/aria2c.html>.
 
 - Download a specific URI to a file:
 
@@ -10,11 +10,11 @@
 
 - Download a file from a URI with a specific output name:
 
-`aria2c --out {{path/to/file}} "{{url}}"`
+`aria2c {{[-o|--out]}} {{path/to/file}} "{{url}}"`
 
 - Download multiple different files in parallel:
 
-`aria2c --force-sequential {{false}} "{{url1 url2 ...}}"`
+`aria2c {{[-Z|--force-sequential]}} {{false}} "{{url1 url2 ...}}"`
 
 - Download the same file from different mirrors and verify the checksum of the downloaded file:
 
@@ -22,11 +22,11 @@
 
 - Download the URIs listed in a file with a specific number of parallel downloads:
 
-`aria2c --input-file {{path/to/file}} --max-concurrent-downloads {{number_of_downloads}}`
+`aria2c {{[-i|--input-file]}} {{path/to/file}} {{[-j|--max-concurrent-downloads]}} {{number_of_downloads}}`
 
 - Download with multiple connections:
 
-`aria2c --split {{number_of_connections}} "{{url}}"`
+`aria2c {{[-s|--split]}} {{number_of_connections}} "{{url}}"`
 
 - FTP download with username and password:
 

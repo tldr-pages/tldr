@@ -1,7 +1,7 @@
 # docsify
 
 > Initialize and serve markdown documentation.
-> More information: <https://cli.docsifyjs.org>.
+> More information: <https://cli.docsifyjs.org/#/?id=usage>.
 
 - Initialize a new documentation in the current directory:
 
@@ -17,7 +17,7 @@
 
 - Serve local documentation on `localhost` at the specified port:
 
-`docsify serve --port {{80}} {{path/to/directory}}`
+`docsify serve {{[-p|--port]}} {{80}} {{path/to/directory}}`
 
 - Generate a sidebar markdown file in the specified directory:
 
