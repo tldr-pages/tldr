@@ -7,8 +7,8 @@
 `bettercap -iface eth0`
 
 - Scan network
-`net.probe on
-net.show`
+`net.probe on`
+`net.show`
 
 - Show ARP tables
 `arp.spoof.targets`
