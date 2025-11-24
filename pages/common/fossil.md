@@ -1,31 +1,36 @@
 # fossil
 
-> A distributed version control system supporting bug tracking, wiki, and a built-in web interface—all in a single file.
-> More information: <https://fossil-scm.org/home/help>.
+> Distributed version control system with a built-in wiki, issue tracker, and web interface.
+> More information: <https://fossil-scm.org>.
 
-- Initialize a new repository file:
+- Initialize a new Fossil repository:
+
 `fossil init {{path/to/repository.fossil}}`
 
-- Clone a remote repository:
-`fossil clone {{url}} {{path/to/repository.fossil}}`
+- Clone an existing repository:
+
+`fossil clone {{https://example.com/repo.fossil}} {{path/to/local.fossil}}`
 
 - Open a working directory from a repository file:
+
 `fossil open {{path/to/repository.fossil}}`
 
-- Show the status of the working directory:
-`fossil status`
+- Add a file to version control:
 
-- Add a file or directory to version control:
-`fossil add {{path/to/file_or_directory}}`
+`fossil add {{path/to/file}}`
 
 - Commit changes with a message:
+
 `fossil commit -m "{{message}}"`
 
-- View the commit history:
-`fossil timeline`
+- Synchronize with the remote server:
 
-- Sync local changes with the remote:
 `fossil sync`
 
-- Launch the built-in web UI:
+- View the web interface in a browser:
+
 `fossil ui`
+
+- Show the current status:
+
+`fossil status`
