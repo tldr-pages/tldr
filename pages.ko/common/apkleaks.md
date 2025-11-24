@@ -6,12 +6,12 @@
 
 - APK 파일([f]ile)에서 URI, 엔드포인트, 비밀을 스캔:
 
-`apkleaks --file {{경로/대상/파일.apk}}`
+`apkleaks {{[-f|--file]}} {{경로/대상/파일.apk}}`
 
 - 출력([o]utput)을 스캔하여 특정 파일에 저장:
 
-`apkleaks --file {{경로/대상/파일.apk}} --output {{경로/대상/출력파일.txt}}`
+`apkleaks {{[-f|--file]}} {{경로/대상/파일.apk}} {{[-o|--output]}} {{경로/대상/출력파일.txt}}`
 
 - `jadx` 디스어셈블러 인수([a]rguments) 전달:
 
-`apkleaks --file {{경로/대상/파일.apk}} --args "{{--threads-count 5 --deobf}}"`
+`apkleaks {{[-f|--file]}} {{경로/대상/파일.apk}} {{[-a|--args]}} "{{--threads-count 5 --deobf}}"`

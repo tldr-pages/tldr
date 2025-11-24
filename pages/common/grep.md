@@ -31,6 +31,6 @@
 
 `grep {{[-o|--only-matching]}} "{{search_pattern}}" {{path/to/file}}`
 
-- Search `stdin` for lines that do not match a pattern:
+- Read data from `stdin` and do not print lines that match a pattern:
 
 `cat {{path/to/file}} | grep {{[-v|--invert-match]}} "{{search_pattern}}"`

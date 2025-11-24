@@ -1,6 +1,7 @@
 # passwd
 
 > Change a user's password.
+> See also: `chpasswd`.
 > More information: <https://manned.org/passwd>.
 
 - Change the password of the current user interactively:
