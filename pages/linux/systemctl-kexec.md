@@ -1,7 +1,7 @@
 # systemctl kexec
 
 > Reboot the system via kexec.
-> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#kexec>.
+> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#kexec>.
 
 - Fast reboot using kexec (if kernel is pre-loaded)
 
