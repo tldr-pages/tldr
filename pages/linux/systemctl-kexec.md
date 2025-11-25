@@ -9,4 +9,4 @@
 
 - Force normal reboot even if kexec is available:
 
-`systemctl kexec --force`
+`systemctl kexec {{[-f|--force]}}`
