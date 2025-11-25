@@ -6,7 +6,7 @@
 
 - Neue Abkürzung hinzufügen:
 
-`abbr --add {{abkürzungsname}} {{befehl}} {{befehlsparameter}}`
+`abbr {{[-a|--add]}} {{abkürzungsname}} {{befehl}} {{befehlsparameter}}`
 
 - Vorhandene Abkürzung umbenennen:
 
@@ -14,8 +14,8 @@
 
 - Vorhandene Abkürzung löschen:
 
-`abbr --erase {{abkürzungsname}}`
+`abbr {{[-e|--erase]}} {{abkürzungsname}}`
 
 - Abkürzungen eines anderen Host über SSH importieren:
 
-`ssh {{host_name}} abbr --show | source`
+`ssh {{host_name}} abbr {{[-s|--show]}} | source`
