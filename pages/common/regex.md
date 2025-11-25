@@ -12,9 +12,9 @@
 
 `^hello`
 
-- Match one or more repeated characters:
+- Match zero or more repeated characters:
 
-`a+`
+`a*`
 
 - Match an optional character:
 
