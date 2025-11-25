@@ -1,6 +1,6 @@
 # systemctl link
 
-> Link a unit file located that is not in the unit file search path.
+> Link a unit file located outside the unit file search path into the search path.
 > More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#link%20PATH%E2%80%A6>.
 
 - Link a unit file to make it available for systemd commands:
