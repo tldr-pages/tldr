@@ -12,17 +12,9 @@
 
 `sudo nft monitor rules`
 
-- Monitor table and chain creation/deletion:
-
-`sudo nft monitor netdev`
-
 - Monitor set and element updates:
 
 `sudo nft monitor sets`
-
-- Monitor flowtable operations:
-
-`sudo nft monitor flowtable`
 
 - Monitor events and print JSON output:
 
