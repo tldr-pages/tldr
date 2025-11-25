@@ -1,7 +1,7 @@
 # nft monitor
 
-> Monitor netfilter events in real time using nftables.
-> Requires `nftables` and kernel NFTRACE/NFTABLES support.
+> Show real-time changes happening inside the Linux firewall (nftables).
+> Useful for seeing when rules, tables, or packets change.
 > More information: <https://manned.org/nft#head21>.
 
 - Monitor all nftables events:
