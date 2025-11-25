@@ -3,30 +3,30 @@
 > The Silver Searcher. Zoals `ack`, maar wil sneller zijn.
 > Meer informatie: <https://manned.org/ag>.
 
-- Zoek bestanden die "foo" bevatten en druk de regelovereenkomsten in context af:
+- Zoek bestanden die `string` bevatten en druk de regelovereenkomsten in context af:
 
-`ag foo`
+`ag string`
 
-- Vind bestanden die "foo" bevatten in een specifieke map:
+- Vind bestanden die `string` bevatten in een specifieke map:
 
-`ag foo {{pad/naar/map}}`
+`ag string {{pad/naar/map}}`
 
-- Vind bestanden die "foo" bevatten, maar vermeld alleen de bestandsnamen:
+- Vind bestanden die `string` bevatten, maar vermeld alleen de bestandsnamen:
 
-`ag {{[-l|--files-with-matches]}} foo`
+`ag {{[-l|--files-with-matches]}} string`
 
-- Vind bestanden die "FOO" niet hoofdlettergevoelig bevatten en druk alleen de overeenkomst af in plaats van de hele regel:
+- Vind bestanden die `STRING` niet hoofdlettergevoelig bevatten en druk alleen de overeenkomst af in plaats van de hele regel:
 
-`ag {{[-i|--ignore-case]}} {{[-o|--only-matching]}} FOO`
+`ag {{[-i|--ignore-case]}} {{[-o|--only-matching]}} STRING`
 
-- Zoek "foo" in bestanden met een naam die overeenkomt met "bar":
+- Zoek `string` in bestanden met een naam die overeenkomt met `file_name`:
 
-`ag foo {{[-G|--file-search-regex]}} bar`
+`ag string {{[-G|--file-search-regex]}} file_name`
 
-- Vind bestanden waarvan de inhoud overeenkomt met een reguliere expressie:
+- Vind bestanden waarvan de inhoud overeenkomt met een `regex`:
 
-`ag '{{^ba(r|z)$}}'`
+`ag '{{^ka(t|r)$}}'`
 
-- Zoek bestanden met een naam die overeenkomt met "foo":
+- Zoek bestanden met een naam die overeenkomt met `string`:
 
-`ag {{[-g|--filename-pattern]}} foo`
+`ag {{[-g|--filename-pattern]}} string`

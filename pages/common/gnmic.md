@@ -2,7 +2,7 @@
 
 > A gNMI client.
 > Manage gNMI network device configuration and view operational data.
-> More information: <https://gnmic.kmrd.dev>.
+> More information: <https://gnmic.openconfig.net/user_guide/configuration_flags/>.
 
 - Request device capabilities:
 

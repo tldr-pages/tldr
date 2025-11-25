@@ -5,8 +5,8 @@
 
 - Lance le manipulateur de partitions sur un appareil spécifique :
 
-`cfdisk {{/dev/sdX}}`
+`sudo cfdisk {{/dev/sdX}}`
 
 - Crée une nouvelle table de partitions pour un appareil spécifique et la gère :
 
-`cfdisk {{[-z|--zero]}} {{/dev/sdX}}`
+`sudo cfdisk {{[-z|--zero]}} {{/dev/sdX}}`

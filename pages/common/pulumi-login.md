@@ -3,7 +3,7 @@
 > Log in to the Pulumi cloud.
 > More information: <https://www.pulumi.com/docs/iac/cli/commands/pulumi_login/>.
 
-- Log in to the managed Pulumi Cloud backend, defaults to `https://api.pulumi.com`:
+- Log in to the managed Pulumi Cloud backend, defaults to <https://api.pulumi.com>:
 
 `pulumi login`
 

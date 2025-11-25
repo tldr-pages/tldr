@@ -1,4 +1,4 @@
-# vboxmanage-showvminfo
+# VBoxManage showvminfo
 
 > 등록된 가상 머신에 대한 정보 표시.
 > 더 많은 정보: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-showvminfo>.

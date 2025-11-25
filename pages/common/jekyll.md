@@ -3,7 +3,7 @@
 > A simple, blog-aware, static site generator.
 > More information: <https://jekyllrb.com/docs/usage/>.
 
-- Generate a development server that will run at http://localhost:4000/:
+- Generate a development server that will run at <http://localhost:4000/>:
 
 `jekyll serve`
 
