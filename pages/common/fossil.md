@@ -10,7 +10,7 @@
 
 - Create a local copy of a remote repository:
 
-`fossil clone {{remote_url}} {{repository_name.fossil}}`
+`fossil clone {{remote_url}}`
 
 - Show an overview of the current repository state:
 
