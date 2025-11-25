@@ -1,6 +1,6 @@
 # nft monitor
 
-> Show real-time changes happening inside the Linux firewall (nftables).
+> Show real-time changes happening inside the Linux firewall `nftables`.
 > More information: <https://manned.org/nft#head21>.
 
 - Monitor all nftables events:
