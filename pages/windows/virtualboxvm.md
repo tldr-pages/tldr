@@ -1,24 +1,23 @@
-# virtualboxvm
+## virtualboxvm
 
-> Manage VirtualBox virtual machines.
-> More information: <https://www.virtualbox.org>.
+> VirtualBox VM launcher (Windows) — **deprecated or non-standard** in VirtualBox CLI.
+> More information: https://www.virtualbox.org/
 
-- Start a virtual machine:
+- Start a VM by name / UUID:  
+  `virtualboxvm --startvm {{name|uuid}}`
 
-`virtualboxvm --startvm {{name|uuid}}`
+- Start in fullscreen:  
+  `virtualboxvm --startvm {{name|uuid}} --fullscreen`
 
-- Start a virtual machine in fullscreen mode:
+- Mount a DVD image:  
+  `virtualboxvm --startvm {{name|uuid}} --dvd {{path\to\image_file}}`
 
-`virtualboxvm --startvm {{name|uuid}} --fullscreen`
+- Debug with command-line window:  
+  `virtualboxvm --startvm {{name|uuid}} --debug-command-line`
 
-- Mount the specified DVD image file:
+- Start a VM in a paused state:  
+  `virtualboxvm --startvm {{name|uuid}} --start-paused`
 
-`virtualboxvm --startvm {{name|uuid}} --dvd {{path\to\image_file}}`
-
-- Display a command-line window with debug information:
-
-`virtualboxvm --startvm {{name|uuid}} --debug-command-line`
-
-- Start a virtual machine in a paused state:
-
-`virtualboxvm --startvm {{name|uuid}} --start-paused`
+> **Note:** This command is not part of the standard `VBoxManage` CLI. Users are encouraged to use `VBoxManage` for full CLI functionality:
+> - List VMs: `VBoxManage list vms` :contentReference[oaicite:4]{index=4}  
+> - Start VM: `VBoxManage startvm {{name|uuid}}` :contentReference[oaicite:5]{index=5}  
