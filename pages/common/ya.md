@@ -5,11 +5,11 @@
 
 - Add a package:
 
-`ya pkg add {{PACKAGE}}`
+`ya pkg add {{package}}`
 
 - Delete a package:
 
-`ya pkg delete {{PACKAGE}}`
+`ya pkg delete {{package}}`
 
 - Upgrade all packages:
 
@@ -17,12 +17,12 @@
 
 - Emit a command to be executed by the current instance:
 
-`ya emit {{NAME}} {{ARGS}}`
+`ya emit {{name}} {{args}}`
 
 - Subscribe to messages from all remote instances:
 
-`ya sub {{KINDS}}`
+`ya sub {{kinds}}`
 
 - Publish a message to the current instance with string body:
 
-`ya pub --str {{STR}}`
+`ya pub --str {{str}}`
