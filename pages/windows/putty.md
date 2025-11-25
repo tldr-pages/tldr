@@ -2,7 +2,7 @@
 
 > SSH, Telnet, and Rlogin client for connecting to remote servers.
 > Note: On Linux, the native `ssh` client is often more convenient. PuTTY is more commonly used on Windows.
-> More information: <https://www.chiark.greenend.org.uk/~sgtatham/putty/>.
+> More information: <https://the.earth.li/~sgtatham/putty/0.83/htmldoc/Chapter3.html#using-cmdline>.
 
 - Connect to a remote host via SSH:
 
