@@ -1,4 +1,4 @@
-# Chezmoi
+# chezmoi
 
 > 一個用 Go 語言寫的 dotfile 管理工具。
 > 更多資訊：<https://chezmoi.io>.

@@ -10,7 +10,7 @@
 
 - Establece una `subscription` como la suscripción activa:
 
-`az account set --subscription {{identificador_de_suscripción}}`
+`az account set {{[-s|--subscription]}} {{identificador_de_suscripción}}`
 
 - Lista las regiones admitidas para la suscripción activa:
 
@@ -22,4 +22,4 @@
 
 - Imprime los detalles de la suscripción activa actual en un formato específico:
 
-`az account show --output {{json|tsv|table|yaml}}`
+`az account show {{[-o|--output]}} {{json|tsv|table|yaml}}`

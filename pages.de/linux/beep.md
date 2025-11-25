@@ -17,8 +17,8 @@
 
 - Spiele jede neue Frequenz und Länge als einen eigenen Ton:
 
-`beep -f {{frequenz}} -l {{länge}} -n -f {{frequenz}} -l {{länge}}`
+`beep -f {{frequenz}} -l {{länge}} {{[-n|--new]}} -f {{frequenz}} -l {{länge}}`
 
 - Spiele die C-Dur-Tonleiter:
 
-`beep -f {{262}} -n -f {{294}} -n -f {{330}} -n -f {{349}} -n -f {{392}} -n -f {{440}} -n -f {{494}} -n -f {{523}}`
+`beep -f {{262}} {{[-n|--new]}} -f {{294}} {{[-n|--new]}} -f {{330}} {{[-n|--new]}} -f {{349}} {{[-n|--new]}} -f {{392}} {{[-n|--new]}} -f {{440}} {{[-n|--new]}} -f {{494}} {{[-n|--new]}} -f {{523}}`

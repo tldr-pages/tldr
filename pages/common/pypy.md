@@ -1,7 +1,7 @@
 # pypy
 
 > Fast and compliant alternative implementation of the Python language.
-> More information: <https://doc.pypy.org>.
+> More information: <https://manned.org/pypy>.
 
 - Start a REPL (interactive shell):
 

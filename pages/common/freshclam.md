@@ -1,7 +1,7 @@
 # freshclam
 
 > Update virus definitions for ClamAV antivirus program.
-> More information: <https://www.clamav.net>.
+> More information: <https://docs.clamav.net/manual/Usage/SignatureManagement.html#freshclam>.
 
 - Update virus definitions:
 

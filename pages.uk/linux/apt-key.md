@@ -18,7 +18,7 @@
 
 - Додайте віддалений ключ до надійного сховища ключів:
 
-`wget -qO - {{https://host.tld/filename.key}} | apt-key add -`
+`wget {{[-qO|--quiet --output-document]}} - {{https://host.tld/filename.key}} | apt-key add -`
 
 - Додати ключ із сервера ключів лише з ідентифікатором ключа:
 

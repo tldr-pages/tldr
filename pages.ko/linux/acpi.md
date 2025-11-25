@@ -9,20 +9,20 @@
 
 - 온도 정보 표시:
 
-`acpi -t`
+`acpi {{[-t|--thermal]}}`
 
 - 냉각 장치 정보 표시:
 
-`acpi -c`
+`acpi {{[-c|--cooling]}}`
 
 - 화씨로 온도 정보 표시:
 
-`acpi -tf`
+`acpi {{[-tf|--thermal --fahrenheit]}}`
 
 - 모든 정보 표시:
 
-`acpi -V`
+`acpi {{[-V|--everything]}}`
 
 - `/sys` 대신 `/proc`에서 정보 추출:
 
-`acpi -p`
+`acpi {{[-p|--proc]}}`

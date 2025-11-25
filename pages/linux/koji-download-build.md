@@ -21,4 +21,4 @@
 
 - Display help:
 
-`koji download-build --help`
+`koji download-build {{[-h|--help]}}`

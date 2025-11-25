@@ -1,4 +1,4 @@
-# git-grep
+# git grep
 
 > Rechercher une occurrence de texte n'importe où dans l'historique d'un dépôt git.
 > Comprend la plupart des arguments du `grep` classique.

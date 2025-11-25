@@ -17,4 +17,4 @@
 
 - Actualiza la salida cada 2 segundos:
 
-`free {{[-s|--seconds]}} {{2}}`
+`free {{[-s|--seconds]}} 2`
