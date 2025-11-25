@@ -6,16 +6,16 @@
 
 - 특정 설치 파일을 Debian 형식(`.deb` 확장자)으로 변환:
 
-`sudo alien --to-deb {{경로/대상/파일}}`
+`sudo alien {{[-d|--to-deb]}} {{경로/대상/파일}}`
 
 - 특정 설치 파일을 Red Hat 형식(`.rpm` 확장자)으로 변환:
 
-`sudo alien --to-rpm {{경로/대상/파일}}`
+`sudo alien {{[-r|--to-rpm]}} {{경로/대상/파일}}`
 
 - 특정 설치 파일을 Slackware 설치 파일(`.tgz` 확장자)로 변환:
 
-`sudo alien --to-tgz {{경로/대상/파일}}`
+`sudo alien {{[-t|--to-tgz]}} {{경로/대상/파일}}`
 
 - 특정 설치 파일을 Debian 형식으로 변환하고 시스템에 설치:
 
-`sudo alien --to-deb --install {{경로/대상/파일}}`
+`sudo alien {{[-d|--to-deb]}} {{[-i|--install]}} {{경로/대상/파일}}`
