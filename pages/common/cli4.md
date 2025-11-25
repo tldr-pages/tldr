@@ -13,20 +13,20 @@
 
 - List DNS records for a specific zone:
 
-`cli4 {{/zones/:example.com/dns_records}}`
+`cli4 {{/zones/:zone_name/dns_records}}`
 
 - Create a new DNS record:
 
-`cli4 --post {{name=example.com}} {{type=A}} {{content=192.0.2.1}} {{/zones/:example.com/dns_records}}`
+`cli4 --post {{name=example.com}} {{type=A}} {{content=192.0.2.1}} {{/zones/:zone_name/dns_records}}`
 
 - Update an existing DNS record:
 
-`cli4 --put {{name=sub.example.com}} {{type=A}} {{content=192.0.2.2}} {{/zones/:example.com/dns_records/:record_id}}`
+`cli4 --put {{name=sub.example.com}} {{type=A}} {{content=192.0.2.2}} {{/zones/:zone_name/dns_records/:record_id}}`
 
 - Delete a DNS record:
 
-`cli4 --delete {{/zones/:example.com/dns_records/:record_id}}`
+`cli4 --delete {{/zones/:zone_name/dns_records/:record_id}}`
 
 - Purge all cache for a zone:
 
-`cli4 --post {{purge_everything=true}} {{/zones/:example.com/purge_cache}}`
+`cli4 --post {{purge_everything=true}} {{/zones/:zone_name/purge_cache}}`
