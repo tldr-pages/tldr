@@ -1,6 +1,6 @@
 # scdoc
 
-> Generate man manual pages.
+> Generate `man` manual pages.
 > More information: <https://github.com/ddevault/scdoc>.
 
 - Generate man pages from a scdoc (.sdc) file:
