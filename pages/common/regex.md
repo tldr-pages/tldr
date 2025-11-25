@@ -26,7 +26,7 @@
 
 - Match a range of characters:
 
-`[a-z]`
+`[{{a-z3-9}}]`
 
 - Match a digit:
 
