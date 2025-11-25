@@ -5,8 +5,8 @@
 
 - Link a unit file to make it available for systemd commands:
 
-`systemctl link {{absolute_path/to/service}}`
+`systemctl link /{{path/to/service}}`
 
 - Link multiple unit files at once:
 
-`systemctl link {{absolute_path/to/service_1 absolute_path/to/service_2 ...}}`
+`systemctl link /{{path/to/service1 /path/to/service2 ...}}`
