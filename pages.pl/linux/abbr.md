@@ -6,7 +6,7 @@
 
 - Dodaj nowy skrót:
 
-`abbr --add {{nazwa_skrótu}} {{polecenie}} {{argumenty_polecenia}}`
+`abbr {{[-a|--add]}} {{nazwa_skrótu}} {{polecenie}} {{argumenty_polecenia}}`
 
 - Zmień nazwę istniejącego skrótu:
 
@@ -14,8 +14,8 @@
 
 - Usuń istniejący skrót:
 
-`abbr --erase {{nazwa_skrótu}}`
+`abbr {{[-e|--erase]}} {{nazwa_skrótu}}`
 
 - Zaimportuj skróty zdefiniowane na innym hoście poprzez SSH:
 
-`ssh {{nazwa_hosta}} abbr --show | source`
+`ssh {{nazwa_hosta}} abbr {{[-s|--show]}} | source`
