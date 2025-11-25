@@ -9,4 +9,4 @@
 
 - Generate man pages from a scdoc file and pipe to a pager:
 
-`scdoc < file.scd | less`
+`scdoc < file.scd | {{less}}`
