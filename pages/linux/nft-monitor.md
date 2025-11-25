@@ -26,4 +26,4 @@
 
 - Monitor events and print JSON output:
 
-`sudo nft --json monitor`
+`sudo nft {{[-j|--json]}} monitor`
