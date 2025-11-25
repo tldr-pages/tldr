@@ -18,7 +18,7 @@
 
 - Monitor set and element updates:
 
-`sudo nft monitor set`
+`sudo nft monitor sets`
 
 - Monitor flowtable operations:
 
