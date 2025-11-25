@@ -1,4 +1,4 @@
-# Less than
+# <
 
 > 데이터를 `stdin`으로 리다이렉트.
 > 더 많은 정보: <https://gnu.org/software/bash/manual/bash.html#Redirecting-Input>.

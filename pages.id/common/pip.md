@@ -2,7 +2,7 @@
 
 > Pengelola paket Python.
 > Beberapa subperintah seperti `install` mempunyai dokumentasi terpisah.
-> Informasi lebih lanjut: <https://pip.pypa.io>.
+> Informasi lebih lanjut: <https://pip.pypa.io/en/stable/cli/pip/>.
 
 - Pasang suatu paket (lihat dokumentasi `pip install` untuk melihat contoh pemasangan tambahan):
 

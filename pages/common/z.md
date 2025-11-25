@@ -3,25 +3,25 @@
 > Tracks the most used (by frequency) directories and enables quickly navigating to them using string patterns or `regex`.
 > More information: <https://github.com/rupa/z>.
 
-- Go to a directory that contains "foo" in the name:
+- Go to a directory that contains `string` in the name:
 
-`z {{foo}}`
+`z string`
 
-- Go to a directory that contains "foo" and then "bar":
+- Go to a directory that contains `string1` and then `string2`:
 
-`z {{foo}} {{bar}}`
+`z string1 string2`
 
-- Go to the highest-ranked directory matching "foo":
+- Go to the highest-ranked directory matching `string`:
 
-`z -r {{foo}}`
+`z -r string`
 
-- Go to the most recently accessed directory matching "foo":
+- Go to the most recently accessed directory matching `string`:
 
-`z -t {{foo}}`
+`z -t string`
 
-- List all directories in `z`'s database matching "foo":
+- List all directories in `z`'s database matching `string`:
 
-`z -l {{foo}}`
+`z -l string`
 
 - Remove the current directory from `z`'s database:
 
@@ -29,4 +29,4 @@
 
 - Restrict matches to subdirectories of the current directory:
 
-`z -c {{foo}}`
+`z -c {{string}}`

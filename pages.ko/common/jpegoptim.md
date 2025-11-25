@@ -1,7 +1,7 @@
 # jpegoptim
 
 > JPEG 이미지 최적화 도구.
-> 더 많은 정보: <https://github.com/tjko/jpegoptim>.
+> 더 많은 정보: <https://manned.org/jpegoptim>.
 
 - 모든 관련 데이터를 유지하며 JPEG 이미지 집합 최적화:
 

@@ -1,7 +1,7 @@
 # cd
 
 > 切換目前的工作目錄。
-> 更多資訊：<https://manned.org/cd>.
+> 更多資訊：<https://www.gnu.org/software/bash/manual/bash.html#index-cd>.
 
 - 切換為指定目錄：
 

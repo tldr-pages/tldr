@@ -1,7 +1,7 @@
 # gradle
 
 > An open source build automation system.
-> More information: <https://gradle.org>.
+> More information: <https://manned.org/gradle>.
 
 - Compile a package:
 

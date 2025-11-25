@@ -11,6 +11,6 @@
 
 `crane export {{이미지_이름}} {{경로/대상/tarball}}`
 
-- stdin에서 이미지 읽기:
+- `stdin`에서 이미지 읽기:
 
 `crane export - {{경로/대상/파일이름}}`

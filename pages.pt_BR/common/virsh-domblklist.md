@@ -1,4 +1,4 @@
-# virsh-domblklist
+# virsh domblklist
 
 > Listar informações sobre dispositivos de bloco associados a uma máquina virtual.
 > Veja também: `virsh`.

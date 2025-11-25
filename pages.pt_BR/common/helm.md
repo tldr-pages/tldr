@@ -1,7 +1,7 @@
 # helm
 
 > Helm é um gerenciador de pacores para Kubernetes.
-> Mais informações: <https://helm.sh/>.
+> Mais informações: <https://helm.sh/docs/helm/>.
 
 - Cria um chart do helm:
 
@@ -13,15 +13,15 @@
 
 - Lista os repositórios helm:
 
-`helm repo list`
+`helm repo {{[ls|list]}}`
 
 - Atualiza os repositórios helm:
 
-`helm repo update`
+`helm repo {{[up|update]}}`
 
 - Remova um repositório helm:
 
-`helm repo remove {{nome_do_repositório}}`
+`helm repo {{[rm|remove]}} {{nome_do_repositório}}`
 
 - Instala um chart helm:
 
@@ -33,4 +33,4 @@
 
 - Atualiza as dependências helm:
 
-`helm dependency update`
+`helm {{[dep|dependency]}} {{[up|update]}}`

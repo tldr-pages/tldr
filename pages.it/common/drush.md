@@ -1,7 +1,7 @@
 # drush
 
 > Shell da linea di comando ed interfaccia di scripting per Drupal.
-> Maggiori informazioni: <https://www.drush.org>.
+> Maggiori informazioni: <https://www.drush.org/latest/usage/>.
 
 - Scarica il modulo "foo":
 

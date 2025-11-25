@@ -6,12 +6,12 @@
 
 - Escanea un archivo APK en busca de URIs, endpoints y secretos:
 
-`apkleaks --file {{ruta/al/archivo.apk}}`
+`apkleaks {{[-f|--file]}} {{ruta/al/archivo.apk}}`
 
 - Escanea y guarda el resultad[o] en un archivo específico:
 
-`apkleaks --file {{ruta/al/archivo.apk}} --output {{ruta/al/archivo.txt}}`
+`apkleaks {{[-f|--file]}} {{ruta/al/archivo.apk}} {{[-o|--output]}} {{ruta/al/archivo.txt}}`
 
 - Pasar [a]rgumentos del desensamblador `jadx`:
 
-`apkleaks --file {{ruta/al/archivo.apk}} --args "{{--threads-count 5 --deobf}}"`
+`apkleaks {{[-f|--file]}} {{ruta/al/archivo.apk}} {{[-a|--args]}} "{{--threads-count 5 --deobf}}"`

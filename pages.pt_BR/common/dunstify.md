@@ -2,7 +2,7 @@
 
 > Uma ferramenta de notificação que é uma extensão do `notify-send`, mas com mais funcionalidades baseadas em `dunst`.
 > Aceita todas as opções do `notify-send`.
-> Mais informações: <https://github.com/dunst-project/dunst/wiki/Guides>.
+> Mais informações: <https://dunst-project.org/documentation/dunstify>.
 
 - Mostra uma notificação com um dado título e mensagem:
 

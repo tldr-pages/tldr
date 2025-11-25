@@ -1,7 +1,7 @@
 # terragrunt
 
 > Keep your Terraform CLI arguments DRY.
-> More information: <https://terragrunt.gruntwork.io>.
+> More information: <https://terragrunt.gruntwork.io/docs/reference/cli/>.
 
 - Generate and show an execution plan:
 

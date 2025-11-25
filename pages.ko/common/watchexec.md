@@ -1,7 +1,7 @@
 # watchexec
 
 > 파일이 변경될 때 임의의 명령을 실행.
-> 더 많은 정보: <https://github.com/watchexec/watchexec>.
+> 더 많은 정보: <https://manned.org/watchexec>.
 
 - 현재 디렉토리의 파일이 변경될 때 `ls -la` 실행:
 

@@ -1,7 +1,7 @@
 # texliveonfly
 
 > `.tex` 파일을 컴파일하는 동안 누락된 TeX Live 패키지를 다운로드.
-> 더 많은 정보: <https://ctan.org/pkg/texliveonfly>.
+> 더 많은 정보: <https://ctan.org/tex-archive/support/texliveonfly>.
 
 - 컴파일하는 동안 누락된 패키지 다운로드:
 

@@ -5,31 +5,31 @@
 
 - List devices recorded in the devices file:
 
-`lvmdevices`
+`sudo lvmdevices`
 
 - Add a device to the devices file:
 
-`lvmdevices --adddev {{/dev/sdXN}}`
+`sudo lvmdevices --adddev {{/dev/sdXN}}`
 
 - Remove a device from the devices file:
 
-`lvmdevices --deldev {{/dev/sdXN}}`
+`sudo lvmdevices --deldev {{/dev/sdXN}}`
 
 - Add a physical volume by its PVID:
 
-`lvmdevices --addpvid {{PVID}}`
+`sudo lvmdevices --addpvid {{PVID}}`
 
 - Remove a physical volume by its PVID:
 
-`lvmdevices --delpvid {{PVID}}`
+`sudo lvmdevices --delpvid {{PVID}}`
 
 - Update the devices file after device names change:
 
-`lvmdevices --update`
+`sudo lvmdevices --update`
 
 - Check the devices file for problems:
 
-`lvmdevices --check`
+`sudo lvmdevices --check`
 
 - Display version:
 

@@ -2,7 +2,7 @@
 
 > Susun kode sumber C++.
 > Bagian dari GCC (GNU Compiler Collection).
-> Informasi lebih lanjut: <https://gcc.gnu.org>.
+> Informasi lebih lanjut: <https://gcc.gnu.org/onlinedocs/gcc/C_002b_002b-Dialect-Options.html>.
 
 - Ubah suatu berkas kode sumber menjadi program:
 

@@ -17,4 +17,4 @@
 
 - `정규_표현식`과 일치하는 패키지 검색:
 
-`apt-file {{search|find}} --regexp {{정규_표현식}}`
+`apt-file {{search|find}} {{[-x|--regexp]}} {{정규_표현식}}`

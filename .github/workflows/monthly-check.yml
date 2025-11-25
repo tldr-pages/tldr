@@ -21,7 +21,7 @@ jobs:
         key: cache-lychee-${{ github.sha }}
         restore-keys: cache-lychee-
 
-    - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+    - uses: actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3 # v6.0.0
       with:
         fetch-depth: 0
 
@@ -31,7 +31,7 @@ jobs:
         sort -u usernames.txt -o usernames.txt
 
     - name: Lychee URL checker
-      uses: lycheeverse/lychee-action@885c65f3dc543b57c898c8099f4e08c8afd178a2 # v2.6.1
+      uses: lycheeverse/lychee-action@a8c4c7cb88f0c7386610c35eb25108e448569cb0 # v2.7.0
       id: lychee
       continue-on-error: true
       with:

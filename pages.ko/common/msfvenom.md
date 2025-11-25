@@ -1,7 +1,7 @@
 # msfvenom
 
 > Metasploit의 페이로드를 수동으로 생성.
-> 더 많은 정보: <https://github.com/rapid7/metasploit-framework/wiki/How-to-use-msfvenom>.
+> 더 많은 정보: <https://docs.metasploit.com/docs/using-metasploit/basics/how-to-use-msfvenom.html>.
 
 - 페이로드 목록 표시:
 

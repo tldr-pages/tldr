@@ -1,7 +1,7 @@
 # journalctl
 
 > systemd günlüğünü sorgulayın.
-> Daha fazla bilgi için: <https://manned.org/journalctl>.
+> Daha fazla bilgi için: <https://www.freedesktop.org/software/systemd/man/journalctl.html>.
 
 - Kullanılan önyüklemeden 3 öncelik seviyesine sahip tüm mesajları(hataları) gösterin:
 

@@ -2,7 +2,7 @@
 
 > Dex 到 Java 的反编译器。
 > 将 Android Dex 和 APK 文件生成 Java 源代码。
-> 更多信息：<https://github.com/skylot/jadx>.
+> 更多信息：<https://github.com/skylot/jadx#usage>.
 
 - 将一个 Dex 文件反编译到一个目录中：
 

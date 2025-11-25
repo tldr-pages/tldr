@@ -1,7 +1,7 @@
 # nmcli
 
 > Manage the network configuration using NetworkManager.
-> See also: `nmtui`.
+> See also: `nmtui`, `iw`, `iwctl`.
 > More information: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
 
 - View documentation for managing network interfaces and establishing new Wi-Fi connections:

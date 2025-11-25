@@ -358,7 +358,7 @@ If there is no documentation page to be found, you can link to the author's webs
 For commands documented there, we recommend using <https://keith.github.io/xcode-man-pages/>, an HTML export of all Apple's man pages bundled with Xcode.
 
 > [!IMPORTANT]
-> All links must be enclosed inside angular brackets (`<` and `>`).
+> All links must be enclosed inside angular brackets (`<` and `>`)  for proper rendering in clients.
 
 - It is suggested to use a more information link with English content in both translations and English pages. That's because the links can eventually change, but the translations are often out of sync with the English pages.
 
@@ -456,7 +456,7 @@ Try to keep the following order:
 
 For example: `systemctl < input_file.txt status pipewire --user > output_file.txt`
 
-This is only a suggestion and should be disregarded when program functionality or readability dictates otherwise. For example when a page is repeating arguments between commands try to to align them vertically.
+This is only a suggestion and should be disregarded when program functionality or readability dictates otherwise. For example when a page is repeating arguments between commands try to align them vertically.
 
 If the command does multiple things, try to keep the chronological order in which things happen.
 

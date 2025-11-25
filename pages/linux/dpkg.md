@@ -7,11 +7,11 @@
 
 - Install a package:
 
-`dpkg {{[-i|--install]}} {{path/to/file.deb}}`
+`sudo dpkg {{[-i|--install]}} {{path/to/file.deb}}`
 
 - Remove a package:
 
-`dpkg {{[-r|--remove]}} {{package}}`
+`sudo dpkg {{[-r|--remove]}} {{package}}`
 
 - List installed packages:
 
@@ -31,4 +31,4 @@
 
 - Purge an installed or already removed package, including configuration:
 
-`dpkg {{[-P|--purge]}} {{package}}`
+`sudo dpkg {{[-P|--purge]}} {{package}}`

@@ -2,7 +2,7 @@
 
 > 빠르고 로컬에서 동작하는 신경망 기반의 텍스트 음성 변환 시스템.
 > <https://rhasspy.github.io/piper-samples>에서 음성 모델을 시도해보고 다운로드하세요.
-> 더 많은 정보: <https://github.com/rhasspy/piper>.
+> 더 많은 정보: <https://github.com/OHF-Voice/piper1-gpl>.
 
 - 텍스트 음성 변환 [m]모델을 사용하여 WAV [f]파일 출력(모델 경로에 대한 config 파일이 있을 경우):
 

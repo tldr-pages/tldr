@@ -2,7 +2,7 @@
 
 > 웹사이트의 유효한 하위 도메인을 발견.
 > 버그 바운티에 유용하고 침투 테스트에 안전하도록 설계된 패시브 프레임워크.
-> 더 많은 정보: <https://github.com/projectdiscovery/subfinder>.
+> 더 많은 정보: <https://docs.projectdiscovery.io/opensource/subfinder/usage>.
 
 - 특정 [d] 도메인의 하위 도메인 찾기:
 

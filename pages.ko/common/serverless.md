@@ -2,7 +2,7 @@
 
 > AWS, Google Cloud, Azure 및 IBM OpenWhisk에서 서버리스 아키텍처를 배포하고 운영하기 위한 도구 모음.
 > 명령은 `serverless` 명령어 또는 그 별칭인 `sls`를 사용하여 실행할 수 있습니다.
-> 더 많은 정보: <https://serverless.com/>.
+> 더 많은 정보: <https://www.serverless.com/framework/docs/providers/aws/cli-reference>.
 
 - 서버리스 프로젝트 생성:
 

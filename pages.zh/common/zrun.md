@@ -1,7 +1,7 @@
 # zrun
 
 > 透明地将压缩的参数文件解压缩并传递给某个命令。
-> 更多信息：<https://joeyh.name/code/moreutils/>.
+> 更多信息：<https://manned.org/zrun>.
 
 - 使用解压后的压缩参数文件运行指定命令：
 

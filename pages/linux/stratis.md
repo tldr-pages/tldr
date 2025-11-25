@@ -2,7 +2,7 @@
 
 > Manage local storage pools and volumes using the Stratis storage manager.
 > Stratis volumes use the XFS filesystem and require the `stratisd` service.
-> More information: <https://stratis-storage.github.io>.
+> More information: <https://stratis-storage.github.io/howto/>.
 
 - Start the Stratis service (must be active before managing pools or volumes):
 

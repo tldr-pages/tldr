@@ -5,7 +5,7 @@
 
 - Compile one or more C# files to a CIL executable:
 
-`csc {{path/to/input_file_a.cs}} {{path/to/input_file_b.cs}}`
+`csc {{path/to/input_file1.cs path/to/input_file2.cs ...}}`
 
 - Specify the output filename:
 

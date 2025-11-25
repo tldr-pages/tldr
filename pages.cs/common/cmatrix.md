@@ -1,7 +1,7 @@
 # cmatrix
 
 > Zobrazuje v terminálu obrazovku podobnou Matrixu.
-> Více informací: <https://github.com/abishekvashok/cmatrix>.
+> Více informací: <https://manned.org/cmatrix>.
 
 - Povolit [a]synchroní posouvání:
 

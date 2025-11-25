@@ -1,7 +1,7 @@
 # nuclei
 
 > 간단한 YAML 기반 DSL을 사용하는 빠르고 커스터마이즈 가능한 취약점 스캐너.
-> 더 많은 정보: <https://docs.projectdiscovery.io/tools/nuclei/overview>.
+> 더 많은 정보: <https://docs.projectdiscovery.io/tools/nuclei/running>.
 
 - `nuclei` [t]emplates를 최신 버전으로 [u]pdate (다운로드는 `~/nuclei-templates`에 저장됨):
 

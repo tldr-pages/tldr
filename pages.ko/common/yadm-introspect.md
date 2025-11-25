@@ -1,4 +1,4 @@
-# yadm-introspect
+# yadm introspect
 
 > `yadm`으로 관리되는 데이터를 살펴봅니다.
 > 내부 검사의 목적은 명령줄 자동 완성을 지원하는 것입니다.

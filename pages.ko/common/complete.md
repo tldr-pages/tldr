@@ -1,7 +1,7 @@
 # complete
 
 > 쉘 명령어에 자동 완성 인자를 제공합니다.
-> 더 많은 정보: <https://www.gnu.org/software/bash/manual/html_node/Programmable-Completion-Builtins.html#index-complete>.
+> 더 많은 정보: <https://www.gnu.org/software/bash/manual/bash.html#index-complete>.
 
 - 함수에 명령어 자동 완성 기능을 적용합니다:
 

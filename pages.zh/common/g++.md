@@ -2,7 +2,7 @@
 
 > 编译 C++ 源文件。
 > GCC (GNU Compiler Collection) 项目的组件之一。
-> 更多信息：<https://gcc.gnu.org>.
+> 更多信息：<https://gcc.gnu.org/onlinedocs/gcc/C_002b_002b-Dialect-Options.html>.
 
 - 将一组源文件编译为二进制文件：
 

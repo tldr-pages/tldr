@@ -1,7 +1,7 @@
 # journalctl
 
 > Запити до журналу systemd.
-> Більше інформації: <https://manned.org/journalctl>.
+> Більше інформації: <https://www.freedesktop.org/software/systemd/man/journalctl.html>.
 
 - Показати всі повідомлення з рівнем пріоритету 3 (помилки) від цього завантаження:
 

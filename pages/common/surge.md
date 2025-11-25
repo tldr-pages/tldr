@@ -1,7 +1,7 @@
 # surge
 
 > Simple web publishing.
-> More information: <https://surge.sh>.
+> More information: <https://surge.sh/help/>.
 
 - Upload a new site to surge.sh:
 
@@ -9,7 +9,7 @@
 
 - Deploy site to custom domain (note that the DNS records must point to the surge.sh subdomain):
 
-`surge {{path/to/my_project}} {{my_custom_domain.com}}`
+`surge {{path/to/my_project}} {{example.com}}`
 
 - List your surge projects:
 
@@ -17,4 +17,4 @@
 
 - Remove a project:
 
-`surge teardown {{my_custom_domain.com}}`
+`surge teardown {{example.com}}`

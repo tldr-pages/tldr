@@ -1,7 +1,7 @@
 # tldr-lint
 
 > Waliduj i formatuj strony dokumentacji `tldr`.
-> Więcej informacji: <https://github.com/tldr-pages/tldr-lint>.
+> Więcej informacji: <https://github.com/tldr-pages/tldr-lint#usage>.
 
 - Waliduj wszystkie strony:
 

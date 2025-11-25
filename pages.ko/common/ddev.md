@@ -1,7 +1,7 @@
 # ddev
 
 > PHP 환경을 위한 컨테이너 기반 로컬 개발도구.
-> 더 많은 정보: <https://ddev.readthedocs.io>.
+> 더 많은 정보: <https://ddev.readthedocs.io/en/stable/users/usage/cli/>.
 
 - 프로젝트 시작:
 

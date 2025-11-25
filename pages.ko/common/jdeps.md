@@ -1,7 +1,7 @@
 # jdeps
 
 > Java 클래스 의존성 분석기.
-> 더 많은 정보: <https://docs.oracle.com/en/java/javase/20/docs/specs/man/jdeps.html>.
+> 더 많은 정보: <https://docs.oracle.com/en/java/javase/25/docs/specs/man/jdeps.html>.
 
 - `.jar` 또는 `.class` 파일의 의존성을 분석:
 

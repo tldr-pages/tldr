@@ -1,7 +1,7 @@
 # talk
 
 > 시각적 커뮤니케이션 프로그램으로, 사용자의 터미널에서 다른 사용자의 터미널로 라인을 복사합니다.
-> 더 많은 정보: <https://www.gnu.org/software/inetutils/manual/html_node/talk-invocation.html>.
+> 더 많은 정보: <https://www.gnu.org/software/inetutils/manual/inetutils.html#talk-invocation>.
 
 - 동일한 기기에서 사용자의 talk 세션 시작:
 

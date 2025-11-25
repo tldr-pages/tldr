@@ -2,7 +2,7 @@
 
 > Bash 셸 옵션 관리: Bash 셸에 특화된 동작을 제어하는 변수(`$BASHOPTS`에 저장).
 > 일반적인 POSIX 셸 변수는 `set` 명령으로 대신 관리 (`$SHELLOPTS`에 저장).
-> 더 많은 정보: <https://www.gnu.org/software/bash/manual/html_node/The-Shopt-Builtin.html>.
+> 더 많은 정보: <https://www.gnu.org/software/bash/manual/bash.html#The-Shopt-Builtin>.
 
 - 설정 가능한 모든 옵션과 설정 여부 나열:
 

@@ -1,7 +1,7 @@
 # datamash
 
 > 입력 텍스트 데이터 파일에 대해 기본적인 수치, 텍스트 및 통계 작업 수행.
-> 더 많은 정보: <https://www.gnu.org/software/datamash/manual/html_node/Invoking-datamash.html>.
+> 더 많은 정보: <https://www.gnu.org/software/datamash/manual/datamash.html#Invoking-datamash>.
 
 - 한 열의 숫자에 대한 최대값, 최소값, 평균 및 중앙값 계산:
 

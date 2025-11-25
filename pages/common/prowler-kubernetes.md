@@ -22,7 +22,7 @@
 
 - Run checks for selected Kubernetes services:
 
-`prowler kubernetes {{[-s|--services]}} {{ietcd apiserver ...}}`
+`prowler kubernetes {{[-s|--services]}} {{ietcd|apiserver|...}}`
 
 - Run a specific Kubernetes check:
 
@@ -30,4 +30,4 @@
 
 - Exclude specific checks or services:
 
-`prowler kubernetes {{[-e|--excluded-checks]}} {{etcd_encryption}} --exclude-services {{ietcd apiserver ...}}`
+`prowler kubernetes {{[-e|--excluded-checks]}} {{etcd_encryption}} --exclude-services {{ietcd|apiserver|...}}`
