@@ -17,7 +17,7 @@
 
 - Create a cluster using a configuration file and skip creating nodegroups until later:
 
-`eksctl create cluster --config-file=<path> --without-nodegroup`
+`eksctl create cluster --config-file={{path/to/file}} --without-nodegroup`
 
 - Delete a cluster:
 

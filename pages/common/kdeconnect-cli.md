@@ -1,11 +1,11 @@
 # kdeconnect-cli
 
 > Use KDE Connect for sharing files or text to a device, ringing it, unlocking it, and much more.
-> More information: <https://kdeconnect.kde.org>.
+> More information: <https://manned.org/kdeconnect-cli>.
 
 - List all devices:
 
-`kdeconnect-cli --list-devices`
+`kdeconnect-cli {{[-l|--list-devices]}}`
 
 - List available (paired and reachable) devices:
 

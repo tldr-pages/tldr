@@ -17,7 +17,7 @@
 
 - Adiciona uma chave remota na lista de chaves confiáveis:
 
-`wget -qO - {{https://host.tld/arquivo.key}} | apt-key add -`
+`wget {{[-qO|--quiet --output-document]}} - {{https://host.tld/arquivo.key}} | apt-key add -`
 
 - Adiciona uma chave, de um servidor de chaves, na lista de chaves confiáveis:
 

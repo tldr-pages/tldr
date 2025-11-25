@@ -10,7 +10,7 @@
 
 - Show the contents of the initramfs image for the specified kernel:
 
-`lsinitrd --kver {{kernel_version}}`
+`lsinitrd {{[-k|--kver]}} {{kernel_version}}`
 
 - Show the contents of the specified initramfs image:
 
@@ -18,7 +18,7 @@
 
 - List modules included in the initramfs image:
 
-`lsinitrd --mod`
+`lsinitrd {{[-m|--mod]}}`
 
 - Unpack the initramfs to the current directory:
 

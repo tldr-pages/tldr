@@ -17,7 +17,7 @@
 
 - Aggiunge una chiave remota al portachiavi delle chiavi fidate:
 
-`wget -qO - {{https://indirizzo.tld/filename.key}} | apt-key add -`
+`wget {{[-qO|--quiet --output-document]}} - {{https://indirizzo.tld/filename.key}} | apt-key add -`
 
 - Aggiunge una chiave da un server di chiavi con il solo ID della chiave:
 

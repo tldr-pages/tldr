@@ -1,7 +1,7 @@
 # irssi
 
 > Text based IRC client.
-> More information: <https://irssi.org>.
+> More information: <https://manned.org/irssi>.
 
 - Open Irssi and connect to a server with a nickname:
 

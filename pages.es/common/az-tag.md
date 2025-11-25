@@ -6,15 +6,15 @@
 
 - Crea un valor de etiqueta:
 
-`az tag add-value --name {{nombre_de_etiqueta}} --value {{valor_de_etiqueta}}`
+`az tag add-value {{[-n|--name]}} {{nombre_de_etiqueta}} --value {{valor_de_etiqueta}}`
 
 - Crea una etiqueta en la suscripción:
 
-`az tag create --name {{nombre_de_etiqueta}}`
+`az tag create {{[-n|--name]}} {{nombre_de_etiqueta}}`
 
 - Elimina una etiqueta de la suscripción:
 
-`az tag delete --name {{nombre_de_etiqueta}}`
+`az tag delete {{[-n|--name]}} {{nombre_de_etiqueta}}`
 
 - Enumera todas las etiquetas de una suscripción:
 
@@ -22,4 +22,4 @@
 
 - Elimina un valor de etiqueta para un nombre de etiqueta específico:
 
-`az tag remove-value --name {{nombre_de_etiqueta}} --value {{valor_de_etiqueta}}`
+`az tag remove-value {{[-n|--name]}} {{nombre_de_etiqueta}} --value {{valor_de_etiqueta}}`
