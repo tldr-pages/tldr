@@ -9,20 +9,20 @@
 
 - Zeige Informationen zur Temperatur an:
 
-`acpi -t`
+`acpi {{[-t|--thermal]}}`
 
 - Zeige Informationen über die Kühlung an:
 
-`acpi -c`
+`acpi {{[-c|--cooling]}}`
 
 - Zeige Temperatur-Informationen in Fahrenheit an:
 
-`acpi -tf`
+`acpi {{[-tf|--thermal --fahrenheit]}}`
 
 - Zeige alle Informationen an:
 
-`acpi -V`
+`acpi {{[-V|--everything]}}`
 
 - Extrahiere Informationen von `/proc`, anstatt von `/sys`:
 
-`acpi -p`
+`acpi {{[-p|--proc]}}`
