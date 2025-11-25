@@ -2,7 +2,7 @@
 
 > Monitor netfilter events in real time using nftables.
 > Requires `nftables` and kernel NFTRACE/NFTABLES support.
-> More information: <https://manpages.debian.org/testing/nftables/nft.8.en.html>.
+> More information: <https://manned.org/nft#head21>.
 
 - Monitor all nftables events:
 
