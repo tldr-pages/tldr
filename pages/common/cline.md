@@ -1,7 +1,7 @@
 # cline
 
 > AI-powered command-line assistant.
-> More information: <https://github.com/cline/cline-cli>
+> More information: <https://github.com/cline/cline-cli>.
 
 - Ask cline a question:
 `cline "{{How do I list files?}}"`
