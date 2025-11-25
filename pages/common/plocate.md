@@ -2,7 +2,7 @@
 
 > Find filenames quickly.
 > Make sure to run `sudo updatedb` to include new files.
-> More information: <https://plocate.sesse.net>.
+> More information: <https://plocate.sesse.net/plocate.1.html>.
 
 - Look for patterns in the database (recomputed periodically):
 
