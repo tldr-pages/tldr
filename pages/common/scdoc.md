@@ -7,6 +7,6 @@
 
 `scdoc < file.scd > file.1`
 
-- Generate man pages from a scdoc file and pipe to a pager:
+- Generate man pages from a scdoc file and display the generated troff (man) source:
 
 `scdoc < file.scd | {{less}}`
