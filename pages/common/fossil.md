@@ -22,7 +22,7 @@
 
 - Stage a file for removal:
 
-`fossil rm {{path/to/file}}`
+`fossil {{[rm|delete]}} {{path/to/file}}`
 
 - Check in all staged changes:
 
