@@ -1,7 +1,6 @@
 # nft monitor
 
 > Monitor netfilter events in real time using nftables.
-> Displays live changes to rules, tables, sets, counters, and packet flow.
 > Requires `nftables` and kernel NFTRACE/NFTABLES support.
 
 - Monitor all nftables events:
