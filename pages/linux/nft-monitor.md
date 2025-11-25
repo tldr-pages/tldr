@@ -10,7 +10,7 @@
 
 - Monitor only rule updates (add, delete, replace):
 
-`sudo nft monitor rule`
+`sudo nft monitor rules`
 
 - Monitor table and chain creation/deletion:
 
