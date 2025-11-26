@@ -1,4 +1,4 @@
-﻿# cline
+# cline
 
 > AI-powered autonomous coding agent that runs in the terminal.
 > More information: <https://github.com/cline/cline-cli>.
