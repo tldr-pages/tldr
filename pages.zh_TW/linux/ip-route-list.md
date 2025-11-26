@@ -11,7 +11,7 @@
 
 `ip {{[r|route]}} {{[l|list]}} {{[t|table]}} {{main|254}}`
 
-- 顯示 local（本機）路由表：
+- 顯示本機路由表：
 
 `ip {{[r|route]}} {{[l|list]}} {{[t|table]}} {{local|255}}`
 
