@@ -6,7 +6,7 @@
 
 - Generate a private key and encrypt the output file using AES256:
 
-`openssl genpkey -algorithm {{[rsa|ec]}} -out {{private.key}} -aes256`
+`openssl genpkey -algorithm {{rsa|ec}} -out {{private.key}} -aes256`
 
 - Generate the corresponding public key from private key `private.key` using `rsa`:
 
@@ -18,7 +18,7 @@
 
 - Convert certificate to `pem` or `der` format:
 
-`openssl x509 -in {{certificate.crt}} -out {{[certificate.pem|certificate.der]}} -outform {{[pem|der]}}`
+`openssl x509 -in {{certificate.crt}} -out {{certificate.pem|certificate.der}} -outform {{pem|der}}`
 
 - Check certificate details:
 
@@ -27,6 +27,10 @@
 - Generate a certificate signing request (CSR):
 
 `openssl req -new -key {{private.key}} -out {{request.csr}}`
+
+- Display help:
+
+`openssl help`
 
 - Display version:
 
