@@ -23,7 +23,7 @@
 
 `copilot --model "{{gpt-5}}"`
 
-- Allow all Git command except `git push`:
+- Allow all Git commands except `git push`:
 
 `copilot --allow-tool 'shell(git:*)' --deny-tool 'shell(git push)'`
 
