@@ -17,7 +17,7 @@
 
 - Emit a command to be executed by the current instance:
 
-`ya emit {{name}} {{args}}`
+`ya emit {{name}} {{arguments}}`
 
 - Subscribe to messages from all remote instances:
 
