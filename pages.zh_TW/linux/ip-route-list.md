@@ -1,6 +1,6 @@
 # ip route list
 
-> 用於顯示 IP 路由表的子指令.
+> 用於顯示 IP 路由表管理的子指令.
 > 更多資訊: <https://manned.org/ip-route>.
 
 - 顯示 main（主要）路由表：
