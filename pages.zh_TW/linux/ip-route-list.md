@@ -23,7 +23,7 @@
 
 `ip {{[r|route]}} {{[l|list]}} dev {{ethX}}`
 
-- 列出指定 scope（作用範圍）的路由：
+- 列出指定範圍內的路由：
 
 `ip {{[r|route]}} {{[l|list]}} {{[s|scope]}} link`
 
