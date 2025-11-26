@@ -1,7 +1,7 @@
 # scdoc
 
 > Generate `man` manual pages.
-> More information: <https://github.com/ddevault/scdoc>.
+> More information: <https://git.sr.ht/~sircmpwn/scdoc/tree/master/item/scdoc.1.scd>.
 
 - Generate man pages from a scdoc (`.scd`) file:
 
