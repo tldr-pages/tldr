@@ -11,7 +11,7 @@
 
 `wormhole receive {{wormhole_code}}`
 
-- Send raw text:
+- Send raw text interactively:
 
 `wormhole send`
 
