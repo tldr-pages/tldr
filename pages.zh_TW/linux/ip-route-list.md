@@ -27,7 +27,7 @@
 
 `ip {{[r|route]}} {{[l|list]}} {{[s|scope]}} link`
 
-- 顯示 routing cache（路由快取）：
+- 顯示路由快取：
 
 `ip {{[r|route]}} {{[l|list]}} {{[c|cache]}}`
 
