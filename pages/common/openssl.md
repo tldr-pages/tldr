@@ -2,7 +2,7 @@
 
 > OpenSSL cryptographic toolkit.
 > Some subcommands such as `req` have their own usage documentation.
-> More information: <https://www.openssl.org>.
+> More information: <https://docs.openssl.org/master/man1/openssl/>.
 
 - Display help:
 
