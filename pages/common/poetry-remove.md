@@ -3,10 +3,6 @@
 > Remove a package from the project dependencies.
 > More information: <https://python-poetry.org/docs/cli/#remove>.
 
-- Remove a package from the project's dependencies:
-
-`poetry remove {{package}}`
-
 - Remove one or more packages from the project's dependencies:
 
 `poetry remove {{package1 package2 ...}}`
