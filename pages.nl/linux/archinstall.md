@@ -1,7 +1,7 @@
 # archinstall
 
 > Begeleidende Arch Linux installatie met een twist.
-> Meer informatie: <https://archinstall.readthedocs.io>.
+> Meer informatie: <https://archinstall.archlinux.page/installing/guided.html>.
 
 - Start de interactieve installatie:
 
