@@ -2,7 +2,7 @@
 
 > A static website generator based on HTML element tree rewriting.
 > It can also be used as an HTML post-processor or metadata extractor.
-> More information: <https://soupault.app>.
+> More information: <https://soupault.net/reference-manual/>.
 
 - Initialize a minimal website project in the current working directory:
 
