@@ -16,7 +16,7 @@
 
 `openssl {{[rsa|ec]}} -in {{private.key}} -pubout -out {{public.key}}`
 
-- Generate a self-signed certificate valid for {{365}} days:
+- Generate a self-signed certificate valid for a specified number of days (`365`):
 
 `openssl req -new -x509 -key {{private.key}} -out {{certificate.crt}} -days {{365}}`
 
