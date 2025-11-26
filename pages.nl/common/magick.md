@@ -3,7 +3,7 @@
 > Creëer, bewerk, vorm of converteer bitmapafbeeldingen.
 > Deze tool vervangt `convert` in ImageMagick 7+. Bekijk `magick convert` om de oude tool te gebruiken in versies 7+.
 > Sommige subcommando's zoals `mogrify` hebben hun eigen documentatie.
-> Meer informatie: <https://imagemagick.org>.
+> Meer informatie: <https://imagemagick.org/script/magick.php>.
 
 - Converteer tussen afbeeldingsformaten:
 
