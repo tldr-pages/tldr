@@ -1,7 +1,7 @@
 # psalm
 
 > A static analysis tool for finding errors in PHP applications.
-> More information: <https://psalm.dev>.
+> More information: <https://psalm.dev/docs/running_psalm/command_line_usage/#command-line-options>.
 
 - Generate a Psalm configuration:
 

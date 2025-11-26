@@ -1,7 +1,7 @@
 # upx
 
 > Compress or decompress executables.
-> More information: <https://upx.github.io>.
+> More information: <https://github.com/upx/upx/blob/devel/doc/upx.pod>.
 
 - Compress executable:
 

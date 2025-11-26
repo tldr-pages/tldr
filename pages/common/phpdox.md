@@ -1,7 +1,7 @@
 # phpdox
 
 > A PHP documentation generator.
-> More information: <https://phpdox.net>.
+> More information: <https://manned.org/phpdox>.
 
 - Display an annotated skeleton configuration XML file:
 

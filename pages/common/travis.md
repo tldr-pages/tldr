@@ -1,7 +1,7 @@
 # travis
 
 > Interface with Travis CI.
-> More information: <https://github.com/travis-ci/travis.rb>.
+> More information: <https://github.com/travis-ci/travis.rb#command-line-client>.
 
 - Display the client version:
 
