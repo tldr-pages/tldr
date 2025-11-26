@@ -25,4 +25,4 @@
 
 - Publish a message to the current instance with string body:
 
-`ya pub --str {{str}}`
+`ya pub --str "{{message}}"`
