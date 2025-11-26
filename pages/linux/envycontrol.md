@@ -1,7 +1,7 @@
 # envycontrol
 
 > GPU switching utility for Nvidia Optimus laptops.
-> More information: <https://github.com/bayasdev/envycontrol>.
+> More information: <https://github.com/bayasdev/envycontrol#%EF%B8%8F-usage>.
 
 - Switch between different GPU modes:
 

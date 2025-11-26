@@ -2,7 +2,7 @@
 
 > A drop-down terminal for GNOME.
 > See also: `yakuake`.
-> More information: <https://github.com/Guake/guake>.
+> More information: <https://manned.org/guake>.
 
 - Toggle Guake visibility:
 
