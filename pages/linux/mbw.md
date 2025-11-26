@@ -1,7 +1,7 @@
 # mbw
 
 > Memory Bandwidth Benchmark.
-> More information: <https://github.com/raas/mbw>.
+> More information: <https://manned.org/mbw>.
 
 - Run 3 memory bandwidth tests with 512MB size:
 
