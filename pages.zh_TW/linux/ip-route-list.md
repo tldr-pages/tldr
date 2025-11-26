@@ -19,7 +19,7 @@
 
 `ip {{[r|route]}} {{[l|list]}} {{[t|table]}} {{all|unspec|0}}`
 
-- 僅列出指定網路介面的路由：
+- 僅列出指定裝置的路由：
 
 `ip {{[r|route]}} {{[l|list]}} dev {{ethX}}`
 
