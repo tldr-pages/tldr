@@ -1,7 +1,7 @@
 # espeak
 
 > A multi-lingual software speech synthesizer.
-> Note: `espeak` is considered discontinued, as development has shifted to `espeak-ng`
+> Note: `espeak` is considered discontinued, as development has shifted to `espeak-ng`.
 > More information: <https://manned.org/espeak>.
 
 - Speak a phrase aloud:
