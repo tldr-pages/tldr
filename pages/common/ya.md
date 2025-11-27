@@ -21,8 +21,8 @@
 
 - Emit a command to be executed by the current instance:
 
-`ya emit {{name}} {{args}}`
+`ya emit {{name}} {{arguments}}`
 
 - Publish a message to the current instance with string body:
 
-`ya pub --str {{str}}`
+`ya pub --str {{string_message}}`
