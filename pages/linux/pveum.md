@@ -22,3 +22,7 @@
 - Delete a user:
 
 `pveum {{[u|user]}} {{[d|delete]}} {{username}}@pve`
+
+- Give a user access to a specific VM with specific permissions:
+
+`pveum {{[a|acl]}} {{[m|modify]}} /vms/{{1000}} --user {{username}}@pve --role {{PVEVMUser}}`
