@@ -5,26 +5,45 @@
 const { glob } = require('glob');
 const { sep } = require('path');
 
+/**
+ * Parse the OS/platform from a page file path.
+ */
 function parsePlatform(pagefile) {
   return pagefile.split(sep)[1];
 }
 
+/**
+ * Parse the page name from a page file path.
+ */
 function parsePagename(pagefile) {
   return pagefile.split(sep)[2].replace(/\.md$/, '');
 }
 
+/**
+ * Determine the language of the page.
+ */
 function parseLanguage(pagefile) {
-  let pagesFolder = pagefile.split(sep)[0];
-  return pagesFolder == 'pages' ? 'en' : pagesFolder.replace(/^pages\./, '');
+  const pagesFolder = pagefile.split(sep)[0];
+  return pagesFolder === 'pages' ? 'en' : pagesFolder.replace(/^pages\./, '');
 }
 
+/**
+ * Build an index of all pages with their platforms and languages.
+ */
 function buildPagesIndex(files) {
-  let reducer = function (index, file) {
-    let os = parsePlatform(file);
-    let page = parsePagename(file);
-    let language = parseLanguage(file);
+  const reducer = (index, file) => {
+    const os = parsePlatform(file);
+    const page = parsePagename(file);
+    const language = parseLanguage(file);
 
-    if (index[page]) {
+    if (!index[page]) {
+      index[page] = {
+        name: page,
+        platform: [os],
+        language: [language],
+        targets: [{ os, language }],
+      };
+    } else {
       if (!index[page].platform.includes(os)) {
         index[page].platform.push(os);
       }
@@ -33,53 +52,47 @@ function buildPagesIndex(files) {
         index[page].language.push(language);
       }
 
-      const targets = index[page].targets;
-      const exists = targets.some((t) => t.os === os && t.language === language);
+      const exists = index[page].targets.some(
+        (t) => t.os === os && t.language === language
+      );
       if (!exists) {
-        targets.push({os, language})
+        index[page].targets.push({ os, language });
       }
-    } else {
-      index[page] = {
-        name: page,
-        platform: [os],
-        language: [language],
-        targets: [{os, language}]
-      };
     }
 
     return index;
   };
 
-  let obj = files.reduce(reducer, {});
+  const obj = files.reduce(reducer, {});
 
   return Object.keys(obj)
-      .sort()
-      .map(function(page) {
-        return {
-          name: page,
-          platform: obj[page].platform,
-          language: obj[page].language,
-          targets: obj[page].targets
-        };
-      });
+    .sort()
+    .map((page) => ({
+      name: page,
+      platform: obj[page].platform,
+      language: obj[page].language,
+      targets: obj[page].targets,
+    }));
 }
 
+/**
+ * Output the final index JSON.
+ */
 function saveIndex(index) {
-  let indexFile = {
-    commands: index
-  };
-
-  console.log(JSON.stringify(indexFile));
+  const indexFile = { commands: index };
+  console.log(JSON.stringify(indexFile, null, 2));
 }
 
+// Main execution
 (async () => {
-  const files = await glob('pages*/**/*.md');
-  let index = buildPagesIndex(files);
-  saveIndex(index);
-})().then(() => {
-  process.exit(0);
-}).catch((err) => {
-  console.error('ERROR building index!');
-  console.error(err);
-  process.exit(1);
-});
+  try {
+    const files = await glob('pages*/**/*.md');
+    const index = buildPagesIndex(files);
+    saveIndex(index);
+    process.exit(0);
+  } catch (err) {
+    console.error('ERROR building index!');
+    console.error(err);
+    process.exit(1);
+  }
+})();
