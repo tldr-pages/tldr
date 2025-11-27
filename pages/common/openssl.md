@@ -2,7 +2,7 @@
 
 > OpenSSL cryptographic toolkit.
 > Some subcommands such as `req` have their own usage documentation.
-> More information: <https://wiki.openssl.org/index.php/Command_Line_Utilities>.
+> More information: <https://docs.openssl.org/master/man1/openssl/>.
 
 - Generate a private key and encrypt the output file using AES256:
 
