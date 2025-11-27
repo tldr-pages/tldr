@@ -7,6 +7,6 @@
 
 `{{path/to/start-server.sh}}`
 
-Start a server with a specific name
+- Start a server with a specific name
 
 `{{path/to/start-server.sh}} -servername {{server_name}}`
