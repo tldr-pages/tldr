@@ -1,6 +1,6 @@
 # pacreport
 
-> Generate a report of installed packages, including unneeded dependencies, missing files, and cache sizes.
+> Generate a report of installed packages.
 > More information: <https://github.com/andrewgregory/pacutils/blob/master/doc/pacreport.pod>.
 
 - Generate a summary of installed packages:
