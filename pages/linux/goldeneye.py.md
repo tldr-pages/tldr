@@ -9,7 +9,7 @@
 
 - Test a specific website with 100 user agents and 200 concurrent sockets:
 
-`{{path/to/}}goldeneye.py {{url}} --useragents 100 --sockets 200`
+`{{path/to/}}goldeneye.py {{url}} {{[-u|--useragents]}} 100 {{[-s|--sockets]}} 200`
 
 - Test a specific website without verifying the SSL certificate:
 
