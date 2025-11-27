@@ -11,6 +11,10 @@
 
 `pveum {{[u|user]}} {{[a|add]}} {{username}}@pve`
 
+- Add a user with an email, description, and password:
+
+`pveum {{[u|user]}} {{[a|add]}} {{username}}@pve --email {{email_address}} --comment {{description}} --password {{password}}`
+
 - Change user password:
 
 `pveum {{[pa|passwd]}} {{[username}}@pve`
