@@ -9,4 +9,4 @@
 
 - Generate man pages from a scdoc file and display the generated troff (man) source:
 
-`scdoc < file.scd | {{less}}`
+`scdoc < {{path/to/file.scd}} | {{less}}`
