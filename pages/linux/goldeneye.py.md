@@ -21,4 +21,4 @@
 
 - Display help:
 
-`{{path/to/}}goldeneye.py --help`
+`{{path/to/}}goldeneye.py {{[-h|--help]}}`
