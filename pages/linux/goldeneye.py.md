@@ -1,7 +1,7 @@
 # goldeneye.py
 
 > A HTTP DoS test tool.
-> More information: <https://github.com/jseidl/GoldenEye>.
+> More information: <https://github.com/jseidl/GoldenEye#usage>.
 
 - Test a specific website:
 
