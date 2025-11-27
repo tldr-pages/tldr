@@ -13,7 +13,7 @@
 
 - Test a specific website without verifying the SSL certificate:
 
-`{{path/to/}}goldeneye.py {{url}} --nosslcheck`
+`{{path/to/}}goldeneye.py {{url}} {{[-n|--nosslcheck]}}`
 
 - Test a specific website in debug mode:
 
