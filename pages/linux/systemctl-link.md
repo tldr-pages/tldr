@@ -10,4 +10,4 @@
 
 - Link multiple unit files at once:
 
-`systemctl link /{{path/to/service1 /path/to/service2 ...}}`
+`systemctl link {{path/to/service1 path/to/service2 ...}}`
