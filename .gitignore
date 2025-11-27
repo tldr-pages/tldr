@@ -1,23 +1,19 @@
-# VS Code
+# IDEs
 .vscode/
-
-# Jetbrains IDE
 .idea/
 
-# macOS filesystem custom folder attributes
+# macOS
 .DS_Store
 
-# Bundler-specific files
+# Ruby / Bundler
 .gem
 .bundle
 
-# npm-specific files
-node_modules
+# Node.js / npm
+node_modules/
 npm-debug.log
 
-# We used to have an index file in the repository,
-# but it's been superseded by a static asset
-# hosted at https://tldr-pages.github.io/assets/index.json
+# Static asset / index files
 pages/index.json
 index.json
 
@@ -25,12 +21,11 @@ index.json
 scripts/pdf/*.html
 scripts/pdf/tldr-pages.pdf
 
-# Python venv for testing the PDF script
-# Create it with: python3 -m venv scripts/pdf/venv/
-venv
+# Python virtual environment
+scripts/pdf/venv/
 
-# Generated pycache
-__pycache__
+# Python cache
+__pycache__/
 
-# Generated log
+# Logs
 debug.log
