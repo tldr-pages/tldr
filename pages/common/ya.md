@@ -15,14 +15,14 @@
 
 `ya pkg upgrade`
 
+- List all packages:
+
+`ya pkg list`
+
 - Emit a command to be executed by the current instance:
 
-`ya emit {{name}} {{arguments}}`
-
-- Subscribe to messages from all remote instances:
-
-`ya sub {{kinds}}`
+`ya emit {{name}} {{args}}`
 
 - Publish a message to the current instance with string body:
 
-`ya pub --str "{{message}}"`
+`ya pub --str {{str}}`
