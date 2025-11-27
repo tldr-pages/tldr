@@ -6,3 +6,7 @@
 - Move the root filesystem of a container to a different storage:
 
 `pct {{[mov|move-volume]}} {{100}} rootfs {{storage_id}}`
+
+- Delete the filesystem association once the move is complete:
+
+`pct {{[mov|move-volume]}} {{100}} rootfs {{storage_id}} --delete`
