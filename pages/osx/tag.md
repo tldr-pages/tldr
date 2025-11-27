@@ -1,7 +1,7 @@
 # tag
 
 > Edit tags on Mac OS X files (10.9 Mavericks and above).
-> More information: <https://github.com/jdberry/tag/>.
+> More information: <https://github.com/jdberry/tag/#usage>.
 
 - Add tags to a file:
 
