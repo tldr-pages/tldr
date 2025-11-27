@@ -11,6 +11,10 @@
 
 `pveum {{[u|user]}} {{[a|add]}} {{username}}@pve`
 
+- Change user password:
+
+`pveum {{[pa|passwd]}} {{[username}}@pve`
+
 - Delete a user:
 
 `pveum {{[u|user]}} {{[d|delete]}} {{username}}@pve`
