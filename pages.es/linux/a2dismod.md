@@ -9,4 +9,4 @@
 
 - Deshabilita un módulo sin mostrar mensajes informativos:
 
-`sudo a2dismod --quiet {{módulo}}`
+`sudo a2dismod {{[-q|--quiet]}} {{módulo}}`
