@@ -6,23 +6,23 @@
 
 - Install a package from a repository:
 
-`pactrans --install {{package_name}}`
+`sudo pactrans --install {{package_name}}`
 
 - Remove a package:
 
-`pactrans --remove {{package_name}}`
+`sudo pactrans --remove {{package_name}}`
 
 - Upgrade all installed packages:
 
-`pactrans --sysupgrade`
+`sudo pactrans --sysupgrade`
 
 - Install a package file:
 
-`pactrans --file {{path/to/package.pkg.tar.zst}}`
+`sudo pactrans --file {{path/to/package.pkg.tar.zst}}`
 
 - Replace a locally installed package with a package from a repository:
 
-`pactrans local/{{package_to_remove}} {{repository_name}}/{{package_to_install}}`
+`sudo pactrans local/{{package_to_remove}} {{repository_name}}/{{package_to_install}}`
 
 - Print what the transaction would do without performing it:
 
