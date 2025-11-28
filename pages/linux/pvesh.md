@@ -18,3 +18,7 @@
 - Display API path usage instructions:
 
 `pvesh {{[u|usage]}} {{/pools}}`
+
+- Add a new thinpool to Proxmox:
+
+`pvesh create /storage --storage {{storage_id}} --vgname {{volume_group}} --type lvmthin --thinpool {{thinpool_name}} --content {{content_type1,content_type2,...}}`
