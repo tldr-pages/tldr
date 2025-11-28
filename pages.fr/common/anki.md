@@ -1,7 +1,7 @@
 # anki
 
 > Programme de cartes mémo-techniques, puissant et intelligent.
-> Plus d'informations : <https://docs.ankiweb.net>.
+> Plus d'informations : <https://manned.org/anki>.
 
 - Lancer `anki`:
 

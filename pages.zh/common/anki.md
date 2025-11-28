@@ -1,7 +1,7 @@
 # anki
 
 > 强大、智能的记忆卡片软件。
-> 更多信息：<https://docs.ankiweb.net>.
+> 更多信息：<https://manned.org/anki>.
 
 - 启动 `anki`：
 

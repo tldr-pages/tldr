@@ -1,7 +1,7 @@
 # redis-server
 
 > Persistent key-value database.
-> More information: <https://redis.io>.
+> More information: <https://redis.io/learn/operate/redis-at-scale/talking-to-redis/configuring-a-redis-server>.
 
 - Start Redis server, using the default port (6379), and write logs to `stdout`:
 

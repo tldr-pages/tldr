@@ -5,7 +5,7 @@
 
 - Clone a container:
 
-`pct clone {{template_id}} {{copy_id}}`
+`pct {{[cl|clone]}} {{template_id}} {{copy_id}}`
 
 - Clone a container with a custom name:
 

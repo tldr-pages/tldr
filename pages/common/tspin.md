@@ -1,7 +1,7 @@
 # tspin
 
 > A log file highlighter based on the `less` pager and basically behaves like any pager.
-> More information: <https://github.com/bensadeh/tailspin>.
+> More information: <https://github.com/bensadeh/tailspin#settings>.
 
 - Read from file and view in `less`:
 

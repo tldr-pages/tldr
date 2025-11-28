@@ -1,7 +1,7 @@
 # joe
 
 > Joe 自己的文本编辑器。
-> 更多信息：<https://joe-editor.sourceforge.io>.
+> 更多信息：<https://joe-editor.sourceforge.io/4.6/man.html>.
 
 - 在 JOE 中打开一个新文件：
 

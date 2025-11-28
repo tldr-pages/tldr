@@ -2,7 +2,7 @@
 
 > Een tool om `bspwm` te besturen.
 > Zie ook: `bspwm`.
-> Meer informatie: <https://github.com/baskerville/bspwm>.
+> Meer informatie: <https://github.com/baskerville/bspwm/blob/master/doc/bspwm.1.asciidoc>.
 
 - Definieer twee virtuele bureaubladen:
 

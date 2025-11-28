@@ -1,7 +1,7 @@
 # netselect
 
 > 빠른 네트워크 서버 선택을 위한 속도 테스트.
-> 더 많은 정보: <https://github.com/apenwarr/netselect>.
+> 더 많은 정보: <https://manned.org/netselect>.
 
 - 지연 시간이 가장 낮은 서버 선택:
 

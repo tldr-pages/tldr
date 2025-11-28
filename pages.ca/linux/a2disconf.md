@@ -9,4 +9,4 @@
 
 - No mostris missatges informatius:
 
-`sudo a2disconf --quiet {{fitxer_configuració}}`
+`sudo a2disconf {{[-q|--quiet]}} {{fitxer_configuració}}`

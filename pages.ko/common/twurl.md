@@ -1,7 +1,7 @@
 # twurl
 
 > Twitter API에 특화된 Curl과 유사한 명령어.
-> 더 많은 정보: <https://github.com/twitter/twurl>.
+> 더 많은 정보: <https://github.com/twitter/twurl#getting-started>.
 
 - Twitter 계정에 대한 접근을 승인:
 

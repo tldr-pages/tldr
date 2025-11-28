@@ -1,7 +1,7 @@
 # mumble
 
 > 저지연, 고품질 음성 채팅 소프트웨어.
-> 더 많은 정보: <https://www.mumble.info>.
+> 더 많은 정보: <https://manned.org/mumble>.
 
 - Mumble 열기:
 

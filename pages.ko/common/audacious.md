@@ -1,7 +1,7 @@
 # audacious
 
 > 오픈 소스 오디오 플레이어.
-> 더 많은 정보: <https://audacious-media-player.org>.
+> 더 많은 정보: <https://manned.org/audacious>.
 
 - 프로그램 실행:
 

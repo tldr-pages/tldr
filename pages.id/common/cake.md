@@ -1,7 +1,7 @@
 # cake
 
 > Alat baris perintah untuk memproses proyek aplikasi web berbasis framework CakePHP.
-> Informasi lebih lanjut: <https://cakephp.org>.
+> Informasi lebih lanjut: <https://book.cakephp.org/5/en/console-commands.html#cakephp-provided-commands>.
 
 - Tampilkan informasi dasar mengenai proyek aplikasi saat ini beserta daftar perintah:
 

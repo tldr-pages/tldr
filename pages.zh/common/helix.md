@@ -2,7 +2,7 @@
 
 > Helix，一个后现代的文本编辑器，为不同类型的文本操作提供了几种模式。
 > 按 `<i>` 进入插入模式。按 `<Esc>` 进入正常模式，并且可以使用 Helix 命令。
-> 更多信息：<https://helix-editor.com>.
+> 更多信息：<https://manpages.debian.org/testing/hx/editor.1.en.html>.
 
 - 打开文件：
 

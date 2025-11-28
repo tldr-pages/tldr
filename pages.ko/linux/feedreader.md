@@ -2,7 +2,7 @@
 
 > GUI 데스크톱 RSS 클라이언트.
 > 참고: FeedReader는 더 이상 유지 관리되지 않습니다.
-> 더 많은 정보: <https://github.com/jangernert/FeedReader>.
+> 더 많은 정보: <https://manned.org/feedreader>.
 
 - 읽지 않은 기사 수 출력:
 

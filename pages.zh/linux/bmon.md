@@ -1,7 +1,7 @@
 # bmon
 
 > 监控带宽并捕获网络相关统计信息。
-> 更多信息：<https://github.com/tgraf/bmon>.
+> 更多信息：<https://manned.org/bmon>.
 
 - 显示所有接口的列表：
 

@@ -1,7 +1,7 @@
 # eslint
 
 > JavaScript 및 JSX용 플러그형 린팅 유틸리티.
-> 더 많은 정보: <https://eslint.org>.
+> 더 많은 정보: <https://eslint.org/docs/latest/use/command-line-interface>.
 
 - ESLint 구성파일 생성:
 

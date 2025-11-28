@@ -1,7 +1,7 @@
 # qm shutdown
 
 > Apaga una máquina virtual del administrador de máquinas virtuales QEMU/KVM.
-> Más información: <https://pve.proxmox.com/pve-docs/qm.1.html>.
+> Más información: <https://pve.proxmox.com/pve-docs/qm.1.html#cli_qm_shutdown>.
 
 - Apaga una máquina virtual:
 

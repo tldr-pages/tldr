@@ -1,7 +1,7 @@
 # ugrep
 
 > Ultraschnelles Suchtool mit Abfrage-TUI.
-> Weitere Informationen: <https://github.com/Genivia/ugrep>.
+> Weitere Informationen: <https://github.com/Genivia/ugrep#man-page>.
 
 - Starte eine interaktive TUI um rekursiv nach Dateien im aktuellen Verzeichnis zu suchen (`<Ctrl z>` für Hilfe):
 

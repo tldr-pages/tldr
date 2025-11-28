@@ -2,7 +2,7 @@
 
 > Archive file manager.
 > Various archive formats can be created, extracted, tested, listed, searched, repacked, and compared.
-> More information: <https://github.com/wummel/patool>.
+> More information: <https://github.com/wummel/patool/blob/master/doc/patool.txt>.
 
 - Extract an archive:
 

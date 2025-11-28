@@ -3,7 +3,7 @@
 > `transcrypt`가 설치된 경우, 이 명령을 통해 `transcrypt`에 직접 옵션을 전달할 수 있습니다.
 > yadm 저장소를 사용하도록 환경이 구성되어 있습니다.
 > Transcrypt는 Git 저장소의 파일에 대해 투명한 암호화 및 복호화를 지원합니다.
-> 더 많은 정보: <https://github.com/elasticdog/transcrypt>.
+> 더 많은 정보: <https://github.com/elasticdog/transcrypt#command-line-options>.
 
 - 암호화에 사용할 대칭 암호 설정:
 

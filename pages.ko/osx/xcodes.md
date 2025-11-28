@@ -2,7 +2,7 @@
 
 > 여러 Xcode 버전을 다운로드, 설치 및 관리.
 > 같이 보기: `xcodes runtimes`.
-> 더 많은 정보: <https://github.com/xcodesorg/xcodes>.
+> 더 많은 정보: <https://github.com/xcodesorg/xcodes#commands>.
 
 - 설치된 모든 Xcode 버전 나열:
 

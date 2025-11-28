@@ -1,7 +1,7 @@
 # qm config
 
 > Muestra la configuración de la máquina virtual con los cambios de configuración pendientes aplicados.
-> Más información: <https://pve.proxmox.com/pve-docs/qm.1.html>.
+> Más información: <https://pve.proxmox.com/pve-docs/qm.1.html#cli_qm_config>.
 
 - Muestra la configuración de la máquina virtual:
 

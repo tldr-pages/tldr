@@ -1,7 +1,7 @@
 # darling
 
 > Executa software do macOS no Linux.
-> Mais informações: <https://darlinghq.org>.
+> Mais informações: <https://docs.darlinghq.org/darling-shell.html>.
 
 - Executa um comando integrado:
 

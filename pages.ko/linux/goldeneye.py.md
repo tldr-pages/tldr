@@ -1,7 +1,7 @@
 # goldeneye.py
 
 > HTTP DoS 테스트 도구.
-> 더 많은 정보: <https://github.com/jseidl/GoldenEye>.
+> 더 많은 정보: <https://github.com/jseidl/GoldenEye#usage>.
 
 - 특정 웹사이트를 테스트:
 
