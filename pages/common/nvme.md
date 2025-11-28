@@ -10,3 +10,7 @@
 - Show device information:
 
 `sudo nvme smart-log {{device}}`
+
+Secure erase user data on nvme device:  
+
+- `sudo nvme format -s1 {{-n|--namespace}} {{-r|--reset}} {{device}}`
