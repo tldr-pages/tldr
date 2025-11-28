@@ -1,7 +1,7 @@
 # pkgctl release
 
 > Release step to commit, tag and upload build artifacts.
-> More information: <https://manned.org/pkgctl-release.1>.
+> More information: <https://manned.org/pkgctl-release>.
 
 - Release a build artifact:
 
