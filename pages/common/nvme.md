@@ -1,7 +1,7 @@
 # nvme
 
 > NVMe storage user space utility.
-> More information: <https://github.com/linux-nvme/nvme-cli>.
+> More information: <https://manned.org/nvme>.
 
 - List all nvme devices:
 
