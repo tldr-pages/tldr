@@ -17,4 +17,4 @@
 
 - Display all available options and their status:
 
-'set -o'
+`set -o`
