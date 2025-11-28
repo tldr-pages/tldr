@@ -7,3 +7,7 @@
 - Run a Vulkan test window:
 
 `vkcube`
+
+- Display help:
+
+`vkcube -h`
