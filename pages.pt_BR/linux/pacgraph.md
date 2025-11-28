@@ -1,7 +1,7 @@
 # pacgraph
 
 > Desenha um grafo de pacotes instalados para PNG/SVG/GUI/console.
-> Mais informações: <https://github.com/keenerd/pacgraph>.
+> Mais informações: <https://manned.org/pacgraph>.
 
 - Produz um grafo em SVG e PNG:
 

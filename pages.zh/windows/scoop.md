@@ -1,7 +1,7 @@
 # scoop
 
 > Windows 的命令行安装程序。
-> 更多信息：<https://scoop.sh>.
+> 更多信息：<https://github.com/ScoopInstaller/Scoop/wiki/Commands>.
 
 - 安装一个包：
 

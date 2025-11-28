@@ -1,7 +1,7 @@
 # yapf
 
 > Python 风格指南检查器。
-> 更多信息：<https://github.com/google/yapf>.
+> 更多信息：<https://github.com/google/yapf#usage>.
 
 - 显示将要进行的更改的差异，但不实际更改（试运行）：
 

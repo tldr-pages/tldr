@@ -1,7 +1,7 @@
 # paru
 
 > Un asistente del AUR y envoltorio para pacman.
-> Más información: <https://github.com/Morganamilo/paru>.
+> Más información: <https://github.com/Morganamilo/paru#examples>.
 
 - Busca e instala un paquete de forma interactiva:
 

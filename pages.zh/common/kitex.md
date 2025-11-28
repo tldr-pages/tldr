@@ -2,7 +2,7 @@
 
 > Kitex 是 Go RPC 框架 Kitex 框架提供的用于生成代码的一个命令行工具。
 > 目前，kitex 支持 thrift 和 protobuf 的 IDL，并支持生成一个服务端项目的骨架。
-> 更多信息：<https://www.cloudwego.io>.
+> 更多信息：<https://www.cloudwego.io/docs/kitex/tutorials/code-gen/code_generation/#generate-code>.
 
 - 生成客户端代码，项目在 `$GOPATH` 目录下：
 

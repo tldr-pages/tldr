@@ -1,7 +1,7 @@
 # viu
 
 > 터미널에서 이미지를 보기.
-> 더 많은 정보: <https://github.com/atanunq/viu>.
+> 더 많은 정보: <https://github.com/atanunq/viu#command-line-options>.
 
 - 이미지 또는 애니메이션 GIF 렌더링:
 

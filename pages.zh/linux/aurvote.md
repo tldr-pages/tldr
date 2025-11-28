@@ -2,7 +2,7 @@
 
 > 为 AUR 中的包投票。
 > 为了投票成功，文件 `~/.config/aurvote` 必须存在并包含你的 AUR 身份凭证。
-> 更多信息：<https://github.com/archlinuxfr/aurvote>.
+> 更多信息：<https://github.com/archlinuxfr/aurvote#name>.
 
 - 交互式创建包含你的 AUR 用户名和密码的 `~/.config/aurvote` 文件：
 

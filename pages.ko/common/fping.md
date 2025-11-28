@@ -1,7 +1,7 @@
 # fping
 
 > 여러 호스트에 ping을 보낼 수 있는 더욱 강력한 ping.
-> 더 많은 정보: <https://fping.org>.
+> 더 많은 정보: <https://fping.org/fping.8.html>.
 
 - 범위 내의 모든 호스트 상태를 나열:
 

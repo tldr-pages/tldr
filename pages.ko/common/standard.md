@@ -1,7 +1,7 @@
 # standard
 
 > JavaScript 코드의 린트 및 수정을 위한 JavaScript Standard Style 도구.
-> 더 많은 정보: <https://standardjs.com>.
+> 더 많은 정보: <https://standardjs.com/#usage>.
 
 - 현재 디렉토리의 모든 JavaScript 소스 파일을 린트:
 

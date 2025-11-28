@@ -2,7 +2,7 @@
 
 > Configura e controla `bspwm`, gerenciando nós, áreas de trabalho, monitores, e outros.
 > Veja também: `bspwm`.
-> Mais informações: <https://github.com/baskerville/bspwm>.
+> Mais informações: <https://github.com/baskerville/bspwm/blob/master/doc/bspwm.1.asciidoc>.
 
 - Define duas áreas de trabalho virtuais:
 

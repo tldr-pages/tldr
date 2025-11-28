@@ -9,20 +9,20 @@
 
 - Upload a file showing a progress bar (requires Python package `requests_toolbelt`):
 
-`transfersh --progress {{path/to/file}}`
+`transfersh {{[-p|--progress]}} {{path/to/file}}`
 
 - Upload a file using a different file name:
 
-`transfersh --name {{filename}} {{path/to/file}}`
+`transfersh {{[-n|--name]}} {{filename}} {{path/to/file}}`
 
 - Upload a file to a custom transfer.sh server:
 
-`transfersh --servername {{upload.server.name}} {{path/to/file}}`
+`transfersh {{[-sn|--servername]}} {{upload.server.name}} {{path/to/file}}`
 
 - Upload all files from a directory recursively:
 
-`transfersh --recursive {{path/to/directory}}/`
+`transfersh {{[-r|--recursive]}} {{path/to/directory}}/`
 
 - Upload a specific directory as an uncompressed tar:
 
-`transfersh -rt {{path/to/directory}}`
+`transfersh {{[-rt|--recursive --tar]}} {{path/to/directory}}`

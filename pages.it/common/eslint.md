@@ -1,7 +1,7 @@
 # eslint
 
 > Utilità di linting per JavaScript e JSX.
-> Maggiori informazioni: <https://eslint.org>.
+> Maggiori informazioni: <https://eslint.org/docs/latest/use/command-line-interface>.
 
 - Crea una configurazione eslint:
 

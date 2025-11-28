@@ -1,7 +1,7 @@
 # k3d
 
 > A wrapper to easily create k3s clusters inside Docker.
-> More information: <https://k3d.io>.
+> More information: <https://k3d.io/stable/usage/commands/>.
 
 - Create a cluster:
 
@@ -17,7 +17,7 @@
 
 - Import an image from Docker into a k3d cluster:
 
-`k3d image import {{image_name}} --cluster {{cluster_name}}`
+`k3d image import {{image_name}} {{[-c|--cluster]}} {{cluster_name}}`
 
 - Create a new registry:
 

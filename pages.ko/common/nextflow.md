@@ -1,7 +1,7 @@
 # nextflow
 
 > 계산 파이프라인 실행. 주로 생물정보학 워크플로우에 사용됩니다.
-> 더 많은 정보: <https://www.nextflow.io>.
+> 더 많은 정보: <https://www.nextflow.io/docs/latest/cli.html>.
 
 - 파이프라인 실행, 이전 실행의 캐시된 결과 사용:
 

@@ -2,7 +2,7 @@
 
 > Scoop パッケージマネージャ。
 > `bucket` のようないくつかのサブコマンドには、使用方法についての独自のドキュメントがあります。
-> もっと詳しく: <https://scoop.sh>。
+> もっと詳しく: <https://github.com/ScoopInstaller/Scoop/wiki/Commands>。
 
 - パッケージをインストールする:
 

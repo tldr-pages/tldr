@@ -1,7 +1,7 @@
 # decaffeinate
 
 > CoffeeScript 소스를 최신 JavaScript로 이동.
-> 더 많은 정보: <https://decaffeinate-project.org>.
+> 더 많은 정보: <https://www.npmjs.com/package/decaffeinate#common-options>.
 
 - CoffeeScript 파일을 JavaScript로 변환:
 

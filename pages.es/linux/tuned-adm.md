@@ -1,7 +1,7 @@
 # tuned-adm
 
 > Gestiona y optimiza los perfiles de ajuste del rendimiento del sistema en Linux.
-> Más información: <https://tuned-project.org>.
+> Más información: <https://manned.org/tuned-adm>.
 
 - Lista de perfiles disponibles:
 

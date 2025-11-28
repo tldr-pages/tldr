@@ -1,7 +1,7 @@
 # mysides
 
 > Añade, lista y elimina favoritos del Finder.
-> Más información: <https://github.com/mosen/mysides>.
+> Más información: <https://github.com/mosen/mysides#usage>.
 
 - Lista favoritos de la barra lateral:
 

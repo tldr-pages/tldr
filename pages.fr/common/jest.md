@@ -1,7 +1,7 @@
 # jest
 
 > Une plateforme de test JavaScript sans configuration.
-> Plus d'informations : <https://jestjs.io>.
+> Plus d'informations : <https://jestjs.io/docs/cli>.
 
 - Exécuter tous les tests disponibles :
 

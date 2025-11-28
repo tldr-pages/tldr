@@ -1,7 +1,7 @@
 # elm
 
 > Compila ed esegui file sorgente Elm.
-> Maggiori informazioni: <https://elm-lang.org>.
+> Maggiori informazioni: <https://guide.elm-lang.org/install/elm.html>.
 
 - Inizializza un progetto Elm, generando un file `elm.json`:
 

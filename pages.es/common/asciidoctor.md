@@ -1,7 +1,7 @@
 # asciidoctor
 
 > Un procesador que convierte archivos AsciiDoc a un formato publicable.
-> Más información: <https://docs.asciidoctor.org>.
+> Más información: <https://docs.asciidoctor.org/asciidoctor/latest/cli/man1/asciidoctor/>.
 
 - Convierte un archivo `.adoc` específico a HTML (el formato de salida por defecto):
 

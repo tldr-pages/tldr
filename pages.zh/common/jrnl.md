@@ -1,7 +1,7 @@
 # jrnl
 
 > 一个简单的命令行日记应用程序。
-> 更多信息：<https://jrnl.sh>.
+> 更多信息：<https://jrnl.sh/en/stable/reference-command-line/>.
 
 - 使用编辑器插入一个新条目：
 

@@ -1,7 +1,7 @@
 # todo
 
 > Un semplice gestore per i todo da linea di comando.
-> Maggiori informazioni: <https://todoman.readthedocs.io>.
+> Maggiori informazioni: <https://todoman.readthedocs.io/en/stable/man.html>.
 
 - Elenco dei task che possono essere inizializzati:
 

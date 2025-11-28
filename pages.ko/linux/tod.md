@@ -2,7 +2,7 @@
 
 > Rust로 작성된 간단한 Todoist 클라이언트.
 > 간단한 입력을 받아 인박스 또는 다른 프로젝트에 저장합니다. 자연어 처리를 활용하여 기한, 태그 등을 할당합니다.
-> 더 많은 정보: <https://github.com/alanvardy/tod>.
+> 더 많은 정보: <https://github.com/tod-org/tod/blob/main/docs/usage.md#usage>.
 
 - 프로젝트 가져오기(프로젝트 프롬프트를 활성화하려면 필요):
 

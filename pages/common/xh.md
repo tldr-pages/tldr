@@ -3,7 +3,7 @@
 > Friendly and fast tool for sending HTTP requests.
 > Note: `xh`, written in rust, serves as an effective drop-in replacement for `http`.
 > See also: `http`, `curl`.
-> More information: <https://github.com/ducaale/xh>.
+> More information: <https://github.com/ducaale/xh#usage>.
 
 - Send a GET request (shows response headers and content):
 

@@ -1,7 +1,7 @@
 # jmeter
 
 > 기능적 동작의 부하 테스트 및 성능 측정을 위해 설계된 오픈 소스 Java 애플리케이션.
-> 더 많은 정보: <https://jmeter.apache.org>.
+> 더 많은 정보: <https://jmeter.apache.org/usermanual/get-started.html#options>.
 
 - GUI 없이 특정 테스트 플랜 실행:
 

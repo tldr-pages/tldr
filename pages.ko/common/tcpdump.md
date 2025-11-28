@@ -1,7 +1,7 @@
 # tcpdump
 
 > 네트워크의 트래픽 덤프.
-> 더 많은 정보: <https://www.tcpdump.org>.
+> 더 많은 정보: <https://www.tcpdump.org/manpages/tcpdump.1.html>.
 
 - 사용 가능한 네트워크 인터페이스 나열:
 

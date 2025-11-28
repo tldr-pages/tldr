@@ -1,7 +1,7 @@
 # mr
 
 > 버전 관리 저장소를 한 번에 모두 관리.
-> 더 많은 정보: <https://myrepos.branchable.com>.
+> 더 많은 정보: <https://manned.org/mr>.
 
 - 저장소 등록:
 

@@ -1,7 +1,7 @@
 # mh_copyright
 
 > Adjust copyright headers for MATLAB or Octave code.
-> More information: <https://misshit.org>.
+> More information: <https://florianschanda.github.io/miss_hit/copyright.html>.
 
 - Update the year (range) to include the current year for the specified files:
 

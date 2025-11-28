@@ -2,7 +2,7 @@
 
 > gNMI 명령줄 클라이언트.
 > gNMI 네트워크 장치 구성을 관리하고 운영 데이터를 살펴봄.
-> 더 많은 정보: <https://gnmic.kmrd.dev>.
+> 더 많은 정보: <https://gnmic.openconfig.net/user_guide/configuration_flags/>.
 
 - 장치 기능을 요청:
 

@@ -1,7 +1,7 @@
 # antibody
 
 > "가장 빠른" 쉘 플러그인 관리자.
-> 더 많은 정보: <https://getantibody.github.io>.
+> 더 많은 정보: <https://getantibody.github.io/#Usage>.
 
 - 정적 로딩을 위해 모든 플러그인을 번들로 묶음:
 

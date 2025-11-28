@@ -1,7 +1,7 @@
 # jupytext
 
 > Jupyter 노트북을 일반 텍스트 문서로 변환하고, 다시 노트북으로 변환합니다.
-> 더 많은 정보: <https://jupytext.readthedocs.io>.
+> 더 많은 정보: <https://manned.org/jupytext>.
 
 - 노트북을 `.ipynb`/`.py`로 쌍으로 변환:
 

@@ -1,7 +1,7 @@
 # php yii
 
 > Yii Framework's command-line interface.
-> More information: <https://yiiframework.com>.
+> More information: <https://www.yiiframework.com/doc/guide/2.0/en/tutorial-console>.
 
 - Start PHP's built-in web server for the current Yii application:
 

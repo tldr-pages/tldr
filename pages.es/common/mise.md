@@ -1,7 +1,7 @@
 # mise
 
 > Gestiona versiones de diferentes paquetes.
-> Más información: <https://mise.jdx.dev>.
+> Más información: <https://mise.jdx.dev/cli/>.
 
 - Lista todos los complementos disponibles:
 

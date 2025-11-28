@@ -1,7 +1,7 @@
 # phpdox
 
 > PHP 문서 생성기.
-> 더 많은 정보: <https://phpdox.net>.
+> 더 많은 정보: <https://manned.org/phpdox>.
 
 - 주석이 달린 스켈레톤 구성 XML 파일 표시:
 

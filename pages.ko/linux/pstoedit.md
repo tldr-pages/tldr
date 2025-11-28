@@ -1,7 +1,7 @@
 # pstoedit
 
 > PDF 파일을 다양한 이미지 형식으로 변환합니다.
-> 더 많은 정보: <http://www.pstoedit.net>.
+> 더 많은 정보: <http://www.calvina.de/pstoedit/pstoedit.htm>.
 
 - PDF 페이지를 PNG 또는 JPEG 형식으로 변환:
 

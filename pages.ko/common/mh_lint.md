@@ -2,7 +2,7 @@
 
 > MATLAB 또는 Octave 코드에서 버그를 찾으려 시도합니다.
 > 이 도구는 완벽하지도 않고 완전하지도 않음을 유의하세요.
-> 더 많은 정보: <https://misshit.org>.
+> 더 많은 정보: <https://florianschanda.github.io/miss_hit/cli.html>.
 
 - 현재 디렉토리 검사:
 
