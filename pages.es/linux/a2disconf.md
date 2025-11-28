@@ -9,4 +9,4 @@
 
 - Deshabilita un archivo sin mostrar mensajes informativos:
 
-`sudo a2disconf --quiet {{archivo_de_configuración}}`
+`sudo a2disconf {{[-q|--quiet]}} {{archivo_de_configuración}}`
