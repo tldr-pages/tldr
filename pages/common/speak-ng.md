@@ -30,4 +30,4 @@
 
 - List all available voices:
 
-`espeak-ng --voices`
+`speak-ng --voices`
