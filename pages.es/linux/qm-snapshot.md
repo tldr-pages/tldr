@@ -1,7 +1,7 @@
 # qm snapshot
 
 > Crea instantáneas de máquinas virtuales.
-> Más información: <https://pve.proxmox.com/pve-docs/qm.1.html>.
+> Más información: <https://pve.proxmox.com/pve-docs/qm.1.html#cli_qm_snapshot>.
 
 - Crea una instantánea de una máquina virtual dada:
 

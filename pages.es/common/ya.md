@@ -1,7 +1,7 @@
 # ya
 
 > Gestiona los paquetes y complementos de Yazi.
-> Más información: <https://github.com/sxyazi/yazi>.
+> Más información: <https://yazi-rs.github.io/docs/cli>.
 
 - Añade un paquete:
 

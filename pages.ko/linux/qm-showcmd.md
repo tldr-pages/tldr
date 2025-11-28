@@ -1,7 +1,7 @@
 # qm showcmd
 
 > VM을 시작하는 데 사용된 명령줄을 표시 (디버그 정보).
-> 더 많은 정보: <https://pve.proxmox.com/pve-docs/qm.1.html>.
+> 더 많은 정보: <https://pve.proxmox.com/pve-docs/qm.1.html#cli_qm_showcmd>.
 
 - 특정 가상 머신의 명령줄 표시:
 

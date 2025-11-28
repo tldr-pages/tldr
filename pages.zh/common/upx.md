@@ -1,7 +1,7 @@
 # upx
 
 > 压缩或解压可执行文件。
-> 更多信息：<https://upx.github.io>.
+> 更多信息：<https://github.com/upx/upx/blob/devel/doc/upx.pod>.
 
 - 压缩可执行文件：
 

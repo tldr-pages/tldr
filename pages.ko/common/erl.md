@@ -1,7 +1,7 @@
 # erl
 
 > Erlang 프로그래밍 언어로 프로그램을 실행하고 관리.
-> 더 많은 정보: <https://www.erlang.org>.
+> 더 많은 정보: <https://erlang.org/documentation/doc-16.0/erts-16.0/doc/html/erl_cmd.html>.
 
 - 순차적 Erlang 프로그램을 공통 스크립트로 컴파일하고 실행한 후 종료:
 

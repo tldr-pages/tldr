@@ -1,7 +1,7 @@
 # gradle
 
 > 오픈소스 빌드 자동화 시스템.
-> 더 많은 정보: <https://gradle.org>.
+> 더 많은 정보: <https://manned.org/gradle>.
 
 - 패키지 컴파일:
 

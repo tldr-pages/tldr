@@ -1,7 +1,7 @@
 # asciidoctor
 
 > AsciiDoc 파일을 게시 가능한 형식으로 변환하는 프로세서.
-> 더 많은 정보: <https://docs.asciidoctor.org>.
+> 더 많은 정보: <https://docs.asciidoctor.org/asciidoctor/latest/cli/man1/asciidoctor/>.
 
 - 특정 `.adoc` 파일을 HTML(기본 출력 형식)로 변환:
 

@@ -1,7 +1,7 @@
 # qm wait
 
 > 가상 머신이 중지될 때까지 대기.
-> 더 많은 정보: <https://pve.proxmox.com/pve-docs/qm.1.html>.
+> 더 많은 정보: <https://pve.proxmox.com/pve-docs/qm.1.html#cli_qm_wait>.
 
 - 가상 머신이 중지될 때까지 대기:
 

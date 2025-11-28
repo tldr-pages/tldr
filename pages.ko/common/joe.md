@@ -1,7 +1,7 @@
 # joe
 
 > Joe의 자체 텍스트 편집기.
-> 더 많은 정보: <https://joe-editor.sourceforge.io>.
+> 더 많은 정보: <https://joe-editor.sourceforge.io/4.6/man.html>.
 
 - JOE에서 새 파일 열기:
 

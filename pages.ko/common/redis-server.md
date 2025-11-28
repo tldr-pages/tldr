@@ -1,7 +1,7 @@
 # redis-server
 
 > 영구적인 키-값 데이터베이스.
-> 더 많은 정보: <https://redis.io>.
+> 더 많은 정보: <https://redis.io/learn/operate/redis-at-scale/talking-to-redis/configuring-a-redis-server>.
 
 - 기본 포트(6379)를 사용하여 Redis 서버 시작 및 로그를 `stdout`으로 출력:
 

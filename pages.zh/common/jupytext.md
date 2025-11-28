@@ -1,7 +1,7 @@
 # jupytext
 
 > 将 Jupyter 笔记本转换为纯文本文件，然后再转换回去。
-> 更多信息：<https://jupytext.readthedocs.io>.
+> 更多信息：<https://manned.org/jupytext>.
 
 - 将笔记本转换为成对的 `.ipynb`/`.py` 笔记本：
 

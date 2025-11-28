@@ -1,7 +1,7 @@
 # qm clone
 
 > QEMU/KVM 가상 머신 관리자의 가상 머신 복사 생성.
-> 더 많은 정보: <https://pve.proxmox.com/pve-docs/qm.1.html>.
+> 더 많은 정보: <https://pve.proxmox.com/pve-docs/qm.1.html#cli_qm_clone>.
 
 - 가상 머신 복사:
 

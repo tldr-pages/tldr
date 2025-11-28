@@ -3,7 +3,7 @@
 > 如果已安装 `transcrypt`，此命令允许直接向 `transcrypt` 传递选项。
 > 环境配置为使用 yadm 仓库。
 > Transcrypt 使 Git 仓库中的文件能够透明地加密和解密。
-> 更多信息：<https://github.com/elasticdog/transcrypt>.
+> 更多信息：<https://github.com/elasticdog/transcrypt#command-line-options>.
 
 - 设置用于加密的对称加密算法：
 

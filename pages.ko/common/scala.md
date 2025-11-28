@@ -1,7 +1,7 @@
 # scala
 
 > Scala 애플리케이션 런처 및 인터랙티브 인터프리터.
-> 더 많은 정보: <https://scala-lang.org>.
+> 더 많은 정보: <https://scala-cli.virtuslab.org/docs/reference/cli-options>.
 
 - REPL(대화형 셸) 시작:
 

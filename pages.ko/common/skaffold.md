@@ -1,7 +1,7 @@
 # skaffold
 
 > Kubernetes 애플리케이션의 지속적인 개발을 지원.
-> 더 많은 정보: <https://skaffold.dev>.
+> 더 많은 정보: <https://skaffold.dev/docs/references/cli/>.
 
 - 아티팩트 빌드:
 

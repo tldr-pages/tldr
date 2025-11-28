@@ -1,7 +1,7 @@
 # node
 
 > 서버 측 JavaScript 플랫폼 (Node.js).
-> 더 많은 정보: <https://nodejs.org>.
+> 더 많은 정보: <https://nodejs.org/docs/latest/api/cli.html#options>.
 
 - JavaScript 파일 실행:
 

@@ -1,7 +1,7 @@
 # espeak
 
 > 텍스트 음성 변환을 사용하여, 기본 사운드 장치를 통해 이야기.
-> 더 많은 정보: <https://espeak.sourceforge.net>.
+> 더 많은 정보: <https://manned.org/espeak>.
 
 - 문구를 큰 소리로 이야기:
 

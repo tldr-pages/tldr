@@ -1,7 +1,7 @@
 # tcpdump
 
 > عرض وتحليل حركة المرور على الشبكة.
-> لمزيد من التفاصيل: <https://www.tcpdump.org>.
+> لمزيد من التفاصيل: <https://www.tcpdump.org/manpages/tcpdump.1.html>.
 
 - عرض قائمة بواجهات الشبكة المتوفرة:
 

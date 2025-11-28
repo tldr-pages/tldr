@@ -1,7 +1,7 @@
 # ya
 
 > Yazi 패키지 및 플러그인 관리.
-> 더 많은 정보: <https://github.com/sxyazi/yazi>.
+> 더 많은 정보: <https://yazi-rs.github.io/docs/cli>.
 
 - 패키지 추가:
 

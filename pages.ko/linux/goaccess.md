@@ -1,7 +1,7 @@
 # goaccess
 
 > 오픈 소스 실시간 웹 로그 분석기.
-> 더 많은 정보: <https://goaccess.io>.
+> 더 많은 정보: <https://goaccess.io/man>.
 
 - 대화형 모드로 하나 이상의 로그 파일 분석:
 

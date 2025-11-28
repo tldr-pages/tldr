@@ -2,7 +2,7 @@
 
 > `bspwm`을 구성하고 제어하여 노드, 데스크톱, 모니터 등을 관리합니다.
 > 같이 보기: `bspwm`.
-> 더 많은 정보: <https://github.com/baskerville/bspwm>.
+> 더 많은 정보: <https://github.com/baskerville/bspwm/blob/master/doc/bspwm.1.asciidoc>.
 
 - 두 개의 가상 데스크톱 정의:
 

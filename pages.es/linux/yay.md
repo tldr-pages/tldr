@@ -2,7 +2,7 @@
 
 > Yet Another Yogurt: crea e instala paquetes desde el repositorio de usuarios de Arch.
 > Vea también `pacman`.
-> Más información: <https://github.com/Jguer/yay>.
+> Más información: <https://github.com/Jguer/yay#first-use>.
 
 - Busca e instala paquetes de forma interactiva desde los repositorios y AUR:
 

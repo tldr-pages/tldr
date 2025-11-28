@@ -2,7 +2,7 @@
 
 > 가상 머신을 마이그레이션.
 > 새로운 마이그레이션 작업을 생성하는 데 사용됩니다.
-> 더 많은 정보: <https://pve.proxmox.com/pve-docs/qm.1.html>.
+> 더 많은 정보: <https://pve.proxmox.com/pve-docs/qm.1.html#cli_qm_migrate>.
 
 - 특정 가상 머신 마이그레이션:
 

@@ -1,7 +1,7 @@
 # jmeter
 
 > 开源的 Java 应用程序，旨在对功能行为进行负载测试并衡量性能。
-> 更多信息：<https://jmeter.apache.org>.
+> 更多信息：<https://jmeter.apache.org/usermanual/get-started.html#options>.
 
 - 在非 GUI 模式下运行指定的测试计划：
 

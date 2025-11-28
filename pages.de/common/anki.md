@@ -1,7 +1,7 @@
 # anki
 
 > Leistungsstarkes, intelligentes Lernkartenprogramm.
-> Weitere Informationen: <https://docs.ankiweb.net>.
+> Weitere Informationen: <https://manned.org/anki>.
 
 - Starte `anki`:
 
