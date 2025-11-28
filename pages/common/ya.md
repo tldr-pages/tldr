@@ -25,12 +25,12 @@
 
 - Emit commands to a specific remote instance:
 
-`ya emit-to {{receiver}} {{command}} <arguments>`
+`ya emit-to {{receiver}} {{command}} {{arguments}}`
 
 - Publish a message to the current instance with string body:
 
 `ya pub --str {{string_message}}`
 
-- Kind of messages to subscribe to from remote instance:
+- Subscribe to a specific kind of message from a remote instance:
 
 `ya sub {{message_kind}}`
