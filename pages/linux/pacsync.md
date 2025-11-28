@@ -5,20 +5,20 @@
 
 - Update all sync databases:
 
-`pacsync`
+`sudo pacsync`
 
 - Update specific sync databases:
 
-`pacsync {{repository1 repository2 ...}}`
+`sudo pacsync {{repository1 repository2 ...}}`
 
 - Update sync databases even if they are already up-to-date:
 
-`pacsync --force`
+`sudo pacsync --force`
 
 - Update sync databases using a specific configuration file:
 
-`pacsync --config {{path/to/pacman.conf}}`
+`sudo pacsync --config {{path/to/pacman.conf}}`
 
 - Update sync databases and return true only if a database was actually updated:
 
-`pacsync --updated`
+`sudo pacsync --updated`
