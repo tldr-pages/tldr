@@ -9,7 +9,7 @@
 
 - Set an option:
 
-'setopt {{option}}'
+`setopt {{option}}`
 
 - Unset an option:
 
