@@ -13,4 +13,4 @@
 
 - Secure erase user data on nvme device:
 
-`sudo nvme format {{[-s|--ses]}} 1 {{[-n|--namespace]}} {{[-r|--reset]}} {{device}}`
+`sudo nvme format {{[-s|--ses]}} 1 {{[-r|--reset]}} {{device}}`
