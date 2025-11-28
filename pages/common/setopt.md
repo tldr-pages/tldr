@@ -1,6 +1,6 @@
 # setopt
 
-> Set/unset Z shell (zsh) options.
+> Set/unset Z shell (Zsh) options.
 > More information: <https://zsh.sourceforge.io/Doc/Release/Options.html>.
 
 - List enabled options:
