@@ -1,7 +1,7 @@
 # spicetify
 
 > Spotify 클라이언트 UI 및 기능을 사용자 지정.
-> 더 많은 정보: <https://spicetify.app>.
+> 더 많은 정보: <https://spicetify.app/docs/advanced-usage/command-line-interface>.
 
 - 첫 실행 시 구성 파일을 생성하고 도움말 표시:
 

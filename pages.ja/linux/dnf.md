@@ -3,7 +3,7 @@
 > RHEL、Fedora、CentOS 用のパッケージ管理ユーティリティ (yum の後継)。
 > `group`, `config-manager` のようないくつかのサブコマンドには、使用方法についての独自のドキュメントがあります。
 > 他のパッケージマネジャーの同等のコマンドについては、 <https://wiki.archlinux.org/title/Pacman/Rosetta> を参照してください。
-> もっと詳しく: <https://dnf.readthedocs.io>。
+> もっと詳しく: <https://dnf.readthedocs.io/en/latest/command_ref.html>。
 
 - インストールされたパッケージを、利用可能な最新バージョンにアップグレードする:
 

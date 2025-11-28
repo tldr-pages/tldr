@@ -1,7 +1,7 @@
 # kjv
 
 > 하나님의 말씀을 데스크탑에서 바로 확인 가능.
-> 더 많은 정보: <https://github.com/bontibon/kjv>.
+> 더 많은 정보: <https://github.com/layeh/kjv#kjv>.
 
 - 책 목록 표시:
 

@@ -1,7 +1,7 @@
 # blight
 
 > 디스플레이 밝기를 변경하는 유틸리티.
-> 더 많은 정보: <https://github.com/gutjuri/blight>.
+> 더 많은 정보: <https://github.com/gutjuri/blight#usage>.
 
 - 디스플레이 밝기를 50%로 설정:
 

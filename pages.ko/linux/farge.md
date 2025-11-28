@@ -1,7 +1,7 @@
 # farge
 
 > 화면의 특정 픽셀 색상을 16진수 또는 RGB 형식으로 표시합니다.
-> 더 많은 정보: <https://github.com/sdushantha/farge>.
+> 더 많은 정보: <https://github.com/sdushantha/farge#usage>.
 
 - 픽셀의 색상을 작은 미리보기 창에 16진수 값으로 표시하고, 이 값을 클립보드에 복사:
 

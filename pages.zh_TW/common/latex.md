@@ -1,7 +1,7 @@
 # latex
 
 > 從 LaTeX 原始檔編譯 DVI 文件。
-> 更多資訊：<https://www.latex-project.org>.
+> 更多資訊：<https://texdoc.org/serve/tex.man1.pdf/0>.
 
 - 編譯 DVI 文件：
 

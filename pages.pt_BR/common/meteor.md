@@ -1,7 +1,7 @@
 # meteor
 
 > Plataforma Full-Stack de JavaScript para desenvolver aplicações web.
-> Mais informações: <https://meteor.com>.
+> Mais informações: <https://docs.meteor.com/cli/>.
 
 - Executa um projeto meteor a partir do seu diretório base em modo de desenvolvimento:
 

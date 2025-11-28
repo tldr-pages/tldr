@@ -1,7 +1,7 @@
 # asciiart
 
 > চিত্রগুলিকে ASCII তে রূপান্তর করুন।
-> আরও তথ্য পাবেন: <https://github.com/nodanaonlyzuul/asciiart>।
+> আরও তথ্য পাবেন: <https://github.com/nodanaonlyzuul/asciiart#in-the-command-line>।
 
 - ফাইল থেকে একটি ছবি পড়ুন এবং ASCII তে প্রিন্ট করুন:
 

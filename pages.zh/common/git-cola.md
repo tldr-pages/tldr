@@ -1,7 +1,7 @@
 # git cola
 
 > 功能强大且界面直观的 Git 图形化界面工具。
-> 更多信息：<https://git-cola.readthedocs.io>.
+> 更多信息：<https://git-cola.readthedocs.io/en/latest/git-cola.html>.
 
 - 启动图形界面：
 

@@ -2,7 +2,7 @@
 
 > Slackware 패키지 관리를 위한 `apt`와 유사한 시스템.
 > slapt-getrc 파일에서 패키지 소스를 구성해야 합니다.
-> 더 많은 정보: <https://software.jaos.org>.
+> 더 많은 정보: <https://software.jaos.org/git/slapt-get/plain/README>.
 
 - 사용 가능한 패키지 및 버전 목록 업데이트:
 

@@ -1,7 +1,7 @@
 # farge
 
 > Muestra el color de un píxel específico de la pantalla en formatos hexadecimal o RGB.
-> Más información: <https://github.com/sdushantha/farge>.
+> Más información: <https://github.com/sdushantha/farge#usage>.
 
 - Muestra una pequeña ventana de vista previa del color de un píxel con su valor hexadecimal, y copia este valor al portapapeles:
 

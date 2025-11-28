@@ -2,7 +2,7 @@
 
 > 디렉터리 트리를 상호작용적으로 탐색합니다.
 > 같이 보기: `broot`.
-> 더 많은 정보: <https://github.com/Canop/broot>.
+> 더 많은 정보: <https://manned.org/broot>.
 
 - 현재 디렉터리 트리를 상호작용적으로 탐색 시작:
 

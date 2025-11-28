@@ -2,7 +2,7 @@
 
 > 编译 C++ 源文件。
 > LLVM 项目的组件之一。
-> 更多信息：<https://clang.llvm.org>.
+> 更多信息：<https://clang.llvm.org/docs/UsersManual.html#command-line-options>.
 
 - 将一组源文件编译为二进制文件：
 

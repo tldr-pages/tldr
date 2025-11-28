@@ -2,7 +2,7 @@
 
 > Utilidad de descarga rápida.
 > Soporta HTTP(S), FTP, SFTP, BitTorrent y Metalink.
-> Más información: <https://aria2.github.io>.
+> Más información: <https://aria2.github.io/manual/en/html/aria2c.html>.
 
 - Descarga un URI específico a un archivo:
 

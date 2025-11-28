@@ -3,7 +3,7 @@
 > RHEL, Fedora ve CentOS için paket yönetim aracı (yum'un yerini alır).
 > `group` ve `config-manager` gibi bazı alt komutların kendi kullanım dökümantasyonu vardır.
 > Diğer paket yöneticilerindeki eşdeğer komutlar için bkz: <https://wiki.archlinux.org/title/Pacman/Rosetta>.
-> Daha fazla bilgi için: <https://dnf.readthedocs.io>.
+> Daha fazla bilgi için: <https://dnf.readthedocs.io/en/latest/command_ref.html>.
 
 - Kurulu paketleri mevcut en yeni sürümlere yükselt:
 

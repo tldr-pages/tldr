@@ -1,7 +1,7 @@
 # php yii
 
 > Yii 프레임워크의 명령줄 인터페이스.
-> 더 많은 정보: <https://yiiframework.com>.
+> 더 많은 정보: <https://www.yiiframework.com/doc/guide/2.0/en/tutorial-console>.
 
 - 현재 Yii 애플리케이션을 위해 PHP 내장 웹 서버 시작:
 

@@ -3,7 +3,7 @@
 > 创建，编辑，组合，转换不同格式的图片文件。
 > 这个工具在 ImageMagick 7 以上版本中代替了原 `convert` 命令，如需在 7+ 版本中使用原命令，请查看 `magick convert`。
 > 此命令也有关于其子命令的文件，例如：`mogrify`。
-> 更多信息：<https://imagemagick.org>.
+> 更多信息：<https://imagemagick.org/script/magick.php>.
 
 - 转换图片格式：
 

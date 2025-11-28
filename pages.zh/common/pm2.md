@@ -2,7 +2,7 @@
 
 > Node.js 的进程管理工具。
 > 用于日志管理、监控和配置进程。
-> 更多信息：<https://pm2.keymetrics.io>.
+> 更多信息：<https://pm2.keymetrics.io/docs/usage/quick-start/>.
 
 - 启动一个进程并指定名称，以便后续操作使用：
 
