@@ -13,7 +13,7 @@
 
 - Unset an option:
 
-'unsetopt {{option}}'
+`unsetopt {{option}}`
 
 - Display all available options and their status:
 
