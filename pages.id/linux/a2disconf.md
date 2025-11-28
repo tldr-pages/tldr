@@ -9,4 +9,4 @@
 
 - Jangan menampilkan pesan-pesan informatif selama melakukan operasi:
 
-`sudo a2disconf --quiet {{berkas_konfigurasi}}`
+`sudo a2disconf {{[-q|--quiet]}} {{berkas_konfigurasi}}`

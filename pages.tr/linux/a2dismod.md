@@ -9,4 +9,4 @@
 
 - Bilgilendirici mesajları gösterme:
 
-`sudo a2dismod --quiet {{module}}`
+`sudo a2dismod {{[-q|--quiet]}} {{module}}`
