@@ -2,7 +2,7 @@
 
 > A data extraction tool for alpm databases, offering printf-like flexibility for pacman-based utilities.
 > See also: `pacman`.
-> More information: <https://github.com/falconindy/expac>.
+> More information: <https://github.com/falconindy/expac#name>.
 
 - List the dependencies of a package:
 

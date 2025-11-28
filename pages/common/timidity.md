@@ -1,7 +1,7 @@
 # timidity
 
 > Play and convert MIDI files.
-> More information: <https://timidity.sourceforge.net>.
+> More information: <https://manned.org/timidity>.
 
 - Play a MIDI file:
 
@@ -9,7 +9,7 @@
 
 - Play a MIDI file in a loop:
 
-`timidity --loop {{path/to/file.mid}}`
+`timidity {{[--l|--loop]}} {{path/to/file.mid}}`
 
 - Play a MIDI file in a specific key (0 = C major/A minor, -1 = F major/D minor, +1 = G major/E minor, etc.):
 

@@ -2,7 +2,7 @@
 
 > Navigate directory trees interactively.
 > See also: `broot`.
-> More information: <https://github.com/Canop/broot>.
+> More information: <https://manned.org/broot>.
 
 - Start and navigate the current directory tree interactively:
 
