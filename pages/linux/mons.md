@@ -1,20 +1,20 @@
 # mons
 
 > Quickly manage two displays.
-> More information: <https://github.com/Ventto/mons>.
+> More information: <https://github.com/Ventto/mons#usage>.
 
 - Enable only the primary monitor:
 
 `mons -o`
 
-- Enable only the secondary monitor:
+- Enable only the [s]econdary monitor:
 
 `mons -s`
 
-- Duplicate the primary monitor onto the secondary monitor, using the resolution of the primary monitor:
+- [d]uplicate the primary monitor onto the secondary monitor, using the resolution of the primary monitor:
 
 `mons -d`
 
-- Mirror the primary monitor onto the secondary monitor, using the resolution of the secondary monitor:
+- [m]irror the primary monitor onto the secondary monitor, using the resolution of the secondary monitor:
 
 `mons -m`
