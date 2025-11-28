@@ -7,7 +7,7 @@
 
 - Move the current root to `/old_root` and make `/new_root` the new root:
 
-  `sudo pivot_root /new_root /new_root/old_root`
+`sudo pivot_root /new_root /new_root/old_root`
 
 - Display help:
 
