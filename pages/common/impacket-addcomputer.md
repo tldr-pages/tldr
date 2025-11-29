@@ -1,7 +1,7 @@
 # impacket-addcomputer
 
-> This command is an alias of `add-computer.py`.
+> This command is an alias of `addcomputer.py`.
 
 - View documentation for the original command:
 
-`tldr add-computer.py`
+`tldr addcomputer.py`
