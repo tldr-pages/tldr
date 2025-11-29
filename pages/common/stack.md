@@ -1,7 +1,7 @@
 # stack
 
 > Manage Haskell projects.
-> More information: <https://github.com/commercialhaskell/stack/blob/master/doc/commands/index.md>.
+> More information: <https://docs.haskellstack.org/en/stable/commands/>.
 
 - Create a new package:
 
