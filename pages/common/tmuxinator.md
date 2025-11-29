@@ -1,7 +1,7 @@
 # tmuxinator
 
 > Create and manage tmux sessions easily.
-> More information: <https://github.com/tmuxinator/tmuxinator>.
+> More information: <https://manned.org/tmuxinator>.
 
 - Create a new project:
 
