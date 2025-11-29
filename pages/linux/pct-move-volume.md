@@ -7,6 +7,6 @@
 
 `pct {{[mov|move-volume]}} {{100}} rootfs {{storage_id}}`
 
-- Delete the filesystem association once the move is complete:
+- Delete the filesystem association to the old volume once the move is complete:
 
 `pct {{[mov|move-volume]}} {{100}} rootfs {{storage_id}} --delete`
