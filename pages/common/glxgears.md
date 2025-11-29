@@ -8,6 +8,10 @@
 
 `glxgears`
 
+- Display OpenGL renderer information:
+
+`glxgears -info`
+
 - Display help:
 
 `glxgears -h`
