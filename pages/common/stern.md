@@ -21,7 +21,7 @@
 
 - Tail matched pods from 15 minutes ago:
 
-`stern {{pod_query}} {{[-s|--since]}} {{15m}}`
+`stern {{pod_query}} {{[-s|--since]}} 15m`
 
 - Tail matched pods with a specific label:
 
