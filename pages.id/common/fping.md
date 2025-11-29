@@ -1,7 +1,7 @@
 # fping
 
 > Utilitas ping lebih kuat yang dapat melakukan proses ping pada lebih dari satu host.
-> Informasi lebih lanjut: <https://fping.org>.
+> Informasi lebih lanjut: <https://fping.org/fping.8.html>.
 
 - Tampilkan daftar status atas seluruh host pada suatu rentang alamat IP:
 

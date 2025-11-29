@@ -1,7 +1,7 @@
 # mysides
 
 > Finder 즐겨찾기 추가, 나열 및 제거 도구.
-> 더 많은 정보: <https://github.com/mosen/mysides>.
+> 더 많은 정보: <https://github.com/mosen/mysides#usage>.
 
 - 사이드바 즐겨찾기 나열:
 

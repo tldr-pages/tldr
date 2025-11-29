@@ -1,7 +1,7 @@
 # exiftool
 
 > 파일의 메타 정보를 읽고 쓰기.
-> 더 많은 정보: <https://exiftool.org>.
+> 더 많은 정보: <https://exiftool.org/exiftool_pod.html>.
 
 - 특정 파일에 대한 EXIF 메타데이터를 출력 :
 

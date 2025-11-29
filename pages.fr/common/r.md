@@ -1,7 +1,7 @@
 # R
 
 > Interpréteur pour le langage R.
-> Plus d'informations : <https://www.r-project.org>.
+> Plus d'informations : <https://manned.org/R>.
 
 - Démarre une session de commande R (REPL) :
 

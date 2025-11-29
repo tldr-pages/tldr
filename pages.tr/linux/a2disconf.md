@@ -9,4 +9,4 @@
 
 - Bilgilendirici mesajı gösterme:
 
-`sudo a2disconf --quiet {{konfigürasyon_dosyası}}`
+`sudo a2disconf {{[-q|--quiet]}} {{konfigürasyon_dosyası}}`

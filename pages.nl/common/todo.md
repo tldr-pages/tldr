@@ -1,7 +1,7 @@
 # todo
 
 > Een eenvoudige, op standaarden gebaseerde, opdrachtregel todo manager.
-> Meer informatie: <https://todoman.readthedocs.io>.
+> Meer informatie: <https://todoman.readthedocs.io/en/stable/man.html>.
 
 - Toon startbare taken:
 

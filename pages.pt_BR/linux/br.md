@@ -2,7 +2,7 @@
 
 > Navega árvore de diretórios interativamente.
 > Veja também: `broot`.
-> Mais informações: <https://github.com/Canop/broot>.
+> Mais informações: <https://manned.org/broot>.
 
 - Começa e navega na árvore de diretórios atual interativamente:
 

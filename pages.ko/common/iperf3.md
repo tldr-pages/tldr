@@ -1,7 +1,7 @@
 # iperf3
 
 > 네트워크 대역폭 테스트를 위한 트래픽 생성기입니다.
-> 더 많은 정보: <https://iperf.fr>.
+> 더 많은 정보: <https://iperf.fr/iperf-doc.php>.
 
 - iperf3를 서버로 실행:
 

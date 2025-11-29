@@ -1,7 +1,7 @@
 # elixir
 
 > Elixir 프로그래밍 언어 해석기.
-> 더 많은 정보: <https://elixir-lang.org>.
+> 더 많은 정보: <https://manned.org/elixir>.
 
 - Elixir 파일을 실행:
 

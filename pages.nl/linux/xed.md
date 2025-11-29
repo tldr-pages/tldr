@@ -1,7 +1,7 @@
 # xed
 
 > Bewerk bestanden in de Cinnamon-desktopomgeving.
-> Meer informatie: <https://github.com/linuxmint/xed>.
+> Meer informatie: <https://manned.org/xed>.
 
 - Start de editor:
 

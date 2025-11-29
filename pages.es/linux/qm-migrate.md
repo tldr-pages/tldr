@@ -2,7 +2,7 @@
 
 > Migra una máquina virtual.
 > Se usa para crear una nueva tarea de migración.
-> Más información: <https://pve.proxmox.com/pve-docs/qm.1.html>.
+> Más información: <https://pve.proxmox.com/pve-docs/qm.1.html#cli_qm_migrate>.
 
 - Migra una máquina virtual específica:
 

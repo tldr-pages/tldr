@@ -1,7 +1,7 @@
 # ya
 
 > 管理 Yazi 软件包和插件。
-> 更多信息：<https://github.com/sxyazi/yazi>.
+> 更多信息：<https://yazi-rs.github.io/docs/cli>.
 
 - 添加一个软件包：
 

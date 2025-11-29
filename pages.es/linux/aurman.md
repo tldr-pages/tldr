@@ -2,7 +2,7 @@
 
 > Una utilidad de Arch Linux para construir e instalar paquetes desde el repositorio de usuarios de Arch (AUR).
 > Vea también: `pacman`.
-> Más información: <https://github.com/polygamma/aurman>.
+> Más información: <https://github.com/polygamma/aurman#syntax>.
 
 - Sincroniza y actualiza todos los paquetes:
 

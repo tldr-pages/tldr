@@ -1,7 +1,7 @@
 # mh_copyright
 
 > MATLAB 또는 Octave 코드의 저작권 헤더를 조정합니다.
-> 더 많은 정보: <https://misshit.org>.
+> 더 많은 정보: <https://florianschanda.github.io/miss_hit/copyright.html>.
 
 - 지정된 파일의 연도(범위)를 현재 연도로 업데이트:
 

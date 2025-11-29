@@ -9,4 +9,4 @@
 
 - Desactiva um ficheiro de configuração, sem mostrar as mensagens informativas:
 
-`sudo a2disconf --quiet {{ficheiro_de_configuração}}`
+`sudo a2disconf {{[-q|--quiet]}} {{ficheiro_de_configuração}}`

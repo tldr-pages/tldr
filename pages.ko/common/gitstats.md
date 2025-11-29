@@ -1,7 +1,7 @@
 # gitstats
 
 > Git 레포지토리 통계 생성기.
-> 더 많은 정보: <https://gitstats.sourceforge.net>.
+> 더 많은 정보: <https://gitstats.readthedocs.io/en/latest/usage.html>.
 
 - 로컬 저장소에 대한 통계를 생성:
 

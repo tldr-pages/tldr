@@ -2,7 +2,7 @@
 
 > 포스트모던 텍스트 편집기인 Helix는 다양한 종류의 텍스트 조작을 위한 여러 모드를 제공.
 > `<i>`를 누르면 삽입 모드로 들어감. `<Esc>`는 Helix 명령을 사용할 수 있는 일반 모드로 들어감.
-> 더 많은 정보: <https://helix-editor.com>.
+> 더 많은 정보: <https://manpages.debian.org/testing/hx/editor.1.en.html>.
 
 - 파일 열기:
 

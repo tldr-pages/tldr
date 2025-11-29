@@ -2,7 +2,7 @@
 
 > Linux에서 컨테이너화된 명령줄 환경을 관리합니다.
 > `create`와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
-> 더 많은 정보: <https://manned.org/toolbox.1>.
+> 더 많은 정보: <https://manned.org/toolbox>.
 
 - `toolbox` 하위 명령 실행:
 

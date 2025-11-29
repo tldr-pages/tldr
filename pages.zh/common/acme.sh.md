@@ -2,7 +2,7 @@
 
 > 实现了 ACME 客户端协议的 shell 脚本，是 `certbot` 的替代品。
 > 另见 `acme.sh dns`。
-> 更多信息：<https://github.com/acmesh-official/acme.sh>.
+> 更多信息：<https://github.com/acmesh-official/acme.sh#2-just-issue-a-cert>.
 
 - 使用网站根目录模式签发证书：
 

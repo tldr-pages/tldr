@@ -1,7 +1,7 @@
 # diffoscope
 
 > 파일, 아카이브 및 디렉터리를 비교.
-> 더 많은 정보: <https://diffoscope.org>.
+> 더 많은 정보: <https://manned.org/diffoscope>.
 
 - 2개 파일 비교:
 

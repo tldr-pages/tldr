@@ -1,7 +1,7 @@
 # quarto
 
 > 一个基于 Pandoc 的开源科学和技术出版系统。
-> 更多信息：<https://quarto.org/>.
+> 更多信息：<https://quarto.org/docs/reference/projects/options.html>.
 
 - 创建一个新项目：
 

@@ -1,7 +1,7 @@
 # mh_metric
 
 > MATLAB 또는 Octave 코드의 코드 메트릭을 계산하고 적용.
-> 더 많은 정보: <https://misshit.org>.
+> 더 많은 정보: <https://florianschanda.github.io/miss_hit/metrics.html>.
 
 - 지정된 파일의 코드 메트릭 출력:
 

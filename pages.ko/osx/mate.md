@@ -1,7 +1,7 @@
 # mate
 
 > macOS용 범용 텍스트 편집기.
-> 더 많은 정보: <https://macromates.com/>.
+> 더 많은 정보: <https://macromates.com/textmate/manual/opening-files#mate>.
 
 - TextMate 시작:
 

@@ -2,7 +2,7 @@
 
 > Vota por paquetes en el repositorio de usuarios de Arch (AUR).
 > Para poder votar, el archivo `~/.config/aurvote` debe existir y contener tus credenciales del AUR.
-> Más información: <https://github.com/archlinuxfr/aurvote>.
+> Más información: <https://github.com/archlinuxfr/aurvote#name>.
 
 - Crea interactivamente el archivo `~/.config/aurvote` que contiene su nombre de usuario y contraseña del AUR:
 

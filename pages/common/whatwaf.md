@@ -1,7 +1,7 @@
 # whatwaf
 
 > Detect and bypass web application firewalls and protection systems.
-> More information: <https://github.com/Ekultek/WhatWaf>.
+> More information: <https://github.com/Ekultek/WhatWaf#basic-help-menu>.
 
 - Detect protection on a single URL, optionally use verbose output:
 

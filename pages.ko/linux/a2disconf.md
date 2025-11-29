@@ -9,4 +9,4 @@
 
 - 정보 메시지를 표시하지 않음:
 
-`sudo a2disconf --quiet {{구성_파일}}`
+`sudo a2disconf {{[-q|--quiet]}} {{구성_파일}}`

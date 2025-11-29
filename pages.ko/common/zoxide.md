@@ -2,7 +2,7 @@
 
 > 가장 자주 사용되는 디렉터리를 추적.
 > 순위 알고리즘을 사용하여 가장 적합한 경로로 이동.
-> 더 많은 정보: <https://github.com/ajeetdsouza/zoxide>.
+> 더 많은 정보: <https://manned.org/zoxide>.
 
 - 이름에 "foo"가 포함된 가장 높은 순위의 디렉터리로 이동:
 

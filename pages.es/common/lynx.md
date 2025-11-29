@@ -1,7 +1,7 @@
 # lynx
 
 > Navegador web de línea de comandos.
-> Más información: <https://lynx.browser.org>.
+> Más información: <https://manned.org/lynx>.
 
 - Visita un sitio web:
 

@@ -2,7 +2,7 @@
 
 > Gestiona paquetes a través de Yay, Flatpak y Snap.
 > Admite la búsqueda, instalación, eliminación y actualización de paquetes.
-> Más información: <https://github.com/zamhedonia/paxs>.
+> Más información: <https://github.com/zamhedonia/paxs#usage>.
 
 - Busca un paquete:
 

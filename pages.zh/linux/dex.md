@@ -1,7 +1,7 @@
 # dex
 
 > DesktopEntry Execution 是一个用于生成和执行 Application 类型的 DesktopEntry 文件的程序。
-> 更多信息：<https://github.com/jceb/dex>.
+> 更多信息：<https://github.com/jceb/dex#dex>.
 
 - 执行自动启动文件夹中的所有程序：
 

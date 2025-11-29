@@ -1,7 +1,7 @@
 # wrk
 
 > HTTP 벤치마킹 도구.
-> 더 많은 정보: <https://github.com/wg/wrk>.
+> 더 많은 정보: <https://github.com/wg/wrk#basic-usage>.
 
 - `12`개의 스레드를 사용하고 `400`개의 HTTP 연결을 열어 `30`초 동안 벤치마크 실행:
 
