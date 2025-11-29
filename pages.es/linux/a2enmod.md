@@ -9,4 +9,4 @@
 
 - Habilita un módulo sin mostrar mensajes informativos:
 
-`sudo a2enmod --quiet {{módulo}}`
+`sudo a2enmod {{[-q|--quiet]}} {{módulo}}`

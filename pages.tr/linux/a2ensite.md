@@ -9,4 +9,4 @@
 
 - Bilgilendirici mesajları gösterme:
 
-`sudo a2ensite --quiet {{sanal_host}}`
+`sudo a2ensite {{[-q|--quiet]}} {{sanal_host}}`
