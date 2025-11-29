@@ -3,7 +3,7 @@
 > NVMe storage user space utility.
 > More information: <https://manned.org/nvme>.
 
-- List all nvme devices:
+- List all NVMe devices:
 
 `sudo nvme list`
 
