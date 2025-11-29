@@ -13,7 +13,7 @@
 
 - Start a 1 minute 30 seconds countdown with blinking the terminal at the end:
 
-`termdown {{1m30s}} {{[-b|--blink]}}`
+`termdown 1m30s {{[-b|--blink]}}`
 
 - Show a title above countdown:
 
