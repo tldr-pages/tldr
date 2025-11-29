@@ -1,7 +1,7 @@
 # goreload
 
 > Live reload utility for Go programs.
-> More information: <https://github.com/acoshift/goreload>.
+> More information: <https://github.com/acoshift/goreload#basic-usage>.
 
 - Watch a binary file (defaults to `.goreload`):
 
