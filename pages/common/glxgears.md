@@ -4,7 +4,7 @@
 > See also: `vkcube`.
 > More information: <https://manned.org/glxgears>.
 
-- Run a Vulkan test window:
+- Run an OpenGL test window:
 
 `glxgears`
 
