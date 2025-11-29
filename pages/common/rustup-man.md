@@ -9,4 +9,4 @@
 
 - View the man page for a given command from the specified toolchain:
 
-`rustup man --toolchain {{command}}`
+`rustup man --toolchain {{toolchain}} {{command}}`
