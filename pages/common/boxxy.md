@@ -1,4 +1,4 @@
-10.# boxxy
+# boxxy
 
 > Redirect file locations for programs that don't respect the XDG standards.
 > More information: <https://github.com/queer/boxxy>.
