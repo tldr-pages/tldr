@@ -11,6 +11,6 @@
 
 `sudo nvme smart-log {{device}}`
 
-- Secure erase user data on nvme device:
+- Secure erase user data on NVMe device:
 
 `sudo nvme format {{[-s|--ses]}} 1 {{[-r|--reset]}} {{device}}`
