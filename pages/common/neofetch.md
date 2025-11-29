@@ -3,7 +3,7 @@
 > Display information about the operating system, software and hardware.
 > Note: `neofetch` is no longer maintained.
 > See also: `fastfetch`.
-> More information: <https://github.com/dylanaraps/neofetch>.
+> More information: <https://manned.org/neofetch>.
 
 - Return the default config, and create it if it's the first time the program runs:
 
