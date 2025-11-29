@@ -1,7 +1,7 @@
 # xo
 
 > A pluggable, zero-configuration linting utility for JavaScript.
-> More information: <https://github.com/xojs/xo>.
+> More information: <https://github.com/xojs/xo#usage>.
 
 - Lint files in the "src" directory:
 
