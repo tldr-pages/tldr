@@ -1,7 +1,7 @@
 # ROPgadget
 
 > Find ROP gadgets in binary files.
-> More information: <https://github.com/JonathanSalwan/ROPgadget>.
+> More information: <https://github.com/JonathanSalwan/ROPgadget#usage>.
 
 - List gadgets in the binary file:
 

@@ -1,7 +1,7 @@
 # smbmap
 
 > Enumerate samba share drives across an entire domain.
-> More information: <https://github.com/ShawnDEvans/smbmap>.
+> More information: <https://github.com/ShawnDEvans/smbmap#help>.
 
 - Enumerate hosts with NULL sessions enabled and open shares:
 
