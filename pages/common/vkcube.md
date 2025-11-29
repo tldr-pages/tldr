@@ -8,7 +8,7 @@
 
 `vkcube`
 
-- Use a specific display protocol
+- Use a specific display protocol:
 
 `vkcube --wsi {{xlib|wayland|...}}`
 
