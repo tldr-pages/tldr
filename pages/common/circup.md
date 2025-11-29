@@ -1,7 +1,7 @@
 # circup
 
 > The CircuitPython library updater.
-> More information: <https://github.com/adafruit/circup>.
+> More information: <https://github.com/adafruit/circup#usage>.
 
 - Interactively update modules on a device:
 

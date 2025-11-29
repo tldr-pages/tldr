@@ -2,7 +2,7 @@
 
 > Print and concatenate files.
 > A `cat` clone with syntax highlighting and Git integration.
-> More information: <https://github.com/sharkdp/bat>.
+> More information: <https://manned.org/bat>.
 
 - Pretty print the contents of one or more files to `stdout`:
 
