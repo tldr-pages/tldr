@@ -6,7 +6,7 @@
 
 - Lista todos os contêineres (em execução e parados):
 
-`podman ps --all`
+`podman ps {{[-a|--all]}}`
 
 - Cria um contêiner a partir de uma imagem, com um nome personalizado:
 
@@ -26,7 +26,7 @@
 
 - Abre um shell dentro de um contêiner que já está em execução:
 
-`podman exec --interactive --tty {{nome_do_contêiner}} {{sh}}`
+`podman exec {{[-it|--interactive --tty]}} {{nome_do_contêiner}} {{sh}}`
 
 - Remove um contêiner parado:
 
@@ -34,4 +34,4 @@
 
 - Exibe os logs de um ou mais contêineres e acompanha a saída do log:
 
-`podman logs --follow {{nome_do_contêiner}} {{id_do_contêiner}}`
+`podman exec {{[-f|--follow]}} {{nome_do_contêiner}} {{id_do_contêiner}}`

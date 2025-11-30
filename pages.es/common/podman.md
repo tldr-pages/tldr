@@ -6,7 +6,7 @@
 
 - Lista todos los contenedores (ambos en funcionamiento y detenidos):
 
-`podman ps --all`
+`podman ps {{[-a|--all]}}`
 
 - Crea un contenedor desde una imagen con un nombre personalizado:
 
@@ -26,7 +26,7 @@
 
 - Abre una interfaz de comando dentro de un contenedor ya en funcionamiento:
 
-`podman exec --interactive --tty {{nombre_del_contenedor}} {{sh}}`
+`podman exec {{[-it|--interactive --tty]}} {{nombre_del_contenedor}} {{sh}}`
 
 - Quita un contenedor detenido:
 
@@ -34,4 +34,4 @@
 
 - Muestra los registros de uno o más contenedores y muestra el registro (log):
 
-`podman logs --follow {{nombre_del_contenedor}} {{id_contenedor}}`
+`podman exec {{[-f|--follow]}} {{nombre_del_contenedor}} {{id_contenedor}}`
