@@ -16,6 +16,6 @@
 
 `hyprctl hyprpaper listloaded`
 
-- List the active wallpapers hyprpaper is displaying, along with its associated monitor:
+- List the active wallpapers hyprpaper is displaying, along with their associated monitor:
 
 `hyprctl hyprpaper listactive`
