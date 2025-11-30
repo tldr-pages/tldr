@@ -13,6 +13,6 @@
 
 `gettext {{[-h|--help]}}`
 
-- Display gettext version:
+- Display version:
 
 `gettext {{[-V|--version]}}`

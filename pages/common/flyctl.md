@@ -1,4 +1,4 @@
-# flyctl
+o# flyctl
 
 > Tool for flyctl.io.
 > More information: <https://github.com/superfly/flyctl>.
@@ -31,6 +31,6 @@
 
 `flyctl status --app {{app_name}}`
 
-- Display version information:
+- Display version:
 
 `flyctl version`
