@@ -17,7 +17,7 @@
 
 - Display the disassembled executable sections in Intel syntax:
 
-`objdump {{[-M|--disassembler-options]}} intel {{[-d|--disassemble]}} {{path/to/binary}}`
+`objdump {{[-d|--disassemble]}} {{path/to/binary}} {{[-M|--disassembler-options]}} intel`
 
 - Display the disassembled executable sections with jump visualizations and syntax highlighting:
 
