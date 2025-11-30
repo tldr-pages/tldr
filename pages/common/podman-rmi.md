@@ -17,4 +17,4 @@
 
 - Display help:
 
-`podman rmi`
+`podman rmi {{[-h|--help]}}`

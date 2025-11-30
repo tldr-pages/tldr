@@ -17,4 +17,4 @@
 
 - 도움말 표시:
 
-`podman rmi`
+`podman rmi {{[-h|--help]}}`
