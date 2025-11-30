@@ -19,6 +19,10 @@
 
 `objdump {{[-M|--disassembler-options]}} intel {{[-d|--disassemble]}} {{path/to/binary}}`
 
+- Display the disassembled executable sections with jump visualizations and syntax highlighting:
+
+`objdump {{[-d|--disassemble]}} {{path/to/binary}} --visualize-jumps={{color|extended-color}} --disassembler-color={{color|extended-color}}`
+
 - Display the symbol table:
 
 `objdump {{[-t|--syms]}} {{path/to/binary}}`
