@@ -25,4 +25,4 @@
 
 - Specify exact domain controller when multiple DCs exist:
 
-`addcomputer.py -dc-host {{hostname} {{domain}}/{{username}}:{{password}}`
+`addcomputer.py -dc-host {{hostname}} {{domain}}/{{username}}:{{password}}`
