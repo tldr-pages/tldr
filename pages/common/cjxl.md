@@ -12,6 +12,6 @@
 
 `cjxl --distance 0 --effort 9 {{path/to/image.ext}} {{path/to/output.jxl}}`
 
-- Display an extremely detailed help page:
+- Display an extremely detailed help:
 
 `cjxl {{[-h -v -v -v -v|--help --verbose --verbose --verbose --verbose]}}`
