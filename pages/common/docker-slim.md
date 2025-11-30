@@ -1,4 +1,4 @@
-# docker-sli
+# docker-slim
 
 > This command is an alias of `slim`.
 
