@@ -34,4 +34,4 @@
 
 - Exibe os logs de um ou mais contêineres e acompanha a saída do log:
 
-`podman exec {{[-f|--follow]}} {{nome_do_contêiner}} {{id_do_contêiner}}`
+`podman logs {{[-f|--follow]}} {{nome_do_contêiner}} {{id_do_contêiner}}`

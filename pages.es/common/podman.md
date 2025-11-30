@@ -34,4 +34,4 @@
 
 - Muestra los registros de uno o más contenedores y muestra el registro (log):
 
-`podman exec {{[-f|--follow]}} {{nombre_del_contenedor}} {{id_contenedor}}`
+`podman logs {{[-f|--follow]}} {{nombre_del_contenedor}} {{id_contenedor}}`
