@@ -9,4 +9,4 @@
 
 - Não mostra mensagens informativas:
 
-`sudo a2ensite --quiet {{host_virtual}}`
+`sudo a2ensite {{[-q|--quiet]}} {{host_virtual}}`
