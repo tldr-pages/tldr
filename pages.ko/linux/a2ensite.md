@@ -9,4 +9,4 @@
 
 - 정보 메시지 표시 안 함:
 
-`sudo a2ensite --quiet {{가상_호스트}}`
+`sudo a2ensite {{[-q|--quiet]}} {{가상_호스트}}`

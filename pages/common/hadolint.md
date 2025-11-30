@@ -1,7 +1,7 @@
 # hadolint
 
 > Dockerfile linter.
-> More information: <https://github.com/hadolint/hadolint>.
+> More information: <https://github.com/hadolint/hadolint#cli>.
 
 - Lint a Dockerfile:
 
@@ -9,11 +9,11 @@
 
 - Lint a Dockerfile, displaying the output in JSON format:
 
-`hadolint --format {{json}} {{path/to/Dockerfile}}`
+`hadolint {{[-f|--format]}} {{json}} {{path/to/Dockerfile}}`
 
 - Lint a Dockerfile, displaying the output in a specific format:
 
-`hadolint --format {{tty|json|checkstyle|codeclimate|codacy}} {{path/to/Dockerfile}}`
+`hadolint {{[-f|--format]}} {{tty|json|checkstyle|codeclimate|codacy}} {{path/to/Dockerfile}}`
 
 - Lint a Dockerfile ignoring specific rules:
 

@@ -1,7 +1,7 @@
 # mktorrent
 
 > Create BitTorrent metainfo files.
-> More information: <https://github.com/Rudde/mktorrent>.
+> More information: <https://manned.org/mktorrent>.
 
 - Create a torrent with 2^21 KB as the piece size:
 

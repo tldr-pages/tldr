@@ -9,4 +9,4 @@
 
 - 不显示信息性消息：
 
-`sudo a2enmod --quiet {{模块名}}`
+`sudo a2enmod {{[-q|--quiet]}} {{模块名}}`

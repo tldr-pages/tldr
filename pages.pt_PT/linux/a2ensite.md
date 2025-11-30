@@ -9,4 +9,4 @@
 
 - Activa um host virtual, sem mostrar as mensagens informativas:
 
-`sudo a2ensite --quiet {{virtual_host}}`
+`sudo a2ensite {{[-q|--quiet]}} {{virtual_host}}`

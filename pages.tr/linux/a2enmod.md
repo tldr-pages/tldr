@@ -9,4 +9,4 @@
 
 - Bilgilendirici mesajları gösterme:
 
-`sudo a2enmod --quiet {{modül}}`
+`sudo a2enmod {{[-q|--quiet]}} {{modül}}`

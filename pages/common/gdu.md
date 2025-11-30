@@ -1,7 +1,7 @@
 # gdu
 
 > Disk usage analyzer with console interface.
-> More information: <https://github.com/dundee/gdu>.
+> More information: <https://github.com/dundee/gdu#usage>.
 
 - Interactively show the disk usage of the current directory:
 
