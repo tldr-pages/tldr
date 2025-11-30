@@ -9,4 +9,4 @@
 
 - 不显示信息性消息：
 
-`sudo a2ensite --quiet {{虚拟主机名}}`
+`sudo a2ensite {{[-q|--quiet]}} {{虚拟主机名}}`

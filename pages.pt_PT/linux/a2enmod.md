@@ -9,4 +9,4 @@
 
 - Activa um módulo, sem mostrar as mensagens informativas:
 
-`sudo a2enmod --quiet {{módulo}}`
+`sudo a2enmod {{[-q|--quiet]}} {{módulo}}`

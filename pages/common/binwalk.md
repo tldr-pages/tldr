@@ -1,7 +1,7 @@
 # binwalk
 
 > Firmware Analysis Tool.
-> More information: <https://github.com/ReFirmLabs/binwalk>.
+> More information: <https://manned.org/binwalk>.
 
 - Scan a binary file:
 

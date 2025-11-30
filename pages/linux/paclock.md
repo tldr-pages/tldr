@@ -5,7 +5,7 @@
 
 - Lock the database:
 
-`paclock`
+`sudo paclock`
 
 - Write the lock file path to `stdout` (without locking the database):
 
@@ -13,7 +13,7 @@
 
 - Unlock the database:
 
-`paclock --unlock`
+`sudo paclock --unlock`
 
 - Display help:
 

@@ -1,7 +1,7 @@
 # loadtest
 
 > Run a load test on the selected HTTP or WebSockets URL.
-> More information: <https://github.com/alexfernandez/loadtest>.
+> More information: <https://github.com/alexfernandez/loadtest#usage>.
 
 - Run with concurrent users and a specified amount of requests per second:
 

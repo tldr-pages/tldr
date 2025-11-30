@@ -1,7 +1,7 @@
 # procs
 
 > Display information about the active processes.
-> More information: <https://github.com/dalance/procs>.
+> More information: <https://github.com/dalance/procs/blob/master/man/procs.1.adoc>.
 
 - List all processes showing the PID, user, CPU usage, memory usage, and the command which started them:
 

@@ -9,4 +9,4 @@
 
 - Non mostrare messaggi informativi:
 
-`sudo a2dissite --quiet {{virtual_host}}`
+`sudo a2dissite {{[-q|--quiet]}} {{virtual_host}}`
