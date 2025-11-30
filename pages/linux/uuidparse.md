@@ -2,7 +2,7 @@
 
 > Parse universally unique identifiers.
 > See also: `uuidgen`.
-> More information: <https://manned.org/uuidparse.1>.
+> More information: <https://manned.org/uuidparse>.
 
 - Parse the specified UUIDs, use a tabular output format:
 

@@ -1,7 +1,7 @@
 # halt
 
 > Halt the system.
-> More information: <https://manned.org/halt.8>.
+> More information: <https://manned.org/halt>.
 
 - Halt the system:
 

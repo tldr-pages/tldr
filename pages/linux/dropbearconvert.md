@@ -1,7 +1,7 @@
 # dropbearconvert
 
 > Convert between Dropbear and OpenSSH private key formats.
-> More information: <https://manned.org/dropbearconvert.1>.
+> More information: <https://manned.org/dropbearconvert>.
 
 - Convert an OpenSSH private key to the Dropbear format:
 

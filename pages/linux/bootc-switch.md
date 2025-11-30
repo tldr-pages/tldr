@@ -1,7 +1,7 @@
 # bootc switch
 
 > Target a new container image reference to boot.
-> More information: <https://manned.org/bootc-switch.8>.
+> More information: <https://manned.org/bootc-switch>.
 
 - Change the base OS to a new container image from a registry:
 
