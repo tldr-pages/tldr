@@ -1,21 +1,21 @@
 # podman image
 
-> Manage Docker images.
+> Manage Podman images.
 > See also: `podman build`, `podman import`, `podman pull`.
 > More information: <https://docs.podman.io/en/latest/markdown/podman-image.1.html>.
 
-- List local Docker images:
+- List local Podman images:
 
-`podman image ls`
+`podman image {{[ls|list]}}`
 
-- Delete unused local Docker images:
+- Delete unused local Podman images:
 
 `podman image prune`
 
 - Delete all unused images (not just those without a tag):
 
-`podman image prune --all`
+`podman image prune {{[-a|--all]}}`
 
-- Show the history of a local Docker image:
+- Show the history of a local Podman image:
 
 `podman image history {{image}}`
