@@ -1,7 +1,7 @@
 # toolbox list
 
 > List existing `toolbox` containers and images.
-> More information: <https://manned.org/toolbox-list.1>.
+> More information: <https://manned.org/toolbox-list>.
 
 - List all `toolbox` containers and images:
 

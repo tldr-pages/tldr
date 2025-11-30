@@ -2,7 +2,7 @@
 
 > Create a package which can be used with `pacman`.
 > Uses the `PKGBUILD` file in the current working directory by default.
-> More information: <https://manned.org/makepkg.8>.
+> More information: <https://manned.org/makepkg>.
 
 - Make a package:
 

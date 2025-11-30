@@ -2,7 +2,7 @@
 
 > Increase the size of a logical volume.
 > See also: `lvm`.
-> More information: <https://manned.org/lvextend.8>.
+> More information: <https://manned.org/lvextend>.
 
 - Increase a volume's size to 120 GB:
 

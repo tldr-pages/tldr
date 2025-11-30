@@ -1,7 +1,7 @@
 # dget
 
 > Download Debian packages.
-> More information: <https://manned.org/dget.1>.
+> More information: <https://manned.org/dget>.
 
 - Download a binary package:
 

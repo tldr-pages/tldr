@@ -2,7 +2,7 @@
 
 > XBPS utility to (re)install and update packages.
 > See also: `xbps`.
-> More information: <https://manned.org/xbps-install.1>.
+> More information: <https://manned.org/xbps-install>.
 
 - Install a new package:
 

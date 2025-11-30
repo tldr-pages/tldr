@@ -1,7 +1,7 @@
 # afconvert
 
 > Convert between AFF and raw file formats.
-> More information: <https://manned.org/afconvert.1>.
+> More information: <https://manned.org/afconvert>.
 
 - Use a specific extension (default: `aff`):
 

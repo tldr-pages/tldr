@@ -1,7 +1,7 @@
 # toolbox create
 
 > Create a new `toolbox` container.
-> More information: <https://manned.org/toolbox-create.1>.
+> More information: <https://manned.org/toolbox-create>.
 
 - Create a `toolbox` container for a specific distribution:
 

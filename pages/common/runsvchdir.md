@@ -1,7 +1,7 @@
 # runsvchdir
 
 > Change the directory `runsvdir` uses by default.
-> More information: <https://manned.org/runsvchdir.8>.
+> More information: <https://manned.org/runsvchdir>.
 
 - Switch `runsvdir` directories:
 

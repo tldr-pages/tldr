@@ -1,7 +1,7 @@
 # fakeroot
 
 > Run a command in an environment faking root privileges for file manipulation.
-> More information: <https://manned.org/fakeroot.1>.
+> More information: <https://manned.org/fakeroot>.
 
 - Start the default shell as fakeroot:
 

@@ -1,7 +1,7 @@
 # df
 
 > Display an overview of the filesystem disk space usage.
-> More information: <https://man.openbsd.org/df.1>.
+> More information: <https://man.openbsd.org/df>.
 
 - Display all filesystems and their disk usage (using 512-byte units):
 

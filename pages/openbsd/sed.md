@@ -2,7 +2,7 @@
 
 > Edit text in a scriptable manner.
 > See also: `awk`, `ed`.
-> More information: <https://man.openbsd.org/sed.1>.
+> More information: <https://man.openbsd.org/sed>.
 
 - Replace all `apple` (basic `regex`) occurrences with `mango` (basic `regex`) in all input lines and print the result to `stdout`:
 

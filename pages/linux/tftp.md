@@ -1,7 +1,7 @@
 # tftp
 
 > Trivial File Transfer Protocol client.
-> More information: <https://manned.org/tftp.1>.
+> More information: <https://manned.org/tftp>.
 
 - Connect to a TFTP server specifying its IP address and port:
 

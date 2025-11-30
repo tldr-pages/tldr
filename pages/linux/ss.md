@@ -1,7 +1,7 @@
 # ss
 
 > Utility to investigate sockets.
-> More information: <https://manned.org/ss.8>.
+> More information: <https://manned.org/ss>.
 
 - Show all TCP/UDP/RAW/UNIX sockets:
 

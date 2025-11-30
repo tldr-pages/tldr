@@ -1,7 +1,7 @@
 # pactree
 
 > Package dependency tree viewer for pacman.
-> More information: <https://manned.org/pactree.8>.
+> More information: <https://manned.org/pactree>.
 
 - Print the dependency tree of a specific package:
 

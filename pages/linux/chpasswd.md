@@ -2,7 +2,7 @@
 
 > Change the passwords for multiple users by using `stdin`.
 > See also: `passwd`.
-> More information: <https://manned.org/chpasswd.8>.
+> More information: <https://manned.org/chpasswd>.
 
 - Change the password for a specific user:
 
