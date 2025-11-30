@@ -1,6 +1,6 @@
 # systemctl isolate
 
-> Start the unit specified and its dependencies and stop all others.
+> Start the specified unit with its dependencies and stop all others.
 > Ignores the units which have `IgnoreOnIsolate=yes`.
 > More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#isolate%20UNIT>.
 
