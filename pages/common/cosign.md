@@ -1,7 +1,7 @@
 # cosign
 
 > Container Signing, Verification and Storage in an OCI registry.
-> More information: <https://github.com/sigstore/cosign>.
+> More information: <https://github.com/sigstore/cosign/blob/main/doc/cosign.md>.
 
 - Generate a key-pair:
 
@@ -9,11 +9,11 @@
 
 - Sign a container and store the signature in the registry:
 
-`cosign sign -key {{cosign.key}} {{image}}`
+`cosign sign --key {{cosign.key}} {{image}}`
 
 - Sign a container image with a key pair stored in a Kubernetes secret:
 
-`cosign sign -key k8s://{{namespace}}/{{key}} {{image}}`
+`cosign sign --key k8s://{{namespace}}/{{key}} {{image}}`
 
 - Sign a blob with a local key pair file:
 
@@ -21,7 +21,7 @@
 
 - Verify a container against a public key:
 
-`cosign verify -key {{cosign.pub}} {{image}}`
+`cosign verify --key {{cosign.pub}} {{image}}`
 
 - Verify images with a public key in a Dockerfile:
 
@@ -29,7 +29,7 @@
 
 - Verify an image with a public key stored in a Kubernetes secret:
 
-`cosign verify -key k8s://{{namespace}}/{{key}} {{image}}`
+`cosign verify --key k8s://{{namespace}}/{{key}} {{image}}`
 
 - Copy a container image and its signatures:
 
