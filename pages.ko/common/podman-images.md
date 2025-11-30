@@ -9,15 +9,15 @@
 
 - 중간 이미지를 포함한 모든 Podman 이미지 나열:
 
-`podman images --all`
+`podman images {{[-a|--all]}}`
 
 - 조용한 모드로 출력 나열 (숫자 ID만 표시):
 
-`podman images --quiet`
+`podman images {{[-q|--quiet]}}`
 
 - 어떤 컨테이너에서도 사용되지 않는 모든 Podman 이미지 나열:
 
-`podman images --filter dangling=true`
+`podman images {{[-f|--filter]}} dangling=true`
 
 - 이름에 특정 부분 문자열이 포함된 이미지 나열:
 
