@@ -1,7 +1,7 @@
 # mkcert
 
 > Make locally-trusted development certificates.
-> More information: <https://github.com/FiloSottile/mkcert>.
+> More information: <https://manned.org/mkcert>.
 
 - Install the local CA in the system trust store:
 

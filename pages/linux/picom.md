@@ -1,7 +1,7 @@
 # picom
 
 > Standalone compositor for Xorg.
-> More information: <https://manned.org/picom>.
+> More information: <https://github.com/yshui/picom/blob/next/man/picom.1.adoc>.
 
 - Enable `picom` during a session:
 

@@ -1,7 +1,7 @@
 # protector
 
 > Protect or unprotect branches on GitHub repositories.
-> More information: <https://github.com/jcgay/protector>.
+> More information: <https://github.com/jcgay/protector#usage>.
 
 - Protect branches of a GitHub repository (create branch protection rules):
 
