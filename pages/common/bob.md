@@ -1,7 +1,7 @@
 # bob
 
 > Manage and switch between Neovim versions.
-> More information: <https://github.com/MordechaiHadad/bob>.
+> More information: <https://github.com/MordechaiHadad/bob#-usage>.
 
 - Install and switch to the specified version of Neovim:
 

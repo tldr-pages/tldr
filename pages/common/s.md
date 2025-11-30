@@ -1,7 +1,7 @@
 # s
 
 > Web search from the terminal.
-> More information: <https://github.com/zquestz/s>.
+> More information: <https://github.com/zquestz/s#s>.
 
 - Search for a query on Google (default provider):
 

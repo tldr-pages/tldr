@@ -1,7 +1,7 @@
 # grex
 
 > Generate `regex`s.
-> More information: <https://github.com/pemistahl/grex>.
+> More information: <https://github.com/pemistahl/grex#5-how-to-use>.
 
 - Generate a simple `regex`:
 

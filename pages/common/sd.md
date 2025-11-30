@@ -1,7 +1,7 @@
 # sd
 
 > Intuitive find and replace.
-> More information: <https://github.com/chmln/sd>.
+> More information: <https://manned.org/sd>.
 
 - Trim some whitespace using a `regex` (output stream: `stdout`):
 

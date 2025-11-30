@@ -2,7 +2,7 @@
 
 > Create TCP/UDP tunnels, transported over HTTP, secured via SSH.
 > Includes both client and server in the same `chisel` executable.
-> More information: <https://github.com/jpillora/chisel>.
+> More information: <https://github.com/jpillora/chisel#usage>.
 
 - Run a Chisel server:
 

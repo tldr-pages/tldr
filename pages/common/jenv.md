@@ -1,6 +1,6 @@
 # jenv
 
-> Manage the "JAVA_HOME" environment variable.
+> Manage the `$JAVA_HOME` environment variable.
 > More information: <https://github.com/jenv/jenv>.
 
 - Add a Java version to jEnv:

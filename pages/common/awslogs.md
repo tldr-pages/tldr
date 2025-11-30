@@ -1,7 +1,7 @@
 # awslogs
 
 > Queries groups, streams and events from Amazon CloudWatch logs.
-> More information: <https://github.com/jorgebastida/awslogs>.
+> More information: <https://github.com/jorgebastida/awslogs#options>.
 
 - List log groups:
 
