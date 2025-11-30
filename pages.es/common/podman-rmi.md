@@ -15,6 +15,6 @@
 
 `podman rmi --no-prune {{imagen}}`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `podman rmi {{[-h|--help]}}`
