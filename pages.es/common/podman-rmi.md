@@ -9,7 +9,7 @@
 
 - Fuerza eliminar una imagen:
 
-`podman rmi {{-f|--force}} {{imagen}}`
+`podman rmi {{[-f|--force]}} {{imagen}}`
 
 - Quita una imagen sin eliminar padres sin etiquetar:
 
