@@ -23,6 +23,6 @@
 
 `deepseek --local`
 
-- Show help information:
+- Display help:
 
 `deepseek --help`
