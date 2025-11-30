@@ -2,7 +2,7 @@
 
 > Een tegelvensterbeheerder gebaseerd op binaire ruimtepartitionering.
 > Zie ook: `bspc`, voor het aansturen.
-> Meer informatie: <https://github.com/baskerville/bspwm>.
+> Meer informatie: <https://github.com/baskerville/bspwm/blob/master/doc/bspwm.1.asciidoc>.
 
 - Start `bspwm` (houd er rekening mee dat een reeds bestaande vensterbeheerder niet geopend mag zijn wanneer dit commando wordt uitgevoerd):
 

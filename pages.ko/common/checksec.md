@@ -1,7 +1,7 @@
 # checksec
 
 > 실행 파일의 보안 속성을 확인.
-> 더 많은 정보: <https://github.com/slimm609/checksec.sh>.
+> 더 많은 정보: <https://manned.org/checksec>.
 
 - 실행 가능한 바이너리 파일의 보안 속성을 확인:
 

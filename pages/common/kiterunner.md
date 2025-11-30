@@ -1,7 +1,7 @@
 # kiterunner
 
 > A contextual web scanner for discovering API paths and web endpoints using wordlists and kitebuilder schemas.
-> More information: <https://github.com/assetnote/kiterunner>.
+> More information: <https://github.com/assetnote/kiterunner#usage>.
 
 - View documentation for bruteforcing API paths and web endpoints:
 

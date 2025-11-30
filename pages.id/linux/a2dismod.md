@@ -9,4 +9,4 @@
 
 - Jangan menampilkan pesan-pesan informatif selama melakukan operasi:
 
-`sudo a2dismod --quiet {{modul}}`
+`sudo a2dismod {{[-q|--quiet]}} {{modul}}`

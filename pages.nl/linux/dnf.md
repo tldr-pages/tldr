@@ -2,7 +2,7 @@
 
 > Hulpprogramma voor pakketbeheer van RHEL, Fedora en CentOS (vervangt Yum).
 > Voor gelijkwaardige commando's binnen andere pakketbeheer, zie <https://wiki.archlinux.org/title/Pacman/Rosetta>.
-> Meer informatie: <https://dnf.readthedocs.io>.
+> Meer informatie: <https://dnf.readthedocs.io/en/latest/command_ref.html>.
 
 - Upgrade geïnstalleerde pakketten naar de nieuwste beschikbare versies:
 

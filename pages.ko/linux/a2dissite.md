@@ -9,4 +9,4 @@
 
 - 정보성 메시지를 표시하지 않음:
 
-`sudo a2dissite --quiet {{가상_호스트}}`
+`sudo a2dissite {{[-q|--quiet]}} {{가상_호스트}}`

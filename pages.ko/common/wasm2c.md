@@ -1,7 +1,7 @@
 # wasm2c
 
 > WebAssembly 바이너리 형식을 C 소스 파일 및 헤더로 변환.
-> 더 많은 정보: <https://github.com/WebAssembly/wabt>.
+> 더 많은 정보: <https://webassembly.github.io/wabt/doc/wasm2c.1.html>.
 
 - 파일을 C 소스 파일 및 헤더로 변환하고 콘솔에 표시:
 

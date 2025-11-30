@@ -1,7 +1,7 @@
 # rspec
 
 > Ruby 코드를 테스트하기 위한 Ruby로 작성된 행동 주도 개발 테스트 프레임워크.
-> 더 많은 정보: <https://rspec.info>.
+> 더 많은 정보: <https://rspec.info/features/3-13/rspec-core/command-line/>.
 
 - .rspec 구성 파일과 spec 헬퍼 파일 초기화:
 

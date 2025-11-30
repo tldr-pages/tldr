@@ -1,7 +1,7 @@
 # node
 
 > サーバサイド JavaScript プラットフォーム (Node.js)。
-> もっと詳しく: <https://nodejs.org>。
+> もっと詳しく: <https://nodejs.org/docs/latest/api/cli.html#options>。
 
 - JavaScript ファイルを実行:
 

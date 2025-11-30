@@ -6,7 +6,7 @@
 
 - Añade una nueva abreviatura:
 
-`abbr --add {{nombre_abreviatura}} {{comando}} {{argumentos_del_comando}}`
+`abbr {{[-a|--add]}} {{nombre_abreviatura}} {{comando}} {{argumentos_del_comando}}`
 
 - Cambia el nombre de una abreviatura existente:
 
@@ -14,8 +14,8 @@
 
 - Borra una abreviatura existente:
 
-`abbr --erase {{nombre_abreviatura}}`
+`abbr {{[-e|--erase]}} {{nombre_abreviatura}}`
 
 - Importa las abreviaturas definidas en otro host a través de SSH:
 
-`ssh {{nombre_host}} abbr --show | source`
+`ssh {{nombre_host}} abbr {{[-s|--show]}} | source`

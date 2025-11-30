@@ -1,7 +1,7 @@
 # xctool
 
 > Herramienta para construir proyectos Xcode.
-> Más información: <https://github.com/facebookarchive/xctool>.
+> Más información: <https://github.com/facebookarchive/xctool#usage>.
 
 - Construye un proyecto sin ningún espacio de trabajo:
 

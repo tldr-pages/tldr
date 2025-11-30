@@ -1,7 +1,7 @@
 # anki
 
 > Program manajemen flashcard (kartu pintar) yang kuat dan cerdas.
-> Informasi lebih lanjut: <https://docs.ankiweb.net>.
+> Informasi lebih lanjut: <https://manned.org/anki>.
 
 - Jalankan program GUI:
 

@@ -2,7 +2,7 @@
 
 > Container image management toolbox.
 > Provides various utility commands to manage remote container images.
-> More information: <https://github.com/containers/skopeo>.
+> More information: <https://github.com/containers/skopeo/blob/main/docs/skopeo.1.md>.
 
 - Inspect a remote image from a registry:
 

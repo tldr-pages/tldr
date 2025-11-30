@@ -1,7 +1,7 @@
 # ydotool
 
 > Controla las entradas de teclado y ratón mediante comandos de forma agnóstica al servidor de visualización.
-> Más información: <https://github.com/ReimuNotMoe/ydotool>.
+> Más información: <https://github.com/ReimuNotMoe/ydotool#usage>.
 
 - Inicia el daemon ydotool en segundo plano:
 

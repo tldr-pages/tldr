@@ -1,7 +1,7 @@
 # tspin
 
 > `less` 페이지를 기반으로 하는 로그 파일 하이라이터로, 기본적으로 다른 페이지처럼 동작합니다.
-> 더 많은 정보: <https://github.com/bensadeh/tailspin>.
+> 더 많은 정보: <https://github.com/bensadeh/tailspin#settings>.
 
 - 파일에서 읽고 `less`로 보기:
 

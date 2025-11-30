@@ -1,7 +1,7 @@
 # qrcp
 
 > 파일 전송 도구.
-> 더 많은 정보: <https://github.com/claudiodangelis/qrcp>.
+> 더 많은 정보: <https://github.com/claudiodangelis/qrcp#usage>.
 
 - 파일 또는 폴더 전송:
 

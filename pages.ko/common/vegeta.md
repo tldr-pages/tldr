@@ -2,7 +2,7 @@
 
 > HTTP 부하 테스트를 위한 명령줄 도구 및 라이브러리.
 > 같이 보기: `ab`.
-> 더 많은 정보: <https://github.com/tsenart/vegeta>.
+> 더 많은 정보: <https://github.com/tsenart/vegeta#usage-manual>.
 
 - 30초 동안 공격 시작:
 

@@ -2,7 +2,7 @@
 
 > Gestiona los archivos RPMNEW, RPMSAVE y RPMORIG creados por las actualizaciones de paquetes.
 > Vea también: `rpm`.
-> Más información: <https://github.com/xsuchy/rpmconf>.
+> Más información: <https://manned.org/man/rpmconf.8>.
 
 - Lista los archivos sobrantes y elige interactivamente que hacer con cada uno de ellos:
 

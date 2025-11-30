@@ -1,7 +1,7 @@
 # asciidoctor
 
 > Преобразователь AsciiDoc файлов в другие форматы для публикации.
-> Больше информации: <https://docs.asciidoctor.org>.
+> Больше информации: <https://docs.asciidoctor.org/asciidoctor/latest/cli/man1/asciidoctor/>.
 
 - Преобразовать данный `.adoc` файл в HTML (выходной формат по умолчанию):
 

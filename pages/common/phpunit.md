@@ -1,7 +1,7 @@
 # phpunit
 
 > PHPUnit test runner.
-> More information: <https://phpunit.de>.
+> More information: <https://docs.phpunit.de/en/12.4/textui.html#command-line-options>.
 
 - Run tests in the current directory. Note: Expects you to have a 'phpunit.xml':
 

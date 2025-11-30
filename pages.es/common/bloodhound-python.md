@@ -1,7 +1,7 @@
 # bloodhound-python
 
 > Un ingestor Python para BloodHound, utilizado para enumerar las relaciones de Active Directory.
-> Más información: <https://github.com/dirkjanm/BloodHound.py>.
+> Más información: <https://github.com/dirkjanm/BloodHound.py#usage>.
 
 - Recopila todos los datos utilizando los métodos de recopilación predeterminados (incluye grupos, sesiones y fideicomisos):
 

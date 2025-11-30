@@ -1,7 +1,7 @@
 # reflac
 
 > Recompress FLAC files in-place while preserving metadata.
-> More information: <https://github.com/chungy/reflac>.
+> More information: <https://github.com/chungy/reflac#running>.
 
 - Recompress a directory of FLAC files:
 

@@ -1,7 +1,7 @@
 # st-util
 
 > Run GDB (GNU Debugger) server to interact with STM32 ARM Cortex microcontoller.
-> More information: <https://github.com/texane/stlink>.
+> More information: <https://github.com/stlink-org/stlink/blob/testing/doc/man/st-util.md>.
 
 - Run GDB server on port 4500:
 

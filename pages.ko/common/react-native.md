@@ -1,7 +1,7 @@
 # react-native
 
 > React를 사용하여 네이티브 앱을 구축하기 위한 프레임워크.
-> 더 많은 정보: <https://reactnative.dev>.
+> 더 많은 정보: <https://github.com/react-native-community/cli/blob/main/docs/commands.md>.
 
 - 동일한 이름의 디렉터리에 새 React Native 프로젝트 초기화:
 

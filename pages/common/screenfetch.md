@@ -1,7 +1,7 @@
 # screenfetch
 
 > Display system information.
-> More information: <https://github.com/KittyKatt/screenFetch>.
+> More information: <https://github.com/KittyKatt/screenFetch#running-screenfetch>.
 
 - Start `screenfetch`:
 

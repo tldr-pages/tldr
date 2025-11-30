@@ -9,4 +9,4 @@
 
 - Jangan menampilkan pesan-pesan informatif selama melakukan operasi:
 
-`sudo a2dissite --quiet {{host_maya}}`
+`sudo a2dissite {{[-q|--quiet]}} {{host_maya}}`

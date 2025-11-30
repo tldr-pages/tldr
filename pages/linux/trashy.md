@@ -1,7 +1,7 @@
 # trashy
 
 > An alternative to `rm` and `trash-cli` written in Rust.
-> More information: <https://github.com/oberblastmeister/trashy>.
+> More information: <https://github.com/oberblastmeister/trashy#usage>.
 
 - Move a specific file to the trash:
 

@@ -1,7 +1,7 @@
 # ugrep
 
 > Ultrasnelle bestandszoeker met interactive UI.
-> Meer informatie: <https://github.com/Genivia/ugrep>.
+> Meer informatie: <https://github.com/Genivia/ugrep#man-page>.
 
 - Open een interactieve TUI om recursief bestanden te zoeken (`<Ctrl z>` voor hulp):
 

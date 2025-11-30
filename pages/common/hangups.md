@@ -7,10 +7,10 @@
 
 `hangups`
 
-- Display troubleshooting information and help:
-
-`hangups -h`
-
 - Set a refresh token for hangups:
 
 `hangups --token-path {{path/to/token}}`
+
+- Display troubleshooting information and help:
+
+`hangups -h`

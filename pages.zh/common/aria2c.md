@@ -2,7 +2,7 @@
 
 > 快速下载工具。
 > 支持 HTTP(S)、FTP、SFTP、BitTorrent 和 Metalink。
-> 更多信息：<https://aria2.github.io>.
+> 更多信息：<https://aria2.github.io/manual/en/html/aria2c.html>.
 
 - 将特定 URI 下载到一个文件：
 

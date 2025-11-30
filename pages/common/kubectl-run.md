@@ -7,7 +7,7 @@
 
 `kubectl run {{nginx-dev}} --image nginx --port 80`
 
-- Run an nginx pod, setting the TEST_VAR environment variable:
+- Run an nginx pod, setting the `$TEST_VAR` environment variable:
 
 `kubectl run {{nginx-dev}} --image nginx --env "{{TEST_VAR}}={{testing}}"`
 

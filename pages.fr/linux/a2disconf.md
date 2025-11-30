@@ -9,4 +9,4 @@
 
 - N'affiche aucun message (mode silencieux) :
 
-`sudo a2disconf --quiet {{fichier_de_configuration}}`
+`sudo a2disconf {{[-q|--quiet]}} {{fichier_de_configuration}}`

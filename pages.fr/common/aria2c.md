@@ -2,7 +2,7 @@
 
 > Utilitaire de téléchargement.
 > Supporte HTTP(S), FTP, SFTP, BitTorrent, et Metalink.
-> Plus d'informations : <https://aria2.github.io>.
+> Plus d'informations : <https://aria2.github.io/manual/en/html/aria2c.html>.
 
 - Télécharge depuis une URI vers un fichier :
 

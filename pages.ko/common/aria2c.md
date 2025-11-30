@@ -2,7 +2,7 @@
 
 > 빠른 다운로드 유틸리티.
 > HTTP(S), FTP, SFTP, BitTorrent 및 Metalink를 지원합니다.
-> 더 많은 정보: <https://aria2.github.io>.
+> 더 많은 정보: <https://aria2.github.io/manual/en/html/aria2c.html>.
 
 - 특정 URI를 파일로 다운로드:
 

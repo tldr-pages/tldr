@@ -1,7 +1,7 @@
 # physlock
 
 > Lock all consoles and virtual terminals.
-> More information: <https://github.com/muennich/physlock>.
+> More information: <https://github.com/xyb3rt/physlock#usage>.
 
 - Lock every console (require current user or root to unlock):
 

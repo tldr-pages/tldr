@@ -2,7 +2,7 @@
 
 > 비밀번호나 기타 민감한 데이터를 저장하고 읽기.
 > 모든 데이터는 GPG로 암호화되며, Git 저장소로 관리됩니다.
-> 더 많은 정보: <https://www.passwordstore.org>.
+> 더 많은 정보: <https://git.zx2c4.com/password-store/about/>.
 
 - 하나 이상의 GPG ID를 사용하여 저장소 초기화 (또는 재암호화):
 

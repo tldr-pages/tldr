@@ -9,4 +9,4 @@
 
 - 不显示信息性消息：
 
-`sudo a2dismod --quiet {{模块路径}}`
+`sudo a2dismod {{[-q|--quiet]}} {{模块路径}}`

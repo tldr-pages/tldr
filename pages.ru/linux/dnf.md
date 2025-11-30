@@ -3,7 +3,7 @@
 > Утилита управления пакетами для RHEL, Fedora и CentOS (заменяет yum).
 > Некоторые подкоманды, такие как `group` и `config-manager`, имеют свою собственную документацию по использованию.
 > Эквивалентные команды в других пакетных менеджерах смотрите в <https://wiki.archlinux.org/title/Pacman/Rosetta>.
-> Больше информации: <https://dnf.readthedocs.io>.
+> Больше информации: <https://dnf.readthedocs.io/en/latest/command_ref.html>.
 
 - Обновить установленные пакеты до новейших доступных версий:
 

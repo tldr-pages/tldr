@@ -1,7 +1,7 @@
 # yetris
 
 > Clone of the game Tetris in the terminal.
-> More information: <https://github.com/alexdantas/yetris>.
+> More information: <https://github.com/alexdantas/yetris#controls>.
 
 - Start a Tetris game:
 

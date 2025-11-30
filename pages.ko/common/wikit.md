@@ -1,7 +1,7 @@
 # wikit
 
 > 명령줄에서 쉽게 위키백과 요약을 가져오는 프로그램.
-> 더 많은 정보: <https://github.com/KorySchneider/wikit>.
+> 더 많은 정보: <https://github.com/KorySchneider/wikit#usage>.
 
 - 특정 주제에 대한 위키백과의 짧은 요약 보기:
 

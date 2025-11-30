@@ -1,7 +1,7 @@
 # kotlin
 
 > Kotlin 애플리케이션 실행기.
-> 더 많은 정보: <https://kotlinlang.org>.
+> 더 많은 정보: <https://kotlinlang.org/docs/command-line.html#compile-a-library>.
 
 - jar 파일 실행:
 
