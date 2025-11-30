@@ -21,6 +21,7 @@ This section contains a summary of the scripts available in this directory. For 
 - [test.sh](test.sh) script runs some basic tests on every PR/commit to ensure the pages are valid and the code is formatted correctly.
 - [wrong-filename.py](wrong-filename.py) script checks the consistency between the filenames and the page title.
 - [update-command.py](update-command.py) is a Python script to update the common contents of a command example across all languages.
+- [check-errors.sh](check-errors.sh) is a shell script that is meant to be run inside a specific language directory (`../scripts/check-errors.sh`). It does basic grep searches of few of the most commonly encountered errors and returns the lines they appear in.
 
 ## Compatibility
 
