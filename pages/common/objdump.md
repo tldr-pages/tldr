@@ -23,7 +23,7 @@
 
 `objdump {{[-d|--disassemble]}} {{path/to/binary}} --visualize-jumps={{color|extended-color}} --disassembler-color={{color|extended-color}}`
 
-- Display the symbol table:
+- Display the symbol [t]able:
 
 `objdump {{[-t|--syms]}} {{path/to/binary}}`
 
