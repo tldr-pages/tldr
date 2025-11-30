@@ -10,7 +10,7 @@
 
 - Preload a wallpaper:
 
-`hyprctl hyprpaper preload "{{monitor}},{{path/to/image.png}}"`
+`hyprctl hyprpaper preload "{{path/to/image.png}}"`
 
 - Switch wallpaper to a different preloaded image:
 
