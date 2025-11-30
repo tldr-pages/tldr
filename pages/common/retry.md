@@ -1,7 +1,7 @@
 # retry
 
 > Repeat command until it succeeds or a criterion is met.
-> More information: <https://github.com/minfrin/retry>.
+> More information: <https://manned.org/retry>.
 
 - Retry a command until it succeeds:
 
@@ -9,8 +9,8 @@
 
 - Retry a command every n seconds until it succeeds:
 
-`retry --delay={{n}} {{command}}`
+`retry {{[-d|--delay]}} {{n}} {{command}}`
 
 - Give up after n attempts:
 
-`retry --times={{n}} {{command}}`
+`retry {{[-t|--times]}} {{n}} {{command}}`

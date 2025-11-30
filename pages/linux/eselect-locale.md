@@ -7,10 +7,10 @@
 
 `eselect locale list`
 
-- Set the `LANG` environment variable in `/etc/profile.env` by name or index from the `list` command:
+- Set the `$LANG` environment variable in `/etc/profile.env` by name or index from the `list` command:
 
 `eselect locale set {{name|index}}`
 
-- Display the value of `LANG` in `/etc/profile.env`:
+- Display the value of `$LANG` in `/etc/profile.env`:
 
 `eselect locale show`

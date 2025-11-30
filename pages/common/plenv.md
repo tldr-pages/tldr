@@ -1,7 +1,7 @@
 # plenv
 
 > Switch between multiple versions of Perl.
-> More information: <https://github.com/tokuhirom/plenv>.
+> More information: <https://github.com/tokuhirom/plenv#name>.
 
 - Show the currently selected Perl version and how it was selected:
 
