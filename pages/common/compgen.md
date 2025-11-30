@@ -9,7 +9,7 @@
 
 `compgen -c`
 
-- List all commands that you could run that start with a specified string and save results to `COMPREPLY`:
+- List all commands that you could run that start with a specified string and save results to `$COMPREPLY`:
 
 `compgen -V COMPREPLY -c {{str}}`
 

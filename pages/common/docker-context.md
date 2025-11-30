@@ -7,7 +7,7 @@
 
 `docker context create {{my_context}} --docker "host={{tcp://remote-host:2375}}"`
 
-- Create a context based on the `DOCKER_HOST` environment variable:
+- Create a context based on the `$DOCKER_HOST` environment variable:
 
 `docker context create {{my_context}}`
 
