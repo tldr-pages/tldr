@@ -37,3 +37,4 @@ The table below shows the compatibility of user-executable scripts with differen
 | [set-page-title.py](set-page-title.py) | ✅ | ✅ | ✅ |
 | [wrong-filename.py](wrong-filename.py) | ✅ | ✅ | ✅ |
 | [update-command.py](update-command.py) | ✅ | ✅ | ✅ |
+| [check-errors.sh](check-errors.sh) | ✅ | ❓ | ❓ |
