@@ -1,6 +1,6 @@
 # flask
 
-> A general utility script for Flask applications. Loads the application defined in the `FLASK_APP` environment variable.
+> A general utility script for Flask applications. Loads the application defined in the `$FLASK_APP` environment variable.
 > More information: <https://flask.palletsprojects.com/en/stable/cli/>.
 
 - Run a development server:

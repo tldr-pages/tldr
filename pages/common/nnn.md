@@ -15,7 +15,7 @@
 
 `nnn -H`
 
-- Open an existing [b]ookmark (defined in the `NNN_BMS` environment variable):
+- Open an existing [b]ookmark (defined in the `$NNN_BMS` environment variable):
 
 `nnn -b {{bookmark_name}}`
 

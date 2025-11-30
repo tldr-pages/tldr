@@ -13,7 +13,7 @@
 
 `agetty {{[-t|--timeout]}} {{timeout_in_seconds}} -`
 
-- Assume the `tty` is 8-bit, overriding the `TERM` environment variable set by `init`:
+- Assume the `tty` is 8-bit, overriding the `$TERM` environment variable set by `init`:
 
 `agetty {{[-8|--8bits]}} - {{term_var}}`
 

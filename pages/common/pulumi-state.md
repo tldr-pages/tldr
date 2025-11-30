@@ -19,7 +19,7 @@
 
 `pulumi state repair`
 
-- Edit a stack's state in the editor specified by the `EDITOR` environment variable:
+- Edit a stack's state in the editor specified by the `$EDITOR` environment variable:
 
 `pulumi state edit --stack {{stack_name}}`
 

@@ -7,6 +7,6 @@
 
 `export {{VARIABLE}}={{value}}`
 
-- Append a pathname to the environment variable `PATH`:
+- Append a pathname to the environment variable `$PATH`:
 
 `export PATH=$PATH:{{path/to/append}}`

@@ -5,7 +5,7 @@
 > See also: `compgen`, `compopt`.
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#index-complete>.
 
-- Set arguments of a command to autocomplete through a function (completion response is sent in `COMPREPLY` variable):
+- Set arguments of a command to autocomplete through a function (completion response is sent in `$COMPREPLY` variable):
 
 `complete -F {{function}} {{command}}`
 

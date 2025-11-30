@@ -4,7 +4,7 @@
 > See also: `whereis`, `whatis`, `type`.
 > More information: <https://manned.org/which>.
 
-- Search the PATH environment variable and display the location of any matching executables:
+- Search the `$PATH` environment variable and display the location of any matching executables:
 
 `which {{executable}}`
 
