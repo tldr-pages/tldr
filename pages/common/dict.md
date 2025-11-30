@@ -1,7 +1,7 @@
 # dict
 
 > Command line dictionary using the DICT protocol.
-> More information: <https://github.com/cheusov/dictd>.
+> More information: <https://manned.org/dict>.
 
 - List available databases:
 

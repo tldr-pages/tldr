@@ -9,7 +9,7 @@
 
 - Download and compile a Go program from a remote URL:
 
-`gox {{url_1}} {{url_2}}`
+`gox {{url_1 url_2 ...}}`
 
 - Compile current directory for a particular operating system:
 
