@@ -13,7 +13,7 @@
 
 - Set the opacity of a specific window selected via mouse cursor:
 
-`picom-trans {{[-s|--select]}} {{[-o|--opacity]}} {{90}}`
+`picom-trans {{[-s|--select]}} {{[-o|--opacity]}} {{percentage}}`
 
 - Toggle the opacity of a specific window:
 
