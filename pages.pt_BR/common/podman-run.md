@@ -9,23 +9,23 @@
 
 - Executa um comando em um novo contêiner em segundo plano e exibe o ID:
 
-`podman run --detach {{imagem:tag}} {{comando}}`
+`podman run {{[-d|--detach]}} {{imagem:tag}} {{comando}}`
 
 - Executa um comando em um contêiner temporário no modo interativo e pseudo-TTY:
 
-`podman run --rm --interactive --tty {{imagem:tag}} {{comando}}`
+`podman run --rm {{-it|--interactive --tty}} {{imagem:tag}} {{comando}}`
 
 - Executa um comando em um novo contêiner com variáveis de ambiente passadas:
 
-`podman run --env '{{variável}}={{valor}}' --env {{variável}} {{imagem:tag}} {{comando}}`
+`podman run {{[-e|--env]}} '{{variável}}={{valor}}' {{[-e|--env]}} {{variável}} {{imagem:tag}} {{comando}}`
 
 - Executa um comando em um novo contêiner com volumes montados por bind:
 
-`podman run --volume {{/caminho/para/caminho_no_host}}:{{/caminho/para/caminho_no_contêiner}} {{imagem:tag}} {{comando}}`
+`podman run {{[-v|--volume]}} {{/caminho/para/caminho_no_host}}:{{/caminho/para/caminho_no_contêiner}} {{imagem:tag}} {{comando}}`
 
 - Executa um comando em um novo contêiner com portas publicadas:
 
-`podman run --publish {{porta_no_host}}:{{porta_no_contêiner}} {{imagem:tag}} {{comando}}`
+`podman run {{[-p|--publish]}} {{porta_no_host}}:{{porta_no_contêiner}} {{imagem:tag}} {{comando}}`
 
 - Executa um comando em um novo contêiner sobrescrevendo o ponto de entrada (entrypoint) da imagem:
 
