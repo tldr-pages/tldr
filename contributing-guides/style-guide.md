@@ -319,7 +319,11 @@ If a program requires root privileges to run and doesn't provide its own prompt 
 
 Avoid explaining general UNIX concepts that could apply to any command (i.e. relative/absolute paths, glob patterns/wildcards, special character escaping, program return values, ...)
 
-When describing an environment variable, prepend the variable with a dollar sign and enclose it with backticks. For example: "Manage the `$JAVA_HOME` environment variable."
+When describing an environment variable for UNIX platforms, prepend the variable with a dollar sign and enclose it with backticks. For example: "Manage the `$JAVA_HOME` environment variable."
+
+For Windows command prompt, prepend and append the environment variable with a percent sign and enclose it with backticks. For example: "Manage the `%JAVA_HOME%` environment variable".
+
+Whereas for Powershell,  prepend the environment with a dollar sign, Env and a colon then enclose it with backticks (`$Env:VARIABLE_NAME`). For example: "Manage the `$Env:JAVA_HOME` environment variable".
 
 ### Standardized Terms
 
