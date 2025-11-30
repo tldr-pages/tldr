@@ -21,7 +21,7 @@
 
 - Executa um comando em um novo contêiner com volumes montados por bind:
 
-`podman run {{[-v|--volume]}} {{/caminho/para/caminho_no_host}}:{{/caminho/para/caminho_no_contêiner}} {{imagem:tag}} {{comando}}`
+`podman run {{[-v|--volume]}} /{{caminho/para/caminho_no_host}}:/{{caminho/para/caminho_no_contêiner}} {{imagem:tag}} {{comando}}`
 
 - Executa um comando em um novo contêiner com portas publicadas:
 

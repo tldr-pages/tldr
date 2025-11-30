@@ -21,7 +21,7 @@
 
 - Ejecuta el comando en un nuevo contenedor con volúmenes montados en un contenedor:
 
-`podman run {{[-v|--volume]}} {{/ruta/a/ruta_del_host}}:{{/ruta/a/ruta_del_contenedor}} {{imagen:tag}} {{comando}}`
+`podman run {{[-v|--volume]}} /{{ruta/a/ruta_del_host}}:/{{ruta/a/ruta_del_contenedor}} {{imagen:tag}} {{comando}}`
 
 - Ejecuta comando en un nuevo contenedor con los puertos publicados:
 
