@@ -1,4 +1,4 @@
-# hyprpaper 
+# hyprpaper
 
 > Wallpaper utility for Hyprland with the ability to dynamically change wallpapers.
 > Controlled by the config file ~/.config/hypr/hyprpaper.conf.
