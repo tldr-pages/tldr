@@ -15,4 +15,4 @@
 
 - Unset multiple options at once:
 
-`unsetopt {{option_name1}} {{option_name2}}`
+`unsetopt {{option_name1 option_name2 ...}}`
