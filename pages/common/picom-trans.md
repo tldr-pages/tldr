@@ -5,7 +5,7 @@
 
 - Set the currently focused window opacity to a specific percentage:
 
-`picom-trans {{[-c|--current]}} {{[-o|--opacity]}} {{90}}`
+`picom-trans {{[-c|--current]}} {{[-o|--opacity]}} {{percentage}}`
 
 - Set the opacity of a window with a specific name:
 
