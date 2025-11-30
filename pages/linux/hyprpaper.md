@@ -8,9 +8,17 @@
 
 `hyprpaper`
 
+- Preload a wallpaper:
+
+`hyprctl hyprpaper preload "{{monitor}},{{path/to/image.png}}"`
+
 - Switch wallpaper to a different preloaded image:
 
 `hyprctl hyprpaper wallpaper "{{monitor}},{{path/to/image.png}}"`
+
+- Preload a wallpaper, set that wallpaper, then unload all unused wallpapers:
+
+`hyprctl hyprpaper reload "{{monitor}},{{path/to/image.png}}"`
 
 - List the wallpapers that are currently preloaded (useful for dynamically preloading and unloading):
 
