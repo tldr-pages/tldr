@@ -19,6 +19,10 @@
 
 `sudo lxc-stop {{container_name}}`
 
+- Write debug logs to a file:
+
+`sudo lxc-start {{container_name}} {{[-l|--logpriority]}} DEBUG {{[-o|--logfile]}} {{path/to/logfile}}`
+
 - Display help:
 
 `lxc-start {{[-?|--help]}}`
