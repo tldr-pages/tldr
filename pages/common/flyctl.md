@@ -1,4 +1,4 @@
-o# flyctl
+# flyctl
 
 > Tool for flyctl.io.
 > More information: <https://github.com/superfly/flyctl>.
