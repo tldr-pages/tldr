@@ -19,6 +19,6 @@
 
 `cups-config --help`
 
-- Display CUPS version:
+- Display version:
 
 `cups-config --version`
