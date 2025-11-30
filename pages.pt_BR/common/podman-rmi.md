@@ -5,11 +5,11 @@
 
 - Remove uma ou mais imagens pelo nome delas:
 
-`podman rmi {{imagem:tag}} {{imagem2:tag}} {{...}}`
+`podman rmi {{imagem:tag imagem2:tag ...}}`
 
 - Remove uma imagem forçadamente:
 
-`podman rmi --force {{imagem}}`
+`podman rmi {{-f|--force}} {{imagem}}`
 
 - Remove uma imagem sem excluir os pais não marcados:
 
@@ -17,4 +17,4 @@
 
 - Exibe ajuda:
 
-`podman rmi`
+`podman rmi {{[-h|--help]}}`

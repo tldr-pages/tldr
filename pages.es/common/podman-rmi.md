@@ -5,11 +5,11 @@
 
 - Elimina una o más imágenes dados sus nombres:
 
-`podman rmi {{imagen:tag}} {{imagen2:tag}} {{...}}`
+`podman rmi {{imagen:tag imagen2:tag ...}}`
 
 - Fuerza eliminar una imagen:
 
-`podman rmi --force {{imagen}}`
+`podman rmi {{-f|--force}} {{imagen}}`
 
 - Quita una imagen sin eliminar padres sin etiquetar:
 
@@ -17,4 +17,4 @@
 
 - Muestra ayuda:
 
-`podman rmi`
+`podman rmi {{[-h|--help]}}`

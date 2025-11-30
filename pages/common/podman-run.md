@@ -9,23 +9,23 @@
 
 - Run command in a new container in background and display its ID:
 
-`podman run --detach {{image:tag}} {{command}}`
+`podman run {{[-d|--detach]}} {{image:tag}} {{command}}`
 
 - Run command in a one-off container in interactive mode and pseudo-TTY:
 
-`podman run --rm --interactive --tty {{image:tag}} {{command}}`
+`podman run --rm {{-it|--interactive --tty}} {{image:tag}} {{command}}`
 
 - Run command in a new container with passed environment variables:
 
-`podman run --env '{{variable}}={{value}}' --env {{variable}} {{image:tag}} {{command}}`
+`podman run {{[-e|--env]}} '{{variable}}={{value}}' {{[-e|--env]}} {{variable}} {{image:tag}} {{command}}`
 
 - Run command in a new container with bind mounted volumes:
 
-`podman run --volume /{{path/to/host_path}}:/{{path/to/container_path}} {{image:tag}} {{command}}`
+`podman run {{[-v|--volume]}} /{{path/to/host_path}}:/{{path/to/container_path}} {{image:tag}} {{command}}`
 
 - Run command in a new container with published ports:
 
-`podman run --publish {{host_port}}:{{container_port}} {{image:tag}} {{command}}`
+`podman run {{[-p|--publish]}} {{host_port}}:{{container_port}} {{image:tag}} {{command}}`
 
 - Run command in a new container overwriting the entrypoint of the image:
 

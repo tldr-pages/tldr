@@ -9,15 +9,15 @@
 
 - Lista todas as imagens do Podman, incluindo intermediárias:
 
-`podman images --all`
+`podman images {{[-a|--all]}}`
 
 - Lista a saída no modo silencioso (apenas IDs numéricos):
 
-`podman images --quiet`
+`podman images {{[-q|--quiet]}}`
 
 - Lista todas as imagens do Podman que não são utilizadas por nenhum contêiner:
 
-`podman images --filter dangling=true`
+`podman images {{[-f|--filter]}} dangling=true`
 
 - Lista imagens que contenham uma substring em seus nomes:
 

@@ -9,15 +9,15 @@
 
 - List all Podman images including intermediates:
 
-`podman images --all`
+`podman images {{[-a|--all]}}`
 
 - List the output in quiet mode (only numeric IDs):
 
-`podman images --quiet`
+`podman images {{[-q|--quiet]}}`
 
 - List all Podman images not used by any container:
 
-`podman images --filter dangling=true`
+`podman images {{[-f|--filter]}} dangling=true`
 
 - List images that contain a substring in their name:
 

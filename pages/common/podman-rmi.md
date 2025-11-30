@@ -9,7 +9,7 @@
 
 - Force remove an image:
 
-`podman rmi --force {{image}}`
+`podman rmi {{-f|--force}} {{image}}`
 
 - Remove an image without deleting untagged parents:
 
@@ -17,4 +17,4 @@
 
 - Display help:
 
-`podman rmi`
+`podman rmi {{[-h|--help]}}`
