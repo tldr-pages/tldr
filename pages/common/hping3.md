@@ -6,15 +6,15 @@
 
 - Ping a destination with 4 ICMP ping requests:
 
-`hping3 {{[-1|--icmp]}} {{[-c|--count]}} {{4}} {{ip_or_hostname}}`
+`hping3 {{[-1|--icmp]}} {{[-c|--count]}} 4 {{ip_or_hostname}}`
 
 - Ping an IP address over UDP on port 80:
 
-`hping3 {{[-2|--udp]}} {{[-p|--destport]}} {{80}} {{[-S|--syn]}} {{ip_or_hostname}}`
+`hping3 {{[-2|--udp]}} {{[-p|--destport]}} 80 {{[-S|--syn]}} {{ip_or_hostname}}`
 
 - Scan TCP port 80, scanning from the specific local source port 5090:
 
-`hping3 {{[-V|--verbose]}} {{[-S|--syn]}} {{[-p|--destport]}} {{80}} {{[-s|--baseport]}} {{5090}} {{ip_or_hostname}}`
+`hping3 {{[-V|--verbose]}} {{[-S|--syn]}} {{[-p|--destport]}} 80 {{[-s|--baseport]}} 5090 {{ip_or_hostname}}`
 
 - Traceroute using a TCP scan to a specific destination port:
 
@@ -30,4 +30,4 @@
 
 - Perform a charge test on port 80:
 
-`hping3 --flood {{[-p|--destport]}} {{80}} {{[-S|--syn]}} {{ip_or_hostname}}`
+`hping3 --flood {{[-p|--destport]}} 80 {{[-S|--syn]}} {{ip_or_hostname}}`

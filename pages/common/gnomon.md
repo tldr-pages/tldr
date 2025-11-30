@@ -21,4 +21,4 @@
 
 - Use a medium threshold of 0.2 seconds, exceeding which the timestamp will be colored bright yellow:
 
-`{{npm test}} | gnomon {{[-m|--medium]}} {{0.2}}`
+`{{npm test}} | gnomon {{[-m|--medium]}} 0.2`
