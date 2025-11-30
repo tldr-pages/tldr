@@ -9,7 +9,7 @@
 
 - Set the opacity of a window with a specific name:
 
-`picom-trans {{[-n|--name]}} {{Firefox}} {{[-o|--opacity]}} {{90}}`
+`picom-trans {{[-n|--name]}} {{Firefox}} {{[-o|--opacity]}} {{percentage}}`
 
 - Set the opacity of a specific window selected via mouse cursor:
 
