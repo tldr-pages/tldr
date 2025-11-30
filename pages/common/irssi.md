@@ -11,10 +11,6 @@
 
 `irssi {{[-c|--connect]}} {{irc.example.com}} {{[-p|--port]}} {{port}}`
 
-- Display help:
-
-`irssi {{[-?|--help]}}`
-
 - Join a channel:
 
 `/join {{#channelname}}`
@@ -26,3 +22,7 @@
 - Exit the application cleanly and quitting any server(s):
 
 `/quit`
+
+- Display help:
+
+`irssi {{[-?|--help]}}`

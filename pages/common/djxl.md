@@ -8,6 +8,6 @@
 
 `djxl {{path/to/image.jxl}} {{path/to/output.ext}}`
 
-- Display an extremely detailed help page:
+- Display an extremely detailed help:
 
 `djxl {{[-h -v -v -v -v|--help --verbose --verbose --verbose --verbose]}}`

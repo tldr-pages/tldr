@@ -3,10 +3,6 @@
 > Write KConfig entries for KDE Plasma.
 > More information: <https://userbase.kde.org/KDE_System_Administration/Configuration_Files>.
 
-- Display help:
-
-`kwriteconfig5 --help`
-
 - Set a global configuration key:
 
 `kwriteconfig5 --group {{group_name}} --key {{key}} {{value}}`
@@ -30,3 +26,7 @@
 - Configure KRunner to open with the Meta (Command/Windows) global hotkey:
 
 `kwriteconfig5 --file {{~/.config/kwinrc}} --group {{ModifierOnlyShortcuts}} --key {{Meta}} "{{org.kde.kglobalaccel,/component/krunner_desktop,org.kde.kglobalaccel.Component,invokeShortcut,_launch}}"`
+
+- Display help:
+
+`kwriteconfig5 --help`
