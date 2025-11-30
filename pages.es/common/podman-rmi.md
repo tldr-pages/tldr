@@ -5,7 +5,7 @@
 
 - Elimina una o más imágenes dados sus nombres:
 
-`podman rmi {{imagen:tag}} {{imagen2:tag}} {{...}}`
+`podman rmi {{imagen:tag imagen2:tag ...}}`
 
 - Fuerza eliminar una imagen:
 
