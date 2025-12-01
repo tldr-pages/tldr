@@ -22,7 +22,7 @@
 
 - Match a set of characters:
 
-`[abc]`
+`[{{abc}}]`
 
 - Match a range of characters:
 
