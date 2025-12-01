@@ -2,7 +2,7 @@
 
 > Mount or create encrypted virtual filesystems.
 > See also: `fusermount` which can unmount filesystems mounted by this command.
-> More information: <https://github.com/vgough/encfs>.
+> More information: <https://manned.org/encfs>.
 
 - Initialize or mount an encrypted filesystem:
 

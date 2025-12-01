@@ -9,4 +9,4 @@
 
 - N'affiche aucun message (mode silencieux) :
 
-`sudo a2ensite --quiet {{hote_virtuel}}`
+`sudo a2ensite {{[-q|--quiet]}} {{hote_virtuel}}`

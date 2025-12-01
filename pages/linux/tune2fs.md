@@ -8,7 +8,7 @@
 
 `sudo tune2fs -c 2 {{/dev/sdXN}}`
 
-- Set the filesystem label to MY_LABEL:
+- Set the filesystem label to `MY_LABEL`:
 
 `sudo tune2fs -L 'MY_LABEL' {{/dev/sdXN}}`
 

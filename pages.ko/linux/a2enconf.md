@@ -9,4 +9,4 @@
 
 - 정보 메시지를 표시하지 않음:
 
-`sudo a2enconf --quiet {{설정_파일}}`
+`sudo a2enconf {{[-q|--quiet]}} {{설정_파일}}`

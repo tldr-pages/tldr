@@ -1,7 +1,7 @@
 # usql
 
 > Universal CLI interface for SQL databases.
-> More information: <https://github.com/xo/usql>.
+> More information: <https://github.com/xo/usql#using>.
 
 - Connect to a specific database:
 

@@ -2,7 +2,7 @@
 
 > A LaTeX formula preprocessor for HTML files.
 > It converts LaTeX formulas to images.
-> More information: <https://manned.org/gladtex.1>.
+> More information: <https://manned.org/gladtex>.
 
 - Convert to HTML:
 

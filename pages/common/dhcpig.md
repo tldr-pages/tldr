@@ -2,7 +2,7 @@
 
 > Initiates an advanced DHCP exhaustion attack and stress test.
 > DHCPig needs to be run with root privileges.
-> More information: <https://github.com/kamorin/DHCPig>.
+> More information: <https://github.com/kamorin/DHCPig#usage>.
 
 - Exhaust all of the available DHCP addresses using the specified interface:
 
