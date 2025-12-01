@@ -1,8 +1,8 @@
 # unsetopt
 
 > Unset options for the Z shell (zsh).
-> To set options, use `setopt`.
 > Note: Zsh options are case-insensitive and underscores are ignored.
+> See also: `setopt` to set options.
 > More information: <https://zsh.sourceforge.io/Doc/Release/Options.html>.
 
 - List all currently unset options (use `setopt` to list set options):
