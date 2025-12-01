@@ -2,7 +2,7 @@
 
 > Change the root filesystem to a new directory and move the current root to another location.
 > Commonly used during system initialization (e.g., in initramfs) to switch from a temporary root to the real root filesystem.
-> More information: <https://manned.org/pivot_root>.
+> More information: <https://manned.org/pivot_root.8>.
 
 - Move the current root to `/old_root` and make `/new_root` the new root:
 
