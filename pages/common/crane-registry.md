@@ -1,6 +1,6 @@
 # crane registry
 
-> This command serves a registry implementation on an automatically chosen port (:0), $PORT or --address.
+> This command serves a registry implementation on an automatically chosen port (:0), `$PORT` or --address.
 > The command blocks while the server accepts pushes and pulls and contents are can be stored in memory, and disk.
 > More information: <https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_registry_serve.md>.
 
