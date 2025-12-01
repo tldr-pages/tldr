@@ -34,4 +34,4 @@
 
 - Match using a capture group:
 
-`(hello)+`
+`({{hello}})+`
