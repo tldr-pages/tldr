@@ -19,6 +19,10 @@
 
 `steamcmd +@sSteamCmdForcePlatformType {{windows}} +login {{anonymous}} +app_update {{appid}} validate +quit`
 
+- Run a script file:
+
+`steamcmd +runscript {{script.txt}}`
+
 - Clear cached login credentials for a user:
 
 `steamcmd +login {{username}} +logout +quit`
