@@ -5,20 +5,24 @@
 
 - Copy a local file or directory to a pod:
 
-`kubectl cp {{local_path}} {{pod_name}}:{{container_path}}`
+`kubectl cp {{path/to/local_file}} {{pod_name}}:{{path/to/file_in_pod}}`
 
-- Copy a local file to a pod in a specific namespace:
+- Copy a local file or directory to a pod in a specific namespace:
 
-`kubectl cp {{local_path}} {{namespace}}/{{pod_name}}:{{container_path}}`
+`kubectl cp {{path/to/local_file}} {{namespace}}/{{pod_name}}:{{path/to/file_in_pod}}`
 
-- Copy a file from a pod to the local machine:
+- Copy a file or directory from a pod to the local machine:
 
-`kubectl cp {{namespace}}/{{pod_name}}:{{container_file}} {{local_path}}`
+`kubectl cp {{namespace}}/{{pod_name}}:{{path/to/file_in_pod}} {{path/to/local_file}}`
 
-- Copy a file to a specific container in a pod:
+- Copy a file or directory to a specific container in a pod:
 
-`kubectl cp {{local_path}} {{pod_name}}:{{container_path}} {{[-c|--container]}} {{container_name}}`
+`kubectl cp {{path/to/local_file}} {{pod_name}}:{{path/to/file_in_pod}} {{[-c|--container]}} {{container_name}}`
 
-- Copy a file to a pod without preserving ownership and permissions:
+- Copy a file or directory to a pod without preserving ownership and permissions:
 
-`kubectl cp {{local_path}} {{namespace}}/{{pod_name}}:{{container_file}} --no-preserve`
+`kubectl cp {{path/to/local_file}} {{namespace}}/{{pod_name}}:{{path/to/file_in_pod}} --no-preserve`
+
+- Copy a local file or directory to a pod with retries on failure:
+
+`kubectl cp {{path/to/local_file}} {{pod_name}}:{{path/to/file_in_pod}} --retries={{3}}`
