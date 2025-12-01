@@ -5,9 +5,9 @@
 
 - Search for a specific package in Nixpkgs and limit its research to a specified number of items:
 
-`nh search {{[-l|--limit]}} {{number}} {{typeName}} `
+`nh search {{[-l|--limit]}} {{number}} {{typeName}}`
 
-- Re-implements the nix-collect-garbage command while also collecting gcroots and asking you for permission to clean :
+- Re-implements the nix-collect-garbage command while also collecting gcroots and asking you for permission to clean:
 
 `nh clean all {{[-a|--ask]}}`
 
@@ -15,17 +15,14 @@
 
 `nh os build-vm {{path/to/flake}} {{-s|--specialisation}} {{mySpecialisation}} {{-H|--hostname}} {{myHost}}`
 
-- Build and switch to the specified home-manager flake configuration :
+- Build and switch to the specified home-manager flake configuration:
 
 `nh home switch {{path/to/flake}} -C {{myHome}}`
 
-- Build and switch to the specified darwin flake configuration :
+- Build and switch to the specified darwin flake configuration:
 
 `nh darwin switch {{path/to/flake}} {{-H|--hostname}} {{myHost}}`
 
-- Generate specified shell completion files into stdout :
+- Generate specified shell completion files into stdout:
 
 `nh completions {{shellName}}`
-
-
-
