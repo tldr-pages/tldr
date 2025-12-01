@@ -1,7 +1,7 @@
 # lambo new
 
 > A super-powered `laravel new` for Laravel and Valet.
-> More information: <https://github.com/tighten/lambo>.
+> More information: <https://github.com/tighten/lambo#lambo-commands>.
 
 - Create a new Laravel application:
 
@@ -9,7 +9,7 @@
 
 - Install the application in a specific path:
 
-`lambo new --path={{path/to/directory}} {{app_name}}`
+`lambo new {{[-p|--path]}} {{path/to/directory}} {{app_name}}`
 
 - Include authentication scaffolding:
 
@@ -25,7 +25,7 @@
 
 - Create a Valet site after the project has been created:
 
-`lambo new --link {{app_name}}`
+`lambo new {{[-l|--link]}} {{app_name}}`
 
 - Create a new MySQL database with the same name as the project:
 
@@ -33,4 +33,4 @@
 
 - Open a specific editor after the project has been created:
 
-`lambo new --editor="{{editor}}" {{app_name}}`
+`lambo new {{[-e|--editor]}} "{{editor}}" {{app_name}}`

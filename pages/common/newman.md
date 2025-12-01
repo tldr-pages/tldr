@@ -1,7 +1,7 @@
 # newman
 
 > Collection runner for Postman.
-> More information: <https://github.com/postmanlabs/newman>.
+> More information: <https://github.com/postmanlabs/newman#command-line-options>.
 
 - Run a collection (from a file):
 
