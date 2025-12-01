@@ -14,7 +14,7 @@
 
 - Match zero or more repeated characters:
 
-`a*`
+`{{a}}*`
 
 - Match an optional character:
 
