@@ -25,7 +25,7 @@
 
 - Filtra contêineres pelo código de status de saída:
 
-`podman ps {{[-af|--all --filter]}} "exited={{código}}"`
+`podman ps {{[-a|--all]}} {{[-f|--filter]}} "exited={{código}}"`
 
 - Filtra contêineres pelo status (criado, em execução, removendo, pausado, encerrado e morto):
 
