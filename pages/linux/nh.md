@@ -7,13 +7,13 @@
 
 `nh search {{[-l|--limit]}} {{number}} {{typeName}}`
 
-- Re-implements the nix-collect-garbage command while also collecting gcroots and asking you for permission to clean:
+- Re-implements the nix-collect-garbage command while also collecting gcroots:
 
 `nh clean all {{[-a|--ask]}}`
 
-- Build the specified nixos flake configuration and open it in a virtual machine with the specified specialisation:
+- Build the specified nixos flake configuration and open it in a virtual machine:
 
-`nh os build-vm {{path/to/flake}} {{-s|--specialisation}} {{mySpecialisation}} {{-H|--hostname}} {{myHost}}`
+`nh os build-vm {{path/to/flake}} {{-H|--hostname}} {{myHost}}`
 
 - Build and switch to the specified home-manager flake configuration:
 
