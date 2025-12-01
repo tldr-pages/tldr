@@ -1,6 +1,7 @@
 # xbps
 
 > The X Binary Package System is the package manager used by Void Linux.
+> `xbps` isn't a command, but a set of commands.
 > For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > More information: <https://docs.voidlinux.org/xbps/index.html>.
 
