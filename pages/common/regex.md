@@ -16,10 +16,6 @@
 
 `{{a}}*`
 
-- Match an optional character:
-
-`colou?r`
-
 - Match a set of characters:
 
 `[{{abc}}]`
@@ -27,11 +23,3 @@
 - Match a range of characters:
 
 `[{{a-z3-9}}]`
-
-- Match a digit:
-
-`\d`
-
-- Match using a capture group:
-
-`({{hello}})+`
