@@ -23,7 +23,7 @@
 
 `svg2png {{[-s|--scale]}} {{2.0}} {{path/to/file.svg}} {{path/to/output.png}}`
 
-- Convert an SVG from stdin to PNG on stdout:
+- Convert an SVG from `stdin` to PNG on `stdout`:
 
 `cat {{path/to/file.svg}} | svg2png - - > {{path/to/output.png}}`
 
