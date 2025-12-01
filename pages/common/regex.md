@@ -10,7 +10,7 @@
 
 - Match the start of a line:
 
-`^hello`
+`^{{hello}}`
 
 - Match zero or more repeated characters:
 
