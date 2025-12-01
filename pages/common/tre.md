@@ -28,10 +28,10 @@
 
 `tre {{[-E|--exclude]}} {{regex}}`
 
-- Display version:
-
-`tre {{[-V|--version]}}`
-
 - Display help:
 
 `tre {{[-h|--help]}}`
+
+- Display version:
+
+`tre {{[-V|--version]}}`
