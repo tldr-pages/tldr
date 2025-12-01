@@ -13,7 +13,7 @@
 
 - Run command in a one-off container in interactive mode and pseudo-TTY:
 
-`podman run --rm {{-it|--interactive --tty}} {{image:tag}} {{command}}`
+`podman run --rm {{[-it|--interactive --tty]}} {{image:tag}} {{command}}`
 
 - Run command in a new container with passed environment variables:
 

@@ -25,7 +25,7 @@
 
 - Filter containers by exit status code:
 
-`podman ps {{[-al|--all --filter]}} "exited={{code}}"`
+`podman ps {{[-af|--all --filter]}} "exited={{code}}"`
 
 - Filter containers by status (created, running, removing, paused, exited and dead):
 

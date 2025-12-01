@@ -13,7 +13,7 @@
 
 - Executa um comando em um contêiner temporário no modo interativo e pseudo-TTY:
 
-`podman run --rm {{-it|--interactive --tty}} {{imagem:tag}} {{comando}}`
+`podman run --rm {{[-it|--interactive --tty]}} {{imagem:tag}} {{comando}}`
 
 - Executa um comando em um novo contêiner com variáveis de ambiente passadas:
 

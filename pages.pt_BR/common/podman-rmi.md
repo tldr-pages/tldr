@@ -9,7 +9,7 @@
 
 - Remove uma imagem forçadamente:
 
-`podman rmi {{-f|--force}} {{imagem}}`
+`podman rmi {{[-f|--force]}} {{imagem}}`
 
 - Remove uma imagem sem excluir os pais não marcados:
 

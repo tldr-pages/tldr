@@ -25,7 +25,7 @@
 
 - Filtra por código de estado de salida:
 
-`podman ps {{[-al|--all --filter]}} "exited={{código}}"`
+`podman ps {{[-af|--all --filter]}} "exited={{código}}"`
 
 - Filtra los contenedores por estado (created, running, removing, paused, exited y dead). Se usa el término en inglés:
 
