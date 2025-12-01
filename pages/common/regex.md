@@ -12,6 +12,10 @@
 
 `^{{hello}}`
 
+- Match the end of a line:
+
+`{{world}}$`
+
 - Match zero or more repeated characters:
 
 `{{a}}*`
@@ -23,3 +27,7 @@
 - Match a range of characters:
 
 `[{{a-z3-9}}]`
+
+- Match anything but the specified character:
+
+`[^{{a}}]`
