@@ -1,6 +1,6 @@
 # eselect locale
 
-> An `eselect` module for managing the `LANG` environment variable, which sets the system language.
+> An `eselect` module for managing the `$LANG` environment variable, which sets the system language.
 > More information: <https://wiki.gentoo.org/wiki/Eselect#Locale>.
 
 - List available locales:
