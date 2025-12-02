@@ -3,7 +3,7 @@
 > Modern helper utility tool for the Nix/Nixos ecosystem.
 > More information: <https://github.com/nix-community/nh#usage>.
 
-- Search for a specific package in Nixpkgs and limit its research to a specified number of items:
+- Search for a package in Nixpkgs, limiting results:
 
 `nh search {{[-l|--limit]}} {{number}} {{name}}`
 
