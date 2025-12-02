@@ -11,10 +11,6 @@
 
 `setopt {{option}}`
 
-- Unset an option:
-
-`unsetopt {{option}}`
-
 - Display all available options and their status:
 
 `set -o`
