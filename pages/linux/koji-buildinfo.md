@@ -13,4 +13,4 @@
 
 - Display help:
 
-`koji buildinfo {{-h|--help}}`
+`koji buildinfo {{[-h|--help]}}`
