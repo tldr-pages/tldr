@@ -1,32 +1,32 @@
 # timg
 
 > A terminal image and video viewer.
-> More information: <https://github.com/hzeller/timg>.
+> More information: <https://github.com/hzeller/timg#synopsis>.
 
 - Display a static image:
 
-`timg image.jpg`
+`timg {{image.jpg}}`
 
-- Display all jpg images:
+- Display all JPEG images in the current directory:
 
 `timg *.jpg`
 
 - Display all the bitmaps in icons file:
 
-`timg example.ico`
+`timg {{example.ico}}`
 
 - Play a video:
 
-`timg video.mp4`
+`timg {{video.mp4}}`
 
 - Play contents of webcam:
 
 `timg {{/dev/videoX}}`
 
-- Play animated gif:
+- Play an animated GIF:
 
-`timg gif.gif`
+`timg {{gif.gif}}`
 
-- Print the version:
+- Display version:
 
 `timg --version`
