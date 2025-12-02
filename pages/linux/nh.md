@@ -19,7 +19,7 @@
 
 `nh home switch {{path/to/flake}} {{[-c|--configuration]}} {{home}}`
 
-- Build and switch to the specified darwin flake configuration:
+- Build and switch to a nix-darwin flake configuration:
 
 `nh darwin switch {{path/to/flake}} {{[-H|--hostname]}} {{host}}`
 
