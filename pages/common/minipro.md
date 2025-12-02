@@ -18,20 +18,20 @@
 
 - Read chip contents to a file:
 
-`minipro --device {{chip_name}} --read {{path/to/output_file.bin}}`
+`minipro {{[-p|--device]}} {{chip_name}} {{[-r|--read]}} {{path/to/output_file.bin}}`
 
 - Write a file to chip:
 
-`minipro --device {{chip_name}} --write {{path/to/input_file.bin}}`
+`minipro {{[-p|--device]}} {{chip_name}} {{[-w|--write]}} {{path/to/input_file.bin}}`
 
 - Verify chip contents against a file:
 
-`minipro --device {{chip_name}} --verify {{path/to/file.bin}}`
+`minipro {{[-p|--device]}} {{chip_name}} {{[-m|--verify]}} {{path/to/file.bin}}`
 
 - Erase a chip:
 
-`minipro --device {{chip_name}} --erase`
+`minipro {{[-p|--device]}} {{chip_name}} {{[-E|--erase]}}`
 
 - Display help:
 
-`minipro --help`
+`minipro {{[-h|--help]}}`
