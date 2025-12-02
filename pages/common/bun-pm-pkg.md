@@ -9,19 +9,19 @@
 
 - Get a single property:
 
-`bun pm pkg get {{property_name}}`
+`bun pm pkg get {{property}}`
 
 - Get multiple properties:
 
-`bun pm pkg get {{property_name1 property_name2 property_name3 ...}}`
+`bun pm pkg get {{property1 property2 property3 ...}}`
 
 - Set a property:
 
-`bun pm pkg set {{property_name}}="{{new_property}}"`
+`bun pm pkg set {{property}}="{{value}}"`
 
 - Delete a property:
 
-`bun pm pkg delete {{property_name}}`
+`bun pm pkg delete {{property}}`
 
 - Automatically fix common issues in `package.json`:
 
