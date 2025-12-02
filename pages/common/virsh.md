@@ -20,7 +20,7 @@
 
 `virsh create {{path/to/config_file.xml}}`
 
-- Edit a guest's configuration file (editor can be changed with $EDITOR):
+- Edit a guest's configuration file (editor can be changed with `$EDITOR`):
 
 `virsh edit {{guest_id}}`
 

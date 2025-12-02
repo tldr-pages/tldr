@@ -1,7 +1,7 @@
 # dtc
 
 > The Device Tree Compiler, a tool for recompiling device trees between formats.
-> More information: <https://github.com/dgibson/dtc>.
+> More information: <https://manned.org/dtc>.
 
 - Compile a device tree source `.dts` file into a binary device tree blob `.dtb` file:
 

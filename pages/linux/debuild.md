@@ -1,7 +1,7 @@
 # debuild
 
 > Build a Debian package from source.
-> More information: <https://manned.org/debuild.1>.
+> More information: <https://manned.org/debuild>.
 
 - Build the package in the current directory:
 

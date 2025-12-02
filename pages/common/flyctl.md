@@ -31,6 +31,6 @@
 
 `flyctl status --app {{app_name}}`
 
-- Display version information:
+- Display version:
 
 `flyctl version`

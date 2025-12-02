@@ -2,7 +2,7 @@
 
 > Generate all/random matching strings for a `regex`.
 > It can also simplify `regex`es.
-> More information: <https://github.com/asciimoo/exrex>.
+> More information: <https://github.com/asciimoo/exrex#usage>.
 
 - Generate all possible strings that match a `regex`:
 

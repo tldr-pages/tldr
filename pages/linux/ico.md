@@ -1,7 +1,7 @@
 # ico
 
 > Display an animation of a polyhedron.
-> More information: <https://manned.org/ico.1>.
+> More information: <https://manned.org/ico>.
 
 - Display the wireframe of an icosahedron that changes its position every 0.1 seconds:
 

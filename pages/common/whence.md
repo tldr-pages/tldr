@@ -19,6 +19,6 @@
 
 `whence -ca "{{command}}"`
 
-- Search only the `PATH` for `command`, ignoring builtins, aliases or shell functions (equivalent to the `where` command):
+- Search only the `$PATH` for `command`, ignoring builtins, aliases or shell functions (equivalent to the `where` command):
 
 `whence -p "{{command}}"`
