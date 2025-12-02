@@ -23,6 +23,6 @@
 
 `nh darwin switch {{path/to/flake}} {{[-H|--hostname]}} {{host}}`
 
-- Generate specified shell completion files into stdout:
+- Generate shell completions for a specified shell:
 
 `nh completions {{shell}}`
