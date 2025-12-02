@@ -11,11 +11,11 @@
 
 `nh clean all {{[-a|--ask]}}`
 
-- Build the specified nixos flake configuration and open it in a virtual machine:
+- Build a specified Nixos flake configuration and open it in a virtual machine:
 
 `nh os build-vm {{path/to/flake}} {{[-H|--hostname]}} {{host}}`
 
-- Build and switch to the specified home-manager flake configuration:
+- Build and switch to a specified Home manager flake configuration:
 
 `nh home switch {{path/to/flake}} {{[-c|--configuration]}} {{home}}`
 
