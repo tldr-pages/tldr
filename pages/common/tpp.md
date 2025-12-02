@@ -1,7 +1,7 @@
 # tpp
 
 > Command-Line based presentation tool.
-> More information: <https://github.com/cbbrowne/tpp>.
+> More information: <https://manned.org/tpp>.
 
 - View a presentation:
 

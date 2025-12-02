@@ -1,7 +1,7 @@
 # jest
 
 > 一个零配置的 JavaScript 测试平台。
-> 更多信息：<https://jestjs.io>.
+> 更多信息：<https://jestjs.io/docs/cli>.
 
 - 运行所有可用的测试：
 

@@ -2,7 +2,7 @@
 
 > Git, SVN, Mercurial 및 Bazaar 저장소의 애니메이션 트리 다이러그램을 렌더링.
 > 시간이 지남에 따라 생성, 수정 또는 제거되는 파일 및 디렉터리르 보여줌.
-> 더 많은 정보: <https://gource.io>.
+> 더 많은 정보: <https://manned.org/gource>.
 
 - 디렉토리에서 gource를 실행 (저장소의 루트 디렉토리가 아닌 경우, 그곳에서 루트를 찾음):
 

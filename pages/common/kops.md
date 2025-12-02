@@ -1,7 +1,7 @@
 # kops
 
 > Create, destroy, upgrade and maintain Kubernetes clusters.
-> More information: <https://github.com/kubernetes/kops/>.
+> More information: <https://kops.sigs.k8s.io/cli/kops/>.
 
 - Create a cluster from the configuration specification:
 

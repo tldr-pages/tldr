@@ -1,7 +1,7 @@
 # a2enconf
 
 > Enable an Apache configuration file on Debian-based OSes.
-> More information: <https://manned.org/a2enconf.8>.
+> More information: <https://manned.org/a2enconf>.
 
 - Enable a configuration file:
 

@@ -1,7 +1,7 @@
 # asciidoctor
 
 > Ubah isi berkas AsciiDoc ke dalam format berkas layak publikasi.
-> Informasi lebih lanjut: <https://docs.asciidoctor.org>.
+> Informasi lebih lanjut: <https://docs.asciidoctor.org/asciidoctor/latest/cli/man1/asciidoctor/>.
 
 - Ubah suatu berkas `.adoc` ke dalam format HTML (format berkas luaran secara default):
 

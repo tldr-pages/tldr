@@ -1,7 +1,7 @@
 # imgp
 
 > JPEG 및 PNG 이미지를 위한 커맨드라인 이미지 리사이저 및 회전기.
-> 더 많은 정보: <https://github.com/jarun/imgp>.
+> 더 많은 정보: <https://github.com/jarun/imgp#usage>.
 
 - 단일 이미지 및/또는 유효한 이미지 형식을 포함한 전체 폴더 변환:
 

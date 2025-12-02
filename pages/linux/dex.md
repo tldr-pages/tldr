@@ -1,7 +1,7 @@
 # dex
 
 > DesktopEntry Execution is a program to generate and execute DesktopEntry files of the Application type.
-> More information: <https://github.com/jceb/dex>.
+> More information: <https://github.com/jceb/dex#dex>.
 
 - Execute all programs in the autostart folders:
 

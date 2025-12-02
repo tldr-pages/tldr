@@ -1,7 +1,7 @@
 # git cola
 
 > Tampilan antarmuka grafis (GUI) untuk Git yang kuat, apik, dan intuitif.
-> Informasi lebih lanjut: <https://git-cola.readthedocs.io>.
+> Informasi lebih lanjut: <https://git-cola.readthedocs.io/en/latest/git-cola.html>.
 
 - Jalankan program GUI:
 

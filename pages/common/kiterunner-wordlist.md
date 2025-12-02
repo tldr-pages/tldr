@@ -2,7 +2,7 @@
 
 > A contextual web scanner for managing wordlists used in API and web endpoint discovery.
 > The `wordlist` subcommand handles listing and saving wordlists in `~/.cache/kiterunner`.
-> More information: <https://github.com/assetnote/kiterunner>.
+> More information: <https://github.com/assetnote/kiterunner#usage>.
 
 - List all cached and available Assetnote wordlists:
 

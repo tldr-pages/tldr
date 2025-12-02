@@ -9,4 +9,4 @@
 
 - 정보 메시지를 표시하지 않음:
 
-`sudo a2dismod --quiet {{모듈}}`
+`sudo a2dismod {{[-q|--quiet]}} {{모듈}}`

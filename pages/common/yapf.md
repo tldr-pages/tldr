@@ -1,7 +1,7 @@
 # yapf
 
 > Python style guide checker.
-> More information: <https://github.com/google/yapf>.
+> More information: <https://github.com/google/yapf#usage>.
 
 - Display a diff of the changes that would be made, without making them (dry-run):
 

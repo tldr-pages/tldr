@@ -9,4 +9,4 @@
 
 - Zeige keine Informationsnachrichten an:
 
-`sudo a2ensite --quiet {{virtueller_host}}`
+`sudo a2ensite {{[-q|--quiet]}} {{virtueller_host}}`

@@ -1,7 +1,7 @@
 # pixi
 
 > 프로젝트를 위한 개발자 워크플로우 및 환경 관리 도구.
-> 더 많은 정보: <https://pixi.sh>.
+> 더 많은 정보: <https://pixi.sh/latest/getting_started/>.
 
 - 새 프로젝트 초기화:
 

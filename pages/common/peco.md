@@ -1,7 +1,7 @@
 # peco
 
 > Interactive filtering tool.
-> More information: <https://github.com/peco/peco>.
+> More information: <https://github.com/peco/peco#command-line-options>.
 
 - Start `peco` on all files in the specified directory:
 

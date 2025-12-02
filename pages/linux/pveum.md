@@ -11,6 +11,18 @@
 
 `pveum {{[u|user]}} {{[a|add]}} {{username}}@pve`
 
+- Add a user with an email, description, and password:
+
+`pveum {{[u|user]}} {{[a|add]}} {{username}}@pve --email {{email_address}} --comment {{description}} --password {{password}}`
+
+- Change user password:
+
+`pveum {{[pa|passwd]}} {{username}}@pve`
+
 - Delete a user:
 
 `pveum {{[u|user]}} {{[d|delete]}} {{username}}@pve`
+
+- Give a user access to a specific VM with specific permissions:
+
+`pveum {{[a|acl]}} {{[m|modify]}} /vms/{{1000}} --user {{username}}@pve --role {{PVEVMUser}}`

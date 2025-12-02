@@ -9,4 +9,4 @@
 
 - Deshabilita un host virtual sin mostrar mensajes informativos:
 
-`sudo a2dissite --quiet {{host_virtual}}`
+`sudo a2dissite {{[-q|--quiet]}} {{host_virtual}}`

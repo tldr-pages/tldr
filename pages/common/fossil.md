@@ -1,21 +1,37 @@
 # fossil
 
-> Distributed version control system.
+> Distributed version control system with a built-in wiki, bug tracker, and web interface.
 > Some subcommands such as `commit` have their own usage documentation.
 > More information: <https://fossil-scm.org/home/help>.
 
-- Execute a Fossil subcommand:
+- Initialize a new empty Fossil repository:
 
-`fossil {{subcommand}}`
+`fossil init {{repository_name.fossil}}`
 
-- Display help:
+- Create a local copy of a remote repository:
 
-`fossil help`
+`fossil clone {{remote_url}}`
 
-- Display help for a specific subcommand (like `add`, `commit`, etc.):
+- Show an overview of the current repository state:
 
-`fossil help {{subcommand}}`
+`fossil status`
 
-- Display version:
+- Stage a new file:
 
-`fossil version`
+`fossil add {{path/to/file}}`
+
+- Stage a file for removal:
+
+`fossil {{[rm|delete]}} {{path/to/file}}`
+
+- Check in all staged changes:
+
+`fossil {{[ci|commit]}} {{[-m|--comment]}} "{{comment}}"`
+
+- Push changes from the local repository to a remote repository:
+
+`fossil push {{remote_url}}`
+
+- Pull changes from a remote repository into the local repository:
+
+`fossil pull {{remote_url}}`

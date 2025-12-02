@@ -1,7 +1,7 @@
 # tabula
 
 > PDF 파일에서 테이블을 추출.
-> 더 많은 정보: <https://tabula.technology>.
+> 더 많은 정보: <https://github.com/tabulapdf/tabula-java#commandline-usage-examples>.
 
 - PDF에서 모든 테이블을 CSV 파일로 추출:
 

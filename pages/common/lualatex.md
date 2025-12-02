@@ -1,7 +1,7 @@
 # lualatex
 
 > An extended version of TeX using Lua to compile.
-> More information: <https://manned.org/lualatex.1>.
+> More information: <https://texdoc.org/serve/tex.man1.pdf/0>.
 
 - Start `texlua` to act as a Lua interpreter:
 

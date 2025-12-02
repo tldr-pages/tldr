@@ -1,7 +1,7 @@
 # swift
 
 > Create, run and build Swift projects.
-> More information: <https://swift.org>.
+> More information: <https://manned.org/swiftc>.
 
 - Start a REPL (interactive shell):
 
@@ -25,4 +25,4 @@
 
 - Compile project for release:
 
-`swift build -c release`
+`swift build {{[-c|--configuration]}} {{debug|release}}`

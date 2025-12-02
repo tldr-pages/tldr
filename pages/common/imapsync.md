@@ -1,7 +1,7 @@
 # imapsync
 
 > Email IMAP tool for syncing, copying and migrating email mailboxes between two IMAP servers, one way, and without duplicates.
-> More information: <https://imapsync.lamiral.info>.
+> More information: <https://imapsync.lamiral.info/#doc>.
 
 - Synchronize IMAP account between host1 and host2:
 

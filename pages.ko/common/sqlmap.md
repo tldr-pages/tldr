@@ -1,7 +1,7 @@
 # sqlmap
 
 > SQL 인젝션 취약점을 탐지하고 악용.
-> 더 많은 정보: <https://sqlmap.org>.
+> 더 많은 정보: <https://github.com/sqlmapproject/sqlmap/wiki/Usage>.
 
 - 단일 대상 URL에 대해 sqlmap 실행:
 

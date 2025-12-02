@@ -15,6 +15,6 @@
 
 `sudo EDITOR={{editor}} visudo`
 
-- Display version information:
+- Display version:
 
 `visudo {{[-V|--version]}}`

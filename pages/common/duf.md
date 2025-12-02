@@ -1,7 +1,7 @@
 # duf
 
 > Disk Usage/Free Utility.
-> More information: <https://github.com/muesli/duf>.
+> More information: <https://github.com/muesli/duf#usage>.
 
 - List accessible devices:
 

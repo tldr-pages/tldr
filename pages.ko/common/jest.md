@@ -1,7 +1,7 @@
 # jest
 
 > 제로 구성 JavaScript 테스트 플랫폼.
-> 더 많은 정보: <https://jestjs.io>.
+> 더 많은 정보: <https://jestjs.io/docs/cli>.
 
 - 사용 가능한 모든 테스트 실행:
 

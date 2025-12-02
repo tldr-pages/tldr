@@ -1,7 +1,7 @@
 # asciiart
 
 > படங்களை ASCII ஆக மாற்றவும்.
-> மேலும் விவரத்திற்கு: <https://github.com/nodanaonlyzuul/asciiart>.
+> மேலும் விவரத்திற்கு: <https://github.com/nodanaonlyzuul/asciiart#in-the-command-line>.
 
 - ஒரு கோப்பிலிருந்து ஒரு படத்தைப் படித்து ASCII இல் அச்சிடவும்:
 

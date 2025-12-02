@@ -1,7 +1,7 @@
 # jupytext
 
 > Convert Jupyter notebooks to plain text documents, and back again.
-> More information: <https://jupytext.readthedocs.io>.
+> More information: <https://manned.org/jupytext>.
 
 - Turn a notebook into a paired `.ipynb`/`.py` notebook:
 
@@ -25,4 +25,4 @@
 
 - Update all paired representations of a notebook:
 
-`jupytext --sync {{notebook.ipynb}}`
+`jupytext {{[-s|--sync]}} {{notebook.ipynb}}`

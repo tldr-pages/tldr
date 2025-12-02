@@ -1,7 +1,7 @@
 # qm guest exec
 
 > Ejecuta una orden específica a través de un agente huésped.
-> Más información: <https://pve.proxmox.com/pve-docs/qm.1.html>.
+> Más información: <https://pve.proxmox.com/pve-docs/qm.1.html#cli_qm_guest_exec>.
 
 - Ejecuta una orden específica a través de un agente huésped:
 

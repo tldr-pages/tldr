@@ -11,9 +11,17 @@
 
 `steamcmd +login {{username}} +app_update {{appid}} +quit`
 
+- Define a custom install location:
+
+`steamcmd +force_install_dir {{path/to/directory}} +login {{anonymous}} +app_update {{appid}} validate +quit`
+
 - Install an application for a specific platform:
 
 `steamcmd +@sSteamCmdForcePlatformType {{windows}} +login {{anonymous}} +app_update {{appid}} validate +quit`
+
+- Run a script file:
+
+`steamcmd +runscript {{script.txt}}`
 
 - Clear cached login credentials for a user:
 

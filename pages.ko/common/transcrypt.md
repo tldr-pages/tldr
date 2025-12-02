@@ -1,7 +1,7 @@
 # transcrypt
 
 > Git 저장소 내에서 파일을 투명하게 암호화.
-> 더 많은 정보: <https://github.com/elasticdog/transcrypt>.
+> 더 많은 정보: <https://github.com/elasticdog/transcrypt#command-line-options>.
 
 - 구성되지 않은 저장소 초기화:
 

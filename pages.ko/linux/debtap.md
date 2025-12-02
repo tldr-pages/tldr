@@ -2,7 +2,7 @@
 
 > Debian 패키지를 Arch Linux 패키지로 변환합니다.
 > 같이 보기: `pacman-upgrade`.
-> 더 많은 정보: <https://github.com/helixarch/debtap>.
+> 더 많은 정보: <https://github.com/helixarch/debtap#available-options>.
 
 - debtap 데이터베이스 업데이트 (최초 실행 전):
 

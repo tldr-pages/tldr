@@ -2,7 +2,7 @@
 
 > Utilitas unduhan cepat.
 > Mendukung HTTP(S), FTP, SFTP, BitTorrent, dan Metalink.
-> Informasi lebih lanjut: <https://aria2.github.io>.
+> Informasi lebih lanjut: <https://aria2.github.io/manual/en/html/aria2c.html>.
 
 - Unduh URI ke suatu berkas:
 

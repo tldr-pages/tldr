@@ -2,7 +2,7 @@
 
 > An AUR helper and pacman wrapper.
 > See also: `pacman`, `yay`.
-> More information: <https://github.com/Morganamilo/paru>.
+> More information: <https://github.com/Morganamilo/paru#examples>.
 
 - Interactively search for and install a package:
 

@@ -2,7 +2,7 @@
 
 > 현재 디렉토리의 내용을 트리 형태로 표시.
 > 기본적으로 `.gitignore` 설정을 존중합니다.
-> 더 많은 정보: <https://github.com/dduan/tre>.
+> 더 많은 정보: <https://github.com/dduan/tre#everything-else>.
 
 - 디렉토리만 출력:
 

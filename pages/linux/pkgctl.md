@@ -1,7 +1,7 @@
 # pkgctl
 
 > Unified command-line frontend for Arch Linux devtools.
-> More information: <https://manned.org/pkgctl.1>.
+> More information: <https://manned.org/pkgctl>.
 
 - View documentation for authenticating `pkgctl` with services like GitLab:
 

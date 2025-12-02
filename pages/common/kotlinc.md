@@ -1,7 +1,7 @@
 # kotlinc
 
 > Kotlin compiler.
-> More information: <https://kotlinlang.org/docs/command-line.html>.
+> More information: <https://kotlinlang.org/docs/compiler-reference.html#common-options>.
 
 - Start a REPL (interactive shell):
 

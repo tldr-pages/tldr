@@ -1,7 +1,7 @@
 # json5
 
 > 将 JSON5 文件转换为 JSON。
-> 更多信息：<https://json5.org>.
+> 更多信息：<https://json5.org/#cli>.
 
 - 将 JSON5 `标准输入` 转换为 JSON 并输出到 `标准输出`：
 

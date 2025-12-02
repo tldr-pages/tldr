@@ -1,7 +1,7 @@
 # ugrep
 
 > Ultra fast search tool with query TUI.
-> More information: <https://github.com/Genivia/ugrep>.
+> More information: <https://github.com/Genivia/ugrep#man-page>.
 
 - Start a query TUI to search files in the current directory recursively (`<Ctrl z>` for help):
 

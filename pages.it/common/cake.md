@@ -1,7 +1,7 @@
 # cake
 
 > Strumento da linea di comando per il framework CakePHP.
-> Maggiori informazioni: <https://cakephp.org>.
+> Maggiori informazioni: <https://book.cakephp.org/5/en/console-commands.html#cakephp-provided-commands>.
 
 - Mostra informazioni sull'attuale app ed i comandi disponibili:
 

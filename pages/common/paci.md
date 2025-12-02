@@ -1,7 +1,7 @@
 # paci
 
 > A package manager for Bash scripts.
-> More information: <https://github.com/tradebyte/paci>.
+> More information: <https://github.com/tradebyte/paci#usage>.
 
 - Update the list of available packages and versions (it's recommended to run this before other `paci` commands):
 

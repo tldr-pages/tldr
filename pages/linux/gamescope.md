@@ -2,7 +2,7 @@
 
 > A micro-compositor used as a game layer.
 > See also: `cage`.
-> More information: <https://github.com/ValveSoftware/gamescope>.
+> More information: <https://github.com/ValveSoftware/gamescope#keyboard-shortcuts>.
 
 - Run a program with gamescope on the terminal:
 
