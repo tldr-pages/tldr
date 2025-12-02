@@ -1,6 +1,6 @@
 # immich
 
-> Immich command-line interface (CLI) that allows you to perform certain actions.
+> Manage Immich servers.
 > See also: `immich-go`.
 > More information: <https://immich.app/docs/features/command-line-interface/>.
 
@@ -14,16 +14,16 @@
 
 - Upload a directory including subdirectories:
 
-`immich upload --recursive {{path/to/directory}}`
+`immich upload {{[-r|--recursive]}} {{path/to/directory}}`
 
 - Create an album based on a directory:
 
-`immich upload --album-name "{{My summer holiday}}" --recursive {{path/to/directory}}`
+`immich upload {{[-r|--recursive]}} {{path/to/directory}} {{[-A|--album-name]}} "{{My summer holiday}}"`
 
 - Skip assets matching a glob pattern:
 
-`immich upload --ignore {{**/Raw/** **/*.tif}} --recursive {{path/to/directory}}`
+`immich upload {{[-r|--recursive]}} {{path/to/directory}} {{[-i|--ignore]}} {{**/Raw/** **/*.tif}}`
 
 - Include hidden files:
 
-`immich upload --include-hidden --recursive {{path/to/directory}}`
+`immich upload {{[-r|--recursive]}} {{path/to/directory}} {{[-H|--include-hidden]}}`
