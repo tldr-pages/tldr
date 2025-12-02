@@ -17,7 +17,7 @@
 
 - Build and switch to the specified home-manager flake configuration:
 
-`nh home switch {{path/to/flake}} -C {{home}}`
+`nh home switch {{path/to/flake}} {{[-c|--configuration]}} {{home}}`
 
 - Build and switch to the specified darwin flake configuration:
 
