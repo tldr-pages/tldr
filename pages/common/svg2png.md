@@ -1,7 +1,7 @@
 # svg2png
 
 > Render an SVG image to a PNG image using cairo.
-> More information: <http://cairographics.org/>.
+> More information: <https://cairographics.org/>.
 
 - Convert an SVG file to PNG:
 
