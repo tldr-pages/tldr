@@ -7,7 +7,7 @@
 
 `nh search {{[-l|--limit]}} {{number}} {{name}}`
 
-- Collect all garbage and gcroots from the nix store:
+- Collect all garbage and gcroots from the Nix store:
 
 `nh clean all {{[-a|--ask]}}`
 
