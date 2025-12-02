@@ -2,19 +2,19 @@
 
 > Command-line program for controlling Xgecu chip programmers (TL866A/CS, TL866II+, T48, T56).
 > Supports reading, writing, and verifying various chips including AVRs, PICs, microcontrollers, and memory chips.
-> More information: <https://gitlab.com/DavidGriffith/minipro>.
+> More information: <https://manned.org/minipro>.
 
 - List all supported devices:
 
-`minipro --list`
+`minipro {{[-l|--list]}}`
 
 - Search for a specific device:
 
-`minipro --search {{device_name}}`
+`minipro {{[-L|--search]}} {{device_name}}`
 
 - Read chip ID:
 
-`minipro --device {{chip_name}} --read_id`
+`minipro {{[-p|--device]}} {{chip_name}} {{[-D|--read_id]}}`
 
 - Read chip contents to a file:
 
