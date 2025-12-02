@@ -17,7 +17,7 @@
 
 - Change user password:
 
-`pveum {{[pa|passwd]}} {{[username}}@pve`
+`pveum {{[pa|passwd]}} {{username}}@pve`
 
 - Delete a user:
 
