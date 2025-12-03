@@ -1,6 +1,6 @@
 # systemctl condstop
 
-> This command is an alias of `systemctl stop`
+> This command is an alias of `systemctl stop`.
 
 - View documentation for the original command:
 
