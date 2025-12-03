@@ -34,4 +34,4 @@
 
 - 도움말 표시:
 
-`abroot --help`
+`abroot {{[-h|--help]}}`

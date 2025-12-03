@@ -34,4 +34,4 @@
 
 - Muestra ayuda:
 
-`abroot --help`
+`abroot {{[-h|--help]}}`
