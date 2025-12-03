@@ -2,7 +2,7 @@
 
 > Administra gestores de paquetes en `apx`.
 > Nota: las configuraciones de gestores de paquetes creadas por el usuario se almacenan en `~/.local/share/apx/pkgmanagers`.
-> Más información: <https://github.com/Vanilla-OS/apx>.
+> Más información: <https://docs.vanillaos.org/docs/en/apx-manpage#pkgmanagers>.
 
 - Crea de forma interactiva una nueva configuración de gestor de paquetes:
 
