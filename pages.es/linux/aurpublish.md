@@ -10,3 +10,7 @@
 - Añade githooks al repositorio actual:
 
 `aurpublish setup`
+
+- Muestra ayuda:
+
+`aurpublish {{[-h|--help]}}`
