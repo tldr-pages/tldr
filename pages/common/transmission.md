@@ -1,7 +1,7 @@
 # transmission
 
 > A simple torrent client.
-> Transmission isn't a command, but a set of commands. See the pages below.
+> Transmission isn't a command, but a set of commands.
 > More information: <https://transmissionbt.com/>.
 
 - View documentation for running Transmission's daemon:
