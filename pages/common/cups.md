@@ -1,7 +1,7 @@
 # CUPS
 
 > Open source printing system.
-> CUPS isn't a single command, but a set of commands.
+> CUPS isn't a command, but a set of commands.
 > More information: <https://www.cups.org/index.html>.
 
 - View documentation for running the CUPS daemon:
