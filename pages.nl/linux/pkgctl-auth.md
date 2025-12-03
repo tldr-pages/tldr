@@ -1,7 +1,7 @@
 # pkgctl auth
 
 > Authenticeer `pkgctl` met diensten zoals GitLab.
-> Meer informatie: <https://manned.org/pkgctl-auth.1>.
+> Meer informatie: <https://manned.org/pkgctl-auth>.
 
 - Authenticeer `pkgctl` met de GitLab instantie:
 

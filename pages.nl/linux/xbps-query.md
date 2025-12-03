@@ -2,7 +2,7 @@
 
 > XBPS hulpprogramma om te zoeken naar een pakket en repository informatie.
 > Zie ook: `xbps`.
-> Meer informatie: <https://manned.org/xbps-query.1>.
+> Meer informatie: <https://manned.org/xbps-query>.
 
 - Zoek naar een pakket in externe repositories met behulp van een reguliere expressie of een trefwoord (als `--regex` wordt weggelaten):
 

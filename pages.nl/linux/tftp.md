@@ -1,7 +1,7 @@
 # tftp
 
 > Trivial File Transfer Protocol client.
-> Meer informatie: <https://manned.org/tftp.1>.
+> Meer informatie: <https://manned.org/tftp>.
 
 - Maak verbinding met een TFTP-server door het IP-adres en de poort op te geven:
 
