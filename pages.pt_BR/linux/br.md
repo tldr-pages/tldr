@@ -10,16 +10,16 @@
 
 - Inicia mostrando o tamanho de arquivos e diretórios:
 
-`br --sizes`
+`br {{[-s|--sizes]}}`
 
 - Inicia mostrando permissões:
 
-`br --permissions`
+`br {{[-p|--permissions]}}`
 
 - Inicia mostrando apenas diretórios:
 
-`br --only-folders`
+`br {{[-f|--only-folders]}}`
 
 - Inicia mostrando arquivos ocultos e diretórios:
 
-`br --hidden`
+`br {{[-h|--hidden]}}`

@@ -10,16 +10,16 @@
 
 - 파일 및 디렉터리의 크기 표시 시작:
 
-`br --sizes`
+`br {{[-s|--sizes]}}`
 
 - 권한 표시 시작:
 
-`br --permissions`
+`br {{[-p|--permissions]}}`
 
 - 디렉터리만 표시 시작:
 
-`br --only-folders`
+`br {{[-f|--only-folders]}}`
 
 - 숨김 파일 및 디렉터리 표시 시작:
 
-`br --hidden`
+`br {{[-h|--hidden]}}`
