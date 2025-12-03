@@ -13,7 +13,7 @@
 
 - Genera un archivo contenedor:
 
-`bluebuild generate --output {{archivo_contenedor}} {{ruta/a/receta.yml}}`
+`bluebuild generate {{[-o|--output]}} {{archivo_contenedor}} {{ruta/a/receta.yml}}`
 
 - Genera una ISO a partir de una receta:
 
@@ -21,4 +21,4 @@
 
 - Muestra la ayuda:
 
-`bluebuild --help`
+`bluebuild {{[-h|--help]}}`
