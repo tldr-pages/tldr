@@ -1,6 +1,6 @@
 # minipro
 
-> Controll Xgecu chip programmers (TL866A/CS, TL866II+, T48, T56).
+> Control Xgecu chip programmers (TL866A/CS, TL866II+, T48, T56).
 > Supports various chips including AVRs, PICs, microcontrollers, and memory chips.
 > More information: <https://manned.org/minipro>.
 
