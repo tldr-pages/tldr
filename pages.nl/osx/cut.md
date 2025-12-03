@@ -1,7 +1,7 @@
 # cut
 
 > Snij velden eruit vanuit `stdin` of bestanden.
-> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html>.
+> Meer informatie: <https://keith.github.io/xcode-man-pages/cut.1.html>.
 
 - Toon het vijfde teken ([c]) van elke regel:
 
