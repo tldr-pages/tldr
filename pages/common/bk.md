@@ -1,8 +1,7 @@
 # bk
 
 > Manage Buildkite builds, pipelines, and agents.
-> Some subcommands such as `build`, `pipeline`, and `agent` have their own usage documentation.
-> More information: <https://github.com/buildkite/cli>.
+> More information: <https://github.com/buildkite/cli#usage>.
 
 - Configure with your organization and API token:
 
