@@ -1,6 +1,6 @@
 # podman image
 
-> Gerenciar imagens Podman.
+> Gerenciar imagens OCI/Docker.
 > Veja também `podman build`, `podman import` e `podman pull`.
 > Mais informações: <https://docs.podman.io/en/latest/markdown/podman-image.1.html>.
 
