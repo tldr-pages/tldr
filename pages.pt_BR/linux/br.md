@@ -2,7 +2,7 @@
 
 > Navega árvore de diretórios interativamente.
 > Veja também: `broot`.
-> Mais informações: <https://manned.org/broot>.
+> Mais informações: <https://dystroy.org/broot/>.
 
 - Começa e navega na árvore de diretórios atual interativamente:
 
