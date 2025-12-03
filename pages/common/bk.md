@@ -3,7 +3,7 @@
 > Manage Buildkite builds, pipelines, and agents.
 > More information: <https://github.com/buildkite/cli#usage>.
 
-- Configure with your organization and API token:
+- Configure the API token and organization:
 
 `bk configure`
 
