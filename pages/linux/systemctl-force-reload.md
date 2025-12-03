@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr systemctl try reload or restart`
+`tldr systemctl try-reload-or-restart`
