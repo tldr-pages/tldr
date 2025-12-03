@@ -1,6 +1,6 @@
 # podman rmi
 
-> Podman 이미지 제거.
+> OCI/Docker 이미지 제거.
 > 더 많은 정보: <https://docs.podman.io/en/latest/markdown/podman-rmi.1.html>.
 
 - 이름을 지정하여 하나 이상의 이미지 제거:

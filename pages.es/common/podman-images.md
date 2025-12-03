@@ -1,13 +1,13 @@
 # podman images
 
-> Gestiona imágenes de Podman.
+> Gestiona imágenes de OCI/Docker.
 > Más información: <https://docs.podman.io/en/latest/markdown/podman-images.1.html>.
 
-- Lista todas las imágenes de Podman:
+- Lista todas las imágenes de OCI/Docker:
 
 `podman images`
 
-- Lista todas las imágenes Podman incluyendo intermedias:
+- Lista todas las imágenes OCI/Docker incluyendo intermedias:
 
 `podman images {{[-a|--all]}}`
 
@@ -15,7 +15,7 @@
 
 `podman images {{[-q|--quiet]}}`
 
-- Lista todas las imágenes Podman no utilizadas por ningún contenedor:
+- Lista todas las imágenes OCI/Docker no utilizadas por ningún contenedor:
 
 `podman images {{[-f|--filter]}} dangling=true`
 

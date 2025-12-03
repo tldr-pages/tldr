@@ -4,11 +4,11 @@
 > Veja também `podman build`, `podman import` e `podman pull`.
 > Mais informações: <https://docs.podman.io/en/latest/markdown/podman-image.1.html>.
 
-- Lista imagens Podman locais:
+- Lista imagens OCI/Docker locais:
 
 `podman image {{[ls|list]}}`
 
-- Exclui imagens Podman locais não utilizadas:
+- Exclui imagens OCI/Docker locais não utilizadas:
 
 `podman image prune`
 
@@ -16,6 +16,6 @@
 
 `podman image prune {{[-a|--all]}}`
 
-- Mostra o histórico de uma imagem Podman local:
+- Mostra o histórico de uma imagem OCI/Docker local:
 
 `podman image history {{imagem}}`
