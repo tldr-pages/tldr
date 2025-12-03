@@ -1,6 +1,6 @@
 # unsetopt
 
-> Unset options for the Z shell (zsh).
+> Unset options for the Z shell (`zsh`).
 > Note: Zsh options are case-insensitive and underscores are ignored.
 > See also: `setopt` to set options.
 > More information: <https://zsh.sourceforge.io/Doc/Release/Options.html>.
