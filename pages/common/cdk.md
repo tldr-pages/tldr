@@ -1,6 +1,6 @@
 # cdk
 
-> A CLI for AWS Cloud Development Kit (CDK).
+> AWS Cloud Development Kit.
 > More information: <https://docs.aws.amazon.com/cdk/latest/guide/cli.html>.
 
 - List the stacks in the app:

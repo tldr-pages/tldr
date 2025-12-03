@@ -19,6 +19,6 @@
 
 `scala {{filename.jar}}`
 
-- Execute a single Scala command in the command-line:
+- Execute a single Scala command:
 
 `scala {{[-e|--execute-script]}} {{command}}`

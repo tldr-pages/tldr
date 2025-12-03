@@ -1,6 +1,6 @@
 # kaggle competitions
 
-> Manage Kaggle competitions from the command-line.
+> Manage Kaggle competitions.
 > More information: <https://github.com/Kaggle/kaggle-api/blob/main/docs/README.md#competitions>.
 
 - List all competitions:

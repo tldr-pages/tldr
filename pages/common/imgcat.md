@@ -1,6 +1,6 @@
 # imgcat
 
-> Display images on the command-line.
+> Display images.
 > Requires a compatible terminal such as iTerm2.
 > More information: <https://github.com/danielgatis/imgcat#usage>.
 
