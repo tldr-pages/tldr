@@ -1,7 +1,7 @@
 # bluebuild
 
 > Construye Containerfiles e imágenes personalizadas basadas en tu `recipe.yml`.
-> Más información: <https://github.com/blue-build/cli>.
+> Más información: <https://github.com/blue-build/cli#how-to-use>.
 
 - Construye una receta:
 
