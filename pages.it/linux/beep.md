@@ -1,7 +1,7 @@
 # beep
 
 > Un'utilità per emettere un segnale acustico all'altoparlante del PC.
-> Maggiori informazioni: <https://github.com/spkr-beep/beep>.
+> Maggiori informazioni: <https://manned.org/man/beep>.
 
 - Emetti un suono:
 

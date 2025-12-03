@@ -1,7 +1,7 @@
 # beep
 
 > PC 스피커를 울리는 유틸리티.
-> 더 많은 정보: <https://github.com/spkr-beep/beep>.
+> 더 많은 정보: <https://manned.org/man/beep>.
 
 - 비프음 재생:
 
