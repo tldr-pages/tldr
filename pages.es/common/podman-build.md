@@ -1,7 +1,7 @@
 # podman build
 
 > Herramienta que no corre como servicio (daemon) para construir imágenes de contenedores.
-n> Más información: <https://docs.podman.io/en/latest/markdown/podman-build.1.html>.
+> Más información: <https://docs.podman.io/en/latest/markdown/podman-build.1.html>.
 
 - Crea una imagen usando un `Dockerfile` o `Containerfile` en el directorio especificado:
 
