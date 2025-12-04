@@ -19,7 +19,3 @@
 - Restore a backup while skipping specific components:
 
 `sudo gitlab-backup restore BACKUP={{backup_id}} SKIP={{db,uploads,...}}`
-
-- Trigger a backup from within a running GitLab Docker container:
-
-`docker exec -t {{gitlab_container}} gitlab-backup create`
