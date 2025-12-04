@@ -1,7 +1,7 @@
 # gitlab-backup
 
 > Manage backups for a GitLab Omnibus installation.
-> See also: `gitlab-ctl`, `gitlab-rake`, `gitlab-runner`.
+> See also: `gitlab-ctl`, `gitlab-runner`.
 > More information: <https://docs.gitlab.com/administration/backup_restore/backup_gitlab/>.
 
 - Create a full backup (default strategy):
