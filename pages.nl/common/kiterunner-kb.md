@@ -2,7 +2,7 @@
 
 > Een contextuele webscanner voor het manipuleren van kitebuilder-schema's die gebruikt worden in API en web endpoint discovery.
 > Het `kb` subcommando zorgt voor schema compilatie, conversie, parsing en request replay.
-> Meer informatie: <https://github.com/assetnote/kiterunner>.
+> Meer informatie: <https://github.com/assetnote/kiterunner#usage>.
 
 - Compileer een kitebuilder schema van JSON naar een kite bestand:
 

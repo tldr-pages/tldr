@@ -3,18 +3,26 @@
 > Snij velden eruit vanuit `stdin` of bestanden.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html>.
 
-- Toon een specifiek karakter/veldbereik voor iedere regel:
+- Toon het vijfde teken van elke regel:
 
-`{{commando}} | cut --{{characters|fields}} {{1|1,10|1-10|1-|-10}}`
+`{{commando}} | cut {{[-c|--characters]}} 5`
 
-- Toon een bereik voor iedere regel met een specifieke scheiding:
+- Toon het vijfde tot en met tiende teken van elke regel van het opgegeven bestand:
 
-`{{commando}} | cut {{[-d|--delimiter]}} "{{delimiter}}" {{[-f|--fields]}} {{1|1,10|1-10|1-|-10}}`
+`cut {{[-c|--characters]}} 5-10 {{pad/naar/bestand}}`
 
-- Toon een bereik van iedere regel voor een specifiek bestand:
+- Splits elke regel van een bestand op basis van een scheidingsteken in velden en toon velden twee en zes (standaard scheidingsteken is `TAB`):
 
-`cut {{[-c|--characters]}} {{1}} {{pad/naar/bestand}}`
+`cut {{[-f|--fields]}} 2,6 {{pad/naar/bestand}}`
 
-- Toon specifieke velden van `NUL` afgesloten regels (bijv. zoals in `find . -print0`) in plaats van nieuwe regels:
+- Splits elke regel met het opgegeven scheidingsteken en toon alles vanaf het tweede veld:
 
-`{{commando}} | cut {{[-z|--zero-terminated]}} {{[-f|--fields]}} {{1}}`
+`{{commando}} | cut {{[-d|--delimiter]}} "{{scheidingsteken}}" {{[-f|--fields]}} 2-`
+
+- Gebruik een spatie als scheidingsteken en toon alleen de eerste drie velden:
+
+`{{commando}} | cut {{[-d|--delimiter]}} " " {{[-f|--fields]}} -3`
+
+- Toon specifieke velden van regels die `NUL` gebruiken om regels af te sluiten in plaats van newlines:
+
+`{{find . -print0}} | cut {{[-z|--zero-terminated]}} {{[-d|--delimiter]}} "{{/}}" {{[-f|--fields]}} {{2}}`
