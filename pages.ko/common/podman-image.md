@@ -1,14 +1,14 @@
 # podman image
 
-> OCI/Docker 이미지 관리.
+> OCI/Docker 컨테이너 이미지 관리.
 > 같이 보기: `podman build`, `podman import`, `podman pull`.
 > 더 많은 정보: <https://docs.podman.io/en/latest/markdown/podman-image.1.html>.
 
-- 로컬 OCI/Docker 이미지 나열:
+- 로컬 컨테이너 이미지 나열:
 
 `podman image {{[ls|list]}}`
 
-- 사용되지 않는 로컬 OCI/Docker 이미지 삭제:
+- 사용되지 않는 로컬 컨테이너 이미지 삭제:
 
 `podman image prune`
 
@@ -16,6 +16,6 @@
 
 `podman image prune {{[-a|--all]}}`
 
-- 로컬 OCI/Docker 이미지의 히스토리 표시:
+- 로컬 컨테이너 이미지의 히스토리 표시:
 
 `podman image history {{이미지}}`

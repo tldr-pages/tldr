@@ -16,6 +16,6 @@
 
 `podman image prune {{[-a|--all]}}`
 
-- Show the history of a local image:
+- Show the history of a local container image:
 
 `podman image history {{image}}`

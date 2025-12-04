@@ -1,14 +1,14 @@
 # podman image
 
-> Gestiona imágenes OCI/Docker.
+> Gestiona imágenes de contenedores OCI/Docker.
 > Vea también: `podman build`, `podman import` y `podman pull`.
 > Más información: <https://docs.podman.io/en/latest/markdown/podman-image.1.html>.
 
-- Lista imágenes locales de OCI/Docker:
+- Lista imágenes locales de contenedores:
 
 `podman image {{[ls|list]}}`
 
-- Elimina imágenes locales de OCI/Docker no utilizadas:
+- Elimina imágenes locales de contenedores no utilizadas:
 
 `podman image prune`
 
@@ -16,6 +16,6 @@
 
 `podman image prune {{[-a|--all]}}`
 
-- Muestra la historia de una imagen OCI/Docker local:
+- Muestra la historia de una imagen contenedores local:
 
 `podman image history {{imagen}}`
