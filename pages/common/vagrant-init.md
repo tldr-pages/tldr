@@ -10,7 +10,7 @@
 
 - Create a `Vagrantfile` without instructional comments:
 
-`vagrant init --minimal`
+`vagrant init {{[-m|--minimal]}}`
 
 - Specify the box name and url:
 
@@ -22,11 +22,11 @@
 
 - Send the `Vagrantfile` to stdout:
 
-`vagrant init --output -`
+`vagrant init {{[-o|--output]}} -`
 
 - Overwrite any existing `Vagrantfile`:
 
-`vagrant init --force`
+`vagrant init {{[-f|--force]}}`
 
 - Provide a custom ERB template for generating the `Vagrantfile`:
 
