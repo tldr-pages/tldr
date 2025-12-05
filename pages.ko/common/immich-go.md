@@ -1,7 +1,7 @@
 # immich-go
 
 > Immich-Go는 대규모 사진 컬렉션을 자체 호스팅 Immich 서버에 업로드하는 작업을 간소화하도록 설계된 오픈소스 도구.
-> 참고: `immich-cli`.
+> 참고: `immich`.
 > 더 많은 정보: <https://github.com/simulot/immich-go>.
 
 - Google 사진 테이크아웃 파일을 Immich 서버에 업로드:

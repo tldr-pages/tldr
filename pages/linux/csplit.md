@@ -1,7 +1,7 @@
 # csplit
 
 > Split a file into pieces.
-> This generates files named "xx00", "xx01", and so on.
+> This generates files named `xx00`, `xx01`, and so on.
 > More information: <https://www.gnu.org/software/coreutils/manual/html_node/csplit-invocation.html>.
 
 - Split a file in two parts, starting the second one at line 10:

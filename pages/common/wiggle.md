@@ -6,11 +6,11 @@
 
 - Apply changes from the patch file to the original file:
 
-`wiggle {{path/to/my_patch.patch}}`
+`wiggle {{path/to/file.patch}}`
 
 - Apply changes to the output file:
 
-`wiggle {{path/to/my_patch.patch}} {{[-o|--output]}} {{path/to/output_file.txt}}`
+`wiggle {{path/to/file.patch}} {{[-o|--output]}} {{path/to/output_file.txt}}`
 
 - Take any changes in `file.rej` that could not have been applied and merge them into a file:
 
@@ -18,7 +18,7 @@
 
 - Extract one branch of a patch or merge file:
 
-`wiggle {{[-x|--extract]}} {{path/to/my_patch.patch}}`
+`wiggle {{[-x|--extract]}} {{path/to/file.patch}}`
 
 - Apply a patch and save the compared words to the output file:
 

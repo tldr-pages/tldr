@@ -1,21 +1,37 @@
 # fossil
 
-> Gedistribueerd versiebheer systeem.
+> Gedistribueerd versiebheer systeem met een ingebouwde wiki, bugtracker en webinterface.
 > Sommige subcommando's zoals `db` hebben hun eigen documentatie.
 > Meer informatie: <https://fossil-scm.org/home/help>.
 
-- Voer een Fossil subcommando uit:
+- Maak een nieuwe lege Fossil-repository aan:
 
-`fossil {{subcommando}}`
+`fossil init {{repository_naam.fossil}}`
 
-- Toon de algemene help:
+- Maak een lokale kopie van een externe repository:
 
-`fossil help`
+`fossil clone {{externe_url}}`
 
-- Toon de help voor een specifiek subcommando (zoals `add`, `commit`, etc.):
+- Toon een overzicht van de huidige status van een repository:
 
-`fossil help {{subcommando}}`
+`fossil status`
 
-- Toon de versie:
+- Voeg een nieuw bestand toe:
 
-`fossil version`
+`fossil add {{pad/naar/bestand}}`
+
+- Verwijder een bestand:
+
+`fossil {{[rm|delete]}} {{pad/naar/bestand}}`
+
+- Commit alle toegevoegde wijzigingen:
+
+`fossil {{[ci|commit]}} {{[-m|--comment]}} "{{bericht}}"`
+
+- Stuur wijzigingen van de lokale repository naar een externe repository:
+
+`fossil push {{externe_url}}`
+
+- Haal de wijzigingen van een externe repository op naar een lokale repository:
+
+`fossil pull {{externe_url}}`
