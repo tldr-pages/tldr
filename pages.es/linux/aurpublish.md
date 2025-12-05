@@ -11,6 +11,6 @@
 
 `aurpublish setup`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `aurpublish {{[-h|--help]}}`
