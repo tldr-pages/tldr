@@ -10,7 +10,7 @@
 
 - Construye un paquete desde un flake en el directorio actual, mostrando el registro de construcción en el proceso:
 
-`nix build -L {{.#pkg}}`
+`nix build {{[-L|--print-build-logs]}} {{.#pkg}}`
 
 - Construye el paquete predeterminado de un flake en algún directorio:
 

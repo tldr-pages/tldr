@@ -10,7 +10,7 @@
 
 - Build a package from a flake in the current directory, showing the build logs in the process:
 
-`nix build -L {{.#pkg}}`
+`nix build {{[-L|--print-build-logs]}} {{.#pkg}}`
 
 - Build the default package from a flake in some directory:
 
