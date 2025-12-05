@@ -7,13 +7,13 @@
 
 `nix-env {{[-q|--query]}}`
 
-- Query installed packages:
+- Query installed packages (regex is supported):
 
-`nix-env {{[-q|--query]}} {{search_term}}`
+`nix-env {{[-q|--query]}} {{search_pattern}}`
 
-- Query available packages:
+- Query available packages from the NixPkgs registry:
 
-`nix-env {{[-qa|--query --available]}} {{search_term}}`
+`nix-env {{[-qa|--query --available]}} {{search_pattern}}`
 
 - Install a package from the NixPkgs registry:
 
