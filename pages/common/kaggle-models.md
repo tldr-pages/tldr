@@ -7,7 +7,7 @@
 
 `kaggle {{[m|models]}} get "{{model_name}}"`
 
-- List all models :
+- List all models:
 
 `kaggle {{[m|models]}} list`
 
