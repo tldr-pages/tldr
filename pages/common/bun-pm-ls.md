@@ -6,8 +6,8 @@
 
 - List dependencies in the current project:
 
-`bun pm ls`
+`bun pm {{[ls|list]}}`
 
 - List all transitive dependencies:
 
-`bun pm ls {{[-a|--all]}}`
+`bun pm {{[ls|list]}} {{[-a|--all]}}`
