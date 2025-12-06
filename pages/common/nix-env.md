@@ -33,4 +33,4 @@
 
 - Get usage help for a specific operation (`--install`, `--upgrade`, etc.):
 
-`nix-env {{--help}} --{{option_name}}`
+`nix-env --help --{{option_name}}`
