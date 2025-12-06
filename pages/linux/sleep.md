@@ -22,3 +22,7 @@
 - Delay forever:
 
 `sleep {{[inf|infinity]}}`
+
+- Display help:
+
+`sleep --help`
