@@ -1,7 +1,7 @@
 # braa
 
 > 여러 호스트를 동시에 스캔할 수 있는 초고속 대량 SNMP 스캐너.
-> 더 많은 정보: <https://github.com/mteg/braa>.
+> 더 많은 정보: <https://manned.org/man/braa>.
 
 - 호스트의 SNMP 트리를 public 문자열로 탐색하여 `.1.3.6` 하위의 모든 OID 쿼리:
 

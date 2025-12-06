@@ -1,7 +1,7 @@
 # bluebuild
 
 > Construye Containerfiles e imágenes personalizadas basadas en tu `recipe.yml`.
-> Más información: <https://github.com/blue-build/cli>.
+> Más información: <https://github.com/blue-build/cli#how-to-use>.
 
 - Construye una receta:
 
@@ -13,7 +13,7 @@
 
 - Genera un archivo contenedor:
 
-`bluebuild generate --output {{archivo_contenedor}} {{ruta/a/receta.yml}}`
+`bluebuild generate {{[-o|--output]}} {{archivo_contenedor}} {{ruta/a/receta.yml}}`
 
 - Genera una ISO a partir de una receta:
 
@@ -21,4 +21,4 @@
 
 - Muestra la ayuda:
 
-`bluebuild --help`
+`bluebuild {{[-h|--help]}}`
