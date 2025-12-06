@@ -1,6 +1,6 @@
 # Natural Selection 2
 
-> Create and start a headless Natural Selection 2 server.
+> Start a headless Natural Selection 2 server.
 > More information: <https://naturalselection.fandom.com/wiki/Dedicated_Server>.
 
 - Start a server with the default settings:
