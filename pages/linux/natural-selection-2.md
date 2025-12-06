@@ -23,7 +23,7 @@
 
 `{{path/to/server_linux}} -map {{ns2_summit}}`
 
-- Limit access to the server with a passoword:
+- Limit access to the server with a password:
 
 `{{path/to/server_linux}} -password {{password}}`
 
