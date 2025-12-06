@@ -8,7 +8,7 @@
 `ln {{[-s|--symbolic]}} /{{path/to/file_or_directory}} {{path/to/symlink}}`
 
 - Create a symbolic link relative to where the link is located:
-- 
+
 `ln {{[-s|--symbolic]}} {{path/to/file_or_directory}} {{path/to/symlink}}`
 
 - Overwrite an existing symbolic link to point to a different file:
