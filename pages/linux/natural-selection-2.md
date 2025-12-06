@@ -15,11 +15,6 @@
 
 `{{path/to/server_linux}} -limit {{2..24}}`
 
-- Display help:
-
-`{{path/to/server_linux}}`
-
-
 - Start a server with webui interface:
 
 `{{path/to/server_linux}} -webadmin -webport {{8080}}`
