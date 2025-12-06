@@ -1,6 +1,6 @@
 # vagrant init
 
-> Initializes the current directory to be a Vagrant environment by creating a `Vagrantfile`.
+> Initialize the current directory to be a Vagrant environment by creating a `Vagrantfile`.
 > See also: `vagrant`.
 > More information: <https://developer.hashicorp.com/vagrant/docs/cli/init>.
 
@@ -12,15 +12,15 @@
 
 `vagrant init {{[-m|--minimal]}}`
 
-- Specify the box name and url:
+- Specify the box name and URL:
 
 `vagrant init {{box_name}} {{box_url}}`
 
-- Specify the box version:
+- Create a `Vagrantfile` with a specific box version:
 
-`vagrant init --box-version {{version_num}}`
+`vagrant init --box-version {{version}} {{box_name}}`
 
-- Send the `Vagrantfile` to stdout:
+- Send the `Vagrantfile` to `stdout`:
 
 `vagrant init {{[-o|--output]}} -`
 
