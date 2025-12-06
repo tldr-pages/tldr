@@ -7,7 +7,7 @@
 
 `kaggle {{[k|kernels]}} list`
 
--  List kernel output files:
+- List kernel output files:
 
 `kaggle {{[k|kernels]}} files {{kernel_name}}`
 
