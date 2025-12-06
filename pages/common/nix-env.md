@@ -7,30 +7,30 @@
 
 `nix-env {{[-q|--query]}}`
 
-- Query installed packages:
+- Query installed packages (`regex` is supported):
 
-`nix-env {{[-q|--query]}} {{search_term}}`
+`nix-env {{[-q|--query]}} {{search_pattern}}`
 
-- Query available packages:
+- Query available packages from the Nixpkgs registry:
 
-`nix-env {{[-qa|--query --available]}} {{search_term}}`
+`nix-env {{[-qa|--query --available]}} {{search_pattern}}`
 
-- Install package:
+- Install a package from the Nixpkgs registry:
 
 `nix-env {{[-iA|--install --attr]}} nixpkgs.{{pkg_name}}`
 
-- Install a package from a URL:
+- Install a package from a custom URL:
 
 `nix-env {{[-i|--install]}} {{pkg_name}} {{[-f|--file]}} {{example.com}}`
 
-- Uninstall package:
+- Uninstall a package:
 
 `nix-env {{[-e|--uninstall]}} {{pkg_name}}`
 
-- Upgrade one package:
+- Upgrade a package:
 
 `nix-env {{[-u|--upgrade]}} {{pkg_name}}`
 
-- Upgrade all packages:
+- Get usage help for a specific operation (`--install`, `--upgrade`, etc.):
 
-`nix-env {{[-u|--upgrade]}}`
+`nix-env --help --{{option_name}}`
