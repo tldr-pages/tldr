@@ -4,7 +4,7 @@
 > Algunos subcomandos, como `create`, tienen su propia documentación de uso.
 > Más información: <https://manned.org/toolbox>.
 
-- Entra en un contenedor para utilizarlo de forma interactiva:
+- Entra en un contenedor Toolbx para utilizarlo de forma interactiva:
 
 `toolbox enter {{contenedor}}`
 
@@ -16,7 +16,7 @@
 
 `toolbox rmi {{imagen1 imagen2 ...}}`
 
-- Muestra la ayuda para un subcomando específico (como `create`, `enter`, `rm`, `rmi`, etc.):
+- Muestra la ayuda para un subcomando específico (como `create`, `enter`, `rm`, etc.):
 
 `toolbox help {{subcomando}}`
 
