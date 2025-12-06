@@ -18,3 +18,7 @@
 - Execute a specific command after 20 [m]inutes delay:
 
 `sleep 20m && {{command}}`
+
+- Delay forever:
+
+`sleep {{[inf|infinity]}}`
