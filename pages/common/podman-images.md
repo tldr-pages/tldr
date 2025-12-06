@@ -1,23 +1,23 @@
 # podman images
 
-> Manage Podman images.
+> Manage OCI/Docker container images.
 > More information: <https://docs.podman.io/en/latest/markdown/podman-images.1.html>.
 
-- List all Podman images:
+- List all container images:
 
 `podman images`
 
-- List all Podman images including intermediates:
+- List all container images including intermediates:
 
-`podman images --all`
+`podman images {{[-a|--all]}}`
 
 - List the output in quiet mode (only numeric IDs):
 
-`podman images --quiet`
+`podman images {{[-q|--quiet]}}`
 
-- List all Podman images not used by any container:
+- List all images not used by any container:
 
-`podman images --filter dangling=true`
+`podman images {{[-f|--filter]}} dangling=true`
 
 - List images that contain a substring in their name:
 
