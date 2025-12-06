@@ -7,7 +7,7 @@
 
 `nix-env {{[-q|--query]}}`
 
-- Query installed packages (regex is supported):
+- Query installed packages (`regex` is supported):
 
 `nix-env {{[-q|--query]}} {{search_pattern}}`
 
