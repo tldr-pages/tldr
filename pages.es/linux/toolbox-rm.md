@@ -1,17 +1,17 @@
 # toolbox rm
 
-> Elimina uno o más contenedores de `toolbox`.
+> Elimina uno o más contenedores de Toolbx.
 > Vea también: `toolbox rmi`.
 > Más información: <https://manned.org/toolbox-rm.1>.
 
-- Quita un contenedor de `toolbox`:
+- Quita un contenedor de Toolbx:
 
 `toolbox rm {{nombre_del_contenedor}}`
 
-- Quita todos los contenedores de `toolbox`:
+- Quita todos los contenedores de Toolbx:
 
 `toolbox rm --all`
 
-- Fuerza la eliminación de un contenedor de `toolbox` activo actualmente:
+- Fuerza la eliminación de un contenedor de Toolbx activo actualmente:
 
 `toolbox rm --force {{nombre_del_contenedor}}`

@@ -1,9 +1,9 @@
 # toolbox init-container
 
-> Initialize a running `toolbox` container.
+> Initialize a running Toolbx container.
 > This command should not be executed by the user, and cannot be run on the host.
 > More information: <https://manned.org/toolbox-init-container>.
 
-- Initialize a running toolbox:
+- Initialize a running Toolbx container:
 
 `toolbox init-container --gid {{gid}} --home {{home}} --home-link --media-link --mnt-link --monitor-host --shell {{shell}} --uid {{uid}} --user {{user}}`

@@ -1,16 +1,16 @@
 # toolbox list
 
-> Lista los contenedores e imágenes existentes de `toolbox` presentes.
+> Lista los contenedores e imágenes existentes de Toolbx presentes.
 > Más información: <https://manned.org/toolbox-list.1>.
 
-- Lista todos los contenedores e imágenes de `toolbox`:
+- Lista todos los contenedores e imágenes de Toolbx:
 
 `toolbox list`
 
-- Lista solo los contenedores de `toolbox`:
+- Lista solo los contenedores de Toolbx:
 
 `toolbox list --containers`
 
-- Lista solo imágenes de `toolbox`:
+- Lista solo imágenes de Toolbx:
 
 `toolbox list --images`

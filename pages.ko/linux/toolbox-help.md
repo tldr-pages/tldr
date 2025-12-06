@@ -7,6 +7,6 @@
 
 `toolbox help`
 
-- 특정 하위 명령에 대한 `toolbox` 매뉴얼 표시:
+- 특정 하위 명령에 대한 Toolbx 매뉴얼 표시:
 
 `toolbox help {{하위_명령}}`
