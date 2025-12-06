@@ -11,7 +11,7 @@
 
 `nix-env {{[-q|--query]}} {{search_pattern}}`
 
-- Query available packages from the NixPkgs registry:
+- Query available packages from the Nixpkgs registry:
 
 `nix-env {{[-qa|--query --available]}} {{search_pattern}}`
 
