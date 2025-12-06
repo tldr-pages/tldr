@@ -15,7 +15,7 @@
 
 `nix-env {{[-qa|--query --available]}} {{search_pattern}}`
 
-- Install a package from the NixPkgs registry:
+- Install a package from the Nixpkgs registry:
 
 `nix-env {{[-iA|--install --attr]}} nixpkgs.{{pkg_name}}`
 
