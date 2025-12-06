@@ -1,7 +1,7 @@
 # braa
 
 > Ultra-fast mass SNMP scanner allowing multiple hosts simultaneously.
-> More information: <https://manned.org/man/braa>.
+> More information: <https://manned.org/braa>.
 
 - Walk the SNMP tree of host with public string querying all OIDs under `.1.3.6`:
 

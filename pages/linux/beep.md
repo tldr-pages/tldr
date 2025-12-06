@@ -1,7 +1,7 @@
 # beep
 
 > A utility to beep the PC speaker.
-> More information: <https://manned.org/man/beep>.
+> More information: <https://manned.org/beep>.
 
 - Play a beep:
 
