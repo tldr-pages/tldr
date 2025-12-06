@@ -6,16 +6,16 @@
 
 - Mount an image at a specific path inside the unit's mount namespace:
 
-`systemctl mount-image {{unit}} {{/path/to/image}} {{/path/inside/unit}}`
+`systemctl mount-image {{unit}} /{{path/to/image}} /{{path/to/directory_inside_unit}}`
 
 - Mount the image’s `root` partition with read-only and no-setuid options:
 
-`systemctl mount-image {{unit}} {{/path/to/image}} {{/path/inside/unit}} root:ro,nosuid`
+`systemctl mount-image {{unit}} /{{path/to/image}} /{{path/to/directory_inside_unit}} root:ro,nosuid`
 
 - Create the destination directory before mounting:
 
-`systemctl mount-image --mkdir {{unit}} {{/path/to/image}} {{/new/path/inside/unit}}`
+`systemctl mount-image --mkdir {{unit}} /{{path/to/image}} /{{path/to/directory_inside_unit}}`
 
 - Mount an image as read-only:
 
-`systemctl mount-image --read-only {{unit}} {{/path/to/image}} {{/path/inside/unit}}`
+`systemctl mount-image --read-only {{unit}} /{{path/to/image}} /{{path/to/directory_inside_unit}}`
