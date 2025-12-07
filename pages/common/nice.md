@@ -8,6 +8,10 @@
 
 `nice -{{niceness_value}} {{command}}`
 
+- Launch a program heightened priority:
+
+`sudo nice --{{niceness_value}} {{command}}`
+
 - Define the priority with an explicit option:
 
 `nice {{[-n|--adjustment]}} {{niceness_value}} {{command}}`
