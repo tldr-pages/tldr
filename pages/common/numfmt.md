@@ -15,7 +15,7 @@
 
 `numfmt --from iec 1.5K`
 
-- Use appropriate conversion based on the suffix
+- Use appropriate conversion based on the suffix:
 
 `numfmt --from auto {{1.5Ki}}`
 
