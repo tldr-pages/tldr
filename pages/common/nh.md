@@ -11,7 +11,7 @@
 
 `nh clean all {{[-a|--ask]}}`
 
-- Build a specified Nixos flake configuration and creates a symlink of the result from the Nix store:
+- Build a specified Nixos flake configuration and create a symlink of the result from the Nix store:
 
 `nh os build-vm {{path/to/flake}} {{[-H|--hostname]}} {{host}}`
 
