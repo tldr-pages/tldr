@@ -19,6 +19,10 @@
 
 `caffeinate -i`
 
+- 모니터 꺼짐 방지 (`<Ctrl c>`로 종료):
+
+`caffeinate -d`
+
 - 디스크 절전 모드 방지 (`<Ctrl c>`로 종료):
 
 `caffeinate -m`
