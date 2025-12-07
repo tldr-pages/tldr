@@ -6,12 +6,12 @@
 
 - 在分区上建立一个 Linux ext2 文件系统：
 
-`mkfs {{path/to/partition}}`
+`sudo mkfs {{path/to/partition}}`
 
 - 建立指定类型的文件系统：
 
-`mkfs -t {{ext4}} {{path/to/partition}}`
+`sudo mkfs {{[-t|--type]}} {{ext4}} {{path/to/partition}}`
 
 - 建立指定类型的文件系统并检查坏块：
 
-`mkfs -c -t {{ntfs}} {{path/to/partition}}`
+`sudo mkfs -c {{[-t|--type]}} {{ntfs}} {{path/to/partition}}`
