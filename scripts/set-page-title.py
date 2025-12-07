@@ -47,6 +47,7 @@ Examples:
        python3 scripts/set-page-title.py --sync --dry-run
 """
 
+import sys
 from pathlib import Path
 from _common import (
     IGNORE_FILES,
@@ -166,6 +167,11 @@ def main():
     parser = create_argument_parser("Sets the title for all translations of a page")
     parser.add_argument("title", type=str, nargs="?", default="")
     args = parser.parse_args()
+
+    # Print usage information if no arguments were provided
+    if len(sys.argv) == 1:
+        parser.print_help()
+        return
 
     root = get_tldr_root()
     pages_dirs = get_pages_dirs(root)

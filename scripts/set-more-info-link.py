@@ -48,6 +48,7 @@ Examples:
 """
 
 import re
+import sys
 from pathlib import Path
 from _common import (
     IGNORE_FILES,
@@ -252,6 +253,11 @@ def main():
     )
     parser.add_argument("link", type=str, nargs="?", default="")
     args = parser.parse_args()
+
+    # Print usage information if no arguments were provided
+    if len(sys.argv) == 1:
+        parser.print_help()
+        return
 
     root = get_tldr_root()
     pages_dirs = get_pages_dirs(root)
