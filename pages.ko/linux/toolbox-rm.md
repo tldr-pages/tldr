@@ -2,7 +2,7 @@
 
 > 하나 이상의 Toolbx 컨테이너를 제거합니다.
 > 같이 보기: `toolbox rmi`.
-> 더 많은 정보: <https://manned.org/toolbox-rm.1>.
+> 더 많은 정보: <https://manned.org/toolbox-rm>.
 
 - toolbox 컨테이너 제거:
 

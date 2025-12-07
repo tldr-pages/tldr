@@ -2,7 +2,7 @@
 
 > ஒன்று அல்லது அதற்கு மேற்பட்ட Toolbx படங்களை அகற்றவும்.
 > மேலும் பார்க்கவும்: `toolbox rm`.
-> மேலும் விவரத்திற்கு: <https://manned.org/toolbox-rmi.1>.
+> மேலும் விவரத்திற்கு: <https://manned.org/toolbox-rmi>.
 
 - `toolbox` படத்தை அகற்றவும்:
 

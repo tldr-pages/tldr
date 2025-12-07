@@ -1,7 +1,7 @@
 # toolbox help
 
 > Muestra información de ayuda sobre Toolbx.
-> Más información: <https://manned.org/toolbox-help.1>.
+> Más información: <https://manned.org/toolbox-help>.
 
 - Muestra el manual de Toolbx:
 

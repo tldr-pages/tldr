@@ -2,7 +2,7 @@
 
 > Elimina uno o más contenedores de Toolbx.
 > Vea también: `toolbox rmi`.
-> Más información: <https://manned.org/toolbox-rm.1>.
+> Más información: <https://manned.org/toolbox-rm>.
 
 - Quita un contenedor de Toolbx:
 

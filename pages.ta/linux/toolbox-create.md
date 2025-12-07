@@ -1,7 +1,7 @@
 # toolbox create
 
 > புதிய Toolbx கொள்கலனை உருவாக்கவும்.
-> மேலும் விவரத்திற்கு: <https://manned.org/toolbox-create.1>.
+> மேலும் விவரத்திற்கு: <https://manned.org/toolbox-create>.
 
 - ஒரு குறிப்பிட்ட விநியோகத்திற்காக Toolbx கொள்கலனை உருவாக்கவும்:
 

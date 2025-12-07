@@ -1,7 +1,7 @@
 # toolbox create
 
 > Crea un nuevo contenedor de Toolbx.
-> Más información: <https://manned.org/toolbox-create.1>.
+> Más información: <https://manned.org/toolbox-create>.
 
 - Crea un contenedor para una distribución específica:
 

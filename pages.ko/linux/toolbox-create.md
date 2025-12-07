@@ -1,7 +1,7 @@
 # toolbox create
 
 > 새 Toolbx 컨테이너 생성.
-> 더 많은 정보: <https://manned.org/toolbox-create.1>.
+> 더 많은 정보: <https://manned.org/toolbox-create>.
 
 - 특정 배포판에 대한 Toolbx 컨테이너 생성:
 

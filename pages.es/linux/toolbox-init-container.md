@@ -2,7 +2,7 @@
 
 > Inicializa un contenedor de Toolbx que está en funcionamiento.
 > Este comando no debe ser ejecutado por el usuario, y no puede ser ejecutado en el host.
-> Más información: <https://manned.org/toolbox-init-container.1>.
+> Más información: <https://manned.org/toolbox-init-container>.
 
 - Inicializa un Toolbx que está en funcionamiento:
 

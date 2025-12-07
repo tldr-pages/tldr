@@ -2,7 +2,7 @@
 
 > Ingresa a un contenedor Toolbx para usarlo interactivamente.
 > Vea también: `toolbox run`.
-> Más información: <https://manned.org/toolbox-enter.1>.
+> Más información: <https://manned.org/toolbox-enter>.
 
 - Entra a un contenedor de Toolbx utilizando la imagen predeterminada de una distribución específica:
 

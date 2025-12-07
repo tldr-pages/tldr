@@ -2,7 +2,7 @@
 
 > Elimina imágenes de Toolbx.
 > Vea también: `toolbox rm`.
-> Más información: <https://manned.org/toolbox-rmi.1>.
+> Más información: <https://manned.org/toolbox-rmi>.
 
 - Quita una o más imágenes de Toolbx:
 

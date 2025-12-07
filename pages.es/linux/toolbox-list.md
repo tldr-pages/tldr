@@ -1,7 +1,7 @@
 # toolbox list
 
 > Lista los contenedores e imágenes existentes de Toolbx presentes.
-> Más información: <https://manned.org/toolbox-list.1>.
+> Más información: <https://manned.org/toolbox-list>.
 
 - Lista todos los contenedores e imágenes de Toolbx:
 

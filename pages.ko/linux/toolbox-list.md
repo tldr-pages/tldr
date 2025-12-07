@@ -1,7 +1,7 @@
 # toolbox list
 
 > 기존 Toolbx 컨테이너와 이미지 나열.
-> 더 많은 정보: <https://manned.org/toolbox-list.1>.
+> 더 많은 정보: <https://manned.org/toolbox-list>.
 
 - 모든 Toolbx 컨테이너와 이미지 나열:
 
