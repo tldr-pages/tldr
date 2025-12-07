@@ -10,7 +10,7 @@
 
 - 현재 디렉토리의 flake에서 패키지를 빌드하고 빌드 로그를 표시:
 
-`nix build -L {{.#pkg}}`
+`nix build {{[-L|--print-build-logs]}} {{.#pkg}}`
 
 - 특정 디렉토리의 flake에서 기본 패키지 빌드:
 

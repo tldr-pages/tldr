@@ -23,14 +23,14 @@
 
 `crontab -r`
 
-- Sample job which runs at 10:00 every day (* means any value):
+- Sample cron job which runs at 10:00 every day (* means any value):
 
 `0 10 * * * {{command_to_execute}}`
 
-- Sample crontab entry, which runs a command every 10 minutes:
+- Sample cron job which runs a command every 10 minutes:
 
 `*/10 * * * * {{command_to_execute}}`
 
-- Sample crontab entry, which runs a certain script at 02:30 every Friday:
+- Sample cron job which runs a certain script at 02:30 every Friday:
 
 `30 2 * * Fri /{{path/to/script.sh}}`

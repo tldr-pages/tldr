@@ -1,7 +1,7 @@
 # beep
 
 > Utilitário que permite o computador emitir sons.
-> Mais informações: <https://github.com/spkr-beep/beep>.
+> Mais informações: <https://manned.org/man/beep>.
 
 - Emite um som:
 
