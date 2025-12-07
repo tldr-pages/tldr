@@ -1,6 +1,7 @@
 # w
 
 > Display who is logged in and their processes.
+> See also: `who`, `users`
 > More information: <https://manned.org/w>.
 
 - Display information about all users who are currently logged in:
