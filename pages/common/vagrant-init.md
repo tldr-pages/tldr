@@ -1,6 +1,6 @@
 # vagrant init
 
-> Initialize the current directory to be a Vagrant environment by creating a `Vagrantfile`.
+> Initialize a Vagrant environment in the current directory by creating a `Vagrantfile`.
 > See also: `vagrant`.
 > More information: <https://developer.hashicorp.com/vagrant/docs/cli/init>.
 
