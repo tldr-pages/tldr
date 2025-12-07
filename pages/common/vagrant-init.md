@@ -24,7 +24,7 @@
 
 `vagrant init {{[-o|--output]}} -`
 
-- Overwrite any existing `Vagrantfile`:
+- Overwrite an existing `Vagrantfile`:
 
 `vagrant init {{[-f|--force]}}`
 
