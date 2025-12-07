@@ -17,4 +17,4 @@
 
 - Create a device file with default SELinux security context:
 
-`sudo mknod {{[-Z |--context=]}}{{path/to/device_file}} {{type}} {{major_device_number}} {{minor_device_number}}`
+`sudo mknod {{[-Z|--context]}} {{path/to/device_file}} {{type}} {{major_device_number}} {{minor_device_number}}`
