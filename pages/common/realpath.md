@@ -11,7 +11,7 @@
 
 `realpath {{[-e|--canonicalize-existing]}} {{path/to/file_or_directory}}`
 
-- Resolve ".." components before symlinks:
+- Resolve `..` components before symlinks:
 
 `realpath {{[-L|--logical]}} {{path/to/file_or_directory}}`
 
