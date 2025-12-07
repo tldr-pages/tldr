@@ -60,7 +60,7 @@ from _common import (
     IGNORE_FILES,
     Colors,
     get_tldr_root,
-    get_pages_dir,
+    get_pages_dirs,
     get_target_paths,
     get_locale,
     get_status,
@@ -455,7 +455,7 @@ def main():
     )
     args = parser.parse_args()
     root = get_tldr_root()
-    pages_dirs = get_pages_dir(root)
+    pages_dirs = get_pages_dirs(root)
     templates = get_templates(root)
 
     global config
