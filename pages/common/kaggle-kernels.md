@@ -11,7 +11,7 @@
 
 `kaggle {{[k|kernels]}} files {{kernel_name}}`
 
-- Initialize metadata file for a kernel:
+- Initialize metadata file for a kernel (defaults to current directory):
 
 `kaggle {{[k|kernels]}} init {{[-p|--path]}} {{path/to/directory}}`
 
