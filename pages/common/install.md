@@ -1,6 +1,7 @@
 # install
 
-> Copy files (often executable) to a system location like `/usr/local/bin` and give them the appropriate attributes.
+> Copy files and set attributes.
+> Typically used by Makefiles.
 > More information: <https://www.gnu.org/software/coreutils/manual/html_node/install-invocation.html>.
 
 - Copy files to the destination:
