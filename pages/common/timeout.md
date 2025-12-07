@@ -25,4 +25,4 @@
 
 - Print timeout signals to `stderr`:
 
-`timeout {{[-v|--verbose]}}`
+`timeout {{[-v|--verbose]}} 3s sleep 10`
