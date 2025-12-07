@@ -13,15 +13,15 @@
 
 - Initialize metadata file for a kernel:
 
-`kaggle {{[k|kernels]}} init {{[-p|--path]}} {{Folder for upload.Defaults to current directory}}`
+`kaggle {{[k|kernels]}} init {{[-p|--path]}} {{path/to/directory}}`
 
 - Push new code to a kernel and run the kernel:
 
-`kaggle {{[k|kernels]}} push {{[-p|--path]}} {{path/to/folder}}`
+`kaggle {{[k|kernels]}} push {{[-p|--path]}} {{path/to/directory}}`
 
 - Pull a kernel:
 
-`kaggle {{[k|kernels]}} pull {kernel_name}} {{-p|--path}} {{path/to/folder}}`
+`kaggle {{[k|kernels]}} pull {kernel_name}} {{-p|--path}} {{path/to/directory}}`
 
 - Get data output from the latest kernel run:
 
