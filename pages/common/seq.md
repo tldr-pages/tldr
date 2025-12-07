@@ -7,7 +7,7 @@
 
 `seq 10`
 
-- Print a sequence form 10 to 20:
+- Print a sequence from 10 to 20:
 
 `seq 10 20`
 
