@@ -3,7 +3,7 @@
 > Run command or interactive shell with special root directory.
 > More information: <https://www.gnu.org/software/coreutils/manual/html_node/chroot-invocation.html>.
 
-- Run `$SHELL in the new root directory:
+- Run `$SHELL` in the new root directory:
 
 `sudo chroot {{path/to/new_root}}`
 
