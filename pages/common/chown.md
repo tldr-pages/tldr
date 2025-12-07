@@ -16,7 +16,7 @@
 
 `sudo chown {{user}}: {{path/to/file_or_directory}}`
 
-- Change the group of a file to a group that the user belongs to
+- Change the group of a file to a group that the user belongs to:
 
 `chown :{{group}} {{path/to/file_or_directory}}`
 
