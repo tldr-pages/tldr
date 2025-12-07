@@ -22,3 +22,7 @@
 - Send a forceful `KILL` signal after certain duration if the command ignores initial signal upon timeout:
 
 `timeout {{[-k|--kill-after]}} {{5m}} {{30s}} {{command}}`
+
+- Print timeout signals to `stderr`:
+
+`timeout {{[-v|--verbose]}}`
