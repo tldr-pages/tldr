@@ -31,6 +31,6 @@
 
 `nl -w {{col_width}} {{path/to/file}}`
 
-- Use a specific string to [s]eparate the line numbers from the lines (TAB by default):
+- Use a specific string to [s]eparate the line numbers from the lines (`TAB` by default):
 
 `nl -s {{separator}} {{path/to/file}}`
