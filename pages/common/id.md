@@ -26,3 +26,7 @@
 - Display an arbitrary user's ID (UID), group ID (GID) and groups to which they belong:
 
 `id {{username}}`
+
+- Skip name lookup and specify the UID number explicitly:
+
+`id +{{uid_number}}`
