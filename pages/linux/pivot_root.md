@@ -6,7 +6,7 @@
 
 - Make `/new_root` the new root (`/`) and move current root to a subdirectory of it:
 
-`sudo pivot_root /new_root /new_root/old_root`
+`sudo pivot_root {{path/to/new_root}} {{path/to/new_root/old_root}}`
 
 - Display help:
 
