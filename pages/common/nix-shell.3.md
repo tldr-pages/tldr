@@ -4,22 +4,22 @@
 > See also: `nix-shell` for setting up development environments, `nix flake` for information about flakes.
 > More information: <https://manned.org/nix3-shell>.
 
-- Start an interactive shell with some packages from `nixpkgs` :
+- Start an interactive shell with some packages from `nixpkgs`:
 
 `nix shell {{nixpkgs#pkg1 nixpkgs#packageSet.pkg2 ...}}`
 
-- Start a shell providing a package from an older version of `nixpkgs` (21.05) :
+- Start a shell providing a package from an older version of `nixpkgs` (21.05):
 
 `nix shell {{nixpkgs/nixos-21.05#pkg}}`
 
-- Start a shell with the "default package" from a flake in the current directory, printing build logs if any builds happen :
+- Start a shell with the "default package" from a flake in the current directory, printing build logs if any builds happen:
 
 `nix shell -L`
 
-- Start a shell with a package from a flake on GitHub :
+- Start a shell with a package from a flake on GitHub:
 
 `nix shell {{github:owner/repo#pkg}}`
 
-- Run a command in a shell with a package :
+- Run a command in a shell with a package:
 
 `nix shell {{nixpkgs#pkg}} -c {{some-cmd --someflag 'Some other arguments'}}`
