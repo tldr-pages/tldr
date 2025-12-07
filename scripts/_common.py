@@ -154,10 +154,9 @@ def get_target_paths(
 
     if not page.lower().endswith(".md"):
         page = f"{page}.md"
-    arg_platform, arg_page = page.split("/")
 
     for pages_dir in pages_dirs:
-        page_path = pages_dir / arg_platform / arg_page
+        page_path = pages_dir / page
 
         if check_exists and not page_path.exists():
             print(create_colored_line(Colors.RED, f"Page {page_path} does not exist"))
