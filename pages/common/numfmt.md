@@ -15,6 +15,10 @@
 
 `numfmt --from iec 1.5K`
 
+- Use appropriate conversion based on the suffix
+
+`numfmt --from auto {{1.5Ki}}`
+
 - Convert 5th field (1-indexed) to IEC Units without converting header:
 
 `ls -l | numfmt --header=1 --field 5 --to iec`
