@@ -12,6 +12,6 @@
 
 `toolbox rmi --all`
 
-- Fuerza la eliminación de una imagen de Toolbx que está siendo utilizado actualmente por un contenedor (el contenedor será eliminado también):
+- Fuerza la eliminación de una imagen de Toolbx que está siendo utilizada actualmente por un contenedor (el contenedor será eliminado también):
 
 `toolbox rmi --force {{nombre_de_la_imagen}}`
