@@ -16,6 +16,10 @@
 
 `sudo semanage fcontext {{[-a|--add]}} {{[-t|--type]}} {{samba_share_t}} '{{/mnt/share(/.*)?}}'`
 
+- Add a user-defined rule that creates a labeling equivalence between two subpaths:
+
+`sudo semanage fcontext {{[-a|--add]}} {{[-e|--equal]}} {{path/to/ref}} {{path/to/target}}`
+
 - Delete a user-defined rule using its PCRE `regex`:
 
 `sudo semanage fcontext {{[-d|--delete]}} '{{/mnt/share(/.*)?}}'`
