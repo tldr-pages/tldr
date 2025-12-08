@@ -25,4 +25,4 @@
 
 - Overwrite a file 100 times, add a final overwrite with zeros, remove the file after overwriting it and show verbose progress on the screen:
 
-`shred {{[-vzun|--verbose --zero --remove --iterations]}} 100 {{path/to/file}}`
+`shred {{[-vzu|--verbose --zero --remove]}} {{[-n|--iterations]}} 100 {{path/to/file}}`
