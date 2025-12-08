@@ -21,7 +21,7 @@
 
 - Sorteer `/etc/passwd` numeriek op het 3e veld van elke regel, gebruik makend van ":" als veldscheidingsteken:
 
-`sort {{[-t|--field-separator]}} : {{[-k|--key]}} 3n {{/etc/passwd}}`
+`sort {{[-t|--field-separator]}} : {{[-k|--key]}} 3n /etc/passwd`
 
 - Sorteer zoals hierboven, maar wanneer items in het 3e veld gelijk zijn, sorteer op het 4e veld met getallen en exponenten:
 
@@ -33,4 +33,4 @@
 
 - Sorteer een bestand en schrijf de uitvoer naar het opgegeven uitvoerbestand (kan worden gebruikt om een bestand in-place te sorteren):
 
-`sort {{[-o|--output]}} {{pad/naar/bestand}} {{pad/naar/bestand}}`
+`sort {{[-o|--output]}} {{pad/naar/uitvoer_bestand}} {{pad/naar/invoer_bestand}}`

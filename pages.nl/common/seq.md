@@ -17,8 +17,12 @@
 
 - Scheid de uitvoer met een spatie in plaats van een nieuwe regel:
 
-`seq {{[-s|--separator]}} " " 5 3 20`
+`seq {{[-s|--separator]}} " " {{5 3 20}}`
 
 - Formatteer de uitvoerbreedte naar minimaal 4 cijfers, opgevuld met nullen indien nodig:
 
-`seq {{[-f|--format]}} "%04g" 5 3 20`
+`seq {{[-f|--format]}} "%04g" {{5 3 20}}`
+
+- Toon alle nummers met dezelfde breedte:
+
+`seq {{[-w|--equal-width]}} {{5 3 20}}`
