@@ -1,6 +1,6 @@
 # kaggle kernels
 
-> Manage Kaggle kernels from the command-line.
+> Manage Kaggle kernels.
 > More information: <https://github.com/Kaggle/kaggle-api/blob/main/docs/README.md#kernels>.
 
 - List all kernels:
