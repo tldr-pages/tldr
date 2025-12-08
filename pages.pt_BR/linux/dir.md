@@ -1,6 +1,6 @@
 # dir
 
-> Lista o conteúdo do diretório usando uma linha por arquivo, caractéres especiais são representados por sequências de escape com barra invertida.
+> Lista o conteúdo do diretório usando uma linha por arquivo; caractéres especiais são representados por sequências de escape com barra invertida.
 > Funciona como `ls -C --escape`.
 > Mais informações: <https://manned.org/dir>.
 
