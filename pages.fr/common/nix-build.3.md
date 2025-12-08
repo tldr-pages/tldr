@@ -8,14 +8,14 @@
 
 `nix build {{nixpkgs#pkg}}`
 
-- Construit un paquet depuis un flake du répertoire actuel, tout en affichant les logs du processus :
+- Construit un paquet depuis un flake du répertoire actuel, en affichant les logs du processus :
 
 `nix build {{[-L|--print-build-logs]}} {{.#pkg}}`
 
-- Construit le paquet par défaut d'un flake dans un répertoire quelconque :
+- Construit le paquet par défaut d'un flake depuis un dossier quelconque :
 
 `nix build {{chemin/vers/dossier}}`
 
-- Construit un paquet sans lier le résultat symboliquement, mais affiche le chemin de stockage dans le `stdout` :
+- Construit un paquet sans lier symboliquement le résultat, mais affiche le chemin de stockage dans le `stdout` :
 
 `nix build --no-link --print-out-paths`
