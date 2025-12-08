@@ -10,4 +10,4 @@
 
 - Display help:
 
-`sudo pivot_root --help`
+`pivot_root {{[-h|--help]}}`
