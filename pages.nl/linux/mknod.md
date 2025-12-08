@@ -17,4 +17,4 @@
 
 - Maak een apparaatbestand aan met de standaard SELinux-beveiligingscontext:
 
-`sudo mknod {{[-Z |--context=]}}{{pad/naar/apparaat_bestand}} {{type}} {{groot_apparaatnummer}} {{klein_apparaatnummer}}`
+`sudo mknod {{[-Z|--context=]}} {{pad/naar/apparaat_bestand}} {{type}} {{groot_apparaatnummer}} {{klein_apparaatnummer}}`

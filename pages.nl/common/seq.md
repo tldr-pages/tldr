@@ -3,11 +3,15 @@
 > Toon een reeks getallen naar `stdout`.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/seq-invocation.html>.
 
-- Reeks van 1 tot 10:
+- Toon een reeks van 1 tot 10:
 
 `seq 10`
 
-- Elk 3e nummer van 5 tot 20:
+- Toon een reeks van 10 tot 20:
+
+`seq 10 20`
+
+- Toon ieder 3e nummer in een reeks van 5 tot 20:
 
 `seq 5 3 20`
 
