@@ -4,22 +4,22 @@
 > Funciona como `ls -C --escape`.
 > Mais informações: <https://manned.org/dir>.
 
-- Listar todos os arquivos, incluindo arquivos ocultos:
+- Lista todos os arquivos, incluindo arquivos ocultos:
 
 `dir {{[-a|--all]}}`
 
-- Listar arquivos exibindo o autor (`-l` é necessário):
+- Lista arquivos exibindo o autor (`-l` é necessário):
 
 `dir -l --author`
 
-- Listar arquivos excluindo aqueles que correspondem a um padrão específico:
+- Lista arquivos excluindo aqueles que correspondem a um padrão específico:
 
 `dir --hide {{padrão}}`
 
-- Listar subdiretórios recursivamente:
+- Lista subdiretórios recursivamente:
 
 `dir {{[-R|--recursive]}}`
 
-- Exibir ajuda:
+- Exibe ajuda:
 
 `dir --help`
