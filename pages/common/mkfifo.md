@@ -1,6 +1,6 @@
 # mkfifo
 
-> Make FIFOs (named pipes).
+> Make named pipes, also known as First In First Out (FIFO).
 > More information: <https://www.gnu.org/software/coreutils/manual/html_node/mkfifo-invocation.html>.
 
 - Create a named pipe at a given path:

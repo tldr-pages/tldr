@@ -1,7 +1,7 @@
 # vdir
 
 > Verbosely list directory contents.
-> Drop-in replacement for `ls -l -b`.
+> Drop-in replacement for `ls -l --escape`.
 > More information: <https://manned.org/vdir>.
 
 - List files and directories in the current directory, one per line, with details:
