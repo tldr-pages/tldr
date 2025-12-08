@@ -1,7 +1,7 @@
 # users
 
 > Display a list of logged in users.
-> See also: `useradd`, `userdel`, `usermod`.
+> See also: `who`, `w`, `useradd`, `userdel`, `usermod`.
 > More information: <https://www.gnu.org/software/coreutils/manual/html_node/users-invocation.html>.
 
 - Print logged in usernames:
