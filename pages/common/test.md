@@ -2,6 +2,7 @@
 
 > Check file types and compare values.
 > Returns 0 if the condition evaluates to true, 1 if it evaluates to false.
+> See also: `[`.
 > More information: <https://www.gnu.org/software/coreutils/manual/html_node/test-invocation.html>.
 
 - Test if a given variable is equal to a given string:
