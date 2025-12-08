@@ -10,7 +10,7 @@
 
 - Cifra un archivo con una o varias claves públicas introducidas como literales (repite el indicador `--recipient` para especificar varias claves públicas):
 
-`age {{[-r|--recipient]}} {{clave_pública}} {{[-o|--output]}} {{ruta/al/archivo_cifrado}} {{ruta/al/archivo_no_cifrado}}`
+`age {{[-r|--recipient]}} {{clave_publica}} {{[-o|--output]}} {{ruta/al/archivo_cifrado}} {{ruta/al/archivo_no_cifrado}}`
 
 - Cifra un archivo a uno o más destinatarios con sus claves públicas especificadas en un archivo (una por línea):
 
