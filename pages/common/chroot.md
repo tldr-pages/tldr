@@ -13,4 +13,4 @@
 
 - Use a specific user and group:
 
-`sudo chroot --userspec {{username_or_id:group_name_or_id}} {{path/to/new_root}}`
+`sudo chroot --userspec {{username_or_id}}:{{group_name_or_id}} {{path/to/new_root}}`
