@@ -16,7 +16,7 @@
 
 `nice -{{niceness_value}} {{command}}`
 
-- Launch a program heightened priority:
+- Launch a program with heightened priority:
 
 `sudo nice --{{niceness_value}} {{command}}`
 
