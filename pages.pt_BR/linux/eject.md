@@ -24,6 +24,7 @@
 `eject {{[-r|--cdrom]}} {{/dev/cdrom}}`
 
 - Ejetar uma unidade de disquete:
+
 `eject {{[-f|--floppy]}} {{/mnt/floppy}}`
 
 - Ejetar uma unidade de fita:
