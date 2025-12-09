@@ -191,7 +191,7 @@ The templates can be changed when necessary.
 ```markdown
 # example
 
-> Tämä komento on `example`:n alias.
+> > Tämä on alias komennolle `example`.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
