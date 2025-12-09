@@ -11,13 +11,13 @@
 
 `caffeinate -u -t {{3600}}`
 
-- 지정된 명령(command)을 실행하고 실행되는 동안 절전 모드 방지:
+- 지정된 명령(make)을 실행하고 실행되는 동안 절전 모드 방지:
 
-`caffeinate -i command`
+`caffeinate -i make`
 
 - 지정된 PID를 가진 프로세스가 완료될 때까지 절전 모드 방지:
 
-`caffeinate -w {{PID}}`
+`caffeinate -w {{pid}}`
 
 - 디스크 절전 모드 방지 (`<Ctrl c>`로 종료):
 
