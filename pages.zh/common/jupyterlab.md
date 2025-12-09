@@ -2,6 +2,6 @@
 
 > 这是 `jupyter lab` 命令的一个别名。
 
-- 查看原命令的文档：
+- 原命令的文档在：
 
 `tldr jupyter lab`

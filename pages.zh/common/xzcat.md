@@ -1,6 +1,6 @@
 # xzcat
 
-> 这是 `xz` 命令的一个别名。
+> 这是 `xz --decompress --stdout` 命令的一个别名。
 
 - 原命令的文档在：
 
