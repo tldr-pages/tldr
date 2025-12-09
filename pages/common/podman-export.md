@@ -2,7 +2,7 @@
 
 > Export the filesystem of a container and save it as a tarball on the local machine.
 > See also: `podman import`, `podman save`.
-> More information: <https://docs.podman.io/en/latest/markdown/podman-export.1.html>
+> More information: <https://docs.podman.io/en/latest/markdown/podman-export.1.html>.
 
 - Export a container's filesystem to a tar file:
 
