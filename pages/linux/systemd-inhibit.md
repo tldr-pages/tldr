@@ -14,7 +14,7 @@
 
 - Keep the system from sleeping or idling until the download is complete:
 
-`systemd-inhibit --what sleep:idle wget {{https://example.com/file}}`
+`systemd-inhibit --what sleep:idle wcurl {{https://example.com/file}}`
 
 - Ignore lid close switch until the script exits:
 
