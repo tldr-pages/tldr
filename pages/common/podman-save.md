@@ -6,4 +6,4 @@
 
 - Save image to local file:
 
-`podman save -o {{file_name.tar}} {{image}}`
+`podman save {{[-o|--output]}} {{file_name.tar}} {{image}}`
