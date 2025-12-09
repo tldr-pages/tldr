@@ -8,6 +8,6 @@
 
 `podman export {{[-o|--output]}} {{path/to/file.tar}} {{container_name_or_id}}`
 
-- Export a container's filesystem to stdout:
+- Export a container's filesystem to `stdout`:
 
 `podman export {{container_name_or_id}} > {{path/to/file.tar}}`
