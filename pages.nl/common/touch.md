@@ -1,7 +1,7 @@
 # touch
 
 > Maak bestanden aan en stel toegang-/wijzigingstijden in.
-> Meer informatie: <https://manned.org/touch>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/touch-invocation.html>.
 
 - Maak specifieke bestanden aan:
 

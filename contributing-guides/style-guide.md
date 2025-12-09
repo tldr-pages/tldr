@@ -325,6 +325,8 @@ For Windows command prompt, prepend and append the environment variable with a p
 
 Whereas for Powershell, prepend the environment variable with a dollar sign, Env and a colon, then enclose it with backticks (`$Env:VARIABLE_NAME`). For example: "Manage the `$Env:JAVA_HOME` environment variable".
 
+When describing file formats, primarily use the brand name in plain text (e.g. JSON, SQLite), or use the file extension preceded by a dot, wrapped in backticks (e.g. `.txt`).
+
 ### Standardized Terms
 
 Some terms are used repeatedly throughout pages, and as such, should be standardized. These include:
