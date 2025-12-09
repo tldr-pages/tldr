@@ -7,6 +7,10 @@
 
 `ln {{[-s|--symbolic]}} /{{pad/naar/bestand_of_map}} {{pad/naar/symbolische_verwijzing}}`
 
+- Maak een symbolische verwijziging relatief naar waar de link bestaat:
+
+`ln {{[-s|--symbolic]}} {{pad/naar/bestand_of_map}} {{pad/naar/symbolische_verwijzing}}`
+
 - Overschrijf een bestaande symbolische verwijzing om die naar een ander bestand te verwijzen:
 
 `ln {{[-sf|--symbolic --force]}} /{{pad/naar/nieuw_bestand}} {{pad/naar/symbolische_verwijzing}}`
