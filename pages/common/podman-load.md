@@ -12,6 +12,6 @@
 
 `podman load {{[-q|--quiet]}} {{[-i|--input]}} {{path/to/file.tar}}`
 
-- Load an image from stdin:
+- Load an image from `stdin`:
 
 `podman load < {{path/to/file.tar}}`
