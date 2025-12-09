@@ -14,12 +14,8 @@
 
 - Import a tarball and add a commit message:
 
-`podman import {{[--message|-m]}} "{{commit_message}}" {{path/to/tarball.tar}} {{image:tag}}`
+`podman import {{[-m|--message]}} "{{commit_message}}" {{path/to/tarball.tar}} {{image:tag}}`
 
 - Import a tarball and set a default command (required for running the container):
 
-`podman import {{[--change|-c]}} "{{CMD /bin/bash}}" {{path/to/tarball.tar}} {{image:tag}}`
-
-- Import a tarball and set environment variables:
-
-`podman import {{[--change|-c]}} "{{ENV DEBUG=true}}" {{path/to/tarball.tar}} {{image:tag}}`
+`podman import {{[-c|--change]}} CMD={{/bin/bash}} {{path/to/tarball.tar}} {{image:tag}}`

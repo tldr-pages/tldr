@@ -6,7 +6,7 @@
 
 - Save an image to a tar file:
 
-`podman save {{[--output|-o]}} {{path/to/file.tar}} {{image:tag}}`
+`podman save {{[-o|--output]}} {{path/to/file.tar}} {{image:tag}}`
 
 - Save an image to stdout:
 

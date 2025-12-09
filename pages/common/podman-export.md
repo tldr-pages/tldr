@@ -6,7 +6,7 @@
 
 - Export a container's filesystem to a tar file:
 
-`podman export {{[--output|-o]}} {{path/to/file.tar}} {{container_name_or_id}}`
+`podman export {{[-o|--output]}} {{path/to/file.tar}} {{container_name_or_id}}`
 
 - Export a container's filesystem to stdout:
 

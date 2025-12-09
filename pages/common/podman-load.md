@@ -6,11 +6,11 @@
 
 - Load an image from a tar file:
 
-`podman load {{[--input|-i]}} {{path/to/file.tar}}`
+`podman load {{[-i|--input]}} {{path/to/file.tar}}`
 
 - Load an image and display quiet output (only show the image ID):
 
-`podman load {{[--quiet|-q]}} {{[--input|-i]}} {{path/to/file.tar}}`
+`podman load {{[-q|--quiet]}} {{[-i|--input]}} {{path/to/file.tar}}`
 
 - Load an image from stdin:
 
