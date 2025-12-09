@@ -91,15 +91,15 @@ def test_get_tldr_root():
         os.environ["TLDR_ROOT"] = original_env
 
 
-def get_pages_dir(root: Path) -> list[Path]:
+def get_pages_dirs(root: Path) -> list[Path]:
     """
-    Get all pages directories.
+    Get pages directories for all languages.
 
     Parameters:
     root (Path): the path to search for the pages directories.
 
     Returns:
-    list (list of Path's): Path's of page entry and platform, e.g. "page.fr/common".
+    list (list of Path's): Path's of all pages directories, e.g. "pages", "pages.fr", "pages.pt_BR", etc.
     """
 
     return [
@@ -107,7 +107,7 @@ def get_pages_dir(root: Path) -> list[Path]:
     ]
 
 
-def test_get_pages_dir():
+def test_get_pages_dirs():
     # Create temporary directories with names starting with "pages"
 
     root = Path("test_root")
@@ -121,7 +121,7 @@ def test_get_pages_dir():
     (root / "other_dir_2").mkdir(exist_ok=True)
 
     # Call the function and verify that it returns an empty list
-    result = get_pages_dir(root)
+    result = get_pages_dirs(root)
     assert result == []
 
     (root / "pages").mkdir(exist_ok=True)
@@ -129,7 +129,7 @@ def test_get_pages_dir():
     (root / "other_dir").mkdir(exist_ok=True)
 
     # Call the function and verify the result
-    result = get_pages_dir(root)
+    result = get_pages_dirs(root)
     expected = [root / "pages", root / "pages.fr"]
     assert result.sort() == expected.sort()  # the order differs on Unix / macOS
 
@@ -154,10 +154,9 @@ def get_target_paths(
 
     if not page.lower().endswith(".md"):
         page = f"{page}.md"
-    arg_platform, arg_page = page.split("/")
 
     for pages_dir in pages_dirs:
-        page_path = pages_dir / arg_platform / arg_page
+        page_path = pages_dir / page
 
         if check_exists and not page_path.exists():
             print(create_colored_line(Colors.RED, f"Page {page_path} does not exist"))
@@ -186,7 +185,7 @@ def test_get_target_paths():
     with open(file_path, "w"):
         pass
 
-    target_paths = get_target_paths("common/tldr", get_pages_dir(root))
+    target_paths = get_target_paths("common/tldr", get_pages_dirs(root))
     for path in target_paths:
         rel_path = "/".join(path.parts[-3:])
         print(rel_path)

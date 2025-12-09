@@ -1,6 +1,7 @@
 # head
 
 > Output the first part of files.
+> See also: `tail`.
 > More information: <https://www.gnu.org/software/coreutils/manual/html_node/head-invocation.html>.
 
 - Show first 10 lines in a file:
