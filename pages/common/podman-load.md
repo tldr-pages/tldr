@@ -10,4 +10,4 @@
 
 - Suppress the progress output:
 
-`podman load -q -i {{path/to/archive}}`
+`podman load {{[-q|--quiet]}} {{[-i|--input]}} {{path/to/archive}}`
