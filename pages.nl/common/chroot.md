@@ -9,7 +9,7 @@
 
 - Voer het commando uit als nieuwe hoofdmap:
 
-`sudo chroot {{pad/naar/nieuwe/hoofdmap}} {{commando}}`
+`sudo chroot {{pad/naar/nieuwe_hoofdmap}} {{commando}}`
 
 - Gebruik een specifieke gebruiker en groep:
 
