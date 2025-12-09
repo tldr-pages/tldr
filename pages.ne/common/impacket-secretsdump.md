@@ -1,0 +1,7 @@
+# impacket-secretsdump
+
+> यो आदेश `secretsdump.py` को उपनाम हो |
+
+- मौलिक आदेशको लागि कागजात हेर्नुहोस्:
+
+`tldr secretsdump.py`

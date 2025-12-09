@@ -1,0 +1,7 @@
+# impacket-rpcmap
+
+> यो आदेश `rpcmap.py` को उपनाम हो |
+
+- मौलिक आदेशको लागि कागजात हेर्नुहोस्:
+
+`tldr rpcmap.py`
