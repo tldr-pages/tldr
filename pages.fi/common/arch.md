@@ -1,6 +1,6 @@
 # arch
 
-> Tämä komento on `uname --machine`:n alias.
+> Tämä on alias komennolle `uname --machine`.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
