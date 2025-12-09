@@ -1,6 +1,6 @@
 # whoami
 
-> Tämä komento on `id --user --name`:n alias.
+> Tämä on alias komennolle `id --user --name`.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
