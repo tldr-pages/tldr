@@ -1,6 +1,7 @@
 # chown
 
 > Verander gebruiker- en groepsbeheer van bestanden en mappen.
+> Zie ook: `chgrp`.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/chown-invocation.html>.
 
 - Verander de gebruikersbeheerder van een bestand/map:
@@ -14,6 +15,10 @@
 - Verander de gebruikersbeheerder en -groep zodat beiden de naam `user` krijgen:
 
 `sudo chown {{user}}: {{pad/naar/bestand_of_map}}`
+
+- Verander de groep van een bestand naar een groep waar de huidige gebruiker toe behoort:
+
+`chown :{{groep}} {{pad/naar/bestand_of_map}}`
 
 - Verander recursief de beheerder van een map en alle inhoud:
 
