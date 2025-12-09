@@ -1,9 +1,7 @@
 # arch
 
-> সিস্টেমের আর্কিটেকচারের নাম দেখানো।
-> `uname` ওয়েবসাইটে দেখানো যাক।
-> আরও তথ্য পাবেন: <https://www.gnu.org/software/coreutils/manual/html_node/arch-invocation.html>।
+> এই কমান্ড একটি উপনাম `uname --machine`.
 
-- সিস্টেম আর্কিটেকচার দেখানো:
+- মূল কমান্ডের জন্য ডকুমেন্টেশন দেখুন:
 
-`arch`
+`tldr uname`
