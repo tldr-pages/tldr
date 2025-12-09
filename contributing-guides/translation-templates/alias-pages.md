@@ -424,20 +424,6 @@ The templates can be changed when necessary.
 
 ---
 
-### sh
-
-```markdown
-# example
-
-> Ova komanda je pseudonim za `example`.
-
-- Pogledaj dokumentaciju za originalnu komandu:
-
-`tldr example`
-```
-
----
-
 ### sr
 
 ```markdown
