@@ -1,4 +1,4 @@
-# id
+# whoami
 
 > 这是 `id --user --name` 命令的一个别名。
 
