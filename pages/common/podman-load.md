@@ -4,10 +4,14 @@
 > See also: `podman image load`, `podman save`, `podman import`.
 > More information: <https://docs.podman.io/en/latest/markdown/podman-load.1.html>.
 
-- Create an image from a compressed tar file:
+- Load an image from a tar file:
 
-`podman load {{[-i|--input]}} {{path/to/archive}}`
+`podman load {{[--input|-i]}} {{path/to/file.tar}}`
 
-- Suppress the progress output:
+- Load an image and display quiet output (only show the image ID):
 
-`podman load {{[-q|--quiet]}} {{[-i|--input]}} {{path/to/archive}}`
+`podman load {{[--quiet|-q]}} {{[--input|-i]}} {{path/to/file.tar}}`
+
+- Load an image from stdin:
+
+`podman load < {{path/to/file.tar}}`

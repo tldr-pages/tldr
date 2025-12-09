@@ -4,6 +4,10 @@
 > See also: `podman load`, `podman export`.
 > More information: <https://docs.podman.io/en/latest/markdown/podman-save.1.html>.
 
-- Save image to local file:
+- Save an image to a tar file:
 
-`podman save {{[-o|--output]}} {{file_name.tar}} {{image}}`
+`podman save {{[--output|-o]}} {{path/to/file.tar}} {{image:tag}}`
+
+- Save an image to stdout:
+
+`podman save {{image:tag}} > {{path/to/file.tar}}`
