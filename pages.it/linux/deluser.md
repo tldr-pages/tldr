@@ -1,16 +1,20 @@
 # deluser
 
-> Rimuovi un account utente o un utente da un gruppo.
+> Elimina un utente dal sistema.
 > Maggiori informazioni: <https://manned.org/deluser>.
 
-- Rimuovi un utente:
+- Rimuove un utente:
 
-`deluser {{nome}}`
+`sudo deluser {{nome_utente}}`
 
-- Rimuovi un utente insieme alla sua directory home e raccolta mail:
+- Rimuove un utente e la sua directory home:
 
-`deluser -r {{nome}}`
+`sudo deluser --remove-home {{nome_utente}}`
 
-- Rimuovi un utente da un gruppo:
+- Rimuove un utente e la sua home, ma salva i file in un `.tar.gz` nella directory specificata:
 
-`deluser {{nome}} {{gruppo}}`
+`sudo deluser --backup-to {{percorso/alla/directory_di_backup}} --remove-home {{nome_utente}}`
+
+- Rimuove un utente e tutti i file di sua proprietà:
+
+`sudo deluser --remove-all-files {{nome_utente}}`
