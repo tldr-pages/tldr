@@ -262,14 +262,6 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 
 ---
 
-### sh
-
-```markdown
-> Više informacija: <https://example.com>.
-```
-
----
-
 ### sr
 
 ```markdown
