@@ -1,7 +1,7 @@
 # jira
 
 > Interface (third party) for interacting with Jira.
-> Note: Obtaining a Jira API token and exporting it to the shell as a `JIRA_API_TOKEN` variable is required.
+> Note: Obtaining a Jira API token and exporting it to the shell as a `$JIRA_API_TOKEN` variable is required.
 > More information: <https://github.com/ankitpokhrel/jira-cli#commands>.
 
 - Create a configuration file (required before using `jira`):
