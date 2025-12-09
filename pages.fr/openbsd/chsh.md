@@ -2,6 +2,6 @@
 
 > Cette commande est un alias de `chpass`.
 
-- Affiche la documentation pour la commande d'origine :
+- Affiche la documentation de la commande originale :
 
 `tldr chpass`
