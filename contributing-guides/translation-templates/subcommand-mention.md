@@ -261,15 +261,6 @@ Unele subcomenzi precum `example command` au propria lor documentație de utiliz
 
 ---
 
-### sh
-
-```markdown
-Neke podkomande, kao što je `example command`, imaju svoju dokumentaciju za upotrebu.
-
-```
-
----
-
 ### sr
 
 ```markdown
