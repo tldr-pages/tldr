@@ -1,0 +1,7 @@
+# nmtui-connect
+
+> यह आदेश `nmtui connect` का उपनाम है।
+
+- मूल आदेश के लिए दस्तावेज़ देखें:
+
+`tldr nmtui`

@@ -1,0 +1,7 @@
+# brew rm
+
+> यह आदेश `brew uninstall` का उपनाम है।
+
+- मूल आदेश के लिए दस्तावेज़ देखें:
+
+`tldr brew uninstall`
