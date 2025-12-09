@@ -6,7 +6,7 @@
 
 - Create an image from a compressed tar file:
 
-`podman load -i {{path/to/archive}}`
+`podman load {{[-i|--input]}} {{path/to/archive}}`
 
 - Suppress the progress output:
 
