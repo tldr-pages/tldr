@@ -8,6 +8,6 @@
 
 `podman save {{[-o|--output]}} {{path/to/file.tar}} {{image:tag}}`
 
-- Save an image to stdout:
+- Save an image to `stdout`:
 
 `podman save {{image:tag}} > {{path/to/file.tar}}`
