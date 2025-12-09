@@ -14,7 +14,7 @@
 
 - List unassigned issues with high priority:
 
-`jira issue {{[ls|list]}} {{[-a|--assignee]}} x {{[-y|--priority]}} "High"`
+`jira issue {{[ls|list]}} {{[-a|--assignee]}} x {{[-y|--priority]}} High`
 
 - List issues from the current sprint, assigned to me:
 
