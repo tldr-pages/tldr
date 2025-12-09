@@ -13,4 +13,4 @@
 
 - Gebruik een specifieke gebruiker en groep:
 
-`sudo chroot --userspec {{gebruikersnaam_of_id}}:{{groep_naam_of_id}} {{pad/naar/nieuwe/hoofdmap}}`
+`sudo chroot --userspec {{gebruikersnaam_of_id}}:{{groep_naam_of_id}} {{pad/naar/nieuwe_hoofdmap}}`
