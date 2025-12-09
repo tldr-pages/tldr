@@ -1,7 +1,7 @@
 # lzma
 
-> Este comando é um apelido de `xz`.
+> Este comando é um apelido de `xz --format=lzma`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
 `tldr xz`

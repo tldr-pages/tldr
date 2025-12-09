@@ -1,7 +1,7 @@
 # lzcat
 
-> Este comando é um apelido de `xz`.
+> Este comando é um apelido de `xz --format=lzma --decompress --stdout`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
 `tldr xz`

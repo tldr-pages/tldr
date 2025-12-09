@@ -1,7 +1,7 @@
 # pio init
 
-> Este comando é um apelido de `pio project`.
+> Este comando é um apelido de `pio project init`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
 `tldr pio project`

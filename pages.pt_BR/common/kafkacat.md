@@ -2,6 +2,6 @@
 
 > Este comando é um apelido de `kcat`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
 `tldr kcat`
