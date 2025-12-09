@@ -1,6 +1,6 @@
 # piodebuggdb
 
-> Bu komut `pio debug` için bir takma addır.
+> Bu komut `pio debug --interface=gdb` için bir takma addır.
 
 - Asıl komutun belgelerini görüntüleyin:
 
