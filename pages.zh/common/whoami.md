@@ -1,12 +1,7 @@
-# whoami
+# id
 
-> 打印当前有效用户 ID 的用户名。
-> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/whoami-invocation.html>.
+> 这是 `id --user --name` 命令的一个别名。
 
-- 显示当前登录用户名：
+- 原命令的文档在：
 
-`whoami`
-
-- 修改用户 ID 后显示当前登录用户名：
-
-`sudo whoami`
+`tldr id`
