@@ -1,0 +1,7 @@
+# qm unlink
+
+> এই কমান্ডটি `qm disk unlink` - এর একটি উপনাম।
+
+- মূল কমান্ডের ডকুমেন্টেশন দেখুন:
+
+`tldr qm disk unlink`

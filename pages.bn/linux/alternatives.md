@@ -1,0 +1,7 @@
+# alternatives
+
+> এই কমান্ডটি `update-alternatives` - এর একটি উপনাম।
+
+- মূল কমান্ডের ডকুমেন্টেশন দেখুন:
+
+`tldr update-alternatives`
