@@ -1,9 +1,7 @@
 # arch
 
-> システムアーキテクチャ名前を示する。
-> 'uname' も参照してください。
-> もっと詳しく: <https://www.gnu.org/software/coreutils/manual/html_node/arch-invocation.html>。
+> このコマンドは `uname --machine` のエイリアスです。
 
-- システムアーキテクチャを示する:
+- オリジナルのコマンドのドキュメントを表示する:
 
-`arch`
+`tldr uname`
