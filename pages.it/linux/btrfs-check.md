@@ -28,4 +28,5 @@
 `sudo btrfs {{[c|check]}} --repair --init-csum-tree {{percorso/alla/partizione}}`
 
 - Ricostruisce l'albero degli extent:
+
 `sudo btrfs {{[c|check]}} --repair --init-extent-tree {{percorso/alla/partizione}}`
