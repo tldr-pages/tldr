@@ -21,7 +21,7 @@
 
 - Pull a kernel:
 
-`kaggle {{[k|kernels]}} pull {kernel_name}} {{-p|--path}} {{path/to/directory}}`
+`kaggle {{[k|kernels]}} pull {{kernel_name}} {{[-p|--path]}} {{path/to/directory}}`
 
 - Get data output from the latest kernel run:
 
