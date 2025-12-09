@@ -79,9 +79,9 @@ The templates can be changed when necessary.
 ```markdown
 # example
 
-> এই কমান্ড একটি উপনাম `example`.
+> এই কমান্ডটি `example` - এর একটি উপনাম।
 
-- মূল কমান্ডের জন্য ডকুমেন্টেশন দেখুন:
+- মূল কমান্ডের ডকুমেন্টেশন দেখুন:
 
 `tldr example`
 ```
@@ -191,7 +191,7 @@ The templates can be changed when necessary.
 ```markdown
 # example
 
-> Tämä komento on `example`:n alias.
+> Tämä on alias komennolle `example`.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
