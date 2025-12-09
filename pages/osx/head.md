@@ -1,6 +1,7 @@
 # head
 
 > Output the first part of files.
+> See also: `tail`.
 > More information: <https://keith.github.io/xcode-man-pages/head.1.html>.
 
 - Output the first 10 lines of a file:
