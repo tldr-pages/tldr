@@ -1,0 +1,12 @@
+name: 📄 Page translation request
+title: "Page translation request: "
+description: Request translation of a page.
+labels: translation, help wanted
+body:
+  - type: textarea
+    attributes:
+      label: Command description
+      description: Describe the command to get translated for your language.
+      placeholder: Tell us what TLDR page you want to see in your language!
+    validations:
+      required: true

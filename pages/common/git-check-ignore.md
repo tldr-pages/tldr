@@ -1,0 +1,24 @@
+# git check-ignore
+
+> Analyze and debug Git ignore/exclude (".gitignore") files.
+> More information: <https://git-scm.com/docs/git-check-ignore>.
+
+- Check whether a file or directory is ignored:
+
+`git check-ignore {{path/to/file_or_directory}}`
+
+- Check whether multiple files or directories are ignored:
+
+`git check-ignore {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
+
+- Use pathnames, one per line, from `stdin`:
+
+`git < {{path/to/file_list}} check-ignore --stdin`
+
+- Do not check the index (used to debug why paths were tracked and not ignored):
+
+`git check-ignore --no-index {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
+
+- Include details about the matching pattern for each path:
+
+`git check-ignore {{[-v|--verbose]}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`

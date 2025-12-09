@@ -1,0 +1,37 @@
+# flutter
+
+> Google's free, open source, and cross-platform mobile app SDK.
+> Some subcommands such as `pub` have their own usage documentation.
+> More information: <https://github.com/flutter/flutter/wiki/The-flutter-tool>.
+
+- Initialize a new Flutter project in a directory of the same name:
+
+`flutter create {{project_name}}`
+
+- Check if all external tools are correctly installed:
+
+`flutter doctor`
+
+- List or change Flutter channel:
+
+`flutter channel {{stable|beta|dev|master}}`
+
+- Run Flutter on all started emulators and connected devices:
+
+`flutter run -d all`
+
+- Run tests in a terminal from the root of the project:
+
+`flutter test {{test/example_test.dart}}`
+
+- Build a release APK targeting most modern smartphones:
+
+`flutter build apk --target-platform {{android-arm}},{{android-arm64}}`
+
+- Delete the `build` and `.dart_tool` directories:
+
+`flutter clean`
+
+- Display help about a specific command:
+
+`flutter help {{command}}`

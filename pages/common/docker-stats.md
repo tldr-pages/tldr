@@ -1,0 +1,24 @@
+# docker stats
+
+> Display a live stream of resource usage statistics for containers.
+> More information: <https://docs.docker.com/reference/cli/docker/container/stats/>.
+
+- Display a live stream for the statistics of all running containers:
+
+`docker stats`
+
+- Display a live stream of statistics for one or more containers:
+
+`docker stats {{container1 container2 ...}}`
+
+- Change the columns format to display container's CPU usage percentage:
+
+`docker stats --format "{{.Name}}:\t{{.CPUPerc}}"`
+
+- Display statistics for all containers (both running and stopped):
+
+`docker stats {{[-a|--all]}}`
+
+- Disable streaming stats and only pull the current stats:
+
+`docker stats --no-stream`

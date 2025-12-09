@@ -1,0 +1,34 @@
+# btop
+
+> A resource monitor that shows information about the CPU, memory, disks, network and processes.
+> A C++ version of `bpytop`.
+> See also: `btm`, `glances`, `atop`, `htop`, `top`.
+> More information: <https://github.com/aristocratos/btop#command-line-options>.
+
+- Start `btop`:
+
+`btop`
+
+- Start `btop` with the specified settings preset:
+
+`btop {{[-p|--preset]}} {{0..9}}`
+
+- Start `btop` in TTY mode using 16 colors and TTY-friendly graph symbols:
+
+`btop {{[-t|--tty]}}`
+
+- Start `btop` in 256-color mode instead of 24-bit color mode:
+
+`btop {{[-l|--low-color]}}`
+
+- Set the update rate to 500 milliseconds:
+
+`btop {{[-u|--update]}} 500`
+
+- Exit `btop`:
+
+`<q>`
+
+- Display help:
+
+`btop {{[-h|--help]}}`
