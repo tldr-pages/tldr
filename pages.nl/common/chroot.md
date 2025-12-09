@@ -5,7 +5,7 @@
 
 - Voer `$SHELL` uit in de nieuwe hoofdmap:
 
-`sudo chroot {{pad/naar/nieuwe/hoofdmap}}`
+`sudo chroot {{pad/naar/nieuwe_hoofdmap}}`
 
 - Voer het commando uit als nieuwe hoofdmap:
 
