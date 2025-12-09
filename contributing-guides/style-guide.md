@@ -319,6 +319,14 @@ If a program requires root privileges to run and doesn't provide its own prompt 
 
 Avoid explaining general UNIX concepts that could apply to any command (i.e. relative/absolute paths, glob patterns/wildcards, special character escaping, program return values, ...)
 
+When describing an environment variable for UNIX platforms, prepend the variable with a dollar sign and enclose it with backticks (`$VARIABLE_NAME`). For example: "Manage the `$JAVA_HOME` environment variable".
+
+For Windows command prompt, prepend and append the environment variable with a percent sign and enclose it with backticks (`%VARIABLE_NAME%`). For example: "Manage the `%JAVA_HOME%` environment variable".
+
+Whereas for Powershell, prepend the environment variable with a dollar sign, Env and a colon, then enclose it with backticks (`$Env:VARIABLE_NAME`). For example: "Manage the `$Env:JAVA_HOME` environment variable".
+
+When describing file formats, primarily use the brand name in plain text (e.g. JSON, SQLite), or use the file extension preceded by a dot, wrapped in backticks (e.g. `.txt`).
+
 ### Standardized Terms
 
 Some terms are used repeatedly throughout pages, and as such, should be standardized. These include:
@@ -358,7 +366,7 @@ If there is no documentation page to be found, you can link to the author's webs
 For commands documented there, we recommend using <https://keith.github.io/xcode-man-pages/>, an HTML export of all Apple's man pages bundled with Xcode.
 
 > [!IMPORTANT]
-> All links must be enclosed inside angular brackets (`<` and `>`).
+> All links must be enclosed inside angular brackets (`<` and `>`)  for proper rendering in clients.
 
 - It is suggested to use a more information link with English content in both translations and English pages. That's because the links can eventually change, but the translations are often out of sync with the English pages.
 

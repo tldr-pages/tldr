@@ -19,6 +19,6 @@
 
 `npm unpublish {{package_name}} --timeout {{time_in_milliseconds}}`
 
-- To prevent accidental unpublishing, use the `--dry-run` flag to see what would be unpublished:
+- Dry run to see what would be unpublished without actually doing it:
 
 `npm unpublish {{package_name}} --dry-run`

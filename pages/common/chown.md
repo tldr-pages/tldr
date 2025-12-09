@@ -1,6 +1,7 @@
 # chown
 
 > Change user and group ownership of files and directories.
+> See also: `chgrp`.
 > More information: <https://www.gnu.org/software/coreutils/manual/html_node/chown-invocation.html>.
 
 - Change the owner user of a file/directory:
@@ -14,6 +15,10 @@
 - Change the owner user and group to both have the name `user`:
 
 `sudo chown {{user}}: {{path/to/file_or_directory}}`
+
+- Change the group of a file to a group that the current user belongs to:
+
+`chown :{{group}} {{path/to/file_or_directory}}`
 
 - Recursively change the owner of a directory and its contents:
 

@@ -1,7 +1,7 @@
 # fdroidcl
 
 > Manage F-Droid apps of devices connected via ADB.
-> More information: <https://github.com/mvdan/fdroidcl>.
+> More information: <https://github.com/Hoverth/fdroidcl#commands>.
 
 - Fetch the F-Droid index:
 

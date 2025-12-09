@@ -1,7 +1,7 @@
 # swift
 
 > Swift 프로젝트를 생성, 실행 및 빌드.
-> 더 많은 정보: <https://swift.org>.
+> 더 많은 정보: <https://manned.org/swiftc>.
 
 - REPL(대화형 셸) 시작:
 

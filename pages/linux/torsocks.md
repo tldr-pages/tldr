@@ -16,7 +16,7 @@
 
 `torsocks --shell`
 
-- Check if current shell is Tor enabled (`LD_PRELOAD` value will be empty if disabled):
+- Check if current shell is Tor enabled (`$LD_PRELOAD` value will be empty if disabled):
 
 `torsocks show`
 

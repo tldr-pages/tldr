@@ -1,7 +1,7 @@
 # usbip
 
 > Use USB devices remotely.
-> More information: <https://usbip.sourceforge.net>.
+> More information: <https://manned.org/usbip>.
 
 - List all local USB devices and their bus ID's:
 

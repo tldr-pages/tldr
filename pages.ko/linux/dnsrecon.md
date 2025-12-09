@@ -1,7 +1,7 @@
 # dnsrecon
 
 > DNS 열거 도구.
-> 더 많은 정보: <https://github.com/darkoperator/dnsrecon>.
+> 더 많은 정보: <https://manned.org/dnsrecon>.
 
 - 도메인을 스캔하고 결과를 SQLite 데이터베이스에 저장:
 

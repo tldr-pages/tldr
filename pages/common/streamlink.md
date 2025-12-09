@@ -1,7 +1,7 @@
 # streamlink
 
 > Extracts streams from various services and pipes them into a video player of choice.
-> More information: <https://streamlink.github.io>.
+> More information: <https://streamlink.github.io/cli.html#command-line-usage>.
 
 - Attempt to extract streams from the URL specified, and if it's successful, print out a list of available streams to choose from:
 
@@ -17,7 +17,7 @@
 
 - Use a specific player to feed stream data to (VLC is used by default if found):
 
-`streamlink --player={{mpv}} {{example.com/stream}} {{best}}`
+`streamlink {{[-p|--player]}} {{mpv}} {{example.com/stream}} {{best}}`
 
 - Skip a specific amount of time from the beginning of the stream. For live streams, this is a negative offset from the end of the stream (rewind):
 
@@ -29,8 +29,8 @@
 
 - Write stream data to a file instead of playing it:
 
-`streamlink --output {{path/to/file.ts}} {{example.com/stream}} {{best}}`
+`streamlink {{[-o|--output]}} {{path/to/file.ts}} {{example.com/stream}} {{best}}`
 
 - Open the stream in the player, while at the same time writing it to a file:
 
-`streamlink --record {{path/to/file.ts}} {{example.com/stream}} {{best}}`
+`streamlink {{[-r|--record]}} {{path/to/file.ts}} {{example.com/stream}} {{best}}`

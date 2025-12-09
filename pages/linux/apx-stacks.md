@@ -2,7 +2,7 @@
 
 > Manage stacks in `apx`.
 > Note: User-created stack configurations are stored in `~/.local/share/apx/stacks`.
-> More information: <https://github.com/Vanilla-OS/apx>.
+> More information: <https://docs.vanillaos.org/docs/en/apx-manpage#stacks>.
 
 - Interactively create a new stack configuration:
 

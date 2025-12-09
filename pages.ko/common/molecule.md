@@ -1,7 +1,7 @@
 # molecule
 
 > Molecule은 Ansible 역할 테스트를 돕습니다.
-> 더 많은 정보: <https://molecule.readthedocs.io>.
+> 더 많은 정보: <https://docs.ansible.com/projects/molecule/usage/>.
 
 - 새 Ansible 역할 생성:
 

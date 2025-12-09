@@ -1,7 +1,7 @@
 # joe
 
 > Joe's own text editor.
-> More information: <https://joe-editor.sourceforge.io>.
+> More information: <https://joe-editor.sourceforge.io/4.6/man.html>.
 
 - Open a new file in JOE:
 

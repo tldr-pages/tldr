@@ -1,7 +1,7 @@
 # immich-go
 
 > Immich-Go es una herramienta abierta diseñada para subir grandes colecciones de fotos a tu servidor Immich autoalojado.
-> Véase también: `immich-cli`.
+> Véase también: `immich`.
 > Más información: <https://github.com/simulot/immich-go>.
 
 - Sube un archivo takeout de Google al servidor Immich:

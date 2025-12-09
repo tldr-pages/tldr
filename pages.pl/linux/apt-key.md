@@ -18,7 +18,7 @@
 
 - Dodaj zdalny klucz do magazynu zaufanych kluczy:
 
-`wget -qO - {{https://host.tld/nazwa_pliku.key}} | apt-key add -`
+`wget {{[-qO|--quiet --output-document]}} - {{https://host.tld/nazwa_pliku.key}} | apt-key add -`
 
 - Dodaj klucz z serwera kluczy na podstawie ID klucza:
 

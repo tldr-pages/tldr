@@ -1,7 +1,7 @@
 # gitleaks
 
 > Detect secrets and API keys leaked in Git repositories.
-> More information: <https://github.com/gitleaks/gitleaks>.
+> More information: <https://github.com/gitleaks/gitleaks#usage>.
 
 - Scan a remote repository:
 
@@ -9,19 +9,19 @@
 
 - Scan a local directory:
 
-`gitleaks detect --source {{path/to/repository}}`
+`gitleaks detect {{[-s|--source]}} {{path/to/repository}}`
 
 - Output scan results to a JSON file:
 
-`gitleaks detect --source {{path/to/repository}} --report {{path/to/report.json}}`
+`gitleaks detect {{[-s|--source]}} {{path/to/repository}} --report {{path/to/report.json}}`
 
 - Use a custom rules file:
 
-`gitleaks detect --source {{path/to/repository}} --config-path {{path/to/config.toml}}`
+`gitleaks detect {{[-s|--source]}} {{path/to/repository}} --config-path {{path/to/config.toml}}`
 
 - Start scanning from a specific commit:
 
-`gitleaks detect --source {{path/to/repository}} --log-opts {{--since=commit_id}}`
+`gitleaks detect {{[-s|--source]}} {{path/to/repository}} --log-opts {{--since=commit_id}}`
 
 - Scan uncommitted changes before a commit:
 

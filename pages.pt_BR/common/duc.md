@@ -2,7 +2,7 @@
 
 > Uma coleção de ferramentas para indexar, inspecionar e visualizar uso do disco.
 > O duc mantém uma base de dados dos tamanhos acumlados dos diretórios do sistema de arquivos, permitindo buscas nessa base, ou a criação de gráficos elegantes.
-> Mais informações: <https://duc.zevv.nl/>.
+> Mais informações: <https://htmlpreview.github.io/?https://github.com/zevv/duc/blob/master/doc/duc.1.html>.
 
 - Indexa o diretório /usr, escrevendo a base de dados para o local default em ~/.duc.db:
 

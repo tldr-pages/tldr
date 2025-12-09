@@ -1,7 +1,7 @@
 # qm config
 
 > Display the virtual machine configuration with pending configuration changes applied.
-> More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
+> More information: <https://pve.proxmox.com/pve-docs/qm.1.html#cli_qm_config>.
 
 - Display the virtual machine configuration:
 

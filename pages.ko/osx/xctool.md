@@ -1,7 +1,7 @@
 # xctool
 
 > Xcode 프로젝트 빌드.
-> 더 많은 정보: <https://github.com/facebookarchive/xctool>.
+> 더 많은 정보: <https://github.com/facebookarchive/xctool#usage>.
 
 - 워크스페이스 없이 단일 프로젝트 빌드:
 

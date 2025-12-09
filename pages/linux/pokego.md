@@ -2,7 +2,7 @@
 
 > Display Pokémon sprites in color directly in your terminal.
 > Inspired by Phoney badger's `pokemon-colorscripts` but offers enhanced speed and efficiency.
-> More information: <https://github.com/rubiin/pokego>.
+> More information: <https://github.com/rubiin/pokego#usage>.
 
 - Print a specific Pokémon:
 
@@ -10,7 +10,7 @@
 
 - Print a specific shiny Pokémon:
 
-`pokego --name spheal -shiny`
+`pokego --name spheal {{[-s|-shiny]}}`
 
 - Print an alternative form of a Pokémon:
 

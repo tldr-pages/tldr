@@ -1,7 +1,7 @@
 # twurl
 
 > Curl-like command but tailored specifically for the Twitter API.
-> More information: <https://github.com/twitter/twurl>.
+> More information: <https://github.com/twitter/twurl#getting-started>.
 
 - Authorize `twurl` to access a Twitter account:
 

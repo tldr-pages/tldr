@@ -9,4 +9,4 @@
 
 - Não mostra mensagens informativas:
 
-`sudo a2disconf --quiet {{arquivo_de_configuracao}}`
+`sudo a2disconf {{[-q|--quiet]}} {{arquivo_de_configuracao}}`

@@ -1,6 +1,7 @@
 # koji
 
 > Interact with kojihub.
+> Some subcommands such as `build`, `tag-build`, `download-build`, `buildinfo`, `call`, etc. have their own usage documentation.
 > More information: <https://docs.pagure.org/koji>.
 
 - Execute a koji subcommand:
@@ -13,7 +14,7 @@
 
 - Display help about global options:
 
-`koji --help`
+`koji {{[-h|--help]}}`
 
 - Display help to get all available commands:
 
@@ -21,7 +22,7 @@
 
 - Display help for a specific subcommand (like `build`, `tag-build`, `download-build`, `buildinfo`,`call`, etc.):
 
-`koji {{subcommand}} --help`
+`koji {{subcommand}} {{[-h|--help]}}`
 
 - Display version:
 

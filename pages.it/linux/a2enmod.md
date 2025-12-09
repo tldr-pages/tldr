@@ -9,4 +9,4 @@
 
 - Non mostrare messaggi informativi:
 
-`sudo a2enmod --quiet {{modulo}}`
+`sudo a2enmod {{[-q|--quiet]}} {{modulo}}`

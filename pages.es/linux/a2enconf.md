@@ -9,4 +9,4 @@
 
 - Habilita un archivo de configuración sin mostrar mensajes informativos:
 
-`sudo a2enconf --quiet {{archivo_de_configuración}}`
+`sudo a2enconf {{[-q|--quiet]}} {{archivo_de_configuración}}`

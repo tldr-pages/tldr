@@ -1,7 +1,7 @@
 # qm guest
 
 > Manage a VM guest agent.
-> More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
+> More information: <https://pve.proxmox.com/pve-docs/qm.1.html#cli_qm_guest_cmd>.
 
 - Print the status of a specific PID:
 

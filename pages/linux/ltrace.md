@@ -5,7 +5,7 @@
 
 - Print (trace) library calls of a program binary:
 
-`ltrace ./{{program}}`
+`ltrace {{path/to/program}}`
 
 - Count library calls. Print a handy summary at the bottom:
 

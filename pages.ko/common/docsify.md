@@ -1,7 +1,7 @@
 # docsify
 
 > 마크다운 문서를 초기화하고 제공.
-> 더 많은 정보: <https://cli.docsifyjs.org>.
+> 더 많은 정보: <https://cli.docsifyjs.org/#/?id=usage>.
 
 - 현재 디렉토리에서 새로운 문서를 초기화:
 

@@ -1,15 +1,15 @@
 # surge
 
 > Simple web publishing.
-> More information: <https://surge.sh>.
+> More information: <https://surge.sh/help/>.
 
 - Upload a new site to surge.sh:
 
-`surge {{path/to/my_project}}`
+`surge {{path/to/project}}`
 
 - Deploy site to custom domain (note that the DNS records must point to the surge.sh subdomain):
 
-`surge {{path/to/my_project}} {{example.com}}`
+`surge {{path/to/project}} {{example.com}}`
 
 - List your surge projects:
 

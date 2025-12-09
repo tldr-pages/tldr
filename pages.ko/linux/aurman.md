@@ -2,7 +2,7 @@
 
 > Arch User Repository에서 패키지를 빌드하고 설치하는 Arch Linux 유틸리티.
 > 같이 보기: `pacman`.
-> 더 많은 정보: <https://github.com/polygamma/aurman>.
+> 더 많은 정보: <https://github.com/polygamma/aurman#syntax>.
 
 - 모든 패키지를 동기화하고 업데이트:
 

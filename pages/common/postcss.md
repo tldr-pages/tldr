@@ -1,7 +1,7 @@
 # postcss
 
 > Transform styles with JS plugins.
-> More information: <https://postcss.org>.
+> More information: <https://github.com/postcss/postcss-cli#usage>.
 
 - Parse and transform a CSS file:
 
@@ -9,15 +9,15 @@
 
 - Parse and transform a CSS file and output to a specific file:
 
-`postcss {{path/to/file}} --output {{path/to/file}}`
+`postcss {{path/to/file}} {{[-o|--output]}} {{path/to/file}}`
 
 - Parse and transform a CSS file and output to a specific directory:
 
-`postcss {{path/to/file}} --dir {{path/to/directory}}`
+`postcss {{path/to/file}} {{[-d|--dir]}} {{path/to/directory}}`
 
 - Parse and transform a CSS file in-place:
 
-`postcss {{path/to/file}} --replace`
+`postcss {{path/to/file}} {{[-r|--replace]}}`
 
 - Specify a custom PostCSS parser:
 
@@ -29,8 +29,8 @@
 
 - Watch for changes to a CSS file:
 
-`postcss {{path/to/file}} --watch`
+`postcss {{path/to/file}} {{[-w|--watch]}}`
 
 - Display help:
 
-`postcss --help`
+`postcss {{[-h|--help]}}`

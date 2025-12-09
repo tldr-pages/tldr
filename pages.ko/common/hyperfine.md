@@ -1,7 +1,7 @@
 # hyperfine
 
 > 커멘드라인 벤치마킹 도구.
-> 더 많은 정보: <https://github.com/sharkdp/hyperfine/>.
+> 더 많은 정보: <https://manned.org/hyperfine>.
 
 - 최소 10회 실행하여, 기본 벤치마크를 실행:
 

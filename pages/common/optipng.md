@@ -1,7 +1,7 @@
 # optipng
 
 > PNG file optimization utility.
-> More information: <https://optipng.sourceforge.net>.
+> More information: <https://optipng.sourceforge.net/optipng-7.9.1.man1.html>.
 
 - Compress a PNG with default settings:
 

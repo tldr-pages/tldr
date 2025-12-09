@@ -9,4 +9,4 @@
 
 - Bilgilendirici mesajları gösterme:
 
-`sudo a2dissite --quiet {{sanal_host}}`
+`sudo a2dissite {{[-q|--quiet]}} {{sanal_host}}`

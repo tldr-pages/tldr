@@ -1,7 +1,7 @@
 # slop
 
 > 화면의 선택 영역을 가져옵니다.
-> 더 많은 정보: <https://github.com/naelstrof/slop>.
+> 더 많은 정보: <https://manned.org/slop>.
 
 - 사용자가 선택할 때까지 기다린 후 그 기하정보를 `stdout`에 출력:
 

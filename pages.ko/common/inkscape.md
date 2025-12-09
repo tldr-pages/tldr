@@ -2,7 +2,7 @@
 
 > SVG (Scalable Vector Graphics) 편집 프로그램.
 > Inkscape 버전 0.92.x 이하의 경우, -o 대신 -e를 사용하세요.
-> 더 많은 정보: <https://inkscape.org>.
+> 더 많은 정보: <https://inkscape.org/doc/inkscape-man.html>.
 
 - Inkscape GUI에서 SVG 파일을 열기:
 

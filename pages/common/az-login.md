@@ -10,7 +10,7 @@
 
 - Log in with a service principal using a client secret:
 
-`az login --service-principal {{[-u|--username]}} {{http://azure-cli-service-principal}} {{[-p|--password]}} {{secret}} --tenant {{someone.onmicrosoft.com}}`
+`az login --service-principal {{[-u|--username]}} {{http://azure-cli-service-principal}} {{[-p|--password]}} {{secret}} {{[-t|--tenant]}} {{someone.onmicrosoft.com}}`
 
 - Log in with a service principal using a client certificate:
 

@@ -1,7 +1,7 @@
 # st-flash
 
 > Flash binary files to STM32 ARM Cortex microcontrollers.
-> More information: <https://manned.org/st-flash>.
+> More information: <https://github.com/stlink-org/stlink/blob/testing/doc/man/st-flash.md>.
 
 - Read 4096 bytes from the device starting from 0x8000000:
 

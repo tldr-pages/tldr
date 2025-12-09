@@ -1,7 +1,7 @@
 # qm disk rescan
 
 > Scan alle opslag opnieuw en update schijfgroottes en ongebruikte schijf images van virtual machines.
-> Meer informatie: <https://pve.proxmox.com/pve-docs/qm.1.html>.
+> Meer informatie: <https://pve.proxmox.com/pve-docs/qm.1.html#cli_qm_disk_rescan>.
 
 - Scan alle opslag opnieuw en update schijfgroottes en ongebruikte schijf images:
 

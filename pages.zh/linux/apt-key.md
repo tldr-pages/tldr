@@ -17,7 +17,7 @@
 
 - 向可信密钥库中添加一个远程密钥：
 
-`wget -qO - {{https://host.tld/filename.key}} | apt-key add -`
+`wget {{[-qO|--quiet --output-document]}} - {{https://host.tld/filename.key}} | apt-key add -`
 
 - 指定密钥 ID, 从密钥服务器中添加一个密钥：
 

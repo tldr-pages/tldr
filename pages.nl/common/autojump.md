@@ -3,7 +3,7 @@
 > Spring snel tussen de mappen die je het meest bezoekt.
 > Aliassen zoals `j` of `jc` zijn beschikbaar voor nog minder typen.
 > Zie ook: `bashmarks`.
-> Meer informatie: <https://github.com/wting/autojump>.
+> Meer informatie: <https://github.com/wting/autojump#name>.
 
 - Voeg de `autojump` aliassen toe aan je shell:
 

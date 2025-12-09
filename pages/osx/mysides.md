@@ -1,7 +1,7 @@
 # mysides
 
 > Add, list and remove finder favorites.
-> More information: <https://github.com/mosen/mysides>.
+> More information: <https://github.com/mosen/mysides#usage>.
 
 - List sidebar favorites:
 

@@ -1,7 +1,7 @@
 # beep
 
 > Utilitário que permite o computador emitir sons.
-> Mais informações: <https://github.com/spkr-beep/beep>.
+> Mais informações: <https://manned.org/man/beep>.
 
 - Emite um som:
 
@@ -17,8 +17,8 @@
 
 - Emite cada frequência e duração como um som diferente:
 
-`beep -f {{frequencia}} -l {{duracao}} -n -f {{frequencia}} -l {{duracao}}`
+`beep -f {{frequencia}} -l {{duracao}} {{[-n|--new]}} -f {{frequencia}} -l {{duracao}}`
 
 - Executa a escala de Dó maior:
 
-`beep -f {{262}} -n -f {{294}} -n -f {{330}} -n -f {{349}} -n -f {{392}} -n -f {{440}} -n -f {{494}} -n -f {{523}}`
+`beep -f {{262}} {{[-n|--new]}} -f {{294}} {{[-n|--new]}} -f {{330}} {{[-n|--new]}} -f {{349}} {{[-n|--new]}} -f {{392}} {{[-n|--new]}} -f {{440}} {{[-n|--new]}} -f {{494}} {{[-n|--new]}} -f {{523}}`

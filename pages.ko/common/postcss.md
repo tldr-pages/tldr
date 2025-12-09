@@ -1,7 +1,7 @@
 # postcss
 
 > JS 플러그인으로 스타일 변환.
-> 더 많은 정보: <https://postcss.org>.
+> 더 많은 정보: <https://github.com/postcss/postcss-cli#usage>.
 
 - CSS 파일을 파싱하고 변환:
 

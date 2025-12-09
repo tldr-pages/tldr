@@ -1,7 +1,7 @@
 # travis
 
 > Travis CI와 상호작용하는 명령줄 클라이언트.
-> 더 많은 정보: <https://github.com/travis-ci/travis.rb>.
+> 더 많은 정보: <https://github.com/travis-ci/travis.rb#command-line-client>.
 
 - 클라이언트 버전 표시:
 

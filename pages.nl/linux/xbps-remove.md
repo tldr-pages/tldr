@@ -2,7 +2,7 @@
 
 > XBPS hulpprogramma voor het verwijderen van pakketten.
 > Zie ook: `xbps`.
-> Meer informatie: <https://manned.org/xbps-remove.1>.
+> Meer informatie: <https://manned.org/xbps-remove>.
 
 - Verwijder een pakket:
 

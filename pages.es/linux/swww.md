@@ -2,7 +2,7 @@
 
 > Servicio (daemon) eficiente de fondos de pantalla animados para Wayland.
 > Vea también: `swww-daemon`.
-> Más información: <https://github.com/LGFae/swww>.
+> Más información: <https://github.com/LGFae/swww#usage>.
 
 - Establece fondo de pantalla:
 

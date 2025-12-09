@@ -1,28 +1,33 @@
 # chown
 
 > Verander gebruiker- en groepsbeheer van bestanden en mappen.
+> Zie ook: `chgrp`.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/chown-invocation.html>.
 
-- Verander gebruikkersbeheerder van een bestand/map:
+- Verander de gebruikersbeheerder van een bestand/map:
 
-`chown {{gebruiker}} {{pad/naar/bestand_of_map}}`
+`sudo chown {{gebruiker}} {{pad/naar/bestand_of_map}}`
 
 - Verander de gebruikersbeheerder en -groep van een bestand of map:
 
-`chown {{gebruiker}}:{{groep}} {{pad/naar/bestand_of_map}}`
+`sudo chown {{gebruiker}}:{{groep}} {{pad/naar/bestand_of_map}}`
 
 - Verander de gebruikersbeheerder en -groep zodat beiden de naam `user` krijgen:
 
-`chown {{user}}: {{pad/naar/bestand_of_map}}`
+`sudo chown {{user}}: {{pad/naar/bestand_of_map}}`
+
+- Verander de groep van een bestand naar een groep waar de huidige gebruiker toe behoort:
+
+`chown :{{groep}} {{pad/naar/bestand_of_map}}`
 
 - Verander recursief de beheerder van een map en alle inhoud:
 
-`chown {{[-R|--recursive]}} {{gebruiker}} {{pad/naar/bestand_of_map}}`
+`sudo chown {{[-R|--recursive]}} {{gebruiker}} {{pad/naar/bestand_of_map}}`
 
 - Verander de gebruiker van een symbolische link:
 
-`chown {{[-h|--no-dereference]}} {{gebruiker}} {{pad/naar/symlink}}`
+`sudo chown {{[-h|--no-dereference]}} {{gebruiker}} {{pad/naar/symlink}}`
 
 - Verander de beheerder van een bestand of map naar dezelfde als een referentiebestand:
 
-`chown --reference {{pad/naar/referentiebestand}} {{pad/naar/bestand_of_map}}`
+`sudo chown --reference {{pad/naar/referentiebestand}} {{pad/naar/bestand_of_map}}`

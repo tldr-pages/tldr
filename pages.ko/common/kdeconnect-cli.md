@@ -1,7 +1,7 @@
 # kdeconnect-cli
 
 > 파일이나 텍스트를 장치에 공유하거나, 벨소리를 울리거나, 잠금을 해제하는 등 여러 작업을 수행하기 위해 KDE Connect를 사용하세요.
-> 더 많은 정보: <https://kdeconnect.kde.org>.
+> 더 많은 정보: <https://manned.org/kdeconnect-cli>.
 
 - 모든 장치 나열:
 

@@ -17,4 +17,4 @@
 
 - Display help:
 
-`koji tag-build --help`
+`koji tag-build {{[-h|--help]}}`

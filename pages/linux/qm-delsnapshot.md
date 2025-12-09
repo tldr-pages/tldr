@@ -1,7 +1,7 @@
 # qm delsnapshot
 
 > Delete virtual machine snapshots.
-> More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
+> More information: <https://pve.proxmox.com/pve-docs/qm.1.html#cli_qm_delsnapshot>.
 
 - Delete a snapshot:
 

@@ -1,7 +1,7 @@
 # asciiart
 
 > Convertit des images en ASCII.
-> Plus d'informations : <https://github.com/nodanaonlyzuul/asciiart>.
+> Plus d'informations : <https://github.com/nodanaonlyzuul/asciiart#in-the-command-line>.
 
 - Lit une image depuis un fichier et l'affiche en ASCII :
 

@@ -9,4 +9,4 @@
 
 - N'affiche aucun message (mode silencieux) :
 
-`sudo a2enmod --quiet {{module}}`
+`sudo a2enmod {{[-q|--quiet]}} {{module}}`

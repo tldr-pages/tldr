@@ -1,7 +1,7 @@
 # auracle
 
 > Arch Linux의 사용자 저장소(AUR)와 상호작용하기 위한 명령줄 도구.
-> 더 많은 정보: <https://github.com/falconindy/auracle>.
+> 더 많은 정보: <https://github.com/falconindy/auracle/blob/master/man/auracle.1.pod>.
 
 - 정규 표현식과 일치하는 AUR 패키지 표시:
 
