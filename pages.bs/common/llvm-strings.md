@@ -2,6 +2,6 @@
 
 > Ova komanda je pseudonim za `strings`.
 
-- Pregledaj dokumentaciju za izvornu komandu:
+- Pogledaj dokumentaciju za izvornu komandu:
 
 `tldr strings`
