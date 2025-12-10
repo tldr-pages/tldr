@@ -1,6 +1,6 @@
 # piodebuggdb
 
-> هذا الأمر هو اسم مستعار لـ `pio debug --interface=gdb`.
+> هذا الأمر هو اسم مستعار لـ `pio debug --interface gdb`.
 
 - إعرض التوثيقات للأمر الأصلي:
 
