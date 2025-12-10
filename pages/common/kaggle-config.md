@@ -5,12 +5,12 @@
 
 - View current config values:
 
-`kaggle {{[config]}} view`
+`kaggle config view`
 
 - Set a configuration value:
 
-`kaggle {{[config]}} set {{[-n|--name]}} {{configuration_parameter}} {{[-v|--value]}} {{parameter_value}}`
+`kaggle config set {{[-n|--name]}} {{configuration_parameter}} {{[-v|--value]}} {{parameter_value}}`
 
 - Clear a configuration value:
 
-`kaggle {{[config]}} unset {{[-n|--name]}} {{configuration_parameter}}`
+`kaggle config unset {{[-n|--name]}} {{configuration_parameter}}`
