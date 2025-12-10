@@ -1,6 +1,6 @@
 # piodebuggdb
 
-> 这是 `pio debug --interface=gdb` 命令的一个别名。
+> 这是 `pio debug --interface gdb` 命令的一个别名。
 
 - 原命令的文档在：
 
