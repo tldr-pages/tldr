@@ -3,7 +3,7 @@
 > Manage Kaggle configuration.
 > More information: <https://github.com/Kaggle/kaggle-api/blob/main/docs/README.md#config>.
 
-- View current config values:
+- View current configuration values:
 
 `kaggle config view`
 
