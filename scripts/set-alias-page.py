@@ -54,13 +54,14 @@ Examples:
 """
 
 import re
+import sys
 from pathlib import Path
 from dataclasses import dataclass
 from _common import (
     IGNORE_FILES,
     Colors,
     get_tldr_root,
-    get_pages_dir,
+    get_pages_dirs,
     get_target_paths,
     get_locale,
     get_status,
@@ -268,6 +269,15 @@ def get_alias_command_in_page(path: Path, alias_pattern: str) -> AliasPageConten
     if len(command_lines) != 2 or not title:
         return AliasPageContent(title="", original_command="", documentation_command="")
 
+    stripped_template = config.templates["en"].replace("example", "")
+    stripped_en = content
+    stripped_en = re.sub(r"#.*", "# ", stripped_en)
+    stripped_en = re.sub(r"`(?!tldr).*`", "``", stripped_en)
+    stripped_en = re.sub(r"`tldr .*`", "`tldr `", stripped_en)
+
+    if stripped_template != stripped_en:
+        return AliasPageContent(title="", original_command="", documentation_command="")
+
     original_command = ""
     documentation_command = ""
 
@@ -454,8 +464,14 @@ def main():
         "Sets the alias page for all translations of a page"
     )
     args = parser.parse_args()
+
+    # Print usage information if no arguments were provided
+    if len(sys.argv) == 1:
+        parser.print_help()
+        return
+
     root = get_tldr_root()
-    pages_dirs = get_pages_dir(root)
+    pages_dirs = get_pages_dirs(root)
     templates = get_templates(root)
 
     global config
