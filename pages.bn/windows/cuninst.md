@@ -1,0 +1,7 @@
+# cuninst
+
+> এই কমান্ডটি `choco uninstall` - এর একটি উপনাম।
+
+- মূল কমান্ডের ডকুমেন্টেশন দেখুন:
+
+`tldr choco uninstall`
