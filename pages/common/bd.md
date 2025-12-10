@@ -9,7 +9,7 @@
 
 - Create a new issue with description, priority, and type:
 
-`bd create {{issue_title}} {{[-d|--description]}} {{description}} {{[-p|--priority]}} {{1}} {{[-t|--type]}} {{bug}}`
+`bd create {{issue_title}} {{[-d|--description]}} {{description}} {{[-p|--priority]}} {{1}} {{[-t|--type]}} {{bug|feature|task|epic|chore}}`
 
 - List all issues:
 
@@ -25,7 +25,7 @@
 
 - Update an issue status:
 
-`bd update {{issue_id}} --status {{in_progress|completed|blocked}}`
+`bd update {{issue_id}} {{[-s|--status]}} {{open|in_progress|blocked|closed}}`
 
 - Manually sync changes and import latest from git:
 
