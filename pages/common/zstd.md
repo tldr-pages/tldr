@@ -27,6 +27,6 @@
 
 `zstd --ultra -{{level}} {{path/to/file}}`
 
-- Set the number of working threads to the number of physical CPU cores
+- Set the number of working threads to the number of physical CPU cores:
 
 `zstd {{[-T|--threads]}} 0`
