@@ -23,6 +23,14 @@
 
 `id {{[-g|--group]}}`
 
+- Toon alle groupen waartoe de huidige gebruiker behoort:
+
+`id {{[-Gn|--groups --name]}}`
+
 - Toon de ID (UID), groep-ID (GID) en groepen waartoe een willekeurige gebruiker behoort:
 
 `id {{gebruikersnaam}}`
+
+- Sla het opzoeken van de naam over en specificeer het UID-nummer expliciet:
+
+`id +{{uid_number}}`
