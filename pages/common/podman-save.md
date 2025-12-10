@@ -11,3 +11,7 @@
 - Save an image to `stdout`:
 
 `podman save {{image:tag}} > {{path/to/file.tar}}`
+
+- Save an image with compression:
+
+`podman save {{image:tag}} | {{[gzip|zstd]}} > {{path/to/file.tar[.gz|.zst]}}`
