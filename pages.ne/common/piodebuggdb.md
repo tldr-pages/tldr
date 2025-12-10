@@ -1,6 +1,6 @@
 # piodebuggdb
 
-> यो आदेश `pio debug --interface=gdb` को उपनाम हो |
+> यो आदेश `pio debug --interface gdb` को उपनाम हो |
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 
