@@ -1,6 +1,6 @@
 # piodebuggdb
 
-> Ushbu buyruq taxallus `pio debug --interface=gdb`.
+> Ushbu buyruq taxallus `pio debug --interface gdb`.
 
 - Asl buyruq uchun hujjatlarni ko'rish:
 

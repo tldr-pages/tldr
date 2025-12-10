@@ -1,6 +1,6 @@
 # lrunzip
 
-> Ushbu buyruq taxallus `lrzip -d`.
+> Ushbu buyruq taxallus `lrzip --decompress`.
 
 - Asl buyruq uchun hujjatlarni ko'rish:
 
