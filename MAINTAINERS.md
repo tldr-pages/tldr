@@ -108,7 +108,7 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [04 November 2025](https://github.com/tldr-pages/tldr/issues/19190) — present
 - **Md Sakib Sadman Badhon ([@badhon495](https://github.com/badhon495))**:
   [06 November 2025](https://github.com/tldr-pages/tldr/issues/19235) — present
-- **Mingliang Song ([@DustMerlin](https://github.com/DustMerlin)**:
+- **Mingliang Song ([@DustMerlin](https://github.com/DustMerlin))**:
   [13 November 2025](https://github.com/tldr-pages/tldr/issues/19336) — present
 - **zhb4 ([@zhb4](https://github.com/zhb4))**:
   [14 November 2025](https://github.com/tldr-pages/tldr/issues/19339) — present
