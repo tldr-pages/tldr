@@ -1,6 +1,6 @@
 # lrzuntar
 
-> Perintah ini merupakan alias dari `lrztar -d`.
+> Perintah ini merupakan alias dari `lrztar --decompress`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
