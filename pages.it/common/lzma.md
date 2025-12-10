@@ -1,6 +1,6 @@
 # lzma
 
-> Questo comando è un alias per `xz --format=lzma`.
+> Questo comando è un alias per `xz --format lzma`.
 
 - Consulta la documentazione del comando originale:
 
