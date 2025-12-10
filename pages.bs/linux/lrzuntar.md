@@ -1,6 +1,6 @@
 # lrzuntar
 
-> Ova komanda je pseudonim za `lrztar -d`.
+> Ova komanda je pseudonim za `lrztar --decompress`.
 
 - Pogledaj dokumentaciju za izvornu komandu:
 

@@ -1,6 +1,6 @@
 # lrunzip
 
-> Ova komanda je pseudonim za `lrzip -d`.
+> Ova komanda je pseudonim za `lrzip --decompress`.
 
 - Pogledaj dokumentaciju za izvornu komandu:
 
