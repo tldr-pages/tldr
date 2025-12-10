@@ -32,7 +32,6 @@ This file contains the translation templates of this notice.
 [pt_PT](#pt_pt) •
 [ro](#ro) •
 [ru](#ru) •
-[sh](#sh) •
 [sr](#sr) •
 [sv](#sv) •
 [ta](#ta) •
@@ -257,15 +256,6 @@ Unele subcomenzi precum `example command` au propria lor documentație de utiliz
 
 ```markdown
 Некоторые подкоманды, такие как `example command`, имеют собственную документацию по использованию.
-```
-
----
-
-### sh
-
-```markdown
-Neke podkomande, kao što je `example command`, imaju svoju dokumentaciju za upotrebu.
-
 ```
 
 ---
