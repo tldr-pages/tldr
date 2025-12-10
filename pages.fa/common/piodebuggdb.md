@@ -1,6 +1,6 @@
 # piodebuggdb
 
-> این دستور یک نام مستعار از `pio debug --interface=gdb` است.
+> این دستور یک نام مستعار از `pio debug --interface gdb` است.
 
 - مشاهده مستندات دستور اصلی :
 
