@@ -5,7 +5,7 @@
 > Zie ook: `unalias`.
 > Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#index-alias>.
 
-- Overzicht alle aliases:
+- Toon alle aliassen:
 
 `alias`
 
@@ -17,7 +17,7 @@
 
 `alias {{woord}}`
 
-- Verwijdert een alias:
+- Verwijder een alias:
 
 `unalias {{woord}}`
 
