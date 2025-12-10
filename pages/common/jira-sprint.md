@@ -3,7 +3,7 @@
 > Manage sprints in a Jira project board.
 > More information: <https://github.com/ankitpokhrel/jira-cli#sprint>.
 
-- List sprints in an explorer view:
+- List sprints and their issues in an explorer view:
 
 `jira sprint {{[ls|list]}}`
 

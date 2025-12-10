@@ -1,7 +1,7 @@
 # jira me
 
 > Display the configured `jira` user.
-> More information: <https://github.com/ankitpokhrel/jira-cli#issue>.
+> More information: <https://github.com/ankitpokhrel/jira-cli#commands>.
 
 - Display the configured `jira` user:
 
