@@ -1,6 +1,6 @@
 # lzcat
 
-> To polecenie jest aliasem `xz --format=lzma --decompress --stdout`.
+> To polecenie jest aliasem `xz --format lzma --decompress --stdout`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

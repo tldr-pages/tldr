@@ -1,6 +1,6 @@
 # lrzuntar
 
-> To polecenie jest aliasem `lrztar -d`.
+> To polecenie jest aliasem `lrztar --decompress`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
