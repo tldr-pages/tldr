@@ -1,7 +1,7 @@
 # gnmic subscribe
 
 > Subscribe to a gnmic network device state updates.
-> More information: <https://gnmic.kmrd.dev/cmd/subscribe>.
+> More information: <https://gnmic.openconfig.net/cmd/subscribe/>.
 
 - Subscribe to target state updates under the subtree of a specific path:
 
