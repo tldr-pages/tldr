@@ -1,6 +1,6 @@
 # lrzuntar
 
-> Det här kommandot är ett alias för `lrztar -d`.
+> Det här kommandot är ett alias för `lrztar --decompress`.
 
 - Se dokumentationen för orginalkommandot:
 
