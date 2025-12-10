@@ -2,6 +2,6 @@
 
 > To polecenie jest aliasem `nmtui edit`.
 
-- Zobacz dokumentację oryginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr nmtui`

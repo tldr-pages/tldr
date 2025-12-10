@@ -33,7 +33,6 @@ The templates can be changed when necessary.
 [pt_PT](#pt_pt) •
 [ro](#ro) •
 [ru](#ru) •
-[sh](#sh) •
 [sr](#sr) •
 [sv](#sv) •
 [ta](#ta) •
@@ -79,9 +78,9 @@ The templates can be changed when necessary.
 ```markdown
 # example
 
-> এই কমান্ড একটি উপনাম `example`.
+> এই কমান্ডটি `example` - এর একটি উপনাম।
 
-- মূল কমান্ডের জন্য ডকুমেন্টেশন দেখুন:
+- মূল কমান্ডের ডকুমেন্টেশন দেখুন:
 
 `tldr example`
 ```
@@ -418,20 +417,6 @@ The templates can be changed when necessary.
 > Эта команда — псевдоним для `example`.
 
 - Смотри документацию для оригинальной команды:
-
-`tldr example`
-```
-
----
-
-### sh
-
-```markdown
-# example
-
-> Ova komanda je pseudonim za `example`.
-
-- Pogledaj dokumentaciju za originalnu komandu:
 
 `tldr example`
 ```

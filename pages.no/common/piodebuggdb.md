@@ -1,6 +1,6 @@
 # piodebuggdb
 
-> Denne kommandoen er et alias for `pio debug`.
+> Denne kommandoen er et alias for `pio debug --interface gdb`.
 
 - Vis dokumentasjonen for den opprinnelige kommandoen:
 

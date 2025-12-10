@@ -1,12 +1,7 @@
 # whoami
 
-> Toon de gebruikersnaam die is gekoppeld aan de huidige effectieve gebruikers-ID.
-> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/whoami-invocation.html>.
+> Dit commando is een alias van `id --user --name`.
 
-- Toon de momenteel ingelogde gebruikersnaam:
+- Bekijk de documentatie van het originele commando:
 
-`whoami`
-
-- Toon de gebruikersnaam na een wijziging in de gebruikers-ID:
-
-`sudo whoami`
+`tldr id`
