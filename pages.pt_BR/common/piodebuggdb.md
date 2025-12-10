@@ -1,6 +1,6 @@
 # piodebuggdb
 
-> Este comando é um apelido de `pio debug --interface=gdb`.
+> Este comando é um apelido de `pio debug --interface gdb`.
 
 - Veja documentação sobre o comando original:
 
