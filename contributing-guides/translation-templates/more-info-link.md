@@ -33,7 +33,6 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 [pt_PT](#pt_pt) •
 [ro](#ro) •
 [ru](#ru) •
-[sh](#sh) •
 [sr](#sr) •
 [sv](#sv) •
 [ta](#ta) •
@@ -258,14 +257,6 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 
 ```markdown
 > Больше информации: <https://example.com>.
-```
-
----
-
-### sh
-
-```markdown
-> Više informacija: <https://example.com>.
 ```
 
 ---
