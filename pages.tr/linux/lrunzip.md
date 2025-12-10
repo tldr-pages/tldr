@@ -1,6 +1,6 @@
 # lrunzip
 
-> Bu komut `lrzip -d` için bir takma addır.
+> Bu komut `lrzip --decompress` için bir takma addır.
 
 - Asıl komutun belgelerini görüntüleyin:
 
