@@ -1,6 +1,6 @@
 # piodebuggdb
 
-> Ова наредба је псеудоним `pio debug --interface=gdb`.
+> Ова наредба је псеудоним `pio debug --interface gdb`.
 
 - Погледајте документацију за оригиналну команду:
 
