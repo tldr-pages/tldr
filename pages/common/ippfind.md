@@ -18,4 +18,4 @@
 
 - Send a PostScript test document to every PostScript printer on the network, whose name matches a `regex`:
 
-`ippfind --txt-pdl application/postscript {{[-h|--host]}} {{regex}} {{[-x|--exec]}} ipptool -f onepage-letter.ps '{}' print-job.test \;`
+`ippfind --txt-pdl application/postscript {{[-h|--host]}} {{regex}} {{[-x|--exec]}} ipptool -f onepage-letter.ps '{}' print-job.test \;`

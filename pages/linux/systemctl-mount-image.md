@@ -8,7 +8,7 @@
 
 `systemctl mount-image {{unit}} /{{path/to/image}} /{{path/to/directory_inside_unit}}`
 
-- Mount the image’s `root` partition with read-only and no-setuid options:
+- Mount the image's `root` partition with read-only and no-setuid options:
 
 `systemctl mount-image {{unit}} /{{path/to/image}} /{{path/to/directory_inside_unit}} root:ro,nosuid`
 

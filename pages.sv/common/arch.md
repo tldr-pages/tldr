@@ -1,9 +1,7 @@
 # arch
 
-> Visa namnet på systemarkitekturen.
-> Se även `uname`.
-> Mer information: <https://www.gnu.org/software/coreutils/manual/html_node/arch-invocation.html>.
+> Det här kommandot är ett alias för `uname --machine`.
 
-- Visa systemarkitekturen:
+- Se dokumentationen för orginalkommandot:
 
-`arch`
+`tldr uname`

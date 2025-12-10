@@ -1,6 +1,6 @@
 # podman rmi
 
-> Remove Podman images.
+> Remove OCI/Docker images.
 > More information: <https://docs.podman.io/en/latest/markdown/podman-rmi.1.html>.
 
 - Remove one or more images given their names:
@@ -9,7 +9,7 @@
 
 - Force remove an image:
 
-`podman rmi --force {{image}}`
+`podman rmi {{[-f|--force]}} {{image}}`
 
 - Remove an image without deleting untagged parents:
 
@@ -17,4 +17,4 @@
 
 - Display help:
 
-`podman rmi`
+`podman rmi {{[-h|--help]}}`

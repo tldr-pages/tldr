@@ -10,7 +10,7 @@
 
 - List all user-defined file labelling rules without headings:
 
-`sudo semanage fcontext {{[-l|--list]}} {{[-C|--locallist]}} {{[-n|--noheading]}}`
+`sudo semanage fcontext {{[-lCn|--list --locallist --noheading]}}`
 
 - Add a user-defined rule that labels any path which matches a PCRE `regex`:
 
@@ -22,4 +22,4 @@
 
 - Relabel a directory recursively by applying the new rules:
 
-`restorecon -R -v {{path/to/directory}}`
+`restorecon -Rv {{path/to/directory}}`
