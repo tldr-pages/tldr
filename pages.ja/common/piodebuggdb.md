@@ -1,6 +1,6 @@
 # piodebuggdb
 
-> このコマンドは `pio debug --interface=gdb` のエイリアスです。
+> このコマンドは `pio debug --interface gdb` のエイリアスです。
 
 - オリジナルのコマンドのドキュメントを表示する:
 
