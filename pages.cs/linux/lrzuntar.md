@@ -1,6 +1,6 @@
 # lrzuntar
 
-> Tento příkaz je aliasem pro `lrztar -d`.
+> Tento příkaz je aliasem pro `lrztar --decompress`.
 
 - Podívejte se na dokumentaci původního příkazu:
 
