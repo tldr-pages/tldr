@@ -91,7 +91,6 @@ labels = {
     "pt_PT": "Mais informações:",
     "ro": "Mai multe informații:",
     "ru": "Больше информации:",
-    "sh": "Više informacija:",
     "sr": "Više informacija na:",
     "sv": "Mer information:",
     "ta": "மேலும் விவரத்திற்கு:",
