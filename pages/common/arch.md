@@ -1,9 +1,7 @@
 # arch
 
-> Display the name of the system architecture.
-> See also: `uname`.
-> More information: <https://www.gnu.org/software/coreutils/manual/html_node/arch-invocation.html>.
+> This command is an alias of `uname --machine`.
 
-- Display the system's architecture:
+- View documentation for the original command:
 
-`arch`
+`tldr uname`

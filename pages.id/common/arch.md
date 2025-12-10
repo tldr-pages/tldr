@@ -1,9 +1,7 @@
 # arch
 
-> Tampilkan nama arsitektur sistem saat ini.
-> Lihat juga: `uname`.
-> Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/manual/html_node/arch-invocation.html>.
+> Perintah ini merupakan alias dari `uname --machine`.
 
-- Tampilkan informasi arsitektur sistem saat ini:
+- Tampilkan dokumentasi untuk perintah asli:
 
-`arch`
+`tldr uname`
