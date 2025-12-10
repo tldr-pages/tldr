@@ -1,6 +1,6 @@
 # kaggle config
 
-> Manage Kaggle config.
+> Manage Kaggle configuration.
 > More information: <https://github.com/Kaggle/kaggle-api/blob/main/docs/README.md#config>.
 
 - View current config values:
