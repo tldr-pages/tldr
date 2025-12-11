@@ -1,10 +1,10 @@
 # adb
 
-> Android Debug Bridge: comunica con un'instanza di un emulatore Android o con un dispositivo android connesso.
-> Alcuni comandi aggiuntivi, come `shell`, hanno la propria documentazione.
+> Android Debug Bridge: comunica con un'istanza di un emulatore Android o con dispositivi Android connessi.
+> Alcuni sottocomandi come `shell` hanno la propria documentazione di utilizzo.
 > Maggiori informazioni: <https://developer.android.com/tools/adb>.
 
-- Controlla se il processo server adb è attivo ed avvialo:
+- Controlla se il processo server adb è in esecuzione e avvialo:
 
 `adb start-server`
 
@@ -12,22 +12,26 @@
 
 `adb kill-server`
 
-- Avvia una shell remota nell'emulatore o dispositivo target:
+- Avvia una shell remota nell'istanza dell'emulatore/dispositivo target:
 
 `adb shell`
 
-- Installa un'applicazione Android nell'emulatore o dispositivo target:
+- Installa un'applicazione Android su un emulatore/dispositivo:
 
-`adb install -r {{percorso/del/file.apk}}`
+`adb install -r {{path/to/file.apk}}`
 
-- Copia file o directory dal dispositivo target:
+- Copia un file/directory dal dispositivo target:
 
-`adb pull {{percorso/del/file_o_directory_dispositivo}} {{percorso/del/file_o_directory_locale}}`
+`adb pull {{path/to/device_file_or_directory}} {{path/to/local_destination_directory}}`
 
-- Copia file/directory sul dispositivo target:
+- Copia un file/directory sul dispositivo target:
 
-`adb push {{percorso/del/file_o_directory_locale}} {{percorso/della/directory_destinazione_dispositivo}}`
+`adb push {{path/to/local_file_or_directory}} {{path/to/device_destination_directory}}`
 
-- Mostra una lista dei dispositivi connessi:
+- Elenca tutti i dispositivi connessi:
 
 `adb devices`
+
+- Specifica quale dispositivo deve ricevere i comandi se ci sono più dispositivi:
+
+`adb -s {{device_ID}} {{shell}}`
