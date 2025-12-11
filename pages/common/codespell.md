@@ -27,7 +27,7 @@
 
 `codespell {{[-L|--ignore-words-list]}} {{ignored_word1,ignored_word2,...}}`
 
-Print 3 lines of [C]ontext around, [B]efore, or [A]fter each match:
+- Print 3 lines of [C]ontext around, [B]efore, or [A]fter each match:
 
 `codespell --{{context|before-context|after-context}} 3`
 
