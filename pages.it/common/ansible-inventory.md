@@ -10,7 +10,7 @@
 
 - Visualizza un inventario personalizzato:
 
-`ansible-inventory --list {{[-i|--inventory-file]}} {{percorso/al/file_o_script_o_directory}}`
+`ansible-inventory --list {{[-i|--inventory-file]}} {{percorso/del/file_o_script_o_directory}}`
 
 - Visualizza l'inventario predefinito in YAML:
 
@@ -18,4 +18,4 @@
 
 - Scarica l'inventario predefinito in un file:
 
-`ansible-inventory --list --output {{percorso/al/file}}`
+`ansible-inventory --list --output {{percorso/del/file}}`
