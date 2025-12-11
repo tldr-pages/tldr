@@ -1,6 +1,6 @@
 # jira open
 
-> Open a Jira issue in the browser.
+> Open a Jira issue or project in the browser.
 > More information: <https://github.com/ankitpokhrel/jira-cli#other-commands>.
 
 - Open the Jira project in the browser and print the URL:
