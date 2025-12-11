@@ -2,7 +2,7 @@
 
 > Print to Adobe PostScript printers.
 > Supports PDF, PostScript, JPEG, PWG Raster or Apple Raster files.
-> See also: `ippevepcl`, `ippeveprinter`.
+> See also: `ippeveprinter`.
 > More information: <https://openprinting.github.io/cups/doc/man-ippevepcl.html>.
 
 - Print a file to `stdout` (status and progress messages are sent to `stderr`):

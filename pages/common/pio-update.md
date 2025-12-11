@@ -1,7 +1,6 @@
 # pio update
 
 > Update installed PlatformIO Core packages, development platforms and global libraries.
-> See also: `pio platform update`, `pio lib update`.
 > More information: <https://docs.platformio.org/en/latest/core/userguide/cmd_update.html>.
 
 - Perform a full update of all packages, development platforms and global libraries:
