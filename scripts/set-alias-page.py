@@ -269,7 +269,7 @@ def get_alias_command_in_page(path: Path, alias_pattern: str) -> AliasPageConten
     if len(command_lines) != 2 or not title:
         return AliasPageContent(title="", original_command="", documentation_command="")
 
-    if (alias_pattern == "This command is an alias of"):
+    if (alias_pattern == get_locale_alias_pattern("en")):
         stripped_template = config.templates["en"]
         stripped_template = stripped_template.replace("example", "")
 
