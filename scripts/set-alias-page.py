@@ -269,7 +269,9 @@ def get_alias_command_in_page(path: Path, alias_pattern: str) -> AliasPageConten
     if len(command_lines) != 2 or not title:
         return AliasPageContent(title="", original_command="", documentation_command="")
 
-    stripped_template = config.templates["en"].replace("example", "")
+    stripped_template = config.templates["en"]
+    stripped_template = stripped_template.replace("example", "")
+
     stripped_en = content
     stripped_en = re.sub(r"#.*", "# ", stripped_en)
     stripped_en = re.sub(r"`(?!tldr).*`", "``", stripped_en)
