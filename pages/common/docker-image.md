@@ -19,4 +19,3 @@
 - Show the history of a local Docker image:
 
 `docker image history {{image}}`
-
