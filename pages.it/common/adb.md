@@ -18,15 +18,15 @@
 
 - Installa un'applicazione Android su un emulatore/dispositivo:
 
-`adb install -r {{path/to/file.apk}}`
+`adb install -r {{percorso/del/file.apk}}`
 
 - Copia un file/directory dal dispositivo target:
 
-`adb pull {{path/to/device_file_or_directory}} {{path/to/local_destination_directory}}`
+`adb pull {{percorso/del/device_file_o_directory}} {{percorso/della/directory_di_destinazione_locale}}`
 
 - Copia un file/directory sul dispositivo target:
 
-`adb push {{path/to/local_file_or_directory}} {{path/to/device_destination_directory}}`
+`adb push {{percorso/del/file_locale_o_directory}} {{percorso/della/directory_di_destinazione_device}}`
 
 - Elenca tutti i dispositivi connessi:
 
