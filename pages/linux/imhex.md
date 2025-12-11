@@ -27,10 +27,6 @@
 
 `imhex --hexdump {{path/to/file}}`
 
-- Start the Pattern Language command-line interface:
-
-`imhex --pl`
-
 - Display version information:
 
 `imhex --version`
