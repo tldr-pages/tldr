@@ -7,9 +7,17 @@
 
 `pkgstats submit`
 
+- View the sent data:
+
+`pkgstats submit {{[-d|--dump-json]}}`
+
 - Search for packages:
 
 `pkgstats search {{search_term}}`
+
+- Limit search result count (10 by default):
+
+`pkgstats search {{search_term}} {{[-l|--limit]}} {{count}}`
 
 - Pick packages for comparison:
 
