@@ -15,7 +15,7 @@
 
 `zstd {{[-d|--decompress]}} {{[-c|--stdout]}} {{path/to/file.zst}}`
 
-- Compress a file specifying the compression level, where 1=fastest, 19=slowest and 3=default:
+- Compress a file specifying the compression level, where 1=fastest, 19=slowest, and 3=default:
 
 `zstd -{{level}} {{path/to/file}}`
 

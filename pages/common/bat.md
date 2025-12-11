@@ -20,7 +20,7 @@
 
 `bat {{[-H|--highlight-line]}} {{10|5:10|:10|10:|10:+5}} {{path/to/file}}`
 
-- Show non-printable characters like space, tab or newline:
+- Show non-printable characters like space, tab, or newline:
 
 `bat {{[-A|--show-all]}} {{path/to/file}}`
 

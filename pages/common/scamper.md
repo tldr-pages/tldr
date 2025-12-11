@@ -12,7 +12,7 @@
 
 `scamper -I "{{ping}} {{192.0.2.1}}" -I "{{trace}} {{192.0.2.2}}"`
 
-- Ping several hosts with UDP, use a specific port number for the first ping and increase it for each subsequent ping:
+- Ping several hosts with UDP, use a specific port number for the first ping, and increase it for each subsequent ping:
 
 `scamper -c "{{ping}} -P {{UDP-dport}} -d {{33434}}" -i {{192.0.2.1}} -i {{192.0.2.2}}`
 
