@@ -1,7 +1,7 @@
 # docker image
 
 > Manage Docker images.
-> See also: `docker build`, `docker pull`.
+> See also: `docker build`, `docker pull`, `docker image rm`.
 > More information: <https://docs.docker.com/reference/cli/docker/image/>.
 
 - List local Docker images:
@@ -20,6 +20,3 @@
 
 `docker image history {{image}}`
 
-- View documentation for `docker image rm`:
-
-`tldr docker rmi`
