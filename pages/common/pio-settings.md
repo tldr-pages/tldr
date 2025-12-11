@@ -3,11 +3,11 @@
 > View and modify PlatformIO settings.
 > More information: <https://docs.platformio.org/en/latest/core/userguide/cmd_settings.html>.
 
-- Display the names, values and descriptions of all PlatformIO settings:
+- Display the names, values, and descriptions of all PlatformIO settings:
 
 `pio settings get`
 
-- Display the name, value and description of a specific PlatformIO setting:
+- Display the name, value, and description of a specific PlatformIO setting:
 
 `pio settings get {{setting}}`
 

@@ -19,6 +19,6 @@
 
 `rlwrap --complete-filenames {{명령}}`
 
-- 색상이 있는 프롬프트 추가, 색상 이름 또는 ASCI 색상 사양 사용. 대문자 색상 이름은 굵게 스타일링:
+- 색상이 있는 프롬프트 추가, 색상 이름 또는 ANSI 색상 사양 사용. 대문자 색상 이름은 굵게 스타일링:
 
 `rlwrap --prompt-colour={{black|red|green|yellow|blue|cyan|purple|white|colour_spec}} {{명령}}`

@@ -2,7 +2,6 @@
 
 > Restricted Bash shell, equivalent to `bash --restricted`.
 > Does not permit changing the working directory, redirecting command output, or modifying environment variables, among other things.
-> See also: `histexpand` for history expansion.
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#The-Restricted-Shell>.
 
 - Start an interactive shell session:

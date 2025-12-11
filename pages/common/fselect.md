@@ -19,6 +19,6 @@
 
 `fselect size, path from {{path/to/directory}} limit {{5}} into json`
 
-- Use SQL aggregate functions to calculate minimum, maximum and average size of files in a directory:
+- Use SQL aggregate functions to calculate minimum, maximum, and average size of files in a directory:
 
 `fselect "{{MIN(size), MAX(size), AVG(size), SUM(size), COUNT(*)}} from {{path/to/directory}}"`

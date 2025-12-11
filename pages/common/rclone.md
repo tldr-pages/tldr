@@ -1,6 +1,6 @@
 # rclone
 
-> Copy, synchronize or move files and directories to and from many cloud services.
+> Copy, synchronize, or move files and directories to and from many cloud services.
 > More information: <https://rclone.org/commands/rclone/>.
 
 - Launch an interactive menu to setup rclone:

@@ -1,6 +1,6 @@
 # packwiz
 
-> Create, edit and manage Minecraft modpacks.
+> Create, edit, and manage Minecraft modpacks.
 > More information: <https://packwiz.infra.link/reference/commands/packwiz/>.
 
 - Interactively create a new modpack in the current directory:
