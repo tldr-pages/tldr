@@ -19,6 +19,6 @@
 
 `rlwrap {{[-c|--complete-filenames]}} {{command}}`
 
-- Add coloured prompts, use colour name or an ASCI-conformant colour specification. Use an uppercase colour name for bold styling:
+- Add coloured prompts, use colour name or an ANSI-conformant colour specification. Use an uppercase colour name for bold styling:
 
 `rlwrap {{[-p|--prompt-colour=]}}{{black|red|green|yellow|blue|cyan|purple|white|colour_spec}} {{command}}`
