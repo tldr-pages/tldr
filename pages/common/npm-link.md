@@ -5,12 +5,12 @@
 
 - Symlink the current package globally:
 
-`npm link`
+`npm {{[ln|link]}}`
 
 - Link a globally linked package into another project's `node_modules`:
 
-`npm link {{package_name}}`
+`npm {{[ln|link]}} {{package_name}}`
 
 - Unlink a package from the current project:
 
-`npm unlink {{package_name}}`
+`npm {{[r|unlink]}} {{package_name}}`
