@@ -2,7 +2,6 @@
 
 > Free and open-source hex editor for reverse engineers and programmers.
 > More information: <https://imhex.werwolv.net>.
-> Note: Some options are only available on macOS and Linux.
 
 - Open a file in ImHex:
 
@@ -27,6 +26,10 @@
 - Generate a hex dump of a file:
 
 `imhex --hexdump {{path/to/file}}`
+
+- Start the Pattern Language command-line interface:
+
+`imhex --pl`
 
 - Display version information:
 
