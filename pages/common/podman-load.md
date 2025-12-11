@@ -18,4 +18,4 @@
 
 - Load an image from `stdin`:
 
-`podman load < {{path/to/file.tar}}`
+`podman < {{path/to/file.tar}} load`
