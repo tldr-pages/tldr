@@ -1,6 +1,6 @@
 # pkgstats
 
-> Send data of the system packages to be aggregated and view package popularity.
+> Submit and view Arch Linux package popularity statistics.
 > More information: <https://wiki.archlinux.org/title/Pkgstats>.
 
 - Send installed package data:
