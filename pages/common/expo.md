@@ -17,7 +17,7 @@
 
 - Install a dependency:
 
-`expo install <package_name>`
+`expo install {{package_name}}`
 
 - Prebuild native Android/iOS projects:
 
