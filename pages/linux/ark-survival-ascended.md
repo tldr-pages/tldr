@@ -29,7 +29,7 @@
 
 - Enable specific mods by their ID (comma-separated):
 
-`{{path/to/ArkAscendedServer}} {{TheIsland_WP}} -mods={{mod_id1, mod_id2, ...}}`
+`{{path/to/ArkAscendedServer}} {{TheIsland_WP}} -mods={{mod_id1,mod_id2,...}}`
 
 - Allow connections from specific platforms:
 

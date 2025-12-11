@@ -26,3 +26,7 @@
 - Unlock higher compression levels (up to 22) using more memory (both for compression and decompression):
 
 `zstd --ultra -{{level}} {{path/to/file}}`
+
+- Set the number of working threads to the number of physical CPU cores:
+
+`zstd {{[-T|--threads]}} 0`
