@@ -17,4 +17,4 @@
 
 - Muestra el contenido de un archivo:
 
-`asar {{[l|list]}} {ruta/al/archivo.asar}}`
+`asar {{[l|list]}} {{ruta/al/archivo.asar}}`
