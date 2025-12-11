@@ -1,16 +1,24 @@
 # logcat
 
-> Scarica il registro dei messaggi di sistema, comprese le stack traces quando si verifica un errore, e i messaggi di log delle applicazioni.
+> Scarica un registro di messaggi di sistema, comprese le stack traces quando si verifica un errore e i messaggi di informazioni di log dalle applicazioni.
 > Maggiori informazioni: <https://developer.android.com/tools/logcat>.
 
-- Mostra il log di sistema:
+- Visualizza i log di sistema:
 
 `logcat`
 
-- Scrivi il log di sistema su file:
+- Scrivi i log di sistema in un [f]ile:
 
-`logcat -f {{percorso/del/file}}`
+`logcat -f {{path/to/file}}`
 
-- Mostra le righe corrispondenti ad una specifica espressione regolare:
+- Visualizza le linee che corrispondono a un `regex`:
 
-`logcat --regex {{espressione_regolare}}`
+`logcat --regex {{regex}}`
+
+- Visualizza i log per uno specifico PID:
+
+`logcat --pid {{pid}}`
+
+- Visualizza i log per il processo di uno specifico pacchetto:
+
+`logcat --pid $(pidof -s {{package}})`
