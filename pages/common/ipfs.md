@@ -4,7 +4,7 @@
 > A peer-to-peer hypermedia protocol. Aims to make the web more open.
 > More information: <https://docs.ipfs.tech/reference/kubo/cli/>.
 
-- Add a file from local to the filesystem, pin it and print the relative hash:
+- Add a file from local to the filesystem, pin it, and print the relative hash:
 
 `ipfs add {{path/to/file}}`
 

@@ -1,6 +1,6 @@
 # yolo
 
-> Train, validate or infer models on various tasks and versions.
+> Train, validate, or infer models on various tasks and versions.
 > More information: <https://docs.ultralytics.com/cli/>.
 
 - Create a copy of the default configuration in your current working directory:

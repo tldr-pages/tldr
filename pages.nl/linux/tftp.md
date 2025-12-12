@@ -15,7 +15,7 @@
 
 `tftp {{server_ip}} -6 -R {{poort}}:{{poort}}`
 
-- Stel de overdrachtsmodus in op binaire of ASCIi via de tftp-client:
+- Stel de overdrachtsmodus in op binaire of ASCII via de tftp-client:
 
 `mode {{binary|ascii}}`
 

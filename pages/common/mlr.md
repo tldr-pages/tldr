@@ -19,7 +19,7 @@
 
 `mlr --icsv --opprint sort -nr {{field}} {{example.csv}}`
 
-- Convert CSV to JSON, performing calculations and display those calculations:
+- Convert CSV to JSON, performing calculations, and display those calculations:
 
 `mlr --icsv --ojson put '${{newField1}} = ${{oldFieldA}}/${{oldFieldB}}' {{example.csv}}`
 

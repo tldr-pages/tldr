@@ -7,7 +7,7 @@
 
 `rustup set default-host {{host_triple}}`
 
-- Set the default profile (`minimal` includes only `rustc`, `rust-std` and `cargo`, whereas `default` adds `rust-docs`, `rustfmt` and `clippy`):
+- Set the default profile (`minimal` includes only `rustc`, `rust-std`, and `cargo`, whereas `default` adds `rust-docs`, `rustfmt`, and `clippy`):
 
 `rustup set profile {{minimal|default}}`
 
