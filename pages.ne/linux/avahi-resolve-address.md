@@ -1,0 +1,7 @@
+# avahi-resolve-address
+
+> यो आदेश `avahi-resolve --address` को उपनाम हो |
+
+- मौलिक आदेशको लागि कागजात हेर्नुहोस्:
+
+`tldr avahi-resolve`

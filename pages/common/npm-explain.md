@@ -5,16 +5,16 @@
 
 - Explain why a specific package is installed:
 
-`npm explain {{package_name}}`
+`npm {{[why|explain]}} {{package_name}}`
 
 - Show explanation in JSON format:
 
-`npm explain {{package_name}} --json`
+`npm {{[why|explain]}} {{package_name}} --json`
 
 - Include peer dependencies in the explanation:
 
-`npm explain {{package_name}} --include peer`
+`npm {{[why|explain]}} {{package_name}} --include peer`
 
 - Limit explanation depth to 2 levels deep:
 
-`npm explain {{package_name}} --depth 2`
+`npm {{[why|explain]}} {{package_name}} --depth 2`

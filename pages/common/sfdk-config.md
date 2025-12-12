@@ -23,6 +23,6 @@
 
 `sfdk --drop {{name}}`
 
-- Run subcommand in specified scope (`global`, `session` or `command`):
+- Run subcommand in specified scope (`global`, `session`, or `command`):
 
 `sfdk config --{{scope}} {{subcommand}}`

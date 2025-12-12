@@ -3,7 +3,7 @@
 > Select or reject lines common to two files. Both files must be sorted.
 > More information: <https://www.gnu.org/software/coreutils/manual/html_node/comm-invocation.html>.
 
-- Produce three tab-separated columns: lines only in first file, lines only in second file and common lines:
+- Produce three tab-separated columns: lines only in first file, lines only in second file, and common lines:
 
 `comm {{file1}} {{file2}}`
 

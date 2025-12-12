@@ -1,0 +1,7 @@
+# gh a11y
+
+> यो आदेश `gh accessibility` को उपनाम हो |
+
+- मौलिक आदेशको लागि कागजात हेर्नुहोस्:
+
+`tldr gh accessibility`

@@ -16,6 +16,6 @@
 
 `{{command}} | chroma {{[-l|--lexer]}} {{c++}} {{[-f|--formatter]}} {{svg}} {{[-s|--style]}} {{monokai}} > {{path/to/target_file.svg}}`
 
-- List available lexers, styles and formatters:
+- List available lexers, styles, and formatters:
 
 `chroma --list`
