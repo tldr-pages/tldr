@@ -10,7 +10,7 @@
 
 - Run a game with gamescope through Steam:
 
-`gamescope -- {{command}}`
+`gamescope -- %command%`
 
 - Upscale a 720p game to 1440p with integer scaling:
 
