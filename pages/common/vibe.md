@@ -18,7 +18,7 @@
 
 - Run a single Vibe prompt in the terminal with automatic approval of file edits and commands:
 
-`vibe --auto-approve {{[-p|--prompt]}} "{{your_prompt}}"`
+`vibe {{[-p|--prompt]}} "{{your_prompt}}"`
 
 - Run a single Vibe prompt in the terminal with the specified output format:
 
