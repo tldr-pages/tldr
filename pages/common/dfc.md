@@ -7,7 +7,7 @@
 
 `dfc`
 
-- Display all filesystems including pseudo, duplicate and inaccessible filesystems:
+- Display all filesystems including pseudo, duplicate, and inaccessible filesystems:
 
 `dfc -a`
 

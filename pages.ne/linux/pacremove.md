@@ -1,0 +1,7 @@
+# pacremove
+
+> यो आदेश `pactrans --remove` को उपनाम हो |
+
+- मौलिक आदेशको लागि कागजात हेर्नुहोस्:
+
+`tldr pactrans`

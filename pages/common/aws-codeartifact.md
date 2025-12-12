@@ -1,6 +1,6 @@
 # aws codeartifact
 
-> Manage CodeArtifact repositories, domains, packages, package versions and assets.
+> Manage CodeArtifact repositories, domains, packages, package versions, and assets.
 > CodeArtifact is an artifact repository compatible with popular package managers and build tools like Maven, Gradle, npm, Yarn, Twine, pip, NuGet, and SwiftPM.
 > More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/codeartifact/index.html>.
 

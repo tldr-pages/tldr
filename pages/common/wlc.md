@@ -7,7 +7,7 @@
 
 `wlc {{[-c|--config]}} {{path/to/file}} list-projects`
 
-- List components in a project, and override API URL and API key:
+- List components in a project and override API URL and API key:
 
 `wlc {{[-u|--url]}} {{URL}} {{[-k|--key]}} {{key}} ls {{project}}`
 

@@ -1,6 +1,6 @@
 # swift
 
-> Create, run and build Swift projects.
+> Create, run, and build Swift projects.
 > More information: <https://manned.org/swiftc>.
 
 - Start a REPL (interactive shell):

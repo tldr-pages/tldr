@@ -1,6 +1,6 @@
 # psysh
 
-> A runtime developer console, interactive debugger and REPL for PHP.
+> A runtime developer console, interactive debugger, and REPL for PHP.
 > More information: <https://github.com/bobthecow/psysh/wiki/CLI-options>.
 
 - Open a shell in the current directory:

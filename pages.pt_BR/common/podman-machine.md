@@ -6,7 +6,7 @@
 
 - Lista as máquinas existentes:
 
-`podman machine ls`
+`podman machine {{[ls|list]}}`
 
 - Cria uma nova máquina padrão:
 
@@ -18,7 +18,7 @@
 
 - Cria uma nova máquina com recursos diferentes:
 
-`podman machine init --cpus={{4}} --memory={{4096}} --disk-size={{50}}`
+`podman machine init --cpus {{4}} --memory {{4096}} --disk-size {{50}}`
 
 - Inicia ou para uma máquina:
 
