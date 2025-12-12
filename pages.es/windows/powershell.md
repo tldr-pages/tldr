@@ -5,7 +5,7 @@
 > Para usar la versión más nueva y multiplataforma de PowerShell (también conocida como PowerShell Core), usa `pwsh` en lugar de `powershell`.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/powershell>.
 
-- Iniciar una sesión interactiva de shell:
+- Inicia una sesión interactiva de shell:
 
 `powershell`
 
