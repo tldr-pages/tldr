@@ -27,9 +27,9 @@
 
 `podman ps {{[-a|--all]}} {{[-f|--filter]}} "exited={{code}}"`
 
-- Filter containers by status (created, running, removing, paused, exited and dead):
+- Filter containers by status:
 
-`podman ps {{[-f|--filter]}} "status={{status}}"`
+`podman ps {{[-f|--filter]}} "status={{created|running|removing|paused|exited|dead}}"`
 
 - Filter containers that mount a specific volume or have a volume mounted in a specific path:
 
