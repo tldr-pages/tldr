@@ -2,6 +2,6 @@
 
 > Este comando es un alias de `declare`.
 
-- Muestra documentación para el comando original:
+- Vea la documentación del comando original:
 
 `tldr declare`

@@ -16,7 +16,7 @@
 
 `xzgrep {{[-n|--line-number]}} "{{search_pattern}}" {{path/to/file}}`
 
-- Use extended `regex` (supports `?`, `+`, `{}`, `()` and `|`), in case-insensitive mode:
+- Use extended `regex` (supports `?`, `+`, `{}`, `()`, and `|`), in case-insensitive mode:
 
 `xzgrep {{[-E|--extended-regexp]}} {{[-i|--ignore-case]}} "{{search_pattern}}" {{path/to/file}}`
 

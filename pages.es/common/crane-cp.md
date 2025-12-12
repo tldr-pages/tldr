@@ -2,6 +2,6 @@
 
 > Este comando es un alias de `crane copy`.
 
-- Vea la documentación para el comando original:
+- Vea la documentación del comando original:
 
 `tldr crane copy`

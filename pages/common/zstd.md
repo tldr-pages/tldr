@@ -15,10 +15,18 @@
 
 `zstd {{[-d|--decompress]}} {{[-c|--stdout]}} {{path/to/file.zst}}`
 
-- Compress a file specifying the compression level, where 1=fastest, 19=slowest and 3=default:
+- Compress a file specifying the compression level, where 1=fastest, 19=slowest, and 3=default:
 
 `zstd -{{level}} {{path/to/file}}`
+
+- Compress a file using an ultra-fast compression level, where 1=default:
+
+`zstd --fast={{level}} {{path/to/file}}`
 
 - Unlock higher compression levels (up to 22) using more memory (both for compression and decompression):
 
 `zstd --ultra -{{level}} {{path/to/file}}`
+
+- Set the number of working threads to the number of physical CPU cores:
+
+`zstd {{[-T|--threads]}} 0`
