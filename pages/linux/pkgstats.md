@@ -1,7 +1,7 @@
 # pkgstats
 
 > Submit and view Arch Linux package popularity statistics.
-> More information: <https://wiki.archlinux.org/title/Pkgstats>.
+> More information: <https://github.com/archlinux-de/pkgstats-cli#usage>.
 
 - Send installed package data:
 
