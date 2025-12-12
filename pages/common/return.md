@@ -1,6 +1,7 @@
 # return
 
-> Exit a function or a script if run with `source`.
+> Exit a function.
+> Can exit out of a script if run with `source`.
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#index-return>.
 
 - Exit a function prematurely:
