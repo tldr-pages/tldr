@@ -7,7 +7,7 @@
 
 `bzgrep "{{search_pattern}}" {{path/to/file}}`
 
-- Use extended `regex` (supports `?`, `+`, `{}`, `()` and `|`), in case-insensitive mode:
+- Use extended `regex` (supports `?`, `+`, `{}`, `()`, and `|`), in case-insensitive mode:
 
 `bzgrep {{[-E|--extended-regexp]}} {{[-i|--ignore-case]}} "{{search_pattern}}" {{path/to/file}}`
 

@@ -1,0 +1,7 @@
+# docker container rename
+
+> यह आदेश `docker rename` का उपनाम है।
+
+- मूल आदेश के लिए दस्तावेज़ देखें:
+
+`tldr docker rename`

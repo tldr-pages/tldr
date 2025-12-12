@@ -23,6 +23,6 @@
 
 `pio org list`
 
-- Update the name, email or display name of an organization:
+- Update the name, email, or display name of an organization:
 
 `pio org update --orgname {{new_organization_name}} --email {{new_email}} --displayname {{new_display_name}} {{organization_name}}`
