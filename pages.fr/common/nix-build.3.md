@@ -8,7 +8,7 @@
 
 `nix build {{nixpkgs#pkg}}`
 
-- Construit un paquet depuis un flake du répertoire actuel, en affichant les logs du processus :
+- Construit un paquet depuis un flake du répertoire actuel, en affichant les journaux du processus :
 
 `nix build {{[-L|--print-build-logs]}} {{.#pkg}}`
 
