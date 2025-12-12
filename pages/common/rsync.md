@@ -8,7 +8,7 @@
 
 `rsync {{path/to/source}} {{path/to/destination}}`
 
-- Use archive mode (recursively copy directories, copy symlinks without resolving, and preserve permissions, ownership and modification times):
+- Use archive mode (recursively copy directories, copy symlinks without resolving, and preserve permissions, ownership, and modification times):
 
 `rsync {{[-a|--archive]}} {{path/to/source}} {{path/to/destination}}`
 

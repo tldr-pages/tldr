@@ -23,6 +23,6 @@
 
 `binwalk {{[-E|--entropy]}} {{[-J|--save]}} {{path/to/binary}}`
 
-- Combine entropy, signature and opcodes analysis in a single command:
+- Combine entropy, signature, and opcodes analysis in a single command:
 
 `binwalk {{[-E|--entropy]}} {{[-B|--signature]}} {{[-A|--opcodes]}} {{path/to/binary}}`

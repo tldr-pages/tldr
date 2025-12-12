@@ -6,16 +6,16 @@
 
 - Install all dependencies and then run tests:
 
-`npm install-test`
+`npm {{[it|install-test]}}`
 
 - Install a specific package and then run tests:
 
-`npm install-test {{package_name}}`
+`npm {{[it|install-test]}} {{package_name}}`
 
 - Install a package and save it as a dependency before running tests:
 
-`npm install-test {{package_name}} {{[-S|--save]}}`
+`npm {{[it|install-test]}} {{package_name}} {{[-S|--save]}}`
 
 - Install dependencies globally and then run tests:
 
-`npm install-test {{[-g|--global]}}`
+`npm {{[it|install-test]}} {{[-g|--global]}}`

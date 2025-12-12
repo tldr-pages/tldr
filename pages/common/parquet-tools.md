@@ -1,6 +1,6 @@
 # parquet-tools
 
-> Show, inspect and manipulate Parquet file.
+> Show, inspect, and manipulate Parquet file.
 > More information: <https://github.com/apache/parquet-mr>.
 
 - Display the content of a Parquet file:
