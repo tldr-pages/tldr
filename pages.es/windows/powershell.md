@@ -21,7 +21,7 @@
 
 `powershell -File {{ruta/al/script.ps1}}`
 
-- Iniciar una sesión con una versión específica de PowerShell:
+- Inicia una sesión con una versión específica de PowerShell:
 
 `powershell -Version {{versión}}`
 
