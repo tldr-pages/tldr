@@ -16,7 +16,7 @@
 
 `uname {{[-mp|--machine --processor]}}`
 
-- Print kernel name, kernel release and kernel version:
+- Print kernel name, kernel release, and kernel version:
 
 `uname {{[-srv|--kernel-name --kernel-release --kernel-version]}}`
 
