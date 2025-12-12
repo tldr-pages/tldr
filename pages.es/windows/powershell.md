@@ -9,7 +9,7 @@
 
 `powershell`
 
-- Iniciar una sesión interactiva de shell sin cargar configuraciones de inicio:
+- Inicia una sesión interactiva de shell sin cargar configuraciones de inicio:
 
 `powershell -NoProfile`
 
