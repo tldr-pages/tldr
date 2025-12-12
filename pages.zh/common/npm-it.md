@@ -1,7 +1,7 @@
 # npm it
 
-> 这是 `npm install-test` 命令的一个别名。
+> 此命令为 `npm install-test` 的别名。
 
-- 原命令的文档在：
+- 查看原命令的文档：
 
 `tldr npm install-test`

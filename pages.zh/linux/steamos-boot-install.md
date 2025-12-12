@@ -1,7 +1,7 @@
 # steamos-boot-install
 
-> 这是 `steamos-finalize-install` 命令的一个别名。
+> 此命令为 `steamos-finalize-install` 的别名。
 
-- 原命令的文档在：
+- 查看原命令的文档：
 
 `tldr steamos-finalize-install`

@@ -1,7 +1,7 @@
 # crane cp
 
-> 这是 `crane copy` 命令的一个别名。
+> 此命令为 `crane copy` 的别名。
 
-- 原命令的文档在：
+- 查看原命令的文档：
 
 `tldr crane copy`

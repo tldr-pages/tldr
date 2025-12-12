@@ -1,7 +1,7 @@
 # linux64
 
-> 这是 `setarch linux64` 命令的一个别名。
+> 此命令为 `setarch linux64` 的别名。
 
-- 原命令的文档在：
+- 查看原命令的文档：
 
 `tldr setarch`

@@ -1,7 +1,7 @@
 # zstdcat
 
-> 这是 `zstd --decompress --stdout` 命令的一个别名。
+> 此命令为 `zstd --decompress --stdout --force` 的别名。
 
-- 原命令的文档在：
+- 查看原命令的文档：
 
 `tldr zstd`

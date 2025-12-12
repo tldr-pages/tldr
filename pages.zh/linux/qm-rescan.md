@@ -1,7 +1,7 @@
 # qm rescan
 
-> 这是 `qm disk rescan` 命令的一个别名。
+> 此命令为 `qm disk rescan` 的别名。
 
-- 原命令的文档在：
+- 查看原命令的文档：
 
 `tldr qm disk rescan`

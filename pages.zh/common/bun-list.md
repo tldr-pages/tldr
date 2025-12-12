@@ -1,7 +1,7 @@
 # bun list
 
-> 这是 `bun pm ls` 命令的一个别名。
+> 此命令为 `bun pm ls` 的别名。
 
-- 原命令的文档在：
+- 查看原命令的文档：
 
 `tldr bun pm ls`

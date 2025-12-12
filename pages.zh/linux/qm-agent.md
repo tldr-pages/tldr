@@ -1,7 +1,7 @@
 # qm agent
 
-> 这是 `qm guest cmd` 命令的一个别名。
+> 此命令为 `qm guest cmd` 的别名。
 
-- 原命令的文档在：
+- 查看原命令的文档：
 
 `tldr qm guest cmd`

@@ -1,7 +1,7 @@
 # linux32
 
-> 这是 `setarch linux32` 命令的一个别名。
+> 此命令为 `setarch linux32` 的别名。
 
-- 原命令的文档在：
+- 查看原命令的文档：
 
 `tldr setarch`

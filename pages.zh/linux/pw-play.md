@@ -1,7 +1,7 @@
 # pw-play
 
-> 这是 `pw-cat --playback` 命令的一个别名。
+> 此命令为 `pw-cat --playback` 的别名。
 
-- 原命令的文档在：
+- 查看原命令的文档：
 
 `tldr pw-cat`

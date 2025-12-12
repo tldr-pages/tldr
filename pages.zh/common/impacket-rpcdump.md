@@ -1,7 +1,7 @@
 # impacket-rpcdump
 
-> 这是 `rpcdump.py` 命令的一个别名。
+> 此命令为 `rpcdump.py` 的别名。
 
-- 原命令的文档在：
+- 查看原命令的文档：
 
 `tldr rpcdump.py`

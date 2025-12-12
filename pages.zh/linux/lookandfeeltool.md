@@ -1,7 +1,7 @@
 # lookandfeeltool
 
-> 这是 `plasma-apply-lookandfeel` 命令的一个别名。
+> 此命令为 `plasma-apply-lookandfeel` 的别名。
 
-- 原命令的文档在：
+- 查看原命令的文档：
 
 `tldr plasma-apply-lookandfeel`

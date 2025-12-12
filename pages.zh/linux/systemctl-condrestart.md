@@ -1,7 +1,7 @@
 # systemctl condrestart
 
-> 这是 `systemctl try-restart` 命令的一个别名。
+> 此命令为 `systemctl try-restart` 的别名。
 
-- 原命令的文档在：
+- 查看原命令的文档：
 
 `tldr systemctl try-restart`

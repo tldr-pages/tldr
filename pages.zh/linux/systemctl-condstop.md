@@ -1,7 +1,7 @@
 # systemctl condstop
 
-> 这是 `systemctl stop` 命令的一个别名。
+> 此命令为 `systemctl stop` 的别名。
 
-- 原命令的文档在：
+- 查看原命令的文档：
 
 `tldr systemctl stop`

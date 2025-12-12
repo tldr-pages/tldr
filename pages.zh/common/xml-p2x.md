@@ -1,7 +1,7 @@
 # xml p2x
 
-> 这是 `xml depyx` 命令的一个别名。
+> 此命令为 `xml depyx` 的别名。
 
-- 原命令的文档在：
+- 查看原命令的文档：
 
 `tldr xml depyx`

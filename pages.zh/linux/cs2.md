@@ -1,7 +1,7 @@
 # cs2
 
-> 这是 `counter strike 2` 命令的一个别名。
+> 此命令为 `counter strike 2` 的别名。
 
-- 原命令的文档在：
+- 查看原命令的文档：
 
 `tldr counter strike 2`

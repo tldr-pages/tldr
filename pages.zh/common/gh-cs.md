@@ -1,7 +1,7 @@
 # gh cs
 
-> 这是 `gh codespace` 命令的一个别名。
+> 此命令为 `gh codespace` 的别名。
 
-- 原命令的文档在：
+- 查看原命令的文档：
 
 `tldr gh codespace`

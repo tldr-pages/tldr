@@ -1,7 +1,7 @@
 # update-grub
 
-> 这是 `grub-mkconfig --output /boot/grub/grub.cfg` 命令的一个别名。
+> 此命令为 `grub-mkconfig --output /boot/grub/grub.cfg` 的别名。
 
-- 原命令的文档在：
+- 查看原命令的文档：
 
 `tldr grub-mkconfig`

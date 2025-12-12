@@ -1,7 +1,7 @@
 # impacket-sniff
 
-> 这是 `sniff.py` 命令的一个别名。
+> 此命令为 `sniff.py` 的别名。
 
-- 原命令的文档在：
+- 查看原命令的文档：
 
 `tldr sniff.py`
