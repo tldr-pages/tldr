@@ -1,6 +1,6 @@
 # aws rds
 
-> Use AWS Relational Database Service, a web service for setting up, operating and scaling relational databases.
+> Use AWS Relational Database Service, a web service for setting up, operating, and scaling relational databases.
 > More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/rds/index.html>.
 
 - Display help for a specific RDS subcommand:
