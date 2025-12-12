@@ -1,6 +1,6 @@
 # git grep
 
-> Find strings inside files in a repository.
+> Find strings inside tracked files in a repository.
 > Accepts a lot of the same flags as regular `grep`.
 > More information: <https://git-scm.com/docs/git-grep>.
 
