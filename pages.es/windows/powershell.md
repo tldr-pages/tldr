@@ -17,7 +17,7 @@
 
 `powershell -Command "{{echo 'powershell se está ejecutando'}}"`
 
-- Ejecutar un script específico:
+- Ejecuta un script específico:
 
 `powershell -File {{ruta/al/script.ps1}}`
 
