@@ -3,9 +3,13 @@
 > Install Python packages.
 > More information: <https://pip.pypa.io/en/stable/cli/pip_install/>.
 
-- Install a package:
+- Install one or more packages:
 
-`pip install {{package}}`
+`pip install {{package1 package2 ...}}`
+
+- Upgrade all specified packages to the latest version, installing any that are not already present:
+
+`pip install {{package1 package2 ...}} {{[-U|--upgrade]}}`
 
 - Install a specific version of a package:
 
