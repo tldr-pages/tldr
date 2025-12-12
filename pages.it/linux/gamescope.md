@@ -18,7 +18,7 @@
 
 - Limita un gioco con vsync a 30 FPS:
 
-`gamescope {{[-r|--nested-refresh]}} 30 -- %command%`
+`gamescope {{[-r|--nested-refresh]}} 30 -- {{command}}`
 
 - Avvia Steam in Big Picture Mode e integra con gamescope:
 
