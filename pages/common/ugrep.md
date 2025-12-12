@@ -19,7 +19,7 @@
 
 `ugrep {{[-l|--files-with-matches]}} "{{search_pattern}}"`
 
-- Fuzzy search files with up to 3 extra, missing or mismatching characters in the pattern:
+- Fuzzy search files with up to 3 extra, missing, or mismatching characters in the pattern:
 
 `ugrep {{[-Z|--fuzzy=]}}{{3}} "{{search_pattern}}"`
 
