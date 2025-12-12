@@ -12,7 +12,7 @@
 
 `rgrep {{[-i|--ignore-case]}} "{{search_pattern}}"`
 
-- Recursively search for an extended `regex` pattern (supports `?`, `+`, `{}`, `()` and `|`) in the current working directory:
+- Recursively search for an extended `regex` pattern (supports `?`, `+`, `{}`, `()`, and `|`) in the current working directory:
 
 `rgrep {{[-E|--extended-regexp]}} "{{search_pattern}}"`
 

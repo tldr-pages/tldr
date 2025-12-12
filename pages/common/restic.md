@@ -1,6 +1,6 @@
 # restic
 
-> A fast, secure and secure backup program.
+> A fast and secure backup program.
 > More information: <https://restic.readthedocs.io/en/stable/manual_rest.html#usage-help>.
 
 - Initialize a backup repository in the specified local directory:
