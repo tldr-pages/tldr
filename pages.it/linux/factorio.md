@@ -19,6 +19,6 @@
 
 `/quit`
 
-- Visualizza la guida:
+- Mostra informazioni di aiuto:
 
 `{{percorso/a/factorio}} {{[-h|--help]}}`
