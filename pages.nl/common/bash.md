@@ -1,7 +1,7 @@
 # bash
 
 > Bourne-Again SHell, `sh`-ondersteunende commandoregel-interpreteerder.
-> Zie ook: `zsh`, `histexpand` (history expansion).
+> Zie ook: `zsh`, `!` (history expansion).
 > Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#Invoking-Bash>.
 
 - Start een interactieve shell sessie:
