@@ -1,7 +1,7 @@
 # zsh
 
 > Z SHell, a Bash-compatible command-line interpreter.
-> See also: `bash`, `histexpand`.
+> See also: `bash`, `!`, `^`.
 > More information: <https://zsh.sourceforge.io/Doc/Release/Invocation.html#Invocation>.
 
 - Start an interactive shell session:
