@@ -13,7 +13,7 @@
 
 `powershell -NoProfile`
 
-- Ejecutar comandos específicos:
+- Ejecuta comandos específicos:
 
 `powershell -Command "{{echo 'powershell se está ejecutando'}}"`
 
