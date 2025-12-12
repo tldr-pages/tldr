@@ -5,7 +5,7 @@
 
 - Execute the `ls` program literally, even if an `ls` alias exists:
 
-`command {{ls}}`
+`command ls`
 
 - Find and execute a command using a default `$PATH` (`/bin:/usr/bin:/sbin:/usr/sbin:/etc:/usr/etc`) that guarantees to find all standard utilities:
 
