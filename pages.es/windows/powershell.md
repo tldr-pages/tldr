@@ -1,7 +1,8 @@
 # powershell
 
 > Shell de línea de comandos y lenguaje de scripting diseñado especialmente para la administración del sistema.
-> Este comando se refiere a la versión 5.1 de PowerShell y anteriores (también conocida como Windows PowerShell heredada). Para usar la versión más nueva y multiplataforma de PowerShell (también conocida como PowerShell Core), usa `pwsh` en lugar de `powershell`.
+> Este comando se refiere a la versión 5.1 de PowerShell y anteriores (también conocida como Windows PowerShell heredada).
+> Para usar la versión más nueva y multiplataforma de PowerShell (también conocida como PowerShell Core), usa `pwsh` en lugar de `powershell`.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/powershell>.
 
 - Iniciar una sesión interactiva de shell:
