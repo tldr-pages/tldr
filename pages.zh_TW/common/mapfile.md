@@ -1,7 +1,7 @@
 # mapfile
 
-> 這是 `readarray` 命令的一個別名。
+> 此命令為 `readarray` 的別名。
 
-- 原命令的文件在：
+- 檢視原命令的文件：
 
 `tldr readarray`

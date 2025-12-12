@@ -1,7 +1,7 @@
 # qm importdisk
 
-> 這是 `qm disk import` 命令的一個別名。
+> 此命令為 `qm disk import` 的別名。
 
-- 原命令的文件在：
+- 檢視原命令的文件：
 
 `tldr qm disk import`

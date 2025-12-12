@@ -1,7 +1,7 @@
 # pacman -R
 
-> 這是 `pacman --remove` 命令的一個別名。
+> 此命令為 `pacman --remove` 的別名。
 
-- 原命令的文件在：
+- 檢視原命令的文件：
 
 `tldr pacman remove`

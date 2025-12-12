@@ -1,7 +1,7 @@
 # git stage
 
-> 這是 `git add` 命令的一個別名。
+> 此命令為 `git add` 的別名。
 
-- 原命令的文件在：
+- 檢視原命令的文件：
 
 `tldr git add`

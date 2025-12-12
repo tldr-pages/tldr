@@ -1,7 +1,7 @@
 # bun i
 
-> 這是 `bun install` 命令的一個別名。
+> 此命令為 `bun install` 的別名。
 
-- 原命令的文件在：
+- 檢視原命令的文件：
 
 `tldr bun install`

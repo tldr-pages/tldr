@@ -1,7 +1,7 @@
 # systemctl force-reload
 
-> 這是 `systemctl try-reload-or-restart` 命令的一個別名。
+> 此命令為 `systemctl try-reload-or-restart` 的別名。
 
-- 原命令的文件在：
+- 檢視原命令的文件：
 
 `tldr systemctl try-reload-or-restart`

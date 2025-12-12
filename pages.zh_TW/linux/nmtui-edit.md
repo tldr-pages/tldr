@@ -1,7 +1,7 @@
 # nmtui-edit
 
-> 這是 `nmtui edit` 命令的一個別名。
+> 此命令為 `nmtui edit` 的別名。
 
-- 原命令的文件在：
+- 檢視原命令的文件：
 
 `tldr nmtui`

@@ -1,7 +1,7 @@
 # dnf deplist
 
-> 這是 `dnf repoquery --deplist` 命令的一個別名。
+> 此命令為 `dnf repoquery --deplist` 的別名。
 
-- 原命令的文件在：
+- 檢視原命令的文件：
 
 `tldr dnf repoquery`

@@ -1,7 +1,7 @@
 # docker container rename
 
-> 這是 `docker rename` 命令的一個別名。
+> 此命令為 `docker rename` 的別名。
 
-- 原命令的文件在：
+- 檢視原命令的文件：
 
 `tldr docker rename`

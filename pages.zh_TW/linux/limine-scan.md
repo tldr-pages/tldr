@@ -1,7 +1,7 @@
 # limine-scan
 
-> 這是 `limine-entry-tool --scan` 命令的一個別名。
+> 此命令為 `limine-entry-tool --scan` 的別名。
 
-- 原命令的文件在：
+- 檢視原命令的文件：
 
 `tldr limine-entry-tool`

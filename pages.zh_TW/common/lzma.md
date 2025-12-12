@@ -1,7 +1,7 @@
 # lzma
 
-> 這是 `xz --format lzma` 命令的一個別名。
+> 此命令為 `xz --format lzma` 的別名。
 
-- 原命令的文件在：
+- 檢視原命令的文件：
 
 `tldr xz`

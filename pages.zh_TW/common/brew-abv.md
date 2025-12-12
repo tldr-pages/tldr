@@ -1,7 +1,7 @@
 # brew abv
 
-> 這是 `brew info` 命令的一個別名。
+> 此命令為 `brew info` 的別名。
 
-- 原命令的文件在：
+- 檢視原命令的文件：
 
 `tldr brew info`

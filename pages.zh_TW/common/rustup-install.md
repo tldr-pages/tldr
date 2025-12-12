@@ -1,7 +1,7 @@
 # rustup install
 
-> 這是 `rustup toolchain install` 命令的一個別名。
+> 此命令為 `rustup toolchain install` 的別名。
 
-- 原命令的文件在：
+- 檢視原命令的文件：
 
 `tldr rustup toolchain`

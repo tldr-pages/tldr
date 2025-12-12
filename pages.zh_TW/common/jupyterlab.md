@@ -1,7 +1,7 @@
 # jupyterlab
 
-> 這是 `jupyter lab` 命令的一個別名。
+> 此命令為 `jupyter lab` 的別名。
 
-- 原命令的文件在：
+- 檢視原命令的文件：
 
 `tldr jupyter lab`

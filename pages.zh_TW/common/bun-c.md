@@ -1,7 +1,7 @@
 # bun c
 
-> 這是 `bun create` 命令的一個別名。
+> 此命令為 `bun create` 的別名。
 
-- 原命令的文件在：
+- 檢視原命令的文件：
 
 `tldr bun create`

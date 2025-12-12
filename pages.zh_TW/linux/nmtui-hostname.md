@@ -1,7 +1,7 @@
 # nmtui-hostname
 
-> 這是 `nmtui hostname` 命令的一個別名。
+> 此命令為 `nmtui hostname` 的別名。
 
-- 原命令的文件在：
+- 檢視原命令的文件：
 
 `tldr nmtui`
