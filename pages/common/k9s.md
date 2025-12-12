@@ -11,7 +11,7 @@
 
 `k9s --readonly --cluster {{cluster_name}}`
 
-- Manage a cluster using a given kubernetes namespace:
+- Manage a cluster using a given Kubernetes namespace:
 
 `k9s {{[-n|--namespace]}} {{kubernetes_namespace}} --cluster {{cluster_name}}`
 
