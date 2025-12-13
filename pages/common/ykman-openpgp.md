@@ -12,7 +12,7 @@
 
 `ykman openpgp access set-retries {{3}} {{3}} {{3}}`
 
-- Change the User PIN, Reset Code or Admin PIN:
+- Change the User PIN, Reset Code, or Admin PIN:
 
 `ykman openpgp access change-{{pin|reset-code|admin-pin}}`
 
