@@ -8,7 +8,7 @@
 
 `resolvectl status`
 
-- Znajdź adresy IPv4 i IPv6 jednej lub więcej domen:
+- Znajdź adresy IPv4 i IPv6 jednej lub więcej domen:
 
 `resolvectl query {{domena1 domena2 ...}}`
 
