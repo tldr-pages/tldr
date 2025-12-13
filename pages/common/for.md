@@ -3,7 +3,7 @@
 > Perform a command several times.
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#Looping-Constructs>.
 
-- Iterate through command line arguments:
+- Iterate through command line parameters:
 
 `for {{variable}}; do {{echo $variable}}; done`
 

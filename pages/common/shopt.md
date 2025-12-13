@@ -4,7 +4,7 @@
 > Generic POSIX shell variables (stored in `$SHELLOPTS`) are managed with the `set` command instead.
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#The-Shopt-Builtin>.
 
-- List of all settable options and whether they are set:
+- List of all setable options and whether they are set:
 
 `shopt`
 

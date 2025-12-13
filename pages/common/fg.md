@@ -1,7 +1,7 @@
 # fg
 
 > Run jobs in foreground.
-> See also: `jobs`, `bg`, `disown`.
+> See also: `jobs`, `bg`, `disown`, `%`.
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#index-fg>.
 
 - Bring most recently suspended or running background job to foreground:
