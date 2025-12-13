@@ -2,7 +2,7 @@
 
 > Upgrade Slackware packages by replacing existing packages with new versions.
 > See also: `installpkg`, `removepkg`, `makepkg`, `pkgtool`.
-> More information: <https://www.slackbook.org/html/package-management-package-utilities.html>.
+> More information: <https://www.slackbook.org/html/book.html#PACKAGE-MANAGEMENT-PACKAGE-UTILITIES-UPGRADEPKG>.
 
 - Upgrade a package:
 
