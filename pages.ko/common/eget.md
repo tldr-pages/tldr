@@ -1,7 +1,7 @@
 # eget
 
 > GitHub에서 사전 구축된 바이너리를 쉽게 설치 가능.
-> 더 많은 정보: <https://github.com/zyedidia/eget>.
+> 더 많은 정보: <https://github.com/zyedidia/eget#usage>.
 
 - GitHub 저장소에서 현재 시스템에 대해 사전 빌드된 바이너리를 다운로드:
 

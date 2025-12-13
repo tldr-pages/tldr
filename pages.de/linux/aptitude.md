@@ -1,7 +1,7 @@
 # aptitude
 
 > Debian und Ubuntu Paket Management Tool.
-> Weitere Informationen: <https://manned.org/aptitude.8>.
+> Weitere Informationen: <https://manned.org/aptitude>.
 
 - Synchronisiere die Paketliste und verfügbaren Versionen. Dieser Command sollte zuerst ausgeführt werden bevor weitere aptitude Commands ausgeführt werden:
 

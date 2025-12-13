@@ -2,7 +2,7 @@
 
 > Atualizar as timestamps de um ficheiro para a hora atual.
 > Se o ficheiro não existir, cria um ficheiro vazio, a menos que seja passado o parâmetro -c ou -h.
-> Mais informações: <https://manned.org/touch>.
+> Mais informações: <https://www.gnu.org/software/coreutils/manual/html_node/touch-invocation.html>.
 
 - Cria um novo ficheiro vazio, ou atualizar as timestamps para a hora atual:
 

@@ -1,7 +1,7 @@
 # wtf
 
 > Mostra a expansão de acrônimos.
-> Mais informações: <https://manned.org/wtf.6>.
+> Mais informações: <https://manned.org/wtf>.
 
 - Expande um acrônimo:
 

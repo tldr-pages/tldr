@@ -1,7 +1,7 @@
 # apt-cache
 
 > Debian এবং Ubuntu-তে ব্যবহৃত একটি প্যাকেজ অনুসন্ধান (package query) টুল।
-> আরও তথ্য পাবেন: <https://manned.org/apt-cache.8>।
+> আরও তথ্য পাবেন: <https://manned.org/apt-cache>।
 
 - বর্তমান সোর্সে কোনো প্যাকেজ খোঁজার জন্য:
 

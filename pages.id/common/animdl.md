@@ -2,7 +2,7 @@
 
 > Suatu mesin scraper konten anime secara efisien, kuat, dan cepat.
 > Lihat juga: `ani-cli`.
-> Informasi lebih lanjut: <https://github.com/justfoolingaround/animdl>.
+> Informasi lebih lanjut: <https://github.com/justfoolingaround/animdl#usage>.
 
 - Unduh konten suatu anime:
 

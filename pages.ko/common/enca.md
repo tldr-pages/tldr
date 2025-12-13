@@ -1,7 +1,7 @@
 # enca
 
 > 텍스트 파일의 인코딩을 감지하고 변환.
-> 더 많은 정보: <https://github.com/nijel/enca>.
+> 더 많은 정보: <https://manned.org/enca>.
 
 - 시스템의 위치에 따라 파일 인코딩을 감지:
 

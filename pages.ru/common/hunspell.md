@@ -1,7 +1,7 @@
 # hunspell
 
 > Проверка орфографии.
-> Больше информации: <https://github.com/hunspell/hunspell>.
+> Больше информации: <https://manned.org/hunspell>.
 
 - Проверить орфографию в указанном файле:
 

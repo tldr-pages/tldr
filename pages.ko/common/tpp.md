@@ -1,7 +1,7 @@
 # tpp
 
 > 커맨드라인 기반 프레젠테이션 도구.
-> 더 많은 정보: <https://github.com/cbbrowne/tpp>.
+> 더 많은 정보: <https://manned.org/tpp>.
 
 - 프레젠테이션 보기:
 

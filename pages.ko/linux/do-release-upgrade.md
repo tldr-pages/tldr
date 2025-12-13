@@ -1,7 +1,7 @@
 # do-release-upgrade
 
 > Ubuntu 릴리스 업그레이더.
-> 더 많은 정보: <https://manned.org/do-release-upgrade.8>.
+> 더 많은 정보: <https://manned.org/do-release-upgrade>.
 
 - 최신 릴리스로 업그레이드:
 

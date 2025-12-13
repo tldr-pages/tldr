@@ -1,7 +1,7 @@
 # picom
 
 > Xorg를 위한 독립형 합성기.
-> 더 많은 정보: <https://manned.org/picom>.
+> 더 많은 정보: <https://github.com/yshui/picom/blob/next/man/picom.1.adoc>.
 
 - 세션 중에 `picom` 활성화:
 

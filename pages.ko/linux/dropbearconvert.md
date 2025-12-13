@@ -1,7 +1,7 @@
 # dropbearconvert
 
 > Dropbear와 OpenSSH 개인 키 형식 간 변환.
-> 더 많은 정보: <https://manned.org/dropbearconvert.1>.
+> 더 많은 정보: <https://manned.org/dropbearconvert>.
 
 - OpenSSH 개인 키를 Dropbear 형식으로 변환:
 

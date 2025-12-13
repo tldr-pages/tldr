@@ -1,7 +1,7 @@
 # a2disconf
 
 > Deshabilita un archivo de configuración de Apache en sistemas operativos basados en Debian.
-> Más información: <https://manned.org/a2disconf.8>.
+> Más información: <https://manned.org/a2disconf>.
 
 - Deshabilita un archivo de configuración:
 

@@ -1,7 +1,7 @@
 # snakefmt
 
 > Snakemake 파일을 포맷합니다.
-> 더 많은 정보: <https://github.com/snakemake/snakefmt>.
+> 더 많은 정보: <https://github.com/snakemake/snakefmt#usage>.
 
 - 특정 Snakefile 포맷:
 

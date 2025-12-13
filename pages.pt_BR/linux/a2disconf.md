@@ -1,7 +1,7 @@
 # a2disconf
 
 > Desativar um arquivo de configuração em sistemas operacionais baseados no Debian.
-> Mais informações: <https://manned.org/a2disconf.8>.
+> Mais informações: <https://manned.org/a2disconf>.
 
 - Desativa um arquivo de configuração:
 

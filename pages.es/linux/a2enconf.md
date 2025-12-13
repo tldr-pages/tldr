@@ -1,7 +1,7 @@
 # a2enconf
 
 > Habilita un archivo de configuración de Apache en sistemas operativos basados en Debian.
-> Más información: <https://manned.org/a2enconf.8>.
+> Más información: <https://manned.org/a2enconf>.
 
 - Habilita un archivo de configuración:
 

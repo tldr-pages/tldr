@@ -1,7 +1,7 @@
 # pro
 
 > Ubuntu Pro 서비스 관리.
-> 더 많은 정보: <https://manned.org/ubuntu-advantage.1>.
+> 더 많은 정보: <https://manned.org/ubuntu-advantage>.
 
 - 시스템을 Ubuntu Pro 지원 계약에 연결:
 
