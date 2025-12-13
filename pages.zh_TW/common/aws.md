@@ -8,7 +8,7 @@
 
 `aws configure wizard`
 
-- 使用 SSO 設定 AWS 命令​​列：
+- 使用 SSO 設定 AWS 命令列：
 
 `aws configure sso`
 
@@ -32,6 +32,6 @@
 
 `aws dynamodb update-table --generate-cli-skeleton`
 
-- 查看 AWS 指令​​的說明：
+- 查看 AWS 指令的說明：
 
 `aws {{AWS指令}} help`
