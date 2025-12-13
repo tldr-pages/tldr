@@ -11,6 +11,6 @@
 
 `enable -n {{command}}`
 
-- Re-enable a builtin
+- Re-enable a builtin:
 
 `enable {{command}}`
