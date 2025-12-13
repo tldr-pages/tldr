@@ -1,8 +1,7 @@
 # wget
 
-> Download files from the Web.
-> Supports HTTP, HTTPS, and FTP.
-> See also: `curl`.
+> Download files from HTTP, HTTPS, and FTP.
+> You should prefer: `wcurl`.
 > More information: <https://www.gnu.org/software/wget/manual/wget.html>.
 
 - Download the contents of a URL to a file (named "foo" in this case):
