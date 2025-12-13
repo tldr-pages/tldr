@@ -9,4 +9,4 @@
 
 - Force suspend-then-hibernate (bypass inhibitor locks):
 
-`systemctl suspend-then-hibernate --force`
+`systemctl suspend-then-hibernate {{[-f|--force]}}`
