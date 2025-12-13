@@ -19,7 +19,7 @@
 
 `pip install {{[-r|--requirement]}} {{path/to/requirements.txt}}`
 
-- Install packages from an URL or local file archive (e.g. `.tar.gz`, `.whl`):
+- Install packages from a URL or local file archive (e.g. `.tar.gz`, `.whl`):
 
 `pip install {{[-f|--find-links]}} {{url|path/to/file}}`
 
