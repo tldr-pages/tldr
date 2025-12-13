@@ -1,6 +1,7 @@
 # sfdk
 
 > Frontend of the Sailfish SDK.
+> Some subcommands such as `init`, `build-init`, `build` have their own usage documentation.
 > More information: <https://github.com/sailfishos/sailfish-qtcreator/blob/master/share/qtcreator/sfdk/modules/10-general/doc/module.adoc>.
 
 - Setup the current environment for building for SailfishOS 5.0.0.62 aarch64 target:
@@ -13,11 +14,19 @@
 
 - Execute build steps of the RPM SPEC file for a specific project project:
 
-`git -C {{path/to/project}} build`
+`sfdk -C {{path/to/project}} build`
+
+- Build a project using a custom CMake command without the RPM SPEC file:
+
+`mkdir build; cd build; sfdk build-init; sfdk build-shell cmake ..; sfdk build-shell cmake --build .`
 
 - List repositories in the SailfishOS 5.0.0.64 armv7hl build target:
 
-`git -c 'target=SailfishOS-5.0.0.62-armv7hl' build-shell --maintain ssu lr`
+`sfdk -c 'target=SailfishOS-5.0.0.62-armv7hl' build-shell --maintain ssu lr`
+
+- Deploy the package to the emulator:
+
+`sfdk config device="Sailfish OS Emulator 5.0.0.62"; sfdk deploy --sdk`
 
 - Display help:
 
