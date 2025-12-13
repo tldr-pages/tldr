@@ -8,6 +8,7 @@ grep -r "{{\[ "
 grep -r " ]}}"
 # shellcheck disable=SC2016
 find . -type f -print0 | xargs -0 awk '{ q=gsub(/"/,"&"); if(q % 2 != 0) print FILENAME ": " $0 }'
+# shellcheck disable=SC2016
 find . -type f -print0 | xargs -0 awk '{ b=gsub(/`/,"&"); if(b % 2 != 0) print FILENAME ": " $0 }'
 grep -r "{{[^}]*{{"
 grep -r www.manned
