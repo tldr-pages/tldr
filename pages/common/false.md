@@ -6,3 +6,7 @@
 - Return a non-zero exit code:
 
 `false`
+
+- Make a command always exit with 1:
+
+`{{command}} && false`
