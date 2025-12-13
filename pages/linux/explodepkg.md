@@ -2,7 +2,7 @@
 
 > Extract the contents of a Slackware package to the current directory.
 > See also: `installpkg`, `removepkg`, `upgradepkg`, `makepkg`, `pkgtool`.
-> More information: <https://www.slackbook.org/html/package-management-package-utilities.html>.
+> More information: <https://www.slackbook.org/html/book.html#PACKAGE-MANAGEMENT-EXPLODEPKG>.
 
 - Extract a package to the current directory:
 
