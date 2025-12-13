@@ -1,6 +1,6 @@
 # fc
 
-> Open the most recent command for editing and then run it.
+> Open the recent commands for editing and then run them.
 > See also: `history`.
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#index-fc>.
 
