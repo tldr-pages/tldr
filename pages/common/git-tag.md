@@ -32,6 +32,6 @@
 
 `git push origin tag {{tag_name}}`
 
-- List all tags which contain a given commit (HEAD if not specified):
+- List all tags which contain a given commit (`HEAD` if not specified):
 
 `git tag --contains {{commit}}`
