@@ -2,7 +2,7 @@
 
 > Interactive menu-driven tool for managing Slackware packages.
 > See also: `installpkg`, `removepkg`, `upgradepkg`, `makepkg`.
-> More information: <https://www.slackbook.org/html/package-management-package-utilities.html>.
+> More information: <https://www.slackbook.org/html/book.html#PACKAGE-MANAGEMENT-PACKAGE-UTILITIES-PKGTOOL>.
 
 - Launch the interactive package tool:
 
