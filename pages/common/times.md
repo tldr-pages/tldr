@@ -5,6 +5,6 @@
 > See also: `time`.
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#index-times>.
 
-- Print CPU usage.:
+- Print CPU usage:
 
 `times`
