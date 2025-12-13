@@ -3,7 +3,7 @@
 > Create an archive of files from a tree.
 > More information: <https://git-scm.com/docs/git-archive>.
 
-- Create a tar archive from the contents of the current HEAD and print it to `stdout`:
+- Create a tar archive from the contents of the current `HEAD` and print it to `stdout`:
 
 `git archive {{[-v|--verbose]}} HEAD`
 

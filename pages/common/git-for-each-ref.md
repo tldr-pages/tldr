@@ -15,7 +15,7 @@
 
 `git for-each-ref refs/tags/`
 
-- Show branches merged into HEAD:
+- Show branches merged into `HEAD`:
 
 `git for-each-ref --merged HEAD refs/heads/`
 
