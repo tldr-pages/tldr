@@ -2,7 +2,7 @@
 
 > Administer Oracle Solaris zones.
 > See also: `zonecfg`, `zlogin`.
-> More information: <https://manned.org/zoneadm.8>.
+> More information: <https://docs.oracle.com/cd/E88353_01/html/E72487/zoneadm-8.html>.
 
 - List all zones and their current status:
 
