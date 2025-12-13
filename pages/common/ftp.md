@@ -3,7 +3,7 @@
 > Tools to interact with a server via File Transfer Protocol.
 > More information: <https://manned.org/ftp>.
 
-- Connect to an FTP server:
+- Connect to an FTP server and run in interactive mode:
 
 `ftp {{ftp.example.com}}`
 
