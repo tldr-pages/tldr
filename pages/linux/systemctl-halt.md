@@ -10,15 +10,15 @@
 
 - Halt the system immediately without asking services to stop gracefully:
 
-`systemctl halt --force`
+`systemctl halt {{[-f|--force]}}`
 
 - Halt the system immediately without sending notifications to logged-in users:
 
-`systemctl halt --force --no-wall`
+`systemctl halt {{[-f|--force]}} --no-wall`
 
 - Halt the system immediately without terminating any processes or unmounting filesystems (dangerous, may cause data loss):
 
-`systemctl halt --force --force`
+`systemctl halt {{[-ff|--force --force]}}`
 
 - Schedule a halt at a specific time (e.g., 23:00):
 

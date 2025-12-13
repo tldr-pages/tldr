@@ -11,6 +11,6 @@
 
 `agate {{percorso/del/file}}`
 
-- Visualizza la guida:
+- Mostra informazioni di aiuto:
 
 `agate -h`

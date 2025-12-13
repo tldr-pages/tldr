@@ -9,7 +9,7 @@
 
 - Force a soft reboot:
 
-`systemctl soft-reboot --force`
+`systemctl soft-reboot {{[-f|--force]}}`
 
 - Schedule a soft reboot for a specific time:
 
