@@ -11,7 +11,7 @@
 
 `coredumpctl list {{program}}`
 
-- Show information about the core dumps matching a program with `PID`:
+- Show information about the core dumps matching a program with PID:
 
 `coredumpctl info {{PID}}`
 
