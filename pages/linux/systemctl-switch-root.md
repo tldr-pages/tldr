@@ -13,4 +13,4 @@
 
 - Switch to a new root filesystem with verbose output:
 
-`systemctl switch-root {{path/to/new_root}} --verbose`
+`systemctl switch-root {{path/to/new_root}} {{[-v|--verbose]}}`
