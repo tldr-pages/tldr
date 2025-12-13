@@ -23,7 +23,7 @@
 
 `zoneadm -z {{zone_name}} reboot`
 
-- Halt (stop) a zone:
+- Halt (stop) a zone, bypassing any shutdown scripts inside the zone:
 
 `zoneadm -z {{zone_name}} halt`
 
