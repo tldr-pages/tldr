@@ -1,7 +1,7 @@
 # presenterm
 
 > A terminal-based slideshow tool that renders markdown presentations.
-> More information: <https://github.com/mfontanini/presenterm>.
+> More information: <https://mfontanini.github.io/presenterm/>.
 
 - Display a presentation:
 
