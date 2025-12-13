@@ -30,7 +30,7 @@
 
 - Efficiently copy a remote image from `src` to `dst` while retaining the digest value:
 
-`crane copy src dst {{[-a|--all-tags]}}`
+`crane {{[cp|copy]}} {{source}} {{destination}} {{[-a|--all-tags]}}`
 
 - Delete an image reference from its registry:
 
