@@ -133,11 +133,11 @@ Things to take into account:
 
 ### Examples
 
-- `ping {{example.com}}` MUST be rendered as "ping example.com"
-- `docker inspect --format '\{\{range.NetworkSettings.Networks\}\}\{\{.IPAddress\}\}\{\{end\}\}' {{container}}` MUST be rendered as "docker inspect --format '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' container"
-- `mount \\{{computer_name}}\{{share_name}} Z:` MUST be rendered as "mount \\\\computer_name\share_name Z:"
-- `git stash show --patch {{stash@{0}}}` MUST be rendered as "git stash show --patch stash@{0}"
-- `git add {{[-A|--all]}}` MUST be rendered as "git add -A" or "git add --all" when only short or longform is shown. It MUST be rendered as "git add [-A|--all]" when both are requested.
+- `` `ping {{example.com}}` `` MUST be rendered as `ping example.com`
+- `` `docker inspect --format '\{\{range.NetworkSettings.Networks\}\}\{\{.IPAddress\}\}\{\{end\}\}' {{container}}` `` MUST be rendered as `docker inspect --format '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' container`
+- `` `mount \\{{computer_name}}\{{share_name}} Z:` `` MUST be rendered as `mount \\computer_name\share_name Z:`
+- `` `git stash show --patch {{stash@{0}}}` `` MUST be rendered as `git stash show --patch stash@{0}`
+- `` `git add {{[-A|--all]}}` `` MUST be rendered as `git add -A` or `git add --all` when only short or longform is shown. It MUST be rendered as `git add [-A|--all]` when both are requested.
 
 ## Page resolution
 
