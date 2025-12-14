@@ -57,7 +57,7 @@ See also: `example`.
 ### ar
 
 ```markdown
-
+> انظر أيضًا: `example`.
 ```
 
 ---
@@ -105,7 +105,7 @@ See also: `example`.
 ### de
 
 ```markdown
-
+> Siehe auch: `example`.
 ```
 
 ---
@@ -113,7 +113,7 @@ See also: `example`.
 ### es
 
 ```markdown
-
+> Vea también: `example`.
 ```
 
 ---
@@ -121,7 +121,7 @@ See also: `example`.
 ### fa
 
 ```markdown
-
+> همچنین : `example`.
 ```
 
 ---
@@ -137,7 +137,7 @@ Katso myös: `example`.
 ### fr
 
 ```markdown
-
+> Voir aussi : `example`.
 ```
 
 ---
@@ -153,7 +153,7 @@ Katso myös: `example`.
 ### id
 
 ```markdown
-
+> Guarda anche: `example`.
 ```
 
 ---
@@ -161,7 +161,7 @@ Katso myös: `example`.
 ### it
 
 ```markdown
-
+> Vedi anche: `example`.
 ```
 
 ---
@@ -177,7 +177,7 @@ Katso myös: `example`.
 ### ko
 
 ```markdown
-
+> 같이 보기: `example`.
 ```
 
 ---
@@ -193,7 +193,7 @@ Katso myös: `example`.
 ### ml
 
 ```markdown
-
+> ഇതും കാണുക: `example`.
 ```
 
 ---
@@ -225,7 +225,7 @@ Katso myös: `example`.
 ### pl
 
 ```markdown
-
+> Zobacz także: `example`.
 ```
 
 ---
@@ -233,7 +233,7 @@ Katso myös: `example`.
 ### pt_BR
 
 ```markdown
-
+> Veja também: `example`.
 ```
 
 ---
@@ -241,7 +241,7 @@ Katso myös: `example`.
 ### pt_PT
 
 ```markdown
-
+> Veja também: `example`.
 ```
 
 ---
@@ -281,7 +281,7 @@ Katso myös: `example`.
 ### ta
 
 ```markdown
-
+> இதையும் பார்க்கவும்: `example`.
 ```
 
 ---
@@ -297,7 +297,7 @@ Katso myös: `example`.
 ### tr
 
 ```markdown
-
+> Ayrıca bakınız: `example`.
 ```
 
 ---
@@ -305,7 +305,7 @@ Katso myös: `example`.
 ### uk
 
 ```markdown
-
+> Дивіться також: `example`.
 ```
 
 ---
@@ -322,6 +322,7 @@ Katso myös: `example`.
 
 ```markdown
 > 另见 `example`。
+> 也可以看看：`example`.
 ```
 
 ---
