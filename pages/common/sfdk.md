@@ -4,7 +4,7 @@
 > Some subcommands such as `init`, `build-init`, `device` have their own usage documentation.
 > More information: <https://github.com/sailfishos/sailfish-qtcreator/blob/master/share/qtcreator/sfdk/modules/10-general/doc/module.adoc>.
 
-- Setup the current environment for building for SailfishOS 5.0.0.62 aarch64 target:
+- Setup the current environment for building for SailfishOS with a specific versions and architecture target:
 
 `sfdk config target=SailfishOS-{{5.0.0.62}}-{{aarch64}}`
 
