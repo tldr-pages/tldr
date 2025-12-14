@@ -1,6 +1,7 @@
 # distrobox-create
 
-> Criar um contêiner Distrobox. Veja também: `tldr distrobox`.
+> Criar um contêiner Distrobox.
+> Veja também: `distrobox`.
 > O contêiner criado será integrado ao sistema host, permitindo o compartilhamento do diretório HOME do usuário, armazenamento externo, dispositivos USB externos, aplicativos gráficos (X11/Wayland) e áudio.
 > Mais informações: <https://distrobox.it/usage/distrobox-create>.
 
