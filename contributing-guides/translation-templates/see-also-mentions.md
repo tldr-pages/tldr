@@ -96,9 +96,7 @@ See also: `example`.
 
 ### da
 
-```markdown
-
-```
+Not translated yet.
 
 ---
 
@@ -184,9 +182,7 @@ Katso myös: `example`.
 
 ### lo
 
-```markdown
-
-```
+Not translated yet.
 
 ---
 
@@ -200,9 +196,7 @@ Katso myös: `example`.
 
 ### ne
 
-```markdown
-
-```
+Not translated yet.
 
 ---
 
@@ -248,9 +242,7 @@ Katso myös: `example`.
 
 ### ro
 
-```markdown
-
-```
+Not translated yet.
 
 ---
 
@@ -270,9 +262,7 @@ Not translated yet.
 
 ### sv
 
-```markdown
-
-```
+Not translated yet.
 
 ---
 
@@ -310,9 +300,7 @@ Not translated yet.
 
 ### uz
 
-```markdown
-
-```
+Not translated yet.
 
 ---
 
