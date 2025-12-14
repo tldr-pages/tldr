@@ -1,28 +1,7 @@
 # egrep
 
-> Vind patronen in bestanden door gebruik te maken van uitgebreidere reguliere expressies (ondersteund `?`, `+`, `{}`, `()` en `|`).
-> Meer informatie: <https://manned.org/egrep>.
+> Dit commando is een alias van `grep --extended-regexp`.
 
-- Zoek naar een patroon in een bestand:
+- Bekijk de documentatie van het originele commando:
 
-`egrep "{{zoekpatroon}}" {{pad/naar/bestand}}`
-
-- Zoek naar een patroon in meerdere bestanden:
-
-`egrep "{{zoekpatroon}}" {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
-
-- Zoek in `stdin` naar een patroon:
-
-`cat {{pad/naar/bestand}} | egrep {{zoekpatroon}}`
-
-- Toon de bestandsnaam en het regelnummer voor iedere overeenkomst:
-
-`egrep {{[-H|--with-filename]}} {{[-n|--line-number]}} "{{zoekpatroon}}" {{pad/naar/bestand}}`
-
-- Zoek recursief in alle bestanden in een map voor een patroon, maar negeer binaire bestanden:
-
-`egrep {{[-r|--recursive]}} --binary-files={{without-match}} "{{zoekpatroon}}" {{pad/naar/map}}`
-
-- Zoek voor regels die niet voldoen aan een patroon:
-
-`egrep {{[-v|--invert-match]}} "{{zoekpatroon}}" {{pad/naar/bestand}}`
+`tldr grep`

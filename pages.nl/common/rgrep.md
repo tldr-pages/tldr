@@ -1,6 +1,6 @@
-# fgrep
+# rgrep
 
-> Dit commando is een alias van `grep --fixed-strings`.
+> Dit commando is een alias van `grep --recursive`.
 
 - Bekijk de documentatie van het originele commando:
 
