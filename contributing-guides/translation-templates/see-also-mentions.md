@@ -160,6 +160,7 @@ Katso myös: `example`.
 
 ```markdown
 > Vedi anche: `example`.
+> Guarda anche: `example`.
 ```
 
 ---
