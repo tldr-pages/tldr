@@ -6,7 +6,7 @@
 
 - Genera un archivo cifrado que se puede descifrar con una frase de contraseña:
 
-`age  {{[-p|--passphrase]}} {{[-o|--output]}} {{ruta/al/archivo_encriptado}} {{ruta/al/archivo_no_cifrado}}`
+`age {{[-p|--passphrase]}} {{[-o|--output]}} {{ruta/al/archivo_encriptado}} {{ruta/al/archivo_no_cifrado}}`
 
 - Cifra un archivo con una o varias claves públicas introducidas como literales (repite el indicador `--recipient` para especificar varias claves públicas):
 
