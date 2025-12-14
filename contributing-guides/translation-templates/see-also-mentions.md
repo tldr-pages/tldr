@@ -209,7 +209,7 @@ Katso myös: `example`.
 ### nl
 
 ```markdown
-
+> Zie ook: `example`.
 ```
 
 ---
@@ -257,7 +257,7 @@ Katso myös: `example`.
 ### ru
 
 ```markdown
-
+> Смотрите также: `example`.
 ```
 
 ---
@@ -321,7 +321,7 @@ Katso myös: `example`.
 ### zh
 
 ```markdown
-
+> 另见 `example`。
 ```
 
 ---
