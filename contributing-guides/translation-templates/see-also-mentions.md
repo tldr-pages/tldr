@@ -73,7 +73,7 @@ See also: `example`.
 ### bs
 
 ```markdown
-
+> Pogledajte isto: `example`.
 ```
 
 ---
@@ -154,6 +154,7 @@ Katso myös: `example`.
 
 ```markdown
 > Guarda anche: `example`.
+> Lihat juga: `example`.
 ```
 
 ---
