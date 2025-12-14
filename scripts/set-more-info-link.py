@@ -237,7 +237,6 @@ def main():
         language=args.language,
     )
 
-
     target_paths = []
 
     # Use '--page' option
