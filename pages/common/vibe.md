@@ -22,4 +22,4 @@
 
 - Run a single Vibe prompt in the terminal with the specified output format:
 
-`vibe --ouput {{json, text, streaming}} {{[-p|--prompt]}} "{{your_prompt}}"`
+`vibe --output {{json, text, streaming}} {{[-p|--prompt]}} "{{your_prompt}}"`
