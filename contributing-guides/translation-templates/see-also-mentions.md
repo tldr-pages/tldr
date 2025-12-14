@@ -49,7 +49,7 @@ This file contains the translation templates of this notice.
 ### en
 
 ```markdown
-See also: `example`.
+> See also: `example`.
 ```
 
 ---
