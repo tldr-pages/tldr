@@ -153,7 +153,6 @@ Katso myös: `example`.
 ### id
 
 ```markdown
-> Guarda anche: `example`.
 > Lihat juga: `example`.
 ```
 
