@@ -1,7 +1,7 @@
 # loadtest
 
 > 선택한 HTTP 또는 WebSockets URL에 대해 부하 테스트를 실행.
-> 더 많은 정보: <https://github.com/alexfernandez/loadtest>.
+> 더 많은 정보: <https://github.com/alexfernandez/loadtest#usage>.
 
 - 동시 사용자 및 초당 요청 수를 지정하여 실행:
 

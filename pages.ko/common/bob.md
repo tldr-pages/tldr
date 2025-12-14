@@ -1,7 +1,7 @@
 # bob
 
 > Neovim 버전을 관리하고 전환.
-> 더 많은 정보: <https://github.com/MordechaiHadad/bob>.
+> 더 많은 정보: <https://github.com/MordechaiHadad/bob#-usage>.
 
 - 지정된 버전의 Neovim을 설치하고 전환:
 

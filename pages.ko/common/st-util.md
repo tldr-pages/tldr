@@ -1,7 +1,7 @@
 # st-util
 
 > STM32 ARM Cortex 마이크로컨트롤러와 상호작용하기 위해 GDB (GNU Debugger) 서버 실행.
-> 더 많은 정보: <https://github.com/texane/stlink>.
+> 더 많은 정보: <https://github.com/stlink-org/stlink/blob/testing/doc/man/st-util.md>.
 
 - 포트 4500에서 GDB 서버 실행:
 

@@ -2,7 +2,7 @@
 
 > Wypisz i łącz pliki.
 > Klon `cat` z podświetlaniem składni i integracją z Gitem.
-> Więcej informacji: <https://github.com/sharkdp/bat>.
+> Więcej informacji: <https://manned.org/bat>.
 
 - Wypisz zawartość pliku na standardowe wyjście:
 

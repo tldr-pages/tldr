@@ -1,7 +1,7 @@
 # hunspell
 
 > 철자 확인.
-> 더 많은 정보: <https://github.com/hunspell/hunspell>.
+> 더 많은 정보: <https://manned.org/hunspell>.
 
 - 파일의 철자를 확인:
 

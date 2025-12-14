@@ -2,7 +2,7 @@
 
 > XBPS 패키지를 (재)설치하고 업데이트하는 도구.
 > 같이 보기: `xbps`.
-> 더 많은 정보: <https://manned.org/xbps-install.1>.
+> 더 많은 정보: <https://manned.org/xbps-install>.
 
 - 새 패키지 설치:
 

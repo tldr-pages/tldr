@@ -1,7 +1,7 @@
 # enca
 
 > Rileva e converti l'encoding di file di testo.
-> Maggiori informazioni: <https://github.com/nijel/enca>.
+> Maggiori informazioni: <https://manned.org/enca>.
 
 - Rileva l'encoding di uno o più file in base alla locale di sistema:
 

@@ -1,7 +1,7 @@
 # scrot
 
 > 스크린 캡처 유틸리티.
-> 더 많은 정보: <https://github.com/resurrecting-open-source-projects/scrot>.
+> 더 많은 정보: <https://manned.org/scrot>.
 
 - 스크린샷을 캡처하여 현재 디렉토리에 현재 날짜를 파일명으로 저장:
 

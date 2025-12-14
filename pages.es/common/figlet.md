@@ -2,7 +2,7 @@
 
 > Genera encabezados usando caracteres ASCII desde la entrada del usuario.
 > Vea también `showfigfonts`.
-> Más información: <http://www.figlet.org/figlet-man.html>.
+> Más información: <https://www.figlet.org/figlet-man.html>.
 
 - Genera el encabezado directamente introduciendo el texto:
 

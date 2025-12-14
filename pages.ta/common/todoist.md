@@ -1,7 +1,7 @@
 # todoist
 
 > கட்டளை வரியிலிருந்து Todoist ஐ அணுகவும்.
-> மேலும் விவரத்திற்கு: <https://github.com/sachaos/todoist>.
+> மேலும் விவரத்திற்கு: <https://github.com/sachaos/todoist#usage>.
 
 - பணியைச் சேர்க்கவும்:
 
