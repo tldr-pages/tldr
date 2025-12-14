@@ -1,7 +1,7 @@
 # jello
 
 > 一个使用 Python 语法的命令行 JSON 处理器。
-> 更多信息：<https://github.com/kellyjonbrazil/jello>.
+> 更多信息：<https://github.com/kellyjonbrazil/jello#usage>.
 
 - 将 `stdin` 中的 JSON 或 JSON-Lines 数据进行美化打印到 `stdout`：
 

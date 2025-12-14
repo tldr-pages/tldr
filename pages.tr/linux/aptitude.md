@@ -1,7 +1,7 @@
 # aptitude
 
 > Debian ve Ubuntu paket yönetim aracı.
-> Daha fazla bilgi için: <https://manned.org/aptitude.8>.
+> Daha fazla bilgi için: <https://manned.org/aptitude>.
 
 - Kullanılabilir paket ve sürüm listesini senkronize et. Bu, herhangi bir aptitude komutunu uygulamadan önce çalıştırılmalıdır:
 

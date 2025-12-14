@@ -1,7 +1,7 @@
 # apt-cache
 
 > Инструмент поиска пакетов для Debian и Ubuntu.
-> Больше информации: <https://manned.org/apt-cache.8>.
+> Больше информации: <https://manned.org/apt-cache>.
 
 - Поиск пакета в локальной базе пакетов:
 

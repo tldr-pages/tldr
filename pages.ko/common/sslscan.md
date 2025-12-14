@@ -1,7 +1,7 @@
 # sslscan
 
 > 서버에서 지원하는 SSL/TLS 프로토콜 및 암호를 검사.
-> 더 많은 정보: <https://github.com/rbsec/sslscan>.
+> 더 많은 정보: <https://manned.org/sslscan>.
 
 - 포트 443에서 서버 테스트:
 

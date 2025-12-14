@@ -1,7 +1,7 @@
 # apt-cache
 
 > Narzędzie do zapytań o pakiety w Debianie i Ubuntu.
-> Więcej informacji: <https://manned.org/apt-cache.8>.
+> Więcej informacji: <https://manned.org/apt-cache>.
 
 - Wyszukaj pakiet w aktualnych źródłach:
 

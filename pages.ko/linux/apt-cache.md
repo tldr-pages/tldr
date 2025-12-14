@@ -1,7 +1,7 @@
 # apt-cache
 
 > Debian 및 Ubuntu 패키지 검색 도구.
-> 더 많은 정보: <https://manned.org/apt-cache.8>.
+> 더 많은 정보: <https://manned.org/apt-cache>.
 
 - 현재 소스에서 패키지 검색:
 

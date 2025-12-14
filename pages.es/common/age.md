@@ -2,7 +2,7 @@
 
 > Una herramienta de encriptación de archivos sencilla, moderna y segura.
 > Vea también: `age-keygen` para generar pares de claves.
-> Más información: <https://github.com/FiloSottile/age>.
+> Más información: <https://github.com/FiloSottile/age#usage>.
 
 - Genera un archivo cifrado que se puede descifrar con una frase de contraseña:
 

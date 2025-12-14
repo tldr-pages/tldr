@@ -1,7 +1,7 @@
 # readelf
 
 > Muestra información sobre archivos ELF.
-> Más información: <https://manned.org/readelf.1>.
+> Más información: <https://manned.org/readelf>.
 
 - Muestra toda la información de un archivo ELF:
 

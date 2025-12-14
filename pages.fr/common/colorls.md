@@ -1,7 +1,7 @@
 # colorls
 
 > Embellit la sortie de la commande `ls`, avec des icônes coloreés ou provenant de font-awesome. Disponible sous forme de gemme Ruby.
-> Plus d'informations : <https://github.com/athityakumar/colorls>.
+> Plus d'informations : <https://github.com/athityakumar/colorls#flags>.
 
 - Liste les fichiers, un par ligne :
 

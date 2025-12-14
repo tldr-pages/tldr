@@ -1,7 +1,7 @@
 # dpkg-query
 
 > 설치된 패키지에 대한 정보 표시.
-> 더 많은 정보: <https://manned.org/dpkg-query.1>.
+> 더 많은 정보: <https://manned.org/dpkg-query>.
 
 - 설치된 모든 패키지 나열:
 

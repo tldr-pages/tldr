@@ -1,7 +1,7 @@
 # googler
 
 > 명령줄에서 Google 검색하기.
-> 더 많은 정보: <https://github.com/jarun/googler>.
+> 더 많은 정보: <https://github.com/jarun/googler#usage>.
 
 - Google에서 키워드 검색:
 

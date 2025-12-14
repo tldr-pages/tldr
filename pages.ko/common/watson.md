@@ -1,7 +1,7 @@
 # watson
 
 > 멋진 CLI로 시간을 추적하세요.
-> 더 많은 정보: <https://github.com/TailorDev/Watson>.
+> 더 많은 정보: <https://github.com/jazzband/Watson/blob/master/docs/user-guide/commands.md>.
 
 - 프로젝트에서 시간 모니터링 시작:
 

@@ -1,7 +1,7 @@
 # bob
 
 > مدیریت و جابجایی بین نسخه های مختلف Neovim.
-> اطلاعات بیشتر: <https://github.com/MordechaiHadad/bob>.
+> اطلاعات بیشتر: <https://github.com/MordechaiHadad/bob#-usage>.
 
 - نصب و جابجایی به نسخه خاصی از Neovim:
 

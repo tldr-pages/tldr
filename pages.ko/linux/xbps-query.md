@@ -2,7 +2,7 @@
 
 > 패키지 및 저장소 정보를 조회하는 XBPS 유틸리티.
 > 같이 보기: `xbps`.
-> 더 많은 정보: <https://manned.org/xbps-query.1>.
+> 더 많은 정보: <https://manned.org/xbps-query>.
 
 - 정규 표현식 또는 키워드를 사용하여 원격 저장소에서 패키지 검색 (`--regex`가 생략된 경우 키워드 사용):
 

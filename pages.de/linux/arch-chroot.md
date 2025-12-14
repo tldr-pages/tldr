@@ -1,7 +1,7 @@
 # arch-chroot
 
 > Erweiterter `chroot`-Befehl zur Unterstützung des Arch-Linux-Installationsprozesses.
-> Weitere Informationen: <https://manned.org/arch-chroot.8>.
+> Weitere Informationen: <https://manned.org/arch-chroot>.
 
 - Starte eine interaktive Shell (Standardmäßig Bash) in einem neuen Root-Verzeichnis:
 

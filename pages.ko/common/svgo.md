@@ -2,7 +2,7 @@
 
 > SVG Optimizer: Scalable Vector Graphics 파일 최적화 도구. Node.js 기반.
 > 개별적으로 토글할 수 있는 일련의 변환 규칙(플러그인)을 적용합니다.
-> 더 많은 정보: <https://github.com/svg/svgo>.
+> 더 많은 정보: <https://manned.org/svgo>.
 
 - 기본 플러그인을 사용하여 파일 최적화 (원본 파일을 덮어씁니다):
 

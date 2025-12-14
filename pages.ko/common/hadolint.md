@@ -1,7 +1,7 @@
 # hadolint
 
 > Dockerfile 린터.
-> 더 많은 정보: <https://github.com/hadolint/hadolint>.
+> 더 많은 정보: <https://github.com/hadolint/hadolint#cli>.
 
 - Dockerfile 린트:
 

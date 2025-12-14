@@ -1,7 +1,7 @@
 # plenv
 
 > 여러 Perl 버전을 전환.
-> 더 많은 정보: <https://github.com/tokuhirom/plenv>.
+> 더 많은 정보: <https://github.com/tokuhirom/plenv#name>.
 
 - 현재 선택된 Perl 버전과 선택 방법 표시:
 

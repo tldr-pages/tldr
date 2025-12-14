@@ -1,7 +1,7 @@
 # gitleaks
 
 > Detecta secretos y claves API filtradas en repositorios Git.
-> Más información: <https://github.com/gitleaks/gitleaks>.
+> Más información: <https://github.com/gitleaks/gitleaks#usage>.
 
 - Escanea un repositorio remoto:
 

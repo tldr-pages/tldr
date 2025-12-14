@@ -1,7 +1,7 @@
 # gnmic set
 
 > gnmi 네트워크 장치 구성을 수정.
-> 더 많은 정보: <https://gnmic.kmrd.dev/cmd/set>.
+> 더 많은 정보: <https://gnmic.openconfig.net/cmd/set/>.
 
 - 경로의 값을 업데이트:
 

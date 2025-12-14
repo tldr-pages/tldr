@@ -1,7 +1,7 @@
 # iwlist
 
 > 무선 인터페이스에서 자세한 정보 가져오기.
-> 더 많은 정보: <https://manned.org/iwlist.8>.
+> 더 많은 정보: <https://manned.org/iwlist>.
 
 - 범위 내 액세스 포인트 및 애드혹 셀 목록 표시:
 

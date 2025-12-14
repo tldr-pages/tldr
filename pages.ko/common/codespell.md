@@ -1,7 +1,7 @@
 # codespell
 
 > 소스 코드에 대한 맞춤범 검사기.
-> 더 많은 정보: <https://github.com/codespell-project/codespell>.
+> 더 많은 정보: <https://manned.org/codespell>.
 
 - 현재 디렉터리에 있는 모든 텍스트 파일의 오타를 재귀적으로 확인:
 

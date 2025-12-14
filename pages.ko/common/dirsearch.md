@@ -1,7 +1,7 @@
 # dirsearch
 
 > 웹 경로 스캐너.
-> 더 많은 정보: <https://github.com/maurosoria/dirsearch>.
+> 더 많은 정보: <https://github.com/maurosoria/dirsearch#options>.
 
 - 공통 확장자를 가진 공통 경로를 웹 서버에서 검색:
 

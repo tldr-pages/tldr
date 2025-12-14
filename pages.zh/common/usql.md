@@ -1,7 +1,7 @@
 # usql
 
 > 通用 SQL 数据库的命令行界面。
-> 更多信息：<https://github.com/xo/usql>.
+> 更多信息：<https://github.com/xo/usql#using>.
 
 - 连接到一个特定的数据库：
 

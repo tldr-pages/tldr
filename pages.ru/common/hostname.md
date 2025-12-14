@@ -1,7 +1,7 @@
 # hostname
 
 > Показ и изменение системного имени хоста.
-> Больше информации: <https://manned.org/hostname>.
+> Больше информации: <https://www.gnu.org/software/inetutils/manual/inetutils.html#hostname-invocation>.
 
 - Показать имя хоста:
 

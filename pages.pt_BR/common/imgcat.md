@@ -2,7 +2,7 @@
 
 > Utilitário para exibir imagens diretamente na linha de comando.
 > Requer um terminal compatível, como o iTerm2.
-> Mais informações: <https://github.com/danielgatis/imgcat>.
+> Mais informações: <https://github.com/danielgatis/imgcat#usage>.
 
 - Exibe uma imagem na linha de comando:
 

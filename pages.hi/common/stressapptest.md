@@ -1,7 +1,7 @@
 # stressapptest
 
 > उपयोगकर्ता स्थान मेमोरी और IO परीक्षण।
-> अधिक जानकारी: <https://github.com/stressapptest/stressapptest>।
+> अधिक जानकारी: <https://manned.org/stressapptest>।
 
 - दिए गए मेमोरी (मेगाबाइट में) की मात्रा का परीक्षण करें:
 

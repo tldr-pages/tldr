@@ -2,7 +2,7 @@
 
 > npm 레지스트리 관리자.
 > 다양한 npm 레지스트리 간에 쉽게 전환할 수 있도록 도와줍니다.
-> 더 많은 정보: <https://github.com/Pana/nrm>.
+> 더 많은 정보: <https://github.com/Pana/nrm#usage>.
 
 - 모든 레지스트리 나열:
 

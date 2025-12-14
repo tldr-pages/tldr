@@ -1,7 +1,7 @@
 # kiterunner
 
 > Un escáner web contextual para descubrir rutas API y puntos finales web utilizando listas de palabras y esquemas kitebuilder.
-> Más información: <https://github.com/assetnote/kiterunner>.
+> Más información: <https://github.com/assetnote/kiterunner#usage>.
 
 - Vea la documentación para forzar las rutas API y los puntos finales web:
 

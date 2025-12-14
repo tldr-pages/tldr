@@ -2,7 +2,7 @@
 
 > Stampa e concatena file.
 > Un clone di `cat` con syntax highlighting e integrazione Git.
-> Maggiori informazioni: <https://github.com/sharkdp/bat>.
+> Maggiori informazioni: <https://manned.org/bat>.
 
 - Stampa i contenuti di un file su standard output:
 

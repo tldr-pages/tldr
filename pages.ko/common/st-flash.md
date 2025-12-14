@@ -1,7 +1,7 @@
 # st-flash
 
 > STM32 ARM Cortex 마이크로컨트롤러에 바이너리 파일을 플래시.
-> 더 많은 정보: <https://manned.org/st-flash>.
+> 더 많은 정보: <https://github.com/stlink-org/stlink/blob/testing/doc/man/st-flash.md>.
 
 - 장치에서 0x8000000부터 4096 바이트 읽기:
 

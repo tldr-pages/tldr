@@ -1,7 +1,7 @@
 # scc
 
 > 코드 라인 수를 계산합니다. Go로 작성되었습니다.
-> 더 많은 정보: <https://github.com/boyter/scc>.
+> 더 많은 정보: <https://github.com/boyter/scc#usage>.
 
 - 현재 디렉토리의 코드 라인 수 출력:
 

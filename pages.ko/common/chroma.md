@@ -2,7 +2,7 @@
 
 > 범용 구문 강조 표시기.
 > `--lexer` 옵션은 파일 확장자에 따라 자동으로 결정되므로, 일반적으로 필요하지 않음.
-> 더 많은 정보: <https://github.com/alecthomas/chroma>.
+> 더 많은 정보: <https://manned.org/chroma>.
 
 - Python 어희 분석기를 사용해 파일에서 소스 코드를 강조 표시하고 `stdout`으로 출력:
 

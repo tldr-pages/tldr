@@ -1,7 +1,7 @@
 # pueue send
 
 > 작업에 입력을 전송.
-> 더 많은 정보: <https://github.com/Nukesor/pueue>.
+> 더 많은 정보: <https://github.com/Nukesor/pueue#how-to-use-it>.
 
 - 실행 중인 명령에 입력 전송:
 

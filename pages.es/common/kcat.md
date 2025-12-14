@@ -1,7 +1,7 @@
 # kcat
 
 > Productor Apache Kafka y herramienta de consumo.
-> Más información: <https://github.com/edenhill/kcat>.
+> Más información: <https://manned.org/kcat>.
 
 - Consume mensajes empezando por el corrimiento (offset) más nuevo:
 

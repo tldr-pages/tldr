@@ -1,7 +1,7 @@
 # zstd
 
 > Zstandard 압축을 사용하여 파일을 압축하거나 압축 해제.
-> 더 많은 정보: <https://github.com/facebook/zstd>.
+> 더 많은 정보: <https://manned.org/zstd>.
 
 - 파일을 `.zst` 확장자로 새 파일로 압축:
 

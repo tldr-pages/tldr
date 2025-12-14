@@ -1,7 +1,7 @@
 # debuild
 
 > Construye un paquete Debian desde las fuentes.
-> Más información: <https://manned.org/debuild.1>.
+> Más información: <https://manned.org/debuild>.
 
 - Construye el paquete en el directorio actual:
 

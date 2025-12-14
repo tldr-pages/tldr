@@ -2,7 +2,7 @@
 
 > Administra el servidor web Apache HTTP.
 > Este comando viene con los sistemas operativos basados en Debian; para los basados en RHEL, consulte `httpd`.
-> Más información: <https://manned.org/apache2ctl.8>.
+> Más información: <https://manned.org/apache2ctl>.
 
 - Inicia el programa residente (daemon) de Apache. Muestra un mensaje si ya está en ejecución:
 

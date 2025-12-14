@@ -1,7 +1,7 @@
 # stern
 
 > Kubernetes의 여러 팟 및 컨테이너 로그를 동시에 확인.
-> 더 많은 정보: <https://github.com/stern/stern>.
+> 더 많은 정보: <https://github.com/stern/stern#usage>.
 
 - 현재 네임스페이스 내의 모든 팟 로그 확인:
 

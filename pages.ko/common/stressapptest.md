@@ -1,7 +1,7 @@
 # stressapptest
 
 > 사용자 영역 메모리 및 IO 테스트.
-> 더 많은 정보: <https://github.com/stressapptest/stressapptest>.
+> 더 많은 정보: <https://manned.org/stressapptest>.
 
 - 주어진 메모리 용량(메가바이트 단위)을 테스트:
 

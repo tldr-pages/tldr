@@ -2,7 +2,7 @@
 
 > `pacman`과 함께 사용할 수 있는 패키지를 생성합니다.
 > 기본적으로 현재 작업 디렉토리의 `PKGBUILD` 파일을 사용합니다.
-> 더 많은 정보: <https://manned.org/makepkg.8>.
+> 더 많은 정보: <https://manned.org/makepkg>.
 
 - 패키지 생성:
 

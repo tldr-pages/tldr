@@ -1,7 +1,7 @@
 # gdu
 
 > Analisador de uso de disco com interface de console.
-> Mais informações: <https://github.com/dundee/gdu>.
+> Mais informações: <https://github.com/dundee/gdu#usage>.
 
 - Exibe interativamente o uso de disco do diretório atual:
 

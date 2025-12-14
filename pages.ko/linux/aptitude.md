@@ -1,7 +1,7 @@
 # aptitude
 
 > Debian 및 Ubuntu 패키지 관리 도구.
-> 더 많은 정보: <https://manned.org/aptitude.8>.
+> 더 많은 정보: <https://manned.org/aptitude>.
 
 - 사용 가능한 패키지 및 버전 목록 동기화. 이 명령은 다른 `aptitude` 명령을 실행하기 전에 먼저 실행해야 합니다:
 

@@ -1,7 +1,7 @@
 # fdupes
 
 > 일련의 디렉터리에서 중복 파일을 찾음.
-> 더 많은 정보: <https://github.com/adrianlopezroche/fdupes>.
+> 더 많은 정보: <https://github.com/adrianlopezroche/fdupes#introduction>.
 
 - 단일 디렉터리 검색:
 

@@ -1,7 +1,7 @@
 # ifup
 
 > Outil utilisé pour activer des interfaces réseau.
-> Plus d'informations : <https://manned.org/ifup.8>.
+> Plus d'informations : <https://manned.org/ifup>.
 
 - Active l'interface eth0 :
 

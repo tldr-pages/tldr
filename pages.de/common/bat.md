@@ -2,7 +2,7 @@
 
 > Ausgabe und Verkettung von einzelnen Dateien.
 > Ein `cat`-Ersatz mit Syntax-Hervorhebung und Git-Integration.
-> Weitere Informationen: <https://github.com/sharkdp/bat>.
+> Weitere Informationen: <https://manned.org/bat>.
 
 - Gib den Inhalt einer Datei in `stdout` aus:
 

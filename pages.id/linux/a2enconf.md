@@ -1,7 +1,7 @@
 # a2enconf
 
 > Nyalakan suatu konfigurasi piranti peladen Apache yang diatur oleh suatu berkas dalam sistem operasi berbasis Debian.
-> Informasi lebih lanjut: <https://manned.org/a2enconf.8>.
+> Informasi lebih lanjut: <https://manned.org/a2enconf>.
 
 - Nyalakan konfigurasi yang diatur dalam suatu berkas:
 

@@ -1,7 +1,7 @@
 # mcs
 
 > Mono C# 컴파일러.
-> 더 많은 정보: <https://manned.org/mcs.1>.
+> 더 많은 정보: <https://manned.org/mcs>.
 
 - 지정된 파일 컴파일:
 

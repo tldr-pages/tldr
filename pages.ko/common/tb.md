@@ -1,7 +1,7 @@
 # tb
 
 > 여러 보드에서 작업과 메모를 관리.
-> 더 많은 정보: <https://github.com/klaussinani/taskbook>.
+> 더 많은 정보: <https://github.com/klaudiosinani/taskbook#usage>.
 
 - 보드에 새 작업 추가:
 

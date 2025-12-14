@@ -1,7 +1,7 @@
 # qpdf
 
 > 다재다능한 PDF 변환 소프트웨어.
-> 더 많은 정보: <https://github.com/qpdf/qpdf>.
+> 더 많은 정보: <https://manned.org/qpdf>.
 
 - PDF 파일에서 페이지 1-3, 5 및 6-10을 추출하여 다른 파일로 저장:
 

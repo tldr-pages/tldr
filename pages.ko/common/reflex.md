@@ -1,7 +1,7 @@
 # reflex
 
 > 특정 파일이 변경되면 디렉토리를 모니터링하고 명령을 다시 실행.
-> 더 많은 정보: <https://github.com/cespare/reflex>.
+> 더 많은 정보: <https://github.com/cespare/reflex#usage>.
 
 - 파일이 변경되면 `make`로 다시 빌드:
 

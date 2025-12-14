@@ -2,7 +2,7 @@
 
 > Salta velocemente tra le directory che usi più spesso.
 > Alias come `j` o `jc` sono disponibili per una maggiore velocità di scrittura.
-> Maggiori informazioni: <https://github.com/wting/autojump>.
+> Maggiori informazioni: <https://github.com/wting/autojump#name>.
 
 - Muoviti in una directory il cui nome contiene una parola chiave:
 

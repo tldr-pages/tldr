@@ -1,7 +1,7 @@
 # ddgr
 
 > جستجو در موتور جستجوی داک داک گو با تریمنال.
-> اطلاعات بیشتر: <https://github.com/jarun/ddgr>.
+> اطلاعات بیشتر: <https://github.com/jarun/ddgr#usage>.
 
 - شروع در حالت تعاملی:
 

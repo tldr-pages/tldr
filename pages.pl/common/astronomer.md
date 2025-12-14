@@ -1,7 +1,7 @@
 # astronomer
 
 > Wykrywaj fałszywe gwiazdki z kont botów w projektach GitHub.
-> Więcej informacji: <https://github.com/Ullaakut/astronomer>.
+> Więcej informacji: <https://github.com/Ullaakut/astronomer#arguments-and-options>.
 
 - Skanuj repozytorium:
 

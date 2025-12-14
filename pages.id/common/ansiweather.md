@@ -1,7 +1,7 @@
 # ansiweather
 
 > Tampilkan kondisi cuaca saat ini ke dalam terminal.
-> Informasi lebih lanjut: <https://github.com/fcambus/ansiweather>.
+> Informasi lebih lanjut: <https://github.com/fcambus/ansiweather#usage>.
 
 - Tampilkan ramalan cuaca ([f]orecast) selama tujuh hari ke depan bagi suatu [l]okasi, dengan satuan [u]nit ukur metrik:
 

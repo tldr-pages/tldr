@@ -2,7 +2,7 @@
 
 > Node.js 애플리케이션을 단일 파일로 컴파일.
 > TypeScript, 바이너리 애드온 및 동적 require를 지원.
-> 더 많은 정보: <https://github.com/vercel/ncc>.
+> 더 많은 정보: <https://github.com/vercel/ncc#usage>.
 
 - Node.js 애플리케이션 번들링:
 

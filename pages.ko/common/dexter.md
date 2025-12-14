@@ -1,7 +1,7 @@
 # dexter
 
 > OpenId Connect를 사용하여 Kubectl 사용자를 인증하는 도구.
-> 더 많은 정보: <https://github.com/gini/dexter>.
+> 더 많은 정보: <https://github.com/gini/dexter#run-dexter>.
 
 - Google OIDC로 사용자 생성 및 인증:
 

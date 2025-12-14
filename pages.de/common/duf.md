@@ -1,7 +1,7 @@
 # duf
 
 > Festplattennutzung/freie Verwendbarkeit.
-> Weitere Informationen: <https://github.com/muesli/duf>.
+> Weitere Informationen: <https://github.com/muesli/duf#usage>.
 
 - Liste zugängliche Geräte auf:
 

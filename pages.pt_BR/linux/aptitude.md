@@ -1,7 +1,7 @@
 # aptitude
 
 > Utilitário de gerenciamento de pacotes de Debian e Ubuntu.
-> Mais informações: <https://manned.org/aptitude.8>.
+> Mais informações: <https://manned.org/aptitude>.
 
 - Sincroniza a lista de pacotes e versões disponíveis. Deve ser executado antes de outros comandos `aptitude`:
 

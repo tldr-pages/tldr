@@ -1,7 +1,7 @@
 # krunvm
 
 > Utilidad basada en CLI para crear micro máquinas virtuales utilizando imágenes OCI.
-> Más información: <https://github.com/containers/krunvm>.
+> Más información: <https://github.com/containers/krunvm/blob/main/docs/krunvm.1.txt>.
 
 - Crea una micro máquina virtual basada en Fedora:
 

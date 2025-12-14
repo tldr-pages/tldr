@@ -1,7 +1,7 @@
 # sshfs
 
 > Klien sistem berkas (filesystem) berbasis SSH.
-> Informasi lebih lanjut: <https://github.com/libfuse/sshfs>.
+> Informasi lebih lanjut: <https://github.com/libfuse/sshfs/blob/master/sshfs.rst>.
 
 - Kaitkan (mount) direktori jarak jauh (remote directory):
 

@@ -1,7 +1,7 @@
 # apt-mark
 
 > Narzędzie do zmiany statusu zainstalowanych pakietów.
-> Więcej informacji: <https://manned.org/apt-mark.8>.
+> Więcej informacji: <https://manned.org/apt-mark>.
 
 - Oznacz pakiet jako zainstalowany automatycznie:
 

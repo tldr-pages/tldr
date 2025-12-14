@@ -1,7 +1,7 @@
 # genisoimage
 
 > ISO9660/Joliet/HFS 하이브리드 파일 시스템을 생성하는 프리마스터링 프로그램.
-> 더 많은 정보: <https://manned.org/genisoimage.1>.
+> 더 많은 정보: <https://manned.org/genisoimage>.
 
 - 주어진 소스 디렉토리에서 ISO 이미지 생성:
 

@@ -2,7 +2,7 @@
 
 > 모뎀 또는 시리얼 장치와의 대화를 자동화합니다.
 > 주로 PPP(Point-to-Point Protocol) 연결을 설정하는 데 사용됩니다.
-> 더 많은 정보: <https://manned.org/chat.8>.
+> 더 많은 정보: <https://manned.org/chat>.
 
 - 명령줄에서 채팅 스크립트를 직접 실행:
 

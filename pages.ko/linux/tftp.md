@@ -1,7 +1,7 @@
 # tftp
 
 > Trivial File Transfer Protocol 클라이언트.
-> 더 많은 정보: <https://manned.org/tftp.1>.
+> 더 많은 정보: <https://manned.org/tftp>.
 
 - TFTP 서버의 IP 주소와 포트를 지정하여 연결:
 

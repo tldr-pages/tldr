@@ -1,7 +1,7 @@
 # gitleaks
 
 > Git 레포지토리에서 유출된 비밀 및 API 키를 탐지.
-> 더 많은 정보: <https://github.com/gitleaks/gitleaks>.
+> 더 많은 정보: <https://github.com/gitleaks/gitleaks#usage>.
 
 - 원격 디렉터리 스캔:
 

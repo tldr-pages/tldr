@@ -1,7 +1,7 @@
 # mkcert
 
 > 로컬에서 신뢰할 수 있는 개발 인증서 생성.
-> 더 많은 정보: <https://github.com/FiloSottile/mkcert>.
+> 더 많은 정보: <https://manned.org/mkcert>.
 
 - 시스템 신뢰 저장소에 로컬 CA 설치:
 

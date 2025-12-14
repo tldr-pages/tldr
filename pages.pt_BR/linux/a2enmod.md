@@ -1,7 +1,7 @@
 # a2enmod
 
 > Ativa um módulo do Apache em sistemas operacionais baseados no Debian.
-> Mais informações: <https://manned.org/a2enmod.8>.
+> Mais informações: <https://manned.org/a2enmod>.
 
 - Ativa um módulo:
 

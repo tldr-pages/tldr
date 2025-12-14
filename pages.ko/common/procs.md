@@ -1,7 +1,7 @@
 # procs
 
 > 활성 프로세스에 대한 정보를 표시.
-> 더 많은 정보: <https://github.com/dalance/procs>.
+> 더 많은 정보: <https://github.com/dalance/procs/blob/master/man/procs.1.adoc>.
 
 - PID, 사용자, CPU 사용량, 메모리 사용량 및 시작한 명령을 보여주는 모든 프로세스 나열:
 

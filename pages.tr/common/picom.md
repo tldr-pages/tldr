@@ -1,7 +1,7 @@
 # picom
 
 > Xorg için bağımsız bir kompozitör.
-> Daha fazla bilgi için: <https://manned.org/picom>.
+> Daha fazla bilgi için: <https://github.com/yshui/picom/blob/next/man/picom.1.adoc>.
 
 - Bir oturum esnasında `picom`'u etkinleştirin:
 

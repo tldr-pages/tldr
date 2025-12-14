@@ -1,7 +1,7 @@
 # hcloud
 
 > Hetzner Cloud용 CLI를 사용하는 방법을 보여줌.
-> 더 많은 정보: <https://github.com/hetznercloud/cli>.
+> 더 많은 정보: <https://github.com/hetznercloud/cli/blob/main/docs/reference/manual/hcloud.md>.
 
 - 사용 가능한 명령 및 플래그 표시:
 

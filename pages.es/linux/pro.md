@@ -1,7 +1,7 @@
 # pro
 
 > Administra los servicios de Ubuntu Pro.
-> Más información: <https://manned.org/ubuntu-advantage.1>.
+> Más información: <https://manned.org/ubuntu-advantage>.
 
 - Conecta tu sistema al contrato de soporte de Ubuntu Pro:
 

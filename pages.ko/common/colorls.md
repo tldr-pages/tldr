@@ -1,7 +1,7 @@
 # colorls
 
 > 색상 및 font-awesome 아이콘으로 `ls` 명령 출력을 예쁘게 만듬 Ruby gem으로 사용 가능.
-> 더 많은 정보: <https://github.com/athityakumar/colorls>.
+> 더 많은 정보: <https://github.com/athityakumar/colorls#flags>.
 
 - 파일을 한 줄에 하나씩 나열:
 

@@ -1,7 +1,7 @@
 # kcat
 
 > Apache Kafka 생산자 및 소비자 도구.
-> 더 많은 정보: <https://github.com/edenhill/kcat>.
+> 더 많은 정보: <https://manned.org/kcat>.
 
 - 최신 오프셋부터 메시지 소비:
 

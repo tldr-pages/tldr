@@ -1,7 +1,7 @@
 # gnmic get
 
 > gnmi 네트워크 장치 작동 데이터의 스냅샷 가져오기.
-> 더 많은 정보: <https://gnmic.kmrd.dev/cmd/get>.
+> 더 많은 정보: <https://gnmic.openconfig.net/cmd/get/>.
 
 - 특정 경로에서 장치 상태의 스냅샷을 가져옴:
 

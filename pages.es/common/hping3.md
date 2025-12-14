@@ -2,7 +2,7 @@
 
 > Utilidad de ping avanzada que soporta protocolos TCP, UDP y raw IP.
 > Mejor correrla con privilegios elevados.
-> Más información: <https://github.com/antirez/hping>.
+> Más información: <https://manned.org/hping3>.
 
 - Ping a un destino con 4 solicitudes ping ICMP:
 

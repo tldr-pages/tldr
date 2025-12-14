@@ -1,7 +1,7 @@
 # st-info
 
 > 연결된 STLink 및 STM32 장치에 대한 정보를 가져옵니다.
-> 더 많은 정보: <https://github.com/texane/stlink>.
+> 더 많은 정보: <https://github.com/stlink-org/stlink/blob/testing/doc/man/st-info.md>.
 
 - 사용 가능한 프로그램 메모리 용량 표시:
 

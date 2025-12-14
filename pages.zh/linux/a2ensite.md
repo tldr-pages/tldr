@@ -1,7 +1,7 @@
 # a2ensite
 
 > 在基于 Debian 的操作系统上启用 Apache 虚拟主机。
-> 更多信息：<https://manned.org/a2ensite.8>.
+> 更多信息：<https://manned.org/a2ensite>.
 
 - 启用虚拟主机：
 

@@ -2,7 +2,7 @@
 
 > Herramienta de reconocimiento óptico de caracteres.
 > Reconoce caracteres utilizando su motor y solicita al usuario patrones desconocidos para almacenarlos en una base de datos.
-> Más información: <https://manned.org/gocr.1>.
+> Más información: <https://manned.org/gocr>.
 
 - Reconoce caracteres en una [i]magen y los escribe en un archiv[o]. Coloca la base de datos en una carpeta existente para que no se omita su uso. [m]odo 130 significa crear, usar y extender la base de datos:
 

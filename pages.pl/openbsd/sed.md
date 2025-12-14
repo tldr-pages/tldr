@@ -2,7 +2,7 @@
 
 > Edytuj tekst w sposób skryptowalny.
 > Zobacz także: `awk`, `ed`.
-> Więcej informacji: <https://man.openbsd.org/sed.1>.
+> Więcej informacji: <https://man.openbsd.org/sed>.
 
 - Zastąp wszystkie wystąpienia `jabłko` (podstawowe wyrażenie regularne) przez `mango` (podstawowe wyrażenie regularne) we wszystkich liniach wejściowych i wypisz wynik do `stdout`:
 

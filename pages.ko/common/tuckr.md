@@ -2,7 +2,7 @@
 
 > Rust로 작성된 도트파일 관리 도구.
 > 같이 보기: `chezmoi`, `vcsh`, `homeshick`, `stow`.
-> 더 많은 정보: <https://github.com/RaphGL/Tuckr>.
+> 더 많은 정보: <https://github.com/RaphGL/Tuckr#usage>.
 
 - 도트파일 상태 확인:
 

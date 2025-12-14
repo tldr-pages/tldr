@@ -2,7 +2,7 @@
 
 > 파일을 출력하고 연결.
 > 구문 강조 및 Git 통합 기능을 갖춘 `cat`을 클론.
-> 더 많은 정보: <https://github.com/sharkdp/bat>.
+> 더 많은 정보: <https://manned.org/bat>.
 
 - 하나 이상의 파일 내용을 `stdout`으로 깔끔하게 출력:
 

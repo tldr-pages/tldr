@@ -1,7 +1,7 @@
 # zeisstopnm
 
 > 将 Zeiss 共聚焦文件转换为 Netbpm 格式。
-> 更多信息：<https://manned.org/zeisstopnm.1>.
+> 更多信息：<https://manned.org/zeisstopnm>.
 
 - 将 Zeiss 共聚焦文件转换为 `.pgm` 或 `.ppm` 格式：
 

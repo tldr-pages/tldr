@@ -1,7 +1,7 @@
 # light-arionum-cli
 
 > Arionum 암호화폐를 위한 PHP 경량 지갑.
-> 더 많은 정보: <https://github.com/arionum/lightWalletCLI>.
+> 더 많은 정보: <https://github.com/arionum/lightWalletCLI#usage>.
 
 - 새로운 공개/개인 키 쌍 생성:
 

@@ -1,7 +1,7 @@
 # anki
 
 > Um poderoso programa de flashcards.
-> Mais informações: <https://docs.ankiweb.net>.
+> Mais informações: <https://manned.org/anki>.
 
 - Inicializa a interface gráfica:
 

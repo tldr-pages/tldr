@@ -2,7 +2,7 @@
 
 > Alat pengenkripsi file yang sederhana, modern, dan aman.
 > Lihat `age-keygen` untuk mengetahui cara membuat pasangan kunci.
-> Informasi lebih lanjut: <https://github.com/FiloSottile/age>.
+> Informasi lebih lanjut: <https://github.com/FiloSottile/age#usage>.
 
 - Buat sebuah file terenkripsi yang hanya dapat didekripsi menggunakan kata sandi:
 

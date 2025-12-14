@@ -1,7 +1,7 @@
 # apt-cache
 
 > Herramienta de consulta de paquetes para Debian y Ubuntu.
-> Más información: <https://manned.org/apt-cache.8>.
+> Más información: <https://manned.org/apt-cache>.
 
 - Busca un paquete en tus fuentes actuales:
 

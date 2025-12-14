@@ -1,7 +1,7 @@
 # a2dissite
 
 > Matikan fungsi peladenan suatu host maya (virtual host) pada piranti peladen Apache dalam sistem operasi berbasis Debian.
-> Informasi lebih lanjut: <https://manned.org/a2dissite.8>.
+> Informasi lebih lanjut: <https://manned.org/a2dissite>.
 
 - Matikan suatu host maya:
 

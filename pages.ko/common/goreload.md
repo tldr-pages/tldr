@@ -1,7 +1,7 @@
 # goreload
 
 > Go 프로그램용 라이브 리로드 유틸리티.
-> 더 많은 정보: <https://github.com/acoshift/goreload>.
+> 더 많은 정보: <https://github.com/acoshift/goreload#basic-usage>.
 
 - 바이너리 파일 보기 (기본값은 `.goreload`):
 

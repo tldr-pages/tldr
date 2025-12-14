@@ -1,7 +1,7 @@
 # apt-cache
 
 > Pencari paket untuk Debian dan Ubuntu.
-> Informasi lebih lanjut: <https://manned.org/apt-cache.8>.
+> Informasi lebih lanjut: <https://manned.org/apt-cache>.
 
 - Cari paket di sumber yang sudah dimiliki:
 

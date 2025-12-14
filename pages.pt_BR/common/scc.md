@@ -1,7 +1,7 @@
 # scc
 
 > Utilitário escrito em GO que conta linhas de código.
-> Mais informações: <https://github.com/boyter/scc>.
+> Mais informações: <https://github.com/boyter/scc#usage>.
 
 - Mostra o número de linhas de código no diretório atual:
 

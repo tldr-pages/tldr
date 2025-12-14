@@ -2,7 +2,7 @@
 
 > Liste le contenu d'un répertoire.
 > Commande `ls` de nouvelle génération, écris en Rust.
-> Plus d'informations : <https://github.com/Peltoche/lsd>.
+> Plus d'informations : <https://github.com/lsd-rs/lsd/blob/main/doc/lsd.md>.
 
 - Liste les fichiers et les répertoires, un par ligne :
 

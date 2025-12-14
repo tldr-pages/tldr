@@ -2,7 +2,7 @@
 
 > Atur pemasangan paket dan konfigurasi terhadap suatu instalasi TeX Live.
 > Beberapa subperintah seperti `paper` mempunyai dokumentasi terpisah.
-> Informasi lebih lanjut: <https://www.tug.org/texlive/doc/tlmgr.html#ACTIONS>.
+> Informasi lebih lanjut: <https://www.tug.org/texlive/doc/tlmgr.html#NAME>.
 
 - Pasang suatu paket beserta kumpulan paket kebergantungannya:
 

@@ -2,7 +2,7 @@
 
 > Un proxy versátil y portátil para capturar, manipular y reproducir tráfico HTTP/HTTPS sobre la marcha.
 > Vea también: `mitmproxy`.
-> Más información: <https://github.com/projectdiscovery/proxify>.
+> Más información: <https://github.com/projectdiscovery/proxify#usage>.
 
 - Inicia un proxy HTTP (en la interfaz de red loopback `127.0.0.1` y puerto `8888`):
 

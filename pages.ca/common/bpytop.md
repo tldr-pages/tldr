@@ -1,7 +1,7 @@
 # bpytop
 
 > Mostra informació del sistema en temps real sobre processos executant-se, amb gràfics. Similar a `gtop` i `htop`.
-> Més informació: <https://github.com/aristocratos/bpytop>.
+> Més informació: <https://github.com/aristocratos/bpytop#command-line-options>.
 
 - Inicia bpytop:
 

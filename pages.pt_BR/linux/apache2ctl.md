@@ -2,7 +2,7 @@
 
 > Interface de controle do servidor web HTTP Apache.
 > Este comando está disponível nas distribuições baseadas em Debian, para as baseadas em RHEL veja `httpd`.
-> Mais informações: <https://manned.org/apache2ctl.8>.
+> Mais informações: <https://manned.org/apache2ctl>.
 
 - Inicia o Apache. Caso ele já esteja em execução, uma mensagem será apresentada:
 

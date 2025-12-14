@@ -2,7 +2,7 @@
 
 > HTML 파일용 LaTeX 수식 전처리기.
 > LaTeX 수식을 이미지로 변환.
-> 더 많은 정보: <https://manned.org/gladtex.1>.
+> 더 많은 정보: <https://manned.org/gladtex>.
 
 - HTML로 변환:
 

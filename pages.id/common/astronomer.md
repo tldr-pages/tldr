@@ -1,7 +1,7 @@
 # astronomer
 
 > Periksa kumpulan bintang/star (penandaan repositori sebagai bagian dari favorit) yang dipalsukan dari akun-akun bot pada proyek-proyek GitHub.
-> Informasi lebih lanjut: <https://github.com/Ullaakut/astronomer>.
+> Informasi lebih lanjut: <https://github.com/Ullaakut/astronomer#arguments-and-options>.
 
 - Pindai suatu repositori:
 

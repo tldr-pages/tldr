@@ -2,7 +2,7 @@
 
 > 고급 DHCP 자원 고갈 공격 및 스트레스 테스트를 시작.
 > DHCPig은 루트 권한으로 실행해야 함.
-> 더 많은 정보: <https://github.com/kamorin/DHCPig>.
+> 더 많은 정보: <https://github.com/kamorin/DHCPig#usage>.
 
 - 지정된 인터페이스를 사용하여 사용 가능한 DHCP 주소를 소진:
 

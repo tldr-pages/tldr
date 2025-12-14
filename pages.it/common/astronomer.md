@@ -1,7 +1,7 @@
 # astronomer
 
 > Strumento per individuare star illegittime da account bot su progetti GitHub.
-> Maggiori informazioni: <https://github.com/Ullaakut/astronomer>.
+> Maggiori informazioni: <https://github.com/Ullaakut/astronomer#arguments-and-options>.
 
 - Scannerizza una repository:
 

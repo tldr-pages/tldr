@@ -1,7 +1,7 @@
 # eva
 
 > 구문 강조 및 지속적인 기록을 갖춘 `bc`와 유사한 간단한 계산기 REPL.
-> 더 많은 정보: <https://github.com/NerdyPepper/eva>.
+> 더 많은 정보: <https://github.com/oppiliappan/eva#usage>.
 
 - 대화형 모드에서 계산기 실행:
 

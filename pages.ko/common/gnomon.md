@@ -1,7 +1,7 @@
 # gnomon
 
 > 타임스탬프로 콘솔 로깅 문에 주석을 달고, 느린 프로세스를 찾는 유틸리티.
-> 더 많은 정보: <https://github.com/paypal/gnomon>.
+> 더 많은 정보: <https://github.com/paypal/gnomon#options>.
 
 - UNIX (또는 DOS) 파이프를 사용하여 gnomon을 통해 명령의 `stdout`을 파이프:
 

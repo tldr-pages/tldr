@@ -1,7 +1,7 @@
 # dockdiver
 
 > Una herramienta para interactuar con registros Docker, incluyendo listar y volcar repositorios.
-> Más información: <https://github.com/MachiavelliII/dockdiver>.
+> Más información: <https://github.com/MachiavelliII/dockdiver#instructions>.
 
 - Lista todos los repositorios en un registro Docker:
 

@@ -1,7 +1,7 @@
 # xcaddy
 
 > Caddy 웹 서버를 위한 커스텀 빌드 도구.
-> 더 많은 정보: <https://github.com/caddyserver/xcaddy>.
+> 더 많은 정보: <https://github.com/caddyserver/xcaddy#command-usage>.
 
 - 소스에서 Caddy 서버 빌드:
 

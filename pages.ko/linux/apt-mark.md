@@ -1,7 +1,7 @@
 # apt-mark
 
 > 설치된 패키지의 상태를 변경하는 유틸리티.
-> 더 많은 정보: <https://manned.org/apt-mark.8>.
+> 더 많은 정보: <https://manned.org/apt-mark>.
 
 - 패키지를 자동 설치로 표시:
 

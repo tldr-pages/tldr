@@ -1,7 +1,7 @@
 # oxipng
 
 > PNG 파일의 압축을 무손실로 개선합니다.
-> 더 많은 정보: <https://github.com/shssoichiro/oxipng>.
+> 더 많은 정보: <https://manned.org/oxipng>.
 
 - PNG 파일 압축 (기본적으로 파일을 덮어씀):
 

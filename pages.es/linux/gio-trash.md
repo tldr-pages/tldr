@@ -2,7 +2,7 @@
 
 > Mueve archivos a la papelera.
 > Usado por GNOME para manejar la papelera.
-> Más información: <https://manned.org/gio.1>.
+> Más información: <https://manned.org/gio>.
 
 - Mueve archivos específicos a la papelera:
 

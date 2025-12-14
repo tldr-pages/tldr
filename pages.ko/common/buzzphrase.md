@@ -1,7 +1,7 @@
 # buzzphrase
 
 > 임의의 buzzphrase를 출력하는 Node.js 명령 줄 도구.
-> 더 많은 정보: <https://github.com/atomantic/buzzphrase>.
+> 더 많은 정보: <https://github.com/atomantic/buzzphrase#usage>.
 
 - 형용사, 과거시제 동사 및 복수 명사를 포함하는 세 개의 임의 구문으로 이루어진 문자열 생성:
 

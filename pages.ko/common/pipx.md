@@ -1,7 +1,7 @@
 # pipx
 
 > Python 애플리케이션을 격리된 환경에서 설치하고 실행.
-> 더 많은 정보: <https://github.com/pypa/pipx>.
+> 더 많은 정보: <https://manned.org/pipx>.
 
 - 임시 가상 환경에서 앱 실행:
 

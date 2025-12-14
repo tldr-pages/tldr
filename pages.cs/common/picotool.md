@@ -1,7 +1,7 @@
 # picotool
 
 > Spravuje desky Raspberry Pi Pico.
-> Více informací: <https://github.com/raspberrypi/picotool>.
+> Více informací: <https://github.com/raspberrypi/picotool#overview>.
 
 - Zobrazit informace o aktuálně načteném programu na Picu:
 

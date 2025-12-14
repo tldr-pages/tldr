@@ -1,7 +1,7 @@
 # hostname
 
 > 시스템의 호스트 이름을 표시하거나 설정.
-> 더 많은 정보: <https://manned.org/hostname>.
+> 더 많은 정보: <https://www.gnu.org/software/inetutils/manual/inetutils.html#hostname-invocation>.
 
 - 현재 호스트 이름 표시:
 

@@ -1,7 +1,7 @@
 # just
 
 > 保存并运行项目特定的命令。
-> 更多信息：<https://github.com/casey/just>.
+> 更多信息：<https://manned.org/just>.
 
 - 运行在 justfile 中指定的配方：
 

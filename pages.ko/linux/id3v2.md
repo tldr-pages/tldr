@@ -1,7 +1,7 @@
 # id3v2
 
 > id3v2 태그를 관리하고 id3v1을 변환 및 나열합니다.
-> 더 많은 정보: <https://manned.org/id3v2.1>.
+> 더 많은 정보: <https://manned.org/id3v2>.
 
 - 모든 장르 나열:
 

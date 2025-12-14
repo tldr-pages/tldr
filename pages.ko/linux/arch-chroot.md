@@ -1,7 +1,7 @@
 # arch-chroot
 
 > Arch Linux 설치 과정에서 도움이 되는 향상된 `chroot` 명령어.
-> 더 많은 정보: <https://manned.org/arch-chroot.8>.
+> 더 많은 정보: <https://manned.org/arch-chroot>.
 
 - 새 루트 디렉토리에서 인터랙티브 셸(기본적으로 Bash)을 시작:
 

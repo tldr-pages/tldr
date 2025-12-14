@@ -2,7 +2,7 @@
 
 > 파일과 디렉토리를 감시하고 변경 시 `rsync`를 실행.
 > 주로 두 시스템의 디렉토리를 동기화하여 한 디렉토리에서 발생한 변경 사항을 즉시 다른 디렉토리에 반영하기 위해 사용.
-> 더 많은 정보: <https://github.com/lsyncd/lsyncd>.
+> 더 많은 정보: <https://github.com/lsyncd/lsyncd/blob/master/docs/manpage/lsyncd.1.txt>.
 
 - 소스를 감시하고 변경 시마다 `rsync`를 실행하여 파일을 대상에 동기화:
 

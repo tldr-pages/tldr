@@ -1,7 +1,7 @@
 # a2enconf
 
 > Debian 기반 OS에서 Apache 설정 파일을 활성화합니다.
-> 더 많은 정보: <https://manned.org/a2enconf.8>.
+> 더 많은 정보: <https://manned.org/a2enconf>.
 
 - 설정 파일 활성화:
 

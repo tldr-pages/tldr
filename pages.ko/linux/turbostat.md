@@ -1,7 +1,7 @@
 # turbostat
 
 > 프로세서 토폴로지, 주파수, 온도, 전력 및 유휴 통계를 보고합니다.
-> 더 많은 정보: <https://manned.org/turbostat.8>.
+> 더 많은 정보: <https://manned.org/turbostat>.
 
 - 5초마다 통계 표시:
 

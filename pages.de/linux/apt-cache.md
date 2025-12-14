@@ -1,7 +1,7 @@
 # apt-cache
 
 > Debian und Ubuntu-Paketsuche.
-> Weitere Informationen: <https://manned.org/apt-cache.8>.
+> Weitere Informationen: <https://manned.org/apt-cache>.
 
 - Suche nach einem Paket in deinen aktuellen Paketquellen:
 

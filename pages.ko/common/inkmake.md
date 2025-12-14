@@ -1,7 +1,7 @@
 # inkmake
 
 > Inkscape의 백엔드를 사용하여 GNU Makefile 스타일 SVG 내보내기.
-> 더 많은 정보: <https://github.com/wader/inkmake>.
+> 더 많은 정보: <https://github.com/wader/inkmake#usage>.
 
 - 지정된 Inkfile을 실행하는 SVG 파일 내보내기:
 

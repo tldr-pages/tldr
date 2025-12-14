@@ -1,7 +1,7 @@
 # ifup
 
 > Narzędzie używane do włączania interfejsów sieciowych.
-> Więcej informacji: <https://manned.org/ifup.8>.
+> Więcej informacji: <https://manned.org/ifup>.
 
 - Włączenie interfejsu eth0:
 

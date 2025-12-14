@@ -1,7 +1,7 @@
 # gnmic subscribe
 
 > Suscribirse a las actualizaciones de estado de un dispositivo de red gnmic.
-> Más información: <https://gnmic.kmrd.dev/cmd/subscribe>.
+> Más información: <https://gnmic.openconfig.net/cmd/subscribe/>.
 
 - Suscribirse a las actualizaciones del estado objetivo bajo el subárbol de una ruta específica:
 

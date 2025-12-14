@@ -1,7 +1,7 @@
 # halt
 
 > Hentikan seluruh proses dan jalannya CPU dalam sistem komputer.
-> Informasi lebih lanjut: <https://manned.org/halt.8>.
+> Informasi lebih lanjut: <https://manned.org/halt>.
 
 - Hentikan sistem komputer:
 

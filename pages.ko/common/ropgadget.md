@@ -1,7 +1,7 @@
 # ROPgadget
 
 > 바이너리 파일에서 ROP 가젯을 찾습니다.
-> 더 많은 정보: <https://github.com/JonathanSalwan/ROPgadget>.
+> 더 많은 정보: <https://github.com/JonathanSalwan/ROPgadget#usage>.
 
 - 바이너리 파일에서 가젯 나열:
 

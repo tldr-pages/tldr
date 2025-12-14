@@ -1,7 +1,7 @@
 # textql
 
 > CSV 또는 TSV 파일과 같은 구조화된 텍스트에 대해 SQL을 실행.
-> 더 많은 정보: <https://github.com/dinedal/textql>.
+> 더 많은 정보: <https://github.com/dinedal/textql#usage>.
 
 - 특정 CSV 파일에서 SQL 쿼리와 일치하는 줄을 `stdout`에 출력:
 

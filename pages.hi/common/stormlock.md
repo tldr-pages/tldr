@@ -1,7 +1,7 @@
 # stormlock
 
 > केंद्रीकृत लॉकिंग सिस्टम।
-> अधिक जानकारी: <https://github.com/tmccombs/stormlock>।
+> अधिक जानकारी: <https://github.com/tmccombs/stormlock#usage>।
 
 - संसाधन के लिए लीज़ प्राप्त करें:
 

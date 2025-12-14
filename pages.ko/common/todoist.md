@@ -1,7 +1,7 @@
 # todoist
 
 > 명령줄에서 <https://todoist.com>에 접근하세요.
-> 더 많은 정보: <https://github.com/sachaos/todoist>.
+> 더 많은 정보: <https://github.com/sachaos/todoist#usage>.
 
 - 작업 추가:
 

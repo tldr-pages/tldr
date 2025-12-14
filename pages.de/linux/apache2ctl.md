@@ -2,7 +2,7 @@
 
 > Das CLI Tool um den Apache HTTP Web Server zu administrieren.
 > Dieser Befehl wird mit Debian-basierten Betriebssystemen geliefert, für RHEL siehe `httpd`.
-> Weitere Informationen: <https://manned.org/apache2ctl.8>.
+> Weitere Informationen: <https://manned.org/apache2ctl>.
 
 - Starte den Apache daemon. Gibt einen Fehler aus, wenn er bereits läuft:
 

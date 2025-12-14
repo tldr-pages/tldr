@@ -1,7 +1,7 @@
 # turbostat
 
 > Informa de la topología del procesador, frecuencia, temperatura, potencia y estadísticas de inactividad.
-> Más información: <https://manned.org/turbostat.8>.
+> Más información: <https://manned.org/turbostat>.
 
 - Muestra las estadísticas cada cinco segundos:
 

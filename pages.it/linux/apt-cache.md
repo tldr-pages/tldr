@@ -1,7 +1,7 @@
 # apt-cache
 
 > Strumenti di Debian e Ubuntu per richiedere informazioni sui pacchetti.
-> Maggiori informazioni: <https://manned.org/apt-cache.8>.
+> Maggiori informazioni: <https://manned.org/apt-cache>.
 
 - Cerca un pacchetto nelle sorgenti attuali:
 

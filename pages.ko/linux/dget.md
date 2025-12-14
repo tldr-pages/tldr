@@ -1,7 +1,7 @@
 # dget
 
 > Debian 패키지 다운로드.
-> 더 많은 정보: <https://manned.org/dget.1>.
+> 더 많은 정보: <https://manned.org/dget>.
 
 - 바이너리 패키지 다운로드:
 

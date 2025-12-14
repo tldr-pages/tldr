@@ -1,7 +1,7 @@
 # a2enmod
 
 > Habilita un módulo de Apache en sistemas operativos basados en Debian.
-> Más información: <https://manned.org/a2enmod.8>.
+> Más información: <https://manned.org/a2enmod>.
 
 - Habilita un módulo:
 

@@ -1,7 +1,7 @@
 # gotty
 
 > 터미널을 웹 애플리케이션으로 공유.
-> 더 많은 정보: <https://github.com/yudai/gotty>.
+> 더 많은 정보: <https://github.com/yudai/gotty#usage>.
 
 - 명령어 결과 공유:
 

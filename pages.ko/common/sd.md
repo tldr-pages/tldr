@@ -1,7 +1,7 @@
 # sd
 
 > 직관적인 찾기 및 바꾸기 도구.
-> 더 많은 정보: <https://github.com/chmln/sd>.
+> 더 많은 정보: <https://manned.org/sd>.
 
 - 정규식을 사용하여 공백 제거 (출력 스트림: `stdout`):
 

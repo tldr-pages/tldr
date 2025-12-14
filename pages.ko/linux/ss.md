@@ -1,7 +1,7 @@
 # ss
 
 > 소켓을 조사하는 유틸리티.
-> 더 많은 정보: <https://manned.org/ss.8>.
+> 더 많은 정보: <https://manned.org/ss>.
 
 - 모든 TCP/UDP/RAW/UNIX 소켓 표시:
 

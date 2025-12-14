@@ -1,7 +1,7 @@
 # apt-key
 
 > Servizio di gestione delle chiavi per il gestore di pacchetti APT su Debian ed Ubuntu.
-> Maggiori informazioni: <https://manned.org/apt-key.8>.
+> Maggiori informazioni: <https://manned.org/apt-key>.
 
 - Elenca le chiavi fidate:
 

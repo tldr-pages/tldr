@@ -1,7 +1,7 @@
 # asar
 
 > Pengarsip berkas untuk platform Electron.
-> Informasi lebih lanjut: <https://github.com/electron/asar>.
+> Informasi lebih lanjut: <https://github.com/electron/asar#usage>.
 
 - Arsipkan sebuah berkas atau direktori:
 

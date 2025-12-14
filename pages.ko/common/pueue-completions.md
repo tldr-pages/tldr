@@ -1,7 +1,7 @@
 # pueue completions
 
 > Bash, Elvish, fish, PowerShell, Zsh용 셸 자동 완성 파일 생성.
-> 더 많은 정보: <https://github.com/Nukesor/pueue>.
+> 더 많은 정보: <https://github.com/Nukesor/pueue#how-to-use-it>.
 
 - Bash용 자동 완성 파일 생성:
 

@@ -2,7 +2,7 @@
 
 > Et verktøy for å administrere en blogg i den gjeldende katalogen.
 > Utkast og innlegg velges interaktivt når man kjører kommandoene.
-> Mer informasjon: <https://github.com/LukeSmithxyz/lb>.
+> Mer informasjon: <https://github.com/LukeSmithxyz/lb#usage>.
 
 - Lag et nytt utkast:
 

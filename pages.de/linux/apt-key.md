@@ -2,7 +2,7 @@
 
 > Schlüssel-Management-Tool für den APT-Paket-Manager auf Debian und Ubuntu.
 > Notiz: `apt-key` ist veraltet (außer für `apt-key del` in Maintainerskripten).
-> Weitere Informationen: <https://manned.org/apt-key.8>.
+> Weitere Informationen: <https://manned.org/apt-key>.
 
 - Liste alle vertrauten Schlüssel auf:
 

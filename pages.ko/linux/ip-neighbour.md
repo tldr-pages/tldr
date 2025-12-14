@@ -1,7 +1,7 @@
 # ip neighbour
 
 > Neighbour/ARP 테이블 관리 IP 하위 명령어.
-> 더 많은 정보: <https://manned.org/ip-neighbour.8>.
+> 더 많은 정보: <https://manned.org/ip-neighbour>.
 
 - Neighbour/ARP 테이블 항목 표시:
 

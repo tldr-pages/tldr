@@ -1,7 +1,7 @@
 # todoist
 
 > Acest program îți permite să folosești Todoist din linia de comandă.
-> Mai multe informații: <https://github.com/sachaos/todoist>.
+> Mai multe informații: <https://github.com/sachaos/todoist#usage>.
 
 - Adaugă o sarcină:
 

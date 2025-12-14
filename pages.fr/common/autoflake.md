@@ -1,7 +1,7 @@
 # autoflake
 
 > Un outil pour enlever les imports et les variables inutilisés d'un code Python.
-> Plus d'informations : <https://github.com/myint/autoflake>.
+> Plus d'informations : <https://github.com/PyCQA/autoflake#advanced-usage>.
 
 - Enlève les variables non-utilisées d'un fichier et affiche la différence :
 

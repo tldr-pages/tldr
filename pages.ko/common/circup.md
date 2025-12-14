@@ -1,7 +1,7 @@
 # circup
 
 > CircuitPython 라이브러리 업데이트 도구.
-> 더 많은 정보: <https://github.com/adafruit/circup>.
+> 더 많은 정보: <https://github.com/adafruit/circup#usage>.
 
 - 장치의 모듈을 대화형 방식으로 업데이트:
 

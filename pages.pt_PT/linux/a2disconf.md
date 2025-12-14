@@ -1,7 +1,7 @@
 # a2disconf
 
 > Desactiva um ficheiro de configuração do Apache em distribuições baseadas em Debian.
-> Mais informações: <https://manned.org/a2disconf.8>.
+> Mais informações: <https://manned.org/a2disconf>.
 
 - Desactiva um ficheiro de configuração:
 

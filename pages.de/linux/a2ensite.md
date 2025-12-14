@@ -1,7 +1,7 @@
 # a2ensite
 
 > Aktiviert einen Apache virtuellen Host auf Debian-basierten Betriebssystemen.
-> Weitere Informationen: <https://manned.org/a2ensite.8>.
+> Weitere Informationen: <https://manned.org/a2ensite>.
 
 - Aktiviere einen virtuellen Host:
 

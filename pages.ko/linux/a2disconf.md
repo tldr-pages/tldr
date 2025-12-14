@@ -1,7 +1,7 @@
 # a2disconf
 
 > Debian 기반 운영체제에서 Apache 구성 파일을 비활성화합니다.
-> 더 많은 정보: <https://manned.org/a2disconf.8>.
+> 더 많은 정보: <https://manned.org/a2disconf>.
 
 - 구성 파일 비활성화:
 

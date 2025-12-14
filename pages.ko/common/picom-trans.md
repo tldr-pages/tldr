@@ -1,7 +1,7 @@
 # picom-trans
 
 > `picom` 윈도우 합성기의 윈도우 투명도를 설정.
-> 더 많은 정보: <https://github.com/yshui/picom>.
+> 더 많은 정보: <https://github.com/yshui/picom/blob/next/man/picom-trans.1.adoc>.
 
 - 현재 포커스된 윈도우의 투명도를 특정 퍼센트로 설정:
 

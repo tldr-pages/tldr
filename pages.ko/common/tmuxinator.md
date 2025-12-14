@@ -1,7 +1,7 @@
 # tmuxinator
 
 > tmux 세션을 쉽게 생성하고 관리.
-> 더 많은 정보: <https://github.com/tmuxinator/tmuxinator>.
+> 더 많은 정보: <https://manned.org/tmuxinator>.
 
 - 새 프로젝트 생성:
 
