@@ -11,9 +11,9 @@
 
 `gzip {{[-d|--decompress]}} {{path/to/file.gz}}`
 
-- Display the name and reduction percentage for each file decompressed:
+- Display the name and reduction percentage for each file compressed:
 
-`gzip {{[-vd|--verbose --decompress]}} {{path/to/file.gz}}`
+`gzip {{[-v|--verbose]}} {{path/to/file.gz}}`
 
 - Compress a file, keeping the original file:
 
