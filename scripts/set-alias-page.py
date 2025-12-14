@@ -29,6 +29,8 @@ Options:
         Stage modified pages (requires 'git' on $PATH and TLDR_ROOT to be a Git repository).
     -n, --dry-run
         Show what changes would be made without actually modifying the page.
+    -i, --inexact
+        Ignore direct template matching to find non-standard alias pages.
 
 Examples:
     1. Create a new alias page interactively:
@@ -80,6 +82,7 @@ class Config:
     templates: dict[str, str]
     dry_run: bool = False
     language: str = ""
+    inexact: bool = False
 
 
 @dataclass
@@ -269,19 +272,20 @@ def get_alias_command_in_page(path: Path, alias_pattern: str) -> AliasPageConten
     if len(command_lines) != 2 or not title:
         return AliasPageContent(title="", original_command="", documentation_command="")
 
-    if alias_pattern == get_locale_alias_pattern("en"):
-        stripped_template = config.templates["en"]
-        stripped_template = stripped_template.replace("example", "")
+    if not config.inexact:
+        if alias_pattern == get_locale_alias_pattern("en"):
+            stripped_template = config.templates["en"]
+            stripped_template = stripped_template.replace("example", "")
 
-        stripped_en = content
-        stripped_en = re.sub(r"#.*", "# ", stripped_en)
-        stripped_en = re.sub(r"`(?!tldr).*`", "``", stripped_en)
-        stripped_en = re.sub(r"`tldr .*`", "`tldr `", stripped_en)
+            stripped_en = content
+            stripped_en = re.sub(r"#.*", "# ", stripped_en)
+            stripped_en = re.sub(r"`(?!tldr).*`", "``", stripped_en)
+            stripped_en = re.sub(r"`tldr .*`", "`tldr `", stripped_en)
 
-        if stripped_template != stripped_en:
-            return AliasPageContent(
-                title="", original_command="", documentation_command=""
-            )
+            if stripped_template != stripped_en:
+                return AliasPageContent(
+                    title="", original_command="", documentation_command=""
+                )
 
     original_command = ""
     documentation_command = ""
@@ -468,6 +472,14 @@ def main():
     parser = create_argument_parser(
         "Sets the alias page for all translations of a page"
     )
+    parser.add_argument(
+        "-i",
+        "--inexact",
+        action="store_true",
+        default=False,
+        help="Do not match precisely with the alias template",
+    )
+
     args = parser.parse_args()
 
     # Print usage information if no arguments were provided
@@ -486,8 +498,8 @@ def main():
         templates=templates,
         dry_run=args.dry_run,
         language=args.language,
+        inexact=args.inexact,
     )
-
     target_paths = []
 
     # Use '--page' option
