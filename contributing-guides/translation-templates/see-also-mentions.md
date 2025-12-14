@@ -264,9 +264,7 @@ Katso myös: `example`.
 
 ### sr
 
-```markdown
-
-```
+Not translated yet.
 
 ---
 
