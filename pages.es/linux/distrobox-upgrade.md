@@ -1,7 +1,7 @@
 # distrobox-upgrade
 
 > Actualiza uno o varios contenedores Distrobox.
-> Vea también: `tldr distrobox`.
+> Vea también: `distrobox`.
 > Más información: <https://distrobox.it/usage/distrobox-upgrade>.
 
 - Actualiza un contenedor usando el administrador de paquetes nativo del contenedor:
