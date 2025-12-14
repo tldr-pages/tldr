@@ -224,10 +224,9 @@ def main():
         parser.print_help()
         return
 
-    template_filename = "more-info-link.md"
     root = get_tldr_root()
     pages_dirs = get_pages_dirs(root)
-    templates = get_templates(root, template_filename)
+    templates = get_templates(root, "more-info-link.md")
 
     global config
     config = Config(
