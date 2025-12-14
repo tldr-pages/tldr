@@ -432,10 +432,9 @@ def main():
         parser.print_help()
         return
 
-    template_filename = "alias-pages.md"
     root = get_tldr_root()
     pages_dirs = get_pages_dirs(root)
-    templates = get_templates(root, template_filename)
+    templates = get_templates(root, "alias-pages.md")
 
     global config
     config = Config(
