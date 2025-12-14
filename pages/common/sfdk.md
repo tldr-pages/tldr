@@ -18,7 +18,7 @@
 
 - List repositories in the SailfishOS 5.0.0.62 armv7hl build target:
 
-`sfdk -c 'target=SailfishOS-{{5.0.0.62}}-{{armv7hl}}' build-shell --maintain ssu lr`
+`sfdk -c 'target=SailfishOS-5.0.0.62-armv7hl' build-shell --maintain ssu lr`
 
 - Deploy the package to the emulator:
 
