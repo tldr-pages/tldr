@@ -1,6 +1,7 @@
 # dhcp6d
 
-> Servidor DHCPv6 sin estado. Ver también: `InternetSharing`.
+> Servidor DHCPv6 sin estado.
+> Vea también: `InternetSharing`.
 > No debe invocarse manualmente.
 > Más información: <https://www.manpagez.com/man/8/dhcp6d/>.
 

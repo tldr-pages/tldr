@@ -1,6 +1,7 @@
 # distrobox-stop
 
-> Detiene un contenedor Distrobox. Vea también: `tldr distrobox`.
+> Detiene un contenedor Distrobox.
+> Vea también: `tldr distrobox`.
 > Más información: <https://distrobox.it/usage/distrobox-stop>.
 
 - Detiene un contenedor Distrobox:
