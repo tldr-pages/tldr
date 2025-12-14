@@ -7,6 +7,6 @@
 
 `newgrp {{nazwa_grupy}}`
 
-- Przywróć podstawową grupę użytkownika na domyślną grupę w `/etc/passwd`:
+- Przywróć podstawową grupę użytkownika na domyślną grupę w `/etc/passwd`:
 
 `newgrp`

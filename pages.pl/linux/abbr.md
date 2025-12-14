@@ -1,7 +1,7 @@
 # abbr
 
 > Zarządzaj skrótami dla powłoki fish.
-> Zdefiniowane przez użytkownika słowa są zastępowane po wpisaniu dłuższymi zwrotami.
+> Zdefiniowane przez użytkownika słowa są zastępowane po wpisaniu dłuższymi zwrotami.
 > Więcej informacji: <https://fishshell.com/docs/current/cmds/abbr.html>.
 
 - Dodaj nowy skrót:

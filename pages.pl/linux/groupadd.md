@@ -1,6 +1,6 @@
 # groupadd
 
-> Dodaje grupę użytkowników do systemu.
+> Dodaje grupę użytkowników do systemu.
 > Zobacz także `groups`, `groupdel`, `groupmod`.
 > Więcej informacji: <https://manned.org/groupadd>.
 
@@ -12,6 +12,6 @@
 
 `sudo groupadd {{[-r|--system]}} {{nazwa_grupy}}`
 
-- Utwórz nową grupę z określonym `id_grupy`:
+- Utwórz nową grupę z określonym `id_grupy`:
 
 `sudo groupadd {{[-g|--gid]}} {{id_grupy}} {{nazwa_grupy}}`

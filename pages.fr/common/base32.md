@@ -7,7 +7,7 @@
 
 `base32 {{chemin/vers/fichier}}`
 
-- Envelopper la sortie codée à une largeur spécifique (`0` désactive l'enveloppement) :
+- Envelopper la sortie codée à une largeur spécifique (`0` désactive l'enveloppement) :
 
 `base32 {{[-w|--wrap]}} {{0|76|...}} {{chemin/vers/fichier}}`
 

@@ -3,7 +3,7 @@
 > Włącza/wyłącza CPU w systemie.
 > Więcej informacji: <https://manned.org/chcpu>.
 
-- Wyłączenie CPU przez podanie listy numerów ID CPU:
+- Wyłączenie CPU przez podanie listy numerów ID CPU:
 
 `chcpu -d {{1,3}}`
 

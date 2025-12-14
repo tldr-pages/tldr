@@ -4,11 +4,11 @@
 > Voir aussi : `krita`.
 > Plus d'informations : <https://docs.gimp.org/en/gimp-fire-up.html#gimp-concepts-running-command-line>.
 
-- Démarre GIMP :
+- Démarre GIMP :
 
 `gimp`
 
-- Ouvre les fichiers spécifiés :
+- Ouvre les fichiers spécifiés :
 
 `gimp {{chemin/vers/image1 chemin/vers/image2 ...}}`
 
@@ -16,14 +16,14 @@
 
 `gimp --new-instance {{chemin/vers/image1 chemin/vers/image2 ...}}`
 
-- Démarre sans l'écran de démarrage :
+- Démarre sans l'écran de démarrage :
 
 `gimp --no-splash`
 
-- Affiche les erreurs et les avertissements sur la console au lieu de les afficher dans une boîte de dialogue :
+- Affiche les erreurs et les avertissements sur la console au lieu de les afficher dans une boîte de dialogue :
 
 `gimp --console-messages`
 
-- Active les routines de débogage des signaux non fatals :
+- Active les routines de débogage des signaux non fatals :
 
 `gimp --debug-handlers`

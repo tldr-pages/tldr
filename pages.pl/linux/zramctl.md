@@ -8,7 +8,7 @@
 
 `lsmod | grep -i zram`
 
-- Włączenie zram z dynamiczną liczbą urządzeń (użyj `zramctl` aby skonfigurować urządzenia dalej):
+- Włączenie zram z dynamiczną liczbą urządzeń (użyj `zramctl` aby skonfigurować urządzenia dalej):
 
 `sudo modprobe zram`
 
