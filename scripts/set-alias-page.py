@@ -272,20 +272,19 @@ def get_alias_command_in_page(path: Path, alias_pattern: str) -> AliasPageConten
     if len(command_lines) != 2 or not title:
         return AliasPageContent(title="", original_command="", documentation_command="")
 
-    if not config.inexact:
-        if alias_pattern == get_locale_alias_pattern("en"):
-            stripped_template = config.templates["en"]
-            stripped_template = stripped_template.replace("example", "")
+    if not config.inexact and alias_pattern == get_locale_alias_pattern("en"):
+        stripped_template = config.templates["en"]
+        stripped_template = stripped_template.replace("example", "")
 
-            stripped_en = content
-            stripped_en = re.sub(r"#.*", "# ", stripped_en)
-            stripped_en = re.sub(r"`(?!tldr).*`", "``", stripped_en)
-            stripped_en = re.sub(r"`tldr .*`", "`tldr `", stripped_en)
+        stripped_en = content
+        stripped_en = re.sub(r"#.*", "# ", stripped_en)
+        stripped_en = re.sub(r"`(?!tldr).*`", "``", stripped_en)
+        stripped_en = re.sub(r"`tldr .*`", "`tldr `", stripped_en)
 
-            if stripped_template != stripped_en:
-                return AliasPageContent(
-                    title="", original_command="", documentation_command=""
-                )
+        if stripped_template != stripped_en:
+            return AliasPageContent(
+                title="", original_command="", documentation_command=""
+            )
 
     original_command = ""
     documentation_command = ""
