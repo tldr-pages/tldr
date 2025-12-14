@@ -12,11 +12,11 @@
 
 `sfdk build-init`
 
-- Execute build steps of the RPM SPEC file for a specific project project:
+- Execute build steps of the RPM SPEC file for a specific project:
 
 `sfdk -C {{path/to/project}} build`
 
-- List repositories in the SailfishOS 5.0.0.64 armv7hl build target:
+- List repositories in the SailfishOS 5.0.0.62 armv7hl build target:
 
 `sfdk -c 'target=SailfishOS-5.0.0.62-armv7hl' build-shell --maintain ssu lr`
 
