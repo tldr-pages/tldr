@@ -91,6 +91,51 @@ def test_get_tldr_root():
         os.environ["TLDR_ROOT"] = original_env
 
 
+def get_templates(root: Path, filename: str):
+    """
+    Get all more information line translation templates from
+    TLDR_ROOT/contributing-guides/translation-templates/filename.
+
+    Parameters:
+        root (Path): The path of local tldr repository, i.e., TLDR_ROOT.
+        filename (str): Specifies which template to fetch.
+
+    Returns:
+        dict of (str, str): Language labels map to alias page templates.
+    """
+
+    template_file = root / "contributing-guides/translation-templates" / filename
+    with template_file.open(encoding="utf-8") as f:
+        lines = f.readlines()
+
+    # Parse alias-pages.md
+    templates = {}
+    i = 0
+    while i < len(lines):
+        if lines[i].startswith("###"):
+            lang = lines[i][4:].strip("\n").strip(" ")
+            while True:
+                i = i + 1
+                if lines[i].startswith("Not translated yet."):
+                    is_translated = False
+                    break
+                elif lines[i].startswith("```markdown"):
+                    i = i + 1
+                    is_translated = True
+                    break
+
+            if is_translated:
+                text = ""
+                while not lines[i].startswith("```"):
+                    text += lines[i]
+                    i = i + 1
+                templates[lang] = text
+
+        i = i + 1
+
+    return templates
+
+
 def get_pages_dirs(root: Path) -> list[Path]:
     """
     Get pages directories for all languages.
