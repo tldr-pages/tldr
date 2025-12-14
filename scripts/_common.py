@@ -115,12 +115,12 @@ def get_templates(root: Path, filename: str):
         if lines[i].startswith("###"):
             lang = lines[i][4:].strip("\n").strip(" ")
             while True:
-                i = i + 1
+                i += 1
                 if lines[i].startswith("Not translated yet."):
                     is_translated = False
                     break
                 elif lines[i].startswith("```markdown"):
-                    i = i + 1
+                    i += 1
                     is_translated = True
                     break
 
@@ -128,10 +128,10 @@ def get_templates(root: Path, filename: str):
                 text = ""
                 while not lines[i].startswith("```"):
                     text += lines[i]
-                    i = i + 1
+                    i += 1
                 templates[lang] = text
 
-        i = i + 1
+        i += 1
 
     return templates
 
