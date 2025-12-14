@@ -169,7 +169,7 @@ Not translated yet.
 ### ja
 
 ```markdown
-> `example` も参照してください。
+> 参照: `example`。
 ```
 
 ---
