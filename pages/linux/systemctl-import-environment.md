@@ -2,7 +2,7 @@
 
 > Import environment variables from the shell into systemd's environment.
 > See also: `systemctl show-environment`, `systemctl unset-environment`.
-> More information: <'https://www.freedesktop.org/software/systemd/man/systemctl.html#import-environment%20VARIABLE%E2%80%A6>.
+> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#import-environment%20VARIABLE%E2%80%A6>.
 
 - Import a variable:
 
