@@ -2,7 +2,7 @@
 
 > Mount an image file into a unit's mount namespace.
 > Only supported for the units that run within a mountspace ie, with `RootImage=`, `PrivateMounts=`, etc.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#%0A%20%20%20%20%20%20%20%20%20%20%20%20mount-image%0A%20%20%20%20%20%20%20%20%20%20%20%20UNIT%0A%20%20%20%20%20%20%20%20%20%20%20%20IMAGE%0A%20%20%20%20%20%20%20%20%20%20%20%20%5BPATH%0A%20%20%20%20%20%20%20%20%20%20%20%20%5BPARTITION_NAME:MOUNT_OPTIONS%5D%5D%0A%20%20%20%20%20%20%20%20%20%20>.
+> More information: <https://www.freedesktop.org/software/systemd/man/devel/systemctl.html#mount-image%20UNIT%20IMAGE%20%5BPATH%20%5BPARTITION_NAME:MOUNT_OPTIONS%5D%5D>.
 
 - Mount an image at a specific path inside the unit's mount namespace:
 
