@@ -1,7 +1,7 @@
 # ajson
 
 > Jalankan ekspresi pencarian JSONPath terhadap objek-objek JSON.
-> Informasi lebih lanjut: <https://github.com/spyzhov/ajson>.
+> Informasi lebih lanjut: <https://github.com/spyzhov/ajson#console-application>.
 
 - Baca file JSON dan jalankan ekpresi JSONPath untuk mencari data di dalamnya:
 

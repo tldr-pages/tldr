@@ -1,7 +1,7 @@
 # gdown
 
 > Google Drive 및 기타 URL에서 파일을 다운로드.
-> 더 많은 정보: <https://github.com/wkentaro/gdown>.
+> 더 많은 정보: <https://github.com/wkentaro/gdown#usage>.
 
 - URL에서 파일 다운로드:
 

@@ -1,7 +1,7 @@
 # bash
 
 > Bourne-Again SHell，兼容 `sh` 的命令行解释器。
-> 此外请参阅：`zsh`，`histexpand`（历史展开）。
+> 此外请参阅：`zsh`，`!`（历史展开）。
 > 更多信息：<https://www.gnu.org/software/bash/manual/bash.html#Invoking-Bash>.
 
 - 启动交互式 shell：

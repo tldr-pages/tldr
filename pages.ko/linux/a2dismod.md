@@ -1,7 +1,7 @@
 # a2dismod
 
 > Debian 기반 OS에서 Apache 모듈을 비활성화합니다.
-> 더 많은 정보: <https://manned.org/a2dismod.8>.
+> 더 많은 정보: <https://manned.org/a2dismod>.
 
 - 모듈 비활성화:
 

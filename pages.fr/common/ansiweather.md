@@ -1,7 +1,7 @@
 # ansiweather
 
 > Un script Shell pour afficher les conditions météo actuelles dans votre terminal.
-> Plus d'informations : <https://github.com/fcambus/ansiweather>.
+> Plus d'informations : <https://github.com/fcambus/ansiweather#usage>.
 
 - Affiche une prévision avec le système métrique pour les 7 prochains jours dans la ville de Paris, France :
 

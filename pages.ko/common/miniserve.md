@@ -1,7 +1,7 @@
 # miniserve
 
 > 간단한 HTTP 파일 서버.
-> 더 많은 정보: <https://github.com/svenstaro/miniserve>.
+> 더 많은 정보: <https://github.com/svenstaro/miniserve#usage>.
 
 - 디렉터리 서빙:
 

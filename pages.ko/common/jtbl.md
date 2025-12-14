@@ -1,7 +1,7 @@
 # jtbl
 
 > JSON 및 JSON Lines 데이터를 터미널에서 표 형태로 출력하는 유틸리티.
-> 더 많은 정보: <https://github.com/kellyjonbrazil/jtbl>.
+> 더 많은 정보: <https://github.com/kellyjonbrazil/jtbl#usage>.
 
 - JSON 또는 JSON Lines 입력으로부터 표 출력:
 

@@ -1,7 +1,7 @@
 # aa
 
-> Este comando é um alias de `yaa`.
+> Este comando é um apelido de `yaa`.
 
-- Veja a documentação do comando original:
+- Veja documentação sobre o comando original:
 
 `tldr yaa`

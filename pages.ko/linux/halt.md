@@ -1,7 +1,7 @@
 # halt
 
 > 시스템을 중지합니다.
-> 더 많은 정보: <https://manned.org/halt.8>.
+> 더 많은 정보: <https://manned.org/halt>.
 
 - 시스템 중지:
 

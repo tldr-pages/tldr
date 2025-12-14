@@ -1,7 +1,7 @@
 # df
 
 > Wyświetl przegląd wykorzystania przestrzeni dyskowej systemu plików.
-> Więcej informacji: <https://man.openbsd.org/df.1>.
+> Więcej informacji: <https://man.openbsd.org/df>.
 
 - Wyświetl wszystkie systemy plików i ich wykorzystanie dysków w jednostkach 512-bajtowych:
 

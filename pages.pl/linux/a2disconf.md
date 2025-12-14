@@ -1,7 +1,7 @@
 # a2disconf
 
 > Wyłącz plik konfiguracyjny Apache w systemach opartych na Debianie.
-> Więcej informacji: <https://manned.org/a2disconf.8>.
+> Więcej informacji: <https://manned.org/a2disconf>.
 
 - Wyłącz plik konfiguracyjny:
 

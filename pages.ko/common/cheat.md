@@ -1,7 +1,7 @@
 # cheat
 
 > 대화형 치트 시트를 생성하고 봅니다.
-> 더 많은 정보: <https://github.com/cheat/cheat>.
+> 더 많은 정보: <https://github.com/cheat/cheat/blob/master/doc/cheat.1.md>.
 
 - 명령어 사용법의 예를 보여줌:
 

@@ -1,7 +1,7 @@
 # touch
 
 > Canvia els temps d'accés i modificació d'un fitxer (atime, ntime).
-> Més informació: <https://manned.org/touch>.
+> Més informació: <https://www.gnu.org/software/coreutils/manual/html_node/touch-invocation.html>.
 
 - Crea un o múltiples fitxers o canvia els temps al temps actual:
 

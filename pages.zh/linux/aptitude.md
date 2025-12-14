@@ -1,7 +1,7 @@
 # aptitude
 
 > Debian 和 Ubuntu 上的软件包管理工具。
-> 更多信息：<https://manned.org/aptitude.8>.
+> 更多信息：<https://manned.org/aptitude>.
 
 - 同步可用软件包及其版本列表，在运行后续 aptitude 命令前，应该首先运行该命令：
 

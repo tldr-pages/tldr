@@ -2,7 +2,7 @@
 
 > Generador de analizadores léxicos.
 > Dada la especificación de un analizador léxico, genera código C para su implementación.
-> Más información: <https://manned.org/lex.1>.
+> Más información: <https://manned.org/flex>.
 
 - Genera un analizador a partir de un fichero Lex, almacenándolo en el archivo `lex.yy.c`:
 

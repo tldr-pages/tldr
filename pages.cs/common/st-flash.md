@@ -1,7 +1,7 @@
 # st-flash
 
 > Nahrává binární soubory do STM32 ARM Cortex mikrořadičů.
-> Více informací: <https://manned.org/st-flash>.
+> Více informací: <https://github.com/stlink-org/stlink/blob/testing/doc/man/st-flash.md>.
 
 - Přečíst 4096 bajtů ze zařízení začínající od 0x8000000:
 

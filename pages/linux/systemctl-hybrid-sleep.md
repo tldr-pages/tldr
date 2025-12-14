@@ -9,7 +9,7 @@
 
 - Force hybrid sleep even if inhibitors are present:
 
-`systemctl hybrid-sleep --force`
+`systemctl hybrid-sleep {{[-f|--force]}}`
 
 - Put the system into hybrid sleep without sending a wall message to logged-in users:
 

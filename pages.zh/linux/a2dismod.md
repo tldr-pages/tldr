@@ -1,7 +1,7 @@
 # a2dismod
 
 > 在基于 Debian 的操作系统上禁用 Apache 模块。
-> 更多信息：<https://manned.org/a2dismod.8>.
+> 更多信息：<https://manned.org/a2dismod>.
 
 - 禁用模块：
 

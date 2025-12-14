@@ -15,7 +15,7 @@
 
 `git show --summary {{commit}}`
 
-- Show information about the 3rd commit from the HEAD of a branch:
+- Show information about the 3rd commit from the `HEAD` of a branch:
 
 `git show {{branch}}~{{3}}`
 

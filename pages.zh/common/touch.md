@@ -1,7 +1,7 @@
 # touch
 
 > 创建文件并设置访问/修改时间。
-> 更多信息：<https://manned.org/touch>.
+> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/touch-invocation.html>.
 
 - 创建指定的文件：
 
