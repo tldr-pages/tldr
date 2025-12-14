@@ -127,7 +127,7 @@ Not translated yet.
 ### fi
 
 ```markdown
-Katso myös: `example`.
+> Katso myös: `example`.
 ```
 
 ---
