@@ -499,6 +499,7 @@ def main():
         language=args.language,
         inexact=args.inexact,
     )
+
     target_paths = []
 
     # Use '--page' option
