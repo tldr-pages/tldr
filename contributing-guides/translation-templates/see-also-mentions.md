@@ -65,7 +65,7 @@ See also: `example`.
 ### bn
 
 ```markdown
-
+> আরও দেখুন: `example`।
 ```
 
 ---
@@ -81,7 +81,7 @@ See also: `example`.
 ### ca
 
 ```markdown
-
+> Vegeu també: `example`.
 ```
 
 ---
@@ -89,7 +89,7 @@ See also: `example`.
 ### cs
 
 ```markdown
-
+> Viz také: `example`.
 ```
 
 ---
@@ -145,7 +145,7 @@ Katso myös: `example`.
 ### hi
 
 ```markdown
-
+> यह भी देखें: `example`।
 ```
 
 ---
@@ -170,7 +170,7 @@ Katso myös: `example`.
 ### ja
 
 ```markdown
-
+> `example` も参照してください。
 ```
 
 ---
@@ -218,7 +218,7 @@ Katso myös: `example`.
 ### no
 
 ```markdown
-
+> Se også: `example`.
 ```
 
 ---
@@ -290,7 +290,7 @@ Katso myös: `example`.
 ### th
 
 ```markdown
-
+> ดูเพิ่มเติม: `example`.
 ```
 
 ---
@@ -331,5 +331,5 @@ Katso myös: `example`.
 ### zh_TW
 
 ```markdown
-
+> 另請參見：`example`。
 ```
