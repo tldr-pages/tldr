@@ -1,8 +1,8 @@
 # mimikatz crypto
 
-> Manipola i servizi crittografici di Windows e i certificati, consentendo di elencare ed esportare certificati e chiavi, anche se contrassegnati come non esportabili .
-> Richiede in genere privilegi elevati, soprattutto quando si accede a chiavi di sistema .
-> Maggiori informazioni: <https://github.com/gentilkiwi/mimikatz> .
+> Manipola i servizi crittografici di Windows e i certificati, consentendo di elencare ed esportare certificati e chiavi, anche se contrassegnati come non esportabili.
+> Richiede in genere privilegi elevati, soprattutto quando si accede a chiavi di sistema.
+> Maggiori informazioni: <https://github.com/gentilkiwi/mimikatz>.
 
 - Elenca i provider crittografici (CryptoAPI/CNG) disponibili:
 
