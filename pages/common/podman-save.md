@@ -18,4 +18,4 @@
 
 - Transfer an image to remote system with on-the-fly compression and progress bar:
 
-`podman save {{image:tag}} | zstd -TO --ultra | pv | ssh {{username}}@{{remote_host}} podman load`
+`podman save {{image:tag}} | zstd [-T|--threads] 0 --ultra | pv | ssh {{username}}@{{remote_host}} podman load`
