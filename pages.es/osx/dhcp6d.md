@@ -2,7 +2,7 @@
 
 > Servidor DHCPv6 sin estado.
 > No debe invocarse manualmente.
-> Ver también: `InternetSharing`.
+> Vea también: `InternetSharing`.
 > Más información: <https://www.manpagez.com/man/8/dhcp6d/>.
 
 - Inicia el proceso residente:
