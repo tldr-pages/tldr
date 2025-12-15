@@ -16,6 +16,6 @@
 
 `podman save {{image:tag}} | {{[gzip|bzip2|xz|zstd|zstdchunked]}} > {{path/to/file.tar[.gz|.bz2|.xz|.zst|.zst]}}`
 
-- Save an image, compress it, and transfer to a remote server with progress bar:
+- Transfer an image to remote system with on-the-fly compression and progress bar:
 
 `podman save {{image:tag}} | zstd -TO --ultra | pv | ssh {{username}}@{{remote_host}} podman load`
