@@ -117,9 +117,7 @@ def set_link(
             desc_end = i
             break
 
-    template_link = "https://example.com"
-
-    new_line = config.templates[locale].replace(template_link, link)
+    new_line = config.templates[locale].replace("https://example.com", link)
 
     if lines[desc_end] == new_line:
         # return empty status to indicate that no changes were made
