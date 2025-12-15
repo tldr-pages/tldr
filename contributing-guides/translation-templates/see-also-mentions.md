@@ -317,5 +317,5 @@ Not translated yet.
 ### zh_TW
 
 ```markdown
-> 另請參見：`example`。
+> 另請參閱：`example`。
 ```
