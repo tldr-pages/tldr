@@ -2,7 +2,7 @@
 
 > Interagisce con le credenziali di Windows, esegue dump di credenziali, manipolazione di token e altro.
 > Richiede privilegi di amministratore e in genere viene eseguito su Windows.
-> Maggiori informazioni: <https://github.com/gentilkiwi/mimikatz> [web:1].
+> Maggiori informazioni: <https://github.com/gentilkiwi/mimikatz>
 
 - Esegui mimikatz in modalità interattiva:
 
