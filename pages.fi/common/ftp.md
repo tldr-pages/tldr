@@ -1,6 +1,6 @@
 # ftp
 
-> Työkaluja palvelimen kanssa toimimiseen File Transfer Protokollan kautta.
+> Työkalut File Transfer Protokollan käyttämiseen palvelimen kanssa.
 > Lisätietoa: <https://manned.org/ftp>.
 
 - Yhdistä FTP-palvelimeen ja käytä interaktiivisesti:
