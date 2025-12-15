@@ -2,7 +2,7 @@
 
 > 管理 Git 仓库的自定义设置项。
 > 这些设置可以分为局部设置（只对当前仓库生效）和全局设置（对当前用户生效）。
-> 更多信息：<https://git-scm.com/docs/git-config>.
+> 更多信息：<https://git-scm.com/docs/git-config>。
 
 - 列出局部设置项（存储在当前仓库的 `.git/config`）：
 

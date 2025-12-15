@@ -1,7 +1,7 @@
 # brctl
 
 > 以太网桥管理。
-> 更多信息：<https://manned.org/brctl>.
+> 更多信息：<https://manned.org/brctl>。
 
 - 显示有关当前现有以太网网桥信息的列表：
 

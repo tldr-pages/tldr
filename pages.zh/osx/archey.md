@@ -1,7 +1,7 @@
 # archey
 
 > 漂亮地显示简单系统信息工具。
-> 更多信息：<https://github.com/joshfinnie/archey-osx>.
+> 更多信息：<https://github.com/joshfinnie/archey-osx>。
 
 - 显示系统信息（彩色的）：
 

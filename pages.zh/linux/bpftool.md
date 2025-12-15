@@ -2,7 +2,7 @@
 
 > 以简单的方式检查和操作 eBPF 程序和映射。
 > 某些子命令（如 `prog`）有各自的用法文档。
-> 更多信息：<https://manned.org/bpftool>.
+> 更多信息：<https://manned.org/bpftool>。
 
 - 列出已加载的 `eBPF` 程序信息：
 

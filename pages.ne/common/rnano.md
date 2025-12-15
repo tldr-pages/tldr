@@ -1,6 +1,7 @@
 # rnano
 
 > यो आदेश `nano --restricted` को उपनाम हो |
+> थप जानकारी: <https://manned.org/rnano>।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

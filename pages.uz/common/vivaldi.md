@@ -1,6 +1,7 @@
 # vivaldi
 
 > Ushbu buyruq taxallus `chromium`.
+> Ko'proq malumot: <https://vivaldi.com>.
 
 - Asl buyruq uchun hujjatlarni ko'rish:
 

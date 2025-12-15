@@ -1,7 +1,7 @@
 # git remote
 
 > 管理跟踪的远程仓库（remotes）。
-> 更多信息：<https://git-scm.com/docs/git-remote>.
+> 更多信息：<https://git-scm.com/docs/git-remote>。
 
 - 列出已经存在的远程仓库，包括它们的名字和 URL：
 

@@ -1,7 +1,7 @@
 # git check-ref-format
 
 > 检查引用名称格式是否合法，不合法时返回非零状态码。
-> 更多信息：<https://git-scm.com/docs/git-check-ref-format>.
+> 更多信息：<https://git-scm.com/docs/git-check-ref-format>。
 
 - 检查指定引用名称的格式是否合法：
 

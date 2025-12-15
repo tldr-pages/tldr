@@ -1,6 +1,7 @@
 # chrome
 
 > このコマンドは `chromium` のエイリアスです。
+> もっと詳しく: <https://chrome.google.com>。
 
 - オリジナルのコマンドのドキュメントを表示する:
 

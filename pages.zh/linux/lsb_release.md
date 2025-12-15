@@ -1,7 +1,7 @@
 # lsb_release
 
 > 提供某些 LSB（Linux 标准库）和特定于发行版的信息。
-> 更多信息：<https://manned.org/lsb_release>.
+> 更多信息：<https://manned.org/lsb_release>。
 
 - 打印所有可用信息：
 

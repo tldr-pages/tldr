@@ -1,7 +1,7 @@
 # df
 
 > 显示文件系统磁盘空间使用情况的概览。
-> 更多信息：<https://manned.org/df.1posix>.
+> 更多信息：<https://manned.org/df.1posix>。
 
 - 以 512 字节为单位显示所有文件系统及其磁盘使用量：
 

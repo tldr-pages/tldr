@@ -1,6 +1,7 @@
 # google-chrome-stable
 
 > এই কমান্ডটি `chromium` - এর একটি উপনাম।
+> আরও তথ্য পাবেন: <https://chrome.google.com>।
 
 - মূল কমান্ডের ডকুমেন্টেশন দেখুন:
 

@@ -1,7 +1,7 @@
 # jekyll
 
 > 一个简单的、支持博客的静态网站生成器。
-> 更多信息：<https://jekyllrb.com/docs/usage/>.
+> 更多信息：<https://jekyllrb.com/docs/usage/>。
 
 - 生成一个将在 http://localhost:4000/ 上运行的开发服务器：
 

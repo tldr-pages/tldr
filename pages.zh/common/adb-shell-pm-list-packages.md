@@ -1,7 +1,7 @@
 # adb shell pm list packages
 
 > 列出安卓设备上，已安装的，已知的或经过自定义筛选后的软件包。
-> 更多信息：<https://developer.android.com/tools/adb>.
+> 更多信息：<https://developer.android.com/tools/adb>。
 
 - 列出所有已安装的软件包：
 

@@ -1,6 +1,7 @@
 # opera-stable
 
 > Această comandă este un alias al `chromium`.
+> Mai multe informații: <https://opera.com>.
 
 - Vizualizați documentația pentru comanda originală:
 

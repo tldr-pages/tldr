@@ -1,7 +1,7 @@
 # mas
 
 > Mac 应用商店的命令行界面。
-> 更多信息：<https://github.com/mas-cli/mas>.
+> 更多信息：<https://github.com/mas-cli/mas>。
 
 - 首次登录 Mac 应用商店：
 

@@ -1,6 +1,7 @@
 # opera
 
 > Tämä on alias komennolle `chromium`.
+> Lisätietoa: <https://opera.com>.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

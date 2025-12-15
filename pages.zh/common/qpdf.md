@@ -1,7 +1,7 @@
 # qpdf
 
 > 多功能 PDF 转换软件。
-> 更多信息：<https://manned.org/qpdf>.
+> 更多信息：<https://manned.org/qpdf>。
 
 - 从一个 PDF 文件中提取第 1-3 页、第 5 页和第 6-10 页，然后另存为一个新文件：
 
