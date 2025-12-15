@@ -7,7 +7,7 @@
 
 `astroterm`
 
-- Display constellations, use colour, and render the simulation at the given frame rate:
+- Display constellations, use color, and render the simulation at the given frame rate:
 
 `astroterm {{[-C|--constellations]}} {{[-c|--color]}} {{[-f|--fps]}} {{60}}`
 
