@@ -1,0 +1,7 @@
+# qm rescan
+
+> Dieser Befehl ist ein Alias von `qm disk rescan`.
+
+- Zeige die Dokumentation für den originalen Befehl an:
+
+`tldr qm disk rescan`
