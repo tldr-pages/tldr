@@ -1,0 +1,7 @@
+# glibtoolize
+
+> এই কমান্ডটি `libtoolize` - এর একটি উপনাম।
+
+- মূল কমান্ডের ডকুমেন্টেশন দেখুন:
+
+`tldr {{[-p|--platform]}} linux libtoolize`

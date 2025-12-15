@@ -1,0 +1,7 @@
+# gdnsdomainname
+
+> এই কমান্ডটি `dnsdomainname` - এর একটি উপনাম।
+
+- মূল কমান্ডের ডকুমেন্টেশন দেখুন:
+
+`tldr {{[-p|--platform]}} linux dnsdomainname`

@@ -1,0 +1,7 @@
+# yumdownloader
+
+> यो आदेश `dnf download` को उपनाम हो |
+
+- मौलिक आदेशको लागि कागजात हेर्नुहोस्:
+
+`tldr dnf download`

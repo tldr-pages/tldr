@@ -1,0 +1,7 @@
+# gindent
+
+> यो आदेश `indent` को उपनाम हो |
+
+- मौलिक आदेशको लागि कागजात हेर्नुहोस्:
+
+`tldr {{[-p|--platform]}} common indent`

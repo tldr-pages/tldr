@@ -1,0 +1,7 @@
+# gtraceroute
+
+> यो आदेश `traceroute` को उपनाम हो |
+
+- मौलिक आदेशको लागि कागजात हेर्नुहोस्:
+
+`tldr traceroute`

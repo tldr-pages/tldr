@@ -1,0 +1,7 @@
+# yumdownloader
+
+> এই কমান্ডটি `dnf download` - এর একটি উপনাম।
+
+- মূল কমান্ডের ডকুমেন্টেশন দেখুন:
+
+`tldr dnf download`

@@ -1,0 +1,7 @@
+# gtraceroute
+
+> এই কমান্ডটি `traceroute` - এর একটি উপনাম।
+
+- মূল কমান্ডের ডকুমেন্টেশন দেখুন:
+
+`tldr traceroute`

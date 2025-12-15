@@ -1,0 +1,7 @@
+# ip6tables-save
+
+> 此命令为 `iptables-save` 的别名。
+
+- 查看原命令的文档：
+
+`tldr iptables-save`
