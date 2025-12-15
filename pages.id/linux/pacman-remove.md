@@ -1,7 +1,7 @@
 # pacman --remove
 
 > Kegunaan manajer paket Arch Linux.
-> Guarda anche: `pacman`.
+> Lihat juga: `pacman`.
 > Informasi lebih lanjut: <https://manned.org/pacman.8>.
 
 - Hapus paket beserta dependensinya:
