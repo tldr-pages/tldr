@@ -27,6 +27,6 @@
 
 `imhex --hexdump {{path/to/file}}`
 
-- Display version information:
+- Display version:
 
 `imhex --version`
