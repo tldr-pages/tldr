@@ -63,6 +63,7 @@ from _common import (
     IGNORE_FILES,
     Colors,
     get_tldr_root,
+    get_templates,
     get_pages_dirs,
     get_target_paths,
     get_locale,
@@ -113,50 +114,6 @@ def test_ignore_files():
     )
     assert ".DS_Store" in IGNORE_FILES
     assert "tldr.md" in IGNORE_FILES
-
-
-def get_templates(root: Path):
-    """
-    Get all alias page translation templates from
-    TLDR_ROOT/contributing-guides/translation-templates/alias-pages.md.
-
-    Parameters:
-        root (Path): The path of local tldr repository, i.e., TLDR_ROOT.
-
-    Returns:
-        dict of (str, str): Language labels map to alias page templates.
-    """
-
-    template_file = root / "contributing-guides/translation-templates/alias-pages.md"
-    with template_file.open(encoding="utf-8") as f:
-        lines = f.readlines()
-
-    # Parse alias-pages.md
-    templates = {}
-    i = 0
-    while i < len(lines):
-        if lines[i].startswith("###"):
-            lang = lines[i][4:].strip("\n").strip(" ")
-            while True:
-                i = i + 1
-                if lines[i].startswith("Not translated yet."):
-                    is_translated = False
-                    break
-                elif lines[i].startswith("```markdown"):
-                    i = i + 1
-                    is_translated = True
-                    break
-
-            if is_translated:
-                text = ""
-                while not lines[i].startswith("```"):
-                    text += lines[i]
-                    i = i + 1
-                templates[lang] = text
-
-        i = i + 1
-
-    return templates
 
 
 def generate_alias_page_content(
@@ -488,7 +445,7 @@ def main():
 
     root = get_tldr_root()
     pages_dirs = get_pages_dirs(root)
-    templates = get_templates(root)
+    templates = get_templates(root, "alias-pages.md")
 
     global config
     config = Config(
