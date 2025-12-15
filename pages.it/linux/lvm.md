@@ -17,7 +17,7 @@
 
 - Crea un gruppo di volumi chiamato vg1 dal volume fisico su `/dev/sdXY`:
 
-`sudo lvm vgcreate {{vg1}} {{/dev/sdXY}}`
+`sudo lvm vgcreate vg1 {{/dev/sdXY}}`
 
 - Visualizza informazioni sui gruppi di volumi:
 
