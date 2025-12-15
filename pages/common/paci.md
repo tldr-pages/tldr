@@ -7,7 +7,7 @@
 
 `paci refresh`
 
-- Configure its behaviour:
+- Configure its behavior:
 
 `paci configure`
 

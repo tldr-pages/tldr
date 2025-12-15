@@ -1,7 +1,7 @@
 # py
 
 > Lanzador de Python para Windows que se ejecuta con la versión de Python especificada.
-> Ver también: `python`.
+> Vea también: `python`.
 > Más información: <https://docs.python.org/using/windows.html#python-launcher-for-windows>.
 
 - Iniciar un REPL (shell interactivo), opcionalmente con argumentos soportados por `python` (como `-c`, `-m`, etc.):
