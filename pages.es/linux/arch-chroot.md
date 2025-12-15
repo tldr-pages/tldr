@@ -1,7 +1,7 @@
 # arch-chroot
 
 > Comando `chroot` mejorado para facilitar el proceso de instalación de Arch Linux.
-> Más información: <https://manned.org/arch-chroot.8>.
+> Más información: <https://manned.org/arch-chroot>.
 
 - Inicia un intérprete de comandos interactivo (Bash por defecto) en un nuevo directorio raíz:
 

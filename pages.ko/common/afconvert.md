@@ -1,7 +1,7 @@
 # afconvert
 
 > AFF와 원시 파일 형식 간의 변환.
-> 더 많은 정보: <https://manned.org/afconvert.1>.
+> 더 많은 정보: <https://manned.org/afconvert>.
 
 - 특정 확장자 사용(기본값: `aff`):
 

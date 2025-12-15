@@ -1,6 +1,6 @@
 # cosign
 
-> Container Signing, Verification and Storage in an OCI registry.
+> Container Signing, Verification, and Storage in an OCI registry.
 > More information: <https://github.com/sigstore/cosign/blob/main/doc/cosign.md>.
 
 - Generate a key-pair:

@@ -1,7 +1,7 @@
 # phpmd
 
 > PHP Mess Detector: 일반적인 잠재적 문제를 확인.
-> 더 많은 정보: <https://github.com/phpmd/phpmd>.
+> 더 많은 정보: <https://github.com/phpmd/phpmd#command-line-options>.
 
 - 사용 가능한 규칙 세트 및 형식 목록 표시:
 

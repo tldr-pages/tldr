@@ -1,7 +1,7 @@
 # eol
 
 > 여러 제품의 수명 종료 날짜(EoL)를 표시.
-> 더 많은 정보: <https://github.com/hugovk/norwegianblue>.
+> 더 많은 정보: <https://github.com/hugovk/norwegianblue#example-command-line-use>.
 
 - 사용 가능한 모든 제품의 목록을 나열:
 

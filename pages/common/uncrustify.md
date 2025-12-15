@@ -1,6 +1,6 @@
 # uncrustify
 
-> C, C++, C#, D, Java and Pawn source code formatter.
+> C, C++, C#, D, Java, and Pawn source code formatter.
 > More information: <https://manned.org/uncrustify>.
 
 - Format a single file:

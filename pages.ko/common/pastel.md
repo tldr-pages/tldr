@@ -1,7 +1,7 @@
 # pastel
 
 > 색상을 생성, 분석, 변환 및 조작.
-> 더 많은 정보: <https://github.com/sharkdp/pastel>.
+> 더 많은 정보: <https://manned.org/pastel>.
 
 - 색상을 한 형식에서 다른 형식으로 변환. 여기서는 RGB에서 HSL로 변환:
 

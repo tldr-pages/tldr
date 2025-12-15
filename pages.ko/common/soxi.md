@@ -1,7 +1,7 @@
 # soxi
 
 > SoXI - Sound eXchange Information, 사운드 파일 메타데이터 표시.
-> 더 많은 정보: <https://manned.org/soxi.1>.
+> 더 많은 정보: <https://manned.org/soxi>.
 
 - 사운드 파일 메타데이터 표시:
 

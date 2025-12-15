@@ -1,7 +1,7 @@
 # fselect
 
 > SQL과 유사한 쿼리로 파일을 찾음.
-> 더 많은 정보: <https://github.com/jhspetersson/fselect>.
+> 더 많은 정보: <https://github.com/jhspetersson/fselect/blob/master/docs/usage.md>.
 
 - 특정 디렉터리의 임시 또는 구성 파일에서 전체 경로와 크기를 선택:
 

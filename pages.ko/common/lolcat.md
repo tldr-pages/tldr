@@ -1,7 +1,7 @@
 # lolcat
 
 > 모든 `cat` 결과를 콘솔에 무지개 색상으로 출력합니다.
-> 더 많은 정보: <https://github.com/busyloop/lolcat>.
+> 더 많은 정보: <https://manned.org/lolcat>.
 
 - 파일을 콘솔에 무지개 색상으로 출력:
 

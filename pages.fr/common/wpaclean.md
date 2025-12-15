@@ -2,7 +2,7 @@
 
 > Nettoie les fichiers de capture pour n'obtenir que l'établissement d'une liaison à quatre voies et une balise.
 > Fait partie de la suite logicielle réseau Aircrack-ng.
-> Plus d'informations : <https://manned.org/wpaclean.1>.
+> Plus d'informations : <https://manned.org/wpaclean>.
 
 - Nettoie la capture et n'enregistre que l'établissement d'une liaison à quatre voies et une balise dans le résultat :
 

@@ -1,7 +1,7 @@
 # ddgr
 
 > 터미널에서 DuckDuckGo (HTML 버전)를 검색.
-> 더 많은 정보: <https://github.com/jarun/ddgr>.
+> 더 많은 정보: <https://github.com/jarun/ddgr#usage>.
 
 - 대화형 모드 시작:
 

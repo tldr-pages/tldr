@@ -1,7 +1,7 @@
 # beep
 
 > 让电脑扬声器发出哔哔声的实用程序。
-> 更多信息：<https://manned.org/man/beep>.
+> 更多信息：<https://manned.org/beep>.
 
 - 播放哔哔声：
 

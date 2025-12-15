@@ -1,6 +1,6 @@
 # blackfire
 
-> Monitor, profile and test a PHP application.
+> Monitor, profile, and test a PHP application.
 > More information: <https://blackfire.io>.
 
 - Initialize and configure the Blackfire client:

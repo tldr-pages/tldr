@@ -29,6 +29,8 @@ Options:
         Stage modified pages (requires 'git' on $PATH and TLDR_ROOT to be a Git repository).
     -n, --dry-run
         Show what changes would be made without actually modifying the page.
+    -i, --inexact
+        Ignore direct template matching to find non-standard alias pages.
 
 Examples:
     1. Create a new alias page interactively:
@@ -61,6 +63,7 @@ from _common import (
     IGNORE_FILES,
     Colors,
     get_tldr_root,
+    get_templates,
     get_pages_dirs,
     get_target_paths,
     get_locale,
@@ -80,6 +83,7 @@ class Config:
     templates: dict[str, str]
     dry_run: bool = False
     language: str = ""
+    inexact: bool = False
 
 
 @dataclass
@@ -110,50 +114,6 @@ def test_ignore_files():
     )
     assert ".DS_Store" in IGNORE_FILES
     assert "tldr.md" in IGNORE_FILES
-
-
-def get_templates(root: Path):
-    """
-    Get all alias page translation templates from
-    TLDR_ROOT/contributing-guides/translation-templates/alias-pages.md.
-
-    Parameters:
-        root (Path): The path of local tldr repository, i.e., TLDR_ROOT.
-
-    Returns:
-        dict of (str, str): Language labels map to alias page templates.
-    """
-
-    template_file = root / "contributing-guides/translation-templates/alias-pages.md"
-    with template_file.open(encoding="utf-8") as f:
-        lines = f.readlines()
-
-    # Parse alias-pages.md
-    templates = {}
-    i = 0
-    while i < len(lines):
-        if lines[i].startswith("###"):
-            lang = lines[i][4:].strip("\n").strip(" ")
-            while True:
-                i = i + 1
-                if lines[i].startswith("Not translated yet."):
-                    is_translated = False
-                    break
-                elif lines[i].startswith("```markdown"):
-                    i = i + 1
-                    is_translated = True
-                    break
-
-            if is_translated:
-                text = ""
-                while not lines[i].startswith("```"):
-                    text += lines[i]
-                    i = i + 1
-                templates[lang] = text
-
-        i = i + 1
-
-    return templates
 
 
 def generate_alias_page_content(
@@ -269,14 +229,19 @@ def get_alias_command_in_page(path: Path, alias_pattern: str) -> AliasPageConten
     if len(command_lines) != 2 or not title:
         return AliasPageContent(title="", original_command="", documentation_command="")
 
-    stripped_template = config.templates["en"].replace("example", "")
-    stripped_en = content
-    stripped_en = re.sub(r"#.*", "# ", stripped_en)
-    stripped_en = re.sub(r"`(?!tldr).*`", "``", stripped_en)
-    stripped_en = re.sub(r"`tldr .*`", "`tldr `", stripped_en)
+    if not config.inexact and alias_pattern == get_locale_alias_pattern("en"):
+        stripped_template = config.templates["en"]
+        stripped_template = stripped_template.replace("example", "")
 
-    if stripped_template != stripped_en:
-        return AliasPageContent(title="", original_command="", documentation_command="")
+        stripped_en = content
+        stripped_en = re.sub(r"#.*", "# ", stripped_en)
+        stripped_en = re.sub(r"`(?!tldr).*`", "``", stripped_en)
+        stripped_en = re.sub(r"`tldr .*`", "`tldr `", stripped_en)
+
+        if stripped_template != stripped_en:
+            return AliasPageContent(
+                title="", original_command="", documentation_command=""
+            )
 
     original_command = ""
     documentation_command = ""
@@ -463,6 +428,14 @@ def main():
     parser = create_argument_parser(
         "Sets the alias page for all translations of a page"
     )
+    parser.add_argument(
+        "-i",
+        "--inexact",
+        action="store_true",
+        default=False,
+        help="Do not match precisely with the alias template",
+    )
+
     args = parser.parse_args()
 
     # Print usage information if no arguments were provided
@@ -472,7 +445,7 @@ def main():
 
     root = get_tldr_root()
     pages_dirs = get_pages_dirs(root)
-    templates = get_templates(root)
+    templates = get_templates(root, "alias-pages.md")
 
     global config
     config = Config(
@@ -481,6 +454,7 @@ def main():
         templates=templates,
         dry_run=args.dry_run,
         language=args.language,
+        inexact=args.inexact,
     )
 
     target_paths = []
