@@ -2,7 +2,7 @@
 
 > 管理 OpenPGP YubiKey 应用程序。
 > 注意：你需要使用 `gpg --card-edit` 来进行某些设置。
-> 更多信息：<https://docs.yubico.com/software/yubikey/tools/ykman/OpenPGP_Commands.html>.
+> 更多信息：<https://docs.yubico.com/software/yubikey/tools/ykman/OpenPGP_Commands.html>。
 
 - 显示有关 OpenPGP 应用程序的一般信息：
 

@@ -1,7 +1,7 @@
 # ln
 
 > 建立指向檔案和目錄的連結。
-> 更多資訊：<https://www.gnu.org/software/coreutils/manual/html_node/ln-invocation.html>.
+> 更多資訊：<https://www.gnu.org/software/coreutils/manual/html_node/ln-invocation.html>。
 
 - 建立指向檔案或目錄的符號連結：
 

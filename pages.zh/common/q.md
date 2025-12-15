@@ -1,7 +1,7 @@
 # q
 
 > 在 CSV 和 TSV 文件上执行类似 SQL 的查询。
-> 更多信息：<https://harelba.github.io/q>.
+> 更多信息：<https://harelba.github.io/q>。
 
 - 指定分隔符为 ',' 来查询 CSV 文件：
 

@@ -1,7 +1,7 @@
 # zm
 
 > 一个管理报纸和博客文章的工具。
-> 更多信息：<https://github.com/ZERMZeitung/zm2>.
+> 更多信息：<https://github.com/ZERMZeitung/zm2>。
 
 - 创建一个新的草稿：
 

@@ -1,7 +1,7 @@
 # jf
 
 > 与 JFrog 产品进行交互，比如 Artifactory、Xray、Distribution、Pipelines 和 Mission Control。
-> 更多信息：<https://jfrog.com/help/r/jfrog-cli/usage>.
+> 更多信息：<https://jfrog.com/help/r/jfrog-cli/usage>。
 
 - 添加一个新配置：
 

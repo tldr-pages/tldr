@@ -1,7 +1,7 @@
 # adb uninstall
 
 > 卸载一个软件包。
-> 更多信息：<https://manned.org/adb>.
+> 更多信息：<https://manned.org/adb>。
 
 - 卸载一个软件包：
 

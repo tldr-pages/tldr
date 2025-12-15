@@ -1,7 +1,7 @@
 # apt-mark
 
 > 修改已安装软件包状态的工具。
-> 更多信息：<https://manned.org/apt-mark>.
+> 更多信息：<https://manned.org/apt-mark>。
 
 - 将一个软件包标记为自动安装：
 

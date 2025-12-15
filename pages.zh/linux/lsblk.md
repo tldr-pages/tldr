@@ -1,7 +1,7 @@
 # lsblk
 
 > 列出设备信息。
-> 更多信息：<https://manned.org/lsblk>.
+> 更多信息：<https://manned.org/lsblk>。
 
 - 以树状格式列出所有存储设备：
 

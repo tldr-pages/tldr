@@ -1,7 +1,7 @@
 # adb shell pm
 
 > 安卓软件包管理工具。
-> 更多信息：<https://developer.android.com/tools/adb>.
+> 更多信息：<https://developer.android.com/tools/adb>。
 
 - 列出已安装的包：
 

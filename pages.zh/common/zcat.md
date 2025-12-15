@@ -1,7 +1,7 @@
 # zcat
 
 > 打印 `gzip` 压缩文件中的数据。
-> 更多信息：<https://www.gnu.org/software/gzip/manual/gzip.html>.
+> 更多信息：<https://www.gnu.org/software/gzip/manual/gzip.html>。
 
 - 将 `gzip` 压缩档案的解压缩内容打印到 `stdout`：
 
