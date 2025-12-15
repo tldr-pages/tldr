@@ -1,7 +1,7 @@
 # unimatrix
 
 > 使用 Unicode 字符模拟《黑客帝国》的视觉效果。
-> 请参阅：`cmatrix`。
+> 另请参阅：`cmatrix`。
 > 更多信息：<https://github.com/will8211/unimatrix>.
 
 - 模仿 `cmatrix` 的默认输出（无 Unicode，适用于 TTY）：
