@@ -1,7 +1,7 @@
 # choco
 
 > 「Chocolatey package manager」軟體套件管理器。
-> 執行命令由兩個單字「組合」成，例如 `choco install`，請參考使用文件。
+> 執行命令由兩個單字「組合」成，例如 `install`，請參考使用文件。
 > 更多資訊：<https://docs.chocolatey.org/en-us/choco/commands/>.
 
 - 執行「組合」命令：
