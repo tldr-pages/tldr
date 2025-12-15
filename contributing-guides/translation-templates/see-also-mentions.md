@@ -309,8 +309,7 @@ Not translated yet.
 ### zh
 
 ```markdown
-> 另见 `example`。
-> 也可以看看：`example`.
+> 另请参阅：`example`。
 ```
 
 ---
