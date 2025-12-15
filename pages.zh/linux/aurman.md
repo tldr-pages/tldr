@@ -1,7 +1,7 @@
 # aurman
 
 > 用来构建和安装 AUR 包的 Arch Linux 实用工具。
-> 参见 `pacman`.
+> 另请参阅：`pacman`.
 > 更多信息：<https://github.com/polygamma/aurman#syntax>.
 
 - 同步并更新所有包：
