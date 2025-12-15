@@ -279,7 +279,7 @@ Not translated yet.
 ### th
 
 ```markdown
-> ดูเพิ่มเติม: `example`.
+> ดูเพิ่มเติม: `example`
 ```
 
 ---
