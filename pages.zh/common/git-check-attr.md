@@ -7,14 +7,14 @@
 
 `git check-attr --all {{路径/到/文件}}`
 
-- Check the value of a specific attribute on a file:
+- Check the value of a specific attribute on a file：
 
 `git check-attr {{属性}} {{路径/到/文件}}`
 
-- Check the values of all attributes on specific files:
+- Check the values of all attributes on specific files：
 
 `git check-attr --all {{路径/到/文件1 路径/到/文件2 ...}}`
 
-- Check the value of a specific attribute on one or more files:
+- Check the value of a specific attribute on one or more files：
 
 `git check-attr {{属性}} {{路径/到/文件1 路径/到/文件2 ...}}`

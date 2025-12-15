@@ -11,7 +11,7 @@
 
 `python {{路径/到/文件.py}}`
 
-- 执行特定 Python 文件后进入 REPL:
+- 执行特定 Python 文件后进入 REPL：
 
 `python -i {{路径/到/文件.py}}`
 

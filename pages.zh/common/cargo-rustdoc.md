@@ -12,7 +12,7 @@
 
 `cargo rustdoc -- --warn rustdoc::{{lint_name}}`
 
-- 忽略文档 lint:
+- 忽略文档 lint：
 
 `cargo rustdoc -- --allow rustdoc::{{lint_name}}`
 

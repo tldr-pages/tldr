@@ -5,7 +5,7 @@
 > 另请参阅：`vim`，`vimtutor`，`vimdiff`。
 > 更多信息：<https://neovim.io>.
 
-- 打开文件:
+- 打开文件：
 
 `nvim {{path/to/file}}`
 

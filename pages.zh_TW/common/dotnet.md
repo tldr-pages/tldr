@@ -16,6 +16,6 @@
 
 `dotnet run`
 
-- 運行 .NET 應用程式（只需要執行環境，其餘命令需要 .NET Core SDK）:
+- 運行 .NET 應用程式（只需要執行環境，其餘命令需要 .NET Core SDK）：
 
 `dotnet {{路徑/到/應用程式.dll}}`
