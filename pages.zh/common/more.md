@@ -1,8 +1,8 @@
 # more
 
 > 交互式地显示文件，允许滚动和搜索。
-> 请参阅：`less`.
-> 更多信息：<https://manned.org/more.1p>.
+> 请参阅：`less`。
+> 更多信息：<https://manned.org/more.1p>。
 
 - 打开一个文件：
 

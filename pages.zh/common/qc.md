@@ -1,8 +1,8 @@
 # qc
 
 > 管理和执行存储在 QOwnNotes 笔记中的命令片段。
-> 请参阅：`qownnotes`.
-> 更多信息：<https://www.qownnotes.org/getting-started/command-line-snippet-manager.html>.
+> 请参阅：`qownnotes`。
+> 更多信息：<https://www.qownnotes.org/getting-started/command-line-snippet-manager.html>。
 
 - 配置代码片段管理器，例如设置来自 QOwnNotes 的安全令牌：
 

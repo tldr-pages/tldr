@@ -1,8 +1,8 @@
 # aws
 
 > Amazon Web Services 官方的命令列介面工具。
-> 此命令也有關於其子命令的文件，例如：`s3`.
-> 更多資訊：<https://aws.amazon.com/cli>.
+> 此命令也有關於其子命令的文件，例如：`s3`。
+> 更多資訊：<https://aws.amazon.com/cli>。
 
 - 設定 AWS 命令列：
 
