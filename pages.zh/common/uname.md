@@ -1,7 +1,7 @@
 # uname
 
 > 输出关于当前机器和运行在该机器上的操作系统的详细信息。
-> 另见 `lsb_release`。
+> 另请参阅：`lsb_release`。
 > 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/uname-invocation.html>.
 
 - 打印内核名称：

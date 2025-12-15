@@ -1,7 +1,7 @@
 # py
 
 > 用于 Windows 的 Python 启动器，可运行指定的 Python 版本。
-> 另见： `python`.
+> 另请参阅：`python`.
 > 更多信息：<https://docs.python.org/using/windows.html#python-launcher-for-windows>.
 
 - 启动一个 REPL（交互式命令行），可以选择使用 `python` 支持的参数（如 `-c`、`-m` 等）：

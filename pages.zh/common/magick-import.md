@@ -1,7 +1,7 @@
 # magick import
 
 > 捕获某些或全部 X server 屏幕上的内容，并保存至图片文件当中。
-> 另见：`magick`。
+> 另请参阅：`magick`。
 > 更多信息：<https://imagemagick.org/script/import.php>.
 
 - 捕获整个 X server 屏幕，保存为 PostScript 文件：
