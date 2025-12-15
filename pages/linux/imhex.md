@@ -1,6 +1,6 @@
 # imhex
 
-> Free and open-source hex editor for reverse engineers and programmers.
+> Hex editor for reverse engineers and programmers.
 > More information: <https://docs.werwolv.net/imhex/>.
 
 - Open a file in ImHex:
