@@ -1,7 +1,7 @@
 # authconfig
 
 > 用于设置系统认证资源的命令行界面。
-> 更多信息：<https://manned.org/authconfig>.
+> 更多信息：<https://manned.org/authconfig>。
 
 - 显示当前的配置（或空运行）：
 

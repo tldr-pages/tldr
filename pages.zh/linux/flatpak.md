@@ -1,7 +1,7 @@
 # flatpak
 
 > 构建、安装和运行 Flatpak 应用和运行时。
-> 更多信息：<https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak>.
+> 更多信息：<https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak>。
 
 - 运行已安装应用：
 

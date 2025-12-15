@@ -1,7 +1,7 @@
 # unar
 
 > 从归档文件中提取内容。
-> 更多信息：<https://manned.org/unar>.
+> 更多信息：<https://manned.org/unar>。
 
 - 提取一个归档文件到当前目录：
 

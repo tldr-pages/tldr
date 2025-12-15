@@ -1,7 +1,7 @@
 # git checkout-index
 
 > 将文件从暂存区复制到工作区。
-> 更多信息：<https://git-scm.com/docs/git-checkout-index>.
+> 更多信息：<https://git-scm.com/docs/git-checkout-index>。
 
 - 恢复自上次提交以来删除的所有文件：
 

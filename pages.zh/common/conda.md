@@ -2,7 +2,7 @@
 
 > 为任何编程语言准备的包、依赖和环境管理工具。
 > 部分子命令（例如 `create`）有自己的文档。
-> 更多信息：<https://docs.conda.io/projects/conda/en/latest/commands/index.html>.
+> 更多信息：<https://docs.conda.io/projects/conda/en/latest/commands/index.html>。
 
 - 创建新的环境，并将指定包安装入该环境：
 

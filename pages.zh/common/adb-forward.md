@@ -1,7 +1,7 @@
 # adb forward
 
 > 通过无线连接到一个 Android 设备。
-> 更多信息：<https://developer.android.com/tools/adb>.
+> 更多信息：<https://developer.android.com/tools/adb>。
 
 - 转发一个 TCP 端口：
 

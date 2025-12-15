@@ -2,7 +2,7 @@
 
 > 安装、管理和更新 Rust 工具链。
 > 一些子命令，如 `toolchain`、`target`、`update` 等有自己的使用文档。
-> 更多信息：<https://rust-lang.github.io/rustup>.
+> 更多信息：<https://rust-lang.github.io/rustup>。
 
 - 为你的系统安装 nightly 工具链：
 

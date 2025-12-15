@@ -1,7 +1,7 @@
 # zdb
 
 > ZFS 调试器。
-> 更多信息：<https://manned.org/zdb>.
+> 更多信息：<https://manned.org/zdb>。
 
 - 显示所有已挂载 ZFS 存储池的详细配置：
 

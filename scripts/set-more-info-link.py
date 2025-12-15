@@ -95,7 +95,7 @@ def set_link(
          "\x1b[36mlink added"
          "\x1b[34mlink updated"
          "\x1b[36mlink would be added"
-         "\x1b[34mlink would updated"
+         "\x1b[34mlink would be updated"
     """
 
     locale = get_locale(path)

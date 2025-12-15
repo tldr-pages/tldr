@@ -1,7 +1,7 @@
 # tmt try
 
 > 测试及环境快速上手。
-> 更多信息：<https://tmt.readthedocs.io/en/stable/stories/cli.html#try>.
+> 更多信息：<https://tmt.readthedocs.io/en/stable/stories/cli.html#try>。
 
 - 快速尝试默认的测试环境配置方法（当前工作目录中没有测试）：
 

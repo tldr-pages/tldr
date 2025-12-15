@@ -1,7 +1,7 @@
 # zipcloak
 
 > 加密 Zip 压缩档案内的内容。
-> 更多信息：<https://manned.org/zipcloak>.
+> 更多信息：<https://manned.org/zipcloak>。
 
 - 加密一个 Zip 压缩档案的内容：
 

@@ -1,7 +1,7 @@
 # john
 
 > 密码破解工具。
-> 更多信息：<https://www.openwall.com/john/>.
+> 更多信息：<https://www.openwall.com/john/>。
 
 - 破解密码哈希：
 

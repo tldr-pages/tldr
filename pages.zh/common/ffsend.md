@@ -1,7 +1,7 @@
 # ffsend
 
 > 轻松和安全地分享文件。
-> 更多信息：<https://gitlab.com/timvisee/ffsend>.
+> 更多信息：<https://gitlab.com/timvisee/ffsend>。
 
 - 上传文件：
 

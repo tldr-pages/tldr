@@ -1,7 +1,7 @@
 # ssh-copy-id
 
 > 在远程机器的 authorized_keys 中安装您的公钥。
-> 更多信息：<https://manned.org/ssh-copy-id>.
+> 更多信息：<https://manned.org/ssh-copy-id>。
 
 - 将您的密钥复制到远程主机：
 

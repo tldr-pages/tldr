@@ -1,7 +1,7 @@
 # ipconfig
 
 > 顯示和管理 Windows 的網路設定值。
-> 更多資訊：<https://learn.microsoft.com/windows-server/administration/windows-commands/ipconfig>.
+> 更多資訊：<https://learn.microsoft.com/windows-server/administration/windows-commands/ipconfig>。
 
 - 顯示網路介面卡列表：
 
