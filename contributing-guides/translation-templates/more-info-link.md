@@ -320,7 +320,7 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 ### zh
 
 ```markdown
-> 更多信息：<https://example.com>.
+> 更多信息：<https://example.com>。
 ```
 
 ---
@@ -328,7 +328,7 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 ### zh_TW
 
 ```markdown
-> 更多資訊：<https://example.com>.
+> 更多資訊：<https://example.com>。
 ```
 
 ---
