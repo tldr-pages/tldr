@@ -1,7 +1,7 @@
 # git credential
 
 > 用于管理和存储 Git 用户凭证（如用户名和密码）。
-> 更多信息：<https://git-scm.com/docs/git-credential>.
+> 更多信息：<https://git-scm.com/docs/git-credential>。
 
 - ​​获取凭证信息​​（从配置文件中读取用户名和密码）：
 

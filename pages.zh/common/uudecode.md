@@ -1,7 +1,7 @@
 # uudecode
 
 > 解码被 `uuencode` 编码的文件。
-> 更多信息：<https://manned.org/uudecode>.
+> 更多信息：<https://manned.org/uudecode>。
 
 - 解码用 `uuencode` 编码的文件，并将结果打印到 `stdout`：
 

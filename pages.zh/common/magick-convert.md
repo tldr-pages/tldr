@@ -2,7 +2,7 @@
 
 > 转换图片格式，创建，组合图片，调整图片尺寸等功能。
 > 注意：原命令 `convert` 在 ImageMagick 7 以上版本中已被替换为 `magick`。
-> 更多信息：<https://imagemagick.org/script/convert.php>.
+> 更多信息：<https://imagemagick.org/script/convert.php>。
 
 - 将 JPEG 图片转换为 PNG 图片：
 

@@ -2,7 +2,7 @@
 
 > 删除文件或目录。
 > 另请参阅：`rmdir`。
-> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>.
+> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>。
 
 - 删除指定文件：
 

@@ -1,7 +1,7 @@
 # yuy2topam
 
 > 将 YUY2 字节转换为 PAM。
-> 更多信息：<https://netpbm.sourceforge.net/doc/yuy2topam.html>.
+> 更多信息：<https://netpbm.sourceforge.net/doc/yuy2topam.html>。
 
 - 将 YUY2 字节转换为 PAM：
 

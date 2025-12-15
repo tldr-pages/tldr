@@ -2,7 +2,7 @@
 
 > 输出图片文件的格式与属性。
 > 另请参阅：`magick`。
-> 更多信息：<https://imagemagick.org/script/identify.php>.
+> 更多信息：<https://imagemagick.org/script/identify.php>。
 
 - 输出图片的格式以及一些基本属性：
 

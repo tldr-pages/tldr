@@ -1,7 +1,7 @@
 # fastapi
 
 > 运行 FastAPI 应用的命令行工具，底层使用 Uvicorn。
-> 更多信息：<https://manned.org/fastapi>.
+> 更多信息：<https://manned.org/fastapi>。
 
 - 使用自动重载运行 FastAPI 应用（用于开发）：
 

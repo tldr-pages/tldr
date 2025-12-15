@@ -2,7 +2,7 @@
 
 > 便携式 GNU 汇编程序。
 > 主要用于汇编 `gcc` 的输出以供 `ld` 使用。
-> 更多信息：<https://keith.github.io/xcode-man-pages/as.1.html>.
+> 更多信息：<https://keith.github.io/xcode-man-pages/as.1.html>。
 
 - 汇编文件，将输出写入 a.out：
 

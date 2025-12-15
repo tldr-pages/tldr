@@ -2,7 +2,7 @@
 
 > Atom 编辑器的包管理工具。
 > 另请参阅：`atom`。
-> 更多信息：<https://github.com/atom/apm>.
+> 更多信息：<https://github.com/atom/apm>。
 
 - 下载包：<http://atom.io/packages> 和主题 <http://atom.io/themes>：
 

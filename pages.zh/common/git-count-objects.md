@@ -1,7 +1,7 @@
 # git count-objects
 
 > 统计未打包对象数量及其磁盘占用情况。
-> 更多信息：<https://git-scm.com/docs/git-count-objects>.
+> 更多信息：<https://git-scm.com/docs/git-count-objects>。
 
 - 统计所有对象并显示总磁盘使用量：
 

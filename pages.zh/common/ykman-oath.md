@@ -2,7 +2,7 @@
 
 > 管理 OATH YubiKey 应用程序。
 > `关键词` 可以是名称或发行者的一部分。
-> 更多信息：<https://docs.yubico.com/software/yubikey/tools/ykman/OATH_Commands.html>.
+> 更多信息：<https://docs.yubico.com/software/yubikey/tools/ykman/OATH_Commands.html>。
 
 - 显示有关 OATH 应用程序的一般信息：
 

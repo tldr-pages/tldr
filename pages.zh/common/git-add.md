@@ -1,7 +1,7 @@
 # git add
 
 > 将更改的文件添加到索引（暂存区）。
-> 更多信息：<https://git-scm.com/docs/git-add>.
+> 更多信息：<https://git-scm.com/docs/git-add>。
 
 - 添加单个文件到索引：
 
