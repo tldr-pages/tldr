@@ -10,7 +10,7 @@
 
 - Load an image from a compressed tar file:
 
-`podman load {{[-i|--input]}} {{path/to/file.tar[.gz|.zst]}}`
+`podman load {{[-i|--input]}} {{path/to/file.tar[.gz|.bz2|.xz|.zst]}}`
 
 - Load an image and display quiet output (only show the image ID):
 
