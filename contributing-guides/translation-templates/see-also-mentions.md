@@ -66,7 +66,6 @@ This file contains the translation templates of this notice.
 
 ```markdown
 > আরও দেখুন: `example`।
-> এছাড়াও দেখুন: `example`।
 ```
 
 ---
