@@ -1,7 +1,7 @@
 # git commit
 
 > 将文件提交到仓库。
-> 更多信息：<https://git-scm.com/docs/git-commit>.
+> 更多信息：<https://git-scm.com/docs/git-commit>。
 
 - 将暂存的文件提交到仓库，附带提交说明信息：
 

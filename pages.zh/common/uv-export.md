@@ -1,7 +1,7 @@
 # uv export
 
 > 将项目的锁文件 (lockfile) 导出为其它格式。
-> 更多信息：<https://docs.astral.sh/uv/reference/cli/#uv-export>.
+> 更多信息：<https://docs.astral.sh/uv/reference/cli/#uv-export>。
 
 - 将依赖项导出到 `requirements.txt` 文件：
 

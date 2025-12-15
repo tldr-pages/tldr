@@ -1,7 +1,7 @@
 # hostname
 
 > 显示或设置系统的主机名。
-> 更多信息：<https://www.gnu.org/software/inetutils/manual/inetutils.html#hostname-invocation>.
+> 更多信息：<https://www.gnu.org/software/inetutils/manual/inetutils.html#hostname-invocation>。
 
 - 显示本机的主机名：
 

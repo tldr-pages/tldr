@@ -1,7 +1,7 @@
 # logcat
 
 > 转储系统消息日志，包括发生错误时的堆栈跟踪信息，以及应用程序记录的信息消息。
-> 更多信息：<https://developer.android.com/tools/logcat>.
+> 更多信息：<https://developer.android.com/tools/logcat>。
 
 - 显示系统日志：
 

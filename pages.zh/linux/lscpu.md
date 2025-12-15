@@ -1,7 +1,7 @@
 # lscpu
 
 > 显示 CPU 架构信息。
-> 更多信息：<https://manned.org/lscpu>.
+> 更多信息：<https://manned.org/lscpu>。
 
 - 显示所有 CPU 信息：
 

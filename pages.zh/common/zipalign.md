@@ -2,7 +2,7 @@
 
 > Zip 文件对齐工具。
 > 是 Android 软件开发工具包构建工具的一部分。
-> 更多信息：<https://developer.android.com/tools/zipalign>.
+> 更多信息：<https://developer.android.com/tools/zipalign>。
 
 - 在 4 字节边界上对齐一个 Zip 文件的数据：
 

@@ -1,7 +1,7 @@
 # uncrustify
 
 > C、C++、C#、D、Java 和 Pawn 源代码格式化工具。
-> 更多信息：<https://manned.org/uncrustify>.
+> 更多信息：<https://manned.org/uncrustify>。
 
 - 格式化单个文件：
 

@@ -1,7 +1,7 @@
 # uv sync
 
 > 更新项目环境，来匹配锁文件 (lockfile).
-> 更多信息：<https://docs.astral.sh/uv/reference/cli/#uv-sync>.
+> 更多信息：<https://docs.astral.sh/uv/reference/cli/#uv-sync>。
 
 - 将项目环境与锁文件同步：
 

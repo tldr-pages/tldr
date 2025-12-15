@@ -1,7 +1,7 @@
 # a2enconf
 
 > 在基于 Debian 的操作系统上启用 Apache 配置文件。
-> 更多信息：<https://manned.org/a2enconf>.
+> 更多信息：<https://manned.org/a2enconf>。
 
 - 启用配置文件：
 

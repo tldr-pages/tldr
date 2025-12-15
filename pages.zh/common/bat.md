@@ -2,7 +2,7 @@
 
 > 可以打印并且合并文件的命令。
 > `cat` 的复制品，外加语法高亮和 Git 集成。
-> 更多信息：<https://manned.org/bat>.
+> 更多信息：<https://manned.org/bat>。
 
 - 使用美化样式打印一个或多个文件的内容到 `stdout`：
 

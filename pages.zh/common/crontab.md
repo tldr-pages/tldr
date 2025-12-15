@@ -1,7 +1,7 @@
 # crontab
 
 > 为当前用户计划 cron 任务，按照时间间隔运行。
-> 更多信息：<https://manned.org/crontab>.
+> 更多信息：<https://manned.org/crontab>。
 
 - 编辑当前用户的 crontab 文件：
 

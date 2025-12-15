@@ -1,7 +1,7 @@
 # docker compose
 
 > 运行并管理多个 Docker 容器应用。
-> 更多信息：<https://docs.docker.com/reference/cli/docker/compose/>.
+> 更多信息：<https://docs.docker.com/reference/cli/docker/compose/>。
 
 - 列出所有正在运行的容器：
 

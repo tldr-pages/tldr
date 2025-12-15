@@ -2,7 +2,7 @@
 
 > 向 `git config` 传递选项。更改由 `yadm` 管理的仓库的 `.gitconfig`。
 > 请参阅：`git config`。
-> 更多信息：<https://github.com/TheLocehiliosan/yadm/blob/master/yadm.md#commands>.
+> 更多信息：<https://github.com/TheLocehiliosan/yadm/blob/master/yadm.md#commands>。
 
 - 更新或设置一个 Git 配置值：
 

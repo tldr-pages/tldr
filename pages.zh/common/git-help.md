@@ -1,7 +1,7 @@
 # git help
 
 > 显示 Git 的帮助信息。
-> 更多信息：<https://git-scm.com/docs/git-help>.
+> 更多信息：<https://git-scm.com/docs/git-help>。
 
 - 显示指定 Git 子命令的帮助信息：
 

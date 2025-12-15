@@ -2,7 +2,7 @@
 
 > 用于 PNG 和 BMP 文件格式的隐写术检测工具。
 > 它检测 LSB 隐写术、ZLIB 压缩数据、OpenStego、Camouflage 和包含 Eratosthenes 集的 LSB。
-> 更多信息：<https://github.com/zed-0xff/zsteg>.
+> 更多信息：<https://github.com/zed-0xff/zsteg>。
 
 - 检测 PNG 文件中的嵌入数据：
 
