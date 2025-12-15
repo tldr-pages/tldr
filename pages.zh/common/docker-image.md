@@ -1,7 +1,7 @@
 # docker image
 
 > 管理 Docker 镜像。
-> 也请参阅：`docker build`, `docker import`, `docker pull`。
+> 另请参阅：`docker build`，`docker import`，`docker pull`。
 > 更多信息：<https://docs.docker.com/reference/cli/docker/image/>。
 
 - 列出本地的 Docker 镜像：

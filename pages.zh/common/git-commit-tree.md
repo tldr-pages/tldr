@@ -1,7 +1,7 @@
 # git commit-tree
 
 > 用于创建提交对象的底层工具。
-> 参考： `git commit`。
+> 另请参阅：`git commit`。
 > 更多信息：<https://git-scm.com/docs/git-commit-tree>。
 
 - 创建带有指定提交信息的提交对象：
