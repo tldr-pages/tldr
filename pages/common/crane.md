@@ -28,7 +28,7 @@
 
 `crane tag {{image}} {{tag}}`
 
-- Efficiently copy a remote image from `src` to `dst` while retaining the digest value:
+- Efficiently copy a remote image while retaining the digest value:
 
 `crane {{[cp|copy]}} {{source}} {{destination}} {{[-a|--all-tags]}}`
 
