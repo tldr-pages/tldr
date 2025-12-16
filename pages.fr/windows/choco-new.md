@@ -19,6 +19,6 @@
 
 `choco new {{paquet}} --output-directory {{chemin/vers/répertoire}}`
 
-- Créez un nouveau package avec des URL d'installation 32 bits et 64 bits spécifiques :
+- Créez un nouveau package avec des URL d'installation 32 bits et 64 bits spécifiques :
 
 `choco new {{paquet}} url="{{url}}" url64="{{url}}"`

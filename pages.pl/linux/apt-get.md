@@ -24,11 +24,11 @@
 
 `sudo apt-get upgrade`
 
-- Wyczyść lokalne repozytorium - usuwa wszystkie pliki pakietów (`.deb`) z przerwanych pobrań które nie mogą już być pobrane:
+- Wyczyść lokalne repozytorium - usuwa wszystkie pliki pakietów (`.deb`) z przerwanych pobrań które nie mogą już być pobrane:
 
 `sudo apt-get autoclean`
 
-- Usuń wszystkie pakiety, które już nie są potrzebne:
+- Usuń wszystkie pakiety, które już nie są potrzebne:
 
 `sudo apt-get autoremove`
 

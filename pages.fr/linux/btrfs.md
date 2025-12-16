@@ -16,7 +16,7 @@
 
 `sudo btrfs filesystem df {{chemin/vers/point_de_montage}}`
 
-- Activer les quotas :
+- Activer les quotas :
 
 `sudo btrfs quota enable {{chemin/vers/sous_volume}}`
 
