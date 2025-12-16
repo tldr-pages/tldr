@@ -28,6 +28,6 @@
 
 `systemd-analyze security`
 
-- View all udev rules together:
+- View all udev rules together without showing comments:
 
-`systemd-analyze cat-config udev/rules.d`
+`systemd-analyze cat-config udev/rules.d --tldr`
