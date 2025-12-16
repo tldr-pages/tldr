@@ -8,6 +8,10 @@
 
 `sudo fatrace`
 
+- Limit output to a program with a specific name:
+
+`sudo fatrace {{[-C|--command]}} {{program_name}}`
+
 - Print file access events on the mount of the current directory, with timestamps, to `stdout`:
 
 `sudo fatrace {{[-ct|--current-mount --timestamp]}}`
