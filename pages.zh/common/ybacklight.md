@@ -1,7 +1,7 @@
 # ybacklight
 
 > 管理屏幕背光亮度。请参阅：`xbacklight`。
-> 更多信息：<https://github.com/pixelcmtd/ybacklight>.
+> 更多信息：<https://github.com/pixelcmtd/ybacklight>。
 
 - 打印当前亮度和最大亮度，缩写并使用斜杠分隔：
 

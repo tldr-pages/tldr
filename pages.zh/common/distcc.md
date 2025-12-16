@@ -1,7 +1,7 @@
 # distcc
 
 > 与 `distccd` 搭配使用的分布式 C/C++/ObjC 编译客户端.
-> 更多信息：<https://manned.org/distcc>.
+> 更多信息：<https://manned.org/distcc>。
 
 - 使用类似 `gcc` 的编译器编译源文件：
 

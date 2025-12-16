@@ -1,7 +1,7 @@
 # pueue group
 
 > 그룹 표시, 추가 또는 제거.
-> 더 많은 정보: <https://github.com/Nukesor/pueue>.
+> 더 많은 정보: <https://github.com/Nukesor/pueue#how-to-use-it>.
 
 - 모든 그룹과 그 상태 및 병렬 작업 수 표시:
 

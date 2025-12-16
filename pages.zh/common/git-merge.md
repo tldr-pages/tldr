@@ -1,7 +1,7 @@
 # git merge
 
 > 合并分支。
-> 更多信息：<https://git-scm.com/docs/git-merge>.
+> 更多信息：<https://git-scm.com/docs/git-merge>。
 
 - 将指定分支合并到当前分支：
 

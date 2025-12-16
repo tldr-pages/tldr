@@ -1,7 +1,7 @@
 # afconvert
 
 > Ubah format file antara AFF dan file baku/raw.
-> Informasi lebih lanjut: <https://manned.org/afconvert.1>.
+> Informasi lebih lanjut: <https://manned.org/afconvert>.
 
 - Pakai nama ekstensi output (default: `aff`):
 

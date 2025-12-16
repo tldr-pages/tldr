@@ -1,7 +1,7 @@
 # beep
 
 > Utilitário que permite o computador emitir sons.
-> Mais informações: <https://manned.org/man/beep>.
+> Mais informações: <https://manned.org/beep>.
 
 - Emite um som:
 

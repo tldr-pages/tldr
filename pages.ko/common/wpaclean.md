@@ -2,7 +2,7 @@
 
 > 캡처 파일을 정리하여 4-way 핸드셰이크와 비콘만 얻기.
 > Aircrack-ng 네트워크 소프트웨어 모음의 일부.
-> 더 많은 정보: <https://manned.org/wpaclean.1>.
+> 더 많은 정보: <https://manned.org/wpaclean>.
 
 - 캡처 파일을 정리하고 결과에 4-way 핸드셰이크와 비콘만 저장:
 

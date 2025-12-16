@@ -1,7 +1,7 @@
 # pkgctl auth
 
 > `pkgctl`을 GitLab과 같은 서비스에 인증합니다.
-> 더 많은 정보: <https://manned.org/pkgctl-auth.1>.
+> 더 많은 정보: <https://manned.org/pkgctl-auth>.
 
 - GitLab 인스턴스에 `pkgctl`을 인증:
 

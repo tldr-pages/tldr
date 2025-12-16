@@ -2,7 +2,7 @@
 
 > 原始 zlib 压缩和解压缩程序。
 > `qpdf` 的一部分。
-> 更多信息：<https://manned.org/zlib-flate>.
+> 更多信息：<https://manned.org/zlib-flate>。
 
 - 压缩一个文件：
 

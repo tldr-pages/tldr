@@ -1,7 +1,7 @@
 # debchange
 
 > Debian 소스 패키지의 debian/changelog 파일을 관리합니다.
-> 더 많은 정보: <https://manned.org/debchange.1>.
+> 더 많은 정보: <https://manned.org/debchange>.
 
 - 비관리자 업로드를 위한 새 버전을 변경 로그에 추가:
 

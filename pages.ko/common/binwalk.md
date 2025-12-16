@@ -1,7 +1,7 @@
 # binwalk
 
 > 펌웨어 분석 도구.
-> 더 많은 정보: <https://github.com/ReFirmLabs/binwalk>.
+> 더 많은 정보: <https://manned.org/binwalk>.
 
 - 바이너리 파일 스캔:
 

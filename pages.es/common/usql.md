@@ -1,7 +1,7 @@
 # usql
 
 > Interfaz de línea de comandos universal para bases de datos SQL.
-> Más información: <https://github.com/xo/usql>.
+> Más información: <https://github.com/xo/usql#using>.
 
 - Conecta a una base de datos específica:
 

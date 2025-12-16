@@ -1,7 +1,7 @@
 # qtcreator
 
 > 跨平台的 Qt 应用程序集成开发环境。
-> 更多信息：<https://doc.qt.io/qtcreator/creator-cli.html>.
+> 更多信息：<https://doc.qt.io/qtcreator/creator-cli.html>。
 
 - 启动 Qt Creator：
 

@@ -1,7 +1,7 @@
 # code
 
 > Visual Studio Code.
-> 更多資訊：<https://code.visualstudio.com/docs/configure/command-line>.
+> 更多資訊：<https://code.visualstudio.com/docs/configure/command-line>。
 
 - 執行 VS Code：
 

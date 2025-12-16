@@ -1,7 +1,7 @@
 # a2ensite
 
 > Nyalakan fungsi peladenan suatu host maya (virtual host) pada piranti peladen Apache dalam sistem operasi berbasis Debian.
-> Informasi lebih lanjut: <https://manned.org/a2ensite.8>.
+> Informasi lebih lanjut: <https://manned.org/a2ensite>.
 
 - Nyalakan suatu host maya:
 

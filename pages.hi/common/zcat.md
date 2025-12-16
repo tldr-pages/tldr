@@ -1,0 +1,7 @@
+# zcat
+
+> यह आदेश `gzip --stdout --decompress` का उपनाम है।
+
+- मूल आदेश के लिए दस्तावेज़ देखें:
+
+`tldr gzip`

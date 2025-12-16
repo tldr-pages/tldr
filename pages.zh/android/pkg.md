@@ -1,7 +1,7 @@
 # pkg
 
 > Termux 的包管理工具。
-> 更多信息：<https://wiki.termux.com/wiki/Package_Management>.
+> 更多信息：<https://wiki.termux.com/wiki/Package_Management>。
 
 - 升级所有已安装的包：
 

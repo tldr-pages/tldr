@@ -1,7 +1,7 @@
 # sv
 
 > 控制一个正在运行的 runsv 服务。
-> 更多信息：<https://manned.org/sv.8>.
+> 更多信息：<https://manned.org/sv>。
 
 - 启动服务：
 

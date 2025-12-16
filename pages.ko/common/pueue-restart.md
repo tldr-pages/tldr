@@ -1,7 +1,7 @@
 # pueue restart
 
 > 작업을 다시 시작.
-> 더 많은 정보: <https://github.com/Nukesor/pueue>.
+> 더 많은 정보: <https://github.com/Nukesor/pueue#how-to-use-it>.
 
 - 특정 작업 다시 시작:
 

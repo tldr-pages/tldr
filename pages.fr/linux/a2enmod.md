@@ -1,7 +1,7 @@
 # a2enmod
 
 > Active un module Apache sur une distribution Debian.
-> Plus d'informations : <https://manned.org/a2enmod.8>.
+> Plus d'informations : <https://manned.org/a2enmod>.
 
 - Active un module :
 

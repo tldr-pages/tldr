@@ -2,7 +2,7 @@
 
 > 显示逻辑卷信息。
 > 另见：`lvm`.
-> 更多信息：<https://manned.org/lvs>.
+> 更多信息：<https://manned.org/lvs>。
 
 - 显示逻辑卷信息：
 

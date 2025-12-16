@@ -1,6 +1,7 @@
 # distrobox-upgrade
 
-> Upgrade een of meerdere Distrobox containers. Bekijk ook: `tldr distrobox`.
+> Upgrade een of meerdere Distrobox containers.
+> Bekijk ook: `distrobox`.
 > Meer informatie: <https://distrobox.it/usage/distrobox-upgrade>.
 
 - Upgrade een container met behulp van het native pakketbeheer van de container:

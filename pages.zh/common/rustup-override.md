@@ -2,7 +2,7 @@
 
 > 修改目录的工具链覆盖设置。
 > 有关工具链的更多信息，请参见 `rustup help toolchain`。
-> 更多信息：<https://rust-lang.github.io/rustup>.
+> 更多信息：<https://rust-lang.github.io/rustup>。
 
 - 列出目录的工具链覆盖设置：
 

@@ -1,7 +1,7 @@
 # neofetch
 
 > 命令行系统信息工具，以美观的方式显示系统信息。
-> 更多信息：<https://github.com/dylanaraps/neofetch>.
+> 更多信息：<https://manned.org/neofetch>。
 
 - 显示系统信息：
 

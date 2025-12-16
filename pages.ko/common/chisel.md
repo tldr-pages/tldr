@@ -2,7 +2,7 @@
 
 > TCP/UDP 터널 생성, HTTP를 통해 전송, SSH를 통해 보안.
 > 동일한 `chisel` 실행 파일에 클라이언트와 서버 모두 포함됩니다.
-> 더 많은 정보: <https://github.com/jpillora/chisel>.
+> 더 많은 정보: <https://github.com/jpillora/chisel#usage>.
 
 - Chisel 서버 실행:
 

@@ -1,7 +1,7 @@
 # git log
 
 > 查看提交历史。
-> 更多信息：<https://git-scm.com/docs/git-log>.
+> 更多信息：<https://git-scm.com/docs/git-log>。
 
 - 按时间先后顺序列出当前仓库所有的提交，最近的更新排在最上面：
 
