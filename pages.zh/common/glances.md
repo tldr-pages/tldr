@@ -1,7 +1,7 @@
 # glances
 
 > 一个跨平台的系统监控工具。
-> 更多信息：<https://nicolargo.github.io/glances/>.
+> 更多信息：<https://nicolargo.github.io/glances/>。
 
 - 在终端中运行
 

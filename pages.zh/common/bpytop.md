@@ -2,7 +2,7 @@
 
 > 一个资源监视器，显示有关 CPU、内存、磁盘、网络和进程的信息。
 > `bashtop` 的 Python 版本。
-> 更多信息：<https://github.com/aristocratos/bpytop#command-line-options>.
+> 更多信息：<https://github.com/aristocratos/bpytop#command-line-options>。
 
 - 运行 bpytop：
 

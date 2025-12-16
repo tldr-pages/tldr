@@ -1,7 +1,7 @@
 # mysql
 
 > MySQL 命令行工具。
-> 更多信息：<https://manned.org/mysql>.
+> 更多信息：<https://manned.org/mysql>。
 
 - 连接数据库：
 

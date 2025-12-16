@@ -1,7 +1,7 @@
 # md5sum
 
 > 计算 MD5 加密校验和。
-> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/md5sum-invocation.html>.
+> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/md5sum-invocation.html>。
 
 - 计算一个或多个文件的 MD5 校验和：
 

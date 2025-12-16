@@ -1,7 +1,7 @@
 # brew list
 
 > 列出已安装的软件包/安装包，或者它们所含的文件。
-> 更多信息：<https://docs.brew.sh/Manpage#list-ls-options-installed_formulainstalled_cask->.
+> 更多信息：<https://docs.brew.sh/Manpage#list-ls-options-installed_formulainstalled_cask->。
 
 - 列出所有安装的软件包和安装包：
 

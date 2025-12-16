@@ -1,7 +1,7 @@
 # agate
 
 > 一个简单的 Gemini 网络协议的服务器。
-> 更多信息：<https://github.com/mbrubeck/agate>.
+> 更多信息：<https://github.com/mbrubeck/agate>。
 
 - 运行并生成一个私钥和证书：
 

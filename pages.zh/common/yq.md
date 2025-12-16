@@ -1,7 +1,7 @@
 # yq
 
 > 一个轻量级且可移植的命令行 YAML 处理器。
-> 更多信息：<https://mikefarah.gitbook.io/yq/>.
+> 更多信息：<https://mikefarah.gitbook.io/yq/>。
 
 - 以漂亮打印格式输出 YAML 文件（v4+）：
 

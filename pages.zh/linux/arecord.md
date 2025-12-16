@@ -1,7 +1,7 @@
 # arecord
 
 > ALSA 声卡驱动的声音录制器。
-> 更多信息：<https://manned.org/arecord>.
+> 更多信息：<https://manned.org/arecord>。
 
 - 以 "CD" 质量录制一段声音（录制结束以 `<Ctrl c>` 停止）：
 

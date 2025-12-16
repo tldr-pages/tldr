@@ -2,7 +2,7 @@
 
 > 一个快速的 Python 软件包和项目管理器。
 > 此命令也有关于其子命令的文件，例如：`tool` 和 `python`.
-> 更多信息：<https://docs.astral.sh/uv/reference/cli>.
+> 更多信息：<https://docs.astral.sh/uv/reference/cli>。
 
 - 在当前目录中创建一个新的 Python 项目：
 

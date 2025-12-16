@@ -2,7 +2,7 @@
 
 > 展示 Git 仓库中文件的变更情况。
 > 列出与当前检出提交相比有修改、新增和删除的文件。
-> 更多信息：<https://git-scm.com/docs/git-status>.
+> 更多信息：<https://git-scm.com/docs/git-status>。
 
 - 显示修改过但尚未暂存（以备提交）的文件：
 

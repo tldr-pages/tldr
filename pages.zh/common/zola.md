@@ -1,7 +1,7 @@
 # zola
 
 > 一个静态站点生成器，一个二进制文件内包含所有功能。
-> 更多信息：<https://www.getzola.org/documentation/getting-started/cli-usage/>.
+> 更多信息：<https://www.getzola.org/documentation/getting-started/cli-usage/>。
 
 - 在指定目录下创建 Zola 使用的目录结构：
 
