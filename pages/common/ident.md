@@ -8,7 +8,7 @@
 
 `ident {{path/to/file}}`
 
-- Display RCS identification strings with their filename:
+- Display RCS identification strings, suppressing warnings if no patterns are found:
 
 `ident -q {{path/to/file1 path/to/file2 ...}}`
 
