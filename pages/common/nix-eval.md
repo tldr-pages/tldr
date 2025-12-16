@@ -1,6 +1,6 @@
 # nix eval
 
-> Evaluate a Nix expression and prints the result on stdout.
+> Evaluate a Nix expression and prints the result to stdout.
 > More information: <https://nix.dev/manual/nix/2.28/command-ref/new-cli/nix3-eval.html>.
 
 - Evaluate Nix flake attributes in the current directory:
