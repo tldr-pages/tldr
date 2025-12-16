@@ -14,7 +14,7 @@
 
 - Check in a file with a specific log message:
 
-`ci -m"{{log_message}}" {{path/to/file}}`
+`ci -m "{{log_message}}" {{path/to/file}}`
 
 - Check in a file, unlocking it but leaving the working file read-only:
 
