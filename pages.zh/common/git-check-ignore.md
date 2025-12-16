@@ -1,7 +1,7 @@
 # git check-ignore
 
 > 分析和调试 Git 忽略规则（.gitignore 文件）。
-> 更多信息：<https://git-scm.com/docs/git-check-ignore>.
+> 更多信息：<https://git-scm.com/docs/git-check-ignore>。
 
 - 检查文件或目录是否被忽略：
 

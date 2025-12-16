@@ -3,7 +3,7 @@
 > 以 Debian 為基底的發行版的套件管理器。
 > 旨在作為用於互動式使用的 `apt-get` 使用者友善的替代方案。
 > 對於其他套件管理器同等的指令，請參見 <https://wiki.archlinux.org/title/Pacman/Rosetta>.
-> 更多資訊：<https://manned.org/apt.8>.
+> 更多資訊：<https://manned.org/apt.8>。
 
 - 更新套件可用版本列表（推薦在執行其他 `apt` 指令前先執行）：
 

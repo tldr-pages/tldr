@@ -1,7 +1,7 @@
 # add-apt-repository
 
 > apt 仓库管理。
-> 更多信息：<https://manned.org/add-apt-repository>.
+> 更多信息：<https://manned.org/add-apt-repository>。
 
 - 添加一个新的 APT 仓库：
 

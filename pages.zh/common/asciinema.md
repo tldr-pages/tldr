@@ -2,7 +2,7 @@
 
 > 录制和回放终端会话，并可选分享到 <https://asciinema.org>。
 > 另见：`terminalizer`。
-> 更多信息：<https://docs.asciinema.org/manual/cli/>.
+> 更多信息：<https://docs.asciinema.org/manual/cli/>。
 
 - 将本地安装的 `asciinema` 与 asciinema.org 账号关联：
 

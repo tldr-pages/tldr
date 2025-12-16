@@ -1,7 +1,7 @@
 # quota
 
 > 显示用户的磁盘空间使用情况和分配限制。
-> 更多信息：<https://manned.org/quota>.
+> 更多信息：<https://manned.org/quota>。
 
 - 以人类可读的单位显示当前用户的磁盘配额：
 

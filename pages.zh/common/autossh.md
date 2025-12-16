@@ -2,7 +2,7 @@
 
 > 创建，监控或重启 SSH 连接。
 > 自动重连会确保你的端口转发隧道打开。接受所有 SSH 参数。
-> 更多信息：<https://manned.org/autossh>.
+> 更多信息：<https://manned.org/autossh>。
 
 - 启动 SSH 会话，当监控 ([M]onitoring) 的端口无法返回数据时，自动重启：
 

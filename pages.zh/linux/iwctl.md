@@ -1,7 +1,7 @@
 # iwctl
 
 > 控制 `iwd` 网络请求程序。
-> 更多信息：<https://manned.org/iwctl>.
+> 更多信息：<https://manned.org/iwctl>。
 
 - 启动交互模式，在此模式您可以直接输入命令并带有自动补全：
 

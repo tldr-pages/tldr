@@ -1,7 +1,7 @@
 # git init
 
 > 初始化新的本地 Git 仓库。
-> 更多信息：<https://git-scm.com/docs/git-init>.
+> 更多信息：<https://git-scm.com/docs/git-init>。
 
 - 初始化新的本地仓库：
 

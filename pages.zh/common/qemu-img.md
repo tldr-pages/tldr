@@ -1,7 +1,7 @@
 # qemu-img
 
 > 创建和操作 Quick Emulator 虚拟硬盘镜像。
-> 更多信息：<https://qemu.readthedocs.io/en/master/tools/qemu-img.html>.
+> 更多信息：<https://qemu.readthedocs.io/en/master/tools/qemu-img.html>。
 
 - 创建一个指定大小（以 GB 为单位）的磁盘镜像：
 

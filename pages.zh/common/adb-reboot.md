@@ -1,7 +1,7 @@
 # adb reboot
 
 > 重启已连接的 Android 设备或模拟器。
-> 更多信息：<https://manned.org/adb>.
+> 更多信息：<https://manned.org/adb>。
 
 - 正常重启设备:
 

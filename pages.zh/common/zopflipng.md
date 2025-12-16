@@ -1,7 +1,7 @@
 # zopflipng
 
 > PNG 压缩工具。
-> 更多信息：<https://github.com/google/zopfli>.
+> 更多信息：<https://github.com/google/zopfli>。
 
 - 优化一个 PNG 文件：
 

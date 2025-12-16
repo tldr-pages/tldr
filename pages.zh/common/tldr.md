@@ -2,7 +2,7 @@
 
 > 显示来自 tldr-pages 项目的命令行工具的简单帮助页面。
 > 注意：`--language` 和 `--list` 选项并非客户端规范所必需，但大多数客户端都实现了它们。
-> 更多信息：<https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.
+> 更多信息：<https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>。
 
 - 打印指定命令的 tldr 页面（提示：这就是你来到这里的方式！）：
 

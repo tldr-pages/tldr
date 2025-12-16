@@ -1,7 +1,7 @@
 # xz
 
 > 解压缩 XZ 和 LZMA 文件。
-> 更多信息：<https://manned.org/xz>.
+> 更多信息：<https://manned.org/xz>。
 
 - 使用 xz 压缩文件：
 

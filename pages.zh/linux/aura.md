@@ -1,7 +1,7 @@
 # aura
 
 > Aura 包管理器：一个安全且支持多语言的 Arch Linux 和 AUR 的包管理器。
-> 更多信息：<https://github.com/fosskers/aura>.
+> 更多信息：<https://github.com/fosskers/aura>。
 
 - 从官方仓库和 AUR 检索包：
 

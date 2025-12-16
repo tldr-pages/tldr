@@ -192,7 +192,7 @@ Display the current license's e[xp]i[r]ation date and time:
 4. 除非文件是特定的，上述 `{{目录/子目录/《占位符》}}` 的文件路径格式应用于所有包含路径的命令。
 5. 如果命令需要的文件扩展名是固定的，请在占位符里加上文件格式。
    例如：`unrar x {{压缩包.rar}}`
-   如果文件 **必须** 有一个扩展名，请用 `{{.ext}}` 。
+   如果文件 **必须** 有一个扩展名，请用 `{{.ext}}`。
    例如，在 `find {{起始目录}} -name '{{*.ext}}'` 的例子里，
    这样做简单地演示了查找一个特定文件扩展名的方法。
    但是，在 `wc -l {{file}}` 的例子里，用不加扩展名的 `{{file}}` 就足够了。
@@ -200,7 +200,7 @@ Display the current license's e[xp]i[r]ation date and time:
    例如：`iostat {{2}}` 比 `iostat {{以秒为单位的间隔}}` 更清晰。
 7. 如果一个命令可能对文件系统或设备造成不可逆的影响，请在示例命令中注意改写，使其不能被盲目复制粘贴运行。
    例如，`ddrescue --force --no-scrape /dev/sda /dev/sdb` 被盲目复制粘贴时可能对系统造成毁灭性的打击；`ddrescue --force --no-scrape {{/dev/sdX}} {{/dev/sdY}}` 则更安全。
-   因此，请用 `{{/dev/sdXY}}` 而不是 `{{/dev/sda1}}` 来表示一个 **块设备** 。
+   因此，请用 `{{/dev/sdXY}}` 而不是 `{{/dev/sda1}}` 来表示一个 **块设备**。
 
 占位符应该尽可能简单明了，让人一眼就能看出应该替换它的值。
 

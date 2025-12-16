@@ -1,7 +1,7 @@
 # zipgrep
 
 > 在 Zip 压缩档案中的文件中使用扩展正则表达式查找模式（支持 `?`、`+`、`{}`、`()` 和 `|`）。
-> 更多信息：<https://manned.org/zipgrep>.
+> 更多信息：<https://manned.org/zipgrep>。
 
 - 在 Zip 压缩档案中搜索一个模式：
 

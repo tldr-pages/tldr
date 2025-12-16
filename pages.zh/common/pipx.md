@@ -1,7 +1,7 @@
 # pipx
 
 > 在隔离环境中安装并运行 Python 应用程序。
-> 更多信息：<https://manned.org/pipx>.
+> 更多信息：<https://manned.org/pipx>。
 
 - 在临时虚拟环境中运行应用程序：
 

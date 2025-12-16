@@ -2,7 +2,7 @@
 
 > 一个简单、现代、安全的文件加密工具。
 > 参见：`age-keygen` 用于生成密钥对。
-> 更多信息：<https://github.com/FiloSottile/age#usage>.
+> 更多信息：<https://github.com/FiloSottile/age#usage>。
 
 - 生成一个可以用密码短语（passphrase）解密的加密文件：
 

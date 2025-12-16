@@ -1,7 +1,7 @@
 # bluetoothd
 
 > 管理蓝牙设备的守护进程。
-> 更多信息：<https://manned.org/bluetoothd>.
+> 更多信息：<https://manned.org/bluetoothd>。
 
 - 启动守护进程：
 
