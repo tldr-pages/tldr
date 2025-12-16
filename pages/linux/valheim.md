@@ -6,7 +6,7 @@
 
 - Start the server:
 
-`{{path/to/start_server.sh}}`
+`{{path/to}}/start_server.sh`
 
 - Stop the server gracefully:
 
