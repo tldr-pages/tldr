@@ -12,18 +12,18 @@
 
 `/r/{{subreddit_name}}`
 
-- [Interactive] Expand/collapse comments:
+- Expand/collapse comments:
 
 `<Space>`
 
-- [Interactive] Open link:
+- Open link:
 
 `<o>`
 
-- [Interactive] Log in:
+- Log in:
 
 `<u>`
 
-- [Interactive] Display help:
+- Display help:
 
 `<?>`
