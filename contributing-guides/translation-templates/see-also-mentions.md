@@ -160,7 +160,6 @@ Not translated yet.
 
 ```markdown
 > Vedi anche: `example`.
-> Guarda anche: `example`.
 ```
 
 ---
