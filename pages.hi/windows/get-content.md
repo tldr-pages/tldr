@@ -8,12 +8,12 @@
 
 - किसी फ़ाइल की सामग्री प्रदर्शित करें:
 
-`Get-Content -Path {{path\to\file}}`
+`Get-Content -Path {{फ़ाइल\का\पथ}}`
 
 - किसी फ़ाइल की पहली कुछ पंक्तियाँ प्रदर्शित करें:
 
-`Get-Content -Path {{path\to\file}} -TotalCount {{10}}`
+`Get-Content -Path {{फ़ाइल\का\पथ}} -TotalCount {{10}}`
 
 - फ़ाइल की सामग्री प्रदर्शित करें और `<Ctrl c>` दबाए जाने तक उसे पढ़ते रहें:
 
-`Get-Content -Path {{path\to\file}} -Wait`
+`Get-Content -Path {{फ़ाइल\का\पथ}} -Wait`
