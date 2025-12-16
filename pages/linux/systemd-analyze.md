@@ -12,7 +12,7 @@
 
 `systemd-analyze blame`
 
-- Print a tree of the time-critical chain of units:
+- Print a tree of the time-critical chain of bootup units:
 
 `systemd-analyze critical-chain`
 
