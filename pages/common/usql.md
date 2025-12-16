@@ -15,18 +15,18 @@
 
 `usql --command="{{sql_command}}"`
 
-- Run an SQL command in the `usql` prompt:
+- [Interactive] Run an SQL command in the `usql` prompt:
 
-`{{prompt}}=> {{command}}`
+`{{command}}`
 
-- Display the database schema:
+- [Interactive] Display the database schema:
 
-`{{prompt}}=> \d`
+`\d`
 
-- Export query results to a specific file:
+- [Interactive] Export query results to a specific file:
 
-`{{prompt}}=> \g {{path/to/file_with_results}}`
+`\g {{path/to/file_with_results}}`
 
-- Import data from a CSV file into a specific table:
+- [Interactive] Import data from a CSV file into a specific table:
 
-`{{prompt}}=> \copy {{path/to/data.csv}} {{table_name}}`
+`\copy {{path/to/data.csv}} {{table_name}}`
