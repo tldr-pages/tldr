@@ -4,15 +4,15 @@
 > Il est recommandé de faire tourner une vérification tous les mois.
 > Plus d'informations : <https://btrfs.readthedocs.io/en/latest/btrfs-scrub.html>.
 
-- Démarrer un examen :
+- Démarrer un examen :
 
 `sudo btrfs scrub start {{chemin/vers/point_de_montage_btrfs}}`
 
-- Afficher le statut d'un examen en cours, ou du dernier examen complété :
+- Afficher le statut d'un examen en cours, ou du dernier examen complété :
 
 `sudo btrfs scrub status {{chemin/vers/point_de_montage_btrfs}}`
 
-- Stopper un examen en cours :
+- Stopper un examen en cours :
 
 `sudo btrfs scrub cancel {{chemin/vers/point_de_montage_btrfs}}`
 

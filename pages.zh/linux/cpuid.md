@@ -1,7 +1,7 @@
 # cpuid
 
 > 显示有关所有 CPU 的详细信息。
-> 更多信息：<https://manned.org/cpuid.1>.
+> 更多信息：<https://manned.org/cpuid.1>。
 
 - 显示所有 CPU 的信息：
 

@@ -1,21 +1,7 @@
 # minetest
 
-> Çok oyunculu sınırsız dünyalı bloklu sandbox oyun motoru.
-> Ayrıca `minetestserver` sayfasına bakılması önerilir.
-> Daha fazla bilgi için: <https://wiki.minetest.org/Minetest>.
+> Bu komut `luanti` için bir takma addır.
 
-- Minetest'i kullanıcı modunda başlat:
+- Asıl komutun belgelerini görüntüleyin:
 
-`minetest`
-
-- Minetest'i belirtilen dünyayı host edecek şekilde sunucu modunda başlat:
-
-`minetest --server --world {{isim}}`
-
-- Belirtilmiş bir dosyaya geçmişi yaz:
-
-`minetest --logfile {{örnek/dosya}}`
-
-- Hataları yalnızca konsola yaz:
-
-`minetest --quiet`
+`tldr luanti`

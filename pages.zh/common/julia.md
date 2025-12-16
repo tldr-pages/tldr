@@ -1,7 +1,7 @@
 # julia
 
 > 一种用于技术计算的高层次、高性能动态编程语言。
-> 更多信息：<https://docs.julialang.org/en/v1/manual/getting-started/>.
+> 更多信息：<https://docs.julialang.org/en/v1/manual/getting-started/>。
 
 - 启动一个 REPL（交互式 shell）：
 

@@ -1,7 +1,7 @@
 # docker logs
 
 > 显示容器的日志。
-> 更多信息：<https://docs.docker.com/reference/cli/docker/container/logs/>.
+> 更多信息：<https://docs.docker.com/reference/cli/docker/container/logs/>。
 
 - 显示一个容器的日志：
 

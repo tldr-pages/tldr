@@ -1,7 +1,7 @@
 # brew install
 
 > 安装一个 Homebrew 软件包 (formula)，或安装包 (cask).
-> 更多信息：<https://docs.brew.sh/Manpage#install-options-formulacask->.
+> 更多信息：<https://docs.brew.sh/Manpage#install-options-formulacask->。
 
 - 安装软件包/安装包：
 

@@ -1,6 +1,6 @@
 # koji resubmit
 
-> Retry a canceled or failed task, using the same parameter as the original task.
+> Retry a cancelled or failed task, using the same parameter as the original task.
 > More information: <https://docs.pagure.org/koji>.
 
 - Resubmit a task:

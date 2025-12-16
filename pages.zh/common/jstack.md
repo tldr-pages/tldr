@@ -1,7 +1,7 @@
 # jstack
 
 > Java 栈跟踪工具。
-> 更多信息：<https://manned.org/jstack>.
+> 更多信息：<https://manned.org/jstack>。
 
 - 打印 Java 进程中所有线程的 Java 栈跟踪：
 

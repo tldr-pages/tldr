@@ -2,7 +2,7 @@
 
 > Z Shell (`zsh`) 内置。打印参数，类似于 `echo`。
 > 另请参阅：`echo`、`printf`、`zsh`。
-> 更多信息：<https://zsh.sourceforge.io/Doc/Release/Shell-Builtin-Commands.html>.
+> 更多信息：<https://zsh.sourceforge.io/Doc/Release/Shell-Builtin-Commands.html>。
 
 - 打印输入：
 

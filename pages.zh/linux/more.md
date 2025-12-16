@@ -2,7 +2,7 @@
 
 > 以交互方式显示文件，允许滚动和搜索。
 > 另请参阅：`less`。
-> 更多信息：<https://manned.org/more>.
+> 更多信息：<https://manned.org/more>。
 
 - 打开文件：
 

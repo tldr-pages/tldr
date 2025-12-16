@@ -1,7 +1,7 @@
 # blkid
 
 > 列出所有已识别的分区及其通用唯一标识符 (UUID)。
-> 更多信息：<https://manned.org/blkid>.
+> 更多信息：<https://manned.org/blkid>。
 
 - 列出所有分区：
 

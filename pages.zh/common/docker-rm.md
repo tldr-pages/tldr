@@ -1,7 +1,7 @@
 # docker rm
 
 > 移除容器。
-> 更多信息：<https://docs.docker.com/reference/cli/docker/container/rm/>.
+> 更多信息：<https://docs.docker.com/reference/cli/docker/container/rm/>。
 
 - 移除容器：
 
