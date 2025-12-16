@@ -1,6 +1,6 @@
 # line
 
-> Wczytaj pojedynczą linię wejścia.
+> Wczytaj pojedynczą linię wejścia.
 > Więcej informacji: <https://manned.org/line.1>.
 
 - Wczytaj wejście:
