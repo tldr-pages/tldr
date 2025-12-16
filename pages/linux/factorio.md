@@ -15,7 +15,7 @@
 
 `{{path/to/factorio}} --create {{path/to/save.zip}} --map-gen-settings {{path/to/map-gen-settings.json}} --map-settings {{path/to/map-settings.json}}`
 
-- Shut the server gracefully:
+- [Interactive] Shut the server gracefully:
 
 `/quit`
 
