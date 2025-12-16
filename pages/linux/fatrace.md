@@ -1,6 +1,7 @@
 # fatrace
 
 > Report file access events.
+> See also: `inotifywait`.
 > More information: <https://manned.org/fatrace>.
 
 - Print file access events in all mounted filesystems to `stdout`:
