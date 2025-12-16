@@ -4,18 +4,18 @@
 > See also: `odps`.
 > More information: <https://www.alibabacloud.com/help/doc-detail/27971.htm>.
 
-- Download table to local file:
+- [Interactive] Download table to local file:
 
 `tunnel download {{table_name}} {{path/to/file}};`
 
-- Upload local file to a table partition:
+- [Interactive] Upload local file to a table partition:
 
 `tunnel upload {{path/to/file}} {{table_name}}/{{partition_spec}};`
 
-- Upload table specifying field and record delimiters:
+- [Interactive] Upload table specifying field and record delimiters:
 
 `tunnel upload {{path/to/file}} {{table_name}} -fd {{field_delim}} -rd {{record_delim}};`
 
-- Upload table using multiple threads:
+- [Interactive] Upload table using multiple threads:
 
 `tunnel upload {{path/to/file}} {{table_name}} -threads {{num}};`

@@ -4,26 +4,26 @@
 > See also: `odps`.
 > More information: <https://www.alibabacloud.com/help/doc-detail/27971.htm>.
 
-- Show resources in the current project:
+- [Interactive] Show resources in the current project:
 
 `list resources;`
 
-- Add file resource:
+- [Interactive] Add file resource:
 
 `add file {{filename}} as {{alias}};`
 
-- Add archive resource:
+- [Interactive] Add archive resource:
 
 `add archive {{archive.tar.gz}} as {{alias}};`
 
-- Add .jar resource:
+- [Interactive] Add .jar resource:
 
 `add jar {{package.jar}};`
 
-- Add .py resource:
+- [Interactive] Add .py resource:
 
 `add py {{script.py}};`
 
-- Delete resource:
+- [Interactive] Delete resource:
 
 `drop resource {{resource_name}};`

@@ -7,15 +7,15 @@
 
 `yacas`
 
-- While in a `yacas` session, execute a statement:
+- [Interactive] While in a `yacas` session, execute a statement:
 
 `{{Integrate(x)Cos(x)}};`
 
-- While in a `yacas` session, display an example:
+- [Interactive] While in a `yacas` session, display an example:
 
 `Example();`
 
-- Quit from a `yacas` session:
+- [Interactive] Quit from a `yacas` session:
 
 `quit`
 
