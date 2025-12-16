@@ -2,15 +2,23 @@
 
 > A lightweight keyboard-only TUI for Git.
 > See also: `tig`, `git-gui`.
-> More information: <https://github.com/extrawurst/gitui>.
+> More information: <https://github.com/gitui-org/gitui>.
 
-- Specify the color theme (defaults to `theme.ron`):
+- Start `gitui` for the repository in the current directory:
 
-`gitui --theme {{theme}}`
+`gitui`
 
-- Store logging output into a cache directory:
+- Specify the filename of the color theme loaded from the config directory (defaults to `theme.ron`):
 
-`gitui --logging`
+`gitui {{[-t|--theme]}} {{theme2.ron}}`
+
+- Store logging output into a specific file:
+
+`gitui --logfile {{path/to/file}}`
+
+- Inspect a specific file inside the repository in the current directory:
+
+`gitui {{[-f|--file]}} {{path/to/file}}`
 
 - Use notify-based file system watcher instead of tick-based update:
 
@@ -22,16 +30,8 @@
 
 - Use a specific Git directory:
 
-`gitui --directory {{path/to/directory}}`
+`gitui {{[-d|--directory]}} {{path/to/directory}}`
 
 - Use a specific working directory:
 
-`gitui --workdir {{path/to/directory}}`
-
-- Display help:
-
-`gitui --help`
-
-- Display version:
-
-`gitui --version`
+`gitui {{[-w|--workdir]}} {{path/to/directory}}`
