@@ -22,7 +22,7 @@
 
 - Display the list of already downloaded images:
 
-`docker image ls`
+`docker {{[images|image ls]}}`
 
 - Open an interactive tty with Bourne shell (`sh`) inside a running container:
 
