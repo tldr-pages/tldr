@@ -327,6 +327,8 @@ Whereas for Powershell, prepend the environment variable with a dollar sign, Env
 
 When describing file formats, primarily use the brand name in plain text (e.g. JSON, SQLite), or use the file extension preceded by a dot, wrapped in backticks (e.g. `.txt`).
 
+If the command that is being described is part of an interactive mode, mention the word "interactive" in a previous example that enters said mode and mark the beginning of the description for the interactive commands with `[Interactive]`.
+
 ### Standardized Terms
 
 Some terms are used repeatedly throughout pages, and as such, should be standardized. These include:
