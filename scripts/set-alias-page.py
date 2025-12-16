@@ -173,7 +173,10 @@ def set_alias_page(
     )
 
     if (
-        existing_locale_page_content.documentation_command
+        existing_locale_page_content.title == page_content.title
+        and existing_locale_page_content.original_command
+        == page_content.original_command
+        and existing_locale_page_content.documentation_command
         == page_content.documentation_command
     ):
         return ""
