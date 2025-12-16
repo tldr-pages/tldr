@@ -1,7 +1,7 @@
 # apt install
 
 > Installe des paquets pour les distributions basées sur Debian.
-> Pour plus d'informations : <https://manned.org/apt.8>.
+> Plus d'informations : <https://manned.org/apt.8>.
 
 - Installation d'un paquet, ou sa mise à jour à la dernière version :
 
