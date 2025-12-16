@@ -9,24 +9,24 @@
 
 - Verify the configuration of a specific zone:
 
-`zoneadm -z {{zone_name}} verify`
+`sudo zoneadm -z {{zone_name}} verify`
 
 - Install a zone:
 
-`zoneadm -z {{zone_name}} install`
+`sudo zoneadm -z {{zone_name}} install`
 
 - Boot (start) a zone:
 
-`zoneadm -z {{zone_name}} boot`
+`sudo zoneadm -z {{zone_name}} boot`
 
 - Reboot a zone:
 
-`zoneadm -z {{zone_name}} reboot`
+`sudo zoneadm -z {{zone_name}} reboot`
 
 - Halt (stop) a zone, bypassing any shutdown scripts inside the zone:
 
-`zoneadm -z {{zone_name}} halt`
+`sudo zoneadm -z {{zone_name}} halt`
 
 - Uninstall a zone:
 
-`zoneadm -z {{zone_name}} uninstall`
+`sudo zoneadm -z {{zone_name}} uninstall`
