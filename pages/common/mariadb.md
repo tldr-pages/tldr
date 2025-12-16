@@ -9,7 +9,7 @@
 
 - Connect to a specific MariaDB database using username and password:
 
-`mariadb --user {{user_name}} --password {{your_password}} {{db_name}}`
+`mariadb {{[-u|--user]}} {{user_name}} {{[-p|--password]}} {{your_password}} {{db_name}}`
 
 - Show warnings after every statement in interactive and batch mode:
 
