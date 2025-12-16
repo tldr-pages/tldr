@@ -1,7 +1,7 @@
 # nix flake
 
 > Manage Nix flakes.
-> Subcommands such as nix flake `init`, `show` have their own pages.
+> Subcommands such as nix flake `init`, `show`, `info` have their own pages.
 > More information: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-flake.html>.
 
 - Create a new flake (just the `flake.nix` file) from the default template, in the current directory:

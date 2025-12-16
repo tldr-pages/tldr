@@ -23,6 +23,6 @@
 
 `nix eval {{github:owner/repo#attributes}}`
 
-- Evaluate the lambda specified lambda function passing the specified package as argument:
+- Evaluate a given lambda function passing the specified package as argument:
 
 `nix eval {{nixpkgs#pkg}} --apply '{{lambda_function}}'`

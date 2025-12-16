@@ -1,7 +1,7 @@
 # nix flake info
 
 > Show flake metadata.
-> More information: <https://nix.dev/manual/nix/2.28/command-ref/new-cli/nix3-flake-info>
+> More information: <https://nix.dev/manual/nix/2.28/command-ref/new-cli/nix3-flake-info>.
 
 - Show flake metadata of the flake in the current directory:
 
