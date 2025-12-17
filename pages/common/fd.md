@@ -31,3 +31,7 @@
 - Execute a command on each search result returned:
 
 `fd "{{string|regex}}" {{[-x|--exec]}} {{command}}`
+
+- Find files only in the current directory:
+
+`fd {{[-d|--max-depth]}} 1 {{regex}}`
