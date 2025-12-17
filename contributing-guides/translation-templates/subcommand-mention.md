@@ -47,7 +47,7 @@ This file contains the translation templates of this notice.
 ### en
 
 ```markdown
-> Some subcommands such as `example command` have their own usage documentation.
+> Some subcommands such as `example` have their own usage documentation.
 ```
 
 ---
@@ -55,7 +55,7 @@ This file contains the translation templates of this notice.
 ### ar
 
 ```markdown
-> بعض الأوامر الفرعية لديها توثيقات الاستخدام الخاصة بها مثل: `example command`
+> بعض الأوامر الفرعية لديها توثيقات الاستخدام الخاصة بها مثل: `example`
 ```
 
 ---
@@ -63,7 +63,7 @@ This file contains the translation templates of this notice.
 ### bn
 
 ```markdown
-> কিছু উপ-কমান্ড যেমন `example command` স্বতন্ত্র ব্যবহার নির্দেশনা রয়েছে।
+> কিছু উপ-কমান্ড যেমন `example` স্বতন্ত্র ব্যবহার নির্দেশনা রয়েছে।
 ```
 
 ---
@@ -71,7 +71,7 @@ This file contains the translation templates of this notice.
 ### bs
 
 ```markdown
-> Neke podnaredbe kao što je `example command` imaju vlastitu dokumentaciju o korištenju.
+> Neke podnaredbe kao što je `example` imaju vlastitu dokumentaciju o korištenju.
 ```
 
 ---
@@ -79,7 +79,7 @@ This file contains the translation templates of this notice.
 ### ca
 
 ```markdown
-> Alguns subcomandaments com `example command` tenen la seva pròpia documentació.
+> Alguns subcomandaments com `example` tenen la seva pròpia documentació.
 ```
 
 ---
@@ -87,7 +87,7 @@ This file contains the translation templates of this notice.
 ### cs
 
 ```markdown
-> Některé dílčí příkazy jako je `example command` mají svou vlastní dokumentaci.
+> Některé dílčí příkazy jako je `example` mají svou vlastní dokumentaci.
 ```
 
 ---
@@ -95,7 +95,7 @@ This file contains the translation templates of this notice.
 ### da
 
 ```markdown
-> Visse underkommandoer såsom `example command` har sin egen dokumentation.
+> Visse underkommandoer såsom `example` har sin egen dokumentation.
 ```
 
 ---
@@ -103,7 +103,7 @@ This file contains the translation templates of this notice.
 ### de
 
 ```markdown
-> Manche Unterbefehle wie `example command` sind separat dokumentiert.
+> Manche Unterbefehle wie `example` sind separat dokumentiert.
 ```
 
 ---
@@ -111,7 +111,7 @@ This file contains the translation templates of this notice.
 ### es
 
 ```markdown
-> Algunos subcomandos, como `example command`, tienen su propia documentación de uso.
+> Algunos subcomandos, como `example`, tienen su propia documentación de uso.
 ```
 
 ---
@@ -119,7 +119,7 @@ This file contains the translation templates of this notice.
 ### fa
 
 ```markdown
-> برخی از دستورات فرعی مانند `example command` سند استفاده خاص خودشون رو دارند.
+> برخی از دستورات فرعی مانند `example` سند استفاده خاص خودشون رو دارند.
 ```
 
 ---
@@ -127,7 +127,7 @@ This file contains the translation templates of this notice.
 ### fi
 
 ```markdown
-> Joillakin alikomennoilla, kuten `example command`, on omat käyttöoppaansa.
+> Joillakin alikomennoilla, kuten `example`, on omat käyttöoppaansa.
 ```
 
 ---
@@ -135,7 +135,7 @@ This file contains the translation templates of this notice.
 ### fr
 
 ```markdown
-> Certaines sous-commandes comme `example command` ont leur propre documentation.
+> Certaines sous-commandes comme `example` ont leur propre documentation.
 ```
 
 ---
@@ -143,7 +143,7 @@ This file contains the translation templates of this notice.
 ### hi
 
 ```markdown
-> कुछ कमांड्स जैसे की `example command`, उनके अपने उपयोग प्रलेखन हैं|
+> कुछ कमांड्स जैसे की `example`, उनके अपने उपयोग प्रलेखन हैं|
 ```
 
 ---
@@ -151,7 +151,7 @@ This file contains the translation templates of this notice.
 ### id
 
 ```markdown
-> Beberapa subperintah seperti `example command` mempunyai dokumentasi terpisah.
+> Beberapa subperintah seperti `example` mempunyai dokumentasi terpisah.
 ```
 
 ---
@@ -159,7 +159,7 @@ This file contains the translation templates of this notice.
 ### it
 
 ```markdown
-> Alcuni comandi aggiuntivi, come `example command`, hanno la propria documentazione.
+> Alcuni comandi aggiuntivi, come `example`, hanno la propria documentazione.
 ```
 
 ---
@@ -167,7 +167,7 @@ This file contains the translation templates of this notice.
 ### ja
 
 ```markdown
-> `example command` のようないくつかのサブコマンドには、使用方法についての独自のドキュメントがあります。
+> `example` のようないくつかのサブコマンドには、使用方法についての独自のドキュメントがあります。
 ```
 
 ---
@@ -175,7 +175,7 @@ This file contains the translation templates of this notice.
 ### ko
 
 ```markdown
-> `example command`와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
+> `example`와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
 ```
 
 ---
@@ -183,7 +183,7 @@ This file contains the translation templates of this notice.
 ### lo
 
 ```markdown
-> ບາງຄໍາສັ່ງຍ່ອຍເຊັ່ນ `example command` ມີເອກະສານການນໍາໃຊ້ຂອງຕົນເອງ.
+> ບາງຄໍາສັ່ງຍ່ອຍເຊັ່ນ `example` ມີເອກະສານການນໍາໃຊ້ຂອງຕົນເອງ.
 ```
 
 ---
@@ -191,7 +191,7 @@ This file contains the translation templates of this notice.
 ### ml
 
 ```markdown
-> `example command` പോലുള്ള ചില ഉപകമാൻഡുകൾക്ക് അവരുടേതായ ഉപയോഗ ഡോക്യുമെന്റേഷൻ ഉണ്ട്.
+> `example` പോലുള്ള ചില ഉപകമാൻഡുകൾക്ക് അവരുടേതായ ഉപയോഗ ഡോക്യുമെന്റേഷൻ ഉണ്ട്.
 ```
 
 ---
@@ -199,7 +199,7 @@ This file contains the translation templates of this notice.
 ### ne
 
 ```markdown
-> केही उपादेशहरु जस्तै `example command` को आफ्नै प्रयोग कागजात हुन्छ।
+> केही उपादेशहरु जस्तै `example` को आफ्नै प्रयोग कागजात हुन्छ।
 ```
 
 ---
@@ -207,7 +207,7 @@ This file contains the translation templates of this notice.
 ### nl
 
 ```markdown
-> Sommige subcommando's zoals `example command` hebben een eigen documentatie pagina.
+> Sommige subcommando's zoals `example` hebben een eigen documentatie pagina.
 ```
 
 ---
@@ -215,7 +215,7 @@ This file contains the translation templates of this notice.
 ### no
 
 ```markdown
-> Noen underkommandoer som `example command` har sin egen bruksdokumentasjon.
+> Noen underkommandoer som `example` har sin egen bruksdokumentasjon.
 ```
 
 ---
@@ -223,7 +223,7 @@ This file contains the translation templates of this notice.
 ### pl
 
 ```markdown
-> Niektóre podkomendy takie jak `example command` mają osobną dokumentację.
+> Niektóre podkomendy takie jak `example` mają osobną dokumentację.
 ```
 
 ---
@@ -231,7 +231,7 @@ This file contains the translation templates of this notice.
 ### pt_BR
 
 ```markdown
-> Alguns subcomandos como `example command` têm sua própria documentação de uso.
+> Alguns subcomandos como `example` têm sua própria documentação de uso.
 ```
 
 ---
@@ -239,7 +239,7 @@ This file contains the translation templates of this notice.
 ### pt_PT
 
 ```markdown
-> Alguns subcomandos, como `example command`, tem a sua própria documentação de uso.
+> Alguns subcomandos, como `example`, tem a sua própria documentação de uso.
 ```
 
 ---
@@ -247,7 +247,7 @@ This file contains the translation templates of this notice.
 ### ro
 
 ```markdown
-> Unele subcomenzi precum `example command` au propria lor documentație de utilizare.
+> Unele subcomenzi precum `example` au propria lor documentație de utilizare.
 ```
 
 ---
@@ -255,7 +255,7 @@ This file contains the translation templates of this notice.
 ### ru
 
 ```markdown
-> Некоторые подкоманды, такие как `example command`, имеют собственную документацию по использованию.
+> Некоторые подкоманды, такие как `example`, имеют собственную документацию по использованию.
 ```
 
 ---
@@ -263,7 +263,7 @@ This file contains the translation templates of this notice.
 ### sr
 
 ```markdown
-> Неке подкоманде као што је `example command` имају своју документацију о коришћењу.
+> Неке подкоманде као што је `example` имају своју документацију о коришћењу.
 ```
 
 ---
@@ -271,7 +271,7 @@ This file contains the translation templates of this notice.
 ### sv
 
 ```markdown
-> En del underkommandon som t.ex: `example command` har sin egen användningsdokumentation.
+> En del underkommandon som t.ex: `example` har sin egen användningsdokumentation.
 ```
 
 ---
@@ -279,7 +279,7 @@ This file contains the translation templates of this notice.
 ### ta
 
 ```markdown
-> `example command` போன்ற சிலச் சார்கட்டளைகளுக்குத் தனிப் பக்கம் உள்ளது.
+> `example` போன்ற சிலச் சார்கட்டளைகளுக்குத் தனிப் பக்கம் உள்ளது.
 ```
 
 ---
@@ -287,7 +287,7 @@ This file contains the translation templates of this notice.
 ### th
 
 ```markdown
-> คำสั่งย่อยบางคำสั่ง เช่น `example command` มีเอกสารการใช้งานของตัวเอง
+> คำสั่งย่อยบางคำสั่ง เช่น `example` มีเอกสารการใช้งานของตัวเอง
 ```
 
 ---
@@ -295,7 +295,7 @@ This file contains the translation templates of this notice.
 ### tr
 
 ```markdown
-> `example command` gibi bazı alt komutların kendi kullanım belgeleri vardır.
+> `example` gibi bazı alt komutların kendi kullanım belgeleri vardır.
 ```
 
 ---
@@ -303,7 +303,7 @@ This file contains the translation templates of this notice.
 ### uk
 
 ```markdown
-> Певна підкоманда, як от `example command`, що має свою власну документацію.
+> Певна підкоманда, як от `example`, що має свою власну документацію.
 ```
 
 ---
@@ -311,7 +311,7 @@ This file contains the translation templates of this notice.
 ### uz
 
 ```markdown
-> `example command` kabi baʼzi kichik buyruqlar oʻzlarining foydalanish hujjatlariga ega.
+> `example` kabi baʼzi kichik buyruqlar oʻzlarining foydalanish hujjatlariga ega.
 ```
 
 ---
@@ -319,7 +319,7 @@ This file contains the translation templates of this notice.
 ### zh
 
 ```markdown
-> 此命令也有关于其子命令的文件，例如：`example command`.
+> 此命令也有关于其子命令的文件，例如：`example`.
 ```
 
 ---
@@ -327,5 +327,5 @@ This file contains the translation templates of this notice.
 ### zh_TW
 
 ```markdown
-> 此命令也有關於其子命令的文件，例如：`example command`.
+> 此命令也有關於其子命令的文件，例如：`example`.
 ```
