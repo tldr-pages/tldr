@@ -1,6 +1,6 @@
 # gofumpt
 
-> Strictly format go files.
+> Strictly format Go files.
 > See also: `gofmt`.
 > More information: <https://pkg.go.dev/mvdan.cc/gofumpt>.
 
