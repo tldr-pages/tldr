@@ -1,6 +1,6 @@
 # act
 
-> 使用 Docker 本地运行 GitHub Actions.
+> 使用 Docker 本地运行 GitHub Actions。
 > 更多信息：<https://manned.org/act>。
 
 - 列出可用的 actions 清单：

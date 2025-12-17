@@ -2,10 +2,10 @@
 
 > Neovim，基于 Vim 的代码编辑器，使用多种不同的模式来修改文本。
 > 在普通模式（normal mode）下，按下 `<i>` 键以进入插入模式（insert mode）。通过 `<Esc>` 或 `<Ctrl c>` 返回普通模式。普通模式下不支持一般的文本输入。
-> 另见：`vim`，`vimtutor`，`vimdiff`。
+> 另请参阅：`vim`，`vimtutor`，`vimdiff`。
 > 更多信息：<https://neovim.io>。
 
-- 打开文件:
+- 打开文件：
 
 `nvim {{path/to/file}}`
 

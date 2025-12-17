@@ -1,7 +1,7 @@
 # dcode
 
 > Recursively detect and decode strings, supporting hex, decimal, binary, base64, URL, FromChar encodings, Caesar ciphers, and MD5, SHA1, and SHA2 hashes.
-> Warning: uses 3rd-party web services for MD5, SHA1 and SHA2 hash lookups. For sensitive data, use `-s` to avoid these services.
+> Warning: uses 3rd-party web services for MD5, SHA1, and SHA2 hash lookups. For sensitive data, use `-s` to avoid these services.
 > More information: <https://github.com/s0md3v/Decodify>.
 
 - Recursively detect and decode a string:

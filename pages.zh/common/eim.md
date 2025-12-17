@@ -1,6 +1,6 @@
 # eim
 
-> 安装和管理 ESP-IDF.
+> 安装和管理 ESP-IDF。
 > 更多信息：<https://docs.espressif.com/projects/idf-im-ui/en/latest/cli_commands.html>。
 
 - 在默认位置（Windows 上为 `C:\esp`，POSIX 系统上为 `~/.espressif`）安装默认（最新）的 ESP-IDF 版本：

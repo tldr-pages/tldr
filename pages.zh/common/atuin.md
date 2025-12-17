@@ -4,7 +4,7 @@
 > 可选择在机器之间同步加密历史记录。
 > 更多信息：<https://docs.atuin.sh/>。
 
-- 安装 atuin 到您的 shell:
+- 安装 atuin 到您的 shell：
 
 `eval "$(atuin init {{bash|zsh|fish}})"`
 

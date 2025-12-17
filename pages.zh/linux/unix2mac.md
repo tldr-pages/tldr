@@ -1,7 +1,7 @@
 # unix2mac
 
 > 将 Unix 样式的行尾更改为 macOS 样式。
-> 用 CR 替换 LF.
+> 用 CR 替换 LF。
 > 更多信息：<https://manned.org/unix2mac>。
 
 - 更改文件的行尾：

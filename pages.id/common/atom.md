@@ -11,11 +11,11 @@
 
 - Buka berkas atau direktori dalam jendela baru:
 
-`atom -n {{jalan/menuju/berkas_atau_direktori}}`
+`atom {{[-n|--new-window]}} {{jalan/menuju/berkas_atau_direktori}}`
 
 - Buka berkas atau direktori di jendela yang sudah ada:
 
-`atom --add {{jalan/menuju/berkas_atau_direktori}}`
+`atom {{[-a|--add]}} {{jalan/menuju/berkas_atau_direktori}}`
 
 - Buka Atom dalam mode aman (tidak memuat paket plugin tambahan apa pun):
 
@@ -23,8 +23,8 @@
 
 - Jalankan Atom sebagai subproses pada sesi terminal saat ini, jangan memuat Atom sebagai proses latar belakang:
 
-`atom --foreground`
+`atom {{[-f|--foreground]}}`
 
 - Tunggu jendela Atom untuk ditutup sebelum kembali ke sesi terminal saat ini (berguna untuk editor komit Git):
 
-`atom --wait`
+`atom {{[-w|--wait]}}`

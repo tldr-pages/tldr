@@ -3,7 +3,7 @@
 > 印出並連接檔案內容。
 > 更多資訊：<https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html>。
 
-- 將檔案內容印出至 `stdout`:
+- 將檔案內容印出至 `stdout`：
 
 `cat {{路徑/至/檔案}}`
 
@@ -15,7 +15,7 @@
 
 `cat {{路徑/至/檔案一 路徑/至/檔案二 ...}} >> {{路徑/至/檔案}}`
 
-- 將 `stdin` 寫入檔案中:
+- 將 `stdin` 寫入檔案中：
 
 `cat - > {{路徑/至/檔案}}`
 

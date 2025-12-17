@@ -1,7 +1,7 @@
 # axel
 
 > 一款下载加速器。
-> 支持 HTTP、HTTPS 和 FTP.
+> 支持 HTTP、HTTPS 和 FTP。
 > 更多信息：<https://manned.org/axel>。
 
 - 链接下载：

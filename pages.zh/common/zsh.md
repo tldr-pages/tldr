@@ -1,7 +1,7 @@
 # zsh
 
 > Z SHell，一个兼容 Bash 的命令行解释器。
-> 参见：`bash`，`!`.
+> 另请参阅：`bash`，`!`。
 > 更多信息：<https://zsh.sourceforge.io/Doc/Release/Invocation.html#Invocation>。
 
 - 启动交互式解释器：

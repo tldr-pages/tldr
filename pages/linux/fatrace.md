@@ -12,6 +12,10 @@
 
 `sudo fatrace {{[-C|--command]}} {{program_name}}`
 
-- Print file access events on the mount of the current directory, with timestamps, to `stdout`:
+- Print file access events on the mount of the current directory to `stdout`:
 
-`sudo fatrace {{[-ct|--current-mount --timestamp]}}`
+`sudo fatrace {{[-c|--current-mount]}}`
+
+- Add timestamps to the printout:
+
+`sudo fatrace {{[-t|--timestamp]}}`

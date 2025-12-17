@@ -3,7 +3,7 @@
 > Manage the `/etc/hosts` file.
 > More information: <https://github.com/cbednarski/hostess>.
 
-- List domains, target IP addresses and on/off status:
+- List domains, target IP addresses, and on/off status:
 
 `hostess list`
 
