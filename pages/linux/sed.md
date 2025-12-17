@@ -4,15 +4,15 @@
 > See also: `awk`, `ed`.
 > More information: <https://www.gnu.org/software/sed/manual/sed.html>.
 
-- Replace `apple` with `mango` on all lines using basic `regex`, print to `stdout`:
+- Replace "apple" with "mango" on all lines using basic `regex`, print to `stdout`:
 
 `{{command}} | sed 's/apple/mango/g'`
 
-- Replace `apple` with `APPLE` on all lines using extended `regex`, print to `stdout`:
+- Replace "apple" with "APPLE" on all lines using extended `regex`, print to `stdout`:
 
 `{{command}} | sed {{[-E|--regexp-extended]}} 's/(apple)/\U\1/g'`
 
-- Use basic `regex` to replace `apple` with `mango` and `orange` with `lime` in-place in a file (overwriting original file):
+- Use basic `regex` to replace "apple" with "mango" and "orange" with "lime" in-place in a file (overwriting original file):
 
 `sed {{[-i|--in-place]}} -e 's/apple/mango/g' -e 's/orange/lime/g' {{path/to/file}}`
 
