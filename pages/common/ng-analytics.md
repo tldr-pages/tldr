@@ -9,7 +9,7 @@
 
 - Enable analytics globally:
 
-`ng analytics {{[on|enable]}} --global`
+`ng analytics {{[on|enable]}} {{[-g|--global]}}`
 
 - Disable analytics for the current project:
 
