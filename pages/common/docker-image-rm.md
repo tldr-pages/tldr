@@ -5,16 +5,16 @@
 
 - Remove one or more images given their names:
 
-`docker image rm {{image1 image2 ...}}`
+`docker {{[rmi|image rm]}} {{image1 image2 ...}}`
 
 - Force remove an image:
 
-`docker image rm {{[-f|--force]}} {{image}}`
+`docker {{[rmi|image rm]}} {{[-f|--force]}} {{image}}`
 
 - Remove an image without deleting untagged parents:
 
-`docker image rm --no-prune {{image}}`
+`docker {{[rmi|image rm]}} --no-prune {{image}}`
 
 - Display help:
 
-`docker image rm`
+`docker {{[rmi|image rm]}}`

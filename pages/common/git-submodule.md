@@ -5,7 +5,7 @@
 
 - View existing submodules, and the checked-out commit for each one:
 
-`git submodule status`
+`git submodule`
 
 - Install a repository's submodules (listed in `.gitmodules`):
 
@@ -19,9 +19,9 @@
 
 `git submodule add {{repository_url}} {{path/to/directory}}`
 
-- Update every submodule to its latest commit:
+- Update submodules to their latest commits:
 
-`git submodule update --init --recursive --remote`
+`git submodule update --remote`
 
 - Change the URL of a submodule:
 
