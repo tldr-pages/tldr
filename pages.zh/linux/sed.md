@@ -1,7 +1,7 @@
 # sed
 
 > 以脚本方式编辑文本。
-> 参见：`awk`, `ed`.
+> 另请参阅：`awk`，`ed`。
 > 更多信息：<https://www.gnu.org/software/sed/manual/sed.html>。
 
 - 将所有输入行中出现的 `apple`（基本正则语法）替换为 `mango`（基本正则语法），并将结果打印到 `stdout`：

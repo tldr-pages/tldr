@@ -2,7 +2,7 @@
 
 > 对图片进行调整尺寸，裁剪旋转或添加效果等操作。
 > 修改直接作用于原文件。
-> 另见：`magick`。
+> 另请参阅：`magick`。
 > 更多信息：<https://imagemagick.org/script/mogrify.php>。
 
 - 将当前目录下所有 JPEG 图片的尺寸都调整至原尺寸的 50%：
