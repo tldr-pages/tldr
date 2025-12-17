@@ -14,4 +14,4 @@
 
 - फ़ाइल की सामग्री प्रदर्शित करें और `<Ctrl c>` दबाए जाने तक उसे पढ़ते रहें:
 
-`Get-Content -Path {{path\to\file}} -Wait`
+`Get-Content -Path {{फ़ाइल\का\पथ}} -Wait`
