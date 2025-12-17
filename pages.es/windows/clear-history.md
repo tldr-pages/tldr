@@ -18,7 +18,7 @@
 
 - Borra una entrada específica del historial por ID:
 
-`Clear-History -Id {número_id}`
+`Clear-History -Id {{número_id}}`
 
 - Borra varios ID:
 
