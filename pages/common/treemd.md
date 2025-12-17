@@ -23,6 +23,6 @@
 
 `treemd --list --filter {{pattern}} {{path/to/file.md}}`
 
-- Set up shell completions:
+- Query and extract markdown structure using the treemd query language:
 
-`treemd --setup-completions`
+`treemd --query '{{.h2 | text}}' {{path/to/file.md}}`
