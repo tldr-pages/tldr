@@ -17,7 +17,7 @@
 
 - Disable analytics globally:
 
-`ng analytics {{[off|disable]}} --global`
+`ng analytics {{[off|disable]}} {{[-g|--global]}}`
 
 - Display the current analytics configuration and status:
 
