@@ -1,6 +1,6 @@
 # tart
 
-> Build, run and manage macOS and Linux virtual machines (VMs) on Apple Silicon.
+> Build, run, and manage macOS and Linux virtual machines (VMs) on Apple Silicon.
 > More information: <https://github.com/cirruslabs/tart>.
 
 - Pull a remote VM image:

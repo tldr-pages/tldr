@@ -1,6 +1,6 @@
 # adb shell pm list
 
-> List users, packages, permissions, instrumentation, permission groups, features and libraries managed by the package manager.
+> List users, packages, permissions, instrumentation, permission groups, features, and libraries managed by the package manager.
 > More information: <https://developer.android.com/tools/adb>.
 
 - List all installed packages:
