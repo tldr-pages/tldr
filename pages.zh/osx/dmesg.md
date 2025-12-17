@@ -1,7 +1,7 @@
 # dmesg
 
 > 将内核消息写入标准输出。
-> 更多信息：<https://keith.github.io/xcode-man-pages/dmesg.8.html>.
+> 更多信息：<https://keith.github.io/xcode-man-pages/dmesg.8.html>。
 
 - 显示内核消息：
 

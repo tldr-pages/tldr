@@ -1,6 +1,6 @@
 # incus
 
-> Modern, secure and powerful system container and virtual machine manager.
+> Modern, secure, and powerful system container and virtual machine manager.
 > More information: <https://linuxcontainers.org/incus/docs/main>.
 
 - List all containers and virtual machines (both running and stopped):

@@ -1,7 +1,7 @@
 # git clone
 
 > 克隆现有的代码仓库。
-> 更多信息：<https://git-scm.com/docs/git-clone>.
+> 更多信息：<https://git-scm.com/docs/git-clone>。
 
 - 克隆一个现有的代码仓库到指定目录：
 

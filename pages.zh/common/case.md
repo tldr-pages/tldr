@@ -1,7 +1,7 @@
 # case
 
 > Bash 内置的多重条件语句结构。
-> 更多信息：<https://www.gnu.org/software/bash/manual/bash.html#index-case>.
+> 更多信息：<https://www.gnu.org/software/bash/manual/bash.html#index-case>。
 
 - 通过字符串字面量判断执行分支：
 

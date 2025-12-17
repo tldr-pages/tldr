@@ -2,7 +2,7 @@
 
 > 一个类似 grep 的搜索工具，为程序员优化。
 > 另请参阅：`rg`，它要快得多。
-> 更多信息：<https://beyondgrep.com/documentation>.
+> 更多信息：<https://beyondgrep.com/documentation>。
 
 - 在当前目录下递归地搜索包含一个字符串或正则表达式的文件：
 

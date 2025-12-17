@@ -1,7 +1,7 @@
 # uuencode
 
 > 将二进制文件编码为 ASCII，以便通过仅支持简单 ASCII 编码的媒介传输。
-> 更多信息：<https://manned.org/uuencode>.
+> 更多信息：<https://manned.org/uuencode>。
 
 - 编码一个文件并将结果打印到 `stdout`：
 

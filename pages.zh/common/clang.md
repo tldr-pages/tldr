@@ -2,7 +2,7 @@
 
 > 编译 C，C++ 以及 Objective-C 源文件。可以无缝替代 GCC。
 > LLVM 项目的组件之一。
-> 更多信息：<https://clang.llvm.org/docs/ClangCommandLineReference.html>.
+> 更多信息：<https://clang.llvm.org/docs/ClangCommandLineReference.html>。
 
 - 将多个文件编译为可执行文件：
 

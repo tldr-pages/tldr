@@ -1,7 +1,7 @@
 # ifconfig
 
 > 网络接口配置工具。
-> 更多信息：<https://net-tools.sourceforge.io/man/ifconfig.8.html>.
+> 更多信息：<https://net-tools.sourceforge.io/man/ifconfig.8.html>。
 
 - 查看某个网络接口的网络设置：
 

@@ -2,7 +2,7 @@
 
 > 存储您的 shell 历史记录到可搜索的数据库。
 > 可选择在机器之间同步加密历史记录。
-> 更多信息：<https://docs.atuin.sh/>.
+> 更多信息：<https://docs.atuin.sh/>。
 
 - 安装 atuin 到您的 shell：
 

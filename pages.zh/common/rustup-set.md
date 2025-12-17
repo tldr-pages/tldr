@@ -1,7 +1,7 @@
 # rustup set
 
 > 修改 `rustup` 的配置。
-> 更多信息：<https://rust-lang.github.io/rustup>.
+> 更多信息：<https://rust-lang.github.io/rustup>。
 
 - 设置默认目标平台：
 

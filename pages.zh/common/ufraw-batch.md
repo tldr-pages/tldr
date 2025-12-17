@@ -1,7 +1,7 @@
 # ufraw-batch
 
 > 将来自相机的 RAW 文件转换为标准图像文件。
-> 更多信息：<https://manned.org/ufraw-batch>.
+> 更多信息：<https://manned.org/ufraw-batch>。
 
 - 简单地将 RAW 文件转换为 JPEG：
 

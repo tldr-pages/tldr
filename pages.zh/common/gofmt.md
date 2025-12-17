@@ -1,7 +1,7 @@
 # gofmt
 
 > 格式化 Go 源代码。
-> 更多信息：<https://pkg.go.dev/cmd/gofmt>.
+> 更多信息：<https://pkg.go.dev/cmd/gofmt>。
 
 - 格式化文件并在控制台输出结果：
 

@@ -1,7 +1,7 @@
 # logoff
 
 > 終止登入的工作階段。
-> 更多資訊：<https://learn.microsoft.com/windows-server/administration/windows-commands/logoff>.
+> 更多資訊：<https://learn.microsoft.com/windows-server/administration/windows-commands/logoff>。
 
 - 終止當前工作階段：
 

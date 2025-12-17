@@ -1,7 +1,7 @@
 # arduino
 
 > Arduino Studio - 为 Arduino 平台准备的集成开发环境。
-> 更多信息：<https://github.com/arduino/Arduino/blob/master/build/shared/manpage.adoc>.
+> 更多信息：<https://github.com/arduino/Arduino/blob/master/build/shared/manpage.adoc>。
 
 - 构建一个草稿：
 

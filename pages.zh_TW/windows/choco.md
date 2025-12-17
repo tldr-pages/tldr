@@ -2,7 +2,7 @@
 
 > 「Chocolatey package manager」軟體套件管理器。
 > 此命令也有关于其子命令的文件，例如：`install`。
-> 更多資訊：<https://docs.chocolatey.org/en-us/choco/commands/>.
+> 更多資訊：<https://docs.chocolatey.org/en-us/choco/commands/>。
 
 - 執行「組合」命令：
 

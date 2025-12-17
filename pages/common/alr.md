@@ -1,7 +1,7 @@
 # alr
 
 > Ada package manager.
-> Manage Ada toolchains, dependencies, tools and libraries.
+> Manage Ada toolchains, dependencies, tools, and libraries.
 > More information: <https://alire.ada.dev/docs/#first-steps>.
 
 - Create a binary or library project:

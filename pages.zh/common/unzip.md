@@ -2,7 +2,7 @@
 
 > 从 Zip 压缩包中提取文件或目录。
 > 另请参阅：`zip`。
-> 更多信息：<https://manned.org/unzip>.
+> 更多信息：<https://manned.org/unzip>。
 
 - 将指定压缩包中的所有文件和目录提取到当前目录下：
 
