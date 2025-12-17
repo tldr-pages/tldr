@@ -6,7 +6,7 @@
 
 - List local Docker images:
 
-`docker image ls`
+`docker {{[images|image ls]}}`
 
 - Delete unused local Docker images:
 
@@ -18,4 +18,4 @@
 
 - Show the history of a local Docker image:
 
-`docker image history {{image}}`
+`docker {{[history|image history]}} {{image}}`

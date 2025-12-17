@@ -6,32 +6,32 @@
 
 - List all Docker containers (running and stopped):
 
-`docker ps {{[-a|--all]}}`
+`docker {{[ps|container ls]}} {{[-a|--all]}}`
 
 - Start a container from an image, with a custom name:
 
-`docker run --name {{container_name}} {{image}}`
+`docker {{[run|container run]}} --name {{container_name}} {{image}}`
 
 - Start or stop an existing container:
 
-`docker {{start|stop}} {{container_name}}`
+`docker container {{start|stop}} {{container_name}}`
 
 - Pull an image from a Docker registry:
 
-`docker pull {{image}}`
+`docker {{[pull|image pull]}} {{image}}`
 
 - Display the list of already downloaded images:
 
-`docker images`
+`docker {{[images|image ls]}}`
 
 - Open an interactive tty with Bourne shell (`sh`) inside a running container:
 
-`docker exec {{[-it|--interactive --tty]}} {{container_name}} {{sh}}`
+`docker {{[exec|container exec]}} {{[-it|--interactive --tty]}} {{container_name}} {{sh}}`
 
 - Remove stopped containers:
 
-`docker rm {{container1 container2 ...}}`
+`docker {{[rm|container rm]}} {{container1 container2 ...}}`
 
 - Fetch and follow the logs of a container:
 
-`docker logs {{[-f|--follow]}} {{container_name}}`
+`docker {{[logs|container logs]}} {{[-f|--follow]}} {{container_name}}`

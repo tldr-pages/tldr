@@ -1,35 +1,35 @@
-# docker ps
+# docker container ls
 
 > List Docker containers.
 > More information: <https://docs.docker.com/reference/cli/docker/container/ls/>.
 
 - List currently running Docker containers:
 
-`docker ps`
+`docker {{[ps|container ls]}}`
 
 - List all Docker containers (running and stopped):
 
-`docker ps {{[-a|--all]}}`
+`docker {{[ps|container ls]}} {{[-a|--all]}}`
 
 - Show the latest created container (includes all states):
 
-`docker ps {{[-l|--latest]}}`
+`docker {{[ps|container ls]}} {{[-l|--latest]}}`
 
 - Filter containers that contain a substring in their name:
 
-`docker ps {{[-f|--filter]}} "name={{name}}"`
+`docker {{[ps|container ls]}} {{[-f|--filter]}} "name={{name}}"`
 
 - Filter containers that share a given image as an ancestor:
 
-`docker ps {{[-f|--filter]}} "ancestor={{image}}:{{tag}}"`
+`docker {{[ps|container ls]}} {{[-f|--filter]}} "ancestor={{image}}:{{tag}}"`
 
 - Filter containers by exit status code:
 
-`docker ps {{[-a|--all]}} {{[-f|--filter]}} "exited={{code}}"`
+`docker {{[ps|container ls]}} {{[-a|--all]}} {{[-f|--filter]}} "exited={{code}}"`
 
 - Filter containers by status (created, running, removing, paused, exited and dead):
 
-`docker ps {{[-f|--filter]}} "status={{status}}"`
+`docker {{[ps|container ls]}} {{[-f|--filter]}} "status={{status}}"`
 
 - Filter containers that mount a specific volume or have a volume mounted in a specific path:
 
