@@ -1,7 +1,7 @@
 # Tailscale Funnel
 
 > Funnel enables you to share a local server on the internet using Tailscale.
-> More examples at: https://tailscale.com/kb/1247/funnel-examples
+> More examples at: https://tailscale.com/kb/1247/funnel-examples.
 
 - Expose a local file in the foreground:
 
