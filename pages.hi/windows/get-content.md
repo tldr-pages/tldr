@@ -2,7 +2,7 @@
 
 > निर्दिष्ट स्थान पर मौजूद आइटम की सामग्री प्राप्त करें।
 > ध्यान दें: यह कमांड केवल PowerShell के माध्यम से ही उपयोग की जा सकती है।
-> अधिक जानकारी: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/get-content>
+> अधिक जानकारी: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/get-content>।
 
 - किसी फ़ाइल की सामग्री प्रदर्शित करें:
 
