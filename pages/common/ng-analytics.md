@@ -5,19 +5,19 @@
 
 - Enable analytics for the current project:
 
-`ng analytics {{on|enable}}`
+`ng analytics {{[on|enable]}}`
 
 - Enable analytics globally:
 
-`ng analytics {{on|enable}} --global`
+`ng analytics {{[on|enable]}} --global`
 
 - Disable analytics for the current project:
 
-`ng analytics {{off|disable}}`
+`ng analytics {{[off|disable]}}`
 
 - Disable analytics globally:
 
-`ng analytics {{off|disable}} --global`
+`ng analytics {{[off|disable]}} --global`
 
 - Display the current analytics configuration and status:
 
