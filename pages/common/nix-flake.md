@@ -12,7 +12,7 @@
 
 `nix flake update {{input}}`
 
-- Clone a Github repository containing a flake:
+- Clone a GitHub repository containing a flake:
 
 `nix flake clone {{github:owner/repo#attributes}}`
 
