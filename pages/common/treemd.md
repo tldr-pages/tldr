@@ -9,7 +9,7 @@
 
 - List all headings in a markdown file:
 
-`treemd --list {{path/to/file.md}}`
+`treemd {{[-l|--list]}} {{path/to/file.md}}`
 
 - Show the heading tree structure of a markdown file:
 
