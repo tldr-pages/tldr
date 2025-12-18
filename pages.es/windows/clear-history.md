@@ -22,7 +22,7 @@
 
 - Borra varios ID:
 
-`Clear-History -Id {id1, id2, ...}`
+`Clear-History -Id {{id1, id2, ...}}`
 
 - Borra comandos dentro de un rango de IDs:
 
