@@ -1,25 +1,7 @@
 # dir
 
-> Lista o conteúdo do diretório usando uma linha por arquivo; caractéres especiais são representados por sequências de escape com barra invertida.
-> Funciona como `ls -C --escape`.
-> Mais informações: <https://manned.org/dir>.
+> Este comando é um apelido de `ls -C --escape`.
 
-- Lista todos os arquivos, incluindo arquivos ocultos:
+- Veja documentação sobre o comando original:
 
-`dir {{[-a|--all]}}`
-
-- Lista arquivos exibindo o autor (`-l` é necessário):
-
-`dir -l --author`
-
-- Lista arquivos excluindo aqueles que correspondem a um padrão específico:
-
-`dir --hide {{padrão}}`
-
-- Lista subdiretórios recursivamente:
-
-`dir {{[-R|--recursive]}}`
-
-- Exibe ajuda:
-
-`dir --help`
+`tldr ls`
