@@ -4,7 +4,7 @@
 > See also: `gofmt`.
 > More information: <https://pkg.go.dev/mvdan.cc/gofumpt>.
 
-- Format go files:
+- Format Go files:
 
 `gofumpt -w {{path/to/directory}}`
 
@@ -19,6 +19,14 @@
 - Display diffs:
 
 `gofumpt -d {{path/to/directory}}`
+
+- Format Go files with stricter rules:
+
+`gofumpt -extra {{path/to/directory}}`
+
+- Display diffs with stricter rules:
+
+`gofumpt -extra -d {{path/to/directory}}`
 
 - Display help:
 
