@@ -17,7 +17,7 @@
 
 - Extract a specific section by heading name:
 
-`treemd --section {{heading_name}} {{path/to/file.md}}`
+`treemd {{[-s|--section]}} {{heading_name}} {{path/to/file.md}}`
 
 - Filter headings by a specific pattern:
 
