@@ -25,4 +25,4 @@
 
 - Query and extract markdown structure using the treemd query language:
 
-`treemd --query '{{.h2 | text}}' {{path/to/file.md}}`
+`treemd {{[-q|--query]}} '{{.h2 | text}}' {{path/to/file.md}}`
