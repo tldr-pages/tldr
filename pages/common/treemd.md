@@ -1,7 +1,7 @@
 # treemd
 
 > A markdown viewer combining tree-based navigation with interactive TUI.
-> More information: <https://github.com/Epistates/treemd>.
+> More information: <https://github.com/Epistates/treemd#usage>.
 
 - Open a markdown file in interactive TUI mode:
 
