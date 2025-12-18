@@ -2,6 +2,6 @@
 
 > Este comando é um alias de `gcc`.
 
-- Exibe documentação do comando original:
+- Ver documentação do comando original:
 
 `tldr gcc`

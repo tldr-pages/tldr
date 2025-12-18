@@ -2,7 +2,7 @@
 
 > 快速、节省磁盘空间的 Node.js 包管理器。
 > 管理 Node.js 项目和其模块依赖。
-> 更多信息：<https://pnpm.io/pnpm-cli>.
+> 更多信息：<https://pnpm.io/pnpm-cli>。
 
 - 创建 `package.json` 文件：
 

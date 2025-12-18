@@ -31,6 +31,6 @@
 
 `git pull {{chemin/vers/fichier.bundle}} {{nom_de_branche}}`
 
-- Créer un nouveau dépôt depuis un empaquetage :
+- Créer un nouveau dépôt depuis un empaquetage :
 
 `git clone {{chemin/vers/fichier.bundle}}`

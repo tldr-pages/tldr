@@ -1,7 +1,7 @@
 # gdown
 
 > Descarga archivos desde Google Drive y otras URLs.
-> Más información: <https://github.com/wkentaro/gdown>.
+> Más información: <https://github.com/wkentaro/gdown#usage>.
 
 - Descarga un archivo desde una URL:
 

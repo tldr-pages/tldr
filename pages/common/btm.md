@@ -1,6 +1,6 @@
 # btm
 
-> Display system information about the CPU, memory, disks, network and processes.
+> Display system information about the CPU, memory, disks, network, and processes.
 > An enhanced alternative to `top`.
 > See also: `btop`, `glances`, `atop`, `htop`, `top`.
 > More information: <https://clementtsang.github.io/bottom/nightly/#usage-and-configuration>.

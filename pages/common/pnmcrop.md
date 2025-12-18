@@ -15,6 +15,6 @@
 
 `pnmcrop -bg-corner {{topleft|topright|bottomleft|bottomright}} {{path/to/image.pnm}} > {{path/to/output.pnm}}`
 
-- Leave a border with a width of `n` pixels. Additionally, specify the behaviour if the image is entirely made out of background:
+- Leave a border with a width of `n` pixels. Additionally, specify the behavior if the image is entirely made out of background:
 
 `pnmcrop {{[-m|-margin]}} {{n}} {{[-blan|-blank-image]}} {{pass|minimize|maxcrop}} {{path/to/image.pnm}} > {{path/to/output.pnm}}`

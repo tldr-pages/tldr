@@ -1,9 +1,7 @@
 # arch
 
-> 展示系统架构的名称。
-> 另见`uname`.
-> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/arch-invocation.html>.
+> 此命令为 `uname --machine` 的别名。
 
-- 展示系统架构：
+- 查看原命令的文档：
 
-`arch`
+`tldr uname`

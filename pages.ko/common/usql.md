@@ -1,7 +1,7 @@
 # usql
 
 > SQL 데이터베이스를 위한 범용 CLI 인터페이스.
-> 더 많은 정보: <https://github.com/xo/usql>.
+> 더 많은 정보: <https://github.com/xo/usql#using>.
 
 - 특정 데이터베이스에 연결:
 

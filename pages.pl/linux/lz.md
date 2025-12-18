@@ -1,7 +1,7 @@
 # lz
 
 > Wyświetl wszystkie pliki wewnątrz skompresowanego archiwum `.tar.gz`.
-> Więcej informacji: <https://manned.org/lz.1>.
+> Więcej informacji: <https://manned.org/lz>.
 
 - Wyświetl wszystkie pliki wewnątrz skompresowanego archiwum:
 

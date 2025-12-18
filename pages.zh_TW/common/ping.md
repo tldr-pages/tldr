@@ -1,7 +1,7 @@
 # ping
 
 > 向網路主機發送 ICMP ECHO_REQUEST 封包。
-> 更多資訊：<https://manned.org/ping>.
+> 更多資訊：<https://manned.org/ping>。
 
 - Ping 主機：
 

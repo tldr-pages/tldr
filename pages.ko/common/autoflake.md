@@ -1,7 +1,7 @@
 # autoflake
 
 > Python 코드에서 사용하지 않는 가져오기 및 변수를 제거하는 도구.
-> 더 많은 정보: <https://github.com/myint/autoflake>.
+> 더 많은 정보: <https://github.com/PyCQA/autoflake#advanced-usage>.
 
 - 단일 파일에서 사용되지 않는 변수를 제거하고 차이점을 표시:
 

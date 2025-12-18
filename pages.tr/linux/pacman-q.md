@@ -2,6 +2,6 @@
 
 > Bu komut `pacman --query` için bir takma addır.
 
-- Asıl komutun dökümantasyonunu görüntüle:
+- Asıl komutun belgelerini görüntüleyin:
 
 `tldr pacman query`

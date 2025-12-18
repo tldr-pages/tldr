@@ -1,7 +1,7 @@
 # fclones
 
 > 효율적인 중복 파일 찾기 및 제거기.
-> 더 많은 정보: <https://github.com/pkolaczk/fclones>.
+> 더 많은 정보: <https://github.com/pkolaczk/fclones#usage>.
 
 - 현재 디렉터리에서 중복 파일 검색:
 

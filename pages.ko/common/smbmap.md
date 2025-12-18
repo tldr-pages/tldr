@@ -1,7 +1,7 @@
 # smbmap
 
 > SMB 열거 도구.
-> 더 많은 정보: <https://github.com/ShawnDEvans/smbmap>.
+> 더 많은 정보: <https://github.com/ShawnDEvans/smbmap#help>.
 
 - NULL 세션이 활성화되고 공유가 열린 호스트 열거:
 

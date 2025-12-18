@@ -6,4 +6,4 @@
 
 - Start the server:
 
-`{{path/to/DedicatedServer}}`
+`{{path/to}}/DedicatedServer`

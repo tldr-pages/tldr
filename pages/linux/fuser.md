@@ -13,7 +13,7 @@
 
 - Identify processes using a TCP socket:
 
-`fuser {{[-n|--namespace]}} tcp {{port}}`
+`fuser {{port}}/tcp`
 
 - Kill all processes accessing a file or directory (sends the `SIGKILL` signal):
 

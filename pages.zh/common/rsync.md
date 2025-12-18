@@ -1,8 +1,8 @@
 # rsync
 
 > 一种快速，通用，远程（和本地）文件复制工具，默认使用 SSH。
-> 如果要指定远程路径，请使用 `user@host:path/to/file_or_directory`.
-> 更多信息：<https://download.samba.org/pub/rsync/rsync.1>.
+> 如果要指定远程路径，请使用 `user@host:path/to/file_or_directory`。
+> 更多信息：<https://download.samba.org/pub/rsync/rsync.1>。
 
 - 复制文件：
 

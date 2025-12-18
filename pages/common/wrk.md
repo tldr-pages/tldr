@@ -9,7 +9,7 @@
 
 - Run a benchmark with a custom header:
 
-`wrk {{[-t|--threads]}} {{2}} {{[-c|--connections]}} {{5}} {{[-d|--duration]}} {{5s}} {{[-H|--header]}} "{{Host: example.com}}" "{{http://example.com/index.html}}"`
+`wrk {{[-t|--threads]}} {{2}} {{[-c|--connections]}} {{5}} {{[-d|--duration]}} {{5s}} {{[-H|--header]}} "{{Host: example.com}}" "{{http://example.com/index.html}}"`
 
 - Run a benchmark with a request timeout of `2` seconds:
 

@@ -1,7 +1,7 @@
 # nologin
 
 > 사용자가 로그인하지 못하도록 하는 대체 셸.
-> 더 많은 정보: <https://manned.org/nologin.5>.
+> 더 많은 정보: <https://manned.org/nologin.8>.
 
 - 사용자의 로그인 셸을 `nologin`으로 설정하여 로그인을 방지:
 

@@ -1,7 +1,7 @@
 # pueue add
 
 > 실행할 작업을 대기열에 추가.
-> 더 많은 정보: <https://github.com/Nukesor/pueue>.
+> 더 많은 정보: <https://github.com/Nukesor/pueue#how-to-use-it>.
 
 - 기본 대기열에 임의의 명령 추가:
 

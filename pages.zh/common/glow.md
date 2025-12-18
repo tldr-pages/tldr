@@ -1,7 +1,7 @@
 # glow
 
-> 在终端渲染 Markdown.
-> 更多信息：<https://github.com/charmbracelet/glow>.
+> 在终端渲染 Markdown。
+> 更多信息：<https://manned.org/glow>。
 
 - 运行 glow 并选择文件查看：
 

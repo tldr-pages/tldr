@@ -1,7 +1,7 @@
 # a2enmod
 
 > Debian tabanlı işletim sistemlerinde Apache modülünü etkinleştir.
-> Daha fazla bilgi için: <https://manned.org/a2enmod.8>.
+> Daha fazla bilgi için: <https://manned.org/a2enmod>.
 
 - Bir modülü etkinleştir:
 

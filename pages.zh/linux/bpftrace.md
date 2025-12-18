@@ -1,7 +1,7 @@
 # bpftrace
 
 > Linux eBPF 的高级跟踪语言。
-> 更多信息：<https://github.com/bpftrace/bpftrace/blob/master/man/adoc/bpftrace.adoc>.
+> 更多信息：<https://github.com/bpftrace/bpftrace/blob/master/man/adoc/bpftrace.adoc>。
 
 - 列出所有可用的探针：
 

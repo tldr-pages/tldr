@@ -1,7 +1,7 @@
 # ss
 
 > أداة للتحقيق في المقابس (Sockets) و المنافذ.
-> لمزيد من التفاصيل: <https://manned.org/ss.8>.
+> لمزيد من التفاصيل: <https://manned.org/ss>.
 
 - عرض جميع مقابس TCP/UDP/RAW/UNIX:
 

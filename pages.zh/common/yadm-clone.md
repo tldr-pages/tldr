@@ -3,7 +3,7 @@
 > 功能就像 `git clone`。此外，你还可以传递额外的标志来配置你的仓库。
 > 如果仓库中有一个引导文件，将提示你执行它。
 > 请参阅：`git clone`。
-> 更多信息：<https://yadm.io/docs/common_commands>.
+> 更多信息：<https://yadm.io/docs/common_commands>。
 
 - 克隆一个已有的仓库：
 

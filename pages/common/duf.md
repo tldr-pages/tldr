@@ -7,7 +7,7 @@
 
 `duf`
 
-- List everything (such as pseudo, duplicate or inaccessible file systems):
+- List everything (such as pseudo, duplicate, or inaccessible file systems):
 
 `duf --all`
 

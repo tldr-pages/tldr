@@ -1,6 +1,6 @@
 # neofetch
 
-> Display information about the operating system, software and hardware.
+> Display information about the operating system, software, and hardware.
 > Note: `neofetch` is no longer maintained.
 > See also: `fastfetch`.
 > More information: <https://manned.org/neofetch>.

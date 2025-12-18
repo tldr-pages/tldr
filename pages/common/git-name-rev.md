@@ -3,7 +3,7 @@
 > Describe a commit using existing ref names.
 > More information: <https://git-scm.com/docs/git-name-rev>.
 
-- Show the name for HEAD:
+- Show the name for `HEAD`:
 
 `git name-rev HEAD`
 

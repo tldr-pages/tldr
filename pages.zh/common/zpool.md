@@ -1,7 +1,7 @@
 # zpool
 
 > 管理 ZFS 池。
-> 更多信息：<https://manned.org/zpool>.
+> 更多信息：<https://manned.org/zpool>。
 
 - 显示所有 ZFS 池的配置和状态：
 

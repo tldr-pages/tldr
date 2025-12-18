@@ -1,7 +1,7 @@
 # a2disconf
 
 > Désactive un fichier de configuration sur une distribution Debian.
-> Plus d'informations : <https://manned.org/a2disconf.8>.
+> Plus d'informations : <https://manned.org/a2disconf>.
 
 - Désactive un fichier de configuration :
 

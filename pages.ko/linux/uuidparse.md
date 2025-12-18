@@ -2,7 +2,7 @@
 
 > 범용 고유 식별자(UUID) 파싱.
 > 같이 보기: `uuidgen`.
-> 더 많은 정보: <https://manned.org/uuidparse.1>.
+> 더 많은 정보: <https://manned.org/uuidparse>.
 
 - 지정된 UUID를 파싱하고 표 형식으로 출력:
 

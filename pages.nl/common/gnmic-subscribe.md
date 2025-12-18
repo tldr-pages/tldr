@@ -1,7 +1,7 @@
 # gnmic subscribe
 
 > Abonneer op gnmic netwerk apparaat status updates.
-> Meer informatie: <https://gnmic.kmrd.dev/cmd/subscribe>.
+> Meer informatie: <https://gnmic.openconfig.net/cmd/subscribe/>.
 
 - Abonneer op doel status updates onder de subtree van een specifiek pad:
 

@@ -1,7 +1,7 @@
 # sshfs
 
 > Cliente de sistema de arquivos baseado em SSH.
-> Mais informações: <https://github.com/libfuse/sshfs>.
+> Mais informações: <https://github.com/libfuse/sshfs/blob/master/sshfs.rst>.
 
 - Monta um diretório remoto:
 

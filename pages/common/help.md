@@ -17,11 +17,11 @@
 
 - Print instructions on how to use `[[ ]]` for conditional commands:
 
-`help [[ ]]`
+`help [[`
 
 - Print instruction on how to use `(( ))` to evaluate arithmetic expressions:
 
-`help \( \)`
+`help \(`
 
 - Print instructions on how to use the `cd` command:
 

@@ -1,7 +1,7 @@
 # a2dismod
 
 > Désactive un module Apache sur une distribution Debian.
-> Plus d'informations : <https://manned.org/a2dismod.8>.
+> Plus d'informations : <https://manned.org/a2dismod>.
 
 - Désactive un module :
 

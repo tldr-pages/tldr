@@ -1,7 +1,7 @@
 # apt-clone
 
 > 克隆/备份/恢复基于 Debian 系统的软件包状态。
-> 更多信息：<https://github.com/mvo5/apt-clone>.
+> 更多信息：<https://github.com/mvo5/apt-clone>。
 
 - 将当前系统的软件包状态克隆到指定目录：
 

@@ -8,6 +8,6 @@
 
 `git paste`
 
-- Pass options to `git format-patch` in order to select a different set of commits (`@^` selects the parent of HEAD, and so the currently checked out commit is sent):
+- Pass options to `git format-patch` in order to select a different set of commits (`@^` selects the parent of `HEAD`, and so the currently checked out commit is sent):
 
 `git paste {{@^}}`

@@ -1,7 +1,7 @@
 # halt
 
 > Deté, apaga o reinicia la màquina.
-> Més informació: <https://manned.org/halt.8>.
+> Més informació: <https://manned.org/halt>.
 
 - Deté la màquina:
 

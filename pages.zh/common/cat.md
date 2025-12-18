@@ -1,7 +1,7 @@
 # cat
 
 > 打印和连接文件。
-> 更多信息：<https://manned.org/cat.1posix>.
+> 更多信息：<https://manned.org/cat.1posix>。
 
 - 将文件内容打印到 `标准输出`：
 

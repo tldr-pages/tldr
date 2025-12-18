@@ -2,7 +2,7 @@
 
 > `grep`과 유사하지만 강력한 치환 기능을 제공.
 > `sed`와 달리 줄 단위 편집에 제한되지 않음.
-> 더 많은 정보: <https://github.com/nevdelap/ned>.
+> 더 많은 정보: <https://github.com/nevdelap/ned#ned-usage>.
 
 - 현재 디렉토리에서 대소문자를 무시하고 재귀적으로 검색:
 

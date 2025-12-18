@@ -1,7 +1,6 @@
 # zmv
 
 > Move or rename files matching a specified extended glob pattern.
-> See also: `zcp`, `zln`.
 > More information: <https://zsh.sourceforge.net/Doc/Release/User-Contributions.html>.
 
 - Move files using a `regex`-like pattern:

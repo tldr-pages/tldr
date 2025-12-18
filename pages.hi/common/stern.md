@@ -1,7 +1,7 @@
 # stern
 
 > Kubernetes से कई पॉड और कंटेनरों का टेल करें।
-> अधिक जानकारी: <https://github.com/stern/stern>।
+> अधिक जानकारी: <https://github.com/stern/stern#usage>।
 
 - वर्तमान नामस्थान में सभी पॉड्स का टेल करें:
 

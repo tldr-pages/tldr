@@ -33,7 +33,6 @@ The templates can be changed when necessary.
 [pt_PT](#pt_pt) •
 [ro](#ro) •
 [ru](#ru) •
-[sh](#sh) •
 [sr](#sr) •
 [sv](#sv) •
 [ta](#ta) •
@@ -424,20 +423,6 @@ The templates can be changed when necessary.
 
 ---
 
-### sh
-
-```markdown
-# example
-
-> Ova komanda je pseudonim za `example`.
-
-- Pogledaj dokumentaciju za originalnu komandu:
-
-`tldr example`
-```
-
----
-
 ### sr
 
 ```markdown
@@ -541,9 +526,9 @@ The templates can be changed when necessary.
 ```markdown
 # example
 
-> 这是 `example` 命令的一个别名。
+> 此命令为 `example` 的别名。
 
-- 原命令的文档在：
+- 查看原命令的文档：
 
 `tldr example`
 ```
@@ -555,9 +540,9 @@ The templates can be changed when necessary.
 ```markdown
 # example
 
-> 這是 `example` 命令的一個別名。
+> 此命令為 `example` 的別名。
 
-- 原命令的文件在：
+- 檢視原命令的文件：
 
 `tldr example`
 ```

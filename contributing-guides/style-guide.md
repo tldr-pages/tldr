@@ -327,6 +327,9 @@ Whereas for Powershell, prepend the environment variable with a dollar sign, Env
 
 When describing file formats, primarily use the brand name in plain text (e.g. JSON, SQLite), or use the file extension preceded by a dot, wrapped in backticks (e.g. `.txt`).
 
+If the command that is being described is part of an interactive mode, mention the word "interactive" in a previous example that enters said mode and mark the beginning of the description for the interactive commands with `[Interactive]`.
+Interactive mode can be defined as running commands within the command the page describes, and the prompt not having access to programs in $PATH.
+
 ### Standardized Terms
 
 Some terms are used repeatedly throughout pages, and as such, should be standardized. These include:
@@ -334,6 +337,9 @@ Some terms are used repeatedly throughout pages, and as such, should be standard
 | Term | Standard | Explanation |
 |---|---|---|
 | Regular expression | `` `regex` `` | `regex` defines a match pattern given a string of characters (https://en.wikipedia.org/wiki/Regular_expression). |
+| Standard input | `` `stdin` ``
+| Standard output | `` `stdout` ``
+| Standard error | `` `stderr` ``
 
 ## Heading
 

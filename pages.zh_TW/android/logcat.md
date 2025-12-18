@@ -1,7 +1,7 @@
 # logcat
 
 > 轉存系統訊息日誌，包括發生錯誤時的堆疊追蹤信息，以及應用程序記錄的信息消息。
-> 更多資訊：<https://developer.android.com/tools/logcat>.
+> 更多資訊：<https://developer.android.com/tools/logcat>。
 
 - 顯示系統日誌：
 

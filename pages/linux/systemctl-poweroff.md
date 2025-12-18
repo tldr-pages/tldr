@@ -10,8 +10,8 @@
 
 - Power off the system immediately without asking services to stop gracefully:
 
-`systemctl poweroff --force`
+`systemctl poweroff {{[-f|--force]}}`
 
 - Power off the system immediately without sending notifications to logged-in users:
 
-`systemctl poweroff --force --no-wall`
+`systemctl poweroff {{[-f|--force]}} --no-wall`

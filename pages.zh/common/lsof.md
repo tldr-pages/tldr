@@ -2,7 +2,7 @@
 
 > 列出打开的文件和相应的进程。
 > 注意：列出其他人打开的文件需要 root 权限（或 sudo）。
-> 更多信息：<https://manned.org/lsof>.
+> 更多信息：<https://manned.org/lsof>。
 
 - 查找打开了给定文件的进程：
 

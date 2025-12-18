@@ -1,7 +1,7 @@
 # fc-cache
 
 > 扫描字体目录，以便建立字体缓存文件。
-> 更多信息：<https://manned.org/fc-cache>.
+> 更多信息：<https://manned.org/fc-cache>。
 
 - 生成字体缓存文件：
 
