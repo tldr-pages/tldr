@@ -1,4 +1,4 @@
-# odps func
+# odpscmd func
 
 > Manage functions in ODPS (Open Data Processing Service).
 > See also: `odps`.

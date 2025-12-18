@@ -1,4 +1,4 @@
-# odps table
+# odpscmd table
 
 > Create and modify tables in ODPS (Open Data Processing Service).
 > See also: `odps`.

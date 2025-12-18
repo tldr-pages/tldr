@@ -1,4 +1,4 @@
-# odps auth
+# odpscmd auth
 
 > User authorities in ODPS (Open Data Processing Service).
 > See also: `odps`.

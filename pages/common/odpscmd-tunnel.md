@@ -1,4 +1,4 @@
-# odps tunnel
+# odpscmd tunnel
 
 > Data tunnel in ODPS (Open Data Processing Service).
 > See also: `odps`.

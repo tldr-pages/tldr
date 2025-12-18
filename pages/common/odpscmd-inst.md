@@ -1,4 +1,4 @@
-# odps inst
+# odpscmd inst
 
 > Manage instances in ODPS (Open Data Processing Service).
 > See also: `odps`.

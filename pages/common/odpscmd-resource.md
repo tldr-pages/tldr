@@ -1,4 +1,4 @@
-# odps resource
+# odpscmd resource
 
 > Manage resources in ODPS (Open Data Processing Service).
 > See also: `odps`.

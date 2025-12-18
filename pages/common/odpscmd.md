@@ -1,4 +1,4 @@
-# odps
+# odpscmd
 
 > Aliyun ODPS (Open Data Processing Service) command-line tool.
 > Some subcommands such as `inst` have their own usage documentation.
