@@ -34,7 +34,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | ru    | Показать справку             | Показать версию                             | [Интерактивно]   |
 | sr    | Prikazuje opštu pomoć        | Proverava verziju                           |                  |
 | sv    |                              |                                             |                  |
-| ta    | உதவியைக் காட்டு                | பதிப்பைக் காட்டு                               |                  |
+| ta    | உதவியைக் காட்டு                | பதிப்பைக் காட்டு                               |     [ஊடாடும் கட்டளை]           |
 | th    |                              |                                             |                  |
 | tr    |                              |                                             |                  |
 | uk    |                              |                                             |                  |
