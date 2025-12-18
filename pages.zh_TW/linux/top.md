@@ -1,7 +1,7 @@
 # top
 
 > 即時顯示系統執行程序的資訊。
-> 更多資訊：<https://manned.org/top>.
+> 更多資訊：<https://manned.org/top>。
 
 - 啟動 `top`：
 

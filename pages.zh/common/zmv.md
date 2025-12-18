@@ -2,7 +2,7 @@
 
 > 移动或重命名符合指定扩展模式的文件。
 > 请参阅：`zcp` 和 `zln`。
-> 更多信息：<https://zsh.sourceforge.net/Doc/Release/User-Contributions.html>.
+> 更多信息：<https://zsh.sourceforge.net/Doc/Release/User-Contributions.html>。
 
 - 使用类似正则表达式的模式移动文件：
 

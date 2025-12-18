@@ -1,7 +1,7 @@
 # brew autoremove
 
 > 移除先前作为依赖安装的，当前未使用的软件包。
-> 更多信息：<https://docs.brew.sh/Manpage#autoremove---dry-run>.
+> 更多信息：<https://docs.brew.sh/Manpage#autoremove---dry-run>。
 
 - 移除所有未使用的软件包：
 

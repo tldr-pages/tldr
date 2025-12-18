@@ -11,6 +11,6 @@
 
 `idevicediagnostics mobilegestalt {{key1}} {{key2}}`
 
-- Shutdown, restart or sleep the device:
+- Shutdown, restart, or sleep the device:
 
 `idevicediagnostics {{shutdown|restart|sleep}}`

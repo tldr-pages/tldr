@@ -1,7 +1,7 @@
 # uv tool
 
 > 安装和运行由 Python 软件包提供的命令。
-> 更多信息：<https://docs.astral.sh/uv/reference/cli/#uv-tool>.
+> 更多信息：<https://docs.astral.sh/uv/reference/cli/#uv-tool>。
 
 - 运行一个来自软件包的命令，而不安装它：
 

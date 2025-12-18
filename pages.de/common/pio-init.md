@@ -1,6 +1,6 @@
 # pio init
 
-> Dieser Befehl ist ein Alias von `pio project`.
+> Dieser Befehl ist ein Alias von `pio project init`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 

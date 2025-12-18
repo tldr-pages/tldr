@@ -1,7 +1,7 @@
 # export
 
 > 命令为当前 shell 中的子进程进行环境变量设置。
-> 更多信息：<https://manned.org/export.1posix>.
+> 更多信息：<https://manned.org/export.1posix>。
 
 - 设置环境变量：
 

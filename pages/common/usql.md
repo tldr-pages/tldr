@@ -9,11 +9,11 @@
 
 - Execute commands from a file:
 
-`usql --file={{path/to/query.sql}}`
+`usql {{[-f|--file]}} {{path/to/query.sql}}`
 
 - Execute a specific SQL command:
 
-`usql --command="{{sql_command}}"`
+`usql {{[-c|--command]}} "{{sql_command}}"`
 
 - Run an SQL command in the `usql` prompt:
 

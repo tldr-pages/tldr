@@ -28,7 +28,7 @@ Clients SHOULD support passing `common` as an argument to the [platform flag](#a
 
 ## Command-line interface
 
-This section describes the standardised command-line interface (CLI) for clients implementing one. Clients that do not provide a CLI can ignore this section.
+This section describes the standardized command-line interface (CLI) for clients implementing one. Clients that do not provide a CLI can ignore this section.
 
 ### Arguments
 

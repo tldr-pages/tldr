@@ -1,7 +1,7 @@
 # blkdiscard
 
 > 丢弃存储设备上的设备扇区。对 SSD 有用。
-> 更多信息：<https://manned.org/blkdiscard>.
+> 更多信息：<https://manned.org/blkdiscard>。
 
 - 丢弃设备上的所有扇区，删除所有数据：
 

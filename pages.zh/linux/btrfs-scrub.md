@@ -1,8 +1,8 @@
 # btrfs scrub
 
 > 清理 btrfs 文件系统以验证数据完整性。
-> 建议每月运行一次 scrub.
-> 更多信息：<https://btrfs.readthedocs.io/en/latest/btrfs-scrub.html>.
+> 建议每月运行一次 scrub。
+> 更多信息：<https://btrfs.readthedocs.io/en/latest/btrfs-scrub.html>。
 
 - 开始 scrub：
 

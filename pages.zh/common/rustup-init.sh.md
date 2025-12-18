@@ -1,7 +1,7 @@
 # rustup-init.sh
 
 > 用于安装 `rustup` 和 Rust 工具链的脚本。
-> 更多信息：<https://forge.rust-lang.org/infra/other-installation-methods.html#rustup>.
+> 更多信息：<https://forge.rust-lang.org/infra/other-installation-methods.html#rustup>。
 
 - 下载并运行 `rustup-init` 来安装 `rustup` 和默认 Rust 工具链：
 

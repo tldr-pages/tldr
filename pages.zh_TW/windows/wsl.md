@@ -1,7 +1,7 @@
 # wsl
 
 > 透過命令行管理 Windows 子系統 Linux 版 (WSL)。
-> 更多資訊：<https://learn.microsoft.com/windows/wsl/reference>.
+> 更多資訊：<https://learn.microsoft.com/windows/wsl/reference>。
 
 - 在預設發行版下，開啟 Linux shell：
 

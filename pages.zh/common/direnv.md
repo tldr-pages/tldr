@@ -1,9 +1,9 @@
 # direnv
 
 > Shell 扩展为加载和卸载环境变量，具体取决于当前目录。
-> 更多信息：<https://github.com/direnv/direnv/blob/master/man/direnv.1.md>.
+> 更多信息：<https://github.com/direnv/direnv/blob/master/man/direnv.1.md>。
 
-- 授予 direnv 当前目录中加载 `.envrc`:
+- 授予 direnv 当前目录中加载 `.envrc`：
 
 `direnv allow {{.}}`
 

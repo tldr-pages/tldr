@@ -1,7 +1,7 @@
 # chroot
 
 > 使用指定的根目录运行命令或交互式 shell。
-> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/chroot-invocation.html>.
+> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/chroot-invocation.html>。
 
 - 以新的根目录，运行命令：
 

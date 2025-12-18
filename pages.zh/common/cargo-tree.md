@@ -2,7 +2,7 @@
 
 > 显示依赖图的树形可视化。
 > 注意：在树中，标有 `(*)` 的包的依赖已在图的其他位置显示过，因此不会重复显示。
-> 更多信息：<https://doc.rust-lang.org/cargo/commands/cargo-tree.html>.
+> 更多信息：<https://doc.rust-lang.org/cargo/commands/cargo-tree.html>。
 
 - 显示当前项目的依赖树：
 

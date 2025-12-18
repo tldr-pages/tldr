@@ -2,7 +2,7 @@
 
 > 对图形布局的边缘进行着色，以澄清交叉边缘。
 > Graphviz 过滤器：`acyclic`、`bcomps`、`comps`、`edgepaint`、`gvcolor`、`gvpack`、`mingle`、`nop`、`sccmap`、`tred` 和 `unflatten`。
-> 更多信息：<https://graphviz.org/pdf/edgepaint.1.pdf>.
+> 更多信息：<https://graphviz.org/pdf/edgepaint.1.pdf>。
 
 - 对一个或多个已经有布局信息的图形布局的边缘进行着色，以澄清交叉边缘：
 
