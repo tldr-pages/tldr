@@ -21,7 +21,7 @@
 
 - Filter headings by a specific pattern:
 
-`treemd --list --filter {{pattern}} {{path/to/file.md}}`
+`treemd {{[-l|--list]}} --filter {{pattern}} {{path/to/file.md}}`
 
 - Query and extract markdown structure using the treemd query language:
 
