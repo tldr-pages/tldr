@@ -25,7 +25,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | ko    | 도움말 표시                  | 버전 정보 표시                              |                  |
 | ml    | സഹായ നിർദേശങ്ങൾ കാണുവാൻ        | നിങ്ങൾ ഉപയോഗിക്കുന്ന ഗിറ്റിന്റെ പതിപ്പ് പരിശോധിക്കാൻ |                  |
 | ne    |                              |                                             |                  |
-| nl    | Toon de help                 | Toon de versie                              | Interactief      |
+| nl    | Toon de help                 | Toon de versie                              | [Interactief]    |
 | no    |                              |                                             |                  |
 | pl    | Wyświetl pomoc               | Wyświetl wersję                             |                  |
 | pt_BR | Mostra ajuda geral           | Mostra a versão                             |                  |
