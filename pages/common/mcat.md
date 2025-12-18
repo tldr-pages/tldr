@@ -9,7 +9,7 @@
 
 - Display a Markdown file with a specific theme:
 
-`mcat --theme {{theme_name}} {{path/to/file}}.md`
+`mcat --theme {{theme_name}} {{path/to/file.md}}`
 
 - Display an image or video inline:
 
