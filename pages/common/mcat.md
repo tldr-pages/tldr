@@ -13,7 +13,7 @@
 
 - Display an image or video inline:
 
-`mcat -i {{path/to/file}}`
+`mcat {{[-i|--output inline]}} {{path/to/file}}`
 
 - Convert a file to a specific format (e.g. `html`, `md`, `image`):
 
