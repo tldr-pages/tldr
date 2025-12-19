@@ -3,7 +3,7 @@
 > Automated reconnaissance and information gathering tool.
 > More information: <https://github.com/lanmaster53/recon-ng/wiki>.
 
-- Start the tool:
+- Start the tool in interactive mode:
 
 `recon-ng`
 
