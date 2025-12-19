@@ -8,7 +8,7 @@
 
 `gofumpt -w {{path/to/directory}}`
 
-- List files whose formatting differs from `gofumpt`:
+- [l]ist files whose formatting differs from `gofumpt`:
 
 `gofumpt -l {{path/to/directory}}`
 
