@@ -1,7 +1,7 @@
 # choco upgrade
 
 > Upgrade one or more packages with Chocolatey.
-> More information: <https://chocolatey.org/docs/commands-upgrade>.
+> More information: <https://docs.chocolatey.org/en-us/choco/commands/upgrade/>.
 
 - Upgrade one or more packages:
 
