@@ -1,7 +1,7 @@
 # npm publish
 
 > Publish a package to the npm registry.
-> More information: <https://docs.npmjs.com/cli/publish>.
+> More information: <https://docs.npmjs.com/cli/publish/>.
 
 - Publish the current package to the default npm registry:
 

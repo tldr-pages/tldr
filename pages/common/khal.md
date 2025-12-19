@@ -1,7 +1,7 @@
 # khal
 
 > A text-based calendar and scheduling application.
-> More information: <https://lostpackets.de/khal>.
+> More information: <https://lostpackets.de/khal/>.
 
 - Start Khal on interactive mode:
 
