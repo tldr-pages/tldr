@@ -1,12 +1,12 @@
 # docker rename
 
-> Renombra un contenedor.
+> Cambia el nombre de un contenedor.
 > Más información: <https://docs.docker.com/reference/cli/docker/container/rename/>.
 
-- Renombra un contenedor:
+- Cambia el nombre de un contenedor:
 
-`docker rename {{contenedor}} {{nuevo_nombre}}`
+`docker {{[rename|container rename]}} {{contenedor}} {{nuevo_nombre}}`
 
 - Muestra la ayuda:
 
-`docker rename --help`
+`docker {{[rename|container rename]}} --help`

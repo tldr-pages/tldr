@@ -1,12 +1,12 @@
 # docker diff
 
-> Inspecciona cambios en archivos o directorios en el sistema de archivos de un contenedor.
+> Inspecciona los cambios en los archivos o directorios del sistema de archivos de un contenedor.
 > Más información: <https://docs.docker.com/reference/cli/docker/container/diff/>.
 
-- Inspecciona los cambios en un contenedor desde que se creó:
+- Inspecciona los cambios realizados en un contenedor desde su creación:
 
-`docker diff {{contenedor}}`
+`docker {{[diff|container diff]}} {{contenedor}}`
 
 - Muestra la ayuda:
 
-`docker diff --help`
+`docker {{[diff|container diff]}} --help`
