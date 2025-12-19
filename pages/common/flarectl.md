@@ -1,7 +1,7 @@
 # flarectl
 
 > Official CLI for Cloudflare.
-> More information: <https://github.com/cloudflare/cloudflare-go/blob/master/cmd/flarectl/README.md>.
+> More information: <https://github.com/cloudflare/cloudflare-go/blob/v0/cmd/flarectl/README.md>.
 
 - Block a specific IP:
 

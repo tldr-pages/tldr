@@ -1,7 +1,7 @@
 # glab issue
 
 > Manage GitLab issues.
-> More information: <https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/issue/index.md>.
+> More information: <https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/issue/_index.md>.
 
 - Display a specific issue:
 
