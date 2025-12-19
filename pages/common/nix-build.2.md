@@ -2,7 +2,7 @@
 
 > Build a Nix expression.
 > See also: `nix build.3`.
-> More information: <https://nixos.org/manual/nix/stable/command-ref/nix-build.html>.
+> More information: <https://nix.dev/manual/nix/stable/command-ref/nix-build.html>.
 
 - Build a Nix expression:
 
