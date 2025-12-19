@@ -16,7 +16,7 @@
 
 `gofumpt -e {{path/to/directory}}`
 
-- Display diffs:
+- Display [d]iffs:
 
 `gofumpt -d {{path/to/directory}}`
 
