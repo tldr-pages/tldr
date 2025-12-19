@@ -4,7 +4,7 @@
 > Once connected, we get a PowerShell prompt on the target host.
 > More information: <https://github.com/Hackplayers/evil-winrm>.
 
-- Connect to a host:
+- Connect to a host and start an interactive session:
 
 `evil-winrm {{[-i|--ip]}} {{ip}} {{[-u|--user]}} {{user}} {{[-p|--password]}} {{password}}`
 
