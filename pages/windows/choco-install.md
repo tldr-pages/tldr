@@ -1,7 +1,7 @@
 # choco install
 
 > Install one or more packages with Chocolatey.
-> More information: <https://chocolatey.org/docs/commands-install>.
+> More information: <https://docs.chocolatey.org/en-us/choco/commands/install/>.
 
 - Install one or more packages:
 
