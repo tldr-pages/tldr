@@ -6,32 +6,32 @@
 
 - Tampilkan semua daftar kontainer Docker (yang sedang berjalan dan berhenti):
 
-`docker ps {{[-a|--all]}}`
+`docker {{[ps|container ls]}} {{[-a|--all]}}`
 
 - Nyalakan sebuah kontainer dari citra (image), dengan nama kustom:
 
-`docker run --name {{nama_kontainer}} {{citra}}`
+`docker {{[run|container run]}} --name {{nama_kontainer}} {{citra}}`
 
 - Nyalakan atau menghentikan kontainer yang tersedia:
 
-`docker {{start|stop}} {{nama_kontainer}}`
+`docker container {{start|stop}} {{nama_kontainer}}`
 
 - Tarik citra dari registri Docker:
 
-`docker pull {{citra}}`
+`docker {{[pull|image pull]}} {{citra}}`
 
 - Tampilkan daftar citra Docker yang telah diunduh:
 
-`docker images`
+`docker {{[images|image ls]}}`
 
 - Buka sesi shell didalam sebuah kontainer yang sedang berjalan:
 
-`docker exec {{[-it|--interactive --tty]}} {{nama_kontainer}} {{sh}}`
+`docker {{[exec|container exec]}} {{[-it|--interactive --tty]}} {{nama_kontainer}} {{sh}}`
 
 - Hapus kontainer yang sedang berhenti:
 
-`docker rm {{nama_kontainer}}`
+`docker {{[rm|container rm]}} {{nama_kontainer}}`
 
 - Ambil dan ikuti semua log dari sebuah kontainer:
 
-`docker logs {{[-f|--follow]}} {{nama_kontainer}}`
+`docker {{[logs|container logs]}} {{[-f|--follow]}} {{nama_kontainer}}`

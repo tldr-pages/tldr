@@ -6,32 +6,32 @@
 
 - Список всех контейнеров Docker (запущенных и остановленных):
 
-`docker ps {{[-a|--all]}}`
+`docker {{[ps|container ls]}} {{[-a|--all]}}`
 
 - Запустить контейнера из образа с заданным именем:
 
-`docker run --name {{имя_контейнера}} {{имя_образа}}`
+`docker {{[run|container run]}} --name {{имя_контейнера}} {{имя_образа}}`
 
 - Запустить или остановить существующий контейнер:
 
-`docker {{start|stop}} {{имя_контейнера}}`
+`docker container {{start|stop}} {{имя_контейнера}}`
 
 - Загрузить образ из репозитория Docker:
 
-`docker pull {{имя_образа}}`
+`docker {{[pull|image pull]}} {{имя_образа}}`
 
 - Показать список уже загруженных образов:
 
-`docker images`
+`docker {{[images|image ls]}}`
 
 - Запустить интерактивный ([i]) телетайп ([t]) с командной оболочкой Bourne shell (sh) внутри запущенного контейнера:
 
-`docker exec {{[-it|--interactive --tty]}} {{имя_контейнера}} {{sh}}`
+`docker {{[exec|container exec]}} {{[-it|--interactive --tty]}} {{имя_контейнера}} {{sh}}`
 
 - Удалить остановленный контейнер:
 
-`docker rm {{имя_контейнера}}`
+`docker {{[rm|container rm]}} {{имя_контейнера}}`
 
 - Получить и следить за логами контейнера:
 
-`docker logs {{[-f|--follow]}} {{имя_контейнера}}`
+`docker {{[logs|container logs]}} {{[-f|--follow]}} {{имя_контейнера}}`
