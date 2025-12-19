@@ -17,7 +17,7 @@
 
 - Convert a file to a specific format (e.g. `html`, `md`, `image`):
 
-`mcat --output {{format}} {{path/to/file}}`
+`mcat {{[-o|--output]}} {{format}} {{path/to/file}}`
 
 - List the contents of a directory:
 
