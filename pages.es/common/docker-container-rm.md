@@ -1,4 +1,4 @@
-# docker rm
+# docker container rm
 
 > Elimina contenedores.
 > Más información: <https://docs.docker.com/reference/cli/docker/container/rm/>.
