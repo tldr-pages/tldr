@@ -16,7 +16,7 @@
 
 `samtools sort {{입력}} -o {{출력.bam}}`
 
-- 정렬된 BAM 파일 색인 ({{sorted_input.bam.bai}} 생성):
+- 정렬된 BAM 파일 색인 (sorted_input.bam.bai 생성):
 
 `samtools index {{정렬된_입력.bam}}`
 

@@ -7,7 +7,7 @@
 
 `ffmpeg -i {{path/to/video.mp4}} -vn {{path/to/sound.mp3}}`
 
-- تحويل ملف FLAC إلى تنسيق Red Book CD (‏44100kHz، ‏16bit):
+- تحويل ملف FLAC إلى تنسيق Red Book CD (44100kHz، 16bit):
 
 `ffmpeg -i {{path/to/input_audio.flac}} -ar 44100 -sample_fmt s16 {{path/to/output_audio.wav}}`
 
@@ -31,6 +31,6 @@
 
 `ffmpeg -i {{path/to/input_video}}.mkv {{[-c|-codec]}} copy {{path/to/output_video}}.mp4`
 
-- تحويل فيديو MP4 إلى ترميز VP9 بأفضل جودة باستخدام قيمة CRF (النطاق الموصى به 15–35) وb:v=0:
+- تحويل فيديو MP4 إلى ترميز VP9 بأفضل جودة باستخدام قيمة CRF (النطاق الموصى به 15-35) وb:v=0:
 
 `ffmpeg -i {{path/to/input_video}}.mp4 {{[-c|-codec]}}:v libvpx-vp9 -crf {{30}} -b:v 0 {{[-c|-codec]}}:a libopus -vbr on -threads {{number_of_threads}} {{path/to/output_video}}.webm`

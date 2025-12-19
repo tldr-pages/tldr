@@ -18,7 +18,7 @@
 
 `gcrane --insecure {{하위명령어}}`
 
-- os/arch{{/variant}}{{:osversion}} 형식으로 플랫폼을 지정 (예: linux/amd64). (기본값은 모두):
+- `os/arch/variant:osversion` 형식으로 플랫폼을 지정 (예: linux/amd64). (기본값은 모두):
 
 `gcrane --platform {{플랫폼}} {{하위명령어}}`
 

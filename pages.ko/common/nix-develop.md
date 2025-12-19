@@ -3,7 +3,7 @@
 > 파생물의 빌드 환경을 제공하는 Bash 셸 실행.
 > 더 많은 정보: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-develop.html>.
 
-- nixpkgs의 모든 {{패키지}} 종속성을 사용하여 셸 시작:
+- nixpkgs의 모든 패키지 종속성을 사용하여 셸 시작:
 
 `nix develop {{nixpkgs#pkg}}`
 

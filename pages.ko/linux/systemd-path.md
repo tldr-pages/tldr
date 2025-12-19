@@ -11,7 +11,7 @@
 
 `systemd-path "{{경로_이름}}"`
 
-- 출력된 경로에 `{{suffix_string}}` 접미사를 추가:
+- 출력된 경로에 `suffix_string` 접미사를 추가:
 
 `systemd-path --suffix {{suffix_string}}`
 
