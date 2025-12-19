@@ -2,7 +2,7 @@
 
 > Data tunnel in ODPS (Open Data Processing Service).
 > See also: `odps`.
-> More information: <https://www.alibabacloud.com/help/doc-detail/27971.htm>.
+> More information: <https://www.alibabacloud.com/help/en/maxcompute/user-guide/maxcompute-client>.
 
 - [Interactive] Download table to local file:
 
