@@ -3,7 +3,7 @@
 > Trivial File Transfer Protocol client.
 > More information: <https://manned.org/tftp>.
 
-- Connect to a TFTP server for an interactive mode, specifying its IP address and port:
+- Connect to a TFTP server with an interactive shell, specifying its IP address and port:
 
 `tftp {{server_ip}} {{port}}`
 
