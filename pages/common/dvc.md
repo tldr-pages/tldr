@@ -2,7 +2,7 @@
 
 > Data Version Control system for machine learning projects.
 > Some subcommands such as `commit` have their own usage documentation.
-> More information: <https://dvc.org/doc/command-reference>.
+> More information: <https://doc.dvc.org/command-reference>.
 
 - Initialize a new DVC project:
 

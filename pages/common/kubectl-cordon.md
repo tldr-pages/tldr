@@ -2,7 +2,7 @@
 
 > Mark a node as unschedulable, preventing new pods from being assigned to it.
 > See also: `kubectl uncordon`.
-> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_cordon>.
+> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_cordon/>.
 
 - Mark a node as unschedulable:
 

@@ -2,7 +2,7 @@
 
 > Jujutsu, a version control system.
 > Some subcommands such as `log`, `desc`, `new`, `git`, etc. have their own usage documentation.
-> More information: <https://jj-vcs.github.io/jj/latest/cli-reference/>.
+> More information: <https://docs.jj-vcs.dev/latest/cli-reference/>.
 
 - Update description of the revisions specified by given revsets (e.g. `B::D`, `A..D`, `B|C|D`, etc.):
 
