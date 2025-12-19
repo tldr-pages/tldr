@@ -1,7 +1,7 @@
 # mcat
 
 > Parse, convert, and preview files (including Markdown), directories, images, and videos.
-> More information: <https://github.com/Skardyy/mcat>.
+> More information: <https://github.com/Skardyy/mcat#example-usage>.
 
 - Display the contents of a file:
 
