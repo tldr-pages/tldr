@@ -25,7 +25,7 @@
 
 - List the contents of a directory including hidden files:
 
-`mcat --hidden {{path/to/directory}}`
+`mcat {{[-a|--hidden]}} {{path/to/directory}}`
 
 - Display content without paging:
 
