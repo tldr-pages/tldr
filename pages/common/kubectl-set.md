@@ -25,7 +25,7 @@
 
 - Import environment variables from a secret or ConfigMap:
 
-`kubectl set env --from {{[secret|configmap]}}/{{resource_name}} {{[deploy|deployment]}}/{{deployment_name}}`
+`kubectl set env --from {{secret|configmap}}/{{resource_name}} {{[deploy|deployment]}}/{{deployment_name}}`
 
 - Update the service account of a deployment:
 
