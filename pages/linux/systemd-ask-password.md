@@ -1,7 +1,7 @@
 # systemd-ask-password
 
 > Query the user for a system password.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemd-ask-password.html>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemd-ask-password.html>.
 
 - Query a system password with a specific prompt:
 
