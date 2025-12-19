@@ -1,7 +1,7 @@
 # mongod
 
 > The MongoDB database server.
-> More information: <https://docs.mongodb.com/manual/reference/program/mongod>.
+> More information: <https://www.mongodb.com/docs/manual/reference/program/mongod/>.
 
 - Specify the storage directory (default: `/data/db` on Linux and macOS, `C:\data\db` on Windows):
 
