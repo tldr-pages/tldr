@@ -1,7 +1,7 @@
 # npm unstar
 
 > Remove the favorite/star mark from a package.
-> More information: <https://docs.npmjs.com/cli/npm-unstar>.
+> More information: <https://docs.npmjs.com/cli/npm-unstar/>.
 
 - Unstar a public package from the default registry:
 

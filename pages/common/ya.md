@@ -1,7 +1,7 @@
 # ya
 
 > Manage Yazi plugins and flavors, publish or subscribe to DDS messages.
-> More information: <https://yazi-rs.github.io/docs/cli>.
+> More information: <https://yazi-rs.github.io/docs/cli/>.
 
 - Add a package:
 

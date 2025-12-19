@@ -1,7 +1,7 @@
 # npm exec
 
 > Execute binaries from `npm` packages.
-> More information: <https://docs.npmjs.com/cli/npm-exec>.
+> More information: <https://docs.npmjs.com/cli/npm-exec/>.
 
 - Execute the command from a local or remote `npm` package:
 

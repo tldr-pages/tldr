@@ -1,7 +1,7 @@
 # ntp-ctl
 
 > Management client for the `ntpd-rs` daemon.
-> More information: <https://docs.ntpd-rs.pendulum-project.org/man/ntp-ctl.8>.
+> More information: <https://docs.ntpd-rs.pendulum-project.org/man/ntp-ctl.8/>.
 
 - Display information about the current state of the NTP daemon:
 

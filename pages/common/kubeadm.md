@@ -1,7 +1,7 @@
 # kubeadm
 
 > Interface for creating and managing Kubernetes clusters.
-> More information: <https://kubernetes.io/docs/reference/setup-tools/kubeadm>.
+> More information: <https://kubernetes.io/docs/reference/setup-tools/kubeadm/>.
 
 - Create a Kubernetes control plane:
 

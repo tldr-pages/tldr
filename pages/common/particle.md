@@ -1,7 +1,7 @@
 # particle
 
 > Interact with Particle devices.
-> More information: <https://docs.particle.io/tutorials/developer-tools/cli>.
+> More information: <https://docs.particle.io/tutorials/developer-tools/cli/>.
 
 - Log in or create an account for the Particle CLI:
 
