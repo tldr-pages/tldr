@@ -26,4 +26,4 @@
 
 - Aplica `fzf` en entradas que no coinciden con `pyc` y coinciden exactamente con `travis`:
 
-`fzf {{[-q|--query]}} "\!pyc 'travis'`
+`fzf {{[-q|--query]}} '\!pyc travis'`

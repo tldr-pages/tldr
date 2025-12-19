@@ -19,6 +19,6 @@
 
 `echo "{{Zdravo Svete}}" >> {{fajl.txt}}`
 
-- Omogućava interpretaciju posebnih karektera (prethodi im "\\"):
+- Omogućava interpretaciju posebnih karektera:
 
 `echo -e "{{Kolona 1\tKolona 2}}"`

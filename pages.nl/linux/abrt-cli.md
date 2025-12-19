@@ -22,7 +22,7 @@
 
 - Een logbestand monitoren en een programma starten als er een overeenkomst wordt gevonden:
 
-`abrt-watch-log -F {{error_string}} {{/var/log/myapp.log}} {{notify-send “Crash gedetecteerd”}}`
+`abrt-watch-log -F {{error_string}} {{/var/log/myapp.log}} {{notify-send "Crash gedetecteerd"}}`
 
 - Genereer handmatig een rapport om te debuggen:
 

@@ -1,7 +1,7 @@
 # dumpe2fs
 
 > Print the super block and blocks group information for ext2/ext3/ext4 filesystems.
-> Unmount the partition before running this command using `umount {{device}}`.
+> Unmount the partition before running this command using `umount device`.
 > More information: <https://manned.org/dumpe2fs>.
 
 - Display ext2, ext3 and ext4 filesystem information:
