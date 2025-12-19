@@ -93,6 +93,7 @@ grep -r $'\u200A'
 grep -r $'\u200B'
 grep -r $'\u200C'
 grep -r $'\u200D'
+grep -r $'\u200F'
 grep -r $'\u202F'
 grep -r $'\uFEFF'
 
