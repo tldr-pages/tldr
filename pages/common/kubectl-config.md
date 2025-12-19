@@ -23,7 +23,7 @@
 
 - Switch to another context:
 
-`kubectl config {{use|use-context}} {{context_name}}`
+`kubectl config {{[use|use-context]}} {{context_name}}`
 
 - Delete clusters/contexts/users:
 

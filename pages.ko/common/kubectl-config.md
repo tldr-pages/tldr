@@ -17,9 +17,13 @@
 
 `kubectl config current-context`
 
+- 현재 컨텍스트의 기본 네임스페이스 설정:
+
+`kubectl config set-context --current --namespace {{네임스페이스}}`
+
 - 다른 컨텍스트로 전환:
 
-`kubectl config {{use|use-context}} {{컨텍스트_이름}}`
+`kubectl config {{[use|use-context]}} {{컨텍스트_이름}}`
 
 - 클러스터/컨텍스트/사용자 삭제:
 
