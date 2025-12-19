@@ -12,7 +12,7 @@
 
 `gofumpt -l {{path/to/directory}}`
 
-- Report all errors:
+- Report all [e]rrors:
 
 `gofumpt -e {{path/to/directory}}`
 
