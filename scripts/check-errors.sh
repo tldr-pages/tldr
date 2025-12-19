@@ -109,7 +109,7 @@ echo
 echo Placeholders in descriptions
 tput sgr0
 grep -r "^-" | grep "{{"
-grep -r "^>" | grep {{
+grep -r "^>" | grep "{{"
 
 tput setaf 5
 echo
