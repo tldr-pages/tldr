@@ -2,7 +2,7 @@
 
 > Run an application from a Nix flake.
 > See also: `nix flake` for information about flakes.
-> More information: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-run.html>.
+> More information: <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-run.html>.
 
 - Run the default application in the flake in the current directory:
 
