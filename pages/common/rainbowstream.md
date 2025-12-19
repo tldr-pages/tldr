@@ -1,6 +1,6 @@
 # rainbowstream
 
-> Terminal-based Twitter client supporting realtime tweetstream, trends, sending, search, favorites and user management.
+> Interactive Twitter client supporting realtime tweetstream, trends, sending, search, favorites and user management.
 > Online help with `<h>`, `<ArrowUp>` and `<ArrowDown>` for history, `<Tab>` to auto-complete and 2-`<Tab>` for suggestion.
 > More information: <https://github.com/orakaro/rainbowstream>.
 
