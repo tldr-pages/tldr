@@ -1,7 +1,20 @@
-# docker container rm
+# docker rm
 
-> Este comando es un alias de `docker rm`.
+> Elimina contenedores.
+> Más información: <https://docs.docker.com/reference/cli/docker/container/rm/>.
 
-- Vea la documentación del comando original:
+- Elimina los contenedores:
 
-`tldr docker rm`
+`docker rm {{contenedor1 contenedor2 ...}}`
+
+- Elimina de manera forzada contenedores:
+
+`docker rm {{[-f|--force]}} {{contenedor1 contenedor2 ...}}`
+
+- Elimina un contenedor y sus volúmenes:
+
+`docker rm {{[-v|--volumes]}} {{contenedor}}`
+
+- Muestra la ayuda:
+
+`docker rm {{[-h|--help]}}`

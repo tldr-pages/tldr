@@ -1,7 +1,12 @@
-# docker container rename
+# docker rename
 
-> Este comando es un alias de `docker rename`.
+> Cambia el nombre de un contenedor.
+> Más información: <https://docs.docker.com/reference/cli/docker/container/rename/>.
 
-- Vea la documentación del comando original:
+- Cambia el nombre de un contenedor:
 
-`tldr docker rename`
+`docker {{[rename|container rename]}} {{contenedor}} {{nuevo_nombre}}`
+
+- Muestra la ayuda:
+
+`docker {{[rename|container rename]}} --help`
