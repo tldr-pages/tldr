@@ -1,7 +1,7 @@
 # aws sso
 
 > Manage access to AWS resources using Single Sign-On (SSO) credentials.
-> More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/sso/index.html>.
+> More information: <https://docs.aws.amazon.com/cli/latest/reference/sso/>.
 
 - Start SSO session and refresh access tokens. Requires setup using `aws configure sso`:
 

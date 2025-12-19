@@ -2,7 +2,7 @@
 
 > CLI for AWS Simple Email Service.
 > High-scale inbound and outbound cloud email service.
-> More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ses/index.html>.
+> More information: <https://docs.aws.amazon.com/cli/latest/reference/ses/>.
 
 - Create a new receipt rule set:
 
