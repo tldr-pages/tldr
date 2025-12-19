@@ -15,6 +15,6 @@
 
 `java -jar {{path/to/server.jar}}`
 
-- Shut the server down:
+- [Interactive] Shut the server down:
 
 `stop`

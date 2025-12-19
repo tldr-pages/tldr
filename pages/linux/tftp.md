@@ -3,7 +3,7 @@
 > Trivial File Transfer Protocol client.
 > More information: <https://manned.org/tftp>.
 
-- Connect to a TFTP server specifying its IP address and port:
+- Connect to a TFTP server with an interactive shell, specifying its IP address and port:
 
 `tftp {{server_ip}} {{port}}`
 
@@ -15,18 +15,18 @@
 
 `tftp {{server_ip}} -6 -R {{port}}:{{port}}`
 
-- Set the transfer mode to binary or ASCII through the tftp client:
+- [Interactive] Set the transfer mode to binary or ASCII through the tftp client:
 
 `mode {{binary|ascii}}`
 
-- Download file from a server through the tftp client:
+- [Interactive] Download file from a server through the tftp client:
 
 `get {{file}}`
 
-- Upload file to a server through the tftp client:
+- [Interactive] Upload file to a server through the tftp client:
 
 `put {{file}}`
 
-- Exit the tftp client:
+- [Interactive] Exit the tftp client:
 
 `quit`
