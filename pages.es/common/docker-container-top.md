@@ -1,7 +1,12 @@
-# docker container top
+# docker top
 
-> Este comando es un alias de `docker top`.
+> Muestra los procesos que se están ejecutando en un contenedor.
+> Más información: <https://docs.docker.com/reference/cli/docker/container/top/>.
 
-- Vea la documentación del comando original:
+- Muestra los procesos que se están ejecutando en un contenedor:
 
-`tldr docker top`
+`docker top {{contenedor}}`
+
+- Muestra la ayuda:
+
+`docker top --help`
