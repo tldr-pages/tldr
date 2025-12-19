@@ -2,7 +2,7 @@
 
 > Manage virtual hosts (vhosts) in RabbitMQ.
 > Vhosts are used to separate multiple logical brokers on the same RabbitMQ server.
-> More information: <https://www.rabbitmq.com/vhosts.html>.
+> More information: <https://www.rabbitmq.com/docs/vhosts>.
 
 - List all virtual hosts:
 
