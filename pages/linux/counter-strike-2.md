@@ -15,6 +15,6 @@
 
 `{{path/to}}/cs2 -dedicated +map {{de_dust2}} -ip {{1.2.3.4}} -port {{27015}}`
 
-- Shut the server down:
+- [Interactive] Shut the server down:
 
 `quit`

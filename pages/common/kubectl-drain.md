@@ -2,7 +2,7 @@
 
 > Drain a node in preparation for maintenance by marking it unschedulable and evicting all pods.
 > See also: `kubectl cordon`, `kubectl uncordon`.
-> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_drain>.
+> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_drain/>.
 
 - Drain a node:
 

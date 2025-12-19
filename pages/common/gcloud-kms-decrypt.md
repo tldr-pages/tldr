@@ -2,7 +2,7 @@
 
 > Decrypt a ciphertext file using a Cloud KMS key.
 > See also: `gcloud`.
-> More information: <https://cloud.google.com/sdk/gcloud/reference/kms/decrypt>.
+> More information: <https://docs.cloud.google.com/sdk/gcloud/reference/kms/decrypt>.
 
 - Decrypt a file using a specified key, key ring, and location:
 

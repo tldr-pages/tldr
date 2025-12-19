@@ -19,7 +19,7 @@
 
 `read <<< "{{The surname is Bond}}" {{_ variable1 _ variable2}}`
 
-- Do not let backslash (\\) act as an escape character:
+- Do not let backslash (\) act as an escape character:
 
 `read -r {{variable}}`
 

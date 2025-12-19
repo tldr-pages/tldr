@@ -1,7 +1,7 @@
 # aws workmail
 
 > Manage Amazon WorkMail.
-> More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/workmail/index.html>.
+> More information: <https://docs.aws.amazon.com/cli/latest/reference/workmail/>.
 
 - List all WorkMail organizations:
 

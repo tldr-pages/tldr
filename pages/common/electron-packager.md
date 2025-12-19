@@ -2,7 +2,7 @@
 
 > Build Electron app executables for Windows, Linux, and macOS.
 > Requires a valid package.json in the application directory.
-> More information: <https://github.com/electron/electron-packager>.
+> More information: <https://github.com/electron/packager>.
 
 - Package an application for the current architecture and platform:
 

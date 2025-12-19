@@ -1,7 +1,7 @@
 # nvcc
 
 > The NVIDIA CUDA Compiler Driver.
-> More information: <https://docs.nvidia.com/cuda/cuda-compiler-driver-nvcc>.
+> More information: <https://docs.nvidia.com/cuda/cuda-compiler-driver-nvcc/>.
 
 - Compile a CUDA program:
 

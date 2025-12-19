@@ -2,7 +2,7 @@
 
 > Low level command to manage custom configuration options for dvc repositories.
 > These configurations can be on project, local, global, or system level.
-> More information: <https://dvc.org/doc/command-reference/config>.
+> More information: <https://doc.dvc.org/command-reference/config>.
 
 - Get the name of the default remote:
 

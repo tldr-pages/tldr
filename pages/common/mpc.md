@@ -2,7 +2,7 @@
 
 > Music Player Client: control the Music Player Daemon (MPD).
 > See also: `mpd`, `ncmpcpp`, `cmus`.
-> More information: <https://www.musicpd.org/doc/mpc/html>.
+> More information: <https://www.musicpd.org/doc/mpc/html/>.
 
 - Toggle play/pause:
 

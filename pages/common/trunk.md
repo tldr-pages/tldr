@@ -1,7 +1,7 @@
 # trunk
 
 > Bundle and serve Rust web apps with CI/CD pipelines.
-> More information: <https://docs.trunk.io/references/cli>.
+> More information: <https://docs.trunk.io/code-quality/overview>.
 
 - Start local/production server with hot reloading:
 

@@ -1,7 +1,7 @@
 # koji tag-build
 
 > Apply a tag to one or more builds.
-> More information: <https://docs.pagure.org/koji>.
+> More information: <https://docs.pagure.org/koji/>.
 
 - Apply a tag to one or more builds:
 

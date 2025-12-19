@@ -1,7 +1,7 @@
 # nxc wmi
 
 > Pentest and exploit the Windows Management Instrumentation (WMI).
-> More information: <https://www.netexec.wiki/wmi-protocol>.
+> More information: <https://www.netexec.wiki/wmi-protocol/password-spraying>.
 
 - Search for valid credentials by trying out every combination in the specified lists of usernames and passwords:
 

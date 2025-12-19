@@ -9,7 +9,7 @@
 
 - Une dos archivos utilizando una coma (en lugar de un espacio) como separador de campos:
 
-`join -t {{“,”}} {{ruta/al/archivo1}} {{ruta/al/archivo2}}`
+`join -t {{','}} {{ruta/al/archivo1}} {{ruta/al/archivo2}}`
 
 - Une el campo3 del archivo1 con el campo1 del archivo2:
 
