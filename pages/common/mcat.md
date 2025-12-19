@@ -29,4 +29,4 @@
 
 - Display content without paging:
 
-`mcat -P {{path/to/file}}`
+`mcat {{[-P|--paging never]}} {{path/to/file}}`
