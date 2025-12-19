@@ -2,7 +2,7 @@
 
 > Manage groups of computers remotely over SSH. (use the `/etc/ansible/hosts` file to add new groups/hosts).
 > Some subcommands such as `galaxy` have their own usage documentation.
-> More information: <https://docs.ansible.com/ansible/latest/cli/ansible.html>.
+> More information: <https://docs.ansible.com/projects/ansible/latest/cli/ansible.html>.
 
 - List hosts belonging to a group:
 
