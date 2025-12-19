@@ -1,7 +1,7 @@
 # ohdear-cli
 
 > An unofficial Oh Dear CLI written with Laravel Zero.
-> More information: <https://github.com/nunomaduro/ohdear-cli>.
+> More information: <https://github.com/ohdearapp/ohdear-cli>.
 
 - Display details about the currently authenticated user:
 
