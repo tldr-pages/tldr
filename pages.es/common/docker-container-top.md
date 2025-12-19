@@ -1,12 +1,12 @@
-# docker top
+# docker container top
 
-> Muestra los procesos que se están ejecutando en un contenedor.
+> Muestra los procesos en ejecución de un contenedor.
 > Más información: <https://docs.docker.com/reference/cli/docker/container/top/>.
 
-- Muestra los procesos que se están ejecutando en un contenedor:
+- Muestra los procesos en ejecución de un contenedor:
 
-`docker top {{contenedor}}`
+`docker {{[top|container top]}} {{contenedor}}`
 
 - Muestra la ayuda:
 
-`docker top --help`
+`docker {{[top|container top]}} --help`

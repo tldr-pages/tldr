@@ -1,7 +1,7 @@
 # mongoexport
 
 > Produce exports of data stored in a MongoDB instance formatted as JSON or CSV.
-> More information: <https://docs.mongodb.com/database-tools/mongoexport/>.
+> More information: <https://www.mongodb.com/docs/database-tools/mongoexport/>.
 
 - Export a collection to `stdout`, formatted as JSON:
 
