@@ -24,7 +24,7 @@
 
 `gofumpt -extra {{path/to/directory}}`
 
-- Display diffs with stricter rules:
+- Display [d]iffs with stricter rules:
 
 `gofumpt -extra -d {{path/to/directory}}`
 
