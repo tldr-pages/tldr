@@ -1,7 +1,7 @@
 # odpscmd resource
 
 > Manage resources in ODPS (Open Data Processing Service).
-> See also: `odps`.
+> See also: `odpscmd`.
 > More information: <https://www.alibabacloud.com/help/en/maxcompute/user-guide/maxcompute-client>.
 
 - [Interactive] Show resources in the current project:
