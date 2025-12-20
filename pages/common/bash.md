@@ -34,4 +34,4 @@
 
 - Start a [r]estricted shell session:
 
-`bash -r`
+`bash {{[-r|--restricted]}}`
