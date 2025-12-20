@@ -12,7 +12,7 @@
 
 `nix store optimise`
 
-- Delete a specific store path (most be unused):
+- Delete a specific store path (must be unused):
 
 `nix store delete /nix/store/{{checksum-package-version.ext}}`
 
