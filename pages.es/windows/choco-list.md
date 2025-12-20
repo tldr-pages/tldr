@@ -1,7 +1,7 @@
 # choco list
 
 > Muestra una lista de paquetes con Chocolatey.
-> Más información: <https://chocolatey.org/docs/commands-list>.
+> Más información: <https://docs.chocolatey.org/en-us/choco/commands/list/>.
 
 - Mostrar todos los paquetes disponibles:
 

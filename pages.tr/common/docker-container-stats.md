@@ -1,4 +1,4 @@
-# docker stats
+# docker container stats
 
 > Konteynerler için kaynak kullanım istatistiklerinin canlı yayınını görüntüle.
 > Daha fazla bilgi için: <https://docs.docker.com/reference/cli/docker/container/stats/>.

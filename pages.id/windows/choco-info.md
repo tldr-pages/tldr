@@ -1,7 +1,7 @@
 # choco info
 
 > Tampilkan informasi suatu paket piranti lunak secara terperinci dengan Chocolatey.
-> Informasi lebih lanjut: <https://chocolatey.org/docs/commands-info>.
+> Informasi lebih lanjut: <https://docs.chocolatey.org/en-us/choco/commands/info/>.
 
 - Tampilkan informasi mengenai suatu paket:
 

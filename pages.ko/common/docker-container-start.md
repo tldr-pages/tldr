@@ -1,4 +1,4 @@
-# docker start
+# docker container start
 
 > 중지된 컨테이너 시작.
 > 더 많은 정보: <https://docs.docker.com/reference/cli/docker/container/start/>.

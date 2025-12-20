@@ -1,7 +1,7 @@
 # sdelete
 
 > 디스크에서 파일/디렉토리를 안전하게 삭제하거나 볼륨/물리적 디스크의 사용 가능한 공간을 정리합니다.
-> 더 많은 정보: <https://learn.microsoft.com/en-us/sysinternals/downloads/sdelete>.
+> 더 많은 정보: <https://learn.microsoft.com/sysinternals/downloads/sdelete>.
 
 - 3회 덮어쓰기로 파일 삭제:
 

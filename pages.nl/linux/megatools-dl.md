@@ -2,7 +2,7 @@
 
 > Download bestanden van `mega.nz`.
 > Onderdeel van de `megatools` suite.
-> Meer informatie: <https://megatools.megous.com/man/megatools-dl.html>.
+> Meer informatie: <https://xff.cz/megatools/man/megatools-dl.html>.
 
 - Download bestanden van een `mega.nz` link naar de huidige map:
 

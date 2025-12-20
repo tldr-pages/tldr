@@ -1,7 +1,7 @@
 # doctl databases options
 
 > 각 데이터베이스 엔진에서 사용 가능한 옵션 탐색을 활성화.
-> 더 많은 정보: <https://docs.digitalocean.com/reference/doctl/reference/databases/options>.
+> 더 많은 정보: <https://docs.digitalocean.com/reference/doctl/reference/databases/options/>.
 
 - 액세스 토큰을 사용하여 `doctl databases options` 명령을 실행:
 

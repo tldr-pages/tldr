@@ -1,4 +1,4 @@
-# docker top
+# docker container top
 
 > Toon de lopende processen van een container.
 > Meer informatie: <https://docs.docker.com/reference/cli/docker/container/top/>.

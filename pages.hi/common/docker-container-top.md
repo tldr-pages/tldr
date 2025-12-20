@@ -1,6 +1,7 @@
 # docker container top
 
 > यह आदेश `docker top` का उपनाम है।
+> अधिक जानकारी: <https://docs.docker.com/reference/cli/docker/container/top/>।
 
 - मूल आदेश के लिए दस्तावेज़ देखें:
 

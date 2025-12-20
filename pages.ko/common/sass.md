@@ -1,7 +1,7 @@
 # sass
 
 > SCSS 또는 Sass 파일을 CSS로 변환.
-> 더 많은 정보: <https://sass-lang.com/documentation/cli/dart-sass>.
+> 더 많은 정보: <https://sass-lang.com/documentation/cli/dart-sass/>.
 
 - SCSS 또는 Sass 파일을 CSS로 변환하고 결과를 출력:
 

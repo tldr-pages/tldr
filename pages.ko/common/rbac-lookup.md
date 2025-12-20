@@ -1,7 +1,7 @@
 # rbac-lookup
 
 > Kubernetes 클러스터에서 사용자, 서비스 계정 또는 그룹 이름에 연결된 역할 및 클러스터 역할을 찾습니다.
-> 더 많은 정보: <https://github.com/reactiveops/rbac-lookup>.
+> 더 많은 정보: <https://github.com/FairwindsOps/rbac-lookup>.
 
 - 모든 RBAC 바인딩 보기:
 

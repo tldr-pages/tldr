@@ -2,7 +2,7 @@
 
 > Narzędzie wyszukiwania, podobne do `grep`, zoptymalizowane dla programistów.
 > Zobacz także: `rg`, który jest znacznie szybszy.
-> Więcej informacji: <https://beyondgrep.com/documentation>.
+> Więcej informacji: <https://beyondgrep.com/documentation/>.
 
 - Szukaj rekurencyjnie plików zawierających ciąg znaków lub wyrażenie regularne w bieżącym katalogu:
 

@@ -2,7 +2,7 @@
 
 > Un entorno de ejecución seguro para JavaScript, TypeScript y WebAssembly.
 > Incluye gestión de dependencias usando `npm` o `jsr` y herramientas como bench, bundle, doc y coverage.
-> Más información: <https://docs.deno.com/runtime/reference/cli>.
+> Más información: <https://docs.deno.com/runtime/reference/cli/>.
 
 - Inicia un REPL (shell interactivo, también conocido como Read-Eval-Print Loop):
 

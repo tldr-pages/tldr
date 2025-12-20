@@ -1,7 +1,7 @@
 # kubectl replace
 
 > 파일 또는 `stdin`을 통해 리소스를 교체.
-> 더 많은 정보: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_replace>.
+> 더 많은 정보: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_replace/>.
 
 - 리소스 정의 파일을 사용하여 리소스 교체:
 

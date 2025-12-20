@@ -1,4 +1,4 @@
-# docker images
+# docker image ls
 
 > Gérer les images Docker.
 > Plus d'informations : <https://docs.docker.com/reference/cli/docker/image/ls/>.

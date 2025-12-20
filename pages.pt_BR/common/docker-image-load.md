@@ -1,4 +1,4 @@
-# docker load
+# docker image load
 
 > Carregar imagens do Docker a partir de arquivos ou `stdin`.
 > Mais informações: <https://docs.docker.com/reference/cli/docker/image/load/>.

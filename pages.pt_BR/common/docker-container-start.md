@@ -1,4 +1,4 @@
-# docker start
+# docker container start
 
 > Inicia um ou mais containers parados.
 > Mais informações: <https://docs.docker.com/reference/cli/docker/container/start/>.

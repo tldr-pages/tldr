@@ -1,7 +1,7 @@
 # choco source
 
 > Chocolatey 패키지 소스 관리.
-> 더 많은 정보: <https://chocolatey.org/docs/commands-source>.
+> 더 많은 정보: <https://docs.chocolatey.org/en-us/choco/commands/source/>.
 
 - 현재 사용 가능한 소스 나열:
 

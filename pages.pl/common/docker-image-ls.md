@@ -1,4 +1,4 @@
-# docker images
+# docker image ls
 
 > Zarządzaj obrazami Dockera.
 > Więcej informacji: <https://docs.docker.com/reference/cli/docker/image/ls/>.

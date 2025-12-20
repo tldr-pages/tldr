@@ -1,7 +1,7 @@
 # openssl x509
 
 > X.509 인증서를 관리하기 위한 OpenSSL 명령어.
-> 더 많은 정보: <https://www.openssl.org/docs/manmaster/man1/openssl-x509.html>.
+> 더 많은 정보: <https://docs.openssl.org/master/man1/openssl-x509/>.
 
 - 인증서 정보 표시:
 

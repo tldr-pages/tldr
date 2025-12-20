@@ -1,6 +1,6 @@
 # lzcat
 
-> Эта команда — псевдоним для `xz --format=lzma --decompress --stdout`.
+> Эта команда — псевдоним для `xz --format lzma --decompress --stdout`.
 
 - Смотри документацию для оригинальной команды:
 

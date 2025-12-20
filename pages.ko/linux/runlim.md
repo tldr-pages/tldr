@@ -1,7 +1,7 @@
 # runlim
 
 > Linux의 proc 파일 시스템을 사용하여 프로그램 및 자식 프로세스의 시간 및 메모리 사용량을 샘플링하고 제한합니다.
-> 더 많은 정보: <https://fmv.jku.at/runlim>.
+> 더 많은 정보: <https://fmv.jku.at/runlim/>.
 
 - 명령의 시간 및 메모리 사용량 출력:
 

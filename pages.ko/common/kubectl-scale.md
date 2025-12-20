@@ -1,7 +1,7 @@
 # kubectl scale
 
 > 배포, 레플리카 세트, 복제 컨트롤러 또는 스테이트풀 세트의 크기를 조정.
-> 더 많은 정보: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_scale>.
+> 더 많은 정보: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_scale/>.
 
 - 레플리카 세트 크기 조정:
 

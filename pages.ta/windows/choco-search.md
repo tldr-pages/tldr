@@ -1,7 +1,7 @@
 # choco search
 
 > சாக்லேட்டியுடன் உள்ளூர் அல்லது தொலைநிலைப் பொதியைத் தேடுங்கள்.
-> மேலும் விவரத்திற்கு: <https://chocolatey.org/docs/commands-search>.
+> மேலும் விவரத்திற்கு: <https://docs.chocolatey.org/en-us/choco/commands/search/>.
 
 - ஒரு தொகுப்பைத் தேடுங்கள்:
 

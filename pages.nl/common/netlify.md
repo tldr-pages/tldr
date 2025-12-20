@@ -1,7 +1,7 @@
 # netlify
 
 > Rol sites uit en configureer continuous deployment voor het Netlify platform.
-> Meer informatie: <https://cli.netlify.com>.
+> Meer informatie: <https://cli.netlify.com/>.
 
 - Log in bij het Netlify account:
 

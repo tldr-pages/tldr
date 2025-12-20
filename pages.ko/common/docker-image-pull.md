@@ -1,4 +1,4 @@
-# docker pull
+# docker image pull
 
 > Docker 이미지를 레지스트리에서 다운로드.
 > 더 많은 정보: <https://docs.docker.com/reference/cli/docker/image/pull/>.

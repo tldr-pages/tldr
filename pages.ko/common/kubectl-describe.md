@@ -1,7 +1,7 @@
 # kubectl describe
 
 > Kubernetes 객체 및 리소스의 세부 정보 표시.
-> 더 많은 정보: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_describe>.
+> 더 많은 정보: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_describe/>.
 
 - [n]amespace의 포드 세부 정보 표시:
 

@@ -1,7 +1,7 @@
 # grim
 
 > Obtiene imágenes (capturas de pantalla) de un compositor Wayland.
-> Más información: <https://sr.ht/~emersion/grim>.
+> Más información: <https://sr.ht/~emersion/grim/>.
 
 - Hace una captura de pantalla:
 

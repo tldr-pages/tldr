@@ -1,4 +1,4 @@
-# docker exec
+# docker container exec
 
 > Halihazırda çalışan bir Docker konteyneri üstünde komut çalıştır.
 > Daha fazla bilgi için: <https://docs.docker.com/reference/cli/docker/container/exec/>.

@@ -2,7 +2,7 @@
 
 > Kubernetes 리소스를 정의하는 파일을 통해 애플리케이션을 관리하세요.
 > 클러스터에서 리소스를 생성하고 업데이트하세요.
-> 더 많은 정보: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_apply>.
+> 더 많은 정보: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_apply/>.
 
 - 파일 이름이나 `stdin`으로 리소스에 설정 적용:
 

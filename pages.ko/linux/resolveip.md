@@ -1,7 +1,7 @@
 # resolveip
 
 > 호스트명을 IP 주소로, IP 주소를 호스트명으로 변환.
-> 더 많은 정보: <https://mariadb.com/kb/en/resolveip/>.
+> 더 많은 정보: <https://mariadb.com/docs/server/clients-and-utilities/networking-tools/resolveip>.
 
 - 호스트명을 IP 주소로 변환:
 

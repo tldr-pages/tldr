@@ -1,4 +1,4 @@
-# docker load
+# docker image load
 
 > 파일 또는 `stdin`에서 Docker 이미지를 로드합니다.
 > 더 많은 정보: <https://docs.docker.com/reference/cli/docker/image/load/>.

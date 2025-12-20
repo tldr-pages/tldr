@@ -1,7 +1,7 @@
 # kubectl run
 
 > Pods in Kubernetes ausführen. Gibt den Pod-Generator an, um einen deprecation Fehler in einigen Kubernetes Versionen zu vermeiden.
-> Weitere Informationen: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_run>.
+> Weitere Informationen: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_run/>.
 
 - Starte einen nginx-Pod und gib Port 80 frei:
 

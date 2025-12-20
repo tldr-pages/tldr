@@ -1,7 +1,7 @@
 # gifsicle
 
 > GIF 파일에 대한 정보를 생성, 편집, 조작 및 가져옴.
-> 더 많은 정보: <https://www.lcdf.org/gifsicle>.
+> 더 많은 정보: <https://www.lcdf.org/gifsicle/>.
 
 - GIF를 새로운 파일로 최적화:
 

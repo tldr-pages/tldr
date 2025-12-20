@@ -1,4 +1,4 @@
-# docker run
+# docker container run
 
 > 创建一个新的容器并运行命令。
 > 更多信息：<https://docs.docker.com/reference/cli/docker/container/run/>。

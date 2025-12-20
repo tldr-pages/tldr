@@ -1,7 +1,7 @@
 # aws s3 cp
 
 > 로컬 파일 또는 S3 객체를 로컬로 또는 S3의 다른 위치로 복사.
-> 더 많은 정보: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/cp.html>.
+> 더 많은 정보: <https://docs.aws.amazon.com/cli/latest/reference/s3/cp.html>.
 
 - 로컬에서 특정 버킷으로 파일 복사:
 

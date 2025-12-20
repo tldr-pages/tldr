@@ -1,4 +1,4 @@
-# docker stats
+# docker container stats
 
 > 컨테이너의 리소스 사용 통계를 실시간 스트림으로 표시.
 > 더 많은 정보: <https://docs.docker.com/reference/cli/docker/container/stats/>.

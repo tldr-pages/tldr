@@ -1,7 +1,7 @@
 # laravel-zero
 
 > Laravel Zero 프레임워크를 위한 명령줄 설치 도구.
-> 더 많은 정보: <https://laravel-zero.com>.
+> 더 많은 정보: <https://laravel-zero.com/>.
 
 - 새 Laravel Zero 애플리케이션 생성:
 

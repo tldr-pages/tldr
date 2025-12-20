@@ -1,7 +1,7 @@
 # psgrep
 
 > 실행 중인 프로세스를 `grep`으로 검색.
-> 더 많은 정보: <https://jvz.github.io/psgrep>.
+> 더 많은 정보: <https://jvz.github.io/psgrep/>.
 
 - 특정 문자열이 포함된 프로세스 라인 찾기:
 

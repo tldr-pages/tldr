@@ -1,7 +1,7 @@
 # choco feature
 
 > Zarządzanie dostępnymi funkcjani Chocolatey.
-> Więcej informacji: <https://chocolatey.org/docs/commands-feature>.
+> Więcej informacji: <https://docs.chocolatey.org/en-us/choco/commands/feature/>.
 
 - Wyświetlanie listy dostępnych funkcji:
 

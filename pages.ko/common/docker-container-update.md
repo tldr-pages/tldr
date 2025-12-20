@@ -1,4 +1,4 @@
-# docker update
+# docker container update
 
 > Docker 컨테이너의 구성 업데이트.
 > 이 명령은 Windows 컨테이너에서는 지원되지 않습니다.

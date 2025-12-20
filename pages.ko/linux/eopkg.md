@@ -1,7 +1,7 @@
 # eopkg
 
 > Solus용 패키지 관리 도구.
-> 더 많은 정보: <https://help.getsol.us/docs/user/package-management/basics>.
+> 더 많은 정보: <https://help.getsol.us/docs/user/package-management/basics/>.
 
 - 특정 패키지 설치:
 

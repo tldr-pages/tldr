@@ -2,7 +2,7 @@
 
 > 명령줄 텍스트 편집기.
 > 참고: `vim`.
-> 더 많은 정보: <https://www.vim.org>.
+> 더 많은 정보: <https://www.vim.org/>.
 
 - 파일 열기:
 

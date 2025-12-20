@@ -2,7 +2,7 @@
 
 > Rust 컴파일러.
 > Rust 프로젝트는 보통 `rustc`를 직접 호출하는 대신 `cargo`를 사용합니다.
-> 더 많은 정보: <https://doc.rust-lang.org/rustc>.
+> 더 많은 정보: <https://doc.rust-lang.org/stable/rustc/>.
 
 - 바이너리 크레이트 컴파일:
 

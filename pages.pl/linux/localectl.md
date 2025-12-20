@@ -1,7 +1,7 @@
 # localectl
 
 > Kontroluj ustawienia regionalne i układ klawiatury systemu.
-> Więcej informacji: <https://www.freedesktop.org/software/systemd/man/localectl.html>.
+> Więcej informacji: <https://www.freedesktop.org/software/systemd/man/latest/localectl.html>.
 
 - Wyświetl aktualne ustawienia regionalne systemu i układu klawiatury:
 

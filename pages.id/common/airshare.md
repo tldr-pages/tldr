@@ -1,7 +1,7 @@
 # airshare
 
 > Pindahkan data antara dua perangkat dalam jaringan lokal yang sama.
-> Informasi lebih lanjut: <https://airshare.rtfd.io/en/latest/cli.html>.
+> Informasi lebih lanjut: <https://airshare.readthedocs.io/en/latest/cli.html>.
 
 - Kirim kumpulan file atau direktori:
 

@@ -1,4 +1,4 @@
-# docker save
+# docker image save
 
 > Bir veya daha fazla Docker imgesini arşivlemek için dışa aktar.
 > Daha fazla bilgi için: <https://docs.docker.com/reference/cli/docker/image/save/>.

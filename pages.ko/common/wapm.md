@@ -1,7 +1,7 @@
 # wapm
 
 > WebAssembly 패키지 관리자.
-> 더 많은 정보: <https://wapm.io/help/reference>.
+> 더 많은 정보: <https://wasmer.io/help/reference>.
 
 - 상호 작용 방식으로 새로운 `wapm.toml` 파일 생성:
 

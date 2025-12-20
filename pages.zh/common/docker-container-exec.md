@@ -1,4 +1,4 @@
-# docker exec
+# docker container exec
 
 > 在一个正在运行的 Docker 容器内部，执行一个命令。
 > 更多信息：<https://docs.docker.com/reference/cli/docker/container/exec/>。

@@ -1,4 +1,4 @@
-# docker diff
+# docker container diff
 
 > Inspecteer wijzigingen in bestanden of mappen op het bestandssysteem van een container.
 > Meer informatie: <https://docs.docker.com/reference/cli/docker/container/diff/>.

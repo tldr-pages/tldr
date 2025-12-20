@@ -1,7 +1,7 @@
 # aws rds
 
 > 관계형 데이터베이스를 설정, 운영 및 확장하기 위한 웹 서비스인 AWS Relational Database Service를 사용.
-> 더 많은 정보: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/rds/index.html>.
+> 더 많은 정보: <https://docs.aws.amazon.com/cli/latest/reference/rds/>.
 
 - 특정 RDS 하위 명령어에 대한 도움말을 표시:
 

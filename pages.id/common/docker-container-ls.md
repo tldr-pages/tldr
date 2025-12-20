@@ -1,4 +1,4 @@
-# docker ps
+# docker container ls
 
 > Tampilkan daftar kontainer Docker.
 > Informasi lebih lanjut: <https://docs.docker.com/reference/cli/docker/container/ls/>.

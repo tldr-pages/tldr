@@ -1,7 +1,7 @@
 # netlify
 
 > Despliegue de sitios y configuración del despliegue continuo en la plataforma de Netlify.
-> Más información: <https://cli.netlify.com>.
+> Más información: <https://cli.netlify.com/>.
 
 - Accede a la cuenta Netlify:
 

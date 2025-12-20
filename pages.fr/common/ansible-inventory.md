@@ -2,7 +2,7 @@
 
 > Display or dump an Ansible inventory.
 > Voir aussi : `ansible`.
-> Plus d'informations : <https://docs.ansible.com/ansible/latest/cli/ansible-inventory.html>.
+> Plus d'informations : <https://docs.ansible.com/projects/ansible/latest/cli/ansible-inventory.html>.
 
 - Affiche l'inventaire par défaut :
 

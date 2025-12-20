@@ -1,4 +1,4 @@
-# docker run
+# docker container run
 
 > Executa um comando em um novo container Docker.
 > Mais informações: <https://docs.docker.com/reference/cli/docker/container/run/>.

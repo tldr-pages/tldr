@@ -1,7 +1,7 @@
 # choco list
 
 > चॉकलेट के साथ पैकेजों की सूची प्रदर्शित करें।
-> अधिक जानकारी: <https://chocolatey.org/docs/commands-list>।
+> अधिक जानकारी: <https://docs.chocolatey.org/en-us/choco/commands/list/>।
 
 - सभी उपलब्ध पैकेज प्रदर्शित करें:
 

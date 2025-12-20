@@ -1,4 +1,4 @@
-# docker cp
+# docker container cp
 
 > Copier des fichiers ou des répertoires entre les systèmes de fichiers hôte et conteneur.
 > Plus d'informations : <https://docs.docker.com/reference/cli/docker/container/cp/>.

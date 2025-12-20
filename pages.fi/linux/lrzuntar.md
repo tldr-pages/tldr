@@ -1,6 +1,6 @@
 # lrzuntar
 
-> Tämä on alias komennolle `lrztar -d`.
+> Tämä on alias komennolle `lrztar --decompress`.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

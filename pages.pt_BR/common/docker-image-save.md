@@ -1,4 +1,4 @@
-# docker save
+# docker image save
 
 > Exportar uma ou mais imagens do Docker para um arquivo de arquivamento.
 > Mais informações: <https://docs.docker.com/reference/cli/docker/image/save/>.

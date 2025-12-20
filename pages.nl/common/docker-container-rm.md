@@ -1,4 +1,4 @@
-# docker rm
+# docker container rm
 
 > Verwijder een of meer containers.
 > Meer informatie: <https://docs.docker.com/reference/cli/docker/container/rm/>.

@@ -1,4 +1,4 @@
-# docker logs
+# docker container logs
 
 > Zeige Container Logs.
 > Weitere Informationen: <https://docs.docker.com/reference/cli/docker/container/logs/>.

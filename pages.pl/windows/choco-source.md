@@ -1,7 +1,7 @@
 # choco source
 
 > Zarządzaj źródłami/repozytoriami pakietów Chocolatey.
-> Więcej informacji: <https://chocolatey.org/docs/commands-source>.
+> Więcej informacji: <https://docs.chocolatey.org/en-us/choco/commands/source/>.
 
 - Wyświetl aktualnie dostępne źródła:
 

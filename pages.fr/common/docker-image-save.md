@@ -1,4 +1,4 @@
-# docker save
+# docker image save
 
 > Exporeter une ou plusieurs images Docker dans une archive.
 > Plus d'informations : <https://docs.docker.com/reference/cli/docker/image/save/>.

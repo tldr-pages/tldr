@@ -1,4 +1,4 @@
-# docker stats
+# docker container stats
 
 > Zeige den Ressourcen-Verbrauch von Containern in Echtzeit.
 > Weitere Informationen: <https://docs.docker.com/reference/cli/docker/container/stats/>.

@@ -1,4 +1,4 @@
-# docker save
+# docker image save
 
 > Exportiere eines oder mehrere Docker Images in ein Archiv.
 > Weitere Informationen: <https://docs.docker.com/reference/cli/docker/image/save/>.

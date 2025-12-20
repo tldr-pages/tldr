@@ -1,7 +1,7 @@
 # q
 
 > CSV 및 TSV 파일에서 SQL 유사 쿼리 실행.
-> 더 많은 정보: <https://harelba.github.io/q>.
+> 더 많은 정보: <https://harelba.github.io/q/>.
 
 - 구분 기호를 ','로 지정하여 CSV 파일 쿼리:
 

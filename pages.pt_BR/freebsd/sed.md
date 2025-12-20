@@ -2,7 +2,7 @@
 
 > Edita texto de uma maneira programável.
 > Veja também: `awk`, `ed`.
-> Mais informações: <https://www.freebsd.org/cgi/man.cgi?sed>.
+> Mais informações: <https://man.freebsd.org/cgi/man.cgi?sed>.
 
 - Substitui todas as ocorrências de `maçã` (regex básico) por `manga` (regex básico) em todas as linhas de entrada e imprime o resultado para `stdout`:
 

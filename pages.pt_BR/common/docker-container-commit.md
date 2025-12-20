@@ -1,4 +1,4 @@
-# docker commit
+# docker container commit
 
 > Criar uma nova imagem a partir das alterações em um contêiner.
 > Mais informações: <https://docs.docker.com/reference/cli/docker/container/commit/>.

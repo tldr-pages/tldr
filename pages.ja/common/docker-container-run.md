@@ -1,4 +1,4 @@
-# docker run
+# docker container run
 
 > 新しいDockerコンテナでコマンドを実行します。
 > もっと詳しく: <https://docs.docker.com/reference/cli/docker/container/run/>。

@@ -1,4 +1,4 @@
-# docker ps
+# docker container ls
 
 > Liste Docker Container.
 > Weitere Informationen: <https://docs.docker.com/reference/cli/docker/container/ls/>.

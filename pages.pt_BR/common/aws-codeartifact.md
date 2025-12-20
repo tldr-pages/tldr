@@ -2,7 +2,7 @@
 
 > Gerencia repositórios, domínios, pacotes, versões de pacotes e ativos do CodeArtifact.
 > O CodeArtifact é um repositório de artefatos compatível com gerenciadores de pacotes populares e ferramentas de construção como Maven, Gradle, npm, Yarn, Twine, pip, NuGet e SwiftPM.
-> Mais informações: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/codeartifact/index.html>.
+> Mais informações: <https://docs.aws.amazon.com/cli/latest/reference/codeartifact/>.
 
 - Lista domínios disponíveis para a sua conta da AWS:
 

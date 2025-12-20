@@ -2,7 +2,7 @@
 
 > Controla `polybar` utilizando mensajería entre procesos (IPC).
 > Nota: IPC está desactivado por defecto y se puede habilitar configurando `enable-ipc = true` en la configuación de Polybar.
-> Más información: <https://polybar.rtfd.io/en/stable/user/ipc.html>.
+> Más información: <https://polybar.readthedocs.io/en/stable/user/ipc.html>.
 
 - Cierra la barra:
 
