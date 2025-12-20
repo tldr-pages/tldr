@@ -2,7 +2,7 @@
 
 > Esporta app/servizio/binario dal container all'OS host.
 > Vedi anche: `distrobox`.
-> Maggiori informazioni: <https://distrobox.it/usage/distrobox-export>.
+> Maggiori informazioni: <https://distrobox.it/usage/distrobox-export/>.
 
 - Esporta un'app dal container all'host (la voce desktop/icona apparirà nell'elenco delle applicazioni del tuo sistema host):
 

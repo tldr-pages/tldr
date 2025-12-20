@@ -2,7 +2,7 @@
 
 > Manage different configurations of `gcloud`.
 > See also: `gcloud`.
-> More information: <https://cloud.google.com/sdk/gcloud/reference/config>.
+> More information: <https://docs.cloud.google.com/sdk/gcloud/reference/config>.
 
 - Define a property (like compute/zone) for the current configuration:
 

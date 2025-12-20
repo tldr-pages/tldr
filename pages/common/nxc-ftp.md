@@ -1,7 +1,7 @@
 # nxc ftp
 
 > Pentest and exploit FTP servers.
-> More information: <https://www.netexec.wiki/ftp-protocol>.
+> More information: <https://www.netexec.wiki/ftp-protocol/password-spraying>.
 
 - Search for valid credentials by trying out every combination in the specified lists of usernames and passwords:
 

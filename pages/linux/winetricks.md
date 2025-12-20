@@ -1,7 +1,7 @@
 # winetricks
 
 > Manage Wine virtual Windows environments.
-> More information: <https://wiki.winehq.org/Winetricks>.
+> More information: <https://gitlab.winehq.org/wine/wine/-/wikis/Winetricks>.
 
 - Start a graphical setup at the default Wine location:
 

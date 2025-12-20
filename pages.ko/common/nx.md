@@ -1,7 +1,7 @@
 # nx
 
 > `nx` 작업 공간 관리 도구.
-> 더 많은 정보: <https://nx.dev/l/r/getting-started/nx-cli>.
+> 더 많은 정보: <https://nx.dev/docs/reference/nx-commands>.
 
 - 특정 프로젝트 빌드:
 

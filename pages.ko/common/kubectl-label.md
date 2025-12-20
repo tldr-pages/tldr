@@ -1,7 +1,7 @@
 # kubectl label
 
 > Kubernetes 리소스에 레이블 지정.
-> 더 많은 정보: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_label>.
+> 더 많은 정보: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_label/>.
 
 - 포드에 레이블 지정:
 

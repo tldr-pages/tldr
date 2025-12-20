@@ -2,7 +2,7 @@
 
 > Analyze and debug system manager.
 > Show timing details about the boot process of units (services, mount points, devices, sockets).
-> More information: <https://www.freedesktop.org/software/systemd/man/systemd-analyze.html>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemd-analyze.html>.
 
 - Print the last system startup time:
 

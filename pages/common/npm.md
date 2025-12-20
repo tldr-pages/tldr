@@ -2,7 +2,7 @@
 
 > JavaScript and Node.js package manager.
 > Manage Node.js projects and their module dependencies.
-> More information: <https://docs.npmjs.com/cli/npm>.
+> More information: <https://docs.npmjs.com/cli/npm/>.
 
 - Create a `package.json` file with default values (omit `--yes` to do it interactively):
 

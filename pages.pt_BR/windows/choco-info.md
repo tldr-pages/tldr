@@ -1,7 +1,7 @@
 # choco info
 
 > Exibir informações detalhadas de um pacote com Chocolatey.
-> Mais informações: <https://chocolatey.org/docs/commands-info>.
+> Mais informações: <https://docs.chocolatey.org/en-us/choco/commands/info/>.
 
 - Exibe informações sobre um pacote específico:
 

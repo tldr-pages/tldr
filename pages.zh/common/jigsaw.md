@@ -1,7 +1,7 @@
 # jigsaw
 
 > 基于 Laravel 的 PHP 静态网站生成器。
-> 更多信息：<https://jigsaw.tighten.co>。
+> 更多信息：<https://jigsaw.tighten.co/>。
 
 - 初始化一个项目：
 

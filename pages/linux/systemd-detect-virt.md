@@ -1,7 +1,7 @@
 # systemd-detect-virt
 
 > Detect execution in a virtualized environment.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemd-detect-virt.html>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemd-detect-virt.html>.
 
 - List detectable virtualization technologies:
 

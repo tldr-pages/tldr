@@ -2,7 +2,7 @@
 
 > 매우 빠른 Python 코드 포매터.
 > 파일이나 디렉토리가 지정되지 않으면 기본적으로 현재 작업 디렉토리가 사용됩니다.
-> 더 많은 정보: <https://docs.astral.sh/ruff/formatter>.
+> 더 많은 정보: <https://docs.astral.sh/ruff/formatter/>.
 
 - 지정된 파일이나 디렉토리를 직접 포맷:
 

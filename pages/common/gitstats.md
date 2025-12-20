@@ -1,7 +1,7 @@
 # gitstats
 
 > Git repository statistics generator.
-> More information: <https://gitstats.readthedocs.io/en/latest/usage.html>.
+> More information: <https://gitstats.readthedocs.io/en/stable/getting-started.html#command-line-usage>.
 
 - Generate statistics for a local repository:
 

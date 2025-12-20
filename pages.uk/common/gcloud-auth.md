@@ -2,7 +2,7 @@
 
 > Видача та скасування авторизації для `gcloud` і керування обліковими даними.
 > Дивіться також: `gcloud`.
-> Більше інформації: <https://cloud.google.com/sdk/gcloud/reference/auth>.
+> Більше інформації: <https://docs.cloud.google.com/sdk/gcloud/reference/auth>.
 
 - Авторизувати доступ до Google Cloud для `gcloud` CLI за допомогою облікових даних користувача Google Cloud і встановити поточний обліковий запис як активний:
 

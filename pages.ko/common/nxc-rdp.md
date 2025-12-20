@@ -1,7 +1,7 @@
 # nxc rdp
 
 > RDP 서버의 펜테스트 및 익스플로잇.
-> 더 많은 정보: <https://www.netexec.wiki/rdp-protocol>.
+> 더 많은 정보: <https://www.netexec.wiki/rdp-protocol/password-spraying>.
 
 - 지정된 [u]사용자명 및 [p]비밀번호 목록의 모든 조합을 시도하여 유효한 자격 증명 검색:
 

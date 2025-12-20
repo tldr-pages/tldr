@@ -1,7 +1,7 @@
 # Palworld
 
 > Create and start a headless Palworld server.
-> More information: <https://docs.palworldgame.com/settings-and-operation/arguments>.
+> More information: <https://docs.palworldgame.com/settings-and-operation/arguments/>.
 
 - Start the server with default settings:
 

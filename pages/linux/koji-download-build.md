@@ -1,7 +1,7 @@
 # koji download-build
 
 > Download a built package.
-> More information: <https://docs.pagure.org/koji>.
+> More information: <https://docs.pagure.org/koji/>.
 
 - Download all RPMs from a specific build:
 

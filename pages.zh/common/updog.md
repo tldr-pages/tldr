@@ -1,6 +1,6 @@
 # updog
 
-> Python {{SimpleHTTPServer}} 的替代方案。
+> Python SimpleHTTPServer 的替代方案。
 > 它允许通过 HTTP/S 上传和下载，可以设置临时 SSL 证书，并使用 HTTP 基本认证。
 > 更多信息：<https://github.com/sc0tfree/updog>。
 

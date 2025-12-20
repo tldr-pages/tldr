@@ -1,7 +1,7 @@
 # ripmime
 
 > MIME 인코딩된 이메일 패키지에서 첨부 파일 추출.
-> 더 많은 정보: <https://pldaniels.com/ripmime>.
+> 더 많은 정보: <https://pldaniels.com/ripmime/>.
 
 - 현재 디렉토리에 파일 내용 추출:
 

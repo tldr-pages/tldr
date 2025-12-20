@@ -2,7 +2,7 @@
 
 > An extremely fast Python linter. `check` is the default command - it can be omitted everywhere.
 > If no files or directories are specified, the current working directory is used by default.
-> More information: <https://docs.astral.sh/ruff/linter>.
+> More information: <https://docs.astral.sh/ruff/linter/>.
 
 - Run the linter on the given files or directories:
 

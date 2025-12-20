@@ -1,7 +1,7 @@
 # bw
 
 > Bitwarden 보관함에 접속과 관리를 위한 CLI.
-> 더 많은 정보: <https://help.bitwarden.com/article/cli/>.
+> 더 많은 정보: <https://bitwarden.com/help/cli/>.
 
 - Bitwarden 사용자 계정 로그인:
 

@@ -1,7 +1,7 @@
 # ogrinfo
 
 > OGR 지원 데이터 소스에 대한 정보를 나열합니다.
-> 더 많은 정보: <https://gdal.org/programs/ogrinfo.html>.
+> 더 많은 정보: <https://gdal.org/en/stable/programs/ogrinfo.html>.
 
 - 지원되는 형식 나열:
 

@@ -1,7 +1,7 @@
 # gdalinfo
 
 > GDAL 지원 래스터 데이터세트에 대한 다양한 정보를 나열.
-> 더 많은 정보: <https://gdal.org/programs/gdalinfo.html>.
+> 더 많은 정보: <https://gdal.org/en/stable/programs/gdalinfo.html>.
 
 - 지원하는 래스터 포맷 나열:
 

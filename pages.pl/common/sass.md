@@ -1,7 +1,7 @@
 # sass
 
 > Konwertuje pliki SCSS lub Sass na CSS.
-> Więcej informacji: <https://sass-lang.com/documentation/cli/dart-sass>.
+> Więcej informacji: <https://sass-lang.com/documentation/cli/dart-sass/>.
 
 - Konwertuj plik SCSS lub Sass do CSS i wypisz wynik:
 

@@ -2,7 +2,7 @@
 
 > Scan for known vulnerabilities in project dependencies.
 > Reports vulnerabilities and suggests remediation.
-> More information: <https://docs.npmjs.com/cli/npm-audit>.
+> More information: <https://docs.npmjs.com/cli/npm-audit/>.
 
 - Scan the project's dependencies for known vulnerabilities:
 

@@ -1,7 +1,7 @@
 # scala
 
 > Scala application launcher and interactive interpreter.
-> More information: <https://scala-cli.virtuslab.org/docs/reference/cli-options>.
+> More information: <https://scala-cli.virtuslab.org/docs/reference/cli-options/>.
 
 - Start a REPL (interactive shell):
 

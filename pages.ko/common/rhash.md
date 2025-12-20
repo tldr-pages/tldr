@@ -1,7 +1,7 @@
 # rhash
 
 > 일반적인 메시지 다이제스트를 계산하거나 확인.
-> 더 많은 정보: <https://rhash.sourceforge.net/manpage.php>.
+> 더 많은 정보: <https://rhash.sourceforge.io/manpage.php>.
 
 - 파일의 기본 CRC32 다이제스트 계산:
 

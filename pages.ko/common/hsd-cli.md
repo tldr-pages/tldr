@@ -1,7 +1,7 @@
 # hsd-cli
 
 > Handshake 블록체인용 커멘드 라인 REST 도구.
-> 더 많은 정보: <https://handshake.org>.
+> 더 많은 정보: <https://handshake.org/>.
 
 - 현재 서버에 대한 정보 검색:
 

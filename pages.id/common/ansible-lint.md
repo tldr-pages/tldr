@@ -1,7 +1,7 @@
 # ansible-lint
 
 > Terapkan aturan dan rekomendasi praktik terbaik terhadap konten otomasi Anda.
-> Informasi lebih lanjut: <https://ansible.readthedocs.io/projects/lint/>.
+> Informasi lebih lanjut: <https://docs.ansible.com/projects/lint/>.
 
 - Terapkan terhadap suatu playbook dan direktori peran:
 

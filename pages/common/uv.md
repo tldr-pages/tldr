@@ -2,7 +2,7 @@
 
 > A fast Python package and project manager.
 > Some subcommands such as `tool` and `python` have their own usage documentation.
-> More information: <https://docs.astral.sh/uv/reference/cli>.
+> More information: <https://docs.astral.sh/uv/reference/cli/>.
 
 - Create a new Python project in the current directory:
 

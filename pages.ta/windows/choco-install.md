@@ -1,7 +1,7 @@
 # choco install
 
 > சாக்லேட்டியுடன் ஒன்று அல்லது அதற்கு மேற்பட்ட தொகுப்புகளை நிறுவவும்.
-> மேலும் விவரத்திற்கு: <https://chocolatey.org/docs/commands-install>.
+> மேலும் விவரத்திற்கு: <https://docs.chocolatey.org/en-us/choco/commands/install/>.
 
 - ஒன்று அல்லது அதற்கு மேற்பட்ட இடம் பிரிக்கப்பட்ட தொகுப்புகளை நிறுவவும்:
 

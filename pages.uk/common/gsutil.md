@@ -2,7 +2,7 @@
 
 > Доступ до Google Cloud Storage.
 > Ви можете використовувати `gsutil` для виконання широкого діапазону завдань із керування контейнерами (buckets) та об’єктами.
-> Більше інформації: <https://cloud.google.com/storage/docs/gsutil>.
+> Більше інформації: <https://docs.cloud.google.com/storage/docs/gsutil>.
 
 - Вивести всі контейнери (buckets) в проекті, до якого ви ввійшли:
 

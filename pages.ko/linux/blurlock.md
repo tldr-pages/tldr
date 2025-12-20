@@ -2,7 +2,7 @@
 
 > 화면 잠금 도구 `i3lock`의 단순 래퍼로, 화면을 흐리게 처리합니다.
 > 같이 보기: `i3lock`.
-> 더 많은 정보: <https://gitlab.manjaro.org/packages/community/i3/i3exit/-/blob/master/blurlock>.
+> 더 많은 정보: <https://gitlab.manjaro.org/packages/extra/i3exit/-/blob/master/blurlock>.
 
 - 현재 화면의 흐려진 스크린샷으로 화면 잠금:
 

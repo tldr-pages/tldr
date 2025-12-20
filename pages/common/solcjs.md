@@ -1,7 +1,7 @@
 # solcjs
 
 > A set of JavaScript bindings for the Solidity compiler.
-> More information: <https://github.com/ethereum/solc-js>.
+> More information: <https://github.com/argotorg/solc-js>.
 
 - Compile a specific contract to hex:
 

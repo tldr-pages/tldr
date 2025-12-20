@@ -2,7 +2,7 @@
 
 > Manage applications through files defining Kubernetes resources.
 > Create and update resources in a cluster.
-> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_apply>.
+> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_apply/>.
 
 - Apply a configuration to a resource by file name:
 

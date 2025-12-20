@@ -1,7 +1,7 @@
 # systemd-run
 
 > Uruchamiaj programy w przejściowych jednostkach zakresu, jednostkach usługowych lub jednostkach usługowych uruchamianych przez ścieżkę, gniazdo lub timer.
-> Więcej informacji: <https://www.freedesktop.org/software/systemd/man/systemd-run.html>.
+> Więcej informacji: <https://www.freedesktop.org/software/systemd/man/latest/systemd-run.html>.
 
 - Uruchom przejściową usługę:
 

@@ -1,7 +1,7 @@
 # systemctl
 
 > Kontroluj systemd i menedżera usług.
-> Więcej informacji: <https://www.freedesktop.org/software/systemd/man/systemctl.html>.
+> Więcej informacji: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html>.
 
 - Wyświetl wszystkie działające usługi:
 

@@ -1,7 +1,7 @@
 # choco source
 
 > 使用 Chocolatey 管理包的源。
-> 更多信息：<https://chocolatey.org/docs/commands-source>。
+> 更多信息：<https://docs.chocolatey.org/en-us/choco/commands/source/>。
 
 - 列出当前可用的源：
 

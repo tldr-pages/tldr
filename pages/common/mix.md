@@ -1,7 +1,7 @@
 # mix
 
 > Build tool that provides tasks for creating, compiling, and testing Elixir projects, managing its dependencies, and more.
-> More information: <https://hexdocs.pm/mix>.
+> More information: <https://hexdocs.pm/mix/index.html>.
 
 - Execute a particular file:
 

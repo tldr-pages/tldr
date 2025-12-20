@@ -1,7 +1,7 @@
 # setfile
 
 > Set file attributes on files in an HFS+ directory.
-> More information: <https://ss64.com/osx/setfile.html>.
+> More information: <https://ss64.com/mac/setfile.html>.
 
 - Set creation date for specific files:
 

@@ -2,7 +2,7 @@
 
 > Gestion d'un projet Rust et ses dependences (crates).
 > Certaines sous-commandes comme `build` ont leurs propres documentations.
-> Plus d'informations : <https://doc.rust-lang.org/cargo>.
+> Plus d'informations : <https://doc.rust-lang.org/stable/cargo/>.
 
 - Rechercher des crates :
 

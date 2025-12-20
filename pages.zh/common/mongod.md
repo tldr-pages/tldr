@@ -1,7 +1,7 @@
 # mongod
 
 > MongoDB 数据库服务器。
-> 更多信息：<https://docs.mongodb.com/manual/reference/program/mongod>。
+> 更多信息：<https://www.mongodb.com/docs/manual/reference/program/mongod/>。
 
 - 指定存储目录（默认：Linux 和 macOS 为 `/data/db`，Windows 为 `C:\data\db`）：
 

@@ -1,7 +1,7 @@
 # systemctl
 
 > Controla el gestor de sistemas y servicios systemd.
-> Más información: <https://www.freedesktop.org/software/systemd/man/systemctl.html>.
+> Más información: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html>.
 
 - Muestra todos los servicios en ejecución:
 

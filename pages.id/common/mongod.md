@@ -1,7 +1,7 @@
 # mongod
 
 > Peladen basis data MongoDB.
-> Informasi lebih lanjut: <https://docs.mongodb.com/manual/reference/program/mongod>.
+> Informasi lebih lanjut: <https://www.mongodb.com/docs/manual/reference/program/mongod/>.
 
 - Tentukan direktori penyimpanan basis data (default: `/data/db` dalam Linux dan macOS, `C:\data\db` dalam Windows):
 

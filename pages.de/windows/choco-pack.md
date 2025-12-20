@@ -1,7 +1,7 @@
 # choco pack
 
 > Verpacke eine NuGet-Spezifikation in eine nupkg-Datei.
-> Weitere Informationen: <https://chocolatey.org/docs/commands-pack>.
+> Weitere Informationen: <https://docs.chocolatey.org/en-us/create/commands/pack/>.
 
 - Verpacke eine NuGet-Spezifikation in eine nupkg-Datei:
 

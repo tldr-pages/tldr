@@ -1,0 +1,21 @@
+# odpscmd tunnel
+
+> Data tunnel in ODPS (Open Data Processing Service).
+> See also: `odps`.
+> More information: <https://www.alibabacloud.com/help/en/maxcompute/user-guide/maxcompute-client>.
+
+- [Interactive] Download table to local file:
+
+`tunnel download {{table_name}} {{path/to/file}};`
+
+- [Interactive] Upload local file to a table partition:
+
+`tunnel upload {{path/to/file}} {{table_name}}/{{partition_spec}};`
+
+- [Interactive] Upload table specifying field and record delimiters:
+
+`tunnel upload {{path/to/file}} {{table_name}} -fd {{field_delim}} -rd {{record_delim}};`
+
+- [Interactive] Upload table using multiple threads:
+
+`tunnel upload {{path/to/file}} {{table_name}} -threads {{num}};`
