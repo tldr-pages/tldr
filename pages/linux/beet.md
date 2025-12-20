@@ -5,12 +5,16 @@
 
 - Add music to your library, attempting to get correct tags for it from MusicBrainz:
 
-`beet import {{PATH}}`
+`beet import {{path/to/directory}}`
 
-- Queries your library for music:
+- Add a single song to your library, attempting to get correct tags for it from MusicBrainz:
 
-`beet list {{QUERY}}`
+`beet import --singletons {{path/to/file}}`
 
-- Show some statistics on your entire library (if you don’t provide a query) or the matched items:
+- Query library:
 
-`beet stats {{QUERY}}`
+`beet list {{query}}`
+
+- Show entire library statistics:
+
+`beet stats`
