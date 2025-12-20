@@ -1,7 +1,7 @@
 # importctl
 
 > Download, Import, or Export disk images.
-> More information: <https://www.freedesktop.org/software/systemd/man/importctl.html>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/importctl.html>.
 
 - Download image in tarball format from a url via pull:
 

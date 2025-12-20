@@ -1,7 +1,7 @@
 # systemd-path
 
 > List and query system and user paths.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemd-path.html>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemd-path.html>.
 
 - Display a list of known paths and their current values:
 

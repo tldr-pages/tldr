@@ -1,7 +1,7 @@
 # bootctl
 
 > Control EFI firmware boot settings and manage boot loader.
-> More information: <https://www.freedesktop.org/software/systemd/man/bootctl.html>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/bootctl.html>.
 
 - Show information about the system firmware and the bootloaders:
 

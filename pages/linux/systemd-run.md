@@ -1,7 +1,7 @@
 # systemd-run
 
 > Run programs in transient scope units, service units, or path-, socket-, or timer-triggered service units.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemd-run.html>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemd-run.html>.
 
 - Start a transient service:
 
