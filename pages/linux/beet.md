@@ -1,6 +1,6 @@
 # beet
 
-> The command-line interface to beets: the media library management system for obsessive music geeks.
+> Manage the beets media library.
 > More information: <https://beets.readthedocs.io/en/stable/reference/cli.html>.
 
 - Add music to your library, attempting to get correct tags for it from MusicBrainz:
