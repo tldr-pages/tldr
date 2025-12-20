@@ -34,4 +34,4 @@
 
 - Build using a specific number of threads (default is the number of logical CPUs):
 
-`cargo {{[b|build]}} --jobs {{number_of_threads}}`
+`cargo {{[b|build]}} {{[-j|--jobs]}} {{number_of_threads}}`
