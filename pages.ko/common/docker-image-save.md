@@ -1,4 +1,4 @@
-# docker save
+# docker image save
 
 > Docker 이미지를 아카이브로 내보내기.
 > 더 많은 정보: <https://docs.docker.com/reference/cli/docker/image/save/>.

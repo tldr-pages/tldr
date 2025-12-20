@@ -1,6 +1,6 @@
 # piodebuggdb
 
-> Tämä on alias komennolle `pio debug --interface=gdb`.
+> Tämä on alias komennolle `pio debug --interface gdb`.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

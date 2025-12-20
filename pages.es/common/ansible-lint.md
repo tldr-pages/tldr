@@ -1,7 +1,7 @@
 # ansible-lint
 
 > Aplica reglas y sigue las mejores prácticas en la automatización de tu contenido.
-> Más información: <https://ansible.readthedocs.io/projects/lint/>.
+> Más información: <https://docs.ansible.com/projects/lint/>.
 
 - Analiza un playbook (archivo de tareas) específico y un directorio de roles con Lint:
 

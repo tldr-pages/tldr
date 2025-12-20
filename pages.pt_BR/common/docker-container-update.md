@@ -1,4 +1,4 @@
-# docker update
+# docker container update
 
 > Atualizar a configuração de contêineres Docker.
 > Este comando não é suportado para contêineres Windows.

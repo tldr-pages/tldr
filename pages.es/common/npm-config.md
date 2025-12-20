@@ -1,7 +1,7 @@
 # npm config
 
 > Gestiona los ajustes de configuración de `npm`.
-> Más información: <https://docs.npmjs.com/cli/npm-config>.
+> Más información: <https://docs.npmjs.com/cli/npm-config/>.
 
 - Muestra todos los ajustes de configuración:
 

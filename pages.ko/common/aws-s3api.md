@@ -1,7 +1,7 @@
 # aws s3api
 
 > Amazon S3 버킷을 생성 및 삭제하고 버킷 속성을 편집.
-> 더 많은 정보: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3api/index.html>.
+> 더 많은 정보: <https://docs.aws.amazon.com/cli/latest/reference/s3api/>.
 
 - 특정 리전에 버킷 생성:
 

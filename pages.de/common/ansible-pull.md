@@ -1,7 +1,7 @@
 # ansible-pull
 
 > Laden eines Ansible-Playbooks aus einem VCS-Repository und ausführen auf dem lokalen Host.
-> Weitere Informationen: <https://docs.ansible.com/ansible/latest/cli/ansible-pull.html>.
+> Weitere Informationen: <https://docs.ansible.com/projects/ansible/latest/cli/ansible-pull.html>.
 
 - Laden eines Playbooks aus einem VCS und ausführen des standardmässigen local.yml Playbooks:
 

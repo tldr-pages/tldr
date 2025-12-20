@@ -2,7 +2,7 @@
 
 > 创建、自动化并管理 Zapier 集成。
 > 此命令也有关于其子命令的文件，例如：`build`，`init`，`scaffold`，`push`，`test`，等。
-> 更多信息：<https://platform.zapier.com/reference/cli>。
+> 更多信息：<https://github.com/zapier/zapier-platform/blob/main/packages/cli/docs/cli.md>。
 
 - 连接到一个 Zapier 帐户：
 

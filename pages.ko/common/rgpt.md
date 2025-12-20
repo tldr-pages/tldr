@@ -1,7 +1,7 @@
 # rgpt
 
 > 터미널에서 바로 사용할 수 있는 GPT 기반 자동 코드 리뷰 도구.
-> 더 많은 정보: <https://github.com/vibovenkat123/review-gpt>.
+> 더 많은 정보: <https://github.com/vaibhav-venkat/review-gpt>.
 
 - 추가 옵션 없이 GPT에게 코드 개선 요청:
 

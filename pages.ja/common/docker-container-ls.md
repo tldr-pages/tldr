@@ -1,4 +1,4 @@
-# docker ps
+# docker container ls
 
 > Dockerコンテナ一覧を表示します。
 > もっと詳しく: <https://docs.docker.com/reference/cli/docker/container/ls/>。

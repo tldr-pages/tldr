@@ -1,7 +1,7 @@
 # aws cloud9
 
 > AWS Cloud9은 클라우드에서 소프트웨어를 작성, 빌드, 실행, 테스트, 디버그 및 릴리스하는 도구 모음입니다.
-> 더 많은 정보: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cloud9/index.html>.
+> 더 많은 정보: <https://docs.aws.amazon.com/cli/latest/reference/cloud9/>.
 
 - Cloud9 개발 환경 식별자 목록 가져오기:
 

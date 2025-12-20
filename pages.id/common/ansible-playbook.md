@@ -1,7 +1,7 @@
 # ansible-playbook
 
 > Jalankan kumpulan tugas yang didefinisikan di dalam buku aturan main (playbook), kepada para mesin secara jarak jauh melalui SSH.
-> Informasi lebih lanjut: <https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html>.
+> Informasi lebih lanjut: <https://docs.ansible.com/projects/ansible/latest/cli/ansible-playbook.html>.
 
 - Jalankan kumpulan tugas yang didefinisikan dalam buku aturan main (playbook):
 

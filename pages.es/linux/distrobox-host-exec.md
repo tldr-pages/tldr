@@ -2,7 +2,7 @@
 
 > Ejecuta un comando en el anfitrión desde dentro de un contenedor Distrobox.
 > Vea también: `distrobox`.
-> Más información: <https://distrobox.it/usage/distrobox-host-exec>.
+> Más información: <https://distrobox.it/usage/distrobox-host-exec/>.
 
 - Ejecuta el comando en el sistema anfitrión desde el interior del contenedor Distrobox:
 

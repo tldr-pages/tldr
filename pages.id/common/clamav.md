@@ -2,7 +2,7 @@
 
 > Program antivirus bersumber terbuka (open-source).
 > Program ClamAV memiliki beberapa perintah, dan `clamav` bukanlah nama perintah.
-> Informasi lebih lanjut: <https://www.clamav.net>.
+> Informasi lebih lanjut: <https://www.clamav.net/>.
 
 - Tampilkan dokumentasi perintah untuk memindai file menggunakan daemon ClamAV (`clamd`):
 

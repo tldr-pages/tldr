@@ -1,7 +1,7 @@
 # choco pack
 
 > एक NuGet विनिर्देशन को `nupkg` फ़ाइल में पैक करें।
-> अधिक जानकारी: <https://chocolatey.org/docs/commands-pack>।
+> अधिक जानकारी: <https://docs.chocolatey.org/en-us/create/commands/pack/>।
 
 - एक NuGet विनिर्देशन को `nupkg` फ़ाइल में पैक करें:
 

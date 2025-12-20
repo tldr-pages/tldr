@@ -1,4 +1,4 @@
-# docker cp
+# docker container cp
 
 > Copia file o directory tra il filesystem di un container e quello locale (host).
 > Maggiori informazioni: <https://docs.docker.com/reference/cli/docker/container/cp/>.

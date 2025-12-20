@@ -1,4 +1,4 @@
-# docker stats
+# docker container stats
 
 > Affiché un flux en direct des statistiques d'utilisation des ressources pour les conteneurs.
 > Plus d'informations : <https://docs.docker.com/reference/cli/docker/container/stats/>.

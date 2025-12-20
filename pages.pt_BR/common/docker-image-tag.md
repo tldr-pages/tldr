@@ -1,4 +1,4 @@
-# docker tag
+# docker image tag
 
 > Atribuir tags a imagens Docker existentes.
 > Mais informações: <https://docs.docker.com/reference/cli/docker/image/tag/>.

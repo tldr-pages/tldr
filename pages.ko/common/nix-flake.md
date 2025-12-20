@@ -1,7 +1,7 @@
 # nix flake
 
 > Nix 플레이크 관리.
-> 더 많은 정보: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-flake.html>.
+> 더 많은 정보: <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-flake.html>.
 
 - 현재 디렉토리에서 기본 템플릿으로 새로운 플레이크(`flake.nix` 파일만) 생성:
 

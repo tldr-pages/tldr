@@ -1,7 +1,7 @@
 # nth
 
 > Name That Hash - 즉각적으로 해시 유형을 식별합니다.
-> 더 많은 정보: <https://github.com/hashpals/name-that-hash>.
+> 더 많은 정보: <https://github.com/bee-san/Name-That-Hash>.
 
 - 해시 이름 식별:
 

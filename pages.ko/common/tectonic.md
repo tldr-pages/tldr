@@ -1,7 +1,7 @@
 # tectonic
 
 > 현대적이고 독립적인 TeX/LaTeX 엔진.
-> 더 많은 정보: <https://tectonic-typesetting.github.io/book/latest>.
+> 더 많은 정보: <https://tectonic-typesetting.github.io/book/latest/>.
 
 - 독립적인 TeX/LaTeX 파일 컴파일:
 

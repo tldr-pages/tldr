@@ -2,7 +2,7 @@
 
 > Identity and Access Management (IAM) 환경 설정 및 서비스 계정을 구성합니다.
 > 같이 보기: `gcloud`.
-> 더 많은 정보: <https://cloud.google.com/sdk/gcloud/reference/iam>.
+> 더 많은 정보: <https://docs.cloud.google.com/sdk/gcloud/reference/iam>.
 
 - 리소스에 대한 IAM 부여 가능한 역할 나열:
 

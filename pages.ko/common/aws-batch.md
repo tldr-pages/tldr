@@ -1,7 +1,7 @@
 # aws batch
 
 > AWS Batch를 통해 배치 컴퓨팅 워크로드를 실행합니다.
-> 더 많은 정보: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/batch/index.html>.
+> 더 많은 정보: <https://docs.aws.amazon.com/cli/latest/reference/batch/>.
 
 - 실행 중인 배치 작업 목록:
 

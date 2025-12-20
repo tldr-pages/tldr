@@ -1,7 +1,7 @@
 # gdal2tiles.py
 
 > 래스터 데이터세트를 위한 TMS 또는 XYZ 타일을 생성.
-> 더 많은 정보: <https://gdal.org/programs/gdal2tiles.html>.
+> 더 많은 정보: <https://gdal.org/en/stable/programs/gdal2tiles.html>.
 
 - 래스터 데이터세트의 확대/축소 수준 2~5에 대한 TMS 타일을 생성:
 

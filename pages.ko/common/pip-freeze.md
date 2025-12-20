@@ -1,7 +1,7 @@
 # pip freeze
 
 > 설치된 패키지를 요구 사항 형식으로 나열.
-> 더 많은 정보: <https://pip.pypa.io/en/stable/cli/pip_freeze>.
+> 더 많은 정보: <https://pip.pypa.io/en/stable/cli/pip_freeze/>.
 
 - 설치된 패키지 나열:
 

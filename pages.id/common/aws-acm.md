@@ -1,7 +1,7 @@
 # aws acm
 
 > AWS Certificate Manager, manajer sertifikat digital untuk AWS.
-> Informasi lebih lanjut: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/acm/index.html>.
+> Informasi lebih lanjut: <https://docs.aws.amazon.com/cli/latest/reference/acm/>.
 
 - Impor suatu sertifikat:
 

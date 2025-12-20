@@ -1,4 +1,4 @@
-# docker exec
+# docker container exec
 
 > Executar um comando em um contêiner Docker em execução.
 > Mais informações: <https://docs.docker.com/reference/cli/docker/container/exec/>.

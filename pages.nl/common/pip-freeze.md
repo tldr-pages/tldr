@@ -1,7 +1,7 @@
 # pip freeze
 
 > Toon geïnstalleerde pakketten in requirements-formaat.
-> Meer informatie: <https://pip.pypa.io/en/stable/cli/pip_freeze>.
+> Meer informatie: <https://pip.pypa.io/en/stable/cli/pip_freeze/>.
 
 - Toon geïnstalleerde pakketten:
 

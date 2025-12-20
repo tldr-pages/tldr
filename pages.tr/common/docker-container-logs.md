@@ -1,4 +1,4 @@
-# docker logs
+# docker container logs
 
 > Konteyner kaydını yazdırır.
 > Daha fazla bilgi için: <https://docs.docker.com/reference/cli/docker/container/logs/>.

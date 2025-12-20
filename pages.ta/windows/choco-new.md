@@ -1,7 +1,7 @@
 # choco new
 
 > சாக்லேட்டியுடன் புதிய தொகுப்பு விவரக்குறிப்பு கோப்புகளை உருவாக்கவும்.
-> மேலும் விவரத்திற்கு: <https://chocolatey.org/docs/commands-new>.
+> மேலும் விவரத்திற்கு: <https://docs.chocolatey.org/en-us/create/commands/new/>.
 
 - ஒரு புதிய தொகுப்பு எலும்புக்கூட்டை உருவாக்கவும்:
 

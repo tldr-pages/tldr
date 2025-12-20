@@ -2,7 +2,7 @@
 
 > Zarządzaj bucketami: repozytoriami Git zawierającymi pliki, które opisują sposób instalacji aplikacji przez Scoop.
 > Jeśli Scoop nie zna lokalizacji bucketa, należy określić lokalizację jego repozytorium.
-> Więcej informacji: <https://github.com/lukesampson/scoop/wiki/Buckets>.
+> Więcej informacji: <https://github.com/ScoopInstaller/Scoop/wiki/Buckets>.
 
 - Wyświetl wszystkie aktualnie używane buckety:
 

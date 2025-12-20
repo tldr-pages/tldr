@@ -1,7 +1,7 @@
 # choco list
 
 > Toon een lijst van pakketten met Chocolatey.
-> Meer informatie: <https://chocolatey.org/docs/commands-list>.
+> Meer informatie: <https://docs.chocolatey.org/en-us/choco/commands/list/>.
 
 - Toon alle beschikbare pakketten:
 

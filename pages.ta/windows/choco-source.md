@@ -1,7 +1,7 @@
 # choco source
 
 > சாக்லேட்டி மூலம் தொகுப்புகளுக்கான ஆதாரங்களை நிர்வகிக்கவும்.
-> மேலும் விவரத்திற்கு: <https://chocolatey.org/docs/commands-source>.
+> மேலும் விவரத்திற்கு: <https://docs.chocolatey.org/en-us/choco/commands/source/>.
 
 - தற்போது கிடைக்கக்கூடிய ஆதாரங்களை பட்டியலிடுங்கள்:
 

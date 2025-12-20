@@ -1,7 +1,7 @@
 # balena
 
 > Interagis avec balenaCloud, openBAlena et l'API balena depuis la ligne de commande.
-> Plus d'informations : <https://www.balena.io/docs/reference/cli/>.
+> Plus d'informations : <https://docs.balena.io/reference/balena-cli/latest/>.
 
 - Connexion à balenaCloud :
 

@@ -2,7 +2,7 @@
 
 > Arresta un container Distrobox.
 > Vedi anche: `distrobox`.
-> Maggiori informazioni: <https://distrobox.it/usage/distrobox-stop>.
+> Maggiori informazioni: <https://distrobox.it/usage/distrobox-stop/>.
 
 - Arresta un container Distrobox:
 

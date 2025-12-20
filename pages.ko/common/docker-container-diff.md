@@ -1,4 +1,4 @@
-# docker diff
+# docker container diff
 
 > 컨테이너의 파일 시스템에서 파일이나 디렉토리의 변경 사항을 검사.
 > 더 많은 정보: <https://docs.docker.com/reference/cli/docker/container/diff/>.

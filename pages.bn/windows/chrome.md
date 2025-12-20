@@ -1,7 +1,7 @@
 # chrome
 
 > এই আদেশটির উপনাম `chromium`।
-> আরও তথ্য পাবেন: <https://chrome.google.com>।
+> আরও তথ্য পাবেন: <https://www.google.com/chrome/>।
 
 - মৌল আদেশের জন্য ডকুমেন্টেশন দেখুন:
 

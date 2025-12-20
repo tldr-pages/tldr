@@ -2,7 +2,7 @@
 
 > Rust 프로젝트 및 모듈 종속성(크레이트)을 관리.
 > `build`와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
-> 더 많은 정보: <https://doc.rust-lang.org/cargo>.
+> 더 많은 정보: <https://doc.rust-lang.org/stable/cargo/>.
 
 - 크레이트 검색:
 

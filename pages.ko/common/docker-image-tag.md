@@ -1,4 +1,4 @@
-# docker tag
+# docker image tag
 
 > 기존 Docker 이미지에 태그를 지정합니다.
 > 더 많은 정보: <https://docs.docker.com/reference/cli/docker/image/tag/>.

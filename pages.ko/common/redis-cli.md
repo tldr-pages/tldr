@@ -1,7 +1,7 @@
 # redis-cli
 
 > Redis 서버에 연결합니다.
-> 더 많은 정보: <https://redis.io/topics/rediscli>.
+> 더 많은 정보: <https://redis.io/docs/latest/develop/>.
 
 - 로컬 서버에 연결:
 

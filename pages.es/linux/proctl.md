@@ -1,7 +1,7 @@
 # proctl
 
 > Gestiona licencias de proyectos e idiomas, cambiar entre licencias de plantillas.
-> Más información: <https://github.com/HeCodes2Much/proctl>.
+> Más información: <https://github.com/CreativeCodeCat/proctl>.
 
 - Lista licencias disponibles:
 

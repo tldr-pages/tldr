@@ -2,7 +2,7 @@
 
 > 레거시 MongoDB 셸. 새로운 셸에 대해서는 `mongosh`를 참조.
 > 참고: 모든 연결 옵션은 하나의 문자열로 대체할 수 있습니다: `mongodb://user@host:port/db_name?authSource=authdb_name`.
-> 더 많은 정보: <https://docs.mongodb.com/manual/reference/program/mongo>.
+> 더 많은 정보: <https://www.mongodb.com/docs/mongodb-shell/>.
 
 - 기본 포트(`mongodb://localhost:27017`)에서 로컬 데이터베이스에 연결:
 

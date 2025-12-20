@@ -1,7 +1,7 @@
 # choco new
 
 > Chocolatey로 새 패키지 사양 파일 생성.
-> 더 많은 정보: <https://chocolatey.org/docs/commands-new>.
+> 더 많은 정보: <https://docs.chocolatey.org/en-us/create/commands/new/>.
 
 - 새 패키지 스켈레톤 생성:
 

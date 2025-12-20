@@ -1,7 +1,7 @@
 # virtualboxvm
 
 > VirtualBox 가상 머신을 관리합니다.
-> 더 많은 정보: <https://www.virtualbox.org>.
+> 더 많은 정보: <https://www.virtualbox.org/>.
 
 - 가상 머신 시작:
 

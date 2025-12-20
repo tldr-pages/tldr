@@ -1,7 +1,7 @@
 # systemctl
 
 > Contrôle le système systemd et le gestionnaire de services.
-> Plus d'informations : <https://www.freedesktop.org/software/systemd/man/systemctl.html>.
+> Plus d'informations : <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html>.
 
 - Liste des unités en échec :
 

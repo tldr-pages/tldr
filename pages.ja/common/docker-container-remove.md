@@ -1,7 +1,7 @@
 # docker container remove
 
-> このコマンドは `docker rm` のエイリアスです。
+> このコマンドは `docker container rm` のエイリアスです。
 
 - オリジナルのコマンドのドキュメントを表示する:
 
-`tldr docker rm`
+`tldr docker container rm`

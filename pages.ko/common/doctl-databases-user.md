@@ -1,7 +1,7 @@
 # doctl databases user
 
 > 데이터베이스 사용자에 대한 세부 정보를 보고 생성.
-> 더 많은 정보: <https://docs.digitalocean.com/reference/doctl/reference/databases/user>.
+> 더 많은 정보: <https://docs.digitalocean.com/reference/doctl/reference/databases/user/>.
 
 - 액세스 토큰을 사용하여 `doctl databases user` 명령을 실행:
 

@@ -1,4 +1,4 @@
-# docker exec
+# docker container exec
 
 > 이미 실행 중인 Docker 컨테이너에서 명령을 실행.
 > 더 많은 정보: <https://docs.docker.com/reference/cli/docker/container/exec/>.

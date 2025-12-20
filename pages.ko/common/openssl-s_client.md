@@ -1,7 +1,7 @@
 # openssl s_client
 
 > TLS 클라이언트 연결을 생성하는 OpenSSL 명령어.
-> 더 많은 정보: <https://www.openssl.org/docs/manmaster/man1/openssl-s_client.html>.
+> 더 많은 정보: <https://docs.openssl.org/master/man1/openssl-s_client/>.
 
 - 도메인 인증서의 시작 및 만료 날짜 표시:
 

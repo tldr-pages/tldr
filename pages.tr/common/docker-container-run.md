@@ -1,4 +1,4 @@
-# docker run
+# docker container run
 
 > Yeni bir Docker konteynerinde bir komut çalıştır.
 > Daha fazla bilgi için: <https://docs.docker.com/reference/cli/docker/container/run/>.

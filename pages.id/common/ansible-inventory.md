@@ -2,7 +2,7 @@
 
 > Tampilkan dan simpan informasi suatu inventaris Ansible (inventory).
 > Lihat juga: `ansible`.
-> Informasi lebih lanjut: <https://docs.ansible.com/ansible/latest/cli/ansible-inventory.html>.
+> Informasi lebih lanjut: <https://docs.ansible.com/projects/ansible/latest/cli/ansible-inventory.html>.
 
 - Tampilkan informasi inventaris default:
 

@@ -1,4 +1,4 @@
-# docker cp
+# docker container cp
 
 > 호스트와 컨테이너 파일 시스템 간에 파일이나 디렉토리를 복사.
 > 더 많은 정보: <https://docs.docker.com/reference/cli/docker/container/cp/>.

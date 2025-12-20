@@ -2,7 +2,7 @@
 
 > Gestor de paquetes JavaScript y Node.js.
 > Gestiona proyectos Node.js y sus dependencias de módulos.
-> Más información: <https://docs.npmjs.com/cli/npm>.
+> Más información: <https://docs.npmjs.com/cli/npm/>.
 
 - Crea un archivo `package.json` con los valores por defecto (omite --yes para hacerlo de forma interactiva):
 

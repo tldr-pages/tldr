@@ -2,7 +2,7 @@
 
 > 두 개 이상의 파일을 vim으로 열어 차이점을 보여줍니다.
 > 같이 보기: `vim`, `vimtutor`, `nvim`.
-> 더 많은 정보: <https://www.vim.org>.
+> 더 많은 정보: <https://www.vim.org/>.
 
 - 두 파일을 열고 차이점 표시:
 

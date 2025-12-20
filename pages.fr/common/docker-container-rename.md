@@ -1,4 +1,4 @@
-# docker rename
+# docker container rename
 
 > Renomme un conteneur.
 > Plus d'informations : <https://docs.docker.com/reference/cli/docker/container/rename/>.

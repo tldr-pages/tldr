@@ -1,4 +1,4 @@
-# docker logs
+# docker container logs
 
 > 显示容器的日志。
 > 更多信息：<https://docs.docker.com/reference/cli/docker/container/logs/>。
