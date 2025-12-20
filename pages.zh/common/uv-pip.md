@@ -15,7 +15,7 @@
 
 `uv pip install {{包名==1.2.3}}`
 
-- 卸载一个包
+- 卸载一个包：
 
 `uv pip uninstall {{包名}}`
 
