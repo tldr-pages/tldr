@@ -1,8 +1,8 @@
 # Common descriptions
 
-This page provides translations of commonly used descriptions to simplify maintaining pages in foreign languages.
-The best way to edit this file is by using [tableconvert.com](https://tableconvert.com/markdown-to-markdown).
-There, the old table can be **imported**, **edited** in a WYSIWYG editor and **exported** again.
+This page provides translations of commonly used descriptions to simplify maintaining pages in foreign languages.\
+The best way to edit this file is by using [tableconvert.com](https://tableconvert.com/markdown-to-markdown).\
+There, the old table can be **imported**, **edited** in a WYSIWYG editor and **exported** again.\
 Only the left-alignment of the header gets lost and has to be re-added again (`|----` → `|:---`).
 
 | en    | Display help                 | Display version           | [Interactive]    |
