@@ -1,7 +1,7 @@
 # systemctl bind
 
 > Ephemerally bind-mount a file or directory from the host into a unit's mount namespace.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#bind%20UNIT%20PATH%20%5BPATH%5D>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#bind%20UNIT%20PATH%20%5BPATH%5D>.
 
 - Bind-mount a host path into the same location inside the unit:
 
