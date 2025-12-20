@@ -1,7 +1,7 @@
 # npm fund
 
 > Haal financieringsinformatie op van pakketten.
-> Meer informatie: <https://docs.npmjs.com/cli/npm-fund>.
+> Meer informatie: <https://docs.npmjs.com/cli/npm-fund/>.
 
 - Toon afhankelijkheden met financierings-URL voor het project in de huidige directory:
 

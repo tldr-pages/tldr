@@ -2,7 +2,7 @@
 
 > 빠른 Python 패키지 및 프로젝트 관리자.
 > `tool` 및 `python`과 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
-> 더 많은 정보: <https://docs.astral.sh/uv/reference/cli>.
+> 더 많은 정보: <https://docs.astral.sh/uv/reference/cli/>.
 
 - 현재 디렉토리에 새 Python 프로젝트 생성:
 

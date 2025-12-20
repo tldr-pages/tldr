@@ -1,7 +1,7 @@
 # choco upgrade
 
 > Zaktualizuj jeden lub więcej pakietów Chocolatey.
-> Więcej informacji: <https://chocolatey.org/docs/commands-upgrade>.
+> Więcej informacji: <https://docs.chocolatey.org/en-us/choco/commands/upgrade/>.
 
 - Zaktualizuj jeden lub więcej pakietów (oddzielonych spacją):
 

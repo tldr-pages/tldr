@@ -1,7 +1,7 @@
 # extrace
 
 > Trace exec() calls.
-> More information: <https://github.com/chneukirchen/extrace>.
+> More information: <https://github.com/leahneukirchen/extrace>.
 
 - Trace all program executions occurring on the system:
 

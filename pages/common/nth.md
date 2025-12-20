@@ -1,7 +1,7 @@
 # nth
 
 > Name That Hash - Instantly name the type of any hash.
-> More information: <https://github.com/hashpals/name-that-hash>.
+> More information: <https://github.com/bee-san/Name-That-Hash>.
 
 - Name a hash:
 

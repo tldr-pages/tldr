@@ -1,6 +1,7 @@
 # docker container diff
 
 > Ova komanda je pseudonim za `docker diff`.
+> Više informacija: <https://docs.docker.com/reference/cli/docker/container/diff/>.
 
 - Pogledaj dokumentaciju za izvornu komandu:
 

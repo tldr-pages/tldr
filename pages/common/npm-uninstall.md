@@ -1,7 +1,7 @@
 # npm uninstall
 
 > Remove a package.
-> More information: <https://docs.npmjs.com/cli/npm-uninstall>.
+> More information: <https://docs.npmjs.com/cli/npm-uninstall/>.
 
 - Remove a package from the current project:
 

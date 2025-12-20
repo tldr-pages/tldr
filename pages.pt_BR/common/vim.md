@@ -2,7 +2,7 @@
 
 > Vim (Vi IMproved), é um editor de texto em linha de comando, que fornece muitos modos para diferentes tipos de manipulação de texto.
 > Apertando `<i>` no modo normal entra em modo insert (inserir). Apertando `<Esc>` volta para o modo normal, que permite o uso dos comandos do Vim.
-> Mais informações: <https://www.vim.org>.
+> Mais informações: <https://www.vim.org/>.
 
 - Abre um arquivo:
 

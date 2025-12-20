@@ -2,7 +2,7 @@
 
 > Open up two or more files in vim and show the differences between them.
 > See also: `vim`, `vimtutor`, `nvim`.
-> More information: <https://www.vim.org>.
+> More information: <https://www.vim.org/>.
 
 - Open two files and show the differences:
 

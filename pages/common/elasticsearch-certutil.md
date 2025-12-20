@@ -1,7 +1,7 @@
 # elasticsearch-certutil
 
 > Generate and manage SSL certificates for Elasticsearch security.
-> More information: <https://www.elastic.co/guide/en/elasticsearch/reference/current/certutil.html>.
+> More information: <https://www.elastic.co/docs/reference/elasticsearch/command-line-tools/certutil>.
 
 - Generate a new Certificate Authority (CA) with default options:
 

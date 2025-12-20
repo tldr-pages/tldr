@@ -1,7 +1,7 @@
 # docker container remove
 
-> Tento příkaz je aliasem pro `docker rm`.
+> Tento příkaz je aliasem pro `docker container rm`.
 
 - Podívejte se na dokumentaci původního příkazu:
 
-`tldr docker rm`
+`tldr docker container rm`

@@ -1,7 +1,7 @@
 # doctl databases
 
 > MySQL, Redis, PostgreSQL 및 MongoDB 데이터베이스 서비스를 관리.
-> 더 많은 정보: <https://docs.digitalocean.com/reference/doctl/reference/databases>.
+> 더 많은 정보: <https://docs.digitalocean.com/reference/doctl/reference/databases/>.
 
 - 액세스 토큰을 사용하여 `doctl databases` 명령을 실행:
 

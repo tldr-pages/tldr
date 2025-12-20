@@ -1,7 +1,7 @@
 # nsxiv
 
 > Neo Simple X Image Viewer.
-> More information: <https://nsxiv.codeberg.page/man>.
+> More information: <https://nsxiv.codeberg.page/man/>.
 
 - Open images:
 

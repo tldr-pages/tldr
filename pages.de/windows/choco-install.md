@@ -1,7 +1,7 @@
 # choco install
 
 > Installiere ein oder mehrere Pakete mit Chocolatey.
-> Weitere Informationen: <https://chocolatey.org/docs/commands-install>.
+> Weitere Informationen: <https://docs.chocolatey.org/en-us/choco/commands/install/>.
 
 - Installiere ein oder mehrere Pakete, deren Namen mit Leerzeichen getrennt sind:
 

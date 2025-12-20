@@ -1,7 +1,7 @@
 # makepasswd
 
 > 비밀번호 생성 및 암호화.
-> 더 많은 정보: <https://manpages.debian.org/latest/makepasswd/makepasswd.1.en.html>.
+> 더 많은 정보: <https://manned.org/makepasswd>.
 
 - 무작위 비밀번호 생성 (8~10자, 문자 및 숫자 포함):
 

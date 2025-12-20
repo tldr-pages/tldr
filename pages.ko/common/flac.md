@@ -1,7 +1,7 @@
 # flac
 
 > FLAC 파일을 인코딩, 디코딩 및 테스트.
-> 더 많은 정보: <https://xiph.org/flac>.
+> 더 많은 정보: <https://xiph.org/flac/>.
 
 - WAV 파일을 FLAC로 인코딩 (WAV 파일과 동일한 FLAC 파일이 생성됨):
 

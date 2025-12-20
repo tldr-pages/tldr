@@ -2,7 +2,7 @@
 
 > Add or change user database information, including login shell and password.
 > See also: `passwd`.
-> More information: <https://man.netbsd.org/chpass>.
+> More information: <https://man.netbsd.org/chpass.1>.
 
 - Set a specific login shell for the current user interactively:
 

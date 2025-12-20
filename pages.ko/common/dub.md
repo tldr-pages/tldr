@@ -1,7 +1,7 @@
 # dub
 
 > D 패키지의 패키지 관리.
-> 더 많은 정보: <https://dub.pm/commandline>.
+> 더 많은 정보: <https://dub.pm/commandline/>.
 
 - 대화형으로 새 D 프로젝트 생성:
 

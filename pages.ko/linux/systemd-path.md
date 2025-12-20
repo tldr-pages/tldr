@@ -1,7 +1,7 @@
 # systemd-path
 
 > 시스템 및 사용자 경로를 나열하고 조회.
-> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/systemd-path.html>.
+> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/latest/systemd-path.html>.
 
 - 알려진 경로와 현재 값을 나열:
 
@@ -11,7 +11,7 @@
 
 `systemd-path "{{경로_이름}}"`
 
-- 출력된 경로에 `{{suffix_string}}` 접미사를 추가:
+- 출력된 경로에 `suffix_string` 접미사를 추가:
 
 `systemd-path --suffix {{suffix_string}}`
 

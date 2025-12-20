@@ -1,7 +1,7 @@
 # ansible-playbook
 
 > Exécute les tâches définies dans le playbook sur les machines distantes via SSH.
-> Plus d'informations : <https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html>.
+> Plus d'informations : <https://docs.ansible.com/projects/ansible/latest/cli/ansible-playbook.html>.
 
 - Exécute les tâches d'un playbook :
 

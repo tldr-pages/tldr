@@ -1,7 +1,7 @@
 # kubectl taint
 
 > 노드에 taint 업데이트.
-> 더 많은 정보: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_taint>.
+> 더 많은 정보: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_taint/>.
 
 - 노드에 taint 적용:
 

@@ -2,7 +2,7 @@
 
 > Access Google Cloud Storage.
 > You can use `gsutil` to do a wide range of bucket and object management tasks.
-> More information: <https://cloud.google.com/storage/docs/gsutil>.
+> More information: <https://docs.cloud.google.com/storage/docs/gsutil>.
 
 - List all buckets in a project you are logged into:
 

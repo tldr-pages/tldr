@@ -7,10 +7,10 @@
 
 `st-util {{[-p|--listen_port]}} {{4500}}`
 
-- Connect to GDB server within `gdb`:
+- [Interactive] Connect to GDB server within `gdb`:
 
 `target extended-remote {{localhost}}:{{4500}}`
 
-- Write firmware to device:
+- [Interactive] Write firmware to device:
 
 `load {{firmware.elf}}`

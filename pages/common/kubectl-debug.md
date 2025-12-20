@@ -1,7 +1,7 @@
 # kubectl debug
 
 > Debug cluster resources using interactive debugging containers.
-> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_debug>.
+> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_debug/>.
 
 - Create an interactive debugging session in a pod and immediately attach to it:
 

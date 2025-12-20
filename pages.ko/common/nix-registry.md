@@ -2,7 +2,7 @@
 
 > Nix 플레이크 레지스트리를 관리.
 > 같이 보기: 플레이크에 대한 정보는 `nix flake`.
-> 더 많은 정보: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-registry.html>.
+> 더 많은 정보: <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-registry.html>.
 
 - `nixpkgs` 리비전을 업스트림 저장소의 현재 버전으로 고정:
 

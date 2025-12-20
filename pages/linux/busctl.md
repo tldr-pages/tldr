@@ -1,7 +1,7 @@
 # busctl
 
 > Introspect and monitor the D-Bus bus.
-> More information: <https://www.freedesktop.org/software/systemd/man/busctl.html>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/busctl.html>.
 
 - Show all peers on the bus, by their service names:
 

@@ -2,7 +2,7 @@
 
 > Mark a node as schedulable, allowing new pods to be assigned to it.
 > See also: `kubectl cordon`.
-> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_uncordon>.
+> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_uncordon/>.
 
 - Mark a node as schedulable:
 

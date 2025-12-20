@@ -2,7 +2,7 @@
 
 > Modify a toolchain's installed components.
 > Without the `--toolchain` option `rustup` will use the default toolchain. See `rustup help toolchain` for more information about toolchains.
-> More information: <https://rust-lang.github.io/rustup>.
+> More information: <https://rust-lang.github.io/rustup/>.
 
 - Add a component to a toolchain:
 

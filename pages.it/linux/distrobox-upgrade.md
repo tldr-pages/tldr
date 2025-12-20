@@ -2,7 +2,7 @@
 
 > Aggiorna uno o più container Distrobox.
 > Vedi anche: `distrobox`.
-> Maggiori informazioni: <https://distrobox.it/usage/distrobox-upgrade>.
+> Maggiori informazioni: <https://distrobox.it/usage/distrobox-upgrade/>.
 
 - Aggiorna un container utilizzando il gestore di pacchetti nativo del container:
 

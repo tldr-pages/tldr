@@ -1,7 +1,7 @@
 # choco new
 
 > Générez de nouveaux fichiers de spécifications de package avec Chocolatey.
-> Plus d'informations : <https://chocolatey.org/docs/commands-new>.
+> Plus d'informations : <https://docs.chocolatey.org/en-us/create/commands/new/>.
 
 - Créer un nouveau squelette de package :
 

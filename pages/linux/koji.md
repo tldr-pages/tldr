@@ -2,7 +2,7 @@
 
 > Interact with kojihub.
 > Some subcommands such as `build`, `tag-build`, `download-build`, `buildinfo`, `call`, etc. have their own usage documentation.
-> More information: <https://docs.pagure.org/koji>.
+> More information: <https://docs.pagure.org/koji/>.
 
 - Execute a koji subcommand:
 

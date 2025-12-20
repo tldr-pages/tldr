@@ -1,7 +1,7 @@
 # winetricks
 
 > Wine 가상 Windows 환경 관리 도구.
-> 더 많은 정보: <https://wiki.winehq.org/Winetricks>.
+> 더 많은 정보: <https://gitlab.winehq.org/wine/wine/-/wikis/Winetricks>.
 
 - 기본 Wine 위치에서 그래픽 설정 시작:
 

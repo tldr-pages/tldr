@@ -3,7 +3,7 @@
 > Criar um contêiner Distrobox.
 > O contêiner criado será integrado ao sistema host, permitindo o compartilhamento do diretório HOME do usuário, armazenamento externo, dispositivos USB externos, aplicativos gráficos (X11/Wayland) e áudio.
 > Veja também: `distrobox`.
-> Mais informações: <https://distrobox.it/usage/distrobox-create>.
+> Mais informações: <https://distrobox.it/usage/distrobox-create/>.
 
 - Cria um contêiner Distrobox usando a imagem do Ubuntu:
 

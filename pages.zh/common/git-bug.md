@@ -2,7 +2,7 @@
 
 > 一个使用 Git 内部存储的分布式问题追踪器，不会在项目中添加额外文件。
 > 您可以像提交和分支一样，将问题提交到与他人交互的同一个 Git 远程仓库。
-> 更多信息：<https://github.com/MichaelMure/git-bug/blob/master/doc/md/git-bug.md>。
+> 更多信息：<https://github.com/git-bug/git-bug/blob/master/doc/md/git-bug.md>。
 
 - 创建新身份：
 

@@ -1,7 +1,7 @@
 # pdf-parser
 
 > عناصر اساسی یک فایل پی دی اف را بدون رندر کردن آن مشخص می کند.
-> اطلاعات بیشتر: <https://blog.didierstevens.com/programs/pdf-tools>.
+> اطلاعات بیشتر: <https://blog.didierstevens.com/programs/pdf-tools/>.
 
 - نمایش آمار مربوط به یک فایل پی دی اف:
 

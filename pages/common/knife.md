@@ -1,7 +1,7 @@
 # knife
 
 > Interact with a Chef server from a local Chef repo.
-> More information: <https://docs.chef.io/knife.html>.
+> More information: <https://docs.chef.io/workstation/knife/>.
 
 - Bootstrap a new node:
 

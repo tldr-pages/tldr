@@ -1,7 +1,7 @@
 # zotero
 
 > 참고 문헌 관리 도구.
-> 더 많은 정보: <https://www.zotero.org/support>.
+> 더 많은 정보: <https://www.zotero.org/support/>.
 
 - GUI로 실행:
 

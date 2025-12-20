@@ -1,7 +1,7 @@
 # npm rebuild
 
 > Rebuild native Node.js packages after Node or dependency changes.
-> More information: <https://docs.npmjs.com/cli/npm-rebuild>.
+> More information: <https://docs.npmjs.com/cli/npm-rebuild/>.
 
 - Rebuild a specific package:
 

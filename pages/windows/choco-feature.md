@@ -1,7 +1,7 @@
 # choco feature
 
 > Interact with features with Chocolatey.
-> More information: <https://chocolatey.org/docs/commands-feature>.
+> More information: <https://docs.chocolatey.org/en-us/choco/commands/feature/>.
 
 - Display a list of available features:
 

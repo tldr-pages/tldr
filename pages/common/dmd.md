@@ -1,7 +1,7 @@
 # dmd
 
 > Official D compiler.
-> More information: <https://dlang.org/dmd.html>.
+> More information: <https://dlang.org/dmd-windows.html>.
 
 - Build a D source file:
 

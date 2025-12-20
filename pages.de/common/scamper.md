@@ -10,7 +10,7 @@
 
 - Führe zwei Aktionen (ping und traceroute) auf zwei verschiedenen Zielen aus:
 
-`scamper -I "{{ping}} {{192.0.2.1}}" -I "{{trace}} {{192.0.2.2}}`
+`scamper -I "{{ping}} {{192.0.2.1}}" -I "{{trace}} {{192.0.2.2}}"`
 
 - Pinge mehrere Hosts mit UDP an, verwende eine bestimmte Portnummer für den ersten Ping und erhöhe sie für jeden weiteren Ping:
 

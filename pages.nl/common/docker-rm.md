@@ -1,20 +1,7 @@
 # docker rm
 
-> Verwijder een of meer containers.
-> Meer informatie: <https://docs.docker.com/reference/cli/docker/container/rm/>.
+> Dit commando is een alias van `docker container rm`.
 
-- Verwijder containers:
+- Bekijk de documentatie van het originele commando:
 
-`docker rm {{container1 container2 ...}}`
-
-- Verwijdeer een container geforceerd:
-
-`docker rm {{[-f|--force]}} {{container1 container2 ...}}`
-
-- Verwijder een container en de volumes:
-
-`docker rm {{[-v|--volumes]}} {{container}}`
-
-- Toon de help:
-
-`docker rm {{[-h|--help]}}`
+`tldr docker container rm`

@@ -1,7 +1,7 @@
 # koji build
 
 > Build an RPM package.
-> More information: <https://docs.pagure.org/koji>.
+> More information: <https://docs.pagure.org/koji/>.
 
 - Build a package from `src.rpm`:
 

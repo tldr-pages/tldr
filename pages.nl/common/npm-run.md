@@ -1,7 +1,7 @@
 # npm run
 
 > Voer een script uit.
-> Meer informatie: <https://docs.npmjs.com/cli/npm-run>.
+> Meer informatie: <https://docs.npmjs.com/cli/npm-run/>.
 
 - Toon beschikbare scripts:
 

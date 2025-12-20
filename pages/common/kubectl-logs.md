@@ -1,7 +1,7 @@
 # kubectl logs
 
 > Show logs for containers in a pod.
-> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_logs>.
+> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_logs/>.
 
 - Show logs for a single-container pod:
 

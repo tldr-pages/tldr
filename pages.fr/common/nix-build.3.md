@@ -2,7 +2,7 @@
 
 > Construit une expression Nix (télécharge depuis le cache si possible).
 > Voir aussi : `nix-build` pour des informations sur la construction traditionnelle de Nix, `nix flake` pour des informations sur les flakes.
-> Plus d'informations : <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-build.html>.
+> Plus d'informations : <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-build.html>.
 
 - Construit un paquet depuis nixpkgs, en liant le résultat symboliquement à `./result` :
 

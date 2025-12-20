@@ -1,7 +1,7 @@
 # yolo
 
 > YOLO 命令行界面让你可以简单地在不同的任务和版本上进行模型的训练、验证或推理。
-> 更多信息：<https://docs.ultralytics.com/cli/>。
+> 更多信息：<https://docs.ultralytics.com/usage/cli/>。
 
 - 在当前工作目录中创建默认配置的副本：
 

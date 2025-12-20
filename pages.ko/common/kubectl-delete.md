@@ -1,7 +1,7 @@
 # kubectl delete
 
 > Kubernetes 리소스 삭제.
-> 더 많은 정보: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_delete>.
+> 더 많은 정보: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_delete/>.
 
 - 특정 포드 삭제:
 

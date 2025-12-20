@@ -1,7 +1,7 @@
 # systemctl
 
 > Controla el sistema systemd i el gestor de serveis.
-> Més informació: <https://www.freedesktop.org/software/systemd/man/systemctl.html>.
+> Més informació: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html>.
 
 - Mostra tots els serveis en execució:
 

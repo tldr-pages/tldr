@@ -1,7 +1,7 @@
 # choco pack
 
 > Pakowanie specyfikacji NuGet do pliku nupkg.
-> Więcej informacji: <https://chocolatey.org/docs/commands-pack>.
+> Więcej informacji: <https://docs.chocolatey.org/en-us/create/commands/pack/>.
 
 - Spakuj specyfikację NuGet do pliku nupkg:
 

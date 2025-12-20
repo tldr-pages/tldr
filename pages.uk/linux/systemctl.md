@@ -1,7 +1,7 @@
 # systemctl
 
 > Керуйте системою systemd і диспетчером служб.
-> Більше інформації: <https://www.freedesktop.org/software/systemd/man/systemctl.html>.
+> Більше інформації: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html>.
 
 - Відобразити всі запущені служби:
 

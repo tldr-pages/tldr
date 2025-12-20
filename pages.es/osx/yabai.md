@@ -1,7 +1,7 @@
 # yabai
 
 > Un administrador de ventanas en mosaico para macOS basado en la partición de espacio binario.
-> Más información: <https://github.com/koekeishiya/yabai/wiki>.
+> Más información: <https://github.com/asmvik/yabai/wiki>.
 
 - Establece la disposición a bsp:
 

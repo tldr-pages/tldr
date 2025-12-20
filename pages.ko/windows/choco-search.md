@@ -1,7 +1,7 @@
 # choco search
 
 > Chocolatey로 로컬 또는 원격 패키지를 검색.
-> 더 많은 정보: <https://chocolatey.org/docs/commands-search>.
+> 더 많은 정보: <https://docs.chocolatey.org/en-us/choco/commands/search/>.
 
 - 패키지 검색:
 

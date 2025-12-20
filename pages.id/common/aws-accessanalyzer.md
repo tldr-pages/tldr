@@ -1,7 +1,7 @@
 # aws accessanalyzer
 
 > Analisa dan tinjau ulang kebijakan penggunaan sumber daya untuk melihat potensi risiko keamanan.
-> Informasi lebih lanjut: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/accessanalyzer/index.html>.
+> Informasi lebih lanjut: <https://docs.aws.amazon.com/cli/latest/reference/accessanalyzer/>.
 
 - Buat suatu instansi Access Analyzer:
 

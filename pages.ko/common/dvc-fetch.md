@@ -1,7 +1,7 @@
 # dvc fetch
 
 > 원격 저장소에서 DVC로 추적된 파일 및 디렉토리를 다운로드.
-> 더 많은 정보: <https://dvc.org/doc/command-reference/fetch>.
+> 더 많은 정보: <https://doc.dvc.org/command-reference/fetch>.
 
 - 기본 원격 업스트림 저장소(설정된 경우)에서 최신 변경사항 가져오기:
 

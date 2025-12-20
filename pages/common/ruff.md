@@ -2,7 +2,7 @@
 
 > An extremely fast Python linter and code formatter, written in Rust.
 > See also: `black`.
-> More information: <https://docs.astral.sh/ruff/tutorial>.
+> More information: <https://docs.astral.sh/ruff/tutorial/>.
 
 - View documentation for the Ruff linter:
 

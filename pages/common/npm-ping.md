@@ -1,7 +1,7 @@
 # npm ping
 
 > Ping `npm` registry.
-> More information: <https://docs.npmjs.com/cli/npm-ping>.
+> More information: <https://docs.npmjs.com/cli/npm-ping/>.
 
 - Ping the default `npm` registry:
 

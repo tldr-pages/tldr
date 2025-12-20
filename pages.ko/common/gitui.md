@@ -2,7 +2,7 @@
 
 > Git용 경량 키보드 전용 TUI.
 > 참고: `tig`, `git-gui`.
-> 더 많은 정보: <https://github.com/extrawurst/gitui>.
+> 더 많은 정보: <https://github.com/gitui-org/gitui>.
 
 - 색상 테마를 지정 (기본값은 `theme.ron`):
 

@@ -2,7 +2,7 @@
 
 > Manage Immich servers.
 > See also: `immich-go`.
-> More information: <https://immich.app/docs/features/command-line-interface/>.
+> More information: <https://docs.immich.app/features/command-line-interface/>.
 
 - Authenticate to Immich server:
 
