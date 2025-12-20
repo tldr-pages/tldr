@@ -5,12 +5,12 @@
 
 - Add music to your library, attempting to get correct tags for it from MusicBrainz.
 
-'beet import {{PATH}}'
+`beet import {{PATH}}`
 
 - Queries your library for music.
 
-'beet list {{QUERY}}
+`beet list {{QUERY}}`
 
-- Show some statistics on your entire library (if you don’t provide a query) or the matched items
+- Show some statistics on your entire library (if you don’t provide a query) or the matched items.
 
-'beet stats {{QUERY}}'
+`beet stats {{QUERY}}`
