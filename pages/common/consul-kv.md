@@ -1,7 +1,7 @@
 # consul kv
 
 > Distributed key-value store with health checking and service discovery.
-> More information: <https://learn.hashicorp.com/consul/getting-started/kv>.
+> More information: <https://developer.hashicorp.com/consul/docs/automate/kv/store>.
 
 - Read a value from the key-value store:
 
