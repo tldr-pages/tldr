@@ -2,7 +2,7 @@
 
 > Open an interactive session and run Cypher queries against a Neo4j instance.
 > See also: `neo4j-admin`, `mysql`.
-> More information: <https://neo4j.com/docs/operations-manual/current/tools/cypher-shell/>.
+> More information: <https://neo4j.com/docs/operations-manual/current/cypher-shell/>.
 
 - Connect to a local instance on the default port (`neo4j://localhost:7687`):
 

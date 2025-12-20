@@ -1,7 +1,7 @@
 # gdalinfo
 
 > List various information about a GDAL supported raster dataset.
-> More information: <https://gdal.org/programs/gdalinfo.html>.
+> More information: <https://gdal.org/en/stable/programs/gdalinfo.html>.
 
 - List all supported raster formats:
 
