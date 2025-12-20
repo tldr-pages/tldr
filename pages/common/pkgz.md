@@ -15,6 +15,10 @@
 
 `pkgz search {{package_name}}`
 
+- Shows enabled sources with the package available and/or installed.
+
+`pkgz info {{package_name}}`  
+
 - Update all packages in all sources:
 
 `pkgz update`
