@@ -20,7 +20,7 @@
 
 `nix run {{remote_name}}:{{owner}}/{{repo}}`
 
-- Run from a remote repository using a specific tag, revision or branch:
+- Run from a remote repository using a specific tag, revision, or branch:
 
 `nix run {{remote_name}}:{{owner}}/{{repo}}/{{reference}}`
 

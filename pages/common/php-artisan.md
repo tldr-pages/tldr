@@ -11,7 +11,7 @@
 
 `php artisan tinker`
 
-- Generate a new Eloquent model class with a migration, factory and resource controller:
+- Generate a new Eloquent model class with a migration, factory, and resource controller:
 
 `php artisan make:model {{ModelName}} --all`
 
