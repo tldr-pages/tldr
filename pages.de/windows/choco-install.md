@@ -11,7 +11,7 @@
 
 `choco install {{pfad/zu/pakete.config}}`
 
-- Installiere Pakete aus einer `nuspec`- oder `nupkg`-Datei:
+- Installiere Pakete aus einer `.nuspec`- oder `.nupkg`-Datei:
 
 `choco install {{pfad/zu/datei}}`
 

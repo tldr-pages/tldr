@@ -11,7 +11,7 @@
 
 `choco install {{jalan/menuju/paket.config}}`
 
-- Instal file nuspec atau nupkg tertentu:
+- Instal file `.nuspec` atau `.nupkg` tertentu:
 
 `choco install {{jalan/menuju/file}}`
 

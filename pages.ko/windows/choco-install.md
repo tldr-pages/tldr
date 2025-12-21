@@ -11,7 +11,7 @@
 
 `choco install {{경로\대상\패키지_파일.config}}`
 
-- 특정 `nuspec` 또는 `nupkg` 파일 설치:
+- 특정 `.nuspec` 또는 `.nupkg` 파일 설치:
 
 `choco install {{경로\대상\파일}}`
 
