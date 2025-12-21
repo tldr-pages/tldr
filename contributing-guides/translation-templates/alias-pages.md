@@ -178,7 +178,7 @@ The templates can be changed when necessary.
 
 > این دستور یک نام مستعار از `example` است.
 
-- مشاهده مستندات دستور اصلی :
+- مشاهده مستندات دستور اصلی:
 
 `tldr example`
 ```
