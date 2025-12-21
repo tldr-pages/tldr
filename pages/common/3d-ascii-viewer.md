@@ -25,4 +25,4 @@
 
 - Display help:
 
-`3d-ascii-viewer {{--help}}`y
+`3d-ascii-viewer {{--help}}`
