@@ -1,7 +1,7 @@
 # git
 
-> 分散型バージョン管理システム
-> いくつかのサブコマンドがあります。例えば `commit`, `add`, `branch`, `checkout`, `push`, などです。 これらには使用方法についての独自のドキュメントがあり、 `tldr git subcommand` で見ることができます。
+> 分散型バージョン管理システム。
+> いくつかのサブコマンドがあります。例えば `commit`, `add`, `branch`, `checkout`, `push`, などです。
 > もっと詳しく: <https://git-scm.com/docs/git>。
 
 - Gitのサブコマンドを実行する:

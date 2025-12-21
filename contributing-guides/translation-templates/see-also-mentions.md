@@ -111,7 +111,9 @@ Not translated yet.
 
 ### el
 
-Not translated yet.
+```markdown
+> Δείτε επίσης: `example`.
+```
 
 ---
 
