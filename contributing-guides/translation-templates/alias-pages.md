@@ -14,6 +14,7 @@ The templates can be changed when necessary.
 [cs](#cs) •
 [da](#da) •
 [de](#de) •
+[el](#el) •
 [es](#es) •
 [fa](#fa) •
 [fi](#fi) •
@@ -168,6 +169,21 @@ The templates can be changed when necessary.
 
 `tldr example`
 ```
+
+---
+
+### el
+
+```markdown
+# example
+
+> Αυτή η εντολή είναι ψευδώνυμο της εντολής `example`.
+
+- Δείτε το εγχειρίδιο της αρχικής εντολής:
+
+`tldr example`
+```
+
 
 ---
 
