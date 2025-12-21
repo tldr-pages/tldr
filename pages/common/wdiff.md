@@ -11,6 +11,6 @@
 
 `wdiff {{[-i|--ignore-case]}} {{path/to/file1}} {{path/to/file2}}`
 
-- Display how many words are deleted, inserted or replaced:
+- Display how many words are deleted, inserted, or replaced:
 
 `wdiff {{[-s|--statistics]}} {{path/to/file1}} {{path/to/file2}}`

@@ -1,6 +1,6 @@
 # conda
 
-> Package, dependency and environment management for any programming language.
+> Package, dependency, and environment management for any programming language.
 > Some subcommands such as `create` have their own usage documentation.
 > More information: <https://docs.conda.io/projects/conda/en/latest/commands/index.html>.
 
