@@ -1,6 +1,6 @@
 # 3d-ascii-viewer
 
-> View 3D .OBJ models as animated ASCII in the terminal.
+> View 3D `.obj` models as animated ASCII in the terminal.
 > More information: <https://github.com/autopawn/3d-ascii-viewer>.
 
 - Display a model:
