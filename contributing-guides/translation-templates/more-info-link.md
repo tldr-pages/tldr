@@ -112,7 +112,9 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 
 ### el
 
-Not translated yet.
+```markdown
+> Περισσότερες πληροφορίες: <https://example.com>.
+```
 
 ---
 

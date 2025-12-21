@@ -160,7 +160,15 @@ The templates can be changed when necessary.
 
 ### el
 
-Not translated yet.
+```markdown
+# example
+
+> Αυτή η εντολή είναι ψευδώνυμο της εντολής `example`.
+
+- Δείτε το εγχειρίδιο της αρχικής εντολής:
+
+`tldr example`
+```
 
 ---
 
