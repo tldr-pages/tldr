@@ -11,10 +11,10 @@
 
 `tdf {{[-f|--fullscreen]}} {{path/to/file}}.pdf`
 
-- Set custom white color:
+- Set a custom white color:
 
-`tdf -w "{{COLOR HEX or RGB}}"`
+`tdf {{[-w|--white-color]}} {{ffffff}} {{path/to/file}}.pdf`
 
-- Set custom black color:
+- Set a custom black color:
 
-`tdf -b "{{COLOR HEX or RGB}}"`
+`tdf {{[-b|--black-color]}} "rgb({{0}}, {{0}}, {{0}})" {{path/to/file}}.pdf`
