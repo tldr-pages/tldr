@@ -31,3 +31,7 @@
 - Match anything but the specified character:
 
 `[^{{a}}]`
+
+- Match a word and the boundary around a word:
+
+`"\w \b{{text}}\b"`
