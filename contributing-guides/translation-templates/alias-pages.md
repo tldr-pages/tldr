@@ -316,7 +316,7 @@ The templates can be changed when necessary.
 ```markdown
 # example
 
-> यो आदेश `example` को उपनाम हो |
+> यो आदेश `example` को उपनाम हो ।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 
