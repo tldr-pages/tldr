@@ -3,7 +3,7 @@
 > Behavior-driven development testing framework written in Ruby to test Ruby code.
 > More information: <https://rspec.info/features/3-13/rspec-core/command-line/>.
 
-- Initialize an .rspec configuration and a spec helper file:
+- Initialize an `.rspec` configuration and a spec helper file:
 
 `rspec --init`
 
