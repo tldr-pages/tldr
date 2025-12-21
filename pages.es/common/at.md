@@ -4,7 +4,7 @@
 > Los resultados se enviarán al correo del usuario.
 > Más información: <https://manned.org/at>.
 
-- Crea comandos interactivamente y los ejecuta en 5 minutos (pulsa `<Ctrl d>` cuando termines)::
+- Crea comandos interactivamente y los ejecuta en 5 minutos (pulsa `<Ctrl d>` cuando termines):
 
 `at now + 5 minutes`
 

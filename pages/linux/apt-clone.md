@@ -7,7 +7,7 @@
 
 `apt-clone clone {{path/to/directory}}`
 
-- Create a clone file (`tar.gz`) for backup purposes:
+- Create a clone file (`.tar.gz`) for backup purposes:
 
 `apt-clone clone --destination {{path/to/backup.tar.gz}}`
 

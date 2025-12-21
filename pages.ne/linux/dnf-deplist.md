@@ -1,6 +1,6 @@
 # dnf deplist
 
-> यो आदेश `dnf repoquery --deplist` को उपनाम हो |
+> यो आदेश `dnf repoquery --deplist` को उपनाम हो।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

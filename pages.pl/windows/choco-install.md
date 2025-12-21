@@ -11,7 +11,7 @@
 
 `choco install {{ścieżka/do/plik_konfiguracyjny.config}}`
 
-- Instalacja podanej specyfikacji nuspec lub pliku nupkg:
+- Instalacja podanej specyfikacji `.nuspec` lub pliku `.nupkg`:
 
 `choco install {{ścieżka/do/pliku}}`
 

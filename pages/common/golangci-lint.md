@@ -1,6 +1,6 @@
 # golangci-lint
 
-> Parallelized, smart and fast Go linters runner that integrates with all major IDEs and supports YAML configuration.
+> Parallelized, smart, and fast Go linters runner that integrates with all major IDEs and supports YAML configuration.
 > More information: <https://golangci-lint.run/welcome/quick-start/>.
 
 - Run linters in the current folder:

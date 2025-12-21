@@ -27,7 +27,7 @@
 
 `docker container inspect {{nome_do_contêiner}}`
 
-- Exporta o sistema de arquivos de um contêiner como um arquivo tar:
+- Exporta o sistema de arquivos de um contêiner como um arquivo `.tar`:
 
 `docker container export {{nome_do_contêiner}}`
 

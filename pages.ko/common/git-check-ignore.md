@@ -1,6 +1,6 @@
 # git check-ignore
 
-> Git ignore/exclude (".gitignore") 파일을 분석하고 디버깅.
+> Git ignore/exclude (`.gitignore`) 파일을 분석하고 디버깅.
 > 더 많은 정보: <https://git-scm.com/docs/git-check-ignore>.
 
 - 파일 또는 폴더가 무시되는지 확인:
