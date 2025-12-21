@@ -1,6 +1,6 @@
 # nf-core
 
-> The nf-core framework tools, to create, check and develop best-practice guidelines for Nextflow.
+> The nf-core framework tools to create, check, and develop best-practice guidelines for Nextflow.
 > More information: <https://nf-co.re/docs/nf-core-tools>.
 
 - List existing pipelines on nf-core:

@@ -3,7 +3,7 @@
 > A cross-platform file change monitor.
 > More information: <https://emcrisostomo.github.io/fswatch/>.
 
-- Run a Bash command on file creation, update or deletion:
+- Run a Bash command on file creation, update, or deletion:
 
 `fswatch {{path/to/file}} | xargs {{[-n|--max-args]}} 1 {{bash_command}}`
 

@@ -19,7 +19,7 @@
 
 `wc {{[-m|--chars]}} {{path/to/file}}`
 
-- Count all lines, words and bytes from `stdin`:
+- Count all lines, words, and bytes from `stdin`:
 
 `{{find .}} | wc`
 

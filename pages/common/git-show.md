@@ -11,7 +11,7 @@
 
 `git show {{commit|tag|branch}}`
 
-- Show only the list of added, renamed or deleted files:
+- Show only the list of added, renamed, or deleted files:
 
 `git show --summary {{commit}}`
 
@@ -31,6 +31,6 @@
 
 `git show --name-only {{commit}}`
 
-- Show the contents of a file as it was at a given revision (e.g. branch, tag or commit):
+- Show the contents of a file as it was at a given revision (e.g. branch, tag, or commit):
 
 `git show {{revision}}:{{path/to/file}}`

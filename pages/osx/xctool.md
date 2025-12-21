@@ -11,6 +11,6 @@
 
 `xctool -workspace {{YourWorkspace.xcworkspace}} -scheme {{YourScheme}} build`
 
-- Clean, build and execute all the tests:
+- Clean, build, and execute all the tests:
 
 `xctool -workspace {{YourWorkspace.xcworkspace}} -scheme {{YourScheme}} clean build test`

@@ -3,7 +3,7 @@
 > Display file status.
 > More information: <https://keith.github.io/xcode-man-pages/stat.1.html>.
 
-- Show file properties such as size, permissions, creation and access dates among others:
+- Show file properties such as size, permissions, creation, and access dates among others:
 
 `stat {{path/to/file}}`
 
