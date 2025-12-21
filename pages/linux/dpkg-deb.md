@@ -1,6 +1,6 @@
 # dpkg-deb
 
-> Pack, unpack and provide information about Debian archives.
+> Pack, unpack, and provide information about Debian archives.
 > More information: <https://manned.org/dpkg-deb>.
 
 - Display information about a package:
