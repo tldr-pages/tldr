@@ -7,7 +7,7 @@
 
 `sudo genkernel all`
 
-- Build and install the bzImage|initramfs|kernel|ramdisk only:
+- Build and install the bzImage, initramfs, kernel, or ramdisk only:
 
 `sudo genkernel {{bzImage|initramfs|kernel|ramdisk}}`
 

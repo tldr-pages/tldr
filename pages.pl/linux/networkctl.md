@@ -24,7 +24,7 @@
 
 `networkctl renew {{interfejs1 interfejs2 ...}}`
 
-- Przeładuj pliki konfiguracyjne (.netdev i .network):
+- Przeładuj pliki konfiguracyjne (`.netdev` i `.network`):
 
 `networkctl reload`
 

@@ -7,7 +7,7 @@
 
 `apt-clone clone {{路径/到/目录}}`
 
-- 创建克隆文件（tar.gz）用于备份：
+- 创建克隆文件（`.tar.gz`）用于备份：
 
 `apt-clone clone --destination {{路径/到/备份文件.tar.gz}}`
 

@@ -24,7 +24,7 @@
 
 `networkctl renew {{인터페이스1 인터페이스2 ...}}`
 
-- 구성 파일(.netdev 및 .network) 재로드:
+- 구성 파일(`.netdev` 및 `.network`) 재로드:
 
 `networkctl reload`
 

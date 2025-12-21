@@ -1,7 +1,7 @@
 # lvmdump
 
 > Raccoglie informazioni diagnostiche su LVM2 (Logical Volume Manager).
-> Per impostazione predefinita, genera un archivio tar compresso con dati di sistema e configurazione nella directory home.
+> Per impostazione predefinita, genera un archivio `.tar` compresso con dati di sistema e configurazione nella directory home.
 > Maggiori informazioni: <https://manned.org/lvmdump>.
 
 - Genera un dump base:

@@ -11,10 +11,10 @@
 
 `git ls-files --modified`
 
-- .gitignore에 명시된 파일과 Git이 관리하지 않는 파일 보기:
+- `.gitignore`에 명시된 파일과 Git이 관리하지 않는 파일 보기:
 
 `git ls-files --others`
 
-- Git이 관리하지 않는 파일 중 .gitignore에 명시되지 않은 파일 보기:
+- Git이 관리하지 않는 파일 중 `.gitignore`에 명시되지 않은 파일 보기:
 
 `git ls-files --others --exclude-standard`
