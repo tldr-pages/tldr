@@ -18,3 +18,15 @@
 - Import a VMDK/qcow2/raw disk image using a specific storage name:
 
 `qm {{[di|disk]}} {{[i|import]}} {{vm_id}} {{path/to/disk}} {{storage_name}} --format {{qcow2|raw|vmdk}}`
+
+- Rescan all storages and update disk sizes and unused disk images:
+
+`qm {{[di|disk]}} {{[resc|rescan]}}`
+
+- Perform a dry-run of a rescan and do not write any changes to configurations:
+
+`qm {{[di|disk]}} {{[resc|rescan]}} --dryrun`
+
+- Specify a virtual machine by its ID:
+
+`qm {{[di|disk]}} {{[resc|rescan]}} --vmid {{100}}`
