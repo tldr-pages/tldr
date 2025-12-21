@@ -2,6 +2,6 @@
 
 > این دستور یک نام مستعار از `rustup toolchain install` است.
 
-- مشاهده مستندات دستور اصلی :
+- مشاهده مستندات دستور اصلی:
 
 `tldr rustup toolchain`
