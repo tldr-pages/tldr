@@ -32,6 +32,6 @@
 
 `[^{{a}}]`
 
-- Match a word and the boundary around a word:
+- Boundary around a word:
 
-`"\w \b{{text}}\b"`
+`"\b"`
