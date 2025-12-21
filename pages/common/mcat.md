@@ -23,7 +23,7 @@
 
 `mcat {{path/to/directory}}`
 
-- List the contents of a directory including hidden files:
+- List the contents of a directory, including hidden files:
 
 `mcat {{[-a|--hidden]}} {{path/to/directory}}`
 
