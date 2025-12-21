@@ -1,6 +1,6 @@
 # docker stats
 
-> यो आदेश `docker container stats` को उपनाम हो |
+> यो आदेश `docker container stats` को उपनाम हो।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

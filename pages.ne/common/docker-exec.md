@@ -1,6 +1,6 @@
 # docker exec
 
-> यो आदेश `docker container exec` को उपनाम हो |
+> यो आदेश `docker container exec` को उपनाम हो।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 
