@@ -1,6 +1,6 @@
 # systemd-umount
 
-> यो आदेश `systemd-mount --umount` को उपनाम हो |
+> यो आदेश `systemd-mount --umount` को उपनाम हो।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

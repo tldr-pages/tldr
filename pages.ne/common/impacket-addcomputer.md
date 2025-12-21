@@ -1,6 +1,6 @@
 # impacket-addcomputer
 
-> यो आदेश `addcomputer.py` को उपनाम हो |
+> यो आदेश `addcomputer.py` को उपनाम हो।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 
