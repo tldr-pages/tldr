@@ -1,7 +1,7 @@
 # systemctl add-requires
 
 > Agrega dependencias `Requires` a un target para una o más unidades.
-> Más información: <https://www.freedesktop.org/software/systemd/man/systemctl.html#add-wants%20TARGET%0A%20%20%20%20%20%20%20%20%20%20UNIT%E2%80%A6>.
+> Más información: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#add-wants%20TARGET%20UNIT%E2%80%A6>.
 
 - Agrega una dependencia `Requires` desde un target a una unidad:
 
