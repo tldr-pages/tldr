@@ -276,7 +276,7 @@ def get_alias_command_in_page(path: Path, alias_pattern: str) -> AliasPageConten
         title=title,
         original_command=original_command,
         documentation_command=documentation_command,
-        full_page=content
+        full_page=content,
     )
 
 
