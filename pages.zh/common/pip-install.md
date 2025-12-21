@@ -15,7 +15,7 @@
 
 `pip install {{[-r|--requirement]}} {{requirements.txt}}`
 
-- 通过 URL 或源码存档文件安装（如 *.tar.gz 或 *.whl）：
+- 通过 URL 或源码存档文件安装（如 `.tar.gz` 或 `.whl`）：
 
 `pip install {{[-f|--find-links]}} {{url|存档文件}}`
 

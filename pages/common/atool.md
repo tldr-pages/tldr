@@ -32,6 +32,6 @@
 
 `atool {{[-x|--extract]}} {{[-e|--each]}} {{archive1.zip}} {{archive2.tar.gz}} {{*.rar}}`
 
-- Repack an archive from one format to another (e.g., .tar.gz to .tar.7z):
+- Repack an archive from one format to another (e.g., `.tar.gz` to `.tar.7z`):
 
 `atool {{[-r|--repack]}} {{old_archive.tar.gz}} {{new_archive.tar.7z}}`
