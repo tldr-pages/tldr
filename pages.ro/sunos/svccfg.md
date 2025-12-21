@@ -1,16 +1,16 @@
 # svccfg
 
-> Import, export, and modify service configurations.
-> More information: <https://www.unix.com/man-page/linux/1m/svccfg>.
+> Importă, exportă și modifică configurațiile serviciilor.
+> Mai multe informații: <https://www.unix.com/man-page/linux/1m/svccfg>.
 
-- Validate configuration file:
+- Validează un fișier de configurare:
 
-`svccfg validate {{path/to/smf_file.xml}}`
+`svccfg validate {{cale/către/fișier_smf.xml}}`
 
-- Export service configurations to file:
+- Exportă configurațiile serviciului într-un fișier:
 
-`svccfg export {{servicename}} > {{path/to/smf_file.xml}}`
+`svccfg export {{nume_serviciu}} > {{cale/către/fișier_smf.xml}}`
 
-- Import/update service configurations from file:
+- Importă/actualizează configurațiile serviciului dintr-un fișier:
 
-`svccfg import {{path/to/smf_file.xml}}`
+`svccfg import {{cale/către/fișier_smf.xml}}`
