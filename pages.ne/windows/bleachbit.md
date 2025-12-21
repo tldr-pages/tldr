@@ -1,6 +1,6 @@
 # bleachbit
 
-> यो आदेश `bleachbit_console` को उपनाम हो |
+> यो आदेश `bleachbit_console` को उपनाम हो ।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

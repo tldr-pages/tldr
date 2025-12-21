@@ -1,6 +1,6 @@
 # minetestserver
 
-> यो आदेश `luantiserver` को उपनाम हो |
+> यो आदेश `luantiserver` को उपनाम हो ।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

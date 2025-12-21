@@ -1,6 +1,6 @@
 # docker images
 
-> यो आदेश `docker image ls` को उपनाम हो |
+> यो आदेश `docker image ls` को उपनाम हो ।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

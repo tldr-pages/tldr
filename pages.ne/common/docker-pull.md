@@ -1,6 +1,6 @@
 # docker pull
 
-> यो आदेश `docker image pull` को उपनाम हो |
+> यो आदेश `docker image pull` को उपनाम हो ।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

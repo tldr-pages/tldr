@@ -1,6 +1,6 @@
 # steamos-boot-install
 
-> यो आदेश `steamos-finalize-install` को उपनाम हो |
+> यो आदेश `steamos-finalize-install` को उपनाम हो ।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

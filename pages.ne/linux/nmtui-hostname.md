@@ -1,6 +1,6 @@
 # nmtui-hostname
 
-> यो आदेश `nmtui hostname` को उपनाम हो |
+> यो आदेश `nmtui hostname` को उपनाम हो ।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

@@ -1,6 +1,6 @@
 # avahi-resolve-host-name
 
-> यो आदेश `avahi-resolve --name` को उपनाम हो |
+> यो आदेश `avahi-resolve --name` को उपनाम हो ।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

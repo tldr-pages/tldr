@@ -1,6 +1,6 @@
 # pct move_volume
 
-> यो आदेश `pct move-volume` को उपनाम हो |
+> यो आदेश `pct move-volume` को उपनाम हो ।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

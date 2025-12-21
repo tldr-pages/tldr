@@ -1,6 +1,6 @@
 # systemctl condrestart
 
-> यो आदेश `systemctl try-restart` को उपनाम हो |
+> यो आदेश `systemctl try-restart` को उपनाम हो ।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 
