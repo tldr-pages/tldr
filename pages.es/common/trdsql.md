@@ -5,7 +5,7 @@
 
 - Convierte datos de objetos de varios archivos JSON a un archivo CSV con encabezado (`-oh`) y comillas dobles:
 
-`trdsql -ocsv -oh "SELECT * FROM {{ruta/al/archivo/*.json}}" | sed 's/\([^,]*\)/«&»/g' > {{ruta/al/archivo.csv}}`
+`trdsql -ocsv -oh "SELECT * FROM {{ruta/al/archivo/*.json}}" | sed 's/\([^,]*\)/"&"/g' > {{ruta/al/archivo.csv}}`
 
 - Interpreta una lista JSON como tabla y pone objetos dentro como columnas ( ruta/al/archivo.json: `{"lista":[{"edad":"26", "nombre":"Tanaka"}]}`):
 
