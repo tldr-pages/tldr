@@ -31,4 +31,4 @@
 
 - Builda utilizzando più job (thread) paralleli:
 
-`cargo {{[b|build]}} --jobs {{numero_job}}`
+`cargo {{[b|build]}} {{[-j|--jobs]}} {{numero_job}}`
