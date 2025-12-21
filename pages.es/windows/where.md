@@ -1,7 +1,7 @@
 # where
 
 > Muestra la ubicación de archivos que coinciden con el patrón de búsqueda.
-> Por defecto busca en el directorio de trabajo actual y en las rutas definidas en la variable de entorno PATH.
+> Por defecto busca en el directorio de trabajo actual y en las rutas definidas en la variable de entorno `$PATH`.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/where>.
 
 - Muestra la ubicación del patrón de archivo:
