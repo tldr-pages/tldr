@@ -1,7 +1,7 @@
 # where
 
 > Display the location of files that match the search pattern.
-> Defaults to current work directory and paths in the `$PATH` environment variable.
+> Defaults to current work directory and paths in the `%PATH%` environment variable.
 > More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/where>.
 
 - Display the location of file pattern:
