@@ -4,7 +4,7 @@
 > Unmount the partition before running this command using `umount device`.
 > More information: <https://manned.org/dumpe2fs>.
 
-- Display ext2, ext3 and ext4 filesystem information:
+- Display ext2, ext3, and ext4 filesystem information:
 
 `dumpe2fs {{/dev/sdXN}}`
 

@@ -1,6 +1,6 @@
 # systemd-creds
 
-> List, show, encrypt and decrypt service credentials.
+> List, show, encrypt, and decrypt service credentials.
 > More information: <https://www.freedesktop.org/software/systemd/man/latest/systemd-creds.html>.
 
 - Encrypt a file and set a specific name:

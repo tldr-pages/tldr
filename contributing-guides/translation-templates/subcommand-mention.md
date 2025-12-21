@@ -13,6 +13,7 @@ This file contains the translation templates of this notice.
 [cs](#cs) •
 [da](#da) •
 [de](#de) •
+[el](#el) •
 [es](#es) •
 [fa](#fa) •
 [fi](#fi) •
@@ -108,6 +109,12 @@ This file contains the translation templates of this notice.
 
 ---
 
+### el
+
+Not translated yet.
+
+---
+
 ### es
 
 ```markdown
@@ -143,7 +150,7 @@ This file contains the translation templates of this notice.
 ### hi
 
 ```markdown
-> कुछ कमांड्स जैसे की `example`, उनके अपने उपयोग प्रलेखन हैं|
+> कुछ कमांड्स जैसे की `example`, उनके अपने उपयोग प्रलेखन हैं।
 ```
 
 ---

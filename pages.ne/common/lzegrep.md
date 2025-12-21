@@ -1,6 +1,6 @@
 # lzegrep
 
-> यो आदेश `xzgrep --extended-regexp` को उपनाम हो |
+> यो आदेश `xzgrep --extended-regexp` को उपनाम हो।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

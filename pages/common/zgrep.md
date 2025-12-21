@@ -23,7 +23,7 @@
 
 `zgrep {{[-e|--regexp]}} "{{pattern_1}}" {{[-e|--regexp]}} "{{pattern_2}}" {{path/to/compressed_file}}`
 
-- Use extended `regex` (supporting `?`, `+`, `{}`, `()` and `|`):
+- Use extended `regex` (supporting `?`, `+`, `{}`, `()`, and `|`):
 
 `zgrep {{[-E|--extended-regexp]}} {{regex}} {{path/to/file}}`
 

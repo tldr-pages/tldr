@@ -5,7 +5,7 @@
 > See also: `quickemu`.
 > More information: <https://github.com/quickemu-project/quickemu>.
 
-- Display the list of all supported guest operating systems, versions and variants:
+- Display the list of all supported guest operating systems, versions, and variants:
 
 `quickget list`
 

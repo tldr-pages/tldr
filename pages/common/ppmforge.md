@@ -1,6 +1,6 @@
 # ppmforge
 
-> Generate fractals resembling clouds, planets and starry skies.
+> Generate fractals resembling clouds, planets, and starry skies.
 > More information: <https://netpbm.sourceforge.net/doc/ppmforge.html>.
 
 - Generate an image of a planet:
