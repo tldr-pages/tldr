@@ -20,7 +20,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | el
 | es    | ruta/al/archivo       | ruta/al/directorio       | ruta/al/archivo_o_directorio       | paquete     | usuario            |          |
 | fa    |                       |                          |                                    |             |                    |          |
-| fi    | polku/tiedostoon      | polku/hakemistoon        | polku/tiedostoon_tai_hakemistoon   | paketti     | käyttäjätunnus     | salasana |
+| fi    | polku/tiedostoon      | polku/hakemistoon        | polku/tiedostoon_tai_hakemistoon   | paketti     | käyttäjätunnus     | salasana | komento |
 | fr    | chemin/vers/fichier   | chemin/vers/dossier      | chemin/vers/fichier_ou_dossier     | paquet      | nom_d_utilisateur  |          |
 | hi    | फ़ाइल/का/पथ            | निर्देशिका/का/पथ           | फ़ाइल_या_निर्देशिका/का/पथ             | पैकेज         | उपयोगकर्ता_नाम      |          |
 | id    | jalan/menuju/berkas   | jalan/menuju/direktori   | jalan/menuju/berkas_atau_direktori | paket       | nama_pengguna      |          |
