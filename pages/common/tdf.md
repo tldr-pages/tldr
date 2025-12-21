@@ -3,9 +3,9 @@
 > A tui PDF viewer.
 > More information: <https://github.com/itsjunetime/tdf>.
 
-- Open specific file:
+- Open a specific file:
 
-`tdf {{path/to/pdf}}`
+`tdf {{path/to/file}}.pdf`
 
 - Open in fullscreen mode:
 
