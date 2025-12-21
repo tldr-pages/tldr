@@ -11,7 +11,7 @@
 
 `choco install {{配置文件的路径}}`
 
-- 安装一个特定的 `.nuspec` 或 `nupkg` 文件：
+- 安装一个特定的 `.nuspec` 或 `.nupkg` 文件：
 
 `choco install {{文件的路径}}`
 
