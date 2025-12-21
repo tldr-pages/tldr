@@ -3,7 +3,7 @@
 > Advanced log file viewer to analyze logs with little to no setup.
 > More information: <https://docs.lnav.org/en/latest/cli.html>.
 
-- View logs of a program, specifying log files, directories or URLs:
+- View logs of a program, specifying log files, directories, or URLs:
 
 `lnav {{path/to/log_or_directory|url}}`
 

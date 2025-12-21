@@ -24,7 +24,7 @@
 
 `urpmq --list-media --list-url`
 
-- Search for a package printing [g]roup, version and [r]elease:
+- Search for a package printing [g]roup, version, and [r]elease:
 
 `urpmq -g -r {{[-y|--fuzzy]}} {{keyword}}`
 

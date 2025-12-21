@@ -1,6 +1,6 @@
 # zed
 
-> Text editor designed to be fast, efficient and convenient.
+> Text editor designed to be fast, efficient, and convenient.
 > More information: <https://zed.dev/docs/#cli>.
 
 - Open specific paths in Zed:

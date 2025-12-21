@@ -7,7 +7,7 @@
 
 `fuser {{path/to/file_or_directory}}`
 
-- Show more fields (`USER`, `PID`, `ACCESS` and `COMMAND`):
+- Show more fields (`USER`, `PID`, `ACCESS`, and `COMMAND`):
 
 `fuser {{[-v|--verbose]}} {{path/to/file_or_directory}}`
 

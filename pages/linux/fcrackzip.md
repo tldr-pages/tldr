@@ -3,11 +3,11 @@
 > ZIP archive password cracking utility.
 > More information: <https://manned.org/fcrackzip>.
 
-- Brute-force a password with a length of 4 to 8 characters, and contains only alphanumeric characters (order matters):
+- Brute-force a password with a length of 4 to 8 characters and contains only alphanumeric characters (order matters):
 
 `fcrackzip {{[-b|--brute-force]}} {{[-l|--length]}} 4-8 {{[-c|--charset]}} aA1 {{archive}}`
 
-- Brute-force a password in verbose mode with a length of 3 characters that only contains lowercase characters, `$` and `%`:
+- Brute-force a password in verbose mode with a length of 3 characters that only contains lowercase characters, `$`, and `%`:
 
 `fcrackzip {{[-v|--verbose]}} {{[-b|--brute-force]}} {{[-l|--length]}} 3 {{[-c|--charset]}} a:$% {{archive}}`
 
