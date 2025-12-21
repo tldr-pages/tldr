@@ -33,4 +33,4 @@
 
 - Utilice `fuzzel` para realizar una búsqueda en línea:
 
-`fuzzel {{[-d|--dmenu]}} {{[-l|--lines]}} 0 --placeholder "{{Escriba su búsqueda}}" | sed 's/^/\«/g;s/$/\»/g' | xargs firefox --search`
+`fuzzel {{[-d|--dmenu]}} {{[-l|--lines]}} 0 --placeholder "{{Escriba su búsqueda}}" | sed 's/^/\"/g;s/$/\"/g' | xargs firefox --search`

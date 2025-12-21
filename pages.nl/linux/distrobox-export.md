@@ -12,7 +12,7 @@
 
 `distrobox-export {{[-b|--bin]}} {{pad/naar/binary}} {{[-ep|--export-path]}} {{pad/naar/binary_op_host}}`
 
-- Exporteer een binary van de container naar de host (bijv.`$HOME/.local/bin`) :
+- Exporteer een binary van de container naar de host (bijv.`$HOME/.local/bin`):
 
 `distrobox-export {{[-b|--bin]}} {{pad/naar/binary}} {{[-ep|--export-path]}} {{pad/naar/export}}`
 

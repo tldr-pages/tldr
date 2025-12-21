@@ -20,7 +20,7 @@
 
 `gladtex {{경로/대상/입력파일.htex}} -r {{resolution}}`
 
-- 변환 후 LaTeX 파일 유지([k]eep) :
+- 변환 후 LaTeX 파일 유지([k]eep):
 
 `gladtex {{경로/대상/입력파일.htex}} -k`
 

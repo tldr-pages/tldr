@@ -7,7 +7,7 @@
 
 `aws cognito-idp create-user-pool --pool-name {{이름}}`
 
-- 모든 사용자 풀 나열 :
+- 모든 사용자 풀 나열:
 
 `aws cognito-idp list-user-pools --max-results {{10}}`
 

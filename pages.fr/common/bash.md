@@ -28,6 +28,6 @@
 
 `bash -s`
 
-- Affiche la version de Bash (`$BASH_VERSION` ne contenant que la version, sans les informations de license):
+- Affiche la version de Bash (`$BASH_VERSION` ne contenant que la version, sans les informations de license) :
 
 `bash --version`
