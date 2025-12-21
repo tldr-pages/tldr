@@ -1,7 +1,7 @@
 # systemd-mount
 
 > Establece y destruye puntos de montaje transitorio o de montaje automático (auto-mount point).
-> Más información: <https://www.freedesktop.org/software/systemd/man/systemd-mount.html>.
+> Más información: <https://www.freedesktop.org/software/systemd/man/latest/systemd-mount.html>.
 
 - Monta un sistema de archivos (imagen o dispositivo de bloque (block device)) en `/run/media/system/ETIQUETA` donde ETIQUETA es la etiqueta del sistema de archivos o el nombre del dispositivo si no hay etiqueta:
 

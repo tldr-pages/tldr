@@ -1,7 +1,7 @@
 # aws workmail
 
 > Amazon WorkMail을 관리.
-> 더 많은 정보: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/workmail/index.html>.
+> 더 많은 정보: <https://docs.aws.amazon.com/cli/latest/reference/workmail/>.
 
 - 모든 WorkMail 조직을 나열:
 

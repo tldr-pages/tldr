@@ -11,15 +11,15 @@
 
 `irssi {{[-c|--connect]}} {{irc.example.com}} {{[-p|--port]}} {{port}}`
 
-- Join a channel:
+- [Interactive] Join a channel:
 
 `/join {{#channelname}}`
 
-- Change active window (starts at 1):
+- [Interactive] Change active window (starts at 1):
 
 `/win {{window_number}}`
 
-- Exit the application cleanly and quitting any server(s):
+- [Interactive] Exit the application cleanly and quitting any server(s):
 
 `/quit`
 

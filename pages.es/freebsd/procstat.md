@@ -1,7 +1,7 @@
 # procstat
 
 > Muestra información detallada sobre los procesos en FreeBSD.
-> Más información: <https://man.freebsd.org/cgi/man.cgi?query=procstat>.
+> Más información: <https://man.freebsd.org/cgi/man.cgi?procstat>.
 
 - Muestra los descriptores de archivo de un proceso específico:
 

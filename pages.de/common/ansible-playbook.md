@@ -1,7 +1,7 @@
 # ansible-playbook
 
 > In Playbook definierte Aufgaben auf entfernten Rechnern über SSH ausführen.
-> Weitere Informationen: <https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html>.
+> Weitere Informationen: <https://docs.ansible.com/projects/ansible/latest/cli/ansible-playbook.html>.
 
 - Führe Aufgaben im Playbook aus:
 

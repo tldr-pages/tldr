@@ -1,7 +1,7 @@
 # sonar-scanner
 
 > Maven, Gradle, Ant와 같은 빌드 도구를 사용하지 않는 SonarQube 프로젝트를 위한 일반 스캐너.
-> 더 많은 정보: <https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/>.
+> 더 많은 정보: <https://docs.sonarsource.com/sonarqube-server/analyzing-source-code/scanners/sonarscanner>.
 
 - 프로젝트의 루트 디렉토리에 있는 `sonar-project.properties`라는 구성 파일로 프로젝트 스캔:
 

@@ -1,7 +1,7 @@
 # rustup set
 
 > Alter `rustup` settings.
-> More information: <https://rust-lang.github.io/rustup>.
+> More information: <https://rust-lang.github.io/rustup/>.
 
 - Set the default host triple:
 

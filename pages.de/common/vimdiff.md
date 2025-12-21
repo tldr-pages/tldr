@@ -2,7 +2,7 @@
 
 > Öffne zwei oder mehr Dateien in Vim und zeige ihre Unterschiede an.
 > Siehe auch `vim`.
-> Weitere Informationen: <https://www.vim.org>.
+> Weitere Informationen: <https://www.vim.org/>.
 
 - Öffne zwei Dateien und zeige ihre Unterschiede an:
 

@@ -1,7 +1,7 @@
 # qdbus
 
 > 进程间通信 (IPC) 和远程过程调用 (RPC) 机制，最初在 Linux 上开发。
-> 更多信息：<https://doc.qt.io/qt-5/qtdbus-index.html>。
+> 更多信息：<https://doc.qt.io/archives/qt-5.15/qtdbus-index.html>。
 
 - 列出可用的服务名称：
 

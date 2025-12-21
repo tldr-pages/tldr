@@ -1,7 +1,7 @@
 # openssl ts
 
 > OpenSSL command to generate and verify timestamps.
-> More information: <https://www.openssl.org/docs/manmaster/man1/openssl-ts.html>.
+> More information: <https://docs.openssl.org/master/man1/openssl-ts/>.
 
 - Generate a SHA-512 timestamp request of a specific file and output to `file.tsq`:
 

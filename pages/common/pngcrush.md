@@ -1,7 +1,7 @@
 # pngcrush
 
 > PNG compression utility.
-> More information: <https://pmt.sourceforge.io/pngcrush>.
+> More information: <https://pmt.sourceforge.io/pngcrush/>.
 
 - Compress a PNG file:
 

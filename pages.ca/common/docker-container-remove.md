@@ -1,7 +1,7 @@
 # docker container remove
 
-> Aquest comandament és un àlies de `docker rm`.
+> Aquest comandament és un àlies de `docker container rm`.
 
 - Veure documentació pel comandament original:
 
-`tldr docker rm`
+`tldr docker container rm`

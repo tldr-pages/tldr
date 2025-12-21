@@ -1,7 +1,7 @@
 # aws backup
 
 > Unified backup service designed to protect Amazon Web Services services and their associated data.
-> More information: <https://docs.aws.amazon.com/cli/latest/reference/backup/index.html>.
+> More information: <https://docs.aws.amazon.com/cli/latest/reference/backup/>.
 
 - Return BackupPlan details for a specific BackupPlanId:
 

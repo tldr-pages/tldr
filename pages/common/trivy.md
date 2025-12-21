@@ -1,7 +1,7 @@
 # trivy
 
 > Scanner for vulnerabilities in container images, file systems, and Git repositories, as well as for configuration issues.
-> More information: <https://aquasecurity.github.io/trivy>.
+> More information: <https://trivy.dev/docs/latest/guide/references/configuration/cli/trivy/>.
 
 - Scan a Docker image for vulnerabilities and exposed secrets:
 

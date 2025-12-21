@@ -1,7 +1,7 @@
 # nix edit
 
 > Abre la expresión de Nix de un paquete Nix dentro de $EDITOR.
-> Más información: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-edit.html>.
+> Más información: <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-edit.html>.
 
 - Abre el código fuente de la expresión Nix de un paquete de nixpkgs dentro de tu `$EDITOR`:
 

@@ -1,7 +1,7 @@
 # choco info
 
 > 显示有关 Chocolatey 包的详细信息。
-> 更多信息：<https://chocolatey.org/docs/commands-info>。
+> 更多信息：<https://docs.chocolatey.org/en-us/choco/commands/info/>。
 
 - 显示指定包的信息：
 

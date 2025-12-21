@@ -1,7 +1,7 @@
 # choco apikey
 
 > Chocolatey 소스의 API 키 관리.
-> 더 많은 정보: <https://chocolatey.org/docs/commands-apikey>.
+> 더 많은 정보: <https://docs.chocolatey.org/en-us/create/commands/api-key/>.
 
 - 소스 및 해당 API 키 목록 표시:
 

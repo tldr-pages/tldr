@@ -1,7 +1,7 @@
 # protoc
 
 > Google Protobuf `.proto` 파일을 파싱하고 지정된 언어로 출력을 생성.
-> 더 많은 정보: <https://developers.google.com/protocol-buffers>.
+> 더 많은 정보: <https://manned.org/protoc>.
 
 - `.proto` 파일에서 Python 코드를 생성:
 

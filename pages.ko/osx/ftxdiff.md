@@ -1,7 +1,7 @@
 # ftxdiff
 
 > 두 폰트 간의 차이점을 비교합니다.
-> 더 많은 정보: <https://developer.apple.com/fonts>.
+> 더 많은 정보: <https://developer.apple.com/fonts/>.
 
 - 특정 텍스트 [f]파일에 차이점 출력:
 

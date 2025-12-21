@@ -1,7 +1,7 @@
 # choco pack
 
 > ஒரு `NuGet` விவரக்குறிப்பை `nupkg` கோப்பில் தொகுக்கவும்.
-> மேலும் விவரத்திற்கு: <https://chocolatey.org/docs/commands-pack>.
+> மேலும் விவரத்திற்கு: <https://docs.chocolatey.org/en-us/create/commands/pack/>.
 
 - ஒரு `nupkg` கோப்பில் ஒரு `NuGet` விவரக்குறிப்பைத் தொகுக்கவும்:
 

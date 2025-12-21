@@ -1,7 +1,7 @@
 # fswatch
 
 > A cross-platform file change monitor.
-> More information: <https://emcrisostomo.github.io/fswatch>.
+> More information: <https://emcrisostomo.github.io/fswatch/>.
 
 - Run a Bash command on file creation, update or deletion:
 

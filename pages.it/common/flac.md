@@ -1,7 +1,7 @@
 # flac
 
 > Codifica, decodifica e controlla file flac.
-> Maggiori informazioni: <https://xiph.org/flac>.
+> Maggiori informazioni: <https://xiph.org/flac/>.
 
 - Converte un file wav in un file flac (questo creerà un file flac nella medesima posizione del file wav):
 

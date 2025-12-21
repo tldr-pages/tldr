@@ -2,7 +2,7 @@
 
 > 도메인 이름, IPv4 및 IPv6 주소, DNS 리소스 레코드 및 서비스를 해석.
 > DNS 해석기를 검사하고 재구성.
-> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/resolvectl.html>.
+> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/latest/resolvectl.html>.
 
 - DNS 설정 표시:
 

@@ -33,4 +33,4 @@
 
 - Run command in a new container connecting it to a network:
 
-`docker run --network {{network}} {{image}}`
+`docker {{[run|container run]}} --network {{network}} {{image}}`

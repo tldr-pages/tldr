@@ -1,7 +1,7 @@
 # aws acm-pca
 
 > AWS Certificate Manager Private Certificate Authority.
-> More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/acm-pca/index.html>.
+> More information: <https://docs.aws.amazon.com/cli/latest/reference/acm-pca/>.
 
 - Create a private certificate authority:
 

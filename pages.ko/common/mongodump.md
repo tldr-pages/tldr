@@ -1,7 +1,7 @@
 # mongodump
 
 > MongoDB 인스턴스의 내용을 내보내는 유틸리티.
-> 더 많은 정보: <https://docs.mongodb.com/database-tools/mongodump/>.
+> 더 많은 정보: <https://www.mongodb.com/docs/database-tools/mongodump/>.
 
 - 모든 데이터베이스의 덤프 생성 (파일은 "dump"라는 폴더에 저장됨):
 

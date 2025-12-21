@@ -2,7 +2,7 @@
 
 > 디렉터리 툴체인 오버라이드를 수정합니다.
 > 툴체인에 대한 자세한 내용은 `rustup help toolchain`을 참조하세요.
-> 더 많은 정보: <https://rust-lang.github.io/rustup>.
+> 더 많은 정보: <https://rust-lang.github.io/rustup/>.
 
 - 디렉터리 툴체인 오버라이드 목록 표시:
 

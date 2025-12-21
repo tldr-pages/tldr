@@ -1,7 +1,7 @@
 # updatectl
 
 > System update utility.
-> More information: <https://www.freedesktop.org/software/systemd/man/updatectl.html>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/updatectl.html>.
 
 - Check to see if the system has any available updates:
 

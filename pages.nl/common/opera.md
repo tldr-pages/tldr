@@ -1,7 +1,7 @@
 # opera
 
 > Dit commando is een alias van `chromium`.
-> Meer informatie: <https://opera.com>.
+> Meer informatie: <https://www.opera.com/>.
 
 - Bekijk de documentatie van het originele commando:
 

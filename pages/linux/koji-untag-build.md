@@ -1,7 +1,7 @@
 # koji untag-build
 
 > Remove a tag from one or more builds.
-> More information: <https://docs.pagure.org/koji>.
+> More information: <https://docs.pagure.org/koji/>.
 
 - Remove a tag from one or more builds:
 

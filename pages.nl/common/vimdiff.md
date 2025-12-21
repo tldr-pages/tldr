@@ -2,7 +2,7 @@
 
 > Open twee of meer bestanden in `vim` en toon de verschillen.
 > Zie ook: `vim`, `vimtutor`, `nvim`.
-> Meer informatie: <https://www.vim.org>.
+> Meer informatie: <https://www.vim.org/>.
 
 - Open twee bestanden en toon de verschillen:
 

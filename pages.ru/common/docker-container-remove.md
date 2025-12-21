@@ -1,7 +1,7 @@
 # docker container remove
 
-> Эта команда — псевдоним для `docker rm`.
+> Эта команда — псевдоним для `docker container rm`.
 
 - Смотри документацию для оригинальной команды:
 
-`tldr docker rm`
+`tldr docker container rm`

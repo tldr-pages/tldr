@@ -2,7 +2,7 @@
 
 > Exporta aplicaciones/servicios/binarios del contenedor al sistema operativo anfitrión.
 > Vea también: `distrobox`.
-> Más información: <https://distrobox.it/usage/distrobox-export>.
+> Más información: <https://distrobox.it/usage/distrobox-export/>.
 
 - Exporta una aplicación del contenedor al anfitrión (la entrada de escritorio/ícono aparecerá en la lista de aplicaciones del sistema anfitrión):
 

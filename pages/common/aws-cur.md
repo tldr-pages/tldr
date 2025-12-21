@@ -1,7 +1,7 @@
 # aws cur
 
 > Create, query, and delete AWS usage report definitions.
-> More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cur/index.html>.
+> More information: <https://docs.aws.amazon.com/cli/latest/reference/cur/>.
 
 - Create an AWS cost and usage report definition from a JSON file:
 

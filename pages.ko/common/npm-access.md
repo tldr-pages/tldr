@@ -1,7 +1,7 @@
 # npm access
 
 > 게시된 패키지에 대한 접근 수준 설정.
-> 더 많은 정보: <https://docs.npmjs.com/cli/npm-access>.
+> 더 많은 정보: <https://docs.npmjs.com/cli/npm-access/>.
 
 - 사용자 또는 범위에 대한 패키지 나열:
 

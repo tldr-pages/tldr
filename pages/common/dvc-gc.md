@@ -1,7 +1,7 @@
 # dvc gc
 
 > Remove unused files and directories from the cache or remote storage.
-> More information: <https://dvc.org/doc/command-reference/gc>.
+> More information: <https://doc.dvc.org/command-reference/gc>.
 
 - Garbage collect from the cache, keeping only versions referenced by the current workspace:
 

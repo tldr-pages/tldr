@@ -2,7 +2,7 @@
 
 > Quita un contenedor Distrobox.
 > Vea también: `distrobox`.
-> Más información: <https://distrobox.it/usage/distrobox-rm>.
+> Más información: <https://distrobox.it/usage/distrobox-rm/>.
 
 - Quita un contenedor Distrobox (Consejo: Detenga el contenedor antes de retirarlo):
 

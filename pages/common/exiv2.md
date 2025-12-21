@@ -1,7 +1,7 @@
 # exiv2
 
 > Image metadata manipulation tool.
-> More information: <https://www.exiv2.org/manpage.html>.
+> More information: <https://exiv2.org/manpage.html>.
 
 - Print a summary of the image Exif metadata:
 

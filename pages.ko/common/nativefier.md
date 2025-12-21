@@ -1,7 +1,7 @@
 # nativefier
 
 > 최소한의 설정으로 모든 웹사이트를 위한 데스크탑 앱 생성.
-> 더 많은 정보: <https://github.com/jiahaog/nativefier>.
+> 더 많은 정보: <https://github.com/nativefier/nativefier>.
 
 - 웹사이트를 위한 데스크탑 앱 만들기:
 

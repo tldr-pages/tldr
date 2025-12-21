@@ -1,7 +1,7 @@
 # npm query
 
 > Print een array van afhankelijkheidsobjecten met behulp van CSS-achtige selectors.
-> Meer informatie: <https://docs.npmjs.com/cli/npm-query>.
+> Meer informatie: <https://docs.npmjs.com/cli/npm-query/>.
 
 - Print directe afhankelijkheden:
 

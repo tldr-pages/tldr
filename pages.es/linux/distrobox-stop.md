@@ -2,7 +2,7 @@
 
 > Detiene un contenedor Distrobox.
 > Vea también: `distrobox`.
-> Más información: <https://distrobox.it/usage/distrobox-stop>.
+> Más información: <https://distrobox.it/usage/distrobox-stop/>.
 
 - Detiene un contenedor Distrobox:
 

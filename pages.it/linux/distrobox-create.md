@@ -3,7 +3,7 @@
 > Crea un container Distrobox.
 > Il container creato sarà strettamente integrato con l'host, consentendo la condivisione della directory HOME dell'utente, storage esterno, dispositivi USB esterni, app grafiche (X11/Wayland) e audio.
 > Vedi anche: `distrobox`.
-> Maggiori informazioni: <https://distrobox.it/usage/distrobox-create>.
+> Maggiori informazioni: <https://distrobox.it/usage/distrobox-create/>.
 
 - Crea un container Distrobox usando l'immagine Ubuntu:
 

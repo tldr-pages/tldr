@@ -1,7 +1,7 @@
 # google-chrome-stable
 
 > To polecenie jest aliasem `chromium`.
-> Więcej informacji: <https://chrome.google.com>.
+> Więcej informacji: <https://www.google.com/chrome/>.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

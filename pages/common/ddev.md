@@ -1,7 +1,7 @@
 # ddev
 
 > Container based local development tool for PHP environments.
-> More information: <https://ddev.readthedocs.io/en/stable/users/usage/cli/>.
+> More information: <https://docs.ddev.com/en/stable/users/usage/cli/>.
 
 - Start up a project:
 

@@ -1,7 +1,7 @@
 # npm fund
 
 > Retrieve funding information from packages.
-> More information: <https://docs.npmjs.com/cli/npm-fund>.
+> More information: <https://docs.npmjs.com/cli/npm-fund/>.
 
 - List dependencies with funding URL for the project in the current directory:
 

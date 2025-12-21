@@ -2,7 +2,7 @@
 
 > Beheer Rust toolchains.
 > Bekijk `rustup help toolchain` voor meer informatie over toolchains.
-> Meer informatie: <https://rust-lang.github.io/rustup>.
+> Meer informatie: <https://rust-lang.github.io/rustup/>.
 
 - Installeer of update een bepaalde toolchain:
 

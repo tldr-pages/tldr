@@ -1,7 +1,7 @@
 # docker container remove
 
-> Această comandă este un alias al `docker rm`.
+> Această comandă este un alias al `docker container rm`.
 
 - Vizualizați documentația pentru comanda originală:
 
-`tldr docker rm`
+`tldr docker container rm`

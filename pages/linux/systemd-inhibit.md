@@ -2,7 +2,7 @@
 
 > Prohibit the system from entering certain power states.
 > Inhibitor locks may be used to block or delay system sleep and shutdown requests as well as automatic idle handling.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemd-inhibit.html>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemd-inhibit.html>.
 
 - List all active inhibition locks and the reasons for their creation:
 

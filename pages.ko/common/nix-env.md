@@ -1,7 +1,7 @@
 # nix-env
 
 > Nix 사용자 환경을 조작하거나 조회합니다.
-> 더 많은 정보: <https://nixos.org/manual/nix/stable/#sec-nix-env>.
+> 더 많은 정보: <https://nix.dev/manual/nix/stable/command-ref/nix-env.html>.
 
 - 설치된 모든 패키지 나열:
 

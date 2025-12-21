@@ -2,7 +2,7 @@
 
 > `gcloud`에 대한 권한 부여 및 취소, 자격 증명 관리.
 > 같이 보기: `gcloud`.
-> 더 많은 정보: <https://cloud.google.com/sdk/gcloud/reference/auth>.
+> 더 많은 정보: <https://docs.cloud.google.com/sdk/gcloud/reference/auth>.
 
 - Google Cloud 사용자 자격 증명으로 `gcloud` CLI에 대한 액세스를 허용하고 현재 계정을 활성 계정으로 설정:
 

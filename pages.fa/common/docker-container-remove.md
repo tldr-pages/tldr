@@ -1,7 +1,7 @@
 # docker container remove
 
-> این دستور یک نام مستعار از `docker rm` است.
+> این دستور یک نام مستعار از `docker container rm` است.
 
 - مشاهده مستندات دستور اصلی :
 
-`tldr docker rm`
+`tldr docker container rm`
