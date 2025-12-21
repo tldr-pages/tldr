@@ -17,8 +17,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | cs    | cesta/k/souboru       | cesta/k/adresari         | cesta/k/souboru_ci_adresari        | balíček     | jmeno_uzivatele    |          |
 | da    | sti/til/fil           | sti/til/mappe            | sti/til/fil_eller_mappe            | pakke       | brugernavn         |          |
 | de    | pfad/zu/datei         | pfad/zu/verzeichnis      | pfad/zu/datei_oder_verzeichnis     | paket       | benutzername       |          |
-| el    | διαδρομή/προς/αρχείο  | διαδρομή/προς/κατάλογο   | διαδρομή/προς/αρχείο_ή_κατάλογο    | πακέτο      | 
-όνομα χρήστη       | κωδικός πρόσβασης |
+| el    | διαδρομή/προς/αρχείο  | διαδρομή/προς/κατάλογο   | διαδρομή/προς/αρχείο_ή_κατάλογο    | πακέτο      | όνομα χρήστη  | κωδικός πρόσβασης   |
 | es    | ruta/al/archivo       | ruta/al/directorio       | ruta/al/archivo_o_directorio       | paquete     | usuario            |          |
 | fa    |                       |                          |                                    |             |                    |          |
 | fi    | polku/tiedostoon      | polku/hakemistoon        | polku/tiedostoon_tai_hakemistoon   | paketti     | käyttäjätunnus     | salasana |
