@@ -9,7 +9,7 @@
 
 - Open in fullscreen mode:
 
-`tdf -f {{path/to/pdf}}`
+`tdf {{[-f|--fullscreen]}} {{path/to/file}}.pdf`
 
 - Set custom white color:
 
