@@ -158,6 +158,12 @@ The templates can be changed when necessary.
 
 ---
 
+### el
+
+Not translated yet.
+
+---
+
 ### es
 
 ```markdown
@@ -169,11 +175,6 @@ The templates can be changed when necessary.
 
 `tldr example`
 ```
----
-
-### el
-
-Not translated yet.
 
 ---
 
