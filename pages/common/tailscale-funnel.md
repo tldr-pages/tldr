@@ -9,7 +9,7 @@
 
 - Expose a local folder in the foreground:
 
-`tailscale funnel {{path/to/directory/}}`
+`tailscale funnel {{path/to/directory}}`
 
 - Expose an HTTP server running at 127.0.0.1:3000 in the foreground:
 
