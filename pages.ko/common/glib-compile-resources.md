@@ -4,7 +4,7 @@
 > GResource API를 사용해 GTK 애플리케이션에 연결될 수 있음.
 > 더 많은 정보: <https://manned.org/glib-compile-resources>.
 
-- `file.gresource.xml`에서 참조된 리소스를 .gresource 바이너리로 컴파일:
+- `file.gresource.xml`에서 참조된 리소스를 `.gresource` 바이너리로 컴파일:
 
 `glib-compile-resources {{파일.gresource.xml}}`
 

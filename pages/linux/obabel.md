@@ -3,7 +3,7 @@
 > Translate chemistry-related data.
 > More information: <https://open-babel.readthedocs.io/en/latest/Command-line_tools/babel.html>.
 
-- Convert a .mol file to XYZ coordinates:
+- Convert a `.mol` file to XYZ coordinates:
 
 `obabel {{path/to/file.mol}} -O {{path/to/output_file.xyz}}`
 
