@@ -1,6 +1,6 @@
 # nix profile
 
-> Install, update and remove packages from Nix profiles.
+> Install, update, and remove packages from Nix profiles.
 > More information: <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-profile.html>.
 
 - Install some packages from nixpkgs into the default profile:

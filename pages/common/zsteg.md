@@ -1,7 +1,7 @@
 # zsteg
 
 > Steganography detection tool for PNG and BMP file formats.
-> It detects LSB steganography, ZLIB-compressed data, OpenStego, Camouflage and LSB with the Eratosthenes set.
+> It detects LSB steganography, ZLIB-compressed data, OpenStego, Camouflage, and LSB with the Eratosthenes set.
 > More information: <https://github.com/zed-0xff/zsteg>.
 
 - Detect embedded data in a PNG:

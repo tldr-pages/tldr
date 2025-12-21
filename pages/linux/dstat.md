@@ -4,7 +4,7 @@
 > Note: dstat is deprecated and no longer maintained.
 > More information: <https://github.com/dstat-real/dstat>.
 
-- Display CPU, disk, net, paging and system statistics:
+- Display CPU, disk, net, paging, and system statistics:
 
 `dstat`
 

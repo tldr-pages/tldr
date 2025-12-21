@@ -5,7 +5,7 @@
 > See also: `complete`, `compopt`.
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#index-compgen>.
 
-- List all shell built-ins, aliases, functions and executables that you could run:
+- List all shell built-ins, aliases, functions, and executables that you could run:
 
 `compgen -c`
 

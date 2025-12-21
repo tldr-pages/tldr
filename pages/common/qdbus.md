@@ -31,6 +31,6 @@
 
 `qdbus {{org.kde.kglobalaccel}} {{/component/kmix}} {{invokeShortcut}} "{{increase_volume}}"`
 
-- Gracefully log out and then do nothing, reboot or shut down:
+- Gracefully log out and then do nothing, reboot, or shut down:
 
 `qdbus {{org.kde.Shutdown}} {{/Shutdown}} {{logout|logoutAndReboot|logoutAndShutdown}}`

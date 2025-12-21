@@ -1,6 +1,6 @@
 # git reflog
 
-> Show a log of changes to local references like HEAD, branches or tags.
+> Show a log of changes to local references like HEAD, branches, or tags.
 > More information: <https://git-scm.com/docs/git-reflog>.
 
 - Show the reflog for `HEAD`:
