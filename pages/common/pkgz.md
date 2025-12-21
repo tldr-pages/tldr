@@ -15,7 +15,7 @@
 
 `pkgz search {{package_name}}`
 
-- Shows enabled sources with the package available and/or installed.
+- Shows enabled sources with the package available and/or installed:
 
 `pkgz info {{package_name}}`  
 
