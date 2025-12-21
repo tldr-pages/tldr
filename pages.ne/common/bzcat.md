@@ -1,6 +1,6 @@
 # bzcat
 
-> यो आदेश `bzip2 --decompress --stdout` को उपनाम हो ।
+> यो आदेश `bzip2 --decompress --stdout` को उपनाम हो।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

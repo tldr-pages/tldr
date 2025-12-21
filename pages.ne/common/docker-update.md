@@ -1,6 +1,6 @@
 # docker update
 
-> यो आदेश `docker container update` को उपनाम हो ।
+> यो आदेश `docker container update` को उपनाम हो।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

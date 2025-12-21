@@ -1,6 +1,6 @@
 # alternatives
 
-> यो आदेश `update-alternatives` को उपनाम हो ।
+> यो आदेश `update-alternatives` को उपनाम हो।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

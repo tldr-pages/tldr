@@ -1,6 +1,6 @@
 # apt-add-repository
 
-> यो आदेश `add-apt-repository` को उपनाम हो ।
+> यो आदेश `add-apt-repository` को उपनाम हो।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

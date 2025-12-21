@@ -1,6 +1,6 @@
 # docker top
 
-> यो आदेश `docker container top` को उपनाम हो ।
+> यो आदेश `docker container top` को उपनाम हो।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 
