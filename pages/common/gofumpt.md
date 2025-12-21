@@ -2,7 +2,7 @@
 
 > Strictly format Go files.
 > See also: `gofmt`.
-> More information: <https://pkg.go.dev/mvdan.cc/gofumpt>.
+> More information: <https://github.com/mvdan/gofumpt#gofumpt>.
 
 - Format Go files:
 
