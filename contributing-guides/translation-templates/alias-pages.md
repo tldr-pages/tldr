@@ -158,20 +158,6 @@ The templates can be changed when necessary.
 
 ---
 
-### es
-
-```markdown
-# example
-
-> Este comando es un alias de `example`.
-
-- Vea la documentación del comando original:
-
-`tldr example`
-```
-
----
-
 ### el
 
 ```markdown
@@ -184,6 +170,19 @@ The templates can be changed when necessary.
 `tldr example`
 ```
 
+---
+
+### es
+
+```markdown
+# example
+
+> Este comando es un alias de `example`.
+
+- Vea la documentación del comando original:
+
+`tldr example`
+```
 
 ---
 
