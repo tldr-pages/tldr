@@ -24,9 +24,9 @@
 
 `[{{abc}}]`
 
-- Match a range of characters:
+- Match ranges of characters:
 
-`[{{a-z3-9}}]`
+`[{{a-z}}][{{3-9}}]`
 
 - Match anything but the specified character:
 
