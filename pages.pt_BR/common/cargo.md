@@ -34,4 +34,4 @@
 
 - Constrói o projeto Rust utilizando um número específico de threads (padrão é o número de cores do CPU):
 
-`cargo {{[b|build]}} --jobs {{número_de_threads}}`
+`cargo {{[b|build]}} {{[-j|--jobs]}} {{número_de_threads}}`

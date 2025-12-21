@@ -31,6 +31,6 @@
 
 `adb shell pm grant {{paquet}} {{android.permission.CAMERA|android.permission.ACCESS_FINE_LOCATION|android.permission.READ_CONTACTS|...}}`
 
-- Révoque une permission d'une application:
+- Révoque une permission d'une application :
 
 `adb shell pm revoke {{paquet}} {{android.permission.CAMERA|android.permission.ACCESS_FINE_LOCATION|android.permission.READ_CONTACTS|...}}`

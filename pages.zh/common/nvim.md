@@ -33,6 +33,6 @@
 
 `{{<Esc><Z><Z>|<Esc><:>x<Enter>|<Esc><:>wq<Enter>}}`
 
-- 退出并不保存更改
+- 退出并不保存更改：
 
 `<Esc><:>q!<Enter>`

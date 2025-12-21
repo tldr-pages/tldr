@@ -20,7 +20,7 @@
 
 `hping3 --traceroute --verbose --syn --destport {{80}} {{ip_또는_호스트명}}`
 
-- 특정 IP 주소에서 TCP 포트 세트를 스캔 :
+- 특정 IP 주소에서 TCP 포트 세트를 스캔:
 
 `hping3 --scan {{80,3000,9000}} --syn {{ip_또는_호스트명}}`
 

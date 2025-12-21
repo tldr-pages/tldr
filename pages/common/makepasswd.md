@@ -15,6 +15,6 @@
 
 `makepasswd --minchars {{5}} --maxchars {{10}}`
 
-- Generate a password containing only the characters "b", "a" or "r":
+- Generate a password containing only the characters "b", "a", or "r":
 
 `makepasswd --string {{bar}}`

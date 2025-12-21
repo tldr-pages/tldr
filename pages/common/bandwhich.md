@@ -1,6 +1,6 @@
 # bandwhich
 
-> Display the current network utilization by process, connection or remote IP/hostname.
+> Display the current network utilization by process, connection, or remote IP/hostname.
 > More information: <https://github.com/imsnif/bandwhich#usage>.
 
 - Show the remote addresses table only:

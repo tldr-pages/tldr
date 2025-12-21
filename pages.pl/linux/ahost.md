@@ -3,7 +3,7 @@
 > Narzędzie zapytań DNS do wyświetlania rekordów A lub AAAA powiązanych z nazwą hosta lub adresem IP.
 > Więcej informacji: <https://manned.org/ahost>.
 
-- Wyświetl rekord `A` lub `AAAA` powiązany z nazwą hosta lub adresem IP::
+- Wyświetl rekord `A` lub `AAAA` powiązany z nazwą hosta lub adresem IP:
 
 `ahost {{example.com}}`
 

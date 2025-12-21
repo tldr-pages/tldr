@@ -20,7 +20,7 @@
 
 `make --file {{文件}}`
 
-- 从另一个目录执行 make ：
+- 从另一个目录执行 make：
 
 `make --directory {{文件夹}}`
 

@@ -1,6 +1,6 @@
 # git tag
 
-> Create, list, delete or verify tags.
+> Create, list, delete, or verify tags.
 > A tag is a static reference to a commit.
 > More information: <https://git-scm.com/docs/git-tag>.
 
