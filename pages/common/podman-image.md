@@ -1,7 +1,7 @@
 # podman image
 
 > Manage OCI/Docker container images.
-> See also: `podman build`, `podman import`, `podman pull`.
+> See also: `podman build`, `podman import`.
 > More information: <https://docs.podman.io/en/latest/markdown/podman-image.1.html>.
 
 - List local container images:
