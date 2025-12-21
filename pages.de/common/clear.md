@@ -11,7 +11,7 @@
 
 `clear -x`
 
-- Lege den Typ des zu leerenden Terminals fest (Standardwert ist die Umgebungsvariable $TERM):
+- Lege den Typ des zu leerenden Terminals fest (Standardwert ist die Umgebungsvariable `$TERM`):
 
 `clear -T {{typ_des_terminals}}`
 

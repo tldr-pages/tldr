@@ -19,6 +19,6 @@
 
 `github-label-sync --access-token {{토큰}} --allow-added-labels {{레포지토리_이름}}`
 
-- `GITHUB_ACCESS_TOKEN` 환경 변수를 사용하여 동기화:
+- `$GITHUB_ACCESS_TOKEN` 환경 변수를 사용하여 동기화:
 
 `github-label-sync {{레포지토리_이름}}`

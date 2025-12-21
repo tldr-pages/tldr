@@ -1,6 +1,6 @@
 # which
 
-> Locate a program in the user's path.
+> Locate a program in the user's `$PATH`.
 > See also: `whereis`, `whatis`, `type`.
 > More information: <https://manned.org/which>.
 

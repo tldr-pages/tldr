@@ -7,7 +7,7 @@
 
 `man {{command}}`
 
-- 在浏览器中打开一条命令的使用手册分页 (`BROWSER` 环境变量可以替换 `=browser_name`)：
+- 在浏览器中打开一条命令的使用手册分页 (`$BROWSER` 环境变量可以替换 `=browser_name`)：
 
 `man {{[-Hbrowser_name|--html=browser_name]}} {{command}}`
 

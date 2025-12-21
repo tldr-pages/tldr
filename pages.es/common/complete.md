@@ -5,7 +5,7 @@
 > Vea también: `compgen`, `compopt`.
 > Más información: <https://www.gnu.org/software/bash/manual/bash.html#index-complete>.
 
-- Establece los argumentos de un comando para autocompletar a través de una función (la respuesta de completado se envía en la variable `COMPREPLY`):
+- Establece los argumentos de un comando para autocompletar a través de una función (la respuesta de completado se envía en la variable `$COMPREPLY`):
 
 `complete -F {{función}} {{comando}}`
 

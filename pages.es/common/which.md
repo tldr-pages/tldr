@@ -1,9 +1,9 @@
 # which
 
-> Localiza un programa en la variable PATH del usuario.
+> Localiza un programa en la variable `$PATH` del usuario.
 > Más información: <https://manned.org/which>.
 
-- Busca en la variable PATH y muestra la ubicación de los ejecutables coincidentes:
+- Busca en la variable `$PATH` y muestra la ubicación de los ejecutables coincidentes:
 
 `which {{archivo_ejecutable}}`
 
