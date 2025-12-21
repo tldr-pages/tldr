@@ -3,7 +3,7 @@
 > El Buscador de Plata. Como `ack`, pero aspira a ser más rápido.
 > Más información: <https://manned.org/ag>.
 
-- Encuentra archivos que contengan «foo», e imprime las líneas coincidentes en contexto:
+- Encuentra archivos que contengan "foo", e imprime las líneas coincidentes en contexto:
 
 `ag foo`
 

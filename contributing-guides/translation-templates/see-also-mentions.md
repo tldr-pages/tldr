@@ -15,6 +15,7 @@ This file contains the translation templates of this notice.
 [cs](#cs) •
 [da](#da) •
 [de](#de) •
+[el](#el) •
 [es](#es) •
 [fa](#fa) •
 [fi](#fi) •
@@ -105,6 +106,12 @@ Not translated yet.
 ```markdown
 > Siehe auch: `example`.
 ```
+
+---
+
+### el
+
+Not translated yet.
 
 ---
 
