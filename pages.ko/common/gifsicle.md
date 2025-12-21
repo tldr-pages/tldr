@@ -19,7 +19,7 @@
 
 `gifsicle {{*.gif}} --delay={{10}} --loop > {{경로/대상/출력파일.gif}}`
 
-- 손실 압축을 사용하여 파일 크기 줄이기 :
+- 손실 압축을 사용하여 파일 크기 줄이기:
 
 `gifsicle -b {{경로/대상/입력파일.gif}} --optimize=3 --lossy={{100}} --colors={{16}} --dither`
 

@@ -2,7 +2,7 @@
 
 > Salta rápidamente entre los directorios que más visitas.
 > Se proporcionan alias como `j` o `jc` para escribir aún menos.
-> Vea también: «bashmarks».
+> Vea también: `bashmarks`.
 > Más información: <https://github.com/wting/autojump#name>.
 
 - Añade los alias `autojump` a tu intérprete de comandos:
