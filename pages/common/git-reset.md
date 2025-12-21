@@ -1,6 +1,6 @@
 # git reset
 
-> Undo commits or unstage changes, by resetting the current Git HEAD to the specified state.
+> Undo commits or unstage changes by resetting the current Git HEAD to the specified state.
 > If a path is passed, it works as "unstage"; if a commit hash or branch is passed, it works as "uncommit".
 > More information: <https://git-scm.com/docs/git-reset>.
 
@@ -28,6 +28,6 @@
 
 `git reset --hard`
 
-- Reset the repository to a given commit, discarding committed, staged and uncommitted changes since then:
+- Reset the repository to a given commit, discarding committed, staged, and uncommitted changes since then:
 
 `git reset --hard {{commit}}`

@@ -1,6 +1,6 @@
 # rustup show
 
-> Show installed toolchains, targets and the version of `rustc`.
+> Show installed toolchains, targets, and the version of `rustc`.
 > More information: <https://rust-lang.github.io/rustup/>.
 
 - Show all information:

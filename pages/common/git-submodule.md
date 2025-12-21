@@ -1,9 +1,9 @@
 # git submodule
 
-> Inspects, updates and manages submodules.
+> Inspect, update, and manage submodules.
 > More information: <https://git-scm.com/docs/git-submodule>.
 
-- View existing submodules, and the checked-out commit for each one:
+- View existing submodules and the checked-out commit for each one:
 
 `git submodule`
 

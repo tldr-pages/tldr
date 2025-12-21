@@ -1,6 +1,6 @@
 # aiac
 
-> Use OpenAI to generate IaC configurations, utilities, queries and more.
+> Use OpenAI to generate IaC configurations, utilities, queries, and more.
 > More information: <https://github.com/gofireflyio/aiac>.
 
 - Generate Terraform for Azure storage account:

@@ -19,7 +19,7 @@
 
 `jhead -n%Y_%m_%d-%H_%M_%S *.jpg`
 
-- Rotate losslessly all JPEG images by 90, 180 or 270 based on the EXIF orientation tag:
+- Rotate losslessly all JPEG images by 90, 180, or 270 degrees based on the EXIF orientation tag:
 
 `jhead -autorot *.jpg`
 

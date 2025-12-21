@@ -14,6 +14,7 @@ The templates can be changed when necessary.
 [cs](#cs) •
 [da](#da) •
 [de](#de) •
+[el](#el) •
 [es](#es) •
 [fa](#fa) •
 [fi](#fi) •
@@ -151,6 +152,20 @@ The templates can be changed when necessary.
 > Dieser Befehl ist ein Alias von `example`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
+
+`tldr example`
+```
+
+---
+
+### el
+
+```markdown
+# example
+
+> Αυτή η εντολή είναι ψευδώνυμο της εντολής `example`.
+
+- Δείτε το εγχειρίδιο της αρχικής εντολής:
 
 `tldr example`
 ```
@@ -316,7 +331,7 @@ The templates can be changed when necessary.
 ```markdown
 # example
 
-> यो आदेश `example` को उपनाम हो |
+> यो आदेश `example` को उपनाम हो।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

@@ -17,7 +17,7 @@
 
 `resolvconf -u`
 
-- Set the flag indicating whether `resolvconf` should run update scripts when invoked with `-a`, `-d` or `-u`:
+- Set the flag indicating whether `resolvconf` should run update scripts when invoked with `-a`, `-d`, or `-u`:
 
 `resolvconf --enable-updates`
 

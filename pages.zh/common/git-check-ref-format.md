@@ -7,7 +7,7 @@
 
 `git check-ref-format {{refs/head/refname}}`
 
-- 打印最近检出的分支名称
+- 打印最近检出的分支名称：
 
 `git check-ref-format --branch @{-1}`
 
