@@ -15,7 +15,7 @@
 
 `qm {{[di|disk]}} {{[m|move]}} --delete {{vm_id}} {{destination}} {{index}}`
 
-- Import a VMDK/qcow2/raw disk image using a specific storage name:
+- Import a VMDK/`.qcow2`/raw disk image using a specific storage name:
 
 `qm {{[di|disk]}} {{[i|import]}} {{vm_id}} {{path/to/disk}} {{storage_name}} --format {{qcow2|raw|vmdk}}`
 
