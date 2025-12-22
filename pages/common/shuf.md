@@ -15,6 +15,6 @@
 
 `shuf {{path/to/input_file}} {{[-o|--output]}} {{path/to/output_file}}`
 
-- Generate 3 random numbers in the range 1-10 (inclusive):
+- Generate 3 random numbers in the range 1-10 (numbers can repeat):
 
 `shuf {{[-n|--head-count]}} 3 {{[-i|--input-range]}} 1-10 {{[-r|--repeat]}}`
