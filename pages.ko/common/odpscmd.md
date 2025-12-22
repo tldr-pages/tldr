@@ -2,7 +2,7 @@
 
 > Aliyun ODPS (Open Data Processing Service) 명령줄 도구.
 > `inst`와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
-> 더 많은 정보: <https://www.alibabacloud.com/help/doc-detail/27971.htm>.
+> 더 많은 정보: <https://www.alibabacloud.com/help/en/maxcompute/user-guide/maxcompute-client>.
 
 - 사용자 지정 구성 파일로 명령줄 시작:
 
