@@ -18,3 +18,7 @@
 - Show entire library statistics:
 
 `beet stats`
+
+- Show statistics for a specific query:
+
+` beet stats {{query}}`
