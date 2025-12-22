@@ -578,6 +578,11 @@ The below section contains additional language and translation-specific rules:
 
 Do not translate `example.com`. The domain is [reserved by IANA for documentation purposes](https://www.iana.org/help/example-domains) and will not be leased to anyone. Translating the website name could put thoughtless users at risk.
 
+> [!IMPORTANT]
+> Only translate or update languages you can confidently read and proofread.
+> Avoid machine-generated or bulk edits across languages you do not know.
+> When you change an English page, it is fine to leave other languages untouched; native speakers and maintainers will sync them later via the translation dashboards.
+
 ### English-Specific Rules
 
 A normal hyphen (`-`) should be used in places where various style guides may recommend en dash (`–`) or em dash (`—`).
