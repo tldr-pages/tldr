@@ -2,36 +2,36 @@
 
 > إدارة حاويات وصور Docker.
 > بعض الأوامر الفرعية مثل `run` لها توثيق استخدام خاص بها.
-> لمزيد من المعلومات: <https://docs.docker.com/reference/cli/docker/>.
+> لمزيد من التفاصيل: <https://docs.docker.com/reference/cli/docker/>.
 
 - عرض جميع حاويات Docker (التشغيلية والمتوقفة):
 
-`docker ps {{[-a|--all]}}`
+`docker {{[ps|container ls]}} {{[-a|--all]}}`
 
 - تشغيل حاوية من صورة مع اسم مخصص:
 
-`docker run --name {{اسم_الحاوية}} {{الصورة}}`
+`docker {{[run|container run]}} --name {{container_name}} {{image}}`
 
 - تشغيل أو إيقاف حاوية موجودة:
 
-`docker {{start|stop}} {{اسم_الحاوية}}`
+`docker container {{start|stop}} {{container_name}}`
 
 - سحب صورة من سجل Docker:
 
-`docker pull {{الصورة}}`
+`docker {{[pull|image pull]}} {{image}}`
 
 - عرض قائمة الصور المحملة مسبقًا:
 
-`docker images`
+`docker {{[images|image ls]}}`
 
-- فتح طرفية تفاعلية داخل حاوية تعمل مع شيل Bourne (`sh`):
+- فتح وحدة تحكم تفاعلية داخل حاوية تعمل مع شيل Bourne (`sh`):
 
-`docker exec {{[-it|--interactive --tty]}} {{اسم_الحاوية}} {{sh}}`
+`docker {{[exec|container exec]}} {{[-it|--interactive --tty]}} {{container_name}} {{sh}}`
 
 - إزالة الحاويات المتوقفة:
 
-`docker rm {{حاوية1 حاوية2 ...}}`
+`docker {{[rm|container rm]}} {{container1 container2 ...}}`
 
 - متابعة وعرض سجلات الحاوية:
 
-`docker logs {{[-f|--follow]}} {{اسم_الحاوية}}`
+`docker {{[logs|container logs]}} {{[-f|--follow]}} {{container_name}}`
