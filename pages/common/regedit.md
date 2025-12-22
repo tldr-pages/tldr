@@ -1,6 +1,6 @@
 # regedit
 
-> Wine registry counterpart of the Microsft Windows 'regedit' service.
+> Wine registry counterpart of the Microsoft Windows `regedit` service.
 > More information: <https://manned.org/regedit>.
 
 - Export a specific registry key and contents to a file:
