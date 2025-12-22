@@ -34,4 +34,4 @@
 
 - Match a boundary around a word:
 
-`"\b"`
+`"\b{{text}}\b"`
