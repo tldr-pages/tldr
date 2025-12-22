@@ -24,3 +24,11 @@
 - Display number of occurrences of each line, sorted by the most frequent:
 
 `sort {{path/to/file}} | uniq {{[-c|--count]}} | sort {{[-nr|--numeric-sort --reverse]}}`
+
+- Compare only the first 5 characters on each line for uniqueness:
+
+`sort {{path/to/file}} | uniq {{[-w|--check-chars]}} 5`
+
+- Compare text after the first 5 character on each line for uniqueness:
+
+`sort {{path/to/file}} | uniq {{[-s|--skip-chars]}} 5`
