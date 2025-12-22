@@ -7,6 +7,10 @@
 
 `pkg {{[up|upgrade]}}`
 
+- List currently installed packages:
+
+`pkg {{[list-i|list-installed]}}`
+
 - Install a package:
 
 `pkg {{[i|install]}} {{package}}`
@@ -26,10 +30,6 @@
 - Show information about specific package:
 
 `pkg {{[sh|show]}} {{package}}`
-
-- List currently installed packages:
-
-`pkg {{[list-i|list-installed]}}`
 
 - Display help:
 
