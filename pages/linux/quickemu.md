@@ -2,6 +2,7 @@
 
 > Build and manage highly optimised desktop virtual machines quickly.
 > See also: `quickget` for preparing VM configurations.
+> Note: Virtual machine must be in stopped state when working with snapshots.
 > More information: <https://github.com/quickemu-project/quickemu>.
 
 - Create and run a virtual machine from a configuration file:
@@ -27,6 +28,10 @@
 - Restore a snapshot:
 
 `quickemu --snapshot apply {{tag}} --vm {{path/to/file.conf}}`
+
+- List available snapshots:
+
+`quickemu --snapshot info --vm {{path/to/file.conf}}`
 
 - Delete a snapshot:
 
