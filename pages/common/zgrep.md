@@ -7,10 +7,6 @@
 
 `zgrep {{pattern}} {{path/to/compressed_file}}`
 
-- Use extended `regex` (supports `?`, `+`, `{}`, `()`, and `|`):
-
-`zgrep {{[-E|--extended-regexp]}} {{regex}} {{path/to/file}}`
-
 - Print 3 lines of [C]ontext around, [B]efore, or [A]fter each match:
 
 `zgrep {{--context|--before-context|--after-context}} 3 {{pattern}} {{path/to/compressed_file}}`
@@ -31,3 +27,6 @@
 
 `zgrep {{[-e|--regexp]}} "{{pattern_1}}" {{[-e|--regexp]}} "{{pattern_2}}" {{path/to/compressed_file}}`
 
+- Use extended `regex` (supports `?`, `+`, `{}`, `()`, and `|`):
+
+`zgrep {{[-E|--extended-regexp]}} {{regex}} {{path/to/file}}`
