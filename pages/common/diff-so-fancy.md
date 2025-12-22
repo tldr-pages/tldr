@@ -7,6 +7,6 @@
 
 `diff {{[-u|--unified]}} {{path/to/file1}} {{path/to/file2}} | diff-so-fancy`
 
-- Set `diff-so-fancy` to colorize the output when Git compares commits:
+- Set `diff-so-fancy` to colorize the output during Git's interactive staging:
 
 `git config --global interactive.diffFilter "diff-so-fancy --patch"`
