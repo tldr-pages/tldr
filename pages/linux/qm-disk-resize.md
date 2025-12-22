@@ -1,8 +1,0 @@
-# qm disk resize
-
-> Resize a virtual machine disk in the Proxmox Virtual Environment (PVE).
-> More information: <https://pve.proxmox.com/pve-docs/qm.1.html#cli_qm_disk_resize>.
-
-- Add `n` gigabytes to a virtual disk:
-
-`qm {{[di|disk]}} {{[resi|resize]}} {{vm_id}} {{disk_name}} +{{n}}G`
