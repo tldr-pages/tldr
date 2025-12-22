@@ -8,9 +8,18 @@
 
 `{{command}} | sed 's/apple/mango/g'`
 
-- Use basic `regex` to replace "apple" with "mango" and "orange" with "lime" in-place in a file (overwriting original file):
+- Use basic `regex` to replace "apple" with "mango" in-place in a file (overwriting original file):
 
-`sed {{[-i|--in-place]}} -e 's/apple/mango/g' -e 's/orange/lime/g' {{path/to/file}}`
+`sed {{[-i|--in-place]}} 's/apple/mango/g' {{path/to/file}}`
+
+- Run multiple patterns in one command:
+
+`{{command}} | sed -e '{{s/apple/mango/g}}' -e '{{s/orange/lime/g}}'`
+
+- Use a custom delimiter (useful when the pattern contains slashes):
+
+`{{command}} | sed '{{s#////#____#g}}'`
+
 
 - [d]elete lines 1 to 5 of a file and back up the original file with a `.orig` extension:
 
@@ -27,11 +36,3 @@
 - Delete blank lines (with or without spaces/tabs) from a file, overwriting the original file in-place:
 
 `sed {{[-i|--in-place]}} '/^[[:space:]]*$/d' {{path/to/file}}`
-
-- Replace "apple" with "APPLE" on all lines using extended `regex`, print to `stdout`:
-
-`{{command}} | sed {{[-E|--regexp-extended]}} 's/(apple)/\U\1/g'`
-
-- Execute a specific `sed` script file and print the result to `stdout`:
-
-`{{command}} | sed {{[-f|--file]}} {{path/to/script.sed}}`
