@@ -12,9 +12,9 @@
 
 `grep {{[-F|--fixed-strings]}} "{{exact_string}}" {{path/to/file}}`
 
-- Search for a pattern in all files recursively in a directory, showing line numbers of matches, ignoring binary files:
+- Search for a pattern in all files recursively in a directory, ignoring binary files:
 
-`grep {{[-rnI|--recursive --line-number --binary-files=without-match]}} "{{search_pattern}}" {{path/to/directory}}`
+`grep {{[-rI|--recursive --binary-files=without-match]}} "{{search_pattern}}" {{path/to/directory}}`
 
 - Use extended `regex`es (supports `?`, `+`, `{}`, `()`, and `|`), in case-insensitive mode:
 
@@ -28,7 +28,7 @@
 
 `grep {{[-Hn|--with-filename --line-number]}} --color=always "{{search_pattern}}" {{path/to/file}}`
 
-- Search for lines matching a pattern, printing only the matched text:
+- Printing only the matched text:
 
 `grep {{[-o|--only-matching]}} "{{search_pattern}}" {{path/to/file}}`
 
