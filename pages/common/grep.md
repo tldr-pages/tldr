@@ -28,7 +28,7 @@
 
 `grep {{[-Hn|--with-filename --line-number]}} --color=always "{{search_pattern}}" {{path/to/file}}`
 
-- Printing only the matched text:
+- Print only the matched text:
 
 `grep {{[-o|--only-matching]}} "{{search_pattern}}" {{path/to/file}}`
 
