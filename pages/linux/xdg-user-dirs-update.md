@@ -4,7 +4,7 @@
 > See also: `xdg-user-dir`.
 > More information: <https://manned.org/xdg-user-dirs-update>.
 
-- Change XDG's DESKTOP directory to the specified directory (must be absolute):
+- Change XDG's DESKTOP directory to the specified directory:
 
 `xdg-user-dirs-update --set DESKTOP "/{{path/to/directory}}"`
 
