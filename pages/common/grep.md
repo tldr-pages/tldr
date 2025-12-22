@@ -16,10 +16,6 @@
 
 `grep {{[-rI|--recursive --binary-files=without-match]}} "{{search_pattern}}" {{path/to/directory}}`
 
-- Use extended `regex`es (supports `?`, `+`, `{}`, `()`, and `|`), in case-insensitive mode:
-
-`grep {{[-Ei|--extended-regexp --ignore-case]}} "{{search_pattern}}" {{path/to/file}}`
-
 - Print 3 lines of [C]ontext around, [B]efore, or [A]fter each match:
 
 `grep {{--context|--before-context|--after-context}} 3 "{{search_pattern}}" {{path/to/file}}`
@@ -35,3 +31,7 @@
 - Read data from `stdin` and do not print lines that match a pattern:
 
 `cat {{path/to/file}} | grep {{[-v|--invert-match]}} "{{search_pattern}}"`
+
+- Use extended `regex`es (supports `?`, `+`, `{}`, `()`, and `|`), in case-insensitive mode:
+
+`grep {{[-Ei|--extended-regexp --ignore-case]}} "{{search_pattern}}" {{path/to/file}}`
