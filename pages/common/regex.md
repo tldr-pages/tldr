@@ -32,6 +32,6 @@
 
 `[^{{a}}]`
 
-- Boundary around a word:
+- Match a boundary around a word:
 
 `"\b"`
