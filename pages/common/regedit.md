@@ -9,7 +9,7 @@
 
 - Delete a specified registry key:
 
-`regedit -D {{path|to|registrykey}}`
+`regedit -D {{path/to/registrykey}}`
 
 - Print help message:
 
