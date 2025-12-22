@@ -1,8 +1,8 @@
 # quickemu
 
 > Build and manage highly optimised desktop virtual machines quickly.
-> See also: `quickget` for preparing VM configurations.
 > Note: Virtual machine must be in stopped state when working with snapshots.
+> See also: `quickget` for preparing VM configurations.
 > More information: <https://github.com/quickemu-project/quickemu>.
 
 - Create and run a virtual machine from a configuration file:
