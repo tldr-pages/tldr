@@ -31,6 +31,6 @@
 
 `lsblk {{[-e|--exclude]}} {{1,7,...}}`
 
-- Display a customized summary using a comma-separated list of columns:
+- Add an extra information column to the display output using a comma-separated list of columns:
 
-`lsblk {{[-o|--output]}} {{NAME,ROTA,SERIAL,MODEL,TRAN,TYPE,SIZE,FSTYPE,MOUNTPOINT,...}}`
+`lsblk {{[-o|--output]}} +{{NAME,ROTA,SERIAL,MODEL,TRAN,TYPE,SIZE,FSTYPE,MOUNTPOINT,...}}`
