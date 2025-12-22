@@ -3,13 +3,9 @@
 > Share a local server on the internet using Tailscale.
 > More information: <https://tailscale.com/kb/1311/tailscale-funnel>.
 
-- Expose a local file in the foreground:
+- Expose a local file or directory in the foreground:
 
-`tailscale funnel {{path/to/file}}`
-
-- Expose a local folder in the foreground:
-
-`tailscale funnel {{path/to/directory}}`
+`tailscale funnel {{path/to/file_or_directory}}`
 
 - Expose an HTTP server running at 127.0.0.1:3000 in the foreground:
 
