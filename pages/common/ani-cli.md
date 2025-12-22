@@ -22,7 +22,7 @@
 
 - Use VLC as the media player:
 
-`ani-cli {{[-v|-vlc]}} "{{anime_title}}"`
+`ani-cli {{[-v|--vlc]}} "{{anime_title}}"`
 
 - Watch a specific episode:
 

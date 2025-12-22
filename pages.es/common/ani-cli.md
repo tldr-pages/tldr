@@ -17,11 +17,11 @@
 
 - Descarga toda la serie (un rango de todos los episodios):
 
-`ani-cli {{[-d|--download]}} {{[-r|--rango]}} "1 -1" "{{nombre_del_anime}}"`
+`ani-cli {{[-d|--download]}} {{[-r|--range]}} "1 -1" "{{nombre_del_anime}}"`
 
 - Usa VLC como reproductor multimedia:
 
-`ani-cli {{[-v|-vlc]}} "{{nombre_del_anime}}"`
+`ani-cli {{[-v|--vlc]}} "{{nombre_del_anime}}"`
 
 - Ve un episodio concreto:
 
