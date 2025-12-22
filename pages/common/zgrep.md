@@ -7,6 +7,14 @@
 
 `zgrep {{pattern}} {{path/to/compressed_file}}`
 
+- Use extended `regex` (supporting `?`, `+`, `{}`, `()`, and `|`):
+
+`zgrep {{[-E|--extended-regexp]}} {{regex}} {{path/to/file}}`
+
+- Print 3 lines of [C]ontext around, [B]efore, or [A]fter each match:
+
+`zgrep {{--context|--before-context|--after-context}} 3 {{pattern}} {{path/to/compressed_file}}`
+
 - Grep a pattern in a compressed file (case-insensitive):
 
 `zgrep {{[-i|--ignore-case]}} {{pattern}} {{path/to/compressed_file}}`
@@ -23,10 +31,3 @@
 
 `zgrep {{[-e|--regexp]}} "{{pattern_1}}" {{[-e|--regexp]}} "{{pattern_2}}" {{path/to/compressed_file}}`
 
-- Use extended `regex` (supporting `?`, `+`, `{}`, `()`, and `|`):
-
-`zgrep {{[-E|--extended-regexp]}} {{regex}} {{path/to/file}}`
-
-- Print 3 lines of [C]ontext around, [B]efore, or [A]fter each match:
-
-`zgrep {{--context|--before-context|--after-context}} 3 {{pattern}} {{path/to/compressed_file}}`
