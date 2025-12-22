@@ -24,7 +24,7 @@
 
 `networkctl renew {{interface1 interface2 ...}}`
 
-- Reload configuration files (.netdev and .network):
+- Reload configuration files (`.netdev` and `.network`):
 
 `networkctl reload`
 

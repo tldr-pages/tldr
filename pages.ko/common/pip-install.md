@@ -15,7 +15,7 @@
 
 `pip install {{[-r|--requirement]}} {{경로/대상/requirements.txt}}`
 
-- URL 또는 로컬 파일 아카이브(.tar.gz | .whl)에서 패키지 설치:
+- URL 또는 로컬 파일 아카이브(`.tar.gz` | `.whl`)에서 패키지 설치:
 
 `pip install {{[-f|--find-links]}} {{url|경로/대상/파일}}`
 

@@ -7,7 +7,7 @@
 
 `apt-clone clone {{경로/대상/폴더}}`
 
-- 백업 용도로 클론 파일 (`tar.gz`) 생성:
+- 백업 용도로 클론 파일 (`.tar.gz`) 생성:
 
 `apt-clone clone --destination {{경로/대상/백업.tar.gz}}`
 

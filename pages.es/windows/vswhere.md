@@ -7,7 +7,7 @@
 
 `vswhere -products * -latest -prerelease -find **\VC\Auxiliary\Build\vcvarsall.bat`
 
-- Encontrar el directorio del compilador x64 MSVC (cl.exe, etc.):
+- Encontrar el directorio del compilador x64 MSVC (`cl.exe`, etc.):
 
 `vswhere -products * -latest -prerelease -find **\Hostx64\x64\*`
 

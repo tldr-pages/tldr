@@ -1,7 +1,7 @@
 # odpscmd resource
 
 > Manage resources in ODPS (Open Data Processing Service).
-> See also: `odps`.
+> See also: `odpscmd`.
 > More information: <https://www.alibabacloud.com/help/en/maxcompute/user-guide/maxcompute-client>.
 
 - [Interactive] Show resources in the current project:
@@ -16,11 +16,11 @@
 
 `add archive {{archive.tar.gz}} as {{alias}};`
 
-- [Interactive] Add .jar resource:
+- [Interactive] Add `.jar` resource:
 
 `add jar {{package.jar}};`
 
-- [Interactive] Add .py resource:
+- [Interactive] Add `.py` resource:
 
 `add py {{script.py}};`
 

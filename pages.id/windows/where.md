@@ -1,7 +1,7 @@
 # where
 
 > Tampilkan lokasi kumpulan berkas yang memenuhi kriteria suatu pola pencarian alamat berkas.
-> Lokasi pencarian default diatur sebagai direktori kerja saat ini beserta kumpulan alamat yang diatur dalam variabel lingkungan PATH.
+> Lokasi pencarian default diatur sebagai direktori kerja saat ini beserta kumpulan alamat yang diatur dalam variabel lingkungan `%PATH%`.
 > Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administration/windows-commands/where>.
 
 - Tampilkan daftar alamat berkas yang memenuhi pola pencarian alamat:

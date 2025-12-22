@@ -3,7 +3,7 @@
 > VCS 저장소에서 Ansible 플레이북을 가져와 로컬 호스트에서 실행.
 > 더 많은 정보: <https://docs.ansible.com/projects/ansible/latest/cli/ansible-pull.html>.
 
-- VCS에서 플레이북을 가져와 기본 local.yml playbook을 실행:
+- VCS에서 플레이북을 가져와 기본 `local.yml` playbook을 실행:
 
 `ansible-pull {{[-U|--url]}} {{저장소_url}}`
 

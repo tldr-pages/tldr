@@ -15,6 +15,6 @@
 
 `export -f {{funktionsname}}`
 
-- Hänge etwas an die PATH-Variable an:
+- Hänge etwas an die `$PATH`-Variable an:
 
 `export PATH=$PATH:{{pfad/zu/anhängen}}`

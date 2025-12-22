@@ -111,7 +111,9 @@ This file contains the translation templates of this notice.
 
 ### el
 
-Not translated yet.
+```markdown
+> Μερικές υποεντολές όπως `example` έχουν τα δικά τους εγχειρίδια χρήσης.
+```
 
 ---
 

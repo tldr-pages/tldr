@@ -27,7 +27,7 @@
 
 `helm install {{nome}} {{nome_do_repositório}}/{{nome_do_chart}}`
 
-- Obtém um chart helm chart como um arquivo tar:
+- Obtém um chart helm chart como um arquivo `.tar`:
 
 `helm get {{nome_do_release_do_chart}}`
 
