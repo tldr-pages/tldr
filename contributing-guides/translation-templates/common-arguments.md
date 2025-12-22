@@ -19,7 +19,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | de    | pfad/zu/datei         | pfad/zu/verzeichnis      | pfad/zu/datei_oder_verzeichnis     | paket       | benutzername       |          |
 | el    | διαδρομή/προς/αρχείο  | διαδρομή/προς/κατάλογο   | διαδρομή/προς/αρχείο_ή_κατάλογο    | πακέτο      | όνομα_χρήστη       | κωδικός_πρόσβασης   |
 | es    | ruta/al/archivo       | ruta/al/directorio       | ruta/al/archivo_o_directorio       | paquete     | usuario            |          |
-| ar    | path/to/file          | path/to/directory        | path/to/file_or_directory          | package     | username           | password | command | port | value |
+| fa    | path/to/file          | path/to/directory        | path/to/file_or_directory          | package     | username           | password | command | port | value |
 | fi    | polku/tiedostoon      | polku/hakemistoon        | polku/tiedostoon_tai_hakemistoon   | paketti     | käyttäjätunnus     | salasana | komento | portti | arvo |
 | fr    | chemin/vers/fichier   | chemin/vers/dossier      | chemin/vers/fichier_ou_dossier     | paquet      | nom_d_utilisateur  |          |
 | hi    | फ़ाइल/का/पथ            | निर्देशिका/का/पथ           | फ़ाइल_या_निर्देशिका/का/पथ             | पैकेज         | उपयोगकर्ता_नाम      |          |
