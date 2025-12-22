@@ -13,12 +13,12 @@
 
 - Expose an HTTP server running at 127.0.0.1:3000 in the foreground:
 
-`tailscale funnel {{3000}}`
+`tailscale funnel 3000`
 
 - Expose an HTTP server running at 127.0.0.1:3000 in the background:
 
-`tailscale funnel --bg {{3000}}`
+`tailscale funnel --bg 3000`
 
 - Expose an HTTPS server with invalid or self-signed certificates at https://localhost:8443:
 
-`tailscale funnel https+insecure://{{localhost:8443}}`
+`tailscale funnel https+insecure://localhost:8443`
