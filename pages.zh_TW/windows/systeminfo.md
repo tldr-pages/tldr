@@ -1,7 +1,7 @@
 # systeminfo
 
 > 顯示本機或遠端電腦的作業系統配置。
-> 更多資訊：<https://learn.microsoft.com/windows-server/administration/windows-commands/systeminfo>.
+> 更多資訊：<https://learn.microsoft.com/windows-server/administration/windows-commands/systeminfo>。
 
 - 顯示本機的系統配置：
 

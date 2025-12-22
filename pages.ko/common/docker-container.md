@@ -27,7 +27,7 @@
 
 `docker container inspect {{컨테이너_이름}}`
 
-- 컨테이너의 파일 시스템을 tar 아카이브로 내보내기:
+- 컨테이너의 파일 시스템을 `.tar` 아카이브로 내보내기:
 
 `docker container export {{컨테이너_이름}}`
 

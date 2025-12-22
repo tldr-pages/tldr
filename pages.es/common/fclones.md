@@ -1,7 +1,7 @@
 # fclones
 
 > Eficaz buscador y eliminador de archivos duplicados.
-> Más información: <https://github.com/pkolaczk/fclones>.
+> Más información: <https://github.com/pkolaczk/fclones#usage>.
 
 - Busca ficheros duplicados en el directorio actual:
 

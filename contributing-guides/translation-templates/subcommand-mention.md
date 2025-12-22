@@ -13,6 +13,7 @@ This file contains the translation templates of this notice.
 [cs](#cs) •
 [da](#da) •
 [de](#de) •
+[el](#el) •
 [es](#es) •
 [fa](#fa) •
 [fi](#fi) •
@@ -32,7 +33,6 @@ This file contains the translation templates of this notice.
 [pt_PT](#pt_pt) •
 [ro](#ro) •
 [ru](#ru) •
-[sh](#sh) •
 [sr](#sr) •
 [sv](#sv) •
 [ta](#ta) •
@@ -48,7 +48,7 @@ This file contains the translation templates of this notice.
 ### en
 
 ```markdown
-Some subcommands such as `example command` have their own usage documentation.
+> Some subcommands such as `example` have their own usage documentation.
 ```
 
 ---
@@ -56,7 +56,7 @@ Some subcommands such as `example command` have their own usage documentation.
 ### ar
 
 ```markdown
-بعض الأوامر الفرعية لديها توثيقات الاستخدام الخاصة بها مثل: `example command`
+> بعض الأوامر الفرعية لديها توثيقات الاستخدام الخاصة بها مثل: `example`
 ```
 
 ---
@@ -64,7 +64,7 @@ Some subcommands such as `example command` have their own usage documentation.
 ### bn
 
 ```markdown
-কিছু উপ-কমান্ড যেমন `example command` স্বতন্ত্র ব্যবহার নির্দেশনা রয়েছে।
+> কিছু উপ-কমান্ড যেমন `example` স্বতন্ত্র ব্যবহার নির্দেশনা রয়েছে।
 ```
 
 ---
@@ -72,7 +72,7 @@ Some subcommands such as `example command` have their own usage documentation.
 ### bs
 
 ```markdown
-Neke podnaredbe kao što je `example command` imaju vlastitu dokumentaciju o korištenju.
+> Neke podnaredbe kao što je `example` imaju vlastitu dokumentaciju o korištenju.
 ```
 
 ---
@@ -80,7 +80,7 @@ Neke podnaredbe kao što je `example command` imaju vlastitu dokumentaciju o kor
 ### ca
 
 ```markdown
-Alguns subcomandaments com `example command` tenen la seva pròpia documentació.
+> Alguns subcomandaments com `example` tenen la seva pròpia documentació.
 ```
 
 ---
@@ -88,7 +88,7 @@ Alguns subcomandaments com `example command` tenen la seva pròpia documentació
 ### cs
 
 ```markdown
-Některé dílčí příkazy jako je `example command` mají svou vlastní dokumentaci.
+> Některé dílčí příkazy jako je `example` mají svou vlastní dokumentaci.
 ```
 
 ---
@@ -96,7 +96,7 @@ Některé dílčí příkazy jako je `example command` mají svou vlastní dokum
 ### da
 
 ```markdown
-Visse underkommandoer såsom `example command` har sin egen dokumentation.
+> Visse underkommandoer såsom `example` har sin egen dokumentation.
 ```
 
 ---
@@ -104,7 +104,15 @@ Visse underkommandoer såsom `example command` har sin egen dokumentation.
 ### de
 
 ```markdown
-Manche Unterbefehle wie `example command` sind separat dokumentiert.
+> Manche Unterbefehle wie `example` sind separat dokumentiert.
+```
+
+---
+
+### el
+
+```markdown
+> Μερικές υποεντολές όπως `example` έχουν τα δικά τους εγχειρίδια χρήσης.
 ```
 
 ---
@@ -112,7 +120,7 @@ Manche Unterbefehle wie `example command` sind separat dokumentiert.
 ### es
 
 ```markdown
-Algunos subcomandos, como `example command`, tienen su propia documentación de uso.
+> Algunos subcomandos, como `example`, tienen su propia documentación de uso.
 ```
 
 ---
@@ -120,7 +128,7 @@ Algunos subcomandos, como `example command`, tienen su propia documentación de 
 ### fa
 
 ```markdown
-برخی از دستورات فرعی مانند `example command` سند استفاده خاص خودشون رو دارند.
+> برخی از دستورات فرعی مانند `example` سند استفاده خاص خودشون رو دارند.
 ```
 
 ---
@@ -128,7 +136,7 @@ Algunos subcomandos, como `example command`, tienen su propia documentación de 
 ### fi
 
 ```markdown
-Joillakin alikomennoilla, kuten `example command`, on omat käyttöoppaansa.
+> Joillakin alikomennoilla, kuten `example`, on omat käyttöoppaansa.
 ```
 
 ---
@@ -136,7 +144,7 @@ Joillakin alikomennoilla, kuten `example command`, on omat käyttöoppaansa.
 ### fr
 
 ```markdown
-Certaines sous-commandes comme `example command` ont leur propre documentation.
+> Certaines sous-commandes comme `example` ont leur propre documentation.
 ```
 
 ---
@@ -144,7 +152,7 @@ Certaines sous-commandes comme `example command` ont leur propre documentation.
 ### hi
 
 ```markdown
-कुछ कमांड्स जैसे की `example command`, उनके अपने उपयोग प्रलेखन हैं|
+> कुछ कमांड्स जैसे की `example`, उनके अपने उपयोग प्रलेखन हैं।
 ```
 
 ---
@@ -152,7 +160,7 @@ Certaines sous-commandes comme `example command` ont leur propre documentation.
 ### id
 
 ```markdown
-Beberapa subperintah seperti `example command` mempunyai dokumentasi terpisah.
+> Beberapa subperintah seperti `example` mempunyai dokumentasi terpisah.
 ```
 
 ---
@@ -160,7 +168,7 @@ Beberapa subperintah seperti `example command` mempunyai dokumentasi terpisah.
 ### it
 
 ```markdown
-Alcuni comandi aggiuntivi, come `example command`, hanno la propria documentazione.
+> Alcuni comandi aggiuntivi, come `example`, hanno la propria documentazione.
 ```
 
 ---
@@ -168,7 +176,7 @@ Alcuni comandi aggiuntivi, come `example command`, hanno la propria documentazio
 ### ja
 
 ```markdown
-`example command` のようないくつかのサブコマンドには、使用方法についての独自のドキュメントがあります。
+> `example` のようないくつかのサブコマンドには、使用方法についての独自のドキュメントがあります。
 ```
 
 ---
@@ -176,7 +184,7 @@ Alcuni comandi aggiuntivi, come `example command`, hanno la propria documentazio
 ### ko
 
 ```markdown
-`example command`와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
+> `example`와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
 ```
 
 ---
@@ -184,7 +192,7 @@ Alcuni comandi aggiuntivi, come `example command`, hanno la propria documentazio
 ### lo
 
 ```markdown
-ບາງຄໍາສັ່ງຍ່ອຍເຊັ່ນ `example command` ມີເອກະສານການນໍາໃຊ້ຂອງຕົນເອງ.
+> ບາງຄໍາສັ່ງຍ່ອຍເຊັ່ນ `example` ມີເອກະສານການນໍາໃຊ້ຂອງຕົນເອງ.
 ```
 
 ---
@@ -192,7 +200,7 @@ Alcuni comandi aggiuntivi, come `example command`, hanno la propria documentazio
 ### ml
 
 ```markdown
-`example command` പോലുള്ള ചില ഉപകമാൻഡുകൾക്ക് അവരുടേതായ ഉപയോഗ ഡോക്യുമെന്റേഷൻ ഉണ്ട്.
+> `example` പോലുള്ള ചില ഉപകമാൻഡുകൾക്ക് അവരുടേതായ ഉപയോഗ ഡോക്യുമെന്റേഷൻ ഉണ്ട്.
 ```
 
 ---
@@ -200,7 +208,7 @@ Alcuni comandi aggiuntivi, come `example command`, hanno la propria documentazio
 ### ne
 
 ```markdown
-केही उपादेशहरु जस्तै `example command` को आफ्नै प्रयोग कागजात हुन्छ।
+> केही उपादेशहरु जस्तै `example` को आफ्नै प्रयोग कागजात हुन्छ।
 ```
 
 ---
@@ -208,7 +216,7 @@ Alcuni comandi aggiuntivi, come `example command`, hanno la propria documentazio
 ### nl
 
 ```markdown
-Sommige subcommando's zoals `example command` hebben een eigen documentatie pagina.
+> Sommige subcommando's zoals `example` hebben een eigen documentatie pagina.
 ```
 
 ---
@@ -216,7 +224,7 @@ Sommige subcommando's zoals `example command` hebben een eigen documentatie pagi
 ### no
 
 ```markdown
-Noen underkommandoer som `example command` har sin egen bruksdokumentasjon.
+> Noen underkommandoer som `example` har sin egen bruksdokumentasjon.
 ```
 
 ---
@@ -224,7 +232,7 @@ Noen underkommandoer som `example command` har sin egen bruksdokumentasjon.
 ### pl
 
 ```markdown
-Niektóre podkomendy takie jak `example command` mają osobną dokumentację.
+> Niektóre podkomendy takie jak `example` mają osobną dokumentację.
 ```
 
 ---
@@ -232,7 +240,7 @@ Niektóre podkomendy takie jak `example command` mają osobną dokumentację.
 ### pt_BR
 
 ```markdown
-Alguns subcomandos como `example command` têm sua própria documentação de uso.
+> Alguns subcomandos como `example` têm sua própria documentação de uso.
 ```
 
 ---
@@ -240,7 +248,7 @@ Alguns subcomandos como `example command` têm sua própria documentação de us
 ### pt_PT
 
 ```markdown
-Alguns subcomandos, como `example command`, tem a sua própria documentação de uso.
+> Alguns subcomandos, como `example`, tem a sua própria documentação de uso.
 ```
 
 ---
@@ -248,7 +256,7 @@ Alguns subcomandos, como `example command`, tem a sua própria documentação de
 ### ro
 
 ```markdown
-Unele subcomenzi precum `example command` au propria lor documentație de utilizare.
+> Unele subcomenzi precum `example` au propria lor documentație de utilizare.
 ```
 
 ---
@@ -256,16 +264,7 @@ Unele subcomenzi precum `example command` au propria lor documentație de utiliz
 ### ru
 
 ```markdown
-Некоторые подкоманды, такие как `example command`, имеют собственную документацию по использованию.
-```
-
----
-
-### sh
-
-```markdown
-Neke podkomande, kao što je `example command`, imaju svoju dokumentaciju za upotrebu.
-
+> Некоторые подкоманды, такие как `example`, имеют собственную документацию по использованию.
 ```
 
 ---
@@ -273,7 +272,7 @@ Neke podkomande, kao što je `example command`, imaju svoju dokumentaciju za upo
 ### sr
 
 ```markdown
-Неке подкоманде као што је `example command` имају своју документацију о коришћењу.
+> Неке подкоманде као што је `example` имају своју документацију о коришћењу.
 ```
 
 ---
@@ -281,7 +280,7 @@ Neke podkomande, kao što je `example command`, imaju svoju dokumentaciju za upo
 ### sv
 
 ```markdown
-En del underkommandon som t.ex: `example command` har sin egen användningsdokumentation.
+> En del underkommandon som t.ex: `example` har sin egen användningsdokumentation.
 ```
 
 ---
@@ -289,7 +288,7 @@ En del underkommandon som t.ex: `example command` har sin egen användningsdokum
 ### ta
 
 ```markdown
-`example command` போன்ற சிலச் சார்கட்டளைகளுக்குத் தனிப் பக்கம் உள்ளது.
+> `example` போன்ற சிலச் சார்கட்டளைகளுக்குத் தனிப் பக்கம் உள்ளது.
 ```
 
 ---
@@ -297,7 +296,7 @@ En del underkommandon som t.ex: `example command` har sin egen användningsdokum
 ### th
 
 ```markdown
-คำสั่งย่อยบางคำสั่ง เช่น `example command` มีเอกสารการใช้งานของตัวเอง
+> คำสั่งย่อยบางคำสั่ง เช่น `example` มีเอกสารการใช้งานของตัวเอง
 ```
 
 ---
@@ -305,7 +304,7 @@ En del underkommandon som t.ex: `example command` har sin egen användningsdokum
 ### tr
 
 ```markdown
-`example command` gibi bazı alt komutların kendi kullanım belgeleri vardır.
+> `example` gibi bazı alt komutların kendi kullanım belgeleri vardır.
 ```
 
 ---
@@ -313,7 +312,7 @@ En del underkommandon som t.ex: `example command` har sin egen användningsdokum
 ### uk
 
 ```markdown
-Певна підкоманда, як от `example command`, що має свою власну документацію.
+> Певна підкоманда, як от `example`, що має свою власну документацію.
 ```
 
 ---
@@ -321,7 +320,7 @@ En del underkommandon som t.ex: `example command` har sin egen användningsdokum
 ### uz
 
 ```markdown
-`example command` kabi baʼzi kichik buyruqlar oʻzlarining foydalanish hujjatlariga ega.
+> `example` kabi baʼzi kichik buyruqlar oʻzlarining foydalanish hujjatlariga ega.
 ```
 
 ---
@@ -329,7 +328,7 @@ En del underkommandon som t.ex: `example command` har sin egen användningsdokum
 ### zh
 
 ```markdown
-此命令也有关于其子命令的文件，例如：`example command`.
+> 此命令也有关于其子命令的文件，例如：`example`.
 ```
 
 ---
@@ -337,5 +336,5 @@ En del underkommandon som t.ex: `example command` har sin egen användningsdokum
 ### zh_TW
 
 ```markdown
-此命令也有關於其子命令的文件，例如：`example command`.
+> 此命令也有關於其子命令的文件，例如：`example`.
 ```

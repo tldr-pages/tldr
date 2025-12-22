@@ -1,7 +1,7 @@
 # extrace
 
 > exec() 호출을 추적합니다.
-> 더 많은 정보: <https://github.com/chneukirchen/extrace>.
+> 더 많은 정보: <https://github.com/leahneukirchen/extrace>.
 
 - 시스템에서 발생하는 모든 프로그램 실행을 추적:
 

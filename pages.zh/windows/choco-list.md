@@ -1,7 +1,7 @@
 # choco list
 
 > 使用 Chocolatey 显示包列表。
-> 更多信息：<https://chocolatey.org/docs/commands-list>.
+> 更多信息：<https://docs.chocolatey.org/en-us/choco/commands/list/>。
 
 - 列出所有可用的包：
 

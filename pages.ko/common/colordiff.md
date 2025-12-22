@@ -2,7 +2,7 @@
 
 > 동일한 출력을 생성하지만, 구문 강조가 잘 되어있는 `diff` 래퍼입니다.
 > 색깔 구성표를 사용자 정의할 수 있음.
-> 더 많은 정보: <https://github.com/kimmel/colordiff>.
+> 더 많은 정보: <https://manned.org/colordiff>.
 
 - 파일 비교:
 

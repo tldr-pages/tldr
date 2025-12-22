@@ -2,7 +2,7 @@
 
 > Elimina rutas del almacén de nix desusados o inalcanzables.
 > Las generaciones se pueden listar usando `nix-env --list-generations`.
-> Más información: <https://nixos.org/manual/nix/stable/command-ref/nix-collect-garbage.html>.
+> Más información: <https://nix.dev/manual/nix/stable/command-ref/nix-collect-garbage.html>.
 
 - Elimina todas las rutas del almacén desusados por las generaciones actuales de cada perfil:
 

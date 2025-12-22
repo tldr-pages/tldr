@@ -17,11 +17,11 @@
 
 - List all units in the system:
 
-`systemctl status --all`
+`systemctl status {{[-a|--all]}}`
 
 - List all units of a specific type:
 
-`systemctl status --type {{service|timer|socket|target|...}}`
+`systemctl status {{[-t|--type]}} {{service|timer|socket|target|...}}`
 
 - List all units with a specific state:
 

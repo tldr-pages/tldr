@@ -16,7 +16,7 @@
 
 `atuin search {{command}}`
 
-- Register an account on the default sync server using the specified username, email and password:
+- Register an account on the default sync server using the specified username, email, and password:
 
 `atuin register {{[-u|--username]}} {{username}} {{[-e|--email]}} {{email}} {{[-p|--password]}} {{password}}`
 

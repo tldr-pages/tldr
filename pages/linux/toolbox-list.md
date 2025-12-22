@@ -1,16 +1,16 @@
 # toolbox list
 
-> List existing `toolbox` containers and images.
+> List existing Toolbx containers and images.
 > More information: <https://manned.org/toolbox-list>.
 
-- List all `toolbox` containers and images:
+- List all Toolbx containers and images:
 
 `toolbox list`
 
-- List only `toolbox` containers:
+- List only Toolbx containers:
 
 `toolbox list {{[-c|--containers]}}`
 
-- List only `toolbox` images:
+- List only Toolbx images:
 
 `toolbox list {{[-i|--images]}}`

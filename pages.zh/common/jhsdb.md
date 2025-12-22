@@ -1,7 +1,7 @@
 # jhsdb
 
 > 附加到一个 Java 进程或启动一个事后调试器来分析崩溃的 Java 虚拟机的核心转储。
-> 更多信息：<https://manned.org/jhsdb>.
+> 更多信息：<https://manned.org/jhsdb>。
 
 - 打印 Java 进程的堆栈和锁信息：
 

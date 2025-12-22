@@ -1,8 +1,8 @@
 # halt
 
 > Detiene, apaga o reinicia la máquina.
-> Ver también: `poweroff`, `reboot`.
-> Más información: <https://manned.org/halt.8>.
+> Vea también: `poweroff`, `reboot`.
+> Más información: <https://manned.org/halt>.
 
 - Detiene el sistema:
 

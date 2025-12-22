@@ -1,7 +1,8 @@
 # dhcp6d
 
-> Servidor DHCPv6 stateless. Veja também: `InternetSharing`.
+> Servidor DHCPv6 stateless.
 > Não deve ser invocado manualmente.
+> Veja também: `InternetSharing`.
 > Mais informações: <https://www.manpagez.com/man/8/dhcp6d/>.
 
 - Inicia o daemon:

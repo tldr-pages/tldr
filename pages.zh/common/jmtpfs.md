@@ -1,7 +1,7 @@
 # jmtpfs
 
 > 基于 FUSE 的文件系统，用于访问 MTP 设备。
-> 更多信息：<https://manned.org/jmtpfs>.
+> 更多信息：<https://manned.org/jmtpfs>。
 
 - 将一个 MTP 设备挂载到一个目录：
 

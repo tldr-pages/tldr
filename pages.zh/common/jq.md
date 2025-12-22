@@ -1,7 +1,7 @@
 # jq
 
 > 一个使用特定领域语言（DSL）的 JSON 处理器。
-> 更多信息：<https://jqlang.github.io/jq/manual/>.
+> 更多信息：<https://jqlang.org/manual/>。
 
 - 使用 `jq` 二进制执行特定的表达式（打印出彩色和格式化的 JSON 输出）：
 

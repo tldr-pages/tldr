@@ -1,7 +1,7 @@
 # varnishlog
 
 > Varnish 로그 표시.
-> 더 많은 정보: <https://varnish-cache.org/docs/trunk/reference/varnishlog.html>.
+> 더 많은 정보: <https://vinyl-cache.org/docs/trunk/reference/varnishlog.html>.
 
 - 실시간으로 로그 표시:
 

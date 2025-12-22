@@ -2,7 +2,7 @@
 
 > 將事件代碼或觸控螢幕手勢傳送到 Android 裝置。
 > 此命令只能透過 `adb shell` 使用。
-> 更多資訊：<https://developer.android.com/reference/android/view/KeyEvent.html#constants_1>.
+> 更多資訊：<https://developer.android.com/reference/android/view/KeyEvent.html#constants_1>。
 
 - 將單個字元的事件代碼傳送到 Android 裝置：
 

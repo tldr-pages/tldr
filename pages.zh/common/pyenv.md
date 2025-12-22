@@ -1,7 +1,7 @@
 # pyenv
 
 > 在多个 Python 版本之间轻松切换。
-> 更多信息：<https://github.com/pyenv/pyenv>.
+> 更多信息：<https://manned.org/pyenv>。
 
 - 列出所有可用的命令：
 

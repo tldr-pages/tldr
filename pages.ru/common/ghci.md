@@ -1,7 +1,7 @@
 # ghci
 
 > Интерактивная среда Glasgow Haskell Compiler.
-> Больше информации: <https://downloads.haskell.org/ghc/latest/docs/html/users_guide/ghci.html>.
+> Больше информации: <https://downloads.haskell.org/ghc/latest/docs/users_guide/ghci.html>.
 
 - Запустить REPL (интерактивную оболочку):
 

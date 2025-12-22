@@ -2,7 +2,7 @@
 
 > Display which binary will be run for a command managed by `rustup`.
 > Like `which`, but searches a Rust toolchain instead of `$PATH`.
-> More information: <https://rust-lang.github.io/rustup>.
+> More information: <https://rust-lang.github.io/rustup/>.
 
 - Display the path to the binary in the default toolchain:
 

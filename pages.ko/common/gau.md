@@ -1,7 +1,7 @@
 # gau
 
 > 모든 URL 가져오기: AlienVault의 Open Threat Exchange, Wayback Machine, 및 모든 도메인에 대한 Common Crawl에서 알려진 URL을 가져옴.
-> 더 많은 정보: <https://github.com/lc/gau>.
+> 더 많은 정보: <https://github.com/lc/gau#usage>.
 
 - AlienVault의 Open Threat Exchange, Wayback Machine, Common Crawl 및 URLScan에서 도메인의 모든 URL을 가져옴:
 

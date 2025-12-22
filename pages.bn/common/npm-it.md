@@ -1,0 +1,7 @@
+# npm it
+
+> এই কমান্ডটি `npm install-test` - এর একটি উপনাম।
+
+- মূল কমান্ডের ডকুমেন্টেশন দেখুন:
+
+`tldr npm install-test`

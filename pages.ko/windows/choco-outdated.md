@@ -1,7 +1,7 @@
 # choco outdated
 
 > Chocolatey를 사용하여 업데이트가 필요한 패키지 확인.
-> 더 많은 정보: <https://chocolatey.org/docs/commands-outdated>.
+> 더 많은 정보: <https://docs.chocolatey.org/en-us/choco/commands/outdated/>.
 
 - 표 형식으로 업데이트가 필요한 패키지 목록 표시:
 

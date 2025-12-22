@@ -11,7 +11,7 @@
 
 `clear -x`
 
-- Indiquer le type de terminal à effacer (utilise par défaut la variable d'environnement `TERM`) :
+- Indiquer le type de terminal à effacer (utilise par défaut la variable d'environnement `$TERM`) :
 
 `clear -T {{type_de_terminal}}`
 

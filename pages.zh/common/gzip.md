@@ -1,7 +1,7 @@
 # gzip
 
 > 使用 `gzip` (LZ77) 压缩/解压文件。
-> 更多信息：<https://www.gnu.org/software/gzip/manual/gzip.html>.
+> 更多信息：<https://www.gnu.org/software/gzip/manual/gzip.html>。
 
 - 压缩文件，将其替换为 `gzip` 存档文件：
 

@@ -1,7 +1,7 @@
 # flarectl
 
 > Cloudflare 공식 CLI.
-> 더 많은 정보: <https://github.com/cloudflare/cloudflare-go/blob/master/cmd/flarectl/README.md>.
+> 더 많은 정보: <https://github.com/cloudflare/cloudflare-go/blob/v0/cmd/flarectl/README.md>.
 
 - 특정 IP 차단:
 

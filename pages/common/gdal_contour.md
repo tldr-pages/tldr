@@ -1,7 +1,7 @@
 # gdal_contour
 
 > Create contour lines and polygons from a digital elevation model.
-> More information: <https://gdal.org/programs/gdal_contour.html>.
+> More information: <https://gdal.org/en/stable/programs/gdal_contour.html>.
 
 - Create a vector dataset with contour lines spread over an 100-meter [i]nterval while [a]ttributing the elevation property as "ele":
 

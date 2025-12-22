@@ -1,7 +1,7 @@
 # ansible-vault
 
 > Ansible 프로젝트 내에서 값, 데이터 구조 및 파일을 암호화하고 해독.
-> 더 많은 정보: <https://docs.ansible.com/ansible/latest/user_guide/vault.html#id17>.
+> 더 많은 정보: <https://docs.ansible.com/projects/ansible/latest/vault_guide/index.html>.
 
 - 비밀번호를 입력하라는 메시지가 표시된 새로운 암호화된 볼트 파일을 만듬:
 

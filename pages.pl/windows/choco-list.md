@@ -1,7 +1,7 @@
 # choco list
 
 > Wyświetlanie listy pakietów Chocolatey.
-> Więcej informacji: <https://chocolatey.org/docs/commands-list>.
+> Więcej informacji: <https://docs.chocolatey.org/en-us/choco/commands/list/>.
 
 - Wyświetlanie wszystkich dostępnych pakietów:
 

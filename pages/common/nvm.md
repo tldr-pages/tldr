@@ -1,6 +1,6 @@
 # nvm
 
-> Install, uninstall or switch between Node.js versions.
+> Install, uninstall, or switch between Node.js versions.
 > Supports version numbers like "12.8" or "v16.13.1", and labels like "stable", "system", etc.
 > See also: `asdf`.
 > More information: <https://github.com/nvm-sh/nvm#usage>.

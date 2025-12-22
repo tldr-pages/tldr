@@ -1,7 +1,7 @@
 # dvc init
 
 > Initialize a new local DVC repository.
-> More information: <https://dvc.org/doc/command-reference/init>.
+> More information: <https://doc.dvc.org/command-reference/init>.
 
 - Initialize a new local repository:
 

@@ -1,7 +1,7 @@
 # aws cloudwatch
 
 > Monitor AWS resources to gain system-wide visibility into resource utilization, application performance, and operational health.
-> More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cloudwatch/index.html>.
+> More information: <https://docs.aws.amazon.com/cli/latest/reference/cloudwatch/>.
 
 - List dashboards for your account:
 

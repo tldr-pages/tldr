@@ -1,7 +1,7 @@
 # dict
 
 > DICT 프로토콜을 사용하는 명령줄 사전.
-> 더 많은 정보: <https://github.com/cheusov/dictd>.
+> 더 많은 정보: <https://manned.org/dict>.
 
 - 사용 가능한 데이터베이스 목록 나열:
 

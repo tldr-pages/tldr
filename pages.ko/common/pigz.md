@@ -1,7 +1,7 @@
 # pigz
 
 > 멀티스레드 zlib 압축 유틸리티.
-> 더 많은 정보: <https://github.com/madler/pigz>.
+> 더 많은 정보: <https://manned.org/pigz>.
 
 - 파일을 기본 옵션으로 압축:
 

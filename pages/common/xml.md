@@ -1,7 +1,7 @@
 # xml
 
-> XMLStarlet Toolkit: query, edit, check, convert and transform XML documents.
-> Some subcommands such as `xml validate` have their own usage documentation.
+> XMLStarlet Toolkit: query, edit, check, convert, and transform XML documents.
+> Some subcommands such as `validate` have their own usage documentation.
 > More information: <https://xmlstar.sourceforge.net/doc/UG/xmlstarlet-ug.html#idm47077139670224>.
 
 - Display general help, including the list of subcommands:

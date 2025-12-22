@@ -1,7 +1,7 @@
 # ip neighbour
 
 > Subcomando de gestión de tablas IP de vecinos/ARP.
-> Más información: <https://manned.org/ip-neighbour.8>.
+> Más información: <https://manned.org/ip-neighbour>.
 
 - Muestra las entradas de la tabla de vecinos/ARP:
 

@@ -2,7 +2,7 @@
 
 > Administra un registro de un flake de nix.
 > Vea tambiém: `nix flake` para información sobre los flakes.
-> Más información: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-registry.html>.
+> Más información: <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-registry.html>.
 
 - Fija la revisión de `nixpkgs` a la versión actual del repositorio upstream:
 

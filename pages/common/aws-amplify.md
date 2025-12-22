@@ -1,7 +1,7 @@
 # aws amplify
 
 > Development platform for building secure, scalable mobile and web applications.
-> More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/amplify/index.html>.
+> More information: <https://docs.aws.amazon.com/cli/latest/reference/amplify/>.
 
 - Create a new Amplify app:
 

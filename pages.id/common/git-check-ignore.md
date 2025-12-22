@@ -1,6 +1,6 @@
 # git check-ignore
 
-> Analisa kumpulan file yang diabaikan/dikecualikan oleh Git (didefinisikan dalam ".gitignore").
+> Analisa kumpulan file yang diabaikan/dikecualikan oleh Git (didefinisikan dalam `.gitignore`).
 > Informasi lebih lanjut: <https://git-scm.com/docs/git-check-ignore>.
 
 - Cek apakah suatu file atau direktori telah diabaikan:

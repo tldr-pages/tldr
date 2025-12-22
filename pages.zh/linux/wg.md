@@ -1,7 +1,7 @@
 # wg
 
 > 管理 WireGuard 接口配置。
-> 更多信息：<https://www.wireguard.com/quickstart/>.
+> 更多信息：<https://www.wireguard.com/quickstart/>。
 
 - 检查当前激活接口的状态：
 

@@ -1,7 +1,7 @@
 # journalctl
 
 > Consulta el registro systemd.
-> Más información: <https://www.freedesktop.org/software/systemd/man/journalctl.html>.
+> Más información: <https://www.freedesktop.org/software/systemd/man/latest/journalctl.html>.
 
 - Muestra todos los mensajes con nivel de prioridad 3 (errores) de este boot:
 

@@ -2,7 +2,7 @@
 
 > systemd 머신 관리자를 제어합니다.
 > 가상 머신, 컨테이너 및 이미지에서 작업을 실행합니다.
-> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/machinectl.html>.
+> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/latest/machinectl.html>.
 
 - `systemd-nspawn`을 사용하여 서비스를 머신으로 시작:
 

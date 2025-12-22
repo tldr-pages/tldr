@@ -1,7 +1,7 @@
 # systemctl
 
 > Beheer het systemd-systeem en de service manager.
-> Meer informatie: <https://www.freedesktop.org/software/systemd/man/systemctl.html>.
+> Meer informatie: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html>.
 
 - Toon alle actieve services:
 

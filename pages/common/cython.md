@@ -1,6 +1,6 @@
 # cython
 
-> A compiler that converts .pyx files into C or C++ source files.
+> A compiler that converts `.pyx` files into C or C++ source files.
 > More information: <https://docs.cython.org/en/latest/>.
 
 - Compile into C code:

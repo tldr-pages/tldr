@@ -6,32 +6,32 @@
 
 - Lista todos os containers Docker (em execução e parados):
 
-`docker ps {{[-a|--all]}}`
+`docker {{[ps|container ls]}} {{[-a|--all]}}`
 
 - Inicializa um container com um nome personalizado a partir de uma imagem:
 
-`docker run --name {{nome_container}} {{imagem}}`
+`docker {{[run|container run]}} --name {{nome_container}} {{imagem}}`
 
 - Começa ou para um container existente:
 
-`docker {{start|stop}} {{nome_container}}`
+`docker container {{start|stop}} {{nome_container}}`
 
 - Extrai uma imagem a partir de um Docker Registry:
 
-`docker pull {{imagem}}`
+`docker {{[pull|image pull]}} {{imagem}}`
 
 - Mostra a lista de imagens já baixadas:
 
-`docker images`
+`docker {{[images|image ls]}}`
 
 - Abre um terminal dentro de um container em execução:
 
-`docker exec {{[-it|--interactive --tty]}} {{nome_container}} {{sh}}`
+`docker {{[exec|container exec]}} {{[-it|--interactive --tty]}} {{nome_container}} {{sh}}`
 
 - Remove um container parado:
 
-`docker rm {{nome_container}}`
+`docker {{[rm|container rm]}} {{nome_container}}`
 
 - Obtém e acompanha o histórico de um container:
 
-`docker logs {{[-f|--follow]}} {{nome_container}}`
+`docker {{[logs|container logs]}} {{[-f|--follow]}} {{nome_container}}`

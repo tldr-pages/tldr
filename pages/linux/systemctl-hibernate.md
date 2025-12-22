@@ -9,7 +9,7 @@
 
 - Force hibernation even if inhibitors are present:
 
-`systemctl hibernate --force`
+`systemctl hibernate {{[-f|--force]}}`
 
 - Hibernate the system without sending a message to logged-in users:
 

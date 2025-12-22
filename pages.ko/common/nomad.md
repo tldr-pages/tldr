@@ -1,7 +1,7 @@
 # nomad
 
 > 분산형, 고가용성, 데이터센터 인식 스케줄러.
-> 더 많은 정보: <https://www.nomadproject.io/docs/commands/>.
+> 더 많은 정보: <https://developer.hashicorp.com/nomad/commands>.
 
 - 클러스터 내 노드의 상태 표시:
 

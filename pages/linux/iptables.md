@@ -1,11 +1,11 @@
 # iptables
 
-> Configure tables, chains and rules of the Linux kernel IPv4 firewall.
+> Configure tables, chains, and rules of the Linux kernel IPv4 firewall.
 > Use `ip6tables` to set rules for IPv6 traffic.
 > See also: `iptables-save`, `iptables-restore`.
 > More information: <https://manned.org/iptables>.
 
-- View chains, rules, packet/byte counters and line numbers for the filter table:
+- View chains, rules, packet/byte counters, and line numbers for the filter table:
 
 `sudo iptables {{[-vnL --line-numbers|--verbose --numeric --list --line-numbers]}}`
 

@@ -7,7 +7,7 @@
 
 `man {{commando}}`
 
-- Open de man pagina voor een commando in een browser (`BROWSER` omgevingsvariabele kan `=browser_name` vervangen):
+- Open de man pagina voor een commando in een browser (`$BROWSER` omgevingsvariabele kan `=browser_name` vervangen):
 
 `man {{[-H|--html=]}}{{browser_naam}} {{commando}}`
 

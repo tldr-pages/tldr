@@ -2,7 +2,7 @@
 
 > Run an application from a Nix flake.
 > See also: `nix flake` for information about flakes.
-> More information: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-run.html>.
+> More information: <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-run.html>.
 
 - Run the default application in the flake in the current directory:
 
@@ -18,16 +18,16 @@
 
 - Run from a remote repository:
 
-`nix run {{remote_name}}:{{owner}}/{{repo}}`
+`nix run {{remote_name}}:{{owner}}/{{repository}}`
 
-- Run from a remote repository using a specific tag, revision or branch:
+- Run from a remote repository using a specific tag, revision, or branch:
 
-`nix run {{remote_name}}:{{owner}}/{{repo}}/{{reference}}`
+`nix run {{remote_name}}:{{owner}}/{{repository}}/{{reference}}`
 
 - Run from a remote repository specifying a subdirectory and a program:
 
-`nix run "{{remote_name}}:{{owner}}/{{repo}}?dir={{dir_name}}#{{app}}"`
+`nix run "{{remote_name}}:{{owner}}/{{repository}}?dir={{dir_name}}#{{app}}"`
 
 - Run the flake of a GitHub pull request:
 
-`nix run github:{{owner}}/{{repo}}/pull/{{number}}/head`
+`nix run github:{{owner}}/{{repository}}/pull/{{number}}/head`

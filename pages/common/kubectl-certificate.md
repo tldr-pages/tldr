@@ -1,7 +1,7 @@
 # kubectl certificate
 
 > Manage certificate signing requests.
-> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_certificate>.
+> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_certificate/>.
 
 - Approve a certificate signing request by name:
 

@@ -1,7 +1,7 @@
 # stun
 
 > 클래식 STUN 클라이언트.
-> 더 많은 정보: <https://manned.org/stun.1>.
+> 더 많은 정보: <https://manned.org/stun>.
 
 - STUN 요청 생성:
 

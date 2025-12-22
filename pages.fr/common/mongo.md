@@ -1,7 +1,7 @@
 # mongo
 
 > Client shell pour MongoDB.
-> Plus d'informations : <https://docs.mongodb.com/manual/reference/program/mongo>.
+> Plus d'informations : <https://www.mongodb.com/docs/mongodb-shell/>.
 
 - Connecte à une base de données (database) sur un hôte (host) distant et un port donné :
 

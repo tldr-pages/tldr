@@ -1,7 +1,7 @@
 # nhentai
 
 > Descarga doujinshis de nhentai.
-> Más información: <https://github.com/RicterZ/nhentai>.
+> Más información: <https://github.com/RicterZ/nhentai#usage>.
 
 - Establece cookies:
 

@@ -25,4 +25,4 @@
 
 - 로컬 파일의 스크린샷 캡처:
 
-`pageres {{local_file_path.html}} {{1366x768}}`
+`pageres {{path/to/local_file.html}} {{1366x768}}`

@@ -2,7 +2,7 @@
 
 > Manajer paket JavaScript dan Node.js.
 > Mengelola proyek Node.js dan dependensi modulnya.
-> Informasi lebih lanjut: <https://docs.npmjs.com/cli/npm>.
+> Informasi lebih lanjut: <https://docs.npmjs.com/cli/npm/>.
 
 - Membuat file `package.json` secara interaktif:
 

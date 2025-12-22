@@ -1,7 +1,7 @@
 # a2enmod
 
 > 在基于 Debian 的操作系统上启用 Apache 模块。
-> 更多信息：<https://manned.org/a2enmod.8>.
+> 更多信息：<https://manned.org/a2enmod>。
 
 - 启用模块：
 

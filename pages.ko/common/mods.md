@@ -1,7 +1,7 @@
 # mods
 
 > 파이프라인을 위해 설계된 커맨드라인 AI.
-> 더 많은 정보: <https://github.com/charmbracelet/mods>.
+> 더 많은 정보: <https://github.com/charmbracelet/mods#usage>.
 
 - 일반적인 질문하기:
 

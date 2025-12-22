@@ -2,7 +2,7 @@
 
 > 将图形分解为它们的双连通分量。
 > Graphviz 过滤器：`acyclic`、`bcomps`、`comps`、`edgepaint`、`gvcolor`、`gvpack`、`mingle`、`nop`、`sccmap`、`tred` 和 `unflatten`。
-> 更多信息：<https://graphviz.org/pdf/bcomps.1.pdf>.
+> 更多信息：<https://graphviz.org/pdf/bcomps.1.pdf>。
 
 - 将一个或多个图形分解为它们的双连通分量：
 

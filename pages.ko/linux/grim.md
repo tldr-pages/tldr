@@ -1,7 +1,7 @@
 # grim
 
 > Wayland 컴포지터에서 이미지를 캡처(스크린샷)합니다.
-> 더 많은 정보: <https://sr.ht/~emersion/grim>.
+> 더 많은 정보: <https://sr.ht/~emersion/grim/>.
 
 - 모든 출력의 스크린샷 캡처:
 

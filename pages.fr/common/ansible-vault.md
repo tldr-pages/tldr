@@ -1,7 +1,7 @@
 # ansible-vault
 
 > Chiffre & déchiffre des valeurs, des structures de données et des fichiers dans un projet Ansible.
-> Plus d'informations : <https://docs.ansible.com/ansible/latest/user_guide/vault.html#id17>.
+> Plus d'informations : <https://docs.ansible.com/projects/ansible/latest/vault_guide/index.html>.
 
 - Crée un nouveau fichier vault chiffré avec une invite à rentrer un mot passe :
 

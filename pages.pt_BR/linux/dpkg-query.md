@@ -1,7 +1,7 @@
 # dpkg-query
 
 > Mostra informações dos pacotes instalados.
-> Mais informações: <https://manned.org/dpkg-query.1>.
+> Mais informações: <https://manned.org/dpkg-query>.
 
 - Exibe todos os pacotes instalados:
 

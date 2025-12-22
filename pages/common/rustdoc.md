@@ -1,7 +1,7 @@
 # rustdoc
 
 > Generate documentation for a Rust crate.
-> More information: <https://doc.rust-lang.org/stable/rustdoc>.
+> More information: <https://doc.rust-lang.org/stable/rustdoc/>.
 
 - Generate documentation from the crate's root:
 

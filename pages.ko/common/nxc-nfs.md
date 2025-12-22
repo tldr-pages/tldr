@@ -1,7 +1,7 @@
 # nxc nfs
 
 > NFS 서버에 대한 펜테스트 및 익스플로잇 도구. 현재는 익명 모드만 지원.
-> 더 많은 정보: <https://www.netexec.wiki/nfs-protocol>.
+> 더 많은 정보: <https://www.netexec.wiki/nfs-protocol/enumeration>.
 
 - 원격 NFS 서버의 버전 감지:
 

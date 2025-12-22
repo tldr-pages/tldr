@@ -2,6 +2,6 @@
 
 > Este comando é um alias de `choco push`.
 
-- Exibe documentação do comando original:
+- Ver documentação do comando original:
 
 `tldr choco push`

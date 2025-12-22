@@ -1,7 +1,7 @@
 # kubectl get
 
 > Kubernetes 객체 및 리소스 가져오기.
-> 더 많은 정보: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_get>.
+> 더 많은 정보: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_get/>.
 
 - 현재 클러스터의 모든 네임스페이스 가져오기:
 

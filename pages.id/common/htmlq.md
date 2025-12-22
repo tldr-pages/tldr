@@ -1,7 +1,7 @@
 # htmlq
 
 > Gunakan selektor CSS untuk mengekstrak konten dari berkas-berkas HTML.
-> Informasi lebih lanjut: <https://github.com/mgdm/htmlq>.
+> Informasi lebih lanjut: <https://github.com/mgdm/htmlq#usage>.
 
 - Dapatkan seluruh elemen HTML yang memuat class `card`:
 

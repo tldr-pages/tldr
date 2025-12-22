@@ -1,6 +1,6 @@
 # lrzuntar
 
-> Dit commando is een alias van `lrztar -d`.
+> Dit commando is een alias van `lrztar --decompress`.
 
 - Bekijk de documentatie van het originele commando:
 

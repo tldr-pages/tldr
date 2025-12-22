@@ -1,7 +1,7 @@
 # balooctl
 
 > KDE Plasma의 파일 색인 및 검색 프레임워크.
-> 더 많은 정보: <https://wiki.archlinux.org/index.php/Baloo>.
+> 더 많은 정보: <https://wiki.archlinux.org/title/Baloo>.
 
 - 색인기의 상태 표시:
 

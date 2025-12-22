@@ -1,6 +1,7 @@
 # black
 
 > Format Python code automatically.
+> See also: `ruff`.
 > More information: <https://black.readthedocs.io/en/stable/usage_and_configuration/the_basics.html>.
 
 - Auto-format a file or entire directory:

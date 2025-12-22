@@ -1,6 +1,6 @@
 # lrzuntar
 
-> Este comando es un alias de `lrztar -d`.
+> Este comando es un alias de `lrztar --decompress`.
 
 - Vea la documentación del comando original:
 

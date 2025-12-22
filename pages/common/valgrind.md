@@ -1,6 +1,6 @@
 # valgrind
 
-> Wrapper for a set of expert tools for profiling, optimizing and debugging programs.
+> Wrapper for a set of expert tools for profiling, optimizing, and debugging programs.
 > Commonly used tools include `memcheck`, `cachegrind`, `callgrind`, `massif`, `helgrind`, and `drd`.
 > More information: <https://valgrind.org/docs/manual/manual-core.html#manual-core.options>.
 

@@ -1,7 +1,7 @@
 # choco source
 
 > Verwalte die Paketquellen mit Chocolatey.
-> Weitere Informationen: <https://chocolatey.org/docs/commands-source>.
+> Weitere Informationen: <https://docs.chocolatey.org/en-us/choco/commands/source/>.
 
 - Gib alle momentan verfügbaren Quellen aus:
 

@@ -1,7 +1,7 @@
 # npm install
 
 > Install Node packages.
-> More information: <https://docs.npmjs.com/cli/npm-install>.
+> More information: <https://docs.npmjs.com/cli/npm-install/>.
 
 - Install dependencies listed in `package.json`:
 

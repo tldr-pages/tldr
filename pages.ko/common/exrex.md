@@ -2,7 +2,7 @@
 
 > 정규식에 대해 모두/무작위로 일치하는 문자열을 생성.
 > 정규식을 단순화할 수 있음.
-> 더 많은 정보: <https://github.com/asciimoo/exrex>.
+> 더 많은 정보: <https://github.com/asciimoo/exrex#usage>.
 
 - 정규식과 일치하는 가능한 모든 문자열을 생성:
 

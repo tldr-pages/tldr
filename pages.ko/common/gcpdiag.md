@@ -2,7 +2,7 @@
 
 > Google Cloud Platform 문제 해결 및 진단 도구.
 > Docker 컨테이너 또는 GCP Cloudshell에서 실행.
-> 더 많은 정보: <https://github.com/GoogleCloudPlatform/gcpdiag>.
+> 더 많은 정보: <https://github.com/GoogleCloudPlatform/gcpdiag#usage>.
 
 - 프로젝트에서 `gcpdiag`를 실행하고, 모든 규칙을 반환:
 

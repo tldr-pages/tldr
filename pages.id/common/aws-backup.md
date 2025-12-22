@@ -1,7 +1,7 @@
 # aws backup
 
 > Layanan pencadangan untuk melindungi kumpulan layanan dan data terkait dalam Amazon Web Services.
-> Informasi lebih lanjut: <https://docs.aws.amazon.com/cli/latest/reference/backup/index.html>.
+> Informasi lebih lanjut: <https://docs.aws.amazon.com/cli/latest/reference/backup/>.
 
 - Tampilkan rincian BackupPlan (rencana pemulihan layanan yang dicadangkan) berdasarkan nomor induknya:
 

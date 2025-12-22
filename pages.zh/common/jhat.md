@@ -1,7 +1,7 @@
 # jhat
 
 > Java 堆分析工具。
-> 更多信息：<https://docs.oracle.com/javase/8/docs/technotes/tools/unix/jhat.html>.
+> 更多信息：<https://docs.oracle.com/javase/8/docs/technotes/tools/unix/jhat.html>。
 
 - 分析堆转储文件（来自 jmap），通过 HTTP 端口 7000 进行查看：
 

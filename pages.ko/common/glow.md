@@ -1,7 +1,7 @@
 # glow
 
 > 터미널에서 마크다운을 렌더링.
-> 더 많은 정보: <https://github.com/charmbracelet/glow>.
+> 더 많은 정보: <https://manned.org/glow>.
 
 - glow 실행하고 보려는 파일을 선택:
 

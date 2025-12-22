@@ -2,7 +2,7 @@
 
 > Windows, Linux 및 macOS용 Electron 앱 실행 파일을 빌드.
 > 애플리케이션 디렉터리에 유효한 package.json이 필요.
-> 더 많은 정보: <https://github.com/electron/electron-packager>.
+> 더 많은 정보: <https://github.com/electron/packager>.
 
 - 현재 아키텍처 및 플랫폼에 대한 애플리케이션을 패키징:
 

@@ -1,7 +1,7 @@
 # ogr2ogr
 
 > 지리공간 벡터 데이터를 파일 형식 간에 변환.
-> 더 많은 정보: <https://gdal.org/programs/ogr2ogr.html>.
+> 더 많은 정보: <https://gdal.org/en/stable/programs/ogr2ogr.html>.
 
 - 쉐이프파일을 지오패키지로 변환:
 

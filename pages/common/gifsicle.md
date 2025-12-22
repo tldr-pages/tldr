@@ -1,7 +1,7 @@
 # gifsicle
 
 > Create, edit, manipulate, and get information about GIF files.
-> More information: <https://www.lcdf.org/gifsicle>.
+> More information: <https://www.lcdf.org/gifsicle/>.
 
 - Optimize a GIF as a new file:
 

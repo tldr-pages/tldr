@@ -1,6 +1,6 @@
 # biff
 
-> A simple utility for doing datetime arithmetic, parsing and formatting.
+> A simple utility for doing datetime arithmetic, parsing, and formatting.
 > More information: <https://github.com/burntsushi/biff>.
 
 - Print the current time in a format of your choosing:
@@ -11,7 +11,7 @@
 
 `biff time fmt {{[-f|--format]}} '%c' now -1d 'next sat' 'last monday' '9pm last mon'`
 
-- Print the current time in another time zone, and round it the nearest 15 minute increment:
+- Print the current time in another time zone and round it the nearest 15 minute increment:
 
 `biff time in Asia/Bangkok now | biff time round {{[-i|--increment]}} 15 {{[-s|--smallest]}} minute`
 

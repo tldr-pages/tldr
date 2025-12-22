@@ -1,8 +1,8 @@
 # tar
 
 > 归档实用程序。
-> 通常与压缩方法结合使用，例如 `gzip` 或 `bzip2`.
-> 更多信息：<https://www.gnu.org/software/tar/manual/tar.html>.
+> 通常与压缩方法结合使用，例如 `gzip` 或 `bzip2`。
+> 更多信息：<https://www.gnu.org/software/tar/manual/tar.html>。
 
 - 创建存档并将其写入文件：
 

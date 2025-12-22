@@ -1,9 +1,7 @@
 # arch
 
-> Sistem mimarisinin ismini göster.
-> Ayrıca bakınız: `uname`.
-> Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/manual/html_node/arch-invocation.html>.
+> Bu komut `uname --machine` için bir takma addır.
 
-- Sistemin mimarisini göster:
+- Asıl komutun belgelerini görüntüleyin:
 
-`arch`
+`tldr uname`

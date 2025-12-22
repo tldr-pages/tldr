@@ -1,7 +1,7 @@
 # zotero
 
 > Manage your bibliographies.
-> More information: <https://www.zotero.org/support>.
+> More information: <https://www.zotero.org/support/>.
 
 - Run with the GUI:
 

@@ -1,7 +1,7 @@
 # dpkg-reconfigure
 
 > Змінює конфігурацію вже встановленого пакету.
-> Більше інформації: <https://manned.org/dpkg-reconfigure.8>.
+> Більше інформації: <https://manned.org/dpkg-reconfigure>.
 
 - Змінити конфігурацію одного або декількох пакетів:
 

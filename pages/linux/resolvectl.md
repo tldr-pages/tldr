@@ -2,7 +2,7 @@
 
 > Resolve domain names, IPv4 and IPv6 addresses, DNS resource records, and services.
 > Introspect and reconfigure the DNS resolver.
-> More information: <https://www.freedesktop.org/software/systemd/man/resolvectl.html>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/resolvectl.html>.
 
 - Show DNS settings:
 

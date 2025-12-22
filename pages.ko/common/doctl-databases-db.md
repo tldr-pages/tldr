@@ -1,7 +1,7 @@
 # doctl databases db
 
 > 데이터베이스 클러스터에서 제공하는 데이터베이스를 관리.
-> 더 많은 정보: <https://docs.digitalocean.com/reference/doctl/reference/databases/db>.
+> 더 많은 정보: <https://docs.digitalocean.com/reference/doctl/reference/databases/db/>.
 
 - 액세스 토큰을 사용하여 `doctl databases db` 명령을 실행:
 

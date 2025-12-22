@@ -19,6 +19,14 @@
 
 `readarray < {{path/to/file.txt}} -n {{n}} {{array_name}}`
 
+- Skip the first `n` lines:
+
+`readarray < {{path/to/file.txt}} -s {{n}} {{array_name}}`
+
+- Define a custom delimiter:
+
+`readarray < {{path/to/file.txt}} -d {{delimiter}} {{array_name}}`
+
 - Display help:
 
 `help mapfile`

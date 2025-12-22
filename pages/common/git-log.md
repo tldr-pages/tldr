@@ -19,7 +19,7 @@
 
 `git log --oneline --graph`
 
-- Show a graph of all commits, tags and branches in the entire repo:
+- Show a graph of all commits, tags, and branches in the entire repo:
 
 `git log --oneline --decorate --all --graph`
 

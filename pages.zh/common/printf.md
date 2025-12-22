@@ -1,7 +1,7 @@
 # printf
 
 > 格式化并打印文本。
-> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/printf-invocation.html>.
+> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/printf-invocation.html>。
 
 - 打印文本消息：
 

@@ -1,7 +1,7 @@
 # sdelete
 
 > Verwijder veilig een bestand/map van de schijf, of maak de vrije ruimte op een volume/fysieke schijf schoon.
-> Meer informatie: <https://learn.microsoft.com/en-us/sysinternals/downloads/sdelete>.
+> Meer informatie: <https://learn.microsoft.com/sysinternals/downloads/sdelete>.
 
 - Verwijder bestanden met 3 [p]asses:
 
