@@ -3,7 +3,7 @@
 > Manage the beets media library.
 > More information: <https://beets.readthedocs.io/en/stable/reference/cli.html>.
 
-- Add music to your library, attempting to get correct tags for it from MusicBrainz:
+- Add music from a specific directory to your library, attempting to get correct tags for it from MusicBrainz:
 
 `beet import {{path/to/directory}}`
 
