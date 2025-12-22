@@ -9,7 +9,7 @@
 
 - Add a single song to your library, attempting to get correct tags for it from MusicBrainz:
 
-`beet import --singletons {{path/to/file}}`
+`beet import {{[-s|--singletons]}} {{path/to/file}}`
 
 - Query library:
 
