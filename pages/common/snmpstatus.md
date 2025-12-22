@@ -5,7 +5,7 @@
 
 - Fetch the values:
 
-`snmpstatus -v {{version}} -c {{community}} {{ip}}`
+`snmpstatus -v {{version}} -c {{community}} {{ip_address}}`
 
 - Display help:
 

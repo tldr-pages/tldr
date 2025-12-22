@@ -17,4 +17,4 @@
 
 - Add a route to a specific routing table:
 
-`sudo ip {{[r|route]}} {{[a|add]}} {{destination_ip}} dev {{ethX}} {{[t|table]}} {{ip}}`
+`sudo ip {{[r|route]}} {{[a|add]}} {{destination_ip}} dev {{ethX}} {{[t|table]}} {{ip_address}}`
