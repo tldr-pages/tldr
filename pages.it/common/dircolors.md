@@ -1,13 +1,13 @@
 # dircolors
 
-> Stampa comandi necessari per settare la variabile d'ambiente LS_COLOR per stilizzare `ls`, `dir`, etc.
+> Stampa comandi necessari per settare la variabile d'ambiente `$LS_COLOR` per stilizzare `ls`, `dir`, etc.
 > Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/dircolors-invocation.html>.
 
-- Stampa i comandi per settare LS_COLOR con i colori predefiniti:
+- Stampa i comandi per settare `$LS_COLOR` con i colori predefiniti:
 
 `dircolors`
 
-- Stampa i comandi per settare LS_COLOR con i colori definiti in un file:
+- Stampa i comandi per settare `$LS_COLOR` con i colori definiti in un file:
 
 `dircolors {{file}}`
 

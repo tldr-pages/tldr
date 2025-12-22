@@ -14,7 +14,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | cs    |                              |                           |                  |
 | da    | Vis hjælp                    | Vis version               |                  |
 | de    | Zeige Hilfe an               | Zeige Version an          |                  |
-| el
+| el    | Εμφάνιση Βοήθειας            | Εμφάνιση Έκδοσης          |                  |
 | es    | Muestra ayuda                | Muestra versión           |                  |
 | fa    | نمایش راهنما                 | نسخه کنونی جنگو           |                  |
 | fi    | Näytä ohje                   | Näytä versio              | [Interaktiotila] |

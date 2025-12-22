@@ -15,7 +15,7 @@
 
 `export -f {{NOMBRE_FUNCION}}`
 
-- Añade una ruta a la variable de ambiente `PATH`:
+- Añade una ruta a la variable de ambiente `$PATH`:
 
 `export PATH=$PATH:{{ruta/a/añadir}}`
 

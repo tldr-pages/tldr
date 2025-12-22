@@ -1,6 +1,6 @@
 # java_home
 
-> $JAVA_HOME의 값을 반환하거나 이 변수를 사용하여 명령을 실행합니다.
+> `$JAVA_HOME`의 값을 반환하거나 이 변수를 사용하여 명령을 실행합니다.
 > 더 많은 정보: <https://www.unix.com/man-page/osx/1/java_home>.
 
 - 특정 버전에 기반한 JVM 목록 나열:

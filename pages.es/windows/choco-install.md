@@ -11,7 +11,7 @@
 
 `choco install {{ruta\al\archivo_de_paquetes.config}}`
 
-- Instala un archivo `nuspec` o `nupkg` específico:
+- Instala un archivo `.nuspec` o `.nupkg` específico:
 
 `choco install {{path\to\file}}`
 

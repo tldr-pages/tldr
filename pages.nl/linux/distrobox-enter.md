@@ -1,7 +1,7 @@
 # distrobox-enter
 
 > Betreed een Distrobox container.
-> Standaard commando dat wordt uitgevoerd is je SHELL, maar je kan verschillende shells of hele commando's specificeren. Indien gebruikt in een script/applicatie/service, kunt u de `--headless`-modus gebruiken om de tty en interactiviteit uit te schakelen.
+> Standaard commando dat wordt uitgevoerd is je `$SHELL`, maar je kan verschillende shells of hele commando's specificeren. Indien gebruikt in een script/applicatie/service, kunt u de `--headless`-modus gebruiken om de tty en interactiviteit uit te schakelen.
 > Bekijk ook: `distrobox`.
 > Meer informatie: <https://distrobox.it/usage/distrobox-enter/>.
 

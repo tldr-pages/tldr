@@ -11,7 +11,7 @@
 
 `choco install {{pad\naar\pakketten_bestand.config}}`
 
-- Installeer een specifiek `nuspec` of `nupkg` bestand:
+- Installeer een specifiek `.nuspec` of `.nupkg` bestand:
 
 `choco install {{pad\naar\bestand}}`
 

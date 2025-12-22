@@ -16,11 +16,11 @@
 
 `add archive {{archive.tar.gz}} as {{alias}};`
 
-- [Interactive] Add .jar resource:
+- [Interactive] Add `.jar` resource:
 
 `add jar {{package.jar}};`
 
-- [Interactive] Add .py resource:
+- [Interactive] Add `.py` resource:
 
 `add py {{script.py}};`
 

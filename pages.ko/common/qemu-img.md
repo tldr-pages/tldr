@@ -19,6 +19,6 @@
 
 `qemu-img map {{이미지_이름.img}}`
 
-- VMware .vmdk 디스크 이미지를 KVM .qcow2 디스크 이미지로 변환:
+- VMware `.vmdk` 디스크 이미지를 KVM `.qcow2` 디스크 이미지로 변환:
 
 `qemu-img convert -f {{vmdk}} -O {{qcow2}} {{경로/대상/파일/foo.vmdk}} {{경로/대상/파일/foo.qcow2}}`

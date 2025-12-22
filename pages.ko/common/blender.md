@@ -7,7 +7,7 @@
 
 `blender --background {{경로/대상/파일.blend}} --render-anim`
 
-- .blend 파일에 대한 경로 (`//`)에서 특정 이미지 명명 패턴을 사용하여 애니메이션 렌더링:
+- `.blend` 파일에 대한 경로 (`//`)에서 특정 이미지 명명 패턴을 사용하여 애니메이션 렌더링:
 
 `blender --background {{경로/대상/파일.blend}} --render-output //{{render/frame_###.png}} --render-anim`
 

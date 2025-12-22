@@ -4,6 +4,6 @@
 > The supported image formats for `qemu-img`, such as raw, qcow2, qed, vdi, vmdk, and vhd must be used.
 > More information: <https://pve.proxmox.com/pve-docs/qm.1.html#cli_qm_disk_import>.
 
-- Import a VMDK/qcow2/raw disk image using a specific storage name:
+- Import a VMDK/`.qcow2`/raw disk image using a specific storage name:
 
 `qm {{[di|disk]}} {{[i|import]}} {{vm_id}} {{path/to/disk}} {{storage_name}} --format {{qcow2|raw|vmdk}}`
