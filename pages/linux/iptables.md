@@ -15,11 +15,11 @@
 
 - Append rule to chain policy for IP:
 
-`sudo iptables {{[-A|--append]}} {{chain}} {{[-s|--source]}} {{ip}} {{[-j|--jump]}} {{rule}}`
+`sudo iptables {{[-A|--append]}} {{chain}} {{[-s|--source]}} {{ip_address}} {{[-j|--jump]}} {{rule}}`
 
 - Append rule to chain policy for IP considering protocol and port:
 
-`sudo iptables {{[-A|--append]}} {{chain}} {{[-s|--source]}} {{ip}} {{[-p|--protocol]}} {{tcp|udp|icmp|...}} --dport {{port}} {{[-j|--jump]}} {{rule}}`
+`sudo iptables {{[-A|--append]}} {{chain}} {{[-s|--source]}} {{ip_address}} {{[-p|--protocol]}} {{tcp|udp|icmp|...}} --dport {{port}} {{[-j|--jump]}} {{rule}}`
 
 - Add a NAT rule to translate all traffic from the `192.168.0.0/24` subnet to the host's public IP:
 
