@@ -7,7 +7,7 @@
 
 `zgrep {{pattern}} {{path/to/compressed_file}}`
 
-- Use extended `regex` (supporting `?`, `+`, `{}`, `()`, and `|`):
+- Use extended `regex` (supports `?`, `+`, `{}`, `()`, and `|`):
 
 `zgrep {{[-E|--extended-regexp]}} {{regex}} {{path/to/file}}`
 
