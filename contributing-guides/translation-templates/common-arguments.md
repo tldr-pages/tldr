@@ -8,8 +8,8 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 > [!NOTE]
 > Placeholders in Arabian (`ar`) and Farsi (`fa`) pages shouldn't be translated to prevent flipped text when reading.
 
-| en    | path/to/file          | path/to/directory        | path/to/file_or_directory          | package     | username           | password | command |
-|-------|-----------------------|--------------------------|------------------------------------|-------------|--------------------|----------|---------|
+| en    | path/to/file          | path/to/directory        | path/to/file_or_directory          | package     | username           | password | command | port | value |
+|-------|-----------------------|--------------------------|------------------------------------|-------------|--------------------|----------|---------|------|-------|
 | ar    |                       |                          |                                    |             |                    |          |
 | bn    | ফাইল/এর/পাথ           | ডিরেক্টরি/এর/পাথ          | ফাইল_অথবা_ডিরেক্টরি/এর/পাথ          | প্যাকেজ      | ইউজারনেম           |          |
 | bs    | put/do/datoteke       | put/do/direktorija       | put/do/datoteke_ili_direktorija    | paket       | korisničko_ime     |          |
