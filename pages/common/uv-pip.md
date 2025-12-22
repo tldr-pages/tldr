@@ -19,7 +19,7 @@
 
 `uv pip uninstall {{package}}`
 
-- Lock dependencies from a `pyproject.toml` to a `requirements.txt`:
+- Lock dependencies from `pyproject.toml` to `requirements.txt`:
 
 `uv pip compile pyproject.toml {{[-o|--output-file]}} requirements.txt`
 
