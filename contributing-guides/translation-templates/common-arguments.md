@@ -10,7 +10,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 
 | en    | path/to/file          | path/to/directory        | path/to/file_or_directory          | package     | username           | password | command | port | value |
 |-------|-----------------------|--------------------------|------------------------------------|-------------|--------------------|----------|---------|------|-------|
-| ar    |                       |                          |                                    |             |                    |          |
+| ar    | path/to/file          | path/to/directory        | path/to/file_or_directory          | package     | username           | password | command | port | value |
 | bn    | ফাইল/এর/পাথ           | ডিরেক্টরি/এর/পাথ          | ফাইল_অথবা_ডিরেক্টরি/এর/পাথ          | প্যাকেজ      | ইউজারনেম           |          |
 | bs    | put/do/datoteke       | put/do/direktorija       | put/do/datoteke_ili_direktorija    | paket       | korisničko_ime     |          |
 | ca    | camí/al/fitxer        | camí/al/directori        | camí/al/fitxer_o_directori         | paquet      | nom_usuari         |          |
@@ -19,8 +19,8 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | de    | pfad/zu/datei         | pfad/zu/verzeichnis      | pfad/zu/datei_oder_verzeichnis     | paket       | benutzername       |          |
 | el
 | es    | ruta/al/archivo       | ruta/al/directorio       | ruta/al/archivo_o_directorio       | paquete     | usuario            |          |
-| fa    |                       |                          |                                    |             |                    |          |
-| fi    | polku/tiedostoon      | polku/hakemistoon        | polku/tiedostoon_tai_hakemistoon   | paketti     | käyttäjätunnus     | salasana | komento |
+| ar    | path/to/file          | path/to/directory        | path/to/file_or_directory          | package     | username           | password | command | port | value |
+| fi    | polku/tiedostoon      | polku/hakemistoon        | polku/tiedostoon_tai_hakemistoon   | paketti     | käyttäjätunnus     | salasana | komento | portti | arvo |
 | fr    | chemin/vers/fichier   | chemin/vers/dossier      | chemin/vers/fichier_ou_dossier     | paquet      | nom_d_utilisateur  |          |
 | hi    | फ़ाइल/का/पथ            | निर्देशिका/का/पथ           | फ़ाइल_या_निर्देशिका/का/पथ             | पैकेज         | उपयोगकर्ता_नाम      |          |
 | id    | jalan/menuju/berkas   | jalan/menuju/direktori   | jalan/menuju/berkas_atau_direktori | paket       | nama_pengguna      |          |
