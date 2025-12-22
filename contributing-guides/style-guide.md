@@ -423,6 +423,19 @@ the part of the address that starts with `?view=`.
 > Some subcommands such as `commit`, `add`, `branch`, `switch`, `push`, etc. have their own usage documentation.
 ```
 
+#### Heading order
+
+The heading should adhere to the following order:
+
+```md
+> Short description of the functionality.
+> Further clarification of the functionality.
+> Note: Any note for the usage.
+> Some subcommands such as `subcommand1`, `subcommand2` have their own usage documentation.
+> See also: `command`.
+> More information: <https://example.com>.
+```
+
 ## Example descriptions
 
 ### Short option mnemonics
