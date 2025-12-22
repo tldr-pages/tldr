@@ -4,7 +4,7 @@
 > See also: `regex`.
 > More information: <https://www.gnu.org/software/grep/manual/grep.html>.
 
-- Search for a pattern within a file:
+- Search for a pattern within files:
 
 `grep "{{search_pattern}}" {{path/to/file1 path/to/file2 ...}}`
 
