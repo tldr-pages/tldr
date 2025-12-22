@@ -11,6 +11,6 @@
 
 `regedit -D {{path/to/registrykey}}`
 
-- Print help message:
+- Display help:
 
 `regedit -?`
