@@ -21,7 +21,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | fr    | Affiche l'aide               | Affiche la version        |                  |
 | hi    | मदद प्रदर्शित करें                  | संस्करण दिखाएं                |                  |
 | id    | Tampilkan bantuan            | Tampilkan informasi versi |                  |
-| it    | Mostra informazioni di aiuto | Controlla la versione     |                  |
+| it    | Mostra aiuto | Controlla la versione     |                  |
 | ja    | ヘルプを表示する                | バージョンを表示            |                  |
 | ko    | 도움말 표시                    | 버전 정보 표시               |                  |
 | lo    |                              |                           |                  |
