@@ -520,8 +520,8 @@ Keep the following guidelines in mind when choosing placeholders:
 
 #### Extensions
 
-- If a particular extension is expected for the file, append it.
-  For example, `unrar x {{path/to/compressed.rar}}`.
+- If a particular extension is expected for the file, append it outside of the placeholder.
+  For example, `unrar x {{path/to/compressed}}.rar`.
 - In case a generic extension is needed, use `{{.ext}}`, but **only** if an extension is required.
   For instance, in `find.md`'s example "Find files by extension" (`find {{path/to/root}} -name '{{*.ext}}'`)
   using `{{*.ext}}` explains the command without being unnecessarily specific;
