@@ -11,10 +11,6 @@
 
 `adb reverse tcp:{{remote_port}} tcp:{{local_port}}`
 
-- Invierte un puerto TCP desde un emulador o dispositivo específico (por ID de dispositivo / número de [s]erie) a localhost:
-
-`adb -s {{ID_dispositivo}} reverse tcp:{{remote_port}} tcp:{{local_port}}`
-
 - Elimina una conexión de socket inversa de un emulador o dispositivo:
 
 `adb reverse --remove tcp:{{remote_port}}`

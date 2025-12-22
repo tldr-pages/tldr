@@ -11,10 +11,6 @@
 
 `adb reverse tcp:{{원격_포트}} tcp:{{로컬_포트}}`
 
-- 특정 에뮬레이터 또는 장치(장치 ID / [s]일련 번호 기준)의 TCP 포트를 localhost로 전환:
-
-`adb -s {{장치_ID}} reverse tcp:{{원격_포트}} tcp:{{로컬_포트}}`
-
 - 에뮬레이터 또는 장치에서 역방향 소켓 연결을 제거:
 
 `adb reverse --remove tcp:{{원격_포트}}`
