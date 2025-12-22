@@ -11,10 +11,6 @@
 
 `bzgrep {{[-r|--recursive]}} "{{search_pattern}}" {{path/to/tar_file}}`
 
-- Use extended `regex` (supports `?`, `+`, `{}`, `()`, and `|`), in case-insensitive mode:
-
-`bzgrep {{[-E|--extended-regexp]}} {{[-i|--ignore-case]}} "{{search_pattern}}" {{path/to/file}}`
-
 - Print 3 lines of [C]ontext around, [B]efore, or [A]fter each match:
 
 `bzgrep {{--context|--before-context|--after-context}} {{3}} "{{search_pattern}}" {{path/to/file}}`
@@ -30,3 +26,7 @@
 - Search `stdin` for lines that do not match a pattern:
 
 `cat {{path/to/bz_compressed_file}} | bzgrep {{[-v|--invert-match]}} "{{search_pattern}}"`
+
+- Use extended `regex` (supports `?`, `+`, `{}`, `()`, and `|`), in case-insensitive mode:
+
+`bzgrep {{[-E|--extended-regexp]}} {{[-i|--ignore-case]}} "{{search_pattern}}" {{path/to/file}}`
