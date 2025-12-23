@@ -305,7 +305,7 @@ For example, use:
 
 #### Links with locales
 
-When linking pages to websites that have locale settings like the Microsoft Learn links, remove the locale from the address as the website will automatically redirect to the reader's preferred locale setting.
+When linking pages to websites that have locale settings like the Microsoft Learn links, remove the locale from the address if the website will automatically redirect to the reader's preferred locale setting.
 For example, Use <https://learn.microsoft.com/windows-server/administration/windows-commands/cd> instead of
 <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/cd>.
 
