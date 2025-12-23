@@ -9,7 +9,7 @@
 
 - Llista tots els fitxers, incloent els ocults:
 
-`ls {{[-a|--all]}}`
+`ls {{[-a|--]}}`
 
 - Llista tots els fitxers, afegint `/` al nom dels directoris:
 
