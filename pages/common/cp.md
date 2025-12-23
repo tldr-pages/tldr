@@ -5,11 +5,11 @@
 
 - Copy a file to another location:
 
-`cp {{path/to/source_file.ext}} {{path/to/target_file.ext}}`
+`cp {{path/to/source_file}} {{path/to/target_file}}`
 
 - Copy a file into another directory, keeping the filename:
 
-`cp {{path/to/source_file.ext}} {{path/to/target_parent_directory}}`
+`cp {{path/to/source_file}} {{path/to/target_parent_directory}}`
 
 - Recursively copy a directory's contents to another location (if the destination exists, the directory is copied inside it):
 
