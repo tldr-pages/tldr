@@ -1,6 +1,7 @@
 # netstat
 
 > Toon netwerkgerelateerde informatie zoals open verbindingen, open socketpoorten, enz.
+> Zie ook: `ss`.
 > Meer informatie: <https://manned.org/netstat>.
 
 - Toon alle poorten:

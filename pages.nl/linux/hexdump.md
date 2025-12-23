@@ -14,7 +14,7 @@
 
 - Geef de hexadecimale weergave van een bestand weer, maar interpreteer alleen n bytes van de invoer:
 
-`hexdump {{[-C|--canonical]}} {{[-n|--lengte]}} {{aantal_bytes}} {{pad/naar/bestand}}`
+`hexdump {{[-C|--canonical]}} {{[-n|--length]}} {{aantal_bytes}} {{pad/naar/bestand}}`
 
 - Vervang dubbele regels niet door '*':
 
