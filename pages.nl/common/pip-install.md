@@ -3,7 +3,7 @@
 > Installeer Python-pakketten.
 > Meer informatie: <https://pip.pypa.io/en/stable/cli/pip_install/>.
 
-- Installeer één of meer pakket:
+- Installeer één of meer pakketten:
 
 `pip install {{pakket1 pakket2 ...}}`
 
