@@ -9,7 +9,7 @@
 
 - Display keypress information:
 
-`sudo keyd monitor`
+`sudo keyd {{[-m|monitor]}}`
 
 - Reset bindings and reload the configuration files in `/etc/keyd`:
 
@@ -18,6 +18,10 @@
 - List all valid key names:
 
 `keyd list-keys`
+
+- Check the detected configuration files for errors:
+
+`keyd check`
 
 - Create a temporary binding:
 
