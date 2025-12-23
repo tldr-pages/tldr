@@ -25,4 +25,4 @@
 
 - Muestra la ayuda:
 
-`brew info {{[-h|--help]}}``
+`brew info {{[-h|--help]}}`
