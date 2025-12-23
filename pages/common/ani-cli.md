@@ -1,6 +1,6 @@
 # ani-cli
 
-> A cli to browse and watch anime.
+> Browse and watch anime.
 > See also: `animdl`.
 > More information: <https://manned.org/ani-cli>.
 
