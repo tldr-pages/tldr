@@ -534,11 +534,11 @@ Keep the following guidelines in mind when choosing placeholders:
 #### Extensions
 
 - If a particular extension is expected for the file, append it.
-  For example, `unrar x {{path/to/compressed.rar}}`.
+- If the extension represents the most common format but the command accepts related variations (such as multi-volume `.r00` or `.part1.rar` archives), keep it **inside** the placeholder: `unrar x {{path/to/archive.rar}}`.
+- If the command strictly requires one specific extension and no others to function, keep the extension **outside** the placeholder to indicate it is mandatory: `java -jar {{path/to/filename}}.jar`.
 - In case a generic extension is needed, use `{{.ext}}`, but **only** if an extension is required.
-  For instance, in `find.md`'s example "Find files by extension" (`find {{path/to/root}} -name '{{*.ext}}'`)
-  using `{{*.ext}}` explains the command without being unnecessarily specific;
-  while in `wc -l {{path/to/file}}` using `{{path/to/file}}` (without extension) is sufficient.
+- For instance, in `find.md`'s example "Find files by extension" (`find {{path/to/root}} -name '{{*.ext}}'`), using `{{*.ext}}` explains the command without being unnecessarily specific.
+- In `wc -l {{path/to/file}}`, using `{{path/to/file}}` (without an extension) is sufficient.
 
 #### Grouping placeholders
 
