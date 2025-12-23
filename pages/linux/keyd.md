@@ -9,7 +9,7 @@
 
 - Display keypress information:
 
-`sudo keyd monitor`
+`sudo keyd {{[-m|monitor]}}`
 
 - Reset bindings and reload the configuration files in `/etc/keyd`:
 
