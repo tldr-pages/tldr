@@ -139,7 +139,7 @@ function check_outdated_page() {
 
   english_header_lines=$(count_header "$english_page" "$header_regex")
   header_lines=$(count_header "$page" "$header_regex")
-  if [ "$english_header_lines" != "$header_lines" ]; then
+  if [[ "$english_header_lines" != "$header_lines" ]]; then
     printf "\x2d $MSG_OUTDATED" "$page" "based on number of lines in header"
   fi
 }
