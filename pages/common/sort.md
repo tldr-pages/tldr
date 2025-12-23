@@ -19,7 +19,7 @@
 
 `sort {{[-n|--numeric-sort]}} {{path/to/file}}`
 
-- Sort `/etc/passwd` by the 3rd field of each line numerically, using `:` as a field separator:
+- Sort `/etc/passwd` by the 3rd field onward of each line numerically, using `:` as a field separator:
 
 `sort {{[-t|--field-separator]}} : {{[-k|--key]}} 3n /etc/passwd`
 

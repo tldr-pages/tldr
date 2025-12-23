@@ -6,19 +6,19 @@
 
 - Connect to a host and start an interactive session:
 
-`evil-winrm {{[-i|--ip]}} {{ip}} {{[-u|--user]}} {{user}} {{[-p|--password]}} {{password}}`
+`evil-winrm {{[-i|--ip]}} {{ip_address}} {{[-u|--user]}} {{user}} {{[-p|--password]}} {{password}}`
 
 - Connect to a host using pass-the-hash authentication instead of a password:
 
-`evil-winrm {{[-i|--ip]}} {{ip}} {{[-u|--user]}} {{user}} {{[-H|--hash]}} {{nt_hash}}`
+`evil-winrm {{[-i|--ip]}} {{ip_address}} {{[-u|--user]}} {{user}} {{[-H|--hash]}} {{nt_hash}}`
 
 - Connect to a host, specifying directories for PowerShell scripts and executables:
 
-`evil-winrm {{[-i|--ip]}} {{ip}} {{[-u|--user]}} {{user}} {{[-p|--password]}} {{password}} {{[-s|--scripts]}} {{path/to/scripts}} {{[-e|--executables]}} {{path/to/executables}}`
+`evil-winrm {{[-i|--ip]}} {{ip_address}} {{[-u|--user]}} {{user}} {{[-p|--password]}} {{password}} {{[-s|--scripts]}} {{path/to/scripts}} {{[-e|--executables]}} {{path/to/executables}}`
 
 - Connect to a host, using SSL:
 
-`evil-winrm {{[-i|--ip]}} {{ip}} {{[-u|--user]}} {{user}} {{[-p|--password]}} {{password}} {{[-S|--ssl]}} {{[-c|--pub-key]}} {{path/to/pubkey}} {{[-k|--priv-key]}} {{path/to/privkey}}`
+`evil-winrm {{[-i|--ip]}} {{ip_address}} {{[-u|--user]}} {{user}} {{[-p|--password]}} {{password}} {{[-S|--ssl]}} {{[-c|--pub-key]}} {{path/to/pubkey}} {{[-k|--priv-key]}} {{path/to/privkey}}`
 
 - [Interactive] Upload a file to the host:
 

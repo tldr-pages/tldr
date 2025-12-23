@@ -17,4 +17,4 @@
 
 - Extrae un playbook de un VCS, en tanto especificando un archivo hosts y ejecuta un playbook específico:
 
-`ansible-pull {{[-U|--url]}} {{url_repositorio}} {{[-i|--inventory]}} {{archivo_hosts}} {{playbook}}`
+`ansible-pull {{[-U|--url]}} {{url_repositorio}} {{[-i|--inventory-file]}} {{archivo_hosts}} {{playbook}}`
