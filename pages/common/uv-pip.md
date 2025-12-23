@@ -19,9 +19,9 @@
 
 `uv pip uninstall {{package}}`
 
-- Save installed packages to file:
+- Lock dependencies from `pyproject.toml` to `requirements.txt`:
 
-`uv pip freeze > {{requirements.txt}}`
+`uv pip compile pyproject.toml {{[-o|--output-file]}} requirements.txt`
 
 - List installed packages:
 

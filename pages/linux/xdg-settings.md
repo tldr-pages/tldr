@@ -5,15 +5,15 @@
 
 - Print the default web browser:
 
-`xdg-settings get {{default-web-browser}}`
+`xdg-settings get default-web-browser`
 
 - Set the default web browser to Firefox:
 
-`xdg-settings set {{default-web-browser}} {{firefox.desktop}}`
+`xdg-settings set default-web-browser {{firefox.desktop}}`
 
 - Set the default mail URL scheme handler to Evolution:
 
-`xdg-settings set {{default-url-scheme-handler}} {{mailto}} {{evolution.desktop}}`
+`xdg-settings set default-url-scheme-handler mailto {{evolution.desktop}}`
 
 - Set the default PDF document viewer:
 

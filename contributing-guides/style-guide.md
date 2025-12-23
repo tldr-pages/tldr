@@ -423,6 +423,19 @@ the part of the address that starts with `?view=`.
 > Some subcommands such as `commit`, `add`, `branch`, `switch`, `push`, etc. have their own usage documentation.
 ```
 
+#### Heading order
+
+The heading should adhere to the following order:
+
+```md
+> Short description of the functionality.
+> Further clarification of the functionality.
+> Note: Any note for the usage.
+> Some subcommands such as `subcommand1`, `subcommand2` have their own usage documentation.
+> See also: `command`.
+> More information: <https://example.com>.
+```
+
 ## Example descriptions
 
 ### Short option mnemonics
@@ -521,11 +534,11 @@ Keep the following guidelines in mind when choosing placeholders:
 #### Extensions
 
 - If a particular extension is expected for the file, append it.
-  For example, `unrar x {{path/to/compressed.rar}}`.
+- If the extension represents the most common format but the command accepts related variations (such as multi-volume `.r00` or `.part1.rar` archives), keep it **inside** the placeholder: `unrar x {{path/to/archive.rar}}`.
+- If the command strictly requires one specific extension and no others to function, keep the extension **outside** the placeholder to indicate it is mandatory: `java -jar {{path/to/filename}}.jar`.
 - In case a generic extension is needed, use `{{.ext}}`, but **only** if an extension is required.
-  For instance, in `find.md`'s example "Find files by extension" (`find {{path/to/root}} -name '{{*.ext}}'`)
-  using `{{*.ext}}` explains the command without being unnecessarily specific;
-  while in `wc -l {{path/to/file}}` using `{{path/to/file}}` (without extension) is sufficient.
+- For instance, in `find.md`'s example "Find files by extension" (`find {{path/to/root}} -name '{{*.ext}}'`), using `{{*.ext}}` explains the command without being unnecessarily specific.
+- In `wc -l {{path/to/file}}`, using `{{path/to/file}}` (without an extension) is sufficient.
 
 #### Grouping placeholders
 
@@ -577,6 +590,11 @@ The below section contains additional language and translation-specific rules:
 ### General
 
 Do not translate `example.com`. The domain is [reserved by IANA for documentation purposes](https://www.iana.org/help/example-domains) and will not be leased to anyone. Translating the website name could put thoughtless users at risk.
+
+> [!IMPORTANT]
+> Only translate or update languages you can confidently read and proofread.
+> Avoid machine-generated or bulk edits across languages you do not know.
+> When you change an English page, it is fine to leave other languages untouched; native speakers and maintainers will sync them later via the translation dashboards.
 
 ### English-Specific Rules
 
