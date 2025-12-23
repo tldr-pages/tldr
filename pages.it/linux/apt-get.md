@@ -24,7 +24,7 @@
 
 `sudo apt-get upgrade`
 
-- Pulisce gli archivi locali - rimuovendo i file (.deb) da scaricamenti interrotti che non possono più essere scaricati:
+- Pulisce gli archivi locali - rimuovendo i file (`.deb`) da scaricamenti interrotti che non possono più essere scaricati:
 
 `sudo apt-get autoclean`
 

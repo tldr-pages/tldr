@@ -9,7 +9,7 @@
 #  2. Detect English pages that were added in a platform specific directory although
 #     they already exist under 'common'.
 #  4. Detect translated pages that do not exist as English pages yet.
-#  5. Detect outdated pages. A page is marked as outdated when the number of 
+#  5. Detect outdated pages. A page is marked as outdated when the number of
 #     commands differ from the number of commands in the English page or the
 #     contents of the commands differ from the English page.
 #  6. Detect other miscellaneous anomalies in the pages folder.
@@ -87,6 +87,13 @@ function count_commands() {
   grep -c "$regex" "$file"
 }
 
+count_header() {
+  local file="$1"
+  local regex="$2"
+
+  grep -c "$regex" "$file"
+}
+
 function strip_commands() {
   local file="$1"
   local regex="$2"
@@ -94,13 +101,15 @@ function strip_commands() {
   local stripped_commands=()
 
   mapfile -t stripped_commands < <(
-    grep "$regex" "$file" | 
-    sed -E 's/\{\{([^}]|(\{[^}]*\}))*\}\}/{{}}/g' | 
-    sed 's/<[^>]*>//g' | 
-    sed 's/([^)]*)//g' | 
-    sed 's/"[^"]*"/""/g' | 
-    sed "s/'[^']*'//g" | 
-    sed 's/`//g'
+    grep "$regex" "$file" |
+    sed 's/{{\[\([^|]*|[^]]*\)\]}}/___\1___/g' |
+    sed -E 's/\{\{([^}]|(\{[^}]*\}))*\}\}/{{}}/g' |
+    sed 's/<[^>]*>//g' |
+    sed 's/([^)]*)//g' |
+    sed 's/"[^"]*"/""/g' |
+    sed "s/'[^']*'//g" |
+    sed 's/`//g' |
+    sed 's/___\(.*\)___/{{\[\1\]}}/g'
   )
 
   printf "%s\n" "${stripped_commands[*]}"
@@ -110,6 +119,7 @@ function check_outdated_page() {
   local page="$1"
   local english_page="pages/${page#pages*\/}"
   local command_regex='^`[^`]\+`$'
+  local header_regex='^>.*$'
 
   if [[ $page == "$english_page" || ! -f $english_page ]]; then
     return 1
@@ -125,6 +135,12 @@ function check_outdated_page() {
     printf "\x2d $MSG_OUTDATED" "$page" "based on number of commands"
   elif [[ "$english_commands_as_string" != "$commands_as_string" ]]; then
     printf "\x2d $MSG_OUTDATED" "$page" "based on the command contents itself"
+  fi
+
+  english_header_lines=$(count_header "$english_page" "$header_regex")
+  header_lines=$(count_header "$page" "$header_regex")
+  if [[ "$english_header_lines" != "$header_lines" ]]; then
+    printf "\x2d $MSG_OUTDATED" "$page" "based on number of header lines"
   fi
 }
 

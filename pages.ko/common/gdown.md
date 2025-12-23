@@ -19,6 +19,6 @@
 
 `gdown {{폴더_아이디|주소}} -O {{경로/대상/출력_디렉토리}} --folder`
 
-- tar 아카이브를 다운로드하고, `stdout`에 쓴 후 추출:
+- `.tar` 아카이브를 다운로드하고, `stdout`에 쓴 후 추출:
 
 `gdown {{tar압축파일_주소}} -O - --quiet | tar xvf -`

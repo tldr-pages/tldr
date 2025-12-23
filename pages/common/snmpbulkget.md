@@ -5,11 +5,11 @@
 
 - Request the next value from the SNMP agent:
 
-`snmpbulkget -v {{version}} -c {{community}} {{ip}} {{oid}}`
+`snmpbulkget -v {{version}} -c {{community}} {{ip_address}} {{oid}}`
 
 - Display the full Object Identifier (OID) path:
 
-`snmpbulkget -v {{version}} -c {{community}} -O f {{ip}} {{oid}}`
+`snmpbulkget -v {{version}} -c {{community}} -O f {{ip_address}} {{oid}}`
 
 - Display help:
 

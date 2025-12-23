@@ -11,7 +11,7 @@
 
 `base64 {{[-i|--input]}} {{caminho/para/arquivo_de_entrada}} {{[-o|--output]}} {{caminho/para/arquivo_de_saída}}`
 
-- Quebra (insere uma quebra de linha) a saída codificada em uma largura específica (‘0’ desabilita encapsulamento):
+- Quebra (insere uma quebra de linha) a saída codificada em uma largura específica (`0` desabilita encapsulamento):
 
 `base64 {{[-b|--break]}} {{0|76|...}} {{caminho/para/arquivo}}`
 

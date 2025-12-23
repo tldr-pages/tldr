@@ -1,7 +1,7 @@
 # qalc
 
 > 强大且易用的命令行计算器。
-> 请参阅：`bc`。
+> 另请参阅：`bc`。
 > 更多信息：<https://qalculate.github.io/manual/qalc.html>。
 
 - 以交互模式启动：

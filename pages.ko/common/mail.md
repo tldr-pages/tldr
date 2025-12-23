@@ -16,6 +16,6 @@
 
 `mail --subject "{{$HOSTNAME 파일명.txt}}" {{받는이@example.com}} < {{경로/대상/파일명.txt}}`
 
-- `tar.gz` 파일을 첨부 파일로 보내기:
+- `.tar.gz` 파일을 첨부 파일로 보내기:
 
 `tar cvzf - {{경로/대상/폴더1 경로/대상/폴더2}} | uuencode {{데이터.tar.gz}} | mail --subject "{{제목}}" {{받는이@example.com}}`

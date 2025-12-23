@@ -20,7 +20,7 @@
 
 `virsh create {{ruta/a/archivo_de_configuración.xml}}`
 
-- Edita el archivo de configuración de un invitado (el editor puede cambiarse con $EDITOR):
+- Edita el archivo de configuración de un invitado (el editor puede cambiarse con `$EDITOR`):
 
 `virsh edit {{invitado_id}}`
 

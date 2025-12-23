@@ -3,7 +3,7 @@
 > Servidor DHCPv6 stateless.
 > Não deve ser invocado manualmente.
 > Veja também: `InternetSharing`.
-> Mais informações: <https://www.manpagez.com/man/8/dhcp6d/>.
+> Mais informações: <https://keith.github.io/xcode-man-pages/dhcp6d.8.html>.
 
 - Inicia o daemon:
 

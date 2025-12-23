@@ -30,8 +30,8 @@
 
 - Add/Delete an IP address to an interface:
 
-`sudo ip {{[a|address]}} {{add|delete}} {{ip}}/{{mask}} dev {{ethX}}`
+`sudo ip {{[a|address]}} {{add|delete}} {{ip_address}}/{{mask}} dev {{ethX}}`
 
 - Add a default route:
 
-`sudo ip {{[r|route]}} {{[a|add]}} default via {{ip}} dev {{ethX}}`
+`sudo ip {{[r|route]}} {{[a|add]}} default via {{ip_address}} dev {{ethX}}`

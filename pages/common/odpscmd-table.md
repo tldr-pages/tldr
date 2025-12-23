@@ -1,7 +1,7 @@
 # odpscmd table
 
 > Create and modify tables in ODPS (Open Data Processing Service).
-> See also: `odps`.
+> See also: `odpscmd`.
 > More information: <https://www.alibabacloud.com/help/en/maxcompute/user-guide/maxcompute-client>.
 
 - [Interactive] Create a table with partition and lifecycle:

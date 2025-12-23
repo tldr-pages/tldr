@@ -12,6 +12,10 @@
 
 `rg {{pattern}} {{path/to/file_or_directory}}`
 
+- Search for a literal string pattern:
+
+`rg {{[-F|--fixed-strings]}} -- {{string}}`
+
 - Include hidden files and entries listed in `.gitignore`:
 
 `rg {{[-.|--hidden]}} --no-ignore {{pattern}}`
@@ -31,7 +35,3 @@
 - Show lines that do not match the pattern:
 
 `rg {{[-v|--invert-match]}} {{pattern}}`
-
-- Search for a literal string pattern:
-
-`rg {{[-F|--fixed-strings]}} -- {{string}}`

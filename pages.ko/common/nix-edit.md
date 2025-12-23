@@ -1,6 +1,6 @@
 # nix edit
 
-> Nix 패키지의 Nix 표현을 $EDITOR에서 엽니다.
+> Nix 패키지의 Nix 표현을 `$EDITOR`에서 엽니다.
 > 더 많은 정보: <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-edit.html>.
 
 - nixpkgs에서 패키지의 Nix 표현 소스를 `$EDITOR`에서 열기:

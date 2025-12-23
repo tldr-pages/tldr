@@ -8,7 +8,7 @@
 
 `blender {{[-b|--background]}} {{path/to/file.blend}} {{[-a|--render-anim]}}`
 
-- Render an animation using a specific image naming pattern, in a path relative (`//`) to the .blend file:
+- Render an animation using a specific image naming pattern, in a path relative (`//`) to the `.blend` file:
 
 `blender {{[-b|--background]}} {{path/to/file.blend}} {{[-o|--render-output]}} //{{render/frame_###.png}} {{[-a|--render-anim]}}`
 

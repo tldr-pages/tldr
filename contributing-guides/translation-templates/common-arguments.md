@@ -8,9 +8,9 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 > [!NOTE]
 > Placeholders in Arabian (`ar`) and Farsi (`fa`) pages shouldn't be translated to prevent flipped text when reading.
 
-| en    | path/to/file          | path/to/directory        | path/to/file_or_directory          | package     | username           | password |
-|-------|-----------------------|--------------------------|------------------------------------|-------------|--------------------|----------|
-| ar    |                       |                          |                                    |             |                    |          |
+| en    | path/to/file          | path/to/directory        | path/to/file_or_directory          | package     | username           | password | command | port | value |
+|-------|-----------------------|--------------------------|------------------------------------|-------------|--------------------|----------|---------|------|-------|
+| ar    | path/to/file          | path/to/directory        | path/to/file_or_directory          | package     | username           | password | command | port | value |
 | bn    | ফাইল/এর/পাথ           | ডিরেক্টরি/এর/পাথ          | ফাইল_অথবা_ডিরেক্টরি/এর/পাথ          | প্যাকেজ      | ইউজারনেম           |          |
 | bs    | put/do/datoteke       | put/do/direktorija       | put/do/datoteke_ili_direktorija    | paket       | korisničko_ime     |          |
 | ca    | camí/al/fitxer        | camí/al/directori        | camí/al/fitxer_o_directori         | paquet      | nom_usuari         |          |
@@ -19,8 +19,8 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | de    | pfad/zu/datei         | pfad/zu/verzeichnis      | pfad/zu/datei_oder_verzeichnis     | paket       | benutzername       |          |
 | el    | διαδρομή/προς/αρχείο  | διαδρομή/προς/κατάλογο   | διαδρομή/προς/αρχείο_ή_κατάλογο    | πακέτο      | όνομα_χρήστη       | κωδικός_πρόσβασης   |
 | es    | ruta/al/archivo       | ruta/al/directorio       | ruta/al/archivo_o_directorio       | paquete     | usuario            |          |
-| fa    |                       |                          |                                    |             |                    |          |
-| fi    | polku/tiedostoon      | polku/hakemistoon        | polku/tiedostoon_tai_hakemistoon   | paketti     | käyttäjätunnus     | salasana |
+| fa    | path/to/file          | path/to/directory        | path/to/file_or_directory          | package     | username           | password | command | port | value |
+| fi    | polku/tiedostoon      | polku/hakemistoon        | polku/tiedostoon_tai_hakemistoon   | paketti     | käyttäjätunnus     | salasana | komento | portti | arvo |
 | fr    | chemin/vers/fichier   | chemin/vers/dossier      | chemin/vers/fichier_ou_dossier     | paquet      | nom_d_utilisateur  |          |
 | hi    | फ़ाइल/का/पथ            | निर्देशिका/का/पथ           | फ़ाइल_या_निर्देशिका/का/पथ             | पैकेज         | उपयोगकर्ता_नाम      |          |
 | id    | jalan/menuju/berkas   | jalan/menuju/direktori   | jalan/menuju/berkas_atau_direktori | paket       | nama_pengguna      |          |
@@ -30,13 +30,13 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | lo    |                       |                          |                                    |             |                    |          |
 | ml    | ഫയലിലേക്കുള്ള/പാത        | ഡയറക്ടറിയിലേക്കുള്ള/പാത      | ഫയലിലേക്കോ_ഡയറക്ടറിയിലേക്കോ/ഉള്ള/പാത   | പാക്കേജ്      | ഉപയോക്തൃനാമം         |          |
 | ne    | फाइल/को/पथ            | निर्देशिका/को/पथ           | फाइल_वा_निर्देशिका/को/पथ             | प्याकेज       | प्रयोगकर्ता_नाम      |          |
-| nl    | pad/naar/bestand      | pad/naar/map             | pad/naar/bestand_of_map            | pakket      | gebruikersnaam     | wachtwoord |
+| nl    | pad/naar/bestand      | pad/naar/map             | pad/naar/bestand_of_map            | pakket      | gebruikersnaam     | wachtwoord | commando | poort | waarde |
 | no    | sti/til/fil           | sti/til/katalog          | sti/til/fil_eller_katalog          | pakke       | brukernavn         |          |
-| pl    | ścieżka/do/pliku      | ścieżka/do/katalogu      | ścieżka/do/pliku_lub_katalogu      | pakiet      | nazwa_użytkownika  |          |
+| pl    | ścieżka/do/pliku      | ścieżka/do/katalogu      | ścieżka/do/pliku_lub_katalogu      | pakiet      | nazwa_użytkownika  | hasło    | komenda | port | wartość |
 | pt_BR | caminho/para/arquivo  | caminho/para/diretorio   | caminho/para/arquivo_ou_diretorio  | pacote      | nome_do_usuario    |          |
 | pt_PT | caminho/para/ficheiro | caminho/para/diretório   | caminho/para/ficheiro_ou_diretório | pacote      | nome_de_utilizador |          |
 | ro    | cale/către/fișier     | cale/către/director      | cale/către/fișier_sau_director     | pachet      | nume_utilizator    |          |
-| ru    | путь/к/файлу          | путь/к/каталогу          | путь/к/файлу_или_каталогу          | пакет       | имя_пользователя   |          |
+| ru    | путь/к/файлу          | путь/к/каталогу          | путь/к/файлу_или_каталогу          | пакет       | имя_пользователя   | пароль   | команда | порт | значение |
 | sr    | put/do/datoteke       | put/do/direktorijuma     | put/do/datoteke_ili_direktorijuma  | paket       | korisničko_ime     |          |
 | sv    | sökväg/till/fil       | sökväg/till/katalog      | sökväg/till/fil_eller_katalog      | paket       | användarnamn       |          |
 | ta    | கோப்பு/பாதை            | அடைவிற்குப்/பாதை           | கோப்பு_அல்லது_அடைவு/பாதை             | நிரல்தொகுப்பு | பயனர்ப்பெயர்          |          |

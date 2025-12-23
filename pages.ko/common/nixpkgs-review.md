@@ -8,7 +8,7 @@
 
 `nixpkgs-review pr {{pr_번호|pr_url}}`
 
-- 변경된 패키지를 빌드하고 보고서와 함께 댓글 게시 (`hub`, `gh` 또는 `GITHUB_TOKEN` 환경 변수를 설정해야 함):
+- 변경된 패키지를 빌드하고 보고서와 함께 댓글 게시 (`hub`, `gh` 또는 `$GITHUB_TOKEN` 환경 변수를 설정해야 함):
 
 `nixpkgs-review pr --post-result {{pr_번호|pr_url}}`
 

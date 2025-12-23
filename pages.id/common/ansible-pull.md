@@ -3,7 +3,7 @@
 > Tarik buku-buku aturan main (playbook) dari suatu repositori sistem manajemen versi (VCS), dan jalankan tugas-tugasnya bagi host lokal.
 > Informasi lebih lanjut: <https://docs.ansible.com/projects/ansible/latest/cli/ansible-pull.html>.
 
-- Tarik suatu playbook dari repositori VCS, kemudian jalankan aturan default dari playbook local.yml:
+- Tarik suatu playbook dari repositori VCS, kemudian jalankan aturan default dari playbook `local.yml`:
 
 `ansible-pull {{[-U|--url]}} {{url_repositori}}`
 

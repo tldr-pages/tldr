@@ -3,11 +3,11 @@
 > Exporeter une ou plusieurs images Docker dans une archive.
 > Plus d'informations : <https://docs.docker.com/reference/cli/docker/image/save/>.
 
-- Sauvegarder une image en redirigeant la sortie standard vers une archive tar :
+- Sauvegarder une image en redirigeant la sortie standard vers une archive `.tar` :
 
 `docker save {{image}}:{{etquette}} > {{chemin/vers/fichier.tar}}`
 
-- Sauvegarder une image dans une archive tar :
+- Sauvegarder une image dans une archive `.tar` :
 
 `docker save {{[-o|--output]}} {{chemin/vers/fichier.tar}} {{image}}:{{etquette}}`
 
