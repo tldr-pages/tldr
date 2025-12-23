@@ -29,7 +29,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | ne    |                              |                           |                  |
 | nl    | Toon de help                 | Toon de versie            | [Interactief]    |
 | no    |                              |                           |                  |
-| pl    | Wyświetl pomoc               | Wyświetl wersję           |                  |
+| pl    | Wyświetl pomoc               | Wyświetl wersję           | [Interaktywne]   |
 | pt_BR | Mostra ajuda                 | Mostra versão             |                  |
 | pt_PT |                              |                           |                  |
 | ro    |                              |                           |                  |
