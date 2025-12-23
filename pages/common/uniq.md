@@ -29,6 +29,6 @@
 
 `sort {{path/to/file}} | uniq {{[-w|--check-chars]}} 5`
 
-- Compare text after the first 5 character on each line for uniqueness:
+- Compare text after the first 5 characters on each line for uniqueness:
 
 `sort {{path/to/file}} | uniq {{[-s|--skip-chars]}} 5`
