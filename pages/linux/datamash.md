@@ -1,9 +1,9 @@
 # datamash
 
-> Perform basic numeric, textual and statistical operations on input textual data files.
+> Perform basic numeric, textual, and statistical operations on input textual data files.
 > More information: <https://www.gnu.org/software/datamash/manual/datamash.html#Invoking-datamash>.
 
-- Get max, min, mean and median of a single column of numbers:
+- Get max, min, mean, and median of a single column of numbers:
 
 `seq 3 | datamash max 1 min 1 mean 1 median 1`
 

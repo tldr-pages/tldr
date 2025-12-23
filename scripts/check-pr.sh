@@ -9,7 +9,7 @@
 #  2. Detect English pages that were added in a platform specific directory although
 #     they already exist under 'common'.
 #  4. Detect translated pages that do not exist as English pages yet.
-#  5. Detect outdated pages. A page is marked as outdated when the number of 
+#  5. Detect outdated pages. A page is marked as outdated when the number of
 #     commands differ from the number of commands in the English page or the
 #     contents of the commands differ from the English page.
 #  6. Detect other miscellaneous anomalies in the pages folder.
@@ -94,13 +94,15 @@ function strip_commands() {
   local stripped_commands=()
 
   mapfile -t stripped_commands < <(
-    grep "$regex" "$file" | 
-    sed -E 's/\{\{([^}]|(\{[^}]*\}))*\}\}/{{}}/g' | 
-    sed 's/<[^>]*>//g' | 
-    sed 's/([^)]*)//g' | 
-    sed 's/"[^"]*"/""/g' | 
-    sed "s/'[^']*'//g" | 
-    sed 's/`//g'
+    grep "$regex" "$file" |
+    sed 's/{{\[\([^|]*|[^]]*\)\]}}/___\1___/g' |
+    sed -E 's/\{\{([^}]|(\{[^}]*\}))*\}\}/{{}}/g' |
+    sed 's/<[^>]*>//g' |
+    sed 's/([^)]*)//g' |
+    sed 's/"[^"]*"/""/g' |
+    sed "s/'[^']*'//g" |
+    sed 's/`//g' |
+    sed 's/___\(.*\)___/{{\[\1\]}}/g'
   )
 
   printf "%s\n" "${stripped_commands[*]}"

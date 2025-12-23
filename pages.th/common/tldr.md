@@ -1,6 +1,6 @@
 # tldr
 
-> แสดงตัวอย่างแบบง่ายสำหรับเครื่องมือบน command-line จากโปรเจคท์ tldr-pages.
+> แสดงตัวอย่างแบบง่ายสำหรับเครื่องมือบน command-line จากโปรเจคท์ tldr-pages
 > ข้อมูลเพิ่มเติม: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>
 
 - แสดงตัวอย่างการใช้งานคำสั่งที่ใช้บ่อย (บอกใบ้นิดนึง: นี่คือเหตุผลที่คุณสนใจใช้บริการของเราใช่ไหมล่ะ!):

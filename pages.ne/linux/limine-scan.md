@@ -1,6 +1,6 @@
 # limine-scan
 
-> यो आदेश `limine-entry-tool --scan` को उपनाम हो |
+> यो आदेश `limine-entry-tool --scan` को उपनाम हो।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

@@ -1,6 +1,6 @@
 # ppmdraw
 
-> Draw lines, text and more on a PPM image by executing a script.
+> Draw lines, text, and more on a PPM image by executing a script.
 > Documentation on the utilized scripting language can be found by following the link below.
 > More information: <https://netpbm.sourceforge.net/doc/ppmdraw.html>.
 

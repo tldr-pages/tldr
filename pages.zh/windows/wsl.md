@@ -19,11 +19,11 @@
 
 `wsl --list`
 
-- 将发行版导出到 .tar 文件：
+- 将发行版导出到 `.tar` 文件：
 
 `wsl --export {{发行版}} {{路径/distro_fs.tar}}`
 
-- 从 .tar 文件导入发行版：
+- 从 `.tar` 文件导入发行版：
 
 `wsl --import {{发行版}} {{路径/安装位置}} {{路径/distro_fs.tar}}`
 

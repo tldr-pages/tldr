@@ -15,7 +15,7 @@
 
 `sudo bootctl reboot-to-firmware true`
 
-- Specify the path to the EFI system partition (defaults to `/efi/`, `/boot/` or `/boot/efi`):
+- Specify the path to the EFI system partition (defaults to `/efi/`, `/boot/`, or `/boot/efi`):
 
 `bootctl --esp-path /{{path/to/efi_system_partition}}/`
 

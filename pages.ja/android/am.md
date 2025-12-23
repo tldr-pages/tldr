@@ -1,6 +1,6 @@
 # am
 
-> Android Activity Manager（アクティビティ マネージャー）
+> Android Activity Manager（アクティビティ マネージャー）。
 > もっと詳しく: <https://developer.android.com/tools/adb#am>。
 
 - 指定したコンポーネントとパッケージ名でアクティビティを開始します:

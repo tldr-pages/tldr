@@ -8,7 +8,7 @@
 
 `rg {{normal_ifade}}`
 
-- Geçerli dizinde, gizli dosyalar ve ".gitignore" da listelenen dosyalar dahil olmak üzere normal ifadeleri yinelemeli olarak ara:
+- Geçerli dizinde, gizli dosyalar ve `.gitignore` da listelenen dosyalar dahil olmak üzere normal ifadeleri yinelemeli olarak ara:
 
 `rg --no-ignore --hidden {{normal_ifade}}`
 

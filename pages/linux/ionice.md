@@ -9,7 +9,7 @@
 
 `ionice {{[-c|--class]}} {{scheduling_class}} {{[-n|--classdata]}} {{priority}} {{command}}`
 
-- Set I/O scheduling class of a running process with a specific [p]id, [P]gid or [u]id:
+- Set I/O scheduling class of a running process with a specific [p]id, [P]gid, or [u]id:
 
 `ionice {{[-c|--class]}} {{scheduling_class}} -{{p|P|u}} {{id}}`
 

@@ -1,6 +1,6 @@
 # impacket-GetNPUsers
 
-> यो आदेश `GetNPUsers.py` को उपनाम हो |
+> यो आदेश `GetNPUsers.py` को उपनाम हो।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

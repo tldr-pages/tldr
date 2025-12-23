@@ -3,7 +3,7 @@
 > Extrae playbooks ansible de un repositorio VCS y los ejecuta para el host local.
 > Más información: <https://docs.ansible.com/projects/ansible/latest/cli/ansible-pull.html>.
 
-- Extrae un playbook de un VCS y ejecuta local.yml del playbook por defecto:
+- Extrae un playbook de un VCS y ejecuta `local.yml` del playbook por defecto:
 
 `ansible-pull {{[-U|--url]}} {{url_repositorio}}`
 
@@ -17,4 +17,4 @@
 
 - Extrae un playbook de un VCS, en tanto especificando un archivo hosts y ejecuta un playbook específico:
 
-`ansible-pull {{[-U|--url]}} {{url_repositorio}} {{[-i|--inventory]}} {{archivo_hosts}} {{playbook}}`
+`ansible-pull {{[-U|--url]}} {{url_repositorio}} {{[-i|--inventory-file]}} {{archivo_hosts}} {{playbook}}`

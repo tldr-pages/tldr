@@ -12,7 +12,7 @@
 
 `distrobox-export --bin {{ruta/al/binario}} --export-path {{ruta/al/binario_en_anfitrión}}`
 
-- Exporta un binario del contenedor al anfitrión (es decir, `$HOME/.local/bin`) :
+- Exporta un binario del contenedor al anfitrión (es decir, `$HOME/.local/bin`):
 
 `distrobox-export --bin {{ruta/al/binario}} --export-path {{ruta/a/exportar}}`
 
