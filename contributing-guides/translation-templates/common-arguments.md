@@ -32,7 +32,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | ne    | फाइल/को/पथ            | निर्देशिका/को/पथ           | फाइल_वा_निर्देशिका/को/पथ             | प्याकेज       | प्रयोगकर्ता_नाम      |          |
 | nl    | pad/naar/bestand      | pad/naar/map             | pad/naar/bestand_of_map            | pakket      | gebruikersnaam     | wachtwoord | commando | poort | waarde |
 | no    | sti/til/fil           | sti/til/katalog          | sti/til/fil_eller_katalog          | pakke       | brukernavn         |          |
-| pl    | ścieżka/do/pliku      | ścieżka/do/katalogu      | ścieżka/do/pliku_lub_katalogu      | pakiet      | nazwa_użytkownika  |          |
+| pl    | ścieżka/do/pliku      | ścieżka/do/katalogu      | ścieżka/do/pliku_lub_katalogu      | pakiet      | nazwa_użytkownika  | hasło    | komenda | port | wartość |
 | pt_BR | caminho/para/arquivo  | caminho/para/diretorio   | caminho/para/arquivo_ou_diretorio  | pacote      | nome_do_usuario    |          |
 | pt_PT | caminho/para/ficheiro | caminho/para/diretório   | caminho/para/ficheiro_ou_diretório | pacote      | nome_de_utilizador |          |
 | ro    | cale/către/fișier     | cale/către/director      | cale/către/fișier_sau_director     | pachet      | nume_utilizator    |          |

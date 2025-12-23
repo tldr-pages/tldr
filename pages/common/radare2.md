@@ -15,14 +15,14 @@
 
 `radare2 -i {{path/to/script.r2}} {{path/to/binary}}`
 
-- Display help text for any command in the interactive CLI:
+- [Interactive] Display help text for any command:
 
 `{{radare2_command}}?`
 
-- Run a shell command from the interactive CLI:
+- [Interactive] Run a shell command from the interactive CLI:
 
 `!{{shell_command}}`
 
-- Dump raw bytes of current block to a file:
+- [Interactive] Dump raw bytes of current block to a file:
 
-`> pr > {{path/to/file.bin}}`
+`pr > {{path/to/file.bin}}`

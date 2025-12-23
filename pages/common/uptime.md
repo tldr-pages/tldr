@@ -15,6 +15,10 @@
 
 `uptime {{[-s|--since]}}`
 
+- Display the time data in seconds:
+
+`uptime {{[-r|--raw]}}`
+
 - Display version:
 
 `uptime {{[-V|--version]}}`

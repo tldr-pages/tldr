@@ -7,8 +7,8 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 
 | en    | Display help                 | Display version           | [Interactive]    |
 |-------|------------------------------|---------------------------|------------------|
-| ar    | عرض المساعدة                 | عرض رقم الإصدار           |                  |
-| bn    | সাহায্য প্রদর্শন             | সংস্করণ দেখুন             |                  |
+| ar    | عرض المساعدة                 |                           |                  |
+| bn    | সাহায্য প্রদর্শন                    | সংস্করণ দেখুন                  |                  |
 | bs    |                              |                           |                  |
 | ca    | Mostra ajuda                 | Mostra la versió          |                  |
 | cs    |                              |                           |                  |
@@ -16,30 +16,30 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | de    | Zeige Hilfe an               | Zeige Version an          |                  |
 | el    | Εμφάνιση Βοήθειας            | Εμφάνιση Έκδοσης          |                  |
 | es    | Muestra ayuda                | Muestra versión           |                  |
-| fa    | نمایش راهنما                 | نسخه کنونی جنگو           |                  |
+| fa    | نمایش راهنما                 |                           |                  |
 | fi    | Näytä ohje                   | Näytä versio              | [Interaktiotila] |
 | fr    | Affiche l'aide               | Affiche la version        |                  |
-| hi    | मदद प्रदर्शित करें           | संस्करण दिखाएं            |                  |
+| hi    | मदद प्रदर्शित करें                  | संस्करण दिखाएं                |                  |
 | id    | Tampilkan bantuan            | Tampilkan informasi versi |                  |
-| it    | Mostra informazioni di aiuto | Controlla la versione     |                  |
-| ja    | ヘルプを表示する                     | バージョンを表示                  |                  |
-| ko    | 도움말 표시                       | 버전 정보 표시                  |                  |
+| it    | Mostra aiuto | Controlla la versione     |                  |
+| ja    | ヘルプを表示する                | バージョンを表示            |                  |
+| ko    | 도움말 표시                    | 버전 정보 표시               |                  |
 | lo    |                              |                           |                  |
 | ml    |                              |                           |                  |
 | ne    |                              |                           |                  |
 | nl    | Toon de help                 | Toon de versie            | [Interactief]    |
 | no    |                              |                           |                  |
-| pl    | Wyświetl pomoc               | Wyświetl wersję           |                  |
-| pt_BR | Mostra ajuda geral           | Mostra a versão           |                  |
+| pl    | Wyświetl pomoc               | Wyświetl wersję           | [Interaktywne]   |
+| pt_BR | Mostra ajuda                 | Mostra versão             |                  |
 | pt_PT |                              |                           |                  |
 | ro    |                              |                           |                  |
 | ru    | Показать справку             | Показать версию           | [Интерактивно]   |
 | sr    | Prikazuje opštu pomoć        | Proverava verziju         |                  |
 | sv    |                              |                           |                  |
-| ta    | உதவியைக் காட்டு              | பதிப்பைக் காட்டு          | [ஊடாடும் கட்டளை] |
+| ta    | உதவியைக் காட்டு                | பதிப்பைக் காட்டு               | [ஊடாடும் கட்டளை]  |
 | th    |                              |                           |                  |
 | tr    |                              |                           |                  |
 | uk    |                              |                           |                  |
 | uz    |                              |                           |                  |
-| zh    | 展示帮助信息                       | 查看 版本                     |                  |
-| zh_TW | 查看指令的說明                      | 在終端機印出 的版本資訊              |                  |
+| zh    |                              | 查看 版本                  |                  |
+| zh_TW |                              |                           |                  |
