@@ -1,7 +1,6 @@
 # ls
 
 > Llista els continguts d'un directori.
-> Lfasdf.
 > Més informació: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>.
 
 - Llista els fitxers un per línia:
