@@ -485,6 +485,7 @@ To mark keypresses for TUI or GUI programs, use angle brackets `<` and `>`.
 ## Windows-Specific Rules
 
 ### General layout
+
 When documenting PowerShell commands, please take note of the following naming conventions.
 
 - The name of the file name must be written in lowercase, such as `invoke-webrequest.md` instead of `Invoke-WebRequest.md`.
