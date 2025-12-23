@@ -1,7 +1,7 @@
 # yadm git-crypt
 
 > Git Crypt 能够实现 Git 仓库中文件的透明加密和解密。
-> 请参阅：`git-crypt`。
+> 另请参阅：`git-crypt`。
 > 更多信息：<https://github.com/AGWA/git-crypt>。
 
 - 初始化仓库以使用 Git Crypt：
