@@ -4,7 +4,7 @@
 > See also: `awk`, `ed`.
 > More information: <https://www.gnu.org/software/sed/manual/sed.html>.
 
-- [s]ubstitute all occurences of "apple" with "mango" on all lines, print to `stdout`:
+- [s]ubstitute all occurrences of "apple" with "mango" on all lines, print to `stdout`:
 
 `{{command}} | sed 's/apple/mango/g'`
 
