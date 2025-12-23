@@ -15,7 +15,7 @@
 
 `hg clone {{[-U|--noupdate]}} {{remote_repository_source}}`
 
-- Clone a repository to a specific revision, tag or branch, keeping the entire history:
+- Clone a repository to a specific revision, tag, or branch, keeping the entire history:
 
 `hg clone {{[-u|--updaterev]}} {{revision}} {{remote_repository_source}}`
 

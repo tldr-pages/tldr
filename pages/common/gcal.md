@@ -19,6 +19,6 @@
 
 `gcal --starting-day=1`
 
-- Display the previous, current and next month surrounding today:
+- Display the previous, current, and next month surrounding today:
 
 `gcal .`

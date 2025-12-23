@@ -2,7 +2,7 @@
 
 > Expose local services and files to the internet.
 > Part of the OpenZiti project, offering secure, zero-trust sharing.
-> More information: <https://docs.zrok.io>.
+> More information: <https://docs.zrok.io/>.
 
 - Request an invitation to use the public zrok service (run this first):
 

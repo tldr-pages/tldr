@@ -1,7 +1,7 @@
 # dvc init
 
 > 새로운 로컬 DVC 저장소 초기화.
-> 더 많은 정보: <https://dvc.org/doc/command-reference/init>.
+> 더 많은 정보: <https://doc.dvc.org/command-reference/init>.
 
 - 새로운 로컬 저장소 초기화:
 

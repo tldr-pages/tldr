@@ -2,7 +2,7 @@
 
 > 여러 소프트웨어 개발 키트의 병렬 버전을 관리.
 > Java, Groovy, Scala, Kotlin, Gradle, Maven, Vert.x 등 여러 언어를 지원.
-> 더 많은 정보: <https://sdkman.io/usage>.
+> 더 많은 정보: <https://sdkman.io/usage/>.
 
 - SDK 버전 설치:
 

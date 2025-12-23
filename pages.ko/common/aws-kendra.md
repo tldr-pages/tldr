@@ -1,7 +1,7 @@
 # aws kendra
 
 > AWS Kendra의 CLI.
-> 더 많은 정보: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/kendra/index.html>.
+> 더 많은 정보: <https://docs.aws.amazon.com/cli/latest/reference/kendra/>.
 
 - 인덱스 생성:
 

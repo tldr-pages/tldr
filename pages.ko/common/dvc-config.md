@@ -2,7 +2,7 @@
 
 > DVC 저장소의 사용자 정의 구성 옵션을 관리하는 저수준 명령어입니다.
 > 이러한 구성은 프로젝트, 로컬, 글로벌 또는 시스템 수준에서 가능합니다.
-> 더 많은 정보: <https://dvc.org/doc/command-reference/config>.
+> 더 많은 정보: <https://doc.dvc.org/command-reference/config>.
 
 - 기본 원격 저장소의 이름 확인:
 

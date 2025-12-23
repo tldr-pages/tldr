@@ -1,7 +1,7 @@
 # npm link
 
 > Symlink a local package into the global `node_modules` or another project for development.
-> More information: <https://docs.npmjs.com/cli/npm-link>.
+> More information: <https://docs.npmjs.com/cli/npm-link/>.
 
 - Symlink the current package globally:
 

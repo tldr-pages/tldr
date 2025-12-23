@@ -1,6 +1,6 @@
 # mutool
 
-> Convert, query information and extract data from PDF files.
+> Convert, query information, and extract data from PDF files.
 > More information: <https://mupdf.readthedocs.io/en/latest/tools/mutool.html>.
 
 - Convert a range of pages to PNGs (Note: `%nd` in the output placeholder must be replaced with a print modifier like `%d` or `%2d`):
@@ -19,7 +19,7 @@
 
 `mutool info {{path/to/input.pdf}}`
 
-- Extract all images, fonts and resources embedded in a PDF to the current directory:
+- Extract all images, fonts, and resources embedded in a PDF to the current directory:
 
 `mutool extract {{path/to/input.pdf}}`
 

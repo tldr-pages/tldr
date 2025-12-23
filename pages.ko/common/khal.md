@@ -1,7 +1,7 @@
 # khal
 
 > 명령줄에서 사용하는 텍스트 기반 캘린더 및 일정 관리 애플리케이션.
-> 더 많은 정보: <https://lostpackets.de/khal>.
+> 더 많은 정보: <https://lostpackets.de/khal/>.
 
 - 상호작용 모드에서 Khal 시작:
 

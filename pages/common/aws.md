@@ -2,7 +2,7 @@
 
 > The official CLI tool for Amazon Web Services.
 > Some subcommands such as `s3` have their own usage documentation.
-> More information: <https://aws.amazon.com/cli>.
+> More information: <https://docs.aws.amazon.com/cli/latest/reference/>.
 
 - Configure the AWS Command-line:
 

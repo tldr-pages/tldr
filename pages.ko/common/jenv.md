@@ -1,6 +1,6 @@
 # jenv
 
-> "JAVA_HOME" 환경 변수를 관리.
+> `$JAVA_HOME` 환경 변수를 관리.
 > 더 많은 정보: <https://github.com/jenv/jenv>.
 
 - Java 버전을 jEnv에 추가:

@@ -1,24 +1,7 @@
 # docker pull
 
-> Docker 이미지를 레지스트리에서 다운로드.
-> 더 많은 정보: <https://docs.docker.com/reference/cli/docker/image/pull/>.
+> 이 명령은 `docker image pull` 의 에일리어스 (별칭) 입니다.
 
-- 특정 Docker 이미지 다운로드:
+- 원본 명령의 도큐멘테이션 (설명서) 보기:
 
-`docker pull {{이미지}}:{{태그}}`
-
-- 조용한 모드로 특정 Docker 이미지 다운로드:
-
-`docker pull {{[-q|--quiet]}} {{이미지}}:{{태그}}`
-
-- 특정 Docker 이미지의 모든 태그 다운로드:
-
-`docker pull {{[-a|--all-tags]}} {{이미지}}`
-
-- 특정 플랫폼의 Docker 이미지 다운로드 (예: linux/amd64):
-
-`docker pull --platform {{linux/amd64}} {{이미지}}:{{태그}}`
-
-- 도움말 표시:
-
-`docker pull {{[-h|--help]}}`
+`tldr docker image pull`

@@ -1,7 +1,7 @@
 # xidel
 
 > Download and extract data from HTML/XML pages as well as JSON APIs.
-> More information: <https://www.videlibri.de/xidel.html>.
+> More information: <https://www.videlibri.de/xidel/>.
 
 - Print all URLs found by a Google search:
 

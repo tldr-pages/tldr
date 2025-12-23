@@ -2,7 +2,7 @@
 
 > Ruby용 Make와 유사한 프로그램.
 > `rake`의 작업은 Rakefile에 지정됩니다.
-> 더 많은 정보: <https://ruby.github.io/rake>.
+> 더 많은 정보: <https://ruby.github.io/rake/>.
 
 - `default` Rakefile 작업 실행:
 

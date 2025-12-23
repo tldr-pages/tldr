@@ -2,7 +2,7 @@
 
 > Esegui un comando sull'host da dentro un container Distrobox.
 > Vedi anche: `distrobox`.
-> Maggiori informazioni: <https://distrobox.it/usage/distrobox-host-exec>.
+> Maggiori informazioni: <https://distrobox.it/usage/distrobox-host-exec/>.
 
 - Esegui comando sul sistema host da dentro il container Distrobox:
 

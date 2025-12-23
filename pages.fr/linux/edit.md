@@ -2,7 +2,7 @@
 
 > Un alias à l'action de modification de `run-mailcap`.
 > Originellement, `run-mailcap` est utilisé afin de modifier des fichiers mime-type.
-> Plus d'informations : <https://www.computerhope.com/unix/uedit.htm>.
+> Plus d'informations : <https://www.computerhope.com/unix/uedit>.
 
 - L'action de modification peut être utilisée pour voir n'importe quel fichier dans l'explorateur mailcap par défaut :
 

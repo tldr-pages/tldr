@@ -1,6 +1,6 @@
 # gh gist
 
-> 在命令行上使用 GitHub Gists.
+> 在命令行上使用 GitHub Gists。
 > 更多信息：<https://cli.github.com/manual/gh_gist>。
 
 - 从一个以空格分隔的文件列表中创建一个新的 Gist：

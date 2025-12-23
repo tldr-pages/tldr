@@ -2,7 +2,7 @@
 
 > Vim (Vi IMproved), ein Befehlszeilen-Texteditor, bietet mehrere Modi für verschiedene Arten der Textmanipulation an.
 > Das Drücken von `<i>` schaltet den Editier-Modus ein. `<Esc>` wechselt in den Befehls-Modus, der die Verwendung von Vim-Befehlen ermöglicht.
-> Weitere Informationen: <https://www.vim.org>.
+> Weitere Informationen: <https://www.vim.org/>.
 
 - Öffne eine Datei:
 

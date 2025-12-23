@@ -1,7 +1,7 @@
 # docker container remove
 
-> Det här kommandot är ett alias för `docker rm`.
+> Det här kommandot är ett alias för `docker container rm`.
 
 - Se dokumentationen för orginalkommandot:
 
-`tldr docker rm`
+`tldr docker container rm`

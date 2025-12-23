@@ -1,9 +1,9 @@
 # ansible-pull
 
 > Pull ansible playbooks from a VCS repo and executes them for the local host.
-> More information: <https://docs.ansible.com/ansible/latest/cli/ansible-pull.html>.
+> More information: <https://docs.ansible.com/projects/ansible/latest/cli/ansible-pull.html>.
 
-- Pull a playbook from a VCS and execute a default local.yml playbook:
+- Pull a playbook from a VCS and execute a default `local.yml` playbook:
 
 `ansible-pull {{[-U|--url]}} {{repository_url}}`
 

@@ -2,7 +2,7 @@
 
 > 管理 Rust 项目及其模块依赖项（crates）。
 > 一些子命令，如 `build`，具有自己的用法文档。
-> 更多信息：<https://doc.rust-lang.org/cargo>。
+> 更多信息：<https://doc.rust-lang.org/stable/cargo/>。
 
 - 搜索包：
 
@@ -34,4 +34,4 @@
 
 - 使用特定数量的线程构建 （默认为逻辑 CPU 的数量)：
 
-`cargo {{[b|build]}} --jobs {{线程数}}`
+`cargo {{[b|build]}} {{[-j|--jobs]}} {{线程数}}`

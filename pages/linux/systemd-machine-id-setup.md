@@ -2,7 +2,7 @@
 
 > Initialize the machine ID stored in `/etc/machine-id` at install time with a provisioned or randomly generated ID.
 > Note: Always use `sudo` to execute these commands as they require elevated privileges.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemd-machine-id-setup.html>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemd-machine-id-setup.html>.
 
 - Print the generated or committed machine ID:
 

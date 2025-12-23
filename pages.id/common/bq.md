@@ -1,7 +1,7 @@
 # bq
 
 > Alat pemrosesan data berbasis Python untuk BigQuery, layanan pergudangan data Google Cloud yang sepenuhnya terkelola dan bersifat serverless.
-> Informasi lebih lanjut: <https://cloud.google.com/bigquery/docs/reference/bq-cli-reference>.
+> Informasi lebih lanjut: <https://docs.cloud.google.com/bigquery/docs/reference/bq-cli-reference>.
 
 - Jalankan suatu perintah kueri terhadap suatu tabel BigQuery dalam format SQL dasar, tambahkan opsi `--dry_run` untuk menaksir jumlah bita yang akan dibaca pada proses eksekusi:
 

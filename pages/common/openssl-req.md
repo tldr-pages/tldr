@@ -1,7 +1,7 @@
 # openssl req
 
 > OpenSSL command to manage PKCS#10 Certificate Signing Requests.
-> More information: <https://www.openssl.org/docs/manmaster/man1/openssl-req.html>.
+> More information: <https://docs.openssl.org/master/man1/openssl-req/>.
 
 - Generate a certificate signing request to be sent to a certificate authority:
 

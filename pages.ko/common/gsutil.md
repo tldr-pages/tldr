@@ -2,7 +2,7 @@
 
 > Google Cloud 스토리지 접근.
 > `gsutil`을 사용하여 광범위한 버킷 및 객체 관리 작업을 수행 가능.
-> 더 많은 정보: <https://cloud.google.com/storage/docs/gsutil>.
+> 더 많은 정보: <https://docs.cloud.google.com/storage/docs/gsutil>.
 
 - 로그인한 프로젝트의 모든 버킷을 나열:
 

@@ -2,7 +2,7 @@
 
 > 打开当前工具链的离线 Rust 文档。
 > 这里没有列出所有文档页面。有关更多信息请参见 `rustup help doc`。
-> 更多信息：<https://rust-lang.github.io/rustup>。
+> 更多信息：<https://rust-lang.github.io/rustup/>。
 
 - 打开主页：
 

@@ -1,6 +1,7 @@
 # quickemu
 
 > Build and manage highly optimised desktop virtual machines quickly.
+> Note: Virtual machine must be in stopped state when working with snapshots.
 > See also: `quickget` for preparing VM configurations.
 > More information: <https://github.com/quickemu-project/quickemu>.
 
@@ -27,6 +28,10 @@
 - Restore a snapshot:
 
 `quickemu --snapshot apply {{tag}} --vm {{path/to/file.conf}}`
+
+- List available snapshots:
+
+`quickemu --snapshot info --vm {{path/to/file.conf}}`
 
 - Delete a snapshot:
 

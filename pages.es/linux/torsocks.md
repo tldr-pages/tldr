@@ -16,7 +16,7 @@
 
 `torsocks --shell`
 
-- Revisa si la interfaz de comando actual está habilitada con Tor (`LD_PRELOAD` este valor estará vacío si no está habilitada):
+- Revisa si la interfaz de comando actual está habilitada con Tor (`$LD_PRELOAD` este valor estará vacío si no está habilitada):
 
 `torsocks show`
 

@@ -4,19 +4,19 @@
 > `bpytop` 的 C++ 版本。
 > 更多信息：<https://github.com/aristocratos/btop#command-line-options>。
 
-- 启动 `btop`:
+- 启动 `btop`：
 
 `btop`
 
-- 使用指定预设启动 `btop`:
+- 使用指定预设启动 `btop`：
 
 `btop {{[-p|--preset]}} {{0..9}}`
 
-- 使用 16 种颜色和 TTY 友好的图形符号在 TTY 模式下启动 `btop`:
+- 使用 16 种颜色和 TTY 友好的图形符号在 TTY 模式下启动 `btop`：
 
 `btop {{[-t|--tty]}}`
 
-- 在 256 色模式而不是 24 位颜色模式下启动 `btop`:
+- 在 256 色模式而不是 24 位颜色模式下启动 `btop`：
 
 `btop {{[-l|--low-color]}}`
 

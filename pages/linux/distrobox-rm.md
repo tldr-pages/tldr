@@ -2,7 +2,7 @@
 
 > Remove a Distrobox container.
 > See also: `distrobox`.
-> More information: <https://distrobox.it/usage/distrobox-rm>.
+> More information: <https://distrobox.it/usage/distrobox-rm/>.
 
 - Remove a Distrobox container (Tip: Stop the container before removing it):
 

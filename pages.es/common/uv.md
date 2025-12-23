@@ -2,7 +2,7 @@
 
 > Un rápido gestor de paquetes y proyectos Python.
 > Algunos subcomandos como `tool` y `python` tienen su propia documentación de uso.
-> Más información: <https://docs.astral.sh/uv/reference/cli>.
+> Más información: <https://docs.astral.sh/uv/reference/cli/>.
 
 - Crea un nuevo proyecto Python en el directorio actual:
 

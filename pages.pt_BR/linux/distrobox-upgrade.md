@@ -3,7 +3,7 @@
 > Atualizar um ou vários contêineres distrobox.
 > Subcomando de `distrobox`.
 > Veja também: `distrobox`.
-> Mais informações: <https://distrobox.it/usage/distrobox-upgrade>.
+> Mais informações: <https://distrobox.it/usage/distrobox-upgrade/>.
 
 - Atualiza um contêiner usando o gerenciador de pacotes nativo do contêiner:
 

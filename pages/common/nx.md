@@ -1,7 +1,7 @@
 # nx
 
 > Manage `nx` workspaces.
-> More information: <https://nx.dev/l/r/getting-started/nx-cli>.
+> More information: <https://nx.dev/docs/reference/nx-commands>.
 
 - Build a specific project:
 

@@ -2,7 +2,7 @@
 
 > Music Player Daemon을 위한 음악 플레이어 클라이언트.
 > 같이 보기: `mpd`, `mpc`, `qmmp`, `termusic`.
-> 더 많은 정보: <https://rybczak.net/ncmpcpp>.
+> 더 많은 정보: <https://rybczak.net:443/ncmpcpp/>.
 
 - 지정된 호스트와 포트의 음악 플레이어 데몬에 연결:
 

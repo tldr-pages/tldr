@@ -1,7 +1,7 @@
 # systemd-cgls
 
 > 선택된 Linux 제어 그룹 계층의 내용을 트리 형태로 보여줍니다.
-> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/systemd-cgls.html>.
+> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/latest/systemd-cgls.html>.
 
 - 시스템의 전체 제어 그룹 계층 표시:
 

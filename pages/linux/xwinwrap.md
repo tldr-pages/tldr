@@ -1,7 +1,7 @@
 # xwinwrap
 
 > Run a player or a program as desktop background.
-> More information: <https://github.com/ujjwal96/xwinwrap>.
+> More information: <https://github.com/r00tdaemon/xwinwrap>.
 
 - Run a video using mpv:
 

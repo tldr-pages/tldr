@@ -4,7 +4,7 @@
 > Needs to be run on the salt master, likely as root or with sudo.
 > More information: <https://docs.saltproject.io/en/latest/ref/cli/salt-key.html>.
 
-- List all accepted, unaccepted and rejected minion keys:
+- List all accepted, unaccepted, and rejected minion keys:
 
 `salt-key {{[-L|--list-all]}}`
 

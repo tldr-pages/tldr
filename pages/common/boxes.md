@@ -19,14 +19,14 @@
 
 `echo "{{string}}" | boxes {{[-s|--size]}} {{10}}x{{5}}`
 
-- Align the box text [h]orizonally (at [l]eft, [c]enter or [r]ight):
+- Align the box text [h]orizonally (at [l]eft, [c]enter, or [r]ight):
 
 `echo "{{string}}" | boxes {{[-a|--align]}} h{{l|c|r}}`
 
-- Align the box text [v]ertically (at [t]op, [c]enter or [b]ottom):
+- Align the box text [v]ertically (at [t]op, [c]enter, or [b]ottom):
 
 `echo "{{string}}" | boxes {{[-a|--align]}} v{{t|c|b}}`
 
-- [j]ustify the box text (at [l]eft, [c]enter or [r]ight):
+- [j]ustify the box text (at [l]eft, [c]enter, or [r]ight):
 
 `echo "{{string}}" | boxes {{[-a|--align]}} j{{l|c|r}}{{vt}}`

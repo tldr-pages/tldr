@@ -1,6 +1,6 @@
 # asciiart
 
-> 将图像转换为 ASCII.
+> 将图像转换为 ASCII。
 > 更多信息：<https://github.com/nodanaonlyzuul/asciiart#in-the-command-line>。
 
 - 从文件中读取图像并以 ASCII 打印：

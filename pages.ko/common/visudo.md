@@ -1,7 +1,7 @@
 # visudo
 
 > sudoers 파일을 안전하게 편집.
-> 더 많은 정보: <https://www.sudo.ws/docs/man/visudo.man>.
+> 더 많은 정보: <https://www.sudo.ws/docs/man/visudo.man/>.
 
 - sudoers 파일 편집:
 

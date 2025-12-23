@@ -1,7 +1,7 @@
 # ansible-galaxy
 
 > Buat dan atur peran pengguna (role) Ansible.
-> Informasi lebih lanjut: <https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html>.
+> Informasi lebih lanjut: <https://docs.ansible.com/projects/ansible/latest/cli/ansible-galaxy.html>.
 
 - Tampilkan daftar peran atau koleksi yang tersedia:
 

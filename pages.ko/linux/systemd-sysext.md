@@ -1,7 +1,7 @@
 # systemd-sysext
 
 > 시스템 확장 이미지를 활성화하거나 비활성화합니다.
-> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/systemd-sysext.html>.
+> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/latest/systemd-sysext.html>.
 
 - 설치된 확장 이미지 나열:
 

@@ -1,7 +1,7 @@
 # doctl apps
 
 > DigitalOcean 앱 관리.
-> 더 많은 정보: <https://docs.digitalocean.com/reference/doctl/reference/apps>.
+> 더 많은 정보: <https://docs.digitalocean.com/reference/doctl/reference/apps/>.
 
 - 애플리케이션 생성:
 

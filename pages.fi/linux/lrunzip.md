@@ -1,6 +1,6 @@
 # lrunzip
 
-> Tämä on alias komennolle `lrzip -d`.
+> Tämä on alias komennolle `lrzip --decompress`.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

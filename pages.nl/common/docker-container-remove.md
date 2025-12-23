@@ -1,7 +1,7 @@
 # docker container remove
 
-> Dit commando is een alias van `docker rm`.
+> Dit commando is een alias van `docker container rm`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr docker rm`
+`tldr docker container rm`

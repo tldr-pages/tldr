@@ -23,7 +23,7 @@
 
 `ugrep {{[-Z|--fuzzy=]}}{{3}} "{{zoekpatroon}}"`
 
-- Zoek passende gecomprimeerde bestanden, zip en tar archieven recursief in de huidige map:
+- Zoek passende gecomprimeerde bestanden, zip en `.tar` archieven recursief in de huidige map:
 
 `ugrep {{[-z|--decompress]}} "{{zoekpatroon}}"`
 

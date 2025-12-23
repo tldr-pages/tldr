@@ -1,6 +1,6 @@
 # flask-unsign
 
-> A tool to brute-force, decode and craft `Flask` session cookies.
+> A tool to brute-force, decode, and craft `Flask` session cookies.
 > More information: <https://github.com/Paradoxis/Flask-Unsign>.
 
 - Decode a Flask session cookie:

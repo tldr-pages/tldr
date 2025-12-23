@@ -27,7 +27,7 @@
 
 `feh {{[-D|--slideshow-delay]}} {{seconds}} {{path/to/images}}`
 
-- Use a specific wallpaper mode (centered, filled, maximized, scaled or tiled):
+- Use a specific wallpaper mode (centered, filled, maximized, scaled, or tiled):
 
 `feh --bg-{{center|fill|max|scale|tile}} {{path/to/image}}`
 

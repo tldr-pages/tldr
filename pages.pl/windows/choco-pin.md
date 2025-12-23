@@ -2,7 +2,7 @@
 
 > Przypięcie obecnej bądź podanej wersji dla danego pakietu zarządzanego przez Chocolatey.
 > Przypięte pakiety są automatycznie pomijane podczas aktualizacji pakietów.
-> Więcej informacji: <https://chocolatey.org/docs/commands-pin>.
+> Więcej informacji: <https://docs.chocolatey.org/en-us/choco/commands/pin/>.
 
 - Wyświetlanie listy obecnie przypiętych pakietów wraz z wersjami:
 

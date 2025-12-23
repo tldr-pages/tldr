@@ -1,7 +1,7 @@
 # choco apikey
 
 > Zarządzanie kluczami API dla żródeł Chocolatey.
-> Więcej informacji: <https://chocolatey.org/docs/commands-apikey>.
+> Więcej informacji: <https://docs.chocolatey.org/en-us/create/commands/api-key/>.
 
 - Wyświetlanie listy żródeł wraz z kluczami API:
 

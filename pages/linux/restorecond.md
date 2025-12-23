@@ -17,7 +17,7 @@
 
 `sudo restorecond -d`
 
-- Use alternative restorecond.conf file:
+- Use alternative `restorecond.conf` file:
 
 `sudo restorecond -f restorecond_file`
 

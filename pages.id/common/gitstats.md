@@ -1,7 +1,7 @@
 # gitstats
 
 > Buat laporan statistika atas repositori Git.
-> Informasi lebih lanjut: <https://gitstats.readthedocs.io/en/latest/usage.html>.
+> Informasi lebih lanjut: <https://gitstats.readthedocs.io/en/stable/getting-started.html#command-line-usage>.
 
 - Buat laporan statistik terhadap suatu repositori lokal:
 

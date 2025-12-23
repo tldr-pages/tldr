@@ -1,7 +1,7 @@
 # choco outdated
 
 > Comprueba paquetes desactualizados con Chocolatey.
-> Más información: <https://chocolatey.org/docs/commands-outdated>.
+> Más información: <https://docs.chocolatey.org/en-us/choco/commands/outdated/>.
 
 - Mostrar una lista de paquetes desactualizados en formato de tabla:
 

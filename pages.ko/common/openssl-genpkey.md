@@ -1,7 +1,7 @@
 # openssl genpkey
 
 > 비대칭 키 쌍을 생성하는 OpenSSL 명령어.
-> 더 많은 정보: <https://www.openssl.org/docs/manmaster/man1/openssl-genpkey.html>.
+> 더 많은 정보: <https://docs.openssl.org/master/man1/openssl-genpkey/>.
 
 - 2048비트 RSA 개인 키 생성 및 특정 파일에 저장:
 

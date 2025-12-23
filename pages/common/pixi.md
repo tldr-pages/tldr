@@ -1,7 +1,7 @@
 # pixi
 
 > Developer Workflow and Environment Management for projects.
-> More information: <https://pixi.sh/latest/getting_started/>.
+> More information: <https://pixi.prefix.dev/latest/getting_started/>.
 
 - Initialize a new project:
 

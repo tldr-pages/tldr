@@ -11,7 +11,7 @@
 
 `clear -x`
 
-- Geef het type terminal aan dat leeggemaakt moet worden (standaard ingesteld op de waarde van de omgevingsvariabele `TERM`):
+- Geef het type terminal aan dat leeggemaakt moet worden (standaard ingesteld op de waarde van de omgevingsvariabele `$TERM`):
 
 `clear -T {{type_of_terminal}}`
 

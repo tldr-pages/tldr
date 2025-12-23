@@ -1,7 +1,7 @@
 # systemd-escape
 
 > systemd 유닛 이름에서 사용할 문자열을 이스케이프합니다.
-> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/systemd-escape.html>.
+> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/latest/systemd-escape.html>.
 
 - 주어진 텍스트 이스케이프:
 

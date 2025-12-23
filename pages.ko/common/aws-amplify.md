@@ -1,7 +1,7 @@
 # aws amplify
 
 > 안전하고, 확장 가능한 모바일 및 웹 애플리케이션을 구축하기 위한 개발 플랫폼.
-> 더 많은 정보: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/amplify/index.html>.
+> 더 많은 정보: <https://docs.aws.amazon.com/cli/latest/reference/amplify/>.
 
 - 새로운 Amplify 앱 생성:
 

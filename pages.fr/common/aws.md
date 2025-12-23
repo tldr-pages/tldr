@@ -2,7 +2,7 @@
 
 > La CLI officielle pour Amazon Web Services.
 > Certaines commandes comme `aws s3` ont leur propre documentation.
-> Plus d'informations : <https://aws.amazon.com/cli>.
+> Plus d'informations : <https://docs.aws.amazon.com/cli/latest/reference/>.
 
 - Configure la ligne de commande AWS :
 

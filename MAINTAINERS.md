@@ -101,14 +101,14 @@ If you are an owner of the organization, you can see an automated list [here](ht
 - **Sadeed Waseem ([@sadeeed](https://github.com/Sadeeed))**:
   [04 October 2025](https://github.com/tldr-pages/tldr/issues/18393) — present
 - **Ivan Baluta ([@ivanbaluta](https://github.com/ivanbaluta))**:
-  [03 November 2025](https://github.com/tldr-pages/tldr/issues/19176) — present
+  [03 November 2025](https://github.com/tldr-pages/tldr/issues/19176) — present
 - **Sahil Afrid Farookhi ([@msaf9](https://github.com/msaf9))**: 
   [04 November 2025](https://github.com/tldr-pages/tldr/issues/19189) — present
 - **Meinard Francisco ([@znarfm](https://github.com/znarfm))**:
   [04 November 2025](https://github.com/tldr-pages/tldr/issues/19190) — present
 - **Md Sakib Sadman Badhon ([@badhon495](https://github.com/badhon495))**:
   [06 November 2025](https://github.com/tldr-pages/tldr/issues/19235) — present
-- **Mingliang Song ([@DustMerlin](https://github.com/DustMerlin)**:
+- **Mingliang Song ([@DustMerlin](https://github.com/DustMerlin))**:
   [13 November 2025](https://github.com/tldr-pages/tldr/issues/19336) — present
 - **zhb4 ([@zhb4](https://github.com/zhb4))**:
   [14 November 2025](https://github.com/tldr-pages/tldr/issues/19339) — present

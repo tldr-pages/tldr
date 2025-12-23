@@ -1,7 +1,7 @@
 # pushd
 
 > 将目录放在堆栈上，以便以后访问。
-> 另见 `popd` 切换回原始目录和 `dirs` 显示目录堆栈内容。
+> 另请参阅：`popd` 切换回原始目录和 `dirs` 显示目录堆栈内容。
 > 更多信息：<https://www.gnu.org/software/bash/manual/bash.html#index-pushd>。
 
 - 切换到目录并将其添加到堆栈上：

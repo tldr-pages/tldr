@@ -1,7 +1,7 @@
 # aws sqs
 
 > AWS SQS 서비스 대기열에 메시지 생성, 삭제 및 전송.
-> 더 많은 정보: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/sqs/index.html>.
+> 더 많은 정보: <https://docs.aws.amazon.com/cli/latest/reference/sqs/>.
 
 - 사용 가능한 모든 대기열 나열:
 

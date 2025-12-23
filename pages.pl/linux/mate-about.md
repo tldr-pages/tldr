@@ -1,8 +1,8 @@
 # mate-about
 
-> Pokaż informacje o środowisku desktopowym MATE.
+> Pokaż informacje o środowisku desktopowym MATE.
 > Więcej informacji: <https://manned.org/mate-about>.
 
-- Wyświetl wersję MATE:
+- Wyświetl wersję MATE:
 
 `mate-about --version`

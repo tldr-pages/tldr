@@ -2,7 +2,7 @@
 
 > Fija un paquete en la versión escogida con Chocolatey.
 > Los paquetes fijados se omiten automáticamente al actualizar.
-> Más información: <https://chocolatey.org/docs/commands-pin>.
+> Más información: <https://docs.chocolatey.org/en-us/choco/commands/pin/>.
 
 - Mostrar una lista de paquetes fijados y sus versiones:
 

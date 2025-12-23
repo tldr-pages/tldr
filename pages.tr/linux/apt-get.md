@@ -24,7 +24,7 @@
 
 `sudo apt-get upgrade`
 
-- Yerel depoyu temizleyin - kullanılmayan gereksiz paket dosyalarını (.deb) silin:
+- Yerel depoyu temizleyin - kullanılmayan gereksiz paket dosyalarını (`.deb`) silin:
 
 `sudo apt-get autoclean`
 

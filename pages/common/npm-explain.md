@@ -1,7 +1,7 @@
 # npm explain
 
 > Explain how a package is installed, detailing its dependencies and reasons for inclusion.
-> More information: <https://docs.npmjs.com/cli/explain>.
+> More information: <https://docs.npmjs.com/cli/explain/>.
 
 - Explain why a specific package is installed:
 

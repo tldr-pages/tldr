@@ -1,7 +1,7 @@
 # wcurl
 
 > A simple wrapper around `curl` to easily download files.
-> See also: `curl`.
+> See also: `wget`, `curl`.
 > More information: <https://curl.se/wcurl/manual.html>.
 
 - Download the contents of a URL to a file indicated by the URL ("foo" in this case):

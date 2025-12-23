@@ -1,7 +1,7 @@
 # cloudflared
 
 > Cloudflare 네트워크에 대한 지속적인 연결을 생성.
-> 더 많은 정보: <https://developers.cloudflare.com/argo-tunnel/>.
+> 더 많은 정보: <https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/>.
 
 - Cloudflare 계정의 도메인에 대한 연결을 인증하고 연결:
 

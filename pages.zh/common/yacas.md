@@ -1,7 +1,7 @@
 # yacas
 
 > 另一个计算机代数系统。
-> 更多信息：<https://www.yacas.org>。
+> 更多信息：<https://www.yacas.org/>。
 
 - 启动交互式的 `yacas` 会话：
 

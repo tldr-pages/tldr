@@ -2,7 +2,7 @@
 
 > 시스템 관리자를 분석하고 디버그하는 도구.
 > 유닛(서비스, 마운트 포인트, 장치, 소켓)의 부팅 프로세스에 대한 타이밍 세부정보를 표시.
-> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/systemd-analyze.html>.
+> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/latest/systemd-analyze.html>.
 
 - 초기화에 걸린 시간 순서대로 실행 중인 모든 유닛 나열:
 

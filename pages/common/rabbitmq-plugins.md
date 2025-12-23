@@ -1,7 +1,7 @@
 # rabbitmq-plugins
 
 > Manage RabbitMQ plugins.
-> More information: <https://www.rabbitmq.com/docs/man/rabbitmq-plugins.8.html>.
+> More information: <https://www.rabbitmq.com/docs/man/rabbitmq-plugins.8>.
 
 - List plugins:
 

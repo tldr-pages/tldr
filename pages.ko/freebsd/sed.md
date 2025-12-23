@@ -2,7 +2,7 @@
 
 > 스크립트로 텍스트를 편집합니다.
 > 같이 보기: `awk`, `ed`.
-> 더 많은 정보: <https://www.freebsd.org/cgi/man.cgi?sed>.
+> 더 많은 정보: <https://man.freebsd.org/cgi/man.cgi?sed>.
 
 - 모든 입력 라인에서 `apple` (기본 정규표현식)을 `mango` (기본 정규표현식)로 대체하고 결과를 `stdout`에 인쇄:
 

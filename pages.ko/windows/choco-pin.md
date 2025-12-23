@@ -2,7 +2,7 @@
 
 > Chocolatey로 특정 버전의 패키지를 고정.
 > 고정된 패키지는 업그레이드 시 자동으로 건너뜁니다.
-> 더 많은 정보: <https://chocolatey.org/docs/commands-pin>.
+> 더 많은 정보: <https://docs.chocolatey.org/en-us/choco/commands/pin/>.
 
 - 고정된 패키지 및 해당 버전을 나열:
 

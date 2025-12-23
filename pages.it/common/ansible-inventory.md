@@ -2,7 +2,7 @@
 
 > Visualizza o scarica un inventario Ansible.
 > Vedi anche: `ansible`.
-> Maggiori informazioni: <https://docs.ansible.com/ansible/latest/cli/ansible-inventory.html>.
+> Maggiori informazioni: <https://docs.ansible.com/projects/ansible/latest/cli/ansible-inventory.html>.
 
 - Visualizza l'inventario predefinito:
 
