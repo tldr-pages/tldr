@@ -19,6 +19,10 @@
 
 `keyd list-keys`
 
+- Check the detected configuration files for errors:
+
+`keyd check`
+
 - Create a temporary binding:
 
 `sudo keyd bind "{{pressed_key}} = {{output_key}}"`
