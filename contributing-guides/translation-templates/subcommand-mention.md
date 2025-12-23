@@ -216,7 +216,7 @@ This file contains the translation templates of this notice.
 ### nl
 
 ```markdown
-> Sommige subcommando's zoals `example` hebben hun eigen gebruiksdocumentatie.
+> Sommige subcommando's zoals `example` hebben hun eigen documentatie.
 ```
 
 ---
