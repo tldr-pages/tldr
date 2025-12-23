@@ -11,7 +11,7 @@
 
 `tuxi -r {{search_terms}}`
 
-- Display only search results (silences "Did you mean?", greetings and usage):
+- Display only search results (silences "Did you mean?", greetings, and usage):
 
 `tuxi -q {{search_terms}}`
 

@@ -1,7 +1,7 @@
 # osv-scanner
 
 > 다양한 매체에서 의존성을 스캔하고 OSV 데이터베이스와 대조합니다.
-> 더 많은 정보: <https://osv.dev/about>.
+> 더 많은 정보: <https://google.github.io/osv.dev/faq/>.
 
 - Docker 이미지를 스캔:
 

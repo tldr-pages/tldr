@@ -2,7 +2,7 @@
 
 > MongoDB의 새로운 쉘로, `mongo`의 대체품입니다.
 > 참고: 모든 연결 옵션은 하나의 문자열로 대체할 수 있습니다: `mongodb://user@host:port/db_name?authSource=authdb_name`.
-> 더 많은 정보: <https://www.mongodb.com/docs/mongodb-shell>.
+> 더 많은 정보: <https://www.mongodb.com/docs/mongodb-shell/>.
 
 - 기본 포트(`mongodb://localhost:27017`)를 사용하여 로컬 데이터베이스에 연결:
 

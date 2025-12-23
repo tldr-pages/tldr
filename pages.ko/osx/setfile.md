@@ -1,7 +1,7 @@
 # setfile
 
 > HFS+ 디렉터리 내 파일의 속성을 설정합니다.
-> 더 많은 정보: <https://ss64.com/osx/setfile.html>.
+> 더 많은 정보: <https://ss64.com/mac/setfile.html>.
 
 - 특정 파일의 생성 날짜 설정:
 

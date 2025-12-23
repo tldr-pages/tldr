@@ -3,7 +3,7 @@
 > Zoek een programma in het pad van de gebruiker.
 > Meer informatie: <https://manned.org/which>.
 
-- Doorzoek de PATH-omgevingsvariabele en toon de locatie van eventuele overeenkomende uitvoerbare bestanden:
+- Doorzoek de `$PATH`-omgevingsvariabele en toon de locatie van eventuele overeenkomende uitvoerbare bestanden:
 
 `which {{uitvoerbaar_bestand}}`
 

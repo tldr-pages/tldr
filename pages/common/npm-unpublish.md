@@ -1,7 +1,7 @@
 # npm unpublish
 
 > Remove a package from the npm registry.
-> More information: <https://docs.npmjs.com/cli/npm-unpublish>.
+> More information: <https://docs.npmjs.com/cli/npm-unpublish/>.
 
 - Unpublish a specific package version:
 

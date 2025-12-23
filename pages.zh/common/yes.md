@@ -4,7 +4,7 @@
 > 此命令通常用于对安装命令（如 `apt-get`）每个提示回答是。
 > 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/yes-invocation.html>。
 
-- 重复输出“{{消息}}”：
+- 重复输出“消息”：
 
 `yes {{消息}}`
 

@@ -1,7 +1,7 @@
 # aws s3
 
 > CLI pour AWS S3 - fournis du stockage à travers les services web.
-> Plus d'informations : <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/index.html>.
+> Plus d'informations : <https://docs.aws.amazon.com/cli/latest/reference/s3/>.
 
 - Affiche les fichiers d'un bucket :
 

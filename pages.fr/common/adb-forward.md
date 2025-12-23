@@ -7,7 +7,7 @@
 
 `adb forward tcp:{{port_local}} tcp:{{port_distant}}`
 
-- Redirige un port TCP vers un émulateur ou appareil spécifique (identifié par ID / numéro de [s]érie):
+- Redirige un port TCP vers un émulateur ou appareil spécifique (identifié par ID / numéro de [s]érie) :
 
 `adb -s {{ID_appareil}} forward tcp:{{port_local}} tcp:{{port_distant}}`
 

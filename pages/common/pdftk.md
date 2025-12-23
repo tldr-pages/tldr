@@ -3,7 +3,7 @@
 > PDF toolkit.
 > More information: <https://www.pdflabs.com/docs/pdftk-man-page/>.
 
-- Extract pages 1-3, 5 and 6-10 from a PDF file and save them as another one:
+- Extract pages 1-3, 5, and 6-10 from a PDF file and save them as another one:
 
 `pdftk {{input.pdf}} cat {{1-3 5 6-10}} output {{output.pdf}}`
 

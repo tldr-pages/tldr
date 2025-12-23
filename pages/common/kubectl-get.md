@@ -1,7 +1,7 @@
 # kubectl get
 
 > Get Kubernetes objects and resources.
-> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_get>.
+> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_get/>.
 
 - Get all namespaces in the current cluster:
 

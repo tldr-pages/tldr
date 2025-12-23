@@ -1,9 +1,9 @@
 # dircolors
 
-> Comandos de salida para establecer la variable de entorno LS_COLOR y el estilo `ls`, `dir`, etc.
+> Comandos de salida para establecer la variable de entorno `$LS_COLOR` y el estilo `ls`, `dir`, etc.
 > Más información: <https://www.gnu.org/software/coreutils/manual/html_node/dircolors-invocation.html>.
 
-- Comandos de salida para establecer LS_COLOR usando los colores por defecto:
+- Comandos de salida para establecer `$LS_COLOR` usando los colores por defecto:
 
 `dircolors`
 
@@ -11,7 +11,7 @@
 
 `dircolors --print-ls-colors`
 
-- Comandos de salida para establecer LS_COLOR utilizando los colores de un archivo:
+- Comandos de salida para establecer `$LS_COLOR` utilizando los colores de un archivo:
 
 `dircolors {{ruta/al/archivo}}`
 

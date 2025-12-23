@@ -1,7 +1,7 @@
 # aws cloud9
 
 > Manage Cloud9 - a collection of tools to code, build, run, test, debug, and release software in the cloud.
-> More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cloud9/index.html>.
+> More information: <https://docs.aws.amazon.com/cli/latest/reference/cloud9/>.
 
 - List all Cloud9 development environment identifiers:
 

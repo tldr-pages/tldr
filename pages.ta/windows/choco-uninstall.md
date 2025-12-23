@@ -1,7 +1,7 @@
 # choco uninstall
 
 > சாக்லேட்டியுடன் ஒன்று அல்லது அதற்கு மேற்பட்ட தொகுப்புகளை நிறுவல் நீக்கவும்.
-> மேலும் விவரத்திற்கு: <https://chocolatey.org/docs/commands-uninstall>.
+> மேலும் விவரத்திற்கு: <https://docs.chocolatey.org/en-us/choco/commands/uninstall/>.
 
 - ஒன்று அல்லது அதற்கு மேற்பட்ட இடம் பிரிக்கப்பட்ட தொகுப்புகளை நிறுவல் நீக்கவும்:
 

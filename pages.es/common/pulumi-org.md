@@ -17,7 +17,7 @@
 
 - Busca recursos en Pulumi Cloud utilizando Pulumi AI con una consulta en lenguaje natural de texto sin formato:
 
-`pulumi org search ai {{[-q|--query]}} {{«muéstrame todos los equilibradores de carga de mi organización»}}`
+`pulumi org search ai {{[-q|--query]}} "{{muéstrame todos los equilibradores de carga de mi organización}}"`
 
 - Muestra la ayuda:
 

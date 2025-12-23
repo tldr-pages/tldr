@@ -1,7 +1,7 @@
 # sdelete
 
 > Securely delete file/directory from disk, or clean the free space on a volume/physical disk.
-> More information: <https://learn.microsoft.com/en-us/sysinternals/downloads/sdelete>.
+> More information: <https://learn.microsoft.com/sysinternals/downloads/sdelete>.
 
 - Delete files with 3 [p]asses:
 

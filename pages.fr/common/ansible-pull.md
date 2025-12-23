@@ -1,9 +1,9 @@
 # ansible-pull
 
 > Récupère les playbook ansible depuis un dépôt VCS et exécute les en local.
-> Plus d'informations : <https://docs.ansible.com/ansible/latest/cli/ansible-pull.html>.
+> Plus d'informations : <https://docs.ansible.com/projects/ansible/latest/cli/ansible-pull.html>.
 
-- Récupère le playbook depuis un VCS et exécute le fichier par défaut local.yaml du playbook :
+- Récupère le playbook depuis un VCS et exécute le fichier par défaut `local.yml` du playbook :
 
 `ansible-pull {{[-U|--url]}} {{url_du_dépôt}}`
 

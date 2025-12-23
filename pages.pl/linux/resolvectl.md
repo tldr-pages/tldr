@@ -2,7 +2,7 @@
 
 > Znajdź nazwy domen, adresy IPv4 i IPv6, rekordy zasobów DNS i usługi.
 > Analizuj i rekonfiguruj resolwer DNS.
-> Więcej informacji: <https://www.freedesktop.org/software/systemd/man/resolvectl.html>.
+> Więcej informacji: <https://www.freedesktop.org/software/systemd/man/latest/resolvectl.html>.
 
 - Wyświetl ustawienia DNS:
 

@@ -1,7 +1,7 @@
 # opera
 
 > To polecenie jest aliasem `chromium`.
-> Więcej informacji: <https://opera.com>.
+> Więcej informacji: <https://www.opera.com/>.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

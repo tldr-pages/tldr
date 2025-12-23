@@ -1,7 +1,7 @@
 # choco apikey
 
 > Manage API keys for Chocolatey sources.
-> More information: <https://chocolatey.org/docs/commands-apikey>.
+> More information: <https://docs.chocolatey.org/en-us/create/commands/api-key/>.
 
 - Display a list of sources and their API keys:
 

@@ -1,6 +1,7 @@
 # docker container diff
 
 > Denne kommando er et alias af `docker diff`.
+> Mere information: <https://docs.docker.com/reference/cli/docker/container/diff/>.
 
 - Se dokumentation for den oprindelige kommando:
 

@@ -1,7 +1,7 @@
 # base64
 
 > फ़ाइल या `stdin` को base64 में एन्कोड या डिकोड करें, `stdout` या किसी अन्य फ़ाइल में।
-> अधिक जानकारी: <https://man.freebsd.org/cgi/man.cgi?query=base64>।
+> अधिक जानकारी: <https://man.freebsd.org/cgi/man.cgi?base64>।
 
 - फ़ाइल को `stdout` में एन्कोड करें:
 

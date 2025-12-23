@@ -1,7 +1,7 @@
 # choco new
 
 > Erstelle neue Paket-Beschreibungs-Dateien mit Chocolatey.
-> Weitere Informationen: <https://chocolatey.org/docs/commands-new>.
+> Weitere Informationen: <https://docs.chocolatey.org/en-us/create/commands/new/>.
 
 - Erstelle ein neues Grundgerüst für ein Paket:
 

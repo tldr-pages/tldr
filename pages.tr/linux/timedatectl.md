@@ -1,7 +1,7 @@
 # timedatectl
 
 > Sistem tarih ve zamanını ayarlayın.
-> Daha fazla bilgi için: <https://www.freedesktop.org/software/systemd/man/timedatectl.html>.
+> Daha fazla bilgi için: <https://www.freedesktop.org/software/systemd/man/latest/timedatectl.html>.
 
 - Mevcut sistem saatini kontrol edin:
 

@@ -1,7 +1,7 @@
 # openssl req
 
 > PKCS#10 인증서 서명 요청을 관리하는 OpenSSL 명령어.
-> 더 많은 정보: <https://www.openssl.org/docs/manmaster/man1/openssl-req.html>.
+> 더 많은 정보: <https://docs.openssl.org/master/man1/openssl-req/>.
 
 - 인증 기관에 보낼 인증서 서명 요청 생성:
 

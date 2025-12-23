@@ -1,7 +1,7 @@
 # choco list
 
 > Chocolatey로 패키지 목록 표시.
-> 더 많은 정보: <https://chocolatey.org/docs/commands-list>.
+> 더 많은 정보: <https://docs.chocolatey.org/en-us/choco/commands/list/>.
 
 - 사용 가능한 모든 패키지 표시:
 

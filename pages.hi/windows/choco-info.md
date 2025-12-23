@@ -1,7 +1,7 @@
 # choco info
 
 > चॉकलेट के साथ एक पैकेज के बारे में विस्तृत जानकारी प्रदर्शित करें।
-> अधिक जानकारी: <https://chocolatey.org/docs/commands-info>।
+> अधिक जानकारी: <https://docs.chocolatey.org/en-us/choco/commands/info/>।
 
 - एक विशेष पैकेज पर जानकारी प्रदर्शित करें:
 

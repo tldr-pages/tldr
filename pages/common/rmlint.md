@@ -3,7 +3,7 @@
 > Find space waste and other broken things on your filesystem.
 > More information: <https://rmlint.readthedocs.io/en/latest/rmlint.1.html>.
 
-- Check directories for duplicated, empty and broken files:
+- Check directories for duplicated, empty, and broken files:
 
 `rmlint {{path/to/directory1 path/to/directory2 ...}}`
 

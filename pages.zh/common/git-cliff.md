@@ -1,9 +1,9 @@
 # git cliff
 
 > 高度可定制的变更日志生成工具。
-> 更多信息：<https://git-cliff.org/docs/usage/args>。
+> 更多信息：<https://git-cliff.org/docs/usage/args/>。
 
-- 从 Git 仓库所有提交生成变更日志并保存到 `CHANGELOG.md` ：
+- 从 Git 仓库所有提交生成变更日志并保存到 `CHANGELOG.md`：
 
 `git cliff > {{CHANGELOG.md}}`
 
@@ -19,6 +19,6 @@
 
 `git cliff {{[-u|--unreleased]}}`
 
-- 在当前目录生成默认配置文件 `cliff.toml` ：
+- 在当前目录生成默认配置文件 `cliff.toml`：
 
 `git cliff {{[-i|--init]}}`

@@ -1,7 +1,7 @@
 # elasticsearch-croneval
 
 > Validates and evaluates a `cron` expression. This command helps verify that `cron` expressions are valid for use with Elasticsearch and produce the expected results.
-> More information: <https://www.elastic.co/guide/en/elasticsearch/reference/current/elasticsearch-croneval.html>.
+> More information: <https://www.elastic.co/docs/reference/elasticsearch/command-line-tools/elasticsearch-croneval>.
 
 - Evaluate a `cron` expression and display the next 10 trigger times (default behavior):
 

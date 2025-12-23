@@ -1,7 +1,7 @@
 # choco upgrade
 
 > Actualiza uno o más paquetes con Chocolatey.
-> Más información: <https://chocolatey.org/docs/commands-upgrade>.
+> Más información: <https://docs.chocolatey.org/en-us/choco/commands/upgrade/>.
 
 - Actualizar uno o más paquetes:
 

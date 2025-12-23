@@ -2,7 +2,7 @@
 
 > 修改工具链支持的目标平台。
 > 如果不使用 `--toolchain` 选项，`rustup` 会使用默认工具链。更多信息请参见 `rustup help toolchain`。
-> 更多信息：<https://rust-lang.github.io/rustup>。
+> 更多信息：<https://rust-lang.github.io/rustup/>。
 
 - 为工具链添加目标平台：
 

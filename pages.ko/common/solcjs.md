@@ -1,7 +1,7 @@
 # solcjs
 
 > Solidity 컴파일러를 위한 JavaScript 바인딩 세트.
-> 더 많은 정보: <https://github.com/ethereum/solc-js>.
+> 더 많은 정보: <https://github.com/argotorg/solc-js>.
 
 - 특정 계약을 16진수로 컴파일:
 

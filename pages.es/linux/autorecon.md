@@ -1,7 +1,7 @@
 # autorecon
 
 > Herramienta de reconocimiento de red multihilo que realiza una enumeración automatizada de servicios.
-> Más información: <https://github.com/Tib3rius/AutoRecon>.
+> Más información: <https://github.com/AutoRecon/AutoRecon>.
 
 - Realiza reconocimiento sobre el(los) host(s) objetivo(s) (los resultados del escaneo detallado se guardarán en `./results`):
 

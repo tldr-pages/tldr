@@ -1,7 +1,7 @@
 # kubectl logs
 
 > Muestra los registros de los contenedores de un pod.
-> Más información: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_logs>.
+> Más información: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_logs/>.
 
 - Muestra los registros de un pod de un contenedor:
 

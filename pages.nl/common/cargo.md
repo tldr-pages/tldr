@@ -2,7 +2,7 @@
 
 > Beheer Rust projecten en hun afhankelijkheden (crates).
 > Sommige subcommando's zoals `build` hebben een eigen documentatie pagina.
-> Meer informatie: <https://doc.rust-lang.org/cargo>.
+> Meer informatie: <https://doc.rust-lang.org/stable/cargo/>.
 
 - Zoek naar crates:
 
@@ -34,4 +34,4 @@
 
 - Bouw met een gegeven aantal taken. (Standaard is het aantal CPU-kernen):
 
-`cargo {{[b|build]}} --jobs {{aantal_taken}}`
+`cargo {{[b|build]}} {{[-j|--jobs]}} {{aantal_taken}}`

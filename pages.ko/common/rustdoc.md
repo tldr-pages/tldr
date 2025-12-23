@@ -1,7 +1,7 @@
 # rustdoc
 
 > Rust 크레이트에 대한 문서를 생성합니다.
-> 더 많은 정보: <https://doc.rust-lang.org/stable/rustdoc>.
+> 더 많은 정보: <https://doc.rust-lang.org/stable/rustdoc/>.
 
 - 크레이트의 루트에서 문서 생성:
 

@@ -7,7 +7,7 @@
 
 `rdiff-backup backup {{path/to/source}} {{path/to/backup}}`
 
-- List incremental backups in repository (location path, local or remote):
+- List incremental backups in repository (location path, local, or remote):
 
 `rdiff-backup list increments {{repository}}`
 

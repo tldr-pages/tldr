@@ -1,7 +1,7 @@
 # choco apikey
 
 > Verwalte die API-Schlüssel für die Quellen von Chocolatey.
-> Weitere Informationen: <https://chocolatey.org/docs/commands-apikey>.
+> Weitere Informationen: <https://docs.chocolatey.org/en-us/create/commands/api-key/>.
 
 - Gib eine Liste von Quellen und ihren API-Schlüsseln aus:
 

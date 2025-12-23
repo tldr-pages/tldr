@@ -1,7 +1,7 @@
 # choco feature
 
 > சாக்லேட்டியுடன் அம்சங்களுடன் தொடர்பு கொள்ளுங்கள்.
-> மேலும் விவரத்திற்கு: <https://chocolatey.org/docs/commands-feature>.
+> மேலும் விவரத்திற்கு: <https://docs.chocolatey.org/en-us/choco/commands/feature/>.
 
 - கிடைக்கக்கூடிய அம்சங்களின் பட்டியலைக் காண்பி:
 

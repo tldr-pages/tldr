@@ -1,7 +1,7 @@
 # choco install
 
 > Instala uno o más paquetes con Chocolatey.
-> Más información: <https://chocolatey.org/docs/commands-install>.
+> Más información: <https://docs.chocolatey.org/en-us/choco/commands/install/>.
 
 - Instala uno o más paquetes:
 
@@ -11,7 +11,7 @@
 
 `choco install {{ruta\al\archivo_de_paquetes.config}}`
 
-- Instala un archivo `nuspec` o `nupkg` específico:
+- Instala un archivo `.nuspec` o `.nupkg` específico:
 
 `choco install {{path\to\file}}`
 

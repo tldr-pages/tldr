@@ -1,7 +1,7 @@
 # nvidia-smi
 
 > NVIDIA GPU 장치의 관리 및 모니터링 도구.
-> 더 많은 정보: <https://developer.nvidia.com/nvidia-system-management-interface>.
+> 더 많은 정보: <https://developer.nvidia.com/system-management-interface>.
 
 - 사용 가능한 모든 GPU 및 이를 사용하는 프로세스의 정보 표시:
 

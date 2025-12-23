@@ -3,7 +3,7 @@
 > Executar um comando no sistema host a partir do interior de um contêiner Distrobox.
 > Subcomando de `distrobox`.
 > Veja também: `distrobox`.
-> Mais informações: <https://distrobox.it/usage/distrobox-host-exec>.
+> Mais informações: <https://distrobox.it/usage/distrobox-host-exec/>.
 
 - Executa um comando no sistema host a partir do interior do contêiner Distrobox:
 

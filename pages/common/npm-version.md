@@ -1,7 +1,7 @@
 # npm version
 
 > Bump a node package version.
-> More information: <https://docs.npmjs.com/cli/npm-version>.
+> More information: <https://docs.npmjs.com/cli/npm-version/>.
 
 - Display version:
 

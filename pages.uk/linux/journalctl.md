@@ -1,7 +1,7 @@
 # journalctl
 
 > Запити до журналу systemd.
-> Більше інформації: <https://www.freedesktop.org/software/systemd/man/journalctl.html>.
+> Більше інформації: <https://www.freedesktop.org/software/systemd/man/latest/journalctl.html>.
 
 - Показати всі повідомлення з рівнем пріоритету 3 (помилки) від цього завантаження:
 
@@ -19,7 +19,7 @@
 
 `journalctl {{[-u|--unit]}} {{блок}}`
 
-- Фільтрувати повідомлення в межах діапазону часу (мітка часу або покажчики місця заповнення, як-от «вчора»):
+- Фільтрувати повідомлення в межах діапазону часу (мітка часу або покажчики місця заповнення, як-от "вчора"):
 
 `journalctl {{[-S|--since]}} {{now|today|yesterday|tomorrow}} {{[-U|--until]}} "{{YYYY-MM-DD HH:MM:SS}}"`
 

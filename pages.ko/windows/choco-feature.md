@@ -1,7 +1,7 @@
 # choco feature
 
 > Chocolatey를 통해 기능과 상호작용.
-> 더 많은 정보: <https://chocolatey.org/docs/commands-feature>.
+> 더 많은 정보: <https://docs.chocolatey.org/en-us/choco/commands/feature/>.
 
 - 사용 가능한 기능 목록 표시:
 

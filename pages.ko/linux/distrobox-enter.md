@@ -1,9 +1,9 @@
 # distrobox-enter
 
 > Distrobox 컨테이너에 진입합니다.
-> 기본 실행 명령어는 사용자의 SHELL이지만, 다른 셸 또는 전체 명령어를 지정하여 실행할 수 있습니다. 스크립트, 애플리케이션 또는 서비스 내에서 사용 시, `--headless` 모드를 사용하여 tty 및 상호작용을 비활성화할 수 있습니다.
+> 기본 실행 명령어는 사용자의 `$SHELL`이지만, 다른 셸 또는 전체 명령어를 지정하여 실행할 수 있습니다. 스크립트, 애플리케이션 또는 서비스 내에서 사용 시, `--headless` 모드를 사용하여 tty 및 상호작용을 비활성화할 수 있습니다.
 > 같이 보기: `distrobox`.
-> 더 많은 정보: <https://distrobox.it/usage/distrobox-enter>.
+> 더 많은 정보: <https://distrobox.it/usage/distrobox-enter/>.
 
 - Distrobox 컨테이너에 진입:
 

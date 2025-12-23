@@ -1,7 +1,7 @@
 # jf
 
-> Interact with JFrog products like Artifactory, Xray, Distribution, Pipelines and Mission Control.
-> More information: <https://jfrog.com/help/r/jfrog-cli/usage>.
+> Interact with JFrog products like Artifactory, Xray, Distribution, Pipelines, and Mission Control.
+> More information: <https://jfrog.com/help/r/jfrog-applications-and-cli-documentation/jfrog-cli>.
 
 - Add a new configuration:
 

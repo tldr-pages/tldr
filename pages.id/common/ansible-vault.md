@@ -1,7 +1,7 @@
 # ansible-vault
 
 > Enkripsi dan dekripsi nilai, struktur data, dan file dalam proyek Ansible.
-> Informasi lebih lanjut: <https://docs.ansible.com/ansible/latest/user_guide/vault.html#id17>.
+> Informasi lebih lanjut: <https://docs.ansible.com/projects/ansible/latest/vault_guide/index.html>.
 
 - Buat suatu berkas brankas terenkripsi baru dengan permintaan kata sandi:
 

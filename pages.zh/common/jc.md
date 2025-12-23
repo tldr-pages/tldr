@@ -1,7 +1,7 @@
 # jc
 
 > 将多个命令的输出转换为 JSON。
-> 更多信息：<https://github.com/kellyjonbrazil/jc>.
+> 更多信息：<https://github.com/kellyjonbrazil/jc>。
 
 - 通过管道将命令输出转换为 JSON：
 

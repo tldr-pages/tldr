@@ -5,16 +5,16 @@
 
 - Run a game with one map:
 
-`{{path/to/cs2}} -dedicated +map {{de_dust2}}`
+`{{path/to}}/cs2 -dedicated +map {{de_dust2}}`
 
 - Run a game with specified maximum number of players:
 
-`{{path/to/cs2}} -dedicated +map {{de_dust2}} -maxplayers {{64}}`
+`{{path/to}}/cs2 -dedicated +map {{de_dust2}} -maxplayers {{64}}`
 
 - Run a game with specified server IP and port:
 
-`{{path/to/cs2}} -dedicated +map {{de_dust2}} -ip {{1.2.3.4}} -port {{27015}}`
+`{{path/to}}/cs2 -dedicated +map {{de_dust2}} -ip {{1.2.3.4}} -port {{27015}}`
 
-- Shut the server down:
+- [Interactive] Shut the server down:
 
 `quit`

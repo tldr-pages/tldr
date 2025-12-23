@@ -1,7 +1,7 @@
 # ansible-lint
 
 > Apply rules and follow best practices with your automation content.
-> More information: <https://ansible.readthedocs.io/projects/lint/>.
+> More information: <https://docs.ansible.com/projects/lint/>.
 
 - Lint a specific playbook and a role directory:
 

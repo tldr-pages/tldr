@@ -1,7 +1,7 @@
 # msfconsole
 
 > Metasploit 프레임워크의 콘솔.
-> 더 많은 정보: <https://docs.rapid7.com/metasploit/msf-overview>.
+> 더 많은 정보: <https://docs.rapid7.com/metasploit/msf-overview/>.
 
 - 콘솔 시작:
 

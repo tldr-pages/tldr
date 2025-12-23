@@ -1,7 +1,7 @@
 # choco info
 
 > சாக்லேட்டியுடன் கூடிய தொகுப்பு பற்றிய விரிவான தகவலைக் காண்பி.
-> மேலும் விவரத்திற்கு: <https://chocolatey.org/docs/commands-info>.
+> மேலும் விவரத்திற்கு: <https://docs.chocolatey.org/en-us/choco/commands/info/>.
 
 - ஒரு குறிப்பிட்ட தொகுப்பின் தகவலைக் காட்டு:
 

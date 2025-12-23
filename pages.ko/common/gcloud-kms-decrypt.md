@@ -2,7 +2,7 @@
 
 > Cloud KMS 키를 사용하여 암호화된 파일 복호화.
 > 같이 보기: `gcloud`.
-> 더 많은 정보: <https://cloud.google.com/sdk/gcloud/reference/kms/decrypt>.
+> 더 많은 정보: <https://docs.cloud.google.com/sdk/gcloud/reference/kms/decrypt>.
 
 - 지정된 키, 키 링 및 위치를 사용하여 파일 복호화:
 

@@ -2,7 +2,7 @@
 
 > Rust ツールチェーンのインストール、管理、更新を行います。
 > `toolchain`, `target`, `update` のようないくつかのサブコマンドには、使用方法についての独自のドキュメントがあります。
-> もっと詳しく: <https://rust-lang.github.io/rustup>。
+> もっと詳しく: <https://rust-lang.github.io/rustup/>。
 
 - nightly ツールチェーンをシステムにインストール:
 

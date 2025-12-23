@@ -1,7 +1,7 @@
 # choco outdated
 
 > चॉकलेट के साथ पुराने पैकेजों की जांच करें।
-> अधिक जानकारी: <https://chocolatey.org/docs/commands-outdated>।
+> अधिक जानकारी: <https://docs.chocolatey.org/en-us/choco/commands/outdated/>।
 
 - पुराने पैकेजों की तालिका प्रारूप में सूची प्रदर्शित करें:
 

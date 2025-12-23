@@ -1,7 +1,7 @@
 # choco search
 
 > Wyszukiwanie pakietów Chocolatey dostępnych lokalnie lub w zdalnych źródłach/repozytoriach.
-> Więcej informacji: <https://chocolatey.org/docs/commands-search>.
+> Więcej informacji: <https://docs.chocolatey.org/en-us/choco/commands/search/>.
 
 - Wyszkukiwanie pakietów:
 

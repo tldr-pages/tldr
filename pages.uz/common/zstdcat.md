@@ -1,6 +1,6 @@
 # zstdcat
 
-> Ushbu buyruq taxallus `zstd --decompress --stdout`.
+> Ushbu buyruq taxallus `zstd --decompress --stdout --force`.
 
 - Asl buyruq uchun hujjatlarni ko'rish:
 

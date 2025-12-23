@@ -1,7 +1,7 @@
 # systemd-hwdb
 
 > 하드웨어 데이터베이스 관리 도구.
-> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/systemd-hwdb.html>.
+> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/latest/systemd-hwdb.html>.
 
 - `/etc/udev`의 바이너리 하드웨어 데이터베이스 업데이트:
 

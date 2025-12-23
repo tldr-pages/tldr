@@ -1,7 +1,7 @@
 # aws acm-pca
 
 > AWS 인증서 관리자 개인 인증 기관.
-> 더 많은 정보: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/acm-pca/index.html>.
+> 더 많은 정보: <https://docs.aws.amazon.com/cli/latest/reference/acm-pca/>.
 
 - 개인 인증 기관 생성:
 

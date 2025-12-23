@@ -2,7 +2,7 @@
 
 > Interface de linha de comando para o AWS Simple Email Service.
 > Serviço em nuvem com alta performance para envio e recebimento de emails.
-> Mais informações: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ses/index.html>.
+> Mais informações: <https://docs.aws.amazon.com/cli/latest/reference/ses/>.
 
 - Cria um novo conjunto de regras:
 

@@ -1,7 +1,7 @@
 # lldb
 
 > El depurador LLVM de bajo nivel.
-> Más información: <https://lldb.llvm.org>.
+> Más información: <https://lldb.llvm.org/>.
 
 - Depura un ejecutable:
 

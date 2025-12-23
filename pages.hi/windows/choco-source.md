@@ -1,7 +1,7 @@
 # choco source
 
 > चॉकलेटी वाले पैकेजों के लिए स्रोत प्रबंधित करें।
-> अधिक जानकारी: <https://chocolatey.org/docs/commands-source>।
+> अधिक जानकारी: <https://docs.chocolatey.org/en-us/choco/commands/source/>।
 
 - वर्तमान में उपलब्ध स्रोतों की सूची बनाएं:
 

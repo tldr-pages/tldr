@@ -1,7 +1,7 @@
 # choco install
 
 > Instalacja jednej lub więcej paczek zarządzanych przez Chocolatey.
-> Więcej informacji: <https://chocolatey.org/docs/commands-install>.
+> Więcej informacji: <https://docs.chocolatey.org/en-us/choco/commands/install/>.
 
 - Instalacja jednego lub więcej pakietów (oddzielonych spacją):
 
@@ -11,7 +11,7 @@
 
 `choco install {{ścieżka/do/plik_konfiguracyjny.config}}`
 
-- Instalacja podanej specyfikacji nuspec lub pliku nupkg:
+- Instalacja podanej specyfikacji `.nuspec` lub pliku `.nupkg`:
 
 `choco install {{ścieżka/do/pliku}}`
 

@@ -1,6 +1,6 @@
 # serverless
 
-> Toolkit for deploying and operating serverless architectures on AWS, Google Cloud, Azure and IBM OpenWhisk.
+> Toolkit for deploying and operating serverless architectures on AWS, Google Cloud, Azure, and IBM OpenWhisk.
 > Commands can be run either using the `serverless` command or its alias, `sls`.
 > More information: <https://www.serverless.com/framework/docs/providers/aws/cli-reference>.
 
