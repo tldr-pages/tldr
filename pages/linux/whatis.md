@@ -1,7 +1,7 @@
 # whatis
 
 > Display one-line descriptions from manual pages.
-> See also: `man`.
+> See also: `man`, `whereis`.
 > More information: <https://manned.org/whatis>.
 
 - Display a description from a man page:
