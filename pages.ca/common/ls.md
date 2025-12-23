@@ -9,7 +9,7 @@
 
 - Llista tots els fitxers, incloent els ocults:
 
-`ls {{[-a|--]}}`
+`ls {{[-a|--all]}}`
 
 - Llista tots els fitxers, afegint `/` al nom dels directoris:
 
@@ -17,7 +17,7 @@
 
 - Llista de format llarg (permisos, propietat, mida i data de modificació) de tots els fitxers:
 
-`ls {{[-la|--all -l]}}`
+`ls {{[-la|-l --all]}}`
 
 - Llista de format llarg amb unitats llegibles per humans (KiB, MiB, GiB):
 
