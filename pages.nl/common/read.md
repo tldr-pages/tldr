@@ -33,4 +33,4 @@
 
 - Lees `stdin` en voer een actie uit op elke regel:
 
-`while read line; do {{echo|ls|rm|...}} "$line"; done < {{/dev/stdin|pad/naar/bestand|...}}`
+`cat {{/dev/stdin|pad/naar/bestand|...}} | while read line; do {{echo|ls|rm|...}} "$line"; done`

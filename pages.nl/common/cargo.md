@@ -32,6 +32,6 @@
 
 `cargo +nightly {{[b|build]}}`
 
-- Bouw met een gegeven aantal taken. (Standaard is het aantal CPU-kernen):
+- Bouw met een gegeven aantal taken (Standaard is het aantal CPU-kernen):
 
 `cargo {{[b|build]}} {{[-j|--jobs]}} {{aantal_taken}}`

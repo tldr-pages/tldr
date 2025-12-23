@@ -34,4 +34,4 @@
 
 - Start een beperkte shell sessie:
 
-`bash -r`
+`bash {{[-r|--restricted]}}`

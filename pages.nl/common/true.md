@@ -1,9 +1,13 @@
 # true
 
 > Retourneert een succesvolle exit statuscode van 0.
-> Gebruik dit met de || operator om een commando altijd met 0 te laten afsluiten.
+> Zie ook: `false`.
 > Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#index-true>.
 
 - Retourneer een succesvolle exit code:
 
 `true`
+
+- Zorg ervoor dat een commando altijd afsluit met 0:
+
+`{{commando}} || true`

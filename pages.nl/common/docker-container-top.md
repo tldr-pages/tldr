@@ -5,8 +5,8 @@
 
 - Toon de lopende processen van een container:
 
-`docker top {{container}}`
+`docker {{[top|container top]}} {{container}}`
 
 - Toon de help:
 
-`docker top --help`
+`docker {{[top|container top]}} --help`

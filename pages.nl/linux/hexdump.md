@@ -1,6 +1,7 @@
 # hexdump
 
 > Een ASCII, decimale, hexadecimale, octale dump.
+> Zie ook: `hexyl`, `od`, `xxd`.
 > Meer informatie: <https://manned.org/hexdump>.
 
 - Druk de hexadecimale weergave van een bestand af, waarbij dubbele regels worden vervangen door '*':

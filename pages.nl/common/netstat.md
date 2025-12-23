@@ -9,11 +9,11 @@
 
 - Toon alle luisterende poorten:
 
-`netstat {{-l|--listening]}}`
+`netstat {{[-l|--listening]}}`
 
 - Toon luisterende TCP-poorten:
 
-`netstat {{-t|--tcp]}}`
+`netstat {{[-t|--tcp]}}`
 
 - Toon PID en programmanamen:
 
