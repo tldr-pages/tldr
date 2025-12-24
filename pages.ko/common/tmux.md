@@ -10,15 +10,15 @@
 
 - 이름있는 새 세션 시작:
 
-`tmux new -s {{이름}}`
+`tmux {{[new|new-session]}} -s {{이름}}`
 
 - 세션 리스트 출력:
 
-`tmux ls`
+`tmux {{[ls|list-sessions]}}`
 
 - 가장 최근에 사용했던 세션에 접근:
 
-`tmux attach`
+`tmux {{[a|attach]}}`
 
 - 현재 세션에서 나가기 (tmux 세션 안에서 사용):
 
