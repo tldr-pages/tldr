@@ -3,9 +3,13 @@
 > Installeer Python-pakketten.
 > Meer informatie: <https://pip.pypa.io/en/stable/cli/pip_install/>.
 
-- Installeer een pakket:
+- Installeer één of meer pakketten:
 
-`pip install {{pakket}}`
+`pip install {{pakket1 pakket2 ...}}`
+
+- Upgrade alle opgegeven pakketten naar de nieuwste versie en installeer alle pakketten die nog niet aanwezig zijn:
+
+`pip install {{package1 package2 ...}} {{[-U|--upgrade]}}`
 
 - Installeer een specifieke versie van een pakket:
 

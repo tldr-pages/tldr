@@ -4,34 +4,34 @@
 > Zie ook: `awk`, `ed`.
 > Meer informatie: <https://www.gnu.org/software/sed/manual/sed.html>.
 
-- Vervang alle `apple` (basis regex) met `mango` (basis regex) in alle invoerregels en toon het resultaat in `stdout`:
+- Vervang ([s]) alle "apple" (basis `regex`) met "mango" (basis `regex`) in alle invoerregels en toon het resultaat in `stdout`:
 
 `{{commando}} | sed 's/apple/mango/g'`
 
-- Vervang alle `apple` (uitgebreide regex) met `APPLE` (uitgebreide regex) in alle invoerregels en toon het resultaat in `stdout`:
+- Vervang alle "apple" met "mango" in een bestand (waarbij het originele bestand wordt overschreven):
 
-`{{commando}} | sed {{[-E|--regexp-extended]}} 's/(apple)/\U\1/g'`
+`sed {{[-i|--in-place]}} 's/apple/mango/g' {{pad/naar/bestand}}`
 
-- Gebruik basisregex om `apple` te vervangen door `mango` en `orange` door `lime` in een bestand (waarbij het originele bestand wordt overschreven):
+- Voer meerdere vervangingen uit in één commando:
 
-`sed {{[-i|--in-place]}} -e 's/apple/mango/g' -e 's/orange/lime/g' {{pad/naar/bestand}}`
+`{{commando}} | sed -e '{{s/appel/mango/g}}' -e '{{s/sinaasappel/limoen/g}}'`
 
-- Voer een specifiek script bestand uit en toon het resultaat in `stdout`:
+- Gebruik een aangepaste scheidingsteken (handig als het patroon `/` bevat):
 
-`{{commando}} | sed {{-f|--file}} {{pad/naar/script.sed}}`
-
-- Toon alleen de eerste regel in `stdout`:
-
-`{{commando}} | sed {{[-n|--quiet]}} '1p'`
+`{{commando}} | sed '{{s#////#____#g}}'`
 
 - Verwij[d]er regels 1 tot en met 5 van een bestand en maak een back-up van het originele bestand met een `.orig` extensie:
 
 `sed {{[-i|--in-place=]}}{{.orig}} '1,5d' {{pad/naar/bestand}}`
 
+- Toon ([p]) alleen de eerste regel naar `stdout`:
+
+`{{commando}} | sed {{[-n|--quiet]}} '1p'`
+
 - Voeg een nieuwe regel in bij de eerste regel van een bestand:
 
 `sed {{[-i|--in-place]}} '1i\your new line text\' {{pad/naar/bestand}}`
 
-- Verwijder lege regels (met of zonder spaties/tabtekens) uit een bestand, waarbij het oorspronkelijke bestand ter plaatse wordt overschreven:
+- Verwijder lege regels (met of zonder spaties/tabtekens) uit een bestand, waarbij het oorspronkelijke bestand wordt overschreven:
 
 `sed {{[-i|--in-place]}} '/^[[:space:]]*$/d' {{pad/naar/bestand}}`

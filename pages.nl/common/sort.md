@@ -13,13 +13,13 @@
 
 - Sorteer een bestand op een niet-hoofdlettergevoelige manier:
 
-`sort {{-f|--ignore-case}} {{pad/naar/bestand}}`
+`sort {{[-f|--ignore-case]}} {{pad/naar/bestand}}`
 
 - Sorteer een bestand met numerieke in plaats van alfabetische volgorde:
 
 `sort {{[-n|--numeric-sort]}} {{pad/naar/bestand}}`
 
-- Sorteer `/etc/passwd` numeriek op het 3e veld van elke regel, gebruik makend van ":" als veldscheidingsteken:
+- Sorteer `/etc/passwd` numeriek vanaf het 3e veld van elke regel, gebruik makend van ":" als veldscheidingsteken:
 
 `sort {{[-t|--field-separator]}} : {{[-k|--key]}} 3n /etc/passwd`
 

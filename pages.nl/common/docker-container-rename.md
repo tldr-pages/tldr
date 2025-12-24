@@ -5,8 +5,8 @@
 
 - Hernoem een container:
 
-`docker rename {{container}} {{nieuwe_naam}}`
+`docker {{[rename|container rename]}} {{container}} {{nieuwe_naam}}`
 
 - Toon de help:
 
-`docker rename --help`
+`docker {{[rename|container rename]}} --help`

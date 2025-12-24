@@ -31,6 +31,6 @@
 
 `lsblk {{[-e|--exclude]}} {{1,7,...}}`
 
-- Toon een aangepaste samenvatting gebruikmakend van een door komma's gescheiden lijst met kolommen:
+- Voeg extra informatie toe aan de uitvoer gebruikmakend van een door komma's gescheiden lijst met kolommen (laat de `+`-teken weg om alleen de opgegeven kolommen te tonen):
 
-`lsblk {{[-o|--output]}} {{NAME,SERIAL,MODEL,TRAN,TYPE,SIZE,FSTYPE,MOUNTPOINT,...}}`
+`lsblk {{[-o|--output]}} +{{NAME,ROTA,SERIAL,MODEL,TRAN,TYPE,SIZE,FSTYPE,MOUNTPOINT,...}}`

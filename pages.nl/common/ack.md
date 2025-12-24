@@ -14,7 +14,7 @@
 
 - Zoek naar lijnen die overeenkomen met een patroon en druk alleen de overeenkomende tekst af en niet de rest van de lijn:
 
-`ack {{[-o|--output='$&']}} "{{zoekpatroon}}"`
+`ack {{[-o|--output '$&']}} "{{zoekpatroon}}"`
 
 - Beperk het zoeken tot bestanden van een specifiek type:
 

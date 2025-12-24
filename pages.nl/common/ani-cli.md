@@ -1,31 +1,32 @@
 # ani-cli
 
-> Een cli om door anime te bladeren en deze te bekijken.
+> Blader door anime en bekijk ze.
+> Zie ook: `animedl`.
 > Meer informatie: <https://manned.org/ani-cli>.
 
 - Zoek naar anime op naam:
 
-`ani-cli "{{anime_naam}}"`
+`ani-cli "{{anime_titel}}"`
 
 - Download een aflevering:
 
-`ani-cli {{[-d|--download]}} "{{anime_naam}}"`
+`ani-cli {{[-d|--download]}} "{{anime_titel}}"`
 
 - Download een reeks van afleveringen:
 
-`ani-cli {{[-d|--download]}} {{[-r|--range]}} "{{1 6}}" "{{anime_naam}}"`
+`ani-cli {{[-d|--download]}} {{[-r|--range]}} "{{1 6}}" "{{anime_title}}"`
 
 - Download de gehele serie (een reeks van alle afleveringen):
 
-`ani-cli {{[-d|--download]}} {{[-r|--range]}} "1 -1" "{{anime_naam}}"`
+`ani-cli {{[-d|--download]}} {{[-r|--range]}} "1 -1" "{{anime_titel}}"`
 
 - Gebruik VLC als de media player:
 
-`ani-cli {{[-v|-vlc]}} "{{anime_naam}}"`
+`ani-cli {{[-v|--vlc]}} "{{anime_titel}}"`
 
 - Bekjk een specifieke aflevering:
 
-`ani-cli {{[-e|--episode]}} {{afleveringnummer}} "{{anime_naam}}"`
+`ani-cli {{[-e|--episode]}} {{afleveringnummer}} "{{anime_titel}}"`
 
 - Bekijk anime verder uit je geschiedenis:
 

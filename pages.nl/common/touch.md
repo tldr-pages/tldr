@@ -9,7 +9,7 @@
 
 - Stel de toeg[a]ng- of wijzigingstijden ([m]) van een bestand in op de huidige tijd en maak ([c]) geen bestand aan als deze niet bestaat:
 
-`touch {{[-c|--no-create]}} -{{a|m}} {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
+`touch {{[-c|--no-create]}} {{-a|-m}} {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
 
 - Stel de [t]ijd van een bestand in op een specifieke waarde en maak ([c]) geen bestand aan als deze niet bestaat:
 
