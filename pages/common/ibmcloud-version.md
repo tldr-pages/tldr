@@ -5,4 +5,4 @@
 
 - Display version:
 
-`ibmcloud version`
+`ibmcloud {{[v|version]}}`
