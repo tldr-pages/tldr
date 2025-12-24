@@ -7,7 +7,7 @@
 
 `trash {{path/to/file}}`
 
-- Move multiple items to the trash:
+- Move multiple items or directoies to the trash:
 
 `trash {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
