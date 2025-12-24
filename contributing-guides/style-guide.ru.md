@@ -83,26 +83,6 @@ tldr-lint путь/к/tldr_page.md
 tldr --render путь/к/tldr_page.md
 ```
 
-### Правила для PowerShell
-
-При документировании команд PowerShell, пожалуйста, обратите внимание на следующие соглашения об именовании.
-
-- Имя файла должно быть написано в нижнем регистре, например, `invoke-webrequest.md` вместо `Invoke-WebRequest.md`.
-- Заголовок страницы должен быть написан как есть (соответствуя написанию, задуманному Microsoft или автором модуля PowerShell), например, `Invoke-WebRequest` вместо `invoke-webrequest`.
-- Имя команды и опции в примерах также должны быть написаны как есть, например, `Command-Name {{ввод}} -CommandParameter {{значение}}` вместо `command-name {{ввод}} -commandparameter {{значение}}`.
-
-Из-за [различных отличий в совместимости](https://learn.microsoft.com/powershell/scripting/whats-new/differences-from-windows-powershell) и удаленных специфичных для Windows команд в PowerShell 6.x, убедитесь, что команда работает как в **PowerShell 5.1** (также известном как "Legacy Windows PowerShell", установленном в Windows 10 и 11), так и в **последней версии кроссплатформенного PowerShell** (ранее известного как PowerShell Core).
-
-Таким образом, если команда или ее опции недоступны или имеют разное поведение в разных версиях, пожалуйста, отметьте это в описаниях. Например:
-
-```md
-# Clear-RecycleBin
-
-> Очистить элементы из корзины.
-> Примечание: Эта команда может использоваться только в PowerShell версий 5.1 и ниже, или 7.1 и выше.
-> Больше информации: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/clear-recyclebin>.
-```
-
 ## Страницы
 
 ### Различия между платформами
@@ -141,63 +121,6 @@ tldr --render путь/к/tldr_page.md
 ```
 
 - Шаблоны для страниц-псевдонимов с готовыми переводами можно найти [здесь](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/translation-templates/alias-pages.md).
-
-#### Псевдонимы для PowerShell
-
-Некоторые команды PowerShell могут вводить псевдонимы, которые делятся на три категории:
-
-1. **Заменяет существующую команду командной строки Windows (`cmd`)**, например, `cd` является псевдонимом для `Set-Location` с другими опциями. В этом случае добавьте следующее примечание о псевдониме во вторую строку описания оригинальной команды `cmd`, например:
-
-```md
-# cd
-
-> Показать текущий рабочий каталог или перейти в другой.
-> В PowerShell эта команда является псевдонимом для `Set-Location`. Данная документация основана на версии `cd` для командной строки (`cmd`).
-> Больше информации: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
-
-- Посмотреть документацию для эквивалентной команды PowerShell:
-
-`tldr set-location`
-```
-
-> [!NOTE]\
-> Пример "Посмотреть документацию для эквивалентной команды PowerShell" является необязательным и должен быть исключен, если на странице уже достигнуто максимальное количество (8) примеров.
-
-2. **Предоставляет новый псевдоним, но выполняемый только в PowerShell**, например, `ni` для `New-Item`. В этом случае используйте [стандартный шаблон псевдонима](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/translation-templates/alias-pages.md), но добавьте фразу "В PowerShell," (или эквивалент), чтобы указать, что команда эксклюзивна для PowerShell. Например:
-
-```md
-# ni
-
-> В PowerShell эта команда является псевдонимом для `New-Item`.
-> Больше информации: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/new-item>.
-
-- Посмотреть документацию для оригинальной команды:
-
-`tldr new-item`
-```
-
-3. **Предоставляет новый псевдоним, который конфликтует с другими программами**, наиболее известный случай — включение `curl` и `wget` в качестве псевдонимов для `Invoke-WebRequest` (с несовместимым набором опций). Обратите внимание, что системные псевдонимы PowerShell, подпадающие под эту категорию, обычно эксклюзивны для Windows.
-
-В этом случае предоставьте примечание и способ определить, относится ли текущая команда к команде PowerShell (через псевдоним) или к другой. Например:
-
-```md
-# curl
-
-> В PowerShell эта команда может быть псевдонимом для `Invoke-WebRequest`, если оригинальная программа `curl` (<https://curl.se>) не установлена должным образом.
-> Больше информации: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
-
-- Проверить, правильно ли установлен `curl`, выведя номер его версии. Если эта команда приводит к ошибке, PowerShell, возможно, заменил эту команду на `Invoke-WebRequest`:
-
-`curl --version`
-
-- Посмотреть документацию для оригинальной команды `curl`:
-
-`tldr curl -p common`
-
-- Посмотреть документацию для команды PowerShell `Invoke-WebRequest`:
-
-`tldr invoke-webrequest`
-```
 
 ### Разрешение неоднозначностей (Disambiguations)
 
@@ -309,10 +232,6 @@ tldr --render путь/к/tldr_page.md
 
 При описании переменной окружения для платформ UNIX добавляйте знак доллара перед переменной и заключайте её в обратные кавычки (`$VARIABLE_NAME`). Например: "Управление переменной окружения `$JAVA_HOME`".
 
-Для командной строки Windows добавляйте знак процента в начало и в конец переменной и заключайте её в обратные кавычки (`%VARIABLE_NAME%`). Например: "Управление переменной окружения `%JAVA_HOME%`".
-
-Для PowerShell добавляйте перед переменной знак доллара, Env и двоеточие, затем заключайте её в обратные кавычки (`$Env:VARIABLE_NAME`). Например: "Управление переменной окружения `$Env:JAVA_HOME`".
-
 При описании форматов файлов используйте преимущественно их названия обычным текстом (например, JSON, SQLite) или расширение файла с точкой в начале, заключенное в обратные кавычки (например, `.txt`).
 
 Если описываемая команда является частью интерактивного режима, упомяните слово "interactive" (интерактивный) в предыдущем примере, который запускает этот режим, и начните описание интерактивных команд с пометки `[Interactive]` (для переводов используйте `[Интерактивно]`).
@@ -371,14 +290,10 @@ tldr --render путь/к/tldr_page.md
 - <https://manpages.debian.org/latest/apt/apt.8.html> вместо <https://manpages.debian.org/bookworm/apt/apt.8.en.html>.
 - <https://docs.aws.amazon.com/cdk/latest/guide/cli.html> вместо <https://docs.aws.amazon.com/cdk/v2/guide/cli.html>.
 
-#### Ссылки на Microsoft Learn
+#### Ссылки с локалями
 
-При ссылке на страницы Microsoft Learn удаляйте из адреса локаль, так как сайт автоматически перенаправит на предпочитаемую локаль читателя. Например, используйте <https://learn.microsoft.com/windows-server/administration/windows-commands/cd> вместо <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/cd>.
-
-Кроме того, если ссылка относится к документации команды PowerShell, удалите **индикатор версии документации** (указывающий версию PowerShell/модуля, из которой взята документация), т.е. часть адреса, которая начинается с `?view=`.
-
-- Используйте <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string> вместо <https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/select-string?view=powershell-7.4>.
-- Используйте <https://learn.microsoft.com/powershell/module/powershellget/install-module> вместо <https://learn.microsoft.com/en-us/powershell/module/powershellget/install-module?view=powershellget-1.x>.
+- При размещении ссылок на веб-сайты, имеющие настройки локали, такие как ссылки Microsoft Learn, удаляйте локаль из адреса, если сайт автоматически перенаправит на предпочитаемую локаль читателя.
+- Например, используйте <https://learn.microsoft.com/windows-server/administration/windows-commands/cd> вместо <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/cd>.
 
 ### Раздел "Смотрите также"
 
@@ -553,6 +468,98 @@ tldr --render путь/к/tldr_page.md
 - Мы обычно размещаем, **в таком порядке**, команды для получения справки и версии в качестве **двух последних** примеров на странице, чтобы выделить более практичные команды в начале. Их можно заменить для размещения других полезных примеров при необходимости.
 - Для единообразия мы предпочитаем общие формулировки `Показать справку` и `Показать версию` для этих команд.
 - Рекомендуется документировать примеры для справки и версии, если команда использует нестандартные флаги на таких платформах, как Windows.
+
+## Специфичные правила для Windows
+
+### Общая структура
+
+При документировании команд PowerShell, пожалуйста, обратите внимание на следующие соглашения об именовании.
+
+- Имя файла должно быть написано в нижнем регистре, например, `invoke-webrequest.md` вместо `Invoke-WebRequest.md`.
+- Заголовок страницы должен быть написан как есть (соответствуя написанию, задуманному Microsoft или автором модуля PowerShell), например, `Invoke-WebRequest` вместо `invoke-webrequest`.
+- Имя команды и опции в примерах также должны быть написаны как есть, например, `Command-Name {{ввод}} -CommandParameter {{значение}}` вместо `command-name {{ввод}} -commandparameter {{значение}}`.
+
+Из-за [различных отличий в совместимости](https://learn.microsoft.com/powershell/scripting/whats-new/differences-from-windows-powershell) и удаленных специфичных для Windows команд в PowerShell 6.x, убедитесь, что команда работает как в **PowerShell 5.1** (также известном как "Legacy Windows PowerShell", установленном в Windows 10 и 11), так и в **последней версии кроссплатформенного PowerShell** (ранее известного как PowerShell Core).
+
+Таким образом, если команда или ее опции недоступны или имеют разное поведение в разных версиях, пожалуйста, отметьте это в описаниях. Например:
+
+```md
+# Clear-RecycleBin
+
+> Очистить элементы из корзины.
+> Примечание: Эта команда может использоваться только в PowerShell версий 5.1 и ниже, или 7.1 и выше.
+> Больше информации: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/clear-recyclebin>.
+```
+
+### Псевдонимы
+
+Некоторые команды PowerShell могут вводить псевдонимы, которые делятся на три категории:
+
+1. **Заменяет существующую команду командной строки Windows (`cmd`)**, например, `cd` является псевдонимом для `Set-Location` с другими опциями. В этом случае добавьте следующее примечание о псевдониме во вторую строку описания оригинальной команды `cmd`, например:
+
+```md
+# cd
+
+> Показать текущий рабочий каталог или перейти в другой.
+> В PowerShell эта команда является псевдонимом для `Set-Location`. Данная документация основана на версии `cd` для командной строки (`cmd`).
+> Больше информации: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
+
+- Посмотреть документацию для эквивалентной команды PowerShell:
+
+`tldr set-location`
+```
+
+> [!NOTE]\
+> Пример "Посмотреть документацию для эквивалентной команды PowerShell" является необязательным и должен быть исключен, если на странице уже достигнуто максимальное количество (8) примеров.
+
+2. **Предоставляет новый псевдоним, но выполняемый только в PowerShell**, например, `ni` для `New-Item`. В этом случае используйте [стандартный шаблон псевдонима](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/translation-templates/alias-pages.md), но добавьте фразу "В PowerShell," (или эквивалент), чтобы указать, что команда эксклюзивна для PowerShell. Например:
+
+```md
+# ni
+
+> В PowerShell эта команда является псевдонимом для `New-Item`.
+> Больше информации: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/new-item>.
+
+- Посмотреть документацию для оригинальной команды:
+
+`tldr new-item`
+```
+
+3. **Предоставляет новый псевдоним, который конфликтует с другими программами**, наиболее известный случай — включение `curl` и `wget` в качестве псевдонимов для `Invoke-WebRequest` (с несовместимым набором опций). Обратите внимание, что системные псевдонимы PowerShell, подпадающие под эту категорию, обычно эксклюзивны для Windows.
+
+В этом случае предоставьте примечание и способ определить, относится ли текущая команда к команде PowerShell (через псевдоним) или к другой. Например:
+
+```md
+# curl
+
+> В PowerShell эта команда может быть псевдонимом для `Invoke-WebRequest`, если оригинальная программа `curl` (<https://curl.se>) не установлена должным образом.
+> Больше информации: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
+
+- Проверить, правильно ли установлен `curl`, выведя номер его версии. Если эта команда приводит к ошибке, PowerShell, возможно, заменил эту команду на `Invoke-WebRequest`:
+
+`curl --version`
+
+- Посмотреть документацию для оригинальной команды `curl`:
+
+`tldr curl -p common`
+
+- Посмотреть документацию для команды PowerShell `Invoke-WebRequest`:
+
+`tldr invoke-webrequest`
+```
+
+### Переменные окружения
+
+Для командной строки Windows добавляйте знак процента в начало и в конец переменной и заключайте её в обратные кавычки (`%VARIABLE_NAME%`). Например: "Управление переменной окружения `%JAVA_HOME%`".
+
+Для PowerShell добавляйте перед переменной знак доллара, Env и двоеточие, затем заключайте её в обратные кавычки (`$Env:VARIABLE_NAME`). Например: "Управление переменной окружения `$Env:JAVA_HOME`".
+
+### Ссылки "Больше информации"
+
+Если ссылка относится к документации команды PowerShell, удалите **индикатор версии документации** (указывающий версию PowerShell/модуля, из которой взята документация), т.е. часть адреса, которая начинается с `?view=`.
+
+- Используйте <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string> вместо <https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/select-string?view=powershell-7.4>.
+- Используйте <https://learn.microsoft.com/powershell/module/powershellget/install-module> вместо <https://learn.microsoft.com/en-us/powershell/module/powershellget/install-module?view=powershellget-1.x>.
 
 ## Правила для языков и переводов
 
