@@ -600,7 +600,7 @@ Do not translate `example.com`. The domain is [reserved by IANA for documentatio
 > [!IMPORTANT]
 > Only translate or update languages you can confidently read and proofread.
 > Avoid machine-generated or bulk edits across languages you do not know.
-> When you change an English page, it is fine to leave other languages untouched; native speakers and maintainers will sync them later via the translation dashboards.
+> When you change an English page, it is fine to leave other languages untouched; native speakers and maintainers will sync them later by referring to the [translation dashboards](https://github.com/tldr-pages/tldr-maintenance/issues/127).
 
 ### English-Specific Rules
 
