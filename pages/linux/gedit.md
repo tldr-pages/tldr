@@ -1,7 +1,7 @@
 # gedit
 
 > Text editor of the GNOME Desktop project.
-> More information: <https://help.gnome.org/users/gedit/stable/>.
+> More information: <https://manned.org/man/gedit>.
 
 - Open a text file:
 
