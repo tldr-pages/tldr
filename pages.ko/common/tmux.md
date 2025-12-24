@@ -1,6 +1,7 @@
 # tmux
 
-> 터미널 멀티플렉서. tmux는 단일 단말기 창 또는 원격 터미널 세션 안에서 여러 세션을 사용할 수 있도록 도와줍니다.
+> 터미널 멀티플렉서.
+> tmux는 단일 단말기 창 또는 원격 터미널 세션 안에서 여러 세션을 사용할 수 있도록 도와줍니다.
 > `zellij` 와 `screen`도 참조하세요.
 > 더 많은 정보: <https://github.com/tmux/tmux>.
 
@@ -10,15 +11,15 @@
 
 - 이름있는 새 세션 시작:
 
-`tmux new -s {{이름}}`
+`tmux {{[new|new-session]}} -s {{이름}}`
 
 - 세션 리스트 출력:
 
-`tmux ls`
+`tmux {{[ls|list-sessions]}}`
 
 - 가장 최근에 사용했던 세션에 접근:
 
-`tmux attach`
+`tmux {{[a|attach]}}`
 
 - 현재 세션에서 나가기 (tmux 세션 안에서 사용):
 
