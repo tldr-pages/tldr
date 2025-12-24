@@ -239,10 +239,6 @@ Avoid explaining general UNIX concepts that could apply to any command (i.e. rel
 
 When describing an environment variable for UNIX platforms, prepend the variable with a dollar sign and enclose it with backticks (`$VARIABLE_NAME`). For example: "Manage the `$JAVA_HOME` environment variable".
 
-For Windows command prompt, prepend and append the environment variable with a percent sign and enclose it with backticks (`%VARIABLE_NAME%`). For example: "Manage the `%JAVA_HOME%` environment variable".
-
-Whereas for Powershell, prepend the environment variable with a dollar sign, Env and a colon, then enclose it with backticks (`$Env:VARIABLE_NAME`). For example: "Manage the `$Env:JAVA_HOME` environment variable".
-
 When describing file formats, primarily use the brand name in plain text (e.g. JSON, SQLite), or use the file extension preceded by a dot, wrapped in backticks (e.g. `.txt`).
 
 If the command that is being described is part of an interactive mode, mention the word "interactive" in a previous example that enters said mode and mark the beginning of the description for the interactive commands with `[Interactive]`.
@@ -555,7 +551,7 @@ but add the word "In PowerShell," (or equivalent) to indicate that the command i
 `tldr new-item`
 ```
 
-**3. Provides a new alias that conflicts with other programs**, most notoriously the inclusion of `curl` and `wget` as aliases of `Invoke-WebRequest` (with a non-compatible set of command options).
+3. **Provides a new alias that conflicts with other programs**, most notoriously the inclusion of `curl` and `wget` as aliases of `Invoke-WebRequest` (with a non-compatible set of command options).
 Note that PowerShell system aliases that fall into this category are commonly exclusive to Windows.
 
 In this case, provide a note and method to determine whether the command currently refers to a PowerShell command (by alias) or others. For example,
@@ -604,7 +600,7 @@ Do not translate `example.com`. The domain is [reserved by IANA for documentatio
 > [!IMPORTANT]
 > Only translate or update languages you can confidently read and proofread.
 > Avoid machine-generated or bulk edits across languages you do not know.
-> When you change an English page, it is fine to leave other languages untouched; native speakers and maintainers will sync them later via the translation dashboards.
+> When you change an English page, it is fine to leave other languages untouched; native speakers and maintainers will sync them later by referring to the [translation dashboards](https://github.com/tldr-pages/tldr-maintenance/issues/127).
 
 ### English-Specific Rules
 
