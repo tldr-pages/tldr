@@ -1,0 +1,7 @@
+# trash
+
+> Moves files and directories to the user trash folder
+
+- Moves the file and directory into the user’s trash folder:
+
+`trash {{path/to/file}} {{path/to/directory}}`
