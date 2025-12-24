@@ -5,32 +5,32 @@
 
 - Lister les conteneurs Docker en cours d'exécution :
 
-`docker ps`
+`docker {{[ps|container ls]}}`
 
 - Lister tous les conteneurs Docker (en cours d'exécution et arrêtés) :
 
-`docker ps {{[-a|--all]}}`
+`docker {{[ps|container ls]}} {{[-a|--all]}}`
 
 - Afficher le dernier conteneur Docker créé (avec tous les états) :
 
-`docker ps {{[-l|--latest]}}`
+`docker {{[ps|container ls]}} {{[-l|--latest]}}`
 
 - Afficher les conteneurs avec une chaine de caractère dans leur nom :
 
-`docker ps {{[-f|--filter]}} "name={{name}}"`
+`docker {{[ps|container ls]}} {{[-f|--filter]}} "name={{name}}"`
 
 - Afficher les conteneurs avec une même image comme parent :
 
-`docker ps {{[-f|--filter]}} "ancestor={{image}}:{{etiquette}}"`
+`docker {{[ps|container ls]}} {{[-f|--filter]}} "ancestor={{image}}:{{etiquette}}"`
 
 - Afficher les conteneurs avec un code de sorti spécifique :
 
-`docker ps {{[-a|--all]}} {{[-f|--filter]}} "exited={{code}}"`
+`docker {{[ps|container ls]}} {{[-a|--all]}} {{[-f|--filter]}} "exited={{code}}"`
 
 - Afficher les conteneurs avec un statut spécifique (créé, en cours d'exécution, en cours de suppresion, en pause, arrêté, mort) :
 
-`docker ps {{[-f|--filter]}} "status={{status}}"`
+`docker {{[ps|container ls]}} {{[-f|--filter]}} "status={{status}}"`
 
 - Afficher les conteneurs avec un point de montage spécifique :
 
-`docker ps {{[-f|--filter]}} "volume={{chemin/vers/le/dossier}}" --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Mounts}}"`
+`docker {{[ps|container ls]}} {{[-f|--filter]}} "volume={{chemin/vers/le/dossier}}" --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Mounts}}"`
