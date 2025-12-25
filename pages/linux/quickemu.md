@@ -21,18 +21,18 @@
 
 `quickemu --sound-card {{intel-hda|ac97|es1370|sb16|none}} --shortcut --vm {{path/to/file.conf}}`
 
-- Create a snapshot:
+- Create/restore/delete a snapshot:
 
-`quickemu --snapshot create {{tag}} --vm {{path/to/file.conf}}`
-
-- Restore a snapshot:
-
-`quickemu --snapshot apply {{tag}} --vm {{path/to/file.conf}}`
+`quickemu --snapshot {{create|apply|delete}} {{tag}} --vm {{path/to/file.conf}}`
 
 - List available snapshots:
 
 `quickemu --snapshot info --vm {{path/to/file.conf}}`
 
-- Delete a snapshot:
+- Delete the entire virtual machine and its configuration:
 
-`quickemu --snapshot delete {{tag}} --vm {{path/to/file.conf}}`
+`quickemu --delete-vm --vm {{path/to/file.conf}}`
+
+- Delete the virtual machine's disk image and EFI variables:
+
+`quickemu --delete-disk --vm {{path/to/file.conf}}`
