@@ -21,7 +21,7 @@
 
 - Führe einen Befehl in einem neuen Container mit eingebundenen Datenträgern aus:
 
-`docker {{[run|container run]}} {{[-v|--volume]}} {{pfad/zu/host_verzeichnis}}:{{pfad/zu/container_verzeichnis}} {{image}} {{befehl}}`
+`docker {{[run|container run]}} {{[-v|--volume]}} /{{pfad/zu/host_verzeichnis}}:/{{pfad/zu/container_verzeichnis}} {{image}} {{befehl}}`
 
 - Führe einen Befehl in einem neuen Container mit veröffentlichten Ports aus:
 
