@@ -1,7 +1,7 @@
 # awk
 
 > Een veelzijdige programmeertaal voor het werken met bestanden.
-> Let op: Verschillende implementaties van AWK maken dit soms een symlink van hun binary.
+> Opmerking: Verschillende implementaties van AWK maken dit soms een symlink van hun binary.
 > Zie ook: `gawk`.
 > Meer informatie: <https://github.com/onetrueawk/awk>.
 
