@@ -11,15 +11,15 @@
 
 - 新しい名前付きセッションを開始する:
 
-`tmux new -s {{セッション名}}`
+`tmux {{[new|new-session]}} -s {{セッション名}}`
 
 - 既存のセッションを一覧表示:
 
-`tmux ls`
+`tmux {{[ls|list-sessions]}}`
 
 - 直近に使用したセッションにアタッチ:
 
-`tmux attach`
+`tmux {{[a|attach]}}`
 
 - 現在のセッションからの切り離し（tmuxセッション内）:
 
