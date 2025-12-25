@@ -1,6 +1,8 @@
 # awk
 
 > Een veelzijdige programmeertaal voor het werken met bestanden.
+> Let op: Different implementations of AWK often make this a symlink of their binary.
+> Zie ook: `gawk`.
 > Meer informatie: <https://github.com/onetrueawk/awk>.
 
 - Toon de vijfde kolom (a.k.a. veld) in een spatie-gescheiden bestand:

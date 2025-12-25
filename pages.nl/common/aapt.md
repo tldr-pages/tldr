@@ -1,7 +1,6 @@
 # aapt
 
-> Android Asset Packaging-tool.
-> Compileer en verpak de bronnen van een Android-app.
+> Android Asset Packaging-tool: compileer en verpak de bronnen van een Android-app.
 > Meer informatie: <https://manned.org/aapt>.
 
 - Maak een lijst van bestanden in een APK-archief:
