@@ -16,7 +16,7 @@
 `pkgz search {{package_name}}`
 
 - Show how many packages are installed per source:
-  
+
 `pkgz info`
 
 - Show where a package is installed or available:
