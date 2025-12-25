@@ -21,7 +21,7 @@
 
 - Exécuter une commande dans un nouveau conteneur avec des volumes montés :
 
-`docker {{[run|container run]}} {{[-v|--volume]}} {{/chemin/vers/l_hote}}:{{chemin/vers/le/conteneur}} {{image}} {{commande}}`
+`docker {{[run|container run]}} {{[-v|--volume]}} /{{chemin/vers/l_hote}}:/{{chemin/vers/le/conteneur}} {{image}} {{commande}}`
 
 - Exécuter une commande dans un nouveau conteneur avec des ports publiés :
 
