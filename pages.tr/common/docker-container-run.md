@@ -21,7 +21,7 @@
 
 - Yeni bir konteynerde bağlama takılı hacimlerle komut çalıştır:
 
-`docker {{[run|container run]}} {{[-v|--volume]}} {{örnek/host}}:{{örnek/konteyner}} {{imge}} {{komut}}`
+`docker {{[run|container run]}} {{[-v|--volume]}} /{{örnek/host}}:/{{örnek/konteyner}} {{imge}} {{komut}}`
 
 - Yayınlanmış portları içeren yeni bir konteynerde komut çalıştır:
 
