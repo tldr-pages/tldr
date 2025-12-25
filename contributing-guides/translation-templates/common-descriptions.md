@@ -8,7 +8,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | en    | Display help                 | Display version           | [Interactive]    |
 |-------|------------------------------|---------------------------|------------------|
 | ar    | عرض المساعدة                 |                           |                  |
-| bn    | সাহায্য প্রদর্শন                    | সংস্করণ দেখুন                  |                  |
+| bn    | সাহায্য প্রদর্শন                    | ভার্সন দেখুন                 | [ইন্টার‌্যাকটিভ]       |
 | bs    |                              |                           |                  |
 | ca    | Mostra ajuda                 | Mostra la versió          |                  |
 | cs    | Zobrazit nápovědu            | Zobrazit verzi            | [Interaktivní]   |
