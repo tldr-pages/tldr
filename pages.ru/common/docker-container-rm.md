@@ -1,8 +1,20 @@
 # docker container rm
 
-> Эта команда — псевдоним для `docker rm`.
+> Удалять контейнеры.
 > Больше информации: <https://docs.docker.com/reference/cli/docker/container/rm/>.
 
-- Смотри документацию для оригинальной команды:
+- Удалить контейнеры:
 
-`tldr docker rm`
+`docker {{[rm|container rm]}} {{контейнер1 контейнер2 ...}}`
+
+- Принудительно удалить контейнер:
+
+`docker {{[rm|container rm]}} {{[-f|--force]}} {{контейнер1 контейнер2 ...}}`
+
+- Удалить контейнер и связанные с ним тома:
+
+`docker {{[rm|container rm]}} {{[-v|--volumes]}} {{контейнер}}`
+
+- Показать справку:
+
+`docker {{[rm|container rm]}} {{[-h|--help]}}`

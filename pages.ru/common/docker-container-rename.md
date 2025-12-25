@@ -1,8 +1,12 @@
 # docker container rename
 
-> Эта команда — псевдоним для `docker rename`.
+> Переименовывать контейнер.
 > Больше информации: <https://docs.docker.com/reference/cli/docker/container/rename/>.
 
-- Смотри документацию для оригинальной команды:
+- Переименовать контейнер:
 
-`tldr docker rename`
+`docker {{[rename|container rename]}} {{контейнер}} {{новое_имя}}`
+
+- Показать справку:
+
+`docker {{[rename|container rename]}} --help`

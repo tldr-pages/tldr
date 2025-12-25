@@ -1,6 +1,7 @@
 # man
 
 > Format and display manual pages.
+> See also: `whatis`, `apropos`.
 > More information: <https://manned.org/man>.
 
 - Display the man page for a command:

@@ -9,7 +9,7 @@
 
 - Toon het netwerkadres van de hostnaam:
 
-`hostname {{[-i|--ip-addresses]}}`
+`hostname {{[-i|--ip-address]}}`
 
 - Toon de FQDN (Fully Qualified Domain Name):
 

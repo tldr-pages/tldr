@@ -11,7 +11,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | en    | path/to/file          | path/to/directory        | path/to/file_or_directory          | package     | username           | password | command | port | value |
 |-------|-----------------------|--------------------------|------------------------------------|-------------|--------------------|----------|---------|------|-------|
 | ar    | path/to/file          | path/to/directory        | path/to/file_or_directory          | package     | username           | password | command | port | value |
-| bn    | ফাইল/এর/পাথ           | ডিরেক্টরি/এর/পাথ          | ফাইল_অথবা_ডিরেক্টরি/এর/পাথ          | প্যাকেজ      | ইউজারনেম           |          |
+| bn    | ফাইল/এর/পাথ           | ডিরেক্টরি/এর/পাথ          | ফাইল_অথবা_ডিরেক্টরি/এর/পাথ          | প্যাকেজ      | ইউজারনেম           | পাসওয়ার্ড | কমান্ড    | পোর্ট  | ভ্যালু    |
 | bs    | put/do/datoteke       | put/do/direktorija       | put/do/datoteke_ili_direktorija    | paket       | korisničko_ime     |          |
 | ca    | camí/al/fitxer        | camí/al/directori        | camí/al/fitxer_o_directori         | paquet      | nom_usuari         |          |
 | cs    | cesta/k/souboru       | cesta/k/adresari         | cesta/k/souboru_ci_adresari        | balíček     | jmeno_uzivatele    |          |

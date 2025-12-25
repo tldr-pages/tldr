@@ -28,9 +28,9 @@
 
 `crane tag {{image}} {{tag}}`
 
-- Kopieer efficiënt een externe image van `src` naar `dst` terwijl de digest-waarde behouden blijft:
+- Kopieer efficiënt een externe image, waarbij de digest-waarde behouden blijft:
 
-`crane copy src dst {{[-a|--all-tags]}}`
+`crane {{[cp|copy]}} {{bron}} {{doel}} {{[-a|--all-tags]}}`
 
 - Verwijder een image-referentie van zijn register:
 

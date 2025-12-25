@@ -22,7 +22,7 @@
 
 - Download de nieuwste versie van een pakket en installeer het globaal:
 
-`npm {{[i|install]}} {{[-g|--global]}} {{pakket_naam}}`
+`npm {{[i|install]}} {{pakket_naam}} {{[-g|--global]}}`
 
 - Verwijder een pakket en haal het uit de lijst van afhankelijkheden in `package.json`:
 
