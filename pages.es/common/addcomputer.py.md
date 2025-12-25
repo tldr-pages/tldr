@@ -5,11 +5,11 @@
 
 - Añade un ordenador con un nombre y una contraseña específicos:
 
-`addcomputer.py -computer-name {{COMPUTER_NAME$}} -computer-pass {{computer_password}} {{dominio}}/{{nombre_usuario}}:{{contraseña}}`
+`addcomputer.py -computer-name {{COMPUTER_NAME$}} -computer-pass {{contraseña_computadora}} {{dominio}}/{{nombre_usuario}}:{{contraseña}}`
 
 - Establece solo una nueva contraseña en un ordenador existente:
 
-`addcomputer.py -no-add -computer-name {{COMPUTER_NAME$}} -computer-pass {{computer_password}} {{dominio}}/{{nombre_usuario}}:{{contraseña}}`
+`addcomputer.py -no-add -computer-name {{COMPUTER_NAME$}} -computer-pass {{contraseña_computadora}} {{dominio}}/{{nombre_usuario}}:{{contraseña}}`
 
 - Elimina una cuenta de ordenador existente:
 
