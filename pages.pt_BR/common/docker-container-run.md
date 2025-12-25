@@ -21,7 +21,7 @@
 
 - Executa um comando em um novo container montando volumes nos caminhos específicos:
 
-`docker {{[run|container run]}} {{[-v|--volume]}} {{caminho/no/host_local}}:{{caminho/no/container}} {{imagem}} {{comando}}`
+`docker {{[run|container run]}} {{[-v|--volume]}} /{{caminho/no/host_local}}:/{{caminho/no/container}} {{imagem}} {{comando}}`
 
 - Executa um comando em um novo container e abre as portas para acesso:
 
