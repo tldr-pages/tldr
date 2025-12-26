@@ -1,7 +1,7 @@
 # rtv
 
 > Reddit 터미널 뷰어.
-> `<ArrowKeys>`로 탐색하세요. `<ArrowRight>``<ArrowLeft>`로 각각 게시물을 보고 돌아갈 수 있습니다.
+> `<ArrowKeys>`로 탐색하세요. `<ArrowRight>`, `<ArrowLeft>`로 각각 게시물을 보고 돌아갈 수 있습니다.
 > 더 많은 정보: <https://github.com/michael-lazar/rtv>.
 
 - 첫 페이지 열기:
