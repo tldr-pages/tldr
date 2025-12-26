@@ -213,7 +213,7 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
 - **Dylan McGivern ([@dmmqz](https://github.com/dmmqz))**:
   [30 June 2025](https://github.com/tldr-pages/tldr/issues/17026) — present
 - **Harshavardhan ([@TheRootDaemon](https://github.com/TheRootDaemon))**:
-  [26 December 2025](https://github.com/tldr-pages/tldr/issues/20285) - present
+  [26 December 2025](https://github.com/tldr-pages/tldr/issues/20285) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
