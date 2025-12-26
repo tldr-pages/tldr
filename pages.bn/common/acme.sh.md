@@ -2,7 +2,7 @@
 
 > এটি একটি শেল স্ক্রিপ্ট, যা ACME ক্লায়েন্ট প্রোটোকল বাস্তবায়ন করে, এটি `certbot`-এর একটি বিকল্প।
 > আরও দেখুন: `acme.sh dns`।
-> আরও তথ্য পাবেন: [https://github.com/acmesh-official/acme.sh#2-just-issue-a-cert](https://github.com/acmesh-official/acme.sh#2-just-issue-a-cert)।
+> আরও তথ্য পাবেন: <https://github.com/acmesh-official/acme.sh#2-just-issue-a-cert>।
 
 - webroot মোড ব্যবহার করে একটি সার্টিফিকেট ইস্যু করুন:
 
