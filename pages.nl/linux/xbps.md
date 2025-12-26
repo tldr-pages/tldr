@@ -1,6 +1,7 @@
 # xbps
 
 > Het X Binary Package System is het pakketbeheer die wordt gebruikt door Void Linux.
+> `xbps` is geen commando, maar een set van commando's.
 > Voor equivalente commando's in andere pakketbeheerders, zie <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > Meer informatie: <https://docs.voidlinux.org/xbps/index.html>.
 

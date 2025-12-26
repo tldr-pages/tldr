@@ -1,6 +1,7 @@
 # dmesg
 
 > Schrijf de kernelberichten naar `stdout`.
+> Zie ook: `journalctl`.
 > Meer informatie: <https://manned.org/dmesg>.
 
 - Toon kernelberichten:

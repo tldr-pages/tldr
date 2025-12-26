@@ -1,6 +1,7 @@
 # pw-cat
 
 > Speel en neem audio-bestanden op via PipeWrite.
+> Zie ook: `wpctl`, `pw-cli`.
 > Meer informatie: <https://docs.pipewire.org/page_man_pw-cat_1.html>.
 
 - Speel een WAV bestand over de standaard target:
