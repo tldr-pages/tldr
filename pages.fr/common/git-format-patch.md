@@ -1,7 +1,7 @@
 # git format-patch
 
 > Préparer des fichiers de correctifs, utiles pour les envoyer par courriel.
-> Voir également `git am`, qui peut appliquer des fichiers de correctifs générés.
+> Voir également: `git am`.
 > Plus d'informations : <https://git-scm.com/docs/git-format-patch>.
 
 - Créer un fichier de correctif `.patch` nommé automatiquement pour tout les commits non poussés :
