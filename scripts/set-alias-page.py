@@ -187,9 +187,9 @@ def set_alias_page(
         and existing_locale_page_content.documentation_command
         == page_content.documentation_command
     ):
-        if (config.inexact):
+        if config.inexact:
             return ""
-        elif (stripped_translation_template == stripped_translation):
+        elif stripped_translation_template == stripped_translation:
             return ""
 
     new_locale_page_content = generate_alias_page_content(
