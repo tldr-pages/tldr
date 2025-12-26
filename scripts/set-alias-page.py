@@ -181,14 +181,14 @@ def set_alias_page(
     stripped_translation = re.sub(r"`tldr .*`", "`tldr `", stripped_translation)
 
     if (
-        stripped_translation_template == stripped_translation
-        and existing_locale_page_content.title == page_content.title
+        existing_locale_page_content.title == page_content.title
         and existing_locale_page_content.original_command
         == page_content.original_command
         and existing_locale_page_content.documentation_command
         == page_content.documentation_command
     ):
-        return ""
+        if config.inexact or stripped_translation_template == stripped_translation:
+            return ""
 
     new_locale_page_content = generate_alias_page_content(
         config.templates[locale],
