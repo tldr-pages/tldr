@@ -181,7 +181,6 @@ def set_alias_page(
     stripped_translation = re.sub(r"`tldr .*`", "`tldr `", stripped_translation)
 
     if (
-        # stripped_translation_template == stripped_translation
         existing_locale_page_content.title == page_content.title
         and existing_locale_page_content.original_command
         == page_content.original_command
