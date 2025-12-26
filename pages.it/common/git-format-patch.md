@@ -1,7 +1,7 @@
 # git format-patch
 
 > Prepara file `.patch`. Utile per l'invio di commit via email.
-> Vedi anche `git am`, che permette di applicare file `.patch`.
+> Vedi anche: `git am`.
 > Maggiori informazioni: <https://git-scm.com/docs/git-format-patch>.
 
 - Crea un file `.patch` (il nome è assegnato automaticamente) con i commit non ancora inviati al repository remoto:
