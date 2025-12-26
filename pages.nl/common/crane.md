@@ -1,7 +1,7 @@
 # crane
 
 > Hulpmiddel voor het beheren van containerimages.
-> Sommige subcommando's zoals `pull`, `push`, `copy`, enz. hebben hun eigen gebruiksdocumentatie.
+> Sommige subcommando's zoals `pull`, `push`, `copy`, etc. hebben hun eigen documentatie.
 > Meer informatie: <https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane.md/>.
 
 - Log in op een register:
