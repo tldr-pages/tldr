@@ -1,6 +1,7 @@
 # head
 
 > Geef het eerste deel van bestanden weer.
+> Zie ook: `tail`.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/head-invocation.html>.
 
 - Toon de eerste 10 regels van een bestand:
