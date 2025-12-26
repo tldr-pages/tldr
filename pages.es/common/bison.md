@@ -17,4 +17,4 @@
 
 - Sea detallista al compilar:
 
-`bison {{[-v|--verbose]}}``
+`bison {{[-v|--verbose]}}`
