@@ -4,4 +4,4 @@
 
 - オリジナルのコマンドのドキュメントを表示する:
 
-`tldr qm disk resize`
+`tldr qm disk`

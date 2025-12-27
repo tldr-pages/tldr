@@ -4,4 +4,4 @@
 
 - Vea la documentación del comando original:
 
-`tldr qm disk import`
+`tldr qm disk`

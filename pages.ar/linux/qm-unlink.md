@@ -4,4 +4,4 @@
 
 - إعرض التوثيقات للأمر الأصلي:
 
-`tldr qm disk unlink`
+`tldr qm disk`

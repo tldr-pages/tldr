@@ -4,4 +4,4 @@
 
 - Veure documentació pel comandament original:
 
-`tldr qm disk move`
+`tldr qm disk`

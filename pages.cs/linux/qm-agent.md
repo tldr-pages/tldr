@@ -4,4 +4,4 @@
 
 - Podívejte se na dokumentaci původního příkazu:
 
-`tldr qm guest cmd`
+`tldr qm guest`

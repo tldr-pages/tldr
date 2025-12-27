@@ -4,4 +4,4 @@
 
 - ເປີດເບິ່ງລາຍລະອຽດຂອງຄຳສັ່ງແບບເຕັມ:
 
-`tldr qm disk unlink`
+`tldr qm disk`

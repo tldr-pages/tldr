@@ -4,4 +4,4 @@
 
 - ເປີດເບິ່ງລາຍລະອຽດຂອງຄຳສັ່ງແບບເຕັມ:
 
-`tldr qm guest cmd`
+`tldr qm guest`

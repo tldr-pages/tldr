@@ -4,4 +4,4 @@
 
 - Asl buyruq uchun hujjatlarni ko'rish:
 
-`tldr qm guest cmd`
+`tldr qm guest`

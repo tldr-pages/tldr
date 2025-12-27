@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr qm disk resize`
+`tldr qm disk`
