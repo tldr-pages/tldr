@@ -10,7 +10,7 @@
 
 - Describe the active receipt rule set:
 
-`aws ses describe-active-receipt-rule-set --generate-cli-skeletion`
+`aws ses describe-active-receipt-rule-set --generate-cli-skeleton`
 
 - Describe a specific receipt rule:
 
