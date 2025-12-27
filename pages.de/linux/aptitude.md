@@ -5,11 +5,11 @@
 
 - Synchronisiere die Paketliste und verfügbaren Versionen. Dieser Command sollte zuerst ausgeführt werden bevor weitere aptitude Commands ausgeführt werden:
 
-`aptitude update`
+`sudo aptitude update`
 
 - Installiere ein neues Paket und seine Abhängigkeiten:
 
-`aptitude install {{paket}}`
+`sudo aptitude install {{paket}}`
 
 - Suche nach einem Paket:
 
@@ -21,16 +21,16 @@
 
 - Entferne ein Paket und alle Abhängigkeiten:
 
-`aptitude remove {{paket}}`
+`sudo aptitude remove {{paket}}`
 
 - Aktualisiere installierte Pakete auf die neusten Versionen:
 
-`aptitude upgrade`
+`sudo aptitude upgrade`
 
 - Aktualisiere installierte Pakete (wie `aptitude upgrade`), inklusive obsoleter Pakete und installiere zusätzliche Pakete um die neuen Paket-Abhängigkeiten zu erfüllen:
 
-`aptitude full-upgrade`
+`sudo aptitude full-upgrade`
 
 - Friere ein installiertes Paket ein und verhindere, dass es automatisch aktualisiert wird:
 
-`aptitude hold '?installed({{paket}})'`
+`sudo aptitude hold '?installed({{paket}})'`

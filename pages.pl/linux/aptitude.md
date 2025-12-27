@@ -5,11 +5,11 @@
 
 - Zaktualizuj listę dostępnych pakietów oraz wersji. Zalecane jest uruchomienie tego polecenia przed innymi poleceniami `aptitude`:
 
-`aptitude update`
+`sudo aptitude update`
 
 - Zainstaluj nowy pakiet i jego zależności:
 
-`aptitude install {{pakiet}}`
+`sudo aptitude install {{pakiet}}`
 
 - Wyszukaj pakiet:
 
@@ -21,16 +21,16 @@
 
 - Usuń pakiet i wszystkie pakiety zależne od niego:
 
-`aptitude remove {{pakiet}}`
+`sudo aptitude remove {{pakiet}}`
 
 - Zaktualizuj zainstalowane pakiety do najnowszej dostępnej wersji:
 
-`aptitude upgrade`
+`sudo aptitude upgrade`
 
 - Zaktualizuj zainstalowane pakiety (jak robi `aptitude upgrade`) włącznie z usunięciem przestarzałych pakietów i instalacją dodatkowych pakietów w celu spełnienia zależności:
 
-`aptitude full-upgrade`
+`sudo aptitude full-upgrade`
 
 - Ustaw zainstalowany pakiet jako wstrzymany, aby zapobiec jego automatycznym aktualizacjom:
 
-`aptitude hold '?installed({{pakiet}})'`
+`sudo aptitude hold '?installed({{pakiet}})'`
