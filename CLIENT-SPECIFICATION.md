@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD007 MD013 MD024-->
 # tldr-pages client specification
 
-**Current Specification Version:** 2.3
+**Current Specification Version:** Unreleased
 
 This document contains the official specification for tldr-pages clients. It is _not_ a specification of the format of the pages themselves - only a specification of how a user should be able to interface with an official client. For a list of previous versions of the specification, see the [changelog section](#changelog) below.
 
@@ -145,8 +145,13 @@ This section defines the algorithm by which a client can decide which page a use
 
 After transparently replacing spaces (` `) with dashes (`-`) and lowercasing the name, clients have several decisions to make:
 
+- Whether to fetch from a client defined user directory or `/usr/share/tldr/tldr.zip`
 - The language of a page to display to a client
 - The platform to display a page from
+
+### Data storage
+
+The client SHOULD first check if the user cache directory used by the client exists. If it does not, `/usr/share/tldr/tldr.zip` should be checked instead.
 
 ### Platform
 
