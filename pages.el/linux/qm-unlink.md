@@ -4,4 +4,4 @@
 
 - Δείτε το εγχειρίδιο της αρχικής εντολής:
 
-`tldr qm disk unlink`
+`tldr qm disk`

@@ -4,4 +4,4 @@
 
 - Podívejte se na dokumentaci původního příkazu:
 
-`tldr qm disk unlink`
+`tldr qm disk`

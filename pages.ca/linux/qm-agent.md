@@ -4,4 +4,4 @@
 
 - Veure documentació pel comandament original:
 
-`tldr qm guest cmd`
+`tldr qm guest`

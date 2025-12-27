@@ -4,4 +4,4 @@
 
 - オリジナルのコマンドのドキュメントを表示する:
 
-`tldr qm guest cmd`
+`tldr qm guest`

@@ -4,4 +4,4 @@
 
 - Asl buyruq uchun hujjatlarni ko'rish:
 
-`tldr qm disk import`
+`tldr qm disk`

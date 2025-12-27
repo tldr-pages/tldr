@@ -4,4 +4,4 @@
 
 - مشاهده مستندات دستور اصلی:
 
-`tldr qm guest cmd`
+`tldr qm guest`

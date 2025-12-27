@@ -4,4 +4,4 @@
 
 - Podívejte se na dokumentaci původního příkazu:
 
-`tldr qm disk resize`
+`tldr qm disk`
