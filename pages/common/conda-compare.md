@@ -17,4 +17,4 @@
 
 - Display help:
 
-`conda create {{[-h|--help]}}`
+`conda compare {{[-h|--help]}}`
