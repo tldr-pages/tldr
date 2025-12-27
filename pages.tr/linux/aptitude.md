@@ -5,11 +5,11 @@
 
 - Kullanılabilir paket ve sürüm listesini senkronize et. Bu, herhangi bir aptitude komutunu uygulamadan önce çalıştırılmalıdır:
 
-`aptitude update`
+`sudo aptitude update`
 
 - Yeni bir paket ve onun bağımlılıklarını kur:
 
-`aptitude install {{paket}}`
+`sudo aptitude install {{paket}}`
 
 - Paket ara:
 
@@ -21,16 +21,16 @@
 
 - Bir paket ve onun bağımlılıklarını kaldır:
 
-`aptitude remove {{paket}}`
+`sudo aptitude remove {{paket}}`
 
 - Yüklü paketleri son kullanılabilir sürümlerine yükselt:
 
-`aptitude upgrade`
+`sudo aptitude upgrade`
 
 - Yüklü paketleri yükle (`aptitude upgrade` gibi), gereksizleri sil ve yeni bağımlılıkları karşılamak üzere ek paketler kur:
 
-`aptitude full-upgrade`
+`sudo aptitude full-upgrade`
 
 - Bir paketin otomatik yükseltilmesini engellemek için onu beklemede tut:
 
-`aptitude hold '?installed({{paket}})'`
+`sudo aptitude hold '?installed({{paket}})'`
