@@ -42,4 +42,4 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | uk    |                              |                           |                  |
 | uz    |                              |                           |                  |
 | zh    |                              | 查看 版本                  |                  |
-| zh_TW |                              |                           |                  |
+| zh_TW | 顯示說明                     | 顯示版本                   | [互動式]          |
