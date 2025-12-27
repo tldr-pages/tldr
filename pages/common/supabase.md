@@ -1,7 +1,7 @@
 # supabase
 
 > Develop, deploy, and manage Supabase projects locally and on the cloud.
-> More information: <https://supabase.com/docs/reference/cli>
+> More information: <https://supabase.com/docs/reference/cli>.
 
 - Log in to Supabase using an access token:
 
