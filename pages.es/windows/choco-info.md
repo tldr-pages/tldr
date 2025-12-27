@@ -9,12 +9,12 @@
 
 - Mostrar información solo para un paquete local:
 
-`choco info {{paquete}} --local-only`
+`choco info {{paquete}} {{[-l|--local-only]}}`
 
 - Especificar una fuente personalizada para recibir información sobre paquetes:
 
-`choco info {{paquete}} --source {{url_fuente|alias}}`
+`choco info {{paquete}} {{[-s|--source]}} {{url_fuente|alias}}`
 
 - Proporcionar un nombre de usuario y una contraseña para la autenticación:
 
-`choco info {{paquete}} --user {{nombre_usuario}} --password {{contraseña}}`
+`choco info {{paquete}} {{[-u|--user]}} {{nombre_usuario}} {{[-p|--password]}} {{contraseña}}`

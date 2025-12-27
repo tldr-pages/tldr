@@ -9,12 +9,12 @@
 
 - Zeige Informationen über ein bestimmtes lokales Paket an:
 
-`choco info {{paket}} --local-only`
+`choco info {{paket}} {{[-l|--local-only]}}`
 
 - Gib eine eigene Quelle an, von der Paket-Informationen abgerufen werden:
 
-`choco info {{paket}} --source {{quell_url|alias}}`
+`choco info {{paket}} {{[-s|--source]}} {{quell_url|alias}}`
 
 - Gib einen Benutzernamen und ein Passwort für die Authentifizierung an:
 
-`choco info {{paket}} --user {{benutzername}} --password {{passwort}}`
+`choco info {{paket}} {{[-u|--user]}} {{benutzername}} {{[-p|--password]}} {{passwort}}`
