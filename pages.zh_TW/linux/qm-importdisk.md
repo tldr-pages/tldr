@@ -4,4 +4,4 @@
 
 - 檢視原命令的文件：
 
-`tldr qm disk import`
+`tldr qm disk`

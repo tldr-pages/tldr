@@ -4,4 +4,4 @@
 
 - Affiche la documentation de la commande originale :
 
-`tldr qm guest cmd`
+`tldr qm guest`

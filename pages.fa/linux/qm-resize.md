@@ -4,4 +4,4 @@
 
 - مشاهده مستندات دستور اصلی:
 
-`tldr qm disk resize`
+`tldr qm disk`

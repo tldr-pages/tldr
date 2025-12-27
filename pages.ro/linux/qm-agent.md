@@ -4,4 +4,4 @@
 
 - Vizualizați documentația pentru comanda originală:
 
-`tldr qm guest cmd`
+`tldr qm guest`

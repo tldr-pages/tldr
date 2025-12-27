@@ -4,4 +4,4 @@
 
 - Veure documentació pel comandament original:
 
-`tldr qm disk resize`
+`tldr qm disk`

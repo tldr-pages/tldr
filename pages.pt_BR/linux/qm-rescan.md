@@ -4,4 +4,4 @@
 
 - Veja documentação sobre o comando original:
 
-`tldr qm disk rescan`
+`tldr qm disk`

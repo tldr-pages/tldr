@@ -4,4 +4,4 @@
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 
-`tldr qm disk import`
+`tldr qm disk`

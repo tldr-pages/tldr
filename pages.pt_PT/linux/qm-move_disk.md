@@ -4,4 +4,4 @@
 
 - Ver documentação do comando original:
 
-`tldr qm disk move`
+`tldr qm disk`
