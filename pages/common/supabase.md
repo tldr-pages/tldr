@@ -2,7 +2,7 @@
 
 > Develop, deploy, and manage Supabase projects locally and on the cloud.
 > Some subcommands such as `db` and `functions` have their own usage documentation.
-> More information: <https://supabase.com/docs/reference/cli/introduction>.
+> More information: https://supabase.com/docs/reference/cli.
 
 - Log in to Supabase using an access token:
 
