@@ -10,7 +10,7 @@
 
 - Descreve os conjuntos ativos de regras:
 
-`aws ses describe-active-receipt-rule-set --generate-cli-skeletion`
+`aws ses describe-active-receipt-rule-set --generate-cli-skeleton`
 
 - Descreve um regra específica de um conjunto de regras:
 
