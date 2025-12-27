@@ -27,9 +27,9 @@
 
 `systemd-ask-password --no-output --keyname {{key_name}} "{{prompt}}"`
 
-- Pass the asked password to another program:
+- Pipe a password to a command, stripping the trailing newline:
 
-`systemd-ask-password | {{command}}`
+`systemd-ask-password -n | {{command}}`
 
 - Display help:
 
