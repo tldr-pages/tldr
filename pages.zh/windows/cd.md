@@ -1,7 +1,7 @@
 # cd
 
 > 显示当前工作目录或移动到其他工作目录。
-> 在 PowerShell 中，此命令是“Set-Location”的别名。本文档基于的是命令提示符（cmd）版本的 。
+> 在 PowerShell 中，此命令是“Set-Location”的别名。本文档基于的是命令提示符（cmd）版本的。
 > 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/cd>。
 
 - 原命令的文档在：
