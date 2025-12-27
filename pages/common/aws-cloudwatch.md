@@ -25,7 +25,7 @@
 
 - Delete the specified alarms:
 
-`aws cloudwatch delete-alarms --alarm_names {{alarm_names}}`
+`aws cloudwatch delete-alarms --alarm-names {{alarm_names}}`
 
 - Delete the specified dashboards:
 
