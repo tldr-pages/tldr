@@ -5,20 +5,20 @@
 
 - Exibe estatísticas atualizadas de todos os containers em execução:
 
-`docker stats`
+`docker {{[stats|container stats]}}`
 
 - Exibe estatísticas atualizadas de uma lista separada por espaço dos containers:
 
-`docker stats {{nome_do_container}}`
+`docker {{[stats|container stats]}} {{nome_do_container}}`
 
 - Altera o formato das colunas para exibir o uso da CPU em porcentagem:
 
-`docker stats --format "{{.Name}}:\t{{.CPUPerc}}"`
+`docker {{[stats|container stats]}} --format "{{.Name}}:\t{{.CPUPerc}}"`
 
 - Exibe estatísticas para todos os containers (tanto em execução como parados):
 
-`docker stats {{[-a|--all]}}`
+`docker {{[stats|container stats]}} {{[-a|--all]}}`
 
 - Desabilita estatísticas atualizadas e só exibe o status naquele momento:
 
-`docker stats --no-stream`
+`docker {{[stats|container stats]}} --no-stream`
