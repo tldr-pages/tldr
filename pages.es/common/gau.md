@@ -21,7 +21,7 @@
 
 - Busca las URLs de un solo proveedor específico:
 
-`gau --providers {{wayback|commoncrawl|otx|urlscan}} {{ejemplo.com}}`
+`gau --providers {{wayback|commoncrawl|otx|urlscan}} {{example.com}}`
 
 - Busca las URLs de varios proveedores:
 
