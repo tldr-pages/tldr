@@ -145,13 +145,8 @@ This section defines the algorithm by which a client can decide which page a use
 
 After transparently replacing spaces (` `) with dashes (`-`) and lowercasing the name, clients have several decisions to make:
 
-- Whether to fetch from a client defined user directory or `/usr/share/tldr/tldr.zip`
 - The language of a page to display to a client
 - The platform to display a page from
-
-### Data storage
-
-The client SHOULD first check if the user cache directory used by the client exists. If it does not, `/usr/share/tldr/tldr.zip` should be checked instead.
 
 ### Platform
 
@@ -238,6 +233,8 @@ Step  | Path checked         | Outcome
 ## Caching
 
 If appropriate, it is RECOMMENDED that clients implement a cache of pages. If implemented, clients MUST download the entire archive either as a whole from **<https://github.com/tldr-pages/tldr/releases/latest/download/tldr.zip>** or download language-specific archives in the format `https://github.com/tldr-pages/tldr/releases/latest/download/tldr-pages.{{language-code}}.zip` (e.g. **<https://github.com/tldr-pages/tldr/releases/latest/download/tldr-pages.en.zip>**). The English archive is also available from **<https://github.com/tldr-pages/tldr/releases/latest/download/tldr-pages.zip>**.
+
+System-wide cache should be placed in `/usr/share/tldr/tldr.zip`. The user generated cache should be prioritized, with the system-wide cache being checked only on a cache miss.
 
 > [!CAUTION]
 > Prior to version 2.2, the client specification stated that clients MUST download archives from <https://tldr.sh/assets>. This method is now deprecated, and **_will be removed_** in December 2025.
