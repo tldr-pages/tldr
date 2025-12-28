@@ -176,7 +176,7 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [17 August 2025](https://github.com/tldr-pages/tldr/issues/17708) — [26 December 2025](https://github.com/tldr-pages/tldr/issues/20285)
 - Ivan Baluta ([@ivanbaluta](https://github.com/ivanbaluta)):
   [03 November 2025](https://github.com/tldr-pages/tldr/issues/19176) — [28 December 2025](https://github.com/tldr-pages/tldr/issues/20284)
-- **Adriano Inghingolo ([@SpikeTheDragon40k](https://github.com/SpikeTheDragon40k))**:
+- Adriano Inghingolo ([@SpikeTheDragon40k](https://github.com/SpikeTheDragon40k)):
   [22 August 2025](https://github.com/tldr-pages/tldr/issues/17772) — [28 December 2025](https://github.com/tldr-pages/tldr/issues/20286)
   
 ## Organization members
