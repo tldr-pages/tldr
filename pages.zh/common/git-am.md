@@ -10,7 +10,7 @@
 
 - 应用远程补丁文件并提交更改：
 
-`curl {{[-L|--location]}} {{https://example.com/file.patch}} | git apply`
+`curl {{[-L|--location]}} {{https://example.com/file.patch}} | git am`
 
 - 中止应用补丁文件的过程：
 
