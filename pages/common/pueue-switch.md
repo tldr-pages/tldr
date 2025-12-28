@@ -1,6 +1,6 @@
 # pueue switch
 
-> Switches the queue position of two enqueued or stashed commands.
+> Switch the queue position of two enqueued or stashed commands.
 > More information: <https://github.com/Nukesor/pueue#how-to-use-it>.
 
 - Switch the priority of two tasks:
