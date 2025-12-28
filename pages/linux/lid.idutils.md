@@ -1,7 +1,7 @@
 # lid
 
 > Query an ID database for tokens matching a pattern.
-> An ID database must first be built using `mkid`.
+> Note: An ID database must first be built using `mkid`.
 > More information: <https://www.gnu.org/software/idutils/manual/html_node/lid-invocation.html>.
 
 - List all tokens and their file locations in the ID database:
