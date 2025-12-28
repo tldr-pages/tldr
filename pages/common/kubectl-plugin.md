@@ -13,4 +13,4 @@
 
 - Display help:
 
-`kubectl plugin --help`
+`kubectl plugin {{[-h|--help]}}`
