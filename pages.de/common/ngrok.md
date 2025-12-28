@@ -9,7 +9,7 @@
 
 - Veröffentliche einen lokalen HTTP-Service auf einem bestimmten Host:
 
-`ngrok http {{beispiel.dev}}:{{80}}`
+`ngrok http {{example.com}}:{{80}}`
 
 - Veröffentliche einen lokalen HTTPS-Server:
 
@@ -21,4 +21,4 @@
 
 - Veröffentliche den TLS-Traffic für einen bestimmten Host und Port:
 
-`ngrok tls -hostname={{beispiel.de}} {{443}}`
+`ngrok tls -hostname={{example.com}} {{443}}`

@@ -21,7 +21,7 @@
 
 - Installiere ein Paket von einer URL:
 
-`nix-env -i {{paket_name}} --file {{beispiel.com}}`
+`nix-env -i {{paket_name}} --file {{example.com}}`
 
 - Deinstalliere ein Paket:
 
