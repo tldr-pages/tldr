@@ -21,4 +21,4 @@
 
 - Delete a connection pool for a database:
 
-`doctl {{[d|databases]}} {{[p|pool]}} {{[c|create]}} {{database_id}} {{pool_name}}`
+`doctl {{[d|databases]}} {{[p|pool]}} {{[rm|delete]}} {{database_id}} {{pool_name}}`
