@@ -35,3 +35,7 @@
 - E[x]tract files matching a pattern from an archive [f]ile:
 
 `tar xf {{path/to/source.tar}} --wildcards "{{*.html}}"`
+
+- Create a compressed archive excluding a directory:
+  tar --exclude=directory_to_exclude -czf archive.tar.gz directory_to_archive
+
