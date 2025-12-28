@@ -4,4 +4,4 @@
 
 - Δείτε το εγχειρίδιο της αρχικής εντολής:
 
-`tldr qm disk resize`
+`tldr qm disk`

@@ -4,4 +4,4 @@
 
 - Veure documentació pel comandament original:
 
-`tldr qm disk import`
+`tldr qm disk`

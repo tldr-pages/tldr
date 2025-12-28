@@ -11,14 +11,14 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | en    | path/to/file          | path/to/directory        | path/to/file_or_directory          | package     | username           | password | command | port | value |
 |-------|-----------------------|--------------------------|------------------------------------|-------------|--------------------|----------|---------|------|-------|
 | ar    | path/to/file          | path/to/directory        | path/to/file_or_directory          | package     | username           | password | command | port | value |
-| bn    | ফাইল/এর/পাথ           | ডিরেক্টরি/এর/পাথ          | ফাইল_অথবা_ডিরেক্টরি/এর/পাথ          | প্যাকেজ      | ইউজারনেম           |          |
+| bn    | ফাইল/এর/পাথ           | ডিরেক্টরি/এর/পাথ          | ফাইল_অথবা_ডিরেক্টরি/এর/পাথ          | প্যাকেজ      | ইউজারনেম           | পাসওয়ার্ড | কমান্ড    | পোর্ট  | ভ্যালু    |
 | bs    | put/do/datoteke       | put/do/direktorija       | put/do/datoteke_ili_direktorija    | paket       | korisničko_ime     |          |
 | ca    | camí/al/fitxer        | camí/al/directori        | camí/al/fitxer_o_directori         | paquet      | nom_usuari         |          |
 | cs    | cesta/k/souboru       | cesta/k/adresari         | cesta/k/souboru_ci_adresari        | balíček     | jmeno_uzivatele    |          |
 | da    | sti/til/fil           | sti/til/mappe            | sti/til/fil_eller_mappe            | pakke       | brugernavn         |          |
 | de    | pfad/zu/datei         | pfad/zu/verzeichnis      | pfad/zu/datei_oder_verzeichnis     | paket       | benutzername       |          |
 | el    | διαδρομή/προς/αρχείο  | διαδρομή/προς/κατάλογο   | διαδρομή/προς/αρχείο_ή_κατάλογο    | πακέτο      | όνομα_χρήστη       | κωδικός_πρόσβασης   |
-| es    | ruta/al/archivo       | ruta/al/directorio       | ruta/al/archivo_o_directorio       | paquete     | usuario            |          |
+| es    | ruta/al/archivo       | ruta/al/directorio       | ruta/al/archivo_o_directorio       | paquete     | usuario            | contraseña | comando | puerto | valor |
 | fa    | path/to/file          | path/to/directory        | path/to/file_or_directory          | package     | username           | password | command | port | value |
 | fi    | polku/tiedostoon      | polku/hakemistoon        | polku/tiedostoon_tai_hakemistoon   | paketti     | käyttäjätunnus     | salasana | komento | portti | arvo |
 | fr    | chemin/vers/fichier   | chemin/vers/dossier      | chemin/vers/fichier_ou_dossier     | paquet      | nom_d_utilisateur  |          |
@@ -40,7 +40,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | sr    | put/do/datoteke       | put/do/direktorijuma     | put/do/datoteke_ili_direktorijuma  | paket       | korisničko_ime     |          |
 | sv    | sökväg/till/fil       | sökväg/till/katalog      | sökväg/till/fil_eller_katalog      | paket       | användarnamn       |          |
 | ta    | கோப்பு/பாதை            | அடைவிற்குப்/பாதை           | கோப்பு_அல்லது_அடைவு/பாதை             | நிரல்தொகுப்பு | பயனர்ப்பெயர்          |          |
-| th    | ทาง/ไป/ไฟล์            | ทาง/ไป/สารบบ             | ทาง/ไป/สารบบหรือไฟล์                 | แพคเกจ      | ชื่อผู้ใช้              |          |
+| th    | ทาง/ไป/ไฟล์             | ทาง/ไป/สารบบ               | ทาง/ไป/สารบบหรือไฟล์                 | แพ็กเกจ       | ชื่อผู้ใช้           | รหัสผ่าน          | คำสั่ง    | พอร์ต  | ค่า      |
 | tr    | dosya/yolu            | dizin/yolu               | dosya_veya_dizin/yolu              | paket       | kullanıcı_adı      |          |
 | uk    | шлях/до/файлу         | шлях/до/директорії       | шлях/до/файлу_чи_директорії        | пакунок     | ім'я_користувача   |          |
 | uz    | faylga/yo'l           | katalogga/yo'l           | faylga_yo'l_yoki_katalogga_yo'l    | paket       | foydalanuvchi_nomi |          |

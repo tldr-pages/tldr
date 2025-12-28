@@ -4,4 +4,4 @@
 
 - ເປີດເບິ່ງລາຍລະອຽດຂອງຄຳສັ່ງແບບເຕັມ:
 
-`tldr qm disk move`
+`tldr qm disk`

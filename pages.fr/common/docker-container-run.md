@@ -5,32 +5,32 @@
 
 - Exécute une commande dans un nouveau conteneur Docker avec une image étiquetée :
 
-`docker run {{image:étiquette}} {{commande}}`
+`docker {{[run|container run]}} {{image:étiquette}} {{commande}}`
 
 - Exécute une commande dans un nouveau conteneur Docker en mode détaché (en arrière-plan) et affiche l'ID du conteneur :
 
-`docker run {{[-d|--detach]}} {{image}} {{commande}}`
+`docker {{[run|container run]}} {{[-d|--detach]}} {{image}} {{commande}}`
 
 - Exécute une command dans un conteneur éphémère avec une mode interactif et un terminal pseudo-TTY :
 
-`docker run --rm {{[-it|--interactive --tty]}} {{image}} {{commande}}`
+`docker {{[run|container run]}} --rm {{[-it|--interactive --tty]}} {{image}} {{commande}}`
 
 - Exécute une commande dans un nouveau conteneur avec des variables d'environnement :
 
-`docker run {{[-e|--env]}} '{{variable}}={{valeur}}' {{[-e|--env]}} {{variable}} {{image}} {{commande}}`
+`docker {{[run|container run]}} {{[-e|--env]}} '{{variable}}={{valeur}}' {{[-e|--env]}} {{variable}} {{image}} {{commande}}`
 
 - Exécute une commande dans un nouveau conteneur avec des volumes montés :
 
-`docker run {{[-v|--volume]}} {{/chemin/vers/l_hôte}}:{{chemin/vers/le/conteneur}} {{image}} {{commande}}`
+`docker {{[run|container run]}} {{[-v|--volume]}} /{{chemin/vers/l_hôte}}:/{{chemin/vers/le/conteneur}} {{image}} {{commande}}`
 
 - Exécute une commande dans un nouveau conteneur avec des ports publiés :
 
-`docker run {{[-p|--publish]}} {{port_de_l_hôte}}:{{port_du_conteneur}} {{image}} {{commande}}`
+`docker {{[run|container run]}} {{[-p|--publish]}} {{port_de_l_hôte}}:{{port_du_conteneur}} {{image}} {{commande}}`
 
 - Exécute une commande dans un nouveau conteneur en écrasant l'entrée du point d'entrée de l'image :
 
-`docker run --entrypoint {{commande}} {{image}}`
+`docker {{[run|container run]}} --entrypoint {{commande}} {{image}}`
 
 - Exécute une commande dans un nouveau conteneur en le connectant à un réseau :
 
-`docker run --network {{reseau}} {{image}}`
+`docker {{[run|container run]}} --network {{reseau}} {{image}}`

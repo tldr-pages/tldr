@@ -4,4 +4,4 @@
 
 - オリジナルのコマンドのドキュメントを表示する:
 
-`tldr qm disk move`
+`tldr qm disk`

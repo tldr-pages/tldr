@@ -4,4 +4,4 @@
 
 - মূল কমান্ডের ডকুমেন্টেশন দেখুন:
 
-`tldr qm disk resize`
+`tldr qm disk`

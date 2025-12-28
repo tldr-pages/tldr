@@ -1,6 +1,7 @@
 # chgrp
 
 > Verander beheerdersgroep van bestanden en mappen.
+> Zie ook: `chown`.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/chgrp-invocation.html>.
 
 - Verander beheerdergroep van een bestand of map:

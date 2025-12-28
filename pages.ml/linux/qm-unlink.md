@@ -4,4 +4,4 @@
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
 
-`tldr qm disk unlink`
+`tldr qm disk`

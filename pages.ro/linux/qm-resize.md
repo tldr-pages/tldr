@@ -4,4 +4,4 @@
 
 - Vizualizați documentația pentru comanda originală:
 
-`tldr qm disk resize`
+`tldr qm disk`

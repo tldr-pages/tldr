@@ -241,7 +241,7 @@ MSG_IS_COPY='The page `%s` seems to be a copy of `%s` (%d%% matching).\n'
 MSG_NOT_DIR='The file `%s` does not look like a directory.\n'
 MSG_NOT_FILE='The file `%s` does not look like a regular file.\n'
 MSG_NOT_MD='The file `%s` does not have a `.md` extension.\n'
-MSG_MORE_INFO='The page `%s` has a more info link that does not match the one in the English page or the template. Please check the "More information:" translation as well using https://github.com/tldr-pages/tldr/blob/main/contributing-guides/translation-templates/more-info-link.md.\n'
+MSG_MORE_INFO='The page `%s` has a more info link that does not match the one in the English page or the template. Please check the "More information:" translation as well using https://github.com/tldr-pages/tldr/blob/main/contributing-guides/translation-templates/more-info-link.md or run scripts/set-more-info-link.py -S.\n'
 MSG_PAGE_TITLE='The page `%s` has a page title that does not match the one in the English page.\n'
 
 PLATFORMS=$(ls pages/)

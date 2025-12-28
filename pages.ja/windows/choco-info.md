@@ -9,12 +9,12 @@
 
 - ローカルパッケージ情報のみを表示します:
 
-`choco info {{パッケージ}} --local-only`
+`choco info {{パッケージ}} {{[-l|--local-only]}}`
 
 - パッケージ情報を受信するカスタムソースを指定します:
 
-`choco info {{パッケージ}} --source {{ソースURL|エイリアス}}`
+`choco info {{パッケージ}} {{[-s|--source]}} {{ソースURL|エイリアス}}`
 
 - 認証用のユーザー名とパスワードを入力します:
 
-`choco info {{パッケージ}} --user {{ユーザー名}} --password {{パスワード}}`
+`choco info {{パッケージ}} {{[-u|--user]}} {{ユーザー名}} {{[-p|--password]}} {{パスワード}}`

@@ -1,7 +1,7 @@
 # alien
 
 > Convierte diferentes paquetes de instalación a otros formatos.
-> Vea también: `debtap`, para la conversión de `.deb` en Arch Linux.
+> Vea también: `debtap`.
 > Más información: <https://manned.org/alien>.
 
 - Convierte un archivo de instalación específico al formato Debian (extensión `.deb`):

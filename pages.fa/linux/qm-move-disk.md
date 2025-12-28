@@ -4,4 +4,4 @@
 
 - مشاهده مستندات دستور اصلی:
 
-`tldr qm disk move`
+`tldr qm disk`

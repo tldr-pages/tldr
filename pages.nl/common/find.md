@@ -1,6 +1,7 @@
 # find
 
 > Vind bestanden of mappen onder een mappenboom, recursief.
+> Zie ook: `fd`.
 > Meer informatie: <https://manned.org/find>.
 
 - Vind bestanden op basis van extensie:

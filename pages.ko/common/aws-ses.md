@@ -10,7 +10,7 @@
 
 - 활성 수신 규칙 세트 정보를 표시:
 
-`aws ses describe-active-receipt-rule-set --generate-cli-skeletion`
+`aws ses describe-active-receipt-rule-set --generate-cli-skeleton`
 
 - 특정 수신 규칙 정보를 표시:
 

@@ -4,4 +4,4 @@
 
 - Δείτε το εγχειρίδιο της αρχικής εντολής:
 
-`tldr qm guest cmd`
+`tldr qm guest`

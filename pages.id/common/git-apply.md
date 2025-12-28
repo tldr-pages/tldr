@@ -1,7 +1,7 @@
 # git apply
 
 > Gunakan perubahan dari file deskripsi perubahan (patch) kepada indeks perubahan tanpa mencatat sebuah komit.
-> Lihat juga `git am`, yang sama-sama menggunakan perubahan dari file patch namun juga mencatatnya ke dalam sebuah komit baru.
+> Lihat juga: `git am`.
 > Informasi lebih lanjut: <https://git-scm.com/docs/git-apply>.
 
 - Tampilkan informasi lengkap (mode verbose) atas proses perubahan yang sedang dilakukan:

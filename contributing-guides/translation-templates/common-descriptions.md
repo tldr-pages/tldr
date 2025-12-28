@@ -7,15 +7,15 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 
 | en    | Display help                 | Display version           | [Interactive]    |
 |-------|------------------------------|---------------------------|------------------|
-| ar    | عرض المساعدة                 |                           |                  |
-| bn    | সাহায্য প্রদর্শন                    | সংস্করণ দেখুন                  |                  |
+| ar    | عرض المساعدة                 |عرض الإصدار| [تفاعلية]|
+| bn    | সাহায্য প্রদর্শন                    | ভার্সন দেখুন                 | [ইন্টার‌্যাকটিভ]       |
 | bs    |                              |                           |                  |
 | ca    | Mostra ajuda                 | Mostra la versió          |                  |
-| cs    |                              |                           |                  |
+| cs    | Zobrazit nápovědu            | Zobrazit verzi            | [Interaktivní]   |
 | da    | Vis hjælp                    | Vis version               |                  |
 | de    | Zeige Hilfe an               | Zeige Version an          |                  |
 | el    | Εμφάνιση Βοήθειας            | Εμφάνιση Έκδοσης          |                  |
-| es    | Muestra ayuda                | Muestra versión           |                  |
+| es    | Muestra la ayuda                | Muestra la versión           | [Interactivo]    |
 | fa    | نمایش راهنما                 |                           |                  |
 | fi    | Näytä ohje                   | Näytä versio              | [Interaktiotila] |
 | fr    | Affiche l'aide               | Affiche la version        |                  |
@@ -37,7 +37,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | sr    | Prikazuje opštu pomoć        | Proverava verziju         |                  |
 | sv    |                              |                           |                  |
 | ta    | உதவியைக் காட்டு                | பதிப்பைக் காட்டு               | [ஊடாடும் கட்டளை]  |
-| th    |                              |                           |                  |
+| th    | แสดงวิธีใช้งาน                     | แสดงเวอร์ชัน                  | [อินเทอร์แอคทีฟ]      |
 | tr    |                              |                           |                  |
 | uk    |                              |                           |                  |
 | uz    |                              |                           |                  |

@@ -1,6 +1,7 @@
 # man
 
 > Formatteer en toon handleidingen.
+> Zie ook: `whatis`, `apropos`.
 > Meer informatie: <https://manned.org/man>.
 
 - Toon de handleiding voor een commando:
