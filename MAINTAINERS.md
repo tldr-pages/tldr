@@ -98,8 +98,6 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [10 September 2025](https://github.com/tldr-pages/tldr/issues/18069) — present
 - **Sadeed Waseem ([@sadeeed](https://github.com/Sadeeed))**:
   [04 October 2025](https://github.com/tldr-pages/tldr/issues/18393) — present
-- **Ivan Baluta ([@ivanbaluta](https://github.com/ivanbaluta))**:
-  [03 November 2025](https://github.com/tldr-pages/tldr/issues/19176) — present
 - **Sahil Afrid Farookhi ([@msaf9](https://github.com/msaf9))**:
   [04 November 2025](https://github.com/tldr-pages/tldr/issues/19189) — present
 - **Meinard Francisco ([@znarfm](https://github.com/znarfm))**:
@@ -178,6 +176,8 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [9 March 2021](https://github.com/tldr-pages/tldr/issues/5390) — [9 April 2021](https://github.com/tldr-pages/tldr/issues/5722), [20 November 2023](https://github.com/tldr-pages/tldr/issues/11381) — [12 July 2025](https://github.com/tldr-pages/tldr/issues/17214)
 - Harshavardhan ([@TheRootDaemon](https://github.com/TheRootDaemon)):
   [17 August 2025](https://github.com/tldr-pages/tldr/issues/17708) — [26 December 2025](https://github.com/tldr-pages/tldr/issues/20285)
+- Ivan Baluta ([@ivanbaluta](https://github.com/ivanbaluta)):
+  [03 November 2025](https://github.com/tldr-pages/tldr/issues/19176) — [28 December 2025](https://github.com/tldr-pages/tldr/issues/20284)
 
 ## Organization members
 
@@ -214,6 +214,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [30 June 2025](https://github.com/tldr-pages/tldr/issues/17026) — present
 - **Harshavardhan ([@TheRootDaemon](https://github.com/TheRootDaemon))**:
   [26 December 2025](https://github.com/tldr-pages/tldr/issues/20285) — present
+- **Ivan Baluta ([@ivanbaluta](https://github.com/ivanbaluta))**:
+  [28 December 2025](https://github.com/tldr-pages/tldr/issues/20284)  
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
