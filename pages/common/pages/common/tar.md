@@ -12,6 +12,10 @@
 
 `tar czf {{path/to/target.tar.gz}} {{path/to/file1 path/to/file2 ...}}`
 
+- [c]reate a g[z]ipped (compressed) archive from a directory using relative paths:
+
+`tar czf {{path/to/target.tar.gz}} {{[-C|--directory]}} {{path/to/directory}} .`
+
 - E[x]tract a (compressed) archive [f]ile into the current directory [v]erbosely:
 
 `tar xvf {{path/to/source.tar[.gz|.bz2|.xz]}}`
@@ -27,11 +31,3 @@
 - Lis[t] the contents of a tar [f]ile [v]erbosely:
 
 `tar tvf {{path/to/source.tar}}`
-
-- E[x]tract files matching a pattern from an archive [f]ile:
-
-`tar xf {{path/to/source.tar}} --wildcards "{{*.html}}"`
-
-- Create a compressed archive excluding a directory:
-
-`tar --exclude={{directory_to_exclude}} -czf {{archive.tar.gz}} {{directory_to_archive}}`
