@@ -17,15 +17,15 @@
 
 - Voer een commando uit in een nieuwe container met doorgegeven omgevingsvariabelen:
 
-`docker {{[run|container run]}} {{[-e|--env]}} '{{variable}}={{value}}' {{[-e|--env]}} {{variable}} {{image}} {{commando}}`
+`docker {{[run|container run]}} {{[-e|--env]}} '{{variabele}}={{waarde}}' {{[-e|--env]}} {{variabele}} {{image}} {{commando}}`
 
 - Voer een commando uit in een nieuwe container met gebonden volumes:
 
-`docker {{[run|container run]}} {{[-v|--volume]}} /{{path/to/host_path}}:/{{path/to/container_path}} {{image}} {{commando}}`
+`docker {{[run|container run]}} {{[-v|--volume]}} /{{pad/naar/host_pad}}:/{{pad/naar/container_pad}} {{image}} {{commando}}`
 
 - Voer een commando uit in een nieuwe container met gepubliceerde poorten:
 
-`docker {{[run|container run]}} {{[-p|--publish]}} {{host_port}}:{{container_port}} {{image}} {{commando}}`
+`docker {{[run|container run]}} {{[-p|--publish]}} {{host_poort}}:{{container_poort}} {{image}} {{commando}}`
 
 - Voer een commando uit in een nieuwe container en overschrijf het beginpunt van de image:
 

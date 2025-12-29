@@ -18,7 +18,7 @@
 
 - Update het geheugenlimiet in [M]egabytes voor een specifieke container:
 
-`docker {{[update|container update]}} {{[-m|--memory]}} {{limit}}M {{container_naam}}`
+`docker {{[update|container update]}} {{[-m|--memory]}} {{limiet}}M {{container_naam}}`
 
 - Update het maximum aantal proces-ID's dat is toegestaan in een specifieke container (gebruik `-1` voor onbeperkt):
 
@@ -26,4 +26,4 @@
 
 - Update de hoeveelheid geheugen in [M]egabytes die een specifieke container naar schijf mag swappen (gebruik `-1` voor onbeperkt):
 
-`docker {{[update|container update]}} --memory-swap {{limit}}M {{container_naam}}`
+`docker {{[update|container update]}} --memory-swap {{limiet}}M {{container_naam}}`
