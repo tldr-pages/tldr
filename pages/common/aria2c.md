@@ -14,7 +14,7 @@
 
 - Download multiple different files in parallel:
 
-`aria2c {{[-Z|--force-sequential]}} {{false}} "{{url1 url2 ...}}"`
+`aria2c {{[-Z|--force-sequential=true]}} "{{url1 url2 ...}}"`
 
 - Download the same file from different mirrors and verify the checksum of the downloaded file:
 
