@@ -1,7 +1,7 @@
 # ani-cli
 
 > Blader door anime en bekijk ze.
-> Zie ook: `animedl`.
+> Zie ook: `animdl`.
 > Meer informatie: <https://manned.org/ani-cli>.
 
 - Zoek naar anime op naam:
