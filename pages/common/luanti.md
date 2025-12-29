@@ -19,6 +19,14 @@
 
 `luanti --server`
 
+- Start a server with a specific world:
+
+`minetestserver --world {{world_name}}`
+
+- Start a server in a specific port:
+
+`minetestserver --port {{port}}`
+
 - Write logs to a specific file:
 
 `luanti --logfile {{path/to/file}}`
