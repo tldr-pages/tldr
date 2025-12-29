@@ -1,7 +1,7 @@
 # adb shell pm
 
 > Strumento Android pacchetto Manager.
-> Maggiori informazioni: <https://developer.android.com/tools/adb>[attached_file:1].
+> Maggiori informazioni: <https://developer.android.com/tools/adb>.
 
 - Elenca i pacchetti installati:
 
