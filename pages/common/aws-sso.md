@@ -21,4 +21,4 @@
 
 - Retrieve short-term credentials for a specific account:
 
-`aws get-role-credentials --account-id {{account}} --role-name {{role}} --access-token {{token}}`
+`aws sso get-role-credentials --account-id {{account}} --role-name {{role}} --access-token {{token}}`

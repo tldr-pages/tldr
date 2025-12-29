@@ -21,4 +21,4 @@
 
 - 특정 계정에 대한 단기 자격 증명 검색:
 
-`aws get-role-credentials --account-id {{계정}} --role-name {{역할}} --access-token {{토큰}}`
+`aws sso get-role-credentials --account-id {{계정}} --role-name {{역할}} --access-token {{토큰}}`
