@@ -1,25 +1,30 @@
 # autojump
 
-> Salta velocemente tra le directory che usi più spesso.
-> Alias come `j` o `jc` sono disponibili per una maggiore velocità di scrittura.
+> Salta velocemente tra le directory che visiti più spesso.
+> Alias come `j` o `jc` sono disponibili per una digitazione ancora più veloce.
+> Vedi anche: `bashmarks`.
 > Maggiori informazioni: <https://github.com/wting/autojump#name>.
 
-- Muoviti in una directory il cui nome contiene una parola chiave:
+- Aggiungi gli alias `autojump` al tuo shell:
 
-`j {{parola_chiave}}`
+`source /usr/share/autojump/autojump.{{bash|fish|zsh}}`
 
-- Salta in una sotto-directory della directory corrente il quale nome contiene una parola chiave:
+- Salta in una directory che contiene il pattern specificato:
 
-`jc {{parola_chiave}}`
+`j {{pattern}}`
 
-- Apri una directory il cui nome contiene una parola chiave nel gestore file di sistema:
+- Salta in una sotto-directory (figlia) della directory corrente che contiene il pattern specificato:
 
-`jo {{parola_chiave}}`
+`jc {{pattern}}`
 
-- Rimuovi directory non esistenti dal database di `autojump`:
+- Apri una directory che contiene il pattern specificato nel gestore file del sistema operativo:
+
+`jo {{pattern}}`
+
+- Rimuovi le directory non esistenti dal database di `autojump`:
 
 `j --purge`
 
 - Mostra le voci nel database di `autojump`:
 
-`j {{[-s|--stat]}}`
+`j -s`
