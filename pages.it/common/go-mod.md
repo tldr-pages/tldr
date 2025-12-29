@@ -1,7 +1,7 @@
 # go mod
 
 > Manutenzione moduli.
-> Maggiori informazioni:  <https://pkg.go.dev/cmd/go#hdr-Module_maintenance>.
+> Maggiori informazioni: <https://pkg.go.dev/cmd/go#hdr-Module_maintenance>.
 
 - Inizializza nuovo modulo nella directory corrente:
 
