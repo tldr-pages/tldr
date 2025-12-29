@@ -1,7 +1,7 @@
 # go fmt
 
 > Formatta i sorgenti Go, stampando i nomi dei file modificati.
-> Ulteriori informazioni: <https://pkg.go.dev/cmd/go#hdr-Gofmt__reformat__package_sources>.
+> Maggiori informazioni: <https://pkg.go.dev/cmd/go#hdr-Gofmt__reformat__package_sources>.
 
 - Formatta i sorgenti Go nella directory corrente:
 

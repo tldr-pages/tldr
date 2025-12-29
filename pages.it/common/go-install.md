@@ -1,7 +1,7 @@
 # go install
 
 > Compila e installa i pacchetti nominati dai percorsi di import.
-> Ulteriori informazioni: <https://pkg.go.dev/cmd/go#hdr-Compile_and_install_packages_and_dependencies>.
+> Maggiori informazioni: <https://pkg.go.dev/cmd/go#hdr-Compile_and_install_packages_and_dependencies>.
 
 - Compila e installa il pacchetto corrente:
 
