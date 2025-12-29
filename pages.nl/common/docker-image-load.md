@@ -5,7 +5,7 @@
 
 - Laad een Docker-image vanuit `stdin`:
 
-`docker < {{path/naar/image_bestand.tar}} {{[load|image load]}}`
+`docker < {{pad/naar/image_bestand.tar}} {{[load|image load]}}`
 
 - Laad een Docker image vanuit een specifiek bestand:
 

@@ -17,7 +17,7 @@
 
 - 특정 플랫폼의 Docker 이미지 다운로드 (예: linux/amd64):
 
-`docker {{[pull|image pull]}} --platform {{linux/amd64}} {{이미지}}:{{태그}}`
+`docker {{[pull|image pull]}} --platform linux/amd64 {{이미지}}:{{태그}}`
 
 - 도움말 표시:
 

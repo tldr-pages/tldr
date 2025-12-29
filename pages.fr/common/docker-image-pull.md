@@ -17,7 +17,7 @@
 
 - Télécharge un image Docker pour une plateforme spécifique, ex : linux/amd64 :
 
-`docker {{[pull|image pull]}} --platform {{linux/amd64}} {{image}}:{{étiquette}}`
+`docker {{[pull|image pull]}} --platform linux/amd64 {{image}}:{{étiquette}}`
 
 - Affiche l'aide :
 

@@ -17,7 +17,7 @@
 
 - Baixa imagens do Docker para uma plataforma específica, por exemplo, linux/amd64:
 
-`docker {{[pull|image pull]}} --platform {{linux/amd64}} {{imagem}}:{{tag}}`
+`docker {{[pull|image pull]}} --platform linux/amd64 {{imagem}}:{{tag}}`
 
 - Exibe ajuda:
 

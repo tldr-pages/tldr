@@ -17,7 +17,7 @@
 
 - Download een Docker-image voor een specifiek platform, bijv. linux/amd64:
 
-`docker {{[pull|image pull]}} --platform {{linux/amd64}} {{image}}:{{tag}}`
+`docker {{[pull|image pull]}} --platform linux/amd64 {{image}}:{{tag}}`
 
 - Toon de help:
 

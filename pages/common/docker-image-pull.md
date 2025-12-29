@@ -17,7 +17,7 @@
 
 - Download a Docker images for a specific platform, e.g. linux/amd64:
 
-`docker {{[pull|image pull]}} --platform {{linux/amd64}} {{image}}:{{tag}}`
+`docker {{[pull|image pull]}} --platform linux/amd64 {{image}}:{{tag}}`
 
 - Display help:
 
