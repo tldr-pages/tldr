@@ -1,7 +1,7 @@
 # godot
 
 > Motore di gioco open source 2D e 3D.
-> Maggiori informazioni: <https://docs.godotengine.org/it/stable/tutorials/editor/command_line_tutorial.html>.
+> Maggiori informazioni: <https://docs.godotengine.org/en/latest/tutorials/editor/command_line_tutorial.html>.
 
 - Esegue un progetto se la directory corrente contiene un file `project.godot`, altrimenti apre il project manager:
 
