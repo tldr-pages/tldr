@@ -21,11 +21,11 @@
 
 - Start a server with a specific world:
 
-`minetestserver --world {{world_name}}`
+`luanti --server --world {{world_name}}`
 
 - Start a server in a specific port:
 
-`minetestserver --port {{port}}`
+`luanti --server --port {{port}}`
 
 - Write logs to a specific file:
 
