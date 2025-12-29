@@ -1,7 +1,7 @@
 # chpass
 
 > Gebruikersdatabase informatie toevoegen of wijzigen, inclusief login shell en wachtwoord.
-> Let op: het is niet mogelijk om een gebruikerswachtwoord te wijzigen op een Open Directory systeem, gebruik hiervoor `passwd`.
+> Opmerking: het is niet mogelijk om een gebruikerswachtwoord te wijzigen op een Open Directory systeem, gebruik hiervoor `passwd`.
 > Zie ook: `passwd`.
 > Meer informatie: <https://man.freebsd.org/cgi/man.cgi?chpass>.
 
