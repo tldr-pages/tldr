@@ -1,7 +1,7 @@
 # rexec
 
 > Voer een commando uit op een externe host.
-> Opmerking: Gebruik `rexec` met voorzichtigheid, omdat het gegevens in platte tekst verzendt. Overweeg veilige alternatieven zoals SSH voor versleutelde communicatie.
+> Opmerking: gebruik `rexec` met voorzichtigheid, omdat het gegevens in platte tekst verzendt. Overweeg veilige alternatieven zoals SSH voor versleutelde communicatie.
 > Meer informatie: <https://www.gnu.org/software/inetutils/manual/inetutils.html#rexec-invocation>.
 
 - Voer een commando uit op een externe [h]ost:
