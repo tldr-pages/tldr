@@ -5,20 +5,20 @@
 
 - Télécharge une image Docker spécifique :
 
-`docker pull {{image}}:{{étiquette}}`
+`docker {{[pull|image pull]}} {{image}}:{{étiquette}}`
 
 - Télécharge une image Docker spécifique en mode silencieux :
 
-`docker pull {{[-q|--quiet]}} {{image}}:{{étiquette}}`
+`docker {{[pull|image pull]}} {{[-q|--quiet]}} {{image}}:{{étiquette}}`
 
 - Télécharge toutes les étiquettes d'une image Docker spécifique :
 
-`docker pull {{[-a|--all-tags]}} {{image}}`
+`docker {{[pull|image pull]}} {{[-a|--all-tags]}} {{image}}`
 
 - Télécharge un image Docker pour une plateforme spécifique, ex : linux/amd64 :
 
-`docker pull --platform {{linux/amd64}} {{image}}:{{étiquette}}`
+`docker {{[pull|image pull]}} --platform {{linux/amd64}} {{image}}:{{étiquette}}`
 
 - Affiche l'aide :
 
-`docker pull {{[-h|--help]}}`
+`docker {{[pull|image pull]}} {{[-h|--help]}}`
