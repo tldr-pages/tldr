@@ -6,16 +6,16 @@
 
 - Busca URLs de un dominio (la salida suele estar en `~/.config/waymore/results/`):
 
-`waymore -i {{ejemplo.com}}`
+`waymore {{[-i|--input]}} {{example.com}}`
 
 - Limita los resultados de la búsqueda para que solo incluyan una lista de URLs de un dominio y almacena los resultados en el archivo especificado:
 
-`waymore -mode U -oU {{ruta/a/ejemplo.com-urls.txt}} -i {{ejemplo.com}}`
+`waymore -mode U {{[-oU|--output-urls]}} {{ruta/a/example.com-urls.txt}} {{[-i|--input]}} {{example.com}}`
 
 - Imprime solo los cuerpos de contenido de las URLs y almacena los resultados en el directorio especificado:
 
-`waymore -mode R -oR {{ruta/a/ejemplo.com-url-responses}} -i {{ejemplo.com}}`
+`waymore -mode R {{[-oR|--output-responses]}} {{ruta/a/example.com-url-responses}} {{[-i|--input]}} {{example.com}}`
 
 - Filtra los resultados especificando intervalos de fechas:
 
-`waymore -from {{YYYYMMDD|YYYMM|YYYY}} -to {{AAAAMMDD|AAAAMMD|AAAAMMD}} -i {{ejemplo.com}}`
+`waymore -from {{YYYYMMDD|YYYMM|YYYY}} {{[-to|--to-date]}} {{AAAAMMDD|AAAAMMD|AAAAMMD}} {{[-i|--input]}} {{example.com}}`

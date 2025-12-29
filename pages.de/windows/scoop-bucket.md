@@ -18,7 +18,7 @@
 
 - Aktiviere einen unbekannten Eimer durch die Angabe eines Namens und einer Git-Repository-URL:
 
-`scoop bucket add {{name}} {{https://beispiel.de/repository.git}}`
+`scoop bucket add {{name}} {{https://example.com/repository.git}}`
 
 - Deaktiviere einen Eimer:
 

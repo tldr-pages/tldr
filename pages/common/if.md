@@ -1,6 +1,6 @@
 # if
 
-> Performs conditional processing in shell scripts.
+> Perform conditional processing in shell scripts.
 > See also: `test`, `[`.
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#Conditional-Constructs>.
 

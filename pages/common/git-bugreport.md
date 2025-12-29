@@ -1,6 +1,6 @@
 # git bugreport
 
-> Captures debug information from the system and user, generating a text file to aid in the reporting of a bug in Git.
+> Capture debug information from the system and user, generating a text file to aid in the reporting of a bug in Git.
 > More information: <https://git-scm.com/docs/git-bugreport>.
 
 - Create a new bug report file in the current directory:

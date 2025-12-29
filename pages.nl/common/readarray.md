@@ -25,7 +25,7 @@
 
 - Zet een aangepast schei[d]ingsteken:
 
-`readarray < {{path/to/file.txt}} -d {{scheidingsteken}} {{array_naam}}`
+`readarray < {{pad/naar/bestand.txt}} -d {{scheidingsteken}} {{array_naam}}`
 
 - Toon de help:
 

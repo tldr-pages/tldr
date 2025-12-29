@@ -92,8 +92,6 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [29 June 2025](https://github.com/tldr-pages/tldr/issues/17024) — present
 - **Sarijen ([@Sarijen](https://github.com/Sarijen))**:
   [21 August 2025](https://github.com/tldr-pages/tldr/issues/17757) — present
-- **Adriano Inghingolo ([@SpikeTheDragon40k](https://github.com/SpikeTheDragon40k))**:
-  [22 August 2025](https://github.com/tldr-pages/tldr/issues/17772) — present
 - **Ali Nazzal ([@ali90h](https://github.com/ali90h))**:
   [10 September 2025](https://github.com/tldr-pages/tldr/issues/18069) — present
 - **Sadeed Waseem ([@sadeeed](https://github.com/Sadeeed))**:
@@ -178,7 +176,9 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [17 August 2025](https://github.com/tldr-pages/tldr/issues/17708) — [26 December 2025](https://github.com/tldr-pages/tldr/issues/20285)
 - Ivan Baluta ([@ivanbaluta](https://github.com/ivanbaluta)):
   [03 November 2025](https://github.com/tldr-pages/tldr/issues/19176) — [28 December 2025](https://github.com/tldr-pages/tldr/issues/20284)
-
+- Adriano Inghingolo ([@SpikeTheDragon40k](https://github.com/SpikeTheDragon40k)):
+  [22 August 2025](https://github.com/tldr-pages/tldr/issues/17772) — [28 December 2025](https://github.com/tldr-pages/tldr/issues/20286)
+  
 ## Organization members
 
 In addition to everything that repository collaborators can do, organization members have write access to all the repositories in the tldr-pages organization, and [a few extra maintenance capabilities](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/permission-levels-for-an-organization).
@@ -216,6 +216,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [26 December 2025](https://github.com/tldr-pages/tldr/issues/20285) — present
 - **Ivan Baluta ([@ivanbaluta](https://github.com/ivanbaluta))**:
   [28 December 2025](https://github.com/tldr-pages/tldr/issues/20284) — present
+- **Adriano Inghingolo ([@SpikeTheDragon40k](https://github.com/SpikeTheDragon40k))**:
+  [28 December 2025](https://github.com/tldr-pages/tldr/issues/20286) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
