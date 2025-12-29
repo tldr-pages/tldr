@@ -31,4 +31,4 @@
 
 - 사용자 지정 kubeconfig 파일을 영구적으로 추가:
 
-`export KUBECONFIG="{{$HOME.kube/config:경로/대상/사용자/정의/kubeconfig.yaml}}" kubectl config get-contexts`
+`export KUBECONFIG="{{$HOME/.kube/config:경로/대상/kubeconfig.yaml}}" kubectl config get-contexts`
