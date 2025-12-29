@@ -1,6 +1,6 @@
 # poetry publish
 
-> Publishes a package to a remote repository.
+> Publish a package to a remote repository.
 > More information: <https://python-poetry.org/docs/cli/#publish>.
 
 - Publish the current package to PyPI:

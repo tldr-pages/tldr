@@ -1,6 +1,6 @@
 # Start-Service
 
-> Starts stopped services.
+> Start stopped services.
 > Note: This command can only be used through PowerShell.
 > More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/start-service>.
 
