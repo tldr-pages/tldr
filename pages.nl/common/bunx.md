@@ -18,7 +18,7 @@
 
 - Voer een binair bestand uit dat een andere naam heeft dan zijn pakket:
 
-`bunx {{[-p|--package]}} {{pakketnaam}} {{commando}}`
+`bunx {{[-p|--package]}} {{pakket_naam}} {{commando}}`
 
 - Download een specifieke versie van een pakket en voer het uit:
 
