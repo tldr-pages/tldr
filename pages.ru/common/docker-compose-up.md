@@ -1,6 +1,6 @@
 # docker compose up
 
-> Запуск Docker-сервисов, определённых в Compose-файле.
+> Запускать Docker-сервисы, определённые в Compose-файле.
 > Больше информации: <https://docs.docker.com/reference/cli/docker/compose/up/>.
 
 - Запустить все сервисы, определённые в Compose-файле:
