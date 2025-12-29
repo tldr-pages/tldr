@@ -1,4 +1,4 @@
-    # adb start-server
+# adb start-server
 
 > Avvia il server Android Debug Bridge (adb) per consentire connessioni adb da dispositivi o emulatori.
 > Maggiori informazioni: <https://manned.org/adb#head14>.
