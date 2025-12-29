@@ -13,7 +13,7 @@
 
 - Start Luanti in server mode by hosting a specific gamemode:
 
-`luanti --server --gameid {{minetest}}`
+`luanti --server --gameid {{game_id}}`
 
 - Start a server with the default world once it has been created:
 
