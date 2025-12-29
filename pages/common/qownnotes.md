@@ -2,7 +2,7 @@
 
 > Markdown note-taking application.
 > Optionally integrates with the note-taking applications of Nextcloud and ownCloud.
-> See also: `qc` for managing command snippets.
+> See also: `qc`.
 > More information: <https://www.qownnotes.org/getting-started/cli-parameters.html>.
 
 - Run in portable mode:

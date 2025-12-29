@@ -1,7 +1,7 @@
 # conda activate
 
 > Activate a conda environment.
-> See also: `conda deactivate` to deactivate a conda environment.
+> See also: `conda deactivate`.
 > More information: <https://docs.conda.io/projects/conda/en/stable/dev-guide/deep-dives/activation.html>.
 
 - Activate an existing environment named `myenv`:
