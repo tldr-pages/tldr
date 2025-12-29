@@ -3,7 +3,7 @@
 > Eine textbasierte Kalender- und Planungsanwendung für die Kommandozeile.
 > Weitere Informationen: <https://lostpackets.de/khal/>.
 
-- Starte khal im interaktiven Modus:
+- Starte Khal im interaktiven Modus:
 
 `khal interactive`
 
