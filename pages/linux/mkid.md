@@ -1,7 +1,7 @@
 # mkid
 
 > Build an ID database for use with `lid` and other idutils tools.
-> More information: <https://www.gnu.org/software/idutils/manual/html_node/mkid-invocation.html>.
+> More information: <https://www.gnu.org/software/idutils/manual/idutils.html#mkid-invocation>.
 
 - Build an ID database for the current directory:
 
