@@ -1,4 +1,4 @@
-# minetestserver
+# luantiserver
 
 > This command is an alias of `luanti --server`.
 
