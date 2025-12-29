@@ -1,7 +1,7 @@
 # go test
 
 > Testa i pacchetti Go (i file devono terminare con `_test.go`).
-> Ulteriori informazioni: <https://pkg.go.dev/cmd/go#hdr-Testing_flags>.
+> Maggiori informazioni: <https://pkg.go.dev/cmd/go#hdr-Testing_flags>.
 
 - Testa il pacchetto trovato nella directory corrente:
 

@@ -2,7 +2,7 @@
 
 > Esegui uno strumento o comando Go.
 > Esegue un comando Go come binario standalone, tipicamente per debug.
-> Ulteriori informazioni: <https://pkg.go.dev/cmd/go#hdr-Run_specified_go_tool>.
+> Maggiori informazioni: <https://pkg.go.dev/cmd/go#hdr-Run_specified_go_tool>.
 
 - Elenca gli strumenti disponibili:
 

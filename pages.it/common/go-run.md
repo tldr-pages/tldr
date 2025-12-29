@@ -1,7 +1,7 @@
 # go run
 
 > Compila ed esegui codice Go senza salvare un binario.
-> Ulteriori informazioni: <https://pkg.go.dev/cmd/go#hdr-Compile_and_run_Go_program>.
+> Maggiori informazioni: <https://pkg.go.dev/cmd/go#hdr-Compile_and_run_Go_program>.
 
 - Esegui un file Go:
 

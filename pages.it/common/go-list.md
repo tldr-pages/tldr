@@ -1,7 +1,7 @@
 # go list
 
 > Elenca pacchetti o moduli.
-> Ulteriori informazioni: <https://pkg.go.dev/cmd/go#hdr-List_packages_or_modules>.
+> Maggiori informazioni: <https://pkg.go.dev/cmd/go#hdr-List_packages_or_modules>.
 
 - Elenca pacchetti:
 
