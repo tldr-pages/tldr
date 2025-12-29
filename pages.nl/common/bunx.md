@@ -10,7 +10,7 @@
 
 - Controleer de versie van een lokaal geïnstalleerd pakket (indien gevonden):
 
-`bunx {{pakketnaam}} --version`
+`bunx {{pakket_naam}} --version`
 
 - Forceer een uitvoerbaar bestand om te draaien met de `Bun` runtime (in plaats van `Node`):
 
