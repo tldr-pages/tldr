@@ -18,7 +18,7 @@
 
 - Evidenzia una riga specifica o un intervallo di righe con un colore di sfondo diverso:
 
-`bat {{-H|--highlight-line}} {{10|5:10|:10|10:|10:+5}} {{percorso//del/file}}`
+`bat {{[-H|--highlight-line]}} {{10|5:10|:10|10:|10:+5}} {{percorso//del/file}}`
 
 - Mostra caratteri non stampabili come spazio, tab o newline:
 
