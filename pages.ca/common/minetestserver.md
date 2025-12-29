@@ -1,7 +1,7 @@
 # minetestserver
 
-> Aquest comandament és un àlies de `luantiserver`.
+> Aquest comandament és un àlies de `luanti --server`.
 
 - Veure documentació pel comandament original:
 
-`tldr luantiserver`
+`tldr luanti`

@@ -1,7 +1,7 @@
 # minetestserver
 
-> คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `luantiserver`
+> คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `luanti --server`
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr luantiserver`
+`tldr luanti`
