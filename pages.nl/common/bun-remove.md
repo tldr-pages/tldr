@@ -14,7 +14,7 @@
 
 - Verwijder een globaal geïnstalleerd pakket:
 
-`bun remove {{[-g|--global]}} {{package_naam}}`
+`bun remove {{[-g|--global]}} {{pakket_naam}}`
 
 - Verwijder een afhankelijkheid zonder het `package.json` bestand bij te werken:
 
