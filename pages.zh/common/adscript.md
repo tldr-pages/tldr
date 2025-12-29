@@ -1,7 +1,7 @@
 # adscript
 
 > 用于 Adscript 文件的编译器。
-> 更多信息：<https://github.com/Amplus2/Adscript>.
+> 更多信息：<https://github.com/Amplus2/Adscript>。
 
 - 将一个文件编译为一个对象文件：
 

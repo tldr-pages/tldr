@@ -1,7 +1,7 @@
 # airshare
 
 > Gegevens overdragen tussen twee machines in een lokaal netwerk.
-> Meer informatie: <https://airshare.rtfd.io/en/latest/cli.html>.
+> Meer informatie: <https://airshare.readthedocs.io/en/latest/cli.html>.
 
 - Bestanden of mappen delen:
 

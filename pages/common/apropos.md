@@ -1,6 +1,7 @@
 # apropos
 
 > Search the manual pages for names and descriptions.
+> See also: `man`.
 > More information: <https://manned.org/apropos>.
 
 - Search for a keyword using a `regex`:

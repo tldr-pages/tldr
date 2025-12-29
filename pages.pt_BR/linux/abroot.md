@@ -2,7 +2,7 @@
 
 > Utilitário que fornece total imutabilidade e atomicidade ao transacionar entre 2 estados da partição raíz (A⟺B).
 > Atualizações são realizadas usando imagens OCI, para garantir que o sistema sempre estará em um estado consistente.
-> Mais informações: <https://github.com/Vanilla-OS/ABRoot>.
+> Mais informações: <https://docs.vanillaos.org/docs/en/abroot-manpage>.
 
 - Adiciona pacotes à imagem local (Nota: após executar esse comando você precisa aplicar as alterações.):
 
@@ -34,4 +34,4 @@
 
 - Exibe ajuda:
 
-`abroot --help`
+`abroot {{[-h|--help]}}`

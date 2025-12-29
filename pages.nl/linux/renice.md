@@ -15,7 +15,7 @@
 
 - Verlaag de prioriteit van alle processen die eigendom zijn van een gebruiker:
 
-`renice --relative {{4}} {{[-p|--pid]}} {{pid}}`
+`renice --relative {{4}} {{[-u|--user]}} {{uid|user}}`
 
 - Stel de prioriteit in van alle processen die behoren tot een procesgroep:
 

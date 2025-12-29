@@ -1,6 +1,7 @@
 # ping6
 
 > Verstuur ICMP ECHO_REQUEST-pakketten naar netwerkhosts via een IPv6-adres.
+> Opmerking: `ping6` is samengevoegd met `ping` in moderne systemen.
 > Meer informatie: <https://manned.org/ping6>.
 
 - Ping een host:

@@ -3,7 +3,7 @@
 > Reduce the number of colors in an image by applying dithering.
 > More information: <https://netpbm.sourceforge.net/doc/ppmdither.html>.
 
-- Read a PPM image, apply dithering and save it to a file:
+- Read a PPM image, apply dithering, and save it to a file:
 
 `ppmdither {{path/to/image.ppm}} > {{path/to/file.ppm}}`
 

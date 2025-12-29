@@ -2,7 +2,7 @@
 
 > The Rust compiler.
 > Rust projects usually use `cargo` instead of invoking `rustc` directly.
-> More information: <https://doc.rust-lang.org/rustc>.
+> More information: <https://doc.rust-lang.org/stable/rustc/>.
 
 - Compile a binary crate:
 

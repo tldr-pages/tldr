@@ -22,7 +22,7 @@
 
 - Maak een systeemback-up, sla deze op in een IMG bestand (kan later worden hersteld door `if` en `of` om te wisselen) en toon de voortgang:
 
-`dd if={{/dev/schijf_apparaat}} of={{pad/naar/bestand.img}} status=progress`
+`sudo dd if={{/dev/schijf_apparaat}} of={{pad/naar/bestand.img}} status=progress`
 
 - Bekijk de voortgang van een lopende `dd` operatie (voer dit commando uit vanaf een andere shell):
 

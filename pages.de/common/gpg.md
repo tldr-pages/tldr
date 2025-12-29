@@ -11,9 +11,9 @@
 
 `gpg --clearsign {{doc.txt}}`
 
-- Verschlüssle und signiere `doc.txt` für alice@beispiel.de und bob@example.org (Ausgabe nach `doc.txt.gpg`):
+- Verschlüssle und signiere `doc.txt` für alice@example.com und bob@example.org (Ausgabe nach `doc.txt.gpg`):
 
-`gpg {{[-es|--encrypt --sign]}} {{[-r|--recipient]}} {{alice@beispiel.de}} {{[-r|--recipient]}} {{bob@example.com}} {{doc.txt}}`
+`gpg {{[-es|--encrypt --sign]}} {{[-r|--recipient]}} {{alice@example.com}} {{[-r|--recipient]}} {{bob@example.com}} {{doc.txt}}`
 
 - Verschlüssle `doc.txt` nur mit Passwort (Ausgabe nach `doc.txt.gpg`):
 
@@ -27,10 +27,10 @@
 
 `gpg --import {{schlüssel.gpg}}`
 
-- Exportiere den öffentlichen Schlüssel von alice@beispiel.de (Ausgabe nach `stdout`):
+- Exportiere den öffentlichen Schlüssel von alice@example.com (Ausgabe nach `stdout`):
 
-`gpg --export {{[-a|--armor]}} {{alice@beispiel.de}}`
+`gpg --export {{[-a|--armor]}} {{alice@example.com}}`
 
-- Exportiere den privaten Schlüssel von alice@beispiel.de (Ausgabe nach `stdout`):
+- Exportiere den privaten Schlüssel von alice@example.com (Ausgabe nach `stdout`):
 
-`gpg --export-secret-keys {{[-a|--armor]}} {{alice@beispiel.de}}`
+`gpg --export-secret-keys {{[-a|--armor]}} {{alice@example.com}}`

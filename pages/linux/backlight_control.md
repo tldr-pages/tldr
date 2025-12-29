@@ -1,7 +1,7 @@
 # backlight_control
 
 > Control a linux machine's backlight using percentage values.
-> More information: <https://github.com/Hendrikto/backlight_control>.
+> More information: <https://github.com/Hendrikto/backlight_control#usage>.
 
 - Increase/decrease the backlight by a specific percent count:
 

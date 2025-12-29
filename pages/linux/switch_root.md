@@ -5,7 +5,7 @@
 > See also: `chroot`, `mount`.
 > More information: <https://manned.org/switch_root>.
 
-- Move `/proc`, `/dev`, `/sys` and `/run` to the specified filesystem, use this filesystem as the new root and start the specified init process:
+- Move `/proc`, `/dev`, `/sys`, and `/run` to the specified filesystem, use this filesystem as the new root and start the specified init process:
 
 `switch_root {{new_root}} {{/sbin/init}}`
 

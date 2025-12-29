@@ -2,7 +2,7 @@
 
 > Zapytaj o stan łączy sieciowych.
 > Zarządzaj konfiguracją sieci za pomocą `systemd-networkd`.
-> Więcej informacji: <https://www.freedesktop.org/software/systemd/man/networkctl.html>.
+> Więcej informacji: <https://www.freedesktop.org/software/systemd/man/latest/networkctl.html>.
 
 - Wyświetl listę istniejących łączy i ich status:
 
@@ -24,7 +24,7 @@
 
 `networkctl renew {{interfejs1 interfejs2 ...}}`
 
-- Przeładuj pliki konfiguracyjne (.netdev i .network):
+- Przeładuj pliki konfiguracyjne (`.netdev` i `.network`):
 
 `networkctl reload`
 

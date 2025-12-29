@@ -11,9 +11,13 @@
 
 `nh clean all {{[-a|--ask]}}`
 
-- Build a specified Nixos flake configuration and open it in a virtual machine:
+- Build a specified Nixos flake configuration and create a symlink of the result from the Nix store:
 
 `nh os build-vm {{path/to/flake}} {{[-H|--hostname]}} {{host}}`
+
+- Build and test a specified Nixos flake configuration:
+
+`nh os test {{path/to/flake}} {{[-H|--hostname]}} {{nixos}}`
 
 - Build and switch to a specified Home manager flake configuration:
 

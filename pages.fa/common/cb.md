@@ -1,7 +1,7 @@
 # cb
 
 > بریدن، رونوشت و چسباندن هرچیزی در ترمینال.
-> اطلاعات بیشتر: <https://github.com/Slackadays/Clipboard>.
+> اطلاعات بیشتر: <https://github.com/Slackadays/Clipboard#-7>.
 
 - نمایش تمام کلیپ بوردها:
 

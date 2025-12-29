@@ -1,7 +1,7 @@
 # spicetify
 
 > Customize the Spotify client UI and functionality.
-> More information: <https://spicetify.app/docs/advanced-usage/command-line-interface>.
+> More information: <https://spicetify.app/docs/cli/>.
 
 - Generate a configuration file on very first run and display help:
 

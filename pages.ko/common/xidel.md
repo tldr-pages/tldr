@@ -1,7 +1,7 @@
 # xidel
 
 > HTML/XML 페이지 및 JSON API에서 데이터를 다운로드하고 추출.
-> 더 많은 정보: <https://www.videlibri.de/xidel.html>.
+> 더 많은 정보: <https://www.videlibri.de/xidel/>.
 
 - Google 검색으로 찾은 모든 URL 출력:
 

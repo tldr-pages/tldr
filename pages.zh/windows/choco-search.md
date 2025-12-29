@@ -1,7 +1,7 @@
 # choco search
 
 > 使用 Chocolatey 搜索一个本地或远程的包。
-> 更多信息：<https://chocolatey.org/docs/commands-search>.
+> 更多信息：<https://docs.chocolatey.org/en-us/choco/commands/search/>。
 
 - 搜索一个包：
 

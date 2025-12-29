@@ -1,7 +1,7 @@
 # yabai
 
 > 바이너리 공간 분할을 기반으로 한 macOS 타일링 윈도우 관리자.
-> 더 많은 정보: <https://github.com/koekeishiya/yabai/wiki>.
+> 더 많은 정보: <https://github.com/asmvik/yabai/wiki>.
 
 - 레이아웃 설정을 위한 설정 [m]메시지 전송:
 

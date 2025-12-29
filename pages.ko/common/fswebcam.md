@@ -1,7 +1,7 @@
 # fswebcam
 
 > 작고 간단한 \*nix용 웹캠.
-> 더 많은 정보: <https://www.sanslogic.co.uk/fswebcam>.
+> 더 많은 정보: <https://www.sanslogic.co.uk/fswebcam/>.
 
 - 사진을 찍음:
 

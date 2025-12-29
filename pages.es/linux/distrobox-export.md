@@ -1,7 +1,8 @@
 # distrobox-export
 
-> Exporta aplicaciones/servicios/binarios del contenedor al sistema operativo anfitrión. Vea también: `tldr distrobox`.
-> Más información: <https://distrobox.it/usage/distrobox-export>.
+> Exporta aplicaciones/servicios/binarios del contenedor al sistema operativo anfitrión.
+> Vea también: `distrobox`.
+> Más información: <https://distrobox.it/usage/distrobox-export/>.
 
 - Exporta una aplicación del contenedor al anfitrión (la entrada de escritorio/ícono aparecerá en la lista de aplicaciones del sistema anfitrión):
 
@@ -11,7 +12,7 @@
 
 `distrobox-export --bin {{ruta/al/binario}} --export-path {{ruta/al/binario_en_anfitrión}}`
 
-- Exporta un binario del contenedor al anfitrión (es decir, `$HOME/.local/bin`) :
+- Exporta un binario del contenedor al anfitrión (es decir, `$HOME/.local/bin`):
 
 `distrobox-export --bin {{ruta/al/binario}} --export-path {{ruta/a/exportar}}`
 

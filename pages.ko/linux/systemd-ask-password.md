@@ -1,7 +1,7 @@
 # systemd-ask-password
 
 > 시스템 비밀번호를 사용자에게 요청.
-> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/systemd-ask-password.html>.
+> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/latest/systemd-ask-password.html>.
 
 - 특정 메시지와 함께 시스템 비밀번호 요청:
 

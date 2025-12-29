@@ -1,8 +1,8 @@
 # zellij
 
 > 带有内置功能的终端复用器。
-> 请参阅：`tmux` 和 `screen`。
-> 更多信息：<https://zellij.dev/documentation/>.
+> 另请参阅：`tmux` 和 `screen`。
+> 更多信息：<https://zellij.dev/documentation/>。
 
 - 启动一个新的命名会话：
 

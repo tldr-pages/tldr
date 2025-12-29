@@ -1,7 +1,7 @@
 # aws sns
 
 > 주제 및 구독을 만들고, 메시지를 보내고 받고, Amazon Simple Notification Service에 대한 이벤트 및 로그를 모니터링.
-> 더 많은 정보: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/sns/index.html>.
+> 더 많은 정보: <https://docs.aws.amazon.com/cli/latest/reference/sns/>.
 
 - 특정 유형의 모든 객체를 나열:
 

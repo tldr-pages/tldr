@@ -19,7 +19,7 @@
 
 `read <<< "{{The surname is Bond}}" {{_ variable1 _ variable2}}`
 
-- Do not let backslash (\\) act as an escape character:
+- Do not let backslash (`\`) act as an escape character:
 
 `read -r {{variable}}`
 
@@ -33,4 +33,4 @@
 
 - Read `stdin` and perform an action on every line:
 
-`while read line; do {{echo|ls|rm|...}} "$line"; done < {{/dev/stdin|path/to/file|...}}`
+`cat {{/dev/stdin|path/to/file|...}} | while read line; do {{echo|ls|rm|...}} "$line"; done`

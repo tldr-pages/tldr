@@ -1,6 +1,6 @@
 # git tag
 
-> Create, list, delete or verify tags.
+> Create, list, delete, or verify tags.
 > A tag is a static reference to a commit.
 > More information: <https://git-scm.com/docs/git-tag>.
 
@@ -32,6 +32,6 @@
 
 `git push origin tag {{tag_name}}`
 
-- List all tags which contain a given commit (HEAD if not specified):
+- List all tags which contain a given commit (`HEAD` if not specified):
 
 `git tag --contains {{commit}}`

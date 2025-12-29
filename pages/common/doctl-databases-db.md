@@ -1,7 +1,7 @@
 # doctl databases db
 
 > Manage databases that are served by a database cluster.
-> More information: <https://docs.digitalocean.com/reference/doctl/reference/databases/db>.
+> More information: <https://docs.digitalocean.com/reference/doctl/reference/databases/db/>.
 
 - Run a `doctl databases db` command with an access token:
 

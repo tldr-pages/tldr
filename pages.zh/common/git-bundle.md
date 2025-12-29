@@ -1,7 +1,7 @@
 # git bundle
 
 > 将对象和引用打包成归档文件。
-> 更多信息：<https://git-scm.com/docs/git-bundle>.
+> 更多信息：<https://git-scm.com/docs/git-bundle>。
 
 - 创建包含特定分支所有对象和引用的打包文件：
 

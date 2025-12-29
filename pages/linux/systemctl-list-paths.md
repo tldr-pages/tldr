@@ -17,7 +17,7 @@
 
 - Show all path units, including inactive ones:
 
-`systemctl list-paths --all`
+`systemctl list-paths {{[-a|--all]}}`
 
 - Filter path units by state:
 

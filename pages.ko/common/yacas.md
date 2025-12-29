@@ -1,7 +1,7 @@
 # yacas
 
 > 또 다른 컴퓨터 대수 시스템.
-> 더 많은 정보: <https://www.yacas.org>.
+> 더 많은 정보: <https://www.yacas.org/>.
 
 - 대화형 `yacas` 세션 시작:
 

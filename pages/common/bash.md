@@ -1,7 +1,7 @@
 # bash
 
 > Bourne-Again SHell, an `sh`-compatible command-line interpreter.
-> See also: `zsh`, `histexpand` (history expansion).
+> See also: `zsh`, `!` (history expansion).
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#Invoking-Bash>.
 
 - Start an interactive shell session:
@@ -34,4 +34,4 @@
 
 - Start a [r]estricted shell session:
 
-`bash -r`
+`bash {{[-r|--restricted]}}`

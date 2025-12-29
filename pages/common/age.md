@@ -1,6 +1,6 @@
 # age
 
-> A simple, modern and secure file encryption tool.
+> A simple, modern, and secure file encryption tool.
 > See also: `age-keygen` for generating key pairs.
 > More information: <https://github.com/FiloSottile/age#usage>.
 

@@ -1,7 +1,7 @@
 # touch
 
 > Create files and set access/modification times.
-> More information: <https://manned.org/touch>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/touch-invocation.html>.
 
 - Create specific files:
 
@@ -9,7 +9,7 @@
 
 - Set the file [a]ccess or [m]odification times to the current one and don't create file if it doesn't exist:
 
-`touch {{[-c|--no-create]}} -{{a|m}} {{path/to/file1 path/to/file2 ...}}`
+`touch {{[-c|--no-create]}} {{-a|-m}} {{path/to/file1 path/to/file2 ...}}`
 
 - Set the file [t]ime to a specific value and don't create file if it doesn't exist:
 

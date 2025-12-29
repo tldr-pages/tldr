@@ -2,7 +2,7 @@
 
 > Build a Nix expression (downloading from the cache when possible).
 > See also: `nix-build` for information about traditional Nix builds from expressions, `nix flake` for information about flakes.
-> More information: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-build.html>.
+> More information: <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-build.html>.
 
 - Build a package from nixpkgs, symlinking the result to `./result`:
 

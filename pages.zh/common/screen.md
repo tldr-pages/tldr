@@ -1,8 +1,8 @@
 # screen
 
 > 在远程服务器上保持会话打开。通过单个 SSH 连接管理多个窗口。
-> 类似工具请参阅 `tmux` 和 `zellij`。
-> 更多信息：<https://manned.org/screen>.
+> 另请参阅：`tmux` 和 `zellij`。
+> 更多信息：<https://manned.org/screen>。
 
 - 启动一个新的 screen 会话：
 

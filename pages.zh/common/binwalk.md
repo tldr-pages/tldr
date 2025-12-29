@@ -1,7 +1,7 @@
 # binwalk
 
 > 固件分析工具。
-> 更多信息：<https://github.com/ReFirmLabs/binwalk>.
+> 更多信息：<https://manned.org/binwalk>。
 
 - 扫描一个二进制文件：
 

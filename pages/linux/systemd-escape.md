@@ -1,7 +1,7 @@
 # systemd-escape
 
 > Escape strings for usage in systemd unit names.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemd-escape.html>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemd-escape.html>.
 
 - Escape the given text:
 

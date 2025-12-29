@@ -29,4 +29,4 @@
 
 - Maak en gebruik een coprocess dat `bc` uitvoert:
 
-`coproc BC { bc --mathlib; }; echo "1/3" >&"${BC[1]}"; read <&"${BC[0]}" output; echo "$output"`
+`coproc BC { bc {{[-l|--mathlib]}}; }; echo "1/3" >&"${BC[1]}"; read <&"${BC[0]}" output; echo "$output"`

@@ -2,7 +2,7 @@
 
 > 특정 전원 상태로의 진입을 금지.
 > 인히비터 잠금을 사용하여 시스템의 절전 및 종료 요청을 차단하거나 지연시키고 자동 유휴 처리를 방지할 수 있습니다.
-> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/systemd-inhibit.html>.
+> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/latest/systemd-inhibit.html>.
 
 - 활성화된 모든 인히비션 잠금과 생성 이유 나열:
 

@@ -1,6 +1,6 @@
 # continue
 
-> Skip to the next iteration of a `for`, `while`, `until` or `select` loop.
+> Skip to the next iteration of a `for`, `while`, `until`, or `select` loop.
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#index-continue>.
 
 - Skip to the next iteration:

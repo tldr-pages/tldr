@@ -1,8 +1,8 @@
 # vivaldi-stable
 
 > To polecenie jest aliasem `chromium`.
-> Więcej informacji: <https://vivaldi.com>.
+> Więcej informacji: <https://vivaldi.com/>.
 
-- Zobacz dokumentację oryginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr chromium`

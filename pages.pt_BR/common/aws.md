@@ -3,7 +3,7 @@
 > A interface de linha de comando oficial para o Amazon Web Services.
 > Passo-a-passo, Single Sign-On (SSO), autocompletar de recursos e opções de YAML somente na v2.
 > Alguns subcomandos como `s3` tem sua própia documentação de uso.
-> Mais informações: <https://aws.amazon.com/cli>.
+> Mais informações: <https://docs.aws.amazon.com/cli/latest/reference/>.
 
 - Configura a linha de comando da AWS:
 

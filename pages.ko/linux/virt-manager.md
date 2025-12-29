@@ -1,7 +1,7 @@
 # virt-manager
 
 > KVM 및 Xen 가상 머신과 LXC 컨테이너를 관리하기 위한 데스크톱 사용자 인터페이스.
-> 더 많은 정보: <https://manned.org/virt-manager.1>.
+> 더 많은 정보: <https://manned.org/virt-manager>.
 
 - GUI 실행:
 

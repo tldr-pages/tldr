@@ -1,8 +1,9 @@
 # distrobox-export
 
 > Exportar um aplicativo/serviço/binário do contêiner para o sistema operacional host.
-> Subcomando de `distrobox`. Veja também: `tldr distrobox`.
-> Mais informações: <https://distrobox.it/usage/distrobox-export>.
+> Subcomando de `distrobox`.
+> Veja também: `distrobox`.
+> Mais informações: <https://distrobox.it/usage/distrobox-export/>.
 
 - Exporta um aplicativo do contêiner para o host (a entrada e o ícone do aplicativo aparecerão na lista de aplicativos do seu sistema host):
 

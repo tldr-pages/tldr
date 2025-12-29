@@ -1,7 +1,7 @@
 # git rm
 
 > 从仓库索引和本地文件系统中删除文件。
-> 更多信息：<https://git-scm.com/docs/git-rm>.
+> 更多信息：<https://git-scm.com/docs/git-rm>。
 
 - 从仓库索引和文件系统中删除文件：
 

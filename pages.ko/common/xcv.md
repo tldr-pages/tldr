@@ -1,7 +1,7 @@
 # xcv
 
 > 명령줄에서 자르기, 복사 및 붙여넣기.
-> 더 많은 정보: <https://github.com/busterc/xcv>.
+> 더 많은 정보: <https://github.com/busterc/xcv#xcv>.
 
 - 파일 자르기:
 

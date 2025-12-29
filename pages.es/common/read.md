@@ -17,9 +17,9 @@
 
 - Asigna varios valores a varias variables:
 
-`read {{_ variable1 _ variable2}} <<< "{{El apellido es Bond"}}"`
+`read {{_ variable1 _ variable2}} <<< "{{El apellido es Bond}}"`
 
-- No dejes que la barra invertida (\) actúe como carácter de escape:
+- No dejes que la barra invertida (`\`) actúe como carácter de escape:
 
 `read -r {{variable}}`
 

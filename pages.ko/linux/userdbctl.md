@@ -1,7 +1,7 @@
 # userdbctl
 
 > 시스템의 사용자, 그룹 및 그룹 멤버십을 검사합니다.
-> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/userdbctl.html>.
+> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/latest/userdbctl.html>.
 
 - 모든 알려진 사용자 기록 나열:
 

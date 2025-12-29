@@ -1,7 +1,7 @@
 # jupyter lab
 
 > Jupyter 笔记本的交互式开发环境。
-> 更多信息：<https://jupyterlab.readthedocs.io/en/stable/>.
+> 更多信息：<https://jupyterlab.readthedocs.io/en/stable/>。
 
 - 启动 JupyterLab：
 

@@ -1,7 +1,7 @@
 # choco install
 
 > Chocolatey를 사용하여 하나 이상의 패키지를 설치합니다.
-> 더 많은 정보: <https://chocolatey.org/docs/commands-install>.
+> 더 많은 정보: <https://docs.chocolatey.org/en-us/choco/commands/install/>.
 
 - 하나 이상의 패키지 설치:
 
@@ -11,7 +11,7 @@
 
 `choco install {{경로\대상\패키지_파일.config}}`
 
-- 특정 `nuspec` 또는 `nupkg` 파일 설치:
+- 특정 `.nuspec` 또는 `.nupkg` 파일 설치:
 
 `choco install {{경로\대상\파일}}`
 

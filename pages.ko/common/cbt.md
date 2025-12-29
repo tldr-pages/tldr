@@ -1,7 +1,7 @@
 # cbt
 
 > Google Cloud's Bigtable에서 데이터를 읽는 유틸리티.
-> 더 많은 정보: <https://cloud.google.com/bigtable/docs/cbt-reference>.
+> 더 많은 정보: <https://docs.cloud.google.com/bigtable/docs/cbt-reference>.
 
 - 현재 프로젝트의 테이블 나열:
 

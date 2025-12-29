@@ -1,7 +1,7 @@
 # docker-machine
 
 > 도커를 실행하는 머신들을 생성하고 관리한다.
-> 더 많은 정보: <https://github.com/docker/machine>.
+> 더 많은 정보: <https://github.com/docker-archive-public/docker.machine>.
 
 - 현재 실행중인 도커 머신들 목록보기:
 

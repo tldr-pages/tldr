@@ -1,7 +1,7 @@
 # openssl prime
 
 > 소수를 계산하기 위한 OpenSSL 명령어.
-> 더 많은 정보: <https://www.openssl.org/docs/manmaster/man1/openssl-prime.html>.
+> 더 많은 정보: <https://docs.openssl.org/master/man1/openssl-prime/>.
 
 - 2048비트 소수를 생성하고 16진수로 표시:
 

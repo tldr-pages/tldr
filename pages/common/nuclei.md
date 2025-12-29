@@ -1,7 +1,7 @@
 # nuclei
 
 > Fast and customizable vulnerability scanner using a simple YAML-based DSL.
-> More information: <https://docs.projectdiscovery.io/tools/nuclei/running>.
+> More information: <https://docs.projectdiscovery.io/opensource/nuclei/running>.
 
 - Update `nuclei` templates to the latest released version (downloaded to `~/nuclei-templates` on macOS/Linux or `%USERPROFILE%\nuclei-templates` on Windows):
 

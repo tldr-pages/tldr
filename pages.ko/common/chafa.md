@@ -2,7 +2,7 @@
 
 > 터미널에서 이미지 출력.
 > 참고: `catimg`, `pixterm`.
-> 더 많은 정보: <https://hpjansson.org/chafa/man>.
+> 더 많은 정보: <https://hpjansson.org/chafa/man/>.
 
 - 터미널에서 직접 이미지를 렌더링:
 

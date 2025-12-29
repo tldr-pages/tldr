@@ -1,6 +1,6 @@
 # acpi
 
-> Shows battery status or thermal information.
+> Show battery status or thermal information.
 > More information: <https://manned.org/acpi>.
 
 - Show battery information:

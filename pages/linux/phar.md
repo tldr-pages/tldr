@@ -1,6 +1,6 @@
 # phar
 
-> Create, update or extract PHP archives (PHAR).
+> Create, update, or extract PHP archives (PHAR).
 > More information: <https://manned.org/phar>.
 
 - Add one or more files or directories to a Phar file:

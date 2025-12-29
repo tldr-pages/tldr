@@ -2,8 +2,8 @@
 
 > Markdown 笔记应用程序。
 > 可以选择与 Nextcloud 和 ownCloud 的笔记应用程序集成。
-> 请参阅：`qc`，用于管理命令代码片段。
-> 更多信息：<https://www.qownnotes.org/getting-started/cli-parameters.html>.
+> 另请参阅：`qc`，用于管理命令代码片段。
+> 更多信息：<https://www.qownnotes.org/getting-started/cli-parameters.html>。
 
 - 以便携模式运行：
 

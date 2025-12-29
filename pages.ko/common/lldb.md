@@ -1,7 +1,7 @@
 # lldb
 
 > LLVM 저수준 디버거.
-> 더 많은 정보: <https://lldb.llvm.org>.
+> 더 많은 정보: <https://lldb.llvm.org/>.
 
 - 실행 파일을 디버그:
 

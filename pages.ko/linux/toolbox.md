@@ -8,7 +8,7 @@
 
 `toolbox {{하위_명령}}`
 
-- 특정 하위 명령(예: `create`, `enter`, `rm`, `rmi` 등)에 대한 도움말 표시:
+- 특정 하위 명령(예: `create`, `enter`, `rm` 등)에 대한 도움말 표시:
 
 `toolbox help {{하위_명령}}`
 

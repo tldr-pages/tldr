@@ -1,7 +1,7 @@
 # ping
 
 > 向网络主机发送 ICMP (ECHO_REQUEST) 数据包。
-> 更多信息：<https://manned.org/ping>.
+> 更多信息：<https://manned.org/ping>。
 
 - Ping 主机：
 
@@ -27,6 +27,6 @@
 
 `ping -O {{主机地址}}`
 
-- Ping 主机，指定 ping 次数、每个数据包的响应超时 (`-W`)和整个 ping 运行的总时间限制 (`-w`) ：
+- Ping 主机，指定 ping 次数、每个数据包的响应超时 (`-W`)和整个 ping 运行的总时间限制 (`-w`)：
 
 `ping -c {{次数}} -W {{响应超时秒数}} -w {{总的等待超时秒数}} {{主机地址}}`

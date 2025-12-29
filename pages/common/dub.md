@@ -1,7 +1,7 @@
 # dub
 
 > Package manager for D packages.
-> More information: <https://dub.pm/commandline>.
+> More information: <https://dub.pm/commandline/>.
 
 - Interactively create a new D project:
 

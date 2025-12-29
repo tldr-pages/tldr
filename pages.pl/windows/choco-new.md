@@ -1,7 +1,7 @@
 # choco new
 
 > Generowanie nowych specyfikacji pakietów Chocolatey.
-> Więcej informacji: <https://chocolatey.org/docs/commands-new>.
+> Więcej informacji: <https://docs.chocolatey.org/en-us/create/commands/new/>.
 
 - Utwórz nowy szkielet pakietu:
 

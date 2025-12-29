@@ -1,7 +1,7 @@
 # git column
 
 > 以列格式显示数据。
-> 更多信息：<https://git-scm.com/docs/git-column>.
+> 更多信息：<https://git-scm.com/docs/git-column>。
 
 - 将标准输入内容格式化为多列显示：
 

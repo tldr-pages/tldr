@@ -17,7 +17,7 @@
 
 - Cifra y firma `doc.txt` para `alice@example.com` y `bob@example.com` (salida a `doc.txt.gpg`):
 
-`gpg {{[-es|--encrypt --sign]}} {{[-r|--recipient]}} {{alice@example.com}} {{[-r|--recipiente]}} {{bob@example.com}} {{doc.txt}}`
+`gpg {{[-es|--encrypt --sign]}} {{[-r|--recipient]}} {{alice@example.com}} {{[-r|--recipient]}} {{bob@example.com}} {{doc.txt}}`
 
 - Cifra `doc.txt` con solo una frase de contraseña (salida a `doc.txt.gpg`):
 

@@ -4,6 +4,6 @@
 > Zobacz także: `links`.
 > Więcej informacji: <https://links.twibright.com/user_en.html#subch-browser_calibration>.
 
-- Odwiedź stronę w trybie graficznym:
+- Odwiedź stronę w trybie graficznym:
 
 `links2 -g {{https://example.com}}`

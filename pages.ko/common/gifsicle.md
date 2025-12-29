@@ -1,7 +1,7 @@
 # gifsicle
 
 > GIF 파일에 대한 정보를 생성, 편집, 조작 및 가져옴.
-> 더 많은 정보: <https://www.lcdf.org/gifsicle>.
+> 더 많은 정보: <https://www.lcdf.org/gifsicle/>.
 
 - GIF를 새로운 파일로 최적화:
 
@@ -19,7 +19,7 @@
 
 `gifsicle {{*.gif}} --delay={{10}} --loop > {{경로/대상/출력파일.gif}}`
 
-- 손실 압축을 사용하여 파일 크기 줄이기 :
+- 손실 압축을 사용하여 파일 크기 줄이기:
 
 `gifsicle -b {{경로/대상/입력파일.gif}} --optimize=3 --lossy={{100}} --colors={{16}} --dither`
 

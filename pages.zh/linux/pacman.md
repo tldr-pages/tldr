@@ -1,8 +1,8 @@
 # pacman
 
 > Arch Linux 的软件包管理器工具。
-> 也可以看看：`pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`, `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
-> 更多信息：<https://manned.org/pacman.8>.
+> 另请参阅：`pacman-database`，`pacman-deptest`，`pacman-files`，`pacman-key`，`pacman-mirrors`，`pacman-query`，`pacman-remove`，`pacman-sync`，`pacman-upgrade`。
+> 更多信息：<https://manned.org/pacman.8>。
 
 - 同步并更新所有软件包：
 

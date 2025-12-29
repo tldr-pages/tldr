@@ -1,7 +1,7 @@
 # truffle
 
 > Develop smart contracts for running services on the Ethereum blockchain.
-> More information: <https://www.trufflesuite.com/docs/truffle/reference/truffle-commands>.
+> More information: <https://archive.trufflesuite.com/docs/truffle/reference/truffle-commands/>.
 
 - Download a pre-built Truffle project (Truffle Box):
 

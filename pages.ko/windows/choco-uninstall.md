@@ -1,7 +1,7 @@
 # choco uninstall
 
 > Chocolatey를 사용하여 패키지 제거.
-> 더 많은 정보: <https://chocolatey.org/docs/commands-uninstall>.
+> 더 많은 정보: <https://docs.chocolatey.org/en-us/choco/commands/uninstall/>.
 
 - 하나 이상의 패키지 제거:
 

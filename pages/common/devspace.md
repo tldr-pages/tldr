@@ -1,7 +1,7 @@
 # devspace
 
 > Develop, deploy, and debug applications inside Kubernetes.
-> More information: <https://devspace.sh/docs/cli>.
+> More information: <https://www.devspace.sh/docs/cli>.
 
 - Initialize a new DevSpace project in the current directory:
 

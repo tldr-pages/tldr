@@ -8,7 +8,7 @@
 
 `lsipc`
 
-- Show information about active shared [m]emory segments, message [q]ueues or [s]empahore sets:
+- Show information about active shared [m]emory segments, message [q]ueues, or [s]empahore sets:
 
 `lsipc {{--shmems|--queues|--semaphores}}`
 
@@ -20,7 +20,7 @@
 
 `lsipc {{[-o|--output]}} {{KEY,ID,PERMS,SEND,STATUS,NSEMS,RESOURCE,...}}`
 
-- Use [r]aw, [J]SON, [l]ist or [e]xport (key="value") format:
+- Use [r]aw, [J]SON, [l]ist, or [e]xport (key="value") format:
 
 `lsipc {{--raw|--json|--list|--export}}`
 

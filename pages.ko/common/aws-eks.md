@@ -2,7 +2,7 @@
 
 > Amazon Elastic Kubernetes Service (EKS) 애드온, 클러스터 및 노드 그룹 관리.
 > Amazon EKS는 AWS에서 Kubernetes를 쉽게 실행하기 위한 서비스.
-> 더 많은 정보: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/eks/index.html>.
+> 더 많은 정보: <https://docs.aws.amazon.com/cli/latest/reference/eks/>.
 
 - EKS 클러스터 생성:
 

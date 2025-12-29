@@ -1,7 +1,7 @@
 # uv venv
 
 > 创建一个用于安装软件包的隔离 Python 环境。
-> 更多信息：<https://docs.astral.sh/uv/reference/cli/#uv-venv>.
+> 更多信息：<https://docs.astral.sh/uv/reference/cli/#uv-venv>。
 
 - 在默认位置创建虚拟环境（`.venv`）：
 

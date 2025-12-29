@@ -1,7 +1,7 @@
 # kubie
 
 > Permite saltar entre contextos y espacios de nombres de `kubectl`.
-> Más información: <https://github.com/sbstp/kubie>.
+> Más información: <https://github.com/sbstp/kubie#usage>.
 
 - Muestra un menú seleccionable de contextos:
 

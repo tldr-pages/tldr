@@ -1,7 +1,7 @@
 # msfconsole
 
 > Consola para el Metasploit Framework.
-> Más información: <https://docs.rapid7.com/metasploit/msf-overview>.
+> Más información: <https://docs.rapid7.com/metasploit/msf-overview/>.
 
 - Inicia la consola:
 

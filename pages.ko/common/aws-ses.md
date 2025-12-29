@@ -2,7 +2,7 @@
 
 > AWS Simple Email Service용 CLI.
 > 대규모 인바운드 및 아운바운드 클라우드 이메일 서비스.
-> 더 많은 정보: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ses/index.html>.
+> 더 많은 정보: <https://docs.aws.amazon.com/cli/latest/reference/ses/>.
 
 - 새로운 수신 규칙 세트를 생성:
 
@@ -10,7 +10,7 @@
 
 - 활성 수신 규칙 세트 정보를 표시:
 
-`aws ses describe-active-receipt-rule-set --generate-cli-skeletion`
+`aws ses describe-active-receipt-rule-set --generate-cli-skeleton`
 
 - 특정 수신 규칙 정보를 표시:
 

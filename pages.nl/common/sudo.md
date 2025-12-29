@@ -1,6 +1,7 @@
 # sudo
 
 > Voert een commando uit als de superuser of een andere gebruiker.
+> Zie ook: `pkexec`, `run0`, `doas`.
 > Meer informatie: <https://www.sudo.ws/sudo.html>.
 
 - Voer een commando uit als de superuser:

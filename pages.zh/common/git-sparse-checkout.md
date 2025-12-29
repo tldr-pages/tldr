@@ -1,7 +1,7 @@
 # git sparse-checkout
 
 > 仅检出仓库的部分文件，而不是克隆或检出全部文件（稀疏检出）。
-> 更多信息：<https://manned.org/git-sparse-checkout>.
+> 更多信息：<https://manned.org/git-sparse-checkout>。
 
 - 启用稀疏检出：
 

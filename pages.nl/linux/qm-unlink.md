@@ -4,4 +4,4 @@
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr qm disk unlink`
+`tldr qm disk`

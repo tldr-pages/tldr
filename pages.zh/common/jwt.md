@@ -2,7 +2,7 @@
 
 > 使用 JSON Web Tokens (JWTs) 进行操作。
 > 可用的加密算法包括 HS256、HS384、HS512、RS256、RS384、RS512、ES256、ES384。
-> 更多信息：<https://github.com/mike-engel/jwt-cli>.
+> 更多信息：<https://github.com/mike-engel/jwt-cli>。
 
 - 解码一个 JWT：
 

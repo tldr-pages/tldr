@@ -1,7 +1,7 @@
 # just
 
 > 프로젝트별 명령을 저장하고 실행.
-> 더 많은 정보: <https://github.com/casey/just>.
+> 더 많은 정보: <https://manned.org/just>.
 
 - justfile에서 지정된 레시피 실행:
 

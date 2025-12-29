@@ -1,8 +1,9 @@
 # gcloud sql export sql
 
 > Cloud SQL 인스턴스에서 Google Cloud Storage의 SQL 파일로 데이터를 내보내기.
-> 백업 생성이나 데이터 마이그레이션에 유용합니다. 같이 보기: `gcloud`.
-> 더 많은 정보: <https://cloud.google.com/sdk/gcloud/reference/sql/export/sql>.
+> 백업 생성이나 데이터 마이그레이션에 유용합니다.
+> 같이 보기: `gcloud`.
+> 더 많은 정보: <https://docs.cloud.google.com/sdk/gcloud/reference/sql/export/sql>.
 
 - 특정 Cloud SQL 인스턴스에서 Google Cloud Storage 버킷으로 데이터를 SQL 덤프 파일로 내보내기:
 

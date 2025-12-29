@@ -1,7 +1,7 @@
 # zapier scaffold
 
 > 添加一个起始 {触发器}、{创建}、{搜索} 或 {资源} 到一个集成。
-> 更多信息：<https://platform.zapier.com/reference/cli#scaffold>.
+> 更多信息：<https://platform.zapier.com/reference/cli#scaffold>。
 
 - 创建一个新的触发器、创建、搜索或资源：
 

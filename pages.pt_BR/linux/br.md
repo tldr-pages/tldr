@@ -1,25 +1,7 @@
 # br
 
-> Navega árvore de diretórios interativamente.
-> Veja também: `broot`.
-> Mais informações: <https://manned.org/broot>.
+> Este comando é um apelido de `broot`.
 
-- Começa e navega na árvore de diretórios atual interativamente:
+- Veja documentação sobre o comando original:
 
-`br`
-
-- Inicia mostrando o tamanho de arquivos e diretórios:
-
-`br --sizes`
-
-- Inicia mostrando permissões:
-
-`br --permissions`
-
-- Inicia mostrando apenas diretórios:
-
-`br --only-folders`
-
-- Inicia mostrando arquivos ocultos e diretórios:
-
-`br --hidden`
+`tldr broot`

@@ -2,7 +2,7 @@
 
 > Un entorno de cuaderno computacional Python reactivo.
 > Combina características de Jupyter, Streamlit y otras herramientas de cuaderno computacional con ejecución reactiva.
-> Más información: <https://docs.marimo.io/cli>.
+> Más información: <https://docs.marimo.io/cli/>.
 
 - Crea o edita cuadernos iniciando un servidor marimo:
 

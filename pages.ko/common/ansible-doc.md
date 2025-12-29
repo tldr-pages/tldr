@@ -2,7 +2,7 @@
 
 > Ansible 라이브러리에 설치된 모듈에 대한 정보를 표시.
 > 플러그인과 간단한 설명의 정리된 목록을 표시.
-> 더 많은 정보: <https://docs.ansible.com/ansible/latest/cli/ansible-doc.html>.
+> 더 많은 정보: <https://docs.ansible.com/projects/ansible/latest/cli/ansible-doc.html>.
 
 - 사용 가능한 작업 플러그인(모듈) 목록:
 

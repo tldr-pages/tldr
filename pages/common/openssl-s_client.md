@@ -1,7 +1,7 @@
 # openssl s_client
 
 > OpenSSL command to create TLS client connections.
-> More information: <https://www.openssl.org/docs/manmaster/man1/openssl-s_client.html>.
+> More information: <https://docs.openssl.org/master/man1/openssl-s_client/>.
 
 - Display the start and expiry dates for a domain's certificate:
 

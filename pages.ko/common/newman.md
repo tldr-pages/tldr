@@ -1,7 +1,7 @@
 # newman
 
 > Postman의 컬렉션 실행 도구.
-> 더 많은 정보: <https://github.com/postmanlabs/newman>.
+> 더 많은 정보: <https://github.com/postmanlabs/newman#command-line-options>.
 
 - 컬렉션 실행 (파일에서):
 

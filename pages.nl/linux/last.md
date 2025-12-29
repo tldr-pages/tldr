@@ -27,7 +27,7 @@
 
 `last {{[-s|--since]}} {{-7days}}`
 
-- Bekijk alle geregistreerde herstarts (d.w.z. de laatste aanmeldingen van de pseudo-gebruiker “reboot”):
+- Bekijk alle geregistreerde herstarts (d.w.z. de laatste aanmeldingen van de pseudo-gebruiker "reboot"):
 
 `last reboot`
 

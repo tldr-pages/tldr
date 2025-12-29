@@ -2,7 +2,7 @@
 
 > TCP, UDP 및 원시 IP와 같은 프로토콜을 지원하는 고급 ping 유틸리티.
 > 높은 권한으로 실행하는 것이 가장 좋음.
-> 더 많은 정보: <https://github.com/antirez/hping>.
+> 더 많은 정보: <https://manned.org/hping3>.
 
 - 4개의 ICMP ping 요청으로 대상에 ping을 보냄:
 
@@ -20,7 +20,7 @@
 
 `hping3 --traceroute --verbose --syn --destport {{80}} {{ip_또는_호스트명}}`
 
-- 특정 IP 주소에서 TCP 포트 세트를 스캔 :
+- 특정 IP 주소에서 TCP 포트 세트를 스캔:
 
 `hping3 --scan {{80,3000,9000}} --syn {{ip_또는_호스트명}}`
 

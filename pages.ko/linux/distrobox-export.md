@@ -1,7 +1,8 @@
 # distrobox-export
 
-> 컨테이너에서 호스트 OS로 앱/서비스/바이너리를 내보냅니다. 같이 보기: `tldr distrobox`.
-> 더 많은 정보: <https://distrobox.it/usage/distrobox-export>.
+> 컨테이너에서 호스트 OS로 앱/서비스/바이너리를 내보냅니다.
+> 같이 보기: `distrobox`.
+> 더 많은 정보: <https://distrobox.it/usage/distrobox-export/>.
 
 - 컨테이너에서 호스트로 앱 내보내기 (데스크톱 항목/아이콘이 호스트 시스템의 응용 프로그램 목록에 나타납니다):
 

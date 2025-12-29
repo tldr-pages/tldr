@@ -1,7 +1,7 @@
 # choco new
 
 > Genera nuevos archivos de especificación de paquetes con Chocolatey.
-> Más información: <https://chocolatey.org/docs/commands-new>.
+> Más información: <https://docs.chocolatey.org/en-us/create/commands/new/>.
 
 - Crear una nueva estructura de paquete:
 

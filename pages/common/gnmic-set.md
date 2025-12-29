@@ -1,7 +1,7 @@
 # gnmic set
 
 > Modify gnmi network device configuration.
-> More information: <https://gnmic.kmrd.dev/cmd/set>.
+> More information: <https://gnmic.openconfig.net/cmd/set/>.
 
 - Update the value of a path:
 

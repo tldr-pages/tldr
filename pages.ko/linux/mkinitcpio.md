@@ -1,7 +1,7 @@
 # mkinitcpio
 
 > 지정된 프리셋을 기반으로 Linux 커널 부팅을 위한 초기 램디스크 환경을 생성합니다.
-> 더 많은 정보: <https://manned.org/mkinitcpio.8>.
+> 더 많은 정보: <https://manned.org/mkinitcpio>.
 
 - 실행하지 않고 수행할 작업을 출력하는 드라이 런 수행:
 

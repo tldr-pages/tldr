@@ -1,8 +1,8 @@
 # youtube-viewer
 
 > 搜索并播放 YouTube 上的视频。
-> 请参阅：`you-get`，`ytfzf`，`yt-dlp`。
-> 更多信息：<https://github.com/trizen/youtube-viewer>.
+> 另请参阅：`you-get`，`ytfzf`，`yt-dlp`。
+> 更多信息：<https://github.com/trizen/youtube-viewer>。
 
 - 搜索一个视频：
 

@@ -2,7 +2,7 @@
 
 > Start an interactive environment for evaluating Nix expressions.
 > See <https://nixos.org/manual/nix/stable/language/index.html> for a description of the Nix expression language.
-> More information: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-repl.html>.
+> More information: <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-repl.html>.
 
 - Start an interactive environment for evaluating Nix expressions:
 

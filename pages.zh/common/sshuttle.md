@@ -2,7 +2,7 @@
 
 > 通过 SSH 连接传输流量的透明代理服务器。
 > 不需要在远程 SSH 服务器上进行任何特殊设置，但会提示在本地机器上获取 root 访问权限。
-> 更多信息：<https://manned.org/sshuttle>.
+> 更多信息：<https://manned.org/sshuttle>。
 
 - 通过远程 SSH 服务器转发所有 IPv4 TCP 流量：
 

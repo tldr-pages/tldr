@@ -2,7 +2,7 @@
 
 > Manage Rust projects and their module dependencies (crates).
 > Some subcommands such as `build` have their own usage documentation.
-> More information: <https://doc.rust-lang.org/cargo>.
+> More information: <https://doc.rust-lang.org/stable/cargo/>.
 
 - Search for crates:
 
@@ -34,4 +34,4 @@
 
 - Build using a specific number of threads (default is the number of logical CPUs):
 
-`cargo {{[b|build]}} --jobs {{number_of_threads}}`
+`cargo {{[b|build]}} {{[-j|--jobs]}} {{number_of_threads}}`

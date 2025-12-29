@@ -1,7 +1,7 @@
 # google-chrome-stable
 
 > 이 명령은 `chromium`의 별칭입니다.
-> 더 많은 정보: <https://chrome.google.com>.
+> 더 많은 정보: <https://www.google.com/chrome/>.
 
 - 원본 명령에 대한 문서 보기:
 

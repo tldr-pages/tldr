@@ -1,9 +1,9 @@
 # choco pack
 
-> Empaqueta una especificación de NuGet en un archivo `nupkg`.
-> Más información: <https://chocolatey.org/docs/commands-pack>.
+> Empaqueta una especificación de NuGet en un archivo `.nupkg`.
+> Más información: <https://docs.chocolatey.org/en-us/create/commands/pack/>.
 
-- Empaquetar una especificación de NuGet en un archivo `nupkg`:
+- Empaquetar una especificación de NuGet en un archivo `.nupkg`:
 
 `choco pack {{ruta\al\archivo_especificacion}}`
 

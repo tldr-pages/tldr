@@ -1,13 +1,14 @@
 # man
 
 > Format and display manual pages.
+> See also: `whatis`, `apropos`.
 > More information: <https://manned.org/man>.
 
 - Display the man page for a command:
 
 `man {{command}}`
 
-- Open the man page for a command in a browser (`$BROWSER` environment variable can replace `=browser_name`):
+- Open the man page for a command in a browser (`=browser_name` can be omitted if `$BROWSER` is set):
 
 `man {{[-H|--html=]}}{{browser_name}} {{command}}`
 

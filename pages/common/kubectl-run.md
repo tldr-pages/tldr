@@ -1,7 +1,8 @@
 # kubectl run
 
-> Run pods in Kubernetes. Specifies pod generator to avoid deprecation error in some K8S versions.
-> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_run>.
+> Run pods in Kubernetes.
+> Specifies pod generator to avoid deprecation error in some K8S versions.
+> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_run/>.
 
 - Run an nginx pod and expose port 80:
 

@@ -1,6 +1,6 @@
 # shfmt
 
-> Shell parser, formatter and interpreter.
+> Shell parser, formatter, and interpreter.
 > More information: <https://pkg.go.dev/mvdan.cc/sh>.
 
 - Print a formatted version of a shell script:

@@ -1,7 +1,7 @@
 # nikto
 
 > 웹 서버에 대해 여러 항목에 대한 테스트를 수행하는 웹 서버 스캐너.
-> 더 많은 정보: <https://cirt.net/Nikto2>.
+> 더 많은 정보: <http://cirt.net/nikto/>.
 
 - 대상 호스트에 대해 기본 Nikto 스캔 수행:
 

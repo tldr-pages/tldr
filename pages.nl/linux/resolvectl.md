@@ -2,7 +2,7 @@
 
 > Resolve domeinnamen, IPv4 en IPv6 adressen, DNS resource records en services.
 > Bekijk en herconfigureer de DNS resolver.
-> Meer informatie: <https://www.freedesktop.org/software/systemd/man/resolvectl.html>.
+> Meer informatie: <https://www.freedesktop.org/software/systemd/man/latest/resolvectl.html>.
 
 - Toon DNS instellingen:
 

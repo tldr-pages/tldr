@@ -1,7 +1,7 @@
 # s
 
 > 터미널에서 웹 검색.
-> 더 많은 정보: <https://github.com/zquestz/s>.
+> 더 많은 정보: <https://github.com/zquestz/s#s>.
 
 - Google(기본 제공자)에서 쿼리 검색:
 

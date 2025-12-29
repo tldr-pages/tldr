@@ -1,7 +1,7 @@
 # cp
 
 > 複製檔案或整個目錄。
-> 更多資訊：<https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
+> 更多資訊：<https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>。
 
 - 將檔案複製到另一個位置：
 
@@ -19,7 +19,7 @@
 
 `cp {{[-vr|--verbose --recursive]}} {{目錄一/完整/路徑}} {{目錄二/完整/路徑}}`
 
-- 一次複製多個檔案至目錄下
+- 一次複製多個檔案至目錄下：
 
 `cp {{[-t|--target-directory]}} {{目錄/完整/路徑}} {{檔案一/完整/路徑 檔案二/完整/路徑 ...}}`
 

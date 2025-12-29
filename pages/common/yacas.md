@@ -1,21 +1,21 @@
 # yacas
 
 > Yet Another Computer Algebra System.
-> More information: <https://www.yacas.org>.
+> More information: <https://www.yacas.org/>.
 
 - Start an interactive `yacas` session:
 
 `yacas`
 
-- While in a `yacas` session, execute a statement:
+- [Interactive] While in a `yacas` session, execute a statement:
 
 `{{Integrate(x)Cos(x)}};`
 
-- While in a `yacas` session, display an example:
+- [Interactive] While in a `yacas` session, display an example:
 
 `Example();`
 
-- Quit from a `yacas` session:
+- [Interactive] Quit from a `yacas` session:
 
 `quit`
 

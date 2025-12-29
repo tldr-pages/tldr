@@ -22,4 +22,4 @@
 
 - Subscribe to target state updates under the subtree at a specific path:
 
-`gnmic {{[-a|--address]}} {{ip:port}} subscribe --path {{path}}`
+`gnmic {{[-a|--address]}} {{ip:port}} {{[sub|subscribe]}} --path {{path}}`

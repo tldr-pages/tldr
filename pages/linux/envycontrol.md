@@ -7,9 +7,9 @@
 
 `sudo envycontrol {{[-s|--switch]}} {{nvidia|integrated|hybrid}}`
 
-- Specify your display manager manually:
+- Specify your [d]isplay [m]anager manually:
 
-`envycontrol --dm`
+`envycontrol --dm {{gdm|gdm3|sddm|lightdm}}`
 
 - Check current GPU mode:
 

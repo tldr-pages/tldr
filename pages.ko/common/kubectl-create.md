@@ -1,7 +1,7 @@
 # kubectl create
 
 > 파일 또는 `stdin`에서 리소스를 생성.
-> 더 많은 정보: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_create>.
+> 더 많은 정보: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_create/>.
 
 - 리소스 정의 파일을 사용하여 리소스 생성:
 
