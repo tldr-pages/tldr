@@ -21,7 +21,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | es    | ruta/al/archivo       | ruta/al/directorio       | ruta/al/archivo_o_directorio       | paquete     | usuario            | contraseña | comando | puerto | valor |
 | fa    | path/to/file          | path/to/directory        | path/to/file_or_directory          | package     | username           | password | command | port | value |
 | fi    | polku/tiedostoon      | polku/hakemistoon        | polku/tiedostoon_tai_hakemistoon   | paketti     | käyttäjätunnus     | salasana | komento | portti | arvo |
-| fr    | chemin/vers/fichier   | chemin/vers/dossier      | chemin/vers/fichier_ou_dossier     | paquet      | nom_d_utilisateur  |          |
+| fr    | chemin/vers/fichier   | chemin/vers/dossier      | chemin/vers/fichier_ou_dossier     | paquet      | nom_d_utilisateur  | mot_de_passe | commande | port | valeur |
 | hi    | फ़ाइल/का/पथ            | निर्देशिका/का/पथ           | फ़ाइल_या_निर्देशिका/का/पथ             | पैकेज         | उपयोगकर्ता_नाम      |          |
 | id    | jalan/menuju/berkas   | jalan/menuju/direktori   | jalan/menuju/berkas_atau_direktori | paket       | nama_pengguna      |          |
 | it    | percorso/del/file     | percorso/della/directory | percorso/del/file_o_directory      | pacchetto   | nome_utente        |          |
