@@ -30,8 +30,8 @@
 
 - [Interactive] Replace a string with a specific replacement for all lines:
 
-`,s/{{regex}}/{{replacement}}/g<Enter>`
+`,s/{{regex}}/{{replacement}}/g`
 
 - [Interactive] Exit `ed`:
 
-`q<Enter>`
+`q`
