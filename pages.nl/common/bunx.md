@@ -14,7 +14,7 @@
 
 - Forceer een uitvoerbaar bestand om te draaien met de `Bun` runtime (in plaats van `Node`):
 
-`bunx --bun {{package_name}}`
+`bunx --bun {{pakket_naam}}`
 
 - Voer een binair bestand uit dat een andere naam heeft dan zijn pakket:
 
