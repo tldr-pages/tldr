@@ -4,14 +4,14 @@
 > Non dovrebbe essere invocato manualmente.
 > Maggiori informazioni: <https://manned.org/auditd>.
 
-- Avvia il demone:
+- Avvia il daemon:
 
 `auditd`
 
-- Avvia il demone in modalità debug:
+- Avvia il daemon in modalità debug:
 
 `auditd -d`
 
-- Avvia il demone su richiesta da launchd:
+- Avvia il daemon su richiesta da launchd:
 
 `auditd -l`
