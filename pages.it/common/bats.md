@@ -5,7 +5,7 @@
 
 - Esegui uno script di test BATS e outputta i risultati in formato TAP (Test Anything Protocol):
 
-`bats {{-t|--tap}} {{percorso/del/test.bats}}`
+`bats {{[-t|--tap]}} {{percorso/del/test.bats}}`
 
 - Conta i casi di test di uno script senza eseguirli:
 
