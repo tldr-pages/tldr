@@ -5,7 +5,7 @@
 
 - Starte khal im interaktiven Modus:
 
-`ikhal`
+`khal interactive`
 
 - Gib alle Termine aus, die im Kalender "privat" in den nächsten sieben Tagen geplant sind:
 
