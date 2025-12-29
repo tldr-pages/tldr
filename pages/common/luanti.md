@@ -23,7 +23,7 @@
 
 `luanti --server --world {{world_name}}`
 
-- Start a server in a specific port:
+- Start a server on a specific port:
 
 `luanti --server --port {{port}}`
 
