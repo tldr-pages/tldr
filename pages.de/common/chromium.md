@@ -5,23 +5,23 @@
 
 - Öffne eine bestimmte Datei oder URL:
 
-`chromium {{https://beispiel.com|pfad/zu/datei.html}}`
+`chromium {{https://example.com|pfad/zu/datei.html}}`
 
 - Öffne eine URL im Inkognito-Modus:
 
-`chromium --incognito {{beispiel.com}}`
+`chromium --incognito {{example.com}}`
 
 - Öffne eine URL in einem neuen Fenster:
 
-`chromium --new-window {{beispiel.com}}`
+`chromium --new-window {{example.com}}`
 
 - Öffne eine URL im Anwendungsmodus (ohne Symbolleisten, Suchleiste, Schaltflächen usw.):
 
-`chromium --app={{https://beispiel.com}}`
+`chromium --app={{https://example.com}}`
 
 - Öffne eine URL und verwende einen Proxy-Server:
 
-`chromium --proxy-server="{{socks5://hostname:66}}" {{beispiel.com}}`
+`chromium --proxy-server="{{socks5://hostname:66}}" {{example.com}}`
 
 - Öffne Chromium mit einem eigenen Profil-Verzeichnis:
 
