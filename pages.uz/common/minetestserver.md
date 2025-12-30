@@ -1,7 +1,7 @@
 # minetestserver
 
-> Ushbu buyruq taxallus `luantiserver`.
+> Ushbu buyruq taxallus `luanti --server`.
 
 - Asl buyruq uchun hujjatlarni ko'rish:
 
-`tldr luantiserver`
+`tldr luanti`

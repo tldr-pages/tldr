@@ -5,12 +5,12 @@
 
 - Carrega uma imagem do Docker a partir do `stdin`:
 
-`docker load < {{caminho/para/arquivo_imagem.tar}}`
+`docker < {{caminho/para/arquivo_imagem.tar}} {{[load|image load]}}`
 
 - Carrega uma imagem do Docker a partir de um arquivo específico:
 
-`docker load {{[-i|--input]}} {{caminho/para/arquivo_imagem.tar}}`
+`docker {{[load|image load]}} {{[-i|--input]}} {{caminho/para/arquivo_imagem.tar}}`
 
 - Carrega uma imagem do Docker a partir de um arquivo específico no modo silencioso:
 
-`docker load {{[-q|--quiet]}} {{[-i|--input]}} {{caminho/para/arquivo_imagem.tar}}`
+`docker {{[load|image load]}} {{[-q|--quiet]}} {{[-i|--input]}} {{caminho/para/arquivo_imagem.tar}}`

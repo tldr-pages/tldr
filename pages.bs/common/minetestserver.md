@@ -1,7 +1,7 @@
 # minetestserver
 
-> Ova komanda je pseudonim za `luantiserver`.
+> Ova komanda je pseudonim za `luanti --server`.
 
 - Pogledaj dokumentaciju za izvornu komandu:
 
-`tldr luantiserver`
+`tldr luanti`
