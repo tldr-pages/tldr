@@ -9,7 +9,7 @@
 
 - 从指定路径，安装软件包：
 
-`adb shell pm install /{{路径/到/软件包.apk}}`
+`adb shell pm install /{{路径/到/软件包}}.apk`
 
 - 从设备卸载一个包：
 

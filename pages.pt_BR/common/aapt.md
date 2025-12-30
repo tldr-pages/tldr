@@ -6,12 +6,12 @@
 
 - Lista os arquivos contigos em um arquivo APK:
 
-`aapt list {{caminho/para/aplicativo.apk}}`
+`aapt list {{caminho/para/aplicativo}}.apk`
 
 - Exibe os metadados de um aplicavio (versão, permissão, etc.):
 
-`aapt dump badging {{caminho/para/aplicativo.apk}}`
+`aapt dump badging {{caminho/para/aplicativo}}.apk`
 
 - Cria um novo arquivo APK com os arquivos especificados no diretório:
 
-`aapt package -F {{caminho/para/aplicativo.apk}} {{caminho/para/diretório}}`
+`aapt package -F {{caminho/para/aplicativo}}.apk {{caminho/para/diretório}}`

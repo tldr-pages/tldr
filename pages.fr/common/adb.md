@@ -18,7 +18,7 @@
 
 - Pousse une application Android vers l'émulateur/l'appareil :
 
-`adb install -r {{chemin/vers/le/fichier.apk}}`
+`adb install -r {{chemin/vers/le/fichier}}.apk`
 
 - Copie un fichier/dossier depuis l'appareil ciblé :
 
