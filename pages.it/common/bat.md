@@ -26,7 +26,7 @@
 
 - Rimuove tutte le decorazioni tranne i numeri di riga nell'output:
 
-`bat {{-n|--number}} {{percorso/del/file}}`
+`bat {{[-n|--number]}} {{percorso/del/file}}`
 
 - Evidenzia la sintassi di un file JSON impostando esplicitamente il linguaggio:
 
