@@ -1,7 +1,7 @@
 # git am
 
 > Zastosuj pliki poprawki i utwórz commit. Przydatne przy otrzymywaniu commitów przez email.
-> Zobacz także `git format-patch`, który może generować pliki poprawki.
+> Zobacz także: `git format-patch`, który może generować pliki poprawki.
 > Więcej informacji: <https://git-scm.com/docs/git-am>.
 
 - Zastosuj i komituj zmiany z lokalnego pliku poprawki:
