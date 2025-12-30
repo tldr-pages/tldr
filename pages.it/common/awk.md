@@ -35,4 +35,4 @@
 
 - Stampa una tabella degli utenti con UID >=1000 con intestazione e output formattato, usando i due punti come separatore (`%-20s` significa: 20 caratteri stringa allineati a sinistra, `%6s` significa: 6 caratteri stringa allineati a destra):
 
-`awk 'BEGIN {FS=":";printf "%-20s %6s %25s\n", "Nome", "UID", "Shell"} $4 >= 1000 {printf "%-20s %6d %25s\n", $1, $4, $7}' /etc/passwd`
+`awk 'BEGIN {FS=":";printf "%-20s %6s %25s\n", "Name", "UID", "Shell"} $4 >= 1000 {printf "%-20s %6d %25s\n", $1, $4, $7}' /etc/passwd`
