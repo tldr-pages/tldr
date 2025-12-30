@@ -28,12 +28,6 @@
 
 `<r>sel`
 
-- Display help:
-
-`<?>`
-
-- Exit CliFM:
-
 - Exit CliFM:
 
 `<q>`
