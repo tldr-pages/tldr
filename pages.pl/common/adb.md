@@ -18,7 +18,7 @@
 
 - Wyślij aplikację Android do emulatora/urządzenia:
 
-`adb install -r {{ścieżka/do/pliku.apk}}`
+`adb install -r {{ścieżka/do/pliku}}.apk`
 
 - Skopiuj plik/katalog z urządzenia docelowego:
 

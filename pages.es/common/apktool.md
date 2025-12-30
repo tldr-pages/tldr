@@ -5,7 +5,7 @@
 
 - Decodifica un archivo APK:
 
-`apktool d {{archivo.apk}}`
+`apktool d {{archivo}}.apk`
 
 - Construye un archivo APK desde un directorio:
 
@@ -13,4 +13,4 @@
 
 - Instala y almacena un framework:
 
-`apktool if {{framework.apk}}`
+`apktool if {{framework}}.apk`

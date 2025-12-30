@@ -18,7 +18,7 @@
 
 - Installa un'applicazione Android su un emulatore/dispositivo:
 
-`adb install -r {{percorso/del/file.apk}}`
+`adb install -r {{percorso/del/file}}.apk`
 
 - Copia un file/directory dal dispositivo target:
 
