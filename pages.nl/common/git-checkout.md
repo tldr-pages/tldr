@@ -23,11 +23,11 @@
 
 `git checkout {{[-t|--track]}} {{remote_naam}}/{{branch_naam}}`
 
-- Verwijder alle niet gefaseerde wijzigingen in de huidige map (zie `git reset` voor meer ongedaan maken-achtige commando's):
+- Verwijder alle niet-toegevoegde wijzigingen in de huidige map (zie `git reset` voor meer ongedaan maken-achtige commando's):
 
 `git checkout .`
 
-- Verwijder onbewerkte wijzigingen aan een bepaald bestand:
+- Verwijder niet-toegevoegde wijzigingen aan een bepaald bestand:
 
 `git checkout {{pad/naar/bestand}}`
 
