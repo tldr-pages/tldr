@@ -1,7 +1,7 @@
 # minetestserver
 
-> Αυτή η εντολή είναι ψευδώνυμο της εντολής `luantiserver`.
+> Αυτή η εντολή είναι ψευδώνυμο της εντολής `luanti --server`.
 
 - Δείτε το εγχειρίδιο της αρχικής εντολής:
 
-`tldr luantiserver`
+`tldr luanti`

@@ -25,7 +25,7 @@
 
 - Create an image without pausing the container during commit:
 
-`docker {{[commit|container commit]}} {{[-p|--pause]}} {{false}} {{container}} {{image}}:{{tag}}`
+`docker {{[commit|container commit]}} {{[-p|--pause]}} false {{container}} {{image}}:{{tag}}`
 
 - Display help:
 
