@@ -1,6 +1,6 @@
 # aws
 
-> Il tool da riga di comando ufficiale per Amazon Web Services.
+> Il tool da linea di comando ufficiale per Amazon Web Services.
 > Alcuni sottocomandi, come `s3`, hanno la propria documentazione.
 > Maggiori informazioni: <https://docs.aws.amazon.com/cli/latest/reference/>.
 
