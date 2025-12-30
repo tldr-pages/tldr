@@ -27,4 +27,4 @@
 
 - Mostra le voci nel database di `autojump`:
 
-`j -s`
+`j {{[-s|--stat]}}`
