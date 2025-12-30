@@ -14,7 +14,7 @@
 
 - Crea un nuevo archivo y un nuevo directorio:
 
-`<n>archivo dir/`
+`<n>file dir/`
 
 - Busca archivos PDF en el directorio actual:
 
