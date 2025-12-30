@@ -34,4 +34,10 @@
 
 - Exit CliFM:
 
+- Exit CliFM:
+
 `<q>`
+
+- Display help:
+
+`<?>`
