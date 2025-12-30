@@ -2,7 +2,7 @@
 
 > Twórz skróty dla komend Gita.
 > Jest częścią `git-extras`.
-> Więcej informacji: <https://github.com/tj/git-extras/blob/master/Commands.md#git-alias>.
+> Więcej informacji: <https://github.com/tj/git-extras/blob/main/Commands.md#git-alias>.
 
 - Wyświetl wszystkie aliasy:
 

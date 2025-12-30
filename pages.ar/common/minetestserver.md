@@ -1,7 +1,7 @@
 # minetestserver
 
-> هذا الأمر هو اسم مستعار لـ `luantiserver`.
+> هذا الأمر هو اسم مستعار لـ `luanti --server`.
 
 - إعرض التوثيقات للأمر الأصلي:
 
-`tldr luantiserver`
+`tldr luanti`

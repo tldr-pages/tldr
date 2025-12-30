@@ -1,7 +1,7 @@
 # git ignore-io
 
 > Erstelle `.gitignore` Dateien aus vorgefertigten Vorlagen.
-> Weitere Informationen: <https://github.com/tj/git-extras/blob/master/Commands.md#git-ignore-io>.
+> Weitere Informationen: <https://github.com/tj/git-extras/blob/main/Commands.md#git-ignore-io>.
 
 - Liste alle verfügbaren Vorlagen auf:
 

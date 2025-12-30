@@ -1,28 +1,28 @@
 # docker image ls
 
-> Manage Docker images.
+> List Docker images.
 > More information: <https://docs.docker.com/reference/cli/docker/image/ls/>.
 
 - List all Docker images:
 
-`docker image ls`
+`docker {{[images|image ls]}}`
 
 - List all Docker images including intermediates:
 
-`docker image ls {{[-a|--all]}}`
+`docker {{[images|image ls]}} {{[-a|--all]}}`
 
 - List the output in quiet mode (only numeric IDs):
 
-`docker image ls {{[-q|--quiet]}}`
+`docker {{[images|image ls]}} {{[-q|--quiet]}}`
 
 - List all Docker images not used by any container:
 
-`docker image ls {{[-f|--filter]}} dangling=true`
+`docker {{[images|image ls]}} {{[-f|--filter]}} dangling=true`
 
 - List images that contain a substring in their name:
 
-`docker image ls "{{*name*}}"`
+`docker {{[images|image ls]}} "{{*name*}}"`
 
 - Sort images by size:
 
-`docker image ls --format "\{\{.ID\}\}\t\{\{.Size\}\}\t\{\{.Repository\}\}:\{\{.Tag\}\}" | sort {{[-k|--key]}} 2 {{[-h|--human-numeric-sort]}}`
+`docker {{[images|image ls]}} --format "\{\{.ID\}\}\t\{\{.Size\}\}\t\{\{.Repository\}\}:\{\{.Tag\}\}" | sort {{[-k|--key]}} 2 {{[-h|--human-numeric-sort]}}`

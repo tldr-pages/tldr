@@ -1,7 +1,7 @@
 # sh
 
 > Bourne shell, the standard command language interpreter.
-> See also: `!` and `^` for history expansion.
+> See also: `!`, `^`.
 > More information: <https://manned.org/sh>.
 
 - Start an interactive shell session:
