@@ -30,7 +30,7 @@
 
 - Evidenzia la sintassi di un file JSON impostando esplicitamente il linguaggio:
 
-`bat {{-l|--language}} json {{percorso/del/file.json}}`
+`bat {{[-l|--language]}} json {{percorso/del/file.json}}`
 
 - Visualizza tutti i linguaggi supportati:
 
