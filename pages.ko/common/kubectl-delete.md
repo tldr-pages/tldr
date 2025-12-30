@@ -5,7 +5,7 @@
 
 - 특정 포드 삭제:
 
-`kubectl delete {{[po|pod]}} {{포드_이름}}`
+`kubectl delete {{[po|pods]}} {{포드_이름}}`
 
 - 특정 배포 삭제:
 
@@ -13,7 +13,7 @@
 
 - 특정 노드 삭제:
 
-`kubectl delete {{[no|node]}} {{노드_이름}}`
+`kubectl delete {{[no|nodes]}} {{노드_이름}}`
 
 - 지정된 네임스페이스의 모든 포드 삭제:
 

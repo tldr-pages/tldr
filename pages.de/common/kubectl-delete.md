@@ -5,7 +5,7 @@
 
 - Lösche einen bestimmten Pod:
 
-`kubectl delete {{[po|pod]}} {{pod_name}}`
+`kubectl delete {{[po|pods]}} {{pod_name}}`
 
 - Lösche ein bestimmtes Deployment:
 
@@ -13,7 +13,7 @@
 
 - Lösche eine bestimmte Node:
 
-`kubectl delete {{[no|node]}} {{node_name}}`
+`kubectl delete {{[no|nodes]}} {{node_name}}`
 
 - Lösche alle Pods in einem bestimmten Namespaces:
 
