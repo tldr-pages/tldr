@@ -9,15 +9,15 @@
 
 - Conta i casi di test di uno script senza eseguirli:
 
-`bats {{-c|--count}} {{percorso/del/test.bats}}`
+`bats {{[-c|--count]}} {{percorso/del/test.bats}}`
 
 - Esegui i casi di test BATS ricorsivamente (file con estensione `.bats`):
 
-`bats {{-r|--recursive}} {{percorso/directory}}`
+`bats {{[-r|--recursive]}} {{percorso/directory}}`
 
 - Outputta i risultati in un formato specifico:
 
-`bats {{-F|--formatter}} {{pretty|tap|tap13|junit}} {{percorso/del/test.bats}}`
+`bats {{[-F|--formatter]}} {{pretty|tap|tap13|junit}} {{percorso/del/test.bats}}`
 
 - Aggiungi informazioni di timing ai test:
 
@@ -25,4 +25,4 @@
 
 - Esegui un numero specifico di job in parallelo (richiede GNU `parallel` installato):
 
-`bats {{-j|--jobs}} {{numero}} {{percorso/del/test.bats}}`
+`bats {{[-j|--jobs]}} {{numero}} {{percorso/del/test.bats}}`
