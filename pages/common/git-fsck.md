@@ -1,8 +1,8 @@
 # git fsck
 
 > Verify the validity and connectivity of nodes in a Git repository index.
-> Does not make any modifications.
-> See also: `git gc` for cleaning up dangling blobs.
+> Note: Does not make any modifications.
+> See also: `git gc`.
 > More information: <https://git-scm.com/docs/git-fsck>.
 
 - Check the current repository:
