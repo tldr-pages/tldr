@@ -18,7 +18,7 @@
 
 - Stuur een Android-applicatie naar de emulator/het apparaat:
 
-`adb install -r {{pad/naar/bestand.apk}}`
+`adb install -r {{pad/naar/bestand}}.apk`
 
 - Kopiëer een bestand/map van het doelapparaat:
 

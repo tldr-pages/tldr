@@ -1,7 +1,7 @@
 # mysqldump
 
 > Crea una copia de seguridad (backup) de bases de datos MySQL.
-> Vea también `mysql` para restaurar bases de datos.
+> Vea también: `mysql` para restaurar bases de datos.
 > Más información: <https://dev.mysql.com/doc/refman/en/mysqldump.html>.
 
 - Crea un backup (se le pedirá la contraseña al usuario):

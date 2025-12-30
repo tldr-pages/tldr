@@ -18,7 +18,7 @@
 
 - Instala um app Android no emulador/dispositivo:
 
-`adb install -r {{caminho/para/arquivo.apk}}`
+`adb install -r {{caminho/para/arquivo}}.apk`
 
 - Copia um arquivo/pasta do dispositivo desejado:
 
