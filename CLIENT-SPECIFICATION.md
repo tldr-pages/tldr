@@ -234,7 +234,7 @@ Step  | Path checked         | Outcome
 
 If appropriate, it is RECOMMENDED that clients implement a cache of pages. If implemented, clients MUST download the entire archive either as a whole from **<https://github.com/tldr-pages/tldr/releases/latest/download/tldr.zip>** or download language-specific archives in the format `https://github.com/tldr-pages/tldr/releases/latest/download/tldr-pages.{{language-code}}.zip` (e.g. **<https://github.com/tldr-pages/tldr/releases/latest/download/tldr-pages.en.zip>**). The English archive is also available from **<https://github.com/tldr-pages/tldr/releases/latest/download/tldr-pages.zip>**.
 
-System-wide cache should be placed in `/usr/share/tldr/tldr.zip`. The user generated cache should be prioritized, with the system-wide cache being checked only on a cache miss.
+System-wide cache can be placed in `/usr/share/tldr/` with a directory layout identical to the user cache. The user generated cache should be prioritized, with the system-wide cache being checked only on a cache miss.
 
 > [!CAUTION]
 > Prior to version 2.2, the client specification stated that clients MUST download archives from <https://tldr.sh/assets>. This method is now deprecated, and **_will be removed_** in December 2025.
