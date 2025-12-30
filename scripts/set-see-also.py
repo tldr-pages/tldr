@@ -99,7 +99,9 @@ def set_see_also(
     """
 
     locale = get_locale(path)
-    if language_to_update != "" and locale != language_to_update:
+    if locale not in config.templates or (
+        language_to_update != "" and locale != language_to_update
+    ):
         # return empty status to indicate that no changes were made
         return ""
 
@@ -118,19 +120,18 @@ def set_see_also(
             break
 
     new_line = config.templates[locale].replace("`example`", see_also)
-    see_also = config.templates[locale].replace(": `example`.", "").strip()
 
     if lines[desc_end - 1] == new_line:
         # return empty status to indicate that no changes were made
         return ""
 
-    if re.search(rf"^{see_also}", lines[desc_end - 1]):
+    if re.search(r"^>.*: `", lines[desc_end - 1]):
         # overwrite second last line
         lines[desc_end - 1] = new_line
         action = "updated"
     else:
         # add new line
-        lines.insert(desc_end - 1, new_line)
+        lines.insert(desc_end, new_line)
         action = "added"
 
     status = get_status(action, dry_run, "see also")
