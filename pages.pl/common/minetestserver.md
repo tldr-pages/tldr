@@ -1,7 +1,7 @@
 # minetestserver
 
-> To polecenie jest aliasem `luantiserver`.
+> To polecenie jest aliasem `luanti --server`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr luantiserver`
+`tldr luanti`

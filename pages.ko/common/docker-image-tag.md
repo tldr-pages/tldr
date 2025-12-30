@@ -5,12 +5,12 @@
 
 - 특정 이미지 ID에 이름과 태그 지정:
 
-`docker tag {{id}} {{이름}}:{{태그}}`
+`docker {{[tag|image tag]}} {{id}} {{이름}}:{{태그}}`
 
 - 특정 이미지에 태그 지정:
 
-`docker tag {{이미지}}:{{현재_태그}} {{이미지}}:{{새_태그}}`
+`docker {{[tag|image tag]}} {{이미지}}:{{현재_태그}} {{이미지}}:{{새_태그}}`
 
 - 도움말 표시:
 
-`docker tag`
+`docker {{[tag|image tag]}}`

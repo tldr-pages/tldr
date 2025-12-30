@@ -1,7 +1,7 @@
 # minetestserver
 
-> Ова наредба је псеудоним `luantiserver`.
+> Ова наредба је псеудоним `luanti --server`.
 
 - Погледајте документацију за оригиналну команду:
 
-`tldr luantiserver`
+`tldr luanti`

@@ -1,7 +1,7 @@
 # distrobox-export
 
 > Exporteer app/service/binary van container naar host-besturingssysteem.
-> Bekijk ook: `distrobox`.
+> Zie ook: `distrobox`.
 > Meer informatie: <https://distrobox.it/usage/distrobox-export/>.
 
 - Exporteer een app van de container naar de host (het desktop pictogram verschijnt in de applicatielijst van uw hostsysteem):

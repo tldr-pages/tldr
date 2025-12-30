@@ -1,7 +1,7 @@
 # lsipc
 
 > Show information on System V IPC facilities currently employed in the system.
-> See also: `ipcs` for the older tool.
+> See also: `ipcs`.
 > More information: <https://manned.org/lsipc>.
 
 - Show information about all active IPC facilities:

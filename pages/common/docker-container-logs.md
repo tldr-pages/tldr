@@ -13,7 +13,7 @@
 
 - Print last 5 lines:
 
-`docker {{[logs|container logs]}} {{container_name}} {{[-n|--tail]}} {{5}}`
+`docker {{[logs|container logs]}} {{container_name}} {{[-n|--tail]}} 5`
 
 - Print logs and append them with timestamps:
 

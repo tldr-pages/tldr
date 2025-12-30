@@ -2,7 +2,7 @@
 
 > Traz o código via checkout dos pull requests do GitHub localmente.
 > Parte do `git-extras`.
-> Mais informações: <https://github.com/tj/git-extras/blob/master/Commands.md#git-pr>.
+> Mais informações: <https://github.com/tj/git-extras/blob/main/Commands.md#git-pr>.
 
 - Traz o código específico de um pull request:
 

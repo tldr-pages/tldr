@@ -1,7 +1,7 @@
 # systemctl list-unit-files
 
 > List installed unit files and their enablement states.
-> See also: `systemctl list-units` for listing units currently loaded in memory.
+> See also: `systemctl list-units`.
 > More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#list-unit-files%20PATTERN%E2%80%A6>.
 
 - List installed unit files and their states:

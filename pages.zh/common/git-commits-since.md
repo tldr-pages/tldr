@@ -2,7 +2,7 @@
 
 > 显示从指定时间点以来的提交记录。
 > 属于 `git-extras` 一部分。
-> 更多信息：<https://github.com/tj/git-extras/blob/master/Commands.md#git-commits-since>。
+> 更多信息：<https://github.com/tj/git-extras/blob/main/Commands.md#git-commits-since>。
 
 - 显示从昨天以来的所有提交：
 

@@ -2,7 +2,7 @@
 
 > Cria comandos curtos para comandos Git.
 > Parte do `git-extras`.
-> Mais informações: <https://github.com/tj/git-extras/blob/master/Commands.md#git-alias>.
+> Mais informações: <https://github.com/tj/git-extras/blob/main/Commands.md#git-alias>.
 
 - Lista todos os comandos curtos:
 
