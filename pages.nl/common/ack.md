@@ -1,7 +1,7 @@
 # ack
 
 > Een zoektool zoals grep, geoptimaliseerd voor ontwikkelaars.
-> Zie ook: `rg`, dat is veel sneller.
+> Zie ook: `rg`.
 > Meer informatie: <https://beyondgrep.com/documentation/>.
 
 - Zoek recursief naar bestanden met een tekenreeks of reguliere expressie in de huidige map:
