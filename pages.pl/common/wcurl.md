@@ -10,7 +10,7 @@
 
 - Pobierz zawartość URL do pliku o określonej nazwie:
 
-`wcurl {{[-o|--output]}} {{bar}} {{https://example.com/foo}}`
+`wcurl {{[-o|--output]}} {{ścieżka/do/pliku}} {{https://example.com/foo}}`
 
 - Pobierz zawartość URL, wyświetl pasek postępu i domyślnie użyj HTTP/2:
 

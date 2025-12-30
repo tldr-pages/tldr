@@ -10,7 +10,7 @@
 
 - Download the contents of a URL to a file with a specified name:
 
-`wcurl {{[-o|--output]}} {{bar}} {{https://example.com/foo}}`
+`wcurl {{[-o|--output]}} {{path/to/file}} {{https://example.com/foo}}`
 
 - Download the contents of a URL, enabling progress bar and defaulting to HTTP/2:
 
