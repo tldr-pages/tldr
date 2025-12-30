@@ -2,7 +2,7 @@
 
 > `git clone`의 기본 기능을 제공하지만, 대상 Git 저장소가 이미 존재하는 경우 원격의 클론으로 강제 리셋합니다.
 > `git-extras`의 일부입니다.
-> 더 많은 정보: <https://github.com/tj/git-extras/blob/master/Commands.md#git-force-clone>.
+> 더 많은 정보: <https://github.com/tj/git-extras/blob/main/Commands.md#git-force-clone>.
 
 - 새로운 디렉토리에 Git 저장소 클론:
 
