@@ -1,7 +1,7 @@
 # docker container update
 
 > Update configuration of Docker containers.
-> This command is not supported for Windows containers.
+> Note: This command is not supported for Windows containers.
 > More information: <https://docs.docker.com/reference/cli/docker/container/update/>.
 
 - Update restart policy to apply when a specific container exits:

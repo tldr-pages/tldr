@@ -5,16 +5,16 @@
 
 - Sauvegarder une image en redirigeant la sortie standard vers une archive `.tar` :
 
-`docker save {{image}}:{{etquette}} > {{chemin/vers/fichier.tar}}`
+`docker {{[save|image save]}} {{image}}:{{etquette}} > {{chemin/vers/fichier.tar}}`
 
 - Sauvegarder une image dans une archive `.tar` :
 
-`docker save {{[-o|--output]}} {{chemin/vers/fichier.tar}} {{image}}:{{etquette}}`
+`docker {{[save|image save]}} {{[-o|--output]}} {{chemin/vers/fichier.tar}} {{image}}:{{etquette}}`
 
 - Sauvegarder toutes les étiquettes de l'image :
 
-`docker save {{[-o|--output]}} {{chemin/vers/fichier.tar}} {{nom_de_l_image}}`
+`docker {{[save|image save]}} {{[-o|--output]}} {{chemin/vers/fichier.tar}} {{nom_de_l_image}}`
 
 - Sélectionner des étiquettes particulières d'une image à sauvegarder :
 
-`docker save {{[-o|--output]}} {{chemin/vers/fichier.tar}} {{nom_de_l_image:etquette1 nom_de_l_image:etquette2 ...}}`
+`docker {{[save|image save]}} {{[-o|--output]}} {{chemin/vers/fichier.tar}} {{nom_de_l_image:etquette1 nom_de_l_image:etquette2 ...}}`

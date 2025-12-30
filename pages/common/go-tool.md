@@ -10,7 +10,7 @@
 
 - Run the go link tool:
 
-`go tool link {{path/to/main.o}}`
+`go tool link {{path/to/main.go}}`
 
 - Print the command that would be executed, but do not execute it (similar to `whereis`):
 
