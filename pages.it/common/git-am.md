@@ -1,7 +1,7 @@
 # git am
 
 > Applica file di patch. Utile quando si ricevono commit via email.
-> Vedi anche `git format-patch` per generare file di patch.
+> Vedi anche: `git format-patch` per generare file di patch.
 > Maggiori informazioni: <https://git-scm.com/docs/git-am>.
 
 - Applica un file di patch:

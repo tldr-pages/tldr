@@ -2,7 +2,7 @@
 
 > Cambia saltos de línea con formato DOS a saltos de línea con formato Unix.
 > Reemplaza CRLF con LF.
-> Vea también `unix2dos`, `unix2mac`, y `mac2unix`.
+> Vea también: `unix2dos`, `unix2mac`, y `mac2unix`.
 > Más información: <https://manned.org/dos2unix>.
 
 - Cambia los saltos de línea de un archivo:
