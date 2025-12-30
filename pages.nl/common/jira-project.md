@@ -1,6 +1,6 @@
 # jira project
 
-> Beheer Jira projecten.
+> Beheer Jira-projecten.
 > Meer informatie: <https://github.com/ankitpokhrel/jira-cli#other-commands>.
 
 - Toon alle projecten:

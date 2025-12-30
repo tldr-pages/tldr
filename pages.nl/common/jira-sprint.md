@@ -1,6 +1,6 @@
 # jira sprint
 
-> Beheer sprints in een Jira project bord.
+> Beheer sprints in een Jira-projectbord.
 > Meer informatie: <https://github.com/ankitpokhrel/jira-cli#sprint>.
 
 - Toon alle sprints en hun issues in een verkennerweergave:
