@@ -1,25 +1,37 @@
 # aws
 
-> Il tool da linea di comando ufficiale per Amazon Web Services.
-> Alcuni comandi aggiuntivi, come `s3`, hanno la propria documentazione.
+> Il tool da riga di comando ufficiale per Amazon Web Services.
+> Alcuni sottocomandi, come `s3`, hanno la propria documentazione.
 > Maggiori informazioni: <https://docs.aws.amazon.com/cli/latest/reference/>.
 
-- Lista tutti gli utenti IAM (Identity and Access Management):
+- Configura l'AWS Command Line tramite procedura guidata:
 
-`aws iam list-users`
+`aws configure wizard`
 
-- Lista tutte le instanze EC2 per una specifica regione:
+- Configura l'AWS Command Line usando SSO:
 
-`aws ec2 describe-instances --region {{us-east-1}}`
+`aws configure sso`
 
-- Ricevi un messaggio da una specifica coda SQS:
+- Mostra l'identità del chiamante (utile per diagnosticare problemi di permessi):
 
-`aws sqs receive-message --queue-url {{https://queue.amazonaws.com/546123/Test}}`
+`aws sts get-caller-identity`
 
-- Pubblica un messaggio SNS su uno specifico argomento:
+- Elenca le tabelle DynamoDB in una regione e mostra l'output in YAML:
 
-`aws sns publish --topic-arn {{arn:aws:sns:us-east-1:54633:Agomento}} --message "Message"`
+`aws dynamodb list-tables --region {{us-east-1}} --output yaml`
 
-- Mostra la pagina di aiuto per uno specifico comando AWS:
+- Usa il prompt automatico per aiutare nella compilazione di un comando:
+
+`aws iam create-user --cli-auto-prompt`
+
+- Avvia una procedura guidata interattiva per una risorsa AWS:
+
+`aws dynamodb wizard {{new_table}}`
+
+- Genera uno scheletro JSON per il CLI (utile per infrastruttura come codice):
+
+`aws dynamodb update-table --generate-cli-skeleton`
+
+- Mostra la pagina di aiuto per uno specifico comando:
 
 `aws {{comando}} help`
