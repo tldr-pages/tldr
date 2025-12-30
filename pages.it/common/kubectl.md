@@ -18,7 +18,7 @@
 
 - Mostra l'utilizzo delle risorse (CPU/Memory/Storage) di nodi o pods:
 
-`kubectl top {{pod|nodo}}`
+`kubectl top {{pod|node}}`
 
 - Mostra l'indirizzo del master e i servizi del cluster:
 
