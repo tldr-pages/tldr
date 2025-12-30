@@ -22,7 +22,7 @@
 
 - Mostra caratteri non stampabili come spazio, tab o newline:
 
-`bat {{-A|--show-all}} {{percorso/del/file}}`
+`bat {{[-A|--show-all]}} {{percorso/del/file}}`
 
 - Rimuove tutte le decorazioni tranne i numeri di riga nell'output:
 
