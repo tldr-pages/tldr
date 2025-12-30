@@ -27,7 +27,7 @@
 
 - Stampa valori diversi in base a condizioni:
 
-`awk '{if ($1 == "foo") print "Corrispondenza esatta foo"; else if ($1 ~ "bar") print "Corrispondenza parziale bar"; else print "Baz"}' {{percorso/del/file}}`
+`awk '{if ($1 == "foo") print "Exact match foo"; else if ($1 ~ "bar") print "Partial match bar"; else print "Baz"}' {{percorso/del/file}}`
 
 - Stampa tutte le linee dove il valore della decima colonna è tra un minimo e un massimo:
 
