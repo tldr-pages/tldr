@@ -21,7 +21,7 @@
 
 - Aggiungi informazioni di timing ai test:
 
-`bats {{-T|--timing}} {{percorso/del/test.bats}}`
+`bats {{[-T|--timing]}} {{percorso/del/test.bats}}`
 
 - Esegui un numero specifico di job in parallelo (richiede GNU `parallel` installato):
 
