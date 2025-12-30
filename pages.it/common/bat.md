@@ -34,4 +34,4 @@
 
 - Visualizza tutti i linguaggi supportati:
 
-`bat {{-L|--list-languages}}`
+`bat {{[-L|--list-languages]}}`
