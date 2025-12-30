@@ -1,7 +1,6 @@
 # nix search
 
 > Search for packages in a Nix flake.
-> See also: `nix flake`.
 > More information: <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-search.html>.
 
 - Search `nixpkgs` for a package based on its name or description:
