@@ -4,7 +4,7 @@
 > Zobacz także: `wget`, `curl`.
 > Więcej informacji: <https://curl.se/wcurl/manual.html>.
 
-- Pobierz zawartość URL do pliku wskazanego przez ten URL (w tym wypadku "index.html"):
+- Pobierz zawartość URL do pliku wskazanego przez ten URL (w tym wypadku `index.html`):
 
 `wcurl {{https://example.com/index.html}}`
 
