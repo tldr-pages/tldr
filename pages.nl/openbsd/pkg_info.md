@@ -4,7 +4,7 @@
 > Zie ook: `pkg_add`, `pkg_delete`.
 > Meer informatie: <https://man.openbsd.org/pkg_info>.
 
-- Zoek naar een pakket met behulp van de pakket-naam:
+- Zoek naar een pakket met behulp van de pakketnaam:
 
 `pkg_info -Q {{pakket}}`
 

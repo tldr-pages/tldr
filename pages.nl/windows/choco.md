@@ -6,11 +6,11 @@
 
 - Installeer een pakket:
 
-`choco install {{pakketnaam}}`
+`choco install {{pakket_naam}}`
 
 - Upgrade een specifiek geïnstalleerd pakket:
 
-`choco upgrade {{pakketnaam}}`
+`choco upgrade {{pakket_naam}}`
 
 - Upgrade alle verouderde pakketten en bevestig automatisch alle vragen:
 
@@ -18,7 +18,7 @@
 
 - Verwijder een pakket en bevestig automatisch alle vragen:
 
-`choco uninstall {{pakketnaam}} {{[-y|--yes]}}`
+`choco uninstall {{pakket_naam}} {{[-y|--yes]}}`
 
 - Zoek voor pakketten op naam of sleutelwoord:
 
@@ -34,4 +34,4 @@
 
 - Installeer een pakket van een specifieke bron:
 
-`choco install {{pakketnaam}} {{[-s|--source]}} {{bron}}`
+`choco install {{pakket_naam}} {{[-s|--source]}} {{bron}}`

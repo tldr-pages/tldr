@@ -1,7 +1,7 @@
 # minetestserver
 
-> Tento příkaz je aliasem pro `luantiserver`.
+> Tento příkaz je aliasem pro `luanti --server`.
 
 - Podívejte se na dokumentaci původního příkazu:
 
-`tldr luantiserver`
+`tldr luanti`
