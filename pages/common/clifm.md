@@ -14,7 +14,7 @@
 
 - Create a new file and a new directory:
 
-`<n>file dir/`
+`<n>{{file}} {{dir}}/`
 
 - Search for PDF files in the current directory:
 
