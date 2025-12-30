@@ -9,7 +9,7 @@
 
 - 특정 배포 삭제:
 
-`kubectl delete {{[deploy|deployment]}} {{배포_이름}}`
+`kubectl delete {{[deploy|deployments]}} {{배포_이름}}`
 
 - 특정 노드 삭제:
 
@@ -21,7 +21,7 @@
 
 - 지정된 네임스페이스의 모든 배포 및 서비스 삭제:
 
-`kubectl delete {{[deploy|deployment]}},{{[svc|services]}} --all {{[-n|--namespace]}} {{네임스페이스}}`
+`kubectl delete {{[deploy|deployments]}},{{[svc|services]}} --all {{[-n|--namespace]}} {{네임스페이스}}`
 
 - 모든 노드 삭제:
 

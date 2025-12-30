@@ -9,7 +9,7 @@
 
 - Lösche ein bestimmtes Deployment:
 
-`kubectl delete {{[deploy|deployment]}} {{deployment_name}}`
+`kubectl delete {{[deploy|deployments]}} {{deployment_name}}`
 
 - Lösche eine bestimmte Node:
 
@@ -21,7 +21,7 @@
 
 - Lösche alle Deployments und Services in einem bestimmten Namespace:
 
-`kubectl delete {{[deploy|deployment]}},{{[svc|services]}} --all {{[-n|--namespace]}} {{namespace}}`
+`kubectl delete {{[deploy|deployments]}},{{[svc|services]}} --all {{[-n|--namespace]}} {{namespace}}`
 
 - Lösche alle Nodes:
 
