@@ -2,7 +2,7 @@
 
 > Delete files and erase their history from a Git repository.
 > Part of `git-extras`.
-> More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-obliterate>.
+> More information: <https://github.com/tj/git-extras/blob/main/Commands.md#git-obliterate>.
 
 - Erase the existence of specific files:
 

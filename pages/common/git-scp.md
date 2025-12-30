@@ -2,7 +2,7 @@
 
 > Copy files from the current working tree to the working directory of a remote repository.
 > Part of `git-extras`. Uses `rsync` to transfer files.
-> More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-scp>.
+> More information: <https://github.com/tj/git-extras/blob/main/Commands.md#git-scp>.
 
 - Copy unstaged files to a specific remote:
 

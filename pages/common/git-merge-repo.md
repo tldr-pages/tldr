@@ -2,7 +2,7 @@
 
 > Merge two repository histories.
 > Part of `git-extras`.
-> More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-merge-repo>.
+> More information: <https://github.com/tj/git-extras/blob/main/Commands.md#git-merge-repo>.
 
 - Merge a repository's branch into the current repository's directory:
 
