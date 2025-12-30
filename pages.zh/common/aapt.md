@@ -6,12 +6,12 @@
 
 - 列出资源压缩包里的内容：
 
-`aapt list {{路径/到/应用.apk}}`
+`aapt list {{路径/到/应用}}.apk`
 
 - 查看 APK 包内指定的内容（版本，权限许可等）：
 
-`aapt dump badging {{路径/到/应用.apk}}`
+`aapt dump badging {{路径/到/应用}}.apk`
 
 - 打包生成资源压缩包：
 
-`aapt package -F {{路径/到/应用.apk}} {{路径/到/目录}}`
+`aapt package -F {{路径/到/应用}}.apk {{路径/到/目录}}`
