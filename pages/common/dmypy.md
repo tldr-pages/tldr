@@ -1,7 +1,7 @@
 # dmypy
 
 > Type check Python code, running `mypy` as a daemon for better speed.
-> See also: `mypy` for more options to use with check and run.
+> See also: `mypy`.
 > More information: <https://mypy.readthedocs.io/en/stable/mypy_daemon.html>.
 
 - Type check a file, and start the daemon if it is not running:
