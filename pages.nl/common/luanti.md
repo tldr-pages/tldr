@@ -9,7 +9,7 @@
 
 - Toon gedownloade game-modes:
 
-`luanti --gameid lijst`
+`luanti --gameid list`
 
 - Start Luanti in servermodus door een specifieke gamemodus te hosten:
 
