@@ -193,7 +193,9 @@ This file contains the translation templates of this notice.
 
 ### lo
 
-Not translated yet.
+```markdown
+> ເບິ່ງຕື່ມ: `example`.
+```
 
 ---
 
