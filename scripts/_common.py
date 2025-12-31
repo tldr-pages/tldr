@@ -7,6 +7,7 @@ A Python file that makes some commonly used functions available for other script
 
 from enum import Enum
 from pathlib import Path
+from typing import Optional
 from unittest.mock import patch
 import shutil
 import os
@@ -35,7 +36,7 @@ def test_ignore_files():
     assert "tldr.md" not in IGNORE_FILES
 
 
-def get_tldr_root(lookup_path: Path = None) -> Path:
+def get_tldr_root(lookup_path: Optional[str] = None) -> Path:
     """
     Get the path of the local tldr repository, looking for it in each part of the given path. If it is not found, the path in the environment variable TLDR_ROOT is returned.
 
@@ -182,7 +183,7 @@ def test_get_pages_dirs():
 
 
 def get_target_paths(
-    page: Path, pages_dirs: Path, check_exists: bool = True
+    page: str, pages_dirs: list[Path], check_exists: bool = True
 ) -> list[Path]:
     """
     Get all paths in all languages that match the page.
@@ -219,8 +220,8 @@ def test_get_target_paths():
 
     root.mkdir(exist_ok=True)
 
-    shutil.os.makedirs(root / "pages" / "common")
-    shutil.os.makedirs(root / "pages.fr" / "common")
+    (root / "pages" / "common").mkdir(parents=True, exist_ok=True)
+    (root / "pages.fr" / "common").mkdir(parents=True, exist_ok=True)
 
     file_path = root / "pages" / "common" / "tldr.md"
     with open(file_path, "w"):
