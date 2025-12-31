@@ -27,8 +27,8 @@ Positional Argument:
 
 Examples:
     1. Set the commands for a specific page:
-       python3 scripts/set-see-also.py -p common/tar tar,gtar
-       python3 scripts/set-see-also.py --page common/tar tar,gtar
+       python3 scripts/set-see-also.py -p common/bash zsh,!
+       python3 scripts/set-see-also.py --page common/bash zsh,!
 
     2. Read English pages and synchronize the "See also" section across translations:
        python3 scripts/set-see-also.py -S
@@ -248,6 +248,8 @@ def main():
     # Use '--page' option
     if args.page != "":
         target_paths += get_target_paths(args.page, pages_dirs)
+
+        args.see_also = ", ".join(f"`{p}`" for p in args.see_also.split(","))
 
         for path in target_paths:
             rel_path = "/".join(path.parts[-3:])
