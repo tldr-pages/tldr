@@ -97,7 +97,9 @@ This file contains the translation templates of this notice.
 
 ### da
 
-Not translated yet.
+```markdown
+> Se også: `example`.
+```
 
 ---
 
