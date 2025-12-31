@@ -251,7 +251,9 @@ Not translated yet.
 
 ### ro
 
+```markdown
 > Vezi și: `exemplu`.
+```
 
 ---
 
