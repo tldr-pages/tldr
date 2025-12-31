@@ -23,6 +23,10 @@
 
 `{{command}} | cut {{[-d|--delimiter]}} " " {{[-f|--fields]}} -3`
 
+- Do not print lines that do not contain the delimiter:
+
+`{{command}} | cut {{[-d|--delimiter]}} "{{:}}" {{[-f|--fields]}} {{1}} {{[-s|--only-delimited]}}`
+
 - Print specific fields of lines that use `NUL` to terminate lines instead of newlines:
 
 `{{find . -print0}} | cut {{[-z|--zero-terminated]}} {{[-d|--delimiter]}} "{{/}}" {{[-f|--fields]}} {{2}}`

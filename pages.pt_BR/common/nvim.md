@@ -2,7 +2,7 @@
 
 > Neovim, um editor de texto para programadores baseado no Vim, oferece vários modos para diferentes tipos de manipulação de texto.
 > Pressionar`<i>` no modo normal entra no modo de inserção. `<Esc>` retorna ao modo normal, que não permite a inserção regular de texto.
-> Veja também `vim`, `vimtutor`, `vimdiff`.
+> Veja também: `vim`, `vimtutor`, `vimdiff`.
 > Mais informações: <https://neovim.io/>.
 
 - Abre um arquivo:

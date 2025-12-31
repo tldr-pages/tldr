@@ -2,7 +2,7 @@
 
 > 특정 시간이나 날짜 이후의 커밋을 표시.
 > `git-extras`의 일부.
-> 더 많은 정보: <https://github.com/tj/git-extras/blob/master/Commands.md#git-commits-since>.
+> 더 많은 정보: <https://github.com/tj/git-extras/blob/main/Commands.md#git-commits-since>.
 
 - 어제 이후의 커밋 표시:
 

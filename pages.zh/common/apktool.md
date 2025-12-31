@@ -5,7 +5,7 @@
 
 - 反编译：
 
-`apktool d {{应用.apk}}`
+`apktool d {{应用}}.apk`
 
 - 将一个文件夹打包为 apk 文件：
 
@@ -13,4 +13,4 @@
 
 - 安装并存储框架：
 
-`apktool if {{框架.apk}}`
+`apktool if {{框架}}.apk`

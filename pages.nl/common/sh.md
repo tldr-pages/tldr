@@ -1,7 +1,7 @@
 # sh
 
 > Bourne shell, de standaard opdrachttaalinterpreter.
-> Zie ook: `!` voor uitbreiding van de geschiedenis.
+> Zie ook: `!`, `^`.
 > Meer informatie: <https://manned.org/sh>.
 
 - Start een interactieve shell sessie:

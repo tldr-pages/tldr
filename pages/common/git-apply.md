@@ -1,7 +1,7 @@
 # git apply
 
 > Apply a patch to files and/or to the index without creating a commit.
-> See also: `git am` which applies a patch and also creates a commit.
+> See also: `git am`.
 > More information: <https://git-scm.com/docs/git-apply>.
 
 - Print messages about the patched files:
