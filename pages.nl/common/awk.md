@@ -31,7 +31,7 @@
 
 - Toon alle regels waarbij de waarde van de 10e kolom tussen een minimale en maximale waarde is:
 
-`awk '($10 >= {{min_value}} && $10 <= {{max_value}})'`
+`awk '($10 >= {{min_waarde}} && $10 <= {{max_waarde})'`
 
 - Print een tabel van gebruikers met UID >= 1000 met header en opgemaakte uitvoer, gebruikmakend van een dubbele punt als scheidingsteken (`%-20s` betekent: 20 links uitgelijnde tekens, `%6s` betekent: 6 rechts uitgelijnde tekens):
 
