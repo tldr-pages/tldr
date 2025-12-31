@@ -26,4 +26,4 @@
 
 - pvc와 일치하지 않고 travis와 정확히 일치하는 항목에 대해 `fzf`를 시작:
 
-`fzf {{[-q|--query]}} "!pyc 'travis"`
+`fzf {{[-q|--query]}} '!pyc travis'`

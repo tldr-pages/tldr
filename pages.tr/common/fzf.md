@@ -26,4 +26,4 @@
 
 - PYC ile eşleşmeyen ve Travis'e tam olarak eşleşen girişlerde `fzf`'yi başlat:
 
-`fzf {{[-q|--query]}} "!pyc 'travis"`
+`fzf {{[-q|--query]}} '!pyc travis'`
