@@ -9,24 +9,24 @@
 
 - புதிய தொகுப்பு மூலத்தைச் சேர்க்கவும்:
 
-`choco source add --name {{பெயர்}} --source {{முகவரி}}`
+`choco source add {{[-n|--name]}} {{பெயர்}} {{[-s|--source]}} {{முகவரி}}`
 
 - நற்சான்றிதழ்களுடன் புதிய தொகுப்பு மூலத்தைச் சேர்க்கவும்:
 
-`choco source add --name {{பெயர்}} --source {{முகவரி}} --user {{பயனர்பெயர்}} --password {{கடவுச்சொல்}}`
+`choco source add {{[-n|--name]}} {{பெயர்}} {{[-s|--source]}} {{முகவரி}} {{[-u|--user]}} {{பயனர்பெயர்}} {{[-p|--password]}} {{கடவுச்சொல்}}`
 
 - கிளையன்ட் சான்றிதழுடன் புதிய தொகுப்பு மூலத்தைச் சேர்க்கவும்:
 
-`choco source add --name {{பெயர்}} --source {{முகவரி}} --cert {{சான்றிதழ்\பாதை}}`
+`choco source add {{[-n|--name]}} {{பெயர்}} {{[-s|--source]}} {{முகவரி}} --cert {{சான்றிதழ்\பாதை}}`
 
 - தொகுப்பு மூலத்தை இயக்கு:
 
-`choco source enable --name {{பெயர்}}`
+`choco source enable {{[-n|--name]}} {{பெயர்}}`
 
 - ஒரு தொகுப்பு மூலத்தை முடக்கு:
 
-`choco source disable --name {{பெயர்}}`
+`choco source disable {{[-n|--name]}} {{பெயர்}}`
 
 - தொகுப்பு மூலத்தை அகற்றவும்:
 
-`choco source remove --name {{பெயர்}}`
+`choco source remove {{[-n|--name]}} {{பெயர்}}`
