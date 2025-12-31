@@ -209,7 +209,9 @@ This file contains the translation templates of this notice.
 
 ### ne
 
-Not translated yet.
+```markdown
+> हेर्नुहोस् पनि: `example`.
+```
 
 ---
 
@@ -271,13 +273,17 @@ Not translated yet.
 
 ### sr
 
-Not translated yet.
+```markdown
+> Такође погледајте: `example`.
+```
 
 ---
 
 ### sv
 
-Not translated yet.
+```markdown
+> Se även: `example`.
+```
 
 ---
 
@@ -315,7 +321,9 @@ Not translated yet.
 
 ### uz
 
-Not translated yet.
+```markdown
+> Shuningdek qarang: `example`.
+```
 
 ---
 
