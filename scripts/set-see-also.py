@@ -125,7 +125,7 @@ def set_see_also(
         # return empty status to indicate that no changes were made
         return ""
 
-    if re.search(r"^>.*[:：] `", lines[desc_end - 1]):
+    if re.search(r"^>.*[：:]\s*`", lines[desc_end - 1]):
         # overwrite second last line
         lines[desc_end - 1] = new_line
         action = "updated"
