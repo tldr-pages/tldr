@@ -5,12 +5,12 @@
 
 - Maak een lijst van bestanden in een APK-archief:
 
-`aapt list {{pad/naar/app.apk}}`
+`aapt list {{pad/naar/app}}.apk`
 
 - Geef de metadata van een app weer (versie, machtigingen, enz.):
 
-`aapt dump badging {{pad/naar/app.apk}}`
+`aapt dump badging {{pad/naar/app}}.apk`
 
 - Maak een nieuw APK-archief met bestanden uit de opgegeven map:
 
-`aapt package -F {{pad/naar/app.apk}} {{pad/naar/map}}`
+`aapt package -F {{pad/naar/app}}.apk {{pad/naar/map}}`

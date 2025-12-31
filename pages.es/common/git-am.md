@@ -1,7 +1,7 @@
 # git am
 
 > Aplica archivos de parche. Útil cuando se reciben commits por correo electrónico.
-> Vea también `git format-patch`, comando que genera archivos de parche.
+> Vea también: `git format-patch`, comando que genera archivos de parche.
 > Más información: <https://git-scm.com/docs/git-am>.
 
 - Aplica un archivo de parche:

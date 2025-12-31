@@ -1,7 +1,7 @@
 # age
 
 > Een eenvoudige, moderne en veilige tool voor het versleutelen van bestanden.
-> Zie ook: `age-keygen` voor het genereren van sleutelparen.
+> Zie ook: `age-keygen`.
 > Meer informatie: <https://github.com/FiloSottile/age#usage>.
 
 - Genereer een versleuteld bestand dat kan worden ontsleuteld met een wachtwoordzin:
