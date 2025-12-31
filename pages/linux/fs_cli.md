@@ -9,28 +9,28 @@
 
 - Connect to a remote FreeSWITCH server:
 
-`fs_cli -H {{host}} -P {{port}} -p {{password}}`
-
-- Execute a single FreeSWITCH command and exit:
-
-`fs_cli -x "{{command}}"`
+`fs_cli {{-H|--host}} {{host}} {{-P|--port}} {{port}} {{-p|--password}} {{password}}`
 
 - Show FreeSWITCH system status:
 
-`fs_cli -x "status"`
+`fs_cli {{-x|--execute}} "status"`
 
 - Reload FreeSWITCH XML configuration:
 
-`fs_cli -x "reloadxml"`
+`fs_cli {{-x|--execute}} "reloadxml"`
 
 - Check if a module is loaded:
 
-`fs_cli -x "module_exists {{module_name}}"`
+`fs_cli {{-x|--execute}} "module_exists {{module_name}}"`
 
 - Show active calls:
 
-`fs_cli -x "show calls"`
+`fs_cli {{-x|--execute}} "show calls"`
 
-- Enable automatic reconnect if connection drops:
+- Retry connection on failure:
 
-`fs_cli -r`
+`fs_cli {{-r|--retry}}`
+
+- Disable colored output:
+
+`fs_cli {{-n|--no-color}}`
