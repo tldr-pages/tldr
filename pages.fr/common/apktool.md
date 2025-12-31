@@ -5,7 +5,7 @@
 
 - Décode un fichier APK :
 
-`apktool d {{fichier.apk}}`
+`apktool d {{fichier}}.apk`
 
 - Construit un fichier APK depuis un dossier :
 
@@ -13,4 +13,4 @@
 
 - Installe et enregistre le framework :
 
-`apktool if {{framework.apk}}`
+`apktool if {{framework}}.apk`
