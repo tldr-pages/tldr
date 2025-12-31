@@ -13,7 +13,7 @@
 
 - Manipula una consulta SQL compleja con datos de varios archivos CSV cuya primera línea es la cabecera (`-ih`):
 
-`trdsql -icsv -ih "SELECT {{columna1,columna2}} FROM {{ruta/al/archivo*.csv}} WHERE column2 != '' ORDER BY columna1 GROUP BY columna1"`
+`trdsql -icsv -ih "SELECT {{columna1,columna2}} FROM {{ruta/al/archivo*.csv}} WHERE column2 != '' ORDER BY {{columna1}} GROUP BY {{columna1}}"`
 
 - Combina el contenido de 2 archivos CSV en un archivo CSV:
 
