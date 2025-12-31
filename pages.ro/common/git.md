@@ -1,21 +1,37 @@
 # git
 
 > Sistem de control al versiunilor distribuit.
-> Unele subcomenzi precum `commit` au propria lor documentație de utilizare.
+> Unele subcomenzi precum `commit`, `add`, `branch`, `switch`, `push`, etc. au propria documentație de utilizare.
 > Mai multe informații: <https://git-scm.com/docs/git>.
 
-- Verifică versiunea Git:
+- Creează un repository Git gol:
 
-`git --version`
+`git init`
 
-- Afișează informații generale de ajutor:
+- Clonează un repository Git la distanță de pe internet:
 
-`git --help`
+`git clone {{https://example.com/repo.git}}`
 
-- Afișează ajutor pentru o comandă specifică:
+- Vezi starea repository-ului local:
 
-`git help {{comandă}}`
+`git status`
 
-- Execută o comandă Git:
+- Pregătește toate modificările pentru un commit:
 
-`git {{comandă}}`
+`git add {{[-A|--all]}}`
+
+- Confirmați modificările în istoricul versiunilor:
+
+`git commit {{[-m|--message]}} {{text_mesaj}}`
+
+- Trimite commit-urile locale către un repository la distanță:
+
+`git push`
+
+- Trage orice modificare făcută la distanță:
+
+`git pull`
+
+- Resetează totul așa cum era în ultimul commit:
+
+`git reset --hard; git clean {{[-f|--force]}}`

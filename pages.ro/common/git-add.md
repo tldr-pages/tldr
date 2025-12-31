@@ -11,6 +11,10 @@
 
 `git add {{[-A|--all]}}`
 
+- Adaugă toate fișierele recursiv pornind de la folderul curent:
+
+`git add .`
+
 - Adaugă doar fișierele deja urmărite:
 
 `git add {{[-u|--update]}}`
@@ -19,6 +23,14 @@
 
 `git add {{[-f|--force]}}`
 
-- Adaugă părți dintr-un fișier în mod interactiv:
+- Adaugă părți din fișiere în mod interactiv:
+
+`git add {{[-p|--patch]}}`
+
+- Adaugă părți dintr-un fișier specificat în mod interactiv:
 
 `git add {{[-p|--patch]}} {{cale/către/fișier}}`
+
+- Adaugă un fișier în mod interactiv:
+
+`git add {{[-i|--interactive]}}`
