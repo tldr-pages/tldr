@@ -9,24 +9,24 @@
 
 - Agregar una nueva fuente de paquete:
 
-`choco source add --name {{nombre}} --source {{url}}`
+`choco source add {{[-n|--name]}} {{nombre}} {{[-s|--source]}} {{url}}`
 
 - Agregar una nueva fuente de paquete con credenciales:
 
-`choco source add --name {{nombre}} --source {{url}} --user {{nombre_usuario}} --password {{contraseña}}`
+`choco source add {{[-n|--name]}} {{nombre}} {{[-s|--source]}} {{url}} {{[-u|--user]}} {{nombre_usuario}} {{[-p|--password]}} {{contraseña}}`
 
 - Agregar una nueva fuente de paquete con un certificado de cliente:
 
-`choco source add --name {{nombre}} --source {{url}} --cert {{ruta\al\archivo_certificado}}`
+`choco source add {{[-n|--name]}} {{nombre}} {{[-s|--source]}} {{url}} --cert {{ruta\al\archivo_certificado}}`
 
 - Habilitar una fuente de paquete:
 
-`choco source enable --name {{nombre}}`
+`choco source enable {{[-n|--name]}} {{nombre}}`
 
 - Deshabilitar una fuente de paquete:
 
-`choco source disable --name {{nombre}}`
+`choco source disable {{[-n|--name]}} {{nombre}}`
 
 - Eliminar una fuente de paquete:
 
-`choco source remove --name {{nombre}}`
+`choco source remove {{[-n|--name]}} {{nombre}}`
