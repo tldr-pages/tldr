@@ -6,7 +6,7 @@
 
 - Belirtilen dizindeki tüm dosyalarda `fzf`'yi başlat:
 
-`find {{dosya/yolu/dizin}} -type f | `fzf``
+`find {{dosya/yolu/dizin}} -type f | fzf`
 
 - Çalışan süreçler için `fzf`'yi başlat:
 
