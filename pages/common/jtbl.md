@@ -1,7 +1,7 @@
 # jtbl
 
 > Utility to print JSON and JSON Lines data as a table in the terminal.
-> More information: <https://github.com/kellyjonbrazil/jtbl>.
+> More information: <https://github.com/kellyjonbrazil/jtbl#usage>.
 
 - Print a table from JSON or JSON Lines input:
 
@@ -13,8 +13,8 @@
 
 - Print a table and truncate rows instead of wrapping:
 
-`cat {{file.json}} | jtbl -t`
+`cat {{file.json}} | jtbl {{[-t|--truncate]}}`
 
 - Print a table and don't wrap or truncate rows:
 
-`cat {{file.json}} | jtbl -n`
+`cat {{file.json}} | jtbl {{[-n|--no-wrap]}}`

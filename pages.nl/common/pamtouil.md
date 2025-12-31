@@ -9,4 +9,4 @@
 
 - Specificeer een voorvoegsel dat in het uitvoer-UIL-bestand moet worden afgedrukt:
 
-`pamtouil -name {{uilname}} {{pad/naar/invoer.pnm|pam}} > {{pad/naar/uitvoer.uil}}`
+`pamtouil {{[-n|-name]}} {{uilnaam}} {{pad/naar/invoer.pnm|pam}} > {{pad/naar/uitvoer.uil}}`

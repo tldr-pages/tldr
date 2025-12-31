@@ -13,8 +13,8 @@
 
 - Sla digest-tags over:
 
-`crane ls {{-o|--omit-digest-tags}}`
+`crane ls {{[-o|--omit-digest-tags]}}`
 
-- Toon help:
+- Toon de help:
 
-`crane ls {{-h|--help}}`
+`crane ls {{[-h|--help]}}`

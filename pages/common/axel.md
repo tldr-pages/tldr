@@ -2,24 +2,24 @@
 
 > Download accelerator.
 > Supports HTTP, HTTPS, and FTP.
-> More information: <https://github.com/axel-download-accelerator/axel>.
+> More information: <https://manned.org/axel>.
 
 - Download a URL to a file:
 
 `axel {{url}}`
 
-- Download and specify an [o]utput file:
+- Download and specify an output file:
 
-`axel {{url}} -o {{path/to/file}}`
+`axel {{url}} {{[-o|--output]}} {{path/to/file}}`
 
-- Download with a specific [n]umber connections:
+- Download with a specific number connections:
 
-`axel -n {{connections_num}} {{url}}`
+`axel {{[-n|--num-connections]}} {{connections_num}} {{url}}`
 
-- [S]earch for mirrors:
+- Search for mirrors:
 
-`axel -S {{mirrors_num}} {{url}}`
+`axel {{[-S|--search]}} {{mirrors_num}} {{url}}`
 
-- Limit download [s]peed (bytes per second):
+- Limit download speed (bytes per second):
 
-`axel -s {{speed}} {{url}}`
+`axel {{[-s|--max-speed]}} {{speed}} {{url}}`

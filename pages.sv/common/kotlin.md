@@ -1,7 +1,7 @@
 # kotlin
 
 > Kotlin Programstartare.
-> Mer information: <https://kotlinlang.org>.
+> Mer information: <https://kotlinlang.org/docs/command-line.html#compile-a-library>.
 
 - Kör en jar fil:
 

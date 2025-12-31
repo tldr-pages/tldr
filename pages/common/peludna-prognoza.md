@@ -17,4 +17,4 @@
 
 - Display the pollen measurement page for a city at <https://plivazdravlje.hr> in the default web browser:
 
-`peludna-prognoza "{{city}}" --web`
+`peludna-prognoza "{{city}}" {{[-w|--web]}}`

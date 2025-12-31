@@ -13,4 +13,4 @@
 
 - Display version:
 
-`bioradtopgm -version`
+`bioradtopgm {{[-v|-version]}}`

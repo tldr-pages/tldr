@@ -17,7 +17,7 @@
 
 - Show the queued jobs of a specific printer or class:
 
-`lpq -P {{destination[/instance]}}`
+`lpq -P {{destination}}/{{instance}}`
 
 - Show the queued jobs once every n seconds until the queue is empty:
 

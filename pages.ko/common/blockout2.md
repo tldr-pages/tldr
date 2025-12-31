@@ -9,16 +9,16 @@
 
 - 2D 평면에서 현재 조각을 탐색:
 
-`{{Up|Down|Left|Right arrow key}}`
+`{{<ArrowUp>|<ArrowDown>|<ArrowLeft>|<ArrowRight>}}`
 
 - 축을 중심으로 조각 회전:
 
-`{{Q|W|E|A|S|D}}`
+`{{<q>|<w>|<e>|<a>|<s>|<d>}}`
 
 - 현재 조각을 하드 드롭:
 
-`<Spacebar>`
+`<Space>`
 
 - 게임 일시 중지/일시 중지 해제:
 
-`p`
+`<p>`

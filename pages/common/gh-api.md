@@ -9,19 +9,19 @@
 
 - Create a reaction for a specific issue:
 
-`gh api --header {{Accept:application/vnd.github.squirrel-girl-preview+json}} --raw-field '{{content=+1}}' {{repos/:owner/:repo/issues/123/reactions}}`
+`gh api {{[-H|--header]}} {{Accept:application/vnd.github.squirrel-girl-preview+json}} {{[-f|--raw-field]}} '{{content=+1}}' {{repos/:owner/:repo/issues/123/reactions}}`
 
 - Display the result of a GraphQL query in JSON format:
 
-`gh api graphql --field {{name=':repo'}} --raw-field '{{query}}'`
+`gh api graphql {{[-f|--field]}} {{name=':repo'}} {{[-f|--raw-field]}} '{{query}}'`
 
 - Send a request using a custom HTTP method:
 
-`gh api --method {{POST}} {{endpoint}}`
+`gh api {{[-X|--method]}} {{POST}} {{endpoint}}`
 
 - Include the HTTP response headers in the output:
 
-`gh api --include {{endpoint}}`
+`gh api {{[-i|--include]}} {{endpoint}}`
 
 - Do not print the response body:
 

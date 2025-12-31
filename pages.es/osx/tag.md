@@ -1,7 +1,7 @@
 # tag
 
 > Edita etiquetas en archivos de Mac OS X (10.9 Mavericks y superior).
-> Más información: <https://github.com/jdberry/tag/>.
+> Más información: <https://github.com/jdberry/tag#usage>.
 
 - Añade etiquetas a un archivo:
 

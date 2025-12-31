@@ -1,4 +1,4 @@
-# yadm-gitconfig
+# yadm gitconfig
 
 > Pass options to `git config`. Change the `.gitconfig` of the repository managed by `yadm`.
 > See also: `git config`.

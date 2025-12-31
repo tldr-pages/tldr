@@ -1,7 +1,7 @@
 # webpack
 
 > Bundle a web project's js files and other assets into a single output file.
-> More information: <https://webpack.js.org>.
+> More information: <https://webpack.js.org/api/cli/>.
 
 - Create a single output file from an entry point file:
 
@@ -13,8 +13,8 @@
 
 - Pass a configuration file (with e.g. the entry script and the output filename) and show compilation progress:
 
-`webpack --config {{webpack.config.js}} --progress`
+`webpack {{[-c|--config]}} {{webpack.config.js}} --progress`
 
 - Automatically recompile on changes to project files:
 
-`webpack --watch {{app.js}} {{bundle.js}}`
+`webpack {{[-w|--watch]}} {{app.js}} {{bundle.js}}`

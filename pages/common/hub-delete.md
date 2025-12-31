@@ -5,4 +5,4 @@
 
 - Delete personal repo on GitHub:
 
-`hub delete {{repo}}`
+`hub delete {{repository}}`

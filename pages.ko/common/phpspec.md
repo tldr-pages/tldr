@@ -1,7 +1,7 @@
 # phpspec
 
 > PHP용 행동 주도 개발 도구.
-> 더 많은 정보: <https://phpspec.net>.
+> 더 많은 정보: <https://phpspec.net/en/stable/cookbook/console.html>.
 
 - 클래스에 대한 사양 작성:
 

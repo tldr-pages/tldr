@@ -1,7 +1,7 @@
 # wuzz
 
 > HTTP 요청 및 응답을 대화형으로 검사.
-> 더 많은 정보: <https://github.com/asciimoo/wuzz>.
+> 더 많은 정보: <https://github.com/asciimoo/wuzz#commands>.
 
 - `wuzz` 시작:
 
@@ -9,16 +9,16 @@
 
 - HTTP 요청 전송:
 
-`<Ctrl> + R`
+`<Ctrl r>`
 
 - 다음 보기로 전환:
 
-`<Ctrl> + J, <Tab>`
+`<Ctrl j><Tab>`
 
 - 이전 보기로 전환:
 
-`<Ctrl> + K, <Shift> + <Tab>`
+`<Ctrl k><Shift Tab>`
 
 - 도움말 표시:
 
-`F1`
+`<F1>`

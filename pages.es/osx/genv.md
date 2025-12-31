@@ -1,7 +1,7 @@
 # genv
 
-> Este comando es un alias de `-p linux env`.
+> Este comando es un alias de `env`.
 
-- Muestra la documentación del comando original:
+- Vea la documentación para el comando original:
 
-`tldr -p linux env`
+`tldr env`

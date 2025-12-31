@@ -2,7 +2,7 @@
 
 > Cria apelidos -- palavras que são substituídas por um comando.
 > Apelidos expiram ao final da sessão atual do shell de comando, a menos que sejam definidos no arquivo de configuração do shell, por exemplo `~/.bashrc`.
-> Mais informações: <https://tldp.org/LDP/abs/html/aliases.html>.
+> Mais informações: <https://www.gnu.org/software/bash/manual/bash.html#index-alias>.
 
 - Lista todos os apelidos:
 

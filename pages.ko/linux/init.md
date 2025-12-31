@@ -2,7 +2,7 @@
 
 > Linux 런레벨 관리자.
 > systemd를 사용하는 경우 SYSVINIT 컴파일 시 옵션이 활성화되어야 합니다.
-> 더 많은 정보: <https://manned.org/man/init.8>.
+> 더 많은 정보: <https://manned.org/init.8>.
 
 - 시스템을 그래픽 환경으로 설정:
 

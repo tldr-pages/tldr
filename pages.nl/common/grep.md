@@ -1,36 +1,37 @@
 # grep
 
-> Zoek patronen in bestanden met behulp van reguliere expressies.
+> Zoek patronen in bestanden met behulp van `regex`en.
+> Zie ook: `regex`.
 > Meer informatie: <https://www.gnu.org/software/grep/manual/grep.html>.
 
-- Zoek naar een patroon in een bestand:
+- Zoek naar een patroon in bestanden:
 
-`grep "{{zoekpatroon}}" {{pad/naar/bestand}}`
+`grep "{{zoekpatroon}}" {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
 
-- Zoek naar een exacte string (schakelt reguliere expressies uit):
+- Zoek naar een exacte string (schakelt `regex` uit):
 
-`grep {{-F|--fixed-strings}} "{{exacte_string}}" {{pad/naar/bestand}}`
+`grep {{[-F|--fixed-strings]}} "{{exacte_string}}" {{pad/naar/bestand}}`
 
-- Zoek naar een patroon in alle bestanden in een map, recursief, toon regelnummers van overeenkomsten, negeer binaire bestanden:
+- Zoek naar een patroon in alle bestanden in een map recursief, waarbij binaire bestanden genegeerd worden:
 
-`grep {{-r|--recursive}} {{-n|--line-number}} --binary-files {{without-match}} "{{zoekpatroon}}" {{pad/naar/map}}`
+`grep {{[-rI|--recursive --binary-files=without-match]}} "{{zoekpatroon}}" {{pad/naar/map}}`
 
-- Gebruik uitgebreide reguliere expressies (ondersteunt `?`, `+`, `{}`, `()` en `|`), in hoofdletterongevoelige modus:
+- Toon 3 regels met [C]ontext rond, voor ([B]) of n[A] elke overeenkomst:
 
-`grep {{-E|--extended-regexp}} {{-i|--ignore-case}} "{{zoekpatroon}}" {{pad/naar/bestand}}`
-
-- Print 3 regels context rondom, voor of na elke overeenkomst:
-
-`grep --{{context|before-context|after-context}} 3 "{{zoekpatroon}}" {{pad/naar/bestand}}`
+`grep {{--context|--before-context|--after-context}} 3 "{{zoekpatroon}}" {{pad/naar/bestand}}`
 
 - Print bestandsnaam en regelnummers voor elke overeenkomst met kleuruitvoer:
 
-`grep {{-H|--with-filename}} {{-n|--line-number}} --color=always "{{zoekpatroon}}" {{pad/naar/bestand}}`
+`grep {{[-Hn|--with-filename --line-number]}} --color=always "{{zoekpatroon}}" {{pad/naar/bestand}}`
 
-- Zoek naar regels die overeenkomen met een patroon en print alleen de overeenkomstige tekst:
+- Toon alleen de overeenkomende tekst:
 
-`grep {{-o|--only-matching}} "{{zoekpatroon}}" {{pad/naar/bestand}}`
+`grep {{[-o|--only-matching]}} "{{zoekpatroon}}" {{pad/naar/bestand}}`
 
-- Zoek in `stdin` naar regels die niet overeenkomen met een patroon:
+- Lees data vanuit `stdin` en toon niet de regels die overeenkomen met een patroon:
 
-`cat {{pad/naar/bestand}} | grep {{-v|--invert-match}} "{{zoekpatroon}}"`
+`cat {{pad/naar/bestand}} | grep {{[-v|--invert-match]}} "{{zoekpatroon}}"`
+
+- Gebruik uitgebreide `regex`en (ondersteunt `?`, `+`, `{}`, `()` en `|`), in hoofdletterongevoelige modus:
+
+`grep {{[-Ei|--extended-regexp --ignore-case]}} "{{zoekpatroon}}" {{pad/naar/bestand}}`

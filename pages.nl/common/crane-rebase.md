@@ -17,8 +17,8 @@
 
 - Tag om toe te passen op de gerebaseerde image:
 
-`crane rebase {{-t|--tag}} {{tag_naam}}`
+`crane rebase {{[-t|--tag]}} {{tag_naam}}`
 
-- Toon help:
+- Toon de help:
 
-`crane rebase {{-h|--help}}`
+`crane rebase {{[-h|--help]}}`

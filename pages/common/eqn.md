@@ -1,7 +1,7 @@
 # eqn
 
 > Equation preprocessor for the groff (GNU Troff) document formatting system.
-> See also `troff` and `groff`.
+> See also: `troff`, `groff`.
 > More information: <https://manned.org/eqn>.
 
 - Process input with equations, saving the output for future typesetting with groff to PostScript:

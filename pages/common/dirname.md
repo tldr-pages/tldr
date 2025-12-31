@@ -1,7 +1,7 @@
 # dirname
 
-> Calculates the parent directory of a file or directory path.
-> More information: <https://www.gnu.org/software/coreutils/dirname>.
+> Remove trailing filename portion from a path.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/dirname-invocation.html>.
 
 - Calculate the parent directory of a given path:
 
@@ -13,4 +13,4 @@
 
 - Delimit output with a NUL character instead of a newline (useful when combining with `xargs`):
 
-`dirname --zero {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
+`dirname {{[-z|--zero]}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`

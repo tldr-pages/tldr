@@ -1,20 +1,20 @@
 # anki
 
 > Powerful, intelligent flashcard program.
-> More information: <https://docs.ankiweb.net>.
+> More information: <https://manned.org/anki>.
 
 - Launch the GUI:
 
 `anki`
 
-- Use a specific [p]rofile:
+- Use a specific profile:
 
-`anki -p {{profile_name}}`
+`anki {{[-p|--profile]}} {{profile_name}}`
 
-- Use a specific [l]anguage:
+- Use a specific language:
 
-`anki -l {{language}}`
+`anki {{[-l|--lang]}} {{language}}`
 
 - Use a non-default directory (`~/Anki` for default):
 
-`anki -b {{path/to/directory}}`
+`anki {{[-b|--base]}} {{path/to/directory}}`

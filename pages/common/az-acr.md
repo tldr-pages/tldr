@@ -6,11 +6,11 @@
 
 - Create a managed container registry:
 
-`az acr create --name {{registry_name}} --resource-group {{resource_group}} --sku {{sku}}`
+`az acr create {{[-n|--name]}} {{registry_name}} {{[-g|--resource-group]}} {{resource_group}} --sku {{sku}}`
 
 - Login to a registry:
 
-`az acr login --name {{registry_name}}`
+`az acr login {{[-n|--name]}} {{registry_name}}`
 
 - Tag a local image for ACR:
 
@@ -26,12 +26,12 @@
 
 - Delete an image from a registry:
 
-`az acr repository delete --name {{registry_name}} --repository {{image_name}}:{{tag}}`
+`az acr repository delete {{[-n|--name]}} {{registry_name}} --repository {{image_name}}:{{tag}}`
 
 - Delete a managed container registry:
 
-`az acr delete --name {{registry_name}} --resource-group {{resource_group}} --yes`
+`az acr delete {{[-n|--name]}} {{registry_name}} {{[-g|--resource-group]}} {{resource_group}} {{[-y|--yes]}}`
 
 - List images within a registry:
 
-`az acr repository list --name {{registry_name}} --output table`
+`az acr repository list {{[-n|--name]}} {{registry_name}} --output table`

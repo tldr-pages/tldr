@@ -5,32 +5,32 @@
 
 - GitHub에서 코드스페이스를 대화식으로 생성:
 
-`gh codespace create`
+`gh {{[cs|codespace]}} create`
 
 - 사용 가능한 모든 코드스페이스 나열:
 
-`gh codespace list`
+`gh {{[cs|codespace]}} {{[ls|list]}}`
 
 - SSH를 통해 코드스페이스에 대화식으로 연결:
 
-`gh codespace ssh`
+`gh {{[cs|codespace]}} ssh`
 
 - 특정 파일을 코드스페이스로 대화식으로 전송:
 
-`gh codespace cp {{경로/대상/소스_파일}} remote:{{경로/대상/원격_파일}}`
+`gh {{[cs|codespace]}} cp {{경로/대상/소스_파일}} remote:{{경로/대상/원격_파일}}`
 
 - 코드스페이스의 포트를 대화식으로 나열:
 
-`gh codespace ports`
+`gh {{[cs|codespace]}} ports`
 
 - 코드스페이스의 로그를 대화식으로 표시:
 
-`gh codespace logs`
+`gh {{[cs|codespace]}} logs`
 
 - 코드스페이스를 대화식으로 삭제:
 
-`gh codespace delete`
+`gh {{[cs|codespace]}} delete`
 
 - 하위 명령어에 대한 도움말 표시:
 
-`gh codespace {{code|cp|create|delete|edit|...}} --help`
+`gh {{[cs|codespace]}} {{code|cp|create|delete|edit|...}} {{[-h|--help]}}`

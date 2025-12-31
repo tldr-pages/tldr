@@ -1,7 +1,7 @@
 # ajson
 
 > Execute JSONPath on JSON objects.
-> More information: <https://github.com/spyzhov/ajson>.
+> More information: <https://github.com/spyzhov/ajson#console-application>.
 
 - Read JSON from a file and execute a specified JSONPath expression:
 

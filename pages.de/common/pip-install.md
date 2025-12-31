@@ -1,7 +1,7 @@
 # pip install
 
 > Installiere Python-Pakete.
-> Weitere Informationen: <https://pip.pypa.io>.
+> Weitere Informationen: <https://pip.pypa.io/en/stable/cli/pip_install/>.
 
 - Installiere ein Paket:
 
@@ -13,12 +13,12 @@
 
 - Installiere die Pakete aus einer Datei:
 
-`pip install -r {{requirements.txt}}`
+`pip install {{[-r|--requirement]}} {{requirements.txt}}`
 
-- Installiere die Pakete von einer URL oder einem lokalen Archiv (.tar.gz | .whl):
+- Installiere die Pakete von einer URL oder einem lokalen Archiv (`.tar.gz` | `.whl`):
 
-`pip install --find-links {{url|pfad/zu/datei}}`
+`pip install {{[-f|--find-links]}} {{url|pfad/zu/datei}}`
 
 - Installiere das lokale Paket im aktuellen Verzeichnis im Entwicklungs-/Bearbeitungsmodus:
 
-`pip install --editable {{.}}`
+`pip install {{[-e|--editable]}} .`

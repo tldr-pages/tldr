@@ -2,7 +2,7 @@
 
 > Gerenciador de pacotes para Python.
 > Alguns sub-comandos, como `pip install` possuem sua própria documentação.
-> Mais informações: <https://pip.pypa.io>.
+> Mais informações: <https://pip.pypa.io/en/stable/cli/pip/>.
 
 - Instala um pacote (veja `pip install` para mais exemplos de instalação):
 
@@ -14,7 +14,7 @@
 
 - Atualiza um pacote:
 
-`pip install --upgrade {{nome_pacote}}`
+`pip install {{[-U|--upgrade]}} {{nome_pacote}}`
 
 - Desinstala um pacote:
 
@@ -30,4 +30,4 @@
 
 - Instala pacotes a partir de um arquivo:
 
-`pip install --requirement {{requirements.txt}}`
+`pip install {{[-r|--requirement]}} {{requirements.txt}}`

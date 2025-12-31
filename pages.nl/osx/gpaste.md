@@ -1,7 +1,7 @@
 # gpaste
 
-> Dit commando is een alias van `-p linux paste`.
+> Dit commando is een alias van GNU `paste`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux paste`
+`tldr paste`

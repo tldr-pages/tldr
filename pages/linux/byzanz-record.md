@@ -9,11 +9,11 @@
 
 - Show information while and after recording:
 
-`byzanz-record --verbose {{path/to/file.[byzanz|flv|gif|ogg|ogv|webm]}}`
+`byzanz-record {{[-v|--verbose]}} {{path/to/file.[byzanz|flv|gif|ogg|ogv|webm]}}`
 
 - Record the screen for a minute:
 
-`byzanz-record --duration 60 {{path/to/file.[byzanz|flv|gif|ogg|ogv|webm]}}`
+`byzanz-record {{[-d|--duration]}} 60 {{path/to/file.[byzanz|flv|gif|ogg|ogv|webm]}}`
 
 - Delay recording for 10 seconds:
 

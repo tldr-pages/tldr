@@ -9,7 +9,7 @@
 
 - List all available project targets of a specific environment:
 
-`pio run --list-targets --environment {{environment}}`
+`pio run --list-targets {{[-e|--environment]}} {{environment}}`
 
 - Run all targets:
 
@@ -17,12 +17,12 @@
 
 - Run all targets of specified environments:
 
-`pio run --environment {{environment1}} --environment {{environment2}}`
+`pio run {{[-e|--environment]}} {{environment1}} {{[-e|--environment]}} {{environment2}}`
 
 - Run specified targets:
 
-`pio run --target {{target1}} --target {{target2}}`
+`pio run {{[-t|--target]}} {{target1}} {{[-t|--target]}} {{target2}}`
 
 - Run the targets of a specified configuration file:
 
-`pio run --project-conf {{path/to/platformio.ini}}`
+`pio run {{[-c|--project-conf]}} {{path/to/platformio.ini}}`

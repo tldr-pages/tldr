@@ -1,7 +1,7 @@
 # gprintf
 
-> Este comando é um apelido de `-p linux printf`.
+> Este comando é um apelido de `printf`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux printf`
+`tldr printf`

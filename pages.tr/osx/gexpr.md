@@ -1,7 +1,7 @@
 # gexpr
 
-> Bu komut `-p linux expr` için bir takma addır.
+> Bu komut `expr` için bir takma addır.
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux expr`
+`tldr expr`

@@ -1,7 +1,7 @@
 # gmake
 
-> Perintah ini merupakan alias dari `-p linux make`.
+> Perintah ini merupakan alias dari `make`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux make`
+`tldr make`

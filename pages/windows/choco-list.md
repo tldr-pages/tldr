@@ -1,7 +1,7 @@
 # choco list
 
 > Display a list of packages with Chocolatey.
-> More information: <https://chocolatey.org/docs/commands-list>.
+> More information: <https://docs.chocolatey.org/en-us/choco/commands/list/>.
 
 - Display all available packages:
 
@@ -13,7 +13,7 @@
 
 - Display a list including local programs:
 
-`choco list --include-programs`
+`choco list {{[-i|--include-programs]}}`
 
 - Display only approved packages:
 
@@ -21,7 +21,7 @@
 
 - Specify a custom source to display packages from:
 
-`choco list --source {{source_url|alias}}`
+`choco list {{[-s|--source]}} {{source_url|alias}}`
 
 - Provide a username and password for authentication:
 

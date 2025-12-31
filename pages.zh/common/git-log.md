@@ -1,7 +1,7 @@
 # git log
 
 > 查看提交历史。
-> 更多信息：<https://git-scm.com/docs/git-log>.
+> 更多信息：<https://git-scm.com/docs/git-log>。
 
 - 按时间先后顺序列出当前仓库所有的提交，最近的更新排在最上面：
 
@@ -9,7 +9,7 @@
 
 - 查看指定文件或指定目录的历史，包括每次提交所引入的差异：
 
-`git log {{-p|-u|--patch}} {{路径/到/文件或目录}}`
+`git log {{[-p|--patch]}} {{路径/到/文件或目录}}`
 
 - 显示每次提交的文件修改统计信息：
 
@@ -25,11 +25,11 @@
 
 - 查看提交消息中包含特定字符串（大小写敏感）的提交：
 
-`git log {{-i|--regexp-ignore-case}} --grep {{字符串}}`
+`git log {{[-i|--regexp-ignore-case]}} --grep {{字符串}}`
 
 - 查看特定作者的最近 N 条提交：
 
-`git log {{-n|--max-count}} {{数字}} --author "{{作者}}"`
+`git log {{[-n|--max-count]}} {{数字}} --author "{{作者}}"`
 
 - 查看两个日期之间的提交（yyyy-mm-dd）：
 

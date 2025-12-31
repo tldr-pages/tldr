@@ -1,7 +1,7 @@
 # pamtogif
 
 > Converteer een Netpbm afbeelding naar een ongeanimeerde GIF afbeelding.
-> Bekijk ook: `giftopnm`, `gifsicle`.
+> Zie ook: `giftopnm`, `gifsicle`.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/pamtogif.html>.
 
 - Converteer een Netpbm afbeelding naar een ongeanimeerde GIF afbeelding:
@@ -10,8 +10,8 @@
 
 - Markeer de gespecificeerde kleur als transparent in het uitvoer GIF bestand:
 
-`pamtogif -transparent {{kleur}} {{pad/naar/afbeelding.pam}} > {{pad/naar/uitvoer.gif}}`
+`pamtogif {{[-t|-transparent]}} {{kleur}} {{pad/naar/afbeelding.pam}} > {{pad/naar/uitvoer.gif}}`
 
 - Voeg de gespecificeerde tekst toe als commentaar in het uitvoer GIF bestand:
 
-`pamtogif -comment "{{Hallo Wereld!}}" {{pad/naar/afbeelding.pam}} > {{pad/naar/uitvoer.gif}}`
+`pamtogif {{[-c|-comment]}} "{{Hallo Wereld!}}" {{pad/naar/afbeelding.pam}} > {{pad/naar/uitvoer.gif}}`

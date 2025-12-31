@@ -16,6 +16,6 @@
 
 `cargo metadata --format-version {{version}}`
 
-- Print metadata with the `resolve` field including dependencies only for the given target triple (Note: the `packages` array will still include the dependencies for all targets):
+- Print metadata with the `resolve` field including dependencies only for the given target triple (Note: The `packages` array will still include the dependencies for all targets):
 
 `cargo metadata --filter-platform {{target_triple}}`

@@ -1,7 +1,7 @@
 # fclones
 
 > Efficient duplicate file finder and remover.
-> More information: <https://github.com/pkolaczk/fclones>.
+> More information: <https://github.com/pkolaczk/fclones#usage>.
 
 - Search for duplicate files in the current directory:
 
@@ -9,7 +9,7 @@
 
 - Search multiple directories for duplicate files and cache the results:
 
-`fclones group --cache {{path/to/directory1 path/to/directory2}}`
+`fclones group --cache {{path/to/directory1 path/to/directory2 ...}}`
 
 - Search only the specified directory for duplicate files, skipping subdirectories and save the results into a file:
 
@@ -17,11 +17,11 @@
 
 - Move the duplicate files in a TXT file to a different directory:
 
-`fclones move {{path/to/target_directory}} < {{path/to/file.txt}}`
+`fclones < {{path/to/file.txt}} move {{path/to/target_directory}}`
 
 - Perform a dry run for soft links in a TXT file without actually linking:
 
-`fclones link --soft < {{path/to/file.txt}} --dry-run 2 > /dev/null`
+`fclones < {{path/to/file.txt}} link --soft --dry-run 2 > /dev/null`
 
 - Delete the newest duplicates from the current directory without storing them in a file:
 

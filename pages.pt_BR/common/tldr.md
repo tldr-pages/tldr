@@ -13,8 +13,8 @@
 
 - Imprime a página do tldr para um comando para uma [p]lataforma específica:
 
-`tldr -p {{android|linux|osx|sunos|windows}} {{comando}}`
+`tldr {{[-p|--platform]}} {{android|linux|osx|sunos|windows}} {{comando}}`
 
 - Atualiza o cache local das páginas do tldr:
 
-`tldr -u`
+`tldr {{[-u|--update]}}`

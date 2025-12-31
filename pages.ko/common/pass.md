@@ -2,13 +2,13 @@
 
 > 비밀번호나 기타 민감한 데이터를 저장하고 읽기.
 > 모든 데이터는 GPG로 암호화되며, Git 저장소로 관리됩니다.
-> 더 많은 정보: <https://www.passwordstore.org>.
+> 더 많은 정보: <https://git.zx2c4.com/password-store/about/>.
 
 - 하나 이상의 GPG ID를 사용하여 저장소 초기화 (또는 재암호화):
 
 `pass init {{gpg_id_1}} {{gpg_id_2}}`
 
-- 새 비밀번호 및 추가 정보 저장 (새 줄에서 Ctrl + D를 눌러 완료):
+- 새 비밀번호 및 추가 정보 저장 (새 줄에서 `<Ctrl d>`를 눌러 완료):
 
 `pass insert --multiline {{경로/대상/데이터}}`
 

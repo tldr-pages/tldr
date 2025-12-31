@@ -5,4 +5,4 @@
 
 - Start een specifiek Java programma:
 
-`dalvikvm -classpath {{pad/naar/bestand.jar}} {{classname}}`
+`dalvikvm -classpath {{pad/naar/bestand.jar}} {{classnaam}}`

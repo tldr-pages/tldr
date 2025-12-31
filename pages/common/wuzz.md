@@ -1,7 +1,7 @@
 # wuzz
 
 > Interactively inspect HTTP requests and responses.
-> More information: <https://github.com/asciimoo/wuzz>.
+> More information: <https://github.com/asciimoo/wuzz#commands>.
 
 - Start `wuzz`:
 
@@ -9,16 +9,16 @@
 
 - Send an HTTP request:
 
-`<Ctrl> + R`
+`<Ctrl r>`
 
 - Switch to the next view:
 
-`<Ctrl> + J, <Tab>`
+`<Ctrl j><Tab>`
 
 - Switch to the previous view:
 
-`<Ctrl> + K, <Shift> + <Tab>`
+`<Ctrl k><Shift Tab>`
 
 - Display help:
 
-`F1`
+`<F1>`

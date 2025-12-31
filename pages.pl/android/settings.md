@@ -1,7 +1,7 @@
 # settings
 
 > Uzyskaj informacje o systemie operacyjnym Android.
-> Więcej informacji: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
+> Więcej informacji: <https://web.archive.org/web/20240525010124/https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
 
 - Wypisz ustawienia w przestrzeni `global`:
 

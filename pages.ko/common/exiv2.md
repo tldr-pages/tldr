@@ -1,7 +1,7 @@
 # exiv2
 
 > 이미지 메타데이터 도구.
-> 더 많은 정보: <https://www.exiv2.org/manpage.html>.
+> 더 많은 정보: <https://exiv2.org/manpage.html>.
 
 - 이미지 Exif 메타데이터 요약을 출력:
 

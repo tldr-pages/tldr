@@ -1,9 +1,8 @@
 # nmcli monitor
 
 > Monitor changes to the NetworkManager connection status.
-> This subcommand can also be called with `nmcli m`.
-> More information: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
+> More information: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html#monitor>.
 
 - Start monitoring NetworkManager changes:
 
-`nmcli monitor`
+`nmcli {{[m|monitor]}}`

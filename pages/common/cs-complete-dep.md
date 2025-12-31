@@ -1,4 +1,4 @@
-# cs complete dep
+# cs complete-dep
 
 > Search for libraries without doing it directly on the web.
 > More information: <https://get-coursier.io/docs/cli-complete>.

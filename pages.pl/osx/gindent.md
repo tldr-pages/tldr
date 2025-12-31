@@ -1,7 +1,7 @@
 # gindent
 
-> To polecenie jest aliasem `-p linux indent`.
+> To polecenie jest aliasem GNU `indent`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux indent`
+`tldr {{[-p|--platform]}} common indent`

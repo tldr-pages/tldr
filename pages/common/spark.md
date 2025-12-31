@@ -1,7 +1,7 @@
 # spark
 
-> The Laravel Spark command-line tool.
-> More information: <https://spark.laravel.com>.
+> The Laravel Spark tool.
+> More information: <https://spark.laravel.com/>.
 
 - Register your API token:
 

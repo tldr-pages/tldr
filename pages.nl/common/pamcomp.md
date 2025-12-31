@@ -9,12 +9,12 @@
 
 - Zet de horizontale uitlijning van de bovenlaag:
 
-`pamcomp -align {{left|center|right|beyondleft|beyondright}} -xoff {{x_offset}} {{pad/naar/bovenlaag.pam}} {{pad/naar/onderlaag.pam}} > {{pad/naar/uitvoer.pam}}`
+`pamcomp {{[-ali|-align]}} {{left|center|right|beyondleft|beyondright}} {{[-x|-xoff]}} {{x_offset}} {{pad/naar/bovenlaag.pam}} {{pad/naar/onderlaag.pam}} > {{pad/naar/uitvoer.pam}}`
 
 - Zet de verticale uitlijning van de bovenlaag:
 
-`pamcomp -valign {{top|middle|bottom|above|below}} -yoff {{y_offset}} {{pad/naar/bovenlaag.pam}} {{pad/naar/onderlaag.pam}} > {{pad/naar/uitvoer.pam}}`
+`pamcomp {{[-va|-valign]}} {{top|middle|bottom|above|below}} {{[-y|-yoff]}} {{y_offset}} {{pad/naar/bovenlaag.pam}} {{pad/naar/onderlaag.pam}} > {{pad/naar/uitvoer.pam}}`
 
 - Zet de dekking van de bovenlaag:
 
-`pamcomp -opacity {{0.7}} {{pad/naar/bovenlaag.pam}} {{pad/naar/onderlaag.pam}} > {{pad/naar/uitvoer.pam}}`
+`pamcomp {{[-o|-opacity]}} {{0.7}} {{pad/naar/bovenlaag.pam}} {{pad/naar/onderlaag.pam}} > {{pad/naar/uitvoer.pam}}`

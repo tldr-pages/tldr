@@ -6,4 +6,4 @@
 
 - `libtool`을 필요한 파일을 복사하여(심볼릭 링크는 피함) 프로젝트를 초기화하고 필요한 경우 기존 파일을 덮어씀:
 
-`libtoolize --copy --force`
+`libtoolize {{[-cf|--copy --force]}}`

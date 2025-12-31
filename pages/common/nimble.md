@@ -14,7 +14,7 @@
 
 - List installed packages:
 
-`nimble list -i`
+`nimble list {{[-i|--installed]}}`
 
 - Create a new Nimble package in the current directory:
 

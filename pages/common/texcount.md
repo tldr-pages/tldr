@@ -1,7 +1,7 @@
 # texcount
 
 > Count words in TeX documents omitting macros.
-> Note: if the TeX document uses `\include` or `\input` and you want to count the included files, `texcount` must be run in the directory of the root TeX file.
+> Note: If the TeX document uses `\include` or `\input` and you want to count the included files, `texcount` must be run in the directory of the root TeX file.
 > More information: <https://app.uio.no/ifi/texcount/howto.html>.
 
 - Count words in a TeX file:

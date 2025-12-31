@@ -12,6 +12,6 @@
 
 `tldr invoke-webrequest`
 
-- Muestra versión:
+- Muestra la versión:
 
 `wget --version`

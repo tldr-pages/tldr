@@ -1,7 +1,7 @@
 # systemd-hwdb
 
 > Hardware database management tool.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemd-hwdb.html>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemd-hwdb.html>.
 
 - Update the binary hardware database in `/etc/udev`:
 
@@ -13,7 +13,7 @@
 
 - Update the binary hardware database, returning a non-zero exit value on any parsing error:
 
-`systemd-hwdb --strict update`
+`systemd-hwdb {{[-s|--strict]}} update`
 
 - Update the binary hardware database in `/usr/lib/udev`:
 
@@ -21,4 +21,4 @@
 
 - Update the binary hardware database in the specified root path:
 
-`systemd-hwdb --root={{path/to/root}} update`
+`systemd-hwdb {{[-r|--root]}} {{path/to/root}} update`

@@ -1,7 +1,7 @@
 # thunderbird
 
 > 이메일 클라이언트 및 RSS 리더.
-> 더 많은 정보: <https://thunderbird.net>.
+> 더 많은 정보: <https://manned.org/thunderbird>.
 
 - thunderbird 열기:
 

@@ -1,7 +1,7 @@
 # qm config
 
 > 적용 대기 중인 구성 변경 사항을 포함하여 가상 머신 구성을 표시.
-> 더 많은 정보: <https://pve.proxmox.com/pve-docs/qm.1.html>.
+> 더 많은 정보: <https://pve.proxmox.com/pve-docs/qm.1.html#cli_qm_config>.
 
 - 가상 머신 구성 표시:
 

@@ -2,7 +2,7 @@
 
 > 다양한 프로그래밍 언어에 대한 성능 분석 도구.
 > 프로그램의 기능 실행을 프로파일링.
-> 더 많은 정보: <https://ftp.gnu.org/old-gnu/Manuals/gprof-2.9.1/html_mono/gprof.html>.
+> 더 많은 정보: <https://ftp.gnu.org/old-gnu/Manuals/gprof/html_mono/gprof.html>.
 
 - gprof 정보로 바이너리를 컴파일하고 실행하여 `gmon.out`을 얻음:
 

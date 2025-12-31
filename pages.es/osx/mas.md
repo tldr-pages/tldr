@@ -5,7 +5,7 @@
 
 - Inicia sesión en la Mac App Store por primera vez:
 
-`mas signin "{{usuario@ejemplo.com}}"`
+`mas signin "{{usuario@example.com}}"`
 
 - Muestra todas las aplicaciones instaladas y sus identificadores de producto:
 

@@ -10,4 +10,4 @@
 
 - 도움말 표시:
 
-`crane version {{-h|--help}}`
+`crane version {{[-h|--help]}}`

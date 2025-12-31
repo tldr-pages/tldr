@@ -13,4 +13,4 @@
 
 - Show information about the specific commit, rather than the latest version:
 
-`flatpak remote-info --commit={{COMMIT}} {{remote_name}} {{com.example.app}}`
+`flatpak remote-info --commit {{COMMIT}} {{remote_name}} {{com.example.app}}`

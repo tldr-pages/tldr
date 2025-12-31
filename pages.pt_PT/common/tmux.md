@@ -21,7 +21,7 @@
 
 - Sai da sessão atual (com o prefixo Ctrl-B):
 
-`<Ctrl>-B d`
+`<Ctrl b><d>`
 
 - Elimina uma sessão com nome:
 

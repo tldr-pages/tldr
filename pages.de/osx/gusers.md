@@ -1,7 +1,7 @@
 # gusers
 
-> Dieser Befehl ist ein Alias von `-p linux users`.
+> Dieser Befehl ist ein Alias von `users`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 
-`tldr -p linux users`
+`tldr users`

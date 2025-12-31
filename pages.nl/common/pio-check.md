@@ -9,11 +9,11 @@
 
 - Voer een basis analyse check uit op een specifiek project:
 
-`pio check --project-dir {{project_map}}`
+`pio check {{[-d|--project-dir]}} {{project_map}}`
 
 - Voer een analyse check uit voor een specifieke omgeving:
 
-`pio check --environment {{omgeving}}`
+`pio check {{[-e|--environment]}} {{omgeving}}`
 
 - Voer een analyse check uit en rapporteer alleen een specifiek niveau:
 
@@ -21,4 +21,4 @@
 
 - Voer een analyse check uit en toon gedetailleerde informatie bij het verwerken van omgevingen:
 
-`pio check --verbose`
+`pio check {{[-v|--verbose]}}`

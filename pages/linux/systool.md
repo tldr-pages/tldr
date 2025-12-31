@@ -2,7 +2,7 @@
 
 > View system device information by bus, and classes.
 > This command is part of the `sysfs` package.
-> More information: <https://github.com/linux-ras/sysfsutils>.
+> More information: <https://manned.org/systool>.
 
 - List all attributes of devices of a bus (eg. `pci`, `usb`). View all buses using `ls /sys/bus`:
 

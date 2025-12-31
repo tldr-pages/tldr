@@ -5,4 +5,4 @@
 
 - Change the volume label on a specific ext partition:
 
-`e2label {{/dev/sda1}} "{{label_name}}"`
+`sudo e2label {{/dev/sda1}} "{{label_name}}"`

@@ -1,7 +1,7 @@
 # hg commit
 
 > Commit all staged or specified files to the repository.
-> More information: <https://www.mercurial-scm.org/doc/hg.1.html#commit>.
+> More information: <https://www.mercurial-scm.org/help/commands/commit>.
 
 - Commit staged files to the repository:
 
@@ -13,16 +13,16 @@
 
 - Commit with a specific message:
 
-`hg commit --message {{message}}`
+`hg commit {{[-m|--message]}} {{message}}`
 
 - Commit all files matching a specified pattern:
 
-`hg commit --include {{pattern}}`
+`hg commit {{[-I|--include]}} {{pattern}}`
 
 - Commit all files, excluding those that match a specified pattern:
 
-`hg commit --exclude {{pattern}}`
+`hg commit {{[-X|--exclude]}} {{pattern}}`
 
 - Commit using the interactive mode:
 
-`hg commit --interactive`
+`hg commit {{[-i|--interactive]}}`

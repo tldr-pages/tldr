@@ -1,7 +1,7 @@
 # coredumpctl
 
 > Pobieraj i przetwarzaj zapisane zrzuty pamięci i metadane.
-> Więcej informacji: <https://www.freedesktop.org/software/systemd/man/coredumpctl.html>.
+> Więcej informacji: <https://www.freedesktop.org/software/systemd/man/latest/coredumpctl.html>.
 
 - Wyświetl wszystkie zapisane zrzuty pamięci:
 
@@ -21,4 +21,4 @@
 
 - Wyodrębnij ostatni zrzut pamięci programu do pliku:
 
-`coredumpctl --output={{ścieżka/do/pliku}} dump {{program}}`
+`coredumpctl --output {{ścieżka/do/pliku}} dump {{program}}`

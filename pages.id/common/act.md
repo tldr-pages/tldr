@@ -1,7 +1,7 @@
 # act
 
 > Jalankan GitHub Actions secara lokal melalui Docker.
-> Informasi lebih lanjut: <https://github.com/nektos/act>.
+> Informasi lebih lanjut: <https://manned.org/act>.
 
 - Tampilkan daftar actions (tugas dalam GitHub Actions) yang tersedia:
 

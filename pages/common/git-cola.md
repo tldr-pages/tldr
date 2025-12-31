@@ -1,7 +1,7 @@
 # git cola
 
 > A powerful Git GUI with a slick and intuitive user interface.
-> More information: <https://git-cola.readthedocs.io>.
+> More information: <https://git-cola.readthedocs.io/en/latest/git-cola.html>.
 
 - Start the GUI:
 
@@ -17,8 +17,8 @@
 
 - Open the Git repository at mentioned path:
 
-`git cola --repo {{path/to/git-repository}}`
+`git cola {{[-r|--repo]}} {{path/to/git-repository}}`
 
 - Apply the path filter to the status widget:
 
-`git cola --status-filter {{filter}}`
+`git cola {{[-s|--status-filter]}} {{filter}}`

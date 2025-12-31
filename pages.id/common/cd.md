@@ -1,7 +1,7 @@
 # cd
 
 > Ubah direktori kerja saat ini.
-> Informasi lebih lanjut: <https://manned.org/cd>.
+> Informasi lebih lanjut: <https://www.gnu.org/software/bash/manual/bash.html#index-cd>.
 
 - Pergi menuju direktori yang ditentukan:
 

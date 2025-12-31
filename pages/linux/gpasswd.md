@@ -5,11 +5,11 @@
 
 - Define group administrators:
 
-`sudo gpasswd -A {{user1,user2}} {{group}}`
+`sudo gpasswd {{[-A|--administrators]}} {{user1,user2}} {{group}}`
 
 - Set the list of group members:
 
-`sudo gpasswd -M {{user1,user2}} {{group}}`
+`sudo gpasswd {{[-M|--members]}} {{user1,user2}} {{group}}`
 
 - Create a password for the named group:
 
@@ -17,8 +17,8 @@
 
 - Add a user to the named group:
 
-`gpasswd -a {{user}} {{group}}`
+`gpasswd {{[-a|--add]}} {{user}} {{group}}`
 
 - Remove a user from the named group:
 
-`gpasswd -d {{user}} {{group}}`
+`gpasswd {{[-d|--delete]}} {{user}} {{group}}`

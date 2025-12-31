@@ -1,7 +1,7 @@
 # hyprpm
 
 > Complementos de control para el compositor Hyprland Wayland.
-> Más información: <https://wiki.hyprland.org/Plugins/Using-Plugins/#hyprpm>.
+> Más información: <https://wiki.hypr.land/Plugins/Using-Plugins/#hyprpm>.
 
 - Añade un complemento:
 
@@ -25,7 +25,7 @@
 
 - Fuerza una operación:
 
-`hyprpm {{-f|--force}} {{operación}}`
+`hyprpm {{[-f|--force]}} {{operación}}`
 
 - Lista todos los complementos instalados:
 

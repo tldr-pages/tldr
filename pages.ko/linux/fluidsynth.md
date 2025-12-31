@@ -5,4 +5,4 @@
 
 - MIDI 파일 재생:
 
-`fluidsynth --audio-driver={{pipewire|pulseaudio}} {{경로/대상/사운드폰트.sf2}} {{경로/대상/파일.midi}}`
+`fluidsynth {{[-a|--audio-driver]}} {{pipewire|pulseaudio}} {{경로/대상/사운드폰트.sf2}} {{경로/대상/파일.midi}}`

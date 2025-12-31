@@ -1,7 +1,7 @@
 # xsltproc
 
 > Transform XML with XSLT to produce output (usually HTML or XML).
-> More information: <http://www.xmlsoft.org/xslt/xsltproc.html>.
+> More information: <https://manned.org/xsltproc>.
 
 - Transform an XML file with a specific XSLT stylesheet:
 

@@ -7,10 +7,10 @@
 
 `zipcloak {{path/to/archive.zip}}`
 
-- [d]ecrypt the contents of a Zip archive:
+- Decrypt the contents of a Zip archive:
 
-`zipcloak -d {{path/to/archive.zip}}`
+`zipcloak {{[-d|--decrypt]}} {{path/to/archive.zip}}`
 
-- [O]utput the encrypted contents into a new Zip archive:
+- Output the encrypted contents into a new Zip archive:
 
-`zipcloak {{path/to/archive.zip}} -O {{path/to/encrypted.zip}}`
+`zipcloak {{path/to/archive.zip}} {{[-O|--output-file]}} {{path/to/encrypted.zip}}`

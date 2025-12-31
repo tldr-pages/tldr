@@ -1,11 +1,11 @@
 # blight
 
 > Utility for changing the display brightness.
-> More information: <https://github.com/gutjuri/blight>.
+> More information: <https://github.com/gutjuri/blight#usage>.
 
 - Set display brightness to 50%:
 
-`blight set {{50}} -r`
+`blight set {{50}} {{[-r|--relative]}}`
 
 - Show current display brightness:
 
@@ -17,7 +17,7 @@
 
 - Increase display brightness in %:
 
-`blight inc {{number}} -r`
+`blight inc {{number}} {{[-r|--relative]}}`
 
 - Decrease display brightness with internal units:
 

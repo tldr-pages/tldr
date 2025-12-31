@@ -5,7 +5,11 @@
 
 - View current configuration in JSON format:
 
-`pulumi config --json`
+`pulumi config {{[-j|--json]}}`
+
+- View configuration for a specified stack:
+
+`pulumi config {{[-s|--stack]}} {{stack_name}}`
 
 - Get the value of a configuration key:
 

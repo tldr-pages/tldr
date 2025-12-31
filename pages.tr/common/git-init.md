@@ -9,7 +9,7 @@
 
 - Bir depoyu nesne verileri için SHA256 formatı ile başlat (Git versiyonu 2.29 veya üstü olmalıdır):
 
-`git init --object-format={{sha256}}`
+`git init --object-format {{sha256}}`
 
 - Yalın bir depo başlat:
 

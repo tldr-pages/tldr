@@ -1,7 +1,7 @@
 # guptime
 
-> Bu komut `-p linux uptime` için bir takma addır.
+> Bu komut `uptime` için bir takma addır.
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux uptime`
+`tldr {{[-p|--platform]}} common uptime`

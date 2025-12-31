@@ -1,7 +1,7 @@
 # tmpmail
 
 > 터미널에서 바로 사용할 수 있는 POSIX sh로 작성된 임시 이메일.
-> 더 많은 정보: <https://github.com/sdushantha/tmpmail>.
+> 더 많은 정보: <https://github.com/sdushantha/tmpmail#usage>.
 
 - 임시 받은 편지함 생성:
 

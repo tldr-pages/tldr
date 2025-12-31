@@ -1,7 +1,7 @@
 # dnf config-manager
 
 > Fedora 기반 시스템에서 DNF 구성 옵션과 저장소를 관리합니다.
-> 더 많은 정보: <https://manned.org/dnf-config-manager>.
+> 더 많은 정보: <https://dnf-plugins-core.readthedocs.io/en/latest/config_manager.html>.
 
 - URL에서 저장소 추가(그리고 활성화):
 

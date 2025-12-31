@@ -9,7 +9,7 @@
 
 - Unduh perubahan dari bawaan repositori remote dan menggunakan maju cepat:
 
-`git pull --rebase`
+`git pull {{[-r|--rebase]}}`
 
 - Unduh perubahan dari repositori remote dan cabang yang diberikan, kemudian menggabungkannya ke HEAD:
 

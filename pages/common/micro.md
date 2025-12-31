@@ -2,7 +2,7 @@
 
 > A modern and intuitive terminal-based text editor.
 > You can use your keyboard, but also your mouse to navigate and/or select text.
-> More information: <https://micro-editor.github.io>.
+> More information: <https://github.com/zyedidia/micro#usage>.
 
 - Open a file:
 
@@ -10,24 +10,24 @@
 
 - Save a file:
 
-`<Ctrl> + S`
+`<Ctrl s>`
 
 - Cut the entire line:
 
-`<Ctrl> + K`
+`<Ctrl k>`
 
-- Search for a pattern in the file (press `Ctrl + N`/`Ctrl + P` to go to next/previous match):
+- Search for a pattern in the file (press `<Ctrl n>`/`<Ctrl p>` to go to next/previous match):
 
-`<Ctrl> + F "{{pattern}}" <Enter>`
+`<Ctrl f>{{pattern}}<Enter>`
 
 - Execute a command:
 
-`<Ctrl> + E {{command}} <Enter>`
+`<Ctrl e>{{command}}<Enter>`
 
 - Perform a substitution in the whole file:
 
-`<Ctrl> + E replaceall "{{pattern}}" "{{replacement}}" <Enter>`
+`<Ctrl e>replaceall "{{pattern}}" "{{replacement}}"<Enter>`
 
 - Quit:
 
-`<Ctrl> + Q`
+`<Ctrl q>`

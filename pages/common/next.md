@@ -1,7 +1,7 @@
 # next
 
 > React framework that uses server-side rendering for building optimized web applications.
-> More information: <https://nextjs.org/docs>.
+> More information: <https://nextjs.org/docs/app/api-reference/cli/next>.
 
 - Start the current application in development mode:
 
@@ -9,7 +9,7 @@
 
 - Start the current application and listen on a specific port:
 
-`next dev --port {{port}}`
+`next dev {{[-p|--port]}} {{port}}`
 
 - Build the current application optimized for production:
 
@@ -21,7 +21,7 @@
 
 - Start the compiled application and listen on a specific port:
 
-`next start --port {{port}}`
+`next start {{[-p|--port]}} {{port}}`
 
 - Export the current application to static HTML pages:
 
@@ -33,4 +33,4 @@
 
 - Display help for a subcommand:
 
-`next {{build|dev|export|start|telemetry}} --help`
+`next {{build|dev|export|start|telemetry}} {{[-h|--help]}}`

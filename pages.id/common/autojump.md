@@ -1,8 +1,8 @@
 # autojump
 
 > Lompat dengan cepat menuju direktori-direktori yang paling sering anda kunjungi.
-> Alias seperti j atau jc sudah disediakan untuk mengurangi pengetikan.
-> Informasi lebih lanjut: <https://github.com/wting/autojump>.
+> Alias seperti `j` atau `jc` sudah disediakan untuk mengurangi pengetikan.
+> Informasi lebih lanjut: <https://github.com/wting/autojump#name>.
 
 - Lompat menuju direktori yang mengandung pola yang diberikan:
 
@@ -16,10 +16,10 @@
 
 `jo {{pola}}`
 
-- Buang direktori-direktori dalam pangkalan data (database) autojump yang telah sebelumnya dihapus:
+- Buang direktori-direktori dalam pangkalan data (database) `autojump` yang telah sebelumnya dihapus:
 
 `j --purge`
 
-- Tampilkan entri yang ada dalam pangkalan data autojump:
+- Tampilkan entri yang ada dalam pangkalan data `autojump`:
 
-`j -s`
+`j {{[-s|--stat]}}`

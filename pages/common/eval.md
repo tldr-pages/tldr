@@ -1,7 +1,7 @@
 # eval
 
 > Execute arguments as a single command in the current shell and return its result.
-> More information: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#eval>.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-eval>.
 
 - Call `echo` with the "foo" argument:
 

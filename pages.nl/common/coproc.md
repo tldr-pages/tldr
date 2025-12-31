@@ -13,16 +13,20 @@
 
 - Schrijf naar de `stdin` van een specifiek coprocess:
 
-`echo "{{invoer}}" >&"${{{naam}}[1]}"`
+`echo "{{invoer}}" >&"${{{naam[1]}}}"`
 
 - Lees van de `stdout` van een specifiek coprocess:
 
-`read {{variabele}} <&"${{{naam}}[0]}"`
+`read <&"${{{naam[0]}}}" {{variabele}}`
 
 - Maak een coprocess dat herhaaldelijk `stdin` leest en opdrachten op de invoer uitvoert:
 
-`coproc {{naam}} { while read line; do {{commando1; commando2; ...}}; done }`
+`coproc {{naam}} { while read {{regel}}; do {{commando1; commando2; ...}}; done }`
+
+- Maak een coprocess dat herhaaldelijk `stdin` leest, voert een pipeline uit op de input en schrijf de output naar `stdout`:
+
+`coproc {{naam}} { while read {{regel}}; do {{echo "$regel"}} | {{commando1 | commando2 | ...}} | cat /dev/fd/0; done }`
 
 - Maak en gebruik een coprocess dat `bc` uitvoert:
 
-`coproc BC { bc --mathlib; }; echo "1/3" >&"${BC[1]}"; read output <&"${BC[0]}"; echo "$output"`
+`coproc BC { bc {{[-l|--mathlib]}}; }; echo "1/3" >&"${BC[1]}"; read <&"${BC[0]}" output; echo "$output"`

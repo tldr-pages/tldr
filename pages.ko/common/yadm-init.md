@@ -1,4 +1,4 @@
-# yadm-init
+# yadm init
 
 > 새로운 빈 저장소를 초기화하여 dotfiles를 추적.
 > 저장소는 `$HOME/.local/share/yadm/repo.git`에 저장됩니다.

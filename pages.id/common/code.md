@@ -1,7 +1,7 @@
 # code
 
 > Pengolah kode komputer yang tersedia lintas platform dan dapat diperluas.
-> Informasi lebih lanjut: <https://github.com/microsoft/vscode>.
+> Informasi lebih lanjut: <https://code.visualstudio.com/docs/configure/command-line>.
 
 - Jalankan aplikasi Visual Studio Code:
 
@@ -13,11 +13,11 @@
 
 - Bandingkan isi antara dua berkas teks:
 
-`code --diff {{jalan/menuju/berkas1}} {{jalan/menuju/berkas2}}`
+`code {{[-d|--diff]}} {{jalan/menuju/berkas1}} {{jalan/menuju/berkas2}}`
 
 - Buka kumpulan berkas atau direktori menuju sebuah jendela pengolah baru:
 
-`code --new-window {{jalan/menuju/berkas_atau_direktori1 jalan/menuju/berkas_atau_direktori2 ...}}`
+`code {{[-n|--new-window]}} {{jalan/menuju/berkas_atau_direktori1 jalan/menuju/berkas_atau_direktori2 ...}}`
 
 - Pasang/bongkat suatu paket ekstensi:
 

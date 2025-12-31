@@ -1,7 +1,7 @@
 # ghostname
 
-> Bu komut `-p linux hostname` için bir takma addır.
+> Bu komut `hostname` için bir takma addır.
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux hostname`
+`tldr hostname`

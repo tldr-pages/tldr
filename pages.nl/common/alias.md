@@ -1,10 +1,11 @@
 # alias
 
-> Maakt een alias aan -- Woorden die vervangen worden door commando's.
+> Maak een alias aan -- Woorden die vervangen worden door commando's.
 > Een alias blijft bestaan in de huidige shell sessie, tenzij gedefinieerd in de configuratie van de shell, bijvoorbeeld in `~/.bashrc`.
-> Meer informatie: <https://tldp.org/LDP/abs/html/aliases.html>.
+> Zie ook: `unalias`.
+> Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#index-alias>.
 
-- Overzicht alle aliases:
+- Toon alle aliassen:
 
 `alias`
 
@@ -16,7 +17,7 @@
 
 `alias {{woord}}`
 
-- Verwijdert een alias:
+- Verwijder een alias:
 
 `unalias {{woord}}`
 

@@ -13,20 +13,20 @@
 
 - 컨테이너의 IP 주소 표시:
 
-`docker inspect --format '\{\{range.NetworkSettings.Networks\}\}\{\{.IPAddress\}\}\{\{end\}\}' {{컨테이너}}`
+`docker inspect {{[-f|--format]}} '\{\{range.NetworkSettings.Networks\}\}\{\{.IPAddress\}\}\{\{end\}\}' {{컨테이너}}`
 
 - 컨테이너의 로그 파일 경로 표시:
 
-`docker inspect --format='\{\{.LogPath\}\}' {{컨테이너}}`
+`docker inspect {{[-f|--format]}} '\{\{.LogPath\}\}' {{컨테이너}}`
 
 - 컨테이너의 이미지 이름 표시:
 
-`docker inspect --format='\{\{.Config.Image\}\}' {{컨테이너}}`
+`docker inspect {{[-f|--format]}} '\{\{.Config.Image\}\}' {{컨테이너}}`
 
 - JSON 형식으로 구성 정보 표시:
 
-`docker inspect --format='\{\{json .Config\}\}' {{컨테이너}}`
+`docker inspect {{[-f|--format]}} '\{\{json .Config\}\}' {{컨테이너}}`
 
 - 모든 포트 바인딩 표시:
 
-`docker inspect --format='\{\{range $p, $conf := .NetworkSettings.Ports\}\} \{\{$p\}\} -> \{\{(index $conf 0).HostPort\}\} \{\{end\}\}' {{컨테이너}}`
+`docker inspect {{[-f|--format]}} '\{\{range $p, $conf := .NetworkSettings.Ports\}\} \{\{$p\}\} -> \{\{(index $conf 0).HostPort\}\} \{\{end\}\}' {{컨테이너}}`

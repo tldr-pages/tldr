@@ -1,7 +1,7 @@
 # rclone
 
 > 여러 클라우드 서비스와 파일 및 디렉터리를 복사, 동기화 또는 이동.
-> 더 많은 정보: <https://rclone.org>.
+> 더 많은 정보: <https://rclone.org/commands/rclone/>.
 
 - rclone 설정을 위한 인터랙티브 메뉴 실행:
 
@@ -31,6 +31,6 @@
 
 `rclone mount {{원격_이름}}:{{경로/대상/폴더}} {{경로/대상/마운트_포인트}}`
 
-- CTRL-C 실패 시 rclone 원격 마운트 해제 (실험적):
+- `<Ctrl c>` 실패 시 rclone 원격 마운트 해제 (실험적):
 
 `fusermount -u {{경로/대상/마운트_포인트}}`

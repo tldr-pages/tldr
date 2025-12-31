@@ -10,12 +10,12 @@
 
 - Display the top 10 rank list for input difficulty level:
 
-`typeinc {{-r|--ranklist}} {{difficulty_level}}`
+`typeinc {{[-r|--ranklist]}} {{difficulty_level}}`
 
 - Get random English words present in our wordlist:
 
-`typeinc {{-w|--words}} {{word_count}}`
+`typeinc {{[-w|--words]}} {{word_count}}`
 
 - Calculate hypothetical Typeinc score:
 
-`typeinc {{-s|--score}}`
+`typeinc {{[-s|--score]}}`

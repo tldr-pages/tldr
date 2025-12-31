@@ -1,7 +1,7 @@
 # split
 
 > Memisahkan sebuah file menjadi beberapa bagian.
-> Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/split>.
+> Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/manual/html_node/split-invocation.html>.
 
 - Memisahkan sebuah file, tiap bagian memiliki 10 baris (kecuali di bagian terakhir):
 

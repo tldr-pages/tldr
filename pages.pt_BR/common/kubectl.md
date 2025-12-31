@@ -6,7 +6,7 @@
 
 - Lista toda a informação sobre um recurso em detalhes:
 
-`kubectl get {{pod|service|deployment|ingress|...}} -o wide`
+`kubectl get {{pods|service|deployment|ingress|...}} {{[-o|--output]}} wide`
 
 - Atualiza um pod específico com o label 'unhealthy' e o valor 'true':
 
@@ -18,7 +18,7 @@
 
 - Exibe os usos de recursos (CPU/Memória/Espaço alocado) dos nós ou pods:
 
-`kubectl top {{pod|node}}`
+`kubectl top {{pods|nodes}}`
 
 - Exibe os endereços dos serviços do master e do cluster:
 

@@ -1,7 +1,7 @@
 # npm dedupe
 
 > `node_modules` 디렉토리에서 중복을 줄입니다.
-> 더 많은 정보: <https://docs.npmjs.com/cli/commands/npm-dedupe>.
+> 더 많은 정보: <https://docs.npmjs.com/cli/npm-dedupe/>.
 
 - `node_modules`의 패키지 중복 제거:
 
@@ -17,11 +17,11 @@
 
 - 중복 제거 시 선택적/피어 의존성 건너뛰기:
 
-`npm dedupe --omit={{optional|peer}}`
+`npm dedupe --omit {{optional|peer}}`
 
 - 문제 해결을 위한 자세한 로깅 활성화:
 
-`npm dedupe --loglevel=verbose`
+`npm dedupe --loglevel verbose`
 
 - 특정 패키지에 대해 중복 제거 제한:
 

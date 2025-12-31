@@ -2,7 +2,7 @@
 
 > 비디오 및 음악을 찾고 다운로드. POSIX 셸로 작성되었습니다.
 > 같이 보기: `youtube-dl`, `yt-dlp`, `instaloader`.
-> 더 많은 정보: <https://github.com/pystardust/ytfzf>.
+> 더 많은 정보: <https://manned.org/ytfzf>.
 
 - YouTube에서 썸네일 미리보기로 비디오 검색:
 

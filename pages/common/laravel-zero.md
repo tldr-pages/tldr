@@ -1,7 +1,7 @@
 # laravel-zero
 
-> A command-line installer for the Laravel Zero framework.
-> More information: <https://laravel-zero.com>.
+> An installer for the Laravel Zero framework.
+> More information: <https://laravel-zero.com/>.
 
 - Create a new Laravel Zero application:
 

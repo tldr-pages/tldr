@@ -2,7 +2,7 @@
 
 > Arch User Repository의 패키지에 투표합니다.
 > 투표를 하려면 `~/.config/aurvote` 파일이 존재하고 AUR 자격 증명이 포함되어 있어야 합니다.
-> 더 많은 정보: <https://github.com/archlinuxfr/aurvote>.
+> 더 많은 정보: <https://github.com/archlinuxfr/aurvote#name>.
 
 - 대화형으로 AUR 사용자명과 비밀번호를 포함한 `~/.config/aurvote` 파일 생성:
 

@@ -2,7 +2,7 @@
 
 > Gerencia projetos Rust e as dependências dos modulos (crates).
 > Alguns subcomandos como `build` tem a sua própria documentação.
-> Mais informações: <https://doc.rust-lang.org/cargo>.
+> Mais informações: <https://doc.rust-lang.org/stable/cargo/>.
 
 - Procura por crates:
 
@@ -26,12 +26,12 @@
 
 - Constrói o projeto Rust no diretório atual usando o perfil de lançamento:
 
-`cargo build --release`
+`cargo {{[b|build]}} {{[-r|--release]}}`
 
 - Constrói o projeto Rust no diretório atual utilizando o nightly compilador:
 
-`cargo +nightly build`
+`cargo +nightly {{[b|build]}}`
 
 - Constrói o projeto Rust utilizando um número específico de threads (padrão é o número de cores do CPU):
 
-`cargo build --jobs {{número_de_threads}}`
+`cargo {{[b|build]}} {{[-j|--jobs]}} {{número_de_threads}}`

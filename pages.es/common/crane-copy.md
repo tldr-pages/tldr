@@ -9,16 +9,16 @@
 
 - Copia todas las etiquetas:
 
-`crane copy {{origen}} {{destino}} {{-a|--all-tags}}`
+`crane copy {{origen}} {{destino}} {{[-a|--all-tags]}}`
 
 - Establece el número máximo de copias simultáneas, predeterminados a GOMAXPROCS:
 
-`crane copy {{origen}} {{destino}} {{-j|--jobs}} {{número}}`
+`crane copy {{origen}} {{destino}} {{[-j|--jobs]}} {{número}}`
 
 - Evita sobrescribir las etiquetas existentes en el destino:
 
-`crane copy {{origen}} {{destino}} {{-n|--no-clobber}}`
+`crane copy {{origen}} {{destino}} {{[-n|--no-clobber]}}`
 
 - Muestra la ayuda:
 
-`crane copy {{-h|--help}}`
+`crane copy {{[-h|--help]}}`

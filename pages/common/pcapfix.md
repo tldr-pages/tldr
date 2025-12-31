@@ -3,7 +3,7 @@
 > Repair damaged or corrupted PCAP and PcapNG files.
 > More information: <https://f00l.de/pcapfix/>.
 
-- Repair a PCAP/PCapNG file (Note: for PCAP files, only the first 262144 bytes of each packet are scanned):
+- Repair a PCAP/PCapNG file (Note: For PCAP files, only the first 262144 bytes of each packet are scanned):
 
 `pcapfix {{path/to/file.pcapng}}`
 

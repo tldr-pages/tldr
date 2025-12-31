@@ -13,8 +13,8 @@
 
 - Control the fields to display:
 
-`sshare --format={{format_string}}`
+`sshare {{[-o|--format]}} {{format_string}}`
 
 - Display information for the specified users only:
 
-`sshare --users={{user_id_1,user_id_2,...}}`
+`sshare {{[-u|--users]}} {{user_id_1,user_id_2,...}}`

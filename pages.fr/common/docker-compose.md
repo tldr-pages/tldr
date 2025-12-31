@@ -9,7 +9,7 @@
 
 - Crée et démarre en arrière-plan tous les conteneurs décrits dans le fichier `docker-compose.yml` du répertoire courant :
 
-`docker compose up --detach`
+`docker compose up {{[-d|--detach]}}`
 
 - Démarre tous les conteneurs après les avoir recréés si nécessaire :
 
@@ -17,7 +17,7 @@
 
 - Démarre tous les conteneurs en spécifiant un nom de projet et un fichier compose alternatif :
 
-`docker compose -p {{nom_de_projet}} --file {{chemin/vers/fichier}} up`
+`docker compose {{[-p|--project-name]}} {{nom_de_projet}} {{[-f|--file]}} {{chemin/vers/fichier}} up`
 
 - Arrête tous les conteneurs en cours d'exécution :
 
@@ -25,12 +25,12 @@
 
 - Arrête et supprime tous les conteneurs, réseaux, images et volumes :
 
-`docker compose down --rmi all --volumes`
+`docker compose down --rmi all {{[-v|--volumes]}}`
 
 - Affiche et suit la journalisation de tous les conteneurs :
 
-`docker compose logs --follow`
+`docker compose logs {{[-f|--follow]}}`
 
 - Affiche et suit la journalisation pour un conteneurs spécifique :
 
-`docker compose logs --follow {{nom_container}}`
+`docker compose logs {{[-f|--follow]}} {{nom_container}}`

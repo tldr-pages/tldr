@@ -7,6 +7,6 @@
 
 `crane delete {{image_naam}}`
 
-- Toon help:
+- Toon de help:
 
-`crane delete {{-h|--help}}`
+`crane delete {{[-h|--help]}}`

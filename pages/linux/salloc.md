@@ -9,8 +9,8 @@
 
 - Execute the specified command synchronously on a node in the cluster:
 
-`salloc {{ls -a}}`
+`salloc {{ls --all}}`
 
 - Only allocate nodes fulfilling the specified constraints:
 
-`salloc --constraint={{(amd|intel)&gpu}}`
+`salloc {{[-C|--constraint]}} {{(amd|intel)&gpu}}`

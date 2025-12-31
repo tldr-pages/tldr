@@ -1,6 +1,6 @@
 # xmlstarlet
 
-> A command-line XML/XSLT toolkit.
+> A XML/XSLT toolkit.
 > Note: You will likely need to know XPath: <https://developer.mozilla.org/en-US/docs/Web/XPath>.
 > More information: <https://xmlstar.sourceforge.net/docs.php>.
 

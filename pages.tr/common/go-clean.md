@@ -1,7 +1,7 @@
 # go clean
 
 > Obje ve önbellek dosyalarını sil.
-> Daha fazla bilgi için: <https://golang.org/cmd/go/#hdr-Remove_object_files_and_cached_files>.
+> Daha fazla bilgi için: <https://pkg.go.dev/cmd/go#hdr-Remove_object_files_and_cached_files>.
 
 - Hiçbir şeyi silmeden silme komutlarını yazdır:
 

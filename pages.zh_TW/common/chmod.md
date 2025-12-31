@@ -2,7 +2,7 @@
 
 > 修改文件或目錄的存取權限。
 > 使用者類型分為檔案所有者（u）、檔案所有者之群組（g）、以及其他使用者（o）。
-> 更多資訊：<https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html>.
+> 更多資訊：<https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html>。
 
 - 給予文件所有者執行的權限：
 
@@ -30,8 +30,8 @@
 
 - 改變目錄底下所有檔案以及目錄的權限，給予檔案所有者之群組寫的權限，以及其他使用者寫的權限：
 
-`chmod -R g+w,o+w {{目標目錄}}`
+`chmod {{[-R|--recursive]}} g+w,o+w {{目標目錄}}`
 
 - 改變目錄底下所有檔案以及目錄的權限，給予全部使用者讀與對其底下檔案之執行權限：
 
-`chmod -R a+rX {{目標目錄}}`
+`chmod {{[-R|--recursive]}} a+rX {{目標目錄}}`

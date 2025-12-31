@@ -1,7 +1,7 @@
 # mtr
 
 > Matt's Traceroute: 트레이서라우트와 핑 도구를 결합한 도구.
-> 더 많은 정보: <https://www.bitwizard.nl/mtr/>.
+> 더 많은 정보: <https://manned.org/mtr>.
 
 - 호스트로 트레이서라우트를 수행하고 모든 중간 홉을 지속적으로 핑:
 

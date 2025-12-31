@@ -29,7 +29,7 @@
 
 - Mientras se ejecuta nettop, lista los comandos interactivos:
 
-`h`
+`<h>`
 
 - Muestra ayuda:
 

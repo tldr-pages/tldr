@@ -1,7 +1,7 @@
 # gmkfifo
 
-> Este comando é um apelido de `-p linux mkfifo`.
+> Este comando é um apelido de `mkfifo`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux mkfifo`
+`tldr mkfifo`

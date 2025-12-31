@@ -17,20 +17,20 @@
 
 - Move through opened files:
 
-`:O n`
+`<:><n>{{<ArrowUp>|<ArrowDown>}}`
 
 - Jump to the 100th line:
 
-`{{100}}j`
+`<j>{{100}}<Enter>`
 
 - Edit current file:
 
-`e`
+`<e>`
 
 - Split the current window in half:
 
-`<CTRL-x> o`
+`<CTRL x><o>`
 
 - Exit:
 
-`Q`
+`<q>`

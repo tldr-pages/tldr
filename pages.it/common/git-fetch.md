@@ -17,8 +17,8 @@
 
 - Scarica anche i tag dal repository remoto di origine:
 
-`git fetch --tags`
+`git fetch {{[-t|--tags]}}`
 
 - Elimina i riferimenti locali ai rami remoti che sono stati eliminati dal repositoy di origine:
 
-`git fetch --prune`
+`git fetch {{[-p|--prune]}}`

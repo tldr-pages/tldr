@@ -7,6 +7,6 @@
 
 `crane blob {{blob_identifier}}`
 
-- Toon help:
+- Toon de help:
 
-`crane blob {{-h|--help}}`
+`crane blob {{[-h|--help]}}`

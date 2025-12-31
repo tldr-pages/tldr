@@ -17,16 +17,16 @@
 
 - Lees een bestand met SHA256 checksums en bestandsnamen en verifieer dat alle bestanden overeenkomende checksums hebben:
 
-`sha256sum --check {{pad/naar/bestand.sha256}}`
+`sha256sum {{[-c|--check]}} {{pad/naar/bestand.sha256}}`
 
 - Toon alleen een bericht voor ontbrekende bestanden of wanneer verificatie mislukt:
 
-`sha256sum --check --quiet {{pad/naar/bestand.sha256}}`
+`sha256sum {{[-c|--check]}} --quiet {{pad/naar/bestand.sha256}}`
 
 - Toon alleen een bericht wanneer verificatie mislukt, negeer ontbrekende bestanden:
 
-`sha256sum --ignore-missing --check --quiet {{pad/naar/bestand.sha256}}`
+`sha256sum --ignore-missing {{[-c|--check]}} --quiet {{pad/naar/bestand.sha256}}`
 
 - Controleer een bekende SHA256 checksum van een bestand:
 
-`echo {{bekende_sha256_checksum_van_een_bestand}} {{pad/naar/bestand}} | sha256sum --check`
+`echo {{bekende_sha256_checksum_van_een_bestand}} {{pad/naar/bestand}} | sha256sum {{[-c|--check]}}`

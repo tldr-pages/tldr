@@ -2,7 +2,7 @@
 
 > Un monitor de recursos que muestra información sobre el CPU, la memoria, los discos, las redes y los procesos.
 > Una versión de `bashtop` en Python.
-> Más información: <https://github.com/aristocratos/bpytop>.
+> Más información: <https://github.com/aristocratos/bpytop#command-line-options>.
 
 - Inicia `bpytop`:
 
@@ -14,15 +14,15 @@
 
 - Cambia a el modo mínimo:
 
-`m`
+`<m>`
 
 - Busca procesos o programas en ejecución:
 
-`f`
+`<f>`
 
 - Cambia los ajustes:
 
-`M`
+`<M>`
 
 - Muestra la versión:
 

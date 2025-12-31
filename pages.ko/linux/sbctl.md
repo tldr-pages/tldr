@@ -14,7 +14,7 @@
 
 - 사용자 정의 보안 부트 키 및 Microsoft의 UEFI 공급업체 인증서 등록:
 
-`sbctl enroll-keys --microsoft`
+`sbctl enroll-keys {{[-m|--microsoft]}}`
 
 - `/etc/sbctl/sbctl.conf`의 설정에 따라 `create-keys`와 `enroll-keys` 자동 실행:
 
@@ -22,7 +22,7 @@
 
 - 생성된 키로 EFI 바이너리에 서명하고 파일을 데이터베이스에 저장:
 
-`sbctl sign {{-s|--save}} {{경로/대상/efi_바이너리}}`
+`sbctl sign {{[-s|--save]}} {{경로/대상/efi_바이너리}}`
 
 - 저장된 모든 파일 다시 서명:
 

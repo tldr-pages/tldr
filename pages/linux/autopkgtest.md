@@ -1,7 +1,7 @@
 # autopkgtest
 
 > Run tests on Debian packages.
-> More information: <https://wiki.debian.org/ContinuousIntegration/autopkgtest>.
+> More information: <https://manned.org/autopkgtest>.
 
 - Build the package in the current directory and run all tests directly on the system:
 
@@ -17,8 +17,8 @@
 
 - Test the package in the current directory using a new root directory:
 
-`autopkgtest -- {{chroot}} {{path/to/new/root}}`
+`autopkgtest -- {{chroot}} {{path/to/new_root}}`
 
 - Test the package in the current directory without rebuilding it:
 
-`autopkgtest --no-built-binaries -- {{null}}`
+`autopkgtest {{[-B|--no-built-binaries]}} -- {{null}}`

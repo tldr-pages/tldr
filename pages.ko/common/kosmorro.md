@@ -1,7 +1,7 @@
 # kosmorro
 
 > 특정 날짜 및 지구상의 위치에 대한 천체력 및 이벤트를 계산.
-> 더 많은 정보: <https://kosmorro.space>.
+> 더 많은 정보: <https://github.com/Kosmorro/kosmorro/blob/master/manpage/kosmorro.1.md>.
 
 - 프랑스 파리의 천체력 얻기:
 

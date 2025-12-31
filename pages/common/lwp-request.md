@@ -1,6 +1,6 @@
 # lwp-request
 
-> Simple command-line HTTP client.
+> Simple HTTP client.
 > Built with libwww-perl.
 > More information: <https://metacpan.org/pod/lwp-request>.
 
@@ -10,7 +10,7 @@
 
 - Upload a file with a POST request:
 
-`lwp-request -m POST {{http://example.com/some/path}} < {{path/to/file}}`
+`lwp-request < {{path/to/file}} -m POST {{http://example.com/some/path}}`
 
 - Make a request with a custom user agent:
 

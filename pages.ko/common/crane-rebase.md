@@ -17,8 +17,8 @@
 
 - rebase된 이미지에 적용할 태그 추가:
 
-`crane rebase {{-t|--tag}} {{태그_이름}}`
+`crane rebase {{[-t|--tag]}} {{태그_이름}}`
 
 - 도움말 표시:
 
-`crane rebase {{-h|--help}}`
+`crane rebase {{[-h|--help]}}`

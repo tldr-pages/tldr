@@ -25,4 +25,4 @@
 
 - Seek backward or forward 10 seconds:
 
-`{{Left|Right}}`
+`{{<ArrowLeft>|<ArrowRight>}}`

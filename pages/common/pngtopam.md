@@ -14,8 +14,8 @@
 
 - Replace transparent pixels by the specified color:
 
-`pngtopam -mix -background {{color}} {{path/to/image.png}} > {{path/to/output.pam}}`
+`pngtopam {{[-m|-mix]}} {{[-ba|-background]}} {{color}} {{path/to/image.png}} > {{path/to/output.pam}}`
 
 - Write tEXt chunks found in the input image to the specified text file:
 
-`pngtopam -text {{path/to/file.txt}} {{path/to/image.png}} > {{path/to/output.pam}}`
+`pngtopam {{[-te|-text]}} {{path/to/file.txt}} {{path/to/image.png}} > {{path/to/output.pam}}`

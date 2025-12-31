@@ -1,7 +1,7 @@
 # hyprctl
 
 > Hyprland Wayland 컴포지터의 일부를 제어.
-> 더 많은 정보: <https://wiki.hyprland.org/Configuring/Using-hyprctl>.
+> 더 많은 정보: <https://wiki.hypr.land/Configuring/Using-hyprctl/>.
 
 - Hyprland 구성 파일 다시 로드:
 

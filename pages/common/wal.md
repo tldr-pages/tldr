@@ -1,7 +1,7 @@
 # wal
 
 > Create color schemes based on the dominant colors of a wallpaper.
-> More information: <https://github.com/dylanaraps/pywal>.
+> More information: <https://github.com/dylanaraps/pywal/wiki/Getting-Started>.
 
 - Preview color scheme:
 

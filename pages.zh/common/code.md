@@ -1,7 +1,7 @@
 # code
 
 > 跨平台且可扩展的代码编辑器。
-> 更多信息：<https://github.com/microsoft/vscode>.
+> 更多信息：<https://code.visualstudio.com/docs/configure/command-line>。
 
 - 启动 Visual Studio Code：
 
@@ -13,11 +13,11 @@
 
 - 比较两个指定的文件：
 
-`code --diff {{路径/到/文件1}} {{路径/到/文件2}}`
+`code {{[-d|--diff]}} {{路径/到/文件1}} {{路径/到/文件2}}`
 
 - 在新窗口中打开指定的文件或目录：
 
-`code --new-window {{路径/到/文件或目录1 路径/到/文件或目录2 ...}}`
+`code {{[-n|--new-window]}} {{路径/到/文件或目录1 路径/到/文件或目录2 ...}}`
 
 - 安装/卸载一个特定的插件：
 

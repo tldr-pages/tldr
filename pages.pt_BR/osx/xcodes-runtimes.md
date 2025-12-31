@@ -1,7 +1,7 @@
 # xcodes runtimes
 
 > Gerencia runtimes do Simulador Xcode.
-> Mais informações: <https://github.com/xcodesorg/xcodes>.
+> Mais informações: <https://github.com/xcodesorg/xcodes#commands>.
 
 - Lista todos os runtimes do Simulador disponíveis:
 

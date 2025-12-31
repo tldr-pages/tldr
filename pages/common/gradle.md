@@ -1,7 +1,7 @@
 # gradle
 
 > An open source build automation system.
-> More information: <https://gradle.org>.
+> More information: <https://manned.org/gradle>.
 
 - Compile a package:
 
@@ -9,7 +9,7 @@
 
 - Exclude test task:
 
-`gradle build -x {{test}}`
+`gradle build {{[-x|--exclude-task]}} {{test}}`
 
 - Run in offline mode to prevent Gradle from accessing the network during builds:
 

@@ -1,7 +1,8 @@
 # printf
 
 > Formatteer en toon tekst.
-> Meer informatie: <https://www.gnu.org/software/coreutils/printf>.
+> Zie ook: `echo`.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/printf-invocation.html>.
 
 - Toon een tekstbericht:
 

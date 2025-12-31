@@ -1,7 +1,7 @@
 # aws sso
 
 > SSO(Single Sign-On) 자격 증명을 사용하여 AWS 리소스에 대한 액세스를 관리.
-> 더 많은 정보: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/sso/index.html>.
+> 더 많은 정보: <https://docs.aws.amazon.com/cli/latest/reference/sso/>.
 
 - SSO 세션을 시작하고 액세스 토큰을 새로 고침. `aws configure sso`를 사용한 설정이 필요:
 
@@ -21,4 +21,4 @@
 
 - 특정 계정에 대한 단기 자격 증명 검색:
 
-`aws get-role-credentials --account-id {{계정}} --role-name {{역할}} --access-token {{토큰}}`
+`aws sso get-role-credentials --account-id {{계정}} --role-name {{역할}} --access-token {{토큰}}`

@@ -10,4 +10,4 @@
 
 - Display file names as soon as they are found:
 
-`sudo updatedb --verbose`
+`sudo updatedb {{[-v|--verbose]}}`

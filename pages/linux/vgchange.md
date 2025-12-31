@@ -6,8 +6,8 @@
 
 - Change the activation status of logical volumes in all volume groups:
 
-`sudo vgchange --activate {{y|n}}`
+`sudo vgchange {{[-a|--activate]}} {{y|n}}`
 
 - Change the activation status of logical volumes in the specified volume group (determine with `vgscan`):
 
-`sudo vgchange --activate {{y|n}} {{volume_group}}`
+`sudo vgchange {{[-a|--activate]}} {{y|n}} {{volume_group}}`

@@ -9,11 +9,11 @@
 
 - Kodlanmış çıktıyı belirli bir genişlikte sar (`0` sarmayı devre dışı bırakır):
 
-`base64 {{-w|--wrap}} {{0|76|...}} {{dosya/yolu}}`
+`base64 {{[-w|--wrap]}} {{0|76|...}} {{dosya/yolu}}`
 
 - Bir dosyayı deşifre et:
 
-`base64 {{-d|--decode}} {{dosya/yolu}}`
+`base64 {{[-d|--decode]}} {{dosya/yolu}}`
 
 - `stdin`'den şifrele:
 
@@ -21,4 +21,4 @@
 
 - `stdin`'den deşifre et:
 
-`{{herhangibirkomut}} | base64 {{-d|--decode}}`
+`{{herhangibirkomut}} | base64 {{[-d|--decode]}}`

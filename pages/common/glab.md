@@ -2,7 +2,7 @@
 
 > Work seamlessly with GitLab.
 > Some subcommands such as `config` have their own usage documentation.
-> More information: <https://github.com/profclems/glab>.
+> More information: <https://gitlab.com/gitlab-org/cli/-/tree/main/docs/source>.
 
 - Clone a GitLab repository locally:
 
@@ -18,7 +18,7 @@
 
 - View an issue in the default browser:
 
-`glab issue view --web {{issue_number}}`
+`glab issue view {{[-w|--web]}} {{issue_number}}`
 
 - Create a merge request:
 
@@ -26,7 +26,7 @@
 
 - View a pull request in the default web browser:
 
-`glab mr view --web {{pr_number}}`
+`glab mr view {{[-w|--web]}} {{pr_number}}`
 
 - Check out a specific pull request locally:
 

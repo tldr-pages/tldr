@@ -2,7 +2,7 @@
 
 > BIRD 인터넷 라우팅 데몬.
 > BGP, OSPF, Babel 등을 지원하는 라우팅 데몬.
-> 더 많은 정보: <https://bird.network.cz/>.
+> 더 많은 정보: <https://bird.network.cz/?get_doc&v=30&f=bird-1.html#ss1.3>.
 
 - 특정 구성 파일로 Bird를 시작:
 

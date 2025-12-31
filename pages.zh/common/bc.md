@@ -1,8 +1,8 @@
 # bc
 
 > 任意精度的计算器语言。
-> 请参阅：`dc`，`qalc`。
-> 更多信息：<https://manned.org/bc>.
+> 另请参阅：`dc`，`qalc`。
+> 更多信息：<https://manned.org/bc>。
 
 - 启动交互式会话：
 

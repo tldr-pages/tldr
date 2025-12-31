@@ -1,7 +1,7 @@
 # dolt clone
 
 > Clone a repository into a new directory.
-> More information: <https://docs.dolthub.com/interfaces/cli#dolt-clone>.
+> More information: <https://docs.dolthub.com/cli-reference/cli#dolt-clone>.
 
 - Clone an existing repository into a specific directory (defaults to the repository name):
 
@@ -13,7 +13,7 @@
 
 - Clone an existing repository only fetching a specific branch (defaults to all branches):
 
-`dolt clone --branch {{branch_name}} {{repository_url}}`
+`dolt clone {{[-b|--branch]}} {{branch_name}} {{repository_url}}`
 
 - Clone a repository, using an AWS region (uses the profile's default region if none is provided):
 

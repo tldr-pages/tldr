@@ -1,6 +1,7 @@
 # virsh
 
-> Manage `virsh` guest domains. (Note: `guest_id` can be the ID, name or UUID of the guest).
+> Manage `virsh` guest domains.
+> Note: `guest_id` can be the ID, name, or UUID of the guest.
 > Some subcommands such as `list` have their own usage documentation.
 > More information: <https://libvirt.org/manpages/virsh.html>.
 
@@ -10,7 +11,7 @@
 
 - Activate a network named `default`:
 
-`virsh net-start {{default}}`
+`sudo virsh net-start {{default}}`
 
 - List all domains:
 
@@ -20,7 +21,7 @@
 
 `virsh create {{path/to/config_file.xml}}`
 
-- Edit a guest's configuration file (editor can be changed with $EDITOR):
+- Edit a guest's configuration file (editor can be changed with `$EDITOR`):
 
 `virsh edit {{guest_id}}`
 

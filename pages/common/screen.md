@@ -1,7 +1,7 @@
 # screen
 
 > Hold a session open on a remote server. Manage multiple windows with a single SSH connection.
-> See also `tmux` and `zellij`.
+> See also: `tmux`, `zellij`.
 > More information: <https://manned.org/screen>.
 
 - Start a new screen session:
@@ -26,11 +26,11 @@
 
 - Detach from inside a screen:
 
-`<Ctrl> + A, D`
+`<Ctrl a><d>`
 
 - Kill the current screen session:
 
-`<Ctrl> + A, K`
+`<Ctrl a><k>`
 
 - Kill a detached screen:
 

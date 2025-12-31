@@ -21,16 +21,16 @@
 
 - Read a file of SHA checksums and filenames and verify all files have matching checksums (the algorithm will be automatically detected):
 
-`shasum --check {{path/to/file}}`
+`shasum {{[-c|--check]}} {{path/to/file}}`
 
 - Only show a message for missing files or when verification fails:
 
-`shasum --check --quiet {{path/to/file}}`
+`shasum {{[-c|--check]}} --quiet {{path/to/file}}`
 
 - Only show a message when verification fails, ignoring missing files:
 
-`shasum --ignore-missing --check --quiet {{path/to/file}}`
+`shasum --ignore-missing {{[-c|--check]}} --quiet {{path/to/file}}`
 
 - Check a known SHA checksum of a file:
 
-`echo {{known_sha_checksum_of_the_file}} {{path/to/file}} | shasum --check`
+`echo {{known_sha_checksum_of_the_file}} {{path/to/file}} | shasum {{[-c|--check]}}`

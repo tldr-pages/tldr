@@ -2,7 +2,7 @@
 
 > Scoop 패키지 관리자.
 > `bucket`과 같은 하위 명령어는 자체 문서를 가지고 있습니다.
-> 더 많은 정보: <https://scoop.sh>.
+> 더 많은 정보: <https://github.com/ScoopInstaller/Scoop/wiki/Commands>.
 
 - 패키지 설치:
 

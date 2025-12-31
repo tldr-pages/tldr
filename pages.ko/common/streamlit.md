@@ -1,7 +1,7 @@
 # streamlit
 
 > Python에서 상호작용하는 데이터 기반 웹 앱을 만드는 프레임워크.
-> 더 많은 정보: <https://docs.streamlit.io/>.
+> 더 많은 정보: <https://docs.streamlit.io/develop/api-reference/cli>.
 
 - Streamlit 설치 여부 확인:
 

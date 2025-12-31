@@ -1,7 +1,7 @@
 # choco install
 
 > Instal satu paket atau lebih dengan Chocolatey.
-> Informasi lebih lanjut: <https://chocolatey.org/docs/commands-install>.
+> Informasi lebih lanjut: <https://docs.chocolatey.org/en-us/choco/commands/install/>.
 
 - Instal satu paket atau lebih paket yang dipisahkan oleh spasi:
 
@@ -11,7 +11,7 @@
 
 `choco install {{jalan/menuju/paket.config}}`
 
-- Instal file nuspec atau nupkg tertentu:
+- Instal file `.nuspec` atau `.nupkg` tertentu:
 
 `choco install {{jalan/menuju/file}}`
 

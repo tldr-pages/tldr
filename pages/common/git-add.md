@@ -9,28 +9,28 @@
 
 - Add all files (tracked and untracked):
 
-`git add {{-A|--all}}`
+`git add {{[-A|--all]}}`
 
-- Add all files in the current folder:
+- Add all files recursively starting from the current folder:
 
 `git add .`
 
 - Only add already tracked files:
 
-`git add {{-u|--update}}`
+`git add {{[-u|--update]}}`
 
 - Also add ignored files:
 
-`git add {{-f|--force}}`
+`git add {{[-f|--force]}}`
 
 - Interactively stage parts of files:
 
-`git add {{-p|--patch}}`
+`git add {{[-p|--patch]}}`
 
 - Interactively stage parts of a given file:
 
-`git add {{-p|--patch}} {{path/to/file}}`
+`git add {{[-p|--patch]}} {{path/to/file}}`
 
 - Interactively stage a file:
 
-`git add {{-i|--interactive}}`
+`git add {{[-i|--interactive]}}`

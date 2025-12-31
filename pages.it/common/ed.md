@@ -9,11 +9,11 @@
 
 - Avvia ed per editare un documento vuoto, con `:` come indicatore del prompt di comandi:
 
-`ed -p :`
+`ed {{[-p|--prompt]}} :`
 
 - Avvia ed per editare un file esistente (mostra il numero di byte del file caricato):
 
-`ed -p : {{percorso/del/file}}`
+`ed {{[-p|--prompt]}} : {{percorso/del/file}}`
 
 - Attiva o disattiva la stampa di spiegazioni per gli errori (di default, le spiegazioni non sono stampate ed appare solo un `?`):
 
@@ -33,4 +33,4 @@
 
 - Termina ed:
 
-`q`
+`q<Enter>`

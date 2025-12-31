@@ -21,4 +21,4 @@
 
 - Autoselect and execute the snippet that best matches a query:
 
-`navi --query '{{query}}' --best-match`
+`navi {{[-q|--query]}} '{{query}}' --best-match`

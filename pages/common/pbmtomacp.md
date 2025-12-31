@@ -10,4 +10,4 @@
 
 - Do not compress the output file:
 
-`pbmtomacp -norle {{path/to/image.pbm}} > {{path/to/output.macp}}`
+`pbmtomacp {{[-n|-norle]}} {{path/to/image.pbm}} > {{path/to/output.macp}}`

@@ -1,7 +1,7 @@
 # gifconfig
 
-> 这是 `-p linux ifconfig` 命令的一个别名。
+> 这是 `ifconfig` 命令的一个别名。
 
 - 原命令的文档在：
 
-`tldr -p linux ifconfig`
+`tldr ifconfig`

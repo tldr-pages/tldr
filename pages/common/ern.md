@@ -1,6 +1,6 @@
 # ern
 
-> Electrode Native platform command-line client.
+> Electrode Native platform client.
 > More information: <https://native.electrode.io/reference/index-6>.
 
 - Create a new `ern` application (`MiniApp`):
@@ -13,11 +13,11 @@
 
 - Create an Electrode Native container:
 
-`ern create-container --miniapps {{/path/to/miniapp_directory}} --platform {{ios|android}}`
+`ern create-container --miniapps /{{path/to/miniapp_directory}} --platform {{ios|android}}`
 
 - Publish an Electrode Native container to a local Maven repository:
 
-`ern publish-container --publisher {{maven}} --platform {{android}} --extra {{'{"groupId":"com.walmart.ern","artifactId":"quickstart"}'}}`
+`ern publish-container --publisher {{maven}} --platform {{android}} --extra '{{{"groupId":"com.walmart.ern","artifactId":"quickstart"}}}'`
 
 - Transform an iOS container into a pre-compiled binary framework:
 

@@ -1,7 +1,7 @@
 # anki
 
 > Güçlü ve akıllı bir aralıklı tekrar programı.
-> Daha fazla bilgi için: <https://docs.ankiweb.net>.
+> Daha fazla bilgi için: <https://manned.org/anki>.
 
 - Çalıştır:
 

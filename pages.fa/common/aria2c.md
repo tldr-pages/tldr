@@ -2,7 +2,7 @@
 
 > ابزاری برای دانلود سریع.
 > قابلیت پشتیبانی از Http(s), FTP, SFTP, BitTorrent, Metalink.
-> اطلاعات بیشتر: <https://aria2.github.io>.
+> اطلاعات بیشتر: <https://aria2.github.io/manual/en/html/aria2c.html>.
 
 - دانلود لینک موردنظر و ذخیره در فایل:
 
@@ -10,15 +10,15 @@
 
 - دانلود یک فایل از لینک موردنظر با اسم خروجی دلخواه:
 
-`aria2c --out {{path/to/file}} "{{url}}"`
+`aria2c {{[-o|--out]}} {{path/to/file}} "{{url}}"`
 
 - دانلود چند فایل مختلف به صورت همزمان:
 
-`aria2c --force-sequential {{false}} "{{url1 url2 ...}}"`
+`aria2c {{[-Z|--force-sequential=true]}} {{"url1" "url2" ...}}`
 
 - دانلود از چند لینک مختلف:
 
-`aria2c "{{url1 url2 ...}}"`
+`aria2c {{"url1" "url2" ...}}`
 
 - دانلود لینک های لیست شده در یک فایل همراه با تنظیم تعداد دانلود های همزمان:
 
@@ -26,7 +26,7 @@
 
 - دانلود با چندین اتصال مختلف:
 
-`aria2c --split {{number_of_connections}} "{{url}}"`
+`aria2c {{[-s|--split]}} {{number_of_connections}} "{{url}}"`
 
 - دانلود از FTP با نام کاربری و رمزعبور:
 

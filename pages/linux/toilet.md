@@ -9,12 +9,12 @@
 
 - Generate ASCII art using a custom font file:
 
-`toilet {{input_text}} -f {{font_filename}}`
+`toilet {{input_text}} {{[-f|--font]}} {{font_filename}}`
 
 - Generate ASCII art using a filter:
 
-`toilet {{input_text}} --filter {{filter_name}}`
+`toilet {{input_text}} {{[-F|--filter]}} {{filter_name}}`
 
 - Show available toilet filters:
 
-`toilet --filter list`
+`toilet {{[-F|--filter]}} list`

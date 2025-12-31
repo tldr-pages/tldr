@@ -1,7 +1,7 @@
 # pulumi logout
 
 > Log out of the Pulumi cloud.
-> More information: <https://www.pulumi.com/docs/cli/commands/pulumi_logout/>.
+> More information: <https://www.pulumi.com/docs/iac/cli/commands/pulumi_logout/>.
 
 - Log out of a specific cloud backend:
 
@@ -13,8 +13,8 @@
 
 - Log out of using local mode:
 
-`pulumi logout {{-l|--local}}`
+`pulumi logout {{[-l|--local]}}`
 
 - Display help:
 
-`pulumi logout {{-h|--help}}`
+`pulumi logout {{[-h|--help]}}`

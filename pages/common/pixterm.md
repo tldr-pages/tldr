@@ -2,7 +2,7 @@
 
 > Image printing in the terminal.
 > See also: `chafa`, `catimg`.
-> More information: <https://github.com/eliukblau/pixterm>.
+> More information: <https://github.com/eliukblau/pixterm#cool-screenshots>.
 
 - Render a static image directly in the terminal:
 

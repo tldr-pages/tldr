@@ -1,7 +1,7 @@
 # opera
 
 > Perintah ini merupakan alias dari `chromium`.
-> Informasi lebih lanjut: <https://opera.com>.
+> Informasi lebih lanjut: <https://www.opera.com/>.
 
 - Tampilkan dokumentasi untuk perintah asli:
 

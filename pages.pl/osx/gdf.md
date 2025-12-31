@@ -1,7 +1,7 @@
 # gdf
 
-> To polecenie jest aliasem `-p linux df`.
+> To polecenie jest aliasem GNU `df`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux df`
+`tldr {{[-p|--platform]}} linux df`

@@ -9,11 +9,11 @@
 
 - 즉시 [r]재부팅:
 
-`shutdown -r now`
+`shutdown {{[-r|--reboot]}} now`
 
 - 5분 후 [r]재부팅:
 
-`shutdown -r +{{5}} &`
+`shutdown {{[-r|--reboot]}} +{{5}} &`
 
 - 오후 1시에 종료하기 (24시간 [h] 형식 사용):
 

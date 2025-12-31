@@ -9,8 +9,8 @@
 
 - Rapporteer de inhoud van een BMP header naar `stderr`:
 
-`bmptopnm -verbose {{pad/naar/bestand.bmp}}`
+`bmptopnm {{[-verb|-verbose]}} {{pad/naar/bestand.bmp}}`
 
 - Toon de versie:
 
-`bmptopnm -version`
+`bmptopnm {{[-v|-version]}}`

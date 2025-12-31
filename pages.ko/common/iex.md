@@ -1,7 +1,7 @@
 # iex
 
 > IEx는 Elixir의 대화형 셸.
-> 더 많은 정보: <https://hexdocs.pm/iex>.
+> 더 많은 정보: <https://manned.org/iex>.
 
 - 대화형 세션을 시작:
 

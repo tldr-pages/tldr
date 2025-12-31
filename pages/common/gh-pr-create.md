@@ -5,20 +5,20 @@
 
 - Interactively create a pull request:
 
-`gh pr create`
+`gh pr {{[new|create]}}`
 
 - Create a pull request, determining the title and description from the commit messages of the current branch:
 
-`gh pr create --fill`
+`gh pr {{[new|create]}} {{[-f|--fill]}}`
 
 - Create a draft pull request:
 
-`gh pr create --draft`
+`gh pr {{[new|create]}} {{[-d|--draft]}}`
 
 - Create a pull request specifying the base branch, title, and description:
 
-`gh pr create --base {{base_branch}} --title "{{title}}" --body "{{body}}"`
+`gh pr {{[new|create]}} {{[-B|--base]}} {{base_branch}} {{[-t|--title]}} "{{title}}" {{[-b|--body]}} "{{body}}"`
 
 - Start opening a pull request in the default web browser:
 
-`gh pr create --web`
+`gh pr {{[new|create]}} {{[-w|--web]}}`

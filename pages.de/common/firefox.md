@@ -1,7 +1,7 @@
 # firefox
 
 > Ein gratis Open Source Internet Browser.
-> Weitere Informationen: <https://developer.mozilla.org/en-US/docs/Mozilla/Command_Line_Options>.
+> Weitere Informationen: <https://wiki.mozilla.org/Firefox/CommandLineOptions>.
 
 - Starte Firefox und öffne eine Website:
 
@@ -25,11 +25,11 @@
 
 - Erstelle eine Bildschirmaufnahme einer Website, ohne die GUI zu starten:
 
-`firefox --headless --screenshot {{pfad/zu/ausgabedatei.png}} {{https://beispiel.de/}}`
+`firefox --headless --screenshot {{pfad/zu/ausgabedatei.png}} {{https://example.com/}}`
 
 - Verwende ein bestimmtes Profil um mehrere einzelne Instanzen gleichzeitig laufen zu lassen:
 
-`firefox --profile {{pfad/zu/verzeichnis}} {{https://beispiel.de/}}`
+`firefox --profile {{pfad/zu/verzeichnis}} {{https://example.com/}}`
 
 - Lege Firefox als Standard-Browser fest:
 

@@ -1,7 +1,7 @@
 # go env
 
 > Go toolchain'in kullandığı ortam değişkenlerini yönet.
-> Daha fazla bilgi için: <https://golang.org/cmd/go/#hdr-Print_Go_environment_information>.
+> Daha fazla bilgi için: <https://pkg.go.dev/cmd/go#hdr-Print_Go_environment_information>.
 
 - Tüm ortam değişkenlerini göster:
 

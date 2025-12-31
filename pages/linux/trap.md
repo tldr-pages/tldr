@@ -9,7 +9,7 @@
 
 - List the commands and the names of the expected events:
 
-`trap -p`
+`trap`
 
 - Execute a command when a signal is received:
 
@@ -18,3 +18,7 @@
 - Remove commands:
 
 `trap - {{SIGHUP}} {{SIGINT}}`
+
+- Ignore a signal:
+
+`trap '' {{SIGINT}}`

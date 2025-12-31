@@ -2,7 +2,7 @@
 
 > 친숙한 프로그래밍 언어를 사용하여 어떤 클라우드에서도 인프라 정의.
 > `up`과 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
-> 더 많은 정보: <https://www.pulumi.com/docs/cli>.
+> 더 많은 정보: <https://www.pulumi.com/docs/iac/cli/>.
 
 - 템플릿을 사용하여 새 프로젝트 생성:
 
@@ -30,4 +30,4 @@
 
 - Pulumi Cloud와 독립적으로 Pulumi를 로컬에서 사용:
 
-`pulumi login {{-l|--local}}`
+`pulumi login {{[-l|--local]}}`

@@ -6,15 +6,15 @@
 
 - 태그 값 생성:
 
-`az tag add-value --name {{태그_이름}} --value {{태그_값}}`
+`az tag add-value {{[-n|--name]}} {{태그_이름}} --value {{태그_값}}`
 
 - 구독에서 태그를 생성:
 
-`az tag create --name {{태그_이름}}`
+`az tag create {{[-n|--name]}} {{태그_이름}}`
 
 - 구독에서 태그를 삭제:
 
-`az tag delete --name {{태그_이름}}`
+`az tag delete {{[-n|--name]}} {{태그_이름}}`
 
 - 구독의 모든 태그 나열:
 
@@ -22,4 +22,4 @@
 
 - 특정 태그 이름에 대한 태그 값 삭제:
 
-`az tag remove-value --name {{태그_이름}} --value {{태그_값}}`
+`az tag remove-value {{[-n|--name]}} {{태그_이름}} --value {{태그_값}}`

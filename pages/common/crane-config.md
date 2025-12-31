@@ -9,4 +9,4 @@
 
 - Display help:
 
-`crane config {{-h|--help}}`
+`crane config {{[-h|--help]}}`

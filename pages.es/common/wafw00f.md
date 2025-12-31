@@ -1,32 +1,32 @@
 # wafw00f
 
-> Identifica y toma las huellas digitales de los productos Web Application Firewall (WAF) que protegen un sitio web.
-> Más información: <https://github.com/EnableSecurity/wafw00f>.
+> Identifica y toma la huella digital de los productos de cortafuegos de aplicaciones web (WAF) que protegen un sitio web.
+> Más información: <https://github.com/EnableSecurity/wafw00f/wiki/Usage#arguments-list>.
 
 - Comprueba si un sitio web utiliza algún WAF:
 
-`wafw00f {{https://www.ejemplo.com}}`
+`wafw00f {{https://www.example.com}}`
 
-- Comprueba a todos los WAF detectables sin detenerse en la primera coincidencia:
+- Prueba todos los WAF detectables sin detenerte en el primer resultado:
 
-`wafw00f --findall {{https://www.ejemplo.com}}`
+`wafw00f {{[-a|--findall]}} {{https://www.example.com}}`
 
-- Pasa peticiones a través de un [p]roxy (como BurpSuite):
+- Pasa las solicitudes a través de un proxy (como BurpSuite):
 
-`wafw00f --proxy {{http://localhost:8080}} {{https://www.ejemplo.com}}`
+`wafw00f {{[-p|--proxy]}} {{http://localhost:8080}} {{https://www.example.com}}`
 
-- [t]estea un producto WAF específico (ejecuta `wafw00f -l` para obtener una lista de todos los WAF compatibles):
+- Probar un producto WAF específico (ejecutar `wafw00f --list` para obtener una lista de todos los WAF compatibles):
 
-`wafw00f --test {{Cloudflare|Cloudfront|Fastly|ZScaler|...}} {{https://www.ejemplo.com}}`
+`wafw00f {{[-t|--test]}} {{Cloudflare|Cloudfront|Fastly|ZScaler|...}} {{https://www.example.com}}`
 
-- Pasa cabeceras personalizadas desde un archivo:
+- Pasar encabezados personalizados desde un archivo:
 
-`wafw00f --headers {{ruta/a/cabeceras.txt}} {{https://www.ejemplo.com}}`
+`wafw00f {{[-H|--headers]}} {{path/to/headers.txt}} {{https://www.example.com}}`
 
-- Lee entradas de destino desde un archivo y muestra una salida detallada (múltiples `v` para más verbosidad):
+- Lee las entradas de destino desde un archivo y muestra una salida detallada (varias `v` para más detalles):
 
-`wafw00f --input {{ruta/a/urls.txt}} -v{{v}}`
+`wafw00f {{[-i|--input]}} {{ruta/a/urls.txt}} -{{vv}}`
 
-- [l]ista todos los WAF que pueden detectarse:
+- Lista todos los WAF que se pueden detectar:
 
-`wafw00f --list`
+`wafw00f {{[-l|--list]}}`

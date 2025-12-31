@@ -9,7 +9,7 @@
 
 - Open a core dump in interactive debug mode:
 
-`jhsdb clhsdb --core {{path/to/core_dump}} --exe {{path/to/jdk/bin/java}}`
+`jhsdb clhsdb --core {{path/to/core_dump}} --exe {{path/to/jdk_or_bin_or_java}}`
 
 - Start a remote debug server:
 

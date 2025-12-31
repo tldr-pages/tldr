@@ -17,7 +17,7 @@
 
 - Rimuove dal kernel un modulo e quelli che dipendono da quest'ultimo:
 
-`sudo modprobe --remove-dependencies {{nome_del_modulo}}`
+`sudo modprobe {{[-r|--remove]}} --remove-holders {{nome_del_modulo}}`
 
 - Mostra le dipendenza di un modulo del kernel:
 

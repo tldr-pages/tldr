@@ -1,7 +1,7 @@
 # distccd
 
 > distcc 분산 컴파일러용 서버 데몬.
-> 더 많은 정보: <https://distcc.github.io>.
+> 더 많은 정보: <https://manned.org/distccd>.
 
 - 기본 설정으로 데몬을 시작:
 

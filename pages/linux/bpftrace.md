@@ -1,11 +1,7 @@
 # bpftrace
 
 > High-level tracing language for Linux eBPF.
-> More information: <https://github.com/iovisor/bpftrace>.
-
-- Display bpftrace version:
-
-`bpftrace -V`
+> More information: <https://github.com/bpftrace/bpftrace/blob/master/man/adoc/bpftrace.adoc>.
 
 - List all available probes:
 
@@ -26,3 +22,7 @@
 - Do a dry run and display the output in eBPF format:
 
 `sudo bpftrace -d -e '{{one_line_program}}'`
+
+- Display version:
+
+`bpftrace {{[-V|--version]}}`

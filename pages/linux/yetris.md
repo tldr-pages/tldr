@@ -1,7 +1,7 @@
 # yetris
 
 > Clone of the game Tetris in the terminal.
-> More information: <https://github.com/alexdantas/yetris>.
+> More information: <https://github.com/alexdantas/yetris#controls>.
 
 - Start a Tetris game:
 
@@ -9,28 +9,28 @@
 
 - Navigate the piece horizontally:
 
-`{{Left|Right arrow key}}`
+`{{<ArrowLeft>|<ArrowRight>}}`
 
 - Rotate the piece clockwise or counterclockwise:
 
-`{{x|z}}`
+`{{<x>|<z>}}`
 
 - Hold a piece (only one allowed at a time):
 
-`c`
+`<c>`
 
 - Soft drop the piece:
 
-`<Down arrow key>`
+`<ArrowDown>`
 
 - Hard drop the piece:
 
-`<Spacebar>`
+`<Space>`
 
 - Pause/unpause the game:
 
-`p`
+`<p>`
 
 - Quit the game:
 
-`q`
+`<q>`

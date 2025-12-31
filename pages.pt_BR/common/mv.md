@@ -1,7 +1,7 @@
 # mv
 
 > Movimentação de arquivos entre diretórios, ou renomeá-los.
-> Mais informações: <https://www.gnu.org/software/coreutils/mv>.
+> Mais informações: <https://www.gnu.org/software/coreutils/manual/html_node/mv-invocation.html>.
 
 - Move um arquivo para um diretório arbitrário:
 
@@ -13,16 +13,16 @@
 
 - Não requisita confirmação para sobrescrição de arquivos:
 
-`mv -f {{percorso/del/arquivo}} {{percorso/del/destino}}`
+`mv {{[-f|--force]}} {{percorso/del/arquivo}} {{percorso/del/destino}}`
 
 - Requisita confirmação para sobrescrição de arquivos, independentemente das permissões de arquivo:
 
-`mv -i {{percorso/del/arquivo}} {{percorso/del/destino}}`
+`mv {{[-i|--interactive]}} {{percorso/del/arquivo}} {{percorso/del/destino}}`
 
 - Não sobrescrita arquivos existentes no diretório de destino:
 
-`mv -n {{percorso/del/arquivo}} {{percorso/del/destino}}`
+`mv {{[-n|--no-clobber]}} {{percorso/del/arquivo}} {{percorso/del/destino}}`
 
 - Move os arquivos em modo Verbose, mostrando os arquivos após sua movimentação:
 
-`mv -v {{percorso/del/arquivo}} {{percorso/del/destino}}`
+`mv {{[-v|--verbose]}} {{percorso/del/arquivo}} {{percorso/del/destino}}`

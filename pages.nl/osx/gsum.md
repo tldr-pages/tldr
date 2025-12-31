@@ -1,7 +1,7 @@
 # gsum
 
-> Dit commando is een alias van `-p linux sum`.
+> Dit commando is een alias van GNU `sum`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux sum`
+`tldr sum`

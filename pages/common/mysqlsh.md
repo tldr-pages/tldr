@@ -1,8 +1,8 @@
 # mysqlsh
 
-> Advanced command-line client for MySQL, supporting SQL, JavaScript, and Python.
+> Advanced client for MySQL, supporting SQL, JavaScript, and Python.
 > It offers features for managing InnoDB clusters and document store collections.
-> More information: <https://dev.mysql.com/doc/mysql-shell/8.0/en/mysql-shell-commands.html>.
+> More information: <https://manned.org/mysqlsh>.
 
 - Start MySQL Shell in interactive mode:
 

@@ -5,7 +5,7 @@
 
 - Tampilkan daftar remote, namanya dan URL:
 
-`git remote {{-v|--verbose}}`
+`git remote {{[-v|--verbose]}}`
 
 - Tampilkan informasi tentang suatu remote:
 

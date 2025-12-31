@@ -5,7 +5,7 @@
 
 - Scanne das lokale Netzwerk:
 
-`arp-scan --localnet`
+`arp-scan {{[-l|--localnet]}}`
 
 - Scanne ein IP Netzwerk mit einer benutzerdefinierten Bitmaske:
 

@@ -9,8 +9,8 @@
 
 - Move the image in the x and y direction:
 
-`ppmtopj -xpos {{dx}} -ypos {{dy}} {{path/to/input.ppm}} > {{path/to/output.pj}}`
+`ppmtopj {{[-x|-xpos]}} {{dx}} {{[-y|-ypos]}} {{dy}} {{path/to/input.ppm}} > {{path/to/output.pj}}`
 
 - Explicitly specify a gamma value:
 
-`ppmtopj -gamma {{gamma}} {{path/to/input.ppm}} > {{path/to/output.pj}}`
+`ppmtopj {{[-g|-gamma]}} {{gamma}} {{path/to/input.ppm}} > {{path/to/output.pj}}`

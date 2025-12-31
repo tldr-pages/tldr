@@ -1,7 +1,7 @@
 # glink
 
-> Cette commande est un alias de `-p linux link`.
+> Cette commande est un alias de `link`.
 
 - Voir la documentation de la commande originale :
 
-`tldr -p linux link`
+`tldr link`

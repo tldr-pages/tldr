@@ -2,7 +2,7 @@
 
 > Substitutes environment variables with their value in shell format strings.
 > Variables to be replaced should be in either `${var}` or `$var` format.
-> More information: <https://www.gnu.org/software/gettext/manual/html_node/envsubst-Invocation.html>.
+> More information: <https://www.gnu.org/software/gettext/manual/gettext.html#envsubst-Invocation>.
 
 - Replace environment variables in `stdin` and output to `stdout`:
 
@@ -18,4 +18,4 @@
 
 - Replace environment variables in an input file from a space-separated list:
 
-`envsubst '{{$USER $SHELL $HOME}}' < {{path/to/input_file}}`
+`envsubst < {{path/to/input_file}} '{{$USER $SHELL $HOME}}'`

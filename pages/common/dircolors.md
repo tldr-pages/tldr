@@ -1,9 +1,9 @@
 # dircolors
 
-> Output commands to set the LS_COLOR environment variable and style `ls`, `dir`, etc.
+> Output commands to set the `$LS_COLOR` environment variable and style `ls`, `dir`, etc.
 > More information: <https://www.gnu.org/software/coreutils/manual/html_node/dircolors-invocation.html>.
 
-- Output commands to set LS_COLOR using default colors:
+- Output commands to set `$LS_COLOR` using default colors:
 
 `dircolors`
 
@@ -11,18 +11,18 @@
 
 `dircolors --print-ls-colors`
 
-- Output commands to set LS_COLOR using colors from a file:
+- Output commands to set `$LS_COLOR` using colors from a file:
 
 `dircolors {{path/to/file}}`
 
 - Output commands for Bourne shell:
 
-`dircolors --bourne-shell`
+`dircolors {{[-b|--bourne-shell]}}`
 
 - Output commands for C shell:
 
-`dircolors --c-shell`
+`dircolors {{[-c|--c-shell]}}`
 
 - View the default colors for file types and extensions:
 
-`dircolors --print-data`
+`dircolors {{[-p|--print-database]}}`

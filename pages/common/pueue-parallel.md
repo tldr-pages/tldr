@@ -1,7 +1,7 @@
 # pueue parallel
 
 > Set the amount of allowed parallel tasks.
-> More information: <https://github.com/Nukesor/pueue>.
+> More information: <https://github.com/Nukesor/pueue#how-to-use-it>.
 
 - Set the maximum number of tasks allowed to run in parallel, in the default group:
 
@@ -9,4 +9,4 @@
 
 - Set the maximum number of tasks allowed to run in parallel, in a specific group:
 
-`pueue parallel --group {{group_name}} {{maximum_number_of_parallel_tasks}}`
+`pueue parallel {{[-g|--group]}} {{group_name}} {{maximum_number_of_parallel_tasks}}`

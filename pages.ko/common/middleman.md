@@ -1,7 +1,7 @@
 # middleman
 
 > Ruby로 작성된 정적 사이트 생성기.
-> 더 많은 정보: <https://middlemanapp.com/>.
+> 더 많은 정보: <https://middlemanapp.com/basics/install/>.
 
 - 새 Middleman 프로젝트 생성:
 

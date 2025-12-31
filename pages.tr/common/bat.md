@@ -2,7 +2,7 @@
 
 > Dosyaları yazdır ve birleştir.
 > Sözdizimi vurgulama ve Git entegrasyonuna sahip bir `cat` klonu.
-> Daha fazla bilgi için: <https://github.com/sharkdp/bat>.
+> Daha fazla bilgi için: <https://manned.org/bat>.
 
 - Bir dosyanın içeriğini standart çıktıya yazdır:
 
@@ -18,12 +18,12 @@
 
 - Tüm çıktı satırlarını numaralandır:
 
-`bat --number {{dosya}}`
+`bat {{[-n|--number]}} {{dosya}}`
 
 - Bir JSON dosyasının sözdizimini vurgula:
 
-`bat --language json {{dosya.json}}`
+`bat {{[-l|--language]}} json {{dosya.json}}`
 
 - Desteklenen tüm dilleri görüntüle:
 
-`bat --list-languages`
+`bat {{[-L|--list-languages]}}`

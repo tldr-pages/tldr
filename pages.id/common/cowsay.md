@@ -1,7 +1,7 @@
 # cowsay
 
 > Buat dan tampilkan seni teks ASCII (ASCII art) yang menampilkan objek (secara bawaan berupa seekor sapi) yang sedang berkata atau berpikir tentang sesuatu.
-> Informasi lebih lanjut: <https://github.com/tnalpgge/rank-amateur-cowsay>.
+> Informasi lebih lanjut: <https://manned.org/cowsay>.
 
 - Tampilkan suatu seni ASCII yang menunjukkan seekor sapi berkata "halo, dunia":
 

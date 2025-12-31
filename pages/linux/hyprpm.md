@@ -1,7 +1,7 @@
 # hyprpm
 
 > Control plugins for the Hyprland Wayland compositor.
-> More information: <https://wiki.hyprland.org/Plugins/Using-Plugins/#hyprpm>.
+> More information: <https://wiki.hypr.land/Plugins/Using-Plugins/#hyprpm>.
 
 - Add a plugin:
 
@@ -25,7 +25,7 @@
 
 - Force an operation:
 
-`hyprpm {{-f|--force}} {{operation}}`
+`hyprpm {{[-f|--force]}} {{operation}}`
 
 - List all installed plugins:
 

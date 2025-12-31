@@ -5,16 +5,16 @@
 
 - Kopieer een afbeelding van bron naar doel:
 
-`gcrane {{cp|copy}} {{bron}} {{doel}}`
+`gcrane {{[cp|copy]}} {{bron}} {{doel}}`
 
 - Stel het maximale aantal gelijktijdige kopieën in, standaard is 20:
 
-`gcrane copy {{bron}} {{doel}} {{-j|--jobs}} {{aantal_kopieën}}`
+`gcrane copy {{bron}} {{doel}} {{[-j|--jobs]}} {{aantal_kopieën}}`
 
 - Of de repositories doorzocht moeten worden:
 
-`gcrane copy {{bron}} {{doel}} {{-r|--recursive}}`
+`gcrane copy {{bron}} {{doel}} {{[-r|--recursive]}}`
 
-- Toon help:
+- Toon de help:
 
-`gcrane copy {{-h|--help}}`
+`gcrane copy {{[-h|--help]}}`

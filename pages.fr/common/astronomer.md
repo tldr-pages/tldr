@@ -1,7 +1,7 @@
 # astronomer
 
 > Outil qui détecte les étoiles non-légitimes d'un robot sur les projets GitHub.
-> Plus d'informations : <https://github.com/Ullaakut/astronomer>.
+> Plus d'informations : <https://github.com/Ullaakut/astronomer#arguments-and-options>.
 
 - Analyse un dépôt :
 

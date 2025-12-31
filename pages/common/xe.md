@@ -1,7 +1,7 @@
 # xe
 
 > Execute a command once for each line piped from another command or file.
-> More information: <https://github.com/leahneukirchen/xe>.
+> More information: <https://github.com/leahneukirchen/xe/blob/master/README>.
 
 - Run a command once for each line of input data as arguments:
 
@@ -17,7 +17,7 @@
 
 - Delete all files with a `.backup` extension:
 
-`find . -name {{'*.backup'}} | xe rm -v`
+`find . -name '{{*.backup}}' | xe rm -v`
 
 - Run up to `max-jobs` processes in parallel; the default is 1. If `max-jobs` is 0, xe will run as many processes as cpu cores:
 

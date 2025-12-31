@@ -2,7 +2,7 @@
 
 > Утиліта керування ключами для диспетчера пакетів APT в Debian та Ubuntu.
 > Примітка: `apt-key` застарілий (за винятком використання `apt-key del` у сценаріях підтримки).
-> Більше інформації: <https://manned.org/apt-key.8>.
+> Більше інформації: <https://manned.org/apt-key>.
 
 - Список довірених ключів:
 
@@ -18,7 +18,7 @@
 
 - Додайте віддалений ключ до надійного сховища ключів:
 
-`wget -qO - {{https://host.tld/filename.key}} | apt-key add -`
+`wget {{[-qO|--quiet --output-document]}} - {{https://host.tld/filename.key}} | apt-key add -`
 
 - Додати ключ із сервера ключів лише з ідентифікатором ключа:
 

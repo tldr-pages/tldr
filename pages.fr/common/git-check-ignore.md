@@ -1,6 +1,6 @@
 # git check-ignore
 
-> Analyser et déboguer les fichiers ignorés / exclus (".gitignore") de Git.
+> Analyser et déboguer les fichiers ignorés / exclus (`.gitignore`) de Git.
 > Plus d'informations : <https://git-scm.com/docs/git-check-ignore>.
 
 - Vérifie qu'un fichier ou répertoire est ignoré :
@@ -21,4 +21,4 @@
 
 - Inclure les détails pour chaque occurrence dans le chemin :
 
-`git check-ignore --verbose {{chemin/vers/fichier_ou_répertoire1 chemin/vers/fichier_ou_répertoire2 ...}}`
+`git check-ignore {{[-v|--verbose]}} {{chemin/vers/fichier_ou_répertoire1 chemin/vers/fichier_ou_répertoire2 ...}}`

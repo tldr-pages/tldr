@@ -1,7 +1,7 @@
 # dvc init
 
 > Initialize a new local DVC repository.
-> More information: <https://dvc.org/doc/command-reference/init>.
+> More information: <https://doc.dvc.org/command-reference/init>.
 
 - Initialize a new local repository:
 
@@ -13,4 +13,4 @@
 
 - Initialize DVC in a subdirectory:
 
-`cd {{path/to/subdir}} && dvc init --sudir`
+`cd {{path/to/subdirectory}} && dvc init --sudir`

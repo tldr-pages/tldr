@@ -1,7 +1,7 @@
 # units
 
 > 두 단위 사이의 변환을 수행.
-> 더 많은 정보: <https://www.gnu.org/software/units/>.
+> 더 많은 정보: <https://www.gnu.org/software/units/manual/units.html>.
 
 - 대화형 모드로 실행:
 

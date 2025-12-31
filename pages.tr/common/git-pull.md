@@ -9,7 +9,7 @@
 
 - Varsayılan uzak depodan değişiklikleri indir ve ileri sarmayı kullan:
 
-`git pull --rebase`
+`git pull {{[-r|--rebase]}}`
 
 - Belirtilen uzak depodan ve daldan değişiklikleri indir, ve sonra onları HEAD ile birleştir:
 

@@ -1,9 +1,9 @@
-# vboxmanage-extpack
+# VBoxManage extpack
 
 > Manage extension packs for Oracle VirtualBox.
 > More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-extpack>.
 
-- Install extension packs to VirtualBox (Note: you need to remove the existing version of the extension pack before installing a new version.):
+- Install extension packs to VirtualBox (Note: You need to remove the existing version of the extension pack before installing a new version.):
 
 `VBoxManage extpack install {{path/to/file.vbox-extpack}}`
 

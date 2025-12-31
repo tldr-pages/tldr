@@ -1,7 +1,7 @@
 # grim
 
 > Obtiene imágenes (capturas de pantalla) de un compositor Wayland.
-> Más información: <https://sr.ht/~emersion/grim>.
+> Más información: <https://sr.ht/~emersion/grim/>.
 
 - Hace una captura de pantalla:
 
@@ -13,7 +13,7 @@
 
 - Captura de pantalla de una región específica:
 
-`grim -g "{{<posición_x>,<posición_y> <ancho>x<alto>}}"`
+`grim -g "{{posición_x}},{{posición_y}} {{ancho}}x{{alto}}"`
 
 - Selecciona una región específica y toma una captura de dicha porción, usando slurp:
 

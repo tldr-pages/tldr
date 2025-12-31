@@ -2,7 +2,7 @@
 
 > Chocolatey 패키지 관리자.
 > `install`과 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
-> 더 많은 정보: <https://chocolatey.org>.
+> 더 많은 정보: <https://docs.chocolatey.org/en-us/choco/commands/>.
 
 - Chocolatey 명령 실행:
 

@@ -13,4 +13,4 @@
 
 - Query all bound raw devices:
 
-`raw -qa`
+`raw {{[-qa|--query --all]}}`

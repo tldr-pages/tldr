@@ -1,7 +1,7 @@
 # grumphp
 
 > A PHP Composer plugin that enables source code quality checks.
-> More information: <https://github.com/phpro/grumphp>.
+> More information: <https://github.com/phpro/grumphp#commands>.
 
 - Register the Git hooks:
 

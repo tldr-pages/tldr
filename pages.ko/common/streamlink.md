@@ -1,7 +1,7 @@
 # streamlink
 
 > 다양한 서비스에서 스트림을 추출하여 원하는 비디오 플레이어로 전달.
-> 더 많은 정보: <https://streamlink.github.io>.
+> 더 많은 정보: <https://streamlink.github.io/cli.html#command-line-usage>.
 
 - 지정된 URL에서 스트림을 추출하고 성공하면 선택 가능한 스트림 목록 출력:
 

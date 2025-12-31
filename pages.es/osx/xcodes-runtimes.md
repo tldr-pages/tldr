@@ -1,7 +1,7 @@
 # xcodes runtimes
 
 > Gestiona los tiempos de ejecución de Xcode Simulator.
-> Más información: <https://github.com/xcodesorg/xcodes>.
+> Más información: <https://github.com/xcodesorg/xcodes#commands>.
 
 - Muestra todos los tiempos de ejecución del simulador disponibles:
 

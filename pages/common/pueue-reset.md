@@ -1,7 +1,7 @@
 # pueue reset
 
 > Kill everything and reset.
-> More information: <https://github.com/Nukesor/pueue>.
+> More information: <https://github.com/Nukesor/pueue#how-to-use-it>.
 
 - Kill all tasks and remove everything (logs, status, groups, task IDs):
 
@@ -13,4 +13,4 @@
 
 - Reset without asking for confirmation:
 
-`pueue reset --force`
+`pueue reset {{[-f|--force]}}`

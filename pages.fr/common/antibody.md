@@ -1,7 +1,7 @@
 # antibody
 
 > Le gestionnaire de modules shell "le plus rapide".
-> Plus d'informations : <https://getantibody.github.io>.
+> Plus d'informations : <https://getantibody.github.io/#Usage>.
 
 - Regroupe tous les modules pour un chargement statique :
 

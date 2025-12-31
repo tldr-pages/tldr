@@ -1,7 +1,7 @@
 # espanso
 
 > Expansor de texto multiplataforma escrito en Rust.
-> Más información: <https://espanso.org>.
+> Más información: <https://espanso.org/docs/command%20lIne/cli_list/>.
 
 - Comprueba el estado de Espanso:
 

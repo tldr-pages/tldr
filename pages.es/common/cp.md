@@ -13,24 +13,24 @@
 
 - Copia recursivamente el contenido de un directorio a otra ubicación (si el destino existe, el directorio se copia dentro de él):
 
-`cp -R {{ruta/al/directorio_de_origen}} {{ruta/al/directorio_de_destino}}`
+`cp {{[-r|--recursive]}} {{ruta/al/directorio_de_origen}} {{ruta/al/directorio_de_destino}}`
 
 - Copia un directorio de forma recursiva, en modo detallado (muestra los archivos a medida que se copian):
 
-`cp -vR {{ruta/al/directorio_de_origen}} {{ruta/al/directorio_de_destino}}`
+`cp {{[-vr|--verbose --recursive]}} {{ruta/al/directorio_de_origen}} {{ruta/al/directorio_de_destino}}`
 
 - Copia varios archivos a la vez en un directorio:
 
-`cp -t {{ruta/al/directorio_de_destino}} {{ruta/al/archivo1 ruta/al/archivo2 ...}}`
+`cp {{[-t|--target-directory]}} {{ruta/al/directorio_de_destino}} {{ruta/al/archivo1 ruta/al/archivo2 ...}}`
 
 - Copia archivos de texto a otra ubicación, en modo interactivo (pregunta al usuario antes de sobrescribir):
 
-`cp -i {{*.txt}} {{ruta/al/directorio_de_objetivo}}`
+`cp {{[-i|--interactive]}} {{*.txt}} {{ruta/al/directorio_de_objetivo}}`
 
 - Sigue los enlaces simbólicos antes de copiar:
 
-`cp -L {{enlace}} {{ruta/al/directorio_de_destino}}`
+`cp {{[-L|--dereference]}} {{enlace}} {{ruta/al/directorio_de_destino}}`
 
 - Utiliza el primer argumento como directorio de destino (útil para `xargs ... | cp -t <DEST_DIR>`):
 
-`cp -t {{ruta/a/directorio_de_destino}} {{ruta/a/archivo_o_directorio1 ruta/al/archivo_o_directorio2 ...}}`
+`cp {{[-t|--target-directory]}} {{ruta/a/directorio_de_destino}} {{ruta/a/archivo_o_directorio1 ruta/al/archivo_o_directorio2 ...}}`

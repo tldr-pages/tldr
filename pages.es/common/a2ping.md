@@ -3,9 +3,9 @@
 > Convierte imágenes en archivos EPS o PDF.
 > Más información: <https://manned.org/a2ping>.
 
-- Convierte una imagen a PDF (Nota: Especificar un nombre de archivo de salida es opcional):
+- Convierte una imagen a PDF (Nota: Es opcional especificar un nombre de archivo de salida):
 
-`a2ping {{ruta/al/imagen.ext}} {{ruta/al/salida.pdf}}`
+`a2ping {{ruta/a/imagen.ext}} {{ruta/a/salida.pdf}}`
 
 - Comprime el documento utilizando el método especificado:
 
@@ -29,4 +29,4 @@
 
 - Muestra ayuda:
 
-`a2ping -h`
+`a2ping {{[-h|--help]}}`

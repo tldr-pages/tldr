@@ -3,7 +3,7 @@
 > 증분, 압축, 암호화 및 버전별 백업을 생성.
 > 다양한 백엔드 서비스에 백업을 업로드할 수도 있음.
 > 버전에 따라 일부 옵션을 사용하지 못할 수도 있음 (예: 2.0.0의 `--gio`).
-> 더 많은 정보: <https://duplicity.gitlab.io>.
+> 더 많은 정보: <https://duplicity.gitlab.io/stable/duplicity.1.html#name>.
 
 - FTPS를 통해 디렉터리를 원격 시스템에 백업하고, 비밀번호로 암호화:
 

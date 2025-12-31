@@ -1,7 +1,7 @@
 # exiftool
 
 > Read and write meta information in files.
-> More information: <https://exiftool.org>.
+> More information: <https://exiftool.org/exiftool_pod.html>.
 
 - Print the EXIF metadata for a given file:
 
@@ -25,7 +25,7 @@
 
 - Move the date at which all JPEG photos in the current directory were taken 1 day and 2 hours backward:
 
-`exiftool "-AllDates-=0:0:1 2:0:0" -ext jpg`
+`exiftool "-AllDates-=0:0:1 2:0:0" {{[-ext|-extension]}} jpg`
 
 - Only change the `DateTimeOriginal` field subtracting 1.5 hours, without keeping backups:
 
@@ -33,4 +33,4 @@
 
 - Recursively rename all JPEG photos in a directory based on the `DateTimeOriginal` field:
 
-`exiftool '-filename<DateTimeOriginal' -d %Y-%m-%d_%H-%M-%S%%lc.%%e {{path/to/directory}} -r -ext jpg`
+`exiftool '-filename<DateTimeOriginal' {{[-d|-dateFormat]}} %Y-%m-%d_%H-%M-%S%%lc.%%e {{path/to/directory}} {{[-r|-recurse]}} {{[-ext|-extension]}} jpg`

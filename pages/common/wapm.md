@@ -1,7 +1,7 @@
 # wapm
 
 > The WebAssembly package manager.
-> More information: <https://wapm.io/help/reference>.
+> More information: <https://wasmer.io/help/reference>.
 
 - Interactively create a new `wapm.toml` file:
 

@@ -1,19 +1,19 @@
 # spi
 
 > 패키지와 슬랙빌드를 모두 관리하는 메타 패키지 관리자.
-> 더 많은 정보: <https://github.com/gapan/spi>.
+> 더 많은 정보: <https://github.com/gapan/spi/blob/master/man/spi.t2t>.
 
 - 사용 가능한 패키지와 슬랙빌드 목록 업데이트:
 
-`spi --update`
+`spi {{[-u|--update]}}`
 
 - 패키지 또는 슬랙빌드 설치:
 
-`spi --install {{패키지/슬랙빌드_이름}}`
+`spi {{[-i|--install]}} {{패키지/슬랙빌드_이름}}`
 
 - 설치된 모든 패키지를 최신 버전으로 업그레이드:
 
-`spi --upgrade`
+`spi {{[-U|--upgrade]}}`
 
 - 패키지 이름 또는 설명으로 패키지나 슬랙빌드 찾기:
 

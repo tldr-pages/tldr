@@ -13,7 +13,7 @@
 
 - Publie la branche courante vers un dépôt distant, crée le nom de la branche distante :
 
-`git push {{nom_distant}} -u {{branche_distante}}`
+`git push {{nom_distant}} {{[-u|--set-upstream]}} {{branche_distante}}`
 
 - Envoi les changements locaux sur toutes les branches locales vers leur contrepartie sur le dépôt distant :
 
@@ -21,7 +21,7 @@
 
 - Supprime une branche dans un dépôt distant :
 
-`git push {{nom_distant}} --delete {{branche_distante}}`
+`git push {{nom_distant}} {{[-d|--delete]}} {{branche_distante}}`
 
 - Supprime les branches distantes qui n'ont pas de contrepartie locale :
 

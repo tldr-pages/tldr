@@ -2,7 +2,7 @@
 
 > Verteiltes Versionskontrollsystem.
 > Manche Unterbefehle wie `commit` sind separat dokumentiert.
-> Weitere Informationen: <https://git-scm.com/>.
+> Weitere Informationen: <https://git-scm.com/docs/git>.
 
 - Führe einen Git-Unterbefehl aus:
 

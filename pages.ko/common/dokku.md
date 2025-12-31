@@ -2,7 +2,7 @@
 
 > 도커로 구동되는 미니-Heroku (PaaS).
 > 하나의 `git-push` 명령을 사용하여 여러 언어로 다른 앱을 쉽게 배포 할수 있습니다.
-> 더 많은 정보: <https://github.com/dokku/dokku>.
+> 더 많은 정보: <https://dokku.com/docs/deployment/application-deployment/>.
 
 - 실행중인 앱들 목록보기:
 

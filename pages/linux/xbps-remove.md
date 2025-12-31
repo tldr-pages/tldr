@@ -2,7 +2,7 @@
 
 > XBPS utility to remove packages.
 > See also: `xbps`.
-> More information: <https://manned.org/xbps-remove.1>.
+> More information: <https://manned.org/xbps-remove>.
 
 - Remove a package:
 
@@ -10,12 +10,12 @@
 
 - Remove a package and its dependencies:
 
-`xbps-remove --recursive {{package}}`
+`xbps-remove {{[-R|--recursive]}} {{package}}`
 
 - Remove orphan packages (installed as dependencies but no longer required by any package):
 
-`xbps-remove --remove-orphans`
+`xbps-remove {{[-o|--remove-orphans]}}`
 
 - Remove obsolete packages from the cache:
 
-`xbps-remove --clean-cache`
+`xbps-remove {{[-O|--clean-cache]}}`

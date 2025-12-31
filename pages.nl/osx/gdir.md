@@ -1,7 +1,7 @@
 # gdir
 
-> Dit commando is een alias van `-p linux dir`.
+> Dit commando is een alias van GNU `dir`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux dir`
+`tldr {{[-p|--platform]}} linux dir`

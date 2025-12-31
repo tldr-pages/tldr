@@ -9,11 +9,11 @@
 
 - 스캐폴드된 파일의 사용자 지정 대상 폴더 지정:
 
-`zapier scaffold {{trigger|search|create|resource}} {{명사}} {{-d|--dest}}={{경로/대상/폴더}}`
+`zapier scaffold {{trigger|search|create|resource}} {{명사}} {{[-d|--dest]}}={{경로/대상/폴더}}`
 
 - 스캐폴딩 시 기존 파일 덮어쓰기:
 
-`zapier scaffold {{trigger|search|create|resource}} {{명사}} {{-f|--force}}`
+`zapier scaffold {{trigger|search|create|resource}} {{명사}} {{[-f|--force]}}`
 
 - 스캐폴드된 파일에서 주석 제외:
 
@@ -21,4 +21,4 @@
 
 - 추가 디버깅 출력 표시:
 
-`zapier scaffold {{-d|--debug}}`
+`zapier scaffold {{[-d|--debug]}}`

@@ -5,7 +5,7 @@
 
 - List all the aliases `gh` is configured to use:
 
-`gh alias list`
+`gh alias {{[ls|list]}}`
 
 - Create a `gh` subcommand alias:
 
@@ -13,7 +13,7 @@
 
 - Set a shell command as a `gh` subcommand:
 
-`gh alias set --shell {{alias_name}} {{command}}`
+`gh alias set {{[-s|--shell]}} {{alias_name}} {{command}}`
 
 - Delete a command shortcut:
 

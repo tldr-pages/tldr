@@ -1,7 +1,7 @@
 # aws cloudformation
 
 > Model, provision, and manage AWS and third-party resources by treating infrastructure as code.
-> More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cloudformation/index.html>.
+> More information: <https://docs.aws.amazon.com/cli/latest/reference/cloudformation/>.
 
 - Create a stack from a template file:
 
@@ -27,6 +27,6 @@
 
 `aws cloudformation detect-stack-drift --stack-name {{stack-id}} --profile {{profile}}`
 
-- Check the drift status output of a stack using 'StackDriftDetectionId' from the previous command output:
+- Check the drift status output of a stack using `StackDriftDetectionId` from the previous command output:
 
 `aws cloudformation describe-stack-resource-drifts --stack-name {{stack-drift-detection-id}} --profile {{profile}}`

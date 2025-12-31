@@ -1,7 +1,7 @@
 # ged
 
-> Perintah ini merupakan alias dari `-p linux ed`.
+> Perintah ini merupakan alias dari `ed`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux ed`
+`tldr ed`

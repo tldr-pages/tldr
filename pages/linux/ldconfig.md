@@ -13,4 +13,4 @@
 
 - Print the libraries in the cache and check whether a given library is present:
 
-`ldconfig -p | grep {{library_name}}`
+`ldconfig {{[-p|--print-cache]}} | grep {{library_name}}`

@@ -28,10 +28,10 @@
 
 `del {{file_pattern}} /q`
 
-- Geef de beschikbare help en lijst met attributen weer:
-
-`del /?`
-
 - Verwijder bestanden op basis van opgegeven kenmerken:
 
 `del {{file_pattern}} /a {{attribute}}`
+
+- Toon de help en beschikbare attributen:
+
+`del /?`

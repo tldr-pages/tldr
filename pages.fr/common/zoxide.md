@@ -2,7 +2,7 @@
 
 > Garde une trace des répertoires les plus utilisés.
 > Utilise un algorithme de classement pour identifier le meilleur résultat.
-> Plus d'informations : <https://github.com/ajeetdsouza/zoxide>.
+> Plus d'informations : <https://manned.org/zoxide>.
 
 - Aller au répertoire avec le meilleur classement qui contient "foo" dans son nom :
 
@@ -20,9 +20,9 @@
 
 `zoxide add {{chemin/du/répertoire}}`
 
-- Supprime un répertoire interactive de la base de données de `zoxide` :
+- Supprime un répertoire de la base de données de `zoxide` :
 
-`zoxide remove {{chemin/du/répertoire}} --interactive`
+`zoxide remove {{chemin/du/répertoire}}`
 
 - Génère la configuration du shell pour la mise en place des alias de commandes (`z`, `za`, `zi`, `zq`, `zr`) :
 

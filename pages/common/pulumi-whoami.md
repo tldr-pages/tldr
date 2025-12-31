@@ -9,12 +9,12 @@
 
 - Print detailed information about the currently logged in user:
 
-`pulumi whoami {{-v|--verbose}}`
+`pulumi whoami {{[-v|--verbose]}}`
 
 - Print detailed information about the currently logged in user as JSON:
 
-`pulumi whoami {{-j|--json}}`
+`pulumi whoami {{[-j|--json]}}`
 
 - Display help:
 
-`pulumi whoami {{-h|--help}}`
+`pulumi whoami {{[-h|--help]}}`

@@ -1,7 +1,7 @@
 # gjoin
 
-> यह आदेश `-p linux join` का उपनाम है।
+> यह आदेश `join` का उपनाम है।
 
 - मूल आदेश के लिए दस्तावेज़ देखें:
 
-`tldr -p linux join`
+`tldr join`

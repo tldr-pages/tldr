@@ -1,7 +1,7 @@
 # feh
 
 > Utilidad ligera de visualización de imágenes.
-> Más información: <https://feh.finalrewind.org>.
+> Más información: <https://man.finalrewind.org/1/feh/>.
 
 - Muestra imágenes localmente o usando una URL:
 

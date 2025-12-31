@@ -1,7 +1,7 @@
 # set
 
 > Toggle shell options or set the values of positional parameters.
-> More information: <https://manned.org/set.1posix>.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#The-Set-Builtin>.
 
 - Display the names and values of shell variables:
 
@@ -27,10 +27,10 @@
 
 `set -o`
 
-- Exit the shell when (some) commands fail:
+- Exit the shell when (some) command fails:
 
 `set -e`
 
 - Reset all shell parameters and assign new ones:
 
-`set -- {{argument1 argument2...}}`
+`set -- {{argument1 argument2 ...}}`

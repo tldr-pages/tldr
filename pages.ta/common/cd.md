@@ -1,7 +1,7 @@
 # cd
 
 > தற்போதைய வேலை கோப்பகத்தை மாற்றவும்.
-> மேலும் விவரத்திற்கு: <https://manned.org/cd>.
+> மேலும் விவரத்திற்கு: <https://www.gnu.org/software/bash/manual/bash.html#index-cd>.
 
 - குறிப்பிட்ட கோப்பகத்திற்குச் செல்லவும்:
 

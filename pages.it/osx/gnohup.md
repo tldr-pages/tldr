@@ -1,7 +1,7 @@
 # gnohup
 
-> Questo comando è un alias per `-p linux nohup`.
+> Questo comando è un alias per `nohup`.
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux nohup`
+`tldr nohup`

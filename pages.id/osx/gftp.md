@@ -1,7 +1,7 @@
 # gftp
 
-> Perintah ini merupakan alias dari `-p linux ftp`.
+> Perintah ini merupakan alias dari `ftp`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux ftp`
+`tldr ftp`

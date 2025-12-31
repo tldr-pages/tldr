@@ -6,16 +6,16 @@
 
 - Lee una imagen PGM, aplica la separación y la guarda en un archivo:
 
-`ppmditherbw {{ruta/a/la/imagen.pgm}} > {{ruta/al/archivo.pgm}}`
+`pamditherbw {{ruta/a/la/imagen.pgm}} > {{ruta/al/archivo.pgm}}`
 
 - Utiliza el método de cuantización especificado:
 
-`ppmditherbw -{{floyd|fs|atkinson|threshold|hilbert|...}} {{ruta/a/la/imagen.pgm}} > {{ruta/al/archivo.pgm}}`
+`pamditherbw -{{floyd|fs|atkinson|threshold|hilbert|...}} {{ruta/a/la/imagen.pgm}} > {{ruta/al/archivo.pgm}}`
 
 - Utiliza el método de cuantización de atkinson y la semilla especificada para un generador de número pseudo-aleatorio:
 
-`ppmditherbw -atkinson -randomseed {{1337}} {{ruta/a/la/imagen.pgm}} > {{ruta/al/archivo.pgm}}`
+`pamditherbw {{[-a|-atkinson]}} {{[-r|-randomseed]}} {{1337}} {{ruta/a/la/imagen.pgm}} > {{ruta/al/archivo.pgm}}`
 
 - Especifica el valor de umbralización (thresholding) para los métodos de cuantización que realizan algún tipo de umbralización:
 
-`ppmditherbw -{{fs|atkinson|thresholding}} -value {{0.3}} {{ruta/a/la/imagen.pgm}} > {{ruta/al/archivo.pgm}}`
+`pamditherbw -{{fs|atkinson|thresholding}} {{[-va|-value]}} {{0.3}} {{ruta/a/la/imagen.pgm}} > {{ruta/al/archivo.pgm}}`

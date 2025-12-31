@@ -1,7 +1,7 @@
 # newsboat
 
 > 텍스트 터미널용 RSS/Atom 피드 리더.
-> 더 많은 정보: <https://newsboat.org/>.
+> 더 많은 정보: <https://newsboat.org/releases/2.40/docs/newsboat.html#_first_steps>.
 
 - OPML 파일에서 피드 URL을 처음으로 가져오기:
 
@@ -21,4 +21,4 @@
 
 - 키보드 단축키 보기 (가장 관련 있는 것은 상태 줄에 표시됨):
 
-`?`
+`<?>`

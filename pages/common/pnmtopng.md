@@ -9,4 +9,4 @@
 
 - Display version:
 
-`pnmtopng -version`
+`pnmtopng {{[-vers|-version]}}`

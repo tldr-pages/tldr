@@ -2,7 +2,7 @@
 
 > 一个资源监视器，显示有关 CPU、内存、磁盘、网络和进程的信息。
 > `bashtop` 的 Python 版本。
-> 更多信息：<https://github.com/aristocratos/bpytop>.
+> 更多信息：<https://github.com/aristocratos/bpytop#command-line-options>。
 
 - 运行 bpytop：
 
@@ -14,15 +14,15 @@
 
 - 切换最小模式：
 
-`m`
+`<m>`
 
 - 搜索正在运行的程序或进程：
 
-`f`
+`<f>`
 
 - 修改设置：
 
-`M`
+`<M>`
 
 - 显示版本：
 

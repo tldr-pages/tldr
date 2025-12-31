@@ -1,7 +1,7 @@
 # gdu
 
 > Disk usage analyzer with console interface.
-> More information: <https://github.com/dundee/gdu>.
+> More information: <https://github.com/dundee/gdu#usage>.
 
 - Interactively show the disk usage of the current directory:
 
@@ -19,7 +19,7 @@
 
 `gdu --ignore-dirs {{path/to/directory1,path/to/directory2,...}}`
 
-- Ignore paths by regular expression:
+- Ignore paths by `regex`:
 
 `gdu --ignore-dirs-pattern '{{.*[abc]+}}'`
 

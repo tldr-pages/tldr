@@ -1,7 +1,7 @@
 # top
 
 > 显示运行进程的动态实时信息。
-> 更多信息：<https://keith.github.io/xcode-man-pages/top.1.html>.
+> 更多信息：<https://keith.github.io/xcode-man-pages/top.1.html>。
 
 - 执行 top 命令，界面中提供所有选项：
 
@@ -21,4 +21,4 @@
 
 - 获取有关交互式命令的帮助（我测试并没看到这个功能）：
 
-`?`
+`<?>`

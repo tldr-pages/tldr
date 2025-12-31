@@ -1,8 +1,8 @@
 # bash
 
 > Bourne-Again SHell, `sh`-ondersteunende commandoregel-interpreteerder.
-> Bekijk ook: `zsh`, `histexpand` (history expansion).
-> Meer informatie: <https://www.gnu.org/software/bash/>.
+> Zie ook: `zsh`, `!`.
+> Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#Invoking-Bash>.
 
 - Start een interactieve shell sessie:
 
@@ -34,4 +34,4 @@
 
 - Start een beperkte shell sessie:
 
-`bash -r`
+`bash {{[-r|--restricted]}}`

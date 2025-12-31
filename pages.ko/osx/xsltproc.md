@@ -1,7 +1,7 @@
 # xsltproc
 
 > XSLT를 사용하여 XML을 변환하여 출력(주로 HTML 또는 XML)을 생성합니다.
-> 더 많은 정보: <http://www.xmlsoft.org/xslt/xsltproc.html>.
+> 더 많은 정보: <https://manned.org/xsltproc>.
 
 - 특정 XSLT 스타일시트를 사용하여 XML 파일 변환:
 

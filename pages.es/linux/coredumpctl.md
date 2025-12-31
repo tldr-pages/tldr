@@ -1,7 +1,7 @@
 # coredumpctl
 
 > Recupera y procesa volcados de memoria y sus metadatos.
-> Más información: <https://www.freedesktop.org/software/systemd/man/coredumpctl.html>.
+> Más información: <https://www.freedesktop.org/software/systemd/man/latest/coredumpctl.html>.
 
 - Lista todos los volcados de memoria capturados:
 
@@ -21,4 +21,4 @@
 
 - Extrae el último volcado de memoria a un fichero:
 
-`coredumpctl --output={{ruta/al/archivo}} dump {{programa}}`
+`coredumpctl --output {{ruta/al/archivo}} dump {{programa}}`

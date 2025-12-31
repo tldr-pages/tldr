@@ -21,8 +21,8 @@
 
 - Attach to a running process and begin debugging:
 
-`div attach {{pid}}`
+`dlv attach {{pid}}`
 
 - Compile and begin tracing a program:
 
-`dlv trace {{package}} --regexp '{{regular_expression}}'`
+`dlv trace {{package}} --regexp '{{regex}}'`

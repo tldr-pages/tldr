@@ -1,7 +1,7 @@
 # npm outdated
 
 > Check for outdated npm package dependencies.
-> More information: <https://docs.npmjs.com/cli/commands/npm-outdated>.
+> More information: <https://docs.npmjs.com/cli/npm-outdated/>.
 
 - Find packages that are outdated in a project:
 
@@ -9,4 +9,4 @@
 
 - Find packages that are outdated regardless of the current project:
 
-`npm outdated --all`
+`npm outdated {{[-a|--all]}}`

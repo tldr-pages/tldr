@@ -20,6 +20,6 @@
 
 `gcrane completion powershell | Out-String | Invoke-Expression`
 
-- Toon help:
+- Toon de help:
 
-`gcrane completion {{shell_naam}} {{-h|--help}}`
+`gcrane completion {{shell_naam}} {{[-h|--help]}}`

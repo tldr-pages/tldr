@@ -14,7 +14,7 @@
 
 - Create a GPG-signed commit object:
 
-`git commit-tree {{tree}} -m "{{message}}" --gpg-sign`
+`git commit-tree {{tree}} -m "{{message}}" {{[-S|--gpg-sign]}}`
 
 - Create a commit object with the specified parent commit object:
 

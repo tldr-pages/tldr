@@ -2,7 +2,7 @@
 
 > アマゾンウェブサービスの公式 CLI ツールです。
 > `s3` のようないくつかのサブコマンドには、使用方法についての独自のドキュメントがあります。
-> 詳しくはこちら: <https://aws.amazon.com/cli>
+> もっと詳しく: <https://docs.aws.amazon.com/cli/latest/reference/>。
 
 - AWS コマンドラインを設定する:
 

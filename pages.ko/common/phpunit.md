@@ -1,7 +1,7 @@
 # phpunit
 
 > PHPUnit 명령줄 테스트 실행기.
-> 더 많은 정보: <https://phpunit.de>.
+> 더 많은 정보: <https://docs.phpunit.de/en/12.4/textui.html#command-line-options>.
 
 - 현재 디렉토리에서 테스트 실행. 참고: 'phpunit.xml' 파일이 존재해야 합니다:
 

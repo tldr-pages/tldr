@@ -1,24 +1,24 @@
 # tlmgr platform
 
 > Manage TeX Live platforms.
-> More information: <https://www.tug.org/texlive/tlmgr.html>.
+> More information: <https://www.tug.org/texlive/doc/tlmgr.html#platform>.
 
 - List all available platforms in the package repository:
 
-`tlmgr platform list`
+`tlmgr {{[arch|platform]}} list`
 
 - Add the executables for a specific platform:
 
-`sudo tlmgr platform add {{platform}}`
+`sudo tlmgr {{[arch|platform]}} add {{platform}}`
 
 - Remove the executables for a specific platform:
 
-`sudo tlmgr platform remove {{platform}}`
+`sudo tlmgr {{[arch|platform]}} remove {{platform}}`
 
 - Auto-detect and switch to the current platform:
 
-`sudo tlmgr platform set auto`
+`sudo tlmgr {{[arch|platform]}} set auto`
 
 - Switch to a specific platform:
 
-`sudo tlmgr platform set {{platform}}`
+`sudo tlmgr {{[arch|platform]}} set {{platform}}`

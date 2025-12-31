@@ -1,7 +1,7 @@
 # dd
 
 > 파일 변환 및 복사.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/dd>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/dd-invocation.html>.
 
 - isohybrid 파일(예: `archlinux-xxx.iso`)에서 부팅 가능한 USB 드라이브를 만들고 진행 상황 표시:
 

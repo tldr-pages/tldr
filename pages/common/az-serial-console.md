@@ -6,8 +6,8 @@
 
 - Connect to a serial console:
 
-`az serial-console connect --resource-group {{Resource_Group_Name}} --name {{Virtual_Machine_Name}}`
+`az serial-console connect {{[-g|--resource-group]}} {{Resource_Group_Name}} {{[-n|--name]}} {{Virtual_Machine_Name}}`
 
 - Terminate the connection:
 
-`<Ctrl>-]`
+`<Ctrl ]>`

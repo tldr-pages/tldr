@@ -17,7 +17,7 @@
 
 - Show conversion errors or results while editing `bank.csv.rules`:
 
-`watchexec -- hledger -f {{path/to/bank.csv}} print`
+`watchexec -- hledger {{[-f|--file]}} {{path/to/bank.csv}} print`
 
 - Mark `bank.csv`'s current data as seen, as if already imported:
 
@@ -25,4 +25,4 @@
 
 - Mark `bank.csv` as all new, as if not yet imported:
 
-`rm -f .latest.bank.csv`
+`rm {{[-f|--force]}} .latest.bank.csv`

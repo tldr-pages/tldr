@@ -1,7 +1,7 @@
 # dmd
 
 > 공식적 D 컴파일러.
-> 더 많은 정보: <https://dlang.org/dmd.html>.
+> 더 많은 정보: <https://dlang.org/dmd-windows.html>.
 
 - D 소스 파일 빌드:
 

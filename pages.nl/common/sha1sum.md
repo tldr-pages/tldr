@@ -1,7 +1,7 @@
 # sha1sum
 
 > Bereken SHA1 cryptografische checksums.
-> Meer informatie: <https://www.gnu.org/software/coreutils/sha1sum>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/sha1sum-invocation.html>.
 
 - Bereken de SHA1 checksum voor één of meer bestanden:
 
@@ -17,16 +17,16 @@
 
 - Lees een bestand met SHA1 checksums en bestandsnamen en verifieer dat alle bestanden overeenkomende checksums hebben:
 
-`sha1sum --check {{pad/naar/bestand.sha1}}`
+`sha1sum {{[-c|--check]}} {{pad/naar/bestand.sha1}}`
 
 - Toon alleen een bericht voor ontbrekende bestanden of wanneer verificatie mislukt:
 
-`sha1sum --check --quiet {{pad/naar/bestand.sha1}}`
+`sha1sum {{[-c|--check]}} --quiet {{pad/naar/bestand.sha1}}`
 
 - Toon alleen een bericht wanneer verificatie mislukt, negeer ontbrekende bestanden:
 
-`sha1sum --ignore-missing --check --quiet {{pad/naar/bestand.sha1}}`
+`sha1sum --ignore-missing {{[-c|--check]}} --quiet {{pad/naar/bestand.sha1}}`
 
 - Controleer een bekende SHA1 checksum van een bestand:
 
-`echo {{bekende_sha1_checksum_van_het_bestand}} {{pad/naar/bestand}} | sha1sum --check`
+`echo {{bekende_sha1_checksum_van_het_bestand}} {{pad/naar/bestand}} | sha1sum {{[-c|--check]}}`

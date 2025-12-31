@@ -5,7 +5,7 @@
 
 - Lista remotes existentes com seus nomes e URLs:
 
-`git remote {{-v|--verbose}}`
+`git remote {{[-v|--verbose]}}`
 
 - Mostra infomação de um remote específico:
 

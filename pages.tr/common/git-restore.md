@@ -10,7 +10,7 @@
 
 - Sahnelenmemiş bir dosyayı belirtilen commit'in sürümüne kavuştur:
 
-`git restore --source {{commit}} {{dosya/konumu}}`
+`git restore {{[-s|--source]}} {{commit}} {{dosya/konumu}}`
 
 - İzlenen dosyalardaki sahnelenmemiş tüm değişiklikleri iptal et:
 
@@ -18,16 +18,16 @@
 
 - Bir dosyayı sahnelenmemiş hale getir:
 
-`git restore --staged {{dosya/konumu}}`
+`git restore {{[-S|--staged]}} {{dosya/konumu}}`
 
 - Tüm dosyaları sahnelenmemiş hale getir:
 
-`git restore --staged :/`
+`git restore {{[-S|--staged]}} :/`
 
 - Dosyalara yapılan sahnelenmiş veya sahnelenmemiş tüm değişiklikleri iptal et:
 
-`git restore --worktree --staged :/`
+`git restore {{[-W|--worktree]}} {{[-S|--staged]}} :/`
 
 - Onarılacak dosya parçalarını etkileşimli olarak seç:
 
-`git restore --patch`
+`git restore {{[-p|--patch]}}`

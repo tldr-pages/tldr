@@ -1,28 +1,37 @@
 # ani-cli
 
-> A cli to browse and watch anime.
-> More information: <https://github.com/pystardust/ani-cli>.
+> Browse and watch anime.
+> See also: `animdl`.
+> More information: <https://manned.org/ani-cli>.
 
 - Search anime by name:
 
-`ani-cli "{{anime_name}}"`
+`ani-cli "{{anime_title}}"`
 
-- [d]ownload episode:
+- Download an episode:
 
-`ani-cli -d "{{anime_name}}"`
+`ani-cli {{[-d|--download]}} "{{anime_title}}"`
 
-- Use [v]LC as the media player:
+- Download a range of episodes:
 
-`ani-cli -v "{{anime_name}}"`
+`ani-cli {{[-d|--download]}} {{[-r|--range]}} "{{1 6}}" "{{anime_title}}"`
 
-- Watch a specific [e]pisode:
+- Download the entire series (a range of all episodes):
 
-`ani-cli -e {{episode_number}} "{{anime_name}}"`
+`ani-cli {{[-d|--download]}} {{[-r|--range]}} "1 -1" "{{anime_title}}"`
 
-- [c]ontinue watching anime from history:
+- Use VLC as the media player:
 
-`ani-cli -c`
+`ani-cli {{[-v|--vlc]}} "{{anime_title}}"`
 
-- [U]pdate `ani-cli`:
+- Watch a specific episode:
 
-`ani-cli -U`
+`ani-cli {{[-e|--episode]}} {{episode_number}} "{{anime_title}}"`
+
+- Continue watching anime from history:
+
+`ani-cli {{[-c|--continue]}}`
+
+- Update `ani-cli`:
+
+`ani-cli {{[-U|--update]}}`

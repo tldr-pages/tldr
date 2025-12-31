@@ -2,7 +2,7 @@
 
 > 编译一个 Rust 包。类似于 `cargo build`，但您可以向编译器传递额外的选项。
 > 查看 `rustc --help` 获取所有可用选项。
-> 更多信息：<https://doc.rust-lang.org/cargo/commands/cargo-rustc.html>.
+> 更多信息：<https://doc.rust-lang.org/cargo/commands/cargo-rustc.html>。
 
 - 构建包并向 `rustc` 传递选项：
 
@@ -34,4 +34,4 @@
 
 - 仅构建指定的二进制文件：
 
-`cargo --bin {{名称}}`
+`cargo rustc --bin {{名称}}`

@@ -1,7 +1,7 @@
 # gtouch
 
-> Dit commando is een alias van `-p linux touch`.
+> Dit commando is een alias van GNU `touch`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux touch`
+`tldr touch`

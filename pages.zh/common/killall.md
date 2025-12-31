@@ -2,7 +2,7 @@
 
 > 根据进程名称向所有实例发送终止信号（必须是精确的进程名称）。
 > 除了 SIGKILL 和 SIGSTOP，所有信号都可以被进程拦截，从而实现正常退出。
-> 更多信息：<https://manned.org/killall>.
+> 更多信息：<https://manned.org/killall>。
 
 - 使用默认的 SIGTERM（终止）信号结束进程：
 
@@ -16,7 +16,7 @@
 
 `killall -i {{进程名称}}`
 
-- 使用 SIGINT（中断）信号终止进程，与按下 `Ctrl + C` 发送的信号相同：
+- 使用 SIGINT（中断）信号终止进程，与按下 `<Ctrl c>` 发送的信号相同：
 
 `killall -INT {{进程名称}}`
 

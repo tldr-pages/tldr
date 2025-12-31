@@ -1,7 +1,7 @@
 # dillo
 
 > A lightweight web browser intended for slow computers.
-> More information: <https://www.dillo.org/>.
+> More information: <https://manned.org/dillo>.
 
 - Launch Dillo:
 
@@ -9,7 +9,7 @@
 
 - Launch Dillo with a specific window size and screen location:
 
-`dillo --geometry {{width}}x{{height}}+{{x_position}}+{{y_position}}`
+`dillo {{[-g|--geometry]}} {{width}}x{{height}}+{{x_position}}+{{y_position}}`
 
 - Launch Dillo and open a specific URL:
 
@@ -21,12 +21,12 @@
 
 - Launch Dillo in full-screen mode:
 
-`dillo --fullwindow`
-
-- Display version:
-
-`dillo --version`
+`dillo {{[-f|--fullwindow]}}`
 
 - Display help:
 
-`dillo --help`
+`dillo {{[-h|--help]}}`
+
+- Display version:
+
+`dillo {{[-v|--version]}}`

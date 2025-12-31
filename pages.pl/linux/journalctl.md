@@ -1,23 +1,23 @@
 # journalctl
 
 > Przeszukaj dziennik systemd.
-> Więcej informacji: <https://manned.org/journalctl>.
+> Więcej informacji: <https://www.freedesktop.org/software/systemd/man/latest/journalctl.html>.
 
 - Wyświetl wszystkie wiadomości o priorytecie 3 (błędy) z tego rozruchu:
 
-`journalctl -b --priority=3`
+`journalctl {{[-b|--boot]}} {{[-p|--priority]}} 3`
 
 - Usuń dzienniki starsze niż 2 dni:
 
-`journalctl --vacuum-time=2d`
+`journalctl --vacuum-time 2d`
 
 - Wyświetlaj nowe wiadomości (jak `tail -f` dla tradycyjnego sysloga):
 
-`journalctl --follow`
+`journalctl {{[-f|--follow]}}`
 
 - Wyświetl wszystkie wiadomości podanej jednostki:
 
-`journalctl --unit {{jednostka}}`
+`journalctl {{[-u|--unit]}} {{jednostka}}`
 
 - Wyświetl wiadomości podanej jednostki od czasu jej ostatniego uruchomienia:
 
@@ -25,7 +25,7 @@
 
 - Filtruj wiadomości w zakresie czasu (znacznik czasu lub symbol zastępczy, np. "yesterday"):
 
-`journalctl --since {{now|today|yesterday|tomorrow}} --until "{{YYYY-MM-DD HH:MM:SS}}"`
+`journalctl {{[-S|--since]}} {{now|today|yesterday|tomorrow}} {{[-U|--until]}} "{{YYYY-MM-DD HH:MM:SS}}"`
 
 - Wyświetl wszystkie wiadomości podanego procesu:
 

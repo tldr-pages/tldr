@@ -1,7 +1,7 @@
 # babel
 
 > A transpiler which converts code from JavaScript ES6/ES7 syntax to ES5 syntax.
-> More information: <https://babeljs.io/>.
+> More information: <https://babeljs.io/docs/babel-cli>.
 
 - Transpile a specified input file and output to `stdout`:
 

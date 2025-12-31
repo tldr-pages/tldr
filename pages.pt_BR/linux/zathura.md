@@ -10,24 +10,24 @@
 
 - Navega esquerda/baixo/cima/direita:
 
-`{{H|J|K|L|teclas direcionais}}`
+`{{<h>|<j>|<k>|<l>|<ArrowKeys>}}`
 
 - Rotaciona:
 
-`r`
+`<r>`
 
 - Inverte cores:
 
-`<Ctrl> + R`
+`<Ctrl r>`
 
 - Procura por uma string no documento:
 
-`/{{string}}`
+`</>{{string}}`
 
 - Cria/remove marcadores de página:
 
-`:{{bmark|bdelete}} {{nome_do_marcador}}`
+`<:>{{bmark|bdelete}} {{nome_do_marcador}}<Enter>`
 
 - Lista marcadores de página:
 
-`:blist`
+`<:>blist<Enter>`

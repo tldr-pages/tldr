@@ -1,7 +1,7 @@
 # mise
 
-> Manage versions of different packages.
-> More information: <https://mise.jdx.dev>.
+> Manage language runtimes like Node.js, Python, Ruby, Go, Java, etc and various tools.
+> More information: <https://mise.jdx.dev/cli/>.
 
 - List all available plugins:
 
@@ -21,7 +21,7 @@
 
 - Set global version for a package:
 
-`mise use --global {{name}}@{{version}}`
+`mise use {{[-g|--global]}} {{name}}@{{version}}`
 
 - Set local version for a package:
 
@@ -30,3 +30,7 @@
 - Set environment variable in configuration:
 
 `mise set {{variable}}={{value}}`
+
+- Pass plugin options:
+
+`mise use {{name}}\[{{option1}}={{option1_value}},{{option2}}={{option2_value}}\]@{{version}}`

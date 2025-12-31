@@ -1,7 +1,7 @@
 # gpinky
 
-> To polecenie jest aliasem `-p linux pinky`.
+> To polecenie jest aliasem GNU `pinky`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux pinky`
+`tldr pinky`

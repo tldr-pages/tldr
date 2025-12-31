@@ -5,8 +5,8 @@
 
 - Release all address leases:
 
-`sudo dhcpcd --release`
+`sudo dhcpcd {{[-k|--release]}}`
 
 - Request the DHCP server for new leases:
 
-`sudo dhcpcd --rebind`
+`sudo dhcpcd {{[-n|--rebind]}}`

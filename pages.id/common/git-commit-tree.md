@@ -14,7 +14,7 @@
 
 - Buat sebuah objek komit yang ditandatangani oleh kunci enkripsi GPG:
 
-`git commit-tree {{tree}} -m "{{pesan}}" --gpg-sign`
+`git commit-tree {{tree}} -m "{{pesan}}" {{[-S|--gpg-sign]}}`
 
 - Buat sebuah objek komit dengan komit induk tertentu:
 

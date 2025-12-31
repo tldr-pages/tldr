@@ -1,7 +1,7 @@
 # rdfind
 
 > 중복된 내용을 가진 파일을 찾아 제거.
-> 더 많은 정보: <https://rdfind.pauldreik.se>.
+> 더 많은 정보: <https://rdfind.pauldreik.se/rdfind.1.html>.
 
 - 주어진 디렉터리에서 모든 중복 파일을 식별하고 요약 출력:
 

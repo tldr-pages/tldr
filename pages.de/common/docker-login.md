@@ -9,12 +9,12 @@
 
 - Einloggen mit einem angegebenen Benutzernamen (fragt nach dem Passwort):
 
-`docker login --username {{benutzername}}`
+`docker login {{[-u|--username]}} {{benutzername}}`
 
 - Einloggen mit einem angegebenen Benutzernamen und Passwort:
 
-`docker login --username {{benutzername}} --password {{passwort}} {{server}}`
+`docker login {{[-u|--username]}} {{benutzername}} {{[-p|--password]}} {{passwort}} {{server}}`
 
 - Einloggen mit einem Passwort, welches von `stdin` gelesen wird:
 
-`echo "{{passwort}}" | docker login --username {{benutzername}} --password-stdin`
+`echo "{{passwort}}" | docker login {{[-u|--username]}} {{benutzername}} --password-stdin`

@@ -1,7 +1,7 @@
 # transmission-daemon
 
 > Daemon bediend met `transmission-remote` of de webinterface.
-> Bekijk ook: `transmission`.
+> Zie ook: `transmission`.
 > Meer informatie: <https://manned.org/transmission-daemon>.
 
 - Start een headless `transmission` sessie:
@@ -10,12 +10,12 @@
 
 - Start en bewaak een specifieke map voor nieuwe torrents:
 
-`transmission-daemon --watch-dir {{pad/naar/map}}`
+`transmission-daemon {{[-c|--watch-dir]}} {{pad/naar/map}}`
 
 - Dump daemon-instellingen in JSON formaat:
 
-`transmission-daemon --dump-settings > {{pad/naar/bestand.json}}`
+`transmission-daemon {{[-d|--dump-settings]}} > {{pad/naar/bestand.json}}`
 
 - Start met specifieke instellingen voor de web interface:
 
-`transmission-daemon --auth --username {{gebruikersnaam}} --password {{wachtwoord}} --port {{9091}} --allowed {{127.0.0.1}}`
+`transmission-daemon {{[-t|--auth]}} {{[-u|--username]}} {{gebruikersnaam}} {{[-v|--password]}} {{wachtwoord}} {{[-p|--port]}} {{9091}} {{[-a|--allowed]}} {{127.0.0.1}}`

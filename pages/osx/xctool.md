@@ -1,7 +1,7 @@
 # xctool
 
 > Build Xcode projects.
-> More information: <https://github.com/facebookarchive/xctool>.
+> More information: <https://github.com/facebookarchive/xctool#usage>.
 
 - Build a single project without any workspace:
 
@@ -11,6 +11,6 @@
 
 `xctool -workspace {{YourWorkspace.xcworkspace}} -scheme {{YourScheme}} build`
 
-- Clean, build and execute all the tests:
+- Clean, build, and execute all the tests:
 
 `xctool -workspace {{YourWorkspace.xcworkspace}} -scheme {{YourScheme}} clean build test`

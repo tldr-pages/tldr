@@ -11,11 +11,11 @@
 
 - Verwijs naar manifests om toe te voegen aan de basisindex:
 
-`crane index append {{-m|--manifest}} {{manifest_naam1 manifest_naam2 ...}}`
+`crane index append {{[-m|--manifest]}} {{manifest_naam1 manifest_naam2 ...}}`
 
 - Tag die toegepast moet worden op de resulterende image:
 
-`crane index append {{-t|--tag}} {{tag_naam}}`
+`crane index append {{[-t|--tag]}} {{tag_naam}}`
 
 - Lege basisindex heeft Docker-media types in plaats van OCI:
 
@@ -25,6 +25,6 @@
 
 `crane index append --flatten`
 
-- Toon help:
+- Toon de help:
 
-`crane index append {{-h|--help}}`
+`crane index append {{[-h|--help]}}`

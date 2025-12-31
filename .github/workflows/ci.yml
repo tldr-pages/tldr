@@ -11,24 +11,26 @@ jobs:
       attestations: write # to upload assets attestation for build provenance
       id-token: write # grant additional permission to attestation action to mint the OIDC token permission
 
+    env:
+      # Commit SHA: use PR head if in a PR, otherwise fall back to github.sha
+      COMMIT_SHA: ${{ github.event.pull_request.head.sha || github.sha }}
+      # PR ID: set to number if in PR, otherwise blank
+      PULL_REQUEST_ID: ${{ github.event.number || '' }}
+
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
       with:
         fetch-depth: 0
 
-    - uses: actions/setup-python@v5
+    - uses: actions/setup-python@83679a892e2d95755f2dac6acb0bfd1e9ac5d548 # v6.1.0
       with:
         python-version: '3.12'
         cache: 'pip'
 
-    - uses: actions/setup-node@v4
+    - uses: actions/setup-node@395ad3262231945c25e8478fd5baf05154b1d79f # v6.1.0
       with:
         node-version: 'lts/*'
         cache: 'npm'
-
-    - name: Set up PR environment
-      if: github.event.number != null
-      run: echo "PULL_REQUEST_ID=${{ github.event.number }}" >> $GITHUB_ENV
 
     - name: Install npm dependencies
       run: npm ci
@@ -38,6 +40,13 @@ jobs:
 
     - name: Test
       run: npm test
+
+    - name: Upload test logging
+      if: github.repository == 'tldr-pages/tldr' && github.event.pull_request.number != ''
+      uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6.0.0
+      with:
+        name: debug.log
+        path: debug.log
 
     - name: Build
       run: bash scripts/build.sh
@@ -99,7 +108,7 @@ jobs:
     - name: Attest generated files
       if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
       id: attest
-      uses: actions/attest-build-provenance@v2
+      uses: actions/attest-build-provenance@00014ed6ed5efc5b1ab7f7f34a39eb55d41aa4f8 # v3.1.0
       continue-on-error: true # prevent failing when no pages are modified
       with:
         subject-path: ${{ env.subject_path }}

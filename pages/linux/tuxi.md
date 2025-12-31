@@ -1,7 +1,7 @@
 # tuxi
 
 > Scrape Google search results and SERPs and provide instant and concise answers.
-> More information: <https://github.com/Bugswriter/tuxi>.
+> More information: <https://github.com/Bugswriter/tuxi#usage>.
 
 - Make a search using Google:
 
@@ -11,7 +11,7 @@
 
 `tuxi -r {{search_terms}}`
 
-- Display only search results (silences "Did you mean?", greetings and usage):
+- Display only search results (silences "Did you mean?", greetings, and usage):
 
 `tuxi -q {{search_terms}}`
 

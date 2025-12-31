@@ -1,7 +1,7 @@
 # xfreerdp
 
 > Implementación del protocolo del Free Remote Desktop.
-> Más información: <https://www.freerdp.com>.
+> Más información: <https://github.com/FreeRDP/FreeRDP/wiki/CommandLineInterface-(possibly-not-up-to-date,-check-application-help-text-for-most-up-to-date-version)>.
 
 - Conéctate a un servidor FreeRDP:
 

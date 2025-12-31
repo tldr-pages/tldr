@@ -1,4 +1,4 @@
-# git-imerge
+# git imerge
 
 > İki git dalı arasında aşamalı olarak birleştirme veya taban değiştirme işlemlerini uygula.
 > Dallar arasındaki uyuşmazlıklar özel commitler ile bölüşülerek uyuşmazlıkları çözmek kolaylaştırılır.

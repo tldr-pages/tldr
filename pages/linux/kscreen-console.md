@@ -1,6 +1,6 @@
 # kscreen-console
 
-> Command-line tool to query KScreen's status.
+> Query KScreen's status.
 > More information: <https://manned.org/kscreen-console>.
 
 - Show all outputs and configuration files to attach to a bug report:
@@ -25,7 +25,7 @@
 
 - Display help:
 
-`kscreen-console --help`
+`kscreen-console {{[-h|--help]}}`
 
 - Display help including Qt specific command-line options:
 

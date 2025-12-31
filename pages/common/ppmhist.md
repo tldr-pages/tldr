@@ -6,12 +6,12 @@
 
 - Generate the histogram for human reading:
 
-`ppmhist -nomap {{path/to/image.ppm}}`
+`ppmhist {{[-nom|-nomap]}} {{path/to/image.ppm}}`
 
 - Generate a PPM file of the colormap for the image, with the color histogram as comments:
 
-`ppmhist -map {{path/to/image.ppm}}`
+`ppmhist {{[-m|-map]}} {{path/to/image.ppm}}`
 
 - Display version:
 
-`ppmhist -version`
+`ppmhist {{[-v|-version]}}`

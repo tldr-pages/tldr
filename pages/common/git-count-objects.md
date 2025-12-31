@@ -9,12 +9,12 @@
 
 - Display a count of all objects and their total disk usage, displaying sizes in human-readable units:
 
-`git count-objects --human-readable`
+`git count-objects {{[-H|--human-readable]}}`
 
 - Display more verbose information:
 
-`git count-objects --verbose`
+`git count-objects {{[-v|--verbose]}}`
 
 - Display more verbose information, displaying sizes in human-readable units:
 
-`git count-objects --human-readable --verbose`
+`git count-objects {{[-H|--human-readable]}} {{[-v|--verbose]}}`

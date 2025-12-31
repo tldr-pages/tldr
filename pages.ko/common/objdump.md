@@ -5,20 +5,20 @@
 
 - 파일 헤더 정보를 표시:
 
-`objdump -f {{바이너리}}`
+`objdump {{[-f|--file-headers]}} {{경로/대상/바이너리}}`
 
 - 모든 헤더 정보를 표시:
 
-`objdump -x {{바이너리}}`
+`objdump {{[-x|--all-headers]}} {{경로/대상/바이너리}}`
 
 - 실행 가능한 섹션의 디스어셈블리 출력 표시:
 
-`objdump -d {{바이너리}}`
+`objdump {{[-d|--disassemble]}} {{경로/대상/바이너리}}`
 
 - 인텔 구문으로 실행 가능한 섹션의 디스어셈블리 출력 표시:
 
-`objdump -M intel -d {{바이너리}}`
+`objdump {{[-M|--disassembler-options]}} intel {{[-d|--disassemble]}} {{경로/대상/바이너리}}`
 
 - 모든 섹션의 전체 바이너리 헥스 덤프 표시:
 
-`objdump -s {{바이너리}}`
+`objdump {{[-s|--full-contents]}} {{경로/대상/바이너리}}`

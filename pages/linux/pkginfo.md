@@ -5,15 +5,15 @@
 
 - List installed packages and their versions:
 
-`pkginfo -i`
+`pkginfo {{[-i|--installed]}}`
 
 - List files owned by a package:
 
-`pkginfo -l {{package}}`
+`pkginfo {{[-l|--list]}} {{package}}`
 
 - List the owner(s) of files matching a pattern:
 
-`pkginfo -o {{pattern}}`
+`pkginfo {{[-o|--owner]}} {{pattern}}`
 
 - Print the footprint of a file:
 

@@ -10,8 +10,8 @@
 
 - Stwórz hasło w którym pierwsze litery każdego słowa układają się w podany argument:
 
-`xkcdpass -a {{acrostic}}`
+`xkcdpass {{[-a|--acrostic]}} {{acrostic}}`
 
 - Interaktywnie stwórz hasło:
 
-`xkcdpass -i`
+`xkcdpass {{[-i|--interactive]}}`

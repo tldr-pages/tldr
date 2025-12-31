@@ -7,14 +7,14 @@
 
 `crane index filter`
 
-- Specificeer het platform(en) dat je wilt behouden uit de basis in de vorm os/arch{{/variant}}{{:osversion}}{{,<platform>}}:
+- Specificeer het platform(en) dat je wilt behouden uit de basis in de vorm `os/arch/variant:osversion,platform`:
 
 `crane index filter --platform {{platform1 platform2 ...}}`
 
 - Tag die toegepast moet worden op de resulterende image:
 
-`crane index filter {{-t|--tags}} {{tag_naam}}`
+`crane index filter {{[-t|--tags]}} {{tag_naam}}`
 
-- Toon help:
+- Toon de help:
 
-`crane index filter {{-h|--help}}`
+`crane index filter {{[-h|--help]}}`

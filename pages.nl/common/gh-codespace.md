@@ -5,32 +5,32 @@
 
 - Maak interactief een codespace aan in GitHub:
 
-`gh codespace create`
+`gh {{[cs|codespace]}} create`
 
 - Toon alle beschikbare codespaces:
 
-`gh codespace list`
+`gh {{[cs|codespace]}} {{[ls|list]}}`
 
 - Verbind interactief met een codespace via SSH:
 
-`gh codespace ssh`
+`gh {{[cs|codespace]}} ssh`
 
 - Kopieer interactief een specifiek bestand naar de codespace:
 
-`gh codespace cp {{pad/naar/bron_file}} remote:{{pad/naar/remote_bestand}}`
+`gh {{[cs|codespace]}} cp {{pad/naar/bron_file}} remote:{{pad/naar/remote_bestand}}`
 
 - Toon interactief de poorten van een codespace:
 
-`gh codespace ports`
+`gh {{[cs|codespace]}} ports`
 
 - Toon interactief de logs van een codespace:
 
-`gh codespace logs`
+`gh {{[cs|codespace]}} logs`
 
 - Verwijder interactief een codespace:
 
-`gh codespace delete`
+`gh {{[cs|codespace]}} delete`
 
 - Toon de help voor een subcommando:
 
-`gh codespace {{code|cp|create|delete|edit|...}} --help`
+`gh {{[cs|codespace]}} {{code|cp|create|delete|edit|...}} {{[-h|--help]}}`

@@ -2,7 +2,7 @@
 
 > Rust 프로젝트 및 모듈 종속성(크레이트)을 관리.
 > `build`와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
-> 더 많은 정보: <https://doc.rust-lang.org/cargo>.
+> 더 많은 정보: <https://doc.rust-lang.org/stable/cargo/>.
 
 - 크레이트 검색:
 
@@ -26,12 +26,12 @@
 
 - 현재 디렉터리의 Rust 프로젝트를 릴리스 프로파일로 빌드:
 
-`cargo build --release`
+`cargo {{[b|build]}} {{[-r|--release]}}`
 
 - 야간 컴파일러를 사용하여 현재 디렉터리의 Rust 프로젝트 빌드 (`rustup` 필요):
 
-`cargo +nightly build`
+`cargo +nightly {{[b|build]}}`
 
 - 특정 스레드 수를 사용하여 빌드 (기본값은 논리적 CPU 수):
 
-`cargo build --jobs {{스레드_수}}`
+`cargo {{[b|build]}} {{[-j|--jobs]}} {{스레드_수}}`

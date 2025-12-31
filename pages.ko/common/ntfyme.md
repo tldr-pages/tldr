@@ -6,7 +6,7 @@
 
 - 명령어를 직접 실행:
 
-`ntfyme exec {{-c|--cmd}} {{명령어}}`
+`ntfyme exec {{[-c|--cmd]}} {{명령어}}`
 
 - 명령어를 파이프로 전달하여 실행:
 
@@ -18,7 +18,7 @@
 
 - 장기 중단 후 프로세스를 추적하고 종료:
 
-`ntfyme exec {{-t|--track-process}} {{-c|--cmd}} {{명령어}}`
+`ntfyme exec {{[-t|--track-process]}} {{[-c|--cmd]}} {{명령어}}`
 
 - 도구 구성을 대화식으로 설정:
 

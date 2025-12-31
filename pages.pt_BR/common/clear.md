@@ -3,7 +3,7 @@
 > Limpa a tela do terminal.
 > Mais informações: <https://manned.org/clear>.
 
-- Limpa a tela (equivalente a apertar Control-L no terminal Bash):
+- Limpa a tela (equivalente a apertar `<Ctrl l>` no terminal Bash):
 
 `clear`
 
@@ -11,7 +11,7 @@
 
 `clear -x`
 
-- Especifica o tipo de terminal a ser limpado (por padrão é o valor da variável de ambiente `TERM`):
+- Especifica o tipo de terminal a ser limpado (por padrão é o valor da variável de ambiente `$TERM`):
 
 `clear -T {{tipo_do_terminal}}`
 

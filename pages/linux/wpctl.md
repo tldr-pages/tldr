@@ -1,7 +1,8 @@
 # wpctl
 
 > Manage WirePlumber, a session and policy manager for PipeWire.
-> Note: you can use the special name `@DEFAULT_SINK@` in place of `id` to operate on the default sink.
+> Note: You can use the special name `@DEFAULT_SINK@` in place of `id` to operate on the default sink.
+> See also: `pw-cli`.
 > More information: <https://pipewire.pages.freedesktop.org/wireplumber/>.
 
 - List all objects managed by WirePlumber:
@@ -27,6 +28,10 @@
 - Increase/Decrease the volume of a sink by `n` percent:
 
 `wpctl set-volume {{id}} {{n}}%{{+|-}}`
+
+- Increase the volume of a sink by `n` percent but limit the volume below 100%:
+
+`wpctl set-volume {{[-l|--limit]}} 1 {{id}} {{n}}%-`
 
 - Mute/Unmute a sink (1 is mute, 0 is unmute):
 

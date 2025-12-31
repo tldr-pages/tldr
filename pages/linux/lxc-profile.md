@@ -1,7 +1,7 @@
 # lxc profile
 
 > Manage profiles for LXD containers.
-> More information: <https://linuxcontainers.org/lxd/docs/master/profiles>.
+> More information: <https://documentation.ubuntu.com/lxd/latest/reference/manpages/lxc/profile/>.
 
 - List all available profiles:
 
@@ -17,11 +17,11 @@
 
 - Edit a specific profile importing the configuration values from a file:
 
-`lxc profile edit {{profile_name}} < {{config.yaml}}`
+`lxc < {{config.yaml}} profile edit {{profile_name}}`
 
 - Launch a new container with specific profiles:
 
-`lxc launch {{container_image}} {{container_name}} --profile {{profile1}} --profile {{profile2}}`
+`lxc launch {{container_image}} {{container_name}} {{[-p|--profile]}} {{profile1}} {{[-p|--profile]}} {{profile2}}`
 
 - Change the profiles of a running container:
 

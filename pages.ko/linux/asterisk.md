@@ -1,7 +1,7 @@
 # asterisk
 
 > 전화 및 교환기(전화) 서버 인스턴스를 실행하고 관리합니다.
-> 더 많은 정보: <https://docs.asterisk.org>.
+> 더 많은 정보: <https://docs.asterisk.org/Operation/>.
 
 - 실행 중인 서버에 [r]재연결하고, 3단계의 [v]자세히 로깅을 활성화:
 

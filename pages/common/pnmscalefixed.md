@@ -6,12 +6,12 @@
 
 - Scale an image such that the result has the specified dimensions:
 
-`pnmscalefixed -width {{width}} -height {{height}} {{path/to/input.pnm}} > {{path/to/output.pnm}}`
+`pnmscalefixed {{[-w|-width]}} {{width}} {{[-h|-height]}} {{height}} {{path/to/input.pnm}} > {{path/to/output.pnm}}`
 
 - Scale an image such that the result has the specified width, keeping the aspect ratio:
 
-`pnmscalefixed -width {{width}} {{path/to/input.pnm}} > {{path/to/output.pnm}}`
+`pnmscalefixed {{[-w|-width]}} {{width}} {{path/to/input.pnm}} > {{path/to/output.pnm}}`
 
 - Scale an image such that its width and height is changed by the specified factors:
 
-`pnmscalefixed -xscale {{x_factor}} -yscale {{y_factor}} {{path/to/input.pnm}} > {{path/to/output.pnm}}`
+`pnmscalefixed {{[-xsc|-xscale]}} {{x_factor}} {{[-ysc|-yscale]}} {{y_factor}} {{path/to/input.pnm}} > {{path/to/output.pnm}}`

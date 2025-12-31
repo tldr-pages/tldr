@@ -2,7 +2,7 @@
 
 > OCaml 패키지 관리자.
 > OCaml 컴파일러, 도구 및 라이브러리를 관리합니다.
-> 더 많은 정보: <https://opam.ocaml.org/>.
+> 더 많은 정보: <https://opam.ocaml.org/doc/Usage.html>.
 
 - 첫 사용을 위한 opam 초기화:
 

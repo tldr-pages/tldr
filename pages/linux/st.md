@@ -1,24 +1,11 @@
 # st
 
-> A simple terminal emulator for the X Window System.
-> More information: <https://st.suckless.org>.
+> `st` can refer to multiple commands.
 
-- Open a terminal:
+- View documentation for the terminal emulator:
 
-`st`
+`tldr st.1`
 
-- Open a terminal with a specific title:
+- View documentation for the statistics tool:
 
-`st -T {{title}}`
-
-- Open a terminal, execute a given command, and write the output to a file:
-
-`st -o {{path/to/file}} -e {{command argument1 argument2}}`
-
-- Increase/decrease the font size:
-
-`<Ctrl> + <Shift> + {{Page Up|Page Down}}`
-
-- Copy/paste from the clipboard:
-
-`<Ctrl> + <Shift> + {{C|V}}`
+`tldr st.2`

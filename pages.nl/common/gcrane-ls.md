@@ -14,8 +14,8 @@
 
 - Of door repositories te recursief te doorlopen:
 
-`gcrane ls {{repository}} {{-r|--recursive}}`
+`gcrane ls {{repository}} {{[-r|--recursive]}}`
 
-- Toon help:
+- Toon de help:
 
-`gcrane ls {{-h|--help}}`
+`gcrane ls {{[-h|--help]}}`

@@ -1,7 +1,7 @@
 # read
 
 > `stdin`으로부터 데이터를 수신하는 셸 내장 함수.
-> 더 많은 정보: <https://manned.org/read.1p>.
+> 더 많은 정보: <https://www.gnu.org/software/bash/manual/bash.html#index-read>.
 
 - 키보드로 입력한 데이터를 저장:
 
@@ -19,7 +19,7 @@
 
 `read {{_ 변수1 _ 변수2}} <<< "{{The surname is Bond}}"`
 
-- 백슬래시(\\)를 이스케이프 문자로 사용하지 않음:
+- 백슬래시(`\`)를 이스케이프 문자로 사용하지 않음:
 
 `read -r {{변수}}`
 

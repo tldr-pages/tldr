@@ -3,7 +3,7 @@
 > Alter the scheduling priority/niceness of running processes.
 > Niceness values range from -20 (most favorable to the process) to 19 (least favorable to the process).
 > See also: `nice`.
-> More information: <https://manned.org/renice>.
+> More information: <https://manned.org/renice.1p>.
 
 - Increase/decrease the priority of a running [p]rocess:
 

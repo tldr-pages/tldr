@@ -1,12 +1,12 @@
 # qm help
 
 > Display help for a command.
-> More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
+> More information: <https://pve.proxmox.com/pve-docs/qm.1.html#cli_qm_help>.
 
 - Display help for a specific command:
 
-`qm help {{command}}`
+`qm {{[h|help]}} {{command}}`
 
 - Display help for a specific command with detailed information:
 
-`qm help {{command}} --verbose {{true|false}}`
+`qm {{[h|help]}} {{command}} --verbose {{true|false}}`

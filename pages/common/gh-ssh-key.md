@@ -3,13 +3,9 @@
 > Manage GitHub SSH keys.
 > More information: <https://cli.github.com/manual/gh_ssh-key>.
 
-- Display help:
-
-`gh ssh-key`
-
 - List SSH keys for the currently authenticated user:
 
-`gh ssh-key list`
+`gh ssh-key {{[ls|list]}}`
 
 - Add an SSH key to the currently authenticated user's account:
 
@@ -17,4 +13,8 @@
 
 - Add an SSH key to the currently authenticated user's account with a specific title:
 
-`gh ssh-key add --title {{title}} {{path/to/key.pub}}`
+`gh ssh-key add {{[-t|--title]}} {{title}} {{path/to/key.pub}}`
+
+- Display help:
+
+`gh ssh-key`

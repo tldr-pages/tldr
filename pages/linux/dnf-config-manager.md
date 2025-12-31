@@ -1,7 +1,9 @@
 # dnf config-manager
 
 > Manage DNF configuration options and repositories on Fedora-based systems.
-> More information: <https://manned.org/dnf-config-manager>.
+> Not default to `dnf` but supported via `dnf-plugins-core`.
+> See also: `dnf`.
+> More information: <https://dnf-plugins-core.readthedocs.io/en/latest/config_manager.html>.
 
 - Add (and enable) a repository from a URL:
 
@@ -13,11 +15,11 @@
 
 - Enable a specific repository:
 
-`dnf config-manager --set-enabled {{repository_id}}`
+`dnf config-manager {{[--enable|--set-enabled]}} {{repository_id}}`
 
 - Disable specified repositories:
 
-`dnf config-manager --set-disabled {{repository_id1 repository_id2 ...}}`
+`dnf config-manager {{[--disable|--set-disabled]}} {{repository_id1 repository_id2 ...}}`
 
 - Set a configuration option for a repository:
 

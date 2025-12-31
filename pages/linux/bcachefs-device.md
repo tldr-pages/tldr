@@ -5,7 +5,7 @@
 
 - Format and add a new device to an existing filesystem.:
 
-`sudo bcachefs device add --label={{group}}.{{name}} {{path/to/mountpoint}} {{path/to/device}}`
+`sudo bcachefs device add --label {{group}}.{{name}} {{path/to/mountpoint}} {{path/to/device}}`
 
 - Migrate data off a device to prepare for removal:
 

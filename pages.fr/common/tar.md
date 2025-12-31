@@ -2,7 +2,7 @@
 
 > Utilitaire d'archivage.
 > Souvent combiné avec une méthode de compression, telle que gzip ou bzip2.
-> Plus d'informations : <https://www.gnu.org/software/tar>.
+> Plus d'informations : <https://www.gnu.org/software/tar/manual/tar.html>.
 
 - Crée une archive à partir de fichiers :
 
@@ -14,7 +14,7 @@
 
 - Crée une archive gzip à partir d'un répertoire en utilisant son chemin relatif :
 
-`tar czf {{chemin/vers/cible.tar.gz}} --directory={{chemin/vers/répertoire}} .`
+`tar czf {{chemin/vers/cible.tar.gz}} {{[-C|--directory]}} {{chemin/vers/répertoire}} .`
 
 - Extrait une archive (compressée) dans le dossier courant en affichant la liste des fichiers traités :
 
@@ -22,7 +22,7 @@
 
 - Extrait une archive (compressée) dans un répertoire cible :
 
-`tar xf {{chemin/vers/source.tar[.gz|.bz2|.xz]}} --directory={{répertoire}}`
+`tar xf {{chemin/vers/source.tar[.gz|.bz2|.xz]}} {{[-C|--directory]}} {{répertoire}}`
 
 - Crée une archive compressée, en utilisant le suffixe de l'archive pour déterminer le programme de compression :
 

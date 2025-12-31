@@ -1,7 +1,7 @@
 # ngrok
 
 > Reverse proxy that creates a secure tunnel from a public endpoint to a locally running web service.
-> More information: <https://ngrok.com>.
+> More information: <https://ngrok.com/docs/agent/cli>.
 
 - Expose a local HTTP service on a given port:
 
@@ -9,7 +9,7 @@
 
 - Expose a local HTTP service on a specific host:
 
-`ngrok http {{foo.dev}}:{{80}}`
+`ngrok http {{example.com}}:{{80}}`
 
 - Expose a local HTTPS server:
 
@@ -21,4 +21,4 @@
 
 - Expose TLS traffic for a specific host and port:
 
-`ngrok tls -hostname={{foo.com}} {{443}}`
+`ngrok tls -hostname={{example.com}} {{443}}`

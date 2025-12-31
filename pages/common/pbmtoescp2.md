@@ -10,12 +10,12 @@
 
 - Specify the compression of the output:
 
-`pbmtoescp2 -compression {{0|1}} {{path/to/image.pbm}} > {{path/to/output.escp2}}`
+`pbmtoescp2 {{[-c|-compression]}} {{0|1}} {{path/to/image.pbm}} > {{path/to/output.escp2}}`
 
 - Specify the horizontal and vertical resolution of the output in dots per inch:
 
-`pbmtoescp2 -resolution {{180|360|720}} {{path/to/image.pbm}} > {{path/to/output.escp2}}`
+`pbmtoescp2 {{[-re|-resolution]}} {{180|360|720}} {{path/to/image.pbm}} > {{path/to/output.escp2}}`
 
 - Place a formfeed command at the end of the output:
 
-`pbmtoescp2 -formfeed {{path/to/image.pbm}} > {{path/to/output.escp2}}`
+`pbmtoescp2 {{[-f|-formfeed]}} {{path/to/image.pbm}} > {{path/to/output.escp2}}`

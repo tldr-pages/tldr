@@ -1,7 +1,7 @@
 # cowsay
 
 > Print ASCII art (by default a cow) saying or thinking something.
-> More information: <https://github.com/tnalpgge/rank-amateur-cowsay>.
+> More information: <https://manned.org/cowsay>.
 
 - Print an ASCII cow saying "hello, world":
 

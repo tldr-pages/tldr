@@ -2,7 +2,7 @@
 
 > A static analysis tool for C/C++ code.
 > Instead of syntax errors, it focuses on the types of bugs that compilers normally do not detect.
-> More information: <https://cppcheck.sourceforge.net>.
+> More information: <https://manned.org/cppcheck>.
 
 - Recursively check the current directory, showing progress on the screen and logging error messages to a file:
 
@@ -10,7 +10,7 @@
 
 - Recursively check a given directory, and don't print progress messages:
 
-`cppcheck --quiet {{path/to/directory}}`
+`cppcheck {{[-q|--quiet]}} {{path/to/directory}}`
 
 - Check a given file, specifying which tests to perform (by default only errors are shown):
 

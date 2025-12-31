@@ -1,7 +1,7 @@
 # yaa
 
 > Maak en beheer YAA-archieven.
-> Meer informatie: <https://keith.github.io/xcode-man-pages/yaa.1.html>.
+> Meer informatie: <https://www.manpagez.com/man/1/yaa/>.
 
 - Maak een archief van een map:
 

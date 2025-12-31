@@ -1,7 +1,7 @@
 # psgrep
 
 > Search running processes with `grep`.
-> More information: <https://jvz.github.io/psgrep>.
+> More information: <https://jvz.github.io/psgrep/>.
 
 - Find process lines containing a specific string:
 

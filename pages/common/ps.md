@@ -17,15 +17,15 @@
 
 - List all processes of the current user in extra full format:
 
-`ps --user $(id -u) -F`
+`ps {{[-u|--user]}} $(id {{[-u|--user]}}) -F`
 
 - List all processes of the current user as a tree:
 
-`ps --user $(id -u) f`
+`ps {{[-u|--user]}} $(id {{[-u|--user]}}) f`
 
 - Get the parent PID of a process:
 
-`ps -o ppid= -p {{pid}}`
+`ps {{[-o|--format]}} ppid= {{[-p|--pid]}} {{pid}}`
 
 - Sort processes by memory consumption:
 

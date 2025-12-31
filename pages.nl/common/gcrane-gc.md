@@ -11,8 +11,8 @@
 
 - Recursief door de repositories heen:
 
-`gcrane gc {{repository}} {{-r|--recursive}}`
+`gcrane gc {{repository}} {{[-r|--recursive]}}`
 
-- Toon help:
+- Toon de help:
 
-`gcrane gc {{-h|--help}}`
+`gcrane gc {{[-h|--help]}}`

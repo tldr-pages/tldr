@@ -1,7 +1,7 @@
 # gwhois
 
-> Este comando es un alias de `-p linux whois`.
+> Este comando es un alias de `whois`.
 
-- Muestra la documentación del comando original:
+- Vea la documentación para el comando original:
 
-`tldr -p linux whois`
+`tldr whois`

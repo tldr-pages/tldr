@@ -1,7 +1,7 @@
 # tldr
 
 > Display simple help pages for command-line tools from the tldr-pages project.
-> Note: the `--language` and `--list` options are not required by the client specification, but most clients implement them.
+> Note: The `--language` and `--list` options are not required by the client specification, but most clients implement them.
 > More information: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.
 
 - Print the tldr page for a specific command (hint: this is how you got here!):
@@ -12,22 +12,26 @@
 
 `tldr {{command}} {{subcommand}}`
 
-- Print the tldr page for a command in the given [L]anguage (if available, otherwise fall back to English):
+- Print the tldr page for a command in the given language (if available, otherwise fall back to English):
 
-`tldr --language {{language_code}} {{command}}`
+`tldr {{[-L|--language]}} {{language_code}} {{command}}`
 
-- Print the tldr page for a command from a specific [p]latform:
+- Print the tldr page for a command from a specific platform:
 
-`tldr --platform {{android|common|freebsd|linux|osx|netbsd|openbsd|sunos|windows}} {{command}}`
+`tldr {{[-p|--platform]}} {{android|cisco-ios|common|dos|freebsd|linux|netbsd|openbsd|osx|sunos|windows}} {{command}}`
 
-- [u]pdate the local cache of tldr pages:
+- Update the local cache of tldr pages:
 
-`tldr --update`
+`tldr {{[-u|--update]}}`
 
-- [l]ist all pages for the current platform and `common`:
+- List all pages for the current platform and `common`:
 
-`tldr --list`
+`tldr {{[-l|--list]}}`
 
-- [l]ist all available subcommand pages for a command:
+- List all available subcommand pages for a command:
 
-`tldr --list | grep {{command}} | column`
+`tldr {{[-l|--list]}} | grep {{command}} | column`
+
+- Print the tldr page for a random command:
+
+`tldr {{[-l|--list]}} | shuf {{[-n|--head-count]}} 1 | xargs tldr`

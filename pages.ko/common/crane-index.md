@@ -14,4 +14,4 @@
 
 - 도움말 표시:
 
-`crane index {{-h|--help}}`
+`crane index {{[-h|--help]}}`

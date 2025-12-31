@@ -2,7 +2,7 @@
 
 > Manage subsystems in `apx`.
 > Subsystems are containers that can be created based on pre-existing stacks.
-> More information: <https://github.com/Vanilla-OS/apx>.
+> More information: <https://docs.vanillaos.org/docs/en/apx-manpage#subsystems>.
 
 - Interactively create a new subsystem:
 
@@ -14,16 +14,16 @@
 
 - Reset a specific subsystem to its initial state:
 
-`apx subsystems reset --name {{string}}`
+`apx subsystems reset {{[-n|--name]}} {{string}}`
 
-- [f]orce reset a specific subsystem:
+- Force reset a specific subsystem:
 
-`apx subsystems reset --name {{string}} --force`
+`apx subsystems reset {{[-n|--name]}} {{string}} {{[-f|--force]}}`
 
 - Remove a specific subsystem:
 
-`apx subsystems rm --name {{string}}`
+`apx subsystems rm {{[-n|--name]}} {{string}}`
 
-- [f]orce remove a specific subsystem:
+- Force remove a specific subsystem:
 
-`apx subsystems rm --name {{string}} --force`
+`apx subsystems rm {{[-n|--name]}} {{string}} {{[-f|--force]}}`

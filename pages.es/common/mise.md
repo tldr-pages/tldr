@@ -1,7 +1,7 @@
 # mise
 
 > Gestiona versiones de diferentes paquetes.
-> Más información: <https://mise.jdx.dev>.
+> Más información: <https://mise.jdx.dev/cli/>.
 
 - Lista todos los complementos disponibles:
 
@@ -30,3 +30,7 @@
 - Establece una variable de entorno en la configuración:
 
 `mise set {{variable}}={{valor}}`
+
+- Pasa opciones del complemento:
+
+`mise use {{nombre}}\[{{opción1}}={{opción1_valor}},{{opción2}}={{opción2_valor}}\]@{{versión}}`

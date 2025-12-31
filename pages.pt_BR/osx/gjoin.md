@@ -1,7 +1,7 @@
 # gjoin
 
-> Este comando é um apelido de `-p linux join`.
+> Este comando é um apelido de `join`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux join`
+`tldr join`

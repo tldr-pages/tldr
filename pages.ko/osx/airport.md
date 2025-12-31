@@ -1,7 +1,7 @@
 # airport
 
 > 무선 네트워크 구성 도구.
-> 더 많은 정보: <https://keith.github.io/xcode-man-pages/airport.1.html>.
+> 더 많은 정보: <https://ss64.com/mac/airport.html>.
 
 - 현재 무선 상태 정보 표시:
 

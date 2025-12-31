@@ -17,15 +17,15 @@
 
 - Tampilkan daftar seluruh proses dari pengguna saat ini dengan format tambahan ekstra:
 
-`ps --user $(id -u) -F`
+`ps {{[-u|--user]}} $(id {{[-u|--user]}}) -F`
 
 - Tampilkan daftar seluruh proses dari pengguna saat ini dalam format pohon:
 
-`ps --user $(id -u) f`
+`ps {{[-u|--user]}} $(id {{[-u|--user]}}) f`
 
 - Mengambil induk PID dari sebuah proses:
 
-`ps -o ppid= -p {{pid}}`
+`ps {{[-o|--format]}} ppid= {{[-p|--pid]}} {{pid}}`
 
 - Sortir proses berdasarkan konsumsi memori:
 

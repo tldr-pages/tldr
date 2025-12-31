@@ -1,7 +1,7 @@
 # gdircolors
 
-> Bu komut `-p linux dircolors` için bir takma addır.
+> Bu komut `dircolors` için bir takma addır.
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux dircolors`
+`tldr dircolors`

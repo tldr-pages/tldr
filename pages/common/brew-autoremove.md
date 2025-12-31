@@ -9,4 +9,4 @@
 
 - Print what would be removed, but don't actually remove anything:
 
-`brew autoremove --dry-run`
+`brew autoremove {{[-n|--dry-run]}}`

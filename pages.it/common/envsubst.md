@@ -2,7 +2,7 @@
 
 > Sostituisci variabili di ambiente con il loro valore in stringhe di formato della shell.
 > Le variabili da sostituire devono essere nella forma `${var}` oppure `$var`.
-> Maggiori informazioni: <https://www.gnu.org/software/gettext/manual/html_node/envsubst-Invocation.html>.
+> Maggiori informazioni: <https://www.gnu.org/software/gettext/manual/gettext.html#envsubst-Invocation>.
 
 - Sostituisci variabili di ambiente in `stdin` e stampa l'output su `stdout`:
 
@@ -18,4 +18,4 @@
 
 - Sostituisci in un file input le variabili di ambiente specificate in una lista separata da spazi:
 
-`envsubst '{{$USER $HOME $SHELL}}' < {{percorso/del/file_input}}`
+`envsubst < {{percorso/del/file_input}} '{{$USER $HOME $SHELL}}'`

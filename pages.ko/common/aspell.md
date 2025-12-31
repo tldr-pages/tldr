@@ -1,7 +1,7 @@
 # aspell
 
 > 대화형 맞춤법 검사기.
-> 더 많은 정보: <http://aspell.net/>.
+> 더 많은 정보: <http://aspell.net/man-html/index.html>.
 
 - 단일 파일의 철자 검사:
 

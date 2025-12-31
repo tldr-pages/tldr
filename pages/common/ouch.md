@@ -1,6 +1,6 @@
 # ouch
 
-> Command-line utility for compressing and decompressing files and directories.
+> Utility for compressing and decompressing files and directories.
 > More information: <https://crates.io/crates/ouch>.
 
 - Decompress a specific file:

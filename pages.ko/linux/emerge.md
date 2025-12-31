@@ -10,7 +10,7 @@
 
 - 모든 패키지 및 의존성 업데이트:
 
-`emerge -uDNav @world`
+`emerge {{[-avuDN|--ask --verbose --update --deep --newuse]}} @world`
 
 - 업데이트 실패 시, 실패한 패키지를 건너뛰고 다시 시작:
 
@@ -18,7 +18,7 @@
 
 - 새 패키지 설치 시, 확인 요청:
 
-`emerge -av {{패키지}}`
+`emerge {{[-av|--ask --verbose]}} {{패키지}}`
 
 - 패키지 제거 시, 확인 요청:
 
@@ -26,8 +26,8 @@
 
 - 고아 패키지 제거 (의존성으로만 설치된 패키지):
 
-`emerge -avc`
+`emerge {{[-avc|--ask --verbose --depclean]}}`
 
 - 패키지 데이터베이스에서 키워드 검색:
 
-`emerge -S {{키워드}}`
+`emerge {{[-S|--searchdesc]}} {{키워드}}`

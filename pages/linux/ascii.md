@@ -1,7 +1,7 @@
 # ascii
 
 > Show ASCII character aliases.
-> More information: <http://www.catb.org/~esr/ascii/>.
+> More information: <http://www.catb.org/~esr/ascii/ascii.html>.
 
 - Show ASCII aliases of a character:
 

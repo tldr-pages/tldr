@@ -14,7 +14,7 @@
 
 - Run the main function of a specified namespace:
 
-`clj -M -m {{namespace}} {{args}}`
+`clj -M {{[-m|--main]}} {{namespace}} {{args}}`
 
 - Prepare a project by resolving dependencies, downloading libraries, and making/caching classpaths:
 
@@ -22,8 +22,8 @@
 
 - Start an nREPL server with the CIDER middleware:
 
-`clj -Sdeps '{:deps {nrepl {:mvn/version "0.7.0"} cider/cider-nrepl {:mvn/version "0.25.2"}}}' -m nrepl.cmdline --middleware '["cider.nrepl/cider-middleware"]' --interactive`
+`clj -Sdeps '{:deps {nrepl {:mvn/version "0.7.0"} cider/cider-nrepl {:mvn/version "0.25.2"}}}' {{[-m|--main]}} nrepl.cmdline --middleware '["cider.nrepl/cider-middleware"]' --interactive`
 
 - Start a REPL for ClojureScript and open a web browser:
 
-`clj -Sdeps '{:deps {org.clojure/clojurescript {:mvn/version "1.10.758"}}}' --main cljs.main --repl`
+`clj -Sdeps '{:deps {org.clojure/clojurescript {:mvn/version "1.10.758"}}}' {{[-m|--main]}} cljs.main {{[-r|--repl]}}`

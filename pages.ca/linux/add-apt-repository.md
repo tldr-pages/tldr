@@ -1,7 +1,7 @@
 # add-apt-repository
 
 > Gestiona les definicions dels repositoris APT.
-> Més informació: <https://manned.org/apt-add-repository>.
+> Més informació: <https://manned.org/add-apt-repository>.
 
 - Afegeix un nou repositori APT:
 
@@ -9,7 +9,7 @@
 
 - Elimina un repositori APT:
 
-`add-apt-repository --remove {{especificacions_del_repositori}}`
+`add-apt-repository {{[-r|--remove]}} {{especificacions_del_repositori}}`
 
 - Actualitza la memòria cau després d'afegir un repositori:
 
@@ -17,4 +17,4 @@
 
 - Permet descarregar paquets font des del repositori:
 
-`add-apt-repository --enable-source {{especificacions_del_repositori}}`
+`add-apt-repository {{[-s|--enable-source]}} {{especificacions_del_repositori}}`

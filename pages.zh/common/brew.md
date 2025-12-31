@@ -1,10 +1,10 @@
 # brew
 
 > Homebrew - 一个 macOS 和 Linux 的包管理器。
-> 此命令也有关于其子命令的文件，例如：`install`.
-> 更多信息：<https://docs.brew.sh/Manpage>.
+> 此命令也有关于其子命令的文件，例如：`install`。
+> 更多信息：<https://docs.brew.sh/Manpage>。
 
-- 安装最新稳定版本的软件包或安装包（使用 `--devel` 安装开发版本）：
+- 安装最新稳定版本的软件包或安装包：
 
 `brew install {{软件包}}`
 

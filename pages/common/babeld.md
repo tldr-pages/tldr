@@ -13,7 +13,7 @@
 
 - Specify a [C]onfiguration command:
 
-`babeld -C {{'redistribute metric 256'}}`
+`babeld -C '{{redistribute metric 256}}'`
 
 - Specify on which interfaces to operate:
 

@@ -1,7 +1,7 @@
 # ged
 
-> Este comando é um apelido de `-p linux ed`.
+> Este comando é um apelido de `ed`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux ed`
+`tldr ed`

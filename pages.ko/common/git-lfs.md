@@ -1,7 +1,7 @@
 # git lfs
 
 > Git 저장소에서 대용량 파일을 다루기 위한 도구.
-> 더 많은 정보: <https://git-lfs.com>.
+> 더 많은 정보: <https://github.com/git-lfs/git-lfs/tree/main/docs>.
 
 - Git LFS 초기화:
 
@@ -13,7 +13,7 @@
 
 - Git LFS 엔드포인트 URL 변경 (LFS 서버가 Git 서버와 분리된 경우 유용):
 
-`git config {{-f|--file}} .lfsconfig lfs.url {{lfs_endpoint_url}}`
+`git config {{[-f|--file]}} .lfsconfig lfs.url {{lfs_endpoint_url}}`
 
 - 추적된 패턴 나열:
 

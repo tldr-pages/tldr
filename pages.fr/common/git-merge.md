@@ -9,7 +9,7 @@
 
 - Editer le message de fusion (`merge commit`) :
 
-`git merge --edit {{nom_de_branche}}`
+`git merge {{[-e|--edit]}} {{nom_de_branche}}`
 
 - Fusionner une branche et créer un commit de fusion (`merge commit`) :
 

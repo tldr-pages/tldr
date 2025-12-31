@@ -14,12 +14,12 @@
 
 - 로컬 저장소에 있는 패키지 [l]목록:
 
-`aur repo --list`
+`aur repo {{[-l|--list]}}`
 
-- 로컬 저장소 패키지 [u]업그레이드:
+- 로컬 저장소 패키지 업그레이드:
 
-`aur sync --upgrades`
+`aur sync {{[-u|--upgrades]}}`
 
 - Vim에서 변경 사항을 보지 않고 패키지를 설치하며, 의존성 설치를 확인하지 않음:
 
-`aur sync --noview --noconfirm {{패키지}}`
+`aur sync --noview {{[-n|--noconfirm]}} {{패키지}}`

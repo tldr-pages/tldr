@@ -1,7 +1,7 @@
 # goaccess
 
 > An open source real-time web log analyzer.
-> More information: <https://goaccess.io>.
+> More information: <https://goaccess.io/man>.
 
 - Analyze one or more log files in interactive mode:
 
@@ -13,8 +13,8 @@
 
 - Analyze a log from `stdin`:
 
-`tail -f {{path/to/logfile}} | goaccess -`
+`tail {{[-f|--follow]}} {{path/to/logfile}} | goaccess -`
 
 - Analyze a log and write it to an HTML file in real-time:
 
-`goaccess {{path/to/logfile}} --output {{path/to/file.html}} --real-time-html`
+`goaccess {{path/to/logfile}} {{[-o|--output]}} {{path/to/file.html}} --real-time-html`

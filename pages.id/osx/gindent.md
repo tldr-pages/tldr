@@ -1,7 +1,7 @@
 # gindent
 
-> Perintah ini merupakan alias dari `-p linux indent`.
+> Perintah ini merupakan alias dari `indent`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux indent`
+`tldr {{[-p|--platform]}} common indent`

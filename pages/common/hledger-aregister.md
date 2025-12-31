@@ -5,16 +5,16 @@
 
 - Show transactions and running balance in the `assets:bank:checking` account:
 
-`hledger aregister assets:bank:checking`
+`hledger {{[areg|aregister]}} assets:bank:checking`
 
 - Show transactions and running balance in the first account named `*savings*`:
 
-`hledger aregister savings`
+`hledger {{[areg|aregister]}} savings`
 
 - Show the checking account's cleared transactions, with a specified width:
 
-`hledger aregister checking --cleared --width {{120}}`
+`hledger {{[areg|aregister]}} checking {{[-C|--cleared]}} {{[-w|--width]}} {{120}}`
 
 - Show the checking register, including transactions from forecast rules:
 
-`hledger aregister checking --forecast`
+`hledger {{[areg|aregister]}} checking --forecast`

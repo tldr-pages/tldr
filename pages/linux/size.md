@@ -9,12 +9,12 @@
 
 - Display the size of sections in a given object or executable file in [o]ctal:
 
-`size {{-o|--radix=8}} {{path/to/file}}`
+`size {{[-o|--radix=8]}} {{path/to/file}}`
 
 - Display the size of sections in a given object or executable file in [d]ecimal:
 
-`size {{-d|--radix=10}} {{path/to/file}}`
+`size {{[-d|--radix=10]}} {{path/to/file}}`
 
 - Display the size of sections in a given object or executable file in he[x]adecimal:
 
-`size {{-x|--radix=16}} {{path/to/file}}`
+`size {{[-x|--radix=16]}} {{path/to/file}}`

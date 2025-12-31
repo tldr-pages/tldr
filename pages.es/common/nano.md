@@ -2,7 +2,7 @@
 
 > Editor sencillo y fácil de usar. Un clon libre y mejorado de `Pico`.
 > Vea también: `emacs`, `helix`, `vim`.
-> Más información: <https://nano-editor.org>.
+> Más información: <https://nano-editor.org/dist/latest/nano.html>.
 
 - Inicia el editor:
 
@@ -10,7 +10,7 @@
 
 - Inicia el editor sin usar archivos de configuración:
 
-`nano --ignorercfiles`
+`nano {{[-I|--ignorercfiles]}}`
 
 - Abre archivos específicos, moviéndose al siguiente archivo cuando se cierra el anterior:
 
@@ -22,12 +22,12 @@
 
 - Abre un archivo específico y activa el ajuste de línea suave (wrapping):
 
-`nano --softwrap {{ruta/al/archivo}}`
+`nano {{[-S|--softwrap]}} {{ruta/al/archivo}}`
 
 - Abre un archivo específico y sangra nuevas líneas al nivel de las líneas anteriores:
 
-`nano --autoindent {{ruta/al/archivo}}`
+`nano {{[-i|--autoindent]}} {{ruta/al/archivo}}`
 
 - Abre nano y crea un archivo de respaldo (`ruta/al/archivo~`) cuando se guardan las ediciones:
 
-`nano --backup {{ruta/al/archivo}}`
+`nano {{[-B|--backup]}} {{ruta/al/archivo}}`

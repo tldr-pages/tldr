@@ -1,7 +1,7 @@
 # gfortran
 
 > Preprocess and compile Fortran source files, then assemble and link them together.
-> More information: <https://gcc.gnu.org/wiki/GFortran>.
+> More information: <https://gcc.gnu.org/onlinedocs/gfortran/Invoking-GNU-Fortran.html>.
 
 - Compile multiple source files into an executable:
 

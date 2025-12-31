@@ -1,7 +1,7 @@
 # infection
 
 > PHP용 코드 변경 테스팅 프레임워크.
-> 더 많은 정보: <https://infection.github.io>.
+> 더 많은 정보: <https://infection.github.io/guide/command-line-options.html>.
 
 - 구성 파일을 사용하여 코드를 분석 (또는 존재하지 않는 경우 새롭게 생성):
 

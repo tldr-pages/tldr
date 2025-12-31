@@ -1,7 +1,7 @@
 # gtar
 
-> To polecenie jest aliasem `-p linux tar`.
+> To polecenie jest aliasem GNU `tar`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux tar`
+`tldr tar`

@@ -1,7 +1,7 @@
 # gifconfig
 
-> Cette commande est un alias de `-p linux ifconfig`.
+> Cette commande est un alias de `ifconfig`.
 
 - Voir la documentation de la commande originale :
 
-`tldr -p linux ifconfig`
+`tldr ifconfig`

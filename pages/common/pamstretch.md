@@ -6,8 +6,8 @@
 
 - Scale up a PAM image by an integer factor:
 
-`pamstretch {{N}} {{path/to/image.pam}} > {{path/to/output.pam}}`
+`pamstretch {{n}} {{path/to/image.pam}} > {{path/to/output.pam}}`
 
 - Scale up a PAM image by the specified factors in the horizontal and vertical directions:
 
-`pamstretch -xscale {{XN}} -yscale {{YN}} {{path/to/image.pam}} > {{path/to/output.pam}}`
+`pamstretch {{[-x|-xscale]}} {{xn}} {{[-y|-yscale]}} {{yn}} {{path/to/image.pam}} > {{path/to/output.pam}}`

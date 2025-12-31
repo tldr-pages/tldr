@@ -1,7 +1,8 @@
 # links
 
-> Command-line web browser.
-> More information: <http://links.twibright.com/>.
+> Command-line text-only web browser.
+> See also: `links2`.
+> More information: <https://links.twibright.com/user_en.html#subch-browser_calibration>.
 
 - Visit a website:
 
@@ -17,12 +18,12 @@
 
 - Navigate forwards and backwards through the links on a page:
 
-`{{Up arrow key|Down arrow key}}`
+`{{<ArrowUp>|<ArrowDown>}}`
 
 - Go forwards and backwards one page:
 
-`{{Left arrow key|Right arrow key}}`
+`{{<ArrowLeft>|<ArrowRight>}}`
 
 - Exit:
 
-`q + y`
+`<q><y>`

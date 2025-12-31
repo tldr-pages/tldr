@@ -9,7 +9,7 @@
 
 - Print specific parts of the content (`H`: request headers, `B`: request body, `h`: response headers, `b`: response body, `m`: response metadata):
 
-`http --print {{H|B|h|b|m|Hh|Hhb|...}} {{https://example.com}}`
+`http {{[-p|--print]}} {{H|B|h|b|m|Hh|Hhb|...}} {{https://example.com}}`
 
 - Specify the HTTP method when sending a request and use a proxy to intercept the request:
 
@@ -17,11 +17,11 @@
 
 - Follow any `3xx` redirects and specify additional headers in a request:
 
-`http {{-F|--follow}} {{https://example.com}} {{'User-Agent: Mozilla/5.0' 'Accept-Encoding: gzip'}}`
+`http {{[-F|--follow]}} {{https://example.com}} {{'User-Agent: Mozilla/5.0' 'Accept-Encoding: gzip'}}`
 
 - Authenticate to a server using different authentication methods:
 
-`http --auth {{username:password|token}} --auth-type {{basic|digest|bearer}} {{GET|POST|...}} {{https://example.com/auth}}`
+`http {{[-a|--auth]}} {{username:password|token}} {{[-A|--auth-type]}} {{basic|digest|bearer}} {{GET|POST|...}} {{https://example.com/auth}}`
 
 - Construct a request but do not send it (similar to a dry-run):
 
@@ -29,8 +29,8 @@
 
 - Use named sessions for persistent custom headers, auth credentials and cookies:
 
-`http --session {{session_name|path/to/session.json}} {{--auth username:password https://example.com/auth API-KEY:xxx}}`
+`http --session {{session_name|path/to/session.json}} {{[-a|--auth]}} {{username}}:{{password}} {{https://example.com/auth}} {{API-KEY:xxx}}`
 
 - Upload a file to a form (the example below assumes that the form field is `<input type="file" name="cv" />`):
 
-`http --form {{POST}} {{https://example.com/upload}} {{cv@path/to/file}}`
+`http {{[-f|--form]}} {{POST}} {{https://example.com/upload}} {{cv@path/to/file}}`

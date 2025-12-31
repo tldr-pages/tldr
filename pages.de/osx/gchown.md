@@ -1,7 +1,7 @@
 # gchown
 
-> Dieser Befehl ist ein Alias von `-p linux chown`.
+> Dieser Befehl ist ein Alias von `chown`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 
-`tldr -p linux chown`
+`tldr chown`

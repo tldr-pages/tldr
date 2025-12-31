@@ -1,7 +1,7 @@
 # split
 
 > 파일을 여러 조각으로 분할.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/split>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/split-invocation.html>.
 
 - 파일을 10줄씩 분할 (마지막 조각 제외):
 

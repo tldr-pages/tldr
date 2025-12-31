@@ -2,7 +2,7 @@
 
 > Baixe, instale e gerencie várias versões do Xcode.
 > Veja também: `xcodes runtimes`.
-> Mais informações: <https://github.com/xcodesorg/xcodes>.
+> Mais informações: <https://github.com/xcodesorg/xcodes#commands>.
 
 - Lista todas as versões do Xcode instaladas:
 

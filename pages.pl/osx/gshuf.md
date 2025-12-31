@@ -1,7 +1,7 @@
 # gshuf
 
-> To polecenie jest aliasem `-p linux shuf`.
+> To polecenie jest aliasem GNU `shuf`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux shuf`
+`tldr {{[-p|--platform]}} coomon shuf`

@@ -1,7 +1,7 @@
 # nsnake
 
 > Snake game in the terminal.
-> More information: <https://github.com/alexdantas/nsnake/>.
+> More information: <https://github.com/alexdantas/nsnake/#controls>.
 
 - Start a snake game:
 
@@ -9,16 +9,16 @@
 
 - Navigate the snake:
 
-`{{Up|Down|Left|Right arrow key}}`
+`{{<ArrowUp>|<ArrowDown>|<ArrowLeft>|<ArrowRight>}}`
 
 - Pause/unpause the game:
 
-`p`
+`<p>`
 
 - Quit the game:
 
-`q`
+`<q>`
 
 - Display help during the game:
 
-`h`
+`<h>`

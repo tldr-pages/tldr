@@ -2,7 +2,7 @@
 
 > ذخیره سازی تاریخچه شل شما در یک دیتابیس قابل جستجو.
 > به صورت اختیاری می توانید تاریخچه رمزنگاری شده را بین دستگاه هایتان هماهنگ کنید.
-> اطلاعات بیشتر: <https://atuin.sh/docs/commands>.
+> اطلاعات بیشتر: <https://docs.atuin.sh/>.
 
 - نصب آتویین برروی شل شما:
 
@@ -18,11 +18,11 @@
 
 - ثبت نام یک حساب بر روی سرور پیشفرض با استفاده از نام کاربری و ایمیل و رمزعبور دلخواه:
 
-`atuin register -u {{username}} -e {{email}} -p {{password}}`
+`atuin register {{[-u|--username]}} {{username}} {{[-e|--email]}} {{email}} {{[-p|--password]}} {{password}}`
 
 - ورود به سرور پیشفرض:
 
-`atuin login -u {{username}} -p {{password}}`
+`atuin login {{[-u|--username]}} {{username}} {{[-p|--password]}} {{password}}`
 
 - هماهنگ کردن تاریخچه با سرور:
 

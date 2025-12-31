@@ -9,11 +9,11 @@
 
 - Bungkus luaran Base64 dalam panjang karakter yang tetap (nilai `0` akan menonaktifkan pembungkusan):
 
-`base64 {{-w|--wrap}} {{0|76|...}} {{jalan/menuju/berkas}}`
+`base64 {{[-w|--wrap]}} {{0|76|...}} {{jalan/menuju/berkas}}`
 
 - Dekodekan kode Base64 yang tersimpan dalam suatu berkas:
 
-`base64 {{-d|--decode}} {{jalan/menuju/berkas}}`
+`base64 {{[-d|--decode]}} {{jalan/menuju/berkas}}`
 
 - Kodekan isi dari `stdin`:
 
@@ -21,4 +21,4 @@
 
 - Dekodekan kode Base64 yang berasal dari `stdout`:
 
-`{{perintah}} | base64 {{-d|--decode}}`
+`{{perintah}} | base64 {{[-d|--decode]}}`

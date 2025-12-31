@@ -5,16 +5,16 @@
 
 - Run a command in a container:
 
-`systemd-nspawn --directory {{path/to/container_root}}`
+`systemd-nspawn {{[-D|--directory]}} {{path/to/container_root}}`
 
 - Run a full Linux-based OS in a container:
 
-`systemd-nspawn --boot --directory {{path/to/container_root}}`
+`systemd-nspawn {{[-b|--boot]}} {{[-D|--directory]}} {{path/to/container_root}}`
 
 - Run the specified command as PID 2 in the container (as opposed to PID 1) using a stub init process:
 
-`systemd-nspawn --directory {{path/to/container_root}} --as-pid2`
+`systemd-nspawn {{[-D|--directory]}} {{path/to/container_root}} {{[-a|--as-pid2]}}`
 
 - Specify the machine name and hostname:
 
-`systemd-nspawn --machine={{container_name}} --hostname={{container_host}} --directory {{path/to/container_root}}`
+`systemd-nspawn {{[-M|--machine]}} {{container_name}} --hostname {{container_host}} {{[-D|--directory]}} {{path/to/container_root}}`

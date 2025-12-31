@@ -1,11 +1,11 @@
 # autorandr
 
 > Automatically change screen layout.
-> More information: <https://github.com/phillipberndt/autorandr>.
+> More information: <https://manned.org/autorandr>.
 
 - Save the current screen layout:
 
-`autorandr --save {{profile_name}}`
+`autorandr {{[-s|--save]}} {{profile_name}}`
 
 - Show the saved profiles:
 
@@ -13,12 +13,12 @@
 
 - Load the first detected profile:
 
-`autorandr --change`
+`autorandr {{[-c|--change]}}`
 
 - Load a specific profile:
 
-`autorandr --load {{profile_name}}`
+`autorandr {{[-l|--load]}} {{profile_name}}`
 
 - Set the default profile:
 
-`autorandr --default {{profile_name}}`
+`autorandr {{[-d|--default]}} {{profile_name}}`

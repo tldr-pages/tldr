@@ -1,7 +1,7 @@
 # react-native start
 
 > React Native 서버를 시작하는 명령줄 도구.
-> 더 많은 정보: <https://github.com/react-native-community/cli/blob/master/docs/commands.md#start>.
+> 더 많은 정보: <https://github.com/facebook/react-native/tree/main/packages/community-cli-plugin#start>.
 
 - 연결된 기기와 통신하는 서버 시작:
 

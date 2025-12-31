@@ -21,4 +21,4 @@
 
 - Clona un repository remoto scaricando solo i 10 commit più recenti del ramo principale (utile per risparmiare tempo):
 
-`git clone --depth {{10}} {{url_repository_remoto}}`
+`git clone --depth 10 {{url_repository_remoto}}`

@@ -9,8 +9,8 @@
 
 - Create a PGM image containing the RLE file's alpha channel:
 
-`rletopnm -alphaout {{path/to/alpha_file.pgm}} {{path/to/input.rle}} > {{path/to/output.pnm}}`
+`rletopnm {{[--a|--alphaout]}} {{path/to/alpha_file.pgm}} {{path/to/input.rle}} > {{path/to/output.pnm}}`
 
 - Operate in verbose mode and print the contents of the RLE header to `stdout`:
 
-`rletopnm -verbose {{path/to/input.rle}} > {{path/to/output.pnm}}`
+`rletopnm {{[--verb|--verbose]}} {{path/to/input.rle}} > {{path/to/output.pnm}}`

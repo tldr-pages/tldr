@@ -1,7 +1,7 @@
 # g[
 
-> Perintah ini merupakan alias dari `-p linux [`.
+> Perintah ini merupakan alias dari `[`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux [`
+`tldr [`

@@ -1,7 +1,7 @@
 # plesk
 
 > Plesk hosting control panel.
-> More information: <https://docs.plesk.com>.
+> More information: <https://docs.plesk.com/en-US/obsidian/cli-linux/plesk-utility.75661/>.
 
 - Generate an auto login link for the admin user and print it:
 

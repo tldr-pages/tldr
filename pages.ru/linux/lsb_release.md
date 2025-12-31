@@ -5,16 +5,16 @@
 
 - Отобразить всю имеющуюся информацию:
 
-`lsb_release -a`
+`lsb_release {{[-a|--all]}}`
 
 - Отобразить описание (обычно полное наименование) операционной системы:
 
-`lsb_release -d`
+`lsb_release {{[-d|--description]}}`
 
 - Отобразить наименование ОС, без указания поля "Distributor ID":
 
-`lsb_release -i -s`
+`lsb_release {{[-is|--id --short]}}`
 
 - Отобразить номер релиза (release number) и кодовое наименование дистрибутива без указания полей с названием:
 
-`lsb_release -rcs`
+`lsb_release {{[-rcs|--release --codename --short]}}`

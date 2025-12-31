@@ -1,6 +1,6 @@
 # nixos-container
 
-> Starts NixOS containers using Linux containers.
+> Start NixOS containers using Linux containers.
 > More information: <https://nixos.org/manual/nixos/stable/#ch-containers>.
 
 - List running containers:
@@ -9,7 +9,7 @@
 
 - Create a NixOS container with a specific configuration file:
 
-`sudo nixos-container create {{container_name}} --config-file {{nix_config_file_path}}`
+`sudo nixos-container create {{container_name}} --config-file {{path/to/nix_config_file}}`
 
 - Start, stop, terminate, or destroy a specific container:
 

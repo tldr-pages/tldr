@@ -1,6 +1,6 @@
 # kill
 
-> Sends a signal to a process, usually related to stopping the process.
+> Send a signal to a process, usually related to stopping the process.
 > All signals except for SIGKILL and SIGSTOP can be intercepted by the process to perform a clean exit.
 > More information: <https://manned.org/kill>.
 
@@ -8,9 +8,9 @@
 
 `kill {{process_id}}`
 
-- List signal values and their corresponding names (to be used without the `SIG` prefix):
+- List signal values and their corresponding names (to be used without the `SIG` prefix). The available options may depend on the `kill` implementation:
 
-`kill -L`
+`kill {{-l|-L|--table}}`
 
 - Terminate a background job:
 
@@ -20,7 +20,7 @@
 
 `kill -{{1|HUP}} {{process_id}}`
 
-- Terminate a program using the SIGINT (interrupt) signal. This is typically initiated by the user pressing `Ctrl + C`:
+- Terminate a program using the SIGINT (interrupt) signal. This is typically initiated by the user pressing `<Ctrl c>`:
 
 `kill -{{2|INT}} {{process_id}}`
 

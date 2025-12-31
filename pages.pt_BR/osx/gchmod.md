@@ -1,7 +1,7 @@
 # gchmod
 
-> Este comando é um apelido de `-p linux chmod`.
+> Este comando é um apelido de `chmod`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux chmod`
+`tldr chmod`

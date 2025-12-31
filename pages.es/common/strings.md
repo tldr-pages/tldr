@@ -9,12 +9,12 @@
 
 - Limita resultados a cadenas por lo menos n caracteres de largo:
 
-`strings -n {{n}} {{ruta/al/archivo}}`
+`strings {{[-n|--bytes]}} {{n}} {{ruta/al/archivo}}`
 
 - Precede cada resultado con su distancia hasta el inicio (offset) del archivo:
 
-`strings -t d {{ruta/al/archivo}}`
+`strings {{[-t|--radix]}} d {{ruta/al/archivo}}`
 
 - Precede cada resultado con su desplazamiento (offset) dentro del archivo en hexadecimal:
 
-`strings -t x {{ruta/al/archivo}}`
+`strings {{[-t|--radix]}} x {{ruta/al/archivo}}`

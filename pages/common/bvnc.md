@@ -1,7 +1,7 @@
 # bvnc
 
 > A GUI tool for browsing for SSH/VNC servers on the local network.
-> See also: `bssh` and `bshell`.
+> See also: `bssh`, `bshell`.
 > More information: <https://manned.org/bvnc>.
 
 - Browse for VNC servers:

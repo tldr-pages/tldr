@@ -1,7 +1,7 @@
 # brew bundle
 
 > Homebrew, Homebrew Cask 및 Mac App Store용 번들러.
-> 더 많은 정보: <https://github.com/Homebrew/homebrew-bundle>.
+> 더 많은 정보: <https://docs.brew.sh/Manpage#bundle-subcommand>.
 
 - 현재 경로의 Brewfile에서 패키지를 설치:
 

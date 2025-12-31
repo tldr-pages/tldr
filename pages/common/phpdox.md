@@ -1,7 +1,7 @@
 # phpdox
 
 > A PHP documentation generator.
-> More information: <https://phpdox.net>.
+> More information: <https://manned.org/phpdox>.
 
 - Display an annotated skeleton configuration XML file:
 
@@ -13,12 +13,12 @@
 
 - Generate documentation using a specific configuration file:
 
-`phpdox --file {{path/to/phpdox.xml}}`
+`phpdox {{[-f|--file]}} {{path/to/phpdox.xml}}`
 
 - Only run the metadata collection process:
 
-`phpdox --collector`
+`phpdox {{[-c|--collector]}}`
 
 - Only run the documentation generator process:
 
-`phpdox --generator`
+`phpdox {{[-g|--generator]}}`

@@ -2,7 +2,7 @@
 
 > XBPS утилита по (пере)установке и обновлению пакетов.
 > Смотрите также: `xbps`.
-> Больше информации: <https://manned.org/xbps-install.1>.
+> Больше информации: <https://manned.org/xbps-install>.
 
 - Установить новый пакет:
 
@@ -10,4 +10,4 @@
 
 - Синхронизировать и обновить все пакеты:
 
-`xbps-install --sync --update`
+`xbps-install {{[-S|--sync]}} {{[-u|--update]}}`

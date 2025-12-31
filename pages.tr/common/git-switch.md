@@ -10,11 +10,11 @@
 
 - Yeni bir dal yarat ve ona geç:
 
-`git switch --create {{dal_ismi}}`
+`git switch {{[-c|--create]}} {{dal_ismi}}`
 
 - Varolan commit üzerine yeni bir dal yarat ve ona geç:
 
-`git switch --create {{dal_ismi}} {{commit}}`
+`git switch {{[-c|--create]}} {{dal_ismi}} {{commit}}`
 
 - Önceki dala geç:
 
@@ -26,4 +26,4 @@
 
 - Bir dala geç ve mevcut dal ile commit'lenmeyen değişiklikleri bu dal ile birleştir:
 
-`git switch --merge {{dal_ismi}}`
+`git switch {{[-m|--merge]}} {{dal_ismi}}`

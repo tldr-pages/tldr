@@ -1,7 +1,7 @@
 # tlmgr repository
 
 > Manage repositories of a TeX Live installation.
-> More information: <https://www.tug.org/texlive/tlmgr.html>.
+> More information: <https://www.tug.org/texlive/doc/tlmgr.html#repository>.
 
 - List all configured repositories and their tags (if set):
 

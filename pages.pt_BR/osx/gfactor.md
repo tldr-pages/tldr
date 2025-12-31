@@ -1,7 +1,7 @@
 # gfactor
 
-> Este comando é um apelido de `-p linux factor`.
+> Este comando é um apelido de `factor`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux factor`
+`tldr factor`

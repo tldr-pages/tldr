@@ -1,7 +1,7 @@
 # pkg-config
 
 > 애플리케이션 컴파일을 위한 설치된 라이브러리의 세부 정보를 제공.
-> 더 많은 정보: <https://www.freedesktop.org/wiki/Software/pkg-config/>.
+> 더 많은 정보: <https://manned.org/pkg-config>.
 
 - 라이브러리 및 그 의존성 목록 확인:
 

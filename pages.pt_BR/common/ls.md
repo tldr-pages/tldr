@@ -9,28 +9,28 @@
 
 - Lista todos os arquivos, incluindo arquivos ocultos:
 
-`ls -a`
+`ls {{[-a|--all]}}`
 
 - Lista todos os arquivos, com o final `/` adicionado aos nomes dos diretórios:
 
-`ls -F`
+`ls {{[-F|--classify]}}`
 
 - Lista todos os arquivos em formato longo (permissões, dono, tamanho e data de modificação):
 
-`ls -la`
+`ls {{[-la|--all -l]}}`
 
 - Lista em formato longo com tamanho exibido usando unidades legíveis para humanos (KiB, MiB, GiB):
 
-`ls -lh`
+`ls {{[-lh|-l --human-readable]}}`
 
 - Lista em formato longo ordenados por tamanhos (decrescente):
 
-`ls -lSR`
+`ls {{-lSR|-lS --recursive}}`
 
 - Lista todos os arquivos em formato longo, ordenados por data de modificação (mais antigo primeiro):
 
-`ls -ltr`
+`ls {{[-ltr|-lt --reverse]}}`
 
 - Lista apenas diretórios:
 
-`ls -d */`
+`ls {{[-d|--directory]}} */`

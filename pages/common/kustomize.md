@@ -1,7 +1,7 @@
 # kustomize
 
 > Easily deploy resources for Kubernetes.
-> More information: <https://github.com/kubernetes-sigs/kustomize>.
+> More information: <https://github.com/kubernetes-sigs/kustomize/blob/master/site/content/en/docs/Reference/CLI/_index.md>.
 
 - Create a kustomization file with resources and namespace:
 
@@ -9,7 +9,7 @@
 
 - Build a kustomization file and deploy it with `kubectl`:
 
-`kustomize build . | kubectl apply -f -`
+`kustomize build . | kubectl apply {{[-f|--filename]}} -`
 
 - Set an image in the kustomization file:
 

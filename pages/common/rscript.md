@@ -1,7 +1,7 @@
 # Rscript
 
 > Run a script with the R programming language.
-> More information: <https://www.r-project.org>.
+> More information: <https://manned.org/Rscript>.
 
 - Run a script:
 
@@ -15,6 +15,6 @@
 
 `Rscript -e {{expression1}} -e {{expression2}}`
 
-- Display R version:
+- Display version:
 
 `Rscript --version`

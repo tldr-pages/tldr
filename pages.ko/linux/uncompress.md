@@ -1,7 +1,7 @@
 # uncompress
 
 > Unix `compress` 명령으로 압축된 파일을 해제합니다.
-> 더 많은 정보: <https://manned.org/uncompress.1>.
+> 더 많은 정보: <https://manned.org/uncompress>.
 
 - 특정 파일 압축 해제:
 

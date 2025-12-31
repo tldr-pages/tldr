@@ -10,7 +10,7 @@
 
 - Send a request with a header and a body:
 
-`grpcurl -H "{{Authorization: Bearer $token}}" -d {{'{"foo": "bar"}'}} {{grpc.server.com:443}} {{my.custom.server.Service/Method}}`
+`grpcurl -H "{{Authorization: Bearer $token}}" -d '{{{"foo": "bar"}}}' {{grpc.server.com:443}} {{my.custom.server.Service/Method}}`
 
 - List all services exposed by a server:
 

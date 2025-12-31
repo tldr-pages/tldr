@@ -13,19 +13,19 @@
 
 - Bangun sebuah Docker image dengan tag tertentu:
 
-`docker build --tag {{nama:tag}} .`
+`docker build {{[-t|--tag]}} {{nama:tag}} .`
 
 - Bangun sebuah Docker image tanpa konteks pembangunan:
 
-`docker build --tag {{nama:tag}} - < {{Dockerfile}}`
+`docker build {{[-t|--tag]}} {{nama:tag}} - < {{Dockerfile}}`
 
 - Bangun sebuah image tanpa menggunakan cache:
 
-`docker build --no-cache --tag {{nama:tag}} .`
+`docker build --no-cache {{[-t|--tag]}} {{nama:tag}} .`
 
 - Bangun sebuah Docker image dengan Dockerfile tertentu:
 
-`docker build --file {{Dockerfile}} .`
+`docker build {{[-f|--file]}} {{Dockerfile}} .`
 
 - Bangun sebuah Docker image dengan variabel lingkungan tertentu:
 

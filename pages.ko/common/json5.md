@@ -1,7 +1,7 @@
 # json5
 
 > JSON5 파일을 JSON으로 변환.
-> 더 많은 정보: <https://json5.org>.
+> 더 많은 정보: <https://json5.org/#cli>.
 
 - JSON5 `stdin`을 JSON `stdout`으로 변환:
 

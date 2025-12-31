@@ -1,7 +1,7 @@
 # codecrafters
 
 > Practica escribiendo software complejo.
-> Más información: <https://codecrafters.io/>.
+> Más información: <https://docs.codecrafters.io/cli/usage>.
 
 - Ejecuta pruebas sin confirmar cambios:
 
@@ -14,3 +14,7 @@
 - Confirma los cambios y los envía, para pasar a la siguiente fase:
 
 `codecrafters submit`
+
+- Actualiza la versión del lenguaje:
+
+`codecrafters update-buildpack`

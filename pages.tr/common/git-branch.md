@@ -5,7 +5,7 @@
 
 - Tüm dalları (yerel ve uzak bağlantıda olan) göster:
 
-`git branch --all`
+`git branch {{[-a|--all]}}`
 
 - Mevcut dalın ismini göster:
 
@@ -21,12 +21,12 @@
 
 - Bir dalı yeniden adlandır:
 
-`git branch {{-m|--move}} {{eski_dal_ismi}} {{yeni_dal_ismi}}`
+`git branch {{[-m|--move]}} {{eski_dal_ismi}} {{yeni_dal_ismi}}`
 
 - Yerel bir dalı sil:
 
-`git branch {{-d|--delete}} {{dal_ismi}}`
+`git branch {{[-d|--delete]}} {{dal_ismi}}`
 
 - Uzaktaki bir dalı sil:
 
-`git push {{uzak_bağlantı}} --delete {{uzak_dal_ismi}}`
+`git push {{uzak_bağlantı}} {{[-d|--delete]}} {{uzak_dal_ismi}}`

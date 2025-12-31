@@ -1,7 +1,7 @@
 # rustup man
 
 > View the man page for a command managed by `rustup`.
-> More information: <https://rust-lang.github.io/rustup>.
+> More information: <https://rust-lang.github.io/rustup/examples.html>.
 
 - View the man page for a given command from the default toolchain:
 
@@ -9,4 +9,4 @@
 
 - View the man page for a given command from the specified toolchain:
 
-`rustup man --toolchain {{command}}`
+`rustup man --toolchain {{toolchain}} {{command}}`

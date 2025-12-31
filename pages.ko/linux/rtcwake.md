@@ -23,6 +23,6 @@
 
 `sudo rtcwake -m disable`
 
-- 주어진 시간에 컴퓨터를 깨우는 드라이 런 수행. (중단하려면 Ctrl + C를 누르세요):
+- 주어진 시간에 컴퓨터를 깨우는 드라이 런 수행. (중단하려면 `<Ctrl c>`를 누르세요):
 
 `sudo rtcwake -m on --date {{hh:ss}}`

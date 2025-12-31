@@ -2,7 +2,7 @@
 
 > Yet Another Yogurt : Un outil pour Arch Linux pour construire et installer des paquets depuis le Arch User Repository.
 > À regarder : `pacman`.
-> Plus d'informations : <https://github.com/Jguer/yay>.
+> Plus d'informations : <https://github.com/Jguer/yay#first-use>.
 
 - Recherche interactivement et installe des paquets depuis les dépôts et l'AUR :
 

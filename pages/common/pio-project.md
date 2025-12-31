@@ -9,15 +9,15 @@
 
 - Initialize a new PlatformIO project in a specific directory:
 
-`pio project init --project-dir {{path/to/project_directory}}`
+`pio project init {{[-d|--project-dir]}} {{path/to/project_directory}}`
 
 - Initialize a new PlatformIO project, specifying a board ID:
 
-`pio project init --board {{ATmega328P|uno|...}}`
+`pio project init {{[-b|--board]}} {{ATmega328P|uno|...}}`
 
 - Initialize a new PlatformIO based project, specifying one or more project options:
 
-`pio project init --project-option="{{option}}={{value}}" --project-option="{{option}}={{value}}"`
+`pio project init {{[-O|--project-option]}} "{{option}}={{value}}" {{[-O|--project-option]}} "{{option}}={{value}}"`
 
 - Print the configuration of a project:
 

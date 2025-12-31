@@ -1,7 +1,7 @@
 # case
 
 > 複数の選択肢がある条件文を作成するための Bash 組み込み構文。
-> 詳しくはこちら: <https://www.gnu.org/software/bash/manual/bash.html#index-case>
+> もっと詳しく: <https://www.gnu.org/software/bash/manual/bash.html#index-case>。
 
 - 変数を文字列リテラルとマッチさせ、実行するコマンドを決める:
 

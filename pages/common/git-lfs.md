@@ -1,7 +1,7 @@
 # git lfs
 
 > Work with large files in Git repositories.
-> More information: <https://git-lfs.com>.
+> More information: <https://github.com/git-lfs/git-lfs/tree/main/docs>.
 
 - Initialize Git LFS:
 
@@ -13,7 +13,7 @@
 
 - Change the Git LFS endpoint URL (useful if the LFS server is separate from the Git server):
 
-`git config {{-f|--file}} .lfsconfig lfs.url {{lfs_endpoint_url}}`
+`git config {{[-f|--file]}} .lfsconfig lfs.url {{lfs_endpoint_url}}`
 
 - List tracked patterns:
 
@@ -31,6 +31,6 @@
 
 `git lfs fetch`
 
-- Checkout all Git LFS objects:
+- Replace pointer files with actual Git LFS objects:
 
 `git lfs checkout`

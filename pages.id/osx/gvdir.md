@@ -1,7 +1,7 @@
 # gvdir
 
-> Perintah ini merupakan alias dari `-p linux vdir`.
+> Perintah ini merupakan alias dari `vdir`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux vdir`
+`tldr vdir`

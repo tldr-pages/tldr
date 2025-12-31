@@ -1,7 +1,7 @@
 # flake8
 
 > Python 코드의 스타일과 품질을 확인.
-> 더 많은 정보: <https://flake8.pycqa.org/>.
+> 더 많은 정보: <https://flake8.pycqa.org/en/latest/user/options.html>.
 
 - 파일이나 디렉터리를 재귀적으로 린트:
 

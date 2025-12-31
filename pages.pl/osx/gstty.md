@@ -1,7 +1,7 @@
 # gstty
 
-> To polecenie jest aliasem `-p linux stty`.
+> To polecenie jest aliasem GNU `stty`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux stty`
+`tldr stty`

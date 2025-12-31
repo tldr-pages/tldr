@@ -7,6 +7,10 @@
 
 `enable`
 
-- Disable a builtin (works in `bash` only):
+- Disable a builtin (works in Bash only):
 
 `enable -n {{command}}`
+
+- Re-enable a builtin:
+
+`enable {{command}}`

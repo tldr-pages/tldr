@@ -1,7 +1,7 @@
 # dolt clone
 
 > 저장소를 새로운 디렉터리에 복제.
-> 더 많은 정보: <https://docs.dolthub.com/interfaces/cli#dolt-clone>.
+> 더 많은 정보: <https://docs.dolthub.com/cli-reference/cli#dolt-clone>.
 
 - 기존 저장소를 특정 디렉터리에 복제 (기본값은 저장소 이름):
 

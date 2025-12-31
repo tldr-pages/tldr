@@ -1,7 +1,7 @@
 # matlab
 
 > Numerical computation environment by MathWorks.
-> More information: <https://uk.mathworks.com/help/matlab/>.
+> More information: <https://www.mathworks.com/help/matlab/matlab_env/startup-options/>.
 
 - Run without splash screen during startup:
 

@@ -1,7 +1,7 @@
 # crane index
 
 > Wijzig een image-index.
-> De subcommando's `append` en `filter` hebben hun eigen gebruiksdocumentatie.
+> Sommige subcommando's zoals `append` en `filter` hebben hun eigen documentatie.
 > Meer informatie: <https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_index.md>.
 
 - Wijzig een image-index:
@@ -10,8 +10,8 @@
 
 - Wijzig een image-index met subcommando:
 
-`crane index {{subcommand}}`
+`crane index {{subcommando}}`
 
-- Toon help:
+- Toon de help:
 
-`crane index {{-h|--help}}`
+`crane index {{[-h|--help]}}`

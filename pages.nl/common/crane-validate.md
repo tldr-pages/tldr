@@ -19,6 +19,6 @@
 
 `crane validate --tarball {{pad/naar/tarball}}`
 
-- Toon help:
+- Toon de help:
 
-`crane validate {{-h|--help}}`
+`crane validate {{[-h|--help]}}`

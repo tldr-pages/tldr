@@ -10,4 +10,4 @@
 
 - 튜터 종료:
 
-`<Esc> :q <Enter>`
+`<Esc><:>q<Enter>`

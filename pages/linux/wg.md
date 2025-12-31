@@ -13,7 +13,7 @@
 
 - Generate a public key from a private key:
 
-`wg pubkey < {{path/to/private_key}} > {{path/to/public_key}}`
+`wg < {{path/to/private_key}} pubkey > {{path/to/public_key}}`
 
 - Generate a public and private key:
 

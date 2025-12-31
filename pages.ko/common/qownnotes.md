@@ -1,4 +1,4 @@
-# qownnotes
+# QOwnNotes
 
 > Markdown 노트 작성 애플리케이션.
 > 선택적으로 Nextcloud 및 ownCloud의 노트 작성 애플리케이션과 통합됩니다.

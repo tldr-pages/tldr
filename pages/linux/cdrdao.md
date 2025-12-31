@@ -1,7 +1,7 @@
 # cdrdao
 
 > Read and write CDs in disc-at-once mode.
-> More information: <https://manned.org/man/cdrdao>.
+> More information: <https://manned.org/cdrdao>.
 
 - Read a CD and write its contents to a file:
 

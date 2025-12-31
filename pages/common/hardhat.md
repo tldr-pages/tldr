@@ -1,7 +1,7 @@
 # hardhat
 
 > A development environment for Ethereum software.
-> More information: <https://hardhat.org>.
+> More information: <https://hardhat.org/hardhat-runner/docs/getting-started#quick-start>.
 
 - List available subcommands (or create a new project if no configuration exists):
 
@@ -21,7 +21,7 @@
 
 - Run all given test files:
 
-`hardhat test {{path/to/file1.js}} {{path/to/file2.js}}`
+`hardhat test {{path/to/file1.js path/to/file2.js ...}}`
 
 - Start a local Ethereum JSON-RPC node for development:
 

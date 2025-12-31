@@ -1,6 +1,6 @@
 # flyctl
 
-> Command-line tool for flyctl.io.
+> Tool for flyctl.io.
 > More information: <https://github.com/superfly/flyctl>.
 
 - Sign into a Fly account:
@@ -31,6 +31,6 @@
 
 `flyctl status --app {{app_name}}`
 
-- Display version information:
+- Display version:
 
 `flyctl version`

@@ -2,7 +2,7 @@
 
 > Pin a package at a version with Chocolatey.
 > Pinned packages are skipped automatically when upgrading.
-> More information: <https://chocolatey.org/docs/commands-pin>.
+> More information: <https://docs.chocolatey.org/en-us/choco/commands/pin/>.
 
 - Display a list of pinned packages and their versions:
 
@@ -10,12 +10,12 @@
 
 - Pin a package at its current version:
 
-`choco pin add --name {{package}}`
+`choco pin add {{[-n|--name]}} {{package}}`
 
 - Pin a package at a specific version:
 
-`choco pin add --name {{package}} --version {{version}}`
+`choco pin add {{[-n|--name]}} {{package}} --version {{version}}`
 
 - Remove a pin for a specific package:
 
-`choco pin remove --name {{package}}`
+`choco pin remove {{[-n|--name]}} {{package}}`

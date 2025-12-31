@@ -1,7 +1,7 @@
 # pip freeze
 
 > 설치된 패키지를 요구 사항 형식으로 나열.
-> 더 많은 정보: <https://pip.pypa.io/en/stable/cli/pip_freeze>.
+> 더 많은 정보: <https://pip.pypa.io/en/stable/cli/pip_freeze/>.
 
 - 설치된 패키지 나열:
 
@@ -13,7 +13,7 @@
 
 - 가상 환경에서 설치된 패키지를 나열하고, 전역적으로 설치된 패키지를 제외:
 
-`pip freeze --local > requirements.txt`
+`pip freeze {{[-l|--local]}} > requirements.txt`
 
 - 사용자 사이트에 설치된 패키지 나열:
 

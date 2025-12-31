@@ -1,7 +1,7 @@
 # a2disconf
 
 > Disable an Apache configuration file on Debian-based OSes.
-> More information: <https://manned.org/a2disconf.8>.
+> More information: <https://manned.org/a2disconf>.
 
 - Disable a configuration file:
 
@@ -9,4 +9,4 @@
 
 - Don't show informative messages:
 
-`sudo a2disconf --quiet {{configuration_file}}`
+`sudo a2disconf {{[-q|--quiet]}} {{configuration_file}}`

@@ -1,7 +1,7 @@
 # lxterminal
 
 > Terminal emulator for LXDE.
-> More information: <https://github.com/lxde/lxterminal>.
+> More information: <https://manned.org/lxterminal>.
 
 - Open an LXTerminal window:
 
@@ -9,7 +9,7 @@
 
 - Open an LXTerminal window, run a command, and then exit:
 
-`lxterminal -e "{{command}}"`
+`lxterminal {{[-e|--command]}} "{{command}}"`
 
 - Open an LXTerminal window with multiple tabs:
 

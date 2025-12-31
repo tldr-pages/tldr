@@ -1,7 +1,7 @@
 # fail2ban-client
 
 > fail2ban 서버를 구성하고 제어.
-> 더 많은 정보: <https://github.com/fail2ban/fail2ban>.
+> 더 많은 정보: <https://manned.org/fail2ban-client>.
 
 - 감옥 서비스의 현재 상태 검색:
 

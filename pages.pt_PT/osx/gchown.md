@@ -1,7 +1,7 @@
 # gchown
 
-> Este comando é um alias de `-p linux chown`.
+> Este comando é um alias de `chown`.
 
-- Exibe documentação do comando original:
+- Ver documentação do comando original:
 
-`tldr -p linux chown`
+`tldr chown`

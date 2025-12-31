@@ -1,7 +1,7 @@
 # genv
 
-> Perintah ini merupakan alias dari `-p linux env`.
+> Perintah ini merupakan alias dari `env`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux env`
+`tldr env`

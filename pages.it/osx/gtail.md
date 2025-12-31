@@ -1,7 +1,7 @@
 # gtail
 
-> Questo comando è un alias per `-p linux tail`.
+> Questo comando è un alias per `tail`.
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux tail`
+`tldr {{[-p|--platform]}} common tail`

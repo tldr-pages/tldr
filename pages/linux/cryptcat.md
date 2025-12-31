@@ -1,7 +1,7 @@
 # cryptcat
 
 > Cryptcat is netcat with encryption capabilities.
-> More information: <https://cryptcat.sourceforge.net>.
+> More information: <https://manned.org/cryptcat>.
 
 - [l]isten on a specified [p]ort and print any data received:
 

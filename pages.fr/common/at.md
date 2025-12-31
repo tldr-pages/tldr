@@ -8,7 +8,7 @@
 
 `systemctl start atd`
 
-- Planifie l'exécution de la commande donnée dans l'entrée standard dans 5 minutes (Appuyer sur `Ctrl + D` une fois la commande inscrite) :
+- Planifie l'exécution de la commande donnée dans l'entrée standard dans 5 minutes (Appuyer sur `<Ctrl d>` une fois la commande inscrite) :
 
 `at now + 5 minutes`
 

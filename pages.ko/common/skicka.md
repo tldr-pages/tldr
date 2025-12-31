@@ -1,7 +1,7 @@
 # skicka
 
 > Google Drive를 관리.
-> 더 많은 정보: <https://github.com/google/skicka>.
+> 더 많은 정보: <https://github.com/google/skicka#usage>.
 
 - 파일/폴더를 Google Drive에 업로드:
 

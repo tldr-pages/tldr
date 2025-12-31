@@ -2,7 +2,7 @@
 
 > Open Broadcaster Software.
 > Programa de grabación de vídeo y streaming en directo.
-> Más información: <https://obsproject.com/>.
+> Más información: <https://obsproject.com/kb/launch-parameters>.
 
 - Abre OBS:
 
@@ -10,7 +10,7 @@
 
 - Abre OBS en modo portátil:
 
-`obs --portable`
+`obs {{[-p|--portable]}}`
 
 - Empieza automáticamente a grabar un vídeo al momento de abrirse:
 

@@ -9,7 +9,7 @@
 
 - 특정 출력 내용을 인쇄 (`H`: 요청 헤더, `B`: 요청 본문, `h`: 응답 헤더, `b`: 응답 본문, `m`: 응답 메타데이터):
 
-`http --print {{H|B|h|b|m|Hh|Hhb|...}} {{https://example.com}}`
+`http {{[-p|--print]}} {{H|B|h|b|m|Hh|Hhb|...}} {{https://example.com}}`
 
 - 요청을 보낼 때 HTTP 메소드를 지정하고 프록시를 사용하여 요청을 가로채기:
 
@@ -17,11 +17,11 @@
 
 - `3xx` 리디렉션을 따르고 요청에 추가 헤더를 지정:
 
-`http {{-F|--follow}} {{https://example.com}} {{'User-Agent: Mozilla/5.0' 'Accept-Encoding: gzip'}}`
+`http {{[-F|--follow]}} {{https://example.com}} {{'User-Agent: Mozilla/5.0' 'Accept-Encoding: gzip'}}`
 
 - 다양한 인증 방법을 사용하여 서버에 인증:
 
-`http --auth {{username:password|token}} --auth-type {{basic|digest|bearer}} {{GET|POST|...}} {{https://example.com/auth}}`
+`http {{[-a|--auth]}} {{username:password|token}} {{[-A|--auth-type]}} {{basic|digest|bearer}} {{GET|POST|...}} {{https://example.com/auth}}`
 
 - 요청을 생성하지만, 보내지 않음 (모의 실행과 유사):
 
@@ -29,8 +29,8 @@
 
 - 지속적인 사용자 정의 헤더, 인증 자격 증명 및 쿠키에 대해 명명된 세션을 사용:
 
-`http --session {{세션_이름|경로/대상/세션.json}} {{--auth 사용자명:비밀번호 https://example.com/auth API-KEY:xxx}}`
+`http --session {{세션_이름|경로/대상/세션.json}} {{[-a|--auth]}} {{사용자명}}:{{비밀번호}} {{https://example.com/auth}} {{API-KEY:xxx}}`
 
 - 양식에 파일을 업로드 (아래 예에서는 양식 필드가 `<input type="file" name="cv" />`라고 가정):
 
-`http --form {{POST}} {{https://example.com/upload}} {{cv@경로/대상/파일}}`
+`http {{[-f|--form]}} {{POST}} {{https://example.com/upload}} {{cv@경로/대상/파일}}`

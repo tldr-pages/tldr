@@ -1,7 +1,7 @@
 # pyrit
 
 > 계산 능력을 활용한 WPA/WPA2 크래킹 도구.
-> 더 많은 정보: <https://github.com/JPaulMora/Pyrit>.
+> 더 많은 정보: <https://manned.org/pyrit>.
 
 - 시스템 크래킹 속도 표시:
 

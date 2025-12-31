@@ -2,7 +2,7 @@
 
 > Crea alias -- parole che sono sostituite da stringhe di comandi.
 > Gli alias vengono persi alla chiusura della shell corrente, a meno che non siano definiti nel file di configurazione della shell (ad esempio `~/.bashrc`).
-> Maggiori informazioni: <https://tldp.org/LDP/abs/html/aliases.html>.
+> Maggiori informazioni: <https://www.gnu.org/software/bash/manual/bash.html#index-alias>.
 
 - Crea un alias:
 

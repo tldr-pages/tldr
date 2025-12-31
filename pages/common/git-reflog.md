@@ -1,9 +1,9 @@
 # git reflog
 
-> Show a log of changes to local references like HEAD, branches or tags.
+> Show a log of changes to local references like HEAD, branches, or tags.
 > More information: <https://git-scm.com/docs/git-reflog>.
 
-- Show the reflog for HEAD:
+- Show the reflog for `HEAD`:
 
 `git reflog`
 
@@ -13,4 +13,4 @@
 
 - Show only the 5 latest entries in the reflog:
 
-`git reflog {{-n|--max-count}} 5`
+`git reflog {{[-n|--max-count]}} 5`

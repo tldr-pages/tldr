@@ -1,7 +1,7 @@
 # touch
 
 > 改變檔案的存取與修改時間。
-> 更多資訊：<https://manned.org/touch>.
+> 更多資訊：<https://www.gnu.org/software/coreutils/manual/html_node/touch-invocation.html>。
 
 - 建立新檔案，或更新現存檔案的存取與修改時間：
 
@@ -13,4 +13,4 @@
 
 - 以其中一個檔案的存取與修改時間為基準，設定另一個檔案的存取與修改時間：
 
-`touch -r {{來源檔案名稱}} {{目標檔案名稱}}`
+`touch {{[-r|--reference]}} {{來源檔案名稱}} {{目標檔案名稱}}`

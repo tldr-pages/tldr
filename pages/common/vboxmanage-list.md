@@ -1,4 +1,4 @@
-# vboxmanage-list
+# VBoxManage list
 
 > List information about the Oracle VM VirtualBox software and associated service.
 > More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-list>.

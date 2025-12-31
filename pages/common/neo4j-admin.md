@@ -2,7 +2,7 @@
 
 > Manage and administer a Neo4j DBMS (Database Management System).
 > See also: `cypher-shell`, `mysqld`.
-> More information: <https://neo4j.com/docs/operations-manual/current/tools/neo4j-admin/>.
+> More information: <https://neo4j.com/docs/operations-manual/current/neo4j-admin-neo4j-cli/>.
 
 - Start the DBMS:
 
@@ -26,7 +26,7 @@
 
 - Load a database from a specified archive file through `stdin`:
 
-`neo4j-admin database load --from-stdin {{database_name}} --overwrite-destination=true < {{path/to/filename.dump}}`
+`neo4j-admin < {{path/to/file.dump}} database load --from-stdin {{database_name}} --overwrite-destination=true`
 
 - Display help:
 

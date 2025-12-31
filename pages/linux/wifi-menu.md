@@ -9,8 +9,8 @@
 
 - Interactively set up a connection to a network and obscure the password:
 
-`wifi-menu --obscure`
+`wifi-menu {{[-o|--obscure]}}`
 
 - Display help:
 
-`wifi-menu --help`
+`wifi-menu {{[-h|--help]}}`

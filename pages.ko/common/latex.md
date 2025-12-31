@@ -1,7 +1,7 @@
 # latex
 
 > LaTeX 소스 파일에서 DVI 문서를 컴파일합니다.
-> 더 많은 정보: <https://www.latex-project.org>.
+> 더 많은 정보: <https://texdoc.org/serve/tex.man1.pdf/0>.
 
 - DVI 문서 컴파일:
 

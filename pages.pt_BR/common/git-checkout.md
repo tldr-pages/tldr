@@ -21,7 +21,7 @@
 
 - Muda para uma branch remota existente:
 
-`git checkout --track {{nome_remoto}}/{{nome_da_branch}}`
+`git checkout {{[-t|--track]}} {{nome_remoto}}/{{nome_da_branch}}`
 
 - Descarta todas as alterações não preparadas no diretório atual (consulte `git reset` para mais comandos do tipo desfazer):
 

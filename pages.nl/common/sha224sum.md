@@ -17,16 +17,16 @@
 
 - Lees een bestand met SHA224 checksums en bestandsnamen en verifieer dat alle bestanden overeenkomende checksums hebben:
 
-`sha224sum --check {{pad/naar/bestand.sha224}}`
+`sha224sum {{[-c|--check]}} {{pad/naar/bestand.sha224}}`
 
 - Toon alleen een bericht voor ontbrekende bestanden of wanneer verificatie mislukt:
 
-`sha224sum --check --quiet {{pad/naar/bestand.sha224}}`
+`sha224sum {{[-c|--check]}} --quiet {{pad/naar/bestand.sha224}}`
 
 - Toon alleen een bericht wanneer verificatie mislukt, negeer ontbrekende bestanden:
 
-`sha224sum --ignore-missing --check --quiet {{pad/naar/bestand.sha224}}`
+`sha224sum --ignore-missing {{[-c|--check]}} --quiet {{pad/naar/bestand.sha224}}`
 
 - Controleer een bekende SHA224 checksum van een bestand:
 
-`echo {{bekende_sha224_checksum_van_het_bestand}} {{pad/naar/bestand}} | sha224sum --check`
+`echo {{bekende_sha224_checksum_van_het_bestand}} {{pad/naar/bestand}} | sha224sum {{[-c|--check]}}`

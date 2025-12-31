@@ -15,6 +15,6 @@
 
 `crane push {{pad/naar/tarball}} {{image_naam}} --index`
 
-- Toon help:
+- Toon de help:
 
-`crane push {{-h|--help}}`
+`crane push {{[-h|--help]}}`

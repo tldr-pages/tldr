@@ -1,6 +1,6 @@
 # gpgconf
 
-> Modify .gnupg home directories.
+> Modify `.gnupg` home directories.
 > More information: <https://www.gnupg.org/documentation/manuals/gnupg/gpgconf.html>.
 
 - List all components:
@@ -9,7 +9,7 @@
 
 - List the directories used by gpgconf:
 
-`gpgconf --list-dirs`
+`gpgconf {{[-L|--list-dirs]}}`
 
 - List all options of a component:
 

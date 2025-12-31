@@ -2,7 +2,7 @@
 
 > 快速跳转，访问次数最多的文件夹优先。
 > 使用 `j`、`jc`、和 `jo` 作为别名。
-> 更多信息：<https://github.com/wting/autojump>.
+> 更多信息：<https://github.com/wting/autojump#name>。
 
 - 跳转到包含指定通配符的目录：
 
@@ -22,4 +22,4 @@
 
 - 展示 autojump 数据库数据：
 
-`j -s`
+`j {{[-s|--stat]}}`

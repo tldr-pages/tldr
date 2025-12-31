@@ -5,7 +5,7 @@
 
 - List releases in a GitHub repository, limited to 30 items:
 
-`gh release list`
+`gh release {{[ls|list]}}`
 
 - Display information about a specific release:
 
@@ -13,7 +13,7 @@
 
 - Create a new release:
 
-`gh release create {{tag}}`
+`gh release {{[new|create]}} {{tag}}`
 
 - Delete a specific release:
 

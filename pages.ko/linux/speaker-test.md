@@ -10,12 +10,12 @@
 
 - 사인파로 기본 스피커 테스트:
 
-`speaker-test {{-t|--test}} sine {{-f|--frequency}} {{주파수}}`
+`speaker-test {{[-t|--test]}} sine {{[-f|--frequency]}} {{주파수}}`
 
 - 미리 정의된 WAV 파일로 기본 스피커 테스트:
 
-`speaker-test {{-t|--test}} wav`
+`speaker-test {{[-t|--test]}} wav`
 
 - WAV 파일로 기본 스피커 테스트:
 
-`speaker-test {{-t|--test}} wav {{-w|--wavfile}} {{경로/대상/파일}}`
+`speaker-test {{[-t|--test]}} wav {{[-w|--wavfile]}} {{경로/대상/파일}}`

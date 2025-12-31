@@ -6,11 +6,11 @@
 
 - Register a new trigger. Execute the specified program when the specified event occurs:
 
-`strigger --set --{{primary_database_failure|primary_slurmdbd_failure|primary_slurmctld_acct_buffer_full|primary_slurmctld_failure|...}} --program={{path/to/executable}}`
+`strigger --set --{{primary_database_failure|primary_slurmdbd_failure|primary_slurmctld_acct_buffer_full|primary_slurmctld_failure|...}} {{[-p|--program]}} {{path/to/executable}}`
 
 - Execute the specified program when the specified job terminated:
 
-`strigger --set --jobid={{job_id}} --fini --program="{{path/to/executable}} {{argument1 argument2 ...}}"`
+`strigger --set {{[-j|--jobid]}} {{job_id}} {{[-f|--fini]}} {{[-p|--program]}} "{{path/to/executable}} {{argument1 argument2 ...}}"`
 
 - View active triggers:
 
@@ -18,7 +18,7 @@
 
 - View active triggers regarding the specified job:
 
-`strigger --get --jobid={{job_id}}`
+`strigger --get {{[-j|--jobid]}} {{job_id}}`
 
 - Clear the specified trigger:
 

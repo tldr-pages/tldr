@@ -9,7 +9,7 @@
 
 - Kullanıcı tarafından belirtilmiş bir ağ oluştur:
 
-`docker network create --driver {{driver_name}} {{ağ_ismi}}`
+`docker network create {{[-d|--driver]}} {{driver_name}} {{ağ_ismi}}`
 
 - Boşluk ile ayrılmış bir ağ listesinin detaylı bilgisini görüntüle:
 

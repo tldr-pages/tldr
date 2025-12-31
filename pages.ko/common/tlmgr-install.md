@@ -1,7 +1,7 @@
 # tlmgr install
 
 > TeX Live 패키지 설치.
-> 더 많은 정보: <https://www.tug.org/texlive/tlmgr.html>.
+> 더 많은 정보: <https://www.tug.org/texlive/doc/tlmgr.html#install-option...-pkg>.
 
 - 패키지 및 의존성 설치:
 

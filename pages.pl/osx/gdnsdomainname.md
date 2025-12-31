@@ -1,7 +1,7 @@
 # gdnsdomainname
 
-> To polecenie jest aliasem `-p linux dnsdomainname`.
+> To polecenie jest aliasem GNU `dnsdomainname`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux dnsdomainname`
+`tldr {{[-p|--platform]}} linux dnsdomainname`

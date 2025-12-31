@@ -1,7 +1,7 @@
 # gegrep
 
-> To polecenie jest aliasem `-p linux egrep`.
+> To polecenie jest aliasem GNU `egrep`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux egrep`
+`tldr egrep`

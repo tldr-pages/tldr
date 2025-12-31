@@ -1,7 +1,7 @@
 # ag
 
 > The Silver Searcher. Comme `ack`, mais inspire à être plus rapide.
-> Plus d'informations : <https://github.com/ggreer/the_silver_searcher>.
+> Plus d'informations : <https://manned.org/ag>.
 
 - Trouve les fichiers qui contiennent "foo", et affiche les lignes correspondantes dans le contexte courant :
 

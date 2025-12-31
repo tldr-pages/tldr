@@ -5,16 +5,16 @@
 
 - Print the values of the pixels in the n'th row in a table:
 
-`pamslice -row {{n}} {{path/to/image.pam}}`
+`pamslice {{[-r|-row]}} {{n}} {{path/to/image.pam}}`
 
 - Print the values of the pixels in the n'th column in a table:
 
-`pamslice -column {{n}} {{path/to/image.pam}}`
+`pamslice {{[-c|-column]}} {{n}} {{path/to/image.pam}}`
 
 - Consider the m'th plane of the input image only:
 
-`pamslice -row {{n}} -plane {{m}} {{path/to/image.pam}}`
+`pamslice {{[-r|-row]}} {{n}} -plane {{m}} {{path/to/image.pam}}`
 
 - Produce output in a format suitable for input to an `xmgr` for visualisation:
 
-`pamslice -row {{n}} -xmgr {{path/to/image.pam}}`
+`pamslice {{[-r|-row]}} {{n}} {{[-x|-xmgr]}} {{path/to/image.pam}}`

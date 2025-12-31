@@ -1,7 +1,7 @@
 # elixir
 
 > Elixir programming language interpreter.
-> More information: <https://elixir-lang.org>.
+> More information: <https://manned.org/elixir>.
 
 - Run an Elixir file:
 
@@ -9,4 +9,4 @@
 
 - Evaluate Elixir code by passing it as an argument:
 
-`elixir -e "{{code}}"`
+`elixir {{[-e|--eval]}} "{{code}}"`

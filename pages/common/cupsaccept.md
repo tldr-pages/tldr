@@ -1,7 +1,7 @@
 # cupsaccept
 
 > Accept jobs sent to destinations.
-> Note: destination is referred as a printer or a class of printers.
+> Note: Destination is referred as a printer or a class of printers.
 > See also: `cupsreject`, `cupsenable`, `cupsdisable`, `lpstat`.
 > More information: <https://www.cups.org/doc/man-cupsaccept.html>.
 

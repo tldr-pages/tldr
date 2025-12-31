@@ -1,7 +1,7 @@
 # gtraceroute
 
-> To polecenie jest aliasem `-p linux traceroute`.
+> To polecenie jest aliasem GNU `traceroute`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux traceroute`
+`tldr traceroute`

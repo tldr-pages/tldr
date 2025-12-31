@@ -1,7 +1,7 @@
 # gtar
 
-> Dieser Befehl ist ein Alias von `-p linux tar`.
+> Dieser Befehl ist ein Alias von `tar`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 
-`tldr -p linux tar`
+`tldr tar`

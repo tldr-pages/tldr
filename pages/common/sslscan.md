@@ -1,7 +1,7 @@
 # sslscan
 
 > Check SSL/TLS protocols and ciphers supported by a server.
-> More information: <https://github.com/rbsec/sslscan>.
+> More information: <https://manned.org/sslscan>.
 
 - Test a server on port 443:
 
@@ -13,4 +13,4 @@
 
 - Show certificate information:
 
-`testssl --show-certificate {{example.com}}`
+`sslscan --show-certificate {{example.com}}`

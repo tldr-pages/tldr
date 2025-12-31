@@ -1,7 +1,7 @@
 # medusa
 
 > A modular and parallel login brute-forcer for a variety of protocols.
-> More information: <https://jmk-foofus.github.io/medusa/medusa.html>.
+> More information: <https://manned.org/medusa>.
 
 - List all installed modules:
 
@@ -15,7 +15,7 @@
 
 `medusa -M ftp -h host -U {{path/to/username_file}} -P {{path/to/password_file}}`
 
-- Execute a login attempt against an HTTP server using the username, password and user-agent specified:
+- Execute a login attempt against an HTTP server using the username, password, and user-agent specified:
 
 `medusa -M HTTP -h host -u {{username}} -p {{password}} -m USER-AGENT:"{{Agent}}"`
 

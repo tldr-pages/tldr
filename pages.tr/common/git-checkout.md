@@ -21,7 +21,7 @@
 
 - Uzak bağlantıdaki varolan bir dala geç:
 
-`git checkout --track {{uzak_bağlantı_adresi}}/{{dal_ismi}}`
+`git checkout {{[-t|--track]}} {{uzak_bağlantı_adresi}}/{{dal_ismi}}`
 
 - Mevcut dizindeki sahnelenmemiş tüm değişiklikleri ayır (geri alma benzeri bir komut için `git reset` komutu önerilir):
 

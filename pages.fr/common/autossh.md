@@ -2,7 +2,7 @@
 
 > Lance, surveille et redémarre les connections SSH.
 > Reconnecte automatiquement pour garder le tunnel de transfert de port ouvert. Accepte toutes les options de SSH.
-> Plus d'informations : <https://www.harding.motd.ca/autossh>.
+> Plus d'informations : <https://manned.org/autossh>.
 
 - Démarre une session SSH, redémarre quand le port échoue à renvoyer de la data :
 

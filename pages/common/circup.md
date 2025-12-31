@@ -1,7 +1,7 @@
 # circup
 
 > The CircuitPython library updater.
-> More information: <https://github.com/adafruit/circup>.
+> More information: <https://github.com/adafruit/circup#usage>.
 
 - Interactively update modules on a device:
 
@@ -19,6 +19,6 @@
 
 `circup freeze`
 
-- Save all libraries on a connected device in the current directory:
+- Save all libraries on a connected device in `requirements.txt` in current directory:
 
-`circup freeze -r`
+`circup freeze {{[-r|--requirement]}}`

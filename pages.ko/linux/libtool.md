@@ -5,11 +5,11 @@
 
 - 소스 파일을 `libtool` 객체로 컴파일:
 
-`libtool --mode=compile gcc -c {{경로/대상/원본.c}} -o {{경로/대상/원본.lo}}`
+`libtool --mode=compile gcc {{[-c|--compile]}} {{경로/대상/원본.c}} {{[-o|--output]}} {{경로/대상/원본.lo}}`
 
 - 라이브러리 또는 실행 파일 생성:
 
-`libtool --mode=link gcc -o {{경로/대상/라이브러리.lo}} {{경로/대상/원본.lo}}`
+`libtool --mode=link gcc {{[-o|--output]}} {{경로/대상/라이브러리.lo}} {{경로/대상/원본.lo}}`
 
 - 라이브러리 경로를 자동으로 설정하여 다른 프로그램이 설치되지 않은 `libtool` 생성 프로그램 또는 라이브러리를 사용할 수 있도록 합니다:
 

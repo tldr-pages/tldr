@@ -1,7 +1,7 @@
 # scheme
 
 > MIT Scheme language interpreter and REPL (interactive shell).
-> More information: <https://www.gnu.org/software/mit-scheme>.
+> More information: <https://www.gnu.org/software/mit-scheme/documentation/stable/mit-scheme-user.html#Command_002dLine-Options>.
 
 - Start a REPL (interactive shell):
 
@@ -9,7 +9,7 @@
 
 - Run a scheme program (with no REPL output):
 
-`scheme --quiet < {{script.scm}}`
+`scheme < {{script.scm}} --quiet`
 
 - Load a scheme program into the REPL:
 

@@ -6,12 +6,12 @@
 
 - 모든 부울 설정 나열:
 
-`sudo semanage boolean {{-l|--list}}`
+`sudo semanage boolean {{[-l|--list]}}`
 
 - 사용자 정의 부울 설정을 제목 없이 나열:
 
-`sudo semanage boolean {{-l|--list}} {{-C|--locallist}} {{-n|--noheading}}`
+`sudo semanage boolean {{[-l|--list]}} {{[-C|--locallist]}} {{[-n|--noheading]}}`
 
 - 부울을 영구적으로 설정 또는 해제:
 
-`sudo semanage boolean {{-m|--modify}} {{-1|--on|-0|--off}} {{haproxy_connect_any}}`
+`sudo semanage boolean {{[-m|--modify]}} {{-1|--on|-0|--off}} {{haproxy_connect_any}}`

@@ -14,7 +14,7 @@
 
 - Interactivamente desmarca partes de un archivo:
 
-`git reset --patch {{ruta/al/archivo}}`
+`git reset {{[-p|--patch]}} {{ruta/al/archivo}}`
 
 - Deshaz la última confirmación, manteniendo sus cambios, y cualquier otro cambio sin confirmación, en el sistema de archivos:
 

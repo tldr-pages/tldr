@@ -6,12 +6,12 @@
 
 - Costruisce un filesystem Linux ext2 su una partizione:
 
-`mkfs {{percorso/della/partizione}}`
+`sudo mkfs {{percorso/della/partizione}}`
 
 - Costruisce un filesystem del tipo specificato:
 
-`mkfs -t {{ext4}} {{percorso/della/partizione}}`
+`sudo mkfs {{[-t|--type]}} {{ext4}} {{percorso/della/partizione}}`
 
 - Costruisce un filesystem del specificato e controlla la presenza di settori danneggiati:
 
-`mkfs -c -t {{ntfs}} {{percorso/della/partizione}}`
+`sudo mkfs -c {{[-t|--type]}} {{ntfs}} {{percorso/della/partizione}}`

@@ -1,8 +1,8 @@
 # bedtools
 
 > A swiss-army knife of tools for genomic-analysis tasks.
-> Used to intersect, group, convert and count data in BAM, BED, GFF/GTF, VCF format.
-> More information: <https://bedtools.readthedocs.io>.
+> Used to intersect, group, convert, and count data in BAM, BED, GFF/GTF, VCF format.
+> More information: <https://bedtools.readthedocs.io/en/latest/content/overview.html#summary-of-available-tools>.
 
 - Intersect file [a] and file(s) [b] regarding the sequences' [s]trand and save the result to a specific file:
 

@@ -10,8 +10,8 @@
 
 - Display limit values for all current resources of a specified process:
 
-`prlimit --pid {{pid_number}}`
+`prlimit {{[-p|--pid]}} {{pid_number}}`
 
 - Run a command with a custom number of open files limit:
 
-`prlimit --nofile={{10}} {{command}}`
+`prlimit {{[-n|--nofile=]}}{{10}} {{command}}`

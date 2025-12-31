@@ -10,7 +10,7 @@
 
 - Crea una MV usando la configuración predeterminada y opcionalmente proporciona un nombre y/o una plantilla (vea `limactl create --list-templates` para plantillas disponibles):
 
-`limactl create --name {{nombre_de_la_mv}} template://{{debian|fedora|ubuntu|…}}`
+`limactl create --name {{nombre_de_la_mv}} template://{{debian|fedora|ubuntu|...}}`
 
 - Inicia una MV (esto puede instalar algunas dependencias en la misma y tomar unos minutos):
 

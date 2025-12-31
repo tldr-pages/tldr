@@ -9,16 +9,16 @@
 
 - Versnipper een bestand:
 
-`bleachbit --shred {{pad/naar/bestand}}`
+`bleachbit {{[-s|--shred]}} {{pad/naar/bestand}}`
 
 - Toon beschikbare schoonmaakopties:
 
-`bleachbit --list-cleaners`
+`bleachbit {{[-l|--list-cleaners]}}`
 
 - Bekijk een voorbeeld van de bestanden die zullen worden verwijderd en andere wijzigingen die worden doorgevoerd voordat de schoonmaakoperatie wordt uitgevoerd:
 
-`bleachbit --preview {{--preset|cleaner1.option1 cleaner2.* ...}}`
+`bleachbit {{[-p|--preview]}} --preset {{cleaner1.option1 cleaner2.option2 ...}}`
 
 - Voer de schoonmaakoperatie uit en verwijder bestanden:
 
-`bleachbit --clean {{--preset|cleaner1.option1 cleaner2.* ...}}`
+`bleachbit {{[-c|--clean]}} --preset {{cleaner1.option1 cleaner2.option2 ...}}`

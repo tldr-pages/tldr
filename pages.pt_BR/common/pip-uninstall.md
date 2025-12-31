@@ -1,7 +1,7 @@
 # pip uninstall
 
 > Desinstala pacotes Python.
-> Mais informações: <https://pip.pypa.io>.
+> Mais informações: <https://pip.pypa.io/en/stable/cli/pip_uninstall/>.
 
 - Desinstala um pacote:
 
@@ -9,8 +9,8 @@
 
 - Desinstala pacotes listados em um arquivo:
 
-`pip uninstall --requirement {{requirements.txt}}`
+`pip uninstall {{[-r|--requirement]}} {{requirements.txt}}`
 
 - Desinstala um pacote sem pedir por confirmação:
 
-`pip uninstall --yes {{nome_pacote}}`
+`pip uninstall {{[-y|--yes]}} {{nome_pacote}}`

@@ -1,7 +1,7 @@
 # curlie
 
 > A frontend to `curl` that adds the ease of use of `httpie`.
-> More information: <https://github.com/rs/curlie>.
+> More information: <https://github.com/rs/curlie#usage>.
 
 - Send a GET request:
 

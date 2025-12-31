@@ -1,7 +1,7 @@
 # aws acm
 
 > AWS Certificate Manager.
-> Más información: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/acm/index.html>.
+> Más información: <https://docs.aws.amazon.com/cli/latest/reference/acm/>.
 
 - Importa un certificado:
 

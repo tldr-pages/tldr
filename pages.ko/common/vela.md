@@ -1,7 +1,7 @@
 # vela
 
 > Vela 파이프라인을 위한 명령줄 도구.
-> 더 많은 정보: <https://go-vela.github.io/docs/reference/cli/>.
+> 더 많은 정보: <https://go-vela.github.io/docs/reference/cli>.
 
 - Git 브랜치, 커밋 또는 태그에서 파이프라인 실행 트리거:
 

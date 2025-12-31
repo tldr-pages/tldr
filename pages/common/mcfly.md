@@ -1,7 +1,7 @@
 # mcfly
 
 > A smart command history search and management tool.
-> Replaces your default shell history search (ctrl-r) with an intelligent search engine providing context and relevance to the commands.
+> Replaces your default shell history search (`<Ctrl r>`) with an intelligent search engine providing context and relevance to the commands.
 > More information: <https://github.com/cantino/mcfly>.
 
 - Print the mcfly integration code for the specified shell:

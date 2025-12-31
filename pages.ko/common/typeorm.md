@@ -1,7 +1,7 @@
 # typeorm
 
 > Node.js, 브라우저, Cordova, Ionic, React Native, NativeScript, Electron 플랫폼에서 실행할 수 있는 JavaScript ORM.
-> 더 많은 정보: <https://typeorm.io/>.
+> 더 많은 정보: <https://typeorm.io/docs/advanced-topics/using-cli/#initialize-a-new-typeorm-project>.
 
 - 새로운 TypeORM 프로젝트 구조 생성:
 

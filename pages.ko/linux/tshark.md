@@ -1,7 +1,7 @@
 # tshark
 
 > 패킷 분석 도구, Wireshark의 CLI 버전.
-> 더 많은 정보: <https://tshark.dev/>.
+> 더 많은 정보: <https://tshark.dev/#sitemap-in-tshark---help>.
 
 - 로컬호스트에서 모든 것 모니터링:
 
@@ -21,7 +21,7 @@
 
 - 캡처된 출력의 형식 지정:
 
-`tshark -T {{json|text|ps|…}}`
+`tshark -T {{json|text|ps|...}}`
 
 - 출력할 특정 필드 선택:
 

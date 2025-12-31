@@ -1,7 +1,7 @@
 # ember
 
 > Ember CLI: Ember.js 애플리케이션을 생성하고 관리.
-> 더 많은 정보: <https://cli.emberjs.com>.
+> 더 많은 정보: <https://cli.emberjs.com/release/advanced-use/cli-commands-reference/>.
 
 - 새로운 Ember 애플리케이션을 생성:
 

@@ -1,7 +1,7 @@
 # wajig
 
 > Simplified all-in-one-place system support tool for Debian-based systems.
-> More information: <https://wajig.togaware.com>.
+> More information: <https://togaware.com/linux/survivor/wajig.html>.
 
 - Update the list of available packages and versions:
 

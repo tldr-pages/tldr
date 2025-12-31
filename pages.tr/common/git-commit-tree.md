@@ -14,7 +14,7 @@
 
 - GPG anahtarıyla imzalanmış bir commit cismi oluştur:
 
-`git commit-tree {{ağaç}} -m "{{mesaj}}" --gpg-sign`
+`git commit-tree {{ağaç}} -m "{{mesaj}}" {{[-S|--gpg-sign]}}`
 
 - Belirtilen ana commit cismi ile bir commit cismi oluştur:
 

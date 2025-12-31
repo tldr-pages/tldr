@@ -1,7 +1,7 @@
 # cp
 
 > ファイルやディレクトリをコピーします。
-> 詳しくはこちら: <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>
+> もっと詳しく: <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>。
 
 - ファイルを別の場所にコピー:
 

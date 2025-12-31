@@ -2,7 +2,7 @@
 
 > Screenshot utility with a GUI.
 > Supports basic image editing, such as text, shapes, colors, and imgur.
-> More information: <https://flameshot.org>.
+> More information: <https://flameshot.org/docs/advanced/commandline-options/>.
 
 - Create a fullscreen screenshot:
 
@@ -14,7 +14,7 @@
 
 - Create a screenshot and save it to a specific path:
 
-`flameshot gui --path {{path/to/directory}}`
+`flameshot gui {{[-p|--path]}} {{path/to/directory}}`
 
 - Create a screenshot interactively in a simplified mode:
 
@@ -22,16 +22,16 @@
 
 - Create a screenshot from a specific monitor:
 
-`flameshot screen --number {{2}}`
+`flameshot screen {{[-n|--number]}} {{2}}`
 
 - Create a screenshot and print it to `stdout`:
 
-`flameshot gui --raw`
+`flameshot gui {{[-r|--raw]}}`
 
 - Create a screenshot and copy it to the clipboard:
 
-`flameshot gui --clipboard`
+`flameshot gui {{[-c|--clipboard]}}`
 
 - Create a screenshot with a specific delay in milliseconds:
 
-`flameshot full --delay {{5000}}`
+`flameshot full {{[-d|--delay]}} {{5000}}`

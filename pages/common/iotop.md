@@ -9,24 +9,24 @@
 
 - Show only processes or threads actually doing I/O:
 
-`sudo iotop --only`
+`sudo iotop {{[-o|--only]}}`
 
 - Show I/O usage in non-interactive mode:
 
-`sudo iotop --batch`
+`sudo iotop {{[-b|--batch]}}`
 
 - Show only I/O usage of processes (default is to show all threads):
 
-`sudo iotop --processes`
+`sudo iotop {{[-P|--processes]}}`
 
 - Show I/O usage of given PID(s):
 
-`sudo iotop --pid={{PID}}`
+`sudo iotop {{[-p|--pid]}} {{PID}}`
 
 - Show I/O usage of a given user:
 
-`sudo iotop --user={{user}}`
+`sudo iotop {{[-u|--user]}} {{user}}`
 
 - Show accumulated I/O instead of bandwidth:
 
-`sudo iotop --accumulated`
+`sudo iotop {{[-a|--accumulated]}}`

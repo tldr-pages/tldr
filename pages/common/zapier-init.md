@@ -9,8 +9,8 @@
 
 - Initialize a new Zapier integration with a specific template:
 
-`zapier init {{path/to/directory}} {{-t|--template}} {{basic-auth|callback|custom-auth|digest-auth|dynamic-dropdown|files|minimal|oauth1-trello|oauth2|search-or-create|session-auth|typescript}}`
+`zapier init {{path/to/directory}} {{[-t|--template]}} {{basic-auth|callback|custom-auth|digest-auth|dynamic-dropdown|files|minimal|oauth1-trello|oauth2|search-or-create|session-auth|typescript}}`
 
 - Show extra debugging output:
 
-`zapier init {{-d|--debug}}`
+`zapier init {{[-d|--debug]}}`

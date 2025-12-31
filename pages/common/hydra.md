@@ -2,7 +2,7 @@
 
 > Online password guessing tool.
 > Protocols supported include FTP, HTTP(S), SMTP, SNMP, XMPP, SSH, and more.
-> More information: <https://github.com/vanhauser-thc/thc-hydra>.
+> More information: <https://manned.org/hydra>.
 
 - Start Hydra's wizard:
 

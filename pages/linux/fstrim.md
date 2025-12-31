@@ -6,7 +6,7 @@
 
 - Trim unused blocks on all mounted partitions that support it:
 
-`sudo fstrim --all`
+`sudo fstrim {{[-a|--all]}}`
 
 - Trim unused blocks on a specified partition:
 
@@ -14,4 +14,4 @@
 
 - Display statistics after trimming:
 
-`sudo fstrim --verbose {{/}}`
+`sudo fstrim {{[-v|--verbose]}} {{/}}`

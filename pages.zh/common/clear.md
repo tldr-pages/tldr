@@ -1,9 +1,9 @@
 # clear
 
 > 清空终端的屏幕。
-> 更多信息：<https://manned.org/clear>.
+> 更多信息：<https://manned.org/clear>。
 
-- 清空屏幕（相当于在 Bash shell 中按 Control-L 键）：
+- 清空屏幕（相当于在 Bash shell 中按 `<Ctrl l>` 键）：
 
 `clear`
 
@@ -11,7 +11,7 @@
 
 `clear -x`
 
-- 指明要清空的终端类型（默认为环境变量 `TERM` 的值）：
+- 指明要清空的终端类型（默认为环境变量 `$TERM` 的值）：
 
 `clear -T {{type_of_terminal}}`
 

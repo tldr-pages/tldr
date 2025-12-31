@@ -1,7 +1,7 @@
 # whatwaf
 
 > 웹 애플리케이션 방화벽 및 보호 시스템 탐지 및 우회.
-> 더 많은 정보: <https://github.com/Ekultek/WhatWaf>.
+> 더 많은 정보: <https://github.com/Ekultek/WhatWaf#basic-help-menu>.
 
 - 단일 [u]RL의 보호 시스템 탐지, 선택적으로 상세 출력 사용:
 

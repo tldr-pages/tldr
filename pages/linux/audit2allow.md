@@ -1,21 +1,38 @@
 # audit2allow
 
-> Create an SELinux local policy module to allow rules based on denied operations found in logs.
-> Note: Use audit2allow with caution—always review the generated policy before applying it, as it may allow excessive access.
+> Generate SELinux policy allow rules from audit logs.
+> Part of the `policycoreutils-python-utils` package.
+> See also: `audit2why`, `ausearch`, `semodule`.
 > More information: <https://manned.org/audit2allow>.
 
-- Generate a local policy to allow access for all denied services:
+- Generate allow rules from recent audit denials and display them:
 
-`sudo audit2allow --all -M {{local_policy_name}}`
+`sudo audit2allow {{[-a|--all]}}`
 
-- Generate a local policy module to grant access to a specific process/service/command from the audit logs:
+- Generate allow rules from a specific audit log file:
 
-`sudo grep {{apache2}} /var/log/audit/audit.log | sudo audit2allow -M {{local_policy_name}}`
+`sudo audit2allow {{[-i|--input]}} {{path/to/audit.log}}`
 
-- Inspect and review the Type Enforcement (.te) file for a local policy:
+- Generate a policy module from recent audit denials:
 
-`vim {{local_policy_name}}.te`
+`sudo audit2allow {{[-a|--all]}} {{[-M|--module]}} {{module_name}}`
 
-- Install a local policy module:
+- Explain why SELinux denials occurred (same as `audit2why`):
 
-`sudo semodule -i {{local_policy_name}}.pp`
+`sudo audit2allow {{[-a|--all]}} --why`
+
+- Display detailed information around generated messages:
+
+`sudo audit2allow {{[-a|--all]}} {{[-e|--explain]}}`
+
+- Use installed macros to generate a reference policy:
+
+`sudo audit2allow {{[-a|--all]}} {{[-R|--reference]}}`
+
+- Generate allow rules for a specific service:
+
+`sudo ausearch {{[-m|--message]}} avc {{[-c|--comm]}} {{service_name}} | audit2allow {{[-M|--module]}} {{policy_name}}`
+
+- Enable verbose output mode:
+
+`sudo audit2allow {{[-a|--all]}} {{[-v|--verbose]}}`

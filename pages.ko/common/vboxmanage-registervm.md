@@ -1,4 +1,4 @@
-# vboxmanage-registervm
+# VBoxManage registervm
 
 > 가상 머신(VM) 등록.
 > 더 많은 정보: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-registervm>.

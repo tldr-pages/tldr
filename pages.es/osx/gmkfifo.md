@@ -1,7 +1,7 @@
 # gmkfifo
 
-> Este comando es un alias de `-p linux mkfifo`.
+> Este comando es un alias de `mkfifo`.
 
-- Muestra la documentación del comando original:
+- Vea la documentación para el comando original:
 
-`tldr -p linux mkfifo`
+`tldr mkfifo`

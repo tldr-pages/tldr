@@ -2,7 +2,7 @@
 
 > Stampa e concatena file.
 > Un clone di `cat` con syntax highlighting e integrazione Git.
-> Maggiori informazioni: <https://github.com/sharkdp/bat>.
+> Maggiori informazioni: <https://manned.org/bat>.
 
 - Stampa i contenuti di un file su standard output:
 
@@ -18,12 +18,12 @@
 
 - Numera tutte le linee stampate:
 
-`bat --number {{file}}`
+`bat {{[-n|--number]}} {{file}}`
 
 - Evidenzia la sintassi di un file JSON:
 
-`bat --language json {{file.json}}`
+`bat {{[-l|--language]}} json {{file.json}}`
 
 - Mostra tutti i linguaggi supportati:
 
-`bat --list-languages`
+`bat {{[-L|--list-languages]}}`

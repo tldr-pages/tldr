@@ -1,7 +1,7 @@
 # alacritty
 
 > Terminal multiplataforma, acelerado por GPU.
-> Mais informações: <https://github.com/alacritty/alacritty>.
+> Mais informações: <https://manned.org/alacritty>.
 
 - Abre uma nova janela do Alacritty:
 

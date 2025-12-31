@@ -1,7 +1,7 @@
 # phpquery
 
 > PHP extension manager for Debian-based OSes.
-> More information: <https://helpmanual.io/help/phpquery/>.
+> More information: <https://code.google.com/archive/p/phpquery/wikis/CommandLineInterface.wiki>.
 
 - List available PHP versions:
 

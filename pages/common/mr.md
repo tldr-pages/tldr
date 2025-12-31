@@ -1,7 +1,7 @@
 # mr
 
 > Manage all of your version control repositories at once.
-> More information: <https://myrepos.branchable.com>.
+> More information: <https://manned.org/mr>.
 
 - Register a repository:
 
@@ -9,7 +9,7 @@
 
 - Update repositories in 5 concurrent jobs:
 
-`mr -j{{5}} update`
+`mr {{[-j|--jobs]}} {{5}} update`
 
 - Print the status of all repositories:
 

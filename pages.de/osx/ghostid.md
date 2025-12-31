@@ -1,7 +1,7 @@
 # ghostid
 
-> Dieser Befehl ist ein Alias von `-p linux hostid`.
+> Dieser Befehl ist ein Alias von `hostid`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 
-`tldr -p linux hostid`
+`tldr hostid`

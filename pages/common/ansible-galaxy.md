@@ -1,7 +1,7 @@
 # ansible-galaxy
 
 > Perform various Ansible Role and Collection related operations.
-> More information: <https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html>.
+> More information: <https://docs.ansible.com/projects/ansible/latest/cli/ansible-galaxy.html>.
 
 - List installed roles or collections:
 
@@ -29,4 +29,4 @@
 
 - Display help about roles or collections:
 
-`ansible-galaxy {{role|collection}} {{-h|--help}}`
+`ansible-galaxy {{role|collection}} {{[-h|--help]}}`

@@ -2,7 +2,7 @@
 
 > Міні-Heroku на основі Docker (PaaS).
 > Легко розгортає кілька програм на власному сервері різними мовами за допомогою однієї команди `git-push`.
-> Більше інформації: <https://github.com/dokku/dokku>.
+> Більше інформації: <https://dokku.com/docs/deployment/application-deployment/>.
 
 - Показати запущені програми:
 

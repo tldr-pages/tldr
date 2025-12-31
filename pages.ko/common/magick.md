@@ -3,7 +3,7 @@
 > 이미지 형식 간 변환, 편집, 합성 또는 변환.
 > 이 도구는 ImageMagick 7+에서 `convert`를 대체합니다. 7+ 버전에서 이전 도구를 사용하려면 `magick convert`를 참조하세요.
 > `mogrify`와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
-> 더 많은 정보: <https://imagemagick.org>.
+> 더 많은 정보: <https://imagemagick.org/script/magick.php>.
 
 - 이미지 형식 간 변환:
 

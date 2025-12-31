@@ -5,16 +5,16 @@
 
 - n번째 행의 픽셀 값을 테이블 형식으로 출력:
 
-`pamslice -row {{n}} {{경로/대상/이미지.pam}}`
+`pamslice {{[-r|-row]}} {{n}} {{경로/대상/이미지.pam}}`
 
 - n번째 열의 픽셀 값을 테이블 형식으로 출력:
 
-`pamslice -column {{n}} {{경로/대상/이미지.pam}}`
+`pamslice {{[-c|-column]}} {{n}} {{경로/대상/이미지.pam}}`
 
 - 입력 이미지의 m번째 평면만 고려:
 
-`pamslice -row {{n}} -plane {{m}} {{경로/대상/이미지.pam}}`
+`pamslice {{[-r|-row]}} {{n}} -plane {{m}} {{경로/대상/이미지.pam}}`
 
 - 시각화를 위한 `xmgr` 입력 형식으로 출력 생성:
 
-`pamslice -row {{n}} -xmgr {{경로/대상/이미지.pam}}`
+`pamslice {{[-r|-row]}} {{n}} {{[-x|-xmgr]}} {{경로/대상/이미지.pam}}`

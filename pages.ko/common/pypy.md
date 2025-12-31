@@ -1,7 +1,7 @@
 # pypy
 
 > 빠르고 호환성 있는 Python 언어의 대체 구현체.
-> 더 많은 정보: <https://doc.pypy.org>.
+> 더 많은 정보: <https://manned.org/pypy>.
 
 - REPL(대화형 셸) 시작:
 

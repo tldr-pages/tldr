@@ -1,7 +1,7 @@
 # dvc destroy
 
 > Remove all DVC files and directories from a DVC project.
-> More information: <https://dvc.org/doc/command-reference/destroy>.
+> More information: <https://doc.dvc.org/command-reference/destroy>.
 
 - Destroy the current project:
 
@@ -9,4 +9,4 @@
 
 - Force destroy the current project:
 
-`dvc destroy --force`
+`dvc destroy {{[-f|--force]}}`

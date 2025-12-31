@@ -9,4 +9,4 @@
 
 - Display version:
 
-`giftopnm -version`
+`giftopnm {{[-v|-version]}}`

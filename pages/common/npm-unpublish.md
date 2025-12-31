@@ -1,7 +1,7 @@
 # npm unpublish
 
 > Remove a package from the npm registry.
-> More information: <https://docs.npmjs.com/cli/v8/commands/npm-unpublish>.
+> More information: <https://docs.npmjs.com/cli/npm-unpublish/>.
 
 - Unpublish a specific package version:
 
@@ -9,7 +9,7 @@
 
 - Unpublish the entire package:
 
-`npm unpublish {{package_name}} --force`
+`npm unpublish {{package_name}} {{[-f|--force]}}`
 
 - Unpublish a package that is scoped:
 
@@ -19,6 +19,6 @@
 
 `npm unpublish {{package_name}} --timeout {{time_in_milliseconds}}`
 
-- To prevent accidental unpublishing, use the `--dry-run` flag to see what would be unpublished:
+- Dry run to see what would be unpublished without actually doing it:
 
 `npm unpublish {{package_name}} --dry-run`

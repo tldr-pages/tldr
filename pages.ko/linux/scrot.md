@@ -1,7 +1,7 @@
 # scrot
 
 > 스크린 캡처 유틸리티.
-> 더 많은 정보: <https://github.com/resurrecting-open-source-projects/scrot>.
+> 더 많은 정보: <https://manned.org/scrot>.
 
 - 스크린샷을 캡처하여 현재 디렉토리에 현재 날짜를 파일명으로 저장:
 
@@ -15,7 +15,7 @@
 
 `scrot --select`
 
-- 키보드 입력으로 종료하지 않고 대화형으로 스크린샷 캡처, `ESC`를 눌러 종료:
+- 키보드 입력으로 종료하지 않고 대화형으로 스크린샷 캡처, `<Esc>`를 눌러 종료:
 
 `scrot --select --ignorekeyboard`
 

@@ -1,7 +1,7 @@
 # wacaw
 
 > 연결된 카메라로 정지 사진과 비디오를 촬영.
-> 더 많은 정보: <https://webcam-tools.sourceforge.net>.
+> 더 많은 정보: <https://webcam-tools.sourceforge.net/#parameters>.
 
 - 웹캠으로 사진 촬영:
 

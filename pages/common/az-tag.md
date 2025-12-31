@@ -6,15 +6,15 @@
 
 - Create a tag value:
 
-`az tag add-value --name {{tag_name}} --value {{tag_value}}`
+`az tag add-value {{[-n|--name]}} {{tag_name}} --value {{tag_value}}`
 
 - Create a tag in the subscription:
 
-`az tag create --name {{tag_name}}`
+`az tag create {{[-n|--name]}} {{tag_name}}`
 
 - Delete a tag from the subscription:
 
-`az tag delete --name {{tag_name}}`
+`az tag delete {{[-n|--name]}} {{tag_name}}`
 
 - List all tags on a subscription:
 
@@ -22,4 +22,4 @@
 
 - Delete a tag value for a specific tag name:
 
-`az tag remove-value --name {{tag_name}} --value {{tag_value}}`
+`az tag remove-value {{[-n|--name]}} {{tag_name}} --value {{tag_value}}`

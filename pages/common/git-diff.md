@@ -17,20 +17,20 @@
 
 - Show changes from all commits since a given date/time (a date expression, e.g. "1 week 2 days" or an ISO date):
 
-`git diff 'HEAD@{3 months|weeks|days|hours|seconds ago}'`
+`git diff 'HEAD@{{{3 months|weeks|days|hours|seconds ago}}}'`
 
 - Show diff statistics, like files changed, histogram, and total line insertions/deletions:
 
 `git diff --stat {{commit}}`
 
-- Output a summary of file creations, renames and mode changes since a given commit:
+- Output a summary of file creations, renames, and mode changes since a given commit:
 
 `git diff --summary {{commit}}`
 
 - Compare a single file between two branches or commits:
 
-`git diff {{branch_1}}..{{branch_2}} [--] {{path/to/file}}`
+`git diff {{branch_1}}..{{branch_2}} {{path/to/file}}`
 
-- Compare different files from the current branch to other branch:
+- Compare different files from the current branch to another branch:
 
-`git diff {{branch}}:{{path/to/file2}} {{path/to/file}}`
+`git diff {{other_branch}}:{{path/to/file2}} {{path/to/file1}}`

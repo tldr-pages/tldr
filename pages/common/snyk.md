@@ -1,7 +1,7 @@
 # snyk
 
 > Find vulnerabilities in your code and remediate risks.
-> More information: <https://snyk.io>.
+> More information: <https://docs.snyk.io/developer-tools/snyk-cli/commands>.
 
 - Log in to your Snyk account:
 

@@ -1,7 +1,7 @@
 # grm
 
-> 這是 `-p linux rm` 命令的一個別名。
+> 這是 `rm` 命令的一個別名。
 
 - 原命令的文件在：
 
-`tldr -p linux rm`
+`tldr rm`

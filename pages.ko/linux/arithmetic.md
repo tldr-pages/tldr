@@ -1,7 +1,7 @@
 # arithmetic
 
 > 간단한 산술 문제 퀴즈.
-> 더 많은 정보: <https://manned.org/arithmetic.6>.
+> 더 많은 정보: <https://manned.org/arithmetic>.
 
 - 산술 퀴즈 시작:
 

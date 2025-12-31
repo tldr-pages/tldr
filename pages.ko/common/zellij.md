@@ -18,8 +18,8 @@
 
 - 새 창 열기 (zellij 세션 내):
 
-`<Alt> + N`
+`<Alt n>`
 
 - 현재 세션에서 분리 (zellij 세션 내):
 
-`<Ctrl> + O, D`
+`<Ctrl o><d>`

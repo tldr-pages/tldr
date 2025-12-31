@@ -1,11 +1,11 @@
 # waydroid
 
 > A container-based approach to boot a full Android system on a regular Linux system like Ubuntu.
-> More information: <https://docs.waydro.id>.
+> More information: <https://docs.waydro.id/usage/waydroid-command-line-options>.
 
 - Start Waydroid:
 
-`waydroid`
+`waydroid show-full-ui`
 
 - Initialize Waydroid (required on first run or after reinstalling Android):
 
@@ -13,7 +13,7 @@
 
 - Install a new Android app from a file:
 
-`waydroid app install {{path/to/file.apk}}`
+`waydroid app install {{path/to/file}}.apk`
 
 - Launch an Android app by its package name:
 

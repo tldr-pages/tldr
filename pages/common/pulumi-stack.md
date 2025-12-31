@@ -7,9 +7,9 @@
 
 `pulumi stack init {{stack_name}}`
 
-- View the stack state:
+- Show the stack state along with resource URNs:
 
-`pulumi stack`
+`pulumi stack {{[-u|--show-urns]}}`
 
 - List stacks in the current project:
 
@@ -17,11 +17,15 @@
 
 - List stacks across all projects:
 
-`pulumi stack ls --all`
+`pulumi stack ls {{[-a|--all]}}`
 
 - Select an active stack:
 
 `pulumi stack select {{stack_name}}`
+
+- Delete a stack:
+
+`pulumi stack rm {{stack_name}}`
 
 - Show stack outputs, including secrets, in plaintext:
 
@@ -30,7 +34,3 @@
 - Export the stack state to a JSON file:
 
 `pulumi stack export --file {{path/to/file.json}}`
-
-- Display help:
-
-`pulumi stack --help`

@@ -2,7 +2,7 @@
 
 > Kakoune is a mode-based code editor implementing the "multiple selections" paradigm.
 > Data can be selected and simultaneously edited in different locations, using multiple selections; users can also connect to the same session for collaborative editing.
-> More information: <https://kakoune.org>.
+> More information: <https://manned.org/kak>.
 
 - Open a file and enter normal mode, to execute commands:
 
@@ -10,7 +10,7 @@
 
 - Enter insert mode from normal mode, to write text into the file:
 
-`i`
+`<i>`
 
 - Escape insert mode, to go back to normal mode:
 
@@ -30,8 +30,8 @@
 
 - Insert the contents of a file:
 
-`!cat {{path/to/file}}<Enter>`
+`<!>cat {{path/to/file}}<Enter>`
 
 - Save the current file:
 
-`:w<Enter>`
+`<:>w<Enter>`

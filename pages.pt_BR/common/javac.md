@@ -1,7 +1,7 @@
 # javac
 
 > O compilador de aplicações Java.
-> Mais informações: <https://docs.oracle.com/en/java/javase/20/docs/specs/man/javac.html>.
+> Mais informações: <https://docs.oracle.com/en/java/javase/25/docs/specs/man/javac.html>.
 
 - Compila um arquivo `.java`:
 

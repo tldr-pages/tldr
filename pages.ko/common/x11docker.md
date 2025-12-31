@@ -2,7 +2,7 @@
 
 > Docker 컨테이너에서 GUI 애플리케이션 및 데스크톱 UI를 안전하게 실행.
 > 같이 보기: `xephyr`.
-> 더 많은 정보: <https://github.com/mviereck/x11docker>.
+> 더 많은 정보: <https://github.com/mviereck/x11docker#terminal-syntax>.
 
 - 컨테이너에서 VLC 실행:
 

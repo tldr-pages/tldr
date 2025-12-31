@@ -1,7 +1,7 @@
 # electrum
 
 > 인체공학적 Bitcoin 지갑 및 개인 키 관리.
-> 더 많은 정보: <https://electrum.org>.
+> 더 많은 정보: <https://manned.org/electrum>.
 
 - 새로운 지갑 생성:
 

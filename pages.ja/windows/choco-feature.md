@@ -1,7 +1,7 @@
 # choco feature
 
 > Chocolateyで機能を操作します。
-> 詳しくはこちら: <https://chocolatey.org/docs/commands-feature>
+> もっと詳しく: <https://docs.chocolatey.org/en-us/choco/commands/feature/>。
 
 - 利用可能な機能のリストを表示します:
 

@@ -1,7 +1,7 @@
 # gunexpand
 
-> यह आदेश `-p linux unexpand` का उपनाम है।
+> यह आदेश `unexpand` का उपनाम है।
 
 - मूल आदेश के लिए दस्तावेज़ देखें:
 
-`tldr -p linux unexpand`
+`tldr unexpand`

@@ -11,14 +11,14 @@
 
 `export -n {{VARIABLE}}`
 
-- Export a function to child processes:
+- Export a [f]unction to child processes:
 
 `export -f {{FUNCTION_NAME}}`
 
-- Append a pathname to the environment variable `PATH`:
+- Append a pathname to the environment variable `$PATH`:
 
 `export PATH=$PATH:{{path/to/append}}`
 
-- Display a list of active exported variables in shell command form:
+- [p]rint a list of active exported variables in shell command form:
 
 `export -p`

@@ -2,7 +2,7 @@
 
 > Tampilkan dan simpan informasi suatu inventaris Ansible (inventory).
 > Lihat juga: `ansible`.
-> Informasi lebih lanjut: <https://docs.ansible.com/ansible/latest/cli/ansible-inventory.html>.
+> Informasi lebih lanjut: <https://docs.ansible.com/projects/ansible/latest/cli/ansible-inventory.html>.
 
 - Tampilkan informasi inventaris default:
 
@@ -10,11 +10,11 @@
 
 - Tampilkan suatu inventaris kustom:
 
-`ansible-inventory --list --inventory {{jalan/menuju/berkas_atau_skrip_atau_direktori}}`
+`ansible-inventory --list {{[-i|--inventory-file]}} {{jalan/menuju/berkas_atau_skrip_atau_direktori}}`
 
 - Tampilkan informasi inventaris default dalam format YAML:
 
-`ansible-inventory --list --yaml`
+`ansible-inventory --list {{[-y|--yaml]}}`
 
 - Simpan informasi inventaris default ke dalam suatu berkas teks:
 

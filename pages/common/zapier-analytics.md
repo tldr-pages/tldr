@@ -9,8 +9,8 @@
 
 - Change how much information is collected:
 
-`zapier analytics {{-m|--mode}} {{enabled|anonymous|disabled}}`
+`zapier analytics {{[-m|--mode]}} {{enabled|anonymous|disabled}}`
 
 - Show extra debugging output:
 
-`zapier analytics {{-m|--mode}} {{enabled|anonymous|disabled}} {{-d|--debug}}`
+`zapier analytics {{[-m|--mode]}} {{enabled|anonymous|disabled}} {{[-d|--debug]}}`

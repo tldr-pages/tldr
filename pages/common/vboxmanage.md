@@ -1,22 +1,38 @@
 # VBoxManage
 
-> Command-line interface to VirtualBox.
+> Interface with VirtualBox.
 > Includes all the functionality of the GUI and more.
 > Some subcommands such as `startvm` have their own usage documentation.
 > More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-intro>.
 
-- Execute a VboxManage subcommand:
+- List all VirtualBox virtual machines:
 
-`VBoxManage {{subcommand}}`
+`VBoxManage list vms`
+
+- Show information about a particular virtual machine:
+
+`VBoxManage showvminfo {{name|uuid}}`
+
+- Start a virtual machine:
+
+`VBoxManage startvm {{name|uuid}}`
+
+- Start a virtual machine in headless mode:
+
+`VBoxManage startvm {{name|uuid}} --type headless`
+
+- Shutdown the virtual machine and save its current state:
+
+`VBoxManage controlvm {{name|uuid}} savestate`
+
+- Shutdown down the virtual machine without saving its state:
+
+`VBoxManage controlvm {{name|uuid}} poweroff`
+
+- Update VBox extension packs:
+
+`VBoxManage extpack install --replace {{VboxExtensionPackFileName}}`
 
 - Display help:
 
 `VBoxManage --help`
-
-- Display help for a specific subcommand:
-
-`VBoxManage --help {{clonevm|import|export|startvm|...}}`
-
-- Display version:
-
-`VBoxManage --version`

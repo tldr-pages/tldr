@@ -1,7 +1,7 @@
 # gtest
 
-> To polecenie jest aliasem `-p linux test`.
+> To polecenie jest aliasem GNU `test`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux test`
+`tldr test`

@@ -1,7 +1,7 @@
 # systemd-cgls
 
 > Show the contents of the selected Linux control group hierarchy in a tree.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemd-cgls.html>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemd-cgls.html>.
 
 - Display the whole control group hierarchy on your system:
 
@@ -13,4 +13,4 @@
 
 - Display the control group hierarchy of one or more systemd units:
 
-`systemd-cgls --unit {{unit1 unit2 ...}}`
+`systemd-cgls {{[-u|--unit]}} {{unit1 unit2 ...}}`

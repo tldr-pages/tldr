@@ -17,22 +17,22 @@
 
 `sftp {{host}}`
 
-- Transfer remote file to the local system:
+- [Interactive] Transfer remote file to the local system:
 
-`get {{/path/remote_file}}`
+`get {{path/to/remote_file}}`
 
-- Transfer local file to the remote system:
+- [Interactive] Transfer local file to the remote system:
 
-`put {{/path/local_file}}`
+`put {{path/to/local_file}}`
 
-- Transfer remote directory to the local system recursively (works with `put` too):
+- [Interactive] Transfer remote directory to the local system recursively (works with `put` too):
 
-`get -R {{/path/remote_directory}}`
+`get -R {{path/to/remote_directory}}`
 
-- Get list of files on local machine:
+- [Interactive] Get list of files on local machine:
 
 `lls`
 
-- Get list of files on remote machine:
+- [Interactive] et list of files on remote machine:
 
 `ls`

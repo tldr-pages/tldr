@@ -13,11 +13,11 @@
 
 - Start an HTTP server with CORS enabled by including the `Access-Control-Allow-Origin: *` header in all responses:
 
-`serve --cors`
+`serve {{[-C|--cors]}}`
 
 - Start an HTTP server on the default port rewriting all not-found requests to the `index.html` file:
 
-`serve --single`
+`serve {{[-s|--single]}}`
 
 - Start an HTTPS server on the default port using the specified certificate:
 
@@ -25,7 +25,7 @@
 
 - Start an HTTP server on the default port using a specific configuration file:
 
-`serve --config {{path/to/serve.json}}`
+`serve {{[-c|--config]}} {{path/to/serve.json}}`
 
 - Display help:
 

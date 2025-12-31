@@ -1,4 +1,4 @@
-# vboxmanage-startvm
+# VBoxManage startvm
 
 > Start a virtual machine.
 > More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-startvm>.
@@ -21,4 +21,4 @@
 
 - Start a virtual machine with an environment variable pair name value:
 
-`VBoxManage startvm {{vm_name|uuid}} --put-env={{name}}={{value}}`
+`VBoxManage startvm {{vm_name|uuid}} {{[-E|--putenv]}} {{name}}={{value}}`

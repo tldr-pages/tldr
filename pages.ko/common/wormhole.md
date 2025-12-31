@@ -1,7 +1,7 @@
 # wormhole
 
 > 한 컴퓨터에서 다른 컴퓨터로 안전하게 전송.
-> 더 많은 정보: <https://magic-wormhole.readthedocs.io>.
+> 더 많은 정보: <https://magic-wormhole.readthedocs.io/en/latest/welcome.html#cli-tool>.
 
 - 파일 전송:
 

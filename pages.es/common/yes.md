@@ -1,8 +1,8 @@
 # yes
 
 > Retorna algo repetidamente.
-> Este comando es frecuentemente utilizado para aceptar todas las confirmaciones en comandos de instalación (como apt-get).
-> Más información: <https://www.gnu.org/software/coreutils/yes>.
+> Este comando es frecuentemente utilizado para aceptar todas las confirmaciones en comandos de instalación (como `apt-get`).
+> Más información: <https://www.gnu.org/software/coreutils/manual/html_node/yes-invocation.html>.
 
 - Retorna repetidamente "mensaje":
 

@@ -1,7 +1,7 @@
 # fc
 
 > 편집할 최신 명령을 열고 실행.
-> 더 많은 정보: <https://manned.org/fc>.
+> 더 많은 정보: <https://www.gnu.org/software/bash/manual/bash.html#index-fc>.
 
 - 기본 시스템 편집기에서 마지막 명령을 열고 편집 후 실행:
 

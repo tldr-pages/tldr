@@ -1,7 +1,7 @@
 # jp2a
 
 > Convert JPEG images to ASCII.
-> More information: <https://csl.name/jp2a/>.
+> More information: <https://manned.org/jp2a>.
 
 - Read JPEG image from a file and print in ASCII:
 

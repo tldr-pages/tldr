@@ -2,7 +2,7 @@
 
 > A frontend for emulators, game engines and media players.
 > The reference implementation of the libretro API.
-> More information: <https://github.com/libretro/RetroArch>.
+> More information: <https://manned.org/retroarch>.
 
 - Start in the menu mode:
 
@@ -10,7 +10,7 @@
 
 - Start in full screen mode:
 
-`retroarch --fullscreen`
+`retroarch {{[-f|--fullscreen]}}`
 
 - List all compiled features:
 
@@ -18,11 +18,11 @@
 
 - Set the path of a configuration file:
 
-`retroarch --config={{path/to/config_file}}`
+`retroarch {{[-c|--config]}} {{path/to/config_file}}`
 
 - Display help:
 
-`retroarch --help`
+`retroarch {{[-h|--help]}}`
 
 - Display version:
 

@@ -21,7 +21,7 @@
 
 - A comma-separated list of files to load before processing:
 
-`phpcbf {{path/to/directory}} --bootstrap {{path/to/file1,path/to/file2,...)}}`
+`phpcbf {{path/to/directory}} --bootstrap {{path/to/file1,path/to/file2,...}}`
 
 - Don't recurse into subdirectories:
 

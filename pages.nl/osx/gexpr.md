@@ -1,7 +1,7 @@
 # gexpr
 
-> Dit commando is een alias van `-p linux expr`.
+> Dit commando is een alias van GNU `expr`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux expr`
+`tldr expr`

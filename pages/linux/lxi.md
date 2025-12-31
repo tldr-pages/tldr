@@ -1,7 +1,7 @@
 # lxi
 
 > Control LXI compatible instruments such as oscilloscopes.
-> More information: <https://github.com/lxi-tools/lxi-tools>.
+> More information: <https://github.com/lxi-tools/lxi-tools#32-lxi>.
 
 - Discover LXI devices on available networks:
 
@@ -9,16 +9,16 @@
 
 - Capture a screenshot, detecting a plugin automatically:
 
-`lxi screenshot --address {{ip_address}}`
+`lxi screenshot {{[-a|--address]}} {{ip_address}}`
 
 - Capture a screenshot using a specified plugin:
 
-`lxi screenshot --address {{ip_address}} --plugin {{rigol-1000z}}`
+`lxi screenshot {{[-a|--address]}} {{ip_address}} {{[-p|--plugin]}} {{rigol-1000z}}`
 
 - Send an SCPI command to an instrument:
 
-`lxi scpi --address {{ip_address}} "{{*IDN?}}"`
+`lxi scpi {{[-a|--address]}} {{ip_address}} "{{*IDN?}}"`
 
 - Run a benchmark for request and response performance:
 
-`lxi benchmark --address {{ip_address}}`
+`lxi benchmark {{[-a|--address]}} {{ip_address}}`

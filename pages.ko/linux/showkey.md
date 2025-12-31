@@ -9,16 +9,16 @@
 
 - 스캔코드를 16진수로 표시:
 
-`sudo showkey {{-s|--scancodes}}`
+`sudo showkey {{[-s|--scancodes]}}`
 
 - 키코드를 10진수로 표시 (기본값):
 
-`sudo showkey {{-k|--keycodes}}`
+`sudo showkey {{[-k|--keycodes]}}`
 
 - 키코드를 ASCII, 10진수, 16진수로 표시:
 
-`sudo showkey {{-a|--ascii}}`
+`sudo showkey {{[-a|--ascii]}}`
 
 - 프로그램 종료:
 
-`Ctrl + d`
+`<Ctrl d>`

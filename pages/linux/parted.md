@@ -1,37 +1,29 @@
 # parted
 
 > A partition manipulation program.
-> See also: `partprobe`.
-> More information: <https://www.gnu.org/software/parted/parted.html>.
+> See also: `parted.interactive`, `partprobe`.
+> More information: <https://www.gnu.org/software/parted/manual/parted.html#Invoking-Parted>.
 
 - List partitions on all block devices:
 
-`sudo parted --list`
+`sudo parted {{[-l|--list]}}`
+
+- Create a new partition table of the specified label-type:
+
+`sudo parted {{/dev/sdX}} mklabel {{aix|amiga|bsd|dvh|gpt|loop|mac|msdos|pc98|sun}}`
+
+- Create a new `gpt` partition table with a 500MiB boot partition and give the rest for the system partition (`--script` skips user intervention prompts):
+
+`sudo parted {{/dev/sdX}} {{[-s|--script]}} mklabel gpt mkpart "{{boot_partition_name}}" 0% 500MiB mkpart "{{system_partition_name}}" 500MiB 100%`
+
+- Set a partition to have its boot flag turned on:
+
+`sudo parted {{/dev/sdX}} set {{1}} boot on`
 
 - Start interactive mode with the specified disk selected:
 
 `sudo parted {{/dev/sdX}}`
 
-- Create a new partition table of the specified label-type:
+- Display help:
 
-`sudo parted --script {{/dev/sdX}} mklabel {{aix|amiga|bsd|dvh|gpt|loop|mac|msdos|pc98|sun}}`
-
-- Show partition information in interactive mode:
-
-`print`
-
-- Select a disk in interactive mode:
-
-`select {{/dev/sdX}}`
-
-- Create a 16 GB partition with the specified filesystem in interactive mode:
-
-`mkpart {{primary|logical|extended}} {{btrfs|ext2|ext3|ext4|fat16|fat32|hfs|hfs+|linux-swap|ntfs|reiserfs|udf|xfs}} {{0%}} {{16G}}`
-
-- Resize a partition in interactive mode:
-
-`resizepart {{/dev/sdXN}} {{end_position_of_partition}}`
-
-- Remove a partition in interactive mode:
-
-`rm {{/dev/sdXN}}`
+`parted {{[-h|--help]}}`

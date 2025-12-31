@@ -1,7 +1,11 @@
 # doxygen
 
 > A documentation system for various programming languages.
-> More information: <https://www.doxygen.nl>.
+> More information: <https://manned.org/doxygen>.
+
+- Generate documentation, using `Doxyfile` as configuration file if it exists:
+
+`doxygen`
 
 - Generate a default template configuration file `Doxyfile`:
 

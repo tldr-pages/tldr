@@ -1,7 +1,7 @@
 # resolveip
 
 > Resolve hostnames to their IP addresses and vice versa.
-> More information: <https://mariadb.com/kb/en/resolveip/>.
+> More information: <https://mariadb.com/docs/server/clients-and-utilities/networking-tools/resolveip>.
 
 - Resolve a hostname to an IP address:
 
@@ -11,6 +11,6 @@
 
 `resolveip {{1.1.1.1}}`
 
-- Silent mode. Produces less output:
+- Resolve a hostname to an IP address with less output:
 
-`resolveip --silent {{example.org}}`
+`resolveip {{[-s|--silent]}} {{example.org}}`

@@ -1,9 +1,9 @@
 # choco pack
 
-> NuGet 사양을 `nupkg` 파일로 패키징.
-> 더 많은 정보: <https://chocolatey.org/docs/commands-pack>.
+> NuGet 사양을 `.nupkg` 파일로 패키징.
+> 더 많은 정보: <https://docs.chocolatey.org/en-us/create/commands/pack/>.
 
-- NuGet 사양을 `nupkg` 파일로 패키징:
+- NuGet 사양을 `.nupkg` 파일로 패키징:
 
 `choco pack {{경로\대상\사양_파일}}`
 

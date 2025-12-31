@@ -1,7 +1,7 @@
 # python
 
 > Interpretador da linguagem Python.
-> Mais informações: <https://www.python.org>.
+> Mais informações: <https://docs.python.org/using/cmdline.html>.
 
 - Inicia o REPL (shell interativo):
 

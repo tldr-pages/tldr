@@ -6,4 +6,4 @@
 
 - Execute a shell command on each image in a Netpbm file:
 
-`pampick {{image_number1 image_number2 ...}} < {{path/to/image.pam}} > {{path/to/output.pam}}`
+`pampick < {{path/to/image.pam}} {{image_number1 image_number2 ...}} > {{path/to/output.pam}}`

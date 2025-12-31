@@ -1,7 +1,7 @@
 # aws s3 ls
 
 > List AWS S3 buckets, folders (prefixes), and files (objects).
-> More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/ls.html>.
+> More information: <https://docs.aws.amazon.com/cli/latest/reference/s3/ls.html>.
 
 - List all buckets:
 
@@ -21,7 +21,7 @@
 
 - List all files in a path with a given prefix:
 
-`aws s3 ls --recursive {{bucket_name}}/{{path/to/directory/}}{{prefix}}`
+`aws s3 ls --recursive {{bucket_name}}/{{path/to/directory}}/{{prefix}}`
 
 - Display help:
 

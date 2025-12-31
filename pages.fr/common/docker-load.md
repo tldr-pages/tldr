@@ -1,16 +1,7 @@
 # docker load
 
-> Charge des images Docker depuis des fichiers ou `stdin`.
-> Plus d'informations : <https://docs.docker.com/reference/cli/docker/image/load/>.
+> Cette commande est un alias de `docker image load`.
 
-- Charge une image Docker depuis `stdin` :
+- Affiche la documentation de la commande originale :
 
-`docker load < {{chemin/vers/fichier_image.tar}}`
-
-- Charge une image Docker depuis un fichier spécifique :
-
-`docker load --input {{chemin/vers/fichier_image.tar}}`
-
-- Charge une image Docker depuis un fichier spécifique en mode silencieux :
-
-`docker load --quiet --input {{chemin/vers/fichier_image.tar}}`
+`tldr docker image load`

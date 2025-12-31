@@ -1,7 +1,7 @@
 # gvdir
 
-> To polecenie jest aliasem `-p linux vdir`.
+> To polecenie jest aliasem GNU `vdir`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux vdir`
+`tldr vdir`

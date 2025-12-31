@@ -2,7 +2,7 @@
 
 > Buat suatu cabang (branch) baru dalam suatu repositori Git.
 > Bagian dari `git-extras`.
-> Informasi lebih lanjut: <https://github.com/tj/git-extras/blob/master/Commands.md#git-create-branch>.
+> Informasi lebih lanjut: <https://manned.org/git-create-branch>.
 
 - Buat suatu cabang baru pada repositori lokal:
 

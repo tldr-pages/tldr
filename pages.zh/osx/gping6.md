@@ -1,7 +1,7 @@
 # gping6
 
-> 这是 `-p linux ping6` 命令的一个别名。
+> 这是 `ping6` 命令的一个别名。
 
 - 原命令的文档在：
 
-`tldr -p linux ping6`
+`tldr ping6`

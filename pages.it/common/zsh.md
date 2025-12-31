@@ -2,7 +2,7 @@
 
 > Z SHell.
 > Inteprete da linea di comando compatibile con `bash` e `sh`.
-> Maggiori informazioni: <https://www.zsh.org>.
+> Maggiori informazioni: <https://zsh.sourceforge.io/Doc/Release/Invocation.html#Invocation>.
 
 - Fai partire l'interprete interattivo da linea di comando:
 

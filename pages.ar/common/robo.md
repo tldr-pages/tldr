@@ -1,7 +1,7 @@
 # robo
 
 > مشغل مهام PHP.
-> لمزيد من التفاصيل: <https://robo.li/>.
+> لمزيد من التفاصيل: <https://robo.li/getting-started.html>.
 
 - عرض قائمة الأوامر المتوفرة:
 

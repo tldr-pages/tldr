@@ -1,7 +1,7 @@
 # gnuplot
 
 > 다양한 포맷으로 출력하는 그래프 플로터.
-> 더 많은 정보: <http://www.gnuplot.info/>.
+> 더 많은 정보: <https://manned.org/gnuplot>.
 
 - 대화형 그래프 플로팅 쉘을 시작:
 

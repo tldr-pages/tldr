@@ -1,7 +1,7 @@
 # kahlan
 
 > PHP용 단위 테스트 및 행동 주도 개발 테스트 프레임워크.
-> 더 많은 정보: <https://kahlan.github.io>.
+> 더 많은 정보: <https://kahlan.github.io/docs/cli-options.html>.
 
 - "spec" 디렉토리의 모든 사양 실행:
 

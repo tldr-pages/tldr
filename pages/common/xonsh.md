@@ -2,7 +2,7 @@
 
 > Python-powered, cross-platform, Unix-gazing shell.
 > Write and mix sh/Python code in Xonsh (pronounced conch).
-> More information: <https://xon.sh>.
+> More information: <https://xon.sh/contents.html>.
 
 - Start an interactive shell session:
 

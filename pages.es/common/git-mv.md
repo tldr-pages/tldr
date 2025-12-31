@@ -13,4 +13,4 @@
 
 - Sobrescribe el archivo en la ruta objetivo si existe:
 
-`git mv --force {{archivo}} {{objetivo}}`
+`git mv {{[-f|--force]}} {{archivo}} {{objetivo}}`

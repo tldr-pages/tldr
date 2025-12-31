@@ -1,8 +1,8 @@
 # cargo
 
 > Beheer Rust projecten en hun afhankelijkheden (crates).
-> Sommige subcommando's zoals `build` hebben een eigen documentatie pagina.
-> Meer informatie: <https://doc.rust-lang.org/cargo>.
+> Sommige subcommando's zoals `build` hebben hun eigen documentatie.
+> Meer informatie: <https://doc.rust-lang.org/stable/cargo/>.
 
 - Zoek naar crates:
 
@@ -26,12 +26,12 @@
 
 - Bouw het Rust-project in de huidige map door gebruik te maken van het release-profiel:
 
-`cargo build --release`
+`cargo {{[b|build]}} {{[-r|--release]}}`
 
 - Bouw het Rust-project in de huidige map door gebruik te maken van de nachtelijkse compiler (vereist `rustup`):
 
-`cargo +nightly build`
+`cargo +nightly {{[b|build]}}`
 
-- Bouw met een gegeven aantal taken. (Standaard is het aantal CPU-kernen):
+- Bouw met een gegeven aantal taken (Standaard is het aantal CPU-kernen):
 
-`cargo build --jobs {{aantal_taken}}`
+`cargo {{[b|build]}} {{[-j|--jobs]}} {{aantal_taken}}`

@@ -1,7 +1,7 @@
 # tomb
 
 > 암호화된 저장 디렉터리를 관리하여 파일 시스템에서 안전하게 이동하고 숨길 수 있습니다.
-> 더 많은 정보: <https://www.dyne.org/software/tomb/>.
+> 더 많은 정보: <https://dyne.org/docs/tomb/manpage/>.
 
 - 초기 크기 100MB로 새로운 톰 생성:
 

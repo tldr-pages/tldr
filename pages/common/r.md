@@ -1,7 +1,7 @@
 # R
 
 > R language interpreter.
-> More information: <https://www.r-project.org>.
+> More information: <https://manned.org/R>.
 
 - Start a REPL (interactive shell):
 
@@ -13,7 +13,7 @@
 
 - Execute a file:
 
-`R -f {{path/to/file.R}}`
+`R {{[-f|--file]}} {{path/to/file.R}}`
 
 - Execute an R expression and then exit:
 
@@ -21,7 +21,7 @@
 
 - Run R with a debugger:
 
-`R -d {{debugger}}`
+`R {{[-d|--debugger]}} {{debugger}}`
 
 - Check R packages from package sources:
 

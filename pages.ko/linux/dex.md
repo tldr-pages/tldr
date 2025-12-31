@@ -1,7 +1,7 @@
 # dex
 
 > DesktopEntry Execution은 응용 프로그램 유형의 DesktopEntry 파일을 생성하고 실행하는 프로그램입니다.
-> 더 많은 정보: <https://github.com/jceb/dex>.
+> 더 많은 정보: <https://github.com/jceb/dex#dex>.
 
 - 자동 시작 폴더의 모든 프로그램 실행:
 

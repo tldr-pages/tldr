@@ -1,37 +1,37 @@
 # curl
 
-> Mentransfer data dari atau ke server.
+> Mentransfer data dari atau menuju suatu server.
 > Mendukung sebagian besar protokol, termasuk HTTP, FTP, dan POP3.
 > Informasi lebih lanjut: <https://curl.se/docs/manpage.html>.
 
-- Unduh konten URL ke file:
+- Buat suatu permintaan HTTP GET dan tampilkan respons menuju `stdout`:
 
-`curl {{http://contoh.com}} --output {{namafile}}`
+`curl {{https://example.com}}`
 
-- Unduh file, simpan hasilnya dengan nama file yang ditentukan oleh URL:
+- Buat suatu permintaan HTTP GET, ikuti (fo[L]low) seluruh permintaan redirect `3xx`, dan tampilkan ([D]ump) seluruh data header beserta isi respons menuju `stdout`:
 
-`curl --remote-name {{http://contoh.com/namafile}}`
+`curl {{[-L|--location]}} {{[-D|--dump-header]}} - {{https://example.com}}`
 
-- Unduh file, mengikuti pengalihan lokasi, dan secara otomatis melanjutkan transfer file sebelumnya:
+- Unduh dan simpan suatu berkas dengan nama berkas yang ditentukan oleh URL:
 
-`curl --fail --remote-name --location --continue-at - {{http://contoh.com/filename}}`
+`curl {{[-O|--remote-name]}} {{http://contoh.com/nama_berkas.zip}}`
 
-- Mengirim data form yang telah di encode (permintaan POST atau tipe data `application/x-www-form-urlencoded`). Gunakan `--data @file_name` atau `--data @'-'` untuk membaca dari `stdin`:
+- Kirim suatu [d]ata dengan format form-encoded (permintaan POST dengan format data `application/x-www-form-urlencoded`). Gunakan `--data @file_name` atau `--data @'-'` untuk membaca dari `stdin`:
 
-`curl --data {{'name=bob'}} {{http://contoh.com/form}}`
+`curl {{[-X|--request]}} POST {{[-d|--data]}} {{'name=bob'}} {{http://example.com/form}}`
 
-- Mengirim sebuah permintaan dengan header tambahan, menggunakan metode HTTP kustom:
+- Kirim sebuah permintaan dengan suatu informasi header ekstra, menggunakan metode HTTP kustom yang dikirimkan menggunakan suatu pro[x]i (seperti BurpSuite), mengabaikan peringatan sertifikat TLS yang ditandatangani secara mandiri (self-signed):
 
-`curl --header {{'X-My-Header: 123'}} --request {{PUT}} {{http://contoh.com}}`
+`curl {{[-k|--insecure]}} {{[-x|--proxy]}} {{http://127.0.0.1:8080}} {{[-H|--header]}} {{'Authorization: Bearer token'}} {{[-X|--request]}} {{GET|PUT|POST|DELETE|PATCH|...}} {{https://example.com}}`
 
-- Mengirim data dalam format JSON, Menentukan jenis konten yang sesuai header:
+- Kirim data dalam format JSON, dengan menetapkan isi HTTP [H]eader Content-Type:
 
-`curl --data {{'{"name":"bob"}'}} --header {{'Content-Type: application/json'}} {{http://contoh.com/users/1234}}`
+`curl {{[-d|--data]}} {{'{"name":"bob"}'}} {{[-H|--header]}} {{'Content-Type: application/json'}} {{http://example.com/pengguna/1234}}`
 
-- Memberikan nama pengguna dan kata sandi untuk otentikasi server:
+- Gunakan suatu sertifikat klien dan berkas kunci dalam mengenkripsi permintaan HTTP, dengan mengabaikan proses validasi sertifikat TLS:
 
-`curl --user {{nama_pengguna}} {{http://contoh.com}}`
+`curl {{[-E|--cert]}} {{sertifikat_klien.pem}} --key {{kunci.pem}} {{[-k|--insecure]}} {{https://example.com}}`
 
-- Memberikan sertifikat klien dan kunci untuk sumber daya, melewati validasi sertifikat:
+- Ubah nama host menjadi alamat IP khusus, dengan keluaran [v]erbose (mirip dengan menyunting berkas `/etc/hosts` untuk resolusi DNS khusus):
 
-`curl --cert {{client.pem}} --key {{key.pem}} --insecure {{https://contoh.com}}`
+`curl {{[-v|--verbose]}} --resolve {{example.com}}:{{80}}:{{127.0.0.1}} {{http://example.com}}`

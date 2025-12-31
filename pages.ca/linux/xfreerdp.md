@@ -1,7 +1,7 @@
 # xfreerdp
 
 > Implementació lliure del protocol d'escriptori remot (_Remote Desktop Protocol_).
-> Més informació: <https://www.freerdp.com>.
+> Més informació: <https://github.com/FreeRDP/FreeRDP/wiki/CommandLineInterface-(possibly-not-up-to-date,-check-application-help-text-for-most-up-to-date-version)>.
 
 - Connecta amb un servidor FreeRDP:
 

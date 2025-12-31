@@ -9,8 +9,8 @@
 
 - Display information about the SGI file:
 
-`sgitopnm -verbose {{path/to/input.sgi}} > {{path/to/output.pnm}}`
+`sgitopnm {{[-verb|-verbose]}} {{path/to/input.sgi}} > {{path/to/output.pnm}}`
 
 - Extract channel n of the SGI file:
 
-`sgitopnm -channel {{n}} {{path/to/input.sgi}} > {{path/to/output.pnm}}`
+`sgitopnm {{[-c|-channel]}} {{n}} {{path/to/input.sgi}} > {{path/to/output.pnm}}`

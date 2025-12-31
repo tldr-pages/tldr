@@ -14,7 +14,7 @@
 
 - 현재 셸 세션에서 자동 완성 로드 (bash/zsh):
 
-`source <(gcrane completion bash/zsh)>`
+`source <(gcrane completion bash/zsh)`
 
 - 현재 셸 세션에서 자동 완성 로드 (fish):
 
@@ -34,4 +34,4 @@
 
 - 도움말 표시:
 
-`gcrane completion {{셸_이름}} {{-h|--help}}`
+`gcrane completion {{셸_이름}} {{[-h|--help]}}`

@@ -1,24 +1,7 @@
 # docker pull
 
-> Baixar imagens do Docker de um registro.
-> Mais informações: <https://docs.docker.com/reference/cli/docker/image/pull/>.
+> Este comando é um apelido de `docker image pull`.
 
-- Baixa uma imagem específica do Docker:
+- Veja documentação sobre o comando original:
 
-`docker pull {{imagem}}:{{tag}}`
-
-- Baixa uma imagem específica do Docker no modo silencioso:
-
-`docker pull --quiet {{imagem}}:{{tag}}`
-
-- Baixa todas as tags de uma imagem específica do Docker:
-
-`docker pull --all-tags {{imagem}}`
-
-- Baixa imagens do Docker para uma plataforma específica, por exemplo, linux/amd64:
-
-`docker pull --platform {{linux/amd64}} {{imagem}}:{{tag}}`
-
-- Exibe ajuda:
-
-`docker pull --help`
+`tldr docker image pull`

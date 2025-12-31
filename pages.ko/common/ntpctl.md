@@ -5,16 +5,16 @@
 
 - 모든 데이터 표시:
 
-`ntpctl -s {{a|all}}`
+`ntpctl -s {{[a|all]}}`
 
 - 각 피어에 대한 정보 표시:
 
-`ntpctl -s {{p|peers}}`
+`ntpctl -s {{[p|peers]}}`
 
 - 피어와 센서의 상태 및 시스템 시계 동기화 여부 표시:
 
-`ntpctl -s {{s|status}}`
+`ntpctl -s {{[s|status]}}`
 
 - 각 센서에 대한 정보 표시:
 
-`ntpctl -s {{S|Sensors}}`
+`ntpctl -s {{[S|Sensors]}}`

@@ -1,9 +1,7 @@
 # rustup install
 
-> Install or update Rust toolchains.
-> This command is an alias of `rustup update`, but can only install/update one toolchain at a time.
-> More information: <https://rust-lang.github.io/rustup>.
+> This command is an alias of `rustup toolchain install`.
 
-- Install or update a specific toolchain (see `rustup help toolchain` for more information):
+- View documentation for the original command:
 
-`rustup install {{toolchain}}`
+`tldr rustup toolchain`

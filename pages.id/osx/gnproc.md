@@ -1,7 +1,7 @@
 # gnproc
 
-> Perintah ini merupakan alias dari `-p linux nproc`.
+> Perintah ini merupakan alias dari `nproc`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux nproc`
+`tldr nproc`

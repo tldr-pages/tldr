@@ -1,7 +1,7 @@
 # go mod
 
 > Module maintenance.
-> More information: <https://golang.org/cmd/go/#hdr-Module_maintenance>.
+> More information: <https://pkg.go.dev/cmd/go#hdr-Module_maintenance>.
 
 - Initialize new module in current directory:
 

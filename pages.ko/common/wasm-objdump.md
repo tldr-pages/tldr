@@ -1,7 +1,7 @@
 # wasm-objdump
 
 > WebAssembly 바이너리의 정보를 표시.
-> 더 많은 정보: <https://github.com/WebAssembly/wabt>.
+> 더 많은 정보: <https://webassembly.github.io/wabt/doc/wasm-objdump.1.html>.
 
 - 주어진 바이너리의 섹션 헤더 표시:
 

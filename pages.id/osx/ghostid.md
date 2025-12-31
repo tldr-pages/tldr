@@ -1,7 +1,7 @@
 # ghostid
 
-> Perintah ini merupakan alias dari `-p linux hostid`.
+> Perintah ini merupakan alias dari `hostid`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux hostid`
+`tldr hostid`

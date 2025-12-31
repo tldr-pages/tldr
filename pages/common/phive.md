@@ -1,7 +1,7 @@
 # phive
 
 > The Phar Installation and Verification Environment for secure PHP application deployment.
-> More information: <https://phar.io>.
+> More information: <https://phar.io/#Usage>.
 
 - Display a list of available aliased Phars:
 
@@ -13,11 +13,11 @@
 
 - Install a specified Phar globally:
 
-`phive install {{alias|url}} --global`
+`phive install {{alias|url}} {{[-g|--global]}}`
 
 - Install a specified Phar to a target directory:
 
-`phive install {{alias|url}} --target {{path/to/directory}}`
+`phive install {{alias|url}} {{[-t|--target]}} {{path/to/directory}}`
 
 - Update all Phar files to the latest version:
 

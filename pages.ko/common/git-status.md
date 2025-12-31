@@ -10,19 +10,19 @@
 
 - [s]hort 형식으로 출력:
 
-`git status --short`
+`git status {{[-s|--short]}}`
 
 - 스테이징 영역과 작업 디렉토리의 변경 사항에 대한 [v]erbose 정보 표시:
 
-`git status --verbose --verbose`
+`git status {{[-vv|--verbose --verbose]}}`
 
 - [b]ranch 및 추적 정보 표시:
 
-`git status --branch`
+`git status {{[-b|--branch]}}`
 
 - [s]hort 형식으로 출력하면서 [b]ranch 정보 표시:
 
-`git status --short --branch`
+`git status {{[-sb|--short --branch]}}`
 
 - 현재 숨겨둔 엔트리의 수 표시:
 
@@ -30,4 +30,4 @@
 
 - 출력에 추적되지 않는 파일을 표시하지 않기:
 
-`git status --untracked-files=no`
+`git status {{[-uno|--untracked-files=no]}}`

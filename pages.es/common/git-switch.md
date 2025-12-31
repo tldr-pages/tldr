@@ -1,7 +1,7 @@
 # git switch
 
 > Alterna entre ramas Git. Requiere una versión 2.23+ de Git.
-> Vea también `git checkout`.
+> Vea también: `git checkout`.
 > Más información: <https://git-scm.com/docs/git-switch>.
 
 - Cambia a una rama existente:
@@ -10,11 +10,11 @@
 
 - Crea una nueva rama y se cambia a esta:
 
-`git switch --create {{nombre_de_la_rama}}`
+`git switch {{[-c|--create]}} {{nombre_de_la_rama}}`
 
 - Crea y cambia a una nueva rama basada en una confirmación específica:
 
-`git switch --create {{nombre_de_la_rama}} {{confirmación}}`
+`git switch {{[-c|--create]}} {{nombre_de_la_rama}} {{confirmación}}`
 
 - Cambia a la rama anterior:
 
@@ -26,4 +26,4 @@
 
 - Cambia a una rama y automáticamente fusiona la rama actual y cualquier cambio sin confirmación en ella:
 
-`git switch --merge {{nombre_de_la_rama}}`
+`git switch {{[-m|--merge]}} {{nombre_de_la_rama}}`

@@ -1,7 +1,7 @@
 # pulumi destroy
 
 > 스택 내의 모든 기존 리소스를 제거합니다.
-> 더 많은 정보: <https://www.pulumi.com/docs/cli/commands/pulumi_destroy/>.
+> 더 많은 정보: <https://www.pulumi.com/docs/iac/cli/commands/pulumi_destroy/>.
 
 - 현재 스택의 모든 리소스를 제거:
 
@@ -9,11 +9,11 @@
 
 - 특정 스택의 모든 리소스를 제거:
 
-`pulumi destroy --stack {{스택}}`
+`pulumi destroy {{[-s|--stack]}} {{스택}}`
 
 - 미리 보기 후 자동 승인하고 리소스를 제거:
 
-`pulumi destroy --yes`
+`pulumi destroy {{[-y|--yes]}}`
 
 - 보호된 리소스를 제거 대상에서 제외:
 

@@ -7,7 +7,7 @@
 
 `sudo socat - TCP-LISTEN:8080,fork`
 
-- Listen on a port using SSL and print to STDOUT:
+- Listen on a port using SSL and print to `stdout`:
 
 `sudo socat OPENSSL-LISTEN:4433,reuseaddr,cert=./cert.pem,cafile=./ca.cert.pem,key=./key.pem,verify=0 STDOUT`
 
@@ -18,3 +18,11 @@
 - Forward incoming data of a local port to another host and port:
 
 `sudo socat TCP-LISTEN:80,fork TCP4:www.example.com:80`
+
+- Send data with multicast routing scheme:
+
+`{{echo "Hello Multicast"}} | socat - UDP4-DATAGRAM:{{224.0.0.1}}:{{5000}}`
+
+- Receive data from a multicast:
+
+`socat - UDP4-RECVFROM:{{5000}}`

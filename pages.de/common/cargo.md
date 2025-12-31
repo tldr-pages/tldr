@@ -2,7 +2,7 @@
 
 > Verwalte Rust-Projekte und deren Abhängigkeiten (crates).
 > Manche Unterbefehle wie `build` sind separat dokumentiert.
-> Weitere Informationen: <https://doc.rust-lang.org/cargo>.
+> Weitere Informationen: <https://doc.rust-lang.org/stable/cargo/>.
 
 - Suche nach Abhängigkeiten (crates):
 
@@ -26,8 +26,8 @@
 
 - Erstelle (bzw. kompiliere) ein Rust-Projekt im aktuellen Verzeichnis:
 
-`cargo build`
+`cargo {{[b|build]}}`
 
 - Erstelle (bzw. kompiliere) ein Rust-Projekt mit einer bestimmten Anzahl an Threads (standardmäßig die Anzahl der CPU-Kerne):
 
-`cargo build --jobs {{thread_anzahl}}`
+`cargo {{[b|build]}} {{[-j|--jobs]}} {{thread_anzahl}}`

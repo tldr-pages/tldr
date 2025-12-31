@@ -1,7 +1,7 @@
 # beanstalkd
 
 > Un semplice e generico gestore di code di lavoro.
-> Maggiori informazioni: <https://beanstalkd.github.io/>.
+> Maggiori informazioni: <https://manned.org/beanstalkd>.
 
 - Avvia beanstalkd, ascoltando sulla porta 11300:
 

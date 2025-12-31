@@ -9,4 +9,4 @@
 
 - Initiate a faster but less thorough garbage collection process:
 
-`dolt gc --shallow`
+`dolt gc {{[-s|--shallow]}}`

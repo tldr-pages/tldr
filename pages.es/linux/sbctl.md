@@ -14,7 +14,7 @@
 
 - Inscribe las claves de arranque seguro personalizadas y los certificados de proveedor UEFI de Microsoft:
 
-`sbctl enroll-keys --microsoft`
+`sbctl enroll-keys {{[-m|--microsoft]}}`
 
 - Ejecuta automáticamente `create-keys` y `enroll-keys` basado en los parámetros de `/etc/sbctl/sbctl.conf`:
 
@@ -22,7 +22,7 @@
 
 - Firma un binario EFI con la clave creada y guarda el archivo en la base de datos:
 
-`sbctl sign {{-s|--save}} {{ruta/al/binario_efi}}`
+`sbctl sign {{[-s|--save]}} {{ruta/al/binario_efi}}`
 
 - Vuelve a firmar todos los archivos guardados:
 

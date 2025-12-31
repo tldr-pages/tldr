@@ -18,4 +18,4 @@
 
 - Añade los cambios de una confirmación al directorio de trabajo, sin crear una confirmación:
 
-`git cherry-pick --no-commit {{confirmación}}`
+`git cherry-pick {{[-n|--no-commit]}} {{confirmación}}`

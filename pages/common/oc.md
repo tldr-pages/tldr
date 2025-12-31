@@ -2,7 +2,7 @@
 
 > The OpenShift Container Platform CLI.
 > Allows for application and container management.
-> More information: <https://docs.openshift.com/container-platform/3.11/cli_reference/get_started_cli.html>.
+> More information: <https://docs.redhat.com/en/documentation/openshift_container_platform/4.18/html/cli_tools/index>.
 
 - Log in to the OpenShift Container Platform server:
 

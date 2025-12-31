@@ -1,7 +1,7 @@
 # op
 
 > Official CLI for 1Password's desktop app.
-> More information: <https://developer.1password.com/docs/cli/reference>.
+> More information: <https://developer.1password.com/docs/cli/reference/>.
 
 - Sign in to a 1Password account:
 

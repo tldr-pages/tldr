@@ -1,7 +1,7 @@
 # ghostid
 
-> यह आदेश `-p linux hostid` का उपनाम है।
+> यह आदेश `hostid` का उपनाम है।
 
 - मूल आदेश के लिए दस्तावेज़ देखें:
 
-`tldr -p linux hostid`
+`tldr hostid`

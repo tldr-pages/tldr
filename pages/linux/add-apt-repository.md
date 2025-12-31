@@ -1,7 +1,7 @@
 # add-apt-repository
 
 > Manage `apt` repository definitions.
-> More information: <https://manned.org/apt-add-repository>.
+> More information: <https://manned.org/add-apt-repository>.
 
 - Add a new `apt` repository:
 
@@ -9,7 +9,7 @@
 
 - Remove an `apt` repository:
 
-`add-apt-repository --remove {{repository_spec}}`
+`add-apt-repository {{[-r|--remove]}} {{repository_spec}}`
 
 - Update the package cache after adding a repository:
 
@@ -17,4 +17,4 @@
 
 - Allow source packages to be downloaded from the repository:
 
-`add-apt-repository --enable-source {{repository_spec}}`
+`add-apt-repository {{[-s|--enable-source]}} {{repository_spec}}`

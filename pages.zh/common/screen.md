@@ -1,8 +1,8 @@
 # screen
 
 > 在远程服务器上保持会话打开。通过单个 SSH 连接管理多个窗口。
-> 类似工具请参阅 `tmux` 和 `zellij`。
-> 更多信息：<https://manned.org/screen>.
+> 另请参阅：`tmux` 和 `zellij`。
+> 更多信息：<https://manned.org/screen>。
 
 - 启动一个新的 screen 会话：
 
@@ -26,11 +26,11 @@
 
 - 从当前 screen 会话中分离（先按 `Ctrl + A` 然后按 `D` 分离会话）：
 
-`<Ctrl> + A, D`
+`<Ctrl a><d>`
 
 - 关闭当前 screen 会话：
 
-`<Ctrl> + A, K`
+`<Ctrl a><k>`
 
 - 关闭一个已经分离的 screen 会话：
 

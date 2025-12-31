@@ -1,4 +1,4 @@
-# vboxmanage-unregistervm
+# VBoxManage unregistervm
 
 > 가상 머신(VM)을 등록 해제.
 > 더 많은 정보: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-unregistervm>.

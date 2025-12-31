@@ -1,7 +1,7 @@
 # cd
 
 > Canvia el directori actual.
-> Més informació: <https://manned.org/cd>.
+> Més informació: <https://www.gnu.org/software/bash/manual/bash.html#index-cd>.
 
 - Accedeix al directori donat:
 

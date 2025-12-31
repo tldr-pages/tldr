@@ -1,7 +1,7 @@
 # pyinfra
 
 > 대규모 인프라를 자동화.
-> 더 많은 정보: <https://docs.pyinfra.com>.
+> 더 많은 정보: <https://docs.pyinfra.com/en/3.x/cli.html>.
 
 - SSH를 통해 명령 실행:
 

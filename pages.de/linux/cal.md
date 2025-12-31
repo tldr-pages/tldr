@@ -9,11 +9,11 @@
 
 - Zeige den vorherigen, aktuellen und nächsten Monat an:
 
-`cal -3`
+`cal {{[-3|--three]}}`
 
 - Verwende Montag als ersten Tag der Woche:
 
-`cal --monday`
+`cal {{[-m|--monday]}}`
 
 - Zeige den Kalender für ein bestimmtes Jahr an (4 Ziffern):
 

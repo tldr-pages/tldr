@@ -1,6 +1,6 @@
 # sdcv
 
-> StarDict, a command-line dictionary client.
+> StarDict, a dictionary client.
 > Dictionaries are provided separately from the client.
 > More information: <https://manned.org/sdcv>.
 

@@ -16,13 +16,21 @@
 
 `sudo pacman -Rs {{paket_ismi}}`
 
-- İndirilmiş paket ve sürümleri sırala:
+- Paket veritabanında `regex` veya anahter kelime ile ara:
 
-`pacman -Q`
+`pacman -Ss "{{search_pattern}}"`
+
+- Belirli bir dosyayı içeren paketleri veritabanında ara:
+
+`pacman -F "{{file_name}}"`
 
 - Sadece özellikle belirtilen paket ve sürümleri sırala:
 
 `pacman -Qe`
+
+- Orphan paketleri listele (bağımlılık olarak kurulmuş ama aslında hiçbir paket tarafından gerekmeyenler):
+
+`pacman -Qtdq`
 
 - Paket çerezlerini boş alan açmak için temizle:
 

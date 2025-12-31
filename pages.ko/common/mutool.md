@@ -1,7 +1,7 @@
 # mutool
 
 > PDF 파일에서 데이터를 변환, 정보 조회 및 추출.
-> 더 많은 정보: <https://mupdf.readthedocs.io/en/latest/mupdf-command-line.html>.
+> 더 많은 정보: <https://mupdf.readthedocs.io/en/latest/tools/mutool.html>.
 
 - 페이지 범위를 PNG로 변환 (참고: 출력 자리 표시자에서 `%nd`는 `%d` 또는 `%2d`와 같은 인쇄 수정자로 대체해야 함):
 

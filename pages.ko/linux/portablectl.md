@@ -1,7 +1,7 @@
 # portablectl
 
 > Linux 시스템에서 포터블 서비스 이미지를 관리하고 배포하기 위한 systemd 유틸리티.
-> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/portablectl.html>.
+> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/latest/portablectl.html>.
 
 - 포터블 이미지 검색 경로에서 발견된 사용 가능한 포터블 서비스 이미지 나열:
 

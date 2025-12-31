@@ -13,24 +13,24 @@
 
 - Navigate the board:
 
-`{{h|j|k|l}} OR {{Left|Down|Up|Right arrow key}}`
+`{{<h>|<j>|<k>|<l>|<ArrowKeys>}}`
 
 - Delete a number:
 
-`{{Backspace|x}}`
+`{{<Backspace>|<x>}}`
 
 - Get a hint:
 
-`H`
+`<H>`
 
 - See the complete solution:
 
-`S`
+`<S>`
 
 - Create a new puzzle:
 
-`N`
+`<N>`
 
 - Quit the game:
 
-`Q`
+`<Q>`

@@ -1,7 +1,7 @@
 # nordvpn
 
 > Kommandozeilen-Schnittstelle für NordVPN.
-> Weitere Informationen: <https://nordvpn.com/download/linux/>.
+> Weitere Informationen: <https://support.nordvpn.com/hc/en-us/articles/20196094470929-Installing-NordVPN-on-Linux-distributions>.
 
 - Interaktiv bei einem NordVPN-Konto anmelden:
 

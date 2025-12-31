@@ -1,12 +1,12 @@
 # tail
 
 > Toon het laatste deel van een bestand.
-> Bekijk ook: `head`.
+> Zie ook: `head`.
 > Meer informatie: <https://keith.github.io/xcode-man-pages/tail.1.html>.
 
-- Toon laatste aantal regels in een bestand:
+- Toon de laatste acht regels in een bestand:
 
-`tail -n {{8}} {{pad/naar/bestand}}`
+`tail -n 8 {{pad/naar/bestand}}`
 
 - Toon een bestand vanaf een specifiek regelnummer:
 
@@ -16,14 +16,14 @@
 
 `tail -c {{8}} {{pad/naar/bestand}}`
 
-- Toon de laatste regels van een bestand en blijf het bestand lezen tot `Ctrl + C`:
+- Toon de laatste regels van een bestand en blijf het bestand lezen tot `<Ctrl c>`:
 
 `tail -f {{pad/naar/bestand}}`
 
-- Blijf het bestand lezen tot `Ctrl + C`, ook als het bestand niet toegangelijk is:
+- Blijf het bestand lezen tot `<Ctrl c>`, ook als het bestand niet toegangelijk is:
 
 `tail -F {{pad/naar/bestand}}`
 
-- Toon de laatste aantal regels in een bestand en ververs iedere 'n' seconden:
+- Toon de laatste `aantal` regels in een bestand en ververs iedere `seconden` seconden:
 
-`tail -n {{8}} -s {{10}} -f {{pad/naar/bestand}}`
+`tail -n {{aantal}} -s {{seconden}} -f {{pad/naar/bestand}}`

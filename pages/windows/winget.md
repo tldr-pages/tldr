@@ -3,13 +3,13 @@
 > Windows Package Manager.
 > More information: <https://learn.microsoft.com/windows/package-manager/winget>.
 
-- Install a package:
+- Install a package (use `--source` when package is available from multiple sources):
 
-`winget install {{package}}`
+`winget {{[add|install]}} {{package}}`
 
 - Remove a package (Note: `remove` can also be used instead of `uninstall`):
 
-`winget uninstall {{package}}`
+`winget {{[rm|uninstall]}} {{package}}`
 
 - Display information about a package:
 
@@ -21,11 +21,11 @@
 
 - Upgrade all packages to the latest versions:
 
-`winget upgrade --all`
+`winget upgrade {{[-r|--all]}}`
 
 - List all packages installed that can be managed with `winget`:
 
-`winget list --source winget`
+`winget {{[ls|list]}} {{[-s|--source]}} winget`
 
 - Import packages from a file, or export installed packages to a file:
 

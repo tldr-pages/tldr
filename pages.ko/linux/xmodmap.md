@@ -3,7 +3,7 @@
 > X에서 키맵과 포인터 버튼 매핑을 수정하는 유틸리티.
 > 더 많은 정보: <https://manned.org/xmodmap>.
 
-- 포인터에서 좌클릭과 우클릭을 교체:
+- 포인터에서 `<LeftClick>`과 `<RightCLick>` 교체:
 
 `xmodmap -e 'pointer = 3 2 1'`
 

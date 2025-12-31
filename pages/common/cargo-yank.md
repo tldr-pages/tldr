@@ -1,7 +1,7 @@
 # cargo yank
 
 > Remove a pushed crate from the index. This should only be used when you accidentally release a significantly broken crate.
-> Note: this does not remove any data. The crate is still present after a yank - this just prevents new projects from using it.
+> Note: This does not remove any data. The crate is still present after a yank - this just prevents new projects from using it.
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-yank.html>.
 
 - Yank the specified version of a crate:

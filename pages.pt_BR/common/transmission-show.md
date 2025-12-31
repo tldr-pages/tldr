@@ -10,8 +10,8 @@
 
 - Gera um link magnético para um torrent específico:
 
-`transmission-show --magnet {{caminho/para/arquivo.torrent}}`
+`transmission-show {{[-m|--magnet]}} {{caminho/para/arquivo.torrent}}`
 
 - Consulta os rastreadores de um torrent e imprime o número atual de pares:
 
-`transmission-show --scrape {{caminho/para/arquivo.torrent}}`
+`transmission-show {{[-s|--scrape]}} {{caminho/para/arquivo.torrent}}`

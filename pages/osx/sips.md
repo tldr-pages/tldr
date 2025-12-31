@@ -6,7 +6,7 @@
 
 - Specify an output directory so that originals do not get modified:
 
-`sips --out {{path/to/out_dir}}`
+`sips --out {{path/to/output_directory}}`
 
 - Resample image at specified size, Image aspect ratio may be altered:
 
@@ -22,7 +22,7 @@
 
 - Convert an image from CMYK to RGB:
 
-`sips --matchTo "/System/Library/ColorSync/Profiles/Generic RGB Profile.icc" {{path/to/image.ext}} {{path/to/out_dir}}`
+`sips --matchTo "/System/Library/ColorSync/Profiles/Generic RGB Profile.icc" {{path/to/image.ext}} {{path/to/output_directory}}`
 
 - Remove ColorSync ICC profile from an image:
 

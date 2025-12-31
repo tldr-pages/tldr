@@ -1,29 +1,11 @@
 # nix-shell
 
-> Nix 표현을 기반으로 대화형 셸 시작.
-> 같이 보기: `nix3 shell`.
-> 더 많은 정보: <https://nixos.org/manual/nix/stable/command-ref/nix-shell.html>.
+> `nix-shell`은 같은 이름의 여러 명령을 참조할 수 있습니다.
 
-- 현재 디렉터리의 `shell.nix` 또는 `default.nix`의 nix 표현으로 시작:
+- 기존 셸에 대한 문서를 참조하세요:
 
-`nix-shell`
+`tldr nix-shell.2`
 
-- 비대화형 셸에서 셸 명령 실행 후 종료:
+- nix3 셸에 대한 문서 보기:
 
-`nix-shell --run "{{명령어}} {{인수1 인수2 ...}}"`
-
-- 현재 디렉터리의 `default.nix`의 표현으로 시작:
-
-`nix-shell {{default.nix}}`
-
-- nixpkgs에서 로드된 패키지로 시작:
-
-`nix-shell --packages {{패키지1 패키지2 ...}}`
-
-- 특정 nixpkgs 리비전에서 로드된 패키지로 시작:
-
-`nix-shell --packages {{패키지1 패키지2 ...}} -I nixpkgs={{https://github.com/NixOS/nixpkgs/archive/nixpkgs_revision.tar.gz}}`
-
-- 특정 인터프리터에서 파일의 나머지를 평가하여 `#!-scripts`에서 사용 (자세한 내용은 <https://nixos.org/manual/nix/stable/#use-as-a-interpreter> 참고):
-
-`nix-shell -i {{인터프리터}} --packages {{패키지1 패키지2 ...}}`
+`tldr nix shell.3`

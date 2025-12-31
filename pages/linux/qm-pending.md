@@ -1,8 +1,8 @@
 # qm pending
 
 > Get the virtual machine configuration with both current and pending values.
-> More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
+> More information: <https://pve.proxmox.com/pve-docs/qm.1.html#cli_qm_pending>.
 
 - Get the virtual machine configuration of a specific virtual machine:
 
-`qm pending {{vm_id}}`
+`qm {{[p|pending]}} {{vm_id}}`

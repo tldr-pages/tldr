@@ -1,7 +1,7 @@
 # fscrypt
 
 > Linux 파일 시스템 암호화를 관리하는 Go 도구.
-> 더 많은 정보: <https://github.com/google/fscrypt>.
+> 더 많은 정보: <https://github.com/google/fscrypt#example-usage>.
 
 - fscrypt를 사용하기 위해 루트 파일 시스템 준비:
 

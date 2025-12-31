@@ -1,7 +1,7 @@
 # port
 
 > macOS 패키지 관리자.
-> 더 많은 정보: <https://www.macports.org>.
+> 더 많은 정보: <https://guide.macports.org/#using.port>.
 
 - 패키지 검색:
 

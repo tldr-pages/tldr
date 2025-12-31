@@ -2,7 +2,7 @@
 
 > Easily install Ruby versions and manage application environments.
 > See also: `asdf`.
-> More information: <https://github.com/rbenv/rbenv>.
+> More information: <https://manned.org/rbenv>.
 
 - Install a Ruby version:
 

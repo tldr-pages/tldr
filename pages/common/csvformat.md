@@ -6,20 +6,20 @@
 
 - Convert to a tab-delimited file (TSV):
 
-`csvformat -T {{data.csv}}`
+`csvformat {{[-T|--out-tabs]}} {{data.csv}}`
 
 - Convert delimiters to a custom character:
 
-`csvformat -D "{{custom_character}}" {{data.csv}}`
+`csvformat {{[-D|--out-delimiter]}} "{{custom_character}}" {{data.csv}}`
 
 - Convert line endings to carriage return (^M) + line feed:
 
-`csvformat -M "{{\r\n}}" {{data.csv}}`
+`csvformat {{[-M|--out-lineterminator]}} "{{\r\n}}" {{data.csv}}`
 
 - Minimize use of quote characters:
 
-`csvformat -U 0 {{data.csv}}`
+`csvformat {{[-U|--out-quoting]}} 0 {{data.csv}}`
 
 - Maximize use of quote characters:
 
-`csvformat -U 1 {{data.csv}}`
+`csvformat {{[-U|--out-quoting]}} 1 {{data.csv}}`

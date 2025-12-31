@@ -9,4 +9,4 @@
 
 - 제거할 항목을 인쇄하지만, 실제로 아무것도 제거하지 않음:
 
-`brew autoremove --dry-run`
+`brew autoremove {{[-n|--dry-run]}}`

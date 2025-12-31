@@ -1,7 +1,7 @@
 # wordgrinder
 
 > Processador de texto em linha de comando.
-> Mais informações: <https://cowlark.com/wordgrinder>.
+> Mais informações: <https://cowlark.com/wordgrinder/>.
 
 - Inicia o wordgrinder (carrega um documento vazio por padrão):
 
@@ -13,4 +13,4 @@
 
 - Mostra o menu:
 
-`<Alt> + M`
+`<Alt m>`

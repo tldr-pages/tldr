@@ -1,7 +1,7 @@
 # udevadm
 
 > Linux `udev` 관리 도구.
-> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/udevadm>.
+> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/latest/udevadm.html>.
 
 - 모든 장치 이벤트 모니터링:
 
@@ -21,7 +21,7 @@
 
 - 모든 `udev` 규칙 다시 로드:
 
-`sudo udevadm control --reload-rules`
+`sudo udevadm control --reload`
 
 - 모든 `udev` 규칙 실행 트리거:
 

@@ -9,4 +9,4 @@
 
 - Display help:
 
-`pulumi version {{-h|--help}}`
+`pulumi version {{[-h|--help]}}`

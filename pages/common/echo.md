@@ -1,9 +1,10 @@
 # echo
 
 > Print given arguments.
+> See also: `printf`.
 > More information: <https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>.
 
-- Print a text message. Note: quotes are optional:
+- Print a text message. Note: Quotes are optional:
 
 `echo "{{Hello World}}"`
 
@@ -26,3 +27,7 @@
 - Print the exit status of the last executed command (Note: In Windows Command Prompt and PowerShell the equivalent commands are `echo %errorlevel%` and `$lastexitcode` respectively):
 
 `echo $?`
+
+- Pass text to another program through `stdin`:
+
+`echo "{{Hello World}}" | {{program}}`

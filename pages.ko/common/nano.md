@@ -1,7 +1,7 @@
 # nano
 
 > 명령줄 텍스트 편집기. 향상된 `Pico` 클론.
-> 더 많은 정보: <https://nano-editor.org>.
+> 더 많은 정보: <https://nano-editor.org/dist/latest/nano.html>.
 
 - 편집기 시작:
 
@@ -9,7 +9,7 @@
 
 - 설정 파일을 사용하지 않고 편집기 시작:
 
-`nano --ignorercfiles`
+`nano {{[-I|--ignorercfiles]}}`
 
 - 특정 파일 열기, 이전 파일을 닫으면 다음 파일로 이동:
 
@@ -21,12 +21,12 @@
 
 - 파일을 열고 소프트 랩핑 활성화:
 
-`nano --softwrap {{경로/대상/파일}}`
+`nano {{[-S|--softwrap]}} {{경로/대상/파일}}`
 
 - 파일을 열고 새 줄을 이전 줄의 들여쓰기로 자동 들여쓰기:
 
-`nano --autoindent {{경로/대상/파일}}`
+`nano {{[-i|--autoindent]}} {{경로/대상/파일}}`
 
 - 파일을 열고 저장 시 백업 파일(`경로/대상/파일~`) 생성:
 
-`nano --backup {{경로/대상/파일}}`
+`nano {{[-B|--backup]}} {{경로/대상/파일}}`

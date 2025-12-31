@@ -1,7 +1,7 @@
 # aws sqs
 
 > Create, delete, and send messages to queues for the AWS SQS service.
-> More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/sqs/index.html>.
+> More information: <https://docs.aws.amazon.com/cli/latest/reference/sqs/>.
 
 - List all availables queues:
 

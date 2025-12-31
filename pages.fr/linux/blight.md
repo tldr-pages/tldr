@@ -1,7 +1,7 @@
 # blight
 
 > Utilitaire pour changer la luminosité de l'affichage.
-> Plus d'informations : <https://github.com/gutjuri/blight>.
+> Plus d'informations : <https://github.com/gutjuri/blight#usage>.
 
 - Fixe la luminosité de l'affichage à 50% :
 

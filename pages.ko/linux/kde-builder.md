@@ -2,7 +2,7 @@
 
 > 소스 저장소에서 KDE 구성 요소를 쉽게 빌드.
 > `kdesrc-build`의 대체 도구.
-> 더 많은 정보: <https://kde-builder.kde.org/en/cmdline/cmdline-usage.html>.
+> 더 많은 정보: <https://kde-builder.kde.org/en/cmdline/supported-cmdline-params.html>.
 
 - `kde-builder` 초기 설정:
 

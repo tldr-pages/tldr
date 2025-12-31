@@ -1,7 +1,7 @@
 # couchdb
 
 > Apache CouchDB 데이터베이스 서버의 명령 행 인터페이스.
-> 더 많은 정보: <https://couchdb.apache.org>.
+> 더 많은 정보: <https://manned.org/couchdb>.
 
 - couchdb 시작하기:
 

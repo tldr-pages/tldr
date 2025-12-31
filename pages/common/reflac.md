@@ -1,7 +1,7 @@
 # reflac
 
 > Recompress FLAC files in-place while preserving metadata.
-> More information: <https://github.com/chungy/reflac>.
+> More information: <https://github.com/chungy/reflac#running>.
 
 - Recompress a directory of FLAC files:
 
@@ -9,15 +9,15 @@
 
 - Enable maximum compression (very slow):
 
-`reflac --best {{path/to/directory}}`
+`reflac {{[-8|--best]}} {{path/to/directory}}`
 
 - Display filenames as they are processed:
 
-`reflac --verbose {{path/to/directory}}`
+`reflac {{[-v|--verbose]}} {{path/to/directory}}`
 
 - Recurse into subdirectories:
 
-`reflac --recursive {{path/to/directory}}`
+`reflac {{[-r|--recursive]}} {{path/to/directory}}`
 
 - Preserve file modification times:
 

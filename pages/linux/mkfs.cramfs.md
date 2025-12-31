@@ -3,10 +3,10 @@
 > Create a ROM filesystem inside a partition.
 > More information: <https://manned.org/mkfs.cramfs>.
 
-- Create a ROM filesystem inside partition 1 on device b (`sdb1`):
+- Create a ROM filesystem out of a directory inside partition Y on device X:
 
-`mkfs.cramfs {{/dev/sdb1}}`
+`sudo mkfs.cramfs {{path/to/directory}} {{/dev/sdXY}}`
 
 - Create a ROM filesystem with a volume-name:
 
-`mkfs.cramfs -n {{volume_name}} {{/dev/sdb1}}`
+`sudo mkfs.cramfs -n {{volume_name}} {{path/to/directory}} {{/dev/sdXY}}`

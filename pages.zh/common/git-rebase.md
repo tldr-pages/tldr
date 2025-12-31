@@ -2,7 +2,7 @@
 
 > 将 commits 从一个分支合并到另一个分支上。
 > 常用于跨分支的 commits 合并，在被合并分支的最头部构建新的 `commit`，表示合并完成。
-> 更多信息：<https://git-scm.com/docs/git-rebase>.
+> 更多信息：<https://git-scm.com/docs/git-rebase>。
 
 - 在另一个分支的头节点合并当前分支：
 
@@ -10,7 +10,7 @@
 
 - 启动交互式的合并任务，允许对提交的内容进行重新排序、省略、合并或修改：
 
-`git rebase {{-i|--interactive}} {{目标分支或 commit 的 hash}}`
+`git rebase {{[-i|--interactive]}} {{目标分支或 commit 的 hash}}`
 
 - 处理完冲突文件后，继续执行合并任务：
 
@@ -30,8 +30,8 @@
 
 - 启动交互式的合并任务，对最近提交的 5 个 commits 进行重新排序、省略、合并或修改：
 
-`git rebase {{-i|--interactive}} {{HEAD~5}}`
+`git rebase {{[-i|--interactive]}} {{HEAD~5}}`
 
 - 以当前分支优先的策略，自动处理分支间的冲突，执行合并：
 
-`git rebase {{-X|--strategy-option}} theirs {{分支名称}}`
+`git rebase {{[-X|--strategy-option]}} theirs {{分支名称}}`

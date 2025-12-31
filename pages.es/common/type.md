@@ -2,7 +2,7 @@
 
 > Muestra el tipo de comando que ejecutará el intérprete de comandos.
 > Nota: todos los ejemplos no son compatibles con POSIX.
-> Más información: <https://manned.org/type>.
+> Más información: <https://www.gnu.org/software/bash/manual/bash.html#index-type>.
 
 - Muestra el tipo de un comando:
 

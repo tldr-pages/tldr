@@ -1,27 +1,27 @@
 # journalctl
 
 > Запити до журналу systemd.
-> Більше інформації: <https://manned.org/journalctl>.
+> Більше інформації: <https://www.freedesktop.org/software/systemd/man/latest/journalctl.html>.
 
-- Показати всі повідомлення з рівнем пріоритету 3 (помилки) від цього завантаження ([b]oot):
+- Показати всі повідомлення з рівнем пріоритету 3 (помилки) від цього завантаження:
 
-`journalctl -b --priority=3`
+`journalctl {{[-b|--boot]}} {{[-p|--priority]}} 3`
 
 - Видалити записи журналу, які старіші за 2 дні:
 
-`journalctl --vacuum-time=2d`
+`journalctl --vacuum-time 2d`
 
 - Слідкувати за новими повідомленнями (як `tail -f` для традиційного syslog):
 
-`journalctl --follow`
+`journalctl {{[-f|--follow]}}`
 
-- Показати всі повідомлення за конкретним блоком ([u]nit):
+- Показати всі повідомлення за конкретним блоком:
 
-`journalctl --unit {{блок}}`
+`journalctl {{[-u|--unit]}} {{блок}}`
 
-- Фільтрувати повідомлення в межах діапазону часу (мітка часу або покажчики місця заповнення, як-от «вчора»):
+- Фільтрувати повідомлення в межах діапазону часу (мітка часу або покажчики місця заповнення, як-от "вчора"):
 
-`journalctl --since {{now|today|yesterday|tomorrow}} --until "{{YYYY-MM-DD HH:MM:SS}}"`
+`journalctl {{[-S|--since]}} {{now|today|yesterday|tomorrow}} {{[-U|--until]}} "{{YYYY-MM-DD HH:MM:SS}}"`
 
 - Показати всі повідомлення за певним процесом:
 

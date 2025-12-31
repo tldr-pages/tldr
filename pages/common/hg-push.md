@@ -1,7 +1,7 @@
 # hg push
 
 > Push changes from the local repository to a specified destination.
-> More information: <https://www.mercurial-scm.org/doc/hg.1.html#push>.
+> More information: <https://www.mercurial-scm.org/help/commands/push>.
 
 - Push changes to the "default" remote path:
 
@@ -17,12 +17,12 @@
 
 - Specify a specific revision changeset to push:
 
-`hg push --rev {{revision}}`
+`hg push {{[-r|--rev]}} {{revision}}`
 
 - Specify a specific branch to push:
 
-`hg push --branch {{branch}}`
+`hg push {{[-b|--branch]}} {{branch}}`
 
 - Specify a specific bookmark to push:
 
-`hg push --bookmark {{bookmark}}`
+`hg push {{[-B|--bookmark]}} {{bookmark}}`

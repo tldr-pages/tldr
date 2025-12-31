@@ -1,28 +1,7 @@
 # docker exec
 
-> Halihazırda çalışan bir Docker konteyneri üstünde komut çalıştır.
-> Daha fazla bilgi için: <https://docs.docker.com/reference/cli/docker/container/exec/>.
+> Bu komut `docker container exec` için bir takma addır.
 
-- Halihazırda çalışan bir konteynerin üstünde interaktif bir kabuk oturumunu çalıştır:
+- Asıl komutun belgelerini görüntüleyin:
 
-`docker exec --interactive --tty {{konteyner_ismi}} {{/bin/bash}}`
-
-- Halihazırda çalışan bir konteynerin üstüne arkaplanda çalışmak üzere (ayrılmış) bir komut çalıştır:
-
-`docker exec --detach {{konteyner_ismi}} {{komut}}`
-
-- Belirtilen bir komutu üstünde çalıştırmak adına çalışan dizini seç:
-
-`docker exec --interactive --tty --workdir {{örnek/dizin}} {{konteyner_ismi}} {{komut}}`
-
-- Varolan konteyner üstünde arkaplanda çalışmak üzere bir komut çalıştır ancak `stdin`'i açık tut:
-
-`docker exec --interactive --detach {{konteyner_ismi}} {{komut}}`
-
-- Çalışmakta olan bir Bash oturumu içinde bir çevre değişkeni belirle:
-
-`docker exec --interactive --tty --env {{değişken_ismi}}={{value}} {{konteyner_ismi}} {{/bin/bash}}`
-
-- Belirtilmiş bir kullanıcı olarak komut çalıştır:
-
-`docker exec --user {{kullanıcı}} {{konteyner_ismi}} {{komut}}`
+`tldr docker container exec`

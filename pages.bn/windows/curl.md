@@ -1,16 +1,16 @@
 # curl
 
-> পাওয়ারশেলে, এই কমান্ডটি অরিজিনাল `curl` প্রোগ্রাম (<https://curl.se>) সঠিকভাবে ইনস্টল না থাকলে এটি `Invoke-WebRequest` এর এলিয়াস হতে পারে।
+> PowerShell-এ এই কমান্ডটি `Invoke-WebRequest`-এর একটি উপনাম (alias) হতে পারে, যদি আসল `curl` প্রোগ্রামটি (<https://curl.se>) সঠিকভাবে ইনস্টল করা না থাকে।
 > আরও তথ্য পাবেন: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>।
 
-- মৌলিক `curl` কমান্ডের জন্য নথি:
+- আসল `curl` কমান্ডের ডকুমেন্টেশন দেখুন:
 
-`tldr curl -p common`
+`tldr curl {{[-p|--platform]}} common`
 
-- পাওয়ারশেলের `Invoke-WebRequest` কমান্ডের জন্য নথি:
+- PowerShell-এর `Invoke-WebRequest` কমান্ডের ডকুমেন্টেশন দেখুন:
 
 `tldr invoke-webrequest`
 
-- চেষ্টা করুন যে কি `curl` সঠিকভাবে ইনস্টল করা হয়েছে কিনা, এর সংস্করণ নম্বর প্রিন্ট করে। যদি এই কমান্ডটি একটি ত্রুটির মধ্যে মূল `Invoke-WebRequest` দিয়ে বদলে যায়, তবে:
+- `curl` সঠিকভাবে ইনস্টল আছে কিনা যাচাই করতে এর ভার্সন নম্বর প্রিন্ট করুন। যদি এই কমান্ডটিতে কোনো ত্রুটি দেখায়, তাহলে PowerShell এই কমান্ডটির পরিবর্তে `Invoke-WebRequest` ব্যবহার করে থাকতে পারে:
 
 `curl --version`

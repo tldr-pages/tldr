@@ -16,7 +16,7 @@
 
 `nala purge {{package}}`
 
-- Search package names and descriptions using a word, regex (default) or glob:
+- Search package names and descriptions using a word, `regex` (default) or glob:
 
 `nala search "{{pattern}}"`
 

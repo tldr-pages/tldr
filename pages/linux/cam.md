@@ -5,16 +5,16 @@
 
 - List available cameras:
 
-`cam --list`
+`cam {{[-l|--list]}}`
 
 - List controls of a camera:
 
-`cam --camera {{camera_index}} --list-controls`
+`cam {{[-c|--camera]}} {{camera_index}} --list-controls`
 
 - Write frames to a folder:
 
-`cam --camera {{camera_index}} --capture={{frames_to_capture}} --file`
+`cam {{[-c|--camera]}} {{camera_index}} {{[-C|--capture=]}}{{frames_to_capture}} {{[-F|--file]}}`
 
 - Display camera feed in a window:
 
-`cam --camera {{camera_index}} --capture --sdl`
+`cam {{[-c|--camera]}} {{camera_index}} {{[-C|--capture]}} {{[-S|--sdl]}}`

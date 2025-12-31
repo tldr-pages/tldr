@@ -1,7 +1,7 @@
 # node
 
 > Plateforme JavaScript côté serveur.
-> Plus d'informations : <https://nodejs.org>.
+> Plus d'informations : <https://nodejs.org/docs/latest/api/cli.html#options>.
 
 - Éxecute un fichier JavaScript :
 
@@ -13,11 +13,11 @@
 
 - Évalue du code JavaScript en le passant en argument :
 
-`node -e "{{code}}"`
+`node {{[-e|--eval]}} "{{code}}"`
 
 - Évalue et affiche le résultat, très utile pour voir les versions de dépendances node :
 
-`node -p "{{process.versions}}"`
+`node {{[-p|--print]}} "{{process.versions}}"`
 
 - Active l'inspecteur, mets en pause l'éxécution jusqu'à ce qu'un debugger soit connecté une fois que le code source est totalement interprété :
 

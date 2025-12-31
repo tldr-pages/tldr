@@ -5,16 +5,16 @@
 
 - Build the documentation for the current project and all dependencies:
 
-`cargo doc`
+`cargo {{[d|doc]}}`
 
 - Do not build documentation for dependencies:
 
-`cargo doc --no-deps`
+`cargo {{[d|doc]}} --no-deps`
 
 - Build and open the documentation in a browser:
 
-`cargo doc --open`
+`cargo {{[d|doc]}} --open`
 
 - Build and view the documentation of a particular package:
 
-`cargo doc --open --package {{package}}`
+`cargo {{[d|doc]}} --open {{[-p|--package]}} {{package}}`

@@ -1,7 +1,7 @@
 # yaourt
 
 > Utilitário de Arch Linux para compilaçào de pacotes AUR (Arch User Repository).
-> Mais informações: <https://linuxcommandlibrary.com/man/yaourt>.
+> Mais informações: <https://archlinux.fr/yaourt-en>.
 
 - Sincroniza e atualiza todos os pacotes (incluindo AUR):
 

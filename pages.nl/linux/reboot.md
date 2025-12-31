@@ -9,7 +9,7 @@
 
 - Schakel het systeem uit (zelfde als `poweroff`):
 
-`reboot --poweroff`
+`reboot {{[-p|--poweroff]}}`
 
 - Houd het systeem (beëindigt alle processen en zet de CPU uit) (zelfde als `halt`):
 
@@ -17,8 +17,8 @@
 
 - Herstart onmiddellijk zonder contact op te nemen met de systeembeheerder:
 
-`reboot --force`
+`reboot {{[-f|--force]}}`
 
 - Schrijf de wtmp shutdown entry zonder het systeem opnieuw te starten:
 
-`reboot --wtmp-only`
+`reboot {{[-w|--wtmp-only]}}`

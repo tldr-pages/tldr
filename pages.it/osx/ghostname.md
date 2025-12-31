@@ -1,7 +1,7 @@
 # ghostname
 
-> Questo comando è un alias per `-p linux hostname`.
+> Questo comando è un alias per `hostname`.
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux hostname`
+`tldr hostname`

@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr -p linux shuf`
+`tldr {{[-p|--platform]}} coomon shuf`

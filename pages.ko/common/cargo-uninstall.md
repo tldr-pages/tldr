@@ -5,4 +5,4 @@
 
 - 설치된 바이너리를 제거:
 
-`cargo remove {{패키지_스펙}}`
+`cargo uninstall {{패키지_스펙}}`

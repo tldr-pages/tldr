@@ -1,7 +1,7 @@
 # luac
 
 > Lua bytecode compiler.
-> More information: <https://www.lua.org>.
+> More information: <https://www.lua.org/manual/5.4/luac.html>.
 
 - Compile a Lua source file to Lua bytecode:
 

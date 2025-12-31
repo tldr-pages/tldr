@@ -19,7 +19,7 @@
 
 `sudo gitlab-ctl restart {{nginx}}`
 
-- Tüm servislerin kaydını görüntüle ve `Ctrl + C` basılana kadar okumaya devam et:
+- Tüm servislerin kaydını görüntüle ve `<Ctrl c>` basılana kadar okumaya devam et:
 
 `sudo gitlab-ctl tail`
 

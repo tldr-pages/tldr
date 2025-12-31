@@ -11,17 +11,17 @@
 
 `telnet {{ip_address}} {{port}}`
 
-- Exit a telnet session:
+- [Interactive] Exit a telnet session:
 
 `quit`
 
 - Emit the default escape character combination for terminating the session:
 
-`<Ctrl> + ]`
+`<Ctrl ]>`
 
 - Start `telnet` with "x" as the session termination character:
 
-`telnet -e {{x}} {{ip_address}} {{port}}`
+`telnet {{[-e|--escape]}} {{x}} {{ip_address}} {{port}}`
 
 - Telnet to Star Wars animation:
 

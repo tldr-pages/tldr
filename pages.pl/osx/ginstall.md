@@ -1,7 +1,7 @@
 # ginstall
 
-> To polecenie jest aliasem `-p linux install`.
+> To polecenie jest aliasem GNU `install`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux install`
+`tldr install`

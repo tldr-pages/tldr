@@ -9,20 +9,20 @@
 
 - Test a list of URLs:
 
-`siege --file {{path/to/url_list.txt}}`
+`siege {{[-f|--file]}} {{path/to/url_list.txt}}`
 
 - Test list of URLs in a random order (Simulates internet traffic):
 
-`siege --internet --file {{path/to/url_list.txt}}`
+`siege {{[-i|--internet]}} {{[-f|--file]}} {{path/to/url_list.txt}}`
 
 - Benchmark a list of URLs (without waiting between requests):
 
-`siege --benchmark --file {{path/to/url_list.txt}}`
+`siege {{[-b|--benchmark]}} {{[-f|--file]}} {{path/to/url_list.txt}}`
 
 - Set the amount of concurrent connections:
 
-`siege --concurrent={{50}} --file {{path/to/url_list.txt}}`
+`siege {{[-c|--concurrent]}} {{50}} {{[-f|--file]}} {{path/to/url_list.txt}}`
 
 - Set how long for the siege to run for:
 
-`siege --time={{30s}} --file {{path/to/url_list.txt}}`
+`siege {{[-t|--time]}} {{30s}} {{[-f|--file]}} {{path/to/url_list.txt}}`

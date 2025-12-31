@@ -2,7 +2,7 @@
 
 > Automate add, commit, and push routines.
 > Part of `git-extras`.
-> More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-magic>.
+> More information: <https://manned.org/git-magic>.
 
 - Commit changes with a generated message:
 

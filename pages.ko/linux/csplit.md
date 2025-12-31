@@ -2,7 +2,7 @@
 
 > 파일을 여러 조각으로 분할합니다.
 > "xx00", "xx01" 등의 이름으로 파일을 생성합니다.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/csplit>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/csplit-invocation.html>.
 
 - 파일을 5번째 및 23번째 줄에서 분할:
 
@@ -14,11 +14,11 @@
 
 - 정확한 나누기 오류를 무시하고 파일을 5줄마다 분할:
 
-`csplit -k {{경로/대상/파일}} 5 {*}`
+`csplit {{[-k|--keep-files]}} {{경로/대상/파일}} 5 {*}`
 
 - 5번째 줄에서 파일을 분할하고 출력 파일에 사용자 지정 접두사를 사용:
 
-`csplit {{경로/대상/파일}} 5 -f {{접두사}}`
+`csplit {{경로/대상/파일}} 5 {{[-f|--prefix]}} {{접두사}}`
 
 - 정규 표현식과 일치하는 줄에서 파일을 분할:
 

@@ -16,14 +16,14 @@
 
 `<Spatie>`
 
-- Zoek naar een string (druk op `n` om naar de volgende overeenkomst te gaan):
+- Zoek naar een string (druk op `<n>` om naar de volgende overeenkomst te gaan):
 
-`/{{iets}}`
+`</>{{iets}}<Enter>`
 
 - Afsluiten:
 
-`q`
+`<q>`
 
-- Toon help over interactieve commando's:
+- Toon de help over interactieve commando's:
 
-`h`
+`<h>`

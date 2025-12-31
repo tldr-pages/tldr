@@ -2,7 +2,7 @@
 
 > Apache Guacamole 프록시 데몬.
 > Guacamole 프로토콜과 임의의 원격 데스크톱 프로토콜(예. RDP, VNC, 기타) 간의 인터페이스를 위한 클라이언트 플러그인용 로더를 지원ㄴ.
-> 더 많은 정보: <https://guacamole.apache.org/>.
+> 더 많은 정보: <https://manned.org/guacd>.
 
 - localhost의 특정 포트에 바인딩:
 

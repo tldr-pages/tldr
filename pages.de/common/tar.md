@@ -2,7 +2,7 @@
 
 > Archivierungstool.
 > Häufig kombiniert mit anderen Methoden zur Komprimierung, wie gzip oder bzip2.
-> Weitere Informationen: <https://www.gnu.org/software/tar>.
+> Weitere Informationen: <https://www.gnu.org/software/tar/manual/tar.html>.
 
 - Erstelle ein Archiv von Dateien:
 
@@ -14,7 +14,7 @@
 
 - Erstelle ein mit gzip komprimiertes Archiv mit relativen Pfaden:
 
-`tar czf {{pfad/zu/ziel.tar.gz}} --directory={{pfad/zu/verzeichnis}} .`
+`tar czf {{pfad/zu/ziel.tar.gz}} {{[-C|--directory]}} {{pfad/zu/verzeichnis}} .`
 
 - Extrahiere ein (komprimiertes) Archiv in das derzeitige Verzeichnis im ausführlichen Modus:
 
@@ -22,7 +22,7 @@
 
 - Extrahiere ein Archiv in ein Verzeichnis:
 
-`tar xf {{pfad/zu/quelle.tar}} --directory={{pfad/zu/verzeichnis}}`
+`tar xf {{pfad/zu/quelle.tar}} {{[-C|--directory]}} {{pfad/zu/verzeichnis}}`
 
 - Erstelle ein komprimiertes Archiv und benutze den die Dateiendung des Archivs um die Kompressionsmethode zu wählen:
 

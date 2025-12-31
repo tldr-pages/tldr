@@ -1,7 +1,7 @@
 # sockstat
 
 > Toon open Internet- of UNIX-domeinsockets.
-> Bekijk ook: `netstat`.
+> Zie ook: `netstat`.
 > Meer informatie: <https://manned.org/sockstat>.
 
 - Toon informatie voor IPv4- en IPv6-sockets voor zowel luister- als verbonden sockets:

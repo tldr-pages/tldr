@@ -7,13 +7,13 @@
 
 `ppmtoilbm {{path/to/file.ppm}} > {{path/to/file.ilbm}}`
 
-- Write a maximum of n planes to the ILBM file and produce a HAM/24bit/direct color file if this number is exceeded:
+- Write a maximum of `n` planes to the ILBM file and produce a HAM/24bit/direct color file if this number is exceeded:
 
-`ppmtoilbm -maxplanes {{n}} -{{hamif|24if|dcif}} {{path/to/file.ppm}} > {{path/to/file.ilbm}}`
+`ppmtoilbm {{[-mp|-maxplanes]}} {{n}} -{{hamif|24if|dcif}} {{path/to/file.ppm}} > {{path/to/file.ilbm}}`
 
-- Produce a ILBM file with exactly n planes:
+- Produce a ILBM file with exactly `n` planes:
 
-`ppmtoilbm -fixplanes {{n}} {{path/to/file.ppm}} > {{path/to/file.ilbm}}`
+`ppmtoilbm {{[-fp|-fixplanes]}} {{n}} {{path/to/file.ppm}} > {{path/to/file.ilbm}}`
 
 - Select the compression method to be used:
 

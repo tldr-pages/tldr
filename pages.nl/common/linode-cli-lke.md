@@ -1,7 +1,7 @@
 # linode-cli lke
 
 > Beheer Linode Kubernetes Engine (LKE) clusters.
-> Bekijk ook: `linode-cli`.
+> Zie ook: `linode-cli`.
 > Meer informatie: <https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-lke>.
 
 - Toon alle LKE clusters:

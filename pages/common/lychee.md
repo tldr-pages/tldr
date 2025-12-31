@@ -1,7 +1,7 @@
 # lychee
 
 > Find broken URLs.
-> More information: <https://lychee.cli.rs/usage/cli/>.
+> More information: <https://github.com/lycheeverse/lychee/blob/master/README.md#commandline-usage>.
 
 - Scan a website for broken links:
 
@@ -17,7 +17,7 @@
 
 - Check files in a directory structure for any broken URLs:
 
-`grep -r "{{pattern}}" | lychee -`
+`grep {{[-r|--recursive]}} "{{pattern}}" | lychee -`
 
 - Display help:
 

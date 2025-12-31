@@ -3,9 +3,9 @@
 > A versão Linux do gerenciador de pacotes Homebrew.
 > Mais informações: <https://docs.brew.sh/Manpage>.
 
-- Instala a última versão estável de uma fórmula (utilizar `--devel` para versões de desenvolvimento):
+- Instala a última versão estável de uma fórmula:
 
-`brew install {{formula}}`
+`brew install {{formula|cask}}`
 
 - Lista as fórmulas instaladas:
 
@@ -13,7 +13,7 @@
 
 - Atualiza uma fórmula instalada (se não for informado o nome de uma fórmula, todas as fórmulas serão atualizadas):
 
-`brew upgrade {{formula}}`
+`brew upgrade {{formula|cask}}`
 
 - Recupera a versão mais recente do Linuxbrew e de todas as fórmulas do GitHub:
 
@@ -29,7 +29,7 @@
 
 - Exibe informações sobre uma fórmula (versão, caminho de instalação, dependências, etc.):
 
-`brew info {{formula}}`
+`brew info {{formula|cask}}`
 
 - Verifica a instalação local em busca de possíveis problemas:
 

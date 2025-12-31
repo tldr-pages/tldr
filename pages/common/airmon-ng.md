@@ -1,7 +1,7 @@
 # airmon-ng
 
 > Activate monitor mode on wireless network devices.
-> Part of `aircrack-ng`.
+> Part of Aircrack-ng network software suite.
 > More information: <https://www.aircrack-ng.org/doku.php?id=airmon-ng>.
 
 - List wireless devices and their statuses:

@@ -1,7 +1,7 @@
 # gtar
 
-> Este comando é um alias de `-p linux tar`.
+> Este comando é um alias de `tar`.
 
-- Exibe documentação do comando original:
+- Ver documentação do comando original:
 
-`tldr -p linux tar`
+`tldr tar`

@@ -1,7 +1,7 @@
 # wp
 
-> The official command-line interface to manage WordPress instances.
-> More information: <https://wp-cli.org/>.
+> The official interface to manage WordPress instances.
+> More information: <https://developer.wordpress.org/cli/commands/>.
 
 - Print information about the operating system, shell, PHP, and WP-CLI (`wp`) installation:
 

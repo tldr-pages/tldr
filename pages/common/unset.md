@@ -1,16 +1,16 @@
 # unset
 
 > Remove shell variables or functions.
-> More information: <https://manned.org/unset>.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-unset>.
 
-- Remove the variable `foo`, or if the variable doesn't exist, remove the function `foo`:
+- Remove variable, or if the variable doesn't exist, remove the function of the same name:
 
-`unset {{foo}}`
+`unset {{variable}}`
 
-- Remove the variables foo and bar:
+- Remove variables:
 
-`unset -v {{foo}} {{bar}}`
+`unset -v {{variable1 variable2 ...}}`
 
-- Remove the function my_func:
+- Remove the function:
 
-`unset -f {{my_func}}`
+`unset -f {{function_name1 function_name2}}`

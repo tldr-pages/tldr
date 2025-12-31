@@ -4,9 +4,9 @@
 > Some subcommands such as `install` have their own usage documentation.
 > More information: <https://docs.brew.sh/Manpage>.
 
-- Install the latest stable version of a formula or cask (use `--devel` for development versions):
+- Install the latest stable version of a formula or cask:
 
-`brew install {{formula}}`
+`brew install {{formula|cask}}`
 
 - List all installed formulae and casks:
 
@@ -14,7 +14,7 @@
 
 - Upgrade an installed formula or cask (if none is given, all installed formulae/casks are upgraded):
 
-`brew upgrade {{formula}}`
+`brew upgrade {{formula|cask}}`
 
 - Fetch the newest version of Homebrew and of all formulae and casks from the Homebrew source repository:
 
@@ -30,7 +30,7 @@
 
 - Display information about a formula or a cask (version, installation path, dependencies, etc.):
 
-`brew info {{formula}}`
+`brew info {{formula|cask}}`
 
 - Check the local Homebrew installation for potential problems:
 

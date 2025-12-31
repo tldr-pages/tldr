@@ -5,16 +5,16 @@
 
 - Constrói a documentação do projeto atual e de todas as dependências:
 
-`cargo doc`
+`cargo {{[d|doc]}}`
 
 - Não constrói documentação de dependências:
 
-`cargo doc --no-deps`
+`cargo {{[d|doc]}} --no-deps`
 
 - Constrói e visualiza a documentação em um navegador:
 
-`cargo doc --open`
+`cargo {{[d|doc]}} --open`
 
 - Constrói e visualiza a documentação de um pacote específico:
 
-`cargo doc --open --package {{pacote}}`
+`cargo {{[d|doc]}} --open {{[-p|--package]}} {{pacote}}`

@@ -1,6 +1,7 @@
 # doas
 
-> Executes a command as another user.
+> Execute a command as another user.
+> See also: `sudo`, `pkexec`, `run0`.
 > More information: <https://man.openbsd.org/doas>.
 
 - Run a command as root:
@@ -17,7 +18,7 @@
 
 - Parse a configuration file and check if the execution of a command as another user is allowed:
 
-`doas -C {{config_file}} {{command}}`
+`doas -C {{path/to/config_file}} {{command}}`
 
 - Make `doas` request a password even after it was supplied earlier:
 

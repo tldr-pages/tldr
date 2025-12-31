@@ -9,4 +9,4 @@
 
 - Sale del tutor:
 
-`<Esc> :q <Enter>`
+`<Esc><:>q<Enter>`

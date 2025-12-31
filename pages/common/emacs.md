@@ -1,7 +1,7 @@
 # emacs
 
 > The extensible, customizable, self-documenting, real-time display editor.
-> See also `emacsclient`.
+> See also: `emacsclient`.
 > More information: <https://www.gnu.org/software/emacs>.
 
 - Start Emacs and open a file:
@@ -18,7 +18,7 @@
 
 - Start Emacs in console mode (without an X window):
 
-`emacs --no-window-system`
+`emacs {{[-nw|--no-window-system]}}`
 
 - Start an Emacs server in the background (accessible via `emacsclient`):
 
@@ -30,8 +30,8 @@
 
 - Save a file in Emacs:
 
-`<Ctrl> + X, <Ctrl> + S`
+`<Ctrl x><Ctrl s>`
 
 - Quit Emacs:
 
-`<Ctrl> + X, <Ctrl> + C`
+`<Ctrl x><Ctrl c>`

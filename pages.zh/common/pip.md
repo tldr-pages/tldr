@@ -1,7 +1,7 @@
 # pip
 
 > Python 主流的包安装管理工具。
-> 更多信息：<https://pip.pypa.io>.
+> 更多信息：<https://pip.pypa.io/en/stable/cli/pip/>。
 
 - 安装包（通过 `pip install` 查看更多安装示例）：
 
@@ -13,7 +13,7 @@
 
 - 升级包：
 
-`pip install --upgrade {{包名}}`
+`pip install {{[-U|--upgrade]}} {{包名}}`
 
 - 卸载包：
 
@@ -29,4 +29,4 @@
 
 - 通过依赖文件（如 requirements.txt）来进行安装：
 
-`pip install --requirement {{requirements.txt}}`
+`pip install {{[-r|--requirement]}} {{requirements.txt}}`

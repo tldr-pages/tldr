@@ -1,7 +1,7 @@
 # cd
 
 > Byt nuvarande katalog.
-> Mer information: <https://manned.org/cd>.
+> Mer information: <https://www.gnu.org/software/bash/manual/bash.html#index-cd>.
 
 - Gå till en given katalog:
 

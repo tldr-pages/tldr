@@ -1,7 +1,7 @@
 # pw-loopback
 
 > PipeWire에서 루프백 장치를 생성.
-> 더 많은 정보: <https://gitlab.freedesktop.org/pipewire/pipewire/-/wikis/Virtual-Devices>.
+> 더 많은 정보: <https://docs.pipewire.org/page_man_pw-loopback_1.html>.
 
 - 기본 루프백 동작으로 루프백 장치 생성:
 

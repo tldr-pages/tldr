@@ -1,7 +1,7 @@
 # extrace
 
 > Trace exec() calls.
-> More information: <https://github.com/chneukirchen/extrace>.
+> More information: <https://github.com/leahneukirchen/extrace>.
 
 - Trace all program executions occurring on the system:
 
@@ -11,7 +11,7 @@
 
 `sudo extrace {{command}}`
 
-- Print the current working directory of each process:
+- Print the current working [d]irectory of each process:
 
 `sudo extrace -d`
 
@@ -19,6 +19,6 @@
 
 `sudo extrace -l`
 
-- Display the user running each process:
+- Display the [u]ser running each process:
 
 `sudo extrace -u`

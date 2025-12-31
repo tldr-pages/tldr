@@ -1,7 +1,7 @@
 # ganache-cli
 
 > 이더리움 개발을 위한 개인 블록체인 Ganache의 명령줄 버전.
-> 더 많은 정보: <https://www.trufflesuite.com/ganache>.
+> 더 많은 정보: <https://archive.trufflesuite.com/ganache/>.
 
 - Ganache 실행:
 

@@ -1,7 +1,7 @@
 # kpackagetool5
 
 > K패키지 관리자: Plasma 패키지 설치, 나열, 제거.
-> 더 많은 정보: <https://techbase.kde.org/Development/Tutorials/Plasma5/QML2/GettingStarted#Kpackagetool5>.
+> 더 많은 정보: <https://manned.org/kpackagetool5>.
 
 - 설치 가능한 모든 패키지 유형 나열:
 

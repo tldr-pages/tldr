@@ -1,7 +1,7 @@
 # lynx
 
 > Navegador web de línea de comandos.
-> Más información: <https://lynx.browser.org>.
+> Más información: <https://manned.org/lynx>.
 
 - Visita un sitio web:
 
@@ -25,12 +25,12 @@
 
 - Navega hacia adelante y hacia atrás a través de los enlaces en una página:
 
-`{{Up arrow key|Down arrow key}}`
+`{{<ArrowUp>|<ArrowDown>}}`
 
 - Vuelve a la página mostrada anteriormente:
 
-`{{Left arrow key|u}}`
+`{{<ArrowLeft>|<u>}}`
 
 - Sale:
 
-`q + y`
+`<q><y>`

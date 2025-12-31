@@ -17,7 +17,7 @@
 
 - Inicia todos los contenedores usando un archivo de composición alterno:
 
-`podman-compose {{-f|--file}} {{ruta/al/archivo.yaml}} up`
+`podman-compose {{[-f|--file]}} {{ruta/al/archivo.yaml}} up`
 
 - Detiene todos los contenedores en funcionamiento:
 

@@ -17,11 +17,11 @@
 
 - Modifie récursivement le propriétaire d'un dossier et de son contenu :
 
-`chown -R {{utilisateur}} {{chemin/vers/dossier}}`
+`chown {{[-R|--recursive]}} {{utilisateur}} {{chemin/vers/dossier}}`
 
 - Modifie le propriétaire d'un lien symbolique :
 
-`chown -h {{utilisateur}} {{chemin/vers/lien_symbolique}}`
+`chown {{[-h|--no-dereference]}} {{utilisateur}} {{chemin/vers/lien_symbolique}}`
 
 - Modifie le propriétaire d'un fichier / dossier pour correspondre à un fichier de référence :
 

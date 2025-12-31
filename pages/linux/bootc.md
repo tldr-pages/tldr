@@ -1,8 +1,8 @@
 # bootc
 
 > Boot and upgrade via container images.
-> Manages transactional, in-place operating system updates using OCI/Docker container images.
-> More information: <https://containers.github.io/bootc/>.
+> Manage transactional, in-place operating system updates using OCI/Docker container images.
+> More information: <https://manned.org/bootc>.
 
 - Show deployments in the order they will appear in the bootloader:
 
@@ -23,3 +23,7 @@
 - Reboot into the previous ostree deployment:
 
 `bootc rollback`
+
+- Apply transactional changes to the system configuration:
+
+`bootc edit`

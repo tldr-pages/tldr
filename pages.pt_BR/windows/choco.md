@@ -2,7 +2,7 @@
 
 > Uma interface de linha de comando para o gerenciador de pacotes Chocolatey.
 > Alguns subcomandos como `install` tem sua própia documentação de uso.
-> Mais informações: <https://chocolatey.org>.
+> Mais informações: <https://docs.chocolatey.org/en-us/choco/commands/>.
 
 - Executa o comando Chocolatey:
 

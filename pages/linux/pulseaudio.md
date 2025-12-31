@@ -1,7 +1,7 @@
 # pulseaudio
 
 > The PulseAudio sound system daemon and manager.
-> More information: <https://www.freedesktop.org/wiki/Software/PulseAudio/>.
+> More information: <https://manned.org/pulseaudio>.
 
 - Check if PulseAudio is running (a non-zero exit code means it is not running):
 
@@ -13,7 +13,7 @@
 
 - Kill the running PulseAudio daemon:
 
-`pulseaudio --kill`
+`pulseaudio {{[-k|--kill]}}`
 
 - List available modules:
 
@@ -21,4 +21,4 @@
 
 - Load a module into the currently running daemon with the specified arguments:
 
-`pulseaudio --load="{{module_name}} {{arguments}}"`
+`pulseaudio {{[-L|--load]}} "{{module_name}} {{arguments}}"`

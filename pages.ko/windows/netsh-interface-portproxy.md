@@ -9,7 +9,7 @@
 
 - IPv4 포트 전달 설정 (관리자 권한 콘솔에서 실행):
 
-`netsh interface portproxy add v4tov4 listenaddress={{192.168.0.1}} listenport={{8080}}  connectaddress={{10.0.0.1}} connectport={{80}}`
+`netsh interface portproxy add v4tov4 listenaddress={{192.168.0.1}} listenport={{8080}} connectaddress={{10.0.0.1}} connectport={{80}}`
 
 - IPv4 포트 전달 삭제 (관리자 권한 콘솔에서 실행):
 

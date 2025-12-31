@@ -11,11 +11,11 @@
 
 `dnstracer -s {{dns.example.org}} {{www.example.com}}`
 
-- Only query IPv4 servers:
+- Only query IPv[4] servers:
 
 `dnstracer -4 {{www.example.com}}`
 
-- Retry each request 5 times on failure:
+- [r]etry each request 5 times on failure:
 
 `dnstracer -r {{5}} {{www.example.com}}`
 

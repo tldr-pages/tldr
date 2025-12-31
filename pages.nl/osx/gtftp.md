@@ -1,7 +1,7 @@
 # gtftp
 
-> Dit commando is een alias van `-p linux tftp`.
+> Dit commando is een alias van GNU `tftp`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux tftp`
+`tldr {{[-p|--platform]}} linux tftp`

@@ -1,7 +1,7 @@
 # mkdir
 
 > 建立目錄。
-> 更多資訊：<https://www.gnu.org/software/coreutils/mkdir>.
+> 更多資訊：<https://www.gnu.org/software/coreutils/manual/html_node/mkdir-invocation.html>。
 
 - 在目前所在目錄或指定路徑中建立新目錄：
 
@@ -9,8 +9,8 @@
 
 - 遞迴建立目錄，若上層目錄尚未被建立則會一併建立：
 
-`mkdir {{-p|--parents}} {{目錄/完整/路徑}}`
+`mkdir {{[-p|--parents]}} {{目錄/完整/路徑}}`
 
 - 使用指定的權限建立新目錄：
 
-`mkdir {{-m|--mode}} {{rwxrw-r--}} {{目錄/完整/路徑}}`
+`mkdir {{[-m|--mode]}} {{rwxrw-r--}} {{目錄/完整/路徑}}`

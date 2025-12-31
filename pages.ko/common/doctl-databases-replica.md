@@ -5,20 +5,20 @@
 
 - 액세스 토큰을 사용하여 `doctl databases replica` 명령을 실행:
 
-`doctl databases pool {{명령어}} --access-token {{액세스_토큰}}`
+`doctl {{[d|databases]}} {{[r|replica]}} {{명령어}} {{[-t|--access-token]}} {{액세스_토큰}}`
 
 - 읽기 전용 데이터베이스 복제본에 대한 정보를 검색:
 
-`doctl databases replica get {{데이터베이스_아이디}} {{복제본_이름}}`
+`doctl {{[d|databases]}} {{[r|replica]}} {{[g|get]}} {{데이터베이스_아이디}} {{복제본_이름}}`
 
 - 읽기 전용 데이터베이스 복제본 목록 검색:
 
-`doctl databases replica list {{데이터베이스_아이디}}`
+`doctl {{[d|databases]}} {{[r|replica]}} {{[ls|list]}} {{데이터베이스_아이디}}`
 
 - 읽기 전용 데이터베이스 복제본 생성:
 
-`doctl databases replica create {{데이터베이스_아이디}} {{복제본_이름}}`
+`doctl {{[d|databases]}} {{[r|replica]}} {{[c|create]}} {{데이터베이스_아이디}} {{복제본_이름}}`
 
 - 읽기 전용 데이터베이스 복제본 삭제:
 
-`doctl databases replica delete {{데이터베이스_아이디}} {{복제본_이름}}`
+`doctl {{[d|databases]}} {{[r|replica]}} {{[rm|delete]}} {{데이터베이스_아이디}} {{복제본_이름}}`

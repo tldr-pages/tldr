@@ -1,7 +1,7 @@
 # hg update
 
 > 작업 디렉터리를 지정된 변경 집합으로 업데이트.
-> 더 많은 정보: <https://www.mercurial-scm.org/doc/hg.1.html#update>.
+> 더 많은 정보: <https://www.mercurial-scm.org/help/commands/update>.
 
 - 현재 브랜치의 최신 변경 사항으로 업데이트:
 

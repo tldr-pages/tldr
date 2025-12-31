@@ -9,12 +9,12 @@
 
 - Change the log output file:
 
-`pw-profiler --output {{path/to/file.log}}`
+`pw-profiler {{[-o|--output]}} {{path/to/file.log}}`
 
 - Profile a remote instance:
 
-`pw-profiler --remote {{remote_name}}`
+`pw-profiler {{[-r|--remote]}} {{remote_name}}`
 
 - Display help:
 
-`pw-profiler --help`
+`pw-profiler {{[-h|--help]}}`

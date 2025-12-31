@@ -1,7 +1,7 @@
 # timedatectl
 
 > Kontroluj datę i czas systemowy.
-> Więcej informacji: <https://manned.org/timedatectl>.
+> Więcej informacji: <https://www.freedesktop.org/software/systemd/man/latest/timedatectl.html>.
 
 - Sprawdź aktualny czas zegara systemowego:
 

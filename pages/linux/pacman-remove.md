@@ -1,6 +1,6 @@
 # pacman --remove
 
-> Arch Linux package manager utility.
+> Remove packages from the system.
 > See also: `pacman`.
 > More information: <https://manned.org/pacman.8>.
 

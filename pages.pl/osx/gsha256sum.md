@@ -1,7 +1,7 @@
 # gsha256sum
 
-> To polecenie jest aliasem `-p linux sha256sum`.
+> To polecenie jest aliasem GNU `sha256sum`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux sha256sum`
+`tldr sha256sum`

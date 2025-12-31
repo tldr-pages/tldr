@@ -1,7 +1,7 @@
 # flake8
 
 > Programma per verificare lo stile e la qualità di un codice Python.
-> Maggiori informazioni: <https://flake8.pycqa.org/>.
+> Maggiori informazioni: <https://flake8.pycqa.org/en/latest/user/options.html>.
 
 - Analizza ricorsivamente un file o una directory:
 

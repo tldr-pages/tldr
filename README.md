@@ -55,7 +55,7 @@ How about:
 
 This repository is just that: an ever-growing collection of examples
 for the most common UNIX, Linux, macOS, FreeBSD, NetBSD, OpenBSD,
-SunOS, Android, and Windows command-line tools.
+SunOS, Android, Windows, Cisco IOS, and DOS command-line tools.
 
 ## How do I use it?
 
@@ -64,16 +64,10 @@ SunOS, Android, and Windows command-line tools.
 > see the web client at <https://tldr.inbrowser.app> (with offline support using PWA).
 
 A popular and convenient way to access these pages on your computer
-is to install the official [Node.js client](https://github.com/tldr-pages/tldr-node-client):
+is to install the official [Python client](https://github.com/tldr-pages/tldr-python-client), which can be installed from [PyPI](https://pypi.org/project/tldr/) via [pipx](https://github.com/pypa/pipx) (or [other package managers](https://github.com/tldr-pages/tldr-python-client#installation)):
 
 ```shell
-npm install -g tldr
-```
-
-Alternatively, you can also use the official [Python client](https://github.com/tldr-pages/tldr-python-client), which can be installed via [pip3](https://pypi.org/project/tldr/) (or [other package managers](https://github.com/tldr-pages/tldr-python-client#installation)):
-
-```shell
-pip3 install tldr
+pipx install tldr
 ```
 
 Linux and Mac users can also install the official [Rust Client](https://github.com/tldr-pages/tlrc) using [Homebrew](https://formulae.brew.sh/formula/tlrc)
@@ -81,6 +75,18 @@ Linux and Mac users can also install the official [Rust Client](https://github.c
 
 ```shell
 brew install tlrc
+```
+
+Windows users can also install the official [Rust Client](https://github.com/tldr-pages/tlrc) using [Winget](https://github.com/microsoft/winget-pkgs/tree/master/manifests/t/tldr-pages/tlrc) (or [other package managers](https://github.com/tldr-pages/tlrc#installation) on other operating systems):
+
+```shell
+winget install tldr-pages.tlrc
+```
+
+Alternatively, you can also use the official [Node.js client](https://github.com/tldr-pages/tldr-node-client), although it has fallen behind in updates:
+
+```shell
+npm install -g tldr
 ```
 
 Then you have direct access to simplified, easy-to-read help for commands, such as `tar`,
@@ -120,14 +126,6 @@ You are also welcome to join us on the [matrix chatroom](https://matrix.to/#/#tl
 
 ## Similar projects
 
-- [Command Line Interface Pages](https://github.com/command-line-interface-pages)
-  allows you to write standardized help pages for CLI, directories, and configs.
-
-- [Cheat](https://github.com/cheat/cheat)
-  allows you to create and view interactive cheatsheets on the command-line.
-  It was designed to help remind Unix system administrators of options
-  for commands that they use frequently, but not frequently enough to remember.
-
 - [cheat.sh](https://cheat.sh/)
   Aggregates cheat sheets from multiple sources (including tldr-pages)
   into 1 unified interface.
@@ -140,7 +138,7 @@ You are also welcome to join us on the [matrix chatroom](https://matrix.to/#/#tl
   provides detailed examples with explanations on the command-line.
   Examples come from the repository, but `eg` supports displaying
   custom examples and commands alongside the defaults.
-  
+
 - [kb](https://github.com/gnebbia/kb)
   is a minimalist command-line knowledge base manager.
   kb can be used to organize your notes and cheatsheets in a minimalist
@@ -149,6 +147,14 @@ You are also welcome to join us on the [matrix chatroom](https://matrix.to/#/#tl
 - [navi](https://github.com/denisidoro/navi)
   is an interactive cheatsheet tool, which allows you to browse through
   specific examples or complete commands on the fly.
+
+- [Cheat](https://github.com/cheat/cheat)
+  allows you to create and view interactive cheatsheets on the command-line.
+  It was designed to help remind Unix system administrators of options
+  for commands that they use frequently, but not frequently enough to remember.
+
+- [Command Line Interface Pages](https://github.com/command-line-interface-pages)
+  allows you to write standardized help pages for CLI, directories, and configs.
 
 - [bropages (deprecated)](http://bropages.org)
   are a highly readable supplement to man pages.

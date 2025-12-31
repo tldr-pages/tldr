@@ -8,7 +8,7 @@
 
 `systemctl start atd`
 
-- Buat perintah secara interaktif untuk dijalankan dalam 5 menit ke depan (gunakan `<Ctrl> + D` jika selesai menulis):
+- Buat perintah secara interaktif untuk dijalankan dalam 5 menit ke depan (gunakan `<Ctrl d>` jika selesai menulis):
 
 `at now + 5 minutes`
 

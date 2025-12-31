@@ -1,7 +1,7 @@
 # gprintenv
 
-> Dit commando is een alias van `-p linux printenv`.
+> Dit commando is een alias van GNU `printenv`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux printenv`
+`tldr printenv`

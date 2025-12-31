@@ -9,16 +9,16 @@
 
 - List namespaces in JSON format:
 
-`lsns --json`
+`lsns {{[-J|--json]}}`
 
 - List namespaces associated with the specified process:
 
-`lsns --task {{pid}}`
+`lsns {{[-p|--task]}} {{pid}}`
 
 - List the specified type of namespaces only:
 
-`lsns --type {{mnt|net|ipc|user|pid|uts|cgroup|time}}`
+`lsns {{[-t|--type]}} {{mnt|net|ipc|user|pid|uts|cgroup|time}}`
 
 - List namespaces, only showing the namespace ID, type, PID, and command:
 
-`lsns --output {{NS,TYPE,PID,COMMAND}}`
+`lsns {{[-o|--output]}} {{NS,TYPE,PID,COMMAND}}`

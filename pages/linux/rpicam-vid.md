@@ -6,4 +6,4 @@
 
 - Capture a 10 second video:
 
-`rpicam-vid -t 10000 -o {{path/to/file.h264}}`
+`rpicam-vid {{[-t|--timeout]}} 10000 {{[-o|--output]}} {{path/to/file.h264}}`

@@ -1,7 +1,7 @@
 # tftp
 
 > Trivial File Transfer Protocol client.
-> Meer informatie: <https://manned.org/tftp.1>.
+> Meer informatie: <https://manned.org/tftp>.
 
 - Maak verbinding met een TFTP-server door het IP-adres en de poort op te geven:
 
@@ -9,13 +9,13 @@
 
 - Maak verbinding met een TFTP-server en voer een TFTP-[c]ommand uit:
 
-`tftp {{server_ip}} -c {{command}}`
+`tftp {{server_ip}} -c {{commando}}`
 
 - Maak verbinding met een TFTP-server met IPv6 en forceer dat de oorspronkelijke poort binnen een [R]ange ligt:
 
 `tftp {{server_ip}} -6 -R {{poort}}:{{poort}}`
 
-- Stel de overdrachtsmodus in op binaire of ASCIi via de tftp-client:
+- Stel de overdrachtsmodus in op binaire of ASCII via de tftp-client:
 
 `mode {{binary|ascii}}`
 

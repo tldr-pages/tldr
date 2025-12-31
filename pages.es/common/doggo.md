@@ -2,7 +2,7 @@
 
 > Cliente DNS para Humanos.
 > Escrito en Golang.
-> Más información: <https://github.com/mr-karan/doggo>.
+> Más información: <https://github.com/mr-karan/doggo/blob/main/docs/src/content/docs/guide/reference.md>.
 
 - Realiza una simple búsqueda DNS:
 
@@ -18,8 +18,8 @@
 
 - Salida en formato JSON:
 
-`doggo {{example.com}} --json | jq '{{.responses[0].answers[].address}}'`
+`doggo {{example.com}} {{[-J|--json]}} | jq '{{.responses[0].answers[].address}}'`
 
 - Realiza una búsqueda DNS inversa:
 
-`doggo --reverse {{8.8.4.4}} --short`
+`doggo {{[-x|--reverse]}} {{8.8.4.4}} --short`

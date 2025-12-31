@@ -1,7 +1,7 @@
 # scoop
 
 > Penginstal paket berantarmuka baris perintah untuk Windows.
-> Informasi lebih lanjut: <https://scoop.sh>.
+> Informasi lebih lanjut: <https://github.com/ScoopInstaller/Scoop/wiki/Commands>.
 
 - Memasang sebuah paket:
 

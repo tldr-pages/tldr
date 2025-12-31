@@ -1,7 +1,7 @@
 # pickle
 
 > A PHP extension installer based on Composer.
-> More information: <https://github.com/FriendsOfPHP/pickle>.
+> More information: <https://github.com/FriendsOfPHP/pickle#usage>.
 
 - Install a specific PHP extension:
 

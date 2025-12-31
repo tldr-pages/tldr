@@ -13,20 +13,20 @@
 
 - Voer een specfiek Python bestand uit en start een REPL:
 
-`ptpython -i {{pad/naar/bestand.py}}`
+`ptpython {{[-i|--interactive]}} {{pad/naar/bestand.py}}`
 
 - Open het menu:
 
-`F2`
+`<F2>`
 
 - Open de geschiedenis pagina:
 
-`F3`
+`<F3>`
 
 - Wissel de plak modus:
 
-`F6`
+`<F6>`
 
 - Sluit af:
 
-`<Ctrl> + D`
+`<Ctrl d>`

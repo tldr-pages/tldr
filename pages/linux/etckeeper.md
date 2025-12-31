@@ -1,7 +1,7 @@
 # etckeeper
 
 > Track system configuration files in Git.
-> More information: <https://etckeeper.branchable.com/>.
+> More information: <https://manned.org/etckeeper>.
 
 - Set up a Git repo and perform various setup tasks (run from `/etc`):
 

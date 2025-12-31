@@ -1,16 +1,15 @@
 # swww
 
 > Efficient animated wallpaper daemon for Wayland.
-> See also: `swww-daemon`.
-> More information: <https://github.com/LGFae/swww>.
+> More information: <https://github.com/LGFae/swww#usage>.
 
 - Set wallpaper:
 
 `swww img {{path/to/image}}`
 
-- Set wallpaper to specified [o]utputs:
+- Set wallpaper to specified outputs:
 
-`swww img -o {{output1,output2,...}} {{path/to/image}}`
+`swww img {{[-o|--outputs]}} {{output1,output2,...}} {{path/to/image}}`
 
 - Restore last wallpaper:
 

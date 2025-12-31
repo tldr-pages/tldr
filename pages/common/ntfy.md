@@ -7,7 +7,7 @@
 
 `ntfy pub security "{{Front door has been opened.}}"`
 
-- Send with a title, priority and tags:
+- Send with a title, priority, and tags:
 
 `ntfy publish --title="{{Someone bought your item}}" --priority={{high}} --tags={{duck}} {{ebay}} "{{Someone just bought your item: Platypus Sculpture}}"`
 
@@ -19,7 +19,7 @@
 
 `ntfy trigger {{my_webhook}}`
 
-- Subscribe to a topic (Ctrl-C to stop listening):
+- Subscribe to a topic (`<Ctrl c>` to stop listening):
 
 `ntfy sub {{home_automation}}`
 

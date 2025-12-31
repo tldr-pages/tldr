@@ -1,6 +1,6 @@
 # cdk
 
-> A CLI for AWS Cloud Development Kit (CDK).
+> AWS Cloud Development Kit.
 > More information: <https://docs.aws.amazon.com/cdk/latest/guide/cli.html>.
 
 - List the stacks in the app:
@@ -23,9 +23,9 @@
 
 `cdk diff {{stack_name}}`
 
-- Create a new CDK project in the current directory for a specified [l]anguage:
+- Create a new CDK project in the current directory for a specified language:
 
-`cdk init -l {{language}}`
+`cdk init {{[-l|--language]}} {{language}}`
 
 - Open the CDK API reference in your browser:
 

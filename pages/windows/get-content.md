@@ -12,6 +12,6 @@
 
 `Get-Content -Path {{path\to\file}} -TotalCount {{10}}`
 
-- Display the content of the file and keep reading from it until `Ctrl + C` is pressed:
+- Display the content of the file and keep reading from it until `<Ctrl c>` is pressed:
 
 `Get-Content -Path {{path\to\file}} -Wait`

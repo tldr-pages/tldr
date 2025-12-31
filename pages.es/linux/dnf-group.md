@@ -1,24 +1,24 @@
 # dnf group
 
 > Gestiona colecciones virtuales de paquetes en sistemas basados en Fedora.
-> Más información: <https://manned.org/man/dnf-group>.
+> Más información: <https://dnf.readthedocs.io/en/latest/command_ref.html#group-command>.
 
-- Lista los grupos DNF, mostrando el estado de instalado o no en una tabla:
+- Lista grupos DNF, mostrando el estado de instalado y desinstalado en una tabla:
 
-`dnf group list`
+`dnf {{[grp|group]}} list`
 
 - Muestra información del grupo DNF, incluyendo repositorio y paquetes opcionales:
 
-`dnf group info {{nombre_del_grupo}}`
+`dnf {{[grp|group]}} info {{nombre_grupo}}`
 
 - Instala un grupo DNF:
 
-`dnf group install {{nombre_del_grupo}}`
+`dnf {{[grp|group]}} install {{nombre_grupo}}`
 
 - Elimina un grupo DNF:
 
-`dnf group remove {{nombre_del_grupo}}`
+`dnf {{[grp|group]}} remove {{nombre_grupo}}`
 
 - Actualiza un grupo DNF:
 
-`dnf group upgrade {{nombre_del_grupo}}`
+`dnf {{[grp|group]}} upgrade {{nombre_grupo}}`

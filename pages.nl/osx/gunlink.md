@@ -1,7 +1,7 @@
 # gunlink
 
-> Dit commando is een alias van `-p linux unlink`.
+> Dit commando is een alias van GNU `unlink`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux unlink`
+`tldr unlink`

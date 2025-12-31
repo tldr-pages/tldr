@@ -1,7 +1,7 @@
 # wat2wasm
 
 > Convert a file from the WebAssembly text format to the binary format.
-> More information: <https://github.com/WebAssembly/wabt>.
+> More information: <https://webassembly.github.io/wabt/doc/wat2wasm.1.html>.
 
 - Parse and check a file for errors:
 
@@ -9,8 +9,8 @@
 
 - Write the output binary to a given file:
 
-`wat2wasm {{file.wat}} -o {{file.wasm}}`
+`wat2wasm {{file.wat}} {{[-o|--output]}} {{file.wasm}}`
 
 - Display simplified representation of every byte:
 
-`wat2wasm -v {{file.wat}}`
+`wat2wasm {{[-v|--verbose]}} {{file.wat}}`

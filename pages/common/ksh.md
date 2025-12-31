@@ -1,8 +1,8 @@
 # ksh
 
 > Korn Shell, a Bash-compatible command-line interpreter.
-> See also: `histexpand`.
-> More information: <http://kornshell.com>.
+> See also: `!`, `^`.
+> More information: <https://manned.org/ksh>.
 
 - Start an interactive shell session:
 
@@ -20,6 +20,6 @@
 
 `ksh -n {{path/to/script.ksh}}`
 
-- Execute a specific script, printing each command in the script before executing it:
+- E[x]ecute a specific script, printing each command in the script before executing it:
 
 `ksh -x {{path/to/script.ksh}}`

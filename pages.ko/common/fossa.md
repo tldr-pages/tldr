@@ -1,7 +1,7 @@
 # fossa
 
 > Fossa 서비스용 CLI - 종속성 라이센스에 대한 실시간 라이센스 감사, 취약성 검색 및 보고서를 생성.
-> 더 많은 정보: <https://github.com/fossas/fossa-cli>.
+> 더 많은 정보: <https://github.com/fossas/fossa-cli/blob/master/docs/README.md>.
 
 - `.fossa.yml` 구성 파일을 초기화:
 

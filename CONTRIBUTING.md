@@ -31,6 +31,11 @@ To get started, please [sign](https://cla-assistant.io/tldr-pages/tldr) the
 > [!NOTE]
 > When submitting a new command, please base your PR against the `main` branch and check if there's already a pull request in progress for it.
 
+> [!WARNING]
+> We strongly discourage using generative AI tools to create new pages, as their output is often inaccurate and may not follow our style guidelines.
+> For translations, machine translation tools may be used as reference, but their results must be thoroughly proofread before submission.
+> Pull requests suspected of being made in whole or in part through generative AI or machine translation software without human-review will be closed.
+
 ## Guidelines
 
 The basic format of a `tldr` page is a set of concrete usage examples.
@@ -41,7 +46,7 @@ Here are a few guidelines to get started:
    Remember, it's OK if the page doesn't cover everything; that's what `man` is for.
 2. When in doubt, keep new command-line users in mind. Err on the side of clarity rather than terseness.
    For example, commands that require `sudo` should include it directly in the examples.
-3. Try to incorporate the spelled-out version of single-letter options in the example's description.
+3. Prefer using longform options or try to incorporate the spelled-out version of single-letter options in the example's description if the program doesn't support longform.
    The goal is to allow people to *understand* the syntax of the commands, not just *memorize* it.
 4. Introduce options gradually, starting with the simplest command invocations and using more complex examples progressively.
 5. Focus on details specific to the command and avoid explaining general UNIX concepts that could apply to any command
@@ -51,6 +56,8 @@ These are all guidelines, not strict rules.
 Use proper judgement, keeping simplicity and user-friendliness as the top priorities.
 
 When in doubt, have a look at a few existing pages :).
+
+See the full [style guide](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/style-guide.md) for detailed instructions.
 
 ## Directory structure
 
@@ -71,6 +78,8 @@ The `pages` directory and `pages.*` language-specific directories contain the pl
 2. If the command is **only** available for **one** platform, these are the available directories followed by their right platform:
 
 - `android`: Android
+- `cisco-ios`: Cisco IOS
+- `dos`: MS-DOS/DOSBox/FreeDOS
 - `freebsd`: FreeBSD
 - `openbsd`: OpenBSD
 - `osx`: OSX/Mac OS/macOS (will be replaced by `macos`)
@@ -182,6 +191,11 @@ Translation of pages can be done by simply creating the corresponding page withi
 > [!TIP]
 > When fixing errors in an existing translation, it is suggested to update the page to match the latest version of the English page.
 
+> [!IMPORTANT]
+> Only translate or update languages you can confidently read and proofread.
+> Avoid machine-generated or bulk edits across languages you do not know.
+> When you change an English page, it is fine to leave other languages untouched; native speakers and maintainers will sync them later by referring to the [translation dashboards](https://github.com/tldr-pages/tldr-maintenance/issues/127).
+
 To see the current progress of all translations, you can visit <https://lukwebsforge.github.io/tldri18n/>, which provides a dynamically updated table of all pages and their translations or you can visit <https://github.com/tldr-pages/tldr-maintenance/issues/127>, which provides a dynamically updated list about the translation status (e.g. list all outdated pages) per language.
 
 Some examples of valid locale tags:
@@ -251,6 +265,9 @@ To commit a suggestion to your pull request, click on `Commit suggestion`:
 
 If you want to commit multiple suggestions, go to the "Files changed" tab and batch all suggestions. Now, click the `Commit suggestions` button and enter a commit message to create a single commit.
 
+> [!IMPORTANT]
+> Do not force push to pull request branches, unless strictly necessary. We would prefer to preserve commit history within the pull request, so that the order of events between review comments and the commits that address them stays chronological. Pull requests will typically be squashed, so a messy commit history in the PR branch is not necessarily problematic.
+
 ### Commit message and PR title
 
 For the commit message and PR title of page changes, use the following format:
@@ -278,8 +295,8 @@ For other cases, it is suggested to follow <https://www.conventionalcommits.org/
 
 ## Name collisions
 
-When there are multiple commands sharing the same name, the existing page of the command and the new command can be renamed to `command.1` and so on following a numbering scheme or based on the programming language i.e. `command.js`.
-The base page can be updated to reference the newly renamed/created pages by following [this subcommand reference format](#subcommands).
+When there are multiple commands sharing the same name, the existing page of the command and the new command can be renamed to `command.1` and so on following a numbering scheme or using a suffix relating to the program like the programming language i.e. `command.js`.
+The base page can be updated to reference the newly renamed/created pages by following [the disambiguation page format](contributing-guides/style-guide.md#disambiguations).
 
 See the following page for reference:
 

@@ -9,12 +9,12 @@
 
 - Menampilkan semua _routes_ dengan format yang lebih panjang:
 
-`rails routes --expanded`
+`rails routes {{[-E|--expanded]}}`
 
 - Menampilkan _routes_ yang sebagian cocok dengan nama helper method URL, HTTP verb, atau path URL:
 
-`rails routes -g {{posts_path|GET|/posts}}`
+`rails routes {{[-g|--grep]}} {{posts_path|GET|/posts}}`
 
 - Menampilkan _routes_ yang memetakan ke controller tertentu:
 
-`rails routes -c {{posts|Posts|Blogs::PostsController}}`
+`rails routes {{[-c|--controller]}} {{posts|Posts|Blogs::PostsController}}`

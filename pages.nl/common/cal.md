@@ -1,7 +1,7 @@
 # cal
 
 > Toon een kalender met de huidige dag gemarkeerd.
-> Bekijk ook: `gcal`.
+> Zie ook: `gcal`.
 > Meer informatie: <https://manned.org/cal.1p>.
 
 - Toon een kalender voor de huidige maand:

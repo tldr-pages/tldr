@@ -22,8 +22,8 @@
 
 - 디렉토리 내의 모든 전자책을 재귀적으로 라이브러리에 추가:
 
-`calibredb add {{-r|--recurse}} {{경로/대상/디렉토리}}`
+`calibredb add {{[-r|--recurse]}} {{경로/대상/디렉토리}}`
 
 - 라이브러리에서 전자책을 하나 이상 제거하기. 전자책 ID 필요(위를 참조하시오):
 
-`calibredb remove {{id1 id2 …}}`
+`calibredb remove {{id1 id2 ...}}`

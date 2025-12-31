@@ -5,16 +5,16 @@
 
 - Konwertuj wskazany plik instalacyjny do formatu Debiana (rozszerzenie `.deb`):
 
-`sudo alien --to-deb {{ścieżka/do/pliku}}`
+`sudo alien {{[-d|--to-deb]}} {{ścieżka/do/pliku}}`
 
 - Konwertuj wskazany plik instalacyjny do formatu Red Hata (rozszerzenie `.rpm`):
 
-`sudo alien --to-rpm {{ścieżka/do/pliku}}`
+`sudo alien {{[-r|--to-rpm]}} {{ścieżka/do/pliku}}`
 
 - Konwertuj wskazany plik instalacyjny do formatu plików instalacyjnych Slackware (rozszerzenie `.tgz`):
 
-`sudo alien --to-tgz {{ścieżka/do/pliku}}`
+`sudo alien {{[-t|--to-tgz]}} {{ścieżka/do/pliku}}`
 
 - Konwertuj wskazany plik instalacyjny do formatu Debiana i zainstaluj go w systemie:
 
-`sudo alien --to-deb --install {{ścieżka/do/pliku}}`
+`sudo alien {{[-d|--to-deb]}} {{[-i|--install]}} {{ścieżka/do/pliku}}`

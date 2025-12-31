@@ -1,11 +1,11 @@
 # qrcp
 
 > A file transfer tool.
-> More information: <https://github.com/claudiodangelis/qrcp>.
+> More information: <https://github.com/claudiodangelis/qrcp#usage>.
 
 - Send a file or directories:
 
-`qrcp send {{path/to/file_or_directory path/to/file_directory ...}}`
+`qrcp send {{path/to/file_or_directory1 path/to/file_directory2 ...}}`
 
 - Receive files:
 
@@ -15,13 +15,13 @@
 
 `qrcp send --zip {{path/to/file_or_directory}}`
 
-- Use a specific [p]ort:
+- Use a specific port:
 
-`qrcp {{send|receive}} --port {{port_number}}`
+`qrcp {{send|receive}} {{[-p|--port]}} {{port_number}}`
 
-- Use a specific network [i]nterface:
+- Use a specific network interface:
 
-`qrcp {{send|receive}} --interface {{interface}}`
+`qrcp {{send|receive}} {{[-i|--interface]}} {{interface}}`
 
 - Keep the server alive:
 

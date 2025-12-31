@@ -1,6 +1,7 @@
 # traceroute
 
 > Print the route packets trace to network host.
+> See also: `mtr`.
 > More information: <https://manned.org/traceroute>.
 
 - Traceroute to a host:
@@ -13,11 +14,11 @@
 
 - Specify wait time in seconds for response:
 
-`traceroute --wait={{0.5}} {{example.com}}`
+`traceroute {{[-w|--wait]}} {{0.5}} {{example.com}}`
 
 - Specify number of queries per hop:
 
-`traceroute --queries={{5}} {{example.com}}`
+`traceroute {{[-q|--queries]}} {{5}} {{example.com}}`
 
 - Specify size in bytes of probing packet:
 
@@ -29,4 +30,4 @@
 
 - Use ICMP instead of UDP for tracerouting:
 
-`traceroute --icmp {{example.com}}`
+`traceroute {{[-I|--icmp]}} {{example.com}}`

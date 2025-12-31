@@ -1,7 +1,7 @@
 # kool
 
 > Build software development environments.
-> More information: <https://kool.dev/docs/>.
+> More information: <https://kool.dev/docs/commands-reference/kool>.
 
 - Create a project using a specific preset:
 

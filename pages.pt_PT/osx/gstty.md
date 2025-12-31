@@ -1,7 +1,7 @@
 # gstty
 
-> Este comando é um alias de `-p linux stty`.
+> Este comando é um alias de `stty`.
 
-- Exibe documentação do comando original:
+- Ver documentação do comando original:
 
-`tldr -p linux stty`
+`tldr stty`

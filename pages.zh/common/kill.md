@@ -2,7 +2,7 @@
 
 > 向进程发送信号，通常用于停止进程。
 > 除了 SIGKILL 和 SIGSTOP，所有信号都可以被进程拦截，以便进行正常退出。
-> 更多信息：<https://manned.org/kill.1posix>.
+> 更多信息：<https://manned.org/kill.1posix>。
 
 - 使用默认的 SIGTERM（终止）信号来结束一个程序：
 
@@ -16,7 +16,7 @@
 
 `kill -{{1|HUP}} {{进程ID}}`
 
-- 使用 SIGINT（中断）信号终止一个程序。通常由用户按下 `Ctrl + C` 发起：
+- 使用 SIGINT（中断）信号终止一个程序。通常由用户按下 `<Ctrl c>` 发起：
 
 `kill -{{2|INT}} {{进程ID}}`
 

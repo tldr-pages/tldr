@@ -1,12 +1,7 @@
 # zcat
 
-> Print data from `gzip` compressed files.
-> More information: <https://www.gnu.org/software/gzip/manual/gzip.html>.
+> This command is an alias of `gzip --stdout --decompress`.
 
-- Print the uncompressed contents of a `gzip` archive to `stdout`:
+- View documentation for the original command:
 
-`zcat {{file.txt.gz}}`
-
-- Print compression details of a `gzip` archive to `stdout`:
-
-`zcat -l {{file.txt.gz}}`
+`tldr gzip`

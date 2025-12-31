@@ -1,7 +1,7 @@
 # konsole
 
 > Konsole: KDE 终端模拟器。
-> 更多信息：<https://docs.kde.org/stable5/en/konsole/konsole/command-line-options.html>.
+> 更多信息：<https://docs.kde.org/stable5/en/konsole/konsole/command-line-options.html>。
 
 - 在特定目录中打开一个新的 Konsole：
 
@@ -15,7 +15,7 @@
 
 `konsole --new-tab`
 
-- 在后台打开 Konsole 并在按下 Ctrl+Shift+F12（默认）时显示在最前面：
+- 在后台打开 Konsole 并在按下 `<Ctrl Shift F12>`（默认）时显示在最前面：
 
 `konsole --background-mode`
 

@@ -1,7 +1,7 @@
 # code
 
 > Cross platform and extensible code editor.
-> More information: <https://github.com/microsoft/vscode>.
+> More information: <https://code.visualstudio.com/docs/configure/command-line>.
 
 - Start Visual Studio Code:
 
@@ -13,19 +13,19 @@
 
 - Compare two specific files:
 
-`code --diff {{path/to/file1}} {{path/to/file2}}`
+`code {{[-d|--diff]}} {{path/to/file1}} {{path/to/file2}}`
 
 - Open specific files/directories in a new window:
 
-`code --new-window {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
+`code {{[-n|--new-window]}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
 - Install/uninstall a specific extension:
 
 `code --{{install|uninstall}}-extension {{publisher.extension}}`
 
-- Print installed extensions:
+- Display diagnostic and process information about the running code window:
 
-`code --list-extensions`
+`code {{[-s|--status]}}`
 
 - Print installed extensions with their versions:
 

@@ -17,8 +17,16 @@
 
 - Also fetch tags from the remote upstream repository:
 
-`git fetch --tags`
+`git fetch {{[-t|--tags]}}`
 
 - Delete local references to remote branches that have been deleted upstream:
 
-`git fetch --prune`
+`git fetch {{[-p|--prune]}}`
+
+- Deepen current shallow branch by 2 commits:
+
+`git fetch --deepen 2`
+
+- Update the `main` branch without switching to it (equivalent to `git pull`):
+
+`git fetch {{origin}} main:main`

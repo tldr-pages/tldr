@@ -1,7 +1,7 @@
 # adduser
 
 > Käyttäjän lisäysapuohjelma.
-> Lisätietoja: <https://manned.org/adduser>.
+> Lisätietoa: <https://manned.org/adduser>.
 
 - Luo uusi käyttäjä oletuskotihakemistolla ja pyydä käyttäjää asettamaan salasana:
 

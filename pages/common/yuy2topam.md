@@ -5,4 +5,4 @@
 
 - Convert YUY2 bytes to PAM:
 
-`yuy2topam -width {{value}} -height {{value}} {{path/to/file.yuy2}} > {{path/to/file.pam}}`
+`yuy2topam {{[-w|-width]}} {{value}} {{[-h|-height]}} {{value}} {{path/to/file.yuy2}} > {{path/to/file.pam}}`

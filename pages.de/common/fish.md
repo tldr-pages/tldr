@@ -2,7 +2,7 @@
 
 > The Friendly Interactive SHell.
 > Eine benutzerfreundliche Eingabeaufforderung.
-> Weitere Informationen: <https://fishshell.com>.
+> Weitere Informationen: <https://fishshell.com/docs/current/cmds/fish.html>.
 
 - Starte eine interaktive Shell-Sitzung:
 
@@ -10,11 +10,11 @@
 
 - Starte eine interaktive Shell-Sitzung ohne die Start-Konfiguration zu laden:
 
-`fish --no-config`
+`fish {{[-N|--no-config]}}`
 
 - Führe einen bestimmten Befehl aus:
 
-`fish --command "{{echo 'fish wird ausgeführt'}}"`
+`fish {{[-c|--command]}} "{{echo 'fish wird ausgeführt'}}"`
 
 - Führe ein bestimmtes Skript aus:
 
@@ -22,12 +22,12 @@
 
 - Überprüfe ein bestimmtes Skript auf Syntaxfehler:
 
-`fish --no-execute {{pfad/zu/skript.fish}}`
+`fish {{[-N|--no-execute]}} {{pfad/zu/skript.fish}}`
 
 - Starte eine private, interaktive Shell-Sitzung, in der fish weder auf die Shell-History zugreift, noch diese verändert:
 
-`fish --private`
+`fish {{[-P|--private]}}`
 
 - Definiere und exportiere eine Umgebungsvariable, die über mehrere Shell-Neustarts hinweg existiert (builtin):
 
-`set --universal --export {{variablenname}} {{variablenwert}}`
+`set {{[-U|--universal]}} {{[-x|--export]}} {{variablenname}} {{variablenwert}}`

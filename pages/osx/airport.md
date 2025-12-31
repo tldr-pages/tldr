@@ -1,7 +1,7 @@
 # airport
 
 > Wireless network configuration utility.
-> More information: <https://keith.github.io/xcode-man-pages/airport.1.html>.
+> More information: <https://ss64.com/mac/airport.html>.
 
 - Show current wireless status information:
 

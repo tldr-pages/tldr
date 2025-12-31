@@ -1,7 +1,7 @@
 # silicon
 
 > 소스 코드의 이미지를 생성.
-> 더 많은 정보: <https://github.com/Aloxaf/silicon>.
+> 더 많은 정보: <https://github.com/Aloxaf/silicon#examples>.
 
 - 특정 소스 파일에서 이미지 생성:
 

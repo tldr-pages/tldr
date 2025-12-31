@@ -1,6 +1,6 @@
 # go test
 
-> Tests Go packages (files have to end with `_test.go`).
+> Test Go packages (files have to end with `_test.go`).
 > More information: <https://pkg.go.dev/cmd/go#hdr-Testing_flags>.
 
 - Test the package found in the current directory:
@@ -21,7 +21,7 @@
 
 - Test the package in the current directory and run all benchmarks for 50 seconds:
 
-`go test -v -bench . -benchtime {{50s}}`
+`go test -v -bench . -benchtime 50s`
 
 - Test the package with coverage analysis:
 

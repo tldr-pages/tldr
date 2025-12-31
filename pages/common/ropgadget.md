@@ -1,13 +1,13 @@
 # ROPgadget
 
 > Find ROP gadgets in binary files.
-> More information: <https://github.com/JonathanSalwan/ROPgadget>.
+> More information: <https://github.com/JonathanSalwan/ROPgadget#usage>.
 
 - List gadgets in the binary file:
 
 `ROPgadget --binary {{path/to/binary}}`
 
-- Filter gadgets in the binary file by a regular expression:
+- Filter gadgets in the binary file by a `regex`:
 
 `ROPgadget --binary {{path/to/binary}} --re {{regex}}`
 

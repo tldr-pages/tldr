@@ -1,7 +1,7 @@
 # ts
 
 > Add timestamps to every line from `stdin`.
-> More information: <https://joeyh.name/code/moreutils/>.
+> More information: <https://manned.org/ts>.
 
 - Add a timestamp to the beginning of each line:
 

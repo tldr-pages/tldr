@@ -1,7 +1,7 @@
 # guname
 
-> Este comando é um apelido de `-p linux uname`.
+> Este comando é um apelido de `uname`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux uname`
+`tldr {{[-p|--platform]}} common uname`

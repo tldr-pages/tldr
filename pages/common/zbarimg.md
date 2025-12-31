@@ -1,7 +1,7 @@
 # zbarimg
 
 > Scan and decode bar codes from image file(s).
-> More information: <https://zbar.sourceforge.net>.
+> More information: <https://manned.org/zbarimg>.
 
 - Process an image file:
 

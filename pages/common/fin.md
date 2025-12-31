@@ -1,6 +1,6 @@
 # fin
 
-> Docksal command-line utility.
+> Docksal utility.
 > More information: <https://docs.docksal.io/fin/fin/>.
 
 - Start the project in the current directory:
@@ -21,4 +21,4 @@
 
 - Display logs of a specific container and follow the log:
 
-`fin logs -f {{container_name}}`
+`fin logs {{[-f|--follow]}} {{container_name}}`

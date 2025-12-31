@@ -1,7 +1,7 @@
 # gwhoami
 
-> To polecenie jest aliasem `-p linux whoami`.
+> To polecenie jest aliasem GNU `whoami`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux whoami`
+`tldr whoami`

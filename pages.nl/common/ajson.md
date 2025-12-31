@@ -1,7 +1,7 @@
 # ajson
 
 > Voert JSONPath uit op JSON-objecten.
-> Meer informatie: <https://github.com/spyzhov/ajson>.
+> Meer informatie: <https://github.com/spyzhov/ajson#console-application>.
 
 - Lees JSON uit een bestand en voer een opgegeven JSONPath-expressie uit:
 
@@ -13,7 +13,7 @@
 
 - Lees JSON van een URL en evalueer een opgegeven JSONPath-expressie:
 
-`ajson '{{avg($..price)}}' '{{https://voorbeeld.com/api/}}'`
+`ajson '{{avg($..price)}}' '{{https://example.com/api/}}'`
 
 - Lees wat eenvoudige JSON en bereken een waarde:
 

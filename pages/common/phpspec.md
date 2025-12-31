@@ -1,7 +1,7 @@
 # phpspec
 
 > A Behaviour Driven Development tool for PHP.
-> More information: <https://phpspec.net>.
+> More information: <https://phpspec.net/en/stable/cookbook/console.html>.
 
 - Create a specification for a class:
 
@@ -17,11 +17,11 @@
 
 - Run specifications using a specific configuration file:
 
-`phpspec run -c {{path/to/configuration_file}}`
+`phpspec run {{[-c|--config]}} {{path/to/configuration_file}}`
 
 - Run specifications using a specific bootstrap file:
 
-`phpspec run -b {{path/to/bootstrap_file}}`
+`phpspec run {{[-b|--bootstrap]}} {{path/to/bootstrap_file}}`
 
 - Disable code generation prompts:
 

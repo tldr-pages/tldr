@@ -1,7 +1,7 @@
 # pw-loopback
 
 > PipeWire'da geri döngü cihazları yaratma aracı.
-> Daha fazla bilgi için: <https://gitlab.freedesktop.org/pipewire/pipewire/-/wikis/Virtual-Devices>.
+> Daha fazla bilgi için: <https://docs.pipewire.org/page_man_pw-loopback_1.html>.
 
 - Varsayılan geri döngü davranışına sahip bir geri döngü cihazı yarat:
 

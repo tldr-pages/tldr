@@ -1,7 +1,7 @@
 # railway
 
 > 코드를 Railway 프로젝트에 연결.
-> 더 많은 정보: <https://railway.app/>.
+> 더 많은 정보: <https://docs.railway.com/reference/cli-api>.
 
 - Railway 계정에 로그인:
 

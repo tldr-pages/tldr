@@ -1,7 +1,7 @@
 # aws s3 rm
 
 > S3 객체 삭제.
-> 더 많은 정보: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/rm.html>.
+> 더 많은 정보: <https://docs.aws.amazon.com/cli/latest/reference/s3/rm.html>.
 
 - 특정 S3 객체 삭제:
 

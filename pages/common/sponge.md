@@ -9,4 +9,4 @@
 
 - Remove all lines starting with # in a file:
 
-`grep -v '^{{#}}' {{path/to/file}} | sponge {{path/to/file}}`
+`grep {{[-v|--invert-match]}} '^{{#}}' {{path/to/file}} | sponge {{path/to/file}}`

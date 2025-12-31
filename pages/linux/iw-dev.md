@@ -1,10 +1,10 @@
 # iw dev
 
 > Show and manipulate wireless devices.
-> For a list of channels, frequencies and reg information: <https://wireless.docs.kernel.org/en/latest/en/developers/documentation/channellist.html>.
+> For a list of channels, frequencies, and reg information: <https://wireless.docs.kernel.org/en/latest/en/developers/documentation/channellist.html>.
 > More information: <https://wireless.docs.kernel.org/en/latest/en/users/documentation/iw.html>.
 
-- Set device to monitor mode (interface must be down first. See also `ip link`):
+- Set device to monitor mode (interface must be down first. See also: `ip link`):
 
 `sudo iw dev {{wlp}} set type monitor`
 
@@ -12,11 +12,11 @@
 
 `sudo iw dev {{wlp}} set type managed`
 
-- Set device WiFi channel (device must first be in monitor mode with the interface up):
+- Set device Wi-Fi channel (device must first be in monitor mode with the interface up):
 
 `sudo iw dev {{wlp}} set channel {{channel_number}}`
 
-- Set device WiFi frequency in Mhz (device must first be in monitor mode with the interface up):
+- Set device Wi-Fi frequency in Mhz (device must first be in monitor mode with the interface up):
 
 `sudo iw dev {{wlp}} set freq {{freq_in_mhz}}`
 

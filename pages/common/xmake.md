@@ -5,20 +5,20 @@
 
 - Create an Xmake C project, consisting of a hello world and `xmake.lua`:
 
-`xmake create --language c -P {{project_name}}`
+`xmake create {{[-l|--language]}} {{[c|clean]}} {{[-P|--project]}} {{project_name}}`
 
 - Build and run an Xmake project:
 
-`xmake build run`
+`xmake {{[b|build]}} {{[r|run]}}`
 
 - Run a compiled Xmake target directly:
 
-`xmake run {{target_name}}`
+`xmake {{[r|run]}} {{target_name}}`
 
 - Configure a project's build targets:
 
-`xmake config --plat={{macosx|linux|iphoneos|...}} --arch={{x86_64|i386|arm64|...}} --mode={{debug|release}}`
+`xmake {{[f|config]}} {{[-p |--plat=]}}{{macosx|linux|iphoneos|...}} {{[-a |--arch=]}}{{x86_64|i386|arm64|...}} {{[-m |--mode=]}}{{debug|release}}`
 
 - Install the compiled target to a directory:
 
-`xmake install -o {{path/to/directory}}`
+`xmake {{[i|install]}} {{[-o |--installdir=]}}{{path/to/directory}}`

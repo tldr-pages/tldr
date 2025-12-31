@@ -1,7 +1,7 @@
 # go list
 
 > Paket ve modülleri sırala.
-> Daha fazla bilgi için: <https://golang.org/cmd/go/#hdr-List_packages_or_modules>.
+> Daha fazla bilgi için: <https://pkg.go.dev/cmd/go#hdr-List_packages_or_modules>.
 
 - Paketleri sırala:
 

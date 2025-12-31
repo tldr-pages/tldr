@@ -1,7 +1,7 @@
 # wal
 
 > 배경화면의 주요 색상을 기반으로 색상 테마 생성.
-> 더 많은 정보: <https://github.com/dylanaraps/pywal>.
+> 더 많은 정보: <https://github.com/dylanaraps/pywal/wiki/Getting-Started>.
 
 - 색상 테마 미리보기:
 

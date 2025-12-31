@@ -1,7 +1,7 @@
 # nsnake
 
 > 터미널에서 즐기는 Snake 게임.
-> 더 많은 정보: <https://github.com/alexdantas/nsnake/>.
+> 더 많은 정보: <https://github.com/alexdantas/nsnake/#controls>.
 
 - Snake 게임 시작:
 
@@ -9,16 +9,16 @@
 
 - Snake 조작:
 
-`{{위|아래|왼쪽|오른쪽 화살표 키}}`
+`{{<ArrowUp>|<ArrowDown>|<ArrowLeft>|<ArrowRight>}}`
 
 - 게임 일시 정지/재개:
 
-`p`
+`<p>`
 
 - 게임 종료:
 
-`q`
+`<q>`
 
 - 게임 중 도움말 표시:
 
-`h`
+`<h>`

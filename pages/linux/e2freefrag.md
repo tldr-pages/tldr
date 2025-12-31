@@ -7,6 +7,6 @@
 
 `e2freefrag {{/dev/sdXN}}`
 
-- Specify chunk size in kilobytes to print how many free chunks are available:
+- Specify [c]hunk size in kilobytes to print how many free chunks are available:
 
 `e2freefrag -c {{chunk_size_in_kb}} {{/dev/sdXN}}`

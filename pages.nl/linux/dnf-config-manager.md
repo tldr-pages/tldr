@@ -1,7 +1,9 @@
 # dnf config-manager
 
 > Beheer DNF-configuratie-opties en repositories op Fedora-gebaseerde systemen.
-> Meer informatie: <https://manned.org/dnf-config-manager>.
+> Niet standaard voor `dnf` maar ondersteund via `dnf-plugins-core`.
+> Zie ook: `dnf`.
+> Meer informatie: <https://dnf-plugins-core.readthedocs.io/en/latest/config_manager.html>.
 
 - Voeg een repository toe (en schakel deze in) vanaf een URL:
 
@@ -13,16 +15,16 @@
 
 - Schakel een specifieke repository in:
 
-`dnf config-manager --set-enabled {{repository_id}}`
+`dnf config-manager {{[--enable|--set-enabled]}} {{repository_id}}`
 
 - Schakel opgegeven repositories uit:
 
-`dnf config-manager --set-disabled {{repository_id1 repository_id2 ...}}`
+`dnf config-manager {{[--disable|--set-disabled]}} {{repository_id1 repository_id2 ...}}`
 
 - Stel een configuratieoptie in voor een repository:
 
 `dnf config-manager --setopt={{option}}={{value}}`
 
-- Toon help:
+- Toon de help:
 
 `dnf config-manager --help-cmd`

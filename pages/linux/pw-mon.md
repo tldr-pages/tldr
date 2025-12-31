@@ -9,12 +9,12 @@
 
 - Monitor a specific remote instance:
 
-`pw-mon --remote={{remote_name}}`
+`pw-mon {{[-r|--remote]}} {{remote_name}}`
 
 - Monitor the default instance specifying a color configuration:
 
-`pw-mon --color={{never|always|auto}}`
+`pw-mon {{[-N|--color]}} {{never|always|auto}}`
 
 - Display help:
 
-`pw-mon --help`
+`pw-mon {{[-h|--help]}}`

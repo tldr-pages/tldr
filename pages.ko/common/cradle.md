@@ -2,7 +2,7 @@
 
 > Cradle PHP 프레임워크.
 > 추가 정보는 `cradle-install`, `cradle-deploy` 및 기타 페이지 참조.
-> 더 많은 정보: <https://cradlephp.github.io>.
+> 더 많은 정보: <https://cradlephp.github.io/docs/3.B.-Reference-Command-Line-Tools.html>.
 
 - 서버에 연결:
 

@@ -1,7 +1,7 @@
 # ant
 
 > Apache Ant: bangun dan atur proyek pengembangan piranti lunak berbasis Java.
-> Informasi lebih lanjut: <https://ant.apache.org>.
+> Informasi lebih lanjut: <https://ant.apache.org/manual/index.html>.
 
 - Bangun suatu proyek Java dengan pengaturan yang didefinisikan dalam `build.xml` (lokasi default):
 

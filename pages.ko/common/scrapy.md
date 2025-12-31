@@ -1,7 +1,7 @@
 # scrapy
 
 > 웹 크롤링 프레임워크.
-> 더 많은 정보: <https://scrapy.org>.
+> 더 많은 정보: <https://docs.scrapy.org/en/latest/topics/commands.html#using-the-scrapy-tool>.
 
 - 프로젝트 생성:
 

@@ -13,7 +13,7 @@
 
 - Afficher des informations détaillées sur l'utilisation du disque par Docker :
 
-`docker system df --verbose`
+`docker system df {{[-v|--verbose]}}`
 
 - Supprimer les données non utilisées :
 
@@ -29,7 +29,7 @@
 
 - Afficher les événements du démon Docker en temps réel avec un format JSON :
 
-`docker system events --filter 'type=container' --format '{{json .}}'`
+`docker system events {{[-f|--filter]}} 'type=container' --format '{{json .}}'`
 
 - Afficher les informations sur le système Docker :
 

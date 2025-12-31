@@ -1,11 +1,11 @@
 # bootctl
 
 > Control EFI firmware boot settings and manage boot loader.
-> More information: <https://manned.org/bootctl>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/bootctl.html>.
 
 - Show information about the system firmware and the bootloaders:
 
-`bootctl status`
+`bootctl`
 
 - Show all available bootloader entries:
 
@@ -15,9 +15,9 @@
 
 `sudo bootctl reboot-to-firmware true`
 
-- Specify the path to the EFI system partition (defaults to `/efi/`, `/boot/` or `/boot/efi`):
+- Specify the path to the EFI system partition (defaults to `/efi/`, `/boot/`, or `/boot/efi`):
 
-`bootctl --esp-path={{/path/to/efi_system_partition/}}`
+`bootctl --esp-path /{{path/to/efi_system_partition}}/`
 
 - Install `systemd-boot` into the EFI system partition:
 

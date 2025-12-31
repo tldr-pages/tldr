@@ -5,8 +5,8 @@
 
 - Open a new window and connect to multiple SSH servers:
 
-`mssh {{user@host1}} {{user@host2}} {{...}}`
+`mssh {{user@host1 user@host2 ...}}`
 
 - Open a new window and connect to a group of servers predefined in `~/.mssh_clusters`:
 
-`mssh --alias {{alias_name}}`
+`mssh {{[-a|--alias]}} {{alias_name}}`

@@ -1,20 +1,20 @@
 # gnmic get
 
 > Get a snapshot of a gnmi network device operation data.
-> More information: <https://gnmic.kmrd.dev/cmd/get>.
+> More information: <https://gnmic.openconfig.net/cmd/get/>.
 
 - Get a snapshot of the device state at a specific path:
 
-`gnmic --address {{ip:port}} get --path {{path}}`
+`gnmic {{[-a|--address]}} {{ip:port}} get --path {{path}}`
 
 - Query the device state at multiple paths:
 
-`gnmic -a {{ip:port}} get --path {{path/to/file_or_directory1}} --path {{path/to/file_or_directory2}}`
+`gnmic {{[-a|--address]}} {{ip:port}} get --path {{path/to/file_or_directory1}} --path {{path/to/file_or_directory2}}`
 
 - Query the device state at multiple paths with a common prefix:
 
-`gnmic -a {{ip:port}} get --prefix {{prefix}} --path {{path/to/file_or_directory1}} --path {{path/to/file_or_directory2}}`
+`gnmic {{[-a|--address]}} {{ip:port}} get --prefix {{prefix}} --path {{path/to/file_or_directory1}} --path {{path/to/file_or_directory2}}`
 
 - Query the device state and specify response encoding (json_ietf):
 
-`gnmic -a {{ip:port}} get --path {{path}} --encoding json_ietf`
+`gnmic {{[-a|--address]}} {{ip:port}} get --path {{path}} {{[-e|--encoding]}} json_ietf`

@@ -10,16 +10,16 @@
 
 - Display all information about dependencies:
 
-`ldd --verbose {{path/to/binary}}`
+`ldd {{[-v|--verbose]}} {{path/to/binary}}`
 
 - Display unused direct dependencies:
 
-`ldd --unused {{path/to/binary}}`
+`ldd {{[-u|--unused]}} {{path/to/binary}}`
 
 - Report missing data objects and perform data relocations:
 
-`ldd --data-relocs {{path/to/binary}}`
+`ldd {{[-d|--data-relocs]}} {{path/to/binary}}`
 
 - Report missing data objects and functions, and perform relocations for both:
 
-`ldd --function-relocs {{path/to/binary}}`
+`ldd {{[-r|--function-relocs]}} {{path/to/binary}}`

@@ -1,7 +1,7 @@
 # handlr
 
 > Manage your default applications.
-> More information: <https://github.com/chmln/handlr>.
+> More information: <https://github.com/chmln/handlr#usage>.
 
 - Open a URL in the default application:
 
@@ -17,7 +17,7 @@
 
 - Set MPV as the default application for all audio files:
 
-`handlr set {{'audio/*'}} {{mpv.desktop}}`
+`handlr set '{{audio/*}}' {{mpv.desktop}}`
 
 - List all default apps:
 

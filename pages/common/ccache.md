@@ -1,20 +1,20 @@
 # ccache
 
 > C/C++ compiler cache.
-> Note: packages usually provide symlinks for compilers in `/usr/lib/ccache/bin`. Prepend this directory to `$PATH` to automatically use `ccache` for them.
+> Note: Packages usually provide symlinks for compilers in `/usr/lib/ccache/bin`. Prepend this directory to `$PATH` to automatically use `ccache` for them.
 > More information: <https://ccache.dev/manual/latest.html>.
 
-- Show current cache [s]tatistics:
+- Show current cache statistics:
 
-`ccache --show-stats`
+`ccache {{[-s|--show-stats]}}`
 
-- [C]lear all cache:
+- Clear all cache:
 
-`ccache --clear`
+`ccache {{[-C|--clear]}}`
 
-- Reset ([z]ero) statistics (but not cache itself):
+- Reset statistics (but not cache itself):
 
-`ccache --zero-stats`
+`ccache {{[-z|--zero-stats]}}`
 
 - Compile C code and cache compiled output (to use `ccache` on all `gcc` invocations, see the note above):
 

@@ -6,24 +6,24 @@
 
 - Synchronize list of packages and versions available:
 
-`zypper refresh`
+`sudo zypper {{[ref|refresh]}}`
 
 - Install a new package:
 
-`zypper install {{package}}`
+`sudo zypper {{[in|install]}} {{package}}`
 
 - Remove a package:
 
-`zypper remove {{package}}`
+`sudo zypper {{[rm|remove]}} {{package}}`
 
 - Upgrade installed packages to the newest available versions:
 
-`zypper update`
+`sudo zypper {{[up|update]}}`
 
 - Search package via keyword:
 
-`zypper search {{keyword}}`
+`zypper {{[se|search]}} {{keyword}}`
 
 - Show information related to configured repositories:
 
-`zypper repos --sort-by-priority`
+`zypper {{[lr|repos]}} --sort-by-priority`

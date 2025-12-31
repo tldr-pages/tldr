@@ -4,7 +4,7 @@
 > See also: `lp`, `lpmove`, `lpstat`.
 > More information: <https://openprinting.github.io/cups/doc/man-cancel.html>.
 
-- Cancel the current job of the default printer (set with `lpoptions -d {{printer}}`):
+- Cancel the current job of the default printer (set with `lpoptions -d printer_name`):
 
 `cancel`
 
@@ -28,6 +28,6 @@
 
 `cancel -a {{printer}}`
 
-- Cancel the current job of a specific server and then delete ([x]) job data files:
+- Cancel the current job of a specific [h]ost server and then delete ([x]) job data files:
 
 `cancel -h {{server}} -x`

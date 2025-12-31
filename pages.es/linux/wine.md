@@ -1,7 +1,7 @@
 # wine
 
 > Ejecuta programas de Windows en sistemas basados en Unix.
-> Más información: <https://wiki.winehq.org/>.
+> Más información: <https://gitlab.winehq.org/wine/wine/-/wikis/Commands>.
 
 - Ejecuta un programa específico dentro del ambiente `wine`:
 

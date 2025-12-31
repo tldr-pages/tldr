@@ -33,6 +33,6 @@
 
 `pacman -Qtdq`
 
-- خالی کردن کل کش  `pacman`:
+- خالی کردن کل کش `pacman`:
 
 `sudo pacman -Scc`

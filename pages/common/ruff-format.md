@@ -2,7 +2,7 @@
 
 > An extremely fast Python code formatter.
 > If no files or directories are specified, the current working directory is used by default.
-> More information: <https://docs.astral.sh/ruff/formatter>.
+> More information: <https://docs.astral.sh/ruff/formatter/>.
 
 - Format given files or directories in-place:
 

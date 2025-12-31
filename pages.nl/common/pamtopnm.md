@@ -9,4 +9,4 @@
 
 - Toon de versie:
 
-`pamtopnm -version`
+`pamtopnm {{[-v|-version]}}`

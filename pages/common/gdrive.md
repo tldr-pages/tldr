@@ -2,11 +2,11 @@
 
 > Interact with Google Drive.
 > Folder/file ID can be obtained from the Google Drive folder or ID URL.
-> More information: <https://github.com/gdrive-org/gdrive>.
+> More information: <https://github.com/prasmussen/gdrive>.
 
 - Upload a local path to the parent folder with the specified ID:
 
-`gdrive upload -p {{id}} {{path/to/file_or_folder}}`
+`gdrive upload {{[-p|--parent]}} {{id}} {{path/to/file_or_folder}}`
 
 - Download file or directory by ID to current directory:
 

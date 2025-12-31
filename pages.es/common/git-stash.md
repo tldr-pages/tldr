@@ -5,15 +5,15 @@
 
 - Almacena los cambios actuales, excepto los archivos nuevos (sin seguimiento):
 
-`git stash push --message {{mensaje_opcional_stash}}`
+`git stash push {{[-m|--message]}} {{mensaje_opcional_stash}}`
 
 - Almacena los cambios actuales, incluyendo los archivos nuevos (sin seguimiento):
 
-`git stash --include-untracked`
+`git stash {{[-u|--include-untracked]}}`
 
 - Selecciona interactivamente partes de los archivos modificados para almacenarlos:
 
-`git stash --patch`
+`git stash {{[-p|--patch]}}`
 
 - Lista todos los stashes (muestra el nombre del stash, la rama relacionada y el mensaje):
 
@@ -21,7 +21,7 @@
 
 - Muestra los cambios como un parche entre el stash (por defecto es `stash@{0}`) y la confirmación de cuando se creó la entrada stash por primera vez:
 
-`git stash show --patch {{stash@{0}}}`
+`git stash show {{[-p|--patch]}} {{stash@{0}}}`
 
 - Aplica un stash (por defecto es el último, llamado `stash@{0}`):
 

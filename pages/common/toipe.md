@@ -1,6 +1,6 @@
 # toipe
 
-> Yet another typing test, but crab flavoured.
+> Yet another typing test, but crab flavored.
 > A trusty terminal typing tester.
 > More information: <https://github.com/Samyak2/toipe>.
 
@@ -10,16 +10,16 @@
 
 - Use a specific wordlist:
 
-`toipe {{-w|--wordlist}} {{wordlist_name}}`
+`toipe {{[-w|--wordlist]}} {{wordlist_name}}`
 
 - Use a custom wordlist:
 
-`toipe {{-f|--file}} {{path/to/file}}`
+`toipe {{[-f|--file]}} {{path/to/file}}`
 
 - Specify the number of words on each test:
 
-`toipe {{-n|--num}} {{number_of_words}}`
+`toipe {{[-n|--num]}} {{number_of_words}}`
 
 - Include punctuation:
 
-`toipe {{-p|--punctuation}}`
+`toipe {{[-p|--punctuation]}}`

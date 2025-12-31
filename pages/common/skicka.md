@@ -1,7 +1,7 @@
 # skicka
 
 > Manage your Google Drive.
-> More information: <https://github.com/google/skicka>.
+> More information: <https://github.com/google/skicka#usage>.
 
 - Upload a file/folder to Google Drive:
 
@@ -17,7 +17,7 @@
 
 - Show amount of space used by children folders:
 
-`skicka du {{path/to/parent/folder}}`
+`skicka du {{path/to/parent_folder}}`
 
 - Create a folder:
 

@@ -18,7 +18,7 @@
 
 - Push an Android application to an emulator/device:
 
-`adb install -r {{path/to/file.apk}}`
+`adb install -r {{path/to/file}}.apk`
 
 - Copy a file/directory from the target device:
 
@@ -31,3 +31,7 @@
 - List all connected devices:
 
 `adb devices`
+
+- Specify which device to send commands to if there are multiple devices:
+
+`adb -s {{device_ID}} {{shell}}`

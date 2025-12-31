@@ -1,7 +1,7 @@
 # cosign
 
 > OCI 레지스트리의 컨테이너 서명, 검증 및 저장.
-> 더 많은 정보: <https://github.com/sigstore/cosign>.
+> 더 많은 정보: <https://github.com/sigstore/cosign/blob/main/doc/cosign.md>.
 
 - 키의 쌍을 생성:
 

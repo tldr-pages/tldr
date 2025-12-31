@@ -12,6 +12,6 @@
 
 `Get-Content -Path {{경로\대상\파일}} -TotalCount {{10}}`
 
-- 파일의 내용을 표시하고 `Ctrl + C`를 누를 때까지 계속 읽기:
+- 파일의 내용을 표시하고 `<Ctrl c>`를 누를 때까지 계속 읽기:
 
 `Get-Content -Path {{경로\대상\파일}} -Wait`

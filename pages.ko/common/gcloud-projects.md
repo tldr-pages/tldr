@@ -2,7 +2,7 @@
 
 > Google Cloud에서 프로젝트 액세스 정책 관리.
 > 같이 보기: `gcloud`.
-> 더 많은 정보: <https://cloud.google.com/sdk/gcloud/reference/projects>.
+> 더 많은 정보: <https://docs.cloud.google.com/sdk/gcloud/reference/projects>.
 
 - 새 프로젝트 생성:
 

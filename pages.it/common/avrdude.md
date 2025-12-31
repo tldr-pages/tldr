@@ -1,7 +1,7 @@
 # avrdude
 
 > Driver per il programmatore di microcontrollori Atmel AVR.
-> Maggiori informazioni: <https://www.nongnu.org/avrdude/>.
+> Maggiori informazioni: <https://www.nongnu.org/avrdude/user-manual/avrdude_3.html#Option-Descriptions>.
 
 - Leggi dal microcontrollore AVR:
 

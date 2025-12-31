@@ -1,7 +1,7 @@
 # airport
 
 > Utilitário de configuração de rede sem fio.
-> Mais informações: <https://keith.github.io/xcode-man-pages/airport.1.html>.
+> Mais informações: <https://ss64.com/mac/airport.html>.
 
 - Mostra informações de status da rede sem fio atual:
 

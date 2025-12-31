@@ -10,8 +10,8 @@
 
 - Display help:
 
-`updpkgsums -h`
+`updpkgsums {{[-h|--help]}}`
 
 - Display version:
 
-`updpkgsums -v`
+`updpkgsums {{[-v|--version]}}`

@@ -1,7 +1,7 @@
 # mysqlbinlog
 
 > Utility for processing MySQL binary log files.
-> More information: <https://dev.mysql.com/doc/refman/8.0/en/mysqlbinlog.html>.
+> More information: <https://dev.mysql.com/doc/refman/en/mysqlbinlog.html>.
 
 - Show events from a specific binary log file:
 

@@ -9,4 +9,4 @@
 
 - Tampilkan daftar formula yang dapat dihapus tanpa melakukannya (dry-run):
 
-`brew autoremove --dry-run`
+`brew autoremove {{[-n|--dry-run]}}`

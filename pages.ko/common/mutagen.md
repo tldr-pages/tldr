@@ -1,7 +1,7 @@
 # mutagen
 
 > 실시간 파일 동기화 및 네트워크 전달 도구.
-> 더 많은 정보: <https://mutagen.io>.
+> 더 많은 정보: <https://mutagen.io/documentation/introduction/>.
 
 - 로컬 디렉토리와 원격 호스트 간의 동기화 세션 시작:
 

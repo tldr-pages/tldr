@@ -1,7 +1,7 @@
 # nxc smb
 
 > Prueba y explota servidores SMB.
-> Más información: <https://www.netexec.wiki/smb-protocol>.
+> Más información: <https://www.netexec.wiki/smb-protocol/generate-hosts-file>.
 
 - Busca credenciales de dominio válidas probando cada combinación en las listas especificadas de nombres de [u]suario y contraseñas:
 

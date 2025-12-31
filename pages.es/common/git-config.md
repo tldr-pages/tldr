@@ -10,11 +10,11 @@
 
 - Lista las entradas de configuración local o global:
 
-`git config --list --{{local|global}}`
+`git config {{[-l|--list]}} --{{local|global}}`
 
 - Lista sólo las entradas de configuración del sistema (almacenadas en `/etc/gitconfig`), y muestra la ubicación de dicho archivo:
 
-`git config --list --system --show-origin`
+`git config {{[-l|--list]}} --system --show-origin`
 
 - Obtén el valor de una entrada de configuración dada:
 
@@ -30,8 +30,8 @@
 
 - Edita la configuración local de Git (`.git/config`) en el editor por defecto:
 
-`git config --edit`
+`git config {{[-e|--edit]}}`
 
 - Edita la configuración global de Git (`~/.gitconfig` por defecto o `$XDG_CONFIG_HOME/git/config` si existe tal archivo) en el editor por defecto:
 
-`git config --global --edit`
+`git config --global {{[-e|--edit]}}`

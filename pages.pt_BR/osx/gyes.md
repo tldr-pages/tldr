@@ -1,7 +1,7 @@
 # gyes
 
-> Este comando é um apelido de `-p linux yes`.
+> Este comando é um apelido de `yes`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux yes`
+`tldr yes`

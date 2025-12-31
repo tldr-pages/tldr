@@ -1,7 +1,7 @@
 # choco info
 
 > Display detailed information about a package with Chocolatey.
-> More information: <https://chocolatey.org/docs/commands-info>.
+> More information: <https://docs.chocolatey.org/en-us/choco/commands/info/>.
 
 - Display information on a specific package:
 
@@ -9,12 +9,12 @@
 
 - Display information for a local package only:
 
-`choco info {{package}} --local-only`
+`choco info {{package}} {{[-l|--local-only]}}`
 
 - Specify a custom source to receive packages information from:
 
-`choco info {{package}} --source {{source_url|alias}}`
+`choco info {{package}} {{[-s|--source]}} {{source_url|alias}}`
 
 - Provide a username and password for authentication:
 
-`choco info {{package}} --user {{username}} --password {{password}}`
+`choco info {{package}} {{[-u|--user]}} {{username}} {{[-p|--password]}} {{password}}`

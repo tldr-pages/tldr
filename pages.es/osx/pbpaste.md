@@ -1,8 +1,8 @@
 # pbpaste
 
 > Envía el contenido del portapapeles a la salida estándar.
-> Comparable a pulsar Cmd + V en el teclado.
-> Más información: <https://keith.github.io/xcode-man-pages/pbpaste.1.html>.
+> Comparable a pulsar `<Cmd v>` en el teclado.
+> Más información: <https://keith.github.io/xcode-man-pages/pbcopy.1>.
 
 - Escribe el contenido del portapapeles en un archivo:
 

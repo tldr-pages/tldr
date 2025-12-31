@@ -20,7 +20,7 @@
 
 `linode-cli volumes detach {{volume_id}}`
 
-- Resize a Volume (Note: size can only be increased):
+- Resize a Volume (Note: Size can only be increased):
 
 `linode-cli volumes resize {{volume_id}} --size {{new_size_in_GB}}`
 

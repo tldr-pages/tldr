@@ -2,7 +2,7 @@
 
 > Key management utility for the APT Package Manager on Debian and Ubuntu.
 > Note: `apt-key` is now deprecated (except for the use of `apt-key del` in maintainer scripts).
-> More information: <https://manned.org/apt-key.8>.
+> More information: <https://manned.org/apt-key>.
 
 - List trusted keys:
 
@@ -18,7 +18,7 @@
 
 - Add a remote key to the trusted keystore:
 
-`wget -qO - {{https://host.tld/filename.key}} | apt-key add -`
+`wget {{[-qO|--quiet --output-document]}} - {{https://host.tld/filename.key}} | apt-key add -`
 
 - Add a key from keyserver with only key ID:
 

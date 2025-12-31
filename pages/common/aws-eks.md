@@ -2,11 +2,11 @@
 
 > Manage Amazon Elastic Kubernetes Service (EKS) addons, clusters, and node groups.
 > Amazon EKS is a service for easily running Kubernetes on AWS.
-> More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/eks/index.html>.
+> More information: <https://docs.aws.amazon.com/cli/latest/reference/eks/>.
 
 - Create an EKS Cluster:
 
-`aws eks create-cluster --name {{cluster_name}} --role-arn {{eks_service_role_arn}} --resources-vpc-config {{subnetIds={{subnet_ids}},securityGroupIds={{security_group_ids}}}}`
+`aws eks create-cluster --name {{cluster_name}} --role-arn {{eks_service_role_arn}} --resources-vpc-config subnetIds={{subnet_ids}},securityGroupIds={{security_group_ids}}`
 
 - Update kubeconfig to connect to the EKS Cluster:
 

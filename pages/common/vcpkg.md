@@ -1,8 +1,8 @@
 # vcpkg
 
 > Package manager for C/C++ libraries.
-> Note: packages are not installed in the system. To use them, you need to tell your build system (e.g. CMake) to use `vckg`.
-> More information: <https://learn.microsoft.com/en-us/vcpkg/>.
+> Note: Packages are not installed in the system. To use them, you need to tell your build system (e.g. CMake) to use `vckg`.
+> More information: <https://learn.microsoft.com/vcpkg/>.
 
 - Build and add package `libcurl` to the `vcpkg` environment:
 

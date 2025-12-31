@@ -5,11 +5,11 @@
 
 - Lista todas las ramas (locales y remotas; la rama actual se resalta con `*`):
 
-`git branch --all`
+`git branch {{[-a|--all]}}`
 
 - Lista las ramas que incluyen una confirmación específica en su historial:
 
-`git branch --all --contains {{hash_de_la_confirmación}}`
+`git branch {{[-a|--all]}} --contains {{hash_de_la_confirmación}}`
 
 - Muestra el nombre de la rama actual:
 
@@ -25,12 +25,12 @@
 
 - Renombra una rama (para ello no debes tenerla controlada):
 
-`git branch {{-m|--move}} {{nombre_de_rama_antigua}} {{nuevo_nombre_rama}}`
+`git branch {{[-m|--move]}} {{nombre_de_rama_antigua}} {{nuevo_nombre_rama}}`
 
 - Elimina una rama local (no debes tenerla controlada para hacerlo):
 
-`git branch {{-d|--delete}} {{nombre_de_rama}}`
+`git branch {{[-d|--delete]}} {{nombre_de_rama}}`
 
 - Elimina una rama remota:
 
-`git push {{nombre_remoto}} --delete {{nombre_de_rama_remota}}`
+`git push {{nombre_remoto}} {{[-d|--delete]}} {{nombre_de_rama_remota}}`

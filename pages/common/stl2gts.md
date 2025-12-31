@@ -9,15 +9,15 @@
 
 - Convert an STL file to a GTS file and revert face normals:
 
-`stl2gts --revert < {{path/to/file.stl}} > {{path/to/file.gts}}`
+`stl2gts < {{path/to/file.stl}} --revert > {{path/to/file.gts}}`
 
 - Convert an STL file to a GTS file and do not merge vertices:
 
-`stl2gts --nomerge < {{path/to/file.stl}} > {{path/to/file.gts}}`
+`stl2gts < {{path/to/file.stl}} --nomerge > {{path/to/file.gts}}`
 
 - Convert an STL file to a GTS file and display surface statistics:
 
-`stl2gts --verbose < {{path/to/file.stl}} > {{path/to/file.gts}}`
+`stl2gts < {{path/to/file.stl}} --verbose > {{path/to/file.gts}}`
 
 - Display help:
 

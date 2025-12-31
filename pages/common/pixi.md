@@ -1,7 +1,7 @@
 # pixi
 
 > Developer Workflow and Environment Management for projects.
-> More information: <https://pixi.sh>.
+> More information: <https://pixi.prefix.dev/latest/getting_started/>.
 
 - Initialize a new project:
 
@@ -23,7 +23,7 @@
 
 `pixi task {{command}}`
 
-- Print the help message:
+- Display help:
 
 `pixi {{command}} --help`
 

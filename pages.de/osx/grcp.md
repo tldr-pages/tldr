@@ -1,7 +1,7 @@
 # grcp
 
-> Dieser Befehl ist ein Alias von `-p linux rcp`.
+> Dieser Befehl ist ein Alias von GNU `rcp`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 
-`tldr -p linux rcp`
+`tldr {{[-p|--platform]}} linux rcp`

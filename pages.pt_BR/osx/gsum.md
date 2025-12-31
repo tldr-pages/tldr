@@ -1,7 +1,7 @@
 # gsum
 
-> Este comando é um apelido de `-p linux sum`.
+> Este comando é um apelido de `sum`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux sum`
+`tldr sum`

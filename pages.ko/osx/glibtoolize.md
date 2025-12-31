@@ -4,4 +4,4 @@
 
 - 원본 명령어 보기:
 
-`tldr -p linux libtoolize`
+`tldr {{[-p|--platform]}} linux libtoolize`

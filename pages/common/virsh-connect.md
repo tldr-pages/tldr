@@ -1,4 +1,4 @@
-# virsh-connect
+# virsh connect
 
 > Connect to a virtual machine hypervisor.
 > See also: `virsh`.

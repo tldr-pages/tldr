@@ -1,7 +1,7 @@
 # cdecl
 
 > Compose and decode C and C++ type declarations.
-> More information: <https://github.com/paul-j-lucas/cdecl>.
+> More information: <https://manned.org/cdecl>.
 
 - Compose English phrase into C declaration, and create [c]ompilable output (include `;` and `{}`):
 

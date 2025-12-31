@@ -1,4 +1,4 @@
-# yadm-alt
+# yadm alt
 
 > 관리되는 파일에 대한 심볼릭 링크를 생성하고 템플릿을 처리.
 > 템플릿에 대해 더 알아보기: <https://yadm.io/docs/templates>.

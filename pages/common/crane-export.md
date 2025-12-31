@@ -1,7 +1,7 @@
 # crane export
 
 > Export filesystem of a container image as a tarball.
-> More information: <https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_digest.md>.
+> More information: <https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_export.md>.
 
 - Write tarball to `stdout`:
 
@@ -13,4 +13,4 @@
 
 - Read image from `stdin`:
 
-`crane export - {{path/to/filename}}`
+`crane export - {{path/to/file}}`

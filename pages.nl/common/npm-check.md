@@ -1,4 +1,4 @@
-# npm check
+# npm-check
 
 > Controleer op verouderde, onjuiste en ongebruikte npm-pakketafhankelijkheden.
 > Meer informatie: <https://github.com/dylang/npm-check>.
@@ -9,12 +9,12 @@
 
 - Werk interactief verouderde pakketten bij:
 
-`npm-check --update`
+`npm-check {{[-u|--update]}}`
 
 - Werk alles bij zonder te vragen:
 
-`npm-check --update-all`
+`npm-check {{[-y|--update-all]}}`
 
 - Controleer niet op ongebruikte pakketten:
 
-`npm-check --skip-unused`
+`npm-check {{[-s|--skip-unused]}}`

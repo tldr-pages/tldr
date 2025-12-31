@@ -1,7 +1,7 @@
 # ggrep
 
-> Bu komut `-p linux grep` için bir takma addır.
+> Bu komut `grep` için bir takma addır.
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux grep`
+`tldr grep`

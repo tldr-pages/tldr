@@ -1,7 +1,7 @@
 # forever
 
 > Node.js 애플리케이션이 무기한 실행되도록 하는 서버측 JavaScript 애플리케이션 (종료 후 다시 시작됨).
-> 더 많은 정보: <https://github.com/foreversd/forever>.
+> 더 많은 정보: <https://github.com/foreversd/forever#usage>.
 
 - 파일을 무기한으로 실행하기 시작 (데몬으로):
 

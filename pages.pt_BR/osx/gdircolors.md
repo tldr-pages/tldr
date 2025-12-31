@@ -1,7 +1,7 @@
 # gdircolors
 
-> Este comando é um apelido de `-p linux dircolors`.
+> Este comando é um apelido de `dircolors`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux dircolors`
+`tldr dircolors`

@@ -7,14 +7,14 @@
 
 `crane index filter`
 
-- os/arch{{/variant}}{{:osversion}}{{,<platform>}} 형식으로 기본에서 유지할 플랫폼을 지정:
+- `os/arch/variant:osversion,platform` 형식으로 기본에서 유지할 플랫폼을 지정:
 
 `crane index filter --platform {{플랫폼1 플랫폼2 ...}}`
 
 - 결과 이미지에 적용할 태그 지정:
 
-`crane index filter {{-t|--tags}} {{태그_이름}}`
+`crane index filter {{[-t|--tags]}} {{태그_이름}}`
 
 - 도움말 표시:
 
-`crane index filter {{-h|--help}}`
+`crane index filter {{[-h|--help]}}`

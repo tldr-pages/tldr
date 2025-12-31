@@ -1,7 +1,7 @@
 # alacritty
 
 > Emulador de terminal multiplataforma acelerado por GPU.
-> Mais informações: <https://github.com/alacritty/alacritty>.
+> Mais informações: <https://manned.org/alacritty>.
 
 - Abre Alacritty numa nova janela:
 

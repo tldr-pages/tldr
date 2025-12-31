@@ -21,4 +21,8 @@
 
 - Don't create new commits, just change the working tree:
 
-`git revert {{-n|--no-commit}} {{0c01a9..9a1743}}`
+`git revert {{[-n|--no-commit]}} {{0c01a9..9a1743}}`
+
+- Cancel a Git revert after a merge conflict:
+
+`git revert --abort`

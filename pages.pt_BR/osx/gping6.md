@@ -1,7 +1,7 @@
 # gping6
 
-> Este comando é um apelido de `-p linux ping6`.
+> Este comando é um apelido de `ping6`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux ping6`
+`tldr ping6`

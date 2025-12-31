@@ -1,7 +1,7 @@
 # espanso
 
 > Cross-platform Text Expander written in Rust.
-> More information: <https://espanso.org>.
+> More information: <https://espanso.org/docs/command%20lIne/cli_list/>.
 
 - Check status:
 

@@ -2,20 +2,36 @@
 
 > Mercurial - a distributed source control management system.
 > Some subcommands such as `commit` have their own usage documentation.
-> More information: <https://www.mercurial-scm.org>.
+> More information: <https://www.mercurial-scm.org/help/commands>.
 
-- Execute a Mercurial command:
+- Create an empty Mercurial repository:
 
-`hg {{command}}`
+`hg init`
 
-- Display help:
+- Clone a remote Mercurial repository from the internet:
 
-`hg help`
+`hg clone {{https://example.com/repo}}`
 
-- Display help for a specific command:
+- View the status of a local repository:
 
-`hg help {{command}}`
+`hg status`
 
-- Check the Mercurial version:
+- Add all new files to the next commit:
 
-`hg --version`
+`hg add`
+
+- Commit changes to version history:
+
+`hg commit {{[-m|--message]}} {{message_text}}`
+
+- Push local changes to a remote repository:
+
+`hg push`
+
+- Pull any changes made to a remote:
+
+`hg pull`
+
+- Reset everything the way it was in the latest commit:
+
+`hg update {{[-C|--clean]}}; hg purge`

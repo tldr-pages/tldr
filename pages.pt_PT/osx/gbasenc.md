@@ -1,7 +1,7 @@
 # gbasenc
 
-> Este comando é um alias de `-p linux basenc`.
+> Este comando é um alias de `basenc`.
 
-- Exibe documentação do comando original:
+- Ver documentação do comando original:
 
-`tldr -p linux basenc`
+`tldr basenc`

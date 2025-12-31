@@ -1,7 +1,7 @@
 # wrangler
 
 > Cloudflare Workers 명령줄 도구.
-> 더 많은 정보: <https://developers.cloudflare.com/workers/>.
+> 더 많은 정보: <https://developers.cloudflare.com/workers/wrangler/commands/>.
 
 - 기본 구성으로 프로젝트 초기화:
 

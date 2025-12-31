@@ -1,7 +1,7 @@
 # abduco
 
 > Terminal session manager.
-> More information: <https://www.brain-dump.org/projects/abduco/>.
+> More information: <https://manned.org/abduco>.
 
 - List sessions:
 
@@ -17,7 +17,7 @@
 
 - Detach from a session:
 
-`<Ctrl> + \`
+`<Ctrl \>`
 
 - [A]ttach to a session in [r]ead-only mode:
 

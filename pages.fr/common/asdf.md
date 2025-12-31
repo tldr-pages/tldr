@@ -1,7 +1,7 @@
 # asdf
 
 > Interface en ligne de commande pour gérer les versions de différents paquets.
-> Plus d'informations : <https://asdf-vm.com>.
+> Plus d'informations : <https://asdf-vm.com/manage/commands.html>.
 
 - Liste toutes les extensions disponibles :
 
@@ -21,8 +21,8 @@
 
 - Fixe au global une version d'un paquet :
 
-`asdf global {{nom}} {{version}}`
+`asdf set -u {{nom}} {{version}}`
 
 - Fix en local la version d'un paquet :
 
-`asdf local {{nom}} {{version}}`
+`asdf set {{nom}} {{version}}`

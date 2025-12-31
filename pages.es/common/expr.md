@@ -1,7 +1,7 @@
 # expr
 
 > Evalúa expresiones y manipula cadenas.
-> Más información: <https://www.gnu.org/software/coreutils/expr>.
+> Más información: <https://www.gnu.org/software/coreutils/manual/html_node/expr-invocation.html>.
 
 - Obtiene la longitud de una cadena específica:
 

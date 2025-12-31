@@ -34,4 +34,4 @@
 
 - Kurulu paketleri listeleyin:
 
-`apt list --installed`
+`apt list {{[-i|--installed]}}`

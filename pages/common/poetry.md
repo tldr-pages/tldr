@@ -1,7 +1,8 @@
 # poetry
 
 > Manage Python packages and dependencies.
-> See also: `asdf`.
+> Some subcommands such as `about`, `check`, `env`, etc. have their own usage documentation.
+> See also: `asdf`, `pipenv`, `hatch`.
 > More information: <https://python-poetry.org/docs/cli/>.
 
 - Create a new Poetry project in the directory with a specific name:
@@ -16,7 +17,7 @@
 
 `poetry install`
 
-- Interactively initialize the current directory as a new Poetry project:
+- Interactively (append `-n` for non-interactively) initialize the current directory as a new Poetry project:
 
 `poetry init`
 
@@ -32,6 +33,6 @@
 
 `poetry version {{patch|minor|major|prepatch|preminor|premajor|prerelease}}`
 
-- Spawn a shell within the project's virtual environment:
+- Spawn a shell within the project's virtual environment (for versions below 2.0, use `poetry shell`):
 
-`poetry shell`
+`eval "$(poetry env activate)"`

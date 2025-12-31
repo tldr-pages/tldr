@@ -7,10 +7,6 @@
 
 `ibmcloud update`
 
-- Cloud Foundry 서비스에 액세스하기 위해 Cloud Foundry 모듈을 설치:
-
-`ibmcloud cf install`
-
 - 사용 가능한 모든 IBM Cloud 리전을 나열:
 
 `ibmcloud regions`

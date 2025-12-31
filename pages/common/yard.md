@@ -1,7 +1,7 @@
 # yard
 
 > Documentation tool for Ruby.
-> More information: <https://yardoc.org/>.
+> More information: <https://rubydoc.info/gems/yard/file/docs/GettingStarted.md#using-yard-to-generate-documentation>.
 
 - Create the documentation:
 

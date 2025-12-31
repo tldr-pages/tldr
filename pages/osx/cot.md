@@ -1,7 +1,7 @@
 # cot
 
 > The Plain-Text Editor for macOS.
-> More information: <https://coteditor.com/>.
+> More information: <https://coteditor.com/cot>.
 
 - Start CotEditor:
 

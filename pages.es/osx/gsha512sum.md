@@ -1,7 +1,7 @@
 # gsha512sum
 
-> Este comando es un alias de `-p linux sha512sum`.
+> Este comando es un alias de `sha512sum`.
 
-- Muestra la documentación del comando original:
+- Vea la documentación para el comando original:
 
-`tldr -p linux sha512sum`
+`tldr sha512sum`

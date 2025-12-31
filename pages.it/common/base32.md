@@ -9,11 +9,11 @@
 
 - Avvolgi l'output codificato a una larghezza specifica (`0` disabilita l'avvolgimento):
 
-`base32 {{-w|--wrap}} {{0|76|...}} {{percoso/del/file}}`
+`base32 {{[-w|--wrap]}} {{0|76|...}} {{percoso/del/file}}`
 
 - Decodifica un file:
 
-`base32 {{-d|--decode}} {{percoso/del/file}}`
+`base32 {{[-d|--decode]}} {{percoso/del/file}}`
 
 - Codifica da `stdin`:
 
@@ -21,4 +21,4 @@
 
 - Decodifica da `stdin`:
 
-`{{comando}} | base32 {{-d|--decode}}`
+`{{comando}} | base32 {{[-d|--decode]}}`

@@ -1,7 +1,7 @@
 # apk
 
 > ابزار مدیریت بسته آلپاین لینوکس.
-> اطلاعات بیشتر: <https://manned.org/apk>.
+> اطلاعات بیشتر: <https://wiki.alpinelinux.org/wiki/Alpine_Package_Keeper>.
 
 - آپدیت فهرست مخزن ها از تمام مخازن ریموت:
 

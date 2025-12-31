@@ -1,4 +1,6 @@
 name: Codespell
+permissions:
+  contents: read
 
 on: 
   pull_request:
@@ -6,31 +8,35 @@ on:
     paths-ignore:
       - 'pages.*/*/*'
       - 'contributing-guides/style-guide.*.md'
+      - 'contributing-guides/translation-templates/*'
       - 'package-lock.json'
 
 jobs:
-  build:
+  codespell:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
 
       - name: Get changed files
         id: changed-files
-        uses: tj-actions/changed-files@v45.0.4
+        uses: tj-actions/changed-files@e0021407031f5be11a464abee9a0776171c79891 # v47.0.1
         with:
           # Ignore all other languages except English
           files_ignore: |
             pages.*/*/*
             contributing-guides/style-guide.*.md
+            contributing-guides/translation-templates/*
             package-lock.json
 
-      - uses: codespell-project/actions-codespell@v2
+      - name: Run Codespell
+        uses: codespell-project/actions-codespell@8f01853be192eb0f849a5c7d721450e7a467c579 # v2.2
+        # Only run if there are changed files to check
+        if: ${{ steps.changed-files.outputs.any_changed == 'true' }}
         with:
           ignore_words_file: .github/codespell-ignore
           # Exit with 0 regardless of typos.
           only_warn: 1
-          # Skip non-English pages
-          skip: ./pages.*/*/*.md,./contributing-guides/style-guide.*.md
           # Only check files in the PR
           path: ${{ steps.changed-files.outputs.all_changed_files }}

@@ -1,15 +1,15 @@
 # git fame
 
 > Pretty-print Git repository contributions.
-> More information: <https://github.com/casperdcl/git-fame>.
+> More information: <https://manned.org/git-fame>.
 
 - Calculate contributions for the current Git repository:
 
 `git fame`
 
-- Exclude files/directories that match the specified regular expression:
+- Exclude files/directories that match the specified `regex`:
 
-`git fame --excl "{{regular_expression}}"`
+`git fame --excl "{{regex}}"`
 
 - Calculate contributions made after the specified date:
 
@@ -21,11 +21,11 @@
 
 - Display contributions per file extension:
 
-`git fame --bytype`
+`git fame {{[-t|--bytype]}}`
 
 - Ignore whitespace changes:
 
-`git fame --ignore-whitespace`
+`git fame {{[-w|--ignore-whitespace]}}`
 
 - Detect inter-file line moves and copies:
 

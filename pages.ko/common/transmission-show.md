@@ -10,8 +10,8 @@
 
 - 특정 토렌트에 대한 마그넷 링크 생성:
 
-`transmission-show --magnet {{경로/대상/파일.torrent}}`
+`transmission-show {{[-m|--magnet]}} {{경로/대상/파일.torrent}}`
 
 - 토렌트의 트래커를 조회하고 현재 피어 수 출력:
 
-`transmission-show --scrape {{경로/대상/파일.torrent}}`
+`transmission-show {{[-s|--scrape]}} {{경로/대상/파일.torrent}}`

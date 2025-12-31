@@ -1,7 +1,7 @@
 # a2dismod
 
 > Disable an Apache module on Debian-based OSes.
-> More information: <https://manned.org/a2dismod.8>.
+> More information: <https://manned.org/a2dismod>.
 
 - Disable a module:
 
@@ -9,4 +9,4 @@
 
 - Don't show informative messages:
 
-`sudo a2dismod --quiet {{module}}`
+`sudo a2dismod {{[-q|--quiet]}} {{module}}`

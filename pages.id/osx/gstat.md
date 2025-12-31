@@ -1,7 +1,7 @@
 # gstat
 
-> Perintah ini merupakan alias dari `-p linux stat`.
+> Perintah ini merupakan alias dari `stat`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux stat`
+`tldr {{[-p|--platform]}} common stat`

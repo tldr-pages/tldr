@@ -9,7 +9,7 @@
 
 - Send a message to users that belong to a specific group:
 
-`wall --group {{group_name}} {{message}}`
+`wall {{[-g|--group]}} {{group_name}} {{message}}`
 
 - Send a message from a file:
 
@@ -17,4 +17,4 @@
 
 - Send a message with timeout (default 300):
 
-`wall --timeout {{seconds}} {{file}}`
+`wall {{[-t|--timeout]}} {{seconds}} {{file}}`

@@ -9,7 +9,7 @@
 
 - Knock on port using UDP:
 
-`knock -u {{hostname}} {{portnumber}}`
+`knock {{[-u|--udp]}} {{hostname}} {{portnumber}}`
 
 - Force usage of IPv4/IPv6:
 
@@ -17,4 +17,4 @@
 
 - Display errors and details of connection:
 
-`knock -v {{hostname}} {{portnumber}}`
+`knock {{[-v|--verbose]}} {{hostname}} {{portnumber}}`

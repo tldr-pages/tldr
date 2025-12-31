@@ -1,7 +1,7 @@
 # dvc fetch
 
 > Download DVC tracked files and directories from a remote repository.
-> More information: <https://dvc.org/doc/command-reference/fetch>.
+> More information: <https://doc.dvc.org/command-reference/fetch>.
 
 - Fetch the latest changes from the default remote upstream repository (if set):
 
@@ -9,7 +9,7 @@
 
 - Fetch changes from a specific remote upstream repository:
 
-`dvc fetch --remote {{remote_name}}`
+`dvc fetch {{[-r|--remote]}} {{remote_name}}`
 
 - Fetch the latest changes for a specific target/s:
 
@@ -17,8 +17,8 @@
 
 - Fetch changes for all branch and tags:
 
-`dvc fetch --all-branches --all-tags`
+`dvc fetch {{[-a|--all-branches]}} {{[-T|--all-tags]}}`
 
 - Fetch changes for all commits:
 
-`dvc fetch --all-commits`
+`dvc fetch {{[-A|--all-commits]}}`

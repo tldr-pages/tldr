@@ -2,7 +2,7 @@
 
 > Download files from `mega.nz`.
 > Part of the `megatools` suite.
-> More information: <https://megatools.megous.com/man/megatools-dl.html>.
+> More information: <https://xff.cz/megatools/man/megatools-dl.html>.
 
 - Download files from a `mega.nz` link into the current directory:
 

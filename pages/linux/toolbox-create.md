@@ -1,24 +1,24 @@
 # toolbox create
 
-> Create a new `toolbox` container.
-> More information: <https://manned.org/toolbox-create.1>.
+> Create a new Toolbx container.
+> More information: <https://manned.org/toolbox-create>.
 
-- Create a `toolbox` container for a specific distribution:
+- Create a Toolbx container for a specific distribution:
 
-`toolbox create --distro {{distribution}}`
+`toolbox create {{[-d|--distro]}} {{distribution}}`
 
-- Create a `toolbox` container for a specific release of the current distribution:
+- Create a Toolbx container for a specific release of the current distribution:
 
-`toolbox create --release {{release}}`
+`toolbox create {{[-r|--release]}} {{release}}`
 
-- Create a `toolbox` container with a custom image:
+- Create a Toolbx container with a custom image:
 
-`toolbox create --image {{name}}`
+`toolbox create {{[-i|--image]}} {{name}}`
 
-- Create a `toolbox` container from a custom Fedora image:
+- Create a Toolbx container from a custom Fedora image:
 
-`toolbox create --image {{registry.fedoraproject.org/fedora-toolbox:39}}`
+`toolbox create {{[-i|--image]}} {{quay.io/fedora/fedora:tag}}`
 
-- Create a `toolbox` container using the default image for Fedora 39:
+- Create a Toolbx container using the default image for a specific Fedora release:
 
-`toolbox create --distro {{fedora}} --release {{f39}}`
+`toolbox create {{[-d|--distro]}} {{fedora}} {{[-r|--release]}} f{{version}}`

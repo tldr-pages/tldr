@@ -1,7 +1,7 @@
 # gpr
 
-> 這是 `-p linux pr` 命令的一個別名。
+> 這是 `pr` 命令的一個別名。
 
 - 原命令的文件在：
 
-`tldr -p linux pr`
+`tldr pr`

@@ -1,7 +1,7 @@
 # fail2ban-client
 
 > Configure and control fail2ban server.
-> More information: <https://github.com/fail2ban/fail2ban>.
+> More information: <https://manned.org/fail2ban-client>.
 
 - Retrieve current status of the jail service:
 
@@ -9,7 +9,7 @@
 
 - Remove the specified IP from the jail service's ban list:
 
-`fail2ban-client set {{jail}} unbanip {{ip}}`
+`fail2ban-client set {{jail}} unbanip {{ip_address}}`
 
 - Verify fail2ban server is alive:
 

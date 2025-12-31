@@ -13,4 +13,4 @@
 
 - Specify the required resolution:
 
-`pbmtolj -resolution {{75|100|150|300|600}} {{path/to/input.pbm}} > {{path/to/output.lj}}`
+`pbmtolj {{[-r|-resolution]}} {{75|100|150|300|600}} {{path/to/input.pbm}} > {{path/to/output.lj}}`

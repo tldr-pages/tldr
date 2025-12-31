@@ -10,11 +10,11 @@
 
 - Open a subreddit:
 
-`/{{subreddit_name}}`
+`</>{{subreddit_name}}`
 
 - Open a link:
 
-`o`
+`<o>`
 
 - Open a specific subreddit on launch:
 

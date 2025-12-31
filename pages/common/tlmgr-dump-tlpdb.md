@@ -1,7 +1,7 @@
 # tlmgr dump-tlpdb
 
 > Dump the TeX Live package database.
-> More information: <https://www.tug.org/texlive/tlmgr.html>.
+> More information: <https://www.tug.org/texlive/doc/tlmgr.html#dump-tlpdb-option...---json>.
 
 - Dump the local package database:
 

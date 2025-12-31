@@ -1,4 +1,4 @@
-# npm why
+# npm-why
 
 > Identificeert waarom een npm-pakket is geïnstalleerd.
 > Meer informatie: <https://github.com/amio/npm-why>.

@@ -1,7 +1,7 @@
 # mktorrent
 
 > BitTorrent 메타정보 파일 생성.
-> 더 많은 정보: <https://github.com/Rudde/mktorrent>.
+> 더 많은 정보: <https://manned.org/mktorrent>.
 
 - 조각 크기를 2^21 KB로 설정하여 토렌트 생성:
 

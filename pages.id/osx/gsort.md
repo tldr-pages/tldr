@@ -1,7 +1,7 @@
 # gsort
 
-> Perintah ini merupakan alias dari `-p linux sort`.
+> Perintah ini merupakan alias dari `sort`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux sort`
+`tldr sort`

@@ -1,7 +1,7 @@
 # grcp
 
-> Dit commando is een alias van `-p linux rcp`.
+> Dit commando is een alias van GNU `rcp`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux rcp`
+`tldr {{[-p|--platform]}} linux rcp`

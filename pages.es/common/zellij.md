@@ -1,7 +1,7 @@
 # zellij
 
 > Multiplexor de terminal con baterías incluidas.
-> Vea también `tmux` y `screen`.
+> Vea también: `tmux` y `screen`.
 > Más información: <https://zellij.dev/documentation/>.
 
 - Inicia una nueva sesión con nombre:
@@ -18,8 +18,8 @@
 
 - Abre un nuevo panel (estando en una sesión de zellij):
 
-`<Alt> + N`
+`<Alt n>`
 
 - Desvincula la sesión en curso (estando en una sesión de zellij):
 
-`<Ctrl> + O, D`
+`<Ctrl o><d>`

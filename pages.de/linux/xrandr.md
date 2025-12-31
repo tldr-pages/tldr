@@ -5,7 +5,7 @@
 
 - Zeige den momentanen Systemzustand an (erkannte Bildschirme, Auflösungen, ...):
 
-`xrandr --query`
+`xrandr {{[-q|--query]}}`
 
 - Deaktiviere nicht mehr verbundene Ausgangsgeräte und aktiviere verbundene Ausgänge mit Standardeinstellungen:
 

@@ -1,7 +1,7 @@
 # systemd-delta
 
 > Find overridden systemd-related configuration files.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemd-delta.html>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemd-delta.html>.
 
 - Show all overridden configuration files:
 
@@ -9,9 +9,9 @@
 
 - Show only files of specific types (comma-separated list):
 
-`systemd-delta --type {{masked|equivalent|redirected|overridden|extended|unchanged}}`
+`systemd-delta {{[-t|--type]}} {{masked|equivalent|redirected|overridden|extended|unchanged}}`
 
-- Show only files whose path starts with the specified prefix (Note: a prefix is a directory containing subdirectories with systemd configuration files):
+- Show only files whose path starts with the specified prefix (Note: A prefix is a directory containing subdirectories with systemd configuration files):
 
 `systemd-delta {{/etc|/run|/usr/lib|...}}`
 

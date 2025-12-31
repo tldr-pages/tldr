@@ -1,36 +1,36 @@
 # php
 
 > PHP command-line interface.
-> More information: <https://php.net>.
+> More information: <https://www.php.net/manual/en/features.commandline.options.php>.
 
 - Parse and execute a PHP script:
 
 `php {{path/to/file}}`
 
-- Check syntax on (i.e. lint) a PHP script:
+- Check syntax on (i.e. [l]int) a PHP script:
 
-`php -l {{path/to/file}}`
+`php {{[-l|--syntax-check]}} {{path/to/file}}`
 
-- Run PHP interactively:
+- Run PHP inter[a]ctively:
 
-`php -a`
+`php {{[-a|--interactive]}}`
 
-- Run PHP code (Notes: Don't use <? ?> tags; escape double quotes with backslash):
+- Run PHP code (Notes: Don't use `<? ?>` tags; escape double quotes with backslash):
 
-`php -r "{{code}}"`
+`php {{[-r|--run]}} "{{code}}"`
 
 - Start a PHP built-in web server in the current directory:
 
-`php -S {{host:port}}`
+`php {{[-S|--server]}} {{host}}:{{port}}`
 
 - List installed PHP extensions:
 
-`php -m`
+`php {{[-m|--modules]}}`
 
 - Display information about the current PHP configuration:
 
-`php -i`
+`php {{[-i|--info]}}`
 
 - Display information about a specific function:
 
-`php --rf {{function_name}}`
+`php {{[--rf|--rfunction]}} {{function_name}}`

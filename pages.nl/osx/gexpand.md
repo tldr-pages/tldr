@@ -1,7 +1,7 @@
 # gexpand
 
-> Dit commando is een alias van `-p linux expand`.
+> Dit commando is een alias van GNU `expand`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux expand`
+`tldr expand`

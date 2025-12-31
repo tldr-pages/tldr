@@ -1,7 +1,7 @@
 # sngrep
 
 > 터미널에서 SIP 호출 메시지 흐름을 표시.
-> 더 많은 정보: <https://github.com/irontec/sngrep>.
+> 더 많은 정보: <https://manned.org/sngrep>.
 
 - PCAP 파일에서 SIP 패킷 시각화:
 

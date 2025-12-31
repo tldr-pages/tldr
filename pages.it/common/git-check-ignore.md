@@ -1,6 +1,6 @@
 # git check-ignore
 
-> Analizza ed esegui il debug di ".gitignore" e dei file esclusi.
+> Analizza ed esegui il debug di `.gitignore` e dei file esclusi.
 > Maggiori informazioni: <https://git-scm.com/docs/git-check-ignore>.
 
 - Verifica se un file o una directory sono ignorati:
@@ -21,4 +21,4 @@
 
 - Includi dettagli sul pattern corrispondente per ogni percorso specificato:
 
-`git check-ignore --verbose {{percorso/del/file_o_directory1 percorso/del/file_o_directory2 ...}}`
+`git check-ignore {{[-v|--verbose]}} {{percorso/del/file_o_directory1 percorso/del/file_o_directory2 ...}}`

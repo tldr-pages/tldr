@@ -1,7 +1,7 @@
 # gtrue
 
-> To polecenie jest aliasem `-p linux true`.
+> To polecenie jest aliasem GNU `true`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux true`
+`tldr true`

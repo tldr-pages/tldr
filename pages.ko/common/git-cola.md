@@ -1,7 +1,7 @@
 # git cola
 
 > 강력하고 직관적인 사용자 인터페이스를 갖춘 Git GUI.
-> 더 많은 정보: <https://git-cola.readthedocs.io>.
+> 더 많은 정보: <https://git-cola.readthedocs.io/en/latest/git-cola.html>.
 
 - GUI 시작:
 

@@ -1,7 +1,7 @@
 # join
 
 > Join lines of two sorted files on a common field.
-> More information: <https://www.gnu.org/software/coreutils/join>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/join-invocation.html>.
 
 - Join two files on the first (default) field:
 
@@ -9,7 +9,7 @@
 
 - Join two files using a comma (instead of a space) as the field separator:
 
-`join -t {{','}} {{path/to/file1}} {{path/to/file2}}`
+`join -t ',' {{path/to/file1}} {{path/to/file2}}`
 
 - Join field3 of file1 with field1 of file2:
 

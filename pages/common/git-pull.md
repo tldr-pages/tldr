@@ -9,8 +9,8 @@
 
 - Download changes from default remote repository and use fast-forward:
 
-`git pull --rebase`
+`git pull {{[-r|--rebase]}}`
 
-- Download changes from given remote repository and branch, then merge them into HEAD:
+- Download changes from given remote repository and branch, then merge them into `HEAD`:
 
 `git pull {{remote_name}} {{branch}}`

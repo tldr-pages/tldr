@@ -13,4 +13,4 @@
 
 - Use a specific number of bits for each pixel:
 
-`ppmtobmp -bbp {{1|4|8|24}} {{path/to/file.ppm}} > {{path/to/file.bmp}}`
+`ppmtobmp {{[-b|-bbp]}} {{1|4|8|24}} {{path/to/file.ppm}} > {{path/to/file.bmp}}`

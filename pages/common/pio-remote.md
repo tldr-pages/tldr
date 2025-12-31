@@ -10,7 +10,7 @@
 
 - Start a new Remote Agent with a specific name and share it with friends:
 
-`pio remote agent start --name {{agent_name}} --share {{example1@example.com}} --share {{example2@example.com}}`
+`pio remote agent start {{[-n|--name]}} {{agent_name}} {{[-s|--share]}} {{example1@example.com}} {{[-s|--share]}} {{example2@example.com}}`
 
 - List devices from specified Agents (omit `--agent` to specify all Agents):
 

@@ -13,8 +13,8 @@
 
 - Display memory in human-readable units:
 
-`free -h`
+`free {{[-h|--human]}}`
 
 - Refresh the output every 2 seconds:
 
-`free -s {{2}}`
+`free {{[-s|--seconds]}} 2`

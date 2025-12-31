@@ -2,7 +2,7 @@
 
 > SoX - Sound eXchange의 오디오 플레이어.
 > 파일 확장자로 식별된 오디오 형식을 재생.
-> 더 많은 정보: <https://sox.sourceforge.net>.
+> 더 많은 정보: <https://manned.org/play>.
 
 - 주어진 오디오 파일 재생:
 

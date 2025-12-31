@@ -1,7 +1,7 @@
 # pants
 
 > 빠르고 확장 가능하며 사용자 친화적이고 오픈 소스인 빌드 및 개발자 워크플로 도구.
-> 더 많은 정보: <https://www.pantsbuild.org/2.20/docs/using-pants/command-line-help>.
+> 더 많은 정보: <https://www.pantsbuild.org/stable/docs/using-pants/command-line-help>.
 
 - 모든 타겟 나열:
 

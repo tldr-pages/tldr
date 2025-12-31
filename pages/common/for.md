@@ -3,13 +3,17 @@
 > Perform a command several times.
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#Looping-Constructs>.
 
+- Iterate through command line parameters:
+
+`for {{variable}}; do {{echo $variable}}; done`
+
 - Execute the given commands for each of the specified items:
 
 `for {{variable}} in {{item1 item2 ...}}; do {{echo "Loop is executed"}}; done`
 
 - Iterate over a given range of numbers:
 
-`for {{variable}} in {{{from}}..{{to}}..{{step}}}; do {{echo "Loop is executed"}}; done`
+`for {{variable}} in {{{from..to..step}}}; do {{echo "Loop is executed"}}; done`
 
 - Iterate over a given list of files:
 

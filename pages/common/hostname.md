@@ -1,7 +1,7 @@
 # hostname
 
 > Show or set the system's host name.
-> More information: <https://manned.org/hostname>.
+> More information: <https://www.gnu.org/software/inetutils/manual/inetutils.html#hostname-invocation>.
 
 - Show current host name:
 
@@ -9,15 +9,11 @@
 
 - Show the network address of the host name:
 
-`hostname -i`
-
-- Show all network addresses of the host:
-
-`hostname -I`
+`hostname {{[-i|--ip-address]}}`
 
 - Show the FQDN (Fully Qualified Domain Name):
 
-`hostname --fqdn`
+`hostname {{[-f|--fqdn]}}`
 
 - Set current host name:
 

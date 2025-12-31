@@ -1,7 +1,7 @@
 # qm create
 
 > Erzeugung einer virtuellen Maschine per QEMU/KVM Virtual Machine Manager.
-> Weitere Informationen: <https://pve.proxmox.com/pve-docs/qm.1.html>.
+> Weitere Informationen: <https://pve.proxmox.com/pve-docs/qm.1.html#cli_qm_create>.
 
 - Erzeuge eine virtuelle Maschine:
 

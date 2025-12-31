@@ -1,12 +1,12 @@
 # kubectl
 
 > Interfaccia interattiva da linea di comando per eseguire comandi sui clusters Kubernetes.
-> Alcuni comandi aggiuntivi, come `run`, hanno la propria documentazione..
+> Alcuni comandi aggiuntivi, come `run`, hanno la propria documentazione.
 > Maggiori informazioni: <https://kubernetes.io/docs/reference/kubectl/>.
 
 - Elenca le informazioni su una risorsa in maniera dettagliata:
 
-`kubectl get {{pod|service|deployment|ingress|...}} -o wide`
+`kubectl get {{pods|service|deployment|ingress|...}} {{[-o|--output]}} wide`
 
 - Aggiorna il pod specificato con l'etichetta 'unhealthy' e il valore 'true':
 
@@ -18,7 +18,7 @@
 
 - Mostra l'utilizzo delle risorse (CPU/Memory/Storage) di nodi o pods:
 
-`kubectl top {{pod|nodo}}`
+`kubectl top {{pods|nodes}}`
 
 - Mostra l'indirizzo del master e i servizi del cluster:
 

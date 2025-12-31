@@ -1,14 +1,15 @@
 # virt-viewer
 
 > Minimal graphical interface for a virtual machine (VM).
-> Note: 'domain' refers to the name, UUID or ID for the existing VMs (See: tldr virsh).
+> Note: `domain` refers to the name, UUID, or ID for the existing VMs.
+> See also: `virsh`.
 > More information: <https://manned.org/virt-viewer>.
 
 - Launch `virt-viewer` with a prompt to select running virtual machines:
 
 `virt-viewer`
 
-- Launch `virt-viewer` for a specific virtual machine by ID, UUID or name:
+- Launch `virt-viewer` for a specific virtual machine by ID, UUID, or name:
 
 `virt-viewer "{{domain}}"`
 

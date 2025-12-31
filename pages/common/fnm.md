@@ -1,16 +1,19 @@
 # fnm
 
 > Fast Node.js version manager.
-> Install, uninstall or switch between Node.js versions.
-> More information: <https://github.com/Schniz/fnm>.
+> More information: <https://github.com/Schniz/fnm/blob/master/docs/commands.md>.
 
 - Install a specific version of Node.js:
 
-`fnm install {{node_version}}`
+`fnm {{[i|install]}} {{node_version}}`
+
+- Install Node.js LTS:
+
+`fnm {{[i|install]}} --lts`
 
 - List all available Node.js versions and highlight the default one:
 
-`fnm list`
+`fnm {{[ls|list]}}`
 
 - Use a specific version of Node.js in the current shell:
 
@@ -22,4 +25,4 @@
 
 - Uninstall a given Node.js version:
 
-`fnm uninstall {{node_version}}`
+`fnm {{[uni|uninstall]}} {{node_version}}`

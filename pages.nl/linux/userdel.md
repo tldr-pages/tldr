@@ -1,7 +1,7 @@
 # userdel
 
 > Verwijder een gebruikersaccount of verwijder een gebruiker uit een groep.
-> Bekijk ook: `users`, `useradd`, `usermod`.
+> Zie ook: `users`, `useradd`, `usermod`.
 > Meer informatie: <https://manned.org/userdel>.
 
 - Verwijder een gebruiker:
@@ -10,8 +10,8 @@
 
 - Verwijder een gebruiker in een andere root-map:
 
-`sudo userdel {{-R|--root}} {{pad/naar/andere/root}} {{gebruikersnaam}}`
+`sudo userdel {{[-R|--root]}} {{pad/naar/andere/root}} {{gebruikersnaam}}`
 
 - Verwijder een gebruiker samen met de thuismap en mail-spool:
 
-`sudo userdel {{-r|--remove}} {{gebruikersnaam}}`
+`sudo userdel {{[-r|--remove]}} {{gebruikersnaam}}`

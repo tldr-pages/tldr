@@ -1,9 +1,9 @@
 # ugrep
 
 > 超快速搜索工具，带有查询 TUI。
-> 更多信息：<https://github.com/Genivia/ugrep>.
+> 更多信息：<https://github.com/Genivia/ugrep#man-page>。
 
-- 启动查询 TUI，在当前目录中递归搜索文件（按 CTRL-Z 获取帮助）：
+- 启动查询 TUI，在当前目录中递归搜索文件（按 `<Ctrl z>` 获取帮助）：
 
 `ugrep --query`
 
@@ -23,7 +23,7 @@
 
 `ugrep --fuzzy={{3}} "{{search_pattern}}"`
 
-- 也递归搜索压缩文件、Zip 和 tar 存档：
+- 也递归搜索压缩文件、Zip 和 `.tar` 存档：
 
 `ugrep --decompress "{{search_pattern}}"`
 

@@ -1,7 +1,7 @@
 # neomutt
 
-> NeoMutt command-line email client.
-> More information: <https://neomutt.org>.
+> NeoMutt email client.
+> More information: <https://neomutt.org/guide/reference.html>.
 
 - Open the specified mailbox:
 

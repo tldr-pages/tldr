@@ -1,7 +1,7 @@
 # ddgr
 
 > Search DuckDuckGo (HTML version) from the terminal.
-> More information: <https://github.com/jarun/ddgr>.
+> More information: <https://github.com/jarun/ddgr#usage>.
 
 - Start in interactive mode:
 
@@ -11,13 +11,13 @@
 
 `ddgr {{keyword}}`
 
-- Limit the number of search results to `N`:
+- Limit the number of search results to `n`:
 
-`ddgr -n {{N}} {{keyword}}`
+`ddgr {{[-n|--num]}} {{n}} {{keyword}}`
 
 - Display the complete URL in search results:
 
-`ddgr -x {{keyword}}`
+`ddgr {{[-x|--expand]}} {{keyword}}`
 
 - Search DuckDuckGo for a keyword and open the first result in the browser:
 
@@ -25,7 +25,7 @@
 
 - Perform a website-specific search:
 
-`ddgr -w {{site}} {{keyword}}`
+`ddgr {{[-w|--site]}} {{site}} {{keyword}}`
 
 - Search for a specific file type:
 
@@ -33,4 +33,4 @@
 
 - Display help in interactive mode:
 
-`?`
+`<?>`

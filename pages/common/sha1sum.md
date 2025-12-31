@@ -1,7 +1,7 @@
 # sha1sum
 
 > Calculate SHA1 cryptographic checksums.
-> More information: <https://www.gnu.org/software/coreutils/sha1sum>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/sha1sum-invocation.html>.
 
 - Calculate the SHA1 checksum for one or more files:
 
@@ -17,16 +17,16 @@
 
 - Read a file of SHA1 checksums and filenames and verify all files have matching checksums:
 
-`sha1sum --check {{path/to/file.sha1}}`
+`sha1sum {{[-c|--check]}} {{path/to/file.sha1}}`
 
 - Only show a message for missing files or when verification fails:
 
-`sha1sum --check --quiet {{path/to/file.sha1}}`
+`sha1sum {{[-c|--check]}} --quiet {{path/to/file.sha1}}`
 
 - Only show a message when verification fails, ignoring missing files:
 
-`sha1sum --ignore-missing --check --quiet {{path/to/file.sha1}}`
+`sha1sum --ignore-missing {{[-c|--check]}} --quiet {{path/to/file.sha1}}`
 
 - Check a known SHA1 checksum of a file:
 
-`echo {{known_sha1_checksum_of_the_file}} {{path/to/file}} | sha1sum --check`
+`echo {{known_sha1_checksum_of_the_file}} {{path/to/file}} | sha1sum {{[-c|--check]}}`

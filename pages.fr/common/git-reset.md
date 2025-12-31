@@ -15,7 +15,7 @@
 
 - Enlever, en mode interactif, des fichiers spécifiques de l’index :
 
-`git reset --patch {{chemin/vers/fichier}}`
+`git reset {{[-p|--patch]}} {{chemin/vers/fichier}}`
 
 - Annuler le dernier commit, mais garder les changements effectués dans votre système de fichiers :
 

@@ -1,7 +1,7 @@
 # safe
 
 > Interact with HashiCorp Vault.
-> More information: <https://github.com/starkandwayne/safe>.
+> More information: <https://github.com/egen/safe>.
 
 - Add a safe target:
 
@@ -21,7 +21,7 @@
 
 - Move a secret from one path to another:
 
-`safe move {{old/path/to/secret}} {{new/path/to/secret}}`
+`safe move {{path/to/old_secret}} {{path/to/new_secret}}`
 
 - Generate a new 2048-bit SSH key-pair and store it:
 

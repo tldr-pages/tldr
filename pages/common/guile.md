@@ -1,7 +1,7 @@
 # guile
 
 > Guile Scheme interpreter.
-> More information: <https://www.gnu.org/software/guile>.
+> More information: <https://www.gnu.org/software/guile/manual/guile.html#Invoking-Guile>.
 
 - Start a REPL (interactive shell):
 

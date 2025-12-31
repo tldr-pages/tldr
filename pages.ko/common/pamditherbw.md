@@ -6,16 +6,16 @@
 
 - PGM 이미지를 읽고 디더링을 적용하여 파일로 저장:
 
-`ppmditherbw {{경로/대상/image.pgm}} > {{경로/대상/파일.pgm}}`
+`pamditherbw {{경로/대상/image.pgm}} > {{경로/대상/파일.pgm}}`
 
 - 지정된 양자화 방법 사용:
 
-`ppmditherbw -{{floyd|fs|atkinson|threshold|hilbert|...}} {{경로/대상/image.pgm}} > {{경로/대상/파일.pgm}}`
+`pamditherbw -{{floyd|fs|atkinson|threshold|hilbert|...}} {{경로/대상/image.pgm}} > {{경로/대상/파일.pgm}}`
 
 - atkinson 양자화 방법과 지정된 시드를 사용하여 의사 난수 생성기 사용:
 
-`ppmditherbw -atkinson -randomseed {{1337}} {{경로/대상/image.pgm}} > {{경로/대상/파일.pgm}}`
+`pamditherbw {{[-a|-atkinson]}} {{[-r|-randomseed]}} {{1337}} {{경로/대상/image.pgm}} > {{경로/대상/파일.pgm}}`
 
 - 특정 형태의 임계값 처리를 수행하는 양자화 방법을 위한 임계값 지정:
 
-`ppmditherbw -{{fs|atkinson|thresholding}} -value {{0.3}} {{경로/대상/image.pgm}} > {{경로/대상/파일.pgm}}`
+`pamditherbw -{{fs|atkinson|thresholding}} {{[-va|-value]}} {{0.3}} {{경로/대상/image.pgm}} > {{경로/대상/파일.pgm}}`

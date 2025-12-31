@@ -9,7 +9,7 @@
 
 - Run a Shadowsocks proxy by specifying the configuration file:
 
-`ss-local -c {{path/to/config/file.json}}`
+`ss-local -c {{path/to/config_file.json}}`
 
 - Use a plugin to run the proxy client:
 

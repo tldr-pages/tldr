@@ -1,7 +1,7 @@
 # nativefier
 
 > Befehlszeilen-Tool zum Erstellen einer Desktop-Anwendung für jede Website mit minimaler Konfiguration.
-> Weitere Informationen: <https://github.com/jiahaog/nativefier>.
+> Weitere Informationen: <https://github.com/nativefier/nativefier>.
 
 - Erstelle einer Desktop-Anwendung für eine Website:
 

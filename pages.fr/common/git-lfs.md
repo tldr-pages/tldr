@@ -1,7 +1,7 @@
 # git lfs
 
 > Travailler dans un registre Git avec des fichiers volumineux.
-> Plus d'informations : <https://git-lfs.com>.
+> Plus d'informations : <https://github.com/git-lfs/git-lfs/tree/main/docs>.
 
 - Initialise le Git LFS :
 
@@ -13,7 +13,7 @@
 
 - Changer l'URL du point de terminaison Git LFS (utile si le serveur LFS est séparé du serveur Git) :
 
-`git config {{-f|--file}} .lfsconfig lfs.url {{lfs_endpoint_url}}`
+`git config {{[-f|--file]}} .lfsconfig lfs.url {{lfs_endpoint_url}}`
 
 - Lister les pattern de fichiers suivis :
 

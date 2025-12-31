@@ -1,7 +1,7 @@
 # wakeonlan
 
 > Envía paquetes a los PCs habilitados para wake-on-LAN (WOL).
-> Más información: <https://github.com/jpoliv/wakeonlan>.
+> Más información: <https://manned.org/wakeonlan>.
 
 - Envía paquetes a todos los dispositivos de la red local (255.255.255.255) especificando una dirección MAC:
 

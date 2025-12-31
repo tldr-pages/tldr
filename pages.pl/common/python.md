@@ -1,28 +1,36 @@
 # python
 
 > Interpreter języka Python.
-> Więcej informacji: <https://www.python.org>.
+> Więcej informacji: <https://docs.python.org/using/cmdline.html>.
 
-- Wywołaj interaktywną powłokę Pythona (REPL):
+- Uruchom REPL (interaktywną powłokę):
 
 `python`
 
-- Wykonaj skrypt w danym pliku Python:
+- Uruchom skrypt w danym pliku Python:
 
-`python {{skrypt.py}}`
+`python {{ścieżka/do/pliku.py}}`
 
-- Wykonaj skrypt jako część interaktywnej powłoki:
+- Uruchom skrypt w danym pliku Python i uruchom REPL:
 
-`python -i {{skrypt.py}}`
+`python -i {{ścieżka/do/pliku.py}}`
 
 - Wykonaj wyrażenie w języku Python:
 
-`python -c "{{wyrazenie}}"`
+`python -c "{{wyrażenie}}"`
 
-- Uruchom moduł biblioteki jako skrypt (kończy listę opcji):
+- Uruchom skrypt podanego modułu biblioteki:
 
 `python -m {{moduł}} {{argumenty}}`
 
+- Zainstaluj pakiet, używając `pip`:
+
+`python -m pip install {{pakiet}}`
+
 - Interaktywnie debuguj skrypt w języku Python:
 
-`python -m pdb {{skrypt.py}}`
+`python -m pdb {{ścieżka/do/pliku.py}}`
+
+- Uruchom wbudowany serwer HTTP na porcie 8080 w aktualnym katalogu:
+
+`python -m http.server`

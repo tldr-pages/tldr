@@ -14,7 +14,7 @@
 
 - Interativamente remove partes de um arquivo da preparação:
 
-`git reset --patch {{caminho/para/arquivo}}`
+`git reset {{[-p|--patch]}} {{caminho/para/arquivo}}`
 
 - Desfaz o último commit, mantendo suas alterações (e quaisquer outras alteração não confirmadas) no sistema de arquivos:
 

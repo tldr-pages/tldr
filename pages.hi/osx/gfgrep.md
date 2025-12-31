@@ -1,7 +1,7 @@
 # gfgrep
 
-> यह आदेश `-p linux fgrep` का उपनाम है।
+> यह आदेश `fgrep` का उपनाम है।
 
 - मूल आदेश के लिए दस्तावेज़ देखें:
 
-`tldr -p linux fgrep`
+`tldr fgrep`

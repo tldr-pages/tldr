@@ -1,7 +1,7 @@
 # sails
 
 > Node.js 위에 구축된 실시간 엔터프라이즈 레벨 MVC 프레임워크.
-> 더 많은 정보: <https://sailsjs.com>.
+> 더 많은 정보: <https://sailsjs.com/documentation/reference/command-line-interface>.
 
 - Sails 시작:
 

@@ -1,7 +1,7 @@
 # gwho
 
-> To polecenie jest aliasem `-p linux who`.
+> To polecenie jest aliasem GNU `who`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux who`
+`tldr who`

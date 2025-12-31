@@ -1,7 +1,7 @@
 # mkfs.erofs
 
 > Create an EROFS filesystem in an image.
-> More information: <https://erofs.docs.kernel.org/en/latest/>.
+> More information: <https://manned.org/mkfs.erofs>.
 
 - Create an EROFS filesystem based on the root directory:
 

@@ -9,16 +9,16 @@
 
 - Navigate the current piece on a 2D plane:
 
-`{{Up|Down|Left|Right arrow key}}`
+`{{<ArrowUp>|<ArrowDown>|<ArrowLeft>|<ArrowRight>}}`
 
 - Rotate the piece on its axis:
 
-`{{Q|W|E|A|S|D}}`
+`{{<q>|<w>|<e>|<a>|<s>|<d>}}`
 
 - Hard drop the current piece:
 
-`<Spacebar>`
+`<Space>`
 
 - Pause/unpause the game:
 
-`p`
+`<p>`

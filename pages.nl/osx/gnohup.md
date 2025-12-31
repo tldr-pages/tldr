@@ -1,7 +1,7 @@
 # gnohup
 
-> Dit commando is een alias van `-p linux nohup`.
+> Dit commando is een alias van GNU `nohup`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux nohup`
+`tldr nohup`

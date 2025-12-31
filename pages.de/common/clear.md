@@ -3,7 +3,7 @@
 > Leert den Bildschirm eines Terminals.
 > Weitere Informationen: <https://manned.org/clear>.
 
-- Leere den Bildschirm (äquivalent zu Strg+L in einer Bash Shell):
+- Leere den Bildschirm (äquivalent zu `<Ctrl l>` in einer Bash Shell):
 
 `clear`
 
@@ -11,7 +11,7 @@
 
 `clear -x`
 
-- Lege den Typ des zu leerenden Terminals fest (Standardwert ist die Umgebungsvariable $TERM):
+- Lege den Typ des zu leerenden Terminals fest (Standardwert ist die Umgebungsvariable `$TERM`):
 
 `clear -T {{typ_des_terminals}}`
 

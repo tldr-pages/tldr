@@ -7,14 +7,14 @@
 
 `pcdovtoppm {{ruta/al/archivo.pcd}} > {{ruta/al/archivo.ppm}}`
 
-- Especifica la anchura [m]áxima de la imagen de salida y el tamaño máximo de cada una de las imágenes contenidas en la salida:
+- Especifica la anchura máxima de la imagen de salida y el tamaño máximo de cada una de las imágenes contenidas en la salida:
 
-`pcdovtoppm -m {{anchura}} -s {{tamaño}} {{ruta/al/archivo.pcd}} > {{ruta/al/archivo.ppm}}`
+`pcdovtoppm {{[-m|-maxwidth]}} {{anchura}} {{[-s|-size]}} {{tamaño}} {{ruta/al/archivo.pcd}} > {{ruta/al/archivo.ppm}}`
 
-- Especifica el número máximo de imágenes y el número máximo de [c]olores:
+- Especifica el número máximo de imágenes y el número máximo de colores:
 
-`pcdovtoppm -a {{n_imágenes}} -c {{n_colores}} {{ruta/al/archivo.pcd}} > {{ruta/al/archivo_salida.ppm}}`
+`pcdovtoppm {{[-a|-across]}} {{n_imágenes}} {{[-c|-colors]}} {{n_colores}} {{ruta/al/archivo.pcd}} > {{ruta/al/archivo_salida.ppm}}`
 
-- Utiliza la [f]uente especificada para las anotaciones y pinta el fondo blanco:
+- Utiliza la fuente especificada para las anotaciones y pinta el fondo blanco:
 
-`pcdovtoppm -f {{fuente}} -w {{ruta/al/archivo.pcd}} > {{ruta/al/archivo.ppm}}`
+`pcdovtoppm {{[-f|-font]}} {{fuente}} {{[-w|-white]}} {{ruta/al/archivo.pcd}} > {{ruta/al/archivo.ppm}}`

@@ -1,28 +1,29 @@
 # gum
 
 > Make glamorous shell scripts.
-> More information: <https://github.com/charmbracelet/gum>.
+> See also: `whiptail`, `dialog`.
+> More information: <https://github.com/charmbracelet/gum#tutorial>.
 
 - Interactively pick a specific option to print to `stdout`:
 
-`gum choose "{{option_1}}" "{{option_2}}" "{{option_3}}"`
+`gum choose {{"option1" "option2" "..."}}`
 
 - Open an interactive prompt for the user to input a string with a specific placeholder:
 
 `gum input --placeholder "{{value}}"`
 
-- Open an interactive confirmation prompt and exit with either `0` or `1`:
+- Open an interactive confirmation prompt and exit with either `<0>` or `<1>`:
 
 `gum confirm "{{Continue?}}" --default=false --affirmative "{{Yes}}" --negative "{{No}}" {{&& echo "Yes selected" || echo "No selected"}}`
 
 - Show a spinner while a command is taking place with text alongside:
 
-`gum spin --spinner {{dot|line|minidot|jump|pulse|points|globe|moon|monkey|meter|hamburger}} --title "{{loading...}}" -- {{command}}`
+`gum spin {{[-s|--spinner]}} {{dot|line|minidot|jump|pulse|points|globe|moon|monkey|meter|hamburger}} --title "{{loading...}}" {{command}}`
 
 - Format text to include emojis:
 
-`gum format -t {{emoji}} "{{:smile: :heart: hello}}"`
+`gum format {{[-t|--type]}} {{emoji}} "{{:smile: :heart: hello}}"`
 
-- Interactively prompt for multi-line text (CTRL + D to save) and write to `data.txt`:
+- Interactively prompt for multi-line text and write the input to a file:
 
-`gum write > {{data.txt}}`
+`gum write > {{path/to/file}}`

@@ -2,7 +2,7 @@
 
 > Deploy PHP applications.
 > Note: The Go command `dep` with the same name is deprecated and archived.
-> More information: <https://deployer.org>.
+> More information: <https://deployer.org/docs/8.x/cli>.
 
 - Interactively initialize deployer in the local path (use a framework template with `--template=template`):
 

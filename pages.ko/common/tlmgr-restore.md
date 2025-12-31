@@ -2,7 +2,7 @@
 
 > `tlmgr backup`으로 생성된 패키지 백업 복원.
 > 기본 백업 디렉토리는 `backupdir` 옵션에 의해 지정되며, `tlmgr option`으로 확인할 수 있습니다.
-> 더 많은 정보: <https://www.tug.org/texlive/tlmgr.html>.
+> 더 많은 정보: <https://www.tug.org/texlive/doc/tlmgr.html#restore>.
 
 - 모든 패키지에 대한 사용 가능한 모든 백업 리비전 나열:
 

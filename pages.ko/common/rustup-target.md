@@ -2,7 +2,7 @@
 
 > 툴체인의 지원 대상 수정.
 > `--toolchain` 옵션이 없으면 `rustup`은 기본 툴체인을 사용합니다. 툴체인에 대한 자세한 정보는 `rustup help toolchain`을 참조하세요.
-> 더 많은 정보: <https://rust-lang.github.io/rustup>.
+> 더 많은 정보: <https://rust-lang.github.io/rustup/>.
 
 - 툴체인에 대상 추가:
 

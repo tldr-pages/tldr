@@ -1,7 +1,7 @@
 # mdbook
 
 > Markdown 파일을 작성하여 온라인 책을 만듭니다.
-> 더 많은 정보: <https://rust-lang.github.io/mdBook/>.
+> 더 많은 정보: <https://rust-lang.github.io/mdBook/cli/index.html>.
 
 - 현재 디렉토리에 mdbook 프로젝트 생성:
 

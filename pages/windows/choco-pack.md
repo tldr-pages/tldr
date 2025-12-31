@@ -1,9 +1,9 @@
 # choco pack
 
-> Package a NuGet specification into a `nupkg` file.
-> More information: <https://chocolatey.org/docs/commands-pack>.
+> Package a NuGet specification into a `.nupkg` file.
+> More information: <https://docs.chocolatey.org/en-us/create/commands/pack/>.
 
-- Package a NuGet specification to a `nupkg` file:
+- Package a NuGet specification to a `.nupkg` file:
 
 `choco pack {{path\to\specification_file}}`
 
@@ -13,4 +13,4 @@
 
 - Package a NuGet specification to a specific directory:
 
-`choco pack {{path\to\specification_file}} --output-directory {{path\to\output_directory}}`
+`choco pack {{path\to\specification_file}} {{[--out|--output-directory]}} {{path\to\output_directory}}`

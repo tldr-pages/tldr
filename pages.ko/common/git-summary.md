@@ -2,7 +2,7 @@
 
 > Git 저장소에 대한 정보를 표시.
 > `git-extras`의 일부.
-> 더 많은 정보: <https://github.com/tj/git-extras/blob/master/Commands.md#git-summary>.
+> 더 많은 정보: <https://manned.org/git-summary>.
 
 - Git 저장소에 대한 정보 표시:
 

@@ -1,20 +1,7 @@
 # docker start
 
-> Lancer un ou plusieurs conteneurs arrêtés.
-> Plus d'informations : <https://docs.docker.com/reference/cli/docker/container/start/>.
+> Cette commande est un alias de `docker container start`.
 
-- Afficher l'aide :
+- Affiche la documentation de la commande originale :
 
-`docker start`
-
-- Lancer un conteneur Docker :
-
-`docker start {{conteneur}}`
-
-- Lancer un conteneur, en attachant `stdout` et `stderr` et en transférant les signaux :
-
-`docker start --attach {{conteneur}}`
-
-- Lancer un ou plusieurs conteneurs séparés par des espaces :
-
-`docker start {{conteneur1 conteneur2 ...}}`
+`tldr docker container start`

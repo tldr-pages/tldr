@@ -13,4 +13,4 @@
 
 - Sposta sovrascrivendo eventuali file esistenti nel percorso di destinazione:
 
-`git mv --force {{percorso/del/file}} {{nuovo/percorso/del/file}}`
+`git mv {{[-f|--force]}} {{percorso/del/file}} {{nuovo/percorso/del/file}}`

@@ -1,7 +1,7 @@
 # gchgrp
 
-> Cette commande est un alias de `-p linux chgrp`.
+> Cette commande est un alias de `chgrp`.
 
 - Voir la documentation de la commande originale :
 
-`tldr -p linux chgrp`
+`tldr chgrp`

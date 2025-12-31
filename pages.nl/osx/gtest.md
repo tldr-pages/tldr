@@ -1,7 +1,7 @@
 # gtest
 
-> Dit commando is een alias van `-p linux test`.
+> Dit commando is een alias van GNU `test`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux test`
+`tldr test`

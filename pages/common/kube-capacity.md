@@ -10,8 +10,8 @@
 
 - Include pods:
 
-`kube-capacity -p`
+`kube-capacity {{[-p|--pods]}}`
 
 - Include utilization:
 
-`kube-capacity -u`
+`kube-capacity {{[-u|--util]}}`

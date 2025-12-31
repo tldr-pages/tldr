@@ -9,7 +9,7 @@
 
 - Convert a PPM image to an AutoCAD binary database import file:
 
-`ppmtoacad -dxb {{path/to/file.ppm}} > {{path/to/file.dxb}}`
+`ppmtoacad {{[-d|-dxb]}} {{path/to/file.ppm}} > {{path/to/file.dxb}}`
 
 - Restrict the colors in the output to 8 RGB shades:
 

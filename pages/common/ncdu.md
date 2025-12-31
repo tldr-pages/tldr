@@ -1,7 +1,7 @@
 # ncdu
 
 > Disk usage analyzer with an ncurses interface.
-> More information: <https://manned.org/ncdu>.
+> More information: <https://dev.yorhel.nl/ncdu/man>.
 
 - Analyze the current working directory:
 

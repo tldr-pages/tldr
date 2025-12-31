@@ -2,7 +2,11 @@
 
 > JavaScript runtime and toolkit.
 > Includes a bundler, a test runner, and a package manager.
-> More information: <https://bun.sh>.
+> More information: <https://bun.com/docs>.
+
+- Create a new Bun project in the current directory:
+
+`bun init`
 
 - Run a JavaScript file or a `package.json` script:
 
@@ -14,19 +18,15 @@
 
 - Download and install all the packages listed as dependencies in `package.json`:
 
-`bun install`
+`bun {{[i|install]}}`
 
 - Add a dependency to `package.json`:
 
-`bun add {{module_name}}`
+`bun {{[a|add]}} {{module_name}}`
 
 - Remove a dependency from `package.json`:
 
-`bun remove {{module_name}}`
-
-- Create a new Bun project in the current directory:
-
-`bun init`
+`bun {{[rm|remove]}} {{module_name}}`
 
 - Start a REPL (interactive shell):
 

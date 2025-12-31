@@ -1,7 +1,7 @@
 # delta
 
 > A viewer for Git and diff output.
-> More information: <https://github.com/dandavison/delta>.
+> More information: <https://dandavison.github.io/delta/full---help-output.html>.
 
 - Compare files or directories:
 
@@ -9,11 +9,11 @@
 
 - Compare files or directories, showing the line numbers:
 
-`delta --line-numbers {{path/to/old_file_or_directory}} {{path/to/new_file_or_directory}}`
+`delta {{[-n|--line-numbers]}} {{path/to/old_file_or_directory}} {{path/to/new_file_or_directory}}`
 
 - Compare files or directories, showing the differences side by side:
 
-`delta --side-by-side {{path/to/old_file_or_directory}} {{path/to/new_file_or_directory}}`
+`delta {{[-s|--side-by-side]}} {{path/to/old_file_or_directory}} {{path/to/new_file_or_directory}}`
 
 - Compare files or directories, ignoring any Git configuration settings:
 

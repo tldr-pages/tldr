@@ -1,7 +1,7 @@
 # rtorrent
 
 > Download torrents.
-> More information: <https://github.com/rakshasa/rtorrent>.
+> More information: <https://github.com/rakshasa/rtorrent/wiki/User-Guide#adding-and-removing-torrents>.
 
 - Add a torrent file or magnet to be downloaded:
 
@@ -9,12 +9,12 @@
 
 - Start the download:
 
-`<Ctrl>S`
+`<Ctrl s>`
 
 - View details about downloading torrent:
 
-`->`
+`<ArrowRight>`
 
 - Close rtorrent safely:
 
-`<Ctrl>Q`
+`<Ctrl q>`

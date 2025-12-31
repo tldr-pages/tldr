@@ -1,7 +1,7 @@
 # argocd
 
 > Program baris perintah untuk mengatur suatu peladen (server) Argo CD.
-> Beberapa subperintah seperti `argocd app` memiliki dokumentasi terpisah.
+> Beberapa subperintah seperti `argocd app` mempunyai dokumentasi terpisah.
 > Informasi lebih lanjut: <https://argo-cd.readthedocs.io/en/stable/user-guide/commands/argocd/>.
 
 - Masuk (login) ke dalam suatu peladen Argo CD:

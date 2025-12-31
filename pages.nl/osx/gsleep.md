@@ -1,7 +1,7 @@
 # gsleep
 
-> Dit commando is een alias van `-p linux sleep`.
+> Dit commando is een alias van GNU `sleep`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux sleep`
+`tldr {{[-p|--platform]}} linux sleep`

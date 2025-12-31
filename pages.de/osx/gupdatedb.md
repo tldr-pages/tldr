@@ -1,7 +1,7 @@
 # gupdatedb
 
-> Dieser Befehl ist ein Alias von `-p linux updatedb`.
+> Dieser Befehl ist ein Alias von GNU `updatedb`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 
-`tldr -p linux updatedb`
+`tldr {{[-p|--platform]}} linux updatedb`

@@ -13,7 +13,7 @@
 
 - Publica la rama actual en el repositorio remoto y establece el nombre remoto de la rama:
 
-`git push -u {{nombre_remoto}} {{rama_remota}}`
+`git push {{[-u|--set-upstream]}} {{nombre_remoto}} {{rama_remota}}`
 
 - Envía los cambios locales de una rama específica a una rama específica en el remoto:
 
@@ -25,7 +25,7 @@
 
 - Elimina una rama en el repositorio remoto:
 
-`git push {{nombre_remoto}} --delete {{rama_remota}}`
+`git push {{nombre_remoto}} {{[-d|--delete]}} {{rama_remota}}`
 
 - Elimina las ramas remotas que no están en el repositorio local:
 

@@ -2,7 +2,7 @@
 
 > Enregistre votre historique shell dans une base de donnée.
 > Peut également synchroniser votre historique chiffré entre plusieurs machines.
-> Plus d'informations : <https://atuin.sh/docs/commands>.
+> Plus d'informations : <https://docs.atuin.sh/>.
 
 - Installe atuin dans votre shell :
 
@@ -18,11 +18,11 @@
 
 - Inscrire un compte sur le serveur de synchronisation par défaut :
 
-`atuin register -u {{nom_d_utilisateur}} -e {{email}} -p {{mot_de_passe}}`
+`atuin register {{[-u|--username]}} {{nom_d_utilisateur}} {{[-e|--email]}} {{email}} {{[-p|--password]}} {{mot_de_passe}}`
 
 - Connexion au serveur de synchronisation par défaut :
 
-`atuin login -u {{nom_d_utilisateur}} -p {{mot_de_passe}}`
+`atuin login {{[-u|--username]}} {{nom_d_utilisateur}} {{[-p|--password]}} {{mot_de_passe}}`
 
 - Synchronise l'historique avec le serveur :
 

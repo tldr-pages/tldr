@@ -1,7 +1,7 @@
 # pastel
 
-> Generate, analyze, convert and manipulate colors.
-> More information: <https://github.com/sharkdp/pastel>.
+> Generate, analyze, convert, and manipulate colors.
+> More information: <https://manned.org/pastel>.
 
 - Convert colors from one format to another. Here from RGB to HSL:
 
@@ -15,9 +15,9 @@
 
 `pastel pick`
 
-- Generate a set of N visually distinct colors:
+- Generate a set of `n` visually distinct colors:
 
-`pastel distinct {{8}}`
+`pastel distinct {{n}}`
 
 - List all X11/CSS color names:
 

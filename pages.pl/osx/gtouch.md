@@ -1,7 +1,7 @@
 # gtouch
 
-> To polecenie jest aliasem `-p linux touch`.
+> To polecenie jest aliasem GNU `touch`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux touch`
+`tldr touch`

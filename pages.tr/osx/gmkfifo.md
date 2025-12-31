@@ -1,7 +1,7 @@
 # gmkfifo
 
-> Bu komut `-p linux mkfifo` için bir takma addır.
+> Bu komut `mkfifo` için bir takma addır.
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux mkfifo`
+`tldr mkfifo`

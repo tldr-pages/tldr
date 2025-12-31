@@ -1,7 +1,7 @@
 # hostapd
 
 > 무선 인터페이스를 사용하여 액세스 포인트를 시작.
-> 더 많은 정보: <https://w1.fi/hostapd/>.
+> 더 많은 정보: <https://manned.org/hostapd>.
 
 - 액세스 포인트 시작:
 

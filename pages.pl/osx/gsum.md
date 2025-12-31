@@ -1,7 +1,7 @@
 # gsum
 
-> To polecenie jest aliasem `-p linux sum`.
+> To polecenie jest aliasem GNU `sum`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux sum`
+`tldr sum`

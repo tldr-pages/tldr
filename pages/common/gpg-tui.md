@@ -1,6 +1,6 @@
 # gpg-tui
 
-> Terminal user interface for GNU Public Guard.
+> Terminal user interface for GNU Privacy Guard.
 > More information: <https://github.com/orhun/gpg-tui>.
 
 - Start `gpg-tui`:
@@ -13,24 +13,24 @@
 
 - Quit `gpg-tui`:
 
-`q`
+`<q>`
 
 - Interactively generate a new key:
 
-`g`
+`<g>`
 
 - Export the selected key:
 
-`x`
+`<x>`
 
 - Set the detail level for the selected key:
 
-`1|2|3`
+`<1>|<2>|<3>`
 
 - Refresh `gpg-tui`:
 
-`r`
+`<r>`
 
 - Display help in `gpg-tui`:
 
-`?`
+`<?>`

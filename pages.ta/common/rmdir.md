@@ -2,7 +2,7 @@
 
 > கோப்புகள் இல்லாத கோப்பகங்களை அகற்று.
 > மேலும் பார்க்கவும்: `rm`.
-> மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/rmdir>.
+> மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/manual/html_node/rmdir-invocation.html>.
 
 - குறிப்பிட்ட கோப்பகங்களை அகற்றவும்:
 

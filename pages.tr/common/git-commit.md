@@ -5,11 +5,11 @@
 
 - Sahnelenmiş dosyaları belirtilen mesaj ile commit'le:
 
-`git commit -m {{mesaj}}`
+`git commit {{[-m|--message]}} {{mesaj}}`
 
 - Değişiklikleri otomatik olarak sahnele ve mesaj ile commit'le:
 
-`git commit -a -m {{mesaj}}`
+`git commit {{[-a|--all]}} {{[-m|--message]}} {{mesaj}}`
 
 - Değerini değiştirecek şekilde son commit'i yeni sahnelenmiş değişiklikleri ekleyerek güncelle:
 

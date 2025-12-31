@@ -1,7 +1,7 @@
 # yaa
 
 > YAA 아카이브 생성 및 조작.
-> 더 많은 정보: <https://keith.github.io/xcode-man-pages/yaa.1.html>.
+> 더 많은 정보: <https://www.manpagez.com/man/1/yaa/>.
 
 - 디렉터리에서 아카이브 생성:
 

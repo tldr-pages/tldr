@@ -9,7 +9,7 @@
 
 - List all local and remote branches:
 
-`dolt branch --all`
+`dolt branch {{[-A|--all]}}`
 
 - Create a new branch based on the current branch:
 
@@ -21,15 +21,15 @@
 
 - Rename a branch:
 
-`dolt branch --move {{branch_name1}} {{branch_name2}}`
+`dolt branch {{[-m|--move]}} {{branch_name1}} {{branch_name2}}`
 
 - Duplicate a branch:
 
-`dolt branch --copy {{branch_name1}} {{branch_name2}}`
+`dolt branch {{[-c|--copy]}} {{branch_name1}} {{branch_name2}}`
 
 - Delete a branch:
 
-`dolt branch --delete {{branch_name}}`
+`dolt branch {{[-d|--delete]}} {{branch_name}}`
 
 - Display the name of the current branch:
 

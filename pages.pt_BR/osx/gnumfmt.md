@@ -1,7 +1,7 @@
 # gnumfmt
 
-> Este comando é um apelido de `-p linux numfmt`.
+> Este comando é um apelido de `numfmt`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux numfmt`
+`tldr numfmt`

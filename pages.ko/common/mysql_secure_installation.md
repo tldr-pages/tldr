@@ -9,7 +9,7 @@
 
 - 특정 호스트와 포트 사용:
 
-`mysql_secure_installation --host={{호스트}} --port={{포트}}`
+`mysql_secure_installation --host {{호스트}} --port {{포트}}`
 
 - 도움말 표시:
 

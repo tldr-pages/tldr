@@ -1,7 +1,7 @@
-# Stormlock
+# stormlock
 
 > 중앙 집중식 잠금 시스템.
-> 더 많은 정보: <https://github.com/tmccombs/stormlock>.
+> 더 많은 정보: <https://github.com/tmccombs/stormlock#usage>.
 
 - 리소스에 대한 임대 획득:
 

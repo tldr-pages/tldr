@@ -1,7 +1,7 @@
 # mysqlcheck
 
 > MySQL 테이블 검사 및 복구.
-> 더 많은 정보: <https://dev.mysql.com/doc/refman/8.0/en/mysqlcheck.html>.
+> 더 많은 정보: <https://dev.mysql.com/doc/refman/en/mysqlcheck.html>.
 
 - 테이블 검사:
 

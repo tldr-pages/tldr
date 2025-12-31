@@ -4,26 +4,34 @@
 > Some subcommands such as `pull`, `push`, `copy`, etc. have their own usage documentation.
 > More information: <https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane.md/>.
 
-- Execute a `crane` subcommand:
+- Log in to a registry:
 
-`crane {{subcommand}}`
+`crane auth login {{registry}} {{[-u|--username]}} {{user}} {{[-p|--password]}} {{password}}`
 
-- Allow pushing non-distributable (foreign) layers:
+- List the repos in a registry:
 
-`crane --allow-nondistributable-artifacts {{subcommand}}`
+`crane catalog {{registry}} --full-ref`
 
-- Allow image references to be fetched without TLS:
+- List the tags in a repository:
 
-`crane --insecure {{subcommand}}`
+`crane ls {{repository}} {{[-o|--omit-digest-tags]}}`
 
-- Specify the platform in the form os/arch{{/variant}}{{:osversion}} (e.g. linux/amd64). (default all):
+- Pull remote images by reference and store their contents locally:
 
-`crane --platform {{platform}} {{subcommand}}`
+`crane pull {{image}} {{tarball}}`
 
-- Enable debug logs for a subcommand:
+- Push local image contents to a remote registry:
 
-`crane {{-v|--verbose}} {{subcommand}}`
+`crane push {{path/to/directory_or_tarball}} {{image}}`
 
-- Display help for a subcommand:
+- Efficiently tag a remote image:
 
-`crane {{-h|--help}} {{subcommand}}`
+`crane tag {{image}} {{tag}}`
+
+- Efficiently copy a remote image while retaining the digest value:
+
+`crane {{[cp|copy]}} {{source}} {{destination}} {{[-a|--all-tags]}}`
+
+- Delete an image reference from its registry:
+
+`crane delete {{image}}`

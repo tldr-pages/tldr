@@ -11,10 +11,10 @@
 
 `k9s --readonly --cluster {{cluster_name}}`
 
-- Manage a cluster using a given kubernetes namespace:
+- Manage a cluster using a given Kubernetes namespace:
 
-`k9s --namespace {{kubernetes_namespace}} --cluster {{cluster_name}}`
+`k9s {{[-n|--namespace]}} {{kubernetes_namespace}} --cluster {{cluster_name}}`
 
 - Manage a cluster launching k9s in the pod view and enable debug logging:
 
-`k9s --command {{pod}} --logLevel debug --cluster {{cluster_name}}`
+`k9s {{[-c|--command]}} {{pod}} {{[-l|--logLevel]}} debug --cluster {{cluster_name}}`

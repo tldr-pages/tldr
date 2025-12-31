@@ -1,7 +1,7 @@
 # gcomm
 
-> Perintah ini merupakan alias dari `-p linux comm`.
+> Perintah ini merupakan alias dari `comm`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux comm`
+`tldr comm`

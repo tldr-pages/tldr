@@ -1,7 +1,7 @@
 # pueue edit
 
 > Edit the command or path of a stashed or queued task.
-> More information: <https://github.com/Nukesor/pueue>.
+> More information: <https://github.com/Nukesor/pueue#how-to-use-it>.
 
 - Edit a task, see `pueue status` to get the task ID:
 

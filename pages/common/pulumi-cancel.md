@@ -9,8 +9,8 @@
 
 - Skip confirmation prompts, and proceed with cancellation anyway:
 
-`pulumi cancel --yes`
+`pulumi cancel {{[-y|--yes]}}`
 
 - Display help:
 
-`pulumi cancel --help`
+`pulumi cancel {{[-h|--help]}}`

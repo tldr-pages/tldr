@@ -1,7 +1,7 @@
 # todo
 
 > ஒரு எளிய, தரநிலை அடிப்படையிலான, cli todo மேலாளர்.
-> மேலும் விவரத்திற்கு: <https://todoman.readthedocs.io>.
+> மேலும் விவரத்திற்கு: <https://todoman.readthedocs.io/en/stable/man.html>.
 
 - தொடங்கக்கூடிய பணிகளை பட்டியலிடுங்கள்:
 

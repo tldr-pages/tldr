@@ -1,7 +1,7 @@
 # read
 
 > Shell builtin para recuperar datos de `stdin`.
-> Más información: <https://manned.org/read.1p>.
+> Más información: <https://www.gnu.org/software/bash/manual/bash.html#index-read>.
 
 - Almacena los datos que escribes desde el teclado:
 
@@ -17,9 +17,9 @@
 
 - Asigna varios valores a varias variables:
 
-`read {{_ variable1 _ variable2}} <<< "{{El apellido es Bond"}}"`
+`read {{_ variable1 _ variable2}} <<< "{{El apellido es Bond}}"`
 
-- No dejes que la barra invertida (\) actúe como carácter de escape:
+- No dejes que la barra invertida (`\`) actúe como carácter de escape:
 
 `read -r {{variable}}`
 

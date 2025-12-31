@@ -2,7 +2,7 @@
 
 > MPlayer 기반의 오디오/비디오 플레이어.
 > 같이 보기: `mplayer`, `vlc`.
-> 더 많은 정보: <https://mpv.io>.
+> 더 많은 정보: <https://mpv.io/manual/stable/>.
 
 - URL 또는 파일에서 비디오나 오디오 재생:
 
@@ -10,19 +10,19 @@
 
 - 5초 뒤로/앞으로 이동:
 
-`LEFT <or> RIGHT`
+`{{<ArrowLeft>|<ArrowRight>}}`
 
 - 1분 뒤로/앞으로 이동:
 
-`DOWN <or> UP`
+`{{<ArrowDown>|<ArrowUp>}}`
 
 - 재생 속도를 10% 감소/증가:
 
-`[ <or> ]`
+`{{<[>|<]>}}`
 
 - 현재 프레임의 스크린샷 찍기 (기본적으로 `./mpv-shotNNNN.jpg`에 저장됨):
 
-`s`
+`<s>`
 
 - 지정된 속도로 파일 재생 (기본값은 1):
 

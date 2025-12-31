@@ -1,7 +1,7 @@
 # nitrogen
 
 > Desktop background browser and setter for X Window.
-> More information: <https://github.com/l3ib/nitrogen>.
+> More information: <https://manned.org/nitrogen>.
 
 - View and set the wallpapers from a specific directory:
 

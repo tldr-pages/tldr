@@ -1,7 +1,7 @@
 # gxargs
 
-> Dit commando is een alias van `-p linux xargs`.
+> Dit commando is een alias van GNU `xargs`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux xargs`
+`tldr xargs`

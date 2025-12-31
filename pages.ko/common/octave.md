@@ -1,7 +1,7 @@
 # octave
 
 > 과학 계산을 위한 프로그래밍 언어.
-> 더 많은 정보: <https://docs.octave.org/latest/Invoking-Octave-from-the-Command-Line.html>.
+> 더 많은 정보: <https://manned.org/octave>.
 
 - 대화형 세션 시작:
 

@@ -1,7 +1,7 @@
 # gsed
 
-> Dieser Befehl ist ein Alias von `-p linux sed`.
+> Dieser Befehl ist ein Alias von GNU `sed`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 
-`tldr -p linux sed`
+`tldr {{[-p|--platform]}} linux sed`

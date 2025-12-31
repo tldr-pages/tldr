@@ -1,7 +1,7 @@
 # acpi
 
 > Mostra l'estat de la bateria o l'informació tèrmica.
-> Més informació: <https://sourceforge.net/projects/acpiclient/files/acpiclient/>.
+> Més informació: <https://manned.org/acpi>.
 
 - Mostra informació de la bateria:
 
@@ -9,20 +9,20 @@
 
 - Mostra informació tèrmica:
 
-`acpi -t`
+`acpi {{[-t|--thermal]}}`
 
 - Mostra informació del dispositiu de refredament:
 
-`acpi -c`
+`acpi {{[-c|--cooling]}}`
 
 - Mostra informació tèrmica en Fahrenheit:
 
-`acpi -tf`
+`acpi {{[-tf|--thermal --fahrenheit]}}`
 
 - Mostra tota l'informació:
 
-`acpi -V`
+`acpi {{[-V|--everything]}}`
 
 - Extreu l'informació de `/proc` en comptes de `/sys`:
 
-`acpi -p`
+`acpi {{[-p|--proc]}}`

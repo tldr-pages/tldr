@@ -3,24 +3,24 @@
 > Symlink manager.
 > Often used to manage dotfiles.
 > See also: `chezmoi`, `tuckr`, `vcsh`, `homeshick`.
-> More information: <https://www.gnu.org/software/stow>.
+> More information: <https://www.gnu.org/software/stow/manual/stow.html#Invoking-Stow>.
 
 - Symlink all files recursively to a given directory:
 
-`stow --target={{path/to/target_directory}} {{file1 directory1 file2 directory2}}`
+`stow {{[-t|--target]}} {{path/to/target_directory}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
 - Delete symlinks recursively from a given directory:
 
-`stow --delete --target={{path/to/target_directory}} {{file1 directory1 file2 directory2}}`
+`stow {{[-D|--delete]}} {{[-t|--target]}} {{path/to/target_directory}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
 - Simulate to see what the result would be like:
 
-`stow --simulate --target={{path/to/target_directory}} {{file1 directory1 file2 directory2}}`
+`stow {{[-n|--simulate]}} {{[-t|--target]}} {{path/to/target_directory}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
 - Delete and resymlink:
 
-`stow --restow --target={{path/to/target_directory}} {{file1 directory1 file2 directory2}}`
+`stow {{[-R|--restow]}} {{[-t|--target]}} {{path/to/target_directory}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
-- Exclude files matching a regular expression:
+- Exclude files matching a `regex`:
 
-`stow --ignore={{regular_expression}} --target={{path/to/target_directory}} {{file1 directory1 file2 directory2}}`
+`stow --ignore={{regex}} {{[-t|--target]}} {{path/to/target_directory}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`

@@ -9,16 +9,16 @@
 
 - Display information about the input file:
 
-`palmtopnm -verbose {{path/to/file.palm}} > {{path/to/file.pnm}}`
+`palmtopnm {{[-verb|-verbose]}} {{path/to/file.palm}} > {{path/to/file.pnm}}`
 
 - Convert the n'th rendition of the image contained in the input file:
 
-`palmtopnm -rendition {{n}} {{path/to/file.palm}} > {{path/to/file.pnm}}`
+`palmtopnm {{[-r|-rendition]}} {{n}} {{path/to/file.palm}} > {{path/to/file.pnm}}`
 
 - Write a histogram of the colors in the input file to `stdout`:
 
-`palmtopnm -showhist {{path/to/file.palm}} > {{path/to/file.pnm}}`
+`palmtopnm {{[-s|-showhist]}} {{path/to/file.palm}} > {{path/to/file.pnm}}`
 
 - Output the transparent color of the input image if set:
 
-`palmtopnm -transparent {{path/to/file.palm}}`
+`palmtopnm {{[-t|-transparent]}} {{path/to/file.palm}}`

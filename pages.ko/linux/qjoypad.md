@@ -1,7 +1,7 @@
 # qjoypad
 
 > 게임패드나 조이스틱의 입력을 키보드 입력이나 마우스 동작으로 변환.
-> 더 많은 정보: <https://qjoypad.sourceforge.net/>.
+> 더 많은 정보: <https://qjoypad.sourceforge.net/doc/doc_index.html>.
 
 - QJoyPad 시작:
 

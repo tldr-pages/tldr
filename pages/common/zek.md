@@ -1,7 +1,7 @@
 # zek
 
 > Generate a Go struct from XML.
-> More information: <https://github.com/miku/zek>.
+> More information: <https://github.com/miku/zek#usage>.
 
 - Generate a Go struct from a given XML from `stdin` and display output on `stdout`:
 
@@ -9,7 +9,7 @@
 
 - Generate a Go struct from a given XML from `stdin` and send output to a file:
 
-`curl -s {{https://url/to/xml}} | zek -o {{path/to/output.go}}`
+`curl {{[-s|--silent]}} {{https://url/to/xml}} | zek -o {{path/to/output.go}}`
 
 - Generate an example Go program from a given XML from `stdin` and send output to a file:
 

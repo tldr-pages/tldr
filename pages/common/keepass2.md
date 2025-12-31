@@ -1,7 +1,7 @@
 # keepass2
 
 > A light-weight password manager.
-> More information: <https://keepass.info>.
+> More information: <https://manned.org/keepass2>.
 
 - Start KeePass 2, opening the most recently opened password database:
 
@@ -13,4 +13,4 @@
 
 - Use a specific key file to open a password database:
 
-`keepass2 {{path/to/database.kbdx}} -keyfile:{{path/to/key/file.key}}`
+`keepass2 {{path/to/database.kbdx}} -keyfile:{{path/to/key_file.key}}`

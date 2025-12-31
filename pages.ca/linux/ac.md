@@ -9,15 +9,15 @@
 
 - Imprimeix el temps total de connexió de tots els usuaris en hores:
 
-`ac --individual-totals`
+`ac {{[-p|--individual-totals]}}`
 
 - Imprimeix el temps total de connexió d'un usuari concret en hores:
 
-`ac --individual-totals {{nom_usuari}}`
+`ac {{[-p|--individual-totals]}} {{nom_usuari}}`
 
 - Imprimeix el temps de connexió d'un usuari concret en hores per dia (amb total):
 
-`ac --daily-totals --individual-totals {{nom_usuari}}`
+`ac {{[-d|--daily-totals]}} {{[-p|--individual-totals]}} {{nom_usuari}}`
 
 - Mostra també detalls adicionals:
 

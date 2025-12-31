@@ -1,37 +1,36 @@
 # last
 
-> Lista la información de los últimos inicios de sesión de usuario.
-> Vea también: `lastb`, `login`.
-> Más información: <https://manned.org/last.1>.
+> Vea los últimos usuarios conectados.
+> Más información: <https://manned.org/last>.
 
-- Lista la información de inicio de sesión (por ejemplo, nombre de usuario, terminal, tiempo de arranque, núcleo) de todos los usuarios:
+- Vea la información del último inicio de sesión (por ejemplo, nombre de usuario, terminal, tiempo de arranque, kernel) de todos los usuarios leída de `/var/log/wtmp`:
 
 `last`
 
 - Lista la información de inicio de sesión de un usuario específico:
 
-`last {{usuario}}`
+`last {{nombre_de_usuario}}`
 
-- Muestra la información de una terminal específica:
+- Especifica cuántos de los últimos inicios de sesión mostrar:
 
-`last {{tty1}}`
+`last {{[-n|--limit]}} {{cuenta_inicios}}`
 
-- Lista la información actualizada (por defecto, la más reciente aparece al principio):
+- Muestra la fecha y hora completas de las entradas y, a continuación, muestra la columna del nombre de host en último lugar para evitar que se trunque:
 
-`last | tac`
+`last {{[-F|--fulltimes]}} {{[-a|--hostlast]}}`
 
-- Muestra información sobre el arranque del sistema:
+- Visualiza todos los inicios de sesión de un usuario específico y muestra la dirección IP en lugar del nombre de host:
 
-`last "{{system boot}}"`
+`last {{nombre_de_usuario}} {{[-i|--ip]}}`
 
-- Lista información con un formato de [t]iempo específico:
+- Lista la información desde una fecha y hora determinadas:
 
-`last --time-format {{notime|full|iso}}`
+`last {{[-s|--since]}} {{-7days}}`
 
-- Lista información desde una fecha y hora específica:
+- Vea todos los reinicios registrados (es decir, los últimos inicios de sesión del pseudousuario "reboot"):
 
-`last --since {{-7days}}`
+`last reboot`
 
-- Muestra información (es decir, nombre e IP) de hosts remotos:
+- Muestra la ayuda:
 
-`last --dns`
+`last {{[-h|--help]}}`

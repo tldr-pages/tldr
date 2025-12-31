@@ -1,7 +1,7 @@
 # cmatrix
 
 > Zeigt einen scrollenden, Matrix-ähnlichen Bildschirm im Terminal an.
-> Weitere Informationen: <https://github.com/abishekvashok/cmatrix>.
+> Weitere Informationen: <https://manned.org/cmatrix>.
 
 - Aktiviere [a]synchrones Scrollen:
 

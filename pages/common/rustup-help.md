@@ -1,7 +1,7 @@
 # rustup help
 
 > Display help on `rustup` and its subcommands.
-> More information: <https://rust-lang.github.io/rustup>.
+> More information: <https://rust-lang.github.io/rustup/>.
 
 - Display help:
 

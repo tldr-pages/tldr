@@ -1,7 +1,7 @@
 # aa-disable
 
 > Schakel AppArmor-beveiligingsprofielen uit.
-> Bekijk ook: `aa-complain`, `aa-enforce`, `aa-status`.
+> Zie ook: `aa-complain`, `aa-enforce`, `aa-status`.
 > Meer informatie: <https://gitlab.com/apparmor/apparmor/-/wikis/manpage_aa-disable.8>.
 
 - Schakel een profiel uit:

@@ -1,7 +1,7 @@
 # ginstall
 
-> Este comando é um apelido de `-p linux install`.
+> Este comando é um apelido de `install`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux install`
+`tldr install`

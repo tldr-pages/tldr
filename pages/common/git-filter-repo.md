@@ -18,4 +18,4 @@
 
 - Move everything from sub-folder one level up:
 
-`git filter-repo --path-rename {{path/to/folder/:}}`
+`git filter-repo --path-rename {{path/to/folder}}/:`

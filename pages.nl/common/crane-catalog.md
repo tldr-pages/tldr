@@ -11,6 +11,6 @@
 
 `crane catalog {{registry_adres}} --full-ref`
 
-- Toon help:
+- Toon de help:
 
-`crane catalog {{-h|--help}}`
+`crane catalog {{[-h|--help]}}`

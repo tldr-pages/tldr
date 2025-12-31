@@ -1,9 +1,9 @@
 # ugrep
 
 > Ultraschnelles Suchtool mit Abfrage-TUI.
-> Weitere Informationen: <https://github.com/Genivia/ugrep>.
+> Weitere Informationen: <https://github.com/Genivia/ugrep#man-page>.
 
-- Starte eine interaktive TUI um rekursiv nach Dateien im aktuellen Verzeichnis zu suchen (Strg-Z für Hilfe):
+- Starte eine interaktive TUI um rekursiv nach Dateien im aktuellen Verzeichnis zu suchen (`<Ctrl z>` für Hilfe):
 
 `ugrep --query`
 
@@ -23,7 +23,7 @@
 
 `ugrep --fuzzy={{3}} "{{suchmuster}}"`
 
-- Suche auch in allen komprimierten Dateien und Zip- und tar-Archive:
+- Suche auch in allen komprimierten Dateien und Zip- und `.tar`-Archive:
 
 `ugrep --decompress "{{suchmuster}}"`
 

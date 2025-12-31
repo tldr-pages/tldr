@@ -2,7 +2,7 @@
 
 > Pause running tasks or groups.
 > See also: `pueue start`.
-> More information: <https://github.com/Nukesor/pueue>.
+> More information: <https://github.com/Nukesor/pueue#how-to-use-it>.
 
 - Pause all tasks in the default group:
 
@@ -18,8 +18,8 @@
 
 - Pause all tasks in a group and prevent it from starting new tasks:
 
-`pueue pause --group {{group_name}}`
+`pueue pause {{[-g|--group]}} {{group_name}}`
 
 - Pause all tasks and prevent all groups from starting new tasks:
 
-`pueue pause --all`
+`pueue pause {{[-a|--all]}}`

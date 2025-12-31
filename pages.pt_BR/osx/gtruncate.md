@@ -1,7 +1,7 @@
 # gtruncate
 
-> Este comando é um apelido de `-p linux truncate`.
+> Este comando é um apelido de `truncate`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux truncate`
+`tldr truncate`

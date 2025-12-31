@@ -1,7 +1,7 @@
 # gtr
 
-> 這是 `-p linux tr` 命令的一個別名。
+> 這是 `tr` 命令的一個別名。
 
 - 原命令的文件在：
 
-`tldr -p linux tr`
+`tldr tr`

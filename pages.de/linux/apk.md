@@ -1,7 +1,7 @@
 # apk
 
 > Alpine Linux-Paketverwaltungstool.
-> Weitere Informationen: <https://manned.org/apk>.
+> Weitere Informationen: <https://wiki.alpinelinux.org/wiki/Alpine_Package_Keeper>.
 
 - Aktualisiere die Indizes von allen externen Repositories:
 

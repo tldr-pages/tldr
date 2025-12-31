@@ -13,7 +13,7 @@
 
 - Zeige detaillierte Informationen zur Festplattennutzung:
 
-`docker system df --verbose`
+`docker system df {{[-v|--verbose]}}`
 
 - Entferne nicht-verwendete Daten:
 
@@ -29,7 +29,7 @@
 
 - Zeige Echtzeit-Events von Containern und formatiere jede Zeile als gültiges JSON:
 
-`docker system events --filter 'type=container' --format '{{json .}}'`
+`docker system events {{[-f|--filter]}} 'type=container' --format '{{json .}}'`
 
 - Zeige systemweite Informationen:
 

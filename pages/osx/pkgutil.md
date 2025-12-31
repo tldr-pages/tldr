@@ -9,7 +9,7 @@
 
 - Verify cryptographic signatures of a package file:
 
-`pkgutil --check-signature {{path/to/filename.pkg}}`
+`pkgutil --check-signature {{path/to/file.pkg}}`
 
 - List all the files for an installed package given its ID:
 
@@ -17,4 +17,4 @@
 
 - Extract the contents of a package file into a directory:
 
-`pkgutil --expand-full {{path/to/filename.pkg}} {{path/to/directory}}`
+`pkgutil --expand-full {{path/to/file.pkg}} {{path/to/directory}}`

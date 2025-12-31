@@ -2,7 +2,7 @@
 
 > Cari dan selidiki para host jaringan melalui protokol ARP.
 > Bermanfaat untuk mencari alamat MAC dalam jaringan.
-> Informasi lebih lanjut: <https://github.com/ThomasHabets/arping>.
+> Informasi lebih lanjut: <https://manned.org/arping>.
 
 - Ping suatu host dengan megirimkan paket permintaan ARP:
 

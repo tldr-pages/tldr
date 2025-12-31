@@ -1,7 +1,7 @@
 # behat
 
 > A PHP framework for Behaviour-Driven Development.
-> More information: <https://behat.org>.
+> More information: <https://docs.behat.org/en/latest/user_guide/command_line_tool.html>.
 
 - Initialize a new Behat project:
 

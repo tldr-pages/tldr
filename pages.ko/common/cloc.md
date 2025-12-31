@@ -1,7 +1,7 @@
 # cloc
 
 > 소스코드와 주석의 줄 개수를 세고 차이를 계산합니다.
-> 더 많은 정보: <https://github.com/AlDanial/cloc>.
+> 더 많은 정보: <https://github.com/AlDanial/cloc#options->.
 
 - 디렉토리 안의 모든 코드의 줄 개수를 셉니다:
 

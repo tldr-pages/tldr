@@ -1,7 +1,7 @@
 # apt-file
 
 > 在 APT 软件包中查找文件，其中也包括未安装的软件。
-> 更多信息：<https://manned.org/apt-file.1>.
+> 更多信息：<https://manned.org/apt-file.1>。
 
 - 更新元数据的数据库：
 
@@ -17,4 +17,4 @@
 
 - 查找符合给定 `pattern` 中正则表达式的软件包：
 
-`apt-file {{search|find}} --regexp {{正则表达式}}`
+`apt-file {{search|find}} {{[-x|--regexp]}} {{正则表达式}}`

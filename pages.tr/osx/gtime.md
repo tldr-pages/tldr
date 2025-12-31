@@ -1,7 +1,7 @@
 # gtime
 
-> Bu komut `-p linux time` için bir takma addır.
+> Bu komut `time` için bir takma addır.
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux time`
+`tldr time`

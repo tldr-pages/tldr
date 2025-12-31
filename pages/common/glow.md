@@ -1,7 +1,7 @@
 # glow
 
 > Render Markdown in the terminal.
-> More information: <https://github.com/charmbracelet/glow>.
+> More information: <https://manned.org/glow>.
 
 - Run glow and select a file to view:
 
@@ -13,7 +13,7 @@
 
 - View a Markdown file using a paginator:
 
-`glow -p {{path/to/file}}`
+`glow {{[-p|--pager]}} {{path/to/file}}`
 
 - View a file from a URL:
 

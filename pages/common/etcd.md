@@ -1,7 +1,7 @@
 # etcd
 
 > A distributed, reliable key-value store for the most critical data of a distributed system.
-> More information: <https://etcd.io>.
+> More information: <https://etcd.io/docs/latest/op-guide/configuration/#command-line-flags>.
 
 - Start a single-node etcd cluster:
 

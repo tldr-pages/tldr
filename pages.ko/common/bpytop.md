@@ -2,7 +2,7 @@
 
 > CPU, 메모리, 디스크, 네트워크 및 프로세스에 대한 정보를 표시하는 리소스 모니터.
 > `bashtop`의 Python 버전.
-> 더 많은 정보: <https://github.com/aristocratos/bpytop>.
+> 더 많은 정보: <https://github.com/aristocratos/bpytop#command-line-options>.
 
 - `bpytop` 시작:
 
@@ -14,15 +14,15 @@
 
 - 최소 모드 전환:
 
-`m`
+`<m>`
 
 - 실행 중인 프로그램이나 프로세스 검색:
 
-`f`
+`<f>`
 
 - 설정 변경:
 
-`M`
+`<M>`
 
 - 버전 표시:
 

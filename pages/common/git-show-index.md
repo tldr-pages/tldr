@@ -9,4 +9,4 @@
 
 - Specify the hash algorithm for the index file (experimental):
 
-`git show-index --object-format={{sha1|sha256}} {{path/to/file}}`
+`git show-index --object-format {{sha1|sha256}} {{path/to/file}}`

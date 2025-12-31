@@ -1,7 +1,7 @@
 # gtelnet
 
-> Dieser Befehl ist ein Alias von `-p linux telnet`.
+> Dieser Befehl ist ein Alias von `telnet`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 
-`tldr -p linux telnet`
+`tldr telnet`

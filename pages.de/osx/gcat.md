@@ -1,7 +1,7 @@
 # gcat
 
-> Dieser Befehl ist ein Alias von `-p linux cat`.
+> Dieser Befehl ist ein Alias von GNU `cat`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 
-`tldr -p linux cat`
+`tldr {{[-p|--platform]}} linux cat`

@@ -2,7 +2,7 @@
 
 > JavaScript 런타임 및 툴킷.
 > 번들러, 테스트 러너 및 패키지 관리자가 포함.
-> 더 많은 정보: <https://bun.sh>.
+> 더 많은 정보: <https://bun.com/docs>.
 
 - JavaScript 파일 또는 `package.json` 스크립트 실행:
 

@@ -1,7 +1,7 @@
 # puppet apply
 
 > Puppet 매니페스트를 로컬에서 적용.
-> 더 많은 정보: <https://puppet.com/docs/puppet/7/man/apply.html>.
+> 더 많은 정보: <https://github.com/puppetlabs/puppet/blob/main/references/man/apply.md>.
 
 - 매니페스트 적용:
 

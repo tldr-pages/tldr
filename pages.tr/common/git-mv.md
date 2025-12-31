@@ -13,4 +13,4 @@
 
 - Eğer varsa belirtilen hedefteki dosyanın üstüne yaz:
 
-`git mv --force {{dosya}} {{hedef}}`
+`git mv {{[-f|--force]}} {{dosya}} {{hedef}}`

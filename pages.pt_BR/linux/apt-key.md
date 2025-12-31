@@ -1,7 +1,7 @@
 # apt-key
 
 > Gerenciador de chaves utilizado pelo gerenciador de pacotes APT nas distribuições baseadas em Debian.
-> Mais informações: <https://manned.org/apt-key.8>.
+> Mais informações: <https://manned.org/apt-key>.
 
 - Exibe as chaves confiáveis:
 
@@ -17,7 +17,7 @@
 
 - Adiciona uma chave remota na lista de chaves confiáveis:
 
-`wget -qO - {{https://host.tld/arquivo.key}} | apt-key add -`
+`wget {{[-qO|--quiet --output-document]}} - {{https://host.tld/arquivo.key}} | apt-key add -`
 
 - Adiciona uma chave, de um servidor de chaves, na lista de chaves confiáveis:
 

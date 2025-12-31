@@ -1,7 +1,7 @@
 # eol
 
 > Show end-of-life dates (EoLs) for a number of products.
-> More information: <https://github.com/hugovk/norwegianblue>.
+> More information: <https://github.com/hugovk/norwegianblue#example-command-line-use>.
 
 - List all available products:
 
@@ -13,16 +13,16 @@
 
 - Open the product webpage:
 
-`eol {{product}} --web`
+`eol {{product}} {{[-w|--web]}}`
 
 - Get EoLs of a one or more products in a specific format:
 
-`eol {{product1 product2 ...}} --format {{html|json|md|markdown|pretty|rst|csv|tsv|yaml}}`
+`eol {{product1 product2 ...}} --{{html|json|md|markdown|pretty|rst|csv|tsv|yaml}}`
 
 - Get EoLs of one or more products as a single markdown file:
 
-`eol {{product1 product2 ...}} --format {{markdown}} > {{eol_report.md}}`
+`eol {{product1 product2 ...}} --{{markdown}} > {{eol_report.md}}`
 
 - Display help:
 
-`eol --help`
+`eol {{[-h|--help]}}`

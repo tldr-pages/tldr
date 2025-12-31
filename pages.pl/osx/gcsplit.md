@@ -1,7 +1,7 @@
 # gcsplit
 
-> To polecenie jest aliasem `-p linux csplit`.
+> To polecenie jest aliasem GNU `csplit`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux csplit`
+`tldr {{[-p|--platform]}} linux csplit`

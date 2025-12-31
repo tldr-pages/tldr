@@ -1,7 +1,7 @@
 # sshfs
 
 > Filesystem client based on SSH.
-> More information: <https://github.com/libfuse/sshfs>.
+> More information: <https://github.com/libfuse/sshfs/blob/master/sshfs.rst>.
 
 - Mount remote directory:
 

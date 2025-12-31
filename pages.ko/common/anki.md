@@ -1,7 +1,7 @@
 # anki
 
 > 강력하고, 지능적인 플래시카드 프로그램.
-> 더 많은 정보: <https://docs.ankiweb.net>.
+> 더 많은 정보: <https://manned.org/anki>.
 
 - `anki` 실행:
 

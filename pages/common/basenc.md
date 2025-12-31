@@ -9,11 +9,11 @@
 
 - Decode a file with base64 encoding:
 
-`basenc --decode --base64 {{path/to/file}}`
+`basenc {{[-d|--decode]}} --base64 {{path/to/file}}`
 
 - Encode from `stdin` with base32 encoding with 42 columns:
 
-`{{command}} | basenc --base32 -w42`
+`{{command}} | basenc --base32 {{[-w|--wrap]}} 42`
 
 - Encode from `stdin` with base32 encoding:
 

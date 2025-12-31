@@ -1,7 +1,7 @@
 # readonly
 
 > Set read-only shell variables.
-> More information: <https://manned.org/readonly.1posix>.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-readonly>.
 
 - Set a read-only variable:
 

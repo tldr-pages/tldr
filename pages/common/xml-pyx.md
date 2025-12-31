@@ -1,7 +1,7 @@
 # xml pyx
 
 > Convert an XML document to PYX (ESIS - ISO 8879) format.
-> More information: <https://xmlstar.sourceforge.net/docs.php>.
+> More information: <https://xmlstar.sourceforge.net/doc/UG/xmlstarlet-ug.html#idm47077139550832>.
 
 - Convert an XML document to PYX format:
 

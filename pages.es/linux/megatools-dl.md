@@ -2,13 +2,13 @@
 
 > Descarga archivos de `mega.nz`.
 > Parte del paquete de utilidades `megatools`.
-> Más información: <https://megatools.megous.com/man/megatools-dl.html>.
+> Más información: <https://xff.cz/megatools/man/megatools-dl.html>.
 
 - Descarga los archivos de un enlace 'mega.nz' al directorio actual:
 
 `megatools-dl {{https://mega.nz/...}}`
 
-- Descarga los archivos de un enlace 'mega.nz` a un directorio específico:
+- Descarga los archivos de un enlace `mega.nz` a un directorio específico:
 
 `megatools-dl --path {{ruta/al/directorio}} {{https://mega.nz/...}}`
 

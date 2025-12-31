@@ -9,4 +9,4 @@
 
 - 도움말 표시:
 
-`crane delete {{-h|--help}}`
+`crane delete {{[-h|--help]}}`

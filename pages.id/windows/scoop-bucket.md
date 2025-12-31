@@ -2,7 +2,7 @@
 
 > Kelola bucket: Repository Git yang berisi berkas yang menjelaskan bagaimana scoop menginstall aplikasi.
 > Jika Scoop tidak tahu di mana sebuah bucket terletak, maka lokasi repositori harus ditentukan.
-> Informasi lebih lanjut: <https://github.com/lukesampson/scoop/wiki/Buckets>.
+> Informasi lebih lanjut: <https://github.com/ScoopInstaller/Scoop/wiki/Buckets>.
 
 - Tampilkan daftar semua bucket yang sedang digunakan:
 
@@ -18,7 +18,7 @@
 
 - Tambahkan bucket yang tidak dikenal bersarkan nama dan URL repository Git:
 
-`scoop bucket add {{nama}} {{https://contoh.com/repository.git}}`
+`scoop bucket add {{nama}} {{https://example.com/repository.git}}`
 
 - Hapus suatu bucket berdasarkan namanya:
 

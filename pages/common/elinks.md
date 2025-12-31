@@ -9,7 +9,7 @@
 
 - Quit elinks:
 
-`<Ctrl> + C`
+`<Ctrl c>`
 
 - Dump output of webpage to console, colorizing the text with ANSI control codes:
 

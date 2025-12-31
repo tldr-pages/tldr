@@ -1,7 +1,7 @@
 # g[
 
-> Bu komut `-p linux [` için bir takma addır.
+> Bu komut `[` için bir takma addır.
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux [`
+`tldr [`

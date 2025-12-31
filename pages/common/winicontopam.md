@@ -9,12 +9,12 @@
 
 - Convert all images in the input file to PAM:
 
-`winicontopam -allimages {{path/to/input_file.ico}} > {{path/to/output.pam}}`
+`winicontopam {{[-al|-allimages]}} {{path/to/input_file.ico}} > {{path/to/output.pam}}`
 
 - Convert the n'th image in the input file to PAM:
 
-`winicontopam -image {{n}} {{path/to/input_file.ico}} > {{path/to/output.pam}}`
+`winicontopam {{[-i|-image]}} {{n}} {{path/to/input_file.ico}} > {{path/to/output.pam}}`
 
 - If the image(s) to be extracted contain graded transparency data and an AND mask, write the AND mask into the fifth channel of the output PAM file:
 
-`winicontopam -andmasks {{path/to/input_file.ico}} > {{path/to/output.pam}}`
+`winicontopam {{[-an|-andmasks]}} {{path/to/input_file.ico}} > {{path/to/output.pam}}`

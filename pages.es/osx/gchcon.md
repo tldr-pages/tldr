@@ -1,7 +1,7 @@
 # gchcon
 
-> Este comando es un alias de `-p linux chcon`.
+> Este comando es un alias de GNU `chcon`.
 
 - Muestra la documentación del comando original:
 
-`tldr -p linux chcon`
+`tldr {{[-p|--platform]}} linux chcon`

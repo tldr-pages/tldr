@@ -2,7 +2,7 @@
 
 > Descomprime imágenes JPEG XL.
 > Las extensiones de salida aceptadas son PNG, APNG, JPEG, EXR, PGM, PPM, PNM, PFM, PAM, EXIF, XMP y JUMBF.
-> Más información: <https://github.com/libjxl/libjxl>.
+> Más información: <https://github.com/libjxl/libjxl/blob/main/doc/man/djxl.txt>.
 
 - Descomprime una imagen JPEG XL a otro formato:
 
@@ -10,4 +10,4 @@
 
 - Muestra una página de ayuda muy detallada:
 
-`djxl --help --verbose --verbose --verbose --verbose`
+`djxl {{[-h -v -v -v -v|--help --verbose --verbose --verbose --verbose]}}`

@@ -1,7 +1,7 @@
-# qm move disk
+# qm move-disk
 
 > To polecenie jest aliasem `qm disk move`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr qm disk move`
+`tldr qm disk`

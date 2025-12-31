@@ -2,7 +2,7 @@
 
 > Python package manager.
 > Some subcommands such as `install` have their own usage documentation.
-> More information: <https://pip.pypa.io>.
+> More information: <https://pip.pypa.io/en/stable/cli/pip/>.
 
 - Install a package (see `pip install` for more install examples):
 
@@ -14,7 +14,7 @@
 
 - Upgrade a package:
 
-`pip install --upgrade {{package}}`
+`pip install {{[-U|--upgrade]}} {{package}}`
 
 - Uninstall a package:
 
@@ -24,10 +24,14 @@
 
 `pip freeze > {{requirements.txt}}`
 
+- List installed packages:
+
+`pip list`
+
 - Show installed package info:
 
 `pip show {{package}}`
 
 - Install packages from a file:
 
-`pip install --requirement {{requirements.txt}}`
+`pip install {{[-r|--requirement]}} {{requirements.txt}}`

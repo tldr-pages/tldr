@@ -5,7 +5,7 @@
 
 - Show pipe delimited cluster utilization data:
 
-`sreport --parsable cluster utilization`
+`sreport {{[-p|--parsable]}} cluster utilization`
 
 - Show number of jobs run:
 

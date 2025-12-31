@@ -1,20 +1,7 @@
 # docker start
 
-> Bir veya daha fazla durmuş konteyneri başlar.
-> Daha fazla bilgi için: <https://docs.docker.com/reference/cli/docker/container/start/>.
+> Bu komut `docker container start` için bir takma addır.
 
-- Yardım göster:
+- Asıl komutun belgelerini görüntüleyin:
 
-`docker start`
-
-- Bir Docker konteynerini başlat:
-
-`docker start {{konteyner}}`
-
-- Bir konteyneri, ona `stdout` ile `stderr`'i ekleyerek ve sinyaller göndererek başlat:
-
-`docker start --attach {{konteyner}}`
-
-- Bir veya daha fazla boşlukla ayrılarak belirtilmiş konteynerleri başlar:
-
-`docker start {{konteyner1 konteyner2 ...}}`
+`tldr docker container start`

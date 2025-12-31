@@ -2,7 +2,7 @@
 
 > Program klien antarmuka baris perintah bagi layanan jaringan virtual privat (VPN) Mullvad VPN.
 > Lihat juga: `fastd`, `ivpn`, `mozillavpn`, `warp-cli`.
-> Informasi lebih lanjut: <https://mullvad.net/>.
+> Informasi lebih lanjut: <https://mullvad.net/en/help/how-use-mullvad-cli>.
 
 - Hubungkan dengan akun Mullvad dengan nomor induk akun Anda:
 

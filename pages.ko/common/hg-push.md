@@ -1,7 +1,7 @@
 # hg push
 
 > 로컬 저장소의 변경 사항을 지정된 대상으로 푸시.
-> 더 많은 정보: <https://www.mercurial-scm.org/doc/hg.1.html#push>.
+> 더 많은 정보: <https://www.mercurial-scm.org/help/commands/push>.
 
 - "기본" 원격 경로로 변경 사항 푸시:
 

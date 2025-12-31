@@ -13,4 +13,4 @@
 
 - Replace all pixels not specified in the arguments by a color:
 
-`ppmchange -remainder {{color}} {{oldcolor1 newcolor1 oldcolor2 newcolor2 ...}} {{path/to/input.ppm}} > {{path/to/output.ppm}}`
+`ppmchange {{[-r|-remainder]}} {{color}} {{oldcolor1 newcolor1 oldcolor2 newcolor2 ...}} {{path/to/input.ppm}} > {{path/to/output.ppm}}`

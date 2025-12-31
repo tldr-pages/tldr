@@ -1,7 +1,7 @@
 # halt
 
 > Hentikan seluruh proses dan jalannya CPU dalam sistem komputer.
-> Informasi lebih lanjut: <https://manned.org/halt.8>.
+> Informasi lebih lanjut: <https://manned.org/halt>.
 
 - Hentikan sistem komputer:
 
@@ -9,7 +9,7 @@
 
 - Matikan sistem (sama seperti `poweroff`):
 
-`halt --poweroff`
+`halt {{[-p|--poweroff]}}`
 
 - Nyalakan ulang sistem (sama seperti `reboot`):
 
@@ -17,8 +17,8 @@
 
 - Hentikan sistem secara segera tanpa menghubungi manajer sistem:
 
-`halt --force`
+`halt {{[-f|--force]}}`
 
 - Tulis entri wtmp shutdown tanpa menghentikan sistem:
 
-`halt --wtmp-only`
+`halt {{[-w|--wtmp-only]}}`

@@ -19,6 +19,10 @@
 
 `omz plugin list`
 
+- List all enabled plugins:
+
+`omz plugin list --enabled`
+
 - Enable/Disable an Oh My Zsh plugin:
 
 `omz plugin {{enable|disable}} {{plugin}}`

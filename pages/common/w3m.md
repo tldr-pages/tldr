@@ -2,7 +2,7 @@
 
 > A text-based web browser.
 > Supports SSL and mouse input, even over SSH.
-> More information: <https://w3m.sourceforge.net>.
+> More information: <https://w3m.sourceforge.net/MANUAL>.
 
 - Open a URL:
 
@@ -18,12 +18,12 @@
 
 - Open a new browser tab:
 
-`<Shift> + T`
+`<Shift t>`
 
 - Display your browser history:
 
-`<Ctrl> + H`
+`<Ctrl h>`
 
 - Quit w3m:
 
-`q + y`
+`<q><y>`

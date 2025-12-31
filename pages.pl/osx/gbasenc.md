@@ -1,7 +1,7 @@
 # gbasenc
 
-> To polecenie jest aliasem `-p linux basenc`.
+> To polecenie jest aliasem GNU `basenc`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux basenc`
+`tldr basenc`

@@ -1,7 +1,7 @@
 # gtail
 
-> Perintah ini merupakan alias dari `-p linux tail`.
+> Perintah ini merupakan alias dari `tail`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux tail`
+`tldr {{[-p|--platform]}} common tail`

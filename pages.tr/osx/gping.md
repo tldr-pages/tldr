@@ -1,7 +1,7 @@
 # gping
 
-> Bu komut `-p linux ping` için bir takma addır.
+> Bu komut `ping` için bir takma addır.
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux ping`
+`tldr {{[-p|--platform]}} common ping`

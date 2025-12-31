@@ -2,7 +2,7 @@
 
 > Monta um pacote que pode ser usado junto ao `pacman`.
 > Utiliza por padrão o arquivo `PKGBUILD` no diretório de trabalho atual.
-> Mais informações: <https://manned.org/makepkg.8>.
+> Mais informações: <https://manned.org/makepkg>.
 
 - Monta um pacote:
 
@@ -10,11 +10,11 @@
 
 - Monta um pacote e instala suas dependências:
 
-`makepkg --syncdeps`
+`makepkg {{[-s|--syncdeps]}}`
 
 - Monta um pacote, instala suas dependências e então o instala no sistema:
 
-`makepkg --syncdeps --install`
+`makepkg {{[-s|--syncdeps]}} {{[-i|--install]}}`
 
 - Monta um pacote, mas pula a verificação de hashes da fonte:
 
@@ -22,7 +22,7 @@
 
 - Limpa os diretórios de trabalho após uma compilação bem sucedida:
 
-`makepkg --clean`
+`makepkg {{[-c|--clean]}}`
 
 - Verifica os hashes das fontes:
 

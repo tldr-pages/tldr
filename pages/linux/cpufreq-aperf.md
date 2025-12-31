@@ -10,12 +10,12 @@
 
 - Start calculating for CPU 1 only:
 
-`sudo cpufreq-aperf -c {{1}}`
+`sudo cpufreq-aperf {{[-c|--cpu]}} {{1}}`
 
 - Start calculating with a 3 second refresh interval for all CPU cores:
 
-`sudo cpufreq-aperf -i {{3}}`
+`sudo cpufreq-aperf {{[-i|--interval]}} {{3}}`
 
 - Calculate only once:
 
-`sudo cpufreq-aperf -o`
+`sudo cpufreq-aperf {{[-o|--once]}}`

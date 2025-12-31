@@ -9,7 +9,7 @@
 
 - Éteint le système (identique à `poweroff`) :
 
-`reboot --poweroff`
+`reboot {{[-p|--poweroff]}}`
 
 - Arrête (met fin à tous les processus et arrête le processeur) le système (identique à `halt`) :
 
@@ -17,8 +17,8 @@
 
 - Redémarre immédiatement sans contacter le gestionnaire du système :
 
-`reboot --force`
+`reboot {{[-f|--force]}}`
 
 - Écrit l'entrée wtmp shutdown sans redémarrer le système :
 
-`reboot --wtmp-only`
+`reboot {{[-w|--wtmp-only]}}`

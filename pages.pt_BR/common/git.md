@@ -2,7 +2,7 @@
 
 > Sistema de versionamento distribuído.
 > Alguns subcomandos como `commit` tem sua própia documentação de uso.
-> Mais informações: <https://git-scm.com/>.
+> Mais informações: <https://git-scm.com/docs/git>.
 
 - Execute um subcomando Git:
 

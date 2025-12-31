@@ -2,16 +2,36 @@
 
 > A task management tool for sequential and parallel execution of long-running tasks.
 > Some subcommands such as `add` have their own usage documentation.
-> More information: <https://github.com/Nukesor/pueue>.
+> More information: <https://github.com/Nukesor/pueue#how-to-use-it>.
 
-- Show general help and available subcommands:
+- Add a command to the task list:
 
-`pueue --help`
+`pueue add -- "{{command}}"`
 
-- Execute a pueue subcommand:
+- List tasks in the task list:
 
-`pueue {{subcommand}}`
+`pueue status`
 
-- Check the version of pueue:
+- Send data to a task's `stdin`:
 
-`pueue --version`
+`pueue send {{task_id}} "{{hello}}"`
+
+- View a task's `stdout` and `stderr`, as well as basic information about that task:
+
+`pueue log {{task_id}}`
+
+- Create a task group:
+
+`pueue group --add {{group_name}}`
+
+- Kill a task:
+
+`pueue kill {{task_id}}`
+
+- Set maximum amount of parallel tasks (queued tasks are started as needed to meet this limit):
+
+`pueue parallel {{number_of_parallel_tasks}}`
+
+- Edit the command line of a stopped task in the default editor (as specified by `$EDITOR`):
+
+`pueue edit {{task_id}}`

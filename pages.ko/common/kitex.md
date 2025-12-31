@@ -2,7 +2,7 @@
 
 > Go RPC 프레임워크 Kitex에서 제공하는 코드 생성 도구.
 > Kitex는 thrift와 protobuf IDL을 모두 수용하며, 서버 측 프로젝트의 스켈레톤을 생성하는 것을 지원합니다.
-> 더 많은 정보: <https://www.cloudwego.io>.
+> 더 많은 정보: <https://www.cloudwego.io/docs/kitex/tutorials/code-gen/code_generation/#generate-code>.
 
 - 프로젝트가 `$GOPATH`에 있을 때 클라이언트 코드 생성:
 

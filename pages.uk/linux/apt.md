@@ -35,4 +35,4 @@
 
 - Відобразити список усіх встановлених пакетів:
 
-`apt list --installed`
+`apt list {{[-i|--installed]}}`

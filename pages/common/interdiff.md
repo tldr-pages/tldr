@@ -1,7 +1,7 @@
 # interdiff
 
 > Show differences between two diff files.
-> More information: <https://freshmeat.sourceforge.net/projects/patchutils>.
+> More information: <https://sourceforge.net/directory/software-development/>.
 
 - Compare diff files:
 
@@ -9,4 +9,4 @@
 
 - Compare diff files, ignoring whitespace:
 
-`interdiff -w {{old_file}} {{new_file}}`
+`interdiff {{[-w|--ignore-all-space]}} {{old_file}} {{new_file}}`

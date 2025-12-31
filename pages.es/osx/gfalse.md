@@ -1,7 +1,7 @@
 # gfalse
 
-> Este comando es un alias de `-p linux false`.
+> Este comando es un alias de `false`.
 
-- Muestra la documentación del comando original:
+- Vea la documentación para el comando original:
 
-`tldr -p linux false`
+`tldr false`

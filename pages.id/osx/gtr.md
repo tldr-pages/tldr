@@ -1,7 +1,7 @@
 # gtr
 
-> Perintah ini merupakan alias dari `-p linux tr`.
+> Perintah ini merupakan alias dari `tr`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux tr`
+`tldr tr`

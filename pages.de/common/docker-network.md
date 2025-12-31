@@ -9,7 +9,7 @@
 
 - Erzeuge ein benutzerdefiniertes Netzwerk:
 
-`docker network create --driver {{treiber_name}} {{netzwerk_name}}`
+`docker network create {{[-d|--driver]}} {{treiber_name}} {{netzwerk_name}}`
 
 - Zeige detaillierte Informationen der mit Leerzeichen separierten Netzwerke an:
 

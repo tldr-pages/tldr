@@ -1,7 +1,7 @@
 # grmdir
 
-> Cette commande est un alias de `-p linux rmdir`.
+> Cette commande est un alias de `rmdir`.
 
 - Voir la documentation de la commande originale :
 
-`tldr -p linux rmdir`
+`tldr rmdir`

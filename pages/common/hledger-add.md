@@ -9,7 +9,7 @@
 
 - Add transactions to `2024.journal`, but also load `2023.journal` for completions:
 
-`hledger add --file {{path/to/2024.journal}} --file {{path/to/2023.journal}}`
+`hledger add {{[-f|--file]}} {{path/to/2024.journal}} {{[-f|--file]}} {{path/to/2023.journal}}`
 
 - Provide answers for the first four prompts:
 
@@ -17,7 +17,7 @@
 
 - Show `add`'s options and documentation with `$PAGER`:
 
-`hledger add --help`
+`hledger add {{[-h|--help]}}`
 
 - Show `add`'s documentation with `info` or `man` if available:
 

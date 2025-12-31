@@ -14,19 +14,19 @@
 
 - Call a specific target, executing 4 jobs at a time in parallel:
 
-`make -j{{4}} {{target}}`
+`make {{[-j|--jobs]}} 4 {{target}}`
 
 - Use a specific Makefile:
 
-`make --file {{path/to/file}}`
+`make {{[-f|--file]}} {{path/to/file}}`
 
 - Execute make from another directory:
 
-`make --directory {{path/to/directory}}`
+`make {{[-C|--directory]}} {{path/to/directory}}`
 
 - Force making of a target, even if source files are unchanged:
 
-`make --always-make {{target}}`
+`make {{[-B|--always-make]}} {{target}}`
 
 - Override a variable defined in the Makefile:
 
@@ -34,4 +34,4 @@
 
 - Override variables defined in the Makefile by the environment:
 
-`make --environment-overrides {{target}}`
+`make {{[-e|--environment-overrides]}} {{target}}`

@@ -1,7 +1,7 @@
 # gping
 
-> Perintah ini merupakan alias dari `-p linux ping`.
+> Perintah ini merupakan alias dari `ping`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux ping`
+`tldr {{[-p|--platform]}} common ping`

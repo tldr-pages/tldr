@@ -2,7 +2,7 @@
 
 > Secure Boot Machine Owner Keys (MOK)를 구성.
 > Secure Boot 활성화/비활성화 또는 키 등록과 같은 일부 작업은 재부팅이 필요합니다.
-> 더 많은 정보: <https://github.com/lcp/mokutil>.
+> 더 많은 정보: <https://manned.org/mokutil>.
 
 - Secure Boot가 활성화되어 있는지 표시:
 

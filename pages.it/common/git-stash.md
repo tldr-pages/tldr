@@ -5,15 +5,15 @@
 
 - Salva in un'area temporanea modifiche locali, tranne i file nuovi e non tracciati:
 
-`git stash push -m {{messaggio_di_stash_opzionale}}`
+`git stash push {{[-m|--message]}} {{messaggio_di_stash_opzionale}}`
 
 - Includi nello stash anche i file nuovi e non tracciati:
 
-`git stash -u`
+`git stash {{[-u|--include-untracked]}}`
 
 - Seleziona per lo stash parti di file modificati in modo interattivo:
 
-`git stash -p`
+`git stash {{[-p|--patch]}}`
 
 - Elenca tutti gli stash, mostrandone il nome, ramo relativo e messaggio:
 

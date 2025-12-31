@@ -1,28 +1,37 @@
 # ani-cli
 
-> Een cli om door anime te bladeren en deze te bekijken.
-> Meer informatie: <https://github.com/pystardust/ani-cli>.
+> Blader door anime en bekijk ze.
+> Zie ook: `animdl`.
+> Meer informatie: <https://manned.org/ani-cli>.
 
 - Zoek naar anime op naam:
 
-`ani-cli "{{anime_naam}}"`
+`ani-cli "{{anime_titel}}"`
 
-- Download aflevering:
+- Download een aflevering:
 
-`ani-cli -d "{{anime_naam}}"`
+`ani-cli {{[-d|--download]}} "{{anime_titel}}"`
+
+- Download een reeks van afleveringen:
+
+`ani-cli {{[-d|--download]}} {{[-r|--range]}} "{{1 6}}" "{{anime_title}}"`
+
+- Download de gehele serie (een reeks van alle afleveringen):
+
+`ani-cli {{[-d|--download]}} {{[-r|--range]}} "1 -1" "{{anime_titel}}"`
 
 - Gebruik VLC als de media player:
 
-`ani-cli -v "{{anime_naam}}"`
+`ani-cli {{[-v|--vlc]}} "{{anime_titel}}"`
 
-- Specificeer een aflevering om te kijken:
+- Bekjk een specifieke aflevering:
 
-`ani-cli -e {{afleveringnummer}} "{{anime_naam}}"`
+`ani-cli {{[-e|--episode]}} {{afleveringnummer}} "{{anime_titel}}"`
 
-- Bekijk anime uit je geschiedenis:
+- Bekijk anime verder uit je geschiedenis:
 
-`ani-cli -c`
+`ani-cli {{[-c|--continue]}}`
 
 - Update `ani-cli`:
 
-`ani-cli -U`
+`ani-cli {{[-U|--update]}}`

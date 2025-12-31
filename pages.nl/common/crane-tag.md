@@ -8,6 +8,6 @@
 
 `crane tag {{image_naam}} {{tag_naam}}`
 
-- Toon help:
+- Toon de help:
 
-`crane tag {{-h|--help}}`
+`crane tag {{[-h|--help]}}`

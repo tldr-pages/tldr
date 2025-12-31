@@ -1,7 +1,7 @@
 # mkdir
 
 > एक निर्देशिका बनाता है।
-> अधिक जानकारी: <https://www.gnu.org/software/coreutils/mkdir>।
+> अधिक जानकारी: <https://www.gnu.org/software/coreutils/manual/html_node/mkdir-invocation.html>।
 
 - वर्तमान निर्देशिका या दिए गए पथ में एक निर्देशिका बनाएँ:
 
@@ -9,4 +9,4 @@
 
 - निर्देशिका बनाएँ पुनरावर्ती (अंतर प्रविष्ट निर्देशिका बनाने के लिए उपयोगी):
 
-`mkdir {{-p|--parents}} {{निर्देशिका / का / पथ}}`
+`mkdir {{[-p|--parents]}} {{निर्देशिका / का / पथ}}`

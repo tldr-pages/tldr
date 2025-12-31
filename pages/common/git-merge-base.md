@@ -9,7 +9,7 @@
 
 - Print all best common ancestors of two commits:
 
-`git merge-base --all {{commit_1}} {{commit_2}}`
+`git merge-base {{[-a|--all]}} {{commit_1}} {{commit_2}}`
 
 - Check if a commit is an ancestor of a specific commit:
 

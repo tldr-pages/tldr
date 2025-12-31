@@ -1,7 +1,7 @@
 # pickle
 
 > Composer 기반의 PHP 확장 프로그램 설치 도구.
-> 더 많은 정보: <https://github.com/FriendsOfPHP/pickle>.
+> 더 많은 정보: <https://github.com/FriendsOfPHP/pickle#usage>.
 
 - 특정 PHP 확장 프로그램 설치:
 

@@ -1,12 +1,22 @@
 # compopt
 
 > Print or change the completion options for a command.
-> More information: <https://manned.org/compopt>.
+> `-o` means enabled and `+o` means disabled.
+> See also: `compgen`, `complete`.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-compopt>.
+
+- Print the completion options for given command:
+
+`compopt {{command}}`
+
+- Enable or disable a completion option of a command:
+
+`compopt {{-o|+o}} {{option1}} {{-o|+o}} {{option2}} {{command}}`
 
 - Print the options for the currently executing completion:
 
 `compopt`
 
-- Print the completion options for given command:
+- Enable or disable a completion option of a command:
 
-`compopt {{command}}`
+`compopt {{-o|+o}} {{option1}} {{-o|+o}} {{option2}}`

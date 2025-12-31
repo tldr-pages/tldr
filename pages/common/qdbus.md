@@ -1,7 +1,7 @@
 # qdbus
 
 > Inter-Process Communication (IPC) and Remote Procedure Calling (RPC) mechanism originally developed for Linux.
-> More information: <https://doc.qt.io/qt-5/qtdbus-index.html>.
+> More information: <https://doc.qt.io/qt-6/qtdbus-index.html>.
 
 - List available service names:
 
@@ -13,11 +13,11 @@
 
 - List methods, signals and properties available on a specific object:
 
-`qdbus {{service_name}} {{/path/to/object}}`
+`qdbus {{service_name}} /{{path/to/object}}`
 
 - Execute a specific method passing arguments and display the returned value:
 
-`qdbus {{service_name}} {{/path/to/object}} {{method_name}} {{argument1}} {{argument2}}`
+`qdbus {{service_name}} /{{path/to/object}} {{method_name}} {{argument1 argument2 ...}}`
 
 - Display the current brightness value in a KDE Plasma session:
 
@@ -31,6 +31,6 @@
 
 `qdbus {{org.kde.kglobalaccel}} {{/component/kmix}} {{invokeShortcut}} "{{increase_volume}}"`
 
-- Gracefully log out and then do nothing, reboot or shut down:
+- Gracefully log out and then do nothing, reboot, or shut down:
 
 `qdbus {{org.kde.Shutdown}} {{/Shutdown}} {{logout|logoutAndReboot|logoutAndShutdown}}`

@@ -1,7 +1,7 @@
 # pueue status
 
 > Display the current status of all tasks.
-> More information: <https://github.com/Nukesor/pueue>.
+> More information: <https://github.com/Nukesor/pueue#how-to-use-it>.
 
 - Show the status of all tasks:
 
@@ -9,4 +9,4 @@
 
 - Show the status of a specific group:
 
-`pueue status --group {{group_name}}`
+`pueue status {{[-g|--group]}} {{group_name}}`

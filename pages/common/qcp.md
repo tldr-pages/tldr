@@ -1,7 +1,7 @@
 # qcp
 
 > Copy files using the default text editor to define the filenames.
-> More information: <https://www.nongnu.org/renameutils/>.
+> More information: <https://manned.org/qcp>.
 
 - Copy a single file (open an editor with the source filename on the left and the target filename on the right):
 
@@ -13,4 +13,4 @@
 
 - Copy files, but swap the positions of the source and the target filenames in the editor:
 
-`qcp --option swap {{*.jpg}}`
+`qcp {{[-o|--option]}} swap {{*.jpg}}`

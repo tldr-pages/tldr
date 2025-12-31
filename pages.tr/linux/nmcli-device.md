@@ -1,7 +1,7 @@
 # nmcli device
 
 > NetworkManager ile donanım aygıtı yönetimi.
-> Daha fazla bilgi için: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
+> Daha fazla bilgi için: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html#device>.
 
 - Tüm ağ arayüzlerinin durumlarını yazdır:
 

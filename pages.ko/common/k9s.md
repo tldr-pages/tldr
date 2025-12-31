@@ -13,8 +13,8 @@
 
 - 주어진 Kubernetes 네임스페이스를 사용하여 클러스터 관리:
 
-`k9s --namespace {{Kubernetes_네임스페이스}} --cluster {{클러스터_이름}}`
+`k9s {{[-n|--namespace]}} {{Kubernetes_네임스페이스}} --cluster {{클러스터_이름}}`
 
 - pod 보기로 k9s를 실행하고 디버그 로깅을 활성화하여 클러스터 관리:
 
-`k9s --command {{pod}} --logLevel debug --cluster {{클러스터_이름}}`
+`k9s {{[-c|--command]}} {{pod}} {{[-l|--logLevel]}} debug --cluster {{클러스터_이름}}`

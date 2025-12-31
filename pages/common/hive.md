@@ -1,6 +1,6 @@
 # hive
 
-> CLI tool for Apache Hive.
+> Tool for Apache Hive.
 > More information: <https://cwiki.apache.org/confluence/display/Hive/LanguageManual+Cli>.
 
 - Start a Hive interactive shell:
@@ -13,7 +13,7 @@
 
 - Run a HiveQL file with a variable substitution:
 
-`hive --define {{key}}={{value}} -f {{path/to/file.sql}}`
+`hive {{[-d|--define]}} {{key}}={{value}} -f {{path/to/file.sql}}`
 
 - Run a HiveQL with HiveConfig (e.g. `mapred.reduce.tasks=32`):
 

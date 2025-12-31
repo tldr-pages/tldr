@@ -1,7 +1,7 @@
 # ani-cli
 
 > Une CLI pour chercher et regarder des animés.
-> Plus d'informations : <https://github.com/pystardust/ani-cli>.
+> Plus d'informations : <https://manned.org/ani-cli>.
 
 - Cherche un anime par nom :
 

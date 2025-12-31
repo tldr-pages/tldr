@@ -1,7 +1,7 @@
 # shuf
 
 > Genereer willekeurige permutaties.
-> Meer informatie: <https://keith.github.io/xcode-man-pages/shuf.1.html>.
+> Meer informatie: <https://manpagez.com/man/1/shuf/>.
 
 - Wijzig willekeurig de volgorde van regels in een bestand en toon het resultaat:
 
@@ -13,7 +13,7 @@
 
 - Schrijf de uitvoer naar een ander bestand:
 
-`shuf {{pad/naar/invoer_bestand}} --output={{pad/naar/uitvoer_bestand}}`
+`shuf {{pad/naar/invoer_bestand}} --output {{pad/naar/uitvoer_bestand}}`
 
 - Genereer willekeurige getallen in het bereik van 1 tot 10:
 

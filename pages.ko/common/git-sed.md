@@ -2,7 +2,7 @@
 
 > git으로 관리되는 파일에서 sed를 사용하여 패턴을 대체.
 > `git-extras`의 일부.
-> 더 많은 정보: <https://github.com/tj/git-extras/blob/master/Commands.md#git-sed>.
+> 더 많은 정보: <https://manned.org/git-sed>.
 
 - 현재 저장소에서 지정된 텍스트 대체:
 

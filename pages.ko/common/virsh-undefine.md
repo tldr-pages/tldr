@@ -1,4 +1,4 @@
-# virsh-undefine
+# virsh undefine
 
 > 가상 머신을 삭제합니다.
 > 더 많은 정보: <https://manned.org/virsh>.

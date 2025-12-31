@@ -1,4 +1,4 @@
-# Vertical bar
+# |
 
 > Pipe data between programs.
 > More information: <https://gnu.org/software/bash/manual/bash.html#Pipelines>.

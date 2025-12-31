@@ -9,4 +9,4 @@
 
 - Display help:
 
-`gcrane help {{-h|--help}}`
+`gcrane help {{[-h|--help]}}`

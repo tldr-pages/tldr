@@ -14,7 +14,7 @@
 
 - Voeg een nieuw account toe (`--issuer` is optioneel):
 
-`ykman oath accounts add --issuer {{indiener}} {{naam}}`
+`ykman oath accounts add {{[-i|--issuer]}} {{indiener}} {{naam}}`
 
 - Toon alle accounts (met hun indiener):
 

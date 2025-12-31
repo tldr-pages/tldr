@@ -1,7 +1,7 @@
 # gau
 
 > Get All URLs: fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl for any domains.
-> More information: <https://github.com/lc/gau>.
+> More information: <https://github.com/lc/gau#usage>.
 
 - Fetch all URLs of a domain from AlienVault's Open Threat Exchange, the Wayback Machine, Common Crawl, and URLScan:
 
@@ -13,7 +13,7 @@
 
 - Fetch all URLs of several domains from an input file, running multiple threads:
 
-`gau --threads {{4}} < {{path/to/domains.txt}}`
+`gau < {{path/to/domains.txt}} --threads {{4}}`
 
 - Write [o]utput results to a file:
 

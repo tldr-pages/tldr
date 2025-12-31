@@ -3,26 +3,30 @@
 > Remove files not tracked by Git from the working tree.
 > More information: <https://git-scm.com/docs/git-clean>.
 
-- Delete untracked files:
-
-`git clean`
-
 - Interactively delete untracked files:
 
-`git clean {{-i|--interactive}}`
+`git clean {{[-i|--interactive]}}`
 
 - Show which files would be deleted without actually deleting them:
 
-`git clean --dry-run`
+`git clean {{[-n|--dry-run]}}`
 
-- Forcefully delete untracked files:
+- Immediately force deletion of all untracked files:
 
-`git clean {{-f|--force}}`
+`git clean {{[-f|--force]}}`
 
-- Forcefully delete untracked [d]irectories:
+- Delete untracked [d]irectories:
 
-`git clean {{-f|--force}} -d`
+`git clean {{[-f|--force]}} -d`
 
-- Delete untracked files, including e[x]cluded files (files ignored in `.gitignore` and `.git/info/exclude`):
+- Delete only untracked files matching specific paths or glob patterns:
 
-`git clean -x`
+`git clean {{[-f|--force]}} -- {{path/to/directory}} '{{*.ext}}'`
+
+- Delete untracked files except those matching the given patterns:
+
+`git clean {{[-f|--force]}} {{[-e|--exclude]}} '{{*.ext}}' {{[-e|--exclude]}} {{path/to/directory}}/`
+
+- Delete untracked files and e[x]cluded files (those listed in `.gitignore` and `.git/info/exclude`):
+
+`git clean {{[-f|--force]}} -x`

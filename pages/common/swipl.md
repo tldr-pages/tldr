@@ -1,7 +1,7 @@
 # swipl
 
 > SWI-Prolog - A comprehensive free Prolog environment.
-> More information: <https://www.swi-prolog.org/>.
+> More information: <https://www.swi-prolog.org/pldoc/man?section=cmdline>.
 
 - Start an interactive session:
 

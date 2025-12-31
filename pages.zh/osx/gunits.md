@@ -1,7 +1,7 @@
 # gunits
 
-> 这是 `-p linux units` 命令的一个别名。
+> 这是 `units` 命令的一个别名。
 
 - 原命令的文档在：
 
-`tldr -p linux units`
+`tldr units`

@@ -1,7 +1,7 @@
 # gocryptfs
 
 > Go로 작성된 암호화된 오버레이 파일 시스템.
-> 더 많은 정보: <https://github.com/rfjakob/gocryptfs>.
+> 더 많은 정보: <https://github.com/rfjakob/gocryptfs#use>.
 
 - 암호화된 파일 시스템 초기화:
 

@@ -2,7 +2,7 @@
 
 > Resolve domeinnamen, IPv4 en IPv6 adressen, DNS resource records en services.
 > Bekijk en herconfigureer de DNS resolver.
-> Meer informatie: <https://www.freedesktop.org/software/systemd/man/resolvectl.html>.
+> Meer informatie: <https://www.freedesktop.org/software/systemd/man/latest/resolvectl.html>.
 
 - Toon DNS instellingen:
 
@@ -26,7 +26,7 @@
 
 - Verkrijg een MX record van een domein:
 
-`resolvectl --legend={{no}} --type={{MX}} query {{domein}}`
+`resolvectl --legend {{no}} {{[-t|--type]}} {{MX}} query {{domein}}`
 
 - Resolve een SRV record, bijvoorbeeld _xmpp-server._tcp gmail.com:
 

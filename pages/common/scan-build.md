@@ -1,6 +1,6 @@
 # scan-build
 
-> Command-line utility to run a static analyzer over a codebase as part of performing a regular build.
+> Run a static analyzer over a codebase as part of performing a regular build.
 > More information: <https://clang-analyzer.llvm.org/scan-build.html>.
 
 - Build and analyze the project in the current directory:

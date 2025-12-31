@@ -1,7 +1,7 @@
 # chars
 
 > 다양한 ASCII 및 유니코드 문자 및 코드 포인트에 대한 이름 및 코드 표시.
-> 더 많은 정보: <https://github.com/antifuchs/chars>.
+> 더 많은 정보: <https://github.com/boinkor-net/chars#running>.
 
 - 밸류 값으로 문자 검색:
 

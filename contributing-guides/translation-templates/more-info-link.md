@@ -1,6 +1,6 @@
 # More information link
 
-For all our pages we suggest having a [more information link](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/style-guide.md#more-information-links) which contains a link 
+For all our pages we suggest having a [more information link](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/style-guide.md#more-information-links) which contains a link
 to the official documentation of the command-line reference or the man page.
 This file contains a list of all translations of the more information link template from
 [set-more-info-link.py](https://github.com/tldr-pages/tldr/blob/main/scripts/set-more-info-link.py#L66-L102).
@@ -14,6 +14,7 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 [cs](#cs) •
 [da](#da) •
 [de](#de) •
+[el](#el) •
 [es](#es) •
 [fa](#fa) •
 [fi](#fi) •
@@ -33,7 +34,6 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 [pt_PT](#pt_pt) •
 [ro](#ro) •
 [ru](#ru) •
-[sh](#sh) •
 [sr](#sr) •
 [sv](#sv) •
 [ta](#ta) •
@@ -110,6 +110,14 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 
 ---
 
+### el
+
+```markdown
+> Περισσότερες πληροφορίες: <https://example.com>.
+```
+
+---
+
 ### es
 
 ```markdown
@@ -129,7 +137,7 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 ### fi
 
 ```markdown
-> Lisätietoja: <https://example.com>.
+> Lisätietoa: <https://example.com>.
 ```
 
 ---
@@ -169,7 +177,7 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 ### ja
 
 ```markdown
-> 詳しくはこちら: <https://example.com>
+> もっと詳しく: <https://example.com>。
 ```
 
 ---
@@ -262,14 +270,6 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 
 ---
 
-### sh
-
-```markdown
-> Više informacija: <https://example.com>.
-```
-
----
-
 ### sr
 
 ```markdown
@@ -329,7 +329,7 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 ### zh
 
 ```markdown
-> 更多信息：<https://example.com>.
+> 更多信息：<https://example.com>。
 ```
 
 ---
@@ -337,7 +337,7 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 ### zh_TW
 
 ```markdown
-> 更多資訊：<https://example.com>.
+> 更多資訊：<https://example.com>。
 ```
 
 ---

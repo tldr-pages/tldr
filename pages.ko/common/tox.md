@@ -14,7 +14,7 @@
 
 - 사용 가능한 환경 나열:
 
-`tox --listenvs-all`
+`tox {{[-a|--listenvs-all]}}`
 
 - 특정 환경에서 테스트 실행 (예: Python 3.6):
 
@@ -22,4 +22,4 @@
 
 - 가상 환경을 강제로 재생성:
 
-`tox --recreate -e {{py27}}`
+`tox {{[-r|--recreate]}} -e {{py27}}`

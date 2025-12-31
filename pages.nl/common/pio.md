@@ -6,11 +6,11 @@
 
 - Toon de help en toon subcommando's:
 
-`pio --help`
+`pio {{[-h|--help]}}`
 
 - Toon de help voor een specifiek subcommando:
 
-`pio {{subcommando}} --help`
+`pio {{subcommando}} {{[-h|--help]}}`
 
 - Toon de versie:
 

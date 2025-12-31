@@ -1,7 +1,7 @@
 # tlmgr repository
 
 > TeX Live 설치의 저장소를 관리합니다.
-> 더 많은 정보: <https://www.tug.org/texlive/tlmgr.html>.
+> 더 많은 정보: <https://www.tug.org/texlive/doc/tlmgr.html#repository>.
 
 - 모든 설정된 저장소와 해당 태그(설정된 경우)를 나열:
 

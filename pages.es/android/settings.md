@@ -1,7 +1,7 @@
 # settings
 
 > Muestra información sobre el sistema operativo Android.
-> Más información: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
+> Más información: <https://web.archive.org/web/20240525010124/https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
 
 - Muestra una lista de configuraciones en el espacio de nombres `global`:
 

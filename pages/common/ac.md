@@ -1,7 +1,7 @@
 # ac
 
 > Print statistics on how long users have been connected.
-> More information: <https://man.openbsd.org/ac>.
+> More information: <https://manned.org/ac.8>.
 
 - Print how long the current user has been connected in hours:
 

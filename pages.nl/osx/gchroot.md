@@ -1,7 +1,7 @@
 # gchroot
 
-> Dit commando is een alias van `-p linux chroot`.
+> Dit commando is een alias van GNU `chroot`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux chroot`
+`tldr chroot`

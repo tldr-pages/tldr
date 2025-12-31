@@ -5,16 +5,16 @@
 
 - 소스에서 대상으로 이미지 복사:
 
-`gcrane {{cp|copy}} {{소스}} {{대상}}`
+`gcrane {{[cp|copy]}} {{소스}} {{대상}}`
 
 - 최대 동시 복사본 수를 설정, 기본값은 20:
 
-`gcrane copy {{소스}} {{대상}} {{-j|--jobs}} {{nr_of_copies}}`
+`gcrane copy {{소스}} {{대상}} {{[-j|--jobs]}} {{nr_of_copies}}`
 
 - 레포지토리를 통해 반복할지 여부 문의:
 
-`grance copy {{소스}} {{대상}} {{-r|--recursive}}`
+`grance copy {{소스}} {{대상}} {{[-r|--recursive]}}`
 
 - 도움말 표시:
 
-`gcrane copy {{-h|--help}}`
+`gcrane copy {{[-h|--help]}}`

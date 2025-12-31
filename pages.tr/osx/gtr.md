@@ -1,7 +1,7 @@
 # gtr
 
-> Bu komut `-p linux tr` için bir takma addır.
+> Bu komut `tr` için bir takma addır.
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux tr`
+`tldr tr`

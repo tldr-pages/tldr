@@ -1,8 +1,8 @@
 # qm listsnapshot
 
 > List snapshots of virtual machines.
-> More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
+> More information: <https://pve.proxmox.com/pve-docs/qm.1.html#cli_qm_listsnapshot>.
 
 - List all snapshots of a specific virtual machine:
 
-`qm listsnapshot {{vm_id}}`
+`qm {{[lists|listsnapshot]}} {{vm_id}}`

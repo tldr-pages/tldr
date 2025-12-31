@@ -2,7 +2,7 @@
 
 > Un reproductor de audio de código abierto. Basado indirectamente en XMMS.
 > Vea también: `audtool`, `clementine`, `mpc`, `ncmpcpp`.
-> Más información: <https://audacious-media-player.org>.
+> Más información: <https://manned.org/audacious>.
 
 - Inicia la interfaz gráfica:
 

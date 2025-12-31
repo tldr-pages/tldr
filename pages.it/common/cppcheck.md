@@ -2,7 +2,7 @@
 
 > Strumento di analisi statica per codice C/C++.
 > Piuttosto che sugli errori di sintassi, si concentra su tipi di bug che normalmente non vengono rilevati dai compilatori.
-> Maggiori informazioni: <https://cppcheck.sourceforge.net>.
+> Maggiori informazioni: <https://manned.org/cppcheck>.
 
 - Controlla la directory corrente ricorsivamente, mostrando il progresso a schermo e loggando i messaggi di errore in un file:
 

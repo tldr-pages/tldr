@@ -9,15 +9,15 @@
 
 - Mount a device with a specific filesystem type to `/media/label`:
 
-`pmount --type {{filesystem}} {{/dev/to/block/device}} {{label}}`
+`pmount {{[-t|--type]}} {{filesystem}} {{/dev/to/block/device}} {{label}}`
 
 - Mount a CD-ROM (filesystem type ISO9660) in read-only mode:
 
-`pmount --type {{iso9660}} --read-only {{/dev/cdrom}}`
+`pmount {{[-t|--type]}} iso9660 {{[-r|--read-only]}} {{/dev/cdrom}}`
 
 - Mount an NTFS-formatted disk, forcing read-write access:
 
-`pmount --type {{ntfs}} --read-write {{/dev/sdX}}`
+`pmount {{[-t|--type]}} ntfs {{[-w|--read-write]}} {{/dev/sdX}}`
 
 - Display all mounted removable devices:
 

@@ -2,7 +2,7 @@
 
 > Verwalte installierte Versionen von verschiedenen Paketen.
 > Plugins (z.B. asdf-node) werden für spezifische Pakete verwendet.
-> Weitere Informationen: <https://asdf-vm.com>.
+> Weitere Informationen: <https://asdf-vm.com/manage/commands.html>.
 
 - Liste alle verfügbaren Plugins auf:
 
@@ -22,8 +22,8 @@
 
 - Lege die globale Version für ein Paket fest:
 
-`asdf global {{name}} {{version}}`
+`asdf set -u {{name}} {{version}}`
 
 - Lege die lokale Version für ein Paket fest:
 
-`asdf local {{name}} {{version}}`
+`asdf set {{name}} {{version}}`

@@ -1,4 +1,4 @@
-# virsh-undefine
+# virsh undefine
 
 > Excluir uma máquina virtual.
 > Mais informações: <https://manned.org/virsh>.

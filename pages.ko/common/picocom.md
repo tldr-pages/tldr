@@ -5,7 +5,7 @@
 
 - 지정된 전송 속도로 시리얼 콘솔에 연결:
 
-`picocom {{/dev/ttyXYZ}} --baud {{전송_속도}}`
+`picocom {{/dev/ttyXYZ}} {{[-b|--baud]}} {{전송_속도}}`
 
 - 특수 문자 매핑 (예: `LF`를 `CRLF`로):
 

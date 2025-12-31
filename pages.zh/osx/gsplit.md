@@ -1,7 +1,7 @@
 # gsplit
 
-> 这是 `-p linux split` 命令的一个别名。
+> 这是 `split` 命令的一个别名。
 
 - 原命令的文档在：
 
-`tldr -p linux split`
+`tldr {{[-p|--platform]}} common split`

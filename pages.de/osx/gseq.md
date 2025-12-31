@@ -1,7 +1,7 @@
 # gseq
 
-> Dieser Befehl ist ein Alias von `-p linux seq`.
+> Dieser Befehl ist ein Alias von `seq`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 
-`tldr -p linux seq`
+`tldr seq`

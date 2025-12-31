@@ -1,7 +1,7 @@
 # look
 
 > Display lines beginning with a prefix in a sorted file.
-> Note: the lines in the file must be sorted.
+> Note: The lines in the file must be sorted.
 > See also: `grep`, `sort`.
 > More information: <https://man.openbsd.org/look>.
 
@@ -9,14 +9,14 @@
 
 `look {{prefix}} {{path/to/file}}`
 
-- Case-insensitively ([f]) search only on alphanumeric characters ([d]):
+- Case-insensitively search only on alphanumeric characters:
 
-`look -f -d {{prefix}} {{path/to/file}}`
+`look {{[-f|--ignore-case]}} {{[-d|--alphanum]}} {{prefix}} {{path/to/file}}`
 
-- Specify a string [t]ermination character (space by default):
+- Specify a string termination character (space by default):
 
-`look -t {{,}}`
+`look {{[-t|--terminate]}} {{,}}`
 
-- Search in `/usr/share/dict/words` (`-d` and `-f` are assumed):
+- Search in `/usr/share/dict/words` (`--alphanum` and `--ignore-case` are assumed):
 
 `look {{prefix}}`

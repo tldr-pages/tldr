@@ -1,7 +1,7 @@
 # gifconfig
 
-> Perintah ini merupakan alias dari `-p linux ifconfig`.
+> Perintah ini merupakan alias dari `ifconfig`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux ifconfig`
+`tldr ifconfig`

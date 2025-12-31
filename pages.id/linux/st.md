@@ -1,7 +1,7 @@
 # st
 
 > Emulator terminal simpel untuk sistem window X.
-> Informasi lebih lanjut: <https://st.suckless.org>.
+> Informasi lebih lanjut: <https://manned.org/st>.
 
 - Membuka sebuah terminal:
 
@@ -17,8 +17,8 @@
 
 - Membesarkan/mengecilkan ukuran font:
 
-`<Ctrl> + <Shift> + {{Page Up|Page Down}}`
+`<Ctrl Shift {{PageUp|PageDown}}>`
 
 - Copy/paste dari clipboard:
 
-`<Ctrl> + <Shift> + {{C|V}}`
+`<Ctrl Shift {{c|v}}>`

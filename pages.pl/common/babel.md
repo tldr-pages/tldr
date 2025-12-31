@@ -1,7 +1,7 @@
 # babel
 
 > Transpiler, który konwertuje kod ze składni JavaScript ES6/ES7 na składnię ES5.
-> Więcej informacji: <https://babeljs.io/>.
+> Więcej informacji: <https://babeljs.io/docs/babel-cli>.
 
 - Transpiluj określony plik wejściowy i wypisz dane wyjściowe do `stdout`:
 

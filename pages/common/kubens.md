@@ -1,7 +1,7 @@
 # kubens
 
 > Utility to switch between Kubernetes namespaces.
-> More information: <https://github.com/ahmetb/kubectx>.
+> More information: <https://manned.org/kubens>.
 
 - List the namespaces:
 

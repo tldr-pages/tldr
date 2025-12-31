@@ -1,29 +1,28 @@
 # nmcli radio
 
 > Toon de status van radioschakelaars of schakel ze in/uit via NetworkManager.
-> Dit subcommando kan ook aangeroepen worden met `nmcli r`.
-> Meer informatie: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
+> Meer informatie: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html#radio>.
 
 - Toon de status van Wi-Fi:
 
-`nmcli radio wifi`
+`nmcli {{[r|radio]}} {{[w|wifi]}}`
 
 - Zet Wi-Fi aan of uit:
 
-`nmcli radio wifi {{on|off}}`
+`nmcli {{[r|radio]}} {{[w|wifi]}} {{on|off}}`
 
 - Toon de status van WWAN:
 
-`nmcli radio wwan`
+`nmcli {{[r|radio]}} {{[ww|wwan]}}`
 
 - Zet WWAN aan of uit:
 
-`nmcli radio wwan {{on|off}}`
+`nmcli {{[r|radio]}} {{[ww|wwan]}} {{on|off}}`
 
 - Toon de status van beide switches:
 
-`nmcli radio all`
+`nmcli {{[r|radio]}}`
 
 - Zet beide switches aan of uit:
 
-`nmcli radio all {{on|off}}`
+`nmcli {{[r|radio]}} {{[a|all]}} {{on|off}}`

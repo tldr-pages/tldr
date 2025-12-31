@@ -1,7 +1,7 @@
 # cbt
 
 > Utility for reading data from Google Cloud's Bigtable.
-> More information: <https://cloud.google.com/bigtable/docs/cbt-reference>.
+> More information: <https://docs.cloud.google.com/bigtable/docs/cbt-reference>.
 
 - List tables in the current project:
 
@@ -19,7 +19,7 @@
 
 `cbt lookup "{{table_name}}" "{{row_key}}" columns="{{family1:qualifier1,family2:qualifier2,...}}"`
 
-- Search up to 5 rows in the current project by a specific regex pattern and print them:
+- Search up to 5 rows in the current project by a specific `regex` pattern and print them:
 
 `cbt read "{{table_name}}" regex="{{row_key_pattern}}" count={{5}}`
 

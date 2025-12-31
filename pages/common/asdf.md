@@ -1,7 +1,7 @@
 # asdf
 
-> Command-line interface for managing versions of different packages.
-> More information: <https://asdf-vm.com>.
+> Manage versions of different packages.
+> More information: <https://asdf-vm.com/manage/commands.html>.
 
 - List all available plugins:
 
@@ -21,8 +21,12 @@
 
 - Set global version for a package:
 
-`asdf global {{name}} {{version}}`
+`asdf set -u {{name}} {{version}}`
 
 - Set local version for a package:
 
-`asdf local {{name}} {{version}}`
+`asdf set {{name}} {{version}}`
+
+- See the current version used for a package:
+
+`asdf current {{name}}`

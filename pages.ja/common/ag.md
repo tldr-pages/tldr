@@ -1,7 +1,7 @@
 # ag
 
 > Silver Searcher と呼ばれます。`ack` コマンドに似ていますが、より高速化を目指したコマンドです。
-> 詳しくはこちら: <https://github.com/ggreer/the_silver_searcher>
+> もっと詳しく: <https://manned.org/ag>。
 
 - "foo"という文字列が含まれるファイルを検索し、コンテキスト内でマッチした行を出力する:
 

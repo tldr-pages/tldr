@@ -1,7 +1,7 @@
 # speedcrunch
 
 > A high-precision scientific calculator.
-> More information: <https://www.speedcrunch.org>.
+> More information: <https://heldercorreia.bitbucket.io/speedcrunch/userguide/index.html>.
 
 - Start SpeedCrunch:
 
@@ -9,28 +9,28 @@
 
 - Copy the result of the most recent calculation:
 
-`<Ctrl> + R`
+`<Ctrl r>`
 
 - Open the formula book:
 
-`<Ctrl> + 1`
+`<Ctrl 1>`
 
 - Clear the calculator of recent calculations:
 
-`<Ctrl> + N`
+`<Ctrl n>`
 
 - Wrap highlighted in parentheses (defaults to wrapping all if nothing selected):
 
-`<Ctrl> + P`
+`<Ctrl p>`
 
 - Load a speedcrunch session:
 
-`<Ctrl> + L`
+`<Ctrl l>`
 
 - Save a speedcrunch session:
 
-`<Ctrl> + S`
+`<Ctrl s>`
 
 - Toggle keypad:
 
-`<Ctrl> + K`
+`<Ctrl k>`

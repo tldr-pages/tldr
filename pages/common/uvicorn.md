@@ -1,7 +1,7 @@
 # uvicorn
 
 > Python ASGI HTTP Server, for asynchronous projects.
-> More information: <https://www.uvicorn.org/>.
+> More information: <https://www.uvicorn.org/settings/>.
 
 - Run Python web app:
 

@@ -9,19 +9,23 @@
 
 - Show detailed information about a device:
 
-`udisksctl info --block-device {{/dev/sdX}}`
+`udisksctl info {{[-b|--block-device]}} {{/dev/sdX}}`
 
 - Show detailed information about a device partition:
 
-`udisksctl info --block-device {{/dev/sdXN}}`
+`udisksctl info {{[-b|--block-device]}} {{/dev/sdXN}}`
 
 - Mount a device partition and prints the mount point:
 
-`udisksctl mount --block-device {{/dev/sdXN}}`
+`udisksctl mount {{[-b|--block-device]}} {{/dev/sdXN}}`
 
 - Unmount a device partition:
 
-`udisksctl unmount --block-device {{/dev/sdXN}}`
+`udisksctl unmount {{[-b|--block-device]}} {{/dev/sdXN}}`
+
+- Power off a device to safely remove it:
+
+`udisksctl power-off {{[-b|--block-device]}} {{/dev/sdX}}`
 
 - Monitor the daemon for events:
 

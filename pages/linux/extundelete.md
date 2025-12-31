@@ -1,10 +1,10 @@
 # extundelete
 
 > Recover deleted files from ext3 or ext4 partitions by parsing the journal.
-> See also `date` for Unix time information and `umount` for unmounting partitions.
-> More information: <https://extundelete.sourceforge.net>.
+> See also: `date`, `umount`.
+> More information: <https://extundelete.sourceforge.net/options.html>.
 
-- Restore all deleted files inside partition N on device X:
+- Restore all deleted files inside partition `N` on device `X`:
 
 `sudo extundelete {{/dev/sdXN}} --restore-all`
 

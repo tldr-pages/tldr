@@ -1,7 +1,7 @@
 # pycodestyle
 
 > Python 코드를 PEP 8 스타일 규칙에 맞게 검사.
-> 더 많은 정보: <https://pycodestyle.readthedocs.io>.
+> 더 많은 정보: <https://pycodestyle.pycqa.org/en/latest/intro.html#example-usage-and-output>.
 
 - 단일 파일의 스타일 검사:
 

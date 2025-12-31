@@ -1,7 +1,7 @@
 # yaa
 
 > Twórz i manipuluj archiwami YAA.
-> Więcej informacji: <https://keith.github.io/xcode-man-pages/yaa.1.html>.
+> Więcej informacji: <https://www.manpagez.com/man/1/yaa/>.
 
 - Utwórz archiwum z katalogu:
 

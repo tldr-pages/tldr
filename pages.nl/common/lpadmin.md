@@ -1,7 +1,7 @@
 # lpadmin
 
 > Configureer CUPS printers en klasses.
-> Bekijk ook: `lpoptions`.
+> Zie ook: `lpoptions`.
 > Meer informatie: <https://openprinting.github.io/cups/doc/man-lpadmin.html>.
 
 - Stel de standaard printer in:

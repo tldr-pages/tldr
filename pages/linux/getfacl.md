@@ -7,10 +7,10 @@
 
 `getfacl {{path/to/file_or_directory}}`
 
-- Display the file access control list with [n]umeric user and group IDs:
+- Display the file access control list with numeric user and group IDs:
 
-`getfacl --numeric {{path/to/file_or_directory}}`
+`getfacl {{[-n|--numeric]}} {{path/to/file_or_directory}}`
 
-- Display the file access control list with [t]abular output format:
+- Display the file access control list with tabular output format:
 
-`getfacl --tabular {{path/to/file_or_directory}}`
+`getfacl {{[-t|--tabular]}} {{path/to/file_or_directory}}`

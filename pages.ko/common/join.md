@@ -1,7 +1,7 @@
 # join
 
 > 두 정렬된 파일의 공통 필드를 기준으로 줄을 결합.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/join>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/join-invocation.html>.
 
 - 기본 필드(첫 번째 필드)를 기준으로 두 파일 결합:
 

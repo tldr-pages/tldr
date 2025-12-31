@@ -10,8 +10,8 @@
 
 - 각 단어의 첫 글자가 제공된 인자와 일치하는 암호 구문 생성:
 
-`xkcdpass -a {{두운}}`
+`xkcdpass {{[-a|--acrostic]}} {{두운}}`
 
 - 대화형으로 암호 생성:
 
-`xkcdpass -i`
+`xkcdpass {{[-i|--interactive]}}`

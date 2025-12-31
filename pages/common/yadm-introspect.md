@@ -1,4 +1,4 @@
-# yadm-introspect
+# yadm introspect
 
 > Look at data that is managed by `yadm`.
 > The purpose of introspection is to support command line completion.

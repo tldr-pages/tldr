@@ -10,8 +10,8 @@
 
 - Suppress all informational messages:
 
-`hipstopgm -quiet`
+`hipstopgm {{[-q|-quiet]}}`
 
 - Display version:
 
-`hipstopgm -version`
+`hipstopgm {{[-v|-version]}}`

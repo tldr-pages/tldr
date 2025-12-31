@@ -2,11 +2,11 @@
 
 > Buat daftar pelaku komit pada suatu repositori Git.
 > Bagian dari `git-extras`.
-> Informasi lebih lanjut: <https://github.com/tj/git-extras/blob/master/Commands.md#git-authors>.
+> Informasi lebih lanjut: <https://manned.org/git-authors>.
 
 - Tampilkan daftar pelaku komit menuju `stdout` daripada menuju ke file `AUTHORS`:
 
-`git authors --list`
+`git authors {{[-l|--list]}}`
 
 - Masukkan daftar pelaku komit menuju file `AUTHORS`, kemudian buka file tersebut pada aplikasi penyunting file teks default:
 

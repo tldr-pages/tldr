@@ -1,7 +1,7 @@
 # ulimit
 
 > 사용자 제한을 조회하고 설정.
-> 더 많은 정보: <https://manned.org/ulimit>.
+> 더 많은 정보: <https://www.gnu.org/software/bash/manual/bash.html#index-ulimit>.
 
 - 모든 사용자 제한의 속성 조회:
 

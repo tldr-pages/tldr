@@ -1,7 +1,7 @@
 # pest
 
 > A PHP testing framework with a focus on simplicity.
-> More information: <https://pestphp.com>.
+> More information: <https://pestphp.com/docs/cli-api-reference>.
 
 - Initialize a standard Pest configuration in the current directory:
 

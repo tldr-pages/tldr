@@ -1,7 +1,7 @@
 # git switch
 
 > Passa ad altri rami. Richiede versioni di Git successive alla 2.23.
-> Vedi anche `git checkout`.
+> Vedi anche: `git checkout`.
 > Maggiori informazioni: <https://git-scm.com/docs/git-switch>.
 
 - Passa ad un altro ramo esistente:
@@ -10,11 +10,11 @@
 
 - Crea un nuovo ramo e passa a quel ramo:
 
-`git switch --create {{nome_ramo}}`
+`git switch {{[-c|--create]}} {{nome_ramo}}`
 
 - Crea un nuovo ramo a partire da un commit esistente e passa a quel ramo:
 
-`git switch --create {{nome_ramo}} {{commit}}`
+`git switch {{[-c|--create]}} {{nome_ramo}} {{commit}}`
 
 - Torna al ramo precedente:
 
@@ -26,4 +26,4 @@
 
 - Passa ad un ramo e uniscilo automaticamente al ramo corrente, include le modifiche non committate:
 
-`git switch --merge {{nome_ramo}}`
+`git switch {{[-m|--merge]}} {{nome_ramo}}`

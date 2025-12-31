@@ -1,7 +1,7 @@
 # nasm
 
 > The Netwide Assembler, a portable 80x86 assembler.
-> More information: <https://nasm.us>.
+> More information: <https://www.nasm.us/xdoc/3.01/html/nasm02.html>.
 
 - Assemble `source.asm` into a binary file `source`, in the (default) raw binary format:
 
@@ -21,4 +21,4 @@
 
 - Add a directory (must be written with trailing slash) to the include file search path before assembling:
 
-`nasm -i {{path/to/include_dir/}} {{source.asm}}`
+`nasm -i {{path/to/include_directory}}/ {{source.asm}}`

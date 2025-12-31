@@ -1,7 +1,7 @@
 # grsh
 
-> To polecenie jest aliasem `-p linux rsh`.
+> To polecenie jest aliasem GNU `rsh`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux rsh`
+`tldr {{[-p|--platform]}} linux rsh`

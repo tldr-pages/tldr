@@ -1,8 +1,8 @@
 # sed
 
 > Pas tekst aan in een op een scriptbare manier.
-> Bekijk ook: `awk`, `ed`.
-> Meer informatie: <https://man.openbsd.org/sed.1>.
+> Zie ook: `awk`, `ed`.
+> Meer informatie: <https://man.openbsd.org/sed>.
 
 - Vervang alle `apple` (basis regex) met `mango` (basis regex) in alle invoerregels en toon het resultaat in `stdout`:
 

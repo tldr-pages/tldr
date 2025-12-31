@@ -1,7 +1,7 @@
 # cheat
 
 > Create and view interactive cheat sheets.
-> More information: <https://github.com/cheat/cheat>.
+> More information: <https://github.com/cheat/cheat/blob/master/doc/cheat.1.md>.
 
 - Show example usage of a command:
 
@@ -9,16 +9,16 @@
 
 - Edit the cheat sheet for a command:
 
-`cheat -e {{command}}`
+`cheat {{[-e|--edit]}} {{command}}`
 
 - List the available cheat sheets:
 
-`cheat -l`
+`cheat {{[-l|--list]}}`
 
 - Search available the cheat sheets for a specified command name:
 
-`cheat -s {{command}}`
+`cheat {{[-s|--search]}} {{command}}`
 
 - Display version:
 
-`cheat -v`
+`cheat {{[-v|--version]}}`

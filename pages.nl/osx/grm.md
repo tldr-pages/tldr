@@ -1,7 +1,7 @@
 # grm
 
-> Dit commando is een alias van `-p linux rm`.
+> Dit commando is een alias van GNU `rm`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux rm`
+`tldr rm`

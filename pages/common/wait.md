@@ -1,7 +1,8 @@
 # wait
 
 > Wait for a process to complete before proceeding.
-> More information: <https://manned.org/wait>.
+> See also: `ps`, `waitpid`.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-wait>.
 
 - Wait for a process to finish given its process ID (PID) and return its exit status:
 
@@ -11,6 +12,10 @@
 
 `wait`
 
-- Wait for a job to finish:
+- Wait for a job to finish (run `jobs` to find the job number):
 
-`wait %{{N}}`
+`wait %{{job_number}}`
+
+- Display help:
+
+`wait --help`

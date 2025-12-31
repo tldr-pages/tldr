@@ -17,7 +17,7 @@
 
 - Display a cursor to send a window to the system tray with a custom icon when pressing the left mouse button:
 
-`kdocker -i {{/path/to/icon}}`
+`kdocker -i /{{path/to/icon}}`
 
 - Open an application, send it to the system tray and if focus is lost, minimize it:
 

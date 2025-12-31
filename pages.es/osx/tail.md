@@ -16,11 +16,11 @@
 
 `tail -c {{8}} {{ruta/al/archivo}}`
 
-- Imprime las últimas líneas de un archivo dado y sigue leyéndolo hasta `Ctrl + C`:
+- Imprime las últimas líneas de un archivo dado y sigue leyéndolo hasta `<Ctrl c>`:
 
 `tail -f {{ruta/al/archivo}}`
 
-- Sigue leyendo el archivo hasta `Ctrl + C`, incluso si el archivo es inaccesible:
+- Sigue leyendo el archivo hasta `<Ctrl c>`, incluso si el archivo es inaccesible:
 
 `tail -F {{ruta/al/archivo}}`
 

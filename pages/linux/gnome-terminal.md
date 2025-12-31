@@ -17,4 +17,4 @@
 
 - Set the title of the new tab:
 
-`gnome-terminal --tab --title "{{title}}"`
+`gnome-terminal --tab {{[-t|--title]}} "{{title}}"`

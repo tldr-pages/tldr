@@ -5,7 +5,7 @@
 
 - 모든 오디오 출력 및 입력 포트와 해당 ID 나열:
 
-`pw-link --output --input --ids`
+`pw-link {{[-oiI|--output --input --id]}}`
 
 - 출력 포트와 입력 포트 간 링크 생성:
 
@@ -13,12 +13,12 @@
 
 - 두 포트 간 연결 해제:
 
-`pw-link --disconnect {{출력_포트_이름}} {{입력_포트_이름}}`
+`pw-link {{[-d|--disconnect]}} {{출력_포트_이름}} {{입력_포트_이름}}`
 
 - 모든 링크와 해당 ID 나열:
 
-`pw-link --links --ids`
+`pw-link {{[-lI|--links --id]}}`
 
 - 도움말 표시:
 
-`pw-link -h`
+`pw-link {{[-h|--help]}}`

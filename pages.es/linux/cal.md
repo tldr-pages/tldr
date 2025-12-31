@@ -9,19 +9,19 @@
 
 - Muestra el mes anterior, actual y próximo:
 
-`cal -3`
+`cal {{[-3|--three]}}`
 
 - Muestra el calendario completo para el año actual:
 
-`cal --year`
+`cal {{[-y|--year]}}`
 
 - Muestra los 12 meses siguientes:
 
-`cal --twelve`
+`cal {{[-Y|--twelve]}}`
 
 - Usa el Lunes como primer día de la semana:
 
-`cal --monday`
+`cal {{[-m|--monday]}}`
 
 - Muestra el calendario para un año concreto (4 dígitos):
 

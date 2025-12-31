@@ -2,7 +2,7 @@
 
 > Open Broadcaster Software.
 > Video recording and livestreaming program.
-> More information: <https://obsproject.com/>.
+> More information: <https://obsproject.com/kb/launch-parameters>.
 
 - Launch OBS:
 
@@ -10,7 +10,7 @@
 
 - Launch OBS in portable mode:
 
-`obs --portable`
+`obs {{[-p|--portable]}}`
 
 - Automatically start recording a video on launch:
 

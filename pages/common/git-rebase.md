@@ -8,9 +8,9 @@
 
 `git rebase {{new_base_branch}}`
 
-- Start an interactive rebase, which allows the commits to be reordered, omitted, combined or modified:
+- Start an interactive rebase, which allows the commits to be reordered, omitted, combined, or modified:
 
-`git rebase {{-i|--interactive}} {{target_base_branch_or_commit_hash}}`
+`git rebase {{[-i|--interactive]}} {{target_base_branch_or_commit_hash}}`
 
 - Continue a rebase that was interrupted by a merge failure, after editing conflicting files:
 
@@ -28,10 +28,10 @@
 
 `git rebase --onto {{new_base}} {{old_base}}`
 
-- Reapply the last 5 commits in-place, stopping to allow them to be reordered, omitted, combined or modified:
+- Reapply the last 5 commits in-place, stopping to allow them to be reordered, omitted, combined, or modified:
 
-`git rebase {{-i|--interactive}} {{HEAD~5}}`
+`git rebase {{[-i|--interactive]}} {{HEAD~5}}`
 
 - Auto-resolve any conflicts by favoring the working branch version (`theirs` keyword has reversed meaning in this case):
 
-`git rebase {{-X|--strategy-option}} theirs {{branch_name}}`
+`git rebase {{[-X|--strategy-option]}} theirs {{branch_name}}`

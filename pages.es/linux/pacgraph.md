@@ -1,7 +1,7 @@
 # pacgraph
 
 > Dibuja un gráfico de los paquetes instalados a PNG/SVG/GUI/consola.
-> Más información: <https://github.com/keenerd/pacgraph>.
+> Más información: <https://manned.org/pacgraph>.
 
 - Crea un gráfico SVG y PNG:
 

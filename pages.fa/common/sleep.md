@@ -1,7 +1,7 @@
 # sleep
 
 > ایجاد تاخیر بر اساس زمان.
-> اطلاعات بیشتر: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/sleep.html>.
+> اطلاعات بیشتر: <https://manned.org/sleep>.
 
 - تاخیر به ثانیه:
 

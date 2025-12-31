@@ -1,7 +1,7 @@
 # gunlink
 
-> Este comando é um alias de `-p linux unlink`.
+> Este comando é um alias de `unlink`.
 
-- Exibe documentação do comando original:
+- Ver documentação do comando original:
 
-`tldr -p linux unlink`
+`tldr unlink`

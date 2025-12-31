@@ -1,7 +1,7 @@
 # pngquant
 
 > PNG converter and lossy image compressor.
-> More information: <https://pngquant.org/>.
+> More information: <https://manned.org/pngquant>.
 
 - Compress a specific PNG as much as possible and write result to a new file:
 

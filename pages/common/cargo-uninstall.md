@@ -1,8 +1,8 @@
 # cargo uninstall
 
-> Remove a Rust binary installed using `cargo install`.
+> Remove a Rust binary installed globally using `cargo install`.
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-uninstall.html>.
 
 - Remove an installed binary:
 
-`cargo remove {{package_spec}}`
+`cargo uninstall {{package_spec}}`

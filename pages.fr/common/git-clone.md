@@ -21,7 +21,7 @@
 
 - Clone un dépôt existant en ne récupérant que les 10 commits les plus récents sur la branche par défaut (plus rapide) :
 
-`git clone --depth {{10}} {{emplacement_du_depot_distant}}`
+`git clone --depth 10 {{emplacement_du_depot_distant}}`
 
 - Clone un dépôt existant en ne récupérant qu'une branche spécifique :
 

@@ -11,6 +11,6 @@
 
 `caffeinate -s {{befehl}}`
 
-- Halte den Mac wach, bis `caffeinate` durch Cmd-C beendet wird:
+- Halte den Mac wach, bis `caffeinate` durch `<Ctrl c>` beendet wird:
 
 `caffeinate -i`

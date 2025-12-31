@@ -10,8 +10,8 @@
 
 - Elimina un usuario en otro directorio raíz:
 
-`sudo userdel {{-R|--root}} {{ruta/al/otro/root}} {{usuario}}`
+`sudo userdel {{[-R|--root]}} {{ruta/al/otro/root}} {{usuario}}`
 
 - Elimina un usuario junto con su directorio home y correo (mail spool):
 
-`sudo userdel {{-r|--remove}} {{usuario}}`
+`sudo userdel {{[-r|--remove]}} {{usuario}}`

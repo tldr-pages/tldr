@@ -6,11 +6,11 @@
 
 - Elenca quali oggetti saranno eliminati da Git prune senza eliminarli definitivamente:
 
-`git prune --dry-run`
+`git prune {{[-n|--dry-run]}}`
 
 - Elimina gli oggetti non raggiungibili e stampane un elenco su `stdout`:
 
-`git prune --verbose`
+`git prune {{[-v|--verbose]}}`
 
 - Elimina gli oggetti non raggiungibili, mostrando lo stato di avanzamento:
 

@@ -6,32 +6,32 @@
 
 - Liste tous les conteneurs Docker (en cours d'exécution ou arrêtés) :
 
-`docker ps --all`
+`docker {{[ps|container ls]}} {{[-a|--all]}}`
 
 - Démarre un conteneur à partir d'une image, avec un nom personnalisé :
 
-`docker run --name {{nom_conteneur}} {{image}}`
+`docker {{[run|container run]}} --name {{nom_conteneur}} {{image}}`
 
 - Démarre ou arrête un conteneur existant :
 
-`docker {{start|stop}} {{nom_conteneur}}`
+`docker container {{start|stop}} {{nom_conteneur}}`
 
 - Télécharge une image depuis un registre Docker :
 
-`docker pull {{image}}`
+`docker {{[pull|image pull]}} {{image}}`
 
 - Affiche les images déjà téléchargées :
 
-`docker images`
+`docker {{[images|image ls]}}`
 
 - Ouvre un shell dans un conteneur déjà en cours d'exécution :
 
-`docker exec -it {{nom_conteneur}} {{sh}}`
+`docker {{[exec|container exec]}} {{[-it|--interactive --tty]}} {{nom_conteneur}} {{sh}}`
 
 - Supprime un conteneur arrêté :
 
-`docker rm {{nom_conteneur}}`
+`docker {{[rm|container rm]}} {{nom_conteneur}}`
 
 - Récupère et suit les journaux de message d'un conteneur :
 
-`docker logs -f {{nom_conteneur}}`
+`docker {{[logs|container logs]}} {{[-f|--follow]}} {{nom_conteneur}}`

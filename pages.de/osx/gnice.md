@@ -1,7 +1,7 @@
 # gnice
 
-> Dieser Befehl ist ein Alias von `-p linux nice`.
+> Dieser Befehl ist ein Alias von `nice`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 
-`tldr -p linux nice`
+`tldr nice`

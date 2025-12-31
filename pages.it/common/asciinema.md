@@ -1,7 +1,7 @@
 # asciinema
 
 > Registra e riproduci sessioni di terminale, condividendole opzionalmente su asciiname.org.
-> Maggiori informazioni: <https://docs.asciinema.org/manual/cli/usage>.
+> Maggiori informazioni: <https://docs.asciinema.org/manual/cli/>.
 
 - Associa l'installazione locale di `asciiname` ad un account di asciiname.org:
 
@@ -25,7 +25,7 @@
 
 - Avvia una nuova registrazione, limitando qualsiasi periodo di inattività a 2.5 secondi:
 
-`asciinema rec {{-i|--idle-time-limit}} 2.5`
+`asciinema rec {{[-i|--idle-time-limit]}} 2.5`
 
 - Stampa l'output completo di una sessione locale:
 

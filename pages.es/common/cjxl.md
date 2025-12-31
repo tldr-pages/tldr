@@ -2,7 +2,7 @@
 
 > Comprime imágenes a JPEG XL.
 > Las extensiones de entrada aceptadas son PNG, APNG, GIF, JPEG, EXR, PPM, PFM, PAM, PGX y JXL.
-> Más información: <https://github.com/libjxl/libjxl>.
+> Más información: <https://github.com/libjxl/libjxl/blob/main/doc/man/cjxl.txt>.
 
 - Convierte una imagen a JPEG XL:
 
@@ -14,4 +14,4 @@
 
 - Muestra una página de ayuda muy detallada:
 
-`cjxl --help --verbose --verbose --verbose --verbose`
+`cjxl {{[-h -v -v -v -v|--help --verbose --verbose --verbose --verbose]}}`

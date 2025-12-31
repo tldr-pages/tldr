@@ -1,7 +1,7 @@
-# PHP-CS-Fixer
+# php-cs-fixer
 
 > Automatic coding style fixer for PHP.
-> More information: <https://github.com/FriendsOfPHP/PHP-CS-Fixer>.
+> More information: <https://github.com/PHP-CS-Fixer/PHP-CS-Fixer>.
 
 - Execute code style fixing in the current directory:
 

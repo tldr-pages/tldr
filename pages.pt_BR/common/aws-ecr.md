@@ -1,7 +1,7 @@
 # aws ecr
 
 > Enviar, buscar, e gerenciar imagens de container.
-> Mais informações: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ecr/index.html>.
+> Mais informações: <https://docs.aws.amazon.com/cli/latest/reference/ecr/>.
 
 - Autentica o Docker com o registro default (nome do usuário na AWS):
 

@@ -13,7 +13,7 @@
 
 - Envia alterações de uma branch local específica para sua contraparte remota, e define a branch remota como o destino push/pull padrão da branch local:
 
-`git push -u {{nome_remoto}} {{branch_local}}`
+`git push {{[-u|--set-upstream]}} {{nome_remoto}} {{branch_local}}`
 
 - Envia alterações de uma branch local específica para uma branch remota específica:
 
@@ -25,7 +25,7 @@
 
 - Exclui uma branch em um repositório remoto:
 
-`git push {{nome_remoto}} --delete {{branch_remota}}`
+`git push {{nome_remoto}} {{[-d|--delete]}} {{branch_remota}}`
 
 - Remove branches remotas que não tenham uma contraparte local:
 

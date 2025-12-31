@@ -1,8 +1,8 @@
 # yes
 
 > Wypisuje coś wielokrotnie.
-> Komenda używana często aby potwierdzić pytania zadawane przez komendy instalujące takie jak apt-get.
-> Więcej informacji: <https://www.gnu.org/software/coreutils/yes>.
+> Komenda używana często aby potwierdzić pytania zadawane przez komendy instalujące takie jak `apt-get`.
+> Więcej informacji: <https://www.gnu.org/software/coreutils/manual/html_node/yes-invocation.html>.
 
 - Wypisuj bez końca "wiadomość":
 

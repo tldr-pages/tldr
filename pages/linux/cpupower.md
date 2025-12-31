@@ -5,20 +5,20 @@
 
 - List CPUs:
 
-`sudo cpupower --cpu {{all}} info`
+`sudo cpupower {{[-c|--cpu]}} {{all}} info`
 
 - Print information about all cores:
 
-`sudo cpupower --cpu {{all}} info`
+`sudo cpupower {{[-c|--cpu]}} {{all}} info`
 
 - Set all CPUs to a power-saving frequency governor:
 
-`sudo cpupower --cpu {{all}} frequency-set --governor {{powersave}}`
+`sudo cpupower {{[-c|--cpu]}} {{all}} frequency-set --governor {{powersave}}`
 
-- Print CPU 0's available frequency [g]overnors:
+- Print CPU 0's available frequency governors:
 
-`sudo cpupower --cpu {{0}} frequency-info g | grep "analyzing\|governors"`
+`sudo cpupower {{[-c|--cpu]}} {{0}} frequency-info {{[-g|--governors]}} | grep "analyzing\|governors"`
 
 - Print CPU 4's frequency from the hardware, in a human-readable format:
 
-`sudo cpupower --cpu {{4}} frequency-info --hwfreq --human`
+`sudo cpupower {{[-c|--cpu]}} {{4}} frequency-info {{[-w|--hwfreq]}} {{[-m|--human]}}`

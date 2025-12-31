@@ -1,4 +1,4 @@
-# git-grep
+# git grep
 
 > Encuentra dentro de archivos en cualquier parte del historial del repositorio.
 > Acepta una gran cantidad de opciones, de la misma manera que el comando `grep`.

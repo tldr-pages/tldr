@@ -6,11 +6,11 @@
 
 - Extract strongly connected components of one or more directed graphs:
 
-`sccmap -S {{path/to/input1.gv}} {{path/to/input2.gv ...}} > {{path/to/output.gv}}`
+`sccmap -S {{path/to/input1.gv path/to/input2.gv ...}} > {{path/to/output.gv}}`
 
 - Print statistics about a graph, producing no output graph:
 
-`sccmap -v -s {{path/to/input1.gv}} {{path/to/input2.gv ...}}`
+`sccmap -v -s {{path/to/input1.gv path/to/input2.gv ...}}`
 
 - Display help:
 

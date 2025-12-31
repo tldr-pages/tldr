@@ -1,7 +1,7 @@
 # lychee
 
 > 깨진 URL을 찾기 위한 도구.
-> 더 많은 정보: <https://lychee.cli.rs/usage/cli/>.
+> 더 많은 정보: <https://github.com/lycheeverse/lychee/blob/master/README.md#commandline-usage>.
 
 - 웹사이트에서 깨진 링크 스캔:
 

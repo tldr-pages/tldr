@@ -6,19 +6,19 @@
 
 - 호스트에 연결:
 
-`evil-winrm --ip {{아이피}} --user {{사용자}} --password {{비밀번호}}`
+`evil-winrm {{[-i|--ip]}} {{아이피}} {{[-u|--user]}} {{사용자}} {{[-p|--password]}} {{비밀번호}}`
 
 - 비밀번호 해시를 전달하여 호스트에 연결:
 
-`evil-winrm --ip {{아이피}} --user {{사용자}} --hash {{nt_hash}}`
+`evil-winrm {{[-i|--ip]}} {{아이피}} {{[-u|--user]}} {{사용자}} {{[-H|--hash]}} {{nt_hash}}`
 
 - 스크립트 및 실행 파일에 대한 디렉터리를 지정하여 호스트에 연결:
 
-`evil-winrm --ip {{아이피}} --user {{사용자}} --password {{비밀번호}} --scripts {{경로/대상/스크립트}} --executables {{경로/대상/실행파일}}`
+`evil-winrm {{[-i|--ip]}} {{아이피}} {{[-u|--user]}} {{사용자}} {{[-p|--password]}} {{비밀번호}} {{[-s|--scripts]}} {{경로/대상/스크립트}} {{[-e|--executables]}} {{경로/대상/실행파일}}`
 
 - SSL을 사용하여 호스트에 연결:
 
-`evil-winrm --ip {{아이피}} --user {{사용자}} --password {{비밀번호}} --ssl --pub-key {{경로/대상/공개키}} --priv-key {{경로/대상/개인키}}`
+`evil-winrm {{[-i|--ip]}} {{아이피}} {{[-u|--user]}} {{사용자}} {{[-p|--password]}} {{비밀번호}} {{[-S|--ssl]}} {{[-c|--pub-key]}} {{경로/대상/공개키}} {{[-k|--priv-key]}} {{경로/대상/개인키}}`
 
 - 호스트에 파일 업로드:
 

@@ -6,3 +6,7 @@
 - View a file:
 
 `pg {{path/to/file}}`
+
+- Display help:
+
+`pg {{[-h|--help]}}`

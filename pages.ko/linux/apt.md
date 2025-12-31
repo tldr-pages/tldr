@@ -35,4 +35,4 @@
 
 - 설치된 패키지 나열:
 
-`apt list --installed`
+`apt list {{[-i|--installed]}}`

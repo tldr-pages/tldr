@@ -1,13 +1,13 @@
 # exiftool
 
 > 파일의 메타 정보를 읽고 쓰기.
-> 더 많은 정보: <https://exiftool.org>.
+> 더 많은 정보: <https://exiftool.org/exiftool_pod.html>.
 
-- 특정 파일에 대한 EXIF 메타데이터를 출력 :
+- 특정 파일에 대한 EXIF 메타데이터를 출력:
 
 `exiftool {{경로/대상/파일}}`
 
-- 지정된 파일에서 모든 EXIF 메타데이터를 제거 :
+- 지정된 파일에서 모든 EXIF 메타데이터를 제거:
 
 `exiftool -All= {{경로/대상/파일1 경로/대상/파일2 ...}}`
 

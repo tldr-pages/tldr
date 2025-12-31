@@ -1,7 +1,7 @@
 # poweroff
 
 > Power off the system.
-> More information: <https://www.manned.org/poweroff>.
+> More information: <https://manned.org/poweroff>.
 
 - Power off the system:
 
@@ -17,8 +17,8 @@
 
 - Shut down immediately without contacting the system manager:
 
-`poweroff --force`
+`poweroff {{[-f|--force]}}`
 
 - Write the wtmp shutdown entry without shutting down the system:
 
-`poweroff --wtmp-only`
+`poweroff {{[-w|--wtmp-only]}}`

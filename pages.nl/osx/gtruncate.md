@@ -1,7 +1,7 @@
 # gtruncate
 
-> Dit commando is een alias van `-p linux truncate`.
+> Dit commando is een alias van GNU `truncate`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux truncate`
+`tldr truncate`

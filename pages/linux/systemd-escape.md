@@ -1,7 +1,7 @@
 # systemd-escape
 
 > Escape strings for usage in systemd unit names.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemd-escape.html>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemd-escape.html>.
 
 - Escape the given text:
 
@@ -9,11 +9,11 @@
 
 - Reverse the escaping process:
 
-`systemd-escape --unescape {{text}}`
+`systemd-escape {{[-u|--unescape]}} {{text}}`
 
 - Treat the given text as a path:
 
-`systemd-escape --path {{text}}`
+`systemd-escape {{[-p|--path]}} {{text}}`
 
 - Append the given suffix to the escaped text:
 

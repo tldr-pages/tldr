@@ -10,8 +10,8 @@
 
 - Imprime la configuración de `iptables` de una [t]abla específica:
 
-`sudo iptables-save --table {{tabla}}`
+`sudo iptables-save {{[-t|--table]}} {{tabla}}`
 
 - Guarda la configuración de `iptables` al archivo:
 
-`sudo iptables-save --file {{ruta/al/archivo}}`
+`sudo iptables-save {{[-f|--file]}} {{ruta/al/archivo}}`

@@ -6,7 +6,7 @@
 
 - List all repos in a specific project:
 
-`az repos list --project {{project_name}}`
+`az repos list {{[-p|--project]}} {{project_name}}`
 
 - Add policy on a specific branch of a specific repository to restrict basic merge:
 
@@ -18,4 +18,4 @@
 
 - List all active Pull Requests on a specific repository within a specific project:
 
-`az repos pr list --project {{project_name}} --repository {{repository_name}} --status active`
+`az repos pr list {{[-p|--project]}} {{project_name}} {{[-r|--repository]}} {{repository_name}} --status active`

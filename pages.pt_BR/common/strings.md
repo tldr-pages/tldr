@@ -9,12 +9,12 @@
 
 - Limita resultados a strings com pelo menos n caracteres:
 
-`strings -n {{n}} {{caminho/para/arquivo}}`
+`strings {{[-n|--bytes]}} {{n}} {{caminho/para/arquivo}}`
 
 - Prefixa cada resultado com seu deslocamento dentro do arquivo:
 
-`strings -t d {{caminho/para/arquivo}}`
+`strings {{[-t|--radix]}} d {{caminho/para/arquivo}}`
 
 - Prefixa cada resultado com seu deslocamento dentro do arquivo em hexadecimal:
 
-`strings -t x {{caminho/para/arquivo}}`
+`strings {{[-t|--radix]}} x {{caminho/para/arquivo}}`

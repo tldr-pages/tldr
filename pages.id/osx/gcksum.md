@@ -1,7 +1,7 @@
 # gcksum
 
-> Perintah ini merupakan alias dari `-p linux cksum`.
+> Perintah ini merupakan alias dari `cksum`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux cksum`
+`tldr cksum`

@@ -1,7 +1,8 @@
 # nmtui
 
 > Tekstgebruikersinterface voor controle over NetworkManager.
-> Gebruik pijltoetsen om te navigeren en gebruik Enter om een optie te selecteren.
+> Gebruik `<ArrowKeys>` om te navigeren en gebruik `<Enter>` om een optie te selecteren.
+> Zie ook: `nmcli`.
 > Meer informatie: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmtui.html>.
 
 - Open de gebruikersinterface:

@@ -9,12 +9,12 @@
 
 - 다른 구성 파일 사용:
 
-`waybar {{-c|--config}} {{경로/대상/구성파일.jsonc}}`
+`waybar {{[-c|--config]}} {{경로/대상/구성파일.jsonc}}`
 
 - 다른 스타일 시트 파일 사용:
 
-`waybar {{-s|--style}} {{경로/대상/스타일시트.css}}`
+`waybar {{[-s|--style]}} {{경로/대상/스타일시트.css}}`
 
 - 로그 수준 설정:
 
-`waybar {{-l|--log-level}} {{trace|debug|info|warning|error|critical|off}}`
+`waybar {{[-l|--log-level]}} {{trace|debug|info|warning|error|critical|off}}`

@@ -28,10 +28,10 @@
 
 `del {{file_pattern}} /q`
 
-- Display the help and list available attributes:
-
-`del /?`
-
 - Delete files based on specified attributes:
 
 `del {{file_pattern}} /a {{attribute}}`
+
+- Display help and list available attributes:
+
+`del /?`

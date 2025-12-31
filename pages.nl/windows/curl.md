@@ -5,7 +5,7 @@
 
 - Bekijk de documentatie van het originele `curl` commando:
 
-`tldr curl -p common`
+`tldr curl {{[-p|--platform]}} common`
 
 - Bekijk de documentatie van het PowerShell's `Invoke-WebRequest` commando:
 

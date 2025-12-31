@@ -1,15 +1,11 @@
 # ibmcloud
 
-> A command-line tool for managing IBM Cloud apps and services.
+> Manage IBM Cloud apps and services.
 > More information: <https://cloud.ibm.com/docs/cli?topic=cli-ibmcloud_cli>.
 
 - Update `ibmcloud` to the latest version:
 
 `ibmcloud update`
-
-- Install the Cloud Foundry module for accessing Cloud Foundry services:
-
-`ibmcloud cf install`
 
 - List all available IBM Cloud regions:
 

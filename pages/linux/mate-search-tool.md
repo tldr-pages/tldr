@@ -11,7 +11,7 @@
 
 `mate-search-tool --start --named={{string}} --path={{path/to/directory}}`
 
-- Search files with name matching a specific regular expression:
+- Search files with name matching a specific `regex`:
 
 `mate-search-tool --start --regex={{string}} --path={{path/to/directory}}`
 

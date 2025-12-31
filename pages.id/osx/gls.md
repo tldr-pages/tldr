@@ -1,7 +1,7 @@
 # gls
 
-> Perintah ini merupakan alias dari `-p linux ls`.
+> Perintah ini merupakan alias dari `ls`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux ls`
+`tldr ls`

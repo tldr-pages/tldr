@@ -5,7 +5,7 @@
 
 - Show display output information:
 
-`kscreen-doctor --outputs`
+`kscreen-doctor {{[-o|--outputs]}}`
 
 - Set the rotation of a display output with an ID of 1 to the right:
 

@@ -1,7 +1,7 @@
 # gwc
 
-> Este comando é um alias de `-p linux wc`.
+> Este comando é um alias de `wc`.
 
-- Exibe documentação do comando original:
+- Ver documentação do comando original:
 
-`tldr -p linux wc`
+`tldr {{[-p|--platform]}} common wc`

@@ -1,7 +1,7 @@
 # ledger
 
 > 강력한 복식부기 회계 시스템.
-> 더 많은 정보: <https://www.ledger-cli.org>.
+> 더 많은 정보: <https://ledger-cli.org/doc/ledger.1.html>.
 
 - 총계를 보여주는 잔액 보고서 출력:
 

@@ -1,7 +1,7 @@
-# PHP-CS-Fixer
+# php-cs-fixer
 
 > PHP 코딩 스타일 자동 수정 도구.
-> 더 많은 정보: <https://github.com/FriendsOfPHP/PHP-CS-Fixer>.
+> 더 많은 정보: <https://github.com/PHP-CS-Fixer/PHP-CS-Fixer>.
 
 - 현재 디렉토리에서 코드 스타일 수정 실행:
 

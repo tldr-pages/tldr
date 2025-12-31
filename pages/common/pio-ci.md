@@ -10,11 +10,11 @@
 
 - Build a PlatformIO project and specify specific libraries:
 
-`pio ci --lib {{path/to/library_directory}} {{path/to/project}}`
+`pio ci {{[-l|--lib]}} {{path/to/library_directory}} {{path/to/project}}`
 
 - Build a PlatformIO project and specify a specific board (`pio boards` lists all of them):
 
-`pio ci --board {{board}} {{path/to/project}}`
+`pio ci {{[-b|--board]}} {{board}} {{path/to/project}}`
 
 - Build a PlatformIO project in a specific directory:
 
@@ -26,4 +26,4 @@
 
 - Build a PlatformIO project using a specific configuration file:
 
-`pio ci --project-conf {{path/to/platformio.ini}}`
+`pio ci {{[-c|--project-conf]}} {{path/to/platformio.ini}}`

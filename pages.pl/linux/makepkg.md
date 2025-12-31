@@ -2,7 +2,7 @@
 
 > Utwórz pakiet do użycia przez `pacman`-a.
 > Domyślnie używa pliku `PKGBUILD` w aktualnym katalogu roboczym.
-> Więcej informacji: <https://manned.org/makepkg.8>.
+> Więcej informacji: <https://manned.org/makepkg>.
 
 - Utwórz pakiet:
 
@@ -10,11 +10,11 @@
 
 - Utwórz pakiet i zainstaluj jego zależności:
 
-`makepkg --syncdeps`
+`makepkg {{[-s|--syncdeps]}}`
 
 - Utwórz pakiet, zainstaluj jego zależności, a następnie zainstaluj utworzony pakiet:
 
-`makepkg --syncdeps --install`
+`makepkg {{[-s|--syncdeps]}} {{[-i|--install]}}`
 
 - Utwórz pakiet, ale pomiń sprawdzanie sum kontrolnych źrodeł:
 
@@ -22,7 +22,7 @@
 
 - Wyczyść katalogi robocze po udanym budowaniu:
 
-`makepkg --clean`
+`makepkg {{[-c|--clean]}}`
 
 - Zwerifikuj sumy kontrolne źródeł:
 

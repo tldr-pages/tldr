@@ -2,13 +2,13 @@
 
 > Discover and probe hosts in a network using the ARP protocol.
 > Useful for MAC address discovery.
-> More information: <https://github.com/ThomasHabets/arping>.
+> More information: <https://manned.org/arping>.
 
 - Ping a host by ARP request packets:
 
 `arping {{host_ip}}`
 
-- Ping a host on a specific interface:
+- Ping a host on a specific [I]nterface:
 
 `arping -I {{interface}} {{host_ip}}`
 

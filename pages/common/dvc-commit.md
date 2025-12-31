@@ -1,7 +1,7 @@
 # dvc commit
 
 > Record changes to DVC-tracked files in the project.
-> More information: <https://dvc.org/doc/command-reference/commit>.
+> More information: <https://doc.dvc.org/command-reference/commit>.
 
 - Commit changes to all DVC-tracked files and directories:
 
@@ -13,4 +13,4 @@
 
 - Recursively commit all DVC-tracked files in a directory:
 
-`dvc commit --recursive {{path/to/directory}}`
+`dvc commit {{[-R|--recursive]}} {{path/to/directory}}`

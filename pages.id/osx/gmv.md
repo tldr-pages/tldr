@@ -1,7 +1,7 @@
 # gmv
 
-> Perintah ini merupakan alias dari `-p linux mv`.
+> Perintah ini merupakan alias dari `mv`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux mv`
+`tldr mv`

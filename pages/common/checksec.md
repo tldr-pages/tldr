@@ -1,7 +1,7 @@
 # checksec
 
 > Check security properties of executables.
-> More information: <https://github.com/slimm609/checksec.sh>.
+> More information: <https://manned.org/checksec>.
 
 - List security properties of an executable binary file:
 

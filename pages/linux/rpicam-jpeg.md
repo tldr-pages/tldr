@@ -5,12 +5,12 @@
 
 - Capture an image and name the file:
 
-`rpicam-jpeg -o {{path/to/file.jpg}}`
+`rpicam-jpeg {{[-o|--output]}} {{path/to/file.jpg}}`
 
 - Capture an image with set dimensions:
 
-`rpicam-jpeg -o {{path/to/file.jpg}} --width {{1920}} --height {{1080}}`
+`rpicam-jpeg {{[-o|--output]}} {{path/to/file.jpg}} --width {{1920}} --height {{1080}}`
 
 - Capture an image with an exposure of 20 seconds and a gain of 150%:
 
-`rpicam-jpeg -o {{path/to/file.jpg}} --shutter 20000 --gain 1.5`
+`rpicam-jpeg {{[-o|--output]}} {{path/to/file.jpg}} --shutter 20000 --gain 1.5`

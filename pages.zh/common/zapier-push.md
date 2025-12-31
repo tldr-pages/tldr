@@ -1,7 +1,7 @@
 # zapier push
 
 > 构建并上传一个 Zapier 集成。
-> 更多信息：<https://platform.zapier.com/reference/cli#push>.
+> 更多信息：<https://platform.zapier.com/reference/cli#push>。
 
 - 向 Zapier 推送一个集成：
 
@@ -13,4 +13,4 @@
 
 - 显示额外的调试输出：
 
-`zapier push {{-d|--debug}}`
+`zapier push {{[-d|--debug]}}`

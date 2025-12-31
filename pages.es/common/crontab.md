@@ -1,7 +1,7 @@
 # crontab
 
 > Programa trabajos recurrentes (cron jobs) para ejecutarse a intervalos de tiempo para el usuario actual.
-> Más información: <https://crontab.guru/>.
+> Más información: <https://manned.org/crontab>.
 
 - Edita el archivo crontab para el usuario actual:
 
@@ -15,7 +15,7 @@
 
 `crontab {{ruta/al/archivo}}`
 
-- Ver una lista de cron jobs existentes para el usuario actual:
+- Muestra una lista de cron jobs existentes para el usuario actual:
 
 `crontab -l`
 
@@ -25,12 +25,12 @@
 
 - Ejemplo de entrada contrab que ejecuta un comando a las 10:00 cada día (* significa cualquier valor):
 
-`0 10 * * * {{comando}}`
+`0 10 * * * {{comando_a_ejecutar}}`
 
 - Ejemplo de entrada crontab, que ejecuta un comando cada 10 minutos:
 
-`*/10 * * * * {{command}}`
+`*/10 * * * * {{comando_a_ejecutar}}`
 
 - Ejemplo de entrada crontab, que ejecuta un script a las 02:30 cada viernes:
 
-`30 2 * * Fri {{/ruta/absoluta/a/script.sh}}`
+`30 2 * * Fri /{{/ruta/a/script.sh}}`

@@ -1,7 +1,7 @@
 # radare2
 
 > 리버스 엔지니어링 도구 세트.
-> 더 많은 정보: <https://www.radare.org/r/docs.html>.
+> 더 많은 정보: <https://book.rada.re/first_steps/commandline_flags.html>.
 
 - 파일 형식 헤더를 파싱하지 않고 쓰기 모드로 파일 열기:
 
@@ -17,11 +17,11 @@
 
 - 대화형 CLI에서 명령어에 대한 도움말 표시:
 
-`> {{radare2_명령어}}?`
+`{{radare2_명령어}}?`
 
 - 대화형 CLI에서 셀 명령어 실행:
 
-`> !{{셸_명령어}}`
+`!{{셸_명령어}}`
 
 - 현재 블록의 원시 바이트를 파일로 덤프:
 

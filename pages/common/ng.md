@@ -31,6 +31,6 @@
 
 `ng test`
 
-- Display the version of your current Angular installation:
+- Display version:
 
 `ng version`

@@ -1,7 +1,7 @@
 # genisoimage
 
 > Pre-mastering program to generate ISO9660/Joliet/HFS hybrid filesystems.
-> More information: <https://manned.org/genisoimage.1>.
+> More information: <https://manned.org/genisoimage>.
 
 - Create an ISO image from the given source directory:
 

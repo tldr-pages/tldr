@@ -1,20 +1,7 @@
 # docker images
 
-> Zarządzaj obrazami Dockera.
-> Więcej informacji: <https://docs.docker.com/reference/cli/docker/image/ls/>.
+> To polecenie jest aliasem `docker image ls`.
 
-- Wyświetl wszystkie obrazy Docker:
+- Zobacz dokumentację oryginalnego polecenia:
 
-`docker images`
-
-- Wyświetl wszystkie obrazy Dockera, w tym intermediates:
-
-`docker images -a`
-
-- Wyświetl dane wyjściowe w trybie quiet (tylko identyfikatory numeryczne):
-
-`docker images -q`
-
-- Wyświetl wszystkie obrazy Docker nieużywane przez żaden kontener:
-
-`docker images --filter dangling=true`
+`tldr docker image ls`

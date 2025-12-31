@@ -9,8 +9,8 @@
 
 - 지정된 디렉토리에 새로운 버그 보고 파일 생성 (디렉토리가 없을 경우 생성됨):
 
-`git bugreport {{-o|--output-directory}} {{경로/대상/폴더}}`
+`git bugreport {{[-o|--output-directory]}} {{경로/대상/폴더}}`
 
 - `strftime` 형식의 지정된 파일명 접미사를 사용하여 새로운 버그 보고 파일 생성:
 
-`git bugreport {{-s|--suffix}} {{%m%d%y}}`
+`git bugreport {{[-s|--suffix]}} {{%m%d%y}}`

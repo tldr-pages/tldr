@@ -31,6 +31,6 @@
 
 `mdelete {{*.txt}}`
 
-- Toon help:
+- Toon de help:
 
 `ftp --help`

@@ -5,20 +5,20 @@
 
 - Show disk quotas in human-readable units for the current user:
 
-`quota -s`
+`quota {{[-s|--human-readable]}}`
 
 - Verbose output (also display quotas on filesystems where no storage is allocated):
 
-`quota -v`
+`quota {{[-v|--verbose]}}`
 
 - Quiet output (only display quotas on filesystems where usage is over quota):
 
-`quota -q`
+`quota {{[-q|--quiet]}}`
 
 - Print quotas for the groups of which the current user is a member:
 
-`quota -g`
+`quota {{[-g|--group]}}`
 
 - Show disk quotas for another user:
 
-`sudo quota -u {{username}}`
+`sudo quota {{[-u|--user]}} {{username}}`

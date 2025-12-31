@@ -1,7 +1,7 @@
 # kubeadm
 
 > Kubernetes 클러스터를 생성하고 관리하기 위한 명령줄 인터페이스.
-> 더 많은 정보: <https://kubernetes.io/docs/reference/setup-tools/kubeadm>.
+> 더 많은 정보: <https://kubernetes.io/docs/reference/setup-tools/kubeadm/>.
 
 - Kubernetes 마스터 노드 생성:
 

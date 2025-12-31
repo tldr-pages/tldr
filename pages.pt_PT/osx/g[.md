@@ -1,7 +1,7 @@
 # g[
 
-> Este comando é um alias de `-p linux [`.
+> Este comando é um alias de `[`.
 
-- Exibe documentação do comando original:
+- Ver documentação do comando original:
 
-`tldr -p linux [`
+`tldr [`

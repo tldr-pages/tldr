@@ -15,6 +15,6 @@
 
 `crane digest {{image_naam}} --tarball {{pad/naar/tarball}}`
 
-- Toon help:
+- Toon de help:
 
-`crane digest {{-h|--help}}`
+`crane digest {{[-h|--help]}}`

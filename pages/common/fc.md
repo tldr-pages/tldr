@@ -1,7 +1,8 @@
 # fc
 
-> Open the most recent command for editing and then run it.
-> More information: <https://manned.org/fc>.
+> Open the recent commands for editing and then run them.
+> See also: `history`.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-fc>.
 
 - Open the last command in the default system editor and run it after editing:
 
@@ -9,7 +10,7 @@
 
 - Specify an editor to open with:
 
-`fc -e {{'emacs'}}`
+`fc -e '{{emacs}}'`
 
 - List recent commands from history:
 

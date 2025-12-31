@@ -1,7 +1,7 @@
 # qutebrowser
 
 > PyQt5 기반의 키보드 구동, vim 스타일 웹 브라우저.
-> 더 많은 정보: <https://qutebrowser.org/>.
+> 더 많은 정보: <https://qutebrowser.org/doc/qutebrowser.1.html>.
 
 - 지정된 저장소 디렉터리로 qutebrowser 열기:
 

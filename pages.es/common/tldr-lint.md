@@ -1,16 +1,21 @@
 # tldr-lint
 
 > Verifica y formatea páginas `tldr`.
-> Más información: <https://github.com/tldr-pages/tldr-lint>.
+> Nota: `tldrl` se puede utilizar como alias de `tldr-lint`.
+> Más información: <https://github.com/tldr-pages/tldr-lint#usage>.
 
-- Verifica (lint) todas las páginas:
+- Verifica una sola página o todas las páginas de un directorio:
 
-`tldr-lint {{directorio_páginas}}`
+`tldr-lint {{ruta/a/página_o_directorio}}`
 
-- Formatea una página específica hacia `stdout`:
+- Ignora códigos de error específicos de `tldr-lint` durante la verificación:
 
-`tldr-lint --format {{page.md}}`
+`tldr-lint {{[-I|--ignore]}} {{TLDR001,TLDR002,...}}`
 
-- Formatea cada página sin escribir otros archivos o en la salida estándar:
+- Formatea una página específica a `stdout`:
 
-`tldr-lint --format --in-place {{directorio_páginas}}`
+`tldr-lint {{[-f|--format]}} {{path/to/page.md}}`
+
+- Formatea una página en el mismo lugar:
+
+`tldr-lint {{[-f|--format]}} {{[-i|--in-place]}} {{ruta/a/página.md}}`

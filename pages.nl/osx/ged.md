@@ -1,7 +1,7 @@
 # ged
 
-> Dit commando is een alias van `-p linux ed`.
+> Dit commando is een alias van GNU `ed`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux ed`
+`tldr ed`

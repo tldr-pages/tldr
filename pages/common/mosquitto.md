@@ -1,7 +1,7 @@
 # mosquitto
 
 > An MQTT broker.
-> More information: <https://mosquitto.org/>.
+> More information: <https://mosquitto.org/man/mosquitto-8.html>.
 
 - Start Mosquitto:
 
@@ -9,12 +9,12 @@
 
 - Specify a configuration file to use:
 
-`mosquitto --config-file {{path/to/file.conf}}`
+`mosquitto {{[-c|--config-file]}} {{path/to/file.conf}}`
 
 - Listen on a specific port:
 
-`mosquitto --port {{8883}}`
+`mosquitto {{[-p|--port]}} {{8883}}`
 
 - Daemonize by forking into the background:
 
-`mosquitto --daemon`
+`mosquitto {{[-d|--daemon]}}`

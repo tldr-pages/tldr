@@ -17,7 +17,7 @@
 
 - Find filesystems in specific type:
 
-`findmnt -t {{ext4}}`
+`findmnt {{[-t|--types]}} {{ext4,virtiofs,btrfs,...}}`
 
 - Find filesystems with specific label:
 
@@ -25,4 +25,4 @@
 
 - Check mount table content in detail and verify `/etc/fstab`:
 
-`findmnt --verify --verbose`
+`findmnt {{[-x|--verify]}} --verbose`

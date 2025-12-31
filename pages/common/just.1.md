@@ -1,7 +1,7 @@
 # just
 
 > Save and run project-specific commands.
-> More information: <https://github.com/casey/just>.
+> More information: <https://manned.org/just>.
 
 - Run a recipe specified in the justfile:
 
@@ -13,11 +13,11 @@
 
 - Edit justfile in the default editor:
 
-`just -e`
+`just {{[-e|--edit]}}`
 
 - List available recipes in the justfile:
 
-`just -l`
+`just {{[-l|--list]}}`
 
 - Print justfile:
 

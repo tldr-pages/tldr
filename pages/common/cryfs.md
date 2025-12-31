@@ -1,11 +1,11 @@
 # cryfs
 
 > A cryptographic filesystem for the cloud.
-> More information: <https://www.cryfs.org/>.
+> More information: <https://manned.org/cryfs>.
 
 - Mount an encrypted filesystem. The initialization wizard will be started on the first execution:
 
-`cryfs {{path/to/cipher_dir}} {{path/to/mount_point}}`
+`cryfs {{path/to/cipher_directory}} {{path/to/mount_point}}`
 
 - Unmount an encrypted filesystem:
 
@@ -13,7 +13,7 @@
 
 - Automatically unmount after ten minutes of inactivity:
 
-`cryfs --unmount-idle {{10}} {{path/to/cipher_dir}} {{path/to/mount_point}}`
+`cryfs --unmount-idle {{10}} {{path/to/cipher_directory}} {{path/to/mount_point}}`
 
 - List supported ciphers:
 

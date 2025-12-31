@@ -19,6 +19,6 @@
 
 `mksquashfs {{path/to/file_or_directory1 path/to/file_or_directory2 ...}} {{filesystem.squashfs}} -wildcards -e "{{*.gz}}"`
 
-- Create or append files and directories to a squashfs filesystem, [e]xcluding those matching a regular expression:
+- Create or append files and directories to a squashfs filesystem, [e]xcluding those matching a `regex`:
 
-`mksquashfs {{path/to/file_or_directory1 path/to/file_or_directory2 ...}} {{filesystem.squashfs}} -regex -e "{{regular_expression}}"`
+`mksquashfs {{path/to/file_or_directory1 path/to/file_or_directory2 ...}} {{filesystem.squashfs}} -regex -e "{{regex}}"`

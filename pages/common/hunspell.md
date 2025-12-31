@@ -1,7 +1,7 @@
 # hunspell
 
 > Check spelling.
-> More information: <https://github.com/hunspell/hunspell>.
+> More information: <https://manned.org/hunspell>.
 
 - Check the spelling of a file:
 

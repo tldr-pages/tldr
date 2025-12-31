@@ -2,7 +2,7 @@
 
 > கோப்புகளையோ அடைவுகளையோ அழி.
 > மேலும் பார்க்கவும்: `rmdir`.
-> மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/rm>.
+> மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>.
 
 - குறிப்பிட்ட கோப்புகளை அகற்றவும்:
 

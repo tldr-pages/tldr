@@ -1,7 +1,7 @@
 # haxelib
 
 > Haxe Library Manager.
-> More information: <https://lib.haxe.org/>.
+> More information: <https://lib.haxe.org/documentation/using-haxelib/>.
 
 - Search for a Haxe library:
 

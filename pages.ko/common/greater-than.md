@@ -1,4 +1,4 @@
-# Greater than
+# >
 
 > 출력을 파일로 리디렉션.
 > 더 많은 정보: <https://gnu.org/software/bash/manual/bash.html#Redirecting-Output>.

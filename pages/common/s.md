@@ -1,7 +1,7 @@
 # s
 
 > Web search from the terminal.
-> More information: <https://github.com/zquestz/s>.
+> More information: <https://github.com/zquestz/s#s>.
 
 - Search for a query on Google (default provider):
 
@@ -9,12 +9,12 @@
 
 - List all providers:
 
-`s --list-providers`
+`s {{[-l|--list-providers]}}`
 
 - Search for a query with a given provider:
 
-`s --provider {{provider}} {{query}}`
+`s {{[-p|--provider]}} {{provider}} {{query}}`
 
 - Use a specified binary to perform the search query:
 
-`s --binary "{{binary}} {{arguments}}" {{query}}`
+`s {{[-b|--binary]}} "{{binary}} {{arguments}}" {{query}}`

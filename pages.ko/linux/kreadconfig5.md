@@ -9,7 +9,7 @@
 
 - 특정 설정 파일에서 키 읽기:
 
-`kwriteconfig5 --file {{경로/대상/파일}} --group {{그룹_이름}} --key {{키_이름}}`
+`kreadconfig5 --file {{경로/대상/파일}} --group {{그룹_이름}} --key {{키_이름}}`
 
 - systemd가 Plasma 세션을 시작하는지 확인:
 

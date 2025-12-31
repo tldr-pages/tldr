@@ -10,11 +10,11 @@
 
 - Búsqueda insensible a mayúsculas y minúsculas solo en caracteres alfanuméricos:
 
-`look {{-f|--ignore-case}} {{-d|--alphanum}} {{prefijo}} {{ruta/al/archivo}}`
+`look {{[-f|--ignore-case]}} {{[-d|--alphanum]}} {{prefijo}} {{ruta/al/archivo}}`
 
 - Especifica un carácter de terminación de cadena (espacio por defecto):
 
-`look {{-t|--terminate}} {{,}}`
+`look {{[-t|--terminate]}} {{,}}`
 
 - Busca en `/usr/share/dict/words` (se asumen `--ignore-case` y `--alphanum`):
 

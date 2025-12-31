@@ -9,7 +9,7 @@
 
 - Añade todos los archivos (rastreados o no):
 
-`git add {{-A|--all}}`
+`git add {{[-A|--all]}}`
 
 - Añade todos los archivos en el directorio actual:
 
@@ -17,20 +17,20 @@
 
 - Añade únicamente los archivos ya rastreados:
 
-`git add {{-u|--update}}`
+`git add {{[-u|--update]}}`
 
 - Añade también los archivos ignorados:
 
-`git add {{-f|--force}}`
+`git add {{[-f|--force]}}`
 
 - Añade interactivamente partes de archivos al área de preparación (staging):
 
-`git add {{-p|--patch}}`
+`git add {{[-p|--patch]}}`
 
 - Añade interactivamente partes de un archivo dado al área de preparación (staging):
 
-`git add {{-p|--patch}} {{ruta/al/archivo}}`
+`git add {{[-p|--patch]}} {{ruta/al/archivo}}`
 
 - Añade un archivo interactivamente al área de preparación (staging):
 
-`git add {{-i|--interactive}}`
+`git add {{[-i|--interactive]}}`

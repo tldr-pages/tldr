@@ -7,9 +7,13 @@
 
 `locate "{{patroon}}"`
 
+- Zoek naar een patroon waarbij hoofdletters worden genegeerd ([i]):
+
+`locate -i "{{pattern}}"`
+
 - Zoek naar een bestand op basis van de exacte bestandsnaam (een patroon zonder glob-tekens wordt geïnterpreteerd als `*patroon*`):
 
-`locate */{{bestandsnaam}}`
+`locate "*/{{bestandsnaam}}"`
 
 - Herbereken de database. Dit moet je doen als je recent toegevoegde bestanden wilt vinden:
 

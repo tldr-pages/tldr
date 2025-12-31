@@ -1,7 +1,7 @@
 # handlr
 
 > 기본 애플리케이션을 관리합니다.
-> 더 많은 정보: <https://github.com/chmln/handlr>.
+> 더 많은 정보: <https://github.com/chmln/handlr#usage>.
 
 - 기본 애플리케이션에서 URL 열기:
 

@@ -1,7 +1,7 @@
 # ged
 
-> To polecenie jest aliasem `-p linux ed`.
+> To polecenie jest aliasem GNU `ed`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux ed`
+`tldr ed`

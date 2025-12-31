@@ -1,7 +1,7 @@
 # crontab
 
 > Agenda tarefas cron para serem executadas em um intervalo de tempo para o usuário atual.
-> Mais informações: <https://crontab.guru/>.
+> Mais informações: <https://manned.org/crontab>.
 
 - Edita o arquivo crontab para o usuário atual:
 

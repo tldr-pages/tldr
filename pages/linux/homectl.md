@@ -1,7 +1,7 @@
 # homectl
 
-> Create, remove, change or inspect home directories using the systemd-homed service.
-> More information: <https://manned.org/homectl>.
+> Create, remove, change, or inspect home directories using the systemd-homed service.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/homectl.html>.
 
 - List user accounts and their associated home directories:
 
@@ -33,4 +33,4 @@
 
 - Display help:
 
-`homectl --help`
+`homectl {{[-h|--help]}}`

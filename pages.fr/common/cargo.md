@@ -2,7 +2,7 @@
 
 > Gestion d'un projet Rust et ses dependences (crates).
 > Certaines sous-commandes comme `build` ont leurs propres documentations.
-> Plus d'informations : <https://doc.rust-lang.org/cargo>.
+> Plus d'informations : <https://doc.rust-lang.org/stable/cargo/>.
 
 - Rechercher des crates :
 
@@ -22,12 +22,12 @@
 
 - Compile le projet Rust dans le dossier courant en utilisant le profil release :
 
-`cargo build --release`
+`cargo {{[b|build]}} {{[-r|--release]}}`
 
 - Compiler le projet Rust dans le dossier courant en utilisant le compilateur nightly :
 
-`cargo +nightly build`
+`cargo +nightly {{[b|build]}}`
 
 - Compiler en utilisant un nombre spécifique de threads (par défaut on prend le nombre de coeurs du CPU) :
 
-`cargo build --jobs {{nombre_de_threads}}`
+`cargo {{[b|build]}} {{[-j|--jobs]}} {{nombre_de_threads}}`

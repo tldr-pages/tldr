@@ -1,7 +1,7 @@
 # gdate
 
-> Perintah ini merupakan alias dari `-p linux date`.
+> Perintah ini merupakan alias dari `date`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux date`
+`tldr {{[-p|--platform]}} common date`

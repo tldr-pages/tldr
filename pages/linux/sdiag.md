@@ -5,16 +5,16 @@
 
 - Show all performance counters related to the execution of `slurmctld`:
 
-`sdiag --all`
+`sdiag {{[-a|--all]}}`
 
 - Reset performance counters related to the execution of `slurmctld`:
 
-`sdiag --reset`
+`sdiag {{[-r|--reset]}}`
 
 - Specify the output format:
 
-`sdiag --all --{{json|yaml}}`
+`sdiag {{[-a|--all]}} --{{json|yaml}}`
 
 - Specify the cluster to send commands to:
 
-`sdiag --all --cluster={{cluster_name}}`
+`sdiag {{[-a|--all]}} {{[-M|--cluster]}} {{cluster_name}}`

@@ -6,11 +6,11 @@
 
 - Create a new table in the storage account:
 
-`az storage table create --account-name {{storage_account_name}} --name {{table_name}} --fail-on-exist`
+`az storage table create --account-name {{storage_account_name}} {{[-n|--name]}} {{table_name}} --fail-on-exist`
 
 - Generate a shared access signature for the table:
 
-`az storage table generate-sas --account-name {{storage_account_name}} --name {{table_name}} --permissions {{sas_permissions}} --expiry {{expiry_date}} --https-only`
+`az storage table generate-sas --account-name {{storage_account_name}} {{[-n|--name]}} {{table_name}} --permissions {{sas_permissions}} --expiry {{expiry_date}} --https-only`
 
 - List tables in a storage account:
 
@@ -18,4 +18,4 @@
 
 - Delete the specified table and any data it contains:
 
-`az storage table delete --account-name {{storage_account_name}} --name {{table_name}} --fail-not-exist`
+`az storage table delete --account-name {{storage_account_name}} {{[-n|--name]}} {{table_name}} --fail-not-exist`

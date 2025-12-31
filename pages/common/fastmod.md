@@ -4,23 +4,23 @@
 > Regexes are matched by Rust regex crate.
 > More information: <https://github.com/facebookincubator/fastmod>.
 
-- Replace a regex pattern in all files of the current directory, ignoring files on .ignore and .gitignore:
+- Replace a `regex` in all files of the current directory, ignoring files on `.ignore` and `.gitignore`:
 
-`fastmod {{regex_pattern}} {{replacement}}`
+`fastmod {{regex}} {{replacement}}`
 
-- Replace a regex pattern in case-insensitive mode in specific files or directories:
+- Replace a `regex` in case-insensitive mode in specific files or directories:
 
-`fastmod --ignore-case {{regex_pattern}} {{replacement}} -- {{path/to/file path/to/directory ...}}`
+`fastmod --ignore-case {{regex}} {{replacement}} -- {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
-- Replace a regex pattern in a specific directory in files filtered with a case-insensitive glob pattern:
+- Replace a `regex` in a specific directory in files filtered with a case-insensitive glob pattern:
 
-`fastmod {{regex}} {{replacement}} --dir {{path/to/directory}} --iglob {{'**/*.{js,json}'}}`
+`fastmod {{regex}} {{replacement}} --dir {{path/to/directory}} --iglob '{{**/*.{js,json}}}'`
 
 - Replace for an exact string in `.js` or JSON files:
 
 `fastmod --fixed-strings {{exact_string}} {{replacement}} --extensions {{json,js}}`
 
-- Replace for an exact string without prompt for a confirmation (disables regular expressions):
+- Replace for an exact string without prompt for a confirmation (disables `regex`):
 
 `fastmod --accept-all --fixed-strings {{exact_string}} {{replacement}}`
 

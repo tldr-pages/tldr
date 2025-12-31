@@ -1,7 +1,7 @@
 # hostname
 
 > Toon of stel de hostnaam van het systeem in.
-> Meer informatie: <https://manned.org/hostname>.
+> Meer informatie: <https://www.gnu.org/software/inetutils/manual/inetutils.html#hostname-invocation>.
 
 - Toon de huidige hostnaam:
 
@@ -9,15 +9,11 @@
 
 - Toon het netwerkadres van de hostnaam:
 
-`hostname -i`
-
-- Toon alle netwerkadressen van de host:
-
-`hostname -I`
+`hostname {{[-i|--ip-address]}}`
 
 - Toon de FQDN (Fully Qualified Domain Name):
 
-`hostname --fqdn`
+`hostname {{[-f|--fqdn]}}`
 
 - Stel een nieuwe hostnaam in:
 

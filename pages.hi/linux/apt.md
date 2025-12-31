@@ -35,4 +35,4 @@
 
 - इन्सटाल्ड पैकेजों की सूची बनाएं:
 
-`apt list --installed`
+`apt list {{[-i|--installed]}}`

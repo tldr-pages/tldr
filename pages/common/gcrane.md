@@ -1,31 +1,35 @@
 # gcrane
 
 > Container images managing tool.
-> This tool implements a superset of the `crane` commands, with additional commands that are specific to `gcr.io`.
+> This tool implements a superset of the `crane` commands, with additional commands that are specific to Google Container Registry (`gcr.io`).
 > Some subcommands such as `append`, `auth`, `copy`, etc. have their own usage documentation which can be found under `crane`.
 > Some subcommands such as `completion`, `gc`, `help` are specific to gcrane and have their own usage documentation.
 > More information: <https://github.com/google/go-containerregistry/blob/main/cmd/gcrane/README.md>.
 
-- Execute a `gcrane` subcommand:
+- Login to a registry:
 
-`gcrane {{subcommand}}`
+`gcrane auth login {{registry}} {{[-u|--username]}} {{user}} {{[-p|--password]}} {{password}}`
 
-- Allow pushing non-distributable (foreign) layers:
+- List tags, manifests, and sub-repostiories:
 
-`gcrane --allow-nondistributable-artifacts {{subcommand}}`
+`gcrane ls {{registry}}/{{project_id}}`
 
-- Allow image references to be fetched without TLS:
+- Copy images from one registry to another:
 
-`gcrane --insecure {{subcommand}}`
+`gcrane cp {{[-r|--recursive]}} {{source_registry}}/{{project_id}}/{{repository}} {{target_registry}}/{{project_id}}/{{repository}}`
 
-- Specify the platform in the form os/arch{{/variant}}{{:osversion}} (e.g. linux/amd64). (default all):
+- Print images that can be garbage collected:
 
-`gcrane --platform {{platform}} {{subcommand}}`
+`gcrane gc {{registry}}/{{project_id}}/{{repository}}`
 
-- Enable debug logs:
+- Delete images that can be garbage collected:
 
-`gcrane {{-v|--verbose}} {{subcommand}}`
+`gcrane gc {{registry}}/{{project_id}}/{{repository}} | xargs {{[-n|--max-args]}} 1 gcrane delete`
 
-- Display help:
+- List a specific registry with specific ID:
 
-`gcrane {{-h|--help}}`
+`gcrane ls {{gcr.io}}/{{my-project-id}}`
+
+- Migrate all images from US registry to EU registry:
+
+`gcrane cp {{[-r|--recursive]}} {{gcr.io}}/{{my-project-id}}/{{repository}} {{eu.gcr.io}}/{{my-project-id}}/{{repository}}`

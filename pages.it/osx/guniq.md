@@ -1,7 +1,7 @@
 # guniq
 
-> Questo comando è un alias per `-p linux uniq`.
+> Questo comando è un alias per `uniq`.
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux uniq`
+`tldr uniq`

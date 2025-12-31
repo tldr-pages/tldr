@@ -7,6 +7,6 @@
 
 `ruget {{https://example.com/file}}`
 
-- Download the contents of a URL to a specified [o]utput file:
+- Download the contents of a URL to a specified output file:
 
-`ruget --output {{file_name}} {{https://example.com/file}}`
+`ruget {{[-o|--output]}} {{file_name}} {{https://example.com/file}}`

@@ -1,7 +1,7 @@
 # mkdocs
 
 > Markdown으로 프로젝트 문서화.
-> 더 많은 정보: <https://www.mkdocs.org>.
+> 더 많은 정보: <https://www.mkdocs.org/user-guide/cli/>.
 
 - 새 mkdocs 프로젝트 생성:
 

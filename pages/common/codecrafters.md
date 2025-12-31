@@ -1,7 +1,7 @@
 # codecrafters
 
 > Practice writing complex software.
-> More information: <https://codecrafters.io/>.
+> More information: <https://docs.codecrafters.io/cli/usage>.
 
 - Run tests without committing changes:
 
@@ -14,3 +14,7 @@
 - Commit changes and submit, to move to the next stage:
 
 `codecrafters submit`
+
+- Update language version:
+
+`codecrafters update-buildpack`

@@ -2,7 +2,7 @@
 
 > Resume operation of tasks or groups of tasks.
 > See also: `pueue pause`.
-> More information: <https://github.com/Nukesor/pueue>.
+> More information: <https://github.com/Nukesor/pueue#how-to-use-it>.
 
 - Resume all tasks in the default group:
 
@@ -18,7 +18,7 @@
 
 - Resume all tasks and start their children:
 
-`pueue start --all --children`
+`pueue start {{[-a|--all]}} --children`
 
 - Resume all tasks in a specific group:
 

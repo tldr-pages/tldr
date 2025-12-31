@@ -8,9 +8,9 @@
 
 `kill {{proces_id}}`
 
-- Toon signaalwaarden en hun overeenkomstige namen (te gebruiken zonder het `SIG` voorvoegsel):
+- Toon signaalwaarden en hun overeenkomstige namen (te gebruiken zonder het `SIG` voorvoegsel). De beschikbare opties kunnen afhangen van de implementatie van `kill`:
 
-`kill -L`
+`kill {{-l|-L|--table}}`
 
 - Beëindig een achtergrondtaak:
 
@@ -20,7 +20,7 @@
 
 `kill -{{1|HUP}} {{proces_id}}`
 
-- Beëindig een programma met behulp van het SIGINT (interrupt) signaal. Dit wordt meestal geïnitieerd door de gebruiker die `Ctrl + C` indrukt:
+- Beëindig een programma met behulp van het SIGINT (interrupt) signaal. Dit wordt meestal geïnitieerd door de gebruiker die `<Ctrl c>` indrukt:
 
 `kill -{{2|INT}} {{proces_id}}`
 

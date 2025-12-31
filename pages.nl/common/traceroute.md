@@ -1,6 +1,7 @@
 # traceroute
 
 > Toon het pad dat pakketjes volgen naar een netwerkhost.
+> Zie ook: `mtr`.
 > Meer informatie: <https://manned.org/traceroute>.
 
 - Traceroute naar een host:
@@ -13,11 +14,11 @@
 
 - Specificeer wachttijd in seconden voor antwoord:
 
-`traceroute --wait={{0.5}} {{example.com}}`
+`traceroute {{[-w|--wait]}} {{0.5}} {{example.com}}`
 
 - Specificeer het aantal queries per hop:
 
-`traceroute --queries={{5}} {{example.com}}`
+`traceroute {{[-q|--queries]}} {{5}} {{example.com}}`
 
 - Specificeer de grootte in bytes van het peilpakket:
 
@@ -29,4 +30,4 @@
 
 - Gebruik ICMP in plaats van UDP voor tracerouting:
 
-`traceroute --icmp {{example.com}}`
+`traceroute {{[-I|--icmp]}} {{example.com}}`

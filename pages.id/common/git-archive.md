@@ -3,26 +3,26 @@
 > Buat sebuah arsip direktori berdasarkan cabang/tree tertentu.
 > Informasi lebih lanjut: <https://git-scm.com/docs/git-archive>.
 
-- Buat sebuah arsip tar berisikan isi dari tree HEAD saat ini, kemudian tampilkan isi file arsip mentah menuju `stdout`:
+- Buat sebuah arsip `.tar` berisikan isi dari tree HEAD saat ini, kemudian tampilkan isi file arsip mentah menuju `stdout`:
 
-`git archive {{-v|--verbose}} HEAD`
+`git archive {{[-v|--verbose]}} HEAD`
 
 - Buat sebuah arsip zip dari tree HEAD saat ini, kemudian tampilkan isi file arsip mentah menuju `stdout`:
 
-`git archive {{-v|--verbose}} --format zip HEAD`
+`git archive {{[-v|--verbose]}} --format zip HEAD`
 
 - Lakukan hal yang sama, namun simpan arsip zip ke dalam suatu direktori:
 
-`git archive {{-v|--verbose}} {{-o|--output}} {{jalan/menuju/file.zip}} HEAD`
+`git archive {{[-v|--verbose]}} {{[-o|--output]}} {{jalan/menuju/file.zip}} HEAD`
 
-- Buat arsip tar dari komit terakhir pada cabang tertentu:
+- Buat arsip `.tar` dari komit terakhir pada cabang tertentu:
 
-`git archive {{-o|--output}} {{jalan/menuju/file.tar}} {{nama_cabang}}`
+`git archive {{[-o|--output]}} {{jalan/menuju/file.tar}} {{nama_cabang}}`
 
-- Buat arsip tar berdasaran subdirektori tertentu pada suatu repositori Git:
+- Buat arsip `.tar` berdasaran subdirektori tertentu pada suatu repositori Git:
 
-`git archive {{-o|--output}} {{jalan/menuju/file.tar}} HEAD:{{jalan/menuju/direktori}}`
+`git archive {{[-o|--output]}} {{jalan/menuju/file.tar}} HEAD:{{jalan/menuju/direktori}}`
 
 - Bubuhkan nama jalur pada awal nama setiap file, untuk diarsipkan di dalam direktori tertentu:
 
-`git archive {{-o|--output}} {{jalan/menuju/file.tar}} --prefix {{jalan/untuk/dibubuhkan}}/ HEAD`
+`git archive {{[-o|--output]}} {{jalan/menuju/file.tar}} --prefix {{jalan/untuk/dibubuhkan}}/ HEAD`

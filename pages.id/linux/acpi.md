@@ -1,7 +1,7 @@
 # acpi
 
 > Tampilkan status baterai atau informasi suhu.
-> Informasi lebih lanjut: <https://sourceforge.net/projects/acpiclient/files/acpiclient/>.
+> Informasi lebih lanjut: <https://manned.org/acpi>.
 
 - Tampilkan informasi baterai:
 
@@ -9,20 +9,20 @@
 
 - Tampilkan informasi suhu:
 
-`acpi -t`
+`acpi {{[-t|--thermal]}}`
 
 - Tampilkan informasi perangkat pendingin:
 
-`acpi -c`
+`acpi {{[-c|--cooling]}}`
 
 - Tampilkan informasi suhu dalam Fahrenheit:
 
-`acpi -tf`
+`acpi {{[-tf|--thermal --fahrenheit]}}`
 
 - Tampilkan semua informasi:
 
-`acpi -V`
+`acpi {{[-V|--everything]}}`
 
 - Ekstrak informasi dari `/proc` daripada `/sys`:
 
-`acpi -p`
+`acpi {{[-p|--proc]}}`

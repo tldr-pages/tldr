@@ -1,12 +1,20 @@
 # aa-status
 
 > Toon de momenteel geladen AppArmor-modules.
-> Bekijk ook: `aa-complain`, `aa-disable`, `aa-enforce`.
+> Zie ook: `aa-complain`, `aa-disable`, `aa-enforce`.
 > Meer informatie: <https://gitlab.com/apparmor/apparmor/-/wikis/manpage_aa-status.8>.
 
 - Controleer de status:
 
 `sudo aa-status`
+
+- Toon status in JSON-formaat:
+
+`sudo aa-status --json`
+
+- Toon status in geformatteerd JSON-formaat:
+
+`sudo aa-status --pretty-json`
 
 - Toon het aantal geladen profielen:
 

@@ -9,7 +9,7 @@
 
 - Muestra el historial de un archivo o directorio específico, incluyendo las diferencias:
 
-`git log {{-p|-u|--patch}} {{ruta/al/archivo_o_directorio}}`
+`git log {{[-p|--patch]}} {{ruta/al/archivo_o_directorio}}`
 
 - Muestra un resumen de los archivos, o archivo, cambiados en cada confirmación:
 
@@ -25,11 +25,11 @@
 
 - Muestra solo las confirmaciones cuyo mensaje incluye una cadena dada (no diferencia entre mayúsculas y minúsculas):
 
-`git log {{-i|--regexp-ignore-case}} --grep {{cadena_a_buscar}}`
+`git log {{[-i|--regexp-ignore-case]}} --grep {{cadena_a_buscar}}`
 
 - Muestra las últimas N confirmaciones de determinado autor:
 
-`git log {{-n|--max-count}} {{número}} --author "{{autor}}"`
+`git log {{[-n|--max-count]}} {{número}} --author "{{autor}}"`
 
 - Muestra las confirmaciones entre dos fechas (yyyy-mm-dd):
 

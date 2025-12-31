@@ -1,6 +1,6 @@
 # argocd app
 
-> Command-line interface to manage applications by Argo CD.
+> Interface to manage applications by Argo CD.
 > More information: <https://argo-cd.readthedocs.io/en/stable/user-guide/commands/argocd_app/>.
 
 - List applications:

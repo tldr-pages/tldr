@@ -1,4 +1,4 @@
-# vboxmanage-startvm
+# VBoxManage startvm
 
 > 가상 머신 시작.
 > 더 많은 정보: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-startvm>.

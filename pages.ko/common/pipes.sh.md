@@ -1,7 +1,7 @@
 # pipes.sh
 
 > 터미널에 무작위 경로의 파이프를 그리는 Bash 스크립트.
-> 더 많은 정보: <https://github.com/pipeseroni/pipes.sh>.
+> 더 많은 정보: <https://github.com/pipeseroni/pipes.sh#options>.
 
 - 파이프의 패턴 변경:
 

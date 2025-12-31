@@ -1,7 +1,7 @@
 # calcurse
 
 > Um calendário e agenda baseados em texto para a linha de comando.
-> Mais informações: <https://calcurse.org>.
+> Mais informações: <https://github.com/lfos/calcurse/blob/pu/doc/calcurse.1.txt>.
 
 - Inicia o calcurse em modo interativo:
 

@@ -1,7 +1,7 @@
 # rubocop
 
 > 格式化 Ruby 文件。
-> 更多信息：<https://docs.rubocop.org/rubocop/usage/basic_usage.html>.
+> 更多信息：<https://docs.rubocop.org/rubocop/usage/basic_usage.html>。
 
 - 检查当前目录中的所有文件（包括子目录）：
 
@@ -9,7 +9,7 @@
 
 - 检查一个或多个指定文件或目录：
 
-`rubocop {{路径/到/文件1  路径/到/文件2 ...}}`
+`rubocop {{路径/到/文件1 路径/到/文件2 ...}}`
 
 - 将输出写入指定文件：
 

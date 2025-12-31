@@ -1,7 +1,7 @@
 # perf
 
 > Framework for Linux performance counter measurements.
-> More information: <https://perf.wiki.kernel.org>.
+> More information: <https://perfwiki.github.io/main/>.
 
 - Display basic performance counter stats for a command:
 
@@ -17,7 +17,7 @@
 
 - Record the profile of an existing process into `perf.data`:
 
-`sudo perf record -p {{pid}}`
+`sudo perf record {{[-p|--pid]}} {{pid}}`
 
 - Read `perf.data` (created by `perf record`) and display the profile:
 

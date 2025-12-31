@@ -13,7 +13,7 @@
 
 - 캐시 이미지 레이어 경로:
 
-`crane pull {{이미지_이름}} {{경로/대상/tarball}} {{-c|--cache_path}} {{경로/대상/캐시}}`
+`crane pull {{이미지_이름}} {{경로/대상/tarball}} {{[-c|--cache_path]}} {{경로/대상/캐시}}`
 
 - 이미지를 저장할 형식 지정 (기본값 'tarball'):
 
@@ -21,4 +21,4 @@
 
 - 도움말 표시:
 
-`crane pull {{-h|--help}}`
+`crane pull {{[-h|--help]}}`

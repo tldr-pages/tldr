@@ -1,6 +1,6 @@
 # java_home
 
-> Return a value for $JAVA_HOME or execute command using this variable.
+> Return a value for `$JAVA_HOME` or execute command using this variable.
 > More information: <https://www.unix.com/man-page/osx/1/java_home>.
 
 - List JVMs based on a specific version:

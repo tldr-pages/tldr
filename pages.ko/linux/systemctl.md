@@ -1,7 +1,7 @@
 # systemctl
 
 > systemd 시스템 및 서비스 관리자를 제어합니다.
-> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/systemctl.html>.
+> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html>.
 
 - 실행 중인 서비스 모두 표시:
 
@@ -29,7 +29,7 @@
 
 - 실행 중이거나 실패한 상태로 필터링하여 모든 서비스/소켓/자동 마운트 유닛 나열:
 
-`systemctl list-units --type={{service|socket|automount}} --state={{failed|running}}`
+`systemctl list-units {{[-t|--type]}} {{service|socket|automount}} --state {{failed|running}}`
 
 - 유닛 파일의 내용 및 절대 경로 표시:
 

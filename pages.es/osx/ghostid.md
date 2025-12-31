@@ -1,7 +1,7 @@
 # ghostid
 
-> Este comando es un alias de `-p linux hostid`.
+> Este comando es un alias de `hostid`.
 
-- Muestra la documentación del comando original:
+- Vea la documentación para el comando original:
 
-`tldr -p linux hostid`
+`tldr hostid`

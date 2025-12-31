@@ -2,7 +2,7 @@
 
 > Work seamlessly with GitHub.
 > Some subcommands such as `config` have their own usage documentation.
-> More information: <https://cli.github.com/>.
+> More information: <https://cli.github.com/manual/gh>.
 
 - Clone a GitHub repository locally:
 
@@ -10,27 +10,27 @@
 
 - Create a new issue:
 
-`gh issue create`
+`gh issue {{[new|create]}}`
 
 - View and filter the open issues of the current repository:
 
-`gh issue list`
+`gh issue {{[ls|list]}}`
 
 - View an issue in the default web browser:
 
-`gh issue view --web {{issue_number}}`
+`gh issue view {{[-w|--web]}} {{issue_number|url}}`
 
 - Create a pull request:
 
-`gh pr create`
+`gh pr {{[new|create]}}`
 
 - View a pull request in the default web browser:
 
-`gh pr view --web {{pr_number}}`
+`gh pr view {{[-w|--web]}} {{pr_number|url|branch}}`
 
 - Check out a specific pull request locally:
 
-`gh pr checkout {{pr_number}}`
+`gh {{[co|pr checkout]}} {{pr_number|url|branch}}`
 
 - Check the status of a repository's pull requests:
 

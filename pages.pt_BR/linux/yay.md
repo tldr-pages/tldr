@@ -1,8 +1,8 @@
 # yay
 
 > Yet Another Yogurt: Um utilitário de Arch Linux para compilar e instalar pacotes do AUR (Arch User Repository).
-> Veja também `pacman`.
-> Mais informações: <https://github.com/Jguer/yay>.
+> Veja também: `pacman`.
+> Mais informações: <https://github.com/Jguer/yay#first-use>.
 
 - Busca interativamente e instala pacotes dos repositórios e AUR:
 

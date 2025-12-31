@@ -9,11 +9,11 @@
 
 - Use sudo and sudoedit to remove and merge files:
 
-`pacdiff --sudo`
+`pacdiff {{[-s|--sudo]}}`
 
 - Review files needing maintenance, creating `.bak`ups of the original if you `(O)verwrite`:
 
-`pacdiff --sudo --backup`
+`pacdiff {{[-s|--sudo]}} {{[-b|--backup]}}`
 
 - Use a specific editor to view and merge configuration files (default is `vim -d`):
 
@@ -21,8 +21,8 @@
 
 - Scan for configuration files with `locate` instead of using `pacman` database:
 
-`pacdiff --locate`
+`pacdiff {{[-l|--locate]}}`
 
 - Display help:
 
-`pacdiff --help`
+`pacdiff {{[-h|--help]}}`

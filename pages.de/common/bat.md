@@ -2,7 +2,7 @@
 
 > Ausgabe und Verkettung von einzelnen Dateien.
 > Ein `cat`-Ersatz mit Syntax-Hervorhebung und Git-Integration.
-> Weitere Informationen: <https://github.com/sharkdp/bat>.
+> Weitere Informationen: <https://manned.org/bat>.
 
 - Gib den Inhalt einer Datei in `stdout` aus:
 
@@ -18,12 +18,12 @@
 
 - Nummeriere alle ausgegebenen Zeilen:
 
-`bat --number {{pfad/zu/datei}}`
+`bat {{[-n|--number]}} {{pfad/zu/datei}}`
 
 - Hebe die Syntax einer JSON-Datei hervor:
 
-`bat --language json {{pfad/zu/datei.json}}`
+`bat {{[-l|--language]}} json {{pfad/zu/datei.json}}`
 
 - Zeige alle unterstützten Sprachen an:
 
-`bat --list-languages`
+`bat {{[-L|--list-languages]}}`

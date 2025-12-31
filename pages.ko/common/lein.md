@@ -1,7 +1,7 @@
 # lein
 
 > 선언적 구성을 사용하여 Clojure 프로젝트를 관리.
-> 더 많은 정보: <https://leiningen.org>.
+> 더 많은 정보: <https://manned.org/lein>.
 
 - 템플릿을 기반으로 새 프로젝트의 구조 생성:
 

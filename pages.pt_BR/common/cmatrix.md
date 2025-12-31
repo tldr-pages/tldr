@@ -1,7 +1,7 @@
 # cmatrix
 
 > Exibe um padrão semelhante à Matrix rolando na tela do terminal.
-> Mais informações: <https://github.com/abishekvashok/cmatrix>.
+> Mais informações: <https://manned.org/cmatrix>.
 
 - Habilita rolagem assíncrona:
 

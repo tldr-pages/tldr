@@ -2,7 +2,7 @@
 
 > Wypisz i łącz pliki.
 > Klon `cat` z podświetlaniem składni i integracją z Gitem.
-> Więcej informacji: <https://github.com/sharkdp/bat>.
+> Więcej informacji: <https://manned.org/bat>.
 
 - Wypisz zawartość pliku na standardowe wyjście:
 
@@ -18,12 +18,12 @@
 
 - Ponumeruj wszystkie linie:
 
-`bat --number {{ścieżka/do/pliku}}`
+`bat {{[-n|--number]}} {{ścieżka/do/pliku}}`
 
 - Podświetl składnię pliku JSON:
 
-`bat --language json {{plik.json}}`
+`bat {{[-l|--language]}} json {{plik.json}}`
 
 - Wyświetl wszystkie obsługiwane języki:
 
-`bat --list-languages`
+`bat {{[-L|--list-languages]}}`

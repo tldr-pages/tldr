@@ -13,11 +13,11 @@
 
 - Open the settings page of the current repository in the default web browser:
 
-`gh browse --settings`
+`gh browse {{[-s|--settings]}}`
 
 - Open the wiki of the current repository in the default web browser:
 
-`gh browse --wiki`
+`gh browse {{[-w|--wiki]}}`
 
 - Open a specific issue or pull request in the web browser:
 
@@ -25,7 +25,7 @@
 
 - Open a specific branch in the web browser:
 
-`gh browse --branch {{branch_name}}`
+`gh browse {{[-b|--branch]}} {{branch_name}}`
 
 - Open a specific file or directory of the current repository in the web browser:
 
@@ -33,4 +33,4 @@
 
 - Print the destination URL without open the web browser:
 
-`gh browse --no-browser`
+`gh browse {{[-n|--no-browser]}}`

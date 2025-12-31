@@ -1,7 +1,7 @@
 # gstty
 
-> Perintah ini merupakan alias dari `-p linux stty`.
+> Perintah ini merupakan alias dari `stty`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux stty`
+`tldr stty`

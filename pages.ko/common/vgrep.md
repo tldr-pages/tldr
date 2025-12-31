@@ -2,7 +2,7 @@
 
 > 사용하기 쉬운 grep용 페이지 도구.
 > 같이 보기: `ugrep`, `rg`.
-> 더 많은 정보: <https://github.com/vrothberg/vgrep>.
+> 더 많은 정보: <https://github.com/vrothberg/vgrep/blob/main/docs/vgrep.1.md>.
 
 - 현재 디렉토리에서 패턴을 재귀적으로 검색하고 캐시:
 

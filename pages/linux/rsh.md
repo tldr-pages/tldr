@@ -1,7 +1,7 @@
 # rsh
 
 > Execute commands on a remote host.
-> More information: <https://www.gnu.org/software/inetutils/manual/html_node/rsh-invocation.html>.
+> More information: <https://www.gnu.org/software/inetutils/manual/inetutils.html#rsh-invocation>.
 
 - Execute a command on a remote host:
 
@@ -9,7 +9,7 @@
 
 - Execute a command on a remote host with a specific username:
 
-`rsh {{remote_host}} -l {{username}} {{ls -l}}`
+`rsh {{remote_host}} {{[-l|--user]}} {{username}} {{ls -l}}`
 
 - Redirect `stdin` to `/dev/null` when executing a command on a remote host:
 

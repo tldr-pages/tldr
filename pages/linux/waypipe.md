@@ -10,3 +10,11 @@
 - Open an SSH tunnel to run any program remotely and display it locally:
 
 `waypipe ssh {{user}}@{{server}}`
+
+- Skip testing for Vulkan support:
+
+`waypipe --test-skip-vulkan ssh {{user}}@{{server}} {{program}}`
+
+- Display help:
+
+`waypipe {{[-h|--help]}}`

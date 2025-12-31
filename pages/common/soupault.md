@@ -2,7 +2,7 @@
 
 > A static website generator based on HTML element tree rewriting.
 > It can also be used as an HTML post-processor or metadata extractor.
-> More information: <https://soupault.app>.
+> More information: <https://soupault.net/reference-manual/>.
 
 - Initialize a minimal website project in the current working directory:
 
@@ -14,7 +14,7 @@
 
 - Override default configuration file and directory locations:
 
-`soupault --config {{config_path}} --site-dir {{input_dir}} --build-dir {{output_dir}}`
+`soupault --config {{config_path}} --site-dir {{input_directory}} --build-dir {{output_directory}}`
 
 - Extract metadata into a JSON file without generating pages:
 

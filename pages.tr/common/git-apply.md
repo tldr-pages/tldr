@@ -5,7 +5,7 @@
 
 - Yamalanan dosyalarla ilgili mesajları yazdır:
 
-`git apply --verbose {{örnek/dosya}}`
+`git apply {{[-v|--verbose]}} {{örnek/dosya}}`
 
 - Yamalanan dosyaları indekse uygula ve ekle:
 
@@ -13,7 +13,7 @@
 
 - Uzak yama dosyası uygula:
 
-`curl -L {{https://ornek.com/dosya.patch}} | git apply`
+`curl {{[-L|--location]}} {{https://ornek.com/dosya.patch}} | git apply`
 
 - Çıktı için fark statistiği çıkar ve yamayı uygula:
 
@@ -21,7 +21,7 @@
 
 - Yamayı tersten uygula:
 
-`git apply --reverse {{örnek/dosya}}`
+`git apply {{[-R|--reverse]}} {{örnek/dosya}}`
 
 - Yama sonucunu çalışan ağacı değiştirmeden indekste sakla:
 

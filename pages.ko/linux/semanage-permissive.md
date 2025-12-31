@@ -7,7 +7,7 @@
 
 - 허용 모드에 있는 모든 프로세스 유형(도메인) 나열:
 
-`sudo semanage permissive {{-l|--list}}`
+`sudo semanage permissive {{[-l|--list]}}`
 
 - 도메인에 대한 허용 모드를 설정하거나 해제:
 

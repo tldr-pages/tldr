@@ -1,7 +1,7 @@
 # go version
 
 > Go 버전을 표시.
-> 더 많은 정보: <https://golang.org/cmd/go/#hdr-Print_Go_version>.
+> 더 많은 정보: <https://pkg.go.dev/cmd/go#hdr-Print_Go_version>.
 
 - 버전 표시:
 

@@ -1,7 +1,7 @@
 # loginctl
 
 > Zarządzaj menedżerem logowania systemd.
-> Więcej informacji: <https://www.freedesktop.org/software/systemd/man/loginctl.html>.
+> Więcej informacji: <https://www.freedesktop.org/software/systemd/man/latest/loginctl.html>.
 
 - Wyświetl wszystkie aktualne sesje:
 
@@ -17,7 +17,7 @@
 
 - Wyświetl podaną właściwość użytkownika:
 
-`loginctl show-user {{nazwa_użytkownika}} --property={{nazwa_właściwości}}`
+`loginctl show-user {{nazwa_użytkownika}} --property {{nazwa_właściwości}}`
 
 - Uruchom operację `loginctl` na zdalnym hoście:
 

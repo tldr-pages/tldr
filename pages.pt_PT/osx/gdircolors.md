@@ -1,7 +1,7 @@
 # gdircolors
 
-> Este comando é um alias de `-p linux dircolors`.
+> Este comando é um alias de `dircolors`.
 
-- Exibe documentação do comando original:
+- Ver documentação do comando original:
 
-`tldr -p linux dircolors`
+`tldr dircolors`

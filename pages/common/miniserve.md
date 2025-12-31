@@ -1,7 +1,7 @@
 # miniserve
 
 > Simple HTTP file server.
-> More information: <https://github.com/svenstaro/miniserve>.
+> More information: <https://github.com/svenstaro/miniserve#usage>.
 
 - Serve a directory:
 
@@ -13,4 +13,4 @@
 
 - Serve a directory using HTTP basic authentication:
 
-`miniserve --auth {{username}}:{{password}} {{path/to/directory}}`
+`miniserve {{[-a|--auth]}} {{username}}:{{password}} {{path/to/directory}}`

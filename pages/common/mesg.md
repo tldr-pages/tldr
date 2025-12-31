@@ -1,7 +1,7 @@
 # mesg
 
 > Check or set a terminal's ability to receive messages from other users, usually from the `write` command.
-> See also `write`, `talk`.
+> See also: `write`, `talk`.
 > More information: <https://manned.org/mesg.1p>.
 
 - Check terminal's openness to write messages:

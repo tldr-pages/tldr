@@ -1,7 +1,7 @@
 # mkfs.erofs
 
 > 이미지 내에 EROFS 파일 시스템 생성.
-> 더 많은 정보: <https://erofs.docs.kernel.org/en/latest/>.
+> 더 많은 정보: <https://manned.org/mkfs.erofs>.
 
 - 루트 디렉토리를 기반으로 EROFS 파일 시스템 생성:
 

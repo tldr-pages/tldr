@@ -1,4 +1,4 @@
-# Vertical bar
+# |
 
 > 프로그램 간에 데이터를 파이핑합니다.
 > 더 많은 정보: <https://gnu.org/software/bash/manual/bash.html#Pipelines>.

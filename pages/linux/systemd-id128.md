@@ -1,7 +1,7 @@
 # systemd-id128
 
 > Generate and print sd-128 identifiers.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemd-id128.html>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemd-id128.html>.
 
 - Generate a new random identifier:
 
@@ -21,4 +21,4 @@
 
 - Generate a new random identifier and print it as a UUID (five groups of digits separated by hyphens):
 
-`systemd-id128 new --uuid`
+`systemd-id128 new {{[-u|--uuid]}}`

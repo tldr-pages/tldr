@@ -6,20 +6,20 @@
 
 - Create subvolume:
 
-`sudo btrfs subvolume create {{path/to/subvolume}}`
+`sudo btrfs {{[su|subvolume]}} {{[c|create]}} {{path/to/subvolume}}`
 
 - List subvolumes:
 
-`sudo btrfs subvolume list {{path/to/mount_point}}`
+`sudo btrfs {{[su|subvolume]}} {{[l|list]}} {{path/to/mount_point}}`
 
 - Show space usage information:
 
-`sudo btrfs filesystem df {{path/to/mount_point}}`
+`sudo btrfs {{[f|filesystem]}} df {{path/to/mount_point}}`
 
 - Enable quota:
 
-`sudo btrfs quota enable {{path/to/subvolume}}`
+`sudo btrfs {{[qu|quota]}} {{[e|enable]}} {{path/to/subvolume}}`
 
 - Show quota:
 
-`sudo btrfs qgroup show {{path/to/subvolume}}`
+`sudo btrfs {{[qg|qgroup]}} {{[s|show]}} {{path/to/subvolume}}`

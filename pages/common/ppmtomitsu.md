@@ -9,8 +9,8 @@
 
 - Enlarge the image by the specified factor, use the specified sharpness and produce `n` copies:
 
-`ppmtomitsu -enlarge {{1|2|3}} -sharpness {{1|2|3|4}} -copy {{n}} {{path/to/file.ppm}} > {{path/to/file.mitsu}}`
+`ppmtomitsu {{[-e|-enlarge]}} {{1|2|3}} {{[-s|-sharpness]}} {{1|2|3|4}} {{[-c|-copy]}} {{n}} {{path/to/file.ppm}} > {{path/to/file.mitsu}}`
 
 - Use the given medium for the printing process:
 
-`ppmtomitsu -media {{A|A4|AS|A4S}} {{path/to/file.ppm}} > {{path/to/file.mitsu}}`
+`ppmtomitsu {{[-m|-media]}} {{A|A4|AS|A4S}} {{path/to/file.ppm}} > {{path/to/file.mitsu}}`

@@ -17,7 +17,7 @@
 
 - Mostra as alterações de todos os commits desde uma determinada data/hora (uma expressão de data, por exemplo, "1 week 2 days" ou uma data ISO):
 
-`git diff 'HEAD@{3 months|weeks|days|hours|seconds ago}'`
+`git diff 'HEAD@{{{3 months|weeks|days|hours|seconds ago}}}'`
 
 - Mostra estatísticas de comparação, como arquivos alterados, histogramas e número total de inserções/exclusões de linha:
 
@@ -29,7 +29,7 @@
 
 - Compara um único arquivo entre duas branches ou commits:
 
-`git diff {{branch_1}}..{{branch_2}} [--] {{caminho/para/arquivo}}`
+`git diff {{branch_1}}..{{branch_2}} {{caminho/para/arquivo}}`
 
 - Compara diferentes arquivos da branch atual com outra branch:
 

@@ -1,7 +1,7 @@
 # qm stop
 
 > Stop a virtual machine.
-> More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
+> More information: <https://pve.proxmox.com/pve-docs/qm.1.html#cli_qm_stop>.
 
 - Stop a virtual machine immediately:
 

@@ -1,7 +1,7 @@
 # calc
 
 > Ein interaktiver Rechner im Terminal mit beliebiger Genauigkeit.
-> Weitere Informationen: <https://github.com/lcn2/calc>.
+> Weitere Informationen: <https://manned.org/calc>.
 
 - Starte `calc` im interaktiven Modus:
 

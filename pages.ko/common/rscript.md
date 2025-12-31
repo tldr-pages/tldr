@@ -1,7 +1,7 @@
 # Rscript
 
 > R 프로그래밍 언어로 스크립트를 실행.
-> 더 많은 정보: <https://www.r-project.org>.
+> 더 많은 정보: <https://manned.org/Rscript>.
 
 - 스크립트 실행:
 

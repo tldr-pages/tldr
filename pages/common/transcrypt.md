@@ -1,7 +1,7 @@
 # transcrypt
 
 > Transparently encrypt files within a Git repository.
-> More information: <https://github.com/elasticdog/transcrypt>.
+> More information: <https://github.com/elasticdog/transcrypt#command-line-options>.
 
 - Initialize an unconfigured repository:
 
@@ -13,12 +13,12 @@
 
 - Display the credentials of a configured repository:
 
-`transcrypt --display`
+`transcrypt {{[-d|--display]}}`
 
 - Initialize and decrypt a fresh clone of a configured repository:
 
-`transcrypt --cipher={{cipher}}`
+`transcrypt {{[-c|--cipher]}} {{cipher}}`
 
 - Rekey to change the encryption cipher or password:
 
-`transcrypt --rekey`
+`transcrypt {{[-r|--rekey]}}`

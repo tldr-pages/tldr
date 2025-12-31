@@ -7,7 +7,7 @@
 
 `xdotool search --onlyvisible --name {{firefox}}`
 
-- 오른쪽 마우스 버튼 클릭:
+- 오`<RightClick>`:
 
 `xdotool click {{3}}`
 
@@ -23,6 +23,6 @@
 
 `xdotool type --delay {{500}} "Hello world"`
 
-- Enter 키 누르기:
+- `<Enter>` 키 누르기:
 
 `xdotool key {{KP_Enter}}`

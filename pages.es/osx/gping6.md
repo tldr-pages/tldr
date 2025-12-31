@@ -1,7 +1,7 @@
 # gping6
 
-> Este comando es un alias de `-p linux ping6`.
+> Este comando es un alias de `ping6`.
 
-- Muestra la documentación del comando original:
+- Vea la documentación para el comando original:
 
-`tldr -p linux ping6`
+`tldr ping6`

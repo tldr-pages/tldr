@@ -1,7 +1,7 @@
 # cd
 
 > Change the current working directory.
-> More information: <https://manned.org/cd>.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-cd>.
 
 - Go to the specified directory:
 

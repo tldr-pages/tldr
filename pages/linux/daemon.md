@@ -1,7 +1,7 @@
 # daemon
 
-> Run processes into daemons.
-> More information: <https://manned.org/daemon>.
+> Turns other processes into daemons.
+> More information: <https://manned.org/daemon.1>.
 
 - Run a command as a daemon:
 
@@ -9,11 +9,11 @@
 
 - Run a command as a daemon which will restart if the command crashes:
 
-`daemon --name="{{name}}" --respawn {{command}}`
+`daemon --name="{{name}}" {{[-r|--respawn]}} {{command}}`
 
 - Run a command as a daemon which will restart if it crashes, with two attempts every 10 seconds:
 
-`daemon --name="{{name}}" --respawn --attempts=2 --delay=10 {{command}}`
+`daemon --name="{{name}}" {{[-r|--respawn]}} --attempts=2 --delay=10 {{command}}`
 
 - Run a command as a daemon, writing logs to a specific file:
 

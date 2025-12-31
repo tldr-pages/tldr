@@ -2,7 +2,7 @@
 
 > Administrador de paquetes para RHEL, CentOS y Fedora (Reemplaza a yum).
 > Para comandos equivalentes en otros administradores de paquetes, vea <https://wiki.archlinux.org/title/Pacman/Rosetta>.
-> Más información: <https://dnf.readthedocs.io>.
+> Más información: <https://dnf.readthedocs.io/en/latest/command_ref.html>.
 
 - Actualiza todos los paquetes a la última versión disponible:
 

@@ -1,7 +1,7 @@
 # varnishlog
 
 > Display Varnish logs.
-> More information: <https://varnish-cache.org/docs/trunk/reference/varnishlog.html>.
+> More information: <https://vinyl-cache.org/docs/trunk/reference/varnishlog.html>.
 
 - Display logs in real time:
 
@@ -17,8 +17,8 @@
 
 - Only display requests to a specific path:
 
-`varnishlog -q 'ReqURL eq "{{/path}}"'`
+`varnishlog -q 'ReqURL eq "/{{path}}"'`
 
-- Only display requests to paths matching a regular expression:
+- Only display requests to paths matching a `regex`:
 
 `varnishlog -q 'ReqURL ~ "{{regex}}"'`

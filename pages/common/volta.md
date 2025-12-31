@@ -1,7 +1,7 @@
 # volta
 
 > A JavaScript Tool Manager that installs Node.js runtimes, npm and Yarn package managers, or any binaries from npm.
-> More information: <https://volta.sh>.
+> More information: <https://docs.volta.sh/reference/>.
 
 - List all installed tools:
 

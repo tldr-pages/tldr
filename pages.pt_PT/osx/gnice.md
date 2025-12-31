@@ -1,7 +1,7 @@
 # gnice
 
-> Este comando é um alias de `-p linux nice`.
+> Este comando é um alias de `nice`.
 
-- Exibe documentação do comando original:
+- Ver documentação do comando original:
 
-`tldr -p linux nice`
+`tldr nice`

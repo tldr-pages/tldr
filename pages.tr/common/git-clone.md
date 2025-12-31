@@ -25,7 +25,7 @@
 
 - Yalnızca en yeni 10 commit'i çekerek varolan bir depoyu klonla (zaman tasarrufu açısından yararlıdır):
 
-`git clone --depth {{10}} {{uzak_bağlantıdaki_depo}}`
+`git clone --depth 10 {{uzak_bağlantıdaki_depo}}`
 
 - Yalnızca belirtilen bir dalı çekerek varolan bir depoyu klonla:
 

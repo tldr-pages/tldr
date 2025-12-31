@@ -1,7 +1,7 @@
 # systemctl
 
 > 控制 systemd 系统和服务管理器。
-> 更多信息：<https://www.freedesktop.org/software/systemd/man/systemctl.html>.
+> 更多信息：<https://www.freedesktop.org/software/systemd/man/latest/systemctl.html>。
 
 - 显示所有正在运行的服务：
 
@@ -29,7 +29,7 @@
 
 - 按运行/失败状态过滤列出所有服务/套接字/自动挂载单元：
 
-`systemctl list-units --type={{service|socket|automount}} --state={{failed|running}}`
+`systemctl list-units {{[-t|--type]}} {{service|socket|automount}} --state {{failed|running}}`
 
 - 显示单元文件的内容和绝对路径：
 

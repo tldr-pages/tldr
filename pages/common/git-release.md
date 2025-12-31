@@ -2,7 +2,7 @@
 
 > Create a Git tag for a release.
 > Part of `git-extras`.
-> More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-release>.
+> More information: <https://manned.org/git-release>.
 
 - Create and push a release:
 

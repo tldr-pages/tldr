@@ -7,6 +7,6 @@
 
 `crane config {{image_naam}}`
 
-- Toon help:
+- Toon de help:
 
-`crane config {{-h|--help}}`
+`crane config {{[-h|--help]}}`

@@ -1,7 +1,7 @@
 # gdb
 
 > GNU Debugger, alat pengawakutu program komputer.
-> Informasi lebih lanjut: <https://www.gnu.org/software/gdb>.
+> Informasi lebih lanjut: <https://sourceware.org/gdb/current/onlinedocs/gdb#Invocation>.
 
 - Jalankan pengawakutu pada sebuah berkas program yang dapat dieksekusi:
 
@@ -9,15 +9,15 @@
 
 - Tambahkan suatu proses untuk diawasi oleh gdb:
 
-`gdb -p {{berkas_exe}}`
+`gdb {{[-p|--pid]}} {{berkas_exe}}`
 
 - Jalankan pengawakutu dengan berkas core:
 
-`gdb -c {{core}} {{berkas_exe}}`
+`gdb {{[-c|--core]}} {{core}} {{berkas_exe}}`
 
 - Kirim perintah menuju pengawakutu pada saat dijalankan:
 
-`gdb -ex "{{perintah}}" {{berkas_exe}}`
+`gdb {{[-ex|--eval-command]}} "{{perintah}}" {{berkas_exe}}`
 
 - Lemparkan argumen terhadap berkas program yang dieksekusi saat hendak diawasi oleh GDB:
 

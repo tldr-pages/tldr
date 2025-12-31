@@ -2,7 +2,7 @@
 
 > Rust 툴체인을 설치, 관리 및 업데이트.
 > `toolchain`, `target`, `update` 등의 일부 하위 명령에는 자체 사용 설명서가 있습니다.
-> 더 많은 정보: <https://rust-lang.github.io/rustup>.
+> 더 많은 정보: <https://rust-lang.github.io/rustup/>.
 
 - 시스템에 nightly 툴체인 설치:
 

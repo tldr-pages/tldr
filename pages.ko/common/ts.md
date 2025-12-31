@@ -1,7 +1,7 @@
 # ts
 
 > `stdin`의 각 줄에 타임스탬프를 추가.
-> 더 많은 정보: <https://joeyh.name/code/moreutils/>.
+> 더 많은 정보: <https://manned.org/ts>.
 
 - 각 줄의 시작에 타임스탬프 추가:
 

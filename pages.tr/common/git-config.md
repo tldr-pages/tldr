@@ -6,11 +6,11 @@
 
 - Yalnızca (mevcut depodaki `.git/config`'de saklanan) yerel konfigürasyon kayıtlarını sırala:
 
-`git config --list --local`
+`git config {{[-l|--list]}} --local`
 
 - Yalnızca (bilgisayardaki `~/.gitconfig`'de saklanan) evrensel konfigürasyon kayıtlarını sırala:
 
-`git config --list --global`
+`git config {{[-l|--list]}} --global`
 
 - Belirtilen bir konfigürasyon kaydının değerini öğren:
 
@@ -26,8 +26,8 @@
 
 - Mevcut depodaki Git konfigürasyonunu varsayılan metin düzenleyici ile düzenle:
 
-`git config --edit`
+`git config {{[-e|--edit]}}`
 
 - Evrensel Git konfigürasyonunu varsayılan metin düzenleyici ile düzenle:
 
-`git config --global --edit`
+`git config --global {{[-e|--edit]}}`

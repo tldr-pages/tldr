@@ -1,7 +1,7 @@
 # sleep
 
 > Delay for a specified amount of time.
-> More information: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/sleep.html>.
+> More information: <https://manned.org/sleep>.
 
 - Delay in seconds:
 

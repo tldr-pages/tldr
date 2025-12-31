@@ -1,7 +1,7 @@
 # ogrinfo
 
 > List information about an OGR-supported data source.
-> More information: <https://gdal.org/programs/ogrinfo.html>.
+> More information: <https://gdal.org/en/stable/programs/ogrinfo.html>.
 
 - List supported formats:
 

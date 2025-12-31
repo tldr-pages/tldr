@@ -2,7 +2,7 @@
 
 > 웹에서 미디어 콘텐츠(비디오, 오디오, 이미지)를 다운로드.
 > 같이 보기: `yt-dlp`, `youtube-viewer`, `instaloader`.
-> 더 많은 정보: <https://you-get.org>.
+> 더 많은 정보: <https://you-get.org/#getting-started>.
 
 - 웹의 특정 미디어에 대한 정보 출력:
 

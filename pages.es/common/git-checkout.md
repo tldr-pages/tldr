@@ -21,7 +21,7 @@
 
 - Cambia a una rama remota existente:
 
-`git checkout --track {{nombre_remoto}}/{{nombre_de_la_rama}}`
+`git checkout {{[-t|--track]}} {{nombre_remoto}}/{{nombre_de_la_rama}}`
 
 - Descarta todos los cambios sin marcar en el directorio actual (vea `git reset` para más comandos para deshacer):
 

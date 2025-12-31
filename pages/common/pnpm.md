@@ -2,7 +2,7 @@
 
 > Fast, disk space efficient package manager for Node.js.
 > Manage Node.js projects and their module dependencies.
-> More information: <https://pnpm.io>.
+> More information: <https://pnpm.io/pnpm-cli>.
 
 - Create a `package.json` file:
 
@@ -10,28 +10,28 @@
 
 - Download all the packages listed as dependencies in `package.json`:
 
-`pnpm install`
+`pnpm {{[i|install]}}`
 
 - Download a specific version of a package and add it to the list of dependencies in `package.json`:
 
 `pnpm add {{module_name}}@{{version}}`
 
-- Download a package and add it to the list of [D]ev dependencies in `package.json`:
+- Download a package and add it to the list of dev dependencies in `package.json`:
 
-`pnpm add -D {{module_name}}`
+`pnpm add {{module_name}} {{[-D|--save-dev]}}`
 
-- Download a package and install it [g]lobally:
+- Download a package and install it globally:
 
-`pnpm add -g {{module_name}}`
+`pnpm add {{module_name}} {{[-g|--global]}}`
 
 - Uninstall a package and remove it from the list of dependencies in `package.json`:
 
-`pnpm remove {{module_name}}`
+`pnpm {{[rm|remove]}} {{module_name}}`
 
 - Print a tree of locally installed modules:
 
-`pnpm list`
+`pnpm {{[ls|list]}}`
 
-- List top-level [g]lobally installed modules:
+- List top-level globally installed modules:
 
-`pnpm list -g --depth={{0}}`
+`pnpm {{[ls|list]}} {{[-g|--global]}} --depth {{0}}`

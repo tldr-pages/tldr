@@ -6,11 +6,11 @@
 
 - Git prune에 의해 제거될 항목을 보고하지만 실제로 제거하지 않음:
 
-`git prune --dry-run`
+`git prune {{[-n|--dry-run]}}`
 
 - 도달할 수 없는 객체를 제거하고 제거된 항목을 `stdout`에 표시:
 
-`git prune --verbose`
+`git prune {{[-v|--verbose]}}`
 
 - 진행 상황을 표시하면서 도달할 수 없는 객체를 제거:
 

@@ -1,12 +1,16 @@
 # lvdisplay
 
 > Display information about Logical Volume Manager (LVM) logical volumes.
-> See also: `lvm`.
+> See also: `lvm`, `lvs`.
 > More information: <https://manned.org/lvdisplay>.
 
 - Display information about all logical volumes:
 
 `sudo lvdisplay`
+
+- Display the information in a short format (same as running `lvs`):
+
+`sudo lvdisplay {{[-C|--columns]}}`
 
 - Display information about all logical volumes in volume group vg1:
 

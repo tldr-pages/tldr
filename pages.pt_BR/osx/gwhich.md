@@ -1,7 +1,7 @@
 # gwhich
 
-> Este comando é um apelido de `-p linux which`.
+> Este comando é um apelido de `which`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux which`
+`tldr which`

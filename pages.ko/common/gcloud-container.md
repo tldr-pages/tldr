@@ -2,7 +2,7 @@
 
 > Kubernetes 및 클러스터에서 컨테이너화된 애플리케이션 관리.
 > 같이 보기: `gcloud`.
-> 더 많은 정보: <https://cloud.google.com/sdk/gcloud/reference/container>.
+> 더 많은 정보: <https://docs.cloud.google.com/sdk/gcloud/reference/container>.
 
 - `gcloud`를 Docker 자격 증명 도우미로 등록:
 

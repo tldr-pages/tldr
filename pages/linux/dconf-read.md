@@ -6,8 +6,8 @@
 
 - Print a specific key value:
 
-`dconf read {{/path/to/key}}`
+`dconf read /{{path/to/key}}`
 
 - Print a specific key [d]efault value:
 
-`dconf read -d {{/path/to/key}}`
+`dconf read -d /{{path/to/key}}`

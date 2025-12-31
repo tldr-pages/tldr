@@ -1,7 +1,7 @@
 # Projucer
 
 > A project manager for JUCE framework applications.
-> More information: <https://juce.com/discover/stories/projucer-manual#10.4-command-line-tools>.
+> More information: <https://docs.juce.com/master/projucer_manual.html#projucer_manual_tools_command_line_tools>.
 
 - Display information about a project:
 
@@ -19,7 +19,7 @@
 
 `Projucer --create-project-from-pip {{path/to/PIP}} {{path/to/output}}`
 
-- Remove all JUCE-style comments (`//=====`, `//-----` or `///////`):
+- Remove all JUCE-style comments (`//=====`, `//-----`, or `///////`):
 
 `Projucer --tidy-divider-comments {{path/to/target_folder}}`
 

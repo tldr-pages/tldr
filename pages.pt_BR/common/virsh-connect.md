@@ -1,4 +1,4 @@
-# virsh-connect
+# virsh connect
 
 > Conectar-se a um hipervisor de máquina virtual.
 > Veja também: `virsh`.

@@ -1,7 +1,7 @@
 # scc
 
 > Count lines of code. Written in Go.
-> More information: <https://github.com/boyter/scc>.
+> More information: <https://github.com/boyter/scc#usage>.
 
 - Print lines of code in the current directory:
 
@@ -17,11 +17,11 @@
 
 - Display output using a specific output format (defaults to `tabular`):
 
-`scc --format {{tabular|wide|json|csv|cloc-yaml|html|html-table}}`
+`scc {{[-f|--format]}} {{tabular|wide|json|csv|cloc-yaml|html|html-table}}`
 
 - Only count files with specific file extensions:
 
-`scc --include-ext {{go,java,js}}`
+`scc {{[-i|--include-ext]}} {{go,java,js}}`
 
 - Exclude directories from being counted:
 
@@ -29,8 +29,8 @@
 
 - Display output and sort by column (defaults to by files):
 
-`scc --sort {{files|name|lines|blanks|code|comments|complexity}}`
+`scc {{[-s|--sort]}} {{files|name|lines|blanks|code|comments|complexity}}`
 
 - Display help:
 
-`scc -h`
+`scc {{[-h|--help]}}`

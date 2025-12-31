@@ -10,16 +10,16 @@
 
 - Display the results in a long-listing format:
 
-`namei --long {{path/to/a}} {{path/to/b}} {{path/to/c}}`
+`namei {{[-l|--long]}} {{path/to/a}} {{path/to/b}} {{path/to/c}}`
 
 - Show the mode bits of each file type in the style of `ls`:
 
-`namei --modes {{path/to/a}} {{path/to/b}} {{path/to/c}}`
+`namei {{[-m|--modes]}} {{path/to/a}} {{path/to/b}} {{path/to/c}}`
 
 - Show owner and group name of each file:
 
-`namei --owners {{path/to/a}} {{path/to/b}} {{path/to/c}}`
+`namei {{[-o|--owners]}} {{path/to/a}} {{path/to/b}} {{path/to/c}}`
 
 - Don't follow symlinks while resolving:
 
-`namei --nosymlinks {{path/to/a}} {{path/to/b}} {{path/to/c}}`
+`namei {{[-n|--nosymlinks]}} {{path/to/a}} {{path/to/b}} {{path/to/c}}`

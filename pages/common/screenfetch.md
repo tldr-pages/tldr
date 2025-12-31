@@ -1,13 +1,13 @@
 # screenfetch
 
 > Display system information.
-> More information: <https://github.com/KittyKatt/screenFetch>.
+> More information: <https://github.com/KittyKatt/screenFetch#running-screenfetch>.
 
 - Start `screenfetch`:
 
 `screenfetch`
 
-- Take a screenshot (requires 'scrot'):
+- Take a screenshot (requires `scrot`):
 
 `screenfetch -s`
 

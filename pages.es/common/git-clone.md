@@ -13,24 +13,24 @@
 
 - Clona sólo el directorio `.git` de un repositorio existente:
 
-`git clone --no-checkout {{ubicación_repositorio_remoto}}`
+`git clone {{[-n|--no-checkout]}} {{ubicación_repositorio_remoto}}`
 
 - Clona un repositorio local:
 
-`git clone --local {{ruta/al/repositorio/local}}`
+`git clone {{[-l|--local]}} {{ruta/al/repositorio/local}}`
 
 - Clona en silencio:
 
-`git clone --quiet {{ubicación_repositorio_remoto}}`
+`git clone {{[-q|--quiet]}} {{ubicación_repositorio_remoto}}`
 
 - Clona un repositorio existente obteniendo sólo los 10 commits más recientes de la rama por defecto (útil para ahorrar tiempo):
 
-`git clone --depth {{10}} {{ubicación_repositorio_remoto}}`
+`git clone --depth 10 {{ubicación_repositorio_remoto}}`
 
 - Clona un repositorio existente buscando sólo una rama específica:
 
-`git clone --branch {{nombre}} --single-branch {{ubicación_repositorio_remoto}}`
+`git clone {{[-b|--branch]}} {{nombre}} --single-branch {{ubicación_repositorio_remoto}}`
 
 - Clona un repositorio existente usando un comando SSH específico:
 
-`git clone --config core.sshCommand="{{ssh -i ruta/a/clave_privada_ssh}}" {{ubicación_repositorio_remoto}}`
+`git clone {{[-c|--config]}} core.sshCommand="{{ssh -i ruta/a/clave_privada_ssh}}" {{ubicación_repositorio_remoto}}`

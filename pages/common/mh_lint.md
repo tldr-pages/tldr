@@ -2,7 +2,7 @@
 
 > Attempt to find bugs in MATLAB or Octave code.
 > Please note that this tool is neither sound nor complete.
-> More information: <https://misshit.org>.
+> More information: <https://florianschanda.github.io/miss_hit/cli.html>.
 
 - Check the current directory:
 

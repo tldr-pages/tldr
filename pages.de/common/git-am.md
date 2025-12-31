@@ -1,7 +1,7 @@
 # git am
 
 > Patch-Dateien integrieren. Nützlich beim Empfang von Commits per E-Mail.
-> Siehe auch `git format-patch` zur Erzeugung von Patch-Dateien.
+> Siehe auch: `git format-patch` zur Erzeugung von Patch-Dateien.
 > Weitere Informationen: <https://git-scm.com/docs/git-am>.
 
 - Integriere eine Patch-Datei:
@@ -10,7 +10,7 @@
 
 - Herunterladen und Integrieren einer Patch-Datei:
 
-`curl -L {{https://beispiel.de/datei.patch}} | git apply`
+`curl {{[-L|--location]}} {{https://example.com/file.patch}} | git am`
 
 - Brich das Integrieren einer Patch-Datei ab:
 

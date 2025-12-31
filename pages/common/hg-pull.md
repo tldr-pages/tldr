@@ -1,7 +1,7 @@
 # hg pull
 
 > Pull changes from a specified repository to the local repository.
-> More information: <https://www.mercurial-scm.org/doc/hg.1.html#pull>.
+> More information: <https://www.mercurial-scm.org/help/commands/pull>.
 
 - Pull from the "default" source path:
 
@@ -13,20 +13,20 @@
 
 - Update the local repository to the head of the remote:
 
-`hg pull --update`
+`hg pull {{[-u|--update]}}`
 
 - Pull changes even when the remote repository is unrelated:
 
-`hg pull --force`
+`hg pull {{[-f|--force]}}`
 
 - Specify a specific revision changeset to pull up to:
 
-`hg pull --rev {{revision}}`
+`hg pull {{[-r|--rev]}} {{revision}}`
 
 - Specify a specific branch to pull:
 
-`hg pull --branch {{branch}}`
+`hg pull {{[-b|--branch]}} {{branch}}`
 
 - Specify a specific bookmark to pull:
 
-`hg pull --bookmark {{bookmark}}`
+`hg pull {{[-B|--bookmark]}} {{bookmark}}`

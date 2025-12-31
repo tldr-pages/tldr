@@ -18,15 +18,15 @@
 
 - Créer un tag annoté avec le message spécifié :
 
-`git tag {{nom_d_etiquette}} -m {{message_d_etiquette}}`
+`git tag {{nom_d_etiquette}} {{[-m|--message]}} {{message_d_etiquette}}`
 
 - Supprimer le tag avec le nom spécifié :
 
-`git tag -d {{nom_d_etiquette}}`
+`git tag {{[-d|--delete]}} {{nom_d_etiquette}}`
 
 - Mettre à jour les tags depuis l'origine :
 
-`git fetch --tags`
+`git fetch {{[-t|--tags]}}`
 
 - Liste toutes les tags dont les ancêtres incluent un commit donné :
 

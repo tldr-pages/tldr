@@ -1,7 +1,7 @@
 # slop
 
 > Get a selection of the screen.
-> More information: <https://github.com/naelstrof/slop>.
+> More information: <https://manned.org/slop>.
 
 - Wait for the user to make a selection and output its geometry to `stdout`:
 
@@ -9,16 +9,16 @@
 
 - Double click, rather than click and drag, to draw a selection:
 
-`slop -D`
+`slop {{[-D|--nodrag]}}`
 
 - Highlight the selection rather than outlining it:
 
-`slop -l`
+`slop {{[-l|--highlight]}}`
 
 - Specify the output format:
 
-`slop -f {{format_string}}`
+`slop {{[-f|--format]}} {{format_string}}`
 
 - Specify the selection rectangle's color:
 
-`slop -c {{red}},{{green}},{{blue}},{{alpha}}`
+`slop {{[-c|--color]}} {{red}},{{green}},{{blue}},{{alpha}}`

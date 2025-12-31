@@ -1,7 +1,7 @@
 # xcaddy
 
 > The custom build tool for the Caddy Web Server.
-> More information: <https://github.com/caddyserver/xcaddy>.
+> More information: <https://github.com/caddyserver/xcaddy#command-usage>.
 
 - Build Caddy server from source:
 

@@ -1,7 +1,7 @@
 # wsl
 
 > 从命令行管理适用于 Linux 的 Windows 子系统。
-> 更多信息：<https://learn.microsoft.com/windows/wsl/reference>.
+> 更多信息：<https://learn.microsoft.com/windows/wsl/reference>。
 
 - 启动 Linux Shell（在默认发行版中）：
 
@@ -19,11 +19,11 @@
 
 `wsl --list`
 
-- 将发行版导出到 .tar 文件：
+- 将发行版导出到 `.tar` 文件：
 
 `wsl --export {{发行版}} {{路径/distro_fs.tar}}`
 
-- 从 .tar 文件导入发行版：
+- 从 `.tar` 文件导入发行版：
 
 `wsl --import {{发行版}} {{路径/安装位置}} {{路径/distro_fs.tar}}`
 

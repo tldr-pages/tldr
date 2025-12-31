@@ -1,7 +1,7 @@
 # esbuild
 
 > 속도를 위해 제작된 자바스크립트 번들러 및 압축 도구.
-> 더 많은 정보: <https://esbuild.github.io/>.
+> 더 많은 정보: <https://esbuild.github.io/api/#general-options>.
 
 - 자바스크립트 애플리케이션을 번들로 묶어 `stdout`으로 인쇄:
 

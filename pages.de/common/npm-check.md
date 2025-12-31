@@ -1,4 +1,4 @@
-# npm check
+# npm-check
 
 > Prüft veraltete, inkorrekte und nicht verwendete Abhängigkeiten.
 > Weitere Informationen: <https://github.com/dylang/npm-check>.
@@ -9,12 +9,12 @@
 
 - Aktualisiere interaktiv veraltete Pakete:
 
-`npm-check --update`
+`npm-check {{[-u|--update]}}`
 
 - Aktualisiere alle Pakete ohne Nachfrage:
 
-`npm-check --update-all`
+`npm-check {{[-y|--update-all]}}`
 
 - Überspringe die Prüfung auf nicht verwendete Pakete:
 
-`npm-check --skip-unused`
+`npm-check {{[-s|--skip-unused]}}`

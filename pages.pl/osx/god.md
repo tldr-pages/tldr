@@ -1,7 +1,7 @@
 # god
 
-> To polecenie jest aliasem `-p linux od`.
+> To polecenie jest aliasem GNU `od`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux od`
+`tldr od`

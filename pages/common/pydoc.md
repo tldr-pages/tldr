@@ -1,7 +1,7 @@
 # pydoc
 
 > Display offline Python documentation.
-> More information: <https://docs.python.org/3/library/pydoc.html>.
+> More information: <https://docs.python.org/library/pydoc.html>.
 
 - Print documentation on a subject (Python keyword, topic, function, module, package, etc.):
 

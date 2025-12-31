@@ -17,8 +17,8 @@
 
 - Uzaktaki ana akım depodan etiketleri dahi çek:
 
-`git fetch --tags`
+`git fetch {{[-t|--tags]}}`
 
 - Ana akım depodan silinmiş uzak dallara giden yerel referansları sil:
 
-`git fetch --prune`
+`git fetch {{[-p|--prune]}}`

@@ -1,7 +1,7 @@
 # asdf
 
 > Utilitário para a gestão de versões de linguagens e programas.
-> Mais informações: <https://asdf-vm.com>.
+> Mais informações: <https://asdf-vm.com/manage/commands.html>.
 
 - Lista todos os plugins disponíveis:
 
@@ -21,8 +21,12 @@
 
 - Define a versão global de um pacote:
 
-`asdf global {{nome}} {{versão}}`
+`asdf set -u {{nome}} {{versão}}`
 
 - Define a versão local de um pacote:
 
-`asdf local {{nome}} {{versão}}`
+`asdf set {{nome}} {{versão}}`
+
+- Ver a versão utilizada para um pacote:
+
+`asdf current {{name}}`

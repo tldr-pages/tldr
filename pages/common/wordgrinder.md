@@ -1,7 +1,7 @@
 # wordgrinder
 
-> Command-line word processor.
-> More information: <https://cowlark.com/wordgrinder>.
+> Word processor.
+> More information: <https://cowlark.com/wordgrinder/>.
 
 - Start WordGrinder (loads a blank document by default):
 
@@ -13,4 +13,4 @@
 
 - Show the menu:
 
-`<Alt> + M`
+`<Alt m>`

@@ -14,4 +14,4 @@
 
 - Beende Alpine:
 
-`q + y`
+`<q><y>`

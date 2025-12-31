@@ -5,8 +5,8 @@
 
 - Bekijk de documentatie van Microsoft Edge op Windows:
 
-`tldr -p windows msedge`
+`tldr {{[-p|--platform]}} windows msedge`
 
 - Bekijk de documentatie van Microsoft Edge op andere platforms:
 
-`tldr -p common microsoft-edge`
+`tldr {{[-p|--platform]}} common microsoft-edge`

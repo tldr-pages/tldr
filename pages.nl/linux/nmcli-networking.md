@@ -1,21 +1,20 @@
 # nmcli networking
 
 > Beheer de netwerk status of NetworkManager.
-> Dit subcommando kan ook aangeroepen worden met `nmcli n`.
-> Meer informatie: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
+> Meer informatie: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html#networking>.
 
 - Toon de netwerk status of NetworkManager:
 
-`nmcli networking`
+`nmcli {{[n|networking]}}`
 
 - Schakel netwerk in/uit en alle interfaces die worden beheerd door NetworkManager:
 
-`nmcli networking {{on|off}}`
+`nmcli {{[n|networking]}} {{on|off}}`
 
 - Toon de laatst bekende connectiviteit status:
 
-`nmcli networking connectivity`
+`nmcli {{[n|networking]}} {{[c|connectivity]}}`
 
 - Toon de huidige connectiviteit status:
 
-`nmcli networking connectivity check`
+`nmcli {{[n|networking]}} {{[c|connectivity]}} {{[c|check]}}`

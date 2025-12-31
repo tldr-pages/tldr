@@ -2,13 +2,13 @@
 
 > Programm zum Speichern und Lesen von Passwörtern und anderen sensiblen Daten.
 > Die Daten sind mit GPG verschlüsselt und werden mit einem Git repository verwaltet.
-> Weitere Informationen: <https://www.passwordstore.org>.
+> Weitere Informationen: <https://git.zx2c4.com/password-store/about/>.
 
 - Initialisiere oder verschlüssle einen neuen oder bestehenden Speicher mit einer oder mehreren GPG IDs neu:
 
 `pass init {{gpg_id_1}} {{gpg_id_2}}`
 
-- Speichere das Passwort und zusätzliche Informationen (Str + D auf neuer Zeile zum abschließen):
+- Speichere das Passwort und zusätzliche Informationen (`<Ctrl d>` auf neuer Zeile zum abschließen):
 
 `pass insert --multiline {{pfad/zu/datei}}`
 

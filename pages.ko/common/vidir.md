@@ -1,7 +1,7 @@
 # vidir
 
 > 텍스트 편집기에서 디렉터리를 편집.
-> 더 많은 정보: <https://joeyh.name/code/moreutils/>.
+> 더 많은 정보: <https://manned.org/vidir>.
 
 - 지정된 디렉터리의 내용을 편집:
 

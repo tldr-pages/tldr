@@ -9,8 +9,8 @@
 
 - Specify the background color exposed by rotating the input image:
 
-`pnmrotate -background {{color}} {{angle}} {{path/to/input.pnm}} > {{path/to/output.pnm}}`
+`pnmrotate {{[-b|-background]}} {{color}} {{angle}} {{path/to/input.pnm}} > {{path/to/output.pnm}}`
 
 - Disable anti-aliasing, improving performance but decreasing quality:
 
-`pnmrotate -noantialias {{angle}} {{path/to/input.pnm}} > {{path/to/output.pnm}}`
+`pnmrotate {{[-n|-noantialias]}} {{angle}} {{path/to/input.pnm}} > {{path/to/output.pnm}}`

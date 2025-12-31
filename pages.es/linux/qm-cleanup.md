@@ -1,9 +1,9 @@
 # qm cleanup
 
-> Limpia recursos en el Administrador de máquinas virtuales QEMU/KVM como dispositivos tap, VGPUs, etc.
-> Usualmente se lo utiliza después de que una VM se apaga, se rompe, etc.
-> Más información: <https://pve.proxmox.com/pve-docs/qm.1.html>.
+> Limpia los recursos del gestor de máquinas virtuales QEMU/KVM, como dispositivos tap, VGPU, etc.
+> Se ejecuta después de que una máquina virtual se apaga, se colapsa, etc.
+> Más información: <https://pve.proxmox.com/pve-docs/qm.1.html#cli_qm_cleanup>.
 
-- Limpia los recursos:
+- Limpia recursos:
 
-`qm cleanup {{vm_id}} {{clean-shutdown}} {{guest-requested}}`
+`qm {{[cl|cleanup]}} {{vm_id}} {{clean-shutdown}} {{guest-requested}}`

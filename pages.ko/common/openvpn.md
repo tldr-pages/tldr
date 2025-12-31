@@ -1,7 +1,7 @@
 # openvpn
 
 > OpenVPN 클라이언트 및 데몬 바이너리.
-> 더 많은 정보: <https://openvpn.net/>.
+> 더 많은 정보: <https://openvpn.net/community-docs/community-articles/openvpn-2-6-manual.html>.
 
 - 구성 파일을 사용하여 서버에 연결:
 

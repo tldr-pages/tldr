@@ -1,7 +1,7 @@
 # gcat
 
-> Dit commando is een alias van `-p linux cat`.
+> Dit commando is een alias van GNU `cat`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux cat`
+`tldr {{[-p|--platform]}} linux cat`

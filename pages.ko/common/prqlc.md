@@ -2,7 +2,7 @@
 
 > PRQL 컴파일러.
 > PRQL은 데이터를 변환하기 위한 현대적인 언어로, 간단하고 강력한 파이프라인 SQL 대체 언어입니다.
-> 더 많은 정보: <https://prql-lang.org>.
+> 더 많은 정보: <https://prql-lang.org/book/project/integrations/prqlc-cli.html>.
 
 - 대화형으로 컴파일러 실행:
 

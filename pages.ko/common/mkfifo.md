@@ -1,7 +1,7 @@
 # mkfifo
 
 > FIFO(이름 있는 파이프) 생성.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/mkfifo>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/mkfifo-invocation.html>.
 
 - 지정된 경로에 이름 있는 파이프 생성:
 

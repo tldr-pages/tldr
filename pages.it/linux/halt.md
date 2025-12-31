@@ -1,7 +1,7 @@
 # halt
 
 > Arresta, spegne o riavvia la macchina.
-> Maggiori informazioni: <https://manned.org/halt.8>.
+> Maggiori informazioni: <https://manned.org/halt>.
 
 - Arresta la macchina:
 
@@ -9,7 +9,7 @@
 
 - Spegne la macchina:
 
-`halt --poweroff`
+`halt {{[-p|--poweroff]}}`
 
 - Riavvia la macchina:
 

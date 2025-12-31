@@ -10,16 +10,16 @@
 
 - Apply a patch to a specific file:
 
-`patch {{path/to/file}} < {{patch.diff}}`
+`patch < {{patch.diff}} {{path/to/file}}`
 
 - Patch a file writing the result to a different file:
 
-`patch {{path/to/input_file}} -o {{path/to/output_file}} < {{patch.diff}}`
+`patch < {{patch.diff}} {{path/to/input_file}} {{[-o|--output]}} {{path/to/output_file}}`
 
 - Apply a patch to the current directory:
 
-`patch -p1 < {{patch.diff}}`
+`patch < {{patch.diff}} {{[-p|--strip]}} 1`
 
 - Apply the reverse of a patch:
 
-`patch -R < {{patch.diff}}`
+`patch < {{patch.diff}} {{[-R|--reverse]}}`

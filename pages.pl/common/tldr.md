@@ -14,16 +14,16 @@
 
 - Wyświetl stronę tldr dla komendy w podanym języku (jeżeli jest dostępna, w przeciwnym razie po angielsku):
 
-`tldr --language {{kod_języka}} {{komenda}}`
+`tldr {{[-L|--language]}} {{kod_języka}} {{komenda}}`
 
 - Wyświetl stronę tldr dla komendy z podanej platformy:
 
-`tldr --platform {{android|common|freebsd|linux|osx|netbsd|openbsd|sunos|windows}} {{komenda}}`
+`tldr {{[-p|--platform]}} {{android|common|freebsd|linux|osx|netbsd|openbsd|sunos|windows}} {{komenda}}`
 
 - Zaktualizuj lokalną pamięć podręczną stron tldr:
 
-`tldr --update`
+`tldr {{[-u|--update]}}`
 
 - Wyświetl listę stron tldr dla aktualnej platformy i `common`:
 
-`tldr --list`
+`tldr {{[-l|--list]}}`

@@ -1,20 +1,7 @@
 # docker rm
 
-> 컨테이너 제거.
-> 더 많은 정보: <https://docs.docker.com/reference/cli/docker/container/rm/>.
+> 이 명령은 `docker container rm` 의 에일리어스 (별칭) 입니다.
 
-- 컨테이너 제거:
+- 원본 명령의 도큐멘테이션 (설명서) 보기:
 
-`docker rm {{컨테이너1 컨테이너2 ...}}`
-
-- 컨테이너 강제 제거:
-
-`docker rm --force {{컨테이너1 컨테이너2 ...}}`
-
-- 컨테이너와 그 볼륨 제거:
-
-`docker rm --volumes {{컨테이너}}`
-
-- 도움말 표시:
-
-`docker rm --help`
+`tldr docker container rm`

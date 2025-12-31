@@ -1,7 +1,7 @@
 # go list
 
 > 패키지 또는 모듈 나열.
-> 더 많은 정보: <https://golang.org/cmd/go/#hdr-List_packages_or_modules>.
+> 더 많은 정보: <https://pkg.go.dev/cmd/go#hdr-List_packages_or_modules>.
 
 - 패키지 나열:
 

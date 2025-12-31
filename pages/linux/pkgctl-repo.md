@@ -2,7 +2,7 @@
 
 > Manage Git packaging repositories and their configuration for Arch Linux.
 > See also: `pkgctl`.
-> More information: <https://manned.org/pkgctl-repo.1>.
+> More information: <https://manned.org/pkgctl-repo>.
 
 - Clone a package repository (requires setting an SSH key in your Arch Linux GitLab account):
 
@@ -10,7 +10,7 @@
 
 - Clone a package repository over HTTPS:
 
-`pkgctl repo clone --protocol=https {{pkgname}}`
+`pkgctl repo clone --protocol https {{pkgname}}`
 
 - Create a new GitLab package repository and clone it after creation (requires valid GitLab API authentication):
 

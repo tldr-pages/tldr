@@ -9,7 +9,7 @@
 
 - Beschrijf de inhoud van een gespecificeerde GEM afbeelding:
 
-`gemtopnm -d {{pad/naar/bestand.img}}`
+`gemtopnm {{[-d|-debug]}} {{pad/naar/bestand.img}}`
 
 - Toon de versie:
 

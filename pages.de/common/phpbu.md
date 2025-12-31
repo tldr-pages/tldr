@@ -1,7 +1,7 @@
 # phpbu
 
 > Ein Backup framework für PHP.
-> Weitere Informationen: <https://phpbu.de>.
+> Weitere Informationen: <https://phpbu.de/manual/current/en/phpbu-manual.html#cli>.
 
 - Führe ein Backup mit der Standard `phpbu.xml` Konfigurationsdatei aus:
 

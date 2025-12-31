@@ -1,7 +1,7 @@
 # clementine
 
 > Un moderno player e gestore di librerie musicali.
-> Maggiori informazioni: <https://github.com/clementine-player/Clementine/wiki>.
+> Maggiori informazioni: <https://manned.org/clementine>.
 
 - Avvia l'interfaccia grafica oppure lo mette in evidenza:
 

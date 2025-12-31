@@ -1,6 +1,6 @@
 # git check-ignore
 
-> Analiza y depura los archivos que Git debe ignorar / excluir (.gitignore).
+> Analiza y depura los archivos que Git debe ignorar / excluir (`.gitignore`).
 > Más información: <https://git-scm.com/docs/git-check-ignore>.
 
 - Comprueba si un archivo o directorio es ignorado:
@@ -21,4 +21,4 @@
 
 - Incluye detalles sobre el patrón de coincidencia para cada ruta:
 
-`git check-ignore --verbose {{ruta/al/archivo_o_directorio1 ruta/al/archivo_o_directorio2 ...}}`
+`git check-ignore {{[-v|--verbose]}} {{ruta/al/archivo_o_directorio1 ruta/al/archivo_o_directorio2 ...}}`

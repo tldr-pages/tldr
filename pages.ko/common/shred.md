@@ -1,7 +1,7 @@
 # shred
 
 > 파일을 덮어써서 데이터를 안전하게 삭제.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/shred>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/shred-invocation.html>.
 
 - 파일 덮어쓰기:
 

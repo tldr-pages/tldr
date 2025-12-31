@@ -1,7 +1,7 @@
 # gchgrp
 
-> Este comando é um apelido de `-p linux chgrp`.
+> Este comando é um apelido de `chgrp`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux chgrp`
+`tldr chgrp`

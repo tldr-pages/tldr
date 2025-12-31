@@ -1,28 +1,28 @@
 # acpi
 
 > Affiche l'état de la batterie ou des renseignements sur la température.
-> Plus d'informations : <https://sourceforge.net/projects/acpiclient/files/acpiclient/>.
+> Plus d'informations : <https://manned.org/acpi>.
 
-- Affiche les informations sur la batterie :
+- Affiche les informations sur la batterie :
 
 `acpi`
 
 - Affiche les informations sur la température :
 
-`acpi -t`
+`acpi {{[-t|--thermal]}}`
 
-- Afficher les informations sur le dispositif de refroidissement :
+- Afficher les informations sur le dispositif de refroidissement :
 
-`acpi -c`
+`acpi {{[-c|--cooling]}}`
 
 - Afficher les informations sur le dispositif de refroidissement en Fahrenheit :
 
-`acpi -tf`
+`acpi {{[-tf|--thermal --fahrenheit]}}`
 
-- Afficher toutes les informations :
+- Afficher toutes les informations :
 
-`acpi -V`
+`acpi {{[-V|--everything]}}`
 
 - Extraye les informations depuis `/proc` au lieu de `/sys` :
 
-`acpi -p`
+`acpi {{[-p|--proc]}}`

@@ -3,11 +3,11 @@
 > Formatteer Python-code conform de PEP 8-stijlgids.
 > Meer informatie: <https://github.com/hhatto/autopep8>.
 
-- Formateer een bestand naar `stdout`, met een ingestelde maximale toegestane regellengte:
+- Formatteer een bestand naar `stdout`, met een ingestelde maximale toegestane regellengte:
 
 `autopep8 {{pad/naar/bestand.py}} --max-line-length {{lengte}}`
 
-- Formateer een bestand, geef een diff weer met de wijzigingen:
+- Formatteer een bestand, geef een diff weer met de wijzigingen:
 
 `autopep8 --diff {{pad/naar/bestand.py}}`
 

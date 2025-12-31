@@ -2,7 +2,7 @@
 
 > Store your shell history in a searchable database.
 > Optionally sync your encrypted history between machines.
-> More information: <https://atuin.sh/docs/commands>.
+> More information: <https://docs.atuin.sh/>.
 
 - Install atuin into your shell:
 
@@ -16,13 +16,13 @@
 
 `atuin search {{command}}`
 
-- Register an account on the default sync server using the specified [u]sername, [e]mail and [p]assword:
+- Register an account on the default sync server using the specified username, email, and password:
 
-`atuin register -u {{username}} -e {{email}} -p {{password}}`
+`atuin register {{[-u|--username]}} {{username}} {{[-e|--email]}} {{email}} {{[-p|--password]}} {{password}}`
 
 - Login to the default sync server:
 
-`atuin login -u {{username}} -p {{password}}`
+`atuin login {{[-u|--username]}} {{username}} {{[-p|--password]}} {{password}}`
 
 - Sync history with the sync server:
 

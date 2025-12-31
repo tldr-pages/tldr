@@ -2,7 +2,7 @@
 
 > 记录最常使用的目录。
 > 使用一个排序算法来导航到最佳匹配。
-> 更多信息：<https://github.com/ajeetdsouza/zoxide>.
+> 更多信息：<https://manned.org/zoxide>。
 
 - 转到名称中包含 "foo" 的排名最高的目录：
 
@@ -20,9 +20,9 @@
 
 `zoxide add {{路径/到/目录}}`
 
-- 从 `zoxide` 的数据库中交互式地移除一个目录：
+- 从 `zoxide` 的数据库中移除一个目录：
 
-`zoxide remove {{路径/到/目录}} --interactive`
+`zoxide remove {{路径/到/目录}}`
 
 - 为命令别名生成 shell 配置（`z`, `za`, `zi`, `zq`, `zr`）：
 

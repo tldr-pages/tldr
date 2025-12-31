@@ -1,7 +1,7 @@
 # optipng
 
 > PNG 파일 최적화 도구.
-> 더 많은 정보: <https://optipng.sourceforge.net>.
+> 더 많은 정보: <https://optipng.sourceforge.net/optipng-7.9.1.man1.html>.
 
 - 기본 설정으로 PNG 압축:
 

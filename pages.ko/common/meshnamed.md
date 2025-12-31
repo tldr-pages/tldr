@@ -1,7 +1,7 @@
 # meshnamed
 
 > IPv6 메쉬 네트워크를 위한 분산 네이밍 시스템.
-> 더 많은 정보: <https://github.com/zhoreeq/meshname/>.
+> 더 많은 정보: <https://github.com/zhoreeq/meshname>.
 
 - 로컬 메쉬네임 DNS 서버 시작:
 

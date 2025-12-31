@@ -17,7 +17,7 @@
 
 - 모듈과 해당 모듈에 의존하는 모듈을 커널에서 제거:
 
-`sudo modprobe --remove-dependencies {{모듈_이름}}`
+`sudo modprobe {{[-r|--remove]}} --remove-holders {{모듈_이름}}`
 
 - 커널 모듈의 의존성 표시:
 

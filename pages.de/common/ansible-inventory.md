@@ -2,7 +2,7 @@
 
 > Anzeigen oder Ausgeben eines Ansible-Inventars.
 > Siehe auch: `ansible`.
-> Weitere Informationen: <https://docs.ansible.com/ansible/latest/cli/ansible-inventory.html>.
+> Weitere Informationen: <https://docs.ansible.com/projects/ansible/latest/cli/ansible-inventory.html>.
 
 - Anzeigen des Standardinventars:
 
@@ -10,11 +10,11 @@
 
 - Anzeigen eines Benutzerdefinierten Inventars:
 
-`ansible-inventory --list --inventory {{pfad/zu/datei_oder_skript_oder_verzeichnis}}`
+`ansible-inventory --list {{[-i|--inventory-file]}} {{pfad/zu/datei_oder_skript_oder_verzeichnis}}`
 
 - Anzeigen des Standardinventars in YAML:
 
-`ansible-inventory --list --yaml`
+`ansible-inventory --list {{[-y|--yaml]}}`
 
 - Ausgabe des Standardinventars in eine Datei:
 

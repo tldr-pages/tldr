@@ -1,7 +1,7 @@
 # dstat
 
 > 시스템 리소스 통계 생성을 위한 다재다능한 도구.
-> 더 많은 정보: <http://dag.wieers.com/home-made/dstat>.
+> 더 많은 정보: <https://github.com/dstat-real/dstat>.
 
 - CPU, 디스크, 네트워크, 페이징 및 시스템 통계 표시:
 

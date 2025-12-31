@@ -1,7 +1,7 @@
 # slurp
 
 > Select a region in a Wayland compositor.
-> More information: <https://github.com/emersion/slurp>.
+> More information: <https://github.com/emersion/slurp/blob/master/slurp.1.scd>.
 
 - Select a region and print it to `stdout`:
 
@@ -25,4 +25,4 @@
 
 - Select a specific region and take a borderless video of it, using `wf-recorder`:
 
-`wf-recorder --geometry "$(slurp -w 0)"`
+`wf-recorder {{[-g|--geometry]}} "$(slurp -w 0)"`

@@ -29,8 +29,8 @@
 
 - 지정된 파일 및 디렉토리 무시:
 
-`onefetch {{-e|--exclude}} {{경로/대상/파일_또는_폴더|정규식}}`
+`onefetch {{[-e|--exclude]}} {{경로/대상/파일_또는_폴더|정규식}}`
 
 - 지정된 범주에서만 언어 감지 (기본값: 프로그래밍 및 마크업):
 
-`onefetch {{-T|--type}} {{programming|markup|prose|data}}`
+`onefetch {{[-T|--type]}} {{programming|markup|prose|data}}`

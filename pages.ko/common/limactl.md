@@ -10,7 +10,7 @@
 
 - 기본 설정을 사용하여 VM 생성(선택적으로 이름 및/또는 템플릿 제공 가능, 사용 가능한 템플릿은 `limactl create --list-templates` 참조):
 
-`limactl create --name {{vm_이름}} template://{{debian|fedora|ubuntu|…}}`
+`limactl create --name {{vm_이름}} template://{{debian|fedora|ubuntu|...}}`
 
 - VM 시작(일부 의존성이 설치될 수 있으며 몇 분이 소요될 수 있음):
 

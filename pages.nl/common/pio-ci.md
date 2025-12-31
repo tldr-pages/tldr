@@ -10,11 +10,11 @@
 
 - Bouw een PlatformIO project en specificeer specifieke bibliotheken:
 
-`pio ci --lib {{pad/naar/bibliotheek_map}} {{pad/naar/project}}`
+`pio ci {{[-l|--lib]}} {{pad/naar/bibliotheek_map}} {{pad/naar/project}}`
 
 - Bouw een PlatformIO project en specificeer een specifiek board (`pio boards` toont ze allemaal):
 
-`pio ci --board {{board}} {{pad/naar/project}}`
+`pio ci {{[-b|--board]}} {{board}} {{pad/naar/project}}`
 
 - Bouw een PlatformIO project in een specifieke map:
 
@@ -26,4 +26,4 @@
 
 - Bouw een PlatformIO project met een specifiek configuratiebestand:
 
-`pio ci --project-conf {{pad/naar/platformio.ini}}`
+`pio ci {{[-c|--project-conf]}} {{pad/naar/platformio.ini}}`

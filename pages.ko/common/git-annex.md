@@ -2,7 +2,7 @@
 
 > Git을 사용하여 파일을 관리하지만, 파일의 내용을 체크인하지 않습니다.
 > 파일이 annexed되면, 해당 내용이 키-값 저장소로 이동되고, 내용을 가리키는 심볼릭 링크가 생성됩니다.
-> 더 많은 정보: <https://git-annex.branchable.com>.
+> 더 많은 정보: <https://git-annex.branchable.com/git-annex/>.
 
 - Git annex로 저장소 초기화:
 

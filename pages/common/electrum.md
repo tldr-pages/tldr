@@ -1,19 +1,19 @@
 # electrum
 
 > Ergonomic Bitcoin wallet and private key management.
-> More information: <https://electrum.org>.
+> More information: <https://manned.org/electrum>.
 
 - Create a new wallet:
 
-`electrum -w {{new_wallet.dat}} create`
+`electrum {{[-w|--wallet]}} {{path/to/new_wallet.dat}} create`
 
 - Restore an existing wallet from seed offline:
 
-`electrum -w {{recovery_wallet.dat}} restore -o`
+`electrum {{[-w|--wallet]}} {{path/to/recovery_wallet.dat}} restore {{[-o|--offline]}}`
 
 - Create a signed transaction offline:
 
-`electrum mktx {{recipient}} {{amount}} -f 0.0000001 -F {{from}} -o`
+`electrum mktx {{recipient}} {{amount}} {{[-f|--fee]}} 0.0000001 {{[-F|--from-addr]}} {{from}} {{[-o|--offline]}}`
 
 - Display all wallet receiving addresses:
 
@@ -29,4 +29,4 @@
 
 - Connect only to a specific electrum-server instance:
 
-`electrum -p socks5:{{127.0.0.1}}:9050 -s {{56ckl5obj37gypcu.onion}}:50001:t -1`
+`electrum {{[-p|--proxy]}} socks5:{{127.0.0.1}}:9050 {{[-s|--server]}} {{56ckl5obj37gypcu.onion}}:50001:t {{[-1|--oneserver]}}`

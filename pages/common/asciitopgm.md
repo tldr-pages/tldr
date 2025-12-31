@@ -9,4 +9,4 @@
 
 - Display version:
 
-`asciitopgm -version`
+`asciitopgm {{[-v|-version]}}`

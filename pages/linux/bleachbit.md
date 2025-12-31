@@ -9,16 +9,16 @@
 
 - Shred a file:
 
-`bleachbit --shred {{path/to/file}}`
+`bleachbit {{[-s|--shred]}} {{path/to/file}}`
 
 - List available cleaner options:
 
-`bleachbit --list-cleaners`
+`bleachbit {{[-l|--list-cleaners]}}`
 
 - Preview the files that will be deleted and other changes that will be made before actually performing the clean-up operation:
 
-`bleachbit --preview {{--preset|cleaner1.option1 cleaner2.* ...}}`
+`bleachbit {{[-p|--preview]}} --preset {{cleaner1.option1 cleaner2.option2 ...}}`
 
 - Perform the clean-up operation and delete files:
 
-`bleachbit --clean {{--preset|cleaner1.option1 cleaner2.* ...}}`
+`bleachbit {{[-c|--clean]}} --preset {{cleaner1.option1 cleaner2.option2 ...}}`

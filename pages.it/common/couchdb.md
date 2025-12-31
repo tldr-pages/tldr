@@ -1,7 +1,7 @@
 # couchdb
 
 > Interfaccia da linea di comando per il server di database Apache CouchDB.
-> Maggiori informazioni: <https://couchdb.apache.org>.
+> Maggiori informazioni: <https://manned.org/couchdb>.
 
 - Avvia couchdb:
 

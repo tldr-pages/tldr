@@ -1,7 +1,7 @@
 # gid
 
-> To polecenie jest aliasem `-p linux id`.
+> To polecenie jest aliasem GNU `id`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux id`
+`tldr id`

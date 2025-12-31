@@ -5,20 +5,20 @@
 
 - Kopieer een image van bron naar doel:
 
-`crane copy {{bron}} {{doel}}`
+`crane {{[cp|copy]}} {{bron}} {{doel}}`
 
 - Kopieer alle tags:
 
-`crane copy {{bron}} {{doel}} {{-a|--all-tags}}`
+`crane {{[cp|copy]}} {{bron}} {{doel}} {{[-a|--all-tags]}}`
 
 - Stel het maximum aantal gelijktijdige kopieën in, standaard is GOMAXPROCS:
 
-`crane copy {{bron}} {{doel}} {{-j|--jobs}} {{int}}`
+`crane {{[cp|copy]}} {{bron}} {{doel}} {{[-j|--jobs]}} {{int}}`
 
 - Voorkom het overschrijven van bestaande tags in het doel:
 
-`crane copy {{bron}} {{doel}} {{-n|--no-clobber}}`
+`crane {{[cp|copy]}} {{bron}} {{doel}} {{[-n|--no-clobber]}}`
 
-- Toon help:
+- Toon de help:
 
-`crane copy {{-h|--help}}`
+`crane {{[cp|copy]}} {{[-h|--help]}}`

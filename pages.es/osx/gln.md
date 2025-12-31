@@ -1,7 +1,7 @@
 # gln
 
-> Este comando es un alias de `-p linux ln`.
+> Este comando es un alias de `ln`.
 
-- Muestra la documentación del comando original:
+- Vea la documentación para el comando original:
 
-`tldr -p linux ln`
+`tldr ln`

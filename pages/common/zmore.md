@@ -11,14 +11,14 @@
 
 `<Space>`
 
-- Search for a pattern in the file (press `n` to go to next match):
+- Search for a pattern in the file (press `<n>` to go to next match):
 
-`/{{regular_expression}}`
+`</>{{regex}}`
 
 - Exit:
 
-`q`
+`<q>`
 
 - Display interactive command help:
 
-`h`
+`<h>`

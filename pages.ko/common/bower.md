@@ -1,7 +1,7 @@
 # bower
 
 > front-end 웹 개발에 최적화된 패키지 관리자. 패키지는 GitHub 사용자/reop 요약, Git의 엔드포인트, URL 혹은 등록된 패키지일 수 있습니다.
-> 더 많은 정보: <https://bower.io/>.
+> 더 많은 정보: <https://bower.io/#getting-started>.
 
 - bower.json에 나열된 프로젝트의 종속성 설치:
 

@@ -5,7 +5,7 @@
 
 - Show a live view of the functions that take the most execution time of a running process:
 
-`py-spy top --pid {{pid}}`
+`py-spy top {{[-p|--pid]}} {{pid}}`
 
 - Start a program and show a live view of the functions that take the most execution time:
 
@@ -13,8 +13,8 @@
 
 - Produce an SVG flame graph of the function call execution time:
 
-`py-spy record -o {{path/to/profile.svg}} --pid {{pid}}`
+`py-spy record {{[-o|--output]}} {{path/to/profile.svg}} {{[-p|--pid]}} {{pid}}`
 
 - Dump the call stack of a running process:
 
-`py-spy dump --pid {{pid}}`
+`py-spy dump {{[-p|--pid]}} {{pid}}`

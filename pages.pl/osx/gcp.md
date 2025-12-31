@@ -1,7 +1,7 @@
 # gcp
 
-> To polecenie jest aliasem `-p linux cp`.
+> To polecenie jest aliasem GNU `cp`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux cp`
+`tldr cp`

@@ -1,7 +1,7 @@
 # gseq
 
-> Este comando é um apelido de `-p linux seq`.
+> Este comando é um apelido de `seq`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux seq`
+`tldr seq`

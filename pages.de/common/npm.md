@@ -1,7 +1,7 @@
 # npm
 
 > Ein Kommandozeilenwerkzeug für die Verwaltung von JavaScript und Node.js Paketen (Packages).
-> Weitere Informationen: <https://www.npmjs.com>.
+> Weitere Informationen: <https://docs.npmjs.com/cli/npm/>.
 
 - Erstelle eine `package.json` Datei interaktiv:
 
@@ -17,11 +17,11 @@
 
 - Installiere ein Package und füge es als Entwicklungs-Abhängigkeit der `package.json` Datei hinzu:
 
-`npm install {{package_name}} {{-D|--save-dev}}`
+`npm install {{package_name}} {{[-D|--save-dev]}}`
 
 - Installiere ein Package global:
 
-`npm install {{-g|--global}} {{package_name}}`
+`npm install {{[-g|--global]}} {{package_name}}`
 
 - Deinstalliere ein Package und entferne es automatisch aus der `package.json` Datei:
 
@@ -33,4 +33,4 @@
 
 - Gib eine Liste aller global installierten Packages aus:
 
-`npm list {{-g|--global}} --depth {{0}}`
+`npm list {{[-g|--global]}} --depth {{0}}`

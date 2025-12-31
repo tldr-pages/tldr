@@ -1,7 +1,7 @@
 # firefox
 
 > Um browser livre e de código aberto.
-> Mais informações: <https://developer.mozilla.org/en-US/docs/Mozilla/Command_Line_Options>.
+> Mais informações: <https://wiki.mozilla.org/Firefox/CommandLineOptions>.
 
 - Inicie o Firefox e abra uma página web:
 

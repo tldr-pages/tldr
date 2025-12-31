@@ -1,7 +1,7 @@
 # lerna
 
 > 여러 패키지가 있는 JavaScript 프로젝트 관리.
-> 더 많은 정보: <https://lerna.js.org>.
+> 더 많은 정보: <https://lerna.js.org/docs/api-reference/commands>.
 
 - 프로젝트 파일 초기화(`lerna.json`, `package.json`, `.git` 등):
 

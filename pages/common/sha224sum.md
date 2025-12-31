@@ -17,16 +17,16 @@
 
 - Read a file of SHA224 checksums and filenames and verify all files have matching checksums:
 
-`sha224sum --check {{path/to/file.sha224}}`
+`sha224sum {{[-c|--check]}} {{path/to/file.sha224}}`
 
 - Only show a message for missing files or when verification fails:
 
-`sha224sum --check --quiet {{path/to/file.sha224}}`
+`sha224sum {{[-c|--check]}} --quiet {{path/to/file.sha224}}`
 
 - Only show a message when verification fails, ignoring missing files:
 
-`sha224sum --ignore-missing --check --quiet {{path/to/file.sha224}}`
+`sha224sum --ignore-missing {{[-c|--check]}} --quiet {{path/to/file.sha224}}`
 
 - Check a known SHA224 checksum of a file:
 
-`echo {{known_sha224_checksum_of_the_file}} {{path/to/file}} | sha224sum --check`
+`echo {{known_sha224_checksum_of_the_file}} {{path/to/file}} | sha224sum {{[-c|--check]}}`

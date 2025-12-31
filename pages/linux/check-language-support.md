@@ -9,7 +9,7 @@
 
 - List packages for a specific locale:
 
-`check-language-support --language {{en}}`
+`check-language-support {{[-l|--language]}} {{en}}`
 
 - Display installed packages as well as missing ones:
 

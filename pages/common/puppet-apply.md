@@ -1,7 +1,7 @@
 # puppet apply
 
 > Apply Puppet manifests locally.
-> More information: <https://puppet.com/docs/puppet/7/man/apply.html>.
+> More information: <https://github.com/puppetlabs/puppet/blob/main/references/man/apply.md>.
 
 - Apply a manifest:
 

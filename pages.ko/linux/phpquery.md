@@ -1,7 +1,7 @@
 # phpquery
 
 > Debian 기반 운영체제를 위한 PHP 확장 관리자.
-> 더 많은 정보: <https://helpmanual.io/help/phpquery/>.
+> 더 많은 정보: <https://code.google.com/archive/p/phpquery/wikis/CommandLineInterface.wiki>.
 
 - 사용 가능한 PHP 버전 나열:
 

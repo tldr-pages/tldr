@@ -10,7 +10,7 @@
 
 - 언스테이지된 파일을 특정 커밋의 버전으로 복원:
 
-`git restore --source {{커밋}} {{경로/대상/파일}}`
+`git restore {{[-s|--source]}} {{커밋}} {{경로/대상/파일}}`
 
 - 추적 중인 파일에 대한 모든 언스테이지된 변경 사항을 폐기:
 
@@ -18,16 +18,16 @@
 
 - 파일의 스테이지를 내리기:
 
-`git restore --staged {{경로/대상/파일}}`
+`git restore {{[-S|--staged]}} {{경로/대상/파일}}`
 
 - 모든 파일의 스테이지를 내리기:
 
-`git restore --staged :/`
+`git restore {{[-S|--staged]}} :/`
 
 - 스테이지 및 언스테이지된 파일의 모든 변경 사항 폐기:
 
-`git restore --worktree --staged :/`
+`git restore {{[-W|--worktree]}} {{[-S|--staged]}} :/`
 
 - 파일의 섹션을 대화적으로 선택하여 복원:
 
-`git restore --patch`
+`git restore {{[-p|--patch]}}`

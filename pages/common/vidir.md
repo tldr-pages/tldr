@@ -1,7 +1,7 @@
 # vidir
 
 > Edit directories in a text editor.
-> More information: <https://joeyh.name/code/moreutils/>.
+> More information: <https://manned.org/vidir>.
 
 - Edit the contents of the specified directories:
 
@@ -9,7 +9,7 @@
 
 - Display each action taken by the program:
 
-`vidir --verbose {{path/to/directory1 path/to/directory2 ...}}`
+`vidir {{[-v|--verbose]}} {{path/to/directory1 path/to/directory2 ...}}`
 
 - Edit the contents of current directory:
 

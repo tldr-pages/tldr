@@ -10,16 +10,16 @@
 
 - 클라이언트 암호를 사용하여 서비스 주체로 로그인:
 
-`az login --service-principal --username {{http://azure-cli-service-principal}} --password {{비밀}} --tenant {{someone.onmicrosoft.com}}`
+`az login --service-principal {{[-u|--username]}} {{http://azure-cli-service-principal}} {{[-p|--password]}} {{비밀}} {{[-t|--tenant]}} {{someone.onmicrosoft.com}}`
 
 - 클라이언트 인증서를 사용하여 서비스 주체로 로그인:
 
-`az login --service-principal --username {{http://azure-cli-service-principal}} --password {{경로/대상/cert.pem}} --tenant {{someone.onmicrosoft.com}}`
+`az login --service-principal {{[-u|--username]}} {{http://azure-cli-service-principal}} {{[-p|--password]}} {{경로/대상/cert.pem}} {{[-t|--tenant]}} {{someone.onmicrosoft.com}}`
 
 - VM의 시스템 할당 ID를 사용하여 로그인:
 
-`az login --identity`
+`az login {{[-i|--identity]}}`
 
 - VM의 사용자 할당 ID를 사용하여 로그인:
 
-`az login --identity --username /subscriptions/{{구독_아이디}}/resourcegroups/{{나의_리소스그룹}}/providers/Microsoft.ManagedIdentity/userAssignedIdentities/{{나의_아이디}}`
+`az login {{[-i|--identity]}} {{[-u|--username]}} /subscriptions/{{구독_아이디}}/resourcegroups/{{나의_리소스그룹}}/providers/Microsoft.ManagedIdentity/userAssignedIdentities/{{나의_아이디}}`

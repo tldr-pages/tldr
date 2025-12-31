@@ -1,7 +1,7 @@
 # dvc checkout
 
 > 캐시에서 데이터 파일 및 디렉토리를 체크아웃.
-> 더 많은 정보: <https://dvc.org/doc/command-reference/checkout>.
+> 더 많은 정보: <https://doc.dvc.org/command-reference/checkout>.
 
 - 모든 대상 파일 및 디렉토리의 최신 버전 체크아웃:
 

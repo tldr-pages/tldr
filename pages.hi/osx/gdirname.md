@@ -1,7 +1,7 @@
 # gdirname
 
-> यह आदेश `-p linux dirname` का उपनाम है।
+> यह आदेश `dirname` का उपनाम है।
 
 - मूल आदेश के लिए दस्तावेज़ देखें:
 
-`tldr -p linux dirname`
+`tldr dirname`

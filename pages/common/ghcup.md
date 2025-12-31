@@ -8,7 +8,7 @@
 
 `ghcup tui`
 
-- List available GHC/cabal versions:
+- List available GHC/Cabal versions:
 
 `ghcup list`
 
@@ -20,7 +20,7 @@
 
 `ghcup install ghc {{version}}`
 
-- Set the currently "active" GHC version:
+- Activate a specific GHC version:
 
 `ghcup set ghc {{version}}`
 

@@ -1,7 +1,7 @@
 # gtr
 
-> Dit commando is een alias van `-p linux tr`.
+> Dit commando is een alias van GNU `tr`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux tr`
+`tldr tr`

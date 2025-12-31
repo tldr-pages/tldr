@@ -1,7 +1,7 @@
 # gmkdir
 
-> Perintah ini merupakan alias dari `-p linux mkdir`.
+> Perintah ini merupakan alias dari `mkdir`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux mkdir`
+`tldr mkdir`

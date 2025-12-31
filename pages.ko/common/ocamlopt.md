@@ -2,7 +2,7 @@
 
 > OCaml 네이티브 코드 컴파일러.
 > 네이티브 실행 파일을 생성합니다. 예: Linux의 ELF.
-> 더 많은 정보: <https://ocaml.org>.
+> 더 많은 정보: <https://manned.org/ocamlopt>.
 
 - 소스 파일 컴파일:
 

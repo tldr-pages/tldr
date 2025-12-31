@@ -9,4 +9,4 @@
 
 - Open <https://pinout.xyz/> in the default browser:
 
-`pinout -x`
+`pinout {{[-x|--xyz]}}`

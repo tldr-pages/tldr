@@ -6,7 +6,7 @@
 
 - Tüm (çalışan veya duran) Docker konteynerlerini listele:
 
-`docker ps --all`
+`docker ps {{[-a|--all]}}`
 
 - Bir imgeden özel bir isimle konteyner başlat:
 
@@ -22,7 +22,7 @@
 
 - Halihazırda çalışan bir konteyner içinde komut istemcisi aç:
 
-`docker exec -it {{konteyner_ismi}} {{sh}}`
+`docker exec {{[-it|--interactive --tty]}} {{konteyner_ismi}} {{sh}}`
 
 - Durmuş bir konteyneri sil:
 
@@ -30,4 +30,4 @@
 
 - Bir konteynerin kaydını çek ve takip et:
 
-`docker logs -f {{konteyner_ismi}}`
+`docker logs {{[-f|--follow]}} {{konteyner_ismi}}`

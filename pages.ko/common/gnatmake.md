@@ -1,7 +1,7 @@
 # gnatmake
 
 > Ada 프로그램용 저수준 빌드 도구 (GNAT 도구 체인의 일부).
-> 더 많은 정보: <https://gcc.gnu.org/onlinedocs/gnat_ugn/Building-with-gnatmake.html>.
+> 더 많은 정보: <https://gcc.gnu.org/onlinedocs/gnat_ugn/Switches-for-gnatmake.html>.
 
 - 실행 파일을 컴파일:
 

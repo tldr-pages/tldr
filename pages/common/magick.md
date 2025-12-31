@@ -3,7 +3,7 @@
 > Create, edit, compose, or convert between image formats.
 > This tool replaces `convert` in ImageMagick 7+. See `magick convert` to use the old tool in versions 7+.
 > Some subcommands, such as `mogrify` have their own usage documentation.
-> More information: <https://imagemagick.org>.
+> More information: <https://imagemagick.org/script/magick.php>.
 
 - Convert between image formats:
 
@@ -12,6 +12,14 @@
 - Resize an image, making a new copy:
 
 `magick {{path/to/input_image.jpg}} -resize {{100x100}} {{path/to/output_image.jpg}}`
+
+- Resize an image by a percentage:
+
+`magick {{path/to/input_image.png}} -resize {{50}}% {{path/to/output_image.png}}`
+
+- Scale an image to have a specified file size:
+
+`magick {{path/to/input_image.png}} -define jpeg:extent={{512kb}} {{path/to/output_image.jpg}}`
 
 - Create a GIF out of all JPEG images in the current directory:
 

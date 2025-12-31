@@ -1,9 +1,9 @@
 # ugrep
 
 > 초고속 검색 도구로, 쿼리 TUI를 제공합니다.
-> 더 많은 정보: <https://github.com/Genivia/ugrep>.
+> 더 많은 정보: <https://github.com/Genivia/ugrep#man-page>.
 
-- 현재 디렉터리의 파일을 재귀적으로 검색하는 쿼리 TUI 시작 (도움말은 CTRL-Z):
+- 현재 디렉터리의 파일을 재귀적으로 검색하는 쿼리 TUI 시작 (도움말은 `<Ctrl z>`):
 
 `ugrep --query`
 
@@ -23,7 +23,7 @@
 
 `ugrep --fuzzy={{3}} "{{검색_패턴}}"`
 
-- 압축 파일, Zip 및 tar 아카이브를 재귀적으로 검색:
+- 압축 파일, Zip 및 `.tar` 아카이브를 재귀적으로 검색:
 
 `ugrep --decompress "{{검색_패턴}}"`
 
