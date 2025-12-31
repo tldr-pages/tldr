@@ -251,7 +251,7 @@ Not translated yet.
 
 ### ro
 
-Not translated yet.
+> Vezi și: `exemplu`.
 
 ---
 
