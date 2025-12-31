@@ -1,7 +1,6 @@
 # mysqldump
 
 > MySQL 데이터베이스 백업.
-> 데이터베이스 복원에 대해서는 `mysql`을 참조하세요.
 > 더 많은 정보: <https://dev.mysql.com/doc/refman/en/mysqldump.html>.
 
 - 백업 생성 (사용자에게 비밀번호가 요청됨):

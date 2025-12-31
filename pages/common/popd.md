@@ -1,6 +1,6 @@
 # popd
 
-> Remove a directory placed on the directory stack via the pushd shell built-in.
+> Remove a directory placed on the directory stack via the `pushd` shell built-in.
 > See also: `pushd`, `dirs`.
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#index-popd>.
 
