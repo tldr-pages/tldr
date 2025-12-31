@@ -20,7 +20,7 @@
 
 `fzf {{[-q|--query]}} "{{sorgu}}"`
 
-- `Core` ile başlayan ve `go`, `rb` veya `py` ile biten girişlerde `fzf`'yi başlat:
+- `core` ile başlayan ve `go`, `rb` veya `py` ile biten girişlerde `fzf`'yi başlat:
 
 `fzf {{[-q|--query]}} "^core go$ | rb$ | py$"`
 
