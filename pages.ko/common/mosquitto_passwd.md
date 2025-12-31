@@ -1,7 +1,6 @@
 # mosquitto_passwd
 
 > mosquitto의 비밀번호 파일을 관리.
-> 관리하는 MQTT 서버인 `mosquitto`도 참고하세요.
 > 더 많은 정보: <https://mosquitto.org/man/mosquitto_passwd-1.html>.
 
 - 비밀번호 파일에 새 사용자 추가 (비밀번호 입력을 요청함):

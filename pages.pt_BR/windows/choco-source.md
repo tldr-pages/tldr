@@ -9,24 +9,24 @@
 
 - Adiciona uma nova fonte de pacotes:
 
-`choco source add --name {{nome}} --source {{url_da_fonte}}`
+`choco source add {{[-n|--name]}} {{nome}} {{[-s|--source]}} {{url_da_fonte}}`
 
 - Adiciona uma nova fonte de pacotes com credenciais:
 
-`choco source add --name {{nome}} --source {{url_da_fonte}} --user {{nome}} --password {{senha}}`
+`choco source add {{[-n|--name]}} {{nome}} {{[-s|--source]}} {{url_da_fonte}} {{[-u|--user]}} {{nome}} {{[-p|--password]}} {{senha}}`
 
 - Adiciona uma nova fonte de pacotes com certificado do cliente:
 
-`choco source add --name {{nome}} --source {{url_da_fonte}} --cert {{caminho/para/certificado}}`
+`choco source add {{[-n|--name]}} {{nome}} {{[-s|--source]}} {{url_da_fonte}} --cert {{caminho/para/certificado}}`
 
 - Habilita uma fonte de pacotes:
 
-`choco source enable --name {{nome}}`
+`choco source enable {{[-n|--name]}} {{nome}}`
 
 - Desabilita uma fonte de pacotes:
 
-`choco source disable --name {{nome}}`
+`choco source disable {{[-n|--name]}} {{nome}}`
 
 - Remove uma fonte de pacotes:
 
-`choco source remove --name {{nome}}`
+`choco source remove {{[-n|--name]}} {{nome}}`

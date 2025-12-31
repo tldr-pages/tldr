@@ -1,7 +1,6 @@
 # kube-fzf
 
 > Kubernetes Pod의 명령줄 퍼지 검색을 위한 셸 명령.
-> 관련 명령은 `kubectl`을 참고하세요.
 > 더 많은 정보: <https://github.com/thecasualcoder/kube-fzf>.
 
 - Pod 세부 정보 가져오기 (현재 네임스페이스에서):
