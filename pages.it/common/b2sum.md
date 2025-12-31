@@ -13,7 +13,7 @@
 
 - Leggi un file di checksum BLAKE2 e nomi di file e verifica che tutti i file abbiano lo stesso checksum:
 
-`b2sum -c {{elenco_checksum.b2}}`
+`b2sum -c {{elenco_checksum}}.b2`
 
 - Calcola il checksum BLAKE2 da standard input:
 
