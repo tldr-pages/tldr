@@ -13,7 +13,7 @@
 
 - Zeige eine Liste einschließlich der lokalen Windows-Programme an:
 
-`choco list --include-programs`
+`choco list {{[-i|--include-programs]}}`
 
 - Zeige nur zugelassene Pakete an:
 
@@ -21,7 +21,7 @@
 
 - Gib eine eigene Quelle an, von der Paket-Informationen abgerufen werden:
 
-`choco list --source {{quell_url|alias}}`
+`choco list {{[-s|--source]}} {{quell_url|alias}}`
 
 - Gib einen Benutzernamen und ein Passwort für die Authentifizierung an:
 
