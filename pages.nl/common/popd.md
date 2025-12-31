@@ -1,6 +1,6 @@
 # popd
 
-> Verwijder een map van de directory stack die is geplaatst met de ingebouwde pushd-opdracht van de shell.
+> Verwijder een map van de directory stack die is geplaatst met de ingebouwde `pushd` van de shell.
 > Zie ook: `pushd`, `dirs`.
 > Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#index-popd>.
 
