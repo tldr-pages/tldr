@@ -1,7 +1,6 @@
 # apm
 
 > Manager di pacchetti per l'editor di testo Atom.
-> Vedi `atom`.
 > Vedi anche: `atom`.
 > Maggiori informazioni: <https://github.com/atom/apm>.
 

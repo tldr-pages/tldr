@@ -1,7 +1,7 @@
 # git fsck
 
 > Vérifier la validité et la connectivité des nœuds dans un dépôt Git.
-> N'applique aucune modification. Voir `git gc` pour nettoyer.
+> N'applique aucune modification.
 > Voir aussi : `git gc`.
 > Plus d'informations : <https://git-scm.com/docs/git-fsck>.
 

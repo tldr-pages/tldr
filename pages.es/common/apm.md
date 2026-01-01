@@ -1,7 +1,6 @@
 # apm
 
 > Editor Atom Package Manager.
-> Vea `atom`.
 > Vea también: `atom`.
 > Más información: <https://github.com/atom/apm>.
 

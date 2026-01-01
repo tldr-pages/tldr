@@ -1,7 +1,6 @@
 # apm
 
 > Gestionnaire de paquets pour Atom.
-> Voir `atom`.
 > Voir aussi : `atom`.
 > Plus d'informations : <https://github.com/atom/apm>.
 

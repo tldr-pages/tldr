@@ -1,6 +1,6 @@
 # grep
 
-> Cari pola teks tertentu pada kumpulan berkas menggunakan kata pencarian ekspresi reguler (regex).
+> Cari pola teks tertentu pada kumpulan berkas menggunakan kata pencarian ekspresi reguler (`regex`).
 > Lihat juga: `regex`.
 > Informasi lebih lanjut: <https://www.gnu.org/software/grep/manual/grep.html>.
 
