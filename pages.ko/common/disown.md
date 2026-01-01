@@ -1,7 +1,6 @@
 # disown
 
 > 하위 프로세스가 연결된 쉘 외부에서 작동하도록 허용.
-> `jobs` 명령도 참조.
 > 더 많은 정보: <https://www.gnu.org/software/bash/manual/bash.html#index-disown>.
 
 - 현재 작업을 해제:
