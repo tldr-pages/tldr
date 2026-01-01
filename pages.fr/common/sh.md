@@ -1,7 +1,7 @@
 # sh
 
 > Bourne SHell, l'interpréteur de ligne de commande classique.
-> Voir aussi `!` pour l'expansion de l'historique.
+> Voir aussi : `!` pour l'expansion de l'historique.
 > Plus d'informations : <https://manned.org/sh>.
 
 - Démarre une session shell interactive :

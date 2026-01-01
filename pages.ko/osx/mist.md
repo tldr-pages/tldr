@@ -26,7 +26,7 @@
 
 - macOS 설치 프로그램을 CSV [f]파일로 내보내기:
 
-`mist list installer --export "{{경로/대상/export.csv}}"`
+`mist list installer --export "/{{경로/대상/export.csv}}"`
 
 - Apple Silicon Mac용 최신 macOS Sonoma 펌웨어 다운로드, 사용자 지정 이름 사용:
 

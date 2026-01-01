@@ -2,6 +2,7 @@
 
 > WirePlumber를 관리하는 도구로, PipeWire의 세션 및 정책 관리자를 관리합니다.
 > 참고: `id` 대신 특별한 이름인 `@DEFAULT_SINK@`을 사용하여 기본 싱크를 조작할 수 있습니다.
+> 같이 보기: `pw-cli`.
 > 더 많은 정보: <https://pipewire.pages.freedesktop.org/wireplumber/>.
 
 - WirePlumber가 관리하는 모든 객체 나열:

@@ -13,7 +13,7 @@
 
 - ビデオを GIF として保存する。高さを 1000px に拡大縮小し、フレームレートを 15 に設定:
 
-`ffmpeg -i {{path/to/video.mp4}} {{[-vf|-filter:v]}} 'scale=-1:{{1000}}' -r {{15}} {{path/to/output.gif}}`
+`ffmpeg -i {{path/to/video.mp4}} {{[-vf|-filter:v]}} 'scale=-1:1000' -r 15 {{path/to/output.gif}}`
 
 - 番号付けされた画像（`frame_1.jpg`, `frame_2.jpg` など）を動画または GIF に結合:
 

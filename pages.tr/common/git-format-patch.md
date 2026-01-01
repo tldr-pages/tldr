@@ -1,7 +1,6 @@
 # git format-patch
 
 > `.patch` dosyaları oluştur. Commit'leri e-posta olarak gönderirken işe yarar.
-> Ayrıca benzer bir komut olan `git am` sayfasına bakılması önerilir.
 > Daha fazla bilgi için: <https://git-scm.com/docs/git-format-patch>.
 
 - Gönderilmemiş tüm commit'ler için otomatik olarak adlandırılan bir `.patch` dosyası oluştur:
