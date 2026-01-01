@@ -35,5 +35,3 @@
 - Preserve the interactive mode of the run command:
 
 `{{arguments_source}} | xargs {{[-o|--open-tty]}} {{command}}`
-
-
