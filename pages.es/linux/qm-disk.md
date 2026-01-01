@@ -17,7 +17,7 @@
 
 - Importa una imagen de disco VMDK/`.qcow2`/raw utilizando un nombre de almacenamiento específico:
 
-`qm {{[di|disk]}} {{[i|import]}} {{vm_id}} {{ruta/al/disco}}{{nombre_almacenamiento}} --format {{qcow2|raw|vmdk}}`
+`qm {{[di|disk]}} {{[i|import]}} {{vm_id}} {{ruta/al/disco}} {{nombre_almacenamiento}} --format {{qcow2|raw|vmdk}}`
 
 - Vuelve a escanear todos los almacenamientos y actualiza los tamaños de disco y las imágenes de disco no utilizadas:
 
