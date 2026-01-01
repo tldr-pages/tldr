@@ -19,4 +19,3 @@
 - 系统范围内删除各配置当前代次未使用的所有存储路径（需管理员权限）：
 
 `sudo nix-collect-garbage {{[-d|--delete-old]}}`
-

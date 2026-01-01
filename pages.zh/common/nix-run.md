@@ -31,4 +31,3 @@
 - 运行 GitHub 拉取请求中的软件包配置：
 
 `nix run github:{{所有者}}/{{代码库}}/pull/{{编号}}/head`
-

@@ -11,4 +11,3 @@
 - 构建沙盒化的 Nix 表达式（在非 NixOS 系统上）：
 
 `nix-build '<nixpkgs>' {{[-A|--attr]}} {{包名}} --option sandbox true`
-

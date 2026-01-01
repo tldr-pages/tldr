@@ -10,4 +10,3 @@
 - 使用指定的模板创建新的flake（关于模板信息，参见 `nix flake show`）：
 
 `nix flake init {{[-t|--template]}} templates#{{your_template}}`
-

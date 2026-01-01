@@ -14,4 +14,3 @@
 - 更新所有频道的软件包列表：
 
 `nix-channel --update`
-

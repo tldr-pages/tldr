@@ -14,4 +14,3 @@
 - 查看 GitHub 上某 Flake 仓库提供的所有可用软件包：
 
 `nix search {{github:所有者/仓库名}}`
-

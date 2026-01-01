@@ -26,4 +26,3 @@
 - 回滚（撤销）默认配置集上的最近一次操作：
 
 `nix profile rollback`
-
