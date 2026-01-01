@@ -3,7 +3,7 @@
 > Connect to and control a running FreeSWITCH server using the FreeSWITCH Command Line Interface (ESL client).
 > More information: <https://developer.signalwire.com/freeswitch/FreeSWITCH-Explained/Client-and-Developer-Interfaces/1048948/>.
 
-- Connect to the local FreeSWITCH instance:
+- Connect to the local FreeSWITCH instance with an interactive session:
 
 `fs_cli`
 
