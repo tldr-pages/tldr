@@ -25,7 +25,7 @@
 
 `<Esc></>{{search_pattern}}<Enter>`
 
-- 在当前文件中使用正则表达式进行全局替换：
+- 在当前文件中使用`regex`式进行全局替换：
 
 `<Esc><:>%s/{{regular_expression}}/{{replacement}}/g<Enter>`
 

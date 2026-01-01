@@ -11,7 +11,7 @@
 
 `logcat -f {{path/to/file}}`
 
-- Saring informasi log berdasarkan sintaks ekspresi reguler (regex) tertentu:
+- Saring informasi log berdasarkan sintaks ekspresi reguler (`regex`) tertentu:
 
 `logcat --regex {{regular_expression}}`
 

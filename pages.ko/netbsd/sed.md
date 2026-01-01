@@ -4,7 +4,7 @@
 > 같이 보기: `awk`, `ed`.
 > 더 많은 정보: <https://man.netbsd.org/sed.1>.
 
-- 모든 입력 라인에서 `apple` (기본 정규표현식)을 `mango` (기본 정규표현식)로 대체하고 결과를 `stdout`에 인쇄:
+- 모든 입력 라인에서 `apple` (기본 `regex`)을 `mango` (기본 `regex`)로 대체하고 결과를 `stdout`에 인쇄:
 
 `{{명령}} | sed 's/apple/mango/g'`
 
@@ -16,11 +16,11 @@
 
 `{{명령}} | sed -fa {{경로/대상/스크립트.sed}}`
 
-- GNU [g]정규식 확장 활성화:
+- [g]NU `regex` 확장 활성화:
 
 `{{명령}} | sed -fg {{경로/대상/스크립트.sed}}`
 
-- 모든 입력 라인에서 `apple` (확장 정규표현식)을 `APPLE` (확장 정규표현식)으로 대체하고 결과를 `stdout`에 인쇄:
+- 모든 입력 라인에서 `apple` (확장 `regex`)을 `APPLE` (확장 `regex`)으로 대체하고 결과를 `stdout`에 인쇄:
 
 `{{명령}} | sed -E 's/(apple)/\U\1/g'`
 
@@ -28,6 +28,6 @@
 
 `{{명령}} | sed -n '1p'`
 
-- 특정 파일에서 `apple` (기본 정규표현식)을 `mango` (기본 정규표현식)로 모두 대체하고 원본 파일 덮어쓰기:
+- 특정 파일에서 `apple` (기본 `regex`)을 `mango` (기본 `regex`)로 모두 대체하고 원본 파일 덮어쓰기:
 
 `sed -i 's/apple/mango/g' {{경로/대상/파일}}`

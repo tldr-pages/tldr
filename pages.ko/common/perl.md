@@ -3,7 +3,7 @@
 > Perl 5 언어 인터프리터.
 > 더 많은 정보: <https://perldoc.perl.org/perl>.
 
-- `stdin`에서 regex1과 일치하고 대소문자를 구분하지 않는 regex2와 일치하는 행 출력:
+- `stdin`에서 `regex1`과 일치하고 대소문자를 구분하지 않는 `regex2`와 일치하는 행 출력:
 
 `perl -n -e 'print if m/{{regex1}}/ and m/{{regex2}}/i'`
 
@@ -11,7 +11,7 @@
 
 `perl -n -E 'say $1 if m/{{이전}} ( {{정규식_그룹}} ) {{이후}}/x'`
 
-- 백업과 함께 제자리에서 모든 regex 발생을 대체:
+- 백업과 함께 제자리에서 모든 `regex` 발생을 대체:
 
 `perl -i'.bak' -p -e 's/{{regex}}/{{대체}}/g' {{경로/대상/파일들}}`
 
