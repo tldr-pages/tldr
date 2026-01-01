@@ -1,6 +1,7 @@
 # age
 
 > 간단하고, 현대적이며 안전한 파일 암호화 도구.
+> 같이 보기: `age-keygen`.
 > 더 많은 정보: <https://github.com/FiloSottile/age#usage>.
 
 - 암호로 해독할 수 있는 암호화된 파일을 생성:

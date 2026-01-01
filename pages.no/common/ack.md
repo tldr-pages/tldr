@@ -1,7 +1,7 @@
 # ack
 
 > Et søkeverktøy som grep, optimalisert for utviklere.
-> Se også: `rg`, som er mye raskere.
+> Se også: `rg`.
 > Mer informasjon: <https://beyondgrep.com/documentation/>.
 
 - Søk etter filer som inneholder en streng eller regulært uttrykk i gjeldende katalog rekursivt:

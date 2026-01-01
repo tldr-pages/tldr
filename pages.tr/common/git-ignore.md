@@ -1,6 +1,7 @@
 # git ignore
 
 > Önceden belirlenmiş şablonlarla `.gitignore` dosyaları oluştur.
+> Ayrıca bakınız: `git ignore-io`.
 > Daha fazla bilgi için: <https://github.com/tj/git-extras/blob/main/Commands.md#git-ignore>.
 
 - Mevzut şablonları sırala:

@@ -1,7 +1,7 @@
 # pamcut
 
 > Corta una región rectangular de una imagen Netpbm.
-> Vea también: `pamcrop`, `pamdice`, `pamcomp`.
+> Vea también: `pamdice`, `pamcomp`.
 > Más información: <https://netpbm.sourceforge.net/doc/pamcut.html>.
 
 - Descarta la cantidad de columnas/filas especificadas a cada lado de la imagen:

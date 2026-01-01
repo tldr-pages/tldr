@@ -2,6 +2,7 @@
 
 > Z SHell.
 > Inteprete da linea di comando compatibile con `bash` e `sh`.
+> Vedi anche: `bash`, `!`, `^`.
 > Maggiori informazioni: <https://zsh.sourceforge.io/Doc/Release/Invocation.html#Invocation>.
 
 - Fai partire l'interprete interattivo da linea di comando:

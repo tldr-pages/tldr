@@ -1,6 +1,7 @@
 # nmcli
 
 > NetworkManager를 사용하여 네트워크 구성을 관리합니다.
+> 같이 보기: `nmtui`, `iw`, `iwctl`.
 > 더 많은 정보: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
 
 - NetworkManager 비밀/폴킷 에이전트로서 `nmcli` 실행에 대한 문서 보기:

@@ -1,6 +1,7 @@
 # find
 
 > Özyinelemeli olarak bir dizin ağacı altında dosyaları ve dizinleri bulur.
+> Ayrıca bakınız: `fd`.
 > Daha fazla bilgi için: <https://manned.org/find>.
 
 - Dosyaları uzantılarına göre bul:

@@ -1,6 +1,7 @@
 # top
 
 > Mostra informações, em tempo real, sobre os processos em execução.
+> Veja também: `htop`, `atop`, `glances`, `btop`, `btm`.
 > Mais informações: <https://manned.org/top>.
 
 - Inicia o `top`:

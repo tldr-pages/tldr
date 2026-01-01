@@ -1,6 +1,7 @@
 # unalias
 
 > 移除别名。
+> 另请参阅：`alias`。
 > 更多信息：<https://www.gnu.org/software/bash/manual/bash.html#index-unalias>。
 
 - 移除一个别名：

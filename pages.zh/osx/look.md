@@ -1,6 +1,7 @@
 # look
 
 > 查找已排序的文件行（注意，必须是已排序的文件）。
+> 另请参阅：`grep`, `sort`。
 > 更多信息：<https://keith.github.io/xcode-man-pages/look.1.html>。
 
 - 它开始寻找一个给定的前缀：

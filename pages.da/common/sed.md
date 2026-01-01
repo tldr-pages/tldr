@@ -1,6 +1,7 @@
 # sed
 
 > Rediger tekst, programmatisk.
+> Se også: `awk`, `ed`.
 > Mere information: <https://manned.org/sed.1posix>.
 
 - Erstat den første forekomst af et regulært udtryk (`regex`) i hver linje af en fil, og print resultatet:

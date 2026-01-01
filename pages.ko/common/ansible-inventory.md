@@ -1,6 +1,7 @@
 # ansible-inventory
 
 > Ansible 인벤토리를 표시하거나 덤프.
+> 같이 보기: `ansible`.
 > 더 많은 정보: <https://docs.ansible.com/projects/ansible/latest/cli/ansible-inventory.html>.
 
 - 기본 인벤토리를 표시:

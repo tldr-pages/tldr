@@ -1,7 +1,7 @@
 # ncmpcpp
 
 > Un cliente reproductor de música para Music Player Daemon.
-> Vea también: `mpd`, `mpc`, `qmmp` y `termusic`.
+> Vea también: `mpd`, `mpc`, `qmmp`, `termusic`.
 > Más información: <https://rybczak.net:443/ncmpcpp/>.
 
 - Se conecta a un servicio de reproducción de música en un host y puerto determinados:

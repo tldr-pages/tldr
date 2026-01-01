@@ -1,6 +1,7 @@
 # ffmpeg
 
 > Programm zum konvertieren von Videos.
+> Siehe auch: `gst-launch-1.0`.
 > Weitere Informationen: <https://ffmpeg.org/ffmpeg.html#Options>.
 
 - Extrahiere den Ton eines Videos und speichere ihn als MP3:

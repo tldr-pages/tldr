@@ -1,6 +1,7 @@
 # journalctl
 
 > Przeszukaj dziennik systemd.
+> Zobacz także: `dmesg`.
 > Więcej informacji: <https://www.freedesktop.org/software/systemd/man/latest/journalctl.html>.
 
 - Wyświetl wszystkie wiadomości o priorytecie 3 (błędy) z tego rozruchu:

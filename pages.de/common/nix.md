@@ -3,6 +3,7 @@
 > Ein leistungsfähiger Paketmanager, der das Paketmanagement zuverlässig, reproduzierbar und deklarativ macht.
 > `nix` ist experimentell und muss gesondert aktiviert werden.
 > Einige Unterbefehle wie `build`, `develop`, `flake`, `registry`, `profile`, `search`, `repl`, `store`, `edit`, `why-depends` usw. haben ihre eigene Dokumentation.
+> Siehe auch: `nix classic`.
 > Weitere Informationen: <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix>.
 
 - Aktiviere den `nix` Befehl:

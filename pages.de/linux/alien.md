@@ -1,6 +1,7 @@
 # alien
 
 > Ein Installations-Paket in ein anderes Format umwandeln.
+> Siehe auch: `debtap`.
 > Weitere Informationen: <https://manned.org/alien>.
 
 - Ein spezifisches Installationspaket in das Debian Format umwandeln (`.deb` Erweiterung):

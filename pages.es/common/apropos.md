@@ -1,6 +1,7 @@
 # apropos
 
 > Busca nombres y descripciones en las páginas del manual.
+> Vea también: `man`.
 > Más información: <https://manned.org/apropos>.
 
 - Busca una palabra clave utilizando una `regex`:

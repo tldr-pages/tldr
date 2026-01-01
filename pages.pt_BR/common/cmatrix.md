@@ -1,6 +1,7 @@
 # cmatrix
 
 > Exibe um padrão semelhante à Matrix rolando na tela do terminal.
+> Veja também: `cbonsai`, `asciiquarium`, `pipes.sh`.
 > Mais informações: <https://manned.org/cmatrix>.
 
 - Habilita rolagem assíncrona:

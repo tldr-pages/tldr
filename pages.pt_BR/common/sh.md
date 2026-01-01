@@ -1,7 +1,7 @@
 # sh
 
 > Bourne shell, o interpretador padrão da linha de comando.
-> Veja também: `!` para um histórico expandido.
+> Veja também: `!`, `^`.
 > Mais informações: <https://manned.org/sh>.
 
 - Inicie uma sessão shell interativa:

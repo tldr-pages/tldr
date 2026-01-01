@@ -2,6 +2,7 @@
 
 > 创建别名——用给定的字符串指代特定的命令。
 > 别名只会在当前的 shell 会话中生效，除非它们在 shell 的配置文件中被定义，例如`~/.bashrc`。
+> 另请参阅：`unalias`。
 > 更多信息：<https://www.gnu.org/software/bash/manual/bash.html#index-alias>。
 
 - 列出所有别名：

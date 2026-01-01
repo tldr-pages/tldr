@@ -1,6 +1,7 @@
 # bluetoothctl
 
 > Spravuje Bluetooth zařízení.
+> Viz také: `bluetui`.
 > Více informací: <https://manned.org/bluetoothctl>.
 
 - Vstoupit do `bluetoothctl` shellu:

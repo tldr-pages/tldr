@@ -1,6 +1,7 @@
 # stat
 
 > फ़ाइल और फ़ाइल सिस्टम की जानकारी दिखाएँ।
+> यह भी देखें: `file`।
 > अधिक जानकारी: <https://www.gnu.org/software/coreutils/manual/html_node/stat-invocation.html>।
 
 - एक विशिष्ट फ़ाइल के गुण दिखाएँ जैसे आकार, अनुमतियाँ, निर्माण और पहुँच तिथियाँ आदि:

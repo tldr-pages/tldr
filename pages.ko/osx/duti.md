@@ -1,6 +1,7 @@
 # duti
 
 > macOS에서 문서 유형 및 URL 스킴에 대한 기본 애플리케이션 설정.
+> 같이 보기: `osascript`.
 > 더 많은 정보: <https://github.com/moretension/duti>.
 
 - HTML 문서의 기본 처리기로 Safari 설정:

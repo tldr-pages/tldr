@@ -1,7 +1,7 @@
 # git am
 
 > Yama dosyalarını uygula. E-posta ile commit alırken faydalıdır.
-> Ayrıca yama dosyalarının üretilmesine yarayan `git format-patch` sayfasına bakılması önerilir.
+> Ayrıca bakınız: `git format-patch`.
 > Daha fazla bilgi için: <https://git-scm.com/docs/git-am>.
 
 - Bir yama dosyasını uygula:

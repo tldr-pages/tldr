@@ -1,7 +1,7 @@
 # ack
 
 > Una herramienta de búsqueda como grep, optimizada para desarrolladores.
-> Vea también: `rg`, que es más rápido.
+> Vea también: `rg`.
 > Más información: <https://beyondgrep.com/documentation/>.
 
 - Busca archivos que contengan una cadena o `regex` en el directorio actual de forma recursiva:

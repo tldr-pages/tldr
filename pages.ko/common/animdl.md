@@ -1,7 +1,7 @@
 # animdl
 
 > 매우 효율적으로 강력하며, 빠른 애니메이션 스크레이퍼.
-> 참고: `ani-cli`.
+> 같이 보기: `ani-cli`.
 > 더 많은 정보: <https://github.com/justfoolingaround/animdl#usage>.
 
 - 특정 애니메이션 다운로드:

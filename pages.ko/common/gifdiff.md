@@ -1,7 +1,7 @@
 # gifdiff
 
 > 동일한 시각적 모양을 위해 두 개의 GIF를 비교.
-> 참고: `gifsicle`.
+> 같이 보기: `gifsicle`.
 > 더 많은 정보: <https://www.lcdf.org/gifsicle/>.
 
 - GIF가 어떻게 다른지 확인:

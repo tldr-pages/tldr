@@ -1,7 +1,7 @@
 # sed
 
 > 스크립트 가능한 방식으로 텍스트 편집.
-> 함께 보기: `awk`, `ed`.
+> 같이 보기: `awk`, `ed`.
 > 더 많은 정보: <https://manned.org/sed.1posix>.
 
 - 모든 입력 줄에서 모든 `apple`(기본 `regex`)항목을 `mango`(기본 `regex`)로 바꾸고 결과를 `stdout`에 출력:

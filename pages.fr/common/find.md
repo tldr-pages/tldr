@@ -1,6 +1,7 @@
 # find
 
 > Trouve récursivement des fichiers ou des dossiers dans l'arborescence spécifiée.
+> Voir aussi : `fd`.
 > Plus d'informations : <https://manned.org/find>.
 
 - Trouve des fichiers par extension :
