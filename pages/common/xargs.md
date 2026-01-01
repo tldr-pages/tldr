@@ -32,6 +32,6 @@
 
 `{{arguments_source}} | xargs {{[-p|--interactive]}} {{command}}`
 
-- Preserve the interactive mode of the run command:
+- Allow the command to access the terminal for interactive input:
 
 `{{arguments_source}} | xargs {{[-o|--open-tty]}} {{command}}`
