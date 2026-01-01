@@ -1,7 +1,7 @@
 # cavif
 
 > PNG/JPEG 이미지를 AVIF로 변환함. Rust로 작성됨.
-> 참고: `convert`.
+> 같이 보기: `convert`.
 > 더 많은 정보: <https://github.com/kornelski/cavif-rs>.
 
 - JPEG 파일을 AVIF로 변환하여, `file.avif`에 저장:

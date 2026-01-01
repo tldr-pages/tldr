@@ -1,6 +1,7 @@
 # journalctl
 
 > Запити до журналу systemd.
+> Дивіться також: `dmesg`.
 > Більше інформації: <https://www.freedesktop.org/software/systemd/man/latest/journalctl.html>.
 
 - Показати всі повідомлення з рівнем пріоритету 3 (помилки) від цього завантаження:

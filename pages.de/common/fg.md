@@ -1,6 +1,7 @@
 # fg
 
 > Bringt Prozesse in den Vordergrund.
+> Siehe auch: `jobs`, `bg`, `disown`, `%`.
 > Weitere Informationen: <https://www.gnu.org/software/bash/manual/bash.html#index-fg>.
 
 - Bringe zuletzt suspendierten Prozess in den Vordergrund:

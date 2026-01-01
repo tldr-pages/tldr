@@ -2,7 +2,7 @@
 
 > 프린터 및 프린터 클래스를 시작.
 > 참고: 목적지는 프린터 또는 프린터 클래스를 나타냄.
-> 더 보기: `cupsdisable`, `cupsaccept`, `cupsreject`, `lpstat`.
+> 같이 보기: `cupsdisable`, `cupsaccept`, `cupsreject`, `lpstat`.
 > 더 많은 정보: <https://www.cups.org/doc/man-cupsenable.html>.
 
 - 하나 이상의 목적지들을 시작:

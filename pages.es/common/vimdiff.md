@@ -1,7 +1,7 @@
 # vimdiff
 
 > Abre dos o más archivos en Vim y muestra las diferencias entre ellos.
-> Vea también: `vim`.
+> Vea también: `vim`, `vimtutor`, `nvim`.
 > Más información: <https://www.vim.org/>.
 
 - Abre dos archivos y muestra las diferencias:

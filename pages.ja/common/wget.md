@@ -2,6 +2,7 @@
 
 > Webからファイルをダウンロードします。
 > HTTP, HTTPS, そして FTP をサポートします。
+> 参照: `wcurl`, `curl`。
 > もっと詳しく: <https://www.gnu.org/software/wget/manual/wget.html>。
 
 - URLの内容を、ファイルにダウンロードする (この場合 "foo" と言う名前で):

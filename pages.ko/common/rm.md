@@ -1,7 +1,7 @@
 # rm
 
 > 파일 혹은 폴더를 삭제.
-> 참고: `rmdir`.
+> 같이 보기: `rmdir`, `trash`.
 > 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>.
 
 - 특정 파일 삭제:

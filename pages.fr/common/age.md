@@ -1,6 +1,7 @@
 # age
 
 > Un outil de cryptage de fichiers simple, moderne et sécurisé.
+> Voir aussi : `age-keygen`.
 > Plus d'informations : <https://github.com/FiloSottile/age#usage>.
 
 - Générez un fichier crypté qui peut être décrypté avec une mot de passe :

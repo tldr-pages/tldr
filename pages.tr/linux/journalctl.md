@@ -1,6 +1,7 @@
 # journalctl
 
 > systemd günlüğünü sorgulayın.
+> Ayrıca bakınız: `dmesg`.
 > Daha fazla bilgi için: <https://www.freedesktop.org/software/systemd/man/latest/journalctl.html>.
 
 - Kullanılan önyüklemeden 3 öncelik seviyesine sahip tüm mesajları(hataları) gösterin:

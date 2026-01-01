@@ -1,6 +1,7 @@
 # hexyl
 
 > Un simple visualiseur hexadécimal pour le terminal. Il utilise des couleurs pour distinguer les différentes catégories d'octets.
+> Voir aussi : `od`, `xxd`, `hexdump`.
 > Plus d'informations : <https://github.com/sharkdp/hexyl/blob/master/doc/hexyl.1.md>.
 
 - Affiche la représentation hexadécimale d'un fichier :

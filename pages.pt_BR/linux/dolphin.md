@@ -1,6 +1,7 @@
 # dolphin
 
 > Gerenciador de arquivos do KDE.
+> Veja também: `nautilus`, `caja`, `thunar`, `ranger`.
 > Mais informações: <https://apps.kde.org/dolphin/>.
 
 - Inicializa o Dolphin:

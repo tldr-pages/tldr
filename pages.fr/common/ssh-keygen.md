@@ -1,6 +1,7 @@
 # ssh-keygen
 
 > Génère des clés SSH. Utilisées entre autres pour l'authentification ou la connexion sans utiliser de mot de passe.
+> Voir aussi : `ssh-copy-id`.
 > Plus d'informations : <https://man.openbsd.org/ssh-keygen>.
 
 - Génère une clé de manière interactive :

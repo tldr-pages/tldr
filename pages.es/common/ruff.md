@@ -1,6 +1,7 @@
 # ruff
 
 > Un linter y formateador de código para Python, escrito en Rust.
+> Vea también: `black`.
 > Más información: <https://docs.astral.sh/ruff/tutorial/>.
 
 - Vea la documentación para el linter de Ruff:

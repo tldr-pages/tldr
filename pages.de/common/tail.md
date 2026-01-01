@@ -1,6 +1,7 @@
 # tail
 
 > Gib das Ende einer Datei aus.
+> Siehe auch: `head`.
 > Weitere Informationen: <https://www.gnu.org/software/coreutils/manual/html_node/tail-invocation.html>.
 
 - Zeige die letzten Zeilen einer Datei an:

@@ -1,6 +1,7 @@
 # chown
 
 > 修改用户和用户组对文件或目录的所有权。
+> 另请参阅：`chgrp`。
 > 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/chown-invocation.html>。
 
 - 修改文件或目录的所有者：

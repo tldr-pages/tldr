@@ -1,6 +1,7 @@
 # glances
 
 > 크로스 플랫폼 시스템 모니터링 도구.
+> 같이 보기: `htop`, `atop`, `top`, `btm`, `btop`.
 > 더 많은 정보: <https://nicolargo.github.io/glances/>.
 
 - 터미널에서 실행:

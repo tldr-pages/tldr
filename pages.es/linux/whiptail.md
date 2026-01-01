@@ -1,6 +1,7 @@
 # whiptail
 
 > Muestra cajas de diálogo de texto para incluir en guiones de la interfaz de comando.
+> Vea también: `dialog`, `gum`.
 > Más información: <https://manned.org/whiptail>.
 
 - Muestra un mensaje sencillo:

@@ -1,6 +1,7 @@
 # chown
 
 > Zmienia właściciela i grupę właścicieli dla plików i katalogów.
+> Zobacz także: `chgrp`.
 > Więcej informacji: <https://www.gnu.org/software/coreutils/manual/html_node/chown-invocation.html>.
 
 - Zmień właściciela pliku/katalogu:
