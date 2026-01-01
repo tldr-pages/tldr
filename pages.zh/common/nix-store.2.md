@@ -2,7 +2,7 @@
 
 > 操作或查询 Nix 存储。
 > 另请参阅：`nix store.3`。
-> 更多信息：<https://nix.dev/manual/nix/stable/command-ref/nix-store.html>.
+> 更多信息：<https://nix.dev/manual/nix/stable/command-ref/nix-store.html>。
 
 - 执行垃圾回收，比如删除未使用的路径：
 

@@ -2,7 +2,7 @@
 
 > 用于审查 NixOS 软件包仓库（nixpkgs）中的拉取请求。
 > 构建成功后，会启动包含所有已构建软件包的 `nix-shell` 环境。
-> 更多信息： <https://github.com/Mic92/nixpkgs-review#usage>.
+> 更多信息：<https://github.com/Mic92/nixpkgs-review#usage>。
 
 - 构建指定拉取请求中更改的软件包：
 

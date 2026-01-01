@@ -2,7 +2,7 @@
 
 > 启动一个包含指定软件包的交互式Shell环境。
 > 另请参阅：`nix-shell`，`nix flake`。
-> 更多信息：<https://manned.org/nix3-shell>.
+> 更多信息：<https://manned.org/nix3-shell>。
 
 - 从 `nixpkgs` 中选取部分软件包启动交互式Shell：
 

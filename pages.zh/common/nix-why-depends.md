@@ -1,7 +1,7 @@
 # nix why-depends
 
 > 用于查询某个包为何依赖于另一个包。
-> 更多信息： <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-why-depends.html>.
+> 更多信息：<https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-why-depends.html>。
 
 - 显示当前运行的 NixOS 系统为何需要某个存储路径：
 

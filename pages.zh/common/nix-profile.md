@@ -1,7 +1,7 @@
 # nix profile
 
 > 从 Nix 配置集中安装、更新和删除软件包。
-> 更多信息： <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-profile.html>.
+> 更多信息：<https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-profile.html>。
 
 - 从 nixpkgs 向默认配置集中安装软件包：
 

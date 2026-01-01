@@ -1,7 +1,7 @@
 # nix-channel
 
 > 管理 `nix` 更新频道。
-> 更多信息： <https://nixos.wiki/wiki/Nix_channels>.
+> 更多信息：<https://nixos.wiki/wiki/Nix_channels>。
 
 - 列出当前频道：
 

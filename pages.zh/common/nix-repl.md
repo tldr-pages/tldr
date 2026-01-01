@@ -2,7 +2,7 @@
 
 > 启动一个用于计算 Nix 表达式的交互式环境。
 > 有关 Nix 表达式语言的介绍，请参阅 <https://nixos.org/manual/nix/stable/language/index.html>。
-> 更多信息： <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-repl.html>.
+> 更多信息：<https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-repl.html>。
 
 - 启动一个用于计算 Nix 表达式的交互式环境：
 

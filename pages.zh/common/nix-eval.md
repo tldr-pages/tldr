@@ -1,7 +1,7 @@
 # nix eval
 
 > 评估 Nix 表达式并将结果输出到标准输出。
-> 更多信息： <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-eval.html>.
+> 更多信息：<https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-eval.html>。
 
 - 在当前目录下评估 Nix flake 属性：
 

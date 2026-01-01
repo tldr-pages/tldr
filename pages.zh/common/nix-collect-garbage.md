@@ -2,7 +2,7 @@
 
 > 删除未使用且不可访问的 nix 存储路径。
 > 可通过 `nix-env --list-generations` 查看各代配置。
-> 更多信息：<https://nix.dev/manual/nix/stable/command-ref/nix-collect-garbage.html>.
+> 更多信息：<https://nix.dev/manual/nix/stable/command-ref/nix-collect-garbage.html>。
 
 - 删除与用户相关、未被当前各配置代次使用的所有存储路径：
 
