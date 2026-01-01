@@ -258,7 +258,7 @@ This file contains the translation templates of this notice.
 ### ro
 
 ```markdown
-> Vezi și: `exemplu`.
+> Vezi și: `example`.
 ```
 
 ---
