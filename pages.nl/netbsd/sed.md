@@ -16,7 +16,7 @@
 
 `{{commando}} | sed -fa {{pad/naar/script.sed}}`
 
-- Turn on [g]NU `regex` extension:
+- Zet [g]NU `regex` extensie aan:
 
 `{{commando}} | sed -fg {{pad/naar/script.sed}}`
 
