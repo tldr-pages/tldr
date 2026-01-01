@@ -3,7 +3,7 @@
 > Busca nombres y descripciones en las páginas del manual.
 > Más información: <https://manned.org/apropos>.
 
-- Busca una palabra clave utilizando una expresión regular:
+- Busca una palabra clave utilizando una `regex`:
 
 `apropos {{expresion_regular}}`
 

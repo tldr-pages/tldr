@@ -4,7 +4,7 @@
 > Vea también: `rg`, que es más rápido.
 > Más información: <https://beyondgrep.com/documentation/>.
 
-- Busca archivos que contengan una cadena o expresión regular en el directorio actual de forma recursiva:
+- Busca archivos que contengan una cadena o `regex` en el directorio actual de forma recursiva:
 
 `ack "{{patrón_de_búsqueda}}"`
 
