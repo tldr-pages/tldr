@@ -25,4 +25,4 @@
 
 - Muestra un menú de selección múltiple:
 
-`{{result_variable_name}}=$(whiptail --title "{{título}}" --menu "{{mensaje}}" {{height_in_chars}} {{width_in_chars}} {{menu_display_height}} "{{valor_1}}" "{{texto_a_mostrar_1}}" "{{valor_n}}" "{{texto_a_mostrar_n}}" ..... 3>&1 1>&2 2>&3)`
+`{{result_variable_name}}=$(whiptail --title "{{título}}" --menu "{{mensaje}}" {{height_in_chars}} {{width_in_chars}} {{menu_display_height}} "{{valor_1" "texto_a_mostrar_1" "valor_2" "{{texto_a_mostrar_2" ...}}" 3>&1 1>&2 2>&3)`

@@ -13,7 +13,7 @@
 
 - حفظ فيديو كـ GIF مع ضبط الارتفاع إلى 1000 بكسل ومعدل الإطارات إلى 15:
 
-`ffmpeg -i {{path/to/video.mp4}} {{[-vf|-filter:v]}} 'scale=-1:{{1000}}' -r {{15}} {{path/to/output.gif}}`
+`ffmpeg -i {{path/to/video.mp4}} {{[-vf|-filter:v]}} 'scale=-1:1000' -r 15 {{path/to/output.gif}}`
 
 - دمج صور مرقمة (`frame_1.jpg`، `frame_2.jpg`، ...) في فيديو أو GIF:
 

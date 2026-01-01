@@ -13,7 +13,7 @@
 
 - 비디오를 GIF로 저장하고, 높이를 1000px로 조정하고 프레임 속도를 15로 설정:
 
-`ffmpeg -i {{경로/대상/비디오.mp4}} {{[-vf|-filter:v]}} 'scale=-1:{{1000}}' -r {{15}} {{path/to/output.gif}}`
+`ffmpeg -i {{경로/대상/비디오.mp4}} {{[-vf|-filter:v]}} 'scale=-1:1000' -r 15 {{path/to/output.gif}}`
 
 - 번호가 매겨진 이미지 (`frame_1.jpg`, `frame_2.jpg`, etc) 를 비디오 또는 GIF로 결합:
 

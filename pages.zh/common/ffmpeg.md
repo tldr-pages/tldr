@@ -13,7 +13,7 @@
 
 - 将视频保存为 GIF，设置高度为 1000 像素，帧率为 15：
 
-`ffmpeg -i {{路径/到/video.mp4}} {{[-vf|-filter:v]}} 'scale=-1:{{1000}}' -r {{15}} {{路径/到/output.gif}}`
+`ffmpeg -i {{路径/到/video.mp4}} {{[-vf|-filter:v]}} 'scale=-1:1000' -r 15 {{路径/到/output.gif}}`
 
 - 将编号图像（如 `frame_1.jpg`、`frame_2.jpg` 等）合成为视频或 GIF：
 
