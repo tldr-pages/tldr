@@ -1,7 +1,7 @@
 # jupyter lab
 
 > Entorno de desarrollo interactivo para cuadernos Jupyter.
-> Más información: <https://jupyterlab.readthedocs.io/en/stable/>.
+> Más información: <https://jupyterlab.readthedocs.io/en/stable/getting_started/starting.html>.
 
 - Inicia JupyterLab:
 
