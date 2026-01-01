@@ -1,6 +1,7 @@
 # nix build
 
 > Nix 표현식을 빌드합니다 (가능할 경우 캐시에서 다운로드).
+> 같이 보기: `nix-build`, `nix flake`.
 > 더 많은 정보: <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-build.html>.
 
 - nixpkgs에서 패키지를 빌드하고 결과를 `./result`에 심볼릭 링크:

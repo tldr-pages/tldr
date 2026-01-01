@@ -1,6 +1,7 @@
 # ani-cli
 
 > Ein Cli zum Stöbern und Anschauen von Anime.
+> Siehe auch: `animdl`.
 > Weitere Informationen: <https://manned.org/ani-cli>.
 
 - Anime nach Namen suchen:

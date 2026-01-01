@@ -1,6 +1,7 @@
 # age-keygen
 
 > `age` 키 쌍을 생성합니다.
+> 같이 보기: `age`.
 > 더 많은 정보: <https://manned.org/age-keygen>.
 
 - 키 쌍을 생성하고, 암호화되지 않은 파일에 저장한 후 공개키를 `stdout`에 인쇄:

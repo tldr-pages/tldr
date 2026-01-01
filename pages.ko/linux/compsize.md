@@ -1,6 +1,7 @@
 # compsize
 
 > btrfs 파일 시스템에서 파일 집합의 압축 비율을 계산합니다.
+> 같이 보기: `btrfs filesystem`.
 > 더 많은 정보: <https://manned.org/compsize>.
 
 - 파일 또는 디렉터리에 대한 현재 압축 비율 계산:

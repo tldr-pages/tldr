@@ -1,6 +1,7 @@
 # youtube-dl
 
 > Pobieraj wideo i audio z YouTube i podobnych portali.
+> Zobacz także: `yt-dlp`, `ytfzf`, `you-get`.
 > Więcej informacji: <https://rg3.github.io/youtube-dl/>.
 
 - Pobierz plik wideo lub wszystkie pliki z playlisty:

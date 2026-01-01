@@ -1,6 +1,7 @@
 # pushd
 
 > 디렉터리를 스택에 쌓아 나중에 접근할 수 있도록 합니다.
+> 같이 보기: `popd`, `dirs`.
 > 더 많은 정보: <https://www.gnu.org/software/bash/manual/bash.html#index-pushd>.
 
 - 디렉터리로 이동하고 스택에 추가:

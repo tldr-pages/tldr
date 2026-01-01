@@ -2,7 +2,7 @@
 
 > Interagis avec les bases de données des paquets Arch Linux.
 > Modifie des attributs des paquets installés.
-> Voir aussi: `pacman`.
+> Voir aussi : `pacman`.
 > Plus d'informations : <https://manned.org/pacman.8>.
 
 - Marque un paquet comme étant installé en tant que dépendance :

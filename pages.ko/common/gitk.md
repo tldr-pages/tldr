@@ -1,7 +1,7 @@
 # gitk
 
 > Git 저장소를 그래픽으로 탐색.
-> 참고: `git-gui`, `git-cola`, `tig`.
+> 같이 보기: `git-gui`, `git-cola`, `tig`.
 > 더 많은 정보: <https://git-scm.com/docs/gitk>.
 
 - 현재 Git 저장소에 대한 저장소 브라우저를 표시:

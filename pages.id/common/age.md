@@ -1,6 +1,7 @@
 # age
 
 > Alat pengenkripsi file yang sederhana, modern, dan aman.
+> Lihat juga: `age-keygen`.
 > Informasi lebih lanjut: <https://github.com/FiloSottile/age#usage>.
 
 - Buat sebuah file terenkripsi yang hanya dapat didekripsi menggunakan kata sandi:

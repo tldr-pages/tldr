@@ -1,7 +1,7 @@
 # dc
 
 > 임의 정밀도 계산기. 역방향 폴란드어 표기법(RPN)을 사용.
-> 참고: `bc`, `qalc`.
+> 같이 보기: `bc`, `qalc`.
 > 더 많은 정보: <https://www.gnu.org/software/bc/manual/dc-1.05/html_mono/dc.html>.
 
 - 대화형 세션 시작:

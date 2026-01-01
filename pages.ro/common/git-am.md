@@ -1,7 +1,7 @@
 # git am
 
 > Aplică fișiere patch și creează un commit. Util când se primesc commit-uri prin email.
-> Vezi și: `git format-patch`.
+> Vezi și: `exemplu`.
 > Mai multe informații: <https://git-scm.com/docs/git-am>.
 
 - Aplică și confirmă modificările urmând un fișier patch local:

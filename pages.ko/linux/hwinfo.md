@@ -1,6 +1,7 @@
 # hwinfo
 
 > 시스템에 있는 하드웨어를 탐색합니다.
+> 같이 보기: `inxi`, `lshw`.
 > 더 많은 정보: <https://manpages.opensuse.org/hwinfo/hwinfo.8.en.html>.
 
 - 그래픽 카드 정보 가져오기:

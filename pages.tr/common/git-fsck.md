@@ -1,6 +1,7 @@
 # git fsck
 
 > Git depo indeksindeki düğümlerin geçerliliğini ve bağlantılarını doğrula.
+> Ayrıca bakınız: `git gc`.
 > Daha fazla bilgi için: <https://git-scm.com/docs/git-fsck>.
 
 - Mevcut depoyu kontrol et:

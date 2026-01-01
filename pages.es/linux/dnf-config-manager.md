@@ -1,6 +1,7 @@
 # dnf config-manager
 
 > Gestiona las opciones de configuración y los repositorios de DNF en sistemas basados en Fedora.
+> Vea también: `dnf`.
 > Más información: <https://dnf-plugins-core.readthedocs.io/en/latest/config_manager.html>.
 
 - Añade (y habilita) un repositorio desde una URL:

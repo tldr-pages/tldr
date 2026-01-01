@@ -2,6 +2,7 @@
 
 > Trasferisci dati da o ad un server.
 > Supporta la maggior parte dei protocolli, tra cui HTTP, HTTPS, FTP, SCP, etc.
+> Vedi anche: `wcurl`, `wget`.
 > Maggiori informazioni: <https://curl.se/docs/manpage.html>.
 
 - Esegue una richiesta HTTP GET e stampa il contenuto in `stdout`:

@@ -1,6 +1,7 @@
 # vlc
 
 > Reprodutor multimídia multi-plataforma.
+> Veja também: `mpv`, `mplayer`, `ytfzf`.
 > Mais informações: <https://wiki.videolan.org/Documentation:Command_line/>.
 
 - Reproduz um arquivo:

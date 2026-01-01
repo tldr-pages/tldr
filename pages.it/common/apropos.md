@@ -1,6 +1,7 @@
 # apropos
 
 > Cerca nelle pagine di manuale, ad esempio per trovare un nuovo comando.
+> Vedi anche: `man`.
 > Maggiori informazioni: <https://manned.org/apropos>.
 
 - Cerca una parola chiave:

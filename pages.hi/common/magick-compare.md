@@ -1,6 +1,7 @@
 # magick compare
 
 > 2 छवियों के बीच अंतर देखें।
+> यह भी देखें: `magick`।
 > अधिक जानकारी: <https://imagemagick.org/script/compare.php>।
 
 - 2 छवियों की तुलना करें:
