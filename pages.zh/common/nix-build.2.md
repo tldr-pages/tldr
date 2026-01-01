@@ -2,7 +2,7 @@
 
 > 构建 Nix 表达式。
 > 另请参阅：`nix build.3`。
-> 更多信息：<https://nix.dev/manual/nix/stable/command-ref/nix-build.html>。
+> 更多信息：<https://nix.dev/manual/nix/stable/command-ref/nix-build.html>.
 
 - 构建 Nix 表达式：
 

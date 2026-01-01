@@ -1,7 +1,7 @@
 # nix develop
 
 > 运行一个提供派生构建环境的 Bash 终端。
-> 更多信息：<https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-develop.html>。
+> 更多信息：<https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-develop.html>.
 
 - 启动一个包含 nixpkgs 中某个程序包所有依赖项的终端：
 

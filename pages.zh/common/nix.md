@@ -4,7 +4,7 @@
 > `nix` 是实验性功能，需启用实验特性。
 > 部分子命令如 `build`、`develop`、`flake`、`registry`、`profile`、`search`、`repl`、`store`、`edit`、`why-depends` 等均有其独立的用法说明。
 > 另请参阅：`nix classic`。
-> 更多信息： <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix>。
+> 更多信息： <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix>.
 
 - 启用 `nix` 命令：
 

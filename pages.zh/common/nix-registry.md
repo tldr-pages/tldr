@@ -2,7 +2,7 @@
 
 > 管理 Nix 软件源注册表。
 > 另请参阅：`nix flake`。
-> 更多信息：<https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-registry.html>。
+> 更多信息：<https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-registry.html>.
 
 - 将 `nixpkgs` 固定到上游仓库的当前版本：
 

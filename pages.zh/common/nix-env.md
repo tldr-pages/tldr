@@ -1,7 +1,7 @@
 # nix-env
 
 > 管理或查询 Nix 用户环境。
-> 更多信息：<https://nix.dev/manual/nix/stable/command-ref/nix-env.html>。
+> 更多信息：<https://nix.dev/manual/nix/stable/command-ref/nix-env.html>.
 
 - 列出所有已安装的软件包：
 

@@ -1,7 +1,7 @@
 # nix search
 
 > 在 Nix Flake 中搜索软件包。
-> 更多信息：<https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-search.html>。
+> 更多信息：<https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-search.html>.
 
 - 在 `nixpkgs` 中根据软件包名称或描述进行搜索：
 

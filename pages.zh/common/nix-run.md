@@ -2,7 +2,7 @@
 
 > 从 Nix 软件包配置中运行一个应用程序。
 > 另请参阅：`nix flake`。
-> 更多信息： <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-run.html>。
+> 更多信息： <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-run.html>.
 
 - 运行当前目录下软件包配置中的默认应用程序：
 

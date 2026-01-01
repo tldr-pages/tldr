@@ -1,7 +1,7 @@
 # nix flake show
 
 > 展示由 flake 提供的输出项。
-> 更多信息：<https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-flake-show.html>。
+> 更多信息：<https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-flake-show.html>.
 
 - 显示当前目录下 flake 的全部输出：
 

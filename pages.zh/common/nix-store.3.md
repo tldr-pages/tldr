@@ -2,7 +2,7 @@
 
 > 管理 Nix 存储。
 > 另请参阅：`nix-store`。
-> 更多信息：<https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-store.html>。
+> 更多信息：<https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-store.html>.
 
 - 收集垃圾，即删除未使用的路径以节省空间：
 

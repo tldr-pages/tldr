@@ -3,7 +3,7 @@
 > Nix 包管理器经典、稳定的接口，使得包管理变得可靠、可复现且可声明。
 > 部分 Nix 命令，例如 `nix-build`、`nix-shell`、`nix-env` 和 `nix-store`，拥有各自的页面。
 > 另请参阅：`nix`。
-> 更多信息：<https://nixos.org/>。
+> 更多信息：<https://nixos.org/>.
 
 - 通过包名在 nixpkgs 中搜索包：
 
