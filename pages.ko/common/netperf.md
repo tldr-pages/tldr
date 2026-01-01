@@ -1,6 +1,7 @@
 # netperf
 
 > 네트워크 처리량을 측정하는 벤치마킹 애플리케이션 `netperf`의 클라이언트 측 명령어. `iperf`와 유사합니다.
+> 같이 보기: `netserver`.
 > 더 많은 정보: <https://hewlettpackard.github.io/netperf/doc/netperf.html#Global-Command_002dline-Options>.
 
 - 기본 포트(12865)를 통해 특정 IP 주소의 서버에 연결:

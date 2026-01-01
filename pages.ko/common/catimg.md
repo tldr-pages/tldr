@@ -1,7 +1,7 @@
 # catimg
 
 > 터미널에서 이미지 인쇄.
-> 참고: `pixterm`, `chafa`.
+> 같이 보기: `pixterm`, `chafa`.
 > 더 많은 정보: <https://manned.org/catimg>.
 
 - 터미널에 JPEG, PNG, GIF를 인쇄:

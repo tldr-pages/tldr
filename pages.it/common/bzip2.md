@@ -1,6 +1,7 @@
 # bzip2
 
 > Compressore di file a blocchi ordinati.
+> Vedi anche: `bzcat`, `bunzip2`, `bzip2recover`.
 > Maggiori informazioni: <https://manned.org/bzip2>.
 
 - Comprimi un file:

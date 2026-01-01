@@ -1,6 +1,7 @@
 # chown
 
 > مالک فایل یا پوشه را تغییر میدهد.
+> همچنین : `chgrp`.
 > اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/manual/html_node/chown-invocation.html>.
 
 - تغییر مالک یه فایل یا پوشه:

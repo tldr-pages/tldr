@@ -1,6 +1,7 @@
 # rbenv
 
 > Alat untuk menginstal versi Ruby dan mengatur lingkungan aplikasi dengan mudah.
+> Lihat juga: `asdf`.
 > Informasi lebih lanjut: <https://manned.org/rbenv>.
 
 - Instal suatu versi Ruby:

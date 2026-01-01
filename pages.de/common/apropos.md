@@ -1,6 +1,7 @@
 # apropos
 
 > Durchsuche die Handbuchseiten nach Namen und Beschreibungen.
+> Siehe auch: `man`.
 > Weitere Informationen: <https://manned.org/apropos>.
 
 - Suche nach einem Schlüsselwort mit einem regulären Ausdruck:

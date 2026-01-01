@@ -1,7 +1,7 @@
 # lsmod
 
 > Pokazuje status modułów kernela Linuksa.
-> Zobacz także: `modprobe`, który ładuje moduły kernela.
+> Zobacz także: `kmod`.
 > Więcej informacji: <https://manned.org/lsmod>.
 
 - Wyświetlenie aktualnie załadowanych modułów kernela:

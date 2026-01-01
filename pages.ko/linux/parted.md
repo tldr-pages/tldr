@@ -1,7 +1,7 @@
 # parted
 
 > 파티션 조작 프로그램.
-> 같이 보기: `partprobe`.
+> 같이 보기: `parted.interactive`, `partprobe`.
 > 더 많은 정보: <https://www.gnu.org/software/parted/manual/parted.html#Invoking-Parted>.
 
 - 모든 블록 디바이스의 파티션 나열:

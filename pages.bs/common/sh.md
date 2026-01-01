@@ -2,6 +2,7 @@
 
 > Bourne ljuska.
 > Standardni interpreter komandnog jezika.
+> Pogledajte isto: `!`, `^`.
 > Više informacija: <https://manned.org/sh>.
 
 - Pokreni interaktivnu ljusku:

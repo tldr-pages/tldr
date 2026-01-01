@@ -1,6 +1,7 @@
 # virt-viewer
 
 > 가상 머신(VM)을 위한 최소한의 그래픽 인터페이스.
+> 같이 보기: `virsh`.
 > 더 많은 정보: <https://manned.org/virt-viewer>.
 
 - 실행 중인 가상 머신을 선택할 수 있는 프롬프트로 `virt-viewer` 시작:

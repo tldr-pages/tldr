@@ -1,6 +1,7 @@
 # ipcs
 
 > System V IPC 설비의 사용 정보 보기: 공유 메모리 세그먼트, 메시지 큐, 세마포어 배열.
+> 같이 보기: `lsipc`, `ipcmk`, `ipcrm`.
 > 더 많은 정보: <https://manned.org/ipcs>.
 
 - 모든 활성 IPC 설비에 대한 정보 보기:

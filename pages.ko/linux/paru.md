@@ -1,6 +1,7 @@
 # paru
 
 > AUR 헬퍼 및 pacman 래퍼.
+> 같이 보기: `pacman`, `yay`.
 > 더 많은 정보: <https://github.com/Morganamilo/paru#examples>.
 
 - 패키지를 대화식으로 검색하고 설치:

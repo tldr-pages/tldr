@@ -1,6 +1,7 @@
 # nix shell
 
 > 지정된 패키지가 사용 가능한 셸 시작.
+> 같이 보기: `nix-shell`, `nix flake`.
 > 더 많은 정보: <https://manned.org/nix3-shell>.
 
 - `nixpkgs`의 일부 패키지와 함께 대화형 셸 시작:

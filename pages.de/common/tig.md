@@ -1,6 +1,7 @@
 # tig
 
 > Eine interaktive Kommandozeilenoberfläche für Git.
+> Siehe auch: `gitui`, `git-gui`.
 > Weitere Informationen: <https://jonas.github.io/tig/doc/manual.html>.
 
 - Zeige die Commits des aktuellen Branches:

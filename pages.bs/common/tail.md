@@ -1,6 +1,7 @@
 # tail
 
 > Prikazuje krajnji deo datoteke.
+> Pogledajte isto: `head`.
 > Više informacija: <https://www.gnu.org/software/coreutils/manual/html_node/tail-invocation.html>.
 
 - Prikaži poslednjih 'broj' linija u datoteci:

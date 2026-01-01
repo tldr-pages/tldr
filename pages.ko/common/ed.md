@@ -1,7 +1,7 @@
 # ed
 
 > Unix의 원본 텍스트 편집기.
-> 참고: `awk`, `sed`.
+> 같이 보기: `awk`, `sed`.
 > 더 많은 정보: <https://www.gnu.org/software/ed/manual/ed_manual.html>.
 
 - 빈 문서로 대화형 편집기 세션을 시작:
