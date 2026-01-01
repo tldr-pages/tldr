@@ -1,7 +1,7 @@
 # nix flake init
 
 > 基于模板在当前目录下创建一个flake。
-> 更多信息：<https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-flake-init.html>。
+> 更多信息： <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-flake-init.html>。
 
 - 在当前目录下使用默认模板创建新的flake：
 

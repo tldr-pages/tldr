@@ -1,7 +1,7 @@
-# Nix flake
+# nix flake
 
 > 管理 Nix Flakes。
-> 某些子命令如 `init`、`show`、`info` 拥有各自的使用文档。
+> 此命令也有关于其子命令的文件，例如：`init`、`show`、`info`.
 > 更多信息：<https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-flake.html>。
 
 - 更新当前目录下 Flake 的所有输入（依赖项）：

@@ -2,7 +2,7 @@
 
 > 基于一个 Nix 表达式启动交互式 shell。
 > 另请参阅：`nix shell.3`。
-> 更多信息：<https://nix.dev/manual/nix/stable/command-ref/nix-shell.html>.
+> 更多信息： <https://nix.dev/manual/nix/stable/command-ref/nix-shell.html>.
 
 - 使用当前目录下的 `shell.nix` 或 `default.nix` 文件中的 Nix 表达式启动 shell：
 
