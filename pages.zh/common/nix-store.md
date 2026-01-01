@@ -9,3 +9,4 @@
 - 查看 nix3 存储库的文档：
 
 `tldr nix store.3`
+

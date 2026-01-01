@@ -19,3 +19,4 @@
 - 构建包但不创建 `result` 符号链接，而是将存储路径输出到标准输出：
 
 `nix build --no-link --print-out-paths`
+

@@ -28,3 +28,4 @@
 - 从 Nix 存储中移除未使用的路径：
 
 `nix-collect-garbage`
+

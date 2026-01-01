@@ -9,3 +9,4 @@
 - 查看 nix3 shell 的文档：
 
 `tldr nix shell.3`
+

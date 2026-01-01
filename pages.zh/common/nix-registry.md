@@ -23,3 +23,4 @@
 - 查看关于 Nix 软件源注册表的文档说明：
 
 `nix registry --help`
+

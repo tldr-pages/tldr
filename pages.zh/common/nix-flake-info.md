@@ -14,3 +14,4 @@
 - 以多行缩进 JSON 格式显示来自 GitHub 的 flake 元数据信息：
 
 `nix flake info {{github:owner/repo}} --json --pretty`
+

@@ -27,3 +27,4 @@
 - 显示特定存储路径的所有依赖项：
 
 `nix-store {{[-q|--query]}} --referrers /nix/store/{{checksum-package-version.ext}}`
+

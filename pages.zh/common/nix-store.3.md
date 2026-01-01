@@ -23,3 +23,4 @@
 - 显示两个存储路径及其依赖关系之间的版本差异：
 
 `nix store diff-closures /nix/store/{{校验和-包名-版本.扩展名}} /nix/store/{{校验和-包名-版本.扩展名}}`
+

@@ -18,3 +18,4 @@
 - 列出可用于 `nix flake init` 的所有 flake 模板：
 
 `nix flake show templates`
+

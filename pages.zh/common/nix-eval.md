@@ -26,3 +26,4 @@
 - 评估给定的 lambda 函数，并将指定的软件包作为参数传递：
 
 `nix eval {{nixpkgs#软件包名}} --apply '{{lambda函数}}'`
+
