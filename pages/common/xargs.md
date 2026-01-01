@@ -31,3 +31,9 @@
 - Prompt user for confirmation before executing command (confirm with `y` or `Y`):
 
 `{{arguments_source}} | xargs {{[-p|--interactive]}} {{command}}`
+
+- Preserve the interactive mode of the run command:
+
+`{{arguments_source}} | xargs {{[-o|--open-tty]}} {{command}}`
+
+
