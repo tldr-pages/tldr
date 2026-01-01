@@ -13,7 +13,7 @@
 
 - Manipulate complex SQL query with data from multiple CSV files with first line is header (`-ih`):
 
-`trdsql -icsv -ih "SELECT {{column1,column2}} FROM {{path/to/file*.csv}} WHERE column2 != '' ORDER BY column1 GROUP BY column1"`
+`trdsql -icsv -ih "SELECT {{column1,column2}} FROM {{path/to/file*.csv}} WHERE column2 != '' ORDER BY {{column1}} GROUP BY {{column1}}"`
 
 - Merge content of 2 CSV files to one CSV file:
 

@@ -1,6 +1,6 @@
 # popd
 
-> 通过 pushd shell 内置程序删除目录堆栈中的目录。
+> 通过 `pushd` shell 内置程序删除目录堆栈中的目录。
 > 另请参阅：`pushd` 将目录放入堆栈和 `dirs` 显示目录堆栈内容。
 > 更多信息：<https://www.gnu.org/software/bash/manual/bash.html#index-popd>。
 

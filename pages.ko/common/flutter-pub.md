@@ -1,7 +1,8 @@
 # flutter pub
 
 > Flutter 패키지 매니저.
-> 참고: 패키지는 <https://pub.dev>에서 사용 가능. 참조: `flutter`.
+> 참고: 패키지는 <https://pub.dev>에서 사용 가능.
+> 참조: `flutter`.
 > 더 많은 정보: <https://docs.flutter.dev/packages-and-plugins/using-packages>.
 
 - `pubspec.yaml`에 지정된 모든 패키지를 다운로드/업데이트:

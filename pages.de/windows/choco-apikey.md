@@ -9,12 +9,12 @@
 
 - Zeige eine bestimmte Quelle und ihren API-Schlüssel an:
 
-`choco apikey --source "{{quell_url}}"`
+`choco apikey {{[-s|--source]}} "{{quell_url}}"`
 
 - Setze den API-Schlüssel für eine Quelle:
 
-`choco apikey --source "{{quell_url}}" --key "{{api_schluessel}}"`
+`choco apikey {{[-s|--source]}} "{{quell_url}}" {{[-k|--api-key]}} "{{api_schluessel}}"`
 
 - Entferne den API-Schlüssel einer Quelle:
 
-`choco apikey --source "{{quell_url}}" --remove`
+`choco apikey {{[-s|--source]}} "{{quell_url}}" --remove`
