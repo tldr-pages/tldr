@@ -1,6 +1,7 @@
 # awk
 
 > Dosyalar üzerinde çalışmak için çok yönlü bir programlama dili.
+> Ayrıca bakınız: `gawk`.
 > Daha fazla bilgi için: <https://github.com/onetrueawk/awk>.
 
 - Boşlukla ayrılmış bir dosyada beşinci sütunu (alan olarak da bilinir) yazdır:

@@ -1,6 +1,7 @@
 # echo
 
 > Prikazuje date argumente.
+> Такође погледајте: `printf`.
 > Više informacija na: <https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>.
 
 - Prikazuje tekstualnu poruku. Napomena: navodnici su opcionalni:

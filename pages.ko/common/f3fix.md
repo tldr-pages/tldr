@@ -1,7 +1,7 @@
 # f3fix
 
 > 가짜 플래시 드라이브의 파티션 테이블 편집.
-> 참고: `f3probe`, `f3write`, `f3read`.
+> 같이 보기: `f3probe`, `f3write`, `f3read`.
 > 더 많은 정보: <https://oss.digirati.com.br/f3/>.
 
 - 실제 용량과 일치하는 단일 파티션으로 가짜 플래시 드라이브를 채우기:

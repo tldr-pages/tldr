@@ -1,6 +1,7 @@
 # grap
 
 > groff (GNU Troff) 문서 형식화 시스템을 위한 차트 작성 전처리기.
+> 같이 보기: `pic`, `groff`.
 > 더 많은 정보: <https://manned.org/grap>.
 
 - `grap` 파일을 처리하고 `pic` 및 `groff`를 사용하여 향후 처리를 위해 출력 파일을 저장:

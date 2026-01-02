@@ -1,7 +1,7 @@
 # wl-paste
 
 > Wayland için panoda saklanan verilere erişim aracı.
-> Ayrıca bakın: `wl-copy`.
+> Ayrıca bakınız: `wl-copy`, `xclip`.
 > Daha fazla bilgi için: <https://github.com/bugaevc/wl-clipboard>.
 
 - Panonun içeriğini yapıştır:

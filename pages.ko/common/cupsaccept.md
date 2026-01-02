@@ -2,7 +2,7 @@
 
 > 목적지로 전송된 작업을 수락.
 > 참고: 목적지는 프린터 또는 프린터 클래스라고 함.
-> 추가 정보: `cupsreject`, `cupsenable`, `cupsdisable`, `lpstat`.
+> 같이 보기: `cupsreject`, `cupsenable`, `cupsdisable`, `lpstat`.
 > 더 많은 정보: <https://www.cups.org/doc/man-cupsaccept.html>.
 
 - 지정된 목적지로 인쇄 작업 수락:

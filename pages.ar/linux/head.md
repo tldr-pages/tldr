@@ -1,6 +1,7 @@
 # head
 
 > عرض الجزء الأول من الملفات.
+> انظر أيضًا: `tail`.
 > لمزيد من التفاصيل: <https://www.gnu.org/software/coreutils/manual/html_node/head-invocation.html>.
 
 - عرض أول عدد معين من الأسطر من ملف:

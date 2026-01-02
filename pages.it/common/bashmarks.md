@@ -1,6 +1,7 @@
 # bashmarks
 
 > Salva e salta a directory comunemente utilizzate usilizzando comandi di un carattere.
+> Vedi anche: `autojump`.
 > Maggiori informazioni: <https://github.com/huyng/bashmarks#shell-commands>.
 
 - Elenca i segnalibri disponibili:

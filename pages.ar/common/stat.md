@@ -1,6 +1,7 @@
 # stat
 
 > عرض معلومات عن الملف ونظام الملفات.
+> انظر أيضًا: `file`.
 > لمزيد من التفاصيل: <https://www.gnu.org/software/coreutils/manual/html_node/stat-invocation.html>.
 
 - عرض خصائص ملف معين مثل الحجم، الأذونات، تواريخ الإنشاء والوصول، وغيرها:

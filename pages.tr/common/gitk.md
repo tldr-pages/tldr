@@ -1,6 +1,7 @@
 # gitk
 
 > Görsel Git depo tarayıcısı.
+> Ayrıca bakınız: `git-gui`, `git-cola`, `tig`.
 > Daha fazla bilgi için: <https://git-scm.com/docs/gitk>.
 
 - Mevcut Git deposu için depo tarayıcısını göster:
