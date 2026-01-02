@@ -2,6 +2,7 @@
 
 > Execute a command with piped arguments coming from another command, a file, etc.
 > The input is treated as a single block of text and split into separate pieces on spaces, tabs, newlines, and end-of-file.
+> See also: `parallel`.
 > More information: <https://www.gnu.org/software/findutils/manual/html_mono/find.html#Invoking-xargs>.
 
 - Run a command using the input data as arguments:
