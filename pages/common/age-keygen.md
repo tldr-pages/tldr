@@ -1,7 +1,7 @@
 # age-keygen
 
 > Generate `age` key pairs.
-> See also: `age` for encrypting/decrypting files.
+> See also: `age`.
 > More information: <https://manned.org/age-keygen>.
 
 - Generate a key pair, save it to an unencrypted file, and print the public key to `stdout`:

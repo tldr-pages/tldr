@@ -1,6 +1,7 @@
 # grep
 
 > Acha padrões em arquivos usando expressões regulares.
+> Veja também: `regex`.
 > Mais informações: <https://www.gnu.org/software/grep/manual/grep.html>.
 
 - Pesquisa por um padrão em um arquivo:

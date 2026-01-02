@@ -2,7 +2,7 @@
 
 > 批量操作多个 Git 仓库。
 > 属于 `git-extras`的一部分。
-> 更多信息：<https://github.com/tj/git-extras/blob/master/Commands.md#git-bulk>。
+> 更多信息：<https://github.com/tj/git-extras/blob/main/Commands.md#git-bulk>。
 
 - 将当前目录注册为工作区：
 

@@ -1,6 +1,7 @@
 # ani-cli
 
 > 一个用于浏览和观看动漫的命令行工具。
+> 另请参阅：`animdl`。
 > 更多信息：<https://manned.org/ani-cli>。
 
 - 按名称搜索动漫：

@@ -1,6 +1,7 @@
 # pw-cat
 
 > Pipewire üzerinden ses dosyalarını çalın ve kaydedin.
+> Ayrıca bakınız: `wpctl`, `pw-cli`.
 > Daha fazla bilgi için: <https://docs.pipewire.org/page_man_pw-cat_1.html>.
 
 - Varsayılan hedef üzerinden bir WAV dosyası oynat:

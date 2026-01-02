@@ -1,7 +1,7 @@
 # emacsclient
 
 > 기존 Emacs 서버에서 파일을 열기.
-> 참고: `emacs`.
+> 같이 보기: `emacs`.
 > 더 많은 정보: <https://www.gnu.org/software/emacs/manual/html_node/emacs/emacsclient-Options.html>.
 
 - 기존 Emacs 서버에서 파일을 열기 (사용 가능한 경우, GUI 사용):

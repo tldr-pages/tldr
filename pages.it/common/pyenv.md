@@ -1,6 +1,7 @@
 # pyenv
 
 > Passa da una distribuzione all'altra di Python in modo semplice.
+> Vedi anche: `asdf`.
 > Maggiori informazioni: <https://manned.org/pyenv>.
 
 - Elenca i comandi disponibili:

@@ -13,4 +13,4 @@
 
 - Spakuj specyfikację NuGet do konkretnego katalogu wyjściowego:
 
-`choco pack {{ścieża/do/specyfikacji}} --output-directory {{ścieżka/do/katalogu/wyjściowego}}`
+`choco pack {{ścieża/do/specyfikacji}} {{[--out|--output-directory]}} {{ścieżka/do/katalogu/wyjściowego}}`

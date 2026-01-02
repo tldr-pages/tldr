@@ -80,14 +80,7 @@ function check_missing_english_page() {
   fi
 }
 
-function count_commands() {
-  local file="$1"
-  local regex="$2"
-
-  grep -c "$regex" "$file"
-}
-
-count_header() {
+function count_lines() {
   local file="$1"
   local regex="$2"
 
@@ -126,8 +119,8 @@ function check_outdated_page() {
   fi
 
   local english_commands commands english_commands_as_string commands_as_string
-  english_commands="$(count_commands "$english_page" "$command_regex")"
-  commands="$(count_commands "$page" "$command_regex")"
+  english_commands="$(count_lines "$english_page" "$command_regex")"
+  commands="$(count_lines "$page" "$command_regex")"
   english_commands_as_string="$(strip_commands "$english_page" "$command_regex")"
   commands_as_string="$(strip_commands "$page" "$command_regex")"
 
@@ -137,8 +130,8 @@ function check_outdated_page() {
     printf "\x2d $MSG_OUTDATED" "$page" "based on the command contents itself"
   fi
 
-  english_header_lines=$(count_header "$english_page" "$header_regex")
-  header_lines=$(count_header "$page" "$header_regex")
+  english_header_lines=$(count_lines "$english_page" "$header_regex")
+  header_lines=$(count_lines "$page" "$header_regex")
   if [[ "$english_header_lines" != "$header_lines" ]]; then
     printf "\x2d $MSG_OUTDATED" "$page" "based on number of header lines"
   fi
@@ -160,6 +153,14 @@ function check_page_title() {
   fi
 }
 
+function check_see_also_mentions() {
+  local page=$1
+
+  if grep -q "$page" "see-also-mentions.txt"; then
+      printf "\x2d $MSG_SEE_ALSO" "$page"
+  fi
+}
+
 # Look at git diff and check for copied/duplicated pages.
 function check_diff {
   local git_diff
@@ -177,6 +178,7 @@ function check_diff {
 
   python3 scripts/set-more-info-link.py -Sn > more-info-links.txt
   python3 scripts/set-page-title.py -Sn > page-titles.txt
+  python3 scripts/set-see-also.py -Sn > see-also-mentions.txt
 
   while read -r line; do
     readarray -td$'\t' entry < <(echo -n "$line")
@@ -192,6 +194,13 @@ function check_diff {
         percentage=${percentage#0}
 
         printf "\x2d $MSG_IS_COPY" "$file2" "$file1" "$percentage"
+
+        check_duplicates "$file2"
+        check_missing_english_page "$file2"
+        check_outdated_page "$file2"
+        check_more_info_link "$file2"
+        check_page_title "$file2"
+        check_see_also_mentions "$file2"
         ;;
 
       A) # file1 was newly added
@@ -200,17 +209,19 @@ function check_diff {
         check_outdated_page "$file1"
         check_more_info_link "$file1"
         check_page_title "$file1"
+        check_see_also_mentions "$file1"
         ;;
       M) # file1 was modified
         check_missing_english_page "$file1"
         check_outdated_page "$file1"
         check_more_info_link "$file1"
         check_page_title "$file1"
+        check_see_also_mentions "$file1"
         ;;
     esac
   done <<< "$git_diff"
 
-  rm more-info-links.txt page-titles.txt
+  rm more-info-links.txt page-titles.txt see-also-mentions.txt
 }
 
 # Recursively check the pages/ folder for anomalies.
@@ -243,6 +254,7 @@ MSG_NOT_FILE='The file `%s` does not look like a regular file.\n'
 MSG_NOT_MD='The file `%s` does not have a `.md` extension.\n'
 MSG_MORE_INFO='The page `%s` has a more info link that does not match the one in the English page or the template. Please check the "More information:" translation as well using [the translation template](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/translation-templates/more-info-link.md) or run `scripts/set-more-info-link.py -S`.\n'
 MSG_PAGE_TITLE='The page `%s` has a page title that does not match the one in the English page.\n'
+MSG_SEE_ALSO='The page `%s` has a see also mention that does not match the one in the English page or the template. Please check the "See also:" translation as well using [the translation template](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/translation-templates/see-also-mentions.md) or run `scripts/set-see-also.py -S`.\n'
 
 PLATFORMS=$(ls pages/)
 

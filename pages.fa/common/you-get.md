@@ -1,6 +1,7 @@
 # you-get
 
 > دانلود محتوای چندرسانه ای از وب (ویدیو، صوت، عکس).
+> همچنین : `yt-dlp`, `youtube-viewer`, `instaloader`.
 > اطلاعات بیشتر: <https://you-get.org/#getting-started>.
 
 - چاپ اطلاعات درمورد یک رسانه خاص در سطح وب:

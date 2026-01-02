@@ -1,7 +1,7 @@
 # lvdisplay
 
 > Imprime información sobre Logical Volumes Manager (LVM).
-> Vea también: `lvm`.
+> Vea también: `lvm`, `lvs`.
 > Más información: <https://manned.org/lvdisplay>.
 
 - Muestra información sobre todos los volúmenes lógicos:

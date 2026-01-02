@@ -1,6 +1,7 @@
 # watchexec
 
 > Run arbitrary commands when files change.
+> See also: `entr`.
 > More information: <https://manned.org/watchexec>.
 
 - Call `ls -la` when any file in the current directory changes:

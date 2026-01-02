@@ -10,12 +10,12 @@
 
 - Fijar un paquete en su versión actual:
 
-`choco pin add --name {{paquete}}`
+`choco pin add {{[-n|--name]}} {{paquete}}`
 
 - Fijar un paquete en una versión específica:
 
-`choco pin add --name {{paquete}} --version {{versión}}`
+`choco pin add {{[-n|--name]}} {{paquete}} --version {{versión}}`
 
 - Eliminar un pin para un paquete específico:
 
-`choco pin remove --name {{paquete}}`
+`choco pin remove {{[-n|--name]}} {{paquete}}`

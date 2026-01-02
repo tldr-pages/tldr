@@ -5,7 +5,7 @@
 
 - رمزگشایی یک فایل APK:
 
-`apktool d {{path/to/file.apk}}`
+`apktool d {{path/to/file}}.apk`
 
 - ساخت یک فایل APK از یک دایرکتوری:
 
@@ -13,4 +13,4 @@
 
 - نصب و ذخیره یک فریمورک:
 
-`apktool if {{path/to/framework.apk}}`
+`apktool if {{path/to/framework}}.apk`

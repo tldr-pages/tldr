@@ -1,7 +1,7 @@
 # popd
 
-> 通过 pushd shell 内置程序删除目录堆栈中的目录。
-> 另请参阅：`pushd` 将目录放入堆栈和 `dirs` 显示目录堆栈内容。
+> 通过 `pushd` shell 内置程序删除目录堆栈中的目录。
+> 另请参阅：`pushd`, `dirs`。
 > 更多信息：<https://www.gnu.org/software/bash/manual/bash.html#index-popd>。
 
 - 从堆栈中删除顶部目录，并用 `cd` 跳转到该目录：

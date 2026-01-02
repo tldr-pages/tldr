@@ -6,12 +6,12 @@
 
 - Lista los archivos contenidos en un archivo APK:
 
-`aapt list {{ruta/al/app.apk}}`
+`aapt list {{ruta/al/app}}.apk`
 
 - Muestra la metadata de una app (versión, permisos, etc.):
 
-`aapt dump badging {{ruta/al/app.apk}}`
+`aapt dump badging {{ruta/al/app}}.apk`
 
 - Crea un nuevo archivo APK con archivos de un directorio especificado:
 
-`aapt package -F {{ruta/al/app.apk}} {{ruta/al/directorio}}`
+`aapt package -F {{ruta/al/app}}.apk {{ruta/al/directorio}}`

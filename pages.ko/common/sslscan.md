@@ -13,4 +13,4 @@
 
 - 인증서 정보 표시:
 
-`testssl --show-certificate {{example.com}}`
+`sslscan --show-certificate {{example.com}}`

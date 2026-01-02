@@ -1,10 +1,10 @@
 # ack
 
 > Narzędzie wyszukiwania, podobne do `grep`, zoptymalizowane dla programistów.
-> Zobacz także: `rg`, który jest znacznie szybszy.
+> Zobacz także: `rg`.
 > Więcej informacji: <https://beyondgrep.com/documentation/>.
 
-- Szukaj rekurencyjnie plików zawierających ciąg znaków lub wyrażenie regularne w bieżącym katalogu:
+- Szukaj rekurencyjnie plików zawierających ciąg znaków lub `regex` w bieżącym katalogu:
 
 `ack "{{wzorzec_wyszukiwania}}"`
 

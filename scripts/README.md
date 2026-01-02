@@ -17,11 +17,12 @@ This section contains a summary of the scripts available in this directory. For 
 - [send-to-bot.py](send-to-bot.py) is a Python script that sends the build or test output to tldr-bot.
 - [set-alias-page.py](set-alias-page.py) is a Python script to generate or update alias pages.
 - [set-more-info-link.py](set-more-info-link.py) is a Python script to generate or update more information links across pages.
+- [set-see-also.py](set-see-also.py) is a Python script to generate or update see also mentions across pages.
 - [set-page-title.py](set-page-title.py) is a Python script to update the title across pages.
 - [test.sh](test.sh) script runs some basic tests on every PR/commit to ensure the pages are valid and the code is formatted correctly.
 - [wrong-filename.py](wrong-filename.py) script checks the consistency between the filenames and the page title.
 - [update-command.py](update-command.py) is a Python script to update the common contents of a command example across all languages.
-- [check-errors.sh](check-errors.sh) is a shell script that is meant to be run inside a specific language directory (`../scripts/check-errors.sh`). It does basic grep searches of few of the most commonly encountered errors and returns the lines they appear in.
+- [check-errors.sh](check-errors.sh) is a shell script that is meant to be run inside a specific language directory (`../scripts/check-errors.sh`). It does basic grep searches of few of the most commonly encountered errors and returns those lines.
 
 ## Compatibility
 
@@ -30,10 +31,11 @@ The table below shows the compatibility of user-executable scripts with differen
 | Script | Linux | macOS (`osx`) | Windows |
 | ------ | ----- | ----- | ------- |
 | [render.py](pdf/render.py) | ✅ | ✅ | ✅ |
-| [build-pdf.sh](pdf/build-pdf.sh) | ✅ | ✅ | ❌ (WSL ✅)|
-| [build.sh](build.sh) | ✅ | ✅ | ❌ (WSL ✅)|
+| [build-pdf.sh](pdf/build-pdf.sh) | ✅ | ✅ | ❌ (WSL ✅) |
+| [build.sh](build.sh) | ✅ | ✅ | ❌ (WSL ✅) |
 | [set-alias-pages.py](set-alias-pages.py) | ✅ | ✅ | ✅ |
 | [set-more-info-link.py](set-more-info-link.py) | ✅ | ✅ | ✅ |
+| [set-see-also.py](set-see-also.py) | ✅ | ✅ | ✅ |
 | [set-page-title.py](set-page-title.py) | ✅ | ✅ | ✅ |
 | [wrong-filename.py](wrong-filename.py) | ✅ | ✅ | ✅ |
 | [update-command.py](update-command.py) | ✅ | ✅ | ✅ |

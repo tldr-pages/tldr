@@ -13,4 +13,4 @@
 
 - Show certificate information:
 
-`testssl --show-certificate {{example.com}}`
+`sslscan --show-certificate {{example.com}}`

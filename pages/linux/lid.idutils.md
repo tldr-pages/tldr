@@ -2,7 +2,7 @@
 
 > Query an ID database for tokens matching a pattern.
 > Note: An ID database must first be built using `mkid`.
-> More information: <https://www.gnu.org/software/idutils/manual/html_node/lid-invocation.html>.
+> More information: <https://www.gnu.org/software/idutils/manual/idutils.html#lid-invocation>.
 
 - List all tokens and their file locations in the ID database:
 
@@ -16,7 +16,7 @@
 
 `lid {{[-i|--ignore-case]}} {{token}}`
 
-- Find tokens matching an extended regular expression:
+- Find tokens matching an extended `regex`:
 
 `lid {{[-r|--regexp]}} "{{pattern}}"`
 

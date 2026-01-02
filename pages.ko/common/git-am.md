@@ -1,7 +1,7 @@
 # git am
 
 > 패치 파일을 적용하고 커밋 생성. 이메일을 통해 커밋을 받을 때 유용합니다.
-> 패치 파일을 생성할 수 있는 `git format-patch`도 같이 보세요.
+> 같이 보기: `git format-patch`.
 > 더 많은 정보: <https://git-scm.com/docs/git-am>.
 
 - 로컬 패치 파일을 적용하고 커밋:

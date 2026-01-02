@@ -1,7 +1,7 @@
 # age-keygen
 
 > Genera pares de claves `age`.
-> Vea también: `age` para cifrar/descifrar archivos.
+> Vea también: `age`.
 > Más información: <https://manned.org/age-keygen>.
 
 - Genera un par de claves, las guarda en un archivo sin cifrar, y muestra la clave pública con `stdout`:

@@ -1,6 +1,7 @@
 # fatrace
 
 > Informa de eventos de acceso a archivos.
+> Vea también: `inotifywait`.
 > Más información: <https://manned.org/fatrace>.
 
 - Imprime en `stdout` los eventos de acceso a archivos en todos los sistemas de archivos montados:

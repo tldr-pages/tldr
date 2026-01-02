@@ -1,7 +1,7 @@
 # youtube-dl
 
 > 从 YouTube 和其他网站下载视频。
-> 另请参阅：`yt-dlp`，`ytfzf`，`you-get`。
+> 另请参阅：`yt-dlp`, `ytfzf`, `you-get`。
 > 更多信息：<https://rg3.github.io/youtube-dl/>。
 
 - 下载一个视频或播放列表：

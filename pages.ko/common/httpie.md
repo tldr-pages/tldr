@@ -1,7 +1,7 @@
 # httpie
 
 > HTTPie용 관리 인터페이스.
-> 참조: `http`, 도구 자체.
+> 같이 보기: `http`.
 > 더 많은 정보: <https://httpie.io/docs/cli/plugin-manager>.
 
 - `http` 업데이트를 확인:
