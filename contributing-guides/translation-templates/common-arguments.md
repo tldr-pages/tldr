@@ -35,7 +35,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | pl    | ścieżka/do/pliku      | ścieżka/do/katalogu      | ścieżka/do/pliku_lub_katalogu      | pakiet      | nazwa_użytkownika  | hasło    | komenda | port | wartość |
 | pt_BR | caminho/para/arquivo  | caminho/para/diretorio   | caminho/para/arquivo_ou_diretorio  | pacote      | nome_do_usuario    |          |
 | pt_PT | caminho/para/ficheiro | caminho/para/diretório   | caminho/para/ficheiro_ou_diretório | pacote      | nome_de_utilizador |          |
-| ro    | cale/către/fișier     | cale/către/director      | cale/către/fișier_sau_director     | pachet      | nume_utilizator    |          |
+| ro    | cale/către/fișier     | cale/către/director      | cale/către/fișier_sau_director     | pachet      | nume_utilizator    | parolă   | comandă | port |
 | ru    | путь/к/файлу          | путь/к/каталогу          | путь/к/файлу_или_каталогу          | пакет       | имя_пользователя   | пароль   | команда | порт | значение |
 | sr    | put/do/datoteke       | put/do/direktorijuma     | put/do/datoteke_ili_direktorijuma  | paket       | korisničko_ime     |          |
 | sv    | sökväg/till/fil       | sökväg/till/katalog      | sökväg/till/fil_eller_katalog      | paket       | användarnamn       |          |

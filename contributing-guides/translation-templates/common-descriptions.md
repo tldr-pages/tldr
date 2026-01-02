@@ -32,7 +32,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | pl    | Wyświetl pomoc               | Wyświetl wersję           | [Interaktywne]   |
 | pt_BR | Mostra ajuda                 | Mostra versão             |                  |
 | pt_PT |                              |                           |                  |
-| ro    |                              |                           |                  |
+| ro    | Afișare ajutor               | Afișare versiune          | [Interactiv]     |
 | ru    | Показать справку             | Показать версию           | [Интерактивно]   |
 | sr    | Prikazuje opštu pomoć        | Proverava verziju         |                  |
 | sv    |                              |                           |                  |
