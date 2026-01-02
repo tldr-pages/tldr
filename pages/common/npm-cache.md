@@ -1,15 +1,11 @@
 # npm cache
 
 > Manage the npm package cache.
-> More information: <https://docs.npmjs.com/cli/npm-cache>.
+> More information: <https://docs.npmjs.com/cli/npm-cache/>.
 
 - Add a specific package to the cache:
 
 `npm cache add {{package_name}}`
-
-- Remove a specific package from the cache:
-
-`npm cache remove {{package_name}}`
 
 - Clear a specific cached item by key:
 
@@ -17,20 +13,20 @@
 
 - Clear the entire npm cache:
 
-`npm cache clean --force`
+`npm cache clean {{[-f|--force]}}`
 
-- List the contents of the npm cache:
+- List cached packages:
 
 `npm cache ls`
+
+- List cached packages matching a specific name and version:
+
+`npm cache ls {{name}}@{{version}}`
 
 - Verify the integrity of the npm cache:
 
 `npm cache verify`
 
-- Show the cache path:
+- List all entries in the npx cache:
 
-`npm {{[c|config]}} get cache`
-
-- Change the cache path:
-
-`npm {{[c|config]}} set cache {{path/to/directory}}`
+`npm cache npx ls`

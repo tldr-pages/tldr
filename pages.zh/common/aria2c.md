@@ -2,7 +2,7 @@
 
 > 快速下载工具。
 > 支持 HTTP(S)、FTP、SFTP、BitTorrent 和 Metalink。
-> 更多信息：<https://aria2.github.io>.
+> 更多信息：<https://aria2.github.io/manual/en/html/aria2c.html>。
 
 - 将特定 URI 下载到一个文件：
 
@@ -10,23 +10,23 @@
 
 - 从一个 URI 下载文件，并指定输出文件名：
 
-`aria2c --out {{路径/到/文件}} "{{url}}"`
+`aria2c {{[-o|--out]}} {{路径/到/文件}} "{{url}}"`
 
 - 并行下载多个不同的文件：
 
-`aria2c --force-sequential {{false}} "{{url1 url2 ...}}"`
+`aria2c {{[-Z|--force-sequential=true]}} {{"url1" "url2" ...}}`
 
 - 从不同的镜像下载相同的文件，并验证已下载文件的校验和：
 
-`aria2c --checksum {{sha-256}}={{hash}} "{{url1}}" "{{url2}}" "{{urlN}}"`
+`aria2c --checksum {{sha-256}}={{hash}} {{"url1" "url2" ...}}`
 
 - 下载文件中列出的 URI，并指定并行下载的数量：
 
-`aria2c --input-file {{路径/到/文件}} --max-concurrent-downloads {{下载数}}`
+`aria2c {{[-i|--input-file]}} {{路径/到/文件}} {{[-j|--max-concurrent-downloads]}} {{下载数}}`
 
 - 使用多个连接进行下载：
 
-`aria2c --split {{连接数}} "{{url}}"`
+`aria2c {{[-s|--split]}} {{连接数}} "{{url}}"`
 
 - 使用用户名和密码进行 FTP 下载：
 

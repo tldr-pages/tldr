@@ -1,13 +1,14 @@
 # watchexec
 
 > Run arbitrary commands when files change.
+> See also: `entr`.
 > More information: <https://manned.org/watchexec>.
 
 - Call `ls -la` when any file in the current directory changes:
 
 `watchexec {{ls -la}}`
 
-- Run `make` when any JavaScript, CSS and HTML file in the current directory changes:
+- Run `make` when any JavaScript, CSS, and HTML file in the current directory changes:
 
 `watchexec {{[-e|--exts]}} {{js,css,html}} make`
 

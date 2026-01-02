@@ -1,7 +1,7 @@
 # stun
 
 > Classic STUN-Client.
-> Weitere Informationen: <https://manned.org/stun.1>.
+> Weitere Informationen: <https://manned.org/stun>.
 
 - Stelle eine STUN-Anfrage:
 

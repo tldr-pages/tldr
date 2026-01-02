@@ -1,7 +1,7 @@
 # radeontop
 
 > Mostra Utilizzo di AMD GPUs.
-> Maggiori informazioni: <https://github.com/clbr/radeontop>.
+> Maggiori informazioni: <https://github.com/clbr/radeontop/blob/master/radeontop.asc>.
 
 - Mostra utilizzo del AMD GPU principale:
 

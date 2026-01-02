@@ -2,7 +2,7 @@
 
 > Corta texto (o bytes) donde coincida un delimitador, luego conserva las partes deseadas.
 > Una versión más fácil de usar y potente de `cut` con valores por defecto sensibles.
-> Más información: <https://github.com/riquito/tuc>.
+> Más información: <https://github.com/riquito/tuc#help>.
 
 - Corta y reorganiza campos:
 

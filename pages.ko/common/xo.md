@@ -1,7 +1,7 @@
 # xo
 
 > JavaScript용 플러그인 가능하고 설정이 필요 없는 린트 유틸리티.
-> 더 많은 정보: <https://github.com/xojs/xo>.
+> 더 많은 정보: <https://github.com/xojs/xo#usage>.
 
 - "src" 폴더의 파일을 린트:
 

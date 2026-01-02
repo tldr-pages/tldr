@@ -2,7 +2,7 @@
 
 > A collection of tools for indexing, inspecting, and visualizing disk usage.
 > Duc maintains a database of accumulated sizes of directories of the file system, allowing queries in this database, or creating fancy graphs to show where data is.
-> More information: <https://duc.zevv.nl/>.
+> More information: <https://htmlpreview.github.io/?https://github.com/zevv/duc/blob/master/doc/duc.1.html>.
 
 - Index the `/usr` directory, writing to the default database location `~/.duc.db`:
 

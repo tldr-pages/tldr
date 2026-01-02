@@ -1,7 +1,7 @@
 # tcpdump
 
 > Dump traffic on a network.
-> More information: <https://www.tcpdump.org>.
+> More information: <https://www.tcpdump.org/manpages/tcpdump.1.html>.
 
 - List available network interfaces:
 
@@ -19,7 +19,7 @@
 
 `sudo tcpdump host {{www.example.com}}`
 
-- Capture the traffic from a specific interface, source, destination and destination port:
+- Capture the traffic from a specific interface, source, destination, and destination port:
 
 `sudo tcpdump {{[-i|--interface]}} {{eth0}} src {{192.168.1.1}} and dst {{192.168.1.2}} and dst port {{80}}`
 

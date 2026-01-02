@@ -1,7 +1,7 @@
 # sonar-scanner
 
 > A generic scanner for SonarQube projects that do not use build tools such as Maven, Gradle, or Ant.
-> More information: <https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/>.
+> More information: <https://docs.sonarsource.com/sonarqube-server/analyzing-source-code/scanners/sonarscanner>.
 
 - Scan a project with configuration file in your project's root directory named `sonar-project.properties`:
 

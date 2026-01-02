@@ -4,7 +4,7 @@
 > 정규식은 Rust 정규식 상자와 일치.
 > 더 많은 정보: <https://github.com/facebookincubator/fastmod>.
 
-- .ignore 및 .gitignore의 파일을 무시하고 현재 디렉터리의 모든 파일에서 정규식 패턴을 변경:
+- `.ignore` 및 `.gitignore`의 파일을 무시하고 현재 디렉터리의 모든 파일에서 정규식 패턴을 변경:
 
 `fastmod {{정규표현식_패턴}} {{대체문자열}}`
 

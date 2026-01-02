@@ -1,6 +1,7 @@
 # cage
 
 > Open an applications in a kiosk mode.
+> See also: `gamescope`.
 > More information: <https://github.com/cage-kiosk/cage/blob/master/cage.1.scd>.
 
 - Run an application:

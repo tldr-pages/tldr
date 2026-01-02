@@ -1,6 +1,6 @@
 # pacman --query
 
-> Arch Linux package manager utility.
+> Query the local package database.
 > See also: `pacman`.
 > More information: <https://manned.org/pacman.8>.
 

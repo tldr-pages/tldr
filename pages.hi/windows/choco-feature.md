@@ -1,7 +1,7 @@
 # choco feature
 
 > चॉकलेट के साथ विशेषताओं के साथ इंटरैक्ट करें।
-> अधिक जानकारी: <https://chocolatey.org/docs/commands-feature>।
+> अधिक जानकारी: <https://docs.chocolatey.org/en-us/choco/commands/feature/>।
 
 - उपलब्ध विशेषताओं की सूची दिखाएँ:
 

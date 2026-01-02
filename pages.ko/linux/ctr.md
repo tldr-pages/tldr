@@ -1,7 +1,7 @@
 # ctr
 
 > `containerd` 컨테이너 및 이미지 관리.
-> 더 많은 정보: <https://containerd.io>.
+> 더 많은 정보: <https://manned.org/ctr>.
 
 - 모든 컨테이너 나열 (실행 중 및 중지됨):
 

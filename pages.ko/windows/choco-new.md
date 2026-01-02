@@ -1,7 +1,7 @@
 # choco new
 
 > Chocolatey로 새 패키지 사양 파일 생성.
-> 더 많은 정보: <https://chocolatey.org/docs/commands-new>.
+> 더 많은 정보: <https://docs.chocolatey.org/en-us/create/commands/new/>.
 
 - 새 패키지 스켈레톤 생성:
 
@@ -17,7 +17,7 @@
 
 - 사용자 지정 출력 디렉터리에 새 패키지 생성:
 
-`choco new {{패키지}} --output-directory {{경로/대상/폴더}}`
+`choco new {{패키지}} {{[--out|--output-directory]}} {{경로/대상/폴더}}`
 
 - 특정 32비트 및 64비트 설치 프로그램 URL로 새 패키지 생성:
 

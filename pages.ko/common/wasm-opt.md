@@ -1,7 +1,7 @@
 # wasm-opt
 
 > WebAssembly 바이너리 파일 최적화.
-> 더 많은 정보: <https://github.com/webassembly/binaryen>.
+> 더 많은 정보: <https://manned.org/wasm-opt>.
 
 - 기본 최적화를 적용하고 지정된 파일에 저장:
 

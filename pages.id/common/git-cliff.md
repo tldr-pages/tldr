@@ -1,7 +1,7 @@
 # git cliff
 
 > Suatu pembuat teks daftar perubahan (changelog) yang mudah diatur.
-> Informasi lebih lanjut: <https://git-cliff.org/docs/usage/args>.
+> Informasi lebih lanjut: <https://git-cliff.org/docs/usage/args/>.
 
 - Buat suatu pesan changelog dari seluruh komit dalam suatu repositori Git, kemudian simpan ke dalam `CHANGELOG.md`:
 

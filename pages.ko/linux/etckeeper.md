@@ -1,7 +1,7 @@
 # etckeeper
 
 > 시스템 구성 파일을 Git으로 추적합니다.
-> 더 많은 정보: <https://etckeeper.branchable.com/>.
+> 더 많은 정보: <https://manned.org/etckeeper>.
 
 - Git 저장소를 설정하고 다양한 설정 작업 수행(`/etc`에서 실행):
 

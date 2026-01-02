@@ -1,7 +1,7 @@
 # autorandr
 
 > Cambia automáticamente la disposición de la pantalla.
-> Más información: <https://github.com/phillipberndt/autorandr>.
+> Más información: <https://manned.org/autorandr>.
 
 - Guarda la disposición actual de la pantalla:
 

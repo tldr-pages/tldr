@@ -1,7 +1,7 @@
 # rclone
 
 > 여러 클라우드 서비스와 파일 및 디렉터리를 복사, 동기화 또는 이동.
-> 더 많은 정보: <https://rclone.org>.
+> 더 많은 정보: <https://rclone.org/commands/rclone/>.
 
 - rclone 설정을 위한 인터랙티브 메뉴 실행:
 

@@ -1,7 +1,7 @@
 # espeak
 
 > Usa la sintesi vocale per parlare tramite il dispositivo audio di output predefinito.
-> Maggiori informazioni: <https://espeak.sourceforge.net>.
+> Maggiori informazioni: <https://manned.org/espeak>.
 
 - Pronuncia una frase ad alta voce:
 

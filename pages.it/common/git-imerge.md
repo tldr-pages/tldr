@@ -1,4 +1,4 @@
-# git-imerge
+# git imerge
 
 > Esegui un'unione (merge) o rebase tra due rami Git in modo incrementale.
 > Eventuali conflitti tra i due rami sono tracciati in coppie di commit distinti, per semplificarne la risoluzione.

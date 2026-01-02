@@ -1,7 +1,8 @@
 # xargs
 
 > Execute a command with piped arguments coming from another command, a file, etc.
-> The input is treated as a single block of text and split into separate pieces on spaces, tabs, newlines and end-of-file.
+> The input is treated as a single block of text and split into separate pieces on spaces, tabs, newlines, and end-of-file.
+> See also: `parallel`.
 > More information: <https://www.gnu.org/software/findutils/manual/html_mono/find.html#Invoking-xargs>.
 
 - Run a command using the input data as arguments:
@@ -12,7 +13,7 @@
 
 `{{arguments_source}} | xargs sh -c "{{command1}} && {{command2}} | {{command3}}"`
 
-- Gzip all files with `.log` extension taking advantage of multiple threads (`-print0` uses a null character to split file names, and `-0` uses it as delimiter):
+- Gzip all files with `.log` extension taking advantage of multiple threads (`-print0` uses a null character to split file names and `--null` uses it as delimiter):
 
 `find . -name '*.log' -print0 | xargs {{[-0|--null]}} {{[-P|--max-procs]}} {{4}} {{[-n|--max-args]}} 1 gzip`
 
@@ -31,3 +32,7 @@
 - Prompt user for confirmation before executing command (confirm with `y` or `Y`):
 
 `{{arguments_source}} | xargs {{[-p|--interactive]}} {{command}}`
+
+- Allow the command to access the terminal for interactive input:
+
+`{{arguments_source}} | xargs {{[-o|--open-tty]}} {{command}}`

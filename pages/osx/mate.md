@@ -1,7 +1,7 @@
 # mate
 
 > General-purpose text editor for macOS.
-> More information: <https://macromates.com/>.
+> More information: <https://macromates.com/textmate/manual/opening-files#mate>.
 
 - Start TextMate:
 
@@ -13,12 +13,12 @@
 
 - Specify the filetype of a file:
 
-`mate --type {{filetype}} {{path/to/file}}`
+`mate {{[-t|--type]}} {{filetype}} {{path/to/file}}`
 
 - Open and wait until finished editing a specific file:
 
-`mate --wait {{path/to/file}}`
+`mate {{[-w|--wait]}} {{path/to/file}}`
 
 - Open a file with the cursor at a specific line and column:
 
-`mate --line {{line_number}}:{{column_number}} {{path/to/file}}`
+`mate {{[-l|--line]}} {{line_number}}:{{column_number}} {{path/to/file}}`

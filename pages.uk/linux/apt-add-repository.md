@@ -1,20 +1,7 @@
 # apt-add-repository
 
-> Керує взаємодією з репозиторіями `apt`.
-> Більше інформації: <https://manned.org/apt-add-repository.1>.
+> Ця команда є псевдонімом для `add-apt-repository`.
 
-- Додайте новий репозиторій `apt`:
+- Дивись документацію для оригінальної команди:
 
-`apt-add-repository {{репозиторій}}`
-
-- Видалити репозиторій `apt`:
-
-`apt-add-repository --remove {{репозиторій}}`
-
-- Оновити кеш пакетів після додавання репозиторію:
-
-`apt-add-repository --update {{репозиторій}}`
-
-- Увімкнути вихідні пакети:
-
-`apt-add-repository --enable-source {{репозиторій}}`
+`tldr add-apt-repository`

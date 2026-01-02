@@ -1,7 +1,7 @@
 # spotify
 
 > Una línea de comando para Spotify.
-> Más información: <https://github.com/hnarayanan/shpotify>.
+> Más información: <https://github.com/hnarayanan/shpotify#usage>.
 
 - Encuentra una canción por su nombre y la reproduce:
 

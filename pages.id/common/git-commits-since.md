@@ -2,7 +2,7 @@
 
 > Tampilkan daftar komit sejak waktu atau tanggal tertentu.
 > Bagian dari `git-extras`.
-> Informasi lebih lanjut: <https://github.com/tj/git-extras/blob/master/Commands.md#git-commits-since>.
+> Informasi lebih lanjut: <https://github.com/tj/git-extras/blob/main/Commands.md#git-commits-since>.
 
 - Tampilkan daftar komit yang dibentuk sejak kemarin (yesterday):
 

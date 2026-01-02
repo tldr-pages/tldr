@@ -1,13 +1,13 @@
 # duf
 
 > Disk Usage/Free Utility.
-> More information: <https://github.com/muesli/duf>.
+> More information: <https://github.com/muesli/duf#usage>.
 
 - List accessible devices:
 
 `duf`
 
-- List everything (such as pseudo, duplicate or inaccessible file systems):
+- List everything (such as pseudo, duplicate, or inaccessible file systems):
 
 `duf --all`
 

@@ -1,7 +1,7 @@
 # zig
 
 > El compilador Zig y la cadena de herramientas.
-> Más información: <https://ziglang.org>.
+> Más información: <https://ziglang.org/documentation/master/>.
 
 - Compila el proyecto en el directorio actual:
 

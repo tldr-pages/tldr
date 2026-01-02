@@ -1,7 +1,7 @@
 # mkfs.fat
 
 > 在分区内创建一个 MS-DOS 文件系统。
-> 更多信息：<https://manned.org/mkfs.fat>.
+> 更多信息：<https://manned.org/mkfs.fat>。
 
 - 在设备 b 的分区 1 内创建一个 FAT 文件系统（`sdb1`）：
 

@@ -18,3 +18,11 @@
 - Voer een specifiek commando uit na een wachttijd van 20 [m]inuten:
 
 `sleep 20m && {{commando}}`
+
+- Wacht voor altijd:
+
+`sleep {{[inf|infinity]}}`
+
+- Toon de help:
+
+`sleep --help`

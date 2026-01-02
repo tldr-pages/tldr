@@ -2,7 +2,7 @@
 
 > XBPS hulpprogramma om pakketten te (her)installeren en bij te werken.
 > Zie ook: `xbps`.
-> Meer informatie: <https://manned.org/xbps-install.1>.
+> Meer informatie: <https://manned.org/xbps-install>.
 
 - Installeer een nieuw pakket:
 

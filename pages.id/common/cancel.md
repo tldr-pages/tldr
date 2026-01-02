@@ -4,7 +4,7 @@
 > Lihat juga: `lp`, `lpmove`, `lpstat`.
 > Informasi lebih lanjut: <https://openprinting.github.io/cups/doc/man-cancel.html>.
 
-- Batalkan pekerjaan yang sedang dikerjakan ke dalam mesin pencetak yang diatur sebagai tujuan bawaan (atur mesin tujuan bawaan dengan perintah `lpoptions -d {{pencetak}}`):
+- Batalkan pekerjaan yang sedang dikerjakan ke dalam mesin pencetak yang diatur sebagai tujuan bawaan (atur mesin tujuan bawaan dengan perintah `lpoptions -d pencetak`):
 
 `cancel`
 

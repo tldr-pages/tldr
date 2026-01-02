@@ -1,9 +1,10 @@
 # id
 
 > Display current user and group identity.
+> See also: `logname`.
 > More information: <https://www.gnu.org/software/coreutils/manual/html_node/id-invocation.html>.
 
-- Display current user's ID (UID), group ID (GID) and groups to which they belong:
+- Display current user's ID (UID), group ID (GID), and groups to which they belong:
 
 `id`
 
@@ -23,6 +24,14 @@
 
 `id {{[-g|--group]}}`
 
-- Display an arbitrary user's ID (UID), group ID (GID) and groups to which they belong:
+- Display all groups the current user belongs to:
+
+`id {{[-Gn|--groups --name]}}`
+
+- Display an arbitrary user's ID (UID), group ID (GID), and groups to which they belong:
 
 `id {{username}}`
+
+- Skip name lookup and specify the UID number explicitly:
+
+`id +{{uid_number}}`

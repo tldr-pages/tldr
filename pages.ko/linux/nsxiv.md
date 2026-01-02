@@ -1,7 +1,7 @@
 # nsxiv
 
 > Neo Simple X 이미지 뷰어.
-> 더 많은 정보: <https://nsxiv.codeberg.page/man>.
+> 더 많은 정보: <https://nsxiv.codeberg.page/man/>.
 
 - 이미지 열기:
 

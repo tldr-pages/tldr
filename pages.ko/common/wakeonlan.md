@@ -1,7 +1,7 @@
 # wakeonlan
 
 > Wake-on-LAN(WOL) 기능이 활성화된 PC에 패킷 전송.
-> 더 많은 정보: <https://github.com/jpoliv/wakeonlan>.
+> 더 많은 정보: <https://manned.org/wakeonlan>.
 
 - MAC 주소를 지정하여 로컬 네트워크(255.255.255.255)의 모든 장치에 패킷 전송:
 

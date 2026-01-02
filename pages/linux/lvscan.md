@@ -6,16 +6,16 @@
 
 - List all logical volumes:
 
-`lvscan`
+`sudo lvscan`
 
 - List only active logical volumes:
 
-`lvscan --active`
+`sudo lvscan --active`
 
 - List only inactive logical volumes:
 
-`lvscan --inactive`
+`sudo lvscan --inactive`
 
 - Display logical volumes in JSON format:
 
-`lvscan --reportformat json`
+`sudo lvscan --reportformat json`

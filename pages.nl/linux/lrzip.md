@@ -10,20 +10,20 @@
 
 - Comprimeer een bestand met BZIP2 - goede middenweg voor compressie/snelheid:
 
-`lrzip -b {{pad/naar/bestand}}`
+`lrzip {{[-b|--bzip2]}} {{pad/naar/bestand}}`
 
 - Comprimeer met ZPAQ - extreme compressie, maar erg langzaam:
 
-`lrzip -z {{pad/naar/bestand}}`
+`lrzip {{[-z|--zpaq]}} {{pad/naar/bestand}}`
 
 - Comprimeer met LZO - lichte compressie, extreem snelle decompressie:
 
-`lrzip -l {{pad/naar/bestand}}`
+`lrzip {{[-l|--lzo]}} {{pad/naar/bestand}}`
 
 - Een bestand comprimeren en met een wachtwoord beveiligen/versleutelen:
 
-`lrzip -e {{pad/naar/bestand}}`
+`lrzip {{[-e|--encrypt]}} {{pad/naar/bestand}}`
 
 - Overschrijf het aantal processor threads om te gebruiken:
 
-`lrzip -p {{8}} {{pad/naar/bestand}}`
+`lrzip {{[-p|--threads]}} {{8}} {{pad/naar/bestand}}`

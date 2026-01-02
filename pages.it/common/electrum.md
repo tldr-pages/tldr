@@ -1,7 +1,7 @@
 # electrum
 
 > Ergonomico wallet (portafogli) Bitcoin e gestore di chiavi private.
-> Maggiori informazioni: <https://electrum.org>.
+> Maggiori informazioni: <https://manned.org/electrum>.
 
 - Crea un nuovo wallet:
 

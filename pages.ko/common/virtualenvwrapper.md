@@ -1,7 +1,7 @@
 # virtualenvwrapper
 
 > Python의 `virtualenv` 도구를 위한 간단한 래퍼 명령 그룹.
-> 더 많은 정보: <https://virtualenvwrapper.readthedocs.org>.
+> 더 많은 정보: <https://virtualenvwrapper.readthedocs.io/en/latest/command_ref.html>.
 
 - 새로운 Python `virtualenv`를 `$WORKON_HOME`에 생성:
 

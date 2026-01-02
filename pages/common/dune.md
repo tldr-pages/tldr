@@ -1,7 +1,7 @@
 # dune
 
 > A build system for OCaml programs.
-> More information: <https://dune.build>.
+> More information: <https://dune.readthedocs.io/en/stable/reference/cli.html>.
 
 - Build all targets:
 

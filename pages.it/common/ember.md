@@ -2,7 +2,7 @@
 
 > Utilità da lina di comando per Ember.js.
 > Utilizzato per creare e mantenere applicazioni Ember.js.
-> Maggiori informazioni: <https://cli.emberjs.com>.
+> Maggiori informazioni: <https://cli.emberjs.com/release/advanced-use/cli-commands-reference/>.
 
 - Crea una nuova applicazione Ember:
 

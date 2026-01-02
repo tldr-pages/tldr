@@ -1,7 +1,7 @@
 # molecule
 
 > Molecule helps testing Ansible roles.
-> More information: <https://molecule.readthedocs.io>.
+> More information: <https://docs.ansible.com/projects/molecule/usage/>.
 
 - Create a new Ansible role:
 

@@ -1,7 +1,7 @@
 # auracle
 
 > Interact with Arch Linux's User Repository, commonly referred to as the AUR.
-> More information: <https://github.com/falconindy/auracle>.
+> More information: <https://github.com/falconindy/auracle/blob/master/man/auracle.1.pod>.
 
 - Display AUR packages that match a `regex`:
 

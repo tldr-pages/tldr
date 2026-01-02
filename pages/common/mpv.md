@@ -24,7 +24,7 @@
 
 `mpv --sub-file={{path/to/file}}`
 
-- Take a screenshot of the current frame (saved to `./mpv-shotNNNN.jpg` by default):
+- Take a screenshot of the current frame (saved to `mpv-shotNNNN.jpg` by default):
 
 `<s>`
 

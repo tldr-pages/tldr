@@ -1,7 +1,7 @@
 # gau
 
 > Get All URLs: fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl for any domains.
-> More information: <https://github.com/lc/gau>.
+> More information: <https://github.com/lc/gau#usage>.
 
 - Fetch all URLs of a domain from AlienVault's Open Threat Exchange, the Wayback Machine, Common Crawl, and URLScan:
 

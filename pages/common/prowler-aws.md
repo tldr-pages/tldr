@@ -2,7 +2,7 @@
 
 > Assess AWS security best practices, perform audits, compliance checks, and generate reports.
 > See also: `prowler`, `prowler-azure`, `prowler-gcp`, `prowler-kubernetes`, `prowler-m365`, `prowler-github`.
-> More information: <https://docs.prowler.com/projects/prowler-open-source/en/latest/>.
+> More information: <https://docs.prowler.com/user-guide/cli/tutorials/misc>.
 
 - Run the default set of checks on the AWS account:
 
@@ -14,7 +14,7 @@
 
 - Run checks for selected AWS services:
 
-`prowler aws {{[-s|--services]}} {{s3 ec2 ...}}`
+`prowler aws {{[-s|--services]}} {{s3|ec2|...}}`
 
 - Run a specific AWS check:
 
@@ -22,4 +22,4 @@
 
 - Exclude specific checks or services:
 
-`prowler aws {{[-e|--excluded-checks]}} {{s3_bucket_public_access}} --exclude-services {{s3 ec2 ...}}`
+`prowler aws {{[-e|--excluded-checks]}} {{s3_bucket_public_access}} --exclude-services {{s3|ec2|...}}`

@@ -7,11 +7,11 @@
 
 - Download the contents of a URL to a file using multiple threads (default behavior differs from `wget`):
 
-`wget2 {{https://example.com/foo}}`
+`wget2 {{https://example.com/resource}}`
 
 - Limit the number of threads used for downloading (default is 5 threads):
 
-`wget2 --max-threads {{10}} {{https://example.com/foo}}`
+`wget2 --max-threads {{10}} {{https://example.com/resource}}`
 
 - Download a single web page and all its resources (scripts, stylesheets, images, etc.):
 

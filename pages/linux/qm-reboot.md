@@ -1,7 +1,7 @@
 # qm reboot
 
 > Reboot a virtual machine by shutting it down, and starting it again after applying pending changes.
-> More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
+> More information: <https://pve.proxmox.com/pve-docs/qm.1.html#cli_qm_reboot>.
 
 - Reboot a virtual machine:
 

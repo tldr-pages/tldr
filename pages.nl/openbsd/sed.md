@@ -2,7 +2,7 @@
 
 > Pas tekst aan in een op een scriptbare manier.
 > Zie ook: `awk`, `ed`.
-> Meer informatie: <https://man.openbsd.org/sed.1>.
+> Meer informatie: <https://man.openbsd.org/sed>.
 
 - Vervang alle `apple` (basis regex) met `mango` (basis regex) in alle invoerregels en toon het resultaat in `stdout`:
 

@@ -1,7 +1,7 @@
 # wkhtmltopdf
 
 > HTML 문서나 웹 페이지를 PDF 파일로 변환하는 오픈 소스 명령줄 도구.
-> 더 많은 정보: <https://wkhtmltopdf.org/>.
+> 더 많은 정보: <https://wkhtmltopdf.org/usage/wkhtmltopdf.txt>.
 
 - HTML 문서를 PDF로 변환:
 

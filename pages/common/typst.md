@@ -2,7 +2,7 @@
 
 > Compile a Typst file to PDF.
 > Note: Specifying the output location is optional.
-> More information: <https://github.com/typst/typst>.
+> More information: <https://manned.org/typst>.
 
 - Initialize a new Typst project in a given directory using a template (e.g., `@preview/charged-ieee`):
 

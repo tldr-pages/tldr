@@ -2,7 +2,7 @@
 
 > 높은 압축률을 자랑하는 7-Zip 파일 압축기의 래퍼.
 > 내부적으로 7za 또는 7zr 명령을 실행합니다.
-> 더 많은 정보: <https://p7zip.sourceforge.net>.
+> 더 많은 정보: <https://manned.org/p7zip>.
 
 - 파일을 아카이브하고 7z로 압축된 버전으로 대체:
 

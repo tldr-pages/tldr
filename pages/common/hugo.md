@@ -1,6 +1,7 @@
 # hugo
 
-> Template-based static site generator. Uses modules, components, and themes.
+> Template-based static site generator.
+> Uses modules, components, and themes.
 > Some subcommands such as `server` have their own usage documentation.
 > More information: <https://gohugo.io/commands/>.
 
@@ -16,7 +17,7 @@
 
 `hugo new {{section_name}}/{{page_name}}`
 
-- Build a site to the `./public/` directory:
+- Build a site to the `public` directory:
 
 `hugo`
 

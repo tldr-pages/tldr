@@ -2,7 +2,7 @@
 
 > 파일 이름을 빠르게 찾기.
 > 새 파일을 포함하려면 `sudo updatedb`를 실행하세요.
-> 더 많은 정보: <https://plocate.sesse.net>.
+> 더 많은 정보: <https://plocate.sesse.net/plocate.1.html>.
 
 - 데이터베이스에서 패턴 검색 (주기적으로 재계산):
 

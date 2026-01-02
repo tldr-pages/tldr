@@ -1,8 +1,8 @@
 # bash
 
 > Bourne-Again SHell, um interpretador de linha de comando compatível com `sh`.
-> Veja também: `zsh`, `histexpand` (expansão do histórico).
-> Mais informações: <https://www.gnu.org/software/bash/manual/html_node/Invoking-Bash.html>.
+> Veja também: `zsh`, `!`.
+> Mais informações: <https://www.gnu.org/software/bash/manual/bash.html#Invoking-Bash>.
 
 - Inicia uma sessão interativa do shell:
 

@@ -1,7 +1,7 @@
 # offlineimap
 
 > 원격 IMAP 서버를 로컬 Maildir 폴더와 동기화.
-> 더 많은 정보: <https://www.offlineimap.org>.
+> 더 많은 정보: <https://www.offlineimap.org/doc/offlineimap.html>.
 
 - 자동 새로 고침 없이 한 번 동기화:
 

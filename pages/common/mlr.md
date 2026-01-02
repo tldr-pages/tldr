@@ -1,7 +1,7 @@
 # mlr
 
 > Miller is like `awk`, `sed`, `cut`, `join`, and `sort` for name-indexed data such as CSV, TSV, and tabular JSON.
-> More information: <https://miller.readthedocs.io>.
+> More information: <https://miller.readthedocs.io/en/latest/manpage/>.
 
 - Pretty-print a CSV file in a tabular format:
 
@@ -9,7 +9,7 @@
 
 - Receive JSON data and pretty print the output:
 
-`echo '{"hello":"world"}' | mlr --ijson --opprint cat`
+`{{echo '{"key":"value"}'}} | mlr --ijson --opprint cat`
 
 - Sort alphabetically on a field:
 
@@ -19,13 +19,13 @@
 
 `mlr --icsv --opprint sort -nr {{field}} {{example.csv}}`
 
-- Convert CSV to JSON, performing calculations and display those calculations:
+- Convert CSV to JSON, performing calculations, and display those calculations:
 
 `mlr --icsv --ojson put '${{newField1}} = ${{oldFieldA}}/${{oldFieldB}}' {{example.csv}}`
 
 - Receive JSON and format the output as vertical JSON:
 
-`echo '{"hello":"world", "foo":"bar"}' | mlr --ijson --ojson --jvstack cat`
+`{{echo '{"key1":"value1", "key2":"value2"}'}} | mlr --ijson --ojson --jvstack cat`
 
 - Filter lines of a compressed CSV file treating numbers as [S]trings:
 

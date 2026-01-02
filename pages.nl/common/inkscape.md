@@ -2,7 +2,7 @@
 
 > Een SVG (Scalable Vector Graphics) bewerkingsprogramma.
 > Voor Inkscape versies tot en met 0.92.x, gebruik -e in plaats van -o.
-> Meer informatie: <https://inkscape.org>.
+> Meer informatie: <https://inkscape.org/doc/inkscape-man.html>.
 
 - Open een SVG-bestand in de Inkscape GUI:
 

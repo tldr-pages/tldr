@@ -1,7 +1,7 @@
 # authconfig
 
 > 시스템 인증 리소스를 구성합니다.
-> 더 많은 정보: <https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system-level_authentication_guide/authconfig-install>.
+> 더 많은 정보: <https://manned.org/authconfig>.
 
 - 현재 설정 표시(또는 드라이 런):
 

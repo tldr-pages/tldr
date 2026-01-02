@@ -1,7 +1,7 @@
 # htmlq
 
 > Utiliza selectores CSS para extraer contenido de archivos HTML.
-> Más información: <https://github.com/mgdm/htmlq>.
+> Más información: <https://github.com/mgdm/htmlq#usage>.
 
 - Devuelve todos los elementos de la clase `card`:
 

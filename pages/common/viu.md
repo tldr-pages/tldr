@@ -1,7 +1,7 @@
 # viu
 
 > View images on the terminal.
-> More information: <https://github.com/atanunq/viu>.
+> More information: <https://github.com/atanunq/viu#command-line-options>.
 
 - Render an image or animated GIF:
 

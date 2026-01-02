@@ -1,7 +1,7 @@
 # pytest
 
 > Python 테스트 실행.
-> 더 많은 정보: <https://docs.pytest.org/>.
+> 더 많은 정보: <https://docs.pytest.org/en/latest/how-to/usage.html>.
 
 - 특정 파일에서 테스트 실행:
 

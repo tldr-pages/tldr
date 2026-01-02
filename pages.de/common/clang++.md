@@ -2,7 +2,7 @@
 
 > Kompiliert C++ Quelldateien.
 > Teil von LLVM.
-> Weitere Informationen: <https://clang.llvm.org>.
+> Weitere Informationen: <https://clang.llvm.org/docs/UsersManual.html#command-line-options>.
 
 - Kompiliere eine Quelldatei in eine ausführbare Binärdatei:
 

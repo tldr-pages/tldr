@@ -1,7 +1,7 @@
 # hledger
 
 > A robust, friendly plain text accounting app.
-> See also: `hledger-ui` for TUI, `hledger-web` for web interface.
+> See also: `hledger-ui`, `hledger-web`.
 > More information: <https://hledger.org/hledger.html>.
 
 - Record new transactions interactively, saving to the default journal file:

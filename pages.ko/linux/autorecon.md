@@ -1,7 +1,7 @@
 # autorecon
 
 > 다중 스레드 네트워크 정찰 도구로, 서비스의 자동 열거를 수행합니다.
-> 더 많은 정보: <https://github.com/Tib3rius/AutoRecon>.
+> 더 많은 정보: <https://github.com/AutoRecon/AutoRecon>.
 
 - 대상 호스트에 대해 정찰 수행 (`./results`에 자세한 스캔 결과가 저장됩니다):
 

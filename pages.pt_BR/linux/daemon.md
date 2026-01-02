@@ -1,7 +1,7 @@
 # daemon
 
 > Roda processos em daemons.
-> Mais informações: <https://manned.org/daemon>.
+> Mais informações: <https://manned.org/daemon.1>.
 
 - Roda um comando como um daemon:
 

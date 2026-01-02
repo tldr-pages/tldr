@@ -2,7 +2,7 @@
 
 > Change the reported architecture for a program's execution, primarily used to modify how programs behave based on system architecture.
 > Useful for compatibility testing or running legacy applications.
-> More information: <https://manned.org/setarch.8>.
+> More information: <https://manned.org/setarch>.
 
 - Run a command as if the machine architecture is `i686` (useful for running 32-bit apps on a 64-bit kernel):
 

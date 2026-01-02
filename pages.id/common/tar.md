@@ -2,7 +2,7 @@
 
 > Alat pengarsip berkas.
 > Sering digunakan bersamaan dengan alat kompresi tertentu, seperti `gzip` atau `bzip2`.
-> Informasi lebih lanjut: <https://www.gnu.org/software/tar>.
+> Informasi lebih lanjut: <https://www.gnu.org/software/tar/manual/tar.html>.
 
 - Buat ([c]reate) suatu arsip dan simpan ke dalam suatu berkas ([f]ile):
 

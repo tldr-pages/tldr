@@ -5,20 +5,20 @@
 
 - Create a fat filesystem inside partition `Y` on device `X`:
 
-`mkfs.fat {{/dev/sdXY}}`
+`sudo mkfs.fat {{/dev/sdXY}}`
 
 - Create filesystem with a volume-name:
 
-`mkfs.fat -n {{volume_name}} {{/dev/sdXY}}`
+`sudo mkfs.fat -n {{volume_name}} {{/dev/sdXY}}`
 
 - Create filesystem with a volume-id:
 
-`mkfs.fat -i {{volume_id}} {{/dev/sdXY}}`
+`sudo mkfs.fat -i {{volume_id}} {{/dev/sdXY}}`
 
-- Use 5 instead of 2 file allocation tables:
+- Use 4 instead of 2 file allocation tables:
 
-`mkfs.fat -f 5 {{/dev/sdXY}}`
+`sudo mkfs.fat -f 4 {{/dev/sdXY}}`
 
 - Specify filesystem type:
 
-`mkfs.fat -F {{12|16|32}} {{/dev/sdXY}}`
+`sudo mkfs.fat -F {{12|16|32}} {{/dev/sdXY}}`

@@ -5,8 +5,8 @@
 
 - Jalankan program pengalokasi partisi terhadap suatu perangkat penyimpanan keras:
 
-`cfdisk {{/dev/sdX}}`
+`sudo cfdisk {{/dev/sdX}}`
 
 - Buat kemudian kelola tabel partisi baru terhadap suatu perangkat penyimpanan keras:
 
-`cfdisk {{[-z|--zero]}} {{/dev/sdX}}`
+`sudo cfdisk {{[-z|--zero]}} {{/dev/sdX}}`

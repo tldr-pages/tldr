@@ -2,7 +2,7 @@
 
 > Change details about an author identity. Since this command rewrites the Git history, `--force` will be needed when pushing next time.
 > Part of `git-extras`.
-> More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-reauthor>.
+> More information: <https://github.com/tj/git-extras/blob/main/Commands.md#git-reauthor>.
 
 - Change an author's email and name across the whole Git repository:
 

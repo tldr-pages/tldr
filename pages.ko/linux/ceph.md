@@ -1,7 +1,7 @@
 # ceph
 
 > 통합 스토리지 시스템.
-> 더 많은 정보: <https://ceph.io/en>.
+> 더 많은 정보: <https://docs.ceph.com/en/latest/man/8/ceph/>.
 
 - 클러스터 상태 확인:
 

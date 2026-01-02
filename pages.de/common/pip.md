@@ -2,7 +2,7 @@
 
 > Python package manager.
 > Einige Unterbefehle wie `pip install` sind separat dokumentiert.
-> Weitere Informationen: <https://pip.pypa.io>.
+> Weitere Informationen: <https://pip.pypa.io/en/stable/cli/pip/>.
 
 - Installiere ein Paket (siehe `pip install` für weitere Beispiele):
 

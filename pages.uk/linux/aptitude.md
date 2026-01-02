@@ -1,15 +1,15 @@
 # aptitude
 
 > Утиліта керування пакетами Debian і Ubuntu.
-> Більше інформації: <https://manned.org/aptitude.8>.
+> Більше інформації: <https://manned.org/aptitude>.
 
 - Синхронізувати список доступних пакетів і версій. Це слід запустити спочатку, перш ніж запускати наступні команди aptitude:
 
-`aptitude update`
+`sudo aptitude update`
 
 - Встановити новий пакет і його залежності:
 
-`aptitude install {{пакет}}`
+`sudo aptitude install {{пакет}}`
 
 - Шукати пакет:
 
@@ -21,16 +21,16 @@
 
 - Видалити пакет і всі залежні від нього пакети:
 
-`aptitude remove {{пакет}}`
+`sudo aptitude remove {{пакет}}`
 
 - Оновити встановлені пакети до найновіших доступних версій:
 
-`aptitude upgrade`
+`sudo aptitude upgrade`
 
 - Оновити встановлені пакети (як `aptitude upgrade`) включно з видаленням застарілих пакетів і встановленням додаткових, щоб відповідати новим залежностям пакетів:
 
-`aptitude full-upgrade`
+`sudo aptitude full-upgrade`
 
 - Затримати встановлений пакет, щоб уникнути його автоматичного оновлення:
 
-`aptitude hold '?installed({{пакет}})'`
+`sudo aptitude hold '?installed({{пакет}})'`

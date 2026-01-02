@@ -1,7 +1,7 @@
 # textql
 
 > Execute SQL against structured text like CSV or TSV files.
-> More information: <https://github.com/dinedal/textql>.
+> More information: <https://github.com/dinedal/textql#usage>.
 
 - Print the lines in the specified CSV file that match an SQL query to `stdout`:
 

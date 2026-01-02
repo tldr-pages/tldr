@@ -1,9 +1,9 @@
 # anki
 
 > Programme de cartes mémo-techniques, puissant et intelligent.
-> Plus d'informations : <https://docs.ankiweb.net>.
+> Plus d'informations : <https://manned.org/anki>.
 
-- Lancer `anki`:
+- Lancer `anki` :
 
 `anki`
 
@@ -15,6 +15,6 @@
 
 `anki -l {{langue}}`
 
-- Lancer `anki` depuis un dossier spécifique au lieu de celui par défaut (`~/Anki`):
+- Lancer `anki` depuis un dossier spécifique au lieu de celui par défaut (`~/Anki`) :
 
 `anki -b {{chemin/vers/dossier}}`

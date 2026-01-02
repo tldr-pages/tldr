@@ -1,7 +1,7 @@
 # kotlinc
 
 > Kotlin 컴파일러.
-> 더 많은 정보: <https://kotlinlang.org/docs/command-line.html>.
+> 더 많은 정보: <https://kotlinlang.org/docs/compiler-reference.html#common-options>.
 
 - REPL (대화형 셸) 시작:
 

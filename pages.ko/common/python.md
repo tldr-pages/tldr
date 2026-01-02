@@ -1,7 +1,7 @@
 # python
 
 > Python 언어 인터프리터.
-> 더 많은 정보: <https://www.python.org>.
+> 더 많은 정보: <https://docs.python.org/using/cmdline.html>.
 
 - REPL(대화형 셸) 시작:
 

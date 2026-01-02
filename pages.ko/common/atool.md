@@ -1,7 +1,7 @@
 # atool
 
 > 다양한 형식의 압축 파일을 관리합니다.
-> 더 많은 정보: <https://www.nongnu.org/atool/>.
+> 더 많은 정보: <https://manned.org/atool>.
 
 - Zip 압축 파일의 파일 목록 표시:
 

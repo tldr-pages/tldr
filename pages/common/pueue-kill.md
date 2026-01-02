@@ -1,7 +1,7 @@
 # pueue kill
 
 > Kill running tasks or whole groups.
-> More information: <https://github.com/Nukesor/pueue>.
+> More information: <https://github.com/Nukesor/pueue#how-to-use-it>.
 
 - Kill all tasks in the default group:
 

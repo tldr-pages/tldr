@@ -1,7 +1,7 @@
 # darling
 
 > Запускать программы для macOS в Linux.
-> Больше информации: <https://darlinghq.org>.
+> Больше информации: <https://docs.darlinghq.org/darling-shell.html>.
 
 - Запустить встроенную команду:
 

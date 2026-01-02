@@ -2,7 +2,7 @@
 
 > Instagram에서 사진, 비디오, 캡션 및 기타 메타데이터를 다운로드.
 > 참고: 고품질 미디어 다운로드를 위해 Instagram 로그인 정보가 필요합니다.
-> 더 많은 정보: <https://instaloader.github.io>.
+> 더 많은 정보: <https://instaloader.github.io/cli-options.html>.
 
 - 프로필 다운로드:
 

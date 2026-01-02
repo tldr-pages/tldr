@@ -1,7 +1,7 @@
 # xfreerdp
 
 > Free Remote Desktop Protocol 구현체.
-> 더 많은 정보: <https://www.freerdp.com>.
+> 더 많은 정보: <https://github.com/FreeRDP/FreeRDP/wiki/CommandLineInterface-(possibly-not-up-to-date,-check-application-help-text-for-most-up-to-date-version)>.
 
 - FreeRDP 서버에 연결:
 

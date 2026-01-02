@@ -1,7 +1,7 @@
 # gdb
 
 > GNU Debugger, alat pengawakutu program komputer.
-> Informasi lebih lanjut: <https://www.gnu.org/software/gdb>.
+> Informasi lebih lanjut: <https://sourceware.org/gdb/current/onlinedocs/gdb#Invocation>.
 
 - Jalankan pengawakutu pada sebuah berkas program yang dapat dieksekusi:
 

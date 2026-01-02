@@ -2,7 +2,7 @@
 
 > Migrate a virtual machine.
 > Used to create a new migration task.
-> More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
+> More information: <https://pve.proxmox.com/pve-docs/qm.1.html#cli_qm_migrate>.
 
 - Migrate a specific virtual machine:
 

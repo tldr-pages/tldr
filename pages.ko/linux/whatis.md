@@ -1,6 +1,7 @@
 # whatis
 
 > 매뉴얼 페이지에서 한 줄 설명을 표시합니다.
+> 같이 보기: `man`, `whereis`.
 > 더 많은 정보: <https://manned.org/whatis>.
 
 - 매뉴얼 페이지에서 설명을 표시:

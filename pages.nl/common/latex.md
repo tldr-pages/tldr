@@ -1,7 +1,7 @@
 # latex
 
 > Compileer een DVI-document van LaTeX bronbestanden.
-> Meer informatie: <https://www.latex-project.org>.
+> Meer informatie: <https://texdoc.org/serve/tex.man1.pdf/0>.
 
 - Compileer een DVI-document:
 

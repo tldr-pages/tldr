@@ -2,7 +2,7 @@
 
 > Een contextuele webscanner voor het bruteforcen van API-paden en web-endpoints met behulp van woordenlijsten.
 > Het `brute` subcommando richt zich op een of meerdere hosts.
-> Meer informatie: <https://github.com/assetnote/kiterunner>.
+> Meer informatie: <https://github.com/assetnote/kiterunner#usage>.
 
 - Bruteforce een doel met een Assetnote woordenlijst (bijvoorbeeld de eerste 20.000 API routes):
 

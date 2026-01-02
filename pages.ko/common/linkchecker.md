@@ -1,7 +1,7 @@
 # linkchecker
 
 > HTML 문서 및 웹사이트의 깨진 링크를 확인하는 명령줄 클라이언트.
-> 더 많은 정보: <https://linkchecker.github.io/linkchecker/>.
+> 더 많은 정보: <https://linkchecker.github.io/linkchecker/man/linkchecker.html>.
 
 - <https://example.com/>에서 깨진 링크 찾기:
 

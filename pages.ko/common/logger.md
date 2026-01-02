@@ -1,7 +1,7 @@
 # logger
 
 > 메시지를 syslog (/var/log/syslog)에 추가.
-> 더 많은 정보: <https://manned.org/logger>.
+> 더 많은 정보: <https://manned.org/logger.1p>.
 
 - 메시지를 syslog에 기록:
 

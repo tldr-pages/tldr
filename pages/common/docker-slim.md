@@ -1,24 +1,7 @@
 # docker-slim
 
-> Analyze and optimize Docker images.
-> More information: <https://github.com/slimtoolkit/slim>.
+> This command is an alias of `slim`.
 
-- Start DockerSlim on interactive mode:
+- View documentation for the original command:
 
-`docker-slim`
-
-- Analyze Docker layers from a specific image:
-
-`docker-slim xray --target {{image:tag}}`
-
-- Lint a Dockerfile:
-
-`docker-slim lint --target {{path/to/Dockerfile}}`
-
-- Analyze and generate an optimized Docker image:
-
-`docker-slim build {{image:tag}}`
-
-- Display help for a subcommand:
-
-`docker-slim {{subcommand}} --help`
+`tldr slim`

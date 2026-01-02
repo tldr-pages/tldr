@@ -2,7 +2,7 @@
 
 > Utilitaire de téléchargement.
 > Supporte HTTP(S), FTP, SFTP, BitTorrent, et Metalink.
-> Plus d'informations : <https://aria2.github.io>.
+> Plus d'informations : <https://aria2.github.io/manual/en/html/aria2c.html>.
 
 - Télécharge depuis une URI vers un fichier :
 
@@ -10,15 +10,15 @@
 
 - Télécharge un fichier via l'url spécifié en choisissant le nom de ce dernier :
 
-`aria2c --out {{nom_de_fichier}} "{{url}}"`
+`aria2c {{[-o|--out]}} {{nom_de_fichier}} "{{url}}"`
 
 - Télécharge plusieurs fichiers (différents) en parallèle :
 
-`aria2c --force-sequential {{false}} "{{url1 url2 ...}}"`
+`aria2c {{[-Z|--force-sequential=true]}} {{"url1" "url2" ...}}`
 
 - Télécharge depuis plusieurs sources avec chaque URI pointant vers le même fichier :
 
-`aria2c "{{url1 url2 ...}}"`
+`aria2c {{"url1" "url2" ...}}`
 
 - Télécharge les URIs listées dans un fichier avec un nombre limité de téléchargements en parallèle :
 
@@ -26,7 +26,7 @@
 
 - Télécharge avec plusieurs connections :
 
-`aria2c --split {{nombre_de_connections}} "{{url}}"`
+`aria2c {{[-s|--split]}} {{nombre_de_connections}} "{{url}}"`
 
 - Téléchargement FTP avec nom d'utilisateur et mot de passe :
 

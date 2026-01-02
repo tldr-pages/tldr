@@ -1,6 +1,7 @@
 # passwd
 
 > Change a user's password.
+> See also: `chpasswd`.
 > More information: <https://manned.org/passwd>.
 
 - Change the password of the current user interactively:
@@ -9,7 +10,7 @@
 
 - Change the password of a specific user:
 
-`passwd {{username}}`
+`sudo passwd {{username}}`
 
 - Get the current status of the user:
 

@@ -2,7 +2,7 @@
 
 > Motor de búsqueda sin conexión para documentación.
 > Soporta páginas de manuales, Arch Wiki, Gentoo Wiki, documentación de FreeBSD y tldr-pages.
-> Más información: <https://github.com/filiparag/wikiman>.
+> Más información: <https://github.com/filiparag/wikiman#usage>.
 
 - Busca un tema específico en todas las fuentes instaladas:
 

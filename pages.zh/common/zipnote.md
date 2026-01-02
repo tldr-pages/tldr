@@ -2,7 +2,7 @@
 
 > 查看、添加或编辑 Zip 压缩包的注释。
 > 文件在 Zip 压缩包中也可以被重命名。
-> 更多信息：<https://manned.org/zipnote>.
+> 更多信息：<https://manned.org/zipnote>。
 
 - 查看 Zip 压缩包中的注释：
 

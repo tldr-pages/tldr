@@ -1,7 +1,7 @@
 # gdebi
 
 > `.deb` 파일을 쉽게 설치합니다.
-> 더 많은 정보: <https://www.commandlinux.com/man-page/man1/gdebi.1.html>.
+> 더 많은 정보: <https://manned.org/gdebi>.
 
 - 로컬 `.deb` 패키지를 설치하고 의존성을 해결하여 설치:
 

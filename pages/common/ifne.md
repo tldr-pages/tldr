@@ -5,8 +5,8 @@
 
 - Run the specified command if and only if `stdin` is not empty:
 
-`ifne {{command options ...}}`
+`ifne {{command}} {{command_options}}`
 
 - Run the specified command if and only if `stdin` is empty, otherwise pass `stdin` to `stdout`:
 
-`ifne -n {{command options ...}}`
+`ifne -n {{command}} {{command_options}}`

@@ -9,8 +9,8 @@
 
 - Run a specific command:
 
-`robo {{foo}}`
+`robo {{command}}`
 
 - Simulate running a specific command:
 
-`robo --simulate {{foo}}`
+`robo --simulate {{command}}`

@@ -1,7 +1,8 @@
 # awk
 
 > 一种用于文件处理的通用编程语言。
-> 更多信息：<https://github.com/onetrueawk/awk>.
+> 另请参阅：`gawk`。
+> 更多信息：<https://github.com/onetrueawk/awk>。
 
 - 以空格为分隔符，打印文件每行第五列（也称作字段）：
 

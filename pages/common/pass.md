@@ -2,11 +2,11 @@
 
 > Store and read passwords or other sensitive data.
 > All data is GPG-encrypted, and managed with a Git repository.
-> More information: <https://www.passwordstore.org>.
+> More information: <https://git.zx2c4.com/password-store/about/>.
 
 - Initialize (or re-encrypt) the storage using one or more GPG IDs:
 
-`pass init {{gpg_id_1}} {{gpg_id_2}}`
+`pass init {{gpg_id_1 gpg_id_2 ...}}`
 
 - Save a new password and additional information (press `<Ctrl d>` on a new line to complete):
 

@@ -3,7 +3,7 @@
 > Manajer paket untuk distribusi Linux RHEL, Fedora, dan CentOS (pengganti dnf5, yang juga dirancang sebagai pengganti yum).
 > DNF5 adalah hasil penulisan ulang program manajemen paket DNF dalam C++ dengan performa yang lebih baik dan ukuran program yang lebih kecil.
 > Lihat <https://wiki.archlinux.org/title/Pacman/Rosetta> untuk daftar perintah dalam manajer paket lain yang menyerupai perintah `dnf5`.
-> Informasi lebih lanjut: <https://dnf5.readthedocs.io>.
+> Informasi lebih lanjut: <https://dnf5.readthedocs.io/en/latest/commands/index.html>.
 
 - Perbarui seluruh paket yang terpasang ke versi terbaru:
 

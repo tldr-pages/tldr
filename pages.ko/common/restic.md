@@ -1,7 +1,7 @@
 # restic
 
 > 빠르고 안전한 백업 프로그램.
-> 더 많은 정보: <https://restic.net>.
+> 더 많은 정보: <https://restic.readthedocs.io/en/stable/manual_rest.html#usage-help>.
 
 - 지정된 로컬 디렉터리에 백업 저장소 초기화:
 

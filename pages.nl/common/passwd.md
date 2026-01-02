@@ -1,6 +1,7 @@
 # passwd
 
 > Verander het wachtwoord van een gebruiker.
+> Zie ook: `chpasswd`.
 > Meer informatie: <https://manned.org/passwd>.
 
 - Verander het wachtwoord van de huidige gebruiker interactief:
@@ -9,7 +10,7 @@
 
 - Verander het wachtwoord van een specifieke gebruiker:
 
-`passwd {{gebruikersnaam}}`
+`sudo passwd {{gebruikersnaam}}`
 
 - Toon de huidige status van de gebruiker:
 

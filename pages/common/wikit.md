@@ -1,7 +1,7 @@
 # wikit
 
 > Easily get Wikipedia summaries.
-> More information: <https://github.com/KorySchneider/wikit>.
+> More information: <https://github.com/KorySchneider/wikit#usage>.
 
 - Show a short summary of a specific topic on Wikipedia:
 

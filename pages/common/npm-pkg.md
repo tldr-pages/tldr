@@ -1,7 +1,7 @@
 # npm pkg
 
 > Show or modify `package.json` properties.
-> More information: <https://docs.npmjs.com/cli/npm-pkg>.
+> More information: <https://docs.npmjs.com/cli/npm-pkg/>.
 
 - Get the value of a specific property:
 
@@ -9,7 +9,7 @@
 
 - Get multiple properties at once:
 
-`npm pkg get {{name version ...}}`
+`npm pkg get {{name|version|...}}`
 
 - Get multiple values across all workspaces:
 

@@ -1,7 +1,7 @@
 # xed
 
 > Cinnamon 데스크탑 환경에서 파일 편집.
-> 더 많은 정보: <https://github.com/linuxmint/xed>.
+> 더 많은 정보: <https://manned.org/xed>.
 
 - 편집기 시작:
 

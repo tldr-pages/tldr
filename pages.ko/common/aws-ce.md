@@ -1,7 +1,7 @@
 # aws ce
 
 > AWS Cost Explorer 서비스를 통한 비용 관리 작업 수행합니다.
-> 더 많은 정보: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ce/index.html>.
+> 더 많은 정보: <https://docs.aws.amazon.com/cli/latest/reference/ce/>.
 
 - 이상 모니터 생성:
 

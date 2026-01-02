@@ -1,7 +1,7 @@
 # pdfgrep
 
 > PDF 파일에서 텍스트 검색.
-> 더 많은 정보: <https://pdfgrep.org>.
+> 더 많은 정보: <https://pdfgrep.org/doc.html>.
 
 - PDF에서 패턴과 일치하는 줄 찾기:
 

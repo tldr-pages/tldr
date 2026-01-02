@@ -1,7 +1,7 @@
 # git cliff
 
 > A highly customizable changelog generator.
-> More information: <https://git-cliff.org/docs/usage/args>.
+> More information: <https://git-cliff.org/docs/usage/args/>.
 
 - Generate a changelog from all commits in a Git repository and save it to `CHANGELOG.md`:
 

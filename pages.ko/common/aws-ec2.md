@@ -2,7 +2,7 @@
 
 > AWS EC2 인스턴스 및 볼륨 관리.
 > AWS EC2는 더 빠른 애플리케이션 개발과 배포를 위해 AWS 클라우드에서 안전하고 크기 조정이 가능한 컴퓨팅 용량을 제공.
-> 더 많은 정보: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ec2/index.html>.
+> 더 많은 정보: <https://docs.aws.amazon.com/cli/latest/reference/ec2/>.
 
 - 특정 인스턴스의 정보 출력:
 

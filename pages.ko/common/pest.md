@@ -1,7 +1,7 @@
 # pest
 
 > 단순성에 중점을 둔 PHP 테스트 프레임워크.
-> 더 많은 정보: <https://pestphp.com>.
+> 더 많은 정보: <https://pestphp.com/docs/cli-api-reference>.
 
 - 현재 디렉토리에 표준 Pest 구성 초기화:
 

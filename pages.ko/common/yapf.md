@@ -1,7 +1,7 @@
 # yapf
 
 > Python 스타일 가이드 검사기.
-> 더 많은 정보: <https://github.com/google/yapf>.
+> 더 많은 정보: <https://github.com/google/yapf#usage>.
 
 - 변경 사항을 적용하지 않고 변경 사항의 차이를 표시 (드라이런):
 

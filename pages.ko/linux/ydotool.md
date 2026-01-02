@@ -1,7 +1,7 @@
 # ydotool
 
 > 디스플레이 서버와 무관하게 명령을 통해 키보드 및 마우스 입력을 제어.
-> 더 많은 정보: <https://github.com/ReimuNotMoe/ydotool>.
+> 더 많은 정보: <https://github.com/ReimuNotMoe/ydotool#usage>.
 
 - ydotool 데몬을 백그라운드에서 시작:
 

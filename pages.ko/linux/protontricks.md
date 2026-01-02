@@ -1,7 +1,7 @@
 # protontricks
 
 > Proton을 지원하는 게임을 위해 Winetricks 명령을 실행하는 간단한 래퍼.
-> 더 많은 정보: <https://github.com/Matoking/protontricks>.
+> 더 많은 정보: <https://github.com/Matoking/protontricks#usage>.
 
 - protontricks GUI 실행:
 

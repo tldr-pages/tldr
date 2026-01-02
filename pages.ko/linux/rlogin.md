@@ -1,7 +1,7 @@
 # rlogin
 
 > 원격 호스트에 로그인합니다.
-> 더 많은 정보: <https://www.gnu.org/software/inetutils/manual/html_node/rlogin-invocation.html>.
+> 더 많은 정보: <https://www.gnu.org/software/inetutils/manual/inetutils.html#rlogin-invocation>.
 
 - 원격 호스트에 로그인:
 

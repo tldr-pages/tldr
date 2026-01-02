@@ -1,7 +1,7 @@
 # nxc mssql
 
 > Pentest and exploit Microsoft SQL servers.
-> More information: <https://www.netexec.wiki/mssql-protocol>.
+> More information: <https://www.netexec.wiki/mssql-protocol/mssql-passwordspray>.
 
 - Search for valid credentials by trying out every combination in the specified lists of usernames and passwords:
 

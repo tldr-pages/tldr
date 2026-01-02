@@ -1,7 +1,7 @@
 # cmp
 
 > مقایسه بایت به بایت دو فایل.
-> اطلاعات بیشتر: <https://www.gnu.org/software/diffutils/manual/html_node/Invoking-cmp.html>.
+> اطلاعات بیشتر: <https://www.gnu.org/software/diffutils/manual/diffutils.html#Invoking-cmp>.
 
 - نمایش کارکتر و خطی که اولین تفاوت دو فایل در آن یافت شد:
 

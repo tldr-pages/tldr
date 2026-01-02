@@ -1,8 +1,8 @@
 # bpytop
 
-> A resource monitor that shows information about the CPU, memory, disks, network and processes.
+> A resource monitor that shows information about the CPU, memory, disks, network, and processes.
 > A Python version of `bashtop`.
-> More information: <https://github.com/aristocratos/bpytop>.
+> More information: <https://github.com/aristocratos/bpytop#command-line-options>.
 
 - Start `bpytop`:
 

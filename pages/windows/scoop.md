@@ -2,7 +2,7 @@
 
 > The Scoop package manager.
 > Some subcommands such as `bucket` have their own usage documentation.
-> More information: <https://scoop.sh>.
+> More information: <https://github.com/ScoopInstaller/Scoop/wiki/Commands>.
 
 - Install a package:
 

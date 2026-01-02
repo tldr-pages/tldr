@@ -1,7 +1,7 @@
 # larasail
 
 > Manage Laravel on Digital Ocean servers.
-> More information: <https://github.com/thedevdojo/larasail>.
+> More information: <https://github.com/thedevdojo/larasail#setup-your-server>.
 
 - Set up the server with Laravel dependencies using the default PHP version:
 

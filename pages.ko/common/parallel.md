@@ -1,7 +1,7 @@
 # parallel
 
 > 여러 CPU 코어에서 명령 실행.
-> 더 많은 정보: <https://www.gnu.org/software/parallel>.
+> 더 많은 정보: <https://www.gnu.org/software/parallel/man.html>.
 
 - 모든 코어를 사용하여 여러 파일을 동시에 gzip 압축:
 

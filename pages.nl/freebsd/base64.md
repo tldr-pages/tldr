@@ -1,7 +1,7 @@
 # base64
 
 > Codeer of decodeer een bestand of `stdin` naar/van base64, naar `stdout` of een ander bestand.
-> Meer informatie: <https://man.freebsd.org/cgi/man.cgi?query=base64>.
+> Meer informatie: <https://man.freebsd.org/cgi/man.cgi?base64>.
 
 - Codeer een bestand naar `stdout`:
 

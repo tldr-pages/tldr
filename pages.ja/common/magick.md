@@ -3,7 +3,7 @@
 > 画像フォーマットの作成、編集、合成、変換を行います。
 > このツールは、ImageMagick 7+ の `convert` を置き換えるものです。古いツールを version 7+ で使うには、 `magick convert` を参照してください。
 > `mogrify` のようないくつかのサブコマンドには、使用方法についての独自のドキュメントがあります。
-> もっと詳しく: <https://imagemagick.org>。
+> もっと詳しく: <https://imagemagick.org/script/magick.php>。
 
 - 画像フォーマットを変換する:
 

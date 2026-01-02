@@ -1,7 +1,7 @@
 # hyperfine
 
 > A benchmarking tool.
-> More information: <https://github.com/sharkdp/hyperfine/>.
+> More information: <https://manned.org/hyperfine>.
 
 - Run a basic benchmark, performing at least 10 runs:
 

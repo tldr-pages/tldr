@@ -1,17 +1,17 @@
 # dpkg
 
 > Debian pakketbeheerder.
-> Sommige subcommando's zoals `deb` hebben hun eigen gebruiksdocumentatie.
+> Sommige subcommando's zoals `deb` hebben hun eigen documentatie.
 > Voor gelijkwaardige commando's in andere pakket managers, zie <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > Meer informatie: <https://manned.org/dpkg>.
 
 - Installeer een pakket:
 
-`dpkg {{[-i|--install]}} {{pad/naar/bestand.deb}}`
+`sudo dpkg {{[-i|--install]}} {{pad/naar/bestand.deb}}`
 
 - Verwijder een pakket:
 
-`dpkg {{[-r|--remove]}} {{pakket}}`
+`sudo dpkg {{[-r|--remove]}} {{pakket}}`
 
 - Toon geïnstalleerde pakketten:
 
@@ -31,4 +31,4 @@
 
 - Schoon een geïnstalleerd of al verwijderd pakket op, inclusief configuratie:
 
-`dpkg {{[-P|--purge]}} {{pakket}}`
+`sudo dpkg {{[-P|--purge]}} {{pakket}}`

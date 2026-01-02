@@ -1,7 +1,7 @@
 # slackcat
 
 > 파일 및 명령 출력을 Slack에 전달하는 도구.
-> 더 많은 정보: <https://github.com/bcicen/slackcat>.
+> 더 많은 정보: <https://github.com/bcicen/slackcat#usage>.
 
 - 파일을 Slack에 게시:
 

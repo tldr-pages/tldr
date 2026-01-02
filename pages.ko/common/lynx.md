@@ -1,7 +1,7 @@
 # lynx
 
 > 명령줄 웹 브라우저.
-> 더 많은 정보: <https://lynx.browser.org>.
+> 더 많은 정보: <https://manned.org/lynx>.
 
 - 웹사이트 방문:
 

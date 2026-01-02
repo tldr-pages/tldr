@@ -1,7 +1,7 @@
 # envycontrol
 
 > Nvidia Optimus 노트북을 위한 GPU 전환 도구.
-> 더 많은 정보: <https://github.com/bayasdev/envycontrol>.
+> 더 많은 정보: <https://github.com/bayasdev/envycontrol#%EF%B8%8F-usage>.
 
 - 다른 GPU 모드로 전환:
 

@@ -1,7 +1,7 @@
 # ftxdiff
 
 > Compara las diferencias entre dos fuentes.
-> Más información: <https://developer.apple.com/fonts>.
+> Más información: <https://developer.apple.com/fonts/>.
 
 - Envía las diferencias a un archivo de texto específico:
 

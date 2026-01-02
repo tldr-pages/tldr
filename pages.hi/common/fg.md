@@ -1,7 +1,8 @@
 # fg
 
 > कार्य सामने चलाएँ।
-> अधिक जानकारी: <https://manned.org/fg>।
+> यह भी देखें: `jobs`, `bg`, `disown`, `%`।
+> अधिक जानकारी: <https://www.gnu.org/software/bash/manual/bash.html#index-fg>।
 
 - हाल ही में निलंबित किए गए पीछे के कार्य को सामने लाएं:
 

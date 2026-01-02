@@ -1,7 +1,7 @@
 # hexo
 
 > 빠르고, 간단하며 강력한 블로그 프레임워크.
-> 더 많은 정보: <https://hexo.io/>.
+> 더 많은 정보: <https://hexo.io/docs/commands>.
 
 - 웹사이트 초기화:
 

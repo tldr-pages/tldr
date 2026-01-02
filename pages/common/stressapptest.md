@@ -1,7 +1,7 @@
 # stressapptest
 
 > Userspace memory and IO test.
-> More information: <https://github.com/stressapptest/stressapptest>.
+> More information: <https://manned.org/stressapptest>.
 
 - Test the given amount of memory (in Megabytes):
 

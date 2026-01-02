@@ -1,7 +1,7 @@
 # quarto
 
 > An open-source scientific and technical publishing system built on Pandoc.
-> More information: <https://quarto.org/>.
+> More information: <https://quarto.org/docs/reference/projects/options.html>.
 
 - Create a new project:
 
@@ -19,6 +19,6 @@
 
 `quarto preview {{path/to/destination_directory|path/to/file}}`
 
-- Publish a document or project to Quarto Pub, Github Pages, RStudio Connect or Netlify:
+- Publish a document or project to Quarto Pub, Github Pages, RStudio Connect, or Netlify:
 
 `quarto publish {{quarto-pub|gh-pages|connect|netlify}}`

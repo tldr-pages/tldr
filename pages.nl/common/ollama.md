@@ -2,7 +2,7 @@
 
 > Een groot taalmodel-runner.
 > Voor een lijst van beschikbare modellen, zie <https://ollama.com/library>.
-> Meer informatie: <https://github.com/ollama/ollama>.
+> Meer informatie: <https://github.com/ollama/ollama#cli-reference>.
 
 - Start de daemon die vereist is om andere commando's uit te voeren:
 
@@ -18,7 +18,7 @@
 
 - Toon gedownloade modellen:
 
-`ollama list`
+`ollama {{[ls|list]}}`
 
 - Pull een specifiek model:
 

@@ -2,7 +2,7 @@
 
 > ابزار آرشیو کردن.
 > اغلب با یک روش فشرده‌سازی مانند `gzip` یا `bzip2` ترکیب می‌شود.
-> اطلاعات بیشتر: <https://www.gnu.org/software/tar>.
+> اطلاعات بیشتر: <https://www.gnu.org/software/tar/manual/tar.html>.
 
 - [c]ایجاد یک آرشیو و نوشتن آن در یک [f]فایل:
 

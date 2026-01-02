@@ -1,7 +1,7 @@
 # cmp
 
 > Compara due file.
-> Maggiori informazioni: <https://www.gnu.org/software/diffutils/manual/html_node/Invoking-cmp.html>.
+> Maggiori informazioni: <https://www.gnu.org/software/diffutils/manual/diffutils.html#Invoking-cmp>.
 
 - Trova l'indice del primo byte e della prima riga differente tra due file:
 

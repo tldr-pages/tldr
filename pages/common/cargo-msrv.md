@@ -1,7 +1,7 @@
 # cargo msrv
 
 > Manage the Minimum Supported Rust Version (MSRV) of a project.
-> More information: <https://gribnau.dev/cargo-msrv>.
+> More information: <https://gribnau.dev/cargo-msrv/>.
 
 - Display the MSRVs of dependencies (as specified in their `Cargo.toml`):
 

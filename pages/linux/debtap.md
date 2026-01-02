@@ -2,7 +2,7 @@
 
 > Convert Debian packages into Arch Linux packages.
 > See also: `pacman-upgrade`.
-> More information: <https://github.com/helixarch/debtap>.
+> More information: <https://github.com/helixarch/debtap#available-options>.
 
 - Update debtap database (before the first run):
 

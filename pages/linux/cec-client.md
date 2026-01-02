@@ -2,7 +2,7 @@
 
 > Manage serial bus CEC connections.
 > See also: `cec-ctl`.
-> More information: <https://manned.org/man/cec-client>.
+> More information: <https://manned.org/cec-client>.
 
 - List all CEC adapters:
 

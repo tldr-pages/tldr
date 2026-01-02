@@ -2,7 +2,7 @@
 
 > `apx`에서 패키지 관리자를 관리합니다.
 > 참고: 사용자가 생성한 패키지 관리자 구성은 `~/.local/share/apx/pkgmanagers`에 저장됩니다.
-> 더 많은 정보: <https://github.com/Vanilla-OS/apx>.
+> 더 많은 정보: <https://docs.vanillaos.org/docs/en/apx-manpage#pkgmanagers>.
 
 - 새 패키지 관리자 구성을 대화형으로 생성:
 

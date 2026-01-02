@@ -1,7 +1,7 @@
 # nsnake
 
 > 터미널에서 즐기는 Snake 게임.
-> 더 많은 정보: <https://github.com/alexdantas/nsnake/>.
+> 더 많은 정보: <https://github.com/alexdantas/nsnake/#controls>.
 
 - Snake 게임 시작:
 

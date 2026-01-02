@@ -1,7 +1,7 @@
 # jmap
 
 > Java 메모리 맵 도구.
-> 더 많은 정보: <https://docs.oracle.com/en/java/javase/20/docs/specs/man/jmap.html>.
+> 더 많은 정보: <https://docs.oracle.com/en/java/javase/25/docs/specs/man/jmap.html>.
 
 - Java 프로세스에 대한 공유 객체 매핑 출력 (pmap과 유사한 출력):
 

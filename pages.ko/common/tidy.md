@@ -2,7 +2,7 @@
 
 > HTML, XHTML 및 XML 파일을 정리하고 보기 좋게 출력.
 > 참고: `tidy`는 원래 들여쓰기를 보존할 수 없습니다.
-> 더 많은 정보: <https://api.html-tidy.org/tidy/tidylib_api_5.2.0/tidy_cmd.html>.
+> 더 많은 정보: <https://api.html-tidy.org/tidy/tidylib_api_next/group__options__cli.html#gad7a9fcaf7b2a712a82e625e84c042b28>.
 
 - HTML 파일을 보기 좋게 출력:
 

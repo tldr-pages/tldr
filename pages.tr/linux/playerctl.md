@@ -1,7 +1,7 @@
 # playerctl
 
 > Medya oynatıcılarını MPRIS aracılığıyla kumanda edin.
-> Daha fazla bilgi için: <https://github.com/altdesktop/playerctl>.
+> Daha fazla bilgi için: <https://github.com/altdesktop/playerctl#using-the-cli>.
 
 - Oynatmayı aç/kapat:
 

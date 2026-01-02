@@ -2,7 +2,7 @@
 
 > A modern and intuitive terminal-based text editor.
 > You can use your keyboard, but also your mouse to navigate and/or select text.
-> More information: <https://micro-editor.github.io>.
+> More information: <https://github.com/zyedidia/micro#usage>.
 
 - Open a file:
 

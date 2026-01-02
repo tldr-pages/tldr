@@ -1,7 +1,7 @@
 # systemd-hwdb
 
 > Hardware database management tool.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemd-hwdb.html>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemd-hwdb.html>.
 
 - Update the binary hardware database in `/etc/udev`:
 

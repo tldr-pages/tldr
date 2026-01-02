@@ -1,7 +1,7 @@
 # argos-translate
 
 > Python으로 작성된 오픈소스 오프라인 번역 라이브러리 및 CLI 도구.
-> 더 많은 정보: <https://www.argosopentech.com/>.
+> 더 많은 정보: <https://argos-translate.readthedocs.io/en/latest/source/cli.html>.
 
 - 스페인어에서 영어로 번역하려면 번역 쌍을 설치:
 

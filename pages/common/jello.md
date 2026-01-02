@@ -1,7 +1,7 @@
 # jello
 
 > A JSON processor using Python syntax.
-> More information: <https://github.com/kellyjonbrazil/jello>.
+> More information: <https://github.com/kellyjonbrazil/jello#usage>.
 
 - Pretty-print JSON or JSON-Lines data from `stdin` to `stdout`:
 

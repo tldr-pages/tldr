@@ -1,7 +1,7 @@
 # bcomps
 
 > Decompose graphs into their biconnected components.
-> Graphviz filters: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, & `unflatten`.
+> Graphviz filters: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, and `unflatten`.
 > More information: <https://graphviz.org/pdf/bcomps.1.pdf>.
 
 - Decompose one or more graphs into their biconnected components:

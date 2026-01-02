@@ -1,7 +1,7 @@
 # ld
 
 > Menghubungkan file-file obyek berbarengan.
-> Informasi lebih lanjut: <https://sourceware.org/binutils/docs-2.38/ld.html>.
+> Informasi lebih lanjut: <https://sourceware.org/binutils/docs/ld.html>.
 
 - Menghubungkan file obyek tertentu yang tidak memiliki kebergantungan ke suatu executable:
 

@@ -14,3 +14,7 @@
 - Make a HTML document of the full Vulkan information:
 
 `vulkaninfo --html`
+
+- Display help:
+
+`vulkaninfo {{[-h|--help]}}`

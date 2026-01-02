@@ -1,7 +1,8 @@
 # w
 
 > 显示已登录用户及其进程信息。
-> 更多信息：<https://manned.org/w>.
+> 另请参阅：`who`, `users`。
+> 更多信息：<https://manned.org/w>。
 
 - 显示所有当前已登录用户的信息：
 

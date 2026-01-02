@@ -1,7 +1,7 @@
 # cd
 
 > Změnit aktuální pracovní adresář.
-> Více informací: <https://manned.org/cd>.
+> Více informací: <https://www.gnu.org/software/bash/manual/bash.html#index-cd>.
 
 - Přesun do zadaného adresáře:
 

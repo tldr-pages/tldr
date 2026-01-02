@@ -1,7 +1,8 @@
 # ar
 
 > 创建，修改，提取库文件（`.a`, `.so`, `.o`）。
-> 更多信息：<https://manned.org/ar>.
+> 另请参阅：`tar`。
+> 更多信息：<https://manned.org/ar>。
 
 - 从库文件中提取全部成员：
 

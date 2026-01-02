@@ -1,6 +1,7 @@
 # file
 
 > Bepaal bestandstype.
+> Zie ook: `stat`.
 > Meer informatie: <https://manned.org/file>.
 
 - Geef een beschrijving van het type van een bepaald bestand:

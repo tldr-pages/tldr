@@ -1,7 +1,7 @@
 # rvm
 
 > Easily installing, managing, and working with multiple ruby environments.
-> More information: <https://rvm.io>.
+> More information: <https://rvm.io/rvm/cli>.
 
 - Install one or more versions of Ruby:
 

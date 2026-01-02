@@ -1,7 +1,7 @@
 # runsv
 
 > Start and manage a runit service.
-> More information: <https://manned.org/runsv.8>.
+> More information: <https://manned.org/runsv>.
 
 - Start a runit service as the current user:
 

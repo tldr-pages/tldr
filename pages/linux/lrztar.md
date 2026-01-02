@@ -10,16 +10,16 @@
 
 - Same as above, with ZPAQ - extreme compression, but very slow:
 
-`lrztar -z {{path/to/directory}}`
+`lrztar {{[-z|--zpaq]}} {{path/to/directory}}`
 
 - Specify the output file:
 
-`lrztar -o {{path/to/file}} {{path/to/directory}}`
+`lrztar {{[-o|--outfile]}} {{path/to/file}} {{path/to/directory}}`
 
 - Override the number of processor threads to use:
 
-`lrztar -p {{8}} {{path/to/directory}}`
+`lrztar {{[-p|--threads]}} {{8}} {{path/to/directory}}`
 
 - Force overwriting of existing files:
 
-`lrztar -f {{path/to/directory}}`
+`lrztar {{[-f|--force]}} {{path/to/directory}}`

@@ -2,7 +2,8 @@
 
 > Vim (Vi IMproved), 是一個命令列文字編輯器，為不同類型的文字操作提供了多種模式。
 > 在正常模式下按下 `<i>` 進入插入模式。按 `<Esc>` 返回正常模式，可以使用 Vim 指令。
-> 更多資訊：<https://www.vim.org>.
+> 另請參閱：`vimdiff`, `vimtutor`, `nvim`, `gvim`。
+> 更多資訊：<https://www.vim.org/>。
 
 - 打開檔案：
 

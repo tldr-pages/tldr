@@ -1,7 +1,7 @@
 # autorandr
 
 > 화면 레이아웃을 자동으로 변경합니다.
-> 더 많은 정보: <https://github.com/phillipberndt/autorandr>.
+> 더 많은 정보: <https://manned.org/autorandr>.
 
 - 현재 화면 레이아웃 저장:
 

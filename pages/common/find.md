@@ -1,6 +1,7 @@
 # find
 
 > Find files or directories under a directory tree, recursively.
+> See also: `fd`.
 > More information: <https://manned.org/find>.
 
 - Find files by extension:

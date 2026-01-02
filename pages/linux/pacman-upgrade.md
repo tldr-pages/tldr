@@ -1,6 +1,6 @@
 # pacman --upgrade
 
-> Arch Linux package manager utility.
+> Install packages manually from archive files.
 > See also: `pacman`.
 > More information: <https://manned.org/pacman.8>.
 

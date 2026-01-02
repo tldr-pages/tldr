@@ -1,7 +1,8 @@
 # dust
 
 > Dust oferece uma visão geral de quais diretórios estão usando espaço em disco.
-> Mais informações: <https://github.com/bootandy/dust>.
+> Veja também: `du`, `ncdu`.
+> Mais informações: <https://github.com/bootandy/dust#usage>.
 
 - Exibe informações para o diretório atual:
 

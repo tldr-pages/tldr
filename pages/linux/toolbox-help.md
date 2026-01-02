@@ -1,12 +1,12 @@
 # toolbox help
 
-> Display help information about `toolbox`.
-> More information: <https://manned.org/toolbox-help.1>.
+> Display help information about Toolbx.
+> More information: <https://manned.org/toolbox-help>.
 
-- Display the `toolbox` manual:
+- Display the Toolbx manual:
 
 `toolbox help`
 
-- Display the `toolbox` manual for a specific subcommand:
+- Display the Toolbx manual for a specific subcommand:
 
 `toolbox help {{subcommand}}`

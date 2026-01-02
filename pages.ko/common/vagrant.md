@@ -1,7 +1,7 @@
 # vagrant
 
 > 경량, 재생 가능, 휴대 가능한 개발 환경 관리 도구.
-> 더 많은 정보: <https://www.vagrantup.com>.
+> 더 많은 정보: <https://developer.hashicorp.com/vagrant/docs/cli>.
 
 - 현재 디렉토리에 기본 Vagrant 박스로 Vagrantfile 생성:
 

@@ -1,7 +1,7 @@
 # openssl dgst
 
 > OpenSSL 명령어로, 메시지 다이제스트 값을 생성하고 서명 작업을 수행합니다.
-> 더 많은 정보: <https://www.openssl.org/docs/manmaster/man1/openssl-dgst.html>.
+> 더 많은 정보: <https://docs.openssl.org/master/man1/openssl-dgst/>.
 
 - 파일의 SHA256 다이제스트 값을 계산하여 특정 파일에 저장:
 

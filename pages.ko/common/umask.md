@@ -1,7 +1,7 @@
 # umask
 
 > 사용자가 새로 생성하는 파일에 대해 제한되는 읽기/쓰기/실행 권한을 관리.
-> 더 많은 정보: <https://manned.org/umask>.
+> 더 많은 정보: <https://www.gnu.org/software/bash/manual/bash.html#index-umask>.
 
 - 현재 마스크를 8진수 표기법으로 표시:
 

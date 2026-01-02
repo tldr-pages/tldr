@@ -1,7 +1,7 @@
 # todo
 
 > ابزاری ساده و استاندارد برای مدیریت یادداشت و فهرست وظایف.
-> اطلاعات بیشتر: <https://todoman.readthedocs.io>.
+> اطلاعات بیشتر: <https://todoman.readthedocs.io/en/stable/man.html>.
 
 - لیست کارهای آغاز نشده:
 

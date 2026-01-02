@@ -1,7 +1,7 @@
 # kubectl logs
 
 > 컨테이너의 로그를 조회하는 도구.
-> 더 많은 정보: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_logs>.
+> 더 많은 정보: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_logs/>.
 
 - 단일 컨테이너가 있는 파드의 로그 조회:
 
@@ -21,12 +21,12 @@
 
 - `10s`, `5m` 또는 `1h`와 같은 상대 시간 이후의 포드 로그 조회:
 
-`kubectl logs --since={{상대_시간}} {{포드_이름}}`
+`kubectl logs --since {{상대_시간}} {{포드_이름}}`
 
 - 가장 최근의 10개의 포드 로그 조회:
 
-`kubectl logs --tail={{10}} {{포드_이름}}`
+`kubectl logs --tail {{10}} {{포드_이름}}`
 
 - 특정 배포의 모든 포드 로그 조회:
 
-`kubectl logs deployment/{{배포_이름}}`
+`kubectl logs {{[deploy|deployment]}}/{{배포_이름}}`

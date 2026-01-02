@@ -1,7 +1,7 @@
 # javac
 
 > 자바 애플리케이션 컴파일러.
-> 더 많은 정보: <https://docs.oracle.com/en/java/javase/20/docs/specs/man/javac.html>.
+> 더 많은 정보: <https://docs.oracle.com/en/java/javase/25/docs/specs/man/javac.html>.
 
 - `.java` 파일을 컴파일:
 

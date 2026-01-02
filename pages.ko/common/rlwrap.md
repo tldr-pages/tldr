@@ -1,7 +1,7 @@
 # rlwrap
 
 > REPL 명령에 라인 편집, 지속적인 히스토리 및 프롬프트 완성을 추가.
-> 더 많은 정보: <https://github.com/hanslub42/rlwrap>.
+> 더 많은 정보: <https://manned.org/rlwrap>.
 
 - 라인 편집, 지속적인 히스토리 및 프롬프트 완성을 사용하여 REPL 명령 실행:
 
@@ -19,6 +19,6 @@
 
 `rlwrap --complete-filenames {{명령}}`
 
-- 색상이 있는 프롬프트 추가, 색상 이름 또는 ASCI 색상 사양 사용. 대문자 색상 이름은 굵게 스타일링:
+- 색상이 있는 프롬프트 추가, 색상 이름 또는 ANSI 색상 사양 사용. 대문자 색상 이름은 굵게 스타일링:
 
 `rlwrap --prompt-colour={{black|red|green|yellow|blue|cyan|purple|white|colour_spec}} {{명령}}`

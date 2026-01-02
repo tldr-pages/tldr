@@ -1,7 +1,7 @@
 # R
 
 > R 언어 인터프리터.
-> 더 많은 정보: <https://www.r-project.org>.
+> 더 많은 정보: <https://manned.org/R>.
 
 - REPL(대화형 셸) 시작:
 

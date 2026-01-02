@@ -1,7 +1,7 @@
 # do-release-upgrade
 
 > The Ubuntu release upgrader.
-> More information: <https://manned.org/do-release-upgrade.8>.
+> More information: <https://manned.org/do-release-upgrade>.
 
 - Upgrade to the latest release:
 

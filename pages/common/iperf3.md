@@ -1,7 +1,7 @@
 # iperf3
 
 > Traffic generator for testing network bandwidth.
-> More information: <https://iperf.fr>.
+> More information: <https://iperf.fr/iperf-doc.php>.
 
 - Run iperf3 as a server:
 

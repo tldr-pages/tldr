@@ -1,7 +1,7 @@
 # dep
 
 > Strumento di gestione delle dipendenze per progetti Go.
-> Maggiori informazioni: <https://deployer.org>.
+> Maggiori informazioni: <https://deployer.org/docs/8.x/cli>.
 
 - Inizializza la directory corrente come radice di un progetto Go:
 

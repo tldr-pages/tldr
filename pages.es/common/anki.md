@@ -1,7 +1,7 @@
 # anki
 
 > Potente e inteligente programa de flashcards.
-> Más información: <https://docs.ankiweb.net>.
+> Más información: <https://manned.org/anki>.
 
 - Inicia `anki`:
 

@@ -1,7 +1,7 @@
 # grip
 
 > GitHub 기반 Markdown 파일을 로컬에서 미리 볼 수 있음.
-> 더 많은 정보: <https://github.com/joeyespo/grip>.
+> 더 많은 정보: <https://manned.org/grip>.
 
 - 서버를 시작하고 현재 디렉터리의 렌더링된 `README` 파일을 제공:
 

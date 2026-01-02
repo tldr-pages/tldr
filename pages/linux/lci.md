@@ -9,8 +9,8 @@
 
 - Display help:
 
-`lci -h`
+`lci {{[-h|--help]}}`
 
 - Display version:
 
-`lci -v`
+`lci {{[-v|--version]}}`

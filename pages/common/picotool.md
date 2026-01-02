@@ -1,7 +1,7 @@
 # picotool
 
 > Manage Raspberry Pi Pico boards.
-> More information: <https://github.com/raspberrypi/picotool>.
+> More information: <https://github.com/raspberrypi/picotool#overview>.
 
 - Display information about the currently loaded program on a Pico:
 
@@ -23,10 +23,10 @@
 
 `picotool otp list`
 
-- Display version:
-
-`picotool version`
-
 - Display help:
 
 `picotool help`
+
+- Display version:
+
+`picotool version`

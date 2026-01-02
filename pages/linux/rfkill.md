@@ -9,15 +9,15 @@
 
 - Filter by columns:
 
-`rfkill {{[-o|--output]}} {{ID,TYPE,DEVICE}}`
+`rfkill {{[-o|--output]}} {{ID,TYPE,DEVICE,...}}`
 
-- Block devices by type (e.g. bluetooth, wlan):
+- Block devices by type:
 
-`rfkill block {{bluetooth}}`
+`rfkill block {{bluetooth|wifi|gps|nfc|...}}`
 
-- Unblock devices by type (e.g. bluetooth, wlan):
+- Unblock devices by type:
 
-`rfkill unblock {{wlan}}`
+`rfkill unblock {{bluetooth|wifi|gps|nfc|...}}`
 
 - Output in JSON format:
 

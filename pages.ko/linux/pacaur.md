@@ -1,7 +1,7 @@
 # pacaur
 
 > Arch User Repository에서 패키지를 빌드하고 설치하기 위한 Arch Linux 유틸리티.
-> 더 많은 정보: <https://github.com/rmarquis/pacaur>.
+> 더 많은 정보: <https://github.com/rmarquis/pacaur#name>.
 
 - 모든 패키지를 동기화하고 업데이트 (AUR 포함):
 

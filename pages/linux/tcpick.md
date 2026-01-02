@@ -2,9 +2,9 @@
 
 > Packet sniffing and network traffic analysis tool.
 > It can capture and display TCP connections and data. It can also monitor network traffic on a interface, host, or port.
-> More information: <https://manned.org/tcpick.8>.
+> More information: <https://manned.org/tcpick>.
 
-- Capture traffic on a specific interface, port and host::
+- Capture traffic on a specific interface, port, and host:
 
 `sudo tcpick {{[-i|--interface]}} {{interface}} {{[-C|--colors]}} -h {{host}} -p {{port}}`
 

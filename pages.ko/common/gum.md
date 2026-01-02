@@ -1,7 +1,8 @@
 # gum
 
 > 매력적인 쉘 스크립트 만들기.
-> 더 많은 정보: <https://github.com/charmbracelet/gum>.
+> 같이 보기: `whiptail`, `dialog`.
+> 더 많은 정보: <https://github.com/charmbracelet/gum#tutorial>.
 
 - `stdout`으로 출력할 특정 옵션을 대화형으로 선택:
 

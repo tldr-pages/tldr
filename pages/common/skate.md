@@ -1,7 +1,7 @@
 # skate
 
 > Simple and powerful key-value store.
-> More information: <https://github.com/charmbracelet/skate>.
+> More information: <https://manned.org/skate>.
 
 - Store a key and a value on the default database:
 

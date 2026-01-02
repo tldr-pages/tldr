@@ -1,7 +1,7 @@
 # yetris
 
 > 터미널에서 실행되는 테트리스 게임의 클론.
-> 더 많은 정보: <https://github.com/alexdantas/yetris>.
+> 더 많은 정보: <https://github.com/alexdantas/yetris#controls>.
 
 - 테트리스 게임 시작:
 

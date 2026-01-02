@@ -1,7 +1,7 @@
 # pdf-parser
 
 > PDF 파일의 기본 요소를 렌더링 없이 식별.
-> 더 많은 정보: <https://blog.didierstevens.com/programs/pdf-tools>.
+> 더 많은 정보: <https://blog.didierstevens.com/programs/pdf-tools/>.
 
 - PDF 파일의 통계 표시:
 

@@ -1,7 +1,7 @@
 # wasm-opt
 
 > Optimize WebAssembly binary files.
-> More information: <https://github.com/webassembly/binaryen>.
+> More information: <https://manned.org/wasm-opt>.
 
 - Apply default optimizations and write to a given file:
 

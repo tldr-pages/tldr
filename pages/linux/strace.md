@@ -1,23 +1,24 @@
 # strace
 
 > Troubleshooting tool for tracing system calls.
+> See also: `fatrace`.
 > More information: <https://manned.org/strace>.
 
 - Start tracing a specific process by its PID:
 
-`strace {{[-p|--attach]}} {{pid}}`
+`sudo strace {{[-p|--attach]}} {{pid}}`
 
 - Trace a process and filter output by system call [e]xpression:
 
-`strace {{[-p|--attach]}} {{pid}} -e {{system_call,system_call2,...}}`
+`sudo strace {{[-p|--attach]}} {{pid}} -e {{system_call,system_call2,...}}`
 
 - Count time, calls, and errors for each system call and report a summary on program exit:
 
-`strace {{[-p|--attach]}} {{pid}} {{[-c|--summary-only]}}`
+`sudo strace {{[-p|--attach]}} {{pid}} {{[-c|--summary-only]}}`
 
 - Show the time spent in every system call and specify the maximum string size to print:
 
-`strace {{[-p|--attach]}} {{pid}} {{[-T|--syscall-times]}} {{[-s|--string-limit]}} {{32}}`
+`sudo strace {{[-p|--attach]}} {{pid}} {{[-T|--syscall-times]}} {{[-s|--string-limit]}} {{32}}`
 
 - Start tracing a program by executing it:
 

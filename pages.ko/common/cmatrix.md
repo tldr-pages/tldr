@@ -1,7 +1,8 @@
 # cmatrix
 
 > 터미널에 화면과 같이 스크롤링되는 Matrix를 표시.
-> 더 많은 정보: <https://github.com/abishekvashok/cmatrix>.
+> 같이 보기: `cbonsai`, `asciiquarium`, `pipes.sh`.
+> 더 많은 정보: <https://manned.org/cmatrix>.
 
 - 비동기([a]synchronous) 스크롤 활성화:
 

@@ -6,12 +6,12 @@
 
 - Disable a given swap area:
 
-`swapoff {{path/to/file}}`
+`sudo swapoff {{path/to/file}}`
 
 - Disable all swap areas in `/proc/swaps`:
 
-`swapoff {{[-a|--all]}}`
+`sudo swapoff {{[-a|--all]}}`
 
 - Disable a swap partition by its label:
 
-`swapoff -L {{label}}`
+`sudo swapoff -L {{label}}`

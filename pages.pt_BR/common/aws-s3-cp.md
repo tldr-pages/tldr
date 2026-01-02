@@ -1,7 +1,7 @@
 # aws s3 cp
 
 > Copia arquivos locais ou objetos do S3 para outros diretórios locais ou no S3.
-> Mais informações: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/cp.html>.
+> Mais informações: <https://docs.aws.amazon.com/cli/latest/reference/s3/cp.html>.
 
 - Copia um arquivo local para um bucket específico:
 

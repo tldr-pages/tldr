@@ -1,7 +1,7 @@
 # qm showcmd
 
 > Show command-line which is used to start the VM (debug info).
-> More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
+> More information: <https://pve.proxmox.com/pve-docs/qm.1.html#cli_qm_showcmd>.
 
 - Show command-line for a specific virtual machine:
 

@@ -1,13 +1,14 @@
 # man
 
 > Formata e exibe páginas de manual.
+> Veja também: `whatis`, `apropos`.
 > Mais informações: <https://manned.org/man>.
 
 - Exibe a página de manual de um comando:
 
 `man {{comando}}`
 
-- Abre uma página de manua para um comando em um navegadore de internet (a variável de ambiente `BROWSER` pode subistituir `=nome_do_navegador`):
+- Abre uma página de manua para um comando em um navegadore de internet (a variável de ambiente `$BROWSER` pode subistituir `=nome_do_navegador`):
 
 `man {{[-Hnome_do_navegador|--html=nome_do_navegador]}} {{command}}`
 

@@ -1,7 +1,7 @@
 # todo
 
 > A simple, standards-based, cli todo manager.
-> More information: <https://todoman.readthedocs.io>.
+> More information: <https://todoman.readthedocs.io/en/stable/man.html>.
 
 - List startable tasks:
 
@@ -9,7 +9,7 @@
 
 - Add a new task to the work list:
 
-`todo new {{thing_to_do}} --list {{work}}`
+`todo new {{thing_to_do}} {{[-l|--list]}} {{work}}`
 
 - Add a location to a task with a given ID:
 

@@ -2,13 +2,14 @@
 
 > Transfere dados entre o computador local e um servidor.
 > Suporta a maioria dos protocolos de comunicação, incluindo HTTP, HTTPS, FTP, SCP, etc.
+> Veja também: `wcurl`, `wget`.
 > Mais informações: <https://curl.se/docs/manpage.html>.
 
 - Faz um pedido HTTP GET e descarrega os conteúdos em `stdout` (saída padrão):
 
 `curl {{https://example.com}}`
 
-- Faz um pedido HTTP GET, segue redirecionamentos ``3xx` e descarrega os cabeçalhos da resposta e conteúdos para `stdout`:
+- Faz um pedido HTTP GET, segue redirecionamentos `3xx` e descarrega os cabeçalhos da resposta e conteúdos para `stdout`:
 
 `curl {{[-L|--location]}} {{[-D|--dump-header]}} - {{https://example.com}}`
 

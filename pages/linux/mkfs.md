@@ -6,12 +6,12 @@
 
 - Build a Linux ext2 filesystem on a partition:
 
-`mkfs {{/dev/sdXY}}`
+`sudo mkfs {{/dev/sdXY}}`
 
 - Build a filesystem of a specified type:
 
-`mkfs {{[-t|--type]}} {{ext4}} {{/dev/sdXY}}`
+`sudo mkfs {{[-t|--type]}} {{ext4}} {{/dev/sdXY}}`
 
 - Build a filesystem of a specified type and check for bad blocks:
 
-`mkfs -c {{[-t|--type]}} {{ntfs}} {{/dev/sdXY}}`
+`sudo mkfs -c {{[-t|--type]}} {{ntfs}} {{/dev/sdXY}}`

@@ -1,7 +1,7 @@
 # rm
 
 > Remove files or directories.
-> See also: `rmdir`.
+> See also: `rmdir`, `trash`.
 > More information: <https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>.
 
 - Remove specific files:

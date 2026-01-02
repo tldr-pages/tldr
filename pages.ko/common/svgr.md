@@ -1,7 +1,7 @@
 # svgr
 
 > SVG를 React 컴포넌트로 변환.
-> 더 많은 정보: <https://react-svgr.com>.
+> 더 많은 정보: <https://react-svgr.com/docs/options/>.
 
 - SVG 파일을 React 컴포넌트로 변환하여 `stdout`으로 출력:
 

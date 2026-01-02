@@ -1,7 +1,7 @@
 # playerctl
 
 > Bestuur mediaspelers via MPRIS.
-> Meer informatie: <https://github.com/altdesktop/playerctl>.
+> Meer informatie: <https://github.com/altdesktop/playerctl#using-the-cli>.
 
 - Start/stop met afspelen:
 

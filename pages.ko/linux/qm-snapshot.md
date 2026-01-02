@@ -1,7 +1,7 @@
 # qm snapshot
 
 > 가상 머신 스냅샷 생성.
-> 더 많은 정보: <https://pve.proxmox.com/pve-docs/qm.1.html>.
+> 더 많은 정보: <https://pve.proxmox.com/pve-docs/qm.1.html#cli_qm_snapshot>.
 
 - 특정 가상 머신의 스냅샷 생성:
 

@@ -13,7 +13,7 @@
 
 - Add a dependency and enable one or more specific features:
 
-`cargo add {{dependency}} {{[-F|--features]}} {{feature_1}},{{feature_2}}`
+`cargo add {{dependency}} {{[-F|--features]}} {{feature_1,feature_2,...}}`
 
 - Add an optional dependency, which then gets exposed as a feature of the crate:
 

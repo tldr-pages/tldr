@@ -2,7 +2,8 @@
 
 > CPU, 메모리, 디스크, 네트워크 및 프로세스에 대한 정보를 표시하는 리소스 모니터.
 > `bpytop`의 C++ 버전.
-> 더 많은 정보: <https://github.com/aristocratos/btop>.
+> 같이 보기: `btm`, `glances`, `atop`, `htop`, `top`.
+> 더 많은 정보: <https://github.com/aristocratos/btop#command-line-options>.
 
 - `btop` 시작:
 

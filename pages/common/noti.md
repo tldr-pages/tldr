@@ -1,7 +1,7 @@
 # noti
 
 > Monitor a process and trigger a banner notification.
-> More information: <https://github.com/variadico/noti>.
+> More information: <https://github.com/variadico/noti/blob/main/docs/noti.md>.
 
 - Display a notification when tar finishes compressing files:
 

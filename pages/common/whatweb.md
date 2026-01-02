@@ -1,7 +1,7 @@
 # whatweb
 
 > Next-generation web scanner.
-> More information: <https://github.com/urbanadventurer/WhatWeb/>.
+> More information: <https://github.com/urbanadventurer/WhatWeb#usage>.
 
 - Scan websites/targets for web technologies:
 

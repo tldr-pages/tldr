@@ -1,7 +1,7 @@
 # timidity
 
 > MIDI 파일을 재생하고 변환합니다.
-> 더 많은 정보: <https://timidity.sourceforge.net>.
+> 더 많은 정보: <https://manned.org/timidity>.
 
 - MIDI 파일 재생:
 

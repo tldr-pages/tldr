@@ -1,7 +1,7 @@
 # eslint
 
 > Ein erweiterbarer Linter für JavaScript und JSX.
-> Weitere Informationen: <https://eslint.org>.
+> Weitere Informationen: <https://eslint.org/docs/latest/use/command-line-interface>.
 
 - Erstelle eine ESLint-Konfigurationsdatei:
 

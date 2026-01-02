@@ -1,7 +1,7 @@
 # bmon
 
 > 대역폭을 모니터링하고 네트워크 관련 통계를 수집합니다.
-> 더 많은 정보: <https://github.com/tgraf/bmon>.
+> 더 많은 정보: <https://manned.org/bmon>.
 
 - 모든 인터페이스 목록 표시:
 

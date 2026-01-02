@@ -1,7 +1,7 @@
 # pngquant
 
 > PNG 변환기 및 손실 이미지 압축기.
-> 더 많은 정보: <https://pngquant.org/>.
+> 더 많은 정보: <https://manned.org/pngquant>.
 
 - 특정 PNG를 최대한 압축하고 결과를 새 파일로 저장:
 

@@ -2,7 +2,7 @@
 
 > Affiche et concatène le contenu d'un ou plusieurs fichiers.
 > Un clone de `cat` avec mise en valeur de la syntaxe et intégration avec Git.
-> Plus d'informations : <https://github.com/sharkdp/bat>.
+> Plus d'informations : <https://manned.org/bat>.
 
 - Affiche le contenu d'un fichier sur la sortie standard :
 

@@ -1,7 +1,7 @@
 # authconfig
 
 > Configura los recursos de autenticación del sistema.
-> Más información: <https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system-level_authentication_guide/authconfig-install>.
+> Más información: <https://manned.org/authconfig>.
 
 - Muestra la configuración actual (o realiza una simulación):
 

@@ -6,7 +6,7 @@
 
 - 리소스에 대한 정보를 자세히 나열:
 
-`kubectl get {{pod|service|deployment|ingress|...}} {{[-o|--output]}} wide`
+`kubectl get {{pods|service|deployment|ingress|...}} {{[-o|--output]}} wide`
 
 - 지정된 포드에 'unhealthy' 레이블과 'true' 값을 추가:
 
@@ -18,7 +18,7 @@
 
 - 노드 또는 포드의 리소스(CPU/메모리/스토리지) 사용량 표시:
 
-`kubectl top {{pod|node}}`
+`kubectl top {{pods|nodes}}`
 
 - 마스터 및 클러스터 서비스의 주소 출력:
 

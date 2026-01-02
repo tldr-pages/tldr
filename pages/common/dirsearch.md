@@ -1,7 +1,7 @@
 # dirsearch
 
 > Web path scanner.
-> More information: <https://github.com/maurosoria/dirsearch>.
+> More information: <https://github.com/maurosoria/dirsearch#options>.
 
 - Scan a web server for common paths with common extensions:
 

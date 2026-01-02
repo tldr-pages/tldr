@@ -1,7 +1,7 @@
 # webpack
 
 > 웹 프로젝트의 자바스크립트 파일과 기타 리소스를 단일 출력 파일로 묶어줍니다.
-> 더 많은 정보: <https://webpack.js.org>.
+> 더 많은 정보: <https://webpack.js.org/api/cli/>.
 
 - 진입점이 되는 파일에서 단일 출력 파일 생성:
 

@@ -1,7 +1,7 @@
 # xcodes runtimes
 
 > Xcode 시뮬레이터 런타임 관리.
-> 더 많은 정보: <https://github.com/xcodesorg/xcodes>.
+> 더 많은 정보: <https://github.com/xcodesorg/xcodes#commands>.
 
 - 사용 가능한 모든 시뮬레이터 런타임 표시:
 

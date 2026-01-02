@@ -1,7 +1,7 @@
 # git am
 
 > Zastosuj pliki poprawki i utwórz commit. Przydatne przy otrzymywaniu commitów przez email.
-> Zobacz także `git format-patch`, który może generować pliki poprawki.
+> Zobacz także: `git format-patch`.
 > Więcej informacji: <https://git-scm.com/docs/git-am>.
 
 - Zastosuj i komituj zmiany z lokalnego pliku poprawki:
@@ -10,7 +10,7 @@
 
 - Zastosuj i komituj zmiany ze zdalnego pliku poprawki:
 
-`curl {{[-L|--location]}} {{https://example.com/plik.patch}} | git apply`
+`curl {{[-L|--location]}} {{https://example.com/file.patch}} | git am`
 
 - Przerwij proces zastosowania pliku poprawki:
 

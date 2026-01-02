@@ -2,7 +2,7 @@
 
 > Helix, un editor de texto postmoderno, ofrece varios modos para diferentes tipos de manipulación de texto.
 > Al presionar `<i>` entra en modo de inserción. `<Esc>` entra en modo normal, lo que permite el uso de comandos Helix.
-> Más información: <https://helix-editor.com>.
+> Más información: <https://manpages.debian.org/testing/hx/editor.1.en.html>.
 
 - Abre un archivo:
 

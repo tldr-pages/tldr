@@ -1,7 +1,7 @@
 # scrapy
 
 > ウェブクローリングのフレームワークです。
-> もっと詳しく: <https://scrapy.org>。
+> もっと詳しく: <https://docs.scrapy.org/en/latest/topics/commands.html#using-the-scrapy-tool>。
 
 - プロジェクトを作成する:
 

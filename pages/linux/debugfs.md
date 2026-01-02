@@ -15,14 +15,14 @@
 
 `debugfs -f {{path/to/cmd_file}} {{/dev/sdXN}}`
 
-- View the filesystem stats in debugfs console:
+- [Interactive] View the filesystem stats in debugfs console:
 
 `stats`
 
-- Close the filesystem:
+- [Interactive] Close the filesystem:
 
 `close -a`
 
-- List all available commands:
+- [Interactive] List all available commands:
 
 `lr`

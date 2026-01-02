@@ -1,9 +1,9 @@
 # qpdf
 
 > Versatile PDF transformation software.
-> More information: <https://github.com/qpdf/qpdf>.
+> More information: <https://manned.org/qpdf>.
 
-- Extract pages 1-3, 5 and 6-10 from a PDF file and save them as another one:
+- Extract pages 1-3, 5, and 6-10 from a PDF file and save them as another one:
 
 `qpdf --empty --pages {{path/to/input.pdf}} {{1-3,5,6-10}} -- {{path/to/output.pdf}}`
 

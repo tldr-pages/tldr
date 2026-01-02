@@ -9,4 +9,4 @@
 
 - Specify the type of change to log:
 
-`sudo rtmon {{[f|file}} {{link|address|route}}`
+`sudo rtmon {{[f|file]}} {{link|address|route}}`

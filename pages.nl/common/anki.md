@@ -1,7 +1,7 @@
 # anki
 
 > Krachtig, intelligent flashcardprogramma.
-> Meer informatie: <https://docs.ankiweb.net>.
+> Meer informatie: <https://manned.org/anki>.
 
 - Start de GUI:
 

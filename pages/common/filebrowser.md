@@ -1,7 +1,7 @@
 # filebrowser
 
 > Simple HTTP web server to manage files and directories.
-> More information: <https://filebrowser.org>.
+> More information: <https://filebrowser.org/cli/filebrowser.html>.
 
 - Start a new server instance serving the current directory:
 

@@ -3,7 +3,7 @@
 > 친숙하고 빠른 HTTP 요청 전송 도구.
 > 참고: Rust로 작성된 `xh`는 `http`의 효과적인 대체 도구입니다.
 > 같이 보기: `http`, `curl`.
-> 더 많은 정보: <https://github.com/ducaale/xh>.
+> 더 많은 정보: <https://github.com/ducaale/xh#usage>.
 
 - GET 요청 전송:
 

@@ -1,7 +1,7 @@
 # wdiff
 
 > 텍스트 파일 간의 단어 차이를 표시.
-> 더 많은 정보: <https://www.gnu.org/software/wdiff/>.
+> 더 많은 정보: <https://www.gnu.org/software/wdiff/manual/wdiff.html#wdiff-invocation>.
 
 - 두 파일 비교:
 

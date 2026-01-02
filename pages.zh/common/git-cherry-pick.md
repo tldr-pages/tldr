@@ -2,7 +2,7 @@
 
 > 将现有提交的变更应用到当前分支。
 > 如需应用到其他分支，请先用 `git checkout` 切换到目标分支。
-> 更多信息：<https://git-scm.com/docs/git-cherry-pick>.
+> 更多信息：<https://git-scm.com/docs/git-cherry-pick>。
 
 - 将单个提交应用到当前分支：
 

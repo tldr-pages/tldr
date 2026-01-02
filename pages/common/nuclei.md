@@ -1,7 +1,7 @@
 # nuclei
 
 > Fast and customizable vulnerability scanner using a simple YAML-based DSL.
-> More information: <https://docs.projectdiscovery.io/tools/nuclei/running>.
+> More information: <https://docs.projectdiscovery.io/opensource/nuclei/running>.
 
 - Update `nuclei` templates to the latest released version (downloaded to `~/nuclei-templates` on macOS/Linux or `%USERPROFILE%\nuclei-templates` on Windows):
 
@@ -31,6 +31,6 @@
 
 `nuclei {{[-t|-templates]}} {{path/to/nuclei-templates/http}} {{[-u|-target]}} {{https://example.com}} {{[-v|-verbose]}} {{[-o|-output]}} {{path/to/results}}`
 
-- Run a scan based on one or more template conditions:
+- Use an AI prompt to dynamically generate a template to scan a target (projectdiscovery cloud pdcp API key needs to be configured using `nuclei -auth`):
 
-`nuclei {{[-tc|-template-condition]}} "{{contains(tags, 'xss') && contains(tags, 'cve')}}" {{[-u|-target]}} {{https://example.com}}`
+`nuclei {{[-u|-target]}} {{https://example.com}} {{[-ai|-prompt]}} "{{find admin login endpoints}}"`

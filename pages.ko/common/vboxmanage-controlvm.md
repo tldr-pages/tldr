@@ -1,4 +1,4 @@
-# vboxmanage-controlvm
+# VBoxManage controlvm
 
 > 현재 실행 중인 가상 머신의 상태 및 설정 변경.
 > 더 많은 정보: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-controlvm>.

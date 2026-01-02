@@ -1,7 +1,7 @@
 # node
 
 > Platform JavaScript sisi server (Node.js).
-> Informasi lebih lanjut: <https://nodejs.org>.
+> Informasi lebih lanjut: <https://nodejs.org/docs/latest/api/cli.html#options>.
 
 - Jalankan berkas program JavaScript:
 

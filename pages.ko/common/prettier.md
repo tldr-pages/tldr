@@ -1,7 +1,7 @@
 # prettier
 
 > JavaScript, JSON, CSS, YAML 등을 위한 명시적인 코드 포맷 도구.
-> 더 많은 정보: <https://prettier.io/>.
+> 더 많은 정보: <https://prettier.io/docs/cli>.
 
 - 파일 형식을 지정하고 결과를 `stdout`으로 출력:
 

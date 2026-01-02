@@ -1,7 +1,7 @@
 # quarto
 
 > 一个基于 Pandoc 的开源科学和技术出版系统。
-> 更多信息：<https://quarto.org/>.
+> 更多信息：<https://quarto.org/docs/reference/projects/options.html>。
 
 - 创建一个新项目：
 
@@ -13,7 +13,7 @@
 
 - 将输入文件渲染为不同格式：
 
-`quarto render {{路径/到/文件.{{qmd|rmd|ipynb}}}} --to {{html|pdf|docx}}`
+`quarto render {{路径/到/文件.[qmd|rmd|ipynb]}} --to {{html|pdf|docx}}`
 
 - 渲染并预览文档或网站：
 

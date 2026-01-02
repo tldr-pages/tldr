@@ -2,7 +2,8 @@
 
 > Vi IMproved，一个程序员的文本编辑器，提供为不同类型的文档修改设计的多种模式。
 > 按 `<i>` 进入插入模式。`<Esc>` 返回正常模式，正常模式允许使用 Vim 命令。
-> 更多信息：<https://www.vim.org>.
+> 另请参阅：`vimdiff`, `vimtutor`, `nvim`, `gvim`。
+> 更多信息：<https://www.vim.org/>。
 
 - 打开文档：
 

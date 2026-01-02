@@ -1,7 +1,7 @@
 # lerna
 
 > Manage JavaScript projects with multiple packages.
-> More information: <https://lerna.js.org>.
+> More information: <https://lerna.js.org/docs/api-reference/commands>.
 
 - Initialize project files (`lerna.json`, `package.json`, `.git`, etc.):
 

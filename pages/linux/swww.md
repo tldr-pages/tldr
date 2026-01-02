@@ -1,8 +1,7 @@
 # swww
 
 > Efficient animated wallpaper daemon for Wayland.
-> See also: `swww-daemon`.
-> More information: <https://github.com/LGFae/swww>.
+> More information: <https://github.com/LGFae/swww#usage>.
 
 - Set wallpaper:
 

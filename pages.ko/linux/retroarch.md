@@ -2,7 +2,7 @@
 
 > 에뮬레이터, 게임 엔진 및 미디어 플레이어를 위한 프론트엔드.
 > libretro API의 참조 구현.
-> 더 많은 정보: <https://github.com/libretro/RetroArch>.
+> 더 많은 정보: <https://manned.org/retroarch>.
 
 - 메뉴 모드로 시작:
 

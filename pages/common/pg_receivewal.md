@@ -27,7 +27,7 @@
 
 `pg_receivewal --synchronous {{[-D|--directory]}} {{directory}} {{[-h|--host]}} {{host}} {{[-p|--port]}} {{port}} {{[-U|--username]}} {{username}}`
 
-- Compress WAL output (gzip, level 0–9):
+- Compress WAL output (gzip, level 0-9):
 
 `pg_receivewal {{[-Z|--compress]}} {{level|method}} {{[-D|--directory]}} {{directory}} {{[-h|--host]}} {{host}} {{[-p|--port]}} {{port}} {{[-U|--username]}} {{username}}`
 

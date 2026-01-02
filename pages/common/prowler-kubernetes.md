@@ -2,7 +2,7 @@
 
 > Assess Kubernetes cluster security best practices and configurations.
 > See also: `prowler`, `prowler-aws`, `prowler-azure`, `prowler-gcp`, `prowler-m365`, `prowler-github`.
-> More information: <https://docs.prowler.com/projects/prowler-open-source/en/latest/>.
+> More information: <https://docs.prowler.com/user-guide/cli/tutorials/misc>.
 
 - Run the default checks using the default kubeconfig location:
 
@@ -22,7 +22,7 @@
 
 - Run checks for selected Kubernetes services:
 
-`prowler kubernetes {{[-s|--services]}} {{ietcd apiserver ...}}`
+`prowler kubernetes {{[-s|--services]}} {{ietcd|apiserver|...}}`
 
 - Run a specific Kubernetes check:
 
@@ -30,4 +30,4 @@
 
 - Exclude specific checks or services:
 
-`prowler kubernetes {{[-e|--excluded-checks]}} {{etcd_encryption}} --exclude-services {{ietcd apiserver ...}}`
+`prowler kubernetes {{[-e|--excluded-checks]}} {{etcd_encryption}} --exclude-services {{ietcd|apiserver|...}}`

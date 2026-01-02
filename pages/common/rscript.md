@@ -15,6 +15,6 @@
 
 `Rscript -e {{expression1}} -e {{expression2}}`
 
-- Display R version:
+- Display version:
 
 `Rscript --version`

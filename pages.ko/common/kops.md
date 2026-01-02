@@ -1,7 +1,7 @@
 # kops
 
 > Kubernetes 클러스터를 생성, 삭제, 업그레이드 및 유지 관리.
-> 더 많은 정보: <https://github.com/kubernetes/kops/>.
+> 더 많은 정보: <https://kops.sigs.k8s.io/cli/kops/>.
 
 - 구성 사양에서 클러스터 생성:
 

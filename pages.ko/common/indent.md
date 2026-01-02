@@ -1,7 +1,7 @@
 # indent
 
 > 공백을 삽입하거나 삭제하여 a C/C++ 프로그램의 모양을 변경.
-> 더 많은 정보: <https://www.gnu.org/software/indent/>.
+> 더 많은 정보: <https://www.gnu.org/software/indent/manual/indent/Option-Summary.html>.
 
 - Linux 스타일 가이드에 따라 C/C++ 소스 형식을 지정하고, 원본 파일을 자동으로 백업한 후, 들여쓰기된 버전으로 변경:
 

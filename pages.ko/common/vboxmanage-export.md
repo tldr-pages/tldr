@@ -1,4 +1,4 @@
-# vboxmanage-export
+# VBoxManage export
 
 > 가상 머신을 가상 어플라이언스(ISO) 또는 클라우드 서비스로 내보내기.
 > 더 많은 정보: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-export>.

@@ -1,7 +1,7 @@
 # nodemon
 
 > Beobachtet Dateien und startet Node Applikationen automatisch neu, wenn Änderungen erkannt wurden.
-> Weitere Informationen: <https://nodemon.io>.
+> Weitere Informationen: <https://github.com/remy/nodemon/tree/main/doc/cli>.
 
 - Führe die angegebene Datei aus und warte auf Änderungen:
 

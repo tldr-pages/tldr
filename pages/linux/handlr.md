@@ -1,7 +1,7 @@
 # handlr
 
 > Manage your default applications.
-> More information: <https://github.com/chmln/handlr>.
+> More information: <https://github.com/chmln/handlr#usage>.
 
 - Open a URL in the default application:
 

@@ -1,7 +1,7 @@
 # usbip
 
 > 원격으로 USB 장치를 사용합니다.
-> 더 많은 정보: <https://usbip.sourceforge.net>.
+> 더 많은 정보: <https://manned.org/usbip>.
 
 - 모든 로컬 USB 장치와 해당 버스 ID 나열:
 

@@ -1,6 +1,6 @@
 # pacman --sync
 
-> Arch Linux package manager utility.
+> Synchronize packages from remote repositories.
 > See also: `pacman`.
 > More information: <https://manned.org/pacman.8>.
 

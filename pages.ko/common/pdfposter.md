@@ -1,7 +1,7 @@
 # pdfposter
 
 > 큰 시트 PDF를 여러 A4 페이지로 변환하여 인쇄.
-> 더 많은 정보: <https://pdfposter.readthedocs.io>.
+> 더 많은 정보: <https://pdfposter.readthedocs.io/en/stable/Usage.html>.
 
 - A2 포스터를 4개의 A4 페이지로 변환:
 

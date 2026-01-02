@@ -1,6 +1,6 @@
 # spf
 
-> The superfile – Modern terminal file manager.
+> The superfile - Modern terminal file manager.
 > More information: <https://github.com/yorukot/superfile>.
 
 - Launch `spf` with a specific path:

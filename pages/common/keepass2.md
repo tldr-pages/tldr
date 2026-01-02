@@ -1,7 +1,7 @@
 # keepass2
 
 > A light-weight password manager.
-> More information: <https://keepass.info>.
+> More information: <https://manned.org/keepass2>.
 
 - Start KeePass 2, opening the most recently opened password database:
 

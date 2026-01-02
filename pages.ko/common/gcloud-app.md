@@ -2,7 +2,7 @@
 
 > 관리형 서버리스 플랫폼에서 확장 가능한 애플리케이션 구축.
 > 같이 보기: `gcloud`.
-> 더 많은 정보: <https://cloud.google.com/sdk/gcloud/reference/app>.
+> 더 많은 정보: <https://docs.cloud.google.com/sdk/gcloud/reference/app>.
 
 - 애플리케이션의 코드와 구성을 App Engine 서버에 배포:
 

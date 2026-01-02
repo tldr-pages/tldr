@@ -1,7 +1,7 @@
 # replace
 
 > Replace files.
-> See also: `robocopy`, `move`, `copy`, `del`.
+> See also: `robocopy`, `move`, `del`.
 > More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/replace>.
 
 - Replace the destination file with the one from the source directory:

@@ -2,7 +2,7 @@
 
 > Sistema de controle de versão distribuído.
 > Alguns subcomandos, como `commit`, têm sua própria documentação de uso.
-> Mais informações: <https://fossil-scm.org/>.
+> Mais informações: <https://fossil-scm.org/home/help>.
 
 - Executa um subcomando do Fossil:
 

@@ -1,7 +1,7 @@
 # gcc
 
 > Präprozessiert und kompiliert C und C++ Quellcodedateien und linkt diese anschließend zusammen.
-> Weitere Informationen: <https://gcc.gnu.org>.
+> Weitere Informationen: <https://gcc.gnu.org/onlinedocs/gcc/>.
 
 - Kompiliere mehrere Quellcodedateien zu einer ausführbaren Datei:
 

@@ -2,7 +2,7 @@
 
 > Behält den Überblick über die am häufigsten verwendeten Verzeichnisse.
 > Verwendet einen Ranking-Algorithmus, um zum besten Treffer zu navigieren.
-> Weitere Informationen: <https://github.com/ajeetdsouza/zoxide>.
+> Weitere Informationen: <https://manned.org/zoxide>.
 
 - Wechsel zu dem Verzeichnis mit dem höchsten Rang, das "foo" im Namen enthält:
 

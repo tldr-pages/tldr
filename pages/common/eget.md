@@ -1,7 +1,7 @@
 # eget
 
 > Easily install prebuilt binaries from GitHub.
-> More information: <https://github.com/zyedidia/eget>.
+> More information: <https://github.com/zyedidia/eget#usage>.
 
 - Download a prebuilt binary for the current system from a repository on GitHub:
 
@@ -13,11 +13,11 @@
 
 - Specify the location to place the downloaded files:
 
-`eget {{zyedidia/micro}} --to={{path/to/directory}}`
+`eget {{zyedidia/micro}} --to {{path/to/directory}}`
 
 - Specify a Git tag instead of using the latest version:
 
-`eget {{zyedidia/micro}} --tag={{v2.0.10}}`
+`eget {{zyedidia/micro}} {{[-t|--tag]}} {{v2.0.10}}`
 
 - Install the latest pre-release instead of the latest stable version:
 
@@ -25,7 +25,7 @@
 
 - Only download the asset, skipping extraction:
 
-`eget {{zyedidia/micro}} --download-only`
+`eget {{zyedidia/micro}} {{[-d|--download-only]}}`
 
 - Only download if there is a newer release then the currently downloaded version:
 

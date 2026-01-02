@@ -2,7 +2,7 @@
 
 > 클래스의 serialVersionUID를 반환.
 > 기본적으로 보안 관리자를 설정하지 않습니다.
-> 더 많은 정보: <https://docs.oracle.com/en/java/javase/20/docs/specs/man/serialver.html>.
+> 더 많은 정보: <https://docs.oracle.com/en/java/javase/25/docs/specs/man/serialver.html>.
 
 - 클래스의 serialVersionUID 표시:
 

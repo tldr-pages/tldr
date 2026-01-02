@@ -1,7 +1,7 @@
 # settings
 
 > Récupère les informations du système d'exploitation Android.
-> Plus d'informations: <https://web.archive.org/web/20240525010124/https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>..
+> Plus d'informations : <https://web.archive.org/web/20240525010124/https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
 
 - Affiche une liste des paramètres de l'espace de nom `global` :
 

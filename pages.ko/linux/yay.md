@@ -2,7 +2,7 @@
 
 > Yet Another Yogurt: Arch User Repository(AUR)에서 패키지를 빌드하고 설치합니다.
 > 같이 보기: `pacman`.
-> 더 많은 정보: <https://github.com/Jguer/yay>.
+> 더 많은 정보: <https://github.com/Jguer/yay#first-use>.
 
 - 저장소와 AUR에서 패키지를 검색하고 상호작용하며 설치:
 

@@ -1,6 +1,6 @@
 # xzcat
 
-> Bu komut `xz` için bir takma addır.
+> Bu komut `xz --decompress --stdout` için bir takma addır.
 
 - Asıl komutun belgelerini görüntüleyin:
 

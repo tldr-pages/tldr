@@ -1,7 +1,7 @@
 # pygbag
 
 > Package Pygame projects as WebAssembly to run in web browsers.
-> More information: <https://pygame-web.github.io>.
+> More information: <https://github.com/pygame-web/pygbag#pygbag>.
 
 - Package a Pygame project and start a local test server:
 

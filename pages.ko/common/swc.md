@@ -1,7 +1,7 @@
 # swc
 
 > Rust로 작성된 JavaScript 및 TypeScript 컴파일러.
-> 더 많은 정보: <https://swc.rs>.
+> 더 많은 정보: <https://swc.rs/docs/usage/cli>.
 
 - 지정된 입력 파일을 변환하여 `stdout`에 출력:
 

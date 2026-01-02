@@ -1,7 +1,7 @@
-# yadm-list
+# yadm list
 
 > 打印由 `yadm` 管理的文件列表。
-> 更多信息：<https://github.com/TheLocehiliosan/yadm/blob/master/yadm.md#commands>.
+> 更多信息：<https://github.com/TheLocehiliosan/yadm/blob/master/yadm.md#commands>。
 
 - 打印当前目录中由 `yadm` 管理的文件列表：
 

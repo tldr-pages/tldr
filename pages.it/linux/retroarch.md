@@ -2,7 +2,7 @@
 
 > Un frontend per emulatori, motori di gioco e lettori multimediali.
 > L'implementazione di riferimento dell'API libretro.
-> Maggiori informazioni: <https://github.com/libretro/RetroArch>.
+> Maggiori informazioni: <https://manned.org/retroarch>.
 
 - Avvia in modalità menu:
 

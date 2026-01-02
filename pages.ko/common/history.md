@@ -1,7 +1,7 @@
 # history
 
 > 커멘드 라인 히스토리.
-> 더 많은 정보: <https://www.gnu.org/software/bash/manual/html_node/Bash-History-Builtins.html#index-history>.
+> 더 많은 정보: <https://www.gnu.org/software/bash/manual/bash.html#index-history>.
 
 - 줄 번호와 함께 명령 기록 목록을 표시:
 

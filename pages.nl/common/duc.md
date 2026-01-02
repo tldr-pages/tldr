@@ -2,7 +2,7 @@
 
 > Een verzameling van tools voor het indexeren, inspecteren en visualiseren van schijfgebruik.
 > Duc onderhoudt een database van geaccumuleerde groottes van directories van het bestandssysteem, waardoor je deze database kunt raadplegen of mooie grafieken kunt maken om te laten zien waar de data zich bevindt.
-> Meer informatie: <https://duc.zevv.nl/>.
+> Meer informatie: <https://htmlpreview.github.io/?https://github.com/zevv/duc/blob/master/doc/duc.1.html>.
 
 - Indexeer de `/usr` directory en schrijf naar de standaard database locatie ~/.duc.db:
 

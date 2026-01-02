@@ -1,7 +1,7 @@
 # perf
 
 > Linux 성능 카운터 측정을 위한 프레임워크.
-> 더 많은 정보: <https://perf.wiki.kernel.org>.
+> 더 많은 정보: <https://perfwiki.github.io/main/>.
 
 - 명령에 대한 기본 성능 카운터 통계 표시:
 

@@ -1,7 +1,7 @@
 # kubectl version
 
 > Print the client and server version information for the current context.
-> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_version>.
+> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_version/>.
 
 - Print the client and server version information for the current context:
 

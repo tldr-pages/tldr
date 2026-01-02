@@ -1,7 +1,7 @@
 # pacgraph
 
 > 설치된 패키지의 그래프를 PNG/SVG/GUI/콘솔로 그립니다.
-> 더 많은 정보: <https://github.com/keenerd/pacgraph>.
+> 더 많은 정보: <https://manned.org/pacgraph>.
 
 - SVG 및 PNG 그래프 생성:
 

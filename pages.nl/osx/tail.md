@@ -4,9 +4,9 @@
 > Zie ook: `head`.
 > Meer informatie: <https://keith.github.io/xcode-man-pages/tail.1.html>.
 
-- Toon laatste aantal regels in een bestand:
+- Toon de laatste acht regels in een bestand:
 
-`tail -n {{8}} {{pad/naar/bestand}}`
+`tail -n 8 {{pad/naar/bestand}}`
 
 - Toon een bestand vanaf een specifiek regelnummer:
 

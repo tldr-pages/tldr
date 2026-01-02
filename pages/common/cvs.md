@@ -3,7 +3,7 @@
 > Concurrent Versions System, a revision control system.
 > More information: <https://manned.org/cvs>.
 
-- Create a new repository (requires the `CVSROOT` environment variable to be set externally):
+- Create a new repository (requires the `$CVSROOT` environment variable to be set externally):
 
 `cvs -d {{path/to/repository}} init`
 

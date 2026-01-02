@@ -1,8 +1,8 @@
 # pushd
 
 > Tilføj en mappe til mappe-stakken, så den kan tilgås på et senere tidspunkt.
-> Se `popd` for at skifte tilbage til den oprindelige mappe og `dirs` for at vise indholdet af mappe-stakken.
-> Mere information: <https://www.gnu.org/software/bash/manual/html_node/Directory-Stack-Builtins.html#index-pushd>.
+> Se også: `popd`, `dirs`.
+> Mere information: <https://www.gnu.org/software/bash/manual/bash.html#index-pushd>.
 
 - Skift til mappe og tilføj den til mappe-stakken:
 

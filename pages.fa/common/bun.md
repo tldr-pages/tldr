@@ -2,7 +2,7 @@
 
 > یک runtime و toolkit برای جاوا اسکریپت.
 > شامل یک bundler، یک ابزار تست و یک package manager.
-> اطلاعات بیشتر: <https://bun.sh>.
+> اطلاعات بیشتر: <https://bun.com/docs>.
 
 - اجرای یک فایل جاوااسکریپت یا یک اسکریپت در `package.json`:
 

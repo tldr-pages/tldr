@@ -1,7 +1,7 @@
 # fdroidcl
 
 > Manage F-Droid apps of devices connected via ADB.
-> More information: <https://github.com/mvdan/fdroidcl>.
+> More information: <https://github.com/Hoverth/fdroidcl#commands>.
 
 - Fetch the F-Droid index:
 
@@ -27,6 +27,6 @@
 
 `fdroidcl repo add {{repo_name}} {{url}}`
 
-- Remove, enable or disable a repository:
+- Remove, enable, or disable a repository:
 
 `fdroidcl repo {{remove|enable|disable}} {{repo_name}}`

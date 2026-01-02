@@ -1,7 +1,7 @@
 # hello
 
 > "Hello, world!", "hello, world" 또는 사용자 정의 가능한 텍스트를 출력.
-> 더 많은 정보: <https://www.gnu.org/software/hello/manual/html_node/Invoking-hello.html>.
+> 더 많은 정보: <https://www.gnu.org/software/hello/manual/hello.html#Invoking-hello>.
 
 - "Hello, world!" 출력:
 

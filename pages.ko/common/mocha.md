@@ -1,7 +1,7 @@
 # mocha
 
 > 기능이 풍부한 JavaScript 테스트 프레임워크.
-> 더 많은 정보: <https://mochajs.org>.
+> 더 많은 정보: <https://mochajs.org/#command-line-usage>.
 
 - 기본 설정 또는 `mocha.opts`에 구성된 대로 테스트 실행:
 

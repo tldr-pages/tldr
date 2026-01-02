@@ -1,7 +1,12 @@
 # docker container top
 
-> Dit commando is een alias van `docker top`.
+> Toon de lopende processen van een container.
+> Meer informatie: <https://docs.docker.com/reference/cli/docker/container/top/>.
 
-- Bekijk de documentatie van het originele commando:
+- Toon de lopende processen van een container:
 
-`tldr docker top`
+`docker {{[top|container top]}} {{container}}`
+
+- Toon de help:
+
+`docker {{[top|container top]}} --help`

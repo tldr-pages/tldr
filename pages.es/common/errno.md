@@ -9,12 +9,12 @@
 
 - Lista todos los nombres errno, códigos y descripciones:
 
-`errno --list`
+`errno {{[-l|--list]}}`
 
 - Busca código cuya descripción contiene todo el texto dado:
 
-`errno --search {{texto}}`
+`errno {{[-s|--search]}} {{texto}}`
 
 - Busca código cuya descripción contiene todo el texto dado (en todos los locales):
 
-`errno --search-all-locales {{texto}}`
+`errno {{[-S|--search-all-locales]}} {{texto}}`

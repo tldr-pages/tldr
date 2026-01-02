@@ -2,7 +2,7 @@
 
 > Kelola file dengan Git, tanpa memeriksa isi kontennya.
 > Saat file dianeksasi, kontennya dipindahkan ke penyimpanan key-value, dan symlink dibuat yang mengarah ke konten tersebut.
-> Informasi lebih lanjut: <https://git-annex.branchable.com>.
+> Informasi lebih lanjut: <https://git-annex.branchable.com/git-annex/>.
 
 - Inisialisasi sebuah repositori dengan Git annex:
 

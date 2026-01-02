@@ -1,7 +1,7 @@
 # tuxi
 
 > Google 검색 결과와 SERP를 스크래핑하여 즉각적이고 간결한 답변을 제공.
-> 더 많은 정보: <https://github.com/Bugswriter/tuxi>.
+> 더 많은 정보: <https://github.com/Bugswriter/tuxi#usage>.
 
 - Google을 사용하여 검색:
 

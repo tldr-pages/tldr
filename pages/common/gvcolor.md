@@ -1,7 +1,7 @@
 # gvcolor
 
 > Colorize a ranked digraph with a range of colors.
-> Graphviz filters: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, & `unflatten`.
+> Graphviz filters: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, and `unflatten`.
 > More information: <https://graphviz.org/pdf/gvcolor.1.pdf>.
 
 - Colorize one or more ranked digraph (that were already processed by `dot`):

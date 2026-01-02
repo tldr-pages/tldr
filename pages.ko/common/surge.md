@@ -1,7 +1,7 @@
 # surge
 
 > 간단한 웹 게시.
-> 더 많은 정보: <https://surge.sh>.
+> 더 많은 정보: <https://surge.sh/help/>.
 
 - 새로운 사이트를 surge.sh에 업로드:
 

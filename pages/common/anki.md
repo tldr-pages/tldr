@@ -1,7 +1,7 @@
 # anki
 
 > Powerful, intelligent flashcard program.
-> More information: <https://docs.ankiweb.net>.
+> More information: <https://manned.org/anki>.
 
 - Launch the GUI:
 

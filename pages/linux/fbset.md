@@ -1,7 +1,7 @@
 # fbset
 
 > Show and modify frame buffer device settings.
-> More information: <https://manned.org/man/fbset.1>.
+> More information: <https://manned.org/fbset.1>.
 
 - Show current framebuffer settings:
 

@@ -1,6 +1,7 @@
 # file
 
 > Bestimmen des Dateityps.
+> Siehe auch: `stat`.
 > Weitere Informationen: <https://manned.org/file>.
 
 - Gibt eine Beschreibung des Typs der angegebenen Datei zurück. Funktioniert bei Dateien ohne Dateiendung:

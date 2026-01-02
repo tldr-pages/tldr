@@ -2,7 +2,7 @@
 
 > Query the status of network links.
 > Manage the network configuration using `systemd-networkd`.
-> More information: <https://www.freedesktop.org/software/systemd/man/networkctl.html>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/networkctl.html>.
 
 - List existing links with their status:
 
@@ -24,7 +24,7 @@
 
 `networkctl renew {{interface1 interface2 ...}}`
 
-- Reload configuration files (.netdev and .network):
+- Reload configuration files (`.netdev` and `.network`):
 
 `networkctl reload`
 

@@ -2,7 +2,7 @@
 
 > Ripgrep은 재귀적 라인 지향 검색 도구입니다.
 > `grep`의 더 빠른 대안이 되는 것을 목표로 합니다.
-> 더 많은 정보: <https://github.com/BurntSushi/ripgrep>.
+> 더 많은 정보: <https://github.com/BurntSushi/ripgrep/blob/master/GUIDE.md>.
 
 - 현재 디렉토리에서 정규 표현식을 재귀적으로 검색:
 

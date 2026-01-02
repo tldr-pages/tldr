@@ -1,7 +1,7 @@
 # a2enconf
 
 > Debian tabanlı işletim sistemlerinde Apache konfigürasyon dosyasını etkinleştir.
-> Daha fazla bilgi için: <https://manned.org/a2enconf.8>.
+> Daha fazla bilgi için: <https://manned.org/a2enconf>.
 
 - Bir konfigürasyon dosyasını etkinleştir:
 
@@ -9,4 +9,4 @@
 
 - Bilgilendirici mesajları gösterme:
 
-`sudo a2enconf --quiet {{konfigürasyon_dosyası}}`
+`sudo a2enconf {{[-q|--quiet]}} {{konfigürasyon_dosyası}}`

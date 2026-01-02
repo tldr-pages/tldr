@@ -1,6 +1,7 @@
 # zip
 
 > Ferramenta de compressão de arquivos em arquivos zip.
+> Veja também: `unzip`.
 > Mais informações: <https://manned.org/zip>.
 
 - Adiciona arquivos/diretórios a um arquivo zip específico ([r]ecusivamente):

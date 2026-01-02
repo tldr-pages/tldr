@@ -1,4 +1,4 @@
-# virsh-list
+# virsh list
 
 > 가상 머신의 ID, 이름, 상태 나열.
 > 같이 보기: `virsh`.

@@ -1,7 +1,7 @@
 # sysbench
 
 > 시스템의 CPU, IO 및 메모리를 벤치마킹.
-> 더 많은 정보: <https://github.com/akopytov/sysbench/>.
+> 더 많은 정보: <https://github.com/akopytov/sysbench#usage>.
 
 - 1개의 스레드로 10초 동안 CPU 벤치마크 실행:
 

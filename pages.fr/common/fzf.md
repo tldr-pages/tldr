@@ -2,7 +2,7 @@
 
 > Recherche approximative en ligne de commande.
 > Similaire à `sk`.
-> Plus d'informations : <https://github.com/junegunn/fzf>.
+> Plus d'informations : <https://github.com/junegunn/fzf#usage>.
 
 - Lance `fzf` sur tous les fichiers du répertoire spécifié :
 
@@ -20,10 +20,10 @@
 
 `fzf {{[-q|--query]}} "{{query}}"`
 
-- Lance `fzf` sur les entrées qui commencent par core et se terminent par go, rb, ou py :
+- Lance `fzf` sur les entrées qui commencent par `core` et se terminent par `go`, `rb`, ou `py` :
 
 `fzf {{[-q|--query]}} "^core go$ | rb$ | py$"`
 
 - Lance `fzf` sur les entrées qui ne correspondent pas à pyc et qui correspondent exactement à travis :
 
-`fzf {{[-q|--query]}} "!pyc 'travis"`
+`fzf {{[-q|--query]}} '!pyc travis'`

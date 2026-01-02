@@ -1,7 +1,7 @@
 # distccd
 
 > Server daemon for the distcc distributed compiler.
-> More information: <https://distcc.github.io>.
+> More information: <https://manned.org/distccd>.
 
 - Start a daemon with the default settings:
 

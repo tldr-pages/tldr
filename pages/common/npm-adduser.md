@@ -1,7 +1,7 @@
 # npm adduser
 
 > Add a registry user account.
-> More information: <https://docs.npmjs.com/cli/npm-adduser>.
+> More information: <https://docs.npmjs.com/cli/npm-adduser/>.
 
 - Create a new user in the specified registry and save credentials to `.npmrc`:
 
@@ -9,12 +9,12 @@
 
 - Log in to a private registry with a specific scope:
 
-`npm login --scope {{@mycorp}} --registry {{https://registry.mycorp.com}}`
+`npm login --scope {{@organization}} --registry {{https://registry.example.com}}`
 
 - Log out from a specific scope and remove the auth token:
 
-`npm logout --scope {{@mycorp}}`
+`npm logout --scope {{@organization}}`
 
 - Create a scoped package during initialization:
 
-`npm init --scope {{@foo}} {{[-y|--yes]}}`
+`npm init --scope {{@organization}} {{[-y|--yes]}}`

@@ -1,7 +1,7 @@
 # picocom
 
 > 模拟串行端口的极简程序。
-> 更多信息：<https://manned.org/picocom>.
+> 更多信息：<https://manned.org/picocom>。
 
 - 使用默认波特率 9600 连接到串行控制台：
 

@@ -1,8 +1,8 @@
 # git switch
 
 > 切换 Git 分支。要求 Git 版本在 2.23 以上。
-> 另请参阅 `git checkout`。
-> 更多信息：<https://git-scm.com/docs/git-switch>.
+> 另请参阅：`git checkout`。
+> 更多信息：<https://git-scm.com/docs/git-switch>。
 
 - 切换到一个已有的分支：
 

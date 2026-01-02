@@ -13,11 +13,11 @@
 
 - List verbose information about USB devices:
 
-`lsusb {{[-v|--verbose]}}`
+`sudo lsusb {{[-v|--verbose]}}`
 
 - List detailed information about a USB device:
 
-`lsusb {{[-v|--verbose]}} -s {{bus}}:{{device number}}`
+`sudo lsusb {{[-v|--verbose]}} -s {{bus}}:{{device number}}`
 
 - List devices with a specified vendor and product ID only:
 

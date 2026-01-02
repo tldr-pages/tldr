@@ -1,7 +1,7 @@
 # cb
 
 > Cut, copy, and paste anything in the terminal.
-> More information: <https://github.com/Slackadays/Clipboard>.
+> More information: <https://github.com/Slackadays/Clipboard#-7>.
 
 - Show all clipboards:
 

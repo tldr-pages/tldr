@@ -27,7 +27,7 @@
 
 `chainctl images history {{image}}:{{tag}}`
 
-- List package version data from repositories available to your account (e.g., package_name=go):
+- List package version data from repositories available to your account (e.g., package_name=go):
 
 `chainctl packages versions list {{package_name}}`
 

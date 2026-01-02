@@ -1,7 +1,7 @@
 # nyxt
 
 > 키보드 기반으로 작동하는 파워 유저를 위한 웹 브라우저.
-> 더 많은 정보: <https://nyxt.atlas.engineer>.
+> 더 많은 정보: <https://nyxt-browser.com/documentation>.
 
 - 모든 프로필 나열:
 

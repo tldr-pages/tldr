@@ -2,7 +2,7 @@
 
 > Verander de gerapporteerde architectuur voor de uitvoering van een programma, voornamelijk gebruikt om aan te passen hoe programma's zich gedragen op basis van de systeemarchitectuur.
 > Nuttig voor het testen van compatibiliteit of het draaien van oudere toepassingen.
-> Meer informatie: <https://manned.org/setarch.8>.
+> Meer informatie: <https://manned.org/setarch>.
 
 - Voer een commando uit alsof de machine-architectuur `i686` is (handig voor het draaien van 32-bit applicaties op een 64-bit kernel):
 

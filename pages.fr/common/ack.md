@@ -1,8 +1,8 @@
 # ack
 
 > Un outil de recherche comme grep, optimisé pour les développeurs.
-> Regardez aussi : `rg`, qui est beaucoup plus rapide.
-> Plus d'informations : <https://beyondgrep.com/documentation>.
+> Voir aussi : `rg`.
+> Plus d'informations : <https://beyondgrep.com/documentation/>.
 
 - Recherche des fichiers contenant une chaine de caractère ou une expression régulière dans le répertoire courant récursivement :
 

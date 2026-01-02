@@ -1,7 +1,7 @@
 # monodevelop
 
 > C#, F# 등을 위한 크로스 플랫폼 IDE.
-> 더 많은 정보: <https://www.monodevelop.com/>.
+> 더 많은 정보: <https://www.monodevelop.com/documentation/>.
 
 - MonoDevelop 시작:
 

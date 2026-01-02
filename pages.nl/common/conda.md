@@ -1,7 +1,7 @@
 # conda
 
 > Pakket-, afhankelijkheids- en omgevingsbeheer voor alle programmeertalen.
-> Sommige subcommando's zoals `create` hebben hun eigen gebruiksdocumentatie.
+> Sommige subcommando's zoals `create` hebben hun eigen documentatie.
 > Meer informatie: <https://docs.conda.io/projects/conda/en/latest/commands/index.html>.
 
 - Maak een nieuwe omgeving aan en installeer hierin benoemde pakketten:

@@ -1,7 +1,7 @@
 # genfstab
 
 > Arch Linux 설치 스크립트로, fstab 파일에 추가할 수 있는 출력 생성.
-> 더 많은 정보: <https://manned.org/genfstab.8>.
+> 더 많은 정보: <https://manned.org/genfstab>.
 
 - 볼륨 레이블을 기반으로 fstab 호환 출력을 표시:
 

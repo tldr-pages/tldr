@@ -1,7 +1,7 @@
 # choco list
 
 > 使用 Chocolatey 显示包列表。
-> 更多信息：<https://chocolatey.org/docs/commands-list>.
+> 更多信息：<https://docs.chocolatey.org/en-us/choco/commands/list/>。
 
 - 列出所有可用的包：
 
@@ -13,7 +13,7 @@
 
 - 显示包含本地程序的列表：
 
-`choco list --include-programs`
+`choco list {{[-i|--include-programs]}}`
 
 - 只显示已批准的包：
 
@@ -21,7 +21,7 @@
 
 - Specify a custom source to display packages from 指定一个源来显示包列表：
 
-`choco list --source {{源 URL|别名}}`
+`choco list {{[-s|--source]}} {{源 URL|别名}}`
 
 - 提供一个用户名和密码来进行验证：
 

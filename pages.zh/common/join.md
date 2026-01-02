@@ -1,7 +1,7 @@
 # join
 
 > 在两个已排序的文件中根据一个公共字段合并行。
-> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/join-invocation.html>.
+> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/join-invocation.html>。
 
 - 根据第一个（默认）字段合并两个文件：
 

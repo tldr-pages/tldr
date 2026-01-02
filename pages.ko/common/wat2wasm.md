@@ -1,7 +1,7 @@
 # wat2wasm
 
 > WebAssembly 텍스트 형식을 바이너리 형식으로 변환.
-> 더 많은 정보: <https://github.com/WebAssembly/wabt>.
+> 더 많은 정보: <https://webassembly.github.io/wabt/doc/wat2wasm.1.html>.
 
 - 파일을 파싱하고 오류 확인:
 

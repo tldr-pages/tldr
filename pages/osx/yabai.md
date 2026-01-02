@@ -1,7 +1,7 @@
 # yabai
 
 > A tiling window manager for macOS based on binary space partitioning.
-> More information: <https://github.com/koekeishiya/yabai/wiki>.
+> More information: <https://github.com/asmvik/yabai/wiki>.
 
 - Send a config [m]essage for setting the layout:
 

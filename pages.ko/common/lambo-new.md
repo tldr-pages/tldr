@@ -1,7 +1,7 @@
 # lambo new
 
 > Laravel과 Valet을 위한 강력한 `laravel new`.
-> 더 많은 정보: <https://github.com/tighten/lambo>.
+> 더 많은 정보: <https://github.com/tighten/lambo#lambo-commands>.
 
 - 새로운 Laravel 애플리케이션 생성:
 

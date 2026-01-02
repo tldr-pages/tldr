@@ -1,7 +1,7 @@
 # aspell
 
 > Interaktiver Korrekturleser.
-> Weitere Informationen: <http://aspell.net/>.
+> Weitere Informationen: <http://aspell.net/man-html/index.html>.
 
 - Überprüfe eine einzelne Datei auf Fehler:
 

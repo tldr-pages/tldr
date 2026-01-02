@@ -1,7 +1,7 @@
 # pct set
 
 > Set container options.
-> More information: <https://pve.proxmox.com/pve-docs/pct.1.html>.
+> More information: <https://pve.proxmox.com/pve-docs/pct.1.html#cli_pct_set>.
 
 - Set container to start automatically on boot:
 

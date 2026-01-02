@@ -1,7 +1,7 @@
 # picotool
 
 > Gestiona las placas Raspberry Pi Pico.
-> Más información: <https://github.com/raspberrypi/picotool>.
+> Más información: <https://github.com/raspberrypi/picotool#overview>.
 
 - Muestra información sobre el programa cargado actualmente en un Pico:
 

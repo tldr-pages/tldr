@@ -17,7 +17,7 @@
 
 - Execute one or more commands in non-interactive mode:
 
-`newsboat {{[-x|--execute]}} {{reload print-unread ...}}`
+`newsboat {{[-x|--execute]}} {{reload|print-unread|...}}`
 
 - See keyboard shortcuts (the most relevant are visible in the status line):
 

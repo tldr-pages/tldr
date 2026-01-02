@@ -2,7 +2,7 @@
 
 > 현대적이고 직관적인 터미널 기반 텍스트 편집기.
 > 키보드뿐만 아니라 마우스를 사용하여 탐색하거나 텍스트를 선택할 수 있습니다.
-> 더 많은 정보: <https://micro-editor.github.io>.
+> 더 많은 정보: <https://github.com/zyedidia/micro#usage>.
 
 - 파일 열기:
 

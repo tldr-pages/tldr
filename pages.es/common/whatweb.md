@@ -1,7 +1,7 @@
 # whatweb
 
 > Escáner web de nueva generación.
-> Más información: <https://github.com/urbanadventurer/WhatWeb/>.
+> Más información: <https://github.com/urbanadventurer/WhatWeb#usage>.
 
 - Escanea sitios web/objetivos en busca de tecnologías web:
 

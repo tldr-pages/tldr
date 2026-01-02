@@ -2,7 +2,7 @@
 
 > A contextual web scanner for concurrently scanning API paths and web endpoints using kitebuilder wordlists.
 > The `scan` subcommand targets one or multiple hosts with structured API requests.
-> More information: <https://github.com/assetnote/kiterunner>.
+> More information: <https://github.com/assetnote/kiterunner#usage>.
 
 - Scan a target with an Assetnote wordlist (e.g., first 5000 API routes):
 

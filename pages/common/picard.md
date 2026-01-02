@@ -11,6 +11,6 @@
 
 `picard {{path/to/file1.mp3 path/to/file2.mp3 ...}}`
 
-- Display the version of Picard installed:
+- Display version:
 
 `picard {{[-V|--long-version]}}`

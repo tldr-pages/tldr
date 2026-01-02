@@ -2,7 +2,7 @@
 
 > `gzip` 또는 `bzip2`와 유사한 사용자 인터페이스를 가진 무손실 데이터 압축기.
 > Lzip은 "Lempel-Ziv-Markovchain-Algorithm" (LZMA) 스트림 형식의 단순화된 형태를 사용하며 상호 운용성을 극대화하고 안전성을 최적화하기 위해 3단계 무결성 검사를 제공합니다.
-> 더 많은 정보: <https://www.nongnu.org/lzip>.
+> 더 많은 정보: <https://www.nongnu.org/lzip/manual/lzip_manual.html#Invoking-lzip>.
 
 - 파일을 압축하여 원본 파일을 대체:
 

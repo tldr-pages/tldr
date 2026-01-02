@@ -7,11 +7,11 @@
 
 `roll {{3d}}`
 
-- Roll 1 8-sided die, add 3 and sum the results:
+- Roll 1 8-sided die, add 3, and sum the results:
 
 `roll {{d8 + 3}}`
 
-- Roll 4 6-sided dice, keep the 3 highest results and sum the results:
+- Roll 4 6-sided dice, keep the 3 highest results, and sum the results:
 
 `roll {{4d6h3}}`
 

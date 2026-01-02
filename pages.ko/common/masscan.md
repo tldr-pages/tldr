@@ -2,7 +2,7 @@
 
 > 가능한 한 빠르게 스캔하기 위한 네트워크 스캐너.
 > 권한 상승 상태에서 실행하는 것이 가장 좋습니다. Nmap 호환성을 확인하려면 `masscan --nmap`을 실행하세요.
-> 더 많은 정보: <https://github.com/robertdavidgraham/masscan>.
+> 더 많은 정보: <https://manned.org/masscan>.
 
 - IP 또는 네트워크 서브넷에서 포트 80 스캔:
 

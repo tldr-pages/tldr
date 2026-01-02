@@ -1,7 +1,7 @@
 # composer
 
 > PHP 프로젝트의 의존성(dependency)을 기반으로 한 매니저 패키지.
-> 더 많은 정보: <https://getcomposer.org/>.
+> 더 많은 정보: <https://getcomposer.org/doc/03-cli.md>.
 
 - 프로젝트의 의존성(dependency)으로 패키지를 추가합니다, 다음에 추가합니다 `composer.json`:
 

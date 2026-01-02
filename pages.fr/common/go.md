@@ -2,7 +2,7 @@
 
 > Outil de gestion du code source Go.
 > Certaines sous-commandes telles que `build` ont leur propre documentation d'utilisation.
-> Plus d'informations : <https://go.dev/>.
+> Plus d'informations : <https://pkg.go.dev/cmd/go>.
 
 - Télécharger et installer un paquet, spécifié par son chemin d'importation :
 

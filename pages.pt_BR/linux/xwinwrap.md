@@ -1,7 +1,7 @@
 # xwinwrap
 
 > Usa um reprodutor de vídeo ou um programa como plano de fundo.
-> Mais informações: <https://github.com/ujjwal96/xwinwrap>.
+> Mais informações: <https://github.com/r00tdaemon/xwinwrap>.
 
 - Reproduz um vídeo usando mpv:
 

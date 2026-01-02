@@ -1,7 +1,7 @@
 # xgettext
 
 > 코드 파일에서 gettext 문자열 추출.
-> 더 많은 정보: <https://www.gnu.org/software/gettext/manual/html_node/xgettext-Invocation.html>.
+> 더 많은 정보: <https://www.gnu.org/software/gettext/manual/gettext.html#xgettext-Invocation>.
 
 - 파일을 스캔하고 문자열을 `messages.po`에 출력:
 

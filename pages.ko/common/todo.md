@@ -1,7 +1,7 @@
 # todo
 
 > 간단하고 표준 기반의 CLI 할 일 관리 도구.
-> 더 많은 정보: <https://todoman.readthedocs.io>.
+> 더 많은 정보: <https://todoman.readthedocs.io/en/stable/man.html>.
 
 - 시작할 수 있는 작업 목록:
 

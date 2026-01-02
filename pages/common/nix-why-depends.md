@@ -1,7 +1,7 @@
 # nix why-depends
 
 > Show why a package depends on another package.
-> More information: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-why-depends.html>.
+> More information: <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-why-depends.html>.
 
 - Show why the currently running NixOS system requires a certain store path:
 

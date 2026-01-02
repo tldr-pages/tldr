@@ -9,7 +9,7 @@
 
 - Bereken en sla de lijst van BLAKE2 checksums op in een bestand:
 
-`b2sum {{pad/naar/bestand1 pad/naar/bestand2 ...}} > {{pad/naar/bestand.b2}}`
+`b2sum {{pad/naar/bestand1 pad/naar/bestand2 ...}} > {{pad/naar/bestand}}.b2`
 
 - Bereken de BLAKE2 checksum voor `stdin`:
 
@@ -17,15 +17,15 @@
 
 - Lees een bestand van BLAKE2 sums en bestandsnamen en verifieer dat alle bestanden overeenkomende checksums hebben:
 
-`b2sum {{[-c|--check]}} {{pad/naar/bestand.b2}}`
+`b2sum {{[-c|--check]}} {{pad/naar/bestand}}.b2`
 
 - Toon alleen een melding voor missende bestanden of als verificatie faalt:
 
-`b2sum {{[-c|--check]}} --quiet {{pad/naar/bestand.b2}}`
+`b2sum {{[-c|--check]}} --quiet {{pad/naar/bestand}}.b2`
 
 - Toon alleen een melding als een verificatie faalt en negeer missende bestanden:
 
-`b2sum --ignore-missing {{[-c|--check]}} --quiet {{pad/naar/bestand.b2}}`
+`b2sum --ignore-missing {{[-c|--check]}} --quiet {{pad/naar/bestand}}.b2`
 
 - Controleer een bekende BLAKE2 checksum van een bestand:
 

@@ -1,7 +1,7 @@
 # python
 
 > Python 语言解释器。
-> 更多信息：<https://www.python.org>.
+> 更多信息：<https://docs.python.org/using/cmdline.html>。
 
 - 启动 REPL（交互式 shell）：
 
@@ -11,7 +11,7 @@
 
 `python {{路径/到/文件.py}}`
 
-- 执行特定 Python 文件后进入 REPL:
+- 执行特定 Python 文件后进入 REPL：
 
 `python -i {{路径/到/文件.py}}`
 

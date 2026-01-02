@@ -2,7 +2,7 @@
 
 > A large language model runner.
 > For a list of available models, see <https://ollama.com/library>.
-> More information: <https://github.com/ollama/ollama>.
+> More information: <https://github.com/ollama/ollama#cli-reference>.
 
 - Start the daemon required to run other commands:
 
@@ -18,7 +18,7 @@
 
 - List downloaded models:
 
-`ollama list`
+`ollama {{[ls|list]}}`
 
 - Pull a specific model:
 

@@ -1,7 +1,7 @@
 # playerctl
 
 > MPRIS를 통해 미디어 플레이어 제어.
-> 더 많은 정보: <https://github.com/altdesktop/playerctl>.
+> 더 많은 정보: <https://github.com/altdesktop/playerctl#using-the-cli>.
 
 - 재생/일시정지 전환:
 

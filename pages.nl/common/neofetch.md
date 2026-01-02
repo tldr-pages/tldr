@@ -3,7 +3,7 @@
 > Toon informatie over het besturingssysteem, de software en de hardware.
 > Opmerking: `neofetch` wordt niet meer onderhouden.
 > Zie ook: `fastfetch`.
-> Meer informatie: <https://github.com/dylanaraps/neofetch>.
+> Meer informatie: <https://manned.org/neofetch>.
 
 - Toon de standaardconfiguratie en maak deze aan wanneer het programma voor het eerst wordt uitgevoerd:
 

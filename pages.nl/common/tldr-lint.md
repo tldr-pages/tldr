@@ -1,16 +1,21 @@
 # tldr-lint
 
 > Controleer en formatteer `tldr` pagina's.
-> Meer informatie: <https://github.com/tldr-pages/tldr-lint>.
+> Opmerking: `tldrl` kan gebruikt worden als een alias voor `tldr-lint`.
+> Meer informatie: <https://github.com/tldr-pages/tldr-lint#usage>.
 
-- Controleer alle pagina's:
+- Controleer een enkele pagina of alle pagina's in een map:
 
-`tldr-lint {{map_met_paginas}}`
+`tldr-lint {{pad/naar/pagina_of_map}}`
+
+- Negeer specifieke `tldr-lint` foutcodes tijdens het controleren:
+
+`tldr-lint {{[-I|--ignore]}} {{TLDR001,TLDR002,...}}`
 
 - Formatteer een specifieke pagina naar `stdout`:
 
-`tldr-lint --format {{pagina.md}}`
+`tldr-lint {{[-f|--format]}} {{pad/naar/pagina.md}}`
 
-- Formatteer alle pagina's ter plaatse:
+- Formatteer een pagina in place:
 
-`tldr-lint --format --in-place {{map_met_paginas}}`
+`tldr-lint {{[-f|--format]}} {{[-i|--in-place]}} {{pad/naar/pagina.md}}`

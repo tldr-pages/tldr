@@ -1,8 +1,8 @@
 # sed
 
 > स्क्रिप्ट करने योग्य तरीके से टेक्स्ट संपादित करें।
-> देखें: `awk`, `ed`।
-> अधिक जानकारी: <https://www.freebsd.org/cgi/man.cgi?sed>।
+> यह भी देखें: `awk`, `ed`।
+> अधिक जानकारी: <https://man.freebsd.org/cgi/man.cgi?sed>।
 
 - सभी इनपुट लाइनों में `apple` (बेसिक regex) की सभी उपस्थिति को `mango` (बेसिक regex) से बदलें और परिणाम को `stdout` पर प्रिंट करें:
 

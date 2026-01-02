@@ -2,7 +2,7 @@
 
 > 터미널을 기록하고, 애니메이션 GIF 및 웹 플레이어를 생성하며, 선택적으로 <https://terminalizer.com>에 업로드.
 > 같이 보기: `asciinema`.
-> 더 많은 정보: <https://terminalizer.com>.
+> 더 많은 정보: <https://www.terminalizer.com/docs#getting-started>.
 
 - 전역 설정 디렉토리 생성:
 

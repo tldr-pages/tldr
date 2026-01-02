@@ -1,7 +1,7 @@
 # whatwaf
 
 > Detecta y elude cortafuegos de aplicaciones web y sistemas de protección.
-> Más información: <https://github.com/Ekultek/WhatWaf>.
+> Más información: <https://github.com/Ekultek/WhatWaf#basic-help-menu>.
 
 - Detecta protección en una sola [u]RL, opcionalmente utiliza salida verbose:
 

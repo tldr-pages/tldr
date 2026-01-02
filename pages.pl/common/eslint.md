@@ -1,7 +1,7 @@
 # eslint
 
 > Rozszerzalne narzędzie lintowania dla JavaScript i JSX.
-> Więcej informacji: <https://eslint.org>.
+> Więcej informacji: <https://eslint.org/docs/latest/use/command-line-interface>.
 
 - Stwórz plik konfiguracyjny ESlint:
 

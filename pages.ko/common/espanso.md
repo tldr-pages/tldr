@@ -1,7 +1,7 @@
 # espanso
 
 > Rust로 작성된 크로스 플랫폼 텍스트 확장기.
-> 더 많은 정보: <https://espanso.org>.
+> 더 많은 정보: <https://espanso.org/docs/command%20lIne/cli_list/>.
 
 - 상태 확인:
 

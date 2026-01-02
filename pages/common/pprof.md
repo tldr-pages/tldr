@@ -1,7 +1,7 @@
 # pprof
 
 > Visualize and analyze profiling data.
-> More information: <https://github.com/google/pprof>.
+> More information: <https://github.com/google/pprof/tree/main/doc#pprof>.
 
 - Generate a text report from a specific profiling file, on fibbo binary:
 

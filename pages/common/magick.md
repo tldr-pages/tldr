@@ -3,7 +3,7 @@
 > Create, edit, compose, or convert between image formats.
 > This tool replaces `convert` in ImageMagick 7+. See `magick convert` to use the old tool in versions 7+.
 > Some subcommands, such as `mogrify` have their own usage documentation.
-> More information: <https://imagemagick.org>.
+> More information: <https://imagemagick.org/script/magick.php>.
 
 - Convert between image formats:
 

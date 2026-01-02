@@ -2,7 +2,7 @@
 
 > PowerShell command to set content to clipboard.
 > Note: `scb` can be used as an alias for `Set-Clipboard`.
-> More information: <https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/set-clipboard>.
+> More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/set-clipboard>.
 
 - Copy text to the clipboard:
 
@@ -20,6 +20,6 @@
 
 `Set-Clipboard -Path "{{path/to/file1}}","{{path/to/file2}}","{{path/to/file3}}"`
 
-- To clear the clipboard:
+- Clear the clipboard:
 
 `Set-Clipboard ""`

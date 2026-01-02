@@ -17,11 +17,11 @@
 
 - Format an XML document from `stdin`, removing the `DOCTYPE` declaration:
 
-`cat {{path\to\input.xml}} | xml {{[fo|format]}} {{[-D|--dropdtd]}} > {{path/to/output.xml}}`
+`cat {{path/to/input.xml}} | xml {{[fo|format]}} {{[-D|--dropdtd]}} > {{path/to/output.xml}}`
 
 - Format an XML document, omitting the XML declaration:
 
-`xml {{[fo|format]}} {{[-o|--omit-decl]}} {{path\to\input.xml|URI}} > {{path/to/output.xml}}`
+`xml {{[fo|format]}} {{[-o|--omit-decl]}} {{path/to/input.xml|URI}} > {{path/to/output.xml}}`
 
 - Display help:
 

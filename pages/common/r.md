@@ -1,7 +1,7 @@
 # R
 
 > R language interpreter.
-> More information: <https://www.r-project.org>.
+> More information: <https://manned.org/R>.
 
 - Start a REPL (interactive shell):
 
@@ -9,7 +9,7 @@
 
 - Start R in vanilla mode (i.e. a blank session that doesn't save the workspace at the end):
 
-`R {{[-v|--vanilla]}}`
+`R --vanilla`
 
 - Execute a file:
 

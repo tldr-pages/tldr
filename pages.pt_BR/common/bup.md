@@ -1,7 +1,7 @@
 # bup
 
 > Sistema de backup baseado no formato Git packfile, oferecendo salvamentos incrementais e desduplicação global.
-> Mais informações: <https://github.com/bup/bup>.
+> Mais informações: <https://manned.org/bup>.
 
 - Inicializa um repositório de backup no diretório local especificado:
 

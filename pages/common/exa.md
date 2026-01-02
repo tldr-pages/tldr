@@ -11,7 +11,7 @@
 
 `exa {{[-a|--all]}}`
 
-- Long format list (permissions, ownership, size and modification date) of all files:
+- Long format list (permissions, ownership, size, and modification date) of all files:
 
 `exa {{[-l|--long]}} {{[-a|--all]}}`
 

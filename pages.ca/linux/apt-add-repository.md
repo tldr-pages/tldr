@@ -1,20 +1,7 @@
 # apt-add-repository
 
-> Gestiona les definicions del repositori APT.
-> Més informació: <https://manned.org/apt-add-repository.1>.
+> Aquest comandament és un àlies de `add-apt-repository`.
 
-- Afegeix un nou repositori APT:
+- Veure documentació pel comandament original:
 
-`apt-add-repository {{repositori}}`
-
-- Elimina un repositori APT:
-
-`apt-add-repository --remove {{repositori}}`
-
-- Actualiza la memoria cau de paquets després d'afegir un repositori:
-
-`apt-add-repository --update {{repositori}}`
-
-- Activar les fonts de paquets:
-
-`apt-add-repository --enable-source {{repositori}}`
+`tldr add-apt-repository`

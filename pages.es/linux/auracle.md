@@ -1,7 +1,7 @@
 # auracle
 
 > Herramienta de línea de comandos utilizada para interactuar con el repositorio de usuarios de Arch Linux, comúnmente conocido como AUR.
-> Más información: <https://github.com/falconindy/auracle>.
+> Más información: <https://github.com/falconindy/auracle/blob/master/man/auracle.1.pod>.
 
 - Muestra los paquetes del AUR que coinciden con una expresión regular:
 

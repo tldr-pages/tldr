@@ -1,7 +1,7 @@
 # gunicorn
 
 > Python WSGI HTTP 서버.
-> 더 많은 정보: <https://gunicorn.org/>.
+> 더 많은 정보: <https://docs.gunicorn.org/en/latest/run.html>.
 
 - Python 웹 애플리케이션 실행:
 

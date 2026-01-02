@@ -1,7 +1,8 @@
 # grep
 
 > 使用正则表达式查找文件中的模式。
-> 更多信息：<https://www.gnu.org/software/grep/manual/grep.html>.
+> 另请参阅：`regex`。
+> 更多信息：<https://www.gnu.org/software/grep/manual/grep.html>。
 
 - 在文件中查找模式：
 

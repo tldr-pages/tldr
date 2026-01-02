@@ -1,7 +1,7 @@
 # protoc
 
 > Analiza los archivos `.proto` de Google Protobuf y genera la salida en el idioma especificado.
-> Más información: <https://developers.google.com/protocol-buffers>.
+> Más información: <https://manned.org/protoc>.
 
 - Genera código Python a partir de un archivo `.proto`:
 

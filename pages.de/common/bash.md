@@ -2,7 +2,8 @@
 
 > Bourne-Again SHell.
 > `sh`-kompatibler Kommandozeilen-Interpreter.
-> Weitere Informationen: <https://www.gnu.org/software/bash/manual/html_node/Invoking-Bash.html>.
+> Siehe auch: `zsh`, `!`.
+> Weitere Informationen: <https://www.gnu.org/software/bash/manual/bash.html#Invoking-Bash>.
 
 - Interaktive Shell starten:
 

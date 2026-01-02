@@ -1,7 +1,7 @@
 # qm guest passwd
 
 > QEMU/KVM 가상 머신 관리자에서 사용자의 비밀번호 설정.
-> 더 많은 정보: <https://pve.proxmox.com/pve-docs/qm.1.html>.
+> 더 많은 정보: <https://pve.proxmox.com/pve-docs/qm.1.html#cli_qm_guest_passwd>.
 
 - 가상 머신 내 특정 사용자에 대해 비밀번호를 대화식으로 설정:
 

@@ -1,7 +1,8 @@
 # htop
 
 > 실행 중인 프로세스에 대한 동적 실시간 정보를 표시합니다. `top`의 향상된 버전입니다.
-> 더 많은 정보: <https://htop.dev/>.
+> 같이 보기: `top`, `atop`, `glances`, `btop`, `btm`.
+> 더 많은 정보: <https://manned.org/htop>.
 
 - `htop` 시작:
 

@@ -2,7 +2,7 @@
 
 > Menedżer pakietów Scoop.
 > Niektóre podkomendy takie jak `bucket` mają osobną dokumentację.
-> Więcej informacji: <https://scoop.sh>.
+> Więcej informacji: <https://github.com/ScoopInstaller/Scoop/wiki/Commands>.
 
 - Zainstaluj pakiet:
 

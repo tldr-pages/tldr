@@ -1,7 +1,8 @@
 # perl
 
 > Interpréteur du langage Perl (version 5).
-> Plus d'informations : <https://www.perl.org>.
+> Voir aussi : `perldoc`.
+> Plus d'informations : <https://perldoc.perl.org/perl>.
 
 - Exécuter le code contenu dans un fichier :
 

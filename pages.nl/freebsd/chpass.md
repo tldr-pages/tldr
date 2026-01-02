@@ -20,7 +20,7 @@
 
 `su -c 'chpass -e {{tijd}} {{gebruikersnaam}}'`
 
-- Pas een gebruikerswachtwoord aan::
+- Pas een gebruikerswachtwoord aan:
 
 `su -c 'chpass -p {{gecodeerd_wachtwoord}} {{gebruikersnaam}}'`
 

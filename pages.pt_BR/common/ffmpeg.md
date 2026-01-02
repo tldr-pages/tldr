@@ -1,7 +1,8 @@
 # ffmpeg
 
 > Ferramenta de conversão de vídeo.
-> Mais informações: <https://ffmpeg.org>.
+> Veja também: `gst-launch-1.0`.
+> Mais informações: <https://ffmpeg.org/ffmpeg.html#Options>.
 
 - Extrai o som de um vídeo e salva-o como MP3:
 
@@ -13,7 +14,7 @@
 
 - Salva um vídeo como GIF, escalando a altura para 1000px e definindo a taxa de quadros para 15:
 
-`ffmpeg -i {{caminho/para/vídeo.mp4}} {{[-vf|-filter:v]}} 'scale=-1:1000' -r {{15}} {{caminho/para/saída.gif}}`
+`ffmpeg -i {{caminho/para/vídeo.mp4}} {{[-vf|-filter:v]}} 'scale=-1:1000' -r 15 {{caminho/para/saída.gif}}`
 
 - Combina imagens numeradas (`quadro_1.jpg`, `quadro_2.jpg`, etc) em um vídeo ou GIF:
 

@@ -7,9 +7,9 @@
 
 `cadaver {{http://dav.example.com/}}`
 
-- Connect to a server using a specific port and open the collection `/foo/bar/`:
+- Connect to a server using a specific port and open a collection:
 
-`cadaver {{http://dav.example.com:8022/foo/bar/}}`
+`cadaver {{http://dav.example.com:8022/path/to/collection/}}`
 
 - Connect to a server using SSL:
 

@@ -2,7 +2,7 @@
 
 > Das Cradle PHP Framework.
 > Manche Unterbefehle wie `install` sind separat dokumentiert.
-> Weitere Informationen: <https://cradlephp.github.io>.
+> Weitere Informationen: <https://cradlephp.github.io/docs/3.B.-Reference-Command-Line-Tools.html>.
 
 - Stelle eine Verbindung zu einem Server her:
 

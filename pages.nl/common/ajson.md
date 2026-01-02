@@ -1,7 +1,7 @@
 # ajson
 
 > Voert JSONPath uit op JSON-objecten.
-> Meer informatie: <https://github.com/spyzhov/ajson>.
+> Meer informatie: <https://github.com/spyzhov/ajson#console-application>.
 
 - Lees JSON uit een bestand en voer een opgegeven JSONPath-expressie uit:
 

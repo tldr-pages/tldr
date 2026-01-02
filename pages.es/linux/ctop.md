@@ -1,7 +1,7 @@
 # ctop
 
 > Visualiza instantáneamente el rendimiento y la salud del contenedor con métricas en tiempo real sobre el uso de CPU, memoria y bloques de IO.
-> Más información: <https://github.com/bcicen/ctop>.
+> Más información: <https://github.com/bcicen/ctop#usage>.
 
 - Muestra sólo contenedores [a]ctivos:
 

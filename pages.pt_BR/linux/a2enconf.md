@@ -1,7 +1,7 @@
 # a2enconf
 
 > Ativa um arquivo de configuração do Apache em sistemas operacionais baseados no Debian.
-> Mais informações: <https://manned.org/a2enconf.8>.
+> Mais informações: <https://manned.org/a2enconf>.
 
 - Ativa um arquivo de configuração:
 
@@ -9,4 +9,4 @@
 
 - Não mostra mensagens informativas:
 
-`sudo a2enconf --quiet {{arquivo_de_configuração}}`
+`sudo a2enconf {{[-q|--quiet]}} {{arquivo_de_configuração}}`

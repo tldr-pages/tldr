@@ -1,7 +1,7 @@
 # sinfo
 
 > Slurm 노드 및 파티션 정보를 표시합니다.
-> 같이 보기: `squeue` 및 `sbatch`, 이는 Slurm 작업 관리자에 포함됩니다.
+> 같이 보기: `squeue`, `sbatch`.
 > 더 많은 정보: <https://slurm.schedmd.com/sinfo.html>.
 
 - 클러스터의 빠른 요약 개요 표시:

@@ -1,7 +1,7 @@
 # bmon
 
 > Monitora a largura de banda e produz estatísticas relacionadas a rede.
-> Mais informações: <https://github.com/tgraf/bmon>.
+> Mais informações: <https://manned.org/bmon>.
 
 - Exibe uma lista com todas as interfaces de rede:
 

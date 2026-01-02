@@ -1,7 +1,7 @@
 # gradle
 
 > Un sistema de automatización de construcción de código abierto.
-> Más información: <https://gradle.org>.
+> Más información: <https://manned.org/gradle>.
 
 - Compila un paquete:
 

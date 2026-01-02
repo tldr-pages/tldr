@@ -1,8 +1,8 @@
 # zip
 
 > 将文件打包并压缩（存档）为 zip 文件。
-> 另见：`unzip`。
-> 更多信息：<https://manned.org/zip>.
+> 另请参阅：`unzip`。
+> 更多信息：<https://manned.org/zip>。
 
 - 将文件/目录添加到指定存档中：
 

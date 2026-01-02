@@ -5,11 +5,11 @@
 
 - Play a MIDI file:
 
-`fluidsynth {{path/to/soundfont.sf2}} {{path/to/file.midi}}`
+`fluidsynth {{/usr/share/soundfonts/soundfont.sf2}} {{path/to/file.midi}}`
 
 - Specify the audio driver:
 
-`fluidsynth {{[-a|--audio-driver]}} {{pipewire|pulseaudio}} {{path/to/soundfont.sf2}} {{path/to/file.midi}}`
+`fluidsynth {{[-a|--audio-driver]}} {{pipewire|pulseaudio}} {{/usr/share/soundfonts/soundfont.sf2}} {{path/to/file.midi}}`
 
 - Display help:
 

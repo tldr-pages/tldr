@@ -1,7 +1,7 @@
 # airshare
 
 > Transférer des données entre deux machines dans un réseau local.
-> Plus d'informations : <https://airshare.rtfd.io/en/latest/cli.html>.
+> Plus d'informations : <https://airshare.readthedocs.io/en/latest/cli.html>.
 
 - Partager des fichiers ou des dossiers :
 

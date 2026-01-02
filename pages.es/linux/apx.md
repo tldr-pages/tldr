@@ -1,7 +1,7 @@
 # apx
 
 > Utilidad de gestión de paquetes con soporte para múltiples fuentes, que permite instalar paquetes en subsistemas.
-> Más información: <https://github.com/Vanilla-OS/apx>.
+> Más información: <https://docs.vanillaos.org/docs/en/apx-manpage>.
 
 - Muestra la documentación sobre la gestión de gestores de paquetes:
 

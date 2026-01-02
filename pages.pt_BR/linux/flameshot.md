@@ -2,7 +2,7 @@
 
 > Função de captura da tela com uma Interface Gráfica do Usuário.
 > Suporta edição básica de imagens, como texto, formas, cores e imgur.
-> Mais informações: <https://flameshot.org>.
+> Mais informações: <https://flameshot.org/docs/advanced/commandline-options/>.
 
 - Cria uma captura da tela completa:
 

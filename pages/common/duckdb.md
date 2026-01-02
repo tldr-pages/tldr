@@ -1,7 +1,7 @@
 # duckdb
 
 > Client for DuckDB, an in-process analytical SQL engine.
-> More information: <https://duckdb.org>.
+> More information: <https://duckdb.org/docs/stable/clients/cli/arguments>.
 
 - Start an interactive shell with a transient in-memory database:
 

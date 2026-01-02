@@ -17,4 +17,4 @@
 
 - Busca paquets que igualin l'expressió regular donada en `patró`:
 
-`apt-file {{search|find}} --regexp {{expressió_regular}}`
+`apt-file {{search|find}} {{[-x|--regexp]}} {{expressió_regular}}`

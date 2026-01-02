@@ -8,7 +8,7 @@
 
 `git rebase {{new_base_branch}}`
 
-- Start an interactive rebase, which allows the commits to be reordered, omitted, combined or modified:
+- Start an interactive rebase, which allows the commits to be reordered, omitted, combined, or modified:
 
 `git rebase {{[-i|--interactive]}} {{target_base_branch_or_commit_hash}}`
 
@@ -28,7 +28,7 @@
 
 `git rebase --onto {{new_base}} {{old_base}}`
 
-- Reapply the last 5 commits in-place, stopping to allow them to be reordered, omitted, combined or modified:
+- Reapply the last 5 commits in-place, stopping to allow them to be reordered, omitted, combined, or modified:
 
 `git rebase {{[-i|--interactive]}} {{HEAD~5}}`
 

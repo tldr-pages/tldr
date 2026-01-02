@@ -1,7 +1,7 @@
 # java
 
 > Java application launcher.
-> More information: <https://docs.oracle.com/en/java/javase/20/docs/specs/man/java.html>.
+> More information: <https://docs.oracle.com/en/java/javase/25/docs/specs/man/java.html>.
 
 - Execute a Java `.class` file that contains a main method by using just the class name:
 
@@ -19,7 +19,7 @@
 
 `java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar {{filename.jar}}`
 
-- Display JDK, JRE and HotSpot versions:
+- Display JDK, JRE, and HotSpot versions:
 
 `java -version`
 

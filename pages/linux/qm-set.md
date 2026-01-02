@@ -1,7 +1,7 @@
 # qm set
 
 > Set virtual machine options.
-> More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
+> More information: <https://pve.proxmox.com/pve-docs/qm.1.html#cli_qm_set>.
 
 - Set a name for a VM in the GUI:
 

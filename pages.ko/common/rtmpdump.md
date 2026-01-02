@@ -1,7 +1,7 @@
 # rtmpdump
 
 > RTMP 프로토콜을 통해 스트리밍되는 미디어 콘텐츠 덤프.
-> 더 많은 정보: <https://rtmpdump.mplayerhq.hu/>.
+> 더 많은 정보: <https://rtmpdump.mplayerhq.hu/rtmpdump.1.html>.
 
 - 파일 다운로드:
 

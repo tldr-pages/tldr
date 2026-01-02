@@ -1,7 +1,7 @@
 # a2enmod
 
 > Ativa um módulo do Apache em sistemas operacionais baseados no Debian.
-> Mais informações: <https://manned.org/a2enmod.8>.
+> Mais informações: <https://manned.org/a2enmod>.
 
 - Ativa um módulo:
 
@@ -9,4 +9,4 @@
 
 - Não mostra mensagens informativas:
 
-`sudo a2enmod --quiet {{module}}`
+`sudo a2enmod {{[-q|--quiet]}} {{module}}`

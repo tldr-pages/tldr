@@ -2,7 +2,7 @@
 
 > 디렉터리 내용 목록.
 > Rust로 작성된 차세대 `ls` 명령어.
-> 더 많은 정보: <https://github.com/Peltoche/lsd>.
+> 더 많은 정보: <https://github.com/lsd-rs/lsd/blob/main/doc/lsd.md>.
 
 - 파일과 디렉터리를 한 줄에 하나씩 나열:
 

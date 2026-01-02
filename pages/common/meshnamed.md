@@ -1,7 +1,7 @@
 # meshnamed
 
 > Distributed naming system for IPv6 mesh networks.
-> More information: <https://github.com/zhoreeq/meshname/>.
+> More information: <https://github.com/zhoreeq/meshname>.
 
 - Start a local meshname DNS server:
 

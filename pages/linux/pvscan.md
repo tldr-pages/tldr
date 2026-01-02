@@ -5,16 +5,16 @@
 
 - List all physical volumes:
 
-`pvscan`
+`sudo pvscan`
 
 - Show the volume group that uses a specific physical volume:
 
-`pvscan --cache --listvg {{/dev/sdX}}`
+`sudo pvscan --cache --listvg {{/dev/sdX}}`
 
 - Show logical volumes that use a specific physical volume:
 
-`pvscan --cache --listlvs {{/dev/sdX}}`
+`sudo pvscan --cache --listlvs {{/dev/sdX}}`
 
 - Display detailed information in JSON format:
 
-`pvscan --reportformat json`
+`sudo pvscan --reportformat json`

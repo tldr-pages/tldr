@@ -1,20 +1,7 @@
 # docker rmi
 
-> Remove Docker images.
-> More information: <https://docs.docker.com/reference/cli/docker/image/rm/>.
+> This command is an alias of `docker image rm`.
 
-- Display help:
+- View documentation for the original command:
 
-`docker rmi`
-
-- Remove one or more images given their names:
-
-`docker rmi {{image1 image2 ...}}`
-
-- Force remove an image:
-
-`docker rmi {{[-f|--force]}} {{image}}`
-
-- Remove an image without deleting untagged parents:
-
-`docker rmi --no-prune {{image}}`
+`tldr docker image rm`

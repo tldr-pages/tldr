@@ -1,7 +1,7 @@
 # cake
 
 > The processor for the CakePHP framework.
-> More information: <https://cakephp.org>.
+> More information: <https://book.cakephp.org/5/en/console-commands.html#cakephp-provided-commands>.
 
 - Display basic information about the current app and available commands:
 

@@ -1,7 +1,7 @@
 # fd
 
-> An alternative to `find`.
-> Aims to be faster and easier to use than `find`.
+> Find entries in the filesystem.
+> See also: `find`.
 > More information: <https://github.com/sharkdp/fd#how-to-use>.
 
 - Recursively find files matching a specific pattern in the current directory:
@@ -24,6 +24,14 @@
 
 `fd {{[-H|--hidden]}} {{[-I|--no-ignore]}} "{{string|regex}}"`
 
+- Exclude files that match a specific `regex`:
+
+`fd {{string}} {{[-E|--exclude]}} {{regex}}`
+
 - Execute a command on each search result returned:
 
 `fd "{{string|regex}}" {{[-x|--exec]}} {{command}}`
+
+- Find files only in the current directory:
+
+`fd {{[-d|--max-depth]}} 1 "{{string|regex}}"`

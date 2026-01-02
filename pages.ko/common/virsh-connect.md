@@ -1,4 +1,4 @@
-# virsh-connect
+# virsh connect
 
 > 가상 머신 하이퍼바이저에 연결합니다.
 > 같이 보기: `virsh`.

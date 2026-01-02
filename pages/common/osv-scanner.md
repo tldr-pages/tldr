@@ -1,7 +1,7 @@
 # osv-scanner
 
 > Scan various mediums for dependencies and matches them against the OSV database.
-> More information: <https://osv.dev/about>.
+> More information: <https://google.github.io/osv.dev/faq/>.
 
 - Scan a Docker image:
 

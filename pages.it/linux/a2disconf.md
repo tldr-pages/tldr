@@ -1,7 +1,7 @@
 # a2disconf
 
 > Disattiva un file di configurazione Apache su Sistemi Operativi basati su Debian.
-> Maggiori informazioni: <https://manned.org/a2disconf.8>.
+> Maggiori informazioni: <https://manned.org/a2disconf>.
 
 - Disattiva un file di configurazione:
 
@@ -9,4 +9,4 @@
 
 - Non mostrare messaggi informativi:
 
-`sudo a2disconf --quiet {{file_di_configurazione}}`
+`sudo a2disconf {{[-q|--quiet]}} {{file_di_configurazione}}`

@@ -1,4 +1,4 @@
-# npm check
+# npm-check
 
 > Prüft veraltete, inkorrekte und nicht verwendete Abhängigkeiten.
 > Weitere Informationen: <https://github.com/dylang/npm-check>.

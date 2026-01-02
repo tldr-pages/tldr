@@ -1,13 +1,13 @@
 # atool
 
 > Çeşitli biçimlerdeki arşivleri yönetin.
-> Daha fazla bilgi için: <https://www.nongnu.org/atool/>.
+> Daha fazla bilgi için: <https://manned.org/atool>.
 
 - Bir zip arşivindeki dosyaları listele:
 
 `atool --list {{arşiv.zip/dosyasının/yolu}}`
 
-- Bir tar.gz arşivini yeni bir alt dizine (veya yalnızca bir dosya içeriyorsa geçerli dizine) çıkart:
+- Bir `.tar.gz` arşivini yeni bir alt dizine (veya yalnızca bir dosya içeriyorsa geçerli dizine) çıkart:
 
 `atool --extract {{arşiv.tar.gz/dosyasının/yolu}}`
 

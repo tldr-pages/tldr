@@ -1,8 +1,8 @@
 # figlet
 
 > 사용자 입력에서 ASCII 배너를 생성.
-> 참고: `showfigfonts`.
-> 더 많은 정보: <http://www.figlet.org/figlet-man.html>.
+> 같이 보기: `showfigfonts`.
+> 더 많은 정보: <https://www.figlet.org/figlet-man.html>.
 
 - 텍스트를 직접 입력하여 생성:
 

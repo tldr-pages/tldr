@@ -1,8 +1,9 @@
 # git ignore
 
 > `.gitignore` 파일을 표시/업데이트.
-> `git-extras`의 일부. 같이 보기: `git ignore-io`.
-> 더 많은 정보: <https://github.com/tj/git-extras/blob/master/Commands.md#git-ignore>.
+> `git-extras`의 일부.
+> 같이 보기: `git ignore-io`.
+> 더 많은 정보: <https://github.com/tj/git-extras/blob/main/Commands.md#git-ignore>.
 
 - 모든 전역 및 로컬 `.gitignore` 파일의 내용을 표시:
 

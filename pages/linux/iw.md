@@ -1,7 +1,7 @@
 # iw
 
 > Show and manipulate wireless devices.
-> See also: `iw dev`.
+> See also: `iw dev`, `nmcli`, `iwctl`.
 > More information: <https://wireless.docs.kernel.org/en/latest/en/users/documentation/iw.html>.
 
 - Scan for available wireless networks:

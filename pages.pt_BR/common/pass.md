@@ -2,7 +2,7 @@
 
 > Guarda e lê senhas ou outras informações sensíveis.
 > Todos os dados são criptografados com GPG e gerenciados por um repositório Git.
-> Mais informações: <https://www.passwordstore.org>.
+> Mais informações: <https://git.zx2c4.com/password-store/about/>.
 
 - Inicia (ou recriptografa) o armazenamento usando um ou mais IDs GPG:
 

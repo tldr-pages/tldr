@@ -2,7 +2,7 @@
 
 > Control the systemd system and service manager.
 > Some subcommands such as `disable`, `status`, `reboot` etc. have their own usage documentation.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html>.
 
 - Show all running services:
 
@@ -12,7 +12,7 @@
 
 `systemctl --failed`
 
-- Start/Stop/Restart/Reload/Show the status a service:
+- Start/Stop/Restart/Reload/Show the status of a service:
 
 `systemctl {{start|stop|restart|reload|status}} {{unit}}`
 

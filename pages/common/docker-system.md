@@ -3,10 +3,6 @@
 > Manage Docker data and display system-wide information.
 > More information: <https://docs.docker.com/reference/cli/docker/system/>.
 
-- Display help:
-
-`docker system`
-
 - Show Docker disk usage:
 
 `docker system df`
@@ -34,3 +30,7 @@
 - Display system-wide information:
 
 `docker system info`
+
+- Display help:
+
+`docker system`

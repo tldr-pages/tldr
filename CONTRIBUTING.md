@@ -191,6 +191,11 @@ Translation of pages can be done by simply creating the corresponding page withi
 > [!TIP]
 > When fixing errors in an existing translation, it is suggested to update the page to match the latest version of the English page.
 
+> [!IMPORTANT]
+> Only translate or update languages you can confidently read and proofread.
+> Avoid machine-generated or bulk edits across languages you do not know.
+> When you change an English page, it is fine to leave other languages untouched; native speakers and maintainers will sync them later by referring to the [translation dashboards](https://github.com/tldr-pages/tldr-maintenance/issues/127).
+
 To see the current progress of all translations, you can visit <https://lukwebsforge.github.io/tldri18n/>, which provides a dynamically updated table of all pages and their translations or you can visit <https://github.com/tldr-pages/tldr-maintenance/issues/127>, which provides a dynamically updated list about the translation status (e.g. list all outdated pages) per language.
 
 Some examples of valid locale tags:
@@ -261,7 +266,7 @@ To commit a suggestion to your pull request, click on `Commit suggestion`:
 If you want to commit multiple suggestions, go to the "Files changed" tab and batch all suggestions. Now, click the `Commit suggestions` button and enter a commit message to create a single commit.
 
 > [!IMPORTANT]
-> Do not force push. We would prefer to preserve commit history so that the order of events is preserved. All pull requests will be squashed so a messy pull request will not matter.
+> Do not force push to pull request branches, unless strictly necessary. We would prefer to preserve commit history within the pull request, so that the order of events between review comments and the commits that address them stays chronological. Pull requests will typically be squashed, so a messy commit history in the PR branch is not necessarily problematic.
 
 ### Commit message and PR title
 

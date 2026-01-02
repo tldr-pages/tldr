@@ -2,7 +2,8 @@
 
 > Memasang, lepas, atau ganti versi Node.js yang dipakai.
 > Mendukung nomor versi seperti "12.8" or "v16.13.1", dan label versi seperti "stable", "system", dsb.
-> Informasi lebih lanjut: <https://github.com/creationix/nvm>.
+> Lihat juga: `asdf`.
+> Informasi lebih lanjut: <https://github.com/nvm-sh/nvm#usage>.
 
 - Pasang suatu versi Node.js:
 

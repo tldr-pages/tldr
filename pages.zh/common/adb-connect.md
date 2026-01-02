@@ -1,7 +1,7 @@
 # adb connect
 
 > 通过无线连接到 Android 设备。
-> 更多信息：<https://developer.android.com/tools/adb>.
+> 更多信息：<https://developer.android.com/tools/adb>。
 
 - 与一个安卓设备配对（可在开发者选项中，找到地址和配对码）：
 

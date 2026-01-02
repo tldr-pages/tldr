@@ -2,7 +2,7 @@
 
 > Gerenciador de pacotes das distribuições baseadas em RHEL (substituto do yum).
 > Para comandos equivalentes em outros gerenciadores de pacotes, veja <https://wiki.archlinux.org/title/Pacman/Rosetta>.
-> Mais informações: <https://dnf.readthedocs.io>.
+> Mais informações: <https://dnf.readthedocs.io/en/latest/command_ref.html>.
 
 - Atualiza os pacotes instalados para suas versões mais atuais:
 

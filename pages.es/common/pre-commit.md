@@ -1,7 +1,7 @@
 # pre-commit
 
 > Crea puntos de enganche Git que se ejecutan antes de la confirmación de cambios.
-> Más información: <https://pre-commit.com>.
+> Más información: <https://pre-commit.com/#command-line-interface>.
 
 - Instala pre-commit en tus puntos de enganche Git:
 

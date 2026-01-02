@@ -1,7 +1,7 @@
 # systemd-delta
 
 > 재정의된 systemd 관련 설정 파일을 찾습니다.
-> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/systemd-delta.html>.
+> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/latest/systemd-delta.html>.
 
 - 모든 재정의된 설정 파일 표시:
 

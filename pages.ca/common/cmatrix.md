@@ -1,7 +1,8 @@
 # cmatrix
 
 > Mostra una pantalla similar a la de Matrix en la terminal.
-> Més informació: <https://github.com/abishekvashok/cmatrix>.
+> Vegeu també: `cbonsai`, `asciiquarium`, `pipes.sh`.
+> Més informació: <https://manned.org/cmatrix>.
 
 - Activa el desplaçament asíncron:
 

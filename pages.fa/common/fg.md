@@ -1,7 +1,8 @@
 # fg
 
 > اجرای کارها در پیش زمینه.
-> اطلاعات بیشتر: <https://manned.org/fg>.
+> همچنین : `jobs`, `bg`, `disown`, `%`.
+> اطلاعات بیشتر: <https://www.gnu.org/software/bash/manual/bash.html#index-fg>.
 
 - آوردن آخرین کار اجرا شده در پس زمینه به پیش زمینه:
 

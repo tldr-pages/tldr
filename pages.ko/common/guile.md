@@ -1,7 +1,7 @@
 # guile
 
 > Guile 스키마 해석기.
-> 더 많은 정보: <https://www.gnu.org/software/guile>.
+> 더 많은 정보: <https://www.gnu.org/software/guile/manual/guile.html#Invoking-Guile>.
 
 - REPL(대화형 쉘)을 시작:
 

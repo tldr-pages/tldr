@@ -1,7 +1,7 @@
 # pixiecore
 
 > Manage the network booting of machines.
-> More information: <https://github.com/danderson/netboot/tree/master/pixiecore>.
+> More information: <https://github.com/danderson/netboot/tree/main/pixiecore>.
 
 - Start a PXE boot server which provides a `netboot.xyz` boot image:
 

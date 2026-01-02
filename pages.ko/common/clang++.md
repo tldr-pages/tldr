@@ -2,7 +2,7 @@
 
 > C++ 소스 파일을 컴파일합니다.
 > LLVM의 일부.
-> 더 많은 정보: <https://clang.llvm.org>.
+> 더 많은 정보: <https://clang.llvm.org/docs/UsersManual.html#command-line-options>.
 
 - 소스 코드를 실행 가능한 바이너리 파일로 컴파일합니다:
 

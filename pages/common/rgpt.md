@@ -1,7 +1,7 @@
 # rgpt
 
 > An automated code review tool that uses GPT you can use straight from your terminal.
-> More information: <https://github.com/vibovenkat123/review-gpt>.
+> More information: <https://github.com/vaibhav-venkat/review-gpt>.
 
 - Ask GPT to improve the code with no extra options:
 

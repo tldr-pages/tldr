@@ -1,7 +1,7 @@
 # imapsync
 
 > 두 개의 IMAP 서버 사이에 중복없이 단방향으로 이메일 사서함을 동기화, 복사 및 마이그레이션하기 위한 이메일 IMAP 도구.
-> 더 많은 정보: <https://imapsync.lamiral.info>.
+> 더 많은 정보: <https://imapsync.lamiral.info/#doc>.
 
 - 호스트1과 호스트2 간에 IMAP 계정을 동기화:
 

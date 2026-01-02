@@ -1,7 +1,7 @@
 # dnsrecon
 
 > DNS enumeration tool.
-> More information: <https://github.com/darkoperator/dnsrecon>.
+> More information: <https://manned.org/dnsrecon>.
 
 - Scan a domain and save the results to an SQLite database:
 

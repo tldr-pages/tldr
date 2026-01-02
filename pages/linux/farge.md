@@ -1,7 +1,7 @@
 # farge
 
 > Display the color of a specific pixel on the screen in either hexadecimal or RGB formats.
-> More information: <https://github.com/sdushantha/farge>.
+> More information: <https://github.com/sdushantha/farge#usage>.
 
 - Display a small preview window of a pixel's color with it's hexadecimal value, and copy this value to the clipboard:
 

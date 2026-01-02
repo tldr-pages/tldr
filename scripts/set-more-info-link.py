@@ -48,12 +48,15 @@ Examples:
 """
 
 import re
+import sys
 from pathlib import Path
+from dataclasses import dataclass
 from _common import (
     IGNORE_FILES,
     Colors,
     get_tldr_root,
-    get_pages_dir,
+    get_templates,
+    get_pages_dirs,
     get_target_paths,
     get_locale,
     get_status,
@@ -62,45 +65,16 @@ from _common import (
     create_argument_parser,
 )
 
-labels = {
-    "en": "More information:",
-    "ar": "لمزيد من التفاصيل:",
-    "bn": "আরও তথ্য পাবেন:",
-    "bs": "Više informacija:",
-    "ca": "Més informació:",
-    "cs": "Více informací:",
-    "da": "Mere information:",
-    "de": "Weitere Informationen:",
-    "es": "Más información:",
-    "fa": "اطلاعات بیشتر:",
-    "fi": "Lisätietoa:",
-    "fr": "Plus d'informations :",
-    "hi": "अधिक जानकारी:",
-    "id": "Informasi lebih lanjut:",
-    "it": "Maggiori informazioni:",
-    "ja": "もっと詳しく:",
-    "ko": "더 많은 정보:",
-    "lo": "ຂໍ້ມູນເພີ່ມເຕີມ:",
-    "ml": "കൂടുതൽ വിവരങ്ങൾ:",
-    "ne": "थप जानकारी:",
-    "nl": "Meer informatie:",
-    "no": "Mer informasjon:",
-    "pl": "Więcej informacji:",
-    "pt_BR": "Mais informações:",
-    "pt_PT": "Mais informações:",
-    "ro": "Mai multe informații:",
-    "ru": "Больше информации:",
-    "sh": "Više informacija:",
-    "sr": "Više informacija na:",
-    "sv": "Mer information:",
-    "ta": "மேலும் விவரத்திற்கு:",
-    "th": "ข้อมูลเพิ่มเติม:",
-    "tr": "Daha fazla bilgi için:",
-    "uk": "Більше інформації:",
-    "uz": "Ko'proq malumot:",
-    "zh_TW": "更多資訊：",
-    "zh": "更多信息：",
-}
+
+@dataclass
+class Config:
+    """Global configuration for the script"""
+
+    root: Path
+    pages_dirs: list[Path]
+    templates: dict[str, str]
+    dry_run: bool = False
+    language: str = ""
 
 
 def set_link(
@@ -121,7 +95,7 @@ def set_link(
          "\x1b[36mlink added"
          "\x1b[34mlink updated"
          "\x1b[36mlink would be added"
-         "\x1b[34mlink would updated"
+         "\x1b[34mlink would be updated"
     """
 
     locale = get_locale(path)
@@ -143,17 +117,7 @@ def set_link(
             desc_end = i
             break
 
-    # build new line
-    if locale in ["bn", "hi", "ne"]:
-        new_line = f"> {labels[locale]} <{link}>।\n"
-    elif locale in ["ja"]:
-        new_line = f"> {labels[locale]} <{link}>。\n"
-    elif locale in ["th"]:
-        new_line = f"> {labels[locale]} <{link}>\n"
-    elif locale in ["zh", "zh_TW"]:
-        new_line = f"> {labels[locale]}<{link}>.\n"
-    else:
-        new_line = f"> {labels[locale]} <{link}>.\n"
+    new_line = config.templates[locale].replace("https://example.com", link)
 
     if lines[desc_end] == new_line:
         # return empty status to indicate that no changes were made
@@ -253,8 +217,23 @@ def main():
     parser.add_argument("link", type=str, nargs="?", default="")
     args = parser.parse_args()
 
+    # Print usage information if no arguments were provided
+    if len(sys.argv) == 1:
+        parser.print_help()
+        return
+
     root = get_tldr_root()
-    pages_dirs = get_pages_dir(root)
+    pages_dirs = get_pages_dirs(root)
+    templates = get_templates(root, "more-info-link.md")
+
+    global config
+    config = Config(
+        root=root,
+        pages_dirs=pages_dirs,
+        templates=templates,
+        dry_run=args.dry_run,
+        language=args.language,
+    )
 
     target_paths = []
 

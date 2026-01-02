@@ -1,7 +1,7 @@
 # pct config
 
 > Print the configuration of a container.
-> More information: <https://pve.proxmox.com/pve-docs/pct.1.html>.
+> More information: <https://pve.proxmox.com/pve-docs/pct.1.html#cli_pct_config>.
 
 - Display the saved configuration:
 

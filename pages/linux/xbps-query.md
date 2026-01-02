@@ -2,7 +2,7 @@
 
 > XBPS utility to query for package and repository information.
 > See also: `xbps`.
-> More information: <https://manned.org/xbps-query.1>.
+> More information: <https://manned.org/xbps-query>.
 
 - Search for a package in remote repositories using a `regex` or a keyword (if `--regex` is omitted):
 

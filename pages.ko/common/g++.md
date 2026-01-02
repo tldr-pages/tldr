@@ -2,7 +2,7 @@
 
 > C++ 소스 파일을 컴파일합니다.
 > GCC (GNU 컴파일로 모음)의 일부입니다.
-> 더 많은 정보: <https://gcc.gnu.org>.
+> 더 많은 정보: <https://gcc.gnu.org/onlinedocs/gcc/C_002b_002b-Dialect-Options.html>.
 
 - 소스 코드 파일을 실행 가능한 바이너리로 컴파일합니다:
 

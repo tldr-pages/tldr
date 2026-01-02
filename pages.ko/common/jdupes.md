@@ -1,7 +1,7 @@
 # jdupes
 
 > 강력한 중복 파일 찾기 도구이며, fdupes의 개선된 포크입니다.
-> 더 많은 정보: <https://codeberg.org/jbruchon/jdupes>.
+> 더 많은 정보: <https://codeberg.org/jbruchon/jdupes#usage>.
 
 - 단일 디렉터리 검색:
 

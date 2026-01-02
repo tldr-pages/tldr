@@ -12,9 +12,9 @@
 
 `tail {{path/to/file1 path/to/file2 ...}}`
 
-- Show last `count` lines in file:
+- Show last 5 lines in file:
 
-`tail {{[-n|--lines]}} {{count}} {{path/to/file}}`
+`tail {{[-5|--lines 5]}} {{path/to/file}}`
 
 - Print a file from a specific line number:
 

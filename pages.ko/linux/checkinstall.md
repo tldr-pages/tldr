@@ -1,7 +1,7 @@
 # checkinstall
 
 > 소프트웨어 패키지의 로컬 설치를 추적하고 시스템의 기본 패키지 관리 도구와 함께 사용할 수 있는 바이너리 패키지를 생성합니다.
-> 더 많은 정보: <https://checkinstall.izto.org>.
+> 더 많은 정보: <https://checkinstall.izto.org/docs.php>.
 
 - 기본 설정으로 패키지를 생성하고 설치:
 

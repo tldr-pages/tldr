@@ -1,7 +1,7 @@
 # skaffold
 
 > Facilitate continuous development for Kubernetes applications.
-> More information: <https://skaffold.dev>.
+> More information: <https://skaffold.dev/docs/references/cli/>.
 
 - Build the artifacts:
 

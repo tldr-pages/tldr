@@ -1,7 +1,7 @@
 # cd
 
 > Menja trenutnu radnu površinu.
-> Više informacija na: <https://manned.org/cd>.
+> Više informacija na: <https://www.gnu.org/software/bash/manual/bash.html#index-cd>.
 
 - Ulazi u dati direktorijum:
 

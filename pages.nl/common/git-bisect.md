@@ -20,6 +20,18 @@
 
 `git bisect skip`
 
+- Staat een bisect-sessie en houd hierbij alleen rekening met commits die een bepaald bestand aanpassen:
+
+`git bisect start {{foutieve_commit}} {{schone_commit}} -- {{pad/naar/bestand_of_map}}`
+
+- Automatiseer het bisect-proces met behulp van een testscript dat met 0 afsluit voor "good" en niet-nul voor "bad":
+
+`git bisect run {{pad/naar/testscript}} {{optionele_script_argumenten}}`
+
 - Toon een log van wat er tot nu toe is gedaan:
 
 `git bisect log`
+
+- Toon de resterende kandidaat-commits die nog gecontroleerd moeten worden:
+
+`git bisect visualize`

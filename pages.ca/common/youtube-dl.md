@@ -1,6 +1,7 @@
 # youtube-dl
 
 > Descarrega videos de YouTube i altres pàgines web.
+> Vegeu també: `yt-dlp`, `ytfzf`, `you-get`.
 > Més informació: <https://rg3.github.io/youtube-dl/>.
 
 - Descarrega un vídeo o playlist:

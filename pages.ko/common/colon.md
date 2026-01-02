@@ -1,7 +1,7 @@
-# Colon
+# :
 
 > 성공적인 종료 상태 코드 0을 반환.
-> 더 많은 정보: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#colon>.
+> 더 많은 정보: <https://www.gnu.org/software/bash/manual/bash.html#index-_003a>.
 
 - 성공적인 종료 코드를 반환:
 

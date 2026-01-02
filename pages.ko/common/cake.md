@@ -1,7 +1,7 @@
 # cake
 
 > CakePHP 프레임 워크용 명령어 라인 프로세서.
-> 더 많은 정보: <https://cakephp.org>.
+> 더 많은 정보: <https://book.cakephp.org/5/en/console-commands.html#cakephp-provided-commands>.
 
 - 현재 앱 및 사용 가능한 명령어에 대한 기본 정보 표시:
 

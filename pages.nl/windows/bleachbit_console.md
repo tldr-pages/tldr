@@ -17,8 +17,12 @@
 
 - Bekijk een voorbeeld van de bestanden die zullen worden verwijderd en andere wijzigingen voordat de schoonmaak-operatie wordt uitgevoerd:
 
-`bleachbit_console.exe --preview {{--preset|cleaner1.option1 cleaner2.* ...}}`
+`bleachbit_console.exe --preview {{cleaner1.optie1 cleaner2.* ...}}`
 
 - Voer de schoonmaakoperatie uit en verwijder bestanden:
 
-`bleachbit_console.exe --clean {{--preset|cleaner1.option1 cleaner2.* ...}}`
+`bleachbit_console.exe --clean {{cleaner1.optie1 cleaner2.* ...}}`
+
+- Selecteer dezelfde opties als in de GUI en voeg er meer aan toe:
+
+`bleachbit_console.exe --preview --preset {{cleaner1.optie1 cleaner2.* ...}}`

@@ -2,7 +2,7 @@
 
 > HTML 요소 트리 재작성에 기반한 정적 웹사이트 생성기.
 > HTML 후처리기나 메타데이터 추출기로도 사용될 수 있습니다.
-> 더 많은 정보: <https://soupault.app>.
+> 더 많은 정보: <https://soupault.net/reference-manual/>.
 
 - 현재 작업 디렉토리에 최소 웹사이트 프로젝트 초기화:
 

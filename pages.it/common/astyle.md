@@ -2,7 +2,7 @@
 
 > Indentatore, formattatore e beautifier di codice sorgente per i linguaggi C, C++, C# e Java.
 > Quando eseguito, una copia del file originale è creata con l'estensione ".orig" aggiunta come suffisso.
-> Maggiori informazioni: <https://astyle.sourceforge.net>.
+> Maggiori informazioni: <https://manned.org/astyle>.
 
 - Applica lo stile di default di 4 spazi per livello di indentazione e nessun cambiamento alla formattazione:
 

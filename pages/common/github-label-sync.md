@@ -19,6 +19,6 @@
 
 `github-label-sync --access-token {{token}} --allow-added-labels {{repository_name}}`
 
-- Synchronize using the `GITHUB_ACCESS_TOKEN` environment variable:
+- Synchronize using the `$GITHUB_ACCESS_TOKEN` environment variable:
 
 `github-label-sync {{repository_name}}`

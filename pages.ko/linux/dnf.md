@@ -2,7 +2,7 @@
 
 > RHEL, Fedora 및 CentOS를 위한 패키지 관리 도구(yum을 대체).
 > 다른 패키지 관리자의 동등한 명령을 보려면 <https://wiki.archlinux.org/title/Pacman/Rosetta>.
-> 더 많은 정보: <https://dnf.readthedocs.io>.
+> 더 많은 정보: <https://dnf.readthedocs.io/en/latest/command_ref.html>.
 
 - 설치된 패키지를 최신 버전으로 업그레이드:
 

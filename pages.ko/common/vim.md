@@ -2,8 +2,8 @@
 
 > Vim (Vi IMproved)는 다양한 텍스트 조작을 위한 여러 모드를 제공하는 명령줄 텍스트 편집기입니다.
 > 일반 모드에서 `<i>`를 눌러 삽입 모드로 진입합니다. `<Esc>`를 눌러 다시 일반 모드로 돌아가면 Vim 명령을 사용할 수 있습니다.
-> 같이 보기: `vimdiff`, `vimtutor`, `nvim`.
-> 더 많은 정보: <https://www.vim.org>.
+> 같이 보기: `vimdiff`, `vimtutor`, `nvim`, `gvim`.
+> 더 많은 정보: <https://www.vim.org/>.
 
 - 파일 열기:
 

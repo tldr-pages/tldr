@@ -1,7 +1,7 @@
 # npm update
 
 > Update packages in the current project.
-> More information: <https://docs.npmjs.com/cli/npm-update>.
+> More information: <https://docs.npmjs.com/cli/npm-update/>.
 
 - Update all packages in the current project:
 
@@ -13,7 +13,7 @@
 
 - Update a package globally:
 
-`npm {{[up|update]}} {{[-g|--global]}} {{package}}`
+`npm {{[up|update]}} {{package}} {{[-g|--global]}}`
 
 - Update multiple packages at once:
 

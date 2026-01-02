@@ -1,4 +1,4 @@
-# npm name
+# npm-name
 
 > npm에서 패키지 또는 조직 이름이 사용 가능한지 확인.
 > 더 많은 정보: <https://github.com/sindresorhus/npm-name-cli>.

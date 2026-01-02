@@ -1,7 +1,7 @@
 # zile
 
 > Emacs 텍스트 편집기의 경량 클론.
-> 더 많은 정보: <https://www.gnu.org/software/zile/>.
+> 더 많은 정보: <https://manned.org/zile>.
 
 - 임시 메모를 위한 버퍼 시작 (저장되지 않음):
 

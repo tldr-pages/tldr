@@ -1,7 +1,7 @@
 # duckdb
 
 > 처리 중인 분석 SQL 엔진인 DuckDB용 명령줄 클라이언트.
-> 더 많은 정보: <https://duckdb.org>.
+> 더 많은 정보: <https://duckdb.org/docs/stable/clients/cli/arguments>.
 
 - 임시 메모리 내 데이터베이스를 사용하여 대화형 쉘을 시작:
 

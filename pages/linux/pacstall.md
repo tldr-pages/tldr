@@ -5,32 +5,32 @@
 
 - Search the package database for a package name:
 
-`pacstall --search {{query}}`
+`pacstall {{[-S|--search]}} {{query}}`
 
 - Install a package:
 
-`pacstall --install {{package}}`
+`pacstall {{[-I|--install]}} {{package}}`
 
 - Remove a package:
 
-`pacstall --remove {{package}}`
+`pacstall {{[-R|--remove]}} {{package}}`
 
 - Add a repository to the database (only GitHub and GitLab are supported):
 
-`pacstall --add-repo {{remote_repository_location}}`
+`pacstall {{[-A|--add-repo]}} {{remote_repository_location}}`
 
 - Update pacstall's scripts:
 
-`pacstall --update`
+`pacstall {{[-U|--update]}}`
 
 - Update all packages:
 
-`pacstall --upgrade`
+`pacstall {{[-Up|--upgrade]}}`
 
 - Display information about a package:
 
-`pacstall --cache-info {{package}}`
+`pacstall {{[-Ci|--cache-info]}} {{package}}`
 
 - List all installed packages:
 
-`pacstall --list`
+`pacstall {{[-L|--list]}}`

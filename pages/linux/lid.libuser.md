@@ -1,7 +1,7 @@
 # lid
 
 > Display a user's groups or a group's users.
-> More information: <https://manned.org/lid.8>.
+> More information: <https://manned.org/lid>.
 
 - List primary and secondary groups of a specific user:
 

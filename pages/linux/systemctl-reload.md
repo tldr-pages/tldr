@@ -10,7 +10,7 @@
 
 - Reload multiple services:
 
-`systemctl reload {{networking apache2 ...}}`
+`systemctl reload {{unit1 unit2 ...}}`
 
 - Reload a service for the current user:
 

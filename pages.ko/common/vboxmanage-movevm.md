@@ -1,4 +1,4 @@
-# vboxmanage movevm
+# VBoxManage movevm
 
 > 가상 머신(VM)을 호스트 시스템의 새로운 위치로 이동.
 > 더 많은 정보: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-movevm>.

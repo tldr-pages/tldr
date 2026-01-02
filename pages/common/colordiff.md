@@ -2,7 +2,7 @@
 
 > A wrapper around `diff` that produces the same output but with pretty syntax highlighting.
 > Color schemes can be customized.
-> More information: <https://github.com/kimmel/colordiff>.
+> More information: <https://manned.org/colordiff>.
 
 - Compare files:
 

@@ -7,11 +7,11 @@
 
 `git notes list`
 
-- List all notes attached to a given object (defaults to HEAD):
+- List all notes attached to a given object (defaults to `HEAD`):
 
 `git notes list [{{object}}]`
 
-- Show the notes attached to a given object (defaults to HEAD):
+- Show the notes attached to a given object (defaults to `HEAD`):
 
 `git notes show [{{object}}]`
 
@@ -23,7 +23,7 @@
 
 `git notes append --message="{{message_text}}"`
 
-- Edit an existing note (defaults to HEAD):
+- Edit an existing note (defaults to `HEAD`):
 
 `git notes edit [{{object}}]`
 

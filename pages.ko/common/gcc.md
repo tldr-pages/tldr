@@ -1,7 +1,7 @@
 # gcc
 
 > C와 C++ 소스 파일들을 전처리, 컴파일하여 모으고 이어줍니다.
-> 더 많은 정보: <https://gcc.gnu.org>.
+> 더 많은 정보: <https://gcc.gnu.org/onlinedocs/gcc/>.
 
 - 다수의 소스 파일을 실행 파일로 컴파일합니다:
 

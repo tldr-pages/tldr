@@ -1,0 +1,7 @@
+# docker logs
+
+> এই কমান্ডটি `docker container logs` - এর একটি উপনাম।
+
+- মূল কমান্ডের ডকুমেন্টেশন দেখুন:
+
+`tldr docker container logs`

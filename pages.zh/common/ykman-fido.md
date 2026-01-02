@@ -1,7 +1,7 @@
 # ykman fido
 
 > 管理 YubiKey FIDO 应用程序。
-> 更多信息：<https://docs.yubico.com/software/yubikey/tools/ykman/FIDO_Commands.html>.
+> 更多信息：<https://docs.yubico.com/software/yubikey/tools/ykman/FIDO_Commands.html>。
 
 - 显示 FIDO2 应用程序的一般信息：
 

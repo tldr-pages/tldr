@@ -1,8 +1,8 @@
 # rm
 
 > 删除文件或目录。
-> 另见：`rmdir`。
-> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>.
+> 另请参阅：`rmdir`, `trash`。
+> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>。
 
 - 删除指定文件：
 

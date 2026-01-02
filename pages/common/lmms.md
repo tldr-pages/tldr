@@ -3,7 +3,7 @@
 > Free, open source, cross-platform digital audio workstation.
 > Render a `.mmp` or `.mmpz` project file, dump a `.mmpz` as XML, or start the GUI.
 > See also: `mixxx`.
-> More information: <https://lmms.io>.
+> More information: <https://manned.org/lmms>.
 
 - Start the GUI:
 
@@ -11,7 +11,7 @@
 
 - Start the GUI and load external config:
 
-`lmms --config {{path/to/config.xml}}`
+`lmms {{[-c|--config]}} {{path/to/config.xml}}`
 
 - Start the GUI and import MIDI or Hydrogen file:
 
@@ -35,4 +35,4 @@
 
 - Render with custom samplerate, format, and as a loop:
 
-`lmms render --samplerate {{88200}} --format {{ogg}} --loop --output {{path/to/output_file.ogg}}`
+`lmms render {{[-s|--samplerate]}} {{88200}} {{[-f|--format]}} {{ogg}} {{[-l|--loop]}} {{[-o|--output]}} {{path/to/output_file.ogg}}`

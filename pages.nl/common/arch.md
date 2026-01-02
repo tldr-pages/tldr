@@ -1,9 +1,7 @@
 # arch
 
-> Geef de naam van de systeemarchitectuur weer.
-> Zie ook: `uname`.
-> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/arch-invocation.html>.
+> Dit commando is een alias van `uname --machine`.
 
-- Geef de architectuur van het systeem weer:
+- Bekijk de documentatie van het originele commando:
 
-`arch`
+`tldr uname`

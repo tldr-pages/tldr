@@ -2,7 +2,7 @@
 
 > A contextual web scanner for bruteforcing API paths and web endpoints using wordlists.
 > The `brute` subcommand targets one or multiple hosts.
-> More information: <https://github.com/assetnote/kiterunner>.
+> More information: <https://github.com/assetnote/kiterunner#usage>.
 
 - Bruteforce a target with an Assetnote wordlist (e.g., first 20,000 API routes):
 

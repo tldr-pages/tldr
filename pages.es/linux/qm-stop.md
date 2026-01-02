@@ -1,7 +1,7 @@
 # qm stop
 
 > Detiene una máquina virtual.
-> Más información: <https://pve.proxmox.com/pve-docs/qm.1.html>.
+> Más información: <https://pve.proxmox.com/pve-docs/qm.1.html#cli_qm_stop>.
 
 - Detiene una máquina virtual inmediatamente:
 

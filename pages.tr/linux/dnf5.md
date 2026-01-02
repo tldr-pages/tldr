@@ -3,7 +3,7 @@
 > RHEL, Fedora ve CentOS için paket yönetim aracı (dnf'in yerini alır, dnf ise yum'un yerini almıştır).
 > DNF5, DNF paket yöneticisinin C++ ile yeniden yazılmış halidir; daha iyi performans ve daha küçük boyut sunar.
 > Diğer paket yöneticilerindeki eşdeğer komutlar için bkz: <https://wiki.archlinux.org/title/Pacman/Rosetta>.
-> Daha fazla bilgi için: <https://dnf5.readthedocs.io>.
+> Daha fazla bilgi için: <https://dnf5.readthedocs.io/en/latest/commands/index.html>.
 
 - Kurulu paketleri mevcut en yeni sürümlere yükselt:
 

@@ -1,7 +1,7 @@
 # playerctl
 
 > Control media players via MPRIS.
-> More information: <https://github.com/altdesktop/playerctl>.
+> More information: <https://github.com/altdesktop/playerctl#using-the-cli>.
 
 - Toggle play:
 

@@ -1,20 +1,20 @@
 # settings
 
 > Android OS সম্পর্কে তথ্য পান।
-> আরও তথ্য পাবেন: <https://web.archive.org/web/20240525010124/https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
+> আরও তথ্য পাবেন: <https://web.archive.org/web/20240525010124/https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>।
 
-- `global` নামস্থানে সেটিংসের একটি তালিকা প্রদর্শন করুন:
+- global নেমস্পেসের সেটিংসগুলোর তালিকা দেখুন:
 
 `settings list {{গ্লোবাল}}`
 
-- একটি নির্দিষ্ট সেটিং এর মান পান:
+- নির্দিষ্ট কোনো সেটিংসের মান বের করুন:
 
 `settings get {{global}} {{airplane_mode_on}}`
 
-- একটি সেটিং এর একটি নির্দিষ্ট মান সেট করুন:
+- নির্দিষ্ট কোনো সেটিংসের মান সেট করুন:
 
-`settings put {{system}} {{screen_brightness}} {{1..100}}`
+`settings put {{system}} {{screen_brightness}} {{42}}`
 
-- একটি নির্দিষ্ট সেটিং মুছুন:
+- নির্দিষ্ট কোনো সেটিংস ডিলিট করুন:
 
 `settings delete {{secure}} {{screensaver_enabled}}`

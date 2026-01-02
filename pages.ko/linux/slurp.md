@@ -1,7 +1,7 @@
 # slurp
 
 > Wayland 컴포지터에서 영역을 선택.
-> 더 많은 정보: <https://github.com/emersion/slurp>.
+> 더 많은 정보: <https://github.com/emersion/slurp/blob/master/slurp.1.scd>.
 
 - 영역을 선택하고 `stdout`에 출력:
 

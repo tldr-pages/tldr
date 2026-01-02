@@ -1,7 +1,7 @@
 # mcs
 
 > Mono C# Compiler.
-> More information: <https://manned.org/mcs.1>.
+> More information: <https://manned.org/mcs>.
 
 - Compile the specified files:
 

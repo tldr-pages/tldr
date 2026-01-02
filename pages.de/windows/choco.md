@@ -2,7 +2,7 @@
 
 > Ein Kommandozeilenwerkzeug für die Chocolatey Paketverwaltung.
 > Manche Unterbefehle wie `install` sind separat dokumentiert.
-> Weitere Informationen: <https://chocolatey.org>.
+> Weitere Informationen: <https://docs.chocolatey.org/en-us/choco/commands/>.
 
 - Führe einen Chocolatey-Befehl aus:
 

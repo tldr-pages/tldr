@@ -11,7 +11,7 @@
 
 `ibmcloud login -a {{api_endpoint}}`
 
-- Log in by providing username, password and the targeted region as parameters:
+- Log in by providing username, password, and the targeted region as parameters:
 
 `ibmcloud login -u {{username}} -p {{password}} -r {{us-south}}`
 

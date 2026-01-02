@@ -1,7 +1,7 @@
 # ghci
 
 > The Glasgow Haskell Compiler's interactive environment.
-> More information: <https://downloads.haskell.org/ghc/latest/docs/html/users_guide/ghci.html>.
+> More information: <https://downloads.haskell.org/ghc/latest/docs/users_guide/ghci.html>.
 
 - Start a REPL (interactive shell):
 

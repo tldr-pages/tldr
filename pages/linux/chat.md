@@ -2,9 +2,9 @@
 
 > Automate conversations with a modem or serial device.
 > Commonly used to establish PPP (Point-to-Point Protocol) connections.
-> More information: <https://manned.org/chat.8>.
+> More information: <https://manned.org/chat>.
 
-- Execute a chat script directly from the command line:
+- Execute a chat script directly:
 
 `chat '{{expect_send_pairs}}'`
 

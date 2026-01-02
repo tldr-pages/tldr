@@ -1,7 +1,7 @@
 # elm
 
 > Elm 소스 파일을 컴파일하고 실행.
-> 더 많은 정보: <https://elm-lang.org>.
+> 더 많은 정보: <https://guide.elm-lang.org/install/elm.html>.
 
 - Elm 프로젝트를 초기화하고, elm.json 파일을 생성:
 

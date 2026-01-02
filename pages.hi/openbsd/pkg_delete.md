@@ -1,7 +1,7 @@
 # pkg_delete
 
 > OpenBSD में पैकेज हटाएँ।
-> देखें: `pkg_add`, `pkg_info`।
+> यह भी देखें: `pkg_add`, `pkg_info`।
 > अधिक जानकारी: <https://man.openbsd.org/pkg_delete>।
 
 - एक पैकेज हटाएँ:

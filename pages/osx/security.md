@@ -1,6 +1,6 @@
 # security
 
-> Administer keychains, keys, certificates and the Security framework.
+> Administer keychains, keys, certificates, and the Security framework.
 > More information: <https://keith.github.io/xcode-man-pages/security.1.html>.
 
 - List all available keychains:

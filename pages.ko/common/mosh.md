@@ -2,7 +2,7 @@
 
 > Mobile Shell (`mosh`)는 SSH를 대체하는 강력하고 반응성이 뛰어난 도구입니다.
 > `mosh`는 네트워크를 이동하면서도 원격 서버와의 연결을 지속합니다.
-> 더 많은 정보: <https://mosh.org>.
+> 더 많은 정보: <https://manned.org/mosh>.
 
 - 원격 서버에 연결:
 

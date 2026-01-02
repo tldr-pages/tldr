@@ -1,7 +1,7 @@
 # keytool
 
 > Java에 포함된 인증서 관리 도구.
-> 더 많은 정보: <https://docs.oracle.com/en/java/javase/20/docs/specs/man/keytool.html>.
+> 더 많은 정보: <https://docs.oracle.com/en/java/javase/25/docs/specs/man/keytool.html>.
 
 - 키스토어 생성:
 

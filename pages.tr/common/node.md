@@ -1,7 +1,7 @@
 # node
 
 > Sunucu tarafı JavaScript platformu (Node.js).
-> Daha fazla bilgi için: <https://nodejs.org>.
+> Daha fazla bilgi için: <https://nodejs.org/docs/latest/api/cli.html#options>.
 
 - JavaScript dosyası çalıştır:
 

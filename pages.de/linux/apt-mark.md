@@ -1,7 +1,7 @@
 # apt-mark
 
 > Tool um den Status eines installierten Paketes zu verändern.
-> Weitere Informationen: <https://manned.org/apt-mark.8>.
+> Weitere Informationen: <https://manned.org/apt-mark>.
 
 - Markiere ein Paket als automatisch installiert:
 

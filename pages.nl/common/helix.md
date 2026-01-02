@@ -2,7 +2,7 @@
 
 > Helix, een post-moderne tekst bewerker, welke verschillende modi beschikbaar stelt tot verschillende manieren van tekst manipulatie.
 > Drukken op `<i>` begint invoegmodus. `<Esc>` begint normale modus, wat toegang geeft tot de Vim commando's.
-> Meer informatie: <https://helix-editor.com>.
+> Meer informatie: <https://manpages.debian.org/testing/hx/editor.1.en.html>.
 
 - Open een bestand:
 

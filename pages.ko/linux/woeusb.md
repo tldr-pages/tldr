@@ -1,7 +1,7 @@
 # woeusb
 
 > Windows 미디어 생성 도구.
-> 더 많은 정보: <https://github.com/WoeUSB/WoeUSB>.
+> 더 많은 정보: <https://manned.org/woeusb>.
 
 - USB를 포맷하고 부팅 가능한 Windows 설치 드라이브 생성:
 

@@ -2,7 +2,7 @@
 
 > Assess Google Cloud Platform (GCP) security best practices, audits, and compliance checks.
 > See also: `prowler`, `prowler-aws`, `prowler-azure`, `prowler-kubernetes`, `prowler-m365`, `prowler-github`.
-> More information: <https://docs.prowler.com/projects/prowler-open-source/en/latest/>.
+> More information: <https://docs.prowler.com/user-guide/cli/tutorials/misc>.
 
 - Run the default set of checks on all accessible GCP projects using default user credentials:
 
@@ -18,7 +18,7 @@
 
 - Run checks for selected GCP services:
 
-`prowler gcp {{[-s|--services]}} {{iam compute ...}}`
+`prowler gcp {{[-s|--services]}} {{iam|compute|...}}`
 
 - Run a specific GCP check:
 
@@ -26,4 +26,4 @@
 
 - Exclude specific checks or services:
 
-`prowler gcp {{[-e|--excluded-checks]}} {{gcp_storage_bucket_logging_enabled}} --exclude-services {{iam compute ...}}`
+`prowler gcp {{[-e|--excluded-checks]}} {{gcp_storage_bucket_logging_enabled}} --exclude-services {{iam|compute|...}}`

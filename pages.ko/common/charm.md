@@ -1,7 +1,7 @@
 # charm
 
 > 사용자 계정, 데이터 저장 및 암호화에 대해 걱정하지 않고 터미널 기반 애플리케이션에 백엔드를 추가할 수 있는 도구 세트.
-> 더 많은 정보: <https://github.com/charmbracelet/charm>.
+> 더 많은 정보: <https://manned.org/charm>.
 
 - Charm 계정 키를 백업:
 

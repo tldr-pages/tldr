@@ -1,7 +1,7 @@
 # nvcc
 
 > NVIDIA CUDA 컴파일러 드라이버.
-> 더 많은 정보: <https://docs.nvidia.com/cuda/cuda-compiler-driver-nvcc>.
+> 더 많은 정보: <https://docs.nvidia.com/cuda/cuda-compiler-driver-nvcc/>.
 
 - CUDA 프로그램 컴파일:
 

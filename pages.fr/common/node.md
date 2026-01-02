@@ -1,7 +1,7 @@
 # node
 
 > Plateforme JavaScript côté serveur.
-> Plus d'informations : <https://nodejs.org>.
+> Plus d'informations : <https://nodejs.org/docs/latest/api/cli.html#options>.
 
 - Éxecute un fichier JavaScript :
 
