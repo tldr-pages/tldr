@@ -31,7 +31,7 @@
 
 - Stampa tutte le linee dove il valore della decima colonna è tra un minimo e un massimo:
 
-`awk '($10 >= {{min_value}} && $10 <= {{max_value}})' {{percorso/del/file}}`
+`awk '($10 >= {{min_value}} && $10 <= {{max_value}})'`
 
 - Stampa una tabella degli utenti con UID >=1000 con intestazione e output formattato, usando i due punti come separatore (`%-20s` significa: 20 caratteri stringa allineati a sinistra, `%6s` significa: 6 caratteri stringa allineati a destra):
 
