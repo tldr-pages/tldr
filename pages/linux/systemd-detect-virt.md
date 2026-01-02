@@ -23,6 +23,6 @@
 
 `systemd-detect-virt {{[-v|--vm]}}`
 
-- Detect whether in a chroot() environment:
+- Detect whether in a `chroot` environment:
 
 `systemd-detect-virt {{[-r|--chroot]}}`
