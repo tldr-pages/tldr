@@ -31,3 +31,7 @@
 - Vraag de gebruiker om bevestiging voordat de opdracht wordt uitgevoerd (bevestig met `y` of `Y`):
 
 `{{argumenten_bron}} | xargs {{[-p|--interactive]}} {{commando}}`
+
+- Geef het commando toegang tot de terminal voor interactieve invoer:
+
+`{{argumenten_bron}} | xargs {{[-o|--open-tty]}} {{commando}}`
