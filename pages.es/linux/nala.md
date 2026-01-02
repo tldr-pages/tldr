@@ -16,7 +16,7 @@
 
 `nala purge {{paquete}}`
 
-- Busca nombres de paquetes y sus descripciones mediante una palabra, una expresión regular (por defecto) o mediante glob:
+- Busca nombres de paquetes y sus descripciones mediante una palabra, una `regex` (por defecto) o mediante glob:
 
 `nala search "{{patrón}}"`
 

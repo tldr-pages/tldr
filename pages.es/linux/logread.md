@@ -11,7 +11,7 @@
 
 `logread -l {{N}}`
 
-- Filtra los mensajes por (palabra clave/expresión regular):
+- Filtra los mensajes por (palabra clave/`regex`):
 
 `logread -e {{patrón}}`
 

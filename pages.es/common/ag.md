@@ -23,7 +23,7 @@
 
 `ag foo {{[-G|--file-search-regex]}} bar`
 
-- Busca archivos cuyo contenido coincida con una expresión regular:
+- Busca archivos cuyo contenido coincida con una `regex`:
 
 `ag '{{^ba(r|z)$}}'`
 

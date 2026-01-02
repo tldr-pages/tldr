@@ -4,7 +4,7 @@
 > Vea también: `man`.
 > Más información: <https://manned.org/apropos>.
 
-- Busca una palabra clave utilizando una expresión regular:
+- Busca una palabra clave utilizando una `regex`:
 
 `apropos {{expresion_regular}}`
 

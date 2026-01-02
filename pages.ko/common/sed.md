@@ -4,7 +4,7 @@
 > 같이 보기: `awk`, `ed`.
 > 더 많은 정보: <https://manned.org/sed.1posix>.
 
-- 모든 입력 줄에서 모든 `apple`(기본 정규식)항목을 `mango`(기본 정규식)로 바꾸고 결과를 `stdout`에 출력:
+- 모든 입력 줄에서 모든 `apple`(기본 `regex`)항목을 `mango`(기본 `regex`)로 바꾸고 결과를 `stdout`에 출력:
 
 `{{명령어}} | sed 's/apple/mango/g'`
 
