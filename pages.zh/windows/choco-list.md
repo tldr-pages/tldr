@@ -1,21 +1,21 @@
 # choco list
 
-> 使用 Chocolatey 显示包列表。
+> 使用 Chocolatey 列出软件包。
 > 更多信息：<https://docs.chocolatey.org/en-us/choco/commands/list/>。
 
-- 列出所有可用的包：
+- 列出所有可用的软件包：
   choco list
 
-- 列出所有本地已安装的包：
+- 列出本地已安装的软件包：
   choco list --local-only
 
-- 显示包含本地程序的列表：
+- 列出包含本地程序的软件包：
   choco list --include-programs
 
-- 仅显示已批准的包：
+- 仅列出已通过审核的软件包：
   choco list --approved-only
 
-- 从指定的源显示包：
+- 从指定的源列出软件包：
   choco list --source {{源_URL|别名}}
 
 - 提供用户名和密码进行身份验证：
