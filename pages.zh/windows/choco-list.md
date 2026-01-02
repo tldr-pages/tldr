@@ -4,25 +4,19 @@
 > 更多信息：<https://docs.chocolatey.org/en-us/choco/commands/list/>。
 
 - 列出所有可用的包：
-
-`choco list`
+  choco list
 
 - 列出所有本地已安装的包：
-
-`choco list --local-only`
+  choco list --local-only
 
 - 显示包含本地程序的列表：
+  choco list --include-programs
 
-`choco list {{[-i|--include-programs]}}`
+- 仅显示已批准的包：
+  choco list --approved-only
 
-- 只显示已批准的包：
+- 从指定的源显示包：
+  choco list --source {{源_URL|别名}}
 
-`choco list --approved-only`
-
-- Specify a custom source to display packages from 指定一个源来显示包列表：
-
-`choco list {{[-s|--source]}} {{源 URL|别名}}`
-
-- 提供一个用户名和密码来进行验证：
-
-`choco list --user {{用户名}} --password {{密码}}`
+- 提供用户名和密码进行身份验证：
+  choco list --user {{用户名}} --password {{密码}}
