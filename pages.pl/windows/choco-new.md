@@ -17,7 +17,7 @@
 
 - Utwórz nowy pakiet w podanym katalogu wyjściowym:
 
-`choco new {{nazwa_pakietu}} --output-directory {{ścieżka/do/katalogu/wyjściowego}}`
+`choco new {{nazwa_pakietu}} {{[--out|--output-directory]}} {{ścieżka/do/katalogu/wyjściowego}}`
 
 - Utwórz nowy pakiet podając specyficzne adresy URL instalatoró dla wersji 32-bit i 64-bit:
 

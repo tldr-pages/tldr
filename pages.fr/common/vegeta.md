@@ -1,7 +1,7 @@
 # vegeta
 
 > Un utilitaire de ligne de commande et une bibliothèque pour les tests de charge HTTP.
-> Voir aussi `ab`.
+> Voir aussi : `ab`.
 > Plus d'informations : <https://github.com/tsenart/vegeta#usage-manual>.
 
 - Lancer une attaque d'une durée de 30 secondes :

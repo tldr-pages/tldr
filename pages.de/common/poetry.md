@@ -1,6 +1,7 @@
 # poetry
 
 > Verwalte Python-Pakete und -Abhängigkeiten.
+> Siehe auch: `asdf`, `pipenv`, `hatch`.
 > Weitere Informationen: <https://python-poetry.org/docs/cli/>.
 
 - Erstelle ein neues Poetry-Projekt im Verzeichnis mit dem angegebenem Namen:

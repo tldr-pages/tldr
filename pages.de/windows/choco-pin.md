@@ -10,12 +10,12 @@
 
 - Hefte ein Paket in der installierten Version an:
 
-`choco pin add --name {{paket}}`
+`choco pin add {{[-n|--name]}} {{paket}}`
 
 - Hefte ein Paket in einer bestimmten Version an:
 
-`choco pin add --name {{paket}} --version {{version}}`
+`choco pin add {{[-n|--name]}} {{paket}} --version {{version}}`
 
 - Entferne die Anheftung für ein bestimmtes Paket:
 
-`choco pin remove --name {{paket}}`
+`choco pin remove {{[-n|--name]}} {{paket}}`

@@ -1,7 +1,7 @@
 # acyclic
 
 > Make a directed graph acyclic by reversing some edges.
-> Graphviz filters: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, & `unflatten`.
+> Graphviz filters: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, and `unflatten`.
 > More information: <https://graphviz.org/pdf/acyclic.1.pdf>.
 
 - Make a directed graph acyclic by reversing some edges:

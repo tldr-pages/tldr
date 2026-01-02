@@ -1,7 +1,7 @@
 # minetestserver
 
-> このコマンドは `luantiserver` のエイリアスです。
+> このコマンドは `luanti --server` のエイリアスです。
 
 - オリジナルのコマンドのドキュメントを表示する:
 
-`tldr luantiserver`
+`tldr luanti`

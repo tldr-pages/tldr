@@ -17,7 +17,7 @@
 
 - 특정 경로에 대한 요청만 표시:
 
-`varnishlog -q 'ReqURL eq "{{/경로}}"'`
+`varnishlog -q 'ReqURL eq "/{{경로}}"'`
 
 - 정규 표현식과 일치하는 경로에 대한 요청만 표시:
 

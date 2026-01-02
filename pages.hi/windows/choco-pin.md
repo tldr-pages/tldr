@@ -10,12 +10,12 @@
 
 - एक पैकेज को उसके वर्तमान संस्करण पर पिन करें:
 
-`choco pin add --name {{पैकेज}}`
+`choco pin add {{[-n|--name]}} {{पैकेज}}`
 
 - एक पैकेज को एक विशिष्ट संस्करण पर पिन करें:
 
-`choco pin add --name {{पैकेज}} --version {{संस्करण}}`
+`choco pin add {{[-n|--name]}} {{पैकेज}} --version {{संस्करण}}`
 
 - एक विशिष्ट पैकेज के लिए एक पिन हटा दें:
 
-`choco pin remove --name {{पैकेज}}`
+`choco pin remove {{[-n|--name]}} {{पैकेज}}`

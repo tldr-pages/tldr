@@ -192,6 +192,12 @@ function check_diff {
         percentage=${percentage#0}
 
         printf "\x2d $MSG_IS_COPY" "$file2" "$file1" "$percentage"
+
+        check_duplicates "$file2"
+        check_missing_english_page "$file2"
+        check_outdated_page "$file2"
+        check_more_info_link "$file2"
+        check_page_title "$file2"
         ;;
 
       A) # file1 was newly added

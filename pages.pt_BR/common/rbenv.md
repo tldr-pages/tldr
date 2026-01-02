@@ -1,6 +1,7 @@
 # rbenv
 
 > Ferramenta que facilita a instalação e gerenciamento de múltiplas versões da linguagem Ruby.
+> Veja também: `asdf`.
 > Mais informações: <https://manned.org/rbenv>.
 
 - Instala uma ou mais versões, separadas por espaço:

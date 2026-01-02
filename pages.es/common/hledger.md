@@ -1,7 +1,7 @@
 # hledger
 
 > Una aplicación de contabilidad en texto plano que es robusta y fácil de usar.
-> Vea también: `hledger-ui` para la TUI, `hledger-web` para la interfaz web.
+> Vea también: `hledger-ui`, `hledger-web`.
 > Más información: <https://hledger.org/hledger.html>.
 
 - Registra nuevas transacciones interactivamente, guardándolas en el archivo de diario por defecto:

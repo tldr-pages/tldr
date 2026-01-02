@@ -2,7 +2,7 @@
 
 > Crea accesos directos para comandos de Git.
 > Parte de `git-extras`.
-> Más información: <https://github.com/tj/git-extras/blob/master/Commands.md#git-alias>.
+> Más información: <https://github.com/tj/git-extras/blob/main/Commands.md#git-alias>.
 
 - Lista todos los alias:
 

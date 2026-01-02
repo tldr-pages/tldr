@@ -1,7 +1,7 @@
 # fstopgm
 
 > Usenix FaceSaver 파일을 PGM 이미지로 변환.
-> 참고: `pgmtofs`.
+> 같이 보기: `pgmtofs`.
 > 더 많은 정보: <https://netpbm.sourceforge.net/doc/fstopgm.html>.
 
 - 지정된 Usenix FaceSaver 파일을 PGM 이미지로 변환:

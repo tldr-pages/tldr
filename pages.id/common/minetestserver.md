@@ -1,7 +1,7 @@
 # minetestserver
 
-> Perintah ini merupakan alias dari `luantiserver`.
+> Perintah ini merupakan alias dari `luanti --server`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr luantiserver`
+`tldr luanti`

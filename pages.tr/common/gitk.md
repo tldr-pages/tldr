@@ -1,6 +1,7 @@
 # gitk
 
 > Görsel Git depo tarayıcısı.
+> Ayrıca bakınız: `git-gui`, `git-cola`, `tig`.
 > Daha fazla bilgi için: <https://git-scm.com/docs/gitk>.
 
 - Mevcut Git deposu için depo tarayıcısını göster:
@@ -13,11 +14,11 @@
 
 - 1 hafta önceden beri yapılan commit'leri göster:
 
-`gitk --since="{{1 week ago}}"`
+`gitk --since="1 week ago"`
 
-- 1/1/2016 tarihinden önceki commit'leri göster:
+- 1/1/2015 tarihinden önceki commit'leri göster:
 
-`gitk --until="{{1/1/2016}}"`
+`gitk --until="1/1/2015"`
 
 - Tüm dallarda en fazla 100 değişiklik göster:
 

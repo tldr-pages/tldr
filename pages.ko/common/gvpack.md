@@ -1,7 +1,7 @@
 # gvpack
 
 > 여러 그래프 레이아웃 (이미 레이아웃 정보가 있음을 결합)을 결합.
-> 그래프비즈 필터: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, & `unflatten`.
+> 그래프비즈 필터: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, 및 `unflatten`.
 > 더 많은 정보: <https://graphviz.org/pdf/gvpack.1.pdf>.
 
 - 이미 레이아웃 정보가 있는 여러 그래프 레이아웃을 결합:

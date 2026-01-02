@@ -1,7 +1,7 @@
 # ack
 
 > Sebuah alat pencari teks seperti `grep` yang dikhususkan bagi para pengembang perangkat lunak.
-> Lihat juga: `rg`, yang dapat mencari dengan lebih cepat.
+> Lihat juga: `rg`.
 > Informasi lebih lanjut: <https://beyondgrep.com/documentation/>.
 
 - Cari file dalam direktori saat ini yang mengandung string atau kriteria dalam ekspresi reguler:

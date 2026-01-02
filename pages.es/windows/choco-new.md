@@ -17,7 +17,7 @@
 
 - Crear un nuevo paquete en un directorio de salida personalizado:
 
-`choco new {{paquete}} --output-directory {{ruta/al/directorio}}`
+`choco new {{paquete}} {{[--out|--output-directory]}} {{ruta/al/directorio}}`
 
 - Crear un nuevo paquete con URLs de instalador específicas para 32 bits y 64 bits:
 

@@ -1,7 +1,7 @@
 # qwen
 
 > 使用 Qwen3-Coder 启动一个交互式提示。
-> 请参阅：`gemini`.
+> 另请参阅：`gemini`。
 > 更多信息：<https://github.com/QwenLM/qwen-code>。
 
 - 启动一个 REPL 会话以进行交互式对话：

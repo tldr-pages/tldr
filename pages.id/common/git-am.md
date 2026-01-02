@@ -1,7 +1,7 @@
 # git am
 
 > Gunakan perubahan dari file deskripsi perubahan (patch) untuk melakukan sebuah komit. Dapat digunakan untuk menerima komit melalui surel/email.
-> Lihat juga `git format-patch` untuk membuat file deskripsi perubahan/patch.
+> Lihat juga: `git format-patch`.
 > Informasi lebih lanjut: <https://git-scm.com/docs/git-am>.
 
 - Gunakan dan komit perubahan dari file patch dalam direktori lokal:

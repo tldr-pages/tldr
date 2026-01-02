@@ -1,6 +1,7 @@
 # git apply
 
 > İndeks veya dosyalara yama uygula.
+> Ayrıca bakınız: `git am`.
 > Daha fazla bilgi için: <https://git-scm.com/docs/git-apply>.
 
 - Yamalanan dosyalarla ilgili mesajları yazdır:

@@ -1,7 +1,7 @@
 # clementine
 
 > Un moderno reproductor de música y organizador de bibliotecas.
-> Ver también: `audacious`, `qmmp`, `cmus`, `mpv`.
+> Vea también: `audacious`, `qmmp`, `cmus`, `mpv`.
 > Más información: <https://manned.org/clementine>.
 
 - Inicia la GUI o la trae al frente:

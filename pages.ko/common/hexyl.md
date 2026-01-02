@@ -1,6 +1,7 @@
 # hexyl
 
 > 터미널용 간단한 16진수 뷰어. 다양한 카테고리의 바이트를 구별하기 위해 컬러 출력을 사용.
+> 같이 보기: `od`, `xxd`, `hexdump`.
 > 더 많은 정보: <https://github.com/sharkdp/hexyl/blob/master/doc/hexyl.1.md>.
 
 - 파일의 16진수 표현을 출력:

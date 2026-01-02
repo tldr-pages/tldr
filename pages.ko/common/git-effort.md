@@ -2,7 +2,7 @@
 
 > 파일의 활동량을 표시하며, 파일별 커밋 수와 "활성 일수" 즉, 파일에 기여한 총 일수를 보여줍니다.
 > `git-extras`의 일부입니다.
-> 더 많은 정보: <https://github.com/tj/git-extras/blob/master/Commands.md#git-effort>.
+> 더 많은 정보: <https://github.com/tj/git-extras/blob/main/Commands.md#git-effort>.
 
 - 저장소의 각 파일에 대해 커밋 수와 활성 일수를 표시:
 

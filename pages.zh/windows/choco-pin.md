@@ -10,12 +10,12 @@
 
 - 将一个包固定至当前版本：
 
-`choco pin add --name {{包名}}`
+`choco pin add {{[-n|--name]}} {{包名}}`
 
 - 将一个包固定直指定的版本：
 
-`choco pin add --name {{包名}} --version {{版本号}}`
+`choco pin add {{[-n|--name]}} {{包名}} --version {{版本号}}`
 
 - 移除指定包的固定状态：
 
-`choco pin remove --name {{包名}}`
+`choco pin remove {{[-n|--name]}} {{包名}}`

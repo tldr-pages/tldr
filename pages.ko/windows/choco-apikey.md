@@ -9,12 +9,12 @@
 
 - 특정 소스 및 해당 API 키 표시:
 
-`choco apikey --source "{{소스_URL}}"`
+`choco apikey {{[-s|--source]}} "{{소스_URL}}"`
 
 - 소스에 대한 API 키 설정:
 
-`choco apikey --source "{{소스_URL}}" --key "{{API_키}}"`
+`choco apikey {{[-s|--source]}} "{{소스_URL}}" {{[-k|--api-key]}} "{{API_키}}"`
 
 - 소스에 대한 API 키 제거:
 
-`choco apikey --source "{{소스_URL}}" --remove`
+`choco apikey {{[-s|--source]}} "{{소스_URL}}" --remove`

@@ -1,6 +1,7 @@
 # iwctl
 
 > Un outil de ligne de commande pour gérer iwd.
+> Voir aussi : `nmcli`, `iw`.
 > Plus d'informations : <https://manned.org/iwctl>.
 
 - Lancer le mode interactif, dans ce mode vous pouvez entrer les commandes directement, avec de l'auto-complétion :

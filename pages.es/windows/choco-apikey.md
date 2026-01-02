@@ -9,12 +9,12 @@
 
 - Mostrar una fuente específica y su clave API:
 
-`choco apikey --source "{{url_fuente}}"`
+`choco apikey {{[-s|--source]}} "{{url_fuente}}"`
 
 - Establecer una clave API para una fuente:
 
-`choco apikey --source "{{url_fuente}}" --key "{{clave_api}}"`
+`choco apikey {{[-s|--source]}} "{{url_fuente}}" {{[-k|--api-key]}} "{{clave_api}}"`
 
 - Eliminar una clave API para una fuente:
 
-`choco apikey --source "{{url_fuente}}" --remove`
+`choco apikey {{[-s|--source]}} "{{url_fuente}}" --remove`

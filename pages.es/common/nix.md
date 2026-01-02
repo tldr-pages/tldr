@@ -1,8 +1,9 @@
 # nix
 
 > Un potente gestor de paquetes que hace la gestión de paquetes fiable, reproducible y declarativa.
-> `nix` es experimental y requiere permitir funcionalidades experimentales. Para una interfaz clásica y estable, vea también `tldr nix classic`.
+> `nix` es experimental y requiere permitir funcionalidades experimentales.
 > Algunos subcomandos como `build`, `develop`, `flake`, `registry`, `profile`, `search`, `repl`, `store`, `edit`, `why-depends`, etc. tienen sus propias páginas.
+> Vea también: `nix classic`.
 > Más información: <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix>.
 
 - Habilita el comando `nix`:

@@ -14,7 +14,7 @@
 
 - Sla een video op als GIF, schaal de hoogte naar 1000px en stel de framerate in op 15:
 
-`ffmpeg -i {{pad/naar/video.mp4}} {{[-vf|-filter:v]}} 'scale=-1:{{1000}}' -r {{15}} {{pad/naar/output.gif}}`
+`ffmpeg -i {{pad/naar/video.mp4}} {{[-vf|-filter:v]}} 'scale=-1:1000' -r 15 {{pad/naar/output.gif}}`
 
 - Combineer genummerde afbeeldingen (`frame_1.jpg`, `frame_2.jpg`, etc) tot een video of GIF:
 

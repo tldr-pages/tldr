@@ -2,6 +2,7 @@
 
 > NetworkManager를 제어하기 위한 텍스트 사용자 인터페이스.
 > `<ArrowKeys>`로 탐색하고, `<Enter>` 키로 옵션을 선택하세요.
+> 같이 보기: `nmcli`.
 > 더 많은 정보: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmtui.html>.
 
 - 사용자 인터페이스 열기:

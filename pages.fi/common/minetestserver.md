@@ -1,7 +1,7 @@
 # minetestserver
 
-> Tämä on alias komennolle `luantiserver`.
+> Tämä on alias komennolle `luanti --server`.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr luantiserver`
+`tldr luanti`

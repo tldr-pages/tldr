@@ -1,7 +1,7 @@
 # unflatten
 
 > 방향 그래프의 레이아웃 가로 세로 비율을 개선하기 위해 조정.
-> Graphviz 필터: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, & `unflatten`.
+> Graphviz 필터: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, 및 `unflatten`.
 > 더 많은 정보: <https://www.graphviz.org/pdf/unflatten.1.pdf>.
 
 - 하나 이상의 방향 그래프를 조정하여 레이아웃 가로 세로 비율을 개선:

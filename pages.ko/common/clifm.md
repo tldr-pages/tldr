@@ -1,7 +1,7 @@
 # clifm
 
 > 명령줄 파일 관리자.
-> 참고: `vifm`, `ranger`, `mc`, `nautilus`.
+> 같이 보기: `vifm`, `ranger`, `mc`, `nautilus`.
 > 더 많은 정보: <https://github.com/leo-arch/clifm>.
 
 - CliFM 시작:

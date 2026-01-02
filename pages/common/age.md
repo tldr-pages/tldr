@@ -1,7 +1,7 @@
 # age
 
 > A simple, modern, and secure file encryption tool.
-> See also: `age-keygen` for generating key pairs.
+> See also: `age-keygen`.
 > More information: <https://github.com/FiloSottile/age#usage>.
 
 - Generate an encrypted file that can be decrypted with a passphrase:
