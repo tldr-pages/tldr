@@ -2,6 +2,7 @@
 
 > 빠르고 플랫폼 간에 호환되는 패키지 관리자로, conda의 대체품으로 설계되었습니다.
 > `repoquery`와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
+> 같이 보기: `conda`.
 > 더 많은 정보: <https://mamba.readthedocs.io/en/latest/user_guide/mamba.html>.
 
 - 새 환경을 생성하고 지정한 패키지를 설치:

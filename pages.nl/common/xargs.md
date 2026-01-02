@@ -2,6 +2,7 @@
 
 > Voer een commando uit met doorgegeven argumenten van een ander commando, een bestand, etc.
 > De invoer wordt behandeld als een enkel tekstblok en gesplitst in afzonderlijke stukken op spaties, tabbladen, nieuwe regels en einde-van-bestand.
+> Zie ook: `parallel`.
 > Meer informatie: <https://www.gnu.org/software/findutils/manual/html_mono/find.html#Invoking-xargs>.
 
 - Voer een commando uit met de invoergegevens als argumenten:

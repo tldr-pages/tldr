@@ -2,6 +2,7 @@
 
 > Acelerador de descargas.
 > Protocolos soportados HTTP, HTTPS y FTP.
+> Vea también: `aria2c`.
 > Más información: <https://manned.org/axel>.
 
 - Descarga un archivo alojado en una URL:

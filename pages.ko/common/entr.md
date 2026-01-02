@@ -1,6 +1,7 @@
 # entr
 
 > 파일이 변경되면 임의의 명령을 실행.
+> 같이 보기: `watchexec`.
 > 더 많은 정보: <https://eradman.com/entrproject/>.
 
 - 하위 디렉터리의 파일이 변경되면 `make`로 다시 빌드:

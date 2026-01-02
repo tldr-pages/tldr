@@ -1,6 +1,7 @@
 # entr
 
 > Uruchom dowolną komendę, gdy zmieni się plik.
+> Zobacz także: `watchexec`.
 > Więcej informacji: <https://eradman.com/entrproject/>.
 
 - Przebuduj projekt używając `make`, jeżeli zmiemi się którykolwiek z plików w podkatalogu:

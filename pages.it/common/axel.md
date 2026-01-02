@@ -2,6 +2,7 @@
 
 > Downloader accelerato.
 > Supporta HTTP, HTTPS e FTP.
+> Vedi anche: `aria2c`.
 > Maggiori informazioni: <https://manned.org/axel>.
 
 - Scarica un file da un URL:

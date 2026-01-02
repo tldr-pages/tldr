@@ -2,6 +2,7 @@
 
 > ابزاری برای دانلود سریع.
 > قابلیت پشتیبانی از Http(s), FTP, SFTP, BitTorrent, Metalink.
+> همچنین : `axel`.
 > اطلاعات بیشتر: <https://aria2.github.io/manual/en/html/aria2c.html>.
 
 - دانلود لینک موردنظر و ذخیره در فایل:

@@ -1,7 +1,7 @@
 # jupyter lab
 
 > Interactieve ontwikkelomgeving voor Jupyter notebooks.
-> Meer informatie: <https://jupyterlab.readthedocs.io/en/stable/>.
+> Meer informatie: <https://jupyterlab.readthedocs.io/en/stable/getting_started/starting.html>.
 
 - Start JupyterLab:
 

@@ -2,7 +2,7 @@
 
 > Aplicação web para criar e compartilhar documentos que contem código, visualizações e anotações.
 > Usado principalmente para análise de dados, computação científica e aprendizado de máquinas (machine learning).
-> Mais informações: <https://docs.jupyter.org/en/latest/>.
+> Mais informações: <https://docs.jupyter.org/en/latest/use/jupyter-command.html>.
 
 - Inicia um servidor de notebooks Jupyter no diretório atual:
 
