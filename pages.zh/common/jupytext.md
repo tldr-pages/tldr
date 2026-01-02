@@ -25,4 +25,4 @@
 
 - 更新笔记本的所有配对表示：
 
-`jupytext --sync {{notebook}}.ipynb`
+`jupytext {{[-s|--sync]}} {{notebook}}.ipynb`

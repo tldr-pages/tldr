@@ -6,7 +6,7 @@
 
 - 하위 디렉터리의 파일이 변경되면 `make`로 다시 빌드:
 
-`{{ag -l}} | entr {{make}}`
+`{{ag --files-with-matches}} | entr {{make}}`
 
 - 현재 디렉터리에 `.c` 소스 파일이 변경되면 `make`로 다시 빌드하고 테스트:
 

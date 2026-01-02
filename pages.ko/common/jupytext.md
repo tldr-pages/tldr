@@ -25,4 +25,4 @@
 
 - 노트북의 모든 쌍으로 연결된 표현 업데이트:
 
-`jupytext --sync {{노트북}}.ipynb`
+`jupytext {{[-s|--sync]}} {{노트북}}.ipynb`
