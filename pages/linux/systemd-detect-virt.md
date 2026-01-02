@@ -22,3 +22,7 @@
 - Only detect hardware virtualization:
 
 `systemd-detect-virt {{[-v|--vm]}}`
+
+- Detect whether in a chroot() environment:
+
+`systemd-detect-virt {{[-r|--chroot]}}`
