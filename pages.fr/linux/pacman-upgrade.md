@@ -1,7 +1,7 @@
 # pacman --upgrade
 
 > Mets à jour ou ajoute des paquets au système.
-> Voir aussi: `pacman`.
+> Voir aussi : `pacman`.
 > Plus d'informations : <https://manned.org/pacman.8>.
 
 - Installe un ou des paquets depuis le système de fichiers :

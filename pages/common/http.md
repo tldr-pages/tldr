@@ -1,6 +1,7 @@
 # http
 
 > HTTPie: an HTTP client designed for testing, debugging, and generally interacting with APIs and HTTP servers.
+> See also: `xh`.
 > More information: <https://httpie.io/docs/cli/usage>.
 
 - Make a simple GET request (shows response headers and content):

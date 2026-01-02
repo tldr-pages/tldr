@@ -2,7 +2,7 @@
 
 > Analiza los registros en busca de mensajes relativos a permisos denegados.
 > Genera un informe de las reglas de Type Enforcement (TE) que podrían permitir operaciones con éxito.
-> Vea también: `audit2why`.
+> Vea también: `audit2why`, `ausearch`, `semodule`.
 > Más información: <https://manned.org/audit2allow>.
 
 - Muestra todos los mensajes generados en los registros de auditoría y mensajes:

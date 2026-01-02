@@ -1,7 +1,7 @@
 # pacman --files
 
 > Interagis avec les bases de données de fichiers.
-> Voir aussi: `pacman`, `pkgfile`.
+> Voir aussi : `pacman`, `pkgfile`.
 > Plus d'informations : <https://manned.org/pacman.8>.
 
 - Mets à jour les bases de données des fichiers :

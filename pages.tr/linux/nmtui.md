@@ -2,6 +2,7 @@
 
 > NetworkManager'ı denetlemek için metin tabanlı kullanıcı arayüzü.
 > Gezinmek için `<ArrowKeys>`, seçmek için `<Enter>` tuşunu kullanın.
+> Ayrıca bakınız: `nmcli`.
 > Daha fazla bilgi için: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmtui.html>.
 
 - Kullanıcı arayüzünü aç:

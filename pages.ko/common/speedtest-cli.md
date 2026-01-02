@@ -1,6 +1,7 @@
 # speedtest-cli
 
 > <https://speedtest.net>를 사용하여 인터넷 대역폭 테스트.
+> 같이 보기: `speedtest`.
 > 더 많은 정보: <https://github.com/sivel/speedtest-cli>.
 
 - 속도 테스트 실행:

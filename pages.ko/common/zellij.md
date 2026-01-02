@@ -1,7 +1,7 @@
 # zellij
 
 > 배터리가 포함된 터미널 멀티플렉서.
-> 같이 보기: `tmux` 및 `screen`.
+> 같이 보기: `tmux`, `screen`.
 > 더 많은 정보: <https://zellij.dev/documentation/>.
 
 - 새 세션 시작:

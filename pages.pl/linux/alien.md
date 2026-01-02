@@ -1,6 +1,7 @@
 # alien
 
 > Konwertuj różne pakiety instalacyjne na inne formaty.
+> Zobacz także: `debtap`.
 > Więcej informacji: <https://manned.org/alien>.
 
 - Konwertuj wskazany plik instalacyjny do formatu Debiana (rozszerzenie `.deb`):

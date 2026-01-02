@@ -1,6 +1,7 @@
 # compgen
 
 > Un comando incorporado para autocompletar en Bash, que es invocado al presionar la tecla `<Tab>` dos veces.
+> Vea también: `complete`, `compopt`.
 > Más información: <https://www.gnu.org/software/bash/manual/bash.html#index-compgen>.
 
 - Lista todos los comandos que puedes ejecutar:

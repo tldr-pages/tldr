@@ -1,6 +1,7 @@
 # ffmpeg
 
 > Ferramenta de conversão de vídeo.
+> Veja também: `gst-launch-1.0`.
 > Mais informações: <https://ffmpeg.org/ffmpeg.html#Options>.
 
 - Extrai o som de um vídeo e salva-o como MP3:

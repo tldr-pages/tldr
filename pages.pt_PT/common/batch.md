@@ -2,6 +2,7 @@
 
 > Executar comandos num momento mais tarde quando a carga do sistema permitir.
 > O serviço atd (ou atrun) deve correr para atuais execuções.
+> Veja também: `at`, `atq`, `atrm`, `mail`.
 > Mais informações: <https://manned.org/batch>.
 
 - Executa comandos da entrada padrão (premir `<Ctrl d>` quando terminado):

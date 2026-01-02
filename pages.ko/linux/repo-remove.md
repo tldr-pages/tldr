@@ -1,6 +1,7 @@
 # repo-remove
 
 > 로컬 저장소에서 패키지를 제거하는 패키지 데이터베이스 유지 관리 도구.
+> 같이 보기: `repo-add`.
 > 더 많은 정보: <https://manned.org/repo-add>.
 
 - 로컬 저장소에서 패키지 제거:

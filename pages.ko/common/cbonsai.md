@@ -1,6 +1,7 @@
 # cbonsai
 
 > 아름답고 랜덤한 분재 나무 생성도구.
+> 같이 보기: `cmatrix`, `asciiquarium`, `pipes.sh`.
 > 더 많은 정보: <https://gitlab.com/jallbrit/cbonsai>.
 
 - 라이브 모드에서 분재를 생성:

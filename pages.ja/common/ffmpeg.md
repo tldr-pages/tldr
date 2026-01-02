@@ -1,6 +1,7 @@
 # ffmpeg
 
 > 動画変換ツールです。
+> 参照: `gst-launch-1.0`。
 > もっと詳しく: <https://ffmpeg.org/ffmpeg.html#Options>。
 
 - ビデオからサウンドを抽出し、MP3 として保存:

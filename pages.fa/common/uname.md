@@ -1,6 +1,7 @@
 # uname
 
 > نمایش اطلاعاتی درباره سخت افزار و سیستم عامل.
+> همچنین : `lsb_release`.
 > اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/manual/html_node/uname-invocation.html>.
 
 - نمایش اطلاعات مربوط به سخت افزار و پردازنده سیستم:

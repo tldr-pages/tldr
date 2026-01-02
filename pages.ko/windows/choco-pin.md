@@ -10,12 +10,12 @@
 
 - 현재 버전으로 패키지를 고정:
 
-`choco pin add --name {{패키지}}`
+`choco pin add {{[-n|--name]}} {{패키지}}`
 
 - 특정 버전으로 패키지를 고정:
 
-`choco pin add --name {{패키지}} --version {{버전}}`
+`choco pin add {{[-n|--name]}} {{패키지}} --version {{버전}}`
 
 - 특정 패키지에 대한 고정을 제거:
 
-`choco pin remove --name {{패키지}}`
+`choco pin remove {{[-n|--name]}} {{패키지}}`

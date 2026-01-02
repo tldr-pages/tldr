@@ -1,7 +1,7 @@
 # ar
 
 > Crea, modifica y extrae de archivos Unix. Típicamente utilizado para bibliotecas estáticas (`.a`) y paquetes Debian (`.deb`).
-> Vea también: `tar`, `ranlib`.
+> Vea también: `tar`.
 > Más información: <https://manned.org/ar>.
 
 - E[x]trae todos los miembros de un archivo:

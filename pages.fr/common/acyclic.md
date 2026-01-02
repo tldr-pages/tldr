@@ -1,7 +1,7 @@
 # acyclic
 
 > Construit un graphe orienté acyclique en inversant quelques sommets.
-> Filtres Graphviz : `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, & `unflatten`.
+> Filtres Graphviz : `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, et `unflatten`.
 > Plus d'informations : <https://graphviz.org/pdf/acyclic.1.pdf>.
 
 - Construit un graphe orienté acyclique en inversant quelques sommets :

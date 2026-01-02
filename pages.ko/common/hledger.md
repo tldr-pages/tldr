@@ -1,6 +1,7 @@
 # hledger
 
 > 강력하고 사용하기 쉬운 텍스트 기반 회계 앱.
+> 같이 보기: `hledger-ui`, `hledger-web`.
 > 더 많은 정보: <https://hledger.org/hledger.html>.
 
 - 새로운 거래를 대화형으로 기록하고 기본 저널 파일에 저장:

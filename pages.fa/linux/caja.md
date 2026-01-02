@@ -1,6 +1,7 @@
 # caja
 
 > مدیریت فایلها و پوشه ها در محیط دسکتاپ MATE.
+> همچنین : `nautilus`, `dolphin`, `thunar`, `ranger`.
 > اطلاعات بیشتر: <https://manned.org/caja>.
 
 - باز کردن پوشه خانگی کاربر کنونی:

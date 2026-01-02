@@ -1,7 +1,7 @@
 # apm
 
 > Gestionnaire de paquets pour Atom.
-> Voir `atom`.
+> Voir aussi : `atom`.
 > Plus d'informations : <https://github.com/atom/apm>.
 
 - Installe un paquet depuis <http://atom.io/packages> ou un thème depuis <http://atom.io/themes> :

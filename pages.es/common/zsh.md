@@ -1,7 +1,7 @@
 # zsh
 
 > Z SHell, un intérprete de línea de comandos compatible con Bash.
-> Vea también: `!` para la expansión del historial.
+> Vea también: `bash`, `!`, `^`.
 > Más información: <https://zsh.sourceforge.io/Doc/Release/Invocation.html#Invocation>.
 
 - Comienza una sesión interactiva en el intérprete de comandos:

@@ -1,7 +1,7 @@
 # escp2topbm
 
 > PBM를 ESC/P2 프린터 파일로 변환.
-> 참고: `pbmtoescp2`.
+> 같이 보기: `pbmtoescp2`.
 > 더 많은 정보: <https://netpbm.sourceforge.net/doc/escp2topbm.html>.
 
 - ESC/P2 프린터 파일을 PBM 이미지로 변환:

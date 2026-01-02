@@ -1,6 +1,7 @@
 # kwrite
 
 > KDE ഡെസ്ക്ടോപ് പ്രോജക്ടിന്റെ ടെക്സ്റ്റ് എഡിറ്റർ.
+> ഇതും കാണുക: `kate`.
 > കൂടുതൽ വിവരങ്ങൾ: <https://docs.kde.org/stable5/en/kate/kwrite/command-line-options.html>.
 
 - ഒരു ടെക്സ്റ്റ് ഫയൽ ഓപ്പൺ ചെയ്യുവാൻ:
