@@ -1,7 +1,7 @@
 # nix build
 
 > 构建 Nix 表达式（尽可能从缓存下载）。
-> 另请参阅：`nix-build`，`nix flake`。
+> 另请参阅：`nix-build`, `nix flake`。
 > 更多信息：<https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-build.html>。
 
 - 从 nixpkgs 构建包，并将结果符号链接到 `./result`：
