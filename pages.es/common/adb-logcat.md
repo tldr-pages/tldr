@@ -7,7 +7,7 @@
 
 `adb logcat`
 
-- Muestra las líneas que coincidan con una expresión regular:
+- Muestra las líneas que coincidan con una `regex`:
 
 `adb logcat -e {{expresión_regular}}`
 

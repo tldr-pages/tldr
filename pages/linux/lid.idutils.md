@@ -16,7 +16,7 @@
 
 `lid {{[-i|--ignore-case]}} {{token}}`
 
-- Find tokens matching an extended regular expression:
+- Find tokens matching an extended `regex`:
 
 `lid {{[-r|--regexp]}} "{{pattern}}"`
 

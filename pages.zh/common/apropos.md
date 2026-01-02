@@ -4,7 +4,7 @@
 > 另请参阅：`man`。
 > 更多信息：<https://manned.org/apropos>。
 
-- 使用正则表达式搜索关键字：
+- 使用`regex`式搜索关键字：
 
 `apropos {{正则表达式}}`
 

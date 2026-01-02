@@ -4,7 +4,7 @@
 > Zobacz także: `awk`, `ed`.
 > Więcej informacji: <https://man.netbsd.org/sed.1>.
 
-- Zamień wszystkie wystąpienia `jabłko` (podstawowe wyrażenie regularne) na `mango` (podstawowe wyrażenie regularne) we wszystkich liniach wejściowych i wypisz wynik do `stdout`:
+- Zamień wszystkie wystąpienia `jabłko` (podstawowe `regex`) na `mango` (podstawowe `regex`) we wszystkich liniach wejściowych i wypisz wynik do `stdout`:
 
 `{{komenda}} | sed 's/jabłko/mango/g'`
 
@@ -16,11 +16,11 @@
 
 `{{komenda}} | sed -fa {{ścieżka/do/skryptu.sed}}`
 
-- Włącz rozszerzenie GNU re[g]ex:
+- Włącz rozszerzenie [g]NU `regex`:
 
 `{{komenda}} | sed -fg {{ścieżka/do/skryptu.sed}}`
 
-- Zamień wszystkie wystąpienia `jabłko` (rozszerzone wyrażenie regularne) na `JABŁKO` (rozszerzone wyrażenie regularne) we wszystkich liniach wejściowych i wypisz wynik do `stdout`:
+- Zamień wszystkie wystąpienia `jabłko` (rozszerzone `regex`) na `JABŁKO` (rozszerzone `regex`) we wszystkich liniach wejściowych i wypisz wynik do `stdout`:
 
 `{{komenda}} | sed -E 's/(jabłko)/\U\1/g'`
 
@@ -28,6 +28,6 @@
 
 `{{komenda}} | sed -n '1p'`
 
-- Zamień wszystkie wystąpienia `jabłko` (podstawowe wyrażenie regularne) na `mango` (podstawowe wyrażenie regularne) w określonym pliku i nadpisz oryginalny plik:
+- Zamień wszystkie wystąpienia `jabłko` (podstawowe `regex`) na `mango` (podstawowe `regex`) w określonym pliku i nadpisz oryginalny plik:
 
 `sed -i 's/jabłko/mango/g' {{ścieżka/do/skryptu}}`
