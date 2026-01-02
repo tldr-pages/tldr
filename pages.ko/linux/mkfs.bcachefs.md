@@ -1,6 +1,7 @@
 # mkfs.bcachefs
 
 > 파티션 내에 `bcachefs` 파일 시스템 생성.
+> 같이 보기: `bcachefs`.
 > 더 많은 정보: <https://bcachefs-docs.readthedocs.io/en/latest/mgmt-formatting.html>.
 
 - 장치 (`X`) 의 파티션 1에 `bcachefs` 파일 시스템 생성:

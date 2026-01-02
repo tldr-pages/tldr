@@ -13,7 +13,7 @@
 
 - Exibe uma lista incluindo programas locais:
 
-`choco list --include-programs`
+`choco list {{[-i|--include-programs]}}`
 
 - Exibe apenas pacotes aprovados:
 
@@ -21,7 +21,7 @@
 
 - Especifica uma fonte personalizada para exibir os pacotes:
 
-`choco list --source {{url_da_fonte|apelido}}`
+`choco list {{[-s|--source]}} {{url_da_fonte|apelido}}`
 
 - Fornece um nome e uma senha para autenticação:
 

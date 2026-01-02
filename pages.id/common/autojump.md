@@ -2,6 +2,7 @@
 
 > Lompat dengan cepat menuju direktori-direktori yang paling sering anda kunjungi.
 > Alias seperti `j` atau `jc` sudah disediakan untuk mengurangi pengetikan.
+> Lihat juga: `bashmarks`.
 > Informasi lebih lanjut: <https://github.com/wting/autojump#name>.
 
 - Lompat menuju direktori yang mengandung pola yang diberikan:

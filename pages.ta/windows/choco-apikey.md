@@ -9,12 +9,12 @@
 
 - ஒரு குறிப்பிட்ட மூலத்தையும் அதன் API விசையையும் காண்பி:
 
-`choco apikey --source "{{மூல_முகவரி}}"`
+`choco apikey {{[-s|--source]}} "{{மூல_முகவரி}}"`
 
 - மூலத்திற்கான API விசையை அமைக்கவும்:
 
-`choco apikey --source "{{மூல_முகவரி}}" --key "{{api_key}}"`
+`choco apikey {{[-s|--source]}} "{{மூல_முகவரி}}" {{[-k|--api-key]}} "{{api_key}}"`
 
 - மூலத்திற்கான API விசையை அகற்றவும்:
 
-`choco apikey --source "{{மூல_முகவரி}}" --remove`
+`choco apikey {{[-s|--source]}} "{{மூல_முகவரி}}" --remove`

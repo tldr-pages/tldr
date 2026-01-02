@@ -1,7 +1,7 @@
 # gvcolor
 
 > 다양한 색상으로 순위가 매겨진 이중 그래프를 색깔 입히기.
-> 그래프비즈 필터: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, & `unflatten`.
+> 그래프비즈 필터: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, 및 `unflatten`.
 > 더 많은 정보: <https://graphviz.org/pdf/gvcolor.1.pdf>.
 
 - 하나 이상의 순위가 매겨진 이중 그래프(이미 `dot`으로 처리됨)에 색상을 지정:

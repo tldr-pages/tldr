@@ -1,6 +1,7 @@
 # vlc
 
 > 跨平台多媒体播放器。
+> 另请参阅：`mpv`, `mplayer`, `ytfzf`。
 > 更多信息：<https://wiki.videolan.org/Documentation:Command_line/>。
 
 - 播放一个文件：

@@ -2,6 +2,7 @@
 
 > Mentransfer data dari atau menuju suatu server.
 > Mendukung sebagian besar protokol, termasuk HTTP, FTP, dan POP3.
+> Lihat juga: `wcurl`, `wget`.
 > Informasi lebih lanjut: <https://curl.se/docs/manpage.html>.
 
 - Buat suatu permintaan HTTP GET dan tampilkan respons menuju `stdout`:

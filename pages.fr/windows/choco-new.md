@@ -17,7 +17,7 @@
 
 - Créer un nouveau package dans un répertoire de sortie personnalisé :
 
-`choco new {{paquet}} --output-directory {{chemin/vers/répertoire}}`
+`choco new {{paquet}} {{[--out|--output-directory]}} {{chemin/vers/répertoire}}`
 
 - Créez un nouveau package avec des URL d'installation 32 bits et 64 bits spécifiques :
 

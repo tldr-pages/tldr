@@ -15,13 +15,13 @@
 
 `podman pull {{[-a|--all-tags]}} {{image}}`
 
-- Pull a container image for a specific platform, e.g. `linux/arm64`:
+- Pull a container image for a specific platform:
 
 `podman pull --platform {{linux/arm64}} {{image}}:{{tag}}`
 
 - Pull a container image without TLS verification:
 
-`podman pull --tls-verify={{false}} {{image}}:{{tag}}`
+`podman pull --tls-verify=false {{image}}:{{tag}}`
 
 - Display help:
 

@@ -9,7 +9,7 @@
 
 - Installe une application depuis un chemin donné :
 
-`adb shell pm install /{{chemin/vers/fichier.apk}}`
+`adb shell pm install /{{chemin/vers/fichier}}.apk`
 
 - Déinstalle un paquet de l'appareil :
 

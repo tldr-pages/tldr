@@ -1,7 +1,7 @@
 # f3probe
 
 > 위조 플래시 메모리가 있는지 블록 장치(예: 플래시 드라이브 또는 microSD 카드)를 조사.
-> 참고: `f3read`, `f3write`, `f3fix`.
+> 같이 보기: `f3read`, `f3write`, `f3fix`.
 > 더 많은 정보: <https://github.com/AltraMayor/f3>.
 
 - 블록 장치 조사:

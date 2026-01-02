@@ -1,6 +1,7 @@
 # ssh-keygen
 
 > Generiert SSH Schlüssel für Authentifizierung, Passwort-lose Logins und mehr.
+> Siehe auch: `ssh-copy-id`.
 > Weitere Informationen: <https://man.openbsd.org/ssh-keygen>.
 
 - Erstelle ein SSH Schlüssel-Paar interaktiv:

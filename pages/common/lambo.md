@@ -1,7 +1,7 @@
 # lambo
 
 > A super-powered `laravel new` for Laravel and Valet.
-> See also: `lambo new` for additional command flags.
+> Some subcommands such as `new` have their own usage documentation.
 > More information: <https://github.com/tighten/lambo#usage>.
 
 - Create a new Laravel application:

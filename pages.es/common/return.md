@@ -1,6 +1,7 @@
 # return
 
 > Sale de una función o un script si se ejecuta con `source`.
+> Vea también: `exit`.
 > Más información: <https://www.gnu.org/software/bash/manual/bash.html#index-return>.
 
 - Sale prematuramente de una función:

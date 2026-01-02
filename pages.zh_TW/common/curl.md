@@ -2,6 +2,7 @@
 
 > 向 / 從一個伺服器傳輸數據。
 > 支持大多數協議，包括 HTTP、FTP 和 POP3。
+> 另請參閱：`wcurl`, `wget`。
 > 更多資訊：<https://curl.se/docs/manpage.html>。
 
 - 將指定 URL 的內容下載到檔案：

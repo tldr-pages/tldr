@@ -9,7 +9,7 @@
 
 - Install an app package from a given path:
 
-`adb shell pm install /{{path/to/app.apk}}`
+`adb shell pm install /{{path/to/app}}.apk`
 
 - Uninstall a package from the device:
 

@@ -6,12 +6,12 @@
 
 - APK 아카이브에 포함된 파일 나열:
 
-`aapt list {{경로/app.apk}}`
+`aapt list {{경로/app}}.apk`
 
 - 앱의 메타데이타 출력 (버전, 권한, 등등...):
 
-`aapt dump badging {{경로/app.apk}}`
+`aapt dump badging {{경로/app}}.apk`
 
 - 지정된 디렉토리에 새 APK 아카이브 생성:
 
-`aapt package -F {{경로/app.apk}} {{디렉토리/의/경로}}`
+`aapt package -F {{경로/app}}.apk {{디렉토리/의/경로}}`

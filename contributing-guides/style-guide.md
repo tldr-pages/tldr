@@ -319,12 +319,6 @@ For example, Use <https://learn.microsoft.com/windows-server/administration/wind
 > See also: `command1`, `command2`, `command3`.
 ```
 
-- Optionally, you can add a short description beside the referenced pages:
-
-```md
-> See also: `date` for Unix information, `uname` for system information and `umount` for unmounting partitions.
-```
-
 - When a command features subcommands, those pages can be referenced with the following line. Note that only the subcommand is named:
 
 ```md

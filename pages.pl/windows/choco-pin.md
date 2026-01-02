@@ -10,12 +10,12 @@
 
 - Przypnij pakiet w jego obecnej wersji:
 
-`choco pin add --name {{pakiet}}`
+`choco pin add {{[-n|--name]}} {{pakiet}}`
 
 - Przypnij pakiet w podanej wersji:
 
-`choco pin add --name {{pakiet}} --version {{wersja}}`
+`choco pin add {{[-n|--name]}} {{pakiet}} --version {{wersja}}`
 
 - Odepnij dany pakiet:
 
-`choco pin remove --name {{pakiet}}`
+`choco pin remove {{[-n|--name]}} {{pakiet}}`

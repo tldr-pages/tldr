@@ -1,6 +1,7 @@
 # musescore
 
 > MuseScore 3 Notenblatt-Editor.
+> Siehe auch: `lilypond`.
 > Weitere Informationen: <https://handbook.musescore.org/appendix/command-line-usage>.
 
 - Verwende einen bestimmten Audio-Treiber:

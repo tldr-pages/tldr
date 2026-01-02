@@ -1,6 +1,7 @@
 # echo
 
 > 输出给定参数。
+> 另请参阅：`printf`。
 > 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>。
 
 - 输出文本信息. 注意： 引号是可选的：

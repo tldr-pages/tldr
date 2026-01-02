@@ -17,4 +17,4 @@
 
 - "example"と言うディレクトリを作成し、"example"の文字バイト数を数え、"example"をターミナルに出力する:
 
-`echo "example" | tee >(xargs mkdir) >(wc -c)`
+`echo "example" | tee >(xargs mkdir) >(wc {{[-c|--bytes]}})`
