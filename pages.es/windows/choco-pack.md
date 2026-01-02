@@ -13,4 +13,4 @@
 
 - Empaquetar una especificación de NuGet en un directorio específico:
 
-`choco pack {{ruta\al\archivo_especificacion}} --output-directory {{ruta\al\directorio_salida}}`
+`choco pack {{ruta\al\archivo_especificacion}} {{[--out|--output-directory]}} {{ruta\al\directorio_salida}}`
