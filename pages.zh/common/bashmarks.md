@@ -1,6 +1,7 @@
 # bashmarks
 
 > 使用一个字母的命令，保存或者跳转到常用的目录。
+> 另请参阅：`autojump`。
 > 更多信息：<https://github.com/huyng/bashmarks#shell-commands>。
 
 - 可访问书签清单：

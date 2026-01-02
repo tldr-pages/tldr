@@ -29,10 +29,10 @@
 
 `awk '{if ($1 == "foo") print "Exact match foo"; else if ($1 ~ "bar") print "Partial match bar"; else print "Baz"}' {{pad/naar/bestand}}`
 
-- Toon alle regels waarbij de waarde van de 10e kolom gelijk is aan de gespecificeerde waarde:
+- Toon alle regels waarbij de waarde van de 10e kolom tussen een minimale en maximale waarde is:
 
-`awk '($10 == {{value}})'`
+`awk '($10 >= {{min_waarde}} && $10 <= {{max_waarde})'`
 
 - Print een tabel van gebruikers met UID >= 1000 met header en opgemaakte uitvoer, gebruikmakend van een dubbele punt als scheidingsteken (`%-20s` betekent: 20 links uitgelijnde tekens, `%6s` betekent: 6 rechts uitgelijnde tekens):
 
-`awk 'BEGIN {FS=":"; printf "%-20s %6s %25s\n", "Name", "UID", "Shell"} $3 >= 1000 {printf "%-20s %6d %25s\n", $1, $3, $7}' /etc/passwd`
+`awk 'BEGIN {FS=":";printf "%-20s %6s %25s\n", "Name", "UID", "Shell"} $4 >= 1000 {printf "%-20s %6d %25s\n", $1, $4, $7}' /etc/passwd`

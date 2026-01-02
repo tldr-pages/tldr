@@ -1,7 +1,7 @@
 # mitmproxy
 
 > Un proxy HTTP interactivo man-in-the-middle.
-> Vea también: `mitmweb` y `mitmdump`.
+> Vea también: `mitmweb`, `mitmdump`.
 > Más información: <https://docs.mitmproxy.org/stable/>.
 
 - Inicia `mitmproxy` con la configuración por defecto (escuchará en el puerto `8080`):

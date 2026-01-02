@@ -1,7 +1,7 @@
 # ipcs
 
 > Show information about the usage of System V IPC facilities: shared memory segments, message queues, and semaphore arrays.
-> See also: `lsipc` for a more flexible tool, `ipcmk` for creating IPC facilities, and `ipcrm` for deleting them.
+> See also: `lsipc`, `ipcmk`, `ipcrm`.
 > More information: <https://manned.org/ipcs>.
 
 - Show information about all active IPC facilities:

@@ -1,7 +1,7 @@
 # mount.ddi
 
 > Monta imágenes de disco reconocibles.
-> Vea `systemd-dissect` para otros comandos relevantes para DDIs.
+> Vea también: `systemd-dissect`.
 > Más información: <https://www.freedesktop.org/software/systemd/man/latest/systemd-dissect.html>.
 
 - Monta una imagen con un sistema operativo:

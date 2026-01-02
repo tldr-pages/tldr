@@ -13,4 +13,4 @@
 
 - Verpacke eine NuGet-Spezifikation in eine `.nupkg`-Datei, welche in einem bestimmten Verzeichnis gespeichert wird:
 
-`choco pack {{pfad/zu/spezifikation}} --output-directory {{pfad/zu/ausgabe_verzeichnis}}`
+`choco pack {{pfad/zu/spezifikation}} {{[--out|--output-directory]}} {{pfad/zu/ausgabe_verzeichnis}}`

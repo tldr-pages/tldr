@@ -24,7 +24,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | fr    | chemin/vers/fichier   | chemin/vers/dossier      | chemin/vers/fichier_ou_dossier     | paquet      | nom_d_utilisateur  | mot_de_passe | commande | port | valeur |
 | hi    | फ़ाइल/का/पथ            | निर्देशिका/का/पथ           | फ़ाइल_या_निर्देशिका/का/पथ             | पैकेज         | उपयोगकर्ता_नाम      |          |
 | id    | jalan/menuju/berkas   | jalan/menuju/direktori   | jalan/menuju/berkas_atau_direktori | paket       | nama_pengguna      |          |
-| it    | percorso/del/file     | percorso/della/directory | percorso/del/file_o_directory      | pacchetto   | nome_utente        |          |
+| it    | percorso/del/file     | percorso/della/directory | percorso/del/file_o_directory      | pacchetto   | nome_utente        | password | comando | porta | valore |
 | ja    | ファイルパス          | ディレクトリパス         | ファイルパスまたはディレクトリパス | パッケージ  | ユーザー名         |          |
 | ko    | 경로/대상/파일        | 경로/대상/폴더           | 경로/대상/파일_또는_폴더           | 패키지      | 사용자 명          |          |
 | lo    |                       |                          |                                    |             |                    |          |

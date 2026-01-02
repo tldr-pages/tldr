@@ -1,6 +1,7 @@
 # xcodes
 
 > Unduh, pasang, dan atur pemasangan aplikasi Xcode dalam versi yang berbeda.
+> Lihat juga: `xcodes runtimes`.
 > Informasi lebih lanjut: <https://github.com/xcodesorg/xcodes#commands>.
 
 - Tampilkan daftar versi Xcode yang terpasang:

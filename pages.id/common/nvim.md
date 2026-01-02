@@ -2,6 +2,7 @@
 
 > Neovim, teks editor programmer berbasis Vim, menyediakan beberapa mode untuk manipulasi teks berbeda jenis.
 > Tekan `<i>` masuk mode edit. `<Esc>` kembali ke mode normal, yang tidak mengizinkan penyisipan teks biasa.
+> Lihat juga: `vim`, `vimtutor`, `vimdiff`.
 > Informasi lebih lanjut: <https://neovim.io/>.
 
 - Membuka berkas:

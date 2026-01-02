@@ -9,7 +9,7 @@
 
 `Select-String -Path "{{경로\대상\파일}}" -Pattern '{{검색_패턴}}'`
 
-- 정확한 문자열 검색 (정규식 비활성화):
+- 정확한 문자열 검색 (`regex` 비활성화):
 
 `Select-String -SimpleMatch "{{정확한_문자열}}" {{경로\대상\파일}}`
 

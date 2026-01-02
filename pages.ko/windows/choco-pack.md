@@ -13,4 +13,4 @@
 
 - 특정 디렉토리에 NuGet 사양 패키징:
 
-`choco pack {{경로\대상\사양_파일}} --output-directory {{경로\대상\출력_디렉토리}}`
+`choco pack {{경로\대상\사양_파일}} {{[--out|--output-directory]}} {{경로\대상\출력_디렉토리}}`

@@ -1,6 +1,7 @@
 # clementine
 
 > Un moderno player e gestore di librerie musicali.
+> Vedi anche: `audacious`, `qmmp`, `cmus`, `mpv`.
 > Maggiori informazioni: <https://manned.org/clementine>.
 
 - Avvia l'interfaccia grafica oppure lo mette in evidenza:

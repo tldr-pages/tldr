@@ -4,7 +4,7 @@
 > Zie ook: `awk`, `ed`.
 > Meer informatie: <https://man.freebsd.org/cgi/man.cgi?sed>.
 
-- Vervang alle `apple` (basis regex) met `mango` (basis regex) in alle invoerregels en toon het resultaat in `stdout`:
+- Vervang alle `apple` (basis `regex`) met `mango` (basis `regex`) in alle invoerregels en toon het resultaat in `stdout`:
 
 `{{commando}} | sed 's/apple/mango/g'`
 
@@ -16,7 +16,7 @@
 
 `{{commando}} | sed -fa {{pad/naar/script.sed}}`
 
-- Vervang alle `apple` (uitgebreide regex) met `APPLE` (uitgebreide regex) in alle invoerregels en toon het resultaat in `stdout`:
+- Vervang alle `apple` (uitgebreide `regex`) met `APPLE` (uitgebreide `regex`) in alle invoerregels en toon het resultaat in `stdout`:
 
 `{{commando}} | sed -E 's/(apple)/\U\1/g'`
 
@@ -24,6 +24,6 @@
 
 `{{commando}} | sed -n '1p'`
 
-- Vervang alle `apple` (basis regex) met `mango` (basis regex) in een specifiek bestand en overschrijf het originele bestand:
+- Vervang alle `apple` (basis `regex`) met `mango` (basis `regex`) in een specifiek bestand en overschrijf het originele bestand:
 
 `sed -i 's/apple/mango/g' {{pad/naar/bestand}}`

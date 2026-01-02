@@ -1,6 +1,7 @@
 # ani-cli
 
 > Una interface de línea de comando para navegar y ver anime.
+> Vea también: `animdl`.
 > Más información: <https://manned.org/ani-cli>.
 
 - Busca anime por nombre:

@@ -11,7 +11,7 @@
 
 `sudo btrfs restore --dry-run {{caminho/para/dispositivo_btrfs}} {{caminho/para/diretório_alvo}}`
 
-- Restaura arquivos correspondentes a determinados padrões regex ([c]ase-insensitive) de um sistema de arquivos btrfs (todos os diretórios pai do(s) arquivo(s) de destino também devem corresponder):
+- Restaura arquivos correspondentes a determinados padrões `regex` ([c]ase-insensitive) de um sistema de arquivos btrfs (todos os diretórios pai do(s) arquivo(s) de destino também devem corresponder):
 
 `sudo btrfs restore --path-regex {{regex}} -c {{caminho/para/dispositivo_btrfs}} {{caminho/para/diretório_alvo}}`
 

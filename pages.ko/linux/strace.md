@@ -1,6 +1,7 @@
 # strace
 
 > 시스템 호출을 추적하는 문제 해결 도구.
+> 같이 보기: `fatrace`.
 > 더 많은 정보: <https://manned.org/strace>.
 
 - 특정 [p]프로세스를 PID로 추적 시작:

@@ -2,6 +2,7 @@
 
 > Mostra o manipola uno stack di directory.
 > Uno stack di directory è una lista di directory recentemente visitate che può essere manipolata con i comandi `pushd` e `popd`.
+> Vedi anche: `pushd`, `popd`.
 > Maggiori informazioni: <https://www.gnu.org/software/bash/manual/bash.html#Directory-Stack-Builtins>.
 
 - Mostra lo stack di directory dividendo i nomi con uno spazio:

@@ -15,6 +15,6 @@
 
 `apt-file {{show|list}} {{paketname}}`
 
-- Suche nach Paketen auf die die Regular Expression zutrifft:
+- Suche nach Paketen auf die die `regex` zutrifft:
 
 `apt-file {{search|find}} {{[-x|--regexp]}} {{regular_expression}}`

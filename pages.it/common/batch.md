@@ -2,6 +2,7 @@
 
 > Esegui comandi nel futuro quando il carico di lavoro del sistema lo permette.
 > Il servizio atd (o atrun) deve essere attivo per eseguire i comandi.
+> Vedi anche: `at`, `atq`, `atrm`, `mail`.
 > Maggiori informazioni: <https://manned.org/batch>.
 
 - Esegui i comandi inseriti standard input (premere `<Ctrl d>` dopo aver inserito i comandi):

@@ -2,7 +2,7 @@
 
 > VPN 데몬.
 > 레이어 2 또는 레이어 3에서 작동하며, Freifunk에서 사용하는 다양한 암호화 방법을 지원.
-> 참고: `ivpn`, `mozillavpn`, `mullvad`, `warp-cli`.
+> 같이 보기: `ivpn`, `mozillavpn`, `mullvad`, `warp-cli`.
 > 더 많은 정보: <https://fastd.readthedocs.io/en/stable/>.
 
 - 특정 구성 파일로 `fastd`를 시작:

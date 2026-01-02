@@ -1,7 +1,7 @@
 # conda activate
 
 > 激活一个 conda 环境。
-> 另请参阅：使用 `conda deactivate` 来取消激活环境。
+> 另请参阅：`conda deactivate`。
 > 更多信息：<https://docs.conda.io/projects/conda/en/stable/dev-guide/deep-dives/activation.html>。
 
 - 激活现存名为 `myenv` 的环境：

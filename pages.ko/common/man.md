@@ -1,6 +1,7 @@
 # man
 
 > 설명서 페이지 형식 지정 및 표시.
+> 같이 보기: `whatis`, `apropos`.
 > 더 많은 정보: <https://manned.org/man>.
 
 - 명령에 대한 설명서 페이지를 표시:

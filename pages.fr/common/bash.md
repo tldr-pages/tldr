@@ -1,7 +1,7 @@
 # bash
 
 > Bourne-Again SHell, un interpréteur de ligne de commande compatible avec `sh`.
-> Voir aussi `!` pour l'expansion de l'historique.
+> Voir aussi : `zsh`, `!`.
 > Plus d'informations : <https://www.gnu.org/software/bash/manual/bash.html#Invoking-Bash>.
 
 - Démarre une session shell interactive :

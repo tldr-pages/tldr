@@ -1,6 +1,7 @@
 # mysqldump
 
 > Realizar e restaurar backups no MySQL.
+> Veja também: `mysql`.
 > Mais informações: <https://dev.mysql.com/doc/refman/en/mysqldump.html>.
 
 - Cria o backup do banco de dados em arquivo de saída (será solicitada a senha de acesso do usuário):

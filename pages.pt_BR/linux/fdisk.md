@@ -1,7 +1,7 @@
 # fdisk
 
 > Gerencia de tabelas de partições e partições em um disco rígido.
-> Veja também: `partprobe`.
+> Veja também: `partprobe`, `parted`, `cfdisk`.
 > Mais informações: <https://manned.org/fdisk>.
 
 - Lista partições:

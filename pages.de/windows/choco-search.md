@@ -13,16 +13,16 @@
 
 - Suche nur nach genauen Übereinstimmungen:
 
-`choco search {{suchabfrage}} --exact`
+`choco search {{suchabfrage}} {{[-e|--exact]}}`
 
 - Stimme allen Fragen automatisch zu:
 
-`choco search {{suchabfrage}} --yes`
+`choco search {{suchabfrage}} {{[-y|--yes]}}`
 
 - Gib eine eigene Quelle an, welche nach Paketen durchsucht wird:
 
-`choco search {{suchabfrage}} --source {{quell_url|alias}}`
+`choco search {{suchabfrage}} {{[-s|--source]}} {{quell_url|alias}}`
 
 - Gib einen Benutzernamen und ein Passwort für die Authentifizierung an:
 
-`choco search {{suchabfrage}} --user {{benutzername}} --password {{passwort}}`
+`choco search {{suchabfrage}} {{[-u|--user]}} {{benutzername}} {{[-p|--password]}} {{passwort}}`

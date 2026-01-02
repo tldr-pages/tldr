@@ -1,7 +1,7 @@
 # gvpack
 
 > Combine several graph layouts (that already have layout information).
-> Graphviz filters: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, & `unflatten`.
+> Graphviz filters: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, and `unflatten`.
 > More information: <https://graphviz.org/pdf/gvpack.1.pdf>.
 
 - Combine several graph layouts (that already have layout information):

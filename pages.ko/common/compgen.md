@@ -1,6 +1,7 @@
 # compgen
 
 > `<Tab>` 키를 두 번 누르면 호출되는 Bash의 자동 완성 명령이 내장.
+> 같이 보기: `complete`, `compopt`.
 > 더 많은 정보: <https://www.gnu.org/software/bash/manual/bash.html#index-compgen>.
 
 - 실행할 수 있는 모든 명령을 나열:
