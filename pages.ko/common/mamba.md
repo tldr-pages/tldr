@@ -7,15 +7,15 @@
 
 - 새 환경을 생성하고 지정한 패키지를 설치:
 
-`mamba create --name {{환경_이름}} {{python=3.10 matplotlib}}`
+`mamba create {{[-n|--name]}} {{환경_이름}} {{python=3.10 matplotlib}}`
 
-- 현재 환경에 패키지를 설치하고 패키지 [c]hannel을 지정:
+- 현재 환경에 패키지를 설치하고 패키지 채널을 지정:
 
-`mamba install -c {{conda-forge}} {{python=3.6 numpy}}`
+`mamba install {{[-c|--channel]}} {{conda-forge}} {{python=3.6 numpy}}`
 
 - 현재 환경의 모든 패키지 업데이트:
 
-`mamba update --all`
+`mamba update {{[-a|--all]}}`
 
 - 저장소에서 특정 패키지 검색:
 
@@ -23,11 +23,11 @@
 
 - 모든 환경 나열:
 
-`mamba info --envs`
+`mamba info {{[-e|--envs]}}`
 
-- 캐시에서 사용되지 않는 [p]패키지 및 [t]타르볼 제거:
+- 캐시에서 사용되지 않는 패키지 및 타르볼 제거:
 
-`mamba clean -pt`
+`mamba clean {{[-pt|--packages --tarballs]}}`
 
 - 환경 활성화:
 

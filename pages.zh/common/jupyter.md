@@ -10,11 +10,11 @@
 
 - 打开一个特定的 Jupyter notebook：
 
-`jupyter notebook {{示例.ipynb}}`
+`jupyter notebook {{示例}}.ipynb`
 
 - 将特定 Jupyter notebook 导出为其他格式：
 
-`jupyter nbconvert --to {{html|markdown|pdf|script}} {{示例.ipynb}}`
+`jupyter nbconvert --to {{html|markdown|pdf|script}} {{示例}}.ipynb`
 
 - 在指定端口启动服务器：
 

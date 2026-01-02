@@ -10,11 +10,11 @@
 
 - 특정 Jupyter 노트북 열기:
 
-`jupyter notebook {{예제.ipynb}}`
+`jupyter notebook {{예제}}.ipynb`
 
 - 특정 Jupyter 노트북을 다른 형식으로 내보내기:
 
-`jupyter nbconvert --to {{html|markdown|pdf|script}} {{예제.ipynb}}`
+`jupyter nbconvert --to {{html|markdown|pdf|script}} {{예제}}.ipynb`
 
 - 특정 포트에서 서버 시작:
 

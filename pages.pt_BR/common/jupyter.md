@@ -10,11 +10,11 @@
 
 - Abre um caderno Jupyter específico:
 
-`jupyter notebook {{exemplo.ipynb}}`
+`jupyter notebook {{caminho/para/arquivo}}.ipynb`
 
 - Exporta um caderno Jupyter específico para outro formato:
 
-`jupyter nbconvert --to {{html|markdown|pdf|script}} {{exemplo.ipynb}}`
+`jupyter nbconvert --to {{html|markdown|pdf|script}} {{caminho/para/arquivo}}.ipynb`
 
 - Inicia um servidor em uma porta específica:
 

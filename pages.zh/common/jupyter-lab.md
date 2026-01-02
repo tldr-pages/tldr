@@ -9,7 +9,7 @@
 
 - 打开一个特定的笔记本：
 
-`jupyter lab {{路径/到/笔记本.ipynb}}`
+`jupyter lab {{路径/到/笔记本}}.ipynb`
 
 - 在特定目录中启动 JupyterLab：
 

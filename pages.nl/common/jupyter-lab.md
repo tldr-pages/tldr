@@ -9,7 +9,7 @@
 
 - Open een specifiek notebook:
 
-`jupyter lab {{pad/naar/notebook.ipynb}}`
+`jupyter lab {{pad/naar/notebook}}.ipynb`
 
 - Start JupyterLab in een specifieke map:
 
