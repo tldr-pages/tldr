@@ -1,7 +1,7 @@
 # fdp
 
 > `graphviz` 파일에서 `force-directed` 네트워크 그래프의 이미지를 렌더링.
-> 레이아웃: `dot`, `neato`, `twopi`, `circo`, `fdp`, `sfdp`, `osage` & `patchwork`.
+> 레이아웃: `dot`, `neato`, `twopi`, `circo`, `fdp`, `sfdp`, `osage`, 및 `patchwork`.
 > 더 많은 정보: <https://graphviz.org/doc/info/command.html>.
 
 - 입력 파일 이름 및 출력 형식(대문자 -O)을 기반으로 하는 파일 이름으로 PNG 이미지를 렌더링:
