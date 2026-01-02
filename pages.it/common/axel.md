@@ -11,16 +11,16 @@
 
 - Scarica specificando il nome del file da creare:
 
-`axel {{url}} -o {{filename}}`
+`axel {{url}} {{[-o|--output]}} {{filename}}`
 
 - Scarica sfruttando connessioni multiple:
 
-`axel -n {{numero_connessioni}} {{url}}`
+`axel {{[-n|--num-connections]}} {{numero_connessioni}} {{url}}`
 
 - Cerca dei mirror:
 
-`axel -S {{numero_mirror}} {{url}}`
+`axel {{[-S|--search=]}}{{numero_mirror}} {{url}}`
 
 - Limita la velocità di download (in bytes al secondo):
 
-`axel -s {{limite_velocità}} {{url}}`
+`axel {{[-s|--max-speed]}} {{limite_velocità}} {{url}}`
