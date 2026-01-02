@@ -21,7 +21,7 @@
 
 - Update the input cells in a notebook and preserve outputs and metadata:
 
-`jupytext --update --to notebook {{path/to/notebook.py}}`
+`jupytext --update --to notebook {{path/to/notebook}}.py`
 
 - Update all paired representations of a notebook:
 
