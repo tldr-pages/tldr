@@ -9,7 +9,7 @@
 
 - Abre un cuaderno específico:
 
-`jupyter lab {{ruta/a/cuaderno.ipynb}}`
+`jupyter lab {{ruta/a/cuaderno}}.ipynb`
 
 - Inicia JupyterLab en un directorio específico:
 
