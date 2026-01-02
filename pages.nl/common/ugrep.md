@@ -7,7 +7,7 @@
 
 `ugrep {{[-Q|--query]}}`
 
-- Zoek recursief met een regex zoekpatroon in de huidige map naar passende bestanden:
+- Zoek recursief met een `regex` zoekpatroon in de huidige map naar passende bestanden:
 
 `ugrep "{{zoekpatroon}}"`
 

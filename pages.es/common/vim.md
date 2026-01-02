@@ -29,7 +29,7 @@
 
 `</>{{patrón_a_buscar}}<Enter>`
 
-- Realiza una sustitución de una expresión regular en el archivo completo:
+- Realiza una sustitución de una `regex` en el archivo completo:
 
 `<:>%s/{{expresión_regular}}/{{reemplazo}}/g<Enter>`
 

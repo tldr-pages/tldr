@@ -7,7 +7,7 @@
 
 `brew search {{키워드}}`
 
-- 정규식을 사용하여 casks와 formulae를 검색:
+- `regex` 사용하여 casks와 formulae를 검색:
 
 `brew search /{{정규_표현식}}/`
 

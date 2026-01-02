@@ -8,7 +8,7 @@
 
 `grep "{{patrón_de_búsqueda}}" {{ruta/al/archivo}}`
 
-- Busca una cadena de caracteres específica (la cadena no será interpretada como una expresión regular):
+- Busca una cadena de caracteres específica (la cadena no será interpretada como una `regex`):
 
 `grep {{[-F|--fixed-strings]}} "{{cadena_exacta}}" {{ruta/al/archivo}}`
 

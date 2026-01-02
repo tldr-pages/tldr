@@ -1,6 +1,6 @@
 # grep
 
-> Find mønstre i filer via regulære udtryk (regular expressions).
+> Find mønstre i filer via regulære udtryk (`regex`).
 > Se også: `regex`.
 > Mere information: <https://www.gnu.org/software/grep/manual/grep.html>.
 
