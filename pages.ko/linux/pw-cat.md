@@ -1,6 +1,7 @@
 # pw-cat
 
 > PipeWire를 통해 오디오 파일을 재생하고 녹음.
+> 같이 보기: `wpctl`, `pw-cli`.
 > 더 많은 정보: <https://docs.pipewire.org/page_man_pw-cat_1.html>.
 
 - 기본 대상으로 WAV 파일 재생:

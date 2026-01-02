@@ -1,6 +1,7 @@
 # ip route
 
 > Subcomando de gestión de tablas de enrutamiento IP.
+> Vea también: `routel`.
 > Más información: <https://manned.org/ip-route>.
 
 - Muestra la tabla de enrutamiento:

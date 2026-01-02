@@ -1,7 +1,7 @@
 # age-keygen
 
 > Buat pasangan kunci untuk `age`.
-> Lihat `age` untuk mengetahui cara membuat/membuka file terenkripsi.
+> Lihat juga: `age`.
 > Informasi lebih lanjut: <https://manned.org/age-keygen>.
 
 - Buat pasangan kunci, simpan ke dalam file tanpa enkripsi, dan cetak kunci publik menuju `stdout`:

@@ -1,6 +1,7 @@
 # duti
 
 > 在 macOS 上为文档类型和网页设置默认打开的应用程序。
+> 另请参阅：`osascript`。
 > 更多信息：<https://github.com/moretension/duti>。
 
 - 将 Safari 设置为 HTML 文档的默认打开程序：

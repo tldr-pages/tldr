@@ -1,6 +1,7 @@
 # apropos
 
 > Lakukan pencarian nama dan deskripsi perintah dalam buku panduan program baris perintah (`manpages`).
+> Lihat juga: `man`.
 > Informasi lebih lanjut: <https://manned.org/apropos>.
 
 - Cari daftar dokumentasi perintah yang mengandung kata dengan format kata kunci ekspresi reguler (regex):

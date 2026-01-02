@@ -1,7 +1,7 @@
 # git format-patch
 
 > `.patch` 파일 준비. 커밋을 이메일로 전송할 때 유용합니다.
-> 생성된 `.patch` 파일을 적용할 수 있는 `git am`도 참고하세요.
+> 같이 보기: `git am`.
 > 더 많은 정보: <https://git-scm.com/docs/git-format-patch>.
 
 - 푸시되지 않은 모든 커밋에 대한 자동 이름 지정 `.patch` 파일 생성:

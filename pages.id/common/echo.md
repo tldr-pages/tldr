@@ -1,6 +1,7 @@
 # echo
 
 > Cetak ulang argumen-argumen yang dimasukkan ke dalam layar perangkat.
+> Lihat juga: `printf`.
 > Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>.
 
 - Cetak sebuah pesan teks. Catatan: penggunaan tanda petik bersifat opsional:

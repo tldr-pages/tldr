@@ -1,6 +1,7 @@
 # apropos
 
 > 在 manpages 中搜索，例如查找一个新命令。
+> 另请参阅：`man`。
 > 更多信息：<https://manned.org/apropos>。
 
 - 使用正则表达式搜索关键字：

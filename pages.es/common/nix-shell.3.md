@@ -1,7 +1,7 @@
 # nix shell
 
 > Inicia un shell en lo cual los paquetes especificados están disponibles.
-> Vea también: `nix-shell` para armar un entorno de desarrollo, `nix flake` para información sobre los flakes.
+> Vea también: `nix-shell`, `nix flake`.
 > Más información: <https://manned.org/nix3-shell>.
 
 - Inicia un shell interactivo con unos paquetes de `nixpkgs`:

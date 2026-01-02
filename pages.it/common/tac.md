@@ -1,7 +1,7 @@
 # tac
 
 > Visualizza e concatena file con righe in ordine inverso.
-> Guarda anche: `cat`.
+> Vedi anche: `cat`.
 > Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/tac-invocation.html>.
 
 - Concatena file specifici in ordine inverso:

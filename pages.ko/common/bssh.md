@@ -1,7 +1,7 @@
 # bssh
 
 > 로컬 네트워크에서 SSH/VNC 서버를 검색하기 위한 GUI 도구.
-> 참고: `bvnc` 및 `bshell`.
+> 같이 보기: `bvnc`, `bshell`.
 > 더 많은 정보: <https://manned.org/bssh>.
 
 - SSH 서버를 찾아보기:

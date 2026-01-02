@@ -1,6 +1,7 @@
 # git difftool
 
 > Harici diff araçları kullanarak dosya değişimlerini göster. `git diff` ile aynı ayar ve argümanları destekler.
+> Ayrıca bakınız: `git diff`.
 > Daha fazla bilgi için: <https://git-scm.com/docs/git-difftool>.
 
 - Müsait diff araçlarını göster:

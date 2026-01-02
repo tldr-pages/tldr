@@ -1,6 +1,7 @@
 # sudo
 
 > 단일 명령을 슈퍼유저 또는 다른 사용자로 실행.
+> 같이 보기: `pkexec`, `run0`, `doas`.
 > 더 많은 정보: <https://www.sudo.ws/sudo.html>.
 
 - 명령을 슈퍼유저로 실행:

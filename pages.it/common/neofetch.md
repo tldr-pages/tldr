@@ -1,6 +1,7 @@
 # neofetch
 
 > Strumento CLI per visualizzare informazioni al OS, software e hardware.
+> Vedi anche: `fastfetch`.
 > Maggiori informazioni: <https://manned.org/neofetch>.
 
 - Stampa secondo la configurazione predefinita e genera una configurazione, se è la prima volta:
