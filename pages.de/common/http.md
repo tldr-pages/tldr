@@ -1,6 +1,7 @@
 # http
 
 > HTTPie: ein benutzerfreundliches HTTP-Tool.
+> Siehe auch: `xh`.
 > Weitere Informationen: <https://httpie.io/docs/cli/usage>.
 
 - Sende eine GET-Anfrage (Zeigt ddie Header und den Body der Antwort):

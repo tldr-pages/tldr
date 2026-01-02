@@ -2,6 +2,7 @@
 
 > Gestión de paquetes, dependencias y entornos para cualquier lenguaje de programación.
 > Algunos subcomandos, como `create`, tienen su propia documentación de uso.
+> Vea también: `mamba`.
 > Más información: <https://docs.conda.io/projects/conda/en/latest/commands/index.html>.
 
 - Crea un nuevo entorno e instala en él los paquetes indicados:

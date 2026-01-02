@@ -2,6 +2,7 @@
 
 > Veloce utilità di download.
 > Supporta HTTP(S), FTP, SFTP, BitTorrent, e Metalink.
+> Vedi anche: `axel`.
 > Maggiori informazioni: <https://aria2.github.io/manual/en/html/aria2c.html>.
 
 - Scarica un file da un URI:

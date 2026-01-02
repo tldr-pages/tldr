@@ -1,6 +1,7 @@
 # http
 
 > HTTPie: 테스트, 디버깅 및 일반적으로 API 및 HTTP 서버와 상호작용하도록 설계된 HTTP 클라이언트.
+> 같이 보기: `xh`.
 > 더 많은 정보: <https://httpie.io/docs/cli/usage>.
 
 - 간단한 GET 요청을 수행 (응답 헤더 및 콘텐츠 표시):

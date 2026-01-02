@@ -2,7 +2,7 @@
 
 > Aplicação web para criar e compartilhar documentos que contem código, visualizações e anotações.
 > Usado principalmente para análise de dados, computação científica e aprendizado de máquinas (machine learning).
-> Mais informações: <https://docs.jupyter.org/en/latest/>.
+> Mais informações: <https://docs.jupyter.org/en/latest/use/jupyter-command.html>.
 
 - Inicia um servidor de notebooks Jupyter no diretório atual:
 
@@ -10,11 +10,11 @@
 
 - Abre um caderno Jupyter específico:
 
-`jupyter notebook {{exemplo.ipynb}}`
+`jupyter notebook {{caminho/para/arquivo}}.ipynb`
 
 - Exporta um caderno Jupyter específico para outro formato:
 
-`jupyter nbconvert --to {{html|markdown|pdf|script}} {{exemplo.ipynb}}`
+`jupyter nbconvert --to {{html|markdown|pdf|script}} {{caminho/para/arquivo}}.ipynb`
 
 - Inicia um servidor em uma porta específica:
 

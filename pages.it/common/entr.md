@@ -1,6 +1,7 @@
 # entr
 
 > Esegui comandi arbitrari al cambiamento di file.
+> Vedi anche: `watchexec`.
 > Maggiori informazioni: <https://eradman.com/entrproject/>.
 
 - Ricompila con `make` se qualsiasi file in quasiasi sottodirectory cambia:
