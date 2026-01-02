@@ -1,6 +1,7 @@
 # parallel
 
 > Run commands on multiple CPU cores.
+> See also: `xargs`.
 > More information: <https://www.gnu.org/software/parallel/man.html>.
 
 - Gzip several files at once, using all cores:
