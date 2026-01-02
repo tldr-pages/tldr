@@ -27,7 +27,7 @@
 
 - Busca eventos relacionados con un archivo específico:
 
-`sudo ausearch {{[-f|--file]}} {ruta/al/archivo}}`
+`sudo ausearch {{[-f|--file]}} {{ruta/al/archivo}}`
 
 - Muestra los resultados en formato sin procesar para su posterior procesamiento:
 
