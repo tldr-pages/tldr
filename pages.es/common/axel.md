@@ -19,7 +19,7 @@
 
 - Busca copias espejo:
 
-`axel {{[-S|--search=]}} {{num_de_espejos}} {{url}}`
+`axel {{[-S|--search=]}}{{num_de_espejos}} {{url}}`
 
 - Limita la velocidad de descarga (bytes por segundo):
 
