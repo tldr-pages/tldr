@@ -6,15 +6,15 @@
 
 - استبدال بالتعبيرات النمطية في كل ملفات المسار الحالي وأبنائه في الملفات غير المُتجاهلة بـ `.ignore` أو `.gitignore`:
 
-`fastmod {{regex_pattern}} {{replacement}}`
+`fastmod {{regex}} {{replacement}}`
 
 - استبدال متجاهلا حالة الحرف في ملف أو في ملفات مسار:
 
-`fastmod --ignore-case {{regex_pattern}} {{replacement}} -- {{path/to/file path/to/directory ...}}`
+`fastmod --ignore-case {{regex}} {{replacement}} -- {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
 - استبدال بالتعبيرات النمطية مع تحديد المكان الذي يُستبدل فيه:
 
-`fastmod {{regex}} {{replacement}} --dir {{path/to/directory}} --iglob {{'**/*.{js,json}'}}`
+`fastmod {{regex}} {{replacement}} --dir {{path/to/directory}} --iglob '{{**/*.{js,json}}}'`
 
 - استبدال بالنص مُطابقةً (وليس التعبيرات النمطية)، في ملفات امتداداتهم إما js أو JSON فحسب:
 
