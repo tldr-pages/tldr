@@ -16,7 +16,7 @@
 /pages.ta/ @kbdharun
 /pages.tr/ @tansiret
 /pages.zh/ @blueskyson @einverne @DustMerlin @zhb4 @BananaaaKING
-/pages.zh_TW/ @blueskyson @DustMerlin @zhb4 @BananaaaKING
+/pages.zh_TW/ @blueskyson @DustMerlin @zhb4
 
 /*.md @sbrl @kbdharun @sebastiaanspeck
 /.devcontainer/* @kbdharun @sebastiaanspeck
@@ -45,4 +45,4 @@
 /contributing-guides/*.ta.md @kbdharun
 /contributing-guides/*.tr.md @tansiret
 /contributing-guides/*.zh.md @blueskyson @einverne @BananaaaKING
-/contributing-guides/*.zh_TW.md @blueskyson @BananaaaKING
+/contributing-guides/*.zh_TW.md @blueskyson
