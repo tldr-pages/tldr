@@ -26,4 +26,4 @@
 
 - Output as uncolored text or machine-readable JSON:
 
-`gixy {{-f|--format}} {{text|json}} {{path/to/nginx.conf}}`
+`gixy {{[-f|--format]}} {{text|json}} {{path/to/nginx.conf}}`
