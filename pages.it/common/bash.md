@@ -1,7 +1,6 @@
 # bash
 
-> Bourne-Again SHell.
-> Interprete da linea di comando compatibile con `sh`.
+> Bourne-Again SHell, interprete da linea di comando compatibile con `sh`.
 > Vedi anche: `zsh`, `!`.
 > Maggiori informazioni: <https://www.gnu.org/software/bash/manual/bash.html#Invoking-Bash>.
 

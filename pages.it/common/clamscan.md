@@ -9,7 +9,7 @@
 
 - Analizza ricorsivamente tutti i file in una specifica directory:
 
-`clamscan -r {{percorso/della/directory}}`
+`clamscan {{[-r|--recursive]}} {{percorso/della/directory}}`
 
 - Analizza dati da `stdin`:
 
@@ -17,15 +17,15 @@
 
 - Specifica un file o directory di file da usare come database virus:
 
-`clamscan --database {{percorso/del/file_o_directory}}`
+`clamscan {{[-d|--database]}} {{percorso/del/file_o_directory}}`
 
 - Analizza la directory corrente e mostra in output solo i file infetti:
 
-`clamscan --infected`
+`clamscan {{[-i|--infected]}}`
 
 - Scrivi il risultato di uno scan in un file di log:
 
-`clamscan --log {{percorso/del/file_log}}`
+`clamscan {{[-l|--log]}} {{percorso/del/file_log}}`
 
 - Sposta i file infetti in una specifica directory:
 

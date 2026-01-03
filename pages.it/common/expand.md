@@ -5,7 +5,7 @@
 
 - Converti tab in un file in spazi, scrivendo su `stdout`:
 
-`expand {{file}}`
+`expand {{percorso/del/file}}`
 
 - Converti i tab in spazi, leggendo da `stdin`:
 
@@ -13,12 +13,12 @@
 
 - Non convertire i tab dopo caratteri di spaziatura:
 
-`expand -i {{file}}`
+`expand {{[-i|--initial]}} {{percorso/del/file}}`
 
 - Sostituisci i tab con un determinato numero di spazi, non 8 (default):
 
-`expand -t {{numero_spazi}} {{file}}`
+`expand {{[-t|--tabs]}} {{numero_spazi}} {{percorso/del/file}}`
 
 - Utilizza una lista separata da virgole di posizioni esplicite di tab:
 
-`expand -t {{1,4,6}}`
+`expand {{[-t|--tabs]}} {{1,4,6}}`
