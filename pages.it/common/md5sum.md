@@ -15,6 +15,6 @@
 
 `md5sum -c {{percorso/del/file.md5}}`
 
-- Calcola il checksum MD5 dal standard input:
+- Calcola il checksum MD5 da `stdin`:
 
 `echo "{{testo}}" | md5sum`

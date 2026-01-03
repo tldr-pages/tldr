@@ -21,7 +21,7 @@
 
 `bash -x {{file.sh}}`
 
-- Esegui comandi da standard input:
+- Esegui comandi da `stdin`:
 
 `bash -s`
 

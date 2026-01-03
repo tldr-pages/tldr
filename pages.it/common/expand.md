@@ -3,11 +3,11 @@
 > Converti caratteri tab in spazi.
 > Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/expand-invocation.html>.
 
-- Converti tab in un file in spazi, scrivendo su standard output:
+- Converti tab in un file in spazi, scrivendo su `stdout`:
 
 `expand {{file}}`
 
-- Converti i tab in spazi, leggendo da standard input:
+- Converti i tab in spazi, leggendo da `stdin`:
 
 `expand`
 

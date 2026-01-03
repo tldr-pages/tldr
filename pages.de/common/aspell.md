@@ -7,7 +7,7 @@
 
 `aspell check {{pfad/zu/datei}}`
 
-- Liste falsch geschriebene Worte von Standard Input:
+- Liste falsch geschriebene Worte von `stdin`:
 
 `cat {{file}} | aspell list`
 
@@ -19,6 +19,6 @@
 
 `aspell --lang={{cs}}`
 
-- Zeige alle falsch geschriebenen Wörter von Standard Input und ignoriere alle Wörter in einer persönlichen Wortliste:
+- Zeige alle falsch geschriebenen Wörter von `stdin` und ignoriere alle Wörter in einer persönlichen Wortliste:
 
 `cat {{file}} | aspell --personal={{persönliche-wort-liste.pws}} list`

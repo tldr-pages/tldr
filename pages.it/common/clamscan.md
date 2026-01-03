@@ -11,7 +11,7 @@
 
 `clamscan -r {{percorso/della/directory}}`
 
-- Analizza dati da standard input:
+- Analizza dati da `stdin`:
 
 `{{comando}} | clamscan -`
 
