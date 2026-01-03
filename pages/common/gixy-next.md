@@ -1,12 +1,8 @@
 # gixy-next
 
-> An actively maintained fork of `gixy`.
 > Analyze NGINX configuration files for security and performance misconfigurations.
-> More information: <https://gixy.io/>.
-
-- Installation:
-
-`pip3 install gixy-next`
+> An actively maintained fork of `gixy`.
+> More information: <https://gixy.io/usage/>.
 
 - Analyze nginx configuration (default path: `/etc/nginx/nginx.conf`):
 
