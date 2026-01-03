@@ -4,7 +4,7 @@
 > An actively maintained fork of `gixy`.
 > More information: <https://gixy.io/usage/>.
 
-- Analyze nginx configuration (default path: `/etc/nginx/nginx.conf`):
+- Analyze `nginx` configuration (default path: `/etc/nginx/nginx.conf`):
 
 `gixy {{path/to/nginx.conf}}`
 
