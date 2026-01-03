@@ -8,7 +8,7 @@
 
 `gixy {{path/to/nginx.conf}}`
 
-- Analyze a rendered configuration dump via stdin (`-`):
+- Analyze a rendered configuration dump via `stdin` (`-`):
 
 `cat {{path/to/nginx-dump.conf}} | gixy -`
 
