@@ -21,7 +21,7 @@
 
 `virsh create {{path/to/config_file.xml}}`
 
-- Edit a domains's configuration file (editor can be changed with `$EDITOR` or `$VISUAL`):
+- Edit a domain's configuration file (editor can be changed with `$EDITOR` or `$VISUAL`):
 
 `virsh edit {{domain}}`
 
