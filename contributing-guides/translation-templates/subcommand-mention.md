@@ -304,7 +304,7 @@ This file contains the translation templates of this notice.
 ### tr
 
 ```markdown
-> `example` gibi bazı alt komutların kendi kullanım belgeleri vardır.
+> `example` gibi bazı alt komutların kendi kullanım dokümantasyonu vardır.
 ```
 
 ---

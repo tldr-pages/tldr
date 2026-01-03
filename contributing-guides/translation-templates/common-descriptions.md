@@ -38,7 +38,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | sv    |                              |                           |                  |
 | ta    | உதவியைக் காட்டு                | பதிப்பைக் காட்டு               | [ஊடாடும் கட்டளை]  |
 | th    | แสดงวิธีใช้งาน                     | แสดงเวอร์ชัน                  | [อินเทอร์แอคทีฟ]      |
-| tr    |                              |                           |                  |
+| tr    | Yardımı görüntüle     | Sürümü görüntüle          | [Etkileşimli]    |
 | uk    |                              |                           |                  |
 | uz    |                              |                           |                  |
 | zh    |                              | 查看 版本                  |                  |
