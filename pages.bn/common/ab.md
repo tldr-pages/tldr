@@ -1,7 +1,7 @@
 # ab
 
 > Apache HTTP সার্ভারের বেঞ্চমার্কিং টুল।
-> আরও তথ্য দেখুন: <https://httpd.apache.org/docs/current/programs/ab.html>।
+> আরও তথ্য পাবেন: <https://httpd.apache.org/docs/current/programs/ab.html>।
 
 - একটি প্রদানকৃত URL-এ 100টি HTTP GET রিকোয়েস্ট এক্সিকিউট করুন:
 
