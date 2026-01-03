@@ -7,6 +7,6 @@
 
 `nix edit {{nixpkgs#软件包}}`
 
-- 将包的源码直接打印输出至标准输出 (stdout)：
+- 将包的源码直接打印输出至标准输出 (`stdout`)：
 
 `EDITOR=cat nix edit {{nixpkgs#软件包}}`

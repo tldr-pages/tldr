@@ -11,7 +11,7 @@
 
 `b2sum {{percorso/del/file1 percorso/del/file2 ...}} > {{percorso/del/file}}.b2`
 
-- Calcola un checksum BLAKE2 da standard input:
+- Calcola un checksum BLAKE2 da `stdin`:
 
 `{{comando}} | b2sum`
 
