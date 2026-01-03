@@ -1,6 +1,7 @@
 # rdp_check.py
 
 > Test whether an account is valid on the target host using the RDP protocol (no full login, just authentication check).
+> Part of the Impacket suite.
 > More information: <https://github.com/fortra/impacket>.
 
 - Check if credentials are valid on a target (password prompted if omitted):
