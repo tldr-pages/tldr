@@ -4,26 +4,34 @@
 > Un clone di `cat` con syntax highlighting e integrazione Git.
 > Maggiori informazioni: <https://manned.org/bat>.
 
-- Stampa i contenuti di un file su standard output:
+- Stampa in modo formattato i contenuti di uno o più file su `stdout`:
 
-`bat {{file}}`
+`bat {{percorso/del/file1 percorso/del/file2 ...}}`
 
-- Concatena diversi file in un unico file:
+- Concatena diversi file nel file di destinazione:
 
-`bat {{file1}} {{file2}} > {{file_finale}}`
+`bat {{percorso/del/file1 percorso/del/file2 ...}} > {{percorso/del/file_destinazione}}`
 
-- Aggiungi il contenuto di diversi file alla fine di un file:
+- Rimuove decorazioni e disabilita paging (`--style plain` può essere sostituito con `-p`, o entrambe le opzioni con `-pp`):
 
-`bat {{file1}} {{file2}} >> {{file_finale}}`
+`bat --style plain --pager never {{percorso/del/file}}`
 
-- Numera tutte le linee stampate:
+- Evidenzia una riga specifica o un intervallo di righe con un colore di sfondo diverso:
 
-`bat {{[-n|--number]}} {{file}}`
+`bat {{[-H|--highlight-line]}} {{10|5:10|:10|10:|10:+5}} {{percorso//del/file}}`
 
-- Evidenzia la sintassi di un file JSON:
+- Mostra caratteri non stampabili come spazio, tab o newline:
 
-`bat {{[-l|--language]}} json {{file.json}}`
+`bat {{[-A|--show-all]}} {{percorso/del/file}}`
 
-- Mostra tutti i linguaggi supportati:
+- Rimuove tutte le decorazioni tranne i numeri di riga nell'output:
+
+`bat {{[-n|--number]}} {{percorso/del/file}}`
+
+- Evidenzia la sintassi di un file JSON impostando esplicitamente il linguaggio:
+
+`bat {{[-l|--language]}} json {{percorso/del/file.json}}`
+
+- Visualizza tutti i linguaggi supportati:
 
 `bat {{[-L|--list-languages]}}`
