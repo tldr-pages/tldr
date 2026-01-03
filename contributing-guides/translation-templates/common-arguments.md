@@ -45,4 +45,4 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | uk    | шлях/до/файлу         | шлях/до/директорії       | шлях/до/файлу_чи_директорії        | пакунок     | ім'я_користувача   |          |
 | uz    | faylga/yo'l           | katalogga/yo'l           | faylga_yo'l_yoki_katalogga_yo'l    | paket       | foydalanuvchi_nomi |          |
 | zh    | 路径/到/文件          | 路径/到/目录             | 路径/到/文件或目录                 | 包          | 用户名             |          |
-| zh_TW | 檔案/完整/路徑        | 目錄/完整/路徑           | 檔案或目錄/完整/路徑               | 套件        | 使用者名稱         |          |
+| zh_TW | 路徑/至/檔案           | 路徑/至/目錄              | 路徑/至/檔案或目錄                   | 套件        | 使用者名稱          | 密碼     | 命令     | 埠   | 值    |
