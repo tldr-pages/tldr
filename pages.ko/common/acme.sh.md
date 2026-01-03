@@ -16,7 +16,7 @@
 
 `acme.sh --issue --alpn --domain {{example.com}}`
 
-- 작동하는 Nginx 구성파일을 사용해 인증서 발급:
+- 작동하는 `nginx` 구성파일을 사용해 인증서 발급:
 
 `acme.sh --issue --nginx --domain {{example.com}}`
 
