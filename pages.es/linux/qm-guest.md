@@ -1,6 +1,6 @@
 # qm guest
 
-> Administrar un agente invitado de máquina virtual.
+> Administra un agente invitado de máquina virtual.
 > Más información: <https://pve.proxmox.com/pve-docs/qm.1.html#cli_qm_guest_cmd>.
 
 - Imprime el estado de un PID específico:
