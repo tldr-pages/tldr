@@ -20,10 +20,10 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | fi    | Näytä ohje                   | Näytä versio              | [Interaktiotila] |
 | fr    | Affiche l'aide               | Affiche la version        | [Interactif]     |
 | hi    | मदद प्रदर्शित करें                  | संस्करण दिखाएं                |                  |
-| id    | Tampilkan bantuan            | Tampilkan informasi versi |                  |
+| id    | Tampilkan bantuan            |  |                  |
 | it    | Mostra l'aiuto | Controlla la versione     | [Interattivo]  |
 | ja    | ヘルプを表示する                | バージョンを表示            |                  |
-| ko    | 도움말 표시                    | 버전 정보 표시               |                  |
+| ko    | 도움말 표시                    |                |                  |
 | lo    |                              |                           |                  |
 | ml    |                              |                           |                  |
 | ne    |                              |                           |                  |
@@ -34,7 +34,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | pt_PT |                              |                           |                  |
 | ro    | Afișare ajutor               | Afișare versiune          | [Interactiv]     |
 | ru    | Показать справку             | Показать версию           | [Интерактивно]   |
-| sr    | Prikazuje opštu pomoć        | Proverava verziju         |                  |
+| sr    |         |          |                  |
 | sv    |                              |                           |                  |
 | ta    | உதவியைக் காட்டு                | பதிப்பைக் காட்டு               | [ஊடாடும் கட்டளை]  |
 | th    | แสดงวิธีใช้งาน                     | แสดงเวอร์ชัน                  | [อินเทอร์แอคทีฟ]      |
