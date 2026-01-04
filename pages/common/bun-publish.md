@@ -27,7 +27,7 @@
 
 `bun publish --tag {{alpha}}`
 
-- Publish with a one-time password directly to the cli for 2FA enabled accounts:
+- Publish with a one-time password for 2FA-enabled accounts:
 
 `bun publish --otp {{one_time_password}}`
 
