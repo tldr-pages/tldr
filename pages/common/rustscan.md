@@ -2,6 +2,7 @@
 
 > Modern Port Scanner written in Rust.
 > Note: `nmap` must be installed for some of the examples below to work.
+> See also: `hping3`, `masscan`, `naabu`, `nmap`, `zmap`.
 > More information: <https://github.com/bee-san/RustScan/wiki>.
 
 - Scan all ports of one or more comma-delimited addresses using the default values:
