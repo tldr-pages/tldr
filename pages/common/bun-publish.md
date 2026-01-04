@@ -23,9 +23,9 @@
 
 `bun publish --dry-run`
 
-- Publish a package with a specific distribution tag (e.g., alpha):
+- Publish a package with a specific distribution tag:
 
-`bun publish --tag {{alpha}}`
+`bun publish --tag {{tag_name}}`
 
 - Publish with a one-time password for 2FA-enabled accounts:
 
