@@ -7,7 +7,7 @@
 
 `zapier login`
 
-- 使用用于 SSO 的部署密钥登录到一个 Zapier 帐户：
+- 使用 SSO 部署密钥登录到一个 Zapier 帐户：
 
 `zapier login {{[-s|--sso]}}`
 
