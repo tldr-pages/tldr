@@ -9,7 +9,7 @@
 
 - Publish a package from a specific directory:
 
-`bun publish {{path/to/directory}}`
+`bun publish {{path/to/package_directory}}`
 
 - Publish a scoped package with specific access level:
 
