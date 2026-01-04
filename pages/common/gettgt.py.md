@@ -12,7 +12,7 @@
 
 `getTGT.py -hashes {{LM_Hash}}:{{NT_Hash}} {{domain}}/{{username}}`
 
-- Use Kerberos authentication (from existing cache, no password needed):
+- Use Kerberos authentication (from existing ccache, no password needed):
 
 `getTGT.py -k -no-pass {{domain}}/{{username}}`
 

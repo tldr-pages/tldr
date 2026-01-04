@@ -12,7 +12,7 @@
 
 `getTGT.py -hashes {{LM_Hash}}:{{NT_Hash}} {{domein}}/{{gebruikersnaam}}`
 
-- Gebruik Kerberos authenticatie (van bestaande cache, geen wachtwoord nodig):
+- Gebruik Kerberos authenticatie (van bestaande ccache, geen wachtwoord nodig):
 
 `getTGT.py -k -no-pass {{domein}}/{{gebruikersnaam}}`
 

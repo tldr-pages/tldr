@@ -1,7 +1,7 @@
 # ping.py
 
 > Eenvoudige ICMP ping die Impacket gebruikt om te controleren of een IPv4-host bereikbaar is.
-> Stuurt ICMP echo requests en luistert naar echo replies. 
+> Stuurt ICMP echo requests en luistert naar echo replies.
 > Opmerking: Vereist root privileges voor raw socket toegang (bijvoorbeeld draaien met `sudo`).
 > Onderdeel van de Impacket suite.
 > Meer informatie: <https://github.com/fortra/impacket>.
