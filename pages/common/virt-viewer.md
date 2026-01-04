@@ -7,20 +7,20 @@
 
 - Launch `virt-viewer` with a prompt to select running virtual machines:
 
-`virt-viewer`
+`virt-viewer {{[-c|--connect]}} {{qemu:///system|qemu:///session|...}}`
 
 - Launch `virt-viewer` for a specific virtual machine by ID, UUID, or name:
 
-`virt-viewer "{{domain}}"`
+`virt-viewer {{[-c|--connect]}} {{URI}} {{domain}}`
 
-- Wait for a virtual machine to start and automatically reconnect if it shutdown and restarts:
+- Wait for a virtual machine to start and automatically reconnect if it shuts down and restarts:
 
-`virt-viewer --reconnect --wait "{{domain}}"`
+`virt-viewer {{[-c|--connect]}} {{URI}} {{[-r|--reconnect]}} {{[-w|--wait]}} {{domain}}`
 
-- Connect to a specific remote virtual machine over TLS:
+- Connect to a specific remote virtual machine over TLS (requires pre-configured TLS certificates):
 
-`virt-viewer --connect "xen//{{url}}" "{{domain}}"`
+`virt-viewer {{[-c|--connect]}} {{qemu+tls://host/system}} {{domain}}`
 
-- Connect to a specific remote virtual machine over SSH:
+- Connect to a specific remote virtual machine over SSH (requires SSH access to the host):
 
-`virt-viewer --connect "qemu+ssh//{{username}}@{{url}}/system" "{{domain}}"`
+`virt-viewer {{[-c|--connect]}} {{qemu+ssh://username@host/system}} {{domain}}`
