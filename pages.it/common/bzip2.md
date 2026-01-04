@@ -12,6 +12,6 @@
 
 `bzip2 -d {{percorso/del/file_compresso.bz2}}`
 
-- Decomprimi un file e mostrane il contenuto su standard output:
+- Decomprimi un file e mostrane il contenuto su `stdout`:
 
 `bzip2 -dc {{percorso/del/file_compresso.bz2}}`

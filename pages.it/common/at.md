@@ -4,11 +4,11 @@
 > Il servizio atd (o atrun) deve essere attivo per eseguire i comandi.
 > Maggiori informazioni: <https://manned.org/at>.
 
-- Esegui i comandi inseriti standard input tra 5 minuti (premere `<Ctrl d>` dopo aver inserito i comandi):
+- Esegui i comandi inseriti `stdin` tra 5 minuti (premere `<Ctrl d>` dopo aver inserito i comandi):
 
 `at now + 5 minutes`
 
-- Esegui un comando passato da standard input alle 10:00 di mattina:
+- Esegui un comando passato da `stdin` alle 10:00 di mattina:
 
 `echo "{{./mio_script.sh}}" | at 1000`
 
