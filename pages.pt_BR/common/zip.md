@@ -28,6 +28,6 @@
 
 `zip {{[-rs|--recurse-paths --split-size]}} {{3g}} {{caminho/para/comprimido.zip}} {{caminho/para/arquivo_ou_diretorio1 caminho/para/arquivo_ou_diretorio2 ...}}`
 
-- Print a specific archive contents:
+- Exibe o conteúdo de um arquivo compactado específico:
 
 `zip {{[-sf|--split-size --freshen]}} {{caminho/para/comprimido.zip}}`

@@ -15,6 +15,6 @@
 
 `fossil commit --message-file {{경로/대상/커밋_메시지}}`
 
-- Create a new version containing changes from the specified files; user will be prompted for a comment:
+- 지정된 파일의 변경 사항을 포함하는 새 버전 생성; 사용자에게 설명을 요청하는 메시지가 표시됨:
 
 `fossil commit {{경로/대상/파일1 경로/대상/파일2 ...}}`

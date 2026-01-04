@@ -19,6 +19,6 @@
 
 `certutil -A -n "{{서버_인증서}}" -t ",," -i {{경로/대상/파일.crt}} -d .`
 
-- Add subject alternative names to a given [c]ertificate with a specific key size ([g]):
+- 주어진 인증서([c])에 특정 키 크기([g])로 주체 대체 이름 추가:
 
 `certutil -S -f {{경로/대상/패스워드_파일.txt}} -d . -t ",," -c "{{서버_인증서}}" -n "{{서버_이름}}" -g {{2048}} -s "CN={{공통_이름}},O={{조직}}"`

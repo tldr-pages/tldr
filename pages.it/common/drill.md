@@ -7,7 +7,7 @@
 
 `drill {{esempio.com}}`
 
-- Lookup the mail server(s) associated with a given domain name (MX record):
+- Cerca i server di posta associati a un dato nome di dominio (record MX):
 
 `drill mx {{esempio.com}}`
 

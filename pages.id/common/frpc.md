@@ -12,7 +12,7 @@
 
 `frpc {{[-c|--config]}} ./frps.toml`
 
-- Start the service, using a specific configuration file:
+- Jalankan layanan menggunakan berkas konfigurasi tertentu:
 
 `frpc {{[-c|--config]}} {{jalan/menuju/berkas}}`
 

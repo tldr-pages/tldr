@@ -15,7 +15,7 @@
 
 `exenv local {{버전}}`
 
-- Show the currently selected Elixir version:
+- 현재 선택된 Elixir 버전 표시:
 
 `exenv {{버전}}`
 

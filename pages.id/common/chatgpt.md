@@ -23,6 +23,6 @@
 
 `echo "{{Bagaimana cara melihat proses yang berjalan di Ubuntu?}}" | chatgpt`
 
-- Generate an image using DALL-E:
+- Buat gambar menggunakan DALL-E:
 
 `chatgpt {{[-p|--prompt]}} "{{image: Seekor kucing putih}}"`

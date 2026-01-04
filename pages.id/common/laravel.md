@@ -11,7 +11,7 @@
 
 `laravel new {{nama}} --dev`
 
-- Overwrite if the directory already exists:
+- Timpa jika direktori sudah ada:
 
 `laravel new {{nama}} --force`
 

@@ -1,6 +1,6 @@
 # cargo tree
 
-> Display a tree visualization of a dependency graph.
+> 종속성 그래프의 트리 시각화를 표시.
 > 참고: 트리에서, `(*)`로 표시된 패키지의 종속성은 이미 그래프의 다른 곳에 표시되었으므로, 반복되지 않음.
 > 더 많은 정보: <https://doc.rust-lang.org/cargo/commands/cargo-tree.html>.
 

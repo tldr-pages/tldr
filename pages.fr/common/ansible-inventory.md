@@ -1,6 +1,6 @@
 # ansible-inventory
 
-> Display or dump an Ansible inventory.
+> Affiche ou exporte un inventaire Ansible.
 > Voir aussi : `ansible`.
 > Plus d'informations : <https://docs.ansible.com/projects/ansible/latest/cli/ansible-inventory.html>.
 

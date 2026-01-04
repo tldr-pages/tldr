@@ -1,6 +1,6 @@
 # php
 
-> PHP command-line interface.
+> PHP commandoregelinterface.
 > Meer informatie: <https://www.php.net/manual/en/features.commandline.options.php>.
 
 - Parse en voer een PHP-script uit:

@@ -15,6 +15,6 @@
 
 `ignite add {{플러그인_이름}}`
 
-- Remove an Ignite plugin from the project:
+- 프로젝트에서 Ignite 플러그인 제거:
 
 `ignite remove {{플러그인_이름}}`
