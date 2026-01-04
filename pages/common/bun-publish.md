@@ -1,6 +1,6 @@
 # bun publish
 
-> Publish a package to the bun registry.
+> Publish a package to the npm registry.
 > More information: <https://bun.com/docs/pm/cli/publish>.
 
 - Publish the current package to the npm registry:
