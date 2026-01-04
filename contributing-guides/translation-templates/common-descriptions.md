@@ -41,5 +41,5 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | tr    | Yardımı görüntüle     | Sürümü görüntüle          | [Etkileşimli]    |
 | uk    |                              |                           |                  |
 | uz    |                              |                           |                  |
-| zh    |                              | 查看 版本                  |                  |
+| zh    | 显示说明                     | 显示版本                   | [交互式]           |
 | zh_TW | 顯示說明                     | 顯示版本                   | [互動式]          |
