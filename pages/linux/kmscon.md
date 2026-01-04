@@ -1,7 +1,7 @@
 # kmscon
 
 > Use the framebuffer instead of text mode to draw a terminal in a TTY.
-> More information: <https://manned.org/a2disconf>.
+> More information: <https://manned.org/kmscon>.
 
 - Start `kmscon` on the first available TTY:
 
