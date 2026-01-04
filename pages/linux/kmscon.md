@@ -1,7 +1,7 @@
 # kmscon
 
 > Use the framebuffer instead of text mode to draw a terminal in a TTY.
-> More information: <https://manned.org/kmscon>.
+> More information: <https://manned.org/man/fedora-43/kmscon>.
 
 - Start `kmscon` on the first available TTY:
 
