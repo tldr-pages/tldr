@@ -23,4 +23,4 @@
 
 - Connect to a specific remote virtual machine over SSH (requires SSH access to the host):
 
-`virt-viewer {{[-c|--connect]}} {{qemu+ssh://username@host/system}} {{domain}}`
+`virt-viewer {{[-c|--connect]}} {{xen+ssh://username@host/system}} {{domain}}`
