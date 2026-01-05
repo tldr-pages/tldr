@@ -14,6 +14,8 @@ IGNORE_SET = {
     ":",
     "?",
     "|",
+    "(",
+    "((",
     "jc.json",
     "lid.libuser",
     "mc.cli",
