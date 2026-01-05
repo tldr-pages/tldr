@@ -14,8 +14,8 @@
 
 - Stel een custom socket timeout in (standaard is 2 seconden):
 
-`getArch.py -target {{target}} -timeout {{seconden}}`
+`getArch.py -target {{doel}} -timeout {{seconden}}`
 
 - Schakel debug-modus in voor gedetailleerde uitvoer:
 
-`getArch.py -target {{target}} -debug`
+`getArch.py -target {{doel}} -debug`

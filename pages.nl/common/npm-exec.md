@@ -17,7 +17,7 @@
 
 - Voer een specifiek commando uit, waarbij uitvoer van `npm` zelf wordt onderdrukt:
 
-`npm {{[x|exec]}} --quiet {{command}} {{argument1 argument2 ...}}`
+`npm {{[x|exec]}} --quiet {{commando}} {{argument1 argument2 ...}}`
 
 - Toon de help:
 
