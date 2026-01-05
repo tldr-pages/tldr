@@ -1,7 +1,7 @@
 # gradle build
 
 > Build a project using Gradle.
-> More information: <https://docs.gradle.org/current/userguide/command_line_interface.html#computing_all_outputs>.
+> More information: <https://docs.gradle.org/current/userguide/command_line_interface.html#common_tasks>.
 
 - Build the project:
 
