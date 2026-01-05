@@ -1,6 +1,6 @@
 # addcomputer.py
 
-> Add a computer account to domain.
+> Add a computer account to a domain.
 > Part of the Impacket suite.
 > More information: <https://github.com/fortra/impacket>.
 

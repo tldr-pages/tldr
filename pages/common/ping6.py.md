@@ -1,6 +1,6 @@
 # ping6.py
 
-> Simple ICMPv6 ping using Impacket to check if an IPv6 host is reachable.
+> Check if an IPv6 host is reachable using ICMPv6.
 > Sends ICMPv6 echo requests and listens for echo replies.
 > Note: Requires root privileges for raw socket access (e.g., run with `sudo`).
 > Part of the Impacket suite.

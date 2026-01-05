@@ -1,6 +1,6 @@
 # ping.py
 
-> Simple ICMP ping using Impacket to check if an IPv4 host is reachable.
+> Check if an IPv4 host is reachable using ICMP.
 > Sends ICMP echo requests and listens for echo replies.
 > Note: Requires root privileges for raw socket access (e.g., run with `sudo`).
 > Part of the Impacket suite.
