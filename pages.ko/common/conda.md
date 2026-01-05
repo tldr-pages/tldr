@@ -1,6 +1,8 @@
 # conda
 
 > 프로그래밍 언어에 대한 패키지, 의존성 및 환경 관리.
+> `create`와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다
+> 같이 보기: `mamba`.
 > 더 많은 정보: <https://docs.conda.io/projects/conda/en/latest/commands/index.html>.
 
 - 새로운 환경을 생성합니다, 이름이 주어진 패키지로 설치합니다:

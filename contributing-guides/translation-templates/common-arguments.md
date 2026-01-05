@@ -35,14 +35,14 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | pl    | ścieżka/do/pliku      | ścieżka/do/katalogu      | ścieżka/do/pliku_lub_katalogu      | pakiet      | nazwa_użytkownika  | hasło    | komenda | port | wartość |
 | pt_BR | caminho/para/arquivo  | caminho/para/diretorio   | caminho/para/arquivo_ou_diretorio  | pacote      | nome_do_usuario    |          |
 | pt_PT | caminho/para/ficheiro | caminho/para/diretório   | caminho/para/ficheiro_ou_diretório | pacote      | nome_de_utilizador |          |
-| ro    | cale/către/fișier     | cale/către/director      | cale/către/fișier_sau_director     | pachet      | nume_utilizator    |          |
+| ro    | cale/către/fișier     | cale/către/director      | cale/către/fișier_sau_director     | pachet      | nume_utilizator    | parolă   | comandă | port |
 | ru    | путь/к/файлу          | путь/к/каталогу          | путь/к/файлу_или_каталогу          | пакет       | имя_пользователя   | пароль   | команда | порт | значение |
 | sr    | put/do/datoteke       | put/do/direktorijuma     | put/do/datoteke_ili_direktorijuma  | paket       | korisničko_ime     |          |
 | sv    | sökväg/till/fil       | sökväg/till/katalog      | sökväg/till/fil_eller_katalog      | paket       | användarnamn       |          |
 | ta    | கோப்பு/பாதை            | அடைவிற்குப்/பாதை           | கோப்பு_அல்லது_அடைவு/பாதை             | நிரல்தொகுப்பு | பயனர்ப்பெயர்          |          |
 | th    | ทาง/ไป/ไฟล์             | ทาง/ไป/สารบบ               | ทาง/ไป/สารบบหรือไฟล์                 | แพ็กเกจ       | ชื่อผู้ใช้           | รหัสผ่าน          | คำสั่ง    | พอร์ต  | ค่า      |
-| tr    | dosya/yolu            | dizin/yolu               | dosya_veya_dizin/yolu              | paket       | kullanıcı_adı      |          |
+| tr    | yol/dosya             | yol/dizin                | yol/dosya_veya_dizin               | paket       | kullanıcı_adı      | şifre    | komut   | port | değer |
 | uk    | шлях/до/файлу         | шлях/до/директорії       | шлях/до/файлу_чи_директорії        | пакунок     | ім'я_користувача   |          |
 | uz    | faylga/yo'l           | katalogga/yo'l           | faylga_yo'l_yoki_katalogga_yo'l    | paket       | foydalanuvchi_nomi |          |
-| zh    | 路径/到/文件          | 路径/到/目录             | 路径/到/文件或目录                 | 包          | 用户名             |          |
-| zh_TW | 檔案/完整/路徑        | 目錄/完整/路徑           | 檔案或目錄/完整/路徑               | 套件        | 使用者名稱         |          |
+| zh    | 路径/到/文件           | 路径/到/目录             | 路径/到/文件或目录                    | 软件包       | 用户名             | 密码     | 命令    | 端口 | 值     |
+| zh_TW | 路徑/至/檔案           | 路徑/至/目錄              | 路徑/至/檔案或目錄                   | 套件        | 使用者名稱          | 密碼     | 命令     | 埠   | 值    |

@@ -16,7 +16,7 @@
 
 `acme.sh --issue --alpn --domain {{example.com}}`
 
-- Terbitkan sertifikat dengan konfigurasi server Nginx untuk memasangnya:
+- Terbitkan sertifikat dengan konfigurasi server `nginx` untuk memasangnya:
 
 `acme.sh --issue --nginx --domain {{example.com}}`
 

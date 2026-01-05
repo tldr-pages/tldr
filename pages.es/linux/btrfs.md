@@ -6,20 +6,20 @@
 
 - Muestra subvolumen:
 
-`sudo btrfs subvolume create {{ruta/al/subvolumen}}`
+`sudo btrfs {{[su|subvolume]}} {{[c|create]}} {{ruta/al/subvolumen}}`
 
 - Lista subvolúmenes:
 
-`sudo btrfs subvolume list {{ruta/al/punto_de_montaje}}`
+`sudo btrfs {{[su|subvolume]}} {{[l|list]}} {{ruta/al/punto_de_montaje}}`
 
 - Muestra información sobre el uso del espacio:
 
-`sudo btrfs filesystem df {{ruta/al/punto_de_montaje}}`
+`sudo btrfs {{[f|filesystem]}} df {{ruta/al/punto_de_montaje}}`
 
 - Habilita cuota:
 
-`sudo btrfs quota enable {{ruta/al/subvolumen}}`
+`sudo btrfs {{[qu|quota]}} {{[e|enable]}} {{ruta/al/subvolumen}}`
 
 - Muestra cuota:
 
-`sudo btrfs qgroup show {{ruta/al/subvolumen}}`
+`sudo btrfs {{[qg|qgroup]}} {{[s|show]}} {{ruta/al/subvolumen}}`

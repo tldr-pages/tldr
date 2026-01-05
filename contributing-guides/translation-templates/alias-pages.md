@@ -501,7 +501,7 @@ The templates can be changed when necessary.
 
 > Bu komut `example` için bir takma addır.
 
-- Asıl komutun belgelerini görüntüleyin:
+- Asıl komutun dokümantasyonunu görüntüleyin:
 
 `tldr example`
 ```

@@ -13,4 +13,4 @@
 
 - 도움말 표시:
 
-`xml {{[esc|escape]}} --help`
+`xml {{[unesc|unescape]}} --help`

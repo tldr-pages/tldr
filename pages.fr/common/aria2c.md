@@ -2,6 +2,7 @@
 
 > Utilitaire de téléchargement.
 > Supporte HTTP(S), FTP, SFTP, BitTorrent, et Metalink.
+> Voir aussi : `axel`.
 > Plus d'informations : <https://aria2.github.io/manual/en/html/aria2c.html>.
 
 - Télécharge depuis une URI vers un fichier :
