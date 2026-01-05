@@ -1,6 +1,6 @@
 # smbclient.py
 
-> Een op Python gebaseerde SMB-client voor interactie met SMB-servers.
+> Interacteer met SMB-servers.
 > Onderdeel van de Impacket suite.
 > Meer informatie: <https://github.com/fortra/impacket>.
 

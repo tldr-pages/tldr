@@ -1,6 +1,6 @@
 # ping6.py
 
-> Eenvoudige ICMPv6 ping die Impacket gebruikt om te controleren of een IPv6-host bereikbaar is.
+> Controleer of een IPv6-host bereikbaar is door gebruik te maken van ICMPv6.
 > Stuurt ICMPv6 echo requests en luistert naar echo replies.
 > Opmerking: Vereist root privileges voor raw socket toegang (bijvoorbeeld draaien met `sudo`).
 > Onderdeel van de Impacket suite.

@@ -1,6 +1,6 @@
 # ping.py
 
-> Eenvoudige ICMP ping die Impacket gebruikt om te controleren of een IPv4-host bereikbaar is.
+> Controleer of een IPv4-host bereikbaar is door gebruik te maken van ICMP.
 > Stuurt ICMP echo requests en luistert naar echo replies.
 > Opmerking: Vereist root privileges voor raw socket toegang (bijvoorbeeld draaien met `sudo`).
 > Onderdeel van de Impacket suite.
