@@ -2,7 +2,7 @@
 
 > একটি আইটেমের নাম পরিবর্তন করার জন্য PowerShell কমান্ড।
 > নোট: `ren` এবং `rni` উভয়ই `Rename-Item`-এর উপনাম হিসেবে ব্যবহার করা যেতে পারে।
-> আরও তথ্য: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/rename-item>.
+> আরও তথ্য পাবেন: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/rename-item>।
 
 - একটি ফাইলের নাম পরিবর্তন করুন:
 
