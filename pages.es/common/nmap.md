@@ -27,7 +27,7 @@
 
 - Escanea los objetivos cuidadosamente utilizando scripts NSE "predeterminados y seguros":
 
-`nmap --script «default and safe» {{ip_o_host1,ip_o_host2,...}}`
+`nmap --script "default and safe" {{ip_o_host1,ip_o_host2,...}}`
 
 - Escanea los servidores web que se ejecutan en los puertos estándar 80 y 443 utilizando todos los scripts NSE "http-*" disponibles:
 
