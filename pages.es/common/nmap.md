@@ -7,7 +7,7 @@
 
 - Escanea los 1000 puertos principales de un host remoto con varios niveles de [v]erbosidad:
 
-`nmap -v{{1|2|3}} {{ip_o_nombredelhost}}`
+`nmap -v{{1|2|3}} {{ip_o_nombre_del_host}}`
 
 - Ejecuta un barrido de ping sobre toda una [s]ub[n]et o hosts individuales de forma muy agresiva:
 
