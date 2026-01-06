@@ -56,7 +56,7 @@ This file contains the translation templates of this notice.
 ### ar
 
 ```markdown
-> بعض الأوامر الفرعية لديها توثيقات الاستخدام الخاصة بها مثل: `example`
+> بعض الأوامر الفرعية لديها توثيقات الاستخدام الخاصة بها مثل: `example`.
 ```
 
 ---
