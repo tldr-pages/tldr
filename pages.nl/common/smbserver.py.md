@@ -1,6 +1,7 @@
 # smbserver.py
 
-> Een op Python gebaseerde SMB-server voor het hosten van shares (root vereist voor poort 445).
+> Host SMB-shares.
+> Onderdeel van de Impacket suite.
 > Meer informatie: <https://github.com/fortra/impacket>.
 
 - Stel een basis SMB share in:
