@@ -25,7 +25,7 @@
 
 - Show all available data in JSON format:
 
-`apptainer inspect {{[-a|--all]}} {{path/to/image.sif}}`
+`apptainer inspect --all {{path/to/image.sif}}`
 
 - Display help:
 
