@@ -1,6 +1,6 @@
 # pkg
 
-> Strumento di gestione pacchetti per Termux.  
+> Strumento di gestione pacchetti per Termux.
 > Maggiori informazioni: <https://wiki.termux.com/wiki/Package_Management>.
 
 - Aggiorna tutti i pacchetti installati:
