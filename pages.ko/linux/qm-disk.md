@@ -19,14 +19,14 @@
 
 `qm {{[di|disk]}} {{[i|import]}} {{가상_머신_ID}} {{경로/대상/디스크}} {{저장소_이름}} --format {{qcow2|raw|vmdk}}`
 
-- Rescan all storages and update disk sizes and unused disk images:
+- 모든 저장 장치를 다시 스캔하고 디스크 크기 및 사용하지 않는 디스크 이미지를 업데이트합니다.:
 
 `qm {{[di|disk]}} {{[resc|rescan]}}`
 
-- Perform a dry-run of a rescan and do not write any changes to configurations:
+- 재스캔의 드라이 런을 수행하고 구성에 대한 변경 사항을 작성하지 마십시오:
 
 `qm {{[di|disk]}} {{[resc|rescan]}} --dryrun`
 
-- Specify a virtual machine by its ID:
+- ID로 가상 머신을 지정합니다:
 
 `qm {{[di|disk]}} {{[resc|rescan]}} --vmid {{100}}`
