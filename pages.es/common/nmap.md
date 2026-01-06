@@ -3,7 +3,7 @@
 > Herramienta de exploración de redes y escáner de seguridad/puertos.
 > Algunas funciones (por ejemplo, el escaneo SYN) solo se activan cuando se ejecuta `nmap` con privilegios de root.
 > Vea también: `hping3`, `masscan`, `naabu`, `rustscan`, `zmap`.
-> Más información: <HTTPS://nmap.org/book/man.html>.
+> Más información: <https://nmap.org/book/man.html>.
 
 - Escanea los 1000 puertos principales de un host remoto con varios niveles de [v]erbosidad:
 
