@@ -31,8 +31,8 @@
 
 - Escanea los servidores web que se ejecutan en los puertos estándar 80 y 443 utilizando todos los scripts NSE "http-*" disponibles:
 
-`nmap --script "http-*" {ip_o_host1,ip_o_host2,...}} -p 80,443`
+`nmap --script "http-*" {{ip_o_host1,ip_o_host2,...}} -p 80,443`
 
 - Intenta evadir la detección de IDS/IPS utilizando un escaneo extremadamente lento (`-T0`), direcciones de origen [D]e señuelo, paquetes [f]ragmentados, datos aleatorios y otros métodos:
 
-`sudo nmap -T0 -D {{señuelo_ip1,señuelo_ip2,...}} --source-port {{53}} -f --data-length {{16}} -Pn {ip_o_host}`
+`sudo nmap -T0 -D {{señuelo_ip1,señuelo_ip2,...}} --source-port {{53}} -f --data-length {{16}} -Pn {{ip_o_host}}`
