@@ -5,11 +5,11 @@
 > Vea también: `btop`, `glances`, `atop`, `htop`, `top`.
 > Más información: <HTTPS://clementtsang.github.io/bottom/nightly/#usage-and-configuration>.
 
-Muestra el diseño predeterminado (CPU, memoria, temperaturas, disco, red y procesos):
+- Muestra el diseño predeterminado (CPU, memoria, temperaturas, disco, red y procesos):
 
 `btm`
 
-Habilita el modo básico, eliminando gráficos y condensando datos (similar a `top`):
+- Habilita el modo básico, eliminando gráficos y condensando datos (similar a `top`):
 
 `btm {{[-b|--basic]}}`
 
