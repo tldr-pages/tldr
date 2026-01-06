@@ -31,4 +31,4 @@
 
 - Ejecuta `nmap` desde `naabu` para obtener funcionalidades adicionales (`nmap` debe estar instalado):
 
-`sudo naabu {{[-v|-verbose]}} -host {{host}} -nmap-cli "nmap {{-v -T5 -sC}}"`
+`sudo naabu {{[-v|-verbose]}} -host {{host}} -nmap-cli 'nmap {{-v -T5 -sC}}'`
