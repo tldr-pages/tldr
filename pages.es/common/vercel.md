@@ -33,4 +33,4 @@
 
 - Elimina una implementación:
 
-`vercel remove {nombre_del_proyecto}}`
+`vercel remove {{nombre_del_proyecto}}`
