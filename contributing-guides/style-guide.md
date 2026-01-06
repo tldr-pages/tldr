@@ -429,10 +429,6 @@ Keep the following guidelines in mind when choosing placeholders:
 - In case of a possible reference both to a file or a directory,
   use `{{path/to/file_or_directory}}`.
 
-> [!NOTE]\
-> If the command is specific to Windows, use backslashes (`\`) instead, such as `{{path\to\file_or_directory}}`. Drive letters such as `C:` are optional unless the command input requires an absolute path
-> or specific drive letter range, such as `cd /d {{C}}:{{path\to\directory}}`.
-
 #### Extensions
 
 - If a particular extension is expected for the file, append it.
@@ -582,6 +578,11 @@ the part of the address that starts with `?view=`.
 
 - Use <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string> instead of <https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/select-string?view=powershell-7.4>.
 - Use <https://learn.microsoft.com/powershell/module/powershellget/install-module> instead of <https://learn.microsoft.com/en-us/powershell/module/powershellget/install-module?view=powershellget-1.x>.
+
+### Paths
+
+If the command is specific to Windows, write paths with backslashes (`\`) instead of forward slashes (`/`), such as `{{path\to\file_or_directory}}`. Drive letters such as `C:` are optional unless the command input requires an absolute path
+or specific drive letter range, such as `cd /d {{C}}:{{path\to\directory}}`.
 
 ## Language and translation rules
 
