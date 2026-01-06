@@ -2,6 +2,7 @@
 
 > Geavanceerd pinghulpprogramma dat protocollen ondersteunt zoals TCP, UDP en IP.
 > Dit kan het beste uitgevoerd worden met extra priveleges.
+> Zie ook: `masscan`, `naabu`, `nmap`, `rustscan`, `zmap`.
 > Meer informatie: <https://manned.org/hping3>.
 
 - Ping een bestemming met 4 ICMP ping aanvragen:
