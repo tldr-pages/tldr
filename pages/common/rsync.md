@@ -4,7 +4,7 @@
 > To specify a remote path, use `user@host:path/to/file_or_directory`.
 > More information: <https://download.samba.org/pub/rsync/rsync.1>.
 
-- Transfer a file:
+- Transfer a file (use `-n` or `--dry-run` to simulate the transfer):
 
 `rsync {{path/to/source}} {{path/to/destination}}`
 
@@ -16,9 +16,9 @@
 
 `rsync {{[-zvhP|--compress --verbose --human-readable --partial --progress]}} {{path/to/source}} {{path/to/destination}}`
 
-- Recursively copy directories:
+- Recursively copy directories and ensure each file is fully committed to disk rather than remaining in RAM:
 
-`rsync {{[-r|--recursive]}} {{path/to/source}} {{path/to/destination}}`
+`rsync {{[-r|--recursive]}} --fsync {{path/to/source}} {{path/to/destination}}`
 
 - Transfer directory contents, but not the directory itself:
 
