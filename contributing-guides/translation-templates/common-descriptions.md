@@ -6,7 +6,7 @@ There, the old table can be **imported**, **edited** in a WYSIWYG editor and **e
 Only the left-alignment of the header gets lost and has to be re-added again (`|----` → `|:---`).
 
 | en    | Display help       | Display version           | [Interactive]    |
-|:------|:-------------------|:--------------------------|:-----------------|
+|-------|--------------------|---------------------------|------------------|
 | ar    | عرض المساعدة       | عرض الإصدار               | [تفاعلية]        |
 | bn    | সাহায্য প্রদর্শন   | ভার্সন দেখুন              | [ইন্টার‌্যাকটিভ] |
 | bs    |                    |                           |                  |
