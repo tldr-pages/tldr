@@ -5,11 +5,11 @@
 
 - パッケージをインストール:
 
-`winget install {{パッケージ}}`
+`winget {{[add|install]}} {{パッケージ}}`
 
 - パッケージを削除 (注意: `uninstall` の代わりに `remove` を使用することもできる):
 
-`winget uninstall {{パッケージ}}`
+`winget {{[rm|uninstall]}} {{パッケージ}}`
 
 - パッケージに関する情報を表示:
 
@@ -21,11 +21,11 @@
 
 - 全てのパッケージを最新バージョンにアップグレード:
 
-`winget upgrade --all`
+`winget upgrade {{[-r|--all]}}`
 
 - `winget`で管理可能なインストール済パッケージを全て一覧表示:
 
-`winget list --source winget`
+`winget {{[ls|list]}} {{[-s|--source]}} winget`
 
 - ファイルからのパッケージのインポート、またはインストールされたパッケージのファイルへのエクスポート:
 
