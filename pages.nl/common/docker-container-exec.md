@@ -11,9 +11,9 @@
 
 `docker {{[exec|container exec]}} {{[-d|--detach]}} {{container_naam}} {{commando}}`
 
-- Selecteer de werkdirectory waarin een gegeven commando moet worden uitgevoerd:
+- Selecteer de werkmap waarin een gegeven commando moet worden uitgevoerd:
 
-`docker {{[exec|container exec]}} {{[-it|--interactive --tty]}} {{[-w|--workdir]}} {{path/to/directory}} {{container_naam}} {{commando}}`
+`docker {{[exec|container exec]}} {{[-it|--interactive --tty]}} {{[-w|--workdir]}} {{pad/naar/map}} {{container_naam}} {{commando}}`
 
 - Voer een opdracht op de achtergrond uit op een bestaande container, maar houd `stdin` open:
 
