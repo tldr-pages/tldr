@@ -4,7 +4,7 @@
 > To specify a remote path, use `user@host:path/to/file_or_directory`.
 > More information: <https://download.samba.org/pub/rsync/rsync.1>.
 
-- Transfer a file (use `-n` or `--dry-run` to simulate the transfer):
+- Transfer a file (use `--dry-run` to simulate the transfer):
 
 `rsync {{path/to/source}} {{path/to/destination}}`
 
