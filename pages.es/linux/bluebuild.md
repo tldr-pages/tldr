@@ -17,7 +17,7 @@
 
 - Genera una ISO a partir de una receta:
 
-`bluebuild generate-iso --output-dir {{ruta/a/directorio_salida}} --iso-name {{nombre_iso.iso}} recipe {{ruta/a/receta.yml}}`
+`bluebuild generate-iso --output-dir {{ruta/al/directorio_salida}} --iso-name {{nombre_iso.iso}} recipe {{ruta/a/receta.yml}}`
 
 - Muestra la ayuda:
 

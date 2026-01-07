@@ -9,11 +9,11 @@
 
 - Detecta protección en un [l]ista de URLs en paralelo desde un archivo (una URL por línea):
 
-`whatwaf --threads {{número}} --list {{ruta/a/archivo}}`
+`whatwaf --threads {{número}} --list {{ruta/al/archivo}}`
 
 - Envía peticiones a través de un proxy y utiliza una lista de carga útil personalizada desde un archivo (una carga útil por línea):
 
-`whatwaf --proxy {{http://127.0.0.1:8080}} --pl {{ruta/a/archivo}} -u {{https://example.com}}`
+`whatwaf --proxy {{http://127.0.0.1:8080}} --pl {{ruta/al/archivo}} -u {{https://example.com}}`
 
 - Envía peticiones a través de Tor (Tor debe estar instalado) utilizando cargas personalizadas (separadas por comas):
 
