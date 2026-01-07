@@ -12,11 +12,15 @@
 
 `sudo semanage fcontext {{[-lCn|--list --locallist --noheading]}}`
 
-- Voeg een door de gebruiker gedefinieerde regel toe die elk pad labelt dat overeenkomt met een PCRE-regex:
+- Voeg een door de gebruiker gedefinieerde regel toe die elk pad labelt dat overeenkomt met een PCRE-`regex`:
 
 `sudo semanage fcontext {{[-a|--add]}} {{[-t|--type]}} {{samba_share_t}} '{{/mnt/share(/.*)?}}'`
 
-- Verwijder een door de gebruiker gedefinieerde regel met behulp van zijn PCRE-regex:
+- Voeg een door de gebruiker gedefinieerde regel toe die labelgelijkwaardigheid creëert tussen twee subpaden:
+
+`sudo semanage fcontext {{[-a|--add]}} {{[-e|--equal]}} /{{pad/naar/ref}} /{{pad/naar/doel}}`
+
+- Verwijder een door de gebruiker gedefinieerde regel met behulp van zijn PCRE-`regex`:
 
 `sudo semanage fcontext {{[-d|--delete]}} '{{/mnt/share(/.*)?}}'`
 

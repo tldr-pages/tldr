@@ -10,7 +10,7 @@
 
 - Maak een nieuwe gebruiker aan met de opgegeven gebruikers-ID:
 
-`sudo useradd {{-u|--uid}} {{id}} {{gebruikersnaam}}`
+`sudo useradd {{[-u|--uid]}} {{id}} {{gebruikersnaam}}`
 
 - Maak een nieuwe gebruiker aan met de opgegeven shell:
 

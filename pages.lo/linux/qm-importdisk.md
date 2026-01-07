@@ -4,4 +4,4 @@
 
 - ເປີດເບິ່ງລາຍລະອຽດຂອງຄຳສັ່ງແບບເຕັມ:
 
-`tldr qm disk import`
+`tldr qm disk`

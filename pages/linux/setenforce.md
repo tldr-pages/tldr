@@ -9,6 +9,6 @@
 
 `setenforce {{1|Enforcing}}`
 
-- Put SELiunx in permissive mode:
+- Put SELinux in permissive mode:
 
 `setenforce {{0|Permissive}}`

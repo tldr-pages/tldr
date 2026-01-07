@@ -1,7 +1,7 @@
 # systemd-run
 
 > 프로그램을 일시적 범위 단위, 서비스 단위, 경로, 소켓 또는 타이머로 트리거된 서비스 단위로 실행.
-> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/systemd-run.html>.
+> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/latest/systemd-run.html>.
 
 - 일시적 서비스를 시작:
 

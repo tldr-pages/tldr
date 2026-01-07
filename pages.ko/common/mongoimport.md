@@ -1,7 +1,7 @@
 # mongoimport
 
 > JSON, CSV, 또는 TSV 파일의 내용을 MongoDB 데이터베이스로 가져오기.
-> 더 많은 정보: <https://docs.mongodb.com/database-tools/mongoimport/>.
+> 더 많은 정보: <https://www.mongodb.com/docs/database-tools/mongoimport/>.
 
 - 특정 컬렉션에 JSON 파일 가져오기:
 

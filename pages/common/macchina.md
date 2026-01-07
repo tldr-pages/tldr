@@ -11,7 +11,7 @@
 
 `macchina --config {{path/to/configuration_file}}`
 
-- List system information, but lengthen uptime, shell and kernel output:
+- List system information, but lengthen uptime, shell, and kernel output:
 
 `macchina --long-uptime --long-shell --long-kernel`
 

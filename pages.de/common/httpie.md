@@ -1,7 +1,7 @@
 # httpie
 
 > Managementschnittstelle für HTTPie.
-> Siehe auch: `http`, das eigentliche Tool.
+> Siehe auch: `http`.
 > Weitere Informationen: <https://httpie.io/docs/cli/plugin-manager>.
 
 - Suche nach Aktualisierungen für `httpie`:

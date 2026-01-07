@@ -1,8 +1,8 @@
 # odpscmd auth
 
 > User authorities in ODPS (Open Data Processing Service).
-> See also: `odps`.
-> More information: <https://www.alibabacloud.com/help/doc-detail/27971.htm>.
+> See also: `odpscmd`.
+> More information: <https://www.alibabacloud.com/help/en/maxcompute/user-guide/maxcompute-client>.
 
 - [Interactive] Add a user to the current project:
 

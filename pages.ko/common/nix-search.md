@@ -2,7 +2,7 @@
 
 > Nix 플레이크에서 패키지를 검색.
 > 같이 보기: 플레이크에 대한 정보는 `nix flake`.
-> 더 많은 정보: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-search.html>.
+> 더 많은 정보: <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-search.html>.
 
 - `nixpkgs`에서 이름이나 설명을 기반으로 패키지 검색:
 

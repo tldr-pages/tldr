@@ -2,7 +2,7 @@
 
 > Elimina las entradas del historial de comandos de la sesión de PowerShell.
 > Nota: `clhy` se puede utilizar como alias de `Clear-History`.
-> Más información: <https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/clear-history>.
+> Más información: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/clear-history>.
 
 - Borra todo el historial de comandos de la sesión actual:
 

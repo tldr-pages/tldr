@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr qm guest cmd`
+`tldr qm guest`

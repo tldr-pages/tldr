@@ -4,4 +4,4 @@
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr qm guest cmd`
+`tldr qm guest`

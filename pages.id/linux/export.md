@@ -15,7 +15,7 @@
 
 `export -f {{NAMA_FUNGSI}}`
 
-- Tambahkan alamat direktori baru menuju variabel lingkungan `PATH`:
+- Tambahkan alamat direktori baru menuju variabel lingkungan `$PATH`:
 
 `export PATH=$PATH:{{path/to/append}}`
 

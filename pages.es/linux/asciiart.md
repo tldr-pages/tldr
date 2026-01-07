@@ -13,16 +13,16 @@
 
 - Elige el ancho de salida (por defecto es 100):
 
-`asciiart --width {{50}} {{ruta/a/la/imagen.jpg}}`
+`asciiart {{[-w|--width]}} {{50}} {{ruta/a/la/imagen.jpg}}`
 
 - Coloriza la salida ASCII:
 
-`asciiart --color {{ruta/a/la/imagen.jpg}}`
+`asciiart {{[-c|--color]}} {{ruta/a/la/imagen.jpg}}`
 
 - Elige el formato de salida (formato predeterminado es texto):
 
-`asciiart --format {{text|html}} {{ruta/a/la/imagen.jpg}}`
+`asciiart {{[-f|--format]}} {{text|html}} {{ruta/a/la/imagen.jpg}}`
 
 - Invierte el mapa de caracteres:
 
-`asciiart --invert-chars {{ruta/a/la/imagen.jpg}}`
+`asciiart {{[-i|--invert-chars]}} {{ruta/a/la/imagen.jpg}}`

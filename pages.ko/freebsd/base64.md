@@ -1,7 +1,7 @@
 # base64
 
 > 파일 또는 `stdin`을 base64로 인코딩하거나 디코딩하여 `stdout` 또는 다른 파일로 출력.
-> 더 많은 정보: <https://man.freebsd.org/cgi/man.cgi?query=base64>.
+> 더 많은 정보: <https://man.freebsd.org/cgi/man.cgi?base64>.
 
 - 파일을 인코딩하여 `stdout`으로 출력:
 

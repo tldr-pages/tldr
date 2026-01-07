@@ -1,7 +1,7 @@
 # coredumpctl
 
 > 저장된 코어 덤프와 메타데이터를 검색하고 처리합니다.
-> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/coredumpctl.html>.
+> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/latest/coredumpctl.html>.
 
 - 캡처된 모든 코어 덤프 나열:
 

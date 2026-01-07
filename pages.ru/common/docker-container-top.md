@@ -1,7 +1,12 @@
 # docker container top
 
-> Эта команда — псевдоним для `docker top`.
+> Отображать запущенные процессы контейнера.
+> Больше информации: <https://docs.docker.com/reference/cli/docker/container/top/>.
 
-- Смотри документацию для оригинальной команды:
+- Отобразить запущенные процессы контейнера:
 
-`tldr docker top`
+`docker {{[top|container top]}} {{контейнер}}`
+
+- Показать справку:
+
+`docker {{[top|container top]}} --help`

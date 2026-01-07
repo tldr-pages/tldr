@@ -10,7 +10,7 @@
 
 - Toon de laatste 10 regels van meerdere bestanden:
 
-`tail {{path/to/file1 path/to/file2 ...}}`
+`tail {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
 
 - Toon laatste 5 regels in een bestand:
 

@@ -1,7 +1,7 @@
 # uname
 
 > Exibe detalhes sobre a máquina atual e o sistema operacional em execução nela.
-> Veja também `lsb_release`.
+> Veja também: `lsb_release`.
 > Mais informações: <https://www.gnu.org/software/coreutils/manual/html_node/uname-invocation.html>.
 
 - Exibe o nome do kernel:

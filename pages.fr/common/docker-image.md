@@ -1,7 +1,7 @@
 # docker image
 
 > Gérer les images Docker.
-> Voir aussi `docker build`, `docker import`, and `docker pull`.
+> Voir aussi : `docker build`, `docker image pull`, `docker image rm`.
 > Plus d'informations : <https://docs.docker.com/reference/cli/docker/image/>.
 
 - Lister les images Docker locales :

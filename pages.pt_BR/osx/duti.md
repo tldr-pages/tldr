@@ -1,6 +1,7 @@
 # duti
 
 > Define os aplicativos padrão para tipos de documentos e esquemas de URL no macOS.
+> Veja também: `osascript`.
 > Mais informações: <https://github.com/moretension/duti>.
 
 - Define o Safari como o manipulador padrão de documentos HTML:

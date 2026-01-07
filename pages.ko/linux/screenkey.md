@@ -1,7 +1,7 @@
 # screenkey
 
 > 키 입력을 화면에 표시하는 스크린캐스트 도구.
-> 더 많은 정보: <https://www.thregr.org/~wavexx/software/screenkey/>.
+> 더 많은 정보: <https://www.thregr.org/wavexx/software/screenkey/>.
 
 - 현재 눌린 키를 화면에 표시:
 

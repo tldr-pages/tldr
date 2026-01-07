@@ -1,7 +1,7 @@
 # systemd-firstboot
 
 > 시스템의 첫 부팅 시 또는 부팅 전에 기본 시스템 설정 초기화.
-> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/systemd-firstboot.html>.
+> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/latest/systemd-firstboot.html>.
 
 - 호스트 시스템의 루트 디렉토리 대신 지정된 디렉토리에서 작동:
 

@@ -1,7 +1,7 @@
 # redshift
 
 > Adjust the color temperature of a screen according to its surroundings.
-> Opmerking: Redshift ondersteunt Wayland niet.
+> Note: Redshift does not support Wayland.
 > More information: <https://manned.org/redshift>.
 
 - Turn on Redshift with a specific [t]emperature during day (e.g., 5700K) and at night (e.g., 3600K):

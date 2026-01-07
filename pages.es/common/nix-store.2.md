@@ -2,7 +2,7 @@
 
 > Manipula o busca en el almacén de Nix.
 > Vea también: `nix store.3`.
-> Más información: <https://nixos.org/manual/nix/stable/command-ref/nix-store.html>.
+> Más información: <https://nix.dev/manual/nix/stable/command-ref/nix-store.html>.
 
 - Recolecta basura, por ejemplo quitar las rutas desusadas:
 

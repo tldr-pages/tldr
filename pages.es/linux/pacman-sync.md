@@ -16,7 +16,7 @@
 
 `sudo pacman -Syu --noconfirm {{paquete}}`
 
-- Busca ([s]) la base de datos de paquetes con una expresión regular o palabra clave:
+- Busca ([s]) la base de datos de paquetes con una `regex` o palabra clave:
 
 `pacman -Ss "{{patrón_de_búsqueda}}"`
 

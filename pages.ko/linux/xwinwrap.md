@@ -1,7 +1,7 @@
 # xwinwrap
 
 > 플레이어나 프로그램을 데스크탑 배경으로 실행.
-> 더 많은 정보: <https://github.com/ujjwal96/xwinwrap>.
+> 더 많은 정보: <https://github.com/r00tdaemon/xwinwrap>.
 
 - mpv를 사용하여 비디오 실행:
 

@@ -1,7 +1,7 @@
 # base64
 
 > Lakukan pengodean dan pendekodean terhadap suatu berkas atau `stdin` dari/menuju format Base64, menuju `stdout` atau berkas lainnya.
-> Informasi lebih lanjut: <https://man.freebsd.org/cgi/man.cgi?query=base64>.
+> Informasi lebih lanjut: <https://man.freebsd.org/cgi/man.cgi?base64>.
 
 - Kodekan isi suatu berkas menuju format Base64, dan keluarkan hasil menuju `stdout`:
 

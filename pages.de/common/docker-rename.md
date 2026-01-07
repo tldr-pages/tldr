@@ -1,0 +1,7 @@
+# docker rename
+
+> Dieser Befehl ist ein Alias von `docker container rename`.
+
+- Zeige die Dokumentation für den originalen Befehl an:
+
+`tldr docker container rename`

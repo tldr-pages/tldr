@@ -11,7 +11,7 @@
 
 `httpflow {{host httpbin.org 또는 host baidu.com}}`
 
-- 정규식을 사용하여 URL별로 요청을 필터링:
+- `regex` 사용하여 URL별로 요청을 필터링:
 
 `httpflow -u '{{정규_표현식}}'`
 

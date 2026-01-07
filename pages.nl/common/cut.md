@@ -23,6 +23,10 @@
 
 `{{commando}} | cut {{[-d|--delimiter]}} " " {{[-f|--fields]}} -3`
 
+- Toon geen regels die het scheidingsteken niet bevatten:
+
+`{{commando}} | cut {{[-d|--delimiter]}} "{{:}}" {{[-f|--fields]}} {{1}} {{[-s|--only-delimited]}}`
+
 - Toon specifieke velden van regels die `NUL` gebruiken om regels af te sluiten in plaats van newlines:
 
 `{{find . -print0}} | cut {{[-z|--zero-terminated]}} {{[-d|--delimiter]}} "{{/}}" {{[-f|--fields]}} {{2}}`

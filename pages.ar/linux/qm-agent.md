@@ -4,4 +4,4 @@
 
 - إعرض التوثيقات للأمر الأصلي:
 
-`tldr qm guest cmd`
+`tldr qm guest`

@@ -1,6 +1,7 @@
 # git difftool
 
 > Afficher les modifications apportées aux fichiers à l'aide d'outils de comparaison externes. Accepte les mêmes options et arguments que Git diff.
+> Voir aussi : `git diff`.
 > Plus d'informations : <https://git-scm.com/docs/git-difftool>.
 
 - Lister les outils de comparaison disponibles :

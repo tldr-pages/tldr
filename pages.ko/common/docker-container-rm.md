@@ -1,4 +1,4 @@
-# docker rm
+# docker container rm
 
 > 컨테이너 제거.
 > 더 많은 정보: <https://docs.docker.com/reference/cli/docker/container/rm/>.

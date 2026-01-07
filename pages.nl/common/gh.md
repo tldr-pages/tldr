@@ -1,7 +1,7 @@
 # gh
 
 > Werk gemakkelijk met GitHub.
-> Sommige subcommando's zoals `config` hebben hun eigen gebruiksdocumentatie.
+> Sommige subcommando's zoals `config` hebben hun eigen documentatie.
 > Meer informatie: <https://cli.github.com/manual/gh>.
 
 - Kloon een GitHub-repository lokaal:

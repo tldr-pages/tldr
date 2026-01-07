@@ -1,7 +1,7 @@
 # docker container remove
 
-> Bu komut `docker rm` için bir takma addır.
+> Bu komut `docker container rm` için bir takma addır.
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr docker rm`
+`tldr docker container rm`

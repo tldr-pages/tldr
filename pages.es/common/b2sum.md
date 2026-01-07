@@ -9,7 +9,7 @@
 
 - Calcula y guarda la lista de sumas de comprobación BLAKE2 en un archivo:
 
-`b2sum {{ruta/al/archivo1 ruta/al/archivo2 ...}} > {{ruta/al/archivo.b2}}`
+`b2sum {{ruta/al/archivo1 ruta/al/archivo2 ...}} > {{ruta/al/archivo}}.b2`
 
 - Calcula una suma de comprobación BLAKE2 desde `stdin`:
 
@@ -17,15 +17,15 @@
 
 - Lee un archivo de sumas de comprobación BLAKE2 y nombres de archivo y verifica que todos los archivos tengan sumas de comprobación coincidentes:
 
-`b2sum {{[-c|--check]}} {{path/to/file.b2}}`
+`b2sum {{[-c|--check]}} {{path/to/file}}.b2`
 
 - Muestra solo un mensaje para los archivos que faltan o cuando falla la verificación:
 
-`b2sum {{[-c|--check]}} --quiet {{ruta/al/archivo.b2}}`
+`b2sum {{[-c|--check]}} --quiet {{ruta/al/archivo}}.b2`
 
 - Muestra solo un mensaje cuando falle la verificación, ignorando los archivos que faltan:
 
-`b2sum --ignore-missing {{[-c|--check]}} --quiet {{ruta/al/archivo.b2}}`
+`b2sum --ignore-missing {{[-c|--check]}} --quiet {{ruta/al/archivo}}.b2`
 
 - Comprueba una suma de comprobación BLAKE2 conocida de un archivo:
 

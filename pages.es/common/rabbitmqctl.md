@@ -1,7 +1,7 @@
 # rabbitmqctl
 
 > Gestiona, configura e inspecciona servidores RabbitMQ.
-> Más información: <https://www.rabbitmq.com/rabbitmqctl.8.html>.
+> Más información: <https://www.rabbitmq.com/docs/man/rabbitmqctl.8>.
 
 - Muestra el estado del nodo actual:
 

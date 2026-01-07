@@ -1,7 +1,7 @@
 # npm adduser
 
 > 레지스트리 사용자 계정 추가.
-> 더 많은 정보: <https://docs.npmjs.com/cli/npm-adduser>.
+> 더 많은 정보: <https://docs.npmjs.com/cli/npm-adduser/>.
 
 - 지정된 레지스트리에 새 사용자 생성하고 자격 증명을 `.npmrc`에 저장:
 

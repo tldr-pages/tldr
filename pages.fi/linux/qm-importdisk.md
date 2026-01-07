@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr qm disk import`
+`tldr qm disk`

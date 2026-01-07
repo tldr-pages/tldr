@@ -1,8 +1,8 @@
 # distrobox-export
 
 > Exporteer app/service/binary van container naar host-besturingssysteem.
-> Bekijk ook: `distrobox`.
-> Meer informatie: <https://distrobox.it/usage/distrobox-export>.
+> Zie ook: `distrobox`.
+> Meer informatie: <https://distrobox.it/usage/distrobox-export/>.
 
 - Exporteer een app van de container naar de host (het desktop pictogram verschijnt in de applicatielijst van uw hostsysteem):
 
@@ -12,7 +12,7 @@
 
 `distrobox-export {{[-b|--bin]}} {{pad/naar/binary}} {{[-ep|--export-path]}} {{pad/naar/binary_op_host}}`
 
-- Exporteer een binary van de container naar de host (bijv.`$HOME/.local/bin`) :
+- Exporteer een binary van de container naar de host (bijv.`$HOME/.local/bin`):
 
 `distrobox-export {{[-b|--bin]}} {{pad/naar/binary}} {{[-ep|--export-path]}} {{pad/naar/export}}`
 

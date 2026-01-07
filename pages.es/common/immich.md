@@ -2,7 +2,7 @@
 
 > Immich tiene una interfaz de línea de comandos (CLI) que le permite realizar ciertas acciones desde la línea de comandos.
 > Vea también: `immich-go`.
-> Más información: <https://immich.app/docs/features/command-line-interface/>.
+> Más información: <https://docs.immich.app/features/command-line-interface/>.
 
 - Autentica en el servidor de Immich:
 

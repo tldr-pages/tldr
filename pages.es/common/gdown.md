@@ -19,6 +19,6 @@
 
 `gdown {{id_de_carpeta|url}} -O {{ruta/a/directorio_de_salida}} --folder`
 
-- Descarga un archivo tar, escríbelo en `stdout` y extráelo:
+- Descarga un archivo `.tar`, escríbelo en `stdout` y extráelo:
 
 `gdown {{tar_url}} -O - --quiet | tar xvf -`

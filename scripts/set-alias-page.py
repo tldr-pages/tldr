@@ -93,6 +93,7 @@ class AliasPageContent:
     title: str
     original_command: str
     documentation_command: str
+    full_page: str = ""
 
 
 @dataclass
@@ -171,6 +172,13 @@ def set_alias_page(
     existing_locale_page_content = get_alias_command_in_page(
         path, get_locale_alias_pattern(locale)
     )
+    stripped_translation_template = config.templates[locale]
+    stripped_translation_template = stripped_translation_template.replace("example", "")
+
+    stripped_translation = existing_locale_page_content.full_page
+    stripped_translation = re.sub(r"#.*", "# ", stripped_translation)
+    stripped_translation = re.sub(r"`(?!tldr).*`", "``", stripped_translation)
+    stripped_translation = re.sub(r"`tldr .*`", "`tldr `", stripped_translation)
 
     if (
         existing_locale_page_content.title == page_content.title
@@ -179,7 +187,8 @@ def set_alias_page(
         and existing_locale_page_content.documentation_command
         == page_content.documentation_command
     ):
-        return ""
+        if config.inexact or stripped_translation_template == stripped_translation:
+            return ""
 
     new_locale_page_content = generate_alias_page_content(
         config.templates[locale],
@@ -267,6 +276,7 @@ def get_alias_command_in_page(path: Path, alias_pattern: str) -> AliasPageConten
         title=title,
         original_command=original_command,
         documentation_command=documentation_command,
+        full_page=content,
     )
 
 

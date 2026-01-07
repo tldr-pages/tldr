@@ -4,4 +4,4 @@
 
 - Se dokumentationen för orginalkommandot:
 
-`tldr qm disk rescan`
+`tldr qm disk`

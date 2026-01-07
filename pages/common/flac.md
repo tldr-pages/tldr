@@ -1,6 +1,6 @@
 # flac
 
-> Encodes, decodes and tests FLAC files.
+> Encode, decode, and test FLAC files.
 > More information: <https://xiph.org/flac/>.
 
 - Encode a WAV file to FLAC (this will create a FLAC file in the same location as the WAV file):

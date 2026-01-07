@@ -1,7 +1,7 @@
 # protoc
 
 > 解析 Google Protobuf `.proto` 文件并生成指定语言的输出。
-> 更多信息：<https://developers.google.com/protocol-buffers>。
+> 更多信息：<https://manned.org/protoc>。
 
 - 从 `.proto` 文件生成 Python 代码：
 

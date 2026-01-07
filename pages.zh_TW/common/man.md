@@ -1,13 +1,14 @@
 # man
 
 > 展示手冊分頁 (manual page)。
+> 另請參閱：`whatis`, `apropos`。
 > 更多資訊：<https://manned.org/man>。
 
 - 展示一條指令的使用手冊分頁：
 
 `man {{command}}`
 
-- 在瀏覽器中開啟一條指令的使用手冊分頁 (`BROWSER` 環境變數可以取代 `=browser_name`)：
+- 在瀏覽器中開啟一條指令的使用手冊分頁 (`$BROWSER` 環境變數可以取代 `=browser_name`)：
 
 `man {{[-Hbrowser_name|--html=browser_name]}} {{command}}`
 

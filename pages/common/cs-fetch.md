@@ -3,7 +3,7 @@
 > Fetch fetches the JARs of dependencies.
 > More information: <https://get-coursier.io/docs/cli-fetch>.
 
-- Fetch a specific version of a jar:
+- Fetch a specific version of a `.jar`:
 
 `cs fetch {{group_id}}:{{artifact_id}}:{{artifact_version}}`
 
@@ -11,7 +11,7 @@
 
 `CP="$(cs fetch --classpath org.scalameta::scalafmt-cli:latest.release)"`
 
-- Fetch a source of a specific jar:
+- Fetch a source of a specific `.jar`:
 
 `cs fetch --sources {{group_id}}:{{artifact_id}}:{{artifact_version}}`
 

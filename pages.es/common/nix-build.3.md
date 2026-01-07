@@ -1,8 +1,8 @@
 # nix build
 
 > Construye una expresión de Nix (descargando desde caché cuando sea posible).
-> Vea también: `nix-build` para información sobre construcciones tradicionales de Nix desde expresiones, `nix flake` para información sobre los flakes.
-> Más información: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-build.html>.
+> Vea también: `nix-build`, `nix flake`.
+> Más información: <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-build.html>.
 
 - Construye un paquete desde nixpkgs, creando un enlace simbólico al resultado en `./result`:
 

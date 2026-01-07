@@ -1,7 +1,7 @@
 # choco apikey
 
 > ChocolateyソースのAPIキーを管理します。
-> もっと詳しく: <https://chocolatey.org/docs/commands-apikey>。
+> もっと詳しく: <https://docs.chocolatey.org/en-us/create/commands/api-key/>。
 
 - ソースとそのAPIキーのリストを表示します:
 
@@ -9,12 +9,12 @@
 
 - 特定のソースとそのAPIキーを表示します:
 
-`choco apikey --source "{{ソースURL}}"`
+`choco apikey {{[-s|--source]}} "{{ソースURL}}"`
 
 - ソースのAPIキーを設定します:
 
-`choco apikey --source "{{ソースURL}}" --key "{{APIキー}}"`
+`choco apikey {{[-s|--source]}} "{{ソースURL}}" {{[-k|--api-key]}} "{{APIキー}}"`
 
 - ソースのAPIキーを削除します:
 
-`choco apikey --source "{{ソースURL}}" --remove`
+`choco apikey {{[-s|--source]}} "{{ソースURL}}" --remove`

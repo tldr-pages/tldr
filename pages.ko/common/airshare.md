@@ -1,7 +1,7 @@
 # airshare
 
 > 로컬 네트워크의 두 컴퓨터 사이의 데이터 전송.
-> 더 많은 정보: <https://airshare.rtfd.io/en/latest/cli.html>.
+> 더 많은 정보: <https://airshare.readthedocs.io/en/latest/cli.html>.
 
 - 파일 또는 디렉터리 공유:
 

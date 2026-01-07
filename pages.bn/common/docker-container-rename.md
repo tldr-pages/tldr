@@ -1,7 +1,12 @@
 # docker container rename
 
-> এই কমান্ডটি `docker rename` - এর একটি উপনাম।
+> একটি কন্টেইনারের নাম পরিবর্তন করতে ব্যবহৃত হয়।
+> আরও তথ্য পাবেন: <https://docs.docker.com/reference/cli/docker/container/rename/>।
 
-- মূল কমান্ডের ডকুমেন্টেশন দেখুন:
+- একটি কন্টেইনারের নাম পরিবর্তন করুন:
 
-`tldr docker rename`
+`docker {{[rename|container rename]}} {{container}} {{new_name}}`
+
+- সাহায্য প্রদর্শন:
+
+`docker {{[rename|container rename]}} --help`

@@ -2,6 +2,7 @@
 
 > Eine Paket-, Abhängigkeits- und Umgebungsverwaltung für beliebige Programmiersprachen.
 > Manche Unterbefehle wie `create` sind separat dokumentiert.
+> Siehe auch: `mamba`.
 > Weitere Informationen: <https://docs.conda.io/projects/conda/en/latest/commands/index.html>.
 
 - Erstelle eine neue Umgebung mit den zu installierenden Paketen:

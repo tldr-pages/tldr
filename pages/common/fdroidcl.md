@@ -27,6 +27,6 @@
 
 `fdroidcl repo add {{repo_name}} {{url}}`
 
-- Remove, enable or disable a repository:
+- Remove, enable, or disable a repository:
 
 `fdroidcl repo {{remove|enable|disable}} {{repo_name}}`

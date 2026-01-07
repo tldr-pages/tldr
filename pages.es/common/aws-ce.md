@@ -1,7 +1,7 @@
 # aws ce
 
 > Ejecuta operaciones de gestión de costos a través del servicio AWS Cost Explorer.
-> Más información: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ce/index.html>.
+> Más información: <https://docs.aws.amazon.com/cli/latest/reference/ce/>.
 
 - Crea monitor de anomalías:
 

@@ -1,7 +1,7 @@
 # kubectl expose
 
 > 리소스를 새로운 Kubernetes 서비스로 노출.
-> 더 많은 정보: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_expose>.
+> 더 많은 정보: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_expose/>.
 
 - 컨테이너 포트에서 노드 포트로 제공될 리소스에 대한 서비스 생성:
 

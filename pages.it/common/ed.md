@@ -1,6 +1,7 @@
 # ed
 
 > L'originale editor di testo Unix.
+> Vedi anche: `awk`, `sed`.
 > Maggiori informazioni: <https://www.gnu.org/software/ed/manual/ed_manual.html>.
 
 - Avvia ed per editare un documento vuoto (che può essere salvato come nuovo file nella directory corrente):

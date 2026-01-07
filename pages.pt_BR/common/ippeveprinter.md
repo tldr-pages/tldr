@@ -1,7 +1,6 @@
 # ippeveprinter
 
 > Um servidor de impressão IPP Everywhere simples.
-> Veja também: `ippeveps`, `ippevepcl`.
 > Mais informações: <https://openprinting.github.io/cups/doc/man-ippeveprinter.html>.
 
 - Executa o servidor com um nome de serviço específico:

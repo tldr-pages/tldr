@@ -4,4 +4,4 @@
 
 - Veja documentação sobre o comando original:
 
-`tldr qm guest cmd`
+`tldr qm guest`

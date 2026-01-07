@@ -1,7 +1,7 @@
 # grafana-cli
 
 > Grafana 서브와 함께 번들로 제공되는 작은 실행 파일.
-> 더 많은 정보: <https://grafana.com/docs/grafana/latest/cli/>.
+> 더 많은 정보: <https://grafana.com/docs/grafana/latest/administration/cli/>.
 
 - 특정 플러그인을 설치, 업데이트 또는 제거:
 

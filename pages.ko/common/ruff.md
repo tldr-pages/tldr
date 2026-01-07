@@ -1,7 +1,8 @@
 # ruff
 
 > 매우 빠른 Python 린터 및 코드 포매터로, Rust로 작성되었습니다.
-> 더 많은 정보: <https://docs.astral.sh/ruff/tutorial>.
+> 같이 보기: `black`.
+> 더 많은 정보: <https://docs.astral.sh/ruff/tutorial/>.
 
 - Ruff 린터에 대한 문서 보기:
 

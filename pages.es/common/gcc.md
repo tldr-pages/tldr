@@ -14,7 +14,7 @@
 
 - Muestra las advertencias comunes, añade símbolos de depuración en el ejecutable, y optimiza sin afectar la depuración:
 
-`gcc {{ruta/a/la/fuente.c}} -Wall {{-g|--debug}} -Og {{[-o|--output]}} {{ruta/al/ejecutable}}`
+`gcc {{ruta/a/la/fuente.c}} -Wall {{[-g|--debug]}} -Og {{[-o|--output]}} {{ruta/al/ejecutable}}`
 
 - Incluye las bibliotecas de una ruta diferente:
 

@@ -5,16 +5,16 @@
 
 - Start een spel met één kaart:
 
-`{{pad/naar/cs2}} -dedicated +map {{de_dust2}}`
+`{{pad/naar}}/cs2 -dedicated +map {{de_dust2}}`
 
 - Start een spel met een bepaald maximum aantal spelers:
 
-`{{pad/naar/cs2}} -dedicated +map {{de_dust2}} -maxplayers {{64}}`
+`{{pad/naar}}/cs2 -dedicated +map {{de_dust2}} -maxplayers {{64}}`
 
 - Start een spel met een opgegeven server-IP en poort:
 
-`{{pad/naar/cs2}} -dedicated +map {{de_dust2}} -ip {{1.2.3.4}} -port {{27015}}`
+`{{pad/naar}}/cs2 -dedicated +map {{de_dust2}} -ip {{1.2.3.4}} -port {{27015}}`
 
-- Sluit de server af:
+- [Interactief] Sluit de server af:
 
 `quit`

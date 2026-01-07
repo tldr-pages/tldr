@@ -1,6 +1,7 @@
 # youtube-dl
 
 > Unduh video dari YouTube dan situs web lain.
+> Lihat juga: `yt-dlp`, `ytfzf`, `you-get`.
 > Informasi lebih lanjut: <https://rg3.github.io/youtube-dl/>.
 
 - Mengunduh sebuah video atau daftar putar:

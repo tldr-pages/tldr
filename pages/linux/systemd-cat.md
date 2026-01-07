@@ -1,7 +1,7 @@
 # systemd-cat
 
 > Connect a pipeline or program's output streams with the systemd journal.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemd-cat.html>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemd-cat.html>.
 
 - Write the output of the specified command to the journal (both output streams are captured):
 

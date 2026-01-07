@@ -1,7 +1,7 @@
 # qm
 
 > QEMU/KVM Virtual Machine Manager.
-> Sommige subcommando's zoals `list`, `start`, `stop`, `clone`, etc. hebben hun eigen gebruiksdocumentatie.
+> Sommige subcommando's zoals `list`, `start`, `stop`, `clone`, etc. hebben hun eigen documentatie.
 > Meer informatie: <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
 - Toon alle virtual machines:

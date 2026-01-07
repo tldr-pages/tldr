@@ -29,7 +29,7 @@
 
 - Print 3 lines of [C]ontext around, [B]efore, or [A]fter each match:
 
-`codespell --{{context|before-context|after-context}} 3`
+`codespell {{--context|--before-context|--after-context}} 3`
 
 - Check file names for typos, in addition to file contents:
 

@@ -8,7 +8,7 @@
 
 `git config --global {{user.name|user.email}} "{{Your Name|email@example.com}}"`
 
-- List local, global or system configuration entries and show their file location:
+- List local, global, or system configuration entries and show their file location:
 
 `git config {{[-l|--list]}} --{{local|global|system}} --show-origin`
 

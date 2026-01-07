@@ -2,7 +2,7 @@
 
 > Un linter extremadamente rápido para Python. `check` es el comando predeterminado - se puede omitir en todas partes.
 > Si no se especifican archivos o directorios, el directorio de trabajo actual se utiliza por defecto.
-> Más información: <https://docs.astral.sh/ruff/linter>.
+> Más información: <https://docs.astral.sh/ruff/linter/>.
 
 - Ejecuta el linter en los archivos o directorios dados:
 

@@ -1,6 +1,6 @@
 # zstdcat
 
-> यो आदेश `zstd --decompress --stdout` को उपनाम हो |
+> यो आदेश `zstd --decompress --stdout --force` को उपनाम हो।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

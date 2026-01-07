@@ -1,6 +1,6 @@
 # logname
 
-> Shows the user's login name.
+> Show the user's login name.
 > See also: `id`.
 > More information: <https://www.gnu.org/software/coreutils/manual/html_node/logname-invocation.html>.
 

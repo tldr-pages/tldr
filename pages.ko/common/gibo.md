@@ -11,7 +11,7 @@
 
 `gibo dump {{상용구}}`
 
-- .gitignore에 상용구를 작성:
+- `.gitignore`에 상용구를 작성:
 
 `gibo dump {{상용구}} >>{{.gitignore}}`
 

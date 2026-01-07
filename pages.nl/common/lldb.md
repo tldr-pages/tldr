@@ -1,7 +1,7 @@
 # lldb
 
 > De LLVM Low-Level Debugger.
-> Meer informatie: <https://lldb.llvm.org>.
+> Meer informatie: <https://lldb.llvm.org/>.
 
 - Debug een uitvoerbaar bestand:
 

@@ -1,13 +1,14 @@
 # grep
 
 > Encuentra patrones en archivos usando expresiones regulares.
+> Vea también: `regex`.
 > Más información: <https://www.gnu.org/software/grep/manual/grep.html>.
 
 - Busca un patrón en un archivo:
 
 `grep "{{patrón_de_búsqueda}}" {{ruta/al/archivo}}`
 
-- Busca una cadena de caracteres específica (la cadena no será interpretada como una expresión regular):
+- Busca una cadena de caracteres específica (la cadena no será interpretada como una `regex`):
 
 `grep {{[-F|--fixed-strings]}} "{{cadena_exacta}}" {{ruta/al/archivo}}`
 

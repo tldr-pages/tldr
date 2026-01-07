@@ -1,9 +1,10 @@
 # which
 
-> Localiza um programa no path do usuário.
+> Localiza um programa no `$PATH` do usuário.
+> Veja também: `whereis`, `type`.
 > Mais informações: <https://manned.org/which>.
 
-- Procura na variável PATH e exibe a localização do executável se encontrado:
+- Procura na variável `$PATH` e exibe a localização do executável se encontrado:
 
 `which {{executável}}`
 

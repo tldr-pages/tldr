@@ -1,6 +1,7 @@
 # rm
 
 > Ta bort filer eller mappar.
+> Se även: `rmdir`, `trash`.
 > Mer information: <https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>.
 
 - Ta bort filer från godtyckliga ställen:

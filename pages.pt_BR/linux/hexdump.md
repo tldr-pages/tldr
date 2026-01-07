@@ -1,6 +1,7 @@
 # hexdump
 
 > Imprime dados no formato ASCII, decimal, hexadecimal ou octal.
+> Veja também: `hexyl`, `od`, `xxd`.
 > Mais informações: <https://manned.org/hexdump>.
 
 - Imprime a representação hexadecimal de um arquivo, substituindo linhas duplicadas por '*':

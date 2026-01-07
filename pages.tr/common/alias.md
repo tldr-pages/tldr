@@ -2,6 +2,7 @@
 
 > Takma adlar/kısayollar (bir komut dizesi ile değiştirilen sözcükler) oluşturur.
 > Kısayollar, kabuğun yapılandırma dosyasında (örneğin `~/.bashrc`) tanımlanmadığı sürece geçerli kabuk oturumuyla birlikte sona erer.
+> Ayrıca bakınız: `unalias`.
 > Daha fazla bilgi için: <https://www.gnu.org/software/bash/manual/bash.html#index-alias>.
 
 - Tüm kısayolları listele:

@@ -1,7 +1,7 @@
 # nix-env
 
 > Manipula o consulta entornos de usuario de Nix.
-> Más información: <https://nixos.org/manual/nix/stable/#sec-nix-env>.
+> Más información: <https://nix.dev/manual/nix/stable/command-ref/nix-env.html>.
 
 - Lista todos los paquetes instalados:
 

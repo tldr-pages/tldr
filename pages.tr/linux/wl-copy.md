@@ -1,7 +1,7 @@
 # wl-copy
 
 > Wayland için pano değiştirme aracı.
-> Ayrıca bakın: `wl-paste`.
+> Ayrıca bakınız: `wl-paste`, `xclip`.
 > Daha fazla bilgi için: <https://github.com/bugaevc/wl-clipboard>.
 
 - Metni panoya kopyala:

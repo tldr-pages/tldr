@@ -16,7 +16,7 @@
 
 `acme.sh --issue --alpn --domain {{example.com}}`
 
-- 使用运行中的 Nginx 的配置来签发证书：
+- 使用运行中的 `nginx` 的配置来签发证书：
 
 `acme.sh --issue --nginx --domain {{example.com}}`
 

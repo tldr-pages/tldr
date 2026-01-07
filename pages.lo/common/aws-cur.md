@@ -1,7 +1,7 @@
 # aws cur
 
 > Create, query, ແລະ delete AWS ທີ່ສະແດງເຖິງຄຳຈຳກັດຄວາມ.
-> ຂໍ້ມູນເພີ່ມເຕີມ: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cur/index.html>.
+> ຂໍ້ມູນເພີ່ມເຕີມ: <https://docs.aws.amazon.com/cli/latest/reference/cur/>.
 
 - ສ້າງຕົ້ນທຶນ AWS ແລະ ລາຍງານການໃຊ້ງານຈາກໄຟລ໌ JSON:
 

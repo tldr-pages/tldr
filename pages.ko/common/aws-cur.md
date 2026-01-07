@@ -1,7 +1,7 @@
 # aws cur
 
 > AWS 사용 보고서 정의 파일 생성, 쿼리 및 삭제.
-> 더 많은 정보: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cur/index.html>.
+> 더 많은 정보: <https://docs.aws.amazon.com/cli/latest/reference/cur/>.
 
 - JSON 파일에서 AWS 비용 및 사용 보고서 정의 파일 생성:
 

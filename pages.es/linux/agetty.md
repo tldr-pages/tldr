@@ -13,7 +13,7 @@
 
 `agetty {{[-t|--timeout]}} {{tiempo_de_espera_en_segundos}} -`
 
-- Asume que `tty` es de [8]-bits, sobreescribiendo la variable de entorno `TERM` establecida por `init`:
+- Asume que `tty` es de [8]-bits, sobreescribiendo la variable de entorno `$TERM` establecida por `init`:
 
 `agetty -8 - {{variable_term}}`
 

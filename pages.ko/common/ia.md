@@ -1,7 +1,7 @@
 # ia
 
 > `archive.org`와 상호작용하기 위한 커멘드라인 도구.
-> 더 많은 정보: <https://archive.org/services/docs/api/internetarchive/cli.html>.
+> 더 많은 정보: <https://archive.org/developers/internetarchive/cli.html>.
 
 - API 키로 `ia`를 구성 (일부 기능은 이 단계 없이 작동하지 않음):
 

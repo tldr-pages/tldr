@@ -2,7 +2,7 @@
 
 > Google Cloud Platform을 위한 공식 CLI 도구.
 > 참고: `gcloud` 하위 명령에는 자체 사용 설명서가 있습니다.
-> 더 많은 정보: <https://cloud.google.com/sdk/gcloud>.
+> 더 많은 정보: <https://docs.cloud.google.com/sdk/gcloud>.
 
 - 활성 구성에서 모든 속성 나열:
 

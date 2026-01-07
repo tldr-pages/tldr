@@ -15,10 +15,18 @@
 
 `zstd {{[-d|--decompress]}} {{[-c|--stdout]}} {{pad/naar/bestand.zst}}`
 
-- Comprimeer een bestand met een specifiek compressie level, waar 1=snelste, 19=langzaamste en 3=standaard:
+- Comprimeer een bestand met een specifiek compressieniveau, waar 1=snelste, 19=langzaamste en 3=standaard:
 
-`zstd -{{level}} {{pad/naar/bestand}}`
+`zstd -{{niveau}} {{pad/naar/bestand}}`
+
+- Comprimeer een bestand met ultrasnel compressieniveau, waarbij 1=standaard:
+
+`zstd --fast={{niveau}} {{pad/naar/bestand}}`
 
 - Ontgrendel hogere compressieniveaus (tot en met 22) door gebruik te maken van meer geheugen (voor compressie en decompression):
 
-`zstd --ultra -{{level}} {{pad/naar/bestand}}`
+`zstd --ultra -{{niveau}} {{pad/naar/bestand}}`
+
+- Stel het aantal werkthreads in op het aantal fysieke CPU-kernen:
+
+`zstd {{[-T|--threads]}} 0`

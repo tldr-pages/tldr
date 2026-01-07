@@ -1,17 +1,18 @@
 # kubectl run
 
-> Run pods in Kubernetes. Specifies pod generator to avoid deprecation error in some K8S versions.
+> Run pods in Kubernetes.
+> Specifies pod generator to avoid deprecation error in some K8S versions.
 > More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_run/>.
 
-- Run an nginx pod and expose port 80:
+- Run an `nginx` pod and expose port 80:
 
 `kubectl run {{nginx-dev}} --image nginx --port 80`
 
-- Run an nginx pod, setting the `$TEST_VAR` environment variable:
+- Run an `nginx` pod, setting the `$TEST_VAR` environment variable:
 
 `kubectl run {{nginx-dev}} --image nginx --env "{{TEST_VAR}}={{testing}}"`
 
-- Show API calls that would be made to create an nginx container:
+- Show API calls that would be made to create an `nginx` container:
 
 `kubectl run {{nginx-dev}} --image nginx --dry-run={{none|server|client}}`
 

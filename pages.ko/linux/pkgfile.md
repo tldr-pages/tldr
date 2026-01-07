@@ -1,7 +1,7 @@
 # pkgfile
 
 > Arch 기반 시스템의 공식 저장소에서 패키지의 파일을 검색합니다.
-> 같이 보기: `pacman files`, `pacman --files`의 사용법 설명.
+> 같이 보기: `pacman files`.
 > 더 많은 정보: <https://manned.org/pkgfile>.
 
 - pkgfile 데이터베이스 동기화:

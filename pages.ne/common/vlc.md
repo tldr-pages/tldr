@@ -1,6 +1,7 @@
 # vlc
 
 > क्रस प्लेटफर्म मल्टिमिडिया प्लेयर।
+> हेर्नुहोस् पनि: `mpv`, `mplayer`, `ytfzf`.
 > थप जानकारी: <https://wiki.videolan.org/Documentation:Command_line/>।
 
 - एउटा फाइल प्ले गर्नुहोस्:

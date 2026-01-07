@@ -15,6 +15,7 @@ This file contains the translation templates of this notice.
 [cs](#cs) •
 [da](#da) •
 [de](#de) •
+[el](#el) •
 [es](#es) •
 [fa](#fa) •
 [fi](#fi) •
@@ -96,7 +97,9 @@ This file contains the translation templates of this notice.
 
 ### da
 
-Not translated yet.
+```markdown
+> Se også: `example`.
+```
 
 ---
 
@@ -104,6 +107,14 @@ Not translated yet.
 
 ```markdown
 > Siehe auch: `example`.
+```
+
+---
+
+### el
+
+```markdown
+> Δείτε επίσης: `example`.
 ```
 
 ---
@@ -182,7 +193,9 @@ Not translated yet.
 
 ### lo
 
-Not translated yet.
+```markdown
+> ເບິ່ງຕື່ມ: `example`.
+```
 
 ---
 
@@ -196,7 +209,9 @@ Not translated yet.
 
 ### ne
 
-Not translated yet.
+```markdown
+> हेर्नुहोस् पनि: `example`.
+```
 
 ---
 
@@ -242,7 +257,9 @@ Not translated yet.
 
 ### ro
 
-Not translated yet.
+```markdown
+> Vezi și: `example`.
+```
 
 ---
 
@@ -256,13 +273,17 @@ Not translated yet.
 
 ### sr
 
-Not translated yet.
+```markdown
+> Такође погледајте: `example`.
+```
 
 ---
 
 ### sv
 
-Not translated yet.
+```markdown
+> Se även: `example`.
+```
 
 ---
 
@@ -300,7 +321,9 @@ Not translated yet.
 
 ### uz
 
-Not translated yet.
+```markdown
+> Shuningdek qarang: `example`.
+```
 
 ---
 

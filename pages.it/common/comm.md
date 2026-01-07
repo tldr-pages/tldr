@@ -11,7 +11,7 @@
 
 `comm -12 {{file1}} {{file2}}`
 
-- Stampa solo le lin comuni ad entrambi i file, leggendone uno da standard input:
+- Stampa solo le lin comuni ad entrambi i file, leggendone uno da `stdin`:
 
 `cat {{file1}} | comm -12 - {{file2}}`
 

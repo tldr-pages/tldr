@@ -2,6 +2,7 @@
 
 > Accède rapidement aux dossiers que vous visitez le plus.
 > Les alias comme `j` ou `jc` sont fournis pour simplifier leurs utilisation.
+> Voir aussi : `bashmarks`.
 > Plus d'informations : <https://github.com/wting/autojump#name>.
 
 - Accède à un dossier qui contiens le motif suivant :

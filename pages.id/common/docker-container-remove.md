@@ -1,7 +1,7 @@
 # docker container remove
 
-> Perintah ini merupakan alias dari `docker rm`.
+> Perintah ini merupakan alias dari `docker container rm`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr docker rm`
+`tldr docker container rm`

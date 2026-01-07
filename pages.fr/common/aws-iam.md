@@ -1,7 +1,7 @@
 # aws iam
 
 > CLI pour AWS IAM.
-> Plus d'informations : <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/iam/index.html>.
+> Plus d'informations : <https://docs.aws.amazon.com/cli/latest/reference/iam/>.
 
 - Liste les utilisateurs :
 

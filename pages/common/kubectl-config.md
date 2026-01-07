@@ -23,7 +23,7 @@
 
 - Switch to another context:
 
-`kubectl config {{use|use-context}} {{context_name}}`
+`kubectl config {{[use|use-context]}} {{context_name}}`
 
 - Delete clusters/contexts/users:
 
@@ -31,4 +31,4 @@
 
 - Permanently add custom kubeconfig files:
 
-`export KUBECONFIG="{{$HOME.kube/config:path/to/custom_kubeconfig.yaml}}" kubectl config get-contexts`
+`export KUBECONFIG="{{path/to/kubeconfig1.yaml}}:{{path/to/kubeconfig2.yaml}}"`

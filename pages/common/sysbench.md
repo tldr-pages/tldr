@@ -1,6 +1,6 @@
 # sysbench
 
-> Benchmark a System's CPU, IO and memory.
+> Benchmark a System's CPU, IO, and memory.
 > More information: <https://github.com/akopytov/sysbench#usage>.
 
 - Run a CPU benchmark with 1 thread for 10 seconds:

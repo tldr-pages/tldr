@@ -2,8 +2,8 @@
 
 > Vim (Vi IMproved), suatu aplikasi pengolah teks berbasis baris perintah, yang menyediakan beberapa mode untuk berbagai jenis proses manipulasi teks.
 > Menekan `<i>` dalam mode normal akan memasuki mode penyisipan (insert). Menekan `<Esc>` akan kembali ke mode normal, yang memungkinkan penggunaan perintah Vim.
-> Lihat juga: `vimdiff`, `vimtutor`, `nvim`.
-> Informasi lebih lanjut: <https://www.vim.org>.
+> Lihat juga: `vimdiff`, `vimtutor`, `nvim`, `gvim`.
+> Informasi lebih lanjut: <https://www.vim.org/>.
 
 - Buka suatu berkas:
 

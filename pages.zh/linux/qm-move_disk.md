@@ -4,4 +4,4 @@
 
 - 查看原命令的文档：
 
-`tldr qm disk move`
+`tldr qm disk`

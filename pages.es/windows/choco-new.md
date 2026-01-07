@@ -1,7 +1,7 @@
 # choco new
 
 > Genera nuevos archivos de especificación de paquetes con Chocolatey.
-> Más información: <https://chocolatey.org/docs/commands-new>.
+> Más información: <https://docs.chocolatey.org/en-us/create/commands/new/>.
 
 - Crear una nueva estructura de paquete:
 
@@ -17,7 +17,7 @@
 
 - Crear un nuevo paquete en un directorio de salida personalizado:
 
-`choco new {{paquete}} --output-directory {{ruta/al/directorio}}`
+`choco new {{paquete}} {{[--out|--output-directory]}} {{ruta/al/directorio}}`
 
 - Crear un nuevo paquete con URLs de instalador específicas para 32 bits y 64 bits:
 

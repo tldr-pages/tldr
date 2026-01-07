@@ -1,7 +1,7 @@
 # choco outdated
 
 > Sprawdzenie nieaktualnych pakietów zarządzanych przez Chocolatey.
-> Więcej informacji: <https://chocolatey.org/docs/commands-outdated>.
+> Więcej informacji: <https://docs.chocolatey.org/en-us/choco/commands/outdated/>.
 
 - Wyświetlanie listy nieaktualnych pakietów w formie tabeli:
 

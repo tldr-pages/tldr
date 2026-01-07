@@ -1,7 +1,7 @@
 # semanage permissive
 
 > Manage persistent SELinux permissive domains.
-> Note that this effectively makes the process unconfined. For long-term use, it is recommended to configure SELiunx properly.
+> Note that this effectively makes the process unconfined. For long-term use, it is recommended to configure SELinux properly.
 > See also: `semanage`, `getenforce`, `setenforce`.
 > More information: <https://manned.org/semanage-permissive>.
 

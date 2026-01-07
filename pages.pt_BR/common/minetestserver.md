@@ -1,7 +1,7 @@
 # minetestserver
 
-> Este comando é um apelido de `luantiserver`.
+> Este comando é um apelido de `luanti --server`.
 
 - Veja documentação sobre o comando original:
 
-`tldr luantiserver`
+`tldr luanti`

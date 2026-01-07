@@ -1,6 +1,6 @@
 # systemctl reload-or-try-restart
 
-> यो आदेश `systemctl try-reload-or-restart` को उपनाम हो |
+> यो आदेश `systemctl try-reload-or-restart` को उपनाम हो।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

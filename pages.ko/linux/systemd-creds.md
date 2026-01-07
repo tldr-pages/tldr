@@ -1,7 +1,7 @@
 # systemd-creds
 
 > 서비스 자격 증명을 나열, 표시, 암호화 및 복호화.
-> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/systemd-creds.html>.
+> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/latest/systemd-creds.html>.
 
 - 파일을 암호화하고 특정 이름 설정:
 

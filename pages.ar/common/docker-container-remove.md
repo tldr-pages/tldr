@@ -1,7 +1,7 @@
 # docker container remove
 
-> هذا الأمر هو اسم مستعار لـ `docker rm`.
+> هذا الأمر هو اسم مستعار لـ `docker container rm`.
 
 - إعرض التوثيقات للأمر الأصلي:
 
-`tldr docker rm`
+`tldr docker container rm`

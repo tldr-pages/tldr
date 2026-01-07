@@ -1,7 +1,7 @@
 # yabai
 
 > Kafelkowy menedżer okien dla macOS oparty na partycjonowaniu przestrzeni binarnej.
-> Więcej informacji: <https://github.com/koekeishiya/yabai/wiki>.
+> Więcej informacji: <https://github.com/asmvik/yabai/wiki>.
 
 - Wyślij wiado[m]ość konfiguracyjną w celu ustawienia układu:
 

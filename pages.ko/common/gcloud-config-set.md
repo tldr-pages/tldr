@@ -2,7 +2,7 @@
 
 > Google Cloud CLI 구성에서 속성을 설정.
 > 속성은 Google Cloud CLI 동작의 다양한 측면을 제어합니다.
-> 더 많은 정보: <https://cloud.google.com/sdk/gcloud/reference/config/set>.
+> 더 많은 정보: <https://docs.cloud.google.com/sdk/gcloud/reference/config/set>.
 
 - core 섹션에서 프로젝트 속성 설정:
 

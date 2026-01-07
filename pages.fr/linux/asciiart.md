@@ -13,16 +13,16 @@
 
 - Choisit la largeur de sortie (valeur par défaut : 100) :
 
-`asciiart --width {{50}} {{chemin/vers/image.jpg}}`
+`asciiart {{[-w|--width]}} {{50}} {{chemin/vers/image.jpg}}`
 
 - Colorise la sortie ASCII :
 
-`asciiart --color {{chemin/vers/image.jpg}}`
+`asciiart {{[-c|--color]}} {{chemin/vers/image.jpg}}`
 
 - Choisit le format de sortie (format par défaut : textuel) :
 
-`asciiart --format {{text|html}} {{chemin/vers/image.jpg}}`
+`asciiart {{[-f|--format]}} {{text|html}} {{chemin/vers/image.jpg}}`
 
 - Inverse la table de caractères :
 
-`asciiart --invert-chars {{chemin/vers/image.jpg}}`
+`asciiart {{[-i|--invert-chars]}} {{chemin/vers/image.jpg}}`

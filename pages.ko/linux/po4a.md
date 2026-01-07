@@ -1,7 +1,7 @@
 # po4a
 
 > PO 파일과 번역 문서를 업데이트.
-> 더 많은 정보: <https://po4a.org/man/man1/po4a.1.php>.
+> 더 많은 정보: <https://www.po4a.org/man/man1/po4a.1.php>.
 
 - 지정된 구성 파일에 따라 PO 파일과 문서 업데이트:
 

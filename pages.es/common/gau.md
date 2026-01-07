@@ -13,7 +13,7 @@
 
 - Obtén todas las URLs de varios dominios en un archivo de entrada, ejecutando varios subprocesos:
 
-`gau --threads {{4}} < {{ruta/a/dominios.txt}}`
+`gau < {{ruta/a/dominios.txt}} --threads {{4}}`
 
 - Escribe los resultados en un archivo:
 
@@ -21,7 +21,7 @@
 
 - Busca las URLs de un solo proveedor específico:
 
-`gau --providers {{wayback|commoncrawl|otx|urlscan}} {{ejemplo.com}}`
+`gau --providers {{wayback|commoncrawl|otx|urlscan}} {{example.com}}`
 
 - Busca las URLs de varios proveedores:
 

@@ -1,8 +1,8 @@
 # nix registry
 
 > Manage a Nix flake registry.
-> See also: `nix flake` for information about flakes.
-> More information: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-registry.html>.
+> See also: `nix flake`.
+> More information: <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-registry.html>.
 
 - Pin the `nixpkgs` revision to the current version of the upstream repository:
 

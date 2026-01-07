@@ -1,24 +1,24 @@
-# docker stats
+# docker container stats
 
-> Affiché un flux en direct des statistiques d'utilisation des ressources pour les conteneurs.
+> Affiche un flux en direct des statistiques d'utilisation des ressources pour les conteneurs.
 > Plus d'informations : <https://docs.docker.com/reference/cli/docker/container/stats/>.
 
-- Afficher un flux en direct des statistiques d'utilisation des ressources pour tous les conteneurs :
+- Affiche un flux en direct des statistiques d'utilisation des ressources pour tous les conteneurs :
 
-`docker stats`
+`docker {{[stats|container stats]}}`
 
-- Afficher un flux en direct des statistiques d'utilisation des ressources pour un ou plusieurs conteneurs séparés par des espaces :
+- Affiche un flux en direct des statistiques d'utilisation des ressources pour un ou plusieurs conteneurs séparés par des espaces :
 
-`docker stats {{nom_du_conteneur}}`
+`docker {{[stats|container stats]}} {{nom_du_conteneur}}`
 
 - Change le format de sortie pour afficher l'utilisation CPU du conteneur en pourcentage :
 
-`docker stats --format "{{.Name}}:\t{{.CPUPerc}}"`
+`docker {{[stats|container stats]}} --format "{{.Name}}:\t{{.CPUPerc}}"`
 
-- Afficher les statistiques d'utilisation des ressources pour tous les conteneurs (y compris ceux qui ne sont pas en cours d'exécution) :
+- Affiche les statistiques d'utilisation des ressources pour tous les conteneurs (y compris ceux qui ne sont pas en cours d'exécution) :
 
-`docker stats {{[-a|--all]}}`
+`docker {{[stats|container stats]}} {{[-a|--all]}}`
 
-- Desactiver le flux en direct des statistiques d'utilisation des ressources et afficher les statistiques une seule fois :
+- Désactive le flux en direct des statistiques d'utilisation des ressources et affiche les statistiques une seule fois :
 
-`docker stats --no-stream`
+`docker {{[stats|container stats]}} --no-stream`

@@ -1,6 +1,7 @@
 # top
 
 > 即時顯示系統執行程序的資訊。
+> 另請參閱：`htop`, `atop`, `glances`, `btop`, `btm`。
 > 更多資訊：<https://manned.org/top>。
 
 - 啟動 `top`：

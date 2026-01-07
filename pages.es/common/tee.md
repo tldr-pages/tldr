@@ -17,4 +17,4 @@
 
 - Crea un directorio llamado "ejemplo", cuenta el número de caracteres en "ejemplo" y escribe "ejemplo" a la terminal:
 
-`echo "ejemplo" | tee >(xargs mkdir) >(wc -c)`
+`echo "ejemplo" | tee >(xargs mkdir) >(wc {{[-c|--bytes]}})`

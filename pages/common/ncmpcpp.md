@@ -2,11 +2,11 @@
 
 > A music player client for the Music Player Daemon.
 > See also: `mpd`, `mpc`, `qmmp`, `termusic`.
-> More information: <https://rybczak.net/ncmpcpp>.
+> More information: <https://rybczak.net:443/ncmpcpp/>.
 
 - Connect to a music player daemon on a given host and port:
 
-`ncmpcpp --host {{ip}} --port {{port}}`
+`ncmpcpp --host {{ip_address}} --port {{port}}`
 
 - Display metadata of the current song to console:
 

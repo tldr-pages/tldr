@@ -23,7 +23,7 @@
 
 `ugrep --fuzzy={{3}} "{{search_pattern}}"`
 
-- 也递归搜索压缩文件、Zip 和 tar 存档：
+- 也递归搜索压缩文件、Zip 和 `.tar` 存档：
 
 `ugrep --decompress "{{search_pattern}}"`
 

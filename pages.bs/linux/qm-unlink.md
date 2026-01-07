@@ -4,4 +4,4 @@
 
 - Pogledaj dokumentaciju za izvornu komandu:
 
-`tldr qm disk unlink`
+`tldr qm disk`

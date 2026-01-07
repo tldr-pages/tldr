@@ -1,7 +1,7 @@
 # trivy
 
 > 컨테이너 이미지, 파일 시스템 및 Git 저장소의 취약점과 구성 문제를 스캔하는 도구.
-> 더 많은 정보: <https://aquasecurity.github.io/trivy>.
+> 더 많은 정보: <https://trivy.dev/docs/latest/guide/references/configuration/cli/trivy/>.
 
 - Docker 이미지를 취약점 및 노출된 비밀 키에 대해 스캔:
 
