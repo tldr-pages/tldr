@@ -1,33 +1,32 @@
 # timg
 
 > Een terminal-afbeelding- en videoviewer.
-
 > Meer informatie: <https://github.com/hzeller/timg#synopsis>.
 
-- Een statische afbeelding weergeven:
+- Geef een statische afbeelding weer:
 
 `timg {{image.jpg}}`
 
-- Alle JPEG-afbeeldingen in de huidige map weergeven:
+- Geef alle JPEG-afbeeldingen in de huidige map weer:
 
 `timg *.jpg`
 
-- Alle bitmaps in het iconenbestand weergeven:
+- Geef alle bitmaps in het iconen-bestand weer:
 
 `timg {{example.ico}}`
 
-- Een video afspelen:
+- Speel een video af:
 
 `timg {{video.mp4}}`
 
-- De inhoud van de webcam afspelen:
+- Speel de inhoud van de webcam af:
 
 `timg {{/dev/videoX}}`
 
-- Een geanimeerde GIF afspelen:
+- Speel een geanimeerde GIF af:
 
 `timg {{gif.gif}}`
 
-- De versie weergeven:
+- Toon de versie:
 
 `timg --version`
