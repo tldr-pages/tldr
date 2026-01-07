@@ -6,9 +6,9 @@
 
 - Se ejecuta en la terminal:
 
-> `glances`
+`glances`
 
-> Se ejecuta en modo servidor web para mostrar los resultados en el navegador:
+- Se ejecuta en modo servidor web para mostrar los resultados en el navegador:
 
 `glances {{[-w|--webserver]}}`
 
