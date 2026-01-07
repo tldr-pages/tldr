@@ -1,7 +1,7 @@
 # delta
 
 > Visualizzatore per output Git e diff.
-> Maggiori informazioni: <https://dandavison.github.io/delta/full---help-output.html>[attached_file:1].
+> Maggiori informazioni: <https://dandavison.github.io/delta/full---help-output.html>.
 
 - Confronta file o directory:
 
