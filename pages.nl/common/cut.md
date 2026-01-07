@@ -25,7 +25,7 @@
 
 - Toon geen regels die het scheidingsteken niet bevatten:
 
-`{{command}} | cut {{[-d|--delimiter]}} "{{:}}" {{[-f|--fields]}} {{1}} {{[-s|--only-delimited]}}`
+`{{commando}} | cut {{[-d|--delimiter]}} "{{:}}" {{[-f|--fields]}} {{1}} {{[-s|--only-delimited]}}`
 
 - Toon specifieke velden van regels die `NUL` gebruiken om regels af te sluiten in plaats van newlines:
 

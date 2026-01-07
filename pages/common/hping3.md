@@ -2,6 +2,7 @@
 
 > Advanced ping utility which supports protocols such TCP, UDP, and raw IP.
 > Best run with elevated privileges.
+> See also: `masscan`, `naabu`, `nmap`, `rustscan`, `zmap`.
 > More information: <https://manned.org/hping3>.
 
 - Ping a destination with 4 ICMP ping requests:
