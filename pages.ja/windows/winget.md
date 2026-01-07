@@ -29,8 +29,8 @@
 
 - ファイルからのパッケージのインポート、またはインストールされたパッケージのファイルへのエクスポート:
 
-`winget {{import|export}} {{--import-file|--output}} {{path/to/file}}`
+`winget {{import|export}} {{--import-file|--output}} {{ファイルパス}}`
 
 - winget-pkgs リポジトリに PR を開く前にマニフェストを検証する:
 
-`winget validate {{path/to/manifest}}`
+`winget validate {{明示パス}}`
