@@ -3,7 +3,7 @@
 > Utilidad avanzada de ping que admite protocolos como TCP, UDP e IP sin procesar.
 > Se recomienda ejecutarla con privilegios elevados.
 > Vea también: `masscan`, `naabu`, `nmap`, `rustscan`, `zmap`.
-> Más información: <HTTPS://manned.org/hping3>.
+> Más información: <https://manned.org/hping3>.
 
 - Envía un ping a un destino con 4 solicitudes de ping ICMP:
 
