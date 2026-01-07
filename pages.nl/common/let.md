@@ -1,6 +1,6 @@
 # let
 
-> Evalueer rekenkundige uitdrukkingen in shell. 
+> Evalueer rekenkundige uitdrukkingen in shell.
 > Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#index-let>.
 
 - Evalueer een eenvoudige rekenkundige uitdrukking:
