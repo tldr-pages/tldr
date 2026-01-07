@@ -1,6 +1,6 @@
-# nh
+# nh os
 
-> Modern helper utility tool for the Nix/Nixos ecosystem.
+> Reconfigure or debug a Nixos machine.
 > More information: <https://github.com/nix-community/nh#usage>.
 
 - Build and switch to a specified Nixos flake configuration:
