@@ -1,7 +1,7 @@
 # smbserver.py
 
 > Host SMB-shares.
-> Onderdeel van de Impacket suite.
+> Onderdeel van de Impacket-suite.
 > Meer informatie: <https://github.com/fortra/impacket>.
 
 - Stel een basis SMB share in:
