@@ -1,7 +1,7 @@
 # addcomputer.py
 
 > Voeg een computeraccount toe aan het domein.
-> Onderdeel van de Impacket suite.
+> Onderdeel van de Impacket-suite.
 > Meer informatie: <https://github.com/fortra/impacket>.
 
 - Voeg een computer toe met een specifieke naam en wachtwoord:

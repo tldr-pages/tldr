@@ -1,7 +1,7 @@
 # sambaPipe.py
 
 > Misbruik CVE-2017-7494 (SambaCry) om een SO-bestand (shared object) te uploaden en laden op een kwetsbare Samba-server om code op afstand uit te voeren.
-> Onderdeel van de Impacket suite.
+> Onderdeel van de Impacket-suite.
 > Meer informatie: <https://github.com/fortra/impacket>.
 
 - Upload een gedeeld objectbestand en laad op een kwetsbare Samba-server:
