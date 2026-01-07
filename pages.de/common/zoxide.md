@@ -14,7 +14,7 @@
 
 - Starte eine interaktive Verzeichnissuche (erfordert `fzf`):
 
-`zoxide query --interactive`
+`zoxide query {{[-i|--interactive]}}`
 
 - Füge ein Verzeichnis hinzu oder erhöhe seinen Rang:
 
@@ -24,6 +24,6 @@
 
 `zoxide remove {{path/to/directory}}`
 
-- Generiere Shell-Konfigurationen für Befehls-Aliase (`z`, `za`, `zi`, `zq`, `zr`) für die angegebene Shell:
+- Generiere Shell-Konfigurationen für Befehls-Aliase (`z`, `zi`) für die angegebene Shell:
 
-`zoxide init {{bash|fish|zsh}}`
+`zoxide init {{bash|elvish|fish|nushell|posix|powershell|tcsh|xonsh|zsh}}`
