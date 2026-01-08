@@ -13,7 +13,7 @@
 
 - Lint specific files:
 
-`ng lint {{project_name}} --files {{file1.ts file2.ts ...}}`
+`ng lint {{project_name}} --files {{path/to/file1.ts path/to/file2.ts ...}}`
 
 - Exclude certain files or folders from linting:
 
