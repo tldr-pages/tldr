@@ -18,7 +18,7 @@
 
 - Se conecta a un servidor Glances:
 
-`glances {{[-c|--client]}} {nombre_del_host}`
+`glances {{[-c|--client]}} {{nombre_del_host}}`
 
 - Solicita una contraseña en modo servidor (web):
 
