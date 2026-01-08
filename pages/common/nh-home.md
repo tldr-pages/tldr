@@ -12,6 +12,6 @@
 
 `nh home build {{path/to/flake}} {{[-u|--update]}}`
 
-- Load a specified Home manager flake configuration in Nix repl (Nix evaluation environnement):
+- Load a specified Home manager flake configuration in Nix repl (Nix evaluation environment):
 
 `nh home repl {{path/to/flake}}`

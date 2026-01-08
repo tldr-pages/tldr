@@ -19,7 +19,7 @@
 
 `nh os build-vm {{path/to/flake}} {{[-H|--hostname]}} {{host}}`
 
-- Load a specified Nixos flake configuration in Nix repl (Nix evaluation environnement):
+- Load a specified Nixos flake configuration in Nix repl (Nix evaluation environment):
 
 `nh os repl {{path/to/flake}}`
 
