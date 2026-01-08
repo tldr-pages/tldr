@@ -1,7 +1,7 @@
 # ng lint
 
 > Check Angular project code for style and errors using the configured linter.
-> Linting requires setup via `ng add`.
+> Note: Linting requires setup via `ng add`.
 > More information: <https://angular.dev/cli/lint>.
 
 - Lint all projects in the workspace:
