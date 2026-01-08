@@ -11,7 +11,7 @@
 
 - Hace ping a una dirección IP a través de UDP en el puerto 80:
 
-`hping3 {{[-2|--udp]}} {{[-p|--destport]}} 80 {{[-S|--syn]}} {ip_o_nombredelhost}}`
+`hping3 {{[-2|--udp]}} {{[-p|--destport]}} 80 {{[-S|--syn]}} {{ip_o_nombredelhost}}`
 
 - Escanea el puerto TCP 80, escaneando desde el puerto local específico 5090:
 
