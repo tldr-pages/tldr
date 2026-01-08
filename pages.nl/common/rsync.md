@@ -4,7 +4,7 @@
 > Om een pad te specificeren, gebruik `gebruiker@host:pad/naar/bestand_of_map`.
 > Meer informatie: <https://download.samba.org/pub/rsync/rsync.1>.
 
-- Draag een bestand over:
+- Draag een bestand over (gebruik `--dry-run` om de overdracht te simuleren):
 
 `rsync {{pad/naar/bron}} {{pad/naar/bestemming}}`
 
@@ -16,13 +16,13 @@
 
 `rsync {{[-zvhP|--compress --verbose --human-readable --partial --progress]}} {{pad/naar/bron}} {{pad/naar/bestemming}}`
 
-- Kopieer recursief mappen:
+- Kopieer recursief mappen en zorg ervoor dat elk bestand volledig naar de schijf wordt weggeschreven in plaats van in het RAM-geheugen blijft staan:
 
 `rsync {{[-r|--recursive]}} {{pad/naar/bron}} {{pad/naar/bestemming}}`
 
 - Draag de inhoud van een map over, maar niet de map zelf:
 
-`rsync {{[-r|--recursive]}} {{pad/naar/bron}}/ {{pad/naar/bestemming}}`
+`rsync {{[-r|--recursive]}} --fsync {{pad/naar/bron}}/ {{pad/naar/bestemming}}`
 
 - Gebruik archiefmodus, los symlinks op en sla bestanden over die nieuwer zijn op de bestemming:
 
