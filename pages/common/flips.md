@@ -1,16 +1,16 @@
 # flips
 
-> Create and apply patches for IPS and BPS files.
+> Create and apply IPS and BPS patches.
 > More information: <https://github.com/Alcaro/Flips>.
 
-- Start Flips to create and apply patches interactively:
+- Run Flips interactively:
 
 `flips`
 
-- Apply a patch and create a new ROM file:
+- Apply a patch to a file:
 
-`flips --apply {{patch.bps}} {{rom.smc}} {{hack.smc}}`
+`flips --apply {{path/to/patch.bps}} {{path/to/source_file}} {{path/to/output_file}}`
 
-- Create a patch from two ROMs:
+- Create a patch from two files:
 
-`flips --create {{rom.smc}} {{hack.smc}} {{patch.bps}}`
+`flips --create {{path/to/original_file}} {{path/to/modified_file}} {{path/to/output_patch.bps}}`
