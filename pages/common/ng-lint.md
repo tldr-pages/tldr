@@ -1,6 +1,6 @@
 # ng lint
 
-> Compile an Angular application or library into an output directory named `dist/`.
+> Check Angular project code for style and errors using the configured linter.
 > More information: <https://angular.dev/cli/lint>.
 
 - Lint all projects in the workspace:
