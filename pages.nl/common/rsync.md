@@ -18,11 +18,11 @@
 
 - Kopieer recursief mappen en zorg ervoor dat elk bestand volledig naar de schijf wordt weggeschreven in plaats van in het RAM-geheugen blijft staan:
 
-`rsync {{[-r|--recursive]}} {{pad/naar/bron}} {{pad/naar/bestemming}}`
+`rsync {{[-r|--recursive]}} --fsync {{pad/naar/bron}} {{pad/naar/bestemming}}`
 
 - Draag de inhoud van een map over, maar niet de map zelf:
 
-`rsync {{[-r|--recursive]}} --fsync {{pad/naar/bron}} {{pad/naar/bestemming}}`
+`rsync {{[-r|--recursive]}} {{pad/naar/bron}}/ {{pad/naar/bestemming}}`
 
 - Gebruik archiefmodus, los symlinks op en sla bestanden over die nieuwer zijn op de bestemming:
 
