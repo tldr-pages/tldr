@@ -1,6 +1,6 @@
 # dnf
 
-> C++ rewritten package manager for Fedora 41+ and RHEL 10, optimized for speed and lower memory usage.
+> Package manager for Fedora 41+ and RHEL 10.
 > For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > More information: <https://dnf5.readthedocs.io/en/latest/commands/index.html>.
 
