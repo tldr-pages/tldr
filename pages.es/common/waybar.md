@@ -9,7 +9,7 @@
 
 - Usa un archivo de configuración diferente:
 
-`waybar {{[-c|--config]}} {{ruta/a/archivo_de_configuración.jsonc}}`
+`waybar {{[-c|--config]}} {{ruta/al/archivo_de_configuración.jsonc}}`
 
 - Utiliza un archivo de hoja de estilo diferente:
 

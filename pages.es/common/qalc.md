@@ -26,4 +26,4 @@
 
 - Ejecuta comandos desde un archivo:
 
-`qalc --file {{ruta/a/archivo}}`
+`qalc --file {{ruta/al/archivo}}`
