@@ -7,7 +7,7 @@
 
 - Envía un ping a un destino con 4 solicitudes de ping ICMP:
 
-`hping3 {{[-1|--icmp]}} {{[-c|--count]}} 4 {ip_o_nombredelhost}}`
+`hping3 {{[-1|--icmp]}} {{[-c|--count]}} 4 {{ip_o_nombredelhost}}`
 
 - Hace ping a una dirección IP a través de UDP en el puerto 80:
 
