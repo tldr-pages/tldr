@@ -1,7 +1,7 @@
 # flips
 
 > Create and apply IPS and BPS patches.
-> More information: <https://github.com/Alcaro/Flips>.
+> More information: <https://git.disroot.org/Sir_Walrus/Flips>.
 
 - Run Flips interactively:
 
