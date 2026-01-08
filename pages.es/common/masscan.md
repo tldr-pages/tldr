@@ -36,3 +36,4 @@
 - Lee los resultados del escaneo binario de un archivo y los envía a `stdout`:
 
 `masscan --readscan {{ruta/al/archivo}}`
+
