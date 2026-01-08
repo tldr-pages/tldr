@@ -11,6 +11,6 @@
 
 `xdelta3 -d -s {{path/to/old_file}} {{path/to/patch_file}} {{path/to/new_file}}`
 
-- Create a patch with a specific compression level (0-9):
+- Create a patch with a specific compression level:
 
 `xdelta3 -{{0..9}} -s {{path/to/old_file}} {{path/to/new_file}} {{path/to/patch_file}}`
