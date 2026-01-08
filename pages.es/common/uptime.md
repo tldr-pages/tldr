@@ -9,16 +9,16 @@
 
 - Muestra solo el tiempo que el sistema ha estado encendido:
 
-`uptime {{--pretty}}`
+`uptime {{[-p|--pretty]}}`
 
 - Imprime la fecha y hora en que el sistema se encendió:
 
-`uptime {{--since}}`
+`uptime {{[-s|--since]}}`
 
 - Muestra los datos de tiempo en segundos:
 
-`uptime {{--raw}}`
+`uptime {{[-r|--raw]}}`
 
 - Muestra la versión:
 
-`uptime {{--version}}`
+`uptime {{[-V|--version]}}`
