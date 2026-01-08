@@ -1,6 +1,6 @@
 # dnf4
 
-> Package management utility for RHEL, Fedora, and CentOS.
+> Python-based package manager used as the default in RHEL 8/9 and older Fedora versions (pre-41).
 > For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > More information: <https://dnf.readthedocs.io/en/latest/command_ref.html>.
 

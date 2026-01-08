@@ -1,7 +1,6 @@
 # dnf
 
-> Package management utility for RHEL, Fedora, and CentOS.
-> DNF5 is a C++ rewrite of the DNF package manager featuring improved performance and a smaller size.
+> C++ rewritten package manager for Fedora 41+ and RHEL 10, optimized for speed and lower memory usage.
 > For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > More information: <https://dnf5.readthedocs.io/en/latest/commands/index.html>.
 
