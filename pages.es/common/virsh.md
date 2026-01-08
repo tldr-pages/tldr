@@ -18,7 +18,7 @@
 
 - Crea un invitado a partir de un archivo de configuración:
 
-`virsh create {{ruta/a/archivo_de_configuración.xml}}`
+`virsh create {{ruta/al/archivo_de_configuración.xml}}`
 
 - Edita el archivo de configuración de un invitado (el editor puede cambiarse con `$EDITOR`):
 

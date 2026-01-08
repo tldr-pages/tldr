@@ -25,7 +25,7 @@
 
 - Exporta los resultados de la consulta a un archivo específico:
 
-`{{prompt}}=> \g {{ruta/a/archivo_con_resultados}}`
+`{{prompt}}=> \g {{ruta/al/archivo_con_resultados}}`
 
 - Importa datos de un archivo CSV a una tabla específica:
 

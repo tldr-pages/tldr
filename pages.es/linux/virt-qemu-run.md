@@ -9,7 +9,7 @@
 
 - Ejecuta una máquina virtual QEMU y almacena el estado en un directorio específico:
 
-`virt-qemu-run --root={{ruta/a/directorio}} {{ruta/a/guest.xml}}`
+`virt-qemu-run --root={{ruta/al/directorio}} {{ruta/a/guest.xml}}`
 
 - Ejecuta una máquina virtual QEMU y muestra información detallada sobre el inicio:
 

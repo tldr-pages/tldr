@@ -26,4 +26,4 @@
 
 - Guarda las reglas ARP actuales en un archivo:
 
-`sudo arptables-save > {{ruta/a/archivo}}`
+`sudo arptables-save > {{ruta/al/archivo}}`
