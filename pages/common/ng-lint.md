@@ -1,4 +1,4 @@
-# ng build
+# ng lint
 
 > Compile an Angular application or library into an output directory named `dist/`.
 > More information: <https://angular.dev/cli/lint>.
