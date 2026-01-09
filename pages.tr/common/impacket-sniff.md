@@ -2,6 +2,6 @@
 
 > Bu komut `sniff.py` için bir takma addır.
 
-- Asıl komutun belgelerini görüntüleyin:
+- Asıl komutun dokümantasyonunu görüntüleyin:
 
 `tldr sniff.py`
