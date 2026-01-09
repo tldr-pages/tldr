@@ -2,7 +2,7 @@
 
 > Resolve DNS records in bulk with high performance for reconnaissance.
 > See also: `dig`, `dnsx`.
-> More information: <https://github.com/blechschmidt/massdns>.
+> More information: <https://github.com/blechschmidt/massdns#usage>.
 
 - Resolve A records for domains in a file using specified resolvers:
 
