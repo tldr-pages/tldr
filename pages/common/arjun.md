@@ -1,7 +1,7 @@
 # arjun
 
 > Discover HTTP parameters for web applications.
-> More information: <https://github.com/s0md3v/Arjun>.
+> More information: <https://github.com/s0md3v/Arjun/wiki/Usage>.
 
 - Scan a URL for GET parameters:
 
