@@ -19,7 +19,7 @@
 
 `bindkey -M main`
 
-- Enable vi mode:
+- Enable [v]i mode:
 
 `bindkey -v`
 
