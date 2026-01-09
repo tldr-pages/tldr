@@ -9,7 +9,7 @@
 
 - Shred a file:
 
-`bleachbit_console.exe --shred {{path/to/file}}`
+`bleachbit_console.exe --shred {{path\to\file}}`
 
 - List available cleaner options:
 

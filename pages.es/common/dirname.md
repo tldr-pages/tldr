@@ -5,7 +5,7 @@
 
 - Calcula el directorio padre de una ruta dada:
 
-`dirname {{ruta/a/archivo_o_directorio}}`
+`dirname {{ruta/al/archivo_o_directorio}}`
 
 - Calcula el directorio padre de múltiples rutas:
 

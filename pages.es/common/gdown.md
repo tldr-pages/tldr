@@ -17,7 +17,7 @@
 
 - Descarga una carpeta utilizando su ID o la URL completa:
 
-`gdown {{id_de_carpeta|url}} -O {{ruta/a/directorio_de_salida}} --folder`
+`gdown {{id_de_carpeta|url}} -O {{ruta/al/directorio_de_salida}} --folder`
 
 - Descarga un archivo `.tar`, escríbelo en `stdout` y extráelo:
 

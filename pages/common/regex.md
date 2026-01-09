@@ -1,7 +1,7 @@
 # regex
 
 > Regular expressions (`regex`) are patterns used to match, search, and manipulate text.
-> `regex` isn't a command, but syntax to be used with other commands.
+> Note: `regex` isn't a command, but syntax to be used with other commands.
 > More information: <https://cheatography.com/davechild/cheat-sheets/regular-expressions/>.
 
 - Match any single character:

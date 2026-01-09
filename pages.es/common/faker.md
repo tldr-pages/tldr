@@ -17,7 +17,7 @@
 
 - Genera un número de ciudades en un país específico y las muestra en un archivo (usa `localectl list-locales | cut -d. -f1` para obtener la lista de locales):
 
-`faker --repeat {{número}} --lang {{en_AU|en_US|...}} city -o {{ruta/a/archivo.txt}}`
+`faker --repeat {{número}} --lang {{en_AU|en_US|...}} city -o {{ruta/al/archivo.txt}}`
 
 - Genera una serie de agentes de usuario HTTP aleatorios mostrando una salida detallada:
 

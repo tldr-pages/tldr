@@ -21,4 +21,4 @@
 
 - Abre una pestaña diff en Zed para dos versiones de un archivo:
 
-`zed --diff {{ruta/a/archivo_antiguo}} {{ruta/al/archivo_nuevo}}`
+`zed --diff {{ruta/al/archivo_antiguo}} {{ruta/al/archivo_nuevo}}`

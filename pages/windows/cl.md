@@ -5,28 +5,28 @@
 
 - Compile a source file:
 
-`cl {{path/to/source.c}}`
+`cl {{path\to\source.c}}`
 
 - Compile and create an executable with a custom name:
 
-`cl /Fe {{path/to/output_executable}} {{path/to/source.c}}`
+`cl /Fe {{path\to\output_executable}} {{path\to\source.c}}`
 
 - Compile a source file with optimization enabled:
 
-`cl /O2 {{path/to/source.c}}`
+`cl /O2 {{path\to\source.c}}`
 
 - Compile a source file and create a debug executable:
 
-`cl /Zi {{path/to/source.c}}`
+`cl /Zi {{path\to\source.c}}`
 
 - Compile multiple source files:
 
-`cl {{path/to/source1.c path/to/source2.c ...}}`
+`cl {{path\to\source1.c path\to\source2.c ...}}`
 
 - Specify the output directory for compiled files:
 
-`cl /Fo {{path/to/output_directory}}/ {{path/to/source.c}}`
+`cl /Fo {{path\to\output_directory}}/ {{path\to\source.c}}`
 
 - Compile with warnings as errors:
 
-`cl /WX {{path/to/source.c}}`
+`cl /WX {{path\to\source.c}}`
