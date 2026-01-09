@@ -23,6 +23,6 @@
 
 `bindkey -v`
 
-- Enable emacs mode (default mode):
+- Enable [e]macs mode (default mode):
 
 `bindkey -e`
