@@ -9,7 +9,7 @@
 
 - Scan using POST method:
 
-`arjun -u {{https://example.com/api}} -m {{POST}}`
+`arjun -u {{https://example.com/api}} -m POST`
 
 - Save discovered parameters to a file:
 
