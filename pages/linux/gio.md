@@ -23,3 +23,7 @@
 - Send a file to the trash (reversible):
 
 `gio trash {{path/to/file}}`
+
+- Launch an application from a `.desktop` file:
+
+`gio launch {{path/to/file}}.desktop`
