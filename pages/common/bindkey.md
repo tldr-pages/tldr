@@ -18,3 +18,11 @@
 - View the hotkey in a key[M]ap:
 
 `bindkey -M main`
+
+- Enable [v]i mode:
+
+`bindkey -v`
+
+- Enable [e]macs mode (default mode):
+
+`bindkey -e`

@@ -2,6 +2,6 @@
 
 > Bu komut `jupyter lab` için bir takma addır.
 
-- Asıl komutun belgelerini görüntüleyin:
+- Asıl komutun dokümantasyonunu görüntüleyin:
 
 `tldr jupyter lab`
