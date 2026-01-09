@@ -19,6 +19,6 @@
 
 `arjun -u {{https://example.com}} -w {{path/to/wordlist.txt}}`
 
-- Increase request delay to avoid rate limiting:
+- Increase request delay by specific amount of seconds to avoid rate limiting:
 
 `arjun -u {{https://example.com}} -d {{2}}`
