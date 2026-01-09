@@ -1,6 +1,6 @@
 # uptime
 
-> Indica cuánto tiempo lleva el sistema encendido y otra información.
+> Indica cuánto tiempo lleva el sistema encendido y otros datos.
 > Más información: <https://www.gnu.org/software/coreutils/manual/html_node/uptime-invocation.html>.
 
 - Imprime la hora actual, el tiempo de encendido, el número de usuarios conectados y otros datos:
