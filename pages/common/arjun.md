@@ -11,9 +11,9 @@
 
 `arjun -u {{https://example.com/api}} -m POST`
 
-- Save discovered parameters to a file:
+- Save discovered parameters to a JSON file:
 
-`arjun -u {{https://example.com}} -o {{output.txt}}`
+`arjun -u {{https://example.com}} -o {{path/to/output.json}}`
 
 - Use a custom wordlist:
 
