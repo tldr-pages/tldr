@@ -18,3 +18,11 @@
 - View the hotkey in a key[M]ap:
 
 `bindkey -M main`
+
+- Enable vi mode:
+
+`bindkey -v`
+
+- Enable emacs mode (default mode):
+
+`bindkey -e`
