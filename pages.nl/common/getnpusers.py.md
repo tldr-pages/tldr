@@ -1,7 +1,7 @@
 # GetNPUsers.py
 
 > Ga over alle Active Directory accounts met Kerberos pre-authentication uitgeschakeld, die vatbaar kunnen zijn voor AS-REP roasing aanvallen.
-> Onderdeel van de Impacket suite.
+> Onderdeel van de Impacket-suite.
 > Meer informatie: <https://github.com/fortra/impacket>.
 
 - Ga over alle gebruikers met Kerberos pre-authentication uitgeschakeld (standaard anonieme enumeration):

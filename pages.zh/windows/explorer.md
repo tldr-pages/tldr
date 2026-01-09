@@ -13,4 +13,4 @@
 
 - 在指定目录打开 Windows 文件资源管理器：
 
-`explorer {{path/to/directory}}`
+`explorer {{路径\到\目录}}`

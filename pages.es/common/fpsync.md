@@ -17,7 +17,7 @@
 
 - Sincroniza recursivamente un directorio a un destino utilizando 8 trabajos de sincronización concurrentes repartidos entre dos trabajadores remotos (máquina1 y máquina2):
 
-`fpsync -v -n 8 -E -w login@machine1 -w login@machine2 -d {{/ruta/a/directorio/compartido}} {{/ruta/a/origen/}} {{/ruta/a/destino/}}`
+`fpsync -v -n 8 -E -w login@machine1 -w login@machine2 -d {{/ruta/al/directorio/compartido}} {{/ruta/a/origen/}} {{/ruta/a/destino/}}`
 
 - Sincroniza recursivamente un directorio a un destino utilizando cuatro trabajadores locales, cada uno transfiriendo como máximo 1000 archivos y 100 MB por trabajo de sincronización:
 

@@ -18,7 +18,7 @@
 
 - Maak een nieuw project van een lokaal sjabloon:
 
-`bun create {{path/to/template}} {{pad/naar/bestemming}}`
+`bun create {{pad/naar/template}} {{pad/naar/bestemming}}`
 
 - Maak een nieuw project en overschrijf de doelmap als deze bestaat:
 

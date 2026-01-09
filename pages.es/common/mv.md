@@ -9,11 +9,11 @@
 
 - Mueve un archivo o directorio a un directorio existente:
 
-`mv {{ruta/a/origen}} {{ruta/a/directorio_existente}}`
+`mv {{ruta/a/origen}} {{ruta/al/directorio_existente}}`
 
 - Mueve varios archivos a un directorio existente, manteniendo los nombres de archivo sin cambios:
 
-`mv {{ruta/a/origen1 ruta/a/origen2 ...}} {{ruta/a/directorio_existente}}`
+`mv {{ruta/a/origen1 ruta/a/origen2 ...}} {{ruta/al/directorio_existente}}`
 
 - No pedir confirmación antes de sobrescribir los archivos existentes:
 
@@ -33,4 +33,4 @@
 
 - Especifica el directorio de destino para poder utilizar herramientas externas para recopilar archivos movibles:
 
-`{{find /var/log -type f -name '*.log' -print0}} | {{xargs -0}} mv {{[-t|--target-directory]}} {{ruta/a/directorio_destino}}`
+`{{find /var/log -type f -name '*.log' -print0}} | {{xargs -0}} mv {{[-t|--target-directory]}} {{ruta/al/directorio_destino}}`

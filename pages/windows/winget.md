@@ -29,8 +29,8 @@
 
 - Import packages from a file, or export installed packages to a file:
 
-`winget {{import|export}} {{--import-file|--output}} {{path/to/file}}`
+`winget {{import|export}} {{--import-file|--output}} {{path\to\file}}`
 
 - Validate manifests before submitting a PR to the winget-pkgs repository:
 
-`winget validate {{path/to/manifest}}`
+`winget validate {{path\to\manifest}}`

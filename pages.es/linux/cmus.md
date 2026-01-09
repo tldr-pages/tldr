@@ -7,11 +7,11 @@
 
 - Abre `cmus` en el directorio especificado (se convertirá en tu nuevo directorio de trabajo):
 
-`cmus {{ruta/a/directorio}}`
+`cmus {{ruta/al/directorio}}`
 
 - Añade archivo/directorio a la biblioteca:
 
-`<:>add {{ruta/a/archivo_o_directorio}}`
+`<:>add {{ruta/al/archivo_o_directorio}}`
 
 - Actualiza los metadatos de las canciones de la biblioteca:
 

@@ -9,11 +9,11 @@
 
 - Instala el paquete desde un directorio:
 
-`kpackagetool6 --type {{tipo_paquete}} --install {{ruta/a/directorio}}`
+`kpackagetool6 --type {{tipo_paquete}} --install {{ruta/al/directorio}}`
 
 - Actualiza el paquete instalado desde un directorio:
 
-`kpackagetool6 --type {{tipo_paquete}} --upgrade {{ruta/a/directorio}}`
+`kpackagetool6 --type {{tipo_paquete}} --upgrade {{ruta/al/directorio}}`
 
 - Lista los plasmoides instalados (`--global` para todos los usuarios):
 

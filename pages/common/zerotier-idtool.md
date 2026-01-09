@@ -1,6 +1,7 @@
 # zerotier-idtool
 
 > Create and manipulate ZeroTier identities.
+> See also: `zerotier-cli`, `zerotier-one`.
 > More information: <https://github.com/zerotier/ZeroTierOne/blob/dev/doc/zerotier-idtool.1.md>.
 
 - Generate a new ZeroTier identity and output the secret part to `stdout`:
