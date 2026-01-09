@@ -4,4 +4,4 @@
 
 - Visualizza la documentazione per il comando originale:
 
-`tldr mc`
+`tldr mc.cli`
