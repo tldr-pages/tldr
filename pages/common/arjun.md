@@ -17,7 +17,7 @@
 
 - Use a custom wordlist:
 
-`arjun -u {{https://example.com}} -w {{wordlist.txt}}`
+`arjun -u {{https://example.com}} -w {{path/to/wordlist.txt}}`
 
 - Increase request delay to avoid rate limiting:
 
