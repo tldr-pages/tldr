@@ -2,6 +2,6 @@
 
 > Bu komut `Set-Alias` için bir takma addır.
 
-- Asıl komutun belgelerini görüntüleyin:
+- Asıl komutun dokümantasyonunu görüntüleyin:
 
 `tldr set-alias`
