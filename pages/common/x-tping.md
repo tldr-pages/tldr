@@ -31,7 +31,3 @@
 - Output in TSV format:
 
 `x tping --tsv {{host}}`
-
-- Send a TCP connection (run subcommand):
-
-`x tping run {{host}}:{{port}}`
