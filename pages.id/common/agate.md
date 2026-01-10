@@ -13,4 +13,4 @@
 
 - Tampilkan informasi bantuan:
 
-`agate -h`
+`agate {{[-h|--help]}}`
