@@ -10,7 +10,7 @@
 
 - Keep a specified number of the most recent profiles for the current user and clean the remaining profiles:
 
-`nh clean user {{[-k|--keep]}} {{keep}}`
+`nh clean user {{[-k|--keep]}} {{number}}`
 
 - Clean a specific profile and collect garbage:
 
