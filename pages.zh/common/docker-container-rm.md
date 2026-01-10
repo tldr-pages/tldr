@@ -15,6 +15,6 @@
 
 `docker rm {{[-v|--volumes]}} {{容器}}`
 
-- 显示帮助信息：
+- 显示帮助：
 
 `docker rm {{[-h|--help]}}`
