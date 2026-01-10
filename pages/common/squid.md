@@ -5,28 +5,28 @@
 
 - Start Squid in the background:
 
-`squid`
+`sudo squid`
 
 - Start Squid in the foreground:
 
-`squid -N`
+`sudo squid -N`
 
 - Start Squid with a specific configuration file:
 
-`squid -f {{path/to/squid.conf}}`
+`sudo squid -f {{path/to/squid.conf}}`
 
 - Test the configuration file for errors:
 
-`squid -k parse`
+`sudo squid -k parse`
 
 - Reload the configuration file:
 
-`squid -k reconfigure`
+`sudo squid -k reconfigure`
 
 - Shut down Squid gracefully:
 
-`squid -k shutdown`
+`sudo squid -k shutdown`
 
 - Rotate the log files:
 
-`squid -k rotate`
+`sudo squid -k rotate`
