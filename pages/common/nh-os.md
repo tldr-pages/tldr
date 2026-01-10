@@ -7,7 +7,7 @@
 
 `nh os switch {{path/to/flake}}`
 
-- Update all the flake inputs of the specified Nixos flake configuration, build it and make it the boot default:
+- Update all the flake inputs of the specified Nixos flake configuration, build it and make it the boot by default:
 
 `nh os boot {{path/to/flake}} {{[-u|--update]}}`
 
