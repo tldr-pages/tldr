@@ -1,11 +1,7 @@
 # x
 
-> x-cmd: A command-line tool for managing modules and packages.
+> X-CMD: A command-line tool for managing modules and packages.
 > More information: <https://x-cmd.com>.
-
-- Show help for x-cmd:
-
-`x -h`
 
 - Use a module (e.g., path module):
 
