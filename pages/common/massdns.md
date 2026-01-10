@@ -4,7 +4,7 @@
 > See also: `dig`, `dnsx`.
 > More information: <https://github.com/blechschmidt/massdns#usage>.
 
-- Resolve A records for domains in a file using specified resolvers:
+- Resolve `A` records for domains in a file using specified resolvers:
 
 `massdns {{[-r|--resolvers]}} {{path/to/resolvers.txt}} {{path/to/domains.txt}}`
 
