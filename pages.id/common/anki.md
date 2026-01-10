@@ -9,12 +9,12 @@
 
 - Gunakan [p]rofil tertentu untuk mengakses flashcard:
 
-`anki -p {{nama_profil}}`
+`anki {{[-p|--profile]}} {{nama_profil}}`
 
 - Gunakan suatu bahasa ([l]anguage):
 
-`anki -l {{bahasa}}`
+`anki {{[-l|--lang]}} {{bahasa}}`
 
 - Gunakan direktori non-default untuk memuat data flashcard (tersimpan secara default dalam `~/Anki`):
 
-`anki -b {{jalan/menuju/direktori}}`
+`anki {{[-b|--base]}} {{jalan/menuju/direktori}}`
