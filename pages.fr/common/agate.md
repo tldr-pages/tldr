@@ -5,7 +5,7 @@
 
 - Exécute et génère une clé privée et un certificat :
 
-`agate --content {{chemin/vers/contenu/}} --addr {{[::]:1965}} --addr {{0.0.0.0:1965}} --hostname {{exemple.com}} --lang {{fr-FR}}`
+`agate --content {{chemin/vers/contenu}}/ --addr {{[::]:1965}} --addr {{0.0.0.0:1965}} --hostname {{exemple.com}} --lang {{fr-FR}}`
 
 - Lance le serveur :
 
