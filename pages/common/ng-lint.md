@@ -28,7 +28,7 @@
 
 `ng lint {{project_name}} --force`
 
-- Use a specific output format (e.g., stylish, json):
+- Use a specific output format:
 
 `ng lint {{project_name}} --format {{format}}`
 
