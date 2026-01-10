@@ -27,6 +27,6 @@
 
 `bindkey -e`
 
-- Detect whether in vi or emacs mode:
+- Check which mode is active (vi or emacs):
 
 `bindkey -lL main | grep -Eo 'viins|emacs'`
