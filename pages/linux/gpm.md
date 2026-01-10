@@ -11,7 +11,7 @@
 
 `sudo gpm -m /dev/ttyS0 -t ms`
 
-- Start gpm in the foreground for [D]ebugging:
+- Start gpm with a [m]ouse and [t]ype in the foreground for [D]ebugging:
 
 `sudo gpm -m {{path/to/mouse_device}} -t {{mouse_type}} -D`
 
@@ -19,7 +19,7 @@
 
 `sudo gpm -k`
 
-- Start gpm in [R]epeater mode for X server compatibility:
+- Start gpm with a [m]ouse and [t]ype in [R]epeater mode for X server compatibility:
 
 `sudo gpm -m {{path/to/mouse_device}} -t {{mouse_type}} -R`
 
