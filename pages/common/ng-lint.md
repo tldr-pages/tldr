@@ -30,7 +30,7 @@
 
 - Use a specific output format:
 
-`ng lint {{project_name}} --format {{format}}`
+`ng lint {{project_name}} --format {{stylish|json|...}}`
 
 - Specify a custom TypeScript configuration file:
 
