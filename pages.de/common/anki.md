@@ -9,12 +9,12 @@
 
 - Starte `anki` mit einem bestimmten Profil:
 
-`anki -p {{profil_name}}`
+`anki {{[-p|--profile]}} {{profil_name}}`
 
 - Starte `anki` in einer bestimmten Sprache:
 
-`anki -l {{sprache}}`
+`anki {{[-l|--lang]}} {{sprache}}`
 
 - Starte `anki` von einem bestimmten Verzeichneis anstelle des Standardverzeichnis (`~/Anki`):
 
-`anki -b {{pfad/zu/verzeichnis}}`
+`anki {{[-b|--base]}} {{pfad/zu/verzeichnis}}`
