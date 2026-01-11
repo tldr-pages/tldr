@@ -27,6 +27,6 @@
 
 `manim --list_scenes {{路径/文件.py}}`
 
-- 显示帮助信息：
+- 显示帮助：
 
 `manim --help`
