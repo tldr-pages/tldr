@@ -1,31 +1,28 @@
 # nh
 
 > Modern helper utility tool for the Nix/Nixos ecosystem.
+> Some subcommands such as `os`, `home`, `clean`, `search` have their own usage documentation.
 > More information: <https://github.com/nix-community/nh#usage>.
 
-- Search for a package in Nixpkgs, limiting results:
+- Build and switch to a specified Nixos flake configuration:
 
-`nh search {{[-l|--limit]}} {{number}} {{name}}`
+`nh os switch {{path/to/flake}}`
+
+- Build and switch to a specified Home manager flake configuration:
+
+`nh home switch {{path/to/flake}}`
+
+- Build and switch to a nix-darwin flake configuration:
+
+`nh darwin switch {{path/to/flake}} {{[-H|--hostname]}} {{host}}`
 
 - Collect all garbage and gcroots from the Nix store:
 
 `nh clean all {{[-a|--ask]}}`
 
-- Build a specified Nixos flake configuration and create a symlink of the result from the Nix store:
+- Search for a package in Nixpkgs:
 
-`nh os build-vm {{path/to/flake}} {{[-H|--hostname]}} {{host}}`
-
-- Build and test a specified Nixos flake configuration:
-
-`nh os test {{path/to/flake}} {{[-H|--hostname]}} {{nixos}}`
-
-- Build and switch to a specified Home manager flake configuration:
-
-`nh home switch {{path/to/flake}} {{[-c|--configuration]}} {{home}}`
-
-- Build and switch to a nix-darwin flake configuration:
-
-`nh darwin switch {{path/to/flake}} {{[-H|--hostname]}} {{host}}`
+`nh search {{name}}`
 
 - Generate shell completions for a specified shell:
 
