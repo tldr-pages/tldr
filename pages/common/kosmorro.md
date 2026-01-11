@@ -1,20 +1,24 @@
 # kosmorro
 
 > Compute the ephemerides and the events for a date at a position on Earth.
-> More information: <https://github.com/Kosmorro/kosmorro/blob/master/manpage/kosmorro.1.md>.
+> More information: <https://kosmorro.space/cli/manpage/>.
 
 - Get ephemerides for Paris, France:
 
-`kosmorro {{[-la|--latitude]}} 48.7996 {{[-lo|--longitude]}} 2.3511`
+`kosmorro --position={{"48.7996,2.3511"}}`
 
-- Get ephemerides for Paris, France, in the UTC+2 timezone:
+- Get ephemerides for Paris, France, on its timezone:
 
-`kosmorro {{[-la|--latitude]}} 48.7996 {{[-lo|--longitude]}} 2.3511 {{[-t|--timezone]}} 2`
+`kosmorro --position={{"48.7996,2.3511"}} --timezone={{"Europe/Paris"}}`
 
 - Get ephemerides for Paris, France, on June 9th, 2020:
 
-`kosmorro {{[-la|--latitude]}} 48.7996 {{[-lo|--longitude]}} 2.3511 {{[-d|--date]}} 2020-06-09`
+`kosmorro  --position={{"48.7996,2.3511"}} --date={{"2020-06-09"}}`
+
+- Get ephemerides for Paris, France, in two days:
+
+`kosmorro  --position={{"48.7996,2.3511"}} --date={{"+2d"}}`
 
 - Generate a PDF (Note: TeXLive must be installed):
 
-`kosmorro {{[-f|--format]}} pdf {{[-o|--output]}} {{path/to/file.pdf}}`
+`kosmorro --output="{{path/to/file.pdf}}"`
