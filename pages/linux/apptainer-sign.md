@@ -1,6 +1,7 @@
 # apptainer sign
 
 > Add digital signatures to a SIF container image.
+> See also: `apptainer-verify`.
 > More information: <https://apptainer.org/docs/user/main/cli/apptainer_sign.html>.
 
 - Sign a container image using the default PGP key:
