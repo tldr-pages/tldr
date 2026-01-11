@@ -1,6 +1,7 @@
 # diff
 
 > Confronta file e directory.
+> Vedi anche: `delta`, `difft`.
 > Maggiori informazioni: <https://manned.org/diff>.
 
 - Confronta file (elenca i cambiamenti per trasformare `file_vecchio` in `file_nuovo`):
