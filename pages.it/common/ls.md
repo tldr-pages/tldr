@@ -17,7 +17,7 @@
 
 - Elenca tutti i file e mostra informazioni (permessi, proprietà, dimensione e data di ultima modifica):
 
-`ls {{[-la|--all -l]}}`
+`ls {{[-la|-l --all]}}`
 
 - Elenca tutti i file e mostra informazioni con la dimensione esposta usando un formato facilmente leggibile (KiB, MiB, GiB):
 
@@ -25,7 +25,7 @@
 
 - Elenca tutti i file e mostra informazioni, ordinandoli per dimensione decrescente:
 
-`ls {{-lSR|-lS --recursive}}`
+`ls {{[-lSR|-lS --recursive]}}`
 
 - Elenca tutti i file e mostra informazioni, ordinandoli per data di ultima modifica (i più vecchi prima):
 
