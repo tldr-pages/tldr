@@ -17,4 +17,4 @@
 
 - Run a file using a specific configuration file:
 
-`bun run --config {{path/to/bunfig.toml}} {{path/to/file.ts}}`
+`bun run {{[-c|--config]}} {{path/to/bunfig.toml}} {{path/to/file.ts}}`
