@@ -32,6 +32,6 @@
 
 `compgen -u`
 
-- 显示帮助信息：
+- 显示帮助：
 
 `compgen --help`

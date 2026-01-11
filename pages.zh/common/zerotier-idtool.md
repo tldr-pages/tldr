@@ -31,6 +31,6 @@
 
 `zerotier-idtool validate {{路径/到/identity.public}}`
 
-- 显示帮助信息：
+- 显示帮助：
 
 `zerotier-idtool help`

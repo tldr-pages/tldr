@@ -9,16 +9,16 @@
 
 - Compila um projeto utilizando um arquivo de build diferente do `build.xml`:
 
-`ant -f {{arquivo_de_build.xml}}`
+`ant {{[-f|-buildfile]}} {{arquivo_de_build.xml}}`
 
 - Mostra informações sobre possíveis alvos para este projeto:
 
-`ant -p`
+`ant {{[-p|-projecthelp]}}`
 
 - Mostra informações de debug:
 
-`ant -d`
+`ant {{[-d|-debug]}}`
 
 - Executa todos os alvos que não dependem de alvos defeituosos:
 
-`ant -k`
+`ant {{[-k|-keep-going]}}`
