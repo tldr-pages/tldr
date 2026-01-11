@@ -5,16 +5,16 @@
 
 - 프랑스 파리의 천체력 얻기:
 
-`kosmorro --position={{"48.7996,2.3511"}}`
+`kosmorro --position="48.7996,2.3511"`
 
 - UTC+2 시간대의 프랑스 파리의 천체력 얻기:
 
-`kosmorro --position={{"48.7996,2.3511"}} --timezone={{"Europe/Paris"}}`
+`kosmorro --position="48.7996,2.3511" --timezone="Europe/Paris"`
 
 - 2020년 6월 9일의 프랑스 파리의 천체력 얻기:
 
-`kosmorro  --position={{"48.7996,2.3511"}} --date={{"2020-06-09"}}`
+`kosmorro  --position="48.7996,2.3511" --date="2020-06-09"`
 
 - PDF 생성 (참고: TeXLive가 설치되어 있어야 함):
 
-`kosmorro --output={{경로/대상/파일.pdf}}`
+`kosmorro --output="경로/대상/파일.pdf"`
