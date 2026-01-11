@@ -1,7 +1,7 @@
 # gixy
 
 > Analyze `nginx` configuration files.
-> More information: <https://github.com/dvershinin/gixy>.
+> More information: <https://github.com/dvershinin/gixy#usage>.
 
 - Analyze nginx configuration (default path: `/etc/nginx/`nginx`.conf`):
 
