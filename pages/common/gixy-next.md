@@ -1,8 +1,8 @@
 # gixy-next
 
 > Analyze NGINX configuration files for security and performance misconfigurations.
-> An actively maintained fork of `gixy`.
-> More information: <https://gixy.io/usage/>.
+> An actively maintained fork of gixy with Python 3.6-3.13 support.
+> More information: <https://gixy.getpagespeed.com/>.
 
 - Analyze `nginx` configuration (default path: `/etc/nginx/nginx.conf`):
 
