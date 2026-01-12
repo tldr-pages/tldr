@@ -1,6 +1,6 @@
 # nh clean
 
-> Clean Nix profiles and delete unused and unreachable nix store paths.
+> Clean Nix profiles and delete unused and unreachable Nix store paths.
 > Generations can be listed using `nix-env --list-generations` or `nh os info`.
 > More information: <https://github.com/nix-community/nh#usage>.
 
