@@ -11,7 +11,7 @@
 
 `apptainer delete {{[-A|--arch]}} {{amd64|arm64|ppc64le}} library://{{user/collection/container}}:{{tag}}`
 
-- [F]orce delete an image without confirmation:
+- Force delete an image without confirmation:
 
 `apptainer delete {{[-F|--force]}} library://{{user/collection/container}}:{{tag}}`
 
