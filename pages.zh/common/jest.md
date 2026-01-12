@@ -31,6 +31,6 @@
 
 `jest --watch`
 
-- 显示帮助信息：
+- 显示帮助：
 
 `jest --help`

@@ -1,7 +1,7 @@
 # getTGT.py
 
 > Verzoek een Ticket Granting Ticket (TGT).
-> Onderdeel van de Impacket suite.
+> Onderdeel van de Impacket-suite.
 > Meer informatie: <https://github.com/fortra/impacket>.
 
 - Verzoek een TGT met behulp van een wachtwoord:

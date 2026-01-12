@@ -9,7 +9,7 @@
 
 - Ejecuta `cargo test` siempre que se detecte un cambio en el directorio dado:
 
-`bacon test {{ruta/a/directorio}}`
+`bacon test {{ruta/al/directorio}}`
 
 - Ejecuta `cargo check` contra todos los objetivos siempre que se detecte un cambio en el directorio actual:
 

@@ -1,7 +1,7 @@
 # getArch.py
 
 > Bepaal de OS architectuur (x86 og x64) van een remote Windows systeem.
-> Onderdeel van de Impacket suite.
+> Onderdeel van de Impacket-suite.
 > Meer informatie: <https://github.com/fortra/impacket>.
 
 - Controleer de architectuur van een enkel doel-systeem:

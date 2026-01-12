@@ -1,7 +1,7 @@
 # psexec.py
 
 > Voer commando's uit op een Windows machine op afstand met `RemComSvc`, met PsExec-achtige functionaliteit.
-> Onderdeel van de Impacket suite.
+> Onderdeel van de Impacket-suite.
 > Meer informatie: <https://github.com/fortra/impacket>.
 
 - Start een interactieve shell op een extern doelwit:

@@ -18,4 +18,4 @@
 
 - Inicia el daemon Bitcoin Core usando un archivo de configuración y directorio de datos específicos:
 
-`bitcoind -conf={{ruta/a/bitcoin.conf}} -datadir={{ruta/a/directorio}}`
+`bitcoind -conf={{ruta/a/bitcoin.conf}} -datadir={{ruta/al/directorio}}`

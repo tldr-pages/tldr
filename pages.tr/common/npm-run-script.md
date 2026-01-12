@@ -2,6 +2,6 @@
 
 > Bu komut `npm run` için bir takma addır.
 
-- Asıl komutun belgelerini görüntüleyin:
+- Asıl komutun dokümantasyonunu görüntüleyin:
 
 `tldr npm run`

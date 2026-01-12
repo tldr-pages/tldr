@@ -6,4 +6,4 @@
 
 - Inicia `bspwm` (cabe recalcar que no debe haber otro gestor de ventanas al ejecutar este comando):
 
-`bspwm -c {{ruta/a/archivo_de_configuración}}`
+`bspwm -c {{ruta/al/archivo_de_configuración}}`

@@ -30,4 +30,4 @@
 
 - Redirige la salida a un archivo:
 
-`torify {{comando}} > {{ruta/a/archivo_de_salida}}`
+`torify {{comando}} > {{ruta/al/archivo_de_salida}}`
