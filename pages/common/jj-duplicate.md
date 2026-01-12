@@ -15,11 +15,11 @@
 
 `jj duplicate {{[-d|--destination]}} {{dest_revset}} {{revset}}`
 
-- Duplicate a revision and insert it **after** other revision(s):
+- Duplicate a revision and insert it after other revision(s):
 
 `jj duplicate {{[-A|--insert-after]}} {{after_revset}} {{revset}}`
 
-- Duplicate a revision and insert it **before** other revision(s):
+- Duplicate a revision and insert it before other revision(s):
 
 `jj duplicate {{[-B|--insert-before]}} {{before_revset}} {{revset}}`
 
