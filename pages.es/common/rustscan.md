@@ -1,11 +1,12 @@
 # rustscan
 
 > Escáner de puertos rápido, escrito en Rust integrado con `nmap`.
+> Vea también: `hping3`, `masscan`, `naabu`, `nmap`, `zmap`.
 > Más información: <https://github.com/bee-san/RustScan/wiki>.
 
 - Escanea todos los puertos de una o más direcciones delimitadas por comas usando los valores predeterminados:
 
-`rustscan {{[-a|--addresses]}} {{ip_o_nombrehost}}`
+`rustscan {{[-a|--addresses]}} {{ip_o_nombre_del_host}}`
 
 - Escanea los top 1000 puertos con detección de servicio y versión:
 
