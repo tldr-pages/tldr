@@ -21,7 +21,7 @@
 
 `hyprctl hyprsunset gamma {{gamma}}`
 
-- Reset color temperature to 6000k:
+- Reset color temperature to 6000K:
 
 `hyprctl hyprsunset reset temperature`
 
