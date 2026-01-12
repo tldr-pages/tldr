@@ -1,7 +1,7 @@
 # dnf
 
 > Менеджер пакетов для Fedora 41+ и RHEL 10.
-> Эквивалентные команды в других менеджер пакетах: <https://wiki.archlinux.org/title/Pacman/Rosetta>.
+> Эквивалентные команды в других менеджерах пакетов смотрите в <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > Больше информации: <https://dnf5.readthedocs.io/en/latest/commands/index.html>.
 
 - Обновить установленные пакеты до новейших доступных версий:
