@@ -13,19 +13,19 @@
 
 - Duplicate a revision onto a different parent:
 
-`jj duplicate --destination {{dest_revset}} {{revset}}`
+`jj duplicate {{[-d|--destination]}} {{dest_revset}} {{revset}}`
 
 - Duplicate a revision and insert it **after** other revision(s):
 
-`jj duplicate --insert-after {{after_revset}} {{revset}}`
+`jj duplicate {{[-A|--insert-after]}} {{after_revset}} {{revset}}`
 
 - Duplicate a revision and insert it **before** other revision(s):
 
-`jj duplicate --insert-before {{before_revset}} {{revset}}`
+`jj duplicate {{[-B|--insert-before]}} {{before_revset}} {{revset}}`
 
 - Duplicate onto multiple parents (creates a merge commit):
 
-`jj duplicate --destination {{destination1}} --destination {{destination2}} {{revset}}`
+`jj duplicate {{[-d|--destination]}} {{destination1}} {{[-d|--destination]}} {{destination2}} {{revset}}`
 
 - Duplicate multiple revisions:
 
