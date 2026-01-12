@@ -1,7 +1,7 @@
 # jj show
 
 > Show commit description and changes in a revision.
-> More information: <https://jj-vcs.github.io/jj/latest/cli-reference/#jj-show>.
+> More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-show>.
 
 - Show commit description and changes in a revision:
 

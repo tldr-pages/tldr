@@ -1,7 +1,7 @@
 # jj describe
 
 > Update the change description or other metadata.
-> More information: <https://jj-vcs.github.io/jj/latest/cli-reference/#jj-describe>.
+> More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-describe>.
 
 - Update the description of the current change:
 

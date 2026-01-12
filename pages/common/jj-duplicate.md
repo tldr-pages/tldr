@@ -1,7 +1,7 @@
 # jj duplicate
 
 > Create new changes with the same content as existing ones.
-> More information: <https://jj-vcs.github.io/jj/latest/cli-reference/#jj-duplicate>.
+> More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-duplicate>.
 
 - Duplicate the current revision onto its existing parent:
 
