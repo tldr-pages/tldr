@@ -31,4 +31,3 @@
 - Use compiled YARA rule files to scan a directory recursively:
 
 `yara {{[-C|--compiled-rules]}} {{path/to/rule1.bin path/to/rule2.bin ...}} {{[-r|--recursive]}} {{path/to/directory}}`
-
