@@ -9,7 +9,7 @@
 
 - Delete an image for a specific architecture:
 
-`apptainer delete --arch {{amd64|arm64|ppc64le}} library://{{user/collection/container}}:{{tag}}`
+`apptainer delete {{[-A|--arch]}} {{amd64|arm64|ppc64le}} library://{{user/collection/container}}:{{tag}}`
 
 - [F]orce delete an image without confirmation:
 
