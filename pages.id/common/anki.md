@@ -7,11 +7,11 @@
 
 `anki`
 
-- Gunakan [p]rofil tertentu untuk mengakses flashcard:
+- Gunakan profil tertentu untuk mengakses flashcard:
 
 `anki {{[-p|--profile]}} {{nama_profil}}`
 
-- Gunakan suatu bahasa ([l]anguage):
+- Gunakan suatu bahasa:
 
 `anki {{[-l|--lang]}} {{bahasa}}`
 
