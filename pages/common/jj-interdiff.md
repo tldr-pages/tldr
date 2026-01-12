@@ -1,7 +1,7 @@
 # jj interdiff
 
 > Compare changes of two revisions.
-> More information: <https://jj-vcs.github.io/jj/latest/cli-reference/#jj-interdiff>.
+> More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-interdiff>.
 
 - Compare changes from a revision to the working copy:
 
