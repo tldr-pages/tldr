@@ -23,6 +23,6 @@
 
 `ping {{host}} | x ping vis --heatmap`
 
-- 显示帮助信息：
+- 显示帮助：
 
 `x ping -h`

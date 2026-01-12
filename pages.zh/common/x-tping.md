@@ -1,6 +1,6 @@
 # x tping
 
-> TCP 端口 Ping。
+> Ping TCP 端口。
 > 该模块基于 TCP 协议，使用 curl 实现本地计算机到目标主机和端口的简单明文 TCP 连接。
 > 更多信息：<https://x-cmd.com/mod/tping>。
 
