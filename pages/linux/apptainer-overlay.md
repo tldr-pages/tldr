@@ -1,7 +1,7 @@
-# apptainer overlay create
+# apptainer overlay
 
-> Create EXT3 writable overlay images for Apptainer containers.
-> More information: <https://apptainer.org/docs/user/main/cli/apptainer_overlay_create.html>.
+> Manage EXT3 writable overlay images for Apptainer containers.
+> More information: <https://apptainer.org/docs/user/main/cli/apptainer_overlay.html>.
 
 - Add a writable overlay to an existing SIF image:
 
@@ -25,4 +25,4 @@
 
 - Display help:
 
-`apptainer overlay create {{[-h|--help]}}`
+`apptainer overlay {{[-h|--help]}}`
