@@ -7,7 +7,7 @@
 
 `dep init`
 
-- 누락된 종속성 설치(Gopkg.toml 과 .go 파일들 스캔):
+- 누락된 종속성 설치(Gopkg.toml 과 `.go` 파일들 스캔):
 
 `dep ensure`
 

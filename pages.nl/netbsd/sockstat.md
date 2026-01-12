@@ -1,7 +1,7 @@
 # sockstat
 
 > Toon open Internet- of UNIX-domeinsockets.
-> Let op: dit programma is hergeschreven voor NetBSD 3.0 van FreeBSD's `sockstat`.
+> Opmerking: dit programma is hergeschreven voor NetBSD 3.0 van FreeBSD's `sockstat`.
 > Zie ook: `netstat`.
 > Meer informatie: <https://man.netbsd.org/sockstat.1>.
 

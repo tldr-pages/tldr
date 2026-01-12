@@ -1,7 +1,7 @@
 # aws ce
 
 > Run cost management operations through the AWS Cost Explorer service.
-> More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ce/index.html>.
+> More information: <https://docs.aws.amazon.com/cli/latest/reference/ce/>.
 
 - Create anomaly monitor:
 

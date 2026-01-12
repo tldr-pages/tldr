@@ -1,6 +1,7 @@
 # modprobe
 
 > Linux 커널에 모듈을 추가하거나 제거합니다.
+> 같이 보기: `kmod`.
 > 더 많은 정보: <https://manned.org/modprobe>.
 
 - 모듈을 커널에 로드하는 것처럼 시뮬레이션하지만 실제로는 하지 않음:

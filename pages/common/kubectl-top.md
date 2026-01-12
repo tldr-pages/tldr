@@ -1,7 +1,7 @@
 # kubectl top
 
 > See the resource consumption for nodes or pods.
-> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_top>.
+> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_top/>.
 
 - Get the resource consumption of all nodes:
 

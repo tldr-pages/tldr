@@ -1,7 +1,7 @@
 # beep
 
 > Ein Befehl, um den PC-Lautsprecher zu steuern.
-> Weitere Informationen: <https://github.com/spkr-beep/beep>.
+> Weitere Informationen: <https://manned.org/beep>.
 
 - Gib einen Ton aus:
 

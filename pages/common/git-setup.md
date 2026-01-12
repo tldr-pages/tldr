@@ -2,7 +2,7 @@
 
 > Create a Git repository in a directory and commit all files.
 > Part of `git-extras`.
-> More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-setup>.
+> More information: <https://github.com/tj/git-extras/blob/main/Commands.md#git-setup>.
 
 - Create a Git repository in the current directory and commit all files:
 

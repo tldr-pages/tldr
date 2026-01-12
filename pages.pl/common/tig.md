@@ -1,6 +1,7 @@
 # tig
 
 > Interfejs tekstowy dla Gita.
+> Zobacz także: `gitui`, `git-gui`.
 > Więcej informacji: <https://jonas.github.io/tig/doc/manual.html>.
 
 - Pokaż listę commitów w odwrotnej kolejności chronologicznej, zaczynając od najnowszego:

@@ -2,6 +2,6 @@
 
 > Bu komut `dnf repoquery --deplist` için bir takma addır.
 
-- Asıl komutun dökümantasyonunu görüntüle:
+- Asıl komutun dokümantasyonunu görüntüleyin:
 
 `tldr dnf repoquery`

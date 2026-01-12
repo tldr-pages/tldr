@@ -1,8 +1,8 @@
 # age
 
 > Uma simples, moderna e segura ferramenta de criptografia de arquivos.
-> Veja também: `age-keygen` para geração de pares de chaves.
-> Mais informações: <https://github.com/FiloSottile/age>.
+> Veja também: `age-keygen`.
+> Mais informações: <https://github.com/FiloSottile/age#usage>.
 
 - Gera um arquivo criptografado que pode ser descriptografado com uma frase-chave:
 

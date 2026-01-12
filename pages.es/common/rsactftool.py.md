@@ -1,7 +1,7 @@
 # RsaCtfTool.py
 
 > Herramienta de ataque RSA para desafíos CTF - recupera claves privadas a partir de claves públicas débiles y/o descifra datos.
-> Más información: <https://github.com/RsaCtfTool/RsaCtfTool>.
+> Más información: <https://github.com/RsaCtfTool/RsaCtfTool#usage>.
 
 - Recupera una clave privada de un archivo de clave pública:
 
@@ -9,7 +9,7 @@
 
 - Descifra un fichero utilizando una clave pública:
 
-`RsaCtfTool.py --publickey {{ruta/a/clave.pub}} --decryptfile {{ruta/a/archivo_cifrado}}`
+`RsaCtfTool.py --publickey {{ruta/a/clave.pub}} --decryptfile {{ruta/al/archivo_cifrado}}`
 
 - Descifra una cadena de texto cifrado específica:
 

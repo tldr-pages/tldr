@@ -1,7 +1,7 @@
 # hostname
 
 > Show or set the system's host name.
-> More information: <https://manned.org/hostname>.
+> More information: <https://www.gnu.org/software/inetutils/manual/inetutils.html#hostname-invocation>.
 
 - Show current host name:
 

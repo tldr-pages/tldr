@@ -1,7 +1,7 @@
 # xzcat
 
-> Este comando é um alias de `xz`.
+> Este comando é um alias de `xz --decompress --stdout`.
 
-- Exibe documentação do comando original:
+- Ver documentação do comando original:
 
 `tldr xz`

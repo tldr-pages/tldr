@@ -1,10 +1,10 @@
 # cancel
 
 > 프린트 작업 취소.
-> 참고: `lp`, `lpmove`, `lpstat`.
+> 같이 보기: `lp`, `lpmove`, `lpstat`.
 > 더 많은 정보: <https://openprinting.github.io/cups/doc/man-cancel.html>.
 
-- 기본 프린터의 현재 작업을 취소 (`lpoptions -d {{printer}}`로 설정):
+- 기본 프린터의 현재 작업을 취소 (`lpoptions -d printer`로 설정):
 
 `cancel`
 

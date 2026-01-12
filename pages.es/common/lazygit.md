@@ -1,7 +1,7 @@
 # lazygit
 
 > Una sencilla interfaz de terminal para comandos Git, que proporciona una interfaz intuitiva para gestionar repositorios.
-> Más información: <https://github.com/jesseduffield/lazygit>.
+> Más información: <https://manned.org/lazygit>.
 
 - Abre Lazygit en el repositorio actual:
 

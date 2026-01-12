@@ -1,7 +1,7 @@
 # npm exec
 
 > Voer binaire bestanden uit vanuit `npm`-pakketten.
-> Meer informatie: <https://docs.npmjs.com/cli/npm-exec>.
+> Meer informatie: <https://docs.npmjs.com/cli/npm-exec/>.
 
 - Voer het commando uit vanuit een lokaal of extern `npm`-pakket:
 
@@ -17,7 +17,7 @@
 
 - Voer een specifiek commando uit, waarbij uitvoer van `npm` zelf wordt onderdrukt:
 
-`npm {{[x|exec]}} --quiet {{command}} {{argument1 argument2 ...}}`
+`npm {{[x|exec]}} --quiet {{commando}} {{argument1 argument2 ...}}`
 
 - Toon de help:
 

@@ -1,7 +1,7 @@
 # npm sbom
 
 > Generate a Software Bill of Materials (SBOM) for your Node.js project.
-> More information: <https://docs.npmjs.com/cli/npm-sbom>.
+> More information: <https://docs.npmjs.com/cli/npm-sbom/>.
 
 - Output a list of all dependencies in your project:
 

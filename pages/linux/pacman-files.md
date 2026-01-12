@@ -1,6 +1,6 @@
 # pacman --files
 
-> Arch Linux package manager utility.
+> Query the local files database.
 > See also: `pacman`, `pkgfile`.
 > More information: <https://manned.org/pacman.8>.
 

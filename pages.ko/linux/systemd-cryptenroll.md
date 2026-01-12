@@ -2,7 +2,7 @@
 
 > LUKS2로 암호화된 장치를 잠금 해제하는 데 사용되는 방법을 대화식으로 등록하거나 제거합니다. 별도로 지정하지 않으면 암호를 사용하여 장치를 잠금 해제합니다.
 > 시스템 부팅 시 파티션을 잠금 해제하려면 `/etc/crypttab` 파일이나 initramfs를 업데이트해야 합니다.
-> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/systemd-cryptenroll.html>.
+> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/latest/systemd-cryptenroll.html>.
 
 - 새 비밀번호 등록 (`cryptsetup luksAddKey`와 유사):
 

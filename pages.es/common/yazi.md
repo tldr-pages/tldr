@@ -14,7 +14,7 @@
 
 - Escribe el directorio de trabajo actual al salir del archivo:
 
-`yazi --cwd-file {{ruta/a/archivo_cwd}}`
+`yazi --cwd-file {{ruta/al/archivo_cwd}}`
 
 - Borra el directorio de caché:
 

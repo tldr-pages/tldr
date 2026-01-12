@@ -1,7 +1,12 @@
 # docker container diff
 
-> Эта команда — псевдоним для `docker diff`.
+> Проверять изменения файлов или директорий в файловой системе контейнера.
+> Больше информации: <https://docs.docker.com/reference/cli/docker/container/diff/>.
 
-- Смотри документацию для оригинальной команды:
+- Проверить изменения в контейнере с момента его создания:
 
-`tldr docker diff`
+`docker {{[diff|container diff]}} {{контейнер}}`
+
+- Показать справку:
+
+`docker {{[diff|container diff]}} --help`

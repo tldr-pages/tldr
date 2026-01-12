@@ -2,6 +2,6 @@
 
 > Bu komut `pacman --sync` için bir takma addır.
 
-- Asıl komutun dökümantasyonunu görüntüle:
+- Asıl komutun dokümantasyonunu görüntüleyin:
 
 `tldr pacman sync`

@@ -2,7 +2,8 @@
 
 > Installiere, deinstalliere oder wechsle zwischen Node.js Versionen.
 > Unterstützt Versionsnummern wie "12.8" oder "v16.13.1", und Label wie "stable", "system", etc.
-> Weitere Informationen: <https://github.com/creationix/nvm>.
+> Siehe auch: `asdf`.
+> Weitere Informationen: <https://github.com/nvm-sh/nvm#usage>.
 
 - Installiere eine bestimmte Node.js Version:
 

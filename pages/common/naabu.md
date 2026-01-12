@@ -2,7 +2,8 @@
 
 > A fast port scanner written in Go with a focus on reliability and simplicity.
 > Note: Some features are only activated when `naabu` is run with root privileges such as SYN scan.
-> More information: <https://docs.projectdiscovery.io/tools/naabu/running>.
+> See also: `hping3`, `masscan`, `nmap`, `rustscan`, `zmap`.
+> More information: <https://docs.projectdiscovery.io/opensource/naabu/running>.
 
 - Run a SYN scan against default (top 100) ports of remote host:
 
@@ -20,7 +21,7 @@
 
 `naabu {{[-tp|-top-ports]}} 1000 -host {{host}}`
 
-- Scan TCP ports 80, 443 and UDP port 53 of the remote host:
+- Scan TCP ports 80, 443, and UDP port 53 of the remote host:
 
 `naabu {{[-p|-port]}} 80,443,u:53 -host {{host}}`
 

@@ -2,7 +2,7 @@
 
 > 여러 Git 저장소에서 작업을 실행.
 > `git-extras`의 일부.
-> 더 많은 정보: <https://github.com/tj/git-extras/blob/master/Commands.md#git-bulk>.
+> 더 많은 정보: <https://github.com/tj/git-extras/blob/main/Commands.md#git-bulk>.
 
 - 현재 디렉토리를 작업 공간으로 등록:
 

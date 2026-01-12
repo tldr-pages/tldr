@@ -1,7 +1,7 @@
 # safe
 
 > Interact with HashiCorp Vault.
-> More information: <https://github.com/starkandwayne/safe>.
+> More information: <https://github.com/egen/safe>.
 
 - Add a safe target:
 

@@ -31,7 +31,7 @@ If you are an owner of the organization, you can see an automated list [here](ht
 - **Guido Lena Cota ([@glenacota](https://github.com/glenacota))**:
   [19 October 2020](https://github.com/tldr-pages/tldr/issues/4763) — present
 - **Sahil Dhiman ([@sahilister](https://github.com/sahilister))**:
-  [27 November 2020](https://github.com/tldr-pages/tldr/issues/4994) - present
+  [27 November 2020](https://github.com/tldr-pages/tldr/issues/4994) — present
 - **Adam Herst ([@aherst](https://github.com/aherst))**:
   [21 April 2021](https://github.com/tldr-pages/tldr/issues/5810) — present
 - **Nicolas Kosinski ([@nicokosi](https://github.com/nicokosi))**:
@@ -90,30 +90,26 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [08 April 2025](https://github.com/tldr-pages/tldr/issues/16126) — present
 - **Kristopher Sandoval ([@KristopherLeads](https://github.com/KristopherLeads))**:
   [29 June 2025](https://github.com/tldr-pages/tldr/issues/17024) — present
-- **Harshavardhan ([@TheRootDaemon](https://github.com/TheRootDaemon))**:
-  [17 August 2025](https://github.com/tldr-pages/tldr/issues/17708) — present
 - **Sarijen ([@Sarijen](https://github.com/Sarijen))**:
   [21 August 2025](https://github.com/tldr-pages/tldr/issues/17757) — present
-- **Adriano Inghingolo ([@SpikeTheDragon40k](https://github.com/SpikeTheDragon40k))**:
-  [22 August 2025](https://github.com/tldr-pages/tldr/issues/17772) — present
 - **Ali Nazzal ([@ali90h](https://github.com/ali90h))**:
   [10 September 2025](https://github.com/tldr-pages/tldr/issues/18069) — present
 - **Sadeed Waseem ([@sadeeed](https://github.com/Sadeeed))**:
   [04 October 2025](https://github.com/tldr-pages/tldr/issues/18393) — present
-- **Ivan Baluta ([@ivanbaluta](https://github.com/ivanbaluta))**:
-  [03 November 2025](https://github.com/tldr-pages/tldr/issues/19176) — present
-- **Sahil Afrid Farookhi ([@msaf9](https://github.com/msaf9))**: 
+- **Sahil Afrid Farookhi ([@msaf9](https://github.com/msaf9))**:
   [04 November 2025](https://github.com/tldr-pages/tldr/issues/19189) — present
 - **Meinard Francisco ([@znarfm](https://github.com/znarfm))**:
   [04 November 2025](https://github.com/tldr-pages/tldr/issues/19190) — present
 - **Md Sakib Sadman Badhon ([@badhon495](https://github.com/badhon495))**:
   [06 November 2025](https://github.com/tldr-pages/tldr/issues/19235) — present
-- **Mingliang Song ([@DustMerlin](https://github.com/DustMerlin)**:
+- **Mingliang Song ([@DustMerlin](https://github.com/DustMerlin))**:
   [13 November 2025](https://github.com/tldr-pages/tldr/issues/19336) — present
 - **zhb4 ([@zhb4](https://github.com/zhb4))**:
   [14 November 2025](https://github.com/tldr-pages/tldr/issues/19339) — present
 - **Emmanuel Ferdman ([@emmanuel-ferdman](https://github.com/emmanuel-ferdman))**:
   [22 November 2025](https://github.com/tldr-pages/tldr/issues/19549) — present
+- **Jingsong Zhou ([@BananaaaKING](https://github.com/BananaaaKING))**:
+  [02 January 2026](https://github.com/tldr-pages/tldr/issues/20505) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke)):
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
@@ -133,7 +129,7 @@ If you are an owner of the organization, you can see an automated list [here](ht
 - Muhammad Falak R Wani ([@mfrw](https://github.com/mfrw)):
   [6 September 2018](https://github.com/tldr-pages/tldr/issues/2306) — [21 June 2021](https://github.com/tldr-pages/tldr/issues/6142)
 - Seth Falco ([@SethFalco](https://github.com/SethFalco)):
-  [19 May 2021](https://github.com/tldr-pages/tldr/issues/5993) - [21 June 2021](https://github.com/tldr-pages/tldr/issues/6149)
+  [19 May 2021](https://github.com/tldr-pages/tldr/issues/5993) — [21 June 2021](https://github.com/tldr-pages/tldr/issues/6149)
 - Pixel Häußler ([@pixelcmtd](https://github.com/pixelcmtd)):
   [27 August 2021](https://github.com/tldr-pages/tldr/issues/6415) — [16 October 2022](https://github.com/tldr-pages/tldr/pull/9072#issuecomment-1279847932)
 - Emily Grace Seville ([@EmilyGraceSeville7cf](https://github.com/EmilyGraceSeville7cf)):
@@ -178,8 +174,13 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [30 May 2025](https://github.com/tldr-pages/tldr/issues/16671) — [30 June 2025](https://github.com/tldr-pages/tldr/issues/17026)
 - Marcher Simon ([@marchersimon](https://github.com/marchersimon)):
   [9 March 2021](https://github.com/tldr-pages/tldr/issues/5390) — [9 April 2021](https://github.com/tldr-pages/tldr/issues/5722), [20 November 2023](https://github.com/tldr-pages/tldr/issues/11381) — [12 July 2025](https://github.com/tldr-pages/tldr/issues/17214)
-
-
+- Harshavardhan ([@TheRootDaemon](https://github.com/TheRootDaemon)):
+  [17 August 2025](https://github.com/tldr-pages/tldr/issues/17708) — [26 December 2025](https://github.com/tldr-pages/tldr/issues/20285)
+- Ivan Baluta ([@ivanbaluta](https://github.com/ivanbaluta)):
+  [03 November 2025](https://github.com/tldr-pages/tldr/issues/19176) — [28 December 2025](https://github.com/tldr-pages/tldr/issues/20284)
+- Adriano Inghingolo ([@SpikeTheDragon40k](https://github.com/SpikeTheDragon40k)):
+  [22 August 2025](https://github.com/tldr-pages/tldr/issues/17772) — [28 December 2025](https://github.com/tldr-pages/tldr/issues/20286)
+  
 ## Organization members
 
 In addition to everything that repository collaborators can do, organization members have write access to all the repositories in the tldr-pages organization, and [a few extra maintenance capabilities](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/permission-levels-for-an-organization).
@@ -213,6 +214,12 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [29 June 2025](https://github.com/tldr-pages/tldr/issues/17025) — present
 - **Dylan McGivern ([@dmmqz](https://github.com/dmmqz))**:
   [30 June 2025](https://github.com/tldr-pages/tldr/issues/17026) — present
+- **Harshavardhan ([@TheRootDaemon](https://github.com/TheRootDaemon))**:
+  [26 December 2025](https://github.com/tldr-pages/tldr/issues/20285) — present
+- **Ivan Baluta ([@ivanbaluta](https://github.com/ivanbaluta))**:
+  [28 December 2025](https://github.com/tldr-pages/tldr/issues/20284) — present
+- **Adriano Inghingolo ([@SpikeTheDragon40k](https://github.com/SpikeTheDragon40k))**:
+  [28 December 2025](https://github.com/tldr-pages/tldr/issues/20286) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):

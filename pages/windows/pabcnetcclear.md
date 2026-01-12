@@ -1,7 +1,7 @@
 # pabcnetcclear
 
 > Preprocess and compile PascalABC.NET source files.
-> More information: <https://pascalabc.net>.
+> More information: <https://pascalabc.net/>.
 
 - Compile the specified source file into an executable with the same name:
 
@@ -9,7 +9,7 @@
 
 - Compile the specified source file into an executable with the specified name:
 
-`pabcnetcclear /Output:{{path\to\_file.exe}} {{path\to\source_file.pas}}`
+`pabcnetcclear /Output:{{path\to\file.exe}} {{path\to\source_file.pas}}`
 
 - Compile the specified source file into an executable with the same name along with/without debug information:
 

@@ -1,7 +1,8 @@
 # age
 
 > Uno strumento semplice, moderno e sicuro per la cifratura di file.
-> Maggiori informazioni: <https://github.com/FiloSottile/age>.
+> Vedi anche: `age-keygen`.
+> Maggiori informazioni: <https://github.com/FiloSottile/age#usage>.
 
 - Generare un file cifrato che può essere decifrato con una passphrase:
 

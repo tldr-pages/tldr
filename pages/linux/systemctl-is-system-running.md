@@ -9,7 +9,7 @@
 
 - Check and print the current state quietly (no output, only exit status):
 
-`systemctl is-system-running --quiet`
+`systemctl is-system-running {{[-q|--quiet]}}`
 
 - Wait until the boot process is completed before printing the current state:
 

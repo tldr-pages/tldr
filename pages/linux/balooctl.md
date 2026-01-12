@@ -1,7 +1,7 @@
 # balooctl
 
 > File indexing and searching framework for KDE Plasma.
-> More information: <https://wiki.archlinux.org/index.php/Baloo>.
+> More information: <https://wiki.archlinux.org/title/Baloo>.
 
 - Display the status of the indexer:
 

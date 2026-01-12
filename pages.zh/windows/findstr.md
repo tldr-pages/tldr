@@ -1,7 +1,7 @@
 # findstr
 
 > 在一个或多个文件中查找指定的文本。
-> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/findstr>.
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/findstr>。
 
 - 在所有文件中查找以空格分隔的字符串：
 
@@ -13,9 +13,9 @@
 
 - 查找时不区分大小写：
 
-`findstr /i "{{查询语句}}" *"`
+`findstr /i "{{查询语句}}" *`
 
-- 使用正则表达式搜索：
+- 使用`regex`式搜索：
 
 `findstr /r "{{正则表达式}}" *`
 

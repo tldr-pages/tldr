@@ -8,11 +8,11 @@
 
 `abbr {{[-a|--add]}} {{nom_abrégé}} {{commande}} {{arguments_de_la_commande}}`
 
-- Renomme une abréviation existante :
+- Renomme une abréviation existante :
 
 `abbr --rename {{ancien_nom}} {{nouveau_nom}}`
 
-- Supprime une abréviation existante :
+- Supprime une abréviation existante :
 
 `abbr {{[-e|--erase]}} {{nom_abrégé}}`
 

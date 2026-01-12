@@ -1,6 +1,7 @@
 # gpgv
 
 > OpenPGP 서명을 확인.
+> 같이 보기: `gpg`.
 > 더 많은 정보: <https://www.gnupg.org/documentation/manuals/gnupg/gpgv.html>.
 
 - 서명된 파일을 확인:

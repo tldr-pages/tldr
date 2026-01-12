@@ -1,7 +1,7 @@
 # nxc nfs
 
 > Pentest and exploit NFS servers. Currently supports anonymous mode only.
-> More information: <https://www.netexec.wiki/nfs-protocol>.
+> More information: <https://www.netexec.wiki/nfs-protocol/enumeration>.
 
 - Detect the version of a remote NFS server:
 

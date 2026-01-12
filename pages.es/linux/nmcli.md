@@ -1,6 +1,7 @@
 # nmcli
 
 > Gestiona la configuración de red usando NetworkManager.
+> Vea también: `nmtui`, `iw`, `iwctl`.
 > Más información: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
 
 - Muestra documentación para ejecutar `nmcli` como agente secreto/polkit de NetworkManager:

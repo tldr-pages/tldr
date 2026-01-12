@@ -27,9 +27,9 @@
 
 `mount {{[-a|--all]}}`
 
-- Mount a specific filesystem described in `/etc/fstab` (e.g. `/dev/sda1 /my_drive ext2 defaults 0 2`):
+- Mount a specific filesystem described in `/etc/fstab` (e.g. `/dev/sda1 /path/to/mount_point ext2 defaults 0 2`):
 
-`mount {{/my_drive}}`
+`mount {{path/to/mount_point}}`
 
 - Mount a directory to another directory:
 

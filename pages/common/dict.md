@@ -1,6 +1,6 @@
 # dict
 
-> Command line dictionary using the DICT protocol.
+> Dictionary that uses the DICT protocol.
 > More information: <https://manned.org/dict>.
 
 - List available databases:

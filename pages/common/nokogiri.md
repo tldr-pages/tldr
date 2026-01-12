@@ -1,6 +1,6 @@
 # nokogiri
 
-> An HTML, XML, SAX and Reader parser.
+> An HTML, XML, SAX, and Reader parser.
 > More information: <https://manned.org/nokogiri>.
 
 - Parse the contents of a URL or file:

@@ -1,7 +1,7 @@
 # gpg
 
-> GNU Privacy Guard.
-> 更多信息：<https://gnupg.org/documentation/manuals/gnupg/Invoking-GPG.html>.
+> GNU Privacy Guard。
+> 更多信息：<https://gnupg.org/documentation/manuals/gnupg/Invoking-GPG.html>。
 
 - 交互地创建 GPG 公钥和私钥：
 

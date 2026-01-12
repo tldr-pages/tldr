@@ -1,7 +1,7 @@
 # pie
 
 > The PHP Installer for Extensions.
-> More information: <https://github.com/php/pie/blob/main/docs/usage.md>.
+> More information: <https://github.com/php/pie/blob/1.4.x/docs/usage.md>.
 
 - Install or update an extension:
 

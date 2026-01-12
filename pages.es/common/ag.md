@@ -3,7 +3,7 @@
 > El Buscador de Plata. Como `ack`, pero aspira a ser más rápido.
 > Más información: <https://manned.org/ag>.
 
-- Encuentra archivos que contengan «foo», e imprime las líneas coincidentes en contexto:
+- Encuentra archivos que contengan "foo", e imprime las líneas coincidentes en contexto:
 
 `ag foo`
 
@@ -23,7 +23,7 @@
 
 `ag foo {{[-G|--file-search-regex]}} bar`
 
-- Busca archivos cuyo contenido coincida con una expresión regular:
+- Busca archivos cuyo contenido coincida con una `regex`:
 
 `ag '{{^ba(r|z)$}}'`
 

@@ -1,7 +1,7 @@
 # hashid
 
 > 데이터 및 비밀번호 해시를 식별하는 Python3 프로그램.
-> 더 많은 정보: <https://github.com/psypanda/hashID>.
+> 더 많은 정보: <https://github.com/psypanda/hashID#usage>.
 
 - `stdin`에서 해시를 식별 (입력, 복사 및 붙여넣기 또는 해시를 프로그램에 파이프 사용):
 

@@ -7,7 +7,7 @@
 
 `bash-it update {{stable|dev}}`
 
-- Bash 프로필 다시 로드 (자동 다시 로드를 위해 `BASH_IT_AUTOMATIC_RELOAD_AFTER_CONFIG_CHANGE`를 비어있지 않은 값으로 설정):
+- Bash 프로필 다시 로드 (자동 다시 로드를 위해 `$BASH_IT_AUTOMATIC_RELOAD_AFTER_CONFIG_CHANGE`를 비어있지 않은 값으로 설정):
 
 `bash-it reload`
 

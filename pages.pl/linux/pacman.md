@@ -33,6 +33,6 @@
 
 `pacman -Qtdq`
 
-- Wyczyść całą pamięć podręczną pacmana:
+- Wyczyść całą pamięć podręczną pacmana:
 
 `sudo pacman -Scc`

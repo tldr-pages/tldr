@@ -1,7 +1,8 @@
 # distrobox-stop
 
-> Stop een Distrobox container. Bekijk ook: `tldr distrobox`.
-> Meer informatie: <https://distrobox.it/usage/distrobox-stop>.
+> Stop een Distrobox container.
+> Zie ook: `distrobox`.
+> Meer informatie: <https://distrobox.it/usage/distrobox-stop/>.
 
 - Stop een Distrobox container:
 

@@ -1,6 +1,7 @@
 # iptables
 
 > Programma che permette di configurare tabelle, catene e regole fornite dal firewall del kernel Linux.
+> Vedi anche: `iptables-save`, `iptables-restore`.
 > Maggiori informazioni: <https://manned.org/iptables>.
 
 - Visualizza catene, regole e contatori di pacchetti/byte per la tabella dei filtri:

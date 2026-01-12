@@ -1,7 +1,7 @@
 # cat
 
 > 連接檔案並印出檔案的內容。
-> 更多資訊：<https://manned.org/cat.1posix>.
+> 更多資訊：<https://manned.org/cat.1posix>。
 
 - 將檔案的內容印在標準輸出：
 

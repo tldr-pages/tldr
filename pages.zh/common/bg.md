@@ -1,7 +1,8 @@
 # bg
 
 > 恢复被挂起的任务（如. 使用 `<Ctrl z>`），使它们在后台运行。
-> 更多信息：<https://www.gnu.org/software/bash/manual/bash.html#index-bg>.
+> 另请参阅：`jobs`, `fg`, `disown`。
+> 更多信息：<https://www.gnu.org/software/bash/manual/bash.html#index-bg>。
 
 - 恢复最近被挂起的任务，在后台运行：
 

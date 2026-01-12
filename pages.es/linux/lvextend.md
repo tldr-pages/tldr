@@ -2,7 +2,7 @@
 
 > Aumenta el tamaño de un volumen lógico.
 > Vea también: `lvm`.
-> Más información: <https://manned.org/lvextend.8>.
+> Más información: <https://manned.org/lvextend>.
 
 - Aumenta el tamaño de un volumen a 120 GB:
 

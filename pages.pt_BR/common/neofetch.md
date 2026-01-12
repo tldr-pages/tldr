@@ -1,7 +1,8 @@
 # neofetch
 
 > Ferramenta CLI para exibir informações sobre seu sistema operacional, software e hardware.
-> Mais informações: <https://github.com/dylanaraps/neofetch>.
+> Veja também: `fastfetch`.
+> Mais informações: <https://manned.org/neofetch>.
 
 - Volta à configuração padrão, ou crie-a se for a primeira vez que o programa for executado:
 

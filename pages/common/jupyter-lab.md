@@ -1,7 +1,7 @@
 # jupyter lab
 
 > Interactive development environment for Jupyter notebooks.
-> More information: <https://jupyterlab.readthedocs.io/en/stable/>.
+> More information: <https://jupyterlab.readthedocs.io/en/stable/getting_started/starting.html>.
 
 - Start JupyterLab:
 
@@ -9,7 +9,7 @@
 
 - Open a specific notebook:
 
-`jupyter lab {{path/to/notebook.ipynb}}`
+`jupyter lab {{path/to/notebook}}.ipynb`
 
 - Start JupyterLab in a specific directory:
 

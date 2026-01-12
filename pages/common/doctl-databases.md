@@ -1,7 +1,7 @@
 # doctl databases
 
 > Manage your MySQL, Redis, PostgreSQL, and MongoDB database services.
-> More information: <https://docs.digitalocean.com/reference/doctl/reference/databases>.
+> More information: <https://docs.digitalocean.com/reference/doctl/reference/databases/>.
 
 - Run a `doctl databases` command with an access token:
 

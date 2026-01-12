@@ -1,7 +1,7 @@
 # trivy
 
 > Scanner for vulnerabilities in container images, file systems, and Git repositories, as well as for configuration issues.
-> More information: <https://aquasecurity.github.io/trivy>.
+> More information: <https://trivy.dev/docs/latest/guide/references/configuration/cli/trivy/>.
 
 - Scan a Docker image for vulnerabilities and exposed secrets:
 
@@ -19,7 +19,7 @@
 
 `trivy fs --security-checks {{vuln,config}} {{path/to/project_directory}}`
 
-- Scan a IaC (Terraform, CloudFormation, ARM, Helm and Dockerfile) directory for misconfigurations:
+- Scan a IaC (Terraform, CloudFormation, ARM, Helm, and Dockerfile) directory for misconfigurations:
 
 `trivy config {{path/to/iac_directory}}`
 

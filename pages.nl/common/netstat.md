@@ -1,6 +1,7 @@
 # netstat
 
 > Toon netwerkgerelateerde informatie zoals open verbindingen, open socketpoorten, enz.
+> Zie ook: `ss`.
 > Meer informatie: <https://manned.org/netstat>.
 
 - Toon alle poorten:
@@ -9,11 +10,11 @@
 
 - Toon alle luisterende poorten:
 
-`netstat {{-l|--listening]}}`
+`netstat {{[-l|--listening]}}`
 
 - Toon luisterende TCP-poorten:
 
-`netstat {{-t|--tcp]}}`
+`netstat {{[-t|--tcp]}}`
 
 - Toon PID en programmanamen:
 

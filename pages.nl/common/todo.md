@@ -9,7 +9,7 @@
 
 - Voeg een nieuwe taak toe aan de werklijst:
 
-`todo new {{ding_om_te_doen}} --list {{werk}}`
+`todo new {{ding_om_te_doen}} {{[-l|--list]}} {{werk}}`
 
 - Voeg een locatie toe aan een taak met een gegeven ID:
 

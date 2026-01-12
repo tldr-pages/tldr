@@ -1,7 +1,7 @@
 # expose
 
 > 웹 사이트 공유를 위한 오픈 소스 터널 애플리케이션.
-> 더 많은 정보: <https://beyondco.de/docs/expose>.
+> 더 많은 정보: <http://expose.dev/docs/introduction>.
 
 - 인증 토큰을 등록:
 

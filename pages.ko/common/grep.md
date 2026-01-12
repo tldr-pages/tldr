@@ -1,6 +1,7 @@
 # grep
 
 > 정규표현식으로 파일에서 패턴을 찾습니다.
+> 같이 보기: `regex`.
 > 더 많은 정보: <https://www.gnu.org/software/grep/manual/grep.html>.
 
 - 파일 안에서 패턴을 검색:

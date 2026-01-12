@@ -3,7 +3,7 @@
 > Installeer, deïnstalleer of wissel tussen verschillende Node.js-versies.
 > Ondersteunt versienummers zoals "12.8" of "v16.13.1", en labels zoals "stable", "system", enz.
 > Zie ook: `asdf`.
-> Meer informatie: <https://github.com/creationix/nvm>.
+> Meer informatie: <https://github.com/nvm-sh/nvm#usage>.
 
 - Installeer een specifieke versie van Node.js:
 

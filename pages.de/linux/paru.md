@@ -1,6 +1,7 @@
 # paru
 
 > Ein AUR-Helfer und pacman-Wrapper.
+> Siehe auch: `pacman`, `yay`.
 > Weitere Informationen: <https://github.com/Morganamilo/paru#examples>.
 
 - Interaktiv nach einem Paket suchen und es installieren:

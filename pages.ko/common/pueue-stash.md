@@ -1,8 +1,8 @@
 # pueue stash
 
 > 작업을 자동으로 시작하지 않도록 임시 저장.
-> 같이 보기: `pueue start` 및 `pueue enqueue`.
-> 더 많은 정보: <https://github.com/Nukesor/pueue>.
+> 같이 보기: `pueue start`, `pueue enqueue`.
+> 더 많은 정보: <https://github.com/Nukesor/pueue#how-to-use-it>.
 
 - 대기열에 있는 작업 임시 저장:
 

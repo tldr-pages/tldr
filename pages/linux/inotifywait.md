@@ -1,6 +1,7 @@
 # inotifywait
 
 > Waits for changes to files.
+> See also: `fatrace`.
 > More information: <https://manned.org/inotifywait>.
 
 - Watch a specific file for events, exiting after the first one:

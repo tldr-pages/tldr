@@ -1,7 +1,7 @@
 # sccmap
 
 > Extract strongly connected components of directed graphs.
-> Graphviz filters: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, & `unflatten`.
+> Graphviz filters: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, and `unflatten`.
 > More information: <https://www.graphviz.org/pdf/sccmap.1.pdf>.
 
 - Extract strongly connected components of one or more directed graphs:

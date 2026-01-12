@@ -7,6 +7,7 @@ A Python file that makes some commonly used functions available for other script
 
 from enum import Enum
 from pathlib import Path
+from typing import Optional
 from unittest.mock import patch
 import shutil
 import os
@@ -35,7 +36,7 @@ def test_ignore_files():
     assert "tldr.md" not in IGNORE_FILES
 
 
-def get_tldr_root(lookup_path: Path = None) -> Path:
+def get_tldr_root(lookup_path: Optional[str] = None) -> Path:
     """
     Get the path of the local tldr repository, looking for it in each part of the given path. If it is not found, the path in the environment variable TLDR_ROOT is returned.
 
@@ -91,15 +92,60 @@ def test_get_tldr_root():
         os.environ["TLDR_ROOT"] = original_env
 
 
-def get_pages_dir(root: Path) -> list[Path]:
+def get_templates(root: Path, filename: str):
     """
-    Get all pages directories.
+    Get all more information line translation templates from
+    TLDR_ROOT/contributing-guides/translation-templates/filename.
+
+    Parameters:
+        root (Path): The path of local tldr repository, i.e., TLDR_ROOT.
+        filename (str): Specifies which template to fetch.
+
+    Returns:
+        dict of (str, str): Language labels map to alias page templates.
+    """
+
+    template_file = root / "contributing-guides/translation-templates" / filename
+    with template_file.open(encoding="utf-8") as f:
+        lines = f.readlines()
+
+    # Parse alias-pages.md
+    templates = {}
+    i = 0
+    while i < len(lines):
+        if lines[i].startswith("###"):
+            lang = lines[i][4:].strip("\n").strip(" ")
+            while True:
+                i += 1
+                if lines[i].startswith("Not translated yet."):
+                    is_translated = False
+                    break
+                elif lines[i].startswith("```markdown"):
+                    i += 1
+                    is_translated = True
+                    break
+
+            if is_translated:
+                text = ""
+                while not lines[i].startswith("```"):
+                    text += lines[i]
+                    i += 1
+                templates[lang] = text
+
+        i += 1
+
+    return templates
+
+
+def get_pages_dirs(root: Path) -> list[Path]:
+    """
+    Get pages directories for all languages.
 
     Parameters:
     root (Path): the path to search for the pages directories.
 
     Returns:
-    list (list of Path's): Path's of page entry and platform, e.g. "page.fr/common".
+    list (list of Path's): Path's of all pages directories, e.g. "pages", "pages.fr", "pages.pt_BR", etc.
     """
 
     return [
@@ -107,7 +153,7 @@ def get_pages_dir(root: Path) -> list[Path]:
     ]
 
 
-def test_get_pages_dir():
+def test_get_pages_dirs():
     # Create temporary directories with names starting with "pages"
 
     root = Path("test_root")
@@ -121,7 +167,7 @@ def test_get_pages_dir():
     (root / "other_dir_2").mkdir(exist_ok=True)
 
     # Call the function and verify that it returns an empty list
-    result = get_pages_dir(root)
+    result = get_pages_dirs(root)
     assert result == []
 
     (root / "pages").mkdir(exist_ok=True)
@@ -129,7 +175,7 @@ def test_get_pages_dir():
     (root / "other_dir").mkdir(exist_ok=True)
 
     # Call the function and verify the result
-    result = get_pages_dir(root)
+    result = get_pages_dirs(root)
     expected = [root / "pages", root / "pages.fr"]
     assert result.sort() == expected.sort()  # the order differs on Unix / macOS
 
@@ -137,7 +183,7 @@ def test_get_pages_dir():
 
 
 def get_target_paths(
-    page: Path, pages_dirs: Path, check_exists: bool = True
+    page: str, pages_dirs: list[Path], check_exists: bool = True
 ) -> list[Path]:
     """
     Get all paths in all languages that match the page.
@@ -154,10 +200,9 @@ def get_target_paths(
 
     if not page.lower().endswith(".md"):
         page = f"{page}.md"
-    arg_platform, arg_page = page.split("/")
 
     for pages_dir in pages_dirs:
-        page_path = pages_dir / arg_platform / arg_page
+        page_path = pages_dir / page
 
         if check_exists and not page_path.exists():
             print(create_colored_line(Colors.RED, f"Page {page_path} does not exist"))
@@ -175,8 +220,8 @@ def test_get_target_paths():
 
     root.mkdir(exist_ok=True)
 
-    shutil.os.makedirs(root / "pages" / "common")
-    shutil.os.makedirs(root / "pages.fr" / "common")
+    (root / "pages" / "common").mkdir(parents=True, exist_ok=True)
+    (root / "pages.fr" / "common").mkdir(parents=True, exist_ok=True)
 
     file_path = root / "pages" / "common" / "tldr.md"
     with open(file_path, "w"):
@@ -186,7 +231,7 @@ def test_get_target_paths():
     with open(file_path, "w"):
         pass
 
-    target_paths = get_target_paths("common/tldr", get_pages_dir(root))
+    target_paths = get_target_paths("common/tldr", get_pages_dirs(root))
     for path in target_paths:
         rel_path = "/".join(path.parts[-3:])
         print(rel_path)

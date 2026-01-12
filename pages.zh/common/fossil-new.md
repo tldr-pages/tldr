@@ -1,7 +1,7 @@
 # fossil new
 
-> 这是 `fossil init`.命令的一个别名。
+> 此命令为 `fossil init` 的别名。
 
-- 原命令的文档在：
+- 查看原命令的文档：
 
 `tldr fossil init`

@@ -1,7 +1,7 @@
 # znew
 
 > 将文件从 `.Z` 格式重新压缩为 gzip 格式。
-> 更多信息：<https://manned.org/znew>.
+> 更多信息：<https://manned.org/znew>。
 
 - 将文件从 `.Z` 格式重新压缩为 gzip 格式：
 

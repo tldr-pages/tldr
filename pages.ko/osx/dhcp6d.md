@@ -1,8 +1,9 @@
 # dhcp6d
 
-> 비상태 DHCPv6 서버. 같이 보기: `InternetSharing`.
+> 비상태 DHCPv6 서버.
 > 수동으로 실행하지 마십시오.
-> 더 많은 정보: <https://www.manpagez.com/man/8/dhcp6d/>.
+> 같이 보기: `InternetSharing`.
+> 더 많은 정보: <https://keith.github.io/xcode-man-pages/dhcp6d.8.html>.
 
 - 데몬 시작:
 

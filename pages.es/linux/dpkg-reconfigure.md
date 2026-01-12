@@ -1,7 +1,7 @@
 # dpkg-reconfigure
 
 > Reconfigura un paquete ya instalado.
-> Más información: <https://manned.org/dpkg-reconfigure.8>.
+> Más información: <https://manned.org/dpkg-reconfigure>.
 
 - Reconfigura uno o más paquetes:
 

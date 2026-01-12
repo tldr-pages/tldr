@@ -1,7 +1,7 @@
 # a2enconf
 
 > Aktiviert eine Apache-Konfigurationsdatei auf Debian-basierten Betriebssystemen.
-> Weitere Informationen: <https://manned.org/a2enconf.8>.
+> Weitere Informationen: <https://manned.org/a2enconf>.
 
 - Aktiviere eine Konfigurationsdatei:
 

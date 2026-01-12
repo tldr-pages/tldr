@@ -1,7 +1,7 @@
 # balena
 
-> Interact with the balenaCloud, openBalena and the balena API.
-> More information: <https://www.balena.io/docs/reference/cli/>.
+> Interact with the balenaCloud, openBalena, and the balena API.
+> More information: <https://docs.balena.io/reference/balena-cli/latest/>.
 
 - Log in to the balenaCloud account:
 

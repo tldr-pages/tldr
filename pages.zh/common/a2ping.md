@@ -1,7 +1,7 @@
 # a2ping
 
 > 将图像转换为 EPS 或 PDF 文件。
-> 更多信息：<https://manned.org/a2ping>.
+> 更多信息：<https://manned.org/a2ping>。
 
 - 将图像转换为 PDF（注意：指定输出文件名是可选的）：
 
@@ -27,6 +27,6 @@
 
 `a2ping --extra {{参数}} {{文件}}`
 
-- 显示帮助信息：
+- 显示帮助：
 
 `a2ping -h`

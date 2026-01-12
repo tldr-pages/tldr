@@ -7,7 +7,7 @@
 
 `ugrep {{[-Q|--query]}}`
 
-- Zoek recursief met een regex zoekpatroon in de huidige map naar passende bestanden:
+- Zoek recursief met een `regex` zoekpatroon in de huidige map naar passende bestanden:
 
 `ugrep "{{zoekpatroon}}"`
 
@@ -23,7 +23,7 @@
 
 `ugrep {{[-Z|--fuzzy=]}}{{3}} "{{zoekpatroon}}"`
 
-- Zoek passende gecomprimeerde bestanden, zip en tar archieven recursief in de huidige map:
+- Zoek passende gecomprimeerde bestanden, zip en `.tar` archieven recursief in de huidige map:
 
 `ugrep {{[-z|--decompress]}} "{{zoekpatroon}}"`
 

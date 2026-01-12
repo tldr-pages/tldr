@@ -1,7 +1,7 @@
 # bcomps
 
 > 그래프를 이중 연결 구성 요소로 분해.
-> 그래프비즈 필터: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, & `unflatten`.
+> 그래프비즈 필터: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, 및 `unflatten`.
 > 더 많은 정보: <https://graphviz.org/pdf/bcomps.1.pdf>.
 
 - 하나 이상의 그래프를 이중 연결 구성요소로 분해:

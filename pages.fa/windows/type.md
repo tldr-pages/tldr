@@ -5,4 +5,4 @@
 
 - نمایش محتویات فایل مشخص شده:
 
-`type {{path/to/file}}`
+`type {{path\to\file}}`

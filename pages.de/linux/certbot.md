@@ -6,15 +6,15 @@
 
 - Beziehe ein neues Zertifikat über die webroot-Autorisierung, aber ohne dieses automatisch zu installieren:
 
-`sudo certbot certonly --webroot {{[-w|--webroot-path]}} {{pfad/zu/webroot}} {{[-d|--domain]}} {{subdomain.beispiel.de}}`
+`sudo certbot certonly --webroot {{[-w|--webroot-path]}} {{pfad/zu/webroot}} {{[-d|--domain]}} {{subdomain.example.com}}`
 
-- Beziehe ein neues Zertifikat über die nginx-Autorisierung und automatische Installation des neuen Zertifikats:
+- Beziehe ein neues Zertifikat über die `nginx`-Autorisierung und automatische Installation des neuen Zertifikats:
 
-`sudo certbot --nginx {{[-d|--domain]}} {{subdomain.beispiel.de}}`
+`sudo certbot --nginx {{[-d|--domain]}} {{subdomain.example.com}}`
 
 - Beziehe ein neues Zertifikat über die apache-Autorisierung und automatische Installation des neuen Zertifikats:
 
-`sudo certbot --apache {{[-d|--domain]}} {{subdomain.beispiel.de}}`
+`sudo certbot --apache {{[-d|--domain]}} {{subdomain.example.com}}`
 
 - Erneuere alle Let's Encrypt Zertifikate die in 30 Tagen oder weniger auslaufen (nicht vergessen alle Server, die diese nutzen, neu zu starten):
 
@@ -22,8 +22,8 @@
 
 - Simuliere die Zertifikatserneuerung, ohne diese zu speichern:
 
-`sudo certbot --webroot {{[-w|--webroot-path]}} {{pfad/zu/webroot}} {{[-d|--domain]}} {{subdomain.beispiel.de}} --dry-run`
+`sudo certbot --webroot {{[-w|--webroot-path]}} {{pfad/zu/webroot}} {{[-d|--domain]}} {{subdomain.example.com}} --dry-run`
 
 - Beziehe ein Test-Zertifikat:
 
-`sudo certbot --webroot {{[-w|--webroot-path]}} {{pfad/zu/webroot}} {{[-d|--domain]}} {{subdomain.beispiel.de}} --test-cert`
+`sudo certbot --webroot {{[-w|--webroot-path]}} {{pfad/zu/webroot}} {{[-d|--domain]}} {{subdomain.example.com}} --test-cert`

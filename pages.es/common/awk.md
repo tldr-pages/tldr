@@ -1,6 +1,7 @@
 # awk
 
 > Un versátil lenguaje de programación para trabajar con archivos.
+> Vea también: `gawk`.
 > Más información: <https://github.com/onetrueawk/awk>.
 
 - Imprime la quinta columna (también conocida como campo) de un archivo separado por espacios:

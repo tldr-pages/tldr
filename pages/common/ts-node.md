@@ -1,9 +1,9 @@
 # ts-node
 
 > Run TypeScript code directly, without any compiling.
-> More information: <https://typestrong.org/ts-node/docs/options>.
+> More information: <https://typestrong.org/ts-node/docs/options/>.
 
-- Execute a TypeScript file without compiling (`node` + `tsc`):
+- Execute a TypeScript file without compiling (Node + `tsc`):
 
 `ts-node {{path/to/file.ts}}`
 

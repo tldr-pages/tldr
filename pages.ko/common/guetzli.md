@@ -1,7 +1,7 @@
 # guetzli
 
 > JPEG 이미지 압축 유틸리티.
-> 더 많은 정보: <https://github.com/google/guetzli>.
+> 더 많은 정보: <https://manned.org/guetzli>.
 
 - JPEG 이미지 압축:
 

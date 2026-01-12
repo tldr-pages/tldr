@@ -1,7 +1,7 @@
 # curlie
 
 > `curl`의 프론트엔드로, `httpie`의 사용 편의성을 추가합니다.
-> 더 많은 정보: <https://github.com/rs/curlie>.
+> 더 많은 정보: <https://github.com/rs/curlie#usage>.
 
 - GET 요청 전송:
 

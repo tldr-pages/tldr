@@ -1,7 +1,8 @@
 # grep
 
 > 使用正則表達式在文件中查找字串。
-> 更多資訊：<https://www.gnu.org/software/grep/manual/grep.html>.
+> 另請參閱：`regex`。
+> 更多資訊：<https://www.gnu.org/software/grep/manual/grep.html>。
 
 - 在檔案中尋找字串：
 

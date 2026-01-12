@@ -1,7 +1,7 @@
 # unison
 
 > 双向文件同步工具。
-> 更多信息：<https://github.com/bcpierce00/unison>.
+> 更多信息：<https://github.com/bcpierce00/unison>。
 
 - 同步两个目录（第一次同步这两个目录时会创建日志）：
 

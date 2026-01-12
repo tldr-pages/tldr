@@ -2,7 +2,7 @@
 
 > O compilador Rust.
 > Projetos Rust geralmente usam o `cargo` em vez de chamar `rustc` diretamente.
-> Mais informações: <https://doc.rust-lang.org/rustc>.
+> Mais informações: <https://doc.rust-lang.org/stable/rustc/>.
 
 - Compila uma crate binária:
 

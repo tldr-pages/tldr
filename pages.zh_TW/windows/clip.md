@@ -1,7 +1,7 @@
 # clip
 
 > 將輸入的內容複製到 Windows 剪貼簿中。
-> 更多資訊：<https://learn.microsoft.com/windows-server/administration/windows-commands/clip>.
+> 更多資訊：<https://learn.microsoft.com/windows-server/administration/windows-commands/clip>。
 
 - 使用管道將命令輸出的內容複製到 Windows 剪貼簿中：
 

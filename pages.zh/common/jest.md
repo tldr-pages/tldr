@@ -1,7 +1,7 @@
 # jest
 
 > 一个零配置的 JavaScript 测试平台。
-> 更多信息：<https://jestjs.io/docs/cli>.
+> 更多信息：<https://jestjs.io/docs/cli>。
 
 - 运行所有可用的测试：
 
@@ -31,6 +31,6 @@
 
 `jest --watch`
 
-- 显示帮助信息：
+- 显示帮助：
 
 `jest --help`

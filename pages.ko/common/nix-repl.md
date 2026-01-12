@@ -2,7 +2,7 @@
 
 > Nix 표현식을 평가하기 위한 대화형 환경 시작.
 > Nix 표현식 언어에 대한 설명은 <https://nixos.org/manual/nix/stable/language/index.html>을 참고하세요.
-> 더 많은 정보: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-repl.html>.
+> 더 많은 정보: <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-repl.html>.
 
 - Nix 표현식을 평가하기 위한 대화형 환경 시작:
 

@@ -1,7 +1,8 @@
 # distrobox-stop
 
-> Distrobox 컨테이너 중지. 같이 보기: `tldr distrobox`.
-> 더 많은 정보: <https://distrobox.it/usage/distrobox-stop>.
+> Distrobox 컨테이너 중지.
+> 같이 보기: `distrobox`.
+> 더 많은 정보: <https://distrobox.it/usage/distrobox-stop/>.
 
 - Distrobox 컨테이너 중지:
 

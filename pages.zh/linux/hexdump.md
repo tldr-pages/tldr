@@ -1,7 +1,8 @@
 # hexdump
 
 > 一个 ASCII、十进制、十六进制、八进制转换查看工具。
-> 更多信息：<https://manned.org/hexdump>.
+> 另请参阅：`hexyl`, `od`, `xxd`。
+> 更多信息：<https://manned.org/hexdump>。
 
 - 打印文件的十六进制表示形式，重复的行用 '*' 替代：
 

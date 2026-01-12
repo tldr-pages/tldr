@@ -3,7 +3,7 @@
 > Translate chemistry-related data.
 > More information: <https://open-babel.readthedocs.io/en/latest/Command-line_tools/babel.html>.
 
-- Convert a .mol file to XYZ coordinates:
+- Convert a `.mol` file to XYZ coordinates:
 
 `obabel {{path/to/file.mol}} -O {{path/to/output_file.xyz}}`
 
@@ -11,7 +11,7 @@
 
 `obabel -:"{{SMILES}}" -O {{path/to/output_file.png}} -xp 500`
 
-- Convert a file of SMILES string to separate 3D .mol files:
+- Convert a file of SMILES string to separate 3D `.mol` files:
 
 `obabel {{path/to/file.smi}} -O {{path/to/output_file.mol}} --gen3D -m`
 

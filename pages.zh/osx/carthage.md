@@ -1,7 +1,7 @@
 # carthage
 
 > Cocoa 应用程序的依赖性管理工具。
-> 更多信息：<https://github.com/Carthage/Carthage>.
+> 更多信息：<https://github.com/Carthage/Carthage>。
 
 - 下载 Cartfile 中提到的所有依赖项的最新版本，并编译它们：
 

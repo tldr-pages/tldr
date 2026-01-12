@@ -1,7 +1,7 @@
 # pihole
 
 > Управлять DNS-сервером для блокировки рекламы Pi-hole.
-> Больше информации: <https://docs.pi-hole.net/main/pihole-command>.
+> Больше информации: <https://docs.pi-hole.net/main/pihole-command/>.
 
 - Проверить статус Pi-hole:
 

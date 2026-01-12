@@ -1,6 +1,7 @@
 # strace
 
 > Herramienta de diagnóstico para rastrear llamadas al sistema.
+> Vea también: `fatrace`.
 > Más información: <https://manned.org/strace>.
 
 - Rastrea las llamadas de un proceso usando su PID:

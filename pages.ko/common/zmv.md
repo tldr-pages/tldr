@@ -2,7 +2,7 @@
 
 > 지정된 확장 글로브 패턴과 일치하는 파일을 이동하거나 이름 변경.
 > 같이 보기: `zcp` 및 `zln`.
-> 더 많은 정보: <https://zsh.sourceforge.net/Doc/Release/User-Contributions.html>.
+> 더 많은 정보: <https://zsh.sourceforge.io/Doc/Release/User-Contributions.html>.
 
 - 정규 표현식과 유사한 패턴을 사용하여 파일 이동:
 

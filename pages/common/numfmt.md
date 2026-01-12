@@ -7,6 +7,18 @@
 
 `numfmt --from si 1.5K`
 
+- Convert 1500 to 1.5K (SI Units):
+
+`numfmt --to si 1500`
+
+- Convert 1.5K (IEC Units) to 1536:
+
+`numfmt --from iec 1.5K`
+
+- Use appropriate conversion based on the suffix:
+
+`numfmt --from auto {{1.5Ki}}`
+
 - Convert 5th field (1-indexed) to IEC Units without converting header:
 
 `ls -l | numfmt --header=1 --field 5 --to iec`

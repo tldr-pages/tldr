@@ -10,8 +10,8 @@
 
 - Suppress output and return only the exit code:
 
-`systemctl is-enabled {{unit}} --quiet`
+`systemctl is-enabled {{unit}} {{[-q|--quiet]}}`
 
 - Show installation targets and symlink paths:
 
-`systemctl is-enabled {{unit}} --full`
+`systemctl is-enabled {{unit}} {{[-l|--full]}}`

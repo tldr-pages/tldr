@@ -1,7 +1,7 @@
 # pacman --sync
 
 > Kegunaan manajer paket Arch Linux.
-> Guarda anche: `pacman`.
+> Lihat juga: `pacman`.
 > Informasi lebih lanjut: <https://manned.org/pacman.8>.
 
 - Instal paket baru:
@@ -16,7 +16,7 @@
 
 `sudo pacman --sync --refresh --sysupgrade --noconfirm {{nama_paket}}`
 
-- Cari paket dalam database berdasarkan regular expression atau kata kunci:
+- Cari paket dalam database berdasarkan `regex` atau kata kunci:
 
 `pacman --sync --search "{{pola_pencarian}}"`
 

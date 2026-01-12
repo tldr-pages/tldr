@@ -2,7 +2,7 @@
 
 > 다양한 `.onion` 검색 엔진에서 URL을 스크랩.
 > 참고: `onionsearch`는 `localhost:9050`에서 실행되는 Tor 프록시가 필요하며, `.onion` 웹사이트를 방문하려면 Tor 지원 브라우저가 필요합니다.
-> 더 많은 정보: <https://github.com/megadose/OnionSearch>.
+> 더 많은 정보: <https://github.com/megadose/OnionSearch#--usage>.
 
 - 모든 검색 엔진에서 결과 요청:
 

@@ -2,6 +2,7 @@
 
 > Um fork do youtube-dl com funcionalidades e correções adicionais.
 > Descarrega vídeos do YouTube e de outros websites.
+> Veja também: `ytfzf`.
 > Mais informações: <https://github.com/yt-dlp/yt-dlp#usage-and-options>.
 
 - Descarrega um vídeo ou playlist (com as opções predefinidas):

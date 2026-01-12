@@ -1,7 +1,7 @@
 # choco info
 
 > Wyświetlanie szczegółowych informacji o pakiecie Chocolatey.
-> Więcej informacji: <https://chocolatey.org/docs/commands-info>.
+> Więcej informacji: <https://docs.chocolatey.org/en-us/choco/commands/info/>.
 
 - Wyświetlanie informacji dotyczących podanego pakietu:
 
@@ -9,12 +9,12 @@
 
 - Wyświetlanie informacji dotyczących podanego pakietu zainstalowanego lokalnie:
 
-`choco info {{pakiet}} --local-only`
+`choco info {{pakiet}} {{[-l|--local-only]}}`
 
 - Ustawienie określonego źródła/repozytorium pakietów z którego pobrane zostaną informacje:
 
-`choco info {{pakiet}} --source {{adres_url|alias}}`
+`choco info {{pakiet}} {{[-s|--source]}} {{adres_url|alias}}`
 
 - Podanie nazwy użytkownika i hasła do uwierzytelnienia:
 
-`choco info {{pakiet}} --user {{nazwa_użytkownika}} --password {{hasło}}`
+`choco info {{pakiet}} {{[-u|--user]}} {{nazwa_użytkownika}} {{[-p|--password]}} {{hasło}}`

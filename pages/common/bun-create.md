@@ -22,12 +22,12 @@
 
 - Create a new project, overwriting the destination directory if it exists:
 
-`bun create {{template}} {{path/to/destination} --force`
+`bun create {{template}} {{path/to/destination}} --force`
 
 - Create a new project without initializing a Git repository automatically:
 
-`bun create {{template}} {{path/to/destination} --no-git`
+`bun create {{template}} {{path/to/destination}} --no-git`
 
 - Create a new project without installing dependencies automatically:
 
-`bun create {{template}} {{path/to/destination} --no-install`
+`bun create {{template}} {{path/to/destination}} --no-install`

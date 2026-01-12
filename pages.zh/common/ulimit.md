@@ -1,7 +1,7 @@
 # ulimit
 
 > 获取和设置用户限制。
-> 更多信息：<https://www.gnu.org/software/bash/manual/bash.html#index-ulimit>.
+> 更多信息：<https://www.gnu.org/software/bash/manual/bash.html#index-ulimit>。
 
 - 获取所有用户限制的属性：
 
@@ -19,6 +19,6 @@
 
 `ulimit -u 30`
 
-- 显示帮助信息：
+- 显示帮助：
 
 `help ulimit`

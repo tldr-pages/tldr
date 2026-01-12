@@ -16,7 +16,7 @@
 
 `gdm --no-console`
 
-- Voorkom het opschonen van omgevingsvariabelen die beginnen met `LD_`:
+- Voorkom het opschonen van omgevingsvariabelen die beginnen met `$LD_`:
 
 `gdm --preserve-ld-vars`
 

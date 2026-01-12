@@ -1,9 +1,10 @@
 # glances
 
 > 一个跨平台的系统监控工具。
-> 更多信息：<https://nicolargo.github.io/glances/>.
+> 另请参阅：`htop`, `atop`, `top`, `btm`, `btop`。
+> 更多信息：<https://nicolargo.github.io/glances/>。
 
-- 在终端中运行
+- 在终端中运行：
 
 `glances`
 
@@ -27,6 +28,6 @@
 
 `<q>`
 
-- 显示帮助信息：
+- 显示帮助：
 
 `glances {{[-h|--help]}}`

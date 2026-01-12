@@ -1,7 +1,7 @@
 # manim
 
 > 用于制作数学动画的视频引擎。
-> 更多信息：<https://docs.manim.community/en/stable/tutorials/quickstart.html>.
+> 更多信息：<https://docs.manim.community/en/stable/tutorials/quickstart.html>。
 
 - 使用默认设置渲染 Python 脚本中的场景：
 
@@ -27,6 +27,6 @@
 
 `manim --list_scenes {{路径/文件.py}}`
 
-- 显示帮助信息：
+- 显示帮助：
 
 `manim --help`

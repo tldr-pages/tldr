@@ -1,7 +1,7 @@
 # ip
 
 > Toon/manipuleer routing, apparaten, beleidsrouting en tunnels.
-> Sommige subcommando's zoals `address` hebben hun eigen gebruiksdocumentatie.
+> Sommige subcommando's zoals `address` hebben hun eigen documentatie.
 > Meer informatie: <https://manned.org/ip.8>.
 
 - Toon interfaces met gedetailleerde informatie:

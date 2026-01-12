@@ -1,7 +1,7 @@
 # gdown
 
 > Descarga archivos desde Google Drive y otras URLs.
-> Más información: <https://github.com/wkentaro/gdown>.
+> Más información: <https://github.com/wkentaro/gdown#usage>.
 
 - Descarga un archivo desde una URL:
 
@@ -17,8 +17,8 @@
 
 - Descarga una carpeta utilizando su ID o la URL completa:
 
-`gdown {{id_de_carpeta|url}} -O {{ruta/a/directorio_de_salida}} --folder`
+`gdown {{id_de_carpeta|url}} -O {{ruta/al/directorio_de_salida}} --folder`
 
-- Descarga un archivo tar, escríbelo en `stdout` y extráelo:
+- Descarga un archivo `.tar`, escríbelo en `stdout` y extráelo:
 
 `gdown {{tar_url}} -O - --quiet | tar xvf -`

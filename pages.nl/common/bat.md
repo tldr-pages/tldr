@@ -2,7 +2,7 @@
 
 > Bestanden tonen en samenvoegen.
 > Een `cat` kopie met syntax highlighting en Git integratie.
-> Meer informatie: <https://github.com/sharkdp/bat>.
+> Meer informatie: <https://manned.org/bat>.
 
 - Toon de inhoud van een of meerdere bestanden in `stdout`:
 

@@ -1,24 +1,7 @@
 # docker images
 
-> Docker imgelerini yönet.
-> Daha fazla bilgi için: <https://docs.docker.com/reference/cli/docker/image/ls/>.
+> Bu komut `docker image ls` için bir takma addır.
 
-- Tüm Docker imgelerini listele:
+- Asıl komutun dokümantasyonunu görüntüleyin:
 
-`docker images`
-
-- Orta düzeyler de dahil olmak üzere tüm Docker imgelerini sırala:
-
-`docker images {{[-a|--all]}}`
-
-- Çıktıyı sessiz modda (yalnızca sayısal ID'ler olarak) sırala:
-
-`docker images {{[-q|--quiet]}}`
-
-- Herhangi bir konteyner tarafından kullanılmayan tüm Docker imgelerini sırala:
-
-`docker images {{[-f|--filter]}} dangling=true`
-
-- İsminde belirtilen dizeleri taşıyan imgeleri sırala:
-
-`docker images "{{*isim*}}"`
+`tldr docker image ls`

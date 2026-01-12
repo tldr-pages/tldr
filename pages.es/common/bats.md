@@ -13,7 +13,7 @@
 
 - Ejecuta casos de prueba BATS [r]ecursivamente (archivos con extensión `.bats`):
 
-`bats --recursive {{ruta/a/directorio}}`
+`bats --recursive {{ruta/al/directorio}}`
 
 - Muestra los resultados en un [f]ormato específico:
 

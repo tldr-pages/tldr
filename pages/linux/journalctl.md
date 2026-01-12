@@ -2,7 +2,7 @@
 
 > Query the systemd journal.
 > See also: `dmesg`.
-> More information: <https://www.freedesktop.org/software/systemd/man/journalctl.html>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/journalctl.html>.
 
 - Show all messages with priority level 3 (errors) from this boot:
 

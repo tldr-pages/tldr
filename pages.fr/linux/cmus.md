@@ -2,6 +2,7 @@
 
 > Lecteur de musique en ligne de commande.
 > Utiliser `<ArrowKeys>` pour naviguer, `<Enter>` pour sélectionner, et les nombres `<1>`-`<8>` pour se déplacer dans les différentes vues.
+> Voir aussi : `ncmpcpp`, `clementine`, `qmmp`.
 > Plus d'informations : <https://manned.org/cmus>.
 
 - Ouvre cmus dans le dossier spécifié (celui-ci deviendra le dossier de travail) :

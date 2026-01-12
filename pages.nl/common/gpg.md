@@ -17,7 +17,7 @@
 
 - Versleutel en onderteken `doc.txt` voor `alice@example.com` en `bob@example.com` (schrijft uitvoer naar `doc.txt.gpg`):
 
-`gpg {{[-es|--encrypt --sign]}} {{[-r|--receiver]}} {{alice@example.com}} {{[-r|--receiver]}} {{bob@example.com}} {{doc.txt}}`
+`gpg {{[-es|--encrypt --sign]}} {{[-r|--recipient]}} {{alice@example.com}} {{[-r|--recipient]}} {{bob@example.com}} {{doc.txt}}`
 
 - Versleutel `doc.txt` met alleen een wachtwoordzin (uitvoer naar `doc.txt.gpg`):
 

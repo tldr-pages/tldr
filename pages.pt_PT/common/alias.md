@@ -2,6 +2,7 @@
 
 > Cria um alias -- palavras que são substituídas por um comando.
 > Alias expiram com a sessão da shell atual, a menos que sejam definidos no ficheiro de configuração da shell, por exemplo `~/.bashrc`.
+> Veja também: `unalias`.
 > Mais informações: <https://www.gnu.org/software/bash/manual/bash.html#index-alias>.
 
 - Lista todos os alias:

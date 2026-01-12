@@ -1,7 +1,7 @@
 # modinfo
 
 > Extrae información sobre un módulo del núcleo Linux.
-> Vea también: `kmod`, para otros comandos de gestión de módulos.
+> Vea también: `kmod`.
 > Más información: <https://manned.org/modinfo>.
 
 - Lista todos los atributos de un módulo del núcleo:

@@ -1,7 +1,7 @@
 # bun install
 
 > Install JavaScript dependencies for a project from `package.json`.
-> More information: <https://bun.com/docs/cli/install>.
+> More information: <https://bun.com/docs/pm/cli/install>.
 
 - Install all dependencies listed in `package.json`:
 
@@ -17,7 +17,7 @@
 
 - Install only production dependencies (skips `devDependencies`):
 
-`bun {{[i|install]}} --production`
+`bun {{[i|install]}} {{[-p|--production]}}`
 
 - Install dependencies exactly from the `bun.lockb` lockfile (frozen lockfile):
 

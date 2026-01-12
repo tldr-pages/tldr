@@ -1,7 +1,7 @@
 # nload
 
 > 터미널에서 네트워크 사용량을 시각화.
-> 더 많은 정보: <https://github.com/rolandriegel/nload>.
+> 더 많은 정보: <https://manned.org/nload>.
 
 - 모든 네트워크 트래픽 보기 (`<ArrowKeys>`를 사용하여 인터페이스 전환):
 

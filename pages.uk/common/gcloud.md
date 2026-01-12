@@ -2,7 +2,7 @@
 
 > Офіційний CLI інструмент для Google Cloud Platform.
 > Примітка: підкоманди `gcloud` мають власну документацію щодо використання.
-> Більше інформації: <https://cloud.google.com/sdk/gcloud>.
+> Більше інформації: <https://docs.cloud.google.com/sdk/gcloud>.
 
 - Вивести всі властивості в активній конфігурації:
 

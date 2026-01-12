@@ -1,6 +1,6 @@
 # jbang
 
-> Easily create, edit and run self-contained source-only Java programs.
+> Easily create, edit, and run self-contained source-only Java programs.
 > See also: `java`.
 > More information: <https://www.jbang.dev/documentation/jbang/latest/cli/jbang.html>.
 

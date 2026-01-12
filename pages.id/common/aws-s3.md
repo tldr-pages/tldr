@@ -2,7 +2,7 @@
 
 > Alat baris perintah (CLI) untuk AWS S3 - jasa penyimpanan berkas bagi layanan web.
 > Beberapa subperintah seperti `cp` mempunyai dokumentasi terpisah.
-> Informasi lebih lanjut: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/index.html>.
+> Informasi lebih lanjut: <https://docs.aws.amazon.com/cli/latest/reference/s3/>.
 
 - Tampilkan daftar seluruh berkas dalam suatu bucket:
 

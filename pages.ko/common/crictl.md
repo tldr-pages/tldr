@@ -3,7 +3,7 @@
 > CRI 호환 컨테이너 런타임을 위한 커멘드라인.
 > 더 많은 정보: <https://github.com/kubernetes-sigs/cri-tools/blob/master/docs/crictl.md>.
 
-- 모든 kubernetes 파드 나열 (준비 및 준비되지 않음):
+- 모든 Kubernetes 파드 나열 (준비 및 준비되지 않음):
 
 `crictl pods`
 

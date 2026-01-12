@@ -1,7 +1,7 @@
 # balena
 
 > Lakukan interaksi dengan layanan balenaCloud, openBalena, dan balena API.
-> Informasi lebih lanjut: <https://www.balena.io/docs/reference/cli/>.
+> Informasi lebih lanjut: <https://docs.balena.io/reference/balena-cli/latest/>.
 
 - Masuk dengan akun balenaCloud:
 

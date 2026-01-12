@@ -1,6 +1,6 @@
 # streamlink
 
-> Extracts streams from various services and pipes them into a video player of choice.
+> Extract streams from various services and pipes them into a video player of choice.
 > More information: <https://streamlink.github.io/cli.html#command-line-usage>.
 
 - Attempt to extract streams from the URL specified, and if it's successful, print out a list of available streams to choose from:

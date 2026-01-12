@@ -2,7 +2,7 @@
 
 > 被动网络流量分析器。
 > 所有输出和日志文件将保存到当前工作目录。
-> 更多信息：<https://docs.zeek.org/en/lts/quickstart.html#zeek-as-a-command-line-utility>.
+> 更多信息：<https://docs.zeek.org/en/lts/quickstart.html#zeek-as-a-command-line-utility>。
 
 - 分析来自网络接口的实时流量：
 

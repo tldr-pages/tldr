@@ -157,8 +157,7 @@ using one of the template messages below as a base.
 
    Additionally, consider subscribing to the notifications from the various repositories under the [tldr-pages organization](https://github.com/tldr-pages).
 
-   As one of the public faces of the tldr-pages project, it's also especially important that you follow and encourage the [project
-   governance principles](https://github.com/tldr-pages/tldr/blob/main/GOVERNANCE.md).
+   As one of the public faces of the tldr-pages project, it's also especially important that you follow and encourage the [project governance principles](https://github.com/tldr-pages/tldr/blob/main/GOVERNANCE.md).
 
    How does that sound? Are you up for it?
    ```
@@ -175,7 +174,7 @@ using one of the template messages below as a base.
    Feel free to use this reply comment template:
 
    ```md
-   Welcome to tldr-pages! I've sent you an invitation to become a member of the organization. Once you accept it, don't forget to set your membership to ["Public" visibility](https://github.com/orgs/tldr-pages/people).
+   Welcome to the team! I've sent you an invitation to become a member of the organization. Once you accept it, don't forget to set your membership to ["Public" visibility](https://github.com/orgs/tldr-pages/people).
    
    Feel free to close this issue with a pull request, updating the [MAINTAINERS.md](https://github.com/tldr-pages/tldr/blob/main/MAINTAINERS.md#organization-members) file's active organization members section with a new entry.
 

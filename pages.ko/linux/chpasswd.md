@@ -1,7 +1,8 @@
 # chpasswd
 
 > 여러 사용자의 비밀번호를 `stdin`을 통해 변경합니다.
-> 더 많은 정보: <https://manned.org/chpasswd.8>.
+> 같이 보기: `passwd`.
+> 더 많은 정보: <https://manned.org/chpasswd>.
 
 - 특정 사용자의 비밀번호 변경:
 

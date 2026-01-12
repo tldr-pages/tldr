@@ -1,7 +1,7 @@
 # stty
 
 > 设置终端设备接口的选项。
-> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/stty-invocation.html>.
+> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/stty-invocation.html>。
 
 - 显示当前终端的所有设置：
 
@@ -27,6 +27,6 @@
 
 `stty {{-echo|echo}}`
 
-- 显示帮助信息：
+- 显示帮助：
 
 `stty --help`

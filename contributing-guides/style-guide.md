@@ -85,28 +85,6 @@ Depending on your client, you may be able to preview a page locally using the `-
 tldr --render path/to/tldr_page.md
 ```
 
-### PowerShell-Specific Rules
-
-When documenting PowerShell commands, please take note of the following naming conventions.
-
-- The name of the file name must be written in lowercase, such as `invoke-webrequest.md` instead of `Invoke-WebRequest.md`.
-- The page title/heading must be written as-is (matching the spelling intended by Microsoft or the PowerShell module author), such as `Invoke-WebRequest` instead of `invoke-webrequest`.
-- The command name and options in the examples should also be written as-is, such as `Command-Name {{input}} -CommandParameter {{value}}` instead of `command-name {{input}} -commandparameter {{value}}`.
-
-Due to [various compatibility differences](https://learn.microsoft.com/powershell/scripting/whats-new/differences-from-windows-powershell) and removed Windows-specific commands in PowerShell 6.x, ensure that
-the command works on between **PowerShell 5.1** (aka. the "Legacy Windows PowerShell" as installed in Windows 10
-and 11), and the **latest version of the Cross-Platform PowerShell** (formerly known as PowerShell Core).
-
-Thus, if the command or its options are unavailable or contain different behaviors between each version, please kindly note them in the descriptions. For example:
-
-```md
-# Clear-RecycleBin
-
-> Clear items from the Recycle Bin.
-> Note: This command can only be used through PowerShell versions 5.1 and below, or 7.1 and above.
-> More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/clear-recyclebin>.
-```
-
 ## Pages
 
 ### Platform differences
@@ -147,66 +125,6 @@ Example:
 ```
 
 - Pre-translated alias page templates can be found [here](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/translation-templates/alias-pages.md).
-
-#### PowerShell-Specific Aliases
-
-Some PowerShell commands may introduce aliases which fall into one of these three categories:
-
-1. **Replaces an existing Windows Command Prompt (`cmd`) command**, such as `cd` aliasing to `Set-Location` with different command options. In this case, add the following alias note into the second line of the original
-Command Prompt command's tldr description, for example:
-
-```md
-# cd
-
-> Display the current working directory or move to a different directory.
-> In PowerShell, this command is an alias of `Set-Location`. This documentation is based on the Command Prompt (`cmd`) version of `cd`.
-> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
-
-- View documentation of the equivalent PowerShell command:
-
-`tldr set-location`
-```
-
-> [!NOTE]\
-> The "View documentation of the equivalent PowerShell command" example is optional and must be excluded if the page already has the maximum number (8) of examples.
-
-2. **Provides a new alias but only executable in PowerShell**, such as `ni` for `New-Item`. In this case, use the [standard alias template](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/translation-templates/alias-pages.md),
-but add the word "In PowerShell," (or equivalent) to indicate that the command is exclusive to PowerShell. For example,
-
-```md
-# ni
-
-> In PowerShell, this command is an alias of `New-Item`.
-> More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/new-item>.
-
-- View documentation for the original command:
-
-`tldr new-item`
-```
-
-**3. Provides a new alias that conflicts with other programs**, most notoriously the inclusion of `curl` and `wget` as aliases of `Invoke-WebRequest` (with a non-compatible set of command options).
-Note that PowerShell system aliases that fall into this category are commonly exclusive to Windows.
-
-In this case, provide a note and method to determine whether the command currently refers to a PowerShell command (by alias) or others. For example,
-
-```md
-# curl
-
-> In PowerShell, this command may be an alias of `Invoke-WebRequest` when the original `curl` program (<https://curl.se>) is not properly installed.
-> More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
-
-- Check whether `curl` is properly installed by printing its version number. If this command evaluates into an error, PowerShell may have substituted this command with `Invoke-WebRequest`:
-
-`curl --version`
-
-- View documentation for the original `curl` command:
-
-`tldr curl -p common`
-
-- View documentation for PowerShell's `Invoke-WebRequest` command:
-
-`tldr invoke-webrequest`
-```
 
 ### Disambiguations
 
@@ -321,9 +239,10 @@ Avoid explaining general UNIX concepts that could apply to any command (i.e. rel
 
 When describing an environment variable for UNIX platforms, prepend the variable with a dollar sign and enclose it with backticks (`$VARIABLE_NAME`). For example: "Manage the `$JAVA_HOME` environment variable".
 
-For Windows command prompt, prepend and append the environment variable with a percent sign and enclose it with backticks (`%VARIABLE_NAME%`). For example: "Manage the `%JAVA_HOME%` environment variable".
+When describing file formats, primarily use the brand name in plain text (e.g. JSON, SQLite), or use the file extension preceded by a dot, wrapped in backticks (e.g. `.txt`).
 
-Whereas for Powershell, prepend the environment variable with a dollar sign, Env and a colon, then enclose it with backticks (`$Env:VARIABLE_NAME`). For example: "Manage the `$Env:JAVA_HOME` environment variable".
+If the command that is being described is part of an interactive mode, mention the word "interactive" in a previous example that enters said mode and mark the beginning of the description for the interactive commands with `[Interactive]`.
+Interactive mode can be defined as running commands within the command the page describes, and the prompt not having access to programs in $PATH.
 
 ### Standardized Terms
 
@@ -332,6 +251,9 @@ Some terms are used repeatedly throughout pages, and as such, should be standard
 | Term | Standard | Explanation |
 |---|---|---|
 | Regular expression | `` `regex` `` | `regex` defines a match pattern given a string of characters (https://en.wikipedia.org/wiki/Regular_expression). |
+| Standard input | `` `stdin` ``
+| Standard output | `` `stdout` ``
+| Standard error | `` `stderr` ``
 
 ## Heading
 
@@ -377,17 +299,11 @@ For example, use:
 - <https://manpages.debian.org/latest/apt/apt.8.html> instead of <https://manpages.debian.org/bookworm/apt/apt.8.en.html>.
 - <https://docs.aws.amazon.com/cdk/latest/guide/cli.html> instead of <https://docs.aws.amazon.com/cdk/v2/guide/cli.html>.
 
-#### Microsoft Learn links
+#### Links with locales
 
-When linking pages to the Microsoft Learn links, remove the locale from the address as the website will automatically redirect to the reader's preferred locale setting.
+When linking pages to websites that have locale settings like the Microsoft Learn links, remove the locale from the address if the website will automatically redirect to the reader's preferred locale setting.
 For example, Use <https://learn.microsoft.com/windows-server/administration/windows-commands/cd> instead of
 <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/cd>.
-
-Additionally, if the link is related to PowerShell command documentation, remove the **documentation version indicator** (in which the version of PowerShell/module that the documentation is derived from), aka.
-the part of the address that starts with `?view=`.
-
-- Use <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string> instead of <https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/select-string?view=powershell-7.4>.
-- Use <https://learn.microsoft.com/powershell/module/powershellget/install-module> instead of <https://learn.microsoft.com/en-us/powershell/module/powershellget/install-module?view=powershellget-1.x>.
 
 ### See also section
 
@@ -403,16 +319,23 @@ the part of the address that starts with `?view=`.
 > See also: `command1`, `command2`, `command3`.
 ```
 
-- Optionally, you can add a short description beside the referenced pages:
-
-```md
-> See also: `date` for Unix information, `uname` for system information and `umount` for unmounting partitions.
-```
-
 - When a command features subcommands, those pages can be referenced with the following line. Note that only the subcommand is named:
 
 ```md
 > Some subcommands such as `commit`, `add`, `branch`, `switch`, `push`, etc. have their own usage documentation.
+```
+
+#### Heading order
+
+The heading should adhere to the following order:
+
+```md
+> Short description of the functionality.
+> Further clarification of the functionality.
+> Note: Any note for the usage.
+> Some subcommands such as `subcommand1`, `subcommand2` have their own usage documentation.
+> See also: `command`.
+> More information: <https://example.com>.
 ```
 
 ## Example descriptions
@@ -506,18 +429,14 @@ Keep the following guidelines in mind when choosing placeholders:
 - In case of a possible reference both to a file or a directory,
   use `{{path/to/file_or_directory}}`.
 
-> [!NOTE]\
-> If the command is specific to Windows, use backslashes (`\`) instead, such as `{{path\to\file_or_directory}}`. Drive letters such as `C:` are optional unless the command input requires an absolute path
-> or specific drive letter range, such as `cd /d {{C}}:{{path\to\directory}}`.
-
 #### Extensions
 
 - If a particular extension is expected for the file, append it.
-  For example, `unrar x {{path/to/compressed.rar}}`.
+- If the extension represents the most common format but the command accepts related variations (such as multi-volume `.r00` or `.part1.rar` archives), keep it **inside** the placeholder: `unrar x {{path/to/archive.rar}}`.
+- If the command strictly requires one specific extension and no others to function, keep the extension **outside** the placeholder to indicate it is mandatory: `java -jar {{path/to/filename}}.jar`.
 - In case a generic extension is needed, use `{{.ext}}`, but **only** if an extension is required.
-  For instance, in `find.md`'s example "Find files by extension" (`find {{path/to/root}} -name '{{*.ext}}'`)
-  using `{{*.ext}}` explains the command without being unnecessarily specific;
-  while in `wc -l {{path/to/file}}` using `{{path/to/file}}` (without extension) is sufficient.
+- For instance, in `find.md`'s example "Find files by extension" (`find {{path/to/root}} -name '{{*.ext}}'`), using `{{*.ext}}` explains the command without being unnecessarily specific.
+- In `wc -l {{path/to/file}}`, using `{{path/to/file}}` (without an extension) is sufficient.
 
 #### Grouping placeholders
 
@@ -562,6 +481,109 @@ To mark keypresses for TUI or GUI programs, use angle brackets `<` and `>`.
 - For consistency, we prefer generic wording `Display help` and `Display version` for these commands.
 - It is suggested to document the help and version examples if the command follows unconventional flags in platforms like Windows.
 
+## Windows-Specific Rules
+
+### General layout
+
+When documenting PowerShell commands, please take note of the following naming conventions.
+
+- The name of the file name must be written in lowercase, such as `invoke-webrequest.md` instead of `Invoke-WebRequest.md`.
+- The page title/heading must be written as-is (matching the spelling intended by Microsoft or the PowerShell module author), such as `Invoke-WebRequest` instead of `invoke-webrequest`.
+- The command name and options in the examples should also be written as-is, such as `Command-Name {{input}} -CommandParameter {{value}}` instead of `command-name {{input}} -commandparameter {{value}}`.
+
+Due to [various compatibility differences](https://learn.microsoft.com/powershell/scripting/whats-new/differences-from-windows-powershell) and removed Windows-specific commands in PowerShell 6.x, ensure that
+the command works on between **PowerShell 5.1** (aka. the "Legacy Windows PowerShell" as installed in Windows 10
+and 11), and the **latest version of the Cross-Platform PowerShell** (formerly known as PowerShell Core).
+
+Thus, if the command or its options are unavailable or contain different behaviors between each version, please kindly note them in the descriptions. For example:
+
+```md
+# Clear-RecycleBin
+
+> Clear items from the Recycle Bin.
+> Note: This command can only be used through PowerShell versions 5.1 and below, or 7.1 and above.
+> More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/clear-recyclebin>.
+```
+
+### Aliases
+
+Some PowerShell commands may introduce aliases which fall into one of these three categories:
+
+1. **Replaces an existing Windows Command Prompt (`cmd`) command**, such as `cd` aliasing to `Set-Location` with different command options. In this case, add the following alias note into the second line of the original
+Command Prompt command's tldr description, for example:
+
+```md
+# cd
+
+> Display the current working directory or move to a different directory.
+> In PowerShell, this command is an alias of `Set-Location`. This documentation is based on the Command Prompt (`cmd`) version of `cd`.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
+
+- View documentation of the equivalent PowerShell command:
+
+`tldr set-location`
+```
+
+> [!NOTE]\
+> The "View documentation of the equivalent PowerShell command" example is optional and must be excluded if the page already has the maximum number (8) of examples.
+
+2. **Provides a new alias but only executable in PowerShell**, such as `ni` for `New-Item`. In this case, use the [standard alias template](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/translation-templates/alias-pages.md),
+but add the word "In PowerShell," (or equivalent) to indicate that the command is exclusive to PowerShell. For example,
+
+```md
+# ni
+
+> In PowerShell, this command is an alias of `New-Item`.
+> More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/new-item>.
+
+- View documentation for the original command:
+
+`tldr new-item`
+```
+
+3. **Provides a new alias that conflicts with other programs**, most notoriously the inclusion of `curl` and `wget` as aliases of `Invoke-WebRequest` (with a non-compatible set of command options).
+Note that PowerShell system aliases that fall into this category are commonly exclusive to Windows.
+
+In this case, provide a note and method to determine whether the command currently refers to a PowerShell command (by alias) or others. For example,
+
+```md
+# curl
+
+> In PowerShell, this command may be an alias of `Invoke-WebRequest` when the original `curl` program (<https://curl.se>) is not properly installed.
+> More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
+
+- Check whether `curl` is properly installed by printing its version number. If this command evaluates into an error, PowerShell may have substituted this command with `Invoke-WebRequest`:
+
+`curl --version`
+
+- View documentation for the original `curl` command:
+
+`tldr curl -p common`
+
+- View documentation for PowerShell's `Invoke-WebRequest` command:
+
+`tldr invoke-webrequest`
+```
+
+### Environment variables
+
+For Windows command prompt, prepend and append the environment variable with a percent sign and enclose it with backticks (`%VARIABLE_NAME%`). For example: "Manage the `%JAVA_HOME%` environment variable".
+
+Whereas for Powershell, prepend the environment variable with a dollar sign, Env and a colon, then enclose it with backticks (`$Env:VARIABLE_NAME`). For example: "Manage the `$Env:JAVA_HOME` environment variable".
+
+### More information links
+
+If the link is related to PowerShell command documentation, remove the **documentation version indicator** (in which the version of PowerShell/module that the documentation is derived from), aka.
+the part of the address that starts with `?view=`.
+
+- Use <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string> instead of <https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/select-string?view=powershell-7.4>.
+- Use <https://learn.microsoft.com/powershell/module/powershellget/install-module> instead of <https://learn.microsoft.com/en-us/powershell/module/powershellget/install-module?view=powershellget-1.x>.
+
+### Paths
+
+If the command is specific to Windows, write paths with backslashes (`\`) instead of forward slashes (`/`), such as `{{path\to\file_or_directory}}`. Drive letters such as `C:` are optional unless the command input requires an absolute path
+or specific drive letter range, such as `cd /d {{C}}:{{path\to\directory}}`.
+
 ## Language and translation rules
 
 The below section contains additional language and translation-specific rules:
@@ -569,6 +591,11 @@ The below section contains additional language and translation-specific rules:
 ### General
 
 Do not translate `example.com`. The domain is [reserved by IANA for documentation purposes](https://www.iana.org/help/example-domains) and will not be leased to anyone. Translating the website name could put thoughtless users at risk.
+
+> [!IMPORTANT]
+> Only translate or update languages you can confidently read and proofread.
+> Avoid machine-generated or bulk edits across languages you do not know.
+> When you change an English page, it is fine to leave other languages untouched; native speakers and maintainers will sync them later by referring to the [translation dashboards](https://github.com/tldr-pages/tldr-maintenance/issues/127).
 
 ### English-Specific Rules
 

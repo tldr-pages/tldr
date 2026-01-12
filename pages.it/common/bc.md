@@ -1,6 +1,7 @@
 # bc
 
 > Calcolatore.
+> Vedi anche: `dc`, `qalc`.
 > Maggiori informazioni: <https://manned.org/bc>.
 
 - Esegui in modalità interattiva utilizzando la libreria math della standard library:

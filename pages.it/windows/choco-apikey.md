@@ -1,7 +1,7 @@
 # choco apikey
 
 > Gestisci le chiavi API per le fonti di Chocolatey.
-> Maggiori informazioni: <https://chocolatey.org/docs/commands-apikey>.
+> Maggiori informazioni: <https://docs.chocolatey.org/en-us/create/commands/api-key/>.
 
 - Mostra una lista di fonti e le loro chiavi API:
 
@@ -9,12 +9,12 @@
 
 - Mostra una specifica fonte e la sua chiave API:
 
-`choco apikey --source "{{url_della_fonte}}"`
+`choco apikey {{[-s|--source]}} "{{url_della_fonte}}"`
 
 - Imposta una chiave API per una fonte:
 
-`choco apikey --source "{{url_della_fonte}}" --key "{{chiave_api}}"`
+`choco apikey {{[-s|--source]}} "{{url_della_fonte}}" {{[-k|--api-key]}} "{{chiave_api}}"`
 
 - Rimuovi una chiave API per una fonte:
 
-`choco apikey --source "{{url_della_fonte}}" --remove`
+`choco apikey {{[-s|--source]}} "{{url_della_fonte}}" --remove`

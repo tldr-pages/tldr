@@ -1,7 +1,7 @@
 # adb shell pm
 
 > 安卓软件包管理工具。
-> 更多信息：<https://developer.android.com/tools/adb>.
+> 更多信息：<https://developer.android.com/tools/adb>。
 
 - 列出已安装的包：
 
@@ -9,7 +9,7 @@
 
 - 从指定路径，安装软件包：
 
-`adb shell pm install /{{路径/到/软件包.apk}}`
+`adb shell pm install /{{路径/到/软件包}}.apk`
 
 - 从设备卸载一个包：
 

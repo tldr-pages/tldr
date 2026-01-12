@@ -1,7 +1,7 @@
 # git checkout
 
 > 切换分支或将文件检出到工作区。
-> 更多信息：<https://git-scm.com/docs/git-checkout>.
+> 更多信息：<https://git-scm.com/docs/git-checkout>。
 
 - 创建并切换到新分支：
 

@@ -1,7 +1,7 @@
 # choco new
 
 > Générez de nouveaux fichiers de spécifications de package avec Chocolatey.
-> Plus d'informations : <https://chocolatey.org/docs/commands-new>.
+> Plus d'informations : <https://docs.chocolatey.org/en-us/create/commands/new/>.
 
 - Créer un nouveau squelette de package :
 
@@ -17,8 +17,8 @@
 
 - Créer un nouveau package dans un répertoire de sortie personnalisé :
 
-`choco new {{paquet}} --output-directory {{chemin/vers/répertoire}}`
+`choco new {{paquet}} {{[--out|--output-directory]}} {{chemin/vers/répertoire}}`
 
-- Créez un nouveau package avec des URL d'installation 32 bits et 64 bits spécifiques :
+- Créez un nouveau package avec des URL d'installation 32 bits et 64 bits spécifiques :
 
 `choco new {{paquet}} url="{{url}}" url64="{{url}}"`

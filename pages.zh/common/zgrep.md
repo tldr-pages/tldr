@@ -1,7 +1,7 @@
 # zgrep
 
 > 在压缩文件中从文件中 grep 文本模式（等价于 `grep -Z`）。
-> 更多信息：<https://manned.org/zgrep>.
+> 更多信息：<https://manned.org/zgrep>。
 
 - 在压缩文件中 grep 一个模式（区分大小写）：
 

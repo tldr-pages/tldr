@@ -1,6 +1,6 @@
 # Out-String
 
-> Outputs input objects as a string.
+> Output input objects as a string.
 > Note: This command can only be used through PowerShell.
 > More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/out-string>.
 

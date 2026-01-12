@@ -5,18 +5,17 @@
 /pages.es/ @kant
 /pages.fa/ @MrMw3
 /pages.fi/ @Managor
-/pages.fr/ @Nico385412 @nicokosi @noraj
-/pages.hi/ @kbdharun @debghs @karthik-script
+/pages.fr/ @nicokosi @noraj
+/pages.hi/ @kbdharun @debghs
 /pages.id/ @reinhart1010
 /pages.it/ @mebeim @tansiret @Magrid0 @SpikeTheDragon40k
-/pages.ko/ @IMHOJEONG @Zamoca42 @CodePsy-2001
 /pages.nl/ @sebastiaanspeck @leonvsc @Waples @dmmqz
 /pages.pl/ @acuteenvy @spageektti
 /pages.pt_BR/ @isaacvicente @renie
-/pages.ru/ @ivanbaluta
+/pages.ru/ @ivanbaluta @emmanuel-ferdman
 /pages.ta/ @kbdharun
 /pages.tr/ @tansiret
-/pages.zh/ @blueskyson @einverne @DustMerlin @zhb4
+/pages.zh/ @blueskyson @einverne @DustMerlin @zhb4 @BananaaaKING
 /pages.zh_TW/ @blueskyson @DustMerlin @zhb4
 
 /*.md @sbrl @kbdharun @sebastiaanspeck
@@ -31,19 +30,21 @@
 /contributing-guides/style-guide.md @sbrl @kbdharun @sebastiaanspeck
 /contributing-guides/translation-templates/ @kbdharun @sebastiaanspeck
 /contributing-guides/*.ar.md @MachiavelliII @ali90h
+/contributing-guides/*.bn.md @badhon495
+/contributing-guides/*.cs.md @Sarijen
 /contributing-guides/*.de.md @pixelcmtd @gutjuri
 /contributing-guides/*.es.md @kant
 /contributing-guides/*.fa.md @MrMw3
-/contributing-guides/*.fr.md @Nico385412 @nicokosi @noraj
-/contributing-guides/*.hi.md @kbdharun @debghs @karthik-script
+/contributing-guides/*.fi.md @Managor
+/contributing-guides/*.fr.md @nicokosi @noraj
+/contributing-guides/*.hi.md @kbdharun @debghs
 /contributing-guides/*.id.md @reinhart1010
-/contributing-guides/*.it.md @mebeim @tansiret @Magrid0
-/contributing-guides/*.ko.md @IMHOJEONG @Zamoca42 @CodePsy-2001
+/contributing-guides/*.it.md @mebeim @tansiret @Magrid0 @SpikeTheDragon40k
 /contributing-guides/*.nl.md @sebastiaanspeck @leonvsc @Waples @dmmqz
 /contributing-guides/*.pl.md @acuteenvy @spageektti
 /contributing-guides/*.pt_BR.md @isaacvicente @renie
-/contributing-guides/*.ru.md @ivanbaluta
+/contributing-guides/*.ru.md @ivanbaluta @emmanuel-ferdman
 /contributing-guides/*.ta.md @kbdharun
 /contributing-guides/*.tr.md @tansiret
-/contributing-guides/*.zh.md @blueskyson @einverne
-/contributing-guides/*.zh_TW.md @blueskyson
+/contributing-guides/*.zh.md @blueskyson @einverne @DustMerlin @zhb4 @BananaaaKING
+/contributing-guides/*.zh_TW.md @blueskyson @DustMerlin @zhb4

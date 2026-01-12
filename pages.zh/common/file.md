@@ -1,7 +1,8 @@
 # file
 
 > 确定文件类型。
-> 更多信息：<https://manned.org/file>.
+> 另请参阅：`stat`。
+> 更多信息：<https://manned.org/file>。
 
 - 提供指定文件类型的描述，对于没有文件扩展名的文件可以正常工作：
 

@@ -1,7 +1,8 @@
 # ranger
 
 > VI キーバインドのコンソールファイルマネージャー。
-> もっと詳しく: <https://github.com/ranger/ranger>。
+> 参照: `clifm`, `vifm`, `mc`, `dolphin`。
+> もっと詳しく: <https://github.com/ranger/ranger/blob/master/doc/ranger.pod>。
 
 - ranger を起動する:
 

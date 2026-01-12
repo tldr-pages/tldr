@@ -1,7 +1,7 @@
 # dvc diff
 
 > DVC로 추적된 파일과 디렉토리의 변경 사항을 표시.
-> 더 많은 정보: <https://dvc.org/doc/command-reference/diff>.
+> 더 많은 정보: <https://doc.dvc.org/command-reference/diff>.
 
 - 다른 Git 커밋, 태그, 브랜치와 현재 작업 공간을 기준으로 DVC로 추적된 파일 비교:
 

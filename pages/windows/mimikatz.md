@@ -32,6 +32,6 @@
 
 `mimikatz "kerberos::list /export"`
 
-- Exit mimikatz:
+- [Interactive] Exit mimikatz:
 
 `exit`

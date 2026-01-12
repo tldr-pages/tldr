@@ -9,7 +9,7 @@
 
 - Remove all untracked files:
 
-`conda package {{[-r|--reset}}`
+`conda package {{[-r|--reset]}}`
 
 - Display all untracked files:
 

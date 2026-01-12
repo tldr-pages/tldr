@@ -1,7 +1,8 @@
 # hexyl
 
 > Un simple visor hexadecimal para la terminal. Utiliza salida coloreada para distinguir diferentes categorías de bytes.
-> Más información: <https://github.com/sharkdp/hexyl>.
+> Vea también: `od`, `xxd`, `hexdump`.
+> Más información: <https://github.com/sharkdp/hexyl/blob/master/doc/hexyl.1.md>.
 
 - Imprime la representación hexadecimal de un archivo:
 

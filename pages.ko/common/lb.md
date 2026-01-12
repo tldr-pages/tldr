@@ -2,7 +2,7 @@
 
 > 현재 디렉토리에 있는 블로그를 관리.
 > 명령어 실행 시 상호 작용을 통해 작업할 초안과 게시글을 선택.
-> 더 많은 정보: <https://github.com/LukeSmithxyz/lb>.
+> 더 많은 정보: <https://github.com/LukeSmithxyz/lb#usage>.
 
 - 새 초안 작성:
 

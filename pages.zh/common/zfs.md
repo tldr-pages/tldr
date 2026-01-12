@@ -1,7 +1,7 @@
 # zfs
 
 > 管理 ZFS 文件系统。
-> 更多信息：<https://manned.org/zfs>.
+> 更多信息：<https://manned.org/zfs>。
 
 - 列出所有可用的 ZFS 文件系统：
 

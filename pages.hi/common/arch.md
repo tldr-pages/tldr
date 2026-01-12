@@ -1,9 +1,7 @@
 # arch
 
-> सिस्टम आर्किटेक्चर का नाम प्रदर्शित करें।
-> `uname` भी देखें।
-> अधिक जानकारी: <https://www.gnu.org/software/coreutils/manual/html_node/arch-invocation.html>।
+> यह आदेश `uname --machine` का उपनाम है।
 
-- सिस्टम आर्किटेक्चर प्रदर्शित करें:
+- मूल आदेश के लिए दस्तावेज़ देखें:
 
-`arch`
+`tldr uname`

@@ -2,7 +2,7 @@
 
 > A reactive Python notebook environment.
 > Combines features of Jupyter, Streamlit, and other notebook tools with reactive execution.
-> More information: <https://docs.marimo.io/cli>.
+> More information: <https://docs.marimo.io/cli/>.
 
 - Create or edit notebooks by starting a marimo server:
 

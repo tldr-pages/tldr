@@ -1,7 +1,7 @@
 # a2enmod
 
 > Nyalakan suatu modul piranti peladen Apache dalam sistem operasi berbasis Debian.
-> Informasi lebih lanjut: <https://manned.org/a2enmod.8>.
+> Informasi lebih lanjut: <https://manned.org/a2enmod>.
 
 - Nyalakan suatu modul:
 

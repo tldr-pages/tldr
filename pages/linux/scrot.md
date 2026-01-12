@@ -1,7 +1,7 @@
 # scrot
 
 > Screen capture utility.
-> More information: <https://github.com/resurrecting-open-source-projects/scrot>.
+> More information: <https://manned.org/scrot>.
 
 - Capture a screenshot and save it to the current directory with the current date as the filename:
 
@@ -9,24 +9,24 @@
 
 - Capture a screenshot and save it as `capture.png`:
 
-`scrot {{capture.png}}`
+`scrot capture.png`
 
 - Capture a screenshot interactively:
 
-`scrot --select`
+`scrot {{[-s|--select]}}`
 
 - Capture a screenshot interactively without exiting on keyboard input, press `<Esc>` to exit:
 
-`scrot --select --ignorekeyboard`
+`scrot {{[-is|--ignorekeyboard --select]}}`
 
 - Capture a screenshot interactively delimiting the region with a colored line:
 
-`scrot --select --line color={{x11_color|rgb_color}}`
+`scrot {{[-s|--select]}} {{[-l|--line]}} color={{x11_color|rgb_color}}`
 
 - Capture a screenshot from the currently focused window:
 
-`scrot --focused`
+`scrot {{[-u|--focused]}}`
 
 - Display a countdown of 10 seconds before taking a screenshot:
 
-`scrot --count --delay {{10}}`
+`scrot {{[-c|--count]}} {{[-d|--delay]}} 10`

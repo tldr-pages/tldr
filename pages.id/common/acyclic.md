@@ -1,7 +1,7 @@
 # acyclic
 
 > Jadikan gambaran grafik berarah (dalam Graphviz) menjadi asiklik dengan memutarbalikkan beberapa garis tepi.
-> Daftar filter Graphviz: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, & `unflatten`.
+> Daftar filter Graphviz: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, dan `unflatten`.
 > Informasi lebih lanjut: <https://graphviz.org/pdf/acyclic.1.pdf>.
 
 - Ubah grafik berarah menjadi asiklik dengan membalikkan beberapa garis tepi:

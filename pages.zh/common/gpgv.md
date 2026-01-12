@@ -1,7 +1,8 @@
 # gpgv
 
 > 验证 OpenPGP 签名。
-> 更多信息：<https://www.gnupg.org/documentation/manuals/gnupg/gpgv.html>.
+> 另请参阅：`gpg`。
+> 更多信息：<https://www.gnupg.org/documentation/manuals/gnupg/gpgv.html>。
 
 - 验证签名文件：
 

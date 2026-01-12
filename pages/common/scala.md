@@ -1,7 +1,7 @@
 # scala
 
 > Scala application launcher and interactive interpreter.
-> More information: <https://scala-cli.virtuslab.org/docs/reference/cli-options>.
+> More information: <https://scala-cli.virtuslab.org/docs/reference/cli-options/>.
 
 - Start a REPL (interactive shell):
 
@@ -19,6 +19,6 @@
 
 `scala {{filename.jar}}`
 
-- Execute a single Scala command in the command-line:
+- Execute a single Scala command:
 
 `scala {{[-e|--execute-script]}} {{command}}`

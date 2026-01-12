@@ -1,7 +1,7 @@
 # choco upgrade
 
 > Chocolatey로 하나 이상의 패키지를 업그레이드.
-> 더 많은 정보: <https://chocolatey.org/docs/commands-upgrade>.
+> 더 많은 정보: <https://docs.chocolatey.org/en-us/choco/commands/upgrade/>.
 
 - 하나 이상의 패키지 업그레이드:
 

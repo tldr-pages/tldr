@@ -1,13 +1,13 @@
 # cmark
 
 > Converte testo CommonMark Markdown in altri formati.
-> Maggiori informazioni: <https://github.com/commonmark/cmark>.
+> Maggiori informazioni: <https://manned.org/cmark>.
 
 - Converti un file Markdown in HTML:
 
 `cmark --to html {{file.md}}`
 
-- Converti in LaTeX da standard input:
+- Converti in LaTeX da `stdin`:
 
 `cmark --to latex`
 

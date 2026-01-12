@@ -2,7 +2,7 @@
 
 > 2개의 루트 파티션 상태(A⟺B) 간 트랜잭션을 통해 완전한 불변성과 원자성을 제공하는 유틸리티.
 > 항상 시스템이 일관된 상태를 유지하도록 OCI 이미지를 사용하여 업데이트를 수행합니다.
-> 더 많은 정보: <https://github.com/Vanilla-OS/ABRoot>.
+> 더 많은 정보: <https://docs.vanillaos.org/docs/en/abroot-manpage>.
 
 - 로컬 이미지에 패키지 추가 (참고: 이 명령을 실행한 후 변경 사항을 적용해야 합니다):
 
@@ -34,4 +34,4 @@
 
 - 도움말 표시:
 
-`abroot --help`
+`abroot {{[-h|--help]}}`

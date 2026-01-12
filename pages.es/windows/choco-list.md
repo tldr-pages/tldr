@@ -1,7 +1,7 @@
 # choco list
 
 > Muestra una lista de paquetes con Chocolatey.
-> Más información: <https://chocolatey.org/docs/commands-list>.
+> Más información: <https://docs.chocolatey.org/en-us/choco/commands/list/>.
 
 - Mostrar todos los paquetes disponibles:
 
@@ -13,7 +13,7 @@
 
 - Mostrar una lista que incluya programas locales:
 
-`choco list --include-programs`
+`choco list {{[-i|--include-programs]}}`
 
 - Mostrar solo paquetes aprobados:
 
@@ -21,7 +21,7 @@
 
 - Especificar una fuente personalizada para mostrar paquetes:
 
-`choco list --source {{url_fuente|alias}}`
+`choco list {{[-s|--source]}} {{url_fuente|alias}}`
 
 - Proporcionar un nombre de usuario y una contraseña para la autenticación:
 

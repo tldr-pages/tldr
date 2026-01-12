@@ -1,7 +1,7 @@
 # doctl databases firewalls
 
 > 데이터베이스 클러스터의 방화벽을 관리.
-> 더 많은 정보: <https://docs.digitalocean.com/reference/doctl/reference/databases/firewalls>.
+> 더 많은 정보: <https://docs.digitalocean.com/reference/doctl/reference/databases/firewalls/>.
 
 - 액세스 토큰을 사용하여 `doctl databases firewalls` 명령을 실행:
 

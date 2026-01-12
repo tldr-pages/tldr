@@ -15,7 +15,7 @@
 
 `export -f {{FUNCTIE_NAAM}}`
 
-- Voeg een pad toe aan de omgevingsvariabele `PATH`:
+- Voeg een pad toe aan de omgevingsvariabele `$PATH`:
 
 `export PATH=$PATH:{{pad/om/toe_te_voegen}}`
 

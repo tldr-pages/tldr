@@ -1,7 +1,7 @@
 # makepasswd
 
 > Generate and encrypt passwords.
-> More information: <https://manpages.debian.org/latest/makepasswd/makepasswd.1.en.html>.
+> More information: <https://manned.org/makepasswd>.
 
 - Generate a random password (8 to 10 characters long, containing letters and numbers):
 
@@ -15,6 +15,6 @@
 
 `makepasswd --minchars {{5}} --maxchars {{10}}`
 
-- Generate a password containing only the characters "b", "a" or "r":
+- Generate a password containing only the characters "b", "a", or "r":
 
 `makepasswd --string {{bar}}`

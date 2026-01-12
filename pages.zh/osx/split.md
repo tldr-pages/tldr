@@ -1,13 +1,13 @@
 # split
 
 > 把一个文件拆分成几块。
-> 更多信息：<https://keith.github.io/xcode-man-pages/split.1.html>.
+> 更多信息：<https://keith.github.io/xcode-man-pages/split.1.html>。
 
 - 分割一个文件，每个分割部分有 10 行（除了最后一个）：
 
 `split -l 10 {{路径/到/文件}}`
 
-- 用正则表达式拆分文件。匹配行将是下一个输出文件的第一行：
+- 用`regex`式拆分文件。匹配行将是下一个输出文件的第一行：
 
 `split -p {{cat|^[dh]og}} {{路径/到/文件}}`
 

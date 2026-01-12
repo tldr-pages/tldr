@@ -25,7 +25,7 @@
 
 - Delete untracked files except those matching the given patterns:
 
-`git clean {{[-f|--force]}} {{[-e|--exclude]}} {{'*.ext'}} {{[-e|--exclude]}} {{path/to/directory}}/`
+`git clean {{[-f|--force]}} {{[-e|--exclude]}} '{{*.ext}}' {{[-e|--exclude]}} {{path/to/directory}}/`
 
 - Delete untracked files and e[x]cluded files (those listed in `.gitignore` and `.git/info/exclude`):
 

@@ -1,7 +1,7 @@
 # htmlq
 
 > Utiliza selectores CSS para extraer contenido de archivos HTML.
-> Más información: <https://github.com/mgdm/htmlq>.
+> Más información: <https://github.com/mgdm/htmlq#usage>.
 
 - Devuelve todos los elementos de la clase `card`:
 
@@ -21,4 +21,4 @@
 
 - Impresión bonita y escritura de la salida en un archivo:
 
-`htmlq --pretty --filename {{ruta/a/archivo.html}} --output {{ruta/a/salida.html}}`
+`htmlq --pretty --filename {{ruta/al/archivo.html}} --output {{ruta/a/salida.html}}`

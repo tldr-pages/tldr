@@ -1,6 +1,7 @@
 # parallel
 
 > Run commands on multiple CPU cores.
+> See also: `xargs`.
 > More information: <https://www.gnu.org/software/parallel/man.html>.
 
 - Gzip several files at once, using all cores:
@@ -29,7 +30,7 @@
 
 - Download 4 files simultaneously from a text file containing links showing progress:
 
-`parallel {{[-j|--jobs]}} 4 --bar --eta wget {{[-q|--quote]}} {} :::: {{path/to/links.txt}}`
+`parallel {{[-j|--jobs]}} 4 --bar --eta curl {{[-sO|--silent --remote-name]}} {} :::: {{path/to/links.txt}}`
 
 - Print the jobs which `parallel` is running in `stderr`:
 

@@ -1,7 +1,7 @@
 # mp4box
 
 > MPEG-4 Systems Toolbox: muxe streams into MP4 container.
-> More information: <https://gpac.wp.imt.fr/mp4box>.
+> More information: <https://github.com/gpac/gpac/wiki/Fragmentation,-segmentation,-splitting-and-interleaving>.
 
 - Display information about an existing MP4 file:
 

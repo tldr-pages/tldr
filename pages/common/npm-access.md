@@ -1,7 +1,7 @@
 # npm access
 
 > Set access level on published packages.
-> More information: <https://docs.npmjs.com/cli/npm-access>.
+> More information: <https://docs.npmjs.com/cli/npm-access/>.
 
 - List packages for a user or scope:
 

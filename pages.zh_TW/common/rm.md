@@ -1,7 +1,8 @@
 # rm
 
 > 移除檔案或目錄。
-> 更多資訊：<https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>.
+> 另請參閱：`rmdir`, `trash`。
+> 更多資訊：<https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>。
 
 - 移除位於指定路徑的檔案：
 

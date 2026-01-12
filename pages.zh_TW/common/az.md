@@ -1,8 +1,8 @@
 # az
 
 > Microsoft Azure 的官方客戶端工具。
-> 此命令也有關於其子命令的文件，例如：`login`.
-> 更多資訊：<https://learn.microsoft.com/cli/azure/reference-index>.
+> 此命令也有關於其子命令的文件，例如：`login`。
+> 更多資訊：<https://learn.microsoft.com/cli/azure/reference-index>。
 
 - 登入到 Azure：
 

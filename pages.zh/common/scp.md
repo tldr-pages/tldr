@@ -2,7 +2,7 @@
 
 > 安全的复制文件。
 > 使用 SSH 上的安全复制协议在主机之间复制文件。
-> 更多信息：<https://man.openbsd.org/scp>.
+> 更多信息：<https://man.openbsd.org/scp>。
 
 - 将本地文件复制到远程主机：
 

@@ -1,7 +1,7 @@
 # rabbitmqctl-users
 
 > Manage RabbitMQ users, their permissions, and tags.
-> More information: <https://www.rabbitmq.com/management.html>.
+> More information: <https://www.rabbitmq.com/docs/management>.
 
 - List all users:
 

@@ -1,7 +1,7 @@
 # just
 
 > Sla op en run project-specifieke commands uit.
-> Meer informatie: <https://github.com/casey/just>.
+> Meer informatie: <https://manned.org/just>.
 
 - Voer een recept uit dat gespecificeerd is in een justfile:
 

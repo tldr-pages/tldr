@@ -1,7 +1,8 @@
 # powershell
 
 > Sebuah syel/shell dan bahasa pemrograman berbasis naskah/script yang dirancang untuk administrasi sistem komputer.
-> Perintah ini merujuk kepada PowerShell versi 5.1 ke bawah (juga dikenal sebagai PowerShell bawaan Windows). Gunakan perintah `pwsh` daripada `powershell` untuk menggunakan PowerShell versi terkini (6.0 ke atas) yang tersedia lintas sistem operasi.
+> Perintah ini merujuk kepada PowerShell versi 5.1 ke bawah (juga dikenal sebagai PowerShell bawaan Windows).
+> Gunakan perintah `pwsh` daripada `powershell` untuk menggunakan PowerShell versi terkini (6.0 ke atas) yang tersedia lintas sistem operasi.
 > Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administration/windows-commands/powershell>.
 
 - Jalankan sesi PowerShell interaktif baru:

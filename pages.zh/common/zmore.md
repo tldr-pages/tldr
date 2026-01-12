@@ -1,7 +1,7 @@
 # zmore
 
 > 使用 `more` 查看 `gzip` 压缩文件。
-> 更多信息：<https://manned.org/zmore>.
+> 更多信息：<https://manned.org/zmore>。
 
 - 打开一个压缩文件：
 

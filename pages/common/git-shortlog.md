@@ -19,10 +19,10 @@
 
 `git shortlog HEAD~5..HEAD`
 
-- View all users, emails and the number of commits in the current branch:
+- View all users, emails, and the number of commits in the current branch:
 
 `git shortlog {{[-s|--summary]}} {{[-n|--numbered]}} {{[-e|--email]}}`
 
-- View all users, emails and the number of commits in all branches:
+- View all users, emails, and the number of commits in all branches:
 
 `git shortlog {{[-s|--summary]}} {{[-n|--numbered]}} {{[-e|--email]}} --all`

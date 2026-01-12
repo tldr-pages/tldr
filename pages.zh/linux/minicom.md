@@ -1,7 +1,7 @@
 # minicom
 
 > 与设备的串行接口进行通信。
-> 更多信息：<https://manned.org/minicom>.
+> 更多信息：<https://manned.org/minicom>。
 
 - 打开给定的串行端口：
 

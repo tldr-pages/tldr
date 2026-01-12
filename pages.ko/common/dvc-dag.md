@@ -1,7 +1,7 @@
 # dvc dag
 
 > `dvc.yaml`에 정의된 파이프라인을 시각화.
-> 더 많은 정보: <https://dvc.org/doc/command-reference/dag>.
+> 더 많은 정보: <https://doc.dvc.org/command-reference/dag>.
 
 - 전체 파이프라인 시각화:
 

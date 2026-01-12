@@ -1,6 +1,7 @@
 # browsh
 
 > Vea páginas web en el terminal utilizando un backend de Firefox.
+> Vea también: `carbonyl`.
 > Más información: <https://www.brow.sh/docs/keybindings/>.
 
 - Inicia browsh:

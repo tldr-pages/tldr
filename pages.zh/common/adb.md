@@ -1,8 +1,8 @@
 # adb
 
 > 安卓调试桥：与 Android 模拟器或已连接的 Android 设备通信。
-> 此命令也有关于其子命令的文件，例如：`shell`.
-> 更多信息：<https://developer.android.com/tools/adb>.
+> 此命令也有关于其子命令的文件，例如：`shell`。
+> 更多信息：<https://developer.android.com/tools/adb>。
 
 - 检查 adb server 进程的是否在运行，并开启它：
 
@@ -18,7 +18,7 @@
 
 - 将 Android 应用程序推送到模拟器 / 设备：
 
-`adb install -r {{路径/到/应用.apk}}`
+`adb install -r {{路径/到/应用}}.apk`
 
 - 从目标设备上拷贝一个文件 / 目录到本地：
 

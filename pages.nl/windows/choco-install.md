@@ -1,7 +1,7 @@
 # choco install
 
 > Installeer een of meerdere pakketen met Chocolatey.
-> Meer informatie: <https://chocolatey.org/docs/commands-install>.
+> Meer informatie: <https://docs.chocolatey.org/en-us/choco/commands/install/>.
 
 - Installeer een of meerdere spatie-gescheiden pakketten:
 
@@ -11,7 +11,7 @@
 
 `choco install {{pad\naar\pakketten_bestand.config}}`
 
-- Installeer een specifiek `nuspec` of `nupkg` bestand:
+- Installeer een specifiek `.nuspec` of `.nupkg` bestand:
 
 `choco install {{pad\naar\bestand}}`
 

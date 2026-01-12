@@ -1,7 +1,7 @@
 # vault
 
 > HashiCorp Vault와 상호작용.
-> 더 많은 정보: <https://www.vaultproject.io/docs/commands>.
+> 더 많은 정보: <https://developer.hashicorp.com/vault/docs/commands>.
 
 - Vault 서버에 연결하고 새로운 암호화 데이터 저장소 초기화:
 

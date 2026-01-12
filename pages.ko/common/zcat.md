@@ -1,12 +1,7 @@
 # zcat
 
-> `gzip` 압축 파일의 데이터를 출력.
-> 더 많은 정보: <https://www.gnu.org/software/gzip/manual/gzip.html>.
+> 이 명령은 `gzip --stdout --decompress` 의 에일리어스 (별칭) 입니다.
 
-- `gzip` 아카이브의 압축 해제된 내용을 `stdout`에 출력:
+- 원본 명령의 도큐멘테이션 (설명서) 보기:
 
-`zcat {{file.txt.gz}}`
-
-- `gzip` 아카이브의 압축 세부 정보를 `stdout`에 출력:
-
-`zcat -l {{file.txt.gz}}`
+`tldr gzip`
