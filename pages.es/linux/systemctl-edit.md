@@ -1,6 +1,7 @@
 # systemctl edit
 
 > Edita archivos de unidad de systemd.
+> Vea también: `systemctl revert`.
 > Más información: <https://www.freedesktop.org/software/systemd/man/systemctl.html#edit%20UNIT%E2%80%A6>.
 
 - Superpone un archivo de unidad de forma no destructiva:
