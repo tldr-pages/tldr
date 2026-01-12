@@ -2,6 +2,6 @@
 
 > Bu komut `grep --fixed-strings` için bir takma addır.
 
-- Asıl komutun belgelerini görüntüleyin:
+- Asıl komutun dokümantasyonunu görüntüleyin:
 
 `tldr grep`

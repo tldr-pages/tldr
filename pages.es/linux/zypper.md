@@ -5,24 +5,24 @@
 
 - Sincroniza la lista de paquetes y versiones disponibles:
 
-`zypper refresh`
+`sudo zypper {{[ref|refresh]}}`
 
 - Instala un nuevo paquete:
 
-`zypper install {{paquete}}`
+`sudo zypper {{[in|install]}} {{paquete}}`
 
 - Elimina un paquete:
 
-`zypper remove {{paquete}}`
+`sudo zypper {{[rm|remove]}} {{paquete}}`
 
 - Actualiza los paquetes instalados a la versión más reciente disponible:
 
-`zypper update`
+`sudo zypper {{[up|update]}}`
 
 - Busca en los repositorios un paquete mediante una palabra clave:
 
-`zypper search {{palabra_clave}}`
+`zypper {{[se|search]}} {{palabra_clave}}`
 
 - Muestra información relacionada con los repositorios configurados:
 
-`zypper repos --sort-by-priority`
+`zypper {{[lr|repos]}} --sort-by-priority`

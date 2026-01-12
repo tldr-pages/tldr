@@ -2,6 +2,6 @@
 
 > Bu komut `xz --decompress --stdout` için bir takma addır.
 
-- Asıl komutun belgelerini görüntüleyin:
+- Asıl komutun dokümantasyonunu görüntüleyin:
 
 `tldr xz`

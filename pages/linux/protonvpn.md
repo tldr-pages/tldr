@@ -1,33 +1,29 @@
 # protonvpn
 
-> Unofficial third-party ProtonVPN client.
-> See also: `protonvpn-connect`.
-> More information: <https://github.com/Rafficer/linux-cli-community>.
+> Official Proton VPN client.
+> Some subcommands such as `connect` have their own usage documentation.
+> More information: <https://protonvpn.com/support/linux-cli#how-to-use-the-cli-for-linux>.
 
-- Initialize ProtonVPN profile:
+- Initialize Proton VPN profile:
 
-`protonvpn init`
+`protonvpn signin`
 
-- Connect to ProtonVPN interactively:
+- Remove account credentials:
 
-`protonvpn {{c|connect}}`
+`protonvpn signout`
 
-- Display connection status:
+- Display Proton VPN account information:
 
-`protonvpn {{s|status}}`
+`protonvpn info`
 
-- Disconnect from ProtonVPN:
+- Connect to Proton VPN interactively:
 
-`protonvpn {{d|disconnect}}`
+`protonvpn connect`
 
-- Reconnect or connect to the last server used:
+- Disconnect from Proton VPN:
 
-`protonvpn {{r|reconnect}}`
+`protonvpn disconnect`
 
-- Refresh OpenVPN configuration and server data:
+- Display help:
 
-`protonvpn refresh`
-
-- Display help for a subcommand:
-
-`protonvpn {{subcommand}} --help`
+`protonvpn {{[-h|--help]}}`
