@@ -1,6 +1,6 @@
 # jj config unset
 
-> Remove a config option from a jj config file.
+> Unset a config option.
 > See also: `jj config set`.
 > More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-config-unset>.
 

@@ -1,6 +1,6 @@
 # jj config path
 
-> Print the path to a jj config file.
+> Print the paths to the config files.
 > See also: `jj config edit`.
 > More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-config-path>.
 

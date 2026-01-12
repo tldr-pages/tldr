@@ -1,6 +1,6 @@
 # jj config set
 
-> Update a config file to set an option to a given value.
+> Set a config option to a given value.
 > The value is specified as a TOML expression.
 > See also: `jj config unset`.
 > More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-config-set>.
