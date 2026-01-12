@@ -1,7 +1,7 @@
 # systemctl exit
 
 > Ask the service manager to quit.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#exit%20EXIT_CODE>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#exit%20EXIT_CODE>.
 
 - Exit the user service manager:
 

@@ -1,7 +1,7 @@
 # systemctl cat
 
 > Show the full contents of unit files as systemd sees them.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#cat%20PATTERN%E2%80%A6>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#cat%20PATTERN%E2%80%A6>.
 
 - Show the contents and absolute path of a unit file:
 
