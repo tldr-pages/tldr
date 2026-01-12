@@ -1,7 +1,7 @@
 # hyprsunset
 
 > A blue light filter for Hyprland.
-> Controlled by the config file ~/.config/hypr/hyprsunset.conf.
+> Controlled by the config file `~/.config/hypr/hyprsunset.conf`.
 > This file is not required for running hyprsunset, but is recommended.
 > More information: <https://wiki.hypr.land/Hypr-Ecosystem/hyprsunset/>.
 
