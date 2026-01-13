@@ -2,7 +2,7 @@
 
 > Compile YARA rule source files into a binary format for faster loading.
 > See also: `yara`.
-> More information: <https://manned.org/man/yarac>.
+> More information: <https://manned.org/yarac>.
 
 - Compile a specific rule file:
 
