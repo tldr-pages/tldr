@@ -22,7 +22,7 @@
 
 - [d]elete lines 1 to 5 of a file and back up the original file with a `.orig` extension:
 
-`sed {{[-i|--in-place=]}}{{.orig}} '1,5d' {{path/to/file}}`
+`sed {{[-i|--in-place=]}}.orig '1,5d' {{path/to/file}}`
 
 - [p]rint only the first line to `stdout`:
 
