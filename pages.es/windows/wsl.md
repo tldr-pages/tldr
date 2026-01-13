@@ -3,7 +3,7 @@
 > Administra el Subsistema de Windows para Linux.
 > Más información: <https://learn.microsoft.com/windows/wsl/reference>.
 
-- Iniciar un shell de Linux (usando la distribución predeterminada):
+- Inicia un intérprete de comandos de Linux (usando la distribución predeterminada):
 
 `wsl {{comando_de_shell}}`
 
