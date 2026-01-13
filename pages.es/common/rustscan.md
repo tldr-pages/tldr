@@ -1,6 +1,7 @@
 # rustscan
 
 > Escáner de puertos rápido, escrito en Rust integrado con `nmap`.
+> Nota: Para que algunos de los ejemplos siguientes funcionen, es necesario tener instalado `nmap`.
 > Vea también: `hping3`, `masscan`, `naabu`, `nmap`, `zmap`.
 > Más información: <https://github.com/bee-san/RustScan/wiki>.
 
