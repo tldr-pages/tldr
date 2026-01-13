@@ -27,7 +27,7 @@
 
 - Escanea internet en busca de servidores DNS que se ejecutan en el puerto UDP 53:
 
-`masscan {{0.0.0.0/0}} {{[-p|--ports]}} {{U:53}} --rate {{10000000}}`
+`masscan {{0.0.0.0/0}} {{[-p|--ports]}} U:53 --rate {{10000000}}`
 
 - Escanea internet en busca de un rango de puertos específico y exporta los resultados a un archivo:
 
