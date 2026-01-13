@@ -7,19 +7,19 @@
 
 `wsl {{comando_de_shell}}`
 
-- Ejecutar un comando de Linux sin usar un shell:
+- Ejecuta un comando de Linux sin usar un intérprete de comandos:
 
 `wsl {{[-e|--exec]}} {{comando}} {{argumentos_del_comando}}`
 
-- Especificar una distribución particular:
+- Especifica una distribución particular:
 
 `wsl {{[-d|--distribution]}} {{distribución}} {{comando_de_shell}}`
 
-- Listar las distribuciones disponibles:
+- Lista las distribuciones disponibles:
 
 `wsl {{[-l|--list]}}`
 
-- Exportar una distribución a un archivo `.tar`:
+- Exporta una distribución a un archivo `.tar`:
 
 `wsl --export {{distribución}} {{ruta\a\archivo_de_distribucion.tar}}`
 
