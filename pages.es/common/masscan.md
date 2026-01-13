@@ -9,7 +9,7 @@
 
 `masscan {{ip_address|network_prefix}} {{[-p|--ports]}} {{80}}`
 
-- Escanea una subred de clase B en busca de los 100 puertos principales a 100 000 paquetes por segundo: 
+- Escanea una subred de clase B en busca de los 100 puertos principales a 100,000 paquetes por segundo: 
 
 `masscan {{10.0.0.0/16}} --top-ports {{100}} --rate {{100000}}`
 
