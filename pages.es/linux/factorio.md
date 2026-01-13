@@ -5,15 +5,15 @@
 
 - Crea un nuevo archivo de guardado:
 
-`{{ruta/a/factorio}} --create {{ruta/al/archivo_guardado.zip}}`
+`{{ruta/a}}/factorio --create {{ruta/al/archivo_guardado.zip}}`
 
 - Inicia un servidor de Factorio:
 
-`{{ruta/a/factorio}} --start-server {{ruta/al/archivo_guardado.zip}}`
+`{{ruta/a}}/factorio --start-server {{ruta/al/archivo_guardado.zip}}`
 
 - Crea un nuevo archivo de guardado con ajustes específicos:
 
-`{{ruta/a/factorio}} --create {{ruta/para/guardar.zip}} --map-gen-settings {{ruta/a/map-gen-settings.json}} --map-settings {{ruta/a/map-settings.json}}`
+`{{ruta/a}}/factorio --create {{ruta/para/guardar.zip}} --map-gen-settings {{ruta/a/map_gen_settings.json}} --map-settings {{ruta/a/map_settings.json}}`
 
 - Cierra el servidor correctamente:
 
@@ -21,4 +21,4 @@
 
 - Muestra la ayuda:
 
-`{{ruta/a/factorio}} {{[-h|--help]}}`
+`{{ruta/a}}/factorio {{[-h|--help]}}`
