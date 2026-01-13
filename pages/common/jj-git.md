@@ -1,7 +1,7 @@
 # jj git
 
 > Run Git-related commands for a `jj` repository.
-> More information: <https://jj-vcs.github.io/jj/latest/cli-reference/#jj-git>.
+> More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-git>.
 
 - Create a new Git backed repository:
 

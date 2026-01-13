@@ -1,7 +1,7 @@
 # systemctl log-level
 
 > Get or set the log level of the systemd manager.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#log-level%20[LEVEL]>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#log-level%20%5BLEVEL%5D>.
 
 - Show the current log level of the systemd manager:
 
