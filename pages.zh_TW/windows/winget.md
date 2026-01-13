@@ -5,11 +5,11 @@
 
 - 安裝一個套件：
 
-`winget install {{套件}}`
+`winget {{[add|install]}} {{套件}}`
 
 - 刪除一個套件（註：可以用 `remove` 代替 `uninstall`）：
 
-`winget uninstall {{package}}`
+`winget {{[rm|uninstall]}} {{package}}`
 
 - 顯示指定套件的相關資訊：
 
@@ -21,16 +21,16 @@
 
 - 升級所有套件至最新版本：
 
-`winget upgrade --all`
+`winget upgrade {{[-r|--all]}}`
 
 - 列出所有可由 `winget` 管理的已安裝套件：
 
-`winget list --source winget`
+`winget {{[ls|list]}} {{[-s|--source]}} winget`
 
 - 從檔案匯入套件，或將已安裝的套件匯出至檔案：
 
-`winget {{import|export}} {{--import-file|--output}} {{檔案/完整/路徑}}`
+`winget {{import|export}} {{--import-file|--output}} {{檔案\完整\路徑}}`
 
 - 在提交 PR 到 winget-pkgs 存儲庫之前，請驗證 manifest 檔：
 
-`winget validate {{manifest檔案/完整/路徑}}`
+`winget validate {{manifest檔案\完整\路徑}}`
