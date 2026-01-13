@@ -23,7 +23,7 @@
 
 - Escanea internet en busca de servidores web que se ejecutan en los puertos 80 y 443:
 
-`masscan {{0.0.0.0/0}} {{[-p|--ports]}} {{80,443}} --rate {{10000000}}`
+`masscan {{0.0.0.0/0}} {{[-p|--ports]}} 80,443 --rate {{10000000}}`
 
 - Escanea internet en busca de servidores DNS que se ejecutan en el puerto UDP 53:
 
