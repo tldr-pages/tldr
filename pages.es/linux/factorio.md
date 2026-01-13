@@ -15,7 +15,7 @@
 
 `{{ruta/a}}/factorio --create {{ruta/para/guardar.zip}} --map-gen-settings {{ruta/a/map_gen_settings.json}} --map-settings {{ruta/a/map_settings.json}}`
 
-- Cierra el servidor correctamente:
+- [Interactivo] Cierra el servidor correctamente:
 
 `/quit`
 
