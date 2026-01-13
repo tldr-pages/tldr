@@ -13,7 +13,7 @@
 
 - Create a new save file with specific settings:
 
-`{{path/to}}/factorio --create {{path/to/save.zip}} --map-gen-settings {{path/to/map-gen-settings.json}} --map-settings {{path/to/map-settings.json}}`
+`{{path/to}}/factorio --create {{path/to/save.zip}} --map-gen-settings {{path/to/map_gen_settings.json}} --map-settings {{path/to/map_settings.json}}`
 
 - [Interactive] Shut the server gracefully:
 
