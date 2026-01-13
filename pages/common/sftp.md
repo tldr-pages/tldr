@@ -33,6 +33,6 @@
 
 `lls`
 
-- [Interactive] et list of files on remote machine:
+- [Interactive] Get list of files on remote machine:
 
 `ls`
