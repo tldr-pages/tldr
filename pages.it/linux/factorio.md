@@ -15,7 +15,7 @@
 
 `{{percorso/a}}/factorio --create {{percorso/a/save.zip}} --map-gen-settings {{percorso/al/map_gen_settings.json}} --map-settings {{percorso/al/map_settings.json}}`
 
-- Arresta il server in modo elegante:
+- [Interattivo] Arresta il server in modo elegante:
 
 `/quit`
 
