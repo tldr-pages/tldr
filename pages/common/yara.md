@@ -18,16 +18,16 @@
 
 - Print metadata associated with the matching rules:
 
-`yara {{[-m|--print-meta]}} {{path/to/rule.yar}} {{path/to/target}}`
+`yara {{[-m|--print-meta]}} {{path/to/rule.yar}} {{path/to/file}}`
 
 - Print the strings that caused the rule to match:
 
-`yara {{[-s|--print-strings]}} {{path/to/rule.yar}} {{path/to/target}}`
+`yara {{[-s|--print-strings]}} {{path/to/rule.yar}} {{path/to/file}}`
 
-- Use a specific number of threads for parallel scanning with the rules in a directory:
+- Use a specific number of threads for parallel scanning:
 
 `yara {{[-p|--threads]}} {{number_of_threads}} {{path/to/rule.yar}} {{path/to/directory}}`
 
-- Use compiled YARA rule files to scan a directory recursively:
+- Use compiled YARA rules file to scan a directory recursively:
 
-`yara {{[-C|--compiled-rules]}} {{path/to/rule1.bin path/to/rule2.bin ...}} {{[-r|--recursive]}} {{path/to/directory}}`
+`yara {{[-C|--compiled-rules]}} {{path/to/rules.bin}} {{[-r|--recursive]}} {{path/to/directory}}`
