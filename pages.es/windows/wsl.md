@@ -9,15 +9,15 @@
 
 - Ejecutar un comando de Linux sin usar un shell:
 
-`wsl --exec {{comando}} {{argumentos_del_comando}}`
+`wsl {{[-e|--exec]}} {{comando}} {{argumentos_del_comando}}`
 
 - Especificar una distribución particular:
 
-`wsl --distribution {{distribución}} {{comando_de_shell}}`
+`wsl {{[-d|--distribution]}} {{distribución}} {{comando_de_shell}}`
 
 - Listar las distribuciones disponibles:
 
-`wsl --list`
+`wsl {{[-l|--list]}}`
 
 - Exportar una distribución a un archivo `.tar`:
 
