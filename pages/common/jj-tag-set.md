@@ -20,6 +20,6 @@
 
 `jj tag {{[s|set]}} {{tag_name}} {{[-r|--revision]}} {{revision}} --allow-move`
 
-- Create a tag pointing to a parent of the current revision:
+- Create a tag pointing to the parent of the current revision:
 
 `jj tag {{[s|set]}} {{tag_name}} {{[-r|--revision]}} @-`
