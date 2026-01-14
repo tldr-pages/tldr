@@ -1,7 +1,7 @@
 # edgepaint
 
 > 교차하는 가장자리를 명확하게 하기 위해, 그래프 레이아웃의 가장자리에 색상을 지정.
-> Graphviz 필터: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, & `unflatten`.
+> Graphviz 필터: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, 및 `unflatten`.
 > 더 많은 정보: <https://graphviz.org/pdf/edgepaint.1.pdf>.
 
 - 하나 이상의 그래프 레이아웃 (이미 레이아웃 정보가 있음)의 가장자리에 색상을 지정하여, 교차하는 가장자리를 명확하게 함:

@@ -4,7 +4,7 @@
 > Um clone do `cat` com realce de sintaxe e integração com Git.
 > Mais informações: <https://manned.org/bat>.
 
-- Imprime o conteúdo formatado de um arquivo para a saída padrão (stdout):
+- Imprime o conteúdo formatado de um arquivo para a saída padrão (`stdout`):
 
 `bat {{/caminho/para/arquivo}}`
 

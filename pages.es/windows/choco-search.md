@@ -13,16 +13,16 @@
 
 - Incluir solo coincidencias exactas en los resultados:
 
-`choco search {{consulta}} --exact`
+`choco search {{consulta}} {{[-e|--exact]}}`
 
 - Confirmar automáticamente todos los mensajes:
 
-`choco search {{consulta}} --yes`
+`choco search {{consulta}} {{[-y|--yes]}}`
 
 - Especificar una fuente personalizada para buscar paquetes:
 
-`choco search {{consulta}} --source {{url_fuente|alias}}`
+`choco search {{consulta}} {{[-s|--source]}} {{url_fuente|alias}}`
 
 - Proporcionar un nombre de usuario y una contraseña para la autenticación:
 
-`choco search {{consulta}} --user {{nombre_usuario}} --password {{contraseña}}`
+`choco search {{consulta}} {{[-u|--user]}} {{nombre_usuario}} {{[-p|--password]}} {{contraseña}}`

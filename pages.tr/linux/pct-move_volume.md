@@ -2,6 +2,6 @@
 
 > Bu komut `pct move-volume` için bir takma addır.
 
-- Asıl komutun belgelerini görüntüleyin:
+- Asıl komutun dokümantasyonunu görüntüleyin:
 
 `tldr pct move-volume`

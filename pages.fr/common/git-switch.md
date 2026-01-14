@@ -1,7 +1,7 @@
 # git switch
 
 > Basculez entre les branches Git. Nécessite la version 2.23+ de Git.
-> Voir également `git checkout`.
+> Voir aussi : `git checkout`.
 > Plus d'informations : <https://git-scm.com/docs/git-switch>.
 
 - Baculer sur une branche existante :

@@ -1,6 +1,7 @@
 # alien
 
 > Converter diferentes pacotes de instalação para outros formatos.
+> Veja também: `debtap`.
 > Mais informações: <https://manned.org/alien>.
 
 - Converte um arquivo de instalação específico para o formato Debian (extensão `.deb`):

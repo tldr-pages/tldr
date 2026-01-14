@@ -1,7 +1,7 @@
 # acme.sh
 
 > Script shell implémentant le protocole client ACME, une alternative à `certbot`.
-> Voir aussi `acme.sh dns`.
+> Voir aussi : `acme.sh dns`.
 > Plus d'informations : <https://github.com/acmesh-official/acme.sh#2-just-issue-a-cert>.
 
 - Publie un certificat en utilisant le mode webroot :
@@ -16,7 +16,7 @@
 
 `acme.sh --issue --alpn --domain {{exemple.com}}`
 
-- Publie un certificat en utilisant une configuration Nginx :
+- Publie un certificat en utilisant une configuration `nginx` :
 
 `acme.sh --issue --nginx --domain {{exemple.com}}`
 

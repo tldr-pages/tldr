@@ -2,6 +2,6 @@
 
 > Bu komut `ip route list` için bir takma addır.
 
-- Asıl komutun belgelerini görüntüleyin:
+- Asıl komutun dokümantasyonunu görüntüleyin:
 
 `tldr ip route list`

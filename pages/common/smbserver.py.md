@@ -1,6 +1,7 @@
 # smbserver.py
 
-> A Python-based SMB server for hosting shares (requires root for port 445).
+> Host SMB shares.
+> Part of the Impacket suite.
 > More information: <https://github.com/fortra/impacket>.
 
 - Set up a basic SMB share:

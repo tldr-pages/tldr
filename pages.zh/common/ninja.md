@@ -19,6 +19,6 @@
 
 `ninja -t targets`
 
-- 查看帮助：
+- 显示帮助：
 
 `ninja -h`

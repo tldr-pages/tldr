@@ -2,6 +2,6 @@
 
 > Bu komut `counter strike 2` için bir takma addır.
 
-- Asıl komutun belgelerini görüntüleyin:
+- Asıl komutun dokümantasyonunu görüntüleyin:
 
 `tldr counter strike 2`

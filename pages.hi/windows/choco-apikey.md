@@ -9,12 +9,12 @@
 
 - एक विशिष्ट स्रोत और उसके API चाबी को दिखाएं:
 
-`choco apikey --source "{{स्रोत_URL}}"`
+`choco apikey {{[-s|--source]}} "{{स्रोत_URL}}"`
 
 - एक स्रोत के लिए API चाबी सेट करें:
 
-`choco apikey --source "{{स्रोत_URL}}" --key "{{api_चाबी}}"`
+`choco apikey {{[-s|--source]}} "{{स्रोत_URL}}" {{[-k|--api-key]}} "{{api_चाबी}}"`
 
 - एक स्रोत के लिए API चाबी हटाएं:
 
-`choco apikey --source "{{स्रोत_URL}}" --remove`
+`choco apikey {{[-s|--source]}} "{{स्रोत_URL}}" --remove`

@@ -2,7 +2,7 @@
 
 > Shut down and halt the system (stop the OS kernel but keep hardware powered on).
 > See also: `halt`.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#halt>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#halt>.
 
 - Halt the system:
 

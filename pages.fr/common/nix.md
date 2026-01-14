@@ -2,8 +2,8 @@
 
 > Un puissant gestionnaire de paquets qui rend la gestion des paquets fiable, reproductible et déclarative.
 > `nix` est expérimental et doit être activé avec les fonctionnalités expérimentales.
-> Voir aussi : `nix classic` pour une interface classique et stable.
 > Certaines sous-commandes comme `build`, `develop`, `flake`, `registry`, `profile`, `search`, `repl`, `store`, `edit`, `why-depends`, etc., ont leur propre documentation d'utilisation.
+> Voir aussi : `nix classic`.
 > Plus d'informations : <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix>.
 
 - Activer la commande `nix ` :

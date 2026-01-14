@@ -33,4 +33,4 @@
 
 - Utiliza el primer argumento como directorio de destino (útil para `xargs ... | cp -t <DEST_DIR>`):
 
-`cp {{[-t|--target-directory]}} {{ruta/a/directorio_de_destino}} {{ruta/a/archivo_o_directorio1 ruta/al/archivo_o_directorio2 ...}}`
+`cp {{[-t|--target-directory]}} {{ruta/al/directorio_de_destino}} {{ruta/al/archivo_o_directorio1 ruta/al/archivo_o_directorio2 ...}}`

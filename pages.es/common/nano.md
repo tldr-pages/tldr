@@ -1,7 +1,7 @@
 # nano
 
 > Editor sencillo y fácil de usar. Un clon libre y mejorado de `Pico`.
-> Vea también: `emacs`, `helix`, `vim`.
+> Vea también: `pico`, `rnano`.
 > Más información: <https://nano-editor.org/dist/latest/nano.html>.
 
 - Inicia el editor:

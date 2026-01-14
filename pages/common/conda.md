@@ -2,6 +2,7 @@
 
 > Package, dependency, and environment management for any programming language.
 > Some subcommands such as `create` have their own usage documentation.
+> See also: `mamba`.
 > More information: <https://docs.conda.io/projects/conda/en/latest/commands/index.html>.
 
 - Create a new environment, installing named packages into it:

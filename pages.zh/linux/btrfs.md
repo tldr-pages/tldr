@@ -6,20 +6,20 @@
 
 - 创建子卷：
 
-`sudo btrfs subvolume create {{指向子卷的路径}}`
+`sudo btrfs {{[su|subvolume]}} {{[c|create]}} {{指向子卷的路径}}`
 
 - 列出子卷：
 
-`sudo btrfs subvolume list {{指向挂载点的路径}}`
+`sudo btrfs {{[su|subvolume]}} {{[l|list]}} {{指向挂载点的路径}}`
 
 - 显示空间使用情况信息：
 
-`sudo btrfs filesystem df {{指向挂载点的路径}}`
+`sudo btrfs {{[f|filesystem]}} df {{指向挂载点的路径}}`
 
 - 启用配额（quota）：
 
-`sudo btrfs quota enable {{指向子卷的路径}}`
+`sudo btrfs {{[qu|quota]}} {{[e|enable]}} {{指向子卷的路径}}`
 
 - 显示配额（quota）：
 
-`sudo btrfs qgroup show {{指向子卷的路径}}`
+`sudo btrfs {{[qg|qgroup]}} {{[s|show]}} {{指向子卷的路径}}`

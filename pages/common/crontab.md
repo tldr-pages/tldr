@@ -3,11 +3,11 @@
 > Schedule cron jobs to run on a time interval for the current user.
 > More information: <https://manned.org/crontab>.
 
-- Edit the crontab file for the current user:
+- [e]dit the crontab file for the current user:
 
 `crontab -e`
 
-- Edit the crontab file for a specific user:
+- [e]dit the crontab file for a specific [u]ser:
 
 `sudo crontab -e -u {{user}}`
 
@@ -15,11 +15,11 @@
 
 `crontab {{path/to/file}}`
 
-- View a list of existing cron jobs for current user:
+- [l]ist existing cron jobs for the current user:
 
 `crontab -l`
 
-- Remove all cron jobs for the current user:
+- [r]emove all cron jobs for the current user:
 
 `crontab -r`
 

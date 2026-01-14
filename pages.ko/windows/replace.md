@@ -1,7 +1,7 @@
 # replace
 
 > 파일을 대체합니다.
-> 추가 참고: `robocopy`, `move`, `copy`, `del`.
+> 같이 보기: `robocopy`, `move`, `del`.
 > 더 많은 정보: <https://learn.microsoft.com/windows-server/administration/windows-commands/replace>.
 
 - 대상 파일을 소스 디렉토리의 파일로 대체:

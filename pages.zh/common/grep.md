@@ -1,13 +1,14 @@
 # grep
 
-> 使用正则表达式查找文件中的模式。
+> 使用`regex`式查找文件中的模式。
+> 另请参阅：`regex`。
 > 更多信息：<https://www.gnu.org/software/grep/manual/grep.html>。
 
 - 在文件中查找模式：
 
 `grep "{{模式字符串}}" {{路径/到/文件}}`
 
-- 在文件中精确地查找字符串（禁用正则表达式）：
+- 在文件中精确地查找字符串（禁用`regex`式）：
 
 `grep {{[-F|--fixed-strings]}} "{{字符串}}" {{路径/到/文件}}`
 
@@ -15,7 +16,7 @@
 
 `grep {{[-rnI|--recursive --line-number --binary-files=without-match]}} "{{模式字符串}}" {{路径/到/目录}}`
 
-- 使用大小写不敏感的扩展正则表达式（支持 `?`、`+`、`{}`、`()`, 和 `|`）：
+- 使用大小写不敏感的扩展`regex`式（支持 `?`、`+`、`{}`、`()`, 和 `|`）：
 
 `grep {{[-Ei|--extended-regexp --ignore-case]}} "{{模式字符串}}" {{路径/到/文件}}`
 

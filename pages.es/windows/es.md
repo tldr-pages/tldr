@@ -8,7 +8,7 @@
 
 `es {{término_de_búsqueda}}`
 
-- Busca usando una expresión regular:
+- Busca usando una `regex`:
 
 `es -r {{patrón_regex}}`
 

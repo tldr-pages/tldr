@@ -2,6 +2,7 @@
 
 > Vim (Vi IMproved), edytor tekstu wiersza polecenia, oferuje kilka trybów dla różnych rodzajów manipulacji tekstem.
 > Naciśnięcie `<i>` powoduje przejście do trybu edycji. `<Esc>` wraca do normalnego trybu, który pozwala na używanie komend.
+> Zobacz także: `vimdiff`, `vimtutor`, `nvim`, `gvim`.
 > Więcej informacji: <https://www.vim.org/>.
 
 - Otwórz plik:

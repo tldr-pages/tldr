@@ -21,7 +21,7 @@
 
 - Toon de gedemonteerde uitvoer van uitvoerbare secties met jump visualisaties en syntax highlighting:
 
-`objdump {{[-d|--disassemble]}} {{path/to/binary}} --visualize-jumps={{color|extended-color}} --disassembler-color={{color|extended-color}}`
+`objdump {{[-d|--disassemble]}} {{pad/naar/binary}} --visualize-jumps={{color|extended-color}} --disassembler-color={{color|extended-color}}`
 
 - Toon de symbooltabel:
 

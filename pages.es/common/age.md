@@ -1,7 +1,7 @@
 # age
 
 > Una herramienta de encriptación de archivos sencilla, moderna y segura.
-> Vea también: `age-keygen` para generar pares de claves.
+> Vea también: `age-keygen`.
 > Más información: <https://github.com/FiloSottile/age#usage>.
 
 - Genera un archivo cifrado que se puede descifrar con una frase de contraseña:
@@ -14,7 +14,7 @@
 
 - Cifra un archivo a uno o más destinatarios con sus claves públicas especificadas en un archivo (una por línea):
 
-`age {{[-R|--recipients-file]}} {{ruta/a/archivo_recipientes}} {{[-o|--output]}} {{ruta/al/archivo_encriptado}} {{ruta/al/archivo_no_cifrado}}`
+`age {{[-R|--recipients-file]}} {{ruta/al/archivo_recipientes}} {{[-o|--output]}} {{ruta/al/archivo_encriptado}} {{ruta/al/archivo_no_cifrado}}`
 
 - Descifra un archivo con una frase de contraseña:
 
@@ -22,4 +22,4 @@
 
 - Descifra un archivo con un archivo de clave privada:
 
-`age {{[-d|--decrypt]}} {{[-i|--identity]}} {{ruta/al/archivo_de_clave_privada}} {{[-o|--output]}} {{ruta/para/archivo_descifrado}} {{ruta/a/archivo_cifrado}}`
+`age {{[-d|--decrypt]}} {{[-i|--identity]}} {{ruta/al/archivo_de_clave_privada}} {{[-o|--output]}} {{ruta/para/archivo_descifrado}} {{ruta/al/archivo_cifrado}}`

@@ -10,16 +10,16 @@
 
 - Construit un projet en utilisant un autre fichier que `build.xml` :
 
-`ant -f {{fichier_de_construction.xml}}`
+`ant {{[-f|-buildfile]}} {{fichier_de_construction.xml}}`
 
 - Affiche les informations sur les cibles possibles pour ce projet :
 
-`ant -p`
+`ant {{[-p|-projecthelp]}}`
 
 - Affiche les informations de débogage :
 
-`ant -d`
+`ant {{[-d|-debug]}}`
 
 - Exécute toutes les cibles qui ne dépendent pas d'une ou plusieurs cibles en erreur :
 
-`ant -k`
+`ant {{[-k|-keep-going]}}`

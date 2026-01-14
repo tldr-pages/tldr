@@ -1,6 +1,7 @@
 # echo
 
 > چاپ ورودی داده شده.
+> همچنین : `printf`.
 > اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>.
 
 - چاپ پیام ورودی. نکته : استفاده از علامت نقل قول انتخابی است:

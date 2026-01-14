@@ -319,12 +319,6 @@ For example, Use <https://learn.microsoft.com/windows-server/administration/wind
 > See also: `command1`, `command2`, `command3`.
 ```
 
-- Optionally, you can add a short description beside the referenced pages:
-
-```md
-> See also: `date` for Unix information, `uname` for system information and `umount` for unmounting partitions.
-```
-
 - When a command features subcommands, those pages can be referenced with the following line. Note that only the subcommand is named:
 
 ```md
@@ -434,10 +428,6 @@ Keep the following guidelines in mind when choosing placeholders:
   such as `get /{{path/to/remote_file}}`.
 - In case of a possible reference both to a file or a directory,
   use `{{path/to/file_or_directory}}`.
-
-> [!NOTE]\
-> If the command is specific to Windows, use backslashes (`\`) instead, such as `{{path\to\file_or_directory}}`. Drive letters such as `C:` are optional unless the command input requires an absolute path
-> or specific drive letter range, such as `cd /d {{C}}:{{path\to\directory}}`.
 
 #### Extensions
 
@@ -588,6 +578,11 @@ the part of the address that starts with `?view=`.
 
 - Use <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string> instead of <https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/select-string?view=powershell-7.4>.
 - Use <https://learn.microsoft.com/powershell/module/powershellget/install-module> instead of <https://learn.microsoft.com/en-us/powershell/module/powershellget/install-module?view=powershellget-1.x>.
+
+### Paths
+
+If the command is specific to Windows, write paths with backslashes (`\`) instead of forward slashes (`/`), such as `{{path\to\file_or_directory}}`. Drive letters such as `C:` are optional unless the command input requires an absolute path
+or specific drive letter range, such as `cd /d {{C}}:{{path\to\directory}}`.
 
 ## Language and translation rules
 

@@ -16,7 +16,7 @@
 
 `tac {{[-s|--separator]}} {{scheidingsteken}} {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
 
-- Gebruik een specifieke regex als scheidingsteken:
+- Gebruik een specifieke `regex` als scheidingsteken:
 
 `tac {{[-r|--regex]}} {{[-s|--separator]}} {{scheidingsteken}} {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
 

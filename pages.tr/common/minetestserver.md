@@ -1,7 +1,7 @@
 # minetestserver
 
-> Bu komut `luantiserver` için bir takma addır.
+> Bu komut `luanti --server` için bir takma addır.
 
-- Asıl komutun belgelerini görüntüleyin:
+- Asıl komutun dokümantasyonunu görüntüleyin:
 
-`tldr luantiserver`
+`tldr luanti`

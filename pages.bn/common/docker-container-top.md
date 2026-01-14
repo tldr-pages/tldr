@@ -1,8 +1,12 @@
 # docker container top
 
-> এই কমান্ডটি `docker top` - এর একটি উপনাম।
+> একটি কন্টেইনারের চলমান প্রসেসসমূহ দেখুন।
 > আরও তথ্য পাবেন: <https://docs.docker.com/reference/cli/docker/container/top/>।
 
-- মূল কমান্ডের ডকুমেন্টেশন দেখুন:
+- একটি কন্টেইনারের চলমান প্রসেসসমূহ দেখুন:
 
-`tldr docker top`
+`docker {{[top|container top]}} {{container}}`
+
+- সাহায্য প্রদর্শন:
+
+`docker {{[top|container top]}} --help`

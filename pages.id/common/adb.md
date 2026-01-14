@@ -18,7 +18,7 @@
 
 - Pasang suatu aplikasi Android menuju emulator/perangkat tujuan:
 
-`adb install -r {{jalan/menuju/berkas.apk}}`
+`adb install -r {{jalan/menuju/berkas}}.apk`
 
 - Salin berkas/direktori dari perangkat tujuan:
 

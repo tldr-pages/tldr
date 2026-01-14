@@ -2,6 +2,6 @@
 
 > Bu komut `gzip --decompress` için bir takma addır.
 
-- Asıl komutun belgelerini görüntüleyin:
+- Asıl komutun dokümantasyonunu görüntüleyin:
 
 `tldr gzip`

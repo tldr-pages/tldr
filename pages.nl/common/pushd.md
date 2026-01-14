@@ -1,7 +1,7 @@
 # pushd
 
 > Plaats een map op een stack zodat deze later kan worden benaderd.
-> Zie ook: `popd` om terug te schakelen naar de originele map en `dirs` om de inhoud van de mapstapel weer te geven.
+> Zie ook: `popd`, `dirs`.
 > Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#index-pushd>.
 
 - Schakel naar een map en zet deze op de stapel:

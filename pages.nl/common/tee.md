@@ -17,4 +17,4 @@
 
 - Maak een directory genaamd "voorbeeld", tel het aantal tekens in "voorbeeld" en schrijf "voorbeeld" naar de terminal:
 
-`echo "voorbeeld" | tee >(xargs mkdir) >(wc -c)`
+`echo "voorbeeld" | tee >(xargs mkdir) >(wc {{[-c|--bytes]}})`

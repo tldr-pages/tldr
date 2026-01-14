@@ -22,7 +22,7 @@
 
 - Voer een commando uit met administratieve rechten:
 
-`ansible {{groep}} {{[-b|--become]}} --ask-become-pass {{[-m|--module-name]}} command {{[-a|--args]}} '{mijn_commando}}'`
+`ansible {{groep}} {{[-b|--become]}} --ask-become-pass {{[-m|--module-name]}} command {{[-a|--args]}} '{{mijn_commando}}'`
 
 - Voer een commando uit met een aangepast inventaris bestand:
 

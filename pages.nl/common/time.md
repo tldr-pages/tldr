@@ -1,7 +1,7 @@
 # time
 
 > Meet hoe lang het uitvoeren van een commando duurt.
-> Let op: `time` kan ofwel bestaan als een shell builtin, een op zichzelf staand programma of beide.
+> Opmerking: `time` kan ofwel bestaan als een shell builtin, een op zichzelf staand programma of beide.
 > Zie ook: `times`.
 > Meer informatie: <https://manned.org/time>.
 

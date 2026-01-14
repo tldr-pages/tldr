@@ -1,7 +1,7 @@
 # acme.sh
 
 > `certbot`의 대안으로 ACME 클라이언트 프로토콜을 구현하는 쉘 스크립트.
-> 참고: `acme.sh dns`.
+> 같이 보기: `acme.sh dns`.
 > 더 많은 정보: <https://github.com/acmesh-official/acme.sh#2-just-issue-a-cert>.
 
 - webroot 모드를 사용해 인증서를 발급:
@@ -16,7 +16,7 @@
 
 `acme.sh --issue --alpn --domain {{example.com}}`
 
-- 작동하는 Nginx 구성파일을 사용해 인증서 발급:
+- 작동하는 `nginx` 구성파일을 사용해 인증서 발급:
 
 `acme.sh --issue --nginx --domain {{example.com}}`
 

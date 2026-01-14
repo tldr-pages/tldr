@@ -19,7 +19,7 @@
 
 `fastapi run {{路径/文件.py}} --app-dir {{路径/到/应用}} --app {{自定义_app_名称}}`
 
-- 显示帮助信息：
+- 显示帮助：
 
 `fastapi --help`
 

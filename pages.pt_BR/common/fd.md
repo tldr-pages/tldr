@@ -2,6 +2,7 @@
 
 > Uma alternativa para `find`.
 > Visa ser mais rápido e fácil de usar do que `find`.
+> Veja também: `find`.
 > Mais informações: <https://github.com/sharkdp/fd#how-to-use>.
 
 - Encontra recursivamente arquivos que correspondam ao padrão fornecido no diretório atual:

@@ -1,7 +1,7 @@
 # ssh-keygen
 
 > Membuat kunci SSH yang digunakan untuk autentikasi, login tanpa kata sandi, dan hal lainnya.
-> Lihat juga: `ssh-copy-id` untuk memasang kunci SSH di host jarak jauh.
+> Lihat juga: `ssh-copy-id`.
 > Informasi lebih lanjut: <https://man.openbsd.org/ssh-keygen>.
 
 - Buat kunci kriptografi secara interaktif:

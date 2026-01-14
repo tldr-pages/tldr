@@ -1,11 +1,12 @@
 # entr
 
 > Uruchom dowolną komendę, gdy zmieni się plik.
+> Zobacz także: `watchexec`.
 > Więcej informacji: <https://eradman.com/entrproject/>.
 
 - Przebuduj projekt używając `make`, jeżeli zmiemi się którykolwiek z plików w podkatalogu:
 
-`{{ag -l}} | entr {{make}}`
+`{{ag --files-with-matches}} | entr {{make}}`
 
 - Jeżeli zmieni się którykowliek z plików źródłowych `.c` w obecnym katalogu, przebuduj i uruchom testy używając `make`:
 

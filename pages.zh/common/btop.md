@@ -2,6 +2,7 @@
 
 > 显示有关 CPU、内存、磁盘、网络和进程的信息的资源监视器。
 > `bpytop` 的 C++ 版本。
+> 另请参阅：`btm`, `glances`, `atop`, `htop`, `top`。
 > 更多信息：<https://github.com/aristocratos/btop#command-line-options>。
 
 - 启动 `btop`：
@@ -28,6 +29,6 @@
 
 `<q>`
 
-- 显示帮助信息：
+- 显示帮助：
 
 `btop {{[-h|--help]}}`

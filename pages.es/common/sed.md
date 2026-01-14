@@ -4,7 +4,7 @@
 > Vea también: `awk`, `ed`.
 > Más información: <https://manned.org/sed.1posix>.
 
-- Reemplaza todas las ocurrencias de `apple` (regex básica) por `mango` (regex básica) en todas las líneas de entrada y muestra el resultado en `stdout`:
+- Reemplaza todas las ocurrencias de `apple` (`regex` básica) por `mango` (`regex` básica) en todas las líneas de entrada y muestra el resultado en `stdout`:
 
 `{{comando}} | sed 's/apple/mango/g'`
 
