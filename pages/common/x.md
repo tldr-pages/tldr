@@ -1,36 +1,28 @@
 # x
 
-> X-CMD: A command-line tool for managing modules and packages.
+> A command-line tool for managing modules and packages.
 > More information: <https://x-cmd.com>.
 
 - Use a module (e.g., path module):
 
-`x path`
+`x {{module}}`
 
-- Install and use a package (e.g., jq):
+- Install a package globally (e.g., jq):
 
-`x env use jq`
+`x env use {{package}}`
 
-- Try a package temporarily in current shell session:
+- Run a package temporarily in current shell session:
 
-`x env try jq`
+`x env try {{package}}`
 
-- Use a package directly without installation:
+- Run a package directly without installation:
 
-`x jq`
+`x {{package}}`
 
 - Initialize OpenAI API keys for AI features:
 
 `x openai init`
 
-- Start a conversation with AI assistant:
-
-`@gpt`
-
-- Use pixi package manager:
-
-`x pixi`
-
-- Check installation methods:
+- Query the package installation method and execute it:
 
 `x install`

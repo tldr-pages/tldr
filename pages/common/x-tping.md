@@ -1,7 +1,6 @@
 # x tping
 
-> Ping TCP port.
-> This module leverages the TCP protocol and utilizes curl to establish a straightforward, plain-text TCP connection from your local machine to the target host and port.
+> Ping a host via TCP to check reachability.
 > More information: <https://x-cmd.com/mod/tping>.
 
 - Ping a host on default port 80 with verbose mode:
@@ -14,20 +13,16 @@
 
 - Show results as a heatmap:
 
-`x tping --heatmap {{host}}`
+`x tping {{[-m|--heatmap]}} {{host}}`
 
 - Show results as a bar graph:
 
-`x tping --bar {{host}}:{{port}}`
+`x tping {{[-b|--bar]}} {{host}}:{{port}}`
 
 - Output in raw data mode:
 
-`x tping --raw {{host}}`
+`x tping {{[-r|--raw]}} {{host}}`
 
-- Output in CSV format:
+- Output in a specific format:
 
-`x tping --csv {{host}}`
-
-- Output in TSV format:
-
-`x tping --tsv {{host}}`
+`x tping {{--csv|--tsv}} {{host}}`

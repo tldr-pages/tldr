@@ -3,25 +3,21 @@
 > Enhanced modules for ping.
 > More information: <https://x-cmd.com/mod/ping>.
 
-- Ping bing.com by default:
-
-`x ping`
-
-- Ping a specific host:
+- Ping a specific host (defaults to bing.com if omitted):
 
 `x ping {{host}}`
 
 - Show ping results as a heatmap:
 
-`x ping --heatmap {{host}}`
+`x ping {{[-m|--heatmap]}} {{host}}`
 
 - Show ping results as a bar graph:
 
-`x ping --bar {{host}}`
+`x ping {{[-b|--bar]}} {{host}}`
 
 - Process ping results and display as heatmap:
 
-`ping {{host}} | x ping vis --heatmap`
+`ping {{host}} | x ping vis {{[-m|--heatmap]}}`
 
 - Show help:
 
