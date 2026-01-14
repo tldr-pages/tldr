@@ -2,7 +2,7 @@
 
 > Kerberos প্রি-অথেন্টিকেশন নিষ্ক্রিয় থাকা Active Directory অ্যাকাউন্টগুলো তালিকাভুক্ত করুন, যেগুলো AS-REP roasting আক্রমণের জন্য ঝুঁকিপূর্ণ হতে পারে।
 > Impacket স্যুইটের অংশ।
-> আরও তথ্য: <https://github.com/fortra/impacket>।
+> আরও তথ্য পাবেন: <https://github.com/fortra/impacket>।
 
 - Kerberos প্রি-অথেন্টিকেশন নিষ্ক্রিয় থাকা ব্যবহারকারীদের তালিকাভুক্ত করুন (ডিফল্ট অ্যানোনিমাস enumeration):
 
