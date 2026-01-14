@@ -1,11 +1,11 @@
 # nix profile
 
 > Install, update, and remove packages from Nix profiles.
-> More information: <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-profile.html>.
+> More information: <https://nix.dev/manual/nix/latest/command-ref/new-cli/nix3-profile.html>.
 
-- Install some packages from nixpkgs into the default profile:
+- Install packages from nixpkgs into the default profile:
 
-`nix profile install {{nixpkgs#pkg1 nixpkgs#pkg2 ...}}`
+`nix profile add {{nixpkgs#pkg1 nixpkgs#pkg2 ...}}`
 
 - Install a package from a flake on GitHub into a custom profile:
 
