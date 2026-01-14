@@ -9,7 +9,7 @@
 
 - Install a package from a flake on GitHub into a custom profile:
 
-`nix profile install {{github:owner/repo/pkg}} --profile {{path/to/directory}}`
+`nix profile add {{github:owner/repo/pkg}} --profile {{path/to/directory}}`
 
 - List packages currently installed in the default profile:
 
@@ -19,9 +19,9 @@
 
 `nix profile remove {{legacyPackages.x86_64-linux.pkg}}`
 
-- Upgrade packages in the default to the latest available versions:
+- Upgrade packages in the default profile to the latest available versions:
 
-`nix profile upgrade`
+`nix profile upgrade --all`
 
 - Rollback (cancel) the latest action on the default profile:
 
