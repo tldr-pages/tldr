@@ -2,7 +2,7 @@
 
 > Check if one or more systemd units have failed.
 > See also: `systemctl is-active`, `systemctl status`.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#is-failed%20PATTERN%E2%80%A6>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#is-failed%20PATTERN%E2%80%A6>.
 
 - Check if there are any failed units:
 

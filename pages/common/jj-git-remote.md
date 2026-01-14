@@ -1,7 +1,7 @@
 # jj git remote
 
 > Manage Git remotes.
-> More information: <https://jj-vcs.github.io/jj/latest/cli-reference/#jj-git-remote>.
+> More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-git-remote>.
 
 - List all Git remotes:
 

@@ -1,7 +1,7 @@
 # systemctl hybrid-sleep
 
 > Put the system into hybrid sleep, which combines suspend-to-RAM and hibernate.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#hybrid-sleep>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#hybrid-sleep>.
 
 - Put the system into hybrid sleep immediately:
 
