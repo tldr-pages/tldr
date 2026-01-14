@@ -33,4 +33,4 @@
 
 - Sample cron job which runs a certain script at 02:30 every Friday:
 
-`30 2 * * Fri {{/path/to/script.sh}}`
+`30 2 * * Fri {{path/to/script.sh}}`
