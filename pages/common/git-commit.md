@@ -31,6 +31,6 @@
 
 `git commit {{[-m|--message]}} "{{message}}" --allow-empty`
 
-- Add a description in addition to the commit message:
+- Create a commit with a message and a description:
 
 `git commit {{[-m|--message]}} "{{message}}" {{[-m|--message]}} "{{description}}"`
