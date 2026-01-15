@@ -10,8 +10,8 @@
 
 - Suprime la salida y devuelve solo el código de salida:
 
-`systemctl is-enabled {{unidad}} --quiet`
+`systemctl is-enabled {{unidad}} {{[-q|--quiet]}}`
 
 - Muestra destinos de instalación y rutas de enlaces simbólicos:
 
-`systemctl is-enabled {{unidad}} --full`
+`systemctl is-enabled {{unidad}} {{[-l|--full]}}`
