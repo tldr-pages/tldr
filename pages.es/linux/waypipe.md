@@ -9,7 +9,7 @@
 
 - Abre un túnel SSH para ejecutar cualquier programa de forma remota y lo muestra de forma local:
 
-`waypipe ssh{{usuario}}@{{servidor}}`
+`waypipe ssh {{usuario}}@{{servidor}}`
 
 - Omite la prueba de compatibilidad con Vulkan:
 
