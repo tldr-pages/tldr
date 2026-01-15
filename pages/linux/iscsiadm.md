@@ -2,7 +2,7 @@
 
 > Manage iSCSI sessions, nodes, and discovery.
 > Used to connect and disconnect iSCSI targets.
-> More information: <https://linux.die.net/man/8/iscsiadm>.
+> More information: <https://manned.org/iscsiadm>.
 
 - Show active iSCSI sessions:
 
