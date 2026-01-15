@@ -1,7 +1,7 @@
 # alembic
 
 > Database migration tool for SQLAlchemy.
-> More information: <https://alembic.sqlalchemy.org>.
+> More information: <https://manned.org/alembic>.
 
 - Initialize Alembic in a project:
 
