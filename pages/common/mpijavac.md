@@ -6,11 +6,11 @@
 
 - Compile a Java source file:
 
-`mpijavac {{path/to/source_file.java}}`
+`mpijavac {{path/to/source_file}}.java`
 
 - Pass application-specific classpaths to compiler:
 
-`mpijavac -cp {{path/to/app.jar}} {{path/to/source_file.java}}`
+`mpijavac -cp {{path/to/app}}.jar {{path/to/source_file}}.java`
 
 - Show the flags necessary to build MPI Java applications:
 
@@ -22,4 +22,4 @@
 
 - Show full invoked Java compiler command line:
 
-`mpijavac {{path/to/source_file.java}} --showme`
+`mpijavac {{path/to/source_file}}.java --showme`

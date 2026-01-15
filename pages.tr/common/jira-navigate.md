@@ -2,6 +2,6 @@
 
 > Bu komut `jira open` için bir takma addır.
 
-- Asıl komutun belgelerini görüntüleyin:
+- Asıl komutun dokümantasyonunu görüntüleyin:
 
 `tldr jira open`

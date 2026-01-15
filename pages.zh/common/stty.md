@@ -27,6 +27,6 @@
 
 `stty {{-echo|echo}}`
 
-- 显示帮助信息：
+- 显示帮助：
 
 `stty --help`

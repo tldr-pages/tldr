@@ -18,3 +18,7 @@
 - Remove a user, and all files owned by them:
 
 `sudo deluser --remove-all-files {{username}}`
+
+- Remove a user from a group, without deleting the user:
+
+`sudo deluser {{username}} {{group}}`

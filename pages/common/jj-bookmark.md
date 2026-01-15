@@ -2,7 +2,7 @@
 
 > Manage bookmarks in a `jj` repository.
 > When using a Git backend, bookmarks correspond to Git branches.
-> More information: <https://jj-vcs.github.io/jj/latest/cli-reference/#jj-bookmark>.
+> More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-bookmark>.
 
 - Create a new bookmark at the given revision:
 

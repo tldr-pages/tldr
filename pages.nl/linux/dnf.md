@@ -1,9 +1,8 @@
 # dnf
 
 > Hulpprogramma voor pakketbeheer van RHEL, Fedora en CentOS (vervangt Yum).
-> Sommige subcommando's zoals `group` en `config-manager` hebben hun eigen documentatie.
 > Voor equivalente commando's in andere pakketbeheerders, zie <https://wiki.archlinux.org/title/Pacman/Rosetta>.
-> Meer informatie: <https://dnf.readthedocs.io/en/latest/command_ref.html>.
+> Meer informatie: <https://dnf5.readthedocs.io/en/latest/commands/index.html>.
 
 - Upgrade geïnstalleerde pakketten naar de nieuwste beschikbare versies:
 
@@ -31,8 +30,8 @@
 
 - Vind welk pakket voorziet van een bepaald commando:
 
-`dnf {{[wp|provides]}} {{commando}}`
+`dnf provides {{command}}`
 
-- Toon alle historische operaties:
+- Verwijder gecachte data:
 
-`dnf {{[hist|history]}}`
+`sudo dnf clean {{all|dbcache|expire-cache|metadata|packages}}`

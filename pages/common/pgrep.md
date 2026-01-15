@@ -13,4 +13,4 @@
 
 - Search for processes run by a specific user:
 
-`pgrep {{[-u|--euid]}} root {{process_name}}`
+`pgrep {{[-u|--euid]}} {{username}} {{process_name}}`

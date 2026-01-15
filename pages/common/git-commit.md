@@ -30,3 +30,7 @@
 - Create a commit, even if there are no staged files:
 
 `git commit {{[-m|--message]}} "{{message}}" --allow-empty`
+
+- Create a commit with a message and a description:
+
+`git commit {{[-m|--message]}} "{{message}}" {{[-m|--message]}} "{{description}}"`

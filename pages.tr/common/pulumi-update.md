@@ -2,6 +2,6 @@
 
 > Bu komut `pulumi up` için bir takma addır.
 
-- Asıl komutun belgelerini görüntüleyin:
+- Asıl komutun dokümantasyonunu görüntüleyin:
 
 `tldr pulumi up`
