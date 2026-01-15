@@ -5,13 +5,13 @@
 
 - Create a new environment named `py39`, install Python 3.9, NumPy v1.11 or above in it, and the latest stable version of SciPy. Say yes to all confirmations:
 
-`conda create {{[-ny|--name --yes]}} {{py39}} python={{3.9}} "{{numpy>=1.11 scipy}}"`
+`conda create {{[-ny|--name --yes]}} py39 python=3.9 "numpy>=1.11 scipy"`
 
 - Create a new environment named `myenv` and install packages listed in files:
 
 `conda create {{[-n|--name]}} myenv --file {{file1.yml}} --file {{file2.yml}}`
 
-- Create a new environment named `myenv` at custom path (i.e. prefix):
+- Create a new environment at a custom path (i.e. prefix):
 
 `conda create {{[-p|--prefix]}} {{path/to/myenv}}`
 

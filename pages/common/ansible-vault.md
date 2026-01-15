@@ -5,24 +5,28 @@
 
 - Create a new encrypted vault file with a prompt for a password:
 
-`ansible-vault create {{vault_file}}`
+`ansible-vault create {{path/to/vault_file}}`
 
-- Create a new encrypted vault file using a vault key file to encrypt it:
+- Edit, view or re-key (re-encrypt) an existing encrypted vault file with a prompt for the password:
 
-`ansible-vault create --vault-password-file {{password_file}} {{vault_file}}`
+`ansible-vault {{edit|view|rekey}} {{path/to/vault_file}}`
 
-- Encrypt an existing file using an optional password file:
+- Create a new encrypted vault file using a password file to encrypt it:
 
-`ansible-vault encrypt --vault-password-file {{password_file}} {{vault_file}}`
+`ansible-vault create --vault-password-file {{path/to/password_file}} {{path/to/vault_file}}`
+
+- Encrypt an existing plaintext file in-place using a password file:
+
+`ansible-vault encrypt --vault-password-file {{path/to/password_file}} {{path/to/file}}`
 
 - Encrypt a string using Ansible's encrypted string format, displaying interactive prompts:
 
 `ansible-vault encrypt_string`
 
-- View an encrypted file, using a password file to decrypt:
+- View an encrypted vault file by using a password file to decrypt:
 
-`ansible-vault view --vault-password-file {{password_file}} {{vault_file}}`
+`ansible-vault view --vault-password-file {{path/to/password_file}} {{path/to/vault_file}}`
 
-- Re-key already encrypted vault file with a new password file:
+- Re-key (re-encrypt) an already encrypted vault file with a new password file:
 
-`ansible-vault rekey --vault-password-file {{old_password_file}} --new-vault-password-file {{new_password_file}} {{vault_file}}`
+`ansible-vault rekey --vault-password-file {{path/to/old_password_file}} --new-vault-password-file {{path/to/new_password_file}} {{path/to/vault_file}}`
