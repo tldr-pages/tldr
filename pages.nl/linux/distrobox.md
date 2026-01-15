@@ -1,8 +1,7 @@
 # distrobox
 
 > Gebruik elke Linux distributie in uw terminal in een container. Installeer en gebruik pakketten erin terwijl ze nauw integreren met het host-besturingssysteem, het delen van opslag (`home`-map) en hardware.
-> `distrobox` is geen commando, maar een set van commando's.
-> Het gebruikt Podman of Docker om je containers te maken.
+> Opmerking: `distrobox` is geen commando, maar een set van commando's.
 > Meer informatie: <https://github.com/89luca89/distrobox>.
 
 - Bekijk de documentatie voor het maken van containers:

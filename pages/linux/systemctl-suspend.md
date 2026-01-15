@@ -1,7 +1,7 @@
 # systemctl suspend
 
 > Suspend the system.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#suspend>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#suspend>.
 
 - Suspend the system immediately:
 

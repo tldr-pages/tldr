@@ -5,11 +5,11 @@
 
 - パッケージをインストール:
 
-`winget install {{パッケージ}}`
+`winget {{[add|install]}} {{パッケージ}}`
 
 - パッケージを削除 (注意: `uninstall` の代わりに `remove` を使用することもできる):
 
-`winget uninstall {{パッケージ}}`
+`winget {{[rm|uninstall]}} {{パッケージ}}`
 
 - パッケージに関する情報を表示:
 
@@ -21,16 +21,16 @@
 
 - 全てのパッケージを最新バージョンにアップグレード:
 
-`winget upgrade --all`
+`winget upgrade {{[-r|--all]}}`
 
 - `winget`で管理可能なインストール済パッケージを全て一覧表示:
 
-`winget list --source winget`
+`winget {{[ls|list]}} {{[-s|--source]}} winget`
 
 - ファイルからのパッケージのインポート、またはインストールされたパッケージのファイルへのエクスポート:
 
-`winget {{import|export}} {{--import-file|--output}} {{path/to/file}}`
+`winget {{import|export}} {{--import-file|--output}} {{ファイルパス}}`
 
 - winget-pkgs リポジトリに PR を開く前にマニフェストを検証する:
 
-`winget validate {{path/to/manifest}}`
+`winget validate {{明示パス}}`

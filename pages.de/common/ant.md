@@ -10,16 +10,16 @@
 
 - Baue ein Projekt mit einer anderen build-Datei als `build.xml`:
 
-`ant -f {{buildfile.xml}}`
+`ant {{[-f|-buildfile]}} {{buildfile.xml}}`
 
 - Zeige Informationen über mögliche targets für dieses Projekt:
 
-`ant -p`
+`ant {{[-p|-projecthelp]}}`
 
 - Zeige Debugging-Informationen:
 
-`ant -d`
+`ant {{[-d|-debug]}}`
 
 - Führe alle targets aus, die nicht von fehlgeschlagenen targets abhängen:
 
-`ant -k`
+`ant {{[-k|-keep-going]}}`

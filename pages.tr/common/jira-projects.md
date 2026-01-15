@@ -2,6 +2,6 @@
 
 > Bu komut `jira project` için bir takma addır.
 
-- Asıl komutun belgelerini görüntüleyin:
+- Asıl komutun dokümantasyonunu görüntüleyin:
 
 `tldr jira project`

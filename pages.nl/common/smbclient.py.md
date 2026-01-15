@@ -1,7 +1,7 @@
 # smbclient.py
 
 > Interacteer met SMB-servers.
-> Onderdeel van de Impacket suite.
+> Onderdeel van de Impacket-suite.
 > Meer informatie: <https://github.com/fortra/impacket>.
 
 - Maak verbinding met een SMB server met gebruikersnaam en wachtwoord:

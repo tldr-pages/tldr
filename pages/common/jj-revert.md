@@ -1,7 +1,7 @@
 # jj revert
 
 > Apply the reverse of the given revision(s).
-> More information: <https://jj-vcs.github.io/jj/latest/cli-reference/#jj-revert>.
+> More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-revert>.
 
 - Apply the reverse of the revisions specified by the given revsets (e.g. `B::D`, `A..D`, `B|C|D`, etc.):
 

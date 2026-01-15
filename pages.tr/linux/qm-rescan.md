@@ -2,6 +2,6 @@
 
 > Bu komut `qm disk rescan` için bir takma addır.
 
-- Asıl komutun belgelerini görüntüleyin:
+- Asıl komutun dokümantasyonunu görüntüleyin:
 
 `tldr qm disk`

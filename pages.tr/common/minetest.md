@@ -2,6 +2,6 @@
 
 > Bu komut `luanti` için bir takma addır.
 
-- Asıl komutun belgelerini görüntüleyin:
+- Asıl komutun dokümantasyonunu görüntüleyin:
 
 `tldr luanti`
