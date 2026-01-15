@@ -3,7 +3,7 @@
 > Un escáner de red muy rápido.
 > Funciona mejor con privilegios elevados. Para obtener ayuda sobre la compatibilidad con Nmap, ejecute `masscan --nmap`.
 > Vea también: `hping3`, `naabu`, `nmap`, `rustscan`, `zmap`.
-> Más información: <HTTPS://manned.org/masscan>.
+> Más información: <https://manned.org/masscan>.
 
 - Escanea una IP o subred de red en busca del puerto 80:
 
