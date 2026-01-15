@@ -1,0 +1,32 @@
+# yad
+
+> Display GTK+ dialogs from shell scripts.
+> More information: <https://github.com/v1cont/yad>.
+
+- Display an information dialog:
+
+`yad --info --text={{Hello}}`
+
+- Ask a yes/no question:
+
+`yad --question --text={{Continue?}}`
+
+- Prompt for text input:
+
+`yad --entry --text={{Enter your name:}}`
+
+- Select a file:
+
+`yad --file --title={{Select a file}}`
+
+- Select a date from a calendar:
+
+`yad --calendar --title={{Select a date}}`
+
+- Display a list:
+
+`yad --list --column={{Name}} --column={{Age}} {{Alice}} {{20}} {{Bob}} {{30}}`
+
+- Show a progress bar:
+
+`{{command}} | yad --progress --pulsate --auto-close --text={{Working...}}`
