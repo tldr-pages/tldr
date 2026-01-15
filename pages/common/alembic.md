@@ -5,7 +5,7 @@
 
 - Initialize Alembic in a project:
 
-`alembic init {{directory_name}}`
+`alembic init {{path/to/directory}}`
 
 - Create a new migration script with autogeneration:
 
