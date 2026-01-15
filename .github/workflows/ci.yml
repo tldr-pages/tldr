@@ -5,7 +5,7 @@ on: ['push', 'pull_request']
 jobs:
   ci:
     name: CI
-    runs-on: ubuntu-latest
+    runs-on: carbonrunner-2vcpu-ubuntu-latest
     permissions:
       contents: write # to upload assets to releases
       attestations: write # to upload assets attestation for build provenance
