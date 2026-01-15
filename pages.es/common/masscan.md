@@ -15,7 +15,7 @@
 
 - Escanea una subred de clase B evitando rangos de un archivo de exclusión específico:
 
-`masscan {{10.0.0.0/16}} --top-ports {{100}} --excludefile {ruta/al/archivo}`
+`masscan {{10.0.0.0/16}} --top-ports {{100}} --excludefile {{ruta/al/archivo}}`
 
 - Escanea una subred de clase B con detección de versión similar a Nmap (captura de banner):
 
