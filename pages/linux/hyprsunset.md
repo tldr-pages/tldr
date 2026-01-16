@@ -12,18 +12,18 @@
 
 `hyprsunset {{[-t|--temperature]}} {{temperature}} {{[-g|--gamma]}} {{gamma}}`
 
-- Adjust color temperature while the hyprsunset service is running:
+- Adjust the color temperature while the hyprsunset service is running:
 
 `hyprctl hyprsunset temperature {{temperature}}`
 
-- Adjust gamma while the hyprsunset service is running:
+- Adjust the gamma while the hyprsunset service is running:
 
 `hyprctl hyprsunset gamma {{gamma}}`
 
-- Reset color temperature to 6000K:
+- Reset the color temperature to 6000K:
 
 `hyprctl hyprsunset reset temperature`
 
-- Reset gamma to 100%:
+- Reset the gamma to 100%:
 
 `hyprctl hyprsunset reset gamma`
