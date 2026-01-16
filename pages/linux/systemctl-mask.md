@@ -1,6 +1,7 @@
 # systemctl mask
 
 > Link units to `/dev/null` so that they cannot be started.
+> See also: `systemctl revert`.
 > More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#mask%20UNIT%E2%80%A6>.
 
 - Mask a service:
