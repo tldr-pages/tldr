@@ -6,7 +6,7 @@
 
 - Emetti un certificato usando la modalità webroot:
 
-`acme.sh --issue {{[-d|--domain]}} {{example.com}} {{[-w|--webroot]}} {{/percorso/alla/webroot}}`
+`acme.sh --issue {{[-d|--domain]}} {{example.com}} {{[-w|--webroot]}} /{{/percorso/alla/webroot}}`
 
 - Emetti un certificato per più domini usando la modalità standalone sulla porta 80:
 
@@ -30,4 +30,4 @@
 
 - Installa i file di certificato nelle posizioni specificate (utile per il rinnovo automatico):
 
-`acme.sh {{[-i|--install-cert]}} {{[-d|--domain]}} {{example.com}} --key-file {{/percorso/a/example.com.key}} --fullchain-file {{/percorso/a/example.com.cer}} --reloadcmd "{{systemctl force-reload nginx}}"`
+`acme.sh {{[-i|--install-cert]}} {{[-d|--domain]}} {{example.com}} --key-file /{{/percorso/a/example.com.key}} --fullchain-file /{{/percorso/a/example.com.cer}} --reloadcmd "{{systemctl force-reload nginx}}"`
