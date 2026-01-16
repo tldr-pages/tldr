@@ -3,13 +3,9 @@
 > Display GTK+ dialogs from shell scripts.
 > More information: <https://manned.org/man/yad>.
 
-- Display an information dialog:
+- Display a text information dialog:
 
-`yad --info --text={{Hello}}`
-
-- Ask a yes/no question:
-
-`yad --question --text={{Continue?}}`
+`yad --text-info --filename={{path/to/file.txt}}`
 
 - Prompt for text input:
 
