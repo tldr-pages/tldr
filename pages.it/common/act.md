@@ -29,4 +29,4 @@
 
 - Esegui un workflow specifico con evento push:
 
-`act push {{[-W|--workflows]}} {{percorso/workflow}}`
+`act push {{[-W|--workflows]}} {{percorso/al/workflow}}`
