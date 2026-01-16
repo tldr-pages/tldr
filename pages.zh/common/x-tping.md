@@ -1,6 +1,6 @@
 # x tping
 
-> Ping TCP 端口。
+> 通过 TCP 协议 ping 主机以检查其可达性。
 > 更多信息：<https://x-cmd.com/mod/tping>。
 
 - 使用详细模式 Ping 主机的 80 端口（默认端口）：
