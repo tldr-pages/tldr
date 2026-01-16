@@ -5,16 +5,16 @@
 
 - Archive un fichier ou un dossier :
 
-`asar pack {{chemin/vers/fichier_ou_dossier}} {{archive.asar}}`
+`asar {{[p|pack]}} {{chemin/vers/fichier_ou_dossier}} {{archive.asar}}`
 
 - Extrais une archive :
 
-`asar extract {{archive.asar}}`
+`asar {{[e|extract]}} {{archive.asar}}`
 
 - Extrais un fichier spécifique d'une archive :
 
-`asar extract-file {{archive.asar}} {{fichier}}`
+`asar {{[ef|extract-file]}} {{archive.asar}} {{fichier}}`
 
 - Liste les éléments contenus dans une archive :
 
-`asar list {{archive.asar}}`
+`asar {{[l|list]}} {{archive.asar}}`
