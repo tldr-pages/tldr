@@ -8,7 +8,7 @@
 
 `sudo systemctl edit {{unit_file}}`
 
-- Edit an unit file:
+- Edit a unit file:
 
 `sudo systemctl edit {{unit_file}} {{[-l|--full]}}`
 
