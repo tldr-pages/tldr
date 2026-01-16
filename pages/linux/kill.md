@@ -30,7 +30,7 @@
 
 - Signal the operating system to pause a program until a SIGCONT ("continue") signal is received:
 
-`kill {{[-17|-STOP]}} {{process_id}}`
+`kill {{[-19|-STOP]}} {{process_id}}`
 
 - Send a `SIGUSR1` signal to all processes with the given GID (group id):
 
