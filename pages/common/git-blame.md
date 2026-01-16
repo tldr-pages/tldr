@@ -1,32 +1,37 @@
 # git blame
 
-> Show commit hash and last author on each line of a file.
+> Print a file annotating each line with authorship data
+> (e.g. hash and author) from the last commit that modified it.
 > More information: <https://git-scm.com/docs/git-blame>.
 
-- Print file with author name and commit hash on each line:
+- Print a file with authorship info (author name and commit hash):
 
 `git blame {{path/to/file}}`
 
-- Print file with author email and commit hash on each line:
+- Print a file with authorship info (author email and commit hash):
 
 `git blame {{[-e|--show-email]}} {{path/to/file}}`
 
-- Print file with author name and commit hash on each line at a specific commit:
+- Print a file with authorship info as of a specific commit:
 
 `git blame {{commit}} {{path/to/file}}`
 
-- Print file with author name and commit hash on each line before a specific commit:
+- Print a file with authorship info before a specific commit:
 
 `git blame {{commit}}~ {{path/to/file}}`
 
-- Jump to the parent of a specific commit and track a specific text and 10 of its following lines:
+- Print a file with authorship info starting at a given line:
 
-`git blame -L '/{{text}}/',+10 {{a82812aa}}^ {{path/to/file}}`
+`git blame -L {{123}}`
 
-- Print author name and commit hash information for a specific line range:
+- Annotate a specific line range of a file:
 
 `git blame -L {{start_line}},{{end_line}} {{path/to/file}}`
 
-- Ignore whitespaces and line moves:
+- Annotate 10 lines of a file starting at the first line matching a given text:
+
+`git blame -L '/{{text}}/',+10 {{path/to/file}}`
+
+- Annotate a file ignoring whitespaces and line moves:
 
 `git blame -w -C -C -C {{path/to/file}}`
