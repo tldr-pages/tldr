@@ -16,9 +16,9 @@
 
 `yad --file --title={{Select a file}}`
 
-- Select a date from a calendar:
+- Open a date picker dialog with a specific title:
 
-`yad --calendar --title={{Select a date}}`
+`yad --calendar --title "{{title_message}}"`
 
 - Display a list dialog with multiple columns and data:
 
