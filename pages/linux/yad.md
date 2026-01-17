@@ -12,9 +12,9 @@
 
 `yad --entry --text "{{message}}"`
 
-- Select a file:
+- Open a file picker with a specific title:
 
-`yad --file --title={{Select a file}}`
+`yad --file --title "{{title_message}}"`
 
 - Open a date picker dialog with a specific title:
 
