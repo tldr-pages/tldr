@@ -14,7 +14,7 @@
 
 - Display a name/password form and output the data separated by ";" ("|" by default):
 
-`zenity --forms --add-entry "{{message}}" --add-password "{{message}}" --separator ";"`
+`zenity --forms --add-entry "{{name_label}}" --add-password "{{password_label}}" --separator ";"`
 
 - Display a file selection form in which the user can only select directories:
 
