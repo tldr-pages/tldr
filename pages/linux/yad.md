@@ -4,9 +4,9 @@
 > See also: `zenity`.
 > More information: <https://manned.org/yad>.
 
-- Display a text information dialog:
+- Display the contents of a file in a text information dialog:
 
-`yad --text-info --filename={{path/to/file.txt}}`
+`yad --text-info --filename "{{path/to/file}}"`
 
 - Open a text entry dialog and return the input to `stdout`:
 
