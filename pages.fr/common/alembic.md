@@ -19,6 +19,6 @@
 
 `alembic downgrade -1`
 
-- Afficher l'historique des migrations :
+- Affiche l'historique des migrations :
 
 `alembic history`
