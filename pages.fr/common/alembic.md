@@ -15,7 +15,7 @@
 
 `alembic upgrade head`
 
-- Revenir à la révision précédente :
+- Revient à la révision précédente :
 
 `alembic downgrade -1`
 
