@@ -5,7 +5,7 @@
 
 - Initialiser Alembic dans un projet :
 
-`alembic init {{chemin/vers/dossiere}}`
+`alembic init {{chemin/vers/dossier}}`
 
 - Créer un script de migration avec génération automatique :
 
