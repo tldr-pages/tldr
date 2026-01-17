@@ -20,9 +20,9 @@
 
 `yad --calendar --title={{Select a date}}`
 
-- Display a list:
+- Display a list dialog with multiple columns and data:
 
-`yad --list --column={{Name}} --column={{Age}} {{Alice}} {{20}} {{Bob}} {{30}}`
+`yad --list --column "{{col1}}" --column "{{col2}}" {{"col1_row1" "col2_row1" "col1_row2" "col2_row2" ...}}`
 
 - Open a pulsating progress bar that automatically closes at 100%:
 
