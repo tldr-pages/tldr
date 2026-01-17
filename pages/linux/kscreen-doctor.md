@@ -17,7 +17,7 @@
 
 - Enable a specific HDMI display:
 
-`screen-doctor output.{{HDMI-A-1}}.enable`
+`kscreen-doctor output.{{HDMI-A-1}}.enable`
 
 - Disable a specific DisplayPort display:
 
