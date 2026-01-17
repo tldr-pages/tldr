@@ -7,9 +7,9 @@
 
 `yad --text-info --filename={{path/to/file.txt}}`
 
-- Prompt for text input:
+- Open a text entry dialog and return the input to `stdout`:
 
-`yad --entry --text={{Enter your name:}}`
+`yad --entry --text "{{message}}"`
 
 - Select a file:
 
