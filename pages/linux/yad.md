@@ -1,7 +1,7 @@
 # yad
 
 > Display GTK+ dialogs from shell scripts.
-> More information: <https://manned.org/man/yad>.
+> More information: <https://manned.org/yad>.
 
 - Display a text information dialog:
 
