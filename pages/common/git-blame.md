@@ -1,7 +1,6 @@
 # git blame
 
-> Print a file annotating each line with authorship data
-> (e.g. hash and author) from the last commit that modified it.
+> Show what commit and author last modified each line of a file.
 > More information: <https://git-scm.com/docs/git-blame>.
 
 - Print a file with authorship info (author name and commit hash):
