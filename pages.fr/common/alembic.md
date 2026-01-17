@@ -3,7 +3,7 @@
 > Outil de migration de base de données pour SQLAlchemy.
 > Plus d'informations : <https://manned.org/alembic>.
 
-- Initialiser Alembic dans un projet :
+- Initialise Alembic dans un projet :
 
 `alembic init {{chemin/vers/dossier}}`
 
