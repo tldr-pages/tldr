@@ -5,12 +5,16 @@
 
 - Tampilkan informasi tabel ARP yang dikenali sistem operasi Anda saat ini:
 
+`arp`
+
+- Tampilkan tabel ARP dalam format [a]lternatif, gaya BSD dengan panjang kolom tetap:
+
 `arp -a`
 
-- Hapus suatu entri dari tabel ARP sistem:
+- Hapus ([d]elete) suatu entri dari tabel ARP sistem:
 
-`arp -d {{alamat}}`
+`sudo arp -d {{alamat_ip}}`
 
-- Ma[s]ukkan suatu entri baru ke dalam tabel ARP sistem:
+- [s]etel suatu entri baru ke dalam tabel ARP sistem:
 
 `arp -s {{alamat_ip}} {{alamat_mac}}`
