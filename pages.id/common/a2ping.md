@@ -9,23 +9,23 @@
 
 - Kompres dokumen EPS atau PDF menggunakan metode tertentu:
 
-`a2ping --nocompress {{none|zip|best|flate}} {{jalan/menuju/file}}`
+`a2ping --nocompress {{none|zip|best|flate}} {{jalan/menuju/berkas}}`
 
 - Pindai HiResBoundingBox jika ditemukan (akan dipindai secara default):
 
-`a2ping --nohires {{jalan/menuju/file}}`
+`a2ping --nohires {{jalan/menuju/berkas}}`
 
 - Izinkan konten halaman berada melewati batas bawah dan kiri (tidak diizinkan secara default):
 
-`a2ping --below {{jalan/menuju/file}}`
+`a2ping --below {{jalan/menuju/berkas}}`
 
 - Berikan opsi/argumen tambahan untuk `gs`:
 
-`a2ping --gsextra {{argumen_tambahan_gs}} {{jalan/menuju/file}}`
+`a2ping --gsextra {{argumen_tambahan_gs}} {{jalan/menuju/berkas}}`
 
 - Berikan opsi/argumen tambahan untuk program lainnya (seperti `pdftops`):
 
-`a2ping --extra {{arguments}} {{jalan/menuju/file}}`
+`a2ping --extra {{arguments}} {{jalan/menuju/berkas}}`
 
 - Tampilkan informasi bantuan:
 

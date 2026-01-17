@@ -6,7 +6,7 @@
 
 - Unduh konten URL ke file:
 
-`Invoke-WebRequest {{http://example.com}} -OutFile {{jalan/menuju/file}}`
+`Invoke-WebRequest {{http://example.com}} -OutFile {{jalan/menuju/berkas}}`
 
 - Kirim data form yang telah di encode (permintaan POST atau tipe data `application/x-www-form-urlencoded`):
 

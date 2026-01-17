@@ -26,7 +26,7 @@
 
 - Timpa file yang bentrok selama pembaruan paket:
 
-`sudo pacman --sync --refresh --sysupgrade --overwrite {{jalan/menuju/file}}`
+`sudo pacman --sync --refresh --sysupgrade --overwrite {{jalan/menuju/berkas}}`
 
 - Sinkronkan dan perbarui semua paket, namun abaikan paket tertentu (dapat digunakan lebih dari sekali):
 

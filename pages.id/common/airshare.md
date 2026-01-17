@@ -5,7 +5,7 @@
 
 - Kirim kumpulan file atau direktori:
 
-`airshare {{kode_berbagi}} {{jalan/menuju/file_atau_direktori1 jalan/menuju/file_atau_direktori2 ...}}`
+`airshare {{kode_berbagi}} {{jalan/menuju/berkas_atau_direktori1 jalan/menuju/berkas_atau_direktori2 ...}}`
 
 - Terima file:
 
@@ -17,7 +17,7 @@
 
 - Unggah kumpulan file atau direktori menuju server penerima:
 
-`airshare --upload {{kode_berbagi}} {{jalan/menuju/file_atau_direktori1 jalan/menuju/file_atau_direktori2 ...}}`
+`airshare --upload {{kode_berbagi}} {{jalan/menuju/berkas_atau_direktori1 jalan/menuju/berkas_atau_direktori2 ...}}`
 
 - Kirim file dengan alamat-alamat yang disalin pada papan klip (clipboard):
 

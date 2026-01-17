@@ -5,7 +5,7 @@
 
 - Pindai kerentanan suatu file atau direktori tertentu:
 
-`clamdscan {{jalan/menuju/file_atau_direktori}}`
+`clamdscan {{jalan/menuju/berkas_atau_direktori}}`
 
 - Pindai data dari input `stdin`:
 
@@ -17,7 +17,7 @@
 
 - Simpan hasil laporan pemindaian kepada sebuah file log:
 
-`clamdscan --log {{jalan/menuju/file_log}}`
+`clamdscan --log {{jalan/menuju/berkas_log}}`
 
 - Pindahkan file-file yang terinfeksi kepada suatu direktori:
 

@@ -5,7 +5,7 @@
 
 - Pindai kerentanan sebuah file:
 
-`clamscan {{jalan/menuju/file}}`
+`clamscan {{jalan/menuju/berkas}}`
 
 - Pindai seluruh file dalam sebuah direktori secara rekursif:
 
@@ -17,7 +17,7 @@
 
 - Gunakan basis data (database) definisi virus yang terkandung dalam sebuah file atau direktori:
 
-`clamscan --database {{jalan/menuju/file_atau_direktori_basis_data}}`
+`clamscan --database {{jalan/menuju/berkas_atau_direktori_basis_data}}`
 
 - Pindai direktori saat ini dan hanya tampilkan file yang terinfeksi:
 
@@ -25,7 +25,7 @@
 
 - Simpan hasil laporan pemindaian kepada sebuah file log:
 
-`clamscan --log {{jalan/menuju/file_log}}`
+`clamscan --log {{jalan/menuju/berkas_log}}`
 
 - Pindahkan file-file yang terinfeksi kepada suatu direktori:
 

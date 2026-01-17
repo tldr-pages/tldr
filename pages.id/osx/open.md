@@ -5,7 +5,7 @@
 
 - Buka sebuah file di dalam aplikasi default:
 
-`open {{jalan/menuju/file.ext}}`
+`open {{jalan/menuju/berkas.ext}}`
 
 - Buka aplikasi macOS tertentu:
 
@@ -21,7 +21,7 @@
 
 - Lihat sebuah file di dalam aplikasi Finder:
 
-`open -R {{jalan/menuju/file}}`
+`open -R {{jalan/menuju/berkas}}`
 
 - Buka semua file dengan ekstensi tertentu di dalam aplikasi default pada direktori saat ini:
 

@@ -1,36 +1,37 @@
 # choco install
 
-> Instal satu paket atau lebih dengan Chocolatey.
+> Pasang suatu atau beberapa paket dengan Chocolatey.
+> Beberapa subperintah termasuk `install`, `upgrade`, `pin` memiliki dokumentasi terpisah.
 > Informasi lebih lanjut: <https://docs.chocolatey.org/en-us/choco/commands/install/>.
 
-- Instal satu paket atau lebih paket yang dipisahkan oleh spasi:
+- Pasang suatu atau beberapa paket yang dipisahkan oleh spasi:
 
-`choco install {{paket}}`
+`choco install {{nama_paket}}`
 
-- Instal paket dari file konfigurasi khusus:
+- Mutakhirkan pemasangan suatu paket:
 
-`choco install {{jalan/menuju/paket.config}}`
+`choco upgrade {{nama_paket}}`
 
-- Instal file `.nuspec` atau `.nupkg` tertentu:
+- Mutakhirkan seluruh paket lawas dan lakukan persetujuan pemasangan secara otomatis:
 
-`choco install {{jalan/menuju/file}}`
+`choco upgrade all {{[-y|--yes]}}`
 
-- Instal versi paket tertentu:
+- Hapus pemasangan suatu paket dan lakukan persetujuan penghapusan secara otomatis:
 
-`choco install {{paket}} --version {{versi}}`
+`choco uninstall {{nama_paket}} {{[-y|--yes]}}
 
-- Izinkan menginstal beberapa versi paket:
+- Cari suatu paket berdasarkan nama atau kata kunci
 
-`choco install {{paket}} --allow-multiple`
+`choco search {{query}}`
 
-- Konfirmasikan semua prompt secara otomatis:
+- Tampilkan daftar seluruh paket yang terpasang dalam perangkat:
 
-`choco install {{paket}} --yes`
+`choco list`
 
-- Tentukan sumber khusus untuk menerima paket:
+- Tampilkan daftar paket lawas yang diketahui memiliki versi terbaru:
 
-`choco install {{paket}} --source {{url_sumber|alias}}`
+`choco outdated`
 
-- Berikan nama pengguna dan kata sandi untuk otentikasi:
+- Pasang suatu paket dari suatu [s]umber secara spesifik:
 
-`choco install {{paket}} --user {{nama_pengguna}} --password {{kata_sandi}}`
+`choco install {{nama_paket}} {{[-s|--source]}} {{sumber}}`

@@ -14,4 +14,4 @@
 
 - Pasang paket menurut informasi paket yang dikeluarkan dari `pkg_info`:
 
-`pkg_add -l {{jalan/menuju/file_hasil_pkg_info}}`
+`pkg_add -l {{jalan/menuju/berkas_hasil_pkg_info}}`

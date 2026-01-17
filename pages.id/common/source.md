@@ -5,8 +5,8 @@
 
 - Mengevaluasi konten pada file yang ditentukan:
 
-`source {{jalan/menuju/file}}`
+`source {{jalan/menuju/berkas}}`
 
 - Mengevaluasi konten pada file yang ditentukan (`.` adalah alias dari `source`):
 
-`. {{jalan/menuju/file}}`
+`. {{jalan/menuju/berkas}}`

@@ -6,8 +6,8 @@
 
 - Buat pasangan kunci, simpan ke dalam file tanpa enkripsi, dan cetak kunci publik menuju `stdout`:
 
-`age-keygen --output {{jalan/menuju/file}}`
+`age-keygen --output {{jalan/menuju/berkas}}`
 
 - Ubah sebuah kunci identitas menjadi penerima dan cetak kunci publik menuju `stdout`:
 
-`age-keygen -y {{jalan/menuju/file}}`
+`age-keygen -y {{jalan/menuju/berkas}}`

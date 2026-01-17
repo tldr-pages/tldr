@@ -13,7 +13,7 @@
 
 - Jalankan berkas program dan jalankan ulang saat isi dari berkas tersebut terubah (membutuhkan Node.js versi 18.11+):
 
-`node --watch {{jalan/menuju/file}}`
+`node --watch {{jalan/menuju/berkas}}`
 
 - Evaluasi kode JavaScript dengan memberikanya sebagai sebuah argument:
 

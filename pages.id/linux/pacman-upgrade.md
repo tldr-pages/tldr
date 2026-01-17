@@ -14,7 +14,7 @@
 
 - Timpa file yang bentrok selama pemasangan paket:
 
-`sudo pacman --upgrade --overwrite {{jalan/menuju/file}} {{jalan/menuju/paket.pkg.tar.zst}}`
+`sudo pacman --upgrade --overwrite {{jalan/menuju/berkas}} {{jalan/menuju/paket.pkg.tar.zst}}`
 
 - Instal paket, melewati pemeriksaan versi dependensi:
 
