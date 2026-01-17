@@ -11,7 +11,7 @@
 
 `alembic revision --autogenerate -m "{{message}}"`
 
-- Mettre à jour la base de données vers la dernière révision :
+- Met à jour la base de données vers la dernière révision :
 
 `alembic upgrade head`
 
