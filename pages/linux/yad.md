@@ -23,6 +23,6 @@
 
 `yad --list --column={{Name}} --column={{Age}} {{Alice}} {{20}} {{Bob}} {{30}}`
 
-- Show a progress bar:
+- Open a pulsating progress bar that automatically closes at 100%:
 
-`{{command}} | yad --progress --pulsate --auto-close --text={{Working...}}`
+`{{command}} | yad --progress --pulsate --auto-close --text "{{message}}"`
