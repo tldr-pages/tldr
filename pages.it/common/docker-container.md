@@ -5,23 +5,23 @@
 
 - Elenca i container Docker attualmente in esecuzione:
 
-`docker container ls`
+`docker {{[ps|container ls]}}`
 
 - Avvia uno o più container fermi:
 
-`docker container start {{nome_container1}} {{nome_container2}}`
+`docker {{[start|container start]}} {{nome_container1}} {{nome_container2}}`
 
 - Termina uno o più container in esecuzione:
 
-`docker container kill {{nome_container}}`
+`docker {{[kill|container kill]}} {{nome_container}}`
 
 - Ferma uno o più container in esecuzione:
 
-`docker container stop {{nome_container}}`
+`docker {{[stop|container stop]}} {{nome_container}}`
 
 - Sospendi tutti i processi dentro uno o più container:
 
-`docker container pause {{nome_container}}`
+`docker {{[pause|container pause]}} {{nome_container}}`
 
 - Mostra informazioni dettagliate su uno o più container:
 
@@ -29,8 +29,8 @@
 
 - Esporta il filesystem di un container come archivio `.tar`:
 
-`docker container export {{nome_container}}`
+`docker {{[export|container export]}} {{nome_container}}`
 
 - Crea una nuova immagine dai cambiamenti di un container:
 
-`docker container commit {{nome_container}}`
+`docker {{[commit|container commit]}} {{nome_container}}`
