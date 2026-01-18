@@ -10,23 +10,23 @@
 
 - Compile a DVI document from a specific source file:
 
-`latexmk {{path/to/source}}.tex`
+`latexmk {{path/to/source.tex}}`
 
 - Compile a PDF document:
 
-`latexmk -pdf {{path/to/source}}.tex`
+`latexmk -pdf {{path/to/source.tex}}`
 
 - Open the document in a viewer and continuously update it whenever source files change:
 
-`latexmk -pvc {{path/to/source}}.tex`
+`latexmk -pvc {{path/to/source.tex}}`
 
 - Force the generation of a document even if there are errors:
 
-`latexmk -f {{path/to/source}}.tex`
+`latexmk -f {{path/to/source.tex}}`
 
 - Clean up temporary files created for a specific TEX file:
 
-`latexmk -c {{path/to/source}}.tex`
+`latexmk -c {{path/to/source.tex}}`
 
 - Clean up all temporary files in the current directory:
 
