@@ -10,7 +10,7 @@
 
 - 기본 Arch Linux 키 추가:
 
-`sudo pacman-key --populate {{archlinux}}`
+`sudo pacman-key --populate`
 
 - 공개 키링에서 키 나열:
 

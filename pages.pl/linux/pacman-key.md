@@ -10,7 +10,7 @@
 
 - Dodaj domyślne klucze Arch Linuksa:
 
-`sudo pacman-key --populate {{archlinux}}`
+`sudo pacman-key --populate`
 
 - Wyświetl klucze z pęku publicznego:
 

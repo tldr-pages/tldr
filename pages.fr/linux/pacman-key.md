@@ -10,7 +10,7 @@
 
 - Ajoute les clés par défaut pour Arch Linux :
 
-`sudo pacman-key --populate {{archlinux}}`
+`sudo pacman-key --populate`
 
 - Liste les clés publiques du trousseau de clés :
 

@@ -10,7 +10,7 @@
 
 - Adiciona as chaves padrão do Arch Linux:
 
-`sudo pacman-key --populate {{archlinux}}`
+`sudo pacman-key --populate`
 
 - Lista chaves do chaveiro público:
 

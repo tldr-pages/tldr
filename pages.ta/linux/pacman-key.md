@@ -10,7 +10,7 @@
 
 - இயல்பு ஆர்ச் லினக்ஸ் விசைகளைச் சேர்க்கவும்:
 
-`sudo pacman-key --populate {{archlinux}}`
+`sudo pacman-key --populate`
 
 - பொது விசையிலிருந்து விசைகளை பட்டியலிடவும்:
 
