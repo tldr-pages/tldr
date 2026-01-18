@@ -21,4 +21,4 @@
 
 - List available serial ports:
 
-`tio --list`
+`tio {{[-l|--list]}}`
