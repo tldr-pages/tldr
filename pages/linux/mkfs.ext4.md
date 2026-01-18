@@ -10,3 +10,7 @@
 - Create an ext4 filesystem with a volume-label:
 
 `sudo mkfs.ext4 -L {{volume_label}} {{/dev/sdXY}}`
+
+- Create an ext4 filesystem and give root ownership to the current user:
+
+`sudo mkfs.ext4 -E root_owner {{/dev/sdXY}}`
