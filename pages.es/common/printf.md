@@ -6,7 +6,7 @@
 
 - Imprime un mensaje de texto:
 
-`printf "{{%s\n}}" "{{Hola mundo}}"``
+`printf "{{%s\n}}" "{{Hola mundo}}"`
 
 - Imprime un número entero en negrita azul:
 
