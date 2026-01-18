@@ -9,7 +9,7 @@
 
 - Open a serial port with a specific baud rate:
 
-`tio -b {{9600}} {{/dev/ttyUSB0}}`
+`tio {{[-b|--baudrate]}} {{9600}} {{/dev/ttyUSB0}}`
 
 - Open a serial port and log output to a file:
 
