@@ -6,32 +6,32 @@
 
 - Pasang suatu atau beberapa paket yang dipisahkan oleh spasi:
 
-`choco install {{nama_paket}}`
+`choco install {{nama_paket1 nama_paket2 ...}}`
 
-- Mutakhirkan pemasangan suatu paket:
+- Pasang kumpulan paket dari suatu berkas konfigurasi:
 
-`choco upgrade {{nama_paket}}`
+`choco install {{jalan\menuju\berkas_daftar_paket.config}}`
 
-- Mutakhirkan seluruh paket lawas dan lakukan persetujuan pemasangan secara otomatis:
+- Pasang suatu paket dari berkas `.nuspec` atau `.nupkg` secara spesifik:
 
-`choco upgrade all {{[-y|--yes]}}`
+`choco install {{jalan\menuju\berkas}}`
 
-- Hapus pemasangan suatu paket dan lakukan persetujuan penghapusan secara otomatis:
+- Pasang suatu paket dengan versi spesifik:
 
-`choco uninstall {{nama_paket}} {{[-y|--yes]}}
+`choco install {{nama_paket}} --version {{versi}}`
 
-- Cari suatu paket berdasarkan nama atau kata kunci
+- Izinkan untuk memasang beberapa versi dari paket yang sama:
 
-`choco search {{query}}`
+`choco install {{nama_paket}} --allow-multiple`
 
-- Tampilkan daftar seluruh paket yang terpasang dalam perangkat:
+- Lakukan konfirmasi perizinan secara otomatis:
 
-`choco list`
+`choco install {{nama_paket}} --yes`
 
-- Tampilkan daftar paket lawas yang diketahui memiliki versi terbaru:
+- Tentukan suatu sumber untuk mendapatkan kumpulan paket:
 
-`choco outdated`
+`choco install {{nama_paket}} --source {{url_sumber|alias}}`
 
-- Pasang suatu paket dari suatu [s]umber secara spesifik:
+- Sediakan nama pengguna (username) dan kata sandi untuk autentikasi:
 
-`choco install {{nama_paket}} {{[-s|--source]}} {{sumber}}`
+`choco install {{nama_paket}} --user {{username}} --password {{kata_sandi}}`

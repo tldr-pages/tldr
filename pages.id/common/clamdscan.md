@@ -1,9 +1,9 @@
 # clamdscan
 
-> Sebuah program pemindai virus berbasis command-line.
+> Sebuah program baris perintah untuk memindai virus komputer.
 > Informasi lebih lanjut: <https://docs.clamav.net/manual/Usage/Scanning.html#clamdscan>.
 
-- Pindai kerentanan suatu file atau direktori tertentu:
+- Pindai kerentanan suatu berkas atau direktori tertentu:
 
 `clamdscan {{jalan/menuju/berkas_atau_direktori}}`
 
@@ -11,19 +11,19 @@
 
 `{{perintah}} | clamdscan -`
 
-- Pindai direktori saat ini dan hanya tampilkan file yang terinfeksi:
+- Pindai direktori saat ini dan hanya tampilkan berkas yang terinfeksi:
 
 `clamdscan --infected`
 
-- Simpan hasil laporan pemindaian kepada sebuah file log:
+- Simpan hasil laporan pemindaian kepada sebuah berkas log:
 
 `clamdscan --log {{jalan/menuju/berkas_log}}`
 
-- Pindahkan file-file yang terinfeksi kepada suatu direktori:
+- Pindahkan berkas-berkas yang terinfeksi kepada suatu direktori:
 
 `clamdscan --move {{jalan/menuju/direktori_karantina}}`
 
-- Hapus file-file yang terinfeksi:
+- Hapus berkas-berkas yang terinfeksi:
 
 `clamdscan --remove`
 
@@ -31,6 +31,6 @@
 
 `clamdscan --multiscan`
 
-- Pindai file dengan memberikan deskriptor kepada daemon daripada mengoper isi mentah file tersebut seperti biasa:
+- Pindai berkas dengan memberikan deskriptor kepada daemon daripada mengoper isi mentah berkas tersebut seperti biasa:
 
 `clamdscan --fdpass`

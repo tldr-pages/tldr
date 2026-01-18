@@ -10,7 +10,7 @@
 
 - Hapus pemasangan sebuah paket:
 
-`dpkg {{[-r|--remove]}} {{nama_paket}}`
+`sudo dpkg {{[-r|--remove]}} {{nama_paket}}`
 
 - Tampilkan daftar paket yang terpasang:
 

@@ -6,7 +6,7 @@
 
 - Unduh konten URL ke file:
 
-`Invoke-WebRequest {{http://example.com}} -OutFile {{jalan/menuju/berkas}}`
+`Invoke-WebRequest {{http://example.com}} -OutFile {{jalan\menuju\berkas}}`
 
 - Kirim data form yang telah di encode (permintaan POST atau tipe data `application/x-www-form-urlencoded`):
 
@@ -18,7 +18,7 @@
 
 - Kirim data dalam format JSON, Menentukan jenis konten yang sesuai header:
 
-`Invoke-WebRequest -Body {{'{"name":"bob"}'}} -ContentType 'application/json' {{http://example.com/users/1234}}`
+`Invoke-WebRequest -Body '{{{"name":"bob"}}}' -ContentType 'application/json' {{http://example.com/users/1234}}`
 
 - Berikan nama pengguna dan kata sandi untuk otentikasi server:
 

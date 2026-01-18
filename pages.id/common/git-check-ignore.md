@@ -1,19 +1,19 @@
 # git check-ignore
 
-> Analisa kumpulan file yang diabaikan/dikecualikan oleh Git (didefinisikan dalam `.gitignore`).
+> Analisa kumpulan berkas yang diabaikan/dikecualikan oleh Git (didefinisikan dalam `.gitignore`).
 > Informasi lebih lanjut: <https://git-scm.com/docs/git-check-ignore>.
 
-- Cek apakah suatu file atau direktori telah diabaikan:
+- Cek apakah suatu berkas atau direktori telah diabaikan:
 
 `git check-ignore {{jalan/menuju/berkas_atau_direktori}}`
 
-- Cek apakah lebih dari satu file atau direktori telah diabaikan:
+- Cek apakah lebih dari satu berkas atau direktori telah diabaikan:
 
 `git check-ignore {{jalan/menuju/berkas_atau_direktori1 jalan/menuju/berkas_atau_direktori2 ...}}`
 
-- Cek pengecualian file dan direktori menggunakan daftar yang didefinisikan dalam `stdin`:
+- Cek pengecualian berkas dan direktori menggunakan daftar yang didefinisikan dalam `stdin`:
 
-`git check-ignore --stdin < {{jalan/menuju/berkas_daftar}}`
+`git < {{jalan/menuju/berkas_daftar}} check-ignore --stdin`
 
 - Jangan cek index Git (biasanya dipakai untuk mengetahui mengapa terdapat jalur yang tetap dilacak Git dan tak diabaikan):
 

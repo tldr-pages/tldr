@@ -1,9 +1,9 @@
 # a2ping
 
-> Ubah file gambar menjadi EPS atau PDF.
+> Ubah berkas gambar menjadi EPS atau PDF.
 > Informasi lebih lanjut: <https://manned.org/a2ping>.
 
-- Ubah sebuah gambar menjadi PDF (Catatan: Nama file output bersifat opsional):
+- Ubah sebuah gambar menjadi PDF (Catatan: Nama berkas output bersifat opsional):
 
 `a2ping {{jalan/menuju/gambar.ext}} {{jalan/menuju/output.pdf}}`
 
@@ -27,6 +27,6 @@
 
 `a2ping --extra {{arguments}} {{jalan/menuju/berkas}}`
 
-- Tampilkan informasi bantuan:
+- Tampilkan bantuan:
 
-`a2ping -h`
+`a2ping {{[-h|--help]}}`

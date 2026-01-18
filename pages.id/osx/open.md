@@ -1,11 +1,11 @@
 # open
 
-> Buka file, direktori, dan aplikasi.
+> Buka berkas, direktori, dan aplikasi.
 > Informasi lebih lanjut: <https://keith.github.io/xcode-man-pages/open.1.html>.
 
-- Buka sebuah file di dalam aplikasi default:
+- Buka sebuah berkas di dalam aplikasi default:
 
-`open {{jalan/menuju/berkas.ext}}`
+`open {{berkas.ext}}`
 
 - Buka aplikasi macOS tertentu:
 
@@ -19,10 +19,14 @@
 
 `open .`
 
-- Lihat sebuah file di dalam aplikasi Finder:
+- Tampilkan lokasi suatu berkas di dalam aplikasi Finder:
 
 `open -R {{jalan/menuju/berkas}}`
 
-- Buka semua file dengan ekstensi tertentu di dalam aplikasi default pada direktori saat ini:
+- Buka semua berkas dengan ekstensi tertentu di dalam aplikasi default pada direktori saat ini:
 
 `open {{*.ext}}`
+
+- Buka instansi baru ([n]ew) bagi suatu aplikasi, yang diidentifikasikan dengan [b]undle identifier:
+
+`open -n -b {{com.domain.application}}`

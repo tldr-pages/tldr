@@ -1,36 +1,36 @@
 # clamscan
 
-> Sebuah program pemindai virus berbasis command-line.
+> Sebuah program baris perintah untuk memindai virus komputer.
 > Informasi lebih lanjut: <https://docs.clamav.net/manual/Usage/Scanning.html#clamscan>.
 
-- Pindai kerentanan sebuah file:
+- Pindai kerentanan sebuah berkas:
 
 `clamscan {{jalan/menuju/berkas}}`
 
-- Pindai seluruh file dalam sebuah direktori secara rekursif:
+- Pindai seluruh berkas dalam sebuah direktori secara rekursif:
 
-`clamscan -r {{jalan/menuju/direktori}}`
+`clamscan {{[-r|--recursive]}} {{jalan/menuju/direktori}}`
 
 - Pindai data dari input `stdin`:
 
 `{{perintah}} | clamscan -`
 
-- Gunakan basis data (database) definisi virus yang terkandung dalam sebuah file atau direktori:
+- Gunakan basis data (database) definisi virus yang terkandung dalam sebuah berkas atau direktori:
 
-`clamscan --database {{jalan/menuju/berkas_atau_direktori_basis_data}}`
+`clamscan {{[-d|--database]}} {{jalan/menuju/berkas_atau_direktori_basis_data}}`
 
-- Pindai direktori saat ini dan hanya tampilkan file yang terinfeksi:
+- Pindai direktori saat ini dan hanya tampilkan berkas yang terinfeksi:
 
-`clamscan --infected`
+`clamscan {{[-i|--infected]}}`
 
-- Simpan hasil laporan pemindaian kepada sebuah file log:
+- Simpan hasil laporan pemindaian kepada sebuah berkas log:
 
-`clamscan --log {{jalan/menuju/berkas_log}}`
+`clamscan {{[-l|--log]}} {{jalan/menuju/berkas_log}}`
 
-- Pindahkan file-file yang terinfeksi kepada suatu direktori:
+- Pindahkan berkas-berkas yang terinfeksi kepada suatu direktori:
 
 `clamscan --move {{jalan/menuju/direktori_karantina}}`
 
-- Hapus file-file yang terinfeksi:
+- Hapus berkas-berkas yang terinfeksi:
 
 `clamscan --remove yes`
