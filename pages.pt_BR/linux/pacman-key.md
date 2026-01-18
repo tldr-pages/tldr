@@ -14,19 +14,19 @@
 
 - Lista chaves do chaveiro público:
 
-`pacman-key --list-keys`
+`pacman-key {{[-l|--list-keys]}}`
 
 - Adiciona as chaves especificadas:
 
-`sudo pacman-key --add {{caminho/para/arquivo_chave.gpg}}`
+`sudo pacman-key {{[-a|--add]}} {{caminho/para/arquivo_chave.gpg}}`
 
 - Recebe uma chave do servidor de chaves:
 
-`sudo pacman-key --recv-keys "{{uid|nome|email}}"`
+`sudo pacman-key {{[-r|--recv-keys]}} "{{uid|nome|email}}"`
 
 - Imprime a impressão digital de uma chave específica:
 
-`pacman-key --finger "{{uid|nome|email}}"`
+`pacman-key {{[-f|--finger]}} "{{uid|nome|email}}"`
 
 - Assina uma chave importada localmente:
 
@@ -34,4 +34,4 @@
 
 - Remove uma chave específica:
 
-`sudo pacman-key --delete "{{uid|nome|email}}"`
+`sudo pacman-key {{[-d|--delete]}} "{{uid|nome|email}}"`

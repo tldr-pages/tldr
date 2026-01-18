@@ -14,19 +14,19 @@
 
 - Wyświetl klucze z pęku publicznego:
 
-`pacman-key --list-keys`
+`pacman-key {{[-l|--list-keys]}}`
 
 - Dodaj podane klucze:
 
-`sudo pacman-key --add {{ścieżka/do/klucza.gpg}}`
+`sudo pacman-key {{[-a|--add]}} {{ścieżka/do/klucza.gpg}}`
 
 - Pobierz klucz z serwera kluczy:
 
-`sudo pacman-key --recv-keys "{{uid|imię|email}}"`
+`sudo pacman-key {{[-r|--recv-keys]}} "{{uid|imię|email}}"`
 
 - Wyświetl odcisk podanego klucza:
 
-`pacman-key --finger "{{uid|imię|email}}"`
+`pacman-key {{[-f|--finger]}} "{{uid|imię|email}}"`
 
 - Podpisz zaimportowany klucz lokalnie:
 
@@ -34,4 +34,4 @@
 
 - Usuń podany klucz:
 
-`sudo pacman-key --delete "{{uid|imię|email}}"`
+`sudo pacman-key {{[-d|--delete]}} "{{uid|imię|email}}"`

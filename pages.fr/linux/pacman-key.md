@@ -14,19 +14,19 @@
 
 - Liste les clés publiques du trousseau de clés :
 
-`pacman-key --list-keys`
+`pacman-key {{[-l|--list-keys]}}`
 
 - Ajoute les clés contenues dans le fichier spécifié :
 
-`sudo pacman-key --add {{chemin/vers/fichier}}`
+`sudo pacman-key {{[-a|--add]}} {{chemin/vers/fichier}}`
 
 - Reçois une clé depuis un serveur de clés :
 
-`sudo pacman-key --recv-keys "{{uid|nom|email}}"`
+`sudo pacman-key {{[-r|--recv-keys]}} "{{uid|nom|email}}"`
 
 - Affiche l'empreinte d'une clé du trousseau de clés :
 
-`pacman-key --finger "{{uid|nom|email}}"`
+`pacman-key {{[-f|--finger]}} "{{uid|nom|email}}"`
 
 - Signe, localement, une clé du trousseau de clés :
 
@@ -34,4 +34,4 @@
 
 - Supprime une clé :
 
-`sudo pacman-key --delete "{{uid|nom|email}}"`
+`sudo pacman-key {{[-d|--delete]}} "{{uid|nom|email}}"`
