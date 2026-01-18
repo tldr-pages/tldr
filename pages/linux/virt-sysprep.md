@@ -13,7 +13,7 @@
 
 `sudo virt-sysprep {{[-d|--domain]}} {{vm_name}} --operations {{operation1,operation2,...}}`
 
-- Remove sensitive system data from a virtual machine image:
+- Remove sensitive system data from a virtual machine image (operations marked as default):
 
 `sudo virt-sysprep {{[-a|--add]}} {{path/to/image.qcow2}}`
 
@@ -21,9 +21,9 @@
 
 `sudo virt-sysprep {{[-d|--domain]}} {{vm_name}} {{[-n|--dry-run]}}`
 
-- Reset network interface configurations and the hostname to avoid network conflicts:
+- Reset NetworkManager network configurations, persistent MAC mappings, and the hostname to avoid network conflicts:
 
-`sudo virt-sysprep {{[-d|--domain]}} {{vm_name}} --operations machine-id,customize --hostname {{new_hostname}}`
+`sudo virt-sysprep {{[-d|--domain]}} {{vm_name}} --operations machine-id,net-hwaddr,net-hostname,net-nmconn,customize --hostname {{new_hostname}}`
 
 - Set the root password for a disk image:
 
