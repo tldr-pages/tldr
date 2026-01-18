@@ -1,6 +1,7 @@
 # systemctl disable
 
 > Schakel systemd-services uit.
+> Zie ook: `systemctl revert`.
 > Meer informatie: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#disable%20UNIT%E2%80%A6>.
 
 - Voorkom dat een service automatisch opstart:

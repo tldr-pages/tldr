@@ -5,12 +5,12 @@
 
 - Compileer een bronbestand naar een objectbestand:
 
-`mpicc -c {{pad/naar/bestand.c}}`
+`mpicc -c {{pad/naar/bestand}}.c`
 
 - Koppel een objectbestand en maak een executable:
 
-`mpicc -o {{executable}} {{pad/naar/objectbestand.o}}`
+`mpicc -o {{executable}} {{pad/naar/objectbestand}}.o`
 
 - Compileer en koppel een bronbestand in één commando:
 
-`mpicc -o {{executable}} {{pad/naar/bestand.c}}`
+`mpicc -o {{executable}} {{pad/naar/bestand}}.c`
