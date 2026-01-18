@@ -17,7 +17,7 @@
 
 - Open a serial port and enable hexadecimal output:
 
-`tio -H {{/dev/ttyUSB0}}`
+`tio --output-mode hex {{/dev/ttyUSB0}}`
 
 - List available serial ports:
 
