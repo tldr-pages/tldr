@@ -13,7 +13,7 @@
 
 - Open a serial port and log output to a file:
 
-`tio {{[-L| --log]}} --log-file {{log_file}} {{/dev/ttyUSB0}}`
+`tio {{[-L|--log]}} --log-file {{log_file}} {{/dev/ttyUSB0}}`
 
 - Open a serial port and enable hexadecimal output:
 
