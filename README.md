@@ -162,6 +162,10 @@ You are also welcome to join us on the [matrix chatroom](https://matrix.to/#/#tl
   The examples are submitted by the user base, and can be voted up or down;
   the best entries are what people see first when they look up a command.
 
+- [Semantic Search for TLDR pages](https://jslambda.github.io/tldr-vsearch)
+  provides semantic search for TLDR pages, working fully client-side in the browser. For example try searching for 'convert json to yaml'.
+  The project uses the TLDR pages and can be helpful to users who prefer searching by description and intent rather than by command name.
+
 ## What does "tldr" mean?
 
 TL;DR stands for "Too Long; Didn't Read".
