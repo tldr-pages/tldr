@@ -9,7 +9,7 @@
 
 - اضافه کردن یک وظیفه به فهرست کارها :
 
-`todo new {{thing_to_do}} --list {{work}}`
+`todo new {{thing_to_do}} {{[-l|--list]}} {{work}}`
 
 - اضافه کردن مکان به یک وظیفه با آیدی:
 
