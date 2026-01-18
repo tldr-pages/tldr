@@ -2,6 +2,7 @@
 
 > Manajer paket Debian.
 > Beberapa subperintah seperti `deb` memiliki dokumentasi terpisah.
+> Lihat <https://wiki.archlinux.org/title/Pacman/Rosetta> untuk daftar perintah dalam manajer paket lain yang menyerupai perintah `dpkg`.
 > Informasi lebih lanjut: <https://manned.org/dpkg>.
 
 - Pasang suatu paket:

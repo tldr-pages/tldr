@@ -1,7 +1,6 @@
 # choco install
 
 > Pasang suatu atau beberapa paket dengan Chocolatey.
-> Beberapa subperintah termasuk `install`, `upgrade`, `pin` memiliki dokumentasi terpisah.
 > Informasi lebih lanjut: <https://docs.chocolatey.org/en-us/choco/commands/install/>.
 
 - Pasang suatu atau beberapa paket yang dipisahkan oleh spasi:
