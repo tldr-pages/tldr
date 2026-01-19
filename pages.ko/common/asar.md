@@ -5,16 +5,16 @@
 
 - 파일 또는 디렉토리 보관:
 
-`asar pack {{path/to/file_or_directory}} {{archived.asar}}`
+`asar {{[p|pack]}} {{path/to/file_or_directory}} {{archived.asar}}`
 
 - 보관소 추출:
 
-`asar extract {{archived.asar}}`
+`asar {{[e|extract]}} {{archived.asar}}`
 
 - 보관소에서 특정 파일 추출:
 
-`asar extract-file {{archived.asar}} {{file}}`
+`asar {{[ef|extract-file]}} {{archived.asar}} {{file}}`
 
 - 보관소 파일의 내용을 나열:
 
-`asar list {{archived.asar}}`
+`asar {{[l|list]}} {{archived.asar}}`

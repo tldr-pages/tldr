@@ -17,8 +17,8 @@
 
 - Executa `aspell` utilizando uma língua diferente (informe o código ISO 639 da língua):
 
-`aspell --lang={{cs}}`
+`aspell --lang {{cs}}`
 
 - Exibe os erros ortográficos no terminal e ignorando as palavras da lista pessoal:
 
-`cat {{arquivo}} | aspell --personal={{lista_pessoal.pws}} list`
+`cat {{arquivo}} | aspell --personal {{lista_pessoal.pws}} list`

@@ -1,6 +1,7 @@
 # systemctl disable
 
 > Disable systemd services.
+> See also: `systemctl revert`.
 > More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#disable%20UNIT%E2%80%A6>.
 
 - Stop a service from running on boot:
