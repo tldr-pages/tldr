@@ -26,4 +26,4 @@
 
 - Imprime un número hexadecimal, octal y científico:
 
-`printf "{{hex=%x octal=%o scientific=%e\n}}" 0{{FF}} 0{{377}} {{100000}}`
+`printf "{{hex=%x octal=%o scientific=%e\n}}" 0x{{FF}} 0{{377}} {{100000}}`
