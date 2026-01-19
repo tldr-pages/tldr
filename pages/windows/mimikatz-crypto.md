@@ -1,6 +1,6 @@
 # mimikatz crypto
 
-> Manipulate Windows cryptographic services and certificates.
+> Manipulates Windows cryptographic services and certificates, allowing you to list and export certificates and keys, even those marked as non-exportable. > It generally requires elevated privileges, especially when accessing system keys.
 > More information: <https://github.com/gentilkiwi/mimikatz>.
 
 - List cryptographic providers:
