@@ -24,6 +24,6 @@
 
 `frpc completion {{bash|fish|powershell|zsh}}`
 
-- 显示版本号：
+- 显示版本：
 
 `frpc {{[-v|--version]}}`
