@@ -26,5 +26,3 @@
 - Revierte (cancela) la última acción en el perfil predeterminado:
 
 `nix profile rollback`
-
-Traducción realizada con la versión gratuita del traductor DeepL.com
