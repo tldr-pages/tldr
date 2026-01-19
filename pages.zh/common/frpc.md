@@ -1,7 +1,7 @@
 # frpc
 
 > frp 客户端组件，用于连接 frps 服务端并启动反向代理。
-> 属于 frp 的一部分。
+> 属于 `frp` 的一部分。
 > 更多信息：<https://github.com/fatedier/frp>。
 
 - 使用默认配置文件（当前目录下的 `frpc.ini`）启动服务：
