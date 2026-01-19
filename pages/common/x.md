@@ -1,6 +1,6 @@
 # x
 
-> A command-line tool for managing modules and packages.
+> Manage modules and packages.
 > More information: <https://x-cmd.com>.
 
 - Use a module (e.g., path module):

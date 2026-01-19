@@ -21,4 +21,4 @@
 
 - Show help:
 
-`x ping -h`
+`x ping {{[-h|--help]}}`
