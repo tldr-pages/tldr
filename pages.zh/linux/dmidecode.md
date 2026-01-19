@@ -10,20 +10,20 @@
 
 - 显示 BIOS 版本：
 
-`sudo dmidecode -s bios-version`
+`sudo dmidecode {{[-s|--string]}} bios-version`
 
 - 显示系统的序列号：
 
-`sudo dmidecode -s system-serial-number`
+`sudo dmidecode {{[-s|--string]}} system-serial-number`
 
 - 显示 BIOS 信息：
 
-`sudo dmidecode -t bios`
+`sudo dmidecode {{[-t|--type]}} bios`
 
 - 显示 CPU 信息：
 
-`sudo dmidecode -t processor`
+`sudo dmidecode {{[-t|--type]}} processor`
 
 - 显示内存信息：
 
-`sudo dmidecode -t memory`
+`sudo dmidecode {{[-t|--type]}} memory`

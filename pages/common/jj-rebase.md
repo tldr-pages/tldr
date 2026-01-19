@@ -1,7 +1,7 @@
 # jj rebase
 
 > Move revisions to different parent(s).
-> More information: <https://jj-vcs.github.io/jj/latest/cli-reference/#jj-rebase>.
+> More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-rebase>.
 
 - Move given revisions to a different parent(s):
 

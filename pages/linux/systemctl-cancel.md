@@ -1,7 +1,7 @@
 # systemctl cancel
 
 > Cancel one or more pending jobs in the system manager or user manager.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#cancel%20JOB%E2%80%A6>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#cancel%20JOB%E2%80%A6>.
 
 - Cancel a job by its numeric ID:
 

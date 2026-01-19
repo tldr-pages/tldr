@@ -19,6 +19,6 @@
 
 `<Ctrl a><Ctrl x>`
 
-- 显示帮助信息：
+- 显示帮助：
 
 `picocom {{[-h|--help]}}`
