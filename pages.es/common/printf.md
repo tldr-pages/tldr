@@ -14,7 +14,7 @@
 
 - Imprime un número flotante con el signo del euro Unicode:
 
-`printf "{{u20AC %.2f\n}}" {{123.4}}`
+`printf "{{\u20AC %.2f\n}}" {{123.4}}`
 
 - Imprime un mensaje de texto compuesto con variables de entorno:
 
