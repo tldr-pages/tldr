@@ -10,20 +10,20 @@
 
 - BIOS 버전 표시:
 
-`sudo dmidecode -s bios-version`
+`sudo dmidecode {{[-s|--string]}} bios-version`
 
 - 시스템의 일련번호 표시:
 
-`sudo dmidecode -s system-serial-number`
+`sudo dmidecode {{[-s|--string]}} system-serial-number`
 
 - BIOS 정보 표시:
 
-`sudo dmidecode -t bios`
+`sudo dmidecode {{[-t|--type]}} bios`
 
 - CPU 정보 표시:
 
-`sudo dmidecode -t processor`
+`sudo dmidecode {{[-t|--type]}} processor`
 
 - 메모리 정보 표시:
 
-`sudo dmidecode -t memory`
+`sudo dmidecode {{[-t|--type]}} memory`
