@@ -23,7 +23,3 @@
 - Create a virtual machine and kickstart an automated deployment based on Fedora 43 using only remote resources (no ISO required):
 
 `virt-install {{[-n|--name]}} {{vm_name}} --memory {{2048}} --disk path={{path/to/image.qcow2}},size={{20}} {{[-l|--location]}} {{https://download.fedoraproject.org/pub/fedora/linux/releases/43/Everything/x86_64/os/}} {{[-x|--extra-args]}} "{{inst.ks=https://example.com/path/to/kickstart.ks}}"`
-
-- Create a virtual machine with hardened isolation to prevent VM escapes:
-
-`virt-install --connect {{qemu:///system}} {{[-n|--name]}} {{vm_name}} --memory {{2048}} --vcpus {{2}} --cpu {{host-model}} --features {{kvm.hidden.state=on}} --disk path={{path/to/image.qcow2}},size={{20}} {{[-c|--cdrom]}} {{path/to/kali.iso}} --graphics {{spice,listen=none,clipboard.copypaste=no,filetransfer.enable=no,gl.enable=no}} --video {{virtio,accel3d=no}} --sound {{none}} --os-variant {{debian12}} --redirdev {{none}} --input {{type=tablet,bus=virtio}} --channel {{none}}`
