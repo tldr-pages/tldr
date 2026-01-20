@@ -3,7 +3,7 @@
 > `nginx` 구성 파일 분석.
 > 더 많은 정보: <https://github.com/dvershinin/gixy#usage>.
 
-- nginx 구성 파일 분석 (기본 경로: `/etc/nginx/`nginx`.conf`):
+- `nginx` 구성 파일 분석 (기본 경로: `/etc/nginx/nginx.conf`):
 
 `gixy`
 
