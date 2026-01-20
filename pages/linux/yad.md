@@ -22,7 +22,7 @@
 
 - Display a list dialog with multiple columns and data:
 
-`yad --list --column "{{col1}}" --column "{{col2}}" {{"col1_row1" "col2_row1" "col1_row2" "col2_row2" ...}}`
+`yad --list --column "{{col1}}" --column "{{col2}}" {{col1_row1 col2_row1 col1_row2 col2_row2 ...}}`
 
 - Open a pulsating progress bar that automatically closes at 100%:
 
