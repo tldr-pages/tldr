@@ -9,9 +9,9 @@
 
 `ddcutil {{[det|detect]}}`
 
-- Query a specific display for capabilities:
+- Query the first compatible display for capabilities:
 
-`ddcutil {{[-d|--display]}} {{1}} {{[cap|capabilities]}}`
+`ddcutil {{[cap|capabilities]}}`
 
 - Change the brightness (option 0x10) of display 1 to 50%:
 
