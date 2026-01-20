@@ -1,7 +1,7 @@
 # virt-install
 
 > Create virtual machines with libvirt and begin OS installation.
-> Note: You may need to pass `--connect URI` to the commands or setup the URI in `$XDG_CONFIG_HOME/libvirt/libvirt.conf`.
+> Note: You may need to pass `--connect URI` to the commands or set up the URI in `$XDG_CONFIG_HOME/libvirt/libvirt.conf`.
 > More information: <https://manned.org/virt-install>.
 
 - Create a virtual machine with 1 GB RAM and 12 GB storage and start a Debian installation:
