@@ -17,4 +17,4 @@
 
 - Analyze `nginx` configuration files on the specific path:
 
-`gixy {{path/to/configuration_file_1}} {{path/to/configuration_file_2}}`
+`gixy {{path/to/configuration_file_1 path/to/configuration_file_2 ...}}`
