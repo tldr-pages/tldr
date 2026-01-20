@@ -17,8 +17,8 @@
 
 - Jalankan `aspell` dengan bahasa teks yang berbeda (menggunakan format kode bahasa ISO 639):
 
-`aspell --lang={{cs}}`
+`aspell --lang {{cs}}`
 
 - Tampilkan daftar kata dalam `stdin` yang dicurigai memiliki kesalahan ejaan dan abaikan kata yang berasal dari daftar kata pribadi (personal word list):
 
-`cat {{jalan/menuju/berkas}} | aspell --personal={{daftar-kata-pribadi.pws}} list`
+`cat {{jalan/menuju/berkas}} | aspell --personal {{daftar-kata-pribadi.pws}} list`

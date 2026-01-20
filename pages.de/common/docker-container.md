@@ -5,23 +5,23 @@
 
 - Liste zur Zeit laufende Container auf:
 
-`docker container ls`
+`docker {{[ps|container ls]}}`
 
 - Starte einen oder mehrere gestoppte Container:
 
-`docker container start {{container1_name}} {{container2_name}}`
+`docker {{[start|container start]}} {{container1_name}} {{container2_name}}`
 
 - Beende einen oder mehrere laufende Container sofort:
 
-`docker container kill {{container_name}}`
+`docker {{[kill|container kill]}} {{container_name}}`
 
 - Stoppe einen oder mehrere laufende Container:
 
-`docker container stop {{container_name}}`
+`docker {{[stop|container stop]}} {{container_name}}`
 
 - Pausiere alle Prozesse in einem oder mehreren Containern:
 
-`docker container pause {{container_name}}`
+`docker {{[pause|container pause]}} {{container_name}}`
 
 - Zeige detaillierte Informationen zu einem oder mehreren Containern an:
 
@@ -29,8 +29,8 @@
 
 - Exportiere das Dateisystem eines Containers als `.tar` Archiv:
 
-`docker container export {{container_name}}`
+`docker {{[export|container export]}} {{container_name}}`
 
 - Erstelle ein neues Image aus den Änderungen eines Containers:
 
-`docker container commit {{container_name}}`
+`docker {{[commit|container commit]}} {{container_name}}`

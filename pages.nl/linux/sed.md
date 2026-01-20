@@ -22,7 +22,7 @@
 
 - Verwij[d]er regels 1 tot en met 5 van een bestand en maak een back-up van het originele bestand met een `.orig` extensie:
 
-`sed {{[-i|--in-place=]}}{{.orig}} '1,5d' {{pad/naar/bestand}}`
+`sed {{[-i|--in-place=]}}.orig '1,5d' {{pad/naar/bestand}}`
 
 - Toon ([p]) alleen de eerste regel naar `stdout`:
 
