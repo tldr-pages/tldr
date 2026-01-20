@@ -21,7 +21,7 @@
 
 `ddcutil {{[-d|--display]}} 1 {{[set|setvcp]}} 12 + 5`
 
-- Change the display source of a display:
+- Change the display source (option `60`) of a display:
 
 `ddcutil {{[-d|--display]}} {{1}} {{[set|setvcp]}} 60 0x{{0f}}`
 
