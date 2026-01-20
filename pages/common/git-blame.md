@@ -7,7 +7,7 @@
 
 `git blame {{path/to/file}}`
 
-- Print a file with authorship info (author email and commit hash):
+- Print the author's email instead of their name:
 
 `git blame {{[-e|--show-email]}} {{path/to/file}}`
 
