@@ -1,14 +1,14 @@
 # find
 
 > Busca archivos o directorios bajo una jerarquía de directorios.
-> Vea también: `fd`.
+> Véase también: `fd`.
 > Más información: <https://manned.org/find>.
 
 - Encuentra archivos por extensión:
 
 `find {{ruta/al/directorio}} -name '{{*.ext}}'`
 
-- Encuentra archivos que coinciden con múltiples patrones de ruta o nombre:
+- Encuentra archivos que coinciden con múltiples patrones de ruta/nombre:
 
 `find {{ruta/al/directorio}} -path '{{*/ruta/*/*.ext}}' -or -name '{{*patrón*}}'`
 
@@ -28,11 +28,10 @@
 
 `find {{ruta/al/directorio}} -name '{{*.ext}}' -exec {{wc -l}} {} \;`
 
-- Encuentra todos los archivos modificados hoy y pasa los resultados a un solo comando como argumento:
+- Encuentra todos los archivos modificados hoy y pasa los resultados a un solo comando como argumentos:
 
 `find {{ruta/al/directorio}} -daystart -mtime {{-1}} -exec {{tar -cvf archive.tar}} {} \+`
 
-- Busca tanto archivos como directorios vacíos y los elimina mostrándolos:
+- Busca tanto archivos como directorios vacíos y los elimina detalladamente:
 
 `find {{ruta/al/directorio}} -type {{f|d}} -empty -delete -print`
-
