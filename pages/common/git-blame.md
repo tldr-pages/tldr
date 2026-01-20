@@ -21,7 +21,7 @@
 
 - Print a file with authorship info starting at a given line:
 
-`git blame -L {{123}}`
+`git blame -L {{123}} {{path/to/file}}`
 
 - Annotate a specific line range of a file:
 
