@@ -101,6 +101,18 @@ There are also **various other clients** provided by the community,
 both for the command-line and for other platforms.
 For a comprehensive list of clients, head over to our [Wiki](https://github.com/tldr-pages/tldr/wiki/Clients).
 
+## Periodic Maintenance Tasks
+
+To keep tldr-pages up-to-date and organized, contributors can follow these routine tasks:
+
+- Review open pull requests and provide feedback weekly.
+- Update outdated pages or examples as new versions of commands/tools are released.
+- Ensure translations are synced with the latest updates.
+- Check for consistency in formatting across pages.
+- Close issues that have been inactive or resolved.
+
+These simple maintenance steps help maintain a healthy, accurate, and user-friendly collection of tldr-pages.
+
 ## How do I contribute to tldr-pages?
 
 All contributions are welcome!
