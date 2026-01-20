@@ -1,7 +1,7 @@
 # find
 
 > Busca archivos o directorios bajo una jerarquía de directorios.
-> Véase también: `fd`.
+> Vea también: `fd`.
 > Más información: <https://manned.org/find>.
 
 - Encuentra archivos por extensión:
