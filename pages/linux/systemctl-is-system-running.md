@@ -1,7 +1,7 @@
 # systemctl is-system-running
 
 > Check the current state of the system.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#is-system-running>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#is-system-running>.
 
 - Check whether the system is operational and print the current state:
 

@@ -24,6 +24,14 @@
 
 `gio trash {{path/to/file}}`
 
+- Empty the trash:
+
+`gio trash --empty`
+
 - Launch an application from a `.desktop` file:
 
 `gio launch {{path/to/file}}.desktop`
+
+- Mark a `.desktop` file as trusted, allowing it to be executed:
+
+`gio set {{path/to/file}}.desktop metadata::trusted true`

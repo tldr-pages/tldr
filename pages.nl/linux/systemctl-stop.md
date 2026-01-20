@@ -1,7 +1,7 @@
 # systemctl stop
 
 > Stop systemd eenheden.
-> Meer informatie: <https://www.freedesktop.org/software/systemd/man/systemctl.html#stop%20PATTERN%E2%80%A6>.
+> Meer informatie: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#stop%20PATTERN%E2%80%A6>.
 
 - Stop een eenheid:
 

@@ -20,6 +20,6 @@
 
 `nix flake lock {{flake路径}}`
 
-- 显示帮助信息：
+- 显示帮助：
 
 `nix flake --help`

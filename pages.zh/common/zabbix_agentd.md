@@ -31,6 +31,6 @@
 
 `zabbix_agentd {{[-c|--config]}} {{路径/到/zabbix_agentd.conf}} {{[-R|--runtime-control]}} log_level_{{increase|decrease}}`
 
-- 显示帮助信息：
+- 显示帮助：
 
 `zabbix_agentd {{[-h|--help]}}`
