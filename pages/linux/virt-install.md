@@ -1,6 +1,7 @@
 # virt-install
 
 > Create virtual machines with libvirt and begin OS installation.
+> Note: You may need to pass `--connect URI` to the commands or set up the URI in `$XDG_CONFIG_HOME/libvirt/libvirt.conf`.
 > More information: <https://manned.org/virt-install>.
 
 - Create a virtual machine with 1 GB RAM and 12 GB storage and start a Debian installation:
@@ -19,6 +20,6 @@
 
 `virt-install {{[-n|--name]}} {{vm_name}} --cpu {{host-model}},topology.sockets={{1}},topology.cores={{4}},topology.threads={{2}} --memory {{16384}} --disk path={{path/to/image.qcow2}},size={{250}} {{[-c|--cdrom]}} {{path/to/debian.iso}}`
 
-- Create a virtual machine and kickstart an automated deployment based on Fedora 35 using only remote resources (no ISO required):
+- Create a virtual machine and kickstart an automated deployment based on Fedora 43 using only remote resources (no ISO required):
 
-`virt-install {{[-n|--name]}} {{vm_name}} --memory {{2048}} --disk path={{path/to/image.qcow2}},size={{20}} {{[-l|--location]}} {{https://download.fedoraproject.org/pub/fedora/linux/releases/35/Everything/x86_64/os/}} {{[-x|--extra-args]}} "{{inst.ks=https://path/to/valid_kickstart.org}}"`
+`virt-install {{[-n|--name]}} {{vm_name}} --memory {{2048}} --disk path={{path/to/image.qcow2}},size={{20}} {{[-l|--location]}} {{https://download.fedoraproject.org/pub/fedora/linux/releases/43/Everything/x86_64/os/}} {{[-x|--extra-args]}} "{{inst.ks=https://example.com/path/to/kickstart.ks}}"`
