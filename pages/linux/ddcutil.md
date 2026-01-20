@@ -27,4 +27,4 @@
 
 - Read the settings of display 1:
 
-`ddcutil {{[-d|--display]}} 1 {{[get|getvcp]}} {{ALL}}`
+`ddcutil {{[-d|--display]}} 1 {{[get|getvcp]}} ALL`
