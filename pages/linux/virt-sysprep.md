@@ -1,13 +1,19 @@
 # virt-sysprep
 
 > Reset, unconfigure, or customize a virtual machine image.
-> More information: <https://manned.org/virt-sysprep>.
+> This command can be used on a virtual machine or directly on a virtual machine disk image.
+> Note: You may need to pass `--connect URI` to the commands or setup the URI in `$XDG_CONFIG_HOME/libvirt/libvirt.conf`.
+> More information: <https://libguestfs.org/virt-sysprep.1.html>.
 
-- List all supported operations (enabled operations are indicated with asterisks):
+- List all supported operations (default enabled operations are indicated with asterisks):
 
 `virt-sysprep --list-operations`
 
-- Remove sensitive system data from a virtual machine image:
+- Run only the specified operations:
+
+`sudo virt-sysprep {{[-d|--domain]}} {{vm_name}} --operations {{operation1,operation2,...}}`
+
+- Remove sensitive system data from a virtual machine image (operations marked as default):
 
 `sudo virt-sysprep {{[-a|--add]}} {{path/to/image.qcow2}}`
 
@@ -15,14 +21,18 @@
 
 `sudo virt-sysprep {{[-d|--domain]}} {{vm_name}} {{[-n|--dry-run]}}`
 
-- Run only the specified operations:
+- Reset NetworkManager network configurations, persistent MAC mappings, and the hostname to avoid network conflicts:
 
-`sudo virt-sysprep {{[-d|--domain]}} {{vm_name}} --operations {{operation1,operation2,...}}`
+`sudo virt-sysprep {{[-d|--domain]}} {{vm_name}} --operations machine-id,net-hwaddr,net-hostname,net-nmconn,customize --hostname {{new_hostname}}`
 
-- Generate a new `/etc/machine-id` file and enable customizations to be able to change the host name to avoid network conflicts:
+- Set the root password for a disk image:
 
-`sudo virt-sysprep {{[-d|--domain]}} {{vm_name}} --enable {{customizations}} --hostname {{host_name}} --operation {{machine-id}}`
+`sudo virt-sysprep {{[-a|--add]}} {{path/to/image.qcow2}} --operations customize --root-password password:{{new_password}}`
 
-- Display help:
+- Inject a new user with a defined password and add them to the sudo group:
 
-`virt-sysprep {{[-he|--help]}}`
+`sudo virt-sysprep {{[-a|--add]}} {{path/to/image.qcow2}} --run-command 'useradd -m {{username}} && echo {{username}}:{{password}} | chpasswd && usermod -aG sudo {{username}}'`
+
+- Install specific package(s) on a disk image (use `--update` to upgrade all installed packages to latest):
+
+`sudo virt-sysprep {{[-a|--add]}} {{path/to/image.qcow2}} --operations customize --network --install {{package_name1,package_name2,...}}`
