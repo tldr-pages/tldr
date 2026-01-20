@@ -1,6 +1,7 @@
 # minicom
 
 > Communicate with the serial interface of a device.
+> See also: `picocom`, `cu`, `tio`.
 > More information: <https://manned.org/minicom>.
 
 - Open a given serial port:
