@@ -6,7 +6,7 @@
 
 - Display the contents of a file in a text information dialog:
 
-`yad --text-info --filename "{{path/to/file}}"`
+`yad --text-info --filename {{path/to/file}}`
 
 - Open a text entry dialog and return the input to `stdout`:
 
