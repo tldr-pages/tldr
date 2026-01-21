@@ -9,14 +9,14 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 > Placeholders in Arabian (`ar`) and Farsi (`fa`) pages shouldn't be translated to prevent flipped text when reading.
 
 | en    | path/to/file          | path/to/directory        | path/to/file_or_directory            | package       | username           | password          | command  | port   | value    |
-|-------|-----------------------|--------------------------|--------------------------------------|---------------|--------------------|-------------------|----------|--------|----------|
+|:------|:----------------------|:-------------------------|:-------------------------------------|:--------------|:-------------------|:------------------|:---------|:-------|:---------|
 | ar    | path/to/file          | path/to/directory        | path/to/file_or_directory            | package       | username           | password          | command  | port   | value    |
 | bn    | ফাইল/এর/পাথ           | ডিরেক্টরি/এর/পাথ         | ফাইল_অথবা_ডিরেক্টরি/এর/পাথ           | প্যাকেজ       | ইউজারনেম           | পাসওয়ার্ড        | কমান্ড   | পোর্ট  | ভ্যালু   |
 | bs    | put/do/datoteke       | put/do/direktorija       | put/do/datoteke_ili_direktorija      | paket         | korisničko_ime     |                   |          |        |          |
 | ca    | camí/al/fitxer        | camí/al/directori        | camí/al/fitxer_o_directori           | paquet        | nom_usuari         |                   |          |        |          |
 | cs    | cesta/k/souboru       | cesta/k/adresari         | cesta/k/souboru_ci_adresari          | balíček       | jmeno_uzivatele    |                   |          |        |          |
 | da    | sti/til/fil           | sti/til/mappe            | sti/til/fil_eller_mappe              | pakke         | brugernavn         |                   |          |        |          |
-| de    | pfad/zu/datei         | pfad/zu/verzeichnis      | pfad/zu/datei_oder_verzeichnis       | paket         | benutzername       |                   |          |        |          |
+| de    | pfad/zu/datei         | pfad/zu/verzeichnis      | pfad/zu/datei_oder_verzeichnis       | paket         | benutzername       | passwort          | befehl   | port   | wert     |
 | el    | διαδρομή/προς/αρχείο  | διαδρομή/προς/κατάλογο   | διαδρομή/προς/αρχείο_ή_κατάλογο      | πακέτο        | όνομα_χρήστη       | κωδικός_πρόσβασης |          |        |          |
 | es    | ruta/al/archivo       | ruta/al/directorio       | ruta/al/archivo_o_directorio         | paquete       | usuario            | contraseña        | comando  | puerto | valor    |
 | fa    | path/to/file          | path/to/directory        | path/to/file_or_directory            | package       | username           | password          | command  | port   | value    |
