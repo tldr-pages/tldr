@@ -1,6 +1,7 @@
 # apptainer run
 
 > Run the default runscript of an Apptainer container.
+> The runscript is defined in the `%runscript` section of the container's definition file.
 > See also: `apptainer exec`, `apptainer shell`.
 > More information: <https://apptainer.org/docs/user/main/cli/apptainer_run.html>.
 
