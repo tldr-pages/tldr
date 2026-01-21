@@ -6,7 +6,7 @@
 
 - Vérifie les types dans un fichier, et démarre le démon s'il n'est pas lancé :
 
-`dmypy check -- {{chemin/vers/fichier.py}}`
+`dmypy run -- {{chemin/vers/fichier.py}}`
 
 - Démarre le démon :
 
@@ -14,7 +14,7 @@
 
 - Vérifie les types dans un fichier (nécéssite que le démon soit lancé) :
 
-`dmypy run -- {{chemin/vers/fichier.py}}`
+`dmypy check -- {{chemin/vers/fichier.py}}`
 
 - Arrête le démon :
 
