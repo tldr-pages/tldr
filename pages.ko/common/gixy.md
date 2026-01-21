@@ -1,9 +1,9 @@
 # gixy
 
 > `nginx` 구성 파일 분석.
-> 더 많은 정보: <https://github.com/yandex/gixy>.
+> 더 많은 정보: <https://github.com/dvershinin/gixy#usage>.
 
-- nginx 구성 파일 분석 (기본 경로: `/etc/nginx/`nginx`.conf`):
+- `nginx` 구성 파일 분석 (기본 경로: `/etc/nginx/nginx.conf`):
 
 `gixy`
 
@@ -17,4 +17,4 @@
 
 - 특정 경로에서 `nginx` 구성 파일을 분석:
 
-`gixy {{경로/대상/구성_파일_1}} {{경로/대상/구성_파일_2}}`
+`gixy {{경로/대상/구성_파일_1 경로/대상/구성_파일_2 ...}}`
