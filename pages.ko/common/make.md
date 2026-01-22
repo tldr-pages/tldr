@@ -14,19 +14,19 @@
 
 - 특정 대상을 호출하여, 한 번에 4개의 작업을 병렬로 실행:
 
-`make -j{{4}} {{대상}}`
+`make {{[-j|--jobs]}} 4 {{대상}}`
 
 - 특정 Makefile을 사용:
 
-`make --file {{경로/대상/파일}}`
+`make {{[-f|--file]}} {{경로/대상/파일}}`
 
 - 다른 디렉토리에서 make 실행:
 
-`make --directory {{경로/대상/폴더}}`
+`make {{[-C|--directory]}} {{경로/대상/폴더}}`
 
 - 소스 파일이 변경되지 않은 경우에도, 대상을 강제로 make 실행:
 
-`make --always-make {{대상}}`
+`make {{[-B|--always-make]}} {{대상}}`
 
 - Makefile에 정의된 변수를 재정의:
 
@@ -34,4 +34,4 @@
 
 - 환경에 의해 Makefile에 정의된 변수를 재정의:
 
-`make --environment-overrides {{대상}}`
+`make {{[-e|--environment-overrides]}} {{대상}}`
