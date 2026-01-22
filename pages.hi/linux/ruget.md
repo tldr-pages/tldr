@@ -9,4 +9,4 @@
 
 - किसी निर्दिष्ट आउटपुट फ़ाइल में URL की सामग्री डाउनलोड करें:
 
-`ruget --output {{file_name}} {{https://example.com/file}}`
+`ruget {{[-o|--output]}} {{file_name}} {{https://example.com/file}}`
