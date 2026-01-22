@@ -25,4 +25,12 @@
 
 - Use a custom pager (the `[FILE]` string is a required literal placeholder):
 
-`tspin --pager "{{bat}} [FILE]" {{path/to/file.log}}`
+`tspin --pager "{{bat -p}} [FILE]" {{path/to/file.log}}`
+
+- Highlight custom strings with custom colors:
+
+`tspin --highlight {{red}}:{{ERROR,WARNING,...}} {{path/to/file.log}}`
+
+- Run the provided command and view the output in `less`:
+
+`tspin --exec='{{command}}'`
