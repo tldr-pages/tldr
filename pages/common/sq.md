@@ -26,7 +26,7 @@
 
 - Generate own key, and save it on the local key store:
 
-`sq key generate --own-key --name {{Name}} --email {{name@example.com}}`
+`sq key generate --own-key --name {{name}} --email {{name@example.com}}`
 
 - List all secret keys or certs managed by the local key store:
 
