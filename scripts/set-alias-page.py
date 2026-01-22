@@ -236,7 +236,9 @@ def get_alias_command_in_page(path: Path, alias_pattern: str) -> AliasPageConten
 
     title = next((line.strip("# \n") for line in lines if line.startswith("# ")), "")
 
-    command_lines = [line for line in lines if line.startswith(("> " + alias_pattern, "`"))]
+    command_lines = [
+        line for line in lines if line.startswith(("> " + alias_pattern, "`"))
+    ]
 
     if len(command_lines) != 2 or not title:
         return AliasPageContent(title="", original_command="", documentation_command="")
