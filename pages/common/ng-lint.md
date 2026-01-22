@@ -11,6 +11,7 @@
 - Lint a specific project:
 
 `ng lint {{project_name}}`
+
 - Automatically fix linting errors:
 
 `ng lint {{project_name}} --fix`
