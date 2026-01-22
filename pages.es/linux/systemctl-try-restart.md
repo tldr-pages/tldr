@@ -13,4 +13,4 @@
 
 - Reinicia todas las unidades que coincidan con un patrón si están en ejecución:
 
-`systemctl try-restart “{{patrón}}”`
+`systemctl try-restart '{{patrón}}'`
