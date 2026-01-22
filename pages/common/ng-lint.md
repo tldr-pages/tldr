@@ -15,7 +15,7 @@
 
 `ng lint {{project_name}} --fix`
 
-- Continue even if lint errors are found:
+- Return a successful exit code even if lint errors are found:
 
 `ng lint {{project_name}} --force`
 
