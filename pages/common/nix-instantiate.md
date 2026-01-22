@@ -6,7 +6,7 @@
 
 - Evaluate an expression:
 
-`nix-instantiate --eval --expr {{expr}}`
+`nix-instantiate --eval {{[-E|--expr]}} {{expression}}`
 
 - To evaluate with machine readable output:
 
