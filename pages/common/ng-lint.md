@@ -22,7 +22,3 @@
 - Use a specific output format:
 
 `ng lint {{project_name}} --format {{stylish|json|...}}`
-
-- Specify a custom TypeScript configuration file:
-
-`ng lint {{project_name}} --tsConfig {{path/to/tsconfig.json}}`
