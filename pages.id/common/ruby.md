@@ -10,7 +10,7 @@
 
 - Jalankan suatu perintah Ruby dalam command-line:
 
-`ruby -e {{perintah}}`
+`ruby -e "{{perintah}}"`
 
 - Periksa kesalahan sintaks dari suatu berkas skrip Ruby:
 
