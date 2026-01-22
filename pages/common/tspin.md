@@ -1,20 +1,28 @@
 # tspin
 
 > A log file highlighter based on the `less` pager and basically behaves like any pager.
-> More information: <https://github.com/bensadeh/tailspin#settings>.
+> More information: <https://github.com/bensadeh/tailspin#usage>.
 
-- Read from file and view in `less`:
+- View a log file using the default pager (`less`):
 
-`tspin {{path/to/application.log}}`
+`tspin {{path/to/file.log}}`
 
 - Read from another command and print to `stdout`:
 
-`journalctl {{[-b|--boot]}} {{[-f|--follow]}} | tspin`
+`{{command}} | tspin`
 
-- Read from file and print to `stdout`:
+- Read from a file and print to `stdout` without paging:
 
-`tspin {{path/to/application.log}} {{[-p|--print]}}`
+`tspin {{path/to/file.log}} {{[-p|--print]}}`
 
-- Read from `stdin` and print to `stdout`:
+- Follow a file (mimics `tail -f`) and highlight new entries:
 
-`echo "2021-01-01 12:00:00 [INFO] This is a log message" | tspin`
+`tspin {{[-f|--follow]}} {{path/to/file.log}}`
+
+- Highlight specific groups only (possible values: `numbers`, `urls`, `pointers`, `dates`, `paths`, `quotes`, `key-value-pairs`, `uuids`, `ip-addresses`, `processes`, `json`):
+
+`tspin --enable {{urls,ip-addresses,...}} {{path/to/file.log}}`
+
+- Use a custom pager (the `[FILE]` string is a required literal placeholder):
+
+`tspin --pager "{{bat}} [FILE]" {{path/to/file.log}}`
