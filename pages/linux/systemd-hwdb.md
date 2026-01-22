@@ -5,7 +5,7 @@
 
 - Update the binary hardware database in `/etc/udev`:
 
-`systemd-hwdb update`
+`sudo systemd-hwdb update`
 
 - Query the hardware database and print the result for a specific modalias:
 
@@ -13,11 +13,11 @@
 
 - Update the binary hardware database, returning a non-zero exit value on any parsing error:
 
-`systemd-hwdb {{[-s|--strict]}} update`
+`sudo systemd-hwdb {{[-s|--strict]}} update`
 
 - Update the binary hardware database in `/usr/lib/udev`:
 
-`systemd-hwdb --usr update`
+`sudo systemd-hwdb --usr update`
 
 - Update the binary hardware database in the specified root path:
 

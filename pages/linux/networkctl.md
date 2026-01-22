@@ -6,7 +6,7 @@
 
 - List existing links with their status:
 
-`networkctl list`
+`networkctl`
 
 - Show an overall network status:
 

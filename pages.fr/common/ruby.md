@@ -10,7 +10,7 @@
 
 - Exécute une seule commande Ruby dans la ligne de commande :
 
-`ruby -e {{commande}}`
+`ruby -e "{{commande}}"`
 
 - Vérifie les erreurs de syntaxe d'un script Ruby donné :
 
