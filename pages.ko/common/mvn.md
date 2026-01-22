@@ -13,7 +13,7 @@
 
 - 유닛 테스트를 건너뛰고 컴파일 및 패키지:
 
-`mvn package -DskipTests`
+`mvn package {{[-D|--define]}} skipTests`
 
 - 빌드된 패키지를 로컬 Maven 저장소에 설치 (컴파일 및 패키지 명령도 실행됨):
 
@@ -29,8 +29,8 @@
 
 - 주어진 빌드 프로필로 코드를 클린 후 패키지:
 
-`mvn clean -P {{프로필}} package`
+`mvn clean {{[-P|--activate-profiles]}} {{프로필}} package`
 
 - 메인 메서드를 가진 클래스를 실행:
 
-`mvn exec:java -Dexec.mainClass="{{com.example.Main}}" -Dexec.args="{{인수1 인수2 ...}}"`
+`mvn exec:java {{[-D|--define]}} exec.mainClass="{{com.example.Main}}" {{[-D|--define]}} exec.args="{{인수1 인수2 ...}}"`
