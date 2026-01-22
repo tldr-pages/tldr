@@ -11,15 +11,6 @@
 - Lint a specific project:
 
 `ng lint {{project_name}}`
-
-- Lint specific files:
-
-`ng lint {{project_name}} --files {{path/to/file1.ts path/to/file2.ts ...}}`
-
-- Exclude certain files or folders from linting:
-
-`ng lint {{project_name}} --exclude {{pattern}}`
-
 - Automatically fix linting errors:
 
 `ng lint {{project_name}} --fix`
