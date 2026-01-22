@@ -10,7 +10,7 @@
 
 - To evaluate with machine readable output:
 
-`nix-instantiate --eval --xml -expr {{expr}}`
+`nix-instantiate --eval --xml {{[-E|--expr]}} {{expression}}`
 
 - Raw output, output of the function must be a string:
 
