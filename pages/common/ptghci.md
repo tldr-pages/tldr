@@ -18,4 +18,4 @@
 
 - Use a specific GHC (for example to use a specific version of the GHC Haskell compiler):
 
-`ptghci --with-ghc {{/path/to/ghc}}`
+`ptghci --with-ghc /{{path/to/ghc}}`
