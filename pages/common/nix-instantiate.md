@@ -8,7 +8,7 @@
 
 `nix-instantiate --eval {{[-E|--expr]}} {{expression}}`
 
-- To evaluate with machine readable output:
+- Evaluate with machine readable output:
 
 `nix-instantiate --eval --xml {{[-E|--expr]}} {{expression}}`
 
