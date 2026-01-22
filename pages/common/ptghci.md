@@ -14,7 +14,7 @@
 
 - Enter an interactive session after compiling & loading functions from a Haskell script (but NOT running `main`):
 
-`ptghci {{/path/to/script.hs}}`
+`ptghci /{{path/to/script.hs}}`
 
 - Use a specific GHC (for example to use a specific version of the GHC Haskell compiler):
 
