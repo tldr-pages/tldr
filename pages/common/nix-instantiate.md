@@ -14,7 +14,7 @@
 
 - Raw output, output of the function must be a string:
 
-`nix-instantiate --eval --raw --expr {{expr}}`
+`nix-instantiate --eval --raw {{[-E|--expr]}} {{expression}}`
 
 - Evaluate a file:
 
