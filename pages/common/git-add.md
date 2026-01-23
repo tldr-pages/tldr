@@ -3,7 +3,7 @@
 > Adds changed files to the index.
 > More information: <https://git-scm.com/docs/git-add>.
 
-- Add a file to the index:
+- Stage a file for a commit:
 
 `git add {{path/to/file}}`
 
