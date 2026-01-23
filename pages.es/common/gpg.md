@@ -1,6 +1,7 @@
 # gpg
 
 > GNU Privacy Guard, una herramienta de cifrado y firma OpenPGP.
+> Vea también: `sq`.
 > Más información: <https://gnupg.org/documentation/manuals/gnupg/Invoking-GPG.html>.
 
 - Crea una clave pública y privada GPG de forma interactiva:
