@@ -9,7 +9,7 @@
 
 - 从 btrfs 文件系统中删除设备：
 
-`sudo btrfs {{[d|device]}} {{[rem|remove]}} {{指向设备的路径|设备 ID}} [{{...}}]`
+`sudo btrfs {{[d|device]}} {{[rem|remove]}} {{指向设备的路径|设备 ID}}`
 
 - 显示错误统计：
 

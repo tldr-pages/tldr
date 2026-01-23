@@ -9,7 +9,7 @@
 
 - Remove um dispositivo de um sistema de arquivos btrfs:
 
-`sudo btrfs {{[d|device]}} {{[rem|remove]}} {{caminho/para/dispositivo|id_do_dispositivo}} [{{...}}]`
+`sudo btrfs {{[d|device]}} {{[rem|remove]}} {{caminho/para/dispositivo|id_do_dispositivo}}`
 
 - Exibe estatísticas de erro:
 

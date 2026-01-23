@@ -9,7 +9,7 @@
 
 - Retirer un périphérique d'un système de fichiers btrfs :
 
-`sudo btrfs {{[d|device]}} {{[rem|remove]}} {{chemin/vers/peripherique|identifiant_peripherique}} [{{...}}]`
+`sudo btrfs {{[d|device]}} {{[rem|remove]}} {{chemin/vers/peripherique|identifiant_peripherique}}`
 
 - Afficher les statistiques d'erreurs :
 

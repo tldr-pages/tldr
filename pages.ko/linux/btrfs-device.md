@@ -9,7 +9,7 @@
 
 - btrfs 파일 시스템에서 장치 제거:
 
-`sudo btrfs {{[d|device]}} {{[rem|remove]}} {{경로/대상/장치|장치_ID}} [{{...}}]`
+`sudo btrfs {{[d|device]}} {{[rem|remove]}} {{경로/대상/장치|장치_ID}}`
 
 - 오류 통계 표시:
 
