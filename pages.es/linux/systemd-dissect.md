@@ -9,7 +9,7 @@
 
 - Monta una imagen del sistema operativo:
 
-`systemd-dissect {[-m|--mount]} {{ruta/a/imagen.raw}} {{/mnt/imagen}}`
+`systemd-dissect {{[-m|--mount]}} {{ruta/a/imagen.raw}} {{/mnt/imagen}}`
 
 - Desmonta una imagen del sistema operativo:
 
