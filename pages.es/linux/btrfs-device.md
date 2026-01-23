@@ -5,7 +5,7 @@
 
 - Agrega uno o más dispositivos a un sistema de archivos btrfs:
 
-`sudo btrfs {{[d|device]}} {{[a|add]}} {{ruta/al/dispositivo_bloque1}} [{{ruta/al/dispositivo_bloque2}}] {{ruta/al_sistema_de_archivos_btrfs}}`
+`sudo btrfs {{[d|device]}} {{[a|add]}} {{ruta/al/dispositivo_bloque1 ruta/al/dispositivo_bloque2 ...}} {{ruta/al_sistema_de_archivos_btrfs}}`
 
 - Elimina un dispositivo de un sistema de archivos btrfs:
 
