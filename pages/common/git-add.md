@@ -19,9 +19,9 @@
 
 `git add {{[-u|--update]}}`
 
-- Also add ignored files:
+- Add an ignored file:
 
-`git add {{[-f|--force]}}`
+`git add {{[-f|--force]}} {{path/to/file}}`
 
 - Interactively stage parts of files:
 
