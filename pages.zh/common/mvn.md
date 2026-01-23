@@ -13,7 +13,7 @@
 
 - 编译和打包，跳过单元测试：
 
-`mvn package -DskipTests`
+`mvn package {{[-D|--define]}} skipTests`
 
 - 在本地 maven 存储库中安装构建的包（这也会调用 compile 和 package 命令）：
 
@@ -29,8 +29,8 @@
 
 - 清理然后使用给定的构建配置文件打包代码：
 
-`mvn clean -P {{构建配置文件}} package`
+`mvn clean {{[-P|--activate-profiles]}} {{构建配置文件}} package`
 
 - 使用 main 方法运行一个类：
 
-`mvn exec:java -Dexec.mainClass="{{com.example.Main}}" -Dexec.args="{{参数1 参数2 ...}}"`
+`mvn exec:java {{[-D|--define]}} exec.mainClass="{{com.example.Main}}" {{[-D|--define]}} exec.args="{{参数1 参数2 ...}}"`
