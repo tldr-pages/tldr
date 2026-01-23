@@ -13,7 +13,7 @@
 
 - Desmonta una imagen del sistema operativo:
 
-`systemd-dissect {{[-u|--umount]}} {{/mnt/image}}`
+`systemd-dissect {{[-u|--umount]}} {{/mnt/imagen}}`
 
 - Muestra una lista de los archivos de una imagen:
 
