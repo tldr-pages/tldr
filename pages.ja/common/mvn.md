@@ -13,7 +13,7 @@
 
 - ユニットテストをスキップしてコンパイルし、パッケージ化:
 
-`mvn package -DskipTests`
+`mvn package {{[-D|--define]}} skipTests`
 
 - ビルドしたパッケージをローカルの maven リポジトリにインストール (コンパイルとパッケージのコマンドも呼び出される):
 
@@ -29,8 +29,8 @@
 
 - 指定されたビルドプロファイルを使用して、コードをクリーンアップしてパッケージ化:
 
-`mvn clean -P {{プロファイル}} package`
+`mvn clean {{[-P|--activate-profiles]}} {{プロファイル}} package`
 
 - main メソッドを持つクラスを実行:
 
-`mvn exec:java -Dexec.mainClass="{{com.example.Main}}" -Dexec.args="{{引数1 引数2 ...}}"`
+`mvn exec:java {{[-D|--define]}} exec.mainClass="{{com.example.Main}}" {{[-D|--define]}} exec.args="{{引数1 引数2 ...}}"`
