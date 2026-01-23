@@ -9,4 +9,4 @@
 
 - URL முகவரி இன் உள்ளடக்கங்களை குறிப்பிட்ட [o]அவுட்புட் கோப்பில் பதிவிறக்கவும்:
 
-`ruget --output {{கோப்பு_பெயர்}} {{https://example.com/file}}`
+`ruget {{[-o|--output]}} {{கோப்பு_பெயர்}} {{https://example.com/file}}`
