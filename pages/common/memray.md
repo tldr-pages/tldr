@@ -15,7 +15,7 @@
 
 `memray run {{[-o|--output]}} {{path/to/output_file}}.bin {{path/to/file}}.py`
 
-- Display a summary of RAM usage:
+- Display a summary of memory usage:
 
 `memray summary {{path/to/file}}.bin`
 
