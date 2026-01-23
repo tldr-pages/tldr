@@ -26,4 +26,3 @@
 - Log progress to the console:
 
 `ng extract-i18n --progress`
-
