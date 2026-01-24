@@ -9,7 +9,7 @@
 
 - Boot from hard disk image:
 
-`BOOT {{harddisk_image.img}}`
+`BOOT {{path/to/hard_disk.img}}`
 
 - Boot multiple floppy images:
 
