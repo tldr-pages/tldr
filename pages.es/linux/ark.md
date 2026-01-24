@@ -5,12 +5,12 @@
 
 - Extrae un archivo específico en el directorio actual:
 
-`ark --batch {{ruta/al/archivo}}`
+`ark {{[-b|--batch]}} {{ruta/al/archivo}}`
 
 - Extrae un archivo en un directorio específico:
 
-`ark --batch --destination {{ruta/al/directorio}} {{ruta/al/archivo}}`
+`ark {{[-b|--batch]}} {{[-o|--destination]}} {{ruta/al/directorio}} {{ruta/al/archivo}}`
 
 - Crea un archivo si no existe y agrega archivos específicos al mismo:
 
-`ark --add-to {{ruta/al/archivo}} {{ruta/al/archivo1 ruta/al/archivo2 ...}}`
+`ark {{[-t|--add-to]}} {{ruta/al/archivo}} {{ruta/al/archivo1 ruta/al/archivo2 ...}}`
