@@ -11,7 +11,7 @@
 
 `MOUNT C {{C:\DOSGAMES}}`
 
-- Mount with free space limit (KB):
+- Mount with free space limit (MB):
 
 `MOUNT C {{C:\DOSGAMES}} -freesize {{1024}}`
 
