@@ -5,4 +5,4 @@
 
 - Copy a file:
 
-`COPY {{source.txt}} {{dest.txt}}`
+`COPY {{path/to/source_file}} {{path/to/destination_file}}`
