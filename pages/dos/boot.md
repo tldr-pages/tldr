@@ -5,7 +5,7 @@
 
 - Boot from floppy image:
 
-`BOOT {{floppy_image.img}}`
+`BOOT {{path/to/floppy.img}}`
 
 - Boot from hard disk image:
 
