@@ -3,11 +3,11 @@
 > Mount host folders/drives/images as virtual DOS drives.
 > More information: <https://www.dosbox.com/wiki/MOUNT>.
 
-- Mount current folder as C:
+- Mount current directory as C:
 
 `MOUNT C .`
 
-- Mount specific folder as C:
+- Mount specific directory as C:
 
 `MOUNT C {{C:\DOSGAMES}}`
 
