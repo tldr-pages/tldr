@@ -23,6 +23,6 @@
 
 `MIXER gus {{40}}:{{40}} /NOSHOW`
 
-- List available MIDI devices (Windows):
+- List available MIDI devices (Windows only):
 
 `MIXER /LISTMIDI`
