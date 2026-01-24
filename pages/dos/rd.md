@@ -1,7 +1,7 @@
 # RD
 
 > Remove a directory.
-> More information: <https://www.dosbox.com/wiki/Commands>.
+> More information: <https://www.dosbox.com/wiki/Commands#RD>.
 
 - Remove directory:
 
