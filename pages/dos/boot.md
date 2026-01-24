@@ -13,4 +13,4 @@
 
 - Boot multiple floppy images:
 
-`BOOT {{disk1.img}} {{disk2.img}}`
+`BOOT {{path/to/floppy1.img path/to/floppy2.img ...}}`
