@@ -1,6 +1,6 @@
 # git add
 
-> Voeg gewijzigde bestanden toe aan de index.
+> Voeg gewijzigde bestanden toe voor een commit.
 > Meer informatie: <https://git-scm.com/docs/git-add>.
 
 - Voeg een bestand toe voor een commit:
