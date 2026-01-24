@@ -1,9 +1,9 @@
 # git add
 
-> Voegt gewijzigde bestanden toe aan de index.
+> Voeg gewijzigde bestanden toe aan de index.
 > Meer informatie: <https://git-scm.com/docs/git-add>.
 
-- Voeg een bestand toe aan de index:
+- Voeg een bestand toe voor een commit:
 
 `git add {{pad/naar/bestand}}`
 
@@ -19,9 +19,9 @@
 
 `git add {{[-u|--update]}}`
 
-- Voeg ook genegeerde bestanden toe:
+- Voeg een genegeerd bestand toe:
 
-`git add {{[-f|--force]}}`
+`git add {{[-f|--force]}} {{pad/naar/bestand}}`
 
 - Interactief delen van bestanden toevoegen:
 
