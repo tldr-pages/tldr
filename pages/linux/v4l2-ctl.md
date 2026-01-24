@@ -1,6 +1,7 @@
 # v4l2-ctl
 
 > Control video devices.
+> See also: `cam`.
 > More information: <https://manned.org/v4l2-ctl>.
 
 - List all video devices:
