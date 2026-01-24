@@ -10,4 +10,4 @@
 
 - Graba una imagen ISO en una unidad sin introducir el hash de forma interactiva:
 
-`caligula burn {{ruta/a/imagen.iso}} {{[-s|--hash]}}} {{hash}}`
+`caligula burn {{ruta/a/imagen.iso}} {{[-s|--hash]}} {{hash}}`
