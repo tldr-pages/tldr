@@ -13,7 +13,7 @@
 
 - Extract i18n messages to a specific output file:
 
-`ng extract-i18n --out-file {{file_name}}`
+`ng extract-i18n --out-file {{path/to/file}}`
 
 - Extract i18n messages to a specific directory:
 
