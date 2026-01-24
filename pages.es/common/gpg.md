@@ -22,7 +22,7 @@
 
 - Cifra `doc.txt` con solo una frase de contraseña (salida a `doc.txt.gpg`):
 
-`gpg {{[-c|---symmetric]}} {{doc.txt}}`
+`gpg {{[-c|--symmetric]}} {{doc.txt}}`
 
 - Descifra `doc.txt.gpg` (salida a `stdout`):
 
