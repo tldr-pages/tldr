@@ -1,7 +1,7 @@
 # BOOT
 
 > Boot floppy or hard disk images directly, bypassing OS emulation.
-> More information: <https://www.dosbox.com/wiki/Commands>.
+> More information: <https://www.dosbox.com/wiki/BOOT>.
 
 - Boot from floppy image:
 
