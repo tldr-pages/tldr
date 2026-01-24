@@ -1,6 +1,6 @@
 # MOUNT
 
-> Mount host folders/drives/images as virtual DOS drives.
+> Mount host directories/drives/images as virtual DOS drives.
 > More information: <https://www.dosbox.com/wiki/MOUNT>.
 
 - Mount current directory as C:
