@@ -1,7 +1,7 @@
 # TYPE
 
 > Display text file contents.
-> More information: <https://www.dosbox.com/wiki/Commands>.
+> More information: <https://www.dosbox.com/wiki/Commands#TYPE>.
 
 - Show file:
 
