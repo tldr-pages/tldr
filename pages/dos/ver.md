@@ -1,7 +1,7 @@
 # VER
 
 > View/set reported DOS version.
-> More information: <https://www.dosbox.com/wiki/Commands>.
+> More information: <https://www.dosbox.com/wiki/Commands#VER>.
 
 - Set version:
 
