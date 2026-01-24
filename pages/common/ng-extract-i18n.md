@@ -9,7 +9,7 @@
 
 - Extract i18n messages in a specific format:
 
-`ng extract-i18n --format {{arb|json|legacy-migrate|xlf|xlf2|xlif|xliff|xliff2|xmb}}`
+`ng extract-i18n --format {{arb|json|xlf|...}}`
 
 - Extract i18n messages to a specific output file:
 
