@@ -1,7 +1,7 @@
 # REN
 
 > Rename files (use for moving too).
-> More information: <https://www.dosbox.com/wiki/Commands>.
+> More information: <https://www.dosbox.com/wiki/Commands#REN>.
 
 - Rename file:
 
