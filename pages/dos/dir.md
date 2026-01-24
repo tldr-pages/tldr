@@ -1,7 +1,7 @@
 # DIR
 
 > List files and directories.
-> More information: <https://www.dosbox.com/wiki/Commands>.
+> More information: <https://www.dosbox.com/wiki/Commands#DIR>.
 
 - List current directory:
 
