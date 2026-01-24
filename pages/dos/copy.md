@@ -1,7 +1,7 @@
 # COPY
 
 > Copy files.
-> More information: <https://www.dosbox.com/wiki/Commands>.
+> More information: <https://www.dosbox.com/wiki/Commands#COPY>.
 
 - Copy a file:
 
