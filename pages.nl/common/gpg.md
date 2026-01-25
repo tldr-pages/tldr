@@ -1,6 +1,7 @@
 # gpg
 
 > GNU Privacy Guard, een OpenPGP encryptie- en ondertekeningstool.
+> Zie ook: `sq`.
 > Meer informatie: <https://gnupg.org/documentation/manuals/gnupg/Invoking-GPG.html>.
 
 - Maak interactief een GPG publieke en private sleutel:

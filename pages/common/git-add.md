@@ -1,6 +1,6 @@
 # git add
 
-> Adds changed files to the index.
+> Stage changed files for a commit.
 > More information: <https://git-scm.com/docs/git-add>.
 
 - Stage a file for a commit:
