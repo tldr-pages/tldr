@@ -2,7 +2,7 @@
 
 > Create store derivations from nix expressions.
 > See also: `nix eval`.
-> More information: <https://nix.dev/manual/nix/2.28/command-ref/nix-instantiate.html>.
+> More information: <https://nix.dev/manual/nix/latest/command-ref/nix-instantiate.html>.
 
 - Evaluate an expression:
 
