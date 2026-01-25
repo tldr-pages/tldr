@@ -1,7 +1,7 @@
 # ptghci
 
-> A better REPL shell for Haskell that supports syntax highlighting, multi-line commands, etc.
-> It's a wrapper around GHCi interpreter and heavily inspired by IPython.
+> A REPL shell for Haskell that supports syntax highlighting, multi-line commands, etc.
+> It is a wrapper around GHCi interpreter and heavily inspired by IPython.
 > More information: <https://github.com/litxio/ptghci>.
 
 - Start a REPL (interactive shell):
