@@ -12,7 +12,7 @@
 
 `ptghci --package {{package1}} --package {{package2}}`
 
-- Enter an interactive session after compiling & loading functions from a Haskell script (but NOT running `main`):
+- Enter an interactive session after compiling and loading functions from a Haskell script (but NOT running `main`):
 
 `ptghci /{{path/to/script.hs}}`
 
