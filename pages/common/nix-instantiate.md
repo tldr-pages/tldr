@@ -16,6 +16,6 @@
 
 `nix-instantiate --eval --raw {{[-E|--expr]}} {{expression}}`
 
-- Evaluate a file:
+- Evaluate a Nix expression from a specified file:
 
-`nix-instantiate --eval {{file.nix}}`
+`nix-instantiate --eval {{path/to/file.nix}}`
