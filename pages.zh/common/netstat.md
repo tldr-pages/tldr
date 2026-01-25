@@ -6,28 +6,28 @@
 
 - 列出所有端口：
 
-`netstat --all`
+`netstat {{[-a|--all]}}`
 
 - 列出所有被监听端口：
 
-`netstat --listening`
+`netstat {{[-l|--listening]}}`
 
 - 列出监听的 TCP 端口：
 
-`netstat --tcp`
+`netstat {{[-t|--tcp]}}`
 
 - 显示 PID 和程序名：
 
-`netstat --program`
+`netstat {{[-p|--program]}}`
 
 - 持续列出信息：
 
-`netstat --continuous`
+`netstat {{[-c|--continuous]}}`
 
 - 列出路由并且不解析 IP 到主机名：
 
-`netstat --route --numeric`
+`netstat {{[-rn|--route --numeric]}}`
 
 - 列出正在监听的 TCP 和 UDP 端口（如果你是 root 用户，还会显示用户和进程）：
 
-`netstat --listening --program --numeric --tcp --udp --extend`
+`netstat {{[-tulpne|--tcp --udp --listening --program --numeric --extend]}}`
