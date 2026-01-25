@@ -1,12 +1,25 @@
 # picocom
 
-> Programa minimalista para emular consolas serie.
+> Programa mínimo para emular consolas serie.
+> Vea también: `minicom`, `cu`, `tio`.
 > Más información: <https://manned.org/picocom>.
 
-- Conecta a una consola serie con una velocidad en baudios específica:
+- Se conecta a una consola serie con una velocidad de transmisión predeterminada de 9600:
 
-`picocom {{/dev/ttyXYZ}} {{[-b|--baud]}} {{tasa_de_baudios}}`
+`sudo picocom {{/dev/ttyXYZ}}`
 
-- Asigna caracteres especiales (p. ej. `LF` a `CRLF`):
+- Se conecta a una consola serie con una velocidad de transmisión especificada:
 
-`picocom {{/dev/ttyXYZ}} --imap {{lfcrlf}}`
+`sudo picocom {{/dev/ttyXYZ}} {{[-b|--baud]}} {{tasa_de_baudios}}`
+
+- Asigna caracteres especiales (por ejemplo, `LF` a `CRLF`):
+
+`sudo picocom {{/dev/ttyXYZ}} --imap {{lfcrlf}}`
+
+- Sale de picocom:
+
+`<Ctrl a><Ctrl x>`
+
+- Muestra la ayuda:
+
+`picocom {{[-h|--help]}}`

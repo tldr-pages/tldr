@@ -15,7 +15,7 @@
 
 `mtr {{[-w|--report-wide]}} {{example.com}}`
 
-- Force IP IPv4 or IPV6:
+- Force IPv4 or IPv6:
 
 `mtr -4 {{example.com}}`
 

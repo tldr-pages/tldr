@@ -13,7 +13,7 @@
 
 - Show update targets:
 
-`updatectl list`
+`updatectl`
 
 - Show data about a target and its versions:
 

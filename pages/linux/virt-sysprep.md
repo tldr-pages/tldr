@@ -2,7 +2,7 @@
 
 > Reset, unconfigure, or customize a virtual machine image.
 > This command can be used on a virtual machine or directly on a virtual machine disk image.
-> Note: You may need to pass `--connect URI` to the commands or setup the URI in `$XDG_CONFIG_HOME/libvirt/libvirt.conf`.
+> Note: You may need to pass `--connect URI` to the commands or set up the URI in `$XDG_CONFIG_HOME/libvirt/libvirt.conf`.
 > More information: <https://libguestfs.org/virt-sysprep.1.html>.
 
 - List all supported operations (default enabled operations are indicated with asterisks):
