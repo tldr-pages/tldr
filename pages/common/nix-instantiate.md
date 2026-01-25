@@ -4,6 +4,10 @@
 > See also: `nix eval`.
 > More information: <https://nix.dev/manual/nix/latest/command-ref/nix-instantiate.html>.
 
+- Instantiate a store derivation from a Nix file:
+
+`nix-instantiate {{path/to/file.nix}}`
+
 - Evaluate an expression:
 
 `nix-instantiate --eval {{[-E|--expr]}} {{expression}}`
