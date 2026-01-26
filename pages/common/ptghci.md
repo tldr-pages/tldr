@@ -1,21 +1,33 @@
 # ptghci
 
-> A REPL shell for Haskell that supports syntax highlighting, multi-line commands, etc.
-> It is a wrapper around GHCi interpreter and heavily inspired by IPython.
+> Interactive Haskell REPL with syntax highlighting, multiline editing, and real-time type display.
+> See also: `ghci`.
 > More information: <https://github.com/litxio/ptghci>.
 
-- Start a REPL (interactive shell):
+- Start an interactive session:
 
 `ptghci`
 
-- Run with specified Haskell library package(s) available to import:
+- Start an interactive session and load a Haskell file:
 
-`ptghci --package {{package1}} --package {{package2}}`
+`ptghci {{path/to/file.hs}}`
 
-- Enter an interactive session after compiling and loading functions from a Haskell script (but NOT running `main`):
+- [Interactive] List past commands from the current session:
 
-`ptghci {{path/to/script.hs}}`
+`%past`
 
-- Use a specific GHC (for example to use a specific version of the GHC Haskell compiler):
+- [Interactive] List past commands including previous sessions:
 
-`ptghci --with-ghc {{path/to/ghc}}`
+`%past -n {{number}}`
+
+- [Interactive] Re-run specific commands from history:
+
+`%rerun {{3,4-5,p8}}`
+
+- [Interactive] Search Hoogle for an identifier:
+
+`%hoogle {{identifier}}`
+
+- [Interactive] Change the syntax highlighting style:
+
+`%style {{style_name}}`
