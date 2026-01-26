@@ -1,7 +1,7 @@
 # lychee
 
 > Find broken URLs.
-> More information: <https://github.com/lycheeverse/lychee/blob/master/README.md#commandline-usage>.
+> More information: <https://lychee.cli.rs/guides/cli/>.
 
 - Scan a website for broken links:
 
