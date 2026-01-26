@@ -1,7 +1,6 @@
 # aws rds
 
-> CLI para AWS Relational Database Service.
-> Crea y administra bases de datos relacionales.
+> Nota: Las diferentes implementaciones de AWK suelen convertirlo en un enlace simbólico de su binario.
 > Más información: <https://docs.aws.amazon.com/cli/latest/reference/rds/>.
 
 - Muestra ayuda para subcomando RDS específicos:
