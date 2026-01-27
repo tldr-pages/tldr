@@ -1,7 +1,6 @@
 # aapt
 
-> Herramienta para empaquetado de activos de Android.
-> Compila y empaqueta recursos de una app de Android.
+> Herramienta para empaquetado de activos de Android: compila y empaqueta recursos de una app de Android.
 > Más información: <https://manned.org/aapt>.
 
 - Lista los archivos contenidos en un archivo APK:
