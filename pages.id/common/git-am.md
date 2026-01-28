@@ -6,7 +6,7 @@
 
 - Gunakan dan komit perubahan dari file patch dalam direktori lokal:
 
-`git am {{jalan/menuju/file.patch}}`
+`git am {{jalan/menuju/berkas.patch}}`
 
 - Gunakan dan komit perubahan dari file patch dari sumber dalam jaringan (online):
 
@@ -18,4 +18,4 @@
 
 - Lakukan perubahan-perubahan dari file patch sebisa mungkin, dan tolak file patch jika proses tersebut gagal:
 
-`git am --reject {{jalan/menuju/file.patch}}`
+`git am --reject {{jalan/menuju/berkas.patch}}`
