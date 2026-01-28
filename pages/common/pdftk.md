@@ -22,3 +22,7 @@
 - Rotate third page by 90 degrees clockwise and leave others unchanged:
 
 `pdftk {{input.pdf}} cat {{1-2 3east 4-end}} output {{output.pdf}}`
+
+- Interleave two PDFs with one-sided scans of a two-sided document, where the backs were scanned back to front:
+
+`pdftk A={{fronts.pdf}} B={{backs.pdf}} shuffle A1-end Bend-1 output {{output.pdf}}`
