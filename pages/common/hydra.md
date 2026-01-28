@@ -1,7 +1,7 @@
 # hydra
 
-> Online password guessing tool.
-> Protocols supported include FTP, HTTP(S), SMTP, SNMP, XMPP, SSH, and more.
+> Parallelized login cracker supporting numerous protocols (SSH, FTP, HTTP(S), SMB, RDP, etc.) for testing credential strength.
+> Use only in legal/authorized contexts (pentest/auditing activities).
 > More information: <https://manned.org/hydra>.
 
 - Start Hydra's wizard:
