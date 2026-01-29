@@ -22,4 +22,4 @@
 
 - Aplica una sangría personalizada utilizando tabuladores. Elige entre 2 y 20 tabulaciones:
 
-`astyle {{[-t|--indent=tab=]}{{número_de_pestañas}} {{ruta/al/archivo}}`
+`astyle {{[-t|--indent=tab=]}}{{número_de_pestañas}} {{ruta/al/archivo}}`
