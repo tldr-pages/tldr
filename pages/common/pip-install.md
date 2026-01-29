@@ -5,7 +5,7 @@
 
 - Install one or more packages:
 
-`pip install {{package1 package2 ...}}`
+`pip install {{package1|path/to/package1 package2|path/to/package2 ...}}`
 
 - Upgrade all specified packages to the latest version, installing any that are not already present:
 
@@ -19,9 +19,9 @@
 
 `pip install {{[-r|--requirement]}} {{path/to/requirements.txt}}`
 
-- Install packages from a URL or local file archive (e.g. `.tar.gz`, `.whl`):
+- Install packages from a URL:
 
-`pip install {{[-f|--find-links]}} {{url|path/to/file}}`
+`pip install {{[-f|--find-links]}} {{url}}`
 
 - Install the local package in the current directory in develop (editable) mode:
 
