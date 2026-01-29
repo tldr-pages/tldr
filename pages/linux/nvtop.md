@@ -1,25 +1,32 @@
 # nvtop
 
-> Neat Videocard TOP: an htop-like monitor for GPUs and accelerators.
-> See also: `amdgpu_top`, `radeontop`.
+> Interactive ncurses-based GPU process and status viewer for AMD, Intel, and NVIDIA GPUs.
 > More information: <https://github.com/Syllo/nvtop>.
 
 - Launch the interactive GPU monitor:
 
 `nvtop`
 
-- Monitor GPUs using a specific vendor backend (when multiple are available):
+- Set the update delay in tenths of a second (for example, 2 = 0.2 seconds):
 
-`nvtop --vendor {{nvidia|amd|intel}}`
+`nvtop --delay {{2}}`
 
-- Start with a specific GPU selected:
+- Run in monochrome (no color) mode:
 
-`nvtop --gpu {{0}}`
+`nvtop --no-color`
 
-- Change the update interval in seconds:
+- Use Fahrenheit for temperature display:
 
-`nvtop --update-interval {{2}}`
+`nvtop --freedom-unit`
 
-- Open the interactive setup window to customize the UI:
+- Always show encoder/decoder meters, disabling auto-hide:
 
-`nvtop`
+`nvtop --encode-hide {{-1}}`
+
+- Show a single combined bar plot instead of per-GPU plots:
+
+`nvtop --no-plot`
+
+- Show the program version:
+
+`nvtop --version`
