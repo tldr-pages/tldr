@@ -18,7 +18,7 @@
 
 - Вывести страницу tldr для команды с конкретной платформы:
 
-`tldr {{[-p|--platform]}} {{android|common|freebsd|linux|osx|netbsd|openbsd|sunos|windows}} {{команда}}`
+`tldr {{[-p|--platform]}} {{android|cisco-ios|common|dos|freebsd|linux|netbsd|openbsd|osx|sunos|windows}} {{команда}}`
 
 - Обновить локальный кэш страниц tldr:
 
@@ -28,9 +28,9 @@
 
 `tldr {{[-l|--list]}}`
 
-- Вывести список всех доступных страниц подкоманд для команды:
+- Просмотреть страницы tldr в терминале (требуется `fzf`):
 
-`tldr {{[-l|--list]}} | grep {{команда}} | column`
+`tldr {{[-l|--list]}} | fzf --preview "tldr {1} --color=always" --preview-window=right,70% | xargs tldr`
 
 - Вывести страницу tldr для случайной команды:
 
