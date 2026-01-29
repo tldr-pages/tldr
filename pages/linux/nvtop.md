@@ -1,6 +1,7 @@
 # nvtop
 
 > Interactive ncurses-based GPU process and status viewer for AMD, Intel, and NVIDIA GPUs.
+> See also: `amdgpu_top`, `radeontop`.
 > More information: <https://github.com/Syllo/nvtop>.
 
 - Launch the interactive GPU monitor:

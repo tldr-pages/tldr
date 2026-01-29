@@ -1,8 +1,20 @@
 # amdgpu_top
 
-> Display AMD GPU utilization and hardware metrics in TUI, GUI, or JSON modes.
+> Tool to display AMD GPU utilization and hardware metrics using the AMDGPU driver.
 > See also: `nvtop`, `radeontop`.
 > More information: <https://github.com/Umio-Yasuno/amdgpu_top>.
+
+- Display a list of AMDGPU devices:
+
+`amdgpu_top --list`
+
+- Dump all GPU processes and per-process memory usage:
+
+`amdgpu_top --process`
+
+- Select a specific GPU by PCI bus:
+
+`amdgpu_top --pci "{{0000:01:00.0}}"`
 
 - Launch the interactive TUI monitor:
 
@@ -12,14 +24,6 @@
 
 `amdgpu_top --gui`
 
-- Show a simple SMI-like text view:
+- Launch a simple SMI-like TUI view:
 
 `amdgpu_top --smi`
-
-- Dump detailed AMDGPU information (specs, VRAM, PCI, VBIOS, etc.):
-
-`amdgpu_top --dump`
-
-- Dump AMDGPU information and gpu_metrics in JSON format:
-
-`amdgpu_top --dump --gpu-metrics --json`
