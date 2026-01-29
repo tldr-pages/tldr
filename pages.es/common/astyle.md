@@ -10,16 +10,16 @@
 
 - Aplica el estilo Java con llaves adjuntas:
 
-`astyle --style=java {{ruta/al/archivo}}`
+`astyle {{[-A2|--style=java]}} {{ruta/al/archivo}}`
 
 - Aplica el estilo allman con llaves discontinuas:
 
-`astyle --style=allman {{ruta/al/archivo}}`
+`astyle {{[-A1|--style=allman]}} {{ruta/al/archivo}}`
 
 - Aplica una sangría personalizada utilizando espacios. Elige entre 2 y 20 espacios:
 
-`astyle --indent=spaces={{número_de_espacios}} {{ruta/al/archivo}}`
+`astyle {{[-s|--indent=spaces=]}}{{número_de_espacios}} {{ruta/al/archivo}}`
 
 - Aplica una sangría personalizada utilizando tabuladores. Elige entre 2 y 20 tabulaciones:
 
-`astyle --indent=tab={{número_de_pestañas}} {{ruta/al/archivo}}`
+`astyle {{[-t|--indent=tab=]}{{número_de_pestañas}} {{ruta/al/archivo}}`
