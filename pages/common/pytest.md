@@ -13,7 +13,7 @@
 
 - Exit as soon as a test fails or encounters an error:
 
-`pytest --exitfirst`
+`pytest {{[-x|--exitfirst]}}`
 
 - Run tests matching or excluding markers:
 
@@ -21,12 +21,12 @@
 
 - Run until a test failure, continuing from the last failing test:
 
-`pytest --stepwise`
+`pytest {{[--sw|--stepwise]}}`
 
 - Run tests without capturing output:
 
-`pytest --capture=no`
+`pytest {{[-s|--capture=no]}}`
 
-- Run tests with increased [v]erbosity, displaying individual test names:
+- Run tests with increased verbosity, displaying individual test names:
 
-`pytest -v`
+`pytest {{[-v|--verbose]}}`
