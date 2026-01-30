@@ -1,4 +1,8 @@
-# Project governance
+# Project Governance
+
+This document outlines the governance principles of the tldr-pages project.
+It describes how the community collaborates, makes decisions, and organizes
+itself in an open, transparent, and consensus-driven manner.
 
 The tldr-pages project strives to have an **open**, **welcoming**,
 and [**non-hierarchical**](https://en.wikipedia.org/wiki/Flat_organization)
