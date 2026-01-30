@@ -5,4 +5,4 @@
 
 - Remove directory:
 
-`RD {{path/to/directory}}`
+`RD {{path\to\directory}}`

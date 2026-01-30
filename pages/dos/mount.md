@@ -9,11 +9,11 @@
 
 - Mount specific directory as C:
 
-`MOUNT C {{C:\DOSGAMES}}`
+`MOUNT C {{C:\path\to\directory}}`
 
 - Mount with free space limit (MB):
 
-`MOUNT C {{C:\DOSGAMES}} -freesize {{1024}}`
+`MOUNT C {{C:\path\to\directory}} -freesize {{1024}}`
 
 - Mount floppy drive:
 
