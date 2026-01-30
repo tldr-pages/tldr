@@ -21,4 +21,4 @@
 
 - Generate a PDF (Note: TeXLive must be installed):
 
-`kosmorro {{[-o|--output]}} "path/to/file.pdf"`
+`kosmorro {{[-o|--output]}} "{{path/to/file}}.pdf"`
