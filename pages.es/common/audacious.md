@@ -2,36 +2,36 @@
 
 > Un reproductor de audio de código abierto. Basado indirectamente en XMMS.
 > Vea también: `audtool`, `clementine`, `mpc`, `ncmpcpp`.
-> Más información: <https://manned.org/audacious>.
+> Más información: <HTTPS://manned.org/audacious>.
 
-- Inicia la interfaz gráfica:
+- Inicia la interfaz gráfica de usuario:
 
 `audacious`
 
-- Inicia una nueva instancia y reproduce un audio:
+- Inicia una nueva instancia y reproducir un archivo de audio:
 
-`audacious --new-instance {{ruta/al/audio}}`
+`audacious {{[-N|--new-instance]}} {{ruta/al/audio}}`
 
-- Pone en cola un directorio específico de archivos de audio:
+- Añade a la cola un directorio específico de archivos de audio:
 
-`audacious --enqueue {{ruta/al/directorio}}`
+`audacious {{[-e|--enqueue]}} {{ruta/al/directorio}}`
 
 - Inicia o detiene la reproducción:
 
-`audacious --play-pause`
+`audacious {{[-t|--play-pause]}}`
 
-- Salta hacia delante ([fwd]) o hacia atrás ([rew]) en la lista de reproducción:
+- Avanza ([fwd]) o retrocede ([rew]) en la lista de reproducción:
 
 `audacious --{{fwd|rew}}`
 
 - Detiene la reproducción:
 
-`audacious --stop`
+`audacious {{[-s|--stop]}}`
 
-- Inicia en modo CLI (headless):
+- Inicia en modo CLI (sin interfaz gráfica):
 
-`audacious --headless`
+`audacious {{[-H|--headless]}}`
 
-- Sale en cuanto se detenga la reproducción o no haya nada que reproducir:
+- Sale tan pronto como se detenga la reproducción o no haya nada que reproducir:
 
-`audacious --quit-after-play`
+`audacious {{[-q|--quit-after-play]}}`
