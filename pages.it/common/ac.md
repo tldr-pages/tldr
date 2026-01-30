@@ -1,6 +1,6 @@
 # ac
 
-> Stampa statistiche sul tempo di connessione degli utenti.  
+> Stampa statistiche sul tempo di connessione degli utenti.
 > Maggiori informazioni: <https://manned.org/ac.8>.
 
 - Mostra da quanto tempo l’utente corrente è connesso, in ore:
