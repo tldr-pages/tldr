@@ -1,7 +1,7 @@
 # LOADHIGH
 
 > Load program into upper memory (requires `xms=true`, `umb=true`).
-> More information: <https://www.dosbox.com/wiki/Commands>.
+> More information: <https://www.dosbox.com/wiki/Commands#LOADHIGH>.
 
 - Load program into upper memory:
 
