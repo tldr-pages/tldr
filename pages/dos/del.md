@@ -5,4 +5,4 @@
 
 - Delete files:
 
-`DEL {{file1, file2, ...}}`
+`DEL {{file}}`
