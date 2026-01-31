@@ -4,7 +4,7 @@
 > Beheer Node.js-projecten en hun module-afhankelijkheden.
 > Meer informatie: <https://docs.npmjs.com/cli/npm/>.
 
-- Maak een `package.json`-bestand met standaardwaarden (laat --yes weg om dit interactief te doen):
+- Maak een `package.json`-bestand met standaardwaarden (laat `--yes` weg om dit interactief te doen):
 
 `npm init {{[-y|--yes]}}`
 

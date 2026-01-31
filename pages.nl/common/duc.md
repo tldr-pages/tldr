@@ -4,7 +4,7 @@
 > Duc onderhoudt een database van geaccumuleerde groottes van mappen van het bestandssysteem, waardoor je deze database kunt raadplegen of mooie grafieken kunt maken om te laten zien waar de data zich bevindt.
 > Meer informatie: <https://htmlpreview.github.io/?https://github.com/zevv/duc/blob/master/doc/duc.1.html>.
 
-- Indexeer de `/usr` map en schrijf naar de standaard database locatie ~/.duc.db:
+- Indexeer de `/usr` map en schrijf naar de standaard database locatie `~/.duc.db`:
 
 `duc index {{/usr}}`
 
