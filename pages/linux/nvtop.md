@@ -10,24 +10,25 @@
 
 - Set the update delay in tenths of a second (for example, 2 = 0.2 seconds):
 
-`nvtop --delay {{2}}`
+`nvtop {{[-d|--delay]}} {{2}}`
 
 - Run in monochrome (no color) mode:
 
-`nvtop --no-color`
+`nvtop {{[-C|--no-color]}}`
 
 - Use Fahrenheit for temperature display:
 
-`nvtop --freedom-unit`
+`nvtop {{[-f|--freedom-unit]}}`
 
 - Always show encoder/decoder meters, disabling auto-hide:
 
-`nvtop --encode-hide {{-1}}`
+`nvtop {{[-E|--encode-hide]}} {{-1}}`
 
 - Show a single combined bar plot instead of per-GPU plots:
 
-`nvtop --no-plot`
+`nvtop {{[-p|--no-plot]}}`
 
 - Show the program version:
 
-`nvtop --version`
+`nvtop {{[-v|--version]}}`
+

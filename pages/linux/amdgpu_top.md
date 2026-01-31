@@ -10,7 +10,7 @@
 
 - Dump all GPU processes and per-process memory usage:
 
-`amdgpu_top --process`
+`amdgpu_top {{[-p|--process]}}`
 
 - Select a specific GPU by PCI bus:
 
