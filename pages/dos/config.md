@@ -5,7 +5,7 @@
 
 - Write current config to file (local drive):
 
-`CONFIG -writeconf {{dosbox.conf}}`
+`CONFIG -writeconf {{path/to/file.conf}}`
 
 - Write current language strings to file:
 
