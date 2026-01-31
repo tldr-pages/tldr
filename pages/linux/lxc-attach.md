@@ -7,6 +7,10 @@
 
 `sudo lxc-attach {{container_name}}`
 
+- Attach to a container without passing host environment variables to it:
+
+`sudo lxc-attach {{container_name}} --clear-env`
+
 - Display help:
 
 `lxc-attach {{[-?|--help]}}`

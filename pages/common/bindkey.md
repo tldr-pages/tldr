@@ -26,3 +26,7 @@
 - Enable [e]macs mode (default mode):
 
 `bindkey -e`
+
+- Check which mode is active (vi or emacs):
+
+`bindkey -lL main | grep -Eo 'viins|emacs'`

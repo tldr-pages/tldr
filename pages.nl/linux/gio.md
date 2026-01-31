@@ -24,6 +24,14 @@
 
 `gio trash {{pad/naar/bestand}}`
 
+- Leeg de prullenbak:
+
+`gio trash --empty`
+
 - Start een applicatie vanuit een `.desktop` bestand:
 
 `gio launch {{pad/naar/bestand}}.desktop`
+
+- Markeer een `.desktop` bestand als vertrouwd, waardoor het uitgevoerd kan worden:
+
+`gio set {{pad/naar/bestand}}.desktop metadata::trusted true`

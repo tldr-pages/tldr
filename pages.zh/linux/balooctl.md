@@ -31,6 +31,6 @@
 
 `balooctl check`
 
-- 显示帮助信息：
+- 显示帮助：
 
 `balooctl --help`

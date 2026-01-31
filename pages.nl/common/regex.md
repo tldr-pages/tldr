@@ -16,7 +16,7 @@
 
 `{{wereld}}$`
 
-- Zoek naar nul of meer herhalende characters:
+- Zoek naar nul of meer herhalende karakters:
 
 `{{a}}*`
 

@@ -1,9 +1,9 @@
 # git add
 
-> Adds changed files to the index.
+> Stage changed files for a commit.
 > More information: <https://git-scm.com/docs/git-add>.
 
-- Add a file to the index:
+- Stage a file for a commit:
 
 `git add {{path/to/file}}`
 
@@ -19,9 +19,9 @@
 
 `git add {{[-u|--update]}}`
 
-- Also add ignored files:
+- Add an ignored file:
 
-`git add {{[-f|--force]}}`
+`git add {{[-f|--force]}} {{path/to/file}}`
 
 - Interactively stage parts of files:
 

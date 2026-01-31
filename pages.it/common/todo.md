@@ -9,7 +9,7 @@
 
 - Aggiungere un nuovo task alla lista delle cose da fare per lavoro:
 
-`todo new {{cose_da_fare}} --list {{lavoro}}`
+`todo new {{cose_da_fare}} {{[-l|--list]}} {{lavoro}}`
 
 - Aggiungere una località ad un task con un dato ID:
 

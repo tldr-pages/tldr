@@ -1,6 +1,7 @@
 # cfdisk
 
 > Manage partition tables and partitions on a hard disk using a curses UI.
+> See also: `parted`.
 > More information: <https://manned.org/cfdisk>.
 
 - Start the partition manipulator with a specific device:

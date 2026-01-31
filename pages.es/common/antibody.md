@@ -5,7 +5,7 @@
 
 - Empaqueta todos los complementos para su carga estática:
 
-`antibody bundle < {{~/.zsh_plugins.txt}} > {{~/.zsh_plugins.sh}}`
+`antibody < {{~/.zsh_plugins.txt}} bundle > {{~/.zsh_plugins.sh}}`
 
 - Actualiza todos los empaquetados:
 

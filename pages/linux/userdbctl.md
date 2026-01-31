@@ -5,7 +5,7 @@
 
 - List all known user records:
 
-`userdbctl user`
+`userdbctl`
 
 - Show details of a specific user:
 

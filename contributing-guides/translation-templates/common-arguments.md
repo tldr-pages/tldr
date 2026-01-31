@@ -3,7 +3,6 @@
 This page provides translations of commonly used arguments to simplify maintaining pages in foreign languages.\
 The best way to edit this file is by using [tableconvert.com](https://tableconvert.com/markdown-to-markdown).\
 There, the old table can be **imported**, **edited** in a WYSIWYG editor and **exported** again.\
-Only the left-alignment of the header gets lost and has to be re-added again (`|----` → `|:---`).
 
 > [!NOTE]
 > Placeholders in Arabian (`ar`) and Farsi (`fa`) pages shouldn't be translated to prevent flipped text when reading.
@@ -16,14 +15,14 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | ca    | camí/al/fitxer        | camí/al/directori        | camí/al/fitxer_o_directori           | paquet        | nom_usuari         |                   |          |        |          |
 | cs    | cesta/k/souboru       | cesta/k/adresari         | cesta/k/souboru_ci_adresari          | balíček       | jmeno_uzivatele    |                   |          |        |          |
 | da    | sti/til/fil           | sti/til/mappe            | sti/til/fil_eller_mappe              | pakke         | brugernavn         |                   |          |        |          |
-| de    | pfad/zu/datei         | pfad/zu/verzeichnis      | pfad/zu/datei_oder_verzeichnis       | paket         | benutzername       |                   |          |        |          |
+| de    | pfad/zu/datei         | pfad/zu/verzeichnis      | pfad/zu/datei_oder_verzeichnis       | paket         | benutzername       | passwort          | befehl   | port   | wert     |
 | el    | διαδρομή/προς/αρχείο  | διαδρομή/προς/κατάλογο   | διαδρομή/προς/αρχείο_ή_κατάλογο      | πακέτο        | όνομα_χρήστη       | κωδικός_πρόσβασης |          |        |          |
 | es    | ruta/al/archivo       | ruta/al/directorio       | ruta/al/archivo_o_directorio         | paquete       | usuario            | contraseña        | comando  | puerto | valor    |
 | fa    | path/to/file          | path/to/directory        | path/to/file_or_directory            | package       | username           | password          | command  | port   | value    |
 | fi    | polku/tiedostoon      | polku/hakemistoon        | polku/tiedostoon_tai_hakemistoon     | paketti       | käyttäjätunnus     | salasana          | komento  | portti | arvo     |
 | fr    | chemin/vers/fichier   | chemin/vers/dossier      | chemin/vers/fichier_ou_dossier       | paquet        | nom_d_utilisateur  | mot_de_passe      | commande | port   | valeur   |
 | hi    | फ़ाइल/का/पथ           | निर्देशिका/का/पथ         | फ़ाइल_या_निर्देशिका/का/पथ            | पैकेज         | उपयोगकर्ता_नाम     |                   |          |        |          |
-| id    | jalan/menuju/berkas   | jalan/menuju/direktori   | jalan/menuju/berkas_atau_direktori   | paket         | nama_pengguna      |                   |          |        |          |
+| id    | jalan/menuju/berkas   | jalan/menuju/direktori   | jalan/menuju/berkas_atau_direktori   | paket         | nama_pengguna      | kata_sandi        | perintah | port   | nilai    |
 | it    | percorso/del/file     | percorso/della/directory | percorso/del/file_o_directory        | pacchetto     | nome_utente        | password          | comando  | porta  | valore   |
 | ja    | ファイルパス                | ディレクトリパス                 | ファイルパスまたはディレクトリパス                    | パッケージ         | ユーザー名              |                   |          |        |          |
 | ko    | 경로/대상/파일              | 경로/대상/폴더                 | 경로/대상/파일_또는_폴더                       | 패키지           | 사용자 명              |                   |          |        |          |

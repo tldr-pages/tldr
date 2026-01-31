@@ -1,6 +1,7 @@
 # slurmrestd
 
-> Interface to Slurm via REST API. It can be used in two modes: *Inetd Mode* & *Listen Mode*.
+> Interface to Slurm via REST API.
+> Note: Can be used in two modes: Inetd Mode and Listen Mode.
 > More information: <https://slurm.schedmd.com/slurmrestd.html>.
 
 - Change the [g]roup ID (and drop supplemental groups) before processing client requests:

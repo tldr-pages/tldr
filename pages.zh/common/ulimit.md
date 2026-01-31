@@ -19,6 +19,6 @@
 
 `ulimit -u 30`
 
-- 显示帮助信息：
+- 显示帮助：
 
 `help ulimit`

@@ -9,8 +9,8 @@
 
 - Scannerizza le star di una repository fino ad un massimo di 50:
 
-`astronomer {{tldr-pages/tldr-node-client}} --stars {{50}}`
+`astronomer {{tldr-pages/tldr-node-client}} {{[-s|--stars]}} {{50}}`
 
 - Scannerizza una repository includendo report comparativi:
 
-`astronomer {{tldr-pages/tldr-node-client}} --verbose`
+`astronomer {{tldr-pages/tldr-node-client}} {{[-v|--verbose]}}`
