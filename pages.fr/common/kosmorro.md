@@ -19,6 +19,6 @@
 
 `kosmorro {{[-p|--position]}} "48.7996,2.3511" {{[-d|--date]}} "+2d"`
 
-- Génère un fihier PDF (TeXLive doit être installé) :
+- Génère un fichier PDF (TeXLive doit être installé) :
 
 `kosmorro {{[-o|--output]}} "{{chemin/vers/fichier.pdf}}"`
