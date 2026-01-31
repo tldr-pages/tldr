@@ -1,6 +1,6 @@
 # yadm gitconfig
 
-> `git config`에 옵션을 전달하여 `yadm`으로 관리하는 저장소의 `.gitconfig`를 변경합니다.
+> `git config`에 옵션을 전달하여 yadm으로 관리하는 저장소의 `.gitconfig`를 변경합니다.
 > 같이 보기: `git config`.
 > 더 많은 정보: <https://github.com/TheLocehiliosan/yadm/blob/master/yadm.md#commands>.
 
