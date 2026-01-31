@@ -13,11 +13,11 @@
 
 - Get ephemerides for Paris, France, on June 9th, 2020:
 
-`kosmorro  {{[-p|--position]}} "48.7996,2.3511" {{[-d|--date]}} "2020-06-09"`
+`kosmorro {{[-p|--position]}} "48.7996,2.3511" {{[-d|--date]}} "2020-06-09"`
 
 - Get ephemerides for Paris, France, in two days:
 
-`kosmorro  {{[-p|--position]}} "48.7996,2.3511" {{[-d|--date]}} "+2d"`
+`kosmorro {{[-p|--position]}} "48.7996,2.3511" {{[-d|--date]}} "+2d"`
 
 - Generate a PDF (Note: TeXLive must be installed):
 
