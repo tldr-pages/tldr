@@ -5,4 +5,4 @@
 
 - Rename file:
 
-`REN {{old.txt}} {{new.txt}}`
+`REN {{path/to/file}} {{new_name}}`
