@@ -3,9 +3,9 @@
 > Reduce available conventional memory for old programs (default: 64KB).
 > More information: <https://www.dosbox.com/wiki/LOADFIX>.
 
-- Load program with 64KB less memory:
+- Start a program with 64KB allocated memory:
 
-`LOADFIX {{mm2}}`
+`LOADFIX {{program}}`
 
 - Load with custom KB reduction (1-1024):
 
