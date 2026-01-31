@@ -9,7 +9,7 @@
 
 - Write current language strings to file:
 
-`CONFIG -writelang {{dosbox.lang}}`
+`CONFIG -writelang {{path/to/file.lang}}`
 
 - Enable secure mode (disables MOUNT/IMGMOUNT/BOOT):
 
