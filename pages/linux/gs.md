@@ -7,7 +7,7 @@
 
 `gs -dQUIET -dBATCH {{file.pdf}}`
 
-- Reduce PDF file size to 150 dpi images for reading on a e-book device:
+- Reduce PDF file size to 150 dpi images for reading on an e-book device:
 
 `gs -dNOPAUSE -dQUIET -dBATCH -sDEVICE=pdfwrite -dPDFSETTINGS=/ebook -sOutputFile={{output.pdf}} {{input.pdf}}`
 
