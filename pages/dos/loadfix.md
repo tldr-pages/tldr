@@ -1,7 +1,7 @@
 # LOADFIX
 
 > Reduce available conventional memory for old programs (default: 64KB).
-> More information: <https://www.dosbox.com/wiki/LOADFIX#LOADFIX>.
+> More information: <https://www.dosbox.com/wiki/LOADFIX>.
 
 - Load program with 64KB less memory:
 
