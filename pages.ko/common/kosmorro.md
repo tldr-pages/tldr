@@ -9,7 +9,7 @@
 
 - UTC+2 시간대의 프랑스 파리의 천체력 얻기:
 
-`kosmorro {{[-p|--position]}} "48.7996,2.3511" {{[-t--timezone]}} "Europe/Paris"`
+`kosmorro {{[-p|--position]}} "48.7996,2.3511" {{[-t|--timezone]}} "Europe/Paris"`
 
 - 2020년 6월 9일의 프랑스 파리의 천체력 얻기:
 
