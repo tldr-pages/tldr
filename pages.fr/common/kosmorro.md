@@ -15,7 +15,7 @@
 
 `kosmorro {{[-p|--position]}} "48.7996,2.3511" {{[-d|--date]}} "2020-06-09"`
 
-- Obtient les éphemerides pour Paris (France) dans deux jours :
+- Obtient les éphémérides pour Paris (France) dans deux jours :
 
 `kosmorro {{[-p|--position]}} "48.7996,2.3511" {{[-d|--date]}} "+2d"`
 
