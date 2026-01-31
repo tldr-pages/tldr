@@ -24,9 +24,9 @@
 
 `fd {{[-H|--hidden]}} {{[-I|--no-ignore]}} "{{string|regex}}"`
 
-- Exclude files that match a specific `regex`:
+- Exclude files that match a specific glob pattern:
 
-`fd {{string}} {{[-E|--exclude]}} {{regex}}`
+`fd {{string}} {{[-E|--exclude]}} {{glob}}`
 
 - Execute a command on each search result returned:
 
