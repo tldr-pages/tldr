@@ -9,7 +9,7 @@
 
 - Upgrade alle opgegeven pakketten naar de nieuwste versie en installeer alle pakketten die nog niet aanwezig zijn:
 
-`pip install {{package1 package2 ...}} {{[-U|--upgrade]}}`
+`pip install {{pakket1 pakket2 ...}} {{[-U|--upgrade]}}`
 
 - Installeer een specifieke versie van een pakket:
 

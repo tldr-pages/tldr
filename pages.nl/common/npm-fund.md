@@ -3,7 +3,7 @@
 > Haal financieringsinformatie op van pakketten.
 > Meer informatie: <https://docs.npmjs.com/cli/npm-fund/>.
 
-- Toon afhankelijkheden met financierings-URL voor het project in de huidige directory:
+- Toon afhankelijkheden met financierings-URL voor het project in de huidige map:
 
 `npm fund`
 
@@ -11,6 +11,6 @@
 
 `npm fund {{pakket}}`
 
-- Toon afhankelijkheden met een financierings-URL voor een specifieke [w]orkspace voor het project in de huidige directory:
+- Toon afhankelijkheden met een financierings-URL voor een specifieke [w]orkspace voor het project in de huidige map:
 
 `npm fund {{[-w|--workspace]}} {{workspace}}`
