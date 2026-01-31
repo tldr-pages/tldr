@@ -25,7 +25,7 @@
 
 - Install a package from a Git repository:
 
-`pip install git+https://github.com/{{user}}/{{repository}}.git`
+`pip install git+https://{{example.com}}/{{user}}/{{repository}}.git`
 
 - Install a package from an alternative source (URL or directory) instead of PyPI:
 
