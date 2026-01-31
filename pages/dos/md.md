@@ -5,4 +5,4 @@
 
 - Create directory:
 
-`MD {{directory}}`
+`MD {{path/to/directory}}`
