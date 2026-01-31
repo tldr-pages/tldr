@@ -17,4 +17,4 @@
 
 - PDF 생성 (참고: TeXLive가 설치되어 있어야 함):
 
-`kosmorro {{[-o--output]}} "경로/대상/파일.pdf"`
+`kosmorro {{[-o|--output]}} "{{경로/대상/파일}}.pdf"`
