@@ -10,3 +10,7 @@
 - Solicita nuevas direcciones al servidor DHCP:
 
 `sudo dhcpcd {{[-n|--rebind]}}`
+
+- Mostrar el último arrendamiento obtenido para una interfaz y salir:
+
+`sudo dhcpcd {{[-U|--dumplease]}} {{interface_name}}`
