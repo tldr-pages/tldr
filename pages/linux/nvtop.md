@@ -31,4 +31,3 @@
 - Show the program version:
 
 `nvtop {{[-v|--version]}}`
-
