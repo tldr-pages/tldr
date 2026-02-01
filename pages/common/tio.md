@@ -23,3 +23,7 @@
 - List available serial ports:
 
 `tio {{[-l|--list]}}`
+
+- Exit `tio` session:
+
+`<Ctrl t><q>`
