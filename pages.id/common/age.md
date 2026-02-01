@@ -6,7 +6,7 @@
 
 - Buat sebuah berkas terenkripsi yang hanya dapat didekripsi menggunakan kata sandi:
 
-`age {{[-p|--passphrase]}} {{[-o|{{[-o|--output]}}]}} {{jalan/menuju/berkas_terenkripsi}} {{jalan/menuju/berkas_tidak_terenkripsi}}`
+`age {{[-p|--passphrase]}} {{[-o|--output]}} {{jalan/menuju/berkas_terenkripsi}} {{jalan/menuju/berkas_tidak_terenkripsi}}`
 
 - Buat berkas terenkripsi dengan kunci publik (public key) secara literal (ulangi argumen `--recipient` untuk memberikan kunci publik tambahan):
 
@@ -14,7 +14,7 @@
 
 - Buat berkas terenkripsi bagi para penerima menurut kunci-kunci publik mereka yang disimpan di dalam suatu berkas (satu kunci per baris):
 
-`age {{[-R|--recipients-berkas]}} {{path/to/berkas_daftar_penerima}} {{[-o|--output]}} {{jalan/menuju/berkas_terenkripsi}} {{jalan/menuju/berkas_tidak_terenkripsi}}`
+`age {{[-R|--recipients-file]}} {{path/to/berkas_daftar_penerima}} {{[-o|--output]}} {{jalan/menuju/berkas_terenkripsi}} {{jalan/menuju/berkas_tidak_terenkripsi}}`
 
 - Buka berkas terenkripsi dengan kata sandi:
 
