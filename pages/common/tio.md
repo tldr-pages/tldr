@@ -1,6 +1,7 @@
 # tio
 
 > Monitor and interact with serial ports.
+> See also: `picocom`, `cu`, `minicom`.
 > More information: <https://github.com/tio/tio#3-usage>.
 
 - Open a serial port with default settings:
