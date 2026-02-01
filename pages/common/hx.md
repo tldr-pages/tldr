@@ -2,7 +2,7 @@
 
 > Helix, a post-modern text editor, provides several modes for different kinds of text manipulation.
 > Pressing `<i>` enters insert mode. `<Esc>` enters normal mode, which enables the use of Helix commands.
-> More information: <https://manpages.debian.org/testing/hx/editor.1.en.html>.
+> More information: <https://manned.org/man/debian-forky/hx>.
 
 - Open a file:
 
