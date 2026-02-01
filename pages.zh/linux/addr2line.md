@@ -5,12 +5,12 @@
 
 - 显示可执行文件的指令地址对应源代码的文件名和行数：
 
-`addr2line --exe={{可执行文件路径}} {{地址}}`
+`addr2line {{[-e|--exe]}} {{可执行文件路径}} {{地址}}`
 
 - 显示函数名、文件名和行数：
 
-`addr2line --exe={{可执行文件路径}} --functions {{地址}}`
+`addr2line {{[-e|--exe]}} {{可执行文件路径}} {{[-f|--functions]}} {{地址}}`
 
 - 将 C++ 代码函数名符号重组：
 
-`addr2line --exe={{可执行文件地址}} --functions --demangle {{地址}}`
+`addr2line {{[-e|--exe]}} {{可执行文件地址}} {{[-f|--functions]}} {{[-C|--demangle]}} {{地址}}`
