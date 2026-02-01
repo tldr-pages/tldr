@@ -30,7 +30,7 @@
 
 - Vind welk pakket voorziet van een bepaald commando:
 
-`dnf provides {{command}}`
+`dnf provides {{commando}}`
 
 - Verwijder gecachte data:
 
