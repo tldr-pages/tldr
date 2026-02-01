@@ -10,7 +10,3 @@
 - DHCP 서버에 새 임대 요청:
 
 `sudo dhcpcd {{[-n|--rebind]}}`
-
-- 지정한 인터페이스의 마지막으로 획득한 임대를 출력하고 종료:
-
-`sudo dhcpcd {{[-U|--dumplease]}} {{interface_name}}`
