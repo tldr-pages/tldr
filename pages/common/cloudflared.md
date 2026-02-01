@@ -19,6 +19,10 @@
 
 `cloudflared tunnel route dns {{name|uuid}} {{hostname}}`
 
+- Save logs to a file:
+
+`cloudflared tunnel --url http://localhost:{{port_number}}  --loglevel {{panic|fatal|error|warn|info|debug}} --logfile {{path/to/file}} run {{name}}`
+
 - Run a tunnel and proxy traffic to a local service:
 
 `cloudflared tunnel run --url http://localhost:{{port}} {{name}}`
@@ -26,10 +30,6 @@
 - Start a temporary tunnel to expose a local service (no account required):
 
 `cloudflared tunnel --url http://localhost:{{port}}`
-
-- Delete a tunnel:
-
-`cloudflared tunnel delete {{name|uuid}}`
 
 - Install cloudflared as a system service:
 
