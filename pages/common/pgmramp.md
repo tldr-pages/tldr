@@ -15,7 +15,7 @@
 
 `pgmramp -rectangle > {{path/to/output.pgm}}`
 
-- Generate a elliptical greyscale map:
+- Generate an elliptical greyscale map:
 
 `pgmramp -ellipse {{path/to/image.pgm}} > {{path/to/output.pgm}}`
 

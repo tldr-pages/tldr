@@ -8,7 +8,7 @@
 
 `pip install {{pakket}}`
 
-- Installeer een pakket in de directory van de gebruiker in plaats van op de systeembrede standaardlocatie:
+- Installeer een pakket in de map van de gebruiker in plaats van op de systeembrede standaardlocatie:
 
 `pip install --user {{pakket}}`
 
