@@ -10,7 +10,7 @@
 
 - Open files and show them one next each other:
 
-`hx --vsplit {{path/to/file1 path/to/file2}}`
+`hx --vsplit {{path/to/file1 path/to/file2 ...}}`
 
 - Show the tutorial to learn Helix (or access it within Helix by pressing `<Esc>` and typing `<:>tutor<Enter>`):
 
