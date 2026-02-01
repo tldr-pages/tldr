@@ -13,7 +13,7 @@
 
 - Ajoute une dépendance et active une ou plusieures fonctionnalités :
 
-`cargo add {{dépendance}} {{[-F|--features]}} {{fonctionnalité_1}},{{fonctionnalité_2}}`
+`cargo add {{dépendance}} {{[-F|--features]}} {{fonctionnalité_1,fonctionnalité_2,...}}`
 
 - Ajoute une dépendance optionnelle, qui sera exposée comme une fonctionnalité du crate :
 
