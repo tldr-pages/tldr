@@ -3,7 +3,7 @@
 > Manipulate network interface MAC addresses.
 > More information: <https://manned.org/macchanger>.
 
-- View the current and permanent MAC addresses of a interface:
+- View the current and permanent MAC addresses of an interface:
 
 `macchanger {{[-s|--show]}} {{interface}}`
 

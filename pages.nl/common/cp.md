@@ -1,25 +1,25 @@
 # cp
 
-> Kopieer bestanden en directories.
+> Kopieer bestanden en mappen.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
 
 - Kopieer een bestand naar een andere locatie:
 
 `cp {{pad/naar/bronbestand.ext}} {{pad/naar/doelbestand.ext}}`
 
-- Kopieer een bestand naar een andere directory, met behoud van de bestandsnaam:
+- Kopieer een bestand naar een andere map, met behoud van de bestandsnaam:
 
 `cp {{pad/naar/bronbestand.ext}} {{pad/naar/doelmap}}`
 
-- Kopieer de inhoud van een directory recursief naar een andere locatie (als de bestemming bestaat, wordt de directory erin gekopieerd):
+- Kopieer de inhoud van een map recursief naar een andere locatie (als de bestemming bestaat, wordt de map erin gekopieerd):
 
 `cp {{[-r|--recursive]}} {{pad/naar/bronmap}} {{pad/naar/doelmap}}`
 
-- Kopieer een directory recursief, in verbose modus (toont bestanden terwijl ze worden gekopieerd):
+- Kopieer een map recursief, in verbose modus (toont bestanden terwijl ze worden gekopieerd):
 
 `cp {{[-vr|--verbose --recursive]}} {{pad/naar/bronmap}} {{pad/naar/doelmap}}`
 
-- Kopieer meerdere bestanden tegelijk naar een directory:
+- Kopieer meerdere bestanden tegelijk naar een map:
 
 `cp {{[-t|--target-directory]}} {{pad/naar/doelmap}} {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
 
