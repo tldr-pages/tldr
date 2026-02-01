@@ -2,7 +2,7 @@
 
 > Interactive ncurses-based GPU process and status viewer for AMD, Intel, and NVIDIA GPUs.
 > See also: `amdgpu_top`, `radeontop`.
-> More information: <https://github.com/Syllo/nvtop>.
+> More information: <https://manned.org/nvtop>.
 
 - Launch the interactive GPU monitor:
 
@@ -22,7 +22,7 @@
 
 - Always show encoder/decoder meters, disabling auto-hide:
 
-`nvtop {{[-E|--encode-hide]}} {{-1}}`
+`nvtop {{[-E|--encode-hide]}} -1`
 
 - Show a single combined bar plot instead of per-GPU plots:
 

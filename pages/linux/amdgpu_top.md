@@ -2,7 +2,7 @@
 
 > Tool to display AMD GPU utilization and hardware metrics using the AMDGPU driver.
 > See also: `nvtop`, `radeontop`.
-> More information: <https://github.com/Umio-Yasuno/amdgpu_top>.
+> More information: <https://github.com/Umio-Yasuno/amdgpu_top#usage>.
 
 - Display a list of AMDGPU devices:
 
