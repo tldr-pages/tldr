@@ -5,7 +5,7 @@
 
 - Generate a screenshot from the current TTY:
 
-`sudo fbgrab {{path/to/file.png}}`
+`sudo fbgrab {{path/to/file}}.png`
 
 - Specify which TTY to capture:
 
