@@ -7,6 +7,6 @@
 
 `drm_info`
 
-- Dump DRM information in JSON format:
+- Dump DRM information in [j]SON format:
 
 `drm_info -j`
