@@ -26,3 +26,7 @@
 - Print a quotation from one of the database files listed by `fortune -f`:
 
 `fortune {{path/to/file}}`
+
+- Pipe a fortune into another fun command (like `cowsay` or `lolcat`):
+  
+`fortune | cowsay | lolcat` 
