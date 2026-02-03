@@ -14,7 +14,7 @@
 
 - Display a centered message:
 
-`neo {{[-m|--message]}} "Hello World"`
+`neo {{[-m|--message]}} "{{Hello World}}"`
 
 - Set droplet density and glitch percentage:
 
