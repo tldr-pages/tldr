@@ -1,20 +1,24 @@
 # kosmorro
 
 > Calcule les éphémérides et les évènements pour une date donnée, à un emplacement donné sur Terre.
-> Plus d'informations : <https://github.com/Kosmorro/kosmorro/blob/master/manpage/kosmorro.1.md>.
+> Plus d'informations : <https://kosmorro.space/cli/manpage/>.
 
-- Obtenir les éphémérides pour Paris (France) :
+- Obtient les éphémérides pour Paris (France) :
 
-`kosmorro --latitude={{48.7996}} --longitude={{2.3511}}`
+`kosmorro {{[-p|--position]}} "48.7996,2.3511"`
 
-- Obtenir les éphémérides pour Paris (France), sur le fuseau horaire UTC+2 :
+- Obtient les éphémérides pour Paris (France), sur le fuseau horaire local :
 
-`kosmorro --latitude={{48.7996}} --longitude={{2.3511}} --timezone={{2}}`
+`kosmorro {{[-p|--position]}} "48.7996,2.3511" {{[-t|--timezone]}} "Europe/Paris"`
 
-- Obtenir les éphémérides du 9 juin 2020 pour Paris (France) :
+- Obtient les éphémérides du 9 juin 2020 pour Paris (France) :
 
-`kosmorro --latitude={{48.7996}} --longitude={{2.3511}} --date={{2020-06-09}}`
+`kosmorro {{[-p|--position]}} "48.7996,2.3511" {{[-d|--date]}} "2020-06-09"`
 
-- Générer un fichier PDF (TeXLive doit être installé) :
+- Obtient les éphémérides pour Paris (France) dans deux jours :
 
-`kosmorro --format={{pdf}} --output={{chemin/vers/le/fichier.pdf}}`
+`kosmorro {{[-p|--position]}} "48.7996,2.3511" {{[-d|--date]}} "+2d"`
+
+- Génère un fichier PDF (TeXLive doit être installé) :
+
+`kosmorro {{[-o|--output]}} "{{chemin/vers/fichier}}.pdf"`

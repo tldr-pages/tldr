@@ -4,7 +4,7 @@
 > When adding an RPM repository, you must also import the corresponding RPM key.
 > More information: <https://rpm-software-management.github.io/rpm/man/rpmkeys.8>.
 
-- List all imported RPM keys. Also outputs its Key ID needed for deleting a imported RPM key:
+- List all imported RPM keys. Also outputs its Key ID needed for deleting an imported RPM key:
 
 `sudo rpmkeys --list`
 
