@@ -25,38 +25,19 @@
 
 - Use a specific charset (ASCII, Cyrillic, Greek, Katakana, Braille):
 
-`neo --charset=ascii`  
+`neo --charset=ascii`
 
 - Disable glitching ([noglitch]) and colors ([colormode=0]) for performance:
 
 `neo --noglitch --colormode=0`
 
-- Show Unicode characters in a custom range ([chars]):
-
-`neo --chars=0x1F030,0x1F093 --fullwidth`
-
 - Key controls while running:
 
-`SPACE`
-clear screen
-
-`UP`
-increase speed
-
-`DOWN`
-decrease speed
-
-`LEFT`
-decrease glitchiness
-
-`RIGHT`
-increase glitchiness
-
-`+`
-increase droplets
-
-`-`
-decrease droplets
-
-`ESC / q`
-quit
+`SPACE`      - clear screen  
+`UP`         - increase speed  
+`DOWN`       - decrease speed  
+`LEFT`       - decrease glitchiness  
+`RIGHT`      - increase glitchiness  
+`+`          - increase droplets  
+`-`          - decrease droplets  
+`ESC / q`    - quit
