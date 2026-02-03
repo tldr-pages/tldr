@@ -4,10 +4,6 @@
 > See also: `cmatrix`.
 > More information: <https://manned.org/neo>.
 
-- Run the default digital rain:
-
-`neo`
-
 - Set scroll speed and asynchronous columns:
 
 `neo {{[-S|--speed]}} 12 {{[-a|--async]}}`
@@ -22,16 +18,20 @@
 
 - Set droplet density and glitch percentage:
 
-`neo {{[-d|--density]}} 2.0 {{[-g|--glitchpct]}} 5.0`
+`neo {{[-d|--density]}} 2.0 {{[-g|--glitchpct]}} 20.0`
 
-- Use a specific charset (ASCII, Cyrillic, Greek, Katakana, Braille):
+- Use a specific charset (ascii, extended ascii, english, dec, decimal, digits, punc, bin, binary, hex, hexadecimal, katakana, greek, cyrillic, arabic, hebrew, devanagari, braille, runic):
 
 `neo --charset ascii`
 
-- Disable glitching and colors for performance:
+- Clear the screen:
 
-`neo --noglitch --colormode 0`
+'<Space>'
 
-- Clear screen, (Increase / Decrease speed), (Increase / Decrease glitchiness), (Increase / Decrease droplets), Quit:
+- Show the help message:
 
-`<Space>, (<Up> / <Down>), (<Left> / <Right>), (<+> / <->), (<Esc> / <q>)`
+'neo {{[-h|--help]}}
+
+- Exit neo:
+
+'<Esc>|<q>'
