@@ -44,4 +44,4 @@
 `RIGHT`      - increase glitchiness  
 `+`          - increase droplets  
 `-`          - decrease droplets  
-`ESC` / `q`  - quit
+`ESC / q`  - quit
