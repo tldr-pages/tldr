@@ -1,7 +1,7 @@
 # virt-sysprep
 
 > 가상 머신 이미지를 재설정, 비구성 또는 사용자 정의.
-> 더 많은 정보: <https://manned.org/virt-sysprep>.
+> 더 많은 정보: <https://libguestfs.org/virt-sysprep.1.html>.
 
 - 지원되는 모든 작업 나열 (활성화된 작업은 별표로 표시됨):
 

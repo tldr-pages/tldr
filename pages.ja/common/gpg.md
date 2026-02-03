@@ -1,6 +1,7 @@
 # gpg
 
 > GNU Privacy Guard。
+> 参照: `sq`。
 > もっと詳しく: <https://gnupg.org/documentation/manuals/gnupg/Invoking-GPG.html>。
 
 - GPGの公開鍵と秘密鍵を対話的に作成する:

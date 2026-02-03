@@ -2,6 +2,7 @@
 
 > 네트워크 탐색 도구 및 보안/포트 스캐너.
 > 일부 기능(예: SYN 스캔)은 `nmap`을 루트 권한으로 실행할 때만 활성화됩니다.
+> 같이 보기: `hping3`, `masscan`, `naabu`, `rustscan`, `zmap`.
 > 더 많은 정보: <https://nmap.org/book/man.html>.
 
 - 원격 호스트의 상위 1000개 포트를 다양한 [v]erbosity 수준으로 스캔:
