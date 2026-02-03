@@ -14,7 +14,7 @@
 
 - Change text color ([c]) and color mode:
 
-`neo --color=green3 --colormode=256`
+`neo -c=green --colormode=256`
 
 - Display a centered message ([m]):
 
