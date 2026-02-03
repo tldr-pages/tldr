@@ -33,32 +33,32 @@
 
 - Clear screen:
 
-  `SPACE`
+`SPACE`
 
 - Increase speed:
 
-  `UP`
+`UP`
 
 - Decrease speed:
 
-  `DOWN`
+`DOWN`
 
 - Decrease glitchiness:
 
-  `LEFT`
+`LEFT`
 
 - Increase glitchiness:
 
-  `RIGHT`
+`RIGHT`
 
 - Increase droplets:
 
-  `+`
+`+`
 
 - Decrease droplets:
 
-  `-`
+`-`
 
 - Quit:
 
-  `ESC / q`
+`ESC / q`
