@@ -22,7 +22,7 @@
 
 - Set droplet density and glitch percentage: 
 
-`neo -d 2.0 {{[-g | --glitchpct]}} 5.0`
+`neo -d 2.0 {{[-g|--glitchpct]}} 5.0`
 
 - Use a specific charset (ASCII, Cyrillic, Greek, Katakana, Braille):
 
