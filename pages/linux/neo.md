@@ -8,7 +8,7 @@
 
 `neo`
 
-- Set scroll speed ([S]) and asynchronous columns ([a]):
+- Set scroll speed and asynchronous columns:
 
 `neo -S 12 -a`
 
