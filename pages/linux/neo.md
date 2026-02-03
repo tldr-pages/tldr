@@ -18,7 +18,7 @@
 
 - Display a centered message:
 
-`neo -m "Hello World"`
+`neo {{[-m|--message]}} "Hello World"`
 
 - Set droplet density and glitch percentage: 
 
