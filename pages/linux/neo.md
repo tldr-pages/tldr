@@ -32,25 +32,33 @@
 `neo --noglitch --colormode=0`
 
 - Clear screen:
+  
   `SPACE`
 
 - Increase speed:
+  
   `UP`
 
-- Decrease speed: 
+- Decrease speed:
+  
   `DOWN`
 
 - Decrease glitchiness:
+  
   `LEFT`
 
-- Increase glitchiness: 
+- Increase glitchiness:
+  
   `RIGHT`
 
 - Increase droplets:
+  
   `+`
-
-- Decrease droplets: 
+  
+- Decrease droplets:
+  
   `-`
 
 - Quit:
+  
   `ESC / q`
