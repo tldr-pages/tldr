@@ -1,44 +1,45 @@
+# neo
 
-  Simulate the digital rain from "The Matrix".
-  More info: <https://github.com/st3w/neo>.
+> Simulate the digital rain from "The Matrix".
+> More info: <https://github.com/st3w/neo>.
 
-  Run the default digital rain:
+- Run the default digital rain:
 
-      neo
+`neo`
 
-  Set scroll speed ([S]) and asynchronous columns ([a]):
+- Set scroll speed ([S]) and asynchronous columns ([a]):
 
-      neo -S 12 -a
+`neo -S 12 -a`
 
-  Change text color ([c]) and color mode:
+- Change text color ([c]) and color mode:
 
-      neo --color=green3 --colormode=256
+`neo --color=green3 --colormode=256`
 
-  Display a centered message ([m]):
+- Display a centered message ([m]):
 
-      neo -m "Hello World"
+`neo -m "Hello World"`
 
-  Set droplet density ([d]) and glitch percentage ([G]):
+- Set droplet density ([d]) and glitch percentage ([G]):
 
-      neo -d 2.0 --glitchpct=5.0
+`neo -d 2.0 --glitchpct=5.0`
 
-  Use a specific charset ([charset]) and full-width characters ([F]):
+- Use a specific charset ([charset]) and full-width characters ([F]):
 
-      neo --charset=cyrillic
-      neo --charset=greek -F
+`neo --charset=cyrillic`
+`neo --charset=greek -F`
 
-  Disable glitching ([noglitch]) and colors ([colormode=0]) for performance:
+- Disable glitching ([noglitch]) and colors ([colormode=0]) for performance:
 
-      neo --noglitch --colormode=0
+`neo --noglitch --colormode=0`
 
-  Show Unicode characters in a custom range ([chars]):
+- Show Unicode characters in a custom range ([chars]):
 
-      neo --chars=0x1F030,0x1F093 --fullwidth
+`neo --chars=0x1F030,0x1F093 --fullwidth`
 
-  Key controls while running:
+- Key controls while running:
 
-      SPACE      - clear screen
-      UP/DOWN    - increase/decrease speed
-      LEFT/RIGHT - decrease/increase glitchiness
-      + / -      - increase/decrease droplets
-      ESC / q    - quit
+`SPACE`      - clear screen  
+`UP/DOWN`    - increase/decrease speed  
+`LEFT/RIGHT` - decrease/increase glitchiness  
+`+ / -`      - increase/decrease droplets  
+`ESC / q`    - quit
