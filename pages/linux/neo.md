@@ -18,7 +18,7 @@
 
 - Set droplet density and glitch percentage:
 
-`neo {{[-d|--density]}} 2.0 {{[-g|--glitchpct]}} 20.0`
+`neo {{[-d|--density]}} {{2.0}} {{[-g|--glitchpct]}} {{20.0}}`
 
 - Use a specific charset:
 
