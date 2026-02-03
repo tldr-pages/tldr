@@ -8,27 +8,27 @@
 
 `neo`
 
-- Set scroll ([speed]) and asynchronous columns:
+- Set scroll speed and asynchronous columns:
 
 `neo {{[-S|--speed]}} 12 {{[-a|--async]}}`
 
-- Change text ([color]) and ([colormode]):
+- Change text color and colormode:
 
 `neo {{[-c|--color]}} green --colormode 256`
 
-- Display a centered message ([m]):
+- Display a centered message:
 
 `neo -m "Hello World"`
 
-- Set droplet density ([d]) and glitch percentage ([G]):
+- Set droplet density and glitch percentage: 
 
 `neo -d 2.0 {{[-g | --glitchpct]}} 5.0`
 
-- Use a specific ([charset]) (ASCII, Cyrillic, Greek, Katakana, Braille):
+- Use a specific charset (ASCII, Cyrillic, Greek, Katakana, Braille):
 
 `neo --charset ascii`
 
-- Disable glitching ([noglitch]) and colors ([colormode=0]) for performance:
+- Disable glitching and colors for performance:
 
 `neo --noglitch --colormode 0`
 
