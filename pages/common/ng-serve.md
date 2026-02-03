@@ -13,7 +13,7 @@
 
 - Start the application on port `4201`:
 
-`ng {{[s|serve]}} --port {{4201}}`
+`ng {{[s|serve]}} --port 4201`
 
 - Start the application and listen on all network interfaces:
 
