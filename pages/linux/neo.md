@@ -3,7 +3,6 @@
 > Simulate the digital rain from "The Matrix".
 > More information: <https://github.com/st3w/neo>.
 
-
 - Run the default digital rain:
 
 `neo`
@@ -24,29 +23,9 @@
 
 `neo -d 2.0 --glitchpct=5.0`
 
-- Use ASCII charset:
+- Use a specific charset (ASCII, Cyrillic, Greek, Katakana, Braille):
 
-`neo --charset=ascii`
-
-- Use Cyrillic charset:
-
-`neo --charset=cyrillic`
-
-- Use Greek charset with full-width characters:
-
-`neo --charset=greek -F`
-
-- Use Katakana charset:
-
-`neo --charset=katakana`
-
-- Use Braille charset:
-
-`neo --charset=braille`
-
-- Show Unicode characters in a custom range:
-
-`neo --chars=0x1F030,0x1F093 --fullwidth`
+`neo --charset=ascii`  
 
 - Disable glitching ([noglitch]) and colors ([colormode=0]) for performance:
 
@@ -58,29 +37,11 @@
 
 - Key controls while running:
 
-`SPACE`  
-clear screen
-
-`UP`  
-increase speed
-
-`DOWN`  
-decrease speed
-
-`LEFT`  
-decrease glitchiness
-
-`RIGHT`  
-increase glitchiness
-
-`+`  
-increase droplets
-
-`-`  
-decrease droplets
-
-`ESC`  
-quit
-
-`q`  
-quit
+`SPACE`      - clear screen  
+`UP`         - increase speed  
+`DOWN`       - decrease speed  
+`LEFT`       - decrease glitchiness  
+`RIGHT`      - increase glitchiness  
+`+`          - increase droplets  
+`-`          - decrease droplets  
+`ESC` / `q`  - quit
