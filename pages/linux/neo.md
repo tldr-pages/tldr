@@ -10,7 +10,7 @@
 
 - Set scroll speed and asynchronous columns:
 
-`neo -S 12 -a`
+`neo {{[-S|--speed]}} 12 {{[-a|--async]}}`
 
 - Change text color ([c]) and color mode:
 
