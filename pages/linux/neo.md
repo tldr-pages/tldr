@@ -20,7 +20,7 @@
 
 `neo {{[-d|--density]}} 2.0 {{[-g|--glitchpct]}} 20.0`
 
-- Use a specific charset (ascii, greek, cyrillic, arabic, braille, runic, etc.):
+- Use a specific charset:
 
 `neo --charset ascii`
 
