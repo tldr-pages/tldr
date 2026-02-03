@@ -31,13 +31,26 @@
 
 `neo --noglitch --colormode=0`
 
-- Key controls while running:
+- clear screen  
+  `SPACE`
 
-`SPACE`      - clear screen  
-`UP`         - increase speed  
-`DOWN`       - decrease speed  
-`LEFT`       - decrease glitchiness  
-`RIGHT`      - increase glitchiness  
-`+`          - increase droplets  
-`-`          - decrease droplets  
-`ESC / q`    - quit
+- increase speed  
+  `UP`
+
+- decrease speed  
+  `DOWN`
+
+- decrease glitchiness  
+  `LEFT`
+
+- increase glitchiness  
+  `RIGHT`
+
+- increase droplets  
+  `+`
+
+- decrease droplets  
+  `-`
+
+- quit  
+  `ESC / q`
