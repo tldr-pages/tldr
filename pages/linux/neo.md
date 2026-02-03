@@ -24,8 +24,6 @@
 
 `neo -d 2.0 --glitchpct=5.0`
 
-- Use a specific charset ([charset]) and full-width characters ([F]):
-
 - Use ASCII charset:
 
 `neo --charset=ascii`
