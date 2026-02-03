@@ -34,4 +34,4 @@
 
 - Clear screen, (Increase / Decrease speed), (Increase / Decrease glitchiness), (Increase / Decrease droplets), Quit:
 
-`SPACE, (UP / DOWN), (LEFT / RIGHT), (+ / -), (ESC / q)`
+`<Space>, (<Up> / <Down>), (<Left> / <Right>), (<+> / <->), (<Esc> / <q>)`
