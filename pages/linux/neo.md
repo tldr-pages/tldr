@@ -22,7 +22,7 @@
 
 - Use a specific charset:
 
-`neo --charset ascii`
+`neo --charset {{ascii|greek|cyrillic|arabic|braille|runic|...}}`
 
 - Clear the screen:
 
