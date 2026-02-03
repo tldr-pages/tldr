@@ -12,7 +12,7 @@
 
 `neo {{[-S|--speed]}} 12 {{[-a|--async]}}`
 
-- Change text color ([c]) and color mode:
+- Change text color and color mode:
 
 `neo {{[-c|--color]}}=green --colormode=256`
 
