@@ -1,7 +1,8 @@
 # neo
 
 > Simulate the digital rain from "The Matrix".
-> More information: <https://github.com/st3w/neo>.
+> See also: `cmatrix`.
+> More information: <https://manned.org/neo>.
 
 - Run the default digital rain:
 
