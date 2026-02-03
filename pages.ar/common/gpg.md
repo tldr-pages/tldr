@@ -1,6 +1,7 @@
 # gpg
 
 > برنامج GNU Privacy Guard.
+> انظر أيضًا: `sq`.
 > لمزيد من التفاصيل: <https://gnupg.org/documentation/manuals/gnupg/Invoking-GPG.html>.
 
 - إنشاء مفتاح GPG عام وخاص بطريقة تفاعلية:

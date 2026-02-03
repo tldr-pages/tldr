@@ -2,7 +2,7 @@
 
 > ابزار مدیریت بسته‌ها برای RHEL، Fedora و CentOS (جایگزین `yum`).
 > برای دستورات معادل در دیگر مدیران بسته، به <https://wiki.archlinux.org/title/Pacman/Rosetta> مراجعه کنید.
-> اطلاعات بیشتر: <https://dnf.readthedocs.io/en/latest/command_ref.html>.
+> اطلاعات بیشتر: <https://dnf5.readthedocs.io/en/latest/commands/index.html>.
 
 - ارتقاء بسته‌های نصب شده به جدیدترین نسخه‌های موجود:
 

@@ -1,6 +1,7 @@
 # rustscan
 
 > Rust로 작성된 빠른 포트 스캐너로 `nmap`이 내장되어 있습니다.
+> 같이 보기: `hping3`, `masscan`, `naabu`, `nmap`, `zmap`.
 > 더 많은 정보: <https://github.com/bee-san/RustScan/wiki>.
 
 - 기본값을 사용하여 쉼표로 구분된 하나 이상의 주소의 모든 포트를 스캔합니다:

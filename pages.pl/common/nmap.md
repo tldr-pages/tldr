@@ -2,6 +2,7 @@
 
 > Narzędzie do eksploracji sieci oraz skaner bezpieczeństwa/portów.
 > Niektóre funkcje (np. skan SYN) aktywują się tylko gdy `nmap` jest uruchamiany z przywilejami root'a.
+> Zobacz także: `hping3`, `masscan`, `naabu`, `rustscan`, `zmap`.
 > Więcej informacji: <https://nmap.org/book/man.html>.
 
 - Skanuj 1000 najpopularniejszych portów zdalnego hosta z różnymi poziomami szczegółowości ([v]erbosity):

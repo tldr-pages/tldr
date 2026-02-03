@@ -1,6 +1,7 @@
 # zmap
 
 > 用于全网范围调查的快速、开源网络扫描器。
+> 另请参阅：`hping3`, `masscan`, `naabu`, `nmap`, `rustscan`。
 > 更多信息：<https://manned.org/zmap>。
 
 - 扫描一个子网或整个 IPv4 地址空间上的指定 TCP 端口（默认：80）：
