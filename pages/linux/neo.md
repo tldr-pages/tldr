@@ -37,11 +37,26 @@
 
 - Key controls while running:
 
-`SPACE`      - clear screen  
-`UP`         - increase speed  
-`DOWN`       - decrease speed  
-`LEFT`       - decrease glitchiness  
-`RIGHT`      - increase glitchiness  
-`+`          - increase droplets  
-`-`          - decrease droplets  
-`ESC / q`  - quit
+`SPACE`
+clear screen
+
+`UP`
+increase speed
+
+`DOWN`
+decrease speed
+
+`LEFT`
+decrease glitchiness
+
+`RIGHT`
+increase glitchiness
+
+`+`
+increase droplets
+
+`-`
+decrease droplets
+
+`ESC / q`
+quit
