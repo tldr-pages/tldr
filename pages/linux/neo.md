@@ -10,7 +10,7 @@
 
 - Change text color and colormode:
 
-`neo {{[-c|--color]}} green --colormode 256`
+`neo {{[-c|--color]}} {{green}} --colormode {{256}}`
 
 - Display a centered message:
 
