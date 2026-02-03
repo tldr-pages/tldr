@@ -20,7 +20,7 @@
 
 `neo {{[-m|--message]}} "Hello World"`
 
-- Set droplet density and glitch percentage: 
+- Set droplet density and glitch percentage:
 
 `neo -d 2.0 {{[-g|--glitchpct]}} 5.0`
 
