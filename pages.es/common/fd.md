@@ -30,7 +30,7 @@
 
 - Ejecuta un comando en cada resultado de búsqueda devuelto:
 
-`fd "{{string|regex}}" {{[-x|--exec]}} {{command}}`
+`fd "{{string|regex}}" {{[-x|--exec]}} {{comando}}`
 
 - Busca archivos solo en el directorio actual:
 
