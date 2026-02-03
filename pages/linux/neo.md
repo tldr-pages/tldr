@@ -28,7 +28,7 @@
 
 `<Space>`
 
-- Show the help message:
+- Display help:
 
 `neo {{[-h|--help]}}`
 
