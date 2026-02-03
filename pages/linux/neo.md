@@ -28,10 +28,10 @@
 
 `<Space>`
 
-- Display help:
-
-`neo {{[-h|--help]}}`
-
 - Exit neo:
 
 `{{<Esc>|<q>}}`
+
+- Display help:
+
+`neo {{[-h|--help]}}`
