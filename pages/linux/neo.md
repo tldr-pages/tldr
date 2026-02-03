@@ -20,18 +20,18 @@
 
 `neo {{[-d|--density]}} 2.0 {{[-g|--glitchpct]}} 20.0`
 
-- Use a specific charset (ascii, extended ascii, english, dec, decimal, digits, punc, bin, binary, hex, hexadecimal, katakana, greek, cyrillic, arabic, hebrew, devanagari, braille, runic):
+- Use a specific charset (ascii, greek, cyrillic, arabic, braille, runic, etc.):
 
 `neo --charset ascii`
 
 - Clear the screen:
 
-'<Space>'
+`<Space>`
 
 - Show the help message:
 
-'neo {{[-h|--help]}}
+`neo {{[-h|--help]}}`
 
 - Exit neo:
 
-'<Esc>|<q>'
+`<Esc>|<q>`
