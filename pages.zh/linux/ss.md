@@ -5,7 +5,7 @@
 
 - 显示所有 TCP/UDP/RAW/UNIX 套接字：
 
-`ss {{[-a|--all]}} {{-t|-u|-w|-x}}`
+`ss {{[-a|--all]}} {{--tcp|--udp|--raw|--unix}}`
 
 - 根据状态过滤 TCP 套接字（仅显示/排除）：
 
