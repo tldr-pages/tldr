@@ -15,6 +15,6 @@
 
 `ac -p {{nome_utente}}`
 
-- Mostra da quanto tempo un particolare utente è stato connesso in ore per [g]iorno (con totale):
+- Mostra da quanto tempo un particolare utente è stato connesso in ore per giorno (con totale):
 
 `ac -dp {{nome_utente}}`
