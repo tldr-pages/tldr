@@ -5,4 +5,4 @@
 
 - Show file:
 
-`TYPE {{file.txt}}`
+`TYPE {{path/to/file.txt}}`
