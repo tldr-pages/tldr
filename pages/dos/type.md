@@ -1,6 +1,6 @@
 # TYPE
 
-> Display text file contents.
+> Display the contents of a text file.
 > More information: <https://www.dosbox.com/wiki/Commands#TYPE>.
 
 - Show file:
