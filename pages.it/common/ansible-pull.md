@@ -17,4 +17,4 @@
 
 - Scarica un playbook da VCS, specifica file host ed esegui un playbook specifico:
 
-`ansible-pull {{[-U|--url]}} {{url_repository}} {{[-i|--inventory-file]}} {{file_host}} {{playbook}}`
+`ansible-pull {{[-U|--url]}} {{url_repository}} {{[-i|--inventory]}} {{file_host}} {{playbook}}`

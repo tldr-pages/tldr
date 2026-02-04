@@ -1,7 +1,7 @@
 # tcpick
 
 > Packet sniffing and network traffic analysis tool.
-> It can capture and display TCP connections and data. It can also monitor network traffic on a interface, host, or port.
+> It can capture and display TCP connections and data. It can also monitor network traffic on an interface, host, or port.
 > More information: <https://manned.org/tcpick>.
 
 - Capture traffic on a specific interface, port, and host:

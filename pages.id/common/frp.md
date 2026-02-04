@@ -1,7 +1,7 @@
 # frp
 
 > Fast Reverse Proxy: atur kanal terowongan jaringan komputer untuk dapat mengekspos sebagian layanan komputer peladen menuju Internet atau jaringan komputer lainnya.
-> Informasi lebih lanjut: <https://github.com/fatedier/frp>.
+> Informasi lebih lanjut: <https://github.com/fatedier/frp#example-usage>.
 
 - Lihat dokumentasi untuk `frpc`, program klien untuk jaringan `frp`:
 

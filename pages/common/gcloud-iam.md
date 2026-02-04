@@ -8,7 +8,7 @@
 
 `gcloud iam list-grantable-roles {{resource}}`
 
-- Create a custom role for a organization or project:
+- Create a custom role for an organization or project:
 
 `gcloud iam roles create {{role_name}} --{{organization|project}} {{organization|project_id}} --file {{path/to/role.yaml}}`
 

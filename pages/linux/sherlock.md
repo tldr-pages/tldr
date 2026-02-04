@@ -1,6 +1,7 @@
 # sherlock
 
 > Find usernames across social networks.
+> See also: `maigret`.
 > More information: <https://github.com/sherlock-project/sherlock>.
 
 - Search for a specific username on social networks saving the results to a file:

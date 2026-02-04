@@ -1,7 +1,7 @@
 # frp
 
 > Fast Reverse Proxy: szybko konfiguruj tunele sieciowe w celu udostępnienia określonych usług w Internecie lub innych sieciach zewnętrznych.
-> Więcej informacji: <https://github.com/fatedier/frp>.
+> Więcej informacji: <https://github.com/fatedier/frp#example-usage>.
 
 - Zobacz dokumentację `frpc`, komponentu klienta `frp`:
 

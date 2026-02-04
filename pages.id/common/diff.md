@@ -1,6 +1,7 @@
 # diff
 
 > Bandingkan isi berkas dan direktori.
+> Lihat juga: `delta`, `difft`.
 > Informasi lebih lanjut: <https://manned.org/diff>.
 
 - Bandingkan isi berkas-berkas (tampilkan daftar isi yang diubah dari `berkas_lawas` sehingga membentuk `berkas_baru`):

@@ -1,6 +1,7 @@
 # diff
 
 > Vergleiche Dateien und Verzeichnisse.
+> Siehe auch: `delta`, `difft`.
 > Weitere Informationen: <https://manned.org/diff>.
 
 - Vergleiche Dateien (Listet jene Veränderungen auf, mit denen `datei1` zu `datei2` wird):

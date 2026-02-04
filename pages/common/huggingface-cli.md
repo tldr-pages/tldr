@@ -20,7 +20,7 @@
 
 `huggingface-cli env`
 
-- Download files from an repository and print out the path (omit filenames to download entire repository):
+- Download files from a repository and print out the path (omit filenames to download entire repository):
 
 `huggingface-cli download --repo-type {{repo_type}} {{repo_id}} {{filename1 filename2 ...}}`
 

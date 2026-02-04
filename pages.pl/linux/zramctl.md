@@ -6,7 +6,7 @@
 
 - Sprawdzenie, czy zram jest włączony:
 
-`lsmod | grep -i zram`
+`lsmod | grep {{[-i|--ignore-case]}} zram`
 
 - Włączenie zram z dynamiczną liczbą urządzeń (użyj `zramctl` aby skonfigurować urządzenia dalej):
 
@@ -18,7 +18,7 @@
 
 - Znalezienie i inicjalizacja następnego wolnego urządzenia zram jako 2 GB napęd wirtualny z użyciem kompresji LZ4:
 
-`sudo zramctl --find --size {{2GB}} --algorithm {{lz4}}`
+`sudo zramctl {{[-f|--find]}} {{[-s|--size]}} {{2GB}} {{[-a|--algorithm]}} {{lz4}}`
 
 - Wyświetlenie aktualnie zainicjalizowanych urządzeń:
 

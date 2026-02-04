@@ -16,7 +16,7 @@
 
 `lprm -h {{server}}:{{port}} {{job_id}}`
 
-- Cancel multiple jobs with a encrypted connection to the server:
+- Cancel multiple jobs with an encrypted connection to the server:
 
 `lprm -E {{job_id1 job_id2 ...}}`
 
