@@ -1,6 +1,6 @@
 # ansible-vault
 
-> Lakukan proses enkripsi (persandian) dan dekripsi terhadap nilai, struktur data, dan file dalam proyek Ansible.
+> Lakukan proses enkripsi (persandian) dan dekripsi terhadap nilai, struktur data, dan berkas dalam proyek Ansible.
 > Informasi lebih lanjut: <https://docs.ansible.com/projects/ansible/latest/vault_guide/index.html>.
 
 - Buat suatu berkas brankas terenkripsi baru dengan memasukkan kata sandi pada prompt masukan berikutnya:
