@@ -17,4 +17,4 @@
 
 - [s]etel suatu entri baru ke dalam tabel ARP sistem:
 
-`arp -s {{alamat_ip}} {{alamat_mac}}`
+`sudo arp -s {{alamat_ip}} {{alamat_mac}}`
