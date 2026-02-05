@@ -17,7 +17,7 @@
 
 - Sandikan suatu berkas teks yang ada menggunakan berkas kata sandi opsional:
 
-`ansible-vault encrypt  --vault-password-file {{jalan/menuju/berkas_kata_sandi}} {{jalan/menuju/berkas_brankas}}`
+`ansible-vault encrypt --vault-password-file {{jalan/menuju/berkas_kata_sandi}} {{jalan/menuju/berkas_brankas}}`
 
 - Sandikan suatu teks string menggunakan format string terenkripsi standar Ansible, dan menampilkan petunjuk secara interaktif:
 
