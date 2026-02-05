@@ -23,9 +23,9 @@
 
 `cloudflared tunnel --loglevel {{panic|fatal|error|warn|info|debug}} --logfile {{path/to/file}} run {{name}}`
 
-- Run a tunnel and proxy traffic to a local service:
+- Run a named tunnel (reads configuration from `config.yml`):
 
-`cloudflared tunnel run --url http://localhost:{{port}} {{name}}`
+`cloudflared tunnel run {{name}}`
 
 - Start a temporary tunnel to expose a local service (no account required):
 
