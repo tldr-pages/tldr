@@ -14,6 +14,7 @@
 - Balikkan akses port TCP dari emulator/perangkat spesifik (berdasarkan nomor induk / [s]erial perangkat) menuju localhost:
 
 `adb -s {{ID_perangkat}} reverse tcp:{{remote_port}} tcp:{{local_port}}`
+
 - Lepaskan koneksi socket terbalik dari emulator/perangkat:
 
 `adb reverse --remove tcp:{{port_jarak_jauh}}`
