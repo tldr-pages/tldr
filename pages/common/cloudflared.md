@@ -21,7 +21,7 @@
 
 - Save logs to a file:
 
-`cloudflared tunnel --url http://localhost:{{port_number}}  --loglevel {{panic|fatal|error|warn|info|debug}} --logfile {{path/to/file}} run {{name}}`
+`cloudflared tunnel --loglevel {{panic|fatal|error|warn|info|debug}} --logfile {{path/to/file}} run {{name}}`
 
 - Run a tunnel and proxy traffic to a local service:
 
