@@ -34,5 +34,5 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | th     | แสดงวิธีใช้งาน           | แสดงเวอร์ชัน             | [อินเทอร์แอคทีฟ]      |
 | tr     | Yardımı görüntüle     | Sürümü görüntüle      | [Etkileşimli]        |
 | uk     | Показати довідку      | Показати версію       | [Інтерактивний]      |
-| zh     | 显示帮助              | 显示版本              | [交互式]             |
-| zh_TW  | 顯示說明              | 顯示版本              | [互動式]             |
+| zh     | 显示帮助              | 显示版本              | [交互式]               |
+| zh_TW  | 顯示說明              | 顯示版本              | [互動式]               |
