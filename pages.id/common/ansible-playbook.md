@@ -21,7 +21,7 @@
 
 - Jalankan kumpulan tugas playbook dengan konfigurasi tag tertentu:
 
-`ansible-playbook {{playbook}} {{[-t|--tags|]}} {{tag1,tag2}}`
+`ansible-playbook {{playbook}} {{[-t|--tags]}} {{tag1,tag2}}`
 
 - Jalankan kumpulan tugas playbook, dimulai dari nama tugas spesifik:
 
@@ -29,4 +29,4 @@
 
 - Jalankan kumpulan tugas playbook tanpa melakukan perubahan sebenarnya (dry-run):
 
-`ansible-playbook {{playbook}} {{[-C|--check|]}} {{[-D|--diff|]}}`
+`ansible-playbook {{playbook}} {{[-C|--check]}} {{[-D|--diff]}}`
