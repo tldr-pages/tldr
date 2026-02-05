@@ -1,7 +1,7 @@
 # mo
 
-> Această comandă este un alias pentru `mole`.
+> Această comandă este un alias al `mole`.
 
-- Vezi documentația pentru comanda originală:
+- Vizualizați documentația pentru comanda originală:
 
 `tldr mole`

@@ -19,9 +19,17 @@
 
 `pip install {{[-r|--requirement]}} {{pad/naar/requirements.txt}}`
 
-- Installeer pakketten vanaf een URL of lokaal bestandsarchief (bijv. `.tar.gz` of `.whl`):
+- Installeer een pakket van een lokaal archief of map:
 
-`pip install {{[-f|--find-links]}} {{url|pad/naar/bestand}}`
+`pip install {{pad/naar/bestand.whl|pad/naar/bestand.tar.gz|pad/naar/map}}`
+
+- Installeer een pakket van een Git-repository:
+
+`pip install git+https://{{example.com}}/{{gebruiker}}/{{repository}}.git`
+
+- Installeer een pakket van een alternatieve bron (URL of map) in plaats van PyPI:
+
+`pip install {{[-f|--find-links]}} {{url|pad/naar/map}} {{pakket}}`
 
 - Installeer het lokale pakket in de huidige map in develop-modus:
 

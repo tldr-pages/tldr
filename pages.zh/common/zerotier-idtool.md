@@ -1,6 +1,7 @@
 # zerotier-idtool
 
 > 创建和操作 ZeroTier 身份。
+> 另请参阅：`zerotier-cli`, `zerotier-one`。
 > 更多信息：<https://github.com/zerotier/ZeroTierOne/blob/dev/doc/zerotier-idtool.1.md>。
 
 - 生成一个新的 ZeroTier 身份，并将私钥部分输出到 `stdout`：
