@@ -15,7 +15,7 @@
 
 `pinky {{gebruiker}} -l`
 
-- Laat de home directory en shell van de gebruiker weg in het lange formaat:
+- Laat de thuismap en shell van de gebruiker weg in het lange formaat:
 
 `pinky {{gebruiker}} -lb`
 

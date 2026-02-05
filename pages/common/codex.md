@@ -24,7 +24,7 @@
 
 `codex --full-context "{{your prompt}}"`
 
-- Show the resource usage for the current session (run this command inside a session):
+- [Interactive] Show the resource usage for the current session:
 
 `/cost`
 

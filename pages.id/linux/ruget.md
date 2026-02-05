@@ -9,4 +9,4 @@
 
 - Unduh konten URL ke file [o]utput tertentu:
 
-`ruget --output {{nama_file}} {{https://example.com/file}}`
+`ruget {{[-o|--output]}} {{nama_file}} {{https://example.com/file}}`

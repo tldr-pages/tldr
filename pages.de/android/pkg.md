@@ -5,20 +5,32 @@
 
 - Aktualisiere alle installierten Pakete:
 
-`pkg upgrade`
+`pkg {{[up|upgrade]}}`
+
+- Installierte Pakete auflisten:
+
+`pkg {{[list-i|list-installed]}}`
 
 - Installiere ein Paket:
 
-`pkg install {{paket}}`
+`pkg {{[i|install]}} {{paket}}`
 
 - Deinstalliere ein Paket:
 
-`pkg uninstall {{paket}}`
+`pkg {{[un|uninstall]}} {{paket}}`
 
 - Installiere ein Paket erneut:
 
-`pkg reinstall {{paket}}`
+`pkg {{[rei|reinstall]}} {{paket}}`
 
 - Suche nach einem Paket:
 
-`pkg search {{paket}}`
+`pkg {{[se|search]}} {{paket}}`
+
+- Informationen zu einem bestimmten Paket anzeigen:
+
+`pkg {{[sh|show]}} {{paket}}`
+
+- Hilfe anzeigen:
+
+`pkg {{[h|help]}}`

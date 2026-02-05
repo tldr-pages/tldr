@@ -1,7 +1,7 @@
 # systemctl is-active
 
 > Verifica si una o más unidades de systemd están activas.
-> Más información: <https://www.freedesktop.org/software/systemd/man/systemctl.html#is-active%20PATTERN%E2%80%A6>.
+> Más información: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#is-active%20PATTERN%E2%80%A6>.
 
 - Verifica si una unidad está activa:
 

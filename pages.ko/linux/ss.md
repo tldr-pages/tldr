@@ -5,7 +5,7 @@
 
 - 모든 TCP/UDP/RAW/UNIX 소켓 표시:
 
-`ss {{[-a|--all]}} {{-t|-u|-w|-x}}`
+`ss {{[-a|--all]}} {{--tcp|--udp|--raw|--unix}}`
 
 - 상태별로 TCP 소켓 필터링, 포함/제외:
 

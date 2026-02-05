@@ -9,7 +9,7 @@
 
 - Adiciona uma nova tarefa à lista de trabalho:
 
-`todo new {{coisas_para_fazer}} --list {{trabalho}}`
+`todo new {{coisas_para_fazer}} {{[-l|--list]}} {{trabalho}}`
 
 - Adiciona um local para uma tarefa com um ID provido:
 

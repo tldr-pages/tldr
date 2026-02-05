@@ -30,3 +30,7 @@
 - Maak een commit, zelfs als er geen toegevoegde bestanden zijn:
 
 `git commit {{[-m|--message]}} "{{bericht}}" --allow-empty`
+
+- Maak een commit met een bericht en een omschrijving:
+
+`git commit {{[-m|--message]}} "{{bericht}}" {{[-m|--message]}} "{{omschrijving}}"`

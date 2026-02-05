@@ -1,6 +1,7 @@
 # addcomputer.py
 
 > Añade una cuenta de ordenador al dominio.
+> Parte del paquete Impacket.
 > Más información: <https://github.com/fortra/impacket>.
 
 - Añade un ordenador con un nombre y una contraseña específicos:

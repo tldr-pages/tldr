@@ -1,6 +1,6 @@
 # vivaldi-stable
 
-> Questo comando è un alias di `chromium`.
+> Questo comando è un alias per `chromium`.
 > Maggiori informazioni: <https://vivaldi.com/>.
 
 - Visualizza la documentazione per il comando originale:

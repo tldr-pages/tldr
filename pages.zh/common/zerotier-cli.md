@@ -1,6 +1,7 @@
 # zerotier-cli
 
 > 控制本地的 ZeroTier 虚拟网络服务。
+> 另请参阅：`zerotier-idtool`, `zerotier-one`。
 > 更多信息：<https://github.com/zerotier/ZeroTierOne/blob/main/doc/zerotier-cli.1.md>。
 
 - 加入一个网络：

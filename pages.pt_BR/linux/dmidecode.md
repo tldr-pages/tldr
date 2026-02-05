@@ -10,20 +10,20 @@
 
 - Exibe a versão da BIOS:
 
-`sudo dmidecode -s bios-version`
+`sudo dmidecode {{[-s|--string]}} bios-version`
 
 - Exibe o número de série do sistema:
 
-`sudo dmidecode -s system-serial-number`
+`sudo dmidecode {{[-s|--string]}} system-serial-number`
 
 - Exibe as informações da BIOS:
 
-`sudo dmidecode -t bios`
+`sudo dmidecode {{[-t|--type]}} bios`
 
 - Exibe as informações da CPU:
 
-`sudo dmidecode -t processor`
+`sudo dmidecode {{[-t|--type]}} processor`
 
 - Exibe as informações da memória:
 
-`sudo dmidecode -t memory`
+`sudo dmidecode {{[-t|--type]}} memory`

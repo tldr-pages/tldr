@@ -6,24 +6,24 @@
 
 - Inicia un scrub:
 
-`sudo btrfs scrub start {{ruta/al_montaje_btrfs}}`
+`sudo btrfs {{[sc|scrub]}} start {{ruta/al_montaje_btrfs}}`
 
 - Muestra el estado de un scrub en curso o del último completado:
 
-`sudo btrfs scrub status {{ruta/al_montaje_btrfs}}`
+`sudo btrfs {{[sc|scrub]}} status {{ruta/al_montaje_btrfs}}`
 
 - Cancela un scrub en curso:
 
-`sudo btrfs scrub cancel {{ruta/al_montaje_btrfs}}`
+`sudo btrfs {{[sc|scrub]}} {{[c|cancel]}} {{ruta/al_montaje_btrfs}}`
 
 - Reanuda un scrub previamente cancelado:
 
-`sudo btrfs scrub resume {{ruta/al_montaje_btrfs}}`
+`sudo btrfs {{[sc|scrub]}} {{[r|resume]}} {{ruta/al_montaje_btrfs}}`
 
 - Inicia un scrub, pero espera a que termine antes de salir:
 
-`sudo btrfs scrub start -B {{ruta/al_montaje_btrfs}}`
+`sudo btrfs {{[sc|scrub]}} start -B {{ruta/al_montaje_btrfs}}`
 
 - Inicia un scrub en modo silencioso (no imprime errores ni estadísticas):
 
-`sudo btrfs scrub start -q {{ruta/al_montaje_btrfs}}`
+`sudo btrfs {{[sc|scrub]}} start {{[-q|--quiet]}} {{ruta/al_montaje_btrfs}}`

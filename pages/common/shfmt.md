@@ -1,7 +1,7 @@
 # shfmt
 
 > Shell parser, formatter, and interpreter.
-> More information: <https://pkg.go.dev/mvdan.cc/sh>.
+> More information: <https://pkg.go.dev/mvdan.cc/sh#section-readme>.
 
 - Print a formatted version of a shell script:
 
@@ -9,12 +9,20 @@
 
 - List unformatted files:
 
-`shfmt --list {{path/to/directory}}`
+`shfmt {{[-l|--list]}} {{path/to/directory}}`
 
 - Write the result to the file instead of printing it to the terminal:
 
-`shfmt --write {{path/to/file}}`
+`shfmt {{[-w|--write]}} {{path/to/file}}`
 
-- Simplify the code, removing redundant pieces of syntax (i.e. removing "$" from vars in expressions):
+- Simplify the code, removing redundant pieces of syntax (e.g. removing "$" from vars in expressions):
 
-`shfmt --simplify {{path/to/file}}`
+`shfmt {{[-s|--simplify]}} {{path/to/file}}`
+
+- Specify the amount of spaces to use for indentation (0 for tabs, which is also the default):
+
+`shfmt {{[-i|--indent]}} {{4}} {{path/to/file}}`
+
+- Format the code according to Google's style guide:
+
+`shfmt {{[-i|--indent]}} 2 {{[-ci|--case-indent]}} {{[-w|--write]}} {{path/to/file}}`
