@@ -11,6 +11,6 @@
 
 `sudo dhcpcd {{[-n|--rebind]}}`
 
-- Dump the last acquired lease for a given interface and exit:
+- Print (dump) the last acquired lease for a given interface and exit:
 
 `sudo dhcpcd {{[-U|--dumplease]}} {{interface_name}}`
