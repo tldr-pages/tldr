@@ -16,7 +16,7 @@
 
 `autoload -Uz {{function_name}}`
 
-- Autoload all functions in a directory by adding it to `fpath`:
+- Make functions from a directory available by adding it to `fpath`:
 
 `fpath=({{path/to/functions_dir}} $fpath) && autoload -Uz {{function_name}}`
 
