@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr read -zr`
+`tldr read`

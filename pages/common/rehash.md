@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr hash -r`
+`tldr hash`

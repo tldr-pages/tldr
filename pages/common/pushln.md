@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr print -nz`
+`tldr print`
