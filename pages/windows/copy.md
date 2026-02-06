@@ -2,7 +2,7 @@
 
 > Copy files from one location to another.
 > In PowerShell, this command is an alias of `Copy-Item`. This documentation is based on the Command Prompt (`cmd`) version of `copy`.
-> More information: <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/copy>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/copy>.
 
 - Copy a file to another location:
 
