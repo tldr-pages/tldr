@@ -1,7 +1,7 @@
 # wn
 
 > Command line interface to WordNet lexical database.
-> More information: <https://wordnet.princeton.edu/>.
+> More information: <https://wordnet.princeton.edu/documentation/wn1wn>.
 
 - Show information available for the word "emphatically":
 
