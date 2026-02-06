@@ -1,6 +1,6 @@
 # wn
 
-> wn is a command line interface to WordNet lexical database.
+> Command line interface to WordNet lexical database.
 > More information: <https://wordnet.princeton.edu/>.
 
 - Show information available for the word "emphatically":
