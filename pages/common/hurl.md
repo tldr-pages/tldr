@@ -18,7 +18,7 @@
 
 - Run HTTP requests and inject variables and secret from file:
 
-`hurl --variables-file {{path/to/variables_file}} --secrets-file {{path/to/variables_file}} {{path/to/file.hurl}}`
+`hurl --variables-file {{path/to/variables_file}} --secrets-file {{path/to/secrets_file}} {{path/to/file.hurl}}`
 
 - Run specific HTTP requests from file, from entry 2 to 5:
 
