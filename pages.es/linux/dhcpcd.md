@@ -11,6 +11,6 @@
 
 `sudo dhcpcd {{[-n|--rebind]}}`
 
-- Mostrar el último arrendamiento obtenido para una interfaz y salir:
+- Muestra el último arrendamiento obtenido para una interfaz y sale:
 
 `sudo dhcpcd {{[-U|--dumplease]}} {{nombre_interface}}`
