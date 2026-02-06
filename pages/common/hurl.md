@@ -26,4 +26,4 @@
 
 - Test HTTP Requests from file and generate report in html:
 
-`hurl --test --report-html {{output/directory}} {{path/to/file.hurl}}`
+`hurl --test --report-html {{path/to/output_directory}} {{path/to/file.hurl}}`
