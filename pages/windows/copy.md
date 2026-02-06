@@ -16,7 +16,7 @@
 
 `copy {{path\to\file1 path\to\file2 ...}} {{path\to\target_directory}}`
 
-- Copy all files from one directory to another:
+- Copy all files from one directory to another directory:
 
 `copy {{path\to\source_directory\*}} {{path\to\target_directory}}`
 
