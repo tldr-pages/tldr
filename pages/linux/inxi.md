@@ -1,7 +1,7 @@
 # inxi
 
 > Print a summary of system information and resources for debugging purposes.
-> See also: `lshw`, `hwinfo`.
+> See also: `lshw`, `hwinfo`, `dmidecode`.
 > More information: <https://manned.org/inxi>.
 
 - Print a summary of CPU, memory, hard drive and kernel information:
