@@ -13,4 +13,4 @@
 
 - Mostrar el último arrendamiento obtenido para una interfaz y salir:
 
-`sudo dhcpcd {{[-U|--dumplease]}} {{interface_name}}`
+`sudo dhcpcd {{[-U|--dumplease]}} {{nombre_interface}}`
