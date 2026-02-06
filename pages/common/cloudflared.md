@@ -11,17 +11,25 @@
 
 `cloudflared tunnel create {{name}}`
 
-- Establish a tunnel to a host in Cloudflare from the local server:
+- List all tunnels in the account:
 
-`cloudflared tunnel --hostname {{hostname}} localhost:{{port_number}}`
+`cloudflared tunnel list`
 
-- Establish a tunnel to a host in Cloudflare from the local server, without verifying the local server's certificate:
+- Create a DNS CNAME record pointing to a tunnel:
 
-`cloudflared tunnel --hostname {{hostname}} localhost:{{port_number}} --no-tls-verify`
+`cloudflared tunnel route dns {{name|uuid}} {{hostname}}`
 
 - Save logs to a file:
 
-`cloudflared tunnel --hostname {{hostname}} http://localhost:{{port_number}} --loglevel {{panic|fatal|error|warn|info|debug}} --logfile {{path/to/file}}`
+`cloudflared tunnel --loglevel {{panic|fatal|error|warn|info|debug}} --logfile {{path/to/file}} run {{name}}`
+
+- Run a named tunnel (reads configuration from `config.yml`):
+
+`cloudflared tunnel run {{name}}`
+
+- Start a temporary tunnel to expose a local service (no account required):
+
+`cloudflared tunnel --url http://localhost:{{port}}`
 
 - Install cloudflared as a system service:
 
