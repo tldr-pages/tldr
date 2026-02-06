@@ -1,7 +1,6 @@
 # dmidecode
 
 > Display the DMI (alternatively known as SMBIOS) table contents in a human-readable format.
-> Requires root privileges.
 > More information: <https://manned.org/dmidecode>.
 
 - Show all DMI table contents:
