@@ -5,10 +5,10 @@
 > Vea también: `getenforce`, `semanage-permissive`.
 > Más información: <https://manned.org/setenforce>.
 
-- Active el modo de aplicación de SELinux:
+- Activa el modo de aplicación de SELinux:
 
 `setenforce {{1|Enforcing}}`
 
-- Active el modo permisivo de SELinux:
+- Activa el modo permisivo de SELinux:
 
 `setenforce {{0|Permissive}}`
