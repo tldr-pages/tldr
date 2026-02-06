@@ -25,7 +25,7 @@
 
 - Muestra solo un mensaje cuando falla la verificación, ignorando los archivos que faltan:
 
-`sha224sum --ignore-missing {{[-c|--check]}} --quiet {ruta/al/archivo.sha224}}`
+`sha224sum --ignore-missing {{[-c|--check]}} --quiet {{ruta/al/archivo.sha224}}`
 
 - Comprueba una suma de comprobación SHA224 conocida de un archivo:
 
