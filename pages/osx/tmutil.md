@@ -1,6 +1,6 @@
 # tmutil
 
-> Utility for managing Time Machine backups. Most verbs require root privileges.
+> Utility for managing Time Machine backups.
 > More information: <https://keith.github.io/xcode-man-pages/tmutil.8.html>.
 
 - Set an HFS+ drive as the backup destination:
