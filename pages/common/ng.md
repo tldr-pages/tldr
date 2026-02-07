@@ -1,36 +1,36 @@
 # ng
 
 > Create and manage Angular applications.
-> More information: <https://angular.io/cli>.
+> More information: <https://angular.dev/cli>.
 
 - Create a new Angular application inside a directory:
 
-`ng new {{project_name}}`
+`ng {{[n|new]}} {{project_name}}`
 
-- Add a new component to one's application:
+- Compile the application and start a local development server:
 
-`ng generate component {{component_name}}`
+`ng {{s|serve}}`
 
-- Add a new class to one's application:
+- Creates a new component:
 
-`ng generate class {{class_name}}`
+`ng {{[g|generate]}} {{[c|component]}} {{component_name}}`
 
-- Add a new directive to one's application:
+- Build an Angular application or library:
 
-`ng generate directive {{directive_name}}`
-
-- Run the application with the following command in its root directory:
-
-`ng serve`
-
-- Build the application:
-
-`ng build`
+`ng {{[b|build]}}`
 
 - Run unit tests:
 
-`ng test`
+`ng {{[t|test]}}`
+
+- Add a package to the current project:
+
+`ng add {{package}}`
+
+- Update workspace dependencies:
+
+`ng update`
 
 - Display version:
 
-`ng version`
+`ng {{[v|version]}}`
