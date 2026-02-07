@@ -1,7 +1,7 @@
 # kdesrc-build
 
 > Easily build KDE components from its source repositories.
-> More information: <https://docs.kde.org/trunk5/en/kdesrc-build/kdesrc-build/index.html>.
+> More information: <https://manned.org/man/kdesrc-build>.
 
 - Initialize `kdesrc-build`:
 

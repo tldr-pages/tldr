@@ -1,7 +1,7 @@
 # okular
 
 > View documents.
-> More information: <https://docs.kde.org/stable5/en/okular/okular/command-line-options.html>.
+> More information: <https://docs.kde.org/stable_kf6/en/okular/okular/command-line-options.html>.
 
 - Launch document viewer:
 
