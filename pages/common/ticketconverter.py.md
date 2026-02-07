@@ -6,7 +6,7 @@
 
 - Convert kirbi to ccache:
 
-`ticketConverter.py {{ticket.kirbi}} {{ticket.ccache}}`
+`ticketConverter.py {{path/to/ticket.kirbi}} {{path/to/ticket.ccache}}`
 
 - Convert ccache to kirbi:
 
