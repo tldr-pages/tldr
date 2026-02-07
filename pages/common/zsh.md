@@ -18,7 +18,7 @@
 
 - Check a specific script for syntax errors without executing it:
 
-`zsh --no-exec {{path/to/script.zsh}}`
+`zsh {{[-n|--no-exec]}} {{path/to/script.zsh}}`
 
 - Execute specific commands from `stdin`:
 
@@ -26,12 +26,12 @@
 
 - Execute a specific script, printing each command in the script before executing it:
 
-`zsh --xtrace {{path/to/script.zsh}}`
+`zsh {{[-x|--xtrace]}} {{path/to/script.zsh}}`
 
 - Start an interactive shell session in verbose mode, printing each command before executing it:
 
-`zsh --verbose`
+`zsh {{[-v|--verbose]}}`
 
-- Execute a specific command inside `zsh` with disabled glob patterns:
+- Start Zsh without loading user level configuration (e.g. `~/.zshrc`):
 
-`noglob {{command}}`
+`zsh {{[-f|--no-rcs]}}`
