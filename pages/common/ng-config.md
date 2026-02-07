@@ -19,6 +19,6 @@
 
 `ng config cli.analytics disabled {{[-g|--global]}}`
 
-- Set a global config value(caution: this affects all Angular projects):
+- Set a global config value (caution: this affects all Angular projects):
 
 `ng config projects.{{app_name}}.prefix {{value}} {{[-g|--global]}}`
