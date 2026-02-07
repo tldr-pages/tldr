@@ -1,32 +1,11 @@
-# R
+# r
 
-> R language interpreter.
-> More information: <https://manned.org/R>.
+> `r` can refer to multiple commands with the same name.
 
-- Start a REPL (interactive shell):
+- View documentation for the R language interpreter:
 
-`R`
+`tldr r.1`
 
-- Start R in vanilla mode (i.e. a blank session that doesn't save the workspace at the end):
+- View documentation for the Zsh command:
 
-`R --vanilla`
-
-- Execute a file:
-
-`R {{[-f|--file]}} {{path/to/file.R}}`
-
-- Execute an R expression and then exit:
-
-`R -e {{expr}}`
-
-- Run R with a debugger:
-
-`R {{[-d|--debugger]}} {{debugger}}`
-
-- Check R packages from package sources:
-
-`R CMD check {{path/to/package_source}}`
-
-- Display version:
-
-`R --version`
+`tldr r.zsh`
