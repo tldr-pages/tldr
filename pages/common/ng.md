@@ -11,7 +11,7 @@
 
 `ng {{s|serve}}`
 
-- Creates a new component:
+- Create a new component:
 
 `ng {{[g|generate]}} {{[c|component]}} {{component_name}}`
 
