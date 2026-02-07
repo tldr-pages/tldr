@@ -20,9 +20,9 @@
 
 `ng {{[t|test]}} --coverage`
 
-- Export coverage reports:
+- Generate a coverage report in a specific format:
 
-`ng {{[t|test]}} --coverage-reporters {{cobertura|html|json|...}}`
+`ng {{[t|test]}} --coverage --coverage-reporters {{cobertura|html|json|...}}`
 
 - Enable debug mode for tests:
 
