@@ -10,4 +10,4 @@
 
 - Convert ccache to kirbi:
 
-`ticketConverter.py {{ticket.ccache}} {{ticket.kirbi}}`
+`ticketConverter.py {{path/to/ticket.ccache}} {{path/to/ticket.kirbi}}`
