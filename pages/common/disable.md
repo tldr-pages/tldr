@@ -7,7 +7,3 @@
 - Disable command:
 
 `disable {{command command2 ...}}`
-
-- Disable command by wildcard:
-
-`disable {{wildcard}}`
