@@ -1,7 +1,7 @@
 # ark
 
 > কেডিই (KDE)-এর আর্কাইভিং টুল।
-> আরও তথ্য পাবেন: <https://docs.kde.org/stable5/en/ark/ark/>।
+> আরও তথ্য পাবেন: <https://docs.kde.org/stable_kf6/en/ark/ark/>।
 
 - নির্দিষ্ট একটি আর্কাইভ বর্তমান ডিরেক্টরিতে এক্সট্র্যাক্ট (extract) করতে:
 
