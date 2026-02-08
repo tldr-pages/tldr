@@ -1,7 +1,7 @@
 # zsh disable
 
-> Disable built-in shell commands
-> More information: <https://zsh.sourceforge.io/Doc/Release/Shell-Builtin-Commands.html>
+> Disable built-in shell commands.
+> More information: <https://zsh.sourceforge.io/Doc/Release/Shell-Builtin-Commands.html>.
 
 - Disable command:
 
