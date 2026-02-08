@@ -6,4 +6,4 @@
 
 - Disable command:
 
-`disable {{command command2 ...}}`
+`disable {{command1 command2 ...}}`
