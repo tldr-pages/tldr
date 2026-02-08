@@ -23,10 +23,14 @@
 
 `git commit --amend`
 
-- Comitte nur spezifische Dateien (die Dateien müssen schon auf dem Stage liegen):
+- Committe nur spezifische Dateien (die Dateien müssen schon auf dem Stage liegen):
 
 `git commit {{pfad/zu/datei1 pfad/zu/datei2 ...}}`
 
 - Erzeuge einen Commit, auch wenn keine Dateien auf dem Stage liegen:
 
 `git commit {{[-m|--message]}} "{{nachricht}}" --allow-empty`
+
+- Erzeuge einen Commit mit einer Nachricht und einer Beschreibung:
+
+`git commit {{[-m|--message]}} "{{nachricht}}" {{[-m|--message]}} "{{beschreibung}}"`
