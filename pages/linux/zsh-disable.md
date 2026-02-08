@@ -1,4 +1,4 @@
-# zsh disable
+# disable
 
 > Disable built-in shell commands.
 > See also: `enable`.
