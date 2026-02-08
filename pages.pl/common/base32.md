@@ -1,9 +1,9 @@
 # base32
 
-> Enkoduj lub dekoduj plik lub standardowe wejście do/z Base32, na standardowe wyjście.
+> Zakoduj lub zdekoduj plik lub standardowe wejście do/z Base32, na standardowe wyjście.
 > Więcej informacji: <https://manned.org/base32>.
 
-- Enkoduj plik:
+- Zakoduj plik:
 
 `base32 {{ścieżka/do/pliku}}`
 
@@ -15,7 +15,7 @@
 
 `base32 {{[-d|--decode]}} {{ścieżka/do/pliku}}`
 
-- Enkoduj z `stdin`:
+- Zakoduj z `stdin`:
 
 `{{jakiespolecenie}} | base32`
 

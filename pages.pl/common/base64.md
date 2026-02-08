@@ -1,9 +1,9 @@
 # base64
 
-> Enkoduj lub dekoduj plik lub standardowe wejście do/z Base64, na standardowe wyjście.
+> Zakoduj lub zdekoduj plik lub standardowe wejście do/z Base64, na standardowe wyjście.
 > Więcej informacji: <https://manned.org/base64>.
 
-- Enkoduj plik:
+- Zakoduj plik:
 
 `base64 {{ścieżka/do/pliku}}`
 
@@ -15,7 +15,7 @@
 
 `base64 {{[-d|--decode]}} {{ścieżka/do/pliku}}`
 
-- Enkoduj z `stdin`:
+- Zakoduj z `stdin`:
 
 `{{jakiespolecenie}} | base64`
 

@@ -1,6 +1,6 @@
 # acpi
 
-> Wyśwetl status baterii lub informacje dotyczące temperatury.
+> Wyświetl status baterii lub informacje dotyczące temperatury.
 > Więcej informacji: <https://manned.org/acpi>.
 
 - Pokaż informacje o baterii:

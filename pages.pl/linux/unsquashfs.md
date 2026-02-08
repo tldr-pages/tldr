@@ -11,11 +11,11 @@
 
 `unsquashfs -dest {{ścieżka/do/katalogu}} {{system_plików.squashfs}}`
 
-- Wyświetlaj nazwy plików podczas ich rozpakowywania:
+- Wyświetl nazwy plików podczas ich rozpakowywania:
 
 `unsquashfs -info {{system_plików.squashfs}}`
 
-- Wyświetlaj nazwy plików i ich atrybuty podczas ich rozpakowywania:
+- Wyświetl nazwy plików i ich atrybuty podczas ich rozpakowywania:
 
 `unsquashfs -linfo {{system_plików.squashfs}}`
 

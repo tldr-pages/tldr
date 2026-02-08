@@ -33,6 +33,6 @@
 
 `<:>%s/{{wzorzec}}/{{zastąpienie}}/g<Enter>`
 
-- Wyświetlaj numery linii:
+- Wyświetl numery linii:
 
 `<:>set nu<Enter>`

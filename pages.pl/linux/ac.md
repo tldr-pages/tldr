@@ -19,6 +19,6 @@
 
 `ac {{[-d|--daily-totals]}} {{[-p|--individual-totals]}} {{użytkownik}}`
 
-- Wyświetlaj także dodatkowe szczegóły:
+- Wyświetl także dodatkowe szczegóły:
 
 `ac --compatibility`

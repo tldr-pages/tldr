@@ -12,7 +12,7 @@
 
 `journalctl --vacuum-time 2d`
 
-- Wyświetlaj nowe wiadomości (jak `tail -f` dla tradycyjnego sysloga):
+- Wyświetl nowe wiadomości (jak `tail -f` dla tradycyjnego sysloga):
 
 `journalctl {{[-f|--follow]}}`
 

@@ -21,7 +21,7 @@
 
 `pacman --database --check --check`
 
-- Wyświetlaj tylko komunikaty o błędach:
+- Wyświetl tylko komunikaty o błędach:
 
 `pacman --database --check --quiet`
 
