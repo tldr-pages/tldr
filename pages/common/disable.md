@@ -7,3 +7,7 @@
 - Disable command:
 
 `disable {{command1 command2 ...}}`
+
+- List all disabled commands:
+
+`disable`
