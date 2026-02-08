@@ -9,7 +9,7 @@
 
 - Compile the application and start a local development server:
 
-`ng {{s|serve}}`
+`ng {{[s|serve]}}`
 
 - Create a new component:
 
