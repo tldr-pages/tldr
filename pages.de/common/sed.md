@@ -8,7 +8,7 @@
 
 `{{befehl}} | sed 's/apple/mango/g'`
 
-- Führe eine bestimmte Skript[f] datei aus und gib das Ergebnis auf `stdout` aus:
+- Führe ein bestimmtes Skript[f] aus und gib das Ergebnis auf `stdout` aus:
 
 `{{befehl}} | sed -f {{pfad/zu/skript.sed}}`
 
