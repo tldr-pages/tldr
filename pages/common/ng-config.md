@@ -9,11 +9,11 @@
 
 - Get a specific configuration value:
 
-`ng config projects.{{app_name}}.prefix`
+`ng config projects.{{project_name}}.prefix`
 
 - Set a configuration value:
 
-`ng config projects.{{app_name}}.prefix {{value}}`
+`ng config projects.{{project_name}}.prefix {{value}}`
 
 - Disable CLI analytics globally:
 
@@ -21,4 +21,4 @@
 
 - Set a global config value (caution: this affects all Angular projects):
 
-`ng config projects.{{app_name}}.prefix {{value}} {{[-g|--global]}}`
+`ng config projects.{{project_name}}.prefix {{value}} {{[-g|--global]}}`
