@@ -1,7 +1,7 @@
 # amass
 
 > Strumento per il mapping approfondito della superficie d’attacco e la scoperta di asset.
-> Vedi anche: `amass enum` e `amass intel`.
+> > Alcuni comandi aggiuntivi, come `intel`, hanno la propria documentazione.
 > Ulteriori dettagli: <https://github.com/owasp-amass/amass>.
 
 - Esegui un sottocomando di Amass:
