@@ -1,7 +1,7 @@
 # amass intel
 
 > Raccoglie informazioni open source su un’organizzazione, come domini radice e ASNs.
-> Ulteriori dettagli: <https://github.com/owasp-amass/amass/blob/master/doc/user_guide.md#the-intel-subcommand>.
+> Maggiori informazioni: <https://github.com/owasp-amass/amass/blob/master/doc/user_guide.md#the-intel-subcommand>.
 
 - Trova i domini radice in un intervallo di indirizzi IP:
 
