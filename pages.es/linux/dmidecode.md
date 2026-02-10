@@ -1,7 +1,7 @@
 # dmidecode
 
 > Muestra la tabla de contenidos del DMI (también conocido como SMBIOS) en un formato legible por humanos.
-> Requiere privilegios de root.
+> Vea también: `inxi`, `lshw`, `hwinfo`.
 > Más información: <https://manned.org/dmidecode>.
 
 - Muestra todos la tabla de contenidos de DMI:
