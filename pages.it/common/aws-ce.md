@@ -17,15 +17,15 @@
 
 - Ottieni costi e utilizzo:
 
-`aws ce get-cost-and-usage --time-period {{data_inizio}}/{{data_fine}} --granularita' {{granularita'}} --metrics {{metriche}}`
+`aws ce get-cost-and-usage --time-period {{data_inizio}}/{{data_fine}} --granularity {{granularita'}} --metrics {{metriche}}`
 
 - Ottieni previsione costi:
 
-`aws ce get-cost-forecast --time-period {{data_inizio}}/{{data_fine}} --granularita' {{granularita'}} --metric {{metrica}}`
+`aws ce get-cost-forecast --time-period {{data_inizio}}/{{data_fine}} --granularity {{granularita'}} --metric {{metrica}}`
 
 - Ottieni utilizzo prenotazioni:
 
-`aws ce get-reservation-utilization --time-period {{data_inizio}}/{{data_fine}} --granularita' {{granularita'}}`
+`aws ce get-reservation-utilization --time-period {{data_inizio}}/{{data_fine}} --granularity {{granularita'}}`
 
 - Elenca definizioni categorie costi:
 
