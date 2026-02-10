@@ -1,7 +1,7 @@
 # copilot
 
-- Communiceer met GitHub Copilot.
-- Meer informatie: <https://docs.github.com/en/copilot/concepts/agents/about-copilot-cli>.
+> Communiceer met GitHub Copilot.
+> Meer informatie: <https://docs.github.com/en/copilot/concepts/agents/about-copilot-cli>.
 
 - Start de interactieve modus:
 
