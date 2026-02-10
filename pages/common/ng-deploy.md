@@ -10,7 +10,7 @@
 
 - Deploy a specific project:
 
-`ng deploy {{app_name}}`
+`ng deploy {{project_name}}`
 
 - Deploy using a specific configuration:
 
