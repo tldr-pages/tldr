@@ -1,9 +1,9 @@
 # hash
 
-> Bekijk locaties van gecachede uitvoerbare bestanden.
+> Bekijk locaties van gecachete uitvoerbare bestanden.
 > Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#index-hash>.
 
-- Bekijk gecachede commando locaties voor de huidige shell:
+- Bekijk gecachete commando locaties voor de huidige shell:
 
 `hash`
 
