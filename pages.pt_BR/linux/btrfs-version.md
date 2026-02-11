@@ -5,8 +5,8 @@
 
 - Exibe a ajuda:
 
-`btrfs version --help`
+`btrfs {{[v|version]}} --help`
 
 - Exibe a versão do btrfs-progs:
 
-`btrfs version`
+`btrfs {{[v|version]}}`
