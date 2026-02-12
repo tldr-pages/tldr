@@ -6,28 +6,28 @@
 
 - Enumerate directories using [c]olored output and a [w]ordlist specifying a target [u]RL:
 
-`ffuf -c -w {{path/to/wordlist.txt}} -u {{http://example.com/FUZZ}}`
+`ffuf -c -w {{path/to/wordlist.txt}} -u {{https://example.com/FUZZ}}`
 
 - Enumerate webservers of subdomains by changing the position of the keyword:
 
-`ffuf -w {{path/to/subdomains.txt}} -u {{http://FUZZ.example.com}}`
+`ffuf -w {{path/to/subdomains.txt}} -u {{https://FUZZ.example.com}}`
 
 - Fuzz with specified [t]hreads (default: 40) and pro[x]ying the traffic and save [o]utput to a file:
 
-`ffuf -o -w {{path/to/wordlist.txt}} -u {{http://example.com/FUZZ}} -t {{500}} -x {{http://127.0.0.1:8080}}`
+`ffuf -o -w {{path/to/wordlist.txt}} -u {{https://example.com/FUZZ}} -t {{500}} -x {{http://127.0.0.1:8080}}`
 
 - Fuzz a specific [H]eader ("Name: Value") and [m]atch HTTP status [c]odes:
 
-`ffuf -w {{path/to/wordlist.txt}} -u {{http://example.com}} -H "{{Host: FUZZ}}" -mc {{200}}`
+`ffuf -w {{path/to/wordlist.txt}} -u {{https://example.com}} -H "{{Host: FUZZ}}" -mc {{200}}`
 
-- Fuzz with specified HTTP method and [d]ata, while [f]iltering out comma separated status [c]odes:
+- Fuzz with specified HTTP method and [d]ata, while [f]iltering out specific status [c]odes and response [s]ize:
 
-`ffuf -w {{path/to/postdata.txt}} -X {{POST}} -d "{{username=admin\&password=FUZZ}}" -u {{http://example.com/login.php}} -fc {{401,403}}`
+`ffuf -w {{path/to/postdata.txt}} -X {{POST}} -d "{{username=admin\&password=FUZZ}}" -u {{https://example.com/login.php}} -fc {{302,401-499}} -fs {{1234}}`
 
-- Fuzz multiple positions with multiple wordlists using different modes:
+- Fuzz multiple positions with multiple wordlists using different modes and [a]uto [c]alibration to reduce false positives:
 
-`ffuf -w {{path/to/keys:KEY}} -w {{path/to/values:VALUE}} -mode {{pitchfork|clusterbomb}} -u {{http://example.com/id?KEY=VALUE}}`
+`ffuf -w {{path/to/keys:KEY}} -w {{path/to/values:VALUE}} -mode {{pitchfork|clusterbomb}} -u {{https://example.com/id?KEY=VALUE}} -ac`
 
 - Proxy requests through a HTTP MITM pro[x]y (such as Burp Suite or `mitmproxy`):
 
-`ffuf -w {{path/to/wordlist}} -x {{http://127.0.0.1:8080}} -u {{http://example.com/FUZZ}}`
+`ffuf -w {{path/to/wordlist}} -x {{http://127.0.0.1:8080}} -u {{https://example.com/FUZZ}}`
