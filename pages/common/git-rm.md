@@ -7,7 +7,7 @@
 
 `git rm {{path/to/file}}`
 
-- Remove directory:
+- Remove directory [r]ecursively:
 
 `git rm -r {{path/to/directory}}`
 
