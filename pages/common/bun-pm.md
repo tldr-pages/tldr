@@ -12,9 +12,9 @@
 
 `bun pm bin`
 
-- List installed dependencies:
+- Display the default trusted dependencies:
 
-`bun pm ls`
+`bun pm default-trusted`
 
 - Print the npm registry username:
 
