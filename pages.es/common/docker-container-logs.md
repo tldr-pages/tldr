@@ -13,7 +13,7 @@
 
 - Imprime las últimas 5 líneas:
 
-`docker {{[logs|container logs]}} {nombre_contenedor} {{[-n|--tail]}} 5`
+`docker {{[logs|container logs]}} {{nombre_contenedor}} {{[-n|--tail]}} 5`
 
 - Imprime registros y los añade con marcas de tiempo:
 
