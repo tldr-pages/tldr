@@ -15,6 +15,10 @@
 
 `bun pm pkg get {{property1 property2 property3 ...}}`
 
+- Get nested property:
+
+`bun pm pkg get {{property}}.{{attribute}}`
+
 - Set a property:
 
 `bun pm pkg set {{property}}="{{value}}"`
