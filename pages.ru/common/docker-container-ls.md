@@ -33,4 +33,4 @@
 
 - Отфильтровать контейнеры, которые монтируют определённый том или имеют том, смонтированный по определённому пути:
 
-`docker {{[ps|container ls]}} {{[-f|--filter]}} "volume={{путь/к/директории}}" --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Mounts}}"`
+`docker {{[ps|container ls]}} {{[-f|--filter]}} "volume={{путь/к/каталогу}}" --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Mounts}}"`
