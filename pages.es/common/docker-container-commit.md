@@ -7,7 +7,7 @@
 
 `docker {{[commit|container commit]}} {{contenedor}} {{imagen}}:{{etiqueta}}`
 
-- Aplicar una instrucción Dockerfile `CMD` a la imagen creada:
+- Aplica una instrucción Dockerfile `CMD` a la imagen creada:
 
 `docker {{[commit|container commit]}} {{[-c|--change]}} "CMD {{comando}}" {{contenedor}} {{imagen}}:{{etiqueta}}`
 
