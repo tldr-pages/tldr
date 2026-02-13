@@ -19,6 +19,6 @@
 
 `frida --load {{path/to/script.js}} {{process_name}}`
 
-- Load a script from Frida Codeshare (https://codeshare.frida.re/) :
+- Load a script from Frida Codeshare <https://codeshare.frida.re/>:
 
 `frida --codeshare {{script_name}} {{process_name}}`
