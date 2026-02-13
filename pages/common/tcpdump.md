@@ -29,8 +29,8 @@
 
 - Capture all traffic except traffic over port 22 and [w]rite to a dump file:
 
-`sudo tcpdump -w {{dumpfile.pcap}} port not 22`
+`sudo tcpdump -w {{path/to/dumpfile.pcap}} port not 22`
 
 - [r]ead from a given dump file:
 
-`tcpdump -r {{dumpfile.pcap}}`
+`tcpdump -r {{path/to/dumpfile.pcap}}`
