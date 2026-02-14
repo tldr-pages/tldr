@@ -1,7 +1,7 @@
 # ark
 
 > KDE의 압축 도구.
-> 더 많은 정보: <https://docs.kde.org/stable5/en/ark/ark/>.
+> 더 많은 정보: <https://docs.kde.org/stable_kf6/en/ark/ark/>.
 
 - 특정 압축 파일을 현재 디렉토리에 추출:
 
