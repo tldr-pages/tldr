@@ -186,7 +186,7 @@ This file contains the translation templates of this notice.
 ### ko
 
 ```markdown
-> 같이 보기: `example`.
+> 관련 항목: `example`.
 ```
 
 ---
