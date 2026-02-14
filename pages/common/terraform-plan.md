@@ -3,7 +3,7 @@
 > Generate and show Terraform execution plans.
 > More information: <https://developer.hashicorp.com/terraform/cli/commands/plan>.
 
-- Generate and show the execution plan in the currently directory:
+- Generate and show the execution plan in the current directory:
 
 `terraform plan`
 
