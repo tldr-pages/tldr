@@ -21,7 +21,7 @@
 
 - Ejecuta comando en un nuevo contenedor con volúmenes montados vinculados:
 
-`docker {{[run|container run]}} {{[-v|--volume]}} /{{ruta/a/host_path}}:/{{ruta/a/ruta_contenedor}} {{imagen}} {{comando}}`
+`docker {{[run|container run]}} {{[-v|--volume]}} /{{ruta/a/host_path}}:/{{ruta/al/contenedor}} {{imagen}} {{comando}}`
 
 - Ejecuta comando en un nuevo contenedor con puertos publicados:
 
