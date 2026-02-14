@@ -13,7 +13,7 @@
 
 - Apply a plan file:
 
-`terraform apply {{path/to/file}}`
+`terraform apply {{path/to/file.tfplan}}`
 
 - Specify values for input variables:
 
