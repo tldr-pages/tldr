@@ -5,7 +5,7 @@
 
 - Ejecuta un comando en un nuevo contenedor desde una imagen etiquetada:
 
-`docker {{[run|container run]}} {{image:tag}} {{comando}}`
+`docker {{[run|container run]}} {{imagen:etiqueta}} {{comando}}`
 
 - Ejecuta un comando en un nuevo contenedor en segundo plano y muestra su ID:
 
