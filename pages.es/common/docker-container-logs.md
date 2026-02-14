@@ -17,7 +17,7 @@
 
 - Imprime registros y los añade con marcas de tiempo:
 
-`docker {{[logs|container logs]}} {{[-t|--timestamps]}} {{nombre_del_contenedor}}`
+`docker {{[logs|container logs]}} {{[-t|--timestamps]}} {{nombre_contenedor}}`
 
 - Imprime registros desde un momento determinado de la ejecución del contenedor (por ejemplo, 23 m, 10 s, 2013-01-02T13:23:37):
 
