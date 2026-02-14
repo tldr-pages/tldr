@@ -1,7 +1,7 @@
 # ark
 
 > KDE-Archivierungstool.
-> Weitere Informationen: <https://docs.kde.org/stable5/en/ark/ark/>.
+> Weitere Informationen: <https://docs.kde.org/stable_kf6/en/ark/ark/>.
 
 - Extrahiere ein Archiv ins aktuelle Verzeichnis:
 

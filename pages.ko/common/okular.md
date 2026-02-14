@@ -1,7 +1,7 @@
 # okular
 
 > 문서 보기.
-> 더 많은 정보: <https://docs.kde.org/stable5/en/okular/okular/command-line-options.html>.
+> 더 많은 정보: <https://docs.kde.org/stable_kf6/en/okular/okular/command-line-options.html>.
 
 - 문서 뷰어 시작:
 
