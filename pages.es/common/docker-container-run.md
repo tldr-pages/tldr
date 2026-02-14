@@ -17,7 +17,7 @@
 
 - Ejecuta el comando en un nuevo contenedor con las variables de entorno pasadas:
 
-`docker {{[run|container run]}} {{[-e|--env]}} “{{variable}}={{value}}” {{[-e|--env]}} {{variable}} {{imagen}} {{comando}}`
+`docker {{[run|container run]}} {{[-e|--env]}} '{{variable}}={{value}}' {{[-e|--env]}} {{variable}} {{imagen}} {{comando}}`
 
 - Ejecuta comando en un nuevo contenedor con volúmenes montados vinculados:
 
