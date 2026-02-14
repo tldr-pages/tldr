@@ -7,7 +7,7 @@
 
 `docker {{[logs|container logs]}} {{nombre_contenedor}}`
 
-- Imprime registros y seguirlos:
+- Imprime registros y los sigue:
 
 `docker {{[logs|container logs]}} {{[-f|--follow]}} {{nombre_contenedor}}`
 
