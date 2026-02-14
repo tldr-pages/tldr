@@ -5,8 +5,8 @@
 
 - Pakai nama ekstensi output (default: `aff`):
 
-`afconvert -a {{ekstensi}} {{jalan/menuju/file_input}} {{jalan/menuju/file_output1 jalan/menuju/file_output2 ...}}`
+`afconvert -a {{ekstensi}} {{jalan/menuju/berkas_input}} {{jalan/menuju/berkas_output1 jalan/menuju/berkas_output2 ...}}`
 
 - Gunakan tingkat kompresi file (default: `7`):
 
-`afconvert -X{{0..7}} {{jalan/menuju/file_input}} {{jalan/menuju/file_output1 jalan/menuju/file_output2 ...}}`
+`afconvert -X{{0..7}} {{jalan/menuju/berkas_input}} {{jalan/menuju/berkas_output1 jalan/menuju/berkas_output2 ...}}`
