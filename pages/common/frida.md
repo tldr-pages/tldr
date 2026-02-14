@@ -1,7 +1,7 @@
 # frida
 
 > A dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers.
-> More information: <https://frida.re>.
+> More information: <https://frida.re/docs/frida-cli/>.
 
 - Start the interactive shell (REPL) attached to a running process:
 

@@ -1,7 +1,7 @@
 # frida-trace
 
 > Tool for dynamically tracing function calls.
-> More information: <https://frida.re>.
+> More information: <https://frida.re/docs/frida-trace/>.
 
 - Trace all functions matching a pattern in a process:
 
