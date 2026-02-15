@@ -184,7 +184,7 @@ This file contains the translation templates of this notice.
 ### ko
 
 ```markdown
-> `example`와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
+> `example`과 같은 일부 하위 명령어는 별도의 도움말을 참고하세요.
 ```
 
 ---
