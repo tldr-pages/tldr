@@ -10,27 +10,27 @@
 
 - Büyük/küçük harf duyarsız bir desen ara:
 
-`ack {{--ignore-case}} "{{aranacak_desen}}"`
+`ack {{[-i|--ignore-case]}} "{{aranacak_desen}}"`
 
 - Bir desenle eşleşen satırları ara, sadece eşleşen metni yazdır (satırın geri kalanını değil):
 
-`ack --output '$&' "{{aranacak_desen}}"`
+`ack {{[-o|--output '$&']}} "{{aranacak_desen}}"`
 
 - Aramayı belirli bir dosya türüyle sınırla:
 
-`ack --type {{ruby}} "{{aranacak_desen}}"`
+`ack {{[-t|--type]}} {{ruby}} "{{aranacak_desen}}"`
 
 - Belirli bir dosya türündeki dosyalarda arama yapma:
 
-`ack --type no{{ruby}} "{{aranacak_desen}}"`
+`ack {{[-t|--type]}} no{{ruby}} "{{aranacak_desen}}"`
 
 - Bulunan toplam eşleşme sayısını say:
 
-`ack --count --no-filename "{{aranacak_desen}}"`
+`ack {{[-c|--count]}} {{[-h|--no-filename]}} "{{aranacak_desen}}"`
 
 - Sadece dosya adlarını ve her dosya için eşleşme sayısını yazdır:
 
-`ack --count --files-with-matches "{{aranacak_desen}}"`
+`ack {{[-c|--count]}} {{[-l|--files-with-matches]}} "{{aranacak_desen}}"`
 
 - `--type` ile kullanılabilecek tüm değerleri listele:
 
