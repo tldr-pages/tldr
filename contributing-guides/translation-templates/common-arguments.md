@@ -25,7 +25,7 @@ There, the old table can be **imported**, **edited** in a WYSIWYG editor and **e
 | id    | jalan/menuju/berkas   | jalan/menuju/direktori   | jalan/menuju/berkas_atau_direktori   | paket         | nama_pengguna      | kata_sandi        | perintah | port   | nilai    |
 | it    | percorso/del/file     | percorso/della/directory | percorso/del/file_o_directory        | pacchetto     | nome_utente        | password          | comando  | porta  | valore   |
 | ja    | ファイルパス                | ディレクトリパス                 | ファイルパスまたはディレクトリパス                    | パッケージ         | ユーザー名              |                   |          |        |          |
-| ko    | 경로/대상/파일              | 경로/대상/폴더                 | 경로/대상/파일_또는_폴더                       | 패키지           | 사용자 명              |                   |          |        |          |
+| ko    | 경로/대상/파일              | 경로/대상/폴더                 | 경로/대상/파일_또는_폴더                       | 패키지           | 사용자 명              | 비밀번호              | 명령어      | 포트     | 값        |
 | lo    |                       |                          |                                      |               |                    |                   |          |        |          |
 | ml    | ഫയലിലേക്കുള്ള/പാത     | ഡയറക്ടറിയിലേക്കുള്ള/പാത  | ഫയലിലേക്കോ_ഡയറക്ടറിയിലേക്കോ/ഉള്ള/പാത | പാക്കേജ്      | ഉപയോക്തൃനാമം       |                   |          |        |          |
 | ne    | फाइल/को/पथ            | निर्देशिका/को/पथ         | फाइल_वा_निर्देशिका/को/पथ             | प्याकेज       | प्रयोगकर्ता_नाम    |                   |          |        |          |
