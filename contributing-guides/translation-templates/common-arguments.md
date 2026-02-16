@@ -13,7 +13,7 @@ There, the old table can be **imported**, **edited** in a WYSIWYG editor and **e
 | bn    | ফাইল/এর/পাথ           | ডিরেক্টরি/এর/পাথ         | ফাইল_অথবা_ডিরেক্টরি/এর/পাথ           | প্যাকেজ       | ইউজারনেম           | পাসওয়ার্ড        | কমান্ড   | পোর্ট  | ভ্যালু   |
 | bs    | put/do/datoteke       | put/do/direktorija       | put/do/datoteke_ili_direktorija      | paket         | korisničko_ime     |                   |          |        |          |
 | ca    | camí/al/fitxer        | camí/al/directori        | camí/al/fitxer_o_directori           | paquet        | nom_usuari         |                   |          |        |          |
-| cs    | cesta/k/souboru       | cesta/k/adresari         | cesta/k/souboru_ci_adresari          | balíček       | jmeno_uzivatele    |                   |          |        |          |
+| cs    | cesta/k/souboru       | cesta/k/adresari         | cesta/k/souboru_ci_adresari          | balíček       | jmeno_uzivatele    | heslo             | příkaz   | port   | hodnota  |
 | da    | sti/til/fil           | sti/til/mappe            | sti/til/fil_eller_mappe              | pakke         | brugernavn         |                   |          |        |          |
 | de    | pfad/zu/datei         | pfad/zu/verzeichnis      | pfad/zu/datei_oder_verzeichnis       | paket         | benutzername       | passwort          | befehl   | port   | wert     |
 | el    | διαδρομή/προς/αρχείο  | διαδρομή/προς/κατάλογο   | διαδρομή/προς/αρχείο_ή_κατάλογο      | πακέτο        | όνομα_χρήστη       | κωδικός_πρόσβασης |          |        |          |
