@@ -6,6 +6,7 @@ There, the old table can be **imported**, **edited** in a WYSIWYG editor and **e
 
 > [!NOTE]
 > Placeholders in Arabian (`ar`) and Farsi (`fa`) pages shouldn't be translated to prevent flipped text when reading.
+
 | en    | path/to/file          | path/to/directory        | path/to/file_or_directory            | package       | username           | password          | command  | port   | value    |
 |-------|-----------------------|--------------------------|--------------------------------------|---------------|--------------------|-------------------|----------|--------|----------|
 | ar    | path/to/file          | path/to/directory        | path/to/file_or_directory            | package       | username           | password          | command  | port   | value    |
