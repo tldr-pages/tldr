@@ -19,6 +19,6 @@
 
 `docker {{[logs|container logs]}} {{[-t|--timestamps]}} {{nombre_contenedor}}`
 
-- Imprime registros desde un momento determinado de la ejecución del contenedor (por ejemplo, 23 m, 10 s, 2013-01-02T13:23:37):
+- Imprime registros desde un momento determinado de la ejecución del contenedor (por ejemplo, 23m, 10s, 2013-01-02T13:23:37):
 
 `docker {{[logs|container logs]}} {{nombre_contenedor}} --until {{hora}}`
