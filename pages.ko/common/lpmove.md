@@ -1,7 +1,7 @@
 # lpmove
 
 > 작업 또는 모든 작업을 다른 프린터로 이동.
-> 같이 보기: `cancel`, `lp`, `lpr`, `lprm`.
+> 관련 항목: `cancel`, `lp`, `lpr`, `lprm`.
 > 더 많은 정보: <https://openprinting.github.io/cups/doc/man-lpmove.html>.
 
 - 특정 작업을 `new_printer`로 이동:

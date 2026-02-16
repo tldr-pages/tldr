@@ -1,7 +1,7 @@
 # popd
 
 > `pushd` 셸 내장 명령어를 통해 디렉토리 스택에 올려놓은 디렉토리를 제거.
-> 같이 보기: `pushd`, `dirs`.
+> 관련 항목: `pushd`, `dirs`.
 > 더 많은 정보: <https://www.gnu.org/software/bash/manual/bash.html#index-popd>.
 
 - 스택의 최상위 디렉토리를 제거하고 해당 디렉토리로 이동:

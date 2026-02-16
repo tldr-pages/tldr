@@ -1,7 +1,7 @@
 # arch
 
 > 시스템 아키텍처 이름을 표시하거나 다른 아키텍처에서 명령을 실행합니다.
-> 같이 보기: `uname`.
+> 관련 항목: `uname`.
 > 더 많은 정보: <https://keith.github.io/xcode-man-pages/arch.1.html>.
 
 - 시스템의 아키텍처 표시:

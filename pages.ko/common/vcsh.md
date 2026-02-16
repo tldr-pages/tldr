@@ -1,7 +1,7 @@
 # vcsh
 
 > Git 저장소를 사용하여 홈 디렉토리를 위한 버전 관리 시스템.
-> 같이 보기: `chezmoi`, `stow`, `tuckr`, `homeshick`.
+> 관련 항목: `chezmoi`, `stow`, `tuckr`, `homeshick`.
 > 더 많은 정보: <https://manned.org/vcsh>.
 
 - (빈) 저장소 초기화:

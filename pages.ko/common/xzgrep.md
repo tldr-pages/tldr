@@ -1,7 +1,7 @@
 # xzgrep
 
 > `regex` 사용하여 `xz`, `lzma`, `gzip`, `bzip2`, `lzop`, 또는 `zstd`로 압축된 파일을 검색합니다.
-> 같이 보기: `grep`.
+> 관련 항목: `grep`.
 > 더 많은 정보: <https://manned.org/xzgrep>.
 
 - 파일 내 패턴 검색:

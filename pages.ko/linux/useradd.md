@@ -1,7 +1,7 @@
 # useradd
 
 > 새 사용자 생성.
-> 같이 보기: `users`, `userdel`, `usermod`.
+> 관련 항목: `users`, `userdel`, `usermod`.
 > 더 많은 정보: <https://manned.org/useradd>.
 
 - 새 사용자 생성:

@@ -1,7 +1,7 @@
 # magick import
 
 > X 서버 화면의 일부 또는 전체를 캡처하여 파일로 저장.
-> 같이 보기: `magick`.
+> 관련 항목: `magick`.
 > 더 많은 정보: <https://imagemagick.org/script/import.php>.
 
 - 전체 X 서버 화면을 PostScript 파일로 캡처:

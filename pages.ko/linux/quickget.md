@@ -2,7 +2,7 @@
 
 > Quickemu 가상 머신 빌드를 위한 자료를 다운로드하고 준비합니다.
 > 참고: "edition" 매개변수는 항상 선택 사항입니다.
-> 같이 보기: `quickemu`.
+> 관련 항목: `quickemu`.
 > 더 많은 정보: <https://github.com/quickemu-project/quickemu>.
 
 - 지원되는 모든 게스트 운영 체제, 버전 및 변형 목록 표시:

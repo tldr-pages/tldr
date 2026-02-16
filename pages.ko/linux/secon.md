@@ -1,7 +1,7 @@
 # secon
 
 > 파일, 프로세스 ID, 현재 실행 컨텍스트 또는 컨텍스트 명세의 SELinux 보안 컨텍스트를 확인합니다.
-> 같이 보기: `semanage`, `runcon`, `chcon`.
+> 관련 항목: `semanage`, `runcon`, `chcon`.
 > 더 많은 정보: <https://manned.org/secon>.
 
 - 현재 실행 컨텍스트의 보안 컨텍스트 확인:

@@ -1,7 +1,7 @@
 # pueue start
 
 > 작업 또는 작업 그룹의 실행을 재개.
-> 같이 보기: `pueue pause`.
+> 관련 항목: `pueue pause`.
 > 더 많은 정보: <https://github.com/Nukesor/pueue#how-to-use-it>.
 
 - 기본 그룹의 모든 작업 재개:

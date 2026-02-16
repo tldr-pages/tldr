@@ -1,7 +1,7 @@
 # netserver
 
 > 네트워크 처리량을 측정하는 벤치마킹 애플리케이션 `netperf`의 서버 측 명령.
-> 같이 보기: `netperf`.
+> 관련 항목: `netperf`.
 > 더 많은 정보: <https://manned.org/netserver>.
 
 - 기본 포트(12865)에서 서버 시작 및 백그라운드로 포크:

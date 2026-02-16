@@ -1,7 +1,7 @@
 # chezmoi
 
 > Go로 작성된, 다중 머신 도트파일 관리자.
-> 같이 보기: `stow`, `tuckr`, `vcsh`, `homeshick`.
+> 관련 항목: `stow`, `tuckr`, `vcsh`, `homeshick`.
 > 더 많은 정보: <https://www.chezmoi.io/reference/>.
 
 - `chezmoi`를 설정하고, `~/.local/share/chezmoi`에 Git 저장소를 만듬:

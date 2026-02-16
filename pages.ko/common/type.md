@@ -2,7 +2,7 @@
 
 > 셀이 실행할 명령의 유형을 표시합니다.
 > 참고: 모든 예시는 POSIX 호환이 아닙니다.
-> 같이 보기: `whereis`, `which`.
+> 관련 항목: `whereis`, `which`.
 > 더 많은 정보: <https://www.gnu.org/software/bash/manual/bash.html#index-type>.
 
 - 명령의 유형 표시:
