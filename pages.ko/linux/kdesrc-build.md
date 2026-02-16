@@ -1,7 +1,7 @@
 # kdesrc-build
 
 > KDE 구성 요소를 소스 저장소에서 손쉽게 빌드.
-> 더 많은 정보: <https://docs.kde.org/trunk5/en/kdesrc-build/kdesrc-build/index.html>.
+> 더 많은 정보: <https://manned.org/man/kdesrc-build>.
 
 - `kdesrc-build` 초기화:
 
