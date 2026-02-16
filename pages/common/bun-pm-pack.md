@@ -23,7 +23,7 @@
 
 `bun pm pack --ignore-scripts`
 
-- Set the gzip compression level (0–9, default: 9):
+- Set the gzip compression level (0-9, default: 9):
 
 `bun pm pack --gzip-level 5`
 
