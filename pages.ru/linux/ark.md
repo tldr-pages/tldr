@@ -1,7 +1,7 @@
 # ark
 
 > Утилита для архивации от KDE.
-> Больше информации: <https://docs.kde.org/stable5/en/ark/ark/>.
+> Больше информации: <https://docs.kde.org/stable_kf6/en/ark/ark/>.
 
 - Извлечь указанный архив в текущий каталог:
 

@@ -9,7 +9,7 @@
 
 - Cancella riferimenti esistenti ad un oggetto sostituito:
 
-`git replace --delete {{oggetto}}`
+`git replace {{[-d|--delete]}} {{oggetto}}`
 
 - Modifica il contenuto di un oggetto in modo interattivo:
 

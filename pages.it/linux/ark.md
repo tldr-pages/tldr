@@ -1,7 +1,7 @@
 # ark
 
 > Strumento di archiviazione di KDE.
-> Maggiori informazioni: <https://docs.kde.org/stable5/en/ark/ark/>.
+> Maggiori informazioni: <https://docs.kde.org/stable_kf6/en/ark/ark/>.
 
 - Estrae un archivio specifico nella directory corrente:
 
