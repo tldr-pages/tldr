@@ -31,3 +31,7 @@
 - Update and install community-maintained channels:
 
 `tv update-channels`
+
+- View tldr pages (you need to update channels first and have `tldr` installed):
+
+`tv tldr`
