@@ -288,7 +288,7 @@ This file contains the translation templates of this notice.
 ### ta
 
 ```markdown
-> `example` போன்ற சிலச் சார்கட்டளைகளுக்குத் தனிப் பக்கம் உள்ளது.
+> `example` போன்ற சிலச் சார்கட்டளைகளுக்குத் தனித்தனி பயன்பாட்டு ஆவணங்கள் உள்ளன.
 ```
 
 ---
