@@ -1,7 +1,7 @@
 # openclaw agent
 
 > Talk to the OpenClaw AI assistant.
-> More information: <https://github.com/openclaw/openclaw>.
+> More information: <https://docs.openclaw.ai/cli/agent>.
 
 - Send a single message to the assistant:
 

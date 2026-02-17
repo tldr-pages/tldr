@@ -1,7 +1,7 @@
 # openclaw update
 
 > Update OpenClaw to the latest version.
-> More information: <https://github.com/openclaw/openclaw>.
+> More information: <https://docs.openclaw.ai/cli/update>.
 
 - Update to the latest version:
 

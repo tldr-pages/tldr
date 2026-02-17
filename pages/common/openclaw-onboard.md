@@ -1,7 +1,7 @@
 # openclaw onboard
 
 > Run the onboarding wizard to set up OpenClaw.
-> More information: <https://github.com/openclaw/openclaw>.
+> More information: <https://docs.openclaw.ai/cli/onboard>.
 
 - Run the onboarding wizard with daemon installation:
 

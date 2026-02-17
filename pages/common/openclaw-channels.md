@@ -1,7 +1,7 @@
 # openclaw channels
 
 > Manage OpenClaw channels (WhatsApp, Telegram, Slack, Discord, etc.).
-> More information: <https://github.com/openclaw/openclaw>.
+> More information: <https://docs.openclaw.ai/cli/channels>.
 
 - List all configured channels:
 

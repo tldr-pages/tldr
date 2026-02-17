@@ -1,7 +1,7 @@
 # openclaw doctor
 
 > Run diagnostics for OpenClaw gateway and channels.
-> More information: <https://github.com/openclaw/openclaw>.
+> More information: <https://docs.openclaw.ai/cli/doctor>.
 
 - Run diagnostics:
 

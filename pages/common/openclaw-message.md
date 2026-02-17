@@ -1,7 +1,7 @@
 # openclaw message
 
 > Send messages through OpenClaw channels.
-> More information: <https://github.com/openclaw/openclaw>.
+> More information: <https://docs.openclaw.ai/cli/message>.
 
 - Send a message to a phone number (WhatsApp):
 

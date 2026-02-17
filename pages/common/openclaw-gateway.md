@@ -1,7 +1,7 @@
 # openclaw gateway
 
 > Start the OpenClaw gateway server (control plane).
-> More information: <https://github.com/openclaw/openclaw>.
+> More information: <https://docs.openclaw.ai/cli/gateway>.
 
 - Start the gateway on the default port (18789):
 
