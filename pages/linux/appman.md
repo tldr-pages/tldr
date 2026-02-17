@@ -23,6 +23,6 @@
 
 `appman [-l|list]`
 
-- Updates appman to the latest version available:
+- Update appman to the latest version available:
 
 `appman [-s|sync]`
