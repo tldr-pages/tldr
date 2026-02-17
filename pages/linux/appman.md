@@ -9,7 +9,7 @@
 
 - Search packages via keywords:
 
-`appman {{[-q|query|search]}} {{package}}`
+`appman {{[-q|query]}} {{package}}`
 
 - Install a new package:
 
