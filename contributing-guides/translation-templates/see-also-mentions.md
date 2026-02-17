@@ -290,7 +290,7 @@ This file contains the translation templates of this notice.
 ### ta
 
 ```markdown
-> இதையும் பார்க்கவும்: `example`.
+> மேலும் காண்க: `example`.
 ```
 
 ---
