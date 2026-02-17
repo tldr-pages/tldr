@@ -1,0 +1,20 @@
+# openclaw update
+
+> Update OpenClaw to the latest version.
+> More information: <https://github.com/openclaw/openclaw>.
+
+- Update to the latest version:
+
+`openclaw update`
+
+- Switch to a specific release channel (stable/beta/dev):
+
+`openclaw update --channel {{stable|beta|dev}}`
+
+- View current version:
+
+`openclaw update --version`
+
+- View help:
+
+`openclaw update {{[-h|--help]}}`
