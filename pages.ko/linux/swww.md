@@ -1,7 +1,7 @@
 # swww
 
 > Wayland용 효율적인 애니메이션 배경화면 데몬.
-> 같이 보기: `swww-daemon`.
+> 관련 항목: `swww-daemon`.
 > 더 많은 정보: <https://github.com/LGFae/swww#usage>.
 
 - 배경화면 설정:
