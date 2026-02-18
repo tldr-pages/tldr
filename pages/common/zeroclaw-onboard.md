@@ -19,6 +19,6 @@
 
 `zeroclaw onboard --api-key {{api_key}} --provider {{openrouter}} --memory {{sqlite}}`
 
-- View help:
+- Display help:
 
 `zeroclaw onboard {{[-h|--help]}}`

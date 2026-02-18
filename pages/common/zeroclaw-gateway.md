@@ -19,6 +19,6 @@
 
 `zeroclaw gateway --host {{0.0.0.0}} {{[-p|--port]}} {{8080}}`
 
-- View help:
+- Display help:
 
 `zeroclaw gateway {{[-h|--help]}}`

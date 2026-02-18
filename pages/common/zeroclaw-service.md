@@ -23,6 +23,6 @@
 
 `zeroclaw service uninstall`
 
-- View help:
+- Display help:
 
 `zeroclaw service {{[-h|--help]}}`

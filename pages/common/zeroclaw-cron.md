@@ -27,6 +27,6 @@
 
 `zeroclaw cron resume {{task_id}}`
 
-- View help:
+- Display help:
 
 `zeroclaw cron {{[-h|--help]}}`

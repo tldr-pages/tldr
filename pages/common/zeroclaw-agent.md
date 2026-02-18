@@ -27,6 +27,6 @@
 
 `zeroclaw agent {{[-m|--message]}} "{{Hello}}" --peripheral {{nucleo-f401re:/dev/ttyACM0}}`
 
-- View help:
+- Display help:
 
 `zeroclaw agent {{[-h|--help]}}`

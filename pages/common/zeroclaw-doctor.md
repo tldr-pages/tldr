@@ -7,6 +7,6 @@
 
 `zeroclaw doctor`
 
-- View help:
+- Display help:
 
 `zeroclaw doctor {{[-h|--help]}}`

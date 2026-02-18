@@ -19,6 +19,6 @@
 
 `zeroclaw daemon --host {{0.0.0.0}} {{[-p|--port]}} {{8080}}`
 
-- View help:
+- Display help:
 
 `zeroclaw daemon {{[-h|--help]}}`

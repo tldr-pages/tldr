@@ -23,6 +23,6 @@
 
 `zeroclaw channel remove {{channel_name}}`
 
-- View help:
+- Display help:
 
 `zeroclaw channel {{[-h|--help]}}`

@@ -7,6 +7,6 @@
 
 `zeroclaw status`
 
-- View help:
+- Display help:
 
 `zeroclaw status {{[-h|--help]}}`

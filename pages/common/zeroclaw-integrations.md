@@ -7,6 +7,6 @@
 
 `zeroclaw integrations info {{Telegram|Discord|Slack|WhatsApp|Matrix|...}}`
 
-- View help:
+- Display help:
 
 `zeroclaw integrations {{[-h|--help]}}`

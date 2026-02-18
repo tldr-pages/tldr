@@ -19,6 +19,6 @@
 
 `zeroclaw skills remove {{skill_name}}`
 
-- View help:
+- Display help:
 
 `zeroclaw skills {{[-h|--help]}}`

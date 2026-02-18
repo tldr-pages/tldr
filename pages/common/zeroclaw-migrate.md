@@ -11,6 +11,6 @@
 
 `zeroclaw migrate openclaw`
 
-- View help:
+- Display help:
 
 `zeroclaw migrate {{[-h|--help]}}`

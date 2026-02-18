@@ -15,6 +15,6 @@
 
 `zeroclaw models refresh --force`
 
-- View help:
+- Display help:
 
 `zeroclaw models {{[-h|--help]}}`

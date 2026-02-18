@@ -7,6 +7,6 @@
 
 `zeroclaw hardware discover`
 
-- View help:
+- Display help:
 
 `zeroclaw hardware {{[-h|--help]}}`
