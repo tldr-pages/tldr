@@ -3,34 +3,34 @@
 > Open a file for interactive reading, allowing scrolling and search.
 > More information: <https://greenwoodsoftware.com/less/>.
 
-- Open a file:
+- Open a file for interactive reading:
 
-`less {{source_file}}`
+`less {{path/to/source_file}}`
 
-- Page down/up:
+- [Interactive] Page down/up:
 
 `{{<Space>|<b>}}`
 
-- Go to end/start of file:
+- [Interactive] Go to end/start of file:
 
 `{{<G>|<g>}}`
 
-- Forward search for a string (press `<n>`/`<N>` to go to next/previous match):
+- [Interactive] Forward search for a string (press `<n>`/`<N>` to go to next/previous match):
 
-`</>{{something}}`
+`</>{{pattern}}`
 
-- Backward search for a string (press `<n>`/`<N>` to go to next/previous match):
+- [Interactive] Backward search for a string (press `<n>`/`<N>` to go to next/previous match):
 
-`<?>{{something}}`
+`<?>{{pattern}}`
 
-- Follow the output of the currently opened file:
+- [Interactive] Follow the output of the currently opened file:
 
 `<F>`
 
-- Open the current file in an editor:
+- [Interactive] Open the current file in an editor:
 
 `<v>`
 
-- Exit:
+- [Interactive] Exit:
 
 `<q>`
