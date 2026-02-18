@@ -19,6 +19,6 @@
 
 `openclaw nodes status`
 
-- View help:
+- Display help:
 
 `openclaw nodes {{[-h|--help]}}`

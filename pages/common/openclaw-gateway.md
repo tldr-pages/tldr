@@ -15,6 +15,6 @@
 
 `openclaw gateway --allow-unconfigured --verbose`
 
-- View help:
+- Display help:
 
 `openclaw gateway {{[-h|--help]}}`

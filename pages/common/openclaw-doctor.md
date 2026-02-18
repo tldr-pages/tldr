@@ -15,6 +15,6 @@
 
 `openclaw doctor --non-interactive`
 
-- View help:
+- Display help:
 
 `openclaw doctor {{[-h|--help]}}`

@@ -15,6 +15,6 @@
 
 `openclaw update --version`
 
-- View help:
+- Display help:
 
 `openclaw update {{[-h|--help]}}`

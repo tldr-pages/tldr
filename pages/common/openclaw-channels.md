@@ -15,6 +15,6 @@
 
 `openclaw channels login --channel {{telegram}} --verbose`
 
-- View help:
+- Display help:
 
 `openclaw channels {{[-h|--help]}}`

@@ -15,6 +15,6 @@
 
 `openclaw agent {{[-m|--message]}} "{{Analyze this}}" --thinking {{off|minimal|low|medium|high}}`
 
-- View help:
+- Display help:
 
 `openclaw agent {{[-h|--help]}}`

@@ -11,6 +11,6 @@
 
 `openclaw message send --channel {{telegram}} {{[-t|--target]}} {{user_id}} {{[-m|--message]}} "{{Hello}}"`
 
-- View help:
+- Display help:
 
 `openclaw message {{[-h|--help]}}`

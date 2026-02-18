@@ -11,6 +11,6 @@
 
 `openclaw onboard`
 
-- View help:
+- Display help:
 
 `openclaw onboard {{[-h|--help]}}`
