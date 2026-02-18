@@ -9,7 +9,7 @@
 
 - Install a skill from a GitHub URL:
 
-`zeroclaw skills install {{https://github.com/user/repo}}`
+`zeroclaw skills install https://github.com/{{user}}/{{repo}}`
 
 - Install a skill from a local path:
 
