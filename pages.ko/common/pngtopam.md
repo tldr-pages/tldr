@@ -1,7 +1,7 @@
 # pngtopam
 
 > PNG 이미지를 Netpbm 이미지로 변환.
-> 같이 보기: `pamtopng`.
+> 관련 항목: `pamtopng`.
 > 더 많은 정보: <https://netpbm.sourceforge.net/doc/pngtopam.html>.
 
 - 지정된 PNG 이미지를 Netpbm 이미지로 변환:

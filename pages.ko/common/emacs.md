@@ -1,7 +1,7 @@
 # emacs
 
 > 확장 가능, 사용자 정의 가능, 자체 문서화가 되는 실시간 디스플레이 편집기.
-> 같이 보기: `emacsclient`.
+> 관련 항목: `emacsclient`.
 > 더 많은 정보: <https://www.gnu.org/software/emacs>.
 
 - Emacs 시작 및 파일 열기:

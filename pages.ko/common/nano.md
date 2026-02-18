@@ -1,7 +1,7 @@
 # nano
 
 > 명령줄 텍스트 편집기. 향상된 `Pico` 클론.
-> 같이 보기: `pico`, `rnano`.
+> 관련 항목: `pico`, `rnano`.
 > 더 많은 정보: <https://nano-editor.org/dist/latest/nano.html>.
 
 - 편집기 시작:

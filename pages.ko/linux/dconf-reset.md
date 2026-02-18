@@ -1,7 +1,7 @@
 # dconf reset
 
 > dconf 데이터베이스에서 키 값을 재설정.
-> 같이 보기: `dconf`.
+> 관련 항목: `dconf`.
 > 더 많은 정보: <https://manned.org/dconf>.
 
 - 특정 키 값을 재설정:

@@ -1,7 +1,7 @@
 # pueue pause
 
 > 실행 중인 작업 또는 그룹 일시 중지.
-> 같이 보기: `pueue start`.
+> 관련 항목: `pueue start`.
 > 더 많은 정보: <https://github.com/Nukesor/pueue#how-to-use-it>.
 
 - 기본 그룹의 모든 작업 일시 중지:

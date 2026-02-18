@@ -1,7 +1,7 @@
 # pamtopng
 
 > PAM 이미지를 PNG로 변환.
-> 같이 보기: `pnmtopng`, `pngtopam`.
+> 관련 항목: `pnmtopng`, `pngtopam`.
 > 더 많은 정보: <https://netpbm.sourceforge.net/doc/pamtopng.html>.
 
 - 지정된 PAM 이미지를 PNG로 변환:

@@ -1,7 +1,7 @@
 # pgmhist
 
 > PGM 이미지에 포함된 값의 히스토그램을 출력.
-> 같이 보기: `ppmhist`.
+> 관련 항목: `ppmhist`.
 > 더 많은 정보: <https://netpbm.sourceforge.net/doc/pgmhist.html>.
 
 - 사람이 읽을 수 있는 히스토그램 표시:

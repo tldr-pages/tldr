@@ -1,7 +1,7 @@
 # pkg_add
 
 > OpenBSD에 패키지를 설치/업데이트합니다.
-> 같이 보기: `pkg_info`, `pkg_delete`.
+> 관련 항목: `pkg_info`, `pkg_delete`.
 > 더 많은 정보: <https://man.openbsd.org/pkg_add>.
 
 - 종속성을 포함하여 모든 패키지를 업데이트:

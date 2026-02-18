@@ -1,7 +1,7 @@
 # pdfattach
 
 > 기존 PDF 파일에 새 첨부 파일(내장 파일)을 추가.
-> 같이 보기: `pdfdetach`, `pdfimages`, `pdfinfo`.
+> 관련 항목: `pdfdetach`, `pdfimages`, `pdfinfo`.
 > 더 많은 정보: <https://manned.org/pdfattach>.
 
 - 기존 PDF 파일에 새 첨부 파일 추가:

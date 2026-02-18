@@ -1,7 +1,7 @@
 # pamcrater
 
 > 분화구가 있는 지형의 PAM 이미지를 생성합니다.
-> 같이 보기: `pamshadedrelief`, `ppmrelief`.
+> 관련 항목: `pamshadedrelief`, `ppmrelief`.
 > 더 많은 정보: <https://netpbm.sourceforge.net/doc/pamcrater.html>.
 
 - 지정된 크기의 분화구 지형 이미지를 생성:

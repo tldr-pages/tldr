@@ -1,7 +1,7 @@
 # rc-service
 
 > 매개변수를 사용하여 OpenRC 서비스를 찾아 실행합니다.
-> 같이 보기: `openrc`.
+> 관련 항목: `openrc`.
 > 더 많은 정보: <https://manned.org/rc-service>.
 
 - 서비스 상태 표시:

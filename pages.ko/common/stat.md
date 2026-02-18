@@ -1,7 +1,7 @@
 # stat
 
 > 파일 및 파일 시스템 정보를 표시.
-> 같이 보기: `file`.
+> 관련 항목: `file`.
 > 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/stat-invocation.html>.
 
 - 특정 파일에 대한 속성(크기, 권한, 생성 및 액세스 날짜 등) 표시:
