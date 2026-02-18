@@ -1,7 +1,7 @@
 # git restore
 
 > 작업 트리 파일을 복원합니다. Git 버전 2.23+ 이상이 필요합니다.
-> 같이 보기: `git checkout`, `git reset`.
+> 관련 항목: `git checkout`, `git reset`.
 > 더 많은 정보: <https://git-scm.com/docs/git-restore>.
 
 - 언스테이지된 파일을 현재 커밋 (HEAD)의 버전으로 복원:

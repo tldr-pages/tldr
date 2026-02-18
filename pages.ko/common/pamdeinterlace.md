@@ -1,7 +1,7 @@
 # pamdeinterlace
 
 > Netpbm 이미지에서 격자 모양으로 행을 제거.
-> 같이 보기: `pammixinterlace`.
+> 관련 항목: `pammixinterlace`.
 > 더 많은 정보: <https://netpbm.sourceforge.net/doc/pamdeinterlace.html>.
 
 - 입력 이미지의 짝수 행으로 구성된 이미지 생성:

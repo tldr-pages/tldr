@@ -2,6 +2,7 @@
 
 > DMI(또는 SMBIOS로 알려진) 테이블의 내용을 사람이 읽을 수 있는 형식으로 표시합니다.
 > 루트 권한이 필요합니다.
+> 관련 항목: `inxi`, `lshw`, `hwinfo`.
 > 더 많은 정보: <https://manned.org/dmidecode>.
 
 - 모든 DMI 테이블 내용을 표시:

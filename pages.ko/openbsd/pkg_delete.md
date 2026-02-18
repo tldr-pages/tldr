@@ -1,7 +1,7 @@
 # pkg_delete
 
 > OpenBSD에서 패키지를 제거합니다.
-> 같이 보기: `pkg_add`, `pkg_info`.
+> 관련 항목: `pkg_add`, `pkg_info`.
 > 더 많은 정보: <https://man.openbsd.org/pkg_delete>.
 
 - 패키지 삭제:

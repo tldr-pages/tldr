@@ -1,7 +1,7 @@
 # rmmod
 
 > Linux 커널에서 모듈을 제거합니다.
-> 같이 보기: `kmod`.
+> 관련 항목: `kmod`.
 > 더 많은 정보: <https://manned.org/rmmod>.
 
 - 커널에서 모듈 제거:

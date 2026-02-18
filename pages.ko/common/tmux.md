@@ -2,7 +2,7 @@
 
 > 터미널 멀티플렉서.
 > tmux는 단일 단말기 창 또는 원격 터미널 세션 안에서 여러 세션을 사용할 수 있도록 도와줍니다.
-> 같이 보기: `zellij`, `screen`.
+> 관련 항목: `zellij`, `screen`.
 > 더 많은 정보: <https://github.com/tmux/tmux>.
 
 - 새 세션 시작:

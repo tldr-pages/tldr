@@ -1,7 +1,7 @@
 # pnmscalefixed
 
 > PNM 파일을 빠르게 확장하되 품질이 다소 저하될 수 있습니다.
-> 같이 보기: `pamscale`.
+> 관련 항목: `pamscale`.
 > 더 많은 정보: <https://netpbm.sourceforge.net/doc/pnmscalefixed.html>.
 
 - 결과가 지정된 크기를 갖도록 이미지를 확장:

@@ -2,7 +2,7 @@
 
 > 디렉토리 스택을 표시하거나 조작한다.
 > 디렉토리 스택은 `pushd`과 `popd` 명령어로 조작할 수 있는 최근 방문한 디렉토리의 목록이다.
-> 같이 보기: `pushd`, `popd`.
+> 관련 항목: `pushd`, `popd`.
 > 더 많은 정보: <https://www.gnu.org/software/bash/manual/bash.html#Directory-Stack-Builtins>.
 
 - 각각의 엔트리 사이에서 공백으로 디렉토리 스택을 표시하기:

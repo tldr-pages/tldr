@@ -1,7 +1,7 @@
 # zip
 
 > 파일을 압축하고 Zip 아카이브로 묶기.
-> 같이 보기: `unzip`.
+> 관련 항목: `unzip`.
 > 더 많은 정보: <https://manned.org/zip>.
 
 - 특정 아카이브에 파일/폴더 추가 ([r]ecursively):

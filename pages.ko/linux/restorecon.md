@@ -1,7 +1,7 @@
 # restorecon
 
 > SELinux 보안 컨텍스트를 파일/디렉토리의 지속적인 규칙에 따라 복원.
-> 같이 보기: `semanage-fcontext`.
+> 관련 항목: `semanage-fcontext`.
 > 더 많은 정보: <https://manned.org/restorecon>.
 
 - 파일 또는 디렉토리의 현재 보안 컨텍스트 보기:

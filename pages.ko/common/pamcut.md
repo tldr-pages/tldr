@@ -1,7 +1,7 @@
 # pamcut
 
 > Netpbm 이미지에서 직사각형 영역을 잘라내기.
-> 같이 보기: `pamdice`, `pamcomp`.
+> 관련 항목: `pamdice`, `pamcomp`.
 > 더 많은 정보: <https://netpbm.sourceforge.net/doc/pamcut.html>.
 
 - 이미지의 양쪽에서 지정된 열/행 수만큼 잘라내기:
