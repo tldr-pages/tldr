@@ -1,7 +1,7 @@
 # eqn
 
 > groff (GNU Troff) 문서 형식화 시스템용 방정식 전처리.
-> 같이 보기: `troff`, `groff`.
+> 관련 항목: `troff`, `groff`.
 > 더 많은 정보: <https://manned.org/eqn>.
 
 - 방정식으로 입력을 처리하고, groff를 사용하여 향후 조판을 위해 출력을 PostScript에 저장:

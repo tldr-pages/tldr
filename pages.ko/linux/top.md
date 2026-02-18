@@ -1,7 +1,7 @@
 # top
 
 > 실행 중인 프로세스에 대한 동적 실시간 정보를 표시합니다.
-> 같이 보기: `htop`, `atop`, `glances`, `btop`, `btm`.
+> 관련 항목: `htop`, `atop`, `glances`, `btop`, `btm`.
 > 더 많은 정보: <https://manned.org/top>.
 
 - `top` 시작:

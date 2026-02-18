@@ -1,7 +1,7 @@
 # calligrasheets
 
 > Calligra의 스프레드 시트 애플리케이션.
-> 같이 보기: `calligraflow`, `calligrastage`, `calligrawords`.
+> 관련 항목: `calligraflow`, `calligrastage`, `calligrawords`.
 > 더 많은 정보: <https://manned.org/calligrasheets>.
 
 - 스프레드시트 애플리케이션을 실행:

@@ -1,7 +1,7 @@
 # pbmtextps
 
 > 텍스트를 PostScript를 사용하여 PBM 이미지로 렌더링.
-> 같이 보기: `pbmtext`.
+> 관련 항목: `pbmtext`.
 > 더 많은 정보: <https://netpbm.sourceforge.net/doc/pbmtextps.html>.
 
 - 한 줄의 텍스트를 PBM 이미지로 렌더링:

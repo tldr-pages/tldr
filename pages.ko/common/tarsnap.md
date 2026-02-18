@@ -2,7 +2,7 @@
 
 > 원격 Tarsnap 암호화 백업을 조작.
 > 참고: `/usr/local/etc/tarsnap.conf` 또는 `~/.tarsnaprc`에서 설정하면 키 파일과 캐시 디렉토리를 지정할 필요가 없습니다.
-> 같이 보기: `tarsnap-keygen`.
+> 관련 항목: `tarsnap-keygen`.
 > 더 많은 정보: <https://www.tarsnap.com/man-tarsnap.1.html>.
 
 - 하나 이상의 파일 또는 디렉토리에 대한 백업 아카이브 생성, 암호화 키와 캐시 디렉토리 지정:

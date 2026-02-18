@@ -1,7 +1,7 @@
 # magick compare
 
 > 두 이미지 간의 차이를 시각적으로 주석 처리하기 위한 비교 이미지를 생성.
-> 같이 보기: `magick`.
+> 관련 항목: `magick`.
 > 더 많은 정보: <https://imagemagick.org/script/compare.php>.
 
 - 두 이미지 비교:

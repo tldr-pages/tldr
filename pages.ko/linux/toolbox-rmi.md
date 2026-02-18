@@ -1,7 +1,7 @@
 # toolbox rmi
 
 > `toolbox` 이미지 제거.
-> 같이 보기: `toolbox rm`.
+> 관련 항목: `toolbox rm`.
 > 더 많은 정보: <https://manned.org/toolbox-rmi>.
 
 - 하나 이상의 Toolbx 이미지 제거:

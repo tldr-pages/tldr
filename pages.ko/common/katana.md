@@ -1,7 +1,7 @@
 # katana
 
 > 자동화 파이프라인에서의 실행에 중점을 둔 빠른 크롤러로, 헤드리스 및 비헤드리스 크롤링을 모두 제공합니다.
-> 같이 보기: `gau`, `scrapy`, `waymore`.
+> 관련 항목: `gau`, `scrapy`, `waymore`.
 > 더 많은 정보: <https://docs.projectdiscovery.io/opensource/katana/usage>.
 
 - URL 목록을 크롤링:

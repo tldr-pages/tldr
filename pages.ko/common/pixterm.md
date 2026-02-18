@@ -1,7 +1,7 @@
 # pixterm
 
 > 이미지 터미널 출력 도구.
-> 같이 보기: `chafa`, `catimg`.
+> 관련 항목: `chafa`, `catimg`.
 > 더 많은 정보: <https://github.com/eliukblau/pixterm#cool-screenshots>.
 
 - 정적 이미지를 터미널에 직접 렌더링:

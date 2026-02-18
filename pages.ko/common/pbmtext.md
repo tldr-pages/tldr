@@ -1,7 +1,7 @@
 # pbmtext
 
 > 텍스트를 PBM 이미지로 렌더링.
-> 같이 보기: `pbmtextps`.
+> 관련 항목: `pbmtextps`.
 > 더 많은 정보: <https://netpbm.sourceforge.net/doc/pbmtext.html>.
 
 - 한 줄의 텍스트를 PBM 이미지로 렌더링:

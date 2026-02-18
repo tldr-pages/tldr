@@ -1,7 +1,7 @@
 # picocom
 
 > 시리얼 콘솔을 에뮬레이트하기 위한 최소한의 프로그램.
-> 같이 보기: `minicom`, `cu`, `tio`.
+> 관련 항목: `minicom`, `cu`, `tio`.
 > 더 많은 정보: <https://manned.org/picocom>.
 
 - 지정된 전송 속도로 시리얼 콘솔에 연결:

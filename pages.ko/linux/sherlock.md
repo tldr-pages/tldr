@@ -1,7 +1,7 @@
 # sherlock
 
 > 소셜 네트워크에서 사용자명을 찾습니다.
-> 같이 보기: `maigret`.
+> 관련 항목: `maigret`.
 > 더 많은 정보: <https://github.com/sherlock-project/sherlock>.
 
 - 소셜 네트워크에서 특정 사용자명을 검색하고 결과를 [f]파일에 저장:

@@ -1,7 +1,7 @@
 # pueue enqueue
 
 > 저장된 작업을 대기열에 추가.
-> 같이 보기: `pueue stash`.
+> 관련 항목: `pueue stash`.
 > 더 많은 정보: <https://github.com/Nukesor/pueue#how-to-use-it>.
 
 - 여러 저장된 작업을 한 번에 대기열에 추가:
