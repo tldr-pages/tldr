@@ -121,6 +121,7 @@ Every tldr page MUST follow this template (max 8 examples):
 5. **Description**: Start with `- `, use imperative mood
 6. **Command**: Wrapped in backticks on separate line after description
 7. **Blank Lines**: Required between examples
+8. **Trailing Newline**: File must end with a newline character (POSIX standard)
 
 ## Style Guidelines
 
@@ -159,6 +160,29 @@ Every tldr page MUST follow this template (max 8 examples):
 - Special: `<Ctrl>`, `<Alt>`, `<Shift>` (PascalCase)
 - Combinations: `<Ctrl c>`, `<Alt F4>`
 - Sequence: `<Esc><u>`, `<Ctrl k><Ctrl s>`
+
+### More Information Link Validation
+
+All pages must include a "More information" link. When reviewing pages:
+
+- **Verify the link is reachable** using `curl -I <url>` or by visiting in a browser
+- **Check for redirects** - the link should go directly to documentation
+- **Ensure it points to official sources** (man pages, official docs, project websites)
+- **Avoid dead links** or links to 404 pages
+- **Preferred sources**:
+  - Official project documentation
+  - GNU software manuals
+  - System man pages (e.g., manned.org)
+  - Microsoft Learn for Windows/PowerShell commands
+
+Example validation:
+```bash
+# Check if URL is reachable (follows redirects)
+curl -I -L https://docs.example.com/command
+
+# Expected: HTTP 200 OK (follows 3xx redirects)
+curl -sL -o /dev/null -w "%{http_code}" https://docs.example.com/command
+```
 
 ### Help and Version Commands
 
