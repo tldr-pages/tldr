@@ -11,7 +11,7 @@
 
 `openclaw agent`
 
-- Send a message with high thinking level:
+- Send a message with configurable thinking level:
 
 `openclaw agent {{[-m|--message]}} "{{Analyze this}}" --thinking {{off|minimal|low|medium|high}}`
 
