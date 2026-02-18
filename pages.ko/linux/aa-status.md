@@ -1,7 +1,7 @@
 # aa-status
 
 > 현재 로드된 AppArmor 모듈 나열.
-> 같이 보기: `aa-complain`, `aa-disable`, `aa-enforce`.
+> 관련 항목: `aa-complain`, `aa-disable`, `aa-enforce`.
 > 더 많은 정보: <https://gitlab.com/apparmor/apparmor/-/wikis/manpage_aa-status.8>.
 
 - 상태 확인:

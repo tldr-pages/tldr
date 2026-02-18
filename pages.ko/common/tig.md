@@ -1,7 +1,7 @@
 # tig
 
 > 설정 가능한 `ncurses` 기반 Git TUI.
-> 같이 보기: `gitui`, `git-gui`.
+> 관련 항목: `gitui`, `git-gui`.
 > 더 많은 정보: <https://jonas.github.io/tig/doc/manual.html>.
 
 - 현재 커밋부터 시작하여 시간 역순으로 커밋 순서 표시:

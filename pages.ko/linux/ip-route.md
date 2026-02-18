@@ -1,7 +1,7 @@
 # ip route
 
 > IP 라우팅 테이블 관리 하위 명령.
-> 같이 보기: `routel`.
+> 관련 항목: `routel`.
 > 더 많은 정보: <https://manned.org/ip-route>.
 
 - 라우팅 테이블 표시:

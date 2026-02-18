@@ -1,7 +1,7 @@
 # pvcreate
 
 > 디스크 또는 파티션을 물리적 볼륨으로 초기화합니다.
-> 같이 보기: `lvm`.
+> 관련 항목: `lvm`.
 > 더 많은 정보: <https://manned.org/pvcreate>.
 
 - LVM에서 사용할 수 있도록 `/dev/sda1` 볼륨 초기화:

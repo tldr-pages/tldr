@@ -1,7 +1,7 @@
 # screen
 
 > 원격 서버에서 세션을 열어 유지. 단일 SSH 연결로 여러 창을 관리.
-> 같이 보기: `tmux`, `zellij`.
+> 관련 항목: `tmux`, `zellij`.
 > 더 많은 정보: <https://manned.org/screen>.
 
 - 새 screen 세션 시작:

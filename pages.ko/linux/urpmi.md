@@ -1,7 +1,7 @@
 # urpmi
 
 > Mageia에서 패키지를 설치합니다.
-> 같이 보기: `urpmi.update`, `urpme`, `urpmi.addmedia`, `urpmi.removemedia`, `urpmf`, `urpmq`.
+> 관련 항목: `urpmi.update`, `urpme`, `urpmi.addmedia`, `urpmi.removemedia`, `urpmf`, `urpmq`.
 > 더 많은 정보: <https://man.linuxreviews.org/man8/urpmi.8.html>.
 
 - 저장소 또는 로컬 RPM 파일에서 패키지 설치:

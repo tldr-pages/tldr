@@ -1,7 +1,7 @@
 # passwd
 
 > 사용자의 비밀번호 변경.
-> 같이 보기: `chpasswd`.
+> 관련 항목: `chpasswd`.
 > 더 많은 정보: <https://manned.org/passwd>.
 
 - 현재 사용자의 비밀번호를 대화식으로 변경:

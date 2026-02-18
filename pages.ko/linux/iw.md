@@ -1,7 +1,7 @@
 # iw
 
 > 무선 장치를 표시하고 조작.
-> 같이 보기: `iw dev`, `nmcli`, `iwctl`.
+> 관련 항목: `iw dev`, `nmcli`, `iwctl`.
 > 더 많은 정보: <https://wireless.docs.kernel.org/en/latest/en/users/documentation/iw.html>.
 
 - 사용 가능한 무선 네트워크 스캔:

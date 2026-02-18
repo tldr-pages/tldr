@@ -1,7 +1,7 @@
 # pueue log
 
 > 하나 이상의 작업에 대한 로그 출력을 표시합니다.
-> 같이 보기: `pueue status`.
+> 관련 항목: `pueue status`.
 > 더 많은 정보: <https://github.com/Nukesor/pueue#how-to-use-it>.
 
 - 모든 작업의 마지막 몇 줄의 출력 표시:

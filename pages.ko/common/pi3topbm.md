@@ -1,7 +1,7 @@
 # pi3topbm
 
 > Atari Degas PI3 이미지를 PBM 이미지로 변환.
-> 같이 보기: `pbmtopi3`.
+> 관련 항목: `pbmtopi3`.
 > 더 많은 정보: <https://netpbm.sourceforge.net/doc/pi3topbm.html>.
 
 - Atari Degas PI3 이미지를 PBM 이미지로 변환:
