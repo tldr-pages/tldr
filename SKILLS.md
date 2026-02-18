@@ -2,6 +2,44 @@
 
 This guide helps AI assistants understand and work with the tldr-pages repository effectively.
 
+## Quick Decision Workflow
+
+```text
+User asks about command X
+        │
+        ▼
+┌─────────────────────┐
+│ Does page exist?    │
+│ find pages* -name   │
+│ "X.md"              │
+└─────────┬───────────┘
+          │
+    ┌─────┴─────┐
+    ▼           ▼
+   YES          NO
+    │           │
+    ▼           ▼
+┌─────────┐  ┌──────────────────────┐
+│ Edit    │  │ Which platform?      │
+│ existing│  └──────────┬───────────┘
+└─────────┘             │
+              ┌─────────┼─────────┐
+              ▼         ▼         ▼
+          2+ same   1 platform  Windows
+          syntax    only        
+              │         │         │
+              ▼         ▼         ▼
+          common/   <platform>/  windows/
+          
+              │
+              ▼
+    ┌─────────────────────┐
+    │ Create page with    │
+    │ 5-8 examples        │
+    │ (help/version last) │
+    └─────────────────────┘
+```
+
 ## Project Overview
 
 **tldr-pages** is a collection of community-maintained, simplified help pages for command-line tools - a simpler complement to traditional man pages.
@@ -13,7 +51,8 @@ This guide helps AI assistants understand and work with the tldr-pages repositor
 
 ## Repository Structure
 
-```
+```text
+tldr/
 tldr/
 ├── pages/                    # English (default) pages
 │   ├── common/              # Commands on 2+ platforms
@@ -34,18 +73,23 @@ tldr/
 ## Core Concepts
 
 ### Page
+
 A single Markdown file documenting one command.
 
 ### Platform
+
 Operating system directories: `common`, `linux`, `osx`, `windows`, `android`, `freebsd`, `openbsd`, `netbsd`, `sunos`, `cisco-ios`, `dos`.
 
 ### Placeholder
+
 User-provided values in double brackets: `{{path/to/file}}`, `{{filename}}`, `{{host}}`.
 
 ### Alias Page
+
 Redirects users to another command (e.g., `vi` → `vim`).
 
 ### Subcommand Page
+
 Separate pages for subcommands like `git commit` → `git-commit.md`.
 
 ## Page Format Specification
@@ -81,6 +125,7 @@ Every tldr page MUST follow this template (max 8 examples):
 ## Style Guidelines
 
 ### Writing Style
+
 - **Imperative mood**: "List all files" NOT "Lists all files"
 - **Concise**: Focus on practical examples
 - **No formatting**: No *italics*, **bold**, or other markdown styling
@@ -89,7 +134,7 @@ Every tldr page MUST follow this template (max 8 examples):
 ### Placeholder Conventions
 
 | Pattern | Usage |
-|---------|-------|
+| ------- | ----- |
 | `{{path/to/file}}` | File paths |
 | `{{path/to/directory}}` | Directory paths |
 | `{{filename}}` | Just filename |
@@ -101,6 +146,7 @@ Every tldr page MUST follow this template (max 8 examples):
 | `{{path/to/file_or_directory}}` | Either file or directory |
 
 ### Option Syntax
+
 - Prefer long options: `--help` over `-h`
 - Use option placeholders: `{{[-o|--output]}}`
 - Group flags: `{{[-it|--interactive --tty]}}`
@@ -108,6 +154,7 @@ Every tldr page MUST follow this template (max 8 examples):
 - Short option mnemonic hints: `[c]reate`, `[v]erbose`
 
 ### Keypress Syntax
+
 - Single: `<a>`, `<Enter>`, `<Space>`
 - Special: `<Ctrl>`, `<Alt>`, `<Shift>` (PascalCase)
 - Combinations: `<Ctrl c>`, `<Alt F4>`
@@ -122,6 +169,7 @@ For consistency, we prefer generic wording `Display help` and `Display version` 
 It is suggested to document the help and version examples if the command follows unconventional flags in platforms like Windows.
 
 ### Heading Order
+
 ```markdown
 > Short description.
 > Further clarification if needed.
@@ -133,6 +181,7 @@ It is suggested to document the help and version examples if the command follows
 ## Platform-Specific Rules
 
 ### Windows
+
 - **Filename**: lowercase (e.g., `invoke-webrequest.md`)
 - **Title**: as-is (`# Invoke-WebRequest`)
 - **Command**: as-is (`Invoke-WebRequest`)
@@ -141,9 +190,11 @@ It is suggested to document the help and version examples if the command follows
 - **PowerShell compatibility**: Must work on 5.1 and latest
 
 ### Common Directory
+
 Use when command works on 2+ platforms with same syntax.
 
 ### Platform-Specific Directory
+
 Use when command works on only ONE platform.
 
 ## Alias Pages
@@ -174,12 +225,14 @@ Template for command aliases:
 3. **Write content** following format specification
 
 4. **Test locally**:
+
    ```bash
    npm install -g tldr-lint
    tldr-lint path/to/page.md
    ```
 
 5. **Commit**:
+
    ```bash
    git add pages/<platform>/<command>.md
    git commit -m "<command>: add page"
@@ -190,6 +243,7 @@ Template for command aliases:
 Commit format: `<command>: <description>`
 
 Examples:
+
 - `ls: fix typo`
 - `git-push: add --force example`
 - `tar: update description`
@@ -204,28 +258,34 @@ Examples:
 ## Language-Specific Rules
 
 ### Chinese (zh, zh_TW)
+
 - Space around English/numbers: `docker 容器` not `docker容器`
 - Space between numbers and units (except °C, %): `50 MB` not `50MB`
 - Full-width punctuation
 
 ### Indonesian (id)
+
 - No `ber-`/`me-` prefixes: "Unduh" not "Mengunduh"
 - Use recommended technical terms
 
 ### French (fr)
+
 - Third person singular present: "Extrait" not "Extraire"
 - Space before punctuation: ` informations : ` not ` informations: `
 
 ### Portuguese (pt_BR, pt_PT)
+
 - Third person singular present: "Lista" not "Listar"
 
 ### Spanish (es)
+
 - Third person singular indicative: "Crea" not "Crear"
 - Use `identificador` not `id` in placeholders
 
 ## Testing & Validation
 
 ### Linting
+
 ```bash
 # Install linter
 npm install -g tldr-lint
@@ -241,6 +301,7 @@ npm run lint-tldr-pages
 ```
 
 ### Pre-commit Hooks
+
 Tests run automatically on commit via Husky.
 Skip with: `git commit --no-verify`
 
@@ -249,7 +310,7 @@ Skip with: `git commit --no-verify`
 In `scripts/` directory:
 
 | Script | Purpose |
-|--------|---------|
+| ------ | ------- |
 | `set-alias-page.py` | Create/update alias pages |
 | `set-more-info-link.py` | Update documentation links |
 | `set-page-title.py` | Update page titles |
@@ -258,6 +319,7 @@ In `scripts/` directory:
 | `wrong-filename.py` | Find naming issues |
 
 **Common flags for all scripts**:
+
 - `-p, --page`: Target page (format: `platform/command`)
 - `-l, --language`: Target locale
 - `-s, --stage`: Stage changes with git
@@ -265,6 +327,7 @@ In `scripts/` directory:
 - `-S, --sync`: Sync translations
 
 Example:
+
 ```bash
 python scripts/set-alias-page.py -p common/vi -n  # Dry run
 python scripts/set-alias-page.py -p common/vi -s  # Apply & stage
@@ -284,18 +347,10 @@ When asked to create a page for a command:
 6. Test with tldr-lint
 7. Provide git commands to commit
 
-### Fixing Linting Errors
-
-Common issues and fixes:
-- **Missing blank line**: Add blank line between examples
-- **Title mismatch**: Ensure title matches filename
-- **Missing more info link**: Add `> More information: <url>`
-- **Wrong placeholder**: Use `{{}}` not `{}` or `()`
-- **Not imperative**: Change "Lists" to "List"
-
 ### Translating Pages
 
 When translating:
+
 1. Always start from English page
 2. Maintain same example structure
 3. Follow language-specific grammar rules
@@ -308,6 +363,7 @@ When translating:
 #### Manual Review Checklist
 
 Check for:
+
 - [ ] Correct format (title, description, examples)
 - [ ] Imperative mood in descriptions
 - [ ] Proper placeholder syntax
@@ -321,8 +377,9 @@ Check for:
 
 PR reviewers can use AI assistants with this guide to automate validation:
 
-**1. Automated Format Checking**
-```
+**1. Automated Format Checking** — review format compliance:
+
+```text
 Review this PR for format compliance:
 - Verify page follows template structure
 - Check for proper heading order
@@ -331,8 +388,9 @@ Review this PR for format compliance:
 - Confirm "More information" link is present
 ```
 
-**2. Style Validation**
-```
+**2. Style Validation** — check for style issues:
+
+```text
 Check these pages for style issues:
 - Verify imperative mood in descriptions ("List" not "Lists")
 - Check for bold/italics/styling violations
@@ -340,16 +398,18 @@ Check these pages for style issues:
 - Ensure no general UNIX concepts explained
 ```
 
-**3. Platform Directory Verification**
-```
+**3. Platform Directory Verification** — verify correct directory:
+
+```text
 Verify platform directory is correct:
 - Check if command works on multiple platforms → common/
 - Verify single-platform commands are in correct directory
 - Check for existing pages in other platforms
 ```
 
-**4. Translation Review**
-```
+**4. Translation Review** — review translation PRs:
+
+```text
 Review this translation PR:
 - Verify based on current English page (not outdated version)
 - Check language-specific grammar rules
@@ -357,17 +417,7 @@ Review this translation PR:
 - Verify example count matches English page
 ```
 
-**Common Issues to Flag:**
-- Placeholder syntax errors: `{{path}}` not `{path}` or `(path)`
-- Non-imperative descriptions: "Lists files" → "List files"
-- Missing blank lines between examples
-- Page title doesn't match filename
-- More than 8 examples
-- No "More information" link
-- Using bold/italics in descriptions
-- Wrong platform directory
-- Placeholders inside placeholders: `{{path/to/{{file}}}}`
-- Missing help/version examples (usually last 2)
+See [Common Mistakes](#common-mistakes) for detailed examples of issues to flag.
 
 ## Useful Resources
 
@@ -381,6 +431,7 @@ Review this translation PR:
 ## Quick Reference Templates
 
 ### Basic Page Template
+
 ```markdown
 # command
 
@@ -405,6 +456,7 @@ Review this translation PR:
 ```
 
 ### Alias Page Template
+
 ```markdown
 # alias
 
@@ -417,6 +469,7 @@ Review this translation PR:
 ```
 
 ### Subcommand Reference Template
+
 ```markdown
 # command
 
@@ -434,6 +487,7 @@ Review this translation PR:
 ```
 
 ### Disambiguation Template
+
 ```markdown
 # command
 
@@ -487,3 +541,115 @@ With placeholders: `pages/common/tar.md`
 With subcommands: `pages/common/git.md`
 With aliases: `pages/common/vi.md`
 Windows-specific: `pages/windows/Invoke-WebRequest.md`
+
+## Common Mistakes
+
+### Format Errors
+
+**Missing blank line between examples:**
+
+```markdown
+- List files:
+`ls -la`
+- List all files:
+`ls -la --all`
+```
+
+**Correct:**
+
+```markdown
+- List files:
+
+`ls -la`
+
+- List all files:
+
+`ls -la --all`
+```
+
+### Style Errors
+
+**Non-imperative mood:**
+
+```markdown
+- Lists all files in the directory:
+
+`ls -la`
+```
+
+**Correct:**
+
+```markdown
+- List all files in the directory:
+
+`ls -la`
+```
+
+**Using bold/italics:**
+
+```markdown
+- **Delete** a file permanently:
+
+`rm -rf {{file}}`
+```
+
+**Correct:**
+
+```markdown
+- Delete a file permanently:
+
+`rm -rf {{file}}`
+```
+
+### Placeholder Errors
+
+**Wrong placeholder syntax:**
+
+```markdown
+`cp {source} {destination}`
+`cp (source) (destination)`
+`cp [source] [destination]`
+```
+
+**Correct:**
+
+```markdown
+`cp {{path/to/source}} {{path/to/destination}}`
+```
+
+**Nested placeholders:**
+
+```markdown
+`mkdir {{path/to/{{directory}}}}`
+```
+
+**Correct:**
+
+```markdown
+`mkdir {{path/to/directory}}`
+```
+
+**Missing "More information" link:**
+
+```markdown
+# command
+
+> Brief description.
+
+- Example:
+
+`command --help`
+```
+
+**Correct:**
+
+```markdown
+# command
+
+> Brief description.
+> More information: <https://example.com>.
+
+- Example:
+
+`command --help`
+```
