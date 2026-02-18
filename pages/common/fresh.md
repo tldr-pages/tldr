@@ -5,7 +5,7 @@
 
 - Open a file:
 
-`fresh path/to/file`
+`fresh {{path/to/file}}`
 
 - Search for a pattern:
 
