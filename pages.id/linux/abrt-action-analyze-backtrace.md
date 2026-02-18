@@ -5,14 +5,14 @@
 > Simpan data sebagai elemen baru `duphash`, `rating`, `crash_function` di dalam direktori masalah.
 > Informasi lebih lanjut: <https://manned.org/abrt-action-analyze-backtrace>.
 
-- Meng-analisis backtrace untuk direktori kerja (working directory) saat ini:
+- Lakukan analisis backtrace untuk direktori kerja (working directory) saat ini:
 
 `abrt-action-analyze-backtrace`
 
-- Meng-analisis backtrace untuk direktori tertentu:
+- Lakukan analisis backtrace untuk direktori tertentu:
 
 `abrt-action-analyze-backtrace -d {{path/ke/direktori}}`
 
-- Meng-analisis backtrace secara verbose:
+- Lakukan analisis backtrace secara verbose:
 
 `abrt-action-analyze-backtrace -v`
