@@ -53,7 +53,6 @@ User asks about command X
 
 ```text
 tldr/
-tldr/
 ├── pages/                    # English (default) pages
 │   ├── common/              # Commands on 2+ platforms
 │   ├── linux/               # Linux-only
