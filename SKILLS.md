@@ -113,6 +113,14 @@ Every tldr page MUST follow this template (max 8 examples):
 - Combinations: `<Ctrl c>`, `<Alt F4>`
 - Sequence: `<Esc><u>`, `<Ctrl k><Ctrl s>`
 
+### Help and Version Commands
+
+We generally put the help and version commands as the **last two** examples of the page (in this order) to highlight more practical commands at the beginning. They can be replaced to accommodate other useful examples if required.
+
+For consistency, we prefer generic wording `Display help` and `Display version` for these commands.
+
+It is suggested to document the help and version examples if the command follows unconventional flags in platforms like Windows.
+
 ### Heading Order
 ```markdown
 > Short description.
