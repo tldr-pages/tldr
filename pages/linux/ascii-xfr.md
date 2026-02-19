@@ -6,8 +6,8 @@
 
 - Send a file:
 
-`ascii-xfr -s {{file}}`
+`ascii-xfr -s {{path/to/file}}`
 
 - Receive a file:
 
-`ascii-xfr -r {{file}}`
+`ascii-xfr -r {{path/to/file}}`
