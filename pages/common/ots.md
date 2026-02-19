@@ -1,4 +1,4 @@
-# ots new
+# ots
 
 > Share end-to-end encrypted secrets using a one-time-viewable URL.
 > More information: <https://github.com/sniptt-official/ots>.
