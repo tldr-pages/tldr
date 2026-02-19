@@ -8,7 +8,7 @@
 
 `vagrant init`
 
-- Crea un «Vagrantfile» con una caja del Registro Público de Vagrant:
+- Crea un `Vagrantfile` con una caja del Registro Público de Vagrant:
 
 `vagrant init {{ubuntu/focal64}}`
 
