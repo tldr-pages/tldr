@@ -32,6 +32,6 @@
 
 `diff {{[-a|--text]}} {{[-u|--unified]}} {{[-N|--new-file]}} {{path/to/old_file}} {{path/to/new_file}} > {{path/to/diff.patch}}`
 
-- Compare files, showing output in color and trying hard to find the smallest set of changes:
+- Compare files, showing output in color, trying hard to find the smallest set of changes:
 
 `diff {{[-d|--minimal]}} --color=always {{path/to/old_file}} {{path/to/new_file}}`
