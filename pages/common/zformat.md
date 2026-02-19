@@ -1,33 +1,38 @@
 # zformat
 
 > Format strings in Zsh.
+> This builtin is part of the `zsh/zutil` module.
 > See also: `zstyle`.
-> More information: <https://zsh.sourceforge.io/Doc/Release/Shell-Builtin-Commands.html>.
+> More information: <https://zsh.sourceforge.io/Doc/Release/Zsh-Modules.html>.
 
-- Format a string into a variable:
+- Load the zformat module:
 
-`zformat -f {{var}} "{{string with %s placeholders}}" {{arg1}} {{arg2}}`
+`zmodload zsh/zutil`
 
-- Format with left-justification:
+- Format a string, replacing `%c` with a value (in this case `c:hello` replaces `%c` with `hello`):
 
-`zformat -f {{var}} "{{%10s}}" {{text}}`
+`zformat -f {{var}} "{{%c}}" {{c:hello}}`
 
-- Format with right-justification:
+- Format with left-padding to a minimum width:
 
-`zformat -f {{var}} "{{% -10s}}" {{text}}`
+`zformat -f {{var}} "{{%10c}}" {{c:hello}}`
 
-- Format with zero-padding:
+- Format with right-padding (negative width):
 
-`zformat -f {{var}} "{{%05d}}" {{number}}`
+`zformat -f {{var}} "{{%-10c}}" {{c:hello}}`
 
-- Format multiple arguments:
+- Format with truncation to maximum width:
 
-`zformat -f {{var}} "{{name: %s, age: %d}}" {{John}} {{30}}`
+`zformat -f {{var}} "{{%c}}" {{c:hello}}`
 
-- Use colon prefix for compact formatting:
+- Use ternary expression for conditional text (if value is 3, outputs "yes", otherwise "no"):
 
-`zformat -f {{var}} : "{{%s:%s}}" {{prefix}} {{value}}`
+`zformat -f {{var}} "The answer is '%3(c.yes.no)'." {{c:3}}`
 
-- Format with specified width:
+- Format with left-width and right-width (left:padding:width):
 
-`zformat -f {{var}} "{{%20.20s}}" {{text}}`
+`zformat -f {{var}} "name: %-15s value: %10s" {{name:value1}} {{value:value2}}`
+
+- Align strings using the `-a` option (left:right pairs separated by colon):
+
+`zformat -a {{array}} {{:}} {{left1:right1}} {{left2:right2}}`
