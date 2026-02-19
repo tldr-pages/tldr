@@ -11,7 +11,7 @@
 
 `koboldcpp --port {{port}}`
 
-- Set amound of threads to use:
+- Set amount of threads to use:
 
 `koboldcpp --threads {{amount_of_threads}}`
 
