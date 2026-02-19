@@ -7,7 +7,7 @@
 
 `openclaw channels list`
 
-- Login to a channel (WhatsApp):
+- Login to a channel:
 
 `openclaw channels login --channel {{whatsapp}}`
 
