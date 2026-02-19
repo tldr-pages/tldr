@@ -9,7 +9,7 @@
 
 - List all running processes on a USB-connected device:
 
-`frida-ps {{[-U|--usb]}}
+`frida-ps {{[-U|--usb]}}`
 
 - List all running applications on a USB-connected device:
 
