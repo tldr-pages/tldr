@@ -1,7 +1,7 @@
 # openclaw
 
 > A personal AI assistant that you run on your own devices.
-> Some subcommands such as `onboard`, `agent`, `doctor`, etc have their own usage documentation.
+> Some subcommands such as `onboard`, `agent`, `doctor`, etc. have their own usage documentation.
 > More information: <https://docs.openclaw.ai/cli>.
 
 - Run the onboarding wizard to set up the gateway and channels:
