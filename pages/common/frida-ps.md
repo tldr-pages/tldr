@@ -1,6 +1,6 @@
 # frida-ps
 
-> Command-line tool for listing processes on a local or remote device.
+> List processes on a local or remote device.
 > More information: <https://frida.re/docs/frida-ps/>.
 
 - List all running processes on the local machine:
