@@ -13,4 +13,4 @@
 
 - Show menu:
 
-`<Ctrl><K>`
+`<Ctrl><k>`
