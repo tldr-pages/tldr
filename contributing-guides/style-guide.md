@@ -155,7 +155,7 @@ For example `adb disconnect` has a single way using it, but `adb` is expansive e
 ```md
 # adb disconnect
 
-> This command has been moved to `adb connect`.
+> The examples for this command have been moved together with `adb connect`.
 
 - View documentation for `adb disconnect`:
 
