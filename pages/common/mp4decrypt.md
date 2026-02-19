@@ -1,6 +1,7 @@
 # mp4decrypt
 
-> Decrypt an MP4 file. Part of the Bento4 tools.
+> Decrypt an MP4 file.
+> Part of the Bento4 tools.
 > More information: <https://www.bento4.com/documentation/mp4decrypt/>.
 
 - Decrypt a file using a specific key (key ID in hex, key in hex):
