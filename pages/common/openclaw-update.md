@@ -7,13 +7,13 @@
 
 `openclaw update`
 
-- Switch to a specific release channel (stable/beta/dev):
+- Switch to a specific release channel:
 
 `openclaw update --channel {{stable|beta|dev}}`
 
 - Display version:
 
-`openclaw update --version`
+`openclaw update {{[-v|--version]}}`
 
 - Display help:
 
