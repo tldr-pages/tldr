@@ -1,7 +1,7 @@
 # less
 
 > ファイルを開いて、スクロールや検索などのインタラクティブな読み方ができます。
-> もっと詳しく: <https://greenwoodsoftware.com/less/>。
+> 詳細情報: <https://manned.org/less>。
 
 - ファイルを開く:
 

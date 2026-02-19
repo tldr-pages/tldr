@@ -1,7 +1,7 @@
 # tldr
 
 > コマンドの簡単なマニュアル。
-> もっと詳しく: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>。
+> 詳細情報: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>。
 
 - コマンドのよくある使用例を見られます (ヒント: このページにたどり着いた方法です！):
 

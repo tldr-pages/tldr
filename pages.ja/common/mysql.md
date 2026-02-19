@@ -1,7 +1,7 @@
 # mysql
 
 > MySQL のコマンドラインツールです。
-> もっと詳しく: <https://manned.org/mysql>。
+> 詳細情報: <https://manned.org/mysql>。
 
 - データベースへの接続:
 

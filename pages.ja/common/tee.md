@@ -1,7 +1,7 @@
 # tee
 
 > `stdin` から読み込んで `stdout` とファイル(またはコマンド)に書き込みます。
-> もっと詳しく: <https://www.gnu.org/software/coreutils/manual/html_node/tee-invocation.html>。
+> 詳細情報: <https://www.gnu.org/software/coreutils/manual/html_node/tee-invocation.html>。
 
 - 各ファイルに `stdin` をコピーし、`stdout` にもコピーする:
 
