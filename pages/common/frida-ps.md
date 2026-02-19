@@ -9,16 +9,16 @@
 
 - List all running processes on a USB-connected device:
 
-`frida-ps --usb`
+`frida-ps {{[-U|--usb]}}
 
 - List all running applications on a USB-connected device:
 
-`frida-ps --usb --applications`
+`frida-ps {{[-U|--usb]}} {{[-a|--applications]}}`
 
 - List all installed applications on a USB-connected device:
 
-`frida-ps --usb --installed`
+`frida-ps {{[-U|--usb]}} {{[-i|--installed]}}`
 
 - List processes on a specific device:
 
-`frida-ps --device {{device_id}}`
+`frida-ps {{[-D|--device]}} {{device_id}}`

@@ -9,16 +9,16 @@
 
 - Start the interactive shell attached to a process over USB:
 
-`frida --usb {{process_name}}`
+`frida {{[-U|--usb]}} {{process_name}}`
 
 - Attach to a running process by its PID:
 
-`frida --attach-pid {{pid}}`
+`frida {{[-p|--attach-pid]}} {{pid}}`
 
 - Load a JavaScript script into a process:
 
-`frida --load {{path/to/script.js}} {{process_name}}`
+`frida {{[-l|--load]}} {{path/to/script.js}} {{process_name}}`
 
 - Load a script from Frida Codeshare <https://codeshare.frida.re/>:
 
-`frida --codeshare {{script_name}} {{process_name}}`
+`frida {{[-c|--codeshare]}} {{script_name}} {{process_name}}`
