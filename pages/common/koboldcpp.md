@@ -15,7 +15,7 @@
 
 `koboldcpp --threads {{amount_of_threads}}`
 
-- Lauch web browser when boot is complete:
+- Launch web browser when boot is complete:
 
 `koboldcpp --launch`
 
