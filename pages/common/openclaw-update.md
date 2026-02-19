@@ -11,7 +11,7 @@
 
 `openclaw update --channel {{stable|beta|dev}}`
 
-- View current version:
+- Display version:
 
 `openclaw update --version`
 
