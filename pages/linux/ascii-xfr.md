@@ -2,7 +2,7 @@
 
 > Transfer files using the ASCII protocol.
 > Part of `minicom`.
-> More information: <https://manned.org/man/ascii-xfr>.
+> More information: <https://manned.org/ascii-xfr>.
 
 - Send a file:
 
