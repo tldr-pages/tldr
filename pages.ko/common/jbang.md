@@ -1,7 +1,7 @@
 # jbang
 
 > 독립 실행형 소스 전용 Java 프로그램을 쉽게 생성, 편집 및 실행.
-> 같이 보기: `java`.
+> 관련 항목: `java`.
 > 더 많은 정보: <https://www.jbang.dev/documentation/jbang/latest/cli/jbang.html>.
 
 - 간단한 Java 클래스 초기화:

@@ -176,7 +176,7 @@ This file contains the translation templates of this notice.
 ### ja
 
 ```markdown
-> `example` のようないくつかのサブコマンドには、使用方法についての独自のドキュメントがあります。
+> `example` などの一部のサブコマンドには、独自のドキュメントがあります。
 ```
 
 ---
@@ -184,7 +184,7 @@ This file contains the translation templates of this notice.
 ### ko
 
 ```markdown
-> `example`와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
+> `example`과 같은 일부 하위 명령어는 별도의 도움말을 참고하세요.
 ```
 
 ---
@@ -288,7 +288,7 @@ This file contains the translation templates of this notice.
 ### ta
 
 ```markdown
-> `example` போன்ற சிலச் சார்கட்டளைகளுக்குத் தனிப் பக்கம் உள்ளது.
+> `example` போன்ற சிலச் சார்கட்டளைகளுக்குத் தனித்தனி பயன்பாட்டு ஆவணங்கள் உள்ளன.
 ```
 
 ---

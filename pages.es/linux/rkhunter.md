@@ -15,10 +15,10 @@
 
 `sudo rkhunter --list`
 
-- Muestra la versión:
-
-`sudo rkhunter --versioncheck`
-
 - Muestra la ayuda:
 
 `sudo rkhunter --help`
+
+- Muestra la versión:
+
+`sudo rkhunter --versioncheck`

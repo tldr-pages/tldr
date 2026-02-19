@@ -1,7 +1,7 @@
 # xbps-remove
 
 > 패키지를 제거하는 XBPS 유틸리티.
-> 같이 보기: `xbps`.
+> 관련 항목: `xbps`.
 > 더 많은 정보: <https://manned.org/xbps-remove>.
 
 - 패키지 제거:

@@ -1,7 +1,7 @@
 # toolbox run
 
 > 기존 Toolbx 컨테이너에서 명령을 실행합니다.
-> 같이 보기: `toolbox enter`.
+> 관련 항목: `toolbox enter`.
 > 더 많은 정보: <https://manned.org/toolbox-run>.
 
 - 특정 Toolbx 컨테이너 내에서 명령 실행:

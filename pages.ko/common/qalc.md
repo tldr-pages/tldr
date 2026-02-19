@@ -1,7 +1,7 @@
 # qalc
 
 > 강력하고 사용하기 쉬운 명령줄 계산기.
-> 같이 보기: `bc`.
+> 관련 항목: `bc`.
 > 더 많은 정보: <https://qalculate.github.io/manual/qalc.html>.
 
 - [i]nteractive 모드로 시작:

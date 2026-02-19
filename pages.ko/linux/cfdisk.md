@@ -1,7 +1,7 @@
 # cfdisk
 
 > curses UI를 사용하여 하드 디스크의 파티션 테이블 및 파티션을 관리.
-> 같이 보기: `parted`.
+> 관련 항목: `parted`.
 > 더 많은 정보: <https://manned.org/cfdisk>.
 
 - 특정 장치로 파티션 조작기 시작:

@@ -22,8 +22,8 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | hi    | मदद प्रदर्शित करें | संस्करण दिखाएं        |                  |
 | id    | Tampilkan bantuan  | Tampilkan versi | [Interaktif]     |
 | it    | Mostra l'aiuto     | Controlla la versione | [Interattivo]    |
-| ja    | ヘルプを表示する           | バージョンを表示              |                  |
-| ko    | 도움말 표시             | 버전 표시                 |                  |
+| ja    | ヘルプを表示する     | バージョンを表示         | [対話的]          |
+| ko    | 도움말 표시             | 버전 표시                 | [대화형]            |
 | lo    |                    |                       |                  |
 | ml    |                    |                       |                  |
 | ne    |                    |                       |                  |
@@ -40,7 +40,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | th    | แสดงวิธีใช้งาน     | แสดงเวอร์ชัน          | [อินเทอร์แอคทีฟ] |
 | tr    | Yardımı görüntüle  | Sürümü görüntüle      | [Etkileşimli]    |
 | uk    |                    |                       |                  |
-| uz    |                    |                       |                  |
+| uz    | Yordamni ko'rsatish    | Versiyani ko'rsatish      | [Interaktiv]        |
 | zh    | 显示帮助               | 显示版本                  | [交互式]            |
 | zh_TW | 顯示說明               | 顯示版本                  | [互動式]            |
 

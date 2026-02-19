@@ -1,7 +1,7 @@
 # doas
 
 > 다른 사용자로 명령을 실행.
-> 같이 보기: `sudo`, `pkexec`, `run0`.
+> 관련 항목: `sudo`, `pkexec`, `run0`.
 > 더 많은 정보: <https://man.openbsd.org/doas>.
 
 - 루트 권한으로 명령을 실행:

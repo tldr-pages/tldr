@@ -1,7 +1,7 @@
 # pw-dot
 
 > PipeWire 그래프의 `.dot` 파일 생성.
-> 같이 보기: `dot`.
+> 관련 항목: `dot`.
 > 더 많은 정보: <https://docs.pipewire.org/page_man_pw-dot_1.html>.
 
 - `pw.dot` 파일로 그래프 생성:

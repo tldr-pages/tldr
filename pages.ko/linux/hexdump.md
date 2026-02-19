@@ -1,7 +1,7 @@
 # hexdump
 
 > ASCII, 10진수, 16진수, 8진수 덤프.
-> 같이 보기: `hexyl`, `od`, `xxd`.
+> 관련 항목: `hexyl`, `od`, `xxd`.
 > 더 많은 정보: <https://manned.org/hexdump>.
 
 - 파일의 16진수 표현을 출력하고, 중복된 줄을 '\*'로 변경:
