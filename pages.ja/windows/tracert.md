@@ -1,7 +1,7 @@
 # tracert
 
 > PCとターゲット間の経路の各ステップに関する情報を受信します。
-> もっと詳しく: <https://learn.microsoft.com/windows-server/administration/windows-commands/tracert>。
+> 詳細情報: <https://learn.microsoft.com/windows-server/administration/windows-commands/tracert>。
 
 - ルートを追跡する:
 

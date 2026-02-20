@@ -1,7 +1,7 @@
 # lsb_release
 
 > LSB (Linux Standard Base)とディストリビューション固有の情報を取得します。
-> もっと詳しく: <https://manned.org/lsb_release>。
+> 詳細情報: <https://manned.org/lsb_release>。
 
 - 利用可能なすべての情報を表示する:
 

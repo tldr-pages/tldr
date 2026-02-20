@@ -1,7 +1,7 @@
 # docker container start
 
 > 1つまたは複数の停止中コンテナを起動します。
-> もっと詳しく: <https://docs.docker.com/reference/cli/docker/container/start/>。
+> 詳細情報: <https://docs.docker.com/reference/cli/docker/container/start/>。
 
 - Dockerコンテナを起動する:
 
