@@ -11,4 +11,4 @@
 
 - 자세한 정보를 포함하여 모든 Distrobox 컨테이너 나열:
 
-`distrobox-list --verbose`
+`distrobox-list {{[-v|--verbose]}}`

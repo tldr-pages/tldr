@@ -10,4 +10,4 @@
 
 - Distrobox 컨테이너 강제 제거:
 
-`distrobox-rm {{컨테이너_이름}} --force`
+`distrobox-rm {{컨테이너_이름}} {{[-f|--force]}}`

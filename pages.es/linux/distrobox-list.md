@@ -11,4 +11,4 @@
 
 - Lista todos los contenedores Distrobox con información detallada:
 
-`distrobox-list --verbose`
+`distrobox-list {{[-v|--verbose]}}`
