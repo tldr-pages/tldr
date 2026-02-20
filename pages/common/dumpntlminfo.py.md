@@ -2,7 +2,7 @@
 
 > Perform NTLM authentication against a remote host without credentials and dump information leaked in the NTLMSSP message.
 > Part of the Impacket suite.
-> More information: <https://github.com/fortra/impacket>
+> More information: <https://github.com/fortra/impacket>.
 
 - Dump NTLM info from target (SMB, default port 445):
 
