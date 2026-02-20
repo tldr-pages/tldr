@@ -6,4 +6,4 @@
 
 - Ekstrak arsip xip ke dalam direktori saat ini:
 
-`xip --expand {{jalan/menuju/file.xip}}`
+`xip --expand {{jalan/menuju/berkas.xip}}`

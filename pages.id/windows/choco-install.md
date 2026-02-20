@@ -1,36 +1,36 @@
 # choco install
 
-> Instal satu paket atau lebih dengan Chocolatey.
+> Pasang suatu atau beberapa paket dengan Chocolatey.
 > Informasi lebih lanjut: <https://docs.chocolatey.org/en-us/choco/commands/install/>.
 
-- Instal satu paket atau lebih paket yang dipisahkan oleh spasi:
+- Pasang suatu atau beberapa paket yang dipisahkan oleh spasi:
 
-`choco install {{paket}}`
+`choco install {{nama_paket1 nama_paket2 ...}}`
 
-- Instal paket dari file konfigurasi khusus:
+- Pasang kumpulan paket dari suatu berkas konfigurasi:
 
-`choco install {{jalan/menuju/paket.config}}`
+`choco install {{jalan\menuju\berkas_daftar_paket.config}}`
 
-- Instal file `.nuspec` atau `.nupkg` tertentu:
+- Pasang suatu paket dari berkas `.nuspec` atau `.nupkg` secara spesifik:
 
-`choco install {{jalan/menuju/file}}`
+`choco install {{jalan\menuju\berkas}}`
 
-- Instal versi paket tertentu:
+- Pasang suatu paket dengan versi spesifik:
 
-`choco install {{paket}} --version {{versi}}`
+`choco install {{nama_paket}} --version {{versi}}`
 
-- Izinkan menginstal beberapa versi paket:
+- Izinkan untuk memasang beberapa versi dari paket yang sama:
 
-`choco install {{paket}} --allow-multiple`
+`choco install {{nama_paket}} --allow-multiple`
 
-- Konfirmasikan semua prompt secara otomatis:
+- Lakukan konfirmasi perizinan secara otomatis:
 
-`choco install {{paket}} --yes`
+`choco install {{nama_paket}} --yes`
 
-- Tentukan sumber khusus untuk menerima paket:
+- Tentukan suatu sumber untuk mendapatkan kumpulan paket:
 
-`choco install {{paket}} --source {{url_sumber|alias}}`
+`choco install {{nama_paket}} --source {{url_sumber|alias}}`
 
-- Berikan nama pengguna dan kata sandi untuk otentikasi:
+- Sediakan nama pengguna (username) dan kata sandi untuk autentikasi:
 
-`choco install {{paket}} --user {{nama_pengguna}} --password {{kata_sandi}}`
+`choco install {{nama_paket}} --user {{username}} --password {{kata_sandi}}`

@@ -5,11 +5,11 @@
 
 - Baca file JSON dan jalankan ekpresi JSONPath untuk mencari data di dalamnya:
 
-`ajson '{{$..json[?(@.path)]}}' {{jalan/menuju/file.json}}`
+`ajson '{{$..json[?(@.path)]}}' {{jalan/menuju/berkas.json}}`
 
 - Baca JSON dari `stdin` dan jalankan ekpresi JSONPath untuk mencari data di dalamnya:
 
-`cat {{jalan/menuju/file.json}} | ajson '{{$..json[?(@.path)]}}'`
+`cat {{jalan/menuju/berkas.json}} | ajson '{{$..json[?(@.path)]}}'`
 
 - Baca JSON dari sebuah URL dan jalankan ekpresi JSONPath untuk mencari data di dalamnya:
 
