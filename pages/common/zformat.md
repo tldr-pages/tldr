@@ -29,10 +29,6 @@
 
 `zformat -f {{var}} "The answer is '%3(c.yes.no)'." {{c:3}}`
 
-- Format with minimum and maximum width specifications:
-
-`zformat -f {{var}} "name: %15n value: %10v" {{n:value1}} {{v:value2}}`
-
 - Format with left-padding (right-align) using negative minimum width:
 
 `zformat -f {{var}} "name: %-15n value: %-10v" {{n:value1}} {{v:value2}}`
