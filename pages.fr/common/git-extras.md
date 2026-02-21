@@ -3,14 +3,14 @@
 > Pack d'extensions Git.
 > Plus d'informations : <https://manned.org/git-extras>.
 
-- Installer ou mettre à jour les commandes `git-extras` :
+- Installe ou met à jour les commandes `git-extras` :
 
 `git extras update`
 
-- Afficher l'aide :
+- Affiche l'aide :
 
 `git extras {{[-h|--help]}}`
 
-- Afficher la version :
+- Affiche la version :
 
 `git extras {{[-v|--version]}}`
