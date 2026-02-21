@@ -22,13 +22,13 @@
 
 - Descarga archivos de un repositorio e imprime la ruta (omite los nombres de archivo para descargar todo el repositorio):
 
-`hf download --repo-type {{repo_type}} {{repo_id}} {{nombre_archivo1 nombre_archivo2 ...}}`
+`hf download --repo-type {{tipo_repo}} {{id_repo}} {{nombre_archivo1 nombre_archivo2 ...}}`
 
 - Sube una carpeta entera o un archivo a Hugging Face:
 
-`hf upload --repo-type {{repo_type}} {{repo_id}} {{ruta/al/archivo_de_repositorio_o_directorio_de_repositorio}} {{ruta/al/archivo_de repositorio_o_directorio}}`
+`hf upload --repo-type {{tipo_repo}} {{id_repo}} {{ruta/al/archivo_de_repositorio_o_directorio_de_repositorio}} {{ruta/al/archivo_de repositorio_o_directorio}}`
 
-- Escanea la caché para ver los repositorios descargados y su uso de disco:
+- Escanea la caché para ver los repositorios descargados y su uso del disco:
 
 `hf scan-cache`
 
