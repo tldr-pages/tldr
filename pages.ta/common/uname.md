@@ -1,7 +1,7 @@
 # uname
 
 > தற்போதைய இயந்திரம் மற்றும் அதில் இயங்கும் இயக்க முறைமை பற்றிய விவரங்களை அச்சிடவும்.
-> இதையும் பார்க்கவும்: `lsb_release`.
+> மேலும் காண்க: `lsb_release`.
 > மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/manual/html_node/uname-invocation.html>.
 
 - கர்னல் பெயரை அச்சிடவும்:
