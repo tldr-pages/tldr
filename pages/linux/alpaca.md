@@ -6,7 +6,7 @@
 
 - Launch Alpaca and start a new chat:
 
-`alpaca --new-chat {{title_of_new_chat}}`
+`alpaca --new-chat {{chat_title}}`
 
 - Open Quick Ask with a message:
 
