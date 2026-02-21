@@ -13,7 +13,7 @@
 
 `zformat -f {{var}} "{{%c}}" {{c:hello}}`
 
-- Format with left-padding to a minimum width:
+- Format with right-padding (left-align) to a minimum width:
 
 `zformat -f {{var}} "{{%10c}}" {{c:hello}}`
 
