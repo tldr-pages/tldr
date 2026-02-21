@@ -17,7 +17,7 @@
 
 `zformat -f {{var}} "{{%10c}}" {{c:hello}}`
 
-- Format with right-padding (negative width):
+- Format with left-padding (right-align) using negative width:
 
 `zformat -f {{var}} "{{%-10c}}" {{c:hello}}`
 
