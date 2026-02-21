@@ -2,7 +2,7 @@
 
 > Request a Kerberos Service Ticket (TGS).
 > Part of the Impacket suite.
-> More information: <https://github.com/fortra/impacket>
+> More information: <https://github.com/fortra/impacket>.
 
 - Request a service ticket for a specific SPN:
 
