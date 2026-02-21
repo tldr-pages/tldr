@@ -9,9 +9,9 @@
 
 `zmodload zsh/zutil`
 
-- Format a string, replacing `%c` with a value (in this case `c:hello` replaces `%c` with `hello`):
+- Format a string by replacing `%c` with a value and store the result in a variable:
 
-`zformat -f {{var}} "{{%c}}" {{c:hello}}`
+`zformat -f {{variable}} "{{Hello %c}}" {{c:world}}`
 
 - Format with right-padding (left-align) to a minimum width:
 
