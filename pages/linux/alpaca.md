@@ -1,6 +1,7 @@
 # alpaca
 
 > A graphical frontend to chat with Ollama models.
+> See also: `ollama`.
 > More information: <https://jeffser.com/alpaca/launch-options.html>.
 
 - Launch Alpaca and start a new chat:
