@@ -1,6 +1,5 @@
 # animdl
 
-> Een zeer efficiënte, krachtige en snelle anime-scraper.
 > Zoek, stream en download anime.
 > Zie ook: `ani-cli`.
 > Meer informatie: <https://github.com/justfoolingaround/animdl#usage>.
