@@ -13,7 +13,7 @@
 
 - Destroy a specific resource:
 
-`terraform destroy -target {{resource_type.resource_name[instance index]}}`
+`terraform destroy -target {{resource_type.resource_name[instance_index]}}`
 
 - Specify values for input variables:
 
