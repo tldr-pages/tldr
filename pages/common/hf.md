@@ -6,15 +6,15 @@
 
 - Login to Hugging Face Hub:
 
-`hf login`
+`hf auth login`
 
 - Display the name of the logged in user:
 
-`hf whoami`
+`hf auth whoami`
 
 - Log out:
 
-`hf logout`
+`hf auth logout`
 
 - Print information about the environment:
 
@@ -30,8 +30,4 @@
 
 - Scan cache to see downloaded repositories and their disk usage:
 
-`hf scan-cache`
-
-- Delete the cache interactively:
-
-`hf delete-cache`
+`hf cache ls`

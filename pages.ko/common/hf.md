@@ -6,15 +6,15 @@
 
 - Hugging Face Hub에 로그인:
 
-`hf login`
+`hf auth login`
 
 - 로그인한 사용자의 이름을 표시:
 
-`hf whoami`
+`hf auth whoami`
 
 - 로그아웃:
 
-`hf logout`
+`hf auth logout`
 
 - 환경에 관한 정보를 출력:
 
@@ -30,8 +30,4 @@
 
 - 캐시를 스캔하여 다운로드한 저장소와 디스크 사용량을 확인:
 
-`hf scan-cache`
-
-- 대화형으로 캐시를 삭제:
-
-`hf delete-cache`
+`hf cache ls`

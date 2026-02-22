@@ -6,15 +6,15 @@
 
 - Inicia sesión en Hugging Face Hub:
 
-`hf login`
+`hf auth login`
 
 - Muestra el nombre del usuario conectado:
 
-`hf whoami`
+`hf auth whoami`
 
 - Cierra sesión:
 
-`hf logout`
+`hf auth logout`
 
 - Genera información sobre el entorno:
 
@@ -30,8 +30,4 @@
 
 - Escanea la caché para ver los repositorios descargados y su uso del disco:
 
-`hf scan-cache`
-
-- Elimina la caché de forma interactiva:
-
-`hf delete-cache`
+`hf cache ls`
