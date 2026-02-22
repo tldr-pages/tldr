@@ -1,0 +1,13 @@
+# ascii-xfr
+
+> Transfer files using the ASCII protocol.
+> Part of `minicom`.
+> More information: <https://manned.org/ascii-xfr>.
+
+- Send a file:
+
+`ascii-xfr -s {{path/to/file}}`
+
+- Receive a file:
+
+`ascii-xfr -r {{path/to/file}}`
