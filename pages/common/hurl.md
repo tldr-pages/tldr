@@ -1,7 +1,7 @@
 # hurl
 
 > Run and test HTTP requests defined in a simple plain text format.
-> Powered by curl.
+> Powered by `curl`.
 > More information: <https://hurl.dev/docs/manual.html>.
 
 - Run HTTP requests from a file:
