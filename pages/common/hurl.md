@@ -24,6 +24,6 @@
 
 `hurl --from-entry 2 --to-entry 5 {{path/to/file.hurl}}`
 
-- Test HTTP requests from file and generate report in html:
+- Test HTTP requests from file and generate report in HTML:
 
 `hurl --test --report-html {{path/to/output_directory}} {{path/to/file.hurl}}`
