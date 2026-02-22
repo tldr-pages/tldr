@@ -1,16 +1,16 @@
 # pipetron
 
 > Electron node manager for PipeWire.
-> More information: <https://codeberg.org/ponleou/pipetron>.
+> More information: <https://codeberg.org/ponleou/pipetron#usage>.
 
 - Start daemon specified in config file (defaults to volume daemon if not specified):
 
-`pipetron --daemon`
+`pipetron {{[-d|--daemon]}}`
 
 - Start volume daemon (mirror volume settings):
 
-`pipetron --volume-daemon`
+`pipetron {{[-vd|--volume-daemon]}}`
 
 - Start audio daemon (mirror audio data):
 
-`pipetron --audio-daemon`
+`pipetron {{[-ad|--audio-daemon]}}`
