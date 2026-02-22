@@ -10,11 +10,11 @@
 
 - Run HTTP requests and set variable to use:
 
-`hurl --variable {{VariableName}}={{value}} {{path/to/file.hurl}}`
+`hurl --variable {{variable_name}}={{value}} {{path/to/file.hurl}}`
 
 - Run HTTP requests with secret to be redacted on logs and reports:
 
-`hurl --secret {{SecretName}}={{value}} {{path/to/file.hurl}}`
+`hurl --secret {{secret_name}}={{value}} {{path/to/file.hurl}}`
 
 - Run HTTP requests and inject variables and secret from file:
 
