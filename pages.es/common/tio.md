@@ -14,7 +14,7 @@
 
 - Abre un puerto serie y registra la salida en un archivo:
 
-`tio {{[-L|--log]}} --log-file {archivo_de_registro} {{/dev/ttyUSB0}}`
+`tio {{[-L|--log]}} --log-file {{archivo_de_registro}} {{/dev/ttyUSB0}}`
 
 - Abre un puerto serie y habilita la salida hexadecimal:
 
