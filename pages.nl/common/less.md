@@ -1,11 +1,11 @@
 # less
 
 > Open een bestand voor interactief lezen, waarbij scrollen en zoeken mogelijk is.
-> Meer informatie: <https://greenwoodsoftware.com/less/>.
+> Meer informatie: <https://manned.org/less>.
 
-- Open een bestand:
+- Open een bestand om interactief te lezen:
 
-`less {{bronbestand}}`
+`less {{pad/naar/bronbestand}}`
 
 - Pagina omlaag/omhoog:
 
@@ -17,11 +17,11 @@
 
 - Zoek vooruit naar een tekenreeks (druk op `<n>`/`<N>` om naar de volgende/vorige overeenkomst te gaan):
 
-`</>{{iets}}`
+`</>{{patroon}}`
 
 - Zoek achterwaarts naar een tekenreeks (druk op `<n>`/`<N>` om naar de volgende/vorige overeenkomst te gaan):
 
-`<?>{{iets}}`
+`<?>{{patroon}}`
 
 - Volg de uitvoer van het momenteel geopende bestand:
 
