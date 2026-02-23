@@ -10,7 +10,7 @@
 
 - Open Quick Ask with a message:
 
-`alpaca --ask {{message}}`
+`alpaca --ask "{{message}}"`
 
 - List all activities that can be launched with `--activity`:
 
