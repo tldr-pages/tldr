@@ -1,6 +1,6 @@
 # lure
 
-> A distro-agnostic build system for Linux.
+> A distro-agnostic build system and user repository for Linux.
 > More information: <https://github.com/lure-sh/lure/tree/master/docs>.
 
 - Install a package:
@@ -15,6 +15,6 @@
 
 `lure up`
 
-- List all packages:
+- List all available packages:
 
 `lure ls`
