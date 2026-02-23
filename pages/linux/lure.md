@@ -1,7 +1,7 @@
 # lure
 
 > A distro-agnostic build system and user repository for Linux.
-> More information: <https://github.com/lure-sh/lure/tree/master/docs>.
+> More information: <https://github.com/lure-sh/lure/blob/master/docs/usage.md>.
 
 - Install a package:
 
