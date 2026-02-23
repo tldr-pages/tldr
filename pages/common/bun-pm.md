@@ -24,9 +24,9 @@
 
 `bun pm hash`
 
-- Print the path to Bun's global module cache:
+- List the current untrusted dependencies that contain scripts:
 
-`bun pm cache`
+`bun pm untrusted`
 
 - Migrate another package manager's lockfile without installing anything:
 
