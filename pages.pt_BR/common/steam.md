@@ -3,7 +3,7 @@
 > Plataforma de jogos da Valve.
 > Mais informações: <https://developer.valvesoftware.com/wiki/Command_Line_Options>.
 
-- Inicie o Steam e exiba mensagens de depuração no stdout:
+- Inicie o Steam e exiba mensagens de depuração no `stdout`:
 
 `steam`
 
