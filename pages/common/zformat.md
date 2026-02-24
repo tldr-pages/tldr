@@ -27,7 +27,7 @@
 
 - Use ternary expression for conditional text (if value is 3, outputs "yes", otherwise "no"):
 
-`zformat -f {{var}} "The answer is '%3(c.yes.no)'." {{c:3}}`
+`zformat -f {{var}} "{{The answer is '%3(c.yes.no)'.}}" {{c:3}}`
 
 - Format with left-padding (right-align) using negative minimum width:
 
