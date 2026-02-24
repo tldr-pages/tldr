@@ -15,23 +15,19 @@
 
 - Format with right-padding (left-align) to a minimum width:
 
-`zformat -f {{var}} "{{%10c}}" {{c:hello}}`
+`zformat -f {{variable}} "{{%10c}}" {{c:hello}}`
 
 - Format with left-padding (right-align) using negative width:
 
-`zformat -f {{var}} "{{%-10c}}" {{c:hello}}`
-
-- Format with truncation to maximum width:
-
-`zformat -f {{var}} "{{%c}}" {{c:hello}}`
+`zformat -f {{variable}} "{{%-10c}}" {{c:hello}}`
 
 - Use ternary expression for conditional text (if value is 3, outputs "yes", otherwise "no"):
 
-`zformat -f {{var}} "{{The answer is '%3(c.yes.no)'.}}" {{c:3}}`
+`zformat -f {{variable}} "{{The answer is '%3(c.yes.no)'.}}" {{c:3}}`
 
 - Format with left-padding (right-align) using negative minimum width:
 
-`zformat -f {{var}} "name: %-15n value: %-10v" {{n:value1}} {{v:value2}}`
+`zformat -f {{variable}} "name: %-15n value: %-10v" {{n:value1}} {{v:value2}}`
 
 - Align strings (left:right pairs separated by colon):
 
