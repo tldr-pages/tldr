@@ -9,24 +9,24 @@
 
 - Search for a pattern:
 
-`<Ctrl><f>{{pattern}}<Enter>`
+`<Ctrl f>{{pattern}}<Enter>`
 
 - Find and replace a pattern:
 
-`<Ctrl><r>{{pattern}}<Enter>`
+`<Ctrl r>{{pattern}}<Enter>`
 
 - Copy text:
 
-`<Ctrl><c>`
+`<Ctrl c>`
 
 - Paste text:
 
-`<Ctrl><v>`
+`<Ctrl v>`
 
 - Open the File menu:
 
-`<Alt><f>`
+`<Alt f>`
 
 - Quit:
 
-`<Ctrl><q>`
+`<Ctrl q>`
