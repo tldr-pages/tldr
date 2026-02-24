@@ -33,6 +33,6 @@
 
 `zformat -f {{var}} "name: %-15n value: %-10v" {{n:value1}} {{v:value2}}`
 
-- Align strings using the `-a` option (left:right pairs separated by colon):
+- Align strings (left:right pairs separated by colon):
 
 `zformat -a {{array}} {{:}} {{left1:right1}} {{left2:right2}}`
