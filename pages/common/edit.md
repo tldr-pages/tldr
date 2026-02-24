@@ -3,7 +3,7 @@
 > A terminal-based text editor from Microsoft.
 > More information: <https://github.com/microsoft/edit>.
 
-- Open a file: 
+- Open a file:
 
 `edit {{path/to/file}}`
 
