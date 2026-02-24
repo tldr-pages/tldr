@@ -2,6 +2,7 @@
 
 > A secure runtime for JavaScript, TypeScript, and WebAssembly.
 > Includes dependency management using `npm` or `jsr`, and tooling like bench, bundle, doc, and coverage.
+> Some subcommands such as `run`, `compile`, `test`, `lint`, `fmt` have their own usage documentation.
 > More information: <https://docs.deno.com/runtime/reference/cli/>.
 
 - Start a REPL (interactive shell, also known as Read-Eval-Print Loop):
