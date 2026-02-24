@@ -297,7 +297,7 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 ### th
 
 ```markdown
-> ข้อมูลเพิ่มเติม: <https://example.com>
+> ข้อมูลเพิ่มเติม: <https://example.com>.
 ```
 
 ---
