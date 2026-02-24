@@ -11,6 +11,10 @@
 
 `steam -console`
 
+- Inicie o Steam sem abrir a interface gráfica:
+
+`steam -silent`
+
 - Ative e abra o console do Steam em uma instância já em execução:
 
 `steam steam://open/console`
