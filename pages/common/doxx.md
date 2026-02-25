@@ -1,27 +1,27 @@
 # doxx
 
 > View .docx files in the terminal.
-> More information: <https://github.com/bgreenwell/doxx>.
+> More information: <https://github.com/bgreenwell/doxx#-command-line-options>.
 
-- View a .docx file in the terminal:
+- View a `.docx` file in the terminal:
 
-`doxx {{path/to/file}}`
+`doxx {{path/to/file}}.docx`
 
-- View a .docx file in the terminal with colour support:
+- View a `.docx` file in the terminal with color support:
 
-`doxx {{path/to/file}} --color`
+`doxx {{path/to/file}}.docx --color`
 
-- View a .docx file in the terminal with image support:
+- View a `.docx` file in the terminal with image support:
 
-`doxx {{path/to/file}} --images`
+`doxx {{path/to/file}}.docx --images`
 
-- View a .docx file in the terminal and jump to a specific page:
+- View a `.docx` file in the terminal and jump to a specific page:
 
-`doxx {{path/to/file}} {{[-p|--page]}} {{page_number}}`
+`doxx {{path/to/file}}.docx {{[-p|--page]}} {{page_number}}`
 
-- Search for a pattern in a .docx file:
+- Search for a pattern in a `.docx` file:
 
-`doxx {{path/to/file}} {{[-s|--search]}} {{pattern}}`
+`doxx {{path/to/file}}.docx {{[-s|--search]}} {{pattern}}`
 
 - Search for a pattern while viewing a document:
 
