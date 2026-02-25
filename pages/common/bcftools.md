@@ -31,6 +31,6 @@
 
 `bcftools merge {{path/to/cohort1.vcf.gz}} {{path/to/cohort2.vcf.gz}} --no-index`
 
-- Create index for a bgzipped VCF file on `stdout`:
+- Create index for a bgzipped VCF file:
 
 `bcftools index {{path/to/input.vcf.gz}}`
