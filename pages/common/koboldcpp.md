@@ -13,7 +13,7 @@
 
 - Set amount of threads to use:
 
-`koboldcpp --threads {{amount_of_threads}}`
+`koboldcpp {{[-t|--threads]}} {{amount_of_threads}}`
 
 - Launch web browser when boot is complete:
 
