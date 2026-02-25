@@ -27,7 +27,7 @@
 
 `bcftools isec {{path/to/a.vcf.gz path/to/b.vcf.gz ...}} --threads 4 {{[-o|--output]}} {{path/to/intersection.vcf}}`
 
-- Merge non-overlapping samples from vcf files without indices on `stdout`:
+- Merge non-overlapping samples from VCF files without indices on `stdout`:
 
 `bcftools merge {{path/to/cohort1.vcf.gz}} {{path/to/cohort2.vcf.gz}} --no-index`
 
