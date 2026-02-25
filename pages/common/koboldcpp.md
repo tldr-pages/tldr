@@ -1,7 +1,7 @@
 # koboldcpp
 
 > An AI text-generation application for GGML and GGUF models.
-> More information: <https://github.com/LostRuins/koboldcpp>.
+> More information: <https://github.com/LostRuins/koboldcpp/wiki#command-line-arguments-reference>.
 
 - Load one or more model files:
 
