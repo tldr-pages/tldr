@@ -14,7 +14,7 @@
 
 - Grava o diretório de trabalho atual ao sair no arquivo:
 
-`yazi --cwd-file {{path/to/cwd_file}}`
+`yazi --cwd-file {{caminho/para/cwd_file}}`
 
 - Limpa o diretório de cache:
 
