@@ -2,7 +2,7 @@
 
 > Gerenciador de arquivos extremamente rápido escrito em Rust.
 > Experiência de gerenciamento de arquivos eficiente, fácil de usar e customizável.
-> Mais Informações: <https://github.com/sxyazi/yazi>.
+> Mais informações: <https://github.com/sxyazi/yazi>.
 
 - Inicializa o Yazi a partir do diretório atual:
 
