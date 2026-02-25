@@ -2,7 +2,7 @@
 
 > Add hotkeys to Z shell.
 > See also: `zle`.
-> More information: <https://zsh.sourceforge.io/Guide/zshguide04.html>.
+> More information: <https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html#Zle-Builtins>.
 
 - List all existing hotkeys:
 
