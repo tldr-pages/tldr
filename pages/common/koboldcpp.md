@@ -19,6 +19,6 @@
 
 `koboldcpp --launch`
 
-- Do not show the GUI launcher:
+- Start without the GUI launcher:
 
 `koboldcpp --skiplauncher`
