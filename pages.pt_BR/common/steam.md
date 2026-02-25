@@ -3,30 +3,30 @@
 > Plataforma de jogos da Valve.
 > Mais informações: <https://developer.valvesoftware.com/wiki/Command_Line_Options>.
 
-- Inicie o Steam e exiba mensagens de depuração no `stdout`:
+- Inicia o Steam e exibe mensagens de depuração no `stdout`:
 
 `steam`
 
-- Inicie o Steam e ative a opção de console de depuração no aplicativo:
+- Inicia o Steam e ativa a opção de console de depuração no aplicativo:
 
 `steam -console`
 
-- Inicie o Steam sem abrir a interface gráfica:
+- Inicia o Steam sem abrir a interface gráfica:
 
 `steam -silent`
 
-- Ative e abra o console do Steam em uma instância já em execução:
+- Ativa e abre o console do Steam em uma instância já em execução:
 
 `steam steam://open/console`
 
-- Faça login no Steam com as credenciais especificadas:
+- Faz o login no Steam com as credenciais especificadas:
 
 `steam -login {{nome_de_usuário}} {{senha}}`
 
-- Inicie o Steam no modo Big Picture:
+- Inicia o Steam no modo Big Picture:
 
 `steam -tenfoot`
 
-- Encerre o Steam:
+- Encerra o Steam:
 
 `steam -shutdown`
