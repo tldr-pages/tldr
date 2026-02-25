@@ -5,7 +5,7 @@
 
 - Convert RTF file to HTML (default):
 
-`unrtf --html {{path/to/file}}`
+`unrtf {{path/to/file}}`
 
 - Convert RTF file to plain ASCII:
 
