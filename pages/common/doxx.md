@@ -1,6 +1,6 @@
 # doxx
 
-> View .docx files in the terminal.
+> View `.docx` files in the terminal.
 > More information: <https://github.com/bgreenwell/doxx#-command-line-options>.
 
 - View a `.docx` file in the terminal:
