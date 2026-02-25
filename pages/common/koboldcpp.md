@@ -5,7 +5,7 @@
 
 - Load one or more model files:
 
-`koboldcpp --model {{path/to/model_file}}`
+`koboldcpp {{[-m|--model]}} {{path/to/model_file}}`
 
 - Set port to listen on (defaults to 5001):
 
