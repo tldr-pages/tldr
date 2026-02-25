@@ -1,6 +1,7 @@
 # bindkey
 
 > Add hotkeys to Z shell.
+> See also: `zle`.
 > More information: <https://zsh.sourceforge.io/Guide/zshguide04.html>.
 
 - List all existing hotkeys:

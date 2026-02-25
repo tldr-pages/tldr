@@ -2,6 +2,7 @@
 
 > Manage Zsh Line Editor widgets.
 > Note: Some operations require ZLE to be active (typically inside a user-defined widget).
+> See also: `bindkey`.
 > More information: <https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html#Zle-Builtins>.
 
 - [l]ist user-defined widgets:
