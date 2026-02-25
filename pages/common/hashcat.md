@@ -5,27 +5,27 @@
 
 - Perform a brute-force attack (mode 3) with the default hashcat mask:
 
-`hashcat {{[-m|--hash-type]}} {{hash_type_id}} {{[-a|--attack-mode]}} {{3}} {{hash_value}}`
+`hashcat {{[-m|--hash-type]}} {{hash_type_id}} {{[-a|--attack-mode]}} 3 {{hash_value}}`
 
 - Perform a brute-force attack (mode 3) with a known pattern of 4 digits:
 
-`hashcat {{[-m|--hash-type]}} {{hash_type_id}} {{[-a|--attack-mode]}} {{3}} {{hash_value}} "{{?d?d?d?d}}"`
+`hashcat {{[-m|--hash-type]}} {{hash_type_id}} {{[-a|--attack-mode]}} 3 {{hash_value}} "{{?d?d?d?d}}"`
 
 - Perform a brute-force attack (mode 3) using at most 8 of all printable ASCII characters:
 
-`hashcat {{[-m|--hash-type]}} {{hash_type_id}} {{[-a|--attack-mode]}} {{3}} --increment {{hash_value}} "{{?a?a?a?a?a?a?a?a}}"`
+`hashcat {{[-m|--hash-type]}} {{hash_type_id}} {{[-a|--attack-mode]}} 3 --increment {{hash_value}} "{{?a?a?a?a?a?a?a?a}}"`
 
 - Perform a dictionary attack (mode 0) using the RockYou wordlist of a Kali Linux box:
 
-`hashcat {{[-m|--hash-type]}} {{hash_type_id}} {{[-a|--attack-mode]}} {{0}} {{hash_value}} {{/usr/share/wordlists/rockyou.txt}}`
+`hashcat {{[-m|--hash-type]}} {{hash_type_id}} {{[-a|--attack-mode]}} 0 {{hash_value}} {{/usr/share/wordlists/rockyou.txt}}`
 
 - Perform a rule-based dictionary attack (mode 0) using the RockYou wordlist mutated with common password variations:
 
-`hashcat {{[-m|--hash-type]}} {{hash_type_id}} {{[-a|--attack-mode]}} {{0}} --rules-file {{/usr/share/hashcat/rules/best64.rule}} {{hash_value}} {{/usr/share/wordlists/rockyou.txt}}`
+`hashcat {{[-m|--hash-type]}} {{hash_type_id}} {{[-a|--attack-mode]}} 0 --rules-file {{/usr/share/hashcat/rules/best64.rule}} {{hash_value}} {{/usr/share/wordlists/rockyou.txt}}`
 
 - Perform a combination attack (mode 1) using the concatenation of words from two different custom dictionaries:
 
-`hashcat {{[-m|--hash-type]}} {{hash_type_id}} {{[-a|--attack-mode]}} {{1}} {{hash_value}} {{path/to/dictionary1.txt}} {{path/to/dictionary2.txt}}`
+`hashcat {{[-m|--hash-type]}} {{hash_type_id}} {{[-a|--attack-mode]}} 1 {{hash_value}} {{path/to/dictionary1.txt}} {{path/to/dictionary2.txt}}`
 
 - Show result of an already cracked hash:
 
