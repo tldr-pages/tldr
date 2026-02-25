@@ -15,13 +15,13 @@
 
 `hashcat {{[-m|--hash-type]}} {{hash_type_id}} {{[-a|--attack-mode]}} 3 --increment {{hash_value}} "{{?a?a?a?a?a?a?a?a}}"`
 
-- Perform a dictionary attack (mode 0) using the RockYou wordlist of a Kali Linux box:
+- Perform a dictionary attack (mode 0) using a wordlist:
 
-`hashcat {{[-m|--hash-type]}} {{hash_type_id}} {{[-a|--attack-mode]}} 0 {{hash_value}} {{/usr/share/wordlists/rockyou.txt}}`
+`hashcat {{[-m|--hash-type]}} {{hash_type_id}} {{[-a|--attack-mode]}} 0 {{hash_value}} {{path/to/wordlist.txt}}`
 
-- Perform a rule-based dictionary attack (mode 0) using the RockYou wordlist mutated with common password variations:
+- Run a dictionary attack (mode 0) using the specified wordlist, applying rule-based transformations to mutate candidate passwords:
 
-`hashcat {{[-m|--hash-type]}} {{hash_type_id}} {{[-a|--attack-mode]}} 0 --rules-file {{/usr/share/hashcat/rules/best64.rule}} {{hash_value}} {{/usr/share/wordlists/rockyou.txt}}`
+`hashcat {{[-m|--hash-type]}} {{hash_type_id}} {{[-a|--attack-mode]}} 0 {{[-r|--rules-file]}} {{path/to/file.rule}} {{hash_value}} {{path/to/wordlist.txt}}`
 
 - Perform a combination attack (mode 1) using the concatenation of words from two different custom dictionaries:
 
