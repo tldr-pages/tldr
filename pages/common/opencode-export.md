@@ -5,7 +5,7 @@
 
 - Export a specific session to a file:
 
-`opencode export {{session_id}} > {{path/to/session.json}}`
+`opencode export {{session_id}} > {{path/to/session}}.json`
 
 - Export a session interactively (output in `stdout`):
 
