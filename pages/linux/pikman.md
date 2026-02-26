@@ -9,7 +9,7 @@
 
 - List installed packages:
 
-`pikman {{[l|list]}} {{package}}`
+`pikman {{[l|list]}}`
 
 - Search for a package:
 
