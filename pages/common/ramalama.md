@@ -32,5 +32,5 @@
 `ramalama stop {{model}}`
 
 - Push a local model to a remote registry:
-  
+
 `ramalama push {{registry_url}}`
