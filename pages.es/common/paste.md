@@ -13,12 +13,12 @@
 
 - Combina dos archivos uno al lado del otro, cada uno en su columna, utilizando `TAB` como delimitador:
 
-`paste {{ruta/a/archivo1}} {{ruta/a/archivo2}}`
+`paste {{ruta/al/archivo1}} {{ruta/al/archivo2}}`
 
 - Combina dos archivos uno al lado del otro, cada uno en su columna, utilizando el delimitador especificado:
 
-`paste {{[-d|--delimiters]}} {{delimitador}} {{ruta/a/archivo1}} {{ruta/a/archivo2}}`
+`paste {{[-d|--delimiters]}} {{delimitador}} {{ruta/al/archivo1}} {{ruta/al/archivo2}}`
 
 - Combina dos archivos, con líneas añadidas alternativamente:
 
-`paste {{[-d|--delimiters]}} "\n" {{ruta/al/archivo1}} {{ruta/al/archivo2}}`
+`paste {{[-d|--delimiters]}} '\n' {{ruta/al/archivo1}} {{ruta/al/archivo2}}`
