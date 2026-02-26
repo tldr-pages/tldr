@@ -134,7 +134,7 @@ curl -sL -o /dev/null -w "%{http_code}" https://example.com/command
 
 ### Help/Version Commands
 
-Place as **last two** examples (in this order) to highlight practical commands first. Use wording: "Display help", "Display version".
+Place as **last two** examples (in this order) to highlight practical commands first. Use wording: "Display help", "Display version". These are low-priority filler examples—if better practical examples exist, prefer those instead.
 
 ## Platform-Specific Rules
 
