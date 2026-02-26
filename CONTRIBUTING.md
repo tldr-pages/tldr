@@ -88,6 +88,14 @@ The `pages` directory and `pages.*` language-specific directories contain the pl
 - `sunos`: SunOS
 - `windows`: Windows
 
+## Personal repositories ("taps")
+
+Some clients support optional personal git-backed repositories ("taps") that extend output with user-maintained examples.
+These repositories are not stored in `tldr-pages/tldr`, and do not replace the official contribution workflow for this repository.
+
+If you are maintaining pages for a personal repository, follow the structure and guidelines in
+[contributing-guides/personal-repositories.md](contributing-guides/personal-repositories.md).
+
 ## Markdown format
 
 As a quick reference, the format of each page should match the following template:

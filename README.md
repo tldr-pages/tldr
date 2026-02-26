@@ -112,6 +112,10 @@ There are also **various other clients** provided by the community,
 both for the command-line and for other platforms.
 For a comprehensive list of clients, head over to our [Wiki](https://github.com/tldr-pages/tldr/wiki/Clients).
 
+Some clients may also support personal git-backed page repositories ("taps"),
+which can append user-maintained examples to the output shown by `tldr <command>`.
+This is an optional client extension and is not required for all clients.
+
 ## How do I contribute to tldr-pages?
 
 All contributions are welcome!
