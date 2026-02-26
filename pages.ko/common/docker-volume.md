@@ -13,7 +13,7 @@
 
 - 100 MiB의 크기와 1000의 uid를 가진 `tmpfs` 볼륨 생성:
 
-`docker volume create --opt {{type}}={{tmpfs}} --opt {{device}}={{tmpfs}} --opt {{o}}={{size=100m,uid=1000}} {{볼륨_이름}}`
+`docker volume create {{[-o|--opt]}} {{type}}={{tmpfs}} {{[-o|--opt]}} {{device}}={{tmpfs}} {{[-o|--opt]}} {{o}}={{size=100m,uid=1000}} {{볼륨_이름}}`
 
 - 모든 볼륨 나열:
 
