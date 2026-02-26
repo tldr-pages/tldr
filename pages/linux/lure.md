@@ -5,16 +5,32 @@
 
 - Install a package:
 
-`lure in {{package}}`
+`lure {{[in|install]}} {{package}}`
 
 - Remove a package:
 
-`lure rm {{package}}`
+`lure {{[rm|remove]}} {{package}}`
 
 - Update packages:
 
-`lure up`
+`lure {{[up|upgrade]}}`
 
 - List all available packages:
 
-`lure ls`
+`lure {{[ls|list]}}`
+
+- Pull all repositories that have changed:
+
+`lure {{[ref|refresh]}}`
+
+- Add a new repository:
+
+`lure {{[ar|addrepo]}} --name {{repository_name}} --url {{repository_url}}`
+
+- Remove an existing repository:
+
+`lure {{[rr|removerepo]}} --name {{repository_name}}`
+
+- Build a package:
+
+`lure build {{path/to/lure.sh}}`
