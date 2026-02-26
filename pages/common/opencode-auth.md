@@ -13,7 +13,7 @@
 
 - Log out from a configured provider interactively:
 
-`opencode auth logout
+`opencode auth logout`
 
 - Display help:
 
