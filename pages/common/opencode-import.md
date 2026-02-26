@@ -5,7 +5,7 @@
 
 - Import from a JSON file:
 
-`opencode import {{path/to/session.json}}`
+`opencode import {{path/to/session}}.json`
 
 - Import from a share URL:
 
