@@ -38,6 +38,19 @@ If a client appends personal additions to the official page output, keep pages f
 It is recommended to distribute personal repositories through git and version them with normal tags or branches.
 Clients can then clone and update repositories through regular git operations.
 
+## Validation
+
+It is recommended to lint personal pages before publishing updates.
+
+You can use `tldr-lint` directly:
+
+```sh
+tldr-lint pages/common/some-command.md
+```
+
+Or provide a repository-level helper target (for example `make validate`) that runs `tldr-lint`
+for all page files.
+
 ## Compatibility note
 
 Clients may implement personal repositories differently.
