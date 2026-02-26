@@ -3,14 +3,14 @@
 > Convert RTF files to other file formats.
 > More information: <https://manned.org/unrtf>.
 
-- Convert RTF file to HTML (default):
+- Convert an RTF file to HTML (default):
 
-`unrtf {{path/to/file}}`
+`unrtf {{path/to/file.rtf}}`
 
-- Convert RTF file to plain ASCII:
+- Convert an RTF file to plain ASCII:
 
-`unrtf --text {{path/to/file}}`
+`unrtf --text {{path/to/file.rtf}}`
 
-- Convert RTF file to LaTeX:
+- Convert an RTF file to LaTeX:
 
-`unrtf --latex {{path/to/file}}`
+`unrtf --latex {{path/to/file.rtf}}`
