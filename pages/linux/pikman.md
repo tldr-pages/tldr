@@ -1,6 +1,6 @@
 # pikman
 
-> PikaOS packager manager utility.
+> PikaOS package manager utility.
 > More information: <https://wiki.pika-os.com/en/custom-utils-wiki/pikman-manager-cli>.
 
 - Install a package:
