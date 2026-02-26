@@ -1,7 +1,7 @@
 # cmatrix
 
 > Zeigt einen scrollenden, Matrix-ähnlichen Bildschirm im Terminal an.
-> Siehe auch: `cbonsai`, `asciiquarium`, `pipes.sh`.
+> Siehe auch: `neo`, `cbonsai`, `asciiquarium`, `pipes.sh`.
 > Weitere Informationen: <https://manned.org/cmatrix>.
 
 - Aktiviere [a]synchrones Scrollen:

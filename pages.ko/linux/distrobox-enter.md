@@ -15,4 +15,4 @@
 
 - tty를 인스턴스화하지 않고 Distrobox 컨테이너에 진입:
 
-`distrobox-enter --name {{컨테이너_이름}} -- {{uptime -p}}`
+`distrobox-enter {{[-n|--name]}} {{컨테이너_이름}} -- {{uptime -p}}`

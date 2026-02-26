@@ -1,7 +1,7 @@
 # docker container ls
 
 > Dockerコンテナ一覧を表示します。
-> もっと詳しく: <https://docs.docker.com/reference/cli/docker/container/ls/>。
+> 詳細情報: <https://docs.docker.com/reference/cli/docker/container/ls/>。
 
 - 現在実行中のdockerコンテナ一覧を表示する:
 

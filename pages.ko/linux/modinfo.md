@@ -10,4 +10,4 @@
 
 - 지정된 속성만 나열:
 
-`modinfo -F {{author|description|license|parm|filename}} {{커널_모듈}}`
+`modinfo {{[-F|--field]}} {{author|description|license|parm|filename|version|...}} {{커널_모듈}}`

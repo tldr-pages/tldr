@@ -1,7 +1,7 @@
 # less
 
 > Otevírá soubor pro interaktivní čtení, umožňuje procházení a vyhledávání.
-> Více informací: <https://greenwoodsoftware.com/less/>.
+> Více informací: <https://manned.org/less>.
 
 - Otevřít soubor:
 

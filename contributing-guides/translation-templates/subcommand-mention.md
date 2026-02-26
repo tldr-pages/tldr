@@ -176,7 +176,7 @@ This file contains the translation templates of this notice.
 ### ja
 
 ```markdown
-> `example` のようないくつかのサブコマンドには、使用方法についての独自のドキュメントがあります。
+> `example` などの一部のサブコマンドには、独自のドキュメントがあります。
 ```
 
 ---

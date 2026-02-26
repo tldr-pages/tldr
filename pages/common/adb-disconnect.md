@@ -1,6 +1,6 @@
 # adb disconnect
 
-> This command has been moved to `adb connect`.
+> The examples for this command have been moved together with `adb connect`.
 
 - View documentation for `adb disconnect`:
 
