@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD007 MD013 MD024-->
 # tldr-pages client specification
 
-**Current Specification Version:** 2.3
+**Current Specification Version:** 2.4
 
 This document contains the official specification for tldr-pages clients. It is _not_ a specification of the format of the pages themselves - only a specification of how a user should be able to interface with an official client. For a list of previous versions of the specification, see the [changelog section](#changelog) below.
 
@@ -240,6 +240,28 @@ If appropriate, it is RECOMMENDED that clients implement a cache of pages. If im
 
 Caching SHOULD be done according to the user's language configuration (if any), to not waste unneeded space for unused languages. Additionally, clients MAY automatically update the cache regularly.
 
+## Personal repositories (optional extension)
+
+Clients MAY support additional git-backed repositories containing user-maintained pages (for example, "taps").
+When supported, this capability is an extension and does not change the required behavior of page resolution for the official tldr-pages repository.
+
+Clients MAY provide commands to manage these repositories (for example: adding, removing, listing, and updating taps).
+Clients MAY choose any local storage layout for cloned repositories.
+
+When rendering a command page, clients that implement this extension SHOULD:
+
+1. Resolve and render the official page first, using the normal [page resolution](#page-resolution) and [language](#language) rules.
+2. Search enabled personal repositories using the same command name normalization, platform precedence, and language preference order.
+3. Append matching personal additions in a dedicated section after the official page content.
+
+To preserve clarity and avoid conflicting metadata, clients implementing this extension SHOULD append examples only from personal pages:
+
+- lines beginning with `- ` (example description)
+- lines enclosed in backticks (example command invocations)
+
+Title and description lines (`# `, `> `) from personal pages SHOULD be ignored in appended output.
+If multiple personal repositories provide additions for the same command, clients SHOULD keep a deterministic output order (for example, repository configuration order).
+
 ## Changelog
 
 <!--
@@ -253,6 +275,11 @@ including the changes. NOTE: tagging of the commit with a new version tag (in
 the form `vX.Y`) should be done immediately AFTER merging the version bump, as
 the commit hash changes when merging with squash or rebase.
 -->
+
+- [v2.4, February 25th 2026](https://github.com/tldr-pages/tldr/blob/v2.4/CLIENT-SPECIFICATION.md)
+  - Add an optional extension for personal git-backed repositories ("taps")
+  - Define merge behavior that appends personal examples after the official page
+  - Clarify recommended deterministic ordering when multiple personal repositories match
 
 - [v2.3, March 7th 2025](https://github.com/tldr-pages/tldr/blob/v2.3/CLIENT-SPECIFICATION.md) ([#15866](https://github.com/tldr-pages/tldr/pull/15866))
   - Added longform/shortform specifications ([#15253](https://github.com/tldr-pages/tldr/pull/15253))
