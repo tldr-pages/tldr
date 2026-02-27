@@ -2,7 +2,7 @@
 
 > 複数バージョンのPythonを容易に切り替えします。
 > 参照: `asdf`。
-> もっと詳しく: <https://manned.org/pyenv>。
+> 詳細情報: <https://manned.org/pyenv>。
 
 - 利用可能なコマンド全てをリスト表示する:
 

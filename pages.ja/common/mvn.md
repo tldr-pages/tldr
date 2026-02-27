@@ -1,7 +1,7 @@
 # mvn
 
 > Apache Maven：Java ベースのプロジェクトをビルドおよび管理します。
-> もっと詳しく: <https://manned.org/mvn>。
+> 詳細情報: <https://manned.org/mvn>。
 
 - プロジェクトをコンパイルする:
 

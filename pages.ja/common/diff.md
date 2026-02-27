@@ -2,7 +2,7 @@
 
 > ファイルとディレクトリを比較する。
 > 参照: `delta`, `difft`。
-> もっと詳しく: <https://manned.org/diff>。
+> 詳細情報: <https://manned.org/diff>。
 
 - ファイルを比較する(`old_file`を`new_file`にするための変更点を列挙する):
 

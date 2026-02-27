@@ -2,7 +2,7 @@
 
 > Android システムサービスの情報を取得します。
 > このコマンドは `adb shell` 経由でのみ実行できます。
-> もっと詳しく: <https://developer.android.com/tools/dumpsys>。
+> 詳細情報: <https://developer.android.com/tools/dumpsys>。
 
 - すべてのシステムに対して診断を出力します:
 

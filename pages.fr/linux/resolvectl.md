@@ -2,6 +2,7 @@
 
 > Résout les noms de domaine, les adresses IPV4 et IPv6, les enregistrements de ressources DNS et les services.
 > Inspecte et reconfigure le résolveur DNS.
+> Voir aussi : `dig`, `nslookup`, `host`.
 > Plus d'informations : <https://www.freedesktop.org/software/systemd/man/latest/resolvectl.html>.
 
 - Affiche les paramètres DNS :

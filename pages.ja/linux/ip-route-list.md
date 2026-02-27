@@ -1,7 +1,7 @@
 # ip route list
 
 > このコマンドは `ip route show`.のエイリアスです。
-> もっと詳しく: <https://manned.org/ip-route>。
+> 詳細情報: <https://manned.org/ip-route>。
 
 - オリジナルのコマンドのドキュメントを表示する:
 
