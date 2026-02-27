@@ -19,7 +19,7 @@
 
 `apachectl configtest`
 
-- Periksa status server (membutuhkan browser lynx):
+- Periksa status peladen (membutuhkan peramban lynx):
 
 `apachectl status`
 
