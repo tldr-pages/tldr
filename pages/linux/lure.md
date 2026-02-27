@@ -33,4 +33,4 @@
 
 - Build a package:
 
-`lure build {{path/to/lure.sh}}`
+`lure build -s {{path/to/script}}`
