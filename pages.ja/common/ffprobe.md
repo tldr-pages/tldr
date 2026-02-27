@@ -1,7 +1,7 @@
 # ffprobe
 
 > マルチメディアストリームを解析します。
-> もっと詳しく: <https://ffmpeg.org/ffprobe.html>。
+> 詳細情報: <https://ffmpeg.org/ffprobe.html>。
 
 - メディアファイルの利用可能なストリーム情報を全て表示:
 

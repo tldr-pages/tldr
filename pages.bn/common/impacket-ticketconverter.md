@@ -1,0 +1,7 @@
+# impacket-ticketConverter
+
+> এই কমান্ডটি `ticketConverter.py` - এর একটি উপনাম।
+
+- মূল কমান্ডের ডকুমেন্টেশন দেখুন:
+
+`tldr ticketConverter.py`

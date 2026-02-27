@@ -2,6 +2,7 @@
 
 > Mostra la taula de continguts del DMI (també conegut com SMBIOS) en un format llegible per humans.
 > Requereix privilegis de root.
+> Vegeu també: `inxi`, `lshw`, `hwinfo`.
 > Més informació: <https://manned.org/dmidecode>.
 
 - Mostra tota la taula de continguts del DMI:

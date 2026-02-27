@@ -20,6 +20,6 @@
 
 `watchexec {{[-r|--restart]}} --stop-signal {{SIGKILL}} {{my_server}}`
 
-- Restart the execution of a command when any Java source file in the current directory changes, sending `SIGKILL` and only checking for updates every `n`ms:
+- Restart the execution of a command when any Java source file in the current directory changes, sending `SIGKILL` and only checking for updates every `10000` ms:
 
-`watchexec {{[-r|--restart]}} --stop-signal {{SIGKILL}} --poll {{10000}} {{[-e|--exts]}} {{java}} {{command}}`
+`watchexec {{[-r|--restart]}} --stop-signal {{SIGKILL}} --poll 10000 {{[-e|--exts]}} {{java}} {{command}}`

@@ -2,7 +2,7 @@
 
 > ファイルを Zip アーカイブにパッケージして圧縮(アーカイブ)します。
 > 参照: `unzip`。
-> もっと詳しく: <https://manned.org/zip>。
+> 詳細情報: <https://manned.org/zip>。
 
 - 指定したアーカイブに、ファイル/ディレクトリを追加する ([r]ecursively):
 
