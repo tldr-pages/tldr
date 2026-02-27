@@ -29,7 +29,7 @@
 
 - Remove an existing repository:
 
-`lure {{[rr|removerepo]}} --name {{repository_name}}`
+`lure {{[rr|removerepo]}} {{[-n|--name]}} {{repository_name}}`
 
 - Build a package:
 
