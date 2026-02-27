@@ -19,7 +19,7 @@
 
 `opencode stats --models {{5}}`
 
-- Show statistics for a specific project:
+- Show statistics for a specific project (omit the project name to use the current project):
 
 `opencode stats --project {{project_name}}`
 
