@@ -25,4 +25,4 @@
 
 - Sonuçları bir CSV dosyasına yaz:
 
-`ab -e {{path/to/file.csv}}`
+`ab -e {{yol/dosya.csv}}`
