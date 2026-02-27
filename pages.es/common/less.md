@@ -1,7 +1,7 @@
 # less
 
 > Abre un archivo para su lectura interactiva, permitiendo desplazarse y realizar búsquedas.
-> Más información: <https://greenwoodsoftware.com/less/>.
+> Más información: <https://manned.org/less>.
 
 - Abre un archivo:
 

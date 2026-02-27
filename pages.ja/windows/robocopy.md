@@ -2,7 +2,7 @@
 
 > 堅牢なファイルとフォルダのコピー。
 > デフォルトでは、コピー元とコピー先でタイムスタンプが異なるか、ファイルサイズが異なる場合のみ、ファイルがコピーされます。
-> もっと詳しく: <https://learn.microsoft.com/windows-server/administration/windows-commands/robocopy>。
+> 詳細情報: <https://learn.microsoft.com/windows-server/administration/windows-commands/robocopy>。
 
 - すべての `.jpg` と `.bmp` ファイルをあるディレクトリから、別のディレクトリにコピーする:
 

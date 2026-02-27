@@ -1,7 +1,7 @@
 # gimp
 
 > GNU 이미지 조작 프로그램.
-> 같이 보기: `krita`.
+> 관련 항목: `krita`.
 > 더 많은 정보: <https://docs.gimp.org/en/gimp-fire-up.html#gimp-concepts-running-command-line>.
 
 - GIMP 시작:

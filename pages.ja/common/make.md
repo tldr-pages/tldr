@@ -2,7 +2,7 @@
 
 > Makefile に記述されたターゲットのタスクランナー。
 > 主に、ソースコードから実行可能ファイルのコンパイルを制御する為に使用されます。
-> もっと詳しく: <https://www.gnu.org/software/make/manual/make.html>。
+> 詳細情報: <https://www.gnu.org/software/make/manual/make.html>。
 
 - Makefile で指定された最初のターゲットを呼び出す (通常 "all" という名前):
 

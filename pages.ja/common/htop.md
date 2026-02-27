@@ -2,7 +2,7 @@
 
 > 実行中のプロセスに関する動的なリアルタイム情報を表示する。 `top` の拡張版。
 > 参照: `top`, `atop`, `glances`, `btop`, `btm`。
-> もっと詳しく: <https://manned.org/htop>。
+> 詳細情報: <https://manned.org/htop>。
 
 - htop を起動:
 

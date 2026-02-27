@@ -1,7 +1,7 @@
 # bc
 
 > 임의 정밀도 계산기 언어.
-> 같이 보기: `dc`.
+> 관련 항목: `dc`.
 > 더 많은 정보: <https://keith.github.io/xcode-man-pages/bc.1.html>.
 
 - 대화형 세션 시작:

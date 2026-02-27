@@ -1,7 +1,7 @@
 # mpd
 
 > Music Player Daemon.
-> 같이 보기: `mpc`, `ncmpcpp`.
+> 관련 항목: `mpc`, `ncmpcpp`.
 > 더 많은 정보: <https://mpd.readthedocs.io/en/stable/mpd.1.html>.
 
 - MPD 시작:

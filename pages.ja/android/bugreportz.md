@@ -2,7 +2,7 @@
 
 > 圧縮されたAndroid バグレポートを生成します。
 > このコマンドは `adb shell` 経由でのみ実行できます。
-> もっと詳しく: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreportz>。
+> 詳細情報: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreportz>。
 
 - 圧縮されたAndroidデバイスの完全なバグレポートを生成します:
 

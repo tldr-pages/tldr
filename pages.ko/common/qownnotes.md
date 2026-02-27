@@ -2,7 +2,7 @@
 
 > Markdown 노트 작성 애플리케이션.
 > 선택적으로 Nextcloud 및 ownCloud의 노트 작성 애플리케이션과 통합됩니다.
-> 같이 보기: `qc`.
+> 관련 항목: `qc`.
 > 더 많은 정보: <https://www.qownnotes.org/getting-started/cli-parameters.html>.
 
 - 포터블 모드로 실행:

@@ -1,7 +1,7 @@
 # kwrite
 
 > KDE Desktop 프로젝트의 텍스트 편집기.
-> 같이 보기: `kate`.
+> 관련 항목: `kate`.
 > 더 많은 정보: <https://docs.kde.org/stable_kf6/en/kate/kwrite/command-line-options.html>.
 
 - 텍스트 파일 열기:

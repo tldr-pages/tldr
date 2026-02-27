@@ -1,7 +1,7 @@
 # sed
 
 > 스크립트 방식으로 텍스트 편집.
-> 같이 보기: `awk`, `ed`.
+> 관련 항목: `awk`, `ed`.
 > 더 많은 정보: <https://keith.github.io/xcode-man-pages/sed.1.html>.
 
 - 모든 입력 라인에서 `apple`(기본 `regex`)을 `mango`(기본 `regex`)로 모두 교체하고 결과를 `stdout`에 출력:

@@ -21,7 +21,7 @@
 
 - Focus Terraform's attention on only a subset of resources:
 
-`terraform plan -target {{resource_type.resource_name[instance index]}}`
+`terraform plan -target {{resource_type.resource_name[instance_index]}}`
 
 - Output a plan as JSON:
 

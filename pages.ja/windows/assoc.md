@@ -1,7 +1,7 @@
 # assoc
 
 > ファイル拡張子の関連付けを表示または変更します。
-> もっと詳しく: <https://learn.microsoft.com/windows-server/administration/windows-commands/assoc>。
+> 詳細情報: <https://learn.microsoft.com/windows-server/administration/windows-commands/assoc>。
 
 - 関連するすべてのファイルタイプをします:
 

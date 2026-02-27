@@ -24,7 +24,7 @@ There, the old table can be **imported**, **edited** in a WYSIWYG editor and **e
 | hi    | फ़ाइल/का/पथ           | निर्देशिका/का/पथ         | फ़ाइल_या_निर्देशिका/का/पथ            | पैकेज         | उपयोगकर्ता_नाम     |                   |          |        |          |
 | id    | jalan/menuju/berkas   | jalan/menuju/direktori   | jalan/menuju/berkas_atau_direktori   | paket         | nama_pengguna      | kata_sandi        | perintah | port   | nilai    |
 | it    | percorso/del/file     | percorso/della/directory | percorso/del/file_o_directory        | pacchetto     | nome_utente        | password          | comando  | porta  | valore   |
-| ja    | ファイルパス                | ディレクトリパス                 | ファイルパスまたはディレクトリパス                    | パッケージ         | ユーザー名              |                   |          |        |          |
+| ja    | パス/宛先/ファイル         | パス/宛先/ディレクトリ        | パス/宛先/ファイル_または_ディレクトリ         | パッケージ      | ユーザー名          | パスワード          | コマンド  | ポート  | 値        |
 | ko    | 경로/대상/파일              | 경로/대상/폴더                 | 경로/대상/파일_또는_폴더                       | 패키지           | 사용자 명              | 비밀번호              | 명령어      | 포트     | 값        |
 | lo    |                       |                          |                                      |               |                    |                   |          |        |          |
 | ml    | ഫയലിലേക്കുള്ള/പാത     | ഡയറക്ടറിയിലേക്കുള്ള/പാത  | ഫയലിലേക്കോ_ഡയറക്ടറിയിലേക്കോ/ഉള്ള/പാത | പാക്കേജ്      | ഉപയോക്തൃനാമം       |                   |          |        |          |
@@ -42,6 +42,6 @@ There, the old table can be **imported**, **edited** in a WYSIWYG editor and **e
 | th    | ทาง/ไป/ไฟล์           | ทาง/ไป/สารบบ             | ทาง/ไป/สารบบหรือไฟล์                 | แพ็กเกจ       | ชื่อผู้ใช้         | รหัสผ่าน          | คำสั่ง   | พอร์ต  | ค่า      |
 | tr    | yol/dosya             | yol/dizin                | yol/dosya_veya_dizin                 | paket         | kullanıcı_adı      | şifre             | komut    | port   | değer    |
 | uk    | шлях/до/файлу         | шлях/до/директорії       | шлях/до/файлу_чи_директорії          | пакунок       | ім'я_користувача   |                   |          |        |          |
-| uz    | faylga/yo'l           | katalogga/yo'l           | faylga_yo'l_yoki_katalogga_yo'l      | paket         | foydalanuvchi_nomi |                   |          |        |          |
+| uz    | faylga/yo'l           | katalogga/yo'l           | fayl_yoki_katalogga/yo'l             | paket         | foydalanuvchi_nomi | parol             | buyruq   | port   | qiymat   |
 | zh    | 路径/到/文件               | 路径/到/目录                  | 路径/到/文件或目录                           | 软件包           | 用户名                | 密码                | 命令       | 端口     | 值        |
 | zh_TW | 路徑/至/檔案               | 路徑/至/目錄                  | 路徑/至/檔案或目錄                           | 套件            | 使用者名稱              | 密碼                | 命令       | 埠      | 值        |

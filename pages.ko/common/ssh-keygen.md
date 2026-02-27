@@ -1,7 +1,7 @@
 # ssh-keygen
 
 > 인증, 비밀번호 없는 로그인 및 기타 용도로 사용되는 SSH 키 생성.
-> 같이 보기: `ssh-copy-id`.
+> 관련 항목: `ssh-copy-id`.
 > 더 많은 정보: <https://man.openbsd.org/ssh-keygen>.
 
 - 대화식으로 키 생성:

@@ -2,7 +2,7 @@
 
 > Kubernetes クラスタに対してコマンドを実行するためのコマンドラインインターフェイス。
 > `run` のようないくつかのサブコマンドには、使用方法についての独自のドキュメントがあります。
-> もっと詳しく: <https://kubernetes.io/docs/reference/kubectl/>。
+> 詳細情報: <https://kubernetes.io/docs/reference/kubectl/>。
 
 - リソースに関する情報をより詳細に一覧表示する:
 

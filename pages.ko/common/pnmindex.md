@@ -1,7 +1,7 @@
 # pnmindex
 
 > 여러 PNM 이미지의 시각적 색인을 생성합니다.
-> 같이 보기: `pamundice`.
+> 관련 항목: `pamundice`.
 > 더 많은 정보: <https://netpbm.sourceforge.net/doc/pnmindex.html>.
 
 - 지정된 이미지를 그리드 형식으로 축소판 이미지로 포함하는 이미지를 생성:

@@ -1,7 +1,7 @@
 # tac
 
 > 파일을 역순으로 표시하고 연결.
-> 같이 보기: `cat`.
+> 관련 항목: `cat`.
 > 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/tac-invocation.html>.
 
 - 특정 파일들을 역순으로 연결:
