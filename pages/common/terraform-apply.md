@@ -25,11 +25,11 @@
 
 - Apply changes to a specific resource:
 
-`terraform apply -target {{resource_type.resource_name[instance index]}}`
+`terraform apply -target {{resource_type.resource_name[instance_index]}}`
 
 - Replace a specific resource:
 
-`terraform apply -replace {{resource_type.resource_name[instance index]}}`
+`terraform apply -replace {{resource_type.resource_name[instance_index]}}`
 
 - Destroy Terraform-managed infrastructure:
 

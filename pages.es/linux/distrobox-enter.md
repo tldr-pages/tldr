@@ -15,4 +15,4 @@
 
 - Entra a un contenedor Distrobox sin instanciar una tty:
 
-`distrobox-enter --name {{nombre_del_contenedor}} -- {{uptime -p}}`
+`distrobox-enter {{[-n|--name]}} {{nombre_del_contenedor}} -- {{uptime -p}}`

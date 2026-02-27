@@ -1,7 +1,7 @@
 # psql
 
 > PostgreSQL コマンドラインクライアントです。
-> もっと詳しく: <https://www.postgresql.org/docs/current/app-psql.html>。
+> 詳細情報: <https://www.postgresql.org/docs/current/app-psql.html>。
 
 - データベースに接続する。デフォルトでは、現在ログインしているユーザで、ポート5432を使用して、ローカルソケットに接続する:
 

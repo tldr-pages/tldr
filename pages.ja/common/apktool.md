@@ -1,7 +1,7 @@
 # apktool
 
 > APK ファイルの解析ツールです。
-> もっと詳しく: <https://ibotpeaches.github.io/Apktool/>。
+> 詳細情報: <https://ibotpeaches.github.io/Apktool/>。
 
 - APK ファイルのデコード:
 

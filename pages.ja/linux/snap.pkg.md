@@ -2,7 +2,7 @@
 
 > 自己完結型の "snap" ソフトウェアパッケージを管理します。
 > `apt` が `.deb` の為のものであるのと似ています。
-> もっと詳しく: <https://manned.org/snap>。
+> 詳細情報: <https://manned.org/snap>。
 
 - パッケージを検索する:
 

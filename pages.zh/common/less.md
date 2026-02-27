@@ -1,7 +1,7 @@
 # less
 
 > 打开一个文件进行交互式阅读，允许滚动和搜索。
-> 更多信息：<https://greenwoodsoftware.com/less/>。
+> 更多信息：<https://manned.org/less>。
 
 - 打开一个文件：
 

@@ -1,6 +1,7 @@
 # qr
 
 > Generate QR codes in the terminal with ANSI VT-100 escape codes.
+> See also: `qrencode`.
 > More information: <https://manned.org/qr>.
 
 - Generate a QR code:

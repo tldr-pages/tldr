@@ -7,8 +7,8 @@
 
 - Ubuntu 이미지로 Distrobox 컨테이너 생성:
 
-`distrobox-create {{컨테이너_이름}} --image {{ubuntu:latest}}`
+`distrobox-create {{컨테이너_이름}} {{[-i|--image]}} {{ubuntu:latest}}`
 
 - Distrobox 컨테이너 복제:
 
-`distrobox-create --clone {{컨테이너_이름}} {{복제된_컨테이너_이름}}`
+`distrobox-create {{[-c|--clone]}} {{컨테이너_이름}} {{복제된_컨테이너_이름}}`

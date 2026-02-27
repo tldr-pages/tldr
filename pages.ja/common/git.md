@@ -2,7 +2,7 @@
 
 > 分散型バージョン管理システム。
 > いくつかのサブコマンドがあります。例えば `commit`, `add`, `branch`, `checkout`, `push`, などです。
-> もっと詳しく: <https://git-scm.com/docs/git>。
+> 詳細情報: <https://git-scm.com/docs/git>。
 
 - Gitのサブコマンドを実行する:
 

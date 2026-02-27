@@ -1,7 +1,7 @@
 # ls
 
 > ディレクトリの内容を一覧表示します。
-> もっと詳しく: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>。
+> 詳細情報: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>。
 
 - ファイルを1行ごとに一覧表示:
 

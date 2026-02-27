@@ -1,7 +1,7 @@
 # chkdsk
 
 > ファイルシステムとボリュームのメタデータにエラーがないかチェックします。
-> もっと詳しく: <https://learn.microsoft.com/windows-server/administration/windows-commands/chkdsk>。
+> 詳細情報: <https://learn.microsoft.com/windows-server/administration/windows-commands/chkdsk>。
 
 - チェックするドライブ文字(コロンの後に続く)、マウントポイント、またはボリューム名を指定する:
 
