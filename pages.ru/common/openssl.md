@@ -4,29 +4,29 @@
 > Некоторые подкоманды, такие как `req`, имеют собственную документацию по использованию.
 > Больше информации: <https://docs.openssl.org/master/man1/openssl/>.
 
-- Сгенерировать закрытый ключ и зашифровать выходной файл с помощью AES256:
+- Сгенерировать приватный ключ и зашифровать выходной файл с помощью AES-256:
 
-`openssl genpkey -algorithm {{rsa|ec}} -out {{private.key}} -aes256`
+`openssl genpkey -algorithm {{rsa|ec}} -out {{путь/к/приватному_ключу.key}} -aes256`
 
-- Сгенерировать соответствующий открытый ключ из закрытого ключа `private.key` с помощью `rsa`:
+- Сгенерировать соответствующий публичный ключ из приватного ключа с помощью `rsa`:
 
-`openssl rsa -in {{private.key}} -pubout -out {{public.key}}`
+`openssl rsa -in {{путь/к/приватному_ключу.key}} -pubout -out {{путь/к/публичному_ключу.key}}`
 
-- Сгенерировать самоподписанный сертификат, действительный указанное количество дней (`365`):
+- Сгенерировать самоподписанный сертификат, действительный указанное количество дней (365):
 
-`openssl req -new -x509 -key {{private.key}} -out {{certificate.crt}} -days {{365}}`
+`openssl req -new -x509 -key {{путь/к/приватному_ключу.key}} -out {{путь/к/сертификату.crt}} -days 365`
 
-- Конвертировать сертификат в формат `pem` или `der`:
+- Конвертировать сертификат в формат `.pem` или `.der`:
 
-`openssl x509 -in {{certificate.crt}} -out {{certificate.pem|certificate.der}} -outform {{pem|der}}`
+`openssl x509 -in {{путь/к/сертификату.crt}} -out {{путь/к/сертификату.pem|путь/к/сертификату.der}} -outform {{pem|der}}`
 
 - Просмотреть детали сертификата:
 
-`openssl x509 -in {{certificate.crt}} -text -noout`
+`openssl x509 -in {{путь/к/сертификату.crt}} -text -noout`
 
 - Сгенерировать запрос на подпись сертификата (CSR):
 
-`openssl req -new -key {{private.key}} -out {{request.csr}}`
+`openssl req -new -key {{путь/к/приватному_ключу.key}} -out {{путь/к/запросу.csr}}`
 
 - Показать справку:
 
