@@ -10,4 +10,4 @@
 
 - Azure CLI 모듈 및 확장의 현재 버전을 지정된 형식으로 표시:
 
-`az version --output {{json|table|tsv}}`
+`az version {{[-o|--output]}} {{json|table|tsv}}`

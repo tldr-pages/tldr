@@ -6,16 +6,16 @@
 
 - 스토리지 계정 생성:
 
-`az storage account create --name {{스토리지_계정_이름}} --resource-group {{azure_리소스_그룹}} --location {{azure_위치}} --sku {{storage_account_sku}}`
+`az storage account create {{[-n|--name]}} {{스토리지_계정_이름}} {{[-g|--resource-group]}} {{azure_리소스_그룹}} --location {{azure_위치}} --sku {{storage_account_sku}}`
 
 - 특정 스토리지 계정에 대한 공유 액세스 서명을 생성:
 
-`az storage account generate-sas --account-name {{스토리지_계정_이름}} --name {{계정_이름}} --permissions {{sas_permissions}} --expiry {{만료_날짜}} --services {{스토리지_서비스}} --resource-types {{리소스_타입}}`
+`az storage account generate-sas --account-name {{스토리지_계정_이름}} {{[-n|--name]}} {{계정_이름}} --permissions {{sas_permissions}} --expiry {{만료_날짜}} --services {{스토리지_서비스}} --resource-types {{리소스_타입}}`
 
 - 스토리지 계정 나열:
 
-`az storage account list --resource-group {{azure_리소스_그룹}}`
+`az storage account list {{[-g|--resource-group]}} {{azure_리소스_그룹}}`
 
 - 특정 저장소 계정 삭제:
 
-`az storage account delete --name {{스토리지_계정_이름}} --resource-group {{azure_리소스_그룹}}`
+`az storage account delete {{[-n|--name]}} {{스토리지_계정_이름}} {{[-g|--resource-group]}} {{azure_리소스_그룹}}`
