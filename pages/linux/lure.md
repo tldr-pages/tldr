@@ -25,7 +25,7 @@
 
 - Add a new repository:
 
-`lure {{[ar|addrepo]}} --name {{repository_name}} --url {{repository_url}}`
+`lure {{[ar|addrepo]}} {{[-n|--name]}} {{repository_name}} --url {{repository_url}}`
 
 - Remove an existing repository:
 
