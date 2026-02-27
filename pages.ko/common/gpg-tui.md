@@ -9,7 +9,7 @@
 
 - 색상 및 ASCII로 암호화된 출력으로 `gpg-tui`를 시작:
 
-`gpg-tui --style {{colored}} --armor`
+`gpg-tui {{[-s|--style]}} {{colored}} {{[-a|--armor]}}`
 
 - `gpg-tui` 종료:
 
