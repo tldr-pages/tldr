@@ -13,7 +13,7 @@
 
 - Bir dosyadan JSON verisi kullanarak bir URL'ye 100 HTTP POST isteği gönder:
 
-`ab -n 100 -T {{application/json}} -p {{path/to/file.json}} {{url}}`
+`ab -n 100 -T {{application/json}} -p {{yol/dosya.json}} {{url}}`
 
 - HTTP [k]eep-Alive kullan, yani tek bir HTTP oturumu içinde birden fazla istek gerçekleştir:
 
