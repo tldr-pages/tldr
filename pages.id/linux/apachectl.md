@@ -3,15 +3,15 @@
 > Kontrol server HTTP Apache.
 > Informasi lebih lanjut: <https://manned.org/apachectl>.
 
-- Jalankan server:
+- Jalankan peladen:
 
 `sudo apachectl start`
 
-- Jalankan ulang server:
+- Jalankan ulang peladen:
 
 `sudo apachectl restart`
 
-- Hentikan server:
+- Hentikan peladen:
 
 `sudo apachectl stop`
 
