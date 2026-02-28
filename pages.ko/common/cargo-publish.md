@@ -10,7 +10,7 @@
 
 - 검사를 수행하고, `.crate` 파일을 생성하여 레지스트리에 업로드하지 않음 (`cargo package`와 동일):
 
-`cargo publish --dry-run`
+`cargo publish {{[-n|--dry-run]}}`
 
 - 지정된 레지스트리를 사용함 (레지스트리 이름은 구성에서 정의할 수 있음 - 기본값은 <https://crates.io>):
 

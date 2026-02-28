@@ -22,4 +22,4 @@
 
 - 일반/빌드/개발 종속성만 표시:
 
-`cargo tree --edges {{normal|build|dev}}`
+`cargo tree {{[-e|--edges]}} {{normal|build|dev}}`
