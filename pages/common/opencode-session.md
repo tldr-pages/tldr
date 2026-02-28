@@ -3,7 +3,7 @@
 > Manage OpenCode sessions.
 > More information: <https://opencode.ai/docs/cli#session>.
 
-- List all sessions:
+- List sessions:
 
 `opencode session list`
 
