@@ -1,6 +1,6 @@
 # apptainer config
 
-> Manage various Apptainer configuration.
+> Manage various Apptainer configurations.
 > More information: <https://apptainer.org/docs/user/main/cli/apptainer_config.html>.
 
 - Add a fakeroot user mapping:
