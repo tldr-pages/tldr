@@ -18,7 +18,7 @@
 
 - 모든 작업과 그 하위 작업 재개:
 
-`pueue start --all --children`
+`pueue start {{[-a|--all]}} --children`
 
 - 특정 그룹의 모든 작업 재개:
 
