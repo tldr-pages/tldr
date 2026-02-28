@@ -5,12 +5,12 @@
 
 - 현재 컨텍스트와 관련된 계정의 잔액을 가져옴:
 
-`doctl balance get`
+`doctl balance {{[g|get]}}`
 
 - 액세스 토큰과 연결된 계정 잔액을 가져옴:
 
-`doctl balance get --access-token {{액세스_토큰}}`
+`doctl balance {{[g|get]}} {{[-t|--access-token]}} {{액세스_토큰}}`
 
 - 지정된 컨텍스트와 연결된 계정의 잔액을 가져옴:
 
-`doctl balance get --context`
+`doctl balance {{[g|get]}} --context`
