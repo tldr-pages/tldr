@@ -5,12 +5,12 @@
 
 - Kubernetes 클러스터를 지원하는 지역 목록 나열:
 
-`doctl kubernetes options regions`
+`doctl {{[k|kubernetes]}} {{[o|options]}} {{[r|regions]}}`
 
 - Kubernetes 클러스터에서 사용할 수 있는 머신 크기를 나열:
 
-`doctl kubernetes options sizes`
+`doctl {{[k|kubernetes]}} {{[o|options]}} {{[s|sizes]}}`
 
 - DigitalOcean 클러스터와 함께 사용할 수 있는 Kubernetes 버전을 나열:
 
-`doctl kubernetes options versions`
+`doctl {{[k|kubernetes]}} {{[o|options]}} {{[v|versions]}}`
