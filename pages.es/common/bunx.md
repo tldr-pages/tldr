@@ -22,4 +22,4 @@
 
 - Descarga y ejecuta una versión específica de un paquete:
 
-`bunx {{nombre_paquete@versión}} "{{argumento_del_comando}}"`
+`bunx {{nombre_paquete@version}} "{{argumento_del_comando}}"`
