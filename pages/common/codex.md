@@ -12,17 +12,17 @@
 
 `codex "{{your prompt}}"`
 
-- Run a prompt with automatic approval of all file edits and commands:
+- Run a prompt in full auto mode:
 
-`codex {{[-a|--approval-mode]}} full-auto "{{your prompt}}"`
+`codex --full-auto "{{your prompt}}"`
 
-- Use a specific provider and model:
+- Use a specific model:
 
-`codex --provider {{provider_name}} {{[-m|--model]}} {{model_name}} "{{your prompt}}"`
+`codex {{[-m|--model]}} {{model_name}} "{{your prompt}}"`
 
-- Load the entire repository as context (experimental):
+- Use a local open source model provider:
 
-`codex --full-context "{{your prompt}}"`
+`codex --oss --local-provider {{lmstudio|ollama}} "{{your prompt}}"`
 
 - [Interactive] Show the resource usage for the current session:
 
@@ -30,4 +30,4 @@
 
 - Display help:
 
-`codex --help`
+`codex {{[-h|--help]}}`
