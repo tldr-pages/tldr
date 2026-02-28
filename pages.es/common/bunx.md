@@ -14,7 +14,7 @@
 
 - Fuerza la ejecución de un ejecutable con el runtime de Bun (en lugar de Node):
 
-`bunx --bun {{nombre_paquete}}
+`bunx --bun {{nombre_paquete}}`
 
 - Ejecuta un binario que tenga un nombre distinto al de su paquete:
 
