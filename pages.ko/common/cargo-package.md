@@ -10,4 +10,4 @@
 
 - 실제로 tarball을 생성하지 않고 tarball에 포함될 파일을 표시:
 
-`cargo package --list`
+`cargo package {{[-l|--list]}}`

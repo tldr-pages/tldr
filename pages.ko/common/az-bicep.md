@@ -10,11 +10,11 @@
 
 - Bicep 파일 빌드:
 
-`az bicep build --file {{경로/대상/파일.bicep}}`
+`az bicep build {{[-f|--file]}} {{경로/대상/파일.bicep}}`
 
 - ARM 템플릿 파일을 Bicep 파일로 디컴파일 하려고 시도:
 
-`az bicep decompile --file {{경로/대상/템플릿_파일.json}}`
+`az bicep decompile {{[-f|--file]}} {{경로/대상/템플릿_파일.json}}`
 
 - Bicep CLI를 최신 버전으로 업그레이드:
 
