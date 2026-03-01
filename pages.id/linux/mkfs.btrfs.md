@@ -18,7 +18,7 @@
 
 - Tentukan label nama untuk pemasangan instalasi manajemen berkas:
 
-`sudo mkfs.btrfs --label "{{label}}" {{/dev/sda}} [{{/dev/sdN}}]`
+`sudo mkfs.btrfs {{[-L|--label]}} "{{label}}" {{/dev/sdX /dev/sdY ...}}`
 
 - Tangguhkan instalasi sistem manajemen berkas saat ini jika ditemukan dalam perangkat tersebut:
 

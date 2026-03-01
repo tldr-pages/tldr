@@ -13,6 +13,10 @@
 
 `apt search {{nama_atau_deskripsi_paket}}`
 
+- Cari paket yang tersedia dengan nama saja (mendukung kata kunci wildcard seperti `*`):
+
+`apt search {{nama_paket}}`
+
 - Tampilkan informasi tentang suatu paket:
 
 `apt show {{nama_paket}}`
@@ -28,10 +32,6 @@
 - Perbarui seluruh paket yang terpasang ke versi terbaru:
 
 `sudo apt upgrade`
-
-- Tampilkan daftar semua paket yang tersedia di dalam repositori:
-
-`apt list`
 
 - Tampilkan daftar paket yang telah terpasang:
 
