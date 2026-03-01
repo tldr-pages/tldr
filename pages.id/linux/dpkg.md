@@ -1,34 +1,29 @@
 # dpkg
 
 > Manajer paket Debian.
-> Beberapa subperintah seperti `deb` memiliki dokumentasi terpisah.
-> Lihat <https://wiki.archlinux.org/title/Pacman/Rosetta> untuk daftar perintah dalam manajer paket lain yang menyerupai perintah `dpkg`.
+> Beberapa subperintah seperti `dpkg deb` memiliki dokumentasi penggunaannya sendiri.
 > Informasi lebih lanjut: <https://manned.org/dpkg>.
 
-- Pasang suatu paket:
+- Memasang paket dari sebuah file DEB:
 
-`sudo dpkg {{[-i|--install]}} {{jalan/menuju/berkas.deb}}`
+`dpkg -i {{jalan/menuju/file.deb}}`
 
-- Hapus pemasangan sebuah paket:
+- Menghapus pemasangan sebuah paket:
 
-`sudo dpkg {{[-r|--remove]}} {{nama_paket}}`
+`dpkg -r {{nama_paket}}`
 
-- Tampilkan daftar paket yang terpasang:
+- Memperlihatkan daftar paket terinstal:
 
-`dpkg {{[-l|--list]}} {{pola_atau_kata_kunci_pencarian}}`
+`dpkg -l {{pola}}`
 
-- Lihat isi suatu paket:
+- Memperlihatkan isi sebuah paket:
 
-`dpkg {{[-L|--listfiles]}} {{nama_paket}}`
+`dpkg -L {{nama_paket}}`
 
-- Lihat isi sebuah paket dari berkas lokal:
+- Memperlihatkan isi sebuah paket lokal:
 
-`dpkg {{[-c|--contents]}} {{jalan/menuju/berkas.deb}}`
+`dpkg -c {{jalan/menuju/file.deb}}`
 
-- Cari tahu paket mana yang memiliki suatu berkas sistem:
+- Mencari tahu paket yang memiliki sebuah file:
 
-`sudo dpkg {{[-S|--search]}} {{jalan/menuju/berkas}}`
-
-- Hapus seluruh sisa data pemasangan paket, termasuk konfigurasi paket terhapus yang masih tersimpan:
-
-`sudo dpkg {{[-P|--purge]}} {{nama_paket}}`
+`dpkg -S {{nama_file}}`
