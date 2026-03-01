@@ -1,7 +1,8 @@
 # bindkey
 
 > Z-Shell에 키 바인딩을 추가.
-> 더 많은 정보: <https://zsh.sourceforge.io/Guide/zshguide04.html>.
+> 관련 항목: `zle`.
+> 더 많은 정보: <https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html#Zle-Builtins>.
 
 - 특정 명령에 단축키를 바인딩:
 
