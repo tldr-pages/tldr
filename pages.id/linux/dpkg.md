@@ -15,20 +15,20 @@
 
 - Tampilkan daftar paket terinstal:
 
-`sudo dpkg {{[-l|--list]}} {{pola}}`
+`dpkg {{[-l|--list]}} {{pola}}`
 
 - Tampilkan rincian isi suatu paket:
 
-`sudo dpkg {{[-L|--listfiles]}} {{nama_paket}}`
+`dpkg {{[-L|--listfiles]}} {{nama_paket}}`
 
 - Tampilkan rincian isi berkas sebuah paket lokal:
 
-`sudo dpkg {{[-c|--contents]}} {{jalan/menuju/berkas.deb}}`
+`dpkg {{[-c|--contents]}} {{jalan/menuju/berkas.deb}}`
 
 - Cari tahu paket yang memiliki sebuah berkas:
 
 `dpkg {{[-S|--search]}} {{jalan/menuju/berkas}}`
 
-- Hapus pemasangan paket beserta berkas konfigurasi yang dibentuk oleh paket tersebut:
+<!-- - Hapus pemasangan paket beserta berkas konfigurasi yang dibentuk oleh paket tersebut: -->
 
 `sudo dpkg {{[-P|--purge]}} {{nama_paket}}`

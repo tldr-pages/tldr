@@ -15,7 +15,7 @@
 
 - Cari paket yang tersedia dengan nama saja (mendukung kata kunci wildcard seperti `*`):
 
-`apt search {{nama_paket}}`
+`apt list {{nama_paket}}`
 
 - Tampilkan informasi tentang suatu paket:
 
