@@ -18,8 +18,8 @@
 
 - 그룹 내 모든 작업을 일시 중지하고 새로운 작업 시작 방지:
 
-`pueue pause --group {{그룹_이름}}`
+`pueue pause {{[-g|--group]}} {{그룹_이름}}`
 
 - 모든 작업을 일시 중지하고 모든 그룹의 새로운 작업 시작 방지:
 
-`pueue pause --all`
+`pueue pause {{[-a|--all]}}`
