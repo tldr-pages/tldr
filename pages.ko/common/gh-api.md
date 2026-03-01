@@ -9,19 +9,19 @@
 
 - 특정 이슈에 대해 반응 생성:
 
-`gh api --header {{Accept:application/vnd.github.squirrel-girl-preview+json}} --raw-field '{{content=+1}}' {{repos/:owner/:repo/issues/123/reactions}}`
+`gh api {{[-H|--header]}} {{Accept:application/vnd.github.squirrel-girl-preview+json}} {{[-f|--raw-field]}} '{{content=+1}}' {{repos/:owner/:repo/issues/123/reactions}}`
 
 - GraphQL 쿼리 결과를 JSON 형식으로 표시:
 
-`gh api graphql --field {{name=':repo'}} --raw-field '{{query}}'`
+`gh api graphql {{[-F|--field]}} {{name=':repo'}} {{[-f|--raw-field]}} '{{query}}'`
 
 - 사용자 지정 HTTP 메서드를 사용하여 요청 전송:
 
-`gh api --method {{POST}} {{endpoint}}`
+`gh api {{[-X|--method]}} {{POST}} {{endpoint}}`
 
 - HTTP 응답 헤더를 출력에 포함:
 
-`gh api --include {{endpoint}}`
+`gh api {{[-i|--include]}} {{endpoint}}`
 
 - 응답 본문을 출력하지 않음:
 

@@ -13,11 +13,11 @@
 
 - 작업의 단계에 대한 정보 표시:
 
-`gh run view --job={{job_number}}`
+`gh run view {{[-j|--job]}} {{job_number}}`
 
 - 작업의 로그 표시:
 
-`gh run view --job={{job_number}} --log`
+`gh run view {{[-j|--job]}} {{job_number}} --log`
 
 - 특정 워크플로를 확인하고 실행이 실패한 경우 0이 아닌 상태로 종료:
 

@@ -21,7 +21,7 @@
 
 - 특정 GitHub 엔터프라이즈 서버로 로그인:
 
-`gh auth login --hostname {{github.example.com}}`
+`gh auth login {{[-h|--hostname]}} {{github.example.com}}`
 
 - 인증 자격 증명이 올바른 최소 범위를 갖도록 세션 새로 고침 (이전에 요청된 추가 범위 제거):
 
@@ -29,4 +29,4 @@
 
 - 권한 범위 확장:
 
-`gh auth refresh --scopes {{repo,admin:repo_hook,admin:org,admin:public_key,admin:org_hook,...}}`
+`gh auth refresh {{[-s|--scopes]}} {{repo,admin:repo_hook,admin:org,admin:public_key,admin:org_hook,...}}`
