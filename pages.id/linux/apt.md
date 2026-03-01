@@ -21,7 +21,7 @@
 
 `sudo apt install {{nama_paket}}`
 
-- Hapus paket yang terpasang sebelumnya (gunakan `sudo apt purge` untuk sekaligus menghapus file konfigurasi yang dibuat oleh paket tersebut):
+- Hapus paket yang terpasang sebelumnya (gunakan `sudo apt purge` untuk sekaligus menghapus berkas konfigurasi yang dibentuk oleh paket tersebut):
 
 `sudo apt remove {{nama_paket}}`
 

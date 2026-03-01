@@ -4,7 +4,7 @@
 > Lihat juga: `yt-dlp`, `ytfzf`, `you-get`.
 > Informasi lebih lanjut: <https://rg3.github.io/youtube-dl/>.
 
-- Mengunduh sebuah video atau daftar putar:
+- Unduh suatu video atau daftar putar:
 
 `youtube-dl '{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}'`
 
@@ -12,23 +12,23 @@
 
 `youtube-dl {{[-F|--list-formats]}} '{{https://www.youtube.com/watch?v=Mwa0_nE9H7A}}'`
 
-- Mengunduh video atau daftar putar dengan kualitas tertentu:
+- Unduh video atau daftar putar dengan kualitas tertentu:
 
 `youtube-dl {{[-f|--format]}} "{{best[height<=480]}}" '{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}'`
 
-- Mengunduh audio dari video dan ubah menjadi MP3:
+- Unduh audio dari suatu video dan ubah menjadi berkas MP3:
 
 `youtube-dl {{[-x|--extract-audio]}} --audio-format {{mp3}} '{{url}}'`
 
-- Mengunduh video dan audio dengan kualitas terbaik lalu gabungkan:
+- Unduh gabungan video dan audio dengan kualitas terbaik:
 
 `youtube-dl {{[-f|--format]}} bestvideo+bestaudio '{{url}}'`
 
-- Mengunduh satu atau beberapa video sebagai file MP4 dengan nama tertentu:
+- Unduh satu atau beberapa video sebagai berkas MP4 dengan nama tertentu:
 
 `youtube-dl {{[-f|--format]}} {{mp4}} {{[-o|--output]}} "{{%(playlist_index)s-%(title)s oleh %(uploader)s pada %(upload_date)s di dalam %(playlist)s.%(ext)s}}" '{{url}}'`
 
-- Mengunduh video bersama dengan subtitle bahasa tertentu:
+- Unduh video bersama dengan subtitle bahasa tertentu:
 
 `youtube-dl --sub-lang {{en}} --write-sub '{{https://www.youtube.com/watch?v=Mwa0_nE9H7A}}'`
 
