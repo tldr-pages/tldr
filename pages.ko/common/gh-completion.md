@@ -9,11 +9,11 @@
 
 - `gh` 자동완성 스크립트를 `~/.bashrc`에 추가:
 
-`gh completion {{[-s|--shell]}} {{bash}} >> {{~/.bashrc}}`
+`gh completion {{[-s|--shell]}} bash >> ~/.bashrc`
 
 - `gh` 자동완성 스크립트를 `~/.zshrc`에 추가:
 
-`gh completion {{[-s|--shell]}} {{zsh}} >> {{~/.zshrc}}`
+`gh completion {{[-s|--shell]}} zsh >> ~/.zshrc`
 
 - 하위 명령어 도움말 표시:
 

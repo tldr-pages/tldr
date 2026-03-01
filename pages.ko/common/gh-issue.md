@@ -17,7 +17,7 @@
 
 - `bug` 라벨이 있는 최근 10개의 이슈 나열:
 
-`gh issue {{[ls|list]}} {{[-L|--limit]}} {{10}} {{[-l|--label]}} "{{bug}}"`
+`gh issue {{[ls|list]}} {{[-L|--limit]}} 10 {{[-l|--label]}} "bug"`
 
 - 특정 사용자가 만든 닫힌 이슈 나열:
 
