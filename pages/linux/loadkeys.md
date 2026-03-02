@@ -12,21 +12,21 @@
 
 `sudo loadkeys {{[-d|--default]}}`
 
-- Create a kernel source table:
+- Print the kernel source table of a keymap to `stdout`:
 
-`loadkeys {{[-m|--mktable]}}`
+`loadkeys {{[-m|--mktable]}} {{en|de|fi|...}}`
 
-- Create a binary keymap:
+- Print the binary format of a keymap to `stdout`:
 
-`loadkeys {{[-b|--bkeymap]}}`
+`loadkeys {{[-b|--bkeymap]}} {{en|de|fi|...}}`
 
 - Search and parse keymap without action:
 
-`loadkeys {{[-p|--parse]}}`
+`loadkeys {{[-p|--parse]}} {{en|de|fi|...}}`
 
-- Load the keymap suppressing all output:
+- Load a keymap from `stdin`, suppressing all output:
 
-`loadkeys {{[-q|--quiet]}}`
+`{{command}} | loadkeys {{[-q|--quiet]}}`
 
 - Set a keymap for a specific console:
 
