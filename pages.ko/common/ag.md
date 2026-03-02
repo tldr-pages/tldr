@@ -3,30 +3,30 @@
 > The Silver Searcher. `ack`과 비슷하지만, 더 빠르다.
 > 더 많은 정보: <https://manned.org/ag>.
 
-- "foo"를 포함하고 있는 파일들을 찾고, 내용에서 일치하는 행을 출력:
+- `string`을 포함하는 파일을 찾고, 일치하는 줄을 주변 문맥과 함께 출력:
 
-`ag {{foo}}`
+`ag string`
 
-- 특정 디렉토리에서 "foo"를 포함하고 있는 파일 찾기:
+- 특정 디렉터리에서 `string`을 포함하는 파일을 찾음:
 
-`ag {{foo}} {{경로/디렉토리명}}`
+`ag string {{경로/대상/디렉터리}}`
 
-- "foo"를 포함하고 있는 파일을 찾되, 파일 이름만 나열:
+- `string`을 포함하는 파일을 찾지만, 파일 이름만 출력:
 
-`ag -l {{foo}}`
+`ag {{[-l|--files-with-matches]}} string`
 
-- "FOO"를 포함하고 있는 파일들을 사례별로 찾고, 전체 라인이 아닌 일치 라인만 인쇄:
+- 대소문자를 구분하지 않고 `STRING`을 찾고, 줄 전체가 아닌 일치한 부분만 출력:
 
-`ag -i -o {{FOO}}`
+`ag {{[-i|--ignore-case]}} {{[-o|--only-matching]}} STRING`
 
-- "bar" 제목과 일치하는 파일에서 "foo" 찾기:
+- 이름이 `file_name`과 일치하는 파일에서 `string`을 찾음:
 
-`ag {{foo}} -G {{bar}}`
+`ag string {{[-G|--file-search-regex]}} file_name`
 
-- 내용이 `regex`와 일치하는 파일 찾기:
+- 내용이 `regex`와 일치하는 파일을 찾음:
 
-`ag '{{^ba(r|z)$}}'`
+`ag '{{^ca(t|r)$}}'`
 
-- 이름이 "foo"와 일치하는 파일 찾기:
+- 파일 이름이 `string`과 일치하는 파일을 찾음:
 
-`ag -g {{foo}}`
+`ag {{[-g|--filename-pattern]}} string`
