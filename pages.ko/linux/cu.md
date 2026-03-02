@@ -1,7 +1,7 @@
 # cu
 
 > 다른 시스템에 연결하여 다이얼인/직렬 터미널 역할을 하거나 오류 검사가 없는 파일 전송을 수행합니다.
-> 같이 보기: `picocom`, `minicom`, `tio`.
+> 관련 항목: `picocom`, `minicom`, `tio`.
 > 더 많은 정보: <https://manned.org/cu>.
 
 - 주어진 직렬 포트 열기:

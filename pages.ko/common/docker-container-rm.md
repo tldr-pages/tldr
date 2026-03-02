@@ -5,16 +5,16 @@
 
 - 컨테이너 제거:
 
-`docker rm {{컨테이너1 컨테이너2 ...}}`
+`docker {{[rm|container rm]}} {{컨테이너1 컨테이너2 ...}}`
 
 - 컨테이너 강제 제거:
 
-`docker rm {{[-f|--force]}} {{컨테이너1 컨테이너2 ...}}`
+`docker {{[rm|container rm]}} {{[-f|--force]}} {{컨테이너1 컨테이너2 ...}}`
 
 - 컨테이너와 그 볼륨 제거:
 
-`docker rm {{[-v|--volumes]}} {{컨테이너}}`
+`docker {{[rm|container rm]}} {{[-v|--volumes]}} {{컨테이너}}`
 
 - 도움말 표시:
 
-`docker rm {{[-h|--help]}}`
+`docker {{[rm|container rm]}} {{[-h|--help]}}`

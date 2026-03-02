@@ -1,7 +1,7 @@
 # head
 
 > 파일의 처음 부분을 출력합니다.
-> 같이 보기: `tail`.
+> 관련 항목: `tail`.
 > 더 많은 정보: <https://keith.github.io/xcode-man-pages/head.1.html>.
 
 - 파일의 처음 몇 줄을 출력:

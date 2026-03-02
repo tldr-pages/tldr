@@ -1,7 +1,7 @@
 # pacman --files
 
 > Arch Linux 패키지 관리 도구.
-> 같이 보기: `pacman`, `pkgfile`.
+> 관련 항목: `pacman`, `pkgfile`.
 > 더 많은 정보: <https://manned.org/pacman.8>.
 
 - 패키지 데이터베이스 업데이트:

@@ -1,7 +1,7 @@
 # youtube-viewer
 
 > YouTube에서 동영상을 검색하고 재생.
-> 같이 보기: `you-get`, `ytfzf`, `yt-dlp`.
+> 관련 항목: `you-get`, `ytfzf`, `yt-dlp`.
 > 더 많은 정보: <https://github.com/trizen/youtube-viewer>.
 
 - 동영상 검색:

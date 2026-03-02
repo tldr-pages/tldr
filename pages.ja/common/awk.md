@@ -2,7 +2,7 @@
 
 > ファイル操作のための汎用プログラミング言語。
 > 参照: `gawk`。
-> もっと詳しく: <https://github.com/onetrueawk/awk>。
+> 詳細情報: <https://github.com/onetrueawk/awk>。
 
 - スペースで区切られたファイルの、5列目(別名フィールド)を表示する:
 

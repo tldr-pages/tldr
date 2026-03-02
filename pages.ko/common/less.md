@@ -1,7 +1,7 @@
 # less
 
 > 파일을 인터랙티브하게 열어 스크롤 및 검색할 수 있음.
-> 더 많은 정보: <https://greenwoodsoftware.com/less/>.
+> 더 많은 정보: <https://manned.org/less>.
 
 - 파일 열기:
 

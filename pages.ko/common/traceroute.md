@@ -1,7 +1,7 @@
 # traceroute
 
 > 네트워크 호스트로 패킷 경로를 추적하여 출력.
-> 같이 보기: `mtr`.
+> 관련 항목: `mtr`.
 > 더 많은 정보: <https://manned.org/traceroute>.
 
 - 호스트로 traceroute 실행:

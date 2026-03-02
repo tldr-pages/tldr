@@ -2,7 +2,7 @@
 
 > .NET Core 用のクロスプラットフォーム .NET コマンドラインツール。
 > `build` のようないくつかのサブコマンドには、使用方法についての独自のドキュメントがあります。
-> もっと詳しく: <https://learn.microsoft.com/dotnet/core/tools>。
+> 詳細情報: <https://learn.microsoft.com/dotnet/core/tools>。
 
 - .NET プロジェクトを初期化する:
 

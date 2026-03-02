@@ -1,7 +1,7 @@
 # krita
 
 > 디지털 아티스트를 위한 스케치 및 페인팅 프로그램.
-> 같이 보기: `gimp`.
+> 관련 항목: `gimp`.
 > 더 많은 정보: <https://docs.krita.org/en/reference_manual/linux_command_line.html>.
 
 - Krita 시작:

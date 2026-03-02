@@ -19,7 +19,7 @@
 
 `gdu --ignore-dirs {{경로/대상/디렉토리1,경로/대상/디렉토리2,...}}`
 
-- 정규식으로 경로를 무시:
+- `regex`를 사용해 경로를 무시:
 
 `gdu --ignore-dirs-pattern '{{.*[abc]+}}'`
 

@@ -2,7 +2,7 @@
 
 > ワイヤレスデバイスの表示と操作を行います。
 > 参照: `iw dev`, `nmcli`, `iwctl`。
-> もっと詳しく: <https://wireless.docs.kernel.org/en/latest/en/users/documentation/iw.html>。
+> 詳細情報: <https://wireless.docs.kernel.org/en/latest/en/users/documentation/iw.html>。
 
 - 利用可能なワイヤレスネットワークをスキャンする:
 

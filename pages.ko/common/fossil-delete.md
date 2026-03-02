@@ -1,7 +1,7 @@
 # fossil delete
 
 > Fossil 버전 관리에서 파일이나 디렉터리를 제거.
-> 같이 보기: `fossil forget`.
+> 관련 항목: `fossil forget`.
 > 더 많은 정보: <https://fossil-scm.org/home/help/delete>.
 
 - Fossil 버전 관리에서 파일이나 디렉터리를 제거:

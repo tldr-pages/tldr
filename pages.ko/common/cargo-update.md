@@ -9,7 +9,7 @@
 
 - 업데이트될 내용을 표시하지만, 실제로 잠금 파일을 작성하지는 않음:
 
-`cargo update --dry-run`
+`cargo update {{[-n|--dry-run]}}`
 
 - 지정된 종속성만 업데이트함:
 

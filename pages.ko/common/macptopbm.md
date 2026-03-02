@@ -1,7 +1,7 @@
 # macptopbm
 
 > MacPaint 파일을 입력으로 받아 PBM 이미지를 출력으로 생성합니다.
-> 같이 보기: `pbmtomacp`.
+> 관련 항목: `pbmtomacp`.
 > 더 많은 정보: <https://netpbm.sourceforge.net/doc/macptopbm.html>.
 
 - MacPaint 파일을 PGM 이미지로 변환:

@@ -1,7 +1,7 @@
 # xcopy
 
 > ファイルとディレクトリツリーをコピーします。
-> もっと詳しく: <https://learn.microsoft.com/windows-server/administration/windows-commands/xcopy>。
+> 詳細情報: <https://learn.microsoft.com/windows-server/administration/windows-commands/xcopy>。
 
 - ファイル(単独または複数)を指定された宛先にコピーする:
 

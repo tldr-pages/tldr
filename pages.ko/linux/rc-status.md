@@ -1,7 +1,7 @@
 # rc-status
 
 > runlevel의 상태 정보를 표시합니다.
-> 같이 보기: `openrc`.
+> 관련 항목: `openrc`.
 > 더 많은 정보: <https://manned.org/rc-status>.
 
 - 서비스 및 해당 상태 요약 표시:

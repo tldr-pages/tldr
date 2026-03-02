@@ -1,7 +1,7 @@
 # nix-build
 
 > Nix 표현식을 빌드.
-> 같이 보기: `nix build.3`.
+> 관련 항목: `nix build.3`.
 > 더 많은 정보: <https://nix.dev/manual/nix/stable/command-ref/nix-build.html>.
 
 - Nix 표현식 빌드:

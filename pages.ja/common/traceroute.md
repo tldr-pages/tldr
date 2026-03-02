@@ -2,7 +2,7 @@
 
 > ネットワークホストへの経路パケット追跡を表示します。
 > 参照: `mtr`。
-> もっと詳しく: <https://manned.org/traceroute>。
+> 詳細情報: <https://manned.org/traceroute>。
 
 - ホストへの経路追跡:
 

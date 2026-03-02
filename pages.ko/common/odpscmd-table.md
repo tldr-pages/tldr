@@ -1,7 +1,7 @@
 # odpscmd table
 
 > ODPS(Open Data Processing Service)에서 테이블을 생성하고 수정.
-> 같이 보기: `odpscmd`.
+> 관련 항목: `odpscmd`.
 > 더 많은 정보: <https://www.alibabacloud.com/help/en/maxcompute/user-guide/maxcompute-client>.
 
 - 파티션과 수명 주기가 있는 테이블 생성:

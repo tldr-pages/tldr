@@ -1,7 +1,7 @@
 # magick montage
 
 > 이미지를 사용자 지정 가능한 그리드로 배열.
-> 같이 보기: `magick`.
+> 관련 항목: `magick`.
 > 더 많은 정보: <https://imagemagick.org/script/montage.php>.
 
 - 이미지를 그리드로 배열하고, 그리드 셀 크기보다 큰 이미지를 자동으로 크기 조정:

@@ -1,7 +1,7 @@
 # dolphin
 
 > KDE의 파일 관리자로, 파일 및 디렉토리를 관리합니다.
-> 같이 보기: `nautilus`, `caja`, `thunar`, `ranger`.
+> 관련 항목: `nautilus`, `caja`, `thunar`, `ranger`.
 > 더 많은 정보: <https://apps.kde.org/dolphin/>.
 
 - 파일 관리자 실행:

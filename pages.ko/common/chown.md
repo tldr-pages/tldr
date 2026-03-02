@@ -1,7 +1,7 @@
 # chown
 
 > 파일과 디렉토리의 사용자 및 그룹 소유권 변경.
-> 같이 보기: `chgrp`.
+> 관련 항목: `chgrp`.
 > 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/chown-invocation.html>.
 
 - 파일/디렉토리를 소유한 사용자를 변경:

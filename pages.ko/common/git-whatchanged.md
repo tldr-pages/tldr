@@ -1,7 +1,7 @@
 # git whatchanged
 
 > 최근 커밋 또는 파일의 변경 사항을 보여줍니다.
-> 같이 보기: `git log`.
+> 관련 항목: `git log`.
 > 더 많은 정보: <https://git-scm.com/docs/git-whatchanged>.
 
 - 최근 커밋의 로그와 변경 사항 표시:

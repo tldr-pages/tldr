@@ -23,10 +23,10 @@
 
 `picotool otp list`
 
-- عرض إصدار الأداة:
-
-`picotool version`
-
 - عرض المساعدة:
 
 `picotool help`
+
+- عرض إصدار الأداة:
+
+`picotool version`

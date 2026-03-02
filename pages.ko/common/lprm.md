@@ -1,7 +1,7 @@
 # lprm
 
 > 서버의 대기 중인 인쇄 작업 취소.
-> 같이 보기: `lpq`.
+> 관련 항목: `lpq`.
 > 더 많은 정보: <https://openprinting.github.io/cups/doc/man-lprm.html>.
 
 - 기본 프린터에서 현재 작업 취소:

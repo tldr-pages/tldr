@@ -17,4 +17,4 @@
 
 - 새 탭의 제목 설정:
 
-`gnome-terminal --tab --title "{{제목}}"`
+`gnome-terminal --tab {{[-t|--title]}} "{{제목}}"`

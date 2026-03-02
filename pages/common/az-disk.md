@@ -6,7 +6,7 @@
 
 - Create a managed disk:
 
-`az disk create {{[-g|--resource-group]}} {{resource_group}} {{[-n|--name]}} {{disk_name}} {{[-z|--size-gb]}}{{size_in_gb}}`
+`az disk create {{[-g|--resource-group]}} {{resource_group}} {{[-n|--name]}} {{disk_name}} {{[-z|--size-gb]}} {{size_in_gb}}`
 
 - List managed disks in a resource group:
 

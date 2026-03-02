@@ -1,7 +1,7 @@
 # pacman --query
 
 > Arch Linux 패키지 관리 도구.
-> 같이 보기: `pacman`.
+> 관련 항목: `pacman`.
 > 더 많은 정보: <https://manned.org/pacman.8>.
 
 - 설치된 패키지와 버전 나열:

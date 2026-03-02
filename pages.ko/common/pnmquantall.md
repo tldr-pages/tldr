@@ -1,7 +1,7 @@
 # pnmquantall
 
 > 여러 파일에 대해 공통 색상표를 사용하여 `pnmquant`를 실행.
-> 같이 보기: `pnmquant`.
+> 관련 항목: `pnmquant`.
 > 더 많은 정보: <https://netpbm.sourceforge.net/doc/pnmquantall.html>.
 
 - 지정된 매개 변수로 여러 파일에 `pnmquant`를 실행하여 원본 파일에 덮어쓰기:

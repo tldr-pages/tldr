@@ -2,7 +2,7 @@
 
 > Linux 커널 IPv4 방화벽의 테이블, 체인 및 규칙을 구성합니다.
 > IPv6 트래픽 규칙 설정을 위해서는 `ip6tables`를 사용하세요.
-> 같이 보기: `iptables-save`, `iptables-restore`.
+> 관련 항목: `iptables-save`, `iptables-restore`.
 > 더 많은 정보: <https://manned.org/iptables>.
 
 - 필터 테이블의 체인, 규칙, 패킷/바이트 카운터 및 라인 번호 보기:

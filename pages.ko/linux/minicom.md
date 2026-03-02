@@ -1,7 +1,7 @@
 # minicom
 
 > 디바이스의 직렬 인터페이스와 통신.
-> 같이 보기: `picocom`, `cu`, `tio`.
+> 관련 항목: `picocom`, `cu`, `tio`.
 > 더 많은 정보: <https://manned.org/minicom>.
 
 - 특정 직렬 포트 열기:

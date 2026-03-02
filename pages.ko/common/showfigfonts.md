@@ -1,7 +1,7 @@
 # showfigfonts
 
 > 사용 가능한 figlet 폰트 표시.
-> 같이 보기: `figlet`.
+> 관련 항목: `figlet`.
 > 더 많은 정보: <https://manned.org/showfigfonts>.
 
 - 사용 가능한 폰트 표시:

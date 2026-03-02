@@ -1,7 +1,7 @@
 # chafa
 
 > 터미널에서 이미지 출력.
-> 같이 보기: `catimg`, `pixterm`.
+> 관련 항목: `catimg`, `pixterm`.
 > 더 많은 정보: <https://hpjansson.org/chafa/man/>.
 
 - 터미널에서 직접 이미지를 렌더링:

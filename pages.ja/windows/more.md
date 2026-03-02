@@ -1,7 +1,7 @@
 # more
 
 > `stdin` またはファイルからのページ分割された出力を表示します。
-> もっと詳しく: <https://learn.microsoft.com/windows-server/administration/windows-commands/more>。
+> 詳細情報: <https://learn.microsoft.com/windows-server/administration/windows-commands/more>。
 
 - `stdin`の出力をページ分割して表示する:
 

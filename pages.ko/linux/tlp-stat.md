@@ -1,7 +1,7 @@
 # tlp-stat
 
 > TLP 상태 보고서 생성.
-> 같이 보기: `tlp`.
+> 관련 항목: `tlp`.
 > 더 많은 정보: <https://linrunner.de/tlp/usage/tlp-stat>.
 
 - 구성 및 모든 활성 설정으로 상태 보고서 생성:

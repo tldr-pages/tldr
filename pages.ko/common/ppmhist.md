@@ -1,7 +1,7 @@
 # ppmhist
 
 > PPM 이미지에 포함된 색상의 히스토그램을 출력.
-> 같이 보기: `pgmhist`.
+> 관련 항목: `pgmhist`.
 > 더 많은 정보: <https://netpbm.sourceforge.net/doc/ppmhist.html>.
 
 - 사람이 읽을 수 있는 형식으로 히스토그램 생성:

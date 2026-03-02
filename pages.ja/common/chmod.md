@@ -1,7 +1,7 @@
 # chmod
 
 > ファイルやディレクトリのアクセス権限を変更します。
-> もっと詳しく: <https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html>。
+> 詳細情報: <https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html>。
 
 - ファイルを所有する [u]ser に、そのファイルを実行 ([x]ecute) する権限を付与する:
 

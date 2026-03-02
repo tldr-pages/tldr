@@ -2,7 +2,7 @@
 
 > 가속기를 다운로드 하십시오.
 > HTTP, HTTPS, FTP를 지원합니다.
-> 같이 보기: `aria2c`.
+> 관련 항목: `aria2c`.
 > 더 많은 정보: <https://manned.org/axel>.
 
 - 파일로 URL 다운로드:

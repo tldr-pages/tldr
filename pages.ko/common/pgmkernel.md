@@ -1,7 +1,7 @@
 # pgmkernel
 
 > `pnmconvol`과 함께 사용할 합성 커널을 생성.
-> 같이 보기: `pnmconvol`.
+> 관련 항목: `pnmconvol`.
 > 더 많은 정보: <https://netpbm.sourceforge.net/doc/pgmkernel.html>.
 
 - 합성 커널 생성:

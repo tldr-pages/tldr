@@ -1,7 +1,7 @@
 # pw-cli
 
 > PipeWire 인스턴스의 모듈, 객체, 노드, 장치, 링크 등을 관리.
-> 같이 보기: `wpctl`.
+> 관련 항목: `wpctl`.
 > 더 많은 정보: <https://docs.pipewire.org/page_man_pw-cli_1.html>.
 
 - 모든 노드(싱크 및 소스)와 그 ID를 출력:

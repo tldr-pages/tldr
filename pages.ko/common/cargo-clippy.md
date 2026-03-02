@@ -21,15 +21,15 @@
 
 - 린트 그룹에 대한 검사 실행 (<https://rust-lang.github.io/rust-clippy/stable/index.html#?groups=cargo,complexity,correctness,deprecated,nursery,pedantic,perf,restriction,style,suspicious> 참조):
 
-`cargo clippy -- --warn clippy::{{린트_그룹}}`
+`cargo clippy -- {{[-W|--warn]}} clippy::{{린트_그룹}}`
 
 - 경고를 오류로 처리:
 
-`cargo clippy -- --deny warnings`
+`cargo clippy -- {{[-D|--deny]}} warnings`
 
 - 검사를 실행하고 경고를 무시:
 
-`cargo clippy -- --allow warnings`
+`cargo clippy -- {{[-A|--allow]}} warnings`
 
 - Clippy 제안을 자동으로 적용:
 

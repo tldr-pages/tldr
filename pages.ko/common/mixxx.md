@@ -1,7 +1,7 @@
 # mixxx
 
 > 무료 및 오픈 소스 크로스 플랫폼 DJ 소프트웨어.
-> 같이 보기: `lmms`.
+> 관련 항목: `lmms`.
 > 더 많은 정보: <https://mixxx.org/manual/latest/chapters/appendix.html#command-line-options>.
 
 - Mixxx GUI를 전체 화면으로 시작:

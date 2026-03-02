@@ -9,19 +9,19 @@
 
 - 기본 브라우저에서 특정 워크플로우 보기:
 
-`gh workflow view {{id|workflow_name|filename.yml}} --web`
+`gh workflow view {{id|workflow_name|filename.yml}} {{[-w|--web]}}`
 
 - 특정 워크플로우의 YAML 정의 표시:
 
-`gh workflow view {{id|workflow_name|filename.yml}} --yaml`
+`gh workflow view {{id|workflow_name|filename.yml}} {{[-y|--yaml]}}`
 
 - 특정 Git 브랜치 또는 태그의 YAML 정의 표시:
 
-`gh workflow view {{id|workflow_name|filename.yml}} --ref {{branch|tag_name}} --yaml`
+`gh workflow view {{id|workflow_name|filename.yml}} {{[-r|--ref]}} {{branch|tag_name}} {{[-y|--yaml]}}`
 
 - 워크플로우 파일 나열 (`--all`을 사용하여 비활성 워크플로우 포함 가능):
 
-`gh workflow list`
+`gh workflow {{[ls|list]}}`
 
 - 매개변수와 함께 수동으로 워크플로우 실행:
 
@@ -29,7 +29,7 @@
 
 - 특정 브랜치 또는 태그를 사용하여 `stdin`에서 JSON 매개변수로 수동 워크플로우 실행:
 
-`echo '{{{"param1": "value1", "param2": "value2", ...}}}' | gh workflow run {{id|workflow_name|filename.yml}} --ref {{branch|tag_name}}`
+`echo '{{{"param1": "value1", "param2": "value2", ...}}}' | gh workflow run {{id|workflow_name|filename.yml}} {{[-r|--ref]}} {{branch|tag_name}}`
 
 - 특정 워크플로우 활성화 또는 비활성화:
 

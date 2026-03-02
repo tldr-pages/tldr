@@ -1,7 +1,7 @@
 # fitstopnm
 
 > FITS(Flexible Image Transport System) 파일을 PNM 이미지로 변환.
-> 같이 보기: `pamtofits`.
+> 관련 항목: `pamtofits`.
 > 더 많은 정보: <https://netpbm.sourceforge.net/doc/fitstopnm.html>.
 
 - FITS 파일을 PNM 이미지로 변환:

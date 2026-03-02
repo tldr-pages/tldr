@@ -1,7 +1,7 @@
 # ffmpeg
 
 > 비디오 변환 도구.
-> 같이 보기: `gst-launch-1.0`.
+> 관련 항목: `gst-launch-1.0`.
 > 더 많은 정보: <https://ffmpeg.org/ffmpeg.html#Options>.
 
 - 비디오에서 사운드를 추출하여 MP3로 저장:

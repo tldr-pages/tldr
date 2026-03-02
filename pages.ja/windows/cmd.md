@@ -1,7 +1,7 @@
 # cmd
 
 > Windowsコマンドインタープリター。
-> もっと詳しく: <https://learn.microsoft.com/windows-server/administration/windows-commands/cmd>。
+> 詳細情報: <https://learn.microsoft.com/windows-server/administration/windows-commands/cmd>。
 
 - コマンドインタープリターの新しいインスタンスを開始します:
 

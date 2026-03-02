@@ -1,7 +1,7 @@
 # ranger
 
 > VI 키 바인딩을 사용하는 콘솔 파일 관리자.
-> 같이 보기: `clifm`, `vifm`, `mc`, `dolphin`.
+> 관련 항목: `clifm`, `vifm`, `mc`, `dolphin`.
 > 더 많은 정보: <https://github.com/ranger/ranger/blob/master/doc/ranger.pod>.
 
 - ranger 실행:

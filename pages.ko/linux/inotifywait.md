@@ -1,7 +1,7 @@
 # inotifywait
 
 > 파일 변경을 대기합니다.
-> 같이 보기: `fatrace`.
+> 관련 항목: `fatrace`.
 > 더 많은 정보: <https://manned.org/inotifywait>.
 
 - 특정 파일의 이벤트를 감시하고 첫 번째 이벤트 이후 종료:

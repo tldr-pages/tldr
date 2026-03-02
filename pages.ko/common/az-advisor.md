@@ -10,7 +10,7 @@
 
 - 지정된 구독 또는 리소스 그룹에 대한 Azure Advisor 구성을 표시:
 
-`az advisor configuration show --resource_group {{리소스_그룹}}`
+`az advisor configuration show {{[-g|--resource-group]}} {{리소스_그룹}}`
 
 - Azure Advisor 권장사항 나열:
 
@@ -18,8 +18,8 @@
 
 - Azure Advisor 권장사항 활성화:
 
-`az advisor recommendation enable --resource_group {{리소스_그룹}}`
+`az advisor recommendation enable {{[-g|--resource-group]}} {{리소스_그룹}}`
 
 - Azure Advisor 권장사항 비활성화:
 
-`az advisor recommendation disable --resource_group {{리소스_그룹}}`
+`az advisor recommendation disable {{[-g|--resource-group]}} {{리소스_그룹}}`

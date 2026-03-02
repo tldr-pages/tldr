@@ -1,7 +1,7 @@
 # wl-copy
 
 > Wayland 클립보드에 복사 및 지우기.
-> 같이 보기: `wl-paste`, `xclip`.
+> 관련 항목: `wl-paste`, `xclip`.
 > 더 많은 정보: <https://github.com/bugaevc/wl-clipboard>.
 
 - 텍스트를 클립보드에 복사:

@@ -1,7 +1,7 @@
 # calligrastage
 
 > Calligra의 프레젠테이션 애플리케이션.
-> 같이 보기: `calligraflow`, `calligrawords`, `calligrasheets`.
+> 관련 항목: `calligraflow`, `calligrawords`, `calligrasheets`.
 > 더 많은 정보: <https://manned.org/calligrastage>.
 
 - 프레젠테이션 애플리케이션 싱ㄹ행:

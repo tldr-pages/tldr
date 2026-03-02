@@ -1,7 +1,7 @@
 # linode-cli lke
 
 > Linode Kubernetes Engine (LKE) 클러스터 관리.
-> 같이 보기: `linode-cli`.
+> 관련 항목: `linode-cli`.
 > 더 많은 정보: <https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-lke>.
 
 - 모든 LKE 클러스터 나열:

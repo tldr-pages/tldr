@@ -1,7 +1,7 @@
 # gh screensaver
 
 > GitHub CLI용 확장 기능으로 애니메이션 터미널 화면 보호기를 실행합니다.
-> 같이 보기: `gh extension`.
+> 관련 항목: `gh extension`.
 > 더 많은 정보: <https://github.com/vilmibm/gh-screensaver>.
 
 - 무작위 화면 보호기 실행:

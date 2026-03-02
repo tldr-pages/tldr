@@ -1,7 +1,7 @@
 # mitmproxy
 
 > 대화형 중간자 HTTP 프록시.
-> 같이 보기: `mitmweb`, `mitmdump`.
+> 관련 항목: `mitmweb`, `mitmdump`.
 > 더 많은 정보: <https://docs.mitmproxy.org/stable/>.
 
 - 기본 설정으로 `mitmproxy` 시작 (포트 `8080`에서 대기):

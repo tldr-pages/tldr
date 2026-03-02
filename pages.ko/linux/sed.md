@@ -1,7 +1,7 @@
 # sed
 
 > 스크립트 방식으로 텍스트를 편집합니다.
-> 같이 보기: `awk`, `ed`.
+> 관련 항목: `awk`, `ed`.
 > 더 많은 정보: <https://www.gnu.org/software/sed/manual/sed.html>.
 
 - 모든 입력 줄에서 `apple` (기본 `regex`) 발생 부분을 `mango` (기본 `regex`)로 대체하고 결과를 `stdout`에 출력:

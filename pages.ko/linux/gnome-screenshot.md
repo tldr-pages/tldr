@@ -9,27 +9,27 @@
 
 - 스크린샷을 찍고 지정한 파일 위치에 저장:
 
-`gnome-screenshot --file {{경로/대상/파일}}`
+`gnome-screenshot {{[-f|--file]}} {{경로/대상/파일}}`
 
 - 스크린샷을 찍고 클립보드에 저장:
 
-`gnome-screenshot --clipboard`
+`gnome-screenshot {{[-c|--clipboard]}}`
 
 - 지정한 초 후에 스크린샷 찍기:
 
-`gnome-screenshot --delay {{5}}`
+`gnome-screenshot {{[-d|--delay]}} {{5}}`
 
 - GNOME Screenshot GUI 실행:
 
-`gnome-screenshot --interactive`
+`gnome-screenshot {{[-i|--interactive]}}`
 
 - 현재 창의 스크린샷을 찍고 지정한 파일 위치에 저장:
 
-`gnome-screenshot --window --file {{경로/대상/파일}}`
+`gnome-screenshot {{[-w|--window]}} {{[-f|--file]}} {{경로/대상/파일}}`
 
 - 지정한 초 후에 스크린샷 찍고 클립보드에 저장:
 
-`gnome-screenshot --delay {{10}} --clipboard`
+`gnome-screenshot {{[-d|--delay]}} {{10}} {{[-c|--clipboard]}}`
 
 - 버전 표시:
 

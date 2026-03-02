@@ -1,7 +1,7 @@
 # youtube-dl
 
 > YouTube 및 다른 웹사이트에서 비디오를 다운로드.
-> 같이 보기: `yt-dlp`, `ytfzf`, `you-get`.
+> 관련 항목: `yt-dlp`, `ytfzf`, `you-get`.
 > 더 많은 정보: <https://rg3.github.io/youtube-dl/>.
 
 - 비디오 또는 재생 목록 다운로드:

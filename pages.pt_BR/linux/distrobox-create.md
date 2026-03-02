@@ -7,8 +7,8 @@
 
 - Cria um contêiner Distrobox usando a imagem do Ubuntu:
 
-`distrobox-create {{nome_do_contêiner}} --image {{ubuntu:latest}}`
+`distrobox-create {{nome_do_contêiner}} {{[-i|--image]}} {{ubuntu:latest}}`
 
 - Clona um contêiner Distrobox:
 
-`distrobox-create --clone {{nome_do_contêiner}} {{nome_do_contêiner_clonado}}`
+`distrobox-create {{[-c|--clone]}} {{nome_do_contêiner}} {{nome_do_contêiner_clonado}}`

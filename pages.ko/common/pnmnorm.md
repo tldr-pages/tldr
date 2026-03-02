@@ -1,7 +1,7 @@
 # pnmnorm
 
 > PNM 이미지의 대비를 정규화합니다.
-> 같이 보기: `pnmhisteq`.
+> 관련 항목: `pnmhisteq`.
 > 더 많은 정보: <https://netpbm.sourceforge.net/doc/pnmnorm.html>.
 
 - 가장 밝은 픽셀을 흰색으로, 가장 어두운 픽셀을 검은색으로 설정하고 그 사이의 픽셀을 선형적으로 분포시키기:

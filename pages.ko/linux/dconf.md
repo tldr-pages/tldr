@@ -1,7 +1,7 @@
 # dconf
 
 > dconf 데이터베이스 관리.
-> 같이 보기: `dconf-read`, `dconf-reset`, `dconf-write`, `gsettings`.
+> 관련 항목: `dconf-read`, `dconf-reset`, `dconf-write`, `gsettings`.
 > 더 많은 정보: <https://manned.org/dconf>.
 
 - 특정 키 값을 출력:

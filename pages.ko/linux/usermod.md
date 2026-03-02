@@ -1,7 +1,7 @@
 # usermod
 
 > 사용자 계정을 수정합니다.
-> 같이 보기: `users`, `useradd`, `userdel`.
+> 관련 항목: `users`, `useradd`, `userdel`.
 > 더 많은 정보: <https://manned.org/usermod>.
 
 - 사용자명을 변경:

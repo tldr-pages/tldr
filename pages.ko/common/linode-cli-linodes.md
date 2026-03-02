@@ -1,7 +1,7 @@
 # linode-cli linodes
 
 > Linode 인스턴스를 관리.
-> 같이 보기: `linode-cli`.
+> 관련 항목: `linode-cli`.
 > 더 많은 정보: <https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-compute-instances>.
 
 - 모든 Linode 나열:

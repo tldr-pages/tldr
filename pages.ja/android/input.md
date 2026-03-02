@@ -2,7 +2,7 @@
 
 > イベントコードまたはタッチスクリーンジェスチャーをAndroidデバイスに送信します。
 > このコマンドは `adb shell` 経由でのみ実行できます。
-> もっと詳しく: <https://developer.android.com/reference/android/view/KeyEvent.html#constants_1>。
+> 詳細情報: <https://developer.android.com/reference/android/view/KeyEvent.html#constants_1>。
 
 - Androidデバイスに1文字のイベントコードを送信します:
 

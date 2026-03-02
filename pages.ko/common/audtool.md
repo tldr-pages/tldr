@@ -1,7 +1,7 @@
 # audtool
 
 > 명령을 사용해 Audacious 제어.
-> 같이 보기: `audacious`.
+> 관련 항목: `audacious`.
 > 더 많은 정보: <https://manned.org/audtool>.
 
 - 오디오 재생/일시 중지:

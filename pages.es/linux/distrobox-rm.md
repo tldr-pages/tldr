@@ -10,4 +10,4 @@
 
 - Quita un contenedor Distrobox a la fuerza:
 
-`distrobox-rm {{nombre_del_contenedor}} --force`
+`distrobox-rm {{nombre_del_contenedor}} {{[-f|--force]}}`

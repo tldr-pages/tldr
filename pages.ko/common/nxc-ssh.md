@@ -1,7 +1,7 @@
 # nxc ssh
 
 > SSH 서버를 침투 테스트하고 익스플로잇.
-> 같이 보기: `hydra`.
+> 관련 항목: `hydra`.
 > 더 많은 정보: <https://www.netexec.wiki/ssh-protocol/password-spraying>.
 
 - 지정된 대상에서 사용자 목록에 대해 특정 [p]비밀번호를 스프레이:
