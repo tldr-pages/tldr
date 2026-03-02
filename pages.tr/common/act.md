@@ -5,7 +5,7 @@
 
 - Kullanılabilir görevleri listele:
 
-`act {{--list}}`
+`act {{[-l|--list]}}`
 
 - Varsayılan olayı çalıştır:
 
@@ -17,16 +17,16 @@
 
 - Belirli bir görevi çalıştır:
 
-`act {{--job}} {{gorev_id}}`
+`act {{[-j|--job]}} {{gorev_id}}`
 
 - Eylemleri gerçekten çalıştırma (yani bir deneme/kuru çalıştır):
 
-`act {{--dryrun}}`
+`act {{[-n|--dryrun]}}`
 
 - Ayrıntılı güncükleri göster:
 
-`act {{--verbose}}`
+`act {{[-v|--verbose]}}`
 
 - Belirli bir iş akışını push olayıyla çalıştır:
 
-`act push {{--workflows}} {{path/to/workflow}}`
+`act push {{[-W|--workflows]}} {{path/to/workflow}}`
