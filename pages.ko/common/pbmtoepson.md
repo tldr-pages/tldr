@@ -1,7 +1,7 @@
 # pbmtoepson
 
 > PBM 이미지를 Epson 프린터 그래픽으로 변환.
-> 같이 보기: `pbmtoescp2`.
+> 관련 항목: `pbmtoescp2`.
 > 더 많은 정보: <https://netpbm.sourceforge.net/doc/pbmtoepson.html>.
 
 - PBM 이미지를 Epson 프린터 그래픽으로 변환:

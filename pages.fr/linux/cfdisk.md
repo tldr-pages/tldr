@@ -1,6 +1,7 @@
 # cfdisk
 
 > Un programme pour gérer les tables de partitions et les partitions sur un disque dur en utilisant une interface utilisateur de type "curses".
+> Voir aussi : `parted`.
 > Plus d'informations : <https://manned.org/cfdisk>.
 
 - Lance le manipulateur de partitions sur un appareil spécifique :

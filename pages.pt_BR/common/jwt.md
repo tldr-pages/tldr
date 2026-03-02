@@ -10,12 +10,12 @@
 
 - Decodifica um JWT em uma JSON string:
 
-`jwt decode -j {{jwt_string}}`
+`jwt decode {{[-j|--json]}} {{jwt_string}}`
 
 - Codifica uma JSON string em um JWT:
 
-`jwt encode --alg {{HS256}} --secret {{1234567890}} '{{json_string}}'`
+`jwt encode {{[-A|--alg]}} {{HS256}} {{[-S|--secret]}} {{1234567890}} '{{json_string}}'`
 
 - Codifica dados (payload) de um par de chaves (key pair) em um JWT:
 
-`jwt encode --alg {{HS256}} --secret {{1234567890}} -P {{chave=valor}}`
+`jwt encode {{[-A|--alg]}} {{HS256}} {{[-S|--secret]}} {{1234567890}} {{[-P|--payload]}} {{chave=valor}}`

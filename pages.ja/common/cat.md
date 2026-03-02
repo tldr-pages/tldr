@@ -1,7 +1,7 @@
 # cat
 
 > ファイルの出力と連結を行います。
-> もっと詳しく: <https://manned.org/cat.1posix>。
+> 詳細情報: <https://manned.org/cat.1posix>。
 
 - ファイルの内容を標準出力に出力する:
 

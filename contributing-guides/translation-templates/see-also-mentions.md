@@ -186,7 +186,7 @@ This file contains the translation templates of this notice.
 ### ko
 
 ```markdown
-> 같이 보기: `example`.
+> 관련 항목: `example`.
 ```
 
 ---
@@ -290,7 +290,7 @@ This file contains the translation templates of this notice.
 ### ta
 
 ```markdown
-> இதையும் பார்க்கவும்: `example`.
+> மேலும் காண்க: `example`.
 ```
 
 ---

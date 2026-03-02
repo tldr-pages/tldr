@@ -1,11 +1,16 @@
 # opencode
 
 > An AI coding agent.
+> Some subcommands such as `auth`, `models`, `web`, etc. have their own usage documentation.
 > More information: <https://opencode.ai/docs/cli/>.
 
 - Start the interactive TUI:
 
 `opencode`
+
+- Continue the most recent session:
+
+`opencode {{[-c|--continue]}}`
 
 - Run opencode in non-interactive mode by passing a prompt directly:
 
@@ -26,10 +31,6 @@
 - Start a headless opencode server for API access:
 
 `opencode serve {{[-h|--hostname]}} {{hostname}} {{[-p|--port]}} {{port}}`
-
-- Manage AI assistant agents for OpenCode:
-
-`opencode agent {{command}}`
 
 - Create a new agent with custom configuration:
 

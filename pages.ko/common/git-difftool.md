@@ -1,7 +1,7 @@
 # git difftool
 
 > 외부 diff 도구를 사용하여 파일 변경 사항을 표시합니다. `git diff`와 동일한 옵션과 인수를 허용합니다.
-> 같이 보기: `git diff`.
+> 관련 항목: `git diff`.
 > 더 많은 정보: <https://git-scm.com/docs/git-difftool>.
 
 - 사용 가능한 diff 도구 나열:

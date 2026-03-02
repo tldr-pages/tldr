@@ -1,7 +1,7 @@
 # flips
 
 > IPS 및 BPS 파일용 패치를 생성하고 적용.
-> 더 많은 정보: <https://github.com/Alcaro/Flips>.
+> 더 많은 정보: <https://git.disroot.org/Sir_Walrus/Flips>.
 
 - 대화형으로 패치를 생성하고 적용하려면 Flips를 시작:
 

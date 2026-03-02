@@ -6,11 +6,11 @@
 
 - 새로운 SSH 키를 생성:
 
-`az sshkey create --name {{이름}} --resource-group {{리소스_그룹}}`
+`az sshkey create --name {{이름}} {{[-g|--resource-group]}} {{리소스_그룹}}`
 
 - 기존 SSH 키 업로드:
 
-`az sshkey create --name {{이름}} --resource-group {{리소스_그룹}} --public-key "{{@path/to/key.pub}}"`
+`az sshkey create --name {{이름}} {{[-g|--resource-group]}} {{리소스_그룹}} --public-key "{{@path/to/key.pub}}"`
 
 - 모든 SSH 공개 키를 나열:
 
@@ -18,4 +18,4 @@
 
 - SSH 공개 키를 대한 정보 표시:
 
-`az sshkey show --name {{이름}} --resource-group {{리소스_그룹}}`
+`az sshkey show --name {{이름}} {{[-g|--resource-group]}} {{리소스_그룹}}`

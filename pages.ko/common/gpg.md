@@ -1,6 +1,7 @@
 # gpg
 
 > GNU Privacy Guard.
+> 관련 항목: `sq`.
 > 더 많은 정보: <https://gnupg.org/documentation/manuals/gnupg/Invoking-GPG.html>.
 
 - GPG 공개 및 개인 키를 대화형으로 생성:

@@ -1,7 +1,12 @@
 # bindkey
 
-> Add keybindings to Z-Shell.
-> More information: <https://zsh.sourceforge.io/Guide/zshguide04.html>.
+> Add hotkeys to Z shell.
+> See also: `zle`.
+> More information: <https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html#Zle-Builtins>.
+
+- List all existing hotkeys:
+
+`bindkey`
 
 - Bind a hotkey to a specific command:
 
@@ -15,9 +20,9 @@
 
 `bindkey -l`
 
-- View the hotkey in a key[M]ap:
+- List all hotkeys in a key[M]ap:
 
-`bindkey -M main`
+`bindkey -M {{main}}`
 
 - Enable [v]i mode:
 

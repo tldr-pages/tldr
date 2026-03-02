@@ -18,16 +18,16 @@ jobs:
       PULL_REQUEST_ID: ${{ github.event.number || '' }}
 
     steps:
-    - uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
+    - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
       with:
         fetch-depth: 0
 
-    - uses: actions/setup-python@83679a892e2d95755f2dac6acb0bfd1e9ac5d548 # v6.1.0
+    - uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
       with:
         python-version: '3.12'
         cache: 'pip'
 
-    - uses: actions/setup-node@395ad3262231945c25e8478fd5baf05154b1d79f # v6.1.0
+    - uses: actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238 # v6.2.0
       with:
         node-version: 'lts/*'
         cache: 'npm'
@@ -108,7 +108,7 @@ jobs:
     - name: Attest generated files
       if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
       id: attest
-      uses: actions/attest-build-provenance@00014ed6ed5efc5b1ab7f7f34a39eb55d41aa4f8 # v3.1.0
+      uses: actions/attest-build-provenance@96278af6caaf10aea03fd8d33a09a777ca52d62f # v3.2.0
       continue-on-error: true # prevent failing when no pages are modified
       with:
         subject-path: ${{ env.subject_path }}

@@ -1,7 +1,7 @@
 # transmission-show
 
 > 토렌트 파일에 대한 정보 가져오기.
-> 같이 보기: `transmission`.
+> 관련 항목: `transmission`.
 > 더 많은 정보: <https://manned.org/transmission-show>.
 
 - 특정 토렌트의 메타데이터 표시:

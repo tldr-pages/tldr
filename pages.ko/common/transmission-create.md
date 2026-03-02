@@ -1,7 +1,7 @@
 # transmission-create
 
 > BitTorrent `.torrent` 파일 만들기.
-> 같이 보기: `transmission`.
+> 관련 항목: `transmission`.
 > 더 많은 정보: <https://manned.org/transmission-create>.
 
 - 2048 KB를 조각 크기로 하여 토렌트 생성:

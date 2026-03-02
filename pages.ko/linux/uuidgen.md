@@ -1,7 +1,7 @@
 # uuidgen
 
 > 고유 식별자(UUID)를 생성합니다.
-> 같이 보기: `uuid`.
+> 관련 항목: `uuid`.
 > 더 많은 정보: <https://manned.org/uuidgen>.
 
 - 무작위 UUIDv4 생성:

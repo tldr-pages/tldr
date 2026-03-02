@@ -1,7 +1,7 @@
 # immich
 
 > Immich에는 커멘드라인에서 특정 작업을 수행할 수 있는 커멘드라인 인터페이스 (CLI)가 있음.
-> 같이 보기: `immich-go`.
+> 관련 항목: `immich-go`.
 > 더 많은 정보: <https://docs.immich.app/features/command-line-interface/>.
 
 - Immich 서버에 인증:

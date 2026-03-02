@@ -13,7 +13,7 @@
 
 - Restaura dependencias sin almacenar las solicitudes HTTP en caché:
 
-`dotnet restore --no-cache`
+`dotnet restore --no-http-cache`
 
 - Obliga a todas las dependencias a ser resueltas incluso si la última restauración fue exitosa:
 
@@ -25,4 +25,4 @@
 
 - Restaura dependencias con un nivel específico de verbosidad:
 
-`dotnet restore --verbosity {{quiet|minimal|normal|detailed|diagnostic}}`
+`dotnet restore {{[-v|--verbosity]}} {{quiet|minimal|normal|detailed|diagnostic}}`

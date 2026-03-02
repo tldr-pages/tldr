@@ -3,7 +3,7 @@
 > Generate and show Terraform execution plans.
 > More information: <https://developer.hashicorp.com/terraform/cli/commands/plan>.
 
-- Generate and show the execution plan in the currently directory:
+- Generate and show the execution plan in the current directory:
 
 `terraform plan`
 
@@ -21,7 +21,7 @@
 
 - Focus Terraform's attention on only a subset of resources:
 
-`terraform plan -target {{resource_type.resource_name[instance index]}}`
+`terraform plan -target {{resource_type.resource_name[instance_index]}}`
 
 - Output a plan as JSON:
 

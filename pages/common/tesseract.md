@@ -9,7 +9,7 @@
 
 - Specify a custom [l]anguage (default is English) with an ISO 639-2 code (e.g. deu = Deutsch = German):
 
-`tesseract -l deu {{path/to/image.png}} {{path/to/output}}`
+`tesseract -l deu {{path/to/image.png}} {{path/to/output_file}}`
 
 - List the ISO 639-2 codes of installed languages:
 
@@ -17,7 +17,7 @@
 
 - Specify a custom [p]age [s]egmentation [m]ode (default is 3):
 
-`tesseract --psm {{0..13}} {{path/to/image.png}} {{path/to/output}}`
+`tesseract --psm {{0..13}} {{path/to/image.png}} {{path/to/output_file}}`
 
 - List page segmentation modes and their descriptions:
 

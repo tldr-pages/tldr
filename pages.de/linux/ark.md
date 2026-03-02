@@ -1,16 +1,16 @@
 # ark
 
 > KDE-Archivierungstool.
-> Weitere Informationen: <https://docs.kde.org/stable5/en/ark/ark/>.
+> Weitere Informationen: <https://docs.kde.org/stable_kf6/en/ark/ark/>.
 
 - Extrahiere ein Archiv ins aktuelle Verzeichnis:
 
-`ark --batch {{pfad/zu/archiv}}`
+`ark {{[-b|--batch]}} {{pfad/zu/archiv}}`
 
 - Verändere das Verzeichnis in das extrahiert wird:
 
-`ark --batch --destination {{pfad/zu/verzeichnis}} {{pfad/zu/archiv}}`
+`ark {{[-b|--batch]}} {{[-o|--destination]}} {{pfad/zu/verzeichnis}} {{pfad/zu/archiv}}`
 
 - Erstelle ein Archiv wenn es nicht existiert und füge Dateien hinzu:
 
-`ark --add-to {{pfad/zu/archiv}} {{pfad/zu/datei1 pfad/zu/datei2 ...}}`
+`ark {{[-t|--add-to]}} {{pfad/zu/archiv}} {{pfad/zu/datei1 pfad/zu/datei2 ...}}`

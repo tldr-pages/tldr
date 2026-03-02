@@ -9,7 +9,7 @@
 
 - Belirtilen nesnede varolan yer değiştirme referanslarını sil:
 
-`git replace --delete {{nesne}}`
+`git replace {{[-d|--delete]}} {{nesne}}`
 
 - Bir nesnenin içeriğini etkileşimli olarak düzenle:
 

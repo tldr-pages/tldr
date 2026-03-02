@@ -9,4 +9,4 @@
 
 - 추가 빌드 정보 표시:
 
-`cargo version --verbose`
+`cargo version {{[-v|--verbose]}}`

@@ -1,6 +1,6 @@
 # rnano
 
-> Questo comando è un alias di `nano --restricted`.
+> Questo comando è un alias per `nano --restricted`.
 > Maggiori informazioni: <https://manned.org/rnano>.
 
 - Visualizza la documentazione per il comando originale:

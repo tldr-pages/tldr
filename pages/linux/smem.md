@@ -7,7 +7,7 @@
 
 `smem`
 
-- Print memory usage for current processes for a every user on a system:
+- Print memory usage for current processes for every user on a system:
 
 `smem --users`
 

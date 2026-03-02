@@ -1,7 +1,7 @@
 # git switch
 
 > Git 브랜치 간 전환합니다. Git 버전 2.23+가 필요합니다.
-> 같이 보기: `git checkout`.
+> 관련 항목: `git checkout`.
 > 더 많은 정보: <https://git-scm.com/docs/git-switch>.
 
 - 기존 브랜치로 전환:

@@ -12,9 +12,9 @@
 
 `bun pm bin`
 
-- List installed dependencies:
+- Display the default trusted dependencies:
 
-`bun pm ls`
+`bun pm default-trusted`
 
 - Print the npm registry username:
 
@@ -24,9 +24,9 @@
 
 `bun pm hash`
 
-- Print the path to Bun's global module cache:
+- List the current untrusted dependencies that contain scripts:
 
-`bun pm cache`
+`bun pm untrusted`
 
 - Migrate another package manager's lockfile without installing anything:
 

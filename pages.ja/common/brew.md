@@ -2,7 +2,7 @@
 
 > Homebrew - macOS と Linux 用のパッケージマネージャ。
 > `install` のようないくつかのサブコマンドには、使用方法についての独自のドキュメントがあります。
-> もっと詳しく: <https://docs.brew.sh/Manpage>。
+> 詳細情報: <https://docs.brew.sh/Manpage>。
 
 - formulae や cask の最新の安定版をインストールする:
 

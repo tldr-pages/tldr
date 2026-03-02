@@ -11,6 +11,10 @@
 
 `pipx install {{package}}`
 
+- Uninstall a package:
+
+`pipx uninstall {{package}}`
+
 - List installed packages:
 
 `pipx list`

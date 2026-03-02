@@ -2,7 +2,7 @@
 
 > マニュアルページから、一行の説明文を表示します。
 > 参照: `man`, `whereis`。
-> もっと詳しく: <https://manned.org/whatis>。
+> 詳細情報: <https://manned.org/whatis>。
 
 - manページの説明文を表示する:
 
