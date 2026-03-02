@@ -29,6 +29,6 @@
 
 `dpkg {{[-S|--search]}} {{jalan/menuju/berkas}}`
 
-<!-- - Hapus pemasangan paket beserta berkas konfigurasi yang dibentuk oleh paket tersebut: -->
+- Hapus pemasangan paket beserta berkas konfigurasi yang dibentuk oleh paket tersebut:
 
 `sudo dpkg {{[-P|--purge]}} {{nama_paket}}`
