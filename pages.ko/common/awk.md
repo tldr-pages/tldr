@@ -1,37 +1,38 @@
 # awk
 
-> 파일 작업을 위한 다목적 프로그래밍 언어.
+> 파일 처리를 위한 다목적 프로그래밍 언어.
+> 참고: AWK의 다양한 구현체에선 이 명령이 해당 구현체 바이너리에 대한 심볼릭 링크로 제공되는 경우가 많음.
 > 관련 항목: `gawk`.
 > 더 많은 정보: <https://github.com/onetrueawk/awk>.
 
-- 공백으로 구분 된 파일의 다섯 번째 열 (일명 필드)를 출력하기:
+- 공백으로 구분 된 파일의 다섯 번째 열(필드)를 출력하기:
 
-`awk '{print $5}' {{filename}}`
+`awk '{print $5}' {{경로/대상/파일}}`
 
 - 공백으로 구분 된 파일에서 `foo`을 포함한 두 번째 열 출력하기:
 
-`awk '/{{foo}}/ {print $2}' {{filename}}`
+`awk '/{{foo}}/ {print $2}' {{경로/대상/파일}}`
 
-- 공백이 아닌 쉼표를 필드 구분 기호로 사용한 파일에서 각 줄의 마지막 열을 출력하기:
+- 공백이 아닌 쉼표를 필드 구분자로 사용해, 파일 각 줄에서 마지막 열을 출력하기:
 
-`awk -F ',' '{print $NF}' {{filename}}`
-
-- 파일의 첫 번째 열에 있는 값을 더하고 합계를 출력:
-
-`awk '{s+=$1} END {print s}' {{filename}}`
+`awk -F ',' '{print $NF}' {{경로/대상/파일}}`
 
 - 첫 번째 열에 있는 값을 더하고 값들을 출력하고 합계를 출력:
 
-`awk '{s+=$1; print $1} END {print "--------"; print s}' {{filename}}`
+`awk '{s+=$1} END {print s}' {{경로/대상/파일}}`
 
 - 첫 번째 줄부터 시작하여 세 번째 줄까지 모두 출력:
 
-`awk 'NR%3==1' {{filename}}`
+`awk 'NR%3==1' {{경로/대상/파일}}`
 
-- 세 번째 열부터 시작하여 모든 값을 출력:
+- 조건에 따라 서로 다른 값을 출력:
 
-`awk '{ s = ""; for (i=3; i <= NF; i++) s = s $i " "; print s }'`
+`awk '{if ($1 == "foo") print "Exact match foo"; else if ($1 ~ "bar") print "Partial match bar"; else print "Baz"}' {{경로/대상/파일}}`
 
-- 조건에 따라 다른 값을 출력:
+- 10번째 열 값이 지정한 최소값과 최대값 사이에 있는 줄을 모두 출력:
 
-`awk '{if ($1 == "foo") print "Exact match foo"; else if ($1 ~ "bar") print "Partial match bar"; else print "Baz"}'`
+`awk '($10 >= {{최소_값}} && $10 <= {{최대_값}})' {{경로/대상/파일}}`
+
+- 콜론을 구분자로 사용하여, UID가 1000 이상인 사용자 목록을 헤더와 함께 형식화된 표 형태로 출력 (`%-20s`: 20칸 왼쪽 정렬 문자열, `%6s`: 6칸 오른쪽 정렬 문자열):
+
+`awk 'BEGIN {FS=":";printf "%-20s %6s %25s\n", "Name", "UID", "Shell"} $4 >= 1000 {printf "%-20s %6d %25s\n", $1, $4, $7}' /etc/passwd`
