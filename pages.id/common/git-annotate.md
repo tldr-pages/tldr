@@ -7,12 +7,12 @@
 
 - Tampilkan file teks beserta informasi nama pelaku dan kode hash komit terakhir pada akhir setiap baris teks:
 
-`git annotate {{jalan/menuju/file}}`
+`git annotate {{jalan/menuju/berkas}}`
 
 - Tampilkan file dengan informasi komit menggunakan alamat surel/email daripada nama pelaku:
 
-`git annotate {{[-e|--show-email]}} {{jalan/menuju/file}}`
+`git annotate {{[-e|--show-email]}} {{jalan/menuju/berkas}}`
 
 - Tampilkan hanya baris-baris teks yang memenuhi kriteria ekspresi reguler:
 
-`git annotate -L :{{ekspresi_reguler}} {{jalan/menuju/file}}`
+`git annotate -L :{{ekspresi_reguler}} {{jalan/menuju/berkas}}`

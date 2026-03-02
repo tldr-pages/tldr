@@ -18,4 +18,4 @@
 
 - Tangkap para paket dan tampilkan informasi jaringan nirkabel berdasarkan alamat MAC dan kanal jaringan, kemudian simpan hasil ke dalam suatu file:
 
-`sudo airodump-ng --channel {{channel}} --write {{jalan/menuju/file}} --bssid {{alamat_mac}} {{interface}}`
+`sudo airodump-ng --channel {{channel}} --write {{jalan/menuju/berkas}} --bssid {{alamat_mac}} {{interface}}`

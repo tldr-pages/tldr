@@ -1,16 +1,16 @@
 # ld
 
-> Menghubungkan file-file obyek berbarengan.
+> Hubungkan berkas-berkas obyek berbarengan untuk membangun suatu berkas program executable.
 > Informasi lebih lanjut: <https://sourceware.org/binutils/docs/ld.html>.
 
-- Menghubungkan file obyek tertentu yang tidak memiliki kebergantungan ke suatu executable:
+- Hubungkan berkas obyek tertentu yang tidak memiliki kebergantungan ke suatu executable:
 
-`ld {{jalan/menuju/file.o}} --output {{jalan/menuju/output_executable}}`
+`ld {{jalan/menuju/berkas.o}} {{[-o|--output]}} {{jalan/menuju/output_executable}}`
 
-- Menghubungkan 2 file obyek berbarengan:
+- Hubungkan dua berkas obyek berbarengan:
 
-`ld {{jalan/menuju/file1.o}} {{jalan/menuju/file2.o}} --output {{jalan/menuju/output_executable}}`
+`ld {{jalan/menuju/berkas1.o}} {{jalan/menuju/berkas2.o}} {{[-o|--output]}} {{jalan/menuju/output_executable}}`
 
-- Menghubungkan secara dinamis sebuah program x86_64 ke glibc (jalan-jalan file berubah bergantung pada sistem):
+- Hubungkan secara dinamis sebuah program x86_64 ke glibc (jalan-jalan berkas berubah bergantung pada sistem):
 
-`ld --output {{jalan/menuju/output_executable}} --dynamic-linker /lib/ld-linux-x86-64.so.2 /lib/crt1.o /lib/crti.o -lc {{jalan/menuju/file.o}} /lib/crtn.o`
+`ld {{[-o|--output]}} {{jalan/menuju/output_executable}} {{[-I|--dynamic-linker]}} /lib/ld-linux-x86-64.so.2 /lib/crt1.o /lib/crti.o -lc {{jalan/menuju/berkas.o}} /lib/crtn.o`

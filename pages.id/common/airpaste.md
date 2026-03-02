@@ -13,11 +13,11 @@
 
 - Kirim sebuah file:
 
-`airpaste < {{jalan/menuju/file}}`
+`airpaste < {{jalan/menuju/berkas}}`
 
 - Terima pesan dalam bentuk file:
 
-`airpaste > {{jalan/menuju/file}}`
+`airpaste > {{jalan/menuju/berkas}}`
 
 - Buat atau masuk kepada suatu kanal penerimaan pesan:
 

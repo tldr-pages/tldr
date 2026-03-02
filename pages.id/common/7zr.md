@@ -6,7 +6,7 @@
 
 - T[a]mbahkan sebuah file atau direktori ke dalam arsip baru atau saat ini:
 
-`7zr a {{jalan/menuju/arsip.7z}} {{jalan/menuju/file_atau_direktori}}`
+`7zr a {{jalan/menuju/arsip.7z}} {{jalan/menuju/berkas_atau_direktori}}`
 
 - Enkripsi file arsip saat ini (termasuk nama-nama file yang terkandung di dalamnya):
 
@@ -30,4 +30,4 @@
 
 - Atur tingkat kompresi pada file arsip (tingkat lebih tinggi memproduksi file arsip lebih kecil dengan proses kompresi yang lebih lama):
 
-`7zr a {{jalan/menuju/arsip.7z}} -mx={{0|1|3|5|7|9}} {{jalan/menuju/file_atau_direktori}}`
+`7zr a {{jalan/menuju/arsip.7z}} -mx={{0|1|3|5|7|9}} {{jalan/menuju/berkas_atau_direktori}}`
