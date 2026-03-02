@@ -5,8 +5,8 @@
 
 - Mencetak file teks ke dalam mesin pencetak (printer) default:
 
-`print {{jalan/menuju/file}}`
+`print {{jalan/menuju/berkas}}`
 
 - Mencetak file teks ke dalam mesin pencetak (printer) tertentu:
 
-`print /d:{{mesin_pencetak}} {{jalan/menuju/file}}`
+`print /d:{{mesin_pencetak}} {{jalan/menuju/berkas}}`
