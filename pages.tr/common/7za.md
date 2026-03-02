@@ -6,7 +6,7 @@
 
 - Dosya veya dizin [a]rşivle:
 
-`7za a {{arsiv_dosyasi.7z}} {{dosya_veya_dizin}}`
+`7za a {{yol/arsiv_dosyasi.7z}} {{yol/dosya_veya_dizin}}`
 
 - Mevcut bir arşivi şifrele (dosya adları dahil):
 
