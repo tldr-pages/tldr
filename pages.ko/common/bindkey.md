@@ -22,7 +22,7 @@
 
 - 키맵(key[M]ap)에서 단축키 보기:
 
-`bindkey -M main`
+`bindkey -M {{main}}`
 
 - [v]i 모드를 활성화:
 
