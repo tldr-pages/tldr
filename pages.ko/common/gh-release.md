@@ -5,7 +5,7 @@
 
 - GitHub 저장소의 릴리스 목록 표시, 최대 30개 항목으로 제한:
 
-`gh release list`
+`gh release {{[ls|list]}}`
 
 - 특정 릴리스에 대한 정보 표시:
 
@@ -13,7 +13,7 @@
 
 - 새 릴리스 생성:
 
-`gh release create {{태그}}`
+`gh release {{[new|create]}} {{태그}}`
 
 - 특정 릴리스 삭제:
 
