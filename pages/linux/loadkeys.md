@@ -26,7 +26,7 @@
 
 - Load a keymap from `stdin`, suppressing all output:
 
-`{{command}} | loadkeys {{[-q|--quiet]}}`
+`{{command}} | sudo loadkeys {{[-q|--quiet]}}`
 
 - Set a keymap for a specific console:
 
@@ -34,4 +34,4 @@
 
 - Load a keymap from the specified file for the console:
 
-`loadkeys {{[-C|--console]}} {{/dev/ttyN}} /{{path/to/file}}`
+`sudo loadkeys {{[-C|--console]}} {{/dev/ttyN}} /{{path/to/file}}`
