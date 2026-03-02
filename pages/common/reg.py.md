@@ -1,6 +1,6 @@
 # reg.py
 
-> Impacket tool to query, add, delete, save or backup registry keys/values on a remote Windows machine over SMB/RPC.
+> Query, add, delete, save or backup registry keys/values on a remote Windows machine over SMB/RPC.
 > Part of the Impacket suite.
 > More information: <https://github.com/fortra/impacket>.
 
