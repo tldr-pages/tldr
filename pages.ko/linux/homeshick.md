@@ -1,7 +1,7 @@
 # homeshick
 
 > Git dotfiles를 동기화합니다.
-> 같이 보기: `chezmoi`, `stow`, `tuckr`, `vcsh`.
+> 관련 항목: `chezmoi`, `stow`, `tuckr`, `vcsh`.
 > 더 많은 정보: <https://github.com/andsens/homeshick/wiki>.
 
 - 새로운 성(castle) 생성:

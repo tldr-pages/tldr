@@ -1,7 +1,7 @@
 # pacman-key
 
 > GnuPG를 사용하여 pacman의 키링을 관리하는 래퍼 스크립트.
-> 같이 보기: `pacman`.
+> 관련 항목: `pacman`.
 > 더 많은 정보: <https://manned.org/pacman-key>.
 
 - `pacman` 키링 초기화:

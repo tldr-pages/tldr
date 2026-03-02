@@ -1,7 +1,7 @@
 # pbmtoascii
 
 > PBM 이미지를 ASCII 그래픽으로 변환.
-> 같이 보기: `ppmtoascii`, `asciitopgm`, `ppmtoterm`.
+> 관련 항목: `ppmtoascii`, `asciitopgm`, `ppmtoterm`.
 > 더 많은 정보: <https://netpbm.sourceforge.net/doc/pbmtoascii.html>.
 
 - PBM 파일을 입력으로 받고 ASCII 출력 생성:

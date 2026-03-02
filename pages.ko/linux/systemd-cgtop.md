@@ -1,7 +1,7 @@
 # systemd-cgtop
 
 > 로컬 Linux 제어 그룹 계층의 최상위 제어 그룹을 CPU, 메모리, 디스크 I/O 부하에 따라 정렬하여 표시.
-> 같이 보기: `top`.
+> 관련 항목: `top`.
 > 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/latest/systemd-cgtop.html>.
 
 - 대화형 보기 시작:

@@ -1,7 +1,7 @@
 # warp-diag
 
 > Cloudflare의 WARP 서비스 진단 및 피드백 도구.
-> 같이 보기: `warp-cli`.
+> 관련 항목: `warp-cli`.
 > 더 많은 정보: <https://developers.cloudflare.com/warp-client/>.
 
 - 시스템 구성 및 WARP 연결 정보가 포함된 Zip 파일 생성:

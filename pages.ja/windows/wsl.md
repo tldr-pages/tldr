@@ -1,7 +1,7 @@
 # wsl
 
 > Windows Subsystem for Linux を管理します。
-> もっと詳しく: <https://learn.microsoft.com/windows/wsl/reference>。
+> 詳細情報: <https://learn.microsoft.com/windows/wsl/reference>。
 
 - Linuxシェルを起動する(デフォルトのディストリビューションの場合):
 

@@ -1,7 +1,7 @@
 # choco apikey
 
 > ChocolateyソースのAPIキーを管理します。
-> もっと詳しく: <https://docs.chocolatey.org/en-us/create/commands/api-key/>。
+> 詳細情報: <https://docs.chocolatey.org/en-us/create/commands/api-key/>。
 
 - ソースとそのAPIキーのリストを表示します:
 

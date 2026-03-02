@@ -1,7 +1,7 @@
 # lpr
 
 > 파일을 인쇄합니다.
-> 같이 보기: `lpstat`, `lpadmin`.
+> 관련 항목: `lpstat`, `lpadmin`.
 > 더 많은 정보: <https://openprinting.github.io/cups/doc/man-lpr.html>.
 
 - 기본 프린터로 파일 인쇄:

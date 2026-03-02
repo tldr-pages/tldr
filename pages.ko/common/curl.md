@@ -2,7 +2,7 @@
 
 > 데이터를 서버에서 혹은 서버로 전송.
 > HTTP, HTTPS, FTP, SCP 등 대부분의 프로토콜 지원.
-> 같이 보기: `wcurl`, `wget`.
+> 관련 항목: `wcurl`, `wget`.
 > 더 많은 정보: <https://curl.se/docs/manpage.html>.
 
 - HTTP GET 요청을 수행하고 내용을 `stdout`에 덤프:

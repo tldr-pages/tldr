@@ -1,7 +1,7 @@
 # pw-metadata
 
 > PipeWire 객체의 메타데이터를 모니터링, 설정 및 삭제.
-> 같이 보기: `pipewire`, `pw-mon`, `pw-cli`.
+> 관련 항목: `pipewire`, `pw-mon`, `pw-cli`.
 > 더 많은 정보: <https://docs.pipewire.org/page_man_pw-metadata_1.html>.
 
 - `default` 이름의 메타데이터 표시:

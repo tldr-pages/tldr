@@ -1,7 +1,7 @@
 # openrc
 
 > OpenRC 서비스 관리자.
-> 같이 보기: `rc-status`, `rc-update`, `rc-service`.
+> 관련 항목: `rc-status`, `rc-update`, `rc-service`.
 > 더 많은 정보: <https://wiki.gentoo.org/wiki/OpenRC>.
 
 - 특정 런레벨로 변경:

@@ -1,6 +1,7 @@
 # dig
 
 > DNS sunucularına sorgulama yapmak için kullanılan bir komuttur.
+> Ayrıca bakınız: `resolvectl`, `nslookup`, `host`.
 > Daha fazla bilgi için: <https://manned.org/dig>.
 
 - İlgili sunucu ile ilgili IP adresi sorgulaması yapılır:

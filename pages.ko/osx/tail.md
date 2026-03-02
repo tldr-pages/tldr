@@ -1,7 +1,7 @@
 # tail
 
 > 파일의 마지막 부분을 표시합니다.
-> 같이 보기: `head`.
+> 관련 항목: `head`.
 > 더 많은 정보: <https://keith.github.io/xcode-man-pages/tail.1.html>.
 
 - 파일에서 마지막 '개수' 줄을 표시:

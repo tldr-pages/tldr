@@ -5,16 +5,16 @@
 
 - Son commit'den beri silinen dosyaları geri döndür:
 
-`git checkout-index --all`
+`git checkout-index {{[-a|--all]}}`
 
 - Son commit'den beri silinen veya değiştirilen dosyaları geri döndür:
 
-`git checkout-index --all --force`
+`git checkout-index {{[-a|--all]}} {{[-f|--force]}}`
 
 - Son commit'den beri değiştirilen dosyaları geri döndür ancak silinenleri yoksay:
 
-`git checkout-index --all --force --no-create`
+`git checkout-index {{[-a|--all]}} {{[-f|--force]}} {{[-n|--no-create]}}`
 
 - Tüm ağacın bir kopyasını belirtilen dizinde dışa aktar (sondaki eğik çizgi önemli):
 
-`git checkout-index --all --force --prefix={{dışa/aktarılacak/dizin/}}`
+`git checkout-index {{[-a|--all]}} {{[-f|--force]}} --prefix {{dışa/aktarılacak/dizin}}/`

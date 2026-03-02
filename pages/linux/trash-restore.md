@@ -1,6 +1,6 @@
 # trash-restore
 
-> This command has been moved to `trash`.
+> The examples for this command have been moved together with `trash`.
 
 - View documentation for `trash-restore`:
 

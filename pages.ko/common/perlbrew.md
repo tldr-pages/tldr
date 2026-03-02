@@ -1,7 +1,7 @@
 # perlbrew
 
 > 홈 디렉토리에서 Perl 설치를 관리.
-> 같이 보기: `asdf`.
+> 관련 항목: `asdf`.
 > 더 많은 정보: <https://github.com/gugod/App-perlbrew>.
 
 - `perlbrew` 환경 초기화:

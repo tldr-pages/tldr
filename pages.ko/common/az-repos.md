@@ -6,7 +6,7 @@
 
 - 특정 프로젝트의 모든 저장소 나열:
 
-`az repos list --project {{프로젝트_이름}}`
+`az repos list {{[-p|--project]}} {{프로젝트_이름}}`
 
 - 특정 저장소의 특정 분기에 정책을 추가해, 기본 병합을 제한:
 
@@ -18,4 +18,4 @@
 
 - 특정 프로젝트 내의 특정 저장소의 모든 활성 끌어오기 요청을 나열:
 
-`az repos pr list --project {{프로젝트_이름}} --repository {{레포지토리_이름}} --status active`
+`az repos pr list {{[-p|--project]}} {{프로젝트_이름}} {{[-r|--repository]}} {{레포지토리_이름}} --status active`

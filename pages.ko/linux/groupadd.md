@@ -1,7 +1,7 @@
 # groupadd
 
 > 시스템에 사용자 그룹 추가.
-> 같이 보기: `groups`, `groupdel`, `groupmod`.
+> 관련 항목: `groups`, `groupdel`, `groupmod`.
 > 더 많은 정보: <https://manned.org/groupadd>.
 
 - 새 그룹 생성:

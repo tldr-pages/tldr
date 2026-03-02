@@ -1,7 +1,7 @@
 # svn
 
 > Subversion のコマンドラインクライアントツールです。
-> もっと詳しく: <https://svnbook.red-bean.com/en/1.7/svn-book.html#svn.ref.svn>。
+> 詳細情報: <https://svnbook.red-bean.com/en/1.7/svn-book.html#svn.ref.svn>。
 
 - リポジトリから作業コピーをチェックアウトする:
 

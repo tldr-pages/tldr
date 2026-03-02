@@ -1,7 +1,7 @@
 # pnmpad
 
 > PNM 이미지에 테두리를 추가.
-> 같이 보기: `pnmmargin`, `pamcut`, `pamcomp`.
+> 관련 항목: `pnmmargin`, `pamcut`, `pamcomp`.
 > 더 많은 정보: <https://netpbm.sourceforge.net/doc/pnmpad.html>.
 
 - 이미지에 지정된 크기의 테두리 추가:

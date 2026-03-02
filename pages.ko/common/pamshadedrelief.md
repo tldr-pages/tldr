@@ -1,7 +1,7 @@
 # pamshadedrelief
 
 > 고도 지도를 사용하여 음영 지형도를 생성.
-> 같이 보기: `pamcrater`, `ppmrelief`.
+> 관련 항목: `pamcrater`, `ppmrelief`.
 > 더 많은 정보: <https://netpbm.sourceforge.net/doc/pamshadedrelief.html>.
 
 - 입력 이미지를 고도 지도로 해석하여 음영 지형도 이미지 생성:

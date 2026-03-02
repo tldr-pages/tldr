@@ -1,7 +1,7 @@
 # fatrace
 
 > 파일 접근 이벤트 보고.
-> 같이 보기: `inotifywait`.
+> 관련 항목: `inotifywait`.
 > 더 많은 정보: <https://manned.org/fatrace>.
 
 - 모든 마운트된 파일시스템의 파일 접근 이벤트를 `stdout`에 출력:

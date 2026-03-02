@@ -1,7 +1,7 @@
 # pamdice
 
 > Netpbm 이미지를 수직 또는 수평으로 자르기.
-> 같이 보기: `pamundice`.
+> 관련 항목: `pamundice`.
 > 더 많은 정보: <https://netpbm.sourceforge.net/doc/pamdice.html>.
 
 - 결과 타일이 지정된 높이와 너비를 가지도록 Netpbm 이미지 자르기:

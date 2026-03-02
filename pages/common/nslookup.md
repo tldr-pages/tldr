@@ -1,6 +1,7 @@
 # nslookup
 
 > Query name servers for various domain records.
+> See also: `dig`, `resolvectl`, `host`.
 > More information: <https://manned.org/nslookup>.
 
 - Query your system's default name server for an IP address (A record) of the domain:

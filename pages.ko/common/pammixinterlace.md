@@ -1,7 +1,7 @@
 # pammixinterlace
 
 > 이미지의 각 행을 인접한 두 행과 병합.
-> 같이 보기: `pamdeinterlace`.
+> 관련 항목: `pamdeinterlace`.
 > 더 많은 정보: <https://netpbm.sourceforge.net/doc/pammixinterlace.html>.
 
 - 이미지의 각 행을 인접한 두 행과 병합:

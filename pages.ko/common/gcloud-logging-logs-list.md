@@ -2,7 +2,7 @@
 
 > Google Cloud 프로젝트에서 로그 목록을 나열합니다.
 > 모니터링 및 분석을 위한 사용 가능한 로그 식별에 유용합니다.
-> 같이 보기: `gcloud`.
+> 관련 항목: `gcloud`.
 > 더 많은 정보: <https://docs.cloud.google.com/sdk/gcloud/reference/logging/logs/list>.
 
 - 현재 프로젝트의 모든 로그 나열:

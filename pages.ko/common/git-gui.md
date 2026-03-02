@@ -1,7 +1,7 @@
 # git gui
 
 > Git의 GUI를 사용하여 브랜치, 커밋, 원격 저장소를 관리하고 로컬 병합을 수행할 수 있습니다.
-> 같이 보기: `git-cola`, `gitk`.
+> 관련 항목: `git-cola`, `gitk`.
 > 더 많은 정보: <https://git-scm.com/docs/git-gui>.
 
 - GUI 시작:

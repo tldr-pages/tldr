@@ -2,7 +2,7 @@
 
 > Node.js 버전을 설치, 제거 또는 전환.
 > "12.8" 또는 "v16.13.1" 같은 버전 번호와 "stable", "system" 같은 레이블을 지원.
-> 같이 보기: `asdf`.
+> 관련 항목: `asdf`.
 > 더 많은 정보: <https://github.com/nvm-sh/nvm#usage>.
 
 - 특정 버전의 Node.js 설치:

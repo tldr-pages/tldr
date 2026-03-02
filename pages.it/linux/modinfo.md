@@ -10,4 +10,4 @@
 
 - Elenca solamente gli attributi specificati:
 
-`modinfo -F {{author|description|license|parm|filename}} {{modulo_del_kernel}}`
+`modinfo {{[-F|--field]}} {{author|description|license|parm|filename|version|...}} {{modulo_del_kernel}}`

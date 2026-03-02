@@ -1,7 +1,7 @@
 # bzip2
 
 > 블록 정렬 파일 압축기.
-> 같이 보기: `bzcat`, `bunzip2`, `bzip2recover`.
+> 관련 항목: `bzcat`, `bunzip2`, `bzip2recover`.
 > 더 많은 정보: <https://manned.org/bzip2>.
 
 - 파일 압축하기:

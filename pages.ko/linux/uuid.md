@@ -1,7 +1,7 @@
 # uuid
 
 > 범용 고유 식별자(UUID) 생성 및 디코드.
-> 같이 보기: `uuidgen`.
+> 관련 항목: `uuidgen`.
 > 더 많은 정보: <https://manned.org/uuid>.
 
 - UUIDv1 생성 (시간 및 시스템의 하드웨어 주소 기반, 사용 가능한 경우):

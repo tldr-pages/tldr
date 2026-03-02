@@ -1,7 +1,7 @@
 # java
 
 > Java アプリケーションランチャ。
-> もっと詳しく: <https://docs.oracle.com/en/java/javase/25/docs/specs/man/java.html>。
+> 詳細情報: <https://docs.oracle.com/en/java/javase/25/docs/specs/man/java.html>。
 
 - main メソッドを含む Java の `.class` ファイルを、クラス名だけで実行する:
 

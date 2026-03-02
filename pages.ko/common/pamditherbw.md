@@ -1,7 +1,7 @@
 # pamditherbw
 
 > 그레이스케일 이미지에 디더링을 적용하여 원래의 그레이스케일과 동일하게 보이는 흑백 픽셀 패턴으로 변환.
-> 같이 보기: `pbmreduce`.
+> 관련 항목: `pbmreduce`.
 > 더 많은 정보: <https://netpbm.sourceforge.net/doc/pamditherbw.html>.
 
 - PGM 이미지를 읽고 디더링을 적용하여 파일로 저장:

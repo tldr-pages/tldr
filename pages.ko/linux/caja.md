@@ -1,7 +1,7 @@
 # caja
 
 > MATE 데스크톱 환경에서 파일과 디렉토리를 관리합니다.
-> 같이 보기: `nautilus`, `dolphin`, `thunar`, `ranger`.
+> 관련 항목: `nautilus`, `dolphin`, `thunar`, `ranger`.
 > 더 많은 정보: <https://manned.org/caja>.
 
 - 현재 사용자 홈 디렉토리 열기:

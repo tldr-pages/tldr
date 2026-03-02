@@ -1,7 +1,8 @@
 # dig
 
 > DNS 情報を調べるユーティリティーです。
-> もっと詳しく: <https://manned.org/dig>。
+> 参照: `resolvectl`, `nslookup`, `host`。
+> 詳細情報: <https://manned.org/dig>。
 
 - ホスト名に関連する IP を検索（A レコード）:
 

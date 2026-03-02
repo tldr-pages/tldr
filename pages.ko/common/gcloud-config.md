@@ -1,7 +1,7 @@
 # gcloud config
 
 > `gcloud`의 다양한 구성 관리.
-> 같이 보기: `gcloud`.
+> 관련 항목: `gcloud`.
 > 더 많은 정보: <https://docs.cloud.google.com/sdk/gcloud/reference/config>.
 
 - 현재 구성에 대한 속성(예: compute/zone) 정의:

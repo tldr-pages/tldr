@@ -1,7 +1,7 @@
 # odpscmd auth
 
 > ODPS (Open Data Processing Service)에서 사용자 권한 관리.
-> 같이 보기: `odpscmd`.
+> 관련 항목: `odpscmd`.
 > 더 많은 정보: <https://www.alibabacloud.com/help/en/maxcompute/user-guide/maxcompute-client>.
 
 - 현재 프로젝트에 사용자 추가:

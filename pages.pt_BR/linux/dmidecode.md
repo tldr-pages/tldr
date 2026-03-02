@@ -2,6 +2,7 @@
 
 > Exibe em formato de fácil leitura o sumário DMI (também conhecido como SMBIOS).
 > Requer privilégio de super usuário.
+> Veja também: `inxi`, `lshw`, `hwinfo`.
 > Mais informações: <https://manned.org/dmidecode>.
 
 - Exibe o sumário do DMI:

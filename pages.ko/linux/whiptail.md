@@ -1,7 +1,7 @@
 # whiptail
 
 > 셸 스크립트에서 텍스트 기반의 대화 상자를 표시합니다.
-> 같이 보기: `dialog`, `gum`.
+> 관련 항목: `dialog`, `gum`.
 > 더 많은 정보: <https://manned.org/whiptail>.
 
 - 간단한 메시지 표시:

@@ -1,7 +1,7 @@
 # diskpart
 
 > ディスク、ボリューム、およびパーティションマネージャ。
-> もっと詳しく: <https://learn.microsoft.com/windows-server/administration/windows-commands/diskpart>。
+> 詳細情報: <https://learn.microsoft.com/windows-server/administration/windows-commands/diskpart>。
 
 - 管理者コマンドプロンプトでdiskpartを単独で実行し、コマンドラインを入力する:
 

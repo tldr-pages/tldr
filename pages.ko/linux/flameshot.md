@@ -14,7 +14,7 @@
 
 - 특정 경로에 스크린샷 저장:
 
-`flameshot gui --path {{경로/대상/폴더}}`
+`flameshot gui {{[-p|--path]}} {{경로/대상/폴더}}`
 
 - 간소화된 모드로 상호작용 방식의 스크린샷 생성:
 
@@ -22,16 +22,16 @@
 
 - 특정 모니터에서 스크린샷 생성:
 
-`flameshot screen --number {{2}}`
+`flameshot screen {{[-n|--number]}} {{2}}`
 
 - 스크린샷을 생성하고 `stdout`에 출력:
 
-`flameshot gui --raw`
+`flameshot gui {{[-r|--raw]}}`
 
 - 스크린샷을 생성하고 클립보드에 복사:
 
-`flameshot gui --clipboard`
+`flameshot gui {{[-c|--clipboard]}}`
 
 - 특정 밀리초 지연 후 스크린샷 생성:
 
-`flameshot full --delay {{5000}}`
+`flameshot full {{[-d|--delay]}} {{5000}}`

@@ -1,7 +1,7 @@
 # waitpid
 
 > 임의의 프로세스 종료를 대기.
-> 같이 보기: `wait`.
+> 관련 항목: `wait`.
 > 더 많은 정보: <https://manned.org/waitpid>.
 
 - 지정된 PID의 모든 프로세스가 종료될 때까지 대기:

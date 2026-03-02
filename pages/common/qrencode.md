@@ -1,6 +1,7 @@
 # qrencode
 
 > QR Code generator. Supports PNG and EPS.
+> See also: `qr`.
 > More information: <https://manned.org/qrencode>.
 
 - Convert a string to a QR code and save to an output file:

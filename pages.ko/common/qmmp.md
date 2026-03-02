@@ -1,7 +1,7 @@
 # qmmp
 
 > Winamp 또는 XMMS와 유사한 인터페이스를 가진 오디오 플레이어.
-> 같이 보기: `clementine`, `ncmpcpp`, `cmus`.
+> 관련 항목: `clementine`, `ncmpcpp`, `cmus`.
 > 더 많은 정보: <https://manned.org/qmmp>.
 
 - GUI 실행:

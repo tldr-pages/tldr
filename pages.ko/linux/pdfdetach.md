@@ -1,7 +1,7 @@
 # pdfdetach
 
 > PDF 파일에서 첨부 파일(내장 파일)을 나열하거나 추출.
-> 같이 보기: `pdfattach`, `pdfimages`, `pdfinfo`.
+> 관련 항목: `pdfattach`, `pdfimages`, `pdfinfo`.
 > 더 많은 정보: <https://manned.org/pdfdetach>.
 
 - 특정 텍스트 인코딩으로 파일의 모든 첨부 파일 나열:

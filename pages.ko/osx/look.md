@@ -1,7 +1,7 @@
 # look
 
 > 정렬된 파일에서 특정 접두사로 시작하는 줄을 표시합니다.
-> 같이 보기: `grep`, `sort`.
+> 관련 항목: `grep`, `sort`.
 > 더 많은 정보: <https://keith.github.io/xcode-man-pages/look.1.html>.
 
 - 특정 파일에서 특정 접두사로 시작하는 줄 검색:

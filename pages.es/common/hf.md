@@ -1,0 +1,33 @@
+# hf
+
+> Interactúa con Hugging Face Hub.
+> Inicia sesión, gestiona la caché local, carga o descarga archivos.
+> Más información: <https://huggingface.co/docs/huggingface_hub/guides/cli>.
+
+- Inicia sesión en Hugging Face Hub:
+
+`hf auth login`
+
+- Muestra el nombre del usuario conectado:
+
+`hf auth whoami`
+
+- Cierra sesión:
+
+`hf auth logout`
+
+- Genera información sobre el entorno:
+
+`hf env`
+
+- Descarga archivos de un repositorio e imprime la ruta (omite los nombres de archivo para descargar todo el repositorio):
+
+`hf download --repo-type {{tipo_repo}} {{id_repo}} {{nombre_archivo1 nombre_archivo2 ...}}`
+
+- Sube una carpeta entera o un archivo a Hugging Face:
+
+`hf upload --repo-type {{tipo_repo}} {{id_repo}} {{ruta/al/archivo_de_repositorio_o_directorio_de_repositorio}} {{ruta/al/archivo_de repositorio_o_directorio}}`
+
+- Escanea la caché para ver los repositorios descargados y su uso del disco:
+
+`hf cache ls`

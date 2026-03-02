@@ -5,16 +5,16 @@
 
 - 移除容器：
 
-`docker rm {{容器1 容器2 ...}}`
+`docker {{[rm|container rm]}} {{容器1 容器2 ...}}`
 
 - 强制移除容器：
 
-`docker rm {{[-f|--force]}} {{容器1 容器2 ...}}`
+`docker {{[rm|container rm]}} {{[-f|--force]}} {{容器1 容器2 ...}}`
 
 - 移除容器以及其文件卷：
 
-`docker rm {{[-v|--volumes]}} {{容器}}`
+`docker {{[rm|container rm]}} {{[-v|--volumes]}} {{容器}}`
 
 - 显示帮助：
 
-`docker rm {{[-h|--help]}}`
+`docker {{[rm|container rm]}} {{[-h|--help]}}`

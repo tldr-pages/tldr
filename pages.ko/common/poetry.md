@@ -1,7 +1,7 @@
 # poetry
 
 > Python 패키지 및 의존성을 관리.
-> 같이 보기: `asdf`, `pipenv`, `hatch`.
+> 관련 항목: `asdf`, `pipenv`, `hatch`.
 > 더 많은 정보: <https://python-poetry.org/docs/cli/>.
 
 - 특정 이름으로 디렉토리에 새 Poetry 프로젝트 생성:

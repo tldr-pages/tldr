@@ -1,7 +1,7 @@
 # winget
 
 > Windows パッケージマネージャ。
-> もっと詳しく: <https://learn.microsoft.com/windows/package-manager/winget>。
+> 詳細情報: <https://learn.microsoft.com/windows/package-manager/winget>。
 
 - パッケージをインストール:
 

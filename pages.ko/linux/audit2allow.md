@@ -1,7 +1,7 @@
 # audit2allow
 
 > SELinux 로컬 정책 모듈을 생성하여 로그에 기록된 거부된 작업 기반의 규칙을 허용합니다.
-> 같이 보기: `audit2why`, `ausearch`, `semodule`.
+> 관련 항목: `audit2why`, `ausearch`, `semodule`.
 > 더 많은 정보: <https://manned.org/audit2allow>.
 
 - 거부된 모든 서비스에 대한 접근을 허용하는 로컬 정책 생성:

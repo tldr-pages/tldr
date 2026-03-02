@@ -1,7 +1,7 @@
 # userdel
 
 > 사용자 계정을 삭제하거나 사용자를 그룹에서 제거합니다.
-> 같이 보기: `users`, `useradd`, `usermod`.
+> 관련 항목: `users`, `useradd`, `usermod`.
 > 더 많은 정보: <https://manned.org/userdel>.
 
 - 사용자 삭제:

@@ -1,7 +1,7 @@
 # guake
 
 > GNOME용 드롭다운 터미널.
-> 같이 보기: `yakuake`.
+> 관련 항목: `yakuake`.
 > 더 많은 정보: <https://manned.org/guake>.
 
 - Guake 보기 토글:

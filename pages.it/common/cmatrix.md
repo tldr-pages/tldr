@@ -1,7 +1,7 @@
 # cmatrix
 
 > Genera lettere che cadono, come in Matrix.
-> Vedi anche: `cbonsai`, `asciiquarium`, `pipes.sh`.
+> Vedi anche: `neo`, `cbonsai`, `asciiquarium`, `pipes.sh`.
 > Maggiori informazioni: <https://manned.org/cmatrix>.
 
 - Attivare lo scorrimento asincrono:

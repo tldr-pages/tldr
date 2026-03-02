@@ -1,7 +1,7 @@
 # step
 
 > 사용하기 쉬운 CLI 도구로, 공개 키 기반 구조(PKI) 시스템 및 워크플로를 구축, 운영 및 자동화하는 데 도움을 줍니다.
-> 같이 보기: `openssl`.
+> 관련 항목: `openssl`.
 > 더 많은 정보: <https://smallstep.com/docs/step-cli/>.
 
 - 인증서의 내용을 검사:

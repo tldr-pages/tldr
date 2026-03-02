@@ -1,7 +1,7 @@
 # gcloud compute
 
 > Google Cloud 인프라에서 VM을 생성, 실행 및 관리.
-> 같이 보기: `gcloud`.
+> 관련 항목: `gcloud`.
 > 더 많은 정보: <https://docs.cloud.google.com/sdk/gcloud/reference/compute>.
 
 - Compute Engine 영역 나열:

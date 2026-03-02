@@ -1,7 +1,7 @@
 # linode-cli object-storage
 
 > Linode 오브젝트 스토리지 관리.
-> 같이 보기: `linode-cli`.
+> 관련 항목: `linode-cli`.
 > 더 많은 정보: <https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-object-storage>.
 
 - 모든 오브젝트 스토리지 버킷 나열:

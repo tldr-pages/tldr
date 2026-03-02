@@ -2,7 +2,7 @@
 
 > Rust プロジェクトとそのモジュールの依存関係(クレート)を管理します。
 > `build` のようないくつかのサブコマンドには、使用方法についての独自のドキュメントがあります。
-> もっと詳しく: <https://doc.rust-lang.org/stable/cargo/>。
+> 詳細情報: <https://doc.rust-lang.org/stable/cargo/>。
 
 - クレートを検索:
 

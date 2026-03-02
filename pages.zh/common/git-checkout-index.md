@@ -5,16 +5,16 @@
 
 - 恢复自上次提交以来删除的所有文件：
 
-`git checkout-index --all`
+`git checkout-index {{[-a|--all]}}`
 
 - 恢复自上次提交以来删除或修改的所有文件（强制覆盖）：
 
-`git checkout-index --all --force`
+`git checkout-index {{[-a|--all]}} {{[-f|--force]}}`
 
 - 恢复自上次提交以来修改的文件（忽略已删除的文件）：
 
-`git checkout-index --all --force --no-create`
+`git checkout-index {{[-a|--all]}} {{[-f|--force]}} {{[-n|--no-create]}}`
 
 - 将最后一次提交的整个工作树导出到指定目录（注意结尾斜杠）：
 
-`git checkout-index --all --force --prefix={{路径/到/导出目录/}}`
+`git checkout-index {{[-a|--all]}} {{[-f|--force]}} --prefix {{路径/到/导出目录}}/`

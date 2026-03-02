@@ -1,6 +1,7 @@
 # host
 
 > البحث في خادم أسماء النطاقات (DNS).
+> انظر أيضًا: `dig`, `resolvectl`, `nslookup`.
 > لمزيد من التفاصيل: <https://manned.org/host>.
 
 - البحث عن سجلات A و AAAA و MX لنطاق معين:

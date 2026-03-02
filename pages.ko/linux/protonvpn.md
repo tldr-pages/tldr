@@ -1,7 +1,7 @@
 # protonvpn
 
 > 비공식 서드파티 ProtonVPN 클라이언트.
-> 같이 보기: `protonvpn-connect`.
+> 관련 항목: `protonvpn-connect`.
 > 더 많은 정보: <https://protonvpn.com/support/linux-cli#how-to-use-the-cli-for-linux>.
 
 - ProtonVPN 프로필 초기화:

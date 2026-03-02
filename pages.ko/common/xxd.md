@@ -1,7 +1,7 @@
 # xxd
 
 > 바이너리 파일에서 16진수 표현(hexdump)을 생성하거나 그 반대로 변환.
-> 같이 보기: `hexyl`, `od`, `hexdump`.
+> 관련 항목: `hexyl`, `od`, `hexdump`.
 > 더 많은 정보: <https://manned.org/xxd>.
 
 - 바이너리 파일에서 16진수 덤프 생성 및 출력 표시:

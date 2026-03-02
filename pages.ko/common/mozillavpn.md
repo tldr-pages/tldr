@@ -1,7 +1,7 @@
 # mozillavpn
 
 > Firefox 제작사에서 제공하는 가상 사설망.
-> 같이 보기: `fastd`, `ivpn`, `mullvad`, `warp-cli`.
+> 관련 항목: `fastd`, `ivpn`, `mullvad`, `warp-cli`.
 > 더 많은 정보: <https://github.com/mozilla-mobile/mozilla-vpn-client/wiki/Command-line-interface>.
 
 - 대화형 프롬프트로 로그인:

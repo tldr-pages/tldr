@@ -1,7 +1,7 @@
 # fdisk
 
 > 하드 디스크의 파티션 테이블과 파티션을 관리합니다.
-> 같이 보기: `partprobe`, `parted`, `cfdisk`.
+> 관련 항목: `partprobe`, `parted`, `cfdisk`.
 > 더 많은 정보: <https://manned.org/fdisk>.
 
 - 파티션 나열:

@@ -1,7 +1,7 @@
 # pambackground
 
 > PAM 이미지의 배경 마스크 생성.
-> 같이 보기: `pbmmask`.
+> 관련 항목: `pbmmask`.
 > 더 많은 정보: <https://netpbm.sourceforge.net/doc/pambackground.html>.
 
 - PAM 이미지에서 배경 마스크 생성:

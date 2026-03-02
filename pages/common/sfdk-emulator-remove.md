@@ -1,6 +1,6 @@
 # sfdk emulator remove
 
-> This command has been moved to `sfdk emulator install`.
+> The examples for this command have been moved together with `sfdk emulator install`.
 
 - View documentation for `sfdk emulator install`:
 

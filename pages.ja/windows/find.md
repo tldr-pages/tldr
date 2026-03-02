@@ -1,7 +1,7 @@
 # find
 
 > 1つ以上のファイルで指定された文字列を検索します。
-> もっと詳しく: <https://learn.microsoft.com/windows-server/administration/windows-commands/find>。
+> 詳細情報: <https://learn.microsoft.com/windows-server/administration/windows-commands/find>。
 
 - 指定された文字列を含む行を検索します:
 

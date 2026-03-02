@@ -1,7 +1,7 @@
 # pi1toppm
 
 > Atari Degas PI1 이미지를 PPM 이미지로 변환.
-> 같이 보기: `ppmtopi1`.
+> 관련 항목: `ppmtopi1`.
 > 더 많은 정보: <https://netpbm.sourceforge.net/doc/pi1toppm.html>.
 
 - Atari Degas PI1 이미지를 PPM 이미지로 변환:

@@ -2,7 +2,7 @@
 
 > Cloudflare의 WARP 서비스에 대한 연결을 연결, 연결 해제하고 모드를 전환.
 > WARP는 개인정보 보호, 보안, 속도를 위해 트래픽을 암호화하는 VPN입니다.
-> 같이 보기: `fastd`, `ivpn`, `mozillavpn`, `mullvad`.
+> 관련 항목: `fastd`, `ivpn`, `mozillavpn`, `mullvad`.
 > 더 많은 정보: <https://developers.cloudflare.com/warp-client/>.
 
 - 현재 장치를 WARP에 등록 (첫 연결 전에 실행 필요):

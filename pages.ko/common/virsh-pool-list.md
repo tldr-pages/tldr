@@ -1,7 +1,7 @@
 # virsh pool-list
 
 > 가상 머신 스토리지 풀에 대한 정보 나열.
-> 같이 보기: `virsh`, `virsh-pool-autostart`, `virsh-pool-define-as`.
+> 관련 항목: `virsh`, `virsh-pool-autostart`, `virsh-pool-define-as`.
 > 더 많은 정보: <https://manned.org/virsh>.
 
 - 이름, 상태 및 활성 스토리지 풀에 대한 자동 시작의 활성화 또는 비활성화 여부를 나열:
