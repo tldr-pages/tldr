@@ -29,4 +29,4 @@
 
 - Belirli bir iş akışını push olayıyla çalıştır:
 
-`act push {{[-W|--workflows]}} {{path/to/workflow}}`
+`act push {{[-W|--workflows]}} {{yol/workflow}}`
