@@ -7,6 +7,10 @@
 
 `scrcpy`
 
+- Matikan layar namun cegat perangkat tujuan dari memasukan mode tidur saat sedang ditampilkan:
+
+`scrcpy {{[-S|--turn-screen-off]}} {{[-w|--stay-awake]}}`
+
 - Tampilkan layar perangkat tertentu berdasarkan ID atau alamat IP-nya (temukan menggunakan perintah `adb devices`):
 
 `scrcpy {{[-s|--serial]}} {{0123456789abcdef|192.168.0.1:5555}}`
@@ -14,10 +18,6 @@
 - Tampilkan layar dalam mode layar penuh / fullscreen:
 
 `scrcpy {{[-f|--fullscreen]}}`
-
-- Putarkan tampilan layar perangkat dalam kelipatan 90 derajat (berlawanan arah jarum jam):
-
-`scrcpy --rotation {{0|1|2|3}}`
 
 - Tunjukkan indikator sentuhan pada perangkat fisik:
 

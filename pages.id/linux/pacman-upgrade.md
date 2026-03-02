@@ -6,7 +6,7 @@
 
 - Pasang suatu atau beberapa paket atau dari kumpulan berkas:
 
-`sudo pacman -U {{jalan/menuju/paket1.pkg.tar.zst}} {{jalan/menuju/paket2.pkg.tar.zst}}`
+`sudo pacman -U {{jalan/menuju/paket1.pkg.tar.zst jalan/menuju/paket2.pkg.tar.zst ...}}`
 
 - Pasang paket tanpa konfirmasi:
 

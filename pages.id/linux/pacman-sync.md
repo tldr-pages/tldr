@@ -10,15 +10,15 @@
 
 - Sinkronkan dan perbarui semua paket (tambahkan `--downloadonly` untuk unduh paket dan tidak memperbarui-nya):
 
-`sudo pacman --Syu`
+`sudo pacman -Syu`
 
 - Perbarui semua paket dan instal paket baru tanpa konfirmasi:
 
-`sudo pacman --Syu --noconfirm {{nama_paket}}`
+`sudo pacman -Syu --noconfirm {{nama_paket}}`
 
 - Cari paket dalam database berdasarkan `regex` atau kata kunci:
 
-`pacman --Ss "{{pola_pencarian}}"`
+`pacman -Ss "{{pola_pencarian}}"`
 
 - Tampilkan [i]nformasi suatu paket:
 
