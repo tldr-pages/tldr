@@ -1,7 +1,7 @@
 # disown
 
 > Permite que los subprocesos sigan activos más allá del intérprete de comandos al que están vinculados.
-Vea también: `jobs`.
+> Vea también: `jobs`.
 > Más información: <https://www.gnu.org/software/bash/manual/bash.html#index-disown>.
 
 - Renuncia al trabajo actual:
