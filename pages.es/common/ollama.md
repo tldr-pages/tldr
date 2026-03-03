@@ -1,10 +1,10 @@
 # ollama
 
-> Un ejecutor de modelos de lenguaje grande.
-> Para ver una lista de los modelos disponibles, consulta <https://ollama.com/library>.
-> Más información: <https://github.com/ollama/ollama#cli-reference>.
+> Un programa para ejecutar modelos de lenguaje grandes.
+> Para ver una lista de los modelos disponibles, vea <https://ollama.com/library>.
+> Más información: <https://docs.ollama.com/cli>.
 
-- Inicia el demonio requerido para ejecutar otros comandos:
+- Inicia el programa residente necesario para ejecutar otros comandos:
 
 `ollama serve`
 
@@ -12,15 +12,15 @@
 
 `ollama run {{modelo}}`
 
-- Ejecuta un modelo con un solo mensaje:
+- Ejecuta un modelo con una sola indicación y el pensamiento desactivado:
 
-`ollama run {{modelo}} {{mensaje}}`
+`ollama run {{modelo}} --think=false "{{indicación}"`
 
-- Lista los modelos descargados:
+- Enumera los modelos descargados:
 
 `ollama {{[ls|list]}}`
 
-- Descarga/actualiza un modelo específico:
+- Extrae un modelo específico:
 
 `ollama pull {{modelo}}`
 
@@ -32,6 +32,6 @@
 
 `ollama rm {{modelo}}`
 
-- Crea un modelo desde un `Modelfile` ([f]):
+- Crea un modelo a partir de un `Modelfile`:
 
-`ollama create {{nombre_nuevo_modelo}} {{[-f|--file]}} {{ruta/al/Modelfile}}`
+`ollama create {{nombre_del_nuevo_modelo}} {{[-f|--file]}} {{ruta/al/Modelfile}}`
