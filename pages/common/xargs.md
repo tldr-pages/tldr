@@ -5,17 +5,13 @@
 > See also: `parallel`.
 > More information: <https://www.gnu.org/software/findutils/manual/html_mono/find.html#Invoking-xargs>.
 
+- Print the piped data:
+
+`{{arguments_source}} | xargs`
+
 - Run a command using the input data as arguments:
 
 `{{arguments_source}} | xargs {{command}}`
-
-- Run multiple chained commands on the input data:
-
-`{{arguments_source}} | xargs sh -c "{{command1}} && {{command2}} | {{command3}}"`
-
-- Gzip all files with `.log` extension taking advantage of multiple threads (`-print0` uses a null character to split file names and `--null` uses it as delimiter):
-
-`find . -name '*.log' -print0 | xargs {{[-0|--null]}} {{[-P|--max-procs]}} {{4}} {{[-n|--max-args]}} 1 gzip`
 
 - Execute the command once per argument:
 
@@ -25,10 +21,6 @@
 
 `{{arguments_source}} | xargs -I _ {{command}} _ {{optional_extra_arguments}}`
 
-- Parallel runs of up to `max-procs` processes at a time; the default is 1. If `max-procs` is 0, xargs will run as many processes as possible at a time:
-
-`{{arguments_source}} | xargs {{[-P|--max-procs]}} {{max-procs}} {{command}}`
-
 - Prompt user for confirmation before executing command (confirm with `y` or `Y`):
 
 `{{arguments_source}} | xargs {{[-p|--interactive]}} {{command}}`
@@ -36,3 +28,11 @@
 - Allow the command to access the terminal for interactive input:
 
 `{{arguments_source}} | xargs {{[-o|--open-tty]}} {{command}}`
+
+- Parallel runs of up to `max-procs` processes at a time; the default is 1. If `max-procs` is 0, xargs will run as many processes as possible at a time:
+
+`{{arguments_source}} | xargs {{[-P|--max-procs]}} {{max-procs}} {{command}}`
+
+- Gzip all files with `.log` extension taking advantage of multiple threads (`-print0` uses a null character to split file names and `--null` uses it as delimiter):
+
+`find . -name '*.log' -print0 | xargs {{[-0|--null]}} {{[-P|--max-procs]}} {{4}} {{[-n|--max-args]}} 1 gzip`
