@@ -5,7 +5,7 @@
 > See also: `parallel`.
 > More information: <https://www.gnu.org/software/findutils/manual/html_mono/find.html#Invoking-xargs>.
 
-- Print the piped data:
+- Print what arguments xargs would receive:
 
 `{{arguments_source}} | xargs`
 
