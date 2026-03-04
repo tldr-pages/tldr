@@ -17,6 +17,10 @@
 
 `{{arguments_source}} | xargs {{[-n|--max-args]}} 1 {{command}}`
 
+- Raise the parallel process limit (default is 1). If the number is 0, xargs will run as many processes as possible at a time:
+
+`{{arguments_source}} | xargs {{[-P|--max-procs]}} {{number}} {{[-n|--max-args]}} {{1}} {{command}}`
+
 - Execute the command once for each input line, replacing any occurrences of the placeholder (here marked as `_`) with the input line:
 
 `{{arguments_source}} | xargs -I _ {{command}} _ {{optional_extra_arguments}}`
@@ -32,7 +36,3 @@
 - Allow the command to access the terminal for interactive input:
 
 `{{arguments_source}} | xargs {{[-o|--open-tty]}} {{command}}`
-
-- Raise the parallel process limit (default is 1). If the number is 0, xargs will run as many processes as possible at a time:
-
-`{{arguments_source}} | xargs {{[-P|--max-procs]}} {{number}} {{[-n|--max-args]}} {{1}} {{command}}`
