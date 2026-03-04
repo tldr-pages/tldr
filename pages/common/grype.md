@@ -21,7 +21,7 @@
 
 - Scan a local directory and save the report to a file:
 
-`grype {{path/to/directory}} {{--file}} {{path/to/report}}`
+`grype {{path/to/directory}} --file {{path/to/report}}`
 
 - Update the vulnerability database:
 
