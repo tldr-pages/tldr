@@ -25,6 +25,10 @@
 
 `{{arguments_source}} | xargs {{[-p|--interactive]}} {{command}}`
 
+- Read a file for arguments to be given to a command:
+
+`xargs {{[-a|--arg-file]}} {{path/to/file}} {{command}}`
+
 - Allow the command to access the terminal for interactive input:
 
 `{{arguments_source}} | xargs {{[-o|--open-tty]}} {{command}}`
@@ -32,7 +36,3 @@
 - Parallel runs of up to `max-procs` processes at a time; the default is 1. If `max-procs` is 0, xargs will run as many processes as possible at a time:
 
 `{{arguments_source}} | xargs {{[-P|--max-procs]}} {{max-procs}} {{command}}`
-
-- Gzip all files with `.log` extension taking advantage of multiple threads (`-print0` uses a null character to split file names and `--null` uses it as delimiter):
-
-`find . -name '*.log' -print0 | xargs {{[-0|--null]}} {{[-P|--max-procs]}} {{4}} {{[-n|--max-args]}} 1 gzip`
