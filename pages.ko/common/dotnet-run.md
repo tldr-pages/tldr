@@ -17,8 +17,8 @@
 
 - 대상 프레임워크 모니커를 사용하여 프로젝트 실행:
 
-`dotnet run --framework {{net7.0}}`
+`dotnet run {{[-f|--framework]}} {{net7.0}}`
 
 - .NET 6부터 사용 가능한 아키텍처 및 OS 지정 (이 옵션들과 함께 `--runtime` 사용 금지):
 
-`dotnet run --arch {{x86|x64|arm|arm64}} --os {{win|win7|osx|linux|ios|android}}`
+`dotnet run {{[-a|--arch]}} {{x86|x64|arm|arm64}} --os {{win|win7|osx|linux|ios|android}}`

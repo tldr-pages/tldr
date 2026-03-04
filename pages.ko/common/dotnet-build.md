@@ -13,7 +13,7 @@
 
 - 릴리즈 모드에서 컴파일:
 
-`dotnet build --configuration {{Release}}`
+`dotnet build {{[-c|--configuration]}} {{Release}}`
 
 - 의존성을 복원하지 않고 컴파일:
 
@@ -21,12 +21,12 @@
 
 - 특정 상세 수준으로 컴파일:
 
-`dotnet build --verbosity {{quiet|minimal|normal|detailed|diagnostic}}`
+`dotnet build {{[-v|--verbosity]}} {{quiet|minimal|normal|detailed|diagnostic}}`
 
 - 특정 런타임을 위해 컴파일:
 
-`dotnet build --runtime {{런타임_식별자}}`
+`dotnet build {{[-r|--runtime]}} {{런타임_식별자}}`
 
 - 출력 디렉토리 지정:
 
-`dotnet build --output {{경로/대상/폴더}}`
+`dotnet build {{[-o|--output]}} {{경로/대상/폴더}}`
