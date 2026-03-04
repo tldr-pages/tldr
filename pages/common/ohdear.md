@@ -5,7 +5,7 @@
 
 - Display details about the currently authenticated user:
 
-`ohdear-cli get-me`
+`ohdear get-me`
 
 - Add a new monitor to Oh Dear:
 
