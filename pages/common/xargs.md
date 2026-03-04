@@ -33,6 +33,6 @@
 
 `{{arguments_source}} | xargs {{[-o|--open-tty]}} {{command}}`
 
-- Parallel runs of up to `max-procs` processes at a time; the default is 1. If `max-procs` is 0, xargs will run as many processes as possible at a time:
+- Define maximum amount of parallel processes (default is 1). If the number is 0, xargs will run as many processes as possible at a time:
 
-`{{arguments_source}} | xargs {{[-P|--max-procs]}} {{max-procs}} {{command}}`
+`{{arguments_source}} | xargs {{[-P|--max-procs]}} {{number}} {{command}}`
