@@ -1,6 +1,7 @@
 # udisksctl
 
 > `udisksd`와 상호 작용하여 스토리지 장치를 조회하고 조작.
+> 참고: `mount`.
 > 더 많은 정보: <https://storaged.org/doc/udisks2-api/latest/udisksctl.1.html>.
 
 - 디스크 드라이브 및 블록 장치에 대한 상위 정보 표시:
@@ -22,6 +23,10 @@
 - 장치 파티션을 마운트 해제:
 
 `udisksctl unmount {{[-b|--block-device]}} {{/dev/sdXN}}`
+
+- 장치를 안전하게 제거하기 위한 전원 종료:
+
+`udisksctl power-off {{[-b|--block-device]}} {{/dev/sdX}}`
 
 - 데몬의 이벤트 모니터링:
 
