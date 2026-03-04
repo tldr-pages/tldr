@@ -6,8 +6,8 @@
 
 - formula/cask를 설치 삭제:
 
-`brew uninstall {{formula|cask}}`
+`brew {{[rm|uninstall]}} {{formula|cask}}`
 
 - cask를 제거하고 관련 파일을 모두 제거:
 
-`brew uninstall --zap {{cask}}`
+`brew {{[rm|uninstall]}} --zap {{cask}}`
