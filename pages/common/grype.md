@@ -9,7 +9,7 @@
 
 - Scan an image and display results in a specific format:
 
-`grype {{image:tag}} {{[-o|--output]}} {{json|table|cyclonedx|cylonedx-json|sarif|template}}`
+`grype {{image:tag}} {{[-o|--output]}} {{json|table|cyclonedx|cyclonedx-json|sarif|template}}`
 
 - Scan an image, ignoring unfixed vulnerabilities:
 
