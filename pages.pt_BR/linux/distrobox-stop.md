@@ -11,4 +11,4 @@
 
 - Para um contêiner Distrobox de forma não interativa (sem confirmação):
 
-`distrobox-stop --name {{nome_do_contêiner}} --yes`
+`distrobox-stop {{[-n|--name]}} {{nome_do_contêiner}} {{[-Y|--yes]}}`

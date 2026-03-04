@@ -10,4 +10,4 @@
 
 - Detiene un contenedor Distrobox de un modo no interactivo (no pide confirmación):
 
-`distrobox-stop --name {{nombre_del_contenedor}} --yes`
+`distrobox-stop {{[-n|--name]}} {{nombre_del_contenedor}} {{[-Y|--yes]}}`
