@@ -1,7 +1,7 @@
 # udisksctl
 
 > `udisksd`와 상호 작용하여 스토리지 장치를 조회하고 조작.
-> 참고: `mount`.
+> 관련 항목: `mount`.
 > 더 많은 정보: <https://storaged.org/doc/udisks2-api/latest/udisksctl.1.html>.
 
 - 디스크 드라이브 및 블록 장치에 대한 상위 정보 표시:
