@@ -9,28 +9,28 @@
 
 - ASCII 그래프와 함께 수정 내역 표시:
 
-`hg log --graph`
+`hg log {{[-G|--graph]}}`
 
 - 지정된 패턴과 일치하는 파일 이름과 함께 수정 내역 표시:
 
-`hg log --include {{패턴}}`
+`hg log {{[-I|--include]}} {{패턴}}`
 
 - 지정된 패턴과 일치하는 파일 이름을 제외한 수정 내역 표시:
 
-`hg log --exclude {{패턴}}`
+`hg log {{[-X|--exclude]}} {{패턴}}`
 
 - 특정 수정에 대한 로그 정보 표시:
 
-`hg log --rev {{수정}}`
+`hg log {{[-r|--rev]}} {{수정}}`
 
 - 특정 브랜치의 수정 내역 표시:
 
-`hg log --branch {{브랜치}}`
+`hg log {{[-b|--branch]}} {{브랜치}}`
 
 - 특정 날짜에 대한 수정 내역 표시:
 
-`hg log --date {{날짜}}`
+`hg log {{[-d|--date]}} {{날짜}}`
 
 - 특정 사용자에 의해 커밋된 수정 내역 표시:
 
-`hg log --user {{사용자}}`
+`hg log {{[-u|--user]}} {{사용자}}`
