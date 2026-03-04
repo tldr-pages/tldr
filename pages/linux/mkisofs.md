@@ -14,4 +14,4 @@
 
 - Create an ISO image with files larger than 2GiB by reporting a smaller apparent size for ISO9660 filesystems:
 
-`mkisofs -o -allow-limited-size {{filename.iso}} {{path/to/source_directory}}`
+`mkisofs -o {{filename.iso}} -allow-limited-size {{path/to/source_directory}}`
