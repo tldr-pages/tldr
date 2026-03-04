@@ -9,12 +9,12 @@
 
 - Add a new monitor to Oh Dear:
 
-`ohdear-cli create-monitor --field "team_id={{team_id}}" --field "type={{http|ping|tcp}}" --field "url={{url}}"`
+`ohdear create-monitor --field "team_id={{team_id}}" --field "type={{http|ping|tcp}}" --field "url={{url}}"`
 
 - Display a list of monitors and their current status:
 
-`ohdear-cli list-monitors`
+`ohdear list-monitors`
 
-- Display details about a specific monitors:
+- Display details about a specific monitor:
 
-`ohdear-cli get-monitor --monitor-id {{monitor_id}}`
+`ohdear get-monitor --monitor-id {{monitor_id}}`
