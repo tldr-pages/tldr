@@ -1,7 +1,7 @@
 # cdparanoia
 
 > Extract audio tracks from CDs.
-> More information: <https://xiph.org/paranoia/index.html>.
+> More information: <https://xiph.org/paranoia/manual.html>.
 
 - Extract all tracks and write them into separate WAV files named `track#.wav`:
 
