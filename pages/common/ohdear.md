@@ -1,7 +1,7 @@
 # ohdear
 
 > The official Oh Dear CLI.
-> More information: <https://github.com/ohdearapp/ohdear-cli>.
+> More information: <https://ohdear.app/docs/tools-and-sdks/our-cli-tool#available-commands>.
 
 - Display details about the currently authenticated user:
 
