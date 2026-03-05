@@ -10,4 +10,4 @@
 
 - 확인 없이 비대화형으로 Distrobox 컨테이너 중지:
 
-`distrobox-stop {{[-n|--name]}} {{컨테이너_이름}} {{[-Y|--yes]}}`
+`distrobox-stop {{컨테이너_이름}} {{[-Y|--yes]}}`
