@@ -3,9 +3,9 @@
 > A terminal-based video downloader.
 > More information: <https://github.com/remorses/tuitube>.
 
-- Switch between options:
+- Switch between options (navigate):
 
-`<Ctrl>`
+`<Tab>`
 
 - Submit:
 
