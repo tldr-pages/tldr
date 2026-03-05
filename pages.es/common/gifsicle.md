@@ -5,7 +5,7 @@
 
 - Optimiza un GIF como un nuevo archivo:
 
-`gifsicle {{ruta/a/archivo_entrada.gif}} {[-O|--optimize=]}3 {[-o|--output]} {{ruta/a/archivo_salida.gif}}`
+`gifsicle {{ruta/a/archivo_entrada.gif}} {{[-O|--optimize=]}}3 {[-o|--output]} {{ruta/a/archivo_salida.gif}}`
 
 - Utiliza el modo por lotes (modifica cada archivo dado su lugar) y desoptimiza un archivo GIF:
 
