@@ -1,7 +1,8 @@
 # echotc
 
 > Output termcap terminal capability codes in Zsh.
-> Part of the `zsh/termcap` module. See also: `echoti`.
+> Part of the `zsh/termcap` module.
+> See also: `echoti`.
 > More information: <https://zsh.sourceforge.io/Doc/Release/Zsh-Modules.html#The-zsh_002ftermcap-Module>.
 
 - Load the termcap module before use:
