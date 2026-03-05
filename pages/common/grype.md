@@ -1,7 +1,7 @@
 # grype
 
 > Vulnerability scanner for container images and filesystems.
-> More information: <https://github.com/anchore/grype>.
+> More information: <https://oss.anchore.com/docs/reference/grype/cli>.
 
 - Scan a container image:
 
