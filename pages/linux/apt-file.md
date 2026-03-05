@@ -9,7 +9,7 @@
 
 - Search for packages that contain the specified file or path:
 
-`apt-file search {{path/to/file}}`
+`apt-file {{[find|search]}} {{path/to/file}}`
 
 - List the contents of a specific package:
 
@@ -17,4 +17,4 @@
 
 - Search for packages that match the `regex`:
 
-`apt-file search {{[-x|--regexp]}} {{regex}}`
+`apt-file {{[find|search]}} {{[-x|--regexp]}} {{regex}}`
