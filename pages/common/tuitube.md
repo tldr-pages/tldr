@@ -9,7 +9,7 @@
 
 - Submit:
 
-`<Tab>`
+`<Enter>`
 
 - Show menu:
 
