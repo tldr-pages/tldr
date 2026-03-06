@@ -2,7 +2,7 @@
 
 > Output termcap terminal capability codes in Zsh.
 > Part of the `zsh/termcap` module.
-> More information: <https://zsh.sourceforge.io/Doc/Release/Zsh-Modules.html#The-zsh_002ftermcap-Module>.
+> More information: <https://zsh.sourceforge.io/Doc/Release/Zsh-Modules.html>.
 
 - Load the termcap module before use:
 
