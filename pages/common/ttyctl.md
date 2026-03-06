@@ -1,6 +1,6 @@
 # ttyctl
 
-> Freeze or unfreeze the terminal (tty) settings in Zsh.
+> Freeze or unfreeze the terminal (TTY) settings in Zsh.
 > When frozen, external programs cannot alter terminal settings.
 > More information: <https://zsh.sourceforge.io/Doc/Release/Shell-Builtin-Commands.html>.
 
