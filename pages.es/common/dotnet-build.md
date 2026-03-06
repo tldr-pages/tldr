@@ -13,7 +13,7 @@
 
 - Compila en modo de lanzamiento:
 
-`dotnet build --configuration {{Release}}`
+`dotnet build {{[-c|--configuration]}} {{Release}}`
 
 - Compila sin restaurar las dependencias:
 
@@ -21,12 +21,12 @@
 
 - Compila con un nivel específico de verbosidad:
 
-`dotnet build --verbosity {{quiet|minimal|normal|detailed|diagnostic}}`
+`dotnet build {{[-v|--verbosity]}} {{quiet|minimal|normal|detailed|diagnostic}}`
 
 - Compila para un tiempo de ejecución específico:
 
-`dotnet build --runtime {{identificador_del_tiempo_de_ejecución}}`
+`dotnet build {{[-r|--runtime]}} {{identificador_del_tiempo_de_ejecución}}`
 
 - Especifica el directorio de salida:
 
-`dotnet build --output {{ruta/al/directorio}}`
+`dotnet build {{[-o|--output]}} {{ruta/al/directorio}}`

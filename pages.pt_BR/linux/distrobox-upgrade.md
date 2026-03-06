@@ -11,7 +11,7 @@
 
 - Atualiza todos os contêineres usando os gerenciadores de pacotes nativos dos contêineres:
 
-`distrobox-upgrade --all`
+`distrobox-upgrade {{[-a|--all]}}`
 
 - Atualiza contêineres específicos via o gerenciador de pacotes nativo do contêiner:
 

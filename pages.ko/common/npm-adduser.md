@@ -9,7 +9,7 @@
 
 - 특정 범위로 개인 레지스트리에 로그인:
 
-`npm login --scope {{@조직}} --registry {{https://registry.mycorp.com}}`
+`npm login --scope {{@조직}} --registry {{https://registry.example.com}}`
 
 - 특정 범위에서 로그아웃하고 인증 토큰 제거:
 
@@ -17,4 +17,4 @@
 
 - 초기화 중 범위가 지정된 패키지 생성:
 
-`npm init --scope {{@foo}} {{--yes}}`
+`npm init --scope {{@foo}} {{[-y|--yes]}}`
