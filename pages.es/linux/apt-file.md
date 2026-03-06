@@ -9,12 +9,12 @@
 
 - Busca paquetes que contengan el archivo o ruta especificada:
 
-`apt-file {{search|find}} {{ruta/al/archivo}}`
+`apt-file {{[find|search]}} {{ruta/al/archivo}}`
 
 - Muestra el contenido del paquete especificado:
 
-`apt-file {{show|list}} {{nombre_paquete}}`
+`apt-file list {{nombre_paquete}}`
 
 - Busca paquetes que coincidan con la `expresión_regular`:
 
-`apt-file {{search|find}} {{[-x|--regexp]}} {{expresión_regular}}`
+`apt-file {{[find|search]}} {{[-x|--regexp]}} {{expresión_regular}}`
