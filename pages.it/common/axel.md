@@ -1,26 +1,34 @@
 # axel
 
-> Downloader accelerato.
-> Supporta HTTP, HTTPS e FTP.
+> Acceleratore di download.
+> Supporta HTTP, HTTPS, FTP e FTPS.
 > Vedi anche: `aria2c`.
 > Maggiori informazioni: <https://manned.org/axel>.
 
-- Scarica un file da un URL:
+- Scarica un URL in un file:
 
 `axel {{url}}`
 
-- Scarica specificando il nome del file da creare:
+- Scarica e specifica un file di output:
 
-`axel {{url}} {{[-o|--output]}} {{filename}}`
+`axel {{url}} {{[-o|--output]}} {{path/to/file}}`
 
-- Scarica sfruttando connessioni multiple:
+- Scarica con un numero specifico di connessioni:
 
-`axel {{[-n|--num-connections]}} {{numero_connessioni}} {{url}}`
+`axel {{[-n|--num-connections]}} {{number}} {{url}}`
 
-- Cerca dei mirror:
+- Usa un numero specifico di mirror per la ricerca e il download:
 
-`axel {{[-S|--search=]}}{{numero_mirror}} {{url}}`
+`axel {{[-S|--search=]}}{{number}} {{url}}`
 
-- Limita la velocità di download (in bytes al secondo):
+- Limita la velocità di download (byte al secondo):
 
-`axel {{[-s|--max-speed]}} {{limite_velocità}} {{url}}`
+`axel {{[-s|--max-speed]}} {{speed}} {{url}}`
+
+- Usa solo il protocollo IPv4 quando si connette all'host:
+
+`axel {{[-4|--ipv4]}} {{url}}`
+
+- Limita l'output a `stdout` e usa un user-agent personalizzato durante il download:
+
+`axel {{[-q|--quiet]}} {{[-U|--user-agent]}} {{"Mozilla/5.0"}} {{url}}`
