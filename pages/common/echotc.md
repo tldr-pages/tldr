@@ -20,6 +20,6 @@
 
 `echotc AF 2`
 
-- Move the cursor up one line:
+- Return the cursor to the start of the current line:
 
 `echotc up`
