@@ -25,7 +25,7 @@
 
 - Elimina los primeros 10 fotogramas y todos los fotogramas posteriores al fotograma 20 de un GIF:
 
-`gifsicle {{[-b|--batch]}} {{ruta/a/archivo_entrada.gif}} --delete “#{{0-9}}” '#{{20-}}'`
+`gifsicle {{[-b|--batch]}} {{ruta/a/archivo_entrada.gif}} --delete '#{{0-9}}' '#{{20-}}'`
 
 - Modifica todos los fotogramas recortándolos en un rectángulo, cambiando su escala, volteándolos y rotándolos:
 
