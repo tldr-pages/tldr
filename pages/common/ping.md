@@ -1,6 +1,7 @@
 # ping
 
 > Send ICMP ECHO_REQUEST packets to network hosts.
+> See also: `mtr`.
 > More information: <https://manned.org/ping>.
 
 - Ping a host:

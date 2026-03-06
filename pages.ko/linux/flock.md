@@ -10,8 +10,8 @@
 
 - 파일 잠금을 사용하여 명령을 실행하고, 잠금이 존재하지 않으면 종료:
 
-`flock {{경로/대상/락.lock}} {{[-n|--nonblock]}} {{[-c|--command]}} "{{명령어}}"`
+`flock {{[-n|--nonblock]}} {{경로/대상/락.lock}} {{[-c|--command]}} "{{명령어}}"`
 
 - 파일 잠금을 사용하여, 명령을 실행하고 잠금이 존재하면 않으면 특정 오류 코드로 종료:
 
-`flock {{경로/대상/락.lock}} {{[-n|--nonblock]}} {{[-E|--conflict-exit-code]}} {{에러_코드}} {{[-c|--command]}} "{{명령어}}"`
+`flock {{[-n|--nonblock]}} {{[-E|--conflict-exit-code]}} {{에러_코드}} {{경로/대상/락.lock}} {{[-c|--command]}} "{{명령어}}"`
