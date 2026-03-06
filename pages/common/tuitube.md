@@ -3,6 +3,10 @@
 > A terminal-based video downloader.
 > More information: <https://github.com/remorses/tuitube>.
 
+- Start `tuitube`:
+
+`tuitube`
+ 
 - Switch between options (navigate):
 
 `<Tab>`
