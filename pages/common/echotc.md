@@ -8,9 +8,8 @@
 
 `zmodload zsh/termcap`
 
-- Move the cursor to the beginning of the line:
-
-`echotc cr`
+- Return the cursor to the start of the current line (carriage return):
+  `echotc cr`
 
 - Clear the screen:
 
@@ -20,6 +19,5 @@
 
 `echotc AF 2`
 
-- Return the cursor to the start of the current line:
-
-`echotc up`
+- Move the cursor up one line:
+  `echotc up`
