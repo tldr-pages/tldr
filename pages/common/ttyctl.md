@@ -8,7 +8,7 @@
 
 `ttyctl -f`
 
-- Unfreeze the terminal to allow changes to its settings:
+- [u]nfreeze the terminal to allow changes to its settings:
 
 `ttyctl -u`
 
