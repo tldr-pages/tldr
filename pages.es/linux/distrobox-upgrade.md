@@ -10,7 +10,7 @@
 
 - Actualiza todos los contenedores utilizando los administradores de paquetes nativos de cada contenedor:
 
-`distrobox-upgrade --all`
+`distrobox-upgrade {{[-a|--all]}}`
 
 - Actualiza contenedores específicos a través del administrador de paquetes nativo de cada contenedor:
 
