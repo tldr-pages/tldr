@@ -1,20 +1,8 @@
 # ohdear-cli
 
-> An unofficial Oh Dear CLI written with Laravel Zero.
-> More information: <https://github.com/ohdearapp/ohdear-cli>.
+> This command has been renamed to `ohdear`.
+> More information: <https://ohdear.app/docs/tools-and-sdks/our-cli-tool#available-commands>.
 
-- Display details about the currently authenticated user:
+- View documentation for the command under its current name:
 
-`ohdear-cli me`
-
-- Add a new site to Oh Dear:
-
-`ohdear-cli sites:add {{url}}`
-
-- Display a list of sites and their current status:
-
-`ohdear-cli sites:list`
-
-- Display details about a specific site:
-
-`ohdear-cli sites:show {{site_id}}`
+`tldr ohdear`
