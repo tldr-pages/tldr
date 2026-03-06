@@ -15,12 +15,8 @@
 
 - Declare multiple floating point variables:
 
-`float {{var1}} {{var2}} {{var3}}`
+`float {{var1=value1 var2=value2 ...}}`
 
 - Display defined variables:
 
 `float`
-
-- Specify the number of significant digits to display:
-
-`float -E {{number_of_digits}} {{variable_name}}`
