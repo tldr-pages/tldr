@@ -13,7 +13,7 @@
 
 - Extrae un fotograma de un archivo GIF:
 
-`gifsicle {{ruta/a/archivo_entrada.gif}} '#{{0}}' > {{ruta/a/`primer_fotograma.gif}}`
+`gifsicle {{ruta/a/archivo_entrada.gif}} '#{{0}}' > {{ruta/a/primer_fotograma.gif}}`
 
 - Crea una animación GIF a partir de GIF seleccionados:
 
