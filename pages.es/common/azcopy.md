@@ -18,7 +18,7 @@
 
 - Copia un contenedor directamente entre dos cuentas de almacenamiento de Azure:
 
-`azcopy {{[c|copy]}} “https://{{nombre_cuenta_almacenamiento_origen}}.blob.core.windows.net/{{nombre_contenedor}}” 'https://{{nombre_cuenta_almacenamiento_destino}}.blob.core.windows.net/{{nombre_contenedor}}'`
+`azcopy {{[c|copy]}} 'https://{{nombre_cuenta_almacenamiento_origen}}.blob.core.windows.net/{{nombre_contenedor}}' 'https://{{nombre_cuenta_almacenamiento_destino}}.blob.core.windows.net/{{nombre_contenedor}}'`
 
 - Sincroniza un directorio local y elimina archivos en el destino si ya no existen en el origen:
 
