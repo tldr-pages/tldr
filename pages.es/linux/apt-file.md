@@ -1,7 +1,7 @@
 # apt-file
 
 > Busca archivos en paquetes `apt`, incluyendo los que aún no han sido instalados.
-> Más información: <https://manned.org/apt-file.1>.
+> Más información: <https://manned.org/apt-file>.
 
 - Actualiza los metadatos de la base de datos:
 
