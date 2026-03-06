@@ -4,7 +4,7 @@
 > See also: `dmesg`.
 > More information: <https://www.freedesktop.org/software/systemd/man/latest/journalctl.html>.
 
-- Show the latest `n` lines and follow new messages (like `tail -f` for traditional syslog):
+- Show the latest `n` lines and follow new messages (like `tail --follow` for traditional syslog):
 
 `journalctl {{[-n|--lines]}} {{n}} {{[-f|--follow]}}`
 
