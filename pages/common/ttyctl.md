@@ -4,7 +4,7 @@
 > When frozen, external programs cannot alter terminal settings.
 > More information: <https://zsh.sourceforge.io/Doc/Release/Shell-Builtin-Commands.html>.
 
-- Freeze the terminal to prevent external programs from changing its settings:
+- [f]reeze the terminal to prevent external programs from changing its settings:
 
 `ttyctl -f`
 
