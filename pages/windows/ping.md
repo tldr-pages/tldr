@@ -12,7 +12,7 @@
 
 `ping -n {{count}} {{host}}`
 
-- Ping a host continuously (until stopped with `Ctrl + C`):
+- Ping a host continuously (until stopped with `<Ctrl c>`):
 
 `ping -t {{host}}`
 
