@@ -7,9 +7,9 @@
 
 `docker buildx prune`
 
-- Filter to delete specific cache records; note multiple filters flags are AND-ed together:
+- Remove cache records based on a specific filter:
 
-`docker buildx prune --filter "type=source.local"`
+`docker buildx prune --filter "{{type=source.local}}"`
 
 - Delete most recent cache records till cache is equal or less than desired size:
 
