@@ -7,6 +7,6 @@
 
 `docker buildx ls`
 
-- Format output:
+- Format the output using a Go template:
 
 `docker buildx ls --format "{{.NAME}}: {{.DriverEndpoint}}"`
