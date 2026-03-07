@@ -15,6 +15,6 @@
 
 `docker buildx prune --max-used-space {{128mb}}`
 
-- Delete most recent cache records till specified amount of disk space is available:
+- Remove the least recently used cache records until a specific amount of free disk space is available:
 
-`docker buildx prune --reserved-space 2gb`
+`docker buildx prune --reserved-space {{2gb}}`
