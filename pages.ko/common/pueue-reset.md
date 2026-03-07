@@ -13,4 +13,4 @@
 
 - 확인을 요구하지 않고 재설정:
 
-`pueue reset --force`
+`pueue reset {{[-f|--force]}}`

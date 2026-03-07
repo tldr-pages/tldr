@@ -9,7 +9,7 @@
 
 - Pasang aplikasi Android menuju emulator/perangkat tertentu (berdasarkan nomor serial yang didapatkan dari `adb devices`, mengesampingkan nilai `$ANDROID_SERIAL`):
 
-`adb -s {{nomor_serial}} install {{jalan/menuju/file}}.apk`
+`adb -s {{nomor_serial}} install {{jalan/menuju/berkas}}.apk`
 
 - Pasang ulang aplikasi yang sudah ada, menjaga datanya:
 

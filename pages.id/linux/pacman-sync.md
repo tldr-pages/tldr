@@ -4,34 +4,34 @@
 > Lihat juga: `pacman`.
 > Informasi lebih lanjut: <https://manned.org/pacman.8>.
 
-- Instal paket baru:
+- Pasang suatu paket:
 
-`sudo pacman --sync {{nama_paket}}`
+`sudo pacman -S {{nama_paket}}`
 
 - Sinkronkan dan perbarui semua paket (tambahkan `--downloadonly` untuk unduh paket dan tidak memperbarui-nya):
 
-`sudo pacman --sync --refresh --sysupgrade`
+`sudo pacman -Syu`
 
 - Perbarui semua paket dan instal paket baru tanpa konfirmasi:
 
-`sudo pacman --sync --refresh --sysupgrade --noconfirm {{nama_paket}}`
+`sudo pacman -Syu --noconfirm {{nama_paket}}`
 
 - Cari paket dalam database berdasarkan `regex` atau kata kunci:
 
-`pacman --sync --search "{{pola_pencarian}}"`
+`pacman -Ss "{{pola_pencarian}}"`
 
-- Tampilkan informasi sebuah paket:
+- Tampilkan [i]nformasi suatu paket:
 
-`pacman --sync --info {{nama_paket}}`
+`pacman -Si {{nama_paket}}`
 
 - Timpa file yang bentrok selama pembaruan paket:
 
-`sudo pacman --sync --refresh --sysupgrade --overwrite {{jalan/menuju/file}}`
+`sudo pacman -Syu --overwrite {{jalan/menuju/berkas}}`
 
-- Sinkronkan dan perbarui semua paket, namun abaikan paket tertentu (dapat digunakan lebih dari sekali):
+- Hapus kumpulan paket dan repositori yang tidak terpakai dari cache (gunakan opsi flag `Scc` untuk hapus seluruh paket):
 
-`sudo pacman --sync --refresh --sysupgrade --ignore {{nama_paket}}`
+`sudo pacman -Sc`
 
-- Hapus paket yang tidak terpasang dan repositori yang tidak digunakan dari cache (gunakan dua tanda `--clean` untuk bersihkan semua paket):
+- Tentukan versi paket yang hendak dipasang:
 
-`sudo pacman --sync --clean`
+`sudo pacman -S {{nama_paket}}={{versi}}`

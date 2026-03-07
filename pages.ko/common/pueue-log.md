@@ -18,4 +18,4 @@
 
 - 출력의 끝에서 특정 줄 수 만큼의 줄을 출력:
 
-`pueue log --lines {{number_of_lines}} {{작업_아이디}}`
+`pueue log {{[-l|--lines]}} {{number_of_lines}} {{작업_아이디}}`

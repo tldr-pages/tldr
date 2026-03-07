@@ -1,6 +1,7 @@
 # opencode
 
 > An AI coding agent.
+> Some subcommands such as `auth`, `models`, `web`, etc. have their own usage documentation.
 > More information: <https://opencode.ai/docs/cli/>.
 
 - Start the interactive TUI:

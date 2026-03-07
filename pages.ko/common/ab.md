@@ -1,7 +1,6 @@
 # ab
 
-> 아파치 벤치마킹 도구.
-> 로드 테스트를 수행하는 가장 간단한 도구.
+> Apache HTTP 서버 벤치마킹 도구.
 > 더 많은 정보: <https://httpd.apache.org/docs/current/programs/ab.html>.
 
 - 지정된 URL에 대해 100개의 HTTP GET 요청 실행:
