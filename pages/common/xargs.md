@@ -5,13 +5,13 @@
 > See also: `parallel`.
 > More information: <https://www.gnu.org/software/findutils/manual/html_mono/find.html#Invoking-xargs>.
 
-- Print what arguments xargs would receive:
-
-`{{arguments_source}} | xargs`
-
 - Run a command using the input data as arguments:
 
 `{{arguments_source}} | xargs {{command}}`
+
+- Run multiple chained commands on the input data:
+
+`{{arguments_source}} | xargs sh -c "{{command1}} && {{command2}} | {{command3}}"`
 
 - Execute a new command with each argument:
 
