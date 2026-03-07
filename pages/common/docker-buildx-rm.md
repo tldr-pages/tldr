@@ -3,9 +3,9 @@
 > Remove one or more builder instances.
 > More information: <https://docs.docker.com/reference/cli/docker/buildx/rm/>.
 
-- Remove a docker builder instance:
+- Remove a builder instance:
 
-`docker buildx rm mybuilder`
+`docker buildx rm {{builder_name}}`
 
 - Remove all inactive builders:
 
