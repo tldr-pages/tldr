@@ -1,0 +1,24 @@
+# owut
+
+> OpenWrt Upgrade Tool for automating builds and installs via Attended SysUpgrade (ASU).
+> More information: <https://openwrt.org/docs/guide-user/installation/sysupgrade.owut>.
+
+- List available OpenWrt versions for the current device:
+
+`owut versions`
+
+- Check for updates without performing an upgrade:
+
+`owut check`
+
+- Automatically build, download, verify, and install the latest available firmware:
+
+`owut upgrade`
+
+- Upgrade to a specific version and include additional packages:
+
+`owut upgrade --version-to {{version}} --add "{{htop vim}}"`
+
+- Download and verify a specific image without installing it:
+
+`owut download --version-to {{25.12.0}}`
