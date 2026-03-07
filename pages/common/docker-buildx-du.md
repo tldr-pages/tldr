@@ -15,7 +15,7 @@
 
 `docker buildx du --verbose`
 
-- Format output using placeholder values:
+- Format the output using a Go template:
 
 `docker buildx du --format "table {{.ID}}    {{.Description}}"`
 
