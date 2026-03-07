@@ -7,9 +7,9 @@
 
 `docker buildx du`
 
-- Filter output using `<key><operator><value>` format:
+- Filter output based on a specific condition:
 
-`docker buildx du --filter "description~=golang"`
+`docker buildx du --filter "{{description~=golang}}"`
 
 - Pretty print output:
 
