@@ -4,7 +4,7 @@
 > Unlike Unix-like systems, Windows `ping` sends only 4 packets by default.
 > More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/ping>.
 
-- Ping a host:
+- Ping a host 4 times:
 
 `ping {{host}}`
 
