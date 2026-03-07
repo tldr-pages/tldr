@@ -11,9 +11,9 @@
 
 `docker buildx prune --filter "{{type=source.local}}"`
 
-- Delete most recent cache records till cache is equal or less than desired size:
+- Remove the least recently used cache records until the cache size is below a specific limit:
 
-`docker buildx prune --max-used-space 128mb`
+`docker buildx prune --max-used-space {{128mb}}`
 
 - Delete most recent cache records till specified amount of disk space is available:
 
