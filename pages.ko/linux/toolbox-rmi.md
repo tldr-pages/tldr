@@ -10,8 +10,8 @@
 
 - 모든 Toolbx 이미지 제거:
 
-`toolbox rmi --all`
+`toolbox rmi {{[-a|--all]}}`
 
 - 현재 컨테이너에서 사용 중인 Toolbx 이미지를 강제로 제거 (컨테이너도 함께 제거됨):
 
-`toolbox rmi --force {{이미지_이름}}`
+`toolbox rmi {{[-f|--force]}} {{이미지_이름}}`
