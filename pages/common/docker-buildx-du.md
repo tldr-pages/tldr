@@ -11,7 +11,7 @@
 
 `docker buildx du --filter "{{description~=golang}}"`
 
-- Pretty print output:
+- Show verbose output:
 
 `docker buildx du --verbose`
 
