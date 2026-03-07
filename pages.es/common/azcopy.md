@@ -14,7 +14,7 @@
 
 - Carga archivos con extensiones `.txt` y `.jpg`:
 
-`azcopy {{[c|copy]}} '{{ruta/a/directorio_origen}}' 'https://{{nombre_cuenta_almacenamiento}}.blob.core.windows.net/{{nombre_contenedor}}“ --include-pattern ”*.txt;*.jpg'`
+`azcopy {{[c|copy]}} '{{ruta/a/directorio_origen}}' 'https://{{nombre_cuenta_almacenamiento}}.blob.core.windows.net/{{nombre_contenedor}}' --include-pattern '*.txt;*.jpg'`
 
 - Copia un contenedor directamente entre dos cuentas de almacenamiento de Azure:
 
