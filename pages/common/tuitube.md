@@ -6,7 +6,7 @@
 - Start `tuitube`:
 
 `tuitube`
- 
+
 - Switch between options (navigate):
 
 `<Tab>`
