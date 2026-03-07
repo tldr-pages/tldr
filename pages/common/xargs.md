@@ -13,13 +13,13 @@
 
 `{{arguments_source}} | xargs {{command}}`
 
-- Execute the command once per argument:
+- Execute a new command for every argument:
 
 `{{arguments_source}} | xargs {{[-n|--max-args]}} 1 {{command}}`
 
-- Raise the parallel process limit (default is 1). If the number is 0, xargs will run as many processes as possible at a time:
+- Raise the parallel process limit to 10 (default is 1). If the number is 0, xargs will run as many processes as possible at a time:
 
-`{{arguments_source}} | xargs {{[-P|--max-procs]}} {{number}} {{[-n|--max-args]}} {{1}} {{command}}`
+`{{arguments_source}} | xargs {{[-P|--max-procs]}} 10 {{[-n|--max-args]}} {{1}} {{command}}`
 
 - Execute the command once for each input line, replacing any occurrences of the placeholder (here marked as `_`) with the input line:
 
