@@ -21,7 +21,7 @@
 
 - Pretty print output as JSON with `jq` command:
 
-`docker buildx du --format=json | jq .`
+`docker buildx du --format json | jq .`
 
 - Inspect the disk usage of a specific builder:
 
