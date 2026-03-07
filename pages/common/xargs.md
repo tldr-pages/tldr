@@ -13,7 +13,7 @@
 
 `{{arguments_source}} | xargs {{command}}`
 
-- Execute a new command for every argument:
+- Execute a new command with each argument:
 
 `{{arguments_source}} | xargs {{[-n|--max-args]}} 1 {{command}}`
 
