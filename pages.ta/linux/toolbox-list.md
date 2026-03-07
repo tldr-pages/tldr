@@ -9,8 +9,8 @@
 
 - `toolbox` கொள்கலன்களை மட்டும் பட்டியலிடுங்கள்:
 
-`toolbox list --containers`
+`toolbox list {{[-c|--containers]}}`
 
 - `toolbox` படங்களை மட்டும் பட்டியலிடுங்கள்:
 
-`toolbox list --images`
+`toolbox list {{[-i|--images]}}`
