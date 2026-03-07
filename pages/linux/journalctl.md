@@ -4,17 +4,13 @@
 > See also: `dmesg`.
 > More information: <https://www.freedesktop.org/software/systemd/man/latest/journalctl.html>.
 
-- Show all messages with priority level 3 (errors) from this boot:
-
-`journalctl {{[-b|--boot]}} {{[-p|--priority]}} 3`
-
-- Delete journal logs which are older than 2 days:
-
-`journalctl --vacuum-time 2d`
-
-- Show only the last `n` lines and follow new messages (like `tail -f` for traditional syslog):
+- Show the latest `n` lines and follow new messages (like `tail --follow` for traditional syslog):
 
 `journalctl {{[-n|--lines]}} {{n}} {{[-f|--follow]}}`
+
+- Show all messages with priority level 3 (errors) from the boot before last shutdown:
+
+`journalctl {{[-b|--boot]}} -1 {{[-p|--priority]}} 3`
 
 - Show all messages by a specific unit:
 
@@ -26,7 +22,7 @@
 
 - Filter messages within a time range (either timestamp or placeholders like "yesterday"):
 
-`journalctl {{[-S|--since]}} {{now|today|yesterday|tomorrow}} {{[-U|--until]}} "{{YYYY-MM-DD HH:MM:SS}}"`
+`journalctl {{[-S|--since]}} {{now|today|yesterday|tomorrow|...}} {{[-U|--until]}} "{{YYYY-MM-DD HH:MM:SS}}"`
 
 - Show all messages by a specific process:
 
@@ -35,3 +31,7 @@
 - Show all messages by a specific executable:
 
 `journalctl {{path/to/executable}}`
+
+- Delete journal logs which are older than 2 days:
+
+`journalctl --vacuum-time 2d`
