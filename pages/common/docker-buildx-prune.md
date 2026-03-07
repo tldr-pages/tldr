@@ -1,6 +1,6 @@
 # docker buildx prune
 
-> Removes the build cache.
+> Remove the build cache.
 > More information: <https://docs.docker.com/reference/cli/docker/buildx/prune/>.
 
 - Remove build cache for currently active builder:
