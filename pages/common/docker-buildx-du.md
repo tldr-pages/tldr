@@ -25,4 +25,4 @@
 
 - Inspect the disk usage of a specific builder:
 
-`docker buildx due --builder mybuilder`
+`docker buildx du --builder {{builder_name}}`
