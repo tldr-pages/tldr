@@ -20,6 +20,6 @@
 
 `lilypond {{[-o|--output]}} {{ruta/al/archivo_de_salida}} {{ruta/al/archivo_de_entrada}}`
 
-- Muestra la versión:¢
+- Muestra la versión:
 
 `lilypond {{[-v|--version]}}`
