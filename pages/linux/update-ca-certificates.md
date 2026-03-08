@@ -7,11 +7,11 @@
 
 `sudo update-ca-certificates`
 
-- Update certificates, being [v]erbose:
+- Update certificates in verbose mode:
 
 `sudo update-ca-certificates {{[-v|--verbose]}}`
 
-- Perform a [f]resh update (remove all symlinks and regenerate):
+- Perform a fresh update (remove all symlinks and regenerate):
 
 `sudo update-ca-certificates {{[-f|--fresh]}}`
 
