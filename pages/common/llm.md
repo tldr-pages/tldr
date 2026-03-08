@@ -1,6 +1,7 @@
 # llm
 
 > Interact with Large Language Models (LLMs) via remote APIs and models that can be installed and run on your machine.
+> Some subcommands such as `chat`, `models`, `keys`, `logs`, etc. have their own usage documentation.
 > More information: <https://llm.datasette.io/en/stable/help.html>.
 
 - Set up an OpenAI API Key:
