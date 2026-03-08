@@ -8,13 +8,13 @@
 
 `apptainer registry list`
 
-- Log in to Docker Hub with a username (password will be prompted):
+- Log in to a registry with a username (password will be prompted):
 
-`apptainer registry login {{[-u|--username]}} {{username}} docker://docker.io`
+`apptainer registry login {{[-u|--username]}} {{username}} docker://{{registry}}`
 
 - Log in to a custom OCI registry:
 
-`apptainer registry login {{[-u|--username]}} {{username}} oras://{{registry.example.com}}`
+`apptainer registry login {{[-u|--username]}} {{username}} oras://{{registry}}`
 
 - Log in with username and password:
 
@@ -30,7 +30,7 @@
 
 - Log out from a registry:
 
-`apptainer registry logout docker://docker.io`
+`apptainer registry logout docker://{{registry}}`
 
 - Log out using a custom authentication file:
 
