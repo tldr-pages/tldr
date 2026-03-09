@@ -17,7 +17,7 @@
 
 `{{arguments_source}} | xargs {{[-n|--max-args]}} 1 {{command}}`
 
-- Raise the parallel process limit to 10 (default is 1). If the number is 0, xargs will run as many processes as possible at a time:
+- Raise the parallel process limit to 10 (default is 1; 0 means as many processes as possible):
 
 `{{arguments_source}} | xargs {{[-P|--max-procs]}} 10 {{[-n|--max-args]}} {{1}} {{command}}`
 
