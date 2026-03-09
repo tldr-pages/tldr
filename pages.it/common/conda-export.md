@@ -3,7 +3,7 @@
 > Esporta dettagli ambiente.
 > Maggiori informazioni: <https://docs.conda.io/projects/conda/en/latest/commands/export.html>.
 
-- Esporta ambiente corrente (stdout):
+- Esporta ambiente corrente ('stdout'):
 
 `conda export`
 
