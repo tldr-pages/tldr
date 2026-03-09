@@ -24,7 +24,7 @@
 
 `hledger {{[bal|balance]}} {{[-H|--historical]}} {{[-p|--period]}} '{{trimestral en 2024}}' {{activos}} {{pasivos}}`
 
-- Similar al anterior, de un modo más breve; también muestra saldos en cero, ordena por total y resume a tres niveles:
+- Similar a la anterior, de un modo más breve; también muestra saldos en cero, ordena por total y resume a tres niveles:
 
 `hledger {{[bal|balance]}} {{[-HQ|--historical --quarterly]}} date:{{2024}} type:{{AL}} {{[-ES|--empty --sort-amount]}} {{[-3|--depth 3]}}`
 
