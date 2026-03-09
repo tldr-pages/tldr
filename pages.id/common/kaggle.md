@@ -1,36 +1,36 @@
 # kaggle
 
-> Official CLI for Kaggle implemented in Python 3.
-> More information: <https://github.com/Kaggle/kaggle-api/blob/main/docs/README.md>.
+> CLI resmi untuk Kaggle yang diimplementasikan dalam Python 3.
+> Informasi lebih lanjut: <https://github.com/Kaggle/kaggle-api/blob/main/docs/README.md>.
 
-- View current configuration values:
+- Tampilkan nilai konfigurasi saat ini:
 
 `kaggle config view`
 
-- Download a specific file from a competition dataset:
+- Unduh file tertentu dari dataset kompetisi:
 
-`kaggle {{[c|competitions]}} download {{competition}} {{[-f|--file]}} {{path/to/file}}`
+`kaggle {{[c|competitions]}} download {{kompetisi}} {{[-f|--file]}} {{jalan/ke/file}}`
 
-- List competitions matching a search term:
+- Tampilkan daftar kompetisi yang sesuai dengan kata kunci pencarian:
 
-`kaggle {{[c|competitions]}} list {{[-s|--search]}} {{search_term}}`
+`kaggle {{[c|competitions]}} list {{[-s|--search]}} {{kata_kunci}}`
 
-- List files available for a specific competition:
+- Tampilkan daftar file yang tersedia untuk kompetisi tertentu:
 
-`kaggle {{[c|competitions]}} files {{competition}}`
+`kaggle {{[c|competitions]}} files {{kompetisi}}`
 
-- Submit a file to a competition with a message:
+- Kirim file ke kompetisi disertai pesan:
 
-`kaggle {{[c|competitions]}} submit {{competition}} {{[-f|--file]}} {{path/to/submission.csv}} {{[-m|--message]}} "{{message}}"`
+`kaggle {{[c|competitions]}} submit {{kompetisi}} {{[-f|--file]}} {{jalan/ke/hasil_prediksi.csv}} {{[-m|--message]}} "{{pesan}}"`
 
-- List datasets matching a search term:
+- Tampilkan daftar dataset yang sesuai dengan kata kunci pencarian:
 
-`kaggle {{[d|datasets]}} list {{[-s|--search]}} {{search_term}}`
+`kaggle {{[d|datasets]}} list {{[-s|--search]}} {{kata_kunci}}`
 
-- Download all files from a dataset:
+- Unduh semua file dari sebuah dataset:
 
-`kaggle {{[d|datasets]}} download {{owner}}/{{dataset_name}}`
+`kaggle {{[d|datasets]}} download {{pemilik}}/{{nama_dataset}}`
 
-- List kernels (notebooks) matching a search term:
+- Tampilkan daftar kernel (notebook) yang sesuai dengan kata kunci pencarian:
 
-`kaggle {{[k|kernels]}} list {{[-s|--search]}} {{search_term}}`
+`kaggle {{[k|kernels]}} list {{[-s|--search]}} {{kata_kunci}}`
