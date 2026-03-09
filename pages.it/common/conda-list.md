@@ -15,7 +15,7 @@
 
 `conda list {{[-p|--prefix]}} {{percorso/dell/ambiente}}`
 
-- Filtro regex:
+- Filtro (`regex`):
 
 `conda list {{regex}}`
 
