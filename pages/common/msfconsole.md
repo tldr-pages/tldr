@@ -1,28 +1,37 @@
 # msfconsole
 
 > Console for the Metasploit Framework.
+> Note: Run `sudo msfdb init` to enable the Metasploit database backend prior to launching `msfconsole`.
 > More information: <https://docs.rapid7.com/metasploit/msf-overview/>.
 
-- Launch the console:
+- Launch the interactive console (append `--quiet` to suppress the startup banner):
 
-`msfconsole`
-
-- Launch the console quietly without any banner:
-
-`msfconsole {{[-q|--quiet]}}`
-
-- Do not enable database support:
-
-`msfconsole {{[-n|--no-database]}}`
+`sudo msfconsole`
 
 - Execute console commands (Note: Use `;` for passing multiple commands):
 
-`msfconsole {{[-x|--execute-command]}} "{{use auxiliary/server/capture/ftp; set SRVHOST 0.0.0.0; set SRVPORT 21; run}}"`
+`sudo msfconsole {{[-x|--execute-command]}} "{{use auxiliary/scanner/portscan/tcp; set PORTS 80,443; set RHOSTS example.com; run; quit}}"`
 
-- Display help:
+- Run a specific resource file:
 
-`msfconsole {{[-h|--help]}}`
+`sudo msfconsole {{[-r|--resource]}} {{path/to/file.rc}}`
 
-- Display version:
+- [Interactive] Show specific type of modules:
 
-`msfconsole {{[-v|--version]}}`
+`show {{auxiliary|encoders|evasion|exploits|nops|payloads|post}}`
+
+- [Interactive] Use a module:
+
+`use {{auxiliary/scanner/portscan/syn}}`
+
+- [Interactive] Show module options (module needs to loaded first):
+
+`show options`
+
+- [Interactive] Set value of variable:
+
+`set {{variable_name}} {{value}}`
+
+- [Interactive] Run a module (module needs to be loaded and options need to be set first):
+
+`{{run|exploit}}`
