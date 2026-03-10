@@ -21,7 +21,7 @@
 
 - Upgrade to a specific version and include additional packages:
 
-`owut upgrade --version-to {{version}} --add "{{htop vim}}"`
+`owut upgrade {{[-V|--version-to]}} {{version}} {{[-a|--add]}} "{{htop vim}}"`
 
 - Download and verify a specific image without installing it:
 
