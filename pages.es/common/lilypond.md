@@ -10,11 +10,11 @@
 
 - Compila en el formato especificado:
 
-`lilypond {{[-f|--format]}} {{formato_dump}} {ruta/al/archivo}}`
+`lilypond {{[-f|--format]}} {{formato_dump}} {{ruta/al/archivo}}`
 
 - Compila el archivo especificado, suprimiendo las actualizaciones de progreso:
 
-`lilypond {{[-s|--silent]}} {ruta/al/archivo}}`
+`lilypond {{[-s|--silent]}} {{ruta/al/archivo}}`
 
 - Compila el archivo especificado y especificar también el nombre del archivo de salida:
 
