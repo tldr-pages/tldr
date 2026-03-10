@@ -10,7 +10,7 @@
 
 - Search recursively in a directory:
 
-`egrep -r "{{pattern}}" {{directory}}`
+`egrep -r "{{pattern}}" {{path/to/directory}}`
 
 - Show line numbers of matching lines:
 
