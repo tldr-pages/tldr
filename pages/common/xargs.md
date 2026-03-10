@@ -13,25 +13,25 @@
 
 `{{arguments_source}} | xargs sh -c "{{command1}} && {{command2}} | {{command3}}"`
 
-- Gzip all files with `.log` extension taking advantage of multiple threads (`-print0` uses a null character to split file names and `--null` uses it as delimiter):
-
-`find . -name '*.log' -print0 | xargs {{[-0|--null]}} {{[-P|--max-procs]}} {{4}} {{[-n|--max-args]}} 1 gzip`
-
-- Execute the command once per argument:
+- Execute a new command with each argument:
 
 `{{arguments_source}} | xargs {{[-n|--max-args]}} 1 {{command}}`
+
+- Raise the parallel process limit to 10 (default is 1; 0 means as many processes as possible):
+
+`{{arguments_source}} | xargs {{[-P|--max-procs]}} 10 {{[-n|--max-args]}} {{1}} {{command}}`
 
 - Execute the command once for each input line, replacing any occurrences of the placeholder (here marked as `_`) with the input line:
 
 `{{arguments_source}} | xargs -I _ {{command}} _ {{optional_extra_arguments}}`
 
-- Parallel runs of up to `max-procs` processes at a time; the default is 1. If `max-procs` is 0, xargs will run as many processes as possible at a time:
-
-`{{arguments_source}} | xargs {{[-P|--max-procs]}} {{max-procs}} {{command}}`
-
 - Prompt user for confirmation before executing command (confirm with `y` or `Y`):
 
 `{{arguments_source}} | xargs {{[-p|--interactive]}} {{command}}`
+
+- Read a file for arguments to be given to a command:
+
+`xargs {{[-a|--arg-file]}} {{path/to/file}} {{command}}`
 
 - Allow the command to access the terminal for interactive input:
 
