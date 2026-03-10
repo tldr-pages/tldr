@@ -25,7 +25,7 @@
 
 - Download and verify a specific image without installing it:
 
-`owut download --version-to {{25.12.0}}`
+`owut download {{[-V|--version-to]}} {{25.12.0}}`
 
 - Verify the latest downloaded image and install it:
 
