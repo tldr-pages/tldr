@@ -13,7 +13,7 @@
 
 - 删除 release 模式的构建产物 (`target/release` 目录)：
 
-`cargo clean --release`
+`cargo clean {{[-r|--release]}}`
 
 - 删除给定配置文件的目录中的构建产物（在本例中为 `target/debug`)：
 
