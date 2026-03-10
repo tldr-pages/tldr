@@ -21,4 +21,4 @@
 
 - Download a website but only follow links a certain number of pages deep:
 
-`httrack {{https://example.com}} -r{{2}}`
+`httrack {{https://example.com}} -r{{depth}}`
