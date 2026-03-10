@@ -27,6 +27,6 @@
 
 `owut download {{[-V|--version-to]}} {{25.12.0}}`
 
-- Verify the latest downloaded image and install it:
+- Verify the latest downloaded image and install it (device will reboot):
 
 `owut install`
