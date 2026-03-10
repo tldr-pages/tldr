@@ -10,11 +10,11 @@
 
 - 최적화를 통해 릴리스 모드에서 아티팩트 빌드:
 
-`cargo rustc --release`
+`cargo rustc {{[-r|--release]}}`
 
 - 현재 CPU에 대한 아키텍처별 최적화로 컴파일:
 
-`cargo rustc --release -- -C target-cpu=native`
+`cargo rustc {{[-r|--release]}} -- -C target-cpu=native`
 
 - 속도 최적화로 컴파일:
 
@@ -30,7 +30,7 @@
 
 - 특정 패키지 빌드:
 
-`cargo rustc --package {{패키지}}`
+`cargo rustc {{[-p|--package]}} {{패키지}}`
 
 - 지정된 바이너리만 빌드:
 

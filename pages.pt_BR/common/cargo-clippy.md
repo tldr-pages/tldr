@@ -21,15 +21,15 @@
 
 - Executa verificações para um grupo de validadores (veja <https://rust-lang.github.io/rust-clippy/stable/index.html#?groups=cargo,complexity,correctness,deprecated,nursery,pedantic,perf,restriction,style,suspicious>):
 
-`cargo clippy -- --warn clippy::{{grupo_de_validadores}}`
+`cargo clippy -- {{[-W|--warn]}} clippy::{{grupo_de_validadores}}`
 
 - Executa validações tratando avisos como erros:
 
-`cargo clippy -- --deny warnings`
+`cargo clippy -- {{[-D|--deny]}} warnings`
 
 - Executa verificações e ignora avisos:
 
-`cargo clippy -- --allow warnings`
+`cargo clippy -- {{[-A|--allow]}} warnings`
 
 - Aplica automaticamente as sugestões do Clippy:
 

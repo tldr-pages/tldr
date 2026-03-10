@@ -9,11 +9,11 @@
 
 - Compila os artefatos em modo de publicação (release), com otimizações:
 
-`cargo rustc --release`
+`cargo rustc {{[-r|--release]}}`
 
 - Compila com otimizações específicas para a arquitetura do CPU atual:
 
-`cargo rustc --release -- -C target-cpu=native`
+`cargo rustc {{[-r|--release]}} -- -C target-cpu=native`
 
 - Compila com otimização de velocidade:
 
@@ -29,7 +29,7 @@
 
 - Compila um pacote específico:
 
-`cargo rustc --package {{pacote}}`
+`cargo rustc {{[-p|--package]}} {{pacote}}`
 
 - Compila apenas o binário especificado:
 
