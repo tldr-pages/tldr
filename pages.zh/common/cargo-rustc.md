@@ -10,11 +10,11 @@
 
 - 在 release 模式下构建构建，启用优化：
 
-`cargo rustc --release`
+`cargo rustc {{[-r|--release]}}`
 
 - 使用针对当前 CPU 的特定架构优化编译：
 
-`cargo rustc --release -- -C target-cpu=native`
+`cargo rustc {{[-r|--release]}} -- -C target-cpu=native`
 
 - 使用速度优化编译：
 
@@ -30,7 +30,7 @@
 
 - 构建特定的包：
 
-`cargo rustc --package {{package}}`
+`cargo rustc {{[-p|--package]}} {{package}}`
 
 - 仅构建指定的二进制文件：
 
