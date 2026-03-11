@@ -1,7 +1,7 @@
 # arthas
 
 > Java 진단 도구.
-> 함께 보기: `arthas-watch`, `arthas-trace`.
+> 관련 항목: `arthas-watch`, `arthas-trace`.
 > 더 많은 정보: <https://arthas.aliyun.com/en/>.
 
 - Arthas를 시작:
