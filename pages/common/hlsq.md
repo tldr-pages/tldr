@@ -1,0 +1,24 @@
+# hlsq
+
+> A formatter to add colour to HLS manifests with basic filtering.
+> More information: <https://github.com/soldiermoth/hlsq/>.
+
+- View an HLS manifest from a URL:
+
+`{{curl -s url}} | hlsq '`
+
+- View an HLS manifest from a file:
+
+`{{cat path/to/file.m3u8}} | hlsq`
+
+- Continuously refetch a URL and update the output:
+
+`hlsq -watch -url {{url}}`
+
+- Filter a multivariant playlist by an attribute's string value:
+
+`{{cat path/to/file.m3u8}} | hlsq -query '{{type = SUBTITLES}}'`
+
+- Filter a multivariant playlist by an attribute's numeric value:
+
+`{{cat path/to/file.m3u8}} | hlsq -query '{{bandwidth > 1000000}}'`
