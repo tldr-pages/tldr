@@ -6,16 +6,16 @@
 
 - 수익과 비용(수익 및 비용 계정의 변화) 표시:
 
-`hledger incomestatement`
+`hledger {{[is|incomestatement]}}`
 
 - 매월 수익과 비용 표시:
 
-`hledger incomestatement --monthly`
+`hledger {{[is|incomestatement]}} {{[-M|--monthly]}}`
 
 - 매월 수익/비용/총액을 가장 큰 것부터 두 단계로 요약하여 표시:
 
-`hledger incomestatement --monthly --row-total --average --sort --depth 2`
+`hledger {{[is|incomestatement]}} {{[-MTAS|--monthly --row-total --average --sort-amount]}} {{[-2|--depth 2]}}`
 
 - 위 명령의 단축형으로, `is.html`에 HTML 출력 생성:
 
-`hledger is -MTAS -2 -o is.html`
+`hledger {{[is|incomestatement]}} {{[-MTAS|--monthly --row-total --average --sort-amount]}} {{[-2|--depth 2]}} {{[-o|--output-file]}} is.html`
