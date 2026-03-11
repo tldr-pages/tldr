@@ -6,7 +6,7 @@
 
 - Envía pings a un host:
 
-`ping {{host}`
+`ping {{host}}`
 
 - Envía un número determinado de pings a un host:
 
