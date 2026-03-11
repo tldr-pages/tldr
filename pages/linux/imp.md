@@ -1,7 +1,7 @@
 # imp
 
 > A helper to use native systemd support under WSL (Windows Subsystem for Linux).
-> To run these from Windows rather than an already-running distribution, precede them with `wsl`.
+> Note: To run these from Windows rather than an already-running distribution, precede them with `wsl`.
 > More information: <https://github.com/arkane-systems/bottle-imp#usage>.
 
 - Initialize the helper functions and keep WSL running until explicit shutdown (run once, at start):
