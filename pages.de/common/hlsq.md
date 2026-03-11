@@ -1,6 +1,6 @@
 # hlsq
 
-> CLI-Tool zum Einfärben und Filtern von HLS-Manifests.
+> Anzeige von HLS-Manifesten mit Farbhervorhebung und einfacher Filterung.
 > Weitere Informationen: <https://github.com/soldiermoth/hlsq/>.
 
 - Zeige ein HLS-Manifest von einer URL an:

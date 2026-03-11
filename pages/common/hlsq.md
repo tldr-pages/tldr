@@ -1,6 +1,6 @@
 # hlsq
 
-> A formatter to add colour to HLS manifests with basic filtering.
+> Displays HLS manifests with colour and basic filtering.
 > More information: <https://github.com/soldiermoth/hlsq/>.
 
 - View an HLS manifest from a URL:
