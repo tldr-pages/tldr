@@ -5,7 +5,7 @@
 
 - View an HLS manifest from a URL:
 
-`{{curl -s url}} | hlsq '`
+`{{curl --silent url}} | hlsq '`
 
 - View an HLS manifest from a file:
 
