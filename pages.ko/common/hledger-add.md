@@ -9,7 +9,7 @@
 
 - `2024.journal`에 거래를 추가하되, 자동 완성을 위해 `2023.journal`도 로드:
 
-`hledger add --file {{경로/대상/2024.journal}} --file {{경로/대상/2023.journal}}`
+`hledger add {{[-f|--file]}} {{경로/대상/2024.journal}} {{[-f|--file]}} {{경로/대상/2023.journal}}`
 
 - 처음 네 개의 프롬프트에 대한 답변 제공:
 
@@ -17,7 +17,7 @@
 
 - `$PAGER`로 `add`의 옵션 및 문서 보기:
 
-`hledger add --help`
+`hledger add {{[-h|--help]}}`
 
 - 사용 가능하면 `info` 또는 `man`으로 `add`의 문서 보기:
 

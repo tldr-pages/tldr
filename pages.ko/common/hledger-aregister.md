@@ -5,16 +5,16 @@
 
 - `assets:bank:checking` 계좌의 거래 내역과 잔액 표시:
 
-`hledger aregister assets:bank:checking`
+`hledger {{[areg|aregister]}} assets:bank:checking`
 
 - `*savings*`라는 이름의 첫 번째 계좌의 거래 내역과 잔액 표시:
 
-`hledger aregister savings`
+`hledger {{[areg|aregister]}} savings`
 
 - 지정된 너비로 체크 계좌의 정리된 거래 내역 표시:
 
-`hledger aregister checking --cleared --width {{120}}`
+`hledger {{[areg|aregister]}} checking {{[-C|--cleared]}} {{[-w|--width]}} {{120}}`
 
 - 예측 규칙의 거래를 포함하여 체크 계좌의 내역 표시:
 
-`hledger aregister checking --forecast`
+`hledger {{[areg|aregister]}} checking --forecast`
