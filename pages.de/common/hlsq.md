@@ -5,7 +5,7 @@
 
 - Zeige ein HLS-Manifest von einer URL an:
 
-`{{curl -s url}} | hlsq '`
+`{{curl --silent url}} | hlsq '`
 
 - Zeige ein HLS-Manifest aus einer Datei an:
 
