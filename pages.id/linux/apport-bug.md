@@ -9,11 +9,11 @@
 
 - Laporkan bug tentang paket tertentu:
 
-`apport-bug {{package}}`
+`apport-bug {{paket}}`
 
 - Laporkan bug tentang file eksekutabel tertentu:
 
-`apport-bug {{path/ke/eksekutabel}}`
+`apport-bug {{jalan/menuju/eksekutabel}}`
 
 - Laporkan bug tentang proses tertentu:
 

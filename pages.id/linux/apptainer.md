@@ -6,31 +6,31 @@
 
 - Unduh container dari Docker Hub:
 
-`apptainer pull {{path/ke/image.sif}} docker://{{image}}:{{tag}}`
+`apptainer pull {{jalan/menuju/image.sif}} docker://{{image}}:{{tag}}`
 
 - Unduh container dari Container Library:
 
-`apptainer pull {{path/ke/image.sif}} library://{{user/collection/container}}:{{tag}}`
+`apptainer pull {{jalan/menuju/image.sif}} library://{{pengguna/koleksi/container}}:{{tag}}`
 
 - Buat container dari file definisi:
 
-`apptainer build {{path/ke/image.sif}} {{path/ke/definisi.def}}`
+`apptainer build {{jalan/menuju/image.sif}} {{jalan/menuju/definisi.def}}`
 
 - Mulai shell interaktif di dalam container:
 
-`apptainer shell {{path/ke/image.sif}}`
+`apptainer shell {{jalan/menuju/image.sif}}`
 
 - Jalankan perintah di dalam container:
 
-`apptainer exec {{path/ke/image.sif}} {{command}}`
+`apptainer exec {{jalan/menuju/image.sif}} {{perintah}}`
 
 - Jalankan runscript setelan standar (default) dari sebuah container:
 
-`apptainer run {{path/ke/image.sif}}`
+`apptainer run {{jalan/menuju/image.sif}}`
 
 - Periksa metadata dari sebuah container:
 
-`apptainer inspect {{path/ke/image.sif}}`
+`apptainer inspect {{jalan/menuju/image.sif}}`
 
 - Tampilkan bantuan:
 

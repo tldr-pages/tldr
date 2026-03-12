@@ -5,32 +5,32 @@
 
 - Muat profil ke dalam kernel:
 
-`sudo apparmor_parser {{[-a|--add]}} {{profile_file}}`
+`sudo apparmor_parser {{[-a|--add]}} {{nama_profil}}`
 
 - Ganti profil yang sudah ada:
 
-`sudo apparmor_parser {{[-r|--replace]}} {{profile_file}}`
+`sudo apparmor_parser {{[-r|--replace]}} {{nama_profil}}`
 
 - Hapus profil dari kernel:
 
-`sudo apparmor_parser {{[-R|--remove]}} {{profile_name}}`
+`sudo apparmor_parser {{[-R|--remove]}} {{nama_profil}}`
 
 - Muat profil dalam mode komplain (mencatat pelanggaran tetapi tidak memblokir):
 
-`sudo apparmor_parser {{[-C|--complain]}} {{[-r|--replace]}} {{path/ke/profil}}`
+`sudo apparmor_parser {{[-C|--complain]}} {{[-r|--replace]}} {{jalan/menuju/profil}}`
 
 - Lakukan praproses pada profil (selesaikan include) dan tulis cache biner ke file:
 
-`apparmor_parser {{[-p|--preprocess]}} {{[-o|--ofile]}} {{path/ke/output.cache}} {{[-Q|--skip-kernel-load]}} {{path/ke/profil}}`
+`apparmor_parser {{[-p|--preprocess]}} {{[-o|--ofile]}} {{jalan/menuju/output.cache}} {{[-Q|--skip-kernel-load]}} {{jalan/menuju/profil}}`
 
 - Lakukan praproses dan cetak profil biner ke `stdout` tanpa memuatnya:
 
-`apparmor_parser {{[-p|--preprocess]}} {{[-S|--stdout]}} {{[-Q|--skip-kernel-load]}} {{path/ke/profil}}`
+`apparmor_parser {{[-p|--preprocess]}} {{[-S|--stdout]}} {{[-Q|--skip-kernel-load]}} {{jalan/menuju/profil}}`
 
 - Ganti profil sambil mengabaikan pembacaan cache:
 
-`sudo apparmor_parser {{[-r|--replace]}} {{[-T|--skip-read-cache]}} {{path/ke/profil}}`
+`sudo apparmor_parser {{[-r|--replace]}} {{[-T|--skip-read-cache]}} {{jalan/menuju/profil}}`
 
 - Ganti profil, bangun ulang cache, dan tulis ke direktori kustom:
 
-`sudo apparmor_parser {{[-r|--replace]}} {{[-W|--write-cache]}} {{[-L|--cache-loc]}} /{{path/ke/cache}} {{path/ke/profil}}`
+`sudo apparmor_parser {{[-r|--replace]}} {{[-W|--write-cache]}} {{[-L|--cache-loc]}} /{{jalan/menuju/cache}} {{jalan/menuju/profil}}`

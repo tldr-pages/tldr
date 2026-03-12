@@ -9,15 +9,15 @@
 
 - Cari paket menggunakan kata kunci:
 
-`appman {{[-q|query]}} {{package}}`
+`appman {{[-q|query]}} {{paket}}`
 
 - Pasang paket baru:
 
-`appman {{[-i|install]}} {{package}}`
+`appman {{[-i|install]}} {{paket}}`
 
 - Hapus paket:
 
-`appman {{[-r|remove]}} {{package}}`
+`appman {{[-r|remove]}} {{paket}}`
 
 - Tampilkan semua paket yang tersedia:
 
