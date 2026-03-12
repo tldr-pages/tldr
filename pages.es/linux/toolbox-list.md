@@ -9,8 +9,8 @@
 
 - Lista solo los contenedores de Toolbx:
 
-`toolbox list --containers`
+`toolbox list {{[-c|--containers]}}`
 
 - Lista solo imágenes de Toolbx:
 
-`toolbox list --images`
+`toolbox list {{[-i|--images]}}`

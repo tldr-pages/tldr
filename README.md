@@ -167,7 +167,7 @@ You are also welcome to join us on the [matrix chatroom](https://matrix.to/#/#tl
 - [Command Line Interface Pages](https://github.com/command-line-interface-pages)
   allows you to write standardized help pages for CLI, directories, and configs.
 
-- [bropages (deprecated)](http://bropages.org)
+- [bropages (deprecated)](https://github.com/pombadev/bropages)
   are a highly readable supplement to man pages.
   It shows concise, common-case examples for Unix commands.
   The examples are submitted by the user base, and can be voted up or down;

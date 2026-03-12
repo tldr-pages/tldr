@@ -1,6 +1,7 @@
 # ping
 
 > 네트워크 호스트에 ICMP ECHO_REQUEST 패킷을 전송.
+> 관련 항목: `mtr`.
 > 더 많은 정보: <https://manned.org/ping>.
 
 - 호스트에 핑:
