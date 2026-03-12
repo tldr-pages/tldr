@@ -5,23 +5,23 @@
 
 - Tambahkan overlay yang dapat ditulisi ke image SIF yang sudah ada:
 
-`apptainer overlay create {{[-s|--size]}} {{size}} {{path/ke/image.sif}}`
+`apptainer overlay create {{[-s|--size]}} {{size}} {{jalan/menuju/image.sif}}`
 
 - Buat image overlay EXT3 mandiri yang dapat ditulisi:
 
-`apptainer overlay create {{[-s|--size]}} {{size}} {{path/ke/overlay.img}}`
+`apptainer overlay create {{[-s|--size]}} {{size}} {{jalan/menuju/overlay.img}}`
 
 - Buat image overlay sparse:
 
-`apptainer overlay create {{[-s|--size]}} {{size}} {{[-S|--sparse]}} {{path/ke/overlay.img}}`
+`apptainer overlay create {{[-s|--size]}} {{size}} {{[-S|--sparse]}} {{jalan/menuju/overlay.img}}`
 
 - Buat overlay untuk digunakan dengan fakeroot:
 
-`apptainer overlay create {{[-f|--fakeroot]}} {{[-s|--size]}} {{size}} {{path/ke/overlay.img}}`
+`apptainer overlay create {{[-f|--fakeroot]}} {{[-s|--size]}} {{size}} {{jalan/menuju/overlay.img}}`
 
 - Buat overlay dengan direktori tertentu di dalam layout:
 
-`apptainer overlay create --create-dir {{path/ke/direktori}} {{path/ke/overlay.img}}`
+`apptainer overlay create --create-dir {{path/ke/direktori}} {{jalan/menuju/overlay.img}}`
 
 - Tampilkan bantuan:
 
