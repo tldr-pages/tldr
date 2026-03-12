@@ -15,7 +15,7 @@
 
 `ifdata -pa -pn {{eth0}}`
 
-- [p]rint the [N]etwork address, the [b]roadcast adress, and the [m]TU of the specified interface:
+- [p]rint the [N]etwork address, the [b]roadcast address, and the [m]TU of the specified interface:
 
 `ifdata -pN -pb -pm {{eth0}}`
 
