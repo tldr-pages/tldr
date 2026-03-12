@@ -7,7 +7,7 @@
 
 `steamos-session-select plasma`
 
-- Change to gamemode (sets the system to boot into gamemode if `-persistent` options were selected previously):
+- Change to gamemode (sets the system to boot into gamemode if `-persistent` argumements were selected previously):
 
 `steamos-session-select`
 
