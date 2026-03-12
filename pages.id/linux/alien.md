@@ -6,16 +6,16 @@
 
 - Konversikan file instalasi tertentu ke format Debian (ekstensi `.deb`):
 
-`sudo alien {{[-d|--to-deb]}} {{path/ke/file}}`
+`sudo alien {{[-d|--to-deb]}} {{jalan/menuju/berkas}}`
 
 - Konversikan file instalasi tertentu ke format Red Hat (ekstensi `.rpm`):
 
-`sudo alien {{[-r|--to-rpm]}} {{path/ke/file}}`
+`sudo alien {{[-r|--to-rpm]}} {{jalan/menuju/berkas}}`
 
 - Konversikan file instalasi tertentu ke file instalasi Slackware (ekstensi `.tgz`):
 
-`sudo alien {{[-t|--to-tgz]}} {{path/ke/file}}`
+`sudo alien {{[-t|--to-tgz]}} {{jalan/menuju/berkas}}`
 
 - Konversikan file instalasi tertentu ke format Debian dan install di sistem:
 
-`sudo alien {{[-d|--to-deb]}} {{[-i|--install]}} {{path/ke/file}}`
+`sudo alien {{[-d|--to-deb]}} {{[-i|--install]}} {{jalan/menuju/berkas}}`
