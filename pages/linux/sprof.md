@@ -1,7 +1,7 @@
 # sprof
 
 > Read and display shared object profiling data.
-> Requires profile data generated via the `$LD_PROFILE` environment variable.
+> Note: Requires profile data generated via the `$LD_PROFILE` environment variable.
 > More information: <https://manned.org/sprof>.
 
 - Generate a flat profile and call graph (default output):
