@@ -1,7 +1,7 @@
 # qgis
 
 > View, create, and analyze geographic data in a Geographic Information System.
-> Supports rasters, vectors, and project files (.qgs, .qgz, .qlr).
+> Supports rasters, vectors, and project files (`.qgs`, `.qgz`, `.qlr`).
 > More information: <https://docs.qgis.org/latest/en/docs/user_manual/introduction/qgis_configuration.html#running-qgis-with-advanced-settings>.
 
 - Launch QGIS:
