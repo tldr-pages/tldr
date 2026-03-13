@@ -24,7 +24,7 @@
 
 `use {{auxiliary/scanner/portscan/syn}}`
 
-- [Interactive] Show module options (module needs to loaded first):
+- [Interactive] Show module options (module needs to be loaded first):
 
 `show options`
 
