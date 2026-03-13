@@ -5,7 +5,7 @@
 
 - Issue a certificate using an automatic DNS API mode:
 
-`acme.sh --issue --dns {{gnd_gd}} --domain {{example.com}}`
+`acme.sh --issue --dns {{dns_gd}} --domain {{example.com}}`
 
 - Issue a wildcard certificate (denoted by an asterisk) using an automatic DNS API mode:
 
