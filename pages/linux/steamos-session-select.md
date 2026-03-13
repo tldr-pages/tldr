@@ -1,7 +1,7 @@
 # steamos-session-select
 
 > Manipulate which session is currently in use.
-> This command is deprecated, use `steamosctl` instead.
+> Note: This command is deprecated, use `steamosctl` instead.
 > More information: <https://gitlab.com/users/evlaV/projects>.
 
 - Change to desktop mode:
