@@ -5,7 +5,7 @@
 
 - Emite un certificado utilizando un modo API DNS automático:
 
-`acme.sh --issue --dns {{gnd_gd}} --domain {{example.com}}`
+`acme.sh --issue --dns {{dns_gd}} --domain {{example.com}}`
 
 - Emite un certificado comodín (marcado con un asterisco) utilizando un modo API DNS automático:
 
