@@ -19,6 +19,6 @@
 
 `liquidctl {{[-m|--match]}} {{string}} set {{fan|pump}} speed 50`
 
- - Set a gradual fan speed curve that is 0% at 20°C, 50% at 50°C, and 100% at 70°C:
+- Set a gradual fan speed curve that is 0% at 20°C, 50% at 50°C, and 100% at 70°C:
 
 `liquidctl set {{fan|pump}} speed {{20 0 50 50 70 100}}`
