@@ -7,7 +7,7 @@
 
 `apptainer capability avail`
 
-- Show description for specific capabilities:
+- Show descriptions for specific capabilities:
 
 `apptainer capability avail {{cap_chown,cap_net_raw,...}}`
 
