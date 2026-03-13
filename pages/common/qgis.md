@@ -1,8 +1,8 @@
 # qgis
 
-> A free and open source Geographic Information System.
+> View, create, and analyze geographic data in a Geographic Information System.
 > Supports rasters, vectors, and project files (.qgs, .qgz, .qlr).
-> More information: <https://qgis.org>.
+> More information: <https://docs.qgis.org/latest/en/docs/user_manual/introduction/qgis_configuration.html#running-qgis-with-advanced-settings>.
 
 - Launch QGIS:
 
@@ -10,28 +10,28 @@
 
 - Open a specific project file:
 
-`qgis --project {{path/to/project.qgz}}`
+`qgis {{[-p|--project]}} {{path/to/project.qgz}}`
 
 - Open one or more raster or vector files directly:
 
-`qgis {{path/to/file1.tif}} {{path/to/file2.shp}}`
+`qgis {{path/to/file1.tif path/to/file2.shp ...}}`
 
 - Hide the splash screen on startup:
 
-`qgis --nologo`
+`qgis {{[-n|--nologo]}}`
 
 - Set the initial map extent:
 
-`qgis --extent {{xmin,ymin,xmax,ymax}}`
+`qgis {{[-e|--extent]}} {{xmin,ymin,xmax,ymax}}`
 
 - Run a Python script on load:
 
-`qgis --code {{path/to/script.py}}`
+`qgis {{[-f|--code]}} {{path/to/script.py}}`
 
 - Launch QGIS without restoring plugins:
 
-`qgis --noplugins`
+`qgis {{[-P|--noplugins]}}`
 
 - Skip prompts for missing layers when opening a project:
 
-`qgis --skipbadlayers --project {{path/to/project.qgz}}`
+`qgis {{[-B|--skipbadlayers]}} {{[-p|--project]}} {{path/to/project.qgz}}`
