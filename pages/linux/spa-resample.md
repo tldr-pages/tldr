@@ -19,3 +19,7 @@
 - Resample an audio file with a specific quality (0 is lowest, 14 is highest):
 
 `spa-resample {{[-q|--quality]}} {{0..14}} {{path/to/input.wav}} {{path/to/output.wav}}`
+
+- Display help:
+
+`spa-resample -h`
