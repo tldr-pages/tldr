@@ -13,4 +13,4 @@
 
 - 디렉토리 내의 모든 DVC로 추적된 파일을 재귀적으로 커밋:
 
-`dvc commit --recursive {{경로/대상/폴더}}`
+`dvc commit {{[-R|--recursive]}} {{경로/대상/폴더}}`

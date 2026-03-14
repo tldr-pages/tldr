@@ -1,6 +1,7 @@
 # stty
 
 > Set or get options for a terminal device interface.
+> See also: `tput`.
 > More information: <https://www.gnu.org/software/coreutils/manual/html_node/stty-invocation.html>.
 
 - Display current terminal size:
