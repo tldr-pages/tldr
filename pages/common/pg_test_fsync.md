@@ -11,6 +11,6 @@
 
 `pg_test_fsync {{[-s|--secs-per-test]}} {{seconds}}`
 
-- Use a specific filename (it must be in same file system that the pg_wal directory is or will be placed in):
+- Use a specific filename (it must be in same filesystem that the pg_wal directory is or will be placed in):
 
 `pg_test_fsync {{[-f|--filename]}} {{path/to/file}}`
