@@ -32,10 +32,6 @@
 
 `uv sync`
 
-- Create a lock file for the project's dependencies:
+- Build the project into source and binary distributions:
 
-`uv lock`
-
-- Build the project into a distributable package:
-  
 `uv build`
