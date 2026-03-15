@@ -1,7 +1,7 @@
 # gst-play-1.0
 
 > Play media files using the playbin Gstreamer element.
-> More information: <https://manned.org/gst-play-1.0>
+> More information: <https://manned.org/gst-play-1.0>.
 
 Play a media file:
 
