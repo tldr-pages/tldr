@@ -5,7 +5,7 @@
 
 - ls 별칭이 존재하더라도 문자 그대로 `ls` 프로그램을 실행:
 
-`command {{ls}}`
+`command ls`
 
 - 기본`$PATH`(`/bin:/usr/bin:/sbin:/usr/sbin:/etc:/usr/etc`)(모든 표준 유틸리티를 찾을 수 있도록 보장)를 사용해 명령을 찾고 실행:
 
