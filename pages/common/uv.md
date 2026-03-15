@@ -35,5 +35,7 @@
 - Create a lock file for the project's dependencies:
 
 `uv lock`
+
 - Build the project into a distributable package:
+  
 `uv build`
