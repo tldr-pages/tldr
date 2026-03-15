@@ -25,4 +25,4 @@
 
 - Set the liquid cooler RGB lights (supported modes depend on the model):
 
-`liquidctl set {{fan|pump|...}} color {{fixed|fading|rainbow|...}} {{00ff00|'hsv(120,100,100)'|...}}`
+`liquidctl set {{fan|pump|...}} color {{fixed|fading|rainbow|...}} {{00ff00}}`
