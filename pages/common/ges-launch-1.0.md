@@ -1,6 +1,6 @@
 # ges-launch-1.0
 
-> Create and render multimedia timelines
+> Create and render multimedia timelines.
 > More information: <https://gstreamer.freedesktop.org/documentation/tools/ges-launch.html>.
 
 - View two clips in sequence:
