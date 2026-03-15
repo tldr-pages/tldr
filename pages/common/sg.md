@@ -1,20 +1,33 @@
 # sg
 
-> Ast-grep is a tool for code structural search, lint, and rewriting.
-> More information: <https://ast-grep.github.io/guide/introduction.html>.
+> A tool for code structural search, lint, and rewriting based on abstract syntax trees.
+> Some subcommands such as `sg run`, `sg scan`, and `sg new` have their own usage documentation.
+> More information: <https://ast-grep.github.io>.
 
-- Scan for possible queries using interactive mode:
+- Search for a pattern in the current directory:
+
+`sg run --pattern '{{console.log($ARG)}}' --lang {{javascript}}`
+
+- Replace a pattern with a new string:
+
+`sg run --pattern '{{var $NAME = $VALUE}}' --rewrite '{{let $NAME = $VALUE}}' --lang {{javascript}}`
+
+- Scan the codebase using configured rules interactively:
 
 `sg scan --interactive`
 
-- Rewrite code in the current directory using patterns:
+- Scan the codebase with a single rule file:
 
-`sg run --pattern '{{foo}}' --rewrite '{{bar}}' --lang {{python}}`
+`sg scan --rule {{path/to/rule.yml}}`
 
-- Visualize possible changes without applying them:
+- Create a new ast-grep project:
 
-`sg run --pattern '{{useState<number>($A)}}' --rewrite '{{useState($A)}}' --lang {{typescript}}`
+`sg new project`
 
-- Output results as JSON, extract information using `jq` and interactively view it using `jless`:
+- Test ast-grep rules:
 
-`sg run --pattern '{{Some($A)}}' --rewrite '{{None}}' --json | jq '{{.[].replacement}}' | jless`
+`sg test`
+
+- Start the language server:
+
+`sg lsp`
