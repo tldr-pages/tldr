@@ -5,7 +5,7 @@
 
 - View video in a window:
 
-`gst-launch-1.0 v4l2src device=/dev/video2 ! autovideosink`
+`gst-launch-1.0 v4l2src device={{/dev/video0}} ! autovideosink`
 
 - Create a Pipewire node out of a v4l2 device:
 
