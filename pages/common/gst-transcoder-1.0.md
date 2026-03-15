@@ -1,7 +1,7 @@
 # gst-transcoder-1.0
 
 > Convert media between two filetypes.
-> More information: <https://wiki.st.com/stm32mpu/wiki/Gst-transcoder>
+> More information: <https://wiki.st.com/stm32mpu/wiki/Gst-transcoder>.
 
 - List available transcoding targets:
 
