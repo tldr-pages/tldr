@@ -1,0 +1,28 @@
+# ast-grep
+
+> A fast tool for searching, linting, and rewriting code using AST patterns.
+> More information: <https://ast-grep.github.io>.
+
+- Search for a pattern in files:
+
+`ast-grep run --pattern '{{pattern}}' {{path/to/file}}`
+
+- Search for a pattern in a specific language:
+
+`ast-grep run --pattern '{{pattern}}' --lang {{python}} {{path/to/directory}}`
+
+- Rewrite code matching a pattern:
+
+`ast-grep run --pattern '{{pattern}}' --rewrite '{{replacement}}' {{path/to/file}}`
+
+- List all supported languages:
+
+`ast-grep lang`
+
+- Run rules from a configuration file:
+
+`ast-grep scan --rule {{path/to/rule.yml}} {{path/to/directory}}`
+
+- Interactively search and rewrite code:
+
+`ast-grep run --pattern '{{pattern}}' --interactive {{path/to/directory}}`
