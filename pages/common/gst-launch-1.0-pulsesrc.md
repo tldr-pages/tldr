@@ -10,3 +10,7 @@
 - Specify the source by name (can match a substring):
 
 `gst-launch-1.0 pulsesrc device="{{device_name}}" ! autoaudiosink`
+
+- Record the monitor of the default sink:
+
+`pulsesrc device=@DEFAULT_MONITOR@ ! {{opusenc}} ! {{oggmux}} ! filesink location={{test.ogg}}`
