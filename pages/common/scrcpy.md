@@ -31,6 +31,6 @@
 
 `scrcpy --push-target {{path/to/directory}}`
 
-View the phone's camera (requires Android 12 or newer)
+- View the phone's camera (requires Android 12 or newer):
 
 `scrcpy --video-source camera`
