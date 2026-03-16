@@ -10,19 +10,23 @@
 
 - 전경색(af) 또는 배경색(ab) 설정:
 
-`tput {{setaf|setab}} {{ANSI_색상_코드}}`
+`tput {{setaf|setab}} {{ansi_색상_코드}}`
 
 - 컬럼 수, 라인 수, 또는 색상 수 표시:
 
 `tput {{cols|lines|colors}}`
 
-- 터미널 벨 울리기:
+- 텍스트와 배경 색상을 반전:
 
-`tput bel`
+`tput rev`
 
 - 모든 터미널 속성 초기화:
 
 `tput sgr0`
+
+- 열 수, 줄 수 또는 색상 수를 표시:
+
+`tput {{cols|lines|colors}}`
 
 - 자동 줄바꿈 활성화 또는 비활성화:
 
