@@ -15,10 +15,6 @@
 
 `scrcpy {{[-s|--serial]}} {{0123456789abcdef|192.168.0.1:5555}}`
 
-- Start display in fullscreen mode:
-
-`scrcpy {{[-f|--fullscreen]}}`
-
 - Show touches on physical device:
 
 `scrcpy {{[-t|--show-touches]}}`
@@ -34,3 +30,7 @@
 - View the phone's camera (requires Android 12 or newer):
 
 `scrcpy --video-source camera`
+
+- Create a Video4Linux2 device from the phone's camera:
+
+`scrcpy --video-source camera --camera-size {{1920x1080}} --v4l2-sink {{/dev/video0}}`
