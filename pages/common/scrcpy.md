@@ -30,3 +30,7 @@
 - Specify the target directory for pushing files to device by drag and drop (non-APK):
 
 `scrcpy --push-target {{path/to/directory}}`
+
+View the phone's camera (requires Android 12 or newer)
+
+`scrcpy --video-source camera`
