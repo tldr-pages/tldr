@@ -31,6 +31,6 @@
 
 `scrcpy --video-source camera`
 
-- Create a Video4Linux2 device from the phone's camera:
+- Create a Video4Linux2 device from the phone's camera (`v4l2loopback` must be installed):
 
 `scrcpy --video-source camera --camera-size {{1920x1080}} --v4l2-sink {{/dev/video0}} --no-playback`
