@@ -6,3 +6,7 @@
 - Listen to the default microphone:
 
 `gst-launch-1.0 pulsesrc ! autoaudiosink`
+
+- Specify the source by name (can match a substring):
+
+`gst-launch-1.0 pulsesrc device="{{device_name}}" ! autoaudiosink`
