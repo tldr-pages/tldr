@@ -9,7 +9,7 @@
 
 - 인증을 위해 헤더를 사용해 URL을 스캔:
 
-`dalfox url {{http://example.com}} -H {{'X-My-Header: 123'}}`
+`dalfox url {{https://example.com}} {{[-H|--header]}} '{{X-My-Header: 123}}'`
 
 - 파일에서 URL 목록을 스캔:
 
