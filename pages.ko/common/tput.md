@@ -12,10 +12,6 @@
 
 `tput {{setaf|setab}} {{ansi_색상_코드}}`
 
-- 컬럼 수, 라인 수, 또는 색상 수 표시:
-
-`tput {{cols|lines|colors}}`
-
 - 텍스트와 배경 색상을 반전:
 
 `tput rev`
