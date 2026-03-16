@@ -1,17 +1,17 @@
 # fsutil
 
-> Display information about file system volumes.
+> Display information about filesystem volumes.
 > More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/fsutil>.
 
 - Display a list of volumes:
 
 `fsutil volume list`
 
-- Display information about a volume's file system:
+- Display information about a volume's filesystem:
 
 `fsutil fsInfo volumeInfo {{drive_letter|volume_path}}`
 
-- Display the current state of the file system auto-repair for all volumes:
+- Display the current state of the filesystem auto-repair for all volumes:
 
 `fsutil repair state`
 
