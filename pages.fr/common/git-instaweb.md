@@ -9,19 +9,19 @@
 
 - Écoute uniquement sur le port localhost :
 
-`git instaweb --start --local`
+`git instaweb --start {{[-l|--local]}}`
 
 - Écoute sur un port spécifique :
 
-`git instaweb --start --port {{1234}}`
+`git instaweb --start {{[-p|--port]}} {{1234}}`
 
 - Utiliser un daemon HTTP spécifique :
 
-`git instaweb --start --httpd {{lighttpd|apache2|mongoose|plackup|webrick}}`
+`git instaweb --start {{[-d|--httpd]}} {{lighttpd|apache2|mongoose|plackup|webrick}}`
 
 - Lancer en même temps qu'un navigateur web :
 
-`git instaweb --start --browser`
+`git instaweb --start {{[-b|--browser]}}`
 
 - Stoppe le serveur :
 

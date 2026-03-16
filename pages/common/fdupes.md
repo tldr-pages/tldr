@@ -9,7 +9,7 @@
 
 - Search multiple directories:
 
-`fdupes {{directory1}} {{directory2}}`
+`fdupes {{path/to/directory1 path/to/directory2 ...}}`
 
 - Search a directory recursively:
 
@@ -17,7 +17,7 @@
 
 - Search multiple directories, one recursively:
 
-`fdupes {{path/to/irectory1}} {{[-R|--recurse:]}} {{path/to/directory2}}`
+`fdupes {{path/to/directory1}} {{[-R|--recurse:]}} {{path/to/directory2}}`
 
 - Search recursively, considering hardlinks as duplicates:
 
