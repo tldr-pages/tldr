@@ -21,7 +21,7 @@
 
 - Record the monitor of a device:
 
-`gst-launch-1.0 pipewiresrc target-object={{node_name}} stream-properties=props,stream.capture.sink=true ! {{fakesink}}`
+`gst-launch-1.0 pipewiresrc target-object={{node_name}} stream-properties=props,stream.capture.sink=true ! {{audioconvert ! fakesink}}`
 
 - Multiplex audio and video into a file:
 
