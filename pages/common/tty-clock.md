@@ -25,4 +25,4 @@
 
 - Exit the clock (while running):
 
-`q`
+`<q>`
