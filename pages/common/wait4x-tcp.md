@@ -1,7 +1,6 @@
 # wait4x tcp
 
 > Wait for TCP port(s) to become available.
-> See also: `wait4x`.
 > More information: <https://github.com/wait4x/wait4x>.
 
 - Wait for a TCP port to become available:
