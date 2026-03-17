@@ -13,7 +13,7 @@
 
 - Espera a que se elimine un pod:
 
-`kubectl wait --for delete pod {{nombre_del_pod}}`
+`kubectl wait --for delete {{[po|pods]}} {{nombre_del_pod}}`
 
 - Espera a que se complete un trabajo, en un plazo de 120 segundos (si la condición no se cumple a tiempo, el estado de salida será fallido):
 
