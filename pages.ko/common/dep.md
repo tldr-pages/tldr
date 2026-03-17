@@ -2,7 +2,7 @@
 
 > PHP 애플리케이션 배포.
 > 참고: 동일한 이름의 Go 명령어 `dep`은 더 이상 사용 되지 않으며 유지 보수되지 않음(archived).
-> 자세한 내용: <https://deployer.org/docs/8.x/cli>.
+> 더 많은 정보: <https://deployer.org/docs/8.x/cli>.
 
 - 로컬 경로에서 대화형으로 deployer를 초기화 (`--template=template`으로 프레임워크 템플릿 사용 가능):
 
