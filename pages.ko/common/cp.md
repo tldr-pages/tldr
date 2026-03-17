@@ -1,7 +1,7 @@
 # cp
 
 > 파일과 디렉터리를 복사.
-> 더 많은 작업: <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
 
 - 파일을 다른 위치로 복사:
 
