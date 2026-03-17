@@ -1,7 +1,7 @@
 # smbclient
 
 > FTP-like client to access SMB/CIFS resources on servers.
-> More information: <https://www.samba.org/samba/docs/current/man-html/smbclient.1.html>.
+> More information: <https://manned.org/smbclient>.
 
 - List available shares on a server:
 
