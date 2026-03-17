@@ -1,6 +1,6 @@
 # aws logs
 
-> Interact with log files from various services aws services.
+> Interact with log files from various AWS services.
 > More information: <https://docs.aws.amazon.com/cli/latest/reference/logs/>.
 
 - List log groups:
