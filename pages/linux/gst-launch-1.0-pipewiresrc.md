@@ -1,6 +1,6 @@
 # gst-launch-1.0 pipewiresrc
 
-> Read data from a Pipewire node.
+> Read data from a PipeWire node.
 > More information: <https://github.com/PipeWire/pipewire/tree/master/src/gst>.
 
 - Listen to the default microphone:
