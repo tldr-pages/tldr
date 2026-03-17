@@ -1,7 +1,7 @@
 # wait4x
 
 > Wait for a port or service to enter a requested state, with support for TCP, HTTP, DNS, databases, and message queues.
-> Some subcommands such as `tcp`, `http`, and `dns` have their own usage documentation.
+> Some subcommands such as `tcp` and `http` have their own usage documentation.
 > More information: <https://github.com/wait4x/wait4x>.
 
 - Wait for a TCP port to become available:
