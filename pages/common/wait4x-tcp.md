@@ -22,7 +22,7 @@
 
 - Run a command after the port becomes available:
 
-`wait4x tcp {{localhost:3306}} -- {{./deploy.sh}}`
+`wait4x tcp {{localhost:3306}} -- {{path/to/script.sh}}`
 
 - Wait with exponential backoff:
 
