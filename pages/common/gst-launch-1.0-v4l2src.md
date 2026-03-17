@@ -9,4 +9,4 @@
 
 - Create a PipeWire node out of a v4l2 device:
 
-`gst-launch-1.0 v4l2src device={{/dev/video0}} ! videoconvert ! pipewiresink mode=provide stream-properties="properties,media.class=Video/Source" client-name="Virtual Camera"`
+`gst-launch-1.0 v4l2src device={{/dev/video0}} ! videoconvert ! pipewiresink mode=provide stream-properties="properties,media.class=Video/Source" client-name="{{Virtual Camera}}"`
