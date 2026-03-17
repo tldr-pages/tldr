@@ -8,6 +8,7 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 
 [en](#en) •
 [ar](#ar) •
+[bg](#bg) •
 [bn](#bn) •
 [bs](#bs) •
 [ca](#ca) •
@@ -58,6 +59,14 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 
 ```markdown
 > لمزيد من التفاصيل: <https://example.com>.
+```
+
+---
+
+### bg
+
+```markdown
+> Повече информация: <https://example.com>.
 ```
 
 ---

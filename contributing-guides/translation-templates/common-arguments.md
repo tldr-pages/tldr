@@ -10,6 +10,7 @@ There, the old table can be **imported**, **edited** in a WYSIWYG editor and **e
 | en    | path/to/file          | path/to/directory        | path/to/file_or_directory            | package       | username           | password          | command  | port   | value    |
 |-------|-----------------------|--------------------------|--------------------------------------|---------------|--------------------|-------------------|----------|--------|----------|
 | ar    | path/to/file          | path/to/directory        | path/to/file_or_directory            | package       | username           | password          | command  | port   | value    |
+| bg    | път/до/файл           | път/до/директория        | път/до/файл_или_директория           | пакет        | потребителско_име  | парола            | команда  | порт   | стойност |
 | bn    | ফাইল/এর/পাথ           | ডিরেক্টরি/এর/পাথ         | ফাইল_অথবা_ডিরেক্টরি/এর/পাথ           | প্যাকেজ       | ইউজারনেম           | পাসওয়ার্ড        | কমান্ড   | পোর্ট  | ভ্যালু   |
 | bs    | put/do/datoteke       | put/do/direktorija       | put/do/datoteke_ili_direktorija      | paket         | korisničko_ime     |                   |          |        |          |
 | ca    | camí/al/fitxer        | camí/al/directori        | camí/al/fitxer_o_directori           | paquet        | nom_usuari         |                   |          |        |          |
