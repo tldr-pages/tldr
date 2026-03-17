@@ -4,7 +4,7 @@
 > For simple user add/remove/password, you can also use `smbpasswd`.
 > More information: <https://manned.org/pdbedit>.
 
-- List all Samba users
+- List all Samba users:
 
 `sudo pdbedit {{[-L|--list]}}`
 
