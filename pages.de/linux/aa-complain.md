@@ -10,4 +10,4 @@
 
 - Setze Richtlinien in den Beschwerde-Modus:
 
-`sudo aa-complain --dir {{pfad/zu/profil}}`
+`sudo aa-complain {{[-d|--dir]}} {{pfad/zu/profil}}`
