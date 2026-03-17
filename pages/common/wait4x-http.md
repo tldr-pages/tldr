@@ -1,7 +1,6 @@
 # wait4x http
 
 > Wait for an HTTP(S) endpoint to become available with flexible validation options.
-> See also: `wait4x`.
 > More information: <https://github.com/wait4x/wait4x>.
 
 - Wait for an HTTP endpoint to respond with a specific status code:
