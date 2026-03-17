@@ -5,4 +5,4 @@
 
 - 가장 잘 일치하는 글꼴의 정렬된 목록을 반환:
 
-`fc-match -s '{{DejaVu Serif}}'`
+`fc-match {{[-s|--sort]}} '{{DejaVu Serif}}'`

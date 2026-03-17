@@ -211,7 +211,7 @@ This can be resolved by inserting a comma before the "and" or "or" in the final 
 
 ### Special cases
 
-If a command performs irreversible changes to a file system or devices,
+If a command performs irreversible changes to a filesystem or devices,
   write every example in a way that cannot be copy pasted thoughtlessly.
   For example, instead of `ddrescue --force --no-scrape /dev/sda /dev/sdb`
   write `ddrescue --force --no-scrape {{/dev/sdX}} {{/dev/sdY}}`
@@ -423,7 +423,7 @@ Keep the following guidelines in mind when choosing placeholders:
   use the format `{{path/to/placeholder}}`,
   except when the location is implicit.
 - When the path cannot be relative
-  and has to start at the root of the file system,
+  and has to start at the root of the filesystem,
   prefix it with a slash outside the placeholder,
   such as `get /{{path/to/remote_file}}`.
 - In case of a possible reference both to a file or a directory,
