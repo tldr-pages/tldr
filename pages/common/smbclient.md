@@ -5,7 +5,7 @@
 
 - List available shares on a server:
 
-`smbclient --list={{server}}`
+`smbclient {{[-L|--list]}} {{server}}`
 
 - Connect to a share (will prompt for a password):
 
@@ -13,20 +13,20 @@
 
 - Connect to a share as a specific user:
 
-`smbclient --user={{domain/username}} //{{server}}/{{share}}`
+`smbclient {{[-U|--user]}} {{domain/username}} //{{server}}/{{share}}`
 
 - Connect to a share as a specific user with inline password:
 
-`smbclient --user={{domain/username%password}} //{{server}}/{{share}}`
+`smbclient {{[-U|--user]}} {{domain/username%password}} //{{server}}/{{share}}`
 
 - Connect to a share using a specific workgroup:
 
-`smbclient --workgroup={{domain}} --user={{username}} //{{server}}/{{share}}`
+`smbclient {{[-W|--workgroup]}} {{domain}} {{[-U|--user]}} {{username}} //{{server}}/{{share}}`
 
 - Download a file from a specific directory on a share:
 
-`smbclient --user={{domain/username}} //{{server}}/{{share}} --directory {{path/to/directory}} --command='get {{filename}}'`
+`smbclient {{[-U|--user]}} {{domain/username}} //{{server}}/{{share}} {{[-D|--directory]}} {{path/to/directory}} {{[-c|--command]}} 'get {{filename}}'`
 
 - Upload a file to a specific directory on a share:
 
-`smbclient --user={{domain/username}} //{{server}}/{{share}} --directory {{path/to/directory}} --command='put {{path/to/local_file}}'`
+`smbclient {{[-U|--user]}} {{domain/username}} //{{server}}/{{share}} {{[-D|--directory]}} {{path/to/directory}} {{[-c|--command]}} 'put {{path/to/local_file}}'`
