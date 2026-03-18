@@ -21,7 +21,7 @@
 
 - Run rules from a configuration file:
 
-`ast-grep scan --rule {{path/to/rule.yml}} {{path/to/directory}}`
+`ast-grep scan {{[-r|--rule]}} {{path/to/rule.yml}} {{path/to/directory}}`
 
 - Interactively search and rewrite code:
 
