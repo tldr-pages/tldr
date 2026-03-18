@@ -9,7 +9,7 @@
 
 - Search for a pattern in a specific language:
 
-`ast-grep run --pattern '{{pattern}}' --lang {{python}} {{path/to/directory}}`
+`ast-grep run {{[-p|--pattern]}} '{{pattern}}' {{[-l|--lang]}} {{python}} {{path/to/directory}}`
 
 - Rewrite code matching a pattern:
 
