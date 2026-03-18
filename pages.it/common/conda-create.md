@@ -1,6 +1,6 @@
 # conda create
 
-> Crea nuovi ambienti conda.  
+> Crea nuovi ambienti conda.
 > Maggiori informazioni: <https://docs.conda.io/projects/conda/en/latest/commands/create.html>.
 
 - Crea un nuovo ambiente chiamato `py39`, installa Python 3.9, NumPy v1.11 o superiore e l'ultima versione stabile di SciPy. Conferma automaticamente tutte le richieste:
