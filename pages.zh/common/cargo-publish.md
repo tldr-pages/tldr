@@ -10,7 +10,7 @@
 
 - 执行检查，创建一个 `.crate` 文件，但不上传它 (相当于 `cargo package`)：
 
-`cargo publish --dry-run`
+`cargo publish {{[-n|--dry-run]}}`
 
 - 使用指定的注册表 (注册表名称可以在配置中定义，默认为 <https://crates.io>)：
 
