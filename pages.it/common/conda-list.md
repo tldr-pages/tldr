@@ -1,6 +1,6 @@
 # conda list
 
-> Elenca i pacchetti installati in un ambiente conda.  
+> Elenca i pacchetti installati in un ambiente conda.
 > Maggiori informazioni: <https://docs.conda.io/projects/conda/en/stable/commands/list.html>.
 
 - Elenca tutti i pacchetti nell'ambiente attuale:

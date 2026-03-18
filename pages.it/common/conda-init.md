@@ -1,6 +1,6 @@
 # conda init
 
-> Inizializza conda per l'interazione con la shell.  
+> Inizializza conda per l'interazione con la shell.
 > La maggior parte delle shell deve essere chiusa e riaperta affinché le modifiche abbiano effetto.  
 > Maggiori informazioni: <https://docs.conda.io/projects/conda/en/latest/commands/init.html>.
 

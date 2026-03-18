@@ -1,6 +1,6 @@
 # conda package
 
-> Crea pacchetti conda a basso livello.  
+> Crea pacchetti conda a basso livello.
 > Maggiori informazioni: <https://docs.conda.io/projects/conda/en/stable/commands/package.html>.
 
 - Ottieni il pacchetto conda da un file:

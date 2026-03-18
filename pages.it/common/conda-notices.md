@@ -1,6 +1,6 @@
 # conda notices
 
-> Recupera le notifiche più recenti dei canali.  
+> Recupera le notifiche più recenti dei canali.
 > Maggiori informazioni: <https://docs.conda.io/projects/conda/en/latest/commands/notices.html>.
 
 - Mostra le notifiche per il canale predefinito e tutti i canali specificati in `.condarc`:

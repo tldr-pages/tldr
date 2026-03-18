@@ -1,6 +1,6 @@
 # conda install
 
-> Installa pacchetti in un ambiente conda esistente.  
+> Installa pacchetti in un ambiente conda esistente.
 > Maggiori informazioni: <https://docs.conda.io/projects/conda/en/latest/commands/install.html>.
 
 - Installa uno o più pacchetti nell'ambiente conda attivo:
