@@ -2,16 +2,16 @@
 
 > Wallpaper utility for Hyprland with the ability to dynamically change wallpapers.
 > Controlled by the config file `~/.config/hypr/hyprpaper.conf`.
-> More information: <https://github.com/hyprwm/hyprpaper>.
+> More information: <https://wiki.hypr.land/Hypr-Ecosystem/hyprpaper/>.
 
-- Start the hyprpaper service:
+- Start the `hyprpaper` daemon:
 
 `hyprpaper`
 
-- Change wallpaper for a specific monitor:
+- Change the wallpaper for a specific monitor:
 
 `hyprctl hyprpaper wallpaper "{{monitor}},{{path/to/image.png}}"`
 
-- Change wallpaper to a given image, tiling it across all monitors:
+- Change the default wallpaper for all unspecified monitors and set its fit mode:
 
-`hyprctl hyprpaper wallpaper ",{{path/to/image.png}},tile"`
+`hyprctl hyprpaper wallpaper ",{{path/to/image.png}},{{contain|cover|tile|fill}}"`
