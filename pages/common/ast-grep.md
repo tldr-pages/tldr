@@ -15,9 +15,9 @@
 
 `ast-grep run {{[-p|--pattern]}} '{{pattern}}' {{[-r|--rewrite]}} '{{replacement}}' {{path/to/file}}`
 
-- List all supported languages:
+- Display help for a subcommand:
 
-`ast-grep lang`
+`ast-grep run --help`
 
 - Run rules from a configuration file:
 
