@@ -180,7 +180,9 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [03 November 2025](https://github.com/tldr-pages/tldr/issues/19176) — [28 December 2025](https://github.com/tldr-pages/tldr/issues/20284)
 - Adriano Inghingolo ([@SpikeTheDragon40k](https://github.com/SpikeTheDragon40k)):
   [22 August 2025](https://github.com/tldr-pages/tldr/issues/17772) — [28 December 2025](https://github.com/tldr-pages/tldr/issues/20286)
-  
+- Peter Babič ([@peterbabic](https://github.com/peterbabic)):
+  [18 March 2026](https://github.com/tldr-pages/tldr/issues/21584) — present
+
 ## Organization members
 
 In addition to everything that repository collaborators can do, organization members have write access to all the repositories in the tldr-pages organization, and [a few extra maintenance capabilities](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/permission-levels-for-an-organization).
