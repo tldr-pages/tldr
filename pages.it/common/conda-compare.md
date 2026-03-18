@@ -1,20 +1,20 @@
 # conda compare
 
-> Compare packages between conda environments.
-> More information: <https://docs.conda.io/projects/conda/en/stable/commands/compare.html>.
+> Confronta i pacchetti tra ambienti conda.
+> Maggiori informazioni: <https://docs.conda.io/projects/conda/en/stable/commands/compare.html>.
 
-- Compare packages in the current directory to packages from the file `file.yml`:
+- Confronta i pacchetti nella directory corrente con quelli nel file `file.yml`:
 
 `conda compare file.yml`
 
-- Compare packages in environment named `myenv` to packages from the file `file.yml`:
+- Confronta i pacchetti nell'ambiente chiamato `myenv` con quelli nel file `file.yml`:
 
-`conda compare {{[-n|--name]}} myenv {{percorso/del/file.yml}}`
+`conda compare {{[-n|--name]}} myenv {{percorso/a/file.yml}}`
 
-- Compare packages in environment `myenv` at custom path (i.e. prefix) to packages from the file `file.yml`:
+- Confronta i pacchetti nell'ambiente `myenv` situato in un percorso personalizzato (prefisso) con quelli nel file `file.yml`:
 
-`conda compare {{[-p|--prefix]}} {{percorso/del/myenv}} {{percorso/del/file.yml}}`
+`conda compare {{[-p|--prefix]}} {{percorso/a/myenv}} {{percorso/a/file.yml}}`
 
-- Display help:
+- Mostra l'aiuto:
 
 `conda compare {{[-h|--help]}}`
