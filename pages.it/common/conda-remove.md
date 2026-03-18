@@ -17,4 +17,4 @@
 
 - Rimuovi pacchetti (mantieni ambiente):
 
-conda remove {{[-n|--name]}} {{nome_ambiente}} --all --keep-env
+`conda remove {{[-n|--name]}} {{nome_ambiente}} --all --keep-env`
