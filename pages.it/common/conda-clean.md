@@ -1,6 +1,6 @@
 # conda clean
 
-> Elimina file temporanei o non utilizzati: cache degli indici, file di blocco, pacchetti inutilizzati, tarball e file di log.  
+> Elimina file temporanei o non utilizzati: cache degli indici, file di blocco, pacchetti inutilizzati, tarball e file di log.
 > Maggiori informazioni: <https://docs.conda.io/projects/conda/en/stable/commands/clean.html>.
 
 - Elimina tutti i file temporanei o non utilizzati in modo dettagliato e conferma automaticamente tutte le richieste:
