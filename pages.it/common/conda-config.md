@@ -1,32 +1,32 @@
 # conda config
 
-> Modifica valori di configurazione in `.condarc`.
+> Modifica i valori di configurazione nel file `.condarc`.  
 > Maggiori informazioni: <https://docs.conda.io/projects/conda/en/latest/commands/config.html>.
 
-- Mostra tutte le configurazioni:
+- Mostra tutti i valori di configurazione:
 
 `conda config --show`
 
-- Mostra valore configurazione specifica:
+- Mostra il valore corrente di un'opzione di configurazione:
 
-`conda config --show {{opzione_config}}`
+`conda config --show {{opzione_configurazione}}`
 
-- Imposta valore configurazione:
+- Imposta un valore di configurazione:
 
 `conda config --set {{chiave}} {{valore}}`
 
-- Rimuove valore configurazione:
+- Rimuovi un valore di configurazione:
 
 `conda config --remove {{chiave}} {{valore}}`
 
-- Aggiunge valore a lista configurazione:
+- Aggiungi un valore in coda a una lista di una chiave di configurazione esistente:
 
 `conda config --append {{chiave}} {{valore}}`
 
-- Inserisce valore all'inizio lista:
+- Aggiungi un valore all’inizio di una lista di una chiave di configurazione esistente:
 
 `conda config --prepend {{chiave}} {{valore}}`
 
-- Descrive opzione configurazione:
+- Descrivi l'opzione di configurazione specificata:
 
-`conda config --describe {{opzione_config}}`
+`conda config --describe {{opzione_configurazione}}`
