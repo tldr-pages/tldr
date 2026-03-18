@@ -1,24 +1,24 @@
 # conda info
 
-> Dettagli installazione conda.
+> Visualizza dettagli sull'installazione di conda.
 > Maggiori informazioni: <https://docs.conda.io/projects/conda/en/latest/commands/info.html>.
 
-- Tutte le informazioni:
+- Mostra tutte le informazioni:
 
 `conda info {{[-a|--all]}}`
 
-- Percorso ambiente base:
+- Visualizza il percorso dell'ambiente base:
 
 `conda info --base`
 
-- Elenca ambienti:
+- Elenca tutti gli ambienti conda:
 
 `conda info {{[-e|--envs]}}`
 
-- Variabili sistema:
+- Elenca le variabili d'ambiente:
 
 `conda info {{[-s|--system]}}`
 
-- Canali con token:
+- Visualizza l'elenco dei canali con i token esposti:
 
 `conda info --unsafe-channels`

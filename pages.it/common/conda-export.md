@@ -1,28 +1,28 @@
 # conda export
 
-> Esporta dettagli ambiente.
+> Esporta i dettagli dell'ambiente.
 > Maggiori informazioni: <https://docs.conda.io/projects/conda/en/latest/commands/export.html>.
 
-- Esporta ambiente corrente (`stdout`):
+- Esporta i dettagli dell'ambiente corrente su `stdout`:
 
 `conda export`
 
-- Esporta in file YAML:
+- Esporta i dettagli dell'ambiente corrente in un file `YAML`:
 
-`conda export {{[-f|--file]}} {{percorso/dell/environment.yaml}}`
+`conda export {{[-f|--file]}} {{percorso/a/environment.yaml}}`
 
-- Formato specifico:
+- Esporta i dettagli in un formato specifico:
 
-`conda export --format {{environment-yaml|yaml|yml}}`
+`conda export --format {{environment-json|environment-yaml|explicit|json|reqs|requirements|txt|yaml|yml}}`
 
-- Ambiente per nome:
+- Seleziona un ambiente per nome:
 
 `conda export {{[-n|--name]}} {{nome_ambiente}}`
 
-- Ambiente per percorso:
+- Seleziona un ambiente tramite il suo percorso:
 
-`conda export {{[-p|--prefix]}} {{percorso/dell/ambiente}}`
+`conda export {{[-p|--prefix]}} {{percorso/a/ambiente}}`
 
-- Canale specifico:
+- Includi un canale specifico:
 
 `conda export {{[-c|--channel]}} {{nome_canale}}`

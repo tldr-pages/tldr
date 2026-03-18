@@ -1,20 +1,20 @@
 # conda doctor
 
-> Report salute ambiente conda.
+> Visualizza un report sullo stato di salute del tuo ambiente.
 > Maggiori informazioni: <https://docs.conda.io/projects/conda/en/latest/commands/doctor.html>.
 
-- Report ambiente attivo:
+- Visualizza il report per l'ambiente attualmente attivo:
 
 `conda doctor`
 
-- Report ambiente per nome:
+- Specifica un ambiente per nome:
 
 `conda doctor {{[-n|--name]}} {{nome_ambiente}}`
 
-- Report ambiente per percorso:
+- Specifica un ambiente tramite il suo percorso:
 
-`conda doctor {{[-p|--prefix]}} {{percorso/dell/ambiente}}`
+`conda doctor {{[-p|--prefix]}} {{percorso/a/ambiente}}`
 
-- Output verboso:
+- Abilita l'output dettagliato (Nota: il flag `-v` può essere ripetuto per aumentare la verbosità):
 
 `conda doctor {{[-v|--verbose]}}`
