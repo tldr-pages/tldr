@@ -25,4 +25,4 @@
 
 - Interactively search and rewrite code:
 
-`ast-grep run --pattern '{{pattern}}' --interactive {{path/to/directory}}`
+`ast-grep run {{[-p|--pattern]}} '{{pattern}}' {{[-i|--interactive]}} {{path/to/directory}}`
