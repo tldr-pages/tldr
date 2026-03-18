@@ -1,6 +1,6 @@
 # conda config
 
-> Modifica i valori di configurazione nel file `.condarc`.  
+> Modifica i valori di configurazione nel file `.condarc`.
 > Maggiori informazioni: <https://docs.conda.io/projects/conda/en/latest/commands/config.html>.
 
 - Mostra tutti i valori di configurazione:
