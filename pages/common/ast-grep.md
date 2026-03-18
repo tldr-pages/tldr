@@ -5,7 +5,7 @@
 
 - Search for a pattern in files:
 
-`ast-grep run --pattern '{{pattern}}' {{path/to/file}}`
+`ast-grep run {{[-p|--pattern]}} '{{pattern}}' {{path/to/file}}`
 
 - Search for a pattern in a specific language:
 
