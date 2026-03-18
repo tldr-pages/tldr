@@ -9,7 +9,7 @@
 
 - Ambiente per nome:
 
-`conda run {{[-n|--name]}} {{ambiente}} {{comando}}`
+`conda run {{[-n|--name]}} {{nome_ambiente}} {{comando}}`
 
 - Ambiente per percorso:
 
