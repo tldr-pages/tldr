@@ -6,20 +6,20 @@
 
 - Crea un account Cognitive Services API in una posizione specifica senza conferma richiesta:
 
-`az cognitiveservices account create {{[-n|--name]}} {{nome_account}} {{[-g|--resource-group]}} {{gruppo_risorse}} --kind {{API_name}} {{[-l|--location]}} {{posizione}} --sku {{nome_sku}} --yes`
+`az cognitiveservices account create {{[-n|--name]}} {{account_name}} {{[-g|--resource-group]}} {{resource_group}} --kind {{API_name}} {{[-l|--location]}} {{location}} --sku {{sku_name}} --yes`
 
 - Elenca gli utilizzi per l'account Azure Cognitive Services:
 
-`az cognitiveservices account list-usage {{[-n|--name]}} {{nome_account}} {{[-g|--resource-group]}} {{gruppo_risorse}}`
+`az cognitiveservices account list-usage {{[-n|--name]}} {{account_name}} {{[-g|--resource-group]}} {{resource_group}}`
 
 - Crea un deployment per l'account Azure Cognitive Services:
 
-`az cognitiveservices account deployment create {{[-n|--name]}} {{nome_account}} {{[-g|--resource-group]}} {{gruppo_risorse}} --deployment-name {{deploy_name}} --model-name {{nome_modello}} --model-version "{{versione_modello}}" --model-format {{nome_formato}}`
+`az cognitiveservices account deployment create {{[-n|--name]}} {{account_name}} {{[-g|--resource-group]}} {{resource_group}} --deployment-name {{deploy_name}} --model-name {{model_name}} --model-version "{{model_version}}" --model-format {{format_name}}`
 
 - Crea un piano di commitment per l'account Azure Cognitive Services:
 
-`az cognitiveservices account commitment-plan create {{[-n|--name]}} {{nome_account}} {{[-g|--resource-group]}} {{gruppo_risorse}} --commitment-plan-name "{{nome_piano}}" --hosting-model "{{modello_hosting}}" --plan-type "{{tipo_piano}}" --auto-renew {{false|true}}`
+`az cognitiveservices account commitment-plan create {{[-n|--name]}} {{account_name}} {{[-g|--resource-group]}} {{resource_group}} --commitment-plan-name "{{plan_name}}" --hosting-model "{{hosting_model}}" --plan-type "{{plan_type}}" --auto-renew {{false|true}}`
 
 - Elimina un piano di commitment dall'account Azure Cognitive Services:
 
-`az cognitiveservices account commitment-plan delete {{[-g|--resource-group]}} {{gruppo_risorse}} {{[-n|--name]}} {{nome_account}} --commitment-plan-name "{{nome_piano}}"`
+`az cognitiveservices account commitment-plan delete {{[-g|--resource-group]}} {{resource_group}} {{[-n|--name]}} {{account_name}} --commitment-plan-name "{{plan_name}}"`
