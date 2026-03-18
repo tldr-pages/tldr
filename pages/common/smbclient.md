@@ -3,9 +3,9 @@
 > FTP-like client to access SMB/CIFS resources on servers.
 > More information: <https://manned.org/smbclient>.
 
-- List available shares on a server:
+- List available shares on a server anonymously:
 
-`smbclient {{[-L|--list]}} {{server}}`
+`smbclient {{[-L|--list]}} {{server}} --no-pass`
 
 - Connect to a share (will prompt for a password):
 
