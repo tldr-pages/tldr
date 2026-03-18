@@ -31,6 +31,6 @@
 
 `sudo ip {{[l|link]}} {{[s|set]}} {{ethX}} promisc {{on|off}}`
 
-- Set the promisc mode status of a device:
+- Delete a device:
 
 `sudo ip {{[l|link]}} {{[d|delete]}} {{ethX}}`
