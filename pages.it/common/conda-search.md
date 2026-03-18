@@ -1,28 +1,28 @@
 # conda search
 
-> Cerca pacchetti e dettagli.
+> Cerca pacchetti e mostra i loro dettagli.
 > Maggiori informazioni: <https://docs.conda.io/projects/conda/en/latest/commands/search.html>.
 
-- Cerca pacchetto:
+- Cerca un pacchetto specifico:
 
-`conda search {{pacchetto}}`
+`conda search {{nome_pacchetto}}`
 
-- Dettagli pacchetto:
+- Cerca un pacchetto con i relativi dettagli:
 
-`conda search {{pacchetto}} {{[-i|--info]}}`
+`conda search {{nome_pacchetto}} {{[-i|--info]}}`
 
-- Stringa nel nome:
+- Cerca pacchetti che contengono `stringa` nel nome:
 
 `conda search "*stringa*"`
 
-- Versione specifica:
+- Cerca una versione specifica di un pacchetto:
 
-`conda search "{{pacchetto}}>=versione"`
+`conda search "{{nome_pacchetto}}>={{versione_pacchetto}}"`
 
-- Canale specifico:
+- Cerca un pacchetto all'interno di un canale specifico:
 
-`conda search {{canale}}::{{pacchetto}}`
+`conda search {{canale}}::{{nome_pacchetto}}`
 
-- Ambienti locali:
+- Verifica se un pacchetto è installato in uno qualsiasi degli ambienti locali:
 
-`conda search --envs {{pacchetto}}`
+`conda search --envs {{nome_pacchetto}}`

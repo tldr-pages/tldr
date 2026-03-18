@@ -1,24 +1,24 @@
 # conda update
 
-> Aggiorna pacchetti ambiente conda.
+> Aggiorna i pacchetti all'interno di un ambiente conda, incluso conda stesso.  
 > Maggiori informazioni: <https://docs.conda.io/projects/conda/en/latest/commands/update.html>.
 
-- Aggiorna tutti pacchetti:
+- Aggiorna tutti i pacchetti nell'ambiente corrente:
 
 `conda update {{[--all|--update-all]}}`
 
-- Pacchetto specifico:
+- Aggiorna un pacchetto specifico nell'ambiente corrente:
 
-`conda update {{pacchetto}}`
+`conda update {{nome_pacchetto}}`
 
-- Aggiorna conda base:
+- Aggiorna conda stesso nell'ambiente base:
 
 `conda update {{[-n|--name]}} base conda`
 
-- Ignora pacchetti pinnati:
+- Aggiorna i pacchetti ignorando quelli bloccati:
 
 `conda update --no-pin`
 
-- Modalità offline:
+- Aggiorna i pacchetti in modalità offline:
 
 `conda update --offline`
