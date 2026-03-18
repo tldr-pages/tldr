@@ -8,7 +8,6 @@
 
 `dig +short {{example.com}}`
 
-
 - 지정한 도메인에 대한 상세 응답(A 레코드)을 조회:
 
 `dig +noall +answer {{example.com}}`
