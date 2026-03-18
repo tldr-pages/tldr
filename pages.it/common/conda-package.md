@@ -1,28 +1,28 @@
 # conda package
 
-> Crea pacchetti conda low-level.
+> Crea pacchetti conda a basso livello.  
 > Maggiori informazioni: <https://docs.conda.io/projects/conda/en/stable/commands/package.html>.
 
-- Pacchetto da file:
+- Ottieni il pacchetto conda da un file:
 
-`conda package {{[-w|--which]}} {{percorso/file}}`
+`conda package {{[-w|--which]}} {{percorso/al/file}}`
 
-- Rimuovi file non tracciati:
+- Rimuovi tutti i file non tracciati:
 
 `conda package {{[-r|--reset]}}`
 
-- Mostra file non tracciati:
+- Mostra tutti i file non tracciati:
 
 `conda package {{[-u|--untracked]}}`
 
-- Nome pacchetto:
+- Specifica il nome del pacchetto in fase di creazione:
 
 `conda package --pkg-name {{nome}}`
 
-- Versione pacchetto:
+- Specifica la versione del pacchetto in fase di creazione:
 
 `conda package --pkg-version {{versione}}`
 
-- Numero build:
+- Specifica il numero di build del pacchetto in fase di creazione:
 
-`conda package --pkg-build {{numero}}`
+`conda package --pkg-build {{numero_build}}`
