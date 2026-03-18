@@ -9,4 +9,4 @@
 
 - 더 빠르지만 덜 철저한 가비지 수집 프로세스를 시작:
 
-`dolt gc --shallow`
+`dolt gc {{[-s|--shallow]}}`

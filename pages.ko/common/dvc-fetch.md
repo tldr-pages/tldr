@@ -9,7 +9,7 @@
 
 - 특정 원격 업스트림 저장소에서 변경사항 가져오기:
 
-`dvc fetch --remote {{원격_이름}}`
+`dvc fetch {{[-r|--remote]}} {{원격_이름}}`
 
 - 특정 대상의 최신 변경사항 가져오기:
 
@@ -17,8 +17,8 @@
 
 - 모든 브랜치 및 태그의 변경사항 가져오기:
 
-`dvc fetch --all-branches --all-tags`
+`dvc fetch {{[-a|--all-branches]}} {{[-T|--all-tags]}}`
 
 - 모든 커밋의 변경사항 가져오기:
 
-`dvc fetch --all-commits`
+`dvc fetch {{[-A|--all-commits]}}`

@@ -5,16 +5,16 @@
 
 - 현재 작업 공간에서 참조하는 버전만 남기고 캐시에서 가비지 수집:
 
-`dvc gc --workspace`
+`dvc gc {{[-w|--workspace]}}`
 
 - 브랜치, 태그, 커밋에서 참조하는 버전만 남기고 캐시에서 가비지 수집:
 
-`dvc gc --all-branches --all-tags --all-commits`
+`dvc gc {{[-a|--all-branches]}} {{[-T|--all-tags]}} {{[-a|--all-commits]}}`
 
 - 기본 클라우드 원격 저장소를 포함하여 캐시에서 가비지 수집 (설정된 경우):
 
-`dvc gc --all-commits --cloud`
+`dvc gc {{[-a|--all-commits]}} {{[-c|--cloud]}}`
 
 - 특정 클라우드 원격 저장소를 포함하여 캐시에서 가비지 수집:
 
-`dvc gc --all-commits --cloud --remote {{원격_이름}}`
+`dvc gc {{[-a|--all-commits]}} {{[-c|--cloud]}} {{[-r|--remote]}} {{원격_이름}}`
