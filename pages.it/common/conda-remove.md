@@ -9,12 +9,12 @@
 
 - Pacchetti da ambiente specifico:
 
-`conda remove {{[-n|--name]}} {{ambiente}} {{pacchetto1 pacchetto2 ...}}`
+`conda remove {{[-n|--name]}} {{nome_ambiente}} {{pacchetto1 pacchetto2 ...}}`
 
 - Elimina ambiente:
 
-`conda remove {{[-n|--name]}} {{ambiente}} --all`
+`conda remove {{[-n|--name]}} {{nome_ambiente}} --all`
 
 - Rimuovi pacchetti (mantieni ambiente):
 
-`conda remove {{[-n|--name]}} {{ambiente}} --all --no-builds`
+conda remove {{[-n|--name]}} {{nome_ambiente}} --all --keep-env
