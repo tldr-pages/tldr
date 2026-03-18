@@ -13,7 +13,7 @@
 
 - Devuelve el número de fuentes instaladas con el nombre dado:
 
-`fc-list | wc -l`
+`fc-list | wc {{[-l|--lines]}}`
 
 - Devuelve una lista de las fuentes instaladas que soportan el idioma basado en su código de idioma:
 
