@@ -1,24 +1,24 @@
 # conda list
 
-> Elenca pacchetti installati.
+> Elenca i pacchetti installati in un ambiente conda.  
 > Maggiori informazioni: <https://docs.conda.io/projects/conda/en/stable/commands/list.html>.
 
-- Pacchetti ambiente corrente:
+- Elenca tutti i pacchetti nell'ambiente attuale:
 
 `conda list`
 
-- Ambiente per nome:
+- Elenca i pacchetti in un ambiente specifico:
 
 `conda list {{[-n|--name]}} {{ambiente}}`
 
-- Ambiente per percorso:
+- Elenca i pacchetti installati in un percorso specifico:
 
-`conda list {{[-p|--prefix]}} {{percorso/dell/ambiente}}`
+`conda list {{[-p|--prefix]}} {{percorso/all/ambiente}}`
 
-- Filtro (`regex`):
+- Filtra i pacchetti installati usando una `regex`:
 
 `conda list {{regex}}`
 
-- Esporta lista:
+- Esporta l'elenco dei pacchetti per usi futuri:
 
-`conda list {{[-e|--export]}} > {{pacchetti.txt}}`
+`conda list {{[-e|--export]}} > {{percorso/alla/lista-pacchetti.txt}}`
