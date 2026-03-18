@@ -1,6 +1,5 @@
 # conda update
 
-> Aggiorna i pacchetti all'interno di un ambiente conda, incluso conda stesso.  
 > Maggiori informazioni: <https://docs.conda.io/projects/conda/en/latest/commands/update.html>.
 
 - Aggiorna tutti i pacchetti nell'ambiente corrente:
