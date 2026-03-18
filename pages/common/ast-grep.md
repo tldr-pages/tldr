@@ -13,7 +13,7 @@
 
 - Rewrite code matching a pattern:
 
-`ast-grep run --pattern '{{pattern}}' --rewrite '{{replacement}}' {{path/to/file}}`
+`ast-grep run {{[-p|--pattern]}} '{{pattern}}' {{[-r|--rewrite]}} '{{replacement}}' {{path/to/file}}`
 
 - List all supported languages:
 
