@@ -1,5 +1,6 @@
 # conda update
 
+> Aggiorna i pacchetti all'interno di un ambiente conda, incluso conda stesso.  
 > Maggiori informazioni: <https://docs.conda.io/projects/conda/en/latest/commands/update.html>.
 
 - Aggiorna tutti i pacchetti nell'ambiente corrente:
@@ -14,7 +15,7 @@
 
 `conda update {{[-n|--name]}} base conda`
 
-- Aggiorna i pacchetti ignorando quelli bloccati:
+- Aggiorna i pacchetti ignorando quelli bloccati (pinned):
 
 `conda update --no-pin`
 
