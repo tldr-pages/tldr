@@ -1,7 +1,7 @@
 # apt-file
 
 > Busca arxius en paquets APT, incloent els que encara no s'han instal·lat.
-> Més informació: <https://manned.org/apt-file.1>.
+> Més informació: <https://manned.org/apt-file>.
 
 - Actualita les metadades de la base de dades:
 
@@ -9,12 +9,12 @@
 
 - Busca paquets que continguin l'arxiu o ruta especificada:
 
-`apt-file {{search|find}} {{ruta/al/arxiu}}`
+`apt-file {{[find|search]}} {{ruta/al/arxiu}}`
 
 - Mostra el contingut del paquet especificat:
 
-`apt-file {{show|list}} {{nom_paquet}}`
+`apt-file list {{nom_paquet}}`
 
 - Busca paquets que igualin l'expressió regular donada en `patró`:
 
-`apt-file {{search|find}} {{[-x|--regexp]}} {{expressió_regular}}`
+`apt-file {{[find|search]}} {{[-x|--regexp]}} {{expressió_regular}}`
