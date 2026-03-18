@@ -1,7 +1,7 @@
 # ast-grep
 
 > Search, lint, and rewrite code using AST patterns.
-> More information: <https://ast-grep.github.io>.
+> More information: <https://ast-grep.github.io/reference/cli.html>.
 
 - Search for a pattern in files:
 
