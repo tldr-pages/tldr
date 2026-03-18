@@ -1,28 +1,28 @@
 # conda clean
 
-> Elimina file temporanei/inutilizzati: cache indice, lock, pacchetti, tarball, log.
+> Elimina file temporanei o non utilizzati: cache degli indici, file di blocco, pacchetti inutilizzati, tarball e file di log.  
 > Maggiori informazioni: <https://docs.conda.io/projects/conda/en/stable/commands/clean.html>.
 
-- Elimina tutto verbosamente (sì a tutto):
+- Elimina tutti i file temporanei o non utilizzati in modo dettagliato e conferma automaticamente tutte le richieste:
 
 `conda clean {{[-avy|--all --verbose --yes]}}`
 
-- Elimina solo cache indice, tarball, log:
+- Elimina solo la cache degli indici, i tarball e i file di log:
 
 `conda clean {{[-itl|--index-cache --tarballs --logfiles]}}`
 
-- Elimina cache temporanei bloccati:
+- Elimina solo i file temporanei di [c]ache che non potevano essere eliminati in precedenza perché in uso:
 
-`conda clean {{[-c|--tempfiles]}}`
+`conda clean {{[-c|--tempfiles]}} {{percorso/a/file_temporanei}}`
 
-- Elimina pacchetti inutilizzati:
+- Elimina solo i pacchetti non utilizzati. Potrebbe eliminare pacchetti installati con softlink:
 
 `conda clean {{[-p|--packages]}}`
 
-- Forza eliminazione tutti pacchetti scrivibili:
+- Forza l'eliminazione di tutti i pacchetti scrivibili. È più esteso dell'opzione `--all`. Eliminerà anche i pacchetti installati con softlink:
 
 `conda clean {{[-f|--force-pkgs-dirs]}}`
 
-- Aiuto:
+- Mostra l'aiuto:
 
 `conda clean {{[-h|--help]}}`
