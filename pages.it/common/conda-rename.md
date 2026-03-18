@@ -6,8 +6,8 @@
 
 - Rinomina per nome:
 
-`conda rename {{[-n|--name]}} {{nome_vecchio}} {{nome_nuovo}}`
+`conda rename {{[-n|--name]}} {{nome_attuale}} {{nome_nuovo}}`
 
 - Rinomina per percorso:
 
-`conda rename {{[-p|--prefix]}} {{percorso/env}} {{nome_nuovo}}`
+`conda rename {{[-p|--prefix]}} {{percorso/all/env}} {{nome_nuovo}}`
