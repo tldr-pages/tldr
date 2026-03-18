@@ -1,32 +1,32 @@
 # conda install
 
-> Installa pacchetti in ambiente esistente.
+> Installa pacchetti in un ambiente conda esistente.  
 > Maggiori informazioni: <https://docs.conda.io/projects/conda/en/latest/commands/install.html>.
 
-- Installa pacchetti ambiente attivo:
+- Installa uno o più pacchetti nell'ambiente conda attivo:
 
 `conda install {{pacchetto1 pacchetto2 ...}}`
 
-- Da canale conda-forge:
+- Installa un singolo pacchetto nell'ambiente conda attivo utilizzando il canale conda-forge:
 
 `conda install {{[-c|--channel]}} conda-forge {{pacchetto}}`
 
-- Solo conda-forge:
+- Installa un singolo pacchetto nell'ambiente conda attivo utilizzando il canale conda-forge e ignorando gli altri canali:
 
 `conda install {{[-c|--channel]}} conda-forge --override-channels {{pacchetto}}`
 
-- Versione specifica:
+- Installa una versione specifica di un pacchetto:
 
 `conda install {{pacchetto}}={{versione}}`
 
-- Ambiente specifico:
+- Installa un pacchetto in un ambiente specifico:
 
 `conda install {{[-n|--name]}} {{ambiente}} {{pacchetto}}`
 
-- Aggiorna pacchetto:
+- Aggiorna un pacchetto nell'ambiente attuale:
 
-`conda install {{[-u|--update]}} {{pacchetto}}`
+`conda install --upgrade {{pacchetto}}`
 
-- Senza conferme:
+- Installa un pacchetto accettando le modifiche senza richiedere conferma:
 
 `conda install {{[-y|--yes]}} {{pacchetto}}`
