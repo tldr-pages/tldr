@@ -1,6 +1,6 @@
 # ast-grep
 
-> A fast tool for searching, linting, and rewriting code using AST patterns.
+> Search, lint, and rewrite code using AST patterns.
 > More information: <https://ast-grep.github.io>.
 
 - Search for a pattern in files:
