@@ -21,4 +21,4 @@
 
 - 도움말 표시:
 
-`docker {{[pull|image pull]}} {{[-h|--help]}}`
+`docker {{[pull|image pull]}} --help`
