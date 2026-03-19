@@ -5,7 +5,6 @@
 > 관련 항목: `pushd`, `popd`.
 > 더 많은 정보: <https://www.gnu.org/software/bash/manual/bash.html#Directory-Stack-Builtins>.
 
-
 - 디렉토리 스택을 각 항목 사이에 공백을 두고 출력:
 
 `dirs`

@@ -26,4 +26,3 @@
 - 버전 정보 표시:
 
 `dnsmasq --version`
-
