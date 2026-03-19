@@ -33,4 +33,4 @@
 
 - Reload with zero downtime by reusing sockets from old process:
 
-`haproxy -f {{path/to/haproxy.cfg}} -x {{/var/run/haproxy.sock}} -sf {{pid}}`
+`haproxy -f {{path/to/haproxy.cfg}} -x {{path/to/haproxy.sock}} -sf {{pid}}`
