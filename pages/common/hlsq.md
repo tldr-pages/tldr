@@ -1,6 +1,6 @@
 # hlsq
 
-> Displays HLS manifests with colour and basic filtering.
+> Display HLS manifests with color and basic filtering.
 > More information: <https://github.com/soldiermoth/hlsq/>.
 
 - View an HLS manifest from a URL:
