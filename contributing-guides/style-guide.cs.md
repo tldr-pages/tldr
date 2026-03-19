@@ -113,12 +113,12 @@ Příklad:
 
 - Podívejte se na dokumentaci původního příkazu:
 
-`tldr původní-název-příkazu`
+`tldr vim`
 ```
 
 - Předem přeložené šablony alias stránek můžete najít [zde](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/translation-templates/alias-pages.md).
 
-# Obecné psaní
+## Obecné psaní
 
 ### Důraz
 
@@ -144,7 +144,7 @@ Například místo `Vypisuje všechny soubory:`, použijte následující:
  `ls`
 ```
 
-# Nadpisy
+## Nadpisy
 
 ### Popisek programu
 
