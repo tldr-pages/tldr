@@ -1,7 +1,7 @@
 # apt-file
 
 > Suche nach Dateien in apt-Paketen, auch in den nicht-installierten.
-> Weitere Informationen: <https://manned.org/apt-file.1>.
+> Weitere Informationen: <https://manned.org/apt-file>.
 
 - Aktualisiere die Metadatenbank:
 
@@ -9,12 +9,12 @@
 
 - Suche nach Paketen, die die/den spezifizierten Pfad/Datei enthalten:
 
-`apt-file {{search|find}} {{pfad/zu/datei}}`
+`apt-file {{[find|search]}} {{pfad/zu/datei}}`
 
 - Liste die Inhalte eines bestimmten Pakets auf:
 
-`apt-file {{show|list}} {{paketname}}`
+`apt-file list {{paketname}}`
 
 - Suche nach Paketen auf die die `regex` zutrifft:
 
-`apt-file {{search|find}} {{[-x|--regexp]}} {{regular_expression}}`
+`apt-file {{[find|search]}} {{[-x|--regexp]}} {{regular_expression}}`
