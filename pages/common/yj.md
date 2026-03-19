@@ -3,7 +3,7 @@
 > Convert between YAML, TOML, JSON, and HCL. Preserves map order.
 > More information: <https://github.com/sclevine/yj>.
 
-- Convert YAML to JSON (default) from stdin:
+- Convert YAML to JSON (default) from `stdin`:
 
 `yj -y < {{file.yml}}`
 
