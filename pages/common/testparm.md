@@ -1,6 +1,6 @@
 # testparm
 
-> Check an Sanba configuration file for internal correctness.
+> Check a Samba configuration file for internal correctness.
 > More information: <https://manned.org/testparm>.
 
 - Check `/etc/samba/smb.conf` for correctness:
