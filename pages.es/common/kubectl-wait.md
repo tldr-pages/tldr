@@ -9,7 +9,7 @@
 
 - Espera a que todos los pods con una determinada etiqueta ([l]) estén listos:
 
-`kubectl wait --for condition=ready pod {{[-l|--selector]}} {{etiqueta_clave}}={{etiqueta_valor}}`
+`kubectl wait --for condition=ready {{[po|pods]}} {{[-l|--selector]}} {{etiqueta_clave}}={{etiqueta_valor}}`
 
 - Espera a que se elimine un pod:
 
