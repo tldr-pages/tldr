@@ -13,4 +13,4 @@
 
 - Record the monitor of the default sink:
 
-`pulsesrc device=@DEFAULT_MONITOR@ ! {{opusenc}} ! {{oggmux}} ! filesink location={{test.ogg}}`
+`gst-launch-1.0 pulsesrc device=@DEFAULT_MONITOR@ ! {{opusenc}} ! {{oggmux}} ! filesink location={{path/to/test.ogg}}`
