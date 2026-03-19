@@ -15,10 +15,6 @@
 
 `ast-grep run {{[-p|--pattern]}} '{{pattern}}' {{[-r|--rewrite]}} '{{replacement}}' {{path/to/file}}`
 
-- Display help for a subcommand:
-
-`ast-grep {{run}} {{[-h|--help]}}`
-
 - Run rules from a configuration file:
 
 `ast-grep scan {{[-r|--rule]}} {{path/to/rule.yml}} {{path/to/directory}}`
@@ -26,3 +22,7 @@
 - Interactively search and rewrite code:
 
 `ast-grep run {{[-p|--pattern]}} '{{pattern}}' {{[-i|--interactive]}} {{path/to/directory}}`
+
+- Display help for a subcommand:
+
+`ast-grep {{run}} {{[-h|--help]}}`
