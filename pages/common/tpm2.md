@@ -4,22 +4,18 @@
 > Some subcommands such as `pcrread`, `pcrreset`, etc. have their own usage documentation.
 > More information: <https://manned.org/tpm2>.
 
-- View documentation for :
+- Reset the PCR 16 banks:
 
-`tldr tpm2 {{subcommand}}`
+`tpm2 pcrreset 16`
 
-- Run a subcommand in verbose mode:
+- Extend the PCR 16 sha1 bank with `f1d2d2f924e986ac86fdf7b36c94bcdf32beec15`:
 
-`tpm2 {{[-V|--verbose]}} {{subcommand}}`
+`tpm2 pcrextend 16:sha1=f1d2d2f924e986ac86fdf7b36c94bcdf32beec15`
 
-- Run a subcommand without writing to `stdout`:
+- Read the PCR 16 sha1 bank:
 
-`tpm2 {{[-Q|--quiet]}} {{subcommand}}`
+`tpm2 pcrread sha1:16`
 
 - Display help:
 
-`tpm2 pcrreset {{[-h|--help]}}`
-
-- Display version:
-
-`tpm2 pcrreset {{[-v|--version]}}`
+`tpm2 {{[-h|--help]}}`
