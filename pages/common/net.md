@@ -31,10 +31,6 @@
 
 `net {{ads info}}`
 
-- List open files on server (optionally close specific file ID):
-
-`net {{file}} {{[close {id}]}}`
-
 - List active SMB sessions/connections to server:
 
 `net {{session}}`
