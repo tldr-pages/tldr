@@ -10,4 +10,4 @@
 
 - Establece políticas en modo de queja:
 
-`sudo aa-complain --dir {{ruta/a/perfiles}}`
+`sudo aa-complain {{[-d|--dir]}} {{ruta/a/perfiles}}`

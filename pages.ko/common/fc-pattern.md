@@ -5,8 +5,8 @@
 
 - 글꼴에 대한 기본 정보를 표시:
 
-`fc-pattern --default '{{DejaVu Serif}}'`
+`fc-pattern {{[-d|--default]}} '{{DejaVu Serif}}'`
 
 - 글꼴에 대한 구성 정보 표시:
 
-`fc-pattern --config '{{DejaVu Serif}}'`
+`fc-pattern {{[-c|--config]}} '{{DejaVu Serif}}'`
