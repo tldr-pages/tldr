@@ -17,7 +17,7 @@
 
 - Display help for a subcommand:
 
-`ast-grep run --help`
+`ast-grep {{run}} {{[-h|--help]}}`
 
 - Run rules from a configuration file:
 
