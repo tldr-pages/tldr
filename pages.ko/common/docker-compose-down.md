@@ -1,7 +1,6 @@
 # docker compose down
 
 > `docker compose up`으로 생성된 컨테이너, 네트워크, 이미지, 볼륨을 중지하고 제거.
-
 > 더 많은 정보: <https://docs.docker.com/reference/cli/docker/compose/down/>.
 
 - 모든 컨테이너와 네트워크 중지 및 제거:
