@@ -7,6 +7,10 @@
 
 `pgrep {{process_name}}`
 
+- Also display the full command:
+
+`pgrep {{[-a|--list-full]}} {{process_name}}`
+
 - Search for processes including their command-line options:
 
 `pgrep {{[-f|--full]}} "{{process_name}} {{parameter}}"`
