@@ -33,6 +33,6 @@
 
 `wpctl set-volume {{[-l|--limit]}} 1 {{id}} {{n}}%-`
 
-- Mute/Unmute a sink (1 is mute, 0 is unmute):
+- Mute/Unmute a the default audio sink or source (1 is mute, 0 is unmute):
 
-`wpctl set-mute {{id}} {{1|0|toggle}}`
+`wpctl set-mute @DEFAULT_AUDIO_{{SINK|SOURCE}}@ {{1|0|toggle}}`
