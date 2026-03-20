@@ -27,6 +27,6 @@
 
 `yj -ycn {{file.yml}}`
 
-- Show version:
+- Display version:
 
 `yj -v`
