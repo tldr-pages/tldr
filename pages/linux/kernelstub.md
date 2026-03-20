@@ -9,7 +9,7 @@
 
 - Add custom kernel options:
 
-`sudo kernelstub -o "{{quiet splash mitigations=off}}"`
+`sudo kernelstub {{[-o|--options]}} "{{quiet splash mitigations=off}}"`
 
 - Verbose mode with systemd-boot configuration:
 
