@@ -9,6 +9,7 @@ This file contains the translation templates of this notice.
 
 [en](#en) •
 [ar](#ar) •
+[bg](#bg) •
 [bn](#bn) •
 [bs](#bs) •
 [ca](#ca) •
@@ -59,6 +60,14 @@ This file contains the translation templates of this notice.
 
 ```markdown
 > انظر أيضًا: `example`.
+```
+
+---
+
+### bg
+
+```markdown
+> Виж също: `example`.
 ```
 
 ---
