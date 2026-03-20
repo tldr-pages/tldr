@@ -17,7 +17,7 @@
 
 - Copy kernel only to ESP without NVRAM changes:
 
-`sudo kernelstub -m`
+`sudo kernelstub {{[-m|--manage-only]}}`
 
 - Simulation mode without changes (dry-run):
 
