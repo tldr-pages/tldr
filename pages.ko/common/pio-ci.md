@@ -10,11 +10,11 @@
 
 - 특정 라이브러리를 지정하여 PlatformIO 프로젝트 빌드:
 
-`pio ci --lib {{경로/대상/라이브러리_폴더}} {{경로/대상/프로젝트}}`
+`pio ci {{[-l|--lib]}} {{경로/대상/라이브러리_폴더}} {{경로/대상/프로젝트}}`
 
 - 특정 보드를 지정하여 PlatformIO 프로젝트 빌드 (`pio boards` 명령어로 모든 보드 목록 확인 가능):
 
-`pio ci --board {{보드}} {{경로/대상/프로젝트}}`
+`pio ci {{[-b|--board]}} {{보드}} {{경로/대상/프로젝트}}`
 
 - 특정 디렉토리에서 PlatformIO 프로젝트 빌드:
 
@@ -26,4 +26,4 @@
 
 - 특정 구성 파일을 사용하여 PlatformIO 프로젝트 빌드:
 
-`pio ci --project-conf {{경로/대상/platformio.ini}}`
+`pio ci {{[-c|--project-conf]}} {{경로/대상/platformio.ini}}`

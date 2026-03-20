@@ -10,7 +10,7 @@
 
 - 특정 이름으로 새로운 원격 에이전트를 시작하고 친구들과 공유:
 
-`pio remote agent start --name {{에이전트_이름}} --share {{example1@example.com}} --share {{example2@example.com}}`
+`pio remote agent start {{[-n|--name]}} {{에이전트_이름}} {{[-s|--share]}} {{example1@example.com}} {{[-s|--share]}} {{example2@example.com}}`
 
 - 지정된 에이전트의 장치 나열 (`--agent`를 생략하여 모든 에이전트 지정 가능):
 
