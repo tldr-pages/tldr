@@ -1,6 +1,6 @@
 # pw-cli
 
-> Pipewire komut satır arayüzü.
+> PipeWire komut satır arayüzü.
 > Ayrıca bakınız: `wpctl`.
 > Daha fazla bilgi için: <https://docs.pipewire.org/page_man_pw-cli_1.html>.
 
