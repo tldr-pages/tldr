@@ -11,7 +11,7 @@
 
 `sync {{path/to/file}}`
 
-- Flush writes and drop file system caches (Linux only):
+- Flush writes and drop filesystem caches (Linux only):
 
 `sync; echo 3 | sudo tee /proc/sys/vm/drop_caches`
 

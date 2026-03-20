@@ -6,8 +6,8 @@
 
 - Imprime um valor de chave específico:
 
-`dconf read {{/caminho/para/chave}}`
+`dconf read /{{caminho/para/chave}}`
 
 - Imprime o valor padrão de uma chave específica:
 
-`dconf read -d {{/caminho/para/chave}}`
+`dconf read -d /{{caminho/para/chave}}`

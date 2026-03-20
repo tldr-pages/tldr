@@ -8,6 +8,7 @@ The templates can be changed when necessary.
 
 [en](#en) •
 [ar](#ar) •
+[bg](#bg) •
 [bn](#bn) •
 [bs](#bs) •
 [ca](#ca) •
@@ -68,6 +69,20 @@ The templates can be changed when necessary.
 > هذا الأمر هو اسم مستعار لـ `example`.
 
 - إعرض التوثيقات للأمر الأصلي:
+
+`tldr example`
+```
+
+---
+
+### bg
+
+```markdown
+# example
+
+> Тази команда е псевдоним на `example`.
+
+- Виж документацията за оригиналната команда:
 
 `tldr example`
 ```

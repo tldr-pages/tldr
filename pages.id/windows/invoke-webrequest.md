@@ -1,12 +1,16 @@
 # Invoke-WebRequest
 
-> Membuat panggilan dan permintaan HTTP/HTTPS.
+> Buat panggilan dan permintaan HTTP/HTTPS.
 > Perintah ini hanya dapat digunakan dalam PowerShell.
 > Informasi lebih lanjut: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - Unduh konten URL ke file:
 
 `Invoke-WebRequest {{http://example.com}} -OutFile {{jalan\menuju\berkas}}`
+
+- Hanya tampilkan konten HTML mentah tanpa menguraikan isinya melalui Internet Explorer (khusus PowerShell 3.0-5.1):
+
+`Invoke-WebRequest {{http://example.com}} -UseBasicParsing`
 
 - Kirim data form yang telah di encode (permintaan POST atau tipe data `application/x-www-form-urlencoded`):
 

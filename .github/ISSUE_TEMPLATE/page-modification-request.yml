@@ -34,6 +34,7 @@ body:
         - OpenBSD
         - SunOS
         - Windows
+      default: 1
     validations:
       required: true
   - type: input

@@ -5,8 +5,8 @@
 
 - Update the operating system:
 
-`steamos-update`
+`sudo steamos-update`
 
 - Check if there is an update available:
 
-`steamos-update check`
+`sudo steamos-update check`

@@ -2,7 +2,7 @@
 
 > 대규모 언어 모델 실행기.
 > 사용 가능한 모델 목록은 <https://ollama.com/library>를 참조하세요.
-> 더 많은 정보: <https://github.com/ollama/ollama#cli-reference>.
+> 더 많은 정보: <https://docs.ollama.com/cli>.
 
 - 다른 명령을 실행하는 데 필요한 데몬 시작:
 
@@ -12,9 +12,9 @@
 
 `ollama run {{모델}}`
 
-- 단일 프롬프트로 모델 실행:
+- 단일 프롬프트로 모델을 실행하며, thinking 기능을 비활성화:
 
-`ollama run {{모델}} {{프롬프트}}`
+`ollama run {{모델}} --think=false "{{프롬프트}}"`
 
 - 다운로드된 모델 나열:
 

@@ -9,11 +9,11 @@
 
 - 암시된 금액이나 비용을 명시적으로 하여 거래 표시:
 
-`hledger print --explicit --infer-costs`
+`hledger print {{[-x|--explicit]}} --infer-costs`
 
 - 두 개의 지정된 파일에서 거래를 표시하고, 금액을 비용으로 변환:
 
-`hledger print --file {{경로/대상/2023.journal}} --file {{경로/대상/2024.journal}} --cost`
+`hledger print {{[-f|--file]}} {{경로/대상/2023.journal}} {{[-f|--file]}} {{경로/대상/2024.journal}} {{[-B|--cost]}}`
 
 - 이번 달 `*food*` 계좌의 `$` 거래를 표시하되, `*groceries*` 계좌는 제외:
 
@@ -25,8 +25,8 @@
 
 - `EUR` 금액을 소수점 콤마로 반올림하여 입금된 거래 표시:
 
-`hledger print --cleared --commodity '1000, EUR' --round hard`
+`hledger print {{[-C|--cleared]}} --commodity '1000, EUR' --round hard`
 
 - `foo.journal`의 거래를 CSV 파일로 작성:
 
-`hledger print --file {{경로/대상/foo.journal}} --output-file {{경로/대상/output_file.csv}}`
+`hledger print {{[-f|--file]}} {{경로/대상/foo.journal}} {{[-o|--output-file]}} {{경로/대상/output_file.csv}}`

@@ -10,4 +10,4 @@
 
 - 모든 패키지를 동기화하고 업데이트:
 
-`xbps-install --sync --update`
+`xbps-install {{[-S|--sync]}} {{[-u|--update]}}`

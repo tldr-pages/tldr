@@ -9,24 +9,24 @@
 
 - Lista todos los archivos de configuración que utilizará el servidor PulseAudio de PipeWire:
 
-`pw-config --name pipewire-pulse.conf`
+`pw-config {{[-n|--name]}} pipewire-pulse.conf`
 
 - Lista todas las secciones de configuración utilizadas por el servidor PulseAudio de PipeWire:
 
-`pw-config --name pipewire-pulse.conf list`
+`pw-config {{[-n|--name]}} pipewire-pulse.conf list`
 
 - Lista los fragmentos `context.properties` utilizados por los clientes JACK:
 
-`pw-config --name jack.conf list context.properties`
+`pw-config {{[-n|--name]}} jack.conf list context.properties`
 
 - Lista las `context.properties` fusionadas utilizadas por los clientes JACK:
 
-`pw-config --name jack.conf merge context.properties`
+`pw-config {{[-n|--name]}} jack.conf merge context.properties`
 
 - Lista los `context.modules` fusionados utilizados por el servidor PipeWire y [r]eformat:
 
-`pw-config --name pipewire.conf --recurse merge context.modules`
+`pw-config {{[-n|--name]}} pipewire.conf {{[-r|--recurse]}} merge context.modules`
 
 - Muestra la ayuda:
 
-`pw-config --help`
+`pw-config {{[-h|--help]}}`
