@@ -13,4 +13,4 @@
 
 - 강제로 교체: 리소스를 삭제한 후 다시 생성:
 
-`kubectl replace --force {{[-f|--filename]}} {{경로/대상/파일.yml}}`
+`kubectl replace {{[-f|--filename]}} {{경로/대상/파일.yml}} --force`
