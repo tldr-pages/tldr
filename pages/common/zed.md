@@ -1,7 +1,7 @@
 # zed
 
 > Text editor designed to be fast, efficient, and convenient.
-> More information: <https://zed.dev/docs/#cli>.
+> More information: <https://zed.dev/docs/reference/cli>.
 
 - Open specific paths in Zed:
 
