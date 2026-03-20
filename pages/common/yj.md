@@ -7,25 +7,21 @@
 
 `yj -y < {{file.yml}}`
 
-- Convert YAML to YAML with indentation from file:
-
-`yj -yyi {{file.yml}}`
-
 - Convert TOML to YAML:
 
-`yj -ty {{file.toml}}`
+`yj -ty < {{file.toml}}`
 
 - Convert JSON to TOML with indentation:
 
-`yj -jti {{file.json}}`
+`yj -jti < {{file.json}}`
 
 - Convert HCL to JSON:
 
-`yj -cj {{file.hcl}}`
+`yj -cj < {{file.hcl}}`
 
 - Convert YAML to HCL ignoring inf/NaN conversion:
 
-`yj -ycn {{file.yml}}`
+`yj -ycn < {{file.yml}}`
 
 - Display version:
 
