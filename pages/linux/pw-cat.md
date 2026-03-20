@@ -16,6 +16,10 @@
 
 `pw-cat {{[-p|--playback]}} {{[-d|--dsd]}} {{path/to/file.dsf}}`
 
+- Play a compressed audio file using passthrough (requires FFmpeg integration):
+
+`pw-cat {{[-p|--playback]}} {{[-o|--encoded]}} {{path/to/file.ac3}}`
+
 - Play a WAV file with a specified resampler quality (4 by default):
 
 `pw-cat {{[-p|--playback]}} {{[-q|--quality]}} {{0..15}} {{path/to/file.wav}}`
@@ -31,7 +35,3 @@
 - Record a sample recording using a different sample rate:
 
 `pw-cat {{[-r|--record]}} --rate {{6000}} {{path/to/file.wav}}`
-
-- Display help:
-
-`pw-cat {{[-h|--help]}}`
