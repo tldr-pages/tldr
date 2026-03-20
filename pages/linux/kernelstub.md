@@ -21,7 +21,7 @@
 
 - Simulation mode without changes (dry-run):
 
-`sudo kernelstub -c`
+`sudo kernelstub {{[-c|--dry-run]}}`
 
 - Specify paths manually:
 
