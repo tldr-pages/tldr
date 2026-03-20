@@ -5,20 +5,20 @@
 
 - Mostra le informazioni riguardo ad un pacchetto:
 
-`dpkg-deb --info {{percorso/del/file.deb}}`
+`dpkg-deb {{[-I|--info]}} {{percorso/del/file.deb}}`
 
 - Mostra il nome e la versione del pacchetto in una singola riga:
 
-`dpkg-deb --show {{percorso/del/file.deb}}`
+`dpkg-deb {{[-W|--show]}} {{percorso/del/file.deb}}`
 
 - Elenca i contenuti del pacchetto:
 
-`dpkg-deb --contents {{percorso/del/file.deb}}`
+`dpkg-deb {{[-c|--contents]}} {{percorso/del/file.deb}}`
 
 - Estrae i contenuti del pacchetto in una directory:
 
-`dpkg-deb --extract {{percorso/del/file.deb}} {{percorso/della/directory}}`
+`dpkg-deb {{[-x|--extract]}} {{percorso/del/file.deb}} {{percorso/della/directory}}`
 
 - Crea una pacchetto a partire da una directory specificata:
 
-`dpkg-deb --build {{percorso/della/directory}}`
+`dpkg-deb {{[-b|--build]}} {{percorso/della/directory}}`

@@ -21,4 +21,4 @@
 
 - 사용자 정의 커밋 메시지와 함께 메이저 버전 증가:
 
-`npm version major -m "{{%s 이유로 업그레이드함}}"`
+`npm version major {{[-m|--message]}} "{{%s 이유로 업그레이드함}}"`

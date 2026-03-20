@@ -5,7 +5,7 @@
 
 - Geef een certificaat uit met behulp van een automatische DNS API-modus:
 
-`acme.sh --issue --dns {{gnd_gd}} --domain {{example.com}}`
+`acme.sh --issue --dns {{dns_gd}} --domain {{example.com}}`
 
 - Geef een wildcardcertificaat uit (aangegeven met een asterisk) met behulp van een automatische DNS API-modus:
 

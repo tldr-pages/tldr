@@ -9,11 +9,11 @@
 
 - Wait for all pods with a certain [l]abel to be ready:
 
-`kubectl wait --for condition=ready pod {{[-l|--selector]}} {{label_key}}={{label_value}}`
+`kubectl wait --for condition=ready {{[po|pods]}} {{[-l|--selector]}} {{label_key}}={{label_value}}`
 
 - Wait for a pod to be deleted:
 
-`kubectl wait --for delete pod {{pod_name}}`
+`kubectl wait --for delete {{[po|pods]}} {{pod_name}}`
 
 - Wait for a job to complete, within 120 seconds (if the condition isn't met on time, the exit status will be unsuccessful):
 

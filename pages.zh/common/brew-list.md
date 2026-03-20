@@ -5,24 +5,24 @@
 
 - 列出所有安装的软件包和安装包：
 
-`brew list`
+`brew {{[ls|list]}}`
 
 - 列出属于已安装软件包的文件：
 
-`brew list {{软件包}}`
+`brew {{[ls|list]}} {{软件包}}`
 
 - 列出安装包的所含文件：
 
-`brew list {{安装包}}`
+`brew {{[ls|list]}} {{安装包}}`
 
 - 仅列出软件包：
 
-`brew list --formula`
+`brew {{[ls|list]}} --formula`
 
 - 仅列出安装包：
 
-`brew list --cask`
+`brew {{[ls|list]}} --cask`
 
 - 仅列出锁定的软件包：
 
-`brew list --pinned`
+`brew {{[ls|list]}} --pinned`

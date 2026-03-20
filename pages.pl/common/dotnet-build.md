@@ -13,7 +13,7 @@
 
 - Kompiluj w konfiguracji wydania:
 
-`dotnet build --configuration {{Release}}`
+`dotnet build {{[-c|--configuration]}} {{Release}}`
 
 - Kompiluj bez przywracania zależności:
 
@@ -21,12 +21,12 @@
 
 - Kompiluj z wybranym poziomem szczegółowości logu:
 
-`dotnet build --verbosity {{quiet|minimal|normal|detailed|diagnostic}}`
+`dotnet build {{[-v|--verbosity]}} {{quiet|minimal|normal|detailed|diagnostic}}`
 
 - Kompiluj dla wybranego środowiska uruchomieniowego:
 
-`dotnet build --runtime {{identyfikator_runtime}}`
+`dotnet build {{[-r|--runtime]}} {{identyfikator_runtime}}`
 
 - Kompiluj do wybranego katalogu:
 
-`dotnet build --output {{ścieżka/do/katalogu}}`
+`dotnet build {{[-o|--output]}} {{ścieżka/do/katalogu}}`

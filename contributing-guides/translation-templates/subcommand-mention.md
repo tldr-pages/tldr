@@ -7,6 +7,7 @@ This file contains the translation templates of this notice.
 
 [en](#en) •
 [ar](#ar) •
+[bg](#bg) •
 [bn](#bn) •
 [bs](#bs) •
 [ca](#ca) •
@@ -57,6 +58,14 @@ This file contains the translation templates of this notice.
 
 ```markdown
 > بعض الأوامر الفرعية لديها توثيقات الاستخدام الخاصة بها مثل: `example`.
+```
+
+---
+
+### bg
+
+```markdown
+> Някои подкоманди като `example` имат собствена документация за употреба.
 ```
 
 ---

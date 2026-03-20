@@ -1,9 +1,9 @@
 # grub-mount
 
-> Mount a file system or file system image read-only using GRUB's file system drivers.
+> Mount a filesystem or filesystem image read-only using GRUB's filesystem drivers.
 > More information: <https://www.gnu.org/software/grub/manual/grub/grub.html#Invoking-grub_002dmount>.
 
-- Mount a block device or file system image to a mount point:
+- Mount a block device or filesystem image to a mount point:
 
 `grub-mount {{/dev/sdXY}} {{/mnt}}`
 

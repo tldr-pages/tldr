@@ -10,8 +10,8 @@
 
 - Quita todas las imágenes de Toolbx:
 
-`toolbox rmi --all`
+`toolbox rmi {{[-a|--all]}}`
 
 - Fuerza la eliminación de una imagen de Toolbx que está siendo utilizada actualmente por un contenedor (el contenedor será eliminado también):
 
-`toolbox rmi --force {{nombre_de_la_imagen}}`
+`toolbox rmi {{[-f|--force]}} {{nombre_de_la_imagen}}`

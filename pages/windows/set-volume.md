@@ -1,14 +1,14 @@
 # Set-Volume
 
-> Set or change the file system label of an existing volume.
+> Set or change the filesystem label of an existing volume.
 > Note: This command can only be used through PowerShell.
 > More information: <https://learn.microsoft.com/powershell/module/storage/set-volume>.
 
-- Change the file system label of a volume identified by drive letter:
+- Change the filesystem label of a volume identified by drive letter:
 
 `Set-Volume -DriveLetter "D" -NewFileSystemLabel "DataVolume"`
 
-- Change the file system label of a volume identified by the system label:
+- Change the filesystem label of a volume identified by the system label:
 
 `Set-Volume -FileSystemLabel "OldLabel" -NewFileSystemLabel "NewLabel"`
 

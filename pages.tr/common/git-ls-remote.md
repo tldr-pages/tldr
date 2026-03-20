@@ -14,7 +14,7 @@
 
 - Varsayılan çevrimiçi depodaki yalnızca etiket referanslarını göster:
 
-`git ls-remote --tags`
+`git ls-remote {{[-t|--tags]}}`
 
 - Girilen isim veya URL'de bulunan çevrimiçi depodaki tüm referansları göster:
 

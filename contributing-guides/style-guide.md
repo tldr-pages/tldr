@@ -211,7 +211,7 @@ This can be resolved by inserting a comma before the "and" or "or" in the final 
 
 ### Special cases
 
-If a command performs irreversible changes to a file system or devices,
+If a command performs irreversible changes to a filesystem or devices,
   write every example in a way that cannot be copy pasted thoughtlessly.
   For example, instead of `ddrescue --force --no-scrape /dev/sda /dev/sdb`
   write `ddrescue --force --no-scrape {{/dev/sdX}} {{/dev/sdY}}`
