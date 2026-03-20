@@ -8,9 +8,21 @@
 
 `pw-cat {{[-p|--playback]}} {{path/to/file.wav}}`
 
+- Play a MIDI file:
+
+`pw-cat {{[-p|--playback]}} {{[-m|--midi]}} {{path/to/file.mid}}`
+
+- Play a DSD file:
+
+`pw-cat {{[-p|--playback]}} {{[-d|--dsd]}} {{path/to/file.dsf}}`
+
 - Play a WAV file with a specified resampler quality (4 by default):
 
-`pw-cat {{[-q|--quality]}} {{0..15}} {{[-p|--playback]}} {{path/to/file.wav}}`
+`pw-cat {{[-p|--playback]}} {{[-q|--quality]}} {{0..15}} {{path/to/file.wav}}`
+
+- Record a MIDI file:
+
+`pw-cat {{[-r|--record]}} {{[-m|--midi]}} {{path/to/file.mid}}`
 
 - Record a sample recording at a volume level of 125%:
 
