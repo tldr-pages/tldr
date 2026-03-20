@@ -13,7 +13,7 @@
 
 - Verbose mode with systemd-boot configuration:
 
-`sudo kernelstub -v -l`
+`sudo kernelstub {{[-v|--verbose]}} {{[-l|--loader]}}`
 
 - Copy kernel only to ESP without NVRAM changes:
 
