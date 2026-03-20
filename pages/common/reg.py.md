@@ -6,7 +6,7 @@
 
 - Query subkeys and values under a registry path:
 
-`reg.py {{domain}}/{{username}}:{{password}}@{{target}} query -keyName {{HKLM\\SOFTWARE\\Microsoft\\Windows}}`
+`reg.py {{domain}}/{{username}}:{{password}}@{{target}} query -keyName '{{HKLM\SOFTWARE\Microsoft\Windows}}'`
 
 - Query all subkeys and values under a registry path recursively:
 
