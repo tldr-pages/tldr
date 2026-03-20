@@ -29,4 +29,4 @@
 
 - Show current configuration:
 
-`sudo kernelstub -p`
+`sudo kernelstub {{[-p|--print-config]}}`
