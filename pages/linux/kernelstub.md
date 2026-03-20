@@ -25,7 +25,7 @@
 
 - Specify paths manually:
 
-`sudo kernelstub -k "{{/boot/vmlinuz}}" -i "{{/boot/initrd.img}}" -e "{{/boot/efi}}"`
+`sudo kernelstub {{[-k|--kernel-path]}} "{{/boot/vmlinuz}}" {{[-i|--initrd-path]}} "{{/boot/initrd.img}}" {{[-e|--esp-path]}} "{{/boot/efi}}"`
 
 - Show current configuration:
 
