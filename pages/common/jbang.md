@@ -10,11 +10,11 @@
 
 - Initialize a Java class (useful for scripting):
 
-`jbang init --template={{cli}} {{path/to/file.java}}`
+`jbang init {{[-t|--template]}}={{cli}} {{path/to/file.java}}`
 
 - Use `jshell` to explore and use a script and any dependencies in a REPL editor:
 
-`jbang run --interactive`
+`jbang run {{[-i|--interactive]}}`
 
 - Setup a temporary project to edit a script in an IDE:
 

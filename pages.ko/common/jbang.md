@@ -10,11 +10,11 @@
 
 - Java 클래스 초기화 (스크립팅에 유용):
 
-`jbang init --template={{cli}} {{경로/대상/파일.java}}`
+`jbang init {{[-t|--template]}}={{cli}} {{경로/대상/파일.java}}`
 
 - `jshell`을 사용하여 REPL 편집기에서 스크립트 및 의존성을 탐색하고 사용:
 
-`jbang run --interactive`
+`jbang run {{[-i|--interactive]}}`
 
 - IDE에서 스크립트를 편집할 수 있도록 임시 프로젝트 설정:
 
