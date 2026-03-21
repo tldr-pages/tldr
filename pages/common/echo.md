@@ -24,17 +24,9 @@
 
 `echo -e "{{Column 1\tColumn 2}}"`
 
-- Print the exit status of the last executed command:
+- Print the exit status of the last executed command {For Windows Command Prompt: `echo %errorlevel%` and PowerShell: `$lastexitcode`} :
 
 `echo $?`
-
-- Print the exit status in Windows Command Prompt:
-
-`echo %errorlevel%`
-
-- Print the exit status in PowerShell:
-
-`$lastexitcode`
 
 - Pass text to another program through `stdin`:
 
