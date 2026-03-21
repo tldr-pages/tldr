@@ -35,3 +35,6 @@
 - Find the process that is listening on a local IPv6 TCP port and don't convert network or port numbers:
 
 `lsof -i6TCP:{{port}} -sTCP:LISTEN -n -P`
+- List all open files for a specific network protocol (Linux-specific):
+
+`lsof -i {{tcp|udp}}`
