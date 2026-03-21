@@ -33,14 +33,14 @@ The overall process should look somewhat like this:
 > [!WARNING]
 > Please avoid force-pushing since it makes the review process harder.
 
-7. Go to the GitHub page for your fork and click the green "Compare & pull request" button.
+8. Go to the GitHub page for your fork and click the green "Compare & pull request" button.
 
 Please only send related changes in the same pull request.
 Typically a pull request will include changes in a single file **unless the pull request introduces translations**.
 (Exceptions are [occasionally acceptable][mass-changes])
 
 [pr-howto]: ../CONTRIBUTING.md#submitting-a-pull-request
-[commit-msg]: ../CONTRIBUTING.md#commit-message
+[commit-msg]: ../CONTRIBUTING.md#commit-message-and-pr-title
 [mass-changes]: https://github.com/tldr-pages/tldr/pulls?&q=is:pr+is:merged+label:"mass+changes"
 
 ## Updating your fork
