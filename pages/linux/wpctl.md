@@ -35,4 +35,4 @@
 
 - Mute/Unmute the default audio sink or source (1 is mute, 0 is unmute):
 
-`wpctl set-mute @DEFAULT_AUDIO_{{SINK|SOURCE}}@ {{1|0|toggle}}`
+`wpctl set-mute @DEFAULT_{{SINK|SOURCE}}@ {{1|0|toggle}}`
