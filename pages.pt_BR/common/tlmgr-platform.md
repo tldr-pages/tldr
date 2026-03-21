@@ -5,20 +5,20 @@
 
 - Lista todas as plataformas disponíveis no repositório de pacotes:
 
-`tlmgr platform list`
+`tlmgr {{[arch|platform]}} list`
 
 - Adiciona os executáveis de uma plataforma específica:
 
-`sudo tlmgr platform add {{plataforma}}`
+`sudo tlmgr {{[arch|platform]}} add {{plataforma}}`
 
 - Remove os executáveis de uma plataforma específica:
 
-`sudo tlmgr platform remove {{plataforma}}`
+`sudo tlmgr {{[arch|platform]}} remove {{plataforma}}`
 
 - Detecta automaticamente e troca para a plataforma atual:
 
-`sudo tlmgr platform set auto`
+`sudo tlmgr {{[arch|platform]}} set auto`
 
 - Troca para uma plataforma específica:
 
-`sudo tlmgr platform set {{plataforma}}`
+`sudo tlmgr {{[arch|platform]}} set {{plataforma}}`
