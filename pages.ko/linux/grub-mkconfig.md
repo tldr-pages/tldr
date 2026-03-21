@@ -9,8 +9,8 @@
 
 - 구성 파일 생성:
 
-`sudo grub-mkconfig --output={{/boot/grub/grub.cfg}}`
+`sudo grub-mkconfig {{[-o|--output]}} {{/boot/grub/grub.cfg}}`
 
 - 도움말 표시:
 
-`grub-mkconfig --help`
+`grub-mkconfig {{[-h|--help]}}`

@@ -10,11 +10,11 @@
 
 - 初始化一个 Java 类（用于脚本编写）：
 
-`jbang init --template={{cli}} {{路径/到/文件.java}}`
+`jbang init {{[-t|--template]}}={{cli}} {{路径/到/文件.java}}`
 
 - 使用 `jshell` 在 REPL 编辑器中探索和使用脚本及其任何依赖项：
 
-`jbang run --interactive`
+`jbang run {{[-i|--interactive]}}`
 
 - 设置一个临时项目以在 IDE 中编辑脚本：
 
