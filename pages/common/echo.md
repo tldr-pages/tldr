@@ -28,9 +28,10 @@
 
 `echo $?`
 
-On Windows:
-- Command Prompt: `echo %errorlevel%`
-- PowerShell: `$latestexitcode`
+On Windows(exit status):
+
+  - Command Prompt: `echo %errorlevel%`
+  - PowerShell: `$latestexitcode`
 
 - Pass text to another program through `stdin`:
 
