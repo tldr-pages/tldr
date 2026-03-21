@@ -28,10 +28,13 @@
 
 `echo $?`
 
-On Windows(exit status):
+- Print the exit status in Windows Command Prompt:
 
-  - Command Prompt: `echo %errorlevel%`
-  - PowerShell: `$latestexitcode`
+`echo %errorlevel%`
+
+- Print the exit status in PowerShell:
+
+`$lastexitcode`
 
 - Pass text to another program through `stdin`:
 
