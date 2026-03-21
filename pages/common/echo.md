@@ -28,6 +28,10 @@
 
 `echo $?`
 
+On Windows:
+- Command Prompt: `echo %errorlevel%`
+- PowerShell: `$lastexitcode`
+
 - Pass text to another program through `stdin`:
 
 `echo "{{Hello World}}" | {{program}}`
