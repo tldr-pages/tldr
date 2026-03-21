@@ -30,7 +30,7 @@
 
 On Windows:
 - Command Prompt: `echo %errorlevel%`
-- PowerShell: `$lastexitcode`
+- PowerShell: `$latestexitcode`
 
 - Pass text to another program through `stdin`:
 
