@@ -5,7 +5,7 @@
 
 - Tampilkan daftar actions (tugas dalam GitHub Actions) yang tersedia:
 
-`act -l`
+`act {{[-l|--list]}}`
 
 - Jalankan tugas dengan event default:
 
@@ -17,16 +17,16 @@
 
 - Jalankan tugas/[j]ob tertentu:
 
-`act -j {{job_id}}`
+`act {{[-j|--job]}} {{job_id}}`
 
 - Tampilkan tugas-tugas yang akan dijalankan ta[n]pa mengeksekusikannya (dry-run):
 
-`act -n`
+`act {{[-n|--dryrun]}}`
 
 - Tampilkan log tingkat [v]erbose:
 
-`act -v`
+`act {{[-v|--verbose]}}`
 
 - Jalankan [W]orkflow tertentu:
 
-`act push -W {{jalan/menuju/workflow}}`
+`act push {{[-W|--workflows]}} {{jalan/menuju/workflow}}`

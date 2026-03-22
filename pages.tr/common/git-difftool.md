@@ -18,4 +18,4 @@
 
 - Verilen commit'den itibaren yapılmış değişiklikleri göstermek için (opendiff) kullan:
 
-`git difftool --tool={{opendiff}} {{commit}}`
+`git difftool {{[-t|--tool]}} {{opendiff}} {{commit}}`

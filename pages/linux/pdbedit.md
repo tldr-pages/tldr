@@ -4,18 +4,22 @@
 > For simple user add/remove/password, you can also use `smbpasswd`.
 > More information: <https://manned.org/pdbedit>.
 
-- List all Samba users (use verbose flag to show their settings):
+- List all Samba users:
 
-`sudo pdbedit --list --verbose`
+`sudo pdbedit {{[-L|--list]}}`
+
+- List all Samba users and their settings:
+
+`sudo pdbedit {{[-L|--list]}} {{[-v|--verbose]}}`
 
 - Add an existing Unix user to Samba (will prompt for password):
 
-`sudo pdbedit --user {{username}} --create`
+`sudo pdbedit {{[-u|--user]}} {{username}} {{[-a|--create]}}`
 
 - Remove a Samba user:
 
-`sudo pdbedit --user {{username}} --delete`
+`sudo pdbedit {{[-u|--user]}} {{username}} {{[-x|--delete]}}`
 
 - Reset a Samba user's failed password counter:
 
-`sudo pdbedit --user {{username}} --bad-password-count-reset`
+`sudo pdbedit {{[-u|--user]}} {{username}} {{[-z|--bad-password-count-reset]}}`

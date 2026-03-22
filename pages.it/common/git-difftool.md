@@ -18,4 +18,4 @@
 
 - Uso uno specifico strumento Diff (opendiff) per mostrare le modifiche a partire da un dato commit:
 
-`git difftool --tool={{opendiff}} {{commit}}`
+`git difftool {{[-t|--tool]}} {{opendiff}} {{commit}}`

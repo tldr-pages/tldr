@@ -18,4 +18,4 @@
 
 - 특정 도구(opendiff)를 사용하여 주어진 커밋 이후의 변경 사항 표시:
 
-`git difftool --tool={{opendiff}} {{커밋}}`
+`git difftool {{[-t|--tool]}} {{opendiff}} {{커밋}}`

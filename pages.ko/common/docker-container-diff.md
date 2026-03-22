@@ -5,8 +5,8 @@
 
 - 컨테이너가 생성된 이후의 변경 사항 검사:
 
-`docker diff {{컨테이너}}`
+`docker {{[diff|container diff]}} {{컨테이너}}`
 
 - 도움말 표시:
 
-`docker diff --help`
+`docker {{[diff|container diff]}} --help`
