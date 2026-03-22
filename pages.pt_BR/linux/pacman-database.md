@@ -7,24 +7,24 @@
 
 - Marca um pacote como instalado implicitamente:
 
-`sudo pacman --database --asdeps {{pacote}}`
+`sudo pacman -D --asdeps {{pacote}}`
 
 - Marca um pacote como instalado explicitamente:
 
-`sudo pacman --database --asexplicit {{pacote}}`
+`sudo pacman -D --asexplicit {{pacote}}`
 
 - Verifica se todas as dependências de pacotes estão instaladas:
 
-`pacman --database --check`
+`pacman -Dk`
 
 - Verifica os repositórios para garantir que todas as dependências especificadas estejam disponíveis:
 
-`pacman --database --check --check`
+`pacman -Dkk`
 
 - Exibe apenas mensagens de erro:
 
-`pacman --database --check --quiet`
+`pacman -Dkq`
 
 - Exibe ajuda:
 
-`pacman --database --help`
+`pacman -Dh`
