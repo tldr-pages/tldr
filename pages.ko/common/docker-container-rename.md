@@ -5,8 +5,8 @@
 
 - 컨테이너 이름 변경:
 
-`docker rename {{컨테이너}} {{새_이름}}`
+`docker {{[rename|container rename]}} {{컨테이너}} {{새_이름}}`
 
 - 도움말 표시:
 
-`docker rename --help`
+`docker {{[rename|container rename]}} --help`
