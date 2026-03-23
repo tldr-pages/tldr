@@ -21,4 +21,4 @@
 
 - Always start `kmscon` in a specific terminal:
 
-`systemctl enable --now kmsconvt@ttyX`
+`systemctl enable --now kmsconvt@{{ttyX}}`
