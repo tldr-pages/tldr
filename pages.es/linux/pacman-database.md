@@ -25,6 +25,6 @@
 
 `pacman -Dkq`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `pacman -Dh`
