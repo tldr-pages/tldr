@@ -6,24 +6,24 @@
 
 - Aktualisiere die Paketdatenbank:
 
-`sudo pacman --files --refresh`
+`sudo pacman -Fy`
 
 - Finde das Paket, welches eine bestimmte Datei besitzt:
 
-`pacman --files {{dateiname}}`
+`pacman -F {{dateiname}}`
 
 - Finde das Paket, welches eine bestimmte Datei besitzt, mittels eines regulären Ausdrucks:
 
-`pacman --files --regex '{{suchmuster}}'`
+`pacman -Fx '{{suchmuster}}'`
 
 - Liste nur Paketnamen auf:
 
-`pacman --files --quiet {{dateiname}}`
+`pacman -Fq {{dateiname}}`
 
 - Liste die Dateien auf welche einem bestimmten Paket gehören:
 
-`pacman --files --list {{paketname}}`
+`pacman -Fl {{paketname}}`
 
 - Zeige Hilfe an:
 
-`pacman --files --help`
+`pacman -Fh`
