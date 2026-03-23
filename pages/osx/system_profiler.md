@@ -21,4 +21,4 @@
 
 - Display the negotiated max wattage of the connected charger and cable:
 
-`system_profiler SPPowerDataType | grep Wattage | sed 's/^ *//'`
+`system_profiler SPPowerDataType | awk '/Wattage/ {print $3}'`
