@@ -63,7 +63,7 @@ SunOS, Android, Windows, Cisco IOS, and DOS command-line tools.
 > For browsing without installing a client on your computer,
 > see the web client at <https://tldr.inbrowser.app> (with offline support using PWA).
 
-There are several official clients avaiable.
+There are several official clients available.
 
 ### Python client
 

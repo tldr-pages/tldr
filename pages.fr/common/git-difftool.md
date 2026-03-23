@@ -18,4 +18,4 @@
 
 - Utiliser un outil de comparaison spécifique (opendiff) pour afficher les changements depuis un commit :
 
-`git difftool --tool={{opendiff}} {{commit}}`
+`git difftool {{[-t|--tool]}} {{opendiff}} {{commit}}`

@@ -5,8 +5,8 @@
 
 - Inspecte les changements apportés à un conteneur depuis sa création :
 
-`docker diff {{conteneur}}`
+`docker {{[diff|container diff]}} {{conteneur}}`
 
 - Affiche l'aide :
 
-`docker diff --help`
+`docker {{[diff|container diff]}} --help`
