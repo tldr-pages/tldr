@@ -15,6 +15,10 @@
 
 `git merge --no-ff {{branch_name}}`
 
+- Copy the state of a branch into the working tree and stage it (Note: Use `git commit` to create the actual commit):
+
+`git merge --squash {{branch_name}}`
+
 - Abort a merge in case of conflicts:
 
 `git merge --abort`
