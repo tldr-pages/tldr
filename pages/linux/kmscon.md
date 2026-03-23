@@ -18,3 +18,7 @@
 - Specify the command to use for login:
 
 `sudo kmscon {{[-l|--login]}} {{command}}`
+
+- Always start `kmscon` in a specific terminal
+
+`systemctl enable --now kmsconvt@ttyX`
