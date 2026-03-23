@@ -35,10 +35,10 @@ jobs:
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0 # v8.1.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT }}
         with:
           commit-message: "pages.*/: synchronize pages"
-          author: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
-          committer: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
           title: "pages.*/: synchronize pages"
           body: "Automated monthly synchronization of translated pages with existing English tldr pages."
           branch: "monthly-sync"
