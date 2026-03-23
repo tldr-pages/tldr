@@ -17,8 +17,8 @@
 
 - Abre el repositorio Git en la ruta mencionada:
 
-`git cola --repo {{ruta/al/repositorio-git}}`
+`git cola {{[-r|--repo]}} {{ruta/al/repositorio-git}}`
 
 - Aplica el filtro de ruta al componente gráfico de estado:
 
-`git cola --status-filter {{filtro}}`
+`git cola {{[-s|--status-filter]}} {{filtro}}`
