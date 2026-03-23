@@ -1,7 +1,7 @@
 # zizmor
 
 > Find security issues in GitHub Actions workflows and action definitions.
-> More information: <https://woodruffw.github.io/zizmor/>.
+> More information: <https://docs.zizmor.sh/quickstart/>.
 
 - Audit all workflows and actions in the current directory:
 
@@ -17,7 +17,7 @@
 
 - Run only offline audits (no network requests):
 
-`zizmor --offline {{path/to/workflow.yml}}`
+`zizmor {{[-o|--offline]}} {{path/to/workflow.yml}}`
 
 - Output results in SARIF format:
 
@@ -29,8 +29,8 @@
 
 - Display help:
 
-`zizmor --help`
+`zizmor {{[-h|--help]}}`
 
 - Display version:
 
-`zizmor --version`
+`zizmor {{[-v|--version]}}`
