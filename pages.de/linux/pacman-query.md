@@ -6,32 +6,32 @@
 
 - Liste alle installierten Pakete und dessen Versionen auf:
 
-`pacman --query`
+`pacman -Q`
 
 - Liste alle ausdrücklich installierten Pakete und dessen Versionen auf:
 
-`pacman --query --explicit`
+`pacman -Qe`
 
 - Finde heraus welches Paket eine Datei besitzt:
 
-`pacman --query --owns {{dateiname}}`
+`pacman -Qo {{dateiname}}`
 
 - Zeige Informationen über ein installiertes Paket an:
 
-`pacman --query --info {{paketname}}`
+`pacman -Qi {{paketname}}`
 
 - Liste alle Dateien auf welche einem Paket gehören:
 
-`pacman --query --list {{paketname}}`
+`pacman -Ql {{paketname}}`
 
 - Liste verwaiste Pakete auf (Pakete welche als Abhängigkeit installiert wurden, aber von keinem Paket benötigt werden):
 
-`pacman --query --unrequired --deps --quiet`
+`pacman -Qdtq`
 
 - Liste installierte Pakete auf welche nicht in den Repositorien gefunden werden können:
 
-`pacman --query --foreign`
+`pacman -Qm`
 
 - Liste veraltete Pakete auf:
 
-`pacman --query --upgrades`
+`pacman -Qu`
