@@ -17,7 +17,7 @@
 
 - Generate random passwords with symbols:
 
-`pwgen {{[-y|--symbols]}} {{length}} {{count}}`
+`pwgen {{[-y|--symbols]}}`
 
 - Generate secure, hard-to-memorize passwords:
 
