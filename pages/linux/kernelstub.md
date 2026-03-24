@@ -1,7 +1,7 @@
 # kernelstub
 
 > Automatically manages Linux kernel loading on (U)EFI.
-> More information: <https://github.com/isantop/kernelstub>.
+> More information: <https://github.com/isantop/kernelstub#usage>.
 
 - Configure current kernel with default options:
 
