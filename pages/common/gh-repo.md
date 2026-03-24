@@ -31,6 +31,6 @@
 
 `gh repo {{[ls|list]}} {{owner}} {{[-l|--language]}} {{language_name}}`
 
-- Sync a repository with its upstream:
+- Sync the current local repository with its upstream:
 
-`gh repo sync {{owner}}/{{repository}}`
+`gh repo sync`
