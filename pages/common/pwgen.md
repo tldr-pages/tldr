@@ -15,7 +15,7 @@
 
 `pwgen 20 10`
 
-- Generate random password with symbols:
+- Generate random passwords with symbols:
 
 `pwgen {{[-y|--symbols]}} {{length}} {{count}}`
 
