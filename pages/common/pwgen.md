@@ -21,7 +21,7 @@
 
 - Generate secure, hard-to-memorize passwords:
 
-`pwgen {{[-s|--secure]}} {{length}} {{count}}`
+`pwgen {{[-s|--secure]}}`
 
 - Generate password with at least one capital letter in them, specify their length, and how many to generate:
 
