@@ -3,13 +3,13 @@
 > OpenSSL command to generate a random string.
 > More information: <https://docs.openssl.org/master/man1/openssl-rand/>.
 
-- Generate hex string:
+- Generate a hex string with character length of 8:
 
-`openssl rand -hex {{length}}`
+`openssl rand -hex 8`
 
-- Generate base64 string:
+- Generate a base64 string with character length of 20:
 
-`openssl rand -base64 {{length}}`
+`openssl rand -base64 20`
 
 - Save output to a file:
 
