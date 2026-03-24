@@ -3,8 +3,6 @@
 > Generate pronounceable passwords.
 > More information: <https://manned.org/pwgen>.
 
-> More information: <https://manned.org/pwgen>.
-
 - Generate 160 random passwords with character length of 8:
 
 `pwgen`
