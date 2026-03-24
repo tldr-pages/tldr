@@ -17,7 +17,7 @@
 
 - Jalankan ujian dari suatu berkas:
 
-`atoum {{[-f|--file]}} {{jalan/menuju/berkas}}`
+`atoum {{[-f|--files]}} {{jalan/menuju/berkas}}`
 
 - Jalankan ujian dari suatu kumpulan direktori:
 
