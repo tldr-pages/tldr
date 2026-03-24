@@ -5,12 +5,12 @@
 
 - Generate hex string:
 
-`openssl rand -hex 8`
+`openssl rand -hex length`
 
 - Generate base64 string:
 
-`openssl rand -base64 8`
+`openssl rand -base64 length`
 
 - Save output to a file:
 
-`openssl rand -hex -out demo.txt 8`
+`openssl rand -hex -out path/to/output length`
