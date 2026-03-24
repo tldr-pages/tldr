@@ -3,7 +3,7 @@
 > Automatically manage Linux kernel loading on (U)EFI.
 > More information: <https://github.com/isantop/kernelstub#usage>.
 
-- Configure current kernel with default options:
+- Configure the current kernel with default options:
 
 `sudo kernelstub`
 
