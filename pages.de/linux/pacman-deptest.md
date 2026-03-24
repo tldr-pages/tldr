@@ -6,16 +6,16 @@
 
 - Zeige Paketnamen von Abhängigkeiten an, welche nicht installiert sind:
 
-`pacman --deptest {{paket1 paket2 ...}}`
+`pacman -T {{paket1 paket2 ...}}`
 
 - Überprüfe ob ein installiertes Paket eine Minimalversion erfüllt:
 
-`pacman --deptest "{{bash>=5}}"`
+`pacman -T "{{bash>=5}}"`
 
 - Überprüfe ob eine neuere version eines Paketes installiert ist:
 
-`pacman --deptest "{{bash>5}}"`
+`pacman -T "{{bash>5}}"`
 
 - Zeige Hilfe an:
 
-`pacman --deptest --help`
+`pacman -Th`
