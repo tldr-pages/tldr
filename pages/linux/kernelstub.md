@@ -11,7 +11,7 @@
 
 `sudo kernelstub {{[-o|--options]}} "{{quiet splash mitigations=off}}"`
 
-- Verbose mode with systemd-boot configuration:
+- Run in verbose mode with `systemd-boot` configuration:
 
 `sudo kernelstub {{[-v|--verbose]}} {{[-l|--loader]}}`
 
