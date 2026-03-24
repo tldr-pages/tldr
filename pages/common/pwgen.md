@@ -23,6 +23,6 @@
 
 `pwgen {{[-s|--secure]}} {{length}} {{count}}`
 
-- Generate password with at least one capital letter in them:
+- Generate password with at least one capital letter in them, specify their length, and how many to gemerate:
 
 `pwgen {{[-c|--capitalize]}} {{length}} {{count}}`
