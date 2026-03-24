@@ -26,3 +26,7 @@
 - Setel versi bawaan/default paket piranti lunak yang akan digunakan secara lokal (pengguna saat ini):
 
 `asdf set {{nama}} {{versi}}`
+
+- Lihat versi yang saat ini dipakai untuk suatu paket:
+
+`asdf current {{name}}`
