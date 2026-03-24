@@ -19,7 +19,7 @@
 
 `sudo kernelstub {{[-m|--manage-only]}}`
 
-- Simulation mode without changes (dry-run):
+- Run a simulation without making any changes (dry-run):
 
 `sudo kernelstub {{[-c|--dry-run]}}`
 
