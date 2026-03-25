@@ -1,6 +1,6 @@
 # bun add
 
-> Add and install a new dependency to the current project.
+> Add and install new dependencies to the current project.
 > Note: `a` can be used as an alias for `add`.
 > More information: <https://bun.com/docs>.
 
