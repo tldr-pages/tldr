@@ -25,7 +25,7 @@
 
 - Jalankan seluruh ujian dengan namespace spesifik:
 
-`atoum {{[-ns|--namespace]}} {{namespace}}`
+`atoum {{[-ns|--namespaces]}} {{namespace}}`
 
 - Jalankan seluruh ujian dengan tag spesifik:
 
