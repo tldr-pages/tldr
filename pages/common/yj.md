@@ -5,7 +5,7 @@
 
 - Convert YAML to JSON (default) from `stdin` and write the result to `stdout`:
 
-`yj -y < {{file.yml}}`
+`yj  < {{file.yml}} -y`
 
 - Convert TOML to YAML:
 
