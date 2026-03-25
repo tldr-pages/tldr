@@ -20,13 +20,9 @@
 
 `uv remove {{package}}`
 
-- Run a script in the project's environment:
+- Run a script or a command in the project's environment:
 
-`uv run {{path/to/script.py}}`
-
-- Run a command in the project's environment:
-
-`uv run {{command}}`
+`uv run {{path/to/script.py|command}}`
 
 - Update a project's environment from `pyproject.toml`:
 
