@@ -10,12 +10,12 @@
 
 - 원격 인스턴스 모니터링:
 
-`pw-top --remote {{원격_이름}}`
+`pw-top {{[-r|--remote]}} {{원격_이름}}`
 
 - 대화형 모드 대신 주기적으로 정보 출력:
 
-`pw-top --batch-mode`
+`pw-top {{[-b|--batch-mode]}}`
 
 - 특정 횟수만큼 주기적으로 정보 출력:
 
-`pw-top --batch-mode --iterations {{3}}`
+`pw-top {{[-b|--batch-mode]}} {{[-n|--iterations]}} {{3}}`
