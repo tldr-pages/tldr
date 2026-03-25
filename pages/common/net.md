@@ -13,7 +13,7 @@
 
 - Mount/connect to remote SMB/CIFS share (Windows-style):
 
-`net use {{\\\\server\\share}} {{[password]}}`
+`net use \\{{server\share}} {{password}}`
 
 - List all domain users (or info for specific user):
 
