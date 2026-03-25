@@ -5,7 +5,7 @@
 
 - Display general help or help for specific command:
 
-`net {{help}} {{[command]}}`
+`net {{help}} {{command}}`
 
 - List all available shares on local/remote Samba server:
 
