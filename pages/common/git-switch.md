@@ -28,6 +28,6 @@
 
 `git switch {{[-m|--merge]}} {{branch_name}}`
 
-- Switch to a tag:
+- Switch to a tag or commit:
 
-`git switch {{[-d|--detach]}} {{tag}}`
+`git switch {{[-d|--detach]}} {{tag|commit}}`
