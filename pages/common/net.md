@@ -17,11 +17,11 @@
 
 - List all domain users (or info for specific user):
 
-`net {{user}} {{list}} {{[username]}}`
+`net {{user}} {{list}} {{username}}`
 
 - List all domain groups (or members of specific group):
 
-`net {{group}} {{list}} {{[groupname]}}`
+`net {{group}} {{list}} {{groupname}}`
 
 - Join current machine to Active Directory domain:
 
