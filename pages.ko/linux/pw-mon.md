@@ -9,12 +9,12 @@
 
 - 특정 원격 인스턴스 모니터링:
 
-`pw-mon --remote={{원격_이름}}`
+`pw-mon {{[-r|--remote]}} {{원격_이름}}`
 
 - 색상 설정을 지정하여 기본 인스턴스 모니터링:
 
-`pw-mon --color={{never|always|auto}}`
+`pw-mon {{[-N|--color]}} {{never|always|auto}}`
 
 - 도움말 표시:
 
-`pw-mon --help`
+`pw-mon {{[-h|--help]}}`
