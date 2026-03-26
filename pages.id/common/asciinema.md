@@ -10,7 +10,7 @@
 
 - Buat rekaman baru (hentikan dengan `<Ctrl d>` atau ketik `exit`, kemudian pilih lokasi penyimpanan baik dengan mengunggah atau menyimpannya secara lokal):
 
-`asciinema {[r|record]}} {{jalan/menuju/rekaman.cast}}`
+`asciinema {{[r|record]}} {{jalan/menuju/rekaman.cast}}`
 
 - Putar ulang rekaman sesi terminal dari suatu berkas lokal:
 
