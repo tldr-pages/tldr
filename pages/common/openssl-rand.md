@@ -1,16 +1,20 @@
 # openssl rand
 
-> OpenSSL command to generate a random string.
+> Generate random bytes using a cryptographically secure PRNG.
 > More information: <https://docs.openssl.org/master/man1/openssl-rand/>.
 
-- Generate a hex string with character length of 8:
+- Generate an 8-byte (16 characters) hex string and write it to `stdout`:
 
 `openssl rand -hex 8`
 
-- Generate a base64 string with character length of 20:
+- Generate 20 random bytes encoded in base64:
 
 `openssl rand -base64 20`
 
-- Save output to a file:
+- Generate random bytes and write them to a file (without encoding):
 
-`openssl rand -hex -out {{path/to/output}} {{length}}`
+`openssl rand -out {{path/to/file}} {{length}}`
+
+- Generate 1 KiB/MiB/GiB/TiB random bytes encoded in hex/base64:
+
+`openssl rand -{{hex|base64}} 1{{K|M|G|T}}`
