@@ -13,11 +13,11 @@
 
 `nice nice`
 
-- Jalankan suatu program dengan prioritas rendah
+- Jalankan suatu program dengan prioritas rendah:
 
 `nice -{{nilai_niceness}} {{perintah}}`
 
-- Jalankan suatu program dengan prioritas tinggi
+- Jalankan suatu program dengan prioritas tinggi:
 
 `nice --{{nilai_niceness}} {{perintah}}`
 
