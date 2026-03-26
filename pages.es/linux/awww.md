@@ -1,25 +1,24 @@
-# swww
+# awww
 
 > Servicio (daemon) eficiente de fondos de pantalla animados para Wayland.
-> Vea también: `swww-daemon`.
-> Más información: <https://github.com/LGFae/swww#usage>.
+> Más información: <https://codeberg.org/LGFae/awww>.
 
 - Establece fondo de pantalla:
 
-`swww img {{ruta/a/imagen}}`
+`awww img {{ruta/a/imagen}}`
 
 - Establece el fondo de pantalla en las salidas especificadas:
 
-`swww img -o {{salida1,salida2,...}} {{ruta/a/imagen}}`
+`awww img -o {{salida1,salida2,...}} {{ruta/a/imagen}}`
 
 - Restaura el último fondo de pantalla:
 
-`swww restore`
+`awww restore`
 
 - Apaga daemon:
 
-`swww kill`
+`awww kill`
 
 - Muestra información de salida:
 
-`swww query`
+`awww query`
