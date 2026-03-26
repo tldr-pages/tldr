@@ -11,11 +11,11 @@
 
 `meson init {{[-l|--language]}} c {{[-n|--name]}} {{myproject}} --version {{0.1}}`
 
-- Configure the `builddir` with default values:
+- Configure a directory named `build` with default values:
 
-`meson setup {{build_directory}}`
+`meson {{[build|setup build]}}`
 
-- Build the project:
+- Compile the project:
 
 `meson compile -C {{path/to/build_directory}}`
 
