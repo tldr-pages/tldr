@@ -4,13 +4,13 @@
 > See also: `gst-inspect-1.0`, `ffmpeg`.
 > More information: <https://gstreamer.freedesktop.org/documentation/tools/gst-launch.html>.
 
-- Play test video in a window:
+- Play test video or audio:
 
 `gst-launch-1.0 videotestsrc ! autovideosink`
 
-- Play test audio:
+- Play test audio and enable verbose output:
 
-`gst-launch-1.0 audiotestsrc ! autoaudiosink`
+`gst-launch-1.0 audiotestsrc {{[-v|--verbose]}} ! autoaudiosink`
 
 - Play a media file in a window:
 
