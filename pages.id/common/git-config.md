@@ -4,25 +4,25 @@
 > Konfigurasi ini dapat diatur hanya untuk repositori saat ini (lokal/local) atau untuk pengguna sistem operasi saat ini (global).
 > Informasi lebih lanjut: <https://git-scm.com/docs/git-config>.
 
-- Tampilkan hanya daftar pengaturan Git untuk repositori saat ini (sebagaimana tersimpan dalam `.git/config` dalam pangkal direktori repositori):
+- Tentukan nama atau alamat surel Anda secara global (informasi ini diperlukan untuk melakukan proses komit, dan akan dicantumkan dalam seluruh komit Anda):
 
-`git config {{[-l|--list]}} --local`
+`git config --global {{user.name|user.email}} "{{Nama Anda|surel@example.com}}"`
 
-- Tampilkan hanya daftar pengaturan Git untuk pengguna saat ini (sebagaimana tersimpan dalam `~/.gitconfig` sebagai default, atau bila ada, `$XDG_CONFIG_HOME/git/config`):
+- Tampilkan daftar pengaturan Git untuk lingkungan lokal, global, atau sistem operasi, dan tampilkan lokasi berkas tersebut:
 
-`git config {{[-l|--list]}} --global`
+`git config {{[-l|--list]}} --{{local|global|system}} --show-origin`
 
-- Tampilkan hanya daftar pengaturan Git untuk keseluruhan sistem operasi (sebagaimana tersimpan dalam `/etc/gitconfig`), dan tampilkan lokasi berkas tersebut:
+- Tentukan nilai global atas suatu entri konfigurasi (dalam hal ini merupakan alias):
 
-`git config {{[-l|--list]}} --system --show-origin`
+`git config --global {{alias.unstage}} "reset HEAD --"`
 
-- Tampilkan nilai atas entri konfigurasi saat ini (contoh: `alias.unstage`):
+- Dapatkan nilai atas entri konfigurasi saat ini:
 
-`git config alias.unstage`
+`git config {{alias.unstage}}`
 
-- Simpan baru atau ubah nilai entri konfigurasi tertentu secara global (untuk pengguna saat ini):
+- Gunakan suatu perintah alias:
 
-`git config --global alias.unstage "reset HEAD --"`
+`git {{unstage}}`
 
 - Hapus atau kembalikan nilai dari entri konfigurasi tersebut menuju nilai default (bila ada):
 
@@ -32,6 +32,6 @@
 
 `git config {{[-e|--edit]}}`
 
-- Sunting konfigurasi Git pada pengguna saat ini dengan aplikasi pengolah teks default:
+- Sunting konfigurasi Git pada pengguna saat ini (dalam berkas `~/.gitconfig` atau `$XDG_CONFIG_HOME/git/config` bila ada) dengan aplikasi pengolah teks default:
 
 `git config --global {{[-e|--edit]}}`
