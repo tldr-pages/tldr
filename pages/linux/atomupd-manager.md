@@ -1,7 +1,7 @@
 # atomupd-manager
 
 > Manage SteamOS updates.
-> More information: <https://gitlab.com/evlaV/atomupd-daemon>
+> More information: <https://gitlab.com/evlaV/atomupd-daemon>.
 
 - Check for available updates:
 
