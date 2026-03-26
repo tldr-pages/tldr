@@ -23,7 +23,7 @@
 
 `meson test`
 
-- Install the project to `/usr/local`
+- Install the project to `/usr/local`:
 
 `meson install -C {{build}}`
 
