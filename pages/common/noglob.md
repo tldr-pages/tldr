@@ -1,7 +1,7 @@
 # noglob
 
 > Execute a command in Zsh without globbing (expanding wildcard patterns).
-> More information: <https://manned.org/man/zshmisc>.
+> More information: <https://manned.org/zshmisc>.
 
 - Fetch an unquoted and unescaped URL:
 
