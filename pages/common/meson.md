@@ -11,7 +11,7 @@
 
 `meson init {{[-l|--language]}} c {{[-n|--name]}} {{myproject}} --version {{0.1}}`
 
-- Configure a directory named `build` with default values:
+- Configure a directory named `build` with default values for compilation:
 
 `meson {{[build|setup build]}}`
 
@@ -22,6 +22,10 @@
 - Run all tests in the project:
 
 `meson test`
+
+- Install the project to `/usr/local`
+
+`meson install -C {{build}}`
 
 - Display help:
 
