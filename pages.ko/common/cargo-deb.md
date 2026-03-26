@@ -11,8 +11,7 @@
 
 `cargo deb {{[-o|--output]}} {{경로/대상/파일_또는_디렉터리}}`
 
-- 지정한 Rust 타겟 트리플 문자열
-(-로 구별되는 machine-vendor-os 표현)로 컴파일:
+- 지정한 Rust 타겟 트리플 문자열(-로 구별되는 machine-vendor-os 표현)로 컴파일:
 
 `cargo deb --target {{x86_64-unknown-linux-gnu}}`
 
