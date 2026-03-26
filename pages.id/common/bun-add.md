@@ -1,6 +1,6 @@
 # bun add
 
-> Alat runtime, manajer paket, pengemas, dan penguji program JavaScript mutakhir.
+> Tambahkan dan pasang ketergantungan untuk proyek saat ini.
 > Catatan: `a` dapat dipakai sebagai alias bagi `add`.
 > Informasi lebih lanjut: <https://bun.com/docs>.
 
@@ -24,10 +24,10 @@
 
 `bun add file:{{jalan/menuju/berkas_atau_direktori}}`
 
-- Tambahkan paket sebagai ketergantungan untuk membangun program saja (dev dependency):
+- Tambahkan paket sebagai ketergantungan proses pengembangan (dev dependency):
 
 `bun add {{[-d|--dev]}} {{paket}}`
 
-- Tambahkan paket menuju lingkungan runtime global:
+- Tambahkan paket secara global:
 
 `bun add {{[-g|--global]}} {{paket}}`
