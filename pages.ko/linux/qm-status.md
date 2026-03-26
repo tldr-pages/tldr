@@ -5,8 +5,8 @@
 
 - 특정 가상 머신의 상태 표시:
 
-`qm status {{가상_머신_ID}}`
+`qm {{[stat|status]}} {{가상_머신_ID}}`
 
 - 특정 가상 머신의 상세 상태 표시:
 
-`qm status --verbose {{true}} {{vm_id}}`
+`qm {{[stat|status]}} --verbose {{true}} {{vm_id}}`

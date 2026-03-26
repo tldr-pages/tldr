@@ -5,4 +5,4 @@
 
 - 특정 가상 머신을 프록시:
 
-`qm vncproxy {{가상_머신_ID}}`
+`qm {{[v|vncproxy]}} {{가상_머신_ID}}`
