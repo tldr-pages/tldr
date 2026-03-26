@@ -21,11 +21,11 @@
 
 - Run all tests in the project:
 
-`meson test`
+`meson test -C {{path/to/build_directory}}`
 
 - Install the project to `/usr/local`:
 
-`meson install -C {{build}}`
+`meson install -C {{path/to/build_directory}}`
 
 - Display help:
 
