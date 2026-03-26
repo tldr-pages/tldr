@@ -4,7 +4,7 @@
 > See also: `gst-inspect-1.0`, `ffmpeg`.
 > More information: <https://gstreamer.freedesktop.org/documentation/tools/gst-launch.html>.
 
-- Play test videoin a window:
+- Play test video in a window:
 
 `gst-launch-1.0 videotestsrc ! autovideosink`
 
