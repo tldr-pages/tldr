@@ -1,7 +1,7 @@
 # apt-file
 
 > Cerca un file dentro un pacchetto APT, includendo quelli non ancora installati.
-> Maggiori informazioni: <https://manned.org/apt-file.1>.
+> Maggiori informazioni: <https://manned.org/apt-file>.
 
 - Aggiorna il database dei metadati:
 
