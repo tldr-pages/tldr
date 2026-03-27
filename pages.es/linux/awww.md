@@ -1,6 +1,6 @@
 # awww
 
-> Servicio (daemon) eficiente de fondos de pantalla animados para Wayland.
+> Programa residente (daemon) de fondos de pantalla animados para Wayland.
 > Más información: <https://codeberg.org/LGFae/awww>.
 
 - Establece fondo de pantalla:
@@ -15,7 +15,7 @@
 
 `awww restore`
 
-- Apaga daemon:
+- Apaga el programa residente:
 
 `awww kill`
 
