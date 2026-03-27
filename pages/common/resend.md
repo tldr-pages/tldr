@@ -1,7 +1,7 @@
 # resend
 
 > Email for developers - send and manage emails from the command-line.
-> More information: <https://resend.com/docs/cli>.
+> More information: <https://github.com/resend/resend-cli#commands>.
 
 - Log in to Resend (opens browser for authentication):
 
