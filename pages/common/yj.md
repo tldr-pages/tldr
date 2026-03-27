@@ -9,19 +9,19 @@
 
 - Convert TOML to YAML:
 
-`yj -ty < {{file.toml}}`
+`yj < {{file.toml}} -ty`
 
 - Convert JSON to TOML with indentation:
 
-`yj -jti < {{file.json}}`
+`yj < {{file.json}} -jti`
 
 - Convert HCL to JSON:
 
-`yj -cj < {{file.hcl}}`
+`yj < {{file.hcl}} -cj`
 
 - Convert YAML to HCL ignoring inf/NaN conversion:
 
-`yj -ycn < {{file.yml}}`
+`yj < {{file.yml}} -ycn`
 
 - Display version:
 
