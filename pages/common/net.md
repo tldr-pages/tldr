@@ -25,7 +25,7 @@
 
 - Join current machine to Active Directory domain:
 
-`net {{ads join}} {{[-U|--user]}} {{DOMAIN\\\\admin}}`
+`net {{ads join}} {{[-U|--user]}} {{DOMAIN\admin}}`
 
 - Show domain/workgroup membership and configuration:
 
