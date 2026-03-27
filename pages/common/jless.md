@@ -7,7 +7,7 @@
 
 `jless {{path/to/file.json}}`
 
-- View JSON from stdin:
+- View JSON from `stdin`:
 
 `{{cat path/to/file.json}} | jless`
 
