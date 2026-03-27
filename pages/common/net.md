@@ -9,7 +9,7 @@
 
 - List all available shares on local/remote Samba server:
 
-`net {{share}}`
+`net share`
 
 - Mount/connect to remote SMB/CIFS share (Windows-style):
 
