@@ -6,7 +6,7 @@
 
 - Baixa um determinado anime:
 
-`animdl download {{título_do_anime}}`
+`animdl download "{{título_do_anime}}"`
 
 - Baixa um determinado anime especificando um intervalo de episódios:
 
