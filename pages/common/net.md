@@ -7,7 +7,7 @@
 
 `net {{help}} {{command}}`
 
-- List all available shares on local/remote Samba server:
+- List all available shares on local Samba server:
 
 `net share`
 
