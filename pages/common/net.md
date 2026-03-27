@@ -29,8 +29,8 @@
 
 - Show domain/workgroup membership and configuration:
 
-`net {{ads info}}`
+`net ads info`
 
 - List active SMB sessions/connections to server:
 
-`net {{session}}`
+`net session`
