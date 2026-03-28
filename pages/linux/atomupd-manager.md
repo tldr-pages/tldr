@@ -9,7 +9,7 @@
 
 - Update to a specific image:
 
-`sudo atomupd-manager update {{version_id}}``
+`sudo atomupd-manager update {{version_id}}`
 
 - Print the current tracked update channel:
 
