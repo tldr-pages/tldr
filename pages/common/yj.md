@@ -5,7 +5,7 @@
 
 - Convert [y]AML to JSON (default) from `stdin` and write the result to `stdout`:
 
-`yj  < {{file.yml}} -y`
+`yj < {{file.yml}} -y`
 
 - Convert [t]OML to [y]AML:
 
