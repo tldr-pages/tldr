@@ -17,4 +17,4 @@
 
 - Putuskan hubungan dari jaringan airport saat ini:
 
-`sudo airport --dissociate`
+`sudo airport --disassociate`

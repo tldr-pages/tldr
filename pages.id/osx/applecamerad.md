@@ -1,4 +1,4 @@
-# airportd
+# applecamerad
 
 > Manajer perangkat kamera.
 > Jangan dipanggil secara manual.
