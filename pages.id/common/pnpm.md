@@ -30,7 +30,7 @@
 
 - Tampilkan daftar ketergantungan yang diinstal secara lokal:
 
-`pnpm list`
+`pnpm {{[ls|list]}}`
 
 - Tampilkan daftar modul tingkat atas yang diinstal secara [g]lobal:
 

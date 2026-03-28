@@ -26,7 +26,7 @@
 
 - Hapus atau kembalikan nilai dari entri konfigurasi tersebut menuju nilai default (bila ada):
 
-`git config --global --unset alias.unstage`
+`git config --global --unset {{alias.unstage}}`
 
 - Sunting konfigurasi Git pada repositori saat ini dengan aplikasi pengolah teks default:
 
