@@ -19,7 +19,7 @@
 
 - Jalankan suatu program dengan prioritas tinggi:
 
-`nice --{{nilai_niceness}} {{perintah}}`
+`sudo nice --{{nilai_niceness}} {{perintah}}`
 
 - Tentukan prioritas secara eksplisit:
 
