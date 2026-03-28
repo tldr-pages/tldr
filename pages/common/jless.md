@@ -1,7 +1,7 @@
 # jless
 
-> A command-line JSON viewer designed for reading, exploring, and searching through JSON data.
-> More information: <https://jless.io>.
+> An interactive JSON viewer.
+> More information: <https://jless.io/user-guide>.
 
 - View a JSON file:
 
@@ -17,8 +17,4 @@
 
 - View JSON in line mode (newline-delimited data):
 
-`jless --line-mode {{path/to/file.jsonl}}`
-
-- View JSON with initial search query:
-
-`jless --search {{query}} {{path/to/file.json}}`
+`jless {{path/to/file.jsonl}} {{[-m|--mode]}} line`
