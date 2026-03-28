@@ -1,7 +1,7 @@
 # systemctl list-dependencies
 
 > systemd에서 유닛의 의존성 트리를 표시.
-> 관련 항목: `systemctl list-유닛s`.
+> 관련 항목: `systemctl list-units`.
 > 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#list-dependencies%20UNIT%E2%80%A6>.
 
 - `default.target`의 의존성 트리 출력:
