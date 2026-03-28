@@ -1,7 +1,7 @@
 # gst-launch-1.0 videotestsrc
 
 > Produce test video data.
-> More information: <https://gstreamer.freedesktop.org/documentation/audiotestsrc/index.html>.
+> More information: <https://gstreamer.freedesktop.org/documentation/videotestsrc/index.html>.
 
 - Produce a video with SMPTE color bars:
 
