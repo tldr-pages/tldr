@@ -21,7 +21,7 @@
 
 - Render using a specific resolution and frame rate:
 
-`manim {{[-r|--resolution]}} {{1920,1080}} {{[--fps]}} {{60}} {{path/to/file.py}} {{SceneName}}`
+`manim {{[-r|--resolution]}} {{1920,1080}} --fps {{60}} {{path/to/file.py}} {{SceneName}}`
 
 - List available scenes in a file without rendering:
 
