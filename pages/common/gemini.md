@@ -11,9 +11,9 @@
 
 `{{echo "Summarize the history of Rome"}} | gemini {{[-p|--prompt]}}`
 
-- Override the default model (default: gemini-2.5-pro):
+- Override the default model (default: auto-gemini-3):
 
-`gemini {{[-m|--model]}} {{gemini-2.5-flash}}`
+`gemini {{[-m|--model]}} {{gemini-3-flash-preview}}`
 
 - Run inside a sandbox container:
 
@@ -23,10 +23,6 @@
 
 `gemini {{[-i|--prompt-interactive]}} "{{Give me an example of recursion in Python}}"`
 
-- Include all files in context:
+- Set the approval mode for tool calls:
 
-`gemini {{[-a|--all-files]}}`
-
-- Show memory usage in status bar:
-
-`gemini --show-memory-usage`
+`gemini {{--approval-mode}} {{[default|auto_edit|yolo|plan]}}`
