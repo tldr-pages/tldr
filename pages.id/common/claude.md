@@ -15,7 +15,7 @@
 
 `claude mcp list`
 
-- Buat commit dengan perintah:
+- Buat komit dengan perintah:
 
 `claude commit`
 
