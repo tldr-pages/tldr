@@ -25,4 +25,4 @@
 
 - Set the approval mode for tool calls:
 
-`gemini --approval-mode {{[default|auto_edit|yolo|plan]}}`
+`gemini --approval-mode {{default|auto_edit|yolo|plan}}`
