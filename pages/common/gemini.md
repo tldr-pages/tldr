@@ -13,7 +13,7 @@
 
 - Override the default model (default: auto-gemini-3):
 
-`gemini {{[-m|--model]}} {{gemini-3-flash-preview}}`
+`gemini {{[-m|--model]}} {{model_name}}`
 
 - Run inside a sandbox container:
 
