@@ -11,7 +11,7 @@
 
 `cfv -Tvnu -f {{path/to/file}}`
 
-- [C]reate a checksum file of a secific [t]ype for the selected files:
+- [C]reate a checksum file of a specific [t]ype for the selected files:
 
 `cfv -C -t "{{sfv|sha256|md5|...}}" {{file1 file2 ...}}`
 
