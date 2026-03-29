@@ -1,7 +1,7 @@
 # gemini
 
 > Launch an interactive prompt with Gemini AI.
-> More information: <https://github.com/google-gemini/gemini-cli>.
+> More information: <https://geminicli.com/docs/cli/cli-reference/>.
 
 - Start a REPL session to chat interactively:
 
