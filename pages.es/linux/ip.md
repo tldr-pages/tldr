@@ -10,11 +10,11 @@
 
 - Lista las interfaces con información breve de capa de red:
 
-`ip {{[-br a|-brief address]}}`
+`ip {{[-br|-brief]}} {{[a|address]}}`
 
 - Lista las interfaces con información breve dada una capa de enlace:
 
-`ip {{[-br l|-brief link]}}`
+`ip {{[-br|-brief]}} {{[l|link]}}`
 
 - Muestra la tabla de enrutamiento:
 

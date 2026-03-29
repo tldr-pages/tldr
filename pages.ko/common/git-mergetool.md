@@ -13,15 +13,15 @@
 
 - 이름으로 식별된 병합 도구 실행:
 
-`git mergetool --tool {{tool_name}}`
+`git mergetool {{[-t|--tool]}} {{tool_name}}`
 
 - 병합 도구를 실행하기 전에 각 호출마다 묻지 않음:
 
-`git mergetool --no-prompt`
+`git mergetool {{[-y|--no-prompt]}}`
 
 - GUI 병합 도구를 명시적으로 사용 (설정 변수 `merge.guitool` 참조):
 
-`git mergetool --gui`
+`git mergetool {{[-g|--gui]}}`
 
 - 일반 병합 도구를 명시적으로 사용 (설정 변수 `merge.tool` 참조):
 
