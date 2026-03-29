@@ -11,7 +11,7 @@
 
 `cfv -Tvnu -f {{pfad/zu/datei}}`
 
-- Erstelle [C] eine Prüfsummendatei unter Verwendung eines Bestimmten [t]yps für die ausgewählten Dateien:
+- Erstelle [C] eine Prüfsummendatei unter Verwendung eines bestimmten [t]yps für die ausgewählten Dateien:
 
 `cfv -C -t "{{sfv|sha256|md5|...}}" {{datei1 datei2 ...}}`
 
