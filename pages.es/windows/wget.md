@@ -6,7 +6,7 @@
 
 - Vea la documentación del comando original `wget`:
 
-`tldr wget -p common`
+`tldr wget {{[-p|--platform]}} common`
 
 - Vea la documentación del comando `Invoke-WebRequest` de PowerShell:
 

@@ -5,7 +5,7 @@
 
 - அசல் `wget` கட்டளைக்கான ஆவணங்களைக் காண்க:
 
-`tldr wget -p common`
+`tldr wget {{[-p|--platform]}} common`
 
 - PowerShell இன் `Invoke-WebRequest` கட்டளைக்கான ஆவணங்களைக் காண்க:
 
