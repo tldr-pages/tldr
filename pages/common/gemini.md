@@ -26,3 +26,7 @@
 - Set the approval mode for tool calls:
 
 `gemini --approval-mode {{default|auto_edit|yolo|plan}}`
+
+- Resume a session (defaults to "latest"; accepts an index number or UUID):
+
+`gemini {{[-r|--resume]}} {{[latest|index|session_id]}}`
