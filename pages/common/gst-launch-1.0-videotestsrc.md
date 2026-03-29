@@ -9,4 +9,4 @@
 
 - Define what type of test video to produce:
 
-`gst-launch-1.0 audiotestsrc pattern={{smpte|snow|green|ball|circular|...}} ! {{autoaudiosink}}`
+`gst-launch-1.0 videotestsrc pattern={{smpte|snow|green|ball|circular|...}} ! {{autovideosink}}`
