@@ -25,7 +25,7 @@
 
 - List verified domains:
 
-`resend domains list`
+`resend domains {{[ls|list]}}`
 
 - Show current authentication status:
 
