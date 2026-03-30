@@ -2,14 +2,14 @@
 
 > Multiplexor de terminal.
 > Permite múltiples sesiones con ventanas, paneles y más.
-> Vea también: `zellij`, `screen`.
+> Ver también: `zellij`, `screen`.
 > Más información: <https://github.com/tmux/tmux>.
 
 - Inicia una nueva sesión:
 
 `tmux`
 
-- Inicia una nueva sesión con nombre:
+- Inicia una nueva sesión con [n]ombre:
 
 `tmux {{[new|new-session]}} -s {{nombre}}`
 
@@ -17,11 +17,11 @@
 
 `tmux {{[ls|list-sessions]}}`
 
-- Adjunta a la última sesión utilizada:
+- Se adjunta a la sesión usada más recientemente:
 
 `tmux {{[a|attach]}}`
 
-- Separa la sesión actual (dentro de una sesión tmux):
+- Se desconecta de la sesión actual (dentro de una sesión tmux):
 
 `<Ctrl b><d>`
 
@@ -33,6 +33,6 @@
 
 `<Ctrl b><w>`
 
-- Da de baja una sesión por su nombre:
+- Termina una sesión por nombre de [o]bjetivo:
 
 `tmux kill-session -t {{nombre}}`
