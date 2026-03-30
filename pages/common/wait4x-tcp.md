@@ -11,7 +11,7 @@
 
 `wait4x tcp {{localhost:3306}} --timeout {{60s}}`
 
-- Wait for a port to become free (reverse check):
+- Wait for a port to become free (inverted check):
 
 `wait4x tcp {{localhost:8080}} --invert-check`
 
