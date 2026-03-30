@@ -25,7 +25,7 @@
 
 - Wait using a TLS client certificate:
 
-`wait4x http {{https://example.com}} --cert-file {{path/to/certfile}} --key-file {{path/to/keyfile}}`
+`wait4x http {{https://example.com}} --cert-file {{path/to/cert.pem}} --key-file {{path/to/key.pem}}`
 
 - Wait with a custom timeout and inverted check (wait for endpoint to go down):
 
