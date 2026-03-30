@@ -18,7 +18,7 @@
 
 - Copia varios archivos:
 
-`Set-Clipboard -Path "{{ruta\a\archivo1}}", "{{ruta\a\archivo2}}", "{{ruta\a\archivo3}}"`
+`Set-Clipboard -Path "{{ruta\a\archivo1}}","{{ruta\a\archivo2}}","{{ruta\a\archivo3}}"`
 
 - Limpia el portapapeles:
 
