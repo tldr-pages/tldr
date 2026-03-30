@@ -24,6 +24,6 @@
 
 `shpool kill {{session_name}}`
 
-- Start the shpool daemon:
+- Start the `shpool` daemon:
 
 `shpool daemon`
