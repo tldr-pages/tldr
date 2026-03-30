@@ -6,16 +6,16 @@
 
 - 설치되지 않은 의존성의 패키지 이름을 출력:
 
-`pacman --deptest {{패키지1 패키지2 ...}}`
+`pacman -T {{패키지1 패키지2 ...}}`
 
 - 설치된 패키지가 주어진 최소 버전을 충족하는지 확인:
 
-`pacman --deptest "{{bash>=5}}"`
+`pacman -T "{{bash>=5}}"`
 
 - 패키지의 최신 버전이 설치되었는지 확인:
 
-`pacman --deptest "{{bash>5}}"`
+`pacman -T "{{bash>5}}"`
 
 - 도움말 표시:
 
-`pacman --deptest --help`
+`pacman -Th`

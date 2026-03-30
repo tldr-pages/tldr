@@ -6,12 +6,12 @@
 
 - ID로 가상 머신 일시 중단:
 
-`qm suspend {{가상_머신_ID}} {{정수}}`
+`qm {{[su|suspend]}} {{가상_머신_ID}} {{정수}}`
 
 - VM을 일시 중단할 때 잠금 확인 건너뛰기:
 
-`qm suspend {{가상_머신_ID}} {{정수}} --skiplock`
+`qm {{[su|suspend]}} {{가상_머신_ID}} {{정수}} --skiplock`
 
 - VM을 일시 중단할 때 스토리지 잠금 확인 건너뛰기:
 
-`qm suspend {{가상_머신_ID}} {{정수}} --skiplockstorage`
+`qm {{[su|suspend]}} {{가상_머신_ID}} {{정수}} --skiplockstorage`

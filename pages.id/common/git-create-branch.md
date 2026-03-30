@@ -10,8 +10,8 @@
 
 - Buat cabang baru pada repositori lokal dan sumber jarak jauh (remote) origin:
 
-`git create-branch --remote {{nama_cabang}}`
+`git create-branch {{[-r|--remote]}} {{nama_cabang}}`
 
 - Buat cabang baru pada repositori lokal dan sumber jarak jauh (remote) upstream (yang dibentuk melalui proses pencangkokan/fork):
 
-`git create-branch --remote upstream {{nama_cabang}}`
+`git create-branch {{[-r|--remote]}} upstream {{nama_cabang}}`
