@@ -5,4 +5,4 @@
 
 - Desbloquea una máquina virtual específica:
 
-`qm unlock {{id_mv}}`
+`qm {{[u|unlock]}} {{id_mv}}`

@@ -10,11 +10,11 @@
 
 - 네트워크 계층 정보 요약과 함께 인터페이스 나열:
 
-`ip {{[-br a|-brief address]}}`
+`ip {{[-br|-brief]}} {{[a|address]}}`
 
 - 링크 계층 정보 요약과 함께 인터페이스 나열:
 
-`ip {{[-br l|-brief link]}}`
+`ip {{[-br|-brief]}} {{[l|link]}}`
 
 - 라우팅 테이블 표시:
 
