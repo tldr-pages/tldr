@@ -17,7 +17,7 @@
 
 - Wait for multiple ports in parallel:
 
-`wait4x tcp {{localhost:3306}} {{localhost:6379}} {{localhost:27017}}`
+`wait4x tcp {{localhost:3306 localhost:6379 ...}}`
 
 - Run a command after the port becomes available:
 
