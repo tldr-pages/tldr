@@ -17,6 +17,14 @@
 
 `zsh {{pfad/zu/skript}}`
 
+- Prüfe ein Skript nach Syntaxfehlern, ohne es auszuführen:
+
+`zsh {{--no-exec}} {{pfad/zu/skript}}`
+
+- Führe Befehle von `stdin` aus:
+
+`{{echo echo Hello World}} | zsh`
+
 - Führe Befehle aus einem Skript aus und schreibe die Befehle in die Konsole:
 
 `zsh --xtrace {{pfad/zu/skript}}`
@@ -25,6 +33,6 @@
 
 `zsh --verbose`
 
-- Führe einen Befehl innerhalb von Zsh mit ausgeschalteten Glob-Mustern aus:
+- Starte Zsh, ohne Nutzerkonfigurationen zu laden (z.B. `~/zshrc`):
 
-`noglob {{befehl}}`
+`zsh {{--no-rcs}}`
