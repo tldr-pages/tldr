@@ -29,4 +29,4 @@
 
 - Resume a session (defaults to "latest"; accepts an index number or UUID):
 
-`gemini {{[-r|--resume]}} {{[latest|index|session_id]}}`
+`gemini {{[-r|--resume]}} {{latest|index|session_id}}`
