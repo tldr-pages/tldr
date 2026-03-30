@@ -22,7 +22,7 @@
 
 - Download the latest version of a package and install it globally:
 
-`npm {{[i|install]}} {{package_name}} {{[-g|--global]}}`
+`sudo npm {{[i|install]}} {{package_name}} {{[-g|--global]}}`
 
 - Uninstall a package and remove it from the list of dependencies in `package.json`:
 
