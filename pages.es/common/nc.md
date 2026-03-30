@@ -1,32 +1,24 @@
 # nc
 
-> Redirige datos de entrada o salida a un flujo de red a través de esta versátil herramienta.
+> Redirige E/S hacia un flujo de red mediante esta versátil herramienta.
 > Más información: <https://manned.org/nc>.
 
-- Inicia un escuchador en un puerto TCP y le envía un archivo:
+- Inicia un [l]istener en el [p]uerto TCP especificado y envía un archivo hacia él:
 
-`nc -l -p {{puerto}} < {{nombre_de_archivo}}`
+`nc < {{nombre_archivo}} -l -p {{puerto}}`
 
-- Conecta a un escuchador en un puerto y recibe un archivo de él:
+- Se conecta a un listener destino en el puerto especificado y recibe un archivo de él:
 
-`nc {{host}} {{puerto}} > {{nombre_de_archivo_por_recibir}}`
+`nc {{host}} {{puerto}} > {{nombre_archivo_recibido}}`
 
-- Escanea los puertos TCP abiertos en un host:
+- Escanea los puertos TCP abiertos de un host específico:
 
-`nc -v -z -w {{tiempo_de_espera_en_segundos}} {{host}} {{puerto_inicial}}-{{puerto_final}}`
+`nc -v -z -w {{tiempo_espera_segundos}} {{host}} {{puerto_inicio}}-{{puerto_fin}}`
 
-- Inicia un escuchador en un puerto TCP y provee de acceso a tu intérprete de comandos local a la parte conectada (esto es peligroso y podría ser explotado):
+- Inicia un [l]istener en el [p]uerto TCP especificado y da acceso al shell local a la parte conectada (esto es peligroso y puede ser abusado):
 
-`nc -l -p {{puerto}} -e {{ejecutable_del_intérprete}}`
+`nc -l -p {{puerto}} -e {{ejecutable_shell}}`
 
-- Conecta a un escuchador y provee de acceso a tu intérprete de comandos local a una parte remota (esto es peligroso y podría ser explotado):
+- Se conecta a un listener destino y da acceso al shell local a la parte remota (esto es peligroso y puede ser abusado):
 
-`nc {{host}} {{puerto}} -e {{ejecutable_del_intérprete}}`
-
-- Actúa como un proxy y envía información de un puerto TCP local a un host remoto:
-
-`nc -l -p {{puerto_local}} | nc {{host}} {{puerto_remoto}}`
-
-- Envía una petición HTTP GET:
-
-`echo -e "GET / HTTP/1.1\nHost: {{host}}\n\n" | nc {{host}} 80`
+`nc {{host}} {{puerto}} -e {{ejecutable_shell}}`
