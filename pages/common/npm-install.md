@@ -17,4 +17,4 @@
 
 - Download the latest version of a package and install it globally:
 
-`npm {{[i|install]}} {{package_name}} {{[-g|--global]}}`
+`sudo npm {{[i|install]}} {{package_name}} {{[-g|--global]}}`
