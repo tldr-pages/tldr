@@ -10,11 +10,11 @@
 
 - Crea un archivo de Bicep:
 
-`az bicep build --file {{ruta/al/archivo.bicep}}`
+`az bicep build {{[-f|--file]}} {{ruta/al/archivo.bicep}}`
 
 - Intenta descompilar un archivo de plantilla ARM a un archivo de Bicep:
 
-`az bicep decompile --file {{ruta/al/archivo_plantilla.json}}`
+`az bicep decompile {{[-f|--file]}} {{ruta/al/archivo_plantilla.json}}`
 
 - Actualiza la CLI de Bicep a la última versión:
 

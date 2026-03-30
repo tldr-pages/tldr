@@ -10,8 +10,8 @@
 
 - 로컬 및 origin에 브랜치 생성:
 
-`git create-branch --remote {{브랜치_이름}}`
+`git create-branch {{[-r|--remote]}} {{브랜치_이름}}`
 
 - 로컬 및 upstream(포크를 통해)에 브랜치 생성:
 
-`git create-branch --remote upstream {{브랜치_이름}}`
+`git create-branch {{[-r|--remote]}} upstream {{브랜치_이름}}`

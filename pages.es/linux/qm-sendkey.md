@@ -5,8 +5,8 @@
 
 - Envía el evento de teclado (key) especificado a una máquina virtual específica:
 
-`qm sendkey {{id_mv}} {{tecla}}`
+`qm {{[sen|sendkey]}} {{id_mv}} {{tecla}}`
 
 - Permite al usuario root enviar el evento clave e ignorar cualquier bloqueo:
 
-`qm sendkey --skiplock {{true}} {{id_mv}} {{tecla}}`
+`qm {{[sen|sendkey]}} --skiplock {{true}} {{id_mv}} {{tecla}}`

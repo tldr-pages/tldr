@@ -6,32 +6,32 @@
 
 - Membuat file `package.json` secara interaktif:
 
-`npm init`
+`npm init {{[-y|--yes]}}`
 
 - Unduh semua paket yang terdaftar sebagai dependensi di package.json:
 
-`npm install`
+`npm {{[i|install]}}`
 
 - Unduh versi tertentu dari sebuah paket dan menambahkan ke daftar dependensi di `package.json`:
 
-`npm install {{nama_modul}}@{{versi}}`
+`npm {{[i|install]}} {{nama_modul}}@{{versi}}`
 
 - Unduh paket dan menambahkan ke daftar dependensi dev di package.json:
 
-`npm install {{nama_modul}} {{[-D|--save-dev]}}`
+`npm {{[i|install]}} {{nama_modul}} {{[-D|--save-dev]}}`
 
 - Unduh paket dan instal secara global:
 
-`npm install {{[-g|--global]}} {{nama_modul}}`
+`npm {{[i|install]}} {{nama_modul}} {{[-g|--global]}}`
 
 - Copot pemasangan paket dan hapus dari daftar dependensi di `package.json`:
 
-`npm uninstall {{nama_modul}}`
+`npm {{[r|uninstall]}} {{nama_modul}}`
 
 - Mencetak pohon dependensi yang diinstal secara lokal:
 
-`npm list`
+`npm {{[ls|list]}}`
 
 - Buat daftar modul tingkat atas yang diinstal secara global:
 
-`npm list {{[-g|--global]}} --depth {{0}}`
+`npm {{[ls|list]}} {{[-g|--global]}} --depth {{0}}`
