@@ -5,7 +5,7 @@
 
 - Jalankan dengan perintah (prompt):
 
-`claude {{perintah}}`
+`claude prompt`
 
 - Perbarui `claude`:
 
@@ -15,7 +15,7 @@
 
 `claude mcp list`
 
-- Buat commit dengan perintah:
+- Buat komit dengan perintah:
 
 `claude commit`
 
