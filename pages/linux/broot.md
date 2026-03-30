@@ -15,6 +15,10 @@
 
 `broot {{[-s|--sizes]}}`
 
+- Start sorting by size, showing ignored and hidden files:
+
+`broot {{[-w|--whale-spotting]}}`
+
 - Start displaying permissions:
 
 `broot {{[-p|--permissions]}}`
