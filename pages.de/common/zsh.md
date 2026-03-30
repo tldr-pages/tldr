@@ -18,7 +18,7 @@
 
 - Prüfe ein Skript nach Syntaxfehlern, ohne es auszuführen:
 
-`zsh {{--no-exec}} {{pfad/zu/skript}}`
+`zsh {{[-n|--no-exec]}} {{pfad/zu/skript}}`
 
 - Führe Befehle von `stdin` aus:
 
@@ -26,12 +26,12 @@
 
 - Führe Befehle aus einem Skript aus und schreibe die Befehle in die Konsole:
 
-`zsh --xtrace {{pfad/zu/skript}}`
+`zsh {{[-x|--xtrace]}} {{pfad/zu/skript}}`
 
 - Starte eine interaktive Eingabeaufforderung, in der jeder Befehl ausgegeben wird, bevor er ausgeführt wird:
 
-`zsh --verbose`
+`zsh {{[-v|--verbose]}}`
 
 - Starte Zsh, ohne Nutzerkonfigurationen zu laden (z.B. `~/zshrc`):
 
-`zsh {{--no-rcs}}`
+`zsh {{[-f|--no-rcs]}}`
