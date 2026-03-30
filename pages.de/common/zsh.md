@@ -1,7 +1,6 @@
 # zsh
 
-> Z SHell.
-> Mit `bash` und `sh` kompatible Eingabeaufforderung.
+> Z SHell. Mit `bash` und `sh` kompatible Eingabeaufforderung.
 > Siehe auch: `bash`, `!`, `^`.
 > Weitere Informationen: <https://zsh.sourceforge.io/Doc/Release/Invocation.html#Invocation>.
 

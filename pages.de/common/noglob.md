@@ -1,7 +1,7 @@
 # noglob
 
 > Führe Befehle in Zsh ohne Globbing aus (ohne Wildcard-Muster anzuwenden).
-> Weitere Informationen: <https://manned.org/man/zshmisc>.
+> Weitere Informationen: <https://manned.org/zshmisc>.
 
 - Rufe eine URL ohne Anführungszeichen oder Escape-Sequenzen ab:
 
