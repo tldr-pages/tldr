@@ -10,7 +10,7 @@
 
 - Crittografa un archivio esistente (inclusi i nomi dei file):
 
-`7zr a {{percorso/all/archivio_crittografato.7z}} -p{{password}} -mhe=on {{percorso/all/archivio.7z}}`
+`7zr a {{percorso/all/archivio_crittografato.7z}} -p{{password}} -mhe={{on}} {{percorso/all/archivio.7z}}`
 
 - Estrai un archivio preservando la struttura delle directory originali:
 
