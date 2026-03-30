@@ -1,7 +1,7 @@
 # zed
 
 > Tekstverwerker ontworpen om snel, efficiënt en handig te zijn.
-> Meer informatie: <https://zed.dev/docs/#cli>.
+> Meer informatie: <https://zed.dev/docs/reference/cli>.
 
 - Open specifieke paden in Zed:
 

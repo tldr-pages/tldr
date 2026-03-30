@@ -17,4 +17,4 @@
 
 - Afficher l'aide :
 
-`docker {{[rmi|image rm]}}`
+`docker {{[rmi|image rm]}} --help`

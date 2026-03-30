@@ -5,4 +5,4 @@
 
 - Lista todas las instantáneas de una máquina virtual específica:
 
-`qm listsnapshot {{id_mv}}`
+`qm {{[lists|listsnapshot]}} {{id_mv}}`
