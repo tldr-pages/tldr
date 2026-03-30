@@ -5,7 +5,7 @@
 
 - `gh`에 설정된 모든 별칭 나열:
 
-`gh alias list`
+`gh alias {{[ls|list]}}`
 
 - `gh` 하위 명령 별칭 생성:
 
@@ -13,7 +13,7 @@
 
 - 셸 명령을 `gh` 하위 명령으로 설정:
 
-`gh alias set --shell {{별칭_이름}} {{명령}}`
+`gh alias set {{[-s|--shell]}} {{별칭_이름}} {{명령}}`
 
 - 명령 단축키 삭제:
 

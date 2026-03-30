@@ -6,32 +6,32 @@
 
 - Liste les paquets installés et leur version :
 
-`pacman --query`
+`pacman -Q`
 
 - Liste uniquement les paquets installés explicitement :
 
-`pacman --query --explicit`
+`pacman -Qe`
 
 - Trouve le paquet propriétaire d'un fichier :
 
-`pacman --query --owns {{fichier}}`
+`pacman -Qo {{fichier}}`
 
 - Affiche des informations sur un paquet installé :
 
-`pacman --query --info {{paquet}}`
+`pacman -Qi {{paquet}}`
 
 - Liste les fichiers appartenant à un paquet :
 
-`pacman --query --list {{paquet}}`
+`pacman -Ql {{paquet}}`
 
 - Liste les paquets orphelins (installés en tant que dépendances mais requis par aucun paquet installé) :
 
-`pacman --query --unrequired --deps --quiet`
+`pacman -Qdtq`
 
 - Liste les paquets installés ne se trouvant pas dans les dépôts :
 
-`pacman --query --foreign`
+`pacman -Qm`
 
 - Liste les paquets périmés :
 
-`pacman --query --upgrades`
+`pacman -Qu`

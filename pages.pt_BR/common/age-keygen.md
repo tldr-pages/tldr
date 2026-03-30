@@ -6,7 +6,7 @@
 
 - Gera um par de chaves, salva em um arquivo não criptografado e imprime a chave pública para `stdout`:
 
-`age-keygen --output {{caminho/para/arquivo}}`
+`age-keygen {{[-o|--output]}} {{caminho/para/arquivo}}`
 
 - Converte uma identidade para um destinatário e imprime a chave pública para `stdout`:
 

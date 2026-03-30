@@ -6,32 +6,32 @@
 
 - Yüklenmiş paket ve sürümleri sırala:
 
-`pacman --query`
+`pacman -Q`
 
 - Sadece özellikle indirilmiş paket ve sürümleri sırala:
 
-`pacman --query --explicit`
+`pacman -Qe`
 
 - Hangi paketin belirtilen dosyaya sahip olduğunu bul:
 
-`pacman --query --owns {{dosya_ismi}}`
+`pacman -Qo {{dosya_ismi}}`
 
 - İndirilmiş bir pakete dair bilgiyi görüntüle:
 
-`pacman --query --info {{paket_ismi}}`
+`pacman -Qi {{paket_ismi}}`
 
 - Bir paketin içerdiği dosyaları sırala:
 
-`pacman --query --list {{paket_ismi}}`
+`pacman -Ql {{paket_ismi}}`
 
 - Yetim (başka bir pakete bağlılık olarak indirilmiş ancak herhangi bir paket tarafından gerektirilmeyen) paketleri sırala:
 
-`pacman --query --unrequired --deps --quiet`
+`pacman -Qdtq`
 
 - Mevcut depolarda bulunmayan, indirilmiş paketleri sırala:
 
-`pacman --query --foreign`
+`pacman -Qm`
 
 - Miadı dolmuş paketleri sırala:
 
-`pacman --query --upgrades`
+`pacman -Qu`

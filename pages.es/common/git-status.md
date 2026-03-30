@@ -18,7 +18,7 @@
 
 - Muestra la rama (branch) e información de seguimiento:
 
-`git status --branch`
+`git status {{[-b|--branch]}}`
 
 - Muestra la salida en formato breve junto a la información de la rama (branch):
 
