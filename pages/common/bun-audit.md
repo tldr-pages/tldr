@@ -1,4 +1,4 @@
-# bun-audit
+# bun audit
 
 > Check installed packages for known security vulnerabilities.
 > More information: <https://bun.com/docs/pm/cli/audit>.

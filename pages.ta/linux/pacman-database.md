@@ -7,24 +7,24 @@
 
 - ஒரு தொகுப்பை மறைமுகமாக நிறுவியதாகக் குறிக்கவும்:
 
-`sudo pacman --database --asdeps {{நிரல்தொகுப்பு}}`
+`sudo pacman -D --asdeps {{நிரல்தொகுப்பு}}`
 
 - ஒரு தொகுப்பை வெளிப்படையாக நிறுவியதாகக் குறிக்கவும்:
 
-`sudo pacman --database --asexplicit {{நிரல்தொகுப்பு}}`
+`sudo pacman -D --asexplicit {{நிரல்தொகுப்பு}}`
 
 - அனைத்து தொகுப்பு சார்புகளும் நிறுவப்பட்டுள்ளதா என சரிபார்க்கவும்:
 
-`pacman --database --check`
+`pacman -Dk`
 
 - அனைத்து குறிப்பிட்ட சார்புகளும் உள்ளனவா என்பதை உறுதிசெய்ய, களஞ்சியங்களைச் சரிபார்க்கவும்:
 
-`pacman --database --check --check`
+`pacman -Dkk`
 
 - பிழை செய்திகளை மட்டும் காட்டு:
 
-`pacman --database --check --quiet`
+`pacman -Dkq`
 
 - உதவியைக் காட்டு:
 
-`pacman --database --help`
+`pacman -Dh`
