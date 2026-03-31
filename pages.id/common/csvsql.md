@@ -10,7 +10,7 @@
 
 - Impor sebuah file CSV ke dalam sebuah basis data SQL:
 
-`csvsql --insert --db "{{mysql://pengguna:kata_sandi@host/basis_data}}" {{jalan/ke/data.csv}}`
+`csvsql --insert --db "{{mysql://pengguna:kata_sandi@host/basis_data}}" {{jalan/menuju/data.csv}}`
 
 - Jalankan sebuah kueri (query) SQL pada sebuah file CSV:
 
