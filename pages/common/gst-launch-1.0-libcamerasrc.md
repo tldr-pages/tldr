@@ -9,4 +9,4 @@
 
 - Specify the device to read from:
 
-`gst-launch-1.0 libcamerasrc camera-name={{camera_name}} ! videoconvert ! autovideosink`
+`gst-launch-1.0 libcamerasrc camera-name={{camera_name}} ! {{videoconvert ! autovideosink}}`
