@@ -20,9 +20,9 @@
 
 `npm {{[i|install]}} {{package_name}} {{[-D|--save-dev]}}`
 
-- Download the latest version of a package and install it globally:
+- Download the latest version of a package and install it globally (set the install location with `npm config set prefix`):
 
-`sudo npm {{[i|install]}} {{package_name}} {{[-g|--global]}}`
+`npm {{[i|install]}} {{package_name}} {{[-g|--global]}}`
 
 - Uninstall a package and remove it from the list of dependencies in `package.json`:
 
