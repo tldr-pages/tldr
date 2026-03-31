@@ -1,6 +1,6 @@
 # gst-launch-1.0 pipewiresink
 
-> Create a pipewire node to output data from.
+> Create a PipeWire node to output data from.
 > More information: <https://github.com/PipeWire/pipewire/tree/master/src/gst>.
 
 - Output test video:
