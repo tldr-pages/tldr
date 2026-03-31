@@ -10,7 +10,7 @@
 
 - Unduh semua paket yang terdaftar sebagai dependensi di `package.json`:
 
-`pnpm install`
+`pnpm {{[i|install]}}`
 
 - Unduh versi tertentu dari sebuah paket dan menambahkan ke daftar dependensi di `package.json`:
 
@@ -18,20 +18,20 @@
 
 - Unduh paket dan menambahkan ke daftar dependensi [D]ev di `package.json`:
 
-`pnpm add {{[-D|--save-dev]}} {{module_name}}`
+`pnpm add {{module_name}} {{[-D|--save-dev]}}`
 
 - Unduh paket dan instal secara [g]lobal:
 
-`pnpm add {{[-g|--global]}} {{module_name}}`
+`pnpm add {{module_name}} {{[-g|--global]}}`
 
 - Copot pemasangan paket dan hapus dari daftar dependensi di `package.json`:
 
-`pnpm remove {{module_name}}`
+`pnpm {{[rm|remove]}} {{module_name}}`
 
 - Mencetak pohon dependensi yang diinstal secara lokal:
 
-`pnpm list`
+`pnpm {{[ls|list]}}`
 
 - Buat daftar modul tingkat atas yang diinstal secara [g]lobal:
 
-`pnpm list {{[-g|--global]}} --depth {{0}}`
+`pnpm {{[ls|list]}} {{[-g|--global]}} --depth {{0}}`
