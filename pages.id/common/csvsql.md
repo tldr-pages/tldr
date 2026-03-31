@@ -14,4 +14,4 @@
 
 - Jalankan sebuah kueri (query) SQL pada sebuah file CSV:
 
-`csvsql --query "{{select * from 'data'}}" {{jalan/ke/data.csv}}`
+`csvsql --query "{{select * from 'data'}}" {{jalan/menuju/data.csv}}`
