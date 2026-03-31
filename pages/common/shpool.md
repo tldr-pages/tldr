@@ -1,8 +1,8 @@
 # shpool
 
-> Tool for creating and attaching to persistent shell sessions.
+> A tool for creating and attaching to persistent shell sessions.
 > See also: `tmux`, `screen`.
-> More information: <https://github.com/shell-pool/shpool>.
+> More information: <https://github.com/shell-pool/shpool#usage>.
 
 - Create a new session or attach to an existing one:
 
