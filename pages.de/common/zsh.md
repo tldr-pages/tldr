@@ -32,6 +32,6 @@
 
 `zsh {{[-v|--verbose]}}`
 
-- Starte Zsh, ohne Nutzerkonfigurationen zu laden (z.B. `~/zshrc`):
+- Starte Zsh, ohne Nutzerkonfigurationen zu laden (z.B. `~/.zshrc`):
 
 `zsh {{[-f|--no-rcs]}}`
