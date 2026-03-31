@@ -1,7 +1,7 @@
 # tldr
 
 > Tampilkan laman bantuan sederhana untuk alat baris perintah (command-line) dari proyek dokumentasi tldr-pages.
-> Catatan: opsi `--language` dan `--list` sering diimplementasikan oleh program-program klien meskipun tak diwajibkan menurut spesifikasi teknis.
+> Catatan: Opsi `--language` dan `--list` sering diimplementasikan oleh program-program klien meskipun tak diwajibkan menurut spesifikasi teknis.
 > Informasi lebih lanjut: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.
 
 - Tampilkan laman bantuan sederhana untuk suatu perintah (catatan: beginilah cara Anda sampai di sini!):
@@ -18,7 +18,7 @@
 
 - Tampilkan laman bantuan untuk suatu perintah pada [p]latform tujuan:
 
-`tldr {{[-p|--platform]}} {{android|common|freebsd|linux|osx|netbsd|openbsd|sunos|windows}} {{command}}`
+`tldr {{[-p|--platform]}} {{android|cisco-ios|common|dos|freebsd|linux|netbsd|openbsd|osx|sunos|windows}} {{perintah}}`
 
 - M[u]takhirkan data cache lokal untuk laman-laman bantuan:
 
@@ -28,9 +28,9 @@
 
 `tldr {{[-l|--list]}}`
 
-- Tampilkan daftar seluruh laman bantuan subperintah yang tersedia untuk dokumentasi suatu perintah induk:
+- Lihat isi laman tldr dalam jendela terminal (`fzf` harus tersedia terlebih dahulu):
 
-`tldr {{[-l|--list]}} | grep {{perintah}} | column`
+`tldr {{[-l|--list]}} | fzf --preview "tldr {1} --color=always" --preview-window=right,70% | xargs tldr`
 
 - Tampilkan suatu laman bantuan untuk perintah yang dipilih secara acak:
 

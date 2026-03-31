@@ -10,23 +10,23 @@
 
 - Crea una máquina virtual usando la imagen por defecto de Ubuntu y genera las claves SSH:
 
-`az vm create --resource-group {{rg}} --name {{nombre_vm}} --image {{UbuntuLTS}} --admin-user {{usuarioazure}} --generate-ssh-keys`
+`az vm create {{[-g|--resource-group]}} {{rg}} {{[-n|--name]}} {{nombre_vm}} --image {{UbuntuLTS}} --admin-user {{usuarioazure}} --generate-ssh-keys`
 
 - Detiene una Máquina Virtual:
 
-`az vm stop --resource-group {{rg}} --name {{nombre_de_la_máquina_virtual}}`
+`az vm stop {{[-g|--resource-group]}} {{rg}} {{[-n|--name]}} {{nombre_de_la_máquina_virtual}}`
 
 - Desasigna una máquina virtual:
 
-`az vm deallocate --resource-group {{rg}} --name {{nombre_de_la_máquina virtual}}`
+`az vm deallocate {{[-g|--resource-group]}} {{rg}} {{[-n|--name]}} {{nombre_de_la_máquina virtual}}`
 
 - Inicia una Máquina Virtual:
 
-`az vm start --resource-group {{rg}} --name {{nombre_de_la_máquina_virtual}}`
+`az vm start {{[-g|--resource-group]}} {{rg}} {{[-n|--name]}} {{nombre_de_la_máquina_virtual}}`
 
 - Reinicia una Máquina Virtual:
 
-`az vm restart --resource-group {{rg}} --name {{nombre_de_la_máquina_virtual}}`
+`az vm restart {{[-g|--resource-group]}} {{rg}} {{[-n|--name]}} {{nombre_de_la_máquina_virtual}}`
 
 - Lista de imágenes de máquinas virtuales disponibles en Azure Marketplace:
 

@@ -10,7 +10,7 @@
 
 - 표준 수학 라이브러리([l]ibrary)가 활성화된 상태에서 대화형([i]nteractive) 세션을 시작:
 
-`bc --interactive --mathlib`
+`bc {{[-i|--interactive]}} {{[-l|--mathlib]}}`
 
 - 표현식을 계산:
 
@@ -26,7 +26,7 @@
 
 - `mathlib`을 사용하여 사인/코사인/아크탄젠트/자연 로그/지수 함수를 계산:
 
-`echo '{{s|c|a|l|e}}({{1}})' | bc --mathlib`
+`echo '{{s|c|a|l|e}}({{1}})' | bc {{[-l|--mathlib]}}`
 
 - 인라인 계승 스크립트를 실행:
 

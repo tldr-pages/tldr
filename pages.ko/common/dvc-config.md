@@ -14,7 +14,7 @@
 
 - 프로젝트의 기본 원격 저장소 설정 해제:
 
-`dvc config --unset core.remote`
+`dvc config {{[-u|--unset]}} core.remote`
 
 - 현재 프로젝트에 대해 지정된 키의 구성 값 확인:
 
@@ -26,7 +26,7 @@
 
 - 주어진 키에 대한 프로젝트 수준 구성 값 설정 해제:
 
-`dvc config --unset {{키}}`
+`dvc config {{[-u|--unset]}} {{키}}`
 
 - 로컬, 글로벌 또는 시스템 수준에서 구성 값 설정:
 

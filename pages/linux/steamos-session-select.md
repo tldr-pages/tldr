@@ -1,13 +1,14 @@
 # steamos-session-select
 
 > Manipulate which session is currently in use.
+> Note: This command is deprecated, use `steamosctl` instead.
 > More information: <https://gitlab.com/users/evlaV/projects>.
 
 - Change to desktop mode:
 
 `steamos-session-select plasma`
 
-- Change to gamemode (sets the system to boot into gamemode if `-persistent` options were selected previously):
+- Change to gamemode (sets the system to boot into gamemode if `-persistent` arguments were selected previously):
 
 `steamos-session-select`
 

@@ -9,4 +9,4 @@
 
 - 버전 표시:
 
-`vipw --version`
+`vipw {{[-V|--version]}}`

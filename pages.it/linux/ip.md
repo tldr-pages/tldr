@@ -10,11 +10,11 @@
 
 - Elenca le interfacce con informazioni brevi sul livello di rete:
 
-`ip {{[-br a|-brief address]}}`
+`ip {{[-br|-brief]}} {{[a|address]}}`
 
 - Elenca le interfacce con informazioni brevi sul livello di collegamento:
 
-`ip {{[-br l|-brief link]}}`
+`ip {{[-br|-brief]}} {{[l|link]}}`
 
 - Visualizza la tabella di routing:
 

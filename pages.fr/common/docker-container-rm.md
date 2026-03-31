@@ -17,4 +17,4 @@
 
 - Affiche l'aide :
 
-`docker {{[rm|container rm]}} {{[-h|--help]}}`
+`docker {{[rm|container rm]}} --help`

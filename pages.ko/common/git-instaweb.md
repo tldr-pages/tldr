@@ -9,19 +9,19 @@
 
 - 로컬호스트에서만 리슨:
 
-`git instaweb --start --local`
+`git instaweb --start {{[-l|--local]}}`
 
 - 특정 포트에서 리슨:
 
-`git instaweb --start --port {{1234}}`
+`git instaweb --start {{[-p|--port]}} {{1234}}`
 
 - 지정된 HTTP 데몬 사용:
 
-`git instaweb --start --httpd {{lighttpd|apache2|mongoose|plackup|webrick}}`
+`git instaweb --start {{[-d|--httpd]}} {{lighttpd|apache2|mongoose|plackup|webrick}}`
 
 - 웹 브라우저도 자동으로 실행:
 
-`git instaweb --start --browser`
+`git instaweb --start {{[-b|--browser]}}`
 
 - 현재 실행 중인 GitWeb 서버 중지:
 

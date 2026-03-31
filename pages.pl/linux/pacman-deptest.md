@@ -6,16 +6,16 @@
 
 - Wyświetl nazwy zależności, które nie są zainstalowane:
 
-`pacman --deptest {{nazwa_pakietu1 nazwa_pakietu2 ...}}`
+`pacman -T {{nazwa_pakietu1 nazwa_pakietu2 ...}}`
 
 - Sprawdź, czy zainstalowany pakiet spełnia podaną minimalną wersję:
 
-`pacman --deptest "{{bash>=5}}"`
+`pacman -T "{{bash>=5}}"`
 
 - Sprawdź, czy jest zainstalowana nowsza wersja pakietu:
 
-`pacman --deptest "{{bash>5}}"`
+`pacman -T "{{bash>5}}"`
 
 - Wyświetl pomoc:
 
-`pacman --deptest --help`
+`pacman -Th`

@@ -9,4 +9,4 @@
 
 - 현재 프로젝트 강제 삭제:
 
-`dvc destroy --force`
+`dvc destroy {{[-f|--force]}}`
