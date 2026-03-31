@@ -6,3 +6,7 @@
 - Display the framebuffer mapping of a console:
 
 `con2fbmap {{console_number}}`
+
+- Map a console to a specific framebuffer:
+
+`con2fbmap {{console_number}} {{framebuffer_number}}`
