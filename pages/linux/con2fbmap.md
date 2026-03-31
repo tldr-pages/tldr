@@ -5,4 +5,4 @@
 
 - Display the framebuffer mapping of a console:
 
-`con2fbmap {{number}}`
+`con2fbmap {{console_number}}`
