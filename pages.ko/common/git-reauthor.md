@@ -6,12 +6,12 @@
 
 - Git 저장소 전체에서 작성자의 이메일과 이름 변경:
 
-`git reauthor --old-email {{old@example.com}} --correct-email {{new@example.com}} --correct-name "{{name}}"`
+`git reauthor {{[-o|--old-email]}} {{old@example.com}} {{[-e|--correct-email]}} {{new@example.com}} {{[-n|--correct-name]}} "{{name}}"`
 
 - Git 설정에 정의된 이메일과 이름으로 변경:
 
-`git reauthor --old-email {{old@example.com}} --use-config`
+`git reauthor {{[-o|--old-email]}} {{old@example.com}} {{[-c|--use-config]}}`
 
 - 원래 작성자와 관계없이 모든 커밋의 이메일과 이름 변경:
 
-`git reauthor --all --correct-email {{name@example.com}} --correct-name {{name}}`
+`git reauthor {{[-a|--all]}} {{[-e|--correct-email]}} {{name@example.com}} {{[-n|--correct-name]}} {{name}}`

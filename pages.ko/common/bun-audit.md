@@ -1,4 +1,4 @@
-# bun-audit
+# bun audit
 
 > 설치된 패키지의 알려진 보안 취약점을 검사합니다.
 > 더 많은 정보: <https://bun.com/docs/pm/cli/audit>.
