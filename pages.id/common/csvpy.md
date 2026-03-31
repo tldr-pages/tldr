@@ -6,7 +6,7 @@
 
 - Muat sebuah file CSV ke dalam objek CSVKitReader:
 
-`csvpy {{jalan/ke/data.csv}}`
+`csvpy {{jalan/menuju/data.csv}}`
 
 - Muat sebuah file CSV ke dalam objek CSVKitDictReader:
 
