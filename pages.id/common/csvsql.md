@@ -6,7 +6,7 @@
 
 - Hasilkan sebuah pernyataan SQL CREATE TABLE untuk sebuah file CSV:
 
-`csvsql {{jalan/ke/data.csv}}`
+`csvsql {{jalan/menuju/data.csv}}`
 
 - Impor sebuah file CSV ke dalam sebuah basis data SQL:
 
