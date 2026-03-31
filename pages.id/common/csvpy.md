@@ -10,4 +10,4 @@
 
 - Muat sebuah file CSV ke dalam objek CSVKitDictReader:
 
-`csvpy --dict {{jalan/ke/data.csv}}`
+`csvpy --dict {{jalan/menuju/data.csv}}`
