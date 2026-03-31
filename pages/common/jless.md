@@ -11,10 +11,10 @@
 
 `{{cat path/to/file.json}} | jless`
 
-- View a YAML file:
+- View a YAML file (`--yaml` is optional, the format is automatically detected from the file extension):
 
 `jless --yaml {{path/to/file.yaml}}`
 
-- View JSON in line mode (newline-delimited data):
+- View JSON in line mode (quote object keys and include curly and square brackets):
 
 `jless {{path/to/file.jsonl}} {{[-m|--mode]}} line`
