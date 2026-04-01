@@ -34,4 +34,4 @@
 
 - 제한된([r]estricted) 쉘 세션을 시작:
 
-`bash -r`
+`bash {{[-r|--restricted]}}`
