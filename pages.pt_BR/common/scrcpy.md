@@ -23,7 +23,7 @@
 
 `scrcpy {{[-r|--record]}} {{caminho/para/arquivo.mp4}}`
 
-- Especifica um diretório alvo para enviar arquivos para o disposivivo (exceto APKs):
+- Especifica um diretório alvo para enviar arquivos para o dispositivo (exceto APKs):
 
 `scrcpy --push-target {{caminho/para/diretório}}`
 
