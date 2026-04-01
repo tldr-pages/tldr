@@ -1,6 +1,7 @@
 # ping
 
 > Verstuur ICMP ECHO_REQUEST-pakketten naar netwerkhosts.
+> Zie ook: `mtr`.
 > Meer informatie: <https://manned.org/ping>.
 
 - Ping een host:
