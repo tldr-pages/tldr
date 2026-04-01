@@ -15,11 +15,11 @@
 
 - 以每三秒一个请求的速度下载一个网页和其所有资源（脚本，样式表，图片等等）：
 
-`wget {{[-p|--page-requisites]}} {{[-k|--convert-links]}} {{[-w|--wait]}} 3 {{https://example.com/somepage.html}}`
+`wget {{[-pkw|--page-requisites --convert-links --wait]}} 3 {{https://example.com/somepage.html}}`
 
 - 从一个目录中下载所有列出的文件和其所有子文件夹（不下载内嵌网页）：
 
-`wget {{[-m|--mirror]}} {{[-np|--no-parent]}} {{https://example.com/somepath/}}`
+`wget {{[-mnp|--mirror --no-parent]}} {{https://example.com/somepath/}}`
 
 - 限制下载速度和重试次数：
 

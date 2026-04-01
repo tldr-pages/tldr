@@ -5,7 +5,7 @@
 
 - Gabungkan semua plugin untuk dimuat dalam syel secara statis:
 
-`antibody bundle < {{~/.zsh_plugins.txt}} > {{~/.zsh_plugins.sh}}`
+`antibody < {{~/.zsh_plugins.txt}} bundle > {{~/.zsh_plugins.sh}}`
 
 - Mutakhirkan seluruh bundel:
 

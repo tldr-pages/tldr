@@ -10,7 +10,7 @@
 
 - Inicia una sesión [i]nteractiva con la bib[l]ioteca matemática estándar activada:
 
-`bc --interactive --mathlib`
+`bc {{[-i|--interactive]}} {{[-l|--mathlib]}}`
 
 - Calcula una expresión:
 
@@ -26,7 +26,7 @@
 
 - Calcula una función seno/coseno/arctangente/logaritmo natural/exponencial utilizando `mathlib`:
 
-`echo '{{s|c|a|l|e}}({{1}})' | bc --mathlib`
+`echo '{{s|c|a|l|e}}({{1}})' | bc {{[-l|--mathlib]}}`
 
 - Ejecuta un guión factorial en línea (inline):
 

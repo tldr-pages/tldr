@@ -5,7 +5,7 @@
 
 - Tampilkan dokumentasi untuk perintah `wget` yang asli:
 
-`tldr wget -p common`
+`tldr wget {{[-p|--platform]}} common`
 
 - Tampilkan dokumentasi untuk perintah `Invoke-WebRequest`:
 

@@ -14,19 +14,19 @@
 
 - Unduh versi tertentu dari sebuah paket dan menambahkan ke daftar ketergantungan di `package.json`:
 
-`npm {{[i|install]}} {{nama_paket}}@{{versi}}`
+`npm {{[i|install]}} {{nama_modul}}@{{versi}}`
 
 - Unduh dan tambahkan paket ke daftar ketergantungan pengembangan (dev dependency) di package.json:
 
-`npm {{[i|install]}} {{nama_paket}} {{[-D|--save-dev]}}`
+`npm {{[i|install]}} {{nama_modul}} {{[-D|--save-dev]}}`
 
 - Unduh dan pasang paket ke secara [g]lobal:
 
-`npm {{[i|install]}} {{nama_paket}} {{[-g|--global]}}`
+`npm {{[i|install]}} {{nama_modul}} {{[-g|--global]}}`
 
 - Copot pemasangan dan hapus paket dari daftar ketergantungan dalam `package.json`:
 
-`npm {{[r|uninstall]}} {{nama_paket}}`
+`npm {{[r|uninstall]}} {{nama_modul}}`
 
 - Tampilkan daftar paket ketergantungan yang dipasang secara lokal:
 
