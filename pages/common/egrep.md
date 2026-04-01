@@ -3,6 +3,7 @@
 > Find patterns in files using extended `regex`es.
 > Note: This command is an alias of `grep --extended-regexp`.
 > More information: <https://manned.org/egrep>.
+
 - Search for one or more repeated characters:
 
 `egrep '{{a}}+' {{path/to/file}}`
