@@ -13,4 +13,4 @@
 
 - Remove all inactive builders without prompting for confirmation:
 
-`docker buildx rm --all-inactive --force`
+`docker buildx rm --all-inactive {{[-f|--force]}}`
