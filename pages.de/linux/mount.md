@@ -1,6 +1,7 @@
 # mount
 
 > Ermöglicht den Zugriff auf ein gesamtes Dateisystem in einem Verzeichnis.
+> Siehe auch: `udisksctl`.
 > Weitere Informationen: <https://manned.org/mount.8>.
 
 - Zeige alle eingehängten Dateisysteme:
