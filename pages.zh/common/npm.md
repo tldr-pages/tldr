@@ -10,28 +10,28 @@
 
 - 下载 `package.json` 中列出的所有依赖项包：
 
-`npm install`
+`npm {{[i|install]}}`
 
 - 下载包的特定版本并将其添加到 `package.json` 中的依赖项列表中：
 
-`npm install {{包名}}@{{版本号}}`
+`npm {{[i|install]}} {{包名}}@{{版本号}}`
 
 - 下载包的最新版本并将其添加到 `package.json` 中的开发依赖项列表中：
 
-`npm install {{包名}} {{[-D|--save-dev]}}`
+`npm {{[i|install]}} {{包名}} {{[-D|--save-dev]}}`
 
 - 下载包的最新版本并全局安装：
 
-`npm install {{[-g|--global]}} {{包名}}`
+`npm {{[i|install]}} {{包名}} {{[-g|--global]}}`
 
 - 卸载包并将其从 `package.json` 中的依赖项列表中删除：
 
-`npm uninstall {{包名}}`
+`npm {{[r|uninstall]}} {{包名}}`
 
 - 列出所有本地安装的依赖项：
 
-`npm list`
+`npm {{[ls|list]}}`
 
 - 列出所有顶级全局安装的包：
 
-`npm list {{[-g|--global]}} --depth {{0}}`
+`npm {{[ls|list]}} {{[-g|--global]}} --depth {{0}}`
