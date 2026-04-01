@@ -20,7 +20,7 @@
 
 `npm {{[i|install]}} {{package_name}} {{[-D|--save-dev]}}`
 
-- Download the latest version of a package and install it globally:
+- Download the latest version of a package and install it globally (set the install location with `npm config set prefix`):
 
 `npm {{[i|install]}} {{package_name}} {{[-g|--global]}}`
 
