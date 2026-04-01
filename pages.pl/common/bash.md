@@ -34,4 +34,4 @@
 
 - Uruchom sesję w trybie [r]estrykcyjnym:
 
-`bash -r`
+`bash {{[-r|--restricted]}}`
