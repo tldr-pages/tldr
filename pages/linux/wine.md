@@ -29,4 +29,4 @@
 
 - Add a registry key:
 
-`wine reg add 'HKEY_CURRENT_USER\Software\Wine\Drivers' /v {{Key}} /t {{REG_SZ|REG_BINARY|REG_DWORD|...}} /d '{{data}}'`
+`wine reg add '{{path/to/directory}}' /v {{Key}} /t {{REG_SZ|REG_BINARY|REG_DWORD|...}} /d '{{data}}'`
