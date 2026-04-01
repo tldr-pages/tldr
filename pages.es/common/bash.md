@@ -34,4 +34,4 @@
 
 - Inicia el intérprete [r]estringido:
 
-`bash -r`
+`bash {{[-r|--restricted]}}`
