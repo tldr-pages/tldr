@@ -27,6 +27,10 @@
 
 `steam -tenfoot`
 
+- Open a controller configuration:
+
+`steam steam://controllerconfig/{{game_id}}/{{configuration_id}}`
+
 - Exit Steam:
 
 `steam -shutdown`
