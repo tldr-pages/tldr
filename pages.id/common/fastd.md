@@ -7,15 +7,15 @@
 
 - Jalankan `fastd` dengan konfigurasi yang diatur dalam suatu berkas:
 
-`fastd --config {{jalan/menuju/fastd.conf}}`
+`fastd {{[-c|--config]}} {{jalan/menuju/fastd.conf}}`
 
 - Jalankan suatu layanan VPN Layer 3 dengan MTU sebesar 1400, dengan konfigurasi lainnya yang diatur dalam suatu berkas:
 
-`fastd --mode {{tap}} --mtu {{1400}} --config {{jalan/menuju/fastd.conf}}`
+`fastd {{[-m|--mode]}} {{tap}} {{[-M|--mtu]}} {{1400}} {{[-c|--config]}} {{jalan/menuju/fastd.conf}}`
 
 - Lakukan validasi terhadap suatu berkas konfigurasi:
 
-`fastd --verify-config --config {{jalan/menuju/fastd.conf}}`
+`fastd --verify-config {{[-c|--config]}} {{jalan/menuju/fastd.conf}}`
 
 - Buat sebuah pasangan kunci untuk mengakses layanan VPN:
 
@@ -23,8 +23,8 @@
 
 - Tampilkan kunci publik terhadap kunci privat yang diatur dalam berkas konfigurasi:
 
-`fastd --show-key --config {{jalan/menuju/fastd.conf}}`
+`fastd --show-key {{[-c|--config]}} {{jalan/menuju/fastd.conf}}`
 
 - Tampilkan versi program:
 
-`fastd -v`
+`fastd {{[-v|--version]}}`
