@@ -6,7 +6,7 @@
 
 - Finge cargar un módulo en el kernel, pero no lo hace realmente:
 
-`sudo modprobe --dry-run {{nombre_del_módulo}}`
+`sudo modprobe {{[-n|--dry-run]}} {{nombre_del_módulo}}`
 
 - Carga un módulo en el kernel:
 
@@ -14,7 +14,7 @@
 
 - Elimina un módulo del núcleo:
 
-`sudo modprobe --remove {{nombre_del_módulo}}`
+`sudo modprobe {{[-r|--remove]}} {{nombre_del_módulo}}`
 
 - Elimina un módulo y los que dependen de él desde el núcleo:
 
@@ -22,4 +22,4 @@
 
 - Muestra las dependencias de un módulo del kernel:
 
-`sudo modprobe --show-depends {{nombre_del_módulo}}`
+`sudo modprobe {{[-D|--show-depends]}} {{nombre_del_módulo}}`
