@@ -11,11 +11,11 @@
 
 - 开启基础模式，关闭图表和高亮（接近于 `top`）：
 
-`btm --basic`
+`btm {{[-b|--basic]}}`
 
 - 将图表中的小点换成大点：
 
-`btm --dot_marker`
+`btm {{[-m|--dot_marker]}}`
 
 - 展示电池充电和健康状态：
 
@@ -23,4 +23,4 @@
 
 - 设置图表刷新间隔和留存数据的时长：
 
-`btm --rate 250 --default_time_value 30000`
+`btm {{[-r|--rate]}} 250 {{[-t|--default_time_value]}} 30000`

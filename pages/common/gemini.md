@@ -9,9 +9,9 @@
 
 - Send the output of another command to Gemini and exit immediately:
 
-`{{echo "Summarize the history of Rome"}} | gemini {{[-p|--prompt]}}`
+`{{echo "Summarize the history of Rome"}} | gemini {{[-p|--prompt]}} -`
 
-- Override the default model (default: auto-gemini-3):
+- Use a specific model (default: auto-gemini-3):
 
 `gemini {{[-m|--model]}} {{model_name}}`
 

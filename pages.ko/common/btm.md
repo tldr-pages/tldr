@@ -11,11 +11,11 @@
 
 - 기본 모드를 활성화하여, 차트를 제거하고 데이터를 압축 (`top`과 유사):
 
-`btm --basic`
+`btm {{[-b|--basic]}}`
 
 - 차트에 작은 점 대신 큰 점을 사용:
 
-`btm --dot_marker`
+`btm {{[-m|--dot_marker]}}`
 
 - 배터리 충전 및 상태도 표시:
 
@@ -23,4 +23,4 @@
 
 - 250 밀리초마다 새로 고치고 차트에 마지막 30초를 표시:
 
-`btm --rate 250 --default_time_value 30000`
+`btm {{[-r|--rate]}} 250 {{[-t|--default_time_value]}} 30000`
