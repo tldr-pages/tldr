@@ -16,6 +16,14 @@
 
 `tpm2 pcrread sha1:16`
 
+- Run a subcommand in verbose mode:
+
+`tpm2 {{[-V|--verbose]}} {{subcommand}}`
+
+- Run a subcommand without writing to `stdout`:
+
+`tpm2 {{[-Q|--quiet]}} {{subcommand}}`
+
 - Display help:
 
 `tpm2 {{[-h|--help]}}`
