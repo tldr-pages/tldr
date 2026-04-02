@@ -27,9 +27,9 @@
 
 `steam -tenfoot`
 
-- Open a controller configuration:
+- Open an URL:
 
-`steam steam://controllerconfig/{{game_id}}/{{configuration_id}}`
+`steam steam://openurl/{{https://example.com}}`
 
 - Exit Steam:
 
