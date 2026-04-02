@@ -10,20 +10,20 @@
 
 - Öffne eine Datei in der Konsole (ohne X-Fenster):
 
-`emacsclient --no-window-system {{pfad/zu/datei}}`
+`emacsclient {{[-nw|--no-window-system]}} {{pfad/zu/datei}}`
 
 - Öffne eine Datei in einem neuen Emacs Fenster:
 
-`emacsclient --create-frame {{pfad/zu/datei}}`
+`emacsclient {{[-c|--create-frame]}} {{pfad/zu/datei}}`
 
 - Führe einen Befehl aus und schreibe das Ergebnis in `stdout`:
 
-`emacsclient --eval '({{befehl}})'`
+`emacsclient {{[-e|--eval]}} '({{befehl}})'`
 
 - Gib einen alternativen Editor an für den Fall, dass kein Emacs-Server läuft:
 
-`emacsclient --alternate-editor {{editor}} {{pfad/zu/datei}}`
+`emacsclient {{[-a|--alternate-editor]}} {{editor}} {{pfad/zu/datei}}`
 
 - Beende einen laufenden Emacs-Server und alle Instanzen und frage nach Bestätigung für ungespeicherte Dateien:
 
-`emacsclient --eval '(save-buffers-kill-emacs)'`
+`emacsclient {{[-e|--eval]}} '(save-buffers-kill-emacs)'`
