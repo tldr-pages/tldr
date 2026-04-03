@@ -26,3 +26,7 @@
 - Run the configuration tool:
 
 `wine winecfg`
+
+- Add a registry key:
+
+`wine reg add '{{path\to\registry_key}}' /v {{Value_name}} /t {{REG_SZ|REG_BINARY|REG_DWORD|...}} /d '{{data}}'`
