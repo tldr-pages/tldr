@@ -19,4 +19,3 @@
 - View a server's load using tload:
 
 `ssh user@ip_server -t tload -s 10 -d 1`
-
