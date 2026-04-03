@@ -16,6 +16,10 @@
 
 `egrep '{{a}}{10}' {{path/to/file}}`
 
+- Search for 3 to 7 repetions of a character:
+
+`egrep '{{a}}{3,7}' {{path/to/file}}`
+
 - Search for one of the listed options:
 
 `egrep '{{cat}}|{{dog}}|{{mouse}}' {{path/to/file}}`
