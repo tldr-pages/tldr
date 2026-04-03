@@ -27,7 +27,7 @@
 
 `steam -tenfoot`
 
-- Open an URL:
+- Open a URL:
 
 `steam steam://openurl/{{https://example.com}}`
 
