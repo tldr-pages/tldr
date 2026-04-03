@@ -20,7 +20,7 @@
 
 `egrep '{{cat}}|{{dog}}|{{mouse}}' {{path/to/file}}`
 
-- Search for one of the listed options inside a larger pattern
+- Search for one of the listed options inside a larger pattern:
 
 `egrep 'c({{a|o|u}})p' {{path/to/file}}`
 
