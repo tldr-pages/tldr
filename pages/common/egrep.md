@@ -18,7 +18,11 @@
 
 - Search for one of the listed options:
 
-`egrep '({{cat}}|{{dog}}|{{mouse}})' {{path/to/file}}`
+`egrep '{{cat}}|{{dog}}|{{mouse}}' {{path/to/file}}`
+
+- Search for one of the listed options inside a larger pattern
+
+`egrep 'c({{a|o|u}})p' {{path/to/file}}`
 
 - Search using standard character classes (more info: <https://www.regular-expressions.info/posixbrackets.html>):
 
