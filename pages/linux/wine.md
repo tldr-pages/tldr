@@ -29,4 +29,4 @@
 
 - Add a registry key:
 
-`wine reg add '{{path/to/hive}}' /v {{Value_name}} /t {{REG_SZ|REG_BINARY|REG_DWORD|...}} /d '{{data}}'`
+`wine reg add '{{registry_key}}' /v {{Value_name}} /t {{REG_SZ|REG_BINARY|REG_DWORD|...}} /d '{{data}}'`
