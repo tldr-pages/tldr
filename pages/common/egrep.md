@@ -28,6 +28,10 @@
 
 `egrep 'c({{a|o|u}})p' {{path/to/file}}`
 
+- Search for a group of characters repeating one or more times:
+
+`egrep '({{aeiou}})+' {{path/to/file}}`
+
 - Search using standard character classes (more info: <https://www.regular-expressions.info/posixbrackets.html>):
 
 `egrep [[{{:alnum:|:alpha:|:space:|...}}]] {{path/to/file}}`
