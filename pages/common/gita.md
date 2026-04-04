@@ -4,17 +4,17 @@
 > See also: `git`.
 > More information: <https://github.com/nosarthur/gita>.
 
-- Display a summary of all registered repositories:
+- Display a summary of a[ll] registered repositories:
 
 `gita ll`
 
-- Show the status of all registered repositories:
+- Show the [st]atus of all registered repositories:
 
 `gita st`
 
 - Register repositories with gita:
 
-`gita add {{path/to/repo1}} {{path/to/repo2}}`
+`gita add {{path/to/repo1 path/to/repo2 ...}}`
 
 - Pull updates for all registered repositories:
 
@@ -26,12 +26,12 @@
 
 - Create a group of repositories and set it as the active context:
 
-`gita group add {{group_name}} {{repo1}} {{repo2}} && gita context {{group_name}}`
+`gita group add {{[-n|--name]}} {{group_name}} {{repo1 repo2 ...}} && gita context {{group_name}}`
 
-- Fetch updates for repositories in a specific group:
+- Fetch updates for specific repositories or groups:
 
-`gita fetch {{group_name}}`
+`gita fetch {{repo1 repo2 ...|group1 group 2 ...}}`
 
-- Export the current repository configuration:
+- Display information of all repositories:
 
 `gita freeze`
