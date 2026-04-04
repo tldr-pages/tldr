@@ -10,16 +10,16 @@
 
 - Applica lo stile Java con parentesi graffe aperte sulla stessa riga (attached braces):
 
-`astyle --style=java {{percorso/del/file}}`
+`astyle {{[-A2|--style=java]}} {{percorso/del/file}}`
 
 - Applica lo stile allman per parantesi graffe su linee separate (broken braces):
 
-`astyle --style=allman {{percorso/del/file}}`
+`astyle {{[-A1|--style=allman]}} {{percorso/del/file}}`
 
 - Applica un'indentazione personalizzata utilizzando spazi. Scegli tra 2 e 20 spazi:
 
-`astyle --indent=spaces={{numero_spazi}} {{percorso/del/file}}`
+`astyle {{[-s|--indent=spaces=]}}{{numero_spazi}} {{percorso/del/file}}`
 
 - Applica un'indentazione personalizzata utilizzando tab. Scegli tra 2 e 20 tab:
 
-`astyle --indent=tab={{numero_tab}} {{percorso/del/file}}`
+`astyle {{[-t|--indent=tab=]}}{{numero_tab}} {{percorso/del/file}}`
