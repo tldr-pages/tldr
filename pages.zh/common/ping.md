@@ -1,6 +1,7 @@
 # ping
 
 > 向网络主机发送 ICMP (ECHO_REQUEST) 数据包。
+> 另请参阅：`mtr`。
 > 更多信息：<https://manned.org/ping>。
 
 - Ping 主机：

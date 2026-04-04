@@ -11,11 +11,11 @@
 
 - Ativa o modo básico, removendo gráficos e condensando dados (semelhante a `top`):
 
-`btm --basic`
+`btm {{[-b|--basic]}}`
 
 - Usa pontos grandes em vez de pequenos em gráficos:
 
-`btm --dot_marker`
+`btm {{[-m|--dot_marker]}}`
 
 - Exibe também a carga da bateria e o estado de saúde:
 
@@ -23,4 +23,4 @@
 
 - Atualiza a cada 250 milissegundos e exibe os últimos 30 segundos nos gráficos:
 
-`btm --rate 250 --default_time_value 30000`
+`btm {{[-r|--rate]}} 250 {{[-t|--default_time_value]}} 30000`

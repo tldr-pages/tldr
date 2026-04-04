@@ -13,7 +13,7 @@
 
 - Ignoriere bestimmte Dateien:
 
-`nodemon --ignore {{pfad/zu/datei_oder_verzeichnis}}`
+`nodemon {{[-i|--ignore]}} {{pfad/zu/datei_oder_verzeichnis}}`
 
 - Übergib Argumente an die Node Applikation:
 
@@ -25,8 +25,8 @@
 
 - Führe Nicht-Node Skripte aus:
 
-`nodemon --exec "{{befehl_um_skript_auszuführen}} {{argumente}}" {{pfad/zu/skript}}`
+`nodemon {{[-x|--exec]}} "{{befehl_um_skript_auszuführen}} {{argumente}}" {{pfad/zu/skript}}`
 
 - Führe ein Python-Skript aus:
 
-`nodemon --exec "python {{argumente}}" {{pfad/zu/datei.py}}`
+`nodemon {{[-x|--exec]}} "python {{argumente}}" {{pfad/zu/datei.py}}`
