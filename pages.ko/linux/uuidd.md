@@ -5,12 +5,12 @@
 
 - 무작위 UUID 생성:
 
-`uuidd --random`
+`uuidd {{[-r|--random]}}`
 
 - 다수의 무작위 UUID 생성:
 
-`uuidd --random --uuids {{UUID_개수}}`
+`uuidd {{[-r|--random]}} {{[-n|--uuids]}} {{UUID_개수}}`
 
 - 현재 시간과 시스템의 MAC 주소를 기반으로 한 시간 기반 UUID 생성:
 
-`uuidd --time`
+`uuidd {{[-t|--time]}}`

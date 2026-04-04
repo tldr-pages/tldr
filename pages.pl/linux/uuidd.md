@@ -5,12 +5,12 @@
 
 - Stwórz losowy UUID:
 
-`uuidd --random`
+`uuidd {{[-r|--random]}}`
 
 - Stwórz większą ilość losowych UUID:
 
-`uuidd --random --uuids {{ilość_uuid}}`
+`uuidd {{[-r|--random]}} {{[-n|--uuids]}} {{ilość_uuid}}`
 
 - Stwórz UUID oparty o aktualny czas i adres MAC:
 
-`uuidd --time`
+`uuidd {{[-t|--time]}}`
