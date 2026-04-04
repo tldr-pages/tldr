@@ -12,7 +12,7 @@
 
 `gita st`
 
-- Register repositories with gita:
+- Register one or more repositories with gita:
 
 `gita add {{path/to/repo1 path/to/repo2 ...}}`
 
@@ -28,7 +28,7 @@
 
 `gita group add {{[-n|--name]}} {{group_name}} {{repo1 repo2 ...}} && gita context {{group_name}}`
 
-- Fetch updates for specific repositories or groups:
+- Fetch updates for one or more repositories or groups:
 
 `gita fetch {{repo1 repo2 ...|group1 group 2 ...}}`
 
