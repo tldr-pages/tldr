@@ -4,6 +4,6 @@
 > Useful for testing what part of a pipeline is breaking.
 > More information: <https://gstreamer.freedesktop.org/documentation/coreelements/fakesink.html>.
 
-- Print information on the passed through data:
+- Consume data from a pipeline without outputting it:
 
 `gst-launch-1.0 {{pipeline}} ! fakesink`
