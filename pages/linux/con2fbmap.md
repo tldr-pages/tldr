@@ -9,4 +9,4 @@
 
 - Map a console to a specific framebuffer:
 
-`con2fbmap {{console_number}} {{framebuffer_number}}`
+`sudo con2fbmap {{console_number}} {{framebuffer_number}}`
