@@ -8,14 +8,14 @@
 
 `tload`
 
-- Change the graph scale (recommended value=10 to maintain a 1:1 scale based on the system load percentage):
+- Change the graph [s]cale (recommended value=10 to maintain a 1:1 scale based on the system load percentage):
 
-`tload -s {value}`
+`tload {{[-s|--scale]}} {{value}}`
 
 - Change the refresh rate (seconds) for the graph:
 
-`tload -d {value}`
+`tload {{[-d|--delay]}} {{value}}`
 
 - View a server's load using tload:
 
-`ssh user@ip_server -t tload -s 10 -d 1`
+`ssh {{username@host}} -t tload {{[-s|--scale]}} 10 {{[-d|--delay]}} 1`
