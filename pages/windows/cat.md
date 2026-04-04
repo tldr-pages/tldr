@@ -1,4 +1,4 @@
-# curl
+# cat
 
 > In PowerShell, this command may be an alias of `Get-Content` when the original `cat` program (part of `coreutils`) is not properly installed.
 > More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/get-content>.
