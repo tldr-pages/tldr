@@ -18,7 +18,7 @@
 
 - Busca una de las opciones de la lista:
 
-`egrep “({{gato}}|{{perro}}|{{ratón})” {{ruta/al/archivo}}`
+`egrep “({{gato}}|{{perro}}|{{ratón}})” {{ruta/al/archivo}}`
 
 - Busca utilizando clases de caracteres estándar (más información: <https://www.regular-expressions.info/posixbrackets.html>):
 
