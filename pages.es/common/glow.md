@@ -13,7 +13,7 @@
 
 - Muestra un archivo en formato Markdown usando un paginador:
 
-`glow -p {{ruta/al/archivo}}`
+`glow {{[-p|--pager]}} {{ruta/al/archivo}}`
 
 - Muestra un archivo desde una URL:
 

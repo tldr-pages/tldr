@@ -9,16 +9,16 @@
 
 - Docker 데몬을 실행하고 특정 소켓(UNIX 및 TCP)을 수신하도록 설정:
 
-`dockerd --host unix://{{경로/대상/tmp.sock}} --host tcp://{{IP}}`
+`dockerd {{[-H|--host]}} unix://{{경로/대상/tmp.sock}} {{[-H|--host]}} tcp://{{IP}}`
 
 - 특정 데몬 PID 파일로 실행:
 
-`dockerd --pidfile {{경로/대상/PID_파일}}`
+`dockerd {{[-p|--pidfile]}} {{경로/대상/PID_파일}}`
 
 - 디버그 모드로 실행:
 
-`dockerd --debug`
+`dockerd {{[-D|--debug]}}`
 
 - 특정 로그 레벨로 실행:
 
-`dockerd --log-level {{debug|info|warn|error|fatal}}`
+`dockerd {{[-l|--log-level]}} {{debug|info|warn|error|fatal}}`

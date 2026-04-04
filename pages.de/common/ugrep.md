@@ -5,7 +5,7 @@
 
 - Starte eine interaktive TUI um rekursiv nach Dateien im aktuellen Verzeichnis zu suchen (`<Ctrl z>` für Hilfe):
 
-`ugrep --query`
+`ugrep {{[-Q|--query]}}`
 
 - Suche im aktuellen Verzeichnis rekursiv nach Dateien, die einem bestimmten regulären Ausdruck entsprechen:
 
@@ -13,24 +13,24 @@
 
 - Suche in einer Datei oder in allen Dateien in einem bestimmten Verzeichnis und zeige die Zeilennummer jedes Treffers:
 
-`ugrep --line-number "{{suchmuster}}" {{pfad/zu/datei_oder_verzeichnis}}`
+`ugrep {{[-n|--line-number]}} "{{suchmuster}}" {{pfad/zu/datei_oder_verzeichnis}}`
 
 - Suche in allen Dateien im aktuellen Verzeichnis rekursiv und zeige den Dateinamen jeder passenden Datei:
 
-`ugrep --files-with-matches "{{suchmuster}}"`
+`ugrep {{[-l|--files-with-matches]}} "{{suchmuster}}"`
 
 - Suche nach einem "fuzzy" regulären Ausdruck mit bis zu 3 zusätzlichen, fehlenden oder nicht übereinstimmenden Zeichen:
 
-`ugrep --fuzzy={{3}} "{{suchmuster}}"`
+`ugrep {{[-Z|--fuzzy=]}}{{3}} "{{suchmuster}}"`
 
 - Suche auch in allen komprimierten Dateien und Zip- und `.tar`-Archive:
 
-`ugrep --decompress "{{suchmuster}}"`
+`ugrep {{[-z|--decompress]}} "{{suchmuster}}"`
 
 - Suche nur in Dateien deren Dateinamen mit einem bestimmten glob-Muster übereinstimmen:
 
-`ugrep --glob="{{glob_muster}}" "{{suchmuster}}"`
+`ugrep {{[-g |--glob=]}}"{{glob_muster}}" "{{suchmuster}}"`
 
 - Suche nur in C++ Quelldateien (verwende `--file-type=list`, um mögliche Optionen aufzulisten):
 
-`ugrep --file-type=cpp "{{suchmuster}}"`
+`ugrep {{[-t |--file-type=]}}cpp "{{suchmuster}}"`

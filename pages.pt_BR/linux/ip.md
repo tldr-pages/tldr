@@ -10,11 +10,11 @@
 
 - Lista interfaces com breves informações sobre a camada de rede:
 
-`ip {{[-br a|-brief address]}}`
+`ip {{[-br|-brief]}} {{[a|address]}}`
 
 - Lista interfaces com breves informações sobre a camada de link de dados:
 
-`ip {{[-br l|-brief link]}}`
+`ip {{[-br|-brief]}} {{[l|link]}}`
 
 - Exibe a tabela de roteamento:
 
