@@ -9,7 +9,7 @@
 
 - 특정 유형의 파일만 표시 (쉼표로 구분된 목록):
 
-`systemd-delta --type {{masked|equivalent|redirected|overridden|extended|unchanged}}`
+`systemd-delta {{[-t|--type]}} {{masked|equivalent|redirected|overridden|extended|unchanged}}`
 
 - 지정된 접두사로 시작하는 경로의 파일만 표시 (참고: 접두사는 systemd 설정 파일이 있는 하위 디렉토리를 포함하는 디렉토리입니다):
 
