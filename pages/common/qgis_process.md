@@ -14,19 +14,19 @@
 
 - Run a processing algorithm with parameters:
 
-`qgis_process run {{algorithm_id}} -- {{PARAMETER1=value1}} {{PARAMETER2=value2}}`
+`qgis_process run {{algorithm_id}} {{--PARAMETER1=value1 --PARAMETER2=value2 ...}}`
 
 - Run an algorithm and output results as JSON:
 
-`qgis_process --json run {{algorithm_id}} -- {{PARAMETER=value}}`
+`qgis_process --json run {{algorithm_id}} {{--PARAMETER1=value1 --PARAMETER2=value2 ...}}`
 
 - Run without loading plugins for faster startup:
 
-`qgis_process --skip-loading-plugins run {{algorithm_id}} -- {{PARAMETER=value}}`
+`qgis_process --skip-loading-plugins run {{algorithm_id}} {{--PARAMETER1=value1 --PARAMETER2=value2 ...}}`
 
 - Run on a headless server without a display:
 
-`QT_QPA_PLATFORM=offscreen qgis_process run {{algorithm_id}} -- {{PARAMETER=value}}`
+`QT_QPA_PLATFORM=offscreen qgis_process run {{algorithm_id}} {{--PARAMETER1=value1 --PARAMETER2=value2 ...}}`
 
 - List available and active plugins:
 
