@@ -1,8 +1,12 @@
 # docker container diff
 
-> Perintah ini merupakan alias dari `docker diff`.
+> Lihat perubahan terhadap berkas atau direktori pada suatu sistem penyimpanan (filesystem) yang terpasang pada suatu kontainer
 > Informasi lebih lanjut: <https://docs.docker.com/reference/cli/docker/container/diff/>.
 
-- Tampilkan dokumentasi untuk perintah asli:
+- Lihat daftar perubahan terhadap suatu kontainer sejak awal dibentuk:
 
-`tldr docker diff`
+`docker {{[diff|container diff]}} {{container}}`
+
+- Tampilkan bantuan:
+
+`docker {{[diff|container diff]}} --help`
