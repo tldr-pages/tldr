@@ -8,7 +8,7 @@
 
 `qgis_process list`
 
-- Show help for a specific algorithm:
+- Display help for a specific algorithm:
 
 `qgis_process help {{algorithm_id}}`
 
