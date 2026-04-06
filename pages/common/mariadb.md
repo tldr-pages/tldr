@@ -3,7 +3,7 @@
 > The mariadb client tool.
 > More information: <https://mariadb.com/docs/server/clients-and-utilities/mariadb-client/mariadb-command-line-client>.
 
-- Connect to MariaDB as the user running the database:
+- Connect to MariaDB as the current user:
 
 `mariadb`
 
