@@ -9,7 +9,7 @@
 
 - Specify an host to connect to automatically:
 
-`krdc {{rdp://user@ip_address}}`
+`krdc {{vnc|rdp}}://{{username}}@{{remote_host}}`
 
 - Start the connection in fullscreen mode:
 
