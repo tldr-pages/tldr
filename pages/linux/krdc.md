@@ -1,7 +1,7 @@
 # krdc
 
 > Connect to a remote desktop server.
-> More information: <https://invent.kde.org/network/krdc>.
+> More information: <https://invent.kde.org/network/krdc#usage>.
 
 - Start KRDC:
 
