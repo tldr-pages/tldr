@@ -4,7 +4,7 @@
 > See also: `uptime`, `w`, `top`, `ps`.
 > More information: <https://manned.org/tload>.
 
-- Run:
+- Run tload:
 
 `tload`
 
