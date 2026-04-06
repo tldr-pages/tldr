@@ -30,4 +30,3 @@
 - Remove an option:
 
 `pct set {{100}} --delete {{net0,mp0,mp1,...}}`
-
