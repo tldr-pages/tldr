@@ -3,6 +3,10 @@
 > The mariadb client tool.
 > More information: <https://mariadb.com/docs/server/clients-and-utilities/mariadb-client/mariadb-command-line-client>.
 
+- Connect to MariaDB as the user running the database:
+
+`mariadb`
+
 - Connect to a specific MariaDB database:
 
 `mariadb {{db_name}}`
@@ -30,7 +34,3 @@
 - Connect using a socket file for local connections:
 
 `mariadb {{[-S|--socket]}} {{path/to/socket_name}}`
-
-- Display help:
-
-`mariadb {{[-?|--help]}}`
