@@ -17,7 +17,7 @@
 
 - Create a Wi-Fi hotspot:
 
-`nmcli {{[d|device]}} {{[w|wifi]}} {{[ho|hotspot]}} ifname {{wlan0}} ssid {{hotspot_ssid}} password {{password}}`
+`nmcli {{[d|device]}} {{[w|wifi]}} {{[ho|hotspot]}} ifname {{wlan0}} ssid "{{hotspot_ssid}}" password "{{password}}"`
 
 - Print the password and QR code for the current Wi-Fi network:
 
