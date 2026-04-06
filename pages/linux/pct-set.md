@@ -15,6 +15,10 @@
 
 `pct set {{100}} --memory {{8192}} --cpulimit {{4}}`
 
+- Set the hostname of a container:
+
+`pct set {{100}} --hostname {{new_name}}`
+
 - Mount a host file location in a guest:
 
 `pct set {{100}} --mp{{0}} /{{path/to/host_directory}},mp=/{{path/to/guest_mount_point}}`
@@ -26,3 +30,4 @@
 - Remove an option:
 
 `pct set {{100}} --delete {{net0,mp0,mp1,...}}`
+
