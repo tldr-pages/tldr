@@ -9,20 +9,20 @@
 
 - Crea una nueva configuración por defecto:
 
-`conky -C > ~/.conkyrc`
+`conky {{[-C|--print-config]}} > ~/.conkyrc`
 
 - Ejecuta conky con un archivo de configuración concreto:
 
-`conky -c {{ruta/a/la/configuración}}`
+`conky {{[-c|--config]}} {{ruta/a/la/configuración}}`
 
 - Ejecuta en segundo plano (daemon):
 
-`conky -d`
+`conky {{[-d|--daemonize]}}`
 
 - Alinea conky en el escritorio:
 
-`conky -a {{top|bottom|middle}}_{{left|right|middle}}`
+`conky {{[-a|--alignment]}} {{top|bottom|middle}}_{{left|right|middle}}`
 
 - Pausa de 5 segundos al iniciar antes de ejecutarlo:
 
-`conky -p {{5}}`
+`conky {{[-p|--pause]}} {{5}}`

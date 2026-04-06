@@ -1,6 +1,7 @@
 # azcopy
 
 > அஸூர் கிளவுட் சேமிப்பகம் கணக்குகளில் பதிவேற்றுவதற்கான கோப்பு பரிமாற்றக் கருவி.
+> மேலும் காண்க: `az storage`.
 > மேலும் விவரத்திற்கு: <https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10#list-of-commands>.
 
 - அசூர் குத்தகைதாரரிடம் உள்நுழையவும்:

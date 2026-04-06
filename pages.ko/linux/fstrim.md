@@ -6,7 +6,7 @@
 
 - 지원되는 모든 마운트된 파티션의 사용되지 않는 블록 삭제:
 
-`sudo fstrim --all`
+`sudo fstrim {{[-a|--all]}}`
 
 - 지정된 파티션의 사용되지 않는 블록 삭제:
 
@@ -14,4 +14,4 @@
 
 - 삭제 후 통계 표시:
 
-`sudo fstrim --verbose {{/}}`
+`sudo fstrim {{[-v|--verbose]}} {{/}}`

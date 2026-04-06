@@ -21,7 +21,7 @@
 
 - Tambahkan juga berkas yang diabaikan:
 
-`git add {{[-f|--force]}}`
+`git add {{[-f|--force]}} {{jalan/menuju/berkas}}`
 
 - Tambahkan berkas ke status stage secara interaktif:
 

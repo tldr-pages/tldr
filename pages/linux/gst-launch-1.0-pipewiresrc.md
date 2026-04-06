@@ -15,6 +15,10 @@
 
 `gst-launch-1.0 {{[-e|--eos-on-shutdown]}} pipewiresrc ! videoconvert ! {{x264enc}} ! {{h264parse}} ! {{matroskamux}} ! filesink location={{path/to/file.mkv}}`
 
+- Capture a screenshot from a video node:
+
+`gst-launch-1.0 pipewiresrc num-buffers=1 ! videoconvert ! {{pngenc}} ! filesink location={{path/to/file.png}}`
+
 - Record audio into a file:
 
 `gst-launch-1.0 {{[-e|--eos-on-shutdown]}} pipewiresrc ! {{opusenc}} ! {{oggmux}} ! filesink location={{path/to/file.ogg}}`

@@ -8,30 +8,30 @@
 
 `pnpm init`
 
-- Unduh semua paket yang terdaftar sebagai dependensi di `package.json`:
+- Unduh semua paket yang terdaftar sebagai ketergantungan/dependensi di `package.json`:
 
-`pnpm install`
+`pnpm {{[i|install]}}`
 
-- Unduh versi tertentu dari sebuah paket dan menambahkan ke daftar dependensi di `package.json`:
+- Unduh versi tertentu dari sebuah paket dan menambahkan ke daftar ketergantungan di `package.json`:
 
 `pnpm add {{nama_modul}}@{{versi}}`
 
-- Unduh paket dan menambahkan ke daftar dependensi [D]ev di `package.json`:
+- Unduh paket dan menambahkan ke daftar ketergantungan [D]ev di `package.json`:
 
-`pnpm add {{[-D|--save-dev]}} {{module_name}}`
+`pnpm add {{nama_modul}} {{[-D|--save-dev]}}`
 
-- Unduh paket dan instal secara [g]lobal:
+- Unduh dan pasang paket secara [g]lobal:
 
-`pnpm add {{[-g|--global]}} {{module_name}}`
+`pnpm add {{module_name}} {{[-g|--global]}}`
 
-- Copot pemasangan paket dan hapus dari daftar dependensi di `package.json`:
+- Copot pemasangan dan hapus paket dari daftar ketergantungan dalam `package.json`:
 
-`pnpm remove {{module_name}}`
+`pnpm {{[rm|remove]}} {{module_name}}`
 
-- Mencetak pohon dependensi yang diinstal secara lokal:
+- Tampilkan daftar ketergantungan yang diinstal secara lokal:
 
-`pnpm list`
+`pnpm {{[ls|list]}}`
 
-- Buat daftar modul tingkat atas yang diinstal secara [g]lobal:
+- Tampilkan daftar modul tingkat atas yang diinstal secara [g]lobal:
 
-`pnpm list {{[-g|--global]}} --depth {{0}}`
+`pnpm {{[ls|list]}} {{[-g|--global]}} --depth {{0}}`
