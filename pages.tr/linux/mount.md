@@ -1,6 +1,7 @@
 # mount
 
 > Tek bir dizindeki tüm dosya sistemlerine erişin.
+> Ayrıca bakınız: `udisksctl`.
 > Daha fazla bilgi için: <https://manned.org/mount.8>.
 
 - Bağlı olan tüm dosya sistemlerini görüntüleyin:

@@ -1,16 +1,20 @@
 # arp
 
-> Mostra e gestisci la cache ARP di sistema.
+> Visualizza e gestisce la cache ARP di sistema.
 > Maggiori informazioni: <https://manned.org/arp.8>.
 
-- Mostra la tabella ARP corrente:
+- Visualizza la tabella ARP corrente:
+
+`arp`
+
+- Mostra output in formato [a]lternativo stile BSD con colonne fisse:
 
 `arp -a`
 
 - Elimina una specifica voce:
 
-`arp -d {{indirizzo}}`
+`sudo arp -d {{indirizzo}}`
 
-- Crea una nuova voce:
+- Imposta/crea una nuova voce nella tabella ARP:
 
-`arp -s {{indirizzo}} {{indirizzo_mac}}`
+`sudo arp -s {{indirizzo}} {{indirizzo_mac}}`

@@ -9,7 +9,7 @@
 
 - Inicia `picom` como proceso en segundo plano:
 
-`picom -b`
+`picom {{[-b|--daemon]}}`
 
 - Utiliza un archivo de configuración personalizado:
 

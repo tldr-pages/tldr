@@ -10,4 +10,4 @@
 
 - 파일 이름을 찾는 즉시 표시:
 
-`sudo updatedb --verbose`
+`sudo updatedb {{[-v|--verbose]}}`

@@ -9,7 +9,7 @@
 
 - 파일을 강제로 덮어 쓰기:
 
-`cradle install --force`
+`cradle install {{[-f|--force]}}`
 
 - 실행중인 SQL 마이그레이션 건너 뛰기:
 

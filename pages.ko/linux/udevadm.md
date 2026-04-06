@@ -9,19 +9,19 @@
 
 - 커널에 의해 전송된 `uevent` 출력:
 
-`sudo udevadm monitor --kernel`
+`sudo udevadm monitor {{[-k|--kernel]}}`
 
 - `udev`에 의해 처리된 후의 장치 이벤트 출력:
 
-`sudo udevadm monitor --udev`
+`sudo udevadm monitor {{[-u|--udev]}}`
 
 - 장치 `/dev/sda`의 속성 나열:
 
-`sudo udevadm info --attribute-walk {{/dev/sda}}`
+`sudo udevadm info {{[-a|--attribute-walk]}} {{/dev/sda}}`
 
 - 모든 `udev` 규칙 다시 로드:
 
-`sudo udevadm control --reload`
+`sudo udevadm control {{[-R|--reload]}}`
 
 - 모든 `udev` 규칙 실행 트리거:
 

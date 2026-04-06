@@ -1,29 +1,25 @@
 # age
 
-> Uno strumento semplice, moderno e sicuro per la cifratura di file.
+> Strumento semplice, moderno e sicuro per la crittografia di file.
 > Vedi anche: `age-keygen`.
 > Maggiori informazioni: <https://github.com/FiloSottile/age#usage>.
 
-- Generare un file cifrato che può essere decifrato con una passphrase:
+- Crea un file crittografato che può essere decrittato con una passphrase:
 
-`age --passphrase --output {{percorso/del/file_cifrato}} {{percorso/del/file_non_cifrato}}`
+`age {{[-p|--passphrase]}} {{[-o|--output]}} {{percorso/file_crittografato.age}} {{percorso/file_non_crittografato}}`
 
-- Generare una coppia di chiavi, salvando la chiave privata in un file non cifrato e stampando sullo `stdout` la chiave pubblica:
+- Crittografa un file con una o più chiavi pubbliche inserite come literali (ripeti il flag `--recipient` per specificare più chiavi pubbliche):
 
-`age-keygen --output {{percorso/del/file}}`
+`age {{[-r|--recipient]}} {{chiave_pubblica}} {{[-o|--output]}} {{percorso/file_crittografato.age}} {{percorso/file_non_crittografato}}`
 
-- Cifrare un file con una o più chiavi pubbliche inserite come letterali:
+- Crittografa un file per uno o più destinatari con le loro chiavi pubbliche specificate in un file (una per riga):
 
-`age --recipient {{chiave_pubblica_1}} --recipient {{chiave_pubblica_2}} {{percorso/del/file_non_cifrato}} --output {{percorso/del/file_cifrato}}`
+`age {{[-R|--recipients-file]}} {{percorso/file_destinatari.txt}} {{[-o|--output]}} {{percorso/file_crittografato.age}} {{percorso/file_non_crittografato}}`
 
-- Cifrare un file con una o più chiavi pubbliche specificate in un file di destinatari:
+- Decrittografa un file con una passphrase:
 
-`age --recipients-file {{percorso/del/file_di_destinatari}} {{percorso/del/file_non_cifrato}} --output {{percorso/del/file_cifrato}}`
+`age {{[-d|--decrypt]}} {{[-o|--output]}} {{percorso/file_decrittografato}} {{percorso/file_crittografato.age}}`
 
-- Decifrare un file con una passphrase:
+- Decrittografa un file con un file di chiave privata:
 
-`age --decrypt --output {{percorso/del/file_decifrato}} {{percorso/del/file_cifrato}}`
-
-- Decifrare un file con il file di una chiave privata:
-
-`age --decrypt --identity {{percorso/del/file_chiave_privata}} --output {{percorso/del/file_decifrato}} {{percorso/del/file_cifrato}}`
+`age {{[-d|--decrypt]}} {{[-i|--identity]}} {{percorso/file_chiave_privata}} {{[-o|--output]}} {{percorso/file_decrittografato}} {{percorso/file_crittografato.age}}`
