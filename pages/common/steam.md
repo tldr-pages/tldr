@@ -27,6 +27,10 @@
 
 `steam -tenfoot`
 
+- Open a URL:
+
+`steam steam://openurl/{{https://example.com}}`
+
 - Exit Steam:
 
 `steam -shutdown`

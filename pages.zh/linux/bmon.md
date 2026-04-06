@@ -5,16 +5,16 @@
 
 - 显示所有接口的列表：
 
-`bmon -a`
+`bmon {{[-a|--show-all]}}`
 
 - 以每秒位数显示数据传输速率：
 
-`bmon -b`
+`bmon {{[-b|--use-bit]}}`
 
 - 设置策略以定义显示哪些网络接口：
 
-`bmon -p {{interface_1,interface_2,interface_3}}`
+`bmon {{[-p|--policy]}} {{interface_1,interface_2,interface_3}}`
 
 - 设置计算每个计数器速率的间隔（以秒为单位）：
 
-`bmon -R {{2.0}}`
+`bmon {{[-R|--rate-interval]}} {{2.0}}`
