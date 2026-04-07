@@ -1,6 +1,6 @@
 # gita
 
-> Manage multiple git repositories side by side.
+> Manage multiple Git repositories side by side.
 > See also: `git`.
 > More information: <https://github.com/nosarthur/gita>.
 
@@ -20,7 +20,7 @@
 
 `gita pull`
 
-- Run a git command on a specific repository:
+- Run a Git command on a specific repository:
 
 `gita super {{repo_name}} {{git_command}}`
 
