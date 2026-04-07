@@ -15,7 +15,7 @@
 
 `krfb-virtualmonitor --name {{monitor_name}}`
 
-- Set the monitor password for remote connection on port `5900`:
+- Set the monitor password for remote VNC connection on port `5900`:
 
 `krfb-virtualmonitor --password {{password}}`
 
