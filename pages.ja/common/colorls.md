@@ -9,12 +9,12 @@
 
 - 隠しファイルを含めた全てのファイルを表示する:
 
-`colorls --all`
+`colorls {{[-a|--all]}}`
 
 - 全てのファイルを長文形式（パーミッション、所有者、サイズ、更新日時）で表示する:
 
-`colorls --long --all`
+`colorls {{[-l|--long]}} {{[-a|--all]}}`
 
 - ディレクトリのみ表示する:
 
-`colorls --dirs`
+`colorls {{[-d|--dirs]}}`
