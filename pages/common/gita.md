@@ -30,7 +30,7 @@
 
 - Fetch updates for one or more repositories or groups:
 
-`gita fetch {{repo1 repo2 ...|group1 group 2 ...}}`
+`gita fetch {{repo1 repo2 ...|group1 group2 ...}}`
 
 - Display information of all repositories:
 
