@@ -3,11 +3,11 @@
 > Install system software and packages to a specified domain or volume.
 > More information: <https://ss64.com/mac/installer.html>.
 
-- Install the Python package to the root volume with verbose output:
+- Install a Python package to the root volume with verbose output:
 
 `sudo installer -verbose {{[-pkg|-package]}} {{path/to/python-version.pkg}} {{[-tgt|-target]}} /`
 
-- Display list of packages (or subpackages for .mpkg) that can be installed on the target volume:
+- Display list of packages (or subpackages for `.mpkg`) that can be installed on the target volume:
 
 `installer -pkginfo {{[-pkg|-package]}} {{path/to/package.pkg}}`
 
@@ -15,7 +15,7 @@
 
 `installer -volinfo {{[-pkg|-package]}} {{path/to/package.pkg}}`
 
-- Display list of domains into which the packge can be installed:
+- Display list of domains into which the package can be installed:
 
 `installer -dominfo {{[-pkg|-package]}} {{path/to/package.pkg}}`
 
