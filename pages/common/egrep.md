@@ -26,7 +26,7 @@
 
 - Search for one of the listed options inside a larger pattern:
 
-`egrep 'c({{a|o|u}})p' {{path/to/file}}`
+`egrep 'c({{a}}|{{o}}|{{u}})p' {{path/to/file}}`
 
 - Search for a group of characters repeating one or more times:
 
