@@ -10,7 +10,7 @@
 
 - Call a specific target:
 
-`make {{target}}`
+`make {{install|check|clean|uninstall|...}}`
 
 - Call a specific target, executing 4 jobs at a time in parallel:
 
