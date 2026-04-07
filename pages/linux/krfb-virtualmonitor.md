@@ -15,13 +15,13 @@
 
 `krfb-virtualmonitor --name {{monitor_name}}`
 
-- Set the monitor password for remote connection on port `9999`:
+- Set the monitor password for remote connection on port `5900`:
 
 `krfb-virtualmonitor --password {{password}}`
 
 - Set the password and the port:
 
-`krfb-virtualmonitor --password {{password}} --port {{5900}}`
+`krfb-virtualmonitor --password {{password}} --port {{port}}`
 
 - Display help:
 
