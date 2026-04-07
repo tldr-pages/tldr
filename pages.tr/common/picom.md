@@ -9,7 +9,7 @@
 
 - `picom`'u bir arkaplan işlemi olarak başlatın:
 
-`picom {{-b|--daemon]}}`
+`picom {{[-b|--daemon]}}`
 
 - Özel yapılandırma dosyası kullanın:
 

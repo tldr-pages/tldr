@@ -6,20 +6,20 @@
 
 - Converti in un file delimitato da tab (TSV):
 
-`csvformat -T {{dati.csv}}`
+`csvformat {{[-T|--out-tabs]}} {{dati.csv}}`
 
 - Converti i delimitatori in un carattere personalizzato:
 
-`csvformat -D "{{carattere_personalizzato}}" {{dati.csv}}`
+`csvformat {{[-D|--out-delimiter]}} "{{carattere_personalizzato}}" {{dati.csv}}`
 
 - Converti caratteri newline a carriage return (^M) + newline:
 
-`csvformat -M "{{\r\n}}" {{dati.csv}}`
+`csvformat {{[-M|--out-lineterminator]}} "{{\r\n}}" {{dati.csv}}`
 
 - Minimizza l'utilizzo delle virgolette:
 
-`csvformat -U 0 {{dati.csv}}`
+`csvformat {{[-U|--out-quoting]}} 0 {{dati.csv}}`
 
 - Massimizza l'utilizzo delle virgolette:
 
-`csvformat -U 1 {{dati.csv}}`
+`csvformat {{[-U|--out-quoting]}} 1 {{dati.csv}}`
