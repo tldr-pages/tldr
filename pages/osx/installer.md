@@ -5,24 +5,24 @@
 
 - Install the Python package to the root volume with verbose output:
 
-`sudo installer -verbose {{[-pkg|-package]}} {{/path/to/python-version.pkg}} {{[-tgt|-target]}} /`
+`sudo installer -verbose {{[-pkg|-package]}} {{path/to/python-version.pkg}} {{[-tgt|-target]}} /`
 
 - Display list of packages (or subpackages for .mpkg) that can be installed on the target volume:
 
-`installer -pkginfo {{[-pkg|-package]}} {{/path/to/package.pkg}}`
+`installer -pkginfo {{[-pkg|-package]}} {{path/to/package.pkg}}`
 
 - Display list of volumes onto which the package can be installed:
 
-`installer -volinfo {{[-pkg|-package]}} {{/path/to/package.pkg}}`
+`installer -volinfo {{[-pkg|-package]}} {{path/to/package.pkg}}`
 
 - Display list of domains into which the packge can be installed:
 
-`installer -dominfo {{[-pkg|-package]}} {{/path/to/package.pkg}}`
+`installer -dominfo {{[-pkg|-package]}} {{path/to/package.pkg}}`
 
 - Generate XML of install choices for a package:
 
-`installer {{[-pkg|-package]}} {{/path/to/package.pkg}} -showChoiceChangesXML`
+`installer {{[-pkg|-package]}} {{path/to/package.pkg}} -showChoiceChangesXML`
 
 - Install package using XML config instead of command line parameters:
 
-`sudo installer {{[-pkg|-package]}} {{/path/to/package.pkg}} -file {{/path/to/config-file}}`
+`sudo installer {{[-pkg|-package]}} {{path/to/package.pkg}} -file {{path/to/config-file}}`
