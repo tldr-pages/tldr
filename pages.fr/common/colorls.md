@@ -9,12 +9,12 @@
 
 - Liste tous les fichiers, y compris les fichiers cachés :
 
-`colorls --all`
+`colorls {{[-a|--all]}}`
 
 - Liste au format long (autorisations, propriété, taille et date de modification) de tous les fichiers :
 
-`colorls --long --all`
+`colorls {{[-l|--long]}} {{[-a|--all]}}`
 
 - Ne liste que les répertoires :
 
-`colorls --dirs`
+`colorls {{[-d|--dirs]}}`

@@ -5,16 +5,16 @@
 
 - 모든 열의 인덱스 및 이름 출력:
 
-`csvcut -n {{데이터.csv}}`
+`csvcut {{[-n|--names]}} {{데이터.csv}}`
 
 - 첫번째 및 세번째 열 출력:
 
-`csvcut -c {{1,3}} {{데이터.csv}}`
+`csvcut {{[-c|--columns]}} {{1,3}} {{데이터.csv}}`
 
 - 네번째 열을 제외한 모든 열 출력:
 
-`csvcut -C {{4}} {{데이터.csv}}`
+`csvcut {{[-C|--not-columns]}} {{4}} {{데이터.csv}}`
 
 - "id" 및 "first name" (이 순서대로) 열 출력:
 
-`csvcut -c {{id,"first name"}} {{데이터.csv}}`
+`csvcut {{[-c|--columns]}} {{id,"first name"}} {{데이터.csv}}`
