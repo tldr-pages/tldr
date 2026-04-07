@@ -13,7 +13,7 @@
 
 - Tail the logs of a CloudWatch log group based on a filter:
 
-`aws logs tail {{name}} --filter-pattern {{pattern}}`
+`aws logs tail {{log_group_name}} --filter-pattern {{pattern}}`
 
 - Stream near real-time logs from log group:
 
