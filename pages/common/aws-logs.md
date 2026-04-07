@@ -9,7 +9,7 @@
 
 - Continuously poll logs of a CloudWatch log group:
 
-`aws logs tail {{name}} --follow`
+`aws logs tail {{log_group_name}} --follow`
 
 - Tail the logs of a CloudWatch log group based on a filter:
 
