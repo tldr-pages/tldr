@@ -21,4 +21,4 @@
 
 - Export logs to S3 bucket:
 
-`aws logs create-export-task --log-group-name {{name}} --from {{start_time}} --to {{end_time}} --destination {{name}}`
+`aws logs create-export-task --log-group-name {{log_group_name}} --from {{start_time}} --to {{end_time}} --destination {{s3_bucket_name}}`
