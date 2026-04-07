@@ -13,7 +13,7 @@
 
 - Belirli dosyaları göz ardı eder:
 
-`nodemon --ignore {{dosya/yolu/dosya_veya_dizin}}`
+`nodemon {{[-i|--ignore]}} {{dosya/yolu/dosya_veya_dizin}}`
 
 - Node uygulamasına argümanlar geçirir:
 
@@ -25,8 +25,8 @@
 
 - Node olmayan bir komut dosyasını çalıştırır:
 
-`nodemon --exec "{{komut}} {{seçenekler}}" {{dosya/yolu/komut}}`
+`nodemon {{[-x|--exec]}} "{{komut}} {{seçenekler}}" {{dosya/yolu/komut}}`
 
 - Python kodunu çalıştırır:
 
-`nodemon --exec "python {{seçenekler}}" {{dosya/yolu/dosya.py}}`
+`nodemon {{[-x|--exec]}} "python {{seçenekler}}" {{dosya/yolu/dosya.py}}`

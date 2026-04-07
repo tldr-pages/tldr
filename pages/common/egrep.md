@@ -16,9 +16,21 @@
 
 `egrep '{{a}}{10}' {{path/to/file}}`
 
+- Search for 3 to 7 repetitions of a character:
+
+`egrep '{{a}}{3,7}' {{path/to/file}}`
+
 - Search for one of the listed options:
 
-`egrep '({{cat}}|{{dog}}|{{mouse}})' {{path/to/file}}`
+`egrep '{{cat}}|{{dog}}|{{mouse}}' {{path/to/file}}`
+
+- Search for one of the listed options inside a larger pattern:
+
+`egrep 'c({{a|o|u}})p' {{path/to/file}}`
+
+- Search for a group of characters repeating one or more times:
+
+`egrep '({{aeiou}})+' {{path/to/file}}`
 
 - Search using standard character classes (more info: <https://www.regular-expressions.info/posixbrackets.html>):
 
