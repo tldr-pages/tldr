@@ -9,8 +9,8 @@
 
 - ساخت یک دیتابیس که صاحب آن یک کاربر خاص باشد و توضیحاتی درمورد آن نیز ارائه شده باشد:
 
-`createdb --owner {{username}} {{database_name}} '{{description}}'`
+`createdb {{[-O|--owner]}} {{username}} {{database_name}} '{{description}}'`
 
 - ساخت یک دیتابیس از روی یک قالب:
 
-`createdb --template {{template_name}} {{database_name}}`
+`createdb {{[-T|--template]}} {{template_name}} {{database_name}}`
