@@ -17,7 +17,7 @@
 
 - Stream near real-time logs from log group:
 
-`aws logs start-live-tail --log-group-identifiers {{name}}`
+`aws logs start-live-tail --log-group-identifiers {{log_group_name}}`
 
 - Export logs to S3 bucket:
 
