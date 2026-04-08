@@ -15,10 +15,10 @@
 
 `aws logs tail {{log_group_name}} --filter-pattern {{pattern}}`
 
-- Stream near real-time logs from log group:
+- Stream near real-time logs from a log group:
 
 `aws logs start-live-tail --log-group-identifiers {{log_group_name}}`
 
-- Export logs to S3 bucket:
+- Export logs to an S3 bucket:
 
 `aws logs create-export-task --log-group-name {{log_group_name}} --from {{start_time}} --to {{end_time}} --destination {{s3_bucket_name}}`
