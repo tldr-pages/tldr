@@ -11,6 +11,6 @@
 
 `aws mq list-brokers`
 
-- Describe broker:
+- Describe a specific broker:
 
 `aws mq describe-broker --broker-id {{broker_id}}`
