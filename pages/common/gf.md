@@ -9,19 +9,15 @@
 
 - Search for a specific pattern in a file or directory:
 
-`gf {{pattern_name}} {{path/to/file_or_directory}}`
+`gf {{pattern_name}} {{path/to/file}}`
 
-- Search for a pattern using `stdin` (pipe):
+- Search for a pattern using `stdin`:
 
-`cat {{path/to/file}} | gf {{pattern_name}}`
+`cat {{file}} | gf {{pattern_name}}`
 
 - Display the raw `regex` for a specific pattern:
 
 `gf {{-dump}} {{pattern_name}}`
-
-- List the directory where `gf` looks for its JSON pattern definitions:
-
-`ls {{~/.gf}}`
 
 - Combine `gf` with other tools to find interesting parameters in URLs:
 
