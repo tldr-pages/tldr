@@ -7,7 +7,7 @@
 
 `krdc`
 
-- Automatically connect to a host with the current username using VNC
+- Automatically connect to a host with the current username using VNC:
 
 `krdc {{remote_host}}`
 
