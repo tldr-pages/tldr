@@ -15,7 +15,7 @@
 
 `aws ssm list-command-invocations --command-id "{{command_id}}" --details`
 
-- Start a session with an instance:
+- Start an interactive session with an instance:
 
 `aws ssm start-session --target "{{instance_id}}"`
 
