@@ -20,6 +20,6 @@
 
 `aws ssm start-session --target "{{instance_id}}"`
 
-- Port forward to a remote host:
+- Start a port forwarding session to a remote host:
 
 `aws ssm start-session --target "{{instance_id}}" --document-name "AWS-StartPortForwardingSessionToRemoteHost" --parameters '{"portNumber":["{{remote_port}}"],"localPortNumber":["{{local_port}}"]}'`
