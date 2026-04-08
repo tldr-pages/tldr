@@ -9,11 +9,11 @@
 
 - 프로토콜을 SSH로 설정:
 
-`gh config set git_protocol {{ssh}}`
+`gh config set git_protocol ssh`
 
 - 모든 `gh` 명령어의 기본 페이지로 `delta`를 나란히 보기 모드로 사용:
 
-`gh config set pager '{{delta --side-by-side}}'`
+`gh config set pager 'delta --side-by-side'`
 
 - 텍스트 편집기를 Vim으로 설정:
 
