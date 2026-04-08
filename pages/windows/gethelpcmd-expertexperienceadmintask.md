@@ -1,0 +1,18 @@
+# GetHelpCmd ExpertExperienceAdminTask
+
+> Get detailed installation and configuration information on legacy Microsoft Outlook with Microsoft Office and Windows.
+> Part of `GetHelpCmd.exe`, formerly `SaRAcmd.exe` (Microsoft Support and Recovery Assistant).
+> Note: This tool has been deprecated and will not work in the new Outlook application.
+> More information: <https://learn.microsoft.com/troubleshoot/microsoft-365/admin/miscellaneous/get-help-outlook-calendar-scan>.
+
+- Get detailed information and accept this command's End-User License Agreement (EULA):
+
+`GetHelpCmd.exe -S ExpertExperienceAdminTask -AcceptEula`
+
+- Get detailed information and save logs to a file:
+
+`GetHelpCmd.exe -S ExpertExperienceAdminTask -AcceptEula -LogFolder {{path\to\file}}`
+
+- Get detailed information and hide the program progress:
+
+`GetHelpCmd.exe -S ExpertExperienceAdminTask -AcceptEula -HideProgress`
