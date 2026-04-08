@@ -10,6 +10,10 @@
 
 `tldr get-help`
 
-- View documentation for the `OutlookCalendarCheckTask` utility:
+- View documentation for the `ExpertExperienceAdminTask` scenario:
+
+`tldr gethelpcmd-expertexperienceadmintask`
+
+- View documentation for the `OutlookCalendarCheckTask` scenario:
 
 `tldr gethelpcmd-outlookcalendarchecktask`
