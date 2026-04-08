@@ -3,7 +3,7 @@
 > Define and operate message brokers in AWS.
 > More information: <https://docs.aws.amazon.com/cli/latest/reference/mq/>.
 
-- Create broker:
+- Create a broker:
 
 `aws mq create-broker --host-instance-type {{instance_type}} --broker-name {{name}} --engine-type [ACTIVEMQ|RABBITMQ] [--publicly-accessible|--no-publicly-accessible]`
 
