@@ -1,6 +1,7 @@
 # aws ssm
 
-> Securely interact with and manage AWS resources. Interactive sessions require the Session Manager plugin installed.
+> Securely interact with and manage AWS resources.
+> Note: Interactive sessions require the Session Manager plugin to be installed.
 > More information: <https://docs.aws.amazon.com/cli/latest/reference/ssm/>.
 
 - Run commands on instances:
