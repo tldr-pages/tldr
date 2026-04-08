@@ -7,7 +7,7 @@
 
 `aws mq create-broker --host-instance-type {{instance_type}} --broker-name {{name}} --engine-type [ACTIVEMQ|RABBITMQ] [--publicly-accessible|--no-publicly-accessible]`
 
-- List brokers:
+- List all brokers:
 
 `aws mq list-brokers`
 
