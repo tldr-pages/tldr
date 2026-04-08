@@ -9,4 +9,4 @@
 
 - Muestra informes cada 2 segundos por 5 veces:
 
-`vmstat {{2}} {{5}}`
+`vmstat 2 5`
