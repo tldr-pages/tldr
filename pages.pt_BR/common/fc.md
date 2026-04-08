@@ -10,7 +10,7 @@
 
 - Especifica o editor de texto que será utilizado ao executar o comando:
 
-`fc -e {{'emacs'}}`
+`fc -e '{{emacs}}'`
 
 - Exibe um histórico dos últimos comandos executados:
 
