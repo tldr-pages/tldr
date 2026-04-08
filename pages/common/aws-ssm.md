@@ -5,7 +5,7 @@
 
 - Run commands on instances:
 
-`aws ssm send-command --instance-ids "{{instance_id}}" "{{second_instance_id}}" --document-name "AWS-RunShellScript" --parameters 'commands=["{{command}}"]'`
+`aws ssm send-command --instance-ids {{instance_id1 instance_id2 ...}} --document-name "AWS-RunShellScript" --parameters 'commands=["{{command}}"]'`
 
 - Check command invocations on an instance:
 
