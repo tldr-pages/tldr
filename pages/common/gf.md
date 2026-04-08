@@ -5,7 +5,7 @@
 
 - List all available patterns:
 
-`gf {{-list}}`
+`gf -list`
 
 - Search for a specific pattern in a file or directory:
 
@@ -17,7 +17,7 @@
 
 - Display the raw `regex` for a specific pattern:
 
-`gf {{-dump}} {{pattern_name}}`
+`gf -dump {{pattern_name}}`
 
 - Combine `gf` with other tools to find interesting parameters in URLs:
 
