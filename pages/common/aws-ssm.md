@@ -11,7 +11,7 @@
 
 `aws ssm list-command-invocations --instance-id "{{instance_id}}"`
 
-- Check command output:
+- Check command output for a specific command invocation:
 
 `aws ssm list-command-invocations --command-id "{{command_id}}" --details`
 
