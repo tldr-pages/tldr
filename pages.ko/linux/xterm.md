@@ -21,4 +21,4 @@
 
 - Serif 글꼴과 글꼴 크기 20으로 터미널 열기:
 
-`xterm -fa {{'Serif'}} -fs {{20}}`
+`xterm -fa '{{Serif}}' -fs {{20}}`

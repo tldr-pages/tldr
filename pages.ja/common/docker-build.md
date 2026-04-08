@@ -17,7 +17,7 @@
 
 - ビルドコンテキスト無しでDockerイメージを構築する:
 
-`docker build {{[-t|--tag]}} {{名前:タグ}} - < {{Dockerfile}}`
+`docker < {{Dockerfile}} build {{[-t|--tag]}} {{名前:タグ}} -`
 
 - Dockerイメージ構築時にキャッシュを使わないようにする:
 

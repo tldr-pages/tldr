@@ -9,7 +9,7 @@
 
 - gpgconf가 사용하는 디렉토리를 나열:
 
-`gpgconf --list-dirs`
+`gpgconf {{[-L|--list-dirs]}}`
 
 - 컴포넌트의 모든 옵션을 나열:
 

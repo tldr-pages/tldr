@@ -9,7 +9,7 @@
 
 - localhost의 포트 8080에서 수신 대기:
 
-`gunicorn --bind {{localhost}}:{{8080}} {{import.path:app_object}}`
+`gunicorn {{[-b|--bind]}} {{localhost}}:{{8080}} {{import.path:app_object}}`
 
 - 실시간 새로고침을 켜기:
 
@@ -17,7 +17,7 @@
 
 - 요청 처리를 위해 4개의 작업자 프로세스를 사용:
 
-`gunicorn --workers {{4}} {{import.path:app_object}}`
+`gunicorn {{[-w|--workers]}} {{4}} {{import.path:app_object}}`
 
 - 요청 처리를 위해 4개의 작업자 스레드를 사용:
 
