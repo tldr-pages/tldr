@@ -7,10 +7,14 @@
 
 `krdc`
 
-- Specify an host to connect to automatically:
+- Automatically connect to a host with the current username using VNC
+
+`krdc {{remote_host}}`
+
+- Specify the protocol and username used to connect to a host:
 
 `krdc {{vnc|rdp}}://{{username}}@{{remote_host}}`
 
 - Start the connection in fullscreen mode:
 
-`krdc {{rdp://user@ip_address}} --fullscreen`
+`krdc {{rdp://username@ip_address}} --fullscreen`
