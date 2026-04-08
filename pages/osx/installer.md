@@ -1,7 +1,7 @@
 # installer
 
 > Install system software and packages to a specified domain or volume.
-> More information: <https://ss64.com/mac/installer.html>.
+> More information: <https://keith.github.io/xcode-man-pages/installer.8.html>.
 
 - Install a Python package to the root volume with verbose output:
 
