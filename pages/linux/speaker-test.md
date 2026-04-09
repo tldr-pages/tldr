@@ -12,7 +12,7 @@
 
 `speaker-test {{[-t|--test]}} wav`
 
-- Test multichannel speaker configurations
+- Test multichannel speaker configurations:
 
 `speaker-test {{[-t|--test]}} wav {{[-c|--channels]}} {{1..8}}`
 
@@ -23,4 +23,3 @@
 - Test the default speakers with a sine wave:
 
 `speaker-test {{[-t|--test]}} sine {{[-f|--frequency]}} {{frequency}}`
-
