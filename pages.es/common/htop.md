@@ -17,7 +17,7 @@
 
 `htop {{[-t|--tree]}}`
 
-- Ordena procesos especificando un `criterio_de_ordenamiento` (usa `htop --sort help` para ver las opciones disponibles):
+- Ordena procesos especificando un `criterio_de_ordenamiento` (use `htop --sort help` para ver las opciones disponibles):
 
 `htop {{[-s|--sort]}} {{criterio_de_ordenamiento}}`
 
@@ -36,7 +36,3 @@
 - Cambia a otro panel:
 
 `<Tab>`
-
-- Muestra la ayuda:
-
-`htop {{[-h|--help]}}`
