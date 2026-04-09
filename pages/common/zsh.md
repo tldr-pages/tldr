@@ -22,7 +22,7 @@
 
 - Execute specific commands from `stdin`:
 
-`{{echo Hello world}} | zsh`
+`{{echo echo Hello world}} | zsh`
 
 - Execute a specific script, printing each command in the script before executing it:
 
