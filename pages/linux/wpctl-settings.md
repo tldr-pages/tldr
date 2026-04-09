@@ -15,6 +15,6 @@
 
 `wpctl settings node.features.audio.mono false`
 
-- Set if disconnecting speakers will payse playback:
+- Set if disconnecting speakers will pause playback:
 
-`wpctl settings linking.pause-playback false`
+`wpctl settings linking.pause-playback {{true|false}}`
