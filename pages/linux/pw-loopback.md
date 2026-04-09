@@ -19,6 +19,10 @@
 
 `pw-loopback {{[-i|--capture-props]}} '{{media.class=Audio/Sink}}' {{[-o|--playback-props]}} '{{media.class=Audio/Source}}'`
 
+- Force the nodes to have specific ports:
+
+`pw-loopback {{[-m|--channel-map]}} '[{{FL FR}}]'`
+
 - Create a loopback device that automatically connects to the speakers and swaps the left and right channels between the sink and source:
 
 `pw-loopback {{[-i|--capture-props]}} '{{media.class=Audio/Sink audio.position=[FL FR]}}' {{[-o|--playback-props]}} '{{audio.position=[FR FL]}}'`
