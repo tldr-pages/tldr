@@ -25,6 +25,10 @@
 
 `htop {{[-d|--delay]}} {{50}}`
 
+- Desactiva todas las funciones que modifican el sistema y los procesos:
+
+`htop --readonly`
+
 - Muestra comandos interactivos mientras se está ejecutando `htop`:
 
 `{{<F1>|<?>}}`
