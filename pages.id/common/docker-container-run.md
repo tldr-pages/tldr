@@ -15,7 +15,7 @@
 
 `docker {{[run|container run]}} --rm {{[-it|--interactive --tty]}} {{citra}} {{perintah}}`
 
-- Jalankan perintah dalam suatu kontainer dengan meneruskan variabel lingkungan
+- Jalankan perintah dalam suatu kontainer dengan meneruskan variabel lingkungan:
 
 `docker {{[run|container run]}} {{[-e|--env]}} '{{variabel}}={{nilai}}' {{[-e|--env]}} {{variabel}} {{citra}} {{perintah}}`
 
