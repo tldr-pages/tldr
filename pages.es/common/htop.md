@@ -27,7 +27,7 @@
 
 - Muestra comandos interactivos mientras se está ejecutando `htop`:
 
-`<?>`
+`{{<F1>|<?>}}`
 
 - Cambia a otro panel:
 
