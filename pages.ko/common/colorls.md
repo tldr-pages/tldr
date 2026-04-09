@@ -9,12 +9,12 @@
 
 - 숨김 파일을 포함한 모든 파일을 나열:
 
-`colorls --all`
+`colorls {{[-a|--all]}}`
 
 - 모든 파일의 긴 형식 (권한, 소유권, 크기 및 수정 날짜):
 
-`colorls --long --all`
+`colorls {{[-l|--long]}} {{[-a|--all]}}`
 
 - 디렉토리만 나열:
 
-`colorls --dirs`
+`colorls {{[-d|--dirs]}}`
