@@ -1,7 +1,7 @@
 # docker container
 
 > Atur kumpulan kontainer Docker.
-> Informasi lebioh lanjut: <https://docs.docker.com/reference/cli/docker/container/>.
+> Informasi lebih lanjut: <https://docs.docker.com/reference/cli/docker/container/>.
 
 - Tampilkan daftar kontainer Docker yang sedang berjalan:
 
@@ -9,23 +9,23 @@
 
 - Jalankan satu atau beberapa kontainer yang dihentikan:
 
-`docker {{[start|container start]}} {{nama_kontainer1}} {{nama_kontainer2}}`
+`docker {{[start|container start]}} {{nama_kontainer1 nama_kontainer2 ...}}`
 
 - Matikan satu atau beberapa kontainer:
 
-`docker {{[kill|container kill]}} {{nama_kontainer1}} {{nama_kontainer2}}`
+`docker {{[kill|container kill]}} {{nama_kontainer1 nama_kontainer2 ...}}`
 
 - Hentikan satu atau beberapa kontainer:
 
-`docker {{[stop|container stop]}} {{nama_kontainer1}} {{nama_kontainer2}}`
+`docker {{[stop|container stop]}} {{nama_kontainer1 nama_kontainer2 ...}}`
 
 - Jedakan seluruh proses dalam satu atau beberapa kontainer:
 
-`docker {{[pause|container pause]}} {{nama_kontainer1}} {{nama_kontainer2}}`
+`docker {{[pause|container pause]}} {{nama_kontainer1 nama_kontainer2 ...}}`
 
 - Tampilkan rincian informasi mengenai satu atau beberapa kontainer:
 
-`docker container inspect {{nama_kontainer1}} {{nama_kontainer2}}`
+`docker container inspect {{nama_kontainer1 nama_kontainer2 ...}}`
 
 - Arsip suatu sistem penyimpanan pada kontainer ke dalam berkas `.tar`:
 
