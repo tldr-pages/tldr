@@ -1,7 +1,7 @@
 # gphoto2
 
 > Control digital camera from the command line.
-> More information: <http://www.gphoto.org/doc/manual/>.
+> More information: <http://www.gphoto.org/doc/manual/ref-gphoto2-cli.html>.
 
 - List connected cameras:
 
@@ -9,23 +9,23 @@
 
 - List files on the camera:
 
-`gphoto2 --list-files`
+`gphoto2 {{[-L|--list-files]}}`
 
 - Download all images:
 
-`gphoto2 --get-all-files`
+`gphoto2 {{[-P|--get-all-files]}}`
 
 - Download only new images (skip existing):
 
-`gphoto2 --get-all-files --new`
+`gphoto2 {{[-P|--get-all-files]}} --new`
 
 - Download specific files by range:
 
-`gphoto2 --get-file {{1-5}}`
+`gphoto2 {{[-p|--get-file]}} {{1-5}}`
 
 - Delete all files on the camera:
 
-`gphoto2 --delete-all-files`
+`gphoto2 {{[-D|--delete-all-files]}}`
 
 - Capture an image and download it:
 
