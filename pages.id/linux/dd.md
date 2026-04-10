@@ -6,11 +6,11 @@
 
 - Buat suatu perangkat USB bootable dari suatu berkas isohybrid (seperti `archlinux-xxx.iso`) dan tampilkan kemajuannya:
 
-`dd if={{jalan/menuju/berkas.iso}} of={{/dev/perangkat_usb}} status=progress`
+`sudo dd if={{jalan/menuju/berkas.iso}} of={{/dev/perangkat_usb}} status=progress`
 
 - Salin isi suatu perangkat penyimpanan menuju perangkat lain dengan ukuran blok 4 MiB dan lakukan flush write sebelum perintah berakhir:
 
-`dd bs=4M conv=fsync if={{/dev/perangkat_asal}} of={{/dev/perangkat_tujuan}}`
+`sudo dd bs=4M conv=fsync if={{/dev/perangkat_asal}} of={{/dev/perangkat_tujuan}}`
 
 - Buat suatu berkas berisikan byte acak dari perangkat pengacak dalam kernel dengan jumlah ukuran berkas yang ditentukan:
 
