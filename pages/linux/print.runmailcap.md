@@ -1,13 +1,7 @@
 # print
 
-> An alias to a `run-mailcap`'s action print.
-> Originally `run-mailcap` is used to process mime-type/file.
-> More information: <https://manned.org/print>.
+> This command is an alias of `run-mailcap --action=print`.
 
-- Print action can be used to print any file on default run-mailcap tool:
+- View documentation for the original command:
 
-`print {{filename}}`
-
-- With `run-mailcap`:
-
-`run-mailcap --action=print {{filename}}`
+`tldr run-mailcap`
