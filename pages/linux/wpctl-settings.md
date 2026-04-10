@@ -13,7 +13,7 @@
 
 - Set the whole system to have mono audio:
 
-`wpctl settings node.features.audio.mono false`
+`wpctl settings node.features.audio.mono true`
 
 - Set if disconnecting speakers will pause playback:
 
