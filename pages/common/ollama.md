@@ -12,6 +12,10 @@
 
 `ollama pull {{model}}`
 
+- List downloaded models:
+
+`ollama {{[ls|list]}}`
+
 - Run a model and chat with it:
 
 `ollama run {{model}}`
@@ -19,10 +23,6 @@
 - Run a model with a single prompt and thinking turned off:
 
 `ollama run {{model}} --think=false "{{prompt}}"`
-
-- List downloaded models:
-
-`ollama {{[ls|list]}}`
 
 - List running models:
 
