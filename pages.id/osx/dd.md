@@ -17,7 +17,7 @@
 
 - Ukur kinerja media penyimpanan dalam menulis data secara sekuensial:
 
-`dd bs={{1024}} count={{1000000}}` `if=/dev/zero of={{jalan/menuju/berkas_1GB}}`
+`dd bs={{1024}} count={{1000000}} if=/dev/zero of={{jalan/menuju/berkas_1GB}}`
 
 - Buat cadangan sistem, simpan ke dalam berkas IMG (dapat dipulihkan nanti dengan menukar `if` dan `of`), dan tampilkan kemajuannya:
 
