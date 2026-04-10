@@ -1,7 +1,6 @@
 # bun add
 
 > Add and install new dependencies to the current project.
-
 > More information: <https://bun.com/docs>.
 
 - Install a single package:
