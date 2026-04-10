@@ -8,6 +8,10 @@
 
 `ollama serve`
 
+- Pull a specific model:
+
+`ollama pull {{model}}`
+
 - Run a model and chat with it:
 
 `ollama run {{model}}`
@@ -19,10 +23,6 @@
 - List downloaded models:
 
 `ollama {{[ls|list]}}`
-
-- Pull a specific model:
-
-`ollama pull {{model}}`
 
 - List running models:
 
