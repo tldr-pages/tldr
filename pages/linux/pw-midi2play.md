@@ -1,7 +1,7 @@
 # pw-midi2play
 
 > Play MIDI 2.0 clips through PipeWire.
-> Note: This command is an alias for `pw-cat --playback --midi-clip`.
+> Note: This command is an alias of `pw-cat --playback --midi-clip`.
 > See also: `pw-cat`, `pw-midi2record`, `pw-midiplay`.
 > More information: <https://docs.pipewire.org/page_man_pw-cat_1.html>.
 
