@@ -1,4 +1,4 @@
-# gfold
+# ghead
 
 > Perintah ini merupakan alias dari GNU `head`.
 
