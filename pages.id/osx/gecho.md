@@ -1,6 +1,6 @@
 # gecho
 
-> Perintah ini merupakan alias dari `echo`.
+> Perintah ini merupakan alias dari GNU `echo`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
