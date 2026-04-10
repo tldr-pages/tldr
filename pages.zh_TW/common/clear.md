@@ -13,7 +13,7 @@
 
 - 指定要清除的終端機類型（預設為環境變數 `$TERM` 的值）：
 
-`clear -T {{type_of_terminal}}`
+`clear -T {{終端機類型}}`
 
 - 顯示 `clear` 所使用的 `ncurses` 版本：
 
