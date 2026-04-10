@@ -8,13 +8,9 @@
 
 `ni`
 
-- Install a specific package:
+- Install a specific package (-D for dev dependencies):
 
-`ni {{package}}`
-
-- Install a package as a dev dependency:
-
-`ni {{package}} -D`
+`ni {{package}}` [-D]
 
 - Run a `package.json` script (interactively select if no script is provided):
 
@@ -39,4 +35,3 @@
 - Use the current package manager agent directly for arbitrary commands:
 
 `na {{command}}`
-
