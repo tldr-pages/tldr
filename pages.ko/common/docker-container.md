@@ -9,23 +9,23 @@
 
 - 하나 혹은 더 많은 정지된 컨테이너들 실행하기:
 
-`docker {{[start|container start]}} {{컨테이너1_이름}} {{컨테이너2_이름}}`
+`docker {{[start|container start]}} {{컨테이너1_이름 컨테이너2_이름 ...}}`
 
 - 하나 혹은 더 많은 실행중인 컨테이너들 종료하기:
 
-`docker {{[kill|container kill]}} {{컨테이너_이름}}`
+`docker {{[kill|container kill]}} {{컨테이너1_이름 컨테이너2_이름 ...}}`
 
 - 하나 혹은 더 많은 실행중인 컨테이너들 중지하기:
 
-`docker {{[stop|container stop]}} {{컨테이너_이름}}`
+`docker {{[stop|container stop]}} {{컨테이너1_이름 컨테이너2_이름 ...}}`
 
 - 하나 혹은 더 많은 컨테이너들 내에서 모든 프로세스들 일시중지하기:
 
-`docker {{[pause|container pause]}} {{컨테이너_이름}}`
+`docker {{[pause|container pause]}} {{컨테이너1_이름 컨테이너2_이름 ...}}`
 
 - 하나 혹은 더 많은 컨테이너들에 대한 상세 정보 표시하기:
 
-`docker container inspect {{컨테이너_이름}}`
+`docker container inspect {{컨테이너1_이름 컨테이너2_이름 ...}}`
 
 - 컨테이너의 파일 시스템을 `.tar` 아카이브로 내보내기:
 

@@ -8,14 +8,18 @@
 
 `speaker-test`
 
-- Test the default speakers with a sine wave:
-
-`speaker-test {{[-t|--test]}} sine {{[-f|--frequency]}} {{frequency}}`
-
 - Test the default speakers with a predefined WAV file:
 
 `speaker-test {{[-t|--test]}} wav`
 
-- Test the default speakers with a WAV file:
+- Test multichannel speaker configurations:
 
-`speaker-test {{[-t|--test]}} wav {{[-w|--wavfile]}} {{path/to/file}}`
+`speaker-test {{[-t|--test]}} wav {{[-c|--channels]}} {{1..8}}`
+
+- Test the default speakers with a specific WAV file:
+
+`speaker-test {{[-t|--test]}} wav {{[-w|--wavfile]}} {{path/to/file.wav}}`
+
+- Test the default speakers with a sine wave:
+
+`speaker-test {{[-t|--test]}} sine {{[-f|--frequency]}} {{frequency}}`
