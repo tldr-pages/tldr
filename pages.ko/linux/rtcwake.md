@@ -5,24 +5,24 @@
 
 - 알람이 설정되었는지 여부를 확인:
 
-`sudo rtcwake -m show -v`
+`sudo rtcwake {{[-m|--mode]}} show {{[-v|--verbose]}}`
 
 - RAM에 일시 중지하고 10초 후에 기상:
 
-`sudo rtcwake -m mem -s {{10}}`
+`sudo rtcwake {{[-m|--mode]}} mem {{[-s|--seconds]}} {{10}}`
 
 - 디스크에 일시 중지(더 높은 전력 절약)하고 15분 후에 기상:
 
-`sudo rtcwake -m disk --date +{{15}}min`
+`sudo rtcwake {{[-m|--mode]}} disk --date +{{15}}min`
 
 - 시스템을 동결(램에 일시 중지보다 더 효율적이며 Linux 커널 버전 3.9 이상 필요)하고 지정된 날짜와 시간에 기상:
 
-`sudo rtcwake -m freeze --date {{YYYYMMDDhhmm}}`
+`sudo rtcwake {{[-m|--mode]}} freeze --date {{YYYYMMDDhhmm}}`
 
 - 이전에 설정한 알람 비활성화:
 
-`sudo rtcwake -m disable`
+`sudo rtcwake {{[-m|--mode]}} disable`
 
 - 주어진 시간에 컴퓨터를 깨우는 드라이 런 수행. (중단하려면 `<Ctrl c>`를 누르세요):
 
-`sudo rtcwake -m on --date {{hh:ss}}`
+`sudo rtcwake {{[-m|--mode]}} on --date {{hh:ss}}`
