@@ -10,7 +10,7 @@
 
 - Install a specific package (-D for dev dependencies):
 
-`ni {{package}}` [-D]
+`ni {{package}} [-D]`
 
 - Run a `package.json` script (interactively select if no script is provided):
 
