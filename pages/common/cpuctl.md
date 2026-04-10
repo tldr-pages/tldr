@@ -1,7 +1,7 @@
 # cpuctl
 
 > Control and inspect system CPUs from command line.
-> At least one CPU in the system must always remain online.
+> Note: At least one CPU in the system must always remain online.
 > More information: <https://man.netbsd.org/cpuctl.8>.
 
 - Display the current state and time of last state change for each CPU in the system:
