@@ -1,7 +1,7 @@
 # pw-midi2record
 
 > Record MIDI 2.0 clips through PipeWire.
-> Note: This command is an alias for `pw-cat --record --midi-clip`.
+> Note: This command is an alias of `pw-cat --record --midi-clip`.
 > See also: `pw-cat`, `pw-midi2play`, `pw-midirecord`.
 > More information: <https://docs.pipewire.org/page_man_pw-cat_1.html>.
 
