@@ -17,7 +17,7 @@
 
 - 打包一个没有上下文的 Docker 镜像：
 
-`docker build {{[-t|--tag]}} {{name:tag}} - < {{Dockerfile}}`
+`docker < {{Dockerfile}} build {{[-t|--tag]}} {{name:tag}} -`
 
 - 打包镜像时不使用缓存：
 
