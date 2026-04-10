@@ -6,4 +6,4 @@
 
 - 擷取螢幕畫面：
 
-`screencap {{path/to/file}}`
+`screencap {{路徑/至/檔案}}`
