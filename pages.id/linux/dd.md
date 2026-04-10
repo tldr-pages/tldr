@@ -22,7 +22,7 @@
 
 - Buat cadangan sistem, simpan ke dalam berkas IMG (dapat dipulihkan nanti dengan menukar `if` dan `of`), dan tampilkan kemajuannya:
 
-`dd if={{/dev/perangkat_penyimpanan}} of={{jalan/menuju/berkas.img}} status=progress`
+`sudo dd if={{/dev/perangkat_penyimpanan}} of={{jalan/menuju/berkas.img}} status=progress`
 
 - Periksa kemajuan dari suatu proses `dd` yang sedang berjalan (jalankan perintah ini dari sesi shell lainnya):
 
