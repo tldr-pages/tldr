@@ -8,7 +8,7 @@
 
 `ollama serve`
 
-- Run a model and chat with it (will automatically download it if it's not downloaded):
+- Run a model and chat with it (will automatically download the model if it's not downloaded):
 
 `ollama run {{model}}`
 
