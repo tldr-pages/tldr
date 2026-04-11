@@ -7,7 +7,7 @@
 
 `trdsql -ocsv -oh "SELECT * FROM {{path/to/directory/*.json}}" | sed 's/\([^,]*\)/"&"/g' > {{path/to/file.csv}}`
 
-- Interpret JSON list as a table and put objects inside as columns (path/to/file.json: `{"list":[{"age":"26","name":"Tanaka"}]}`):
+- Interpret JSON list as a table and put objects inside as columns (`path/to/file.json: {"list":[{"age":"26","name":"Tanaka"}]}`):
 
 `trdsql "SELECT * FROM {{path/to/file.json}}::.list"`
 
