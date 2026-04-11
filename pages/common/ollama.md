@@ -8,21 +8,21 @@
 
 `ollama serve`
 
-- Pull a specific model:
-
-`ollama pull {{model}}`
-
-- List downloaded models:
-
-`ollama {{[ls|list]}}`
-
-- Run a model and chat with it:
+- Run a model and chat with it (will automatically download it if it's not downloaded):
 
 `ollama run {{model}}`
 
 - Run a model with a single prompt and thinking turned off:
 
 `ollama run {{model}} --think=false "{{prompt}}"`
+
+- List downloaded models:
+
+`ollama {{[ls|list]}}`
+
+- Pull a specific model:
+
+`ollama pull {{model}}`
 
 - List running models:
 
