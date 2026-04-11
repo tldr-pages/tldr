@@ -18,4 +18,4 @@
 
 - 从管道输入转换为二维码并在终端中打印：
 
-`echo {{字符串}} | qrencode -t ansiutf8`
+`echo {{字符串}} | qrencode -t utf8`

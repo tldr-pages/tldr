@@ -10,7 +10,7 @@
 
 - Check out a specific merge request locally:
 
-`glab mr checkout {{mr_number}}`
+`glab {{[co|mr checkout]}} {{mr_number}}`
 
 - View the changes made in the merge request:
 

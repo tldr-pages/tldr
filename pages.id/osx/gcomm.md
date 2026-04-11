@@ -1,6 +1,6 @@
 # gcomm
 
-> Perintah ini merupakan alias dari `comm`.
+> Perintah ini merupakan alias dari GNU `comm`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
