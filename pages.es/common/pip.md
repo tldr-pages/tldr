@@ -24,7 +24,7 @@
 
 `pip freeze > {{requirements.txt}}`
 
-- Muestra una lista de los paquetes instalados:
+- Lista los paquetes instalados:
 
 `pip list`
 
