@@ -25,7 +25,7 @@
 
 - Filtra contêineres que tenham o código de saída:
 
-`docker {{[ps|container ls]}} {{[-a|--all]}} {{[-f|--filter]}} "exited={{código}}"`
+`docker {{[ps|container ls]}} {{[-f|--filter]}} "exited={{código}}" {{[-a|--all]}}`
 
 - Filtra contêineres por estado (created, running, removing, paused, exited e dead):
 
