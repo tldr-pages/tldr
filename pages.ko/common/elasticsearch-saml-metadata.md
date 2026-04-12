@@ -1,7 +1,7 @@
 # elasticsearch-saml-metadata
 
 > SAML Identity Provider 구성을 위한 SAML Service Provider 메타데이터를 생성하는 도구.
-> More information: <https://www.elastic.co/docs/reference/elasticsearch/command-line-tools/saml-metadata>.
+> 더 많은 정보: <https://www.elastic.co/docs/reference/elasticsearch/command-line-tools/saml-metadata>.
 
 - 특정 realm에 대한 SAML 메타데이터를 생성하고 `stdout`으로 출력:
 
