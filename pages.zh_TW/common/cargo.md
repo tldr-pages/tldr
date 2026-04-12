@@ -20,9 +20,9 @@
 
 `cargo init --{{bin|lib}} {{路徑/至/目錄}}`
 
-- 向目前目錄的 `Cargo.toml` 新增一個依賴：
+- 向目前目錄的 `Cargo.toml` 新增一個相依項：
 
-`cargo add {{依賴項目}}`
+`cargo add {{相依項}}`
 
 - 使用 release 模式在目前目錄中組建 Rust 專案：
 

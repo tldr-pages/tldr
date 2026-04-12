@@ -20,9 +20,9 @@
 
 `cargo init --{{bin|lib}} {{路径/到/目录}}`
 
-- 向当前目录的 `Cargo.toml` 添加一个依赖：
+- 向当前目录的 `Cargo.toml` 添加一个依赖项：
 
-`cargo add {{依赖项目}}`
+`cargo add {{依赖项}}`
 
 - 使用 release 模式在当前目录中构建 Rust 项目：
 
