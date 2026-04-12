@@ -35,4 +35,4 @@
 
 - Abre un intérprete de comandos dentro del entorno virtual del proyecto (para versiones anteriores a la 2.0, use `poetry shell`):
 
-`eval «$(poetry env activate)»`
+`eval "$(poetry env activate)"`
