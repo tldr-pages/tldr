@@ -3,7 +3,7 @@
 > Cambia los temas globales de Plasma.
 > Más información: <https://userbase.kde.org/System_Settings/Look_And_Feel>.
 
-- Muestra una lista de los temas globales disponibles:
+- Lista los temas globales disponibles:
 
 `plasma-apply-lookandfeel --list`
 
