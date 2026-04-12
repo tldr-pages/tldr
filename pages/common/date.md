@@ -25,11 +25,11 @@
 
 - Display the current date using the RFC-3339 format (`YYYY-MM-DD hh:mm:ss TZ`):
 
-`date --rfc-3339 s`
+`date --rfc-3339 {{date|seconds|ns}}`
 
 - Set the current date using the format `MMDDhhmmYYYY.ss` (`YYYY` and `.ss` are optional):
 
-`date {{093023592021.59}}`
+`sudo date {{093023592021.59}}`
 
 - Display the current ISO week number:
 
