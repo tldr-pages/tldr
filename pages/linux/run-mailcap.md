@@ -3,7 +3,7 @@
 > Execute programs via entries in the mailcap file.
 > More information: <https://manned.org/run-mailcap>.
 
-- Compose any existing file or new on default mailcap edit tool:
+- Compose any existing file or new on default `mailcap` edit tool:
 
 `run-mailcap --action=compose {{filename}}`
 
