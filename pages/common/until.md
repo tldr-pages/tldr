@@ -9,7 +9,7 @@
 
 - Try to connect to an SSH host until gracefully disconnected:
 
-`until ssh username@host; do sleep 2; done`
+`until ssh {{username}}@{{host}}; do sleep {{2}}; done`
 
 - Wait for a systemd service to be active:
 
