@@ -2,7 +2,7 @@
 
 > Display system information about the CPU, memory, disks, network, and processes.
 > An enhanced alternative to `top`.
-> See also: `btop`, `glances`, `atop`, `htop`, `top`.
+> See also: `btop`, `glances`, `atop`, `htop`, `top`, `sensors`.
 > More information: <https://clementtsang.github.io/bottom/nightly/#usage-and-configuration>.
 
 - Show the default layout (CPU, memory, temperatures, disk, network, and processes):

@@ -9,11 +9,15 @@
 
 - 从指定的 Git 仓库安装一个包：
 
-`cargo install --git {{仓库URL}}`
+`cargo install --git {{仓库 URL}}`
 
 - 从 Git 仓库安装时，根据指定的 branch/tag/commit 构建：
 
-`cargo install --git {{仓库URL}} --{{branch|tag|rev}} {{branch_name|tag|commit_hash}}`
+`cargo install --git {{仓库 URL}} --{{branch|tag|rev}} {{branch_name|tag|commit_hash}}`
+
+- 从本地目录安装一个包：
+
+`cargo install --path {{路径/到/目录}}`
 
 - 列出所有已安装的包及其版本：
 

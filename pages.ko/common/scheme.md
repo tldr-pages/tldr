@@ -9,7 +9,7 @@
 
 - Scheme 프로그램 실행(REPL 출력 없음):
 
-`scheme --quiet < {{스크립트.scm}}`
+`scheme < {{스크립트.scm}} --quiet`
 
 - Scheme 프로그램을 REPL에 로드:
 
