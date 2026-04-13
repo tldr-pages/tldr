@@ -6,4 +6,4 @@
 
 - Załaduj moduł jądra do jądra systemu Linux:
 
-`insmod {{ścieżka/do/modułu.ko}}`
+`sudo insmod {{ścieżka/do/modułu.ko}}`
