@@ -1,6 +1,6 @@
 # bun pm pkg
 
-> Manage package.json data with `get`, `set`, `delete`, and `fix` operations.
+> Manage `package.json` data with `get`, `set`, `delete`, and `fix` operations.
 > More information: <https://bun.com/docs/pm/cli/pm#pkg>.
 
 - Get all properties from `package.json`:
