@@ -5,7 +5,7 @@
 
 - Tampilkan perubahan yang belum dimasukkan ke dalam stage:
 
-`git diff`:
+`git diff`
 
 - Tampilkan perubahan seluruh berkas (termasuk perubahan yang dimasukkan ke dalam stage):
 
