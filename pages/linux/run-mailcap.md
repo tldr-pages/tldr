@@ -9,7 +9,7 @@
 
 - View any file on default mailcap explorer:
 
-`run-mailcap --action=edit {{filename}}`
+`run-mailcap --action=edit {{path/to/file}}`
 
 - Print any file on default run-mailcap tool:
 
