@@ -5,16 +5,16 @@
 
 - List security properties of an executable binary file:
 
-`checksec --file={{path/to/binary}}`
+`checksec file {{path/to/binary}}`
 
 - List security properties recursively of all executable files in a directory:
 
-`checksec --dir={{path/to/directory}}`
+`checksec dir {{path/to/directory}}`
 
 - List security properties of a process:
 
-`checksec --proc={{pid}}`
+`checksec proc {{pid}}`
 
 - List security properties of the running kernel:
 
-`checksec --kernel`
+`checksec kernel`
