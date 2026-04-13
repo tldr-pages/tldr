@@ -21,7 +21,7 @@
 
 - Tampilkan statistik atas perubahan-perubahan yang dilakukan, seperti daftar berkas yang diubah, histogram, dan total jumlah penambahan/pengurangan baris teks dalam berkas:
 
-`git diff --stat {{komit}}`:
+`git diff --stat {{komit}}`
 
 - Tampilkan laporan ringkasan atas pembuatan, penamaan ulang, dan perubahan mode terhadap berkas-berkas sejak komit yang ditentukan:
 
