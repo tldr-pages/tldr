@@ -35,6 +35,8 @@ jobs:
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0 # v8.1.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT }}
         with:
           commit-message: "pages.*/: synchronize pages"
           title: "pages.*/: synchronize pages"
