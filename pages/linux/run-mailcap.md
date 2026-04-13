@@ -5,19 +5,19 @@
 
 - Compose any existing file or new on default `mailcap` edit tool:
 
-`run-mailcap --action=compose {{filename}}`
+`run-mailcap --action=compose {{path/to/file}}`
 
-- View any file on default mailcap explorer:
+- View any file on default `mailcap` explorer:
 
 `run-mailcap --action=edit {{path/to/file}}`
 
-- Print any file on default run-mailcap tool:
+- Print a file using the default `mailcap` print tool:
 
-`run-mailcap --action=print {{filename}}`
+`run-mailcap --action=print {{path/to/file}}`
 
-- View any file (usually image) on default mailcap explorer:
+- View any file (usually image) on default `mailcap` explorer:
 
-`run-mailcap --action=view {{filename}}`
+`run-mailcap --action=view {{path/to/file}}`
 
 - Invoke individual actions/programs on run-mailcap:
 
