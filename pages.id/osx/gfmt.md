@@ -1,6 +1,6 @@
 # gfmt
 
-> Perintah ini merupakan alias dari `fmt`.
+> Perintah ini merupakan alias dari GNU `fmt`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 

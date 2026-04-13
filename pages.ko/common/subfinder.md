@@ -6,20 +6,20 @@
 
 - 특정 [d] 도메인의 하위 도메인 찾기:
 
-`subfinder -d {{example.com}}`
+`subfinder {{[-d|-domain]}} {{example.com}}`
 
 - 발견된 하위 도메인만 표시:
 
-`subfinder -silent -d {{example.com}}`
+`subfinder -silent {{[-d|-domain]}} {{example.com}}`
 
 - 활성 하위 도메인만 표시:
 
-`subfinder -nW -d {{example.com}}`
+`subfinder {{[-nW|-active]}} {{[-d|-domain]}} {{example.com}}`
 
 - 모든 소스를 사용하여 열거:
 
-`subfinder -all -d {{example.com}}`
+`subfinder -all {{[-d|-domain]}} {{example.com}}`
 
 - 쉼표로 구분된 [r] 리졸버 목록 사용:
 
-`subfinder -r {{8.8.8.8,1.1.1.1,...}} -d {{example.com}}`
+`subfinder -r {{8.8.8.8,1.1.1.1,...}} {{[-d|-domain]}} {{example.com}}`
