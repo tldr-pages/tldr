@@ -7,7 +7,7 @@
 
 `hn`
 
-- View _number_ of stories on Hacker News:
+- View the specified number of stories on Hacker News:
 
 `hn {{[-l|--limit]}} {{number}}`
 
