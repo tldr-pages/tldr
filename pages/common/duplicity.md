@@ -1,6 +1,6 @@
 # duplicity
 
-> Create incremental, compressed, encrypted and versioned backups.
+> Create incremental, compressed, encrypted, and versioned backups.
 > Can also upload the backups to a variety of backend services.
 > Note: Depending on the version, some options may not be available (e.g. `--gio` in 2.0.0).
 > More information: <https://duplicity.gitlab.io/stable/duplicity.1.html#name>.
