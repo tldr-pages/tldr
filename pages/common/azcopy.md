@@ -2,7 +2,7 @@
 
 > Copy data to and from Azure Storage.
 > See also: `az storage`.
-> More information: <https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10#list-of-commands>.
+> More information: <https://learn.microsoft.com/azure/storage/common/storage-use-azcopy-v10#list-of-commands>.
 
 - Log in to an Azure Tenant:
 
