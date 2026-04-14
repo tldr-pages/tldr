@@ -10,7 +10,7 @@
 
 - 특정 병합 요청을 로컬에서 확인:
 
-`glab mr checkout {{mr_번호}}`
+`glab {{[co|mr checkout]}} {{mr_번호}}`
 
 - 병합 요청의 변경 사항을 확인:
 
