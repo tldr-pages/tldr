@@ -21,4 +21,4 @@
 
 - Ordena y construye un árbol a partir de `stdin` (se requiere un formato de salida de `git ls-tree` no recursivo):
 
-`git mktree < {{ruta/a/árbol.txt}}`
+`git < {{ruta/a/árbol.txt}} mktree`
