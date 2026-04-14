@@ -481,6 +481,21 @@ To mark keypresses for TUI or GUI programs, use angle brackets `<` and `>`.
 - For consistency, we prefer generic wording `Display help` and `Display version` for these commands.
 - It is suggested to document the help and version examples if the command follows unconventional flags in platforms like Windows.
 
+### Summary
+
+Here's a quick table to summarize the syntax used in tldr:
+
+| Syntax | Meaning |
+|--------|---------|
+| `{{ }}` | Placeholder |
+| `path/to/thing` | Filepath |
+| `{{[ \| ]}}` | Option placeholder |
+| `{{thing1 thing2 ...}}` | One or more arguments |
+| `{{thing1\|thing2\|...}}` | Mutually exclusive arguments |
+| `{{1..10}}` | Value range |
+| `<Ctrl c>` | Keypress |
+
+
 ## Windows-Specific Rules
 
 ### General layout
