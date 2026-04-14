@@ -1,6 +1,7 @@
 # checksec
 
 > Check security properties of executables.
+> Note: For older versions, use flags (e.g., `--file` instead of `file`).
 > More information: <https://github.com/slimm609/checksec>.
 
 - List security properties of an executable binary file:
