@@ -1,6 +1,6 @@
 # pgrep
 
-> Find or signal processes by name.
+> Find processes by name.
 > More information: <https://keith.github.io/xcode-man-pages/pgrep.1.html>.
 
 - Return PIDs of any running processes with a matching command string:
