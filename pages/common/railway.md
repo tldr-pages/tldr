@@ -9,7 +9,7 @@
 
 - Link to an existing Project under a Railway account or team:
 
-`railway link {{projectId}}`
+`railway link {{project_id}}`
 
 - Create a new project:
 

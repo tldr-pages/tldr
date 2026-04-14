@@ -22,7 +22,7 @@
 
 - 创建系统备份，保存为 IMG 文件（稍后可通过交换 `if` 和 `of` 参数恢复），并显示进度：
 
-`dd if={{/dev/驱动器设备}} of={{路径/到/文件.img}} status=progress`
+`sudo dd if={{/dev/驱动器设备}} of={{路径/到/文件.img}} status=progress`
 
 - 检查正在进行的 `dd` 操作的进度（在另一个 shell 中运行此命令）：
 

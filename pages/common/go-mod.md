@@ -5,7 +5,7 @@
 
 - Initialize new module in current directory:
 
-`go mod init {{moduleName}}`
+`go mod init {{module_name}}`
 
 - Download modules to local cache:
 
