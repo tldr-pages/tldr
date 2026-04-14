@@ -2,7 +2,7 @@
 
 > クリップボードの内容を`stdout`(標準出力)に送信します。
 > これは、キーボードの`<Cmd v>`を押す操作に相当します。
-> 詳細情報: <https://keith.github.io/xcode-man-pages/pbcopy.1.html>。
+> 詳細情報: <https://keith.github.io/xcode-man-pages/pbcopy.1>。
 
 - クリップボードの内容をファイルに書き出す:
 
