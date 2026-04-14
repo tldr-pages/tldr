@@ -6,12 +6,12 @@
 
 - 從 <https://crates.io> 安裝一個套件：
 
-`cargo binstall {{包名}}`
+`cargo binstall {{套件}}`
 
 - 安裝指定版本的套件（預設為最新版本）：
 
-`cargo binstall {{包名}}@{{版本號}}`
+`cargo binstall {{套件}}@{{版本號}}`
 
 - 安裝套件並停用確認提示：
 
-`cargo binstall {{[-y|--no-confirm]}} {{包名}}`
+`cargo binstall {{[-y|--no-confirm]}} {{套件}}`
