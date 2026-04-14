@@ -483,7 +483,7 @@ To mark keypresses for TUI or GUI programs, use angle brackets `<` and `>`.
 
 ### Summary
 
-Here's a quick table to summarize the syntax used in tldr:
+Here's a quick table to summarize the syntax used in `tldr`:
 
 | Syntax | Meaning |
 |--------|---------|
