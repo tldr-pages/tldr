@@ -26,7 +26,7 @@
 
 - 排除符合特定 glob 模式的檔案：
 
-`fd {{string}} {{[-E|--exclude]}} {{glob}}`
+`fd {{字串}} {{[-E|--exclude]}} {{glob}}`
 
 - 對每個傳回的搜尋結果執行命令：
 
