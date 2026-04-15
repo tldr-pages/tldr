@@ -4,11 +4,11 @@
 > See also: `podman save`, `podman import`.
 > More information: <https://docs.podman.io/en/latest/markdown/podman-load.1.html>.
 
-- Load an image from a tar file:
+- Load an image from a `.tar` file:
 
 `podman load {{[-i|--input]}} {{path/to/file.tar}}`
 
-- Load an image from a compressed tar file:
+- Load an image from a compressed `.tar` file:
 
 `podman load {{[-i|--input]}} {{path/to/file.tar[.gz|.bz2|.xz|.zst]}}`
 
