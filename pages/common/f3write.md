@@ -1,6 +1,6 @@
 # f3write
 
-> Fill a drive out with .h2w files to test its real capacity.
+> Fill a drive out with `.h2w` files to test its real capacity.
 > See also: `f3read`, `f3probe`, `f3fix`.
 > More information: <https://oss.digirati.com.br/f3/>.
 

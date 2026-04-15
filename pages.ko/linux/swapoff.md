@@ -6,12 +6,12 @@
 
 - 지정된 스왑 영역 비활성화:
 
-`swapoff {{경로/대상/파일}}`
+`sudo swapoff {{경로/대상/파일}}`
 
 - `/proc/swaps`의 모든 스왑 영역 비활성화:
 
-`swapoff {{[-a|--all]}}`
+`sudo swapoff {{[-a|--all]}}`
 
 - 레이블로 스왑 파티션 비활성화:
 
-`swapoff -L {{레이블}}`
+`sudo swapoff -L {{레이블}}`

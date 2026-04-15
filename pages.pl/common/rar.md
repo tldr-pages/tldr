@@ -5,7 +5,7 @@
 
 - Zarchiwizuj 1 lub więcej plików:
 
-`rar a {{ścieżka/do/nazwa_archiwum.rar}} {{ścieżka/do/pliku1}} {{ścieżka/do/pliku2}} {{ścieżka/do/pliku3}}`
+`rar a {{ścieżka/do/nazwa_archiwum.rar}} {{ścieżka/do/pliku1 ścieżka/do/pliku2 ścieżka/do/pliku3 ...}}`
 
 - Zarchiwizuj katalog:
 

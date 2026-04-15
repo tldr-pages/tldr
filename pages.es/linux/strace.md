@@ -6,19 +6,19 @@
 
 - Rastrea las llamadas de un proceso usando su PID:
 
-`strace {{[-p|--attach]}} {{pid}}`
+`sudo strace {{[-p|--attach]}} {{pid}}`
 
 - Rastrea un proceso y filtra la salida según [e]xpresiones de llamadas al sistema:
 
-`strace {{[-p|--attach]}} {{pid}} -e {{llamada_sis,llamada_sis2,...}}`
+`sudo strace {{[-p|--attach]}} {{pid}} -e {{llamada_sis,llamada_sis2,...}}`
 
 - Cuenta el tiempo, número de llamada y errores para cada llamada al sistema y devuelve un resumen cuando el programa acabe:
 
-`strace {{[-p|--attach]}} {{pid}} {{[-c|--summary-only]}}`
+`sudo strace {{[-p|--attach]}} {{pid}} {{[-c|--summary-only]}}`
 
 - Muestra el tiempo dedicado en cada llamada al sistema y especifica el tamaño máximo de cadena a imprimir:
 
-`strace {{[-p|--attach]}} {{pid}} {{[-T|--syscall-times]}} {{[-s|--string-limit]}} {{32}}`
+`sudo strace {{[-p|--attach]}} {{pid}} {{[-T|--syscall-times]}} {{[-s|--string-limit]}} {{32}}`
 
 - Rastrea un programa ejecutándolo:
 

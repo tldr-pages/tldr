@@ -11,7 +11,7 @@
 
 `qdbus {{service_name}}`
 
-- List methods, signals and properties available on a specific object:
+- List methods, signals, and properties available on a specific object:
 
 `qdbus {{service_name}} /{{path/to/object}}`
 

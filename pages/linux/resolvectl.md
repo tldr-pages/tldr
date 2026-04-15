@@ -29,7 +29,7 @@
 
 `resolvectl --legend {{no}} {{[-t|--type]}} {{MX}} query {{domain}}`
 
-- Resolve an SRV record, for example _xmpp-server._tcp gmail.com:
+- Resolve an SRV record, for example `_xmpp-server._tcp gmail.com`:
 
 `resolvectl service _{{service}}._{{protocol}} {{name}}`
 
