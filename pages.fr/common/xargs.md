@@ -3,7 +3,7 @@
 > Exécute une commande avec des arguments provenant d’un pipe, d’un fichier, etc.
 > L’entrée est traitée comme un bloc de texte unique, puis découpée en éléments séparés par des espaces, tabulations, retours à la ligne et fin de fichier.
 > Voir aussi : `parallel`.
-> Plus d’informations : <https://www.gnu.org/software/findutils/manual/html_mono/find.html#Invoking-xargs>.
+> Plus d'informations : <https://www.gnu.org/software/findutils/manual/html_mono/find.html#Invoking-xargs>.
 
 - Exécute une commande en utilisant les données d’entrée comme arguments :
 
