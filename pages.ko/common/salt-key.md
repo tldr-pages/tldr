@@ -6,16 +6,16 @@
 
 - 수락된, 수락되지 않은 및 거부된 모든 미니언 키 나열:
 
-`salt-key -L`
+`salt-key {{[-L|--list-all]}}`
 
 - 이름으로 미니언 키 수락:
 
-`salt-key -a {{미니언_ID}}`
+`salt-key {{[-a|--accept-all]}} {{미니언_ID}}`
 
 - 이름으로 미니언 키 거부:
 
-`salt-key -r {{미니언_ID}}`
+`salt-key {{[-r|--reject]}} {{미니언_ID}}`
 
 - 모든 공개 키의 지문 출력:
 
-`salt-key -F`
+`salt-key {{[-F|--finger-all]}}`
