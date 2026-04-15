@@ -2,7 +2,7 @@
 
 > Naviga e guarda anime online.
 > Vedi anche: `animdl`.
-> Maggiori informazioni: <https://github.com/pystardust/ani-cli>.
+> Maggiori informazioni: <https://manned.org/ani-cli>.
 
 - Cerca anime per nome:
 
