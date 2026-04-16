@@ -8,7 +8,7 @@
 
 - Copy a file from Linux to an MS-DOS disk or image:
 
-`mcopy {{path/to/file}} {{a:}}`
+`mcopy {{path/to/source_file}} {{A}}:{{/path/to/target_file}}`
 
 - Copy a file from an MS-DOS disk to the current Linux directory:
 
