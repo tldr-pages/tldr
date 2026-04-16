@@ -17,7 +17,7 @@
 
 `Import-Csv {{path\to\file.csv}} | Out-GridView -Title "{{title}}"`
 
-- Interactively select a subset of rows from a previous command's `stdout` to the `stdin` input for another command (use <Ctrl LeftClick>, <Shift LeftClick>, <Shift ArrowUp>, or <Shift ArrowDown> to select multiple rows):
+- Interactively select a subset of rows from a previous command's `stdout` to the `stdin` input for another command (use `<Ctrl LeftClick>`, `<Shift LeftClick>`, `<Shift ArrowUp>`, or `<Shift ArrowDown>` for multi-selection):
 
 `{{previous_command}} | Out-GridView -PassThru | {{next_command}}`
 
