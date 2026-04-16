@@ -17,7 +17,7 @@
 
 `Get-Content {{path\to\file}} | Out-Host -Paging`
 
-- Go to the next line within the paging view:
+- Go to the next page within the paging view:
 
 `<Space>`
 
