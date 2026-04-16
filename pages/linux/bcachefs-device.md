@@ -3,7 +3,7 @@
 > Manage devices within a running `bcachefs` filesystem.
 > More information: <https://bcachefs-docs.readthedocs.io/en/latest/mgmt-devicemanagement.html>.
 
-- Format and add a new device to an existing filesystem.:
+- Format and add a new device to an existing filesystem:
 
 `sudo bcachefs device add --label {{group}}.{{name}} {{path/to/mountpoint}} {{path/to/device}}`
 

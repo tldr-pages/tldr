@@ -3,7 +3,7 @@
 > Restore volume group configuration (not user data) from a text back up file produced by `vgcfgbackup`.
 > More information: <https://manned.org/vgcfgrestore>.
 
-- Restore VG metadata from last backup.:
+- Restore VG metadata from last backup:
 
 `sudo vgcfgrestore {{vg_name}}`
 
