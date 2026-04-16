@@ -12,24 +12,24 @@
 
 - Copy a file from an MS-DOS disk to the current Linux directory:
 
-`mcopy {{a:file.txt}} .`
+`mcopy {{A}}:{{/path/to/source_file}} .`
 
 - Copy all files from an MS-DOS drive to a Linux directory:
 
-`mcopy {{a:}} {{path/to/directory}}`
+`mcopy {{A}}: {{path/to/target_directory}}`
 
-- Copy a file to a disk image using the `-i` flag instead of a drive letter:
+- Copy a file into a DOS disk [i]mage file instead of a drive letter (`::` represents the root directory of the DOS disk):
 
-`mcopy -i {{path/to/image.img}} {{path/to/file}} {{::}}`
+`mcopy -i {{path/to/image.img}} {{path/to/source_file}} ::/{{path/to/target_file}}`
 
 - Copy a file from a disk image to the current directory:
 
-`mcopy -i {{path/to/image.img}} {{::file.txt}} .`
+`mcopy -i {{path/to/image.img}} ::/{{path/to/source_file}} .`
 
-- Copy a directory recursively to an MS-DOS disk:
+- Copy a directory recur[s]ively to an MS-DOS disk:
 
-`mcopy -s {{path/to/directory}} {{a:}}`
+`mcopy -s {{path/to/source_directory}} {{A:/path/to/target_directory}}`
 
-- Copy a file and preserve attributes:
+- Copy a file and [p]reserve attributes:
 
 `mcopy -p {{path/to/source_file}} {{A:}}`
