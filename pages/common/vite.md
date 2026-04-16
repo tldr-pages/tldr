@@ -1,22 +1,38 @@
-# Vite
+# vite
 
-> Create a Vite project.
-> Used to build JavaScript projects.
-> Available templates: vanilla, vanilla-ts, vue, vue-ts, react, react-ts, react-swc, react-swc-ts, preact, preact-ts, lit, lit-ts, svelte, svelte-ts.
-> More information: <https://vite.dev/guide/>.
+> Vite is a fast development server and build tool for modern web projects.
+> Supports frameworks like React, Vue, Svelte, Preact, Lit, and Solid.
+> See also: `npm`, `pnpm`, `bun`.
+> More information: <https://vite.dev/guide/cli.html>.
 
-- Setup using `npm` 6.x:
+- Start a local development server in the current directory:
 
-`npm create vite@latest my-react-app --template react-ts`
+`vite`
 
-- Setup using `npm` 7+, extra double-dash is needed:
+- Start the development server on a specific port:
 
-`npm create vite@latest my-react-app -- --template react-ts`
+`vite --port {{3000}}`
 
-- Setup using `yarn`:
+- Start the development server and automatically open in the default browser:
 
-`yarn create vite my-react-app --template react-ts`
+`vite --open`
 
-- Setup using `pnpm`:
+- Build the project for production (outputs to `dist/` by default):
 
-`pnpm create vite my-react-app --template react-ts`
+`vite build`
+
+- Build the project for production and watch for changes:
+
+`vite build --watch`
+
+- Preview the production build locally:
+
+`vite preview`
+
+- Preview the production build on a specific port:
+
+`vite preview --port {{5050}}`
+
+- Display help for a subcommand:
+
+`vite {{build|preview|optimize}} --help`
