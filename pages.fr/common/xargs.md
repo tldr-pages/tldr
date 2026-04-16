@@ -23,7 +23,7 @@
 
 - Exécute la commande une fois par ligne d’entrée, en remplaçant le placeholder (ici _) par la ligne :
 
-`{{arguments_source}} | xargs -I _ {{commande}} _ {{optional_extra_arguments}}`
+`{{arguments_source}} | xargs -I _ {{commande}} _ {{arguments_optionnels_additionnels}}`
 
 - Demande une confirmation avant exécution (valider avec y ou Y) :
 
@@ -31,7 +31,7 @@
 
 - Lit les arguments depuis un fichier :
 
-`xargs {{[-a|--arg-file]}} {{path/to/file}} {{commande}}`
+`xargs {{[-a|--arg-file]}} {{chemin/vers/fichier}} {{commande}}`
 
 - Permet à la commande d’accéder au terminal pour une entrée interactive :
 
