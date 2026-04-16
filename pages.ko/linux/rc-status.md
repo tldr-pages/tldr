@@ -10,24 +10,24 @@
 
 - 모든 runlevel의 서비스를 요약에 포함:
 
-`rc-status --all`
+`rc-status {{[-a|--all]}}`
 
 - 충돌한 서비스 나열:
 
-`rc-status --crashed`
+`rc-status {{[-c|--crashed]}}`
 
 - 수동으로 시작된 서비스 나열:
 
-`rc-status --manual`
+`rc-status {{[-m|--manual]}}`
 
 - 감독되는 서비스 나열:
 
-`rc-status --supervised`
+`rc-status {{[-S|--supervised]}}`
 
 - 현재 runlevel 얻기:
 
-`rc-status --runlevel`
+`rc-status {{[-r|--runlevel]}}`
 
 - 모든 runlevel 나열:
 
-`rc-status --list`
+`rc-status {{[-l|--list]}}`

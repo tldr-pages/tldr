@@ -5,4 +5,4 @@
 
 - Print information on the passed through data:
 
-`gst-launch-1.0 {{source}} ! identity silent=false ! {{sink}}`
+`gst-launch-1.0 {{[-v|--verbose]}} {{source}} ! identity silent=false ! {{sink}}`

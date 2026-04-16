@@ -1,6 +1,6 @@
 # gdircolors
 
-> Perintah ini merupakan alias dari `dircolors`.
+> Perintah ini merupakan alias dari GNU `dircolors`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 

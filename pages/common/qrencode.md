@@ -18,4 +18,4 @@
 
 - Convert input from pipe to a QR code and print it in terminal:
 
-`echo {{string}} | qrencode {{[-t|--type]}} ansiutf8`
+`echo {{string}} | qrencode {{[-t|--type]}} utf8`

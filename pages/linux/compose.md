@@ -1,13 +1,7 @@
 # compose
 
-> An alias to a `run-mailcap`'s action compose.
-> Originally `run-mailcap` is used to mime-type/file.
-> More information: <https://manned.org/compose>.
+> This command is an alias of `run-mailcap --action=compose`.
 
-- Compose action can be used to compose any existing file or new on default mailcap edit tool:
+- View documentation for the original command:
 
-`compose {{filename}}`
-
-- With `run-mailcap`:
-
-`run-mailcap --action=compose {{filename}}`
+`tldr run-mailcap`
