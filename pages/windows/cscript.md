@@ -18,7 +18,7 @@
 
 - Show or hide the Windows Script Host logo before running (useful to get Host version / suppress outputs):
 
-`cscript //{{logo|nologo}} {{path\to\file}}`
+`cscript {{//logo|//nologo}} {{path\to\file}}`
 
 - Specify an custom execution engine to run the script (useful for using custom script filenames):
 
