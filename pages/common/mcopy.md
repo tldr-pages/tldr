@@ -32,4 +32,4 @@
 
 - Copy a file and preserve attributes:
 
-`mcopy -p {{path/to/file}} {{a:}}`
+`mcopy -p {{path/to/source_file}} {{A:}}`
