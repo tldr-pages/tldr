@@ -10,8 +10,8 @@
 
 - 출력의 프린터 프로토콜 지정:
 
-`pbmtoepson -protocol {{escp9|escp}} {{경로/대상/이미지.pbm}} > {{경로/대상/출력.epson}}`
+`pbmtoepson {{[-pr|-protocol]}} {{escp9|escp}} {{경로/대상/이미지.pbm}} > {{경로/대상/출력.epson}}`
 
 - 출력의 가로 DPI 지정:
 
-`pbmtoepson -dpi {{60|72|80|90|120|144|240}} {{경로/대상/이미지.pbm}} > {{경로/대상/출력.epson}}`
+`pbmtoepson {{[-d|-dpi]}} {{60|72|80|90|120|144|240}} {{경로/대상/이미지.pbm}} > {{경로/대상/출력.epson}}`

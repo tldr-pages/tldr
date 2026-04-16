@@ -10,4 +10,4 @@
 
 - Print information on the received data:
 
-`gst-launch-1.0 {{pipeline}} ! fakesink silent=false`
+`gst-launch-1.0 {{[-v|--verbose]}} {{pipeline}} ! fakesink silent=false`
