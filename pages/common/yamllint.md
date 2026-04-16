@@ -21,7 +21,7 @@
 
 - Output in a parsable format (for CI integration):
 
-`yamllint {{[-f|--format]}} {{parsable}} {{path/to/file.yaml}}`
+`yamllint {{[-f|--format]}} parsable {{path/to/file.yaml}}`
 
 - Lint a file with strict mode (return 2 for warnings):
 
