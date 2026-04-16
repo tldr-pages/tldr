@@ -13,6 +13,6 @@
 
 `GetHelpCmd.exe -S ExpertExperienceAdminTask -AcceptEula -LogFolder {{path\to\directory}}`
 
-- Get detailed information and hide the program progress:
+- Get detailed information without showing the progress:
 
 `GetHelpCmd.exe -S ExpertExperienceAdminTask -AcceptEula -HideProgress`
