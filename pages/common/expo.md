@@ -1,32 +1,33 @@
 # expo
 
 > Build, develop, and deploy React Native apps.
-> More information: <https://docs.expo.dev/eas/>.
+> See also: `eas` for cloud builds.
+> More information: <https://docs.expo.dev/more/expo-cli/>.
 
-- Build an Android APK or AAB:
+- Create a new Expo project:
 
-`expo build:android`
+`npx create-expo-app {{project_name}}`
 
-- Build an iOS IPA:
+- Start the development server:
 
-`expo build:ios`
+`npx expo start`
 
-- Run the app in Expo Go:
+- Run the app on a connected Android device or emulator:
 
-`expo start`
+`npx expo run:android`
 
-- Install a dependency:
+- Run the app on a connected iOS device or simulator:
 
-`expo install {{package_name}}`
+`npx expo run:ios`
 
-- Prebuild native Android/iOS projects:
+- Install a compatible version of a dependency:
 
-`expo prebuild`
+`npx expo install {{package_name}}`
 
-- Run the app on Android:
+- Prebuild native Android and iOS project files:
 
-`expo run:android`
+`npx expo prebuild`
 
-- Run the app on iOS:
+- Export the app for production:
 
-`expo run:ios`
+`npx expo export`
