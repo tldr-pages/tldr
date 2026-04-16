@@ -1,7 +1,7 @@
 # kobo-install
 
 > Command-line tool to setup and manage KoboToolbox.
-> More information: <https://github.com/kobotoolbox/kobo-install>
+> More information: <https://github.com/kobotoolbox/kobo-install>.
 
 - Setup KoboToolbox for the first time:
   
