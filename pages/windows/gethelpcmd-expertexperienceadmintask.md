@@ -9,7 +9,7 @@
 
 `GetHelpCmd.exe -S ExpertExperienceAdminTask -AcceptEula`
 
-- Get detailed information and save logs to a file:
+- Get detailed information and save the logs to a specific directory:
 
 `GetHelpCmd.exe -S ExpertExperienceAdminTask -AcceptEula -LogFolder {{path\to\file}}`
 
