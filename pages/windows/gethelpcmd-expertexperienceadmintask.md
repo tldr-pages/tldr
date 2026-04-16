@@ -11,7 +11,7 @@
 
 - Get detailed information and save the logs to a specific directory:
 
-`GetHelpCmd.exe -S ExpertExperienceAdminTask -AcceptEula -LogFolder {{path\to\file}}`
+`GetHelpCmd.exe -S ExpertExperienceAdminTask -AcceptEula -LogFolder {{path\to\directory}}`
 
 - Get detailed information and hide the program progress:
 
