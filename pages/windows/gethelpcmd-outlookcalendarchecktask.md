@@ -17,6 +17,6 @@
 
 `GetHelpCmd.exe -S OutlookCalendarCheckTask -AcceptEula -P {{profile}} -LogFolder {{path\to\directory}}`
 
-- Analyse calendar for a specific profile and hide the program progress:
+- Analyze the calendar for a specific profile without showing the progress:
 
 `GetHelpCmd.exe -S OutlookCalendarCheckTask -AcceptEula -P {{profile}} -HideProgress`
