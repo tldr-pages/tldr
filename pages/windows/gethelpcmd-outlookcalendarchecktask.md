@@ -13,7 +13,7 @@
 
 `GetHelpCmd.exe -S OutlookCalendarCheckTask -AcceptEula -P {{profile}}`
 
-- Analyse calendar for a specific profile and save logs to a file:
+- Analyze the calendar for a specific profile and save the logs to a specific directory:
 
 `GetHelpCmd.exe -S OutlookCalendarCheckTask -AcceptEula -P {{profile}} -LogFolder {{path\to\file}}`
 
