@@ -11,7 +11,7 @@
 
 - Start the development server on a specific port:
 
-`vite --port {{3000}}`
+`vite --port {{port}}`
 
 - Start the development server and automatically open in the default browser:
 
@@ -31,7 +31,7 @@
 
 - Preview the production build on a specific port:
 
-`vite preview --port {{5050}}`
+`vite preview --port {{port}}`
 
 - Display help for a subcommand:
 
