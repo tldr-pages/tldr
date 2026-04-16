@@ -1,4 +1,4 @@
-# docker container start.
+# docker container start
 
 > Jalankan kontainer-kontainer yang dihentikan.
 > Informasi lebih lanjut: <https://docs.docker.com/reference/cli/docker/container/start/>.
