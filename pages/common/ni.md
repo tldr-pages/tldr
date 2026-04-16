@@ -2,6 +2,7 @@
 
 > Use the right package manager (npm, yarn, pnpm, bun, or deno) automatically.
 > Detect the current project's lockfile to run the corresponding commands.
+> Note: In PowerShell, `ni` is a built-in alias for `New-Item`. To use this tool, the alias must be removed.
 > More information: <https://github.com/antfu-collective/ni>.
 
 - Install all dependencies (equivalent to `npm install`, `yarn install`, etc.):
