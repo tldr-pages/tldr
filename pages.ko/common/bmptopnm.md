@@ -9,8 +9,8 @@
 
 - BMP 헤더의 내용을 `stderr`에 보고:
 
-`bmptopnm -verbose {{경로/대상/file.bmp}}`
+`bmptopnm {{[-verb|-verbose]}} {{경로/대상/file.bmp}}`
 
 - 버전 표시:
 
-`bmptopnm -version`
+`bmptopnm {{[-v|-version]}}`

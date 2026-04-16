@@ -1,10 +1,10 @@
 # cargo
 
-> 管理 Rust 專案及其模組依賴項（crates）。
+> 管理 Rust 專案及其模組相依項（crates）。
 > 此命令也有關於其子命令的文件，例如：`build`.
 > 更多資訊：<https://doc.rust-lang.org/stable/cargo/>。
 
-- 搜尋套件：
+- 搜尋套件（crate）：
 
 `cargo search {{搜尋關鍵詞}}`
 
