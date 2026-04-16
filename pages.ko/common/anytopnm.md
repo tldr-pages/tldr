@@ -9,4 +9,4 @@
 
 - 디스플레이 버전:
 
-`anytopnm -version`
+`anytopnm {{[-v|-version]}}`

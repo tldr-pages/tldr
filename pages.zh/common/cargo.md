@@ -4,7 +4,7 @@
 > 此命令也有关于其子命令的文件，例如：`build`.
 > 更多信息：<https://doc.rust-lang.org/stable/cargo/>。
 
-- 搜索包：
+- 搜索包（crate）：
 
 `cargo search {{搜索关键词}}`
 
