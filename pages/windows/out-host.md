@@ -3,7 +3,7 @@
 > Handle and output `stdout` of any command within PowerShell session.
 > Can also be used as a substitute of `more`.
 > Note: This command can only be used through PowerShell.
-> More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/out-host>
+> More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/out-host>.
 
 - Display a command output or variable's value into the command-line (equivalent to invoking the command or variable without `Out-Host` itself): 
 

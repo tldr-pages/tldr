@@ -5,7 +5,7 @@
 > Note: This command can only be used through PowerShell and only within Windows.
 > More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/out-gridview>.
 
-- Display the command or cmdlet outputs into a new window.
+- Display the command or cmdlet outputs into a new window:
 
 `{{command}} | Out-GridView`
 
