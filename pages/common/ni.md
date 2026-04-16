@@ -1,7 +1,7 @@
 # ni
 
 > Use the right package manager (npm, yarn, pnpm, bun, or deno) automatically.
-> Detects the current project's lockfile to run the corresponding commands.
+> Detect the current project's lockfile to run the corresponding commands.
 > More information: <https://github.com/antfu-collective/ni>.
 
 - Install all dependencies (equivalent to `npm install`, `yarn install`, etc.):
