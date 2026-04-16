@@ -21,21 +21,9 @@
 
 `dpkg-buildpackage -us -uc`
 
-- Tampoco firma el archivo `.buildinfo`:
-
-`dpkg-buildpackage -us -uc -ui`
-
 - No ejecuta `clean` antes de compilar:
 
 `dpkg-buildpackage -nc`
-
-- También ejecuta `clean` después de la compilación:
-
-`dpkg-buildpackage -tc`
-
-- No verifica las dependencias de compilación:
-
-`dpkg-buildpackage -d`
 
 - Usa `fakeroot` como comando para obtener privilegios de root durante la compilación:
 

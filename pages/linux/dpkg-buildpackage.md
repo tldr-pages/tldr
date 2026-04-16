@@ -21,21 +21,9 @@
 
 `dpkg-buildpackage -us -uc`
 
-- Also do not sign the `.buildinfo` file:
-
-`dpkg-buildpackage -us -uc -ui`
-
 - Do not run `clean` before compiling:
 
 `dpkg-buildpackage -nc`
-
-- Also run `clean` after compilation:
-
-`dpkg-buildpackage -tc`
-
-- Do not check build dependencies:
-
-`dpkg-buildpackage -d`
 
 - Use `fakeroot` as the command to gain root privileges during the build:
 
