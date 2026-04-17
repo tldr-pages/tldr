@@ -6,8 +6,8 @@
 
 - 특정 노드로 파일 전송:
 
-`sudo tailscale file cp {{경로/대상/파일}} {{호스트명|IP}}:`
+`tailscale file cp {{경로/대상/파일}} {{호스트명|IP}}:`
 
 - 현재 노드로 전송된 파일을 특정 디렉토리에 저장:
 
-`sudo tailscale file get {{경로/대상/폴더}}`
+`tailscale file get {{경로/대상/폴더}}`
