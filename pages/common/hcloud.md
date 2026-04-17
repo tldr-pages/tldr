@@ -1,16 +1,32 @@
 # hcloud
 
-> Show how to use the CLI for Hetzner Cloud.
-> More information: <https://github.com/hetznercloud/cli/blob/main/docs/reference/manual/hcloud.md>.
+> Manage Hetzner Cloud resources.
+> More information: <https://github.com/hetznercloud/cli>.
 
-- Show available commands and flags:
+- Log in to a Hetzner Cloud project:
 
-`hcloud`
+`hcloud context create {{context_name}}`
 
-- Show available commands and flags for `hcloud` contexts:
+- List all servers:
 
-`hcloud context`
+`hcloud server list`
 
-- Display help:
+- Create a server:
 
-`hcloud -h`
+`hcloud server create --name {{name}} --type {{server_type}} --image {{image_name}}`
+
+- List all available server types:
+
+`hcloud server-type list`
+
+- List all available images:
+
+`hcloud image list`
+
+- Delete a server:
+
+`hcloud server delete {{server_name_or_id}}`
+
+- Display help for a subcommand:
+
+`hcloud {{server|context|network|image}} --help`
