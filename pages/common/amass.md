@@ -1,21 +1,29 @@
 # amass
 
-> In-depth Attack Surface Mapping and Asset Discovery tool.
-> Some subcommands such as `intel` have their own usage documentation.
+> Map attack surfaces and discover assets.
+> Some subcommands such as `enum` and `intel` have their own usage documentation.
 > More information: <https://github.com/owasp-amass/amass>.
 
-- Execute an Amass subcommand:
+- Discover subdomains for a domain:
 
-`amass {{intel|enum}} {{options}}`
+`amass enum -d {{domain_name}}`
 
-- Display help:
+- Perform passive-only enumeration (no direct contact with the target):
 
-`amass -help`
+`amass enum -passive -d {{domain_name}}`
 
-- Display help on an Amass subcommand:
+- Enumerate subdomains using a config file:
 
-`amass {{intel|enum}} -help`
+`amass enum -config {{path/to/config.ini}} -d {{domain_name}}`
 
-- Display version:
+- Gather intelligence about an organization:
 
-`amass -version`
+`amass intel -org "{{organization_name}}"`
+
+- Display the database of previously enumerated results:
+
+`amass db -show`
+
+- Display help for a subcommand:
+
+`amass {{enum|intel|db|viz}} -help`
