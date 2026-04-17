@@ -32,7 +32,3 @@
 - Run a specific `debian/rules` target:
 
 `dpkg-buildpackage {{[-T|--rules-target=]}}{{clean}}`
-
-- Compile in parallel:
-
-`DEB_BUILD_OPTIONS=parallel={{N}} dpkg-buildpackage`
