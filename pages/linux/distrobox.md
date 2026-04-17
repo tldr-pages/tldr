@@ -1,37 +1,30 @@
 # distrobox
 
-> Use any Linux distribution inside your terminal in a container. Install & use packages inside it while tightly integrating with the host OS, sharing storage (`home` directory) and hardware.
-> Note: `distrobox` isn't a command, but a set of commands.
-> More information: <https://github.com/89luca89/distrobox>.
+> Use any Linux distribution inside your terminal in a container.
+> Integrates tightly with the host, sharing the home directory, hardware, and graphical apps.
+> Some subcommands such as `create`, `enter`, and `export` have their own usage documentation.
+> More information: <https://distrobox.it>.
 
-- View documentation for creating containers:
+- List all containers:
 
-`tldr distrobox-create`
+`distrobox list`
 
-- View documentation for listing container's information:
+- Create a new container from an image:
 
-`tldr distrobox-list`
+`distrobox create --name {{container_name}} --image {{ubuntu:22.04}}`
 
-- View documentation for entering the container:
+- Enter a container:
 
-`tldr distrobox-enter`
+`distrobox enter {{container_name}}`
 
-- View documentation for executing a command on the host from inside a container:
+- Upgrade all containers:
 
-`tldr distrobox-host-exec`
+`distrobox upgrade --all`
 
-- View documentation for exporting app/service/binary from the container to the host:
+- Stop a running container:
 
-`tldr distrobox-export`
+`distrobox stop {{container_name}}`
 
-- View documentation for upgrading containers:
+- Remove a container:
 
-`tldr distrobox-upgrade`
-
-- View documentation for stopping the containers:
-
-`tldr distrobox-stop`
-
-- View documentation for removing the containers:
-
-`tldr distrobox-rm`
+`distrobox rm {{container_name}}`
