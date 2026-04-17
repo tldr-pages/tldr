@@ -1,18 +1,33 @@
 # eselect
 
-> Gentoo's multi-purpose configuration and management tool.
-> It consists of various modules that take care of individual administrative tasks.
-> Some subcommands such as `kernel`, `locale`, `profile`, etc. have their own usage documentation.
+> A system administration and configuration tool for Gentoo Linux.
+> Some subcommands such as `profile` have their own usage documentation.
 > More information: <https://wiki.gentoo.org/wiki/Eselect>.
 
-- Display a list of installed modules:
+- List all available system profiles:
 
-`eselect`
+`eselect profile list`
 
-- View documentation for a specific module:
+- Set a system profile by its index or name:
 
-`tldr eselect {{module}}`
+`eselect profile set {{index|name}}`
 
-- Display a help message for a specific module:
+- List available versions of a specific tool (e.g., Python):
 
-`eselect {{module}} help`
+`eselect {{python}} list`
+
+- Set the active version of a specific tool:
+
+`eselect {{python}} set {{index|name}}`
+
+- List available kernel symlinks:
+
+`eselect kernel list`
+
+- Create a symlink to a specific kernel directory:
+
+`eselect kernel set {{index|name}}`
+
+- Display help for a specific module:
+
+`eselect help {{module_name}}`
