@@ -8,7 +8,7 @@
 
 `tload`
 
-- Change the graph [s]cale (recommended value=10 to maintain a 1:1 scale based on the system load percentage):
+- Change the graph scale (recommended value=10 to maintain a 1:1 scale based on the system load percentage):
 
 `tload {{[-s|--scale]}} {{value}}`
 
