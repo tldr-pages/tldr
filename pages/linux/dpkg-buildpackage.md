@@ -11,27 +11,27 @@
 
 - Generate only binary packages (no source package):
 
-`dpkg-buildpackage -b`
+`dpkg-buildpackage {{[-b|--build=binary]}}`
 
 - Generate only the source package (without compiling binaries):
 
-`dpkg-buildpackage -S`
+`dpkg-buildpackage {{[-S|--build=source]}}`
 
 - Do not sign the `.dsc` and `.changes` files:
 
-`dpkg-buildpackage -us -uc`
+`dpkg-buildpackage {{[-us|--unsigned-source]}} {{[-uc|--unsigned-changes]}}`
 
 - Do not run `clean` before compiling:
 
-`dpkg-buildpackage -nc`
+`dpkg-buildpackage {{[-nc|--no-pre-clean]}}`
 
 - Use `fakeroot` as the command to gain root privileges during the build:
 
-`dpkg-buildpackage -rfakeroot`
+`dpkg-buildpackage {{[-r|--root-command=]}}{{fakeroot}}`
 
 - Run a specific `debian/rules` target:
 
-`dpkg-buildpackage -T clean`
+`dpkg-buildpackage {{[-T|--rules-target=]}}{{clean}}`
 
 - Compile in parallel:
 
