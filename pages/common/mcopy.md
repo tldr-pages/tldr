@@ -8,7 +8,7 @@
 
 - Copy a file from Linux to an MS-DOS disk or image:
 
-`mcopy {{path/to/source_file}} {{A}}:{{/path/to/target_file}}`
+`mcopy {{path/to/source_file}} {{A}}:/{{path/to/target_file}}`
 
 - Copy a file from an MS-DOS disk to the current Linux directory:
 
@@ -28,8 +28,8 @@
 
 - Copy a directory recur[s]ively to an MS-DOS disk:
 
-`mcopy -s {{path/to/source_directory}} {{A:/path/to/target_directory}}`
+`mcopy -s {{path/to/source_directory}} {{A}}:/{{path/to/target_directory}}`
 
 - Copy a file and [p]reserve attributes:
 
-`mcopy -p {{path/to/source_file}} {{A:}}`
+`mcopy -p {{path/to/source_file}} {{A}}:/{{path/to/target_file}}`
