@@ -1,6 +1,6 @@
 # vite
 
-> Vite is a fast development server and build tool for modern web projects.
+> Manage web projects.
 > Supports frameworks like React, Vue, Svelte, Preact, Lit, and Solid.
 > See also: `npm`, `pnpm`, `bun`.
 > More information: <https://vite.dev/guide/cli.html>.
