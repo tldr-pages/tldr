@@ -3,7 +3,7 @@
 > Manage network sharing for Windows Media Player (legacy).
 > Commands require administrator privileges.
 > See also: `wmpnscfg`.
-> More information: <https://learn.microsoft.com/previous-versions/windows/desktop/wmp/command-line-parameters>
+> More information: <https://learn.microsoft.com/previous-versions/windows/desktop/wmp/command-line-parameters>.
 
 - Turn network sharing on or off:
 
