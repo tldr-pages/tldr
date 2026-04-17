@@ -1,16 +1,33 @@
 # apx
 
-> Package management utility with support for multiple sources, allowing you to install packages in subsystems.
-> More information: <https://docs.vanillaos.org/docs/en/apx-manpage>.
+> A wrapper around multiple package managers for Vanilla OS.
+> Some subcommands such as `init` have their own usage documentation.
+> More information: <https://github.com/Vanilla-OS/apx>.
 
-- View documentation for managing package managers:
+- Initialize the unmanaged container:
 
-`tldr apx pkgmanagers`
+`apx init`
 
-- View documentation for managing stacks:
+- Install a package inside the container:
 
-`tldr apx stacks`
+`apx install {{package_name}}`
 
-- View documentation for managing subsystems:
+- Search for a package inside the container:
 
-`tldr apx subsystems`
+`apx search {{package_name}}`
+
+- Remove a package from the container:
+
+`apx remove {{package_name}}`
+
+- Update the list of available packages in the container:
+
+`apx update`
+
+- Upgrade all installed packages in the container:
+
+`apx upgrade`
+
+- Execute a command inside the container:
+
+`apx run {{command}}`
