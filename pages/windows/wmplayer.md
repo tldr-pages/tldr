@@ -12,6 +12,10 @@
 
 `wmplayer {{path\to\file}}`
 
+- Play a DVD or Audio CD disk:
+
+`wmplayer /device:{{dvd|audiocd}}`
+
 - Play files in fullscreen:
 
 `wmplayer {{path\to\file}} /fullscreen`
