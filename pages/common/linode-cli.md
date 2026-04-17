@@ -1,37 +1,33 @@
 # linode-cli
 
 > Manage Linode cloud services.
-> Some subcommands such as `events` have their own usage documentation.
+> Some subcommands such as `linodes`, `lke`, `domains`, `volumes`, and `object-storage` have their own usage documentation.
 > More information: <https://techdocs.akamai.com/cloud-computing/docs/getting-started-with-the-linode-cli>.
 
-- List all Linodes:
+- Configure the CLI with an API token:
+
+`linode-cli configure`
+
+- List all Linode instances:
 
 `linode-cli linodes list`
 
-- View documentation for managing Linode accounts:
+- Create a new Linode instance:
 
-`tldr linode-cli account`
+`linode-cli linodes create --type {{linode_type}} --region {{region}} --image {{image_id}}`
 
-- View documentation for managing Linodes:
+- List all Kubernetes clusters:
 
-`tldr linode-cli linodes`
+`linode-cli lke clusters-list`
 
-- View documentation for managing Linode Kubernetes Engine (LKE) clusters:
+- List all domains:
 
-`tldr linode-cli lke`
+`linode-cli domains list`
 
-- View documentation for managing NodeBalancers:
+- List all volumes:
 
-`tldr linode-cli nodebalancers`
+`linode-cli volumes list`
 
-- View documentation for managing Object Storage:
+- Display help for a subcommand:
 
-`tldr linode-cli object-storage`
-
-- View documentation for managing domains and DNS configuration:
-
-`tldr linode-cli domains`
-
-- View documentation for managing Linode Volumes:
-
-`tldr linode-cli volumes`
+`linode-cli {{linodes|lke|domains|volumes}} --help`
