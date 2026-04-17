@@ -9,7 +9,7 @@
 
 - Execute a command in the default terminal:
 
-`xdg-terminal-exec {{command}} {{command_arguments}}`
+`xdg-terminal-exec {{command}} {{argument1 argument2 ...}}`
 
 - Hold the terminal open after the command has finished executing:
 
