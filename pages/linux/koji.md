@@ -1,29 +1,28 @@
 # koji
 
-> Interact with kojihub.
-> Some subcommands such as `build`, `tag-build`, `download-build`, `buildinfo`, `call`, etc. have their own usage documentation.
-> More information: <https://docs.pagure.org/koji/>.
+> The Fedora Koji build system client.
+> More information: <https://pagure.io/koji/>.
 
-- Execute a koji subcommand:
+- List all available targets:
 
-`koji {{subcommand}}`
+`koji list-targets`
 
-- Introduce yourself to test connectivity with koijhub:
+- Trigger a new build for a specific target using a source RPM (SRPM):
 
-`koji moshimoshi`
+`koji build {{target_name}} {{path/to/package.src.rpm}}`
 
-- Display help about global options:
+- Search for packages in Koji:
 
-`koji {{[-h|--help]}}`
+`koji search package {{package_name}}`
 
-- Display help to get all available commands:
+- Show details about a specific build:
 
-`koji help`
+`koji buildinfo {{build_id|n-v-r}}`
 
-- Display help for a specific subcommand (like `build`, `tag-build`, `download-build`, `buildinfo`,`call`, etc.):
+- Cancel a running task:
 
-`koji {{subcommand}} {{[-h|--help]}}`
+`koji cancel {{task_id}}`
 
-- Display version:
+- Display help for a subcommand:
 
-`koji version`
+`koji help {{subcommand}}`
