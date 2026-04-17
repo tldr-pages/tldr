@@ -14,7 +14,7 @@
 
 - Change the refresh rate (seconds) for the graph:
 
-`tload {{[-d|--delay]}} {{value}}`
+`tload {{[-d|--delay]}} {{seconds}}`
 
 - Display a graph for a specific terminal:
 
