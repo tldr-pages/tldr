@@ -1,32 +1,32 @@
 # pkgctl
 
-> Unified frontend for Arch Linux devtools.
-> More information: <https://manned.org/pkgctl>.
+> A tool for managing Arch Linux packages.
+> More information: <https://man.archlinux.org/man/pkgctl.1>.
 
-- View documentation for authenticating `pkgctl` with services like GitLab:
+- Build a package in a clean chroot:
 
-`tldr pkgctl auth`
+`pkgctl build`
 
-- View documentation for building packages inside a clean `chroot`:
+- Build a package for a specific architecture:
 
-`tldr pkgctl build`
+`pkgctl build --arch {{x86_64|aarch64}}`
 
-- View documentation for updating the binary repository as final release step:
+- Search for a package in the official repositories:
 
-`tldr pkgctl db update`
+`pkgctl search {{package_name}}`
 
-- View documentation for comparing package files using different modes:
+- Clone a package repository:
 
-`tldr pkgctl diff`
+`pkgctl repo clone {{package_name}}`
 
-- View documentation for releasing build artifacts:
+- Display the current version of a package:
 
-`tldr pkgctl release`
+`pkgctl version {{package_name}}`
 
-- View documentation for managing Git packaging repositories and their configuration:
+- Authenticate with the Arch Linux packaging infrastructure:
 
-`tldr pkgctl repo`
+`pkgctl auth`
 
-- Display version:
+- Display help for a subcommand:
 
-`pkgctl version`
+`pkgctl {{build|search|repo|auth}} --help`
