@@ -16,6 +16,6 @@
 
 `tload {{[-d|--delay]}} {{value}}`
 
-- View a server's load using tload:
+- Display a graph for a specific terminal:
 
-`ssh {{username@host}} -t tload {{[-s|--scale]}} 10 {{[-d|--delay]}} 1`
+`tload {{/dev/tty1}}`
