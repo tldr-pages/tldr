@@ -1,29 +1,28 @@
 # xml
 
-> XMLStarlet Toolkit: query, edit, check, convert, and transform XML documents.
-> Some subcommands such as `validate` have their own usage documentation.
-> More information: <https://xmlstar.sourceforge.net/doc/UG/xmlstarlet-ug.html#idm47077139670224>.
+> Query, edit, check, convert, and transform XML documents.
+> More information: <https://xmlstar.sourceforge.net/doc/UG/xmlstarlet-ug.html>.
 
-- Display general help, including the list of subcommands:
+- Select nodes from an XML file using an XPath expression:
 
-`xml --help`
+`xml sel -t -v "{{//xpath/expression}}" {{path/to/file.xml}}`
 
-- Execute a subcommand with input from a file or URI, printing to `stdout`:
+- Edit a node value in-place using an XPath expression:
 
-`xml {{subcommand}} {{options}} {{path/to/input.xml|URI}}`
+`xml ed --inplace -u "{{//xpath/expression}}" -v "{{new_value}}" {{path/to/file.xml}}`
 
-- Execute a subcommand using `stdin` and `stdout`:
+- Validate an XML file against an XSD schema:
 
-`xml {{subcommand}} {{options}}`
+`xml val --xsd {{path/to/schema.xsd}} {{path/to/file.xml}}`
 
-- Execute a subcommand with input from a file or URI and output to a file:
+- Pretty-print (indent) an XML file:
 
-`xml {{subcommand}} {{options}} {{path/to/input.xml|URI}} > {{path/to/output}}`
+`xml fo {{path/to/file.xml}}`
+
+- Transform an XML file using an XSLT stylesheet:
+
+`xml tr {{path/to/stylesheet.xsl}} {{path/to/file.xml}}`
 
 - Display help for a specific subcommand:
 
-`xml {{subcommand}} --help`
-
-- Display version:
-
-`xml --version`
+`xml {{sel|ed|val|fo|tr}} --help`
