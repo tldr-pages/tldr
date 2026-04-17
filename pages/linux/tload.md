@@ -12,7 +12,7 @@
 
 `tload {{[-s|--scale]}} {{value}}`
 
-- Change the refresh rate (seconds) for the graph:
+- Change the refresh rate for the graph:
 
 `tload {{[-d|--delay]}} {{seconds}}`
 
