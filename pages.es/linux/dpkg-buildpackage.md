@@ -3,7 +3,7 @@
 > Compila paquetes binarios y/o fuente en formato Debian a partir del código fuente.
 > Normalmente se ejecuta dentro de un árbol de código fuente que contiene un directorio `debian/`.
 > También puede verificar dependencias de compilación, generar archivos como `.buildinfo` y `.changes`, y firmar el resultado si es aplicable.
-> Más información: <https://man7.org/linux/man-pages/man1/dpkg-buildpackage.1.html>.
+> Más información: <https://manned.org/dpkg-buildpackage>.
 
 - Genera paquetes fuente y binario:
 

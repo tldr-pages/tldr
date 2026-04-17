@@ -3,7 +3,7 @@
 > Compile binary and/or source Debian packages from source code.
 > Normally executed inside a source tree that contains a `debian/` directory.
 > Also handles build dependencies, creates files like `.buildinfo` and `.changes`, and signs the result if applicable.
-> More information: <https://man7.org/linux/man-pages/man1/dpkg-buildpackage.1.html>.
+> More information: <https://manned.org/dpkg-buildpackage>.
 
 - Generate source and binary packages:
 
