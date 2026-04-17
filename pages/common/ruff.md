@@ -1,13 +1,33 @@
 # ruff
 
-> An extremely fast Python linter and code formatter, written in Rust.
+> Lint and format Python code.
 > See also: `black`.
-> More information: <https://docs.astral.sh/ruff/tutorial/>.
+> More information: <https://docs.astral.sh/ruff/>.
 
-- View documentation for the Ruff linter:
+- Check for linting errors in a file or directory:
+
+`ruff check {{path/to/file_or_directory}}`
+
+- Check and automatically fix linting errors:
+
+`ruff check --fix {{path/to/file_or_directory}}`
+
+- Format a file or directory:
+
+`ruff format {{path/to/file_or_directory}}`
+
+- Check formatting without applying changes:
+
+`ruff format --check {{path/to/file_or_directory}}`
+
+- List all available lint rules:
+
+`ruff rule --all`
+
+- Display help for linting:
 
 `tldr ruff check`
 
-- View documentation for the Ruff code formatter:
+- Display help for formatting:
 
 `tldr ruff format`
