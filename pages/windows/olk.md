@@ -11,7 +11,6 @@
 
 `olk --profile "{{profile}}"`
 
-
 - Run New Outlook in Safe Mode:
 
 `olk --safe`
