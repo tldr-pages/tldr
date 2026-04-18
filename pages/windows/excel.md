@@ -9,7 +9,7 @@
 
 `excel`
 
-- Create a new workbook with a [m]acro sheet:
+- Create a new workbook with a [m]acro-enabled sheet:
 
 `excel /m`
 
@@ -17,6 +17,6 @@
 
 `excel {{[/n|/t]}} {{path\to\file}}`
 
-- Start Microsoft Excel in Safe Mode:
+- Start Microsoft Excel in [s]afe Mode:
 
 `winword {{[/s|/safemode]}}`
