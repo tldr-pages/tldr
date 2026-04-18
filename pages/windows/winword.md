@@ -15,7 +15,7 @@
 
 `winword /w`
 
-- Create a new document, [f]ollowing the contents of an existing file:
+- Create a new document [f]rom (based on) an existing file:
 
 `winword /f {{path\to\file}}`
 
