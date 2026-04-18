@@ -9,10 +9,10 @@
 
 `silverlight-installer`
 
-- Run the installer in [q]uiet mode (do not show GUI).
+- Run the installer in [q]uiet mode (do not show GUI):
 
 `silverlight-installer /q`
 
-- Run the installer in [q]uiet [u]ninstaller mode (do not show GUI).
+- Run the installer in [q]uiet [u]ninstaller mode (do not show GUI):
 
 `silverlight-installer /qu`
