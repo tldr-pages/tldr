@@ -9,4 +9,4 @@
 
 - Display detailed status of a specific virtual machine:
 
-`qm {{[stat|status]}} --verbose {{true}} {{100}}`
+`qm {{[stat|status]}} {{100}} --verbose {{true}}`

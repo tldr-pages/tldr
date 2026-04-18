@@ -9,4 +9,4 @@
 
 - Reboot a virtual machine after wait for at most 10 seconds:
 
-`qm {{[reb|reboot]}} --timeout {{10}} {{100}}`
+`qm {{[reb|reboot]}} {{100}} --timeout {{10}}`

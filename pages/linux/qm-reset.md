@@ -9,4 +9,4 @@
 
 - Reset a virtual machine and skip lock (only root can use this option):
 
-`qm reset --skiplock {{true}} {{100}}`
+`qm reset {{100}} --skiplock {{true}}`
