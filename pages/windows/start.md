@@ -3,7 +3,7 @@
 > Start a command in a new console.
 > Can also be used to run Windows programs registered in the `App Paths` Windows Registry despite not registered in `PATH` environment variable.
 > In PowerShell, this command is an alias of `Start-Process`. This documentation is based on the Command Prompt (`cmd`) version of `start`.
-> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/start>
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/start>.
 
 - View the documentation of the equivalent PowerShell command:
 
