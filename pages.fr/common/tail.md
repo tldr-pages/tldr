@@ -12,9 +12,9 @@
 
 `tail {{chemin/vers/fichier1 chemin/vers/fichier2 ...}}`
 
-- Affiche les `nombre` dernières lignes d'un fichier :
+- Affiche les 5 dernières lignes d'un fichier :
 
-`tail -{{nombre}} {{chemin/vers/fichier}}`
+`tail {{[-5|--lines 5]}} {{chemin/vers/fichier}}`
 
 - Affiche tout le contenu d'un fichier à partir d'une `ligne` spécifique :
 
