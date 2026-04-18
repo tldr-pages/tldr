@@ -5,8 +5,8 @@
 
 - 가상 머신 재부팅:
 
-`qm {{[reb|reboot]}} {{가상_머신_ID}}`
+`qm {{[reb|reboot]}} {{100}}`
 
 - 최대 10초 기다린 후 가상 머신 재부팅:
 
-`qm {{[reb|reboot]}} --timeout {{10}} {{vm_id}}`
+`qm {{[reb|reboot]}} --timeout {{10}} {{100}}`

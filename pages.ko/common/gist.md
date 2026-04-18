@@ -29,4 +29,4 @@
 
 - URL의 ID를 사용하여 gist를 업데이트:
 
-`gist --update {{GIST_아이디}} {{파일.txt}}`
+`gist --update {{gist_아이디}} {{파일.txt}}`
