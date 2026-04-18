@@ -10,8 +10,8 @@
 
 - 모든 정보 메시지 억제:
 
-`pbmtogem -quiet`
+`pbmtogem {{[-q|-quiet]}}`
 
 - 버전 표시:
 
-`pbmtogem -version`
+`pbmtogem {{[-v|-version]}}`

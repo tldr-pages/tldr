@@ -21,8 +21,8 @@
 
 - View all users, emails, and the number of commits in the current branch:
 
-`git shortlog {{[-s|--summary]}} {{[-n|--numbered]}} {{[-e|--email]}}`
+`git shortlog {{[-sne|--summary --numbered --email]}}`
 
 - View all users, emails, and the number of commits in all branches:
 
-`git shortlog {{[-s|--summary]}} {{[-n|--numbered]}} {{[-e|--email]}} --all`
+`git shortlog {{[-sne|--summary --numbered --email]}} --all`
