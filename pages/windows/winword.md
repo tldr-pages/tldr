@@ -1,7 +1,7 @@
 # winword
 
 > Microsoft Office's word processor application.
-> More information: <https://support.microsoft.com/office/command-line-switches-for-microsoft-office-products-079164cd-4ef5-4178-b235-441737deb3a6#category=word>
+> More information: <https://support.microsoft.com/office/command-line-switches-for-microsoft-office-products-079164cd-4ef5-4178-b235-441737deb3a6#category=word>.
 
 - Launch the word processor application:
 
