@@ -1,13 +1,7 @@
 # see
 
-> Alias to `run-mailcap`'s view.
-> An alias to a `run-mailcap`'s action print.
-> More information: <https://manned.org/see>.
+> This command is an alias of `run-mailcap --action=view`.
 
-- See action can be used to view any file (usually image) on default mailcap explorer:
+- View documentation for the original command:
 
-`see {{filename}}`
-
-- Using with `run-mailcap`:
-
-`run-mailcap --action=view {{filename}}`
+`tldr run-mailcap`

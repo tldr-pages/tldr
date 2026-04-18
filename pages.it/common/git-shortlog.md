@@ -21,8 +21,8 @@
 
 - Mostra tutti gli utenti, email e numero di commit nel ramo corrente:
 
-`git shortlog {{[-s|--summary]}} {{[-n|--numbered]}} {{[-e|--email]}}`
+`git shortlog {{[-sne|--summary --numbered --email]}}`
 
 - Mostra tutti gli utenti, email e numero di commit in tutti i rami:
 
-`git shortlog {{[-s|--summary]}} {{[-n|--numbered]}} {{[-e|--email]}} --all`
+`git shortlog {{[-sne|--summary --numbered --email]}} --all`
