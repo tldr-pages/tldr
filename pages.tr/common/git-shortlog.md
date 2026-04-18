@@ -21,8 +21,8 @@
 
 - Mevcut daldaki tüm kullanıcıları, e-postalarını ve yaptıkları commit sayısını göster:
 
-`git shortlog {{-s|--summary}} {{-n|--numbered}} {{-e|--email}}`
+`git shortlog {{[-sne|--summary --numbered --email]}}`
 
 - Tüm dallardaki tüm kullanıcıları, e-postalarını ve yaptıkları commit sayısını göster:
 
-`git shortlog {{-s|--summary}} {{-n|--numbered}} {{-e|--email}} --all`
+`git shortlog {{[-sne|--summary --numbered --email]}} --all`

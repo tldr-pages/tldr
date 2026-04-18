@@ -21,7 +21,7 @@
 
 - Muestra todos los usuarios, correos electrónicos y número de confirmaciones en la rama actual:
 
-`git shortlog {{[-s|--summary]}} {{[-n|--numbered]}} {{[-e|--email]}}`
+`git shortlog {{[-sne|--summary --numbered --email]}}`
 
 - Muestra todos los usuarios, correos electrónicos y número de confirmaciones en todas las ramas:
 
