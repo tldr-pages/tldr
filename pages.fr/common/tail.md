@@ -35,4 +35,3 @@
 - Affiche les `nombre` dernières lignes d'un fichier et actualiser toutes les `secondes` secondes :
 
 `tail {{[-n|--lines]}} {{nombre}} {{[-s|--sleep-interval]}} {{secondes}} {{[-f|--follow]}} {{chemin/vers/fichier}}`
-
