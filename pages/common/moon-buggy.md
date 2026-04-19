@@ -7,9 +7,13 @@
 
 `moon-buggy`
 
-- Start a game, skipping the title screen and displaying high scores:
+- Skip title screen and immediately start a game:
 
-`moon-buggy --no-title --show-scores`
+`moon-buggy {{[-n|--no-title]}}`
+
+- Display leaderboard:
+
+`moon-buggy {{[-s|--show-scores]}}`
 
 - Jump:
 
