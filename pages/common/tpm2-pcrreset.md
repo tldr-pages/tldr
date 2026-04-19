@@ -1,7 +1,7 @@
 # tpm2 pcrreset
 
 > Reset one or more PCR banks.
-> On operating system's locality, only PCR 16 and 23 can be reset.
+> Note: On operating system's locality, only PCR 16 and 23 can be reset.
 > More information: <https://manned.org/tpm2_pcrreset>.
 
 - Reset the PCR 23 banks:

@@ -11,6 +11,6 @@
 
 `tpm2 pcrread sha256:all`
 
-- Read the PCR 16, 17 and 18 values of the sha1 and sha256 banks, then write them in binary format in the pcrs file:
+- Read specific PCR values from multiple banks and write them to a file:
 
-`tpm2 pcrread --output pcrs sha1:16,17,18+sha256:16,17,18`
+`tpm2 pcrread {{[-o|--output]}} {{path/to/file}} {{sha1:16,17,18+sha256:16,17,18}}`

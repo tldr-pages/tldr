@@ -1,6 +1,6 @@
 # tpm2
 
-> A single small executable that combines the various tpm2-tools.
+> Run various tpm2-tools via a single unified executable.
 > Some subcommands such as `pcrread`, `pcrreset`, etc. have their own usage documentation.
 > More information: <https://manned.org/tpm2>.
 
