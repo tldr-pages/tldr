@@ -17,7 +17,7 @@
 
 - Jump:
 
-`<Space> | <j>`
+`{{<Space>|<j>}}`
 
 - Use a mining laser:
 
