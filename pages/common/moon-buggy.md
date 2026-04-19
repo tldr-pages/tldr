@@ -3,7 +3,7 @@
 > Chrome dino-like game on the terminal.
 > More information: <https://manned.org/moon-buggy>.
 
-- Start a moon-buggy game:
+- Start `moon-buggy`:
 
 `moon-buggy`
 
