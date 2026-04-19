@@ -17,7 +17,7 @@
 
 - Use a mining laser:
 
-`<l> | <a>`
+`{{<l>|<a>}}`
 
 - Quit the game:
 
