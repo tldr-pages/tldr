@@ -4,7 +4,7 @@
 > List changed, added, and deleted files compared to the currently checked-out commit.
 > More information: <https://git-scm.com/docs/git-status>.
 
-- Show changed files which are not yet added for commit:
+- Show untracked and changed files which are not yet added for commit:
 
 `git status`
 
@@ -12,17 +12,17 @@
 
 `git status {{[-s|--short]}}`
 
-- Show verbose information on changes in both the staging area and working directory:
-
-`git status {{[-vv|--verbose --verbose]}}`
-
-- Show the branch and tracking info:
-
-`git status {{[-b|--branch]}}`
-
 - Show output in short format along with branch info:
 
 `git status {{[-sb|--short --branch]}}`
+
+- Show the changes in staged files (like `git diff --cached`):
+
+`git status {{[-v|--verbose]}}`
+
+- Show the changes in all tracked files (like `git diff`):
+
+`git status {{[-vv|--verbose --verbose]}}`
 
 - Show the number of entries currently stashed away:
 
