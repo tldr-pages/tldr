@@ -31,3 +31,7 @@
 - Switch to a tag or commit:
 
 `git switch {{[-d|--detach]}} {{tag|commit}}`
+
+- Switch to another remote's branch:
+
+`git switch {{[-t|--track]}} {{remote_name}}/{{branch}}`
