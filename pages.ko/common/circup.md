@@ -21,4 +21,4 @@
 
 - 연결된 장치의 모든 라이브러리를 현재 디렉터리에 저장:
 
-`circup freeze -r`
+`circup freeze {{[-r|--requirement]}}`

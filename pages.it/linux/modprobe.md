@@ -6,7 +6,7 @@
 
 - Fa finta di carica un modulo nel kernel, ma non lo fa veramente:
 
-`sudo modprobe {{[-n|--dry-run]}} {{nome_del_modulo}}`
+`modprobe {{[-n|--dry-run]}} {{nome_del_modulo}}`
 
 - Carica un modulo nel kernel:
 
