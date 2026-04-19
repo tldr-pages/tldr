@@ -36,4 +36,3 @@
 - 상세 출력 모드 활성화:
 
 `sudo audit2allow {{[-a|--all]}} {{[-v|--verbose]}}`
-
