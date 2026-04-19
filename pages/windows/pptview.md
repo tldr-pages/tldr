@@ -11,7 +11,7 @@
 
 `pptview {{path\to\file}}`
 
-- Open at a specific slide number:
+- Open at a specific slide [n]umber:
 
 `pptview /n{{1}} {{path\to\file}}`
 

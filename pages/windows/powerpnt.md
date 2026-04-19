@@ -7,11 +7,11 @@
 
 `powerpnt`
 
-- Create a [n]ew blank presentation:
+- Create a new [b]lank presentation:
 
-`powerpnt /n`
+`powerpnt /b`
 
-- Create a [n]ew blank presentation from a template:
+- Create a [n]ew presentation from a template:
 
 `powerpnt /n {{path\to\file.potm}}`
 
@@ -19,11 +19,11 @@
 
 `powerpnt /o {{path\to\file1 path\to\file2 ...}}`
 
-- Open a file in slideshow mode:
+- Open a file in [s]lideshow mode:
 
 `powerpnt /s {{path\to\file}}`
 
-- Open a presentation, then e[x]ecute a specific macro:
+- Open a presentation, then execute a specific [m]acro:
 
 `powerpnt /m {{path\to\file}} "{{MacroName}}"`
 
