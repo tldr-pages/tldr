@@ -1,6 +1,7 @@
 # pptview
 
 > View Microsoft PowerPoint presentations.
+> Note: This program has been deprecated.
 > More information: <https://support.microsoft.com/office/command-line-switches-for-microsoft-office-products-079164cd-4ef5-4178-b235-441737deb3a6#category=powerpoint%2C_powerpoint_viewer>.
 
 - Launch the application:
