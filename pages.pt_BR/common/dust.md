@@ -14,20 +14,20 @@
 
 - Exibe 30 diretórios (o padrão é 21):
 
-`dust --number-of-lines 30`
+`dust {{[-n|--number-of-lines]}} 30`
 
 - Exibe informações para o diretório atual, com até 3 níveis de profundidade:
 
-`dust --depth 3`
+`dust {{[-d|--depth]}} 3`
 
 - Exibe os maiores diretórios no topo em ordem decrescente:
 
-`dust --reverse`
+`dust {{[-r|--reverse]}}`
 
 - Ignora todos os arquivos e diretórios com um nome específico:
 
-`dust --ignore-directory {{arquivo_ou_nome_do_diretório}}`
+`dust {{[-X|--ignore-directory]}} {{arquivo_ou_nome_do_diretório}}`
 
 - Não exibe barras de porcentagem e porcentagens:
 
-`dust --no-percent-bars`
+`dust {{[-b|--no-percent-bars]}}`

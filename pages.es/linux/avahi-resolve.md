@@ -5,8 +5,8 @@
 
 - Resuelve un servicio local a su dirección IPv4:
 
-`avahi-resolve -4 --name {{servicio.local}}`
+`avahi-resolve -4 {{[-n|--name]}} {{servicio.local}}`
 
 - Resuelve una dirección IP a un nombre de host, de manera detallada:
 
-`avahi-resolve --verbose --address {{IP}}`
+`avahi-resolve {{[-v|--verbose]}} {{[-a|--address]}} {{IP}}`

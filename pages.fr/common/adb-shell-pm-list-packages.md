@@ -7,19 +7,19 @@
 
 `adb shell pm list packages`
 
-- Liste tout les paquets et les chemins de leurs fichiers APK associés :
+- Liste tout les paquets et les chemins de leurs [f]ichiers APK associés :
 
 `adb shell pm list packages -f`
 
-- Liste seulement les paquets désactivés :
+- Liste seulement les paquets [d]ésactivés :
 
 `adb shell pm list packages -d`
 
-- Liste seulement les paquets activés :
+- Liste seulement les paquets activ[é]s :
 
 `adb shell pm list packages -e`
 
-- Liste seulement les paquets système :
+- Liste seulement les paquets [s]ystème :
 
 `adb shell pm list packages -s`
 
@@ -27,6 +27,6 @@
 
 `adb shell pm list packages -3`
 
-- Affiche l'installateur pour chaque paquet :
+- Affiche l'[i]nstallateur pour chaque paquet :
 
 `adb shell pm list packages -i`

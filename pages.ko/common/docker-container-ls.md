@@ -25,7 +25,7 @@
 
 - 종료 상태 코드로 컨테이너 필터링:
 
-`docker {{[ps|container ls]}} {{[-a|--all]}} {{[-f|--filter]}} "exited={{코드}}"`
+`docker {{[ps|container ls]}} {{[-f|--filter]}} "exited={{코드}}" {{[-a|--all]}}`
 
 - 상태로 컨테이너 필터링 (created, running, removing, paused, exited, dead):
 

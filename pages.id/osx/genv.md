@@ -1,6 +1,6 @@
 # genv
 
-> Perintah ini merupakan alias dari `env`.
+> Perintah ini merupakan alias dari GNU `env`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 

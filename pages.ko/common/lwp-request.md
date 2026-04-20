@@ -10,7 +10,7 @@
 
 - 파일을 POST 요청으로 업로드:
 
-`lwp-request -m POST {{http://example.com/some/path}} < {{경로/대상/파일}}`
+`lwp-request < {{경로/대상/파일}} -m POST {{http://example.com/some/path}}`
 
 - 사용자 지정 에이전트로 요청 만들기:
 

@@ -25,7 +25,7 @@
 
 - Konteynerleri çıkış durum koduna göre filtrele:
 
-`docker {{[ps|container ls]}} {{[-a|--all]}} {{[-f|--filter]}} "exited={{kod}}"`
+`docker {{[ps|container ls]}} {{[-f|--filter]}} "exited={{kod}}" {{[-a|--all]}}`
 
 - Konteynerleri mevcut durumlarına (oluşturulma, çalışma, silinme, durma, çıkma ve ölme) göre sırala:
 

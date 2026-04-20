@@ -4,26 +4,34 @@
 > Beberapa subperintah seperti `commit`, `add`, `branch`, `checkout`, `push`, dsb. mempunyai dokumentasi terpisah.
 > Informasi lebih lanjut: <https://git-scm.com/docs/git>.
 
-- Jalankan suatu subperintah Git:
+- Buat suatu repositori Git baru:
 
-`git {{subperintah}}`
+`git init`
 
-- Jalankan suatu subperintah terhadap suatu direktori repositori:
+- Salin suatu repositori Git jarak jauh dari internet:
 
-`git -C {{jalan/menuju/repo}} {{subperintah}}`
+`git clone {{https://example.com/repo.git}}`
 
-- Jalankan suatu subperintah dengan set konfigurasi/pengaturan tertentu:
+- Lihat status repositori lokal saat ini:
 
-`git -c '{{kunci.config}}={{nilai}}' {{subperintah}}`
+`git status`
 
-- Tampilkan bantuan umum:
+- Tambahkan seluruh perubahan berkas dan direktori untuk membuat komit baru:
 
-`git --help`
+`git add {{[-A|--all]}}`
 
-- Tampilkan bantuan pada subperintah Git (seperti `clone`,` add`, `push`, `log`, dll.):
+- Lakukan komit terhadap riwayat versi repositori:
 
-`git help {{subcommand}}`
+`git commit {{[-m|--message]}} {{pesan_komit}}`
 
-- Periksa versi Git:
+- Teruskan komit-komit lokal menuju suatu repositori jarak jauh:
 
-`git --version`
+`git push`
+
+- Tarik perubahan-perubahan baru dari suatu repositori jarak jauh:
+
+`git pull`
+
+- Setel ulang seluruh isi repositori lokal menuju versi komit terakhir:
+
+`git reset --hard; git clean {{[-f|--force]}}`
