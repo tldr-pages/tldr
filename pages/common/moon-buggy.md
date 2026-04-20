@@ -7,11 +7,11 @@
 
 `moon-buggy`
 
-- Skip title screen and immediately start a game:
+- Skip the title screen and immediately start a game:
 
 `moon-buggy {{[-n|--no-title]}}`
 
-- Display leaderboard:
+- Display the leaderboard:
 
 `moon-buggy {{[-s|--show-scores]}}`
 
@@ -19,7 +19,7 @@
 
 `{{<Space>|<j>}}`
 
-- Use a mining laser:
+- Use the mining laser:
 
 `{{<l>|<a>}}`
 
