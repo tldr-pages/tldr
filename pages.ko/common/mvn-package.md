@@ -1,7 +1,7 @@
 # mvn package
 
-> Package the compiled code of a Maven project into its distributable format (such as a `.jar` or `.war`).
-> More information: <https://manned.org/mvn>.
+> Maven 프로젝트의 컴파일된 코드를 배포 가능한 형식(`.jar`, `.war` 등)으로 패키징.
+> 더 많은 정보: <https://manned.org/mvn>.
 
 - 프로젝트 패키징:
 
