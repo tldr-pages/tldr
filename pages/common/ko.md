@@ -9,7 +9,7 @@
 
 - Apply Kubernetes manifests with Go image references resolved to digests:
 
-`ko apply -f {{path/to/manifest.yaml}}`
+`ko apply {{[-f|--filename]}} {{path/to/manifest.yaml}}`
 
 - Create Kubernetes resources with resolved image references:
 
@@ -29,4 +29,4 @@
 
 - Log in to a container registry:
 
-`ko login {{registry.example.com}} -u {{username}} -p {{password}}`
+`ko login {{registry.example.com}} {{[-u|--username]}} {{username}} {{[-p|--password]}} {{password}}`
