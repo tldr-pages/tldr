@@ -2,9 +2,8 @@
 
 > Copy MSDOS files to/from Unix.
 > Part of the `mtools` package.
-> See also: `mdir`, `mdel`, `mmove`.
 > Note: Use forward slash (`/`) instead of backlash (`\`) to refer to DOS subdirectories.
-> More information: <https://manned.org/mcopy>.
+> More information: <https://gnu.org/software/mtools/manual/mtools.html#mcopy>.
 
 - Copy a file from Linux to an MS-DOS disk or image:
 
