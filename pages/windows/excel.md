@@ -17,4 +17,4 @@
 
 - Start Microsoft Excel in [s]afe Mode:
 
-`winword {{[/s|/safemode]}}`
+`excel {{[/s|/safemode]}}`
