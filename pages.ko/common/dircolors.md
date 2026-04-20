@@ -1,24 +1,28 @@
 # dircolors
 
-> `$LS_COLOR` 환경변수와 스타일 `ls`, `dir`, 등을 설정하기 위한 명령어들을 출력한다.
+> `$LS_COLOR` 환경 변수를 설정하고, `ls`, `dir` 등의 출력 색상을 지정하기 위한 명령을 출력.
 > 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/dircolors-invocation.html>.
 
-- 기본 색상을 사용하여 `$LS_COLOR`를 설정하는 명령어들 출력하기:
+- 기본 색상 설정을 사용하여 `$LS_COLOR`를 설정하는 명령 출력:
 
 `dircolors`
 
-- 파일로부터 색상을 사용하여 `$LS_COLOR`를 설정하는 명령어들 출력하기:
+- `ls`에서 각 파일 유형이 어떤 색으로 표시되는지 출력:
 
-`dircolors {{파일명}}`
+`dircolors --print-ls-colors`
 
-- Bourne 쉘에 관한 명령어들 출력:
+- 특정 파일에 정의된 색상 설정을 사용해 `$LS_COLOR`를 설정하는 명령 출력:
 
-`dircolors --bourne-shell`
+`dircolors {{경로/대상/파일}}`
 
-- C 쉘에 관한 명령어들 출력:
+- Bourne 쉘용 명령 출력:
 
-`dircolors --c-shell`
+`dircolors {{[-b|--bourne-shell]}}`
 
-- 파일 유형과 확장에 대한 기본 색상들 보기:
+- C 쉘용 명령 출력:
 
-`dircolors --print-data`
+`dircolors {{[-c|--c-shell]}}`
+
+- 파일 유형 및 확장자에 대한 기본 색상 설정 보기:
+
+`dircolors {{[-p|--print-database]}}`

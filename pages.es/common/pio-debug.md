@@ -9,16 +9,16 @@
 
 - Depura un proyecto PlatformIO específico:
 
-`pio debug --project-dir {{ruta/al/proyecto_platformio}}`
+`pio debug {{[-d|--project-dir]}} {{ruta/al/proyecto_platformio}}`
 
 - Depura un ambiente específico:
 
-`pio debug --environment {{ambiente}}`
+`pio debug {{[-e|--environment]}} {{ambiente}}`
 
 - Depura un proyecto PlatformIO utilizando un archivo de configuración específico:
 
-`pio debug --project-conf {{ruta/a/platformio.ini}}`
+`pio debug {{[-c|--project-conf]}} {{ruta/a/platformio.ini}}`
 
 - Depura un proyecto PlatformIO usando el depurador `gdb`:
 
-`pio debug --interface={{gdb}} {{opciones_de_gdb}}`
+`pio debug --interface {{gdb}} {{opciones_de_gdb}}`

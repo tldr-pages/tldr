@@ -23,6 +23,10 @@
 
 `timedatectl set-ntp on`
 
+- Show information about time synchronization (only available when using `systemd-timesyncd`):
+
+`timedatectl timesync-status`
+
 - Change the hardware clock time standard to localtime:
 
 `timedatectl set-local-rtc 1`

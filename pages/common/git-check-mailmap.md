@@ -5,4 +5,8 @@
 
 - Look up the canonical name associated with an email address:
 
-`git check-mailmap "<{{email@example.com}}>"`
+`git check-mailmap {{email@example.com}}`
+
+- Use the specified mailmap file in addition to the defaults:
+
+`git check-mailmap --mailmap-file {{path/to/file}} {{email@example.com}}`

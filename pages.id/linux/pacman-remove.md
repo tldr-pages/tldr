@@ -6,28 +6,28 @@
 
 - Hapus paket beserta dependensinya:
 
-`sudo pacman --remove --recursive {{nama_paket}}`
+`sudo pacman -Rs {{nama_paket}}`
 
 - Hapus paket beserta dependensi dan file konfigurasi-nya:
 
-`sudo pacman --remove --recursive --nosave {{nama_paket}}`
+`sudo pacman -Rsn {{nama_paket}}`
 
 - Hapus tanpa konfirmasi:
 
-`sudo pacman --remove --noconfirm {{nama_paket}}`
+`sudo pacman -R --noconfirm {{nama_paket}}`
 
 - Hapus paket yatim piatu (diinstal sebagai dependensi namun tidak dibutuhkan oleh paket apa pun):
 
-`sudo pacman --remove --recursive --nosave $(pacman --query --unrequired --deps --quiet)`
+`sudo pacman -Rsn $(pacman -Qdtq)`
 
 - Hapus paket dan semua paket yang bergantung pada paket tersebut:
 
-`sudo pacman --remove --cascade {{nama_paket}}`
+`sudo pacman -Rc {{nama_paket}}`
 
 - Tampilkan daftar paket yang akan terpengaruh (tidak menghapus paket apa pun):
 
-`pacman --remove --print {{nama_paket}}`
+`pacman -Rp {{nama_paket}}`
 
 - Tampilkan bantuan untuk subperintah ini:
 
-`pacman --remove --help`
+`pacman -Rh`

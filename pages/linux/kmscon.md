@@ -1,7 +1,7 @@
 # kmscon
 
 > Use the framebuffer instead of text mode to draw a terminal in a TTY.
-> More information: <https://manned.org/man/fedora-43/kmscon>.
+> More information: <https://manned.org/kmscon>.
 
 - Start `kmscon` on the first available TTY:
 
@@ -18,3 +18,7 @@
 - Specify the command to use for login:
 
 `sudo kmscon {{[-l|--login]}} {{command}}`
+
+- Always start `kmscon` in a specific terminal:
+
+`systemctl enable --now kmsconvt@{{ttyX}}`

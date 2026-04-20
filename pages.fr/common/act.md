@@ -5,7 +5,7 @@
 
 - [l]iste les jobs disponibles :
 
-`act -l`
+`act {{[-l|--list]}}`
 
 - Execute l'événement par défault :
 
@@ -17,16 +17,16 @@
 
 - Execute un [j]ob spécifique :
 
-`act -j {{id_job}}`
+`act {{[-j|--job]}} {{id_job}}`
 
 - Ne pas lancer les actions maintenant (e.g un essai) :
 
-`act -n`
+`act {{[-n|--dryrun]}}`
 
 - Affiche le journal en mode verbeux :
 
-`act -v`
+`act {{[-v|--verbose]}}`
 
 - Execute un [W]orkflow en particulier, avec l'événement push :
 
-`act push -W {{path/to/workflow}}`
+`act push {{[-W|--workflows]}} {{path/to/workflow}}`

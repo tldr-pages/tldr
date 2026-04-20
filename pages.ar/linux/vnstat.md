@@ -9,16 +9,16 @@
 
 - عرض ملخص حركة المرور لواجهة شبكة محددة:
 
-`vnstat -i {{network_interface}}`
+`vnstat {{[-i|--iface]}} {{network_interface}}`
 
 - عرض إحصائيات مباشرة لواجهة شبكة محددة:
 
-`vnstat -l -i {{network_interface}}`
+`vnstat {{[-l|--live]}} {{[-i|--iface]}} {{network_interface}}`
 
 - عرض إحصائيات حركة المرور على أساس كل ساعة خلال آخر 24 ساعة باستخدام رسم بياني شريطي:
 
-`vnstat -hg`
+`vnstat {{[-hg|--hoursgraph]}}`
 
 - قياس وعرض متوسط حركة المرور لمدة 30 ثانية:
 
-`vnstat -tr {{30}}`
+`vnstat {{[-tr|--traffic]}} {{30}}`

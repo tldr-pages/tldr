@@ -9,12 +9,12 @@
 
 - 统计所有对象并以易读格式显示总磁盘使用量（如KB/MB）：
 
-`git count-objects --human-readable`
+`git count-objects {{[-H|--human-readable]}}`
 
 - 显示详细统计信息（包括对象类型细分）：
 
-`git count-objects --verbose`
+`git count-objects {{[-v|--verbose]}}`
 
 - 以易读格式显示详细统计信息：
 
-`git count-objects --human-readable --verbose`
+`git count-objects {{[-H|--human-readable]}} {{[-v|--verbose]}}`

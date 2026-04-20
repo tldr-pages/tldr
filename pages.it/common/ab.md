@@ -1,24 +1,28 @@
 # ab
 
-> Strumento di benchmarking di Apache. Il più semplice modo per eseguire un test sul carico del server.
+> Strumento di benchmarking per il server HTTP Apache.
 > Maggiori informazioni: <https://httpd.apache.org/docs/current/programs/ab.html>.
 
-- Esegui 100 richieste HTTP GET ad un dato URL:
+- Esegue 100 richieste HTTP GET verso un dato URL:
 
 `ab -n 100 {{url}}`
 
-- Esegui 100 richieste HTTP GET ad un dato URL, processandone fino a 10 contemporaneamente:
+- Esegue 100 richieste HTTP GET in batch concorrenti da 10 verso un URL:
 
 `ab -n 100 -c 10 {{url}}`
 
-- Esegui 100 richieste HTTP POST a un dato URL, utilizzando un payload JSON tramite file:
+- Esegue 100 richieste HTTP POST verso un URL usando un payload JSON da file:
 
-`ab -n 100 -T {{application/json}} -p {{percorso/del/file.json}} {{url}}`
+`ab -n 100 -T {{application/json}} -p {{percorso/al/file.json}} {{url}}`
 
-- Usa HTTP [K]eep Alive, ovvero esegui richieste multiple in una stessa sessione HTTP:
+- Usa HTTP [k]eep-Alive (più richieste nella stessa sessione HTTP):
 
 `ab -k {{url}}`
 
-- Setta il massimo numero di secondi per il benchmarking:
+- Imposta il timeout massimo in secondi per il benchmarking (30 di default):
 
-`ab -t {{secondi}} {{url}}`
+`ab -t {{60}} {{url}}`
+
+- Salva i risultati in un file CSV:
+
+`ab -e {{percorso/al/file.csv}}`

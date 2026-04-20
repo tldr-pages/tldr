@@ -3,10 +3,6 @@
 > Retour d'informations de bas niveau sur les objets Docker.
 > Plus d'informations : <https://docs.docker.com/reference/cli/docker/inspect/>.
 
-- Montrer l'aide :
-
-`docker inspect`
-
 - Afficher les informations de configuration d'un conteneur, image ou volume en utilisant un nom ou un ID :
 
 `docker inspect {{conteneur|image|ID}}`
@@ -30,3 +26,7 @@
 - Afficher toutes les liaisons de port :
 
 `docker inspect {{[-f|--format]}} '\{\{range $p, $conf := .NetworkSettings.Ports\}\} \{\{$p\}\} -> \{\{(index $conf 0).HostPort\}\} \{\{end\}\}' {{conteneur}}`
+
+- Montrer l'aide :
+
+`docker inspect`

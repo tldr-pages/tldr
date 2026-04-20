@@ -9,23 +9,23 @@
 
 - Starte einen oder mehrere gestoppte Container:
 
-`docker {{[start|container start]}} {{container1_name}} {{container2_name}}`
+`docker {{[start|container start]}} {{container1_name container2_name ...}}`
 
 - Beende einen oder mehrere laufende Container sofort:
 
-`docker {{[kill|container kill]}} {{container_name}}`
+`docker {{[kill|container kill]}} {{container1_name container2_name ...}}`
 
 - Stoppe einen oder mehrere laufende Container:
 
-`docker {{[stop|container stop]}} {{container_name}}`
+`docker {{[stop|container stop]}} {{container1_name container2_name ...}}`
 
 - Pausiere alle Prozesse in einem oder mehreren Containern:
 
-`docker {{[pause|container pause]}} {{container_name}}`
+`docker {{[pause|container pause]}} {{container1_name container2_name ...}}`
 
 - Zeige detaillierte Informationen zu einem oder mehreren Containern an:
 
-`docker container inspect {{container_name}}`
+`docker container inspect {{container1_name container2_name ...}}`
 
 - Exportiere das Dateisystem eines Containers als `.tar` Archiv:
 

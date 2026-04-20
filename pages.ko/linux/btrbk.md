@@ -13,11 +13,11 @@
 
 - 표시된 변경 사항 없이 실행 시 어떤 일이 발생할지 출력:
 
-`sudo btrbk --verbose dryrun`
+`sudo btrbk {{[-v|--verbose]}} dryrun`
 
 - 백업 루틴을 자세히 실행하고 진행 막대 표시:
 
-`sudo btrbk --progress --verbose run`
+`sudo btrbk --progress {{[-v|--verbose]}} run`
 
 - 구성된 서브볼륨에 대해 스냅샷만 생성:
 

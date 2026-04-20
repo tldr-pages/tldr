@@ -10,7 +10,7 @@
 
 - 启动交互式会话并启用标准数学库：
 
-`bc --interactive --mathlib`
+`bc {{[-i|--interactive]}} {{[-l|--mathlib]}}`
 
 - 计算表达式：
 
@@ -26,7 +26,7 @@
 
 - 使用 `mathlib` 计算正弦/余弦/反正切/自然对数/指数函数：
 
-`echo '{{s|c|a|l|e}}({{1}})' | bc --mathlib`
+`echo '{{s|c|a|l|e}}({{1}})' | bc {{[-l|--mathlib]}}`
 
 - 执行一个内联的阶乘脚本：
 

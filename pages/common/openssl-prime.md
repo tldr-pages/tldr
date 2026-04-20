@@ -1,6 +1,6 @@
 # openssl prime
 
-> OpenSSL command to compute prime numbers.
+> Compute prime numbers.
 > More information: <https://docs.openssl.org/master/man1/openssl-prime/>.
 
 - Generate a 2048bit prime number and display it in hexadecimal:

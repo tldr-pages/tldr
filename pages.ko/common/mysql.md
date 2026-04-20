@@ -25,8 +25,8 @@
 
 - `mysqldump`로 생성된 백업에서 데이터베이스 복원 (비밀번호 입력 요청):
 
-`mysql {{[-u|--user]}} {{사용자}} {{[-p|--password]}} {{데이터베이스_이름}} < {{경로/대상/backup.sql}}`
+`mysql < {{경로/대상/backup.sql}} {{[-u|--user]}} {{사용자}} {{[-p|--password]}} {{데이터베이스_이름}}`
 
 - 백업에서 모든 데이터베이스 복원 (비밀번호 입력 요청):
 
-`mysql {{[-u|--user]}} {{사용자}} {{[-p|--password]}} < {{경로/대상/backup.sql}}`
+`mysql < {{경로/대상/backup.sql}} {{[-u|--user]}} {{사용자}} {{[-p|--password]}}`

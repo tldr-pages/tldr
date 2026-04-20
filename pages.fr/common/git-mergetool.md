@@ -13,15 +13,15 @@
 
 - Démarrer l'outil de différences en précisant son nom :
 
-`git mergetool --tool {{tool_name}}`
+`git mergetool {{[-t|--tool]}} {{tool_name}}`
 
 - Démarrer l'outil de différences sans dialogues :
 
-`git mergetool --no-prompt`
+`git mergetool {{[-y|--no-prompt]}}`
 
 - Utiliser explicitement l'outil de différences graphique (voir la variable de config `merge.guitool`) :
 
-`git mergetool --gui`
+`git mergetool {{[-g|--gui]}}`
 
 - Utiliser explicitement l'outil de différences classique (voir la variable de config `merge.tool`) :
 

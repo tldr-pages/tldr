@@ -63,7 +63,7 @@ SunOS, Android, Windows, Cisco IOS, and DOS command-line tools.
 > For browsing without installing a client on your computer,
 > see the web client at <https://tldr.inbrowser.app> (with offline support using PWA).
 
-There are several official clients avaiable.
+There are several official clients available.
 
 ### Python client
 
@@ -133,7 +133,7 @@ If it's your first time contributing, have a look at the [contributing guideline
 If you'd like to contribute to translations, you can visit <https://lukwebsforge.github.io/tldri18n/>
 to see the overall progress of all translations, and which translations are missing or outdated.
 
-You are also welcome to join us on the [matrix chatroom](https://matrix.to/#/#tldr-pages:matrix.org)!
+You are also welcome to join us on the [matrix chatroom](https://matrix.to/#/#tldr-pages:matrix.org) and the [matrix space](https://matrix.to/#/!mynHqJpTGlenkzgKGM:matrix.org) that contains all tldr related chatrooms!
 
 ## Similar projects
 

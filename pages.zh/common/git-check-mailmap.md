@@ -5,4 +5,4 @@
 
 - 查找与电子邮件地址关联的规范名称：
 
-`git check-mailmap "<{{邮箱@example.com}}>"`
+`git check-mailmap {{邮箱@example.com}}`

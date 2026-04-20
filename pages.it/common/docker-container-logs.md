@@ -9,7 +9,7 @@
 
 - Segui i log di un container:
 
-`docker {{[logs|container logs]}} {{[-f|--follow]}} {{nome_container}}`
+`docker {{[logs|container logs]}} {{nome_container}} {{[-f|--follow]}}`
 
 - Mostra le ultime 5 righe:
 
@@ -17,7 +17,7 @@
 
 - Mostra i log mettendo un timestamp in coda:
 
-`docker {{[logs|container logs]}} {{[-t|--timestamps]}} {{nome_container}}`
+`docker {{[logs|container logs]}} {{nome_container}} {{[-t|--timestamps]}}`
 
 - Mostra i log avvenuti prima di un dato momento nell'esecuzione del container (ad esempio, 23m, 10s, 2013-01-02T13:23:37):
 
