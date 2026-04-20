@@ -9,7 +9,11 @@
 
 - Connect to a server, forking into the background:
 
-`openconnect --background {{vpn.example.org}}`
+`openconnect {{[-b|--background]}} {{vpn.example.org}}`
+
+- Specify the connection protocol:
+
+`openconnect --protocol {{nc||pulse|gp|f5|fortinet|array}} {{vpn.example.org}}`
 
 - Terminate the connection that is running in the background:
 
@@ -17,8 +21,8 @@
 
 - Connect to a server, reading options from a configuration file:
 
-`openconnect --config={{path/to/file}} {{vpn.example.org}}`
+`openconnect --config {{path/to/file}} {{vpn.example.org}}`
 
 - Connect to a server and authenticate with a specific SSL client certificate:
 
-`openconnect --certificate={{path/to/file}} {{vpn.example.org}}`
+`openconnect {{[-c|--certificate]}} {{path/to/file}} {{vpn.example.org}}`
