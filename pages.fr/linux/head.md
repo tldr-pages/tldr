@@ -2,7 +2,7 @@
 
 > Afficher le début d'un fichier.
 > Voir aussi : `tail`
-> Plus d'information : <https://www.gnu.org/software/coreutils/manual/html_node/head-invocation.html>.
+> Plus d'informations : <https://www.gnu.org/software/coreutils/manual/html_node/head-invocation.html>.
 
 - Affiche les 10 premières lignes d'un fichier :
 
