@@ -9,11 +9,11 @@
 
 - 채널 conda-forge를 사용하여 현재 활성 conda 환경에 단일 패키지를 설치:
 
-`conda install -c conda-forge {{패키지}}`
+`conda install {{[-c|--channel]}} conda-forge {{패키지}}`
 
 - conda-forge 채널을 사용하고 다른 채널을 무시하고 현재 활성 conda 환경에 단일 패키지를 설치:
 
-`conda install -c conda-forge --override-channels {{패키지}}`
+`conda install {{[-c|--channel]}} conda-forge --override-channels {{패키지}}`
 
 - 특정 버전의 패키지를 설치:
 
@@ -21,7 +21,7 @@
 
 - 특정 환경에 패키지를 설치:
 
-`conda install --name {{환경}} {{패키지}}`
+`conda install {{[-n|--name]}} {{환경}} {{패키지}}`
 
 - 현재 환경에서 패키지 업데이트:
 
@@ -29,4 +29,4 @@
 
 - 메시지를 표시하지 않고 동의하여 패키지를 설치:
 
-`conda install --yes {{패키지}}`
+`conda install {{[-y|--yes]}} {{패키지}}`

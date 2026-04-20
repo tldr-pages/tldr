@@ -5,7 +5,7 @@
 
 - 이미지 파일에서 블록 맵 생성:
 
-`bmaptool create -o {{블록맵.bmap}} {{이미지 파일}}`
+`bmaptool create {{[-o|--output]}} {{블록맵.bmap}} {{이미지 파일}}`
 
 - 이미지 파일을 sdb로 복사:
 
