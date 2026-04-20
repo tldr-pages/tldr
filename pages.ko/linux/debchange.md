@@ -5,11 +5,11 @@
 
 - 비관리자 업로드를 위한 새 버전을 변경 로그에 추가:
 
-`debchange --nmu`
+`debchange {{[-n|--nmu]}}`
 
 - 현재 버전에 변경 로그 항목 추가:
 
-`debchange --append`
+`debchange {{[-a|--append]}}`
 
 - 지정된 ID의 버그를 종료하는 변경 로그 항목 추가:
 
