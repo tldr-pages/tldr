@@ -1,24 +1,34 @@
 # zstyle
 
-> Set styles used by Zsh.
+> Format strings in Zsh.
+> This builtin is part of the `zsh/zutil` module.
+> See also: `zstyle`.
 > More information: <https://zsh.sourceforge.io/Doc/Release/Zsh-Modules.html>.
 
-- Display current style settings:
+- List all defined styles:
 
 `zstyle`
 
-- Set a style for a specific pattern:
+- List styles as ready-to-paste `zstyle` commands:
 
-`zstyle {{pattern}} {{style}} {{value}}`
+`zstyle -L`
 
-- List styles matching a pattern:
+- Define a style for a pattern:
 
-`zstyle -L {{pattern}}`
+`zstyle {{pattern}} {{style}} {{value}} ...`
 
-- Display help:
+- Delete styles (all, or for a specific pattern/style):
 
-`zstyle --help`
+`zstyle -d {{pattern}}`
 
-- Display version:
+- Retrieve a style value as a string into a variable:
 
-`zstyle --version`
+`zstyle -s {{context}} {{style}} {{name}}`
+
+- Retrieve a style value as a boolean into a variable:
+
+`zstyle -b {{context}} {{style}} {{name}}`
+
+- Retrieve a style value as an array:
+
+`zstyle -a {{context}} {{style}} {{name}}`
