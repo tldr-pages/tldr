@@ -25,7 +25,7 @@
 
 - Connect to a server, reading options from a configuration file:
 
-`sudo openconnect --config {{path/to/file}} {{vpn.example.org}}`
+`sudo openconnect --config {{path/to/config_file}} {{vpn.example.org}}`
 
 - Connect to a server and authenticate with a specific SSL client certificate:
 
