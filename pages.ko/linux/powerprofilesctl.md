@@ -5,7 +5,7 @@
 
 - 사용 가능한 전원 프로필 나열:
 
-`powerprofilesctl list`
+`powerprofilesctl`
 
 - 특정 전원 프로필 설정:
 

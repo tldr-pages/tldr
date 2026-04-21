@@ -11,7 +11,7 @@
 
 `sudo importctl pull-raw {{https://example.com/source.ext}} {{name}} --class={{machine|portable|sysext|confext}}`
 
-- Import a raw disk image into the image directory that is possibly compressed with xz, gzip, or bzip2:
+- Import a raw disk image into the image directory that is possibly compressed with `xz`, `gzip`, or `bzip2`:
 
 `importctl import-raw {{path/to/file.ext}} {{name}} --class={{machine|portable|sysext|confext}}`
 

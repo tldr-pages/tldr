@@ -9,16 +9,16 @@
 
 - 파일에서 값을 읽어와 현재 저장소에 시크릿 설정:
 
-`gh secret set {{이름}} < {{경로/대상/파일}}`
+`gh < {{경로/대상/파일}} secret set {{이름}}`
 
 - 특정 저장소에 시크릿 설정:
 
-`gh secret set {{이름}} --body {{값}} --repo {{소유자}}/{{저장소}}`
+`gh secret set {{이름}} {{[-b|--body]}} {{값}} {{[-R|--repo]}} {{소유자}}/{{저장소}}`
 
 - 특정 저장소들에 대해 조직 시크릿 설정:
 
-`gh secret set {{이름}} --org {{조직}} --repos "{{저장소1,저장소2,...}}"`
+`gh secret set {{이름}} {{[-o|--org]}} {{조직}} {{[-r|--repos]}} "{{저장소1,저장소2,...}}"`
 
 - 특정 가시성으로 조직 시크릿 설정:
 
-`gh secret set {{이름}} --org {{조직}} --visibility {{all|private|selected}}`
+`gh secret set {{이름}} {{[-o|--org]}} {{조직}} {{[-v|--visibility]}} {{all|private|selected}}`

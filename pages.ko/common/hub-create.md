@@ -9,4 +9,4 @@
 
 - 개인 저장소를 생성하고 웹 브라우저에서 새로운 저장소를 열기:
 
-`hub create --private --browse`
+`hub create {{[-p|--private]}} {{[-o|--browse]}}`
