@@ -29,8 +29,8 @@
 
 - Update all binaries except for specific ones:
 
-`gup update {{[-e|--exclude]}} {{binary1,binary2}}`
+`gup update {{[-e|--exclude]}} {{binary1,binary2,...}}`
 
 - Update specific binaries to the latest version:
 
-`gup update --latest {{binary1,binary2}}`
+`gup update --latest {{binary1,binary2,...}}`
