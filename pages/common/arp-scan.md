@@ -25,4 +25,4 @@
 
 - Specify an interface to use for scanning:
 
-`arp-scan {{10.0.0.1}} {{[-I|--interface]}}`
+`arp-scan {{10.0.0.1}} {{[-I|--interface]}} {{interface_name}}`
