@@ -29,4 +29,4 @@
 
 - Connect to a server and authenticate with a specific SSL client certificate:
 
-`sudo openconnect {{[-c|--certificate]}} {{path/to/file}} {{vpn.example.org}}`
+`sudo openconnect {{[-c|--certificate]}} {{path/to/certificate.pem}} {{vpn.example.org}}`
