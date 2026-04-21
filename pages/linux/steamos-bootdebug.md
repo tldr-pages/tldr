@@ -11,7 +11,7 @@
 
 `sudo steamos-bootdebug {{kernel-debug-once}}`
 
-- Set if the boot process shouöd log to a file:
+- Set if the boot process should log to a file:
 
 `sudo steamos-bootdebug log {{enable|disable}}`
 
