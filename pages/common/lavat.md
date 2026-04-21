@@ -2,7 +2,7 @@
 
 > Display an animated lava lamp effect in the terminal.
 > Customize colors, speed, size, movement, and display style.
-> More information: <https://github.com/AngelJumbo/lavat>.
+> More information: <https://github.com/AngelJumbo/lavat#usage>.
 
 - Start the default lava animation:
 
