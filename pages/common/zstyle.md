@@ -1,8 +1,7 @@
 # zstyle
 
 > Set styles used by Zsh.
-
-> More information: <https://manned.org/zshbuiltins>.
+> More information: <https://zsh.sourceforge.io/Doc/Release/Zsh-Modules.html>.
 
 - Display current style settings:
 
