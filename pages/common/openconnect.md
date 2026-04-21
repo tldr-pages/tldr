@@ -21,7 +21,7 @@
 
 - Specify the connection protocol:
 
-`sudo openconnect --protocol {{nc||pulse|gp|f5|fortinet|array}} {{vpn.example.org}}`
+`sudo openconnect --protocol {{nc|pulse|gp|f5|fortinet|array}} {{vpn.example.org}}`
 
 - Connect to a server, reading options from a configuration file:
 
