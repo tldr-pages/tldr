@@ -1,4 +1,4 @@
-# vea
+# see
 
 > Este comando es un alias de `run-mailcap --action=view`.
 
