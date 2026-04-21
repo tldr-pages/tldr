@@ -1,6 +1,6 @@
 # st
 
-> `st` can refer to multiple commands.
+> `st` can refer to multiple commands with the same name.
 
 - View documentation for the terminal emulator:
 

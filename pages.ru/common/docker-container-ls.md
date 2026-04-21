@@ -25,7 +25,7 @@
 
 - Отфильтровать контейнеры по коду завершения:
 
-`docker {{[ps|container ls]}} {{[-a|--all]}} {{[-f|--filter]}} "exited={{код}}"`
+`docker {{[ps|container ls]}} {{[-f|--filter]}} "exited={{код}}" {{[-a|--all]}}`
 
 - Отфильтровать контейнеры по статусу (created, running, removing, paused, exited и dead):
 

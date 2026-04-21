@@ -5,8 +5,8 @@
 
 - 로컬 서비스를 IPv4로 변환:
 
-`avahi-resolve -4 --name {{service.local}}`
+`avahi-resolve -4 {{[-n|--name]}} {{service.local}}`
 
 - IP를 호스트 이름으로 변환, 자세히:
 
-`avahi-resolve --verbose --address {{IP}}`
+`avahi-resolve {{[-v|--verbose]}} {{[-a|--address]}} {{IP}}`

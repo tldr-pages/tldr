@@ -17,19 +17,19 @@
 
 - 사용자 정의 설정을 위해 대화형으로([i]nteractively) 이미지를 생성하고, 선택적으로 사전 설정을 저장:
 
-`carbon-now -i {{경로/대상/파일}}`
+`carbon-now {{[-i|--interactive]}} {{경로/대상/파일}}`
 
 - 이전에 저장된 프리셋([p]reset)에서 이미지 생성:
 
-`carbon-now -p {{preset}} {{경로/대상/파일}}`
+`carbon-now {{[-p|--preset]}} {{preset}} {{경로/대상/파일}}`
 
 - 지정된 텍스트 줄에서 시작([s]tart):
 
-`carbon-now -s {{line}} {{경로/대상/파일}}`
+`carbon-now {{[-s|--start]}} {{line}} {{경로/대상/파일}}`
 
 - 지정된 텍스트 줄에서 종료([e]nd):
 
-`carbon-now -e {{line}} {{경로/대상/파일}}`
+`carbon-now {{[-e|--end]}} {{line}} {{경로/대상/파일}}`
 
 - 이미지를 저장하는 대신, 브라우저에서 열기:
 

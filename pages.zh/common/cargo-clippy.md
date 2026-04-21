@@ -11,17 +11,17 @@
 
 `cargo clippy --locked`
 
-- 对工作区中的所有包进行检查：
+- 对工作区中的所有软件包进行检查：
 
 `cargo clippy --workspace`
 
-- 对某个包进行检查：
+- 对某个软件包进行检查：
 
-`cargo clippy --package {{包名}}`
+`cargo clippy --package {{软件包}}`
 
 - 运行特定 lint 组的检查（参见 <https://rust-lang.github.io/rust-clippy/stable/index.html#?groups=cargo,complexity,correctness,deprecated,nursery,pedantic,perf,restriction,style,suspicious>）：
 
-`cargo clippy -- {{[-W|--warn]}} clippy::{{lint组}}`
+`cargo clippy -- {{[-W|--warn]}} clippy::{{lint 组}}`
 
 - 将警告视为错误：
 

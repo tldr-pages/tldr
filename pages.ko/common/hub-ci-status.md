@@ -5,8 +5,8 @@
 
 - 이 브랜치의 CI 상태를 확인:
 
-`hub ci-status --verbose`
+`hub ci-status {{[-v|--verbose]}}`
 
 - 커밋에 대한 GitHub 검사 상태 표시:
 
-`hub ci-status --verbose {{커밋_SHA}}`
+`hub ci-status {{[-v|--verbose]}} {{커밋_SHA}}`
