@@ -15,6 +15,6 @@
 
 `sudo steamos-bootdebug log {{enable|disable}}`
 
-- View the recorded log file:
+- Display the recorded log file:
 
 `sudo steamos-bootdebug log show`
