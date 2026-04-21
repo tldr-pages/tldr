@@ -1,7 +1,7 @@
 # ipaggcreate
 
-> Produce aggregate statistics of TCP/IP dumps.
-> More information: <https://manned.org/ipaggcreate>.
+> TCP/IP 덤프에서 집계 통계를 생성하는 도구.
+> 더 많은 정보: <https://manned.org/ipaggcreate>.
 
 - PCAP 파일에서 각 소스 주소별 전송 패킷 수 집계:
 
