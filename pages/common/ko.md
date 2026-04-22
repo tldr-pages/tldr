@@ -19,6 +19,10 @@
 
 `ko resolve {{[-f|--filename]}} {{path/to/manifest.yaml}}`
 
+- Build and load a container image into a local Docker daemon:
+
+`ko build {{[-L|--local]}} {{import_path}}`
+
 - Build and run a Go package on Kubernetes:
 
 `ko run {{import_path}}`
