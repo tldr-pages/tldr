@@ -1,6 +1,6 @@
 # nano-ffmpeg
 
-> An wrapper for `ffmpeg` with interactive file browsing and operations.
+> A wrapper for `ffmpeg` with an interactive file browser and operations.
 > More information: <https://github.com/dgr8akki/nano-ffmpeg#usage>.
 
 - Start `nano-ffmpeg`:
