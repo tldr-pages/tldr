@@ -25,7 +25,7 @@
 
 - Delete Kubernetes resources defined in a manifest:
 
-`ko delete -f {{path/to/manifest.yaml}}`
+`ko delete {{[-f|--filename]}} {{path/to/manifest.yaml}}`
 
 - Log in to a container registry:
 
