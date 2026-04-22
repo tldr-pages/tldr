@@ -19,7 +19,7 @@
 
 `ko resolve {{[-f|--filename]}} {{path/to/manifest.yaml}}`
 
-- Run a Go binary directly on Kubernetes:
+- Build and run a Go package on Kubernetes:
 
 `ko run {{import_path}}`
 
