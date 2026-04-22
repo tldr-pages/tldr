@@ -3,7 +3,7 @@
 > Build and deploy Go applications as container images on Kubernetes.
 > More information: <https://ko.build/reference/ko/>.
 
-- Build and publish a container image from an import path:
+- Build and publish a container image from a Go package import path:
 
 `ko build {{./cmd/app}}`
 
