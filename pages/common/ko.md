@@ -21,7 +21,7 @@
 
 - Run a Go binary directly on Kubernetes:
 
-`ko run {{./cmd/app}}`
+`ko run {{import_path}}`
 
 - Delete Kubernetes resources defined in a manifest:
 
