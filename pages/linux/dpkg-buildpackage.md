@@ -27,7 +27,7 @@
 
 - Use `fakeroot` as the command to gain root privileges during the build:
 
-`dpkg-buildpackage {{[-r|--root-command=]}}{{fakeroot}}`
+`dpkg-buildpackage {{[-r|--root-command=]}}fakeroot`
 
 - Run a specific `debian/rules` target:
 
