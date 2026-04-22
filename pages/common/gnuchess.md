@@ -1,9 +1,9 @@
 # gnuchess
 
 > Play chess against an engine.
-> More information: <https://www.gnu.org/software/chess/manual/gnuchess.html>.
+> More information: <https://www.gnu.org/software/chess/manual/gnuchess.html#Running-GNU-Chess>.
 
-- Start `gnuchess`:
+- Start an interactive chess game:
 
 `gnuchess`
 
