@@ -17,7 +17,7 @@
 
 - Print resolved Kubernetes manifests without applying them:
 
-`ko resolve -f {{path/to/manifest.yaml}}`
+`ko resolve {{[-f|--filename]}} {{path/to/manifest.yaml}}`
 
 - Run a Go binary directly on Kubernetes:
 
