@@ -5,7 +5,7 @@
 
 - Build and publish a container image from a Go package import path:
 
-`ko build {{./cmd/app}}`
+`ko build {{import_path}}`
 
 - Apply Kubernetes manifests with Go image references resolved to digests:
 
