@@ -13,7 +13,7 @@
 
 - Create Kubernetes resources with resolved image references:
 
-`ko create -f {{path/to/manifest.yaml}}`
+`ko create {{[-f|--filename]}} {{path/to/manifest.yaml}}`
 
 - Print resolved Kubernetes manifests without applying them:
 
