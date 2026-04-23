@@ -3,7 +3,7 @@
 > Interact with X Keyboard keymaps.
 > More information: <https://manned.org/xkbcli>.
 
-- Display how to type a key and if it needs modifiers:
+- Display how to type a key and if it needs modifiers (Note: Does not support compose sequences):
 
 `xkbcli how-to-type {{A|0x0041}}`
 
