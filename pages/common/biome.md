@@ -27,10 +27,10 @@
 
 `biome ci {{path/to/file_or_directory}}`
 
-- Explain a lint rule:
+- Explain a specific lint rule:
 
-`biome explain {{nursery/noConsole}}`
+`biome explain {{rule_name}}`
 
-- Display version information:
+- Display version:
 
-`biome --version`
+`biome {{[-V|--version]}}`
