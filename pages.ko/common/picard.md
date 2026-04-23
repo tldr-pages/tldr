@@ -9,8 +9,8 @@
 
 - 파일 세트 열기:
 
-`picard {{경로/대상/파일1.mp3}} {{경로/대상/파일2.mp3}}`
+`picard {{경로/대상/파일1.mp3 경로/대상/파일2.mp3 ...}}`
 
 - 설치된 Picard의 버전 표시:
 
-`picard --long-version`
+`picard {{[-V|--long-version]}}`
