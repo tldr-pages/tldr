@@ -10,23 +10,23 @@
 
 - Inicia el modo interactivo [m]ultilínea:
 
-`tgpt --multiline`
+`tgpt {{[-m|--multiline]}}`
 
 - Genera [i]mágenes y las guarda en el directorio actual:
 
-`tgpt --image "{{prompt}}"`
+`tgpt {{[-img|--image]}} "{{prompt}}"`
 
 - Genera [c]ódigo con el proveedor por defecto (GPT-3.5-turbo):
 
-`tgpt --code "{{prompt}}"`
+`tgpt {{[-c|--code]}} "{{prompt}}"`
 
 - Chatea con un proveedor específico silenciosamente (sin animaciones):
 
-`tgpt --provider {{openai|opengpts|koboldai|phind|llama2|blackboxai}} --quiet --whole "{{prompt}}"`
+`tgpt --provider {{openai|opengpts|koboldai|phind|llama2|blackboxai}} {{[-q|--quiet]}} {{[-w|--whole]}} "{{prompt}}"`
 
 - Genera y ejecuta comandos de intérprete utilizando un proveedor específico (con confirmación):
 
-`tgpt --provider {{llama2}} --shell "{{prompt}}"`
+`tgpt --provider {{llama2}} {{[-s|--shell]}} "{{prompt}}"`
 
 - Pregunta con una clave de API, modelo, longitud máxima de respuesta, temperatura y `top_p` (necesario cuando se utiliza el proveedor `openai`):
 
@@ -34,4 +34,4 @@
 
 - Alimenta un archivo como pre-entrada adicional:
 
-`tgpt --provider {{blackboxai}} "{{prompt}}" < {{ruta/al/archivo}}`
+`tgpt < {{ruta/al/archivo}} --provider {{blackboxai}} "{{prompt}}"`

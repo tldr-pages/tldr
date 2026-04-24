@@ -6,23 +6,23 @@
 
 - 두 개의 가상 데스크톱 정의:
 
-`bspc monitor --reset-desktops {{데스크톱_이름1}} {{데스크톱_이름2}}`
+`bspc monitor {{[-d|--reset-desktops]}} {{데스크톱_이름1}} {{데스크톱_이름2}}`
 
 - 지정한 데스크톱으로 포커스 이동:
 
-`bspc desktop --focus {{번호}}`
+`bspc desktop {{[-f|--focus]}} {{번호}}`
 
 - 선택한 노드에 있는 창 닫기:
 
-`bspc node --close`
+`bspc node {{[-c|--close]}}`
 
 - 선택한 노드를 지정한 데스크톱으로 보내기:
 
-`bspc node --to-desktop {{번호}}`
+`bspc node {{[-d|--to-desktop]}} {{번호}}`
 
 - 선택한 노드의 전체 화면 모드 전환:
 
-`bspc node --state ~fullscreen`
+`bspc node {{[-t|--state]}} ~fullscreen`
 
 - 특정 설정의 값 설정:
 
