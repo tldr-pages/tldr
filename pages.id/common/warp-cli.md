@@ -23,12 +23,4 @@
 
 - Pindah mode operasi koneksi layanan WARP:
 
-`warp-cli set-mode {{mode_operasi}}`
-
-- Tampilkan bantuan umum:
-
-`warp-cli help`
-
-- Tampilkan bantuan untuk suatu subperintah:
-
-`warp-cli help {{subperintah}}`
+`warp-cli mode {{warp|doh|warp+doh|dot|warp+dot|proxy|tunnel_only}}`

@@ -14,8 +14,8 @@
 
 - 특정 사용자의 비밀번호를 암호화된 형태로 변경:
 
-`printf "{{사용자명}}:{{새_암호화된_비밀번호}}" | sudo chpasswd --encrypted`
+`printf "{{사용자명}}:{{새_암호화된_비밀번호}}" | sudo chpasswd {{[-e|--encrypted]}}`
 
 - 특정 사용자의 비밀번호를 변경하고 저장된 비밀번호에 특정 암호화를 사용:
 
-`printf "{{사용자명}}:{{새_비밀번호}}" | sudo chpasswd --crypt-method {{NONE|DES|MD5|SHA256|SHA512}}`
+`printf "{{사용자명}}:{{새_비밀번호}}" | sudo chpasswd {{[-c|--crypt-method]}} {{NONE|DES|MD5|SHA256|SHA512}}`

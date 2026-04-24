@@ -214,8 +214,6 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [23 October 2024](https://github.com/tldr-pages/tldr/issues/14343) — present
 - **Machiavelli ([@MachiavelliII](https://github.com/MachiavelliII))**:
   [27 Mar 2025](https://github.com/tldr-pages/tldr/issues/16036) — present
-- **Nelson Figueroa ([@nelsonfigueroa](https://github.com/nelsonfigueroa))**:
-  [29 June 2025](https://github.com/tldr-pages/tldr/issues/17025) — present
 - **Harshavardhan ([@TheRootDaemon](https://github.com/TheRootDaemon))**:
   [26 December 2025](https://github.com/tldr-pages/tldr/issues/20285) — present
 - **Ivan Baluta ([@ivanbaluta](https://github.com/ivanbaluta))**:
@@ -264,6 +262,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [3 October 2024](https://github.com/tldr-pages/tldr/issues/13956) — [29 June 2025](https://github.com/tldr-pages/tldr/issues/17029)
 - Dylan McGivern ([@dmmqz](https://github.com/dmmqz)):
   [30 June 2025](https://github.com/tldr-pages/tldr/issues/17026) — [18 March 2026](https://github.com/tldr-pages/tldr/issues/21586)
+- Nelson Figueroa ([@nelsonfigueroa](https://github.com/nelsonfigueroa)):
+  [29 June 2025](https://github.com/tldr-pages/tldr/issues/17025) — [20 April 2026](https://github.com/tldr-pages/tldr/issues/22137#issuecomment-4277451764)
 
 ## Organization owners
 
@@ -302,6 +302,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [29 June 2025](https://github.com/tldr-pages/tldr/issues/17029) — present
 - **Dylan McGivern ([@dmmqz](https://github.com/dmmqz))**:
   [18 March 2026](https://github.com/tldr-pages/tldr/issues/21586) — present
+- **Nelson Figueroa ([@nelsonfigueroa](https://github.com/nelsonfigueroa))**:
+  [20 April 2026](https://github.com/tldr-pages/tldr/issues/22137#issuecomment-4277451764) — present
 - Igor Shubovych ([@igorshubovych](https://github.com/igorshubovych)):
   until [18 January 2018](https://github.com/tldr-pages/tldr/issues/1878#issuecomment-358610454)
 - Ruben Vereecken ([@rubenvereecken](https://github.com/rubenvereecken)):
