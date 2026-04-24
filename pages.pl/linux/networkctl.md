@@ -6,7 +6,7 @@
 
 - Wyświetl listę istniejących łączy i ich status:
 
-`networkctl list`
+`networkctl`
 
 - Wyświetl ogólny status sieci:
 

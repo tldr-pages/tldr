@@ -26,7 +26,7 @@
 
 - 지정된 아카이브 파일을 `stdin`을 통해 데이터베이스 로드:
 
-`neo4j-admin database load --from-stdin {{데이터베이스_이름}} --overwrite-destination=true < {{경로/대상/파일이름.dump}}`
+`neo4j-admin < {{경로/대상/파일이름.dump}} database load --from-stdin {{데이터베이스_이름}} --overwrite-destination=true`
 
 - 도움말 표시:
 

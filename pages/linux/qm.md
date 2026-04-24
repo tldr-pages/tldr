@@ -8,7 +8,7 @@
 
 `qm list`
 
-- Using an ISO file uploaded on the local storage, create a virtual machine with a 4 GB SCSI disk on the `local-lvm` storage and an ID of 100:
+- Create a virtual machine with a 4 GB SCSI disk on the `local-lvm` storage and an ID of 100 using an ISO file uploaded on the local storage:
 
 `qm {{[cr|create]}} {{100}} --scsi0 {{local-lvm:4}} --net0 {{e1000}} --cdrom {{local:iso/proxmox-mailgateway_2.1.iso}}`
 

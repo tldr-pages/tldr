@@ -9,7 +9,7 @@
 
 - Empacota uma aplicação JSX de `stdin`:
 
-`esbuild --bundle --outfile={{caminho/para/saída.js}} < {{caminho/para/arquivo.jsx}}`
+`esbuild < {{caminho/para/arquivo.jsx}} --bundle --outfile={{caminho/para/saída.js}}`
 
 - Empacota e reduz uma aplicação JSX com mapas de origem no modo `production`:
 
