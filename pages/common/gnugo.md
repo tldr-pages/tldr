@@ -17,7 +17,7 @@
 
 - Resume game at move 123:
 
-`gnugo --infile game.sgf --until 123`
+`gnugo {{[-l|--infile game.sgf]}} {{[-L|--until]}} 123`
 
 - Give a rough score estimate of a position:
 
