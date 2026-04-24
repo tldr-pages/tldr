@@ -1,6 +1,7 @@
 # sensors
 
 > Report sensors information.
+> See also: `btm`, `btop`.
 > More information: <https://manned.org/sensors>.
 
 - Show the current readings of all sensor chips:

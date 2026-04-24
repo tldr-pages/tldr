@@ -10,7 +10,7 @@
 
 - 헤더와 본문이 포함된 요청을 보냄:
 
-`grpcurl -H "{{Authorization: Bearer $token}}" -d {{'{"foo": "bar"}'}} {{grpc.server.com:443}} {{my.custom.server.Service/Method}}`
+`grpcurl -H "{{Authorization: Bearer $token}}" -d '{{{"foo": "bar"}}}' {{grpc.server.com:443}} {{my.custom.server.Service/Method}}`
 
 - 서버가 노출하는 모든 서비스를 나열:
 

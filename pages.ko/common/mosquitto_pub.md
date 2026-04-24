@@ -5,24 +5,24 @@
 
 - Quality of Service(QoS)를 1로 설정하고, 192.168.1.1(기본값은 `localhost`)에 `sensors/temperature` 주제로 온도 값 32 게시:
 
-`mosquitto_pub -h {{192.168.1.1}} -t {{sensors/temperature}} -m {{32}} -q {{1}}`
+`mosquitto_pub {{[-h|--host]}} {{192.168.1.1}} {{[-t|--topic]}} {{sensors/temperature}} {{[-m|--message]}} {{32}} {{[-q|--qos]}} {{1}}`
 
 - 비표준 포트로 원격 호스트에 `sensors/temperature` 주제로 타임스탬프와 온도 데이터 게시:
 
-`mosquitto_pub -h {{192.168.1.1}} -p {{1885}} -t {{sensors/temperature}} -m "{{1266193804 32}}"`
+`mosquitto_pub {{[-h|--host]}} {{192.168.1.1}} {{[-p|--port]}} {{1885}} {{[-t|--topic]}} {{sensors/temperature}} {{[-m|--message]}} "{{1266193804 32}}"`
 
 - 스위치 이벤트 사이에 긴 시간이 있을 수 있으므로, 원격 호스트에 `switches/kitchen_lights/status` 주제로 스위치 상태 게시 및 메시지 유지:
 
-`mosquitto_pub -r -h "{{iot.eclipse.org}}" -t {{switches/kitchen_lights/status}} -m "{{on}}"`
+`mosquitto_pub {{[-r|--retain]}} {{[-h|--host]}} "{{iot.eclipse.org}}" {{[-t|--topic]}} {{switches/kitchen_lights/status}} {{[-m|--message]}} "{{on}}"`
 
 - 파일(`data.txt`)의 내용을 메시지로 전송하고 `sensors/temperature` 주제로 게시:
 
-`mosquitto_pub -t {{sensors/temperature}} -f {{data.txt}}`
+`mosquitto_pub {{[-t|--topic]}} {{sensors/temperature}} {{[-f|--file]}} {{data.txt}}`
 
 - `stdin`에서 읽어들인 파일(`data.txt`)의 전체 입력 내용을 메시지로 전송하고 `sensors/temperature` 주제로 게시:
 
-`mosquitto_pub -t {{sensors/temperature}} -s < {{data.txt}}`
+`mosquitto_pub < {{data.txt}} {{[-t|--topic]}} {{sensors/temperature}} {{[-s|--stdin-file]}}`
 
 - `stdin`에서 줄바꿈된 데이터를 메시지로 읽어들여 `sensors/temperature` 주제로 게시:
 
-`{{echo data.txt}} | mosquitto_pub -t {{sensors/temperature}} -l`
+`{{echo data.txt}} | mosquitto_pub {{[-t|--topic]}} {{sensors/temperature}} {{[-l|--stdin-line]}}`

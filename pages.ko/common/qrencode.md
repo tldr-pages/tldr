@@ -18,4 +18,4 @@
 
 - 파이프로부터 입력을 받아 QR 코드로 변환하여 터미널에 출력:
 
-`echo {{문자열}} | qrencode -t ansiutf8`
+`echo {{문자열}} | qrencode -t utf8`

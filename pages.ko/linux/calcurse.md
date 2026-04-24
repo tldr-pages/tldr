@@ -9,7 +9,7 @@
 
 - 오늘의 약속 및 이벤트를 출력하고 종료:
 
-`calcurse --appointment`
+`calcurse {{[-a|--appointment]}}`
 
 - 모든 로컬 calcurse 항목을 제거하고 원격 객체 가져오기:
 

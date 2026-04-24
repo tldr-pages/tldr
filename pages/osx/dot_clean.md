@@ -1,6 +1,6 @@
 # dot_clean
 
-> Merge ._* files with corresponding native files.
+> Merge `._*` files with corresponding native files.
 > More information: <https://keith.github.io/xcode-man-pages/dot_clean.1.html>.
 
 - Merge all `._*` files recursively:
