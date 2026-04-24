@@ -17,16 +17,16 @@
 
 - 모든 유효성 검사 규칙을 나열:
 
-`core-validate-commit --list`
+`core-validate-commit {{[-l|--list]}}`
 
 - 유효한 Node.js 하위시스템을 모두 나열:
 
-`core-validate-commit --list-subsystem`
+`core-validate-commit {{[-ls|--list-subsystem]}}`
 
 - 탭 형식으로 출력 형식을 지정하는 현재 커밋의 유효성을 검사:
 
-`core-validate-commit --tap`
+`core-validate-commit {{[-t|--tap]}}`
 
 - 도움말 표시:
 
-`core-validate-commit --help`
+`core-validate-commit {{[-h|--help]}}`

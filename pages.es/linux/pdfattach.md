@@ -14,7 +14,7 @@
 
 - Muestra la ayuda:
 
-`pdfattach -h`
+`pdfattach {{[-h|--help]}}`
 
 - Muestra la versión:
 

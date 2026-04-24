@@ -9,4 +9,4 @@
 
 - 버전 표시:
 
-`ppmtoppm -version`
+`ppmtoppm {{[-v|-version]}}`
