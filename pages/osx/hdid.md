@@ -1,9 +1,7 @@
 # hdid
 
-> Attach disk images (historical, exists for backwards compatibility).
-> As of Mac OS X 10.4, `hdid` invokes `hdiutil attach -agent hdid`.
-> More information: <https://keith.github.io/xcode-man-pages/hdid.8.html>.
+> This command is an alias of `hdiutil`.
 
-- View documentation for `hdiutil`:
+- View documentation for the original command:
 
 `tldr hdiutil`
