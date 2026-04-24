@@ -11,7 +11,7 @@
 
 `ctest {{[-j|--parallel]}} {{4}}`
 
-- Run all tests defined in the CMake project and print detailed logs on failed tests:
+- Run all tests defined in the CMake build directory and print detailed logs on failed tests:
 
 `ctest --output-on-failure`
 
