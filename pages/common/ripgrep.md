@@ -1,6 +1,6 @@
 # ripgrep
 
-> `ripgrep` is the common name for the command `rg`.
+> This command is an alias of `rg`.
 
 - View documentation for the original command:
 
