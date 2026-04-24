@@ -3,7 +3,7 @@
 > Export structured data about your Terraform resources.
 > More information: <https://developer.hashicorp.com/terraform/cli/commands/output>.
 
-- With no additional arguments, `output` will display all outputs for the root module:
+- Display all outputs for the root module:
 
 `terraform output`
 

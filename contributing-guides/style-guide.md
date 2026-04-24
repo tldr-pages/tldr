@@ -442,7 +442,7 @@ Keep the following guidelines in mind when choosing placeholders:
 
 - If a command can optionally take 1 or more arguments of the same kind, use an ellipsis: `{{placeholder1 placeholder2 ...}}`.
   For instance, if multiple paths are expected, use `{{path/to/directory1 path/to/directory2 ...}}`.
-- If only one of the multiple options is possible, write it as: `{{placeholder1|placeholder2|placeholder3}}`. If there are more than 3 possible values, you can use `|...` after the last item.
+- If the options are mutually exclusive, write it as: `{{placeholder1|placeholder2|placeholder3}}`. If there are more than 3 possible values, you can use `|...` after the last item.
 - Use two dots to mark a range of possible values, for example `{{1..5}}` or `{{a..z}}`.
 
 #### Optional placeholders
@@ -480,6 +480,21 @@ To mark keypresses for TUI or GUI programs, use angle brackets `<` and `>`.
 - We generally put, **in this order**, the help and version commands as the **last two** examples of the page to highlight more practical commands at the beginning of the page. They can be replaced to accommodate other useful examples if required.
 - For consistency, we prefer generic wording `Display help` and `Display version` for these commands.
 - It is suggested to document the help and version examples if the command follows unconventional flags in platforms like Windows.
+
+### Summary
+
+Here's a quick table to summarize the syntax used in `tldr`:
+
+| Syntax | Meaning |
+|--------|---------|
+| `{{ }}` | Placeholder |
+| `path/to/thing` | Filepath |
+| `{{[ \| ]}}` | Option placeholder |
+| `{{thing1 thing2 ...}}` | One or more arguments |
+| `{{thing1\|thing2\|...}}` | Mutually exclusive arguments |
+| `{{1..10}}` | Value range |
+| `<Ctrl c>` | Keypress |
+
 
 ## Windows-Specific Rules
 

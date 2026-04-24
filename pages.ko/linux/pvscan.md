@@ -5,16 +5,16 @@
 
 - 모든 물리적 볼륨 나열:
 
-`pvscan`
+`sudo pvscan`
 
 - 특정 물리적 볼륨을 사용하는 볼륨 그룹 표시:
 
-`pvscan --cache --listvg {{/dev/sdX}}`
+`sudo pvscan --cache --listvg {{/dev/sdX}}`
 
 - 특정 물리적 볼륨을 사용하는 논리 볼륨 표시:
 
-`pvscan --cache --listlvs {{/dev/sdX}}`
+`sudo pvscan --cache --listlvs {{/dev/sdX}}`
 
 - JSON 형식으로 자세한 정보 표시:
 
-`pvscan --reportformat json`
+`sudo pvscan --reportformat json`
