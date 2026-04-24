@@ -1,7 +1,7 @@
 # gnugo
 
 > Play Go on the command-line.
-> More information: <https://www.gnu.org/software/gnugo>.
+> More information: <https://www.gnu.org/software/gnugo/gnugo_3.html>.
 
 - Start an ASCII game of go:
 
