@@ -1,6 +1,6 @@
 # gnugo
 
-> Free program that plays Go on the command-line.
+> Play Go on the command-line.
 > More information: <https://www.gnu.org/software/gnugo>.
 
 - Start an ASCII game of go:
