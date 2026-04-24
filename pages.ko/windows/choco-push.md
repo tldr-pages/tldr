@@ -5,8 +5,8 @@
 
 - 컴파일된 `.nupkg`를 지정된 피드에 푸시:
 
-`choco push --source {{https://push.chocolatey.org/}}`
+`choco push {{[-s|--source]}} {{https://push.chocolatey.org/}}`
 
 - 지정된 피드에 컴파일된 `.nupkg`를 푸시하며, 초 단위로 타임아웃 설정 (기본값은 2700):
 
-`choco push --source {{https://push.chocolatey.org/}} --execution-timeout {{500}}`
+`choco push {{[-s|--source]}} {{https://push.chocolatey.org/}} {{[--timeout|--execution-timeout]}} {{500}}`
