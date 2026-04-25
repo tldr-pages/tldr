@@ -1,6 +1,6 @@
 # wmplayer
 
-> Windows Media Player.
+> Play and manage media files using Windows Media Player.
 > Note: This command only applies to Windows Media Player versions released prior to Windows 10.
 > More information: <https://learn.microsoft.com/previous-versions/windows/desktop/wmp/command-line-parameters>.
 
@@ -12,11 +12,11 @@
 
 `wmplayer {{path\to\file}}`
 
-- Play a DVD or Audio CD disk:
+- Play a DVD or Audio CD:
 
 `wmplayer /device:{{dvd|audiocd}}`
 
-- Play files in fullscreen:
+- Play a file in fullscreen mode:
 
 `wmplayer {{path\to\file}} /fullscreen`
 

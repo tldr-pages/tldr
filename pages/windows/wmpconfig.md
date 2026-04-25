@@ -1,7 +1,7 @@
 # wmpconfig
 
 > Manage network sharing for Windows Media Player (legacy).
-> Commands require administrator privileges.
+> Note: This command requires administrator privileges.
 > See also: `wmpnscfg`.
 > More information: <https://learn.microsoft.com/previous-versions/windows/desktop/wmp/command-line-parameters>.
 
@@ -9,7 +9,7 @@
 
 `wmpconfig {{HMEOn|HMEOff}}`
 
-- Stop a network device (by its MAC address) from sharing to this computer:
+- Stop a specific network device from sharing to this computer using its MAC address:
 
 `wmpconfig DisableHMEDevice {{mac_address}}`
 
