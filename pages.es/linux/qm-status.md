@@ -5,8 +5,8 @@
 
 - Muestra el estado de una máquina virtual dada:
 
-`qm {{[stat|status]}} {{id_mv}}`
+`qm {{[stat|status]}} {{100}}`
 
 - Muestra el estado detallado de una máquina virtual dada:
 
-`qm {{[stat|status]}} --verbose {{true}} {{id_mv}}`
+`qm {{[stat|status]}} --verbose {{true}} {{100}}`

@@ -20,7 +20,7 @@
 
 `git status {{[-v|--verbose]}}`
 
-- Show the changes in all tracked files (like `git diff`):
+- Show the changes in all tracked files (like `git diff HEAD`):
 
 `git status {{[-vv|--verbose --verbose]}}`
 

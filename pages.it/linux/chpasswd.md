@@ -14,8 +14,8 @@
 
 - Cambia la password di un utente specifico, specificandola in forma crittografata:
 
-`printf "{{username}}:{{new_encrypted_password}}" | sudo chpasswd --encrypted`
+`printf "{{username}}:{{new_encrypted_password}}" | sudo chpasswd {{[-e|--encrypted]}}`
 
 - Cambia la password di un utente specifico e utilizza un metodo di crittografia specifico:
 
-`printf "{{username}}:{{new_password}}" | sudo chpasswd --crypt-method {{NONE|DES|MD5|SHA256|SHA512}}`
+`printf "{{username}}:{{new_password}}" | sudo chpasswd {{[-c|--crypt-method]}} {{NONE|DES|MD5|SHA256|SHA512}}`

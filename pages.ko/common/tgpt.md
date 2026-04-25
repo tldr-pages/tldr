@@ -10,23 +10,23 @@
 
 - [m]ulti-line 대화형 모드 시작:
 
-`tgpt --multiline`
+`tgpt {{[-m|--multiline]}}`
 
 - [i]mages 생성 후 현재 디렉토리에 저장:
 
-`tgpt --image "{{프롬프트}}"`
+`tgpt {{[-img|--image]}} "{{프롬프트}}"`
 
 - 기본 공급자(GPT-3.5-turbo)로 [c]ode 생성:
 
-`tgpt --code "{{프롬프트}}"`
+`tgpt {{[-c|--code]}} "{{프롬프트}}"`
 
 - 특정 공급자와 [q]uiet 모드(애니메이션 없이)로 대화:
 
-`tgpt --provider {{openai|opengpts|koboldai|phind|llama2|blackboxai}} --quiet --whole "{{프롬프트}}"`
+`tgpt --provider {{openai|opengpts|koboldai|phind|llama2|blackboxai}} {{[-q|--quiet]}} {{[-w|--whole]}} "{{프롬프트}}"`
 
 - 특정 공급자를 사용하여 [s]hell 명령 생성 및 실행(확인 프롬프트 포함):
 
-`tgpt --provider {{llama2}} --shell "{{프롬프트}}"`
+`tgpt --provider {{llama2}} {{[-s|--shell]}} "{{프롬프트}}"`
 
 - API 키, 모델, 최대 응답 길이, 온도, `top_p`를 사용하여 프롬프트( `openai` 공급자를 사용할 때 필요):
 
@@ -34,4 +34,4 @@
 
 - 추가 사전 프롬프트 입력으로 파일 삽입:
 
-`tgpt --provider {{blackboxai}} "{{프롬프트}}" < {{경로/대상/파일}}`
+`tgpt < {{경로/대상/파일}} --provider {{blackboxai}} "{{프롬프트}}"`

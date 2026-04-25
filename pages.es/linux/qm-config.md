@@ -5,12 +5,12 @@
 
 - Muestra la configuración de la máquina virtual:
 
-`qm {{[co|config]}} {{id_mv}}`
+`qm {{[co|config]}} {{100}}`
 
 - Muestra los valores de configuración actuales en lugar de los valores pendientes en la máquina virtual:
 
-`qm {{[co|config]}} --current {{true}} {{id_mv}}`
+`qm {{[co|config]}} --current {{true}} {{100}}`
 
 - Obtiene los valores de configuración de la instantánea (snapshot) dada:
 
-`qm {{[co|config]}} --snapshot {{nombre_de_la_instantánea}} {{id_mv}}`
+`qm {{[co|config]}} --snapshot {{nombre_de_la_instantánea}} {{100}}`
