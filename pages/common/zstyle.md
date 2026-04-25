@@ -1,8 +1,7 @@
 # zstyle
 
-> Format strings in Zsh.
+> Define and lookup configuration styles in Zsh.
 > This builtin is part of the `zsh/zutil` module.
-> See also: `zstyle`.
 > More information: <https://zsh.sourceforge.io/Doc/Release/Zsh-Modules.html>.
 
 - List all defined styles:
@@ -13,22 +12,22 @@
 
 `zstyle -L`
 
-- Define a style for a pattern:
+- Define a style for a specific pattern:
 
-`zstyle {{pattern}} {{style}} {{value}} ...`
+`zstyle {{pattern}} {{style}} {{value1 value2...}}`
 
-- Delete styles (all, or for a specific pattern/style):
+- Delete a style for a specific pattern:
 
 `zstyle -d {{pattern}}`
 
 - Retrieve a style value as a string into a variable:
 
-`zstyle -s {{context}} {{style}} {{name}}`
+`zstyle -s {{context}} {{style}} {{variable_name}}`
 
 - Retrieve a style value as a boolean into a variable:
 
-`zstyle -b {{context}} {{style}} {{name}}`
-
+`zstyle -b {{context}} {{style}} {{variable_name}}`
+`
 - Retrieve a style value as an array:
 
-`zstyle -a {{context}} {{style}} {{name}}`
+`zstyle -a {{context}} {{style}} {{variable_name}}`
