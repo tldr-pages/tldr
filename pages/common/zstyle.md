@@ -27,7 +27,7 @@
 - Retrieve a style value as a boolean into a variable:
 
 `zstyle -b {{context}} {{style}} {{variable_name}}`
-`
+
 - Retrieve a style value as an array:
 
 `zstyle -a {{context}} {{style}} {{variable_name}}`
