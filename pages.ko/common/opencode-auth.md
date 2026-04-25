@@ -1,7 +1,7 @@
 # opencode auth
 
 > AI 제공자의 인증 정보와 로그인을 관리하는 명령어.
-> 더 많은 정본: <https://opencode.ai/docs/cli#auth>.
+> 더 많은 정보: <https://opencode.ai/docs/cli#auth>.
 
 - 제공자에게 대화형으로 로그인:
 
