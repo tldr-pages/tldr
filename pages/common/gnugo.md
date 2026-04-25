@@ -15,9 +15,9 @@
 
 `gnugo --handicap 5 --level 5`
 
-- Resume game at move 123:
+- Resume a game from a specific file at move 123:
 
-`gnugo {{[-l|--infile]}} game.sgf {{[-L|--until]}} 123`
+`gnugo {{[-l|--infile]}} {{path/to/game.sgf}} {{[-L|--until]}} 123`
 
 - Give a rough score estimate of a position:
 
