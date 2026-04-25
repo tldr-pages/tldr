@@ -5,20 +5,20 @@
 
 - Apaga una máquina virtual:
 
-`qm {{[shu|shutdown]}} {{VM_ID}}`
+`qm {{[shu|shutdown]}} {{100}}`
 
 - Apaga una máquina virtual después de esperar por lo menos 10 segundos:
 
-`qm {{[shu|shutdown]}} --timeout {{10}} {{VM_ID}}`
+`qm {{[shu|shutdown]}} --timeout {{10}} {{100}}`
 
 - Apaga una máquina virtual y no desactiva los volúmenes de almacenamiento:
 
-`qm {{[shu|shutdown]}} --keepActive {{true}} {{VM_ID}}`
+`qm {{[shu|shutdown]}} --keepActive {{true}} {{100}}`
 
 - Apaga una máquina virtual y omite cualquier bloqueo (solo el root puede usar esta opción):
 
-`qm {{[shu|shutdown]}} --skiplock {{true}} {{VM_ID}}`
+`qm {{[shu|shutdown]}} --skiplock {{true}} {{100}}`
 
 - Detiene y apaga una máquina virtual:
 
-`qm {{[shu|shutdown]}} --forceStop {{true}} {{VM_ID}}`
+`qm {{[shu|shutdown]}} --forceStop {{true}} {{100}}`

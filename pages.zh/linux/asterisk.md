@@ -26,7 +26,7 @@
 
 - 终止一个频道：
 
-`asterisk -r -x "hangup request {{频道 ID}}"`
+`asterisk -r -x "hangup request {{频道_id}}"`
 
 - 重新载入 chan_SIP 设置：
 

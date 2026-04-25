@@ -29,4 +29,4 @@
 
 - Оновити gist за допомогою ID з URL:
 
-`gist --update {{GIST_ID}} {{ім'я_файлу.txt}}`
+`gist --update {{gist_ids}} {{ім'я_файлу.txt}}`
