@@ -5,8 +5,8 @@
 
 - Reinicia una máquina virtual:
 
-`qm {{[reb|reboot]}} {{id_mv}}`
+`qm {{[reb|reboot]}} {{100}}`
 
 - Reinicia una máquina virtual después de esperar por lo menos 10 segundos:
 
-`qm {{[reb|reboot]}} --timeout {{10}} {{id_mv}}`
+`qm {{[reb|reboot]}} --timeout {{10}} {{100}}`

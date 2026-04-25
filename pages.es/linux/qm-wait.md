@@ -5,12 +5,12 @@
 
 - Espera hasta que se detenga la máquina virtual:
 
-`qm {{[w|wait]}} {{id_mv}}`
+`qm {{[w|wait]}} {{100}}`
 
 - Espera hasta que la máquina virtual se detenga con un tiempo de espera máximo de 10 segundos:
 
-`qm {{[w|wait]}} --timeout {{10}} {{id_mv}}`
+`qm {{[w|wait]}} --timeout {{10}} {{100}}`
 
 - Envía una solicitud de apagado, luego espera hasta que la máquina virtual se detenga con un tiempo máximo de espera de 10 segundos:
 
-`qm {{[shu|shutdown]}} {{id_mv}} && qm {{[w|wait]}} --timeout {{10}} {{id_mv}}`
+`qm {{[shu|shutdown]}} {{100}} && qm {{[w|wait]}} --timeout {{10}} {{100}}`

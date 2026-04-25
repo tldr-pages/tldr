@@ -6,12 +6,12 @@
 
 - Suspende una máquina virtual por ID:
 
-`qm {{[su|suspend]}} {{id_mv}} {{entero}}`
+`qm {{[su|suspend]}} {{100}} {{entero}}`
 
 - Omite el chequeo de bloqueo al suspender una MV:
 
-`qm {{[su|suspend]}} {{id_mv}} {{entero}} --skiplock`
+`qm {{[su|suspend]}} {{100}} {{entero}} --skiplock`
 
 - Omite el chequeo de bloqueo por almacenamiento al suspender una MV:
 
-`qm {{[su|suspend]}} {{id_mv}} {{entero}} --skiplockstorage`
+`qm {{[su|suspend]}} {{100}} {{entero}} --skiplockstorage`

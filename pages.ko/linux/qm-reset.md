@@ -5,8 +5,8 @@
 
 - 가상 머신 재설정:
 
-`qm reset {{가상_머신_ID}}`
+`qm reset {{100}}`
 
 - 가상 머신을 재설정하고 잠금 건너뛰기 (루트만 이 옵션을 사용할 수 있음):
 
-`qm reset --skiplock {{true}} {{vm_id}}`
+`qm reset --skiplock {{true}} {{100}}`
