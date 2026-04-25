@@ -5,16 +5,16 @@
 
 - Detiene una máquina virtual inmediatamente:
 
-`qm stop {{VM_ID}}`
+`qm stop {{100}}`
 
 - Detiene una máquina virtual y espera por lo menos 10 segundos:
 
-`qm stop --timeout {{10}} {{VM_ID}}`
+`qm stop --timeout {{10}} {{100}}`
 
 - Detiene una máquina virtual y omite cualquier bloqueo (solo el root puede usar esta opción):
 
-`qm stop --skiplock {{true}} {{VM_ID}}`
+`qm stop --skiplock {{true}} {{100}}`
 
 - Detiene una máquina virtual y no desactive los volúmenes de almacenamiento:
 
-`qm stop --keepActive {{true}} {{VM_ID}}`
+`qm stop --keepActive {{true}} {{100}}`

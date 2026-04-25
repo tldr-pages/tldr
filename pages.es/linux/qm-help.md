@@ -5,8 +5,8 @@
 
 - Muestra ayuda para una orden específica:
 
-`qm {{[h|help]}} {{orden}}`
+`qm {{[h|help]}} {{comando}}`
 
 - Muestra ayuda para una orden específica con información detallada:
 
-`qm {{[h|help]}} {{orden}} --verbose {{true|false}}`
+`qm {{[h|help]}} {{comando}} --verbose {{true|false}}`

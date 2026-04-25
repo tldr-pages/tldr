@@ -14,11 +14,11 @@
 
 - Pausa o riprende la riproduzione:
 
-`clementine --play-pause`
+`clementine {{[-t|--play-pause]}}`
 
 - Ferma la riproduzione:
 
-`clementine --stop`
+`clementine {{[-s|--stop]}}`
 
 - Passa alla traccia successiva o precedente:
 
@@ -26,12 +26,12 @@
 
 - Crea una nuova playlist con uno o più file musicali oppure URL:
 
-`clementine --create {{url1 url2 ... | percorso/del/file/music1.ext percorso/del/file/music2.ext ...}}`
+`clementine {{[-c|--create]}} {{url1 url2 ... | percorso/del/file/music1.ext percorso/del/file/music2.ext ...}}`
 
 - Carica una playlist:
 
-`clementine --load {{percorso/del/file/playlist.ext}}`
+`clementine {{[-l|--load]}} {{percorso/del/file/playlist.ext}}`
 
 - Riproduce una specifica traccia nella playlist caricata:
 
-`clementine --play-track {{5}}`
+`clementine {{[-k|--play-track]}} {{5}}`
