@@ -9,7 +9,7 @@
 
 - Run all tests defined in the CMake build directory, executing 4 [j]obs at a time in parallel:
 
-`ctest {{[-j|--parallel]}} {{4}}`
+`ctest {{[-j|--parallel]}} 4`
 
 - Run all tests defined in the CMake build directory and print detailed logs on failed tests:
 
