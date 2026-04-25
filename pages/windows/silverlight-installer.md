@@ -1,6 +1,6 @@
 # silverlight-installer
 
-> Microsoft Silverlight Installer.
+> Install or uninstall Microsoft Silverlight.
 > You may need to replace the command with the actual installer name, such as `Silverlight.1.0.exe`.
 > Note: This program has been deprecated.
 > More information: <https://download.microsoft.com/download/7/8/d/78da8ec9-8801-42e5-89e5-3809386f1316/silverlight%20deployment%20guide.doc>.
@@ -13,6 +13,6 @@
 
 `silverlight-installer /q`
 
-- Run the installer in [q]uiet [u]ninstaller mode (do not show GUI):
+- [u]ninstall the program in [q]uiet mode:
 
 `silverlight-installer /qu`
