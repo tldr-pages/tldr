@@ -7,7 +7,7 @@
 
 `gnugo`
 
-- Place a stone at row 5 and column J once in game:
+- [Interactive] Place a stone at row 5 and column J once in game:
 
 `J5`
 
