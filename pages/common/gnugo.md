@@ -21,4 +21,4 @@
 
 - Give a rough score estimate of a position:
 
-`gnugo --score estimate {{[-l|--infile]}} game.sgf`
+`gnugo --score estimate {{[-l|--infile]}} {{path/to/game.sgf}}`
