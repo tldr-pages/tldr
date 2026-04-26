@@ -4,13 +4,13 @@
 > See also: `find`.
 > More information: <https://github.com/sharkdp/fd#how-to-use>.
 
-- Recursively find files matching a specific pattern (defaults to the current directory):
+- Recursively find files matching a specific pattern in the current directory:
 
-`fd "{{string|regex}}" {{path/to/directory}}`
+`fd "{{regex}}"`
 
-- Find files that begin with a specific string:
+- Find files in a specific directory:
 
-`fd "{{^string}}"`
+`fd "{{regex}}" {{path/to/directory}}`
 
 - Find files with a specific extension:
 
@@ -18,20 +18,20 @@
 
 - Find only directories matching a specific pattern:
 
-`fd {{[-t|--type]}} {{d|directory}} "{{string|regex}}"`
+`fd {{[-t|--type]}} {{d|directory}} "{{regex}}"`
 
 - Include ignored and hidden files in the search:
 
-`fd {{[-H|--hidden]}} {{[-I|--no-ignore]}} "{{string|regex}}"`
+`fd {{[-H|--hidden]}} {{[-I|--no-ignore]}} "{{regex}}"`
 
 - Exclude files that match a specific glob pattern:
 
-`fd {{string}} {{[-E|--exclude]}} {{glob}}`
+`fd {{regex}} {{[-E|--exclude]}} {{glob}}`
 
 - Execute a command on each search result returned:
 
-`fd "{{string|regex}}" {{[-x|--exec]}} {{command}}`
+`fd "{{regex}}" {{[-x|--exec]}} {{command}}`
 
 - Find files only in the current directory:
 
-`fd {{[-d|--max-depth]}} 1 "{{string|regex}}"`
+`fd {{[-d|--max-depth]}} 1 "{{regex}}"`
