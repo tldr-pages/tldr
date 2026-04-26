@@ -14,7 +14,7 @@
 
 - 특정 확장자를 가진 파일 찾기:
 
-`fd --extension txt`
+`fd {{[-e|--extension]}} {{txt}}`
 
 - 특정 패턴과 일치하는 디렉터리만 찾기:
 
@@ -22,8 +22,16 @@
 
 - 검색에 무시되거나 숨겨진 파일을 포함:
 
-`fd --hidden --no-ignore "{{string|regex}}"`
+`fd {{[-H|--hidden]}} {{[-I|--no-ignore]}} "{{string|regex}}"`
+
+- 특정 glob 패턴과 일치하는 파일을 제외:
+
+`fd {{string}} {{[-E|--exclude]}} {{glob}}`
 
 - 반환된 각 검색 결과에 대해 명령을 실행:
 
-`fd "{{string|regex}}" --exec {{명령어}}`
+`fd "{{string|regex}}" {{[-x|--exec]}} {{명령어}}`
+
+- 현재 디렉터리에서만 파일 찾기:
+
+`fd {{[-d|--max-depth]}} 1 "{{string|regex}}"`
