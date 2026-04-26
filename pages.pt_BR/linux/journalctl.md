@@ -6,7 +6,7 @@
 
 - Mostra as últimas `n` linhas e segue novas mensagens (similar ao `tail --follow` para o syslog tradicional):
 
-`journalctl {{[-n|--lines]}} {{n}} {{[-f|--follow}]}`
+`journalctl {{[-n|--lines]}} {{n}} {{[-f|--follow]}}`
 
 - Mostra todas as mensagens com nível de prioridade 3 (erros) da inicialização anterior ao último desligamento:
 
@@ -14,7 +14,7 @@
 
 - Mostra todas as mensagens de uma unidade específica:
 
-`journalctl {{[-i|--unit]}} {{unidade}}`
+`journalctl {{[-u|--unit]}} {{unidade}}`
 
 - Mostra logs para uma certa unidade desde a última vez que foi iniciada:
 
@@ -34,4 +34,4 @@
 
 - Apaga logs no diário que tenham mais de 2 dias:
 
-`journalctl --vaccum-time 2d`
+`journalctl --vacuum-time 2d`
