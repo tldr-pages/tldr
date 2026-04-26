@@ -1,7 +1,7 @@
 # fd
 
 > Find entries in the filesystem.
-> See also: `find`.
+> See also: `find`, `regex`.
 > More information: <https://github.com/sharkdp/fd#how-to-use>.
 
 - Recursively find files matching a specific pattern in the current directory:
