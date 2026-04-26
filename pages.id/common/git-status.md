@@ -16,10 +16,6 @@
 
 `git status {{[-vv|--verbose --verbose]}}`
 
-- Tampilkan informasi mengenai cabang ([b]ranch) dan status pelacakan dari remote:
-
-`git status {{[-b|--branch]}}`
-
 - Tampilkan daftar berkas beserta informasi cabang dalam format:
 
 `git status {{[-sb|--short --branch]}}`
