@@ -9,4 +9,4 @@
 
 - Muestra el estado detallado de una máquina virtual dada:
 
-`qm {{[stat|status]}} --verbose {{true}} {{100}}`
+`qm {{[stat|status]}} {{100}} --verbose {{true}}`

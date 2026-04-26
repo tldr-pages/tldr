@@ -9,4 +9,4 @@
 
 - 최대 10초 기다린 후 가상 머신 재부팅:
 
-`qm {{[reb|reboot]}} --timeout {{10}} {{100}}`
+`qm {{[reb|reboot]}} {{100}} --timeout {{10}}`
