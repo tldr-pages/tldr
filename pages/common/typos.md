@@ -22,3 +22,4 @@
 - Show spelling mistakes in a specific output format:
 
 `typos --format {{brief|long|json}} {{path/to/file_or_directory}}`
+ 
