@@ -2,7 +2,7 @@
 
 > `find`의 대안.
 > 관련 항목: `find`, `regex`.
-> 더 많은 정보: <https://github.com/sharkdp/fd#how-to-use>.
+> 더 많은 정보: <https://github.com/sharkdp/fd#command-line-options>.
 
 - 현재 디렉터리에서 특정 패턴과 일치하는 파일을 재귀적으로 찾기:
 
@@ -18,15 +18,15 @@
 
 - 특정 패턴과 일치하는 디렉터리만 찾기:
 
-`fd {{[-t|--type]}} {{d|directory}} "{{regex}}"`
+`fd "{{regex}}" {{[-t|--type]}} {{[d|directory]}}`
 
 - 검색에 무시되거나 숨겨진 파일을 포함:
 
-`fd {{[-H|--hidden]}} {{[-I|--no-ignore]}} "{{regex}}"`
+`fd "{{regex}}" {{[-H|--hidden]}} {{[-I|--no-ignore]}}`
 
 - 특정 glob 패턴과 일치하는 파일을 제외:
 
-`fd {{regex}} {{[-E|--exclude]}} {{glob}}`
+`fd "{{regex}}" {{[-E|--exclude]}} {{glob}}`
 
 - 반환된 각 검색 결과에 대해 명령을 실행:
 
@@ -34,4 +34,4 @@
 
 - 현재 디렉터리에서만 파일 찾기:
 
-`fd {{[-d|--max-depth]}} 1 "{{regex}}"`
+`fd "{{regex}}" {{[-d|--max-depth]}} 1`

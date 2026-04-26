@@ -2,7 +2,7 @@
 
 > Find entries in the filesystem.
 > See also: `find`, `regex`.
-> More information: <https://github.com/sharkdp/fd#how-to-use>.
+> More information: <https://github.com/sharkdp/fd#command-line-options>.
 
 - Recursively find files matching a specific pattern in the current directory:
 
@@ -18,15 +18,15 @@
 
 - Find only directories matching a specific pattern:
 
-`fd {{[-t|--type]}} {{d|directory}} "{{regex}}"`
+`fd "{{regex}}" {{[-t|--type]}} {{[d|directory]}}`
 
 - Include ignored and hidden files in the search:
 
-`fd {{[-H|--hidden]}} {{[-I|--no-ignore]}} "{{regex}}"`
+`fd "{{regex}}" {{[-H|--hidden]}} {{[-I|--no-ignore]}}`
 
 - Exclude files that match a specific glob pattern:
 
-`fd {{regex}} {{[-E|--exclude]}} {{glob}}`
+`fd "{{regex}}" {{[-E|--exclude]}} {{glob}}`
 
 - Execute a command on each search result returned:
 
@@ -34,4 +34,4 @@
 
 - Find files only in the current directory:
 
-`fd {{[-d|--max-depth]}} 1 "{{regex}}"`
+`fd "{{regex}}" {{[-d|--max-depth]}} 1`
