@@ -21,7 +21,11 @@
 
 `yt-dlp {{[-x|--extract-audio]}} "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
-- Baixa apenas o segundo, quarto, quinto, sexto e ultimo item de uma playlist (o primeiro item é 1, e não 0):
+- Especifica o formato e a qualidade do áudio extraido (entre 0 (maior qualidade) e 10 (menor qualidade), padrão = 5):
+
+`yt-dlp {{[-x|--extract-audio]}} --audio-format {{mp3}} --audio-quality {{0}} "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
+
+- Baixa apenas o segundo, quarto, quinto, sexto e último item de uma playlist (o primeiro item é 1, e não 0):
 
 `yt-dlp {{[-I|--playlist-items]}} 2,4:6,-1 "{{https://youtube.com/playlist?list=PLbzoR-pLrL6pTJfLQ3UwtB-3V4fimdqnA}}"`
 
