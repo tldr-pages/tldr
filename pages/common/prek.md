@@ -13,7 +13,7 @@
 
 - Run prek hooks on all files, staged or unstaged:
 
-`prek run --all-files`
+`prek run {{[-a|--all-files]}}`
 
 - Clean prek cache:
 
