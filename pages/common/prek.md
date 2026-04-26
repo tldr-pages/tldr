@@ -1,6 +1,6 @@
 # prek
 
-> Create Git hooks that get run before a commit.
+> Create Git hooks that run before commits.
 > More information: <https://prek.j178.dev/cli/>.
 
 - Install prek into your Git hooks:
