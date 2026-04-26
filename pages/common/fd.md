@@ -4,9 +4,9 @@
 > See also: `find`.
 > More information: <https://github.com/sharkdp/fd#how-to-use>.
 
-- Recursively find files matching a specific pattern in the current directory:
+- Recursively find files matching a specific pattern (defaults to the current directory):
 
-`fd "{{string|regex}}"`
+`fd "{{string|regex}}" {{path/to/directory}}`
 
 - Find files that begin with a specific string:
 
@@ -16,9 +16,9 @@
 
 `fd {{[-e|--extension]}} {{txt}}`
 
-- Find files in a specific directory:
+- Find only directories matching a specific pattern:
 
-`fd "{{string|regex}}" {{path/to/directory}}`
+`fd {{[-t|--type]}} {{d|directory}} "{{string|regex}}"`
 
 - Include ignored and hidden files in the search:
 
