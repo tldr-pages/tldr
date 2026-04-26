@@ -10,11 +10,11 @@
 
 - Actualiza la política para reiniciar hasta tres veces un contenedor específico cuando se cierre con un estado de salida distinto de cero:
 
-`docker {{[update|container update]}} --restart on-failure:3 {nombre_contenedor}`
+`docker {{[update|container update]}} --restart on-failure:3 {{nombre_contenedor}}`
 
 - Actualiza el número de CPU disponibles para un contenedor específico:
 
-`docker {{[update|container update]}} --cpus {{count}} {{contenedor_nombre}}`
+`docker {{[update|container update]}} --cpus {{count}} {{nombre_contenedor}}`
 
 - Actualiza el límite de memoria en [M]egabytes para un contenedor específico:
 
