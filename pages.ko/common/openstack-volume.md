@@ -2,7 +2,7 @@
 
 > OpenStack 볼륨 관리.
 > OpenStack Block Storage 서비스(OpenStack Cinder)는 Nova VM, Ironic 베어매탈 호스트, 컨테이너 등에 볼륨을 제공합니다.
-> 더 많은 정보:<https://docs.openstack.org/python-openstackclient/latest/cli/command-objects/volume.html>.
+> 더 많은 정보: <https://docs.openstack.org/python-openstackclient/latest/cli/command-objects/volume.html>.
 
 - 모든 프로젝트의 볼륨 목록 출력:
 
