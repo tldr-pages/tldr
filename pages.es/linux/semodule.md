@@ -2,7 +2,7 @@
 
 > Gestiona los módulos de políticas de SELinux.
 > Vea también: `audit2allow`, `semanage`.
-> Más información: <HTTPS://manned.org/semodule>.
+> Más información: <https://manned.org/semodule>.
 
 - Muestra todos los módulos de políticas instalados:
 
