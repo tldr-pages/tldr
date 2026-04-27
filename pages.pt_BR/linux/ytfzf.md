@@ -26,4 +26,4 @@
 
 - Busca no PeerTube ao invés do YouTube:
 
-`ytfzf --peertube {{padrão_de_busca}}`
+`ytfzf --peertube {{padrão_de_pesquisa}}`
