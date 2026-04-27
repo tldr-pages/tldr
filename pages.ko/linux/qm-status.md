@@ -9,4 +9,4 @@
 
 - 특정 가상 머신의 상세 상태 표시:
 
-`qm {{[stat|status]}} --verbose {{true}} {{100}}`
+`qm {{[stat|status]}} {{100}} --verbose {{true}}`

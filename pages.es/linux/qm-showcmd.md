@@ -9,8 +9,8 @@
 
 - Pone cada opción en una nueva línea para mejorar la legibilidad:
 
-`qm {{[sho|showcmd]}} --pretty {{true}} {{100}}`
+`qm {{[sho|showcmd]}} {{100}} --pretty {{true}}`
 
 - Obtiene valores de configuración de una instantánea específica:
 
-`qm {{[sho|showcmd]}} --snapshot {{cadena}} {{100}}`
+`qm {{[sho|showcmd]}} {{100}} --snapshot {{cadena}}`
