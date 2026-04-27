@@ -12,6 +12,6 @@
 
 `arch -x86_64 {{command}} {{argument1 argument2 ...}}`
 
-- Run a command using arm:
+- Run a command using ARM:
 
 `arch -arm64 {{command}} {{argument1 argument2 ...}}`
