@@ -9,4 +9,4 @@
 
 - 가상 머신을 재설정하고 잠금 건너뛰기 (루트만 이 옵션을 사용할 수 있음):
 
-`qm reset --skiplock {{true}} {{100}}`
+`qm reset {{100}} --skiplock {{true}}`
