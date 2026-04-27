@@ -1,7 +1,7 @@
 # fd
 
 > 在檔案系統中尋找條目。
-> 另請參閱：`find`，`regex`。
+> 另請參閱：`find`, `regex`。
 > 更多資訊：<https://github.com/sharkdp/fd#command-line-options>。
 
 - 在目前目錄中遞迴尋找匹配特定模式的檔案：
