@@ -23,7 +23,7 @@
 
 `wine {{regedit|control|taskmgr}}`
 
-- Open a virtual wine desktop:
+- Open a virtual Wine desktop:
 
 `wine explorer /desktop={{shell}},{{1920x1080}}`
 
