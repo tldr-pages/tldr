@@ -16,9 +16,9 @@
 
 `bluetoothctl power {{on|off}}`
 
-- Scan for available devices or turn the scan off:
+- Scan for available devices for 10 seconds:
 
-`bluetoothctl scan {{on|off}}`
+`bluetoothctl {{[-t|--timeout]}} 10 scan on`
 
 - Pair with a device:
 
