@@ -5,7 +5,7 @@
 
 - 모든 장치 나열:
 
-`kdeconnect-cli --list-devices`
+`kdeconnect-cli {{[-l|--list-devices]}}`
 
 - 사용 가능한 장치(페어링되고 접근 가능한) 나열:
 
