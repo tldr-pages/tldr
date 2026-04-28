@@ -5,20 +5,20 @@
 
 - iperf3를 서버로 실행:
 
-`iperf3 -s`
+`iperf3 {{[-s|--server]}}`
 
 - 특정 포트에서 iperf3 서버 실행:
 
-`iperf3 -s -p {{포트}}`
+`iperf3 {{[-s|--server]}} {{[-p|--port]}} {{포트}}`
 
 - 대역폭 테스트 시작:
 
-`iperf3 -c {{서버}}`
+`iperf3 {{[-c|--client]}} {{서버}}`
 
 - 여러 병렬 스트림에서 iperf3 실행:
 
-`iperf3 -c {{서버}} -P {{스트림}}`
+`iperf3 {{[-c|--client]}} {{서버}} {{[-P|--parallel]}} {{스트림}}`
 
 - 테스트를 역방향으로 진행합니다. 서버가 클라이언트에 데이터를 전송:
 
-`iperf3 -c {{서버}} -R`
+`iperf3 {{[-c|--client]}} {{서버}} {{[-R|--reverse]}}`
