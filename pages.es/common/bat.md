@@ -12,9 +12,9 @@
 
 `bat {{ruta/al/archivo1 ruta/al/archivo2 ...}} > {{ruta/al/archivo_destino}}`
 
-- Elimina decoraciones y desactiva la paginación (`--style plain` puede sustituirse por `-p`, o ambas opciones por `-pp`):
+- Elimina decoraciones y desactiva la paginación:
 
-`bat --style plain --pager never {{ruta/al/archivo}}`
+`bat {{[-pp|--style plain --pager never]}} {{ruta/al/archivo}}`
 
 - Resalta una línea específica o un rango de líneas con un color de fondo diferente:
 
