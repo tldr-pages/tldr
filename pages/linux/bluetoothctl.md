@@ -4,7 +4,7 @@
 > See also: `bluetui`.
 > More information: <https://manned.org/bluetoothctl>.
 
-- Enter the `bluetoothctl` shell:
+- Enter the `bluetoothctl` interactive shell:
 
 `bluetoothctl`
 
@@ -16,21 +16,21 @@
 
 `bluetoothctl power {{on|off}}`
 
+- Scan for available devices or turn the scan off:
+
+`bluetoothctl scan {{on|off}}`
+
 - Pair with a device:
 
 `bluetoothctl pair {{mac_address}}`
 
+- Connect to or disconnect from a paired device:
+
+`bluetoothctl {{connect|disconnect}} {{mac_address}}`
+
 - Remove a device:
 
 `bluetoothctl remove {{mac_address}}`
-
-- Connect to a paired device:
-
-`bluetoothctl connect {{mac_address}}`
-
-- Disconnect from a paired device:
-
-`bluetoothctl disconnect {{mac_address}}`
 
 - Display help:
 
