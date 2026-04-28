@@ -28,10 +28,10 @@
 
 `bluetoothctl {{connect|disconnect}} {{mac_address}}`
 
+- Allow the device to connect back:
+
+`bluetoothctl trust {{mac_address}}`
+
 - Remove a device:
 
 `bluetoothctl remove {{mac_address}}`
-
-- Display help:
-
-`bluetoothctl help`
