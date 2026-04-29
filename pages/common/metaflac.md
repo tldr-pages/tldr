@@ -10,7 +10,7 @@
 
 - Show one or more specific tags from a FLAC file:
 
-`metaflac --show-tag={{tag_name1}} --show-tag={{tag_name2}} {{path/to/file.flac}}`
+`metaflac --show-tag {{tag_name1}} --show-tag {{tag_name2}} {{path/to/file.flac}}`
 
 - Set a tag in a FLAC file (the argument must be in `NAME=VALUE` format):
 
