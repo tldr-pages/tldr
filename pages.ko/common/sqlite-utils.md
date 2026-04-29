@@ -33,4 +33,4 @@
 
 - 도움말 표시:
 
-`sqlite-utils -h`
+`sqlite-utils {{[-h|--help]}}`
