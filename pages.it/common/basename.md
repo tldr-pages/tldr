@@ -1,12 +1,16 @@
 # basename
 
-> Restituisce la parte finale un percorso.
+> Rimuove le porzioni di directory iniziali da un percorso.
 > Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/basename-invocation.html>.
 
 - Mostra solo il nome del file da un percorso:
 
-`basename {{percorso/del/file}}`
+`basename {{percorso/al/file}}`
 
-- Mostra solo il nome di un file da un percorso, rimuovendo un suffisso:
+- Mostra solo il nome della directory più a destra da un percorso:
 
-`basename {{percorso/del/file}} {{suffisso}}`
+`basename {{percorso/alla/directory}}`
+
+- Mostra solo il nome del file da un percorso, rimuovendo un suffisso:
+
+`basename {{percorso/al/file}} {{suffisso}}`
