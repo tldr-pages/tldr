@@ -14,7 +14,7 @@
 
 - Set a tag in a FLAC file (the argument must be in `NAME=VALUE` format):
 
-`metaflac --set-tag="{{tag_name}}={{tag_value}}" {{path/to/file.flac}}`
+`metaflac --set-tag "{{tag_name}}={{tag_value}}" {{path/to/file.flac}}`
 
 - Remove all tags with a specific name from a FLAC file:
 
