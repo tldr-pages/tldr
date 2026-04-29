@@ -9,8 +9,8 @@
 
 - Reporta la información del encabezado BMP a `stderr`:
 
-`bmptopnm -verbose {{ruta/al/archivo.bmp}}`
+`bmptopnm {{[-verb|-verbose]}} {{ruta/al/archivo.bmp}}`
 
 - Muestra la versión:
 
-`bmptopnm -version`
+`bmptopnm {{[-v|-version]}}`

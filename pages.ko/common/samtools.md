@@ -6,15 +6,15 @@
 
 - SAM 입력 파일을 BAM 스트림으로 변환하고 파일로 저장:
 
-`samtools view -S -b {{입력.sam}} > {{출력.bam}}`
+`samtools view -S {{[-b|--bam]}} {{입력.sam}} > {{출력.bam}}`
 
 - `stdin`(-)에서 입력을 받아 특정 영역과 겹치는 모든 읽기 및 SAM 헤더를 `stdout`에 출력:
 
-`{{다른_명령어}} | samtools view -h - chromosome:start-end`
+`{{다른_명령어}} | samtools view {{[-h|--with-header]}} - chromosome:start-end`
 
 - 파일을 정렬하여 BAM으로 저장 (출력 형식은 출력 파일의 확장자로 자동 결정됨):
 
-`samtools sort {{입력}} -o {{출력.bam}}`
+`samtools sort {{입력}} {{[-o|--output]}} {{출력.bam}}`
 
 - 정렬된 BAM 파일 색인 (sorted_input.bam.bai 생성):
 

@@ -11,11 +11,11 @@
 
 `cargo fix --allow-dirty`
 
-- 将一个包迁移到下一个 Rust 版本：
+- 将一个软件包迁移到下一个 Rust 版本：
 
 `cargo fix --edition`
 
-- 修复包的库：
+- 修复软件包的库：
 
 `cargo fix --lib`
 

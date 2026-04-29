@@ -492,6 +492,7 @@ Here's a quick table to summarize the syntax used in `tldr`:
 | `{{[ \| ]}}` | Option placeholder |
 | `{{thing1 thing2 ...}}` | One or more arguments |
 | `{{thing1\|thing2\|...}}` | Mutually exclusive arguments |
+| `...}}` | Continuation of a pattern |
 | `{{1..10}}` | Value range |
 | `<Ctrl c>` | Keypress |
 

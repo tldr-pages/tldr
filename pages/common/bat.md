@@ -12,9 +12,9 @@
 
 `bat {{path/to/file1 path/to/file2 ...}} > {{path/to/target_file}}`
 
-- Remove decorations and disable paging (`--style plain` can be replaced with `-p`, or both options with `-pp`):
+- Remove decorations and disable paging:
 
-`bat --style plain --pager never {{path/to/file}}`
+`bat {{[-pp|--style plain --pager never]}} {{path/to/file}}`
 
 - Highlight a specific line or a range of lines with a different background color:
 
