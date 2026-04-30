@@ -15,7 +15,7 @@
 
 `docker buildx create --name {{builder_name}} --use`
 
-- Create a new builder instance using a specific driver:
+- Create a new builder instance using a specific driver (defaults to `docker`):
 
 `docker buildx create --driver {{docker-container|kubernetes|remote|...}}`
 
