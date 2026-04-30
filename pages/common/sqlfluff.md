@@ -17,7 +17,7 @@
 
 - Parse a SQL file or directory and display the parse tree:
 
-`sqlfluff parse --dialect {{dialect}} {{path/to/file_or_directory}}`
+`sqlfluff parse {{[-d|--dialect]}} {{dialect}} {{path/to/file_or_directory}}`
 
 - Show all supported SQL dialects:
 
