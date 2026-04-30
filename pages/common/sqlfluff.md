@@ -5,7 +5,7 @@
 
 - Lint a SQL file or directory with a specific dialect:
 
-`sqlfluff lint --dialect {{dialect}} {{path/to/file_or_directory}}`
+`sqlfluff lint {{[-d|--dialect]}} {{dialect}} {{path/to/file_or_directory}}`
 
 - Auto-format a SQL file or directory with a specific dialect:
 
