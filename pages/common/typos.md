@@ -11,7 +11,7 @@
 
 `typos {{[-w|--write-changes]}} {{path/to/file_or_directory}}`
 
-- Preview the changes before actually applying them:
+- Preview the changes before applying them:
 
 `typos --diff {{path/to/file_or_directory}}`
 
