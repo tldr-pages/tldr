@@ -5,16 +5,16 @@
 
 - Remove tudo, exceto as 3 versões mais recentes do cache do `pacman`:
 
-`paccache -r`
+`paccache {{[-r|--remove]}}`
 
 - Define o número de versões do pacote para manter:
 
-`paccache -rk {{num_versoes}}`
+`paccache {{[-rk|--remove --keep]}} {{num_versoes}}`
 
 - Executa um teste e mostra o número de pacotes candidatos para exclusão:
 
-`paccache -d`
+`paccache {{[-d|--dryrun]}}`
 
 - Move os pacotes candidatos para um diretório ao invés de excluí-los:
 
-`paccache -m {{caminho/para/diretorio}}`
+`paccache {{[-m|--move]}} {{caminho/para/diretorio}}`
