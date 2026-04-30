@@ -9,7 +9,7 @@
 
 - Auto-format a SQL file or directory with a specific dialect:
 
-`sqlfluff format --dialect {{dialect}} {{path/to/file_or_directory}}`
+`sqlfluff format {{[-d|--dialect]}} {{dialect}} {{path/to/file_or_directory}}`
 
 - Automatically fix linting violations in a SQL file or directory:
 
