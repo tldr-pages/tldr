@@ -2,7 +2,7 @@
 
 > Zsh builtin to change options to emulate some shell as much as possible.
 > Also used to ensure a shell function runs with the default configuration.
-> More information: <https://github.com/antonio/zsh-config/blob/master/help/emulate>
+> More information: <https://github.com/antonio/zsh-config/blob/master/help/emulate>.
 
 - Print current emulation mode:
 
