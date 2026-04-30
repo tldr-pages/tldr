@@ -13,11 +13,11 @@
 
 - 기본 편집기로 justfile 편집:
 
-`just -e`
+`just {{[-e|--edit]}}`
 
 - justfile에 있는 사용 가능한 레시피 나열:
 
-`just -l`
+`just {{[-l|--list]}}`
 
 - justfile 출력:
 
