@@ -19,6 +19,6 @@
 
 `typos --type-list`
 
-- Show spelling mistakes in a specific output format:
+- Show spelling mistakes in a specific output format (defaults to `long`):
 
-`typos --format {{brief|long|json}} {{path/to/file_or_directory}}`
+`typos --format {{brief|long|json...}} {{path/to/file_or_directory}}`
