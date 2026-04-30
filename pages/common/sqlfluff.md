@@ -13,7 +13,7 @@
 
 - Automatically fix linting violations in a SQL file or directory:
 
-`sqlfluff fix --dialect {{dialect}} --rules {{rule1,rule2}} {{path/to/file_or_directory}}`
+`sqlfluff fix {{[-d|--dialect]}} {{dialect}} {{[-r|--rules]}} {{rule1,rule2,...}} {{path/to/file_or_directory}}`
 
 - Parse a SQL file or directory and display the parse tree:
 
