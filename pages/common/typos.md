@@ -7,9 +7,9 @@
 
 `typos {{path/to/file_or_directory}}`
 
-- Automatically fix the typos in a file or directory:
+- Fix typos automatically in a file or directory:
 
-`typos --write-changes {{path/to/file_or_directory}}`
+`typos {{[-w|--write-changes]}} {{path/to/file_or_directory}}`
 
 - Preview the changes before actually applying them:
 
