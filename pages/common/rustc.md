@@ -14,7 +14,7 @@
 
 - Compile with debugging information:
 
-`rustc -g {{path/to/main.rs}}`
+`rustc {{[-g|--codegen debuginfo=2]}} {{path/to/main.rs}}`
 
 - Explain an error message:
 
