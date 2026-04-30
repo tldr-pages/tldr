@@ -1,6 +1,7 @@
 # cargo deb
 
 > Create Debian packages from Cargo projects.
+> Note: This is not a built-in Cargo command; install it first with `cargo install cargo-deb`.
 > More information: <https://github.com/kornelski/cargo-deb>.
 
 - Create a Debian package from a project:
