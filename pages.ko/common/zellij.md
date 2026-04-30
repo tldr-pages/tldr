@@ -6,15 +6,15 @@
 
 - 새 세션 시작:
 
-`zellij --session {{이름}}`
+`zellij {{[-s|--session]}} {{이름}}`
 
 - 기존 세션 목록:
 
-`zellij list-sessions`
+`zellij {{[ls|list-sessions]}}`
 
 - 가장 최근에 사용한 세션에 연결:
 
-`zellij attach`
+`zellij {{[a|attach]}}`
 
 - 새 창 열기 (zellij 세션 내):
 
