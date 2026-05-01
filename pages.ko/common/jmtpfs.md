@@ -13,7 +13,7 @@
 
 - 사용 가능한 MTP 장치 나열:
 
-`jmtpfs --listDevices`
+`jmtpfs {{[-l|--listDevices]}}`
 
 - 여러 장치가 있는 경우 특정 장치 마운트:
 
