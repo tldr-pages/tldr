@@ -4,8 +4,8 @@
 
 - View documentation for the terminal emulator:
 
-`tldr st.1`
+`tldr st.term`
 
 - View documentation for the statistics tool:
 
-`tldr st.2`
+`tldr st.stat`
