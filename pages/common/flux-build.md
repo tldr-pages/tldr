@@ -14,4 +14,3 @@
 - Build a Kustomization and pipe it directly to `kubectl`:
 
 `flux build kustomization {{name}} --path={{path/to/kustomization}} | kubectl apply -f -`
-

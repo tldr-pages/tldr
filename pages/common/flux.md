@@ -26,4 +26,3 @@
 - Display help for a specific subcommand:
 
 `flux {{subcommand}} --help`
-
