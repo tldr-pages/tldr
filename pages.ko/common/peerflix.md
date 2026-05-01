@@ -9,16 +9,16 @@
 
 - 마그넷 링크로 주어진 토렌트에 포함된 모든 스트리밍 가능한 파일 나열:
 
-`peerflix "{{magnet:?xt=urn:btih:0123456789abcdef0123456789abcdef01234567}}" --list`
+`peerflix "{{magnet:?xt=urn:btih:0123456789abcdef0123456789abcdef01234567}}" {{[-l|--list]}}`
 
 - 토렌트 URL로 주어진 토렌트에서 가장 큰 파일을 VLC로 스트리밍:
 
-`peerflix "{{http://example.net/music.torrent}}" --vlc`
+`peerflix "{{http://example.net/music.torrent}}" {{[-v|--vlc]}}`
 
 - 자막과 함께 토렌트에서 가장 큰 파일을 MPlayer로 스트리밍:
 
-`peerflix "{{토렌트_URL|마그넷_링크}}" --mplayer --subtitles {{자막_파일.srt}}`
+`peerflix "{{토렌트_URL|마그넷_링크}}" {{[-m|--mplayer]}} {{[-t|--subtitles]}} {{자막_파일.srt}}`
 
 - 토렌트의 모든 파일을 Airplay로 스트리밍:
 
-`peerflix "{{토렌트_URL|마그넷_링크}}" --all --airplay`
+`peerflix "{{토렌트_URL|마그넷_링크}}" {{[-a|--all]}} {{[-s|--airplay]}}`
