@@ -13,7 +13,7 @@
 
 - Send changes from the current local branch to its remote counterpart, and set it as the default push/pull target for the local branch:
 
-`git push {{[-u|--set-upstream]}} {{remote_name}}`
+`git push {{[-u|--set-upstream]}} {{remote_name}} {{local_branch}}`
 
 - Send changes from a specific local branch to a specific remote branch:
 
