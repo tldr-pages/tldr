@@ -31,3 +31,7 @@
 - Compile for a specific target:
 
 `rustc --target {{target_triple}} {{path/to/main.rs}}`
+
+- Display help:
+
+`rustc {{[-h|--help]}}`
