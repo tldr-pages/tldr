@@ -1,20 +1,36 @@
 # bundle
 
-> Gestore di dipendenze per il linguaggio di programmazione Ruby.
+> Gestore delle dipendenze per il linguaggio Ruby.
 > Maggiori informazioni: <https://bundler.io/man/bundle.1.html>.
 
-- Installa tutte le gem definite nel gemfile della directory corrente:
+- Installa tutte le gem definite nel `Gemfile` nella directory corrente:
 
 `bundle install`
 
-- Aggiorna tutte le gem secondo le regole definite nel gemfile e genera un `gemfile.lock`:
+- Esegue un comando nel contesto del bundle corrente:
+
+`bundle exec {{comando}} {{argomenti}}`
+
+- Aggiorna tutte le gem secondo le regole del `Gemfile` e rigenera `Gemfile.lock`:
 
 `bundle update`
 
-- Aggiorna una specifica gem definita nel gemfile:
+- Aggiorna una o più gem specifiche definite nel `Gemfile`:
 
-`bundle update --source {{nome_gem}}`
+`bundle update {{nome_gem1}} {{nome_gem2}}`
 
-- Crea un scheletro per una nuova gem:
+- Aggiorna una o più gem specifiche solo alla prossima versione patch:
+
+`bundle update --patch {{nome_gem1}} {{nome_gem2}}`
+
+- Aggiorna tutte le gem del gruppo specificato nel `Gemfile`:
+
+`bundle update --group {{development}}`
+
+- Elenca le gem installate del `Gemfile` con versioni più recenti disponibili:
+
+`bundle outdated`
+
+- Crea uno scheletro per una nuova gem:
 
 `bundle gem {{nome_gem}}`
