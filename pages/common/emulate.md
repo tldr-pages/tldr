@@ -16,7 +16,7 @@
 
 `emulate ksh -c "{{echo hi}}"`
 
-- Emulate the default zsh, reseting options when possible:
+- Emulate the default Zsh, [R]esetting options when possible:
 
 `emulate zsh -R`
 
