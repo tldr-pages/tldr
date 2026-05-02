@@ -18,7 +18,7 @@
 
 - Suplanta a otro usuario mediante S4U2Self (requiere derechos de delegación):
 
-`getST.py -k -impersonate {{target_user}} {{dominio}}/{{nombre_usuario}} -spn {{servicio}}/{{destino}}`
+`getST.py -k -impersonate {{usuario_destino}} {{dominio}}/{{nombre_usuario}} -spn {{servicio}}/{{destino}}`
 
 - Fuerza que el tique sea reenviable (Bronze Bit):
 
