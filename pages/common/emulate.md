@@ -1,6 +1,6 @@
 # emulate
 
-> Zsh builtin to change options to emulate some shell as much as possible.
+> Reset shell options to match a certain shell's behavior.
 > Also used to ensure a shell function runs with the default configuration.
 > More information: <https://github.com/antonio/zsh-config/blob/master/help/emulate>.
 
