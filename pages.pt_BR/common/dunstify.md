@@ -10,12 +10,12 @@
 
 - Mostra uma notificação com uma urgência específica:
 
-`dunstify "{{Título}}" "{{Mensagem}}" -u {{low|normal|critical}}`
+`dunstify "{{Título}}" "{{Mensagem}}" {{[-u|--urgency]}} {{low|normal|critical}}`
 
 - Especifica um ID para a mensagem (sobrescreve qualquer mensagem anterior com o mesmo ID):
 
-`dunstify "{{Título}}" "{{Mensagem}}" -r {{123}}`
+`dunstify "{{Título}}" "{{Mensagem}}" {{[-r|--replace]}} {{123}}`
 
 - Mostra opções de ajuda:
 
-`dunstify --help`
+`dunstify {{[-?|--help]}}`
