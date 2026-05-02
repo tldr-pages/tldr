@@ -8,7 +8,7 @@
 
 `emulate`
 
-- Adjust settings of the current shell session to mimic bash:
+- Adjust settings of the current shell session to mimic Bash:
 
 `emulate bash`
 
