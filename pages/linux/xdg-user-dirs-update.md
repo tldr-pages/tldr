@@ -8,6 +8,10 @@
 
 `xdg-user-dirs-update --set DESKTOP "/{{path/to/directory}}"`
 
+- Create any missing directories:
+
+`xdg-user-dirs-update --force`
+
 - Write the result to the specified dry-run-file instead of the `user-dirs.dirs` file:
 
 `xdg-user-dirs-update --dummy-output "{{path/to/dry_run_file}}" --set {{xdg_user_directory}} "/{{path/to/directory}}"`

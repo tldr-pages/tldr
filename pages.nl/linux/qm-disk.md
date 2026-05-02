@@ -5,19 +5,19 @@
 
 - Voeg `n` gigabytes toe aan een virtuele schijf:
 
-`qm {{[di|disk]}} {{[resi|resize]}} {{vm_id}} {{schijf_naam}} +{{n}}G`
+`qm {{[di|disk]}} {{[resi|resize]}} {{100}} {{schijf_naam}} +{{n}}G`
 
 - Verplaats een virtuele schijf:
 
-`qm {{[di|disk]}} {{[m|move]}} {{vm_id}} {{destination}} {{index}}`
+`qm {{[di|disk]}} {{[m|move]}} {{100}} {{destination}} {{index}}`
 
 - Verwijder de vorige kopie van de virtuele schijf:
 
-`qm {{[di|disk]}} {{[m|move]}} --delete {{vm_id}} {{bestemming}} {{index}}`
+`qm {{[di|disk]}} {{[m|move]}} --delete {{100}} {{bestemming}} {{index}}`
 
 - Importeer een VMDK/`.qcow2`/raw schijfimage met een specifieke opslagnaam:
 
-`qm {{[di|disk]}} {{[i|import]}} {{vm_id}} {{pad/naar/schijf}} {{opslagnaam}} --format {{qcow2|raw|vmdk}}`
+`qm {{[di|disk]}} {{[i|import]}} {{100}} {{pad/naar/schijf}} {{opslagnaam}} --format {{qcow2|raw|vmdk}}`
 
 - Scan alle opslag opnieuw en update schijfgroottes en ongebruikte schijf images:
 

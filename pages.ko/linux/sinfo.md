@@ -6,7 +6,7 @@
 
 - 클러스터의 빠른 요약 개요 표시:
 
-`sinfo --summarize`
+`sinfo {{[-s|--summarize]}}`
 
 - 클러스터 전체의 모든 파티션에 대한 자세한 상태 보기:
 
@@ -14,16 +14,16 @@
 
 - 특정 파티션에 대한 자세한 상태 보기:
 
-`sinfo --partition {{파티션_이름}}`
+`sinfo {{[-p|--partition]}} {{파티션_이름}}`
 
 - 유휴 노드 정보 보기:
 
-`sinfo --states {{idle}}`
+`sinfo {{[-t|--states]}} {{idle}}`
 
 - 죽은 노드 요약:
 
-`sinfo --dead`
+`sinfo {{[-d|--dead]}}`
 
 - 죽은 노드와 그 이유 나열:
 
-`sinfo --list-reasons`
+`sinfo {{[-R|--list-reasons]}}`

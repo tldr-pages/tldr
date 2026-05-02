@@ -12,9 +12,9 @@
 
 `bat {{/caminho/para/arquivo1 /caminho/para/arquivo2 ...}} > {{/caminho/para/arquivo_destino}}`
 
-- Remove estilizacão e desabilita páginação (`--style plain` pode ser substituído por `-p`, ou ambas as opções com `-pp`):
+- Remove estilizacão e desabilita páginação:
 
-`bat --style plain --pager never {{/caminho/para/arquivo}}`
+`bat {{[-pp|--style plain --pager never]}} {{/caminho/para/arquivo}}`
 
 - Destaca uma linha específica ou um intervalo de linhas com uma cor de fundo diferente:
 

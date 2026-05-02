@@ -1,37 +1,37 @@
 # grep
 
-> 使用正則表達式在文件中查找字串。
+> 使用 `regex` 式搜尋檔案中的模式。
 > 另請參閱：`regex`。
 > 更多資訊：<https://www.gnu.org/software/grep/manual/grep.html>。
 
-- 在檔案中尋找字串：
+- 在檔案中搜尋模式：
 
-`grep "{{字串}}" {{檔案/完整/路徑}}`
+`grep "{{模式字串}}" {{路徑/至/檔案1 路徑/至/檔案2}}`
 
-- 搜索確切的字串(停用正則表達式)：
+- 搜尋精確的字串（停用 `regex` 式）：
 
-`grep {{[-F|--fixed-strings]}} "{{精確字串}}" {{檔案/完整/路徑}}`
+`grep {{[-F|--fixed-strings]}} "{{字串}}" {{路徑/至/檔案}}`
 
-- 在目錄中遞迴搜尋模式，顯示相符行的行號並忽略二進位文件：
+- 在目錄中遞迴搜尋所有檔案中的模式，忽略二進位檔案：
 
-`grep {{[-rnI|--recursive --line-number --binary-files=without-match]}} "{{字串}}" {{檔案/完整/路徑}}`
+`grep {{[-rI|--recursive --binary-files=without-match]}} "{{模式字串}}" {{路徑/至/目錄}}`
 
-- 使用擴充正則表達式(支援 `?`, `+`, `{}`, `()`, 和 `|`)，並啟用不區分大小寫的模式：
+- 列印每個匹配項周圍、之前或之後的 3 行上下文：
 
-`grep {{[-Ei|--extended-regexp --ignore-case]}} "{{字串}}" {{檔案/完整/路徑}}`
+`grep {{--context|--before-context|--after-context}} 3 "{{模式字串}}" {{路徑/至/檔案}}`
 
-- 印出每次相符的上下文、之前或之後的 3 行：
+- 列印每個匹配項的檔案名稱和行號，並帶彩色輸出：
 
-`grep {{--context|--before-context|--after-context}} 3 "{{字串}}" {{檔案/完整/路徑}}`
+`grep {{[-Hn|--with-filename --line-number]}} --color=always "{{模式字串}}" {{路徑/至/檔案}}`
 
-- 印出包含相符結果的文件名和行號，並啟用彩色輸出：
+- 僅列印匹配的文本：
 
-`grep {{[-Hn|--with-filename --line-number]}} --color=always "{{字串}}" {{檔案/完整/路徑}}`
+`grep {{[-o|--only-matching]}} "{{模式字串}}" {{路徑/至/檔案}}`
 
-- 搜尋與模式相符的行，僅印出相符的文字：
+- 從 `stdin` （標準輸入）中讀取資料，不列印匹配模式的行：
 
-`grep {{[-o|--only-matching]}} "{{字串}}" {{檔案/完整/路徑}}`
+`cat {{路徑/至/檔案}} | grep {{[-v|--invert-match]}} "{{模式字串}}"`
 
-- 在標準輸入中搜尋不相符模式的行：
+- 使用擴展 `regex` 式（支援 `?`、`+`、`{}`、`()` 和 `|`），不區分大小寫模式：
 
-`cat {{檔案/完整/路徑}} | grep {{[-v|--invert-match]}} "{{字串}}"`
+`grep {{[-Ei|--extended-regexp --ignore-case]}} "{{模式字串}}" {{路徑/至/檔案}}`

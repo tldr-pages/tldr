@@ -5,24 +5,24 @@
 
 - Kullanılabilir ağları tara:
 
-`wpa_cli scan`
+`sudo wpa_cli scan`
 
 - Tarama sonuçlarını göster:
 
-`wpa_cli scan_results`
+`sudo wpa_cli scan_results`
 
 - Ağ ekle:
 
-`wpa_cli add_network {{numara}}`
+`sudo wpa_cli {{[add_n|add_network]}} {{numara}}`
 
 - Bir ağın SSID değerini ayarla:
 
-`wpa_cli set_network {{numara}} ssid "{{SSID}}"`
+`sudo wpa_cli {{[set_n|set_network]}} {{numara}} ssid "{{SSID}}"`
 
 - Ağı etkinleştir:
 
-`wpa_cli enable_network {{numara}}`
+`sudo wpa_cli {{[en|enable_network]}} {{numara}}`
 
 - Yapılandırmayı kaydet:
 
-`wpa_cli save_config`
+`sudo wpa_cli {{[sa|save_config]}}`

@@ -13,4 +13,4 @@
 
 - Monitorea un proceso por PID y activa una notificación cuando el PID desaparece:
 
-`noti -w {{identificador_del_proceso}}`
+`noti {{[-w|--pwatch]}} {{identificador_del_proceso}}`

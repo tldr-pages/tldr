@@ -9,12 +9,12 @@
 
 - 파일에 지정된 [t]대상에 대해 정찰 수행:
 
-`sudo autorecon --target-file {{경로/대상/파일}}`
+`sudo autorecon {{[-t|--target-file]}} {{경로/대상/파일}}`
 
 - 다른 디렉토리에 [o]출력 결과 저장:
 
-`sudo autorecon --output {{경로/대상/결과}} {{호스트_또는_IP1,호스트_또는_IP2,...}}`
+`sudo autorecon {{[-o|--output]}} {{경로/대상/결과}} {{호스트_또는_IP1,호스트_또는_IP2,...}}`
 
 - 특정 [p]포트 및 프로토콜로 스캔 제한 (`T`는 TCP, `U`는 UDP, `B`는 둘 다):
 
-`sudo autorecon --ports {{T:21-25,80,443,U:53,B:123}} {{호스트_또는_IP1,호스트_또는_IP2,...}}`
+`sudo autorecon {{[-p|--ports]}} {{T:21-25,80,443,U:53,B:123}} {{호스트_또는_IP1,호스트_또는_IP2,...}}`

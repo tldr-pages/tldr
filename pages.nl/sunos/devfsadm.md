@@ -1,13 +1,14 @@
 # devfsadm
 
-> Administratie commando voor `/dev`. Beheert de `/dev` namespace.
+> Beheer `/dev`.
+> Onderhoudt de `/dev`-namespace.
 > Meer informatie: <https://www.unix.com/man-page/sunos/1m/devfsadm>.
 
 - Scannen voor nieuwe schijven:
 
 `devfsadm -c disk`
 
-- Opkuisen van overblijvende /dev links, en detectie van nieuwe toestellen:
+- Opkuisen van overblijvende `/dev` links, en detectie van nieuwe toestellen:
 
 `devfsadm -C -v`
 

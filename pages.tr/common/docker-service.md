@@ -13,11 +13,11 @@
 
 - Boşluk ile ayrılmış bir servis listesinin detaylı bilgisini görüntüle:
 
-`docker service inspect {{servis_ismi|ID}}`
+`docker service inspect {{servis_ismi|id}}`
 
 - Boşluk ile ayrılmış bir servis listesinin görevlerini sırala:
 
-`docker service ps {{servis_ismi|ID}}`
+`docker service ps {{servis_ismi|id}}`
 
 - Boşluk ile ayrılmış bir servis listesi için belirli bir replika miktarına yüksel:
 
@@ -25,4 +25,4 @@
 
 - Boşluk ile ayrılmış bir servis listesini sil:
 
-`docker service rm {{servis_ismi|ID}}`
+`docker service rm {{servis_ismi|id}}`

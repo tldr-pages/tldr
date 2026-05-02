@@ -10,12 +10,12 @@
 
 - Inizia output con colore:
 
-`radeontop --color`
+`radeontop {{[-c|--color]}}`
 
 - Scegli un GPU specifico (il numero del bus è il primo numero nell'output di `lspci`):
 
-`radeontop --bus {{bus_numero}}`
+`radeontop {{[-b|--bus]}} {{bus_numero}}`
 
 - Specifica la frequenza di aggiornamento del display (più alto aggiunge più sovraccarico al GPU):
 
-`radeontop --ticks {{aggiornamenti_per_secondo}}`
+`radeontop {{[-t|--ticks]}} {{aggiornamenti_per_secondo}}`

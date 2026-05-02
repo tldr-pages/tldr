@@ -5,4 +5,4 @@
 
 - List all snapshots of a specific virtual machine:
 
-`qm {{[lists|listsnapshot]}} {{vm_id}}`
+`qm {{[lists|listsnapshot]}} {{100}}`
