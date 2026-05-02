@@ -16,7 +16,7 @@
 
 `vd {{path/to/input.csv}} -b -o {{path/to/output.json}}`
 
-- Read tabular data from stdin:
+- Read tabular data from `stdin`:
 
 `cat {{path/to/file.csv}} | vd -`
 
