@@ -4,7 +4,7 @@
 
 - View documentation for the R language interpreter:
 
-`tldr r.1`
+`tldr r.lang`
 
 - View documentation for the Zsh command:
 

@@ -5,19 +5,19 @@
 
 - Verifica se um arquivo DocBook XML é válido:
 
-`daps -d {{caminho/para/arquivo.xml}} validate`
+`daps {{[-d|--docconfig]}} {{caminho/para/arquivo.xml}} validate`
 
 - Converte um arquivo DocBook XML para PDF:
 
-`daps -d {{caminho/para/arquivo.xml}} pdf`
+`daps {{[-d|--docconfig]}} {{caminho/para/arquivo.xml}} pdf`
 
 - Converte um arquivo DocBook XML em um único arquivo HTML:
 
-`daps -d {{caminho/para/arquivo.xml}} html --single`
+`daps {{[-d|--docconfig]}} {{caminho/para/arquivo.xml}} html --single`
 
 - Exibe ajuda:
 
-`daps --help`
+`daps {{[-h|--help]}}`
 
 - Exibe versão:
 

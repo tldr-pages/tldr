@@ -10,7 +10,7 @@
 
 - Controlla una determinata directory ricorsivamente, senza stampare informazioni sul progresso:
 
-`cppcheck --quiet {{percorso/della/directory}}`
+`cppcheck {{[-q|--quiet]}} {{percorso/della/directory}}`
 
 - Controlla un determinato file, specificando quali test eseguire (di default, solo gli errori sono mostrati):
 

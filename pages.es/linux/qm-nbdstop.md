@@ -5,4 +5,4 @@
 
 - Detiene el servidor nbd integrado:
 
-`qm {{[n|nbdstop]}} {{VM_ID}}`
+`qm {{[n|nbdstop]}} {{100}}`

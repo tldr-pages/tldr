@@ -5,11 +5,11 @@
 
 - 지정한 책 형식(기본값은 `pdf`)으로 오늘의 제공 책을 현재 디렉토리에 다운로드:
 
-`packtpub download --type {{pdf|ebup|mobi}}`
+`packtpub download {{[-t|--type]}} {{pdf|ebup|mobi}}`
 
 - 오늘의 제공 책을 지정한 디렉토리에 다운로드:
 
-`packtpub download --dir {{경로/대상/폴더}}`
+`packtpub download {{[-d|--dir]}} {{경로/대상/폴더}}`
 
 - packtpub.com에 대한 대화형 로그인 시작:
 
