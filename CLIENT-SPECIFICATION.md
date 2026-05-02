@@ -235,8 +235,8 @@ Step  | Path checked         | Outcome
 If appropriate, it is RECOMMENDED that clients implement a cache of pages. If implemented, clients MUST download the entire archive either as a whole from **<https://github.com/tldr-pages/tldr/releases/latest/download/tldr.zip>** or download language-specific archives in the format `https://github.com/tldr-pages/tldr/releases/latest/download/tldr-pages.{{language-code}}.zip` (e.g. **<https://github.com/tldr-pages/tldr/releases/latest/download/tldr-pages.en.zip>**). The English archive is also available from **<https://github.com/tldr-pages/tldr/releases/latest/download/tldr-pages.zip>**.
 
 > [!CAUTION]
-> Prior to version 2.2, the client specification stated that clients MUST download archives from <https://tldr.sh/assets>. This method is now deprecated, and **_will be removed_** in December 2025.
-> Clients that still use the old location will therefore stop working next year.
+> Prior to version 2.2, the client specification stated that clients MUST download archives from <https://tldr.sh/assets>. After almost 2 years of being deprecated, the assets have been removed from this location on [**January 20 2026**](https://github.com/tldr-pages/tldr/pull/20565).
+> Clients that still use the old location can no longer download pages.
 
 Caching SHOULD be done according to the user's language configuration (if any), to not waste unneeded space for unused languages. Additionally, clients MAY automatically update the cache regularly.
 
