@@ -1,7 +1,7 @@
 # mklost+found
 
 > Tworzy katalog lost+found.
-> Więcej informacji: <https://linux.die.net/man/8/mklost+found>.
+> Więcej informacji: <https://manned.org/mklost%2Bfound>.
 
 - Utwórz katalog `lost+found` w bieżącym katalogu:
 

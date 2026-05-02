@@ -12,9 +12,9 @@
 
 `bat {{jalan/menuju/berkas1 jalan/menuju/berkas2 ...}} > {{jalan/menuju/berkas_tujuan}}`
 
-- Hapus dekorasi dan matikan fitur tampilan halaman (paging) (opsi `--style plain` dapat digantikan dengan `-p`, atau nyalakan kedua opsi dengan `-pp`):
+- Hapus dekorasi dan matikan fitur tampilan halaman (paging):
 
-`bat --style plain --pager never {{jalan/menuju/berkas}}`
+`bat {{[-pp|--style plain --pager never]}} {{jalan/menuju/berkas}}`
 
 - Sorot baris tertentu dengan warna latar belakang yang berbeda:
 

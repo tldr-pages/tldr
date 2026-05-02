@@ -1,7 +1,7 @@
 # claude
 
 > コードベースを理解し、自然言語コマンドを通じてより速くコーディングできるようサポートするエージェント型コーディングツールです。
-> 詳細情報: <https://code.claude.com/docs/en/overview>。
+> 詳細情報: <https://code.claude.com/docs/en/cli-reference>。
 
 - プロンプトを指定して実行する:
 

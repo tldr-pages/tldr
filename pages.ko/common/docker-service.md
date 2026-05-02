@@ -13,11 +13,11 @@
 
 - 하나 이상의 서비스에 대한 자세한 정보 표시:
 
-`docker service inspect {{서비스_이름_또는_ID1 서비스_이름_또는_ID2}}`
+`docker service inspect {{서비스_이름_또는_id1 서비스_이름_또는_id2}}`
 
 - 하나 이상의 서비스에 대한 작업 목록 나열:
 
-`docker service ps {{서비스_이름_또는_ID1 서비스_이름_또는_ID2 ...}}`
+`docker service ps {{서비스_이름_또는_id1 서비스_이름_또는_id2 ...}}`
 
 - 공백으로 구분된 서비스 목록에 대해 특정 복제본 수로 확장:
 
@@ -25,4 +25,4 @@
 
 - 하나 이상의 서비스 제거:
 
-`docker service rm {{서비스_이름_또는_ID1 서비스_이름_또는_ID2}}`
+`docker service rm {{서비스_이름_또는_id1 서비스_이름_또는_id2}}`

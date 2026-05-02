@@ -32,3 +32,7 @@
 - Voer een script uit in een specifieke versie van Node.js:
 
 `nvm exec {{node_versie}} node {{app.js}}`
+
+- Upgrade naar de nieuwste werkende npm-versie op de huidige Node.js-versie:
+
+`nvm install-latest-npm`

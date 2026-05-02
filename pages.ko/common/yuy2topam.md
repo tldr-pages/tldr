@@ -5,4 +5,4 @@
 
 - YUY2 바이트를 PAM으로 변환:
 
-`yuy2topam -width {{값}} -height {{값}} {{경로/대상/파일.yuy2}} > {{경로/대상/파일.pam}}`
+`yuy2topam {{[-w|-width]}} {{값}} {{[-h|-height]}} {{값}} {{경로/대상/파일.yuy2}} > {{경로/대상/파일.pam}}`

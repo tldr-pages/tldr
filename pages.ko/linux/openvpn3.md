@@ -5,7 +5,7 @@
 
 - 새 VPN 세션 시작:
 
-`openvpn3 session-start --config {{경로/대상/config.conf}}`
+`openvpn3 session-start {{[-c|--config]}} {{경로/대상/config.conf}}`
 
 - 설정된 세션 나열:
 
@@ -13,11 +13,11 @@
 
 - 주어진 구성으로 시작된 현재 설정된 세션 연결 해제:
 
-`openvpn3 session-manage --config {{경로/대상/config.conf}} --disconnect`
+`openvpn3 session-manage {{[-c|--config]}} {{경로/대상/config.conf}} {{[-D|--disconnect]}}`
 
 - VPN 구성 가져오기:
 
-`openvpn3 config-import --config {{경로/대상/config.conf}}`
+`openvpn3 config-import {{[-c|--config]}} {{경로/대상/config.conf}}`
 
 - 가져온 구성 나열:
 

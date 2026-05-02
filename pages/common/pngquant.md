@@ -9,11 +9,11 @@
 
 - Compress a specific PNG and override original:
 
-`pngquant --ext .png --force {{path/to/file.png}}`
+`pngquant --ext .png {{[-f|--force]}} {{path/to/file.png}}`
 
 - Try to compress a specific PNG with custom quality (skip if below the min value):
 
-`pngquant --quality {{0-100}} {{path/to/file.png}}`
+`pngquant {{[-Q|--quality]}} {{0-100}} {{path/to/file.png}}`
 
 - Compress a specific PNG with the number of colors reduced to 64:
 
@@ -29,8 +29,8 @@
 
 - Compress a specific PNG and save it to the given path:
 
-`pngquant {{path/to/file.png}} --output {{path/to/file.png}}`
+`pngquant {{path/to/file.png}} {{[-o|--output]}} {{path/to/file.png}}`
 
 - Compress a specific PNG and show progress:
 
-`pngquant --verbose {{path/to/file.png}}`
+`pngquant {{[-v|--verbose]}} {{path/to/file.png}}`
