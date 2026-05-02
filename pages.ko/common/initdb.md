@@ -5,4 +5,4 @@
 
 - `/usr/local/var/postgres`에 데이터베이스를 생성:
 
-`initdb -D /usr/local/var/postgres`
+`initdb {{[-D|--pgdata]}} /usr/local/var/postgres`

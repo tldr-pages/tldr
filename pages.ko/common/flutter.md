@@ -2,7 +2,7 @@
 
 > Google의 무료 오픈 소스 크로스 플랫폼 모바일 앱 SDK.
 > `pub`과 같은 일부 하위 명령에는 자체 사용법 문서가 있음.
-> 더 많은 정보: <https://github.com/flutter/flutter/wiki/The-flutter-tool>.
+> 더 많은 정보: <https://github.com/flutter/flutter/blob/master/docs/tool/README.md>.
 
 - 동일한 이름의 디렉터리에서 새로운 Flutter 프로젝트를 초기화:
 
