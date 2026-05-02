@@ -33,4 +33,4 @@
 
 - Wyświetl pomoc:
 
-`homectl --help`
+`homectl {{[-h|--help]}}`
