@@ -20,6 +20,6 @@
 
 `emulate zsh -R`
 
-- Make option changes by emulate local to a function:
+- Scope emulation to the current function:
 
 `myfunction() {emulate -L sh; ls}`
