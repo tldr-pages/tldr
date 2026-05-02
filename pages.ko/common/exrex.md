@@ -10,23 +10,23 @@
 
 - `regex`와 일치하는 임의의 문자열을 생성:
 
-`exrex --random '{{정규_표현식}}'`
+`exrex {{[-r|--random]}} '{{정규_표현식}}'`
 
 - `regex`와 일치하는 최대 100개의 문자열을 생성:
 
-`exrex --max-number {{100}} '{{정규_표현식}}'`
+`exrex {{[-m|--max-number]}} {{100}} '{{정규_표현식}}'`
 
 - 사용자 정의 구분 기호 문자열로 결합된, `regex`와 일치하는 가능한 모든 문자열을 생성:
 
-`exrex --delimiter "{{, }}" '{{정규_표현식}}'`
+`exrex {{[-d|--delimiter]}} "{{, }}" '{{정규_표현식}}'`
 
 - `regex`와 일치하는 가능한 모든 문자열의 개수를 출력:
 
-`exrex --count '{{정규_표현식}}'`
+`exrex {{[-c|--count]}} '{{정규_표현식}}'`
 
 - `regex` 표현식을 단순화:
 
-`exrex --simplify '{{ab|ac}}'`
+`exrex {{[-s|--simplify]}} '{{ab|ac}}'`
 
 - 눈 출력:
 

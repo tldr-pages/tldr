@@ -1,13 +1,7 @@
 # edit
 
-> `run-mailcap`의 편집 작업에 대한 별칭.
-> 원래 `run-mailcap`은 mime-type/파일을 처리/편집하기 위해 사용됩니다.
-> 더 많은 정보: <https://www.computerhope.com/unix/uedit.htm>.
+> 이 명령은 `run-mailcap --action=edit`의 별칭입니다.
 
-- 기본 mailcap 탐색기로 어떤 파일이든 보기 위해 편집 작업 사용:
+- 자세한 내용은 원본 명령을 참고하세요:
 
-`edit {{파일명}}`
-
-- `run-mailcap`과 함께 사용:
-
-`run-mailcap --action=edit {{파일명}}`
+`tldr run-mailcap`

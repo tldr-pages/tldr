@@ -28,6 +28,10 @@
 
 `git switch {{[-m|--merge]}} {{branch_naam}}`
 
-- Wissel naar een tag:
+- Wissel naar een tag of commit:
 
-`git switch {{[-d|--detach]}} {{tag}}`
+`git switch {{[-d|--detach]}} {{tag|commit}}`
+
+- Wissel naar een branch van een andere externe repository:
+
+`git switch {{[-t|--track]}} {{externe_naam}}/{{branch}}`
