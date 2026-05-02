@@ -13,4 +13,4 @@
 
 - Gib die Bibliotheken im Zwischenspeicher aus und prüfe ob eine bestimmte Bibliothek vorhanden ist:
 
-`ldconfig -p | grep {{bibliotheksname}}`
+`ldconfig {{[-p|--print-cache]}} | grep {{bibliotheksname}}`
