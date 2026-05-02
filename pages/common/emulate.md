@@ -12,7 +12,7 @@
 
 `emulate bash`
 
-- Evaluate some script within a temporary emulation:
+- Evaluate a [c]ommand within temporary emulation:
 
 `emulate ksh -c "echo hi"`
 
