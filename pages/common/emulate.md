@@ -14,7 +14,7 @@
 
 - Evaluate a [c]ommand within temporary emulation:
 
-`emulate ksh -c "echo hi"`
+`emulate ksh -c "{{echo hi}}"`
 
 - Emulate the default zsh, reseting options when possible:
 
