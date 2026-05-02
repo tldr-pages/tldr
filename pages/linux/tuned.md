@@ -6,24 +6,24 @@
 
 - Start the `tuned` daemon in the foreground:
 
-`tuned`
+`sudo tuned`
 
 - Start the `tuned` daemon in the background:
 
-`tuned {{[-d|--daemon]}}`
+`sudo tuned {{[-d|--daemon]}}`
 
 - Start the `tuned` daemon with a specific profile:
 
-`tuned {{[-p|--profile]}} {{profile_name}}`
+`sudo tuned {{[-p|--profile]}} {{profile_name}}`
 
 - Start the `tuned` daemon logging to a custom log file:
 
-`tuned {{[-l|--log]}} {{path/to/log_file.log}}`
+`sudo tuned {{[-l|--log]}} {{path/to/log_file.log}}`
 
 - Start the `tuned` daemon writing its process ID to a custom PID file:
 
-`tuned {{[-P|--pid]}} {{path/to/pid_file.pid}}`
+`sudo tuned {{[-P|--pid]}} {{path/to/pid_file.pid}}`
 
 - Start the `tuned` daemon with debugging messages:
 
-`tuned {{[-D|--debug]}}`
+`sudo tuned {{[-D|--debug]}}`
