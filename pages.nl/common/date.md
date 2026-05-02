@@ -23,13 +23,13 @@
 
 `date {{[-d|--date]}} "{{2018-09-01 00:00}}" +%s {{[-u|--utc]}}`
 
-- Toon de huidige datum in het RFC-3339 formaat (`YYYY-MM-DD hh:mm:ss TZ`):
+- Toon de huidige datum in het RFC-3339 formaat (`YYYY-MM-DD hh:mm:ss TZ`) en specificeer de precisie ervan:
 
-`date --rfc-3339 s`
+`date --rfc-3339 {{date|seconds|s}}`
 
 - Stel de huidige datum in met het formaat `MMDDhhmmYYYY.ss` (`YYYY` en `.ss` zijn optioneel):
 
-`date {{093023592021.59}}`
+`sudo date {{093023592021.59}}`
 
 - Toon het huidige ISO-weeknummer:
 

@@ -15,6 +15,10 @@
 
 `nmcli {{[d|device]}} {{[w|wifi]}} {{[c|connect]}} {{ssid}} {{[-a|--ask]}}`
 
+- Creëer een Wi-Fi-hotspot:
+
+`nmcli {{[d|device]}} {{[w|wifi]}} {{[ho|hotspot]}} ifname {{wlan0}} ssid "{{hotspot_ssid}}" password "{{wachtwoord}}"`
+
 - Toon het wachtwoord en de QR-code voor het huidige Wi-Fi netwerk:
 
 `nmcli {{[d|device]}} {{[w|wifi]}} {{[s|show-password]}}`

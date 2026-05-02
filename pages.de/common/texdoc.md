@@ -9,7 +9,7 @@
 
 - Liste die besten Suchergebnisse auf:
 
-`texdoc --list {{suche}}`
+`texdoc {{[-l|--list]}} {{suche}}`
 
 - Öffne die vollständige Dokumentation von `texdoc`:
 
