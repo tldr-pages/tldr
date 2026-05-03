@@ -13,4 +13,4 @@
 
 - Execute a command as a child process without sharing mounts, processes, or networks:
 
-`sudo unshare {{[-m|--mount]}} {{[-i|--pid]}} {{[-n|--net]}} {{[-f|--fork]}} {{command}} {{command_arguments}}`
+`sudo unshare {{[-minf|--mount --pid --net --fork]}} {{command}} {{command_arguments}}`
