@@ -8,6 +8,6 @@
 
 `age-inspect {{path/to/file}}`
 
-- Inspect an age encrypted file and print the json output to `stdout`:
+- Print the output to `stdout` as JSON:
 
 `age-inspect --json {{path/to/file}}`
