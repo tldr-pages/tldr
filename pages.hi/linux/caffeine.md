@@ -9,8 +9,8 @@
 
 - सहायता प्रदर्शित करें:
 
-`caffeine --help`
+`caffeine {{[-h|--help]}}`
 
 - संस्करण प्रदर्शित करें:
 
-`caffeine --version`
+`caffeine {{[-V|--version]}}`

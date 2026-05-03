@@ -14,8 +14,8 @@
 
 - 顯示目前的登錄者的訊息，並隱藏標題：
 
-`w --no-header`
+`w {{[-h|--no-header]}}`
 
 - 顯示 login、JCPU、PCPU 以外的資訊：
 
-`w --short`
+`w {{[-s|--short]}}`
