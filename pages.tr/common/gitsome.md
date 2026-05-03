@@ -26,4 +26,4 @@
 
 - Belirtilen GitHub kullanıcısının güncel etkileşimini varsayılan sayfacı ile (örneğin `less`) göster:
 
-`gh feed {{torvalds}} -p`
+`gh feed {{torvalds}} {{[-p|--pager]}}`

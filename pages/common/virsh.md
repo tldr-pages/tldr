@@ -15,24 +15,24 @@
 
 - Activate a network named `default`:
 
-`virsh net-start {{default}}`
+`sudo virsh net-start {{default}}`
 
 - Create a domain from a configuration file:
 
-`virsh create {{path/to/config_file.xml}}`
+`sudo virsh create {{path/to/config_file.xml}}`
 
 - Edit a domain's configuration file (editor can be changed with `$EDITOR` or `$VISUAL`):
 
-`virsh edit {{domain}}`
+`sudo virsh edit {{domain}}`
 
 - Start/reboot/reset/shutdown/destroy/suspend/resume a domain:
 
-`virsh {{start|reboot|reset|shutdown|destroy|suspend|resume}} {{domain}}`
+`sudo virsh {{start|reboot|reset|shutdown|destroy|suspend|resume}} {{domain}}`
 
 - Save the current running state of a domain (RAM, but not disk state) to a state file (domain will be powered off):
 
-`virsh save {{domain}} {{path/to/state_file}}`
+`sudo virsh save {{domain}} {{path/to/state_file}}`
 
 - Remove storage and snapshots of a stopped domain:
 
-`virsh undefine {{domain}} --remove-all-storage --snapshots-metadata`
+`sudo virsh undefine {{domain}} --remove-all-storage --snapshots-metadata`

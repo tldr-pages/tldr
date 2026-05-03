@@ -17,11 +17,11 @@
 
 - Mostra o resultado usando um formato específico (formato padrão é o `tabular`):
 
-`scc --format {{tabular|wide|json|csv|cloc-yaml|html|html-table}}`
+`scc {{[-f|--format]}} {{tabular|wide|json|csv|cloc-yaml|html|html-table}}`
 
 - Conta apenas os arquivos com as extensões especificadas:
 
-`scc --include-ext {{go, java, js}}`
+`scc {{[-i|--include-ext]}} {{go, java, js}}`
 
 - Exclui diretórios da contagem:
 
@@ -29,8 +29,8 @@
 
 - Mostra output organizado de acordo com o parâmetro especificado (organização padrão é `files`):
 
-`scc --sort {{files|name|lines|blanks|code|comments|complexity}}`
+`scc {{[-s|--sort]}} {{files|name|lines|blanks|code|comments|complexity}}`
 
 - Mostra a tela de ajuda:
 
-`scc -h`
+`scc {{[-h|--help]}}`
