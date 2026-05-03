@@ -10,7 +10,7 @@
 
 - Generate a post-quantum key pair, save it to an unencrypted file, and print the public key to `stdout`:
 
-`age-keygen {{-pq}} {{[-o|--output]}} {{path/to/file}}`
+`age-keygen -pq {{[-o|--output]}} {{path/to/file}}`
 
 - Convert an identit[y] to a recipient and print the public key to `stdout`:
 
