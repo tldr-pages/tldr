@@ -4,7 +4,7 @@
 > See also: `age`, `age-keygen`.
 > More information: <https://manned.org/age-inspect>.
 
-- Inspect an age encrypted file and print the output to `stdout`:
+- Print the recipient type, the file size, and whether it uses post-quantum encryption:
 
 `age-inspect {{path/to/file}}`
 
