@@ -1,29 +1,37 @@
 # bash
 
-> Bourne-Again SHell, interprete da linea di comando compatibile con `sh`.
+> Bourne-Again SHell, interprete di comandi da linea di comando compatibile con `sh`.
 > Vedi anche: `zsh`, `!`.
 > Maggiori informazioni: <https://www.gnu.org/software/bash/manual/bash.html#Invoking-Bash>.
 
-- Avvia una shell interattiva:
+- Avvia una sessione shell interattiva:
 
 `bash`
 
-- Esegui un comando:
+- Avvia una sessione shell interattiva senza caricare i file di configurazione di avvio:
 
-`bash -c "{{comando}}"`
+`bash --norc`
 
-- Esegui dei comandi da un file:
+- Esegue comandi specifici:
 
-`bash {{file.sh}}`
+`bash -c "{{echo 'bash è eseguito'}}"`
 
-- Esegui dei comandi da un file, loggando tutti i comandi eseguiti nel terminale:
+- Esegue uno script specifico:
 
-`bash -x {{file.sh}}`
+`bash {{percorso/allo/script.sh}}`
 
-- Esegui comandi da `stdin`:
+- Esegue uno script specifico stampando ogni comando prima dell'esecuzione:
 
-`bash -s`
+`bash -x {{percorso/allo/script.sh}}`
 
-- Stampa informazioni sulla versione di Bash (usa `echo $BASH_VERSION` per mostrare solo la versione):
+- Esegue uno script specifico e si ferma al primo [e]rrore:
 
-`bash --version`
+`bash -e {{percorso/allo/script.sh}}`
+
+- Esegue comandi specifici da `stdin`:
+
+`{{echo "echo 'bash è eseguito'"}} | bash`
+
+- Avvia una sessione shell ristretta:
+
+`bash {{[-r|--restricted]}}`
