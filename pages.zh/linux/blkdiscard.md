@@ -9,8 +9,8 @@
 
 - 安全地丢弃设备上的所有块，删除所有数据：
 
-`blkdiscard --secure {{/dev/设备名}}`
+`blkdiscard {{[-s|--secure]}} {{/dev/设备名}}`
 
 - 丢弃设备的前 100 MB：
 
-`blkdiscard --length {{100MB}} {{/dev/设备名}}`
+`blkdiscard {{[-l|--length]}} {{100MB}} {{/dev/设备名}}`

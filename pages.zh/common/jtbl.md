@@ -13,8 +13,8 @@
 
 - 打印表格并截断行而不是换行：
 
-`cat {{文件.json}} | jtbl -t`
+`cat {{文件.json}} | jtbl {{[-t|--truncate]}}`
 
 - 打印表格并不换行或截断行：
 
-`cat {{文件.json}} | jtbl -n`
+`cat {{文件.json}} | jtbl {{[-n|--no-wrap]}}`
