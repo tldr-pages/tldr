@@ -6,16 +6,16 @@
 
 - 将字符串转换为二维码并保存到输出文件：
 
-`qrencode -o {{路径/到/输出文件.png}} {{字符串}}`
+`qrencode {{[-o|--output]}} {{路径/到/输出文件.png}} {{字符串}}`
 
 - 将输入文件转换为二维码并保存到输出文件：
 
-`qrencode -o {{路径/到/输出文件.png}} -r {{路径/到/输入文件}}`
+`qrencode {{[-o|--output]}} {{路径/到/输出文件.png}} {{[-r|--read-from]}} {{路径/到/输入文件}}`
 
 - 将字符串转换为二维码并在终端中打印：
 
-`qrencode -t ansiutf8 {{字符串}}`
+`qrencode {{[-t|--type]}} ansiutf8 {{字符串}}`
 
 - 从管道输入转换为二维码并在终端中打印：
 
-`echo {{字符串}} | qrencode -t utf8`
+`echo {{字符串}} | qrencode {{[-t|--type]}} utf8`
