@@ -17,7 +17,7 @@
 
 - Instala un chart de helm y genera un nombre:
 
-`helm install {{nombre_del_repositorio}}/{{nombre_del_chart}} --generate-name`
+`helm install {{nombre_del_repositorio}}/{{nombre_del_chart}} {{[-g|--generate-name]}}`
 
 - Realiza una simulación:
 
@@ -29,4 +29,4 @@
 
 - Instala un chart de helm pasando un archivo de valores personalizados:
 
-`helm install {{nombre}} {{nombre_del_repositorio}}/{{nombre_del_chart}} --values {{ruta/a/valores.yaml}}`
+`helm install {{nombre}} {{nombre_del_repositorio}}/{{nombre_del_chart}} {{[-f|--values]}} {{ruta/a/valores.yaml}}`

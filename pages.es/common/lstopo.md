@@ -13,11 +13,11 @@
 
 - Muestra la topología resumida del sistema sólo con índices físicos (es decir, tal y como la ve el sistema operativo):
 
-`lstopo --physical`
+`lstopo {{[-p|--physical]}}`
 
 - Escribe la topología completa del sistema en un archivo con el formato especificado:
 
-`lstopo --no-factorize --output-format {{console|ascii|tex|fig|svg|pdf|ps|png|xml}} {{ruta/al/archivo}}`
+`lstopo --no-factorize {{[--of|--output-format]}} {{console|ascii|tex|fig|svg|pdf|ps|png|xml}} {{ruta/al/archivo}}`
 
 - Muestra datos en monocromo o escala de grises:
 
