@@ -2,7 +2,7 @@
 
 > 지정한 Python 버전으로 실행하는 Windows용 Python 실행기.
 > 관련 항목: `python`.
-> 참고: <https://docs.python.org/using/windows.html#python-launcher-for-windows>.
+> 더 많은 정보: <https://docs.python.org/using/windows.html#python-launcher-for-windows>.
 
 - REPL(대화형 셸) 실행 (옵션으로 -c, -m 등 python에서 지원하는 인자 사용 가능):
 
