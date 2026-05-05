@@ -2,6 +2,7 @@
 
 > 从 CI 产物安装 Rust 二进制文件。
 > 如果没有可用的二进制文件，则回退到 `cargo install`（从源代码安装）。
+> 注意：这不是 Cargo 的内置命令，你需要先安装它。
 > 更多信息：<https://github.com/cargo-bins/cargo-binstall>。
 
 - 从 <https://crates.io> 安装一个软件包：
