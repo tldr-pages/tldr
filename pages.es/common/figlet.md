@@ -10,11 +10,11 @@
 
 - Usa un archivo de [f]uente personalizada:
 
-`figlet {{texto_de_entrada}} -f {{ruta/al/archivo_de_fuente.flf}}`
+`figlet -f {{ruta/al/archivo_de_fuente.flf}} {{texto_de_entrada}}`
 
 - Usa una [f]uente del directorio predeterminado (la extensión puede ser omitida):
 
-`figlet {{texto_de_entrada}} -f {{archivo_de_fuente}}`
+`figlet -f {{archivo_de_fuente}} {{texto_de_entrada}}`
 
 - Redirige la salida de un comando hacia FIGlet:
 
