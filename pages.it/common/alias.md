@@ -1,26 +1,30 @@
 # alias
 
-> Crea alias -- parole che sono sostituite da stringhe di comandi.
-> Gli alias vengono persi alla chiusura della shell corrente, a meno che non siano definiti nel file di configurazione della shell (ad esempio `~/.bashrc`).
+> Crea alias - parole sostituite da stringhe di comandi.
+> Gli alias scadono con la sessione shell corrente a meno che non siano definiti nel file di configurazione della shell, es. `~/.bashrc` per Bash o `~/.zshrc` per Zsh.
 > Vedi anche: `unalias`.
 > Maggiori informazioni: <https://www.gnu.org/software/bash/manual/bash.html#index-alias>.
 
-- Crea un alias:
+- Elenca tutti gli alias:
+
+`alias`
+
+- Crea un alias generico:
 
 `alias {{parola}}="{{comando}}"`
 
-- Mostra il comando associato ad un dato alias:
+- Visualizza il comando associato a un dato alias:
 
 `alias {{parola}}`
 
-- Rimuovi un alias:
+- Rimuovi un comando alias:
 
 `unalias {{parola}}`
 
-- Rendi il comando rm interattivo:
+- Rendi `rm` interattivo:
 
-`alias {{rm}}="{{rm -i}}"`
+`alias {{rm}}="{{rm --interactive}}"`
 
-- Crea un alias `la` come scorciatoia per il comando `ls -a`:
+- Crea `la` come scorciatoia per `ls --all`:
 
-`alias {{la}}="{{ls -a}}"`
+`alias {{la}}="{{ls --all}}"`
