@@ -9,7 +9,7 @@
 
 - Execute a command without sharing access to connected networks:
 
-`sudo unshare {{[-n|--net]}} {{command}} {{command_arguments}}`
+`sudo unshare {{[-n|--net]}} {{command}} {{argument1 argument2 ...}}`
 
 - Execute a command as a child process without sharing mounts, processes, or networks:
 
