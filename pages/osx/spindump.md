@@ -10,8 +10,8 @@
 
 - Prioritize specified process in output with optional sampling duration and sample interval:
 
-`sudo spindump {{pid|partial-name}} {{sampling-duration-seconds}} {{sampling-interval-milliseconds}}`
+`sudo spindump {{pid|partial_name}} {{sampling_duration_seconds}} {{sampling_interval_milliseconds}}`
 
 - Write output to a specific file:
 
-`sudo spindump {{pid|partial-name}} -o {{path/to/output.txt}}`
+`sudo spindump {{pid|partial_name}} -o {{path/to/output.txt}}`
