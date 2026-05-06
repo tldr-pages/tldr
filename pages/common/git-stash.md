@@ -3,7 +3,7 @@
 > Stash local Git changes in a temporary area.
 > More information: <https://git-scm.com/docs/git-stash>.
 
-- Stash the current uncommited changes:
+- Stash the current uncommitted changes:
 
 `git stash`
 
