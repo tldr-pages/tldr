@@ -21,7 +21,7 @@
 
 - Establece una versión global de un paquete:
 
-`mise use --global {{nombre}}@{{versión}}`
+`mise use {{[-g|--global]}} {{nombre}}@{{versión}}`
 
 - Establece una versión local de un paquete:
 

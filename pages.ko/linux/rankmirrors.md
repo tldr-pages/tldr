@@ -14,12 +14,12 @@
 
 - 미러리스트 생성 시 자세히 출력:
 
-`rankmirrors -v {{/etc/pacman.d/mirrorlist}}`
+`rankmirrors {{[-v|--verbose]}} {{/etc/pacman.d/mirrorlist}}`
 
 - 특정 URL만 테스트:
 
-`rankmirrors --url {{URL}}`
+`rankmirrors {{[-u|--url]}} {{URL}}`
 
 - 전체 미러리스트 대신 응답 시간만 출력:
 
-`rankmirrors --times {{/etc/pacman.d/mirrorlist}}`
+`rankmirrors {{[-t|--times]}} {{/etc/pacman.d/mirrorlist}}`
