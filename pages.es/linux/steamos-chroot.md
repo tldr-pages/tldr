@@ -5,12 +5,12 @@
 
 - Cambia a la otra partición A/B:
 
-`steamos-chroot --partset other`
+`steamos-chroot {{[-p|--partset]}} other`
 
 - Cambia a una partición en otra unidad:
 
-`steamos-chroot --disk {{/dev/sdX}} --partset {{A|B}}`
+`steamos-chroot {{[-d|--disk]}} {{/dev/sdX}} {{[-p|--partset]}} {{A|B}}`
 
 - Muestra la ayuda:
 
-`steamos-chroot --help`
+`steamos-chroot {{[-h|--help]}}`

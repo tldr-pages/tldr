@@ -2,6 +2,7 @@
 
 > 從 CI 產物安裝 Rust 二進位檔案。
 > 如果沒有可用的二進位檔案，則回退到 `cargo install`（從原始碼安裝）。
+> 注意：這不是 Cargo 的內置命令，你需要先安裝它。
 > 更多資訊：<https://github.com/cargo-bins/cargo-binstall>。
 
 - 從 <https://crates.io> 安裝一個套件：

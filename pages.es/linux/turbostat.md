@@ -9,7 +9,7 @@
 
 - Muestra las estadísticas cada cierto número de segundos:
 
-`sudo turbostat -i {{n_segundos}}`
+`sudo turbostat {{[-i|--interval]}} {{n_segundos}}`
 
 - Muestra información sin decodificar ni imprimir la cabecera de configuración del sistema:
 
@@ -17,7 +17,7 @@
 
 - Muestra información útil sobre el CPU cada segundo, sin información de cabecera:
 
-`sudo turbostat --quiet --interval 1 --cpu 0-{{cuenta_hilos_CPU}} --show "PkgWatt","Busy%","Core","CoreTmp","Thermal"`
+`sudo turbostat --quiet {{[-i|--interval]}} 1 --cpu 0-{{cuenta_hilos_CPU}} --show "PkgWatt","Busy%","Core","CoreTmp","Thermal"`
 
 - Muestra ayuda:
 
