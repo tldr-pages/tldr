@@ -22,4 +22,4 @@
 
 - Scope emulation to the current function:
 
-`{{my_function}}() { emulate -L sh; {{ls}} }`
+`{{my_function}}() { emulate -L {{bash|sh|ksh|csh}}; {{ls}} }`
