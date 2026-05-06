@@ -13,11 +13,11 @@
 
 - 在默认编辑器中编辑 justfile：
 
-`just -e`
+`just {{[-e|--edit]}}`
 
 - 列出 justfile 中可用的配方：
 
-`just -l`
+`just {{[-l|--list]}}`
 
 - 打印 justfile：
 

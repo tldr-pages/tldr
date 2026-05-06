@@ -13,8 +13,8 @@
 
 - Descarga la primera página de tus favoritos:
 
-`nhentai --favorites --download --delay 1`
+`nhentai {{[-F|--favorites]}} {{[-D|--download]}} {{[-d|--delay]}} 1`
 
 - Descarga páginas específicas de tus favoritos:
 
-`nhentai --favorites --pages {{página_inicial}}-{{página_final}} --download --delay 1`
+`nhentai {{[-F|--favorites]}} --pages {{página_inicial}}-{{página_final}} {{[-D|--download]}} {{[-d|--delay]}} 1`

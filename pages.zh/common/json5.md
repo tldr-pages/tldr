@@ -13,16 +13,16 @@
 
 - 将 JSON5 文件转换为指定的 JSON 文件：
 
-`json5 {{路径/到/输入文件.json5}} --out-file {{路径/到/输出文件.json}}`
+`json5 {{路径/到/输入文件.json5}} {{[-o|--out-file]}} {{路径/到/输出文件.json}}`
 
 - 验证一个 JSON5 文件：
 
-`json5 {{路径/到/输入文件.json5}} --validate`
+`json5 {{路径/到/输入文件.json5}} {{[-v|--validate]}}`
 
 - 指定缩进的空格数（或使用 "t" 表示制表符）：
 
-`json5 --space {{缩进量}}`
+`json5 {{[-s|--space]}} {{缩进量}}`
 
 - 显示帮助：
 
-`json5 --help`
+`json5 {{[-h|--help]}}`

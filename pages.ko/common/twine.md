@@ -9,11 +9,11 @@
 
 - Test PyPI 저장소에 업로드하여 검증:
 
-`twine upload -r testpypi dist/*`
+`twine upload {{[-r|--repository]}} testpypi dist/*`
 
 - 지정된 사용자 이름과 비밀번호로 PyPI에 업로드:
 
-`twine upload -u {{사용자명}} -p {{비밀번호}} dist/*`
+`twine upload {{[-u|--username]}} {{사용자명}} {{[-p|--password]}} {{비밀번호}} dist/*`
 
 - 대체 저장소 URL로 업로드:
 
