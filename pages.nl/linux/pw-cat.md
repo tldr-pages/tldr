@@ -8,9 +8,25 @@
 
 `pw-cat {{[-p|--playback]}} {{pad/naar/bestand.wav}}`
 
+- Speel een MIDI-bestand af:
+
+`pw-cat {{[-p|--playback]}} {{[-m|--midi]}} {{pad/naar/bestand.mid}}`
+
+- Speel een DSD-bestand af:
+
+`pw-cat {{[-p|--playback]}} {{[-d|--dsd]}} {{pad/naar/bestand.dsf}}`
+
+- Speel een gecomprimeerde audiobestand af met passthrough (vereist FFmpeg-integratie):
+
+`pw-cat {{[-p|--playback]}} {{[-o|--encoded]}} {{pad/naar/bestand.ac3}}`
+
 - Speel een WAV bestand met een specifieke resampler kwaliteit (standaard 4):
 
-`pw-cat {{[-q|--quality]}} {{0..15}} {{[-p|--playback]}} {{pad/naar/bestand.wav}}`
+`pw-cat {{[-p|--playback]}} {{[-q|--quality]}} {{0..15}} {{pad/naar/bestand.wav}}`
+
+- Neem een MIDI-bestand op:
+
+`pw-cat {{[-r|--record]}} {{[-m|--midi]}} {{pad/naar/bestand.mid}}`
 
 - Neem een sample recording op met een volume level van 125%:
 
@@ -19,7 +35,3 @@
 - Neem een sample recording op met een andere sample rate:
 
 `pw-cat {{[-r|--record]}} --rate {{6000}} {{pad/naar/bestand.wav}}`
-
-- Toon de help:
-
-`pw-cat {{[-h|--help]}}`

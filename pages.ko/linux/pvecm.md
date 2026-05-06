@@ -9,24 +9,24 @@
 
 - 클러스터 구성에 노드 추가 (내부 사용):
 
-`pvecm addnode {{노드}}`
+`pvecm {{[addn|addnode]}} {{노드}}`
 
 - 이 노드에서 사용 가능한 클러스터 가입 API 버전 표시:
 
-`pvecm apiver`
+`pvecm {{[ap|apiver]}}`
 
 - 새 클러스터 구성 생성:
 
-`pvecm create {{클러스터명}}`
+`pvecm {{[c|create]}} {{클러스터명}}`
 
 - 클러스터 구성에서 노드 제거:
 
-`pvecm delnode {{노드}}`
+`pvecm {{[d|delnode]}} {{노드}}`
 
 - 클러스터 노드에 대한 로컬 보기 표시:
 
-`pvecm nodes`
+`pvecm {{[n|nodes]}}`
 
 - 클러스터 상태에 대한 로컬 보기 표시:
 
-`pvecm status`
+`pvecm {{[s|status]}}`

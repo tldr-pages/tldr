@@ -13,4 +13,4 @@
 
 - Busca paquetes que son recomendados o sugeridos (pero no requeridos) por otro paquete:
 
-`deborphan --nice-mode`
+`deborphan {{[-n|--nice-mode]}}`

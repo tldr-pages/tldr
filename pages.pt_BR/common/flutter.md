@@ -1,7 +1,7 @@
 # flutter
 
 > SDK livre e open source do Google para desenvolvimento de aplicativos mobile cross-platform.
-> Mais informações: <https://github.com/flutter/flutter/wiki/The-flutter-tool>.
+> Mais informações: <https://github.com/flutter/flutter/blob/master/docs/tool/README.md>.
 
 - Inicializa um novo projeto Flutter em um diretório de mesmo nome:
 

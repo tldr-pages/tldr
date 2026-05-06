@@ -17,7 +17,7 @@
 
 - 특정 구성 파일로 Kismet 시작:
 
-`sudo kismet -c {{wlan0}} -f {{경로/대상/config.conf}}`
+`sudo kismet -c {{wlan0}} {{[-f|--config-file]}} {{경로/대상/config.conf}}`
 
 - SQLite 데이터베이스에 데이터를 모니터링하고 기록:
 

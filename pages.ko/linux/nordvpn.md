@@ -1,7 +1,7 @@
 # nordvpn
 
 > NordVPN의 명령줄 인터페이스.
-> 더 많은 정보: <https://support.nordvpn.com/hc/en-us/articles/20196094470929-Installing-NordVPN-on-Linux-distributions>.
+> 더 많은 정보: <https://support.nordvpn.com/hc/articles/20196094470929-Installing-NordVPN-on-Linux-distributions>.
 
 - NordVPN 계정에 대화형으로 로그인:
 

@@ -114,6 +114,8 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [18 March 2026](https://github.com/tldr-pages/tldr/issues/21584) — present
 - **Raizo62 ([@Raizo62](https://github.com/Raizo62))**:
   [18 March 2026](https://github.com/tldr-pages/tldr/issues/20981) — present
+- **Ninzero Xu ([@Ninzero](https://github.com/Ninzero))**:
+  [5 May 2026](https://github.com/tldr-pages/tldr/issues/22333) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke)):
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):

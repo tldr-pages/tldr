@@ -14,12 +14,12 @@
 
 - மேம்படுத்தப்பட்ட தொகுப்புகளுடன் ஒரு புதிய `ostree` வரிசைப்படுத்தலைத் தயாரித்து அதில் மீண்டும் துவக்கவும்:
 
-`rpm-ostree upgrade --reboot`
+`rpm-ostree upgrade {{[-r|--reboot]}}`
 
 - முந்தைய ostree வரிசைப்படுத்தலில் மீண்டும் துவக்கவும்:
 
-`rpm-ostree rollback --reboot`
+`rpm-ostree rollback {{[-r|--reboot]}}`
 
 - ஒரு புதிய ostree வரிசைப்படுத்தலில் ஒரு தொகுப்பை நிறுவி அதில் மீண்டும் துவக்கவும்:
 
-`rpm-ostree install {{தொகுப்பு}} --reboot`
+`rpm-ostree install {{தொகுப்பு}} {{[-r|--reboot]}}`

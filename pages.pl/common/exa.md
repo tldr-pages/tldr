@@ -1,6 +1,7 @@
 # exa
 
 > Nowoczesny odpowiednik `ls` (wyświetla zawartość katalogu).
+> Zobacz także: `eza`.
 > Więcej informacji: <https://github.com/ogham/exa#command-line-options>.
 
 - Wyświetl listę plików, po jednym w linii:

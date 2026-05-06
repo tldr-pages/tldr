@@ -2,7 +2,7 @@
 
 > Copia datos desde y hacia Azure Storage.
 > Vea también: `az storage`.
-> Más información: <https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10#list-of-commands>.
+> Más información: <https://learn.microsoft.com/azure/storage/common/storage-use-azcopy-v10#list-of-commands>.
 
 - Inicia sesión en un inquilino de Azure:
 

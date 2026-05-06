@@ -21,15 +21,15 @@
 
 - 根据定制的筛选条件选择测试：
 
-`tmt try --test {{feature}}`
+`tmt try {{[-t|--test]}} {{feature}}`
 
 - 配置客户机并等待用户输入指令：
 
-`tmt try --ask`
+`tmt try {{[-a|--ask]}}`
 
 - 直接登录到客户机：
 
-`tmt try --login`
+`tmt try {{[-l|--login]}}`
 
 - 显示帮助：
 

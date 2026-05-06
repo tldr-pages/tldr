@@ -9,20 +9,20 @@
 
 - Rozpakuj system plików squashfs do podanego katalogu:
 
-`unsquashfs -dest {{ścieżka/do/katalogu}} {{system_plików.squashfs}}`
+`unsquashfs {{[-d|-dest]}} {{ścieżka/do/katalogu}} {{system_plików.squashfs}}`
 
 - Wyświetlaj nazwy plików podczas ich rozpakowywania:
 
-`unsquashfs -info {{system_plików.squashfs}}`
+`unsquashfs {{[-i|-info]}} {{system_plików.squashfs}}`
 
 - Wyświetlaj nazwy plików i ich atrybuty podczas ich rozpakowywania:
 
-`unsquashfs -linfo {{system_plików.squashfs}}`
+`unsquashfs {{[-li|-linfo]}} {{system_plików.squashfs}}`
 
 - Wyświetl listę plików w systemie plików squashfs (bez rozpakowywania):
 
-`unsquashfs -ls {{system_plików.squashfs}}`
+`unsquashfs {{[-l|-ls]}} {{system_plików.squashfs}}`
 
 - Wyświetl listę plików i ich atrybuty w systemie plików squashfs (bez rozpakowywania):
 
-`unsquashfs -lls {{system_plików.squashfs}}`
+`unsquashfs {{[-ll|-lls]}} {{system_plików.squashfs}}`
