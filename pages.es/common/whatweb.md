@@ -19,7 +19,7 @@
 
 `whatweb {{[-a|--aggression]}} 3 {{example.com}}`
 
-- Escanear una red y suprimir errores:
+- Escanea una red y suprime los errores:
 
 `whatweb --no-errors {{192.168.0.0/24}}`
 

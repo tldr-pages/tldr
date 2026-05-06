@@ -20,6 +20,6 @@
 
 `expac {{[-S|--sync]}} {{[-H|--humansize]}} M '%k\t%n' $(pacman -Qqu) | sort {{[-sh|--sort --human-numeric-sort]}}`
 
-- Listar los paquetes instalados explícitamente con sus dependencias opcionales:
+- Enumera los paquetes instalados explícitamente con sus dependencias opcionales:
 
 `expac {{[-d|--delim]}} '\n\n' {{[-l|--listdelim]}} '\n\t' {{[-Q|--query]}} '%n\n\t%O' $(pacman -Qeq)`
