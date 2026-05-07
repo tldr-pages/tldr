@@ -3,13 +3,13 @@
 > An agentic development platform by Google.
 > More information: <https://antigravity.google/docs>.
 
-- Open specific file or directory:
+- Open a specific file or directory:
 
-`agy "{{path/to/file_or_directory}}"`
+`agy {{path/to/file_or_directory}}`
 
 - Compare two files with each other:
 
-`agy {{[-d|--diff]}} "{{path/to/file1}}" "{{path/to/file2}}"`
+`agy {{[-d|--diff]}} {{path/to/file1}} {{path/to/file2}}`
 
 - Pass in a prompt to run in a chat session in the current working directory:
 
@@ -17,9 +17,9 @@
 
 - Install or uninstall a specific extension:
 
-`agy --{{install|uninstall}}-extension "{{publisher.extension|path/to/extension.vsix}}"`
+`agy --{{install|uninstall}}-extension {{publisher.extension|path/to/extension.vsix}}`
 
-- Add a MCP (Model Context Protocol) server definition to the user profile:
+- Add an MCP (Model Context Protocol) server definition to the user profile:
 
 `agy --add-mcp "{{json_string}}"`
 
