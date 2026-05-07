@@ -1,6 +1,6 @@
 # grafana cli
 
-> A small executable that is bundled with Grafana serve.
+> Administer Grafana.
 > More information: <https://grafana.com/docs/grafana/latest/administration/cli/>.
 
 - Install plugins:
