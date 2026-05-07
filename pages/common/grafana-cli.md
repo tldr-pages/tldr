@@ -9,7 +9,7 @@
 
 - Specify a homepath when installing a plugin:
 
-`grafana cli --homepath /usr/share/grafana/ plugins install {{plugin_id}}`
+`grafana cli --homepath {{/usr/share/grafana}} plugins install {{plugin_id}}`
 
 - Update plugins:
 
