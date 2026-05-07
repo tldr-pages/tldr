@@ -6,20 +6,20 @@
 
 - 사용 가능한 SlackBuilds 및 버전 목록 업데이트:
 
-`slapt-src --update`
+`slapt-src {{[-u|--update]}}`
 
 - 사용 가능한 모든 SlackBuilds 나열:
 
-`slapt-src --list`
+`slapt-src {{[-l|--list]}}`
 
 - 지정된 SlackBuild(들)을 가져와서 빌드하고 설치:
 
-`slapt-src --install {{slackbuild_이름}}`
+`slapt-src {{[-i|--install]}} {{slackbuild_이름}}`
 
 - 이름 또는 설명으로 SlackBuilds 찾기:
 
-`slapt-src --search {{검색_어구}}`
+`slapt-src {{[-s|--search]}} {{검색_어구}}`
 
 - SlackBuild에 대한 정보 표시:
 
-`slapt-src --show {{slackbuild_이름}}`
+`slapt-src {{[-w|--show]}} {{slackbuild_이름}}`
