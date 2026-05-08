@@ -5,12 +5,12 @@
 
 - 배경화면을 [i]이미지로 설정:
 
-`swaybg --image {{경로/대상/이미지}}`
+`swaybg {{[-i|--image]}} {{경로/대상/이미지}}`
 
 - 배경화면 [m]모드 설정:
 
-`swaybg --image {{경로/대상/이미지}} --mode {{stretch|fit|fill|center|tile|solid_color}}`
+`swaybg {{[-i|--image]}} {{경로/대상/이미지}} {{[-m|--mode]}} {{stretch|fit|fill|center|tile|solid_color}}`
 
 - 배경화면을 고정된 [c]색상으로 설정:
 
-`swaybg --color "{{#rrggbb}}"`
+`swaybg {{[-c|--color]}} "{{#rrggbb}}"`
