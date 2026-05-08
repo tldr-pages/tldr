@@ -9,8 +9,8 @@
 
 - 저장소를 초기화하고, 테스트 RPM을 제외하고, 자세한 로그를 표시:
 
-`createrepo -v -x {{test_*.rpm}} {{경로/대상/폴더}}`
+`createrepo {{[-v|--verbose]}} {{[-x|--excludes]}} {{test_*.rpm}} {{경로/대상/폴더}}`
 
 - SHA1을 체크섬 알고리즘으로 사용하고, 심볼릭 링크를 무시하여 저장소를 초기화:
 
-`createrepo -S -s {{sha1}} {{경로/대상/폴더}}`
+`createrepo {{[-S|--skip-symlinks]}} {{[-s|--checksum]}} {{sha1}} {{경로/대상/폴더}}`

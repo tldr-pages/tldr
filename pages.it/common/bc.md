@@ -1,21 +1,33 @@
 # bc
 
-> Calcolatore.
+> Linguaggio per calcolatrice a precisione arbitraria.
 > Vedi anche: `dc`, `qalc`.
 > Maggiori informazioni: <https://manned.org/bc>.
 
-- Esegui in modalità interattiva utilizzando la libreria math della standard library:
+- Avvia una sessione interattiva:
 
-`bc -l`
+`bc`
 
-- Calcola il risultato di un'espressione:
+- Avvia una sessione interattiva con la libreria matematica standard abilitata:
 
-`bc <<< "(1 + 2) * 2 ^ 2"`
+`bc {{[-i|--interactive]}} {{[-l|--mathlib]}}`
 
-- Calcola un'espressione forzando il numero di decimali usati a 10:
+- Calcola un'espressione:
 
-`bc <<< "scale=10; 5 / 3"`
+`echo '{{5 / 3}}' | bc`
 
-- Calcola un'espressione con seno e coseno utilizzando mathlib:
+- Esegue uno script:
 
-`bc -l <<< "s(1) + c(1)"`
+`bc {{percorso/allo/script.bc}}`
+
+- Calcola un'espressione con la scala specificata:
+
+`echo 'scale = {{10}}; {{5 / 3}}' | bc`
+
+- Calcola funzioni seno/coseno/arcotangente/logaritmo_naturale/esponenziale con `mathlib`:
+
+`echo '{{s|c|a|l|e}}({{1}})' | bc {{[-l|--mathlib]}}`
+
+- Esegue uno script fattoriale inline:
+
+`echo "define factorial(n) { if (n <= 1) return 1; return n*factorial(n-1); }; factorial({{10}})" | bc`

@@ -13,19 +13,19 @@
 
 - 코드에 대한 의견을 마크다운 형식으로 요청하기:
 
-`mods --format "{{이 코드를 개선하기 위한 의견은?}}" < {{경로/대상/파일}}`
+`mods < {{경로/대상/파일}} {{[-f|--format]}} "{{이 코드를 개선하기 위한 의견은?}}"`
 
 - 문서화 도움을 마크다운 형식으로 요청하기:
 
-`mods --format "{{r을 누르면 무료 토끼를 보내주는 기능에 대한 새로운 섹션을 이 README에 작성해 줘}}" < {{README.md}}`
+`mods < {{README.md}} {{[-f|--format]}} "{{r을 누르면 무료 토끼를 보내주는 기능에 대한 새로운 섹션을 이 README에 작성해 줘}}"`
 
 - 비디오를 마크다운 형식으로 정리하기:
 
-`ls {{경로/대상/비디오}} | mods --format "{{이를 시대별로 정리하고 요약해 줘}}"`
+`ls {{경로/대상/비디오}} | mods {{[-f|--format]}} "{{이를 시대별로 정리하고 요약해 줘}}"`
 
 - 원시 HTML을 읽고 내용을 마크다운 형식으로 요약하기:
 
-`curl "{{https://api.open-meteo.com/v1/forecast?latitude=29.00&longitude=-90.00&current_weather=true&hourly=temperature_2m,relativehumidity_2m,windspeed_10m}}" | mods --format "{{이 날씨 데이터를 사람을 위해 요약해 줘}}"`
+`curl "{{https://api.open-meteo.com/v1/forecast?latitude=29.00&longitude=-90.00&current_weather=true&hourly=temperature_2m,relativehumidity_2m,windspeed_10m}}" | mods {{[-f|--format]}} "{{이 날씨 데이터를 사람을 위해 요약해 줘}}"`
 
 - 도움말 표시:
 
