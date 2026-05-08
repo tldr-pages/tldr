@@ -14,15 +14,15 @@
 
 - Proporciona una contraseña para los archivos cifrados de Microsoft Office (puede repetirse):
 
-`olevba --password {{contraseña}} {{ruta/al/archivo_encriptado}}`
+`olevba {{[-p|--password]}} {{contraseña}} {{ruta/al/archivo_encriptado}}`
 
 - Muestra solo los resultados del análisis, sin mostrar el código fuente de la macro:
 
-`olevba -a {{ruta/al/archivo}}`
+`olevba {{[-a|--analysis]}} {{ruta/al/archivo}}`
 
 - Muestra solo el código fuente de la macro:
 
-`olevba -c {{ruta/al/archivo}}`
+`olevba {{[-c|--code]}} {{ruta/al/archivo}}`
 
 - Muestra cadenas ofuscadas y su contenido decodificado:
 

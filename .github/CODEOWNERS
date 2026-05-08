@@ -15,8 +15,8 @@
 /pages.ru/ @ivanbaluta @emmanuel-ferdman
 /pages.ta/ @kbdharun
 /pages.tr/ @tansiret
-/pages.zh/ @blueskyson @einverne @DustMerlin @zhb4 @BananaaaKING
-/pages.zh_TW/ @blueskyson @DustMerlin @zhb4
+/pages.zh/ @blueskyson @einverne @DustMerlin @zhb4 @BananaaaKING @Ninzero
+/pages.zh_TW/ @blueskyson @DustMerlin @zhb4 @Ninzero
 
 /*.md @sbrl @kbdharun @sebastiaanspeck
 /.devcontainer/* @kbdharun @sebastiaanspeck
@@ -46,5 +46,5 @@
 /contributing-guides/*.ru.md @ivanbaluta @emmanuel-ferdman
 /contributing-guides/*.ta.md @kbdharun
 /contributing-guides/*.tr.md @tansiret
-/contributing-guides/*.zh.md @blueskyson @einverne @DustMerlin @zhb4 @BananaaaKING
-/contributing-guides/*.zh_TW.md @blueskyson @DustMerlin @zhb4
+/contributing-guides/*.zh.md @blueskyson @einverne @DustMerlin @zhb4 @BananaaaKING @Ninzero
+/contributing-guides/*.zh_TW.md @blueskyson @DustMerlin @zhb4 @Ninzero
