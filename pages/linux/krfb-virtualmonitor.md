@@ -9,7 +9,7 @@
 
 - Set the virtual monitor dimensions:
 
-`krfb-virtualmonitor --resolution {{1920}}x{{1080}}`
+`krfb-virtualmonitor --resolution {{2560}}x{{1440}}`
 
 - Set the monitor name:
 
