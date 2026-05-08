@@ -21,7 +21,7 @@
 
 - Inicia el servidor, leyendo los argumentos y valores de un archivo:
 
-`mysqld --defaults-file={{ruta/al/archivo}`
+`mysqld --defaults-file={{ruta/al/archivo}}`
 
 - Inicia el servidor y escucha en un puerto personalizado:
 
