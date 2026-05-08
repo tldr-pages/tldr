@@ -9,20 +9,20 @@
 
 - 스냅퍼 구성 생성:
 
-`snapper -c {{구성}} create-config {{경로/대상/폴더}}`
+`snapper {{[-c|--config]}} {{구성}} create-config {{경로/대상/폴더}}`
 
 - 설명과 함께 스냅샷 생성:
 
-`snapper -c {{구성}} create -d "{{스냅샷_설명}}"`
+`snapper {{[-c|--config]}} {{구성}} create {{[-d|--description]}} "{{스냅샷_설명}}"`
 
 - 특정 구성의 스냅샷 목록 나열:
 
-`snapper -c {{구성}} list`
+`snapper {{[-c|--config]}} {{구성}} list`
 
 - 스냅샷 삭제:
 
-`snapper -c {{구성}} delete {{스냅샷_번호}}`
+`snapper {{[-c|--config]}} {{구성}} delete {{스냅샷_번호}}`
 
 - 스냅샷 범위 삭제:
 
-`snapper -c {{구성}} delete {{스냅샷1}}-{{스냅샷2}}`
+`snapper {{[-c|--config]}} {{구성}} delete {{스냅샷1}}-{{스냅샷2}}`
