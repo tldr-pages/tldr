@@ -10,7 +10,7 @@
 
 - Subscribe to a feed:
 
-`r2e add {{feed_name}} {{feed_URI}}`
+`r2e add {{feed_name}} {{feed_uri}}`
 
 - Send new stories to an email address:
 
