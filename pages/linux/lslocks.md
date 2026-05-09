@@ -9,7 +9,7 @@
 
 - List locks with defined column headers:
 
-`lslocks {{[-o|--output]}} {{PID}},{{COMMAND}},{{PATH}}`
+`lslocks {{[-o|--output]}} {{PID,COMMAND,PATH,...}}`
 
 - List locks producing a raw output (no columns), and without column headers:
 
@@ -17,7 +17,7 @@
 
 - List locks by PID input:
 
-`lslocks {{[-p|--pid]}} {{PID}}`
+`lslocks {{[-p|--pid]}} {{process_id}}`
 
 - List locks with JSON output to `stdout`:
 
