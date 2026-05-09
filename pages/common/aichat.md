@@ -2,7 +2,7 @@
 
 > All-in-one LLM CLI tool with Shell Assistant, Chat-REPL, RAG, and AI Agents.
 > Supports 20+ providers including OpenAI, Claude, Gemini, and Ollama.
-> More information: <https://github.com/sigoden/aichat>.
+> More information: <https://github.com/sigoden/aichat/wiki/Command-Line-Guide>.
 
 - Start an interactive chat session:
 
