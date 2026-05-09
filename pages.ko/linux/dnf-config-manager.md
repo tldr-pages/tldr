@@ -6,7 +6,7 @@
 
 - URL에서 저장소 추가(그리고 활성화):
 
-`dnf config-manager --add-repo={{저장소_URL}}`
+`dnf config-manager --add-repo={{저장소_url}}`
 
 - 현재 구성 값 출력:
 

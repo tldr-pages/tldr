@@ -14,7 +14,7 @@
 
 - 배포와 관련된 정보 표시:
 
-`now inspect {{배포_URL}}`
+`now inspect {{배포_url}}`
 
 - 배포 제거:
 
