@@ -30,4 +30,4 @@
 
 - spy_ip 치즐을 사용하여 IP 주소와 교환된 데이터 보기:
 
-`sysdig -c spy_ip {{IP_주소}}`
+`sysdig -c spy_ip {{ip_주소}}`

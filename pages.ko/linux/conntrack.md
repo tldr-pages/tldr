@@ -18,8 +18,8 @@
 
 - 특정 IP 주소에 대한 연결 변경 사항의 실시간 이벤트 로그 표시:
 
-`conntrack --event --orig-src {{IP_주소}}`
+`conntrack --event --orig-src {{ip_주소}}`
 
 - 특정 소스 IP 주소에 대한 모든 흐름 삭제:
 
-`conntrack --delete --orig-src {{IP_주소}}`
+`conntrack --delete --orig-src {{ip_주소}}`
