@@ -1,8 +1,8 @@
-# visidata
+# vd
 
 > Terminal spreadsheet multitool for exploring and arranging tabular data.
 > Supports CSV, JSON, Excel, SQLite, and many other formats.
-> More information: <https://www.visidata.org>.
+> More information: <https://www.visidata.org/man/>.
 
 - Open a file for interactive exploration:
 
@@ -14,7 +14,7 @@
 
 - Convert a file to a different format:
 
-`vd {{path/to/input.csv}} -b -o {{path/to/output.json}}`
+`vd {{path/to/input.csv}} {{[-b|--batch]}} {{[-o|--output]}} {{path/to/output.json}}`
 
 - Read tabular data from `stdin`:
 
