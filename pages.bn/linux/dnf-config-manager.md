@@ -15,11 +15,11 @@
 
 - একটি নির্দিষ্ট রিপোজিটরি চালু করুন:
 
-`dnf config-manager {{[--enable|--set-enabled]}} {{রিপোজিটরি_ID}}`
+`dnf config-manager {{[--enable|--set-enabled]}} {{রিপোজিটরি_id}}`
 
 - নির্দিষ্ট রিপোজিটরিগুলি নিষ্ক্রিয় করুন:
 
-`dnf config-manager {{[--disable|--set-disabled]}} {{রিপোজিটরি_ID१ রিপোজিটরি_ID२ ...}}`
+`dnf config-manager {{[--disable|--set-disabled]}} {{রিপোজিটরি_id१ রিপোজিটরি_id२ ...}}`
 
 - একটি রিপোজিটরির জন্য একটি কনফিগারেশন অপশন সেট করুন:
 

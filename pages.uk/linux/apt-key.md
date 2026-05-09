@@ -22,4 +22,4 @@
 
 - Додати ключ із сервера ключів лише з ідентифікатором ключа:
 
-`apt-key adv --keyserver {{pgp.mit.edu}} --recv {{KEYID}}`
+`apt-key adv --keyserver {{pgp.mit.edu}} --recv {{key_id}}`
