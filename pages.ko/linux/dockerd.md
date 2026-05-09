@@ -13,7 +13,7 @@
 
 - 특정 데몬 PID 파일로 실행:
 
-`dockerd {{[-p|--pidfile]}} {{경로/대상/PID_파일}}`
+`dockerd {{[-p|--pidfile]}} {{경로/대상/pid_파일}}`
 
 - 디버그 모드로 실행:
 
