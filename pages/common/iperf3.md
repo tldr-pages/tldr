@@ -25,4 +25,4 @@
 
 - Set the duration of the test:
 
-`iperf3 {{[-c|--client]}} {{server_ip}} {{[-t|--time]}} {{seconds}}
+`iperf3 {{[-c|--client]}} {{server_ip}} {{[-t|--time]}} {{seconds}}`
