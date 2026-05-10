@@ -9,7 +9,7 @@
 
 - Adjust sampling rate:
 
-`samply record --rate {{rate in Hz}} {{./yourcommand yourargs}} `
+`samply record --rate {{rate in Hz}} {{./yourcommand yourargs}}`
 
 - Record a profile to a file without opening the browser:
 
