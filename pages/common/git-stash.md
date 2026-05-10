@@ -3,9 +3,9 @@
 > Stash local Git changes in a temporary area.
 > More information: <https://git-scm.com/docs/git-stash>.
 
-- Stash current changes with a message, except new (untracked) files:
+- Stash the current uncommitted changes:
 
-`git stash push {{[-m|--message]}} {{stash_message}}`
+`git stash`
 
 - Stash current changes, including new untracked files:
 
@@ -15,22 +15,22 @@
 
 `git stash {{[-p|--patch]}}`
 
-- List all stashes (shows stash name, related branch and message):
+- List all stashes:
 
 `git stash list`
 
-- Show the changes as a patch between the stash (default is `stash@{0}`) and the commit back when stash entry was first created:
+- Show the changes as a patch between the stash and the commit back when stash entry was first created:
 
-`git stash show {{[-p|--patch]}} {{stash@{0}}}`
+`git stash show {{[-p|--patch]}}}`
 
-- Apply a stash (default is the latest, named `stash@{0}`):
+- Apply a stash and remove it from the stash list if applying doesn't cause conflicts:
 
-`git stash apply {{optional_stash_name_or_commit}}`
+`git stash pop`
 
-- Drop or apply a stash (default is `stash@{0}`) and remove it from the stash list if applying doesn't cause conflicts:
+- Delete the latest stash:
 
-`git stash pop {{optional_stash_name}}`
+`git stash drop`
 
-- Drop all stashes:
+- Delete all stashes:
 
 `git stash clear`
