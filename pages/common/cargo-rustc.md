@@ -1,6 +1,7 @@
 # cargo rustc
 
 > Compile a Rust package. Similar to `cargo build`, but you can pass extra options to the compiler.
+> See `rustc --help` for all available options.
 > See also: `rustc`.
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-rustc.html>.
 
