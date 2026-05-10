@@ -25,7 +25,7 @@
 
 - Edit the global npm configuration file in the default editor:
 
-`npm {{[c|config]}} edit`
+`npm {{[c|config]}} edit --global`
 
 - Attempt to repair invalid configuration items:
 
