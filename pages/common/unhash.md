@@ -4,23 +4,23 @@
 > See also: `hash`.
 > More information: <https://fossies.org/linux/zsh/Doc/help/unhash>.
 
-- Remove a command from the hash table:
+- Remove a [c]ommand from the hash table:
 
 `unhash {{command}}`
 
-- Unhash non-suffix aliases:
+- Unhash non-suffix [a]liases:
 
 `unhash -a {{alias}}`
 
-- Unhash suffix aliases:
+- Unhash [s]uffix aliases:
 
 `unhash -s {{alias}}`
 
-- Unhash shell functions:
+- Unhash shell [f]unctions:
 
 `unhash -f {{function}}`
 
-- Unhash directories:
+- Unhash [d]irectories:
 
 `unhash -d {{directory}}`
 
