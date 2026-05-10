@@ -24,6 +24,6 @@
 
 `unhash -d {{directory}}`
 
-- Unhash every function that matches a pattern:
+- Unhash every function that [m]atches a pattern:
 
 `unhash -f -m "{{git*}}"`
