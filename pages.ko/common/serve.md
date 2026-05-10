@@ -13,11 +13,11 @@
 
 - 모든 응답에 `Access-Control-Allow-Origin: *` 헤더를 포함하여 CORS가 활성화된 HTTP 서버 시작:
 
-`serve --cors`
+`serve {{[-C|--cors]}}`
 
 - 모든 찾을 수 없는 요청을 `index.html` 파일로 리다이렉트하는 기본 포트의 HTTP 서버 시작:
 
-`serve --single`
+`serve {{[-s|--single]}}`
 
 - 지정된 인증서를 사용하여 기본 포트에서 HTTPS 서버 시작:
 
@@ -25,7 +25,7 @@
 
 - 특정 구성 파일을 사용하여 기본 포트에서 HTTP 서버 시작:
 
-`serve --config {{경로/대상/서버.json}}`
+`serve {{[-c|--config]}} {{경로/대상/서버.json}}`
 
 - 도움말 표시:
 

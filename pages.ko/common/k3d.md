@@ -17,7 +17,7 @@
 
 - Docker에서 k3d 클러스터로 이미지 가져오기:
 
-`k3d image import {{이미지_이름}} --cluster {{클러스터_이름}}`
+`k3d image import {{이미지_이름}} {{[-c|--cluster]}} {{클러스터_이름}}`
 
 - 새로운 레지스트리 생성:
 
