@@ -2,7 +2,7 @@
 
 > Remove some cached element from an internal hash table.
 > See also: `hash`.
-> More information: <https://fossies.org/linux/zsh/Doc/help/unhash>.
+> More information: <https://zsh.sourceforge.io/Doc/Release/Shell-Builtin-Commands.html>.
 
 - Remove a [c]ommand from the hash table:
 
