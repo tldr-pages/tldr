@@ -1,6 +1,6 @@
 # unhash
 
-> Remove some cached element from an internal hash table.
+> Remove hashed executable locations.
 > See also: `hash`.
 > More information: <https://zsh.sourceforge.io/Doc/Release/Shell-Builtin-Commands.html>.
 
