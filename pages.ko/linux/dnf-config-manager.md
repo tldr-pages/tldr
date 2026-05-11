@@ -14,11 +14,11 @@
 
 - 특정 저장소 활성화:
 
-`dnf config-manager --set-enabled {{저장소_ID}}`
+`dnf config-manager --set-enabled {{저장소_id}}`
 
 - 지정된 저장소 비활성화:
 
-`dnf config-manager --set-disabled {{저장소_ID1 저장소_ID2 ...}}`
+`dnf config-manager --set-disabled {{저장소_id1 저장소_id2 ...}}`
 
 - 저장소에 대한 구성 옵션 설정:
 
