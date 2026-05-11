@@ -26,4 +26,4 @@
 
 - Unhash every function that [m]atches a pattern:
 
-`unhash -f -m "{{git*}}"`
+`unhash -f -m "{{pattern}}"`
