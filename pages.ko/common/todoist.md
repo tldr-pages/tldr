@@ -9,7 +9,7 @@
 
 - 라벨, 프로젝트 및 기한이 있는 높은 우선순위 작업 추가:
 
-`todoist {{[a|add]}} "{{작업_이름}}" --priority {{1}} --label-ids "{{라벨_ID}}" --project-name "{{프로젝트_이름}}" --date "{{tmr 9am}}"`
+`todoist {{[a|add]}} "{{작업_이름}}" --priority {{1}} --label-ids "{{라벨_id}}" --project-name "{{프로젝트_이름}}" --date "{{tmr 9am}}"`
 
 - 빠른 모드로 라벨, 프로젝트 및 기한이 있는 높은 우선순위 작업 추가:
 

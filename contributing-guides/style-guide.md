@@ -414,7 +414,7 @@ Keep the following guidelines in mind when choosing placeholders:
 
 - Use short but descriptive placeholders,
   such as `{{path/to/source_file}}` or `{{path/to/wallet.txt}}`.
-- Use [`snake_case`](https://wikipedia.org/wiki/snake_case) for multi-word placeholders.
+- Use [`snake_case`](https://wikipedia.org/wiki/snake_case) for multi-word placeholders unless absolutely necessary for clarity like with `Mb` and `MB`.
 
 #### Paths
 

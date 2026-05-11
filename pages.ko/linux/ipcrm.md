@@ -5,7 +5,7 @@
 
 - ID로 공유 메모리 세그먼트 삭제:
 
-`ipcrm {{[-m|--shmem-id]}} {{공유_메모리_ID}}`
+`ipcrm {{[-m|--shmem-id]}} {{공유_메모리_id}}`
 
 - 키로 공유 메모리 세그먼트 삭제:
 
@@ -13,7 +13,7 @@
 
 - ID로 IPC 큐 삭제:
 
-`ipcrm {{[-q|--queue-id]}} {{IPC_큐_ID}}`
+`ipcrm {{[-q|--queue-id]}} {{IPC_큐_id}}`
 
 - 키로 IPC 큐 삭제:
 
@@ -21,7 +21,7 @@
 
 - ID로 세마포어 삭제:
 
-`ipcrm {{[-s|--semaphore-id]}} {{세마포어_ID}}`
+`ipcrm {{[-s|--semaphore-id]}} {{세마포어_id}}`
 
 - 키로 세마포어 삭제:
 

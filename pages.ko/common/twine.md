@@ -17,7 +17,7 @@
 
 - 대체 저장소 URL로 업로드:
 
-`twine upload --repository-url {{저장소_URL}} dist/*`
+`twine upload --repository-url {{저장소_url}} dist/*`
 
 - 배포의 긴 설명이 PyPI에서 올바르게 렌더링되는지 확인:
 
