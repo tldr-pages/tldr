@@ -15,7 +15,7 @@
 
 `sudo dnf {{[in|install]}} {{https://example.com/package.rpm}}`
 
-- Add the fedora non-free packages repository:
+- Add the Fedora non-free packages repository:
 
 `sudo dnf {{[in|install]}} https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm`
 
