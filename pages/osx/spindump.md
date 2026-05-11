@@ -8,9 +8,9 @@
 
 `sudo spindump`
 
-- Prioritize specified process in output with optional sampling duration and sample interval:
+- Sort a specific process topmost for a custom duration and interval:
 
-`sudo spindump {{pid|partial_name}} {{sampling_duration_seconds}} {{sampling_interval_milliseconds}}`
+`sudo spindump {{pid|partial_name}} {{duration_seconds}} {{interval_milliseconds}}`
 
 - Write output to a specific file:
 
