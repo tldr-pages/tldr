@@ -1,7 +1,7 @@
 # biome
 
 > 웹 프로젝트의 코드 포맷팅, 린트 및 코드 품질 검사를 위한 툴체인.
-> 더 많은 정보 : <https://biomejs.dev/reference/cli/>.
+> 더 많은 정보: <https://biomejs.dev/reference/cli/>.
 
 - 현재 디렉토리에 새로운 Biome 설정 파일 초기화:
 
