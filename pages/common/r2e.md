@@ -1,7 +1,7 @@
 # r2e
 
-> Forwards RSS feeds to an email address.
-> Requires a configured `sendmail` or smtp setup.
+> Forward RSS feeds to an email address.
+> Requires a configured `sendmail` or SMTP setup.
 > More information: <https://manned.org/r2e>.
 
 - Create a new feed database that sends email to an email address:

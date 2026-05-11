@@ -9,7 +9,7 @@
 
 - Genera una traducción corta:
 
-`trans --brief "{{palabra_u_oración_a_traducir}}"`
+`trans {{[-b|-brief]}} "{{palabra_u_oración_a_traducir}}"`
 
 - Traduce una palabra al español:
 
@@ -21,4 +21,4 @@
 
 - Se comporta como un diccionario para obtener el significado de una palabra:
 
-`trans -d {{palabra}}`
+`trans {{[-d|-dictionary]}} {{palabra}}`

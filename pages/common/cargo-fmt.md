@@ -1,6 +1,7 @@
 # cargo fmt
 
 > Run `rustfmt` on all source files in a Rust project.
+> See also: `rustfmt`.
 > More information: <https://github.com/rust-lang/rustfmt>.
 
 - Format all source files:

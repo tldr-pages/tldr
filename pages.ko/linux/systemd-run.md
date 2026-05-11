@@ -29,7 +29,7 @@
 
 - 프로세스의 속성 (예: CPUQuota, MemoryMax)을 설정하고 종료될 때까지 대기:
 
-`systemd-run --property MemoryMax={{메모리_바이트}} --property CPUQuota={{CPU_시간_비율}}% --wait {{명령어}}`
+`systemd-run --property MemoryMax={{메모리_바이트}} --property CPUQuota={{cpu_시간_비율}}% --wait {{명령어}}`
 
 - 셸 파이프라인에서 프로그램 사용:
 
