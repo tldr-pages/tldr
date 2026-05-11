@@ -9,7 +9,7 @@
 
 - 파이프 사이의 데이터 흐름 속도와 양을 측정 (`--size`는 선택적):
 
-`command1 | pv --size {{ETA_예상_데이터_양}} | command2`
+`command1 | pv --size {{eta_예상_데이터_양}} | command2`
 
 - 파일을 필터링하고 진행 상황과 출력 데이터 양을 확인:
 

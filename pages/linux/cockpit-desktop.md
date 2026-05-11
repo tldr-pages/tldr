@@ -6,7 +6,7 @@
 
 - Open a page:
 
-`cockpit-desktop {{url}} {{SSH_host}}`
+`cockpit-desktop {{url}} {{ssh_host}}`
 
 - Open storage page:
 
