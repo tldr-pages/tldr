@@ -17,11 +17,11 @@
 
 - Twitter에 미디어 업로드:
 
-`twurl -H "{{트위터_업로드_URL}}" -X POST "{{트위터_업로드_엔드포인트}}" --file "{{경로/대상/미디어.jpg}}" --file-field "media"`
+`twurl -H "{{트위터_업로드_url}}" -X POST "{{트위터_업로드_엔드포인트}}" --file "{{경로/대상/미디어.jpg}}" --file-field "media"`
 
 - 다른 Twitter API 호스트에 접근:
 
-`twurl -H {{트위터_API_URL}} -X GET {{트위터_API_엔드포인트}}`
+`twurl -H {{트위터_API_url}} -X GET {{트위터_API_엔드포인트}}`
 
 - 요청한 리소스에 대한 별칭 생성:
 

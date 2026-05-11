@@ -29,7 +29,7 @@
 
 - Set properties (e.g. CPUQuota, MemoryMax) of the process and wait until it exits:
 
-`systemd-run {{[-p|--property]}} MemoryMax={{memory_in_bytes}} {{[-p|--property]}} CPUQuota={{percentage_of_CPU_time}}% --wait {{command}}`
+`systemd-run {{[-p|--property]}} MemoryMax={{memory_in_bytes}} {{[-p|--property]}} CPUQuota={{percentage_of_cpu_time}}% --wait {{command}}`
 
 - Use the program in a shell pipeline:
 

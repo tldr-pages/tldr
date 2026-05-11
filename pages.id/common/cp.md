@@ -31,6 +31,6 @@
 
 `cp {{[-L|--dereference]}} {{tautan}} {{jalan/menuju/direktori_tujuan}}`
 
-- Gunakan argumen pertama sebagai direktori tujuan (berguna untuk perintah seperti `xargs ... | cp -t <DIR_TUJUAN>`):
+- Gunakan argumen pertama sebagai direktori tujuan (berguna untuk perintah seperti `xargs ... | cp -t destination_directory`):
 
 `cp {{[-t|--target-directory]}} {{path/to/direktori_tujuan}} {{jalan/menuju/berkas_atau_direktori1 jalan/menuju/berkas_atau_direktori2 ...}}`

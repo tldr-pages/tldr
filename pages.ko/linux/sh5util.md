@@ -5,12 +5,12 @@
 
 - 지정된 작업 또는 단계에 대해 각 할당된 노드에서 생성된 HDF5 파일 병합:
 
-`sh5util --jobs={{작업_ID|작업_ID.단계_ID}}`
+`sh5util --jobs={{작업_id|작업_id.단계_id}}`
 
 - 병합된 작업 파일에서 하나 이상의 데이터 시리즈 추출:
 
-`sh5util --jobs={{작업_ID|작업_ID.단계_ID}} --extract -i {{경로/대상/파일.h5}} --series={{Energy|Filesystem|Network|Task}}`
+`sh5util --jobs={{작업_id|작업_id.단계_id}} --extract -i {{경로/대상/파일.h5}} --series={{Energy|Filesystem|Network|Task}}`
 
 - 병합된 작업 파일에서 모든 노드의 하나의 데이터 항목 추출:
 
-`sh5util --jobs={{작업_ID|작업_ID.단계_ID}} --item-extract --series={{Energy|Filesystem|Network|Task}} --data={{데이터_항목}}`
+`sh5util --jobs={{작업_id|작업_id.단계_id}} --item-extract --series={{Energy|Filesystem|Network|Task}} --data={{데이터_항목}}`

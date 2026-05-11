@@ -5,16 +5,16 @@
 
 - 在非 GUI 模式下运行指定的测试计划：
 
-`jmeter --nongui --testfile {{路径/到/文件.jmx}}`
+`jmeter {{[-n|--nongui]}} {{[-t|--testfile]}} {{路径/到/文件.jmx}}`
 
 - 在非 GUI 模式下使用指定的日志文件运行测试计划：
 
-`jmeter --nogui --testfile {{路径/到/文件.jmx}} --logfile {{路径/到/日志文件.jtl}}`
+`jmeter {{[-n|--nongui]}} {{[-t|--testfile]}} {{路径/到/文件.jmx}} {{[-l|--logfile]}} {{路径/到/日志文件.jtl}}`
 
 - 在非 GUI 模式下使用指定代理运行测试计划：
 
-`jmeter --nongui --testfile {{路径/到/文件.jmx}} --proxyHost {{127.0.0.1}} --proxyPort {{8888}}`
+`jmeter {{[-n|--nongui]}} {{[-t|--testfile]}} {{路径/到/文件.jmx}} {{[-H-|--proxyHost]}} {{127.0.0.1}} {{[-P|--proxyPort]}} {{8888}}`
 
 - 在非 GUI 模式下使用指定的 JMeter 属性运行测试计划：
 
-`jmeter --jmeterproperty {{键}}='{{值}}' --nongui --testfile {{路径/到/文件.jmx}}`
+`jmeter {{[-n|--nongui]}} {{[-t|--testfile]}} {{路径/到/文件.jmx}} {{[-J|--jmeterproperty]}} {{键}}='{{值}}'`

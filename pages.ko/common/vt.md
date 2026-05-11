@@ -14,11 +14,11 @@
 
 - 특정 분석에 대한 정보 표시:
 
-`vt analysis {{파일_ID|분석_ID}}`
+`vt analysis {{파일_id|분석_id}}`
 
 - 암호화된 Zip 형식으로 파일 다운로드 (프리미엄 계정 필요):
 
-`vt download {{파일_ID}} --output {{경로/대상/폴더}} --zip --zip-password {{비밀번호}}`
+`vt download {{파일_id}} --output {{경로/대상/폴더}} --zip --zip-password {{비밀번호}}`
 
 - `vt`를 초기화하거나 재초기화하여 API 키를 대화식으로 입력:
 

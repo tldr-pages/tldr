@@ -35,4 +35,4 @@
 
 - Scarica tutti gli URL contenuti in un file di testo in una directory specificata:
 
-`wget {{[-P|--directory-prefix]}} {{percorso/della/directory}} {{[-i|--input-file]}} {{lista_di_URL.txt}}`
+`wget {{[-P|--directory-prefix]}} {{percorso/della/directory}} {{[-i|--input-file]}} {{lista_di_url.txt}}`
