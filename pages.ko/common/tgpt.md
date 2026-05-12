@@ -30,7 +30,7 @@
 
 - API 키, 모델, 최대 응답 길이, 온도, `top_p`를 사용하여 프롬프트( `openai` 공급자를 사용할 때 필요):
 
-`tgpt --provider openai --key "{{API_키}}" --model "{{gpt-3.5-turbo}}" --max-length {{10}} --temperature {{0.7}} --top_p {{0.9}} "{{프롬프트}}"`
+`tgpt --provider openai --key "{{api_키}}" --model "{{gpt-3.5-turbo}}" --max-length {{10}} --temperature {{0.7}} --top_p {{0.9}} "{{프롬프트}}"`
 
 - 추가 사전 프롬프트 입력으로 파일 삽입:
 
