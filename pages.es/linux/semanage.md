@@ -20,7 +20,7 @@
 
 `sudo semanage permissive {{--add|--delete}} {{httpd_t}}`
 
-- Mostrar las personalizaciones locales en el almacén predeterminado:
+- Muestra las personalizaciones locales en el almacén predeterminado:
 
 `sudo semanage export {{[-f|--output_file]}} {{ruta/al/archivo}}`
 
