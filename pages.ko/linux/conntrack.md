@@ -6,20 +6,20 @@
 
 - 현재 추적 중인 모든 연결 나열:
 
-`conntrack --dump`
+`conntrack {{[-L|--dump]}}`
 
 - 연결 변경 사항의 실시간 이벤트 로그 표시:
 
-`conntrack --event`
+`conntrack {{[-E|--event]}}`
 
 - 연결 변경 사항 및 관련 타임스탬프의 실시간 이벤트 로그 표시:
 
-`conntrack --event -o timestamp`
+`conntrack {{[-E|--event]}} {{[-o|--output]}} timestamp`
 
 - 특정 IP 주소에 대한 연결 변경 사항의 실시간 이벤트 로그 표시:
 
-`conntrack --event --orig-src {{ip_주소}}`
+`conntrack {{[-E|--event]}} {{[-s|--orig-src]}} {{ip_주소}}`
 
 - 특정 소스 IP 주소에 대한 모든 흐름 삭제:
 
-`conntrack --delete --orig-src {{ip_주소}}`
+`conntrack {{[-D|--delete]}} {{[-s|--orig-src]}} {{ip_주소}}`
