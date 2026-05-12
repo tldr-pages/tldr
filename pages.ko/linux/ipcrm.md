@@ -13,11 +13,11 @@
 
 - ID로 IPC 큐 삭제:
 
-`ipcrm {{[-q|--queue-id]}} {{IPC_큐_id}}`
+`ipcrm {{[-q|--queue-id]}} {{ipc_큐_id}}`
 
 - 키로 IPC 큐 삭제:
 
-`ipcrm {{[-Q|--queue-key]}} {{IPC_큐_키}}`
+`ipcrm {{[-Q|--queue-key]}} {{ipc_큐_키}}`
 
 - ID로 세마포어 삭제:
 

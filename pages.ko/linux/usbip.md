@@ -21,7 +21,7 @@
 
 - 클라이언트에서 `usbip` 장치에 연결(버스 ID는 서버와 동일합니다):
 
-`sudo usbip attach -r {{IP_주소}} --busid {{버스_id}}`
+`sudo usbip attach -r {{ip_주소}} --busid {{버스_id}}`
 
 - 연결된 장치 나열:
 
