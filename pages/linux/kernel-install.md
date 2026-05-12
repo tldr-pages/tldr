@@ -3,7 +3,7 @@
 > Add and remove kernel and initrd images to and from `/boot`.
 > More information: <https://www.freedesktop.org/software/systemd/man/latest/kernel-install.html>.
 
-- Show the current kernel configuration that have been configured or auto-detected:
+- Show the current kernel configuration that has been configured or auto-detected:
 
 `kernel-install`
 
