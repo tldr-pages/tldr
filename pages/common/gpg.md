@@ -28,9 +28,9 @@
 
 `gpg {{[-d|--decrypt]}} {{doc.txt.gpg}}`
 
-- Import a public key:
+- Import a public key from a source:
 
-`gpg --import {{public.gpg}}`
+`gpg --locate-keys {{user}}@{{example.org}}`
 
 - Export the public/private key for `alice@example.com` (output to `stdout`):
 
