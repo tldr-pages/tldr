@@ -12,6 +12,10 @@
 
 `bootctl list`
 
+- Set a boot entry as the default to boot to:
+
+`sudo bootctl set-default {{entry-id}}`
+
 - Set a flag to boot into the system firmware on the next boot (similar to `sudo systemctl reboot --firmware-setup`):
 
 `sudo bootctl reboot-to-firmware true`
