@@ -28,7 +28,7 @@
 
 `gpg {{[-d|--decrypt]}} {{doc.txt.gpg}}`
 
-- Import a public key from WKD (Web Key Directory):
+- Import a public key from WKD (Web Key Directory) if the key isn't already in the keyring:
 
 `gpg --locate-keys {{user}}@{{example.org}}`
 
