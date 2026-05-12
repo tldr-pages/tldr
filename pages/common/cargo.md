@@ -28,7 +28,7 @@
 
 `cargo {{[b|build]}} {{[-r|--release]}}`
 
-- Run the built binary (will build it if it's not already built:
+- Run the built binary (will build it if it's not already built):
 
 `cargo {{[r|run]}}`
 
