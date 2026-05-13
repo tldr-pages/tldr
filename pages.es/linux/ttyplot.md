@@ -5,11 +5,11 @@
 
 - Muestra los valores `1`, `2` y `3` (`cat` evita que ttyplot salga):
 
-`{ echo {{1 2 3}}; cat } | ttyplot`
+`{ echo {{1 2 3}}; cat; } | ttyplot`
 
 - Establece un título específico y unidad:
 
-`{ echo {{1 2 3}}; cat } | ttyplot -t {{título}} -u {{unidad}}`
+`{ echo {{1 2 3}}; cat; } | ttyplot -t {{título}} -u {{unidad}}`
 
 - Utiliza un bucle de tiempo para trazar continuamente valores aleatorios:
 

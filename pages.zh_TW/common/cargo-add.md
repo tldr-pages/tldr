@@ -1,6 +1,6 @@
 # cargo add
 
-> 向 Rust 專案的 `Cargo.toml` 檔案新增相依項。
+> 向 Rust 專案的 `Cargo.toml` 清單新增相依項。
 > 更多資訊：<https://doc.rust-lang.org/cargo/commands/cargo-add.html>。
 
 - 將最新版本的相依項新增到目前專案：

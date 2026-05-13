@@ -17,11 +17,11 @@
 
 - 특정 백업 스냅샷을 대상 디렉터리에 복원:
 
-`restic {{[-r|--repo]}} {{경로/대상/저장소}} restore {{latest|스냅샷_ID}} --target {{경로/대상/타겟}}`
+`restic {{[-r|--repo]}} {{경로/대상/저장소}} restore {{latest|스냅샷_id}} --target {{경로/대상/타겟}}`
 
 - 특정 백업의 특정 경로를 대상 디렉터리에 복원:
 
-`restic {{[-r|--repo]}} {{경로/대상/저장소}} restore {{스냅샷_ID}} --target {{경로/대상/타겟}} --include {{경로/대상/복원}}`
+`restic {{[-r|--repo]}} {{경로/대상/저장소}} restore {{스냅샷_id}} --target {{경로/대상/타겟}} --include {{경로/대상/복원}}`
 
 - 저장소를 정리하고 각 고유 백업의 최신 스냅샷만 유지:
 
