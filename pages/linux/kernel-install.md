@@ -19,6 +19,6 @@
 
 `sudo kernel-install add {{kernel_version}} {{path/to/kernel_image}} {{path/to/initrd1 path/to/initrd2 ...}}`
 
-- Remove kernel from the bootloader partition:
+- Remove a kernel from the bootloader partition:
 
-`sudo kernel-install remove {{kernel-version}}`
+`sudo kernel-install remove {{kernel_version}}`
