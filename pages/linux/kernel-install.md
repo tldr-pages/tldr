@@ -17,7 +17,7 @@
 
 - Add kernel and initramfs images to bootloader partition:
 
-`sudo kernel-install add {{kernel-version}} {{path/to/kernel-image}} {{path/to/initrd-file ...}}`
+`sudo kernel-install add {{kernel_version}} {{path/to/kernel_image}} {{path/to/initrd1 path/to/initrd2 ...}}`
 
 - Remove kernel from the bootloader partition:
 
