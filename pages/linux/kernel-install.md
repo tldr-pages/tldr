@@ -9,13 +9,13 @@
 
 - Show configuration for a specific kernel:
 
-`kernel-install inspect {{path/to/kernel-image}}`
+`kernel-install inspect {{path/to/kernel_image}}`
 
 - Add a kernel to bootloader partition:
 
-`sudo kernel-install add {{kernel-version}} {{path/to/kernel-image}}`
+`sudo kernel-install add {{kernel_version}} {{path/to/kernel_image}}`
 
-- Add kernel and initramfs images to bootloader partition:
+- Add a kernel and initramfs images to the bootloader partition:
 
 `sudo kernel-install add {{kernel_version}} {{path/to/kernel_image}} {{path/to/initrd1 path/to/initrd2 ...}}`
 
