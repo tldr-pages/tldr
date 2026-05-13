@@ -1,6 +1,7 @@
 # apt list
 
 > List packages.
+> Note: Recommended to run `apt update` first to refresh local package index files.
 > More information: <https://manned.org/apt.8>.
 
 - List all available packages:
