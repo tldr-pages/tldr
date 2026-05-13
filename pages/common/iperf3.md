@@ -19,7 +19,7 @@
 
 `iperf3 {{[-c|--client]}} {{server_ip}} {{[-P|--parallel]}} {{streams}}`
 
-- Reverse direction of the test. Server sends data to the client:
+- Run the test in reverse direction (server sends data to client):
 
 `iperf3 {{[-c|--client]}} {{server_ip}} {{[-R|--reverse]}}`
 
