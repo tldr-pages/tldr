@@ -12,7 +12,7 @@
 
 `tuptime --table`
 
-- Enumerate system life as a list:
+- Show system lifetime as list:
 
 `tuptime --list`
 
