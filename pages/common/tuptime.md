@@ -20,7 +20,7 @@
 
 `tuptime --table --kernel --bootid`
 
-- Limit the report to a range of startup numbers:
+- Report from startup range:
 
 `tuptime --table --since {{first_startup}} --until {{last_startup}}`
 
