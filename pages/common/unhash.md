@@ -4,7 +4,7 @@
 > See also: `hash`.
 > More information: <https://zsh.sourceforge.io/Doc/Release/Shell-Builtin-Commands.html>.
 
-- Remove a [c]ommand from the hash table:
+- Remove a specific command from the hash table:
 
 `unhash {{command}}`
 
