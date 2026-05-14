@@ -8,7 +8,7 @@
 
 `tuptime`
 
-- Enumerate system life as a table:
+- Show system lifetime as table:
 
 `tuptime --table`
 
