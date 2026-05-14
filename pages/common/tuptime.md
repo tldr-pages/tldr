@@ -22,7 +22,7 @@
 
 - Report from startup range:
 
-`tuptime --table --since {{first_startup}} --until {{last_startup}}`
+`tuptime --table --since {{1}} --until {{5}}`
 
 - Limit the report from a given number of seconds ago (e.g. one year = 31557600):
 
