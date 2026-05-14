@@ -35,3 +35,7 @@
 - Clean cached data:
 
 `sudo dnf clean {{all|dbcache|expire-cache|metadata|packages}}`
+
+- List file paths included in a package:
+
+`dnf repoquery -l`
