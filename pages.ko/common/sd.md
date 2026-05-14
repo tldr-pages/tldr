@@ -17,4 +17,4 @@
 
 - 현재 프로젝트의 모든 파일에서 찾기 및 바꾸기 (출력 스트림: `stdout`):
 
-`sd {{'from "react"'}} {{'from "preact"'}} "$(find . -type f)"`
+`find . -type f -exec sd {{'from "react"'}} {{'from "preact"'}} {} \;`
