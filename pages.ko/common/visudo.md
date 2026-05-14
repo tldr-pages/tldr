@@ -9,7 +9,7 @@
 
 - sudoers 파일 오류 검사:
 
-`sudo visudo -c`
+`sudo visudo {{[-c|--check]}}`
 
 - 특정 편집기를 사용하여 sudoers 파일 편집:
 
@@ -17,4 +17,4 @@
 
 - 버전 정보 표시:
 
-`visudo --version`
+`visudo {{[-V|--version]}}`

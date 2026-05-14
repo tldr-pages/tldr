@@ -13,7 +13,7 @@
 
 - 지정된 사용자의 크론탭 [e]편집:
 
-`scrontab --user={{사용자_ID}} -e`
+`scrontab --user={{사용자_id}} -e`
 
 - 현재 크론탭 [r]제거:
 

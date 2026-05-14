@@ -10,7 +10,7 @@
 
 - 지정된 작업이 종료될 때 지정된 프로그램을 실행:
 
-`strigger --set --jobid={{작업_ID}} --fini --program="{{경로/대상/실행파일}} {{인수1 인수2 ...}}"`
+`strigger --set --jobid={{작업_id}} --fini --program="{{경로/대상/실행파일}} {{인수1 인수2 ...}}"`
 
 - 활성 트리거 보기:
 
@@ -18,8 +18,8 @@
 
 - 지정된 작업과 관련된 활성 트리거 보기:
 
-`strigger --get --jobid={{작업_ID}}`
+`strigger --get --jobid={{작업_id}}`
 
 - 지정된 트리거 삭제:
 
-`strigger --clear {{트리거_ID}}`
+`strigger --clear {{트리거_id}}`

@@ -30,4 +30,4 @@
 
 - 특정 `speedtest.net` 서버로 속도 테스트 실행:
 
-`speedtest --server-id={{서버_ID}}`
+`speedtest --server-id={{서버_id}}`

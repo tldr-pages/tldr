@@ -9,7 +9,7 @@
 
 - Connexion à un serveur FTP en spécifiant son adresse IP et son port :
 
-`ftp {{adresse_IP}} {{port}}`
+`ftp {{adresse_ip}} {{port}}`
 
 - Passe en mode de transfert binaire (médias, fichiers compressés, etc) :
 

@@ -9,7 +9,7 @@
 
 - 기존 Railway 계정 또는 팀의 프로젝트에 연결:
 
-`railway link {{프로젝트_ID}}`
+`railway link {{프로젝트_id}}`
 
 - 새 프로젝트 생성:
 

@@ -9,11 +9,11 @@
 
 - 自定义提示符：
 
-`virtualenv --prompt={{prompt_prefix}} {{path/to/venv}}`
+`virtualenv --prompt {{prompt_prefix}} {{path/to/venv}}`
 
 - 为虚拟环境使用不同的 Python 版本：
 
-`virtualenv --python={{path/to/pythonbin}} {{path/to/venv}}`
+`virtualenv {{[-p|--python]}} {{path/to/pythonbin}} {{path/to/venv}}`
 
 - 启动（选择）环境：
 
