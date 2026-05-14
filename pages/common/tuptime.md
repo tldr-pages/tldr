@@ -26,7 +26,7 @@
 
 - Limit the report from a given number of seconds ago (e.g. one year = 31557600):
 
-`tuptime --tsince -{{seconds}}`
+`tuptime --tsince -{{31557600}}`
 
 - Output time in seconds and datetimes in epoch format:
 
