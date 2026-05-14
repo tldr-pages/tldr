@@ -16,7 +16,7 @@
 
 `tuptime --list`
 
-- Show table with kernel version and boot identifier columns:
+- Show table with kernel version and boot ID:
 
 `tuptime --table --kernel --bootid`
 
