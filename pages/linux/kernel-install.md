@@ -7,7 +7,7 @@
 
 `kernel-install`
 
-- Show configuration for a specific kernel:
+- Show the configuration for a specific kernel image:
 
 `kernel-install inspect {{path/to/kernel_image}}`
 
