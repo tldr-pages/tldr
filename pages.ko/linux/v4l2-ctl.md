@@ -6,7 +6,7 @@
 
 - 모든 비디오 장치 나열:
 
-`v4l2-ctl --list-devices`
+`v4l2-ctl {{[-A|--list-devices]}}`
 
 - 기본 비디오 장치 `/dev/video0`의 지원 비디오 포맷과 해상도 나열:
 

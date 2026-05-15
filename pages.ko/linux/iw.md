@@ -6,19 +6,19 @@
 
 - 사용 가능한 무선 네트워크 스캔:
 
-`iw dev {{wlp}} scan`
+`iw dev {{wlanX}} scan`
 
 - 오픈된 무선 네트워크에 연결:
 
-`iw dev {{wlp}} connect {{SSID}}`
+`iw dev {{wlanX}} connect {{SSID}}`
 
 - 현재 연결 종료:
 
-`iw dev {{wlp}} disconnect`
+`iw dev {{wlanX}} disconnect`
 
 - 현재 연결 정보 표시:
 
-`iw dev {{wlp}} link`
+`iw dev {{wlanX}} link`
 
 - 모든 물리적 및 논리적 무선 네트워크 인터페이스 나열:
 
