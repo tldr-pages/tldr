@@ -11,7 +11,7 @@
 
 `kernel-install inspect {{path/to/kernel_image}}`
 
-- Add a kernel to bootloader partition:
+- Add a kernel to the bootloader partition:
 
 `sudo kernel-install add {{kernel_version}} {{path/to/kernel_image}}`
 
