@@ -6,16 +6,16 @@
 
 - 문자열을 QR 코드로 변환하여 출력 파일로 저장:
 
-`qrencode -o {{경로/대상/출력_파일.png}} {{문자열}}`
+`qrencode {{[-o|--output]}} {{경로/대상/출력_파일.png}} {{문자열}}`
 
 - 입력 파일을 QR 코드로 변환하여 출력 파일로 저장:
 
-`qrencode -o {{경로/대상/출력_파일.png}} -r {{경로/대상/입력_파일}}`
+`qrencode {{[-o|--output]}} {{경로/대상/출력_파일.png}} {{[-r|--read-from]}} {{경로/대상/입력_파일}}`
 
 - 문자열을 QR 코드로 변환하여 터미널에 출력:
 
-`qrencode -t ansiutf8 {{문자열}}`
+`qrencode {{[-t|--type]}} ansiutf8 {{문자열}}`
 
 - 파이프로부터 입력을 받아 QR 코드로 변환하여 터미널에 출력:
 
-`echo {{문자열}} | qrencode -t utf8`
+`echo {{문자열}} | qrencode {{[-t|--type]}} utf8`
