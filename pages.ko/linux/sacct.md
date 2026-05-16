@@ -13,11 +13,11 @@
 
 - 작업의 할당을 표시:
 
-`sacct --jobs {{작업_ID}} --allocations`
+`sacct --jobs {{작업_id}} --allocations`
 
 - 작업의 경과 시간, 작업 이름, 요청된 CPU 수 및 요청된 메모리를 표시:
 
-`sacct --jobs {{작업_ID}} --format=Elapsed,JobName,ReqCPUS,ReqMem`
+`sacct --jobs {{작업_id}} --format=Elapsed,JobName,ReqCPUS,ReqMem`
 
 - 1주일 전부터 현재까지 발생한 최근 작업을 표시:
 

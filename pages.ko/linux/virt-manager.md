@@ -9,7 +9,7 @@
 
 - 하이퍼바이저에 연결:
 
-`virt-manager --connect {{하이퍼바이저_URI}}`
+`virt-manager --connect {{하이퍼바이저_uri}}`
 
 - 시작 시 virt-manager 프로세스를 백그라운드로 포크하지 않음:
 

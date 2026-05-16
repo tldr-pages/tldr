@@ -14,4 +14,4 @@
 
 - 스왑 영역의 UUID 설정 (UUID는 `uuidgen`을 사용하여 생성할 수 있습니다):
 
-`swaplabel {{[-U|--uuid]}} {{새_UUID}} {{경로/대상/파일}}`
+`swaplabel {{[-U|--uuid]}} {{새_uuid}} {{경로/대상/파일}}`
