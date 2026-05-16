@@ -1,7 +1,7 @@
 # semanage
 
 > Herramienta de gestión de políticas persistentes de SELinux.
-> Algunos subcomandos, como `boolean`, `fcontext`, `port`, etc., cuentan con su propia documentación de uso.
+> Algunos subcomandos, como `boolean`, `fcontext`, `port`, etc., tienen su propia documentación de uso.
 > Más información: <https://manned.org/semanage>.
 
 - Establece o desactiva un booleano de SELinux. Los booleanos permiten al administrador personalizar cómo las reglas de política afectan a los tipos de procesos confinados (también conocidos como dominios):
