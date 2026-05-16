@@ -10,7 +10,7 @@
 
 - Añade una regla de etiquetado de contexto de archivo definida por el usuario. Los contextos de archivo definen a qué archivos pueden acceder los dominios confinados:
 
-`sudo semanage fcontext {{[-a|--add]}} {{[-t|--type]}} {{samba_share_t}} "/mnt/share(/.*)?"`
+`sudo semanage fcontext {{[-a|--add]}} {{[-t|--type]}} {{samba_share_t}} '/mnt/share(/.*)?'`
 
 - Añade una regla de etiquetado de puertos definida por el usuario. Las etiquetas de puerto definen en qué puertos se permite que los dominios confinados escuchen:
 
