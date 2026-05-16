@@ -9,7 +9,7 @@
 
 - Inoltra una porta TCP a un emulatore o dispositivo specifico (per ID dispositivo / numero seriale):
 
-`adb -s {{device_ID}} forward tcp:{{porta_locale}} tcp:{{porta_remota}}`
+`adb -s {{device_id}} forward tcp:{{porta_locale}} tcp:{{porta_remota}}`
 
 - Elenca tutti gli inoltri:
 

@@ -9,8 +9,8 @@
 
 - [h]도움말 표시:
 
-`nitch --help`
+`nitch {{[-h|--help]}}`
 
 - [v]버전 표시:
 
-`nitch --version`
+`nitch {{[-v|--version]}}`

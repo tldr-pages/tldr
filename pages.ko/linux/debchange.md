@@ -13,4 +13,4 @@
 
 - 지정된 ID의 버그를 종료하는 변경 로그 항목 추가:
 
-`debchange --closes {{버그_ID}}`
+`debchange --closes {{버그_id}}`

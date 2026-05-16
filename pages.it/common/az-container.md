@@ -6,7 +6,7 @@
 
 - Crea un contenitore in un gruppo di contenitori:
 
-`az container create {{[-g|--resource-group]}} {{gruppo_risorse}} {{[-n|--name]}} {{nome}} --image {{nome_immagine}} {{[-os|--os-type]}} {{windows|linux}} --cpu {{numero_core_CPU}} --memory {{memoria_GB}}`
+`az container create {{[-g|--resource-group]}} {{gruppo_risorse}} {{[-n|--name]}} {{nome}} --image {{nome_immagine}} {{[-os|--os-type]}} {{windows|linux}} --cpu {{numero_core_cpu}} --memory {{memoria_GB}}`
 
 - Esegue un comando da un contenitore in esecuzione di un gruppo di contenitori:
 

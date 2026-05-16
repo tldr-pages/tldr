@@ -15,7 +15,7 @@
 
 - 지정한 IP 주소의 도메인 검색:
 
-`resolvectl query {{IP_주소}}`
+`resolvectl query {{ip_주소}}`
 
 - 모든 로컬 DNS 캐시 플러시:
 

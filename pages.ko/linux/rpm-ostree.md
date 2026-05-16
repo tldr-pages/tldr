@@ -14,12 +14,12 @@
 
 - 패키지를 업그레이드하고 새로운 ostree 배포 준비 후 재부팅:
 
-`rpm-ostree upgrade --reboot`
+`rpm-ostree upgrade {{[-r|--reboot]}}`
 
 - 이전 ostree 배포로 재부팅:
 
-`rpm-ostree rollback --reboot`
+`rpm-ostree rollback {{[-r|--reboot]}}`
 
 - 새 ostree 배포에 패키지를 설치하고 그곳으로 재부팅:
 
-`rpm-ostree install {{패키지}} --reboot`
+`rpm-ostree install {{패키지}} {{[-r|--reboot]}}`

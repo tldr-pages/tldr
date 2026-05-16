@@ -6,19 +6,19 @@
 
 - Busca redes inalámbricas disponibles:
 
-`iw dev {{wlp}} scan`
+`iw dev {{wlanX}} scan`
 
 - Se conecta a una red inalámbrica abierta:
 
-`iw dev {{wlp}} connect {{SSID}}`
+`iw dev {{wlanX}} connect {{SSID}}`
 
 - Cierra la conexión actual:
 
-`iw dev {{wlp}} disconnect`
+`iw dev {{wlanX}} disconnect`
 
 - Muestra información sobre la conexión actual:
 
-`iw dev {{wlp}} link`
+`iw dev {{wlanX}} link`
 
 - Muestra todas las interfaces de red inalámbricas físicas y lógicas:
 

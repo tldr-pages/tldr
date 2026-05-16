@@ -9,7 +9,7 @@
 
 - Mostra i log mandati a `syslog` da processi con un PID specifico:
 
-`log stream --process {{ID_processo}}`
+`log stream --process {{id_processo}}`
 
 - Mostra i log mandati a `syslog` da processi con un nome specifico:
 
