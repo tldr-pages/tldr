@@ -11,11 +11,11 @@
 
 - Warn about a documentation lint:
 
-`cargo rustdoc -- --warn rustdoc::{{lint_name}}`
+`cargo rustdoc -- {{[-W|--warn]}} rustdoc::{{lint_name}}`
 
 - Ignore a documentation lint:
 
-`cargo rustdoc -- --allow rustdoc::{{lint_name}}`
+`cargo rustdoc -- {{[-A|--allow]}} rustdoc::{{lint_name}}`
 
 - Document the package's library:
 
