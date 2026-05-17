@@ -30,3 +30,19 @@
 - List all the tasks:
 
 `gradle tasks --all`
+
+- Build a project using the Gradle wrapper:
+
+`./gradlew build`
+
+- Clean the build directory using the Gradle wrapper:
+
+`./gradlew clean`
+
+- Create a JAR file using the Gradle wrapper:
+
+`./gradlew jar`
+
+- List the main tasks using the Gradle wrapper:
+
+`./gradlew tasks`
