@@ -1,7 +1,7 @@
 # cargo rustdoc
 
 > Build the documentation of Rust packages.
-> Similar to `cargo doc`, but you can pass options to `rustdoc`.
+> Similar to `cargo doc`, but you can pass options to `rustdoc`. See `rustdoc --help` for all available options.
 > See also: `rustdoc`.
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-rustdoc.html>.
 
