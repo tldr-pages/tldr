@@ -4,7 +4,7 @@
 > Part of `util-linux`, useful for saving disk space when identical files exist across directories.
 > More information: <https://manned.org/hardlink>.
 
-- Dry-run to find duplicate files in a directory without making changes:
+- Perform a dry run without modifying files:
 
 `hardlink {{[-n|--dry-run]}} {{path/to/directory}}`
 
@@ -23,7 +23,3 @@
 - Only consider files with a minimum size:
 
 `hardlink {{[-s|--minimum-size]}} {{size}} {{path/to/directory}}`
-
-- Restrict to files owned by a specific user:
-
-`hardlink {{[-u|--user]}} {{user}} {{path/to/directory}}`
