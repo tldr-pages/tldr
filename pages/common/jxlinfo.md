@@ -1,7 +1,7 @@
 # jxlinfo
 
 > Display JPEG XL metadata.
-> More information: <https://wiki.archlinux.org/title/JPEG_XL>.
+> More information: <https://manned.org/jxlinfo>.
 
 - Display brief information about an image:
 
