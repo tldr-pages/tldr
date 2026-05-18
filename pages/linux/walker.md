@@ -10,7 +10,7 @@
 
 - Restrict the launcher to a single provider (e.g. `desktopapplications`, `calc`, `clipboard`, `runner`):
 
-`walker {{[-m|--provider]}} {{applications}}`
+`walker {{[-m|--provider]}} {{desktopapplications}}`
 
 - Read items from `stdin` and print the selected item to `stdout` (dmenu mode):
 
