@@ -9,4 +9,8 @@
 
 - Display verbose information about an image:
 
-`jxlinfo {{[-v|--verbose]}}`
+`jxlinfo {{[-v|--verbose]}} {{path/to/file}}.jxl`
+
+- Display help:
+
+`jxlinfo {{[-h|--help]}}`
