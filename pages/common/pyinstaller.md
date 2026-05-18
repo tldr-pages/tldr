@@ -1,7 +1,7 @@
 # pyinstaller
 
 > Bundle a Python application and its dependencies into a single package.
-> More information: <https://pyinstaller.org/en/stable/usage.html>.
+> More information: <https://pyinstaller.org/en/stable/man/pyinstaller.html>.
 
 - Bundle a Python script into a one-folder bundle (output goes to `dist/`):
 
@@ -33,4 +33,4 @@
 
 - Display version:
 
-`pyinstaller --version`
+`pyinstaller {{[-v|--version]}}`
