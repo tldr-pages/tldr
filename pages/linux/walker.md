@@ -8,7 +8,7 @@
 
 `walker`
 
-- Restrict the launcher to a single provider (e.g. `applications`, `calc`, `clipboard`, `runner`):
+- Restrict the launcher to a single provider (e.g. `desktopapplications`, `calc`, `clipboard`, `runner`):
 
 `walker {{[-m|--provider]}} {{applications}}`
 
