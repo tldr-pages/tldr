@@ -88,7 +88,7 @@ function run_tests {
   for f in ./pages.*; do
     checks="TLDR104"
     # Skip the `pages.en` symlink.
-    [[ -h $f ]] && continue
+    ([[ -h $f ]] || $f == "pages.en") && continue
     case $f in
       *ar*|*bn*|*fa*|*hi*|*ja*|*ko*|*lo*|*ml*|*ne*|*ta*|*th*|*tr*)
         checks+=",TLDR003,TLDR004,TLDR015"
