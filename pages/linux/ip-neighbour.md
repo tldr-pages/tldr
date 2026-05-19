@@ -1,6 +1,6 @@
 # ip neighbour
 
-> Neighbour/ARP tables management IP subcommand.
+> Neighbour/ARP/NDP tables management IP subcommand.
 > More information: <https://manned.org/ip-neighbour>.
 
 - Display the neighbour/ARP table entries:
@@ -22,3 +22,7 @@
 - Change or replace an ARP entry for the neighbour IP address to `ethX`:
 
 `sudo ip {{[n|neighbour]}} {{change|replace}} {{ip_address}} lladdr {{new_mac_address}} dev {{ethX}}`
+
+- Display only IPv6 or IPv4 neighbours:
+
+`ip {{-6|-4}} {{[n|neighbour]}}`
