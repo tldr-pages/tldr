@@ -5,7 +5,7 @@
 
 - Initialize a new module with the specified SDK:
 
-`dagger init --sdk={{go|python|typescript}} {{path/to/module}}`
+`dagger init --sdk {{go|python|typescript}} {{path/to/module}}`
 
 - Prepare a local module for development:
 
