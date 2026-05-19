@@ -33,4 +33,4 @@
 
 - Display help:
 
-`ukify --help`
+`ukify {{[-h|--help]}}`
