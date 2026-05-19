@@ -10,11 +10,11 @@
 
 - 라이브 시스템에서 모든 이벤트를 캡처하여 디스크에 저장:
 
-`sysdig -w {{경로/대상/파일}}.scap`
+`sysdig {{[-w|--write]}} {{경로/대상/파일}}.scap`
 
 - 파일에서 이벤트를 읽어 화면에 출력:
 
-`sysdig -r {{경로/대상/파일}}.scap`
+`sysdig {{[-r|--read]}} {{경로/대상/파일}}.scap`
 
 - cat 명령어에 의해 호출된 모든 open 시스템 호출을 필터링하여 출력:
 
@@ -26,8 +26,8 @@
 
 - 사용 가능한 치즐 목록 나열:
 
-`sysdig -cl`
+`sysdig {{[-cl|--list-chisels]}}`
 
 - spy_ip 치즐을 사용하여 IP 주소와 교환된 데이터 보기:
 
-`sysdig -c spy_ip {{ip_주소}}`
+`sysdig {{[-c|--chisel]}} spy_ip {{ip_주소}}`
