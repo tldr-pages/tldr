@@ -9,7 +9,7 @@
 
 - 열로 필터링:
 
-`rfkill -o {{ID,TYPE,DEVICE}}`
+`rfkill {{[-o|--output]}} {{ID,TYPE,DEVICE}}`
 
 - 유형별로 장치 차단 (예: bluetooth, wlan):
 
@@ -21,4 +21,4 @@
 
 - JSON 형식으로 출력:
 
-`rfkill -J`
+`rfkill {{[-J|--json]}}`
