@@ -10,16 +10,16 @@
 
 - 특정 화면 보호기 실행:
 
-`gh screensaver --saver {{fireworks|life|marquee|pipes|pollock|starfield}}`
+`gh screensaver {{[-s|--saver]}} {{fireworks|life|marquee|pipes|pollock|starfield}}`
 
 - 특정 텍스트와 폰트를 사용하여 "marquee" 화면 보호기 실행:
 
-`gh screensaver --saver {{marquee}} -- --message="{{메시지}}" --font={{폰트_이름}}`
+`gh screensaver {{[-s|--saver]}} marquee -- --message="{{메시지}}" --font={{폰트_이름}}`
 
 - 특정 밀도와 속도로 "starfield" 화면 보호기 실행:
 
-`gh screensaver --saver {{starfield}} -- --density {{500}} --speed {{10}}`
+`gh screensaver {{[-s|--saver]}} starfield -- --density {{500}} --speed {{10}}`
 
 - 사용 가능한 화면 보호기 목록 나열:
 
-`gh screensaver --list`
+`gh screensaver {{[-l|--list]}}`
