@@ -6,27 +6,27 @@
 
 - Set device to monitor mode (interface must be down first. See also: `ip link`):
 
-`sudo iw dev {{wlp}} set type monitor`
+`sudo iw dev {{wlanX}} set type monitor`
 
 - Set device to managed mode (interface must be down first):
 
-`sudo iw dev {{wlp}} set type managed`
+`sudo iw dev {{wlanX}} set type managed`
 
 - Set device Wi-Fi channel (device must first be in monitor mode with the interface up):
 
-`sudo iw dev {{wlp}} set channel {{channel_number}}`
+`sudo iw dev {{wlanX}} set channel {{channel_number}}`
 
 - Set device Wi-Fi frequency in Mhz (device must first be in monitor mode with the interface up):
 
-`sudo iw dev {{wlp}} set freq {{freq_in_mhz}}`
+`sudo iw dev {{wlanX}} set freq {{freq_in_mhz}}`
 
 - Show all known station info:
 
-`iw dev {{wlp}} station dump`
+`iw dev {{wlanX}} station dump`
 
 - Create a virtual interface in monitor mode with a specific MAC address:
 
-`sudo iw dev {{wlp}} interface add "{{vif_name}}" type monitor addr {{12:34:56:aa:bb:cc}}`
+`sudo iw dev {{wlanX}} interface add "{{vif_name}}" type monitor addr {{12:34:56:aa:bb:cc}}`
 
 - Delete virtual interface:
 

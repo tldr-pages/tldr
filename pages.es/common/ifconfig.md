@@ -21,4 +21,4 @@
 
 - Asigna una dirección IP a una interfaz:
 
-`ifconfig {{nombre_de_la_interfaz}} {{dirección_IP}}`
+`ifconfig {{nombre_de_la_interfaz}} {{dirección_ip}}`

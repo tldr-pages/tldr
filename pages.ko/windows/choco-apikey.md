@@ -13,7 +13,7 @@
 
 - 소스에 대한 API 키 설정:
 
-`choco apikey {{[-s|--source]}} "{{소스_url}}" {{[-k|--api-key]}} "{{API_키}}"`
+`choco apikey {{[-s|--source]}} "{{소스_url}}" {{[-k|--api-key]}} "{{api_키}}"`
 
 - 소스에 대한 API 키 제거:
 

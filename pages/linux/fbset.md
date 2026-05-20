@@ -17,4 +17,4 @@
 
 - Set an arbitrary framebuffer mode:
 
-`sudo fbset {{[-g|--geometry]}} {{TTY_horizontal}} {{TTY_vertical}} {{monitor_horizontal}} {{monitor_vertical}} {{color_depth}}`
+`sudo fbset {{[-g|--geometry]}} {{tty_horizontal}} {{tty_vertical}} {{monitor_horizontal}} {{monitor_vertical}} {{color_depth}}`

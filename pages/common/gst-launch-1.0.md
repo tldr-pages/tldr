@@ -22,7 +22,7 @@
 
 - Stream a file to an RTSP server:
 
-`gst-launch-1.0 filesrc location={{path/to/file}} ! rtspclientsink location=rtsp://{{host_IP}}/{{path/to/file}}`
+`gst-launch-1.0 filesrc location={{path/to/file}} ! rtspclientsink location=rtsp://{{host_ip}}/{{path/to/file}}`
 
 - Force an End Of Stream event if the pipeline is shut down with `<Ctrl c>` for containers that require finalization such as `mp4`:
 

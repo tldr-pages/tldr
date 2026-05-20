@@ -6,19 +6,19 @@
 
 - Scan for available wireless networks:
 
-`iw dev {{wlp}} scan`
+`iw dev {{wlanX}} scan`
 
 - Join an open wireless network:
 
-`iw dev {{wlp}} connect {{SSID}}`
+`iw dev {{wlanX}} connect {{SSID}}`
 
 - Close the current connection:
 
-`iw dev {{wlp}} disconnect`
+`iw dev {{wlanX}} disconnect`
 
 - Show information about the current connection:
 
-`iw dev {{wlp}} link`
+`iw dev {{wlanX}} link`
 
 - List all physical and logical wireless network interfaces:
 

@@ -13,7 +13,7 @@
 
 - 설명이 포함된 비공개 gist를 생성:
 
-`gist --private --description "{{의미있는 설명}}" {{파일.txt}}`
+`gist {{[-p|--private]}} {{[-d|--description]}} "{{의미있는 설명}}" {{파일.txt}}`
 
 - `stdin`의 내용을 읽고 그것으로부터 gist를 생성:
 
@@ -21,12 +21,12 @@
 
 - 공개 및 비공개 gist를 나열:
 
-`gist --list`
+`gist {{[-l|--list]}}`
 
 - 모든 사용자에 대한 모든 공개 gist를 나열:
 
-`gist --list {{사용자명}}`
+`gist {{[-l|--list]}} {{사용자명}}`
 
 - URL의 ID를 사용하여 gist를 업데이트:
 
-`gist --update {{gist_아이디}} {{파일.txt}}`
+`gist {{[-u|--update]}} {{gist_아이디}} {{파일.txt}}`

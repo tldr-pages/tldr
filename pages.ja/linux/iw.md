@@ -6,19 +6,19 @@
 
 - 利用可能なワイヤレスネットワークをスキャンする:
 
-`iw dev {{wlp}} scan`
+`iw dev {{wlanX}} scan`
 
 - 開いているワイヤレスネットワークに接続する:
 
-`iw dev {{wlp}} connect {{SSID}}`
+`iw dev {{wlanX}} connect {{SSID}}`
 
 - 現在の接続を切断する:
 
-`iw dev {{wlp}} disconnect`
+`iw dev {{wlanX}} disconnect`
 
 - 現在の接続に関する情報を表示:
 
-`iw dev {{wlp}} link`
+`iw dev {{wlanX}} link`
 
 - 全ての物理・論理ワイヤレスネットワークインターフェースを一覧表示:
 

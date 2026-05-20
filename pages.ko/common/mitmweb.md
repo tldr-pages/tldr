@@ -10,7 +10,7 @@
 
 - 사용자 지정 주소와 포트로 `mitmweb` 시작:
 
-`mitmweb --listen-host {{IP_주소}} --listen-port {{포트}}`
+`mitmweb --listen-host {{ip_주소}} --listen-port {{포트}}`
 
 - 트래픽을 처리하기 위해 스크립트를 사용하여 `mitmweb` 시작:
 
