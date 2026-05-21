@@ -9,7 +9,7 @@
 
 - Create a Kustomization resource to sync a directory from a Git source:
 
-`flux create kustomization {{name}} --source={{GitRepository/name}} --path={{./path}}`
+`flux create kustomization {{kustomization_name}} --source {{source_name}} --path {{path/to/directory}}`
 
 - Create a HelmRelease:
 
