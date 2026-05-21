@@ -9,7 +9,7 @@
 
 - Build a Kustomization and output the manifests to a file:
 
-`flux build kustomization {{name}} --path={{path/to/kustomization}} > {{path/to/manifests.yaml}}`
+`flux build kustomization {{name}} --path {{path/to/kustomization}} > {{path/to/manifests.yaml}}`
 
 - Build a Kustomization and pipe it directly to `kubectl`:
 
