@@ -1,7 +1,7 @@
 # ukify
 
 > Build and sign Unified Kernel Images (UKIs).
-> More information: <https://www.freedesktop.org/software/systemd/man/ukify.html>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/ukify.html>.
 
 - Build a Unified Kernel Image:
 
@@ -11,11 +11,11 @@
 
 `ukify build --linux {{path/to/vmlinuz}} --initrd {{path/to/initrd1.img}} --initrd {{path/to/initrd2.img}} --cmdline "{{root=/dev/sdXY}}"`
 
-- Specify output file:
+- Build a UKI, specifying the output filename:
 
 `ukify build --linux {{path/to/vmlinuz}} --initrd {{path/to/initrd.img}} --cmdline "{{root=/dev/sdXY}}" --output {{path/to/output.efi}}`
 
-- Add microcode:
+- Build a UKI including CPU microcode:
 
 `ukify build --linux {{path/to/vmlinuz}} --initrd {{path/to/initrd.img}} --microcode {{path/to/microcode.img}} --cmdline "{{root=/dev/sdXY}}"`
 
