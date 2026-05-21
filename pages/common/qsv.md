@@ -1,6 +1,6 @@
 # qsv
 
-> CSV toolkit in Rust. Successor to the archived `xsv`.
+> CSV toolkit. Successor to the archived `xsv`.
 > This page focuses on `qsv`-specific features. `qsvlite` covers more basic commands.
 > More information: <https://github.com/dathere/qsv>.
 
