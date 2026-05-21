@@ -17,4 +17,4 @@
 
 - Create a Secret to authenticate with a Git repository:
 
-`flux create secret git {{name}} --url={{https://github.com/repository}} --username={{username}} --password={{password}}`
+`flux create secret git {{secret_name}} --url {{https://github.com/repository}} --username "{{username}}" --password "{{password}}"`
