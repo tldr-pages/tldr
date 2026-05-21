@@ -1,6 +1,7 @@
 # enum4linux
 
 > Enumerate Windows and Samba information from remote systems.
+> See also: `smbclient`, `rpcclient`.
 > More information: <https://labs.portcullis.co.uk/tools/enum4linux/>.
 
 - Try to enumerate using all methods:
@@ -18,6 +19,14 @@
 - List shares:
 
 `enum4linux -S {{remote_host}}`
+
+- Enumerate groups and group members:
+
+`enum4linux -G {{remote_host}}`
+
+- Retrieve the password policy:
+
+`enum4linux -P {{remote_host}}`
 
 - Get OS information:
 
