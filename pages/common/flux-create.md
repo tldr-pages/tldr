@@ -13,7 +13,7 @@
 
 - Create a HelmRelease:
 
-`flux create helmrelease {{name}} --chart={{chart_name}} --source={{HelmRepository/repository_name}}`
+`flux create helmrelease {{release_name}} --chart {{chart_name}} --source {{HelmRepository/repository_name}}`
 
 - Create a Secret to authenticate with a Git repository:
 
