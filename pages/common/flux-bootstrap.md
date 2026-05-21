@@ -5,7 +5,7 @@
 
 - Bootstrap using a GitHub repository:
 
-`flux bootstrap github --owner={{owner}} --repository={{repository}} --path={{clusters/my-cluster}} --personal`
+`flux bootstrap github --owner {{owner}} --repository {{repository}} --path {{path/to/cluster_directory}} --personal`
 
 - Bootstrap using a GitLab repository:
 
