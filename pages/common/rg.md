@@ -20,9 +20,9 @@
 
 `rg {{[-.|--hidden]}} --no-ignore {{pattern}}`
 
-- Only search the files whose names match the glob pattern(s) (e.g. `README.*`):
+- Only search files matching a glob pattern(s) (e.g. `README.*` or `!dir_to_exclude`), and optionally filter by file type or search depth:
 
-`rg {{pattern}} {{[-g|--glob]}} {{filename_glob_pattern}}`
+`rg {{pattern}} {{[-g|--glob]}} '{{glob_pattern}}' {{[-T|--type-not]}} {{file_type}} {{-t|--type}} {{file_type}} {{[-d|--max-depth]}} {{N}}`
 
 - Recursively list filenames in the current directory that match a pattern:
 
