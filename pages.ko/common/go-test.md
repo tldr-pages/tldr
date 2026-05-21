@@ -21,7 +21,7 @@
 
 - 현재 디렉터리의 패키지를 테스트하고 50초 동안 모든 벤치마크 실행:
 
-`go test -v -bench . -benchtime {{50s}}`
+`go test -v -bench . -benchtime 50s`
 
 - 커버리지 분석으로 패키지 테스트:
 
