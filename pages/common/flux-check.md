@@ -7,6 +7,6 @@
 
 `flux check --pre`
 
-- Check Flux controllers status and health:
+- Check the status and health of all Flux controllers:
 
 `flux check`
