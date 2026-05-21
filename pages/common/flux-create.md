@@ -5,7 +5,7 @@
 
 - Create a GitRepository source:
 
-`flux create source git {{name}} --url={{https://github.com/repository}} --branch={{main}}`
+`flux create source git {{source_name}} --url {{https://github.com/repository}} --branch {{branch_name}}`
 
 - Create a Kustomization resource to sync a directory from a Git source:
 
