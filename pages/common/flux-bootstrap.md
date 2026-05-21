@@ -9,7 +9,7 @@
 
 - Bootstrap using a GitLab repository:
 
-`flux bootstrap gitlab --owner={{organization}} --repository={{repository}} --path={{clusters/my-cluster}}`
+`flux bootstrap gitlab --owner {{owner}} --repository {{repository}} --path {{path/to/cluster_directory}}`
 
 - Bootstrap from a generic Git repository via SSH:
 
