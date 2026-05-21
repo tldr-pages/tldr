@@ -9,7 +9,7 @@
 
 - Bootstrap Flux on a Kubernetes cluster:
 
-`flux bootstrap {{github|gitlab}} --owner={{owner}} --repository={{repository}} --path={{clusters/my-cluster}}`
+`flux bootstrap {{github|gitlab}} --owner {{owner}} --repository {{repository}} --path {{path/to/cluster_directory}}`
 
 - List all Flux custom resources:
 
