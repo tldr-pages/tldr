@@ -5,7 +5,7 @@
 
 - Build a Kustomization:
 
-`flux build kustomization {{name}} --path={{path/to/kustomization}}`
+`flux build kustomization {{name}} --path {{path/to/kustomization}}`
 
 - Build a Kustomization and output the manifests to a file:
 
