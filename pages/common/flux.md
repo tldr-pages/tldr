@@ -11,6 +11,10 @@
 
 `flux bootstrap {{github|gitlab}} --owner {{owner}} --repository {{repository}} --path {{path/to/cluster_directory}}`
 
+- Create a new GitRepository source:
+
+`flux create source git {{source_name}} --url {{https://github.com/repository}} --branch {{branch_name}}`
+
 - List all Flux custom resources:
 
 `flux get all`
@@ -22,6 +26,10 @@
 - Suspend reconciliation for a Kustomization:
 
 `flux suspend kustomization {{name}}`
+
+- Resume reconciliation for a Kustomization:
+
+`flux resume kustomization {{name}}`
 
 - Display help for a specific subcommand:
 
