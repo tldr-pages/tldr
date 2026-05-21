@@ -15,9 +15,9 @@
 
 `flux get all`
 
-- Trigger a reconciliation for a specific Kustomization:
+- Trigger a reconciliation for a specific Kustomization and apply changes from source:
 
-`flux reconcile kustomization {{name}}`
+`flux reconcile kustomization {{name}} --with-source`
 
 - Suspend reconciliation for a Kustomization:
 
