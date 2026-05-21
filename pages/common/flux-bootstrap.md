@@ -13,4 +13,4 @@
 
 - Bootstrap from a generic Git repository via SSH:
 
-`flux bootstrap git --url={{ssh://git@example.com/repository.git}} --branch={{main}} --path={{clusters/my-cluster}}`
+`flux bootstrap git --url {{ssh://git@example.com/repository.git}} --branch {{main}} --path {{path/to/cluster_directory}}`
