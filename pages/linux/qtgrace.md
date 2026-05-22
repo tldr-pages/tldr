@@ -8,7 +8,7 @@
 
 `qtgrade -help | less`
 
-- Plot one or more data files, plotting only the first two colums in each file as X Y :
+- Plot one or more data files, plotting only the first two columns in each file as X Y :
 
 `qtgrace {{path/to/file1.dat path/to/file2.dat ...}}`
 
