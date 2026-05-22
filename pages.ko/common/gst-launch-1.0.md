@@ -1,7 +1,7 @@
 # gst-launch-1.0
 
 > GStreamer 파이프라인 생성 및 실행.
-> 관련 정보: `gst-inspect-1.0`, `ffmpeg`.
+> 관련 항목: `gst-inspect-1.0`, `ffmpeg`.
 > 더 많은 정보: <https://gstreamer.freedesktop.org/documentation/tools/gst-launch.html>.
 
 - 테스트 비디오를 창에서 재생:
