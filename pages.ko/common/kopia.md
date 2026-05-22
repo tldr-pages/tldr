@@ -10,7 +10,7 @@
 
 - Amazon S3에 저장소 생성:
 
-`kopia repository create s3 --bucket {{버킷_이름}} --access-key {{AWS_액세스_키_ID}} --secret-access-key {{AWS_비밀_액세스_키}}`
+`kopia repository create s3 --bucket {{버킷_이름}} --access-key {{AWS_액세스_키_id}} --secret-access-key {{AWS_비밀_액세스_키}}`
 
 - 저장소에 연결:
 
@@ -26,7 +26,7 @@
 
 - 특정 디렉터리에 스냅샷 복원:
 
-`kopia snapshot restore {{스냅샷_ID}} {{경로/대상/목표_폴더}}`
+`kopia snapshot restore {{스냅샷_id}} {{경로/대상/목표_폴더}}`
 
 - 새 정책 생성:
 

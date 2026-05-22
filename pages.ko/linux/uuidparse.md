@@ -14,20 +14,20 @@
 
 - JSON 출력 형식 사용:
 
-`uuidparse --json {{uuid1 uuid2 ...}}`
+`uuidparse {{[-J|--json]}} {{uuid1 uuid2 ...}}`
 
 - 헤더 줄을 출력하지 않음:
 
-`uuidparse --noheadings {{uuid1 uuid2 ...}}`
+`uuidparse {{[-n|--noheadings]}} {{uuid1 uuid2 ...}}`
 
 - 원시 출력 형식 사용:
 
-`uuidparse --raw {{uuid1 uuid2 ...}}`
+`uuidparse {{[-r|--raw]}} {{uuid1 uuid2 ...}}`
 
 - 출력할 네 가지 열을 지정:
 
-`uuidparse --output {{UUID,VARIANT,TYPE,TIME}}`
+`uuidparse {{[-o|--output]}} {{UUID,VARIANT,TYPE,TIME}}`
 
 - 도움말 표시:
 
-`uuidparse -h`
+`uuidparse {{[-h|--help]}}`

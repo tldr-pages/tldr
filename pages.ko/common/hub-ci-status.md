@@ -9,4 +9,4 @@
 
 - 커밋에 대한 GitHub 검사 상태 표시:
 
-`hub ci-status {{[-v|--verbose]}} {{커밋_SHA}}`
+`hub ci-status {{[-v|--verbose]}} {{커밋_sha}}`

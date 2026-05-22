@@ -25,4 +25,4 @@
 
 - Muestra todos los usuarios, correos electrónicos y número de confirmaciones en todas las ramas:
 
-`git shortlog {{[-s|--summary]}} {{[-n|--numbered]}} {{[-e|--email]}} --all`
+`git shortlog {{[-sne|--summary --numbered --email]}} --all`

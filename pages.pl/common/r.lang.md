@@ -1,4 +1,4 @@
-# r
+# R
 
 > Interpreter języka R.
 > Więcej informacji: <https://manned.org/R>.

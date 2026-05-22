@@ -5,7 +5,7 @@
 
 - `sport`를 처음 실행하기 위해 SlackBuild 목록 가져오기:
 
-`sudo mkdir -p /usr/ports && sudo rsync -av rsync://slackbuilds.org /slackbuilds/$(awk '{print $2}' /etc/slackware-version)/ /usr/ports/`
+`sudo mkdir {{[-p|--parents]}} /usr/ports && sudo rsync {{[-av|--archive --verbose]}} rsync://slackbuilds.org /slackbuilds/$(awk '{print $2}' /etc/slackware-version)/ /usr/ports/`
 
 - `rsync`를 통해 시스템 트리의 업데이트 가져오기:
 

@@ -6,7 +6,7 @@
 
 - 특정 지역에 확인 없이 API Cognitive Services 계정 생성:
 
-`az cognitiveservices account create {{[-n|--name]}} {{계정_이름}} {{[-g|--resource-group]}} {{리소스_그룹}} --kind {{API_이름}} {{[-l|--location]}} {{location}} --sku {{sku_이름}} --yes`
+`az cognitiveservices account create {{[-n|--name]}} {{계정_이름}} {{[-g|--resource-group]}} {{리소스_그룹}} --kind {{api_이름}} {{[-l|--location]}} {{location}} --sku {{sku_이름}} --yes`
 
 - Azure Cognitive Services 계정 사용량 조회:
 

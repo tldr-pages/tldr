@@ -18,4 +18,4 @@
 
 - 원격 호스트의 모든 데이터베이스를 백업하여 파일로 출력 (사용자에게 비밀번호가 요청됨):
 
-`mysqldump --host={{IP_또는_호스트이름}} --user {{사용자_명}} --password --all-databases > {{경로/대상/파일.sql}}`
+`mysqldump --host={{ip_또는_호스트이름}} --user {{사용자_명}} --password --all-databases > {{경로/대상/파일.sql}}`

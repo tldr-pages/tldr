@@ -5,12 +5,12 @@
 
 - Muestra la puntuación OOM-killer del proceso con un identificador específico:
 
-`choom -p {{pid}}`
+`choom {{[-p|--pid]}} {{pid}}`
 
 - Modifica la puntuación OOM-killer de un proceso específico:
 
-`choom -p {{pid}} -n {{-1000..+1000}}`
+`choom {{[-p|--pid]}} {{pid}} {{[-n|--adjust]}} {{-1000..+1000}}`
 
 - Ejecuta un comando con una puntuación OOM-killer específica:
 
-`choom -n {{-1000..+1000}} {{comando}} {{argumento1 argumento2 ...}}`
+`choom {{[-n|--adjust]}} {{-1000..+1000}} {{comando}} {{argumento1 argumento2 ...}}`

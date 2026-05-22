@@ -5,11 +5,11 @@
 
 - `rustup` மற்றும் இயல்புநிலை ரஸ்ட் கருவித்தொகுப்பை நிறுவ, `rustup-init` ஐப் பதிவிறக்கி இயக்கவும்:
 
-`curl https://sh.rustup.rs -sSf | sh -s`
+`curl https://sh.rustup.rs {{[-sSf|--silent --show-error --fail]}} | sh -s`
 
 - பதிவிறக்கி, `rustup-init` ஐ இயக்கி, அதற்கு வாதங்களை அனுப்பவும்:
 
-`curl https://sh.rustup.rs -sSf | sh -s -- {{வாதங்கள்}}`
+`curl https://sh.rustup.rs {{[-sSf|--silent --show-error --fail]}} | sh -s -- {{வாதங்கள்}}`
 
 - `rustup-init` ஐ இயக்கி, நிறுவுவதற்கான கூடுதல் கூறுகள் அல்லது இலக்குகளைக் குறிப்பிடவும்:
 

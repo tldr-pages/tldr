@@ -13,7 +13,7 @@
 
 - 가장 가까운 NordVPN 서버에 연결:
 
-`nordvpn connect`
+`nordvpn {{[c|connect]}}`
 
 - 사용 가능한 모든 국가 나열:
 
@@ -21,12 +21,12 @@
 
 - 특정 국가의 NordVPN 서버에 연결:
 
-`nordvpn connect {{독일}}`
+`nordvpn {{[c|connect]}} {{독일}}`
 
 - 특정 국가 및 도시의 NordVPN 서버에 연결:
 
-`nordvpn connect {{독일}} {{베를린}}`
+`nordvpn {{[c|connect]}} {{독일}} {{베를린}}`
 
 - 자동 연결 옵션 설정:
 
-`nordvpn set autoconnect on`
+`nordvpn {{[s|set]}} autoconnect on`

@@ -13,4 +13,4 @@
 
 - 작업이 실행 중인 워커 노드에 연결:
 
-`srun --jobid={{작업_ID}} --pty /bin/bash`
+`srun --jobid={{작업_id}} --pty /bin/bash`

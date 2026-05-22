@@ -5,7 +5,7 @@
 
 - 토렌트에서 가장 큰 미디어 파일 스트리밍:
 
-`peerflix "{{토렌트_URL|마그넷_링크}}"`
+`peerflix "{{토렌트_url|마그넷_링크}}"`
 
 - 마그넷 링크로 주어진 토렌트에 포함된 모든 스트리밍 가능한 파일 나열:
 
@@ -17,8 +17,8 @@
 
 - 자막과 함께 토렌트에서 가장 큰 파일을 MPlayer로 스트리밍:
 
-`peerflix "{{토렌트_URL|마그넷_링크}}" {{[-m|--mplayer]}} {{[-t|--subtitles]}} {{자막_파일.srt}}`
+`peerflix "{{토렌트_url|마그넷_링크}}" {{[-m|--mplayer]}} {{[-t|--subtitles]}} {{자막_파일.srt}}`
 
 - 토렌트의 모든 파일을 Airplay로 스트리밍:
 
-`peerflix "{{토렌트_URL|마그넷_링크}}" {{[-a|--all]}} {{[-s|--airplay]}}`
+`peerflix "{{토렌트_url|마그넷_링크}}" {{[-a|--all]}} {{[-s|--airplay]}}`
