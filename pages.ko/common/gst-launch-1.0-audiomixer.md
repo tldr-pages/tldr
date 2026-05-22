@@ -5,4 +5,4 @@
 
 - 두 개의 오디오 스트림을 함께 믹싱:
 
-`gst-launch-1.0 {테스트용_오디오_소스}} ! {{요소_이름}}. {{테스트용_오디오_소스}} ! {{요소_이름}}. audiomixer name={{요소_이름}} ! {{fakesink}}`
+`gst-launch-1.0 {{audiotestsrc}} ! {{element_name}}. {{audiotestsrc}} ! {{element_name}}. audiomixer name={{element_name}} ! {{fakesink}}`
