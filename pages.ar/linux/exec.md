@@ -11,7 +11,7 @@
 
 `exec -c {{command -with -flags}}`
 
-- تنفيذ أمر عبر صَدَفة تسجيل الدخول:
+- تنفيذ أمر عبر login shell:
 
 `exec -l {{command -with -flags}}`
 
