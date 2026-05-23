@@ -28,7 +28,7 @@
 
 `scp {{path/to/local_file}} {{remote_username}}@{{remote_host}}:{{path/to/remote_directory}}`
 
-- إستخدم مفتاح SSH خاصًا محددًا للمصادقة مع المضيف البعيد:
+- إستخدم مفتاح خاصًا محددًا للمصادقة مع المضيف البعيد:
 
 `scp -i {{~/.ssh/private_key}} {{path/to/local_file}} {{remote_host}}:{{path/to/remote_file}}`
 
