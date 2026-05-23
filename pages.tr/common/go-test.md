@@ -21,7 +21,7 @@
 
 - Mevcut dizindeki paketleri test et ve 50 saniye içinde tüm kalite testlerini çalıştır:
 
-`go test -v -bench . -benchtime {{50s}}`
+`go test -v -bench . -benchtime 50s`
 
 - Paketleri kapsamlı bir analiz ile test et:
 
