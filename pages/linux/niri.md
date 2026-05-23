@@ -23,9 +23,9 @@
 
 `niri msg action move-workspace-down`
 
-- Move the current workspace up:
+- Close the currently focused window:
 
-`niri msg action move-workspace-up`
+`niri msg action close-window`
 
 - Focus a specific workspace by index:
 
