@@ -9,7 +9,7 @@
 
 - Generate a graph for a specific operation type (`plan`, `apply`, `plan-destroy`, `plan-refresh-only`, `apply-destroy`, ...):
 
-`terraform graph -type={{plan}}`
+`terraform graph -type={{operation_type}}`
 
 - Generate a graph based on a saved plan file:
 
