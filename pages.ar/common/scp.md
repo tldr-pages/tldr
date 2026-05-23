@@ -4,35 +4,34 @@
 > انسخ الملفات بين الأجهزة باستخدام بروتوكول النسخ الآمن عبر SSH.
 > More information: <https://man.openbsd.org/scp>.
 
-- انسخ ملفًا محليًا إلى مضيف بعيد:
+- إنسخ ملفًا محليًا إلى مضيف بعيد:
 
 `scp {{path/to/local_file}} {{remote_host}}:{{path/to/remote_file}}`
 
-- استخدم منفذًا محددًا عند الاتصال بالمضيف البعيد:
+- إستخدم منفذًا محددًا عند الاتصال بالمضيف البعيد:
 
 `scp -P {{port}} {{path/to/local_file}} {{remote_host}}:{{path/to/remote_file}}`
 
-- انسخ ملفًا من مضيف بعيد إلى مجلد محلي:
+- إنسخ ملفًا من مضيف بعيد إلى مجلد محلي:
 
 `scp {{remote_host}}:{{path/to/remote_file}} {{path/to/local_directory}}`
 
-- انسخ محتوى مجلد بشكل تكراري من مضيف بعيد إلى مجلد محلي:
+- إنسخ محتوى مجلد بشكل متكرر من مضيف بعيد إلى مجلد محلي:
 
 `scp -r {{remote_host}}:{{path/to/remote_directory}} {{path/to/local_directory}}`
 
-- اننسخ ملفًا بين مضيفين بعيدين مع تمرير النقل عبر المضيف المحلي:
+- إنسخ ملفًا بين مضيفين بعيدين مع تمرير النقل عبر المضيف المحلي:
 
 `scp -3 {{host1}}:{{path/to/remote_file}} {{host2}}:{{path/to/remote_directory}}`
 
-- استخدم اسم مستخدم محدد للاتصال بالمضيف البعيد:
+- إستخدم اسم مستخدم محدد للاتصال بالمضيف البعيد:
 
 `scp {{path/to/local_file}} {{remote_username}}@{{remote_host}}:{{path/to/remote_directory}}`
 
-- استخدم مفتاح SSH خاصًا محددًا للمصادقة مع المضيف البعيد:
+- إستخدم مفتاح SSH خاصًا محددًا للمصادقة مع المضيف البعيد:
 
 `scp -i {{~/.ssh/private_key}} {{path/to/local_file}} {{remote_host}}:{{path/to/remote_file}}`
 
-- استخدم خادمًا وكيلًا محددًا عند الاتصال بالمضيف البعيد:
+- إستخدم خادمًا وكيلًا محددًا عند الاتصال بالمضيف البعيد:
 
 `scp -J {{proxy_username}}@{{proxy_host}} {{path/to/local_file}} {{remote_host}}:{{path/to/remote_file}}`
-
