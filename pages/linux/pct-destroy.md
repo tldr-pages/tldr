@@ -5,12 +5,12 @@
 
 - Destroy a container:
 
-`pct {{[des|destroy]}} {{100}}`
+`pct {{[des|destroy]}} {{container_id}}`
 
 - Destroy a container even if it's running:
 
-`pct {{[des|destroy]}} {{100}} --force`
+`pct {{[des|destroy]}} {{container_id}} --force`
 
 - Also delete all references to this container:
 
-`pct {{[des|destroy]}} {{100}} --purge`
+`pct {{[des|destroy]}} {{container_id}} --purge`

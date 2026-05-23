@@ -5,7 +5,7 @@
 
 - Attach to a terminal:
 
-`qm {{[ter|terminal]}} {{100}}`
+`qm {{[ter|terminal]}} {{vm_id}}`
 
 - Detach from a terminal:
 

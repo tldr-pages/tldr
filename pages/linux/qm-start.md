@@ -5,12 +5,12 @@
 
 - Start a specific virtual machine:
 
-`qm start {{100}}`
+`qm start {{vm_id}}`
 
 - Specify the QEMU machine type (i.e. the CPU to emulate):
 
-`qm start {{100}} --machine {{q35}}`
+`qm start {{vm_id}} --machine {{q35}}`
 
 - Start a specific virtual machine with a timeout in 60 seconds:
 
-`qm start {{100}} --timeout {{60}}`
+`qm start {{vm_id}} --timeout {{60}}`

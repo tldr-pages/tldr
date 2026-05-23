@@ -5,4 +5,4 @@
 
 - Unmount the filesystem of a specific container:
 
-`pct unmount {{100}}`
+`pct unmount {{container_id}}`

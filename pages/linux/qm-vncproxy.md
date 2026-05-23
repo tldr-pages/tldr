@@ -5,4 +5,4 @@
 
 - Proxy a specific virtual machine:
 
-`qm {{[v|vncproxy]}} {{100}}`
+`qm {{[v|vncproxy]}} {{vm_id}}`

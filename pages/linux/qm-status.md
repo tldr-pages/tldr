@@ -5,8 +5,8 @@
 
 - Display the status of a specific virtual machine:
 
-`qm {{[stat|status]}} {{100}}`
+`qm {{[stat|status]}} {{vm_id}}`
 
 - Display detailed status of a specific virtual machine:
 
-`qm {{[stat|status]}} {{100}} --verbose {{true}}`
+`qm {{[stat|status]}} {{vm_id}} --verbose {{true}}`

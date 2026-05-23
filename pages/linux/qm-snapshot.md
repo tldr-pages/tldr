@@ -5,20 +5,20 @@
 
 - Create a snapshot of a specific virtual machine (name must start with a letter):
 
-`qm {{[sn|snapshot]}} {{100}} {{snapshot_name}}`
+`qm {{[sn|snapshot]}} {{vm_id}} {{snapshot_name}}`
 
 - Create a snapshot with a specific description:
 
-`qm {{[sn|snapshot]}} {{100}} {{snapshot_name}} --description {{description}}`
+`qm {{[sn|snapshot]}} {{vm_id}} {{snapshot_name}} --description {{description}}`
 
 - Create a snapshot including the vmstate:
 
-`qm {{[sn|snapshot]}} {{100}} {{snapshot_name}} --description {{description}} --vmstate 1`
+`qm {{[sn|snapshot]}} {{vm_id}} {{snapshot_name}} --description {{description}} --vmstate 1`
 
 - List snapshots of a VM:
 
-`qm {{[lists|listsnapshot]}} {{100}}`
+`qm {{[lists|listsnapshot]}} {{vm_id}}`
 
 - Rollback the state of a specific VM to a specified snapshot:
 
-`qm {{[ro|rollback]}} {{100}} {{snap_name}}`
+`qm {{[ro|rollback]}} {{vm_id}} {{snap_name}}`

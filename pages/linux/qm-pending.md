@@ -5,4 +5,4 @@
 
 - Get the virtual machine configuration of a specific virtual machine:
 
-`qm {{[p|pending]}} {{100}}`
+`qm {{[p|pending]}} {{vm_id}}`

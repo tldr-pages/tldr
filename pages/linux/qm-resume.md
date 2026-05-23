@@ -5,8 +5,8 @@
 
 - Resume a specific virtual machine:
 
-`qm {{[resu|resume]}} {{100}}`
+`qm {{[resu|resume]}} {{vm_id}}`
 
 - Resume a specific virtual machine ignoring locks (requires root):
 
-`sudo qm {{[resu|resume]}} {{100}} --skiplock true`
+`sudo qm {{[resu|resume]}} {{vm_id}} --skiplock true`

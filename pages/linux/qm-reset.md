@@ -5,8 +5,8 @@
 
 - Reset a virtual machine:
 
-`qm reset {{100}}`
+`qm reset {{vm_id}}`
 
 - Reset a virtual machine and skip lock (only root can use this option):
 
-`qm reset {{100}} --skiplock {{true}}`
+`qm reset {{vm_id}} --skiplock {{true}}`

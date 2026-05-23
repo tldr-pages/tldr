@@ -5,4 +5,4 @@
 
 - Mount the filesystem of a specific container:
 
-`pct mount {{100}}`
+`pct mount {{container_id}}`

@@ -5,12 +5,12 @@
 
 - Wait until the virtual machine is stopped:
 
-`qm {{[w|wait]}} {{100}}`
+`qm {{[w|wait]}} {{vm_id}}`
 
 - Wait until the virtual machine is stopped with a 10 second timeout:
 
-`qm {{[w|wait]}} {{100}} --timeout {{10}}`
+`qm {{[w|wait]}} {{vm_id}} --timeout {{10}}`
 
 - Send a shutdown request, then wait until the virtual machine is stopped with a 10 second timeout:
 
-`qm {{[shu|shutdown]}} {{100}} && qm {{[w|wait]}} {{100}} --timeout {{10}}`
+`qm {{[shu|shutdown]}} {{vm_id}} && qm {{[w|wait]}} {{vm_id}} --timeout {{10}}`

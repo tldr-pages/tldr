@@ -5,12 +5,12 @@
 
 - Show command-line for a specific virtual machine:
 
-`qm {{[sho|showcmd]}} {{100}}`
+`qm {{[sho|showcmd]}} {{vm_id}}`
 
 - Put each option on a new line to enhance human readability:
 
-`qm {{[sho|showcmd]}} {{100}} --pretty {{true}}`
+`qm {{[sho|showcmd]}} {{vm_id}} --pretty {{true}}`
 
 - Fetch configuration values from a specific snapshot:
 
-`qm {{[sho|showcmd]}} {{100}} --snapshot {{string}}`
+`qm {{[sho|showcmd]}} {{vm_id}} --snapshot {{string}}`

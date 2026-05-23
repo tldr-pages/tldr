@@ -5,12 +5,12 @@
 
 - Launch a command in a container:
 
-`pct {{[ex|exec]}} {{100}} {{command}}`
+`pct {{[ex|exec]}} {{container_id}} {{command}}`
 
 - Open a Bash shell in a container:
 
-`pct {{[ex|exec]}} {{100}} bash`
+`pct {{[ex|exec]}} {{container_id}} bash`
 
 - Pass arguments to the command:
 
-`pct {{[ex|exec]}} {{100}} -- {{command}} {{arguments}}`
+`pct {{[ex|exec]}} {{container_id}} -- {{command}} {{arguments}}`

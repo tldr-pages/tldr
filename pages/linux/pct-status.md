@@ -5,8 +5,8 @@
 
 - Display if the container is running:
 
-`pct status {{100}}`
+`pct status {{container_id}}`
 
 - Display detailed container information:
 
-`pct status {{100}} --verbose`
+`pct status {{container_id}} --verbose`

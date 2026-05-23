@@ -5,12 +5,12 @@
 
 - Display the saved configuration:
 
-`pct config {{100}}`
+`pct config {{container_id}}`
 
 - Display the running configuration without pending changes:
 
-`pct config {{100}} --current`
+`pct config {{container_id}} --current`
 
 - Display configuration of a specific snapshot:
 
-`pct config {{100}} --snapshot {{snapshot_name}}`
+`pct config {{container_id}} --snapshot {{snapshot_name}}`

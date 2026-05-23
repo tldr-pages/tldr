@@ -5,4 +5,4 @@
 
 - Stop embedded nbd server:
 
-`qm {{[n|nbdstop]}} {{100}}`
+`qm {{[n|nbdstop]}} {{vm_id}}`

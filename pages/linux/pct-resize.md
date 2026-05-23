@@ -5,12 +5,12 @@
 
 - Resize the container size to 20GB:
 
-`pct {{[resi|resize]}} {{100}} rootfs 20G`
+`pct {{[resi|resize]}} {{container_id}} rootfs 20G`
 
 - Add 10GB to the container storage:
 
-`pct {{[resi|resize]}} {{100}} rootfs +10G`
+`pct {{[resi|resize]}} {{container_id}} rootfs +10G`
 
 - Resize a mounted volume:
 
-`pct {{[resi|resize]}} {{100}} mp{{0}} {{+10G}}`
+`pct {{[resi|resize]}} {{container_id}} mp{{0}} {{+10G}}`

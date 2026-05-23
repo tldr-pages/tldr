@@ -5,4 +5,4 @@
 
 - Reboot a container:
 
-`pct reboot {{100}}`
+`pct reboot {{container_id}}`

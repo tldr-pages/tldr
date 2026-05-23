@@ -5,7 +5,7 @@
 
 - Attach to a terminal:
 
-`pct console {{100}}`
+`pct console {{container_id}}`
 
 - Detach from a terminal:
 
