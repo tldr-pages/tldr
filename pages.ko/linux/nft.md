@@ -14,7 +14,7 @@
 
 - 모든 수신 트래픽을 허용하는 새 체인 추가:
 
-`sudo nft add chain {{inet}} {{filter}} {{input}} \{ type {{filter}} hook {{input}} priority {{0}} \; policy {{accept}} \}`
+`sudo nft add chain {{inet}} {{filter}} {{input}} \{ type {{filter}} hook {{input}} priority {{0}} \; policy {{accept}} \; \}`
 
 - 여러 TCP 포트를 허용하는 새 규칙 추가:
 
