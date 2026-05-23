@@ -7,7 +7,7 @@
 
 `niri msg outputs`
 
-- Turn off an output:
+- Turn off a monitor/output:
 
 `niri msg output {{output_name}} off`
 
