@@ -15,6 +15,18 @@
 
 `typos --diff {{path/to/file_or_directory}}`
 
+- Check a file or directory, including hidden files and directories:
+
+`typos --hidden {{path/to/file_or_directory}}`
+
+- Check a file or directory, ignoring files that match a specific glob pattern:
+
+`typos --exclude {{pattern}} {{path/to/file_or_directory}}`
+
+- Write the current configuration to a specific file:
+
+`typos --dump-config {{path/to/typos.toml}}`
+
 - List all supported file types:
 
 `typos --type-list`

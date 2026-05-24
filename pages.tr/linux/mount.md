@@ -22,7 +22,7 @@
 
 - Bir CD-ROM aygıtını (dosya tipi ISO9660) `/cdrom`'a bağlayın (salt okunur):
 
-`mount {{[-t|--types]}} {{iso9660}} {{[-o|--options]}} ro {{/dev/cdrom}} {{/cdrom}}`
+`mount {{[-t|--types]}} iso9660 {{[-o|--options]}} ro {{/dev/cdrom}} /cdrom`
 
 - `/etc/fstab`'da tanımlanmış olan tüm dosya sistemlerini bağlayın:
 

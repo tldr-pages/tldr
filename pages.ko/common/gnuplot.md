@@ -17,4 +17,4 @@
 
 - gnuplot이 종료된 후에도 그래프 플롯 미리보기 창을 유지:
 
-`gnuplot --persist {{경로/대상/정의파일.plt}}`
+`gnuplot {{[-p|--persist]}} {{경로/대상/정의파일.plt}}`
