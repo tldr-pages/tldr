@@ -14,7 +14,7 @@
 
 - Hardlink duplicate files in multiple directories:
 
-`hardlink {{path/to/directory1}} {{path/to/directory2}}`
+`hardlink {{path/to/directory1 path/to/directory2 ...}}`
 
 - Display verbose output while hardlinking:
 
