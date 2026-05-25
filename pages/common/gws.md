@@ -30,7 +30,3 @@
 - Export credentials for use in CI or headless environments:
 
 `gws auth export --unmasked > {{path/to/credentials.json}}`
-
-- Send a message to a Google Chat space:
-
-`gws chat spaces messages create --params '{"parent": "spaces/{{space_id}}"}' --json '{"text": "{{message}}"}'`
