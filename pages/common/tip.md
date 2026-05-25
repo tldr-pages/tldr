@@ -1,6 +1,6 @@
 # tip
 
-> Connect to a remote system or serial device over a full-duplex terminal connection.
+> Connect to a remote system or serial console.
 > More information: <https://manned.org/tip>.
 
 - Connect to a remote system defined in `/etc/remote`:
