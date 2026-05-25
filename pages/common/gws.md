@@ -7,9 +7,13 @@
 
 `gws auth setup`
 
+- Log in to Google Workspace:
+
+`gws auth login`
+
 - List files in Google Drive with a page size limit:
 
-`gws drive files list --params '{"pageSize": {{10}}}'`
+`gws drive files list --params '{"pageSize": 10}'`
 
 - Send an email:
 
@@ -22,3 +26,11 @@
 - Upload a file to Google Drive:
 
 `gws drive +upload {{path/to/file}} --name "{{file_name}}"`
+
+- Export credentials for use in CI or headless environments:
+
+`gws auth export --unmasked > {{path/to/credentials.json}}`
+
+- Send a message to a Google Chat space:
+
+`gws chat spaces messages create --params '{"parent": "spaces/{{space_id}}"}' --json '{"text": "{{message}}"}'`
