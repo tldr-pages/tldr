@@ -1,7 +1,7 @@
 # deepseek-r1
 
-> Chat with deepseek-r1, a Language Model that runs locally without internet.
-> See more about Ubuntu Inference Snaps: https://documentation.ubuntu.com/inference-snaps/reference/models-cli/ .
+> Chat with deepseek-r1, a Language Model that runs locally without internet. A part of Ubuntu Inference Snaps.
+> More information: https://documentation.ubuntu.com/inference-snaps/reference/models-cli/ .
 
 - Start a chat in terminal (and a chat server in background on first start):
 
