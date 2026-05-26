@@ -1,6 +1,6 @@
 # chown
 
-> Изменить владельца и группу файлов и директорий.
+> Изменять владельца и группу файлов и каталогов.
 > Смотрите также: `chgrp`.
 > Больше информации: <https://www.gnu.org/software/coreutils/manual/html_node/chown-invocation.html>.
 
