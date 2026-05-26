@@ -20,9 +20,17 @@
 
 `cargo init --{{bin|lib}} {{chemin/vers/dossier}}`
 
+- Ajouter une dépendance dans `Cargo.toml` du dossier courant :
+
+`cargo add {{dépendance}}`
+
 - Compile le projet Rust dans le dossier courant en utilisant le profil release :
 
 `cargo {{[b|build]}} {{[-r|--release]}}`
+
+- Exécuter le binaire compilé (le compile si nécessaire) :
+
+`cargo {{[r|run]}}`
 
 - Compiler le projet Rust dans le dossier courant en utilisant le compilateur nightly :
 
