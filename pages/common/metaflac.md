@@ -12,7 +12,7 @@
 
 `metaflac --show-tag {{tag_name1}} --show-tag {{tag_name2}} {{path/to/file.flac}}`
 
-- Set a tag in a FLAC file (the argument must be in `NAME=VALUE` format):
+- Set a tag in a FLAC file:
 
 `metaflac --set-tag "{{tag_name}}={{tag_value}}" {{path/to/file.flac}}`
 
