@@ -1,7 +1,7 @@
 # qwen-vl
 
 > Chat with qwen-vl, a Language Model that runs locally without internet. A part of Ubuntu Inference Snaps.
-> More information: https://documentation.ubuntu.com/inference-snaps/reference/models-cli/ .
+> More information: <https://documentation.ubuntu.com/inference-snaps>.
 
 - Start a chat in terminal (and a chat server in background on first start):
 
