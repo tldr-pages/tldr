@@ -13,7 +13,7 @@
 
 - 로그를 계속해서 출력([f]ollow):
 
-`ddev logs -f`
+`ddev logs {{[-f|--follow]}}`
 
 - 컨테이너 내에서 composer를 실행:
 
@@ -25,7 +25,7 @@
 
 - 데이터베이스 내보내기:
 
-`ddev export-db --file={{/tmp/db.sql.gz}}`
+`ddev export-db {{[-f|--file]}} {{/tmp/db.sql.gz}}`
 
 - 컨테이너 내에서 특정 명령을 실행:
 
