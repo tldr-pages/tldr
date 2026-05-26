@@ -1,6 +1,6 @@
 # helmfile
 
-> Declarative CLI for managing Helm releases and related Kubernetes manifests.
+> Declare and manage Helm releases and related Kubernetes manifests.
 > More information: <https://helmfile.readthedocs.io>.
 
 - Install required Helm plugins:
@@ -21,7 +21,7 @@
 
 - Apply releases for a specific environment:
 
-`helmfile {{[-e|--environment]}} {{production}} apply`
+`helmfile {{[-e|--environment]}} {{dev|production|staging}} apply`
 
 - Destroy all releases defined in `helmfile.yaml`:
 
