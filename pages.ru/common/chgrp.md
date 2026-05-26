@@ -1,6 +1,6 @@
 # chgrp
 
-> Изменять группу владельца файлов и директорий.
+> Изменять группу владельца файлов и каталогов.
 > Смотрите также: `chown`.
 > Больше информации: <https://www.gnu.org/software/coreutils/manual/html_node/chgrp-invocation.html>.
 
