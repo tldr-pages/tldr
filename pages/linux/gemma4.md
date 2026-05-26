@@ -1,7 +1,7 @@
 # gemma4
 
 > Chat with gemma4, a Language Model that runs locally without internet. A part of Ubuntu Inference Snaps.
-> More information: <https://documentation.ubuntu.com/inference-snaps>.
+> More information: <https://github.com/canonical/gemma4-snap>.
 
 - Start a chat in terminal (and a chat server in background on first start):
 

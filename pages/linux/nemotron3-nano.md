@@ -1,7 +1,7 @@
 # nemotron3-nano
 
 > Chat with nemotron3-nano, a Language Model that runs locally without internet. A part of Ubuntu Inference Snaps.
-> More information: <https://documentation.ubuntu.com/inference-snaps>.
+> More information: <https://github.com/canonical/nemotron-3-nano-snap>.
 
 - Start a chat in terminal (and a chat server in background on first start):
 
