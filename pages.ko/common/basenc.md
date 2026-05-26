@@ -9,11 +9,11 @@
 
 - base64 인코딩으로 파일을 디코딩:
 
-`basenc --decode --base64 {{경로/대상/파일}}`
+`basenc {{[-d|--decode]}} --base64 {{경로/대상/파일}}`
 
 - 42개의 열이 있는 base32 인코딩을 사용하여 `stdin`에서 인코딩:
 
-`{{명령어}} | basenc --base32 -w42`
+`{{명령어}} | basenc --base32 {{[-w|--wrap]}} 42`
 
 - base32 인코딩을 사용하여 `stdin`에서 인코딩:
 

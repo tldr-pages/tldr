@@ -13,7 +13,7 @@
 
 - PDF 파일의 페이지 1부터 3까지를 150 dpi 해상도의 이미지로 변환:
 
-`gs -dQUIET -dBATCH -dNOPAUSE -sDEVICE=jpeg -r150 -dFirstPage={{1}} -dLastPage={{3}} -sOutputFile={{출력_%d.jpg}} {{입력.pdf}}`
+`gs -dQUIET -dBATCH -dNOPAUSE -sDEVICE=jpeg -r150 -dFirstPage=1 -dLastPage=3 -sOutputFile={{출력_%d.jpg}} {{입력.pdf}}`
 
 - PDF 파일에서 페이지 추출:
 
