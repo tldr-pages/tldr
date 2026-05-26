@@ -9,16 +9,16 @@
 
 - Obtiene el contenido del texto del primer párrafo:
 
-`cat {{ruta/al/archivo.html}} | htmlq --text 'p:primer-del-tipo'`
+`cat {{ruta/al/archivo.html}} | htmlq {{[-t|--text]}} 'p:primer-del-tipo'`
 
 - Encuentra todos los enlaces de una página:
 
-`cat {{ruta/al/archivo.html}} | htmlq --attribute href 'a'`
+`cat {{ruta/al/archivo.html}} | htmlq {{[-a|--attribute]}} href 'a'`
 
 - Elimina todas las imágenes y archivos SVG de una página:
 
-`cat {{ruta/al/archivo.html}} | htmlq --remove-nodes 'img' --remove-nodes 'svg'`
+`cat {{ruta/al/archivo.html}} | htmlq {{[-r|--remove-nodes]}} 'img' {{[-r|--remove-nodes]}} 'svg'`
 
 - Impresión bonita y escritura de la salida en un archivo:
 
-`htmlq --pretty --filename {{ruta/al/archivo.html}} --output {{ruta/a/salida.html}}`
+`htmlq {{[-p|--pretty]}} {{[-f|--filename]}} {{ruta/al/archivo.html}} {{[-o|--output]}} {{ruta/a/salida.html}}`

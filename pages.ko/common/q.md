@@ -5,15 +5,15 @@
 
 - 구분 기호를 ','로 지정하여 CSV 파일 쿼리:
 
-`q -d',' "SELECT * from {{경로/대상/파일}}"`
+`q {{[-d|--delimiter]}} ',' "SELECT * from {{경로/대상/파일}}"`
 
 - TSV 파일 쿼리:
 
-`q -t "SELECT * from {{경로/대상/파일}}"`
+`q {{[-t|--tab-delimited]}} "SELECT * from {{경로/대상/파일}}"`
 
 - 헤더 행이 있는 파일 쿼리:
 
-`q -d{{구분자}} -H "SELECT * from {{경로/대상/파일}}"`
+`q {{[-d|--delimiter]}} {{구분자}} {{[-H|--skip-header]}} "SELECT * from {{경로/대상/파일}}"`
 
 - `stdin`에서 데이터 읽기; 쿼리에서 '-'는 `stdin`의 데이터를 나타냄:
 
@@ -25,4 +25,4 @@
 
 - 출력 구분자와 출력 헤더 행을 사용하여 출력 형식 지정 (참고: 명령은 입력 파일 헤더 또는 쿼리에서 재정의된 열 별칭에 기반하여 열 이름 출력):
 
-`q -D{{구분자}} -O "SELECT {{열}} as {{별칭}} from {{경로/대상/파일}}"`
+`q {{[-D|--output-delimiter]}} {{구분자}} {{[-O|--output-header]}} "SELECT {{열}} as {{별칭}} from {{경로/대상/파일}}"`
