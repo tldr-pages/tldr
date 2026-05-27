@@ -9,7 +9,7 @@
 
 - Generate the messages to review without sending them:
 
-`b4 send -o {{path/to/directory}}`
+`b4 send {{[-o|--output-dir]}} {{path/to/directory}}`
 
 - Send patches to specific recipients for preview without rerolling the series version:
 
@@ -21,4 +21,4 @@
 
 - Perform a dry run without sending any mail:
 
-`b4 send --dry-run`
+`b4 send {{[-d|--dry-run]}}`

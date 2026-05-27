@@ -5,7 +5,7 @@
 
 - Start a new patch series branch forked from a specific point:
 
-`b4 prep -n {{series_name}} -f {{fork_point}}`
+`b4 prep {{[-n|--new]}} {{series_name}} {{[-f|--fork-point]}} {{fork_point}}`
 
 - Edit the cover letter for the current series:
 
@@ -21,7 +21,7 @@
 
 - Enroll an existing branch as a b4-prep-managed branch:
 
-`b4 prep -e {{base_branch}}`
+`b4 prep {{[-e|--enroll]}} {{base_branch}}`
 
 - Archive and clean up an obsolete prep-managed branch:
 

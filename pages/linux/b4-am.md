@@ -9,15 +9,15 @@
 
 - Retrieve patches and add your own `Signed-off-by` trailer as well as a `Link:` trailer to every commit:
 
-`b4 am -sl {{message_id}}`
+`b4 am {{[-sl|--add-my-sob --add-link]}} {{message_id}}`
 
 - Retrieve patches and prepare with 3-way merge support for conflict resolution:
 
-`b4 am -3 {{message_id}}`
+`b4 am {{[-3|--prep-3way]}} {{message_id}}`
 
 - Cherry-pick a subset of patches (e.g., patches 1-3 and 5) from a series:
 
-`b4 am -P {{1-3,5}} {{message_id}}`
+`b4 am {{[-P|--cherry-pick]}} {{1-3,5}} {{message_id}}`
 
 - Retrieve patches and run local checks on each patch:
 
@@ -25,4 +25,4 @@
 
 - Save the output mailbox to a specific directory:
 
-`b4 am -o {{path/to/directory}} {{message_id}}`
+`b4 am {{[-o|--outdir]}} {{path/to/directory}} {{message_id}}`

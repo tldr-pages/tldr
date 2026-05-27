@@ -9,16 +9,16 @@
 
 - Retrieve patches and create a `FETCH_HEAD` for merging (like a pull request):
 
-`b4 shazam -H {{message_id}}`
+`b4 shazam {{[-H|--make-fetch-head]}} {{message_id}}`
 
 - Retrieve patches and automatically merge using the cover letter as the merge commit message:
 
-`b4 shazam -M {{message_id}}`
+`b4 shazam {{[-M|--merge]}} {{message_id}}`
 
 - Retrieve patches, add your `Signed-off-by` and `Link:` trailers, then merge:
 
-`b4 shazam -slM {{message_id}}`
+`b4 shazam {{[-slM|--add-my-sob --add-link --merge]}} {{message_id}}`
 
 - Retrieve patches and start interactive conflict resolution when applicable:
 
-`b4 shazam -H --resolve {{message_id}}`
+`b4 shazam {{[-H|--make-fetch-head]}} --resolve {{message_id}}`
