@@ -43,7 +43,7 @@ options:
   -p, --page PAGE       specify the alias page in the format "platform/alias_command.md". This will start an interactive prompt to create/update the page.
   -S, --sync            synchronize each translation's alias page (if exists) with that of the English page.
   -l, --language LANGUAGE
-                        specify the language, a POSIX Locale Name in the form of "ll" or "ll_CC" (e.g. "fr" or "pt_BR").
+                        specify the language in the form of "ll" or "ll_CC" (e.g. "fr" or "pt_BR").
   -s, --stage           stage modified pages (requires `git` to be on $PATH and TLDR_ROOT to be a Git repository).
   -n, --dry-run         show what changes would be made without actually modifying the page.
   -i, --inexact         ignore direct template matching to find non-standard alias pages.
