@@ -6,7 +6,7 @@
 
 - Muestra las últimas líneas 'count' del archivo:
 
-`tail -n {{8}} {{ruta/al/archivo}}`
+`tail -n 8 {{ruta/al/archivo}}`
 
 - Imprime un archivo a partir de un número de línea específico:
 
