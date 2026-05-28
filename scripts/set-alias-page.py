@@ -3,6 +3,25 @@
 
 """A Python script to generate or update alias pages."""
 
+import re
+import sys
+from argparse import RawTextHelpFormatter
+from pathlib import Path
+from dataclasses import dataclass
+from _common import (
+    IGNORE_FILES,
+    Colors,
+    get_tldr_root,
+    get_templates,
+    get_pages_dirs,
+    get_target_paths,
+    get_locale,
+    get_status,
+    stage,
+    create_colored_line,
+    create_argument_parser,
+)
+
 PARSER_DESCRIPTION = """A Python script to generate or update alias pages.
 
 Disclaimer: This script generates a lot of false positives so it isn't suggested to use the sync option. If used, only stage changes and commit verified changes for your language by using -l LANGUAGE.
@@ -59,25 +78,6 @@ Examples:
        python3 scripts/set-alias-page.py -Sn
        python3 scripts/set-alias-page.py --sync --dry-run
 """
-
-import re
-import sys
-from argparse import RawTextHelpFormatter
-from pathlib import Path
-from dataclasses import dataclass
-from _common import (
-    IGNORE_FILES,
-    Colors,
-    get_tldr_root,
-    get_templates,
-    get_pages_dirs,
-    get_target_paths,
-    get_locale,
-    get_status,
-    stage,
-    create_colored_line,
-    create_argument_parser,
-)
 
 
 @dataclass
