@@ -13,7 +13,7 @@
 
 - Send patches to specific recipients for preview without rerolling the series version:
 
-`b4 send --preview-to {{email_address1}} {{email_address2}}`
+`b4 send --preview-to {{email_address1 email_address2 ...}}`
 
 - Send a previously sent version of the series again:
 
