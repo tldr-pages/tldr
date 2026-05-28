@@ -1,4 +1,4 @@
-# inference-snaps
+# Inference snaps
 
 > Inference Snaps allow chatting with generative AI Language Models that runs locally without internet.
 > Here inference-snap is one of the supported models: deepseek-r1|gemma3|gemma4|nemotron3-nano|qwen-vl .
