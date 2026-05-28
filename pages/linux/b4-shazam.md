@@ -1,6 +1,6 @@
 # b4 shazam
 
-> Retrieve and apply patches from a public-inbox archive directly to the current git tree.
+> Retrieve and apply patches from a public-inbox archive directly to the current Git tree.
 > More information: <https://b4.docs.kernel.org/en/latest/maintainer/am-shazam.html>.
 
 - Retrieve patches from a thread and apply them directly to the current branch:
