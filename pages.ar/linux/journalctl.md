@@ -1,7 +1,7 @@
 # journalctl
 
 > استعلم عن سجلات نظام التشغيل (systemd journal).
-> انظر أيضاً: `dmesg`.
+> انظر أيضًا: `dmesg`.
 > لمزيد من التفاصيل: <https://www.freedesktop.org/software/systemd/man/latest/journalctl.html>.
 
 - [-n] اعرض السجلات الأحدث بعدد معين وتابع الرسائل الجديدة فور حدوثها:
