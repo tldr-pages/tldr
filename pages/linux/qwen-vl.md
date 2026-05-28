@@ -1,24 +1,8 @@
 # qwen-vl
 
-> Chat with qwen-vl, a Language Model that runs locally without internet. A part of Ubuntu Inference Snaps.
+> The examples for this command have been moved together with `inference-snap`.
 > More information: <https://github.com/canonical/qwen-vl-snap>.
 
-- Start a chat in terminal (and a chat server in background on first start):
+- View documentation for `inference-snap`:
 
-`qwen-vl chat`
-
-- Show current engine and status of chat server:
-
-`qwen-vl status`
-
-- Select specific engine (eg. `cuda` for NVIDIA GPU). Download and use the appropriate model for the engine:
-
-`sudo qwen-vl use-engine {{engine}}`
-
-- Show detailed device hardware information (RAM, architecture, etc.):
-
-`sudo qwen-vl show-machine`
-
-- Get all configuration (`http.host`, `http.port`) of running chat server:
-
-`qwen-vl get`
+`tldr inference-snap`
