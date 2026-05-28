@@ -15,7 +15,7 @@
 /pages.ro/ @iamxorum
 /pages.ru/ @ivanbaluta @emmanuel-ferdman
 /pages.ta/ @kbdharun
-/pages.zh/ @zhb4 @BananaaaKING @Ninzero
+/pages.zh/ @BananaaaKING @Ninzero
 /pages.zh_TW/ @Ninzero
 
 /*.md @sbrl @kbdharun @sebastiaanspeck
@@ -46,5 +46,5 @@
 /contributing-guides/*.ro.md @iamxorum
 /contributing-guides/*.ru.md @ivanbaluta @emmanuel-ferdman
 /contributing-guides/*.ta.md @kbdharun
-/contributing-guides/*.zh.md @zhb4 @BananaaaKING @Ninzero
+/contributing-guides/*.zh.md @BananaaaKING @Ninzero
 /contributing-guides/*.zh_TW.md @Ninzero
