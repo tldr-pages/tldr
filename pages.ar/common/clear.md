@@ -1,7 +1,7 @@
 # clear
 
 > يمسح شاشة الطرفية.
-> لمزيد من المعلومات: <https://manned.org/clear>.
+> لمزيد من التفاصيل: <https://manned.org/clear>.
 
 - امسح الشاشة:
 
