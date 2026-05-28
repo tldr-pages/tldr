@@ -18,3 +18,5 @@ https://cla-assistant.io/tldr-pages/tldr
 - [ ] The PR title conforms to the recommended [templates](/tldr-pages/tldr/blob/main/CONTRIBUTING.md#commit-message-and-pr-title).
 - **Version of the command being documented (if known):**
 - Reference issue: #
+- Closes: #
+<!-- Only use "Closes:" if this PR fixes the entire issue. -->
