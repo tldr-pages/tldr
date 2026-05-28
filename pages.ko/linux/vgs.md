@@ -6,28 +6,28 @@
 
 - 볼륨 그룹에 대한 정보 표시:
 
-`vgs`
+`sudo vgs`
 
 - 모든 볼륨 그룹 표시:
 
-`vgs -a`
+`sudo vgs {{[-a|--all]}}`
 
 - 기본 표시 항목을 더 자세히 보이도록 변경:
 
-`vgs -v`
+`sudo vgs {{[-v|--verbose]}}`
 
 - 특정 필드만 표시:
 
-`vgs -o {{필드_이름_1}},{{필드_이름_2}}`
+`sudo vgs {{[-o|--options]}} {{필드_이름_1,필드_이름_2,...}}`
 
 - 기본 표시 항목에 필드를 추가:
 
-`vgs -o +{{필드_이름}}`
+`sudo vgs {{[-o|--options]}} +{{필드_이름}}`
 
 - 제목 줄을 생략:
 
-`vgs --noheadings`
+`sudo vgs --noheadings`
 
 - 필드를 구분자와 함께 구분하여 사용:
 
-`vgs --separator =`
+`sudo vgs --separator =`

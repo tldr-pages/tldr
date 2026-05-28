@@ -13,4 +13,4 @@
 
 - Zoek naar artifacts binnen de opgegeven repository en map:
 
-`jf rt search --recursive {{repostiory_naam}}/{{pad}}/`
+`jf rt search --recursive {{repository_naam}}/{{pad}}/`
