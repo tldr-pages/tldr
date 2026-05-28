@@ -22,7 +22,7 @@
 
 - Rebuild a specific format:
 
-`texconfig init {{latex}}`
+`texconfig init {{format}}`
 
 - Refresh the TeX filename database:
 
