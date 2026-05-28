@@ -1,6 +1,6 @@
 # deepseek-r1
 
-> Chat with deepseek-r1, a Language Model that runs locally without internet. A part of Ubuntu Inference Snaps.
+> The examples for this command have been moved together with `inference-snap`.
 > More information: <https://github.com/canonical/deepseek-r1-snap>.
 
 - View documentation for `inference-snap`:
