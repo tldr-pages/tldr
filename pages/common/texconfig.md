@@ -14,7 +14,7 @@
 
 - Set the default paper size for PDFTeX:
 
-`texconfig pdftex paper {{a4|letter}}`
+`texconfig pdftex paper {{a4|letter|...}}`
 
 - Rebuild all TeX formats and font maps:
 
