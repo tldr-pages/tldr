@@ -384,7 +384,7 @@ def create_argument_parser(description: str) -> argparse.ArgumentParser:
         "--stage",
         action="store_true",
         default=False,
-        help="stage modified pages (requires `git` to be $PATH and TLDR_ROOT to be a Git repository).",
+        help="stage modified pages (requires `git` to be on $PATH and TLDR_ROOT to be a Git repository).",
     )
     parser.add_argument(
         "-n",
