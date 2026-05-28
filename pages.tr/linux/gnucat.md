@@ -1,7 +1,0 @@
-# gnucat
-
-> Bu komut `cat` için bir takma addır.
-
-- Asıl komutun dokümantasyonunu görüntüleyin:
-
-`tldr cat`

@@ -1,7 +1,0 @@
-# gnusleep
-
-> Cette commande est un alias de `sleep`.
-
-- Affiche la documentation de la commande originale :
-
-`tldr sleep`

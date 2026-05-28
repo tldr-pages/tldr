@@ -1,7 +1,0 @@
-# gnutsort
-
-> Dit commando is een alias van `tsort`.
-
-- Bekijk de documentatie van het originele commando:
-
-`tldr tsort`

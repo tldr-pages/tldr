@@ -1,7 +1,0 @@
-# gnudircolors
-
-> এই কমান্ডটি `dircolors` - এর একটি উপনাম।
-
-- মূল কমান্ডের ডকুমেন্টেশন দেখুন:
-
-`tldr dircolors`
