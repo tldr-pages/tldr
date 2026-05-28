@@ -1,0 +1,7 @@
+# gnupinky
+
+> Cette commande est un alias de `pinky`.
+
+- Affiche la documentation de la commande originale :
+
+`tldr pinky`

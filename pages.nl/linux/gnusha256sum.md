@@ -1,0 +1,7 @@
+# gnusha256sum
+
+> Dit commando is een alias van `sha256sum`.
+
+- Bekijk de documentatie van het originele commando:
+
+`tldr sha256sum`
