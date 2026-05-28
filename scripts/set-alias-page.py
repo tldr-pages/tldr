@@ -36,23 +36,17 @@ Note: This script uses an interactive prompt instead of positional arguments to:
 """
 
 """
-Usage:
-    python3 set-alias-page.py [-h] [-p PAGE] [-S] [-l LANGUAGE] [-s] [-n] [-i]
+usage: set-alias-page.py [-h] [-p PAGE] [-S] [-l LANGUAGE] [-s] [-n] [-i]
 
-Options:
-    -p, --page PAGE
-        Specify the alias page in the format "platform/alias_command.md".
-        This will start an interactive prompt to create/update the page.
-    -S, --sync
-        Synchronize each translation's alias page (if exists) with that of the English page.
-    -l, --language LANGUAGE
-        Specify the language, a POSIX Locale Name in the form of "ll" or "ll_CC" (e.g. "fr" or "pt_BR").
-    -s, --stage
-        Stage modified pages (requires `git` to be on $PATH and TLDR_ROOT to be a Git repository).
-    -n, --dry-run
-        Show what changes would be made without actually modifying the page.
-    -i, --inexact
-        Ignore direct template matching to find non-standard alias pages.
+options:
+  -h, --help            show this help message and exit
+  -p, --page PAGE       specify the alias page in the format "platform/alias_command.md". This will start an interactive prompt to create/update the page.
+  -S, --sync            synchronize each translation's alias page (if exists) with that of the English page.
+  -l, --language LANGUAGE
+                        specify the language, a POSIX Locale Name in the form of "ll" or "ll_CC" (e.g. "fr" or "pt_BR").
+  -s, --stage           stage modified pages (requires `git` to be $PATH and TLDR_ROOT to be a Git repository).
+  -n, --dry-run         show what changes would be made without actually modifying the page.
+  -i, --inexact         ignore direct template matching to find non-standard alias pages.
 """
 
 PARSER_EPILOG = """
@@ -453,7 +447,7 @@ def main():
         "--inexact",
         action="store_true",
         default=False,
-        help="Ignore direct template matching to find non-standard alias pages.",
+        help="ignore direct template matching to find non-standard alias pages.",
     )
     parser.epilog = PARSER_EPILOG
 
