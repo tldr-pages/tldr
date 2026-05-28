@@ -10,7 +10,7 @@
 
 - Set the default paper size for supported programs:
 
-`texconfig paper {{a4|letter}}`
+`texconfig paper {{a4|letter|...}}`
 
 - Set the default paper size for PDFTeX:
 
