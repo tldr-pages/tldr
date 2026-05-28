@@ -363,35 +363,35 @@ def create_argument_parser(description: str) -> argparse.ArgumentParser:
         "--page",
         type=str,
         default="",
-        help='page name in the format "platform/alias_command.md"',
+        help='Specify the alias page in the format "platform/alias_command.md". This will start an interactive prompt to create/update the page.',
     )
     parser.add_argument(
         "-S",
         "--sync",
         action="store_true",
         default=False,
-        help="synchronize each translation's alias page (if exists) with that of English page",
+        help="Synchronize each translation's alias page (if exists) with that of the English page.",
     )
     parser.add_argument(
         "-l",
         "--language",
         type=str,
         default="",
-        help='language in the format "ll" or "ll_CC" (e.g. "fr" or "pt_BR")',
+        help='Specify the language, a POSIX Locale Name in the form of "ll" or "ll_CC" (e.g. "fr" or "pt_BR").',
     )
     parser.add_argument(
         "-s",
         "--stage",
         action="store_true",
         default=False,
-        help="stage modified pages (requires `git` to be on $PATH and TLDR_ROOT to be a Git repository)",
+        help="Stage modified pages (requires `git` to be $PATH and TLDR_ROOT to be a Git repository).",
     )
     parser.add_argument(
         "-n",
         "--dry-run",
         action="store_true",
         default=False,
-        help="show what changes would be made without actually modifying the pages",
+        help="Show what changes would be made without actually modifying the page.",
     )
 
     return parser

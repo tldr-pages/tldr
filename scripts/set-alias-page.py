@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: MIT
 
-"""
-A Python script to generate or update alias pages.
+"""A Python script to generate or update alias pages."""
+
+PARSER_DESCRIPTION = """A Python script to generate or update alias pages.
 
 Disclaimer: This script generates a lot of false positives so it isn't suggested to use the sync option. If used, only stage changes and commit verified changes for your language by using -l LANGUAGE.
 
@@ -13,9 +14,11 @@ Note: This script uses an interactive prompt instead of positional arguments to:
 - Prevent argument parsing errors with command names containing dashes (e.g. 'pacman -S')
 - Provide clearer guidance for required inputs
 - Allow for input validation before page creation
+"""
 
+"""
 Usage:
-    python3 scripts/set-alias-page.py [-p PAGE] [-S] [-l LANGUAGE] [-s] [-n]
+    python3 set-alias-page.py [-h] [-p PAGE] [-S] [-l LANGUAGE] [-s] [-n] [-i]
 
 Options:
     -p, --page PAGE
@@ -26,16 +29,18 @@ Options:
     -l, --language LANGUAGE
         Specify the language, a POSIX Locale Name in the form of "ll" or "ll_CC" (e.g. "fr" or "pt_BR").
     -s, --stage
-        Stage modified pages (requires 'git' on $PATH and TLDR_ROOT to be a Git repository).
+        Stage modified pages (requires `git` to be on $PATH and TLDR_ROOT to be a Git repository).
     -n, --dry-run
         Show what changes would be made without actually modifying the page.
     -i, --inexact
         Ignore direct template matching to find non-standard alias pages.
+"""
 
+PARSER_EPILOG = """
 Examples:
     1. Create a new alias page interactively:
-       python3 scripts/set-alias-page.py -p osx/gsum
-       python3 scripts/set-alias-page.py --page osx/gsum
+       python3 scripts/set-alias-page.py -p osx/gsum -l en
+       python3 scripts/set-alias-page.py --page osx/gsum -l en
        This will start a wizard that guides you through creating the page.
 
     2. Read English alias pages and synchronize them into all translations:
@@ -57,6 +62,7 @@ Examples:
 
 import re
 import sys
+from argparse import RawTextHelpFormatter
 from pathlib import Path
 from dataclasses import dataclass
 from _common import (
@@ -440,16 +446,16 @@ def prompt_alias_page_info(page_path: str) -> AliasPageContent:
 
 
 def main():
-    parser = create_argument_parser(
-        "Sets the alias page for all translations of a page"
-    )
+    parser = create_argument_parser(PARSER_DESCRIPTION)
+    parser.formatter_class = RawTextHelpFormatter
     parser.add_argument(
         "-i",
         "--inexact",
         action="store_true",
         default=False,
-        help="Do not match precisely with the alias template",
+        help="Ignore direct template matching to find non-standard alias pages.",
     )
+    parser.epilog = PARSER_EPILOG
 
     args = parser.parse_args()
 
