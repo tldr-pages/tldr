@@ -15,10 +15,6 @@
 
 `swift package init`
 
-- Generate an Xcode project file:
-
-`swift package generate-xcodeproj`
-
 - Update dependencies:
 
 `swift package update`

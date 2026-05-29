@@ -15,10 +15,6 @@
 
 `swift package init`
 
-- Xcode 프로젝트 파일 생성:
-
-`swift package generate-xcodeproj`
-
 - 의존성 업데이트:
 
 `swift package update`
