@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr csplit`
+`tldr {{[-p|--platform]}} linux csplit`
