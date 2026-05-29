@@ -1,28 +1,8 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: MIT
 
-"""A Python script to generate or update alias pages."""
-
-import re
-import sys
-from argparse import RawTextHelpFormatter
-from pathlib import Path
-from dataclasses import dataclass
-from _common import (
-    IGNORE_FILES,
-    Colors,
-    get_tldr_root,
-    get_templates,
-    get_pages_dirs,
-    get_target_paths,
-    get_locale,
-    get_status,
-    stage,
-    create_colored_line,
-    create_argument_parser,
-)
-
-PARSER_DESCRIPTION = """A Python script to generate or update alias pages.
+"""
+A Python script to generate or update alias pages.
 
 Disclaimer: This script generates a lot of false positives so it isn't suggested to use the sync option. If used, only stage changes and commit verified changes for your language by using -l LANGUAGE.
 
@@ -33,27 +13,29 @@ Note: This script uses an interactive prompt instead of positional arguments to:
 - Prevent argument parsing errors with command names containing dashes (e.g. 'pacman -S')
 - Provide clearer guidance for required inputs
 - Allow for input validation before page creation
-"""
 
-"""
-usage: scripts/set-alias-page.py [-h] [-p PAGE] [-S] [-l LANGUAGE] [-s] [-n] [-i]
+Usage:
+    python3 scripts/set-alias-page.py [-p PAGE] [-S] [-l LANGUAGE] [-s] [-n]
 
-options:
-  -h, --help            show this help message and exit
-  -p, --page PAGE       specify the alias page in the format "platform/alias_command.md". This will start an interactive prompt to create/update the page.
-  -S, --sync            synchronize each translation's alias page (if exists) with that of the English page.
-  -l, --language LANGUAGE
-                        specify the language in the form of "ll" or "ll_CC" (e.g. "fr" or "pt_BR").
-  -s, --stage           stage modified pages (requires `git` to be on $PATH and TLDR_ROOT to be a Git repository).
-  -n, --dry-run         show what changes would be made without actually modifying the page.
-  -i, --inexact         ignore direct template matching to find non-standard alias pages.
-"""
+Options:
+    -p, --page PAGE
+        Specify the alias page in the format "platform/alias_command.md".
+        This will start an interactive prompt to create/update the page.
+    -S, --sync
+        Synchronize each translation's alias page (if exists) with that of the English page.
+    -l, --language LANGUAGE
+        Specify the language, a POSIX Locale Name in the form of "ll" or "ll_CC" (e.g. "fr" or "pt_BR").
+    -s, --stage
+        Stage modified pages (requires 'git' on $PATH and TLDR_ROOT to be a Git repository).
+    -n, --dry-run
+        Show what changes would be made without actually modifying the page.
+    -i, --inexact
+        Ignore direct template matching to find non-standard alias pages.
 
-PARSER_EPILOG = """
 Examples:
     1. Create a new alias page interactively:
-       python3 scripts/set-alias-page.py -p osx/gsum -l en
-       python3 scripts/set-alias-page.py --page osx/gsum -l en
+       python3 scripts/set-alias-page.py -p osx/gsum
+       python3 scripts/set-alias-page.py --page osx/gsum
        This will start a wizard that guides you through creating the page.
 
     2. Read English alias pages and synchronize them into all translations:
@@ -72,6 +54,24 @@ Examples:
        python3 scripts/set-alias-page.py -Sn
        python3 scripts/set-alias-page.py --sync --dry-run
 """
+
+import re
+import sys
+from pathlib import Path
+from dataclasses import dataclass
+from _common import (
+    IGNORE_FILES,
+    Colors,
+    get_tldr_root,
+    get_templates,
+    get_pages_dirs,
+    get_target_paths,
+    get_locale,
+    get_status,
+    stage,
+    create_colored_line,
+    create_argument_parser,
+)
 
 
 @dataclass
@@ -440,16 +440,16 @@ def prompt_alias_page_info(page_path: str) -> AliasPageContent:
 
 
 def main():
-    parser = create_argument_parser(PARSER_DESCRIPTION)
-    parser.formatter_class = RawTextHelpFormatter
+    parser = create_argument_parser(
+        "Sets the alias page for all translations of a page"
+    )
     parser.add_argument(
         "-i",
         "--inexact",
         action="store_true",
         default=False,
-        help="ignore direct template matching to find non-standard alias pages.",
+        help="Do not match precisely with the alias template",
     )
-    parser.epilog = PARSER_EPILOG
 
     args = parser.parse_args()
 
