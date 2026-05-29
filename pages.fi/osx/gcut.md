@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr cut`
+`tldr {{[-p|--platform]}} common cut`
