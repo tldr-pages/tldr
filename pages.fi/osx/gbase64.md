@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr base64`
+`tldr {{[-p|--platform]}} common base64`
