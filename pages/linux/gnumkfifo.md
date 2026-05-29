@@ -1,6 +1,6 @@
 # gnumkfifo
 
-> This command is an alias of `mkfifo`.
+> This command is an alias of GNU `mkfifo`.
 
 - View documentation for the original command:
 

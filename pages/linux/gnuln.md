@@ -1,6 +1,6 @@
 # gnuln
 
-> This command is an alias of `ln`.
+> This command is an alias of GNU `ln`.
 
 - View documentation for the original command:
 

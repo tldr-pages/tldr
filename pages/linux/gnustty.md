@@ -1,6 +1,6 @@
 # gnustty
 
-> This command is an alias of `stty`.
+> This command is an alias of GNU `stty`.
 
 - View documentation for the original command:
 

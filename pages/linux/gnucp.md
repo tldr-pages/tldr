@@ -1,6 +1,6 @@
 # gnucp
 
-> This command is an alias of `cp`.
+> This command is an alias of GNU `cp`.
 
 - View documentation for the original command:
 

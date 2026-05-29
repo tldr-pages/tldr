@@ -1,6 +1,6 @@
 # gnujoin
 
-> This command is an alias of `join`.
+> This command is an alias of GNU `join`.
 
 - View documentation for the original command:
 

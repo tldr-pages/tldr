@@ -1,6 +1,6 @@
 # gnuls
 
-> This command is an alias of `ls`.
+> This command is an alias of GNU `ls`.
 
 - View documentation for the original command:
 

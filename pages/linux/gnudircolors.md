@@ -1,6 +1,6 @@
 # gnudircolors
 
-> This command is an alias of `dircolors`.
+> This command is an alias of GNU `dircolors`.
 
 - View documentation for the original command:
 

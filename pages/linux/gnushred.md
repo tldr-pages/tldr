@@ -1,6 +1,6 @@
 # gnushred
 
-> This command is an alias of `shred`.
+> This command is an alias of GNU `shred`.
 
 - View documentation for the original command:
 

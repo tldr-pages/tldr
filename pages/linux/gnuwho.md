@@ -1,6 +1,6 @@
 # gnuwho
 
-> This command is an alias of `who`.
+> This command is an alias of GNU `who`.
 
 - View documentation for the original command:
 

@@ -1,6 +1,6 @@
 # gnuod
 
-> This command is an alias of `od`.
+> This command is an alias of GNU `od`.
 
 - View documentation for the original command:
 

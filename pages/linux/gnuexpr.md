@@ -1,6 +1,6 @@
 # gnuexpr
 
-> This command is an alias of `expr`.
+> This command is an alias of GNU `expr`.
 
 - View documentation for the original command:
 

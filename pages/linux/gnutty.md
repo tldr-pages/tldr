@@ -1,6 +1,6 @@
 # gnutty
 
-> This command is an alias of `tty`.
+> This command is an alias of GNU `tty`.
 
 - View documentation for the original command:
 

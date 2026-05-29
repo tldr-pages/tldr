@@ -1,6 +1,6 @@
 # gnuvdir
 
-> This command is an alias of `vdir`.
+> This command is an alias of GNU `vdir`.
 
 - View documentation for the original command:
 

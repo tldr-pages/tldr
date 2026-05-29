@@ -1,6 +1,6 @@
 # gnunohup
 
-> This command is an alias of `nohup`.
+> This command is an alias of GNU `nohup`.
 
 - View documentation for the original command:
 

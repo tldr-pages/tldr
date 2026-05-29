@@ -1,6 +1,6 @@
 # gnusync
 
-> This command is an alias of `sync`.
+> This command is an alias of GNU `sync`.
 
 - View documentation for the original command:
 

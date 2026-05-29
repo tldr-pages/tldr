@@ -1,6 +1,6 @@
 # gnuprintf
 
-> This command is an alias of `printf`.
+> This command is an alias of GNU `printf`.
 
 - View documentation for the original command:
 

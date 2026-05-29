@@ -1,6 +1,6 @@
 # gnurealpath
 
-> This command is an alias of `realpath`.
+> This command is an alias of GNU `realpath`.
 
 - View documentation for the original command:
 

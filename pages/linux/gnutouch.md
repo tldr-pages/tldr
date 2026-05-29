@@ -1,6 +1,6 @@
 # gnutouch
 
-> This command is an alias of `touch`.
+> This command is an alias of GNU `touch`.
 
 - View documentation for the original command:
 

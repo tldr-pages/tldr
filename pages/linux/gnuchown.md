@@ -1,6 +1,6 @@
 # gnuchown
 
-> This command is an alias of `chown`.
+> This command is an alias of GNU `chown`.
 
 - View documentation for the original command:
 

@@ -1,6 +1,6 @@
 # gnuprintenv
 
-> This command is an alias of `printenv`.
+> This command is an alias of GNU `printenv`.
 
 - View documentation for the original command:
 
