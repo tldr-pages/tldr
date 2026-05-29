@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr cat`
+`tldr {{[-p|--platform]}} common cat`
