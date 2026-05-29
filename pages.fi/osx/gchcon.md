@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr chcon`
+`tldr {{[-p|--platform]}} linux chcon`
