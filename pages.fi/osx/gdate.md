@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr date`
+`tldr {{[-p|--platform]}} common date`
