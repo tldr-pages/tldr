@@ -1,7 +1,7 @@
 # gcomm
 
-> Tämä on alias GNU:n `gcomm` komennolle.
+> Tämä on alias GNU:n `comm` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr gcomm`
+`tldr comm`
