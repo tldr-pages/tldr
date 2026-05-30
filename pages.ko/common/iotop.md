@@ -21,7 +21,7 @@
 
 - 특정 PID의 I/O 사용량 표시:
 
-`sudo iotop {{[-p|--pid]}} {{PID}}`
+`sudo iotop {{[-p|--pid]}} {{pid}}`
 
 - 특정 사용자 기준으로 I/O 사용량 표시:
 
