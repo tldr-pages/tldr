@@ -1,0 +1,36 @@
+# gosec
+
+> Inspect Go source code for security problems.
+> More information: <https://github.com/securego/gosec>.
+
+- Scan a Go package recursively in the current directory:
+
+`gosec ./...`
+
+- Scan a specific Go package:
+
+`gosec {{path/to/package}}`
+
+- Scan a Go package recursively and save results to a file:
+
+`gosec -fmt={{json|yaml|csv|html|sonarqube|golint|sarif|junit-xml}} -out={{path/to/report}} {{./...}}`
+
+- Only include a specific set of rules (by default, all rules will run):
+
+`gosec -include={{G101,G203,G401,...}} {{./...}}`
+
+- Exclude directories from scanning:
+
+`gosec -exclude-dir={{path/to/excluded_directory}} {{./...}}`
+
+- Scan with a specific severity or confidence level (low, medium, or high):
+
+`gosec -severity={{severity_level}} -confidence={{severity_level}} {{./...}}`
+
+- Exclude a specific set of rules from scanning:
+
+`gosec -exclude={{G101,G304,G401,...}} {{./...}}`
+
+- Scan test files as well:
+
+`gosec -tests {{./...}}`
