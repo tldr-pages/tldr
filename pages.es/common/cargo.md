@@ -28,10 +28,6 @@
 
 `cargo {{[b|build]}} {{[-r|--release]}}`
 
-- Ejecuta el binario compilado (lo compila si es necesario):
-
-`cargo {{[r|run]}}`
-
 - Construye el proyecto Rust en el directorio actual utilizando el compilador nightly (requiere `rustup`):
 
 `cargo +nightly {{[b|build]}}`
