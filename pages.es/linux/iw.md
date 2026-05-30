@@ -10,7 +10,7 @@
 
 - Se conecta a una red inalámbrica abierta:
 
-`iw dev {{wlanX}} connect {{SSID}}`
+`iw dev {{wlanX}} connect {{ssid}}`
 
 - Cierra la conexión actual:
 
