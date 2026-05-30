@@ -17,7 +17,7 @@
 
 - Show information on a specific PID:
 
-`pidstat -p {{PID}}`
+`pidstat -p {{pid}}`
 
 - Show memory statistics for all processes whose command name include "fox" or "bird":
 

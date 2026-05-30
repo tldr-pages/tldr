@@ -13,7 +13,7 @@
 
 - Show information about the core dumps matching a program with PID:
 
-`coredumpctl info {{PID}}`
+`coredumpctl info {{pid}}`
 
 - Invoke debugger using the last core dump:
 
