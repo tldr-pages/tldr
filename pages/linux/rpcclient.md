@@ -21,16 +21,16 @@
 
 - Display domain users:
 
-`rpcclient $> enumdomusers`
+`enumdomusers`
 
 - Display privileges:
 
-`rpcclient $> enumprivs`
+`enumprivs`
 
 - Display information about a specific user:
 
-`rpcclient $> queryuser {{username|rid}}`
+`queryuser {{username|rid}}`
 
 - Create a new user in the domain:
 
-`rpcclient $> createdomuser {{username}}`
+`createdomuser {{username}}`
