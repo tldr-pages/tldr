@@ -11,7 +11,7 @@
 
 `kubectl patch secrets {{secret_이름}} {{[-p|--patch]}} $'metadata:\n finalizers: []' --type merge`
 
-- 위치 기반 배열(positional arrays)을 사용하는 JSON Patch로 Pod의 컨테이너를 부분 수정
+- 위치 기반 배열(positional arrays)을 사용하는 JSON Patch로 Pod의 컨테이너를 부분 수정:
 
 `kubectl patch {{[po|pods]}} {{pod_이름}} --type 'json' {{[-p|--patch]}} '[{"op": "replace", "path": "/spec/containers/0/image", "value":"{{새로운_이미지_값}}"}]'`
 
