@@ -17,4 +17,4 @@
 
 - Reporta un error respecto a un proceso específico:
 
-`apport-bug {{PID}}`
+`apport-bug {{pid}}`
