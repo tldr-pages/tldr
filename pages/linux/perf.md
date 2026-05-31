@@ -17,7 +17,7 @@
 
 - Record the profile of an existing process into `perf.data`:
 
-`sudo perf record {{[-p|--pid]}} {{pid}}`
+`sudo perf record {{[-p|--pid]}} {{process_id}}`
 
 - Read `perf.data` (created by `perf record`) and display the profile:
 

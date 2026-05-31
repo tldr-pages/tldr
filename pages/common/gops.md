@@ -9,7 +9,7 @@
 
 - Print more information about a process:
 
-`gops {{pid}}`
+`gops {{process_id}}`
 
 - Display a process tree:
 
