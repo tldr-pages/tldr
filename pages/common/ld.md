@@ -17,4 +17,4 @@
 
 - Dynamically link an x86_64 program to glibc (file paths change depending on the system):
 
-`ld {{[-o|--output]}} {{path/to/output_executable}} {{[-I|--dynamic-linker]}} /lib/ld-linux-x86-64.so.2 /lib/crt1.o /lib/crti.o -lc {{path/to/file.o}} /lib/crtn.o`
+`ld {{[-o|--output]}} {{path/to/output_executable}} {{[-I|--dynamic-linker]}} {{/lib/ld-linux-x86-64.so.2}} {{/lib/crt1.o}} {{/lib/crti.o}} -lc {{path/to/file.o}} {{/lib/crtn.o}}`
