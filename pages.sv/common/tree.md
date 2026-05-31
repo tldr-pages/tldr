@@ -29,8 +29,8 @@
 
 - Visa kataloger i trädstrukturen som matchar ett jokerteckenmönster (glob), och uteslut kataloger som inte ligger i sökvägen till den önskade katalogen:
 
-`tree -P {{directory_name}} --matchdirs --prune`
+`tree -P {{katalog_namn}} --matchdirs --prune`
 
 - Visa trädstrukturen utan de angivna katalogerna:
 
-`tree -I '{{directory_name1|directory_name2}}'`
+`tree -I '{{katalog_namn1|katalog_namn2}}'`
