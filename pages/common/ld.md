@@ -1,7 +1,7 @@
 # ld
 
 > Link object files together.
-> More information: <https://sourceware.org/binutils/docs/ld.html>.
+> More information: <https://sourceware.org/binutils/docs/ld.html#Options>.
 
 - Link a specific object file with no dependencies into an executable:
 
