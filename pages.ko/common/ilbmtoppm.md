@@ -13,7 +13,7 @@
 
 - 지정된 청크 ID를 가진 청크를 무시:
 
-`ilbmtoppm {{[-ig|-ignore]}} {{chunkID}} {{경로/대상/파일.ilbm}} > {{경로/대상/파일.ppm}}`
+`ilbmtoppm {{[-ig|-ignore]}} {{chunk_id}} {{경로/대상/파일.ilbm}} > {{경로/대상/파일.ppm}}`
 
 - 입력의 투명도 정보를 지정된 PBM 파일에 저장:
 
