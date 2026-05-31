@@ -9,7 +9,11 @@
 
 - Link two object files together:
 
-`ld {{path/to/file1.o}} {{path/to/file2.o}} {{[-o|--output]}} {{path/to/output_executable}}`
+`ld {{path/to/file.o}} {{[-o|--output]}} {{path/to/output_executable}}`
+
+- Link multiple object files together:
+
+`ld {{path/to/file1.o path/to/file2.o ...}} {{[-o|--output]}} {{path/to/output_executable}}`
 
 - Link a object file to a specific target emulation:
 
