@@ -21,4 +21,4 @@
 
 - 프로젝트를 릴리스용으로 컴파일:
 
-`swift build -c release`
+`swift build {{[-c|--configuration]}} {{debug|release}}`
