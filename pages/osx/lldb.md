@@ -9,7 +9,7 @@
 
 - Attach `lldb` to a running process with a given PID:
 
-`lldb -p {{pid}}`
+`lldb -p {{process_id}}`
 
 - Wait for a new process to launch with a given name, and attach to it:
 

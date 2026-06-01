@@ -7,7 +7,7 @@
 
 - Increase/decrease the priority of a running [p]rocess:
 
-`renice -n {{3}} -p {{pid}}`
+`renice -n {{3}} -p {{process_id}}`
 
 - Increase/decrease the priority of all processes owned by a [u]ser:
 

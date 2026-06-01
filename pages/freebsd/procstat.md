@@ -5,16 +5,16 @@
 
 - Display file descriptors of a specific process:
 
-`procstat fds {{pid}}`
+`procstat fds {{process_id}}`
 
 - Show virtual memory mappings of a process:
 
-`procstat vm {{pid}}`
+`procstat vm {{process_id}}`
 
 - Display process arguments:
 
-`procstat arguments {{pid}}`
+`procstat arguments {{process_id}}`
 
 - Show resource limits of a process:
 
-`procstat rlimit {{pid}}`
+`procstat rlimit {{process_id}}`

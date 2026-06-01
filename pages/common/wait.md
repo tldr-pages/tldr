@@ -6,7 +6,7 @@
 
 - Wait for a process to finish given its process ID (PID) and return its exit status:
 
-`wait {{pid}}`
+`wait {{process_id}}`
 
 - Wait for all processes known to the invoking shell to finish:
 
