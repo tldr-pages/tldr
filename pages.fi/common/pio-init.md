@@ -1,6 +1,6 @@
 # pio init
 
-> Tämä on alias komennolle `pio project init`.
+> Tämä on alias `pio project init` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

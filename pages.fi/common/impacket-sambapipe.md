@@ -1,6 +1,6 @@
 # impacket-sambaPipe
 
-> Tämä on alias komennolle `sambaPipe.py`.
+> Tämä on alias `sambaPipe.py` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

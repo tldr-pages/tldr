@@ -1,6 +1,6 @@
 # minetest
 
-> Tämä on alias komennolle `luanti`.
+> Tämä on alias `luanti` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

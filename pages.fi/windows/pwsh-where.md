@@ -1,6 +1,6 @@
 # pwsh where
 
-> Tämä on alias komennolle `Where-Object`.
+> Tämä on alias `Where-Object` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

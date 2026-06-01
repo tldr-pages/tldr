@@ -1,6 +1,6 @@
 # copr
 
-> Tämä on alias komennolle `copr-cli`.
+> Tämä on alias `copr-cli` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

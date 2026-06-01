@@ -1,6 +1,6 @@
 # systemctl reload-or-try-restart
 
-> Tämä on alias komennolle `systemctl try-reload-or-restart`.
+> Tämä on alias `systemctl try-reload-or-restart` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
