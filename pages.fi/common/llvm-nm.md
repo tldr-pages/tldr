@@ -1,6 +1,6 @@
 # llvm-nm
 
-> Tämä on alias komennolle `nm`.
+> Tämä on alias `nm` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

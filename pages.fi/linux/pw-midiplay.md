@@ -1,6 +1,6 @@
 # pw-midiplay
 
-> Tämä on alias komennolle `pw-cat --playback --midi`.
+> Tämä on alias `pw-cat --playback --midi` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -1,6 +1,6 @@
 # pw-record
 
-> Tämä on alias komennolle `pw-cat --record`.
+> Tämä on alias `pw-cat --record` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

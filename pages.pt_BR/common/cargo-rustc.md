@@ -1,6 +1,7 @@
 # cargo rustc
 
 > Compila um pacote Rust.
+> Veja também: `rustc`.
 > Mais informações: <https://doc.rust-lang.org/cargo/commands/cargo-rustc.html>.
 
 - Compila o pacote e passa opções para `rustc`:

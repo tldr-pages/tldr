@@ -1,6 +1,6 @@
 # docker run
 
-> Tämä on alias komennolle `docker container run`.
+> Tämä on alias `docker container run` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

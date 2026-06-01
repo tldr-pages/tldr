@@ -1,6 +1,6 @@
 # git stage
 
-> Tämä on alias komennolle `git add`.
+> Tämä on alias `git add` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

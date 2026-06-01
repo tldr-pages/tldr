@@ -1,6 +1,6 @@
 # docker ps
 
-> Tämä on alias komennolle `docker container ls`.
+> Tämä on alias `docker container ls` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
