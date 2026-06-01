@@ -4,7 +4,7 @@
 > Bagian dari csvkit.
 > Informasi lebih lanjut: <https://csvkit.readthedocs.io/en/latest/scripts/csvformat.html>.
 
-- Ubah menjadi file yang dipisahkan oleh tab (TSV):
+- Ubah menjadi berkas yang dipisahkan oleh tab (TSV):
 
 `csvformat {{[-T|--out-tabs]}} {{data.csv}}`
 
