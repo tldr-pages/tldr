@@ -1,6 +1,6 @@
 # apt-add-repository
 
-> Tämä on alias komennolle `add-apt-repository`.
+> Tämä on alias `add-apt-repository` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

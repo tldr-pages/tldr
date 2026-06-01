@@ -1,6 +1,6 @@
 # trash-cli
 
-> Tämä on alias komennolle `trash`.
+> Tämä on alias `trash` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

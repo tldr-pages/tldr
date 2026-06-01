@@ -13,7 +13,7 @@
 
 - ソースのAPIキーを設定します:
 
-`choco apikey {{[-s|--source]}} "{{ソースURL}}" {{[-k|--api-key]}} "{{APIキー}}"`
+`choco apikey {{[-s|--source]}} "{{ソースURL}}" {{[-k|--api-key]}} "{{apiキー}}"`
 
 - ソースのAPIキーを削除します:
 

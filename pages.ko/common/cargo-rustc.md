@@ -2,6 +2,7 @@
 
 > Rust 패키지를 컴파일. `cargo build`와 유사하지만, 컴파일러에 추가 옵션을 전달할 수 있음.
 > 사용 가능한 모든 옵션은 `rustc --help`를 참조.
+> 관련 항목: `rustc`.
 > 더 많은 정보: <https://doc.rust-lang.org/cargo/commands/cargo-rustc.html>.
 
 - 패키지를 빌드하고 `rustc`에 옵션을 전달:

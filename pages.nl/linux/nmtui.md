@@ -15,7 +15,7 @@
 
 - Verbind met een gegeven netwerk:
 
-`nmtui connect {{naam|uuid|apparaat|SSID}}`
+`nmtui connect {{naam|uuid|apparaat|ssid}}`
 
 - Pas aan/Voeg toe/Verwijder een gegeven netwerk:
 

@@ -1,6 +1,6 @@
 # unfunction
 
-> Tämä on alias komennolle `unhash -f`.
+> Tämä on alias `unhash -f` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

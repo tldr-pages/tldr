@@ -1,6 +1,6 @@
 # see
 
-> Tämä on alias komennolle `run-mailcap --action=view`.
+> Tämä on alias `run-mailcap --action=view` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -1,6 +1,6 @@
 # docker save
 
-> Tämä on alias komennolle `docker image save`.
+> Tämä on alias `docker image save` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

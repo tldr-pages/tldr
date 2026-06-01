@@ -13,7 +13,7 @@
 
 - Set the active power scheme by its GUID:
 
-`powercfg /setactive {{GUID}}`
+`powercfg /setactive {{guid}}`
 
 - Turn off the display after a specific number of minutes on AC power:
 

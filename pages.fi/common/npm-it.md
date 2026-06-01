@@ -1,6 +1,6 @@
 # npm it
 
-> Tämä on alias komennolle `npm install-test`.
+> Tämä on alias `npm install-test` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -1,6 +1,6 @@
 # pulumi down
 
-> Tämä on alias komennolle `pulumi destroy`.
+> Tämä on alias `pulumi destroy` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

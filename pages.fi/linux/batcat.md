@@ -1,6 +1,6 @@
 # batcat
 
-> Tämä on alias komennolle `bat`.
+> Tämä on alias `bat` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

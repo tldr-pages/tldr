@@ -5,7 +5,7 @@
 
 - Bir konteyner, imge veya hacim ile ilgili bilgiyi ismini veya ID'sini girerek görüntüle:
 
-`docker inspect {{konteyner|imge|ID}}`
+`docker inspect {{konteyner|imge|id}}`
 
 - Bir konteynerin IP adresini görüntüle:
 
