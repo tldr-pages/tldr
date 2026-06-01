@@ -4,6 +4,6 @@
 > Bagian dari csvkit.
 > Informasi lebih lanjut: <https://csvkit.readthedocs.io/en/latest/scripts/csvlook.html>.
 
-- Lihat sebuah file CSV:
+- Lihat isi suatu berkas CSV:
 
 `csvlook {{data.csv}}`
