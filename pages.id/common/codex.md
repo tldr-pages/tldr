@@ -18,7 +18,7 @@
 
 - Gunakan model spesifik:
 
-`codex {{[-m|--model]}} {{model_name}} "{{prompt}}"`
+`codex {{[-m|--model]}} {{nama_model}} "{{prompt}}"`
 
 - Gunakan penyedia model sumber terbuka (open-source) lokal:
 
