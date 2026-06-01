@@ -31,6 +31,6 @@
 
 `ps --sort size`
 
-- Display threads belonging to a process:
+- Display threads for a specific process:
 
 `ps -L -p {{pid}}`
