@@ -10,7 +10,7 @@
 
 - Ubah pembatas (delimiter) menjadi karakter kustom:
 
-`csvformat {{[-D|--out-delimiter]}} "{{custom_character}}" {{data.csv}}`
+`csvformat {{[-D|--out-delimiter]}} "{{karakter_pembatas}}" {{data.csv}}`
 
 - Ubah akhiran baris menjadi carriage return (^M) + line feed:
 
