@@ -12,6 +12,6 @@
 
 `csvgrep {{[-c|--columns]}} {{3,4}} {{[-r|--regex]}} {{regex}} {{data.csv}}`
 
-- Temukan baris-baris di mana kolom "name" TIDAK memuat string "John Doe":
+- Temukan baris-baris di mana kolom "nama" TIDAK memuat string "John Doe":
 
-`csvgrep {{[-i|--invert-match]}} {{[-c|--columns]}} {{name}} {{[-m|--match]}} "{{John Doe}}" {{data.csv}}`
+`csvgrep {{[-i|--invert-match]}} {{[-c|--columns]}} {{nama}} {{[-m|--match]}} "{{John Doe}}" {{data.csv}}`
