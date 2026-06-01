@@ -10,7 +10,7 @@
 
 - Generate dependency and map files in a specified directory:
 
-`depmod {{[-o|--outdir]}} {{path/to/outdir}}`
+`depmod {{[-o|--outdir]}} {{path/to/directory}}`
 
 - Generate dependency and map files for a specific kernel version:
 
@@ -22,7 +22,7 @@
 
 - Use an alternative root filesystem directory:
 
-`depmod {{[-b|--basedir]}} {{path/to/rootfs}}`
+`depmod {{[-b|--basedir]}} {{path/to/root_directory}}`
 
 - Write dependency information to `stdout` instead of writing to files:
 
