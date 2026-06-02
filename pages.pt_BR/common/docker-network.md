@@ -17,11 +17,11 @@
 
 - Conecta um contêiner a uma rede usando um nome ou ID:
 
-`docker network connect {{nome_da_rede}} {{nome_do_contêiner|ID}}`
+`docker network connect {{nome_da_rede}} {{nome_do_contêiner|id}}`
 
 - Desconecta um contêiner de uma rede:
 
-`docker network disconnect {{nome_da_rede}} {{nome_do_contêiner|ID}}`
+`docker network disconnect {{nome_da_rede}} {{nome_do_contêiner|id}}`
 
 - Remove todas as redes não utilizadas (que não são referenciadas por nenhum contêiner):
 

@@ -1,6 +1,6 @@
 # systemctl condrestart
 
-> Tämä on alias komennolle `systemctl try-restart`.
+> Tämä on alias `systemctl try-restart` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

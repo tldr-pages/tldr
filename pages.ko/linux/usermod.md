@@ -10,7 +10,7 @@
 
 - 사용자 ID 변경:
 
-`sudo usermod {{[-u|--uid]}} {{ID}} {{사용자명}}`
+`sudo usermod {{[-u|--uid]}} {{id}} {{사용자명}}`
 
 - 사용자 셸 변경:
 

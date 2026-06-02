@@ -17,7 +17,7 @@
 
 - 从 YubiKey 中删除一个常驻凭证：
 
-`ykman fido credentials delete {{ID}}`
+`ykman fido credentials delete {{id}}`
 
 - 列出存储在 YubiKey 上的指纹（需要带有指纹传感器的密钥）：
 

@@ -15,7 +15,7 @@
 
 - Connect to a given network:
 
-`nmtui connect {{name|uuid|device|SSID}}`
+`nmtui connect {{name|uuid|device|ssid}}`
 
 - Edit/Add/Delete a given network:
 

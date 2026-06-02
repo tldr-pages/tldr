@@ -10,7 +10,7 @@
 
 - 開いているワイヤレスネットワークに接続する:
 
-`iw dev {{wlanX}} connect {{SSID}}`
+`iw dev {{wlanX}} connect {{ssid}}`
 
 - 現在の接続を切断する:
 

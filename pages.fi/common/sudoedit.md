@@ -1,6 +1,6 @@
 # sudoedit
 
-> Tämä on alias komennolle `sudo --edit`.
+> Tämä on alias `sudo --edit` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

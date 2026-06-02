@@ -1,6 +1,6 @@
 # mogrify
 
-> Tämä on alias komennolle `magick mogrify`.
+> Tämä on alias `magick mogrify` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

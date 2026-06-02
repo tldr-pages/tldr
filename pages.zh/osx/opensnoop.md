@@ -13,7 +13,7 @@
 
 - 跟踪给定 PID（进程号），打开的所有文件：
 
-`sudo opensnoop -p {{PID 进程号}}`
+`sudo opensnoop -p {{pid}}`
 
 - 跟踪打开了指定文件的继承：
 

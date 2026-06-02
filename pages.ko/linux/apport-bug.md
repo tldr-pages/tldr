@@ -17,4 +17,4 @@
 
 - 특정 프로세스에 대한 버그 보고:
 
-`apport-bug {{PID}}`
+`apport-bug {{pid}}`
