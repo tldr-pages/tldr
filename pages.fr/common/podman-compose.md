@@ -31,6 +31,6 @@
 
 `podman-compose logs {{[-f|--follow]}} {{nom_conteneur}}`
 
-- Exécute une commande ponctuelle dans un service sans ports mappés :
+- Exécute une commande ponctuelle dans un service sans ports associés :
 
 `podman-compose run {{nom_service}} {{commande}}`
