@@ -28,7 +28,7 @@
 
 `tail {{[-f|--follow]}} {{sökväg/till/fil}}`
 
-- Fortsätt läsa filen till `<Ctrl+C>`, även om filen blir oåtkomlig:
+- Fortsätt läsa filen till `<Ctrl+c>`, även om filen blir oåtkomlig:
 
 `tail {{[-F|--retry --follow]}} {{sökväg/till/fil}}`
 
