@@ -5,7 +5,7 @@
 
 - Scan a font file:
 
-`fc-scan {{path/to/font.ttf}}`
+`fc-scan {{path/to/font_file}}`
 
 - Scan a directory of fonts recursively:
 
@@ -17,11 +17,11 @@
 
 - Print results without including font sizes:
 
-`fc-scan {{[-b|--brief]}} {{path/to/font.ttf}}`
+`fc-scan {{[-b|--brief]}} {{path/to/font_file}}`
 
 - Print results using a custom output format:
 
-`fc-scan {{[-f|--format]}} "{{%{family}\n}}" {{path/to/font.ttf}}`
+`fc-scan {{[-f|--format]}} "{{%{family}\n}}" {{path/to/font_file}}`
 
 - Display help:
 
