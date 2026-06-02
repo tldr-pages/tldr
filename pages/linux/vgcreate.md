@@ -14,4 +14,4 @@
 
 - Create a new volume group with custom physical extent size:
 
-`sudo vgcreate {{-s|--physicalextentsize}} 8M {{volume_group}} {{/dev/sdXY /dev/sdXZ ...}}`
+`sudo vgcreate {{-s|--physicalextentsize}} {{8M}} {{volume_group}} {{/dev/sdXY /dev/sdXZ ...}}`
