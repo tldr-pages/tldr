@@ -24,7 +24,7 @@
 
 `tail {{[-c|--bytes]}} {{antal}} {{sökväg/till/fil}}`
 
-- Visa de sista raderna av en fil och fortsätt läsa till `<Ctrl+C>`:
+- Visa de sista raderna av en fil och fortsätt läsa till `<Ctrl+c>`:
 
 `tail {{[-f|--follow]}} {{sökväg/till/fil}}`
 
