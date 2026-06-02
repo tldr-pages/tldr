@@ -17,7 +17,7 @@
 
 - Send changes from your working copy to the repository:
 
-`svn {{[ci|commit]}} {{[-m|--message]}} {{commit_log_message}} {{path/to/file_or_directory}}`
+`svn {{[ci|commit]}} {{[-m|--message]}} {{commit_log_message}} {{path/to/directory}}`
 
 - Display changes from the last 10 revisions, showing modified files for each revision:
 
