@@ -10,7 +10,7 @@
 
 - Create a storage pool from one or more devices:
 
-`sudo stratis pool create {{pool_name}} {{/dev/sdX}} {{/dev/sdY}}`
+`sudo stratis pool create {{pool_name}} {{/dev/sdX /dev/sdY ...}}`
 
 - Create a filesystem (volume) in a pool:
 
