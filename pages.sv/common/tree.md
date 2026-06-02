@@ -1,6 +1,6 @@
 # tree
 
-> Visa innehållet i den nuvarande katalogen som ett träd.
+> Visa innehållet i den nuvarande katalogen som ett träd
 > Mer information: <https://manned.org/tree>.
 
 - Visa filer och katalogen upp till `num` nivåer djupt (där 1 är den nuvarande katalogen):
