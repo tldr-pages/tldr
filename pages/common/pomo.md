@@ -1,24 +1,24 @@
-# pomo 
+# pomo
 
-> Utility for the Pomodoro technique
-> More information: <https://codeberg.org/kevinschoon/pomo> 
+> Utility for the Pomodoro technique.
+> More information: <https://codeberg.org/kevinschoon/pomo>.
 
-- Initialize pomo's database: 
+- Initialize pomo's database:
 
 `pomo init`
 
-- Start a pomodoro session: 
+- Start a pomodoro session:
 
 `pomo start {{name}}`
 
-- Start a pomodoro session with three intervals that last three seconds: 
+- Start a pomodoro session with three intervals that last three seconds:
 
 `pomo start --duration=3s --pomodoros=3 {{message}}`
 
-- List previous tasks: 
+- List previous tasks:
 
 `pomo list`
 
-- Display help: 
+- Display help:
 
 `pomo --help`
