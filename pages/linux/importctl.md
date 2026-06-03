@@ -5,7 +5,7 @@
 
 - Download image in tarball format from a url via pull:
 
-`sudo importctl pull-tar {{URL}} {{path/to/directory}}`
+`sudo importctl pull-tar {{url}} {{path/to/directory}}`
 
 - Pull or download from a remote source that is either raw or `.qcow2` file, and stores it as a raw file:
 
