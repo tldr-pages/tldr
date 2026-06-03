@@ -9,12 +9,12 @@
 
 - 特定のソースとそのAPIキーを表示します:
 
-`choco apikey {{[-s|--source]}} "{{ソースURL}}"`
+`choco apikey {{[-s|--source]}} "{{ソースurl}}"`
 
 - ソースのAPIキーを設定します:
 
-`choco apikey {{[-s|--source]}} "{{ソースURL}}" {{[-k|--api-key]}} "{{apiキー}}"`
+`choco apikey {{[-s|--source]}} "{{ソースurl}}" {{[-k|--api-key]}} "{{apiキー}}"`
 
 - ソースのAPIキーを削除します:
 
-`choco apikey {{[-s|--source]}} "{{ソースURL}}" --remove`
+`choco apikey {{[-s|--source]}} "{{ソースurl}}" --remove`
