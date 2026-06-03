@@ -17,7 +17,7 @@
 
 - 인증서를 웹사이트 또는 [s]서비스에서 사용하도록 [c]일반 이름으로 설정 (동일한 일반 이름을 가진 인증서가 여러 개 있는 경우 실패):
 
-`security set-identity-preference -s {{URL|호스트명|서비스}} -c "{{일반_이름}}" {{경로/대상/파일.keychain}}`
+`security set-identity-preference -s {{url|호스트명|서비스}} -c "{{일반_이름}}" {{경로/대상/파일.keychain}}`
 
 - 파일에서 [k]키체인으로 인증서 추가 (-k가 지정되지 않으면 기본 키체인이 사용됨):
 

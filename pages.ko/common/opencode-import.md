@@ -9,7 +9,7 @@
 
 - 공유 URL에서 세션 데이터 가져오기:
 
-`opencode import {{URL}}`
+`opencode import {{url}}`
 
 - 도움말 표시:
 
