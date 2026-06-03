@@ -24,11 +24,11 @@
 
 `tail {{[-c|--bytes]}} {{antal}} {{sökväg/till/fil}}`
 
-- Visa de sista raderna av en fil och fortsätt läsa till `<Ctrl+c>`:
+- Visa de sista raderna av en fil och fortsätt läsa till `<Ctrl c>`:
 
 `tail {{[-f|--follow]}} {{sökväg/till/fil}}`
 
-- Fortsätt läsa filen till `<Ctrl+c>`, även om filen blir oåtkomlig:
+- Fortsätt läsa filen till `<Ctrl c>`, även om filen blir oåtkomlig:
 
 `tail {{[-F|--retry --follow]}} {{sökväg/till/fil}}`
 
