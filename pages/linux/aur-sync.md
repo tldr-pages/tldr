@@ -12,6 +12,10 @@
 
 `aur sync {{[-u|--upgrades]}}`
 
+- Ignore a package while upgrading:
+
+`aur sync {{[-u|--upgrades]}} --ignore {{package}}`
+
 - Clean build files after install:
 
 `aur sync {{[-C|--clean]}} {{package}}`
