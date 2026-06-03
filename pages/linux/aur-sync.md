@@ -12,9 +12,9 @@
 
 `aur sync {{[-u|--upgrades]}}`
 
-- Ignore a package while upgrading:
+- Ignore specific packages when upgrading:
 
-`aur sync {{[-u|--upgrades]}} --ignore {{package}}`
+`aur sync {{[-u|--upgrades]}} --ignore {{package1,package2,...}}`
 
 - Clean build files after install:
 
@@ -23,7 +23,3 @@
 - Install a package without viewing changes in Vim and do not confirm dependency installation:
 
 `aur sync --noview {{[-n|--noconfirm]}} {{package}}`
-
-- Ignore specific packages when upgrading:
-
-`aur sync {{[-u|--upgrades]}} --ignore {{package1,package2,...}}`
