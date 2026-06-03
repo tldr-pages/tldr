@@ -1,6 +1,6 @@
 # docker diff
 
-> Tämä on alias komennolle `docker container diff`.
+> Tämä on alias `docker container diff` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -1,6 +1,6 @@
 # npm run-script
 
-> Tämä on alias komennolle `npm run`.
+> Tämä on alias `npm run` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

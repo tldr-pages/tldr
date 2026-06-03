@@ -1,6 +1,6 @@
 # sr
 
-> Tämä on alias komennolle `surfraw`.
+> Tämä on alias `surfraw` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

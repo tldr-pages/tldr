@@ -1,6 +1,6 @@
 # import
 
-> Tämä on alias komennolle `magick import`.
+> Tämä on alias `magick import` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

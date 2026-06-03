@@ -1,6 +1,6 @@
 # jira projects
 
-> Tämä on alias komennolle `jira project`.
+> Tämä on alias `jira project` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

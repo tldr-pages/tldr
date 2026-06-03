@@ -1,6 +1,6 @@
 # impacket-ping
 
-> Tämä on alias komennolle `ping.py`.
+> Tämä on alias `ping.py` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

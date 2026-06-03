@@ -1,6 +1,6 @@
 # llvm-objdump
 
-> Tämä on alias komennolle `objdump`.
+> Tämä on alias `objdump` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

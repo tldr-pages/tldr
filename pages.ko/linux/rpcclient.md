@@ -29,7 +29,7 @@
 
 - 특정 사용자에 대한 정보 표시:
 
-`rpcclient $> queryuser {{사용자명|RID}}`
+`rpcclient $> queryuser {{사용자명|rid}}`
 
 - 도메인에 새 사용자 생성:
 

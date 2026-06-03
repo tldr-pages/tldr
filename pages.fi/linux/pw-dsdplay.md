@@ -1,6 +1,6 @@
 # pw-dsdplay
 
-> Tämä on alias komennolle `pw-cat --playback --dsd`.
+> Tämä on alias `pw-cat --playback --dsd` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -1,6 +1,6 @@
 # lzegrep
 
-> Tämä on alias komennolle `xzgrep --extended-regexp`.
+> Tämä on alias `xzgrep --extended-regexp` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

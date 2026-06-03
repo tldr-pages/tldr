@@ -1,7 +1,7 @@
 # cacafire
 
 > Muestra un fuego animado ASCII.
-> Más información: <https://packages.debian.org/sid/caca-utils>.
+> Más información: <https://manned.org/cacafire>.
 
 - Muestra el fuego ASCII:
 
