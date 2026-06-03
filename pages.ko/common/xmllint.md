@@ -25,4 +25,4 @@
 
 - 온라인에 호스팅된 DTD 스키마에 대해 XML 유효성 검사:
 
-`xmllint --dtdvalid {{URL}} {{소스_파일.xml}}`
+`xmllint --dtdvalid {{url}} {{소스_파일.xml}}`

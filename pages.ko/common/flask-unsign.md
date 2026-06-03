@@ -9,7 +9,7 @@
 
 - `Set-Cookie` 헤더를 반환하는 URL에서 세션 쿠키를 가져와 디코딩:
 
-`flask-unsign {{[-d|--decode]}} --server {{URL}}`
+`flask-unsign {{[-d|--decode]}} --server {{url}}`
 
 - 기본 flask-unsign-wordlist를 사용하여 시크릿 키 브루트포스 수행 (`flask-unsign-wordlist` 필요):
 
