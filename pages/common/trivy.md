@@ -17,7 +17,7 @@
 
 - Scan the filesystem for vulnerabilities and misconfigurations:
 
-`trivy fs --security-checks {{vuln,config}} {{path/to/project_directory}}`
+`trivy fs --scanners {{vuln,misconfig}} {{path/to/project_directory}}`
 
 - Scan a IaC (Terraform, CloudFormation, ARM, Helm, and Dockerfile) directory for misconfigurations:
 
