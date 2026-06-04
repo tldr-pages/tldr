@@ -22,3 +22,7 @@
 - View documentation for the Android activity manager:
 
 `tldr {{[-p|--platform]}} android am`
+
+- List documented Android shell commands:
+
+`tldr {{[-p|--platform]}} android {{[-l|--list]}}`
