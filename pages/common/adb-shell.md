@@ -15,7 +15,7 @@
 
 `tldr {{[-p|--platform]}} android pm`
 
--View documentations for sending event codes and touchscreen events:
+- View documentations for sending event codes and touchscreen events:
 
 `tldr {{[-p|--platform]}} android input`
 
