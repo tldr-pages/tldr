@@ -6,4 +6,4 @@
 
 - Crea un nuovo progetto Rust con target binario:
 
-`cargo new {{path/to/directory}}`
+`cargo new {{percorso/della/directory}}`

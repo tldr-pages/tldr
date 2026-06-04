@@ -14,7 +14,7 @@
 
 - Stampa i metadata in un formato specifico basato sulla versione specificata:
 
-`cargo metadata --format-version {{version}}`
+`cargo metadata --format-version {{versione}}`
 
 - Stampa i metadata con il campo `resolve` includendo le dipendenze solo per il target dato (Nota: l'array `packages` continuerà ad includere le dipendenze per tutti i target):
 

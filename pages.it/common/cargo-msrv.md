@@ -18,7 +18,7 @@
 
 - Imposta la MSRV in `Cargo.toml` a una versione di Rust data:
 
-`cargo msrv set {{version}}`
+`cargo msrv set {{versione}}`
 
 - Verifica se la MSRV è soddisfacibile compilando il progetto con la versione specificata di Rust:
 
