@@ -10,4 +10,4 @@
 
 - Controlla la correttezza del manifesto specificato:
 
-`cargo verify-project --manifest-path {{path/to/Cargo.toml}}`
+`cargo verify-project --manifest-path {{percorso/del/Cargo.toml}}`

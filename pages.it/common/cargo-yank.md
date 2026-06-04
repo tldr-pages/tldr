@@ -6,12 +6,12 @@
 
 - Rimuovi la versione specificata di un crate dall'indice:
 
-`cargo yank {{crate}}@{{version}}`
+`cargo yank {{crate}}@{{versione}}`
 
 - Annulla uno yank (cioè permetti di scaricarlo di nuovo):
 
-`cargo yank --undo {{crate}}@{{version}}`
+`cargo yank --undo {{crate}}@{{versione}}`
 
 - Usa il registro specificato (i nomi dei registri possono essere definiti nella configurazione - il predefinito è <https://crates.io>):
 
-`cargo yank --registry {{name}} {{crate}}@{{version}}`
+`cargo yank --registry {{nome}} {{crate}}@{{versione}}`

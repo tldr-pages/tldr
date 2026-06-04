@@ -13,8 +13,8 @@
 
 - Aggiorna solo le dipendenze specificate:
 
-`cargo update --package {{dependency1}} --package {{dependency2}} --package {{dependency3}}`
+`cargo update --package {{dipendenza1}} --package {{dipendenza2}} --package {{dipendenza3}}`
 
 - Imposta una dipendenza specifica a una versione precisa:
 
-`cargo update --package {{dependency}} --precise {{1.2.3}}`
+`cargo update --package {{dipendenza}} --precise {{1.2.3}}`

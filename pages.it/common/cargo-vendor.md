@@ -5,4 +5,4 @@
 
 - Metti in vendor le dipendenze e configura `cargo` per usare le sorgenti vendorizzate nel progetto corrente:
 
-`cargo vendor {{path/to/directory}} > .cargo/config.toml`
+`cargo vendor {{percorso/della/directory}} > .cargo/config.toml`
