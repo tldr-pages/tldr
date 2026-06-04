@@ -23,6 +23,10 @@
 
 `adb shell input keyevent {{keycode}}`
 
+- Clear the data of an application on an emulator or device:
+
+`adb shell pm clear {{package}}`
+
 - Start an activity on emulator or device:
 
 `adb shell am start -n {{package}}/{{activity}}`
