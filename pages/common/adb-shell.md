@@ -7,26 +7,9 @@
 
 `adb shell`
 
-- Get all the properties from emulator or device:
-
-`adb shell getprop`
 - View documentation for showing Android system properties:
 
 `tldr {{[-p|--platform]}} android getprop`
-
-- Revert all runtime permissions to their default:
-
-`adb shell pm reset-permissions`
-
-- Revoke a permission for an application:
-
-`adb shell pm revoke {{package}} {{permission}}`
-
-- Trigger a key event:
-
-`adb shell input keyevent {{keycode}}`
-
-- Clear the data of an application on an emulator or device:
 
 - View documentation for the Android package manager:
 
@@ -35,12 +18,6 @@
 -View documentations for sending event codes and touchscreen events:
 
 `tldr {{[-p|--platform]}} android input`
-
-- Start an activity on emulator or device:
-
-`adb shell am start -n {{package}}/{{activity}}`
-
-- Start the home activity on an emulator or device:
 
 - View documentation for the Android activity manager:
 
