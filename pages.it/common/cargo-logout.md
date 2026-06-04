@@ -10,4 +10,4 @@
 
 - Usa il registro specificato (i nomi dei registri possono essere definiti nella configurazione - il predefinito è <https://crates.io>):
 
-`cargo logout --registry {{name}}`
+`cargo logout --registry {{nome}}`

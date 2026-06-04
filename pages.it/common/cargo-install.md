@@ -5,7 +5,7 @@
 
 - Installa un pacchetto da <https://crates.io> (la versione è opzionale - di default l'ultima):
 
-`cargo install {{package}}@{{version}}`
+`cargo install {{pacchetto}}@{{versione}}`
 
 - Installa un pacchetto dal repository Git specificato:
 
@@ -17,7 +17,7 @@
 
 - Installa un pacchetto da una directory locale:
 
-`cargo install --path {{path/to/package}}`
+`cargo install --path {{percorso/del/package}}`
 
 - Elenca tutti i pacchetti installati e le loro versioni:
 

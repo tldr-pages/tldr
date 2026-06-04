@@ -18,4 +18,4 @@
 
 - Visualizza il manifesto `Cargo.toml` di una directory specificata:
 
-`cargo locate-project --manifest-path {{path/to/Cargo.toml}}`
+`cargo locate-project --manifest-path {{percorso/del/Cargo.toml}}`

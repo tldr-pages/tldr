@@ -10,7 +10,7 @@
 
 - Inizializza un progetto Rust con target binario nella directory specificata:
 
-`cargo init {{path/to/directory}}`
+`cargo init {{percorso/della/directory}}`
 
 - Inizializza un progetto Rust con target libreria nella directory corrente:
 
@@ -22,4 +22,4 @@
 
 - Imposta il nome del pacchetto (predefinito: nome della directory):
 
-`cargo init --name {{name}}`
+`cargo init --name {{nome}}`
