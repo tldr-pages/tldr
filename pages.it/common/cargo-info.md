@@ -5,12 +5,12 @@
 
 - Mostra informazioni su un pacchetto su <https://crates.io>:
 
-`cargo info {{package}}`
+`cargo info {{pacchetto}}`
 
 - Mostra informazioni su una versione specifica di un pacchetto:
 
-`cargo info {{package}}@{{version}}`
+`cargo info {{pacchetto}}@{{versione}}`
 
 - Mostra informazioni aggiuntive su un pacchetto:
 
-`cargo info {{[-v|--verbose]}} {{package}}`
+`cargo info {{[-v|--verbose]}} {{pacchetto}}`

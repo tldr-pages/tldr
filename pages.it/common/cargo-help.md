@@ -9,4 +9,4 @@
 
 - Mostra l'aiuto per un sotto-comando:
 
-`cargo help {{subcommand}}`
+`cargo help {{sottocomando}}`

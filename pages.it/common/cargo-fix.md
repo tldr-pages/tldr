@@ -21,7 +21,7 @@
 
 - Correggi il test di integrazione specificato:
 
-`cargo fix --test {{name}}`
+`cargo fix --test {{nome}}`
 
 - Correggi tutti i membri dello workspace:
 
