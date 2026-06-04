@@ -15,17 +15,13 @@
 
 `adb shell pm reset-permissions`
 
-- Revoke a dangerous permission for an application:
+- Revoke a permission for an application:
 
 `adb shell pm revoke {{package}} {{permission}}`
 
 - Trigger a key event:
 
 `adb shell input keyevent {{keycode}}`
-
-- Clear the data of an application on an emulator or device:
-
-`adb shell pm clear {{package}}`
 
 - Start an activity on emulator or device:
 
