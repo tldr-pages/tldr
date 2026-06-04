@@ -10,6 +10,9 @@
 - Get all the properties from emulator or device:
 
 `adb shell getprop`
+- View documentation for showing Android system properties:
+
+`tldr {{[-p|--platform]}} android getprop`
 
 - Revert all runtime permissions to their default:
 
@@ -25,7 +28,13 @@
 
 - Clear the data of an application on an emulator or device:
 
-`adb shell pm clear {{package}}`
+- View documentation for the Android package manager:
+
+`tldr {{[-p|--platform]}} android pm`
+
+-View documentations for sending event codes and touchscreen events:
+
+`tldr {{[-p|--platform]}} android input`
 
 - Start an activity on emulator or device:
 
@@ -33,4 +42,6 @@
 
 - Start the home activity on an emulator or device:
 
-`adb shell am start -W -c android.intent.category.HOME -a android.intent.action.MAIN`
+- View documentation for the Android activity manager:
+
+`tldr {{[-p|--platform]}} android am`
