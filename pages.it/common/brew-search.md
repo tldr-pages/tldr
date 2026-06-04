@@ -5,7 +5,7 @@
 
 - Cerca cask e formule usando una parola chiave:
 
-`brew search {{keyword}}`
+`brew search {{parola_chiave}}`
 
 - Cerca cask e formule usando una `regex`:
 
@@ -13,12 +13,12 @@
 
 - Abilita la ricerca nelle descrizioni:
 
-`brew search --desc {{keyword}}`
+`brew search --desc {{parola_chiave}}`
 
 - Cerca solo le formule:
 
-`brew search --formula {{keyword}}`
+`brew search --formula {{parola_chiave}}`
 
 - Cerca solo i cask:
 
-`brew search --cask {{keyword}}`
+`brew search --cask {{parola_chiave}}`
