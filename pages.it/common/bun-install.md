@@ -9,11 +9,11 @@
 
 - Installa un singolo pacchetto (alias di `bun add`):
 
-`bun {{[i|install]}} {{package_name}}@{{version}}`
+`bun {{[i|install]}} {{nome_pacchetto}}@{{versione}}`
 
 - Installa un pacchetto globalmente:
 
-`bun {{[i|install]}} {{[-g|--global]}} {{package_name}}`
+`bun {{[i|install]}} {{[-g|--global]}} {{nome_pacchetto}}`
 
 - Installa solo le dipendenze di produzione (salta `devDependencies`):
 

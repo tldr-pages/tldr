@@ -5,16 +5,16 @@
 
 - Mostra i metadati del pacchetto:
 
-`bun info {{package_name}}`
+`bun info {{nome_pacchetto}}`
 
 - Mostra i metadati di una versione specifica:
 
-`bun info {{package_name}}@{{version}}`
+`bun info {{nome_pacchetto}}@{{versione}}`
 
 - Mostra una proprietà specifica di un pacchetto:
 
-`bun info {{package_name}} {{property}}`
+`bun info {{nome_pacchetto}} {{proprietà}}`
 
 - Mostra i risultati in formato JSON:
 
-`bun info {{package_name}} --json`
+`bun info {{nome_pacchetto}} --json`
