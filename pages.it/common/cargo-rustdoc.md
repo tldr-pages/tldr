@@ -23,12 +23,12 @@
 
 - Documenta il binario specificato:
 
-`cargo rustdoc --bin {{name}}`
+`cargo rustdoc --bin {{nome}}`
 
 - Documenta l'example specificato:
 
-`cargo rustdoc --example {{name}}`
+`cargo rustdoc --example {{nome}}`
 
 - Documenta il test di integrazione specificato:
 
-`cargo rustdoc --test {{name}}`
+`cargo rustdoc --test {{nome}}`

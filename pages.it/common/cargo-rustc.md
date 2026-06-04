@@ -31,8 +31,8 @@
 
 - Compila un pacchetto specifico:
 
-`cargo rustc {{[-p|--package]}} {{package}}`
+`cargo rustc {{[-p|--package]}} {{pacchetto}}`
 
 - Compila solo il binario specificato:
 
-`cargo rustc --bin {{name}}`
+`cargo rustc --bin {{nome}}`

@@ -5,11 +5,11 @@
 
 - Esegui solo i test che contengono una stringa specifica nel loro nome:
 
-`cargo {{[t|test]}} {{test_name}}`
+`cargo {{[t|test]}} {{nome_test}}`
 
 - Imposta il numero di casi di test eseguiti contemporaneamente:
 
-`cargo {{[t|test]}} -- --test-threads {{count}}`
+`cargo {{[t|test]}} -- --test-threads {{conto}}`
 
 - Esegui i test in modalità release, con ottimizzazioni:
 
@@ -21,7 +21,7 @@
 
 - Esegui i test per un pacchetto specifico:
 
-`cargo {{[t|test]}} {{[-p|--package]}} {{package}}`
+`cargo {{[t|test]}} {{[-p|--package]}} {{pacchetto}}`
 
 - Esegui i test senza nascondere l'output delle esecuzioni dei test:
 
