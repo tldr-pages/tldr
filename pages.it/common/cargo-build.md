@@ -21,12 +21,12 @@
 
 - Compila un pacchetto specifico:
 
-`cargo {{[b|build]}} {{[-p|--package]}} {{package}}`
+`cargo {{[b|build]}} {{[-p|--package]}} {{pacchetto}}`
 
 - Compila solo il binario specificato:
 
-`cargo {{[b|build]}} --bin {{name}}`
+`cargo {{[b|build]}} --bin {{nome}}`
 
 - Compila solo il test target specificato:
 
-`cargo {{[b|build]}} --test {{test_name}}`
+`cargo {{[b|build]}} --test {{nome_test}}`

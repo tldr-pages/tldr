@@ -7,12 +7,12 @@
 
 - Installa un pacchetto da <https://crates.io>:
 
-`cargo binstall {{package}}`
+`cargo binstall {{pacchetto}}`
 
 - Installa una versione specifica di un pacchetto (di default l'ultima):
 
-`cargo binstall {{package}}@{{version}}`
+`cargo binstall {{pacchetto}}@{{versione}}`
 
 - Installa un pacchetto disabilitando i prompt di conferma:
 
-`cargo binstall {{[-y|--no-confirm]}} {{package}}`
+`cargo binstall {{[-y|--no-confirm]}} {{pacchetto}}`

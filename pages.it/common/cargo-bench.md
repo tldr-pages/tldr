@@ -21,7 +21,7 @@
 
 - Esegui il benchmark con il profilo specificato (predefinito: `bench`):
 
-`cargo bench --profile {{profile}}`
+`cargo bench --profile {{profilo}}`
 
 - Esegui il benchmark di tutti i target example:
 
