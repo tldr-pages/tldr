@@ -1,6 +1,6 @@
 # bun list
 
-> Tämä on alias komennolle `bun pm ls`.
+> Tämä on alias `bun pm ls` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

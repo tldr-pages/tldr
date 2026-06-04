@@ -1,6 +1,6 @@
 # slmgr
 
-> Tämä on alias komennolle `slmgr.vbs`.
+> Tämä on alias `slmgr.vbs` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

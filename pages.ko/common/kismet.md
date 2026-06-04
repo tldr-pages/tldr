@@ -33,4 +33,4 @@
 
 - 특정 AP의 패킷에 대한 자세한 정보 표시:
 
-`sudo kismet -c {{wlan0}} --info {{BSSID}}`
+`sudo kismet -c {{wlan0}} --info {{bssid}}`

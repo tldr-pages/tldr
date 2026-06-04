@@ -1,6 +1,6 @@
 # megadl
 
-> Tämä on alias komennolle `megatools-dl`.
+> Tämä on alias `megatools-dl` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

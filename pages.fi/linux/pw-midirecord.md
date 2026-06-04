@@ -1,6 +1,6 @@
 # pw-midirecord
 
-> Tämä on alias komennolle `pw-cat --record --midi`.
+> Tämä on alias `pw-cat --record --midi` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

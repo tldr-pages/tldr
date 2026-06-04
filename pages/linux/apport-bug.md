@@ -17,4 +17,4 @@
 
 - Report a bug about a specific process:
 
-`apport-bug {{PID}}`
+`apport-bug {{pid}}`

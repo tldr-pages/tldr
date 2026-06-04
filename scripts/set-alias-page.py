@@ -441,7 +441,8 @@ def prompt_alias_page_info(page_path: str) -> AliasPageContent:
 
 def main():
     parser = create_argument_parser(
-        "Sets the alias page for all translations of a page"
+        "Sets the alias page for some or all translations of a page. "
+        "New contributors should use e.g. `-p osx/gsum -l en`"
     )
     parser.add_argument(
         "-i",

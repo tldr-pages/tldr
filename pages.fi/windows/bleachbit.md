@@ -1,6 +1,6 @@
 # bleachbit
 
-> Tämä on alias komennolle `bleachbit_console`.
+> Tämä on alias `bleachbit_console` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

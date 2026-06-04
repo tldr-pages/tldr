@@ -26,7 +26,7 @@
 
 - Crea una nuova playlist con uno o più file musicali oppure URL:
 
-`clementine {{[-c|--create]}} {{url1 url2 ... | percorso/del/file/music1.ext percorso/del/file/music2.ext ...}}`
+`clementine {{[-c|--create]}} {{url1|percorso/del/file/music1.ext url2|percorso/del/file/music2.ext ...}}`
 
 - Carica una playlist:
 

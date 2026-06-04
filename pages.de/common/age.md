@@ -1,7 +1,7 @@
 # age
 
 > Ein einfaches, modernes und sicheres Dateiverschlüsselungswerkzeug.
-> Siehe auch: `age-keygen`.
+> Siehe auch: `age-keygen`, `age-inspect`.
 > Weitere Informationen: <https://github.com/FiloSottile/age#usage>.
 
 - Generiere eine verschlüsselte Datei, die mit einer Passphrase entschlüsselt werden kann:

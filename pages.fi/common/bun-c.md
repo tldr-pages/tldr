@@ -1,6 +1,6 @@
 # bun c
 
-> Tämä on alias komennolle `bun create`.
+> Tämä on alias `bun create` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
