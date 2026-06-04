@@ -9,15 +9,15 @@
 
 - Aggiungi un repository Git ospitato su GitHub:
 
-`brew tap {{github_username}}/{{github_repository_name}}`
+`brew tap {{nome_utente_github}}/{{nome_repository_github}}`
 
 - Aggiungi un repository Git ospitato fuori da GitHub:
 
-`brew tap {{username}}/{{repository_name}} {{git_clone_url}}`
+`brew tap {{nome_utente}}/{{nome_repository}} {{url_git_clone}}`
 
 - Aggiungi un repository ospitato su GitLab:
 
-`brew tap {{username}}/{{repository_name}} https://gitlab.com/{{username}}/{{repository_name}}.git`
+`brew tap {{nome_utente}}/{{nome_repository}} https://gitlab.com/{{nome_utente}}/{{nome_repository}}.git`
 
 - Mostra l'aiuto:
 
