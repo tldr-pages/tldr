@@ -5,32 +5,32 @@
 
 - Bundla un entry point in un singolo file di output:
 
-`bun build {{path/to/entry.ts}} --outfile {{path/to/output.js}}`
+`bun build {{percorso/dell/entry.ts}} --outfile {{percorso/del/output.js}}`
 
 - Bundla più entry point in una directory di output:
 
-`bun build {{path/to/entry1.ts path/to/entry2.ts ...}} --outdir {{path/to/dist}}`
+`bun build {{percorso/dell/entry1.ts percorso/dell/entry2.ts ...}} --outdir {{percorso/del/dist}}`
 
 - Bundla con sourcemap per il debug:
 
-`bun build {{path/to/entry.ts}} --outfile {{path/to/output.js}} --sourcemap`
+`bun build {{percorso/dell/entry.ts}} --outfile {{percorso/del/output.js}} --sourcemap`
 
 - Bundla con minificazione per la produzione:
 
-`bun build {{path/to/entry.ts}} --outfile {{path/to/output.js}} --minify`
+`bun build {{percorso/dell/entry.ts}} --outfile {{percorso/del/output.js}} --minify`
 
 - Bundla per un ambiente target specifico:
 
-`bun build {{path/to/entry.ts}} --outfile {{path/to/output.js}} --target {{browser|bun|node}}`
+`bun build {{percorso/dell/entry.ts}} --outfile {{percorso/del/output.js}} --target {{browser|bun|node}}`
 
 - Bundla in un eseguibile standalone:
 
-`bun build {{path/to/entry.ts}} --compile --outfile {{path/to/executable}}`
+`bun build {{percorso/dell/entry.ts}} --compile --outfile {{percorso/dell/executable}}`
 
 - Osserva i cambiamenti dei file e ricostruisci automaticamente:
 
-`bun build {{path/to/entry.ts}} --outfile {{path/to/output.js}} --watch`
+`bun build {{percorso/dell/entry.ts}} --outfile {{percorso/del/output.js}} --watch`
 
 - Bundla con dipendenze esterne non incluse nell'output:
 
-`bun build {{path/to/entry.ts}} --outfile {{path/to/output.js}} {{[-e|--external]}} {{react react-dom}}`
+`bun build {{percorso/dell/entry.ts}} --outfile {{percorso/del/output.js}} {{[-e|--external]}} {{react react-dom}}`

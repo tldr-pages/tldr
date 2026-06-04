@@ -22,4 +22,4 @@
 
 - Esegui un file di script:
 
-`bun exec {{path/to/script}}`
+`bun exec {{percorso/dello/script}}`

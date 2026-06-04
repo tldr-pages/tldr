@@ -25,7 +25,7 @@
 
 - Installa le dipendenze in una directory specifica:
 
-`bun install --path {{path/to/node_modules}}`
+`bun install --path {{percorso/del/node_modules}}`
 
 - Mostra i moduli installati:
 
