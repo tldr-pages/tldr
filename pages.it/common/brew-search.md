@@ -7,7 +7,7 @@
 
 `brew search {{keyword}}`
 
-- Cerca cask e formule usando una regex:
+- Cerca cask e formule usando una `regex`:
 
 `brew search /{{regex}}/`
 
