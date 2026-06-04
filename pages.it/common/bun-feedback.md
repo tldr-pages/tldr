@@ -5,12 +5,12 @@
 
 - Invia del testo come feedback:
 
-`bun feedback "{{Feedback text!}}"`
+`bun feedback "{{Testo Feedback!}}"`
 
 - Invia uno o più file come feedback:
 
-`bun feedback {{path/to/file1 path/to/file2 ...}}`
+`bun feedback {{percorso/al/file1 percorso/al/file2 ...}}`
 
 - Invia feedback con un indirizzo email allegato:
 
-`bun feedback {{path/to/file|text}} {{[-e|--email]}} {{email@address}}`
+`bun feedback {{path/to/file|text}} {{[-e|--email]}} {{email@indirizzo}}`
