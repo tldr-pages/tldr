@@ -14,4 +14,4 @@
 
 - Usa il registro specificato (i nomi dei registri possono essere definiti nella configurazione - il predefinito è <https://crates.io>):
 
-`cargo publish --registry {{name}}`
+`cargo publish --registry {{nome}}`

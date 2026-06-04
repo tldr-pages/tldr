@@ -5,12 +5,12 @@
 
 - Rimuovi una dipendenza dal progetto corrente:
 
-`cargo remove {{dependency}}`
+`cargo remove {{dipendenza}}`
 
 - Rimuovi una dipendenza di sviluppo o di build:
 
-`cargo remove --{{dev|build}} {{dependency}}`
+`cargo remove --{{dev|build}} {{dipendenza}}`
 
 - Rimuovi una dipendenza per la piattaforma target specificata:
 
-`cargo remove --target {{target}} {{dependency}}`
+`cargo remove --target {{target}} {{dipendenza}}`

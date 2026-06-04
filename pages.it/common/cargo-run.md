@@ -10,11 +10,11 @@
 
 - Esegui il binario specificato:
 
-`cargo {{[r|run]}} --bin {{name}}`
+`cargo {{[r|run]}} --bin {{nome}}`
 
 - Esegui l'example specificato:
 
-`cargo {{[r|run]}} --example {{name}}`
+`cargo {{[r|run]}} --example {{nome}}`
 
 - Attiva una lista di feature separate da spazio o virgola:
 
@@ -30,4 +30,4 @@
 
 - Esegui con il profilo specificato:
 
-`cargo {{[r|run]}} --profile {{name}}`
+`cargo {{[r|run]}} --profile {{nome}}`

@@ -13,4 +13,4 @@
 
 - Mostra un report per il pacchetto specificato:
 
-`cargo report future-incompatibilities {{[-p|--package]}} {{package}}`
+`cargo report future-incompatibilities {{[-p|--package]}} {{pacchetto}}`
