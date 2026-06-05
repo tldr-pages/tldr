@@ -9,4 +9,4 @@
 
 - Remove an app from a specific user:
 
-`pm uninstall --user {{0}} {{package}}`
+`pm uninstall --user {{user_id}} {{package}}`
