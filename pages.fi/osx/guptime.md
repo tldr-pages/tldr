@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr uptime`
+`tldr {{[-p|--platform]}} common uptime`

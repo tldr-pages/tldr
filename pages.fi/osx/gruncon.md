@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr runcon`
+`tldr {{[-p|--platform]}} linux runcon`

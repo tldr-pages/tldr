@@ -1,7 +1,7 @@
 # guname
 
-> Tämä on alias GNU:n `uname` komennolle.
+> Tämä on alias `uname` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr uname`
+`tldr {{[-p|--platform]}} common uname`

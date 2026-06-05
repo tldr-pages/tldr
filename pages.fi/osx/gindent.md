@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr indent`
+`tldr {{[-p|--platform]}} common indent`

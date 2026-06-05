@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr dnsdomainname`
+`tldr {{[-p|--platform]}} linux dnsdomainname`

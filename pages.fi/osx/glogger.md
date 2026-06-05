@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr logger`
+`tldr {{[-p|--platform]}} linux logger`

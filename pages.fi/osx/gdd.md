@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr dd`
+`tldr {{[-p|--platform]}} linux dd`

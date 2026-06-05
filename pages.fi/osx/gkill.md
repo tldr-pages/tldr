@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr kill`
+`tldr {{[-p|--platform]}} linux kill`

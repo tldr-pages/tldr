@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr rlogin`
+`tldr {{[-p|--platform]}} linux rlogin`

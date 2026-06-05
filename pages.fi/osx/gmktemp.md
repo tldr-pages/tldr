@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr mktemp`
+`tldr {{[-p|--platform]}} linux mktemp`

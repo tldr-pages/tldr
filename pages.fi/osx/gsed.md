@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr sed`
+`tldr {{[-p|--platform]}} linux sed`

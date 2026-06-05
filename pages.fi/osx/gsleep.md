@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr sleep`
+`tldr {{[-p|--platform]}} linux sleep`

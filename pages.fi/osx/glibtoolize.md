@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr libtoolize`
+`tldr {{[-p|--platform]}} linux libtoolize`

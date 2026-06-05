@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr ptx`
+`tldr {{[-p|--platform]}} linux ptx`

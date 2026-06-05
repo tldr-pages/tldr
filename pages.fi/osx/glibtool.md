@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr libtool`
+`tldr {{[-p|--platform]}} linux libtool`

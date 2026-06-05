@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr mknod`
+`tldr {{[-p|--platform]}} linux mknod`

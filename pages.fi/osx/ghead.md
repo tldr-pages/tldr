@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr head`
+`tldr {{[-p|--platform]}} linux head`

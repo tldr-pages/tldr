@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr tftp`
+`tldr {{[-p|--platform]}} linux tftp`

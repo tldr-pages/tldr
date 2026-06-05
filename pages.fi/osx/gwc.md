@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr wc`
+`tldr {{[-p|--platform]}} common wc`

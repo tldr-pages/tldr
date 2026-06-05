@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr rsh`
+`tldr {{[-p|--platform]}} linux rsh`

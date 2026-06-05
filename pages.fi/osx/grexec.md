@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr rexec`
+`tldr {{[-p|--platform]}} linux rexec`

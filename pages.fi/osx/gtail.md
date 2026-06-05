@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr tail`
+`tldr {{[-p|--platform]}} common tail`

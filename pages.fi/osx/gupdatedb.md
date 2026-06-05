@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr updatedb`
+`tldr {{[-p|--platform]}} linux updatedb`

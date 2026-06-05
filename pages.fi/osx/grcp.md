@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr rcp`
+`tldr {{[-p|--platform]}} linux rcp`

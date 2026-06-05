@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr split`
+`tldr {{[-p|--platform]}} common split`

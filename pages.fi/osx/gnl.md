@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr nl`
+`tldr {{[-p|--platform]}} linux nl`

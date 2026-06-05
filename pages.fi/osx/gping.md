@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr ping`
+`tldr {{[-p|--platform]}} common ping`

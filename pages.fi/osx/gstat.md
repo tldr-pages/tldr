@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr stat`
+`tldr {{[-p|--platform]}} common stat`

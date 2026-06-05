@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr df`
+`tldr {{[-p|--platform]}} linux df`

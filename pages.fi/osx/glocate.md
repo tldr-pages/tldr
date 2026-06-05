@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr locate`
+`tldr {{[-p|--platform]}} linux locate`

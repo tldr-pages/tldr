@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr fold`
+`tldr {{[-p|--platform]}} linux fold`

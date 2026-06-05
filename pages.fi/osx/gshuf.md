@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr shuf`
+`tldr {{[-p|--platform]}} common shuf`

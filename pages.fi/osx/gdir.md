@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr dir`
+`tldr {{[-p|--platform]}} linux dir`
