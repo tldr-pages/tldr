@@ -7,7 +7,7 @@
 
 - DNS 설정 표시:
 
-`resolvectl status`
+`resolvectl`
 
 - 하나 이상의 도메인에 대한 IPv4 및 IPv6 주소 해석:
 
@@ -27,7 +27,7 @@
 
 - 도메인의 MX 레코드 검색:
 
-`resolvectl --legend={{no}} --type={{MX}} query {{도메인}}`
+`resolvectl --legend {{no}} {{[-t|--type]}} {{MX}} query {{도메인}}`
 
 - 예를 들어 _xmpp-server._tcp gmail.com와 같은 SRV 레코드 해석:
 

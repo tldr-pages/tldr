@@ -6,11 +6,11 @@
 
 - 소스 파일을 네이티브 바이너리로 컴파일하고 패키지와 링크:
 
-`ocamlfind ocamlopt -package {{패키지1}},{{패키지2}} -linkpkg -o {{경로/대상/실행파일}} {{경로/대상/소스.ml}}`
+`ocamlfind ocamlopt -package {{패키지1,패키지2,...}} -linkpkg -o {{경로/대상/실행파일}} {{경로/대상/소스.ml}}`
 
 - 소스 파일을 바이트코드 바이너리로 컴파일하고 패키지와 링크:
 
-`ocamlfind ocamlc -package {{패키지1}},{{패키지2}} -linkpkg -o {{경로/대상/실행파일}} {{경로/대상/소스.ml}}`
+`ocamlfind ocamlc -package {{패키지1,패키지2,...}} -linkpkg -o {{경로/대상/실행파일}} {{경로/대상/소스.ml}}`
 
 - 다른 플랫폼용으로 크로스 컴파일:
 

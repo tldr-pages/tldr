@@ -22,7 +22,7 @@
 
 - 이미지 색상을 CMYK에서 RGB로 변환:
 
-`sips --matchTo "/System/Library/ColorSync/Profiles/Generic RGB Profile.icc" {{경로/대상/이미지.ext}} {{경로/대상/출력_폴더}}`
+`sips --matchTo "/System/Library/ColorSync/Profiles/Generic RGB Profile.icc" {{경로/대상/이미지.ext}} --out {{경로/대상/출력_폴더}}`
 
 - 이미지에서 ColorSync ICC 프로필 제거:
 

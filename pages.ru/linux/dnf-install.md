@@ -1,6 +1,6 @@
 # dnf install
 
-> Установка пакетов в дистрибутивах на базе Red Hat.
+> Устанавливать пакеты в дистрибутивах на базе Red Hat.
 > Больше информации: <https://dnf.readthedocs.io/en/latest/command_ref.html#install-examples>.
 
 - Установить пакеты по имени:
@@ -14,6 +14,10 @@
 - Установить пакет из интернета:
 
 `sudo dnf {{[in|install]}} {{https://example.com/package.rpm}}`
+
+- Добавить репозиторий несвободных пакетов Fedora:
+
+`sudo dnf {{[in|install]}} https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm`
 
 - Добавить репозитории Extra Packages for Enterprise Linux (EPEL):
 

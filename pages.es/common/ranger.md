@@ -14,11 +14,11 @@
 
 - Cambia el directorio de configuración:
 
-`ranger --confdir={{ruta/al/directorio}}`
+`ranger {{[-r|--confdir]}} {{ruta/al/directorio}}`
 
 - Cambia el directorio de datos:
 
-`ranger --datadir={{ruta/al/directorio}}`
+`ranger --datadir {{ruta/al/directorio}}`
 
 - Imprime estadísticas de uso de la CPU al salir:
 

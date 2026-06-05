@@ -1,7 +1,7 @@
 # gsettings
 
 > 스키마 검증을 통해 dconf 설정을 조회하고 수정.
-> 더 많은 정보: <https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/using_the_desktop_environment_in_rhel_8/configuring-gnome-at-low-level_using-the-desktop-environment-in-rhel-8#using-gsettings-command_configuring-gnome-at-low-level>.
+> 더 많은 정보: <https://manned.org/gsettings>.
 
 - 키의 값을 설정 (키가 존재하지 않거나 값이 범위를 벗어난 경우 실패):
 

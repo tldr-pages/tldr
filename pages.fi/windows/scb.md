@@ -1,6 +1,6 @@
 # scb
 
-> Tämä on alias komennolle `Set-Clipboard`.
+> Tämä on alias `Set-Clipboard` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

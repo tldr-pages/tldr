@@ -13,12 +13,12 @@
 
 - 특정 구성 파일을 사용하여 문서 생성:
 
-`phpdox --file {{경로/대상/phpdox.xml}}`
+`phpdox {{[-f|--file]}} {{경로/대상/phpdox.xml}}`
 
 - 메타데이터 수집 프로세스만 실행:
 
-`phpdox --collector`
+`phpdox {{[-c|--collector]}}`
 
 - 문서 생성기 프로세스만 실행:
 
-`phpdox --generator`
+`phpdox {{[-g|--generator]}}`

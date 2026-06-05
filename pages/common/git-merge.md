@@ -3,9 +3,9 @@
 > Merge branches.
 > More information: <https://git-scm.com/docs/git-merge>.
 
-- Merge a branch into your current branch:
+- Merge branches into your current branch:
 
-`git merge {{branch_name}}`
+`git merge {{branch_name1 branch_name2 ...}}`
 
 - Edit the merge message:
 

@@ -1,6 +1,6 @@
 # montage
 
-> Tämä on alias komennolle `magick montage`.
+> Tämä on alias `magick montage` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

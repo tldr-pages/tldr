@@ -1,6 +1,7 @@
 # cargo fmt
 
 > 在 Rust 專案中對所有原始檔案執行 `rustfmt`。
+> 另請參閱：`rustfmt`。
 > 更多資訊：<https://github.com/rust-lang/rustfmt>。
 
 - 格式化所有原始檔案：

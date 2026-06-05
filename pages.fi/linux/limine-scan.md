@@ -1,6 +1,6 @@
 # limine-scan
 
-> Tämä on alias komennolle `limine-entry-tool --scan`.
+> Tämä on alias `limine-entry-tool --scan` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

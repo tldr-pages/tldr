@@ -1,6 +1,6 @@
 # brew rm
 
-> Tämä on alias komennolle `brew uninstall`.
+> Tämä on alias `brew uninstall` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -29,7 +29,7 @@
 
 - 从自定义的源处获取包：
 
-`choco install {{包名}} --source {{源 URL|别名}}`
+`choco install {{包名}} --source {{源url|别名}}`
 
 - 提供一个用户名和密码来进行验证：
 

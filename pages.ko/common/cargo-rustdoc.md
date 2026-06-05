@@ -2,6 +2,7 @@
 
 > Rust 패키지의 문서를 작성.
 > `cargo doc`과 유사하지만, `rustdoc`에 옵션을 전달할 수 있음. 사용 가능한 모든 옵션은 `rustdoc --help`를 참조.
+> 관련 항목: `rustdoc`.
 > 더 많은 정보: <https://doc.rust-lang.org/cargo/commands/cargo-rustdoc.html>.
 
 - `rustdoc`에 옵션을 전달:
@@ -10,11 +11,11 @@
 
 - 문서 린트에 대해 경고:
 
-`cargo rustdoc -- --warn rustdoc::{{린트_이름}}`
+`cargo rustdoc -- {{[-W|--warn]}} rustdoc::{{린트_이름}}`
 
 - 문서 린트를 무시:
 
-`cargo rustdoc -- --allow rustdoc::{{린트_이름}}`
+`cargo rustdoc -- {{[-A|--allow]}} rustdoc::{{린트_이름}}`
 
 - 패키지 라이브러리를 문서화:
 

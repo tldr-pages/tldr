@@ -13,7 +13,7 @@
 
 - Create a container passing options to a template:
 
-`sudo lxc-create {{[-n|--name]}} {{container_name}} {{[-t|--template]}} download -- {{[-d|--dist]}} {{distro-name}} {{[-r|--release]}} {{release-version}} {{[-a|--arch]}} {{arch}}`
+`sudo lxc-create {{[-n|--name]}} {{container_name}} {{[-t|--template]}} download -- {{[-d|--dist]}} {{distro_name}} {{[-r|--release]}} {{release_version}} {{[-a|--arch]}} {{architecture}}`
 
 - Display help:
 
