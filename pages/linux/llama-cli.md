@@ -14,7 +14,7 @@
 
 - Start with set offload [n]umber of layer [g]pu [l]ayers:
 
-`llama-cli {{[-m|--model]}} {{path/to/model}} {{[-ngl|--gpu-layers|--n-gpu-layers]}} {{number}}`
+`llama-cli {{[-m|--model]}} {{path/to/model}} {{[-ngl|--gpu-layers|--n-gpu-layers]}} {{auto|all|number}}`
 
 - Start with sending content as [sys]tem prompt from a [f]ile:
 
