@@ -18,7 +18,7 @@
 
 - Start with sending content as [sys]tem prompt from a [f]ile:
 
-`llama-cli {{[-m|--model]}} {{path/to/model}} {{[-sysf|--system-prompt]}} {{prompt}}`
+`llama-cli {{[-m|--model]}} {{path/to/model}} {{[-sysf|--system-prompt-file]}} {{path/to/prompt}}`
 
 - Start with sending content in [f]ile as first prompt:
 
