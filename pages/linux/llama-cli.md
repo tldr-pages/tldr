@@ -22,4 +22,4 @@
 
 - Start with sending content in [f]ile as first prompt:
 
-`llama-cli {{[-m|--model]}} {{path/to/model}} {{[-f|--file]}} {{prompt}}`
+`llama-cli {{[-m|--model]}} {{path/to/model}} {{[-f|--file]}} {{path/to/prompt}}`
