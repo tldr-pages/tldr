@@ -1,6 +1,6 @@
 # docker cp
 
-> Tämä on alias komennolle `docker container cp`.
+> Tämä on alias `docker container cp` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

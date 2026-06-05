@@ -1,6 +1,6 @@
 # docker update
 
-> Tämä on alias komennolle `docker container update`.
+> Tämä on alias `docker container update` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

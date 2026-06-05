@@ -9,4 +9,4 @@
 
 - Resolve an IP to a hostname, verbosely:
 
-`avahi-resolve {{[-v|--verbose]}} {{[-a|--address]}} {{IP}}`
+`avahi-resolve {{[-v|--verbose]}} {{[-a|--address]}} {{ip}}`

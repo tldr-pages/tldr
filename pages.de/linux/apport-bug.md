@@ -17,4 +17,4 @@
 
 - Reiche einen Fehlerbericht über einen bestimmten Prozess ein:
 
-`apport-bug {{PID}}`
+`apport-bug {{pid}}`

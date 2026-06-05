@@ -1,6 +1,6 @@
 # xzfgrep
 
-> Tämä on alias komennolle `xzgrep --fixed-strings`.
+> Tämä on alias `xzgrep --fixed-strings` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

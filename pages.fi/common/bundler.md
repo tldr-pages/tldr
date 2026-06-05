@@ -1,6 +1,6 @@
 # bundler
 
-> Tämä on alias komennolle `bundle`.
+> Tämä on alias `bundle` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

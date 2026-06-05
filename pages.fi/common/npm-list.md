@@ -1,6 +1,6 @@
 # npm list
 
-> Tämä on alias komennolle `npm ls`.
+> Tämä on alias `npm ls` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

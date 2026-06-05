@@ -9,7 +9,7 @@
 
 - SSL/TLS 서버에서 제공하는 인증서 표시:
 
-`openssl s_client -connect {{호스트}}:{{포트}} </dev/null`
+`openssl < /dev/null s_client -connect {{호스트}}:{{포트}}`
 
 - SSL/TLS 서버에 연결할 때 서버 이름 지시자(SNI) 설정:
 
@@ -17,4 +17,4 @@
 
 - HTTPS 서버의 전체 인증서 체인 표시:
 
-`openssl s_client -connect {{호스트}}:443 -showcerts </dev/null`
+`openssl < /dev/null s_client -connect {{호스트}}:443 -showcerts`

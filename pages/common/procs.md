@@ -11,7 +11,7 @@
 
 `procs --tree`
 
-- List information about processes, if the commands which started them contain Zsh:
+- List information about processes, if the commands which started them contain `zsh`:
 
 `procs {{zsh}}`
 

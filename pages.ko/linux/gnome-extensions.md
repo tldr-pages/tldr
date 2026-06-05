@@ -17,11 +17,11 @@
 
 - 특정 확장 비활성화:
 
-`gnome-extension disable "{{확장_id}}"`
+`gnome-extensions disable "{{확장_id}}"`
 
 - 특정 확장 제거:
 
-`gnome-extension uninstall "{{확장_id}}"`
+`gnome-extensions uninstall "{{확장_id}}"`
 
 - 특정 하위 명령(예: `list`)에 대한 도움말 표시:
 

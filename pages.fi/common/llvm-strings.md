@@ -1,6 +1,6 @@
 # llvm-strings
 
-> Tämä on alias komennolle `strings`.
+> Tämä on alias `strings` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

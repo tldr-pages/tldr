@@ -1,4 +1,4 @@
-/pages.ar/ @MachiavelliII @ali90h
+/pages.ar/ @MachiavelliII
 /pages.bn/ @badhon495
 /pages.cs/ @Sarijen
 /pages.de/ @pixelcmtd @gutjuri
@@ -15,9 +15,8 @@
 /pages.ro/ @iamxorum
 /pages.ru/ @ivanbaluta @emmanuel-ferdman
 /pages.ta/ @kbdharun
-/pages.tr/ @tansiret
-/pages.zh/ @blueskyson @einverne @DustMerlin @zhb4 @BananaaaKING @Ninzero
-/pages.zh_TW/ @blueskyson @DustMerlin @zhb4 @Ninzero
+/pages.zh/ @BananaaaKING @Ninzero
+/pages.zh_TW/ @Ninzero
 
 /*.md @sbrl @kbdharun @sebastiaanspeck
 /.devcontainer/* @kbdharun @sebastiaanspeck
@@ -30,7 +29,7 @@
 /contributing-guides/maintainers-guide.md @sbrl @kbdharun @sebastiaanspeck
 /contributing-guides/style-guide.md @sbrl @kbdharun @sebastiaanspeck
 /contributing-guides/translation-templates/ @kbdharun @sebastiaanspeck
-/contributing-guides/*.ar.md @MachiavelliII @ali90h
+/contributing-guides/*.ar.md @MachiavelliII
 /contributing-guides/*.bn.md @badhon495
 /contributing-guides/*.cs.md @Sarijen
 /contributing-guides/*.de.md @pixelcmtd @gutjuri
@@ -47,6 +46,5 @@
 /contributing-guides/*.ro.md @iamxorum
 /contributing-guides/*.ru.md @ivanbaluta @emmanuel-ferdman
 /contributing-guides/*.ta.md @kbdharun
-/contributing-guides/*.tr.md @tansiret
-/contributing-guides/*.zh.md @blueskyson @einverne @DustMerlin @zhb4 @BananaaaKING @Ninzero
-/contributing-guides/*.zh_TW.md @blueskyson @DustMerlin @zhb4 @Ninzero
+/contributing-guides/*.zh.md @BananaaaKING @Ninzero
+/contributing-guides/*.zh_TW.md @Ninzero
