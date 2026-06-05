@@ -4,4 +4,4 @@
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr talk`
+`tldr {{[-p|--platform]}} linux talk`
