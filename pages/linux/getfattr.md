@@ -1,6 +1,7 @@
 # getfattr
 
 > Display file names and extended attributes.
+> See also: `setfattr`.
 > More information: <https://manned.org/getfattr>.
 
 - Retrieve all extended attributes of a file and display them in a detailed format:

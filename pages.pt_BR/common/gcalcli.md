@@ -10,7 +10,7 @@
 
 - Mostra eventos começando em ou entre datas específicas (também recebe datas relativas, por exemplo, "amanhã"):
 
-`gcalcli agenda {{mm/dd}} [{{mm/dd}}]`
+`gcalcli agenda {{mm/dd}} {{mm/dd}}`
 
 - Lista eventos de um calendário específico:
 

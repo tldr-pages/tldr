@@ -9,7 +9,7 @@
 
 - List components in a project and override API URL and API key:
 
-`wlc {{[-u|--url]}} {{URL}} {{[-k|--key]}} {{key}} ls {{project}}`
+`wlc {{[-u|--url]}} {{url}} {{[-k|--key]}} {{key}} ls {{project}}`
 
 - List translations from a component in a specific format:
 

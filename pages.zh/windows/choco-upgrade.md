@@ -25,7 +25,7 @@
 
 - 从自定义源处升级包：
 
-`choco upgrade {{包名}} --source {{源 URL|别名}}`
+`choco upgrade {{包名}} --source {{源url|别名}}`
 
 - 提供一个用户名和密码来进行验证：
 
