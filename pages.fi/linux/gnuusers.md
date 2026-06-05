@@ -1,7 +1,7 @@
 # gnuusers
 
-> Tämä on alias `user` komennolle.
+> Tämä on alias `users` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
-`tldr user`
+`tldr users`
