@@ -23,6 +23,14 @@
 
 `steamosctl set-cpu-scheduler {{none|lavd|...}}`
 
+- Display available desktop sessions:
+
+`steamosctl get-valid-desktop-sessions`
+
+- Set the the default desktop session:
+
+`steamosctl set-default-desktop-session {{plasma.desktop|plasmax11.desktop|...}}`
+
 - Display help:
 
 `steamosctl`
