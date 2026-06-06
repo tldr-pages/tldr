@@ -9,7 +9,7 @@
 
 - Add a note with inline content:
 
-`dnote add {{book_name}} -c "{{note_content}}"`
+`dnote add {{book_name}} {{[-c|--content]}} "{{note_content}}"`
 
 - List all books and notes:
 
