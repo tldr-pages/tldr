@@ -7,11 +7,11 @@
 
 - Set the absolute priority of a running process:
 
-`renice --priority {{3}} {{[-p|--pid]}} {{pid}}`
+`renice --priority {{3}} {{[-p|--pid]}} {{process_id}}`
 
 - Increase the priority of a running process:
 
-`sudo renice --relative {{-4}} {{[-p|--pid]}} {{pid}}`
+`sudo renice --relative {{-4}} {{[-p|--pid]}} {{process_id}}`
 
 - Decrease the priority of all processes owned by a user:
 
