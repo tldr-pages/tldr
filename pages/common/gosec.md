@@ -1,6 +1,7 @@
 # gosec
 
 > Inspect Go source code for security problems.
+> Note: `./...` is a Go package pattern understood by Go tooling, It matches the current package and all packages recursively under the current directory.
 > More information: <https://github.com/securego/gosec>.
 
 - Scan a Go package recursively in the current directory:
