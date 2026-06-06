@@ -1,7 +1,7 @@
 # dnote
 
 > A multi-device, command-line notebook for capturing commands, snippets, and notes.
-> More information: <https://www.getdnote.com>.
+> More information: <https://www.getdnote.com/docs/cli/commands/>.
 
 - Add a note to a book, opening the configured editor:
 
