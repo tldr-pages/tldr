@@ -15,6 +15,14 @@
 
 `steamosctl set-default-login-mode {{game|desktop}}`
 
+- Get currently used CPU scheduler:
+
+`steamosctl get-cpu-scheduler`
+
+- Set the system to use a specific CPU scheduler:
+
+`steamosctl set-cpu-scheduler {{none|lavd|...}}`
+
 - Display help:
 
 `steamosctl`
