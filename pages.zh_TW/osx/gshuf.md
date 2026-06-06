@@ -4,4 +4,4 @@
 
 - 原命令的文件在：
 
-`tldr {{[-p|--platform]}} coomon shuf`
+`tldr {{[-p|--platform]}} common shuf`
