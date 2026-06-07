@@ -9,7 +9,7 @@
 
 - Sample metrics every 2 seconds, taking 10 samples then exit:
 
-`sudo powermetrics --sample-interval {{2000}} --sample-count {{10}}`
+`sudo powermetrics --sample-rate {{2000}} --sample-count {{10}}`
 
 - Save output to a file instead of `stdout`:
 
