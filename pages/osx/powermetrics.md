@@ -1,8 +1,7 @@
 # powermetrics
 
-> Gather and display CPU usage, power, and interrupt wakeup statistics on macOS.
-> Requires root privileges to run.
-> More information: <https://www.unix.com/man_page/osx/1/powermetrics/>.
+> Gather and display CPU usage, power, and interrupt wakeup statistics.
+> More information: <https://keith.github.io/xcode-man-pages/powermetrics.1.html>.
 
 - Display CPU, power, and wakeup metrics using the default 5-second sample interval:
 
