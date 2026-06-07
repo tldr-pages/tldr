@@ -6,19 +6,19 @@
 
 - Record the screen:
 
-`screenrecord {{path/to/file}}`
+`screenrecord {{path/to/file}}.mp4`
 
 - Record the screen at a specific resolution:
 
-`screenrecord --size {{1280x720}} {{path/to/file}}`
+`screenrecord --size {{1280x720}} {{path/to/file}}.mp4`
 
 - Record the screen with a specific bitrate:
 
-`screenrecord --bit-rate {{6000000}} {{path/to/file}}`
+`screenrecord --bit-rate {{6000000}} {{path/to/file}}.mp4`
 
 - Record the screen with a maximum duration (in seconds, 180 seconds is the maximum):
 
-`screenrecord --time-limit {{180}} {{path/to/file}}`
+`screenrecord --time-limit {{180}} {{path/to/file}}.mp4`
 
 - Display help:
 
