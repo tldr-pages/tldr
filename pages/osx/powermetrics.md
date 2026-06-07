@@ -15,9 +15,9 @@
 
 `sudo powermetrics --output-file {{path/to/output.txt}}`
 
-- Order the process list by a specified method (`pid`, `wakeups`, `cputime`, or `composite`):
+- Order the process list by the specified method (default: `composite`):
 
-`sudo powermetrics --order {{composite}}`
+`sudo powermetrics --order {{pid|wakeups|cputime|composite}}`
 
 - Display output in machine-readable plist format and print a usage summary on exit:
 
