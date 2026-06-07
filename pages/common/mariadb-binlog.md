@@ -9,7 +9,7 @@
 
 - Show entries from a binary log for a specific database:
 
-`mariadb-binlog --database {{database_name}} {{path/to/binlog}}`
+`mariadb-binlog {{[-d|--database]}} {{database_name}} {{path/to/binlog}}`
 
 - Show events from a binary log between specific dates:
 
@@ -17,8 +17,8 @@
 
 - Show events from a binary log between specific positions:
 
-`mariadb-binlog --start-position {{100}} --stop-position {{200}} {{path/to/binlog}}`
+`mariadb-binlog {{[-j|--start-position]}} {{100}} --stop-position {{200}} {{path/to/binlog}}`
 
 - Show binary log from a MySQL server on the given host:
 
-`mariadb-binlog --host {{hostname}} {{path/to/binlog}}`
+`mariadb-binlog {{[-h|--host]}} {{hostname}} {{path/to/binlog}}`
