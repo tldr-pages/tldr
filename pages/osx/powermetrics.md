@@ -13,7 +13,7 @@
 
 - Save output to a file instead of `stdout`:
 
-`sudo powermetrics --output-file {{path/to/output.txt}}`
+`sudo powermetrics {{[-o|--output-file]}} {{path/to/output.txt}}`
 
 - Order the process list by the specified method (default: `composite`):
 
