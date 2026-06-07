@@ -7,3 +7,15 @@
 - Take a screenshot:
 
 `screencap {{path/to/file}}`
+
+- Print file contents to `stdout` as PNG:
+
+`screencap -p`
+
+- Take a screenshot and save it over an `adb` connection:
+
+`adb shell screencap -p > }`
+
+- Display help:
+
+`screencap -h`
