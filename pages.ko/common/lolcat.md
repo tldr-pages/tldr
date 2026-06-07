@@ -27,6 +27,6 @@
 
 `lolcat {{[-a|--animate]}} {{경로/대상/파일}}`
 
-- 24비트(True Color) 무지개 색상으로 출력
+- 24비트(True Color) 무지개 색상으로 출력:
 
 `lolcat {{[-t|--truecolor]}} {{경로/대상/파일}}`
