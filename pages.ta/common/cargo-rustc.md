@@ -15,15 +15,15 @@
 
 - தற்போதைய CPUக்கான கட்டமைப்பு-குறிப்பிட்ட மேம்படுத்தல்களுடன் தொகுக்கவும்:
 
-`cargo rustc {{[-r|--release]}} -- -C target-cpu=native`
+`cargo rustc {{[-r|--release]}} -- {{[-C|--codegen]}} target-cpu=native`
 
 - வேக உகப்பாக்கத்துடன் தொகுக்கவும்:
 
-`cargo rustc -- -C opt-level {{1|2|3}}`
+`cargo rustc -- {{[-C|--codegen]}} opt-level={{1|2|3}}`
 
 - [s]ize (அளவு) ஆப்டிமைசேஷன் மூலம் தொகுக்கவும் (`z` லூப் வெக்டரைசேஷனையும் முடக்குகிறது):
 
-`cargo rustc -- -C opt-level {{s|z}}`
+`cargo rustc -- {{[-C|--codegen]}} opt-level={{s|z}}`
 
 - உங்கள் தொகுப்பு பாதுகாப்பற்ற குறியீட்டைப் பயன்படுத்துகிறதா எனச் சரிபார்க்கவும்:
 
