@@ -19,6 +19,6 @@
 
 `sudo powermetrics {{[-r|--order]}} {{pid|wakeups|cputime|composite}}`
 
-- Display output in machine-readable plist format and print a usage summary on exit:
+- Display output in machine-readable property list format and print a usage summary on exit:
 
 `sudo powermetrics {{[-f|--format]}} {{text|plist}} --show-usage-summary`
