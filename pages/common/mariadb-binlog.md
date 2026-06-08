@@ -19,6 +19,6 @@
 
 `mariadb-binlog {{[-j|--start-position]}} {{100}} --stop-position {{200}} {{path/to/binlog}}`
 
-- Show binary log from a MySQL server on the given host:
+- Show binary log from a MariaDB server on the given host:
 
 `mariadb-binlog {{[-h|--host]}} {{hostname}} {{path/to/binlog}}`
