@@ -9,7 +9,7 @@
 
 - Sample metrics every 2 seconds, taking 10 samples then exit:
 
-`sudo powermetrics --sample-rate {{2000}} --sample-count {{10}}`
+`sudo powermetrics {{[-i|--sample-rate]}} {{2000}} {{[-n|--sample-count]}} {{10}}`
 
 - Save output to a file instead of `stdout`:
 
@@ -17,7 +17,7 @@
 
 - Order the process list by the specified method (default: `composite`):
 
-`sudo powermetrics --order {{pid|wakeups|cputime|composite}}`
+`sudo powermetrics {{[-r|--order]}} {{pid|wakeups|cputime|composite}}`
 
 - Display output in machine-readable plist format and print a usage summary on exit:
 
