@@ -9,7 +9,7 @@
 
 - Set the regulatory domain according to ISO 3166-1 alpha-2:
 
-`iw reg set {{US|JP|FI|...}}`
+`sudo iw reg set {{US|JP|FI|...}}`
 
 - Reload the kernel's regulatory database:
 
