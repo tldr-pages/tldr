@@ -13,4 +13,4 @@
 
 - Reload the kernel's regulatory database:
 
-`iw reg reload`
+`sudo iw reg reload`
