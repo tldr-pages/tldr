@@ -21,4 +21,4 @@
 
 - Display output in machine-readable property list format and print a usage summary on exit:
 
-`sudo powermetrics {{[-f|--format]}} {{text|plist}} --show-usage-summary`
+`sudo powermetrics {{[-f|--format]}} plist --show-usage-summary`
