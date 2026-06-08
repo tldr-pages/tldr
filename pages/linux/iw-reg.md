@@ -1,6 +1,6 @@
 # iw reg
 
-> Manage regulatory domains.
+> Manage WLAN regulatory domains.
 > More information: <https://wireless.docs.kernel.org/en/latest/en/users/documentation/iw.html>.
 
 - Display the current regulatory domain:
