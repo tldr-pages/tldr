@@ -1,27 +1,27 @@
 # restic
 
 > Быстрая программа для резервного копирования с шифрованием.
-> Подробнее: <https://restic.readthedocs.io/en/stable/manual_rest.html#usage-help>.
+> Больше информации: <https://restic.readthedocs.io/en/stable/manual_rest.html#usage-help>.
 
 - Создать репозиторий для резервных копий в указанном локальном каталоге:
 
-`restic init {{[-r|--repo]}} {{path/to/repository}}`
+`restic init {{[-r|--repo]}} {{путь/к/репозиторию}}`
 
 - Создать резервную копию каталога в репозитории:
 
-`restic {{[-r|--repo]}} {{path/to/repository}} backup {{path/to/directory}}`
+`restic {{[-r|--repo]}} {{путь/к/репозиторию}} backup {{путь/к/каталогу}}`
 
 - Показать снимки резервных копий хранящиеся в репозитории:
 
-`restic {{[-r|--repo]}} {{path/to/repository}} snapshots`
+`restic {{[-r|--repo]}} {{путь/к/репозиторию}} snapshots`
 
 - Восстановить конкретный снимок резервной копии в целевой каталог:
 
-`restic {{[-r|--repo]}} {{path/to/repository}} restore {{latest|snapshot_id}} --target {{path/to/target}}`
+`restic {{[-r|--repo]}} {{путь/к/репозиторию}} restore {{latest|id_снимка}} --target {{путь/к/целевому/каталогу}}`
 
 - Восстановить определённый путь из конкретного снимка в целевой каталог:
 
-`restic {{[-r|--repo]}} {{path/to/repository}} restore {{snapshot_id}} --target {{path/to/target}} --include {{path/to/restore}}`
+`restic {{[-r|--repo]}} {{путь/к/репозиторию}} restore {{id_снимка}} --target {{путь/к/целевому/каталогу}} --include {{путь/к/восстанавливаемым/данным}}`
 
 - Очистить репозиторий, оставив только самый свежий снимок для каждой уникальной резервной копии:
 
