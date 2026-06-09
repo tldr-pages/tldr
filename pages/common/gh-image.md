@@ -14,11 +14,7 @@
 
 - Upload an image using a specific session token:
 
-`gh image --token {{token}} {{path/to/image.png}}`
-
-- Upload an image whose filename starts with a dash:
-
-`gh image -- {{-image.png}}`
+`gh image --token {{session_token}} {{path/to/image.png}}`
 
 - Extract the GitHub session token from the browser and print it:
 
@@ -27,7 +23,3 @@
 - Verify that a session token is valid and print the associated username:
 
 `gh image check-token`
-
-- Display the version:
-
-`gh image --version`
