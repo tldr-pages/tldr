@@ -33,4 +33,4 @@
 
 - Display threads for a specific process:
 
-`ps -L -p {{process_id}}`
+`ps -L {{[-p|--pid]}} {{process_id}}`
