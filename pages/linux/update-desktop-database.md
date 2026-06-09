@@ -9,13 +9,13 @@
 
 - Update the cache for a specific desktop file directory:
 
-`update-desktop-database {{path/to/applications}}`
+`update-desktop-database {{path/to/directory}}`
 
 - Update the cache for multiple directories:
 
-`update-desktop-database {{path/to/applications1 path/to/applications2 ...}}`
+`update-desktop-database {{path/to/directory1 path/to/directory2 ...}}`
 
-- Update the cache without displaying progress information:
+- Update the cache without displaying any output:
 
 `update-desktop-database {{[-q|--quiet]}}`
 
