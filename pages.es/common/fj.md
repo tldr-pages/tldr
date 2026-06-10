@@ -27,7 +27,7 @@
 
 `fj pr checkout {{numero_de_pr}}`
 
-- Lista todas las releases del repositorio actual:
+- Lista todos los lanzamientos del repositorio actual:
 
 `fj release list`
 
