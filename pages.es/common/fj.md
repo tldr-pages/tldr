@@ -19,7 +19,7 @@
 
 `fj issue browse {{numero_de_issue}}`
 
-- Crea un nuevo pull request:
+- Crea una nueva solicitud de extracción:
 
 `fj pr create`
 
