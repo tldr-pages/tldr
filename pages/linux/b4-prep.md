@@ -13,7 +13,7 @@
 
 - Automatically populate the cover letter with recipients from commit trailers and maintainer files:
 
-`b4 prep --auto-to-cc`
+`b4 prep {{[-c|--auto-to-cc]}}`
 
 - Run local checks (e.g., `checkpatch.pl`) on the series:
 
