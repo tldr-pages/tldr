@@ -1,6 +1,7 @@
 # awk
 
 > 用於處理檔案的多功能程式語言。
+> 注意：各式 AWK 實作經常會將此命令作為指向其二進位檔的符號連結。
 > 另請參閱：`gawk`。
 > 更多資訊：<https://github.com/onetrueawk/awk>。
 
