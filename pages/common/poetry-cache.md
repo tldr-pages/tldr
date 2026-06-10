@@ -8,7 +8,7 @@
 
 `poetry cache list`
 
-- Remove all packages from a cache (e.g.: PyPI):
+- Remove all packages from a cache (e.g. PyPI):
 
 `poetry cache clear PyPI --all`
 

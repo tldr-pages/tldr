@@ -1,6 +1,6 @@
 # npm test
 
-> Tämä on alias komennolle `npm run test`.
+> Tämä on alias `npm run test` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

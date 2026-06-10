@@ -1,6 +1,6 @@
 # todoman
 
-> Tämä on alias komennolle `todo`.
+> Tämä on alias `todo` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

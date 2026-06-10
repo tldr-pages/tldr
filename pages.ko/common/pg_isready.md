@@ -9,8 +9,8 @@
 
 - 특정 호스트명과 포트를 사용하여 연결 상태 확인:
 
-`pg_isready --host={{호스트명}} --port={{포트}}`
+`pg_isready {{[-h|--host]}} {{호스트명}} {{[-p|--port]}} {{포트}}`
 
 - 연결 실패 시에만 메시지 표시하며 연결 상태 확인:
 
-`pg_isready --quiet`
+`pg_isready {{[-q|--quiet]}}`

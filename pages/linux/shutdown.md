@@ -13,7 +13,7 @@
 
 - Reboot in 5 minutes:
 
-`shutdown {{[-r|--reboot]}} +{{5}} &`
+`shutdown {{[-r|--reboot]}} +5 &`
 
 - Shutdown at 1:00 pm (Uses 24h clock):
 

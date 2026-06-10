@@ -17,4 +17,4 @@
 
 - Relata um bug sobre um processo específico:
 
-`apport-bug {{PID}}`
+`apport-bug {{pid}}`

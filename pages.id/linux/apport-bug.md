@@ -17,4 +17,4 @@
 
 - Laporkan bug tentang proses tertentu:
 
-`apport-bug {{PID}}`
+`apport-bug {{pid}}`

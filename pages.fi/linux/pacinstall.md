@@ -1,6 +1,6 @@
 # pacinstall
 
-> Tämä on alias komennolle `pactrans --install`.
+> Tämä on alias `pactrans --install` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

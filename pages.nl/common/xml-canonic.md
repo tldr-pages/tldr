@@ -5,15 +5,15 @@
 
 - Maak een XML-document canoniek met behoud van commentaar:
 
-`xml {{[c14n|canonic]}} {{pad/naar/invoer.xml|URI}} > {{pad/naar/uitvoer.xml}}`
+`xml {{[c14n|canonic]}} {{pad/naar/invoer.xml|uri}} > {{pad/naar/uitvoer.xml}}`
 
 - Maak een XML-document canoniek en verwijder het commentaar:
 
-`xml {{[c14n|canonic]}} --without-comments {{pad/naar/invoer.xml|URI}} > {{pad/naar/uitvoer.xml}}`
+`xml {{[c14n|canonic]}} --without-comments {{pad/naar/invoer.xml|uri}} > {{pad/naar/uitvoer.xml}}`
 
 - Maak XML uitsluitend canoniek, met behulp van een XPATH vanuit een bestand, met behoud van commentaar:
 
-`xml {{[c14n|canonic]}} --exc-with-comments {{pad/naar/invoer.xml|URI}} {{pad/naar/c14n.xpath}}`
+`xml {{[c14n|canonic]}} --exc-with-comments {{pad/naar/invoer.xml|uri}} {{pad/naar/c14n.xpath}}`
 
 - Toon de help:
 

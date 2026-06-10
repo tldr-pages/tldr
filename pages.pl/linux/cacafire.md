@@ -1,7 +1,7 @@
 # cacafire
 
 > Wyświetl animowany ogień ASCII.
-> Więcej informacji: <https://packages.debian.org/sid/caca-utils>.
+> Więcej informacji: <https://manned.org/cacafire>.
 
 - Wyświetl ogień ASCII:
 

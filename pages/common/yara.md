@@ -14,7 +14,7 @@
 
 - Scan a running process by its PID using multiple rules:
 
-`yara {{path/to/rule1.yar path/to/rule2.yar ...}} {{PID}}`
+`yara {{path/to/rule1.yar path/to/rule2.yar ...}} {{pid}}`
 
 - Print metadata associated with the matching rules:
 

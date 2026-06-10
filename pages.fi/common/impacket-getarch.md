@@ -1,6 +1,6 @@
 # impacket-getArch
 
-> Tämä on alias komennolle `getArch.py`.
+> Tämä on alias `getArch.py` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

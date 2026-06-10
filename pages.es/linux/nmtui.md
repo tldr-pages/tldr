@@ -15,7 +15,7 @@
 
 - Se conecta a una red dada:
 
-`nmtui connect {{nombre|uuid|dispositivo|SSID}}`
+`nmtui connect {{nombre|uuid|dispositivo|ssid}}`
 
 - Edita, añade, elimina una red determinada:
 

@@ -1,6 +1,6 @@
 # mkfs.vfat
 
-> Tämä on alias komennolle `mkfs.fat`.
+> Tämä on alias `mkfs.fat` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
