@@ -9,7 +9,7 @@
 
 - Installa un pacchetto app da un percorso specificato:
 
-`pm install /{{percorso/all/app.apk}}`
+`pm install /{{percorso/all/app}}.apk`
 
 - Disinstalla un pacchetto dal dispositivo:
 
