@@ -7,7 +7,7 @@
 
 `pfctl -e`
 
-- Disable PF:
+- Disable the packet filter:
 
 `pfctl -d`
 
