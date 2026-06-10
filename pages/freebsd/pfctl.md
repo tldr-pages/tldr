@@ -1,6 +1,6 @@
 # pfctl
 
-> Control the PF packet filter device.
+> Control the packet filter device.
 > More information: <https://man.freebsd.org/cgi/man.cgi?query=pfctl>.
 
 - Enable PF:
