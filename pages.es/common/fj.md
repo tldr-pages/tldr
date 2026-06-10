@@ -7,7 +7,7 @@
 
 `fj auth login`
 
-- Clona un repositorio de Forgejo localmente:
+- Clona un repositorio de Forgejo de manera local:
 
 `fj repo clone {{propietario}}/{{repositorio}}`
 
