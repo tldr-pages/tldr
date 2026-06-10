@@ -6,11 +6,11 @@
 
 - 새로운 트리거 등록: 지정된 이벤트가 발생할 때 지정된 프로그램을 실행:
 
-`strigger --set --{{primary_database_failure|primary_slurmdbd_failure|primary_slurmctld_acct_buffer_full|primary_slurmctld_failure|...}} --program={{경로/대상/실행파일}}`
+`strigger --set --{{primary_database_failure|primary_slurmdbd_failure|primary_slurmctld_acct_buffer_full|primary_slurmctld_failure|...}} {{[-p|--program]}} {{경로/대상/실행파일}}`
 
 - 지정된 작업이 종료될 때 지정된 프로그램을 실행:
 
-`strigger --set --jobid={{작업_id}} --fini --program="{{경로/대상/실행파일}} {{인수1 인수2 ...}}"`
+`strigger --set {{[-j|--jobid]}} {{작업_id}} {{[-f|--fini]}} {{[-p|--program]}} "{{경로/대상/실행파일}} {{인수1 인수2 ...}}"`
 
 - 활성 트리거 보기:
 
@@ -18,7 +18,7 @@
 
 - 지정된 작업과 관련된 활성 트리거 보기:
 
-`strigger --get --jobid={{작업_id}}`
+`strigger --get {{[-j|--jobid]}} {{작업_id}}`
 
 - 지정된 트리거 삭제:
 

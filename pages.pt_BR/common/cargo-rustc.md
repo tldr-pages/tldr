@@ -14,15 +14,15 @@
 
 - Compila com otimizações específicas para a arquitetura do CPU atual:
 
-`cargo rustc {{[-r|--release]}} -- -C target-cpu=native`
+`cargo rustc {{[-r|--release]}} -- {{[-C|--codegen]}} target-cpu=native`
 
 - Compila com otimização de velocidade:
 
-`cargo rustc -- -C opt-level {{1|2|3}}`
+`cargo rustc -- {{[-C|--codegen]}} opt-level={{1|2|3}}`
 
 - Compila com otimização de tamanho (`z` também desativa a vetorização de ciclos):
 
-`cargo rustc -- -C opt-level {{s|z}}`
+`cargo rustc -- {{[-C|--codegen]}} opt-level={{s|z}}`
 
 - Verifica se o pacote usa código com padrões inseguros de acesso à memória:
 
