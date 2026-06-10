@@ -11,7 +11,7 @@
 
 `fj repo clone {{propietario}}/{{repositorio}}`
 
-- Crea un nuevo issue en el repositorio actual:
+- Crea una nueva incidencia en el repositorio actual:
 
 `fj issue create`
 
