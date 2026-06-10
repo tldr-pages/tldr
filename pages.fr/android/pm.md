@@ -2,6 +2,7 @@
 
 > Gestionnaire de Paquets d'Android.
 > Plus d'informations : <https://developer.android.com/tools/adb#pm>.
+
 - Liste les paquets installés :
 
 `pm list packages`
