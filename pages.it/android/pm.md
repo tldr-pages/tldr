@@ -1,7 +1,7 @@
 # pm
 
 > Strumento Android pacchetto Manager.
-> Maggiori informazioni: <https://developer.android.com/tools/adb>.
+> Maggiori informazioni: <https://developer.android.com/tools/adb#pm>.
 
 - Elenca i pacchetti installati:
 
