@@ -23,7 +23,7 @@
 
 `fj pr create`
 
-- Descarga un pull request específico en una nueva rama local:
+- Descarga una solicitud de extracción específico en una nueva rama local:
 
 `fj pr checkout {{numero_de_pr}}`
 
