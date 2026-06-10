@@ -3,7 +3,7 @@
 > Control the packet filter device.
 > More information: <https://man.freebsd.org/cgi/man.cgi?query=pfctl>.
 
-- Enable PF:
+- Enable the packet filter:
 
 `pfctl -e`
 
