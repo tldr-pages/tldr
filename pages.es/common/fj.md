@@ -15,7 +15,7 @@
 
 `fj issue create`
 
-- Abre un issue en el navegador web por defecto:
+- Abre una incidencia en el navegador web por defecto:
 
 `fj issue browse {{numero_de_issue}}`
 
