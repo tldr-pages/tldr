@@ -1,6 +1,6 @@
 # fj
 
-> Forgejo CLI — interactúa con instancias de Forgejo desde la terminal.
+> Interactúa con instancias de Forgejo desde la terminal.
 > Más información: <https://codeberg.org/forgejo-contrib/forgejo-cli>.
 
 - Inicia sesión en una instancia de Forgejo:
