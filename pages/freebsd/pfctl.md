@@ -19,7 +19,7 @@
 
 `pfctl -sr`
 
-- Show PF status information:
+- Show packet filter status information:
 
 `pfctl -s info`
 
