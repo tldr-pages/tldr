@@ -17,7 +17,7 @@
 
 - Abre una incidencia en el navegador web por defecto:
 
-`fj issue browse {{numero_de_issue}}`
+`fj issue browse {{numero_de_la_incidencia}}`
 
 - Crea una nueva solicitud de extracción:
 
