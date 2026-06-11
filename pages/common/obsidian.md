@@ -27,4 +27,3 @@
 - Read the contents of a file:
 
 `obsidian read file={{filename}}`
-
