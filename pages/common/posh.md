@@ -1,7 +1,7 @@
 # posh
 
 > Gems documentation browser for Ruby developers. It works on macOS and Linux.
-> More information: <https://poshtui.com/>
+> More information: <https://poshtui.com>.
 
 - Download documentation to your machine (run inside a Ruby project):
 
@@ -19,6 +19,6 @@
 
 `posh completion {{bash|fish|powershell|zsh}}`
 
-- Display help;
+- Display help:
 
 `posh -h`
