@@ -9,7 +9,7 @@
 
 - Carga una imagen de Docker desde un archivo específico:
 
-`docker {{[load|carga de imagen]}} {{[-i|--input]}} {{ruta/al/archivo_de_imagen.tar}}`
+`docker {{[load|image load]}} {{[-i|--input]}} {{ruta/al/archivo_de_imagen.tar}}`
 
 - Carga una imagen de Docker desde un archivo específico en modo silencioso:
 
