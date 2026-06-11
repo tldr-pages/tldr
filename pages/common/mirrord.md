@@ -6,7 +6,7 @@
 
 - Run a local binary connected to a remote pod:
 
-`mirrord exec {{[-t|--target]}} pod/{{pod_name}} -- {{command}} {{command_args}}`
+`mirrord exec {{[-t|--target]}} pod/{{pod_name}} -- {{command}} {{argument1 argument2 ...}}`
 
 - Target a deployment in a specific namespace:
 
