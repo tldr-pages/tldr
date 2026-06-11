@@ -5,15 +5,15 @@
 
 - Enable the packet filter:
 
-`pfctl -e`
+`sudo pfctl -e`
 
 - Disable the packet filter:
 
-`pfctl -d`
+`sudo pfctl -d`
 
 - Load rules from a configuration file:
 
-`pfctl -f {{path/to/pf.conf}}`
+`sudo pfctl -f {{path/to/pf.conf}}`
 
 - Show all active rules:
 
@@ -25,4 +25,4 @@
 
 - Flush all rules:
 
-`pfctl -F rules`
+`sudo pfctl -F rules`
