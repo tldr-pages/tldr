@@ -1,7 +1,7 @@
 # autopsy
 
 > Digital forensics platform for analyzing disk images and investigating file systems.
-> More information: <https://www.autopsy.com>.
+> More information: <https://sleuthkit.org/autopsy/docs/user-docs/4.14.0/command_line_ingest_page.html>.
 
 - Launch the Autopsy graphical interface:
 
