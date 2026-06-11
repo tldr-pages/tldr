@@ -2,7 +2,7 @@
 
 > Run code locally as if it were a pod in a Kubernetes cluster.
 > Skip the build-push-deploy cycle when shipping features or fixing bugs against real services.
-> More information: <https://metalbear.com/mirrord>.
+> More information: <https://metalbear.com/mirrord/docs/getting-started/quick-start#cli>.
 
 - Run a local binary connected to a remote pod:
 
