@@ -1,6 +1,6 @@
 # gnuls
 
-> Tämä on alias `ls` komennolle.
+> Tämä on alias GNU:n `ls` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

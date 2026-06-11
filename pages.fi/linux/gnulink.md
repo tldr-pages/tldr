@@ -1,6 +1,6 @@
 # gnulink
 
-> Tämä on alias `link` komennolle.
+> Tämä on alias GNU:n `link` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

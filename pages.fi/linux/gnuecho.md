@@ -1,6 +1,6 @@
 # gnuecho
 
-> Tämä on alias `echo` komennolle.
+> Tämä on alias GNU:n `echo` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -1,6 +1,6 @@
 # gnustdbuf
 
-> Tämä on alias `stdbuf` komennolle.
+> Tämä on alias GNU:n `stdbuf` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

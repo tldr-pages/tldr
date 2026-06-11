@@ -1,6 +1,6 @@
 # gnumkdir
 
-> Tämä on alias `mkdir` komennolle.
+> Tämä on alias GNU:n `mkdir` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

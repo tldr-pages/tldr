@@ -1,6 +1,6 @@
 # gnuhostid
 
-> Tämä on alias `hostid` komennolle.
+> Tämä on alias GNU:n `hostid` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

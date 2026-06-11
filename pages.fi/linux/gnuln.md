@@ -1,6 +1,6 @@
 # gnuln
 
-> Tämä on alias `ln` komennolle.
+> Tämä on alias GNU:n `ln` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

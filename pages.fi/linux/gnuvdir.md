@@ -1,6 +1,6 @@
 # gnuvdir
 
-> Tämä on alias `vdir` komennolle.
+> Tämä on alias GNU:n `vdir` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

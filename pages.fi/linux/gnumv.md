@@ -1,6 +1,6 @@
 # gnumv
 
-> Tämä on alias `mv` komennolle.
+> Tämä on alias GNU:n `mv` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

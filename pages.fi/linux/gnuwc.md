@@ -1,6 +1,6 @@
 # gnuwc
 
-> Tämä on alias `wc` komennolle.
+> Tämä on alias GNU:n `wc` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

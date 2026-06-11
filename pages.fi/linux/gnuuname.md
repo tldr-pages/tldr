@@ -1,6 +1,6 @@
 # gnuuname
 
-> Tämä on alias `uname` komennolle.
+> Tämä on alias GNU:n `uname` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

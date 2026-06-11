@@ -1,6 +1,6 @@
 # gnumknod
 
-> Tämä on alias `mknod` komennolle.
+> Tämä on alias GNU:n `mknod` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

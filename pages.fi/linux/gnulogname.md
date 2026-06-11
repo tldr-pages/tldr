@@ -1,6 +1,6 @@
 # gnulogname
 
-> Tämä on alias `logname` komennolle.
+> Tämä on alias GNU:n `logname` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

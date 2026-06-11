@@ -1,6 +1,6 @@
 # gnustty
 
-> Tämä on alias `stty` komennolle.
+> Tämä on alias GNU:n `stty` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

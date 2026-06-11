@@ -1,6 +1,6 @@
 # gnucksum
 
-> Tämä on alias `cksum` komennolle.
+> Tämä on alias GNU:n `cksum` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

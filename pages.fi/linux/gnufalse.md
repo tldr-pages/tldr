@@ -1,6 +1,6 @@
 # gnufalse
 
-> Tämä on alias `false` komennolle.
+> Tämä on alias GNU:n `false` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

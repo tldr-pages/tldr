@@ -1,6 +1,6 @@
 # gnunice
 
-> Tämä on alias `nice` komennolle.
+> Tämä on alias GNU:n `nice` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

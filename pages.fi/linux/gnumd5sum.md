@@ -1,6 +1,6 @@
 # gnumd5sum
 
-> Tämä on alias `md5sum` komennolle.
+> Tämä on alias GNU:n `md5sum` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

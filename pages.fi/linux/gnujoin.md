@@ -1,6 +1,6 @@
 # gnujoin
 
-> Tämä on alias `join` komennolle.
+> Tämä on alias GNU:n `join` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

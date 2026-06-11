@@ -1,6 +1,6 @@
 # gnuruncon
 
-> Tämä on alias `runcon` komennolle.
+> Tämä on alias GNU:n `runcon` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -1,6 +1,6 @@
 # gnudf
 
-> Tämä on alias `df` komennolle.
+> Tämä on alias GNU:n `df` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

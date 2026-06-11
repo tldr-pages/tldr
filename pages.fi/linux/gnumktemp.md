@@ -1,6 +1,6 @@
 # gnumktemp
 
-> Tämä on alias `mktemp` komennolle.
+> Tämä on alias GNU:n `mktemp` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -1,6 +1,6 @@
 # gnumkfifo
 
-> Tämä on alias `mkfifo` komennolle.
+> Tämä on alias GNU:n `mkfifo` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

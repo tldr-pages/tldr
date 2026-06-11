@@ -1,6 +1,6 @@
 # gnuptx
 
-> Tämä on alias `ptx` komennolle.
+> Tämä on alias GNU:n `ptx` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

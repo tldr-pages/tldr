@@ -1,6 +1,6 @@
 # gnuinstall
 
-> Tämä on alias `install` komennolle.
+> Tämä on alias GNU:n `install` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
