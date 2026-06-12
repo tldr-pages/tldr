@@ -1,7 +1,7 @@
 # bun install
 
 > Installa le dipendenze JavaScript di un progetto da `package.json`.
-> More information: <https://bun.com/docs/pm/cli/install>.
+> Maggiori informazioni: <https://bun.com/docs/pm/cli/install>.
 
 - Installa tutte le dipendenze elencate in `package.json`:
 
