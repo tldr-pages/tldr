@@ -4,7 +4,7 @@
 > Nota: il formato di output potrebbe cambiare in versioni future di Cargo.
 > Maggiori informazioni: <https://doc.rust-lang.org/cargo/commands/cargo-metadata.html>.
 
-- Stampa i membri dello workspace e le dipendenze risolte del pacchetto corrente:
+- Stampa i membri del workspace e le dipendenze risolte del pacchetto corrente:
 
 `cargo metadata`
 
