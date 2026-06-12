@@ -1,6 +1,6 @@
 # cargo metadata
 
-> Stampa i membri dello workspace e le dipendenze risolte del pacchetto corrente in formato JSON.
+> Stampa i membri del workspace e le dipendenze risolte del pacchetto corrente in formato JSON.
 > Nota: il formato di output potrebbe cambiare in versioni future di Cargo.
 > Maggiori informazioni: <https://doc.rust-lang.org/cargo/commands/cargo-metadata.html>.
 
