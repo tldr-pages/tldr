@@ -1,6 +1,6 @@
 # gnusha224sum
 
-> Tämä on alias `sha224sum` komennolle.
+> Tämä on alias GNU:n `sha224sum` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

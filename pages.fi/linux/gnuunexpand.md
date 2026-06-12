@@ -1,6 +1,6 @@
 # gnuunexpand
 
-> Tämä on alias `unexpand` komennolle.
+> Tämä on alias GNU:n `unexpand` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

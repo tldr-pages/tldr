@@ -1,6 +1,6 @@
 # gnufmt
 
-> Tämä on alias `fmt` komennolle.
+> Tämä on alias GNU:n `fmt` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

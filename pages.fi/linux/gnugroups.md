@@ -1,6 +1,6 @@
 # gnugroups
 
-> Tämä on alias `groups` komennolle.
+> Tämä on alias GNU:n `groups` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

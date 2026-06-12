@@ -1,6 +1,6 @@
 # gnucat
 
-> Tämä on alias `cat` komennolle.
+> Tämä on alias GNU:n `cat` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

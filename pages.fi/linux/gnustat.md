@@ -1,6 +1,6 @@
 # gnustat
 
-> Tämä on alias `stat` komennolle.
+> Tämä on alias GNU:n `stat` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

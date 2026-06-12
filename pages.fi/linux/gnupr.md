@@ -1,6 +1,6 @@
 # gnupr
 
-> Tämä on alias `pr` komennolle.
+> Tämä on alias GNU:n `pr` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

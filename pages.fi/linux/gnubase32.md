@@ -1,6 +1,6 @@
 # gnubase32
 
-> Tämä on alias `base32` komennolle.
+> Tämä on alias GNU:n `base32` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

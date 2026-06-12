@@ -1,6 +1,6 @@
 # gnudir
 
-> Tämä on alias `dir` komennolle.
+> Tämä on alias GNU:n `dir` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

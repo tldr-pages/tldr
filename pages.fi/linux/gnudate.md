@@ -1,6 +1,6 @@
 # gnudate
 
-> Tämä on alias `date` komennolle.
+> Tämä on alias GNU:n `date` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
