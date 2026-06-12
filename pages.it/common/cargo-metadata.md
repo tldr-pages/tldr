@@ -8,7 +8,7 @@
 
 `cargo metadata`
 
-- Stampa solo i membri dello workspace senza recuperare le dipendenze:
+- Stampa solo i membri del workspace senza recuperare le dipendenze:
 
 `cargo metadata --no-deps`
 
