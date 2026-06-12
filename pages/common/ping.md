@@ -34,4 +34,4 @@
 
 - Ping all IPv6 local network hosts:
 
-`ping -6 ff02::1%eth0`
+`ping -6 ff02::1%{{eth0}}`
