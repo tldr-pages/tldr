@@ -13,4 +13,4 @@
 
 - 显示帮助：
 
-`gendesk -h`
+`gendesk {{[-h|--help]}}`

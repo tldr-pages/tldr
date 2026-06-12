@@ -1,7 +1,7 @@
-# Inference snaps
+# Inference snap
 
 > Chat with generative AI Language Models that runs locally without internet.
-> Here inference-snap is one of the supported models: `deepseek-r1`, `gemma3`, `gemma4`, `nemotron3-nano`, `qwen-vl` .
+> Here inference-snap is one of the supported models: `deepseek-r1`, `gemma3`, `gemma4`, `nemotron3-nano`, `qwen-vl`.
 > More information: <https://documentation.ubuntu.com/inference-snaps/>.
 
 - Start a chat in terminal (and a chat server in background on first start):
