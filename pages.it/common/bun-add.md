@@ -2,7 +2,7 @@
 
 > Aggiungi e installa nuove dipendenze nel progetto corrente.
 > Maggiori informazioni: <https://bun.com/docs>.
-retriggercla
+
 - Installa un singolo pacchetto:
 
 `bun {{[a|add]}} {{pacchetto}}`
