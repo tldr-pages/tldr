@@ -23,6 +23,6 @@
 
 `pactl set-sink-volume {{1}} {{0.75}}`
 
-- Ativa/Desativa o modo silencioso na sink padrão (usano o nome especial `@DEFAULT_SINK@`):
+- Ativa/Desativa o modo silencioso na sink padrão (usando o nome especial `@DEFAULT_SINK@`):
 
 `pactl set-sink-mute {{@DEFAULT_SINK@}} toggle`
