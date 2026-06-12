@@ -1,36 +1,21 @@
 # bun install
+> Installa le dipendenze JavaScript di un progetto da `package.json`.
+> More information: <https://bun.com/docs/pm/cli/install>.
 
-> Installa le dipendenze di un progetto usando Bun.
-> Maggiori informazioni: <https://bun.com/docs/pm/cli/install>.
+- Installa tutte le dipendenze elencate in `package.json`:
+`bun {{[i|install]}}`
 
-- Installa le dipendenze definite in `package.json`:
+- Installa un singolo pacchetto (alias di `bun add`):
+`bun {{[i|install]}} {{pacchetto}}@{{versione}}`
 
-`bun install`
+- Installa un pacchetto globalmente:
+`bun {{[i|install]}} {{[-g|--global]}} {{pacchetto}}`
 
-- Installa le dipendenze e aggiorna il lockfile:
+- Installa solo le dipendenze di produzione (salta le `devDependencies`):
+`bun {{[i|install]}} {{[-p|--production]}}`
 
-`bun install --force`
+- Installa le dipendenze esattamente dal lockfile `bun.lockb` (lockfile congelato):
+`bun {{[i|install]}} --frozen-lockfile`
 
-- Installa una dipendenza opzionale:
-
-`bun install {{nome-pacchetto}} --optional`
-
-- Installa le dipendenze in modalità produzione solo, senza devDependencies:
-
-`bun install --production`
-
-- Installa le dipendenze usando un registry personalizzato:
-
-`bun install --registry {{https://registry.example.com}}`
-
-- Installa le dipendenze in una directory specifica:
-
-`bun install --path {{percorso/del/node_modules}}`
-
-- Mostra i moduli installati:
-
-`bun install --print`
-
-- Visualizza l'help:
-
-`bun install --help`
+- Forza il download di tutti i pacchetti dal registry ignorando la cache:
+`bun {{[i|install]}} {{[-f|--force]}}`
