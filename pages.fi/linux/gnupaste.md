@@ -1,6 +1,6 @@
 # gnupaste
 
-> Tämä on alias `paste` komennolle.
+> Tämä on alias GNU:n `paste` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

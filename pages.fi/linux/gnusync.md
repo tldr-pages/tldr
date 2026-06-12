@@ -1,6 +1,6 @@
 # gnusync
 
-> Tämä on alias `sync` komennolle.
+> Tämä on alias GNU:n `sync` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

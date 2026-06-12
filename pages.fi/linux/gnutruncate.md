@@ -1,6 +1,6 @@
 # gnutruncate
 
-> Tämä on alias `truncate` komennolle.
+> Tämä on alias GNU:n `truncate` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

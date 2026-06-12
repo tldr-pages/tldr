@@ -1,6 +1,6 @@
 # gnusha1sum
 
-> Tämä on alias `sha1sum` komennolle.
+> Tämä on alias GNU:n `sha1sum` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

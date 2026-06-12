@@ -1,6 +1,6 @@
 # gnufold
 
-> Tämä on alias `fold` komennolle.
+> Tämä on alias GNU:n `fold` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
