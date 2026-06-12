@@ -1,32 +1,36 @@
-# adb shell pm list
+# pm list
 
 > List users, packages, permissions, instrumentation, permission groups, features, and libraries managed by the package manager.
-> More information: <https://developer.android.com/tools/adb>.
+> More information: <https://developer.android.com/tools/adb#pm>.
 
 - List all installed packages:
 
-`adb shell pm list packages`
+`pm list packages`
+
+- List either [s]ystem or [3]rd-party packages:
+
+`pm list packages {{-s|-3}}`
 
 - Print all users on the system:
 
-`adb shell pm list users`
+`pm list users`
 
 - Print all known permission groups:
 
-`adb shell pm list permission-groups`
+`pm list permission-groups`
 
 - Print all known permissions:
 
-`adb shell pm list permissions`
+`pm list permissions`
 
 - List all test packages:
 
-`adb shell pm list instrumentation`
+`pm list instrumentation`
 
 - Print all features of the system:
 
-`adb shell pm list features`
+`pm list features`
 
 - Print all the libraries supported by the current device:
 
-`adb shell pm list libraries`
+`pm list libraries`
