@@ -4,7 +4,9 @@
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-pkgid.html>.
 
 - Mostra la specifica completa del pacchetto per il progetto corrente:
+
 `cargo pkgid`
 
 - Mostra la specifica completa del pacchetto specificato:
+
 `cargo pkgid {{specifica_parziale_pacchetto}}`
