@@ -19,6 +19,10 @@
 
 `sysctl fs.file-max`
 
+- Get the value of any runtime variable:
+
+`sysctl {{variable_name}}`
+
 - Apply changes from `/etc/sysctl.conf`:
 
 `sysctl {{[-p|--load]}}`
