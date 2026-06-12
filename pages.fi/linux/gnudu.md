@@ -1,6 +1,6 @@
 # gnudu
 
-> Tämä on alias `du` komennolle.
+> Tämä on alias GNU:n `du` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

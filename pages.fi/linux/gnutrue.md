@@ -1,6 +1,6 @@
 # gnutrue
 
-> Tämä on alias `true` komennolle.
+> Tämä on alias GNU:n `true` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -1,6 +1,6 @@
 # gnuuniq
 
-> Tämä on alias `uniq` komennolle.
+> Tämä on alias GNU:n `uniq` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

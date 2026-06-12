@@ -5,12 +5,12 @@
 
 - `stdin` 버퍼 크기를 512 KiB로 변경:
 
-`stdbuf --input=512K {{명령}}`
+`stdbuf {{[-i|--input]}} 512K {{명령}}`
 
 - `stdout` 버퍼를 라인 버퍼로 변경:
 
-`stdbuf --output=L {{명령}}`
+`stdbuf {{[-o|--output]}} L {{명령}}`
 
 - `stderr` 버퍼를 버퍼링하지 않도록 변경:
 
-`stdbuf --error=0 {{명령}}`
+`stdbuf {{[-e|--error]}} 0 {{명령}}`

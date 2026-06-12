@@ -1,6 +1,6 @@
 # gnunl
 
-> Tämä on alias `nl` komennolle.
+> Tämä on alias GNU:n `nl` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

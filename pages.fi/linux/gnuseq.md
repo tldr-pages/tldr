@@ -1,6 +1,6 @@
 # gnuseq
 
-> Tämä on alias `seq` komennolle.
+> Tämä on alias GNU:n `seq` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -1,6 +1,6 @@
 # gnusum
 
-> Tämä on alias `sum` komennolle.
+> Tämä on alias GNU:n `sum` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

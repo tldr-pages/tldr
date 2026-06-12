@@ -1,6 +1,7 @@
 # go fmt
 
 > Format Go source files, printing the changed filenames.
+> Note: `./...` is a Go package pattern understood by Go tooling. It matches the current package and all packages recursively under the current directory.
 > More information: <https://pkg.go.dev/cmd/go#hdr-Gofmt__reformat__package_sources>.
 
 - Format Go source files in the current directory:

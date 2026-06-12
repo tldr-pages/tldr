@@ -1,6 +1,6 @@
 # gnucsplit
 
-> Tämä on alias `csplit` komennolle.
+> Tämä on alias GNU:n `csplit` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

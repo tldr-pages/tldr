@@ -17,7 +17,7 @@
 
 - List attributes of device `/dev/sda`:
 
-`sudo udevadm info {{[-a|--attribute-walk]}} {{/dev/sda}}`
+`sudo udevadm info {{[-a|--attribute-walk]}} /dev/sda`
 
 - Reload all `udev` rules:
 
@@ -29,4 +29,4 @@
 
 - Test an event run by simulating loading of `/dev/sda`:
 
-`sudo udevadm test {{/dev/sda}}`
+`sudo udevadm test /dev/sda`
