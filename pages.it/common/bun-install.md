@@ -12,7 +12,7 @@
 `bun {{[i|install]}} {{pacchetto}}@{{versione}}`
 
 - Installa un pacchetto globalmente:
-  
+
 `bun {{[i|install]}} {{[-g|--global]}} {{pacchetto}}`
 
 - Installa solo le dipendenze di produzione (salta le `devDependencies`):
