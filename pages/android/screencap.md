@@ -6,7 +6,7 @@
 
 - Take a screenshot:
 
-`screencap {{path/to/file}}`
+`screencap {{path/to/image.png}}`
 
 - Print file contents to `stdout` as PNG:
 
