@@ -14,7 +14,7 @@
 
 - Take a screenshot and save it over an `adb` connection:
 
-`adb shell screencap -p > {{path/to/file}}`
+`adb shell screencap -p > {{path/to/image.png}}`
 
 - Display help:
 
