@@ -1,7 +1,7 @@
 # lshw
 
 > Muestra información detallada sobre la configuración del hardware como usuario root.
-> Véase también: `inxi`, `hwinfo`, `dmidecode`.
+> Vea también: `inxi`, `hwinfo`, `dmidecode`.
 > Más información: <https://ezix.org/project/wiki/HardwareLiSter>.
 
 - Inicia la interfaz gráfica X11 (si está disponible):
