@@ -1,0 +1,53 @@
+name: Create Daily Release on main
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # هر روز ساعت 00:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  packages: write
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # ✅ نکته مهم: checkout کردن مستقیم شاخه main
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+        with:
+          ref: main  # <-- این خط باعث می‌شود تگ روی main قرار بگیرد
+          fetch-depth: 0  # برای دسترسی به تاریخچه کامل (اختیاری)
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run tests and build
+        run: |
+          npm test
+          npm run build
+
+      - name: Get current date
+        id: date
+        run: echo "DATE=$(date +'%Y.%m.%d')" >> $GITHUB_OUTPUT
+
+      - name: Create Release and Tag on main
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: v${{ steps.date.outputs.DATE }}
+          name: "Release v${{ steps.date.outputs.DATE }}"
+          body: |
+            خودکار ساخته شده توسط GitHub Actions
+            تاریخ انتشار: ${{ steps.date.outputs.DATE }}
+            تگ شده روی آخرین commit شاخه main
+          target_commitish: main  # <-- این خط هم تأکید روی شاخه main دارد
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
