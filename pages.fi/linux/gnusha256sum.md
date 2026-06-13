@@ -1,6 +1,6 @@
 # gnusha256sum
 
-> Tämä on alias `sha256sum` komennolle.
+> Tämä on alias GNU:n `sha256sum` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

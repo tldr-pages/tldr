@@ -31,3 +31,7 @@
 - Ping a host with specific number of pings, per-packet response timeout (`-W`), and total time limit (`-w`) of the entire ping run:
 
 `ping -c {{count}} -W {{seconds}} -w {{seconds}} {{host}}`
+
+- Ping all IPv6 local network hosts:
+
+`ping -6 ff02::1%{{eth0}}`

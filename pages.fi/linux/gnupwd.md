@@ -1,6 +1,6 @@
 # gnupwd
 
-> Tämä on alias `pwd` komennolle.
+> Tämä on alias GNU:n `pwd` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -1,6 +1,6 @@
 # gnuprintenv
 
-> Tämä on alias `printenv` komennolle.
+> Tämä on alias GNU:n `printenv` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

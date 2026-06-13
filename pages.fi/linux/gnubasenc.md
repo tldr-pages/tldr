@@ -1,6 +1,6 @@
 # gnubasenc
 
-> Tämä on alias `basenc` komennolle.
+> Tämä on alias GNU:n `basenc` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

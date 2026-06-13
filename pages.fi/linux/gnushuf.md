@@ -1,6 +1,6 @@
 # gnushuf
 
-> Tämä on alias `shuf` komennolle.
+> Tämä on alias GNU:n `shuf` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

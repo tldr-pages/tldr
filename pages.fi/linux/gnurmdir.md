@@ -1,6 +1,6 @@
 # gnurmdir
 
-> Tämä on alias `rmdir` komennolle.
+> Tämä on alias GNU:n `rmdir` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

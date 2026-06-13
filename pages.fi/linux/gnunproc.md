@@ -1,6 +1,6 @@
 # gnunproc
 
-> Tämä on alias `nproc` komennolle.
+> Tämä on alias GNU:n `nproc` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

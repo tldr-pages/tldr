@@ -1,6 +1,6 @@
 # gnushred
 
-> Tämä on alias `shred` komennolle.
+> Tämä on alias GNU:n `shred` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

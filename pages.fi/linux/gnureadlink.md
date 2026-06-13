@@ -1,6 +1,6 @@
 # gnureadlink
 
-> Tämä on alias `readlink` komennolle.
+> Tämä on alias GNU:n `readlink` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
