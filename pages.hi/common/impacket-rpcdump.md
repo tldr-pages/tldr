@@ -1,0 +1,7 @@
+# impacket-rpcdump
+
+> यह आदेश `rpcdump.py` का उपनाम है।
+
+- मूल आदेश के लिए दस्तावेज़ देखें:
+
+`tldr rpcdump.py`

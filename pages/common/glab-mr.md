@@ -1,0 +1,37 @@
+# glab mr
+
+> Manage GitLab merge requests.
+> Some subcommands such as `create` have their own usage documentation.
+> More information: <https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/mr/_index.md>.
+
+- Create a merge request:
+
+`glab mr create`
+
+- Check out a specific merge request locally:
+
+`glab {{[co|mr checkout]}} {{mr_number}}`
+
+- Check out a merge request of a specific repo:
+
+`glab {{[co|mr checkout]}} {{mr_number}} {{[-R|--repo]}} {{repo-owner}}/{{repository}}`
+
+- View the changes made in the merge request:
+
+`glab mr diff`
+
+- Approve the merge request for the current branch:
+
+`glab mr approve`
+
+- Merge the merge request associated with the current branch interactively:
+
+`glab mr merge`
+
+- Edit a merge request interactively:
+
+`glab mr update`
+
+- Edit the target branch of a merge request:
+
+`glab mr update --target-branch {{branch_name}}`

@@ -1,0 +1,7 @@
+# fossil rm
+
+> এই কমান্ডটি `fossil delete` - এর একটি উপনাম।
+
+- মূল কমান্ডের ডকুমেন্টেশন দেখুন:
+
+`tldr fossil delete`

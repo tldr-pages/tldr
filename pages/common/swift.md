@@ -1,0 +1,24 @@
+# swift
+
+> Create, run, and build Swift projects.
+> More information: <https://manned.org/swiftc>.
+
+- Start a REPL (interactive shell):
+
+`swift repl`
+
+- Execute a program:
+
+`swift {{file.swift}}`
+
+- Start a new project with the package manager:
+
+`swift package init`
+
+- Update dependencies:
+
+`swift package update`
+
+- Compile project for release:
+
+`swift build {{[-c|--configuration]}} {{debug|release}}`

@@ -1,0 +1,9 @@
+# false
+
+> 1 का एग्जिट कोड लौटाता है।
+> यह भी देखें: `true`।
+> अधिक जानकारी: <https://www.gnu.org/software/bash/manual/bash.html#index-false>।
+
+- 1 का निकास कोड लौटाएँ:
+
+`false`

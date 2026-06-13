@@ -1,0 +1,37 @@
+# cargo
+
+> Manage Rust projects and their module dependencies (crates).
+> Some subcommands such as `build` have their own usage documentation.
+> More information: <https://doc.rust-lang.org/stable/cargo/>.
+
+- Search for crates:
+
+`cargo search {{search_string}}`
+
+- Install a binary crate:
+
+`cargo install {{crate_name}}`
+
+- List installed binary crates:
+
+`cargo install --list`
+
+- Create a new binary or library Rust project in the specified directory (or the current working directory by default):
+
+`cargo init --{{bin|lib}} {{path/to/directory}}`
+
+- Add a dependency to `Cargo.toml` in the current directory:
+
+`cargo add {{dependency}}`
+
+- Build the Rust project in the current directory using the release profile:
+
+`cargo {{[b|build]}} {{[-r|--release]}}`
+
+- Run the built binary (will build it if it's not already built):
+
+`cargo {{[r|run]}}`
+
+- Build the Rust project in the current directory using the nightly compiler (requires `rustup`):
+
+`cargo +nightly {{[b|build]}}`

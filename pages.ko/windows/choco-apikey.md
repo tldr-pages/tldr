@@ -1,0 +1,20 @@
+# choco apikey
+
+> Chocolatey 소스의 API 키 관리.
+> 더 많은 정보: <https://docs.chocolatey.org/en-us/create/commands/api-key/>.
+
+- 소스 및 해당 API 키 목록 표시:
+
+`choco apikey`
+
+- 특정 소스 및 해당 API 키 표시:
+
+`choco apikey {{[-s|--source]}} "{{소스_url}}"`
+
+- 소스에 대한 API 키 설정:
+
+`choco apikey {{[-s|--source]}} "{{소스_url}}" {{[-k|--api-key]}} "{{api_키}}"`
+
+- 소스에 대한 API 키 제거:
+
+`choco apikey {{[-s|--source]}} "{{소스_url}}" --remove`

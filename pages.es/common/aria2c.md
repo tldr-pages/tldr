@@ -1,0 +1,38 @@
+# aria2c
+
+> Utilidad de descarga rápida.
+> Soporta HTTP(S), FTP, SFTP, BitTorrent y Metalink.
+> Vea también: `axel`.
+> Más información: <https://aria2.github.io/manual/en/html/aria2c.html>.
+
+- Descarga un URI específico a un archivo:
+
+`aria2c "{{url}}"`
+
+- Descarga un archivo de una URI con un nombre de salida específico:
+
+`aria2c {{[-o|--out]}} {{ruta/al/archivo}} "{{url}}"`
+
+- Descarga varios archivos diferentes en paralelo:
+
+`aria2c {{[-Z|--force-sequential=true]}} {{"url1" "url2" ...}}`
+
+- Descarga el mismo archivo desde diferentes espejos y verifica la suma de comprobación del archivo descargado:
+
+`aria2c --checksum {{sha-256}}={{suma_de_comprobación}} {{"url1" "url2" ...}}`
+
+- Descarga las URI enumeradas en un archivo con un número determinado de descargas paralelas:
+
+`aria2c {{[-i|--input-file]}} {{ruta/al/archivo}} {{[-j|--max-concurrent-downloads]}} {{número_de_descargas}}`
+
+- Descarga con varias conexiones:
+
+`aria2c {{[-s|--split]}} {{número_de_conexiones}} "{{url}}"`
+
+- Descarga a través de FTP con un nombre de usuario y contraseña:
+
+`aria2c --ftp-user {{usuario}} --ftp-passwd {{contraseña}} "{{url}}"`
+
+- Limita la velocidad de descarga en bytes por segundo:
+
+`aria2c --max-download-limit {{velocidad}} "{{url}}"`

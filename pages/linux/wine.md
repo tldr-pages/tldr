@@ -1,0 +1,36 @@
+# wine
+
+> Run Windows executables on Unix-based systems.
+> More information: <https://gitlab.winehq.org/wine/wine/-/wikis/Commands>.
+
+- Run a specific program inside the `wine` environment:
+
+`wine {{command}}`
+
+- Run a specific program in background:
+
+`wine start {{command}}`
+
+- Install/uninstall an MSI package:
+
+`wine msiexec /{{i|x}} {{path/to/package.msi}}`
+
+- Run `File Explorer`, `Notepad`, or `WordPad`:
+
+`wine {{explorer|notepad|write}}`
+
+- Run `Registry Editor`, `Control Panel`, or `Task Manager`:
+
+`wine {{regedit|control|taskmgr}}`
+
+- Open a virtual Wine desktop:
+
+`wine explorer /desktop={{shell}},{{1920x1080}}`
+
+- Run the configuration tool:
+
+`wine winecfg`
+
+- Add a registry key:
+
+`wine reg add '{{path\to\registry_key}}' /v {{Value_name}} /t {{REG_SZ|REG_BINARY|REG_DWORD|...}} /d '{{data}}'`

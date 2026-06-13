@@ -1,0 +1,50 @@
+/pages.ar/ @MachiavelliII
+/pages.bn/ @badhon495
+/pages.cs/ @Sarijen
+/pages.de/ @pixelcmtd @gutjuri
+/pages.es/ @kant
+/pages.fa/ @MrMw3
+/pages.fi/ @Managor
+/pages.fr/ @nicokosi @noraj @Raizo62
+/pages.hi/ @kbdharun @debghs
+/pages.id/ @reinhart1010
+/pages.it/ @Magrid0 @SpikeTheDragon40k
+/pages.nl/ @sebastiaanspeck @leonvsc @Waples @dmmqz
+/pages.pl/ @acuteenvy @spageektti
+/pages.pt_BR/ @isaacvicente @renie
+/pages.ro/ @iamxorum
+/pages.ru/ @ivanbaluta @emmanuel-ferdman
+/pages.ta/ @kbdharun
+/pages.zh/ @BananaaaKING @Ninzero
+/pages.zh_TW/ @Ninzero
+
+/*.md @sbrl @kbdharun @sebastiaanspeck
+/.devcontainer/* @kbdharun @sebastiaanspeck
+/.github/workflows/* @sbrl @kbdharun @sebastiaanspeck
+/scripts/* @sebastiaanspeck @kbdharun
+/package.json @kbdharun @sebastiaanspeck
+/package-lock.json @kbdharun @sebastiaanspeck
+/requirements.txt @kbdharun @sebastiaanspeck
+
+/contributing-guides/maintainers-guide.md @sbrl @kbdharun @sebastiaanspeck
+/contributing-guides/style-guide.md @sbrl @kbdharun @sebastiaanspeck
+/contributing-guides/translation-templates/ @kbdharun @sebastiaanspeck
+/contributing-guides/*.ar.md @MachiavelliII
+/contributing-guides/*.bn.md @badhon495
+/contributing-guides/*.cs.md @Sarijen
+/contributing-guides/*.de.md @pixelcmtd @gutjuri
+/contributing-guides/*.es.md @kant
+/contributing-guides/*.fa.md @MrMw3
+/contributing-guides/*.fi.md @Managor
+/contributing-guides/*.fr.md @nicokosi @noraj @Raizo62
+/contributing-guides/*.hi.md @kbdharun @debghs
+/contributing-guides/*.id.md @reinhart1010
+/contributing-guides/*.it.md @Magrid0 @SpikeTheDragon40k
+/contributing-guides/*.nl.md @sebastiaanspeck @leonvsc @Waples @dmmqz
+/contributing-guides/*.pl.md @acuteenvy @spageektti
+/contributing-guides/*.pt_BR.md @isaacvicente @renie
+/contributing-guides/*.ro.md @iamxorum
+/contributing-guides/*.ru.md @ivanbaluta @emmanuel-ferdman
+/contributing-guides/*.ta.md @kbdharun
+/contributing-guides/*.zh.md @BananaaaKING @Ninzero
+/contributing-guides/*.zh_TW.md @Ninzero

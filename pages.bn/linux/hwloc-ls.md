@@ -1,0 +1,7 @@
+# hwloc-ls
+
+> এই কমান্ডটি `lstopo-no-graphics` - এর একটি উপনাম।
+
+- মূল কমান্ডের ডকুমেন্টেশন দেখুন:
+
+`tldr lstopo-no-graphics`

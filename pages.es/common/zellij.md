@@ -1,0 +1,25 @@
+# zellij
+
+> Multiplexor de terminal con baterías incluidas.
+> Vea también: `tmux`, `screen`.
+> Más información: <https://zellij.dev/documentation/>.
+
+- Inicia una nueva sesión con nombre:
+
+`zellij {{[-s|--session]}} {{nombre}}`
+
+- Lista las sesiones existentes:
+
+`zellij {{[ls|list-sessions]}}`
+
+- Abre la sesión más recientemente usada:
+
+`zellij {{[a|attach]}}`
+
+- Abre un nuevo panel (estando en una sesión de zellij):
+
+`<Alt n>`
+
+- Desvincula la sesión en curso (estando en una sesión de zellij):
+
+`<Ctrl o><d>`

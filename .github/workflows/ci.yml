@@ -1,0 +1,114 @@
+name: CI
+
+on: ['push', 'pull_request']
+
+jobs:
+  ci:
+    name: CI
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # to upload assets to releases
+      attestations: write # to upload assets attestation for build provenance
+      id-token: write # grant additional permission to attestation action to mint the OIDC token permission
+
+    env:
+      # Commit SHA: use PR head if in a PR, otherwise fall back to github.sha
+      COMMIT_SHA: ${{ github.event.pull_request.head.sha || github.sha }}
+      # PR ID: set to number if in PR, otherwise blank
+      PULL_REQUEST_ID: ${{ github.event.number || '' }}
+
+    steps:
+    - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+      with:
+        fetch-depth: 0
+
+    - uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
+      with:
+        python-version: '3.12'
+        cache: 'pip'
+
+    - uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6.4.0
+      with:
+        node-version: 'lts/*'
+        cache: 'npm'
+
+    - name: Install npm dependencies
+      run: npm ci
+
+    - name: Install pip dependencies
+      run: pip install -r requirements.txt -r scripts/pdf/requirements.txt -r scripts/test-requirements.txt
+
+    - name: Test
+      run: npm test
+
+    - name: Upload test logging
+      if: github.repository == 'tldr-pages/tldr' && github.event.pull_request.number != ''
+      uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+      with:
+        name: debug.log
+        path: debug.log
+
+    - name: Build
+      run: bash scripts/build.sh
+
+    - name: Build PDF
+      if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
+      working-directory: ./scripts/pdf
+      run: bash build-pdf.sh
+
+    - name: Deploy
+      if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
+      run: bash scripts/deploy.sh
+      env:
+        DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Check for generated files
+      if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
+      id: check-files
+      run: |
+        if [[ -n $(find language_archives -name "*.zip" -print -quit) ]]; then
+            echo "zip_exists=true" >> $GITHUB_ENV
+        else
+            echo "zip_exists=false" >> $GITHUB_ENV
+        fi
+
+        if [[ -n $(find scripts/pdf -name "*.pdf" -print -quit) ]]; then
+            echo "pdf_exists=true" >> $GITHUB_ENV
+        else
+            echo "pdf_exists=false" >> $GITHUB_ENV
+        fi
+
+        if [[ -f tldr.sha256sums ]]; then
+            echo "checksums_exist=true" >> $GITHUB_ENV
+        else
+            echo "checksums_exist=false" >> $GITHUB_ENV
+        fi
+
+    - name: Construct subject-path for attest
+      if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
+      id: construct-subject-path
+      run: |
+        subject_path=""
+        if [[ ${{ env.zip_exists }} == 'true' ]]; then
+          zip_files=$(find language_archives -name '*.zip' -printf '%p,')
+          subject_path+="${zip_files::-1}"
+        fi
+        if [[ ${{ env.pdf_exists }} == 'true' ]]; then
+          if [[ -n $subject_path ]]; then subject_path+=","; fi
+          pdf_files=$(find scripts/pdf -name '*.pdf' -printf '%p,')
+          subject_path+="${pdf_files::-1}"
+        fi
+        if [[ ${{ env.checksums_exist }} == 'true' ]]; then
+          if [[ -n $subject_path ]]; then subject_path+=","; fi
+          subject_path+='tldr.sha256sums'
+        fi
+        echo "subject_path=$subject_path" >> $GITHUB_ENV
+
+    - name: Attest generated files
+      if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
+      id: attest
+      uses: actions/attest-build-provenance@a2bbfa25375fe432b6a289bc6b6cd05ecd0c4c32 # v4.1.0
+      continue-on-error: true # prevent failing when no pages are modified
+      with:
+        subject-path: ${{ env.subject_path }}

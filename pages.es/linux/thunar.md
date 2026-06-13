@@ -1,0 +1,17 @@
+# thunar
+
+> Administrador de archivos gráficos para entornos de escritorio XFCE.
+> Vea también: `caja`, `dolphin`, `nautilus`, `mc`.
+> Más información: <https://docs.xfce.org/xfce/thunar/start>.
+
+- Abre una nueva ventana mostrando el directorio actual:
+
+`thunar`
+
+- Abre la utilidad de cambio de nombre masivo:
+
+`thunar --bulk-rename`
+
+- Cierra todas las ventanas abiertas de thunar:
+
+`thunar --quit`

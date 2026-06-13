@@ -1,0 +1,578 @@
+# Alias pages
+
+In order to document a command which is an alias of another command, you can
+write an alias page. This file contains a list of all translations of the alias
+page template decided upon in
+[#5368](https://github.com/tldr-pages/tldr/pull/5368).
+The templates can be changed when necessary.
+
+[en](#en) •
+[ar](#ar) •
+[bg](#bg) •
+[bn](#bn) •
+[bs](#bs) •
+[ca](#ca) •
+[cs](#cs) •
+[da](#da) •
+[de](#de) •
+[el](#el) •
+[es](#es) •
+[fa](#fa) •
+[fi](#fi) •
+[fr](#fr) •
+[hi](#hi) •
+[id](#id) •
+[it](#it) •
+[ja](#ja) •
+[ko](#ko) •
+[lo](#lo) •
+[ml](#ml) •
+[ne](#ne) •
+[nl](#nl) •
+[no](#no) •
+[pl](#pl) •
+[pt_BR](#pt_br) •
+[pt_PT](#pt_pt) •
+[ro](#ro) •
+[ru](#ru) •
+[sr](#sr) •
+[sv](#sv) •
+[ta](#ta) •
+[th](#th) •
+[tr](#tr) •
+[uk](#uk) •
+[uz](#uz) •
+[zh](#zh) •
+[zh_TW](#zh_tw)
+
+---
+
+### en
+
+```markdown
+# example
+
+> This command is an alias of `example`.
+
+- View documentation for the original command:
+
+`tldr example`
+```
+
+---
+
+### ar
+
+```markdown
+# example
+
+> هذا الأمر هو اسم مستعار لـ `example`.
+
+- إعرض التوثيقات للأمر الأصلي:
+
+`tldr example`
+```
+
+---
+
+### bg
+
+```markdown
+# example
+
+> Тази команда е псевдоним на `example`.
+
+- Виж документацията за оригиналната команда:
+
+`tldr example`
+```
+
+---
+
+### bn
+
+```markdown
+# example
+
+> এই কমান্ডটি `example` - এর একটি উপনাম।
+
+- মূল কমান্ডের ডকুমেন্টেশন দেখুন:
+
+`tldr example`
+```
+
+---
+
+### bs
+
+```markdown
+# example
+
+> Ova komanda je pseudonim za `example`.
+
+- Pogledaj dokumentaciju za izvornu komandu:
+
+`tldr example`
+```
+
+---
+
+### ca
+
+```markdown
+# example
+
+> Aquest comandament és un àlies de `example`.
+
+- Veure documentació pel comandament original:
+
+`tldr example`
+```
+
+---
+
+### cs
+
+```markdown
+# example
+
+> Tento příkaz je aliasem pro `example`.
+
+- Podívejte se na dokumentaci původního příkazu:
+
+`tldr example`
+```
+
+---
+
+### da
+
+```markdown
+# example
+
+> Denne kommando er et alias af `example`.
+
+- Se dokumentation for den oprindelige kommando:
+
+`tldr example`
+```
+
+---
+
+### de
+
+```markdown
+# example
+
+> Dieser Befehl ist ein Alias von `example`.
+
+- Zeige die Dokumentation für den originalen Befehl an:
+
+`tldr example`
+```
+
+---
+
+### el
+
+```markdown
+# example
+
+> Αυτή η εντολή είναι ψευδώνυμο της εντολής `example`.
+
+- Δείτε το εγχειρίδιο της αρχικής εντολής:
+
+`tldr example`
+```
+
+---
+
+### es
+
+```markdown
+# example
+
+> Este comando es un alias de `example`.
+
+- Vea la documentación del comando original:
+
+`tldr example`
+```
+
+---
+
+### fa
+
+```markdown
+# example
+
+> این دستور یک نام مستعار از `example` است.
+
+- مشاهده مستندات دستور اصلی:
+
+`tldr example`
+```
+
+---
+
+### fi
+
+```markdown
+# example
+
+> Tämä on alias `example` komennolle.
+
+- Näytä alkuperäisen komennon dokumentaatio:
+
+`tldr example`
+```
+
+---
+
+### fr
+
+```markdown
+# example
+
+> Cette commande est un alias de `example`.
+
+- Affiche la documentation de la commande originale :
+
+`tldr example`
+```
+
+---
+
+### hi
+
+```markdown
+# example
+
+> यह आदेश `example` का उपनाम है।
+
+- मूल आदेश के लिए दस्तावेज़ देखें:
+
+`tldr example`
+```
+
+---
+
+### id
+
+```markdown
+# example
+
+> Perintah ini merupakan alias dari `example`.
+
+- Tampilkan dokumentasi untuk perintah asli:
+
+`tldr example`
+```
+
+---
+
+### it
+
+```markdown
+# example
+
+> Questo comando è un alias per `example`.
+
+- Consulta la documentazione del comando originale:
+
+`tldr example`
+```
+
+---
+
+### ja
+
+```markdown
+# example
+
+> このコマンドは `example` のエイリアスです。
+
+- オリジナルのコマンドのドキュメントを表示する:
+
+`tldr example`
+```
+
+---
+
+### ko
+
+```markdown
+# example
+
+> 이 명령은 `example`의 별칭입니다.
+
+- 자세한 내용은 원본 명령을 참고하세요:
+
+`tldr example`
+```
+
+---
+
+### lo
+
+```markdown
+# example
+
+> ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `example`.
+
+- ເປີດເບິ່ງລາຍລະອຽດຂອງຄຳສັ່ງແບບເຕັມ:
+
+`tldr example`
+```
+
+---
+
+### ml
+
+```markdown
+# example
+
+> ഈ കമാൻഡ് `example` എന്നത്തിന്റെ അപരനാമമാണ്.
+
+- യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
+
+`tldr example`
+```
+
+---
+
+### ne
+
+```markdown
+# example
+
+> यो आदेश `example` को उपनाम हो।
+
+- मौलिक आदेशको लागि कागजात हेर्नुहोस्:
+
+`tldr example`
+```
+
+---
+
+### nl
+
+```markdown
+# example
+
+> Dit commando is een alias van `example`.
+
+- Bekijk de documentatie van het originele commando:
+
+`tldr example`
+```
+
+---
+
+### no
+
+```markdown
+# example
+
+> Denne kommandoen er et alias for `example`.
+
+- Vis dokumentasjonen for den opprinnelige kommandoen:
+
+`tldr example`
+```
+
+---
+
+### pl
+
+```markdown
+# example
+
+> To polecenie jest aliasem `example`.
+
+- Zobacz dokumentację oryginalnego polecenia:
+
+`tldr example`
+```
+
+---
+
+### pt_BR
+
+```markdown
+# example
+
+> Este comando é um apelido de `example`.
+
+- Veja documentação sobre o comando original:
+
+`tldr example`
+```
+
+---
+
+### pt_PT
+
+```markdown
+# example
+
+> Este comando é um alias de `example`.
+
+- Ver documentação do comando original:
+
+`tldr example`
+```
+
+---
+
+### ro
+
+```markdown
+# example
+
+> Această comandă este un alias al `example`.
+
+- Vizualizați documentația pentru comanda originală:
+
+`tldr example`
+```
+
+---
+
+### ru
+
+```markdown
+# example
+
+> Эта команда — псевдоним для `example`.
+
+- Смотри документацию для оригинальной команды:
+
+`tldr example`
+```
+
+---
+
+### sr
+
+```markdown
+# example
+
+> Ова наредба је псеудоним `example`.
+
+- Погледајте документацију за оригиналну команду:
+
+`tldr example`
+```
+
+---
+
+### sv
+
+```markdown
+# example
+
+> Det här kommandot är ett alias för `example`.
+
+- Se dokumentationen för orginalkommandot:
+
+`tldr example`
+```
+
+---
+
+### ta
+
+```markdown
+# example
+
+> இக்கட்டளை `example` கட்டளையின் மற்றொருப் பெயர்.
+
+- அக்கட்டளையின் விளக்கத்தைக் காண:
+
+`tldr example`
+```
+
+---
+
+### th
+
+```markdown
+# example
+
+> คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `example`
+
+- เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
+
+`tldr example`
+```
+
+---
+
+### tr
+
+```markdown
+# example
+
+> Bu komut `example` için bir takma addır.
+
+- Asıl komutun dokümantasyonunu görüntüleyin:
+
+`tldr example`
+```
+
+---
+
+### uk
+
+```markdown
+# example
+
+> Ця команда є псевдонімом для `example`.
+
+- Дивись документацію для оригінальної команди:
+
+`tldr example`
+```
+
+---
+
+### uz
+
+```markdown
+# example
+
+> Ushbu buyruq taxallus `example`.
+
+- Asl buyruq uchun hujjatlarni ko'rish:
+
+`tldr example`
+```
+
+---
+
+### zh
+
+```markdown
+# example
+
+> 此命令为 `example` 的别名。
+
+- 查看原命令的文档：
+
+`tldr example`
+```
+
+---
+
+### zh_TW
+
+```markdown
+# example
+
+> 此命令為 `example` 的別名。
+
+- 檢視原命令的文件：
+
+`tldr example`
+```

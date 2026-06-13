@@ -1,0 +1,7 @@
+# zegrep
+
+> यो आदेश `zgrep --extended-regexp` को उपनाम हो।
+
+- मौलिक आदेशको लागि कागजात हेर्नुहोस्:
+
+`tldr zgrep`

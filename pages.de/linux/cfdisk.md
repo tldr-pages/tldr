@@ -1,0 +1,13 @@
+# cfdisk
+
+> Ein Programm zur Verwaltung von Partitionstabellen mittels einer Curses-basierten UI.
+> Siehe auch: `parted`.
+> Weitere Informationen: <https://manned.org/cfdisk>.
+
+- Öffne das Partitionierungsinterface für eine bestimmte Festplatte:
+
+`sudo cfdisk {{/dev/sdX}}`
+
+- Erzeuge und bearbeite eine neue Partitionierungstabelle für eine bestimmte Festplatte:
+
+`sudo cfdisk {{[-z|--zero]}} {{/dev/sdX}}`

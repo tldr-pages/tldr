@@ -1,0 +1,24 @@
+# kpackagetool6
+
+> KPackage Manager: install, list, remove Plasma packages.
+> More information: <https://manned.org/kpackagetool6>.
+
+- List all known package types that can be installed:
+
+`kpackagetool6 --list-types`
+
+- Install the package from a directory:
+
+`kpackagetool6 {{[-t|--type]}} {{package_type}} {{[-i|--install]}} {{path/to/directory}}`
+
+- Update installed package from a directory:
+
+`kpackagetool6 {{[-t|--type]}} {{package_type}} {{[-u|--upgrade]}} {{path/to/directory}}`
+
+- List installed plasmoids (`--global` for all users):
+
+`kpackagetool6 {{[-t|--type]}} Plasma/Applet {{[-l|--list]}} {{[-g|--global]}}`
+
+- Remove a plasmoid by name:
+
+`kpackagetool6 {{[-t|--type]}} Plasma/Applet {{[-r|--remove]}} "{{name}}"`

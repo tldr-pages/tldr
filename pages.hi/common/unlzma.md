@@ -1,0 +1,7 @@
+# unlzma
+
+> यह आदेश `xz --format lzma --decompress` का उपनाम है।
+
+- मूल आदेश के लिए दस्तावेज़ देखें:
+
+`tldr xz`

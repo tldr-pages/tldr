@@ -1,0 +1,7 @@
+# rehash
+
+> Cette commande est un alias de `hash -r`.
+
+- Affiche la documentation de la commande originale :
+
+`tldr hash`

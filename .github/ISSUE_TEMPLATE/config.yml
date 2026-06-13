@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Chat room
+    url: https://matrix.to/#/#tldr-pages:matrix.org
+    about: Consider joining the chat room to discuss your issue, question or suggestion with the community before opening an issue.

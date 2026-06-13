@@ -1,0 +1,21 @@
+# git am
+
+> Patch-Dateien integrieren. Nützlich beim Empfang von Commits per E-Mail.
+> Siehe auch: `git format-patch`.
+> Weitere Informationen: <https://git-scm.com/docs/git-am>.
+
+- Integriere eine Patch-Datei:
+
+`git am {{pfad/zu/datei.patch}}`
+
+- Herunterladen und Integrieren einer Patch-Datei:
+
+`curl {{[-L|--location]}} {{https://example.com/file.patch}} | git am`
+
+- Brich das Integrieren einer Patch-Datei ab:
+
+`git am --abort`
+
+- Integriere so viele Patch-Dateien wie möglich und speichere fehlgeschlagene Teile:
+
+`git am --reject {{pfad/zu/datei.patch}}`

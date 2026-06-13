@@ -1,0 +1,7 @@
+# gsplit
+
+> यह आदेश `split` का उपनाम है।
+
+- मूल आदेश के लिए दस्तावेज़ देखें:
+
+`tldr {{[-p|--platform]}} common split`

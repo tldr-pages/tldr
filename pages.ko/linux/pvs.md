@@ -1,0 +1,33 @@
+# pvs
+
+> 물리 볼륨에 대한 정보를 표시합니다.
+> 관련 항목: `lvm`.
+> 더 많은 정보: <https://manned.org/pvs>.
+
+- 물리 볼륨에 대한 정보 표시:
+
+`sudo pvs`
+
+- 비물리적 볼륨 표시:
+
+`sudo pvs {{[-a|--all]}}`
+
+- 기본 표시를 자세히 보여주도록 변경:
+
+`sudo pvs {{[-v|--verbose]}}`
+
+- 특정 필드만 표시:
+
+`sudo pvs {{[-o|--options]}} {{필드_이름_1,필드_이름_2,...}}`
+
+- 기본 표시에 필드를 추가:
+
+`sudo pvs {{[-o|--options]}} +{{필드_이름}}`
+
+- 헤딩 행 생략:
+
+`sudo pvs --noheadings`
+
+- 필드 구분자 사용:
+
+`sudo pvs --separator {{특수_문자}}`

@@ -1,0 +1,16 @@
+# ftype
+
+> Muestra o modifica los tipos de archivo utilizados para la asociación de extensiones de archivo.
+> Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/ftype>.
+
+- Muestra una lista de todos los tipos de archivo:
+
+`ftype`
+
+- Muestra el programa asociado para un tipo de archivo específico:
+
+`ftype {{tipo_de_archivo}}`
+
+- Establece el programa asociado para un tipo de archivo específico:
+
+`ftype {{tipo_de_archivo}}="{{ruta/al/archivo_ejecutable}}"`

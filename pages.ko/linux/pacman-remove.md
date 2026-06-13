@@ -1,0 +1,33 @@
+# pacman --remove
+
+> Arch Linux 패키지 관리 도구.
+> 관련 항목: `pacman`.
+> 더 많은 정보: <https://manned.org/pacman.8>.
+
+- 패키지와 그 의존성 제거:
+
+`sudo pacman -Rs {{패키지}}`
+
+- 패키지와 그 의존성 및 구성 파일 제거:
+
+`sudo pacman -Rsn {{패키지}}`
+
+- 확인 없이 패키지 제거:
+
+`sudo pacman -R --noconfirm {{패키지}}`
+
+- 고아 패키지 제거 (의존성으로 설치되었지만 더 이상 어떤 패키지도 필요로 하지 않는 패키지):
+
+`sudo pacman -Rsn $(pacman -Qdtq)`
+
+- 패키지와 해당 패키지를 의존하는 모든 패키지 제거:
+
+`sudo pacman -Rc {{패키지}}`
+
+- 영향을 받을 패키지 목록 표시 (패키지를 제거하지 않음):
+
+`pacman -Rp {{패키지}}`
+
+- 도움말 표시:
+
+`pacman -Rh`

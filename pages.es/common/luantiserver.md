@@ -1,0 +1,7 @@
+# luantiserver
+
+> Este comando es un alias de `luanti --server`.
+
+- Vea la documentación del comando original:
+
+`tldr luanti`

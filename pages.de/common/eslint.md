@@ -1,0 +1,20 @@
+# eslint
+
+> Ein erweiterbarer Linter für JavaScript und JSX.
+> Weitere Informationen: <https://eslint.org/docs/latest/use/command-line-interface>.
+
+- Erstelle eine ESLint-Konfigurationsdatei:
+
+`eslint --init`
+
+- Linte Dateien:
+
+`eslint {{pfad/zu/datei1.js pfad/zu/datei2.js ...}}`
+
+- Behebe Lintingfehler:
+
+`eslint --fix`
+
+- Linte mit einer Konfigurationsdatei:
+
+`eslint {{[-c|--config]}} {{pfad/zu/konfigurationsdatei}} {{pfad/zu/datei1.js pfad/zu/datei2.js ...}}`

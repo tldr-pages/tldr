@@ -1,0 +1,21 @@
+# docker image
+
+> Gestisci immagini Docker.
+> Vedi anche: `docker build`, `docker image pull`, `docker image rm`.
+> Maggiori informazioni: <https://docs.docker.com/reference/cli/docker/image/>.
+
+- Elenca tutte le immagini Docker locali:
+
+`docker {{[images|image ls]}}`
+
+- Elimina le immagini Docker locali inutilizzate:
+
+`docker image prune`
+
+- Cancella tutte le immagini inutilizzate (non solo quelle sprovviste di tag):
+
+`docker image prune {{[-a|--all]}}`
+
+- Mostra la cronologia di un'immagine Docker locale:
+
+`docker {{[history|image history]}} {{immagine}}`

@@ -1,0 +1,37 @@
+# gdisk
+
+> GPT (GUID Partition Table) disk partitioning tool.
+> See also: `cfdisk`, `fdisk`, `parted`.
+> More information: <https://manned.org/gdisk>.
+
+- List partitions:
+
+`sudo gdisk {{[-l|--list]}}`
+
+- Start the interactive partition manipulator:
+
+`sudo gdisk {{/dev/sdX}}`
+
+- Open a help menu:
+
+`<?>`
+
+- Print the [p]artition table:
+
+`<p>`
+
+- Add a [n]ew partition:
+
+`<n>`
+
+- Select a partition to [d]elete:
+
+`<d>`
+
+- [w]rite table to disk and exit:
+
+`<w>`
+
+- [q]uit without saving changes:
+
+`<q>`

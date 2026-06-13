@@ -1,0 +1,33 @@
+# dust
+
+> Dust gib einen sofortigen Überblick, welche Verzeichnisse Festplatten Speicherplatz benutzen.
+> Siehe auch: `du`, `ncdu`.
+> Weitere Informationen: <https://github.com/bootandy/dust#usage>.
+
+- Informationen für das aktuelle Verzeichnis anzeigen:
+
+`dust`
+
+- Informationen für eine durch Leerzeichen getrennte Liste von Verzeichnissen anzeigen:
+
+`dust {{pfad/zu/verzeichnis1 pfad/zu/verzeichnis2 ...}}`
+
+- Zeige 30 Verzeichnisse an (Standardwert: 21):
+
+`dust {{[-n|--number-of-lines]}} 30`
+
+- Zeigt Informationen für das aktuelle Verzeichnis an, bis zu 3 Ebenen tief:
+
+`dust {{[-d|--depth]}} 3`
+
+- Die größten Verzeichnisse in absteigender Reihenfolge oben anzeigen:
+
+`dust {{[-r|--reverse]}}`
+
+- Alle Dateien und Verzeichnisse mit einem bestimmten Namen ignorieren:
+
+`dust {{[-X|--ignore-directory]}} {{datei_oder_verzeichnis_name}}`
+
+- Keine Prozentbalken und Prozente anzeigen:
+
+`dust {{[-b|--no-percent-bars]}}`

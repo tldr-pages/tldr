@@ -1,0 +1,7 @@
+# pwsh where
+
+> এই কমান্ডটি `Where-Object` - এর একটি উপনাম।
+
+- মূল কমান্ডের ডকুমেন্টেশন দেখুন:
+
+`tldr Where-Object`

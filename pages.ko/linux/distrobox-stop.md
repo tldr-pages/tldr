@@ -1,0 +1,13 @@
+# distrobox-stop
+
+> Distrobox 컨테이너 중지.
+> 관련 항목: `distrobox`.
+> 더 많은 정보: <https://distrobox.it/usage/distrobox-stop/>.
+
+- Distrobox 컨테이너 중지:
+
+`distrobox-stop {{컨테이너_이름}}`
+
+- 확인 없이 비대화형으로 Distrobox 컨테이너 중지:
+
+`distrobox-stop {{컨테이너_이름}} {{[-Y|--yes]}}`

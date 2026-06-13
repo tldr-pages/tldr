@@ -1,0 +1,32 @@
+# scrcpy
+
+> Tampilkan layar and kontrol perangkat Android anda di dalam desktop.
+> Informasi lebih lanjut: <https://github.com/Genymobile/scrcpy>.
+
+- Tampilkan layar sebuah perangkat yang terhubung:
+
+`scrcpy`
+
+- Matikan layar namun cegat perangkat tujuan dari memasukan mode tidur saat sedang ditampilkan:
+
+`scrcpy {{[-S|--turn-screen-off]}} {{[-w|--stay-awake]}}`
+
+- Tampilkan layar perangkat tertentu berdasarkan ID atau alamat IP-nya (temukan menggunakan perintah `adb devices`):
+
+`scrcpy {{[-s|--serial]}} {{0123456789abcdef|192.168.0.1:5555}}`
+
+- Tampilkan layar dalam mode layar penuh / fullscreen:
+
+`scrcpy {{[-f|--fullscreen]}}`
+
+- Tunjukkan indikator sentuhan pada perangkat fisik:
+
+`scrcpy {{[-t|--show-touches]}}`
+
+- Rekam tampilan layar perangkat ke dalam file video tertentu:
+
+`scrcpy {{[-r|--record]}} {{jalan/menuju/berkas.mp4}}`
+
+- Tentukan direktori yang akan digunakan untuk memindahkan file (non-APK) ke dalam perangkat melalui drag-and-drop:
+
+`scrcpy --push-target {{jalan/menuju/direktori}}`
