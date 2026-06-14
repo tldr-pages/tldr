@@ -30,3 +30,7 @@
 - Sort processes by memory consumption:
 
 `ps --sort size`
+
+- Display threads for a specific process:
+
+`ps -L {{[-p|--pid]}} {{process_id}}`
