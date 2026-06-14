@@ -1,6 +1,6 @@
 # am
 
-> Gestione attività di Android.
+> Gestione delle attività di Android.
 > Maggiorni Informazioni: <https://developer.android.com/tools/adb#am>.
 
 - Avvia l'activity con un componente specifico e [n]ome del pacchetto:
