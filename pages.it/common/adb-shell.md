@@ -1,4 +1,4 @@
-# adb-shell
+# adb shell
 
 > Esegue comandi shell su un dispositivo o emulatoro Android connesso.
 > Maggiori informazioni: <https://developer.android.com/tools/adb>.
