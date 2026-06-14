@@ -15,6 +15,10 @@
 
 `sudo nethogs {{device1 device2 ...}}`
 
-- Specify refresh rate:
+- Specify refresh interval in seconds:
 
-`sudo nethogs -t {{seconds}}`
+`sudo nethogs -d {{seconds}}`
+
+- Change the traffic display unit (e.g. 3 for total MB, 4 for MB/s):
+
+`sudo nethogs -v {{view_mode}}`
