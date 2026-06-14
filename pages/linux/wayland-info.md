@@ -1,7 +1,7 @@
 # wayland-info
 
 > Display information about a Wayland compositor and available protocols.
-> More information: <https://gitlab.freedesktop.org/wayland/wayland-utils>.
+> More information: <https://manned.org/wayland-info>.
 
 - Display information about the current Wayland compositor and available protocols:
 
