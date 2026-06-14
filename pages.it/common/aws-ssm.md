@@ -2,7 +2,7 @@
 
 > Interagisce in modo sicuro con le risorse AWS e le gestisce.
 > Nota: le sessioni interattive richiedono che il Session Manager plugin sia installato.
-> Maggiorni informazioni: <https://docs.aws.amazon.com/cli/latest/reference/ssm/>.
+> Maggiori informazioni: <https://docs.aws.amazon.com/cli/latest/reference/ssm/>.
 
 - Esegue comandi sulle istanze:
 

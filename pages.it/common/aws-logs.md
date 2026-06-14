@@ -1,7 +1,7 @@
 # aws logs
 
 > Interagisce con i file di log di vari servizi AWS.
-> Maggiorni informazioni: <https://docs.aws.amazon.com/cli/latest/reference/logs/>.
+> Maggiori informazioni: <https://docs.aws.amazon.com/cli/latest/reference/logs/>.
 
 - Elenca i gruppi di log:
 

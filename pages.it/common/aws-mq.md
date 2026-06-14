@@ -1,7 +1,7 @@
 # aws mq
 
 > Definisce e gestisce broker di messaggi in AWS.
-> Maggiorni informazioni: <https://docs.aws.amazon.com/cli/latest/reference/mq/>.
+> Maggiori informazioni: <https://docs.aws.amazon.com/cli/latest/reference/mq/>.
 
 - Crea un broker:
 
