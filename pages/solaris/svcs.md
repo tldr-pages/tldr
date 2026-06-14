@@ -23,22 +23,6 @@
 
 `svcs -x`
 
-- Show service log file path:
-
-`svcs -L {{service_fmri}}`
-
-- Show service last logs:
-
-`svcs -xL {{service_fmri}}`
-
-- Show service verbose logs:
-
-`svcs -xv {{service_fmri}}`
-
-- Show the complete log:
-
-`svcs -vL {{service_fmri}}`
-
 - Show PID of service processes:
 
 `svcs -p {{service_fmri}}`
