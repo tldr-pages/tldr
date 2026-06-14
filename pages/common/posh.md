@@ -1,0 +1,24 @@
+# posh
+
+> Gems documentation browser for Ruby developers.
+> More information: <https://poshtui.com/docs>.
+
+- Download documentation to your machine (run inside a Ruby project):
+
+`posh sync`
+
+- Open TUI interface for a project:
+
+`posh`
+
+- Clear all docsets from your machine:
+
+`posh clear`
+
+- Generate the autocompletion script for your shell:
+
+`posh completion {{bash|fish|powershell|zsh}}`
+
+- Display help:
+
+`posh -h`
