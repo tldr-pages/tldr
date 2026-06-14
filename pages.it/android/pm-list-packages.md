@@ -1,7 +1,7 @@
 # pm list packages
 
 > Elenca i pacchetti installati, conosciuti o filtrati su un dispositivo Android.
-> More information: <https://developer.android.com/tools/adb#pm>.
+> Maggiori informazioni: <https://developer.android.com/tools/adb#pm>.
 
 - Elenca tutti i pacchetti installati:
 

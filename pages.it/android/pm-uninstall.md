@@ -1,7 +1,7 @@
 # pm uninstall
 
 > Rimuove un pacchetto.
-> More information: <https://developer.android.com/tools/adb#pm>.
+> Maggiori informazioni: <https://developer.android.com/tools/adb#pm>.
 
 - Rimuove un pacchetto dal dispositivo:
 
