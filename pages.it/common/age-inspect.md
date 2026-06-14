@@ -2,7 +2,7 @@
 
 > Esamina i file cifrati `age`.
 > Vedi anche: `age`, `age-keygen`.
-> More information: <https://manned.org/age-inspect>.
+> Maggiori informazioni: <https://manned.org/age-inspect>.
 
 - Stampa il tipo di destinatario, la dimensione del file e se usa cifratura post-quantum:
 
