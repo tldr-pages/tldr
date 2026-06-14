@@ -14,11 +14,11 @@
 
 - Muestra una vaca en las coordenadas X e Y especificadas:
 
-`xcowsay --at={{X}},{{Y}}`
+`xcowsay --at {{X}},{{Y}}`
 
 - Muestra una vaca de tamaño diferente:
 
-`xcowsay --cow-size={{small|med|large}}`
+`xcowsay --cow-size {{small|med|large}}`
 
 - Muestra una burbuja de pensamiento en lugar de una burbuja de discurso:
 
@@ -26,4 +26,4 @@
 
 - Muestra una imagen diferente en lugar de la vaca predeterminada:
 
-`xcowsay --image={{ruta/al/archivo}}`
+`xcowsay --image {{ruta/al/archivo}}`

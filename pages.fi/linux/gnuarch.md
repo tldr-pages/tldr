@@ -1,6 +1,6 @@
 # gnuarch
 
-> Tämä on alias `arch` komennolle.
+> Tämä on alias GNU:n `arch` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

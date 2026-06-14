@@ -13,7 +13,7 @@
 
 - Recursively extract files from a binary limiting the recursion depth to 2:
 
-`binwalk {{[-e|--extract]}} {{[-M|--matryoshka]}} {{[-d|--depth]}} {{2}} {{path/to/binary}}`
+`binwalk {{[-e|--extract]}} {{[-M|--matryoshka]}} {{[-d|--depth]}} 2 {{path/to/binary}}`
 
 - Extract files from a binary with the specified file signature:
 

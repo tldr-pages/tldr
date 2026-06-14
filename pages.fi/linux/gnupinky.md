@@ -1,6 +1,6 @@
 # gnupinky
 
-> Tämä on alias `pinky` komennolle.
+> Tämä on alias GNU:n `pinky` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

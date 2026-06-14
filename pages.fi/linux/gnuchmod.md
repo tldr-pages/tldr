@@ -1,6 +1,6 @@
 # gnuchmod
 
-> Tämä on alias `chmod` komennolle.
+> Tämä on alias GNU:n `chmod` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

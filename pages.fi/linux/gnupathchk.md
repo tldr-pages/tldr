@@ -1,6 +1,6 @@
 # gnupathchk
 
-> Tämä on alias `pathchk` komennolle.
+> Tämä on alias GNU:n `pathchk` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -1,6 +1,6 @@
 # gnuprintf
 
-> Tämä on alias `printf` komennolle.
+> Tämä on alias GNU:n `printf` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

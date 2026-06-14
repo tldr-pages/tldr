@@ -1,6 +1,6 @@
 # gnubase64
 
-> Tämä on alias `base64` komennolle.
+> Tämä on alias GNU:n `base64` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

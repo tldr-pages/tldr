@@ -1,6 +1,6 @@
 # gnusleep
 
-> Tämä on alias `sleep` komennolle.
+> Tämä on alias GNU:n `sleep` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
