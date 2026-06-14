@@ -9,11 +9,7 @@
 
 - Display information for interfaces matching a specific name:
 
-`wayland-info --interface {{wl_output}}`
-
-- Display information for interfaces containing a specific string:
-
-`wayland-info -i {{xdg}}`
+`wayland-info {{[-i|--interface]}} {{wl_output}}`
 
 - Save the output to a file:
 
