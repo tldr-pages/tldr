@@ -2,6 +2,6 @@
 
 > Det här kommandot är ett alias för `pacman --query`.
 
-- Se dokumentationen för orginalkommandot:
+- Se dokumentationen för originalkommandot:
 
 `tldr pacman query`

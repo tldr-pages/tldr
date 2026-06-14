@@ -2,6 +2,6 @@
 
 > Det här kommandot är ett alias för `limine-entry-tool --scan`.
 
-- Se dokumentationen för orginalkommandot:
+- Se dokumentationen för originalkommandot:
 
 `tldr limine-entry-tool`

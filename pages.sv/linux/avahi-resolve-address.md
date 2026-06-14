@@ -2,6 +2,6 @@
 
 > Det här kommandot är ett alias för `avahi-resolve --address`.
 
-- Se dokumentationen för orginalkommandot:
+- Se dokumentationen för originalkommandot:
 
 `tldr avahi-resolve`

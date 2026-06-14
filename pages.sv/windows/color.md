@@ -3,7 +3,7 @@
 > Används för att ändra bakgrunds och textfärgen i kommandotolken.
 > Mer information: <https://learn.microsoft.com/windows-server/administration/windows-commands/color>.
 
-- Återställer färgerna till orginal (svart bakgrund, vit text):
+- Återställer färgerna till original (svart bakgrund, vit text):
 
 `color`
 

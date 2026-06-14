@@ -2,6 +2,6 @@
 
 > Det här kommandot är ett alias för `xzgrep --extended-regexp`.
 
-- Se dokumentationen för orginalkommandot:
+- Se dokumentationen för originalkommandot:
 
 `tldr xzgrep`

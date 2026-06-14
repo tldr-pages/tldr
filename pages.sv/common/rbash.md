@@ -2,6 +2,6 @@
 
 > Det här kommandot är ett alias för `bash --restricted`.
 
-- Se dokumentationen för orginalkommandot:
+- Se dokumentationen för originalkommandot:
 
 `tldr bash`

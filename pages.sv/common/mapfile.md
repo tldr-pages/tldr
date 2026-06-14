@@ -2,6 +2,6 @@
 
 > Det här kommandot är ett alias för `readarray`.
 
-- Se dokumentationen för orginalkommandot:
+- Se dokumentationen för originalkommandot:
 
 `tldr readarray`

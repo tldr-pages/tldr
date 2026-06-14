@@ -2,6 +2,6 @@
 
 > Det här kommandot är ett alias för `systemctl stop`.
 
-- Se dokumentationen för orginalkommandot:
+- Se dokumentationen för originalkommandot:
 
 `tldr systemctl stop`

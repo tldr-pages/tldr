@@ -2,6 +2,6 @@
 
 > Det här kommandot är ett alias för `gnmic subscribe`.
 
-- Se dokumentationen för orginalkommandot:
+- Se dokumentationen för originalkommandot:
 
 `tldr gnmic subscribe`

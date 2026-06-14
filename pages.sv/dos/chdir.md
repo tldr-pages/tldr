@@ -2,6 +2,6 @@
 
 > Det här kommandot är ett alias för `CD`.
 
-- Se dokumentationen för orginalkommandot:
+- Se dokumentationen för originalkommandot:
 
 `tldr {{[-p|--platform]}} dos cd`
