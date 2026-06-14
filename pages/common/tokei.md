@@ -17,4 +17,4 @@
 
 - Display a report for all files of type Rust and Markdown:
 
-`tokei {{path/to/directory}} {{[-t|--type]}} {{Rust}},{{Markdown}}`
+`tokei {{path/to/directory}} {{[-t|--types]}} {{Rust}},{{Markdown}}`
