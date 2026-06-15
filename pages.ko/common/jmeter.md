@@ -5,16 +5,16 @@
 
 - GUI 없이 특정 테스트 플랜 실행:
 
-`jmeter --nongui --testfile {{경로/대상/파일.jmx}}`
+`jmeter {{[-n|--nongui]}} {{[-t|--testfile]}} {{경로/대상/파일.jmx}}`
 
 - 특정 로그 파일을 사용하여 GUI 없이 테스트 플랜 실행:
 
-`jmeter --nogui --testfile {{경로/대상/파일.jmx}} --logfile {{경로/대상/로그파일.jtl}}`
+`jmeter {{[-n|--nongui]}} {{[-t|--testfile]}} {{경로/대상/파일.jmx}} {{[-l|--logfile]}} {{경로/대상/로그파일.jtl}}`
 
 - 특정 프록시를 사용하여 GUI 없이 테스트 플랜 실행:
 
-`jmeter --nongui --testfile {{경로/대상/파일.jmx}} --proxyHost {{127.0.0.1}} --proxyPort {{8888}}`
+`jmeter {{[-n|--nongui]}} {{[-t|--testfile]}} {{경로/대상/파일.jmx}} {{[-H-|--proxyHost]}} {{127.0.0.1}} {{[-P|--proxyPort]}} {{8888}}`
 
 - 특정 JMeter 속성을 사용하여 GUI 없이 테스트 플랜 실행:
 
-`jmeter --jmeterproperty {{키}}='{{값}}' --nongui --testfile {{경로/대상/파일.jmx}}`
+`jmeter {{[-n|--nongui]}} {{[-t|--testfile]}} {{경로/대상/파일.jmx}} {{[-J|--jmeterproperty]}} {{키}}='{{값}}'`
