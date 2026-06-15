@@ -1,7 +1,7 @@
 # cosign
 
 > 在 OCI 注册表中对容器进行签名、验证和存储。
-> 更多信息：<https://github.com/sigstore/cosign/blob/main/doc/cosign.md>.
+> 更多信息：<https://github.com/sigstore/cosign/blob/main/doc/cosign.md>。
 
 - 生成密钥对：
 
