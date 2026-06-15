@@ -12,7 +12,7 @@
 - Genera solo pacchetti binari (nessun pacchetto sorgente):
 
 `dpkg-buildpackage {{[-b|--build=binary]}}`
-recheck
+
 - Genera solo il pacchetto sorgente (senza compilare binari):
 
 `dpkg-buildpackage {{[-S|--build=source]}}`
