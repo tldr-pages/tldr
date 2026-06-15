@@ -14,7 +14,7 @@
 
 - Scan a Go package recursively and save results to a file:
 
-`gosec -fmt={{json|yaml|csv|html|sonarqube|golint|sarif|junit-xml}} -out={{path/to/report}} {{./...}}`
+`gosec -fmt {{json|yaml|csv|html|sonarqube|golint|sarif|junit-xml}} -out {{path/to/report}} {{./...}}`
 
 - Only include a specific set of rules (by default, all rules will run):
 
