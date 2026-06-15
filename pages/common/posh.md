@@ -5,7 +5,7 @@
 
 - Download documentation to your machine (run inside a Ruby project) and print full sync report:
 
-`posh sync {{--full}}`
+`posh sync --full`
 
 - Open TUI interface for a project:
 
