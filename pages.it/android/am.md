@@ -19,6 +19,6 @@
 
 `am to-uri -a {{android.intent.action.VIEW}} -d {{tel:123}}`
 
-- Avvia l'activity home su un emulatoro o dispositivo:
+- Avvia l'activity home su un emulatore o dispositivo:
 
 `am start -W -c android.intent.category.HOME -a android.intent.action.MAIN`
