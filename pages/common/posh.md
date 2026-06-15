@@ -3,9 +3,9 @@
 > Gems documentation browser for Ruby developers.
 > More information: <https://poshtui.com/docs>.
 
-- Download documentation to your machine (run inside a Ruby project):
+- Download documentation to your machine (run inside a Ruby project) and print full sync report:
 
-`posh sync`
+`posh sync {{--full}}`
 
 - Open TUI interface for a project:
 
