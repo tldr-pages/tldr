@@ -18,7 +18,7 @@
 
 - Only include a specific set of rules (by default, all rules will run):
 
-`gosec -include={{G101,G203,G401,...}} {{./...}}`
+`gosec -include {{G101,G203,G401,...}} {{./...}}`
 
 - Exclude directories from scanning:
 
