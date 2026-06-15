@@ -23,3 +23,6 @@
 
 `posh {{[-h|--help]}}`
 
+- Display help for a specific subcommand:
+
+`posh {{subcommand}} {{[-h|--help]}}`
