@@ -30,7 +30,7 @@
 
 - Exclude a specific set of rules from scanning:
 
-`gosec -exclude={{G101,G304,G401,...}} {{./...}}`
+`gosec -exclude {{G101,G304,G401,...}} {{./...}}`
 
 - Scan test files as well:
 
