@@ -13,7 +13,7 @@
 
 - Imprime con líneas numeradas y un formato de fecha personalizado:
 
-`pr {{[-n|--number-lines]}} {{[-D|--date-format]}} "{{formato}}" {{ruta/a/archivo1 path/to/file2 ...}}`
+`pr {{[-n|--number-lines]}} {{[-D|--date-format]}} "{{formato}}" {{ruta/al/archivo1 ruta/al/archivo2 ...}}`
 
 - Imprime todos los archivos juntos, uno en cada columna, sin encabezado ni pie de página:
 
