@@ -24,9 +24,9 @@
 
 `gosec -exclude-dir={{path/to/excluded_directory}} {{./...}}`
 
-- Scan with a specific severity or confidence level (low, medium, or high):
+- Scan with a specific severity or confidence level:
 
-`gosec -severity={{severity_level}} -confidence={{severity_level}} {{./...}}`
+`gosec -severity {{low|medium|high}} -confidence {{low|medium|high}} {{./...}}`
 
 - Exclude a specific set of rules from scanning:
 
