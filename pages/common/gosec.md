@@ -22,7 +22,7 @@
 
 - Exclude directories from scanning:
 
-`gosec -exclude-dir={{path/to/excluded_directory}} {{./...}}`
+`gosec -exclude-dir {{path/to/excluded_directory}} {{./...}}`
 
 - Scan with a specific severity or confidence level:
 
