@@ -21,4 +21,5 @@
 
 - Display help:
 
-`posh -h`
+`posh {{[-h|--help]}}`
+
