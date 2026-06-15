@@ -1,6 +1,6 @@
 # gnuexpr
 
-> Tämä on alias `expr` komennolle.
+> Tämä on alias GNU:n `expr` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

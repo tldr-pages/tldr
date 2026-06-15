@@ -1,6 +1,6 @@
 # gnutty
 
-> Tämä on alias `tty` komennolle.
+> Tämä on alias GNU:n `tty` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

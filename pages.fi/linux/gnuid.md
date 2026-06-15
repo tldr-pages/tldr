@@ -1,6 +1,6 @@
 # gnuid
 
-> Tämä on alias `id` komennolle.
+> Tämä on alias GNU:n `id` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -1,6 +1,6 @@
 # gnubasename
 
-> Tämä on alias `basename` komennolle.
+> Tämä on alias GNU:n `basename` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

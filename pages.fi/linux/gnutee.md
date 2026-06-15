@@ -1,6 +1,6 @@
 # gnutee
 
-> Tämä on alias `tee` komennolle.
+> Tämä on alias GNU:n `tee` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -1,6 +1,6 @@
 # gnunohup
 
-> Tämä on alias `nohup` komennolle.
+> Tämä on alias GNU:n `nohup` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

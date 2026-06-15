@@ -1,6 +1,6 @@
 # gnuusers
 
-> Tämä on alias `users` komennolle.
+> Tämä on alias GNU:n `users` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

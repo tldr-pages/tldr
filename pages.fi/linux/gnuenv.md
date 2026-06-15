@@ -1,6 +1,6 @@
 # gnuenv
 
-> Tämä on alias `env` komennolle.
+> Tämä on alias GNU:n `env` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

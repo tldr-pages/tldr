@@ -1,6 +1,6 @@
 # gnusort
 
-> Tämä on alias `sort` komennolle.
+> Tämä on alias GNU:n `sort` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

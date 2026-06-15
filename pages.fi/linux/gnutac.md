@@ -1,6 +1,6 @@
 # gnutac
 
-> Tämä on alias `tac` komennolle.
+> Tämä on alias GNU:n `tac` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
