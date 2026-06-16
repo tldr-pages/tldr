@@ -2,7 +2,7 @@
 
 > Aggiorna Azure CLI ed estensioni.
 > Parte di `azure-cli` (noto anche come `az`).
-> Maggiori informazioni: <https://learn.microsoft.com/cli/azure/reference-index?view=azure-cli-latest#az-upgrade>.
+> Maggiori informazioni: <https://learn.microsoft.com/cli/azure/reference-index#az-upgrade>.
 
 - Aggiorna Azure CLI:
 

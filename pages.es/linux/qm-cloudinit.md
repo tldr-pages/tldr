@@ -5,4 +5,4 @@
 
 - Genera un archivo cloudinit para un tipo de configuración específica:
 
-`qm {{[clou|cloudinit]}} {{[d|dump]}} {{id_máquina_virtual}} {{meta|network|user}}`
+`qm {{[clou|cloudinit]}} {{[d|dump]}} {{100}} {{meta|network|user}}`

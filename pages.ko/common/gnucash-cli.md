@@ -5,7 +5,7 @@
 
 - 파일에 지정된 통화 및 주식에 대한 견적을 받아 출력:
 
-`gnucash-cli --quotes get {{경로/대상/파일.gnucash}}`
+`gnucash-cli {{[-Q|--quotes]}} get {{경로/대상/파일.gnucash}}`
 
 - `--name`으로 지정된 특정 유형의 재무 보고서를 생성:
 

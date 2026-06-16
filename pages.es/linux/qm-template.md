@@ -5,4 +5,4 @@
 
 - Crea una plantilla a partir de una máquina virtual dada:
 
-`qm {{[tem|template]}} {{id_mv}}`
+`qm {{[tem|template]}} {{100}}`

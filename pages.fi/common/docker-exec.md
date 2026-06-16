@@ -1,6 +1,6 @@
 # docker exec
 
-> Tämä on alias komennolle `docker container exec`.
+> Tämä on alias `docker container exec` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -9,24 +9,24 @@
 
 - 문자열에서 상자를 제거[r]:
 
-`echo "{{문자열}}" | boxes -r`
+`echo "{{문자열}}" | boxes {{[-r|--remove]}}`
 
 - 문자열 주위에 특정 디자인[d]의 상자 그리기:
 
-`echo "{{문자열}}" | boxes -d {{parchment}}`
+`echo "{{문자열}}" | boxes {{[-d|--design]}} {{parchment}}`
 
 - 상자 크기[s] 지정(열 단위):
 
-`echo "{{문자열}}" | boxes -s {{10}}x{{5}}`
+`echo "{{문자열}}" | boxes {{[-s|--size]}} {{10}}x{{5}}`
 
 - 상자 텍스트 수평[h] 정렬[a](왼쪽[l], 중앙[c], 오른쪽[r]):
 
-`echo "{{문자열}}" | boxes -a h{{l|c|r}}`
+`echo "{{문자열}}" | boxes {{[-a|--align]}} h{{l|c|r}}`
 
 - 상자 텍스트 수직[v] 정렬[a](위쪽[t], 중앙[c], 아래쪽[b]):
 
-`echo "{{문자열}}" | boxes -a v{{t|c|b}}`
+`echo "{{문자열}}" | boxes {{[-a|--align]}} v{{t|c|b}}`
 
 - 상자 텍스트 양쪽 조정[j](왼쪽[l], 중앙[c], 오른쪽[r]):
 
-`echo "{{문자열}}" | boxes -a j{{l|c|r}}{{vt}}`
+`echo "{{문자열}}" | boxes {{[-a|--align]}} j{{l|c|r}}{{vt}}`

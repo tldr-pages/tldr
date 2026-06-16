@@ -1,7 +1,7 @@
 # grep
 
 > Zoek patronen in bestanden met behulp van `regex`en.
-> Zie ook: `regex`.
+> Zie ook: `rg`, `regex`.
 > Meer informatie: <https://www.gnu.org/software/grep/manual/grep.html>.
 
 - Zoek naar een patroon in bestanden:

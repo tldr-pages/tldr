@@ -10,7 +10,7 @@
 
 - 현재 커널에 대한 initramfs 이미지를 생성하고 기존 이미지를 덮어씀:
 
-`dracut --force`
+`dracut {{[-f|--force]}}`
 
 - 특정 커널에 대한 initramfs 이미지 생성:
 

@@ -27,7 +27,7 @@
 
 `bd update {{issue_id}} {{[-s|--status]}} {{open|in_progress|blocked|closed}}`
 
-- Manually sync changes and import latest from git:
+- Manually sync changes and import latest from Git:
 
 `bd sync`
 

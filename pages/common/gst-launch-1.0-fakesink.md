@@ -7,3 +7,7 @@
 - Consume data from a pipeline without outputting it:
 
 `gst-launch-1.0 {{pipeline}} ! fakesink`
+
+- Print information on the received data:
+
+`gst-launch-1.0 {{[-v|--verbose]}} {{pipeline}} ! fakesink silent=false`

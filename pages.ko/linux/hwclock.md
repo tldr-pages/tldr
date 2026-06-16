@@ -5,12 +5,12 @@
 
 - 하드웨어 시계에 의해 보고된 현재 시간 표시:
 
-`hwclock`
+`sudo hwclock`
 
 - 현재 소프트웨어 시계 시간을 하드웨어 시계에 기록 (시스템 설정 중에 사용되기도 함):
 
-`hwclock --systohc`
+`sudo hwclock {{[-w|--systohc]}}`
 
 - 현재 하드웨어 시계 시간을 소프트웨어 시계에 기록:
 
-`hwclock --hctosys`
+`sudo hwclock {{[-s|--hctosys]}}`

@@ -6,11 +6,11 @@
 
 - ساخت یک درایو USB قابل بوت از یک فایل iso (مثل `archlinux-xxx.iso`) و نمایش پیشرفت:
 
-`dd if={{path/to/file.iso}} of={{/dev/usb_drive}} status=progress`
+`sudo dd if={{path/to/file.iso}} of={{/dev/usb_drive}} status=progress`
 
 - کلون کردن یک درایو به یک درایو دیگر با اندازهٔ بلوک ۴ مگابایت و اعمال چیزهای نوشته شده پیش از خاتمهٔ دستور:
 
-`dd bs=4M conv=fsync if={{/dev/source_drive}} of={{/dev/dest_drive}}`
+`sudo dd bs=4M conv=fsync if={{/dev/source_drive}} of={{/dev/dest_drive}}`
 
 - ایجاد یک فایل با تعداد مشخصی بایت تصادفی با استفاده از درایور random کرنل:
 
@@ -22,8 +22,8 @@
 
 - ساخت یک پشتیبان از سامانه و ذخیرهٔ آن در یک فایل IMG (می‌توان بعداً با تغییر `if` به `of` آن را بازسازی کرد):
 
-`dd if={{/dev/drive_device}} of={{path/to/file.img}} status=progress`
+`sudo dd if={{/dev/drive_device}} of={{path/to/file.img}} status=progress`
 
 - بررسی پیشرفت یک عملکرد در حال اجرای `dd` (این دستور را از یک پوستهٔ دیگر اجرا کنید):
 
-`kill -USR1 $(pgrep -x dd)`
+`progress`

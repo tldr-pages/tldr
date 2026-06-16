@@ -10,12 +10,12 @@
 
 - 주어진 스왑 영역 활성화:
 
-`swapon {{경로/대상/파일}}`
+`sudo swapon {{경로/대상/파일}}`
 
 - `/etc/fstab`에 지정된 모든 스왑 영역(단, `noauto` 옵션이 있는 것은 제외) 활성화:
 
-`swapon {{[-a|--all]}}`
+`sudo swapon {{[-a|--all]}}`
 
 - 레이블로 스왑 파티션 활성화:
 
-`swapon -L {{레이블}}`
+`sudo swapon -L {{레이블}}`

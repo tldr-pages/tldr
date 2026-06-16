@@ -6,12 +6,12 @@
 
 - 파일을 지정된 형식으로 변환 (파일 확장자에 따라 자동 결정):
 
-`mmdc --input {{입력.mmd}} --output {{출력.svg}}`
+`mmdc {{[-i|--input]}} {{입력.mmd}} {{[-o|--output]}} {{출력.svg}}`
 
 - 차트의 테마 지정:
 
-`mmdc --input {{입력.mmd}} --output {{출력.svg}} --theme {{forest|dark|neutral|default}}`
+`mmdc {{[-i|--input]}} {{입력.mmd}} {{[-o|--output]}} {{출력.svg}} {{[-t|--theme]}} {{forest|dark|neutral|default}}`
 
 - 차트의 배경색 지정 (예: `lime`, `"#D8064F"` 또는 `transparent`):
 
-`mmdc --input {{입력.mmd}} --output {{출력.svg}} --backgroundColor {{색상}}`
+`mmdc {{[-i|--input]}} {{입력.mmd}} {{[-o|--output]}} {{출력.svg}} {{[-b|--backgroundColor]}} {{색상}}`

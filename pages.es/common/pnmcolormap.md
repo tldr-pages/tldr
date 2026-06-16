@@ -9,8 +9,8 @@
 
 - Utiliza la estrategia de splitspread para determinar los colores de salida, posiblemente produciendo un mejor resultado para imágenes con detalles pequeños:
 
-`pnmcolormap -splitspread {{n_colores}} {{ruta/a/la/entrada.pnm}} > {{ruta/al/resultado.ppm}}`
+`pnmcolormap {{[-splits|-splitspread]}} {{n_colores}} {{ruta/a/la/entrada.pnm}} > {{ruta/al/resultado.ppm}}`
 
 - Ordena el mapa de colores resultante, que es útil para comparar los mapas de colores:
 
-`pnmcolormap -sort {{ruta/a/la/entrada.pnm}} > {{ruta/al/resultado.ppm}}`
+`pnmcolormap {{[-so|-sort]}} {{ruta/a/la/entrada.pnm}} > {{ruta/al/resultado.ppm}}`

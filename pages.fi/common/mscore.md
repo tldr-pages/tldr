@@ -1,6 +1,6 @@
 # mscore
 
-> Tämä on alias komennolle `musescore`.
+> Tämä on alias `musescore` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -10,4 +10,4 @@
 
 - 출력 파일을 압축하지 않음:
 
-`pbmtomacp -norle {{경로/대상/이미지.pbm}} > {{경로/대상/출력.macp}}`
+`pbmtomacp {{[-n|-norle]}} {{경로/대상/이미지.pbm}} > {{경로/대상/출력.macp}}`

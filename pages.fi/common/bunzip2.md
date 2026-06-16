@@ -1,6 +1,6 @@
 # bunzip2
 
-> Tämä on alias komennolle `bzip2 --decompress`.
+> Tämä on alias `bzip2 --decompress` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -1,6 +1,6 @@
 # fastmod
 
-> A fast partial replacement for the codemod tool, replace and replace all in the whole codebase.
+> A fast partial replacement for the `codemod` tool, replace and replace all in the whole codebase.
 > Regexes are matched by Rust `regex` crate.
 > More information: <https://github.com/facebookincubator/fastmod>.
 

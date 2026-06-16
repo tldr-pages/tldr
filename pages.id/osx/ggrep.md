@@ -1,6 +1,6 @@
 # ggrep
 
-> Perintah ini merupakan alias dari `grep`.
+> Perintah ini merupakan alias dari GNU `grep`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 

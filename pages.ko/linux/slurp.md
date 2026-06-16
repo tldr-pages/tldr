@@ -25,4 +25,4 @@
 
 - 특정 영역을 선택하고 `wf-recorder`를 사용하여 테두리가 없는 비디오 촬영:
 
-`wf-recorder --geometry "$(slurp -w 0)"`
+`wf-recorder {{[-g|--geometry]}} "$(slurp -w 0)"`

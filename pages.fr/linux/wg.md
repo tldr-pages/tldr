@@ -13,7 +13,7 @@
 
 - Générer une clé publique à partir d'une clé privée :
 
-`wg pubkey < {{chemin/vers/clé_privée}} > {{chemin/vers/clé_publique}}`
+`wg < {{chemin/vers/clé_privée}} pubkey > {{chemin/vers/clé_publique}}`
 
 - Générer une clé publique et privée :
 

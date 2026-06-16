@@ -25,6 +25,7 @@ echo
 echo Man pages
 tput sgr0
 grep -r www.manned
+grep -r linux.die
 grep -r linux.org/docs
 grep -r linuxcommandlibrary
 grep -r /html_node/| grep -Ev "coreutils|emacs|grub"
@@ -43,6 +44,7 @@ tput sgr0
 grep -r "?ref_type=heads"
 grep -r "?tab=readme-ov-file"
 grep -r "?utm_source=chatgpt.com"
+grep -r "?gi-language"
 
 tput setaf 5
 echo
@@ -137,6 +139,7 @@ tput sgr0
 grep -ir initialise
 grep -ir licence
 grep -r backtic | grep -v backtick
+grep -ri adress
 
 tput setaf 5
 echo

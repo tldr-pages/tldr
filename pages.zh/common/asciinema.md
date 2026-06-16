@@ -18,7 +18,7 @@
 
 - 回放托管在 <https://asciinema.org> 的终端录制：
 
-`asciinema play https://asciinema.org/a/{{文件 ID}}`
+`asciinema play https://asciinema.org/a/{{文件id}}`
 
 - 新建录制，限制空闲时间最多 2.5 秒：
 

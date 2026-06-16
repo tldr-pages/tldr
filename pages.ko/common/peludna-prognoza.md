@@ -17,4 +17,4 @@
 
 - 기본 웹 브라우저에서 <https://plivazdravlje.hr>의 특정 도시 꽃가루 측정 페이지 표시:
 
-`peludna-prognoza "{{도시}}" --web`
+`peludna-prognoza "{{도시}}" {{[-w|--web]}}`

@@ -10,4 +10,4 @@
 
 - FITS 파일의 세 번째 축의 지정된 위치에서 이미지를 변환:
 
-`fitstopnm -image {{z_position}} {{경로/대상/파일.fits}} > {{경로/대상/출력파일.pnm}}`
+`fitstopnm {{[-i|-image]}} {{z_position}} {{경로/대상/파일.fits}} > {{경로/대상/출력파일.pnm}}`

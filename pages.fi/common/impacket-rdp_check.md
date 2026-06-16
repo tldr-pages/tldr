@@ -1,6 +1,6 @@
 # impacket-rdp_check
 
-> Tämä on alias komennolle `rdp_check.py`.
+> Tämä on alias `rdp_check.py` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

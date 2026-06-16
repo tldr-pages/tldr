@@ -7,7 +7,7 @@
 
 `ioping .`
 
-- Measure latency on /tmp using 10 requests of 1 megabyte each:
+- Measure latency on `/tmp` using 10 requests of 1 megabyte each:
 
 `ioping {{[-c|-count]}} 10 {{[-s|-size]}} 1M /tmp`
 

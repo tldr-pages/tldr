@@ -14,3 +14,7 @@
 - Verwijder een bestand van de repository index, maar houd het lokaal zoals het is:
 
 `git rm --cached {{pad/naar/bestand}}`
+
+- Verminder de repository tot alleen de `.git`-map:
+
+`git rm -r .`

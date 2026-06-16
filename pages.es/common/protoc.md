@@ -17,12 +17,12 @@
 
 - Codifica un mensaje en formato texto en un mensaje de protocolo a partir de un archivo `.proto`:
 
-`protoc --encode={{TypeName}} {{archivo_de_entrada.proto}} < {{mensaje.txt}}`
+`protoc < {{mensaje.txt}} --encode={{TypeName}} {{archivo_de_entrada.proto}}`
 
 - Decodifica un mensaje de protocolo en formato de texto a partir de un archivo `.proto`:
 
-`protoc --decode={{TypeName}} {{archivo_entrada.proto}} < {{mensaje.bin}}`
+`protoc < {{mensaje.bin}} --decode={{TypeName}} {{archivo_entrada.proto}}`
 
 - Decodifica un mensaje de protocolo en pares de etiquetas/valores sin procesar:
 
-`protoc --decode_raw < {{mensaje.bin}}`
+`protoc < {{mensaje.bin}} --decode_raw`

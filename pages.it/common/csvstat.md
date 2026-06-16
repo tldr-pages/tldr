@@ -10,7 +10,7 @@
 
 - Mostra tutte le statistiche per le colonne 2 e 4:
 
-`csvstat -c {{2,4}} {{dati.csv}}`
+`csvstat {{[-c|--columns]}} {{2,4}} {{dati.csv}}`
 
 - Mostra la somma per tutte le colonne:
 
@@ -18,8 +18,8 @@
 
 - Mostra la lunghezza massima dei valori della colonna 3:
 
-`csvstat -c {{3}} --len {{dati.csv}}`
+`csvstat {{[-c|--columns]}} {{3}} --len {{dati.csv}}`
 
 - Mostra il numero di valori unici nella colonna "nome":
 
-`csvstat -c {{nome}} --unique {{dati.csv}}`
+`csvstat {{[-c|--columns]}} {{nome}} --unique {{dati.csv}}`

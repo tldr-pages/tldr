@@ -6,7 +6,7 @@
 
 - 컨테이너 그룹에 컨테이너 생성:
 
-`az container create {{[-g|--resource-group]}} {{리소스_그룹}} {{[-n|--name]}} {{이름}} --image {{이미지_이름}} {{[-os|--os-type]}} {{windows|linux}} --cpu {{CPU_코어_개수}} --memory {{memory_in_GB}}`
+`az container create {{[-g|--resource-group]}} {{리소스_그룹}} {{[-n|--name]}} {{이름}} --image {{이미지_이름}} {{[-os|--os-type]}} {{windows|linux}} --cpu {{cpu_코어_개수}} --memory {{memory_in_GB}}`
 
 - 실행 중인 컨테이너에서 명령어 실행:
 

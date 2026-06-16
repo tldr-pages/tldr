@@ -6,7 +6,7 @@
 
 - Inicia (ou recriptografa) o armazenamento usando um ou mais IDs GPG:
 
-`pass init {{gpg_id_1}} {{gpg_id_2}}`
+`pass init {{gpg_id_1 gpg_id_2 ...}}`
 
 - Salva uma nova senha e informações adicionais (pressione `<Ctrl d>` em uma nova linha para completar):
 

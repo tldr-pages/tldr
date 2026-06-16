@@ -13,4 +13,4 @@
 
 - Imprime las bibliotecas en el caché y comprueba si una biblioteca dada está presente:
 
-`ldconfig -p | grep {{nombre_de_biblioteca}}`
+`ldconfig {{[-p|--print-cache]}} | grep {{nombre_de_biblioteca}}`

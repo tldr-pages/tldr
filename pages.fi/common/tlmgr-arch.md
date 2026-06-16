@@ -1,6 +1,6 @@
 # tlmgr arch
 
-> Tämä on alias komennolle `tlmgr platform`.
+> Tämä on alias `tlmgr platform` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

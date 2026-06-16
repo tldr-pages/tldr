@@ -4,9 +4,9 @@
 > See also: `mtr`.
 > More information: <https://manned.org/ping>.
 
-- Ping a host:
+- Ping a host with IP `10.0.0.1` (Note: `10.0.0.1` can be shortened to `10.1`):
 
-`ping {{host}}`
+`ping 10.0.0.1`
 
 - Ping a host only a specific number of times:
 
@@ -31,3 +31,7 @@
 - Ping a host with specific number of pings, per-packet response timeout (`-W`), and total time limit (`-w`) of the entire ping run:
 
 `ping -c {{count}} -W {{seconds}} -w {{seconds}} {{host}}`
+
+- Ping all IPv6 local network hosts:
+
+`ping -6 ff02::1%{{eth0}}`

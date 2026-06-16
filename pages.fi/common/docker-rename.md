@@ -1,6 +1,6 @@
 # docker rename
 
-> Tämä on alias komennolle `docker container rename`.
+> Tämä on alias `docker container rename` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

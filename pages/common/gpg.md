@@ -28,9 +28,9 @@
 
 `gpg {{[-d|--decrypt]}} {{doc.txt.gpg}}`
 
-- Import a public key:
+- Import a public key from WKD (Web Key Directory) if the key isn't already in the keyring:
 
-`gpg --import {{public.gpg}}`
+`gpg --locate-keys {{alice@example.com}}`
 
 - Export the public/private key for `alice@example.com` (output to `stdout`):
 

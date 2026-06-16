@@ -13,7 +13,7 @@
 
 - 列出可用的 MTP 设备：
 
-`jmtpfs --listDevices`
+`jmtpfs {{[-l|--listDevices]}}`
 
 - 如果存在多个设备，挂载一个特定的设备：
 

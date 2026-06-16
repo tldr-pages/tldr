@@ -1,6 +1,6 @@
 # pip3
 
-> Tämä on alias komennolle `pip`.
+> Tämä on alias `pip` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

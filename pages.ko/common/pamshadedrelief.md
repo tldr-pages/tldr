@@ -10,4 +10,4 @@
 
 - 지정된 계수로 이미지 감마 조정:
 
-`pamshadedrelief {{[-g|-gamma]}} {{계수}} < {{경로/대상/입력.pam}} > {{경로/대상/출력.pam}}`
+`pamshadedrelief < {{경로/대상/입력.pam}} {{[-g|-gamma]}} {{계수}} > {{경로/대상/출력.pam}}`

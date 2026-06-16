@@ -9,4 +9,4 @@
 
 - 버전 표시:
 
-`ppmflash -version`
+`ppmflash {{[-v|-version]}}`

@@ -1,6 +1,6 @@
 # kak
 
-> Kakoune is a mode-based code editor implementing the "multiple selections" paradigm.
+> Kakoune, a mode-based code editor implementing the "multiple selections" paradigm.
 > Data can be selected and simultaneously edited in different locations, using multiple selections; users can also connect to the same session for collaborative editing.
 > More information: <https://manned.org/kak>.
 

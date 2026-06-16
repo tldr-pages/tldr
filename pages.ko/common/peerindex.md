@@ -10,4 +10,4 @@
 
 - 라우팅 정보를 제공한 모든 피어 표시:
 
-`peerindex -r {{master6.mrt}}`
+`peerindex {{[-r|--only-refs]}} {{master6.mrt}}`

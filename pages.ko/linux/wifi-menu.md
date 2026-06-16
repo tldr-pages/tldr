@@ -9,8 +9,8 @@
 
 - 네트워크에 대화식으로 연결하고 비밀번호를 숨김:
 
-`wifi-menu --obscure`
+`wifi-menu {{[-o|--obscure]}}`
 
 - 도움말 표시:
 
-`wifi-menu --help`
+`wifi-menu {{[-h|--help]}}`

@@ -10,7 +10,7 @@
 
 - 기본 설정으로 이미지 빌드 (배포판이 선택되지 않은 경우 호스트 시스템의 배포판 사용):
 
-`mkosi build --distribution {{fedora|debian|ubuntu|arch|opensuse|...}}`
+`mkosi build {{[-d|--distribution]}} {{fedora|debian|ubuntu|arch|opensuse|...}}`
 
 - 이미지를 빌드하고 해당 이미지의 systemd-nspawn 컨테이너에서 대화형 셸 실행:
 

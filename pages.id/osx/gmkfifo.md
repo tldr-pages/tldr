@@ -1,6 +1,6 @@
 # gmkfifo
 
-> Perintah ini merupakan alias dari `mkfifo`.
+> Perintah ini merupakan alias dari GNU `mkfifo`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 

@@ -5,15 +5,15 @@
 
 - 指定分隔符为 ',' 来查询 CSV 文件：
 
-`q -d',' "SELECT * from {{路径/到/文件}}"`
+`q {{[-d|--delimiter]}} ',' "SELECT * from {{路径/到/文件}}"`
 
 - 查询 TSV 文件：
 
-`q -t "SELECT * from {{路径/到/文件}}"`
+`q {{[-t|--tab-delimited]}} "SELECT * from {{路径/到/文件}}"`
 
 - 查询带有表头行的文件：
 
-`q -d{{分隔符}} -H "SELECT * from {{路径/到/文件}}"`
+`q {{[-d|--delimiter]}} {{分隔符}} {{[-H|--skip-header]}} "SELECT * from {{路径/到/文件}}"`
 
 - 从 `stdin` 读取数据；查询中的 '-' 代表来自 `stdin` 的数据：
 
@@ -25,4 +25,4 @@
 
 - 使用包含输出标题行的输出分隔符来格式化输出（注意：命令将根据输入文件标题或在查询中覆盖的列别名输出列名）：
 
-`q -D{{分隔符}} -O "SELECT {{列}} as {{别名}} from {{路径/到/文件}}"`
+`q {{[-D|--output-delimiter]}} {{分隔符}} {{[-O|--output-header]}} "SELECT {{列}} as {{别名}} from {{路径/到/文件}}"`

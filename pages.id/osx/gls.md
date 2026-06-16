@@ -1,6 +1,6 @@
 # gls
 
-> Perintah ini merupakan alias dari `ls`.
+> Perintah ini merupakan alias dari GNU `ls`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 

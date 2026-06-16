@@ -6,16 +6,16 @@
 
 - CPU 1의 CPU 주파수 정책을 "userspace"로 설정:
 
-`sudo cpufreq-set -c {{1}} -g {{userspace}}`
+`sudo cpufreq-set {{[-c|--cpu]}} {{1}} {{[-g|--governor]}} {{userspace}}`
 
 - CPU 1의 현재 최소 CPU 주파수 설정:
 
-`sudo cpufreq-set -c {{1}} --min {{최소_주파수}}`
+`sudo cpufreq-set {{[-c|--cpu]}} {{1}} {{[-d|--min]}} {{최소_주파수}}`
 
 - CPU 1의 현재 최대 CPU 주파수 설정:
 
-`sudo cpufreq-set -c {{1}} --max {{최대_주파수}}`
+`sudo cpufreq-set {{[-c|--cpu]}} {{1}} {{[-u|--max]}} {{최대_주파수}}`
 
 - CPU 1의 현재 작업 주파수 설정:
 
-`sudo cpufreq-set -c {{1}} -f {{작업_주파수}}`
+`sudo cpufreq-set {{[-c|--cpu]}} {{1}} {{[-f|--freq]}} {{작업_주파수}}`

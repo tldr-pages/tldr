@@ -17,4 +17,4 @@
 
 - Comparte tu sesión de la terminal en tiempo real:
 
-`mkfifo {{ruta/al/pipe}}; script -f {{ruta/al/pipe}}`
+`mkfifo {{ruta/al/pipe}}; script {{[-f|--flush]}} {{ruta/al/pipe}}`

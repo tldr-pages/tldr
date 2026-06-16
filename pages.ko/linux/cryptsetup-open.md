@@ -11,7 +11,7 @@
 
 - 암호 대신 키 파일 사용:
 
-`cryptsetup open --key-file {{경로/대상/파일}} {{/dev/sdXY}} {{매핑_이름}}`
+`cryptsetup open {{[-k|--key-file]}} {{경로/대상/파일}} {{/dev/sdXY}} {{매핑_이름}}`
 
 - 장치에서 TRIM 사용 허용:
 
@@ -23,4 +23,4 @@
 
 - LUKS 볼륨을 열고 암호 해독된 매핑을 읽기 전용으로 설정:
 
-`cryptsetup open --readonly {{/dev/sdXY}} {{매핑_이름}}`
+`cryptsetup open {{[-r|--readonly]}} {{/dev/sdXY}} {{매핑_이름}}`

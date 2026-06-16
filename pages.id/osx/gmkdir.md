@@ -1,6 +1,6 @@
 # gmkdir
 
-> Perintah ini merupakan alias dari `mkdir`.
+> Perintah ini merupakan alias dari GNU `mkdir`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 

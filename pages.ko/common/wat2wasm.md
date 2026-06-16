@@ -9,8 +9,8 @@
 
 - 출력 바이너리를 지정된 파일에 저장:
 
-`wat2wasm {{파일.wat}} -o {{파일.wasm}}`
+`wat2wasm {{파일.wat}} {{[-o|--output]}} {{파일.wasm}}`
 
 - 모든 바이트의 단순화된 표현 표시:
 
-`wat2wasm -v {{파일.wat}}`
+`wat2wasm {{[-v|--verbose]}} {{파일.wat}}`

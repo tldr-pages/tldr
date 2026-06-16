@@ -9,7 +9,7 @@
 
 - Establece el fondo de pantalla en las salidas especificadas:
 
-`awww img -o {{salida1,salida2,...}} {{ruta/a/imagen}}`
+`awww img {{[-o|--outputs]}} {{salida1,salida2,...}} {{ruta/a/imagen}}`
 
 - Restaura el último fondo de pantalla:
 

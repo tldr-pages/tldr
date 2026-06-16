@@ -1,6 +1,6 @@
 # gid
 
-> Perintah ini merupakan alias dari `id`.
+> Perintah ini merupakan alias dari GNU `id`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 

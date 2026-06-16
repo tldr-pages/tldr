@@ -25,8 +25,8 @@
 
 - 파일 내용을 클립보드에 복사:
 
-`copyq copy < {{파일.txt}}`
+`copyq < {{파일.txt}} copy`
 
 - JPEG 이미지를 클립보드에 복사:
 
-`copyq copy image/jpeg < {{이미지.jpg}}`
+`copyq < {{이미지.jpg}} copy image/jpeg`
