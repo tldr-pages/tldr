@@ -17,7 +17,7 @@
 
 - Selecciona una región específica y toma una captura de dicha porción, usando slurp:
 
-`grim -g "{{$(slurp)}}"`
+`grim -g "$(slurp)"`
 
 - Utiliza un nombre de archivo personalizado:
 
