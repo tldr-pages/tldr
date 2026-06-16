@@ -9,7 +9,7 @@
 
 - Captura de pantalla a un archivo específico:
 
-`grim -o {{ruta/al/archivo_resultado}}`
+`grim -o {{DP-1}} {{ruta/al/archivo_resultado}}`
 
 - Captura de pantalla de una región específica:
 
