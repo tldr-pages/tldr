@@ -10,28 +10,28 @@
 
 - Run a script:
 
-`wscript {{path\to\file}}`
+`wscript {{path\to\script.vbs}}`
 
 - Run script in the [i]nteractive or [b]atch mode (enable or suppress alerts, prompts, and scripting errors):
 
-`wscript //{{i|b}} {{path\to\file}}`
+`wscript //{{i|b}} {{path\to\script.vbs}}`
 
 - Show or hide the Windows Script Host logo before running (useful to get Host version / suppress outputs):
 
-`wscript {{//logo|//nologo}} {{path\to\file}}`
+`wscript {{//logo|//nologo}} {{path\to\script.vbs}}`
 
-- Specify an custom execution engine to run the script (useful for using custom script filenames):
+- Specify a custom execution engine to run the script (useful for using custom script filenames):
 
-`wscript //e:{{jscript|vbscript|custom_engine}} {{path\to\file}}`
+`wscript //e:{{jscript|vbscript|custom_engine}} {{path\to\script.vbs}}`
 
 - Set a [t]imeout for running a given script (in seconds):
 
-`wscript //t:{{timeout}} {{path\to\file}}`
+`wscript //t:{{timeout}} {{path\to\script.vbs}}`
 
-- Start [d]ebugger and wait until a scripting error occurs:
+- Start the [d]ebugger and wait until a scripting error occurs:
 
-`wscript //d {{path\to\file}}`
+`wscript //d {{path\to\script.vbs}}`
 
 - Start debugging from the first script line in an IDE (e.g., Visual Studio):
 
-`wscript //x {{path\to\file}}`
+`wscript //x {{path\to\script.vbs}}`

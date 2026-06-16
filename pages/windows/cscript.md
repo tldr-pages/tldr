@@ -10,28 +10,28 @@
 
 - Run a script:
 
-`cscript {{path\to\file}}`
+`cscript {{path\to\script.vbs}}`
 
 - Run script in the [i]nteractive or [b]atch mode (enable or suppress alerts, prompts, and scripting errors):
 
-`cscript //{{i|b}} {{path\to\file}}`
+`cscript //{{i|b}} {{path\to\script.vbs}}`
 
 - Show or hide the Windows Script Host logo before running (useful to get Host version / suppress outputs):
 
-`cscript {{//logo|//nologo}} {{path\to\file}}`
+`cscript {{//logo|//nologo}} {{path\to\script.vbs}}`
 
-- Specify an custom execution engine to run the script (useful for using custom script filenames):
+- Specify a custom execution engine to run the script (useful for using custom script filenames):
 
-`cscript //e:{{jscript|vbscript|custom_engine}} {{path\to\file}}`
+`cscript //e:{{jscript|vbscript|custom_engine}} {{path\to\script.vbs}}`
 
 - Set a [t]imeout for running a given script (in seconds):
 
-`cscript //t:{{timeout}} {{path\to\file}}`
+`cscript //t:{{seconds}} {{path\to\script.vbs}}`
 
 - Start [d]ebugger and wait until a scripting error occurs:
 
-`cscript //d {{path\to\file}}`
+`cscript //d {{path\to\script.vbs}}`
 
 - Start debugging from the first script line in an IDE (e.g., Visual Studio):
 
-`cscript //x {{path\to\file}}`
+`cscript //x {{path\to\script.vbs}}`
