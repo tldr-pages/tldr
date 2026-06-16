@@ -9,7 +9,7 @@
 
 - Imprime con un encabezado centrado personalizado:
 
-`pr {{[-h|--header]}} "{{header}}" {{ruta/al/archivo1 ruta/al/archivo2 ...}}`
+`pr {{[-h|--header]}} "{{encabezado}}" {{ruta/al/archivo1 ruta/al/archivo2 ...}}`
 
 - Imprime con líneas numeradas y un formato de fecha personalizado:
 
