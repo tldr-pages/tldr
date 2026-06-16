@@ -13,7 +13,7 @@
 
 - Ignore the chunk with the specified chunk ID:
 
-`ilbmtoppm {{[-ig|-ignore]}} {{chunkID}} {{path/to/file.ilbm}} > {{path/to/file.ppm}}`
+`ilbmtoppm {{[-ig|-ignore]}} {{chunk_id}} {{path/to/file.ilbm}} > {{path/to/file.ppm}}`
 
 - Store the input's transparency information to the specified PBM file:
 

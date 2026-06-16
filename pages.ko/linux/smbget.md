@@ -13,8 +13,8 @@
 
 - 사용자명과 비밀번호로 연결:
 
-`smbget {{smb://server/share/file}} --user {{사용자명%비밀번호}}`
+`smbget {{smb://server/share/file}} {{[-U|--user]}} {{사용자명%비밀번호}}`
 
 - 암호화된 전송 요구:
 
-`smbget {{smb://server/share/file}} --encrypt`
+`smbget {{smb://server/share/file}} {{[-e|--encrypt]}}`

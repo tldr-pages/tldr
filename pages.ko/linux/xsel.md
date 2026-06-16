@@ -5,24 +5,24 @@
 
 - 명령의 출력을 클립보드 입력으로 사용 (`<Ctrl c>`와 동일):
 
-`echo 123 | xsel -ib`
+`echo 123 | xsel {{[-ib|--input --clipboard]}}`
 
 - 파일의 내용을 클립보드 입력으로 사용:
 
-`cat {{경로/대상/파일}} | xsel -ib`
+`cat {{경로/대상/파일}} | xsel {{[-ib|--input --clipboard]}}`
 
 - 클립보드의 내용을 터미널에 출력 (`<Ctrl v>`와 동일):
 
-`xsel -ob`
+`xsel {{[-ob|--output --clipboard]}}`
 
 - 클립보드의 내용을 파일에 출력:
 
-`xsel -ob > {{경로/대상/파일}}`
+`xsel {{[-ob|--output --clipboard]}} > {{경로/대상/파일}}`
 
 - 클립보드 내용 지우기:
 
-`xsel -cb`
+`xsel {{[-cb|--clear --clipboard]}}`
 
 - X11 기본 선택의 내용을 터미널에 출력 (`<MiddleClick>` 동일):
 
-`xsel -op`
+`xsel {{[-op|--output --primary]}}`

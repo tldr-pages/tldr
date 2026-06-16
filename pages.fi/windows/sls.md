@@ -1,6 +1,6 @@
 # sls
 
-> Tämä on alias komennolle `Select-String`.
+> Tämä on alias `Select-String` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

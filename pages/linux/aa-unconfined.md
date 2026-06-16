@@ -11,7 +11,7 @@
 
 `sudo aa-unconfined --with-netstat`
 
-- Show all processes from /proc with TCP/UDP ports and no AppArmor profiles (more detailed):
+- Show all processes from `/proc` with TCP/UDP ports and no AppArmor profiles (more detailed):
 
 `sudo aa-unconfined --paranoid`
 

@@ -5,8 +5,8 @@
 
 - Restablece una máquina virtual:
 
-`qm reset {{id_mv}}`
+`qm reset {{100}}`
 
 - Reinicia una máquina virtual y omite cualquier bloqueo (solo el root puede usar esta opción):
 
-`qm reset --skiplock {{true}} {{id_mv}}`
+`qm reset {{100}} --skiplock {{true}}`

@@ -10,8 +10,8 @@
 
 - 모든 정보 메시지를 억제함:
 
-`hipstopgm -quiet`
+`hipstopgm {{[-q|-quiet]}}`
 
 - 버전 정보 출력:
 
-`hipstopgm -version`
+`hipstopgm {{[-v|-version]}}`

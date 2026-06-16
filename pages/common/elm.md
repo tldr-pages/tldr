@@ -3,7 +3,7 @@
 > Compile and run Elm source files.
 > More information: <https://guide.elm-lang.org/install/elm.html>.
 
-- Initialize an Elm project, generates an elm.json file:
+- Initialize an Elm project, generates an `elm.json` file:
 
 `elm init`
 

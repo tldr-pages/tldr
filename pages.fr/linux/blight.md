@@ -5,7 +5,7 @@
 
 - Fixe la luminosité de l'affichage à 50% :
 
-`blight set {{50}} -r`
+`blight set {{50}} {{[-r|--relative]}}`
 
 - Affiche la luminosité actuelle de l'affichage :
 
@@ -17,7 +17,7 @@
 
 - Augmente la luminosité de l'affichage en pourcentage :
 
-`blight inc {{nombre}} -r`
+`blight inc {{nombre}} {{[-r|--relative]}}`
 
 - Réduit la luminosité de l'affichage en unités internes :
 

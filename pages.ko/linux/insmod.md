@@ -6,4 +6,4 @@
 
 - 커널 모듈을 Linux 커널에 삽입:
 
-`insmod {{경로/대상/모듈.ko}}`
+`sudo insmod {{경로/대상/모듈.ko}}`

@@ -6,7 +6,7 @@
 
 - 활성화된 모든 인히비션 잠금과 생성 이유 나열:
 
-`systemd-inhibit --list`
+`systemd-inhibit`
 
 - 지정된 초 동안 `sleep` 명령으로 시스템 종료 차단:
 

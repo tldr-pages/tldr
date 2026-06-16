@@ -1,7 +1,7 @@
 # age
 
 > 一个简单、现代、安全的文件加密工具。
-> 另请参阅：`age-keygen`。
+> 另请参阅：`age-keygen`, `age-inspect`。
 > 更多信息：<https://github.com/FiloSottile/age#usage>。
 
 - 生成一个可以用密码短语（passphrase）解密的加密文件：

@@ -17,7 +17,7 @@
 
 - Scan the filesystem for vulnerabilities and misconfigurations:
 
-`trivy fs --security-checks {{vuln,config}} {{path/to/project_directory}}`
+`trivy fs --scanners {{vuln,misconfig}} {{path/to/project_directory}}`
 
 - Scan a IaC (Terraform, CloudFormation, ARM, Helm, and Dockerfile) directory for misconfigurations:
 
@@ -25,7 +25,7 @@
 
 - Scan a local or remote Git repository for vulnerabilities:
 
-`trivy repo {{path/to/local_repository_directory|remote_repository_URL}}`
+`trivy repo {{path/to/local_repository_directory|remote_repository_url}}`
 
 - Scan a Git repository up to a specific commit hash:
 

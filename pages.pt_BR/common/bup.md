@@ -5,20 +5,20 @@
 
 - Inicializa um repositório de backup no diretório local especificado:
 
-`bup -d {{caminho/para/repositório}} init`
+`bup {{[-d|--bup-dir]}} {{caminho/para/repositório}} init`
 
 - Prepara um determinado diretório antes de fazer um backup:
 
-`bup -d {{caminho/para/repositório}} index {{caminho/para/diretório}}`
+`bup {{[-d|--bup-dir]}} {{caminho/para/repositório}} index {{caminho/para/diretório}}`
 
 - Faz o backup de um diretório para o repositório:
 
-`bup -d {{caminho/para/repositório}} save -n {{nome_do_backup}} {{caminho/para/diretório}}`
+`bup {{[-d|--bup-dir]}} {{caminho/para/repositório}} save {{[-n|--name]}} {{nome_do_backup}} {{caminho/para/diretório}}`
 
 - Exibe os snapshots de backup armazenados atualmente no repositório:
 
-`bup -d {{caminho/para/repositório}} ls`
+`bup {{[-d|--bup-dir]}} {{caminho/para/repositório}} ls`
 
 - Restaura um snapshot de backup específico para um diretório de destino:
 
-`bup -d {{caminho/para/repositório}} restore -C {{caminho/para/diretório_de_destino}} {{nome_do_backup}}`
+`bup {{[-d|--bup-dir]}} {{caminho/para/repositório}} restore {{[-C|--outdir]}} {{caminho/para/diretório_de_destino}} {{nome_do_backup}}`

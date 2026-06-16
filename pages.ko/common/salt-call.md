@@ -13,7 +13,7 @@
 
 - 자세한 디버깅 출력과 함께 highstate 실행:
 
-`salt-call -l debug state.highstate`
+`salt-call {{[-l|--log-level]}} debug state.highstate`
 
 - 이 minion의 grains 나열:
 

@@ -33,4 +33,4 @@
 
 - 도움말 표시:
 
-`balooctl --help`
+`balooctl {{[-h|--help]}}`

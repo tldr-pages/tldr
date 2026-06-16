@@ -1,7 +1,7 @@
 # flutter
 
 > Googles Cross-Platform Open-Source SDK.
-> Weitere Informationen: <https://github.com/flutter/flutter/wiki/The-flutter-tool>.
+> Weitere Informationen: <https://github.com/flutter/flutter/blob/master/docs/tool/README.md>.
 
 - Initialisiere ein neues Flutter-Projekt in einem gleichnamigen Verzeichnis:
 

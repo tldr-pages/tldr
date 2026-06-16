@@ -3,7 +3,7 @@
 > Compress or decompress XZ and LZMA files.
 > More information: <https://manned.org/xz>.
 
-- Compress a file using xz:
+- Compress a file into XZ format:
 
 `xz {{path/to/file}}`
 

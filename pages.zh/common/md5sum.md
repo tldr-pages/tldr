@@ -17,16 +17,16 @@
 
 - 读取包含 MD5 校验和和文件名的文件，并验证所有文件的校验和是否匹配：
 
-`md5sum --check {{路径/到/文件.md5}}`
+`md5sum {{[-c|--check]}} {{路径/到/文件.md5}}`
 
 - 仅在文件丢失或验证失败时显示消息：
 
-`md5sum --check --quiet {{路径/到/文件.md5}}`
+`md5sum {{[-c|--check]}} --quiet {{路径/到/文件.md5}}`
 
 - 仅在验证失败时显示消息，忽略丢失的文件：
 
-`md5sum --ignore-missing --check --quiet {{路径/到/文件.md5}}`
+`md5sum --ignore-missing {{[-c|--check]}} --quiet {{路径/到/文件.md5}}`
 
 - 检查已知文件的 MD5 校验和：
 
-`echo {{已知的文件的_md5_校验和}} {{路径/到/文件}} | md5sum --check`
+`echo {{已知的文件的_md5_校验和}} {{路径/到/文件}} | md5sum {{[-c|--check]}}`

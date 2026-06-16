@@ -30,4 +30,4 @@
 
 - 특정 풀 요청을 로컬에서 확인:
 
-`glab mr checkout {{pr_번호}}`
+`glab {{[co|mr checkout]}} {{pr_번호}}`

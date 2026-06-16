@@ -6,19 +6,19 @@
 
 - YouTube에서 썸네일 미리보기로 비디오 검색:
 
-`ytfzf --show-thumbnails {{검색_패턴}}`
+`ytfzf {{[-t|--show-thumbnails]}} {{검색_패턴}}`
 
 - 첫 번째 항목의 오디오만 반복 재생:
 
-`ytfzf --audio-only --auto-select --loop {{검색_패턴}}`
+`ytfzf {{[-m|--audio-only]}} {{[-a|--auto-select]}} {{[-l|--loop]}} {{검색_패턴}}`
 
 - 기록에서 비디오 다운로드:
 
-`ytfzf --download --choose-from-history`
+`ytfzf {{[-d|--download]}} --choose-from-history`
 
 - 검색에서 찾은 모든 음악 재생:
 
-`ytfzf --audio-only --select-all {{검색_패턴}}`
+`ytfzf {{[-m|--audio-only]}} {{[-A|--select-all]}} {{검색_패턴}}`
 
 - 외부 메뉴에서 인기 비디오 보기:
 

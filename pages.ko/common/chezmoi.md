@@ -30,7 +30,7 @@
 
 - 변경 사항을 적용:
 
-`chezmoi -v apply`
+`chezmoi apply`
 
 - 원격 저장소에서 변경 사항을 가져와 적용:
 

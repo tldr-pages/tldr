@@ -9,4 +9,4 @@
 
 - Active l'ensemble des interfaces réseau définies dans le fichier `/etc/network/interfaces` :
 
-`ifup -a`
+`ifup {{[-a|--all]}}`

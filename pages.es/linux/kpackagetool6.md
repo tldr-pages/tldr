@@ -9,16 +9,16 @@
 
 - Instala el paquete desde un directorio:
 
-`kpackagetool6 --type {{tipo_paquete}} --install {{ruta/al/directorio}}`
+`kpackagetool6 {{[-t|--type]}} {{tipo_paquete}} {{[-i|--install]}} {{ruta/al/directorio}}`
 
 - Actualiza el paquete instalado desde un directorio:
 
-`kpackagetool6 --type {{tipo_paquete}} --upgrade {{ruta/al/directorio}}`
+`kpackagetool6 {{[-t|--type]}} {{tipo_paquete}} {{[-u|--upgrade]}} {{ruta/al/directorio}}`
 
 - Lista los plasmoides instalados (`--global` para todos los usuarios):
 
-`kpackagetool6 --type Plasma/Applet --list --global`
+`kpackagetool6 {{[-t|--type]}} Plasma/Applet {{[-l|--list]}} {{[-g|--global]}}`
 
 - Elimina un plasmoide por su nombre:
 
-`kpackagetool6 --type Plasma/Applet --remove "{{nombre}}"`
+`kpackagetool6 {{[-t|--type]}} Plasma/Applet {{[-r|--remove]}} "{{nombre}}"`

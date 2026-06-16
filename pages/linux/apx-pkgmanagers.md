@@ -8,7 +8,7 @@
 
 `apx pkgmanagers create`
 
-- List all available package manager confirgurations:
+- List all available package manager configurations:
 
 `apx pkgmanagers list`
 

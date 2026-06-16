@@ -1,6 +1,6 @@
 # pulumi update
 
-> Tämä on alias komennolle `pulumi up`.
+> Tämä on alias `pulumi up` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

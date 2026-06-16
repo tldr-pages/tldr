@@ -9,7 +9,7 @@
 
 - Teruskan akses suatu port TCP menuju suatu emulator atau perangkat secara spesifik (berdasarkan nomor induk / [s]erial perangkat):
 
-`adb -s {{ID_perangkat}} forward tcp:{{port_lokal}} tcp:{{port_remote}}`
+`adb -s {{id_perangkat}} forward tcp:{{port_lokal}} tcp:{{port_remote}}`
 
 - Tampilkan daftar seluruh pengaturan terusan:
 

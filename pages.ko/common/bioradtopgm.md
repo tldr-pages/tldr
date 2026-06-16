@@ -13,4 +13,4 @@
 
 - 버전 출력:
 
-`bioradtopgm -version`
+`bioradtopgm {{[-v|-version]}}`

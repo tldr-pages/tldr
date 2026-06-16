@@ -13,4 +13,4 @@
 
 - 다른 패키지에서 추천하거나 제안하지만 필수는 아닌 패키지 찾기:
 
-`deborphan --nice-mode`
+`deborphan {{[-n|--nice-mode]}}`

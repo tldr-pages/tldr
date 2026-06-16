@@ -9,7 +9,7 @@
 
 - 지정된 URL의 자체 호스팅된 Pulumi Cloud 백엔드에 로그인:
 
-`pulumi login {{URL}}`
+`pulumi login {{url}}`
 
 - Pulumi Cloud와 독립적으로 로컬에서 Pulumi 사용:
 

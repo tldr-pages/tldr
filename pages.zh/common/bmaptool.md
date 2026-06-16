@@ -5,7 +5,7 @@
 
 - 使用图片生成块图文件：
 
-`bmaptool create -o {{blockmap 格式文件.bmap}} {{图片文件}}`
+`bmaptool create {{[-o|--output]}} {{blockmap 格式文件.bmap}} {{图片文件}}`
 
 - 复制图片到指定目录：
 

@@ -13,11 +13,11 @@
 
 - Muestra información detallada sobre los dispositivos USB:
 
-`lsusb {{[-v|--verbose]}}`
+`sudo lsusb {{[-v|--verbose]}}`
 
 - Muestra información detallada sobre un dispositivo USB:
 
-`lsusb {{[-v|--verbose]}} -s {{bus}}:{{número de dispositivo}}`
+`sudo lsusb {{[-v|--verbose]}} -s {{bus}}:{{número de dispositivo}}`
 
 - Muestra sólo los dispositivos con un ID de proveedor y producto determinados:
 

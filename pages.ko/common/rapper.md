@@ -6,8 +6,8 @@
 
 - RDF/XML 문서를 Turtle 형식으로 변환:
 
-`rapper -i rdfxml -o turtle {{경로/대상/파일}}`
+`rapper {{[-i|--input]}} rdfxml {{[-o|--output]}} turtle {{경로/대상/파일}}`
 
 - Turtle 파일의 삼중항 개수 세기:
 
-`rapper -i turtle -c {{경로/대상/파일}}`
+`rapper {{[-i|--input]}} turtle {{[-c|--count]}} {{경로/대상/파일}}`

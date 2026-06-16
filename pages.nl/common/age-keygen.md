@@ -1,7 +1,7 @@
 # age-keygen
 
 > Genereer `age` sleutelparen.
-> Zie ook: `age`.
+> Zie ook: `age`, `age-inspect`.
 > Meer informatie: <https://manned.org/age-keygen>.
 
 - Genereer een sleutelpaar, sla de privésleutel op in een niet-versleuteld bestand en druk de openbare sleutel af naar `stdout`:

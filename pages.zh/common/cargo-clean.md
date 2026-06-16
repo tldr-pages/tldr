@@ -7,14 +7,14 @@
 
 `cargo clean`
 
-- 删除文档构建产物 (`target/doc` 目录)：
+- 删除文档构建产物（`target/doc` 目录）：
 
 `cargo clean --doc`
 
-- 删除 release 模式的构建产物 (`target/release` 目录)：
+- 删除 release 模式的构建产物（`target/release` 目录）：
 
 `cargo clean {{[-r|--release]}}`
 
-- 删除给定配置文件的目录中的构建产物（在本例中为 `target/debug`)：
+- 删除给定配置文件的目录中的构建产物（在本例中为 `target/debug`）：
 
 `cargo clean --profile {{dev}}`

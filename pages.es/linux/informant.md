@@ -17,4 +17,4 @@
 
 - Muestra la ayuda:
 
-`informant --help`
+`informant {{[-h|--help]}}`

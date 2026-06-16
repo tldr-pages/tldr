@@ -10,8 +10,8 @@
 
 - 모든 정보 메시지 억제:
 
-`ppmtv -quiet`
+`ppmtv {{[-q|-quiet]}}`
 
 - 버전 표시:
 
-`ppmtv -version`
+`ppmtv {{[-v|-version]}}`

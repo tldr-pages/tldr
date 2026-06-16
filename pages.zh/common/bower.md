@@ -10,11 +10,11 @@
 
 - 安装一个或者多个依赖到 `bower_components` 目录：
 
-`bower install {{包名1}} {{包名2}}`
+`bower install {{包名1 包名2 ...}}`
 
 - 从本地的 `bower_components` 目录卸载依赖：
 
-`bower uninstall {{包名1}} {{包名2}}`
+`bower uninstall {{包名1 包名2 ...}}`
 
 - 列出本地包和可能的更新项：
 

@@ -1,6 +1,6 @@
 # docker tag
 
-> Tämä on alias komennolle `docker image tag`.
+> Tämä on alias `docker image tag` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

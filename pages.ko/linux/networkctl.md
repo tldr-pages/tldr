@@ -6,7 +6,7 @@
 
 - 기존 링크와 그 상태를 나열:
 
-`networkctl list`
+`networkctl`
 
 - 전체 네트워크 상태 표시:
 

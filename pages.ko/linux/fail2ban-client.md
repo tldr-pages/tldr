@@ -9,7 +9,7 @@
 
 - 지정된 IP를 감옥 서비스의 차단 목록에서 제거:
 
-`fail2ban-client set {{감옥}} unbanip {{IP}}`
+`fail2ban-client set {{감옥}} unbanip {{ip}}`
 
 - fail2ban 서버가 실행 중인지 확인:
 

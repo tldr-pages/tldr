@@ -22,16 +22,16 @@
 
 - 호스트에 파일 업로드:
 
-`PS > upload {{경로/대상/로컬/파일}} {{경로/대상/원격/파일}}`
+`upload {{경로/대상/로컬/파일}} {{경로/대상/원격/파일}}`
 
 - 로드된 모든 PowerShell 함수를 나열:
 
-`PS > menu`
+`menu`
 
 - `--scripts` 디렉터리에서 PowerShell 스크립트를 로드:
 
-`PS > {{스크립트.ps1}}`
+`{{스크립트.ps1}}`
 
 - `--executables` 디렉터리에서 호스트의 바이너리를 호출:
 
-`PS > Invoke-Binary {{바이너리.exe}}`
+`Invoke-Binary {{바이너리.exe}}`

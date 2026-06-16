@@ -1,32 +1,28 @@
 # gh pr merge
 
-> GitHub 풀 리퀘스트 병합.
+> GitHub Pull Request 병합.
 > 더 많은 정보: <https://cli.github.com/manual/gh_pr_merge>.
 
-- 현재 브랜치와 연관된 풀 리퀘스트를 대화식으로 병합:
+- 현재 브랜치와 연결된 Pull Request를 대화형으로 병합:
 
 `gh pr merge`
 
-- 지정된 풀 리퀘스트를 대화식으로 병합:
+- 현재 브랜치를 지정한 Pull Request에 merge 방식으로 병합:
 
-`gh pr merge {{pr_number}}`
+`gh pr merge {{PR_번호}} {{[-m|--merge]}}`
 
-- 로컬과 원격 모두에서 브랜치를 삭제하며 풀 리퀘스트 병합:
+- Pull Request를 squash 병합하고, 브랜치 삭제:
 
-`gh pr merge --delete-branch`
+`gh pr merge {{PR_번호}} {{[-sd|--squash --delete-branch]}}`
 
-- 지정된 병합 전략으로 현재 풀 리퀘스트 병합:
+- rebase 방식으로 병합:
 
-`gh pr merge --{{merge|squash|rebase}}`
+`gh pr merge {{PR_번호}} {{[-r|--rebase]}}`
 
-- 지정된 병합 전략과 커밋 메시지로 현재 풀 리퀘스트 병합:
+- 자동 병합(auto-merge) 활성화 (squash 방식):
 
-`gh pr merge --{{merge|squash|rebase}} --subject {{commit_message}}`
+`gh pr merge {{PR_번호}} --auto {{[-s|--squash]}}`
 
-- 메시지 본문과 함께 현재 풀 리퀘스트를 하나의 커밋으로 압축하여 병합:
+- 관리자 권한으로 병합 (허용된 경우):
 
-`gh pr merge --squash --body="{{commit_message_body}}"`
-
-- 도움말 표시:
-
-`gh pr merge --help`
+`gh pr merge {{PR_번호}} --admin`

@@ -1,6 +1,6 @@
 # zstdcat
 
-> Tämä on alias komennolle `zstd --decompress --stdout --force`.
+> Tämä on alias `zstd --decompress --stdout --force` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

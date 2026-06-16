@@ -1,6 +1,6 @@
 # vi
 
-> Tämä on alias komennolle `vim`.
+> Tämä on alias `vim` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

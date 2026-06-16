@@ -29,4 +29,4 @@
 
 - Update a gist using the ID from URL:
 
-`gist {{[-u|--update]}} {{GIST_ID}} {{file.txt}}`
+`gist {{[-u|--update]}} {{gist_id}} {{file.txt}}`

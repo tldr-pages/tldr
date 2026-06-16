@@ -5,8 +5,8 @@
 
 - Elimina una instantánea:
 
-`qm {{[del|delsnapshot]}} {{id_mv}} {{nombre_de_la_instantánea}}`
+`qm {{[del|delsnapshot]}} {{100}} {{nombre_de_la_instantánea}}`
 
 - Elimina una instantánea de un archivo de configuración (incluso si la eliminación del disco de la instantánea falla):
 
-`qm {{[del|delsnapshot]}} {{id_mv}} {{nombre_de_la_instantánea}} --force 1`
+`qm {{[del|delsnapshot]}} {{100}} {{nombre_de_la_instantánea}} --force 1`

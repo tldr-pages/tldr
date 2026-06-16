@@ -23,8 +23,8 @@
 
 - Turn `rm` into an interactive command:
 
-`alias {{rm}}="{{rm --interactive}}"`
+`alias rm="rm --interactive"`
 
 - Create `la` as a shortcut for `ls --all`:
 
-`alias {{la}}="{{ls --all}}"`
+`alias la="ls --all"`

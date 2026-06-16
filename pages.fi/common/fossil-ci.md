@@ -1,6 +1,6 @@
 # fossil ci
 
-> Tämä on alias komennolle `fossil commit`.
+> Tämä on alias `fossil commit` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
