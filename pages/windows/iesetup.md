@@ -11,16 +11,16 @@
 
 - Build a custom Internet Explorer Wizard executable, specifying the location of `iewzd` executable:
 
-`iesetup /c:"iewzd"`
+`iesetup /c:"{{path\to\iewzd.exe}}"`
 
 - Apply custom `iewzd` program arguments into the custom installer:
 
-`iesetup /c:"iewzd {{iewzd_args}}"`
+`iesetup /c:"{{path\to\iewzd.exe}} {{iewzd_args}}"`
 
 - Run the build process in a [q]uiet mode, assuming the user account invoking this command as an [a]dministrator or regular [u]ser:
 
-`iesetup /q:{{a|u}} /c:"iewzd {{iewzd_args}}"`
+`iesetup /q:{{a|u}} /c:"{{path\to\iewzd.exe}} {{iewzd_args}}"`
 
-- [a]sk, [n]ever, or alway[s] [r]estart the computer after successful Internet Explorer installation:
+- Specify the [r]estart behavior after a successful installation ([a]sk, [n]ever, or alway[s]):
 
-`iesetup /r:{{a|n|s}} /c:"iewzd {{iewzd_args}}"`
+`iesetup /r:{{a|n|s}} /c:"{{path\to\iewzd.exe}} {{iewzd_args}}"`
