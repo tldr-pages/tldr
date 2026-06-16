@@ -26,7 +26,7 @@
 
 - Set a [t]imeout for running a given script (in seconds):
 
-`wscript //t:{{timeout}} {{path\to\script.vbs}}`
+`wscript //t:{{seconds}} {{path\to\script.vbs}}`
 
 - Start the [d]ebugger and wait until a scripting error occurs:
 
