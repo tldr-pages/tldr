@@ -9,7 +9,7 @@
 
 - Connect at a specific baud rate:
 
-`tip -115200 {{system_name}}`
+`tip -{{115200}} {{system_name}}`
 
 - Connect with verbose output:
 
