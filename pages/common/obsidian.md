@@ -26,4 +26,4 @@
 
 - Read the contents of a file:
 
-`obsidian read file={{filename}}`
+`obsidian read file={{path/to/file}}`
