@@ -3,7 +3,7 @@
 > Install or uninstall Microsoft Silverlight.
 > You may need to replace the command with the actual installer name, such as `Silverlight.1.0.exe`.
 > Note: This program has been deprecated.
-> More information: <https://download.microsoft.com/download/7/8/d/78da8ec9-8801-42e5-89e5-3809386f1316/silverlight%20deployment%20guide.doc>.
+> More information: <https://download.microsoft.com/download/c/d/5/cd5aaae3-21f7-47a8-b7d5-39e36baf9ac8/silverlight_deployment_guide.docx>.
 
 - Run the Microsoft Silverlight installer in GUI:
 

@@ -15,7 +15,7 @@
 
 - Open a specific directory on Windows Explorer (equivalent to `explorer {{path\to\directory}}`):
 
-`start {{path\to\directory}}`
+`start "" "{{path\to\directory}}"`
 
 - Start a specific Windows program file (command-line programs will open on a new console window):
 
@@ -27,7 +27,7 @@
 
 - Start a Windows program in minimized or maximized window mode:
 
-`start {{/min|/max}} {{program}}`
+`start {{/min|/max}} {{path\to\file.exe}}`
 
 - Start a command or Windows program with a specified working directory:
 

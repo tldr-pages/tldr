@@ -2,7 +2,7 @@
 
 > Display the location of files that match the search pattern.
 > Defaults to current work directory and paths in the `%PATH%` environment variable.
-> In PowerShell, this command is an alias for `Where-Object`. This documentation is based on the Command Prompt (`cmd`) version of `where`.
+> In PowerShell, this command is an alias of `Where-Object`. This documentation is based on the Command Prompt (`cmd`) version of `where`.
 > More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/where>.
 
 - View the documentation of the equivalent PowerShell command:
