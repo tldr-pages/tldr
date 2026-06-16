@@ -19,6 +19,6 @@
 
 `sudo nethogs -d {{seconds}}`
 
-- Change the traffic display unit (e.g. 3 for total MB, 4 for MB/s):
+- Change the traffic display unit (default: 0, 0 = kB/s, 1 = total kB, 2 = total bytes, 3 = total MB, 4 = MB/s, 5 = GB/s):
 
-`sudo nethogs -v {{view_mode}}`
+`sudo nethogs -v {{0|1|2|3|4|5}}`
