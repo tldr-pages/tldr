@@ -27,6 +27,6 @@
 
 `longbridge financial-report {{600519.SH}}`
 
-- Login to a Longbridge account:
+- Log in to a Longbridge account:
 
 `longbridge auth login`
