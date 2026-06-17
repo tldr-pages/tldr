@@ -1,6 +1,6 @@
 # xbanish
 
-> X utility that hides the cursor when a key is pressed, the cursor appears again when there is clicking or movement.
+> Hide the X11 cursor when a key is pressed and turn it back on when the mouse is used.
 > More information: <http://manned.org/xbanish>.
 
 - Hide the cursor on key press:
