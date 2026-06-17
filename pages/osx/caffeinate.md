@@ -9,7 +9,7 @@
 
 - Prevent from sleeping for 1 hour (3600 seconds):
 
-`caffeinate -u -t {{3600}}`
+`caffeinate -u -t 3600`
 
 - Fork a process, exec "make" in it, and prevent sleep as long as that process is running:
 

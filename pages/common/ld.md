@@ -13,7 +13,7 @@
 
 - Link a object file to a specific target emulation:
 
-`ld {{path/to/file.o}} -m {{targer_emulation}} {{[-o|--output]}} {{path/to/output_executable}}`
+`ld {{path/to/file.o}} -m {{target_emulation}} {{[-o|--output]}} {{path/to/output_executable}}`
 
 - Dynamically link an x86_64 program to glibc (file paths change depending on the system):
 
