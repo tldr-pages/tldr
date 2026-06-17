@@ -11,6 +11,6 @@
 
 `xbanish -a`
 
-- Automatically hide the cursor after a certain amount of time of inactivity:
+- Automatically hide the cursor after `n` seconds of inactivity:
 
-`xbanish -t {{seconds}}`
+`xbanish -t {{n}}`
