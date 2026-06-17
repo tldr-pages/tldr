@@ -7,7 +7,7 @@
 
 `xbanish`
 
-- Start xbanish so that the cursor is always hidden, ignoring key presses:
+- Always keep the cursor hidden, ignoring key presses and mouse usage:
 
 `xbanish -a`
 
