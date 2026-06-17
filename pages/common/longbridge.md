@@ -1,6 +1,6 @@
 # longbridge
 
-> AI-native CLI for Longbridge Securities — real-time market data, portfolio management, and trading.
+> AI-native tool for Longbridge Securities - real-time market data, portfolio management, and trading.
 > More information: <https://open.longbridge.com/docs/cli>.
 
 - Display a real-time quote for a stock (US, HK, A-share, or Singapore):
