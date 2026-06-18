@@ -1,6 +1,6 @@
 # attr
 
-> Manipulate extended attributes on XFS filesystem objects.
+> Manipulate extended attributes on filesystem objects.
 > More information: <https://manned.org/attr>.
 
 - List the names and sizes of all extended attributes of a file:
