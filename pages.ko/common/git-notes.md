@@ -7,13 +7,13 @@
 
 `git notes list`
 
-- 주어진 객체에 연결된 모든 노트 나열 (기본값은 HEAD):
+- 주어진 객체에 연결된 모든 노트 나열 (기본값은 `HEAD`):
 
-`git notes list [{{객체}}]`
+`git notes list {{객체}}`
 
-- 주어진 객체에 연결된 노트 표시 (기본값은 HEAD):
+- 주어진 객체에 연결된 노트 표시 (기본값은 `HEAD`):
 
-`git notes show [{{객체}}]`
+`git notes show {{객체}}`
 
 - 지정된 객체에 노트 추가 (기본 텍스트 편집기 열림):
 
@@ -23,9 +23,9 @@
 
 `git notes append --message="{{메시지_텍스트}}"`
 
-- 기존 노트 편집 (기본값은 HEAD):
+- 기존 노트 편집 (기본값은 `HEAD`):
 
-`git notes edit [{{객체}}]`
+`git notes edit {{객체}}`
 
 - 한 객체에서 다른 객체로 노트 복사:
 

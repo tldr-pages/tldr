@@ -5,7 +5,7 @@
 
 - Analyze one or more log files in interactive mode:
 
-`goaccess {{path/to/logfile1 path/to/file2 ...}}`
+`goaccess {{path/to/log1 path/to/log2 ...}}`
 
 - Use a specific log-format (or pre-defined formats like "combined"):
 

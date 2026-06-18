@@ -9,7 +9,7 @@
 
 - Emite un certificado comodín (marcado con un asterisco) utilizando un modo API DNS automático:
 
-`acme.sh --issue --dns {{dns_namesilo}} --domain {{ejemplo.com}} --domain {{*.example.com}}`
+`acme.sh --issue --dns {{dns_namesilo}} --domain {{example.com}} --domain {{*.example.com}}`
 
 - Emite un certificado utilizando un modo de alias DNS:
 
