@@ -9,7 +9,7 @@
 
 - Compress a specific file:
 
-`compact {{path\to\file}}`
+`compact /c {{path\to\file}}`
 
 - Uncompress a specific file:
 
