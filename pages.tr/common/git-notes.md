@@ -7,13 +7,13 @@
 
 `git notes list`
 
-- Belirtilen nesneye bağlanan tüm notları sırala (varsayılan HEAD'dedir):
+- Belirtilen nesneye bağlanan tüm notları sırala (varsayılan `HEAD`'dedir):
 
-`git notes list [{{nesne}}]`
+`git notes list {{nesne}}`
 
-- Belirtilen nesneye bağlanan tüm notları göster (varsayılan HEAD'dedir):
+- Belirtilen nesneye bağlanan tüm notları göster (varsayılan `HEAD`'dedir):
 
-`git notes show [{{nesne}}]`
+`git notes show {{nesne}}`
 
 - Belirtilen nesneye bir not ekle (varsayılan metin editörü açılır):
 
@@ -23,9 +23,9 @@
 
 `git notes append --message="{{messaj_yazısı}}"`
 
-- Varolan bir notu düzenle (varsayılan HEAD'dedir):
+- Varolan bir notu düzenle (varsayılan `HEAD`'dedir):
 
-`git notes edit [{{nesne}}]`
+`git notes edit {{nesne}}`
 
 - Bir notu bir nesneden öbürüne kopyala:
 
