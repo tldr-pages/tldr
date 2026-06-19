@@ -474,7 +474,7 @@ The templates can be changed when necessary.
 
 > Det här kommandot är ett alias för `example`.
 
-- Se dokumentationen för orginalkommandot:
+- Se dokumentationen för originalkommandot:
 
 `tldr example`
 ```

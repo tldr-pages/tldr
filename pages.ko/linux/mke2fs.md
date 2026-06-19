@@ -5,12 +5,12 @@
 
 - 장치 b의 파티션 1(`sdb1`)에 ext2 파일 시스템 생성:
 
-`mkfs -t ext2 {{/dev/sdb1}}`
+`sudo mke2fs -t ext2 {{/dev/sdb1}}`
 
 - 장치 b의 파티션 1(`sdb1`)에 ext3 파일 시스템 생성:
 
-`mkfs -t ext3 {{/dev/sdb1}}`
+`sudo mke2fs -t ext3 {{/dev/sdb1}}`
 
 - 장치 b의 파티션 1(`sdb1`)에 ext4 파일 시스템 생성:
 
-`mkfs -t ext4 {{/dev/sdb1}}`
+`sudo mke2fs -t ext4 {{/dev/sdb1}}`
