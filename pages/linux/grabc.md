@@ -15,7 +15,7 @@
 
 `grabc -d`
 
-- Output the clicked window's hex ID to `stdout`:
+- Print the hex ID of the clicked window:
 
 `grabc -W`
 
