@@ -3,7 +3,7 @@
 > A multi-device notebook for capturing commands, snippets, and notes.
 > More information: <https://www.getdnote.com/docs/cli/commands/>.
 
-- Add a note to a book, opening the configured editor:
+- Add a note to a book in the configured editor:
 
 `dnote add {{book_name}}`
 
