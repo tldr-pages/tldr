@@ -1,6 +1,6 @@
 # grabc
 
-> Simple utility to determine the colour of a clicked pixel on X.
+> A tool to identify a pixel color of an X Window.
 > More information: <https://manned.org/grabc>.
 
 - Output the colour of a clicked pixel in hex to `stdout`:
