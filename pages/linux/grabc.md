@@ -19,6 +19,14 @@
 
 `grabc -W`
 
+- Pick a pixel at a specific location on a specific window:
+
+`grabc -w {{window_id}} -l +{{x}}+{{y}}`
+
+- Print all 16 bits of color (default prints high 8 bits):
+
+`grabc -a`
+
 - Display help:
 
 `grabc {{[-h|--help]}}`
