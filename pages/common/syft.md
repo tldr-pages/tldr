@@ -1,7 +1,7 @@
 # syft
 
 > Generate a Software Bill of Materials (SBOM) from container images and filesystems.
-> More information: <https://github.com/anchore/syft>.
+> More information: <https://oss.anchore.com/docs/reference/syft/cli/>.
 
 - Generate an SBOM from a container image:
 
