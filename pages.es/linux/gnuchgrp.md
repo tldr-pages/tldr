@@ -4,4 +4,4 @@
 
 - Vea la documentación del comando original:
 
-`tldr chcon`
+`tldr chgrp`
