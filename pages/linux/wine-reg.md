@@ -1,29 +1,33 @@
 # wine reg
 
 > Manage keys and their values in the Wine registry.
-> Some subcommands such as `add`, `delete`, etc. have their own usage documentation.
+> Some subcommands such as `add`, `delete`, `query`, etc. have their own usage documentation.
 > More information: <https://gitlab.winehq.org/wine/wine/-/wikis/Commands>.
 
-- View documentation for adding or copying registry keys and values:
+- Add or overwrite a value under a key (creating the key if needed):
 
-`tldr wine reg {{add|copy}}`
+`wine reg add '{{HKEY_CURRENT_USER\path\to\key}}' /v {{value_name}} /d {{data}} /f`
 
-- View documentation for deleting registry keys and values:
+- Display the values stored under a key:
 
-`tldr wine reg delete`
+`wine reg query '{{HKEY_CURRENT_USER\path\to\key}}'`
 
-- View documentation for displaying registry keys and values:
+- Delete a value from a key:
 
-`tldr wine reg query`
+`wine reg delete '{{HKEY_CURRENT_USER\path\to\key}}' /v {{value_name}} /f`
 
-- View documentation for exporting or importing registry data to or from a file:
+- Copy a key and all its subkeys to a new location:
 
-`tldr wine reg {{export|import}}`
+`wine reg copy '{{HKEY_CURRENT_USER\path\to\source_key}}' '{{HKEY_CURRENT_USER\path\to\destination_key}}' /s`
+
+- Export a key and its subkeys to a `.reg` file:
+
+`wine reg export '{{HKEY_CURRENT_USER\path\to\key}}' {{path/to/file.reg}}`
+
+- Import registry entries from a `.reg` file:
+
+`wine reg import {{path/to/file.reg}}`
 
 - Display help:
 
 `wine reg /?`
-
-- Display help for a specific operation:
-
-`wine reg {{operation}} /?`
