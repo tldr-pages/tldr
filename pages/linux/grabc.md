@@ -3,7 +3,7 @@
 > A tool to identify a pixel color of an X Window.
 > More information: <https://manned.org/grabc>.
 
-- Output the colour of a clicked pixel in hex to `stdout`:
+- Pick a pixel and print its color in hexadecimal:
 
 `grabc`
 
