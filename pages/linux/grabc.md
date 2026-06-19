@@ -7,7 +7,7 @@
 
 `grabc`
 
-- Output the colour of a clicked pixel in RGB to `stderr`:
+- Pick a pixel and print its RGB values:
 
 `grabc -rgb`
 
