@@ -7,7 +7,7 @@
 
 `posh sync --full`
 
-- Open TUI interface for a project:
+- Start the interactive documentation browser for the current project:
 
 `posh`
 
