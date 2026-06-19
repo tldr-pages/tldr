@@ -20,7 +20,7 @@
 
 `wmplayer {{path\to\file}} /fullscreen`
 
-- Specify an user interface skin when playing file:
+- Specify a user interface skin when playing a file:
 
 `wmplayer "{{path\to\file}}?wmpskin={{skin_name}}"`
 

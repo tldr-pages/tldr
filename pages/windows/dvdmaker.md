@@ -16,6 +16,6 @@
 
 `dvdmaker {{path\to\file.xml}}`
 
-- Reset the Windows DVD Maker configuration into factory settings (Warning: This will reset your app settings):
+- Reset Windows DVD Maker configuration to factory settings (Warning: This will reset your app settings):
 
 `dvdmaker _clear_`
