@@ -24,6 +24,6 @@
 
 `obsidian tasks todo`
 
-- Read the contents of a file:
+- Read the current file:
 
-`obsidian read file={{path/to/file}}`
+`obsidian read`
