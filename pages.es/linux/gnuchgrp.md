@@ -1,4 +1,4 @@
-# gnuchcon
+# gnuchgrp
 
 > Este comando es un alias de `chcon` de GNU.
 
