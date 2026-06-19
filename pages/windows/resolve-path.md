@@ -6,7 +6,7 @@
 
 - Resolve the home folder path:
 
-`Resolve-Path {{~}}`
+`Resolve-Path ~`
 
 - Resolve a UNC path:
 
