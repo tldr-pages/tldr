@@ -1,6 +1,6 @@
 # critique
 
-> Review Git changes in a terminal UI with syntax highlighting and word-level diffs.
+> Review Git changes with syntax highlighting and word-level diffs.
 > More information: <https://github.com/remorses/critique#usage>.
 
 - Review unstaged changes in the working tree:
