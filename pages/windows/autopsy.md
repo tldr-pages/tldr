@@ -13,7 +13,7 @@
 
 - Add a data source to an existing case:
 
-`autopsy64.exe --caseDir {{path\to\base_directory}} --addDataSource --dataSourcePath {{path\to\source}}`
+`autopsy64.exe --caseDir {{path\to\case_directory}} --addDataSource --dataSourcePath {{path\to\source}}`
 
 - Generate a report for an existing case:
 
