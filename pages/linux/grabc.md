@@ -29,4 +29,4 @@
 
 - Display help:
 
-`grabc {{[-h|--help]}}`
+`grabc -h`
