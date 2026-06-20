@@ -21,4 +21,4 @@
 
 - List all data sources in an existing case:
 
-`autopsy64.exe --caseDir {{path\to\base_directory}} --listAllDataSources`
+`autopsy64.exe --caseDir {{path\to\case_directory}} --listAllDataSources`
