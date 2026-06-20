@@ -20,9 +20,13 @@
 
 `obsidian search query="{{search_query}}"`
 
-- List all incomplete tasks in the vault:
+- Read a specific note:
 
-`obsidian tasks todo`
+`obsidian read file={{note_name}}`
+
+- Read a note at a specific path relative to the vault root:
+
+`obsidian read path={{path/to/note.md}}`
 
 - Read the active note:
 
