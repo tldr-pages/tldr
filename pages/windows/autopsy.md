@@ -17,7 +17,7 @@
 
 - Generate a report for an existing case:
 
-`autopsy64.exe --caseDir {{path\to\base_directory}} --generateReports`
+`autopsy64.exe --caseDir {{path\to\case_directory}} --generateReports`
 
 - List all data sources in an existing case:
 
