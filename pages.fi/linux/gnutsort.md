@@ -1,6 +1,6 @@
 # gnutsort
 
-> Tämä on alias `tsort` komennolle.
+> Tämä on alias GNU:n `tsort` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

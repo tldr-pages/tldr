@@ -1,6 +1,6 @@
 # gnu[
 
-> Tämä on alias `[` komennolle.
+> Tämä on alias GNU:n `[` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
