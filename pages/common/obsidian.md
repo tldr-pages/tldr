@@ -24,6 +24,6 @@
 
 `obsidian tasks todo`
 
-- Read the current file:
+- Read the active note:
 
 `obsidian read`
