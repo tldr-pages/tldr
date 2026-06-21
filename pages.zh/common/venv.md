@@ -1,7 +1,7 @@
 # venv
 
 > 创建轻量的 Python 虚拟环境。
-> 更多信息： <https://docs.python.org/library/venv.html>。
+> 更多信息：<https://docs.python.org/library/venv.html>。
 
 - 创建一个 Python 虚拟环境：
 
