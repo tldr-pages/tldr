@@ -5,16 +5,16 @@
 
 - 运行一个可在终端关闭后继续运行的进程：
 
-`nohup {{command}} {{argument1 argument2 ...}}`
+`nohup {{命令}} {{参数1 参数2 ...}}`
 
 - 在后台模式下启动 `nohup`：
 
-`nohup {{command}} {{argument1 argument2 ...}} &`
+`nohup {{命令}} {{参数1 参数2 ...}} &`
 
 - 运行一个可在终端关闭后继续运行的 shell 脚本：
 
-`nohup {{path/to/script.sh}} &`
+`nohup {{路径/到/脚本.sh}} &`
 
 - 运行一个进程，并将输出写入指定文件：
 
-`nohup {{command}} {{argument1 argument2 ...}} > {{path/to/output_file}} &`
+`nohup {{命令}} {{参数1 参数2 ...}} > {{路径/到/输出文件}} &`
