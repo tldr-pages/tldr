@@ -1,32 +1,32 @@
 # zgrep
 
-> Grep text patterns from files within compressed files.
+> Find patterns in files that may be compressed using `grep`.
 > More information: <https://manned.org/zgrep>.
 
-- Grep a pattern in a compressed file (case-sensitive):
+- Search for a pattern within a compressed file:
 
-`zgrep {{pattern}} {{path/to/compressed_file}}`
+`zgrep "{{search_pattern}}" {{path/to/file}}`
+
+- Search for an exact string (disables `regex`es):
+
+`zgrep {{[-F|--fixed-strings]}} "{{exact_string}}" {{path/to/file}}`
 
 - Print 3 lines of [C]ontext around, [B]efore, or [A]fter each match:
 
-`zgrep {{--context|--before-context|--after-context}} 3 {{pattern}} {{path/to/compressed_file}}`
+`zgrep {{--context=|--before-context=|--after-context=}}{{3}} "{{search_pattern}}" {{path/to/file}}`
 
-- Grep a pattern in a compressed file (case-insensitive):
+- Print only the matched text:
 
-`zgrep {{[-i|--ignore-case]}} {{pattern}} {{path/to/compressed_file}}`
+`zgrep {{[-o|--only-matching]}} "{{search_pattern}}" {{path/to/file}}`
 
-- Output count of lines containing matched pattern in a compressed file:
+- Do not print lines that match a pattern:
 
-`zgrep {{[-c|--count]}} {{pattern}} {{path/to/compressed_file}}`
+`zgrep {{[-v|--invert-match]}} "{{search_pattern}}" {{path/to/file}}`
 
-- Display the lines which don't have the pattern present (Invert the search function):
+- Search for multiple patterns:
 
-`zgrep {{[-v|--invert-match]}} {{pattern}} {{path/to/compressed_file}}`
+`zgrep {{[-e|--regexp]}} "{{pattern1}}" {{[-e|--regexp]}} "{{pattern2}}" {{path/to/file}}`
 
-- Grep a compressed file for multiple patterns:
+- Use extended `regex`es (supports `?`, `+`, `{}`, `()`, and `|`), in case-insensitive mode:
 
-`zgrep {{[-e|--regexp]}} "{{pattern_1}}" {{[-e|--regexp]}} "{{pattern_2}}" {{path/to/compressed_file}}`
-
-- Use extended `regex` (supports `?`, `+`, `{}`, `()`, and `|`):
-
-`zgrep {{[-E|--extended-regexp]}} {{regex}} {{path/to/file}}`
+`zgrep {{[-Ei|--extended-regexp --ignore-case]}} "{{search_pattern}}" {{path/to/file}}`

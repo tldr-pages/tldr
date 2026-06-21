@@ -18,7 +18,7 @@
 
 - Print 3 lines of [C]ontext around, [B]efore, or [A]fter each match:
 
-`xzgrep {{--context|--before-context|--after-context}} 3 "{{search_pattern}}" {{path/to/file}}`
+`xzgrep {{--context=|--before-context=|--after-context=}}{{3}} "{{search_pattern}}" {{path/to/file}}`
 
 - Print file name and line number for each match with color output:
 
@@ -28,6 +28,10 @@
 
 `xzgrep {{[-o|--only-matching]}} "{{search_pattern}}" {{path/to/file}}`
 
-- Use extended `regex` (supports `?`, `+`, `{}`, `()`, and `|`), in case-insensitive mode:
+- Do not print lines that match a pattern:
 
-`xzgrep {{[-E|--extended-regexp]}} {{[-i|--ignore-case]}} "{{search_pattern}}" {{path/to/file}}`
+`xzgrep {{[-v|--invert-match]}} "{{search_pattern}}" {{path/to/file}}`
+
+- Use extended `regex`es (supports `?`, `+`, `{}`, `()`, and `|`), in case-insensitive mode:
+
+`xzgrep {{[-Ei|--extended-regexp --ignore-case]}} "{{search_pattern}}" {{path/to/file}}`
