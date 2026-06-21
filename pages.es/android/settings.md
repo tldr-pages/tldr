@@ -5,7 +5,7 @@
 
 - Muestra una lista de configuraciones en el espacio de nombres `global`:
 
-`settings list {{global}}`
+`settings list global`
 
 - Obtén el valor de una configuración específica:
 

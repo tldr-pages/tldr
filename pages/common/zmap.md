@@ -6,32 +6,32 @@
 
 - Scan a subnet or full IPv4 space for a specific TCP port (default: 80):
 
-`zmap {{SUBNETS}} {{[-p|--target-ports]}} {{port}}`
+`sudo zmap {{[-p|--target-ports]}} {{port}} {{subnet}}`
 
 - Scan specific ports or port ranges across a subnet:
 
-`zmap {{[-p|--target-ports]}} {{port1,port2-port3,...}} {{SUBNETS}}`
+`sudo zmap {{[-p|--target-ports]}} {{port1,port2-port3,...}} {{subnet}}`
 
 - Output results to a CSV file with custom fields:
 
-`zmap {{[-o|--output-file]}} {{path/to/output_file.csv}} {{[-f|--output-fields]}} "{{saddr,daddr,sport,dport}}" {{SUBNETS}}`
+`sudo zmap {{[-o|--output-file]}} {{path/to/output_file.csv}} {{[-f|--output-fields]}} "{{saddr,daddr,sport,dport}}" {{subnet}}`
 
 - Limit the scan rate to a specific number of packets per second:
 
-`zmap {{[-r|--rate]}} {{packets_per_second}} {{SUBNETS}}`
+`sudo zmap {{[-r|--rate]}} {{packets_per_second}} {{subnet}}`
 
 - Perform a dry run without sending packets:
 
-`zmap {{[-d|--dryrun]}} {{SUBNETS}}`
+`zmap {{[-d|--dryrun]}} {{subnet}}`
 
 - Exclude subnets using a blocklist file in CIDR notation:
 
-`zmap {{[-b|--blocklist-file]}} {{path/to/blocklist.txt}} {{SUBNETS}}`
+`sudo zmap {{[-b|--blocklist-file]}} {{path/to/blocklist.txt}} {{subnet}}`
 
 - Set a specific source IP for scan packets:
 
-`zmap {{[-S|--source-ip]}} {{source_ip}} {{SUBNETS}}`
+`sudo zmap {{[-S|--source-ip]}} {{source_ip}} {{subnet}}`
 
 - Cap the number/percentage of targets to probe (e.g. 1000 IP/port pairs):
 
-`zmap {{[-n|--max-targets]}} {{1000}} {{SUBNETS}} {{[-p|--target-ports]}} {{port1,port2-port3}}`
+`sudo zmap {{[-p|--target-ports]}} {{port1,port2-port3}} {{[-n|--max-targets]}} {{1000}} {{subnet}}`

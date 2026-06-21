@@ -1,24 +1,36 @@
 # pm
 
-> Tampilkan daftar pemasangan aplikasi di dalam sebuah perangkat Android.
+> Manajer paket aplikasi Android.
 > Informasi lebih lanjut: <https://developer.android.com/tools/adb#pm>.
 
-- Tampilkan daftar seluruh aplikasi yang terpasang:
+- Tampilkan daftar paket yang terpasang:
 
 `pm list packages`
 
-- Tampilkan daftar seluruh aplikasi sistem yang terpasang:
+- Pasang suatu paket aplikasi dari alamat tertentu:
 
-`pm list packages -s`
+`pm install /{{jalan/menuju/aplikasi}}.apk`
 
-- Tampilkan daftar seluruh aplikasi pihak ketiga yang terpasang:
+- Hapus suatu paket aplikasi dari perangkat Android:
 
-`pm list packages -3`
+`pm uninstall {{paket}}`
 
-- Tampilkan daftar aplikasi dengan kata kunci tertentu:
+- Hapus seluruh data aplikasi untuk suatu paket:
 
-`pm list packages {{kata_kunci}}`
+`pm clear {{paket}}`
 
-- Tampilkan jalan menuju file APK untuk sebuah aplikasi:
+- Aktifkan suatu paket atau komponen:
 
-`pm path {{aplikasi}}`
+`pm enable {{paket_atau_kelas}}`
+
+- Nonaktifkan suatu paket atau komponen:
+
+`pm disable-user {{paket_atau_kelas}}`
+
+- Berikan suatu ijin untuk suatu aplikasi:
+
+`pm grant {{paket}} {{android.permission.CAMERA|android.permission.ACCESS_FINE_LOCATION|android.permission.READ_CONTACTS|...}}`
+
+- Cabut suatu ijin untuk suatu aplikasi:
+
+`pm revoke {{paket}} {{android.permission.CAMERA|android.permission.ACCESS_FINE_LOCATION|android.permission.READ_CONTACTS|...}}`

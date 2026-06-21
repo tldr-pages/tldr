@@ -1,29 +1,34 @@
 # dpkg
 
 > Gestore di pacchetti Debian.
-> Alcuni comandi aggiuntivi, come `deb`, hanno la propria documentazione.
+> Alcuni sottocomandi, come `deb`, hanno la propria documentazione d'uso.
+> Per i comandi equivalenti in altri gestori di pacchetti, vedi <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > Maggiori informazioni: <https://manned.org/dpkg>.
 
 - Installa un pacchetto:
 
-`dpkg -i {{percorso/del/file.deb}}`
+`sudo dpkg {{[-i|--install]}} {{percorso/del/file.deb}}`
 
 - Rimuove un pacchetto:
 
-`dpkg -r {{nome_del_pacchetto}}`
+`sudo dpkg {{[-r|--remove]}} {{pacchetto}}`
 
 - Elenca i pacchetti installati:
 
-`dpkg -l {{espressione_per_la_ricerca}}`
+`dpkg {{[-l|--list]}} {{espressione}}`
 
 - Elenca i contenuti di un pacchetto:
 
-`dpkg -L {{nome_del_pacchetto}}`
+`dpkg {{[-L|--listfiles]}} {{pacchetto}}`
 
 - Elenca i contenuti di un file pacchetto locale:
 
-`dpkg -c {{percorso/del/file.deb}}`
+`dpkg {{[-c|--contents]}} {{percorso/del/file.deb}}`
 
 - Trova a quale pacchetto appartiene un file:
 
-`dpkg -S {{filename}}`
+`dpkg {{[-S|--search]}} {{percorso/del/file}}`
+
+- Rimuove completamente un pacchetto installato o già rimosso, inclusa la configurazione:
+
+`sudo dpkg {{[-P|--purge]}} {{pacchetto}}`
