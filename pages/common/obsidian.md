@@ -20,6 +20,10 @@
 
 `obsidian search query="{{search_query}}"`
 
+- List all incomplete tasks in the vault:
+
+`obsidian tasks todo`
+
 - Read a specific note:
 
 `obsidian read file={{note_name}}`
