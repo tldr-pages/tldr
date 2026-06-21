@@ -2,9 +2,9 @@
 
 > A data pretty-printer with column styling for CSV, TSV, PSV, Parquet, and Arrow IPC files.
 > Commonly aliased as `tv`.
-> More information: <https://github.com/alexhallam/tv>.
+> More information: <https://github.com/alexhallam/tv#help>.
 
-- Pretty-print a CSV file:
+- Pretty-print the first 25 rows of a CSV file:
 
 `tidy-viewer {{path/to/file.csv}}`
 
@@ -20,9 +20,9 @@
 
 `tidy-viewer {{[-c|--color]}} {{3}} {{path/to/file.csv}}`
 
-- Print all rows instead of the first 25, paging through the output:
+- Print all rows in color, paging through the output:
 
-`tidy-viewer {{[-f|--force-all-rows]}} {{path/to/file.csv}} | less -S`
+`tidy-viewer {{[-af|--color-always --force-all-rows]}} {{path/to/file.csv}} | less -RS`
 
 - Display help:
 

@@ -2,9 +2,9 @@
 
 > `tv` can refer to multiple commands with the same name.
 
-- View documentation for the television fuzzy finder:
+- View documentation for the Television fuzzy finder:
 
-`tldr tv.1`
+`tldr tv.fzf`
 
 - View documentation for the tidy-viewer data pretty printer:
 
