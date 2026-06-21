@@ -23,8 +23,8 @@
 
 - 將 `rm` 變成互動式指令：
 
-`alias {{rm}}="{{rm --interactive}}"`
+`alias rm="rm --interactive"`
 
 - 建立 `la` 作為 `ls --all` 的捷徑：
 
-`alias {{la}}="{{ls --all}}"`
+`alias la="ls --all"`
