@@ -15,11 +15,11 @@
 
 - 测试指定的文件是否存在（[f]ile）：
 
-`test -f "{{path/to/file_or_directory}}"`
+`test -f "{{路径/到/文件或目录}}"`
 
 - 测试指定的目录是否不存在（[d]irectory）：
 
-`test ! -d "{{path/to/directory}}"`
+`test ! -d "{{路径/到/目录}}"`
 
 - 如果 A 为真，则执行 B，如果出错则执行 C（请注意，即使 A 失败，C 也可能会运行）：
 
@@ -27,4 +27,4 @@
 
 - 在条件语句中使用 `test`：
 
-`if test -f "{{path/to/file}}"; then echo "File exists"; else echo "File does not exist"; fi`
+`if test -f "{{路径/到/文件}}"; then echo "File exists"; else echo "File does not exist"; fi`
