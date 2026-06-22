@@ -23,8 +23,8 @@
 
 - Macht `rm` zu einem interaktiven Befehl:
 
-`alias {{rm}}="{{rm -i}}"`
+`alias rm="rm -i"`
 
 - Erstellt den Alias `la` für `ls -a`:
 
-`alias {{la}}="{{ls -a}}"`
+`alias la="ls -a"`
