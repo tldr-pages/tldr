@@ -1,7 +1,7 @@
 # qtgrace
 
 > Display, plot, analyze 2D data.
-> A Qt reimplementation of Grace (https://plasma-gate.weizmann.ac.il/Grace/), sharing its command-line interface.
+> A Qt reimplementation of Grace (<https://plasma-gate.weizmann.ac.il/Grace/>), sharing its command-line interface.
 > More information: <https://sourceforge.net/projects/qtgrace/>.
 
 - Plot one or more data files, plotting only the first two columns in each file as X Y:
