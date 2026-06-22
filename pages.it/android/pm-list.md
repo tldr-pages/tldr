@@ -1,4 +1,5 @@
 # pm list
+
 > Elenca utenti, pacchetti, permessi, instrumentation, gruppi di permessi, feature e librerie gestite dal package manager.
 > Maggiori informazioni: <https://developer.android.com/tools/adb#pm>.
 
