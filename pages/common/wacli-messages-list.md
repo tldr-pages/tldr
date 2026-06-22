@@ -2,6 +2,7 @@
 
 > List messages from a WhatsApp chat.
 > See also: `wacli messages search`, `wacli messages show`, `wacli messages context`.
+> More information: <https://github.com/openclaw/wacli>.
 
 - List messages from a specific chat in JSON format:
 

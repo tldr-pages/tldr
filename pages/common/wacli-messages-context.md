@@ -2,6 +2,7 @@
 
 > Display messages surrounding a specific WhatsApp message.
 > See also: `wacli messages show`, `wacli messages list`.
+> More information: <https://github.com/openclaw/wacli>.
 
 - Show context around a specific message in JSON format:
 

@@ -2,6 +2,7 @@
 
 > Display a specific WhatsApp message by its ID.
 > See also: `wacli messages list`, `wacli messages context`.
+> More information: <https://github.com/openclaw/wacli>.
 
 - Show a specific message in JSON format:
 
