@@ -2,7 +2,7 @@
 
 > WhatsApp command-line client for sending messages, managing chats, and contacts.
 > Some subcommands such as `send`, `messages`, `chats`, and `contacts` have their own usage documentation.
-> More information: <https://github.com/steipete/wacli>.
+> More information: <https://github.com/openclaw/wacli>.
 
 - Authenticate via QR code:
 
