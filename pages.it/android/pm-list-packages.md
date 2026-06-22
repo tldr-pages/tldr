@@ -1,13 +1,12 @@
 # pm list packages
-
-> Elenca i pacchetti installati, conosciuti o filtrati su un dispositivo Android.
+> Elenca pacchetti installati, conosciuti o filtrati su un dispositivo Android.
 > Maggiori informazioni: <https://developer.android.com/tools/adb#pm>.
 
 - Elenca tutti i pacchetti installati:
 
 `pm list packages`
 
-- Elenca tutti i pacchetti e i percorsi associati dei file APK:
+- Elenca tutti i pacchetti con i relativi percorsi dei [f]ile APK:
 
 `pm list packages -f`
 
@@ -27,6 +26,6 @@
 
 `pm list packages -3`
 
-- Mostra il [i]nstaller per ogni pacchetto:
+- Mostra l'[i]nstaller per ogni pacchetto:
 
 `pm list packages -i`
