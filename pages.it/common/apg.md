@@ -13,11 +13,11 @@
 
 - Crea una password di 16 caratteri:
 
-`apg -m {{16}}`
+`apg -m 16`
 
 - Crea una password di massimo 16 caratteri:
 
-`apg -x {{16}}`
+`apg -x 16`
 
 - Crea una password che non è già presente in un dizionario (file dizionario fornito come argomento):
 

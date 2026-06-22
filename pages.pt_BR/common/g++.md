@@ -14,7 +14,7 @@
 
 - Mostra avisos comuns, símbolos de depuração na saída, e otimiza sem afetar a depuração:
 
-`g++ {{caminho/para/fonte.cpp}} -Wall {{-g|--debug}} -Og {{[-o|--output]}} {{caminho/para/executável_de_saída}}`
+`g++ {{caminho/para/fonte.cpp}} -Wall {{[-g|--debug]}} -Og {{[-o|--output]}} {{caminho/para/executável_de_saída}}`
 
 - Escolhe um padrão de linguagem para o qual compilar (C++98/C++11/C++14/C++17):
 
@@ -26,7 +26,7 @@
 
 - Compila e vincula múltiplos arquivos de código fonte em um binário executável:
 
-`g++ {{-c|--compile}} {{caminho/para/fonte1.cpp caminho/para/fonte2.cpp ...}} && g++ {{[-o|--output]}} {{caminho/para/executável_de_saída}} {{caminho/para/fonte1.o caminho/para/fonte2.o ...}}`
+`g++ {{[-c|--compile]}} {{caminho/para/fonte1.cpp caminho/para/fonte2.cpp ...}} && g++ {{[-o|--output]}} {{caminho/para/executável_de_saída}} {{caminho/para/fonte1.o caminho/para/fonte2.o ...}}`
 
 - Otimiza o programa compilado para desempenho:
 

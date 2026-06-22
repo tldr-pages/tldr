@@ -18,7 +18,7 @@
 
 - 특정 URL만 테스트:
 
-`rankmirrors {{[-u|--url]}} {{URL}}`
+`rankmirrors {{[-u|--url]}} {{url}}`
 
 - 전체 미러리스트 대신 응답 시간만 출력:
 

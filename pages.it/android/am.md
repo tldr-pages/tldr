@@ -1,20 +1,24 @@
 # am
 
-> Gestore delle Attività di Android.
+> Gestione delle attività di Android.
 > Maggiori informazioni: <https://developer.android.com/tools/adb#am>.
 
-- Inizia un'attività:
+- Avvia l'activity con un componente specifico e [n]ome del pacchetto:
 
 `am start -n {{com.android.settings/.Settings}}`
 
-- Inizia un'attività e e invia dati:
+- Avvia un'intent [a]ction e passa [d]ati ad essa:
 
 `am start -a {{android.intent.action.VIEW}} -d {{tel:123}}`
 
-- Inizia un'attività corrispondente ad un'azione, e in una categoria delineato:
+- Avvia un'activity che corrisponde a un'[a]zione e una [c]ategoria specifica:
 
 `am start -a {{android.intent.action.MAIN}} -c {{android.intent.category.HOME}}`
 
-- Converti un intent in un URI:
+- Converte un intent in un URI:
 
 `am to-uri -a {{android.intent.action.VIEW}} -d {{tel:123}}`
+
+- Avvia l'activity home su un emulatore o dispositivo:
+
+`am start -W -c android.intent.category.HOME -a android.intent.action.MAIN`

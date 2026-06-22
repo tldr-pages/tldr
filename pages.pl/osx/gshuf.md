@@ -4,4 +4,4 @@
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr {{[-p|--platform]}} coomon shuf`
+`tldr {{[-p|--platform]}} common shuf`

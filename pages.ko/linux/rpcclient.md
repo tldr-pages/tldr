@@ -21,16 +21,16 @@
 
 - 도메인 사용자 표시:
 
-`rpcclient $> enumdomusers`
+`enumdomusers`
 
 - 권한 표시:
 
-`rpcclient $> enumprivs`
+`enumprivs`
 
 - 특정 사용자에 대한 정보 표시:
 
-`rpcclient $> queryuser {{사용자명|rid}}`
+`queryuser {{사용자명|rid}}`
 
 - 도메인에 새 사용자 생성:
 
-`rpcclient $> createdomuser {{사용자명}}`
+`createdomuser {{사용자명}}`
