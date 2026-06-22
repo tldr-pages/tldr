@@ -2,7 +2,7 @@
 
 > Display details of a specific WhatsApp contact.
 > See also: `wacli contacts search`, `wacli contacts refresh`.
-> More information: <https://github.com/steipete/wacli>.
+> More information: <https://github.com/openclaw/wacli>.
 
 - Display details for a specific contact in JSON format:
 

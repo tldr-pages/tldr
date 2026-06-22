@@ -2,7 +2,7 @@
 
 > Set a custom alias for a WhatsApp contact.
 > See also: `wacli contacts show`, `wacli contacts search`.
-> More information: <https://github.com/steipete/wacli>.
+> More information: <https://github.com/openclaw/wacli>.
 
 - Set an alias for a specific contact:
 

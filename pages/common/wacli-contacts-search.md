@@ -2,7 +2,7 @@
 
 > Search WhatsApp contacts by name.
 > See also: `wacli contacts show`, `wacli contacts refresh`.
-> More information: <https://github.com/steipete/wacli>.
+> More information: <https://github.com/openclaw/wacli>.
 
 - Search for contacts by name in JSON format:
 

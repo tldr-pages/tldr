@@ -2,7 +2,7 @@
 
 > Add a tag to a WhatsApp contact.
 > See also: `wacli contacts show`, `wacli contacts search`.
-> More information: <https://github.com/steipete/wacli>.
+> More information: <https://github.com/openclaw/wacli>.
 
 - Add a tag to a contact:
 
