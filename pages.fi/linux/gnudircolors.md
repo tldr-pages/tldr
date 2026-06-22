@@ -1,6 +1,6 @@
 # gnudircolors
 
-> Tämä on alias `dircolors` komennolle.
+> Tämä on alias GNU:n `dircolors` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

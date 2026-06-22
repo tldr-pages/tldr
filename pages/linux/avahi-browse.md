@@ -12,7 +12,7 @@
 
 `avahi-browse {{[-a|--all]}} {{[-t|--terminate]}} {{[-p|--parsable]}}`
 
-- List domains in the neighbourhood:
+- List domains in the neighborhood:
 
 `avahi-browse {{[-D|--browse-domains]}}`
 

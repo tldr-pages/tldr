@@ -1,6 +1,6 @@
 # gnutimeout
 
-> Tämä on alias `timeout` komennolle.
+> Tämä on alias GNU:n `timeout` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

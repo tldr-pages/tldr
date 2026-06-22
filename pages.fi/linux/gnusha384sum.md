@@ -1,6 +1,6 @@
 # gnusha384sum
 
-> Tämä on alias `sha384sum` komennolle.
+> Tämä on alias GNU:n `sha384sum` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

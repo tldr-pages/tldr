@@ -10,7 +10,7 @@
 
 - List local, global, or system configuration entries and show their file location:
 
-`git config {{[-l|--list]}} --{{local|global|system}} --show-origin`
+`git config --{{local|global|system}} {{[-l|--list]}} --show-origin`
 
 - Set the global value of a given configuration entry (in this case an alias):
 

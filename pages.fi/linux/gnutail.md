@@ -1,6 +1,6 @@
 # gnutail
 
-> Tämä on alias `tail` komennolle.
+> Tämä on alias GNU:n `tail` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

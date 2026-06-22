@@ -1,6 +1,6 @@
 # gnuchcon
 
-> Tämä on alias `chcon` komennolle.
+> Tämä on alias GNU:n `chcon` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

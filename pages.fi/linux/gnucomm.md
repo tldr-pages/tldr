@@ -1,6 +1,6 @@
 # gnucomm
 
-> Tämä on alias `comm` komennolle.
+> Tämä on alias GNU:n `comm` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

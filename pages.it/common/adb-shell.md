@@ -1,36 +1,28 @@
 # adb shell
 
-> Android Debug Bridge Shell: Esegue un commando remoto sull'emulatore o dispositivo Android connesso.
+> Esegue comandi shell su un dispositivo o emulatoro Android connesso.
 > Maggiori informazioni: <https://developer.android.com/tools/adb>.
 
-- Avvia un interprete di comandi iterativo remoto sull'emulatore/dispositivo:
+- Avvia un shell interattivo remoto sull'emulatore o dispositivo:
 
 `adb shell`
 
-- Fornisce tutte le proprietà dell'emulatore o dispositivo:
+- Visualizza la documentazione per mostrare le proprietà di sistema Android:
 
-`adb shell getprop`
+`tldr {{[-p|--platform]}} android getprop`
 
-- Ripristina tutti i permessi di esecuzione ai loro valori predefiniti:
+- Visualizza la documentazione per il package manager Android:
 
-`adb shell pm reset-permissions`
+`tldr {{[-p|--platform]}} android pm`
 
-- Revoca un permesso pericoloso da un'applicazione:
+- Visualizza la documentazione per inviare codici di evento e eventi del touchscreen:
 
-`adb shell pm revoke {{pacchetto}} {{permesso}}`
+`tldr {{[-p|--platform]}} android input`
 
-- Attiva un evento chiave:
+- Visualizza la documentazione per l'activity manager Android:
 
-`adb shell input keyevent {{keycode}}`
+`tldr {{[-p|--platform]}} android am`
 
-- Pulisce i dati di un'applicazione sull'emulatore o dispositivo:
+- Elenca i comandi shell Android documentati:
 
-`adb shell pm clear {{pacchetto}}`
-
-- Avvia un'attività sull'emulatore/dispositivo:
-
-`adb shell am start -n {{pacchetto}}/{{attività}}`
-
-- Avvia la schermata iniziale sull'emulatore o dispositivo:
-
-`adb shell am start -W -c android.intent.category.HOME -a android.intent.action.MAIN`
+`tldr {{[-p|--platform]}} android {{[-l|--list]}}`
