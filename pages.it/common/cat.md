@@ -1,4 +1,5 @@
 # cat
+
 > Stampa e concatena file.
 > Maggiori informazioni: <https://manned.org/cat.1posix>.
 
