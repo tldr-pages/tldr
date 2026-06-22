@@ -2,6 +2,7 @@
 
 > Send a file (image, video, audio, or document) via WhatsApp.
 > See also: `wacli send text`.
+> More information: <https://github.com/steipete/wacli>.
 
 - Send a file to a phone number:
 
