@@ -1,8 +1,8 @@
 # wacli sync
 
 > Synchronize WhatsApp messages to the local store.
-> See also: `wacli auth`, `wacli messages list`.
-> More information: <https://github.com/steipete/wacli>.
+> See also: `wacli auth`.
+> More information: <https://github.com/openclaw/wacli>.
 
 - Synchronize messages:
 

@@ -2,7 +2,7 @@
 
 > Authenticate wacli with WhatsApp via QR code.
 > See also: `wacli sync`, `wacli doctor`.
-> More information: <https://github.com/steipete/wacli>.
+> More information: <https://github.com/openclaw/wacli>.
 
 - Start the authentication process:
 
