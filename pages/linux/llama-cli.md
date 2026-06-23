@@ -1,7 +1,6 @@
 # llama-cli
 
 > Command-line interface for LLM inference.
-> See also: `llama-cli`.
 > More information: <https://github.com/ggml-org/llama.cpp#llama-cli>.
 
 - Start up LLM [m]odel and interface:
