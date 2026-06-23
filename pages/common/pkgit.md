@@ -29,4 +29,4 @@
 
 - Autodetect a build system and build a project:
 
-`pkgit {{[-b|--build]}} [path]`
+`pkgit {{[-b|--build]}} {{path/to/directory}}`
