@@ -22,7 +22,7 @@
 
 - Toon buren (ARP-tabel):
 
-`ip {{[n|neighbour]}}`
+`ip {{[n|neighbor]}}`
 
 - Schakel een interface in/uit:
 
