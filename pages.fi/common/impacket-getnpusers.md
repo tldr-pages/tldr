@@ -1,6 +1,6 @@
 # impacket-GetNPUsers
 
-> Tämä on alias komennolle `GetNPUsers.py`.
+> Tämä on alias `GetNPUsers.py` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

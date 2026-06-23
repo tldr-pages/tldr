@@ -1,6 +1,6 @@
 # hwloc-ls
 
-> Tämä on alias komennolle `lstopo-no-graphics`.
+> Tämä on alias `lstopo-no-graphics` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

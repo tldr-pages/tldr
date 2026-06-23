@@ -1,6 +1,6 @@
 # platformio
 
-> Tämä on alias komennolle `pio`.
+> Tämä on alias `pio` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

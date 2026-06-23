@@ -22,7 +22,7 @@
 
 - Muestra vecinos (tabla ARP):
 
-`ip {{[n|neighbour]}}`
+`ip {{[n|neighbor]}}`
 
 - Establece una interfaz arriba/abajo (up/down). Usa inglés:
 

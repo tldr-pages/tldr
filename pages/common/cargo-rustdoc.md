@@ -1,7 +1,7 @@
 # cargo rustdoc
 
 > Build the documentation of Rust packages.
-> Similar to `cargo doc`, but you can pass options to `rustdoc`.
+> Similar to `cargo doc`, but you can pass options to `rustdoc`. See `rustdoc --help` for all available options.
 > See also: `rustdoc`.
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-rustdoc.html>.
 
@@ -11,11 +11,11 @@
 
 - Warn about a documentation lint:
 
-`cargo rustdoc -- --warn rustdoc::{{lint_name}}`
+`cargo rustdoc -- {{[-W|--warn]}} rustdoc::{{lint_name}}`
 
 - Ignore a documentation lint:
 
-`cargo rustdoc -- --allow rustdoc::{{lint_name}}`
+`cargo rustdoc -- {{[-A|--allow]}} rustdoc::{{lint_name}}`
 
 - Document the package's library:
 

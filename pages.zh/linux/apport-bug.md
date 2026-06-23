@@ -17,4 +17,4 @@
 
 - 报告某个进程的错误：
 
-`apport-bug {{PID}}`
+`apport-bug {{pid}}`

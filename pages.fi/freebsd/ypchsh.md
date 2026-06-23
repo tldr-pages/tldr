@@ -1,6 +1,6 @@
 # ypchsh
 
-> Tämä on alias komennolle `chpass`.
+> Tämä on alias `chpass` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

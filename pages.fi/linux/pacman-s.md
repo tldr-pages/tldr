@@ -1,6 +1,6 @@
 # pacman -S
 
-> Tämä on alias komennolle `pacman --sync`.
+> Tämä on alias `pacman --sync` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

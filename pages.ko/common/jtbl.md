@@ -13,8 +13,8 @@
 
 - 표를 출력하고 줄 바꿈 대신 행 잘라내기:
 
-`cat {{파일.json}} | jtbl -t`
+`cat {{파일.json}} | jtbl {{[-t|--truncate]}}`
 
 - 표를 출력하고 행을 줄 바꾸거나 잘라내지 않음:
 
-`cat {{파일.json}} | jtbl -n`
+`cat {{파일.json}} | jtbl {{[-n|--no-wrap]}}`

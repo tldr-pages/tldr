@@ -27,6 +27,7 @@ The templates can be changed when necessary.
 [ko](#ko) •
 [lo](#lo) •
 [ml](#ml) •
+[nb](#nb) •
 [ne](#ne) •
 [nl](#nl) •
 [no](#no) •
@@ -220,7 +221,7 @@ The templates can be changed when necessary.
 ```markdown
 # example
 
-> Tämä on alias komennolle `example`.
+> Tämä on alias `example` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
@@ -335,6 +336,20 @@ The templates can be changed when necessary.
 > ഈ കമാൻഡ് `example` എന്നത്തിന്റെ അപരനാമമാണ്.
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
+
+`tldr example`
+```
+
+---
+
+### nb
+
+```markdown
+# example
+
+> Denne kommandoen er et alias for `example`.
+
+- Vis dokumentasjonen for den opprinnelige kommandoen:
 
 `tldr example`
 ```
@@ -474,7 +489,7 @@ The templates can be changed when necessary.
 
 > Det här kommandot är ett alias för `example`.
 
-- Se dokumentationen för orginalkommandot:
+- Se dokumentationen för originalkommandot:
 
 `tldr example`
 ```

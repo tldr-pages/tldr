@@ -6,19 +6,19 @@
 
 - 소스 파일 컴파일:
 
-`nim compile {{경로/대상/파일.nim}}`
+`nim {{[c|compile]}} {{경로/대상/파일.nim}}`
 
 - 소스 파일 컴파일 및 실행:
 
-`nim compile -r {{경로/대상/파일.nim}}`
+`nim {{[c|compile]}} {{[-r|--run]}} {{경로/대상/파일.nim}}`
 
 - 릴리스 최적화가 활성화된 상태로 소스 파일 컴파일:
 
-`nim compile -d:release {{경로/대상/파일.nim}}`
+`nim {{[c|compile]}} {{[-d|--define]}}:release {{경로/대상/파일.nim}}`
 
 - 파일 크기 최적화가 적용된 릴리스 바이너리 빌드:
 
-`nim compile -d:release --opt:size {{경로/대상/파일.nim}}`
+`nim {{[c|compile]}} {{[-d|--define]}}:release --opt:size {{경로/대상/파일.nim}}`
 
 - 모듈에 대한 HTML 문서 생성 (출력은 현재 디렉토리에 저장됨):
 

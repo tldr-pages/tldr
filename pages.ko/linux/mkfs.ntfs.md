@@ -13,4 +13,4 @@
 
 - 특정 UUID로 파일 시스템 생성:
 
-`sudo mkfs.ntfs {{[-U|--with-uuid]}} {{UUID}} {{/dev/sdb1}}`
+`sudo mkfs.ntfs {{[-U|--with-uuid]}} {{uuid}} {{/dev/sdb1}}`

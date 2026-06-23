@@ -21,7 +21,7 @@
 
 - Show the changes as a patch between the stash and the commit back when stash entry was first created:
 
-`git stash show {{[-p|--patch]}}}`
+`git stash show {{[-p|--patch]}}`
 
 - Apply a stash and remove it from the stash list if applying doesn't cause conflicts:
 

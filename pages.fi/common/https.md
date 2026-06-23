@@ -1,6 +1,6 @@
 # https
 
-> Tämä on alias komennolle `http`.
+> Tämä on alias `http` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

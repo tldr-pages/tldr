@@ -9,8 +9,8 @@
 
 - 다양한 속성으로 대화형 작업 제출:
 
-`srun --ntasks-per-node={{코어_수}} --mem-per-cpu={{메모리_MB}} --pty /bin/bash`
+`srun --ntasks-per-node {{코어_수}} --mem-per-cpu {{메모리_MB}} --pty /bin/bash`
 
 - 작업이 실행 중인 워커 노드에 연결:
 
-`srun --jobid={{작업_id}} --pty /bin/bash`
+`srun --jobid {{작업_id}} --pty /bin/bash`

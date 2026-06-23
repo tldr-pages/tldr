@@ -1,6 +1,6 @@
 # jira navigate
 
-> Tämä on alias komennolle `jira open`.
+> Tämä on alias `jira open` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

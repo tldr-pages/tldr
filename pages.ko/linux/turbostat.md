@@ -9,7 +9,7 @@
 
 - 지정한 초마다 통계 표시:
 
-`sudo turbostat -i {{초}}`
+`sudo turbostat {{[-i|--interval]}} {{초}}`
 
 - 시스템 구성 헤더 정보를 해독하여 출력하지 않음:
 
@@ -17,7 +17,7 @@
 
 - 헤더 정보 없이 1초마다 CPU에 대한 유용한 정보 표시:
 
-`sudo turbostat --quiet --interval 1 --cpu 0-{{cpu_스레드_수}} --show "PkgWatt","Busy%","Core","CoreTmp","Thermal"`
+`sudo turbostat --quiet {{[-i|--interval]}} 1 --cpu 0-{{cpu_스레드_수}} --show "PkgWatt","Busy%","Core","CoreTmp","Thermal"`
 
 - 도움말 표시:
 

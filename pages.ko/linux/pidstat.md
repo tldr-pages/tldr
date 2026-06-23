@@ -17,7 +17,7 @@
 
 - 특정 PID에 대한 정보 표시:
 
-`pidstat -p {{PID}}`
+`pidstat -p {{pid}}`
 
 - 명령 이름에 "fox" 또는 "bird"가 포함된 모든 프로세스의 메모리 통계 표시:
 

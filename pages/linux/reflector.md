@@ -9,7 +9,7 @@
 
 - Only get German HTTPS mirrors:
 
-`reflector {{[-c|--country]}} {{Germany}} {{[-p|--protocol]}} {{https}}`
+`reflector {{[-c|--country]}} Germany {{[-p|--protocol]}} https`
 
 - Only get the 10 recently sync'd mirrors:
 

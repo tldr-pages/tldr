@@ -9,11 +9,11 @@
 
 - 從指定的 Git 倉庫安裝一個套件：
 
-`cargo install --git {{倉庫 URL}}`
+`cargo install --git {{倉庫url}}`
 
 - 從 Git 倉庫安裝時，根據指定的 branch/tag/commit 構建：
 
-`cargo install --git {{倉庫 URL}} --{{branch|tag|rev}} {{branch_name|tag|commit_hash}}`
+`cargo install --git {{倉庫url}} --{{branch|tag|rev}} {{branch_name|tag|commit_hash}}`
 
 - 從本地目錄安裝一個套件：
 

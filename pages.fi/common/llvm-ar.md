@@ -1,6 +1,6 @@
 # llvm-ar
 
-> Tämä on alias komennolle `ar`.
+> Tämä on alias `ar` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -1,6 +1,6 @@
 # impacket-DumpNTLMInfo
 
-> Tämä on alias komennolle `DumpNTLMInfo.py`.
+> Tämä on alias `DumpNTLMInfo.py` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

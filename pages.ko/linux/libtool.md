@@ -5,28 +5,28 @@
 
 - 소스 파일을 `libtool` 객체로 컴파일:
 
-`libtool --mode=compile gcc {{[-c|--compile]}} {{경로/대상/원본.c}} {{[-o|--output]}} {{경로/대상/원본.lo}}`
+`libtool {{[c|compile]}} gcc {{[-c|--compile]}} {{경로/대상/원본.c}} {{[-o|--output]}} {{경로/대상/원본.lo}}`
 
 - 라이브러리 또는 실행 파일 생성:
 
-`libtool --mode=link gcc {{[-o|--output]}} {{경로/대상/라이브러리.lo}} {{경로/대상/원본.lo}}`
+`libtool {{[l|link]}} gcc {{[-o|--output]}} {{경로/대상/라이브러리.lo}} {{경로/대상/원본.lo}}`
 
 - 라이브러리 경로를 자동으로 설정하여 다른 프로그램이 설치되지 않은 `libtool` 생성 프로그램 또는 라이브러리를 사용할 수 있도록 합니다:
 
-`libtool --mode=execute gdb {{경로/대상/프로그램}}`
+`libtool {{[e|execute]}} gdb {{경로/대상/프로그램}}`
 
 - 공유 라이브러리 설치:
 
-`libtool --mode=install cp {{경로/대상/라이브러리.la}} {{경로/대상/설치_디렉토리}}`
+`libtool {{[i|install]}} cp {{경로/대상/라이브러리.la}} {{경로/대상/설치_디렉토리}}`
 
 - 시스템에서 `libtool` 라이브러리 설치 완료:
 
-`libtool --mode=finish {{경로/대상/설치_디렉토리}}`
+`libtool {{[f|finish]}} {{경로/대상/설치_디렉토리}}`
 
 - 설치된 라이브러리 또는 실행 파일 삭제:
 
-`libtool --mode=uninstall {{경로/대상/설치된_라이브러리.la}}`
+`libtool {{[u|uninstall]}} {{경로/대상/설치된_라이브러리.la}}`
 
 - 설치되지 않은 라이브러리 또는 실행 파일 삭제:
 
-`libtool --mode=clean rm {{경로/대상/원본.lo}} {{경로/대상/라이브러리.la}}`
+`libtool {{[cl|clean]}} rm {{경로/대상/원본.lo}} {{경로/대상/라이브러리.la}}`

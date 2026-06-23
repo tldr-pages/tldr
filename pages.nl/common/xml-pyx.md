@@ -5,7 +5,7 @@
 
 - Converteer een XML document naar PYX formaat:
 
-`xml pyx {{pad/naar/invoer.xml|URI}} > {{pad/naar/uitvoer.pyx}}`
+`xml pyx {{pad/naar/invoer.xml|uri}} > {{pad/naar/uitvoer.pyx}}`
 
 - Converteer een XML document van `stdin` naar PYX formaat:
 

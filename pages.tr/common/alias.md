@@ -23,8 +23,8 @@
 
 - `rm`'yi interaktif bir komuta dönüştür:
 
-`alias {{rm}}="{{rm --interactive}}"`
+`alias rm="rm --interactive"`
 
 - `la`'yi `ls --all` için kısayol olarak oluştur:
 
-`alias {{la}}="{{ls --all}}"`
+`alias la="ls --all"`

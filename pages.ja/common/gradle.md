@@ -9,7 +9,7 @@
 
 - test タスクを除外する:
 
-`gradle build -x {{test}}`
+`gradle build {{[-x|--exclude-task]}} test`
 
 - ビルド中に Gradle がネットワークにアクセスしないようにオフラインモードで実行する:
 

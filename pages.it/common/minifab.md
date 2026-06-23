@@ -5,7 +5,7 @@
 
 - Crea la blockchain Hyperledger Fabric:
 
-`minifab up -i {{versione_minifab}}`
+`minifab up {{[-i|--fabric-release]}} {{versione_minifab}}`
 
 - Rimuovi la blockchain Hyperledger Fabric:
 
@@ -13,11 +13,11 @@
 
 - Installa smart contract su un canale:
 
-`minifab install -n {{nome_smart_contract}}`
+`minifab install {{[-n|--chaincode-name]}} {{nome_smart_contract}}`
 
 - Installa smart contract su un canale specificando la versione:
 
-`minifab install -n {{nome_smart_contract}} -v {{versione_smart_contract}}`
+`minifab install {{[-n|--chaincode-name]}} {{nome_smart_contract}} {{[-v|--chaincode-version]}} {{versione_smart_contract}}`
 
 - Inizializza smart contract dopo installazione/aggiornamento dello stesso:
 
@@ -25,7 +25,7 @@
 
 - Interroga smart contract con argomenti:
 
-`minifab invoke -n {{nome_smart_contract}} -p '"{{nome_metodo}}", "{{arg0}}", "{{arg1}}", ...'`
+`minifab invoke {{[-n|--chaincode-name]}} {{nome_smart_contract}} {{[-p|--chaincode-parameters]}} '"{{nome_metodo}}", "{{arg0}}", "{{arg1}}", ...'`
 
 - Interroga la blockchain:
 
@@ -33,4 +33,4 @@
 
 - Esegui direttamente l'applicazione:
 
-`minifab apprun -l {{linguaggio_di_programmazione}}`
+`minifab apprun {{[-l|--chaincode-language]}} {{linguaggio_di_programmazione}}`
