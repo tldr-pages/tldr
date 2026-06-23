@@ -1,6 +1,5 @@
 # pkgit
 
-> Package it.
 > Install programs from their git repo.
 > More information: <https://git.symlinx.net/pkgit/about>.
 
