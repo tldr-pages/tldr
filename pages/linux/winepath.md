@@ -1,7 +1,7 @@
 # winepath
 
 > Convert file paths between Windows and Unix formats for a Wine prefix.
-> More information: <https://gitlab.winehq.org/wine/wine/-/wikis/Commands>.
+> More information: <https://manned.org/winepath>.
 
 - Convert a Windows path to a [u]nix path:
 
