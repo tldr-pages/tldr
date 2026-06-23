@@ -22,4 +22,4 @@
 
 - Display help:
 
-`qtgrade -help`
+`qtgrace -help`
