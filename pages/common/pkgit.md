@@ -2,7 +2,7 @@
 
 > package it!
 > install programs from their git repo
-> More information: <https://git.symlinx.net/pkgit>
+> More information: <https://git.symlinx.net/pkgit/about>
 
 - Install a package from a git repo:
 
