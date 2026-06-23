@@ -12,6 +12,10 @@
 
 `pkgit {{[-i|--install]}} [pkg_name]`
 
+- Install all packages declared in your configuration file
+
+`pkgit {{[-d|--declare]}}`
+
 - Remove a package:
 
 `pkgit {{[-r|--remove]}} [pkg_name]`
@@ -20,6 +24,10 @@
 
 `pkgit {{[-u|--update]}}`
 
-- Install all packages declared in your configuration file
+- Add a repository to your configuration file
 
-`pkgit {{[-d|--declare]}}`
+`pkgit {{[-a|--add]}} [url.git]`
+
+- Autodetect a build system and build a project
+
+`pkgit {{[-b|--build]}} [path]`
