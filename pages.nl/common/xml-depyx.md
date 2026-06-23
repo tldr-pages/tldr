@@ -5,7 +5,7 @@
 
 - Converteer een PYX (ESIS - ISO 8879) document naar XML formaat:
 
-`xml {{[p2x|depyx]}} {{pad/naar/invoer.pyx|URI}} > {{pad/naar/uitvoer.xml}}`
+`xml {{[p2x|depyx]}} {{pad/naar/invoer.pyx|uri}} > {{pad/naar/uitvoer.xml}}`
 
 - Converteer een PYX document van `stdin` naar XML formaat:
 

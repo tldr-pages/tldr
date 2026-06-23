@@ -27,6 +27,7 @@ The templates can be changed when necessary.
 [ko](#ko) •
 [lo](#lo) •
 [ml](#ml) •
+[nb](#nb) •
 [ne](#ne) •
 [nl](#nl) •
 [no](#no) •
@@ -341,6 +342,20 @@ The templates can be changed when necessary.
 
 ---
 
+### nb
+
+```markdown
+# example
+
+> Denne kommandoen er et alias for `example`.
+
+- Vis dokumentasjonen for den opprinnelige kommandoen:
+
+`tldr example`
+```
+
+---
+
 ### ne
 
 ```markdown
@@ -474,7 +489,7 @@ The templates can be changed when necessary.
 
 > Det här kommandot är ett alias för `example`.
 
-- Se dokumentationen för orginalkommandot:
+- Se dokumentationen för originalkommandot:
 
 `tldr example`
 ```

@@ -1,6 +1,7 @@
 # pgrep
 
 > Find or signal processes by name.
+> See also: `pidof`.
 > More information: <https://manned.org/pgrep>.
 
 - Return PIDs of any running processes with a matching command string:
