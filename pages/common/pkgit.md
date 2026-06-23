@@ -9,7 +9,7 @@
 
 - Install a package defined in your configuration file:
 
-`pkgit {{[-i|--install]}} [pkg_name]`
+`pkgit {{[-i|--install]}} {{package_name}}`
 
 - Install all packages declared in your configuration file:
 
@@ -17,7 +17,7 @@
 
 - Remove a package:
 
-`pkgit {{[-r|--remove]}} [pkg_name]`
+`pkgit {{[-r|--remove]}} {{package_name}}`
 
 - Update installed packages:
 
@@ -25,7 +25,7 @@
 
 - Add a repository to your configuration file:
 
-`pkgit {{[-a|--add]}} [url.git]`
+`pkgit {{[-a|--add]}} {{git_url}}`
 
 - Autodetect a build system and build a project:
 
