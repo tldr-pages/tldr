@@ -5,7 +5,7 @@
 
 - Install a package from a git repo:
 
-`pkgit {{[-i|--install]}} [url.git]`
+`pkgit {{[-i|--install]}} {{git_url}}`
 
 - Install a package defined in your configuration file:
 
