@@ -15,7 +15,7 @@
 
 - 测试指定的文件是否存在（[f]ile）：
 
-`test -f "{{路径/到/文件或目录}}"`
+`test -f "{{路径/到/文件}}"`
 
 - 测试指定的目录是否不存在（[d]irectory）：
 
@@ -27,4 +27,4 @@
 
 - 在条件语句中使用 `test`：
 
-`if test -f "{{路径/到/文件}}"; then echo "File exists"; else echo "File does not exist"; fi`
+`if test -f "{{路径/到/文件}}"; then echo "文件存在"; else echo "文件不存在"; fi`
