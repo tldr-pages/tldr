@@ -1,6 +1,6 @@
 # kid3-cli
 
-> Command-line tagger for audio files.
+> Command-line tagger for audio files such as MP3, M4A, FLAC, and Ogg.
 > Commands are passed with `-c` and run on the file paths that follow.
 > More information: <https://kid3.kde.org/>.
 
