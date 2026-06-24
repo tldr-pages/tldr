@@ -30,7 +30,7 @@
 
 - Realiza un escaneo con encabezados personalizados e ignora respuestas con una longitud de contenido específica:
 
-`kiterunner scan {{https://example.com}} {{[-w|--kitebuilder-list]}} {{ruta/a/lista_de_palabras.kite}} {{[-H|--header]}} «{{Autorización: Token de portador}}" --ignore-length {{100-105}}`
+`kiterunner scan {{https://example.com}} {{[-w|--kitebuilder-list]}} {{ruta/a/lista_de_palabras.kite}} {{[-H|--header]}} "{{Autorización: Token de portador}}" --ignore-length {{100-105}}`
 
 - Realiza un escaneo completo con Kitebuilder sin escaneo por fases:
 
