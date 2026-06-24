@@ -6,7 +6,7 @@
 
 - Apply a patch using a diff file (filenames must be included in the diff file):
 
-`patch -i {{patch.diff}}`
+`patch {{[-i|--input]}} {{patch.diff}}`
 
 - Apply a patch to a specific file:
 
