@@ -2,7 +2,6 @@
 
 > Command-line tagger for audio files.
 > Commands are passed with `-c` and run on the file paths that follow.
-> See also: `kid3`.
 > More information: <https://kid3.kde.org/>.
 
 - Display all tag frames of one or more files:
