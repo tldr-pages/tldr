@@ -23,7 +23,7 @@
 
 `gh auth login {{[-h|--hostname]}} {{github.example.com}}`
 
-- 刷新会话以确保身份验证凭据具有正确的最小权限范围（清除先前请求的附加范围）：
+- 刷新身份验证凭据，并恢复为默认的最小权限范围（移除之前额外申请的权限）：
 
 `gh auth refresh`
 
