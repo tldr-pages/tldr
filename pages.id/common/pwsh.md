@@ -16,7 +16,7 @@
 
 `pwsh -Command "{{echo 'powershell telah dieksekusi'}}"`
 
-- Jalankan suatu naskah perintah/script PowerShell:
+- Jalankan suatu naskah/skrip perintah PowerShell:
 
 `pwsh -File {{jalan/menuju/naskah.ps1}}`
 
