@@ -22,7 +22,7 @@
 
 - Baca dan jalankan kumpulan perintah dari `stdin`:
 
-`{{echo 'perintah zsh telah dijalankan'}} | zsh`
+`{{echo "echo 'perintah zsh telah dijalankan'"}} | zsh`
 
 - Jalankan suatu naskah/skrip, dan tampilkan isi masing-masing perintah sebelum menjalankannya:
 
