@@ -17,19 +17,19 @@
 
 - Create a new document [f]rom (based on) an existing file:
 
-`winword /f {{path\to\file}}`
+`winword /f {{path\to\file.docx}}`
 
 - Open one or more files for edi[t]ing:
 
-`winword /t {{path\to\file1 path\to\file2 ...}}`
+`winword /t {{path\to\file1.docx path\to\file2.docx ...}}`
 
 - Open a file with all AutoExec [m]acros disabled:
 
-`winword /m {{path\to\file}}`
+`winword /m {{path\to\file.docm}}`
 
 - Open a file with all AutoExec [m]acros disabled, then run a specific macro:
 
-`winword /m{{MacroName}} {{path\to\file}}`
+`winword /m{{MacroName}} {{path\to\file.docm}}`
 
 - Start Microsoft Word in Safe Mode:
 
