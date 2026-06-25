@@ -10,7 +10,7 @@
 
 - Jalankan perintah secara spesifik:
 
-`zsh -c "{{echo Halo dunia}}"`
+`zsh -c "{{echo 'perintah zsh telah dijalankan'}}"`
 
 - Jalankan suatu naskah/skrip perintah:
 
@@ -22,9 +22,9 @@
 
 - Baca dan jalankan kumpulan perintah dari `stdin`:
 
-`{{echo echo Hello world}} | zsh`
+`{{echo 'perintah zsh telah dijalankan'}} | zsh`
 
-- Execute a specific script, printing each command in the script before executing it:
+- Jalankan suatu naskah/skrip, dan tampilkan isi masing-masing perintah sebelum menjalankannya:
 
 `zsh {{[-x|--xtrace]}} {{jalan/menuju/naskah.zsh}}`
 

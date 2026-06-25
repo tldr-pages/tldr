@@ -14,7 +14,7 @@
 
 - Jalankan perintah secara spesifik:
 
-`bash -c "{{echo 'bash is executed'}}"`
+`bash -c "{{echo 'perintah bash telah dijalankan'}}"`
 
 - Jalankan suatu naskah/skrip perintah:
 
