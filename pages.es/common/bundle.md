@@ -15,22 +15,22 @@
 
 `bundle update`
 
-- Actualiza una o más gemas específicas definidas en el `Gemfile`:
+- Actualiza una o más gemas (gems) específicas definidas en el `Gemfile`:
 
-`bundle update {{gema1}} {{gema2}}`
+`bundle update {{gema1 gema2 ...}}`
 
 - Actualiza una o más gemas (gems) específicas definidas en el `Gemfile` pero solo a la siguiente versión parche (patch):
 
-`bundle update --patch {{gema1}} {{gema2}}`
+`bundle update --patch {{gema1 gema2 ...}}`
 
 - Actualiza todas las gemas (gems) dentro de un grupo dado en el `Gemfile`:
 
 `bundle update --group {{development}}`
 
-- Lista las gemas instaladas con nuevas versiones disponibles definidas en el `Gemfile`:
+- Lista las gemas (gems) instaladas con nuevas versiones disponibles definidas en el `Gemfile`:
 
 `bundle outdated`
 
-- Crea una nueva estructura de gema:
+- Crea una nueva estructura de gema (gem):
 
 `bundle gem {{gema}}`

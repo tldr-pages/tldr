@@ -10,15 +10,15 @@
 
 - Play a MIDI file:
 
-`pw-cat {{[-p|--playback]}} {{[-m|--midi]}} {{path/to/file.mid}}`
+`pw-cat {{[-pm|--playback --midi]}} {{path/to/file.mid}}`
 
 - Play a DSD file:
 
-`pw-cat {{[-p|--playback]}} {{[-d|--dsd]}} {{path/to/file.dsf}}`
+`pw-cat {{[-pd|--playback --dsd]}} {{path/to/file.dsf}}`
 
 - Play a compressed audio file using passthrough (requires FFmpeg integration):
 
-`pw-cat {{[-p|--playback]}} {{[-o|--encoded]}} {{path/to/file.ac3}}`
+`pw-cat {{[-po|--playback --encoded]}} {{path/to/file.ac3}}`
 
 - Play a WAV file with a specified resampler quality (4 by default):
 
@@ -26,7 +26,7 @@
 
 - Record a MIDI file:
 
-`pw-cat {{[-r|--record]}} {{[-m|--midi]}} {{path/to/file.mid}}`
+`pw-cat {{[-rm|--record --midi]}} {{path/to/file.mid}}`
 
 - Record a sample recording at a volume level of 125%:
 

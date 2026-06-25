@@ -17,7 +17,7 @@
 
 - Установить статус пакета (публичный или приватный):
 
-`npm access set status {{public|private}} {{пакет}}`
+`npm access set status={{public|private}} {{пакет}}`
 
 - Выдать доступ к пакету:
 
@@ -29,4 +29,4 @@
 
 - Настроить требование двухфакторной аутентификации:
 
-`npm access set mfa {{none|publish|automation}} {{пакет}}`
+`npm access set mfa={{none|publish|automation}} {{пакет}}`

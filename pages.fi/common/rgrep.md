@@ -1,6 +1,6 @@
 # rgrep
 
-> Tämä on alias komennolle `grep --recursive`.
+> Tämä on alias `grep --recursive` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

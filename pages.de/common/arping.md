@@ -6,24 +6,24 @@
 
 - Pinge einen Host mit ARP Request Paketen:
 
-`arping {{host_adresse}}`
+`sudo arping {{host_adresse}}`
 
 - Pinge einen Host auf einem spezifizierten Interface:
 
-`arping -I {{interface}} {{host_adresse}}`
+`sudo arping -I {{interface}} {{host_adresse}}`
 
 - Pinge einen Host und höre nach der ersten Antwort auf:
 
-`arping -f {{host_adresse}}`
+`sudo arping -f {{host_adresse}}`
 
 - Pinge einen Host für eine bestimmte Anzahl:
 
-`arping -c {{anzahl}} {{host_adresse}}`
+`sudo arping -c {{anzahl}} {{host_adresse}}`
 
 - Broadcaste ARP Request Pakete um die ARP Caches der Nachbarn zu aktualisieren:
 
-`arping -U {{broadcast_adresse}}`
+`sudo arping -U {{broadcast_adresse}}`
 
 - Sende ARP Requests mit einem 3 Sekunden Timeout um duplizierte IP-Adressen im Netzwerk zu erkennen:
 
-`arping -D -w {{3}} {{adresse_zum_checken}}`
+`sudo arping -D -w {{3}} {{adresse_zum_checken}}`

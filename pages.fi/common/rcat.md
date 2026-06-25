@@ -1,6 +1,6 @@
 # rcat
 
-> Tämä on alias komennolle `rc`.
+> Tämä on alias `rc` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

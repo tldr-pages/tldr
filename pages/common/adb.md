@@ -34,4 +34,4 @@
 
 - Specify which device to send commands to if there are multiple devices:
 
-`adb -s {{device_ID}} {{shell}}`
+`adb -s {{device_id}} {{shell}}`

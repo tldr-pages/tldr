@@ -1,8 +1,6 @@
 # bundler
 
-> Manajer dependensi untuk bahasa pemrograman Ruby.
-> `bundler` adalah nama umum untuk program `bundle`, namun bukan suatu nama perintah.
-> Informasi lebih lanjut: <https://bundler.io/man/bundle.1.html>.
+> Perintah ini merupakan alias dari `bundle`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 

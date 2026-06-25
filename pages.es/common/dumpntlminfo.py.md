@@ -10,7 +10,7 @@
 
 - Extrae información NTLM utilizando una IP específica:
 
-`DumpNTLMInfo.py -target-ip {{IP_destino}} {{destino}}`
+`DumpNTLMInfo.py -target-ip {{ip_destino}} {{destino}}`
 
 - Especifica un puerto personalizado:
 

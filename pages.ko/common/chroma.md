@@ -6,15 +6,15 @@
 
 - Python 어희 분석기를 사용해 파일에서 소스 코드를 강조 표시하고 `stdout`으로 출력:
 
-`chroma --lexer {{python}} {{경로/대상/소스_파일.py}}`
+`chroma {{[-l|--lexer]}} {{python}} {{경로/대상/소스_파일.py}}`
 
 - Go 어휘 분석기를 사용하여 파일의 소스코드를 강조 표시하고 HTML 파일로 출력:
 
-`chroma --lexer {{go}} --formatter {{html}} {{경로/대상/소스_파일.go}} > {{경로/대상/대상_파일.html}}`
+`chroma {{[-l|--lexer]}} {{go}} {{[-f|--formatter]}} {{html}} {{경로/대상/소스_파일.go}} > {{경로/대상/대상_파일.html}}`
 
 - C++ 어휘 분석기를 사용하여 `stdin`의 소스코드를 강조표시하고, Monokai 스타일을 사용하여 SVG 파일로 출력:
 
-`{{명령어}} | chroma --lexer {{c++}} --formatter {{svg}} --style {{monokai}} > {{경로/대상/대상_파일.svg}}`
+`{{명령어}} | chroma {{[-l|--lexer]}} {{c++}} {{[-f|--formatter]}} {{svg}} {{[-s|--style]}} {{monokai}} > {{경로/대상/대상_파일.svg}}`
 
 - 사용 가능한 어휘 분석기, 스타일 및 포맷터 목록 나열:
 

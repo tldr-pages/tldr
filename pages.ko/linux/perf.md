@@ -17,7 +17,7 @@
 
 - 기존 프로세스의 프로필을 `perf.data`에 기록:
 
-`sudo perf record -p {{pid}}`
+`sudo perf record {{[-p|--pid]}} {{pid}}`
 
 - `perf.data`( `perf record`에 의해 생성됨)를 읽고 프로필 표시:
 

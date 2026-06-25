@@ -5,8 +5,8 @@
 
 - 스냅샷 삭제:
 
-`qm {{[del|delsnapshot]}} {{가상_머신_ID}} {{스냅샷_이름}}`
+`qm {{[del|delsnapshot]}} {{100}} {{스냅샷_이름}}`
 
 - 구성 파일에서 스냅샷 삭제 (디스크 스냅샷 제거가 실패하더라도 강제 삭제):
 
-`qm {{[del|delsnapshot]}} {{가상_머신_ID}} {{스냅샷_이름}} --force 1`
+`qm {{[del|delsnapshot]}} {{100}} {{스냅샷_이름}} --force 1`

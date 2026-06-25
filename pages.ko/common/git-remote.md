@@ -13,11 +13,11 @@
 
 - 원격 저장소 추가:
 
-`git remote add {{원격_저장소_이름}} {{원격_저장소_URL}}`
+`git remote add {{원격_저장소_이름}} {{원격_저장소_url}}`
 
 - 원격 저장소의 URL 변경 (기존 URL을 유지하려면 --add 사용):
 
-`git remote set-url {{원격_저장소_이름}} {{새_URL}}`
+`git remote set-url {{원격_저장소_이름}} {{새_url}}`
 
 - 원격 저장소의 URL 표시:
 

@@ -1,6 +1,6 @@
 # zcat
 
-> Tämä on alias komennolle `gzip --stdout --decompress`.
+> Tämä on alias `gzip --stdout --decompress` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

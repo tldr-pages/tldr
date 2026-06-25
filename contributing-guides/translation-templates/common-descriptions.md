@@ -27,6 +27,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | ko    | 도움말 표시             | 버전 표시                 | [대화형]            |
 | lo    |                    |                       |                  |
 | ml    |                    |                       |                  |
+| nb    | Vis hjelp          | Vis versjon           | [Interaktivt]    |
 | ne    |                    |                       |                  |
 | nl    | Toon de help       | Toon de versie        | [Interactief]    |
 | no    |                    |                       |                  |
@@ -36,7 +37,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | ro    | Afișare ajutor     | Afișare versiune      | [Interactiv]     |
 | ru    | Показать справку   | Показать версию       | [Интерактивно]   |
 | sr    |                    |                       |                  |
-| sv    |                    |                       |                  |
+| sv    | Visa hjälpen       | Visa versionen        | [Interaktiv]     |
 | ta    | உதவியைக் காட்டு    | பதிப்பைக் காட்டு      | [ஊடாடும் கட்டளை] |
 | th    | แสดงวิธีใช้งาน     | แสดงเวอร์ชัน          | [อินเทอร์แอคทีฟ] |
 | tr    | Yardımı görüntüle  | Sürümü görüntüle      | [Etkileşimli]    |

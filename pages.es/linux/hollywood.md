@@ -13,4 +13,4 @@
 
 - Muestra la ayuda:
 
-`hollywood -h`
+`hollywood {{[-h|--help]}}`

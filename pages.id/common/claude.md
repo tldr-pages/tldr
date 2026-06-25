@@ -1,7 +1,7 @@
 # claude
 
 > Alat pengodean berbasis agen yang memahami basis kode (codebase) Anda dan membantu Anda mengode lebih cepat melalui perintah bahasa alami.
-> Informasi lebih lanjut: <https://code.claude.com/docs/en/overview>.
+> Informasi lebih lanjut: <https://code.claude.com/docs/en/cli-reference>.
 
 - Jalankan dengan perintah (prompt):
 

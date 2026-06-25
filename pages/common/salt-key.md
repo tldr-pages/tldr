@@ -10,11 +10,11 @@
 
 - Accept a minion key by name:
 
-`salt-key {{[-a|--accept-all]}} {{MINION_ID}}`
+`salt-key {{[-a|--accept-all]}} {{minion_id}}`
 
 - Reject a minion key by name:
 
-`salt-key {{[-r|--reject]}} {{MINION_ID}}`
+`salt-key {{[-r|--reject]}} {{minion_id}}`
 
 - Print fingerprints of all public keys:
 

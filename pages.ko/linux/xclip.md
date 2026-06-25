@@ -11,28 +11,28 @@
 
 - 명령의 출력을 지정된 X11 선택 영역에 복사:
 
-`echo 123 | xclip -selection {{primary|secondary|clipboard}}`
+`echo 123 | xclip {{[-se|-selection]}} {{primary|secondary|clipboard}}`
 
 - 명령의 출력을 시스템 클립보드에 짧은 표기법을 사용하여 복사:
 
-`echo 123 | xclip -sel clip`
+`echo 123 | xclip {{[-se|-selection]}} {{[c|clipboard]}}`
 
 - 파일의 내용을 시스템 클립보드에 복사:
 
-`xclip -sel clip {{입력_파일.txt}}`
+`xclip {{[-se|-selection]}} {{[c|clipboard]}} {{입력_파일.txt}}`
 
 - PNG 파일의 내용을 시스템 클립보드에 복사 (다른 프로그램에 올바르게 붙여넣기 가능):
 
-`xclip -sel clip -t image/png {{입력_파일.png}}`
+`xclip {{[-se|-selection]}} {{[c|clipboard]}} {{[-t|-target]}} image/png {{입력_파일.png}}`
 
 - 콘솔에서 사용자 입력을 시스템 클립보드에 복사:
 
-`xclip -i`
+`xclip {{[-i|-in]}}`
 
 - X11 기본 선택 영역의 내용을 콘솔에 붙여넣기:
 
-`xclip -o`
+`xclip {{[-o|-out]}}`
 
 - 시스템 클립보드의 내용을 콘솔에 붙여넣기:
 
-`xclip -o -sel clip`
+`xclip {{[-o|-out]}} {{[-se|-selection]}} {{[c|clipboard]}}`

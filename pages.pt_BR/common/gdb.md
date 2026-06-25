@@ -9,7 +9,7 @@
 
 - Vincula um processo ao gdb:
 
-`gdb {{[-p|--pid]}} {{PID}}`
+`gdb {{[-p|--pid]}} {{pid}}`
 
 - Depura usando um arquivo de "core dump":
 

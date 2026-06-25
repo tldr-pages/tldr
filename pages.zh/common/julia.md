@@ -17,16 +17,16 @@
 
 - 执行包含 Julia 代码的字符串：
 
-`julia -e '{{julia_代码}}'`
+`julia {{[-e|--eval]}} '{{julia_代码}}'`
 
 - 执行一段 Julia 代码，并向其传递参数：
 
-`julia -e '{{for x in ARGS; println(x); end}}' {{参数}}`
+`julia {{[-e|--eval]}} '{{for x in ARGS; println(x); end}}' {{参数}}`
 
 - 计算一个表达式并打印结果：
 
-`julia -E '{{(1 - cos(pi/4))/2}}'`
+`julia {{[-E|--print]}} '{{(1 - cos(pi/4))/2}}'`
 
 - 以多线程模式启动 Julia，使用 N 个线程：
 
-`julia -t {{N}}`
+`julia {{[-t|--threads]}} {{N}}`

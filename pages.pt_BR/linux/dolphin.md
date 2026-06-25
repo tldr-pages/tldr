@@ -30,4 +30,4 @@
 
 - Exibe log de ajuda (em inglês):
 
-`dolphin --help`
+`dolphin {{[-h|--help]}}`

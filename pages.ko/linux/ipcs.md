@@ -14,7 +14,7 @@
 
 - 특정 [i]D를 가진 자원에 대한 전체 세부 사항 보기:
 
-`ipcs {{--shmems|--queues|--semaphores}} {{[-i|--id]}} {{자원_ID}}`
+`ipcs {{--shmems|--queues|--semaphores}} {{[-i|--id]}} {{자원_id}}`
 
 - [l]리미트를 [b]바이트 또는 사람이 읽기 쉬운 형식으로 보기:
 

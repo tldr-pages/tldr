@@ -1,6 +1,6 @@
 # lookandfeeltool
 
-> Tämä on alias komennolle `plasma-apply-lookandfeel`.
+> Tämä on alias `plasma-apply-lookandfeel` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

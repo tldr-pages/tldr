@@ -16,7 +16,7 @@ Options:
     -S, --sync
         Synchronize each translation's "More information" link (if exists) with that of the English page.
     -l, --language LANGUAGE
-        Specify the language, a POSIX Locale Name in the form of "ll" or "ll_CC" (e.g. "fr" or "pt_BR").
+        Specify the language in the form of "ll" or "ll_CC" (e.g. "fr" or "pt_BR").
     -s, --stage
         Stage modified pages (requires 'git' on $PATH and TLDR_ROOT to be a Git repository).
     -n, --dry-run

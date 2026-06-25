@@ -15,6 +15,10 @@
 
 `sudo dnf {{[in|install]}} {{https://example.com/package.rpm}}`
 
+- Add the Fedora non-free packages repository:
+
+`sudo dnf {{[in|install]}} https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm`
+
 - Add the Extra Packages for Enterprise Linux (EPEL) repositories:
 
 `sudo dnf {{[in|install]}} https://dl.fedoraproject.org/pub/epel/epel-release-latest-{{10}}.noarch.rpm`

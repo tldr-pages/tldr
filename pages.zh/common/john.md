@@ -13,7 +13,7 @@
 
 - 按用户标识符从多个文件中显示用户的已破解密码：
 
-`john --show --users={{用户_IDs}} {{路径/到/hashes1.txt 路径/到/hashes2.txt ...}}`
+`john --show --users={{用户标识符}} {{路径/到/hashes1.txt 路径/到/hashes2.txt ...}}`
 
 - 使用自定义的单词列表破解密码哈希：
 

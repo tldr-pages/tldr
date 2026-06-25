@@ -9,6 +9,10 @@
 
 `warp-cli registration new`
 
+- Display the current registration information:
+
+`warp-cli registration show`
+
 - Connect to WARP:
 
 `warp-cli connect`
@@ -21,14 +25,10 @@
 
 `warp-cli status`
 
+- Display current application settings:
+
+`warp-cli settings list`
+
 - Switch to a specific mode:
 
-`warp-cli set-mode {{mode}}`
-
-- Display help:
-
-`warp-cli help`
-
-- Display help for a subcommand:
-
-`warp-cli help {{subcommand}}`
+`warp-cli mode {{warp|doh|warp+doh|dot|warp+dot|proxy|tunnel_only}}`

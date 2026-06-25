@@ -414,7 +414,7 @@ Keep the following guidelines in mind when choosing placeholders:
 
 - Use short but descriptive placeholders,
   such as `{{path/to/source_file}}` or `{{path/to/wallet.txt}}`.
-- Use [`snake_case`](https://wikipedia.org/wiki/snake_case) for multi-word placeholders.
+- Use [`snake_case`](https://wikipedia.org/wiki/snake_case) for multi-word placeholders unless absolutely necessary for clarity like with `Mb` and `MB`.
 
 #### Paths
 
@@ -492,6 +492,7 @@ Here's a quick table to summarize the syntax used in `tldr`:
 | `{{[ \| ]}}` | Option placeholder |
 | `{{thing1 thing2 ...}}` | One or more arguments |
 | `{{thing1\|thing2\|...}}` | Mutually exclusive arguments |
+| `...}}` | Continuation of a pattern |
 | `{{1..10}}` | Value range |
 | `<Ctrl c>` | Keypress |
 

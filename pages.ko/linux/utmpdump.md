@@ -9,4 +9,4 @@
 
 - 이전에 덤프한 파일을 `/var/log/wtmp`에 로드:
 
-`utmpdump -r {{덤프파일}} > {{/var/log/wtmp}}`
+`utmpdump {{[-r|--reverse]}} {{덤프파일}} > {{/var/log/wtmp}}`

@@ -9,8 +9,8 @@
 
 - 이미지를 지정된 배율로 확대하고, 지정된 선명도를 사용하여 `n`개의 복사본 생성:
 
-`ppmtomitsu -enlarge {{1|2|3}} -sharpness {{1|2|3|4}} -copy {{n}} {{경로/대상/파일.ppm}} > {{경로/대상/파일.mitsu}}`
+`ppmtomitsu {{[-e|-enlarge]}} {{1|2|3}} {{[-s|-sharpness]}} {{1|2|3|4}} {{[-c|-copy]}} {{n}} {{경로/대상/파일.ppm}} > {{경로/대상/파일.mitsu}}`
 
 - 인쇄 과정에 주어진 매체 사용:
 
-`ppmtomitsu -media {{A|A4|AS|A4S}} {{경로/대상/파일.ppm}} > {{경로/대상/파일.mitsu}}`
+`ppmtomitsu {{[-m|-media]}} {{A|A4|AS|A4S}} {{경로/대상/파일.ppm}} > {{경로/대상/파일.mitsu}}`

@@ -1,6 +1,6 @@
 # CHDIR
 
-> Tämä on alias komennolle `CD`.
+> Tämä on alias `CD` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

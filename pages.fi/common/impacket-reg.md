@@ -1,6 +1,6 @@
 # impacket-reg
 
-> Tämä on alias komennolle `reg.py`.
+> Tämä on alias `reg.py` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

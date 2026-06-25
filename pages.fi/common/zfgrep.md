@@ -1,6 +1,6 @@
 # zfgrep
 
-> Tämä on alias komennolle `zgrep --fixed-strings`.
+> Tämä on alias `zgrep --fixed-strings` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

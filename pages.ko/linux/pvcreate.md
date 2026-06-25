@@ -6,8 +6,8 @@
 
 - LVM에서 사용할 수 있도록 `/dev/sda1` 볼륨 초기화:
 
-`pvcreate {{/dev/sda1}}`
+`sudo pvcreate {{/dev/sda1}}`
 
 - 확인 프롬프트 없이 강제로 생성:
 
-`pvcreate --force {{/dev/sda1}}`
+`sudo pvcreate {{[-f|--force]}} {{/dev/sda1}}`

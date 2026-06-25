@@ -1,6 +1,6 @@
 # clang-cpp
 
-> Tämä on alias komennolle `clang++`.
+> Tämä on alias `clang++` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

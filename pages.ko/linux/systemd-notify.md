@@ -14,4 +14,4 @@
 
 - systemd에 사용자 정의 상태 메시지 제공 (`systemctl status`에 의해 표시됨):
 
-`systemd-notify --status="{{여기에 사용자 정의 상태 메시지를 추가하세요...}}"`
+`systemd-notify --status "{{여기에 사용자 정의 상태 메시지를 추가하세요...}}"`

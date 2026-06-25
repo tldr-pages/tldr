@@ -5,24 +5,24 @@
 
 - Utilise la sortie d'une commande comme entrée du presse-papiers (équivalent de `<Ctrl c>`) :
 
-`echo 123 | xsel -ib`
+`echo 123 | xsel {{[-ib|--input --clipboard]}}`
 
 - Utilise le contenu d'un fichier comme entrée du presse-papiers :
 
-`cat {{fichier}} | xsel -ib`
+`cat {{fichier}} | xsel {{[-ib|--input --clipboard]}}`
 
 - Affiche le contenu du presse-papiers dans le terminal (équivalent à `<Ctrl v>`) :
 
-`xsel -ob`
+`xsel {{[-ob|--output --clipboard]}}`
 
 - Sortie du contenu du presse-papiers dans un fichier :
 
-`xsel -ob > {{fichier}}`
+`xsel {{[-ob|--output --clipboard]}} > {{fichier}}`
 
 - Efface le presse-papiers :
 
-`xsel -cb`
+`xsel {{[-cb|--clear --clipboard]}}`
 
 - Affiche le contenu de la sélection primaire X11 dans le terminal (équivalent à `<MiddleClick>`) :
 
-`xsel -op`
+`xsel {{[-op|--output --primary]}}`

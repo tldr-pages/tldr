@@ -5,19 +5,19 @@
 
 - DocBook XML 파일이 유효한지 확인:
 
-`daps -d {{경로/대상/파일.xml}} validate`
+`daps {{[-d|--docconfig]}} {{경로/대상/파일.xml}} validate`
 
 - DocBook XML 파일을 PDF로 변환:
 
-`daps -d {{경로/대상/파일.xml}} pdf`
+`daps {{[-d|--docconfig]}} {{경로/대상/파일.xml}} pdf`
 
 - DocBook XML 파일을 단일 HTML file로 뱐환:
 
-`daps -d {{경로/대상/파일.xml}} html --single`
+`daps {{[-d|--docconfig]}} {{경로/대상/파일.xml}} html --single`
 
 - 도움말 표시:
 
-`daps --help`
+`daps {{[-h|--help]}}`
 
 - 버전 정보 표시:
 

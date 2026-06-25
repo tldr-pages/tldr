@@ -5,4 +5,4 @@
 
 - 특정 구성 유형에 대한 cloudinit 파일 생성:
 
-`qm {{[clou|cloudinit]}} {{[d|dump]}} {{가상_머신_ID}} {{meta|network|user}}`
+`qm {{[clou|cloudinit]}} {{[d|dump]}} {{100}} {{meta|network|user}}`

@@ -1,6 +1,6 @@
 # avahi-resolve-host-name
 
-> Tämä on alias komennolle `avahi-resolve --name`.
+> Tämä on alias `avahi-resolve --name` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

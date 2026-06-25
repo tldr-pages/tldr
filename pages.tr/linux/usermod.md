@@ -22,7 +22,7 @@
 
 - Bir gruptan belirtilen kullanıcıyı kaldırın:
 
-`sudo usermod {{[-rG --remove --groups]}} {{grup1,grup2,...}} {{kullanıcı_adı}}`
+`sudo usermod {{[-rG|--remove --groups]}} {{grup1,grup2,...}} {{kullanıcı_adı}}`
 
 - Kullanıcı ev dizinini değiştirin:
 

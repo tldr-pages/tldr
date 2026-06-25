@@ -9,12 +9,12 @@
 
 - 사용할 구성 파일 지정:
 
-`mosquitto --config-file {{경로/대상/파일.conf}}`
+`mosquitto {{[-c|--config-file]}} {{경로/대상/파일.conf}}`
 
 - 특정 포트로 수신 대기:
 
-`mosquitto --port {{8883}}`
+`mosquitto {{[-p|--port]}} {{8883}}`
 
 - 백그라운드로 포크하여 데몬화:
 
-`mosquitto --daemon`
+`mosquitto {{[-d|--daemon]}}`

@@ -24,6 +24,6 @@
 
 `at -l`
 
-- View a specied job:
+- View a specified job:
 
 `at -c {{job_number}}`

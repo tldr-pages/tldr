@@ -5,7 +5,7 @@
 
 - 임시 받은 편지함 생성:
 
-`tmpmail --generate`
+`tmpmail {{[-g|--generate]}}`
 
 - 메시지와 그 숫자 ID 나열:
 
@@ -13,16 +13,16 @@
 
 - 가장 최근에 받은 이메일 표시:
 
-`tmpmail --recent`
+`tmpmail {{[-r|--recent]}}`
 
 - 특정 메시지 열기:
 
-`tmpmail {{이메일_ID}}`
+`tmpmail {{이메일_id}}`
 
 - HTML 태그 없이 이메일을 원시 텍스트로 보기:
 
-`tmpmail --text`
+`tmpmail {{[-t|--text]}}`
 
 - 특정 브라우저로 이메일 열기 (기본값은 w3m):
 
-`tmpmail --browser {{브라우저}}`
+`tmpmail {{[-b|--browser]}} {{브라우저}}`

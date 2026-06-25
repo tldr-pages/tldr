@@ -10,12 +10,12 @@
 
 - 지정된 긴급도로 알림 표시:
 
-`dunstify "{{제목}}" "{{메시지}}" -u {{low|normal|critical}}`
+`dunstify "{{제목}}" "{{메시지}}" {{[-u|--urgency]}} {{low|normal|critical}}`
 
 - 메시지 ID 지정 (같은 ID의 이전 메시지를 덮어씀):
 
-`dunstify "{{제목}}" "{{메시지}}" -r {{123}}`
+`dunstify "{{제목}}" "{{메시지}}" {{[-r|--replace]}} {{123}}`
 
 - 도움말 표시:
 
-`dunstify --help`
+`dunstify {{[-?|--help]}}`

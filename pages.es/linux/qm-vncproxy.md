@@ -5,4 +5,4 @@
 
 - Hace proxy de una máquina virtual específica:
 
-`qm {{[v|vncproxy]}} {{id_mv}}`
+`qm {{[v|vncproxy]}} {{100}}`

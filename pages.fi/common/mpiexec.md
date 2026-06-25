@@ -1,6 +1,6 @@
 # mpiexec
 
-> Tämä on alias komennolle `mpirun`.
+> Tämä on alias `mpirun` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

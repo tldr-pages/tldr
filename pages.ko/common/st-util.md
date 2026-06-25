@@ -5,12 +5,12 @@
 
 - 포트 4500에서 GDB 서버 실행:
 
-`st-util -p {{4500}}`
+`st-util {{[-p|--listen_port]}} {{4500}}`
 
 - GDB 서버에 연결:
 
-`(gdb) target extended-remote {{localhost}}:{{4500}}`
+`target extended-remote {{localhost}}:{{4500}}`
 
 - 장치에 펌웨어 쓰기:
 
-`(gdb) load {{firmware.elf}}`
+`load {{firmware.elf}}`

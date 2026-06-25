@@ -5,8 +5,8 @@
 
 - Compute and display the WPA-PSK key for a given SSID reading the passphrase from `stdin`:
 
-`wpa_passphrase {{SSID}}`
+`wpa_passphrase {{ssid}}`
 
 - Compute and display WPA-PSK key for a given SSID specifying the passphrase as an argument:
 
-`wpa_passphrase {{SSID}} {{passphrase}}`
+`wpa_passphrase {{ssid}} {{passphrase}}`
