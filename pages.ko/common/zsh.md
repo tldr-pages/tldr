@@ -10,7 +10,7 @@
 
 - 특정 [c]명령 실행:
 
-`zsh -c "{{echo Hello world}}"`
+`zsh -c "{{echo 'zsh가 실행중'}}"`
 
 - 특정 스크립트 실행:
 
@@ -22,7 +22,7 @@
 
 - `stdin`에서 특정 명령 실행:
 
-`{{echo Hello world}} | zsh`
+`{{echo "echo 'zsh가 실행중'"}} | zsh`
 
 - 특정 스크립트를 실행하며 각 명령을 실행 전에 출력:
 
