@@ -1,7 +1,7 @@
 # brave
 
 > 이 명령은 `chromium`의 에일리어스 (별칭)입니다.
-> 더 많은 정보: <https://support.brave.app/hc/en-us/articles/360044860011-How-Do-I-Use-Command-Line-Flags-in-Brave>.
+> 더 많은 정보: <https://support.brave.app/hc/articles/360044860011-How-Do-I-Use-Command-Line-Flags-in-Brave>.
 
 - 자세한 내용은 원본 명령을 참고하세요:
 

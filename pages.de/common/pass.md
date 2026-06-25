@@ -6,11 +6,11 @@
 
 - Initialisiere oder verschlüssle einen neuen oder bestehenden Speicher mit einer oder mehreren GPG IDs neu:
 
-`pass init {{gpg_id_1}} {{gpg_id_2}}`
+`pass init {{gpg_id_1 gpg_id_2 ...}}`
 
 - Speichere das Passwort und zusätzliche Informationen (`<Ctrl d>` auf neuer Zeile zum abschließen):
 
-`pass insert --multiline {{pfad/zu/datei}}`
+`pass insert {{[-m|--multiline]}} {{pfad/zu/datei}}`
 
 - Bearbeite einen bestimmten Eintrag:
 
@@ -18,7 +18,7 @@
 
 - Kopiere das Passwort (die erste Zeile des Eintrags) in die Zwischenablage:
 
-`pass -c {{pfad/zu/datei}}`
+`pass {{[-c|--clip]}} {{pfad/zu/datei}}`
 
 - Zeige die Baumstruktur des Passwort-Stores an:
 
@@ -26,7 +26,7 @@
 
 - Generiere ein neues, zufälliges Passwort mit Länge n und kopiere is in die Zwischenablage:
 
-`pass generate -c {{pfad/zu/datei}} {{n}}`
+`pass generate {{[-c|--clip]}} {{pfad/zu/datei}} {{n}}`
 
 - Initialisiere ein Git Repository (Alle durch pass durchgeführten Änderungen werden automatisch committed):
 

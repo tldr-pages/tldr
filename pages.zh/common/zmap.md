@@ -30,7 +30,7 @@
 
 - 为扫描数据包设置指定的源 IP 地址：
 
-`zmap {{[-S|--source-ip]}} {{源_IP}} {{SUBNETS}}`
+`zmap {{[-S|--source-ip]}} {{源_ip}} {{SUBNETS}}`
 
 - 限制要探测的目标数量或百分比（例如 1000 个 IP/端口组合）：
 

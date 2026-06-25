@@ -1,6 +1,6 @@
 # npm author
 
-> Tämä on alias komennolle `npm owner`.
+> Tämä on alias `npm owner` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -25,7 +25,7 @@
 
 - 도움말 표시:
 
-`kscreen-console --help`
+`kscreen-console {{[-h|--help]}}`
 
 - Qt 특정 커맨드라인 옵션을 포함한 도움말 표시:
 

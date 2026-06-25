@@ -15,11 +15,11 @@
 
 - IP에 대한 체인 정책에 규칙 [A]추가:
 
-`sudo iptables {{[-A|--append]}} {{체인}} {{[-s|--source]}} {{IP}} {{[-j|--jump]}} {{규칙}}`
+`sudo iptables {{[-A|--append]}} {{체인}} {{[-s|--source]}} {{ip}} {{[-j|--jump]}} {{규칙}}`
 
 - [p]프로토콜과 포트를 고려하여 IP에 대한 체인 정책에 규칙 [A]추가:
 
-`sudo iptables {{[-A|--append]}} {{체인}} {{[-s|--source]}} {{IP}} {{[-p|--protocol]}} {{tcp|udp|icmp|...}} --dport {{포트}} {{[-j|--jump]}} {{규칙}}`
+`sudo iptables {{[-A|--append]}} {{체인}} {{[-s|--source]}} {{ip}} {{[-p|--protocol]}} {{tcp|udp|icmp|...}} --dport {{포트}} {{[-j|--jump]}} {{규칙}}`
 
 - `192.168.0.0/24` 서브넷의 모든 트래픽을 호스트의 공인 IP로 변환하는 NAT 규칙 추가:
 

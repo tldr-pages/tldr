@@ -1,6 +1,6 @@
 # lex
 
-> Tämä on alias komennolle `flex`.
+> Tämä on alias `flex` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

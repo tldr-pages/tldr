@@ -5,4 +5,4 @@
 
 - Bir e-posta adresi ile eşleşen kanonik ismi bul:
 
-`git check-mailmap "<{{örnek@e-posta.com}}>"`
+`git check-mailmap {{örnek@e-posta.com}}`

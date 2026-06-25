@@ -13,7 +13,7 @@
 
 - 레포지토리를 통해 반복할지 여부 문의:
 
-`grance copy {{소스}} {{대상}} {{[-r|--recursive]}}`
+`gcrane copy {{소스}} {{대상}} {{[-r|--recursive]}}`
 
 - 도움말 표시:
 

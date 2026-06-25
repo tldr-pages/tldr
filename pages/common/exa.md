@@ -1,6 +1,8 @@
 # exa
 
 > A modern replacement for `ls` (List directory contents).
+> Note: `exa` is no longer maintained. Use `eza` instead.
+> See also: `eza`.
 > More information: <https://github.com/ogham/exa#command-line-options>.
 
 - List files one per line:

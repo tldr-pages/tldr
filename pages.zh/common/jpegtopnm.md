@@ -9,4 +9,4 @@
 
 - 显示版本信息：
 
-`jpegtopnm -version`
+`jpegtopnm {{[-v|-version]}}`

@@ -10,20 +10,20 @@
 
 - Actualiza todos los paquetes:
 
-`paxs -u`
+`paxs {{[-u|--upgrade-all]}}`
 
 - Instala un paquete (solicitando el código fuente):
 
-`paxs -i {{paquete}}`
+`paxs {{[-i|--install]}} {{paquete}}`
 
 - Elimina un paquete (solicitando la fuente):
 
-`paxs -r {{paquete}}`
+`paxs {{[-r|--remove]}} {{paquete}}`
 
 - Busca actualizaciones en todos los gestores de paquetes:
 
-`paxs -c`
+`paxs {{[-c|--check-update]}}`
 
 - Muestra la ayuda:
 
-`paxs -h`
+`paxs {{[-h|--help]}}`

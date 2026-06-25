@@ -1,6 +1,6 @@
 # azure-cli
 
-> Tämä on alias komennolle `az`.
+> Tämä on alias `az` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -5,19 +5,19 @@
 
 - Añade `n` gigabytes a un disco virtual:
 
-`qm {{[di|disk]}} {{[resi|resize]}} {{vm_id}} {{disk_name}} +{{n}}G`
+`qm {{[di|disk]}} {{[resi|resize]}} {{100}} {{disk_name}} +{{n}}G`
 
 - Mueve un disco virtual:
 
-`qm {{[di|disk]}} {{[m|move]}} {{vm_id}} {{destino}} {{índice}}`
+`qm {{[di|disk]}} {{[m|move]}} {{100}} {{destino}} {{índice}}`
 
 - Elimina la copia anterior del disco virtual:
 
-`qm {{[di|disk]}} {{[m|move]}} --delete {{vm_id}} {{destino}} {{índice}}`
+`qm {{[di|disk]}} {{[m|move]}} --delete {{100}} {{destino}} {{índice}}`
 
 - Importa una imagen de disco VMDK/`.qcow2`/raw utilizando un nombre de almacenamiento específico:
 
-`qm {{[di|disk]}} {{[i|import]}} {{vm_id}} {{ruta/al/disco}} {{nombre_almacenamiento}} --format {{qcow2|raw|vmdk}}`
+`qm {{[di|disk]}} {{[i|import]}} {{100}} {{ruta/al/disco}} {{nombre_almacenamiento}} --format {{qcow2|raw|vmdk}}`
 
 - Vuelve a escanear todos los almacenamientos y actualiza los tamaños de disco y las imágenes de disco no utilizadas:
 

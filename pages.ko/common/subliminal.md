@@ -5,4 +5,4 @@
 
 - 비디오에 대한 영어 자막 다운로드:
 
-`subliminal download -l {{en}} {{비디오.확장자}}`
+`subliminal download {{[-l|--language]}} {{en}} {{비디오.확장자}}`

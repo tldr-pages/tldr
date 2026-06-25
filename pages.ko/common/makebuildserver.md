@@ -9,4 +9,4 @@
 
 - 새로운 가상 머신을 강제로 생성:
 
-`makebuildserver --clean`
+`makebuildserver {{[-c|--clean]}}`

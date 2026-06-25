@@ -5,11 +5,11 @@
 
 - OpenAPI/swagger 파일에서 문서와 코드 생성:
 
-`swagger-codegen generate -i {{swagger_파일}} -l {{언어}}`
+`swagger-codegen generate {{[-i|--input-spec]}} {{swagger_파일}} {{[-l|--lang]}} {{언어}}`
 
 - 라이브러리 retrofit2와 옵션 useRxJava2를 사용하여 Java 코드 생성:
 
-`swagger-codegen generate -i {{http://petstore.swagger.io/v2/swagger.json}} -l {{java}} --library {{retrofit2}} -D{{useRxJava2}}={{true}}`
+`swagger-codegen generate {{[-i|--input-spec]}} {{http://petstore.swagger.io/v2/swagger.json}} {{[-l|--lang]}} {{java}} --library {{retrofit2}} -D{{useRxJava2}}={{true}}`
 
 - 사용 가능한 언어 나열:
 

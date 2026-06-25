@@ -2,7 +2,7 @@
 
 > OpenAI로 구동되는 터미널용 자연어 코드 어시스턴트.
 > 요청을 수행하기 위해 현재 디렉터리의 파일을 읽고 수정.
-> 더 많은 정보: <https://github.com/openai/codex>.
+> 더 많은 정보: <https://developers.openai.com/codex/cli/reference>.
 
 - 현재 디렉터리에서 대화형 Codex 세션을 시작:
 

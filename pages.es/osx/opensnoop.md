@@ -13,7 +13,7 @@
 
 - Rastrea todos los archivos abiertos por un proceso por PID:
 
-`sudo opensnoop -p {{PID}}`
+`sudo opensnoop -p {{pid}}`
 
 - Seguimiento de los procesos que abren un archivo especificado:
 

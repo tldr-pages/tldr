@@ -1,6 +1,6 @@
 # bzcat
 
-> Tämä on alias komennolle `bzip2 --decompress --stdout`.
+> Tämä on alias `bzip2 --decompress --stdout` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

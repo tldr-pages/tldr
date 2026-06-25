@@ -9,11 +9,11 @@
 
 - 녹화 중 및 녹화 후 정보를 표시:
 
-`byzanz-record --verbose {{경로/대상/파일.[byzanz|flv|gif|ogg|ogv|webm]}}`
+`byzanz-record {{[-v|--verbose]}} {{경로/대상/파일.[byzanz|flv|gif|ogg|ogv|webm]}}`
 
 - 화면을 1분 동안 녹화:
 
-`byzanz-record --duration 60 {{경로/대상/파일.[byzanz|flv|gif|ogg|ogv|webm]}}`
+`byzanz-record {{[-d|--duration]}} 60 {{경로/대상/파일.[byzanz|flv|gif|ogg|ogv|webm]}}`
 
 - 녹화를 10초 지연 후 시작:
 

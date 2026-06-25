@@ -13,7 +13,7 @@
 
 - `PID`와 일치하는 프로그램의 코어 덤프 정보 표시:
 
-`coredumpctl info {{PID}}`
+`coredumpctl info {{pid}}`
 
 - 특정 프로그램의 마지막 코어 덤프를 사용하여 디버거 호출:
 

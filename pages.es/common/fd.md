@@ -1,8 +1,8 @@
 # fd
 
 > Busca entradas en el sistema de archivos.
-> Vea también: `find`.
-> Más información: <https://github.com/sharkdp/fd#how-to-use>.
+> Vea también: `find`, `regex`.
+> Más información: <https://github.com/sharkdp/fd#command-line-options>.
 
 - Busca de forma recursiva archivos que coincidan con un patrón específico en el directorio actual:
 

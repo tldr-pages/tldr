@@ -18,3 +18,7 @@
 - Add a route to a specific routing table:
 
 `sudo ip {{[r|route]}} {{[a|add]}} {{destination_ip}} dev {{ethX}} {{[t|table]}} {{ip_address}}`
+
+- Force internet traffic to go through a specific device while leaving local traffic unchanged (requires also creating a rule):
+
+`sudo ip {{[r|route]}} {{[a|add]}} default via {{gateway_ip}} dev {{ethX}} table {{table_id}}`

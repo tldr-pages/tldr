@@ -25,4 +25,4 @@
 
 - Selecciona una región determinada y graba un vídeo sin bordes utilizando `wf-recorder`:
 
-`wf-recorder --geometry "$(slurp -w 0)"`
+`wf-recorder {{[-g|--geometry]}} "$(slurp -w 0)"`

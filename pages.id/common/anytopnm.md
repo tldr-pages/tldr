@@ -9,4 +9,4 @@
 
 - Tampilkan informasi versi:
 
-`anytopnm -version`
+`anytopnm {{[-v|-version]}}`

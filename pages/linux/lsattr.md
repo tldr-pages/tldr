@@ -1,6 +1,7 @@
 # lsattr
 
 > List file attributes on a Linux filesystem.
+> See also: `chattr`.
 > More information: <https://manned.org/lsattr>.
 
 - Display the attributes of the files in the current directory:

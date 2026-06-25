@@ -29,7 +29,7 @@
 
 - Ustaw właściwości (np. CPUQuota, MemoryMax) procesu i poczekaj, aż się zakończy:
 
-`systemd-run --property MemoryMax={{pamięć_w_bajtach}} --property CPUQuota={{procent_czasu_CPU}}% --wait {{komenda}}`
+`systemd-run --property MemoryMax={{pamięć_w_bajtach}} --property CPUQuota={{procent_czasu_cpu}}% --wait {{komenda}}`
 
 - Użyj programu w potoku powłoki:
 

@@ -13,7 +13,7 @@
 
 - Keer een TCP-poort om van een specifieke emulator of apparaat (via apparaat-ID of [s]erienummer) naar localhost:
 
-`adb -s {{apparaat_ID}} reverse tcp:{{externe_poort}} tcp:{{lokale_poort}}`
+`adb -s {{apparaat_id}} reverse tcp:{{externe_poort}} tcp:{{lokale_poort}}`
 
 - Verwijder een omgekeerde socketverbinding van een emulator of apparaat:
 

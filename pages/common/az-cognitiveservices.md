@@ -6,7 +6,7 @@
 
 - Create an API Cognitive Services account in a specific location without confirmation required:
 
-`az cognitiveservices account create {{[-n|--name]}} {{account_name}} {{[-g|--resource-group]}} {{resource_group}} --kind {{API_name}} {{[-l|--location]}} {{location}} --sku {{sku_name}} --yes`
+`az cognitiveservices account create {{[-n|--name]}} {{account_name}} {{[-g|--resource-group]}} {{resource_group}} --kind {{api_name}} {{[-l|--location]}} {{location}} --sku {{sku_name}} --yes`
 
 - List usages for Azure Cognitive Services account:
 

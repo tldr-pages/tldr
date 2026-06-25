@@ -5,7 +5,7 @@
 
 - Crea una blockmap da un file immagine:
 
-`bmaptool create -o {{blockmap.bmap}} {{sorgente.img}}`
+`bmaptool create {{[-o|--output]}} {{blockmap.bmap}} {{sorgente.img}}`
 
 - Copia un file immagine su sdb:
 

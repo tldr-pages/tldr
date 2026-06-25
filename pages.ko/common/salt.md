@@ -17,4 +17,4 @@
 
 - 특정 미니언에서 임의의 명령 실행:
 
-`salt '{{미니언_ID}}' cmd.run "ls "`
+`salt '{{미니언_id}}' cmd.run "ls "`

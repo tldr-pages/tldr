@@ -13,7 +13,7 @@
 
 - List outdated processes in [v]erbose or [q]uiet mode:
 
-`needrestart -{{v|q}}`
+`needrestart {{-v|-q}}`
 
 - Check if the [k]ernel is outdated:
 

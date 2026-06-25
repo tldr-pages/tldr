@@ -1,6 +1,6 @@
 # impacket-smbclient
 
-> Tämä on alias komennolle `smbclient.py`.
+> Tämä on alias `smbclient.py` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

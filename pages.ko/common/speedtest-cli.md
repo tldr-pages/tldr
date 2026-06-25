@@ -30,7 +30,7 @@
 
 - 특정 speedtest.net 서버로 속도 테스트 실행:
 
-`speedtest-cli --server {{서버_ID}}`
+`speedtest-cli --server {{서버_id}}`
 
 - 속도 테스트를 실행하고 결과를 JSON 형식으로 표시 (진행 정보 억제):
 

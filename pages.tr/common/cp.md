@@ -27,6 +27,6 @@
 
 `cp -L {{link}} {{dizin/yol/hedef_dizin}}`
 
-- İlk bağımsız değişkeni hedef dizin olarak kullanın ('xargs ... | cp -t <DEST_DIR>' için kullanışlıdır):
+- İlk bağımsız değişkeni hedef dizin olarak kullanın (`xargs ... | cp -t destination_directory` için kullanışlıdır):
 
 `cp -t {{dizin/yol/hedef_dizin}} {{dizin/yol/dosya_veya_dizin1 dizin/yol/dosya_veya_dizin2 ...}}`

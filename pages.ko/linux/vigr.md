@@ -9,4 +9,4 @@
 
 - 버전 표시:
 
-`vigr --version`
+`vigr {{[-V|--version]}}`

@@ -9,11 +9,11 @@
 
 - ILBM 파일에 최대 `n`개의 플레인 작성하고, 이 수를 초과하면 HAM/24비트/직접 색상 파일 생성:
 
-`ppmtoilbm -maxplanes {{n}} -{{hamif|24if|dcif}} {{경로/대상/파일.ppm}} > {{경로/대상/파일.ilbm}}`
+`ppmtoilbm {{[-mp|-maxplanes]}} {{n}} -{{hamif|24if|dcif}} {{경로/대상/파일.ppm}} > {{경로/대상/파일.ilbm}}`
 
 - 정확히 `n`개의 플레인으로 ILBM 파일 생성:
 
-`ppmtoilbm -fixplanes {{n}} {{경로/대상/파일.ppm}} > {{경로/대상/파일.ilbm}}`
+`ppmtoilbm {{[-fp|-fixplanes]}} {{n}} {{경로/대상/파일.ppm}} > {{경로/대상/파일.ilbm}}`
 
 - 사용할 압축 방법 선택:
 

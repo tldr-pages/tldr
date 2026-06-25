@@ -6,8 +6,8 @@
 
 - 비밀번호 크랙:
 
-`bully --bssid "{{맥}}" --channel "{{채널}}" --bruteforce "{{인터페이스}}"`
+`bully {{[-b|--bssid]}} "{{맥}}" {{[-c|--channel]}} "{{채널}}" {{[-B|--bruteforce]}} "{{인터페이스}}"`
 
 - 도움말 표시:
 
-`bully --help`
+`bully {{[-h|--help]}}`

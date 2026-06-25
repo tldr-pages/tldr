@@ -1,6 +1,7 @@
 # setfattr
 
 > Set extended file attributes.
+> See also: `getfattr`.
 > More information: <https://manned.org/setfattr>.
 
 - Set name of attribute for file:

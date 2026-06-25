@@ -11,28 +11,28 @@
 
 - إنسخ ناتج الخرج من أمر إلي الحافظة المختارة:
 
-`echo 123 | xclip -selection {{primary|secondary|clipboard}}`
+`echo 123 | xclip {{[-se|-selection]}} {{primary|secondary|clipboard}}`
 
 - إنسخ ناتج الخرج من أمر إلي حافظة النظام، باستخدام الصيغة المختصرة:
 
-`echo 123 | xclip -sel clip`
+`echo 123 | xclip {{[-se|-selection]}} {{[c|clipboard]}}`
 
 - إنسخ محتوي ملف إلي حافظة النظام:
 
-`xclip -sel clip {{input_file.txt}}`
+`xclip {{[-se|-selection]}} {{[c|clipboard]}} {{input_file.txt}}`
 
 - إنسخ محتوي صورة بصيغة PNG إلي حافظة النظام (يمكن أن تستخدم في أي برنامج عن طريق لصق):
 
-`xclip -sel clip -t image/png {{input_file.png}}`
+`xclip {{[-se|-selection]}} {{[c|clipboard]}} {{[-t|-target]}} image/png {{input_file.png}}`
 
 - إنسخ إدخال المستخدم في الطرفية أو الكونسول إلي حافظة النظام:
 
-`xclip -i`
+`xclip {{[-i|-in]}}`
 
 - إلصق محتوي حافظة x11 الأولية إلي الطرفية أو الكونسول:
 
-`xclip -o`
+`xclip {{[-o|-out]}}`
 
 - إلصق محتوي حافظة النظام إلي الطرفية أو الكونسول:
 
-`xclip -o -sel clip`
+`xclip {{[-o|-out]}} {{[-se|-selection]}} {{[c|clipboard]}}`

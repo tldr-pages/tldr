@@ -22,7 +22,7 @@
 
 - Affiche les voisins (table ARP) :
 
-`ip {{[n|neighbour]}}`
+`ip {{[n|neighbor]}}`
 
 - Active/Désactive une interface :
 

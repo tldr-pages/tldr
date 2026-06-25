@@ -21,7 +21,7 @@
 
 - 원격 소스 추가:
 
-`flatpak remote-add --if-not-exists {{원격_소스_이름}} {{원격_소스_URL}}`
+`flatpak remote-add --if-not-exists {{원격_소스_이름}} {{원격_소스_url}}`
 
 - 설치된 애플리케이션 제거:
 

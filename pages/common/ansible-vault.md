@@ -7,7 +7,7 @@
 
 `ansible-vault create {{path/to/vault_file}}`
 
-- Edit, view or re-key (re-encrypt) an existing encrypted vault file with a prompt for the password:
+- Edit, view, or re-key (re-encrypt) an existing encrypted vault file with a prompt for the password:
 
 `ansible-vault {{edit|view|rekey}} {{path/to/vault_file}}`
 
