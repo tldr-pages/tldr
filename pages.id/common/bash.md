@@ -12,7 +12,7 @@
 
 `bash --norc`
 
-- Jalankan perintah secara spesifik:
+- Jalankan kumpulan perintah secara spesifik:
 
 `bash -c "{{echo 'perintah bash telah dijalankan'}}"`
 

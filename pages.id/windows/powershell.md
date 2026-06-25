@@ -13,7 +13,7 @@
 
 `powershell -NoProfile`
 
-- Jalankan perintah secara spesifik:
+- Jalankan kumpulan perintah secara spesifik:
 
 `powershell -Command "{{echo 'powershell telah dieksekusi'}}"`
 

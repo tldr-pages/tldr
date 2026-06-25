@@ -8,7 +8,7 @@
 
 `zsh`
 
-- Jalankan perintah secara spesifik:
+- Jalankan kumpulan perintah secara spesifik:
 
 `zsh -c "{{echo 'perintah zsh telah dijalankan'}}"`
 
