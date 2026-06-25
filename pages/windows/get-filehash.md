@@ -15,3 +15,7 @@
 - Calculate the checksum for a file using a deprecated algorithm (no longer available in PowerShell 6 or later):
 
 `Get-FileHash {{path\to\file}} -Algorithm {{MACTripleDES|MD5|RIPEMD160}}`
+
+- Check a known checksum of a file:
+
+`(Get-FileHash {{path\to\file}} -Algorithm {{SHA1|SHA256|SHA384|SHA512|MD5}}).Hash -eq "known_checksum_of_the_file"`
