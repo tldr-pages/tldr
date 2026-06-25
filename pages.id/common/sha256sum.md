@@ -9,7 +9,7 @@
 
 - Hitung dan simpan daftar hasil hash beserta alamat berkas asal ke dalam suatu berkas manifes:
 
-`sha256sum {{jalan/menuju/berkas1 jalan/menuju/berkas2 ...}} > {{jalan/menuju/berkas_manifes}}.sha256`
+`sha256sum {{jalan/menuju/berkas1 jalan/menuju/berkas2 ...}} > {{jalan/menuju/berkas_manifes.sha256}}`
 
 - Hitung hash atas isi dari `stdin`:
 

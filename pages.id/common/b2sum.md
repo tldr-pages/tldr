@@ -9,7 +9,7 @@
 
 - Hitung dan simpan daftar hasil hash beserta alamat berkas asal ke dalam suatu berkas manifes:
 
-`b2sum {{jalan/menuju/berkas1 jalan/menuju/berkas2 ...}} > {{jalan/menuju/berkas_manifes}}.b2`
+`b2sum {{jalan/menuju/berkas1 jalan/menuju/berkas2 ...}} > {{jalan/menuju/berkas_manifes.b2}}`
 
 - Hitung hash atas isi dari `stdin`:
 
