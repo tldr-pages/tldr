@@ -19,9 +19,9 @@
 
 `imhex --file-info {{path/to/file}}`
 
-- Calculate the hash of a file using a specific algorithm (`md5`, `sha1`, `sha224`, `sha256`, `sha384`, `sha512`):
+- Calculate the hash of a file using a specific algorithm:
 
-`imhex --hash {{algorithm}} {{path/to/file}}`
+`imhex --hash {{md5|sha1|sha224|sha256|sha384|sha512}} {{path/to/file}}`
 
 - Generate a hex dump of a file:
 
