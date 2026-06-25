@@ -17,20 +17,20 @@
 
 - [o]pen one or more files:
 
-`powerpnt /o {{path\to\file1 path\to\file2 ...}}`
+`powerpnt /o {{path\to\file1.pptx path\to\file2.pptx ...}}`
 
 - Open a file in [s]lideshow mode:
 
-`powerpnt /s {{path\to\file}}`
+`powerpnt /s {{path\to\file.pptx}}`
 
 - Open a presentation, then execute a specific [m]acro:
 
-`powerpnt /m {{path\to\file}} "{{MacroName}}"`
+`powerpnt /m {{path\to\file.pptm}} "{{MacroName}}"`
 
 - Print a presentation via the Print dialog:
 
-`powerpnt /pwo {{path\to\file}}`
+`powerpnt /pwo {{path\to\file.pptx}}`
 
 - Directly [p]rint a presentation [t]o a specific printer:
 
-`powerpnt /pt {{printer_name}} {{path\to\file}}`
+`powerpnt /pt {{printer_name}} {{path\to\file.pptx}}`

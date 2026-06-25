@@ -9,12 +9,12 @@
 
 - Open an existing database file:
 
-`msaccess {{path\to\file}}`
+`msaccess {{path\to\file.accdb}}`
 
 - Open an existing database file in [r]ead-[o]nly mode:
 
-`msaccess /ro {{path\to\file}}`
+`msaccess /ro {{path\to\fileaccdb}}`
 
 - Open a database, then e[x]ecute a specific macro:
 
-`msaccess {{path\to\file}} /x {{MacroName}}`
+`msaccess {{path\to\file.accdb}} /x {{MacroName}}`

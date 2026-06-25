@@ -13,7 +13,7 @@
 
 - Open a workbook as a [t]emplate:
 
-`excel {{[/n|/t]}} {{path\to\file}}`
+`excel {{[/n|/t]}} {{path\to\file.xlsx}}`
 
 - Start Microsoft Excel in [s]afe Mode:
 

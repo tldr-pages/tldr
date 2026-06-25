@@ -10,11 +10,11 @@
 
 - Open a presentation:
 
-`pptview {{path\to\file}}`
+`pptview {{path\to\file.pptx}}`
 
 - Open at a specific slide [n]umber:
 
-`pptview /n{{1}} {{path\to\file}}`
+`pptview /n{{1}} {{path\to\file.pptx}}`
 
 - Open a [l]ist of presentation files from a playlist file:
 
@@ -22,4 +22,4 @@
 
 - [p]rint a presentation file:
 
-`pptview /p {{path\to\file}}`
+`pptview /p {{path\to\file.pptx}}`
