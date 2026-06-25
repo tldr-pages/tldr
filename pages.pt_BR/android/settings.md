@@ -5,7 +5,7 @@
 
 - Exibe a lista de configurações no namespace `global`:
 
-`settings list {{global}}`
+`settings list global`
 
 - Obtém o valor de uma configuração específica:
 

@@ -1,6 +1,6 @@
 # gnusplit
 
-> Tämä on alias `split` komennolle.
+> Tämä on alias GNU:n `split` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

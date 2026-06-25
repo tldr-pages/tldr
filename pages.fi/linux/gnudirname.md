@@ -1,6 +1,6 @@
 # gnudirname
 
-> Tämä on alias `dirname` komennolle.
+> Tämä on alias GNU:n `dirname` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

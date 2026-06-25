@@ -1,6 +1,6 @@
 # gnuchown
 
-> Tämä on alias `chown` komennolle.
+> Tämä on alias GNU:n `chown` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

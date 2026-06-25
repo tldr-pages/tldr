@@ -9,7 +9,7 @@
 
 - Display a [m]ale (or [f]emale) random name and address:
 
-`rig -{{m|f}}`
+`rig {{-m|-f}}`
 
 - Use [d]ata files from a specific directory (default is `/usr/share/rig`):
 

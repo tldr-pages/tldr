@@ -15,15 +15,15 @@
 
 - 현재 CPU에 대한 아키텍처별 최적화로 컴파일:
 
-`cargo rustc {{[-r|--release]}} -- -C target-cpu=native`
+`cargo rustc {{[-r|--release]}} -- {{[-C|--codegen]}} target-cpu=native`
 
 - 속도 최적화로 컴파일:
 
-`cargo rustc -- -C opt-level {{1|2|3}}`
+`cargo rustc -- {{[-C|--codegen]}} opt-level={{1|2|3}}`
 
 - 크기([s]ize) 최적화로 컴파일 (`z` 또한 루프 벡터화를 끔):
 
-`cargo rustc -- -C opt-level {{s|z}}`
+`cargo rustc -- {{[-C|--codegen]}} opt-level={{s|z}}`
 
 - 패키지가 안전하지 않은 코드를 사용하는지 확인:
 

@@ -7,7 +7,7 @@
 
 `k8sec list`
 
-- List a specific secret as a base64-encoded string:
+- List a specific secret as a Base64-encoded string:
 
 `k8sec list {{secret_name}} --base64`
 
@@ -15,7 +15,7 @@
 
 `k8sec set {{secret_name}} {{key=value}}`
 
-- Set a base64-encoded value:
+- Set a Base64-encoded value:
 
 `k8sec set --base64 {{secret_name}} {{key=encoded_value}}`
 

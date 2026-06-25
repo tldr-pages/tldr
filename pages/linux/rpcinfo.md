@@ -9,7 +9,7 @@
 
 - Show concise table of all RPC services registered on localhost:
 
-`rpcinfo -s {{localhost}}`
+`rpcinfo -s localhost`
 
 - Display table of statistics of rpcbind operations on localhost:
 

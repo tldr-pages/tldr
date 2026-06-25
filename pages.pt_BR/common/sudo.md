@@ -34,4 +34,4 @@
 
 - Lista os comandos permitidos (e não permitidos) para o usuário atual:
 
-`sudo {{[-l|--list]}}`
+`sudo {{[-ll|--list --list]}}`

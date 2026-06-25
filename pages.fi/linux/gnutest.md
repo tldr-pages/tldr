@@ -1,6 +1,6 @@
 # gnutest
 
-> Tämä on alias `test` komennolle.
+> Tämä on alias GNU:n `test` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

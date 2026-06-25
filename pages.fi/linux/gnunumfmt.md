@@ -1,6 +1,6 @@
 # gnunumfmt
 
-> Tämä on alias `numfmt` komennolle.
+> Tämä on alias GNU:n `numfmt` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
