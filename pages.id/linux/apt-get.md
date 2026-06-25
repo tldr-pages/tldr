@@ -2,7 +2,7 @@
 
 > Manajemen paket untuk Debian dan Ubuntu.
 > Cari paket menggunakan `apt-cache`.
-> Disarankan untuk menggunakan `apt` when used interactively in Ubuntu version 16.04 and later.
+> Disarankan untuk menggunakan `apt` saat menggunakan perintah ini secara interaktif dalam Ubuntu versi 16.04 dan seterusnya.
 > Informasi lebih lanjut: <https://manned.org/apt-get.8>.
 
 - Perbarui daftar paket yang tersedia beserta versinya (direkomendasikan untuk menggunakan perintah ini sebelum perintah `apt-get` lainnya):
