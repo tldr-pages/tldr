@@ -11,7 +11,7 @@
 
 `bun pm version {{9.0.1}}`
 
-- Bump the version using a semantic version type (`major`, `minor`, `patch`, etc.):
+- Bump the version using a semantic version type:
 
 `bun pm version {{major|minor|patch|premajor|preminor|prepatch|prerelease}}`
 
