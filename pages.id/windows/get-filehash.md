@@ -1,6 +1,6 @@
 # Get-FileHash
 
-> Hitung hasil persandian hash untuk suatu berkas.
+> Hitung hasil persandian hash (checksum) untuk suatu berkas.
 > Catatan: Perintah ini hanya dapat digunakan dalam PowerShell.
 > Informasi lebih lanjut: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/get-filehash>.
 
