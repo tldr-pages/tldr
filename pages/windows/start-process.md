@@ -6,15 +6,15 @@
 
 - Open a specific directory on Windows Explorer (equivalent to `explorer {{path\to\directory}}`):
 
-`start {{path\to\directory}}`
+`Start-Process {{path\to\directory}}`
 
 - Start a specific Windows program file (command-line programs will open on a new console window):
 
-`start {{path\to\file}}`
+`Start-Process {{path\to\file}}`
 
 - Start a registered Windows program name and pass its command arguments:
 
-`start {{msedge}} {{--inprivate example.com}}`
+`Start-Process {{msedge}} {{--inprivate example.com}}`
 
 - Start a Windows program in minimized or maximized window mode:
 
