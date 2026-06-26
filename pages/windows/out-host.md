@@ -13,7 +13,7 @@
 
 `{{command_or_variable}} | Out-Host -Paging`
 
-- Interactively display a text file within the paging view (equivalent to `more {{path/to/file}}`):
+- Interactively display a text file within the paging view (equivalent to `more path/to/file`):
 
 `Get-Content {{path\to\file}} | Out-Host -Paging`
 

@@ -11,7 +11,7 @@
 
 `basenc {{[-d|--decode]}} --base64 {{percorso/del/file}}`
 
-- Codifica da `stdin` con codifica base32 e 42 colonne:
+- Codifica da `stdin` con codifica Base32 e 42 colonne:
 
 `{{comando}} | basenc --base32 {{[-w|--wrap]}} 42`
 

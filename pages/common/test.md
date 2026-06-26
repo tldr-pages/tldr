@@ -15,7 +15,7 @@
 
 - Test if a [f]ile exists:
 
-`test -f "{{path/to/file_or_directory}}"`
+`test -f "{{path/to/file}}"`
 
 - Test if a [d]irectory does not exist:
 
