@@ -1,7 +1,7 @@
 # pkg
 
 > Termux용 패키지 관리 유틸리티.
-> 더 많은 정보: <https://wiki.termux.com/wiki/패키지_Management>.
+> 더 많은 정보: <https://wiki.termux.com/wiki/Package_Management>.
 
 - 설치됨 모든 패키지 업그레이드:
 
