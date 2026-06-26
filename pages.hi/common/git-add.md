@@ -1,7 +1,7 @@
 # git add
 
 > बदले गए फाइल्स को कमिट के लिए स्टेज करना।
-> अधिक जानकारी: <https://git-scm.com/docs/git-add>.
+> अधिक जानकारी: <https://git-scm.com/docs/git-add>।
 
 - किसी फाइल को स्टेज करना:
 
