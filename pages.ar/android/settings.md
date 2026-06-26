@@ -5,7 +5,7 @@
 
 - قائمة الاعدادات في `global`:
 
-`settings list {{global}}`
+`settings list global`
 
 - احصل على قيمة اعدادات معينة:
 
