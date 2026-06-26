@@ -1,7 +1,7 @@
 # fls
 
 > List files and directories in an image file or device.
-> More information: <https://wiki.sleuthkit.org/index.php?title=Fls>.
+> More information: <https://github.com/sleuthkit/sleuthkit/wiki/fls>.
 
 - Build a recursive fls list over a device, output paths will start with C:
 

@@ -1,7 +1,7 @@
 # mmls
 
 > Display the partition layout of a volume system.
-> More information: <https://wiki.sleuthkit.org/index.php?title=Mmls>.
+> More information: <https://github.com/sleuthkit/sleuthkit/wiki/mmls>.
 
 - Display the partition table stored in an image file:
 

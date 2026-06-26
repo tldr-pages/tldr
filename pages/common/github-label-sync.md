@@ -1,7 +1,7 @@
 # github-label-sync
 
 > Synchronize GitHub labels.
-> More information: <https://github.com/Financial-Times/github-label-sync>.
+> More information: <https://www.npmjs.com/package/github-label-sync>.
 
 - Synchronize labels using a local `labels.json` file:
 

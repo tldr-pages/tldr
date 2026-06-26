@@ -1,7 +1,7 @@
 # pydocstyle
 
 > Statically check Python scripts for compliance with Python docstring conventions.
-> More information: <https://www.pydocstyle.org/en/latest/>.
+> More information: <https://pydocstyle.readthedocs.io/en/latest/>.
 
 - Analyze a Python script or all the Python scripts in a specific directory:
 
