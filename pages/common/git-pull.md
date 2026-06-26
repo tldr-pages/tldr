@@ -11,6 +11,10 @@
 
 `git pull {{[-r|--rebase]}}`
 
+- Synchronize with a specific remote:
+
+`git pull {{remote_name}}`
+
 - Download changes from given remote repository and branch, then merge them into `HEAD`:
 
 `git pull {{remote_name}} {{branch}}`
