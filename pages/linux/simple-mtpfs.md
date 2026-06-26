@@ -13,4 +13,4 @@
 
 - Unmount the filesystem:
 
-`fusermount -u {{mount_point}}`
+`umount {{mount_point}}`
