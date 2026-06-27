@@ -14,11 +14,11 @@
 
 - 按名称清除多个命令：
 
-`Clear-History -CommandLine {{"command1", "command2", ...}}`
+`Clear-History -CommandLine {{"命令1", "命令2", ...}}`
 
 - 按 ID 清除指定历史记录条目：
 
-`Clear-History -Id {{id_number}}`
+`Clear-History -Id {{ID_编号}}`
 
 - 清除多个 ID：
 
@@ -26,7 +26,7 @@
 
 - 清除 ID 范围内的命令：
 
-`Clear-History -Id ({{start_id}}..{{end_id}})`
+`Clear-History -Id ({{起始_ID}}..{{结束_ID}})`
 
 - 显示将被删除的内容：
 
