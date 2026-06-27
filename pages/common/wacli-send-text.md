@@ -2,7 +2,7 @@
 
 > Send a text message via WhatsApp.
 > See also: `wacli send file`.
-> More information: <https://github.com/openclaw/wacli>.
+> More information: <https://wacli.sh/send.html>.
 
 - Send a text message to a phone number:
 
