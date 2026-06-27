@@ -21,6 +21,11 @@ Contributions to the tldr-pages project are [most welcome](GOVERNANCE.md)!
 
 All `tldr` pages are stored in Markdown right here on GitHub. Just open an issue or send a pull request, and we'll incorporate it as soon as possible.
 
+> [!NOTE]
+> Check that the project has been maintained for at least a year before submitting a page for it or that the project is notable.
+> The definition of notable is at the discretion of the maintainers.
+> This is to ensure that the tldr pages doesn't get cluttered with projects that have been abandoned. 
+
 > [!IMPORTANT]
 > While this file contains general instructions to get started, it is suggested to read the [style guide](contributing-guides/style-guide.md) and [translation templates](contributing-guides/translation-templates)
 > for more detailed information about the syntax and commonly used translation terms.
@@ -35,6 +40,8 @@ To get started, please [sign](https://cla-assistant.io/tldr-pages/tldr) the
 > We strongly discourage using generative AI tools to create new pages, as their output is often inaccurate and may not follow our style guidelines.
 > For translations, machine translation tools may be used as reference, but their results must be thoroughly proofread before submission.
 > Pull requests suspected of being made in whole or in part through generative AI or machine translation software without human-review will be closed.
+
+
 
 ## Guidelines
 
