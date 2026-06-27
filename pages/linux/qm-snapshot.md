@@ -11,7 +11,7 @@
 
 `qm {{[sn|snapshot]}} {{100}} {{snapshot_name}} --description {{description}}`
 
-- Create a snapshot including the vmstate:
+- Create a snapshot including the running virtual machine state:
 
 `qm {{[sn|snapshot]}} {{100}} {{snapshot_name}} --description {{description}} --vmstate 1`
 

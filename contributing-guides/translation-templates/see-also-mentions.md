@@ -28,6 +28,7 @@ This file contains the translation templates of this notice.
 [ko](#ko) •
 [lo](#lo) •
 [ml](#ml) •
+[nb](#nb) •
 [ne](#ne) •
 [nl](#nl) •
 [no](#no) •
@@ -212,6 +213,14 @@ This file contains the translation templates of this notice.
 
 ```markdown
 > ഇതും കാണുക: `example`.
+```
+
+---
+
+### nb
+
+```markdown
+> Se også: `example`.
 ```
 
 ---
