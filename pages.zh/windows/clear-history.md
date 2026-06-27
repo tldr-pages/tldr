@@ -10,7 +10,7 @@
 
 - 按指定名称清除命令：
 
-`Clear-History -CommandLine "{{command}}"`
+`Clear-History -CommandLine "{{命令}}"`
 
 - 按名称清除多个命令：
 
