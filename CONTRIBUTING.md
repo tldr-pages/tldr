@@ -41,8 +41,6 @@ To get started, please [sign](https://cla-assistant.io/tldr-pages/tldr) the
 > For translations, machine translation tools may be used as reference, but their results must be thoroughly proofread before submission.
 > Pull requests suspected of being made in whole or in part through generative AI or machine translation software without human-review will be closed.
 
-
-
 ## Guidelines
 
 The basic format of a `tldr` page is a set of concrete usage examples.
