@@ -9,7 +9,7 @@
 
 - Führe eine bestimmte Java-Version mit benutzerdefinierten Eigenschaften über coursier aus:
 
-`cs java --jvm {{jvm_name}}:{{jvm_version}} -Xmx32m -X{{another_jvm_opt}} -jar {{path/to/jar_name.jar}}`
+`cs java --jvm {{jvm_name}}:{{jvm_version}} -Xmx32m -X{{another_jvm_opt}} -jar {{pfad/zu/jar_name.jar}}`
 
 - Liste alle verfügbaren JVMs im coursier-Standardindex auf:
 
