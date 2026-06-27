@@ -12,7 +12,7 @@
 `simple-mtpfs {{mount_point}}`
 
 - Mount a specific device to a directory (useful when multiple devices are connected):
- 
+
 `simple-mtpfs --device {{number}} {{mount_point}}`
 
 - Unmount the filesystem:
