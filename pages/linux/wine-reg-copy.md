@@ -1,7 +1,7 @@
 # wine reg copy
 
 > Copy a registry key to a new location within the Wine registry.
-> More information: <https://gitlab.winehq.org/wine/wine/-/wikis/Commands>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/reg-copy>.
 
 - Copy a registry key to a new location:
 

@@ -1,7 +1,7 @@
 # wine reg delete
 
 > Delete keys and values from the Wine registry.
-> More information: <https://gitlab.winehq.org/wine/wine/-/wikis/Commands>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/reg-delete>.
 
 - Delete a registry key and all of its values:
 
