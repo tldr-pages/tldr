@@ -30,4 +30,3 @@
 - Setze eine bestimmte JVM als Standard für das gesamte System:
 
 `cs java --jvm {{jvm_name}}:{{jvm_version}} --setup`
-
