@@ -5,7 +5,7 @@
 
 - Показать список настроек в `global`:
 
-`settings list {{global}}`
+`settings list global`
 
 - Получить значение определенного параметра:
 

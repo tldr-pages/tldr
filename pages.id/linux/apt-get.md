@@ -2,36 +2,37 @@
 
 > Manajemen paket untuk Debian dan Ubuntu.
 > Cari paket menggunakan `apt-cache`.
+> Disarankan untuk menggunakan `apt` saat menggunakan perintah ini secara interaktif dalam Ubuntu versi 16.04 dan seterusnya.
 > Informasi lebih lanjut: <https://manned.org/apt-get.8>.
 
-- Perbarui daftar paket yang tersedia beserta versinya (hal ini direkomendasikan untuk dijalankan sebelum menjalankan perintah `apt-get` yang lain):
+- Perbarui daftar paket yang tersedia beserta versinya (direkomendasikan untuk menggunakan perintah ini sebelum perintah `apt-get` lainnya):
 
 `sudo apt-get update`
 
-- Pasang sebuah paket, atau perbarui ke versi terbaru yang tersedia:
+- Pasang atau perbarui sebuah paket menuju versi terbaru:
 
-`sudo apt-get install {{paket}}`
+`sudo apt-get install {{nama_paket}}`
 
-- Hapus sebuah paket:
+- Hapus paket yang terpasang sebelumnya:
 
-`sudo apt-get remove {{paket}}`
+`sudo apt-get remove {{nama_paket}}`
 
-- Hapus sebuah paket dan file konfigurasinya:
+- Hapus paket yang terpasang sebelumnya, beserta seluruh berkas konfigurasi yang dibentuk oleh paket tersebut:
 
-`sudo apt-get purge {{paket}}`
+`sudo apt-get purge {{nama_paket}}`
 
-- Perbarui semua paket yang terpasang ke versi terbaru yang tersedia:
+- Perbarui seluruh paket yang terpasang ke versi terbaru:
 
 `sudo apt-get upgrade`
 
-- Bersihkan repositori lokal, hapus file paket (`.deb`) yang sebelumnya gagal diunduh dan tidak bisa diunduh kembali:
+- Bersihkan repositori lokal, hapus berkas-berkas paket (`.deb`) yang sebelumnya gagal diunduh dan tak bisa diunduh kembali:
 
 `sudo apt-get autoclean`
 
-- Hapus semua paket yang tidak diperlukan kembali:
+- Hapus seluruh paket yang tidak diperlukan kembali:
 
 `sudo apt-get autoremove`
 
-- Perbarui paket yang terinstal (mirip `upgrade`), namun hapus paket yang tidak dipakai kembali dan pasang paket tambahan untuk memenuhi dependensi baru:
+- Perbarui kumpulan paket yang terinstal (mirip `upgrade`), namun hapus paket yang tidak dipakai kembali dan pasang paket tambahan untuk memenuhi dependensi baru:
 
 `sudo apt-get dist-upgrade`

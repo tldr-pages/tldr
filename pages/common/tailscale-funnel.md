@@ -15,6 +15,6 @@
 
 `tailscale funnel --bg 3000`
 
-- Expose an HTTPS server with invalid or self-signed certificates at https://localhost:8443:
+- Expose an HTTPS server with invalid or self-signed certificates at <https://localhost:8443>:
 
 `tailscale funnel https+insecure://localhost:8443`
