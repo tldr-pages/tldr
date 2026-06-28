@@ -5,7 +5,7 @@
 
 - Toon een lijst met instellingen in de `global` namespace:
 
-`settings list {{global}}`
+`settings list global`
 
 - Verkrijg een waarde van een specifieke instelling:
 

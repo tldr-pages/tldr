@@ -5,7 +5,7 @@
 
 - Wypisz ustawienia w przestrzeni `global`:
 
-`settings list {{global}}`
+`settings list global`
 
 - Wyświetl wartość określonego ustawienia:
 
