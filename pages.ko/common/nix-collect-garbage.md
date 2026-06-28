@@ -8,7 +8,7 @@
 
 `nix-collect-garbage {{[-d|--delete-old]}}`
 
--오래된 store 경로 삭제를 시뮬레이션:
+- 오래된 store 경로 삭제를 시뮬레이션:
 
 `nix-collect-garbage {{[-d|--delete-old]}} --dry-run`
 
