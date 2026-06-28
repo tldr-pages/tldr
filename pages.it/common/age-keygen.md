@@ -12,6 +12,6 @@
 
 `age-keygen -pq {{[-o|--output]}} {{percorso/del/file}}`
 
-- Converte un'identit[a] in un destinatario e stampa la chiave pubblica su `stdout`:
+- Converte un'identita (identit[y]) in un destinatario e stampa la chiave pubblica su `stdout`:
 
 `age-keygen -y {{percorso/del/file}}`
