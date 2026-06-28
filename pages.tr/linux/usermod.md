@@ -1,6 +1,6 @@
 # usermod
 
-> Bir kullanıcı hesabını düzenleyin
+> Bir kullanıcı hesabını düzenleyin.
 > Ayrıca bakınız: `users`, `useradd`, `userdel`.
 > Daha fazla bilgi için: <https://manned.org/usermod>.
 
