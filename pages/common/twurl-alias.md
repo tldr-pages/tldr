@@ -1,24 +1,16 @@
 # twurl alias
 
-> Manage aliases for the Twitter API command-line client `twurl`.
+> Manage aliases for API endpoint paths.
 > More information: <https://github.com/twitter/twurl>.
 
 - List all aliases:
 
 `twurl alias`
 
-- Create an alias for a Twitter API endpoint:
+- Create an alias for an endpoint path:
 
-`twurl alias {{alias_name}} {{endpoint}}`
+`twurl alias {{alias_name}} {{/1.1/statuses/home_timeline.json}}`
 
-- Create an alias for the home timeline endpoint:
+- Create an alias for posting tweets:
 
-`twurl alias {{home}} {{/1.1/statuses/home_timeline.json}}`
-
-- Use an alias:
-
-`twurl {{alias_name}}`
-
-- Remove an alias:
-
-`twurl alias rm {{alias_name}}`
+`twurl alias {{tweet}} {{/1.1/statuses/update.json}}`
