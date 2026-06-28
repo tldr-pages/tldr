@@ -14,7 +14,7 @@
 
 - Ejecuta un modelo con una sola indicación y el pensamiento desactivado:
 
-`ollama run {{modelo}} --think=false "{{indicación}"`
+`ollama run {{modelo}} --think=false "{{indicación}}"`
 
 - Enumera los modelos descargados:
 
