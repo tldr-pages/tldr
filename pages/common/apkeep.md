@@ -11,6 +11,10 @@
 
 `apkeep {{[-a|--app]}} {{com.example.application}} {{[-l|--list-versions]}} {{path/to/directory}}`
 
+- Download a specific version of an APK file:
+
+`apkeep {{[-a|--app]}} {{com.example.application}}@{{app_version}} {{path/to/directory}}`
+
 - Specify a store to download from:
 
 `apkeep {{[-a|--app]}} {{com.example.application}} {{[-d|--download-source]}} {{apk-pure|google-play|f-droid|huawei-app-gallery}} {{path/to/directory}}`
