@@ -7,6 +7,10 @@
 
 `pm list packages`
 
+- Elenca solo i pacchetti di [s]istema o quelli di terze parti:
+
+`pm list packages {{-s|-3}}`
+
 - Stampa tutti gli utenti del sistema:
 
 `pm list users`
