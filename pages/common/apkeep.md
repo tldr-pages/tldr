@@ -18,3 +18,7 @@
 - Specify a store to download from:
 
 `apkeep {{[-a|--app]}} {{com.example.application}} {{[-d|--download-source]}} {{apk-pure|google-play|f-droid|huawei-app-gallery}} {{path/to/directory}}`
+
+- Display help:
+
+`apkeep {{[-h|--help]}}`
