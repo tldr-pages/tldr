@@ -6,4 +6,4 @@
 
 - Install queued packages:
 
-`pm install-commit`
+`pm install-commit {{session_id}}`
