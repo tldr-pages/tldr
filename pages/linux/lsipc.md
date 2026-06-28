@@ -8,7 +8,7 @@
 
 `lsipc`
 
-- Show information about active shared [m]emory segments, message [q]ueues, or [s]empahore sets:
+- Show information about active shared [m]emory segments, message [q]ueues, or [s]emaphore sets:
 
 `lsipc {{--shmems|--queues|--semaphores}}`
 
