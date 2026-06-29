@@ -11,7 +11,7 @@
 
 `git pull {{[-r|--rebase]}}`
 
-- Synchronize with a specific remote:
+- Download changes from a specific remote repository:
 
 `git pull {{remote_name}}`
 
