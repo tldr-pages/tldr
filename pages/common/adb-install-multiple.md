@@ -1,6 +1,6 @@
 # adb install-multiple
 
-> Install split android packages.
+> Install split Android packages.
 > More information: <https://developer.android.com/tools/adb>.
 
 - Install a split package:
