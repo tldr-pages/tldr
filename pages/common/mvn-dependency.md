@@ -6,7 +6,7 @@
 
 - Add a dependency:
 
-`mvn dependency:add -Dgav=groupId:artifactId`
+`mvn dependency:add -Dgav={{group_id}}:{{artifact_id}}:{{version}}`
 
 - Display the full dependency tree, including direct and transitive dependencies:
 
