@@ -6,20 +6,20 @@
 
 - Apply a patch using a diff file (filenames must be included in the diff file):
 
-`patch < {{patch.diff}}`
+`patch {{[-i|--input]}} {{patch.diff}}`
 
 - Apply a patch to a specific file:
 
-`patch < {{patch.diff}} {{path/to/file}}`
+`patch {{[-i|--input]}} {{patch.diff}} {{path/to/file}}`
 
 - Patch a file writing the result to a different file:
 
-`patch < {{patch.diff}} {{path/to/input_file}} {{[-o|--output]}} {{path/to/output_file}}`
+`patch {{[-i|--input]}} {{patch.diff}} {{path/to/input_file}} {{[-o|--output]}} {{path/to/output_file}}`
 
 - Apply a patch to the current directory:
 
-`patch < {{patch.diff}} {{[-p|--strip]}} 1`
+`patch {{[-i|--input]}} {{patch.diff}} {{[-p|--strip]}} 1`
 
 - Apply the reverse of a patch:
 
-`patch < {{patch.diff}} {{[-R|--reverse]}}`
+`patch {{[-i|--input]}} {{patch.diff}} {{[-R|--reverse]}}`
