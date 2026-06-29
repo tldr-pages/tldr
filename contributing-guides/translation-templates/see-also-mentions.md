@@ -228,7 +228,7 @@ This file contains the translation templates of this notice.
 ### ne
 
 ```markdown
-> हेर्नुहोस् पनि: `example`.
+> हेर्नुहोस् पनि: `example`।
 ```
 
 ---
