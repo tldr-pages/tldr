@@ -5,4 +5,4 @@
 
 - Install a split package:
 
-`adb install-multiple {{app1.apk app2.apk ...}}`
+`adb install-multiple {{path/to/app1.apk path/to/app2.apk ...}}`
