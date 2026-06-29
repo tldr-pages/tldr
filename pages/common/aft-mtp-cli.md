@@ -9,16 +9,16 @@
 
 - Start interactive mode:
 
-`aft-mtp-cli {{-i}}`
+`aft-mtp-cli -i`
 
 - Connect to a specific device by name:
 
-`aft-mtp-cli {{-d}} {{device_name}}`
+`aft-mtp-cli -d {{device_name}}`
 
 - Read commands from a file:
 
-`aft-mtp-cli {{-f}} {{path/to/file}}`
+`aft-mtp-cli -f {{path/to/file}}`
 
 - Display version information:
 
-`aft-mtp-cli {{-V}}`
+`aft-mtp-cli -V`
