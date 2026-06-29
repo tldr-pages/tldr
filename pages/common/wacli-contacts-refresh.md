@@ -2,7 +2,7 @@
 
 > Synchronize contacts from the WhatsApp store.
 > See also: `wacli contacts search`, `wacli contacts show`.
-> More information: <https://github.com/openclaw/wacli>.
+> More information: <https://wacli.sh/contacts.html>.
 
 - Refresh all contacts from the store:
 
