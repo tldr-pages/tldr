@@ -9,7 +9,7 @@
 
 - Start a pomodoro session:
 
-`pomo start {{name}}`
+`pomo start {{message}}`
 
 - Start a pomodoro session with three intervals that last three seconds:
 
