@@ -5,7 +5,7 @@
 
 - List connected devices:
 
-`aft-mtp-cli {{-l}}`
+`aft-mtp-cli -l`
 
 - Start interactive mode:
 
