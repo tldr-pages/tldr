@@ -9,7 +9,7 @@
 
 - List all available versions for download:
 
-`apkeep {{[-a|--app]}} {{com.example.application}} {{[-l|--list-versions]}} {{path/to/directory}}`
+`apkeep {{[-a|--app]}} {{com.example.application}} {{[-l|--list-versions]}}`
 
 - Download a specific version of an APK file:
 
