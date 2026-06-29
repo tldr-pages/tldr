@@ -22,7 +22,7 @@
 
 - ネイバー(ARP テーブル)を表示する:
 
-`ip {{[n|neighbour]}}`
+`ip {{[n|neighbor]}}`
 
 - インターフェースを up/down する:
 

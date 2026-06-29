@@ -27,6 +27,7 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 [ko](#ko) •
 [lo](#lo) •
 [ml](#ml) •
+[nb](#nb) •
 [ne](#ne) •
 [nl](#nl) •
 [no](#no) •
@@ -211,6 +212,14 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 
 ```markdown
 > കൂടുതൽ വിവരങ്ങൾ: <https://example.com>.
+```
+
+---
+
+### nb
+
+```markdown
+> Mer informasjon: <https://example.com>.
 ```
 
 ---

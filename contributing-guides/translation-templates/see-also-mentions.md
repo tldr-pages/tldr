@@ -28,6 +28,7 @@ This file contains the translation templates of this notice.
 [ko](#ko) •
 [lo](#lo) •
 [ml](#ml) •
+[nb](#nb) •
 [ne](#ne) •
 [nl](#nl) •
 [no](#no) •
@@ -216,10 +217,18 @@ This file contains the translation templates of this notice.
 
 ---
 
+### nb
+
+```markdown
+> Se også: `example`.
+```
+
+---
+
 ### ne
 
 ```markdown
-> हेर्नुहोस् पनि: `example`.
+> हेर्नुहोस् पनि: `example`।
 ```
 
 ---

@@ -9,7 +9,7 @@
 
 - Captura de pantalla a un archivo específico:
 
-`grim -o {{ruta/al/archivo_resultado}}`
+`grim -o {{DP-1}} {{ruta/al/archivo_resultado}}`
 
 - Captura de pantalla de una región específica:
 
@@ -17,7 +17,7 @@
 
 - Selecciona una región específica y toma una captura de dicha porción, usando slurp:
 
-`grim -g "{{$(slurp)}}"`
+`grim -g "$(slurp)"`
 
 - Utiliza un nombre de archivo personalizado:
 

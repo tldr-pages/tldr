@@ -22,7 +22,7 @@
 
 - Komşuları (ARP tablosunu) göster:
 
-`ip {{[n|neighbour]}}`
+`ip {{[n|neighbor]}}`
 
 - Bir arayüzü etkinleştir/devre dışı bırak:
 

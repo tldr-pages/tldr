@@ -23,8 +23,8 @@
 
 - Rendi `rm` interattivo:
 
-`alias {{rm}}="{{rm --interactive}}"`
+`alias rm="rm --interactive"`
 
 - Crea `la` come scorciatoia per `ls --all`:
 
-`alias {{la}}="{{ls --all}}"`
+`alias la="ls --all"`

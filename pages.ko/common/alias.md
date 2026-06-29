@@ -23,8 +23,8 @@
 
 - `rm` 을 대화형 명령어로 전환:
 
-`alias {{rm}}="{{rm -i}}"`
+`alias rm="rm -i"`
 
 - `ls -a`의 지름길인 `la`생성:
 
-`alias {{la}}="{{ls -a}}"`
+`alias la="ls -a"`

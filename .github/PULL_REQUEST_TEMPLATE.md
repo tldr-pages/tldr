@@ -1,9 +1,9 @@
 <!--
 Thank you for contributing!
-Please fill in the following checklist, removing items that do not apply.
+Please fill in the following checklist.
 See also https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md.
 
-Sign the CLA before submitting a pull request or it will be closed after some time.
+Sign the CLA before submitting a pull request and do not modify the PR checklist or it will be closed after some time.
 https://cla-assistant.io/tldr-pages/tldr
 -->
 

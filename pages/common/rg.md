@@ -20,7 +20,7 @@
 
 `rg {{[-.|--hidden]}} --no-ignore {{pattern}}`
 
-- Only search the files whose names match the glob pattern(s) (e.g. `README.*`):
+- Only search the files matching the glob pattern(s) (e.g. `README.*`, use `!filename_pattern` to exclude instead):
 
 `rg {{pattern}} {{[-g|--glob]}} {{filename_glob_pattern}}`
 

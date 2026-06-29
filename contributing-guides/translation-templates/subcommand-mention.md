@@ -26,6 +26,7 @@ This file contains the translation templates of this notice.
 [ko](#ko) •
 [lo](#lo) •
 [ml](#ml) •
+[nb](#nb) •
 [ne](#ne) •
 [nl](#nl) •
 [no](#no) •
@@ -210,6 +211,14 @@ This file contains the translation templates of this notice.
 
 ```markdown
 > `example` പോലുള്ള ചില ഉപകമാൻഡുകൾക്ക് അവരുടേതായ ഉപയോഗ ഡോക്യുമെന്റേഷൻ ഉണ്ട്.
+```
+
+---
+
+### nb
+
+```markdown
+> Noen underkommandoer som `example` har sin egen bruksdokumentasjon.
 ```
 
 ---

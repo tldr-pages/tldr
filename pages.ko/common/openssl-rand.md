@@ -7,7 +7,7 @@
 
 `openssl rand -hex 8`
 
-- 20바이트를 랜덤으로 생성 후 base64로 인코딩하여 생성:
+- 20바이트를 랜덤으로 생성 후 Base64로 인코딩하여 생성:
 
 `openssl rand -base64 20`
 
@@ -15,6 +15,6 @@
 
 `openssl rand -out {{경로/대상/파일}} {{길이}}`
 
-- 1 KiB/MiB/GiB/TiB 크기의 랜덤 바이트를 hex 또는 base64로 생성:
+- 1 KiB/MiB/GiB/TiB 크기의 랜덤 바이트를 hex 또는 Base64로 생성:
 
 `openssl rand -{{hex|base64}} 1{{K|M|G|T}}`

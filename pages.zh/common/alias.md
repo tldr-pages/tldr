@@ -23,8 +23,8 @@
 
 - 将 `rm` 转换为交互式命令：
 
-`alias {{rm}}="{{rm --interactive}}"`
+`alias rm="rm --interactive"`
 
 - 创建别名 `la` 来指代 `ls --all`：
 
-`alias {{la}}="{{ls --all}}"`
+`alias la="ls --all"`

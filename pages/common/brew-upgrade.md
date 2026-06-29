@@ -14,3 +14,7 @@
 - Print what would be upgraded, but don't actually upgrade anything:
 
 `brew upgrade {{[-n|--dry-run]}}`
+
+- Upgrade all outdated packages without asking for confirmation:
+
+`brew upgrade {{[-y|--yes]}}`

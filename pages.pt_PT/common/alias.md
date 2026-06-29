@@ -23,8 +23,8 @@
 
 - Torna `rm` num comando interativo:
 
-`alias {{rm}}="{{rm -i}}"`
+`alias rm="rm -i"`
 
 - Cria `la` como um atalho para `ls -a`:
 
-`alias {{la}}="{{ls -a}}"`
+`alias la="ls -a"`

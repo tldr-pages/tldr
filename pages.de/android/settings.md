@@ -5,7 +5,7 @@
 
 - Gib eine Liste aller Einstellungen im Namespace `global` aus:
 
-`settings list {{global}}`
+`settings list global`
 
 - Gib den Wert einer bestimmten Einstellung aus:
 

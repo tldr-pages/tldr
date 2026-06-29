@@ -20,7 +20,7 @@
 
 `sudo arping -c {{count}} {{host_ip}}`
 
-- Broadcast ARP request packets to update neighbours' ARP caches ([U]nsolicited ARP mode):
+- Broadcast ARP request packets to update neighbors' ARP caches ([U]nsolicited ARP mode):
 
 `sudo arping -U {{ip_to_broadcast}}`
 
