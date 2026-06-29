@@ -2,7 +2,7 @@
 
 > Search WhatsApp messages using full-text search.
 > See also: `wacli messages list`, `wacli messages show`.
-> More information: <https://github.com/openclaw/wacli>.
+> More information: <https://wacli.sh/messages.html>.
 
 - Search messages in a specific chat:
 
