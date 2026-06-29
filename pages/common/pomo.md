@@ -13,7 +13,7 @@
 
 - Start a pomodoro session with three intervals that last three seconds:
 
-`pomo start --duration=3s --pomodoros=3 {{message}}`
+`pomo start --duration 3s --pomodoros 3 {{message}}`
 
 - List previous tasks:
 
