@@ -3,7 +3,7 @@
 > 간단하고 블로그 친화적인 정적 사이트 생성기.
 > 더 많은 정보: <https://jekyllrb.com/docs/usage/>.
 
-- http://localhost:4000/ 에서 실행되는 개발 서버 생성:
+- <http://localhost:4000/> 에서 실행되는 개발 서버 생성:
 
 `jekyll serve`
 
