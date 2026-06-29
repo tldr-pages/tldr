@@ -1,6 +1,6 @@
 # logout
 
-> 로그인 셸 종료
+> 로그인 셸 종료.
 > 더 많은 정보: <https://www.gnu.org/software/bash/manual/bash.html#index-logout>.
 
 - 로그인 셸 종료:

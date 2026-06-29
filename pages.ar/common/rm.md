@@ -1,6 +1,6 @@
 # rm
 
-> يستخدم الأمر لحذف الملفات او المجلدات
+> يستخدم الأمر لحذف الملفات او المجلدات.
 > انظر أيضًا: `rmdir`, `trash`.
 > لمزيد من التفاصيل: <https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>.
 

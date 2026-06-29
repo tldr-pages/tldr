@@ -1,6 +1,6 @@
 # boxes
 
-> ASCII 아트 상자 그리기, 제거 및 복구
+> ASCII 아트 상자 그리기, 제거 및 복구.
 > 더 많은 정보: <https://boxes.thomasjensen.com/boxes-man-1.html>.
 
 - 문자열 주위에 상자 그리기:
