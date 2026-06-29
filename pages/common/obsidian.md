@@ -1,6 +1,6 @@
 # obsidian
 
-> Command line interface for the Obsidian Markdown note-taking app.
+> Command-line interface for the Obsidian Markdown note-taking app.
 > Note: Requires the Obsidian app to be running.
 > More information: <https://obsidian.md/help/cli>.
 
