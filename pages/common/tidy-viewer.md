@@ -16,7 +16,7 @@
 
 `tidy-viewer {{[-s|--delimiter]}} '|' {{path/to/file.psv}}`
 
-- Display data with a specific [c]olor palette (1: nord, 2: one_dark, 3: gruvbox, 4: dracula, 5: solarized light):
+- Display data with a specific color palette (1: nord, 2: one_dark, 3: gruvbox, 4: dracula, 5: solarized light):
 
 `tidy-viewer {{[-c|--color]}} {{3}} {{path/to/file.csv}}`
 
