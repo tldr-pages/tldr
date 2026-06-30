@@ -27,7 +27,7 @@
 
 `wfuzz -z list,{{word1-word2-...}} {{https://api.example.com}} -d "{{id=FUZZ&showwallet=true}}"`
 
-- 파일에서 워드리스트를 제공하며 base64 및 md5 인코딩 적용 (`wfuzz -e encoders`로 사용 가능한 모든 인코더 나열):
+- 파일에서 워드리스트를 제공하며 Base64 및 MD5 인코딩 적용 (`wfuzz -e encoders`로 사용 가능한 모든 인코더 나열):
 
 `wfuzz -z file,{{경로/대상/파일}},none-base64-md5 {{https://example.com/FUZZ}}`
 

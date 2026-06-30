@@ -1,6 +1,6 @@
 # gist
 
-> Завантажує код у https://gist.github.com.
+> Завантажує код у <https://gist.github.com>.
 > Більше інформації: <https://github.com/defunkt/gist>.
 
 - Увійти в gist на цьому комп'ютері:
