@@ -1,24 +1,28 @@
 # aft-mtp-cli
 
 > Interact with MTP devices from the command line.
-> More information: <https://github.com/whoozle/android-file-transfer-linux>.
+> More information: <https://manpages.debian.org/testing/android-file-transfer/aft-mtp-cli.1.en.html>.
 
-- List connected devices:
+- Show this help
 
-`aft-mtp-cli -l`
+`aft-mtp-cli {{[-h||--help]}}`
+
+- Show debug output:
+
+`aft-mtp-cli {{[-v||--verbose]}}`
 
 - Start interactive mode:
 
-`aft-mtp-cli -i`
+`aft-mtp-cli {{[-i||--interactive]}}`
 
-- Connect to a specific device by name:
+- Batch command processing:
 
-`aft-mtp-cli -d {{device_name}}`
+`aft-mtp-cli {{[-b||--batch]}} {{device_name}}`
 
-- Read commands from a file:
+- Read input commands from a file:
 
-`aft-mtp-cli -f {{path/to/file}}`
+`aft-mtp-cli {{[-f||--input-file]}} {{path/to/file}}`
 
 - Display version information:
 
-`aft-mtp-cli -V`
+`aft-mtp-cli {{[-V||--version]}}`
