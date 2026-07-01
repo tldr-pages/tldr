@@ -1,9 +1,9 @@
 # aft-mtp-cli
 
 > Interact with MTP devices from the command line.
-> More information: <https://manpages.debian.org/testing/android-file-transfer/aft-mtp-cli.1.en.html>.
+> More information: <https://manned.org/aft-mtp-cli>.
 
-- Show this help
+- Show this help:
 
 `aft-mtp-cli {{[-h||--help]}}`
 
