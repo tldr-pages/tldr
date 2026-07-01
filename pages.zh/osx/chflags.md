@@ -9,7 +9,7 @@
 
 - 取消文件的 hidden 标签：
 
-`chflags {{hidden}} {{文件路径}}`
+`chflags {{nohidden}} {{文件路径}}`
 
 - 递归地给文件夹中每个文件设置 uchg 标志：
 
