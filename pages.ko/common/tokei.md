@@ -1,7 +1,7 @@
 # tokei
 
 > 코드에 대한 통계 표시.
-> 더 많은 정보: <https://github.com/XAMPPRocky/tokei>.
+> 더 많은 정보: <https://github.com/XAMPPRocky/tokei#options>.
 
 - 디렉토리 및 모든 하위 디렉토리의 코드에 대한 보고서 표시:
 
