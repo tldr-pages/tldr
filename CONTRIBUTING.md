@@ -21,6 +21,11 @@ Contributions to the tldr-pages project are [most welcome](GOVERNANCE.md)!
 
 All `tldr` pages are stored in Markdown right here on GitHub. Just open an issue or send a pull request, and we'll incorporate it as soon as possible.
 
+> [!NOTE]
+> Please ensure that the project has been maintained for at least a year before submitting a page for it, notable projects are exempt from this requirement.
+> The definition of notable is at the discretion of the tldr maintainers.
+> This is to ensure that the tldr pages doesn't get cluttered with projects that have been abandoned or created for just the personal use of the creator.
+
 > [!IMPORTANT]
 > While this file contains general instructions to get started, it is suggested to read the [style guide](contributing-guides/style-guide.md) and [translation templates](contributing-guides/translation-templates)
 > for more detailed information about the syntax and commonly used translation terms.
