@@ -7,6 +7,14 @@
 
 `aft-mtp-cli {{[-h||--help]}}`
 
+- List connected devices:
+
+`aft-mtp-cli {{[-l||--device-list]}}`
+
+- Connect to a specific device by name:
+
+`aft-mtp-cli {{[-d||--device-name]}} {{device_name}}`
+
 - Show debug output:
 
 `aft-mtp-cli {{[-v||--verbose]}}`
