@@ -1,7 +1,7 @@
 # aft-mtp-mount
 
 > Mount MTP devices using FUSE.
-> More information: <https://github.com/whoozle/android-file-transfer-linux>.
+> More information: <https://manned.org/aft-mtp-mount>.
 
 - Mount an MTP device to a directory:
 
@@ -9,7 +9,7 @@
 
 - Mount a specific device to a directory:
 
-`aft-mtp-mount {{-D}} {{device_name}} {{path/to/mountpoint}}`
+`aft-mtp-mount -D {{device_name}} {{path/to/mountpoint}}`
 
 - Display debug output:
 
@@ -17,16 +17,16 @@
 
 - Reset the device before mounting:
 
-`aft-mtp-mount {{-R}} {{path/to/mountpoint}}`
+`aft-mtp-mount -R {{path/to/mountpoint}}`
 
 - Do not claim the USB interface:
 
-`aft-mtp-mount {{-C}} {{path/to/mountpoint}}`
+`aft-mtp-mount -C {{path/to/mountpoint}}`
 
 - Enable verbose output:
 
-`aft-mtp-mount {{-v}}`
+`aft-mtp-mount -v`
 
 - Display help:
 
-`aft-mtp-mount {{-h}}`
+`aft-mtp-mount -h`
