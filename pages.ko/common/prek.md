@@ -11,14 +11,14 @@
 
 `prek run`
 
-- Run prek hooks on all files, staged or unstaged:
+- Staging 여부와 관계없이 모든 파일에 대해 prek hook 실행:
 
 `prek run {{[-a|--all-files]}}`
 
-- Clean prek cache:
+- prek 캐시 정리:
 
 `prek cache clean`
 
-- Update prek configuration file to the latest repos' versions:
+- prek 설정 파일을 저장소의 최신 버전으로 업데이트:
 
 `prek auto-update`
