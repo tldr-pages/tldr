@@ -14,11 +14,11 @@
 
 - Plot one or more data files with a logarithmically scaled x-axis:
 
-`qtgrace -log x {{file1.dat file2.dat ...}}`
+`qtgrace -log x {{path/to/file1.dat path/to/file2.dat ...}}`
 
 - Plot a data file with a logarithmic scale on both axes, with data formatted as X Y DY:
 
-`qtgrace -log xy -settype xydy {{file.dat}}`
+`qtgrace -log xy -settype xydy {{path/to/file.dat}}`
 
 - Display help:
 
