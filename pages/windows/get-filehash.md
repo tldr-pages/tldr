@@ -1,13 +1,21 @@
 # Get-FileHash
 
-> Calculate a hash for a file.
+> Calculate cryptographic checksums for a file.
 > Note: This command can only be used through PowerShell.
 > More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/get-filehash>.
 
-- Calculate a hash for a specified file using the SHA256 algorithm:
+- Calculate the SHA256 checksum for a file:
 
 `Get-FileHash {{path\to\file}}`
 
-- Calculate a hash for a specified file using a specified algorithm:
+- Calculate the checksum for a file using a specified algorithm:
 
-`Get-FileHash {{path\to\file}} -Algorithm {{SHA1|SHA384|SHA256|SHA512|MD5}}`
+`Get-FileHash {{path\to\file}} -Algorithm {{SHA1|SHA256|SHA384|SHA512|MD5}}`
+
+- Calculate the checksum for a file using a deprecated algorithm (no longer available in PowerShell 6 or later):
+
+`Get-FileHash {{path\to\file}} -Algorithm {{MACTripleDES|MD5|RIPEMD160}}`
+
+- Check a known checksum of a file:
+
+`(Get-FileHash {{path\to\file}} -Algorithm {{SHA1|SHA256|SHA384|SHA512|MD5}}).Hash -eq "{{known_checksum_of_the_file}}"`
