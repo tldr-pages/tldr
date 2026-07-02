@@ -7,7 +7,7 @@
 
 `ipcs -a`
 
-- 활성 공유 메모리([m]emory), 메시지 큐([q]ueues) 또는 세마포어([s]empahore) 정보 출력:
+- 활성 공유 메모리([m]emory), 메시지 큐([q]ueues) 또는 세마포어([s]emaphore) 정보 출력:
 
 `ipcs {{-m|-q|-s}}`
 

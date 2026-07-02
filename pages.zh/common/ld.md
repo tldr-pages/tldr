@@ -1,7 +1,7 @@
 # ld
 
 > 将目标文件链接在一起。
-> 更多信息：<https://sourceware.org/binutils/docs/ld.html>。
+> 更多信息：<https://sourceware.org/binutils/docs/ld.html#Options>。
 
 - 将一个没有依赖项的特定目标文件链接到可执行文件中：
 

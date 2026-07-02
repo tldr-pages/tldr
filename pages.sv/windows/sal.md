@@ -2,6 +2,6 @@
 
 > Det här kommandot är ett alias för `Set-Alias`.
 
-- Se dokumentationen för orginalkommandot:
+- Se dokumentationen för originalkommandot:
 
 `tldr set-alias`

@@ -1,7 +1,7 @@
 # nh
 
 > Nix/NixOS 생태계를 위한 현대적인 헬퍼 유틸리티 도구.
-> `os`, `home`, `clean`, `search` 등의 하위 명령어는 각각 별도의 사용법 문서를 제공
+> `os`, `home`, `clean`, `search` 등의 하위 명령어는 각각 별도의 사용법 문서를 제공.
 > 더 많은 정보: <https://github.com/nix-community/nh#usage>.
 
 - 지정한 NixOS flake 설정을 빌드하고 적용:
