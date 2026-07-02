@@ -14,7 +14,7 @@
 
 - Convert with a specific quality:
 
-`cjxl {{[-q|--quality]}} {{0..100}} {{path/to/image.ext}} {{path/to/output.jxl}}`
+`cjxl {{[-q|--quality]}} {{0..100}} {{path/to/image.ext}} {{path/to/output}}.jxl`
 
 - Convert a JPEG to a JPEG XL with specific lossy quality:
 
