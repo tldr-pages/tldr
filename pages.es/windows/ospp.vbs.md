@@ -29,4 +29,3 @@
 - Muestra información de licencia para claves de producto instaladas:
 
 `cscript ospp.vbs /dstatus`
-
