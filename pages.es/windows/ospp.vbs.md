@@ -1,7 +1,5 @@
 # ospp.vbs
 
-# ospp.vbs
-
 > Instala, activa y gestiona versiones con licencia por volumen de los productos de Microsoft Office.
 > Utiliza `cscript` para ejecutar este programa en la línea de comandos o `wscript` en la interfaz gráfica de usuario.
 > Nota: Este comando puede anular, desactivar y/o eliminar tu volumen actual de versiones con licencia de productos de Office, por lo que te recomendamos que procedas con precaución.
