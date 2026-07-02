@@ -10,7 +10,7 @@
 
 - 执行指定的命令：
 
-`zsh -c "{{echo Hello world}}"`
+`zsh -c "{{echo 'zsh is executed'}}"`
 
 - 执行指定的脚本：
 
@@ -22,7 +22,7 @@
 
 - 执行来自 `stdin` 的命令：
 
-`{{echo Hello world}} | zsh`
+`{{echo "echo 'zsh is executed'"}} | zsh`
 
 - 执行指定的脚本，并打印出每一个将要执行的命令：
 

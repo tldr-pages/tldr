@@ -9,7 +9,7 @@
 
 - Executa os [c]omandos especificados:
 
-`cmd /c {{echo Olá Mundo}}`
+`cmd /c {{echo 'cmd é executado'}}`
 
 - Executa um script específico:
 
@@ -17,7 +17,7 @@
 
 - Executa o comando especificado e entra em um shell interativo:
 
-`cmd /k {{echo Olá Mundo}}`
+`cmd /k {{echo 'cmd é executado'}}`
 
 - Entra em um shell interativo e desabilita o uso do comando `echo` na saída dos comandos:
 

@@ -9,11 +9,11 @@
 
 - Esegue il comando specificato e poi esce:
 
-`cmd /c {{echo Ciao mondo}}`
+`cmd /c {{echo 'cmd è eseguito'}}`
 
 - Esegue il comando specificato e poi apre una shell interattiva:
 
-`cmd /k {{echo Ciao mondo}}`
+`cmd /k {{echo 'cmd è eseguito'}}`
 
 - Disabilita l'uso di `echo` nell'output di un comando:
 
