@@ -2,7 +2,7 @@
 
 > Delete a row from the private IP routing table.
 > See also: `cloudflared tunnel route ip`.
-> More information: <https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/>.
+> More information: <https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/private-net/>.
 
 - Delete a route by CIDR or route ID:
 

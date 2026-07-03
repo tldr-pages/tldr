@@ -2,7 +2,7 @@
 
 > Show the private IP routing table for tunnels.
 > See also: `cloudflared tunnel route ip`.
-> More information: <https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/>.
+> More information: <https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/private-net/>.
 
 - Show the routing table:
 

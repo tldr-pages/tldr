@@ -2,7 +2,7 @@
 
 > Update an existing virtual network.
 > See also: `cloudflared tunnel vnet`.
-> More information: <https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/>.
+> More information: <https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/private-net/>.
 
 - Rename a virtual network:
 

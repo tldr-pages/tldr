@@ -2,7 +2,7 @@
 
 > Delete a virtual network.
 > See also: `cloudflared tunnel vnet`.
-> More information: <https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/>.
+> More information: <https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/private-net/>.
 
 - Delete a virtual network by name:
 

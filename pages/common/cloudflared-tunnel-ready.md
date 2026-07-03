@@ -1,7 +1,7 @@
 # cloudflared tunnel ready
 
 > Query the local cloudflared `/ready` endpoint and return an exit code based on tunnel readiness.
-> More information: <https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/>.
+> More information: <https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/configure-tunnels/cloudflared-parameters/>.
 
 - Check whether the local tunnel has at least one ready connection:
 

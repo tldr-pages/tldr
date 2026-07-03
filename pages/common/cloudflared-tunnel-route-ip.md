@@ -2,7 +2,7 @@
 
 > Manage Cloudflare WARP routing to private IP networks exposed through tunnels.
 > See also: `cloudflared tunnel route ip add`, `cloudflared tunnel vnet`.
-> More information: <https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/>.
+> More information: <https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/private-net/>.
 
 - Add a private network route to a tunnel:
 

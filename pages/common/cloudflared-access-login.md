@@ -1,7 +1,8 @@
 # cloudflared access login
 
 > Authenticate with an identity provider for a Cloudflare Access protected application and cache the token locally.
-> More information: <https://developers.cloudflare.com/cloudflare-one/>.
+> See also: `cloudflared access token`, `cloudflared access curl`.
+> More information: <https://developers.cloudflare.com/cloudflare-one/identity/authorization-cookie/>.
 
 - Authenticate to a Cloudflare Access protected application:
 

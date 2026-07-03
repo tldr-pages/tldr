@@ -2,7 +2,7 @@
 
 > Configure and query virtual networks to manage private IP routes with overlapping IPs.
 > See also: `cloudflared tunnel vnet add`, `cloudflared tunnel route ip`.
-> More information: <https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/>.
+> More information: <https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/private-net/>.
 
 - Add a virtual network:
 

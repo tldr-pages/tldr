@@ -2,7 +2,7 @@
 
 > Add a new virtual network to which private IP routes can be attached.
 > See also: `cloudflared tunnel vnet`.
-> More information: <https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/>.
+> More information: <https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/private-net/>.
 
 - Add a virtual network:
 

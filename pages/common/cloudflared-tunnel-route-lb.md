@@ -2,7 +2,7 @@
 
 > Use a tunnel as a Cloudflare Load Balancer origin, creating the pool and load balancer if needed.
 > See also: `cloudflared tunnel route`.
-> More information: <https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/>.
+> More information: <https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/routing-to-tunnel/dns/>.
 
 - Route a load balancer hostname to a tunnel, using or creating the given pool:
 

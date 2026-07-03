@@ -2,7 +2,7 @@
 
 > Run a tunnel, creating connections between your server and the Cloudflare edge.
 > See also: `cloudflared tunnel create`, `cloudflared tunnel cleanup`.
-> More information: <https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/>.
+> More information: <https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/configure-tunnels/cloudflared-parameters/>.
 
 - Run a tunnel by name or UUID:
 

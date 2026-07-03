@@ -2,7 +2,7 @@
 
 > Define which traffic from the Cloudflare edge is routed to a tunnel.
 > See also: `cloudflared tunnel route dns`, `cloudflared tunnel route lb`, `cloudflared tunnel route ip`.
-> More information: <https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/>.
+> More information: <https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/routing-to-tunnel/dns/>.
 
 - Route a DNS hostname to a tunnel:
 

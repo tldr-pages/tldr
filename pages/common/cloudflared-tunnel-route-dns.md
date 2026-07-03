@@ -2,7 +2,7 @@
 
 > Route a hostname to a tunnel by creating a DNS CNAME record.
 > See also: `cloudflared tunnel route`.
-> More information: <https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/>.
+> More information: <https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/routing-to-tunnel/dns/>.
 
 - Create a DNS record pointing a hostname to a tunnel:
 

@@ -2,7 +2,7 @@
 
 > List the virtual networks in your Cloudflare account.
 > See also: `cloudflared tunnel vnet`.
-> More information: <https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/>.
+> More information: <https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/private-net/>.
 
 - List all virtual networks:
 

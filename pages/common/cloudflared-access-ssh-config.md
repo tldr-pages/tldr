@@ -2,7 +2,7 @@
 
 > Print an example SSH configuration for connecting to a Cloudflare Access protected host.
 > See also: `cloudflared access ssh`, `cloudflared access ssh-gen`.
-> More information: <https://developers.cloudflare.com/cloudflare-one/>.
+> More information: <https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/use-cases/ssh/>.
 
 - Print an example configuration for a protected host:
 

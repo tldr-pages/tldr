@@ -1,7 +1,7 @@
 # cloudflared tunnel diag
 
 > Create a diagnostic report from a local cloudflared instance.
-> More information: <https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/>.
+> More information: <https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/configure-tunnels/cloudflared-parameters/>.
 
 - Create a diagnostic report for the local instance:
 

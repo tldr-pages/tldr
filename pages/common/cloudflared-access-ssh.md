@@ -2,7 +2,7 @@
 
 > Proxy SSH traffic to a Cloudflare Access protected host over the Cloudflare edge.
 > See also: `cloudflared access rdp`, `cloudflared access ssh-config`.
-> More information: <https://developers.cloudflare.com/cloudflare-one/>.
+> More information: <https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/use-cases/ssh/>.
 
 - Proxy SSH traffic to a protected host:
 
