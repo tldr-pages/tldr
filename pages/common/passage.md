@@ -1,16 +1,16 @@
 # passage
 
 > Store and read passwords or other sensitive data.
-> All data is age-encrypted (as opposed to GPG used by `pass`).
+> Note: All data is age-encrypted (as opposed to GPG used by `pass`).
 > More information: <https://github.com/FiloSottile/passage>.
 
-- Insert a new password (press `Ctrl + D` on a new line to complete):
+- Insert a new password (press `<Ctrl d>` on a new line to complete):
 
-`passage insert {{path/to/data}}`
+`passage insert {{[-m|--multiline]}} {{path/to/data}}`
 
 - Insert a new password from `stdin`:
 
-`echo "{{password}}" | passage insert --echo {{path/to/data}}`
+`echo "{{password}}" | passage insert {{[-e|--echo]}} {{path/to/data}}`
 
 - Show a password:
 
@@ -18,7 +18,7 @@
 
 - Copy a password to the clipboard:
 
-`passage --clip {{path/to/data}}`
+`passage {{[-c|--clip]}} {{path/to/data}}`
 
 - List the whole store tree:
 
