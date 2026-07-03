@@ -2,6 +2,6 @@
 
 > Det här kommandot är ett alias för `ar`.
 
-- Se dokumentationen för orginalkommandot:
+- Se dokumentationen för originalkommandot:
 
 `tldr ar`
