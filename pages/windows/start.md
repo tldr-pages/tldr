@@ -13,7 +13,7 @@
 
 `start "{{window_title}}" {{cmd|powershell|python|...}}`
 
-- Open a specific directory on Windows Explorer (equivalent to `explorer {{path\to\directory}}`):
+- Open a specific directory on Windows Explorer (equivalent to `explorer path\to\directory`):
 
 `start "" "{{path\to\directory}}"`
 

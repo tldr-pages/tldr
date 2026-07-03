@@ -2,6 +2,6 @@
 
 > Det här kommandot är ett alias för `GetNPUsers.py`.
 
-- Se dokumentationen för orginalkommandot:
+- Se dokumentationen för originalkommandot:
 
 `tldr GetNPUsers.py`

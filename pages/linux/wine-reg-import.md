@@ -1,7 +1,7 @@
 # wine reg import
 
 > Import keys, values, and data into the Wine registry from a `.reg` file.
-> More information: <https://gitlab.winehq.org/wine/wine/-/wikis/Commands>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/reg-import>.
 
 - Import registry entries from a file:
 

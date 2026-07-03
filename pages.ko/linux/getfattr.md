@@ -1,6 +1,7 @@
 # getfattr
 
 > 파일 이름 및 확장 속성을 표시합니다.
+> 관련 항목: `setfattr`.
 > 더 많은 정보: <https://manned.org/getfattr>.
 
 - 파일의 모든 확장 속성을 가져와서 자세히 표시:
