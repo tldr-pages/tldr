@@ -2,6 +2,7 @@
 
 > Store and read passwords or other sensitive data.
 > Note: All data is age-encrypted (as opposed to GPG used by `pass`).
+> See also: `pass`.
 > More information: <https://github.com/FiloSottile/passage>.
 
 - Insert a new password (press `<Ctrl d>` on a new line to complete):
