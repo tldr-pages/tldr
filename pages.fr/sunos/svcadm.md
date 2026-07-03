@@ -1,7 +1,7 @@
 # svcadm
 
 > Manipuler les instances de service.
-> Plus d'informations : <https://www.unix.com/man-page/linux/1m/svcadm>.
+> Plus d'informations : <https://www.unix.com/man-page/sunos/1m/svcadm>.
 
 - Activer un service dans la base de données de service :
 

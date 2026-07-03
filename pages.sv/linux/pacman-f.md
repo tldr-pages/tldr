@@ -2,6 +2,6 @@
 
 > Det här kommandot är ett alias för `pacman --files`.
 
-- Se dokumentationen för orginalkommandot:
+- Se dokumentationen för originalkommandot:
 
 `tldr pacman files`

@@ -2,6 +2,6 @@
 
 > Det här kommandot är ett alias för `pw-cat --playback --midi`.
 
-- Se dokumentationen för orginalkommandot:
+- Se dokumentationen för originalkommandot:
 
 `tldr pw-cat`
