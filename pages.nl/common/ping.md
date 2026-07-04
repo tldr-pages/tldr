@@ -4,9 +4,9 @@
 > Zie ook: `mtr`.
 > Meer informatie: <https://manned.org/ping>.
 
-- Ping een host:
+- Ping een host met IP-adres `10.0.0.1` (Opmerking: `10.0.0.1` kan worden afgekort tot `10.1`):
 
-`ping {{host}}`
+`ping {{10.0.0.1}}`
 
 - Ping een host een specifiek aantal keren:
 
@@ -28,6 +28,10 @@
 
 `ping -O {{host}}`
 
-- Ping een host met een specifiek aantal pings, timeout (`-W`) voor elk antwoord, en totale tijdslimiet (`-w`) voor de gehele ping-uitvoering:
+- Ping een host met een specifiek aantal ([c]) pings, timeout om te [W]achten voor elk antwoord, en totale wachttijd voor de gehele ping-uitvoering:
 
 `ping -c {{aantal}} -W {{seconden}} -w {{seconden}} {{host}}`
+
+- Ping alle IPv6-hosts in het lokale netwerk:
+
+`ping -6 ff02::1%{{eth0}}`
