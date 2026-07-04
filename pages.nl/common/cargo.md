@@ -35,7 +35,3 @@
 - Bouw het Rust-project in de huidige map door gebruik te maken van de nachtelijkse compiler (vereist `rustup`):
 
 `cargo +nightly {{[b|build]}}`
-
-- Bouw met een gegeven aantal taken (standaard is het aantal CPU-kernen):
-
-`cargo {{[b|build]}} {{[-j|--jobs]}} {{aantal_taken}}`

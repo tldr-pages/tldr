@@ -6,7 +6,7 @@
 
 - Ping een host met IP-adres `10.0.0.1` (Opmerking: `10.0.0.1` kan worden afgekort tot `10.1`):
 
-`ping {{10.0.0.1}}`
+`ping 10.0.0.1`
 
 - Ping een host een specifiek aantal keren:
 

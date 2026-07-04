@@ -8,7 +8,7 @@
 
 `sudo dmesg`
 
-- Toon kernelberichten in een leesbare formaat (gelijk aan `dmesg --color --reltime` piped to a pager):
+- Toon kernelberichten in een leesbare formaat (gelijk aan `dmesg --color --reltime` doorgestuurd naar een pager):
 
 `sudo dmesg {{[-H|--human]}}`
 

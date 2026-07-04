@@ -29,7 +29,7 @@
 
 - Sorteer processen op geheugengebruik:
 
-`ps {{[-k|--sort]}} size`
+`ps {{[k|--sort]}} size`
 
 - Toon threads van een specfieke proces:
 
