@@ -1,13 +1,13 @@
 # nvm
 
 > Installeer, deïnstalleer of wissel tussen verschillende Node.js-versies.
-> Ondersteunt versienummers zoals "12.8" of "v16.13.1", en labels zoals "stable", "system", enz.
+> Ondersteunt versienummers zoals "12.8" of "v16.13.1", en labels zoals "node", "system", enz.
 > Zie ook: `asdf`.
 > Meer informatie: <https://github.com/nvm-sh/nvm#usage>.
 
-- Installeer een specifieke versie van Node.js:
+- Installeer/verwijder een specifieke versie van Node.js:
 
-`nvm install {{node_versie}}`
+`nvm {{install|uninstall}} {{node_versie}}`
 
 - Gebruik een specifieke versie van Node.js in de huidige shell:
 
@@ -17,21 +17,21 @@
 
 `nvm alias default {{node_versie}}`
 
-- Toon alle beschikbare Node.js-versies en markeer de standaardversie:
+- Toon externe versies beschikbaar voor installeren, waarbij alleen LTS (long-term support) versies worden getoond:
 
-`nvm list`
+`nvm ls-remote --lts`
 
-- Deïnstalleer een bepaalde versie van Node.js:
+- Toon geïnstalleerde versies:
 
-`nvm uninstall {{node_versie}}`
+`nvm {{[ls|list]}}`
 
 - Start de REPL van een specifieke versie van Node.js:
 
-`nvm run {{node_versie}} --version`
+`nvm run {{node_versie}}`
 
 - Voer een script uit in een specifieke versie van Node.js:
 
-`nvm exec {{node_versie}} node {{app.js}}`
+`nvm exec {{node_versie}} node {{pad/naar/script.js}}`
 
 - Upgrade naar de nieuwste werkende npm-versie op de huidige Node.js-versie:
 
