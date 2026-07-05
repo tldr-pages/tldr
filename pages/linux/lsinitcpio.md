@@ -12,6 +12,6 @@
 
 `lsinitcpio --extract {{path/to/initramfs.img}}`
 
-- View human-readable infomation on the image:
+- View human-readable information on the image:
 
 `lsinitcpio --analyze {{path/to/initramfs.img}}`
