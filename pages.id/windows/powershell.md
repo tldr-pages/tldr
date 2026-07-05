@@ -13,11 +13,11 @@
 
 `powershell -NoProfile`
 
-- Jalankan perintah secara spesifik:
+- Jalankan kumpulan perintah secara spesifik:
 
 `powershell -Command "{{echo 'powershell telah dieksekusi'}}"`
 
-- Jalankan suatu naskah perintah/script PowerShell:
+- Jalankan suatu naskah/skrip perintah PowerShell:
 
 `powershell -File {{jalan/menuju/naskah.ps1}}`
 
