@@ -1,16 +1,18 @@
 # ospp.vbs
 
-> Instala, activa y administra versiones con licencia por volumen de productos Microsoft Office.
-> Nota: este comando puede anular, desactivar y/o eliminar tu volumen actual de versiones de productos Office con licencia, así que procede con cautela.
+> Instala, activa y gestiona versiones con licencia por volumen de los productos de Microsoft Office.
+> Utiliza `cscript` para ejecutar este programa en la línea de comandos o `wscript` en la interfaz gráfica de usuario.
+> Nota: Este comando puede anular, desactivar y/o eliminar tu volumen actual de versiones con licencia de productos de Office, por lo que te recomendamos que procedas con precaución.
+> Vea también: `gethelpcmd-officeactivationscenario`.
 > Más información: <https://learn.microsoft.com/deployoffice/vlactivation/tools-to-manage-volume-activation-of-office>.
 
 - Instala una clave de producto (Nota: sustituye a la clave existente):
 
 `cscript ospp.vbs /inpkey:{{clave_producto}}`
 
-- Desinstala una clave de producto instalada con los cinco últimos dígitos de la clave de producto:
+- Desinstalar una clave de producto instalada utilizando los últimos cinco dígitos de la clave de producto:
 
-`cscript ospp.vbs /unpkey:{{clave_producto}}`
+`cscript ospp.vbs /unpkey:{{dígitos_clave_producto}}`
 
 - Establece un nombre de host KMS:
 
@@ -20,10 +22,10 @@
 
 `cscript ospp.vbs /setprt:{{puerto}}`
 
-- Activa las claves de producto de Office instaladas:
+- Activa claves de producto de Office instaladas:
 
 `cscript ospp.vbs /act`
 
-- Muestra la información de licencia de las claves de producto instaladas:
+- Muestra información de licencia para claves de producto instaladas:
 
 `cscript ospp.vbs /dstatus`

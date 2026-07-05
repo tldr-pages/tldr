@@ -22,8 +22,8 @@
 
 - CIDER 미들웨어로 nREPL 서버를 시작:
 
-`clj -Sdeps '{:deps {nrepl {:mvn/version "0.7.0"} cider/cider-nrepl {:mvn/version "0.25.2"}}}' {{[-m|--main]}} nrepl.cmdline --middleware '["cider.nrepl/cider-middleware"]' --interactive`
+`clj -Sdeps '{:deps {nrepl {:mvn/version "0.7.0"} cider/cider-nrepl {:mvn/version "0.25.2"}\}\}' {{[-m|--main]}} nrepl.cmdline --middleware '["cider.nrepl/cider-middleware"]' --interactive`
 
 - ClojureScript용 REPL을 시작하고 웹 브라우저를 열기:
 
-`clj -Sdeps '{:deps {org.clojure/clojurescript {:mvn/version "1.10.758"}}}' {{[-m|--main]}} cljs.main {{[-r|--repl]}}`
+`clj -Sdeps '{:deps {org.clojure/clojurescript {:mvn/version "1.10.758"}\}\}' {{[-m|--main]}} cljs.main {{[-r|--repl]}}`

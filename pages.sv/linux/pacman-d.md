@@ -2,6 +2,6 @@
 
 > Det här kommandot är ett alias för `pacman --database`.
 
-- Se dokumentationen för orginalkommandot:
+- Se dokumentationen för originalkommandot:
 
 `tldr pacman database`

@@ -23,6 +23,6 @@
 
 `htpasswd -v {{jalan/menuju/berkas}} {{username}}`
 
-- Tampilkan suatu string berisikan username (akun pengguna, dalam plain text) dan kata sandi (dalam hash md5):
+- Tampilkan suatu string berisikan username (akun pengguna, dalam plain text) dan kata sandi (dalam hash MD5):
 
 `htpasswd -nbm {{username}} {{kata_sandi}}`

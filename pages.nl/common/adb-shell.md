@@ -1,36 +1,28 @@
 # adb shell
 
-> Android Debug Bridge Shell: Voer externe shell-opdrachten uit op een Android-emulatorinstantie of aangesloten Android-apparaten.
+> Voer shell-opdrachten uit op een aangesloten Android-apparaat of -emulator.
 > Meer informatie: <https://developer.android.com/tools/adb>.
 
-- Start een externe interactieve shell op de emulator of het apparaat:
+- Start een interactieve shell op een emulator of device:
 
 `adb shell`
 
-- Haal alle eigenschappen op van de emulator of het apparaat:
+- Bekijk documentatie voor het tonen van Android-systeemeigenschappen:
 
-`adb shell getprop`
+`tldr {{[-p|--platform]}} android getprop`
 
-- Zet alle runtime-machtigingen terug naar hun standaard:
+- Bekijk documentatie voor de Android-pakketbeheerder:
 
-`adb shell pm reset-permissions`
+`tldr {{[-p|--platform]}} android pm`
 
-- Een gevaarlijke machtiging voor een toepassing intrekken:
+- Bekijk documentatie voor het verzenden van event-codes en touchscreen-events:
 
-`adb shell pm revoke {{pakket}} {{toestemming}}`
+`tldr {{[-p|--platform]}} android input`
 
-- Activeer een sleutelgebeurtenis:
+- Bekijk documentatie voor de Android-activiteitenbeheerder:
 
-`adb shell input keyevent {{sleutelcode}}`
+`tldr {{[-p|--platform]}} android am`
 
-- Wis de gegevens van een applicatie op een emulator of apparaat:
+- Toon gedocumenteerde Android-shellcommando's:
 
-`adb shell pm clear {{pakket}}`
-
-- Start een activiteit op emulator of apparaat:
-
-`adb shell am start -n {{pakket}}/{{activiteit}}`
-
-- Start de thuisactiviteit op een emulator of apparaat:
-
-`adb shell am start -W -c android.intent.category.HOME -a android.intent.action.MAIN`
+`tldr {{[-p|--platform]}} android {{[-l|--list]}}`

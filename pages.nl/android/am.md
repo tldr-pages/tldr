@@ -11,10 +11,14 @@
 
 `am start -a {{android.intent.action.VIEW}} -d {{tel:123}}`
 
-- Start een activiteit die overeenkomt met een specifieke actie en categorie:
+- Start een activiteit die overeenkomt met een specifieke [a]ctie en [c]ategorie:
 
 `am start -a {{android.intent.action.MAIN}} -c {{android.intent.category.HOME}}`
 
 - Converteer een intentie naar een URI:
 
 `am to-uri -a {{android.intent.action.VIEW}} -d {{tel:123}}`
+
+- Start de home-activiteit op een emulator of apparaat:
+
+`am start -W -c android.intent.category.HOME -a android.intent.action.MAIN`
