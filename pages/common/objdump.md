@@ -3,7 +3,7 @@
 > View information about object files.
 > More information: <https://manned.org/objdump>.
 
-- Display the [f]ile header information:
+- Display the file header information:
 
 `objdump {{[-f|--file-headers]}} {{path/to/binary}}`
 
@@ -11,15 +11,15 @@
 
 `objdump {{[-x|--all-headers]}} {{path/to/binary}}`
 
-- Display the [d]isassembled output of executable sections:
+- Display the disassembled output of executable sections:
 
 `objdump {{[-d|--disassemble]}} {{path/to/binary}}`
 
-- Display the [d]isassembled executable sections in Intel syntax:
+- Display the disassembled executable sections in Intel syntax:
 
 `objdump {{[-d|--disassemble]}} {{path/to/binary}} {{[-M|--disassembler-options]}} intel`
 
-- Display the [d]isassembled executable sections with jump visualizations and syntax highlighting:
+- Display the disassembled executable sections with jump visualizations and syntax highlighting:
 
 `objdump {{[-d|--disassemble]}} {{path/to/binary}} --visualize-jumps={{color|extended-color}} --disassembler-color={{color|extended-color}}`
 
