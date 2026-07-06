@@ -12,9 +12,9 @@
 
 `sensors {{[-f|--fahrenheit]}}`
 
-- Show the readings of a specific sensor chip:
+- Show the readings of a specific sensor chip (run `sensors` to find chip name, e.g. coretemp-isa-0000):
 
-`sensors {{chip}}`
+`sensors {{chip_name}}`
 
 - Output sensor data in JSON format:
 
