@@ -10,7 +10,7 @@
 
 - Show temperatures in degrees Fahrenheit:
 
-`sensors --fahrenheit`
+`sensors {{[-f|--fahrenheit]}}`
 
 - Show the readings of a specific sensor chip:
 
