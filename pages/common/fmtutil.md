@@ -1,6 +1,6 @@
 # fmtutil
 
-> Manage TeX fmts and Metafont bases.
+> Manage TeX formats and Metafont bases.
 > More information: <https://manned.org/fmtutil-sys>.
 
 - Recreate all format files:
@@ -15,10 +15,10 @@
 
 `fmtutil --listcfg`
 
-- Create/Recreate formats built with ENGINE:
+- Recreate formats built with a specific engine:
 
 `fmtutil --byengine {{engine}}`
 
-- Create/Recreate format FORMAT:
+- Recreate a specific format:
 
 `fmtutil --byfmt {{format}}`
