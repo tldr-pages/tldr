@@ -26,7 +26,7 @@
 
 - Show sensor readings using a specific configuration file:
 
-`sensors --config-file {{path/to/sensors.conf}}`
+`sensors {{[-c|--config-file]}} {{path/to/sensors.conf}}`
 
 - List all detected hardware communication buses (like I2C or ISA):
 
