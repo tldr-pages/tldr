@@ -8,7 +8,7 @@
 
 `stripe docs {{/testing}}`
 
-- Follow the live request log for the account:
+- Follow the logs of activity on the account:
 
 `stripe logs tail`
 
