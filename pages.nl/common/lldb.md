@@ -5,7 +5,7 @@
 
 - Debug een uitvoerbaar bestand:
 
-`lldb {{uitvoerbaar_bestand}}`
+`lldb "{{uitvoerbaar_bestand}}"`
 
 - Koppel `lldb` aan een draaiend proces met een gegeven PID:
 
@@ -13,4 +13,4 @@
 
 - Wacht op de start van een nieuw proces met een gegeven naam en koppel eraan:
 
-`lldb -w -n {{proces_naam}}`
+`lldb -w -n "{{proces_naam}}"`
