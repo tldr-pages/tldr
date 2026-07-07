@@ -23,6 +23,6 @@
 
 `witr --short {{process-name}}`
 
-- Output results in JSON format:
+- Display the results in a JSON format:
 
 `witr --json --pid {{pid}}`
