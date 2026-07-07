@@ -15,7 +15,7 @@
 
 `witr --port {{port}}`
 
-- Show full process tree for a PID:
+- Show a full process tree for a specific PID:
 
 `witr --pid {{pid}} --tree`
 
