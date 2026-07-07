@@ -18,7 +18,7 @@
 
 - Riproduce un file audio compresso usando passthrough (richiede integrazione FFmpeg):
 
-`pw-cat {{[-p|--playback]}} {{[-o|--encoded]}} {{percorso/del/file.ac3}}`
+`pw-cat {{[-po|--playback --encoded]}} {{percorso/del/file.ac3}}`
 
 - Riproduce un file WAV con una qualità di ricampionamento specificata (4 predefinita):
 
