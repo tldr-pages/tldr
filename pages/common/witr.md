@@ -11,7 +11,7 @@
 
 `witr --pid {{pid}}`
 
-- Find what is using a network port:
+- Find which process is using a network port:
 
 `witr --port {{port}}`
 
