@@ -14,7 +14,7 @@
 
 - Riproduce un file DSD:
 
-`pw-cat {{[-p|--playback]}} {{[-d|--dsd]}} {{percorso/del/file.dsf}}`
+`pw-cat {{[-pd|--playback --dsd]}} {{percorso/del/file.dsf}}`
 
 - Riproduce un file audio compresso usando passthrough (richiede integrazione FFmpeg):
 
