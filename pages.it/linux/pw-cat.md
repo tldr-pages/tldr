@@ -10,7 +10,7 @@
 
 - Riproduce un file MIDI:
 
-`pw-cat {{[-p|--playback]}} {{[-m|--midi]}} {{percorso/del/file.mid}}`
+`pw-cat {{[-pm|--playback --midi]}} {{percorso/del/file.mid}}`
 
 - Riproduce un file DSD:
 
