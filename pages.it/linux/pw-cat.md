@@ -26,7 +26,7 @@
 
 - Registra un file MIDI:
 
-`pw-cat {{[-r|--record]}} {{[-m|--midi]}} {{percorso/del/file.mid}}`
+`pw-cat {{[-rm|--record --midi]}} {{percorso/del/file.mid}}`
 
 - Registra un campione a un livello di volume del 125%:
 
