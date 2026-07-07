@@ -1,7 +1,7 @@
 # shutdown
 
 > 关机或重启系统。
-> 更多信息：https://manned.org/shutdown.8。
+> 更多信息：<https://manned.org/shutdown.8>。
 
 - 立即关机（[h]alt）：
 
