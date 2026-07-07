@@ -20,7 +20,7 @@
 
 `sudo ufw allow proto {{tcp}} from {{192.168.0.4}} to any port {{22}}`
 
-- Allow trafic from any IP on the 192.168.0/24 subnet on this host, through port 53, only on the eth0 interface:
+- Allow traffic from any IP on the 192.168.0/24 subnet on this host, through port 53, only on the eth0 interface:
 
 `sudo ufw allow in on {{eth0}} from {{192.168.0.0/24}} to any port {{53}}`
 
