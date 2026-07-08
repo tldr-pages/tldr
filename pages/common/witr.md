@@ -19,7 +19,7 @@
 
 `witr --pid {{pid}} --tree`
 
-- Show a short summary output:
+- Display a short summary output:
 
 `witr --short {{process_name}}`
 
