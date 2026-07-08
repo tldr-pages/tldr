@@ -26,7 +26,7 @@
 
 - Deny traffic on port 80 on this host:
 
-`sudo ufw deny {{80}}`
+`sudo ufw deny 80`
 
 - Deny all UDP traffic to ports in range 8412:8500:
 
