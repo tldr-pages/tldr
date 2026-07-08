@@ -25,7 +25,7 @@ All `tldr` pages are stored in Markdown right here on GitHub. Just open an issue
 > Please ensure that the project has been maintained for at least a year before submitting a page for it, notable projects are exempt from this requirement.
 > The definition of notable is at the discretion of the tldr maintainers.
 > This is to ensure that the tldr pages doesn't get cluttered with projects that have been abandoned or created for just the personal use of the creator.
-> Projects that have not received any commits, releases, or meaningful activity for over one year since their last update may be subject to removal from the tldr pages at the maintainers' discretion.
+> Abandoned projects or inactive personal utilities may be subject to removal at the maintainers' discretion. This does not apply to stable or complete tools that are widely used.
 
 > [!IMPORTANT]
 > While this file contains general instructions to get started, it is suggested to read the [style guide](contributing-guides/style-guide.md) and [translation templates](contributing-guides/translation-templates)
