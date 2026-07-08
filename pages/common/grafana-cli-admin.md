@@ -1,11 +1,7 @@
 # grafana cli admin
 
 > Manage Grafana administrator commands.
-> More information: <https://grafana.com/docs/grafana/latest/administration/cli/>.
-
-- Show all admin commands:
-
-`grafana cli admin`
+> More information: <https://grafana.com/docs/grafana/latest/administration/cli/#admin-commands>.
 
 - Reset the admin password:
 
