@@ -30,7 +30,7 @@
 
 - Deny all UDP traffic to ports in range 8412:8500:
 
-`sudo ufw deny proto udp from any to any port {{8412:8500}}`
+`sudo ufw deny proto udp from any to any port 8412:8500`
 
 - Delete a particular rule. The rule number can be retrieved from the `ufw status numbered` command:
 
