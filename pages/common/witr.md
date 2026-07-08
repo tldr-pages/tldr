@@ -5,7 +5,7 @@
 
 - Inspect a process by name:
 
-`witr {{process-name}}`
+`witr {{process_name}}`
 
 - Inspect a process by PID:
 
