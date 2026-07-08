@@ -9,7 +9,7 @@
 
 - Inspect a process by PID:
 
-`witr --pid {{pid}}`
+`witr --pid {{process_id}}`
 
 - Find which process is using a network port:
 
