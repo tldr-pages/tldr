@@ -25,4 +25,4 @@
 
 - Display the results in a JSON format:
 
-`witr --json --pid {{pid}}`
+`witr --json --pid {{process_id}}`
