@@ -21,7 +21,7 @@
 
 - Show a short summary output:
 
-`witr --short {{process-name}}`
+`witr --short {{process_name}}`
 
 - Display the results in a JSON format:
 
