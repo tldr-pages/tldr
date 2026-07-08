@@ -1,7 +1,7 @@
 # gamemoderun
 
 > Invoke a set of optimizations to improve game performance.
-> More information: <https://manned.org/gamemoderun>.
+> More information: <https://github.com/FeralInteractive/gamemode#requesting-gamemode>.
 
 - Run a program with optimizations:
 
