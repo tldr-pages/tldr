@@ -22,7 +22,7 @@
 
 - Allow traffic from any IP on the 192.168.0/24 subnet on this host, through port 53, only on the eth0 interface:
 
-`sudo ufw allow in on {{eth0}} from {{192.168.0.0/24}} to any port {{53}}`
+`sudo ufw allow in on eth0 from 192.168.0.0/24 to any port 53`
 
 - Deny traffic on port 80 on this host:
 
