@@ -23,10 +23,6 @@
 
 `net ads join -U {{username%password}}`
 
-- Leave an Active Directory domain:
-
-`net ads leave -U {{username%password}}`
-
 - Display Active Directory domain information:
 
 `net ads info`
@@ -34,10 +30,6 @@
 - List user-defined shares:
 
 `net usershare list`
-
-- Add a user-defined share:
-
-`net usershare add {{share_name}} {{path}} {{comment}}`
 
 - Delete a user-defined share:
 
