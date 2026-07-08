@@ -7,15 +7,15 @@
 
 `free`
 
-- Display memory in Bytes/KiB/MiB/GiB:
+- Display memory in bytes/KiB/MiB/GiB:
 
 `free -{{b|k|m|g}}`
 
-- Display memory alongside the most appropriate human-readable unit (KiB/MiB/GiB etc):
+- Display memory in the most appropriate human-readable units (KiB/MiB/GiB etc):
 
 `free {{[-h|--human]}}`
 
-- Display memory alongside the most appropriate human-readable unit that is a power of 1000 (kB/MB/GB etc):
+- Display memory in the most appropriate human-readable unit that is a power of 1000 (kB/MB/GB etc):
 
 `free {{-h|--human}} --si`
 
