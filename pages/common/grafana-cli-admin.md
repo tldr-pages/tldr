@@ -21,8 +21,8 @@
 
 - Display help:
 
-`grafana cli admin --help`
+`grafana cli admin {{[-h|--help]}}`
 
 - Display version:
 
-`grafana cli admin --version`
+`grafana cli admin {{[-v|--version]}}`
