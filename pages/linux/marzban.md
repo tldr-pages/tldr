@@ -1,6 +1,6 @@
 # marzban
 
-> Marzban proxy servers from the command line.
+> Manage Marzban proxy servers.
 > More information: <https://github.com/Gozargah/Marzban/blob/master/cli/README.md>.
 
 - Show help for the CLI:
