@@ -1,6 +1,6 @@
 # aft-mtp-cli
 
-> Interact with MTP devices from the command line.
+> Interact with MTP devices.
 > More information: <https://manned.org/aft-mtp-cli>.
 
 - List connected devices:
