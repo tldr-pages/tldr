@@ -11,6 +11,10 @@
 
 `git pull {{[-r|--rebase]}}`
 
+- Download wijzigingen van een specifieke externe repository:
+
+`git pull {{externe_naam}}`
+
 - Download wijzigingen uit de opgegeven externe repository en branch en voeg deze vervolgens samen met HEAD:
 
 `git pull {{externe_naam}} {{branch}}`

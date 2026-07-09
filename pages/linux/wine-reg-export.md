@@ -1,7 +1,7 @@
 # wine reg export
 
 > Export keys, values, and data from the Wine registry to a `.reg` file.
-> More information: <https://gitlab.winehq.org/wine/wine/-/wikis/Commands>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/reg-export>.
 
 - Export a registry key and its subkeys to a file:
 

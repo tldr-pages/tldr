@@ -4,7 +4,7 @@
 > Can also be used to run Windows programs registered in the `App Paths` Windows Registry despite not registered in `PATH` environment variable.
 > More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/start-process>.
 
-- Open a specific directory on Windows Explorer (equivalent to `explorer {{path\to\directory}}`):
+- Open a specific directory on Windows Explorer (equivalent to `explorer path\to\directory`):
 
 `Start-Process {{path\to\directory}}`
 

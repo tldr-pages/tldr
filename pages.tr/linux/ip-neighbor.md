@@ -1,4 +1,4 @@
-# ip neighbour
+# ip neighbor
 
 > Komşu/ARP tablosu yönetimi IP alt komutu.
 > Daha fazla bilgi için: <https://manned.org/ip-neighbour>.

@@ -6,7 +6,7 @@
 
 - Cria um dispositivo USB inicializável a partir de um arquivo isohybrid (como `archlinux-xxx.iso`), e mostra o progresso:
 
-`sudo dd if={{caminho/para/arquivo.iso}} of={{/dev/dispositivo_usb}} status=progress`
+`sudo dd status=progress if={{caminho/para/arquivo.iso}} of={{/dev/dispositivo_usb}}`
 
 - Clona um dispositivo para outro dispositivo com blocos de 4MiB e salva em disco antes de o comando finalizar a execução:
 
@@ -22,7 +22,7 @@
 
 - Cria uma cópia de segurança do sistema, salva em um arquivo IMG (pode ser restaurado depois trocando o valor de `if` com o de `of`), e mostra o progresso:
 
-`sudo dd if={{/dev/dispositivo_de_origem}} of={{caminho/para/arquivo.img}} status=progress`
+`sudo dd status=progress if={{/dev/dispositivo_de_origem}} of={{caminho/para/arquivo.img}}`
 
 - Verifica o progresso de uma operação `dd` que está acontecendo (execute esse comando em outro terminal):
 
