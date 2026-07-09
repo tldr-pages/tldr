@@ -3,9 +3,9 @@
 > Deploy build results to a device.
 > More information: <https://github.com/sailfishos/sailfish-qtcreator/blob/master/share/qtcreator/sfdk/modules/50-testing-mb2/doc/command.deploy.adoc>.
 
-- Deploy using a specified method (`pkcon`, `rsync`, `sdk`, `zypper`, `zypper-dup`, or `manual`):
+- Deploy using a specified method:
 
-`sfdk deploy --{{method}}`
+`sfdk deploy --{{pkcon|rsync|sdk|zypper|zypper-dup|manual}}`
 
 - Preview deploy without applying the changes:
 
@@ -19,6 +19,6 @@
 
 `sfdk deploy --{{method}} "-ignore*"`
 
-- Undeploy using a specified method (`pkcon`, `rpm`, `rsync`, `sdk`, or `zypper`):
+- Undeploy using a specified method:
 
-`sfdk undeploy --{{method}}`
+`sfdk undeploy --{{pkcon|rpm|rsync|sdk|zypper}}`
