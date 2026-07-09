@@ -3,10 +3,6 @@
 > Interact with MTP devices from the command line.
 > More information: <https://manned.org/aft-mtp-cli>.
 
-- Display help:
-
-`aft-mtp-cli {{[-h|--help]}}`
-
 - List connected devices:
 
 `aft-mtp-cli {{[-l|--device-list]}}`
@@ -31,6 +27,10 @@
 
 `aft-mtp-cli {{[-f|--input-file]}} {{path/to/file}}`
 
-- Display version information:
+- Display help:
+
+`aft-mtp-cli {{[-h|--help]}}`
+
+- Display version:
 
 `aft-mtp-cli {{[-V|--version]}}`
