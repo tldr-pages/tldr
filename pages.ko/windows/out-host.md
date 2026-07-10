@@ -5,7 +5,7 @@
 > 참고: 이 명령은 PowerShell에서만 사용 가능.
 > 더 많은 정보: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/out-host>.
 
-- 명령의 출력 또는 변수 값을 명령 줄에 표시 ( `Out-Host` 없이 실행한 것과 동일):
+- 명령의 출력 또는 변수 값을 명령 줄에 표시 (`Out-Host` 없이 실행한 것과 동일):
 
 `{{명령어_또는_변수}} | Out-Host`
 
