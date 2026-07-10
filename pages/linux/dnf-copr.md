@@ -1,8 +1,7 @@
 # dnf copr
 
 > Manage Copr repositories on Fedora-based systems.
-> Provided by `dnf-plugins-core`.
-> More information: <https://dnf-plugins-core.readthedocs.io/en/latest/copr.html>.
+> More information: <https://dnf5.readthedocs.io/en/latest/dnf5_plugins/copr.8.html>.
 
 - Enable a Copr repository:
 
@@ -10,7 +9,11 @@
 
 - Enable a Copr repository for a specific chroot:
 
-`sudo dnf copr enable {{owner}}/{{project}} {{fedora-rawhide-x86_64}}`
+`sudo dnf copr enable {{owner}}/{{project}} {{fedora-rawhide-ppc64le}}`
+
+- Enable a Copr repository from a specific hub:
+
+`sudo dnf copr enable {{hub}}/{{owner}}/{{project}}`
 
 - Disable a Copr repository:
 
@@ -22,12 +25,8 @@
 
 - List Copr repositories:
 
-`dnf copr list {{[--installed|--enabled|--disabled]}}`
+`dnf copr list`
 
-- List Copr repositories available from a user:
+- Print debug information about the system:
 
-`dnf copr list --available-by-user {{owner}}`
-
-- Search for a Copr project:
-
-`dnf copr search {{project}}`
+`dnf copr debug`
