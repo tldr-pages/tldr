@@ -9,16 +9,16 @@
 
 - Filter logs by HTTP method:
 
-`stripe logs tail --filter-http-methods={{GET}}`
+`stripe logs tail --filter-http-method {{GET}}`
 
 - Filter logs by API path:
 
-`stripe logs tail --filter-request-paths={{/v1/customers}}`
+`stripe logs tail --filter-request-path {{/v1/customers}}`
 
 - Filter logs by response status code:
 
-`stripe logs tail --filter-http-status-codes={{404}}`
+`stripe logs tail --filter-http-status-code {{404}}`
 
 - Show logs as JSON:
 
-`stripe logs tail --format=JSON`
+`stripe logs tail --format JSON`
