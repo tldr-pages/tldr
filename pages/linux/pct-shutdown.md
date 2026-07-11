@@ -6,4 +6,4 @@
 
 - Shutdown a container:
 
-`pct shutdown {{100}}`
+`pct {{[sh|shutdown]}} {{100}}`
