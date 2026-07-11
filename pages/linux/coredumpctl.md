@@ -11,6 +11,10 @@
 
 `coredumpctl list {{program}}`
 
+- Filter coredumps based on signal:
+
+`coredumpctl list COREDUMP_SIGNAL={{1..64}}`
+
 - Show information about the core dumps matching a program with PID:
 
 `coredumpctl info {{pid}}`
