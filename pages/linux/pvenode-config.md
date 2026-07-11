@@ -5,20 +5,20 @@
 
 - Print the whole configuration located in `/etc/pve/nodes/node_name/config`:
 
-`pvenode config get`
+`pvenode {{[co|config]}} {{[g|get]}}`
 
 - Print a specific property:
 
-`pvenode config get --property {{property_name}}`
+`pvenode {{[co|config]}} {{[g|get]}} --property {{property_name}}`
 
 - Set the node description shown in the "Notes" tab:
 
-`pvenode config set --description {{description_text}}`
+`pvenode {{[co|config]}} {{[s|set]}} --description {{description_text}}`
 
 - Set the location information of a node:
 
-`pvenode config set --location latitude={{latitude}},longitude={{longitude}}`
+`pvenode {{[co|config]}} {{[s|set]}} --location latitude={{latitude}},longitude={{longitude}}`
 
 - Delete a setting:
 
-`pvenode config set --delete {{property_name}}`
+`pvenode {{[co|config]}} {{[s|set]}} --delete {{property_name}}`
