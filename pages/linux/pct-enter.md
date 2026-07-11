@@ -6,4 +6,4 @@
 
 - Launch a shell:
 
-`pct enter {{100}}`
+`pct {{[en|enter]}} {{100}}`
