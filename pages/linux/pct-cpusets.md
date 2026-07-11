@@ -5,4 +5,4 @@
 
 - Print assigned CPU sets:
 
-`pct cpusets`
+`pct {{[cp|cpusets]}}`
