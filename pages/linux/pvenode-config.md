@@ -1,6 +1,6 @@
 # pvenode config
 
-> Set and get node configuration.
+> Get and set node configuration.
 > More information: <https://pve.proxmox.com/pve-docs/pvenode.1.html#cli_pvenode_config_get>.
 
 - Print the whole configuration located in `/etc/pve/nodes/node_name/config`:
