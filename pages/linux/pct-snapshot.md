@@ -5,8 +5,8 @@
 
 - Create a snapshot:
 
-`pct snapshot {{100}} {{snapshot_name}}`
+`pct {{[sn|snapshot]}} {{100}} {{snapshot_name}}`
 
 - Add a description to the snapshot:
 
-`pct snapshot {{100}} {{snapshot_name}} --description "{{description_text}}"`
+`pct {{[sn|snapshot]}} {{100}} {{snapshot_name}} --description "{{description_text}}"`
