@@ -6,7 +6,7 @@
 
 - Attach to a terminal:
 
-`pct console {{100}}`
+`pct {{[cons|console]}} {{100}}`
 
 - Detach from a terminal:
 
