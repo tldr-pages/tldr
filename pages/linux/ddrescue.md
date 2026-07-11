@@ -5,11 +5,11 @@
 
 - Take an image of a device:
 
-`sudo ddrescue {{/dev/sdb}} {{path/to/image.img}}`
+`sudo ddrescue {{/dev/sdX}} {{path/to/image.img}}`
 
 - Take an image of a device, creating a log file:
 
-`sudo ddrescue {{/dev/sdb}} {{path/to/image.img}} {{path/to/log.txt}}`
+`sudo ddrescue {{/dev/sdX}} {{path/to/image.img}} {{path/to/log.txt}}`
 
 - Clone Disk A to Disk B, creating a log file:
 
