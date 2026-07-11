@@ -2,6 +2,6 @@
 
 > Det här kommandot är ett alias för `podman load`.
 
-- Se dokumentationen för orginalkommandot:
+- Se dokumentationen för originalkommandot:
 
 `tldr podman load`

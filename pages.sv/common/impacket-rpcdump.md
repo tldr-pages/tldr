@@ -2,6 +2,6 @@
 
 > Det här kommandot är ett alias för `rpcdump.py`.
 
-- Se dokumentationen för orginalkommandot:
+- Se dokumentationen för originalkommandot:
 
 `tldr rpcdump.py`
