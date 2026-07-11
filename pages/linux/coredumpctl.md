@@ -9,7 +9,7 @@
 
 - List captured core dumps for a program:
 
-`coredumpctl list {{program}}`
+`coredumpctl list {{program_name}}`
 
 - Filter coredumps based on signal:
 
@@ -17,7 +17,7 @@
 
 - Show information about the core dumps matching a program with PID:
 
-`coredumpctl info {{pid}}`
+`coredumpctl info {{process_id}}`
 
 - Invoke debugger using the last core dump:
 
@@ -25,11 +25,11 @@
 
 - Invoke debugger using the last core dump of a program:
 
-`coredumpctl debug {{program}}`
+`coredumpctl debug {{program_name}}`
 
 - Extract the last core dump of a program to a file:
 
-`coredumpctl {{[-o|--output]}} {{path/to/file}} dump {{program}}`
+`coredumpctl dump {{program_name}} {{[-o|--output]}} {{path/to/file}}`
 
 - Skip debuginfod and pagination prompts and then print the backtrace when using `gdb`:
 
