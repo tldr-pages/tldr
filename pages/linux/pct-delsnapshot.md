@@ -5,4 +5,4 @@
 
 - Delete a snapshot with a specific name:
 
-`pct delsnapshot {{100}} {{snapshot_name}}`
+`pct {{[del|delsnapshot]}} {{100}} {{snapshot_name}}`
