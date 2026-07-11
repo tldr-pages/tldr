@@ -5,7 +5,7 @@
 
 - Display subscription information:
 
-`pvesubscription get`
+`pvesubscription {{[g|get]}}`
 
 - Set subscription key:
 
@@ -13,8 +13,8 @@
 
 - Update subscription information:
 
-`pvesubscription update`
+`pvesubscription {{[u|update]}}`
 
 - Delete a subscription key of the current node:
 
-`pvesubscription delete`
+`pvesubscription {{[d|delete]}}`
