@@ -18,4 +18,4 @@
 
 - Check a known checksum of a file:
 
-`(Get-FileHash {{path\to\file}} -Algorithm {{SHA1|SHA256|SHA384|SHA512|MD5}}).Hash -eq "{{known_checksum_of_the_file}}"`
+`(Get-FileHash {{path\to\file}} -Algorithm {{SHA1|SHA256|SHA384|SHA512|MD5}}).Hash -eq "{{known_hash}}"`
