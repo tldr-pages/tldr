@@ -5,4 +5,4 @@
 
 - List snapshots:
 
-`pct listsnapshot {{100}}`
+`pct {{[lists|listsnapshot]}} {{100}}`
