@@ -5,8 +5,8 @@
 
 - Restore a snapshot:
 
-`pct rollback {{100}} {{snapshot_name}}`
+`pct {{[ro|rollback]}} {{100}} {{snapshot_name}}`
 
 - Start the container as soon as the snapshot is restored:
 
-`pct rollback {{100}} {{snapshot_name}} --start`
+`pct {{[ro|rollback]}} {{100}} {{snapshot_name}} --start`
