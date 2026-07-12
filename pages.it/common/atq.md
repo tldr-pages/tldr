@@ -9,7 +9,7 @@
 
 - Mostra i job della coda 'a' (le code hanno nomi di un singolo carattere):
 
-`atq -q {{a}}`
+`atq -q a`
 
 - Mostra i job di tutti gli utenti (da eseguire come super user):
 
