@@ -2,7 +2,7 @@
 
 > Regular expressions (`regex`) are patterns used to match, search, and manipulate text.
 > Note: `regex` isn't a command, but syntax to be used with other commands.
-> See also: `egrep`.
+> See also: `egrep`, `glob`.
 > More information: <https://cheatography.com/davechild/cheat-sheets/regular-expressions/>.
 
 - Match any single character:
