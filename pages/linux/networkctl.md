@@ -14,7 +14,7 @@
 
 - Bring network devices up:
 
-`sudonetworkctl up {{interface1 interface2 ...}}`
+`sudo networkctl up {{interface1 interface2 ...}}`
 
 - Bring network devices down:
 
