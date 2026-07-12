@@ -21,7 +21,7 @@
 
 `{{a}}*`
 
-- Match a set of characters:
+- Match one character in a set of characters:
 
 `[{{abc}}]`
 
