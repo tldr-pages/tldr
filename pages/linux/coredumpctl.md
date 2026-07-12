@@ -11,7 +11,7 @@
 
 `coredumpctl list {{program_name}}`
 
-- Filter coredumps based on signal:
+- Filter core dumps based on a specific signal:
 
 `coredumpctl list COREDUMP_SIGNAL={{1..64}}`
 
