@@ -7,15 +7,15 @@
 
 `pct {{[cr|create]}} {{100}} {{local:vztmpl/distro-name.tar.zst}} --rootfs {{local-lvm}}:4`
 
-- Create a container and give it a specific memory limit in megabytes:
+- Give a container a specific memory limit in megabytes:
 
 `pct {{[cr|create]}} {{100}} {{local:vztmpl/distro-name.tar.zst}} --rootfs {{local-lvm}}:{{4}} --memory {{8192}}`
 
-- Create a container and give it a hostname and a password:
+- Give a container a hostname and a password:
 
 `pct {{[cr|create]}} {{100}} {{local:vztmpl/distro-name.tar.zst}} --rootfs {{local-lvm}}:{{4}} --hostname {{hostname}} --password {{password}}`
 
-- Create a container and give it network access:
+- Give a container network access:
 
 `pct {{[cr|create]}} {{100}} {{local:vztmpl/distro-name.tar.zst}} --rootfs {{local-lvm}}:{{4}} --net0 name={{eth0}},bridge={{vmbr0}},ip={{dhcp|manual|10.0.0.1/24}} --features nesting=1`
 
