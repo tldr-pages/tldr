@@ -22,7 +22,7 @@
 
 - Renew dynamic configurations (e.g. IP addresses received from a DHCP server):
 
-`networkctl renew {{interface1 interface2 ...}}`
+`sudo networkctl renew {{interface1 interface2 ...}}`
 
 - Reload configuration files (`.netdev` and `.network`):
 
