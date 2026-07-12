@@ -15,6 +15,6 @@
 
 `pvesubscription {{[u|update]}}`
 
-- Delete a subscription key of the current node:
+- Delete the subscription key from the current node:
 
 `pvesubscription {{[d|delete]}}`
