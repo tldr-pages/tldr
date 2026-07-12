@@ -7,7 +7,7 @@
 
 `pvesubscription {{[g|get]}}`
 
-- Set subscription key:
+- Set the subscription key:
 
 `pvesubscription set {{subscription_key}}`
 
