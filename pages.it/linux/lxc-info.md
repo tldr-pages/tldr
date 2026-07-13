@@ -5,7 +5,7 @@
 
 - Interroga informazioni da un container:
 
-`sudo lxc-info {{container_name}}`
+`sudo lxc-info {{nome_container}}`
 
 - Mostra aiuto:
 

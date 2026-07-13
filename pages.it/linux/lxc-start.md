@@ -9,19 +9,19 @@
 
 - Avvia un container:
 
-`sudo lxc-start {{container_name}}`
+`sudo lxc-start {{nome_container}}`
 
 - Avvia un container in primo piano:
 
-`sudo lxc-start {{container_name}} {{[-F|--foreground]}}`
+`sudo lxc-start {{nome_container}} {{[-F|--foreground]}}`
 
 - Esce da un container in primo piano (esegui questo in un terminale separato):
 
-`sudo lxc-stop {{container_name}}`
+`sudo lxc-stop {{nome_container}}`
 
 - Scrivi log di debug in un file:
 
-`sudo lxc-start {{container_name}} {{[-l|--logpriority]}} DEBUG {{[-o|--logfile]}} {{path/to/logfile}}`
+`sudo lxc-start {{nome_container}} {{[-l|--logpriority]}} DEBUG {{[-o|--logfile]}} {{percorso/al/logfile}}`
 
 - Mostra aiuto:
 
