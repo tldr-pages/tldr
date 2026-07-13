@@ -5,7 +5,7 @@
 
 - Ferma un container:
 
-`sudo lxc-stop {{container_name}}`
+`sudo lxc-stop {{nome_container}}`
 
 - Mostra aiuto:
 
