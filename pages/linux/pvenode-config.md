@@ -7,7 +7,7 @@
 
 `pvenode {{[co|config]}} {{[g|get]}}`
 
-- Print a specific property:
+- Display a specific property:
 
 `pvenode {{[co|config]}} {{[g|get]}} --property {{property_name}}`
 
