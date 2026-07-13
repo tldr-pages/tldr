@@ -28,6 +28,6 @@
 
 `neo4j-admin < {{ruta/a/nombre_archivo.dump}} database load --from-stdin {{nombre_de_base_de_datos}} --overwrite-destination=true`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `neo4j-admin --help`
