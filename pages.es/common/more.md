@@ -20,7 +20,7 @@
 
 `/{{cadena}}`
 
-- Sal del programa:
+- Sale del programa:
 
 `q`
 
