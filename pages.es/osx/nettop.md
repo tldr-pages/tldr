@@ -31,6 +31,6 @@
 
 `<h>`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `nettop -h`
