@@ -6,11 +6,11 @@
 
 - Elenca i container locali che corrispondono a una stringa. Ometti la stringa per elencare tutti i container locali:
 
-`lxc list {{match_string}}`
+`lxc list {{stringa_di_ricerca}}`
 
 - Elenca le immagini che corrispondono a una stringa. Ometti la stringa per elencare tutte le immagini:
 
-`lxc image list [{{remote}}:]{{match_string}}`
+`lxc image list [{{remote}}:]{{stringa_di_ricerca}}`
 
 - Crea un nuovo container da un'immagine:
 
@@ -34,4 +34,4 @@
 
 - Esegue un comando specifico all'interno di un container:
 
-`lxc exec [{{remote}}:]{{container}} {{command}}`
+`lxc exec [{{remote}}:]{{container}} {{comando}}`
