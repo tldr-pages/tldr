@@ -5,7 +5,7 @@
 
 - Elimina un container:
 
-`sudo lxc-destroy {{container_name}}`
+`sudo lxc-destroy {{nome_container}}`
 
 - Mostra aiuto:
 

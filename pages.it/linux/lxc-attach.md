@@ -5,11 +5,11 @@
 
 - Si collega a un container:
 
-`sudo lxc-attach {{container_name}}`
+`sudo lxc-attach {{nome_container}}`
 
 - Si collega a un container senza passargli le variabili d'ambiente dell'host:
 
-`sudo lxc-attach {{container_name}} --clear-env`
+`sudo lxc-attach {{nome_container}} --clear-env`
 
 - Mostra aiuto:
 
