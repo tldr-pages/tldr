@@ -1,6 +1,6 @@
 # aconnect
 
-> Manase ALSA sequencer connections.
+> Manage ALSA sequencer connections.
 > More information: <https://manned.org/aconnect>.
 
 - List all ports:
