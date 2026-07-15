@@ -1,6 +1,6 @@
 # jless
 
-> Command-line JSON viewer for reading, exploring, and searching JSON data.
+> View, explore, and search JSON data interactively.
 > See also: `jq`, `fx`, `less`.
 > More information: <https://jless.io/user-guide>.
 
