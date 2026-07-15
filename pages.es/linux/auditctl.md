@@ -27,6 +27,6 @@
 
 `sudo auditctl -a always,exit -F arch=b64 -F dir={{/ruta/al/directorio/}} -F perm=wa`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `auditctl -h`
