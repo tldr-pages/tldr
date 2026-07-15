@@ -8,7 +8,7 @@
 
 `az login`
 
-- Gestiona la información de suscripción a azure:
+- Gestiona la información de suscripción a Azure:
 
 `az account`
 
@@ -32,6 +32,6 @@
 
 `az interactive`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `az --help`
