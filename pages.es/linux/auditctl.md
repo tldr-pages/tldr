@@ -21,11 +21,11 @@
 
 - Vigila un archivo en busca de cambios:
 
-`sudo auditctl -a always,exit -F arch=b64 -F path={{/ruta/al/archivo}} -F perm=wa`
+`sudo auditctl -a always,exit -F arch=b64 -F path=/{{ruta/al/archivo}} -F perm=wa`
 
 - Busca cambios en un directorio de forma recursiva:
 
-`sudo auditctl -a always,exit -F arch=b64 -F dir={{/ruta/al/directorio/}} -F perm=wa`
+`sudo auditctl -a always,exit -F arch=b64 -F dir=/{{ruta/al/directorio/}}/ -F perm=wa`
 
 - Muestra la ayuda:
 
