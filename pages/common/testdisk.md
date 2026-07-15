@@ -2,7 +2,7 @@
 
 > Scan and repair disk partitions.
 > See also: `photorec`, `fdisk`.
-> More information: <https://www.cgsecurity.org/wiki/TestDisk>.
+> More information: <https://www.cgsecurity.org/wiki/TestDisk_Step_By_Step>.
 
 - Start TestDisk on a specific device:
 
