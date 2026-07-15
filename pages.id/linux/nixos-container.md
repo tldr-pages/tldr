@@ -7,7 +7,7 @@
 
 `sudo nixos-container list`
 
-- Buat suatu kontainer NixOS menggunakan berkas konfigurasi tertentu
+- Buat suatu kontainer NixOS menggunakan berkas konfigurasi tertentu:
 
 `sudo nixos-container create {{nama_kontainer}} --config-file {{jalan/menuju/berkas_konfigurasi_nix}}`
 
