@@ -3,22 +3,26 @@
 > Administer Grafana.
 > More information: <https://grafana.com/docs/grafana/latest/administration/cli/>.
 
-- Install plugins:
+- Display help:
+
+`grafana cli --help`
+
+- Display the version:
+
+`grafana cli --version`
+
+- Install one or more plugins:
 
 `grafana cli plugins install {{plugin_id1 plugin_id2 ...}}`
 
-- Specify a homepath when installing a plugin:
+- Install a plugin using a custom plugin directory:
 
-`grafana cli --homepath {{/usr/share/grafana}} plugins install {{plugin_id}}`
-
-- Update plugins:
-
-`grafana cli plugins update {{plugin_id1 plugin_id2 ...}}`
-
-- Remove plugins:
-
-`grafana cli plugins remove {{plugin_id1 plugin_id2 ...}}`
+`grafana cli --pluginsDir {{path/to/plugins_directory}} plugins install {{plugin_id}}`
 
 - List all installed plugins:
 
 `grafana cli plugins ls`
+
+- Reset the admin password:
+
+`grafana cli admin reset-admin-password {{new_password}}`
