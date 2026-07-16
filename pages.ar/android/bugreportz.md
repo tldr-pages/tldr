@@ -4,7 +4,7 @@
 > يمكن استخدام هذا الأمر فقط من خلال `adb shell`.
 > لمزيد من التفاصيل: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreportz>.
 
-- أنشئ تقرير كامل ومضغوط للمشاكل لجهاز اندرويد:
+- أنشئ تقرير كامل ومضغوط لمشكلات جهاز أندرويد:
 
 `bugreportz`
 
