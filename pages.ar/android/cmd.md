@@ -1,6 +1,6 @@
 # cmd
 
-> مدير الخدمة في اندرويد.
+> مدير خدمات أندرويد.
 > لمزيد من التفاصيل: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/cmd/>.
 
 - اعرض قائمة بكل خدمات قيد التشغيل:
