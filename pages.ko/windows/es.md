@@ -34,4 +34,4 @@
 
 - 결과 정렬 (예: 이름 오름차순):
 
-`es -sort {{이름-오름차순}}`
+`es -sort {{name-ascending}}`
