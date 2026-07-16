@@ -1,7 +1,7 @@
 # wscript
 
 > 그래픽 사용자 인터페이스 (GUI)에서 Windows Script Host 프로그램을 실행.
-> 관련 항목: 명령줄 인터페이스 (CLI)용은 `cscript`를 함께 참고.
+> 관련 항목: `cscript`.
 > 더 많은 정보: <https://learn.microsoft.com/windows-server/administration/windows-commands/cscript>.
 
 - Windows Script Host 프로그램의 기본 인터프리터를 `cscript` (CLI) 또는 `wscript` (GUI)로 설정:
