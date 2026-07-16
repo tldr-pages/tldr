@@ -3,14 +3,14 @@
 > مدير service في Android.
 > لمزيد من التفاصيل: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/cmd/>.
 
-- اعرض قائمة بكل services قيد التشغيل:
+- اعرض قائمة بكل خدمات قيد التشغيل:
 
 `cmd -l`
 
-- استدعِ service معينًا:
+- استدعِ خدمة معينًا:
 
-`cmd {{service}}`
+`cmd {{خدمة}}`
 
-- استدعِ service مع arguments محددة:
+- استدعِ خدمة مع arguments محددة:
 
-`cmd {{service}} {{argument1 argument2 ...}}`
+`cmd {{خدمة}} {{argument1 argument2 ...}}`

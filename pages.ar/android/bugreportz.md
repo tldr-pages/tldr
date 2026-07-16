@@ -1,10 +1,10 @@
 # bugreportz
 
-> أنشئ Android bug report مضغوطًا.
+> أنشئ تقرير لمشاكل اندرويد مضغوطًا.
 > يمكن استخدام هذا الأمر فقط من خلال `adb shell`.
 > لمزيد من التفاصيل: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreportz>.
 
-- أنشئ bug report كاملًا ومضغوطًا لجهاز Android:
+- أنشئ تقرير كامل ومضغوط للمشاكل لجهاز اندرويد:
 
 `bugreportz`
 
@@ -12,7 +12,7 @@
 
 `bugreportz -p`
 
-- اكتب محتوى Android bug report إلى `stdout`:
+- اكتب محتوى تقرير مشاكل اندرويد إلى `stdout`:
 
 `bugreportz -s`
 
