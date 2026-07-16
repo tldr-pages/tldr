@@ -8,7 +8,7 @@
 
 `choco {{comando}}`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `choco {{[-h|--help]}}`
 
