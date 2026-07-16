@@ -20,6 +20,6 @@
 
 `bugreportz -h`
 
-- اعرض الإصدار:
+- عرض الإصدار:
 
 `bugreportz -v`
