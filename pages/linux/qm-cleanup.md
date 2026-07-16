@@ -6,4 +6,12 @@
 
 - Clean up resources:
 
-`qm {{[cle|cleanup]}} {{100}} {{clean_shutdown_boolean}} {{guest_requested_boolean}}`
+`qm {{[cle|cleanup]}} {{100}} {{true|false}} {{true|false}}`
+
+- Indicate to the system that the VM was not shut down cleanly:
+
+`qm (([cle|cleanup]}} {{100}} false {{true|false}}`
+
+- Indicate to the system that the shutdown was requested by the guest:
+
+`qm (([cle|cleanup]}} {{100}} {{true|false}} true`
