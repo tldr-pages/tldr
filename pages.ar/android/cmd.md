@@ -3,7 +3,7 @@
 > مدير خدمات أندرويد.
 > لمزيد من التفاصيل: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/cmd/>.
 
-- اعرض قائمة بكل خدمات قيد التشغيل:
+- اعرض قائمة بجميع الخدمات قيد التشغيل:
 
 `cmd -l`
 
