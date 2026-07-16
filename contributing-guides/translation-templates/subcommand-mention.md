@@ -287,6 +287,14 @@ This file contains the translation templates of this notice.
 
 ---
 
+### si
+
+```markdown
+> `example` වැනි ඇතැම් අනු විධාන සඳහා, එයටම සඳහාම වූ ලේඛන පවතී.
+```
+
+---
+
 ### sr
 
 ```markdown

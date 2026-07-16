@@ -289,6 +289,14 @@ This file contains the translation templates of this notice.
 
 ---
 
+### si
+
+```markdown
+> මෙයද බලන්න: `example`.
+```
+
+---
+
 ### sr
 
 ```markdown

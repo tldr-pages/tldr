@@ -288,6 +288,14 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 
 ---
 
+### si
+
+```markdown
+> වැඩිදුර තොරතුරු සඳහා: <https://example.com>.
+```
+
+---
+
 ### sr
 
 ```markdown
