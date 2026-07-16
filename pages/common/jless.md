@@ -1,6 +1,6 @@
 # jless
 
-> View, explore, and search JSON data interactively.
+> View and explore JSON data interactively.
 > See also: `jq`, `fx`, `less`.
 > More information: <https://jless.io/user-guide>.
 
