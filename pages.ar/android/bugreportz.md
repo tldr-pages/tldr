@@ -16,7 +16,7 @@
 
 `bugreportz -s`
 
-- اعرض المساعدة:
+- عرض المساعدة:
 
 `bugreportz -h`
 
