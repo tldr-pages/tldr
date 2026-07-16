@@ -13,4 +13,4 @@
 
 - استدعِ خدمة مع arguments محددة:
 
-`cmd {{خدمة}} {{argument1 argument2 ...}}`
+`cmd {{الخدمة}} {{argument1 argument2 ...}}`
