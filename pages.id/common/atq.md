@@ -9,7 +9,7 @@
 
 - Tampilkan daftar pekerjaan dari suatu daftar antrian (queue, setiap antrian memiliki nama berupa satu karakter seperti `a`):
 
-`atq -q {{a}}`
+`atq -q a`
 
 - Tampilkan daftar pekerjaan terjadwal untuk seluruh pengguna (jalankan sebagai superuser):
 

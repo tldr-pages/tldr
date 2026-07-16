@@ -1,6 +1,7 @@
 # shutdown
 
 > Shutdown and reboot the system.
+> See also: `poweroff`.
 > More information: <https://manned.org/shutdown.8>.
 
 - Power off ([h]alt) immediately:

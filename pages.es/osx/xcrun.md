@@ -13,13 +13,13 @@
 
 - Busca una herramienta para un SDK:
 
-`xcrun --sdk {{nombre_de_sdk}}`
+`xcrun --sdk {{nombre_del_sdk}}`
 
 - Busca una herramienta para una cadena de herramientas:
 
 `xcrun --toolchain {{nombre_de_cadena}}`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `xcrun --help`
 
