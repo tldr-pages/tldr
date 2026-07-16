@@ -8,7 +8,7 @@
 
 `bugreportz`
 
-- اعرض تقدم عملية `bugreportz` قيد التشغيل:
+- عرض تقدّم عملية `bugreportz` الحالية:
 
 `bugreportz -p`
 
