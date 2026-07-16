@@ -17,7 +17,7 @@
 
 - 장치 `/dev/sda`의 속성 나열:
 
-`sudo udevadm info {{[-a|--attribute-walk]}} {{/dev/sda}}`
+`sudo udevadm info {{[-a|--attribute-walk]}} /dev/sda`
 
 - 모든 `udev` 규칙 다시 로드:
 
@@ -29,4 +29,4 @@
 
 - `/dev/sda` 로딩을 시뮬레이션하여 이벤트 실행 테스트:
 
-`sudo udevadm test {{/dev/sda}}`
+`sudo udevadm test /dev/sda`
