@@ -13,4 +13,4 @@
 
 - texdoc의 전체 문서 열기:
 
-`texdoc {{texdoc}}`
+`texdoc texdoc`
