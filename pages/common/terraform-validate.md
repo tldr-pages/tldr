@@ -21,4 +21,4 @@
 
 - Validate the configuration using a custom test directory:
 
-`terraform validate -test-directory={{path/to/test_directory}}`
+`terraform validate -test-directory {{path/to/test_directory}}`
