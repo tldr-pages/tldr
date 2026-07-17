@@ -13,11 +13,11 @@
 
 - التقاط جميع حركة مرور TCP مع عرض المحتويات (ASCII) في وحدة التحكم:
 
-`tcpdump -A tcp`
+`sudo tcpdump -A tcp`
 
 - التقاط حركة المرور من أو إلى مضيف محدد:
 
-`tcpdump host {{www.example.com}}`
+`sudo tcpdump host {{www.example.com}}`
 
 - التقاط حركة المرور من واجهة معينة مع مصدر، وجهة ومنفذ وجهة محددين:
 
@@ -25,11 +25,11 @@
 
 - التقاط حركة المرور لشبكة محددة:
 
-`tcpdump net {{192.168.1.0/24}}`
+`sudo tcpdump net {{192.168.1.0/24}}`
 
 - التقاط جميع حركة المرور باستثناء حركة المرور على المنفذ 22 وحفظها في ملف:
 
-`tcpdump -w {{dumpfile.pcap}} port not {{22}}`
+`sudo tcpdump -w {{dumpfile.pcap}} port not 22`
 
 - قراءة البيانات من ملف محدد:
 
