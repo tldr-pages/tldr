@@ -36,6 +36,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | pt_PT |                    |                       |                  |
 | ro    | Afișare ajutor     | Afișare versiune      | [Interactiv]     |
 | ru    | Показать справку   | Показать версию       | [Интерактивно]   |
+| si    | උදව් දැක්වීම   | අනුවාදය දැක්වීම       | [අන්තර් ක්‍රියාකාරී]   |
 | sr    |                    |                       |                  |
 | sv    | Visa hjälpen       | Visa versionen        | [Interaktiv]     |
 | ta    | உதவியைக் காட்டு    | பதிப்பைக் காட்டு      | [ஊடாடும் கட்டளை] |
