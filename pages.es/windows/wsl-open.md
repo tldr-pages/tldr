@@ -5,7 +5,7 @@
 
 - Abre el directorio actual en el Explorador de Windows:
 
-`wsl-open {{.}}`
+`wsl-open .`
 
 - Abre una URL en el navegador web predeterminado del usuario en Windows:
 

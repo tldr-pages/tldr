@@ -2,6 +2,6 @@
 
 > Det här kommandot är ett alias för `mkfs.fat`.
 
-- Se dokumentationen för orginalkommandot:
+- Se dokumentationen för originalkommandot:
 
 `tldr mkfs.fat`

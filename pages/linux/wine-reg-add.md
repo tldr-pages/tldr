@@ -1,7 +1,7 @@
 # wine reg add
 
 > Add new keys and values to the Wine registry.
-> More information: <https://gitlab.winehq.org/wine/wine/-/wikis/Commands>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/reg-add>.
 
 - Add a new registry key:
 

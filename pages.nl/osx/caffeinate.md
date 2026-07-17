@@ -9,7 +9,7 @@
 
 - Voorkom dat het scherm gedurende 1 uur (3600 seconden) in slaapstand gaat:
 
-`caffeinate -u -t {{3600}}`
+`caffeinate -u -t 3600`
 
 - Splits een proces, voer daarin "make" uit en voorkom dat het scherm in slaapstand gaat zolang dat proces actief is:
 

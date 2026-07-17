@@ -11,7 +11,7 @@
 
 `aws kinesis put-record --stream-name {{nama}} --partition-key {{kunci}} --data {{pesan_dalam_sandian_base64}}`
 
-- Tulis sebuah rekor dalam suatu siaran Kinesis dengan menyandikan pesan base64 secara langsung dalam barisan perintah:
+- Tulis sebuah rekor dalam suatu siaran Kinesis dengan menyandikan pesan Base64 secara langsung dalam barisan perintah:
 
 `aws kinesis put-record --stream-name {{nama}} --partition-key {{kunci}} --data "$( echo "{{pesan mentah saya}}" | base64 )"`
 

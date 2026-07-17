@@ -23,6 +23,6 @@
 
 `htpasswd -v {{path/to/file}} {{username}}`
 
-- Display a string with username (plain text) and password (md5):
+- Display a string with username (plain text) and password (MD5):
 
 `htpasswd -nbm {{username}} {{password}}`

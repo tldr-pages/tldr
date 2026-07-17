@@ -31,6 +31,6 @@
 
 `mypy --config-file {{ruta/al/archivo_de_configuración}}`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `mypy {{[-h|--help]}}`

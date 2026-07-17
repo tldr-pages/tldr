@@ -9,7 +9,7 @@
 
 - Pokaż zadania z kolejki 'a' (kolejki mają jednoznakowe nazwy):
 
-`atq -q {{a}}`
+`atq -q a`
 
 - Pokaż zadania wszystkich użytkowników (uruchom jako superużytkownik):
 

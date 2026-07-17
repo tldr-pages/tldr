@@ -9,7 +9,7 @@
 
 - localhost에 등록된 모든 RPC 서비스의 간결한 테이블 표시:
 
-`rpcinfo -s {{localhost}}`
+`rpcinfo -s localhost`
 
 - localhost에서 rpcbind 작업의 통계 테이블 표시:
 

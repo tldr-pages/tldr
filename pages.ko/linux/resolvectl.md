@@ -27,7 +27,7 @@
 
 - 도메인의 MX 레코드 검색:
 
-`resolvectl --legend {{no}} {{[-t|--type]}} {{MX}} query {{도메인}}`
+`resolvectl --legend {{no}} {{[-t|--type]}} MX query {{도메인}}`
 
 - 예를 들어 _xmpp-server._tcp gmail.com와 같은 SRV 레코드 해석:
 

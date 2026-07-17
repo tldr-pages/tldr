@@ -6,4 +6,4 @@
 
 - Clean up resources:
 
-`qm {{[cl|cleanup]}} {{100}} {{clean-shutdown}} {{guest-requested}}`
+`qm {{[cle|cleanup]}} {{100}} {{clean_shutdown_boolean}} {{guest_requested_boolean}}`

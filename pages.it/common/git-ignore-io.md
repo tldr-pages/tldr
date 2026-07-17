@@ -1,6 +1,7 @@
 # git ignore-io
 
 > Genera file `.gitignore` usando template predefiniti.
+> Parte di `git-extras`.
 > Maggiori informazioni: <https://github.com/tj/git-extras/blob/main/Commands.md#git-ignore-io>.
 
 - Elenca i template disponibili:

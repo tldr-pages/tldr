@@ -13,11 +13,11 @@
 
 - Cria uma senha com 16 caracteres:
 
-`apg -m {{16}}`
+`apg -m 16`
 
 - Cria senha com tamanho máximo de 16 caracteres:
 
-`apg -x {{16}}`
+`apg -x 16`
 
 - Cria uma senha que não aparece em um dicionário provido pelo usuário:
 
