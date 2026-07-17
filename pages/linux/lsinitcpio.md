@@ -4,14 +4,14 @@
 > See also: `mkinitcpio`.
 > More information: <https://manned.org/lsinitcpio>.
 
-- View a list of all files and directories in the image:
+- View a list of all files and directories of a specific image:
 
 `lsinitcpio {{path/to/initramfs.img}}`
 
-- Extract the image to the current directory:
+- Extract an image to the current directory:
 
-`lsinitcpio --extract {{path/to/initramfs.img}}`
+`lsinitcpio {{-x|--extract}} {{path/to/initramfs.img}}`
 
-- View human-readable information on the image:
+- View human-readable information on an image:
 
-`lsinitcpio --analyze {{path/to/initramfs.img}}`
+`lsinitcpio {{-a|--analyze}} {{path/to/initramfs.img}}`
