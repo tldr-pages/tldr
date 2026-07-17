@@ -14,4 +14,4 @@
 
 - Indicate to the system that the shutdown was requested by the guest:
 
-`qm (([cle|cleanup]}} {{100}} {{true|false}} true`
+`qm {{[cle|cleanup]}} {{100}} {{true|false}} true`
