@@ -23,6 +23,6 @@
 
 `bru run --output {{ruta/al/archivo_de_salida.json}}`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `bru run --help`
