@@ -9,11 +9,11 @@
 
 - Add UEFI Shell v2 as a boot option:
 
-`sudo efibootmgr {{[-c|--create]}} {{[-d|--disk]}} {{/dev/sda}} {{[-p|--part]}} {{1}} {{[-l|--loader]}} "{{\path\to\shell.efi}}" {{[-L|--label]}} "{{UEFI Shell}}"`
+`sudo efibootmgr {{[-c|--create]}} {{[-d|--disk]}} {{/dev/sda}} {{[-p|--part]}} {{1}} {{[-l|--loader]}} "{{path\to\shell.efi}}" {{[-L|--label]}} "{{UEFI Shell}}"`
 
 - Add Linux as a boot option:
 
-`sudo efibootmgr {{[-c|--create]}} {{[-d|--disk]}} {{/dev/sda}} {{[-p|--part]}} {{1}} {{[-l|--loader]}} "{{\vmlinuz}}" {{[-u|--unicode]}} "{{kernel_cmdline}}" {{[-L|--label]}} "{{Linux}}"`
+`sudo efibootmgr {{[-c|--create]}} {{[-d|--disk]}} {{/dev/sda}} {{[-p|--part]}} {{1}} {{[-l|--loader]}} "{{path\to\vmlinuz}}" {{[-u|--unicode]}} "{{root=UUID=drive_uuid rw loglevel=3 initrd=path\to\initramfs-linux.img}}" {{[-L|--label]}} "{{Linux}}"`
 
 - Change the current boot order:
 
