@@ -9,7 +9,7 @@
 
 - Toon taken uit de [q]ueue van `a` (wachtrijen hebben namen van één teken):
 
-`atq -q {{a}}`
+`atq -q a`
 
 - Toon taken van alle gebruikers (uitvoeren als superuser):
 

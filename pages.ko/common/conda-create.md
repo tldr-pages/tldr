@@ -5,7 +5,7 @@
 
 - `py39`라는 새로운 환경을 생성하고, Python 3.9, NumPy v1.11 이상을 설치하며, SciPy 최신 안정 버전 설치 및 모든 확인에 자동으로 yes 응답을 처리:
 
-`conda create {{[-ny|--name --yes]}} py39 python=3.9 "numpy>=1.11 scipy"`
+`conda create {{[-y|--yes]}} {{[-n|--name]}} py39 python=3.9 "numpy>=1.11" scipy`
 
 - `myenv`라는 새로운 환경을 생성하고 파일에 정의된 패키지 설치:
 

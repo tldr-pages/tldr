@@ -2,15 +2,11 @@
 
 > Uncomplicated Firewall.
 > Frontend for `iptables` aiming to make configuration of a firewall easier.
-> More information: <https://wiki.ubuntu.com/UncomplicatedFirewall>.
+> More information: <https://manned.org/ufw>.
 
-- Enable `ufw`:
+- Enable/Disable `ufw`:
 
-`sudo ufw enable`
-
-- Disable `ufw`:
-
-`sudo ufw disable`
+`sudo ufw {{enable|disable}}`
 
 - Show `ufw` rules, along with their numbers:
 
@@ -23,6 +19,10 @@
 - Allow only TCP traffic from 192.168.0.4 to any address on this host, on port 22:
 
 `sudo ufw allow proto tcp from 192.168.0.4 to any port 22`
+
+- Allow traffic from any IP on the 192.168.0/24 subnet on this host, through port 53, only on the eth0 interface:
+
+`sudo ufw allow in on eth0 from 192.168.0.0/24 to any port 53`
 
 - Deny traffic on port 80 on this host:
 

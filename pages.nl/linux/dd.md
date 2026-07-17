@@ -6,7 +6,7 @@
 
 - Maak een opstartbare USB-schijf van een isohybrid-bestand (zoals `archlinux-xxx.iso`) en toon de voortgang:
 
-`sudo dd if={{pad/naar/bestand.iso}} of={{/dev/usb_schijf}} status=progress`
+`sudo dd status=progress if={{pad/naar/bestand.iso}} of={{/dev/usb_schijf}}`
 
 - Kopieer een schijf naar een andere schijf met een blokgrootte van 4 MiB en schrijf alle gegevens voordat het commando eindigt:
 
@@ -22,7 +22,7 @@
 
 - Maak een systeemback-up, sla deze op in een IMG bestand (kan later worden hersteld door `if` en `of` om te wisselen) en toon de voortgang:
 
-`sudo dd if={{/dev/schijf_apparaat}} of={{pad/naar/bestand.img}} status=progress`
+`sudo dd status=progress if={{/dev/schijf_apparaat}} of={{pad/naar/bestand.img}}`
 
 - Bekijk de voortgang van een lopende `dd` operatie (voer dit commando uit vanaf een andere shell):
 

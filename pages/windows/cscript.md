@@ -1,7 +1,7 @@
 # cscript
 
 > Run Windows Script Host programs in the command-line interface (CLI).
-> See also: `wscript` for graphical user interface (GUI).
+> See also: `wscript`.
 > More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/cscript>.
 
 - Set `cscript` (CLI) or `wscript` (GUI) as the default interpreter to run Windows Script Host programs:

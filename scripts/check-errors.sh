@@ -5,7 +5,6 @@ echo Placeholders
 tput sgr0
 grep -r -- "{{\[[^}]*\]}[^}]"
 grep -r -- "[^{]{\[.*\]}}"
-grep -rE "{{\[[a-z]\|--[a-z]+\]}}"
 grep -r "{{-[a-zA-Z][a-zA-Z]|-"
 grep -r "{{\[ "
 grep -r " ]}}"
