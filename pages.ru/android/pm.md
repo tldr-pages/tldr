@@ -1,24 +1,36 @@
 # pm
 
-> Показать информацию о приложениях на устройстве Android.
+> Менеджер пакетов Android.
 > Больше информации: <https://developer.android.com/tools/adb#pm>.
 
-- Показать список всех установленных приложений:
+- Показать список установленных пакетов:
 
 `pm list packages`
 
-- Показать список всех установленных системных приложений:
+- Установить пакет приложения по указанному пути:
 
-`pm list packages -s`
+`pm install /{{путь/к/приложению}}.apk`
 
-- Показать список всех установленных сторонних приложений:
+- Удалить пакет с устройства:
 
-`pm list packages -3`
+`pm uninstall {{пакет}}`
 
-- Показать список приложений по ключевым словам:
+- Очистить все данные приложения для пакета:
 
-`pm list packages {{ключевые_слова}}`
+`pm clear {{пакет}}`
 
-- Показать путь к APK определенного приложения:
+- Включить пакет или компонент:
 
-`pm path {{приложение}}`
+`pm enable {{пакет_или_класс}}`
+
+- Отключить пакет или компонент:
+
+`pm disable-user {{пакет_или_класс}}`
+
+- Предоставить разрешение приложению:
+
+`pm grant {{пакет}} {{android.permission.CAMERA|android.permission.ACCESS_FINE_LOCATION|android.permission.READ_CONTACTS|...}}`
+
+- Отозвать разрешение у приложения:
+
+`pm revoke {{пакет}} {{android.permission.CAMERA|android.permission.ACCESS_FINE_LOCATION|android.permission.READ_CONTACTS|...}}`
