@@ -2,6 +2,7 @@
 
 > Busca patrones en archivos utilizando expresiones regulares extendidas.
 > Nota: Este comando es un alias de `grep --extended-regexp`.
+> Vea también: `regex`.
 > Más información: <https://manned.org/egrep>.
 
 - Busca uno o más caracteres repetidos:
