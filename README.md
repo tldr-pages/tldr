@@ -75,7 +75,7 @@ pipx install tldr
 
 ### Rust client
 
-Linux and Mac users can also install the official [Rust Client](https://github.com/tldr-pages/tlrc) using [Homebrew](https://formulae.brew.sh/formula/tlrc), [Cargo](https://crates.io/crates/tlrc)
+Linux and macOS users can also install the official [Rust Client](https://github.com/tldr-pages/tlrc) using [Homebrew](https://formulae.brew.sh/formula/tlrc), [Cargo](https://crates.io/crates/tlrc)
 (or [other package managers](https://github.com/tldr-pages/tlrc#installation) on other operating systems):
 
 ```shell
