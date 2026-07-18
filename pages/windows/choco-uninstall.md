@@ -13,7 +13,7 @@
 
 - Confirm all prompts automatically:
 
-`choco uninstall {{package}} --yes`
+`choco uninstall {{package}} {{[-y|--yes]}}`
 
 - Remove all dependencies when uninstalling:
 

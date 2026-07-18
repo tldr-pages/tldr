@@ -25,4 +25,4 @@
 
 - Provide a username and password for authentication:
 
-`choco list --user {{username}} --password {{password}}`
+`choco list {{[-u|--user]}} {{username}} {{[-p|--password]}} {{password}}`
