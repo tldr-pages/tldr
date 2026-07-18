@@ -10,8 +10,8 @@
 
 - Extract an image to the current directory:
 
-`lsinitcpio {{-x|--extract}} {{path/to/initramfs.img}}`
+`lsinitcpio {{[-x|--extract]}} {{path/to/initramfs.img}}`
 
 - View human-readable information on an image:
 
-`lsinitcpio {{-a|--analyze}} {{path/to/initramfs.img}}`
+`lsinitcpio {{[-a|--analyze]}} {{path/to/initramfs.img}}`
