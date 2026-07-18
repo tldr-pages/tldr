@@ -253,7 +253,7 @@ tldr --render путь/к/tldr_page.md
 | Термин | Стандарт | Объяснение |
 | --- | --- | --- |
 | Регулярное выражение | `` `regex` `` | `regex` определяет шаблон для поиска в строке символов (https://en.wikipedia.org/wiki/Regular_expression). |
-| Glob-шаблон | `` `glob` `` | `glob` задаёт маску для сопоставления строк (https://en.wikipedia.org/wiki/Glob_(programming)). |
+| Glob-шаблон | `` `glob` `` | `glob` определяет шаблон для поиска в строке символов (https://en.wikipedia.org/wiki/Glob_(programming)). |
 | Стандартный ввод | `` `stdin` `` | |
 | Стандартный вывод | `` `stdout` `` | |
 | Стандартный поток ошибок | `` `stderr` `` | |
