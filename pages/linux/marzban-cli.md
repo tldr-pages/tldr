@@ -1,11 +1,7 @@
 # marzban cli
 
-> Manage Marzban via the command line interface.
+> Manage administrators, users, and subscriptions.
 > More information: <https://github.com/Gozargah/Marzban/blob/master/cli/README.md>.
-
-- Show help for the CLI:
-
-`marzban cli --help`
 
 - List all administrators:
 
@@ -30,3 +26,7 @@
 - Display a user's subscription link:
 
 `marzban cli subscription get-link --username {{username}}`
+
+- Display help:
+
+`marzban cli --help`
