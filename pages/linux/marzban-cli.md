@@ -9,7 +9,7 @@
 
 - Create a new administrator:
 
-`marzban cli admin create --username {{username}}`
+`marzban cli admin create {{[-u|--username]}} {{username}}`
 
 - List all users:
 
@@ -17,15 +17,15 @@
 
 - Transfer ownership of a user to another administrator:
 
-`marzban cli user set-owner --username {{username}} --owner {{owner}}`
+`marzban cli user set-owner {{[-u|--username]}} {{username}} --owner {{owner}}`
 
 - Generate a subscription configuration for a user:
 
-`marzban cli subscription get-config --username {{username}} --format {{v2ray|clash}}`
+`marzban cli subscription get-config {{[-u|--username]}} {{username}} {{[-f|--format]}} {{v2ray|clash}}`
 
 - Display a user's subscription link:
 
-`marzban cli subscription get-link --username {{username}}`
+`marzban cli subscription get-link {{[-u|--username]}} {{username}}`
 
 - Display help:
 
