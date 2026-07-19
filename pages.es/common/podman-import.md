@@ -6,11 +6,11 @@
 
 - Importa un archivo tar desde un archivo local y crea una imagen:
 
-`podman import {ruta/al/archivo.tar} {imagen:etiqueta}}`
+`podman import {{ruta/al/archivo.tar} {imagen:etiqueta}}`
 
 - Importa un archivo tar desde una URL:
 
-`podman import {https://example.com/imagen.tar} {imagen:etiqueta}}`
+`podman import {{https://example.com/imagen.tar}} {{imagen:etiqueta}}`
 
 - Importa un archivo tar y añade un mensaje de confirmación:
 
