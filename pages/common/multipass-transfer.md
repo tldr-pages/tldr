@@ -14,4 +14,4 @@
 
 - Transfer a directory from your local machine to an instance:
 
-`multipass transfer -r {{path/to/local_directory}} {{instance_name}}:{{path/to/remote_directory}}`
+`multipass transfer {{[-r|--recursive]}} {{path/to/local_directory}} {{instance_name}}:{{path/to/remote_directory}}`
