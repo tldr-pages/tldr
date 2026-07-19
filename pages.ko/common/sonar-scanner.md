@@ -9,12 +9,12 @@
 
 - `sonar-project.properties`가 아닌 다른 구성 파일을 사용하여 프로젝트 스캔:
 
-`sonar-scanner -D{{project.settings=myproject.properties}}`
+`sonar-scanner {{[-D|--define]}} {{project.settings=myproject.properties}}`
 
 - 디버깅 정보 출력:
 
-`sonar-scanner -X`
+`sonar-scanner {{[-X|--debug]}}`
 
 - 도움말 표시:
 
-`sonar-scanner -h`
+`sonar-scanner {{[-h|--help]}}`
