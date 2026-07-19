@@ -1,10 +1,10 @@
 # sync
 
-> Flush pending write operations to disk.
-> See also: `sync` for common usage, `purge`.
+> Force completion of pending disk writes.
+> See also: `purge`.
 > More information: <https://keith.github.io/xcode-man-pages/sync.8.html>.
 
-- Flush all pending write operations on all disks:
+- Flush all pending disk writes:
 
 `sync`
 
