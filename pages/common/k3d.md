@@ -11,6 +11,14 @@
 
 `k3d cluster delete {{cluster_name}}`
 
+- List existing clusters:
+
+`k3d cluster list`
+
+- List clusters as JSON:
+
+`k3d cluster list {{[-o|--output]}} json`
+
 - Create a new containerized k3s node:
 
 `k3d node create {{node_name}}`
