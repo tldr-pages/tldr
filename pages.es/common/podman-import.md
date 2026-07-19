@@ -2,7 +2,7 @@
 
 > Importa un archivo tar y lo guarda como una imagen del sistema de archivos.
 > Vea también: `podman export`, `podman save`.
-> Más información: <HTTPS://docs.podman.io/en/latest/markdown/podman-import.1.html>.
+> Más información: <https://docs.podman.io/en/latest/markdown/podman-import.1.html>.
 
 - Importa un archivo tar desde un archivo local y crea una imagen:
 
