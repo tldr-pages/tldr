@@ -17,7 +17,7 @@
 
 - Reinicia en 5 minutos:
 
-`shutdown -r «+{{5}}»`
+`shutdown -r "+{{5}}"`
 
 - Apaga (detiene) a las 13:00 (utiliza el formato de 24 horas):
 
