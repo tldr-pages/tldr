@@ -14,7 +14,7 @@
 
 - Importa un archivo tar y añade un mensaje de confirmación:
 
-`podman import {{[-m|--message]}} "[mensaje_de_confirmación]" {{ruta/al/archivo.tar}} {{imagen:etiqueta}}`
+`podman import {{[-m|--message]}} "{{mensaje_de_confirmación}}" {{ruta/al/archivo.tar}} {{imagen:etiqueta}}`
 
 - Importa un archivo tar y establece un comando por defecto (necesario para ejecutar el contenedor):
 
