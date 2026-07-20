@@ -1,9 +1,9 @@
 # ufw enable
 
-> Reload and enable firewall on boot.
+> Reload and enable the firewall on boot.
 > More information: <https://manned.org/ufw>.
 
-- Mock reload and enable `ufw`:
+- Simulate enabling the firewall without making changes:
 
 `sudo ufw --dry-run enable`
 

@@ -1,9 +1,9 @@
 # ufw disable
 
-> Unload and disable firewall on boot.
+> Unload and disable the firewall on boot.
 > More information: <https://manned.org/ufw>.
 
-- Mock unload and disable `ufw`:
+- Simulate disabling the firewall without making changes:
 
 `sudo ufw --dry-run disable`
 
