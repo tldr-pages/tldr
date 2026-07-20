@@ -2,6 +2,7 @@
 
 > Las expresiones regulares (`regex`) son patrones que se utilizan para buscar coincidencias, buscar y manipular texto.
 > Nota: `regex` no es un comando, sino una sintaxis que se utiliza con otros comandos.
+> See also: `egrep`, `glob`.
 > Más información: <https://cheatography.com/davechild/cheat-sheets/regular-expressions/>.
 
 - Coincide con cualquier carácter único:
