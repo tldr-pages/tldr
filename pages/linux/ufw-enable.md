@@ -5,7 +5,7 @@
 
 - Mock reload and enable `ufw`:
 
-`sudo --dry-run enable`
+`sudo ufw --dry-run enable`
 
 - Reload and enable `ufw`:
 

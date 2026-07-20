@@ -5,7 +5,7 @@
 
 - Mock unload and disable `ufw`:
 
-`sudo --dry-run disable`
+`sudo ufw --dry-run disable`
 
 - Unload and disable `ufw`:
 
