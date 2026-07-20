@@ -1,28 +1,33 @@
 # topgrade
 
-> Update all applications on the system.
-> More information: <https://github.com/r-darwish/topgrade>.
-
-- Run updates:
-
-`topgrade`
-
-- Say yes to all updates:
-
-`topgrade {{[-y|--yes]}}`
-
-- Cleanup temporary/old files:
-
-`topgrade {{[-c|--cleanup]}}`
-
-- Disable a certain update operation:
-
-`topgrade --disable {{operation}}`
-
-- Only perform a certain update operation:
-
-`topgrade --only {{operation}}`
-
-- Edit the configuration file with default editor:
-
-`topgrade --edit-config`
+> Upgrade all the things.
+> > More information: <https://github.com/topgrade-rs/topgrade>.
+> >
+> > - Update everything:
+> >
+> > - `topgrade`
+> >
+> > - - Run only specific update steps:
+> >  
+> >   - `topgrade --only {{step_name1}} --only {{step_name2}}`
+> >  
+> >   - - Skip specific update steps:
+> >    
+> >     - `topgrade --disable {{step_name1}} --disable {{step_name2}}`
+> >    
+> >     - - Dry run (show what would run without making changes):
+> >      
+> >       - `topgrade --dry-run`
+> >      
+> >       - - Only check for available updates without installing them:
+> >        
+> >         - `topgrade --check`
+> >        
+> >         - - Open the configuration file:
+> >          
+> >           - `topgrade --edit-config`
+> >          
+> >           - - Clean up old package versions and caches after upgrading:
+> >            
+> >             - `topgrade --cleanup`
+> >             - 
