@@ -1,26 +1,27 @@
 # tailscale
 
-> A private WireGuard network service.
-> Some subcommands such as `up` have their own usage documentation.
+> A private WireGuard network service.  
+> Some subcommands such as `up` have their own usage documentation.  
+> Both `set` and `up` can be used to change settings.  
 > More information: <https://tailscale.com/kb/1080/cli>.
 
 - Allow the current user to operate on the Tailscale daemon:
 
 `sudo tailscale set --operator $USER`
 
-- Connect to Tailscale:
+- Handle connection to Tailscale (connect, disconnect, check status):
 
-`tailscale up`
+ `tailscale {{up|down|status}}`
 
-- Disconnect from Tailscale:
+- Offer the current machine to be an exit node for internet traffic:
 
-`tailscale down`
+`tailscale {{up|set}} --advertise-exit-node`
+
+- Use a specific exit node for internet traffic:
+
+`tailscale {{up|set}} --exit-node {{ip|hostname}}`
 
 - Display all devices connected to Tailscale (with their IP addresses):
-
-`tailscale status`
-
-- Ping a peer node at the Tailscale layer and display which route it took for each response:
 
 `tailscale ping {{ip|hostname}}`
 
