@@ -1,7 +1,7 @@
 # efivar
 
 > UEFI 변수 관리.
-> More information: <https://manned.org/efivar>.
+> 더 많은 정보: <https://manned.org/efivar>.
 
 - 모든 UEFI 변수 목록 표시:
 
