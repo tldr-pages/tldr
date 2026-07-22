@@ -22,7 +22,7 @@
 
 - Display all devices connected to Tailscale (with their IP addresses):
 
-`tailscale ping {{ip|hostname}}`
+`tailscale ping {{ip_address|hostname}}`
 
 - Analyze the local network conditions and display the result:
 
