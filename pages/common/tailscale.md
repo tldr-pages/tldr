@@ -36,3 +36,4 @@
 - Display a shareable identifier to help diagnose issues:
 
 `tailscale bugreport`
+
