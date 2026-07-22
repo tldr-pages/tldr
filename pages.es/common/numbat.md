@@ -2,7 +2,7 @@
 
 > Una calculadora científica de tipado estático con soporte de primera clase para unidades físicas.
 > Vea también: `qalc`, `bc`.
-> Más información: <https://numbat.dev>.
+> Más información: <https://numbat.dev/docs/cli/usage>.
 
 - Inicia una sesión interactiva:
 

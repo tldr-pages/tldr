@@ -2,7 +2,7 @@
 
 > A statically-typed scientific calculator with first-class support for physical units.
 > See also: `qalc`, `bc`.
-> More information: <https://numbat.dev>.
+> More information: <https://numbat.dev/docs/cli/usage>.
 
 - Start an interactive session:
 
