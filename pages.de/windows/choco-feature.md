@@ -9,8 +9,8 @@
 
 - Aktiviere eine Funktion:
 
-`choco feature enable --name {{name}}`
+`choco feature enable {{[-n|--name]}} {{name}}`
 
 - Deaktiviere eine Funktion:
 
-`choco feature disable --name {{name}}`
+`choco feature disable {{[-n|--name]}} {{name}}`
