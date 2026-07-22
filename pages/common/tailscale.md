@@ -18,7 +18,7 @@
 
 - Use a specific exit node for internet traffic:
 
-`tailscale set --exit-node {{ip|hostname}}`
+`tailscale set --exit-node {{ip_address|hostname}}`
 
 - Display all devices connected to Tailscale (with their IP addresses):
 
