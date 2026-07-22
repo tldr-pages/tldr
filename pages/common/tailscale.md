@@ -14,11 +14,11 @@
 
 - Offer the current machine to be an exit node for internet traffic:
 
-`tailscale {{up|set}} --advertise-exit-node`
+`tailscale set --advertise-exit-node`
 
 - Use a specific exit node for internet traffic:
 
-`tailscale {{up|set}} --exit-node {{ip|hostname}}`
+`tailscale set --exit-node {{ip|hostname}}`
 
 - Display all devices connected to Tailscale (with their IP addresses):
 
