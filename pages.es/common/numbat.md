@@ -1,7 +1,7 @@
 # numbat
 
 > Una calculadora científica de tipado estático con soporte de primera clase para unidades físicas.
-> Véase también: `qalc`, `bc`.
+> Vea también: `qalc`, `bc`.
 > Más información: <https://numbat.dev>.
 
 - Inicia una sesión interactiva:
