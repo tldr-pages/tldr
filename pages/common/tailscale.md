@@ -2,7 +2,6 @@
 
 > A private WireGuard network service.
 > Some subcommands such as `up` have their own usage documentation.
-> Both `set` and `up` can be used to change settings.
 > More information: <https://tailscale.com/kb/1080/cli>.
 
 - Allow the current user to operate on the Tailscale daemon:
