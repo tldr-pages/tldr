@@ -25,4 +25,4 @@
 
 - Include hidden files and directories when searching recursively:
 
-`duff -a -r {{path/to/directory}}`
+`duff -ar {{path/to/directory}}`
