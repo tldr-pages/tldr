@@ -23,6 +23,10 @@
 
 `shred {{[-u|--remove]}} {{path/to/file}}`
 
+- Overwrite a storage device:
+
+`shred {{/dev/sdX}}`
+
 - Overwrite a file 100 times, add a final overwrite with zeros, remove the file after overwriting it, and show verbose progress on the screen:
 
 `shred {{[-vzu|--verbose --zero --remove]}} {{[-n|--iterations]}} 100 {{path/to/file}}`
