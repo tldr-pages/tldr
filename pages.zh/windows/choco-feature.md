@@ -9,8 +9,8 @@
 
 - 启用一个功能：
 
-`choco feature enable --name {{功能名称}}`
+`choco feature enable {{[-n|--name]}} {{功能名称}}`
 
 - 禁用一个功能：
 
-`choco feature disable --name {{功能名称}}`
+`choco feature disable {{[-n|--name]}} {{功能名称}}`
