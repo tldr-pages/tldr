@@ -10,7 +10,7 @@
 
 - Handle connection to Tailscale (connect, disconnect, check status):
 
- `tailscale {{up|down|status}}`
+`tailscale {{up|down|status}}`
 
 - Offer the current machine to be an exit node for internet traffic:
 
