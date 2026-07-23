@@ -1,0 +1,28 @@
+# witr
+
+> Inspect processes, services, and ports by tracing their origin.
+> More information: <https://github.com/pranshuparmar/witr>.
+
+- Inspect a process by name:
+
+`witr {{process_name}}`
+
+- Inspect a process by PID:
+
+`witr --pid {{process_id}}`
+
+- Find which process is using a network port:
+
+`witr --port {{port}}`
+
+- Display a full process tree for a specific PID:
+
+`witr --pid {{pid}} --tree`
+
+- Display a short summary output:
+
+`witr --short {{process_name}}`
+
+- Display the results in a JSON format:
+
+`witr --json --pid {{process_id}}`
