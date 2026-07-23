@@ -11,7 +11,7 @@
 
 `ufw allow {{port}}/{{protocol}}`
 
-- Allow incoming traffic for a protocol with a comment:
+- Allow incoming traffic for a protocol and add a comment for documentation:
 
 `ufw allow in {{protocol}} comment '{{comment}}'`
 
@@ -21,7 +21,7 @@
 
 - Allow TCP traffic from a source address to a destination address on a port:
 
-`ufw allow proto tcp from {{source_address}} to {{destination_address}} port {{port}}`
+`ufw allow from {{source_address}} to {{destination_address}} port {{port}} proto tcp`
 
 - Allow all incoming GRE traffic to a destination address on an interface (e.g., eth0):
 
