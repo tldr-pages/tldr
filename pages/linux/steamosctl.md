@@ -11,7 +11,7 @@
 
 `steamosctl switch-to-game-mode`
 
-- Change whether the system opens gamemode or desktop during login:
+- Change whether the system opens gamemode or desktop during boot:
 
 `steamosctl set-default-login-mode {{game|desktop}}`
 
