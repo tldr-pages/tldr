@@ -19,9 +19,9 @@
 
 `choco install {{package}} --version {{version}}`
 
-- Allow installing multiple versions of a package:
+- Force reinstallation of a package:
 
-`choco install {{package}} --allow-multiple`
+`choco install {{package}} {{[-f|--force]}}`
 
 - Confirm all prompts automatically:
 
