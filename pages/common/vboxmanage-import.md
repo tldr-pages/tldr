@@ -19,7 +19,7 @@
 
 `VBoxManage import {{path/to/file.ovf}} --register`
 
-- Perform a dry run to check the import without actually importing:
+- Simulate an import without actually importing:
 
 `VBoxManage import {{path/to/file.ovf}} --dry-run`
 

@@ -7,7 +7,7 @@
 
 `sfdk undeploy --{{pkcon|rpm|rsync|sdk|zypper}}`
 
-- Preview undeploy without applying the changes:
+- Simulate an undeployment without applying the changes:
 
 `sfdk undeploy --{{method}} {{[-n|--dry-run]}}`
 

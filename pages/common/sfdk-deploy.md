@@ -7,7 +7,7 @@
 
 `sfdk deploy --{{pkcon|rsync|sdk|zypper|zypper-dup|manual}}`
 
-- Preview deploy without applying the changes:
+- Simulate a deployment without applying the changes:
 
 `sfdk deploy --{{method}} {{[-n|--dry-run]}}`
 
