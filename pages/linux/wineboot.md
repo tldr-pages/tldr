@@ -21,7 +21,7 @@
 
 - End the current session, [f]orcing unresponsive processes to close:
 
-`wineboot {{[-e|--end-session]}} {{[-f|--force]}}`
+`wineboot {{[-ef|--end-session --force]}}`
 
 - Kill all processes in the prefix without any cleanup:
 

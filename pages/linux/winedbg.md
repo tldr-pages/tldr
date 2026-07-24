@@ -9,7 +9,7 @@
 
 - Attach to an already-running process by its PID:
 
-`winedbg {{pid}}`
+`winedbg {{process_id}}`
 
 - Debug a program through a gdb proxy (drive it from gdb):
 
