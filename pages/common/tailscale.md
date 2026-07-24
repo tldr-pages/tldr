@@ -8,21 +8,21 @@
 
 `sudo tailscale set --operator $USER`
 
-- Connect to Tailscale:
+- Handle connection to Tailscale (connect, disconnect, check status):
 
-`tailscale up`
+`tailscale {{up|down|status}}`
 
-- Disconnect from Tailscale:
+- Offer the current machine to be an exit node for internet traffic:
 
-`tailscale down`
+`tailscale set --advertise-exit-node`
+
+- Use a specific exit node for internet traffic:
+
+`tailscale set --exit-node {{ip_address|hostname}}`
 
 - Display all devices connected to Tailscale (with their IP addresses):
 
-`tailscale status`
-
-- Ping a peer node at the Tailscale layer and display which route it took for each response:
-
-`tailscale ping {{ip|hostname}}`
+`tailscale ping {{ip_address|hostname}}`
 
 - Analyze the local network conditions and display the result:
 
