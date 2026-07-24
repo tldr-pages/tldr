@@ -10,7 +10,7 @@
 
 - Führe Parameter als Befehl aus:
 
-`zsh -c "{{echo Hello world}}"`
+`zsh -c "{{echo 'zsh wird ausgeführt'}}"`
 
 - Führe Befehle aus einem Skript aus:
 
@@ -22,7 +22,7 @@
 
 - Führe Befehle von `stdin` aus:
 
-`{{echo echo Hello World}} | zsh`
+`{{echo "echo 'zsh wird ausgeführt'"}} | zsh`
 
 - Führe Befehle aus einem Skript aus und schreibe die Befehle in die Konsole:
 
