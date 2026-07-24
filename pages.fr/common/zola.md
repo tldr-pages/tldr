@@ -13,7 +13,7 @@
 
 - Construit la totalité du site dans un répertoire différent :
 
-`zola build --output-dir {{chemin/du/répertoire_de_sortie/}}`
+`zola build --output-dir {{chemin/du/répertoire_de_sortie}}/`
 
 - Construit et met à disposition le site à partir d'un serveur local (l'adresse par défaut est `127.0.0.1:1111`) :
 
