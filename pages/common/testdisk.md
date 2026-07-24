@@ -6,7 +6,7 @@
 
 - Start TestDisk on a specific device:
 
-`sudo testdisk {{/dev/sdb}}`
+`sudo testdisk {{/dev/sdX}}`
 
 - Start TestDisk on a disk image:
 
@@ -14,7 +14,7 @@
 
 - Start TestDisk and create a log file (`testdisk.log`):
 
-`sudo testdisk /log {{/dev/sdb}}`
+`sudo testdisk /log {{/dev/sdX}}`
 
 - List current partitions:
 
