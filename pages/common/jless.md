@@ -28,10 +28,10 @@
 
 `jless {{[-r|--relative-line-numbers]}} {{path/to/file.json}}`
 
-- Search forward for a pattern (press `<n>`/`<N>` for next/previous match):
+- [Interactive] Search forward for a pattern (press `<n>`/`<N>` for next/previous match):
 
 `</>{{pattern}}`
 
-- Exit:
+- [Interactive] Exit:
 
 `<q>`
