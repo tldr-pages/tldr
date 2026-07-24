@@ -255,6 +255,7 @@ Some terms are used repeatedly throughout pages, and as such, should be standard
 | Standard input | `` `stdin` ``
 | Standard output | `` `stdout` ``
 | Standard error | `` `stderr` ``
+| Dry run | Simulate 
 
 ## Heading
 

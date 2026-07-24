@@ -1,7 +1,7 @@
 # ubuntu-drivers
 
 > Install drivers on Ubuntu.
-> More information: <https://documentation.ubuntu.com/server/how-to/graphics/install-nvidia-drivers/index.html>.
+> More information: <https://ubuntu.com/server/docs/how-to/graphics/install-nvidia-drivers/>.
 
 - List available drivers for the current hardware:
 

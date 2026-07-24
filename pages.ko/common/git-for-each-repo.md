@@ -6,8 +6,8 @@
 
 - `maintenance.repo` 사용자 구성 변수에 저장된 목록의 각 저장소에서 유지 관리를 실행:
 
-`git for-each-repo --config={{maintenance.repo}} {{maintenance run}}`
+`git for-each-repo --config maintenance.repo {{maintenance run}}`
 
 - 글로벌 구성 변수에 나열된 각 저장소에서 `git pull` 실행:
 
-`git for-each-repo --config={{global_configuration_variable}} {{pull}}`
+`git for-each-repo --config {{global_configuration_variable}} {{pull}}`

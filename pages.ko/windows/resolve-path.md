@@ -6,7 +6,7 @@
 
 - 홈 폴더 경로 확인:
 
-`Resolve-Path {{~}}`
+`Resolve-Path ~`
 
 - UNC 경로 확인:
 

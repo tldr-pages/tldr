@@ -13,7 +13,7 @@
 
 - Bevestig alle prompts automatisch:
 
-`choco uninstall {{pakket}} --yes`
+`choco uninstall {{pakket}} {{[-y|--yes]}}`
 
 - Verwijder alle afhankelijkheden bij het verwijderen:
 

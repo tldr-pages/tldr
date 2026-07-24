@@ -14,11 +14,11 @@
 
 - 설정 디렉토리 변경:
 
-`ranger --confdir={{경로/대상/폴더}}`
+`ranger {{[-r|--confdir]}} {{경로/대상/폴더}}`
 
 - 데이터 디렉토리 변경:
 
-`ranger --datadir={{경로/대상/폴더}}`
+`ranger --datadir {{경로/대상/폴더}}`
 
 - 종료 시 CPU 사용 통계 출력:
 
