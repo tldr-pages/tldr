@@ -1,24 +1,28 @@
 # shutdown
 
 > Apaga y reinicia el sistema.
-> Más información: <https://manned.org/shutdown.8>.
+> Más información: <https://keith.github.io/xcode-man-pages/shutdown.8.html>.
 
 - Apaga ([h]alt) inmediatamente:
 
 `shutdown -h now`
 
+- Pone en reposo inmediatamente:
+
+`shutdown -s now`
+
 - [r]einicia inmediatamente:
 
-`shutdown {{[-r|--reboot]}} now`
+`shutdown -r now`
 
 - [r]einicia en 5 minutos:
 
-`shutdown {{[-r|--reboot]}} +{{5}} &`
+`shutdown -r "+{{5}}"`
 
 - Apaga a las 01:00 pm (Usa el reloj de 24[h]):
 
-`shutdown -h 13:00`
+`shutdown -h {{1300}}`
 
-- [c]ancela una operación pendiente de apagado/reinicio:
+- Reinicia el 10 de mayo de 2042 a las 11:30 am (Formato de ingreso: YYMMDDHHMM):
 
-`shutdown -c`
+`shutdown -r {{4205101130}}`
