@@ -1,7 +1,6 @@
 # container
 
 > Create and run Linux containers as lightweight virtual machines on macOS.
-> Some subcommands such as `image`, `network`, and `system` have their own usage documentation.
 > More information: <https://github.com/apple/container>.
 
 - Start the container services (required before running containers):
