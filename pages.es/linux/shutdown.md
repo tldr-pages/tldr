@@ -19,7 +19,7 @@
 
 `shutdown -r "+{{5}}"`
 
-- Apaga a las 01:00 pm (Usa el reloj de 24[h]):
+- Apaga a las 01:00 pm (Usa el reloj de 24 hs):
 
 `shutdown -h {{1300}}`
 
