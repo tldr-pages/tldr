@@ -9,11 +9,11 @@
 
 - Move a virtual disk:
 
-`qm {{[di|disk]}} {{[m|move]}} {{100}} {{destination}} {{index}}`
+`qm {{[di|disk]}} {{[m|move]}} {{100}} {{scic0}} {{destination_storage_name}}`
 
 - Delete the previous copy of the virtual disk:
 
-`qm {{[di|disk]}} {{[m|move]}} --delete {{100}} {{destination}} {{index}}`
+`qm {{[di|disk]}} {{[m|move]}} {{100}} {{scic0}} {{destination_storage_name}} --delete`
 
 - Import a VMDK/`.qcow2`/raw disk image using a specific storage name:
 
