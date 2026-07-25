@@ -9,7 +9,7 @@
 
 - Wipe specific devices using the default method (DoD 3-pass) without confirmation prompts:
 
-`sudo nwipe --autonuke {{/dev/sdX}} {{/dev/sdY}}`
+`sudo nwipe --autonuke {{/dev/sdX /dev/sdY ...}}`
 
 - Wipe a specific disk using a custom erasing method:
 
