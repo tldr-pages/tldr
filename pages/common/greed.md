@@ -2,7 +2,7 @@
 
 > Simple game.
 > Clear as much of the board as you can.
-> More information: <https://manpages.ubuntu.com/manpages/jammy/man6/greed.6.html>.
+> More information: <https://manned.org/greed>.
 
 - Start the game:
 
