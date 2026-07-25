@@ -20,7 +20,7 @@
 
 `<q><y>`
 
-- Print scores:
+- Print [s]cores:
 
 `greed -s`
 
