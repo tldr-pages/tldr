@@ -1,6 +1,6 @@
 # fd --format
 
-> Format search results.
+> Format filesearch results.
 > More information: <https://manned.org/fd>.
 
 - Print only the filename:
