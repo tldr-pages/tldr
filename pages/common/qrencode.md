@@ -8,6 +8,10 @@
 
 `qrencode {{[-o|--output]}} {{path/to/output_file.png}} {{string}}`
 
+- Convert a string to a micro QR code and save to an output file:
+
+`qrencode {{[-o|--output]}} {{path/to/output_file.png}} {{[-M|--micro]}} {{string}}`
+
 - Convert an input file to a QR code and save to an output file:
 
 `qrencode {{[-o|--output]}} {{path/to/output_file.png}} {{[-r|--read-from]}} {{path/to/input_file}}`
