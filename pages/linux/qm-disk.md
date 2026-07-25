@@ -30,3 +30,7 @@
 - Specify a virtual machine by its ID:
 
 `qm {{[di|disk]}} {{[resc|rescan]}} --vmid {{100}}`
+
+- Delete a disk:
+
+`qm {{[di|disk]}} {{[u|unlink]}} {{100}} --idlist {{unused0,unused1,scsi1,...}}`
