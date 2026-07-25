@@ -13,7 +13,7 @@
 
 - Wipe a specific disk using a custom erasing method:
 
-`sudo nwipe --method={{zero|one|gutmann|dod522022m}} {{/dev/sdX}}`
+`sudo nwipe {{[-m|--method]}} {{zero|one|gutmann|dod522022m|...}} {{/dev/sdX}}`
 
 - Wipe a disk and power off the system upon completion:
 
