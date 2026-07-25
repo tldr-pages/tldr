@@ -7,7 +7,7 @@
 
 - FTPS를 통해 디렉터리를 원격 시스템에 백업하고, 비밀번호로 암호화:
 
-`FTP_PASSWORD={{ftp_로그인_비밀번호}} PASSPHRASE={{암호_비밀번호}} duplicity {{경로/대상/소스/디렉토리}} {{ftps://사용자@호스트명/타겟/디렉토리/경로/}}`
+`FTP_PASSWORD={{ftp_로그인_비밀번호}} PASSPHRASE={{암호_비밀번호}} duplicity {{경로/대상/소스/디렉토리}} {{ftps://사용자@호스트명/타겟/디렉토리/경로}}/`
 
 - 매월 전체 백업을 수행하여 Amazon S3에 디렉터리를 백업:
 
@@ -23,7 +23,7 @@
 
 - SSH를 통해 원격 시스템에 저장된 백업의 파일을 나열:
 
-`duplicity list-current-files --time {{YYYY-MM-DD}} scp://{{사용자@호스트명}}/{{경로/대상/백업/디렉토리}}`
+`duplicity list-current-files {{[-t|--time]}} {{YYYY-MM-DD}} scp://{{사용자@호스트명}}/{{경로/대상/백업/디렉토리}}`
 
 - GnuPG로 암호화된 로컬 백업의 하위 디렉토리를 지정된 위치로 복원:
 
