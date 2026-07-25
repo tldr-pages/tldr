@@ -21,4 +21,4 @@
 
 - Display version:
 
-`nwipe --version`
+`nwipe {{[-V|--version]}}`
