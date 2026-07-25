@@ -13,7 +13,7 @@
 
 - 自动确认所有提示：
 
-`choco uninstall {{包名}} --yes`
+`choco uninstall {{包名}} {{[-y|--yes]}}`
 
 - 卸载时同时删除其所有的依赖：
 

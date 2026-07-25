@@ -4,26 +4,26 @@
 > No debería ejecutar el programa manualmente.
 > Más información: <https://keith.github.io/xcode-man-pages/vpnd.8.html>.
 
-- Inicia el daemon:
+- Inicia el programa residente:
 
 `vpnd`
 
-- Ejecuta el daemon en primer plano:
+- Ejecuta el programa residente en primer plano:
 
 `vpnd -x`
 
-- Ejecuta el daemon en primer plano e imprime los registros en la terminal:
+- Ejecuta el programa residente en primer plano e imprime los registros en la terminal:
 
 `vpnd -d`
 
-- Ejecuta el daemon en primer plano, imprime los registros en la terminal y termina después de validar los argumentos:
+- Ejecuta el programa residente en primer plano, imprime los registros en la terminal y termina después de validar los argumentos:
 
 `vpnd -n`
 
-- Ejecuta el daemon para una configuración de servidor específica:
+- Ejecuta el programa residente para una configuración de servidor específica:
 
 `vpnd -i {{identificador_de_servidor}}`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `vpnd -h`

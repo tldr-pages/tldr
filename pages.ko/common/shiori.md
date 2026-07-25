@@ -21,4 +21,4 @@
 
 - 포트 8181에서 북마크 관리를 위한 웹 인터페이스 시작:
 
-`shiori serve --port {{8181}}`
+`shiori serve --port 8181`

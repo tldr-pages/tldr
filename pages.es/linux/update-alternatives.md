@@ -9,7 +9,7 @@
 
 - Configura un enlace simbólico para 'java':
 
-`sudo update-alternatives --config {{java}}`
+`sudo update-alternatives --config java`
 
 - Quita un enlace simbólico:
 

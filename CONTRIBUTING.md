@@ -102,7 +102,7 @@ As a quick reference, the format of each page should match the following templat
 # command-name
 
 > Short, snappy description.
-> Preferably one line; two are acceptable if necessary.
+> Further clarification of the functionality only when absolutely necessary.
 > More information: <https://url-to-upstream.tld>.
 
 - Example description:
@@ -117,12 +117,12 @@ As a quick reference, the format of each page should match the following templat
 For page descriptions, you can additionally use ``See also: `command`.`` and [subcommand reference](#subcommands).
 
 > [!NOTE]
-> While we suggest only two lines for the page description, it is acceptable to have more than two lines if it is necessary to add additional information (i.e. [`pacman`](https://github.com/tldr-pages/tldr/blob/main/pages/linux/pacman.md)).
+> While we suggest only two lines for the page description, it is acceptable to have more than two lines if it is necessary to add additional information (i.e. [`pacman`](https://github.com/tldr-pages/tldr/blob/main/pages/linux/pacman.md?plain=1)).
 
 To see some examples of preexisting pages, you can look at:
 
-- [pwd](https://github.com/tldr-pages/tldr/blob/main/pages/common/pwd.md) - one of the simplest command examples
-- [tar](https://github.com/tldr-pages/tldr/blob/main/pages/common/tar.md) - page with placeholders
+- [pwd](https://github.com/tldr-pages/tldr/blob/main/pages/common/pwd.md?plain=1) - one of the simplest command examples
+- [tar](https://github.com/tldr-pages/tldr/blob/main/pages/common/tar.md?plain=1) - page with placeholders
 
 In our pages, we use placeholders defined as being tokens within curly brackets. For example, in `sleep {{5}}`, the user can change 5 to any number.
 

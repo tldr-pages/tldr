@@ -38,6 +38,7 @@ There, the old table can be **imported**, **edited** in a WYSIWYG editor and **e
 | pt_PT | caminho/para/ficheiro | caminho/para/diretório   | caminho/para/ficheiro_ou_diretório   | pacote        | nome_de_utilizador |                   |          |        |          |
 | ro    | cale/către/fișier     | cale/către/director      | cale/către/fișier_sau_director       | pachet        | nume_utilizator    | parolă            | comandă  | port   |          |
 | ru    | путь/к/файлу          | путь/к/каталогу          | путь/к/файлу_или_каталогу            | пакет         | имя_пользователя   | пароль            | команда  | порт   | значение |
+| si    | ගොනුව/වෙත/මාර්ගය         |  බහාලුම/වෙත/මාර්ගය         | ගොනුව_හෝ_බහාලුම/වෙත/මාර්ගය           | පැකේජය         | පරිශීලක_නාමය  | මුරපදය            | විධානය  | පොර්ට්   | අගය |
 | sr    | put/do/datoteke       | put/do/direktorijuma     | put/do/datoteke_ili_direktorijuma    | paket         | korisničko_ime     |                   |          |        |          |
 | sv    | sökväg/till/fil       | sökväg/till/katalog      | sökväg/till/fil_eller_katalog        | paket         | användarnamn       | lösenord          | kommando | port   | värde    |
 | ta    | கோப்பு/பாதை           | அடைவிற்குப்/பாதை         | கோப்பு_அல்லது_அடைவு/பாதை             | நிரல்தொகுப்பு | பயனர்ப்பெயர்       | கடவுச்சொல்        | கட்டளை   | குதை   | மதிப்பு  |

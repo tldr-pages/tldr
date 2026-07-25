@@ -21,12 +21,12 @@
 
 - 自动确认所有提示：
 
-`choco upgrade {{包名}} --yes`
+`choco upgrade {{包名}} {{[-y|--yes]}}`
 
 - 从自定义源处升级包：
 
-`choco upgrade {{包名}} --source {{源url|别名}}`
+`choco upgrade {{包名}} {{[-s|--source]}} {{源url|别名}}`
 
 - 提供一个用户名和密码来进行验证：
 
-`choco upgrade {{包}} --user {{用户名}} --password {{密码}}`
+`choco upgrade {{包}} {{[-u|--user]}} {{用户名}} {{[-p|--password]}} {{密码}}`

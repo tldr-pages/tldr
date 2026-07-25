@@ -10,23 +10,23 @@
 
 - UUIDv4 생성 (무작위 데이터 기반):
 
-`uuid -v {{4}}`
+`uuid -v 4`
 
 - 여러 개의 UUIDv4를 한 번에 생성:
 
-`uuid -v {{4}} -n {{uuid_개수}}`
+`uuid -v 4 -n {{uuid_개수}}`
 
 - UUIDv4를 생성하고 출력 형식 지정:
 
-`uuid -v {{4}} -F {{BIN|STR|SIV}}`
+`uuid -v 4 -F {{BIN|STR|SIV}}`
 
 - UUIDv4를 생성하고 출력을 파일에 저장:
 
-`uuid -v {{4}} -o {{경로/대상/파일}}`
+`uuid -v 4 -o {{경로/대상/파일}}`
 
 - 주어진 네임스페이스 접두사로 UUIDv5 생성 (제공된 객체 이름 기반):
 
-`uuid -v {{5}} ns:{{DNS|URL|OID|X500}} {{객체_이름}}`
+`uuid -v 5 ns:{{DNS|URL|OID|X500}} {{객체_이름}}`
 
 - 주어진 UUID 디코드:
 

@@ -9,8 +9,8 @@
 
 - Włączenie podanej funkcji:
 
-`choco feature enable --name {{nazwa_funkcji}}`
+`choco feature enable {{[-n|--name]}} {{nazwa_funkcji}}`
 
 - Wyłączenie podanej funkcji:
 
-`choco feature disable --name {{nazwa_funkcji}}`
+`choco feature disable {{[-n|--name]}} {{nazwa_funkcji}}`

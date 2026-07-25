@@ -22,4 +22,4 @@
 
 - 상세 모드 활성화:
 
-`arduino-builder -verbose {{true}}`
+`arduino-builder -verbose true`

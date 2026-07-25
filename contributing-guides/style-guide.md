@@ -251,9 +251,11 @@ Some terms are used repeatedly throughout pages, and as such, should be standard
 | Term | Standard | Explanation |
 |---|---|---|
 | Regular expression | `` `regex` `` | `regex` defines a match pattern given a string of characters (https://en.wikipedia.org/wiki/Regular_expression). |
+| Glob pattern | `` `glob` `` | `glob` defines a match pattern given a string of characters (https://en.wikipedia.org/wiki/Glob_(programming)). |
 | Standard input | `` `stdin` ``
 | Standard output | `` `stdout` ``
 | Standard error | `` `stderr` ``
+| Dry run | Simulate 
 
 ## Heading
 
