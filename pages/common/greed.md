@@ -1,6 +1,6 @@
 # greed
 
-> Simple game.
+> Simple puzzle game.
 > Clear as much of the board as you can.
 > More information: <https://manned.org/greed>.
 
@@ -12,7 +12,7 @@
 
 `<?>`
 
-- Toggle move highlights:
+- Toggle move [p]reviews:
 
 `<p>`
 
