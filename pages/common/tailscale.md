@@ -20,7 +20,7 @@
 
 `tailscale set --exit-node {{ip_address|hostname}}`
 
-- Display all devices connected to Tailscale (with their IP addresses):
+- Ping a peer node at the Tailscale layer and display which route it took for each response:
 
 `tailscale ping {{ip_address|hostname}}`
 
