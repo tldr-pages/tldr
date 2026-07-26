@@ -415,14 +415,9 @@ Keep the following guidelines in mind when choosing placeholders:
 
 `sudo ufw deny 80`
 ```
-- If a command performs irreversible changes to a filesystem or devices,
-  write every example in a way that cannot be copy pasted thoughtlessly.
-  For example, instead of `ddrescue --force --no-scrape /dev/sda /dev/sdb`
-  write `ddrescue --force --no-scrape {{/dev/sdX}} {{/dev/sdY}}`
-  and use the `{{/dev/sdXY}}` placeholder for *block devices* instead of `/dev/sda1`.
+- If a command performs irreversible changes to a filesystem or devices, write every example in a way that cannot be copy pasted thoughtlessly. For example, instead of `ddrescue --force --no-scrape /dev/sda /dev/sdb` write `ddrescue --force --no-scrape {{/dev/sdX}} {{/dev/sdY}}` and use the `{{/dev/sdXY}}` placeholder for *block devices* instead of `/dev/sda1`.
 
-In general, placeholders should make it as intuitive as possible
-to figure out how to use the command and fill it in with values.
+In general, placeholders should make it as intuitive as possible to figure out how to use the command and fill it in with values.
 
 #### Paths
 
