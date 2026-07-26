@@ -21,7 +21,7 @@
 
 - Set a storage to contain specific content:
 
-`pvesm set {{storage_name}} --content {{iso,images,backup,vztmpl,...}}`
+`pvesm set {{storage_name}} --content {{iso,images,backup,vztmpl,rootdir,snippets,import}}`
 
 - Delete a file from storage:
 
