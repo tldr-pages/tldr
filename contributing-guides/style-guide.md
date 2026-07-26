@@ -408,7 +408,7 @@ Keep the following guidelines in mind when choosing placeholders:
 - Use short but descriptive placeholders,
   such as `{{path/to/source_file}}` or `{{path/to/wallet.txt}}`.
 - Use [`snake_case`](https://wikipedia.org/wiki/snake_case) for multi-word placeholders unless absolutely necessary for clarity like with `Mb` and `MB`.
-- It is possible to either use a direct example placeholder or a text placeholder. For example both `{{ip_address}}` or `{{192.168.0.1}}` are acceptable. Choose whichever is clearest in the given context.
+- It is possible to either use a direct example placeholder or a text placeholder. For example both `{{192.168.0.1}}` or `{{ip_address}}` are acceptable. Choose whichever is clearest in the given context.
 - Do not use placeholders when the description explicitly mentions the value to be used. Placeholders indicate user choice. For example:
 ```
 - Deny traffic on port 80 on this host:
