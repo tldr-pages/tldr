@@ -11,6 +11,10 @@
 
 `pvesm {{[l|list]}} {{storage_name}}`
 
+- View the path of a stored file:
+
+`pvesm {{[pa|path]}} {{storage_name}}:{{content_type}}/{{file_name}}`
+
 - Add a directory storage:
 
 `pvesm add {{[d|dir]}} {{storage_name}} --path {{path/to/directory}}`
