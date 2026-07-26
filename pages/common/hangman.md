@@ -1,4 +1,4 @@
-# hangman 
+# hangman
 
 > A classic word game.
 > Guess the word by guessing letter-by-letter.
