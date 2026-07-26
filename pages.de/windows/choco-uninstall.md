@@ -13,7 +13,7 @@
 
 - Stimme allen Fragen automatisch zu:
 
-`choco uninstall {{paket}} --yes`
+`choco uninstall {{paket}} {{[-y|--yes]}}`
 
 - Deinstalliere auch alle Abhängigkeiten:
 

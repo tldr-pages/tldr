@@ -9,8 +9,8 @@
 
 - एक विशेषता सक्षम करें:
 
-`choco feature enable --name {{नाम}}`
+`choco feature enable {{[-n|--name]}} {{नाम}}`
 
 - एक विशेषता अक्षम करें:
 
-`choco feature disable --name {{नाम}}`
+`choco feature disable {{[-n|--name]}} {{नाम}}`
