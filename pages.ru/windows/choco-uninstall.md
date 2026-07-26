@@ -17,7 +17,7 @@
 
 - Удалить все зависимости при удалении:
 
-`choco uninstall {{пакет}} --remove-dependencies`
+`choco uninstall {{пакет}} {{[-x|--remove-dependencies]}}`
 
 - Удалить все пакеты:
 

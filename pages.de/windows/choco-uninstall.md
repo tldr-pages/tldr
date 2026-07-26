@@ -17,7 +17,7 @@
 
 - Deinstalliere auch alle Abhängigkeiten:
 
-`choco uninstall {{paket}} --remove-dependencies`
+`choco uninstall {{paket}} {{[-x|--remove-dependencies]}}`
 
 - Deinstalliere alle Pakete:
 

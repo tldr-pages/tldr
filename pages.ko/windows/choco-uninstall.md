@@ -17,7 +17,7 @@
 
 - 제거 시 모든 의존성 제거:
 
-`choco uninstall {{패키지}} --remove-dependencies`
+`choco uninstall {{패키지}} {{[-x|--remove-dependencies]}}`
 
 - 모든 패키지 제거:
 
