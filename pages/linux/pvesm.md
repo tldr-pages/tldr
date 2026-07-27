@@ -17,7 +17,7 @@
 
 - Add a directory storage:
 
-`pvesm {{[ad|add]}} {{[d|dir]}} {{storage_name}} --path {{path/to/directory}}`
+`pvesm {{[ad|add]}} dir {{storage_name}} --path {{path/to/directory}}`
 
 - Set a storage to contain specific content:
 
