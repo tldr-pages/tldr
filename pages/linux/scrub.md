@@ -15,9 +15,9 @@
 
 `sudo scrub {{/dev/sdX}}`
 
-- Securely overwrite a file using a single overwrite pattern:
+- Securely overwrite a file with a single-pass overwrite pattern:
 
-`scrub {{[-p|--pattern]}} 1 {{path/to/file}}`
+`scrub {{[-p|--pattern]}} random {{path/to/file}}`
 
 - Securely overwrite a file using the DoD 5220.22-M overwrite pattern:
 
@@ -27,7 +27,7 @@
 
 `scrub {{[-p|--pattern]}} gutmann {{path/to/file}}`
 
-- [R]emove a file after successfully overwriting it:
+- Remove a file after successfully overwriting it:
 
 `scrub {{[-r|--remove]}} {{path/to/file}}`
 
