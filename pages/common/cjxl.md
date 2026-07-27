@@ -22,4 +22,4 @@
 
 - Display an extremely detailed help:
 
-`cjxl {{[-h -v -v -v -v|--help --verbose --verbose --verbose --verbose]}}`
+`cjxl {{[-h -v -v|--help --verbose --verbose]}}`
