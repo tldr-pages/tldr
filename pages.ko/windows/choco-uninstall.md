@@ -13,11 +13,11 @@
 
 - 모든 프롬프트를 자동으로 확인:
 
-`choco uninstall {{패키지}} --yes`
+`choco uninstall {{패키지}} {{[-y|--yes]}}`
 
 - 제거 시 모든 의존성 제거:
 
-`choco uninstall {{패키지}} --remove-dependencies`
+`choco uninstall {{패키지}} {{[-x|--remove-dependencies]}}`
 
 - 모든 패키지 제거:
 

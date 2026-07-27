@@ -21,12 +21,12 @@
 
 - 모든 프롬프트 자동으로 확인:
 
-`choco upgrade {{패키지}} --yes`
+`choco upgrade {{패키지}} {{[-y|--yes]}}`
 
 - 패키지를 받을 사용자 지정 소스 지정:
 
-`choco upgrade {{패키지}} --source {{소스_주소|별칭}}`
+`choco upgrade {{패키지}} {{[-s|--source]}} {{소스_주소|별칭}}`
 
 - 인증을 위한 사용자 명과 비밀번호 제공:
 
-`choco upgrade {{패키지}} --user {{사용자_명}} --password {{비밀번호}}`
+`choco upgrade {{패키지}} {{[-u|--user]}} {{사용자_명}} {{[-p|--password]}} {{비밀번호}}`

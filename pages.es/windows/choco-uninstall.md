@@ -13,11 +13,11 @@
 
 - Confirmar automáticamente todos los mensajes:
 
-`choco uninstall {{paquete}} --yes`
+`choco uninstall {{paquete}} {{[-y|--yes]}}`
 
 - Eliminar todas las dependencias al desinstalar:
 
-`choco uninstall {{paquete}} --remove-dependencies`
+`choco uninstall {{paquete}} {{[-x|--remove-dependencies]}}`
 
 - Desinstalar todos los paquetes:
 

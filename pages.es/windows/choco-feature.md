@@ -9,8 +9,8 @@
 
 - Habilitar una característica:
 
-`choco feature enable --name {{nombre}}`
+`choco feature enable {{[-n|--name]}} {{nombre}}`
 
 - Deshabilitar una característica:
 
-`choco feature disable --name {{nombre}}`
+`choco feature disable {{[-n|--name]}} {{nombre}}`
