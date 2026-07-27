@@ -25,12 +25,12 @@
 
 - Bevestig alle prompts automatisch:
 
-`choco install {{pakket}} --yes`
+`choco install {{pakket}} {{[-y|--yes]}}`
 
 - Specificieer een aangepaste bron om pakketten van te ontvangen:
 
-`choco install {{pakket}} --source {{source_url|alias}}`
+`choco install {{pakket}} {{[-s|--source]}} {{source_url|alias}}`
 
 - Geef een gebruikersnaam en wachtwoord voor authenticatie op:
 
-`choco install {{pakket}} --user {{gebruikersnaam}} --password {{wachtwoord}}`
+`choco install {{pakket}} {{[-u|--user]}} {{gebruikersnaam}} {{[-p|--password]}} {{wachtwoord}}`

@@ -10,7 +10,7 @@
 
 - 쿼리와 정규 표현식을 사용하여 protein 데이터베이스 검색:
 
-`esearch -db {{protein}} -query {{'Escherichia*'}}`
+`esearch -db {{protein}} -query '{{Escherichia*}}'`
 
 - nuccore 데이터베이스에서 메타데이터에 인슐린과 설치류가 포함된 서열 검색:
 
@@ -18,4 +18,4 @@
 
 - [h]도움말 표시:
 
-`esearch -h`
+`esearch {{[-h|-help]}}`

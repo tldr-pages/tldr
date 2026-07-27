@@ -13,11 +13,11 @@
 
 - সব প্রম্পট স্বয়ংক্রিয়ভাবে নিশ্চিত করুন:
 
-`choco uninstall {{package}} --yes`
+`choco uninstall {{package}} {{[-y|--yes]}}`
 
 - আনইনস্টল করার সময় সব ডিপেন্ডেন্সি সরিয়ে ফেলুন:
 
-`choco uninstall {{package}} --remove-dependencies`
+`choco uninstall {{package}} {{[-x|--remove-dependencies]}}`
 
 - সব প্যাকেজ আনইনস্টল করুন:
 

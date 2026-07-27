@@ -5,20 +5,20 @@
 
 - ஒரு குறிப்பிட்ட விநியோகத்திற்காக Toolbx கொள்கலனை உருவாக்கவும்:
 
-`toolbox create --distro {{விநியோகம்}}`
+`toolbox create {{[-d|--distro]}} {{விநியோகம்}}`
 
 - தற்போதைய விநியோகத்தின் குறிப்பிட்ட வெளியீட்டிற்கு Toolbx கொள்கலனை உருவாக்கவும்:
 
-`toolbox create --release {{வெளியீடு}}`
+`toolbox create {{[-r|--release]}} {{வெளியீடு}}`
 
 - தனிப்பயன் படத்துடன் Toolbx கொள்கலனை உருவாக்கவும்:
 
-`toolbox create --image {{பெயர்}}`
+`toolbox create {{[-i|--image]}} {{பெயர்}}`
 
 - தனிப்பயன் ஃபெடோரா படத்திலிருந்து Toolbx கொள்கலனை உருவாக்கவும்:
 
-`toolbox create --image {{registry.fedoraproject.org/fedora-toolbox:39}}`
+`toolbox create {{[-i|--image]}} {{registry.fedoraproject.org/fedora-toolbox:39}}`
 
 - ஃபெடோரா 39க்கான இயல்புநிலை படத்தைப் பயன்படுத்தி Toolbx கொள்கலனை உருவாக்கவும்:
 
-`toolbox create --distro {{fedora}} --release {{f39}}`
+`toolbox create {{[-d|--distro]}} {{fedora}} {{[-r|--release]}} f{{39}}`

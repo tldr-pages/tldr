@@ -21,12 +21,12 @@
 
 - Automatycznie akceptuj wszystkie monity podczas aktualizacji pakietu:
 
-`choco upgrade {{pakiet}} --yes`
+`choco upgrade {{pakiet}} {{[-y|--yes]}}`
 
 - Ustaw określone źródło/repozytorium pakietów:
 
-`choco upgrade {{pakiet}} --source {{adres_url|alias}}`
+`choco upgrade {{pakiet}} {{[-s|--source]}} {{adres_url|alias}}`
 
 - Podaj nazwę użytkownika i hasło do uwierzytelnienia:
 
-`choco upgrade {{pakiet}} --user {{nazwa_użytkownika}} --password {{hasło}}`
+`choco upgrade {{pakiet}} {{[-u|--user]}} {{nazwa_użytkownika}} {{[-p|--password]}} {{hasło}}`
