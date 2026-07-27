@@ -10,7 +10,7 @@
 
 - Aggiunge una route predefinita usando l'inoltro gateway:
 
-`sudo ip {{[r|route]}} {{[a|add]}} default via {{gateway_ip}}`
+`sudo ip {{[r|route]}} {{[a|add]}} default via {{ip_gateway}}`
 
 - Aggiunge una route predefinita usando `ethX`:
 
@@ -18,20 +18,20 @@
 
 - Aggiunge una route statica:
 
-`sudo ip {{[r|route]}} {{[a|add]}} {{destination_ip}} via {{gateway_ip}} dev {{ethX}}`
+`sudo ip {{[r|route]}} {{[a|add]}} {{ip_destinazione}} via {{ip_gateway}} dev {{ethX}}`
 
 - Elimina una route statica:
 
-`sudo ip {{[r|route]}} {{[d|delete]}} {{destination_ip}} dev {{ethX}}`
+`sudo ip {{[r|route]}} {{[d|delete]}} {{ip_destinazione}} dev {{ethX}}`
 
 - Modifica o sostituisce una route statica:
 
-`sudo ip {{[r|route]}} {{change|replace}} {{destination_ip}} via {{gateway_ip}} dev {{ethX}}`
+`sudo ip {{[r|route]}} {{change|replace}} {{ip_destinazione}} via {{ip_gateway}} dev {{ethX}}`
 
 - Mostra quale route verrà usata dal kernel per raggiungere un indirizzo IP:
 
-`ip {{[r|route]}} {{[g|get]}} {{destination_ip}}`
+`ip {{[r|route]}} {{[g|get]}} {{ip_destinazione}}`
 
 - Mostra una tabella di routing specifica:
 
-`ip {{[r|route]}} {{[l|list]}} {{[t|table]}} {{table_number}}`
+`ip {{[r|route]}} {{[l|list]}} {{[t|table]}} {{numero_table}}`
