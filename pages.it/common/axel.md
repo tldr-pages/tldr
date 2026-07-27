@@ -31,4 +31,4 @@
 
 - Limita l'output a `stdout` e usa un user-agent personalizzato durante il download:
 
-`axel {{[-q|--quiet]}} {{[-U|--user-agent]}} {{"Mozilla/5.0"}} {{url}}`
+`axel {{[-q|--quiet]}} {{[-U|--user-agent]}} "{{Mozilla/5.0}}" {{url}}`
