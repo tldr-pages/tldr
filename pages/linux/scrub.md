@@ -21,16 +21,16 @@
 
 - Securely overwrite a file using the DoD 5220.22-M overwrite pattern:
 
-`scrub -p dod {{path/to/file}}`
+`scrub {{[-p|--pattern]}} dod {{path/to/file}}`
 
 - Securely overwrite a file using the Gutmann overwrite pattern:
 
-`scrub -p gutmann {{path/to/file}}`
+`scrub {{[-p|--pattern]}} gutmann {{path/to/file}}`
 
 - [R]emove a file after successfully overwriting it:
 
-`scrub -r {{path/to/file}}`
+`scrub {{[-r|--remove]}} {{path/to/file}}`
 
 - Display help:
 
-`scrub --help`
+`scrub {{[-h|--help]}}`
