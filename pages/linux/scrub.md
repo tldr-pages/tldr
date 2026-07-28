@@ -31,6 +31,7 @@
 
 `scrub {{[-r|--remove]}} {{path/to/file}}`
 
-- Display help:
+- Securely overwrite free space in a directory:
 
-`scrub {{[-h|--help]}}`
+`scrub {{[-X|--freespace]}} {{path/to/directory}}`
+
