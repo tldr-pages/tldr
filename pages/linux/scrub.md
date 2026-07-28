@@ -34,4 +34,3 @@
 - Securely overwrite free space in a directory:
 
 `scrub {{[-X|--freespace]}} {{path/to/directory}}`
-
