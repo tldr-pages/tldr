@@ -17,7 +17,7 @@
 
 - 卸载时同时删除其所有的依赖：
 
-`choco uninstall {{包名}} --remove-dependencies`
+`choco uninstall {{包名}} {{[-x|--remove-dependencies]}}`
 
 - 卸载全部包：
 

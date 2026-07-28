@@ -17,7 +17,7 @@
 
 - আনইনস্টল করার সময় সব ডিপেন্ডেন্সি সরিয়ে ফেলুন:
 
-`choco uninstall {{package}} --remove-dependencies`
+`choco uninstall {{package}} {{[-x|--remove-dependencies]}}`
 
 - সব প্যাকেজ আনইনস্টল করুন:
 

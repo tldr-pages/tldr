@@ -7,7 +7,7 @@
 
 `ninja`
 
-- Build in the current directory, executing 4 jobs at a time in parallel:
+- Build in the current directory, executing 4 [j]obs at a time in parallel:
 
 `ninja -j {{4}}`
 
@@ -15,9 +15,13 @@
 
 `ninja -C {{path/to/directory}}`
 
-- Show targets (e.g. `install` and `uninstall`):
+- Show [t]argets (e.g. `install` and `uninstall`):
 
 `ninja -t targets`
+
+- Display verbose output:
+
+`ninja {{[-v|--verbose]}}`
 
 - Display help:
 
