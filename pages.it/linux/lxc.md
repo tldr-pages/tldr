@@ -14,7 +14,7 @@
 
 - Crea un nuovo container da un'immagine:
 
-`lxc init [{{remote}}:]{{image}} {{container}}`
+`lxc init [{{remote}}:]{{immagine}} {{container}}`
 
 - Avvia un container:
 
