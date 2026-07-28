@@ -21,8 +21,8 @@
 
 - Imposta il proprietario (UID) di un dispositivo TUN/TAP:
 
-`sudo ip {{[tunt|tuntap]}} {{[a|add]}} {{[d|dev]}} {{tun0|tap0}} {{[m|mode]}} {{tun|tap}} {{[u|user]}} {{username}}`
+`sudo ip {{[tunt|tuntap]}} {{[a|add]}} {{[d|dev]}} {{tun0|tap0}} {{[m|mode]}} {{tun|tap}} {{[u|user]}} {{nome_utente}}`
 
 - Imposta sia il proprietario (UID) che il gruppo (GID) per un dispositivo TUN/TAP:
 
-`sudo ip {{[tunt|tuntap]}} {{[a|add]}} {{[d|dev]}} {{tun0|tap0}} {{[m|mode]}} {{tun|tap}} {{[u|user]}} {{username}} {{[g|group]}} {{group_name}}`
+`sudo ip {{[tunt|tuntap]}} {{[a|add]}} {{[d|dev]}} {{tun0|tap0}} {{[m|mode]}} {{tun|tap}} {{[u|user]}} {{nome_utente}} {{[g|group]}} {{nome_gruppo}}`

@@ -9,7 +9,7 @@
 
 - Mostra le statistiche per un'interfaccia di rete specifica:
 
-`ip {{[st|stats]}} show dev {{network_interface}}`
+`ip {{[st|stats]}} show dev {{interfaccia_network}}`
 
 - Mostra le statistiche del livello di collegamento (come `ip -statistics link show`):
 
@@ -21,11 +21,11 @@
 
 - Mostra le statistiche di offload per un'interfaccia specifica:
 
-`ip {{[st|stats]}} show dev {{network_interface}} group offload`
+`ip {{[st|stats]}} show dev {{interfaccia_network}} group offload`
 
 - Mostra un sottogruppo di offload specifico:
 
-`ip {{[st|stats]}} show dev {{network_interface}} group offload subgroup {{l3_stats|cpu_hit|hw_stats_info}}`
+`ip {{[st|stats]}} show dev {{interfaccia_network}} group offload subgroup {{l3_stats|cpu_hit|hw_stats_info}}`
 
 - Mostra statistiche specifiche per famiglia di indirizzi (es. MPLS):
 
@@ -33,4 +33,4 @@
 
 - Abilita la raccolta di statistiche hardware di Livello 3 su un dispositivo:
 
-`ip {{[st|stats]}} set dev {{network_interface}} l3_stats on`
+`ip {{[st|stats]}} set dev {{interfaccia_network}} l3_stats on`
