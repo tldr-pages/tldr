@@ -19,10 +19,10 @@
 
 `ufw allow from {{source_address}}`
 
-- Allow TCP traffic from a source address to a destination address on a port:
+- Allow TCP traffic from 192.168.1.12 to 192.168.1.100 on port 443:
 
-`ufw allow from {{source_address}} to {{destination_address}} port {{port}} proto tcp`
+`ufw allow from 192.168.1.12 to 192.168.1.100 port 443 proto tcp`
 
-- Allow all incoming GRE traffic to a destination address on an interface (e.g., eth0):
+- Allow all incoming GRE traffic to 192.168.1.100 on the eth0 interface:
 
-`ufw allow in on {{interface}} to {{destination_address}} proto gre`
+`ufw allow in on eth0 to 192.168.1.100 proto gre`
