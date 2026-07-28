@@ -30,7 +30,7 @@
 
 - Print the tldr page for a command with short options:
 
-`tldr {{[--short-options]}} {{command}}`
+`tldr --short-options {{command}}`
 
 - Browse tldr pages in a terminal window (`fzf` must be available):
 
