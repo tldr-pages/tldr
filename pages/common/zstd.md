@@ -21,7 +21,7 @@
 
 - Compress a file using an ultra-fast compression level, where 1=default:
 
-`zstd --fast={{level}} {{path/to/file}}`
+`zstd --fast={{1..17}} {{path/to/file}}`
 
 - Unlock higher compression levels (up to 22) using more memory (both for compression and decompression):
 
