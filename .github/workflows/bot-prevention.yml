@@ -18,7 +18,7 @@ jobs:
             const { data: permissionData } = await github.rest.repos.getCollaboratorPermissionLevel({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              username: author
+              username: context.payload.pull_request.user.login
             });
             if (permissionData.permission === "write") {
               return;
