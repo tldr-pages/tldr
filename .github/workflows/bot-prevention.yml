@@ -22,7 +22,7 @@ jobs:
             const requiredText5 = "The PR contains at most 5 new pages.";
             const requiredText6 = "The PR is authored by me, or has been human-reviewed if it was created with AI or machine translation software.";
             const requiredText7 = "The PR title conforms to the recommended [templates](/tldr-pages/tldr/blob/main/CONTRIBUTING.md#commit-message-and-pr-title).";
-            const body = context.payload.pull_request.body || "";
+            const body = context.payload.pull_request.body;
 
             if (!body.includes(requiredText1) || !body.includes(requiredText2) || !body.includes(requiredText3) || !body.includes(requiredText4) || !body.includes(requiredText5) || !body.includes(requiredText6) || !body.includes(requiredText7)) {
               await github.rest.issues.createComment({
