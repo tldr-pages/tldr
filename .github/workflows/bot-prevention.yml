@@ -18,14 +18,7 @@ jobs:
             if (context.payload.pull_request.user.type === "Bot") {
               return;
             }
-            const { data: permissionData } = await github.rest.repos.getCollaboratorPermissionLevel({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              username: context.payload.pull_request.user.login
-            });
-            if (permissionData.permission === "write" || permissionData.permission === "admin") {
-              return;
-            }
+
             
             const requiredTexts = [
               "The page(s) are in the correct platform directories: `common`, `linux`, `osx`, `windows`, `sunos`, `android`, etc.",
