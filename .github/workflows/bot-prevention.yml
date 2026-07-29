@@ -38,7 +38,7 @@ jobs:
             ]
             const body = context.payload.pull_request.body || "";
 
-            if (requiredTexts.filter(text => !body.includes(text)) > 0) {
+            if (requiredTexts.filter(text => !body.includes(text)).length > 0) {
               await github.rest.issues.createComment({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
