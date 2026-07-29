@@ -28,7 +28,7 @@
 
 `tldr {{[-l|--list]}}`
 
-- Print the tldr page for a command with short options:
+- Print the tldr page for a command and display short options:
 
 `tldr --short-options {{command}}`
 
