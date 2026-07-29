@@ -2,7 +2,7 @@ name: Check PR Description
 
 on:
   pull_request:
-    types: opened
+    types: [opened, reopened]
 
 permissions:
   pull-requests: write
