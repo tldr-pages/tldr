@@ -19,7 +19,7 @@
 
 `ufw deny from {{source_address}}`
 
-- Deny UPD traffic from 192.168.1.12 to 192.168.1.100 on port 8080:
+- Deny UDP traffic from 192.168.1.12 to 192.168.1.100 on port 8080:
 
 `ufw deny from 192.168.1.12 to 192.168.1.100 port 8080 proto udp`
 
