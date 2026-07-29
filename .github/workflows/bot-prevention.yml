@@ -15,6 +15,15 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
+            const { data: permissionData } = await github.rest.repos.getCollaboratorPermissionLevel({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              username: author
+            });
+            if (permissionData.permission === "write") {
+              return;
+            }
+            
             const requiredText1 = "The page(s) are in the correct platform directories: `common`, `linux`, `osx`, `windows`, `sunos`, `android`, etc.";
             const requiredText2 = "The page description(s) have links to documentation or a homepage.";
             const requiredText3 = "The page(s) follow the [content guidelines](/tldr-pages/tldr/blob/main/CONTRIBUTING.md#guidelines).";
