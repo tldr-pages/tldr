@@ -31,8 +31,6 @@ jobs:
                 issue_number: context.payload.pull_request.number,
                 body: `This PR was automatically closed because the description is missing required text.`
               });
-
-              // Close the PR
               await github.rest.pulls.update({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
