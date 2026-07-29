@@ -20,7 +20,7 @@ jobs:
               repo: context.repo.repo,
               username: context.payload.pull_request.user.login
             });
-            if (permissionData.permission === "write") {
+            if (permissionData.permission === "write" || permissionData.permission === "admin") {
               return;
             }
             
