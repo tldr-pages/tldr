@@ -21,7 +21,7 @@ jobs:
               username: context.payload.pull_request.user.login
             });
             console.log(`Permission level: ${permissionData.permission}`);
-            if (permissionData.permission === "write" || permissionData.permission === "admin") {
+            if (permissionData.permission == "write" || permissionData.permission == "admin") {
               return;
             }
             
