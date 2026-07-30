@@ -220,8 +220,6 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [27 Mar 2025](https://github.com/tldr-pages/tldr/issues/16036) — present
 - **Harshavardhan ([@TheRootDaemon](https://github.com/TheRootDaemon))**:
   [26 December 2025](https://github.com/tldr-pages/tldr/issues/20285) — present
-- **Ivan Baluta ([@ivanbaluta](https://github.com/ivanbaluta))**:
-  [28 December 2025](https://github.com/tldr-pages/tldr/issues/20284) — present
 - **Sahil Afrid Farookhi ([@msaf9](https://github.com/msaf9))**:
   [29 July 2026](https://github.com/tldr-pages/tldr/issues/23436) - present
 - **Meinard Francisco ([@znarfm](https://github.com/znarfm))**:
