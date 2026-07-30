@@ -43,7 +43,7 @@ jobs:
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: context.payload.pull_request.number,
-                body: `This PR was automatically closed because the description is missing required text.`
+                body: `This PR was automatically closed because the description is missing PR template text.`
               });
               await github.rest.pulls.update({
                 owner: context.repo.owner,
