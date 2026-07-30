@@ -15,6 +15,6 @@
 
 `choco config set {{setting_name}} {{value}}`
 
-- Unset a specific configuration setting:
+- Remove a specific configuration setting:
 
 `choco config unset {{setting_name}}`
