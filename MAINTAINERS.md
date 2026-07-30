@@ -96,8 +96,6 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [10 September 2025](https://github.com/tldr-pages/tldr/issues/18069) — present
 - **Sadeed Waseem ([@sadeeed](https://github.com/Sadeeed))**:
   [04 October 2025](https://github.com/tldr-pages/tldr/issues/18393) — present
-- **Meinard Francisco ([@znarfm](https://github.com/znarfm))**:
-  [04 November 2025](https://github.com/tldr-pages/tldr/issues/19190) — present
 - **Md Sakib Sadman Badhon ([@badhon495](https://github.com/badhon495))**:
   [06 November 2025](https://github.com/tldr-pages/tldr/issues/19235) — present
 - **Mingliang Song ([@DustMerlin](https://github.com/DustMerlin))**:
@@ -188,6 +186,8 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [22 August 2025](https://github.com/tldr-pages/tldr/issues/17772) — [28 December 2025](https://github.com/tldr-pages/tldr/issues/20286)
 - **Sahil Afrid Farookhi ([@msaf9](https://github.com/msaf9))**:
   [04 November 2025](https://github.com/tldr-pages/tldr/issues/19189) — [29 July 2026](https://github.com/tldr-pages/tldr/issues/23436)
+- Meinard Francisco ([@znarfm](https://github.com/znarfm)):
+  [04 November 2025](https://github.com/tldr-pages/tldr/issues/19190) — [30 July 2026](https://github.com/tldr-pages/tldr/issues/23435)
 
 ## Organization members
 
@@ -224,6 +224,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [28 December 2025](https://github.com/tldr-pages/tldr/issues/20284) — present
 - **Sahil Afrid Farookhi ([@msaf9](https://github.com/msaf9))**:
   [29 July 2026](https://github.com/tldr-pages/tldr/issues/23436) - present
+- **Meinard Francisco ([@znarfm](https://github.com/znarfm))**:
+  [30 July 2026](https://github.com/tldr-pages/tldr/issues/23435) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
@@ -270,6 +272,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [29 June 2025](https://github.com/tldr-pages/tldr/issues/17025) — [20 April 2026](https://github.com/tldr-pages/tldr/issues/22137#issuecomment-4277451764)
 - Adriano Inghingolo ([@SpikeTheDragon40k](https://github.com/SpikeTheDragon40k)):
   [28 December 2025](https://github.com/tldr-pages/tldr/issues/20286) — [29 July 2026](https://github.com/tldr-pages/tldr/issues/23429)
+- Ivan Baluta ([@ivanbaluta](https://github.com/ivanbaluta)):
+  [28 December 2025](https://github.com/tldr-pages/tldr/issues/20284) — [30 July 2026](https://github.com/tldr-pages/tldr/issues/23431)
 
 ## Organization owners
 
@@ -312,6 +316,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [20 April 2026](https://github.com/tldr-pages/tldr/issues/22137#issuecomment-4277451764) — present
 - **Adriano Inghingolo ([@SpikeTheDragon40k](https://github.com/SpikeTheDragon40k))**:
   [29 July 2026](https://github.com/tldr-pages/tldr/issues/23429) — present
+- **Ivan Baluta ([@ivanbaluta](https://github.com/ivanbaluta))**:
+  [30 July 2026](https://github.com/tldr-pages/tldr/issues/23431) — present
 - Igor Shubovych ([@igorshubovych](https://github.com/igorshubovych)):
   until [18 January 2018](https://github.com/tldr-pages/tldr/issues/1878#issuecomment-358610454)
 - Ruben Vereecken ([@rubenvereecken](https://github.com/rubenvereecken)):
