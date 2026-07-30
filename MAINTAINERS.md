@@ -185,7 +185,7 @@ If you are an owner of the organization, you can see an automated list [here](ht
 - Adriano Inghingolo ([@SpikeTheDragon40k](https://github.com/SpikeTheDragon40k)):
   [22 August 2025](https://github.com/tldr-pages/tldr/issues/17772) — [28 December 2025](https://github.com/tldr-pages/tldr/issues/20286)
 - Sahil Afrid Farookhi ([@msaf9](https://github.com/msaf9)):
-  [04 November 2025](https://github.com/tldr-pages/tldr/issues/19189) - [29 July 2026](https://github.com/tldr-pages/tldr/issues/23436)
+  [04 November 2025](https://github.com/tldr-pages/tldr/issues/19189) — [29 July 2026](https://github.com/tldr-pages/tldr/issues/23436)
 - Meinard Francisco ([@znarfm](https://github.com/znarfm)):
   [04 November 2025](https://github.com/tldr-pages/tldr/issues/19190) — [30 July 2026](https://github.com/tldr-pages/tldr/issues/23435)
 
