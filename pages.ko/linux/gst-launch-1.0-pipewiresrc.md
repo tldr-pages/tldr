@@ -9,7 +9,7 @@
 
 - 지정한 노드의 비디오를 창에 표시:
 
-`gst-launch-1.0 pipewiresrc target-object={{node_name}} ! autovideosink`
+`gst-launch-1.0 pipewiresrc target-object={{노드_이름}} ! autovideosink`
 
 - 비디오를 파일로 녹화:
 
@@ -25,7 +25,7 @@
 
 - 장치의 모니터 출력을 녹음:
 
-`gst-launch-1.0 pipewiresrc target-object={{node_name}} stream-properties=props,stream.capture.sink=true ! {{audioconvert ! fakesink}}`
+`gst-launch-1.0 pipewiresrc target-object={{노드_이름}} stream-properties=props,stream.capture.sink=true ! {{audioconvert ! fakesink}}`
 
 - 오디오와 비디오를 하나의 파일로 멀티플렉싱(Multiplex)하여 저장:
 
