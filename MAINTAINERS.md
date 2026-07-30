@@ -266,7 +266,7 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [30 June 2025](https://github.com/tldr-pages/tldr/issues/17026) — [18 March 2026](https://github.com/tldr-pages/tldr/issues/21586)
 - Nelson Figueroa ([@nelsonfigueroa](https://github.com/nelsonfigueroa)):
   [29 June 2025](https://github.com/tldr-pages/tldr/issues/17025) — [20 April 2026](https://github.com/tldr-pages/tldr/issues/22137#issuecomment-4277451764)
-- **Adriano Inghingolo ([@SpikeTheDragon40k](https://github.com/SpikeTheDragon40k))**:
+- Adriano Inghingolo ([@SpikeTheDragon40k](https://github.com/SpikeTheDragon40k)):
   [28 December 2025](https://github.com/tldr-pages/tldr/issues/20286) — [29 July 2026](https://github.com/tldr-pages/tldr/issues/23429)
 
 ## Organization owners
