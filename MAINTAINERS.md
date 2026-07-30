@@ -96,8 +96,6 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [10 September 2025](https://github.com/tldr-pages/tldr/issues/18069) — present
 - **Sadeed Waseem ([@sadeeed](https://github.com/Sadeeed))**:
   [04 October 2025](https://github.com/tldr-pages/tldr/issues/18393) — present
-- **Sahil Afrid Farookhi ([@msaf9](https://github.com/msaf9))**:
-  [04 November 2025](https://github.com/tldr-pages/tldr/issues/19189) — present
 - **Meinard Francisco ([@znarfm](https://github.com/znarfm))**:
   [04 November 2025](https://github.com/tldr-pages/tldr/issues/19190) — present
 - **Md Sakib Sadman Badhon ([@badhon495](https://github.com/badhon495))**:
@@ -188,6 +186,8 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [03 November 2025](https://github.com/tldr-pages/tldr/issues/19176) — [28 December 2025](https://github.com/tldr-pages/tldr/issues/20284)
 - Adriano Inghingolo ([@SpikeTheDragon40k](https://github.com/SpikeTheDragon40k)):
   [22 August 2025](https://github.com/tldr-pages/tldr/issues/17772) — [28 December 2025](https://github.com/tldr-pages/tldr/issues/20286)
+- **Sahil Afrid Farookhi ([@msaf9](https://github.com/msaf9))**:
+  [04 November 2025](https://github.com/tldr-pages/tldr/issues/19189) — [29 July 2026](https://github.com/tldr-pages/tldr/issues/23436)
 
 ## Organization members
 
@@ -222,6 +222,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [26 December 2025](https://github.com/tldr-pages/tldr/issues/20285) — present
 - **Ivan Baluta ([@ivanbaluta](https://github.com/ivanbaluta))**:
   [28 December 2025](https://github.com/tldr-pages/tldr/issues/20284) — present
+- **Sahil Afrid Farookhi ([@msaf9](https://github.com/msaf9))**:
+  [29 July 2026](https://github.com/tldr-pages/tldr/issues/23436) - present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
