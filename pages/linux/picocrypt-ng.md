@@ -1,6 +1,6 @@
 # Picocrypt-NG CLI
 
-> Picocrypt New Generation (Active fork of the now archived, Picocrypt)
+> Picocrypt New Generation (Active fork of the now archived, Picocrypt).
 > A fast, feature-rich tool to encrypt files with multiple security options.
 > More information: <https://github.com/Picocrypt-NG/Picocrypt-NG>.
 
