@@ -34,4 +34,8 @@
 
 - Display the `PKGBUILD` file of a package:
 
-`paru --getpkgbuild --print {{package}`
+`paru --G {{package}}`
+
+- Display the `PKGBUILD` file of a package:
+
+`paru --Gp {{package}}`
