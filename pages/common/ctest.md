@@ -13,7 +13,7 @@
 
 - Run all tests on all processor cores:
 
-`ctest {{[-j|--parallel]}} $(nproc)`
+`ctest {{[-j|--parallel]}}`
 
 - Run all tests defined in the CMake build directory and print detailed logs on failed tests:
 
