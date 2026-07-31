@@ -9,7 +9,7 @@
 
 - Run a container from an image interactively and remove it after it exits:
 
-`container run --rm {{[-i|--interactive]}} {{[-t|--tty]}} {{image}} {{sh}}`
+`container run --rm {{[-it|--interactive --tty]}} {{image}} {{sh}}`
 
 - Run a container in the background with a name and a published port:
 
@@ -17,7 +17,7 @@
 
 - Execute a command inside a running container:
 
-`container exec {{[-i|--interactive]}} {{[-t|--tty]}} {{container_name}} {{sh}}`
+`container exec {{[-it|--interactive --tty]}} {{container_name}} {{sh}}`
 
 - List all containers (running and stopped):
 
