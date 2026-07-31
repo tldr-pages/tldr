@@ -24,37 +24,9 @@
 
 `rmpc albumart --output {{path/to/cover.jpg}}`
 
-- Toggle between play and pause:
+- Toggle playback control functions (consume plays the song and deletes it from the queque afterwards.):
 
-`rmpc togglepause`
-
-- Play the next or previous song:
-
-`rmpc {{next|prev}}`
-
-- Stop the playback of music:
-
-`rmpc stop`
-
-- Toggle Repeat:
-
-`rmpc togglerepeat`
-
-- List MPD Outputs:
-
-`rmpc outputs`
-
-- Enable output:
-
-`rmpc enableoutput`
-
-- Disable output:
-
-`rmpc disableoutput`
-
-- Toggle consume mode (Deletes song from queque after being played):
-
-`rmpc consume`
+`rmpc {{next|prev|stop|consume|togglerepeat|pause|unpause}}`
 
 - View currently playing song:
 
