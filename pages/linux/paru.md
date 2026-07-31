@@ -24,10 +24,17 @@
 
 `paru -Si {{package}}`
 
+- Check manually installed AUR packages:
+
+`paru -Qqm`
+
 - Download `PKGBUILD` and other package source files from the AUR or ABS:
 
 `paru --getpkgbuild {{package}}`
 
-- Display the `PKGBUILD` file of a package:
+- Display the `PKGBUILD` file of a package two ways:
 
 `paru --getpkgbuild --print {{package}}`
+
+`paru -Gp {{package}}`
+
