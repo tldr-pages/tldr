@@ -1,7 +1,7 @@
 # kwin_wayland
 
 > KDE window manager.
-> More information: <https://invent.kde.org/plasma/kwin>.
+> More information: <https://community.kde.org/KWin/Wayland>.
 
 - Start KWin:
 
