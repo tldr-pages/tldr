@@ -218,8 +218,6 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [23 October 2024](https://github.com/tldr-pages/tldr/issues/14343) — present
 - **Machiavelli ([@MachiavelliII](https://github.com/MachiavelliII))**:
   [27 Mar 2025](https://github.com/tldr-pages/tldr/issues/16036) — present
-- **Harshavardhan ([@TheRootDaemon](https://github.com/TheRootDaemon))**:
-  [26 December 2025](https://github.com/tldr-pages/tldr/issues/20285) — present
 - **Sahil Afrid Farookhi ([@msaf9](https://github.com/msaf9))**:
   [29 July 2026](https://github.com/tldr-pages/tldr/issues/23436) — present
 - **Meinard Francisco ([@znarfm](https://github.com/znarfm))**:
@@ -272,6 +270,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [28 December 2025](https://github.com/tldr-pages/tldr/issues/20286) — [29 July 2026](https://github.com/tldr-pages/tldr/issues/23429)
 - Ivan Baluta ([@ivanbaluta](https://github.com/ivanbaluta)):
   [28 December 2025](https://github.com/tldr-pages/tldr/issues/20284) — [30 July 2026](https://github.com/tldr-pages/tldr/issues/23431)
+- Harshavardhan ([@TheRootDaemon](https://github.com/TheRootDaemon)):
+  [26 December 2025](https://github.com/tldr-pages/tldr/issues/20285) — [31 July 2026](https://github.com/tldr-pages/tldr/issues/23430)
 
 ## Organization owners
 
@@ -316,6 +316,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [29 July 2026](https://github.com/tldr-pages/tldr/issues/23429) — present
 - **Ivan Baluta ([@ivanbaluta](https://github.com/ivanbaluta))**:
   [30 July 2026](https://github.com/tldr-pages/tldr/issues/23431) — present
+- **Harshavardhan ([@TheRootDaemon](https://github.com/TheRootDaemon))**:
+  [31 July 2026](https://github.com/tldr-pages/tldr/issues/23430) — present
 - Igor Shubovych ([@igorshubovych](https://github.com/igorshubovych)):
   until [18 January 2018](https://github.com/tldr-pages/tldr/issues/1878#issuecomment-358610454)
 - Ruben Vereecken ([@rubenvereecken](https://github.com/rubenvereecken)):
