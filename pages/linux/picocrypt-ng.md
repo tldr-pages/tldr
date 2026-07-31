@@ -9,7 +9,7 @@
 `picocrypt-ng encrypt -p {{PASSWORD}} -i {{PATH-TO-FILE}}`
 
 - Decrypt a file with only a password:
-    
+
 `picocrypt-ng decrypt -p {{PASSWORD}} -i {{PATH-TO-FILE}}`
 
 - Encrypt a file with a password and a keyfile:
