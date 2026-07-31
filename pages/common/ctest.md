@@ -1,7 +1,7 @@
 # ctest
 
 > CMake test driver program.
-> More information: <https://gitlab.kitware.com/cmake/community/-/wikis/doc/ctest/Testing-With-CTest>.
+> More information: <https://manned.org/ctest>.
 
 - Run all tests in the current CMake build directory:
 
