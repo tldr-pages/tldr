@@ -10,7 +10,7 @@
 
 - List active sessions:
 
-`zmx {{[l|list|ls]}}`
+`zmx {{[l|list]}}`
 
 - Detach the current client (inside a zmx session):
 
