@@ -10,7 +10,7 @@
 
 - Decrypt a file with only a password:
     
-`picocrypt-ng decrypt -p {{PASSWORD}} -i {{PATH-TO-FILE}}`    
+`picocrypt-ng decrypt -p {{PASSWORD}} -i {{PATH-TO-FILE}}`
 
 - Encrypt a file with a password and a keyfile:
 
@@ -24,6 +24,6 @@
 
 `picocrypt-ng decrypt -p {{PASSWORD}} -i {{PATH-TO-FILE}} -k {{PATH-TO-KEYFILE}}`
 
-- Decrypt a file with a password and a keyfile and deniability: 
+- Decrypt a file with a password and a keyfile and deniability:
 
 `picocrypt-ng decrypt -p {{PASSWORD}} --deniability  -i {{PATH-TO-FILE}} -k {{PATH-TO-KEYFILE}}`
