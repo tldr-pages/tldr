@@ -3,7 +3,6 @@
 > A terminal music player client for the Music Player Daemon, with album art support.
 > See also: `mpd`, `mpc`, `ncmpcpp`.
 > More information: <https://rmpc.mierak.dev>.
-> Github Link: <https://github.com/mierak/rmpc>.
 
 - Start the TUI client:
 
