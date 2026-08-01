@@ -1,6 +1,7 @@
 # shutdown
 
 > Matikan dan nyalakan ulang sistem komputer.
+> Lihat juga: `poweroff`.
 > Informasi lebih lanjut: <https://manned.org/shutdown.8>.
 
 - Matikan ([h]alt) sistem secara segera:

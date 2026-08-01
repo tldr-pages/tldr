@@ -1,6 +1,7 @@
 # shutdown
 
 > Deté, apaga o reinicia la màquina.
+> Vegeu també: `poweroff`.
 > Més informació: <https://manned.org/shutdown.8>.
 
 - Deté inmediatament:

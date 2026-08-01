@@ -2,6 +2,7 @@
 
 > Cetak dan gabungkan berkas.
 > Sebuah klon atas program `cat` dengan sintaks berwarna dan integrasi Git.
+> Lihat juga: `cat`.
 > Informasi lebih lanjut: <https://manned.org/bat>.
 
 - Cetak rapi konten berkas ke `stdout`:
