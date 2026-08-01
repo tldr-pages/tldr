@@ -17,8 +17,8 @@
 
 - Detiene uno o varios contenedores:
 
-`docker {{[stop|detener contenedor]}} {{contenedor1 contenedor2 ...}}`
+`docker {{[stop|container stop]}} {{contenedor1 contenedor2 ...}}`
 
 - Muestra la ayuda:
 
-`docker {{[stop|container-stop]}} --help`
+`docker {{[stop|container stop]}} --help`
