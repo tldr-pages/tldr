@@ -8,7 +8,7 @@
 
 `multipass transfer {{path/to/local_file}} {{instance_name}}:{{path/to/remote_directory}}`
 
-- Transfer a file from an instance to host:
+- Transfer a file from an instance to the host:
 
 `multipass transfer {{instance_name}}:{{path/to/remote_file}} {{path/to/local_directory}}`
 
