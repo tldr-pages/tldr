@@ -1,7 +1,6 @@
 # hangman
 
-> A classic word game.
-> Guess the word by guessing letter-by-letter.
+> Play the classic Hangman word-guessing game
 > More information: <https://manned.org/man/hangman>.
 
 - Start the game:
@@ -10,20 +9,20 @@
 
 - Guess a letter:
 
-`{{[<a>|<b>|<c>|...]}}`
+`{{<a>|<b>|<c>|...}}`
 
-- Next word:
+- Move to the next word:
 
 `<Space>`
 
-- Quit:
+- Quit the game:
 
 `<Enter>`
 
 - Start the game with a specific minimum word length (default is 6):
 
-`hangman -m {{length}}`
+`hangman -m {{min_length}}`
 
 - Start the game with a specific word list:
 
-`hangman -d {{/usr/share/dict/french}}`
+`hangman -d {{path/to/word_list}}`
