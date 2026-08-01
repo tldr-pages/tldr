@@ -4,7 +4,7 @@
 > Note: Relative paths on an instance start from the user's home directory.
 > More information: <https://canonical.com/multipass/docs/latest/reference/command-line-interface/transfer/>.
 
-- Transfer a file host to instance:
+- Transfer a file from the host to an instance:
 
 `multipass transfer {{path/to/local_file}} {{instance_name}}:{{path/to/remote_directory}}`
 
