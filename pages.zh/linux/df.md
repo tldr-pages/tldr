@@ -1,6 +1,7 @@
 # df
 
 > 显示文件系统磁盘空间使用情况的概览。
+> 另请参阅：`ncdu`, `duf`。
 > 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/df-invocation.html>。
 
 - 显示磁盘使用情况：

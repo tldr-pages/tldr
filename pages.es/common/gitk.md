@@ -1,7 +1,7 @@
 # gitk
 
 > Explora repositorios Git de forma gráfica.
-> Vea también: `git-gui`, `git-cola`, `tig`.
+> Vea también: `git gui`, `git cola`, `tig`.
 > Más información: <https://git-scm.com/docs/gitk>.
 
 - Muestra el explorador del repositorio Git actual:

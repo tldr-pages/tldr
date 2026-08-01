@@ -2,7 +2,7 @@
 
 > Firewall Descomplicado.
 > Frontend para `iptables` com o objetivo de facilitar a configuração de um firewall.
-> Mais informações: <https://wiki.ubuntu.com/UncomplicatedFirewall>.
+> Mais informações: <https://manned.org/ufw>.
 
 - Habilita o ufw:
 

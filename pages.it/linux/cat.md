@@ -1,6 +1,7 @@
 # cat
 
 > Stampa e concatena file.
+> Vedi anche: `bat`.
 > Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html>.
 
 - Stampa il contenuto di un file su `stdout`:
