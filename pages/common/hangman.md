@@ -1,6 +1,6 @@
 # hangman
 
-> Play the classic Hangman word-guessing game
+> Play the classic Hangman word-guessing game.
 > More information: <https://manned.org/man/hangman>.
 
 - Start the game:
