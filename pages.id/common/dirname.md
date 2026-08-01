@@ -1,6 +1,7 @@
 # dirname
 
 > Hapus bagian nama berkas dari sebuah alamat berkas, untuk menentukan alamat direktori asal berkas.
+> Lihat juga: `basename`.
 > Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/manual/html_node/dirname-invocation.html>.
 
 - Tentukan alamat direktori dari suatu alamat:

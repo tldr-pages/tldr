@@ -1,6 +1,7 @@
 # shutdown
 
 > 시스템 종료 및 재부팅.
+> 관련 항목: `poweroff`.
 > 더 많은 정보: <https://manned.org/shutdown.8>.
 
 - 즉시 전원 끄기 ([h]alt):

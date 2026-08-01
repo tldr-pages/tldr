@@ -1,6 +1,7 @@
 # shutdown
 
 > Spegni e riavvia il sistema.
+> Vedi anche: `poweroff`.
 > Maggiori informazioni: <https://manned.org/shutdown.8>.
 
 - Spegni il sistema immediatamente:
