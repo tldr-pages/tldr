@@ -14,7 +14,7 @@
 
 - Riavvia il sistema in 5 minuti:
 
-`shutdown {{[-r|--reboot]}} +{{5}} &`
+`shutdown {{[-r|--reboot]}} +5 &`
 
 - Spegni il sistema alle 13:
 
