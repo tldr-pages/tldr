@@ -1,6 +1,7 @@
 # df
 
 > عرض نظرة عامة على استخدام مساحة القرص لنظام الملفات.
+> انظر أيضًا: `ncdu`, `duf`.
 > لمزيد من التفاصيل: <https://www.gnu.org/software/coreutils/manual/html_node/df-invocation.html>.
 
 - عرض جميع أنظمة الملفات واستخدامها للقرص:
