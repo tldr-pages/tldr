@@ -1,7 +1,7 @@
 # multipass transfer
 
 > Transfer files between the host and the virtual machine.
-> Relative paths on instance start from home folder (just like scp).
+> Note: Relative paths on an instance start from the user's home directory.
 > More information: <https://canonical.com/multipass/docs/latest/reference/command-line-interface/transfer/>.
 
 - Transfer a file host to instance:
