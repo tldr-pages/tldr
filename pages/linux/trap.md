@@ -13,7 +13,7 @@
 
 - Execute a command when a signal is received:
 
-`trap 'echo "Caught signal {{SIGHUP}}"' {{[HUP|SIGHUP}}`
+`trap 'echo "Caught signal {{SIGHUP}}"' {{[HUP|SIGHUP]}}`
 
 - Remove commands:
 
