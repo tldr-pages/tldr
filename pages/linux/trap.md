@@ -13,12 +13,12 @@
 
 - Execute a command when a signal is received:
 
-`trap 'echo "Caught signal {{SIGHUP}}"' {{SIGHUP}}`
+`trap 'echo "Caught signal {{SIGHUP}}"' {{[HUP|SIGHUP}}`
 
 - Remove commands:
 
-`trap - {{SIGHUP}} {{SIGINT}}`
+`trap - {{SIGHUP SIGINT ...}}`
 
 - Ignore a signal:
 
-`trap '' {{SIGINT}}`
+`trap '' {{[INT|SIGINT]}}`
