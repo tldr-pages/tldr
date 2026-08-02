@@ -14,7 +14,7 @@
 
 - Redémarre dans 5 minutes :
 
-`shutdown {{[-r|--reboot]}} +{{5}} &`
+`shutdown {{[-r|--reboot]}} +5 &`
 
 - Éteint à 1:00 pm (Utilise un format 24h) :
 
