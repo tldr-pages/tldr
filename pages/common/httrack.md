@@ -21,7 +21,7 @@
 
 - Mirror all links from the first-level pages:
 
-`httrack {{https://example.com}} -Y`
+`httrack {{https://example.com}} {{[-Y|--mirrorlinks]}}`
 
 - Exclude ZIP files while mirroring:
 
