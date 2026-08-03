@@ -31,6 +31,6 @@
 
 `read -s {{variable}}`
 
-- Lees `stdin` en voer een actie uit op elke regel:
+- Voer een actie uit op elke regel van de uitvoer van een commando:
 
-`cat {{/dev/stdin|pad/naar/bestand|...}} | while read line; do {{echo|ls|rm|...}} "$line"; done`
+`{{commando}} | while IFS= read -r line; do {{echo|ls|rm|...}} "$line"; done`
