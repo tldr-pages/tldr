@@ -13,7 +13,7 @@
 
 - Continue an interrupted mirror using the cache:
 
-`httrack {{https://example.com}} -O {{path/to/output_directory}} -i`
+`httrack {{https://example.com}} {{[-O|--path]}} {{path/to/output_directory}} {{[-i|--continue]}}`
 
 - Limit the recursion depth:
 
