@@ -17,7 +17,7 @@
 
 - Limit the recursion depth:
 
-`httrack {{https://example.com}} -r{{5}}`
+`httrack {{https://example.com}} {{[-r|--depth=]}}{{5}}`
 
 - Mirror all links from the first-level pages:
 
