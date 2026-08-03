@@ -15,9 +15,9 @@
 
 `git show --summary {{commit}}`
 
-- Show information about the 3rd commit from the `HEAD` of a branch:
+- Ignore whitespace when comparing lines:
 
-`git show {{branch}}~{{3}}`
+`git show {{[-w|--ignore-all-space]}}`
 
 - Show a commit's message in a single line, suppressing the diff output:
 
