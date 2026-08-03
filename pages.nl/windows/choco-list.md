@@ -15,6 +15,10 @@
 
 `choco list --id-only`
 
+- Toon geïnstalleerde pakketten die exact overeenkomen met een naam:
+
+`choco list {{pakket}} {{[-e|--exact]}}`
+
 - Toon geïnstalleerde pakketten die beginnen met een specifieke voorvoegsel:
 
 `choco list --id-starts-with {{voorvoegsel}}`
