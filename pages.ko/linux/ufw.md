@@ -2,7 +2,7 @@
 
 > 간단한 방화벽.
 > 방화벽 구성을 더욱 쉽게 만들어주는 `iptables`의 프론트엔드.
-> 더 많은 정보: <https://wiki.ubuntu.com/UncomplicatedFirewall>.
+> 더 많은 정보: <https://manned.org/ufw>.
 
 - ufw 활성화:
 

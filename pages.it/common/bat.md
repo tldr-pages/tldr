@@ -2,6 +2,7 @@
 
 > Stampa e concatena file.
 > Un clone di `cat` con syntax highlighting e integrazione Git.
+> Vedi anche: `cat`.
 > Maggiori informazioni: <https://manned.org/bat>.
 
 - Stampa in modo formattato i contenuti di uno o più file su `stdout`:

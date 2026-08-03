@@ -1,7 +1,7 @@
 # regex
 
 > Reguliere expressies (`regex`) zijn patronen die worden gebruikt om tekst te vergelijken, zoeken en manipuleren.
-> Opmerking: `regex` is niet een commando, maar syntax om te gebruiken binnen andere commando's.
+> Zie ook: `egrep`, `glob`.
 > Meer informatie: <https://cheatography.com/davechild/cheat-sheets/regular-expressions/>.
 
 - Zoek naar één willekeurig teken:

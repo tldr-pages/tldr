@@ -10,7 +10,8 @@ This page lists specific formatting instructions for `tldr` pages.
 4. [Heading](#heading)
 5. [Example descriptions](#example-descriptions)
 6. [Example commands](#example-commands)
-7. [Language and translation rules](#language-and-translation-rules)
+7. [Windows-Specific Rules](#windows-specific-rules)
+8. [Language and translation rules](#language-and-translation-rules)
 
 ## General layout
 
