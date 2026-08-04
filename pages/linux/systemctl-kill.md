@@ -13,7 +13,7 @@
 
 - Send a `SIGHUP` signal to only the main process of a unit:
 
-`systemctl kill {{[-s|--signal]}} SIGHUP --kill-whom main {{unit}}`
+`systemctl kill {{[-s|--signal]}} {{[1|SIGHUP]}} --kill-whom main {{unit}}`
 
 - List all available signals:
 

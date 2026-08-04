@@ -34,4 +34,4 @@
 
 - Send a `SIGUSR1` signal to all processes with the given GID (group id):
 
-`kill -SIGUSR1 -{{group_id}}`
+`kill {{[-10|-SIGUSR1]}} -{{group_id}}`
