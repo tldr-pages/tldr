@@ -9,7 +9,7 @@
 
 - Mirror a website to a specific directory:
 
-`httrack {{https://example.com}} -O {{path/to/output_directory}}`
+`httrack {{https://example.com}} {{[-O|--path]}} {{path/to/output_directory}}`
 
 - Continue an interrupted mirror using the cache:
 
