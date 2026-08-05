@@ -16,7 +16,7 @@
 
 `paru -Sua`
 
-- Check manually installed packages:
+- List manually installed packages:
 
 `paru -Qqm`
 
