@@ -20,3 +20,6 @@ https://cla-assistant.io/tldr-pages/tldr
 - Reference issue: #
 - Closes: #
 <!-- Only use "Closes:" if this PR fixes the entire issue. -->
+
+### Additional details:
+<!-- If you have additional information that you need to give, write it under here. -->
