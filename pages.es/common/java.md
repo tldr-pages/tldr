@@ -7,11 +7,11 @@
 
 `java {{nombreclase}}`
 
-- Ejecutar un programa Java y utilizar clases adicionales de terceros o definidas por el usuario:
+- Ejecuta un programa Java y utiliza clases adicionales de terceros o definidas por el usuario:
 
 `java -classpath {{ruta/a/clases1}}:{{ruta/a/clases2}}:. {{nombreclase}}`
 
-- Ejecutar un programa `.jar`:
+- Ejecuta un programa `.jar`:
 
 `java -jar {{nombrearchivo.jar}}`
 
@@ -19,7 +19,7 @@
 
 `java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar {{nombrearchivo.jar}}`
 
-- Mostrar las versiones de JDK, JRE y HotSpot:
+- Muestra las versiones de JDK, JRE y HotSpot:
 
 `java -version`
 
