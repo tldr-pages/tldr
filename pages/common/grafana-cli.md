@@ -1,24 +1,37 @@
 # grafana cli
 
-> Administer Grafana.
+> Manage Grafana plugins from the command line.
+> See also: `grafana cli admin`.
 > More information: <https://grafana.com/docs/grafana/latest/administration/cli/>.
 
-- Install plugins:
+- Install one or more plugins:
 
 `grafana cli plugins install {{plugin_id1 plugin_id2 ...}}`
 
-- Specify a homepath when installing a plugin:
+- Install a plugin using a specific Grafana home directory:
 
 `grafana cli --homepath {{/usr/share/grafana}} plugins install {{plugin_id}}`
 
-- Update plugins:
+- List plugins available from the remote repository:
 
-`grafana cli plugins update {{plugin_id1 plugin_id2 ...}}`
-
-- Remove plugins:
-
-`grafana cli plugins remove {{plugin_id1 plugin_id2 ...}}`
+`grafana cli plugins list-remote`
 
 - List all installed plugins:
 
 `grafana cli plugins ls`
+
+- Update one or more plugins:
+
+`grafana cli plugins update {{plugin_id1 plugin_id2 ...}}`
+
+- Update all installed plugins:
+
+`grafana cli plugins update-all`
+
+- Remove one or more plugins:
+
+`grafana cli plugins remove {{plugin_id1 plugin_id2 ...}}`
+
+- Display help:
+
+`grafana cli {{[-h|--help]}}`
