@@ -16,9 +16,9 @@
 
 `makepkg {{[-si|--syncdeps --install]}}`
 
-- Make a package, but skip checking the source's hashes:
+- Make a package, but skip checking the source's hashes and PGP signatures:
 
-`makepkg --skipchecksums`
+`makepkg --skipchecksums --skippgpchecks`
 
 - Clean up work directories after a successful build:
 
