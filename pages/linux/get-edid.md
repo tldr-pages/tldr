@@ -6,3 +6,7 @@
 - Retrieve monitor specifications:
 
 `sudo get-edid`
+
+- Parse the information:
+
+`sudo get-edid | parse-edid`
