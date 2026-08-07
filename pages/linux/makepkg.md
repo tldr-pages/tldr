@@ -16,7 +16,7 @@
 
 `makepkg {{[-si|--syncdeps --install]}}`
 
-- Make a package, but skip checking the source's hashes, PGP signatures and the `PKGBUILD` `check()` function:
+- Make a package, but skip checking the source's hashes, PGP signatures, and the `PKGBUILD` `check()` function:
 
 `makepkg {{[--skipinteg|--skipchecksums --skippgpchecks]}} --nocheck`
 
