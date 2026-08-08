@@ -9,7 +9,7 @@
 
 - Ausführen eines Befehls (Command):
 
-`cmd /c {{echo Hallo Welt}}`
+`cmd /c {{echo 'cmd wird ausgeführt'}}`
 
 - Ausführen eines Skripts:
 
@@ -17,7 +17,7 @@
 
 - Ausführen eines Befehls und anschließendes Aufrufen einer interaktiven Shell:
 
-`cmd /k {{echo Hallo Welt}}`
+`cmd /k {{echo 'cmd wird ausgeführt'}}`
 
 - Starten einer interaktiven Shell-Sitzung, bei der `echo` in der Befehlsausgabe deaktiviert ist:
 
