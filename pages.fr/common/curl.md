@@ -1,38 +1,38 @@
 # curl
 
 > Transfère des données depuis ou vers un serveur.
-> Accepte la plupart des protocoles, notamment HTTP, FTP et POP3.
+> Accepte la plupart des protocoles, notamment HTTP, HTTPS, FTP, SCP, etc.
 > Voir aussi : `wcurl`, `wget`.
 > Plus d'informations : <https://curl.se/docs/manpage.html>.
 
-- Télécharger le contenu d'une URL dans un fichier :
+- Faire une requête HTTP GET et afficher la réponse :
 
-`curl {{http://exemple.fr}} {{[-o|--output]}} {{nom_fichier}}`
+`curl {{http://example.com}}`
+
+- Faire une requête HTTP GET, suivre toute redirection HTTP `3xx`, et afficher les en-têtes de la réponse :
+
+`curl {{[-L|--location]}} {{[-D|--dump-header]}} - {{https://example.com}}`
 
 - Télécharger le contenu d'une URL dans un fichier nommé comme indiqué par l'URL :
 
-`curl {{[-O|--remote-name]}} {{http://exemple.fr/nom_fichier}}`
-
-- Télécharger un fichier, en suivant les redirections, et poursuivre (reprendre) automatiquement un transfert de fichier précédent et renvoyer une erreur lors d'erreurs serveurs :
-
-`curl {{[-f|--fail]}} {{[-O|--remote-name]}} {{[-L|--location]}} {{[-C|--continue-at]}} - {{http://exemple.fr/nom_fichier}}`
+`curl {{[-O|--remote-name]}} {{http://example.com/nom_fichier.zip}}`
 
 - Envoyer des données de formulaire encodées (requête POST de type `application/x-www-form-urlencoded`). Utiliser `--data @file_name` ou `--data @'-'` pour lire depuis `stdin` :
 
-`curl {{[-d|--data]}} {{'nom=bob'}} {{http://exemple.fr/formulaire}}`
+`curl {{[-d|--data]}} {{'nom=bob'}} {{http://example.com/formulaire}}`
 
-- Envoyer une requête avec un en-tête supplémentaire, en spécifiant la méthode HTTP :
+- Envoyer une requête avec un en-tête supplémentaire, en spécifiant la méthode HTTP, à travers un proxy, et en ignorant les erreurs de validation de certificat :
 
-`curl {{[-H|--header]}} {{'X-Mon-En-Tete: 123'}} {{[-X|--request]}} {{PUT}} {{http://exemple.fr}}`
+`curl {{[-k|--insecure]}} {{[-x|--proxy]}} {{http://127.0.0.1:8080}} {{[-H|--header]}} '{{Authorization: Bearer token}}' {{[-X|--request]}} {{GET|PUT|POST|DELETE|PATCH|...}} {{https://example.com}}`
 
-- Envoyez des données au format JSON, en spécifiant l'en-tête content-type adéquate :
+- Envoyer des données au format JSON, en spécifiant l'en-tête Content-Type adéquate :
 
-`curl {{[-d|--data]}} {{'{"nom":"bob"}'}} {{[-H|--header]}} {{'Content-Type: application/json'}} {{http://exemple.fr/utilisateurs/1234}}`
+`curl {{[-d|--data]}} {{'{"nom":"bob"}'}} {{[-H|--header]}} {{'Content-Type: application/json'}} {{http://example.com/utilisateurs/1234}}`
 
-- Fournir un nom d'utilisateur et demander pour un mot de passe pour une authentification auprès du serveur :
+- Fournir le certificat et la clé privée du client pour l'accès à une URL :
 
-`curl {{[-u|--user]}} {{identifiant}} {{http://exemple.fr}}`
+`curl {{[-E|--cert]}} {{client.pem}} --key {{cle.pem}} {{https://example.com}}`
 
-- Fournir le certificat et la clé du client pour une ressource, en évitant la validation du certificat :
+- Résoudre un nom de domaine vers une adresse IP spécifique (similaire à modifier le fichier /etc/hosts pour une résolution DNS locale), en activant le mode verbeux :
 
-`curl {{[-E|--cert]}} {{client.pem}} --key {{cle.pem}} {{[-k|--insecure]}} {{https://exemple.fr}}`
+`curl {{[-v|--verbose]}} --resolve {{example.com}}:{{80}}:{{127.0.0.1}} {{http://example.com}}`
