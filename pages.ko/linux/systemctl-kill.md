@@ -13,7 +13,7 @@
 
 - 유닛 메인 프로세스에만 `SIGHUP` 시그널 전송:
 
-`systemctl kill {{[-s|--signal]}} SIGHUP --kill-whom main {{유닛}}`
+`systemctl kill {{[-s|--signal]}} {{[1|SIGHUP]}} --kill-whom main {{유닛}}`
 
 - 사용 가능한 모든 시그널 목록 출력:
 
