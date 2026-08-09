@@ -2,7 +2,7 @@
 
 > Automatic Kernel Module management system for Fedora/RHEL-based distributions.
 > Rebuilds out-of-tree kernel modules (like NVIDIA drivers) dynamically when kernels update.
-> More information: <https://manned.org/man/fedora-43/akmods>.
+> More information: <https://manned.org/akmods>.
 
 - Rebuild all missing or outdated kernel modules for the currently running kernel:
 
