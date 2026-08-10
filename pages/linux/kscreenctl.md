@@ -32,6 +32,6 @@
 
 `kscreenctl {{HDMI-A-1}} set-enabled false`
 
-- Turn all outputs off (DPMS):
+- Turn all outputs off through Display Power Management Signaling:
 
 `kscreenctl off`
