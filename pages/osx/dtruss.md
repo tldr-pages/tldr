@@ -1,7 +1,7 @@
 # dtruss
 
 > Troubleshooting tool for tracing system calls using DTrace.
-> MacOS equivalent of `strace`.
+> MacOS analog to `strace`.
 > Note: requires System Integrity Protection to be disabled.
 > More information: <https://manned.org/dtruss>.
 
