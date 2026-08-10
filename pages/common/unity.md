@@ -17,7 +17,7 @@
 
 - Create a new Universal Render Pipeline 2D project:
 
-`unity {{[p|projects]}} new "{{project_name}}" --template com.unity.template.universal-2d --path "{{/path/to/project_parent_dir}}"`
+`unity {{[p|projects]}} new "{{project_name}}" --template com.unity.template.universal-2d --path "{{path/to/parent_directory}}"`
 
 - Open an existing project:
 
