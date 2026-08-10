@@ -21,4 +21,4 @@
 
 - Open an existing project:
 
-`unity open "{{/path/to/project}}"`
+`unity open "{{path/to/project_directory}}"`
