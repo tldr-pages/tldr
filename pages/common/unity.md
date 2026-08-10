@@ -1,6 +1,6 @@
 # unity
 
-> A tool for installing and managing Unity Editors, projects and modules.
+> A tool for installing and managing Unity Editors, projects, and modules.
 > More information: <https://docs.unity.com/en-us/unity-cli/unity-cli-reference>.
 
 - Install a specific version of the Unity Editor:
