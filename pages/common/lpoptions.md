@@ -10,12 +10,12 @@
 
 - List printer-specific options of a specific printer:
 
-`lpoptions -d {{printer}} -l`
+`lpoptions -p {{printer}} -l`
 
 - Set a new option on a specific printer:
 
-`lpoptions -d {{printer}} -o {{option}}`
+`lpoptions -p {{printer}} -o {{option}}`
 
 - Remove the options of a specific printer:
 
-`lpoptions -d {{printer}} -x`
+`lpoptions -p {{printer}} -x`
