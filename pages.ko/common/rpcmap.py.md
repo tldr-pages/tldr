@@ -1,6 +1,6 @@
 # rpcmap.py
 
-> 문자열 바인딩(예: `ncacn_ip_tcp:host[port]`)을 사용하여 수신 대기 중인 MSRPC 인터페이스를 조회. 
+> 문자열 바인딩(예: `ncacn_ip_tcp:host[port]`)을 사용하여 수신 대기 중인 MSRPC 인터페이스를 조회.
 > Impacket 도구의 일부.
 > 더 많은 정보: <https://github.com/fortra/impacket>.
 
