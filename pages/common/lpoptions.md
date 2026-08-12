@@ -8,14 +8,18 @@
 
 `lpoptions -d {{printer}}/{{instance}}`
 
+- List printer options for the default printer:
+
+`lpoptions -l`
+
 - List printer-specific options of a specific printer:
 
 `lpoptions -p {{printer}} -l`
 
-- Set a new option on a specific printer:
+- Set a new option on the default printer:
 
-`lpoptions -p {{printer}} -o {{option}}`
+`lpoptions -o {{option}}`
 
-- Remove the options of a specific printer:
+- Remove the options from the default printer:
 
-`lpoptions -p {{printer}} -x`
+`lpoptions -x`
