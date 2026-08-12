@@ -22,4 +22,4 @@
 
 - Remove the options from the default printer:
 
-`lpoptions -x`
+`lpoptions -x {{printer}}`
