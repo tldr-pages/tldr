@@ -20,6 +20,6 @@
 
 `lpoptions -o {{option}}`
 
-- Remove the options from the default printer:
+- Remove the options of a specific printer:
 
 `lpoptions -x {{printer}}`
