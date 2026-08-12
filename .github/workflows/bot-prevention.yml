@@ -1,12 +1,11 @@
 name: Check PR Description
 
 on:
-  pull_request:
+  pull_request_target:
     types: [opened, reopened]
 
 permissions:
   pull-requests: write
-  issues: write
 
 jobs:
   check-pr-body:
