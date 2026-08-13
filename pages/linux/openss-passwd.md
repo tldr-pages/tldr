@@ -19,6 +19,6 @@
 
 `openssl passwd -apr1 -table`
 
-- Generate password hash from standard input:
+- Generate password hash from `stdin`:
 
 `echo -n "{{password}}" | openssl passwd -apr1 -stdin`
