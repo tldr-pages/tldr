@@ -3,7 +3,7 @@
 > Generate password hash.
 > More information: <https://docs.openssl.org/master/man1/openssl-passwd/>.
 
-- Generate password hash in MD5 based BSD password algorithm:
+- Generate password hash in MD5-based BSD password algorithm:
 
 `openssl passwd -1`
 
