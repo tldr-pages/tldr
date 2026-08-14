@@ -7,7 +7,7 @@
 
 `mmcli {{[-L|--list-modems]}}`
 
-- List available modems and monitor for ones added or removed;
+- List available modems and monitor for ones added or removed:
 
 `mmcli {{[-M|--monitor-modems]}}`
 
