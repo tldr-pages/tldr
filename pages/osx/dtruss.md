@@ -1,8 +1,8 @@
 # dtruss
 
-> Troubleshooting tool for tracing system calls using DTrace.
-> MacOS analog to `strace`.
+> Trace system calls and kernel activities on `osx` using DTrace.
 > Note: requires System Integrity Protection to be disabled.
+> See also: `strace`.
 > More information: <https://manned.org/dtruss>.
 
 - Trace a running process by PID:
@@ -25,6 +25,6 @@
 
 `sudo dtruss -f -p {{pid}}`
 
-- Only print occurrences of a single system call:
+- Print occurrences of a specific system call:
 
 `sudo dtruss -t {{syscall}} -p {{pid}}`
