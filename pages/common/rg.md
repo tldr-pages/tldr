@@ -22,7 +22,7 @@
 
 - Only search the files matching the glob pattern(s) (e.g. `README.*`, use `!filename_pattern` to exclude instead):
 
-`rg {{pattern}} {{[-g|--glob]}} {{filename_glob_pattern}}`
+`rg {{pattern}} {{[-g|--glob]}} '{{filename_glob_pattern}}'`
 
 - Recursively list filenames in the current directory that match a pattern:
 
