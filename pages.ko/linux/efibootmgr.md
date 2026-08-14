@@ -21,4 +21,4 @@
 
 - 부트 옵션 삭제:
 
-`sudo efibootmgr {{[-Bb|--delete-bootnum --bootnum]}} {{0008}}`
+`sudo efibootmgr {{[-B|--delete-bootnum]}} {{[-b|--bootnum]}} {{0008}}`
