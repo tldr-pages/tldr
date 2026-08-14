@@ -5,20 +5,24 @@
 
 - List available modems:
 
-`mmcli --list-modems`
+`mmcli {{[-L|--list-modems]}}`
+
+- List available modems and monitor for ones added or removed;
+
+`mmcli {{[-M|--monitor-modems]}}`
 
 - Print information about a modem:
 
-`mmcli --modem={{modem}}`
+`mmcli {{[-m|--modem]}} {{modem_number}}`
 
 - Enable a modem:
 
-`mmcli --modem={{modem}} --enable`
+`mmcli {{[-m|--modem]}} {{modem_number}} {{[-e|--enable]}}`
 
 - List SMS messages available on the modem:
 
-`sudo mmcli --modem={{modem}} --messaging-list-sms`
+`sudo mmcli {{[-m|--modem]}} {{modem_number}} --messaging-list-sms`
 
 - Delete a message from the modem, specifying its path:
 
-`sudo mmcli --modem={{modem}} --messaging-delete-sms={{path/to/message_file}}`
+`sudo mmcli {{[-m|--modem]}} {{modem_number}} --messaging-delete-sms {{path/to/message_file}}`
