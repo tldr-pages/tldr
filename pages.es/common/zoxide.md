@@ -6,11 +6,11 @@
 
 - Va al directorio mejor clasificado que contiene una cadena en su nombre:
 
-`zoxide query {{cadena}}`
+`zoxide query string`
 
-- Va al directorio mejor clasificado que contiene `cadena1` y luego `cadena2`:
+- Va al directorio mejor clasificado que contiene `string1` y luego `string2`:
 
-`zoxide query {{cadena1}} {{cadena2}}`
+`zoxide query string1 string2`
 
 - Inicia una búsqueda interactiva de directorios (requiere `fzf`):
 
