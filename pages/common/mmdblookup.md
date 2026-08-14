@@ -9,7 +9,11 @@
 
 - Look up a subset of data for an IP address in the specified MaxMind DB file:
 
-`mmdblookup {{[-f|--file]}} {{path/to/dataset.mmdb}} {{[-i|--ip]}} {{8.8.8.8}} {{country iso_code}}`
+`mmdblookup {{[-f|--file]}} {{path/to/dataset.mmdb}} {{[-i|--ip]}} {{8.8.8.8}} {{key1 key2 ...}}`
+
+- Look up the country ISO code for an IP address in the specified MaxMind DB file:
+
+`mmdblookup {{[-f|--file]}} {{path/to/dataset.mmdb}} {{[-i|--ip]}} {{8.8.8.8}} country iso_code`
 
 - Display help:
 
