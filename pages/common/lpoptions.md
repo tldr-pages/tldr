@@ -12,7 +12,11 @@
 
 `lpoptions -l`
 
-- List printer-specific options of a specific printer:
+- List currently set options of a specific printer:
+
+`loptions -p {{printer}}`
+
+- List what options the driver exposes for a printer:
 
 `lpoptions -p {{printer}} -l`
 
