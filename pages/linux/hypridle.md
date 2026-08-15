@@ -11,7 +11,7 @@
 
 - Start the idle daemon using a specific configuration file:
 
-`hypridle -c {{path/to/hypridle.conf}}`
+`hypridle {{[-c|--config]}} {{path/to/hypridle.conf}}`
 
 - Start the idle daemon with verbose output:
 
