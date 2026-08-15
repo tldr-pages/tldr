@@ -14,7 +14,7 @@
 
 - List currently set options of a specific printer:
 
-`loptions -p {{printer}}`
+`lpoptions -p {{printer}}`
 
 - List what options the driver exposes for a printer:
 
