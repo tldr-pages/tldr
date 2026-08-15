@@ -1,7 +1,7 @@
 # lpoptions
 
 > Display or set printer options and defaults.
-> See also: `lpadmin`.
+> See also: `lpadmin`, `lp`, `lpstat`.
 > More information: <https://openprinting.github.io/cups/doc/man-lpoptions.html>.
 
 - Set the default printer:
