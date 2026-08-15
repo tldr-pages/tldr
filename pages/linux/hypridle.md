@@ -15,7 +15,7 @@
 
 - Start the idle daemon with verbose output:
 
-`hypridle -v`
+`hypridle {{[-v|--verbose]}}`
 
 - Display help:
 
