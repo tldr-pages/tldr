@@ -14,7 +14,7 @@
 
 - Lock the screen immediately, bypassing the grace period:
 
-`hyprlock --immediate`
+`hyprlock --grace 0`
 
 - Disable the fade-in animation when locking:
 
