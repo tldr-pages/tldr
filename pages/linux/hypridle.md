@@ -19,4 +19,4 @@
 
 - Display help:
 
-`hypridle --help`
+`hypridle {{[-h|--help]}}`
