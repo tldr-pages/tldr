@@ -3,7 +3,7 @@
 > Trace system calls and kernel activities on `osx` using DTrace.
 > Note: Requires System Integrity Protection to be disabled.
 > See also: `strace`.
-> More information: <https://manned.org/dtruss>.
+> More information: <https://keith.github.io/xcode-man-pages/dtruss.1m.html>.
 
 - Trace a running process by PID:
 
