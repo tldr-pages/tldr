@@ -13,7 +13,7 @@
 
 - Turn a lock key and its LED on:
 
-`setleds +{{num|caps|scroll}`
+`setleds +{{num|caps|scroll}}`
 
 - Unpair key and LED states and only set the LED:
 
