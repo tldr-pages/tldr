@@ -9,7 +9,7 @@
 
 - Turn a lock key and its LED off:
 
-`setleds -{{num|caps|scroll}`
+`setleds -{{num|caps|scroll}}`
 
 - Turn a lock key and its LED on:
 
