@@ -13,7 +13,7 @@
 
 - Recover files using all predefined formats:
 
-`foremost -t {{all}} -i {{path/to/disk_image.dd}}`
+`foremost -t all -i {{path/to/disk_image.dd}}`
 
 - Recover files into a specific output directory:
 
