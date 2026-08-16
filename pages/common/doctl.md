@@ -19,6 +19,6 @@
 
 `doctl kubernetes cluster list`
 
-- Display the installed version:
+- Display version:
 
 `doctl version`
