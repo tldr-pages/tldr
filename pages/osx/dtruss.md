@@ -1,7 +1,7 @@
 # dtruss
 
 > Trace system calls and kernel activities on `osx` using DTrace.
-> Note: requires System Integrity Protection to be disabled.
+> Note: Requires System Integrity Protection to be disabled.
 > See also: `strace`.
 > More information: <https://manned.org/dtruss>.
 
