@@ -1,6 +1,6 @@
 # doctl
 
-> Command-line interface for DigitalOcean.
+> Manage DigitalOcean resources.
 > More information: <https://docs.digitalocean.com/reference/doctl/>.
 
 - Authenticate with DigitalOcean:
