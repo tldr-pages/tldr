@@ -1,6 +1,7 @@
 # lpstat
 
 > Show status information about printers.
+> See also: `lp`, `lpoptions`.
 > More information: <https://manned.org/lpstat>.
 
 - List all queued print jobs:
