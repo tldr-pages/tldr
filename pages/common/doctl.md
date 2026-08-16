@@ -11,7 +11,7 @@
 
 `doctl account get`
 
-- List all droplets:
+- List all Droplets:
 
 `doctl compute droplet list`
 
