@@ -4,7 +4,7 @@
 > See also: `tmux`, `zellij`, `screen`.
 > More information: <https://herdr.dev/docs/cli-reference/>.
 
-- Start a new [s]ession or attach to the default one:
+- Start a new session or attach to the default one:
 
 `herdr`
 
