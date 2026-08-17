@@ -24,9 +24,9 @@
 
 `rg {{pattern}} {{[-g|--glob]}} '{{filename_glob_pattern}}'`
 
-- Recursively list filenames in the current directory that match a pattern:
+- Recursively list filenames in the current directory and highlight ones that match a pattern:
 
-`rg --files | rg {{pattern}}`
+`rg --files | rg --passthru {{pattern}}`
 
 - Only list matched files (useful when piping to other commands):
 
