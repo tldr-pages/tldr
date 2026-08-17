@@ -1,6 +1,7 @@
 # herdr
 
 > Terminal workspace manager for AI coding agents.
+> Note: The layout is Session > Workspace > Tab > Pane.
 > See also: `tmux`, `zellij`, `screen`.
 > More information: <https://herdr.dev/docs/cli-reference/>.
 
