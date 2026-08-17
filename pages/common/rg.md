@@ -26,7 +26,7 @@
 
 - Recursively list filenames in the current directory and highlight ones that match a pattern:
 
-`rg --files | rg --passthru {{pattern}}`
+`rg --files | rg {{[--passthru|--passthrough]}} {{pattern}}`
 
 - Only list matched files (useful when piping to other commands):
 
