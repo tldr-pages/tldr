@@ -1,6 +1,6 @@
 # litert-lm
 
-> CLI tool for running and managing LiteRT-LM models.
+> Run and manage LiteRT-LM models.
 > More information: <https://developers.google.com/edge/litert-lm/cli/usage>.
 
 - List all imported models:
