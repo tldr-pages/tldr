@@ -1,7 +1,7 @@
 # lxc network
 
 > Gestisce le reti per i container LXD.
-> Maggiori informazioni: <https://documentation.ubuntu.com/lxd/latest/reference/manpages/lxc/network/>.
+> Maggiori informazioni: <https://canonical.com/lxd/docs/latest/reference/manpages/lxc/network/>.
 
 - Elenca tutte le reti disponibili:
 

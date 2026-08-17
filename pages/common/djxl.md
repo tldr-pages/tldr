@@ -10,4 +10,4 @@
 
 - Display an extremely detailed help:
 
-`djxl {{[-h -v -v -v -v|--help --verbose --verbose --verbose --verbose]}}`
+`djxl {{[-h -v -v|--help --verbose --verbose]}}`

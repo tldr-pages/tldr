@@ -1,6 +1,7 @@
 # dirname
 
 > Remove trailing filename portion from a path.
+> See also: `basename`.
 > More information: <https://www.gnu.org/software/coreutils/manual/html_node/dirname-invocation.html>.
 
 - Calculate the parent directory of a given path:
