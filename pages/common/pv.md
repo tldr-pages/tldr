@@ -31,6 +31,6 @@
 
 `pv {{path/to/file}} | {{sha256sum}}`
 
-- Only display a timer of how long a command has taken to run:
+- Only display a timer for how long a command has taken to run:
 
 `{{command}} | pv {{[-t|--timer]}}`
