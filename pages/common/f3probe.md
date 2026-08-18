@@ -8,6 +8,10 @@
 
 `sudo f3probe {{path/to/block_device}}`
 
+- Probe a whole block device destructively, without preserving any data (required for raw devices with no partition table):
+
+`sudo f3probe --destructive {{path/to/block_device}}`
+
 - Use the minimum about of RAM possible:
 
 `sudo f3probe --min-memory {{path/to/block_device}}`
