@@ -1,24 +1,24 @@
 # colcrt
 
->  Filter nroff output for CRT previewing.
-> More information : <https://manned.org/colcrt>.
+> Filter nroff output for CRT previewing.
+> More information: <https://manned.org/colcrt>.
 
+- Provide virtual half-line and reverse line feed sequences:
 
-- provides virtual half-line and reverse line feed sequences:
-
-`colcrt `
+`colcrt`
 
 - Suppress all underlining:
 
-`colcrt {{--no-underlining}}`
+`colcrt {{-2}}`
 
--  Causes all half-lines to be printed:
-`colcrt {{--half-lines}}`
+- Cause all half-lines to be printed:
 
--  Display help:
+`colcrt {{-}}`
+
+- Display help:
 
 `colcrt {{[-h|--help]}}`
 
 - Display version:
 
-`colcrt {{[-v|--version]}}`
+`colcrt {{[-V|--version]}}`
