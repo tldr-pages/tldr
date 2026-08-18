@@ -136,7 +136,7 @@ def sync(
     title: str,
     dry_run: bool = False,
     language_to_update: str = "",
-) -> list[str]:
+) -> list[Path]:
     """
     Synchronize a page title into all translations.
 
@@ -153,12 +153,12 @@ def sync(
     """
     paths = []
     for page_dir in pages_dirs:
-        path = root / page_dir / command
+        path = page_dir / command
         if path.exists():
             status = set_page_title(path, title, dry_run, language_to_update)
             if status != "":
                 rel_path = "/".join(path.parts[-3:])
-                paths.append(rel_path)
+                paths.append(path)
                 print(create_colored_line(Colors.GREEN, f"{rel_path} {status}"))
     return paths
 
@@ -210,6 +210,24 @@ def main():
     # Use '--stage' option
     if args.stage and not args.dry_run and len(target_paths) > 0:
         stage(target_paths)
+
+
+def test_sync():
+    import shutil
+
+    root = Path("test_root")
+    shutil.rmtree(root, True)
+    try:
+        pages_fr = root / "pages.fr"
+        (pages_fr / "common").mkdir(parents=True, exist_ok=True)
+        test_page = pages_fr / "common" / "tar.md"
+        test_page.write_text("# old_title\n\n> Archiving utility.\n", encoding="utf-8")
+
+        results = sync(root, [pages_fr], "common/tar.md", "new_title", dry_run=True)
+        assert results == [test_page]
+        assert isinstance(results[0], Path)
+    finally:
+        shutil.rmtree(root, True)
 
 
 if __name__ == "__main__":

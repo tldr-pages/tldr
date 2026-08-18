@@ -66,7 +66,7 @@ def get_tldr_root(lookup_path: Optional[str] = None) -> Path:
 
 def test_get_tldr_root():
     tldr_root = get_tldr_root("/path/to/tldr/scripts/test_script.py")
-    assert tldr_root == Path("/path/to/tldr")
+    assert tldr_root == Path("/path/to/tldr").resolve()
 
     # Set TLDR_ROOT in the environment
     os.environ["TLDR_ROOT"] = "/path/to/tldr_clone"
@@ -177,7 +177,7 @@ def test_get_pages_dirs():
     # Call the function and verify the result
     result = get_pages_dirs(root)
     expected = [root / "pages", root / "pages.fr"]
-    assert result.sort() == expected.sort()  # the order differs on Unix / macOS
+    assert sorted(result) == sorted(expected)  # the order differs on Unix / macOS
 
     shutil.rmtree(root, True)
 
@@ -421,23 +421,25 @@ def test_create_argument_parser():
         assert action.default == default_value  # Check default value
 
 
-def stage(paths: list[Path]):
+def stage(paths: list[Path | str]):
     """
     Stage the given paths using Git.
 
     Parameters:
-    paths (list of Paths): the list of Path's to stage using Git.
+    paths (list of Paths or strings): the list of Path's or strings to stage using Git.
 
     """
-    subprocess.call(["git", "add", *(path.resolve() for path in paths)])
+    subprocess.call(["git", "add", *(Path(path).resolve() for path in paths)])
 
 
 @patch("subprocess.call")
 def test_stage(mock_subprocess_call):
-    paths = [Path("/path/to/file1"), Path("/path/to/file2")]
+    paths = [Path("/path/to/file1"), "/path/to/file2"]
 
     # Call the stage function
     stage(paths)
 
     # Verify that subprocess.call was called with the correct arguments
-    mock_subprocess_call.assert_called_once_with(["git", "add", *paths])
+    mock_subprocess_call.assert_called_once_with(
+        ["git", "add", *(Path(path).resolve() for path in paths)]
+    )

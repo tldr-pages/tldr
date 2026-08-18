@@ -295,11 +295,11 @@ def sync_alias_page_to_locale(pages_dir: Path, alias_page: AliasPage) -> list[Pa
     """
 
     paths = []
-    path = config.root / pages_dir / alias_page.page_path
+    path = pages_dir / alias_page.page_path
     status = set_alias_page(path, alias_page.content)
     if status != "":
         rel_path = "/".join(path.parts[-3:])
-        paths.append(rel_path)
+        paths.append(path)
         print(create_colored_line(Colors.GREEN, f"{rel_path} {status}"))
     return paths
 
