@@ -2,7 +2,7 @@
 
 > Fill a drive out with `.h2w` files to test its real capacity.
 > See also: `f3read`, `f3probe`, `f3fix`.
-> More information: <https://github.com/AltraMayor/f3/blob/master/doc/usage.rst>.
+> More information: <https://fight-flash-fraud.readthedocs.io/en/stable/usage.html>.
 
 - Write test files to a given directory, filling the drive:
 
