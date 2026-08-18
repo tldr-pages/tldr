@@ -3,7 +3,7 @@
 > Wayland 컴포지터용 화면 잠금 도구.
 > 더 많은 정보: <https://manned.org/swaylock>.
 
-- `$HOME/.swaylock/config` 또는 `$XDG_CONFIG_HOME/swaylock/config`의 설정을 사용하여 화면 잠금
+- `$HOME/.swaylock/config` 또는 `$XDG_CONFIG_HOME/swaylock/config`의 설정을 사용하여 화면 잠금:
 
 `swaylock`
 
