@@ -10,7 +10,7 @@
 
 - Probe a whole block device destructively, without preserving any data (required for raw devices with no partition table):
 
-`sudo f3probe --destructive {{path/to/block_device}}`
+`sudo f3probe {{[-n|--destructive]}} {{path/to/block_device}}`
 
 - Use the minimum about of RAM possible:
 
