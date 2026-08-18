@@ -11,9 +11,9 @@
 
 `posh`
 
-- Open a specific lockfile:
+- Open a specific project:
 
-`posh --lockfile={{path/to/lockfile}}`
+`posh --project {{path/to/project}}`
 
 - Clear all docsets from your machine:
 
