@@ -21,4 +21,4 @@
 
 - Generate password hash from `stdin`:
 
-`echo -n "{{password}}" | openssl passwd -apr1 -stdin`
+`echo -n "{{password}}" | openssl passwd {{-apr1}} -stdin`
