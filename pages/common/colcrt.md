@@ -9,11 +9,11 @@
 
 - Suppress all underlining:
 
-`colcrt {{-2}}`
+`colcrt {{[-2|--half-lines]}}`
 
-- Cause all half-lines to be printed:
+- Print all half-lines:
 
-`colcrt {{-}}`
+`colcrt {{[-|--no-underlining]}}`
 
 - Display help:
 
