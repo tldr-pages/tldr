@@ -6,7 +6,7 @@
 
 - Write test files to a given directory, filling the drive:
 
-`f3write {{path/to/mount_point}}`
+`sudo f3write {{path/to/mount_point}}`
 
 - Limit the write speed:
 
