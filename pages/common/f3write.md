@@ -2,7 +2,7 @@
 
 > Fill a drive out with `.h2w` files to test its real capacity.
 > See also: `f3read`, `f3probe`, `f3fix`.
-> More information: <https://manned.org/f3write>.
+> More information: <https://github.com/AltraMayor/f3/blob/master/doc/usage.rst>.
 
 - Write test files to a given directory, filling the drive:
 
