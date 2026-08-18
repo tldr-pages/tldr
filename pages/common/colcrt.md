@@ -7,11 +7,11 @@
 
 `colcrt`
 
-- Suppress all underlining:
+- Print all half-lines:
 
 `colcrt {{[-2|--half-lines]}}`
 
-- Print all half-lines:
+- Suppress all underlining:
 
 `colcrt {{[-|--no-underlining]}}`
 
