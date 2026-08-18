@@ -10,4 +10,4 @@
 
 - Limit the write speed:
 
-`f3write --max-write-rate {{kb_per_second}} {{path/to/mount_point}}`
+`sudo f3write {{[-w|--max-write-rate]}} {{kb_per_second}} {{path/to/mount_point}}`
