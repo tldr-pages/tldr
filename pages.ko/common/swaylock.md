@@ -19,6 +19,10 @@
 
 `swaylock {{[-u|--no-unlock-indicator]}}`
 
+- 화면을 잠근 후 제어 터미널에서 분리 (`i3lock`와 유사):
+
+`swaylock {{[-f|--daemonize]}}`
+
 - 모든 모니터에 타일 형식으로 PNG 배경 이미지로 화면 잠금:
 
 `swaylock {{[-i|--image]}} {{경로/대상/이미지}} {{[-t|--tiling]}}`
