@@ -2,7 +2,7 @@
 
 > Probe a block device (e.g. a flash drive or a microSD card) for counterfeit flash memory.
 > See also: `f3read`, `f3write`, `f3fix`.
-> More information: <https://github.com/AltraMayor/f3>.
+> More information: <https://manned.org/f3probe>.
 
 - Probe a block device:
 
