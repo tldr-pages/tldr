@@ -14,8 +14,8 @@
 
 - Use the minimum about of RAM possible:
 
-`sudo f3probe --min-memory {{path/to/block_device}}`
+`sudo f3probe {{[-l|--min-memory]}} {{path/to/block_device}}`
 
 - Time disk operations:
 
-`sudo f3probe --time-ops {{path/to/block_device}}`
+`sudo f3probe {{[-t|--time-ops]}} {{path/to/block_device}}`
