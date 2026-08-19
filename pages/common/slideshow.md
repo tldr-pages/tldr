@@ -7,7 +7,7 @@
 
 `slideshow`
 
-- Show a presentation in full screen:
+- Start a presentation in full screen:
 
 `slideshow {{path/to/presentation.rkt}}`
 
