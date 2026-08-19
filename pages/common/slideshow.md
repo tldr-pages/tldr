@@ -15,7 +15,7 @@
 
 `slideshow --keep-titlebar {{path/to/presentation.rkt}}`
 
-- Set width and height (in pixels) of presentation slide window:
+- Set the width and height (in pixels) of the presentation window:
 
 `slideshow -s {{width}} {{height}} {{path/to/presentation.rkt}}`
 
