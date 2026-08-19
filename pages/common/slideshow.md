@@ -11,7 +11,7 @@
 
 `slideshow {{path/to/presentation.rkt}}`
 
-- Instead of full screen, give the presentation slide window a title bar and resize border:
+- Display the presentation window with a title bar and resize border:
 
 `slideshow --keep-titlebar {{path/to/presentation.rkt}}`
 
