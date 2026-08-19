@@ -19,6 +19,6 @@
 
 `slideshow -s {{width}} {{height}} {{path/to/presentation.rkt}}`
 
-- Save presentation in PDF file format:
+- Export a presentation to a PDF file:
 
 `slideshow --pdf -o {{path/to/presentation.pdf}} {{path/to/presentation.rkt}}`
