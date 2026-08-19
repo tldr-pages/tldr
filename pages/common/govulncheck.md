@@ -10,7 +10,7 @@
 
 - Scan a specific package:
 
-`govulncheck ./{{path/to/package}}`
+`govulncheck {{path/to/package}}`
 
 - Scan a Go binary instead of source code:
 
