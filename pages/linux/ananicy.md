@@ -17,4 +17,4 @@
 
 - Parse and validate custom rule files without applying them:
 
-`ananicy-cpp parse {{<path to rules>.rules}}`
+`ananicy-cpp parse {{path/to/rules.rules}}`
