@@ -12,7 +12,7 @@
 
 `sudo f3probe {{[-n|--destructive]}} {{path/to/block_device}}`
 
-- Use the minimum about of RAM possible:
+- Use the minimum amount of RAM possible:
 
 `sudo f3probe {{[-l|--min-memory]}} {{path/to/block_device}}`
 
