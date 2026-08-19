@@ -10,15 +10,15 @@
 
 - Install a package:
 
-`shelly install {{package}}`
+`shelly {{package}}`
 
 - Remove an installed package and its orphaned dependencies:
 
-`shelly remove {{[-c|--cascade]}} {{package}}`
+`shelly {{[-Rs|remove standard]}} {{[-c|--cascade]}} {{package}}`
 
 - Search for a package in the standard repositories:
 
-`shelly search {{[-v|--available]}} {{search_term}}`
+`shelly {{[-Ss|search standard]}} {{[-v|--available]}} {{search_term}}`
 
 - Search for a package specifically in the AUR:
 
@@ -26,4 +26,4 @@
 
 - Remove orphaned packages (installed as dependencies but no longer required):
 
-`shelly purify {{[-o|--orphans]}}`
+`shelly {{[-Zs|purify standard]}} {{[-o|--orphans]}}`
