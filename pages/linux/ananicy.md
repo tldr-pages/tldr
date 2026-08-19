@@ -1,7 +1,7 @@
 # ananicy-cpp
 
 > Feature-rich C++ rewrite of the Ananicy auto-nice daemon for Linux.
-> More information: <https://gitlab.com/ananicy-cpp/ananicy-cpp>.
+> More information: <https://gitlab.com/ananicy-cpp/ananicy-cpp/README.md>.
 
 - Output all currently parsed rules and rule files:
 
