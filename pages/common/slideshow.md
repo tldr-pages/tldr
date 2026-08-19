@@ -1,6 +1,6 @@
 # slideshow
 
-> Tool to make presentation slides, part of Racket language ecosystem.
+> Make presentation slides in the Racket language.
 > More information: <https://docs.racket-lang.org/slideshow>.
 
 - Display a default slide with options to run the tutorial or load a `.rkt` presentation file:
