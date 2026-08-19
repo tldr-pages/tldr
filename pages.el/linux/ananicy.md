@@ -1,28 +1,21 @@
-# ananicy
 
-> Auto-nice daemon for Linux to manage process priorities automatically.
-> More information: <https://github.com/NGRhitchhiker/Ananicy>.
+# ananicy-cpp
 
-- Start the Ananicy service:
+> Feature-rich C++ rewrite of the Ananicy auto-nice daemon for Linux.
+> More information: <https://gitlab.com/ananicy-cpp/ananicy-cpp>.
 
-`sudo systemctl start ananicy`
+- Output all currently parsed rules and rule files:
 
-- Enable Ananicy to auto-start on boot:
+    ananicy-cpp dump rules
 
-`sudo systemctl enable --now ananicy`
+- Output all configured process types:
 
-- Check the status of the Ananicy daemon and active rules:
+    ananicy-cpp dump types
 
-`sudo systemctl status ananicy`
+- Output all current rules in JSON format:
 
-- View live logging:
+    ananicy-cpp dump rules --json
 
-`journalctl -fu ananicy`
+- Parse and validate custom rule files without applying them:
 
-- Dump active rules and configured process types:
-
-`ananicy dump rules`
-
-- Check if a specific process name matches any active rule:
-
-`ananicy check {{process_name}}`
+    ananicy-cpp parse {{<path to rules>.rules}}
