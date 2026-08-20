@@ -6,24 +6,24 @@
 
 - Create files and directories as specified in the configuration:
 
-`systemd-tmpfiles --create`
+`sudo systemd-tmpfiles --create`
 
 - Create files and directories matching only a specific path prefix:
 
-`systemd-tmpfiles --create --prefix {{/var/log/journal}}`
+`sudo systemd-tmpfiles --create --prefix {{/var/log/journal}}`
 
 - Clean up files and directories with age parameters configured:
 
-`systemd-tmpfiles --clean`
+`sudo systemd-tmpfiles --clean`
 
 - Remove files and directories as specified in the configuration:
 
-`systemd-tmpfiles --remove`
+`sudo systemd-tmpfiles --remove`
 
 - Apply operations for user-specific configurations:
 
-`systemd-tmpfiles --create --user`
+`sudo systemd-tmpfiles --create --user`
 
 - Execute lines marked for early boot:
 
-`systemd-tmpfiles --create --boot`
+`sudo systemd-tmpfiles --create --boot`
