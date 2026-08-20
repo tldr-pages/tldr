@@ -8,6 +8,10 @@
 
 `systemd-tmpfiles --create`
 
+- Create files and directories matching only a specific path prefix:
+
+`systemd-tmpfiles --create --prefix {{/var/log/journal}}`
+
 - Clean up files and directories with age parameters configured:
 
 `systemd-tmpfiles --clean`
