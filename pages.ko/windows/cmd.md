@@ -9,7 +9,7 @@
 
 - 특정 [c]ommands 실행:
 
-`cmd /c {{echo Hello world}}`
+`cmd /c {{echo 'cmd가 실행중'}}`
 
 - 특정 스크립트 실행:
 
@@ -17,7 +17,7 @@
 
 - 특정 명령을 실행한 후 대화형 셸로 진입:
 
-`cmd /k {{echo Hello world}}`
+`cmd /k {{echo 'cmd가 실행중'}}`
 
 - 명령 출력에서 `echo`가 비활성화된 대화형 셸 세션 시작:
 
