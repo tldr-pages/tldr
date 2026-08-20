@@ -21,4 +21,4 @@
 
 - Export a presentation to a PDF file:
 
-`slideshow --pdf -o {{path/to/presentation.pdf}} {{path/to/presentation.rkt}}`
+`slideshow {{[-D|--pdf]}} -o {{path/to/presentation.pdf}} {{path/to/presentation.rkt}}`
