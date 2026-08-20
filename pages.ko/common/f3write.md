@@ -2,7 +2,7 @@
 
 > 실제 용량을 테스트하려면, 드라이브를 .h2w 파일로 채우기.
 > 관련 항목: `f3read`, `f3probe`, `f3fix`.
-> 더 많은 정보: <https://oss.digirati.com.br/f3/>.
+> 더 많은 정보: <https://fight-flash-fraud.readthedocs.io/en/stable/usage.html>.
 
 - 지정된 디렉터리에 테스트 파일을 작성하여 드라이브를 채움:
 
