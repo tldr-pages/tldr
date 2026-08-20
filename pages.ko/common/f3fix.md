@@ -10,8 +10,8 @@
 
 - 파티션을 부팅 가능한 것으로 표시:
 
-`sudo f3fix --boot {{/dev/장치_이름}}`
+`sudo f3fix {{[-b|--boot]}} {{/dev/장치_이름}}`
 
 - 파일 시스템을 지정:
 
-`sudo f3fix --fs-type={{파일시스템_타입}} {{/dev/장치_이름}}`
+`sudo f3fix {{[-f|--fs-type]}} {{파일시스템_타입}} {{/dev/장치_이름}}`
