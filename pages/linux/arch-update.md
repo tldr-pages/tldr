@@ -15,6 +15,6 @@
 
 `arch-update --tray --enable`
 
-- List last 10 Arch news:
+- List last 10 Arch news posts:
 
 `arch-update {{[-n|--news]}} 10`
