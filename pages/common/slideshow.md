@@ -17,7 +17,7 @@
 
 - Set the width and height (in pixels) of the presentation window:
 
-`slideshow -s {{width}} {{height}} {{path/to/presentation.rkt}}`
+`slideshow {{[-s|--size]}} {{width}} {{height}} {{path/to/presentation.rkt}}`
 
 - Export a presentation to a PDF file:
 
