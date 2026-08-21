@@ -6,16 +6,16 @@
 
 - 通过远程 SSH 服务器转发所有 IPv4 TCP 流量：
 
-`sshuttle --remote={{用户名}}@{{服务器名}} {{0.0.0.0/0}}`
+`sshuttle {{[-r|--remote]}} {{用户名}}@{{服务器名}} {{0.0.0.0/0}}`
 
 - 同时将所有 DNS 流量转发到服务器的默认 DNS 解析器：
 
-`sshuttle --dns --remote={{用户名}}@{{服务器名}} {{0.0.0.0/0}}`
+`sshuttle --dns {{[-r|--remote]}} {{用户名}}@{{服务器名}} {{0.0.0.0/0}}`
 
 - 转发所有流量，除了发往特定子网的流量：
 
-`sshuttle --remote={{用户名}}@{{服务器名}} {{0.0.0.0/0}} --exclude {{192.168.0.1/24}}`
+`sshuttle {{[-r|--remote]}} {{用户名}}@{{服务器名}} {{0.0.0.0/0}} {{[-x|--exclude]}} {{192.168.0.1/24}}`
 
 - 使用 tproxy 方法转发所有 IPv4 和 IPv6 流量：
 
-`sshuttle --method=tproxy --remote={{用户名}}@{{服务器名}} {{0.0.0.0/0}} {{::/0}} --exclude={{你本地 IP 地址}} --exclude={{SSH 服务器的 IP 地址}}`
+`sshuttle --method tproxy {{[-r|--remote]}} {{用户名}}@{{服务器名}} {{0.0.0.0/0}} {{::/0}} {{[-x|--exclude]}} {{你本地 IP 地址}} {{[-x|--exclude]}} {{SSH 服务器的 IP 地址}}`
