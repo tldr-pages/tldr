@@ -2,6 +2,7 @@
 
 > Adjust the color temperature of a screen according to its surroundings.
 > Note: Redshift does not support Wayland.
+> See also: `gammastep`.
 > More information: <https://manned.org/redshift>.
 
 - Turn on Redshift with a specific [t]emperature during day (e.g., 5700K) and at night (e.g., 3600K):
