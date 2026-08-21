@@ -14,7 +14,3 @@
 - Show a verbose status, including default policies and listening ports:
 
 `sudo ufw status verbose`
-
-- Simulate a status report without changing anything:
-
-`sudo ufw --dry-run status`
