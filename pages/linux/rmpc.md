@@ -22,7 +22,7 @@
 
 - Save the currently playing song's album art to a file:
 
-`rmpc albumart --output {{path/to/cover.jpg}}`
+`rmpc albumart {{[-o|--output]}} {{path/to/cover.jpg}}`
 
 - Toggle playback control functions (consume plays the song and deletes it from the queue afterwards):
 
