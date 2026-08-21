@@ -2,7 +2,7 @@
 
 > A terminal music player client for the Music Player Daemon, with album art support.
 > See also: `mpd`, `mpc`, `ncmpcpp`.
-> More information: <https://rmpc.mierak.dev>.
+> More information: <https://rmpc.mierak.dev/reference/cli-command-mode/>.
 
 - Start the TUI client:
 
@@ -10,7 +10,7 @@
 
 - Connect to a specific MPD instance:
 
-`rmpc --address {{host:port}}`
+`rmpc {{[-a|--address]}} {{host:port}}`
 
 - Print the default configuration to use as a starting point:
 
@@ -24,10 +24,10 @@
 
 `rmpc albumart --output {{path/to/cover.jpg}}`
 
-- Toggle playback control functions (consume plays the song and deletes it from the queque afterwards.):
+- Toggle playback control functions (consume plays the song and deletes it from the queue afterwards):
 
 `rmpc {{next|prev|stop|consume|togglerepeat|pause|unpause}}`
 
-- View currently playing song:
+- View the currently playing song:
 
 `rmpc song`
