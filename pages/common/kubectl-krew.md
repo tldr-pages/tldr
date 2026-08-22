@@ -30,5 +30,3 @@
 - Uninstall a plugin:
 
 `kubectl krew uninstall {{plugin_name}}`
-
-> See also: `kubectl-plugin`.
