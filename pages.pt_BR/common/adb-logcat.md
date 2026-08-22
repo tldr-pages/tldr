@@ -1,6 +1,6 @@
 # adb logcat
 
-> Despeja um registro (log) de mensagens do sistema.
+> Extrai um registro (log) de mensagens do sistema.
 > Mais informações: <https://developer.android.com/tools/logcat>.
 
 - Exibe registros (logs) do sistema:
