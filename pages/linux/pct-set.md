@@ -29,4 +29,4 @@
 
 - Remove an option:
 
-`pct {{[se|set]}} {{100}} --delete {{net0,mp0,mp1,...}}`
+`pct {{[se|set]}} {{100}} --delete {{unused0,net0,mp0,mp1,...}}`

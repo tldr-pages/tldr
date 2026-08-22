@@ -21,7 +21,7 @@
 
 - Voeg de Extra Packages for Enterprise Linux (EPEL) repositories toe:
 
-`sudo dnf {{[in|install]}} https://dl.fedoraproject.org/pub/epel/epel-release-latest-{{10}}.noarch.rpm`
+`sudo dnf {{[in|install]}} epel-release`
 
 - Voeg Remi's RPM repository toe:
 

@@ -12,6 +12,10 @@
 
 `aur sync {{[-u|--upgrades]}}`
 
+- 업그레이드 시 특정 패키지 무시:
+
+`aur sync {{[-u|--upgrades]}} --ignore {{패키지1,패키지2,...}}`
+
 - 설치 후 빌드 파일 정리:
 
 `aur sync {{[-C|--clean]}} {{패키지}}`
@@ -19,7 +23,3 @@
 - Vim에서 변경 사항을 확인하지 않고, 의존성 설치도 확인 없이 패키지 설치:
 
 `aur sync --noview {{[-n|--noconfirm]}} {{패키지}}`
-
-- 업그레이드 시 특정 패키지 무시:
-
-`aur sync {{[-u|--upgrades]}} --ignore {{패키지1,패키지2,...}}`

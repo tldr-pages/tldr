@@ -17,7 +17,7 @@
 
 - Remove todas dependências ao desinstalar:
 
-`choco uninstall {{pacote}} --remove-dependencies`
+`choco uninstall {{pacote}} {{[-x|--remove-dependencies]}}`
 
 - Desinstala todos os pacotes:
 

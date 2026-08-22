@@ -1,6 +1,7 @@
 # ncdu
 
 > ncurses 인터페이스를 사용하는 디스크 사용량 분석기.
+> 관련 항목: `duf`, `df`.
 > 더 많은 정보: <https://dev.yorhel.nl/ncdu/man>.
 
 - 현재 작업 중인 디렉터리 분석:
