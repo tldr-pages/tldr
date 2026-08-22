@@ -7,7 +7,7 @@
 
 `foremost -t {{jpg}} -i {{path/to/disk_image.dd}}`
 
-- Recover files of multiple types:
+- Recover files of multiple [t]ypes:
 
 `foremost -t {{gif,png,pdf}} -i {{path/to/disk_image.dd}}`
 
