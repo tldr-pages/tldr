@@ -15,7 +15,7 @@
 
 `foremost -t all -i {{path/to/disk_image.dd}}`
 
-- Recover files into a specific output directory:
+- Recover files into a specific [o]utput directory:
 
 `foremost -o {{path/to/output_directory}} -i {{path/to/disk_image.dd}}`
 
