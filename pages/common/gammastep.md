@@ -4,7 +4,7 @@
 > See also: `redshift`.
 > More information: <https://manned.org/gammastep>.
 
-- Turn on Gammastep with a specific [t]emperature during the day (e.g. 5700k) and at night (e.g. 3600k):
+- Turn on Gammastep with [t]emperature set to 5700k during the day and 3600k at night:
 
 `gammastep -t 5700:3600`
 
@@ -12,7 +12,7 @@
 
 `gammastep -l {{latitude}}:{{longitude}}`
 
-- Turn on Gammastep with a specific screen [b]rightness during the day (e.g. 70%) and at night (e.g. 40%), with minimum brightness 10% and maximum brightness 100%:
+- Turn on Gammastep with screen [b]rightness set to 70% during the day and 40% at night:
 
 `gammastep -b 0.7:0.4`
 
