@@ -29,7 +29,7 @@
 
 - Exibe registros do processo de um pacote específico:
 
-`adb logcat --pid $(adb shell pidof -s {{package}})`
+`adb logcat --pid $(adb shell pidof -s {{pacote}})`
 
 - Colore o registro (geralmente usado com filtros):
 
