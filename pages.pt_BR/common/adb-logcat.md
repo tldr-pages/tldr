@@ -13,7 +13,7 @@
 
 - Exibe registros de uma tag em um modo específico ([V]erbose (detalhado), [D]ebug (depuração), [I]nfo (informação), [W]arning (aviso), [E]rror (erro), [F]atal (fatal), [S]ilent (silencioso)), filtrando outras tags:
 
-`adb logcat {{tag}}:{{mode}} *:S`
+`adb logcat {{tag}}:{{modo}} *:S`
 
 - Exibe registros de aplicações React Native em modo [V]erbose, silenciando outras tags:
 
