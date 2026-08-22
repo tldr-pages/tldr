@@ -23,6 +23,6 @@
 
 `foremost -h`
 
-- Display version:
+- Display [V]ersion:
 
 `foremost -V`
