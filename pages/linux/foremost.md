@@ -3,7 +3,7 @@
 > Recover files using their headers, footers, and data structures.
 > More information: <https://manned.org/foremost>.
 
-- Recover files of a specific type (e.g., JPEG) from a disk image:
+- Recover files of a specific [t]ype (e.g., JPEG) from a disk image:
 
 `foremost -t {{jpg}} -i {{path/to/disk_image.dd}}`
 
