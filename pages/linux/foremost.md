@@ -19,7 +19,7 @@
 
 `foremost -o {{path/to/output_directory}} -i {{path/to/disk_image.dd}}`
 
-- Display help:
+- Display [h]elp:
 
 `foremost -h`
 
