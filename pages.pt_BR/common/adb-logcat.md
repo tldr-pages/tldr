@@ -15,7 +15,7 @@
 
 `adb logcat {{tag}}:{{modo}} *:S`
 
-- Exibe registros de aplicações React Native em modo [V]erbose, silenciando outras tags:
+- Exibe registros de aplicações React Native em modo [V]erboso, silenciando outras tags:
 
 `adb logcat ReactNative:V ReactNativeJS:V *:S`
 
