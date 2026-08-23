@@ -23,7 +23,7 @@
 
 `docker compose down --remove-orphans`
 
-- Para e remove contêineres usando um arquivo compose alternativo:
+- Para e remove contêineres usando um arquivo Compose alternativo:
 
 `docker compose {{[-f|--file]}} {{caminho/para/config}} down`
 

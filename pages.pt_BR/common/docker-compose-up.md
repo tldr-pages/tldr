@@ -7,7 +7,7 @@
 
 `docker compose up`
 
-- Inicia os serviços em segundo plano (modo destacado):
+- Inicia os serviços em segundo plano (modo desanexado):
 
 `docker compose up {{[-d|--detach]}}`
 

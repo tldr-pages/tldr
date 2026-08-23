@@ -15,7 +15,7 @@
 
 `docker compose start --dry-run`
 
-- Inicia os contêineres existentes e aguarda os serviços estarem em execução ou saudáveis:
+- Inicia os contêineres existentes e aguarda até que os serviços estejam em execução ou saudáveis:
 
 `docker compose start --wait`
 
