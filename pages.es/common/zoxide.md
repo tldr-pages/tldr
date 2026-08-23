@@ -4,7 +4,7 @@
 > Utiliza un algoritmo de clasificación para navegar a la mejor coincidencia.
 > Más información: <https://manned.org/zoxide>.
 
-- Va al directorio mejor clasificado que contiene una cadena en su nombre:
+- Va al directorio mejor clasificado que contiene una `cadena` en su nombre:
 
 `zoxide query string`
 
