@@ -13,7 +13,7 @@
 
 - Connect to a server with custom display width and height:
 
-`xfreerdp3 /u:{{username}} /p:{{password}} /v:{{ip_address}} /w:{{1920}} /h:{{1080}}`
+`xfreerdp3 /u:{{username}} /p:{{password}} /v:{{ip_address}} /w:{{width_in_pixels}} /h:{{height_in_pixels}}`
 
 - Connect to a server with dynamic resolution scaling:
 
