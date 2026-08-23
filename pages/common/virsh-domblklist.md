@@ -6,8 +6,8 @@
 
 - List the target name and source path of the block devices:
 
-`virsh domblklist --domain {{vm_name}}`
+`virsh domblklist {{vm_name}}`
 
 - List the disk type and device value as well as the target name and source path:
 
-`virsh domblklist --domain {{vm_name}} --details`
+`virsh domblklist {{vm_name}} --details`
