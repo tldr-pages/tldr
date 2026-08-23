@@ -9,7 +9,7 @@
 
 - Connect to a FreeRDP server with a custom window width and height:
 
-`xfreerdp /v:{{ip_address}} /u:{{username}} /p:{{password}} /w:{{1920}} /h:{{1080}}`
+`xfreerdp /v:{{ip_address}} /u:{{username}} /p:{{password}} /w:{{width_in_pixels}} /h:{{height_in_pixels}}`
 
 - Connect to a FreeRDP server with dynamic resolution:
 
