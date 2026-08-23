@@ -19,7 +19,7 @@
 
 `docker compose {{[-f|--file]}} {{caminho/para/arquivo_compose}} stop`
 
-- Execução simulada (mostra as operações sem executá-las):
+- Executa de forma simulada (mostra as operações sem executá-las):
 
 `docker compose stop --dry-run`
 
