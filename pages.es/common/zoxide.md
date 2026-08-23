@@ -6,7 +6,7 @@
 
 - Va al directorio mejor clasificado que contiene una `cadena` en su nombre:
 
-`zoxide query string`
+`zoxide query cadena`
 
 - Va al directorio mejor clasificado que contiene `string1` y luego `string2`:
 
