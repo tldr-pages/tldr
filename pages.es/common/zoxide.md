@@ -8,7 +8,7 @@
 
 `zoxide query cadena`
 
-- Va al directorio mejor clasificado que contiene `string1` y luego `string2`:
+- Va al directorio mejor clasificado que contiene `cadena1` y luego `cadena2`:
 
 `zoxide query string1 string2`
 
