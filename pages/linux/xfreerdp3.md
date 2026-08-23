@@ -1,7 +1,7 @@
 # xfreerdp3
 
 > Free Remote Desktop Protocol implementation (version 3).
-> More information: <https://www.freerdp.com>.
+> More information: <https://manned.org/xfreerdp3>.
 
 - Connect to a FreeRDP server:
 
