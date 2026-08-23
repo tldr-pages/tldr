@@ -1,7 +1,7 @@
 # xfreerdp
 
 > Free Remote Desktop Protocol implementation.
-> More information: <https://www.freerdp.com>.
+> More information: <https://manned.org/xfreerdp>.
 
 - Connect to a FreeRDP server:
 
