@@ -30,7 +30,7 @@
 
 - Reapply the last 5 commits in-place, stopping to allow them to be reordered, omitted, combined, or modified:
 
-`git rebase {{[-i|--interactive]}} {{HEAD~5}}`
+`git rebase {{[-i|--interactive]}} HEAD~5`
 
 - Auto-resolve any conflicts by favoring the working branch version (`theirs` keyword has reversed meaning in this case):
 
