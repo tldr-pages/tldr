@@ -25,7 +25,7 @@
 
 `curl {{[-k|--insecure]}} {{[-x|--proxy]}} {{http://127.0.0.1:8080}} {{[-H|--header]}} '{{Authorization: Bearer token}}' {{[-X|--request]}} {{GET|PUT|POST|DELETE|PATCH|...}} {{https://example.com}}`
 
-- Envoyer des données au format JSON, en spécifiant l'en-tête Content-Type adéquate :
+- Envoyer des données au format JSON, en spécifiant l'en-tête Content-Type adéquat :
 
 `curl {{[-d|--data]}} {{'{"nom":"bob"}'}} {{[-H|--header]}} {{'Content-Type: application/json'}} {{http://example.com/utilisateurs/1234}}`
 
