@@ -9,7 +9,7 @@
 
 `curl {{http://example.com}}`
 
-- Fait une requête HTTP GET, suit toute redirection HTTP `3xx`, et affiche les en-têtes de la réponse :
+- Fait une requête HTTP GET, suit toute redirection HTTP `3xx`, et affiche les en-têtes et le contenu de la réponse vers `stdout` :
 
 `curl {{[-L|--location]}} {{[-D|--dump-header]}} - {{https://example.com}}`
 
@@ -19,7 +19,7 @@
 
 - Envoie des données de formulaire encodées (requête POST de type `application/x-www-form-urlencoded`). Utilise `--data @file_name` ou `--data @'-'` pour lire depuis `stdin` :
 
-`curl {{[-d|--data]}} {{'nom=bob'}} {{http://example.com/formulaire}}`
+`curl {{[-X|--request]}} POST {{[-d|--data]}} {{'nom=bob'}} {{http://example.com/formulaire}}`
 
 - Envoie une requête avec un en-tête supplémentaire, en spécifiant la méthode HTTP, à travers un proxy, et en ignorant les erreurs de validation de certificat :
 
@@ -29,9 +29,9 @@
 
 `curl {{[-d|--data]}} {{'{"nom":"bob"}'}} {{[-H|--header]}} {{'Content-Type: application/json'}} {{http://example.com/utilisateurs/1234}}`
 
-- Fournit le certificat et la clé privée du client pour l'accès à une URL :
+- Transmet le certificat client et la clé privée pour la requête, en ignorant la validation du certificat :
 
-`curl {{[-E|--cert]}} {{client.pem}} --key {{cle.pem}} {{https://example.com}}`
+`curl {{[-E|--cert]}} {{client.pem}} --key {{cle.pem}} {{[-k|--insecure]}} {{https://example.com}}`
 
 - Résout un nom de domaine vers une adresse IP spécifique (similaire à modifier le fichier /etc/hosts pour une résolution DNS locale), en activant le mode verbeux :
 
