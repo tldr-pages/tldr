@@ -3,7 +3,7 @@
 > 네임서버 정보를 관리.
 > 네임서버 정보를 제공하는 프로그램과 이 정보를 사용하는 애플리케이션 사이의 중개 역할을 합니다.
 > 이 페이지는 Debian의 `resolvconf` 구현을 문서화합니다.
-> 더 많은 정보: <https://manned.org/resolvconf.8>.
+> 더 많은 정보: <https://manned.org/resolvconf>.
 
 - IFACE.PROG 레코드를 추가하거나 덮어쓰고 업데이트가 활성화되어 있으면 업데이트 스크립트 실행:
 

@@ -1,6 +1,7 @@
 # sudo
 
 > Wykonuje pojedyncze polecenie jako superuser lub inny użytkownik.
+> Zobacz także: `pkexec`, `run0`, `doas`.
 > Więcej informacji: <https://www.sudo.ws/sudo.html>.
 
 - Uruchom polecenie jako superuser:

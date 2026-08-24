@@ -1,7 +1,7 @@
 # touch
 
 > Buat berkas-berkas kosong baru dan setel waktu akses dan modifikasi terhadap para berkas.
-> Informasi lebih lanjut: <https://manned.org/touch>.
+> Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/manual/html_node/touch-invocation.html>.
 
 - Buat kumpulan berkas baru:
 

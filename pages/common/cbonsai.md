@@ -1,7 +1,7 @@
 # cbonsai
 
 > A beautifully random bonsai tree generator.
-> See also: `cmatrix`.
+> See also: `cmatrix`, `asciiquarium`, `pipes.sh`.
 > More information: <https://gitlab.com/jallbrit/cbonsai>.
 
 - Generate a bonsai in live mode:

@@ -1,7 +1,7 @@
 # aws cognito-idp
 
 > Configure an Amazon Cognito user pool and its users and groups and authenticate them.
-> More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cognito-idp/index.html>.
+> More information: <https://docs.aws.amazon.com/cli/latest/reference/cognito-idp/>.
 
 - Create a new Cognito user pool:
 

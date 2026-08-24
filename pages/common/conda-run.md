@@ -13,4 +13,4 @@
 
 - Target an environment by its path (i.e. prefix):
 
-`conda run {{[-p|--path]}} {{path/to/env}} {{command}}`
+`conda run {{[-p|--prefix]}} {{path/to/env}} {{command}}`

@@ -1,7 +1,8 @@
 # hx
 
 > Este comando é um alias de `helix`.
+> Mais informações: <https://manned.org/man/debian-forky/hx>.
 
-- Exibe documentação do comando original:
+- Ver documentação do comando original:
 
 `tldr helix`

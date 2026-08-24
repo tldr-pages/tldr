@@ -1,6 +1,7 @@
 # dig
 
 > Utilità di lookup DNS.
+> Vedi anche: `resolvectl`, `nslookup`, `host`.
 > Maggiori informazioni: <https://manned.org/dig>.
 
 - Mostra gli IP associati ad un hostname (record A):

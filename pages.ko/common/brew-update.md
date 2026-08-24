@@ -6,4 +6,4 @@
 
 - 최신 버전의 Homebrew 및 모든 공식을 가져옴:
 
-`brew update`
+`brew {{[up|update]}}`

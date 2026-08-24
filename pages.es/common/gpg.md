@@ -1,6 +1,7 @@
 # gpg
 
 > GNU Privacy Guard, una herramienta de cifrado y firma OpenPGP.
+> Vea también: `sq`.
 > Más información: <https://gnupg.org/documentation/manuals/gnupg/Invoking-GPG.html>.
 
 - Crea una clave pública y privada GPG de forma interactiva:
@@ -17,11 +18,11 @@
 
 - Cifra y firma `doc.txt` para `alice@example.com` y `bob@example.com` (salida a `doc.txt.gpg`):
 
-`gpg {{[-es|--encrypt --sign]}} {{[-r|--recipient]}} {{alice@example.com}} {{[-r|--recipiente]}} {{bob@example.com}} {{doc.txt}}`
+`gpg {{[-es|--encrypt --sign]}} {{[-r|--recipient]}} {{alice@example.com}} {{[-r|--recipient]}} {{bob@example.com}} {{doc.txt}}`
 
 - Cifra `doc.txt` con solo una frase de contraseña (salida a `doc.txt.gpg`):
 
-`gpg {{[-c|---symmetric]}} {{doc.txt}}`
+`gpg {{[-c|--symmetric]}} {{doc.txt}}`
 
 - Descifra `doc.txt.gpg` (salida a `stdout`):
 

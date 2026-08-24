@@ -4,4 +4,4 @@
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr qm disk rescan`
+`tldr qm disk`

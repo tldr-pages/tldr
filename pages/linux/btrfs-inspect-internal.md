@@ -23,6 +23,6 @@
 
 `sudo btrfs {{[i|inspect-internal]}} {{[lo|logical-resolve]}} {{logical_address}} {{path/to/btrfs_mount}}`
 
-- Print stats of root, extent, csum and fs trees:
+- Print stats of root, extent, csum, and fs trees:
 
 `sudo btrfs {{[i|inspect-internal]}} {{[t|tree-stats]}} {{path/to/partition}}`

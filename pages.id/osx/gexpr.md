@@ -1,6 +1,6 @@
 # gexpr
 
-> Perintah ini merupakan alias dari `expr`.
+> Perintah ini merupakan alias dari GNU `expr`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 

@@ -1,7 +1,7 @@
 # spotify
 
 > Spotify의 명령줄 인터페이스.
-> 더 많은 정보: <https://github.com/hnarayanan/shpotify>.
+> 더 많은 정보: <https://github.com/hnarayanan/shpotify#usage>.
 
 - 노래 이름으로 찾아 재생:
 

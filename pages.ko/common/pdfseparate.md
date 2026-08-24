@@ -1,7 +1,7 @@
 # pdfseparate
 
 > 휴대용 문서 형식(PDF) 파일 페이지 추출기.
-> 더 많은 정보: <https://manpages.debian.org/latest/poppler-utils/pdfseparate.1.en.html>.
+> 더 많은 정보: <https://manned.org/pdfseparate>.
 
 - PDF 파일에서 페이지를 추출하고 각 페이지에 대해 별도의 PDF 파일 생성:
 

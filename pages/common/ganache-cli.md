@@ -1,7 +1,7 @@
 # ganache-cli
 
 > Command-line version of Ganache, your personal blockchain for Ethereum development.
-> More information: <https://www.trufflesuite.com/ganache>.
+> More information: <https://archive.trufflesuite.com/ganache/>.
 
 - Run Ganache:
 

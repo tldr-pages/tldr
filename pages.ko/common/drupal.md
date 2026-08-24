@@ -2,7 +2,7 @@
 
 > 상용구 코드를 생성하고, Drupal 프로젝트와 상호작용하며 디버그.
 > `check`와 같은 일부 하위 명령에는 자체 사용법 문서가 존재.
-> 더 많은 정보: <https://drupalconsole.com/>.
+> 더 많은 정보: <https://drupalize.me/topic/drupal-console>.
 
 - 모듈 설치:
 

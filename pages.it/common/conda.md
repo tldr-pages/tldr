@@ -2,6 +2,7 @@
 
 > Gestione pacchetti, dipendenze ed ambiente per qualsiasi linguaggio di programmazione.
 > Alcuni comandi aggiuntivi, come `create`, hanno la propria documentazione.
+> Vedi anche: `mamba`.
 > Maggiori informazioni: <https://docs.conda.io/projects/conda/en/latest/commands/index.html>.
 
 - Crea un nuovo ambiente, installandovi alcuni pacchetti:

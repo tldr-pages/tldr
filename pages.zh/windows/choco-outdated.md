@@ -1,7 +1,7 @@
 # choco outdated
 
 > 使用 Chocolatey 检查过时的包。
-> 更多信息：<https://chocolatey.org/docs/commands-outdated>.
+> 更多信息：<https://docs.chocolatey.org/en-us/choco/commands/outdated/>。
 
 - 用表格的形式列出过时的包：
 
@@ -13,8 +13,8 @@
 
 - 从自定义的源处检查过时的包：
 
-`choco outdated --source {{源 URL|别名}}`
+`choco outdated {{[-s|--source]}} {{源url|别名}}`
 
 - 提供一个用户名和密码来进行验证：
 
-`choco outdated --user {{用户名}} --password {{密码}}`
+`choco outdated {{[-u|--user]}} {{用户名}} {{[-p|--password]}} {{密码}}`

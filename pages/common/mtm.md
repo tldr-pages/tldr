@@ -2,7 +2,7 @@
 
 > Minimal terminal multiplexer.
 > See also: `tmux`, `screen`.
-> More information: <https://github.com/deadpixi/mtm>.
+> More information: <https://manned.org/mtm>.
 
 - Start the program with default command chord (`<Ctrl g>`):
 

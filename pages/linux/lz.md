@@ -1,7 +1,7 @@
 # lz
 
 > List all files inside a '.tar.gz' compressed archive.
-> More information: <https://manned.org/lz.1>.
+> More information: <https://manned.org/lz>.
 
 - List all files inside a compressed archive:
 

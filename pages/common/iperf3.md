@@ -1,7 +1,7 @@
 # iperf3
 
 > Traffic generator for testing network bandwidth.
-> More information: <https://iperf.fr>.
+> More information: <https://iperf.fr/iperf-doc.php>.
 
 - Run iperf3 as a server:
 
@@ -13,12 +13,16 @@
 
 - Start bandwidth test:
 
-`iperf3 {{[-c|--client]}} {{server}}`
+`iperf3 {{[-c|--client]}} {{server_ip}}`
 
 - Run iperf3 in multiple parallel streams:
 
-`iperf3 {{[-c|--client]}} {{server}} {{[-P|--parallel]}} {{streams}}`
+`iperf3 {{[-c|--client]}} {{server_ip}} {{[-P|--parallel]}} {{streams}}`
 
-- Reverse direction of the test. Server sends data to the client:
+- Run the test in reverse direction (server sends data to client):
 
-`iperf3 {{[-c|--client]}} {{server}} {{[-R|--reverse]}}`
+`iperf3 {{[-c|--client]}} {{server_ip}} {{[-R|--reverse]}}`
+
+- Set the duration of the test:
+
+`iperf3 {{[-c|--client]}} {{server_ip}} {{[-t|--time]}} {{seconds}}`

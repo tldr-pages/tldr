@@ -1,7 +1,6 @@
 # route
 
 > Manipuleer handmatig de routetabellen.
-> Vereist rootrechten.
 > Meer informatie: <https://keith.github.io/xcode-man-pages/route.8.html>.
 
 - Voeg een route toe naar een bestemming via een gateway:

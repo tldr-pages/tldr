@@ -2,7 +2,7 @@
 
 > Check whether unit files are enabled.
 > See also: `systemctl enable`, `systemctl disable`.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#is-enabled%20UNIT%E2%80%A6>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#is-enabled%20UNIT%E2%80%A6>.
 
 - Show the enablement state:
 
@@ -10,8 +10,8 @@
 
 - Suppress output and return only the exit code:
 
-`systemctl is-enabled {{unit}} --quiet`
+`systemctl is-enabled {{unit}} {{[-q|--quiet]}}`
 
 - Show installation targets and symlink paths:
 
-`systemctl is-enabled {{unit}} --full`
+`systemctl is-enabled {{unit}} {{[-l|--full]}}`

@@ -5,7 +5,7 @@
 
 - Guarda la disposición actual de la pantalla:
 
-`autorandr --save {{nombre_del_perfil}}`
+`autorandr {{[-s|--save]}} {{nombre_del_perfil}}`
 
 - Muestra los perfiles guardados:
 
@@ -13,12 +13,12 @@
 
 - Carga el primer perfil detectado:
 
-`autorandr --change`
+`autorandr {{[-c|--change]}}`
 
 - Carga un perfil específico:
 
-`autorandr --load {{nombre_del_perfil}}`
+`autorandr {{[-l|--load]}} {{nombre_del_perfil}}`
 
 - Establece el perfil predeterminado:
 
-`autorandr --default {{nombre_del_perfil}}`
+`autorandr {{[-d|--default]}} {{nombre_del_perfil}}`

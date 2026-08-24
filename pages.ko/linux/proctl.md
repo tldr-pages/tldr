@@ -1,7 +1,7 @@
 # proctl
 
 > 프로젝트 라이선스 및 언어를 관리하고, 템플릿화된 라이선스 간 전환을 수행합니다.
-> 더 많은 정보: <https://github.com/HeCodes2Much/proctl>.
+> 더 많은 정보: <https://github.com/CreativeCodeCat/proctl>.
 
 - 사용 가능한 라이선스 나열:
 

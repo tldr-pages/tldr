@@ -1,7 +1,8 @@
 # head
 
 > 输出文件的开头部分的内容。
-> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/head-invocation.html>.
+> 另请参阅：`tail`。
+> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/head-invocation.html>。
 
 - 输出文件的前几行：
 

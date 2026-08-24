@@ -1,7 +1,7 @@
 # magick identify
 
 > 이미지 파일의 형식과 특성을 설명합니다.
-> 같이 보기: `magick`.
+> 관련 항목: `magick`.
 > 더 많은 정보: <https://imagemagick.org/script/identify.php>.
 
 - 이미지의 형식과 기본 특성 설명:

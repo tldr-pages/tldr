@@ -2,7 +2,7 @@
 
 > 시스템 사용자 및 그룹 생성.
 > 구성 파일이 지정되지 않으면 `sysusers.d` 디렉토리의 파일이 사용됩니다.
-> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/systemd-sysusers.html>.
+> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/latest/systemd-sysusers.html>.
 
 - 특정 구성 파일에서 사용자 및 그룹 생성:
 

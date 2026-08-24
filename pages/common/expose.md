@@ -1,7 +1,7 @@
 # expose
 
 > An open source tunnel application for sharing websites.
-> More information: <https://beyondco.de/docs/expose>.
+> More information: <http://expose.dev/docs/introduction>.
 
 - Register your authentication token:
 

@@ -2,7 +2,7 @@
 
 > Download files from the Web.
 > Supports HTTP, HTTPS, and FTP.
-> See also: `curl`.
+> See also: `wcurl`, `curl`.
 > More information: <https://www.gnu.org/software/wget/manual/wget.html>.
 
 - Download the contents of a URL to a file (named "foo" in this case):

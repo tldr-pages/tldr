@@ -1,7 +1,7 @@
 # kjv
 
 > The word of God available right on your desktop.
-> More information: <https://github.com/bontibon/kjv>.
+> More information: <https://github.com/layeh/kjv#kjv>.
 
 - Display books:
 

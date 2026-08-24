@@ -1,11 +1,11 @@
 # nhentai
 
 > Download doujinshis from nhentai.
-> More information: <https://github.com/RicterZ/nhentai>.
+> More information: <https://github.com/RicterZ/nhentai#usage>.
 
 - Set cookies:
 
-`nhentai --cookie "csrftoken={{TOKEN}}; sessionid={{ID}}"`
+`nhentai --cookie "csrftoken={{token}}; sessionid={{id}}"`
 
 - Download a specific doujin:
 
@@ -13,8 +13,8 @@
 
 - Download the first page of your favorites:
 
-`nhentai --favorites --download --delay 1`
+`nhentai {{[-F|--favorites]}} {{[-D|--download]}} {{[-d|--delay]}} 1`
 
 - Download specific pages of your favorites:
 
-`nhentai --favorites --pages {{start_page}}-{{end_page}} --download --delay 1`
+`nhentai {{[-F|--favorites]}} --pages {{start_page}}-{{end_page}} {{[-D|--download]}} {{[-d|--delay]}} 1`

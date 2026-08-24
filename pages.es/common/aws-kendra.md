@@ -1,7 +1,7 @@
 # aws kendra
 
 > CLI para AWS Kendra.
-> Más información: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/kendra/index.html>.
+> Más información: <https://docs.aws.amazon.com/cli/latest/reference/kendra/>.
 
 - Crea un índice:
 

@@ -1,7 +1,7 @@
 # git branch
 
 > 管理分支。
-> 更多信息：<https://git-scm.com/docs/git-branch>.
+> 更多信息：<https://git-scm.com/docs/git-branch>。
 
 - 列出所有分支（包括本地的和远程的；当前分支以 `*` 突出表示）：
 

@@ -1,7 +1,7 @@
 # lualatex
 
 > Lua를 사용하여 컴파일하는 TeX의 확장 버전.
-> 더 많은 정보: <https://manned.org/lualatex.1>.
+> 더 많은 정보: <https://texdoc.org/serve/tex.man1.pdf/0>.
 
 - Lua 인터프리터로 작동하도록 `texlua` 시작:
 

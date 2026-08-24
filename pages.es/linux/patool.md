@@ -2,7 +2,7 @@
 
 > Gestor de archivos de almacenamiento.
 > Se pueden crear, extraer, probar, listar, buscar, reempaquetar y comparar varios formatos de archivo.
-> Más información: <https://github.com/wummel/patool>.
+> Más información: <https://github.com/wummel/patool/blob/master/doc/patool.txt>.
 
 - Extrae un archivo:
 

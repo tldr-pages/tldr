@@ -5,15 +5,15 @@
 
 - 모든 방화벽 규칙을 컴파일하고 출력:
 
-`pve-firewall compile`
+`pve-firewall {{[c|compile]}}`
 
 - 로컬 네트워크 정보 표시:
 
-`pve-firewall localnet`
+`pve-firewall {{[l|localnet]}}`
 
 - Proxmox VE 방화벽 서비스 재시작:
 
-`pve-firewall restart`
+`pve-firewall {{[r|restart]}}`
 
 - Proxmox VE 방화벽 서비스 시작:
 
@@ -25,7 +25,7 @@
 
 - 모든 방화벽 규칙 시뮬레이션:
 
-`pve-firewall simulate`
+`pve-firewall {{[si|simulate]}}`
 
 - Proxmox VE 방화벽 상태 표시:
 

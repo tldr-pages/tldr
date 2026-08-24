@@ -1,7 +1,7 @@
 # msbuild
 
 > Microsoft の Visual Studio プロジェクトソリューション用ビルドツールです。
-> もっと詳しく: <https://learn.microsoft.com/visualstudio/msbuild>。
+> 詳細情報: <https://learn.microsoft.com/visualstudio/msbuild>。
 
 - 現在のディレクトリにある最初のプロジェクトファイルをビルドする:
 

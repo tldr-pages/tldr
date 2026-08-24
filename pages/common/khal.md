@@ -1,11 +1,11 @@
 # khal
 
 > A text-based calendar and scheduling application.
-> More information: <https://lostpackets.de/khal>.
+> More information: <https://lostpackets.de/khal/>.
 
-- Start Khal on interactive mode:
+- Start Khal in interactive mode:
 
-`ikhal`
+`khal interactive`
 
 - Print all events scheduled in personal calendar for the next seven days:
 

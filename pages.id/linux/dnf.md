@@ -2,7 +2,7 @@
 
 > Manajer paket untuk distribusi Linux RHEL, Fedora, dan CentOS (pengganti yum).
 > Lihat <https://wiki.archlinux.org/title/Pacman/Rosetta> untuk daftar perintah dalam manajer paket lain yang menyerupai perintah `dnf`.
-> Informasi lebih lanjut: <https://dnf.readthedocs.io>.
+> Informasi lebih lanjut: <https://dnf5.readthedocs.io/en/latest/commands/index.html>.
 
 - Perbarui seluruh paket yang terpasang ke versi terbaru:
 

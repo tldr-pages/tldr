@@ -22,7 +22,7 @@
 
 - Gunakan VLC untuk memutar film:
 
-`ani-cli {{[-v|-vlc]}} "{{judul_anime}}"`
+`ani-cli {{[-v|--vlc]}} "{{judul_anime}}"`
 
 - Tonton suatu [e]pisode:
 

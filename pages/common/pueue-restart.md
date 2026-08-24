@@ -1,7 +1,7 @@
 # pueue restart
 
 > Restart tasks.
-> More information: <https://github.com/Nukesor/pueue>.
+> More information: <https://github.com/Nukesor/pueue#how-to-use-it>.
 
 - Restart a specific task:
 

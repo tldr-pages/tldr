@@ -2,6 +2,7 @@
 
 > A very fast network scanner.
 > Works best with elevated privileges. For help with Nmap compatibility, run `masscan --nmap`.
+> See also: `hping3`, `naabu`, `nmap`, `rustscan`, `zmap`.
 > More information: <https://manned.org/masscan>.
 
 - Scan an IP or network subnet for port 80:

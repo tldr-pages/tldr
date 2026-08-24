@@ -1,12 +1,7 @@
 # whoami
 
-> 현재 유효 사용자 ID와 연관된 사용자 명을 출력.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/whoami-invocation.html>.
+> 이 명령은 `id --user --name`의 별칭입니다.
 
-- 현재 로그인된 사용자 명 표시:
+- 자세한 내용은 원본 명령을 참고하세요:
 
-`whoami`
-
-- 사용자 ID 변경 후 사용자 명 표시:
-
-`sudo whoami`
+`tldr id`

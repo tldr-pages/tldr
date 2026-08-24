@@ -1,6 +1,7 @@
 # nano
 
 > Editor de texto de linha de comando. Um clone melhorado de `Pico`.
+> Veja também: `pico`, `rnano`.
 > Mais informações: <https://nano-editor.org/dist/latest/nano.html>.
 
 - Inicia o editor:

@@ -1,7 +1,7 @@
 # wtf
 
 > Pokazuje rozwinięcia akronimów.
-> Więcej informacji: <https://manned.org/wtf.6>.
+> Więcej informacji: <https://manned.org/wtf>.
 
 - Rozwinięcie podanego akronimu:
 

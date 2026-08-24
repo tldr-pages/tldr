@@ -1,7 +1,7 @@
 # kcat
 
 > Apache Kafka produceer en consumeer tool.
-> Meer informatie: <https://github.com/edenhill/kcat>.
+> Meer informatie: <https://manned.org/kcat>.
 
 - Consumeer berichten startend met de nieuwste offset:
 

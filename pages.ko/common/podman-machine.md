@@ -6,7 +6,7 @@
 
 - 기존 머신 나열:
 
-`podman machine ls`
+`podman machine {{[ls|list]}}`
 
 - 기본 머신 생성:
 
@@ -18,7 +18,7 @@
 
 - 다른 리소스로 새 머신 생성:
 
-`podman machine init --cpus={{4}} --memory={{4096}} --disk-size={{50}}`
+`podman machine init --cpus {{4}} --memory {{4096}} --disk-size {{50}}`
 
 - 머신 시작 또는 중지:
 

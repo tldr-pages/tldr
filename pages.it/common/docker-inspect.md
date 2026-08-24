@@ -3,13 +3,9 @@
 > Mostra informazioni a basso livello di oggetti Docker.
 > Maggiori informazioni: <https://docs.docker.com/reference/cli/docker/inspect/>.
 
-- Mostra aiuto:
-
-`docker inspect`
-
 - Mostra informazioni su un container, immagine o volume usando un nome o un identificativo (ID):
 
-`docker inspect {{nome_container|nome_immagine|ID}}`
+`docker inspect {{nome_container|nome_immagine|id}}`
 
 - Mostra l'indirizzo IP di un container:
 
@@ -30,3 +26,7 @@
 - Mostra il binding di tutte le porte:
 
 `docker inspect {{[-f|--format]}} '\{\{range $p, $conf := .NetworkSettings.Ports\}\} \{\{$p\}\} -> \{\{(index $conf 0).HostPort\}\} \{\{end\}\}' {{nome_container}}`
+
+- Mostra aiuto:
+
+`docker inspect`

@@ -2,6 +2,7 @@
 
 > Kwantiseer de kleuren in een PNM afbeelding naar een kleinere set.
 > Dit commando is een combinatie van `pnmcolormap` en `pnmremap` en accepteert de combinatie van hun opties, behalve `-mapfile`.
+> Zie ook: `pnmquantall`.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/pnmquant.html>.
 
 - Genereer een afbeelding door alleen gebruik te maken van `n_kleuren` of minder kleuren zo dichtbij mogelijk van de invoerafbeelding:

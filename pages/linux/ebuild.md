@@ -31,6 +31,6 @@
 
 `ebuild {{path/to/file.ebuild}} qmerge`
 
-- Fetch, unpack, compile, install and qmerge the specified ebuild file:
+- Fetch, unpack, compile, install, and qmerge the specified ebuild file:
 
 `ebuild {{path/to/file.ebuild}} merge`

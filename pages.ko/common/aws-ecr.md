@@ -1,7 +1,7 @@
 # aws ecr
 
 > 컨테이너 이미지 추가, 당겨오기 및 관리.
-> 더 많은 정보: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ecr/index.html>.
+> 더 많은 정보: <https://docs.aws.amazon.com/cli/latest/reference/ecr/>.
 
 - 기본 레지스트리로 Docker 인증 (사용자 이름은 AWS):
 

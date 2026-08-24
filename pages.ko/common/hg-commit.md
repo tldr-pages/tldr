@@ -13,16 +13,16 @@
 
 - 특정 메시지와 함께 커밋:
 
-`hg commit --message {{메시지}}`
+`hg commit {{[-m|--message]}} {{메시지}}`
 
 - 지정된 패턴과 일치하는 모든 파일을 커밋:
 
-`hg commit --include {{패턴}}`
+`hg commit {{[-I|--include]}} {{패턴}}`
 
 - 지정된 패턴과 일치하지 않는 모든 파일을 커밋:
 
-`hg commit --exclude {{패턴}}`
+`hg commit {{[-X|--exclude]}} {{패턴}}`
 
 - 대화형 모드를 사용하여 커밋:
 
-`hg commit --interactive`
+`hg commit {{[-i|--interactive]}}`

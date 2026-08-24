@@ -1,6 +1,6 @@
 # bg
 
-> Resume suspended jobs (e.g. using `<Ctrl z>`), and keeps them running in the background.
+> Resume suspended jobs (e.g. using `<Ctrl z>`), and keep them running in the background.
 > See also: `jobs`, `fg`, `disown`.
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#index-bg>.
 

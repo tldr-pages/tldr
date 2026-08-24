@@ -11,15 +11,15 @@
 
 - Inicia una nueva sesión con nombre:
 
-`tmux new -s {{nombre}}`
+`tmux {{[new|new-session]}} -s {{nombre}}`
 
 - Lista las sesiones existentes:
 
-`tmux ls`
+`tmux {{[ls|list-sessions]}}`
 
 - Adjunta a la última sesión utilizada:
 
-`tmux attach`
+`tmux {{[a|attach]}}`
 
 - Separa la sesión actual (dentro de una sesión tmux):
 

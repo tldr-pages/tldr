@@ -1,7 +1,7 @@
 # touch
 
 > ایجاد فایل‌ها و تنظیم زمان‌های دسترسی/تغییر.
-> اطلاعات بیشتر: <https://manned.org/touch>.
+> اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/manual/html_node/touch-invocation.html>.
 
 - ایجاد فایل‌های مشخص:
 

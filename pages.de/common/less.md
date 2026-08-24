@@ -1,7 +1,7 @@
 # less
 
 > Öffne eine Datei für interaktives lesen, erlaubt scrollen und suchen.
-> Weitere Informationen: <https://greenwoodsoftware.com/less/>.
+> Weitere Informationen: <https://manned.org/less>.
 
 - Öffne eine Datei:
 

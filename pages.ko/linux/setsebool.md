@@ -1,7 +1,7 @@
 # setsebool
 
 > SELinux 불리언 값을 설정합니다.
-> 같이 보기: `semanage-boolean`, `getsebool`.
+> 관련 항목: `semanage-boolean`, `getsebool`.
 > 더 많은 정보: <https://manned.org/setsebool>.
 
 - 모든 불리언의 현재 설정을 표시:

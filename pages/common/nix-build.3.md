@@ -1,8 +1,8 @@
 # nix build
 
 > Build a Nix expression (downloading from the cache when possible).
-> See also: `nix-build` for information about traditional Nix builds from expressions, `nix flake` for information about flakes.
-> More information: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-build.html>.
+> See also: `nix-build`, `nix flake`.
+> More information: <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-build.html>.
 
 - Build a package from nixpkgs, symlinking the result to `./result`:
 
@@ -10,7 +10,7 @@
 
 - Build a package from a flake in the current directory, showing the build logs in the process:
 
-`nix build -L {{.#pkg}}`
+`nix build {{[-L|--print-build-logs]}} {{.#pkg}}`
 
 - Build the default package from a flake in some directory:
 

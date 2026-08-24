@@ -27,7 +27,7 @@
 
 `cat <<- {{EOF}} > {{path/to/file.txt}} <Enter> {{multiline_data}} <Enter> {{EOF}}`
 
-- Pass command output to a program as a file descriptor:
+- Pass command output to a program as a file descriptor (Note: unlike the rest of these, this replaces the argument in-place with a file path like `/dev/fd/63`):
 
 `diff <({{command1}}) <({{command2}})`
 

@@ -1,0 +1,7 @@
+# systemctl condreload
+
+> Det här kommandot är ett alias för `systemctl try-reload-or-restart`.
+
+- Se dokumentationen för originalkommandot:
+
+`tldr systemctl try-reload-or-restart`

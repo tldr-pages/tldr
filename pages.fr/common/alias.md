@@ -2,6 +2,7 @@
 
 > Créé des alias -- mots qui sont remplacés par une commande textuelle.
 > Les alias expirent avec la session courante shell, sauf s'il a été défini dans le fichier de configuration shell, par exemple `~/.bashrc`.
+> Voir aussi : `unalias`.
 > Plus d'informations : <https://www.gnu.org/software/bash/manual/bash.html#index-alias>.
 
 - Liste tous les alias :
@@ -22,8 +23,8 @@
 
 - Transforme `rm` en une commande intéractive :
 
-`alias {{rm}}="{{rm -i}}"`
+`alias rm="rm -i"`
 
 - Crée `la` comme un raccourci de `ls -a` :
 
-`alias {{la}}="{{ls -a}}"`
+`alias la="ls -a"`

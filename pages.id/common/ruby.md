@@ -1,6 +1,7 @@
 # ruby
 
 > Interpreter bahasa pemrograman Ruby.
+> Lihat juga: `gem`, `bundler`, `rake`, `irb`, `ri`.
 > Informasi lebih lanjut: <https://manned.org/ruby>.
 
 - Jalankan suatu berkas skrip atau program Ruby:
@@ -9,7 +10,7 @@
 
 - Jalankan suatu perintah Ruby dalam command-line:
 
-`ruby -e {{perintah}}`
+`ruby -e "{{perintah}}"`
 
 - Periksa kesalahan sintaks dari suatu berkas skrip Ruby:
 

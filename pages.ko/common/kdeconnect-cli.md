@@ -1,11 +1,11 @@
 # kdeconnect-cli
 
 > 파일이나 텍스트를 장치에 공유하거나, 벨소리를 울리거나, 잠금을 해제하는 등 여러 작업을 수행하기 위해 KDE Connect를 사용하세요.
-> 더 많은 정보: <https://kdeconnect.kde.org>.
+> 더 많은 정보: <https://manned.org/kdeconnect-cli>.
 
 - 모든 장치 나열:
 
-`kdeconnect-cli --list-devices`
+`kdeconnect-cli {{[-l|--list-devices]}}`
 
 - 사용 가능한 장치(페어링되고 접근 가능한) 나열:
 
@@ -13,7 +13,7 @@
 
 - 특정 장치와 페어링 요청, 장치 ID 지정:
 
-`kdeconnect-cli --pair --device {{장치_ID}}`
+`kdeconnect-cli --pair --device {{장치_id}}`
 
 - 장치의 벨소리를 울리기, 장치 이름 지정:
 
@@ -21,7 +21,7 @@
 
 - URL 또는 파일을 페어링된 장치와 공유, 장치 ID 지정:
 
-`kdeconnect-cli --share {{url|경로/대상/파일}} --device {{장치_ID}}`
+`kdeconnect-cli --share {{url|경로/대상/파일}} --device {{장치_id}}`
 
 - 선택적 첨부 파일과 함께 특정 번호로 SMS 보내기:
 

@@ -9,7 +9,7 @@
 
 - Erstelle einen NixOS Container mit einer spezifischen Konfigurations-Datei:
 
-`sudo nixos-container create {{container_name}} --config-file {{nix_config_file_path}}`
+`sudo nixos-container create {{container_name}} --config-file {{path/to/nix_config_file}}`
 
 - Starte, stoppe, terminiere oder zerstöre den angegebenen Container:
 

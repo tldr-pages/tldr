@@ -5,7 +5,7 @@
 
 - Fetch data:
 
-`snmptable -v {{version}} -c {{community}} {{ip}} {{oid}}`
+`snmptable -v {{version}} -c {{community}} {{ip_address}} {{oid}}`
 
 - Display help:
 

@@ -18,7 +18,7 @@
 
 - Escala uma imagem para ter oum tamanho de arquivo específico:
 
-`magick convert {{caminho/para/imagem_de_entrada.png}} -define jpeg:extent=512kb {{caminho/para/imagem_de_saida.jpg}}`
+`magick convert {{caminho/para/imagem_de_entrada.png}} -define jpeg:extent={{512kb}} {{caminho/para/imagem_de_saida.jpg}}`
 
 - Junta imagens verticalmente/horizontalmente e deixa o espaço vazio transparente:
 

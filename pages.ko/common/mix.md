@@ -1,7 +1,7 @@
 # mix
 
 > Elixir 프로젝트를 생성, 컴파일 및 테스트하고, 의존성을 관리하는 작업을 제공하는 빌드 도구.
-> 더 많은 정보: <https://hexdocs.pm/mix>.
+> 더 많은 정보: <https://hexdocs.pm/mix/index.html>.
 
 - 특정 파일 실행:
 

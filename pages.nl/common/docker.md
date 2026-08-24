@@ -6,32 +6,32 @@
 
 - Toon alle Docker containers (actief en gestopte):
 
-`docker ps {{[-a|--all]}}`
+`docker {{[ps|container ls]}} {{[-a|--all]}}`
 
 - Start een container van een image, met een aangepaste naam:
 
-`docker run --name {{container_naam}} {{image}}`
+`docker {{[run|container run]}} --name {{container_naam}} {{image}}`
 
 - Start of stop een bestaande container:
 
-`docker {{start|stop}} {{container_naam}}`
+`docker container {{start|stop}} {{container_naam}}`
 
 - Download een image uit een Docker register:
 
-`docker pull {{image}}`
+`docker {{[pull|image pull]}} {{image}}`
 
 - Toon reeds gedownloade images:
 
-`docker images`
+`docker {{[images|image ls]}}`
 
 - Open een interactieve tty met Bourne shell (`sh`) binnen een draaiende container:
 
-`docker exec {{[-it|--interactive --tty]}} {{container_naam}} {{sh}}`
+`docker {{[exec|container exec]}} {{[-it|--interactive --tty]}} {{container_naam}} {{sh}}`
 
 - Verwijder een gestopte container:
 
-`docker rm {{container_naam}}`
+`docker {{[rm|container rm]}} {{container_naam}}`
 
 - Vang en volg de logs van een container:
 
-`docker logs {{[-f|--follow]}} {{container_naam}}`
+`docker {{[logs|container logs]}} {{[-f|--follow]}} {{container_naam}}`

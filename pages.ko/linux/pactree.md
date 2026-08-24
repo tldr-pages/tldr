@@ -1,7 +1,7 @@
 # pactree
 
 > pacman용 패키지 의존성 트리 뷰어.
-> 더 많은 정보: <https://manned.org/pactree.8>.
+> 더 많은 정보: <https://manned.org/pactree>.
 
 - 특정 패키지의 의존성 트리를 출력:
 

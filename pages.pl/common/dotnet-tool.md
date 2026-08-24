@@ -5,7 +5,7 @@
 
 - Zainstaluj narzędzie globalne (nie używaj flagi `--global`, by użyć polecenia dla narzędzi lokalnych):
 
-`dotnet tool install --global {{dotnetsay}}`
+`dotnet tool install {{[-g|--global]}} {{dotnetsay}}`
 
 - Zainstaluj narzędzia zdefiniowane w lokalnym manifeście narzędzi:
 
@@ -13,15 +13,15 @@
 
 - Zaktualizuj wyspecyfikowane narzędzie globalne (nie używaj flagi `--global`, by użyć polecenia dla narzędzi lokalnych):
 
-`dotnet tool update --global {{nazwa_narzędzia}}`
+`dotnet tool update {{[-g|--global]}} {{nazwa_narzędzia}}`
 
 - Odinstaluj narzędzie globalne (nie używaj flagi `--global`, by użyć polecenia dla narzędzi lokalnych):
 
-`dotnet tool uninstall --global {{nazwa_narzędzia}}`
+`dotnet tool uninstall {{[-g|--global]}} {{nazwa_narzędzia}}`
 
 - Wyświetl zainstalowane narzędzia globalne (nie używaj flagi `--global`, by użyć polecenia dla narzędzi lokalnych):
 
-`dotnet tool list --global`
+`dotnet tool list {{[-g|--global]}}`
 
 - Szukaj narzędzi w repozytorium NuGet:
 
@@ -29,4 +29,4 @@
 
 - Wyświetl pomoc:
 
-`dotnet tool --help`
+`dotnet tool {{[-h|--help]}}`

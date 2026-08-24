@@ -2,7 +2,7 @@
 
 > Export app/service/binary from container to host OS.
 > See also: `distrobox`.
-> More information: <https://distrobox.it/usage/distrobox-export>.
+> More information: <https://distrobox.it/usage/distrobox-export/>.
 
 - Export an app from the container to the host (the desktop entry/icon will show up in your host system's application list):
 

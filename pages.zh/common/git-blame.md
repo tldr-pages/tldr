@@ -1,7 +1,7 @@
 # git blame
 
 > 显示文件每一行的最后修改者和提交哈希值。
-> 更多信息：<https://git-scm.com/docs/git-blame>.
+> 更多信息：<https://git-scm.com/docs/git-blame>。
 
 - 显示文件的每一行，包含作者名字和提交哈希值：
 

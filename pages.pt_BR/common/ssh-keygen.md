@@ -1,6 +1,7 @@
 # ssh-keygen
 
 > Gera chaves SSH usadas para autenticação, logins sem senha e outras finalidades.
+> Veja também: `ssh-copy-id`.
 > Mais informações: <https://man.openbsd.org/ssh-keygen>.
 
 - Gera uma chave interativamente:

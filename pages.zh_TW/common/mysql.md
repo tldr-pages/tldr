@@ -1,7 +1,7 @@
 # mysql
 
 > MySQL 命令列工具。
-> 更多資訊：<https://manned.org/mysql>.
+> 更多資訊：<https://manned.org/mysql>。
 
 - 與資料庫連線：
 
@@ -25,8 +25,8 @@
 
 - 用 `mysqldump` 建立的備份還原資料庫（系統將提示使用者輸入密碼）：
 
-`mysql {{[-u|--user]}} {{使用者名稱}} {{[-p|--password]}} {{資料庫名稱}} < {{sql 備份檔路徑}}`
+`mysql < {{sql 備份檔路徑}} {{[-u|--user]}} {{使用者名稱}} {{[-p|--password]}} {{資料庫名稱}}`
 
 - 從備份中恢復所有資料庫（系統將提示使用者輸入密碼）：
 
-`mysql {{[-u|--user]}} {{使用者名稱}} {{[-p|--password]}} < {{sql 備份檔路徑}}`
+`mysql < {{sql 備份檔路徑}} {{[-u|--user]}} {{使用者名稱}} {{[-p|--password]}}`

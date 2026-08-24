@@ -1,7 +1,7 @@
 # turbostat
 
 > Informa de la topología del procesador, frecuencia, temperatura, potencia y estadísticas de inactividad.
-> Más información: <https://manned.org/turbostat.8>.
+> Más información: <https://manned.org/turbostat>.
 
 - Muestra las estadísticas cada cinco segundos:
 
@@ -9,7 +9,7 @@
 
 - Muestra las estadísticas cada cierto número de segundos:
 
-`sudo turbostat -i {{n_segundos}}`
+`sudo turbostat {{[-i|--interval]}} {{n_segundos}}`
 
 - Muestra información sin decodificar ni imprimir la cabecera de configuración del sistema:
 
@@ -17,8 +17,8 @@
 
 - Muestra información útil sobre el CPU cada segundo, sin información de cabecera:
 
-`sudo turbostat --quiet --interval 1 --cpu 0-{{cuenta_hilos_CPU}} --show "PkgWatt","Busy%","Core","CoreTmp","Thermal"`
+`sudo turbostat --quiet {{[-i|--interval]}} 1 --cpu 0-{{cuenta_hilos_cpu}} --show "PkgWatt","Busy%","Core","CoreTmp","Thermal"`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `turbostat --help`

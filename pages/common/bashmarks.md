@@ -2,7 +2,7 @@
 
 > Save and jump to commonly used directories using 1 character commands.
 > See also: `autojump`.
-> More information: <https://github.com/huyng/bashmarks>.
+> More information: <https://github.com/huyng/bashmarks#shell-commands>.
 
 - Add the bashmark aliases to your shell:
 

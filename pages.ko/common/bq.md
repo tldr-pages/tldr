@@ -1,7 +1,7 @@
 # bq
 
 > Google Cloud의 완전 관리형 서버리스 엔터프라이즈 데이터 웨어하우스인 BigQuery용 Python 기반 도구.
-> 더 많은 정보: <https://cloud.google.com/bigquery/docs/reference/bq-cli-reference>.
+> 더 많은 정보: <https://docs.cloud.google.com/bigquery/docs/reference/bq-cli-reference>.
 
 - 표준 SQL을 사용하여 BigQuery 테이블에 대해 쿼리를 실행하고, `--dry_run` 플래그를 추가해 쿼리에서 읽은 바이트 수를 추정:
 

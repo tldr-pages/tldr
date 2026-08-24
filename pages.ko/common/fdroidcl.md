@@ -1,7 +1,7 @@
 # fdroidcl
 
 > ADB를 통해 연결된 장치의 F-Droid 앱을 관리.
-> 더 많은 정보: <https://github.com/mvdan/fdroidcl>.
+> 더 많은 정보: <https://github.com/Hoverth/fdroidcl#commands>.
 
 - F-Droid 색인을 가져옴:
 

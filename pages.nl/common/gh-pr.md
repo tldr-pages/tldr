@@ -1,7 +1,7 @@
 # gh pr
 
 > Beheer GitHub pull requests.
-> Sommige subcommando's zoals `create` hebben hun eigen gebruiksdocumentatie.
+> Sommige subcommando's zoals `create` hebben hun eigen documentatie.
 > Meer informatie: <https://cli.github.com/manual/gh_pr>.
 
 - Maak een pull request aan:

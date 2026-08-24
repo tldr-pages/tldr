@@ -19,6 +19,6 @@
 
 `whence -ca "{{comando}}"`
 
-- Busca un comando en la variable de entorno `PATH`, ignorando los comandos integrados, aliases o funciones del shell (equivalente al comando `where`):
+- Busca un comando en la variable de entorno `$PATH`, ignorando los comandos integrados, aliases o funciones del shell (equivalente al comando `where`):
 
 `whence -p "{{comando}}"`

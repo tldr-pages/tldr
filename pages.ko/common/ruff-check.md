@@ -2,7 +2,7 @@
 
 > 매우 빠른 Python 린터입니다. `check`는 기본 명령어로, 어디서든 생략 가능합니다.
 > 파일이나 디렉토리를 지정하지 않으면 기본적으로 현재 작업 디렉토리가 사용됩니다.
-> 더 많은 정보: <https://docs.astral.sh/ruff/linter>.
+> 더 많은 정보: <https://docs.astral.sh/ruff/linter/>.
 
 - 지정된 파일이나 디렉토리에 대해 린터 실행:
 

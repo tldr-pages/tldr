@@ -1,7 +1,7 @@
 # truffle
 
 > Ethereum 블록체인에서 서비스를 실행하기 위한 스마트 계약 개발 도구.
-> 더 많은 정보: <https://www.trufflesuite.com/docs/truffle/reference/truffle-commands>.
+> 더 많은 정보: <https://archive.trufflesuite.com/docs/truffle/reference/truffle-commands/>.
 
 - 미리 만들어진 Truffle 프로젝트(Truffle Box) 다운로드:
 

@@ -1,7 +1,7 @@
 # a2ensite
 
 > Ativa um host virtual do Apache em sistemas operacionais baseados no Debian.
-> Mais informações: <https://manned.org/a2ensite.8>.
+> Mais informações: <https://manned.org/a2ensite>.
 
 - Ativa um host virtual:
 
@@ -9,4 +9,4 @@
 
 - Não mostra mensagens informativas:
 
-`sudo a2ensite --quiet {{host_virtual}}`
+`sudo a2ensite {{[-q|--quiet]}} {{host_virtual}}`

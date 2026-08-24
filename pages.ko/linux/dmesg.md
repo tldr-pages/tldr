@@ -1,6 +1,7 @@
 # dmesg
 
 > 커널 메시지를 `stdout`에 출력.
+> 관련 항목: `journalctl`.
 > 더 많은 정보: <https://manned.org/dmesg>.
 
 - 커널 메시지 표시:

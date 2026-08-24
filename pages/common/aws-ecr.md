@@ -1,7 +1,7 @@
 # aws ecr
 
 > Push, pull, and manage container images.
-> More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ecr/index.html>.
+> More information: <https://docs.aws.amazon.com/cli/latest/reference/ecr/>.
 
 - Authenticate Docker with the default registry (username is AWS):
 

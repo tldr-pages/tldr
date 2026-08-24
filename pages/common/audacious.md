@@ -2,7 +2,7 @@
 
 > An open-source audio player. Indirectly based on XMMS.
 > See also: `audtool`, `clementine`, `mpc`, `ncmpcpp`.
-> More information: <https://audacious-media-player.org>.
+> More information: <https://manned.org/audacious>.
 
 - Launch the GUI:
 
@@ -10,15 +10,15 @@
 
 - Start a new instance and play an audio:
 
-`audacious --new-instance {{path/to/audio}}`
+`audacious {{[-N|--new-instance]}} {{path/to/audio}}`
 
 - Enqueue a specific directory of audio files:
 
-`audacious --enqueue {{path/to/directory}}`
+`audacious {{[-e|--enqueue]}} {{path/to/directory}}`
 
 - Start or stop playback:
 
-`audacious --play-pause`
+`audacious {{[-t|--play-pause]}}`
 
 - Skip forwards ([fwd]) or backwards ([rew]) in the playlist:
 
@@ -26,12 +26,12 @@
 
 - Stop playback:
 
-`audacious --stop`
+`audacious {{[-s|--stop]}}`
 
 - Start in CLI mode (headless):
 
-`audacious --headless`
+`audacious {{[-H|--headless]}}`
 
 - Exit as soon as playback stops or there is nothing to playback:
 
-`audacious --quit-after-play`
+`audacious {{[-q|--quit-after-play]}}`

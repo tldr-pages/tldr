@@ -1,6 +1,7 @@
 # tput
 
 > View and modify terminal settings and capabilities.
+> See also: `stty`.
 > More information: <https://manned.org/tput>.
 
 - Move the cursor to a screen location:

@@ -10,7 +10,7 @@
 
 - 입력을 읽은 후 각 줄을 표시:
 
-`grub-script-check --verbose`
+`grub-script-check {{[-v|--verbose]}}`
 
 - 도움말 표시:
 

@@ -2,7 +2,7 @@
 
 > Gestor de archivos en consola con atajos de teclado de VI.
 > Vea también: `clifm`, `vifm`, `mc`, `dolphin`.
-> Más información: <https://github.com/ranger/ranger>.
+> Más información: <https://github.com/ranger/ranger/blob/master/doc/ranger.pod>.
 
 - Abre Ranger:
 
@@ -14,11 +14,11 @@
 
 - Cambia el directorio de configuración:
 
-`ranger --confdir={{ruta/al/directorio}}`
+`ranger {{[-r|--confdir]}} {{ruta/al/directorio}}`
 
 - Cambia el directorio de datos:
 
-`ranger --datadir={{ruta/al/directorio}}`
+`ranger --datadir {{ruta/al/directorio}}`
 
 - Imprime estadísticas de uso de la CPU al salir:
 

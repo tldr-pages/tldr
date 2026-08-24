@@ -1,7 +1,7 @@
 # pprof
 
 > 프로파일 데이터의 시각화 및 분석을 위한 명령줄 도구.
-> 더 많은 정보: <https://github.com/google/pprof>.
+> 더 많은 정보: <https://github.com/google/pprof/tree/main/doc#pprof>.
 
 - 특정 프로파일링 파일에서 텍스트 보고서 생성, fibbo 바이너리에 대해:
 

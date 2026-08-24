@@ -2,7 +2,7 @@
 
 > Manage clipboard history for Wayland compositors.
 > Works with `wl-copy` and `wl-paste`.
-> More information: <https://github.com/sentriz/cliphist>.
+> More information: <https://github.com/sentriz/cliphist#usage>.
 
 - List clipboard history entries:
 

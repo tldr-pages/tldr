@@ -5,12 +5,12 @@
 
 - 계정 정보 표시:
 
-`doctl account get`
+`doctl account {{[g|get]}}`
 
 - 시간별 API 한도, 진행 상황, 비율 한도 재설정 시점을 표시:
 
-`doctl account ratelimit`
+`doctl account {{[rl|ratelimit]}}`
 
 - 도움말 표시:
 
-`doctl account --help`
+`doctl account {{[-h|--help]}}`

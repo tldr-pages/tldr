@@ -1,7 +1,7 @@
 # berks
 
 > Chef 자세한 설명서 의존 관리자.
-> 더 많은 정보: <https://docs.chef.io/berkshelf.html>.
+> 더 많은 정보: <https://docs.chef.io/workstation/berkshelf/>.
 
 - 로컬 저장소에 자세한 설명서 종속성 설치:
 

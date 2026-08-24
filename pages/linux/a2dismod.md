@@ -1,7 +1,7 @@
 # a2dismod
 
 > Disable an Apache module on Debian-based OSes.
-> More information: <https://manned.org/a2dismod.8>.
+> More information: <https://manned.org/a2dismod>.
 
 - Disable a module:
 

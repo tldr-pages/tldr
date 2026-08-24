@@ -9,19 +9,19 @@
 
 - Yalnızca yerel ağda başlat:
 
-`git instaweb --start --local`
+`git instaweb --start {{[-l|--local]}}`
 
 - Belirtilmiş bir port'da başlat:
 
-`git instaweb --start --port {{1234}}`
+`git instaweb --start {{[-p|--port]}} {{1234}}`
 
 - Belirtilmiş bir HTTP daemon'u kullan:
 
-`git instaweb --start --httpd {{lighttpd|apache2|mongoose|plackup|webrick}}`
+`git instaweb --start {{[-d|--httpd]}} {{lighttpd|apache2|mongoose|plackup|webrick}}`
 
 - Ayrıca bir ağ tarayıcısını otomatik olarak başlat:
 
-`git instaweb --start --browser`
+`git instaweb --start {{[-b|--browser]}}`
 
 - Çalışan mevcut gitweb sunucusunu durdur:
 

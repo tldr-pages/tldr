@@ -9,7 +9,7 @@
 
 - List all files kept open by a specific program:
 
-`lsfd {{[-Q|--filter]}} 'PID == {{process_ID}}'`
+`lsfd {{[-Q|--filter]}} 'PID == {{process_id}}'`
 
 - Check what program has a specific file open:
 

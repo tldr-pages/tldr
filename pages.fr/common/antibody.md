@@ -1,11 +1,11 @@
 # antibody
 
 > Le gestionnaire de modules shell "le plus rapide".
-> Plus d'informations : <https://getantibody.github.io>.
+> Plus d'informations : <https://getantibody.github.io/#Usage>.
 
 - Regroupe tous les modules pour un chargement statique :
 
-`antibody bundle < {{~/.zsh_modules.txt}} > {{~/.zsh_modules.sh}}`
+`antibody < {{~/.zsh_modules.txt}} bundle > {{~/.zsh_modules.sh}}`
 
 - Mets à jour tous les modules :
 

@@ -18,3 +18,7 @@
 - Display all the properties of the window with the ID 0x200007:
 
 `xprop -id {{0x200007}}`
+
+- Monitor a window for changes:
+
+`xprop -spy`

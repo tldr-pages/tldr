@@ -1,7 +1,7 @@
 # git switch
 
 > Wechsle zwischen Branches. Verfügbar ab Git Version 2.23+.
-> Siehe auch `git checkout`.
+> Siehe auch: `git checkout`.
 > Weitere Informationen: <https://git-scm.com/docs/git-switch>.
 
 - Wechsle zu einem existierenden Branch:

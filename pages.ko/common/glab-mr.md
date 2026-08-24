@@ -2,7 +2,7 @@
 
 > GitLab 병합 요청을 관리.
 > `create`와 같은 일부 하위 명령어에는 자체 사용법 문서가 있음.
-> 더 많은 정보: <https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/mr/index.md>.
+> 더 많은 정보: <https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/mr/_index.md>.
 
 - 병합 요청을 생성:
 
@@ -10,7 +10,7 @@
 
 - 특정 병합 요청을 로컬에서 확인:
 
-`glab mr checkout {{mr_번호}}`
+`glab {{[co|mr checkout]}} {{mr_번호}}`
 
 - 병합 요청의 변경 사항을 확인:
 

@@ -1,7 +1,7 @@
 # noti
 
 > Monitorea un proceso y activa una notificación gráfica de voz o servicio.
-> Más información: <https://github.com/variadico/noti>.
+> Más información: <https://github.com/variadico/noti/blob/main/docs/noti.md>.
 
 - Muestra una notificación cuando `tar` termina de comprimir archivos:
 
@@ -13,4 +13,4 @@
 
 - Monitorea un proceso por PID y activa una notificación cuando el PID desaparece:
 
-`noti -w {{identificador_del_proceso}}`
+`noti {{[-w|--pwatch]}} {{identificador_del_proceso}}`

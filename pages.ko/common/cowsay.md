@@ -1,24 +1,28 @@
 # cowsay
 
-> 무언가를 말하거나 생각하는 ASCII 문자(기본적으로 cow)를 생성.
+> ASCII 아트 (기본값은 소)를 사용해 말하거나 생각하는 메시지를 출력.
 > 더 많은 정보: <https://manned.org/cowsay>.
 
-- "Hello world"라고 말하는 ASCII cow 출력:
+- ASCII 소가 "hello, world"라고 말하도록 출력:
 
-`cowsay "Hello world"`
+`cowsay "{{hello, world}}"`
 
-- 풍선에 표준 입력의 텍스트 사용:
+- `stdin`으로부터 입력받은 텍스트를 ASCII 소가 말하도록 출력:
 
-`echo "Hello" | cowsay`
+`echo "{{hello, world}}" | cowsay`
 
-- 사용 가능한 모든 문자 나열:
+- 사용 가능한 모든 아트 유형을 표시:
 
 `cowsay -l`
 
-- "Hello"라고 말하는 ASCII dragon 출력:
+- 지정한 ASCII 아트가 "hello, world"라고 말하도록 출력:
 
-`cowsay -f dragon "Hello"`
+`cowsay -f {{아트}} "{{hello, world}}"`
 
-- 돌로 된 생각하는 ASCII cow 출력:
+- 생각하는(dead) 상태의 ASCII 소를 출력:
 
-`cowthink -s "I'm just a cow, not a great thinker..."`
+`cowthink -d "{{I'm just a cow, not a great thinker...}}"`
+
+- 사용자 정의 눈 모양을 가진 ASCII 소가 "hello, world"라고 말하도록 출력:
+
+`cowsay -e {{문자열}} "{{hello, world}}"`

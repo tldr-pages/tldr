@@ -10,12 +10,12 @@
 
 - Monitora uma instância remota:
 
-`pw-top --remote {{nome_do_remoto}}`
+`pw-top {{[-r|--remote]}} {{nome_do_remoto}}`
 
 - Imprime as informações várias vezes em vez de executar em modo interativo:
 
-`pw-top --batch-mode`
+`pw-top {{[-b|--batch-mode]}}`
 
 - Imprime informações um número específico de vezes:
 
-`pw-top --batch-mode --iterations {{3}}`
+`pw-top {{[-b|--batch-mode]}} {{[-n|--iterations]}} {{3}}`

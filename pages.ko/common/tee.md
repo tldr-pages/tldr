@@ -17,4 +17,4 @@
 
 - "example"이라는 디렉터리 만들기, "example"의 문자 수 세기, "example"을 터미널에 쓰기:
 
-`echo "example" | tee >(xargs mkdir) >(wc -c)`
+`echo "example" | tee >(xargs mkdir) >(wc {{[-c|--bytes]}})`

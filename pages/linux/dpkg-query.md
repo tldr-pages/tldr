@@ -1,7 +1,7 @@
 # dpkg-query
 
 > Display information about installed packages.
-> More information: <https://manned.org/dpkg-query.1>.
+> More information: <https://manned.org/dpkg-query>.
 
 - List all installed packages:
 

@@ -1,7 +1,7 @@
 # lighthouse
 
 > 웹 애플리케이션과 웹 페이지를 분석하여 최신 성능 메트릭과 개발자 모범 사례에 대한 통찰을 수집합니다.
-> 더 많은 정보: <https://github.com/GoogleChrome/lighthouse>.
+> 더 많은 정보: <https://github.com/GoogleChrome/lighthouse#cli-options>.
 
 - 특정 웹사이트에 대한 HTML 보고서를 생성하고 현재 디렉토리에 파일로 저장:
 

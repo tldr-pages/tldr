@@ -2,7 +2,7 @@
 
 > 컨테이너 이미지 관리 도구 모음.
 > 원격 컨테이너 이미지를 관리하기 위한 다양한 유틸리티 명령을 제공합니다.
-> 더 많은 정보: <https://github.com/containers/skopeo>.
+> 더 많은 정보: <https://github.com/containers/skopeo/blob/main/docs/skopeo.1.md>.
 
 - 레지스트리에서 원격 이미지 검사:
 

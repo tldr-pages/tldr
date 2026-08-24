@@ -14,4 +14,4 @@
 
 - Inicia sesión en un registro inseguro (HTTP):
 
-`podman login --tls-verify=false {{registry.example.org}}`
+`podman login --tls-verify false {{registry.example.org}}`

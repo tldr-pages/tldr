@@ -2,6 +2,6 @@
 
 > Bu komut `fossil commit` için bir takma addır.
 
-- Asıl komutun belgelerini görüntüleyin:
+- Asıl komutun dokümantasyonunu görüntüleyin:
 
 `tldr fossil commit`

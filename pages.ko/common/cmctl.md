@@ -2,7 +2,7 @@
 
 > 클러스터 내부의 cert-manager 리소스를 관리.
 > 인증서 서명 상태를 확인하고, 요청을 승인/거부하고, 새 인증서 요청을 발급.
-> 더 많은 정보: <https://cert-manager.io/docs/usage/cmctl/>.
+> 더 많은 정보: <https://cert-manager.io/docs/reference/cmctl/>.
 
 - cert-manager API가 준비되었는지 확인:
 

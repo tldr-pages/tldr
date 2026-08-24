@@ -2,7 +2,7 @@
 
 > Eina de gestió de claus per al Gestor de Paquets APT (APT Package Manager) en Debian i Ubuntu.
 > Nota: `apt-key` és obsolet (excepte l'ús de `apt-key del` en scrits de mantenidor).
-> Més informació: <https://manned.org/apt-key.8>.
+> Més informació: <https://manned.org/apt-key>.
 
 - Mostra les claus de confiança:
 
@@ -18,7 +18,7 @@
 
 - Afegir una clau remota al magatzem de claus de confiança:
 
-`wget -qO - {{https://host.tld/archiu.clau}} | apt-key add -`
+`wget {{[-qO|--quiet --output-document]}} - {{https://host.tld/archiu.clau}} | apt-key add -`
 
 - Afegir una clau d'un servidor de claus amb l'identificador de la clau:
 

@@ -1,9 +1,9 @@
 # buzzphrase
 
 > Output a random buzzphrase. Written in Node.js.
-> More information: <https://github.com/atomantic/buzzphrase>.
+> More information: <https://github.com/atomantic/buzzphrase#usage>.
 
-- Generate a string of three random phrases containing an adjective, a past tense verb and a plural noun:
+- Generate a string of three random phrases containing an adjective, a past tense verb, and a plural noun:
 
 `buzzphrase`
 

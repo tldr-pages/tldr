@@ -1,6 +1,6 @@
 # zstdmt
 
-> To polecenie jest aliasem `zstd --threads 0` (które ustawia liczbę wątków pracy na liczbę fizycznych rdzeni procesora).
+> To polecenie jest aliasem `zstd --threads 0`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

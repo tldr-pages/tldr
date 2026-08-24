@@ -1,8 +1,8 @@
 # ncc
 
 > Compile a Node.js application into a single file.
-> Supports TypeScript, binary addons and dynamic requires.
-> More information: <https://github.com/vercel/ncc>.
+> Supports TypeScript, binary addons, and dynamic requires.
+> More information: <https://github.com/vercel/ncc#usage>.
 
 - Bundle a Node.js application:
 

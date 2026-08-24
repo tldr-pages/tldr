@@ -2,7 +2,7 @@
 
 > Affiche les informations des modules installés dans les librairies Ansible.
 > Affiche une liste concise des plugins et leurs description courte.
-> Plus d'informations : <https://docs.ansible.com/ansible/latest/cli/ansible-doc.html>.
+> Plus d'informations : <https://docs.ansible.com/projects/ansible/latest/cli/ansible-doc.html>.
 
 - Liste les plugins action (modules) disponibles :
 

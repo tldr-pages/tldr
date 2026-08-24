@@ -5,7 +5,7 @@
 
 - Tampilkan dokumentasi untuk perintah `curl` yang asli:
 
-`tldr curl -p common`
+`tldr curl {{[-p|--platform]}} common`
 
 - Tampilkan dokumentasi untuk perintah `Invoke-WebRequest`:
 

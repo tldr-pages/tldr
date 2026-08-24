@@ -2,6 +2,7 @@
 
 > Sprawdza typy plików i porównuje wartości.
 > Zwraca 0 gdy porównanie zwróciło wartość poprawną, 1 gdy fałszywą.
+> Zobacz także: `[`.
 > Więcej informacji: <https://www.gnu.org/software/coreutils/manual/html_node/test-invocation.html>.
 
 - Sprawdź czy podana zmienna jest równa łańcuchowi znaków:

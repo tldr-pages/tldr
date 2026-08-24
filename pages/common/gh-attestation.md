@@ -5,7 +5,7 @@
 
 - Download attestations for a local file associated with a specific repository:
 
-`gh {{[at|attestation]}} download {{path/to/artifact.bin}} {{[-R|--repo]}} {{owner}}/{{repo}}`
+`gh {{[at|attestation]}} download {{path/to/artifact.bin}} {{[-R|--repo]}} {{owner}}/{{repository}}`
 
 - Download attestations for an OCI container image associated with an organization:
 
@@ -13,11 +13,11 @@
 
 - Verify a local artifact online against attestations from a specific repository:
 
-`gh {{[at|attestation]}} verify {{path/to/artifact.bin}} {{[-R|--repo]}} {{owner}}/{{repo}}`
+`gh {{[at|attestation]}} verify {{path/to/artifact.bin}} {{[-R|--repo]}} {{owner}}/{{repository}}`
 
 - Verify an artifact, requiring it was signed by a specific reusable workflow for enhanced security:
 
-`gh {{[at|attestation]}} verify {{path/to/artifact.bin}} {{[-o|--owner]}} {{organization_name}} --signer-workflow {{owner}}/{{repo}}/{{path/to/workflow.yml}}`
+`gh {{[at|attestation]}} verify {{path/to/artifact.bin}} {{[-o|--owner]}} {{organization_name}} --signer-workflow {{owner}}/{{repository}}/{{path/to/workflow.yml}}`
 
 - Verify an artifact and output the detailed verification results as JSON for use in policy engines:
 

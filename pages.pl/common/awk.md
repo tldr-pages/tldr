@@ -1,6 +1,7 @@
 # awk
 
 > Wszechstronny język programowania do pracy na plikach.
+> Zobacz także: `gawk`.
 > Więcej informacji: <https://github.com/onetrueawk/awk>.
 
 - Wypisz piątą kolumnę (tzw. pole) w pliku oddzielonym spacjami:

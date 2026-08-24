@@ -1,9 +1,9 @@
 # steam
 
 > Valve 的电子游戏平台。
-> 更多信息：<https://developer.valvesoftware.com/wiki/Command_Line_Options>.
+> 更多信息：<https://developer.valvesoftware.com/wiki/Command_Line_Options>。
 
-- 启动 Steam 同时将调试信息输出到 `stdout`:
+- 启动 Steam 同时将调试信息输出到 `stdout`：
 
 `steam`
 
@@ -15,14 +15,14 @@
 
 `steam steam://open/console`
 
-- 使用指定认证信息登录 Steam:
+- 使用指定认证信息登录 Steam：
 
 `steam -login {{username}} {{password}}`
 
-- 以大屏幕模式启动 Steam:
+- 以大屏幕模式启动 Steam：
 
 `steam -tenfoot`
 
-- 退出 Steam:
+- 退出 Steam：
 
 `steam -shutdown`

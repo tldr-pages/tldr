@@ -2,7 +2,7 @@
 
 > Ubah format pengakhiran baris teks pada suatu berkas teks (plaintext) dari format Unix menuju macOS.
 > Program ini menggantikan simbol LF menjadi CR.
-> Lihat juga: `unix2dos`, `dos2unix`, dan `mac2unix`.
+> Lihat juga: `unix2dos`, `dos2unix`, `mac2unix`.
 > Informasi lebih lanjut: <https://manned.org/unix2mac>.
 
 - Ganti format pengakhiran baris teks dan simpan perubahan pada berkas yang sama:

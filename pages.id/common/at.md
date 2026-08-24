@@ -4,10 +4,6 @@
 > Hasil penugasan perintah akan dikirimkan menuju surel pengguna.
 > Informasi lebih lanjut: <https://manned.org/at>.
 
-- Jalankan piranti daemon `atd`:
-
-`systemctl start atd`
-
 - Buat perintah secara interaktif untuk dijalankan dalam 5 menit ke depan (gunakan `<Ctrl d>` jika selesai menulis):
 
 `at now + 5 minutes`
@@ -23,3 +19,11 @@
 - Jalankan perintah yang diatur dalam suatu berkas pada hari Selasa berikutnya:
 
 `at -f {{jalan/menuju/berkas}} 9:30 PM Tue`
+
+- Tampilkan seluruh pekerjaan terjadwal untuk pengguna saat ini (sama dengan perintah `atq`):
+
+`at -l`
+
+- Lihat rincian suatu pekerjaan:
+
+`at -c {{nomor_pekerjaan}}`

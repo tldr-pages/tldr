@@ -1,7 +1,7 @@
 # elasticsearch-users
 
 > Manage native realm users in Elasticsearch, including creating, updating, and deleting users.
-> More information: <https://www.elastic.co/guide/en/elasticsearch/reference/current/users-command.html>.
+> More information: <https://www.elastic.co/docs/reference/elasticsearch/command-line-tools/users-command>.
 
 - Add a new user interactively (prompts for password):
 

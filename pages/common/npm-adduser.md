@@ -1,7 +1,7 @@
 # npm adduser
 
 > Add a registry user account.
-> More information: <https://docs.npmjs.com/cli/npm-adduser>.
+> More information: <https://docs.npmjs.com/cli/npm-adduser/>.
 
 - Create a new user in the specified registry and save credentials to `.npmrc`:
 

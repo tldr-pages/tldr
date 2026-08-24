@@ -1,7 +1,7 @@
 # npm repo
 
 > Open the repository page of a package in the browser.
-> More information: <https://docs.npmjs.com/cli/npm-repo>.
+> More information: <https://docs.npmjs.com/cli/npm-repo/>.
 
 - Open the repository page of the current project (based on `package.json`):
 

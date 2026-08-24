@@ -1,6 +1,6 @@
 # gcat
 
-> Perintah ini merupakan alias dari `-p linux cat`.
+> Perintah ini merupakan alias dari GNU `cat`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 

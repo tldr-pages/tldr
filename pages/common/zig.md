@@ -19,7 +19,7 @@
 
 `zig test {{path/to/file.zig}}`
 
-- Cross compile, build and run a project for `x86_64` architecture and `windows` operating system:
+- Cross compile, build, and run a project for `x86_64` architecture and `windows` operating system:
 
 `zig build run -fwine -Dtarget=x86_64-windows`
 

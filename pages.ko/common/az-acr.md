@@ -6,11 +6,11 @@
 
 - 관리형 컨테이너 레지스트리를 생성:
 
-`az acr create --name {{레지스트리_이름}} --resource-group {{리소스_그룹}} --sku {{sku}}`
+`az acr create {{[-n|--name]}} {{레지스트리_이름}} {{[-g|--resource-group]}} {{리소스_그룹}} --sku {{sku}}`
 
 - 레지스트리에 로그인:
 
-`az acr login --name {{레지스트리_이름}}`
+`az acr login {{[-n|--name]}} {{레지스트리_이름}}`
 
 - ACR용 로컬 이미지에 태그를 지정:
 
@@ -26,12 +26,12 @@
 
 - 레지스트리에서 이미지 삭제:
 
-`az acr repository delete --name {{레지스트리_이름}} --repository {{이미지_이름}}:{{태그}}`
+`az acr repository delete {{[-n|--name]}} {{레지스트리_이름}} --repository {{이미지_이름}}:{{태그}}`
 
 - 관리형 컨테이너 레지스트리를 삭제:
 
-`az acr delete --name {{레지스트리_이름}} --resource-group {{리소스_그룹}} --yes`
+`az acr delete {{[-n|--name]}} {{레지스트리_이름}} {{[-g|--resource-group]}} {{리소스_그룹}} {{[-y|--yes]}}`
 
 - 레지스트리 내의 이미지 목록 나열:
 
-`az acr repository list --name {{레지스트리_이름}} --output table`
+`az acr repository list {{[-n|--name]}} {{레지스트리_이름}} --output table`

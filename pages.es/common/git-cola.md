@@ -1,7 +1,7 @@
 # git cola
 
 > Una poderosa interfaz gráfica de Usuario (GUI) Git con experiencia de usuario ágil e intuitiva.
-> Más información: <https://git-cola.readthedocs.io>.
+> Más información: <https://git-cola.readthedocs.io/en/latest/git-cola.html>.
 
 - Inicia la GUI:
 
@@ -17,8 +17,8 @@
 
 - Abre el repositorio Git en la ruta mencionada:
 
-`git cola --repo {{ruta/al/repositorio-git}}`
+`git cola {{[-r|--repo]}} {{ruta/al/repositorio-git}}`
 
 - Aplica el filtro de ruta al componente gráfico de estado:
 
-`git cola --status-filter {{filtro}}`
+`git cola {{[-s|--status-filter]}} {{filtro}}`

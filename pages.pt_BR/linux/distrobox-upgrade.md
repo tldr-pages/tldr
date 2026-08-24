@@ -1,8 +1,9 @@
 # distrobox-upgrade
 
 > Atualizar um ou vários contêineres distrobox.
-> Subcomando de `distrobox`. Veja também: `tldr distrobox`.
-> Mais informações: <https://distrobox.it/usage/distrobox-upgrade>.
+> Subcomando de `distrobox`.
+> Veja também: `distrobox`.
+> Mais informações: <https://distrobox.it/usage/distrobox-upgrade/>.
 
 - Atualiza um contêiner usando o gerenciador de pacotes nativo do contêiner:
 
@@ -10,7 +11,7 @@
 
 - Atualiza todos os contêineres usando os gerenciadores de pacotes nativos dos contêineres:
 
-`distrobox-upgrade --all`
+`distrobox-upgrade {{[-a|--all]}}`
 
 - Atualiza contêineres específicos via o gerenciador de pacotes nativo do contêiner:
 

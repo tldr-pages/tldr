@@ -1,6 +1,7 @@
 # chcon
 
 > Verander SELinux beveiligingscontext van een bestand of bestanden/mappen.
+> Zie ook: `secon`, `restorecon`, `semanage-fcontext`.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/chcon-invocation.html>.
 
 - Toon beveiligingscontext van een bestand:

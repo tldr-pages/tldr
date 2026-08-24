@@ -2,8 +2,8 @@
 
 > Automatically grow and add partitions.
 > Grows and adds partitions based on the configuration files described in repart.d.
-> Does not automatically resize file system on partition. See systemd-growfs to extend file system.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemd-repart.html>.
+> Does not automatically resize filesystem on partition. See systemd-growfs to extend filesystem.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemd-repart.html>.
 
 - Grow the root partition (/) to all available disk space:
 

@@ -1,7 +1,7 @@
 # git diff
 
 > 显示已跟踪文件的内容变更。
-> 更多信息：<https://git-scm.com/docs/git-diff>.
+> 更多信息：<https://git-scm.com/docs/git-diff>。
 
 - 显示未暂存的更改：
 

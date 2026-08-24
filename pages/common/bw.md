@@ -1,7 +1,7 @@
 # bw
 
 > Access and manage a Bitwarden vault.
-> More information: <https://help.bitwarden.com/article/cli/>.
+> More information: <https://bitwarden.com/help/cli/>.
 
 - Log in to a Bitwarden user account:
 

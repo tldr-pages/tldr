@@ -2,7 +2,7 @@
 
 > Gestion d'un projet Rust et ses dependences (crates).
 > Certaines sous-commandes comme `build` ont leurs propres documentations.
-> Plus d'informations : <https://doc.rust-lang.org/cargo>.
+> Plus d'informations : <https://doc.rust-lang.org/stable/cargo/>.
 
 - Rechercher des crates :
 
@@ -30,4 +30,4 @@
 
 - Compiler en utilisant un nombre spécifique de threads (par défaut on prend le nombre de coeurs du CPU) :
 
-`cargo {{[b|build]}} --jobs {{nombre_de_threads}}`
+`cargo {{[b|build]}} {{[-j|--jobs]}} {{nombre_de_threads}}`

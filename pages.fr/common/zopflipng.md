@@ -9,4 +9,4 @@
 
 - Optimise plusieurs images PNG et sauvegarde avec préfixe donné :
 
-`zopflipng --prefix={{prefix}} {{image1.png}} {{image2.png}} {{image3.png}}`
+`zopflipng --prefix={{prefix}} {{image1.png image2.png image3.png ...}}`

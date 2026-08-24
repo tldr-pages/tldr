@@ -5,4 +5,4 @@
 
 - Vraag een pakket op voor zijn afhankelijkheden:
 
-`dnf {{[rq|repoquery]}} --deplist {{package}}`
+`dnf {{[rq|repoquery]}} --deplist {{pakket}}`

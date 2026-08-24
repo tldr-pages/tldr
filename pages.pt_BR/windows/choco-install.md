@@ -1,7 +1,7 @@
 # choco install
 
 > Instalar um pacote ou mais com Chocolatey.
-> Mais informações: <https://chocolatey.org/docs/commands-install>.
+> Mais informações: <https://docs.chocolatey.org/en-us/choco/commands/install/>.
 
 - Instala um ou mais pacotes separado por espaço:
 
@@ -11,7 +11,7 @@
 
 `choco install {{caminho/para/pacotes.config}}`
 
-- Instala um arquivo específico `nuspec` ou `nupkg`:
+- Instala um arquivo específico `.nuspec` ou `.nupkg`:
 
 `choco install {{caminho/para/arquivo}}`
 
@@ -25,12 +25,12 @@
 
 - Confirma todos prompts automaticamente:
 
-`choco install {{pacote}} --yes`
+`choco install {{pacote}} {{[-y|--yes]}}`
 
 - Especifica uma fonte personalizada para receber pacotes:
 
-`choco install {{pacote}} --source {{url_do_pacote|apelido}}`
+`choco install {{pacote}} {{[-s|--source]}} {{url_do_pacote|apelido}}`
 
 - Fornece um nome e uma senha para autenticação:
 
-`choco install {{pacote}} --user {{usuario}} --password {{senha}}`
+`choco install {{pacote}} {{[-u|--user]}} {{usuario}} {{[-p|--password]}} {{senha}}`

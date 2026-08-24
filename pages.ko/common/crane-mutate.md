@@ -16,7 +16,7 @@
 
 `crane mutate {{[-o|--output]}} {{경로/대상/tarball}}`
 
-- 변형된 이미지를 푸시하기 위한 os/arch{{/variant}}{{:osversion}}{{,<platform>}} 형식의 저장소:
+- 변형된 이미지를 푸시하기 위한 `os/arch/variant:osversion,platform` 형식의 저장소:
 
 `crane mutate --set-platform {{플랫폼_이름}}`
 

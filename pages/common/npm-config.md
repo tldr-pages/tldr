@@ -1,7 +1,7 @@
 # npm config
 
 > Manage the `npm` configuration settings.
-> More information: <https://docs.npmjs.com/cli/npm-config>.
+> More information: <https://docs.npmjs.com/cli/npm-config/>.
 
 - Show all configuration settings:
 
@@ -23,7 +23,7 @@
 
 `npm {{[c|config]}} delete {{key}}`
 
-- Edit the global npm configuration file in the default editor:
+- Edit the npm configuration file in the default editor (use the `--global` flag to edit the global config):
 
 `npm {{[c|config]}} edit`
 

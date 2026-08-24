@@ -1,7 +1,8 @@
 # compgen
 
 > 用于在 bash 中自动完成的内置命令，按两次 `<Tab>` 键即可调用该命令。
-> 更多信息：<https://www.gnu.org/software/bash/manual/bash.html#index-compgen>.
+> 另请参阅：`complete`, `compopt`。
+> 更多信息：<https://www.gnu.org/software/bash/manual/bash.html#index-compgen>。
 
 - 显示所有可以执行的命令：
 
@@ -31,6 +32,6 @@
 
 `compgen -u`
 
-- 显示帮助信息：
+- 显示帮助：
 
 `compgen --help`

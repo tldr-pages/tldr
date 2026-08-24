@@ -1,6 +1,6 @@
 # sc_wartsfilter
 
-> `warts` 파일에서 특정 레코드를 선택.
+> `.warts` 파일에서 특정 레코드를 선택.
 > 더 많은 정보: <https://www.caida.org/catalog/software/scamper/>.
 
 - 특정 목적지를 가진 모든 데이터 레코드를 필터링하여 별도의 파일로 저장:

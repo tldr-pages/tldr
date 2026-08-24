@@ -1,7 +1,7 @@
 # qdbus
 
 > Inter-Process Communication (IPC) 및 Remote Procedure Calling (RPC) 메커니즘으로, 원래 Linux를 위해 개발되었습니다.
-> 더 많은 정보: <https://doc.qt.io/qt-5/qtdbus-index.html>.
+> 더 많은 정보: <https://doc.qt.io/qt-6/qtdbus-index.html>.
 
 - 사용 가능한 서비스 이름 나열:
 

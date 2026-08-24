@@ -1,6 +1,6 @@
 # devenv
 
-> Fast, Declarative, Reproducible and Composable Developer Environments using Nix.
+> Fast, declarative, reproducible, and composable developer environments using Nix.
 > More information: <https://devenv.sh/getting-started/#commands>.
 
 - Initialize the environment:

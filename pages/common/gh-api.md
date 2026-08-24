@@ -13,7 +13,7 @@
 
 - Display the result of a GraphQL query in JSON format:
 
-`gh api graphql {{[-f|--field]}} {{name=':repo'}} {{[-f|--raw-field]}} '{{query}}'`
+`gh api graphql {{[-F|--field]}} {{name=':repo'}} {{[-f|--raw-field]}} '{{query}}'`
 
 - Send a request using a custom HTTP method:
 

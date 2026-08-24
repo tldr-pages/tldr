@@ -1,7 +1,7 @@
 # claude
 
 > An agent-based coding tool that understands your code base and helps you code faster through natural language commands.
-> More information: <https://code.claude.com/docs/en/overview>.
+> More information: <https://code.claude.com/docs/en/cli-reference>.
 
 - Execute with prompt:
 

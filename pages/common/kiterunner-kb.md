@@ -2,7 +2,7 @@
 
 > A contextual web scanner for manipulating kitebuilder schemas used in API and web endpoint discovery.
 > The `kb` subcommand handles schema compilation, conversion, parsing, and request replay.
-> More information: <https://github.com/assetnote/kiterunner>.
+> More information: <https://github.com/assetnote/kiterunner#usage>.
 
 - Compile a kitebuilder schema from JSON to a kite file:
 

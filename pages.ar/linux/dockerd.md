@@ -9,16 +9,16 @@
 
 - قم بتشغيل دوكر في الخلفية واجعله يستمع علي منفذ معين (يونكس وبروتوكول ضبط الإرسال):
 
-`dockerd --host unix://{{path/to/tmp.sock}} --host tcp://{{ip}}`
+`dockerd {{[-H|--host]}} unix://{{path/to/tmp.sock}} {{[-H|--host]}} tcp://{{ip}}`
 
 - قم بتشغيل دوكر في الخلفية برقم عملية معين:
 
-`dockerd --pidfile {{path/to/pid_file}}`
+`dockerd {{[-p|--pidfile]}} {{path/to/pid_file}}`
 
 - قم بتشغيل دوكر في وضع التصحيح واكتشاف الأخطاء:
 
-`dockerd --debug`
+`dockerd {{[-D|--debug]}}`
 
 - قم بتشغيل دوكر وحدد له مستوي سجل معين:
 
-`dockerd --log-level {{debug|info|warn|error|fatal}}`
+`dockerd {{[-l|--log-level]}} {{debug|info|warn|error|fatal}}`

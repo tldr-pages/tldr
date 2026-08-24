@@ -10,4 +10,4 @@
 
 - 패키지 이름만 출력:
 
-`check-dfsg-status --sparse`
+`check-dfsg-status {{[-s|--sparse]}}`

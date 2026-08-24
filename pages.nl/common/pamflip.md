@@ -3,7 +3,7 @@
 > Flip of draai een PAM of PNM afbeelding.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/pamflip.html>.
 
-- Draai de invoer-afbeelding tegen de klok in met de gespecificeerde graden::
+- Draai de invoer-afbeelding tegen de klok in met de gespecificeerde graden:
 
 `pamflip {{[-r|-rotate]}}{{90|180|270}} {{pad/naar/invoer.pam}} > {{pad/naar/uitvoer.pam}}`
 

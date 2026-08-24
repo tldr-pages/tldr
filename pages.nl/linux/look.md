@@ -1,7 +1,7 @@
 # look
 
 > Toon regels die beginnen met een prefix in een gesorteerd bestand.
-> Let op: de regels in het bestand moeten gesorteerd zijn.
+> Opmerking: de regels in het bestand moeten gesorteerd zijn.
 > Zie ook: `grep`, `sort`.
 > Meer informatie: <https://manned.org/look>.
 

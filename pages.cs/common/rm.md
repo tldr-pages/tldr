@@ -1,7 +1,7 @@
 # rm
 
 > Maže soubory nebo adresáře.
-> Viz také: `rmdir`.
+> Viz také: `rmdir`, `trash`.
 > Více informací: <https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>.
 
 - Smazat konkrétní soubory:

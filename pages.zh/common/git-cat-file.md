@@ -1,7 +1,7 @@
 # git cat-file
 
 > 查看 Git 仓库对象的内容或类型和大小信息。
-> 更多信息：<https://git-scm.com/docs/git-cat-file>.
+> 更多信息：<https://git-scm.com/docs/git-cat-file>。
 
 - 获取 HEAD 提交的字节大小：
 

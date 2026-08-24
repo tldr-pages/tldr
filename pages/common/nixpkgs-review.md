@@ -8,7 +8,7 @@
 
 `nixpkgs-review pr {{pr_number|pr_url}}`
 
-- Build changed packages and post a comment with a report (requires setting up a token in `hub`, `gh`, or the `GITHUB_TOKEN` environment variable):
+- Build changed packages and post a comment with a report (requires setting up a token in `hub`, `gh`, or the `$GITHUB_TOKEN` environment variable):
 
 `nixpkgs-review pr --post-result {{pr_number|pr_url}}`
 

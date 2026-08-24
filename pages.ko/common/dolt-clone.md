@@ -13,7 +13,7 @@
 
 - 특정 브랜치만 가져오는 기존 저장소를 복제 (기본값은 모든 브랜치):
 
-`dolt clone --branch {{브랜치_이름}} {{레포지토리_주소}}`
+`dolt clone {{[-b|--branch]}} {{브랜치_이름}} {{레포지토리_주소}}`
 
 - AWS 리전을 사용하여, 리포지토리를 복제 (uses the profile's default region if none is provided):
 

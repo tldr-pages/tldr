@@ -1,7 +1,7 @@
 # ip
 
 > Atur konfigurasi IP.
-> Gunakan mode konfigurasi untuk mengakses perintah ini..
+> Gunakan mode konfigurasi untuk mengakses perintah ini.
 > Informasi lebih lanjut: <https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/ipaddr/command/ipaddr-cr-book.html>.
 
 - Atur versi SSH:

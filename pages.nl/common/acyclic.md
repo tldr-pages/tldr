@@ -1,7 +1,7 @@
 # acyclic
 
 > Maak een gerichte grafiek acyclisch door enkele randen om te keren.
-> Graphviz filters: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, & `unflatten`.
+> Graphviz filters: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, en `unflatten`.
 > Meer informatie: <https://graphviz.org/pdf/acyclic.1.pdf>.
 
 - Maak een gerichte grafiek acyclisch door enkele randen om te keren:

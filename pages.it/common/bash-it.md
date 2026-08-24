@@ -7,7 +7,7 @@
 
 `bash-it update {{stable|dev}}`
 
-- Ricarica il profilo di Bash (impostare `BASH_IT_AUTOMATIC_RELOAD_AFTER_CONFIG_CHANGE` a un valore non vuoto per un ricaricamento automatico):
+- Ricarica il profilo di Bash (impostare `$BASH_IT_AUTOMATIC_RELOAD_AFTER_CONFIG_CHANGE` a un valore non vuoto per un ricaricamento automatico):
 
 `bash-it reload`
 

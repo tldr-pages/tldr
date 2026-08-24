@@ -1,7 +1,7 @@
 # choco feature
 
 > Interact with features with Chocolatey.
-> More information: <https://chocolatey.org/docs/commands-feature>.
+> More information: <https://docs.chocolatey.org/en-us/choco/commands/feature/>.
 
 - Display a list of available features:
 
@@ -9,8 +9,8 @@
 
 - Enable a feature:
 
-`choco feature enable --name {{name}}`
+`choco feature enable {{[-n|--name]}} {{name}}`
 
 - Disable a feature:
 
-`choco feature disable --name {{name}}`
+`choco feature disable {{[-n|--name]}} {{name}}`

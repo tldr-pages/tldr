@@ -2,7 +2,7 @@
 
 > 删除目录及其内容。
 > 在 PowerShell 中，此命令是 `Remove-Item` 的别名。此文档基于 `cmd` 版本的 `rmdir`。
-> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/rmdir>.
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/rmdir>。
 
 - 查看等效的 PowerShell 命令的文档：
 

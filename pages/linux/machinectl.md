@@ -1,8 +1,8 @@
 # machinectl
 
 > Control the systemd machine manager.
-> Execute operations on virtual machines, containers and images.
-> More information: <https://www.freedesktop.org/software/systemd/man/machinectl.html>.
+> Execute operations on virtual machines, containers, and images.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/machinectl.html>.
 
 - Start a machine as a service using `systemd-nspawn`:
 

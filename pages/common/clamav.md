@@ -2,7 +2,7 @@
 
 > Open-source anti-virus program.
 > ClamAV isn't a command, but a set of commands.
-> More information: <https://www.clamav.net>.
+> More information: <https://www.clamav.net/>.
 
 - View documentation for scanning files using the `clamd` daemon:
 

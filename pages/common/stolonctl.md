@@ -1,7 +1,7 @@
 # stolonctl
 
 > CLI for Stolon, a cloud native PostgreSQL manager for PostgreSQL high availability.
-> More information: <https://github.com/sorintlab/stolon>.
+> More information: <https://github.com/sorintlab/stolon/blob/master/doc/commands/stolonctl.md>.
 
 - Get cluster status:
 

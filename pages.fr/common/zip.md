@@ -1,6 +1,7 @@
 # zip
 
 > Empaquette et compresse (archive) les fichiers en un fichier zip.
+> Voir aussi : `unzip`.
 > Plus d'informations : <https://manned.org/zip>.
 
 - Empaquette et compresse [r]écursivement un répertoire et son contenu :

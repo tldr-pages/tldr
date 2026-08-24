@@ -2,7 +2,7 @@
 
 > CodeArtifact 리포지토리, 도메인, 패키지, 패키지 버전 및 자산을 관리.
 > CodeArtifact는 인기 있는 패키지 관리자 및 Maven, Gradle, npm, Yarn, Twine, pip, NuGet 및 SwiftPM과 같은 빌드 도구와 호환되는 아티팩트 리포지토리.
-> 더 많은 정보: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/codeartifact/index.html>.
+> 더 많은 정보: <https://docs.aws.amazon.com/cli/latest/reference/codeartifact/>.
 
 - AWS 계정에 사용 가능한 도메인 나열:
 

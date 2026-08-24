@@ -1,6 +1,7 @@
 # diff
 
 > Porównaj pliki i foldery.
+> Zobacz także: `delta`, `difft`.
 > Więcej informacji: <https://manned.org/diff>.
 
 - Porównaj pliki (lista zmian między `stary_plik` a `nowy_plik`):

@@ -1,9 +1,10 @@
 # bun link
 
-> Bun command to register the current package as a linkable package.
+> Register a local package as linkable or link a registered package into a project.
+> See also: `bun unlink`.
 > More information: <https://bun.com/docs/pm/cli/link>.
 
-- Link the package globally:
+- Link the current package globally:
 
 `bun link`
 
@@ -11,18 +12,14 @@
 
 `bun link {{package_name}}`
 
-- Link directly from a local path:
+- Link a package in a specific directory:
 
-`bun link {{path/to/package}}`
+`bun link --cwd {{path/to/package}}`
 
-- Unlink a package:
+- Perform a dry run without actually linking:
 
-`bun unlink {{package_name}}`
-
-- Unlink a global package:
-
-`bun unlink --global {{package_name}}`
+`bun link --dry-run`
 
 - Display help:
 
-`bun link --help`
+`bun link {{[-h|--help]}}`

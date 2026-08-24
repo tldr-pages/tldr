@@ -2,7 +2,7 @@
 
 > Create a new repo backed by a clone of a Git repo.
 > Note: Unless `--colocate` is used, it is not a valid Git repository and `git` commands can't be used on it.
-> More information: <https://jj-vcs.github.io/jj/latest/cli-reference/#jj-git-clone>.
+> More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-git-clone>.
 
 - Create a new repo backed by a clone of a Git repo into a new directory (the default directory is the repository name):
 

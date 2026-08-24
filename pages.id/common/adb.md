@@ -18,7 +18,7 @@
 
 - Pasang suatu aplikasi Android menuju emulator/perangkat tujuan:
 
-`adb install -r {{jalan/menuju/berkas.apk}}`
+`adb install -r {{jalan/menuju/berkas}}.apk`
 
 - Salin berkas/direktori dari perangkat tujuan:
 
@@ -32,6 +32,6 @@
 
 `adb devices`
 
-- Tentukan perangkat yang diinstruksikan (berdasarkan nomor induk / Device ID) jika terdapat lebih dari satu perangkat yang terhubung secara bersamaan:
+- Tentukan perangkat yang diinstruksikan (berdasarkan nomor induk / Device id) jika terdapat lebih dari satu perangkat yang terhubung secara bersamaan:
 
-`adb -s {{device_ID}} {{shell}}`
+`adb -s {{device_id}} {{shell}}`

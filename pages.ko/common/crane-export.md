@@ -1,9 +1,9 @@
 # crane export
 
 > 컨테이너 이미지의 파일 시스템을 tarball로 내보냄.
-> 더 많은 정보: <https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_digest.md>.
+> 더 많은 정보: <https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_export.md>.
 
-- `stdout`에 tarball을 작성 :
+- `stdout`에 tarball을 작성:
 
 `crane export {{이미지_이름}} -`
 

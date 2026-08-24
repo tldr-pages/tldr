@@ -1,7 +1,7 @@
 # sshfs
 
 > SSH 기반 파일 시스템 클라이언트.
-> 더 많은 정보: <https://github.com/libfuse/sshfs>.
+> 더 많은 정보: <https://github.com/libfuse/sshfs/blob/master/sshfs.rst>.
 
 - 원격 디렉터리 마운트:
 

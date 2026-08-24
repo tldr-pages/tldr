@@ -9,7 +9,7 @@
 
 - 헤드 레퍼런스만 표시:
 
-`git show-ref --heads`
+`git show-ref --branches`
 
 - 태그 레퍼런스만 표시:
 

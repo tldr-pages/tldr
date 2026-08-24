@@ -2,7 +2,7 @@
 
 > Assess Microsoft 365 (M365) security configurations and best practices.
 > See also: `prowler`, `prowler-aws`, `prowler-azure`, `prowler-gcp`, `prowler-kubernetes`, `prowler-github`.
-> More information: <https://docs.prowler.com/projects/prowler-open-source/en/latest/>.
+> More information: <https://docs.prowler.com/user-guide/cli/tutorials/misc>.
 
 - Run Prowler with combined service principal and user credentials:
 

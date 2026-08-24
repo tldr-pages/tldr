@@ -3,10 +3,6 @@
 > Manage Docker data and display system-wide information.
 > More information: <https://docs.docker.com/reference/cli/docker/system/>.
 
-- Display help:
-
-`docker system`
-
 - Show Docker disk usage:
 
 `docker system df`
@@ -22,6 +18,10 @@
 - Remove unused data created more than a specified amount of time in the past:
 
 `docker system prune --filter "until={{hours}}h{{minutes}}m"`
+
+- Remove all unused data:
+
+`docker system prune {{[-a|--all]}} --volumes`
 
 - Display real-time events from the Docker daemon:
 

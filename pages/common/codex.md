@@ -2,7 +2,7 @@
 
 > Natural language code assistant for the terminal, powered by OpenAI.
 > Reads and edits files in your current directory to fulfill requests.
-> More information: <https://github.com/openai/codex>.
+> More information: <https://developers.openai.com/codex/cli/reference>.
 
 - Start an interactive Codex session in the current directory:
 
@@ -10,24 +10,24 @@
 
 - Run a single Codex command using a prompt:
 
-`codex "{{your prompt}}"`
+`codex "{{prompt}}"`
 
-- Run a prompt with automatic approval of all file edits and commands:
+- Run a prompt allowing Codex to edit files in the workspace:
 
-`codex {{[-a|--approval-mode]}} full-auto "{{your prompt}}"`
+`codex --sandbox workspace-write "{{prompt}}"`
 
-- Use a specific provider and model:
+- Use a specific model:
 
-`codex --provider {{provider_name}} {{[-m|--model]}} {{model_name}} "{{your prompt}}"`
+`codex {{[-m|--model]}} {{model_name}} "{{prompt}}"`
 
-- Load the entire repository as context (experimental):
+- Use a local open source model provider:
 
-`codex --full-context "{{your prompt}}"`
+`codex --oss --local-provider {{lmstudio|ollama}} "{{prompt}}"`
 
-- Show the resource usage for the current session (run this command inside a session):
+- [Interactive] Display session configuration and token usage:
 
-`/cost`
+`/status`
 
 - Display help:
 
-`codex --help`
+`codex {{[-h|--help]}}`

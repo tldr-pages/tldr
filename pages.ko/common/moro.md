@@ -1,7 +1,7 @@
 # moro
 
 > 작업 시간을 추적.
-> 더 많은 정보: <https://moro.js.org>.
+> 더 많은 정보: <https://github.com/getmoro/moro/blob/master/DOCUMENTATION.md>.
 
 - 매개변수 없이 `moro`를 호출하여 현재 시간을 작업 시작 시간으로 설정:
 

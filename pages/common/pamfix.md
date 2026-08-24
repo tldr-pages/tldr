@@ -1,6 +1,6 @@
 # pamfix
 
-> Fix errors in PAM, PBM, PGM and PPM files.
+> Fix errors in PAM, PBM, PGM, and PPM files.
 > See also: `pamfile`, `pamvalidate`.
 > More information: <https://netpbm.sourceforge.net/doc/pamfix.html>.
 

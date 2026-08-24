@@ -7,7 +7,7 @@
 
 `split -l 10 {{ruta/al/archivo}}`
 
-- Divide un fichero mediante una expresión regular. La línea que coincida será la primera línea del siguiente archivo de salida:
+- Divide un fichero mediante una `regex`. La línea que coincida será la primera línea del siguiente archivo de salida:
 
 `split -p {{cat|^[dh]og}} {{ruta/al/archivo}}`
 

@@ -17,7 +17,7 @@
 
 - Liste tous les fichiers avec un format détaillé (permissions, propriétaire, taille et date de modification) :
 
-`ls {{[-la|--all -l]}}`
+`ls {{[-la|-l --all]}}`
 
 - Liste les fichiers avec un format détaillé en utilisant des préfixes d'unités (KiB, MiB, GiB) :
 
@@ -25,7 +25,7 @@
 
 - Liste les fichiers avec un format détaillé en triant par taille décroissante :
 
-`ls {{-lSR|-lS --recursive}}`
+`ls {{[-lSR|-lS --recursive]}}`
 
 - Liste avec un format détaillé tous les fichiers en triant par date de modification (les plus anciennes en premier) :
 

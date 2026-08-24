@@ -9,16 +9,16 @@
 
 - 디렉토리에서 패키지 설치:
 
-`kpackagetool5 --type {{패키지_유형}} --install {{경로/대상/폴더}}`
+`kpackagetool5 {{[-t|--type]}} {{패키지_유형}} {{[-i|--install]}} {{경로/대상/폴더}}`
 
 - 디렉토리에서 설치된 패키지 업데이트:
 
-`kpackagetool5 --type {{패키지_유형}} --upgrade {{경로/대상/폴더}}`
+`kpackagetool5 {{[-t|--type]}} {{패키지_유형}} {{[-u|--upgrade]}} {{경로/대상/폴더}}`
 
 - 설치된 플라스모이드 나열 (--global로 모든 사용자에 대해 표시):
 
-`kpackagetool5 --type Plasma/Applet --list --global`
+`kpackagetool5 {{[-t|--type]}} Plasma/Applet {{[-l|--list]}} {{[-g|--global]}}`
 
 - 이름으로 플라스모이드 제거:
 
-`kpackagetool5 --type Plasma/Applet --remove "{{이름}}"`
+`kpackagetool5 {{[-t|--type]}} Plasma/Applet {{[-r|--remove]}} "{{이름}}"`

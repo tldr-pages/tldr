@@ -1,7 +1,7 @@
 # autoflake
 
 > Remove unused imports and variables from Python code.
-> More information: <https://github.com/myint/autoflake>.
+> More information: <https://github.com/PyCQA/autoflake#advanced-usage>.
 
 - Remove unused variables from a single file and display the diff:
 

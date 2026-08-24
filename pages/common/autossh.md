@@ -1,6 +1,6 @@
 # autossh
 
-> Run, monitor and restart SSH connections.
+> Run, monitor, and restart SSH connections.
 > Auto-reconnects to keep port forwarding tunnels up. Accepts all SSH flags.
 > More information: <https://manned.org/autossh>.
 

@@ -1,7 +1,7 @@
 # direnv
 
 > 현재 디렉터리에 따라 환경 변수를 로드 및 언로드하는 쉘 확장.
-> 더 많은 정보: <https://github.com/direnv/direnv>.
+> 더 많은 정보: <https://github.com/direnv/direnv/blob/master/man/direnv.1.md>.
 
 - 현재 디렉터리에 있는 `.envrc`를 로드하려면 direnv 권한을 부여:
 

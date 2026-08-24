@@ -1,7 +1,7 @@
 # usermod
 
 > Modifie le compte d'un utilisateur.
-> Voir aussi `users`, `useradd`, `userdel`.
+> Voir aussi : `users`, `useradd`, `userdel`.
 > Plus d'informations : <https://manned.org/usermod>.
 
 - Change le nom d'un utilisateur :

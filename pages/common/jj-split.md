@@ -1,7 +1,7 @@
 # jj split
 
 > Split a revision in two.
-> More information: <https://jj-vcs.github.io/jj/latest/cli-reference/#jj-split>.
+> More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-split>.
 
 - Split the given revision into two interactively, putting the second revision on top of it:
 

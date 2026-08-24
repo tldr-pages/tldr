@@ -3,7 +3,7 @@
 > Crea, edita, compone o convierte entre formatos de imagen.
 > Esta herramienta reemplaza a `convert` en ImageMagick 7+. Usa `magick convert` para utilizar la herramienta antigua en versiones 7+.
 > Algunos subcomandos, como `mogrify`, tienen su propia documentación de uso.
-> Más información: <https://imagemagick.org>.
+> Más información: <https://imagemagick.org/script/magick.php>.
 
 - Convierte entre formatos de imagen:
 
@@ -23,4 +23,4 @@
 
 - Crea un archivo PDF a partir de todas las imágenes JPEG en el directorio actual:
 
-`magick {{*.jpg}} -adjoin {{ruta/a/archivo.pdf}}`
+`magick {{*.jpg}} -adjoin {{ruta/al/archivo.pdf}}`

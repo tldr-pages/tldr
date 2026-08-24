@@ -1,13 +1,14 @@
 # man
 
 > Formatteer en toon handleidingen.
+> Zie ook: `whatis`, `apropos`.
 > Meer informatie: <https://manned.org/man>.
 
 - Toon de handleiding voor een commando:
 
 `man {{commando}}`
 
-- Open de man pagina voor een commando in een browser (`BROWSER` omgevingsvariabele kan `=browser_name` vervangen):
+- Open de man pagina voor een commando in een browser (`$BROWSER` omgevingsvariabele kan `=browser_name` vervangen):
 
 `man {{[-H|--html=]}}{{browser_naam}} {{commando}}`
 

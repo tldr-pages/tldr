@@ -13,7 +13,11 @@
 
 - Create using a specific Python version:
 
-`uv venv --python {{3.12}}`
+`uv venv {{[-p|--python]}} {{3.12}}`
+
+- Include seed packages such as `pip` when creating the virtual environment:
+
+`uv venv --seed`
 
 - Create with a custom prompt prefix:
 

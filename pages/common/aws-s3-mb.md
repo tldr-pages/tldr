@@ -1,7 +1,7 @@
 # aws s3 mb
 
 > Create S3 buckets.
-> More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/mb.html>.
+> More information: <https://docs.aws.amazon.com/cli/latest/reference/s3/mb.html>.
 
 - Create an S3 bucket:
 

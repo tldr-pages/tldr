@@ -1,7 +1,7 @@
 # rabbitmqctl-users
 
 > Manage RabbitMQ users, their permissions, and tags.
-> More information: <https://www.rabbitmq.com/management.html>.
+> More information: <https://www.rabbitmq.com/docs/management>.
 
 - List all users:
 
@@ -29,4 +29,4 @@
 
 - Assign one or more tags (e.g., administrator) to a user:
 
-`rabbitmqctl set_user_tags {{username}} {{tag1}} [{{tag2}}]`
+`rabbitmqctl set_user_tags {{username}} {{tag1 tag2 ...}}`

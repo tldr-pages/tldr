@@ -1,7 +1,7 @@
 # wtf
 
 > 약어의 확장을 표시합니다.
-> 더 많은 정보: <https://manned.org/wtf.6>.
+> 더 많은 정보: <https://manned.org/wtf>.
 
 - 주어진 약어를 확장:
 

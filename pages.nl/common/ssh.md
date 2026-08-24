@@ -10,7 +10,7 @@
 
 - Verbind met een externe server met een specifieke identiteit (privésleutel):
 
-`ssh -i {{pad/naar/sleutel_bestand}} {{gebruikersnaam}}@{{externe_host}}`
+`ssh {{gebruikersnaam}}@{{externe_host}} -i {{pad/naar/sleutel_bestand}}`
 
 - Verbind met een externe server met IP `10.0.0.1` en gebruik een specifieke [p]oort (Opmerking: `10.0.0.1` kan worden afgekort tot `10.1`):
 
@@ -22,15 +22,15 @@
 
 - SSH-tunneling: [D]ynamische poortdoorsturing (SOCKS-proxy op `localhost:1080`):
 
-`ssh -D {{1080}} {{gebruikersnaam}}@{{externe_host}}`
+`ssh {{gebruikersnaam}}@{{externe_host}} -D {{1080}}`
 
 - SSH-tunneling: Stuur een specifieke poort door (`localhost:9999` naar `voorbeeld.org:80`) en schakel pseudo-[T]ty toewijzing en uitvoeri[N]g van externe opdrachten uit:
 
-`ssh -L {{9999}}:{{voorbeeld.org}}:{{80}} -N -T {{gebruikersnaam}}@{{externe_host}}`
+`ssh {{gebruikersnaam}}@{{externe_host}} -L {{9999}}:{{voorbeeld.org}}:{{80}} -N -T`
 
 - SSH [J]umping: Verbind door een jumphost met een externe server (Meerdere jump hops mogen gespecificeerd worden door te splitsen met komma's):
 
-`ssh -J {{gebruikersnaam}}@{{jump_host}} {{gebruikersnaam}}@{{externe_host}}`
+`ssh {{gebruikersnaam}}@{{externe_host}} -J {{gebruikersnaam}}@{{jump_host}}`
 
 - Sluit een vastgelopen sessie:
 

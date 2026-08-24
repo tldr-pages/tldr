@@ -1,7 +1,7 @@
 # choco uninstall
 
 > Odinstalowanie jednego lub więcej pakietów zarządzanych przez Chocolatey.
-> Więcej informacji: <https://chocolatey.org/docs/commands-uninstall>.
+> Więcej informacji: <https://docs.chocolatey.org/en-us/choco/commands/uninstall/>.
 
 - Odinstalowanie jednego lub więcej pakietów (oddzielonych spacją):
 
@@ -13,11 +13,11 @@
 
 - Automatyczna akceptacja wszystkich monitów podczas deinstalacji pakietu:
 
-`choco uninstall {{pakiet}} --yes`
+`choco uninstall {{pakiet}} {{[-y|--yes]}}`
 
 - Odinstalowanie wszystkich zależności podczas procesu deinstalacji danego pakietu/pakietów:
 
-`choco uninstall {{pakiet}} --remove-dependencies`
+`choco uninstall {{pakiet}} {{[-x|--remove-dependencies]}}`
 
 - Odinstalowanie wszystkich pakietów:
 

@@ -7,6 +7,6 @@
 
 `diff {{path/to/file1}} {{path/to/file2}} | diffstat`
 
-- Display inserted, deleted and modified changes as a table:
+- Display inserted, deleted, and modified changes as a table:
 
 `diff {{path/to/file1}} {{path/to/file2}} | diffstat -t`

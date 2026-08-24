@@ -1,6 +1,6 @@
 # if
 
-> Performs conditional processing in batch scripts.
+> Perform conditional processing in batch scripts.
 > More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/if>.
 
 - Execute the specified commands if the condition is true:

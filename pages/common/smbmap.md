@@ -1,7 +1,7 @@
 # smbmap
 
 > Enumerate samba share drives across an entire domain.
-> More information: <https://github.com/ShawnDEvans/smbmap>.
+> More information: <https://github.com/ShawnDEvans/smbmap#help>.
 
 - Enumerate hosts with NULL sessions enabled and open shares:
 
@@ -9,11 +9,11 @@
 
 - Display SMB shares and permissions on a [H]ost, prompting for user's password or NTLM hash:
 
-`smbmap {{[-u|--username]}} {{username}} --prompt -H {{ip}}`
+`smbmap {{[-u|--username]}} {{username}} --prompt -H {{ip_address}}`
 
 - Execute a shell command on a remote system:
 
-`smbmap {{[-u|--username]}} {{username}} --prompt -H {{ip}} -x {{command}}`
+`smbmap {{[-u|--username]}} {{username}} --prompt -H {{ip_address}} -x {{command}}`
 
 - Enumerate hosts and check SMB file permissions:
 
@@ -33,4 +33,4 @@
 
 - Display SMB shares and recursively list directories and files, searching for file content matching a `regex`:
 
-`smbmap {{[-u|--username]}} {{username}} --prompt -H {{ip}} -R -F {{pattern}}`
+`smbmap {{[-u|--username]}} {{username}} --prompt -H {{ip_address}} -R -F {{pattern}}`

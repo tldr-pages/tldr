@@ -2,7 +2,7 @@
 
 > Execute commands at a later time when the system load levels permit.
 > Results will be sent to the user's mail.
-> See also: `at`, `atq`, `atrm` `mail`.
+> See also: `at`, `atq`, `atrm`, `mail`.
 > More information: <https://manned.org/batch>.
 
 - Start the `atd` daemon:

@@ -1,6 +1,6 @@
 # grlogin
 
-> Perintah ini merupakan alias dari `-p linux rlogin`.
+> Perintah ini merupakan alias dari GNU `rlogin`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 

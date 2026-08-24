@@ -1,7 +1,7 @@
 # dunstctl
 
 > Control the `dunst` notification daemon.
-> More information: <https://dunst-project.org/documentation/dunstctl>.
+> More information: <https://dunst-project.org/documentation/dunstctl/>.
 
 - Pause/Unpause/Toggle desktop notifications:
 

@@ -1,7 +1,8 @@
 # grep
 
 > 正規表現を使ってファイルのパターンを見つけます。
-> もっと詳しく: <https://www.gnu.org/software/grep/manual/grep.html>。
+> 参照: `rg`, `regex`。
+> 詳細情報: <https://www.gnu.org/software/grep/manual/grep.html>。
 
 - ファイル内のパターンを検索する:
 

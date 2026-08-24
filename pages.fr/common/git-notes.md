@@ -9,11 +9,11 @@
 
 - Lister toutes les notes attachées à un objet donné :
 
-`git notes list [{{objet}}]`
+`git notes list {{objet}}`
 
 - Afficher les notes attachées à un objet donné :
 
-`git notes show [{{objet}}]`
+`git notes show {{objet}}`
 
 - Ajoute une note à un objet donné :
 
@@ -25,7 +25,7 @@
 
 - Édite une note existante :
 
-`git notes edit [{{objet}}]`
+`git notes edit {{objet}}`
 
 - Copie la note d'un objet vers un autre :
 

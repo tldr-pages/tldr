@@ -10,11 +10,11 @@
 
 - Arayüzlerin ağ katmanı bilgilerini kısa bir şekilde listele:
 
-`ip {{[-br a|-brief address]}}`
+`ip {{[-br|-brief]}} {{[a|address]}}`
 
 - Arayüzlerin bağlantı katmanı bilgilerini kısa bir şekilde listele:
 
-`ip {{[-br l|-brief link]}}`
+`ip {{[-br|-brief]}} {{[l|link]}}`
 
 - Yönlendirme tablosunu görüntüle:
 
@@ -22,7 +22,7 @@
 
 - Komşuları (ARP tablosunu) göster:
 
-`ip {{[n|neighbour]}}`
+`ip {{[n|neighbor]}}`
 
 - Bir arayüzü etkinleştir/devre dışı bırak:
 

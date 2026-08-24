@@ -13,7 +13,7 @@
 
 - Install a new Android app from a file:
 
-`waydroid app install {{path/to/file.apk}}`
+`waydroid app install {{path/to/file}}.apk`
 
 - Launch an Android app by its package name:
 

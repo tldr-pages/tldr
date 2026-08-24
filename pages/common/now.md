@@ -2,7 +2,7 @@
 
 > Cloud platform for serverless deployment.
 > This command is deprecated. See `vercel`, the updated version of this tool.
-> More information: <https://zeit.co/now>.
+> More information: <https://vercel.com/home>.
 
 - Deploy the current directory:
 

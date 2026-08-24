@@ -1,6 +1,7 @@
 # traceroute
 
 > Toon het pad dat pakketjes volgen naar een netwerkhost.
+> Zie ook: `mtr`.
 > Meer informatie: <https://manned.org/traceroute>.
 
 - Traceroute naar een host:

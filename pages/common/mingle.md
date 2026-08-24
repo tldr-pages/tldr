@@ -1,7 +1,7 @@
 # mingle
 
 > Bundle the edges of a graph layout.
-> Graphviz filters: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, & `unflatten`.
+> Graphviz filters: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, and `unflatten`.
 > More information: <https://www.graphviz.org/pdf/mingle.1.pdf>.
 
 - Bundle the edges of one or more graph layouts (that already have layout information):

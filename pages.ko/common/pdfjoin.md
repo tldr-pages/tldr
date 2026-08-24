@@ -1,7 +1,7 @@
 # pdfjoin
 
 > pdfjam을 기반으로 한 PDF 병합 도구.
-> 더 많은 정보: <https://github.com/rrthomas/pdfjam-extras>.
+> 더 많은 정보: <https://github.com/pdfjam/pdfjam-extras>.
 
 - 두 개의 PDF를 기본 접미사 "joined"로 하나로 병합:
 

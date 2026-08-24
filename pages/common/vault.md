@@ -1,7 +1,7 @@
 # vault
 
 > Interact with HashiCorp Vault.
-> More information: <https://www.vaultproject.io/docs/commands>.
+> More information: <https://developer.hashicorp.com/vault/docs/commands>.
 
 - Connect to a Vault server and initialize a new encrypted data store:
 

@@ -2,7 +2,7 @@
 
 > Muestra información sobre los módulos instalados en las bibliotecas de Ansible.
 > Muestra una concisa lista de complementos y sus breves descripciones.
-> Más información: <https://docs.ansible.com/ansible/latest/cli/ansible-doc.html>.
+> Más información: <https://docs.ansible.com/projects/ansible/latest/cli/ansible-doc.html>.
 
 - Lista de complementos disponibles acorde a su acción (módulos):
 

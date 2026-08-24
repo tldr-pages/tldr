@@ -10,15 +10,15 @@
 
 - Voer een opdracht uit met een bestandslock, of sluit het programma af als de lock momenteel actief is (met foutcode 1):
 
-`flock {{pad/naar/lock.lock}} {{[-n|--nonblock]}} {{commando}}`
+`flock {{[-n|--nonblock]}} {{pad/naar/lock.lock}} {{commando}}`
 
 - Voer een opdracht uit met een bestandslock, of sluit af met een specifieke foutcode als de lock momenteel actief is:
 
-`flock {{pad/naar/lock.lock}} {{[-n|--nonblock]}} {{[-E|--conflict-exit-code]}} {{123}} {{commando}}`
+`flock {{[-n|--nonblock]}} {{[-E|--conflict-exit-code]}} {{123}} {{pad/naar/lock.lock}} {{commando}}`
 
 - Voer een commando uit met een bestandslock en wacht maximaal 10 seconden tot de lock beschikbaar is voordat wordt opgegeven:
 
-`flock {{pad/naar/lock.lock}} {{[-w|--timeout]}} 10 {{commando}}`
+`flock {{[-w|--timeout]}} 10 {{pad/naar/lock.lock}} {{commando}}`
 
 - Maak een back-up van een aantal bestanden, wacht tot het vorige `tar`-commando klaar is als deze nog wordt uitgevoerd en houd dezelfde bestandlock vast (kan gebruikt worden in een `cron` job die periodiek wordt uitgevoerd):
 

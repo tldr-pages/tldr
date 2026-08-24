@@ -2,7 +2,7 @@
 
 > إنشاء أنفاق TCP/UDP، يتم نقلها عبر HTTP، وتأمينها عبر SSH.
 > يتضمن كل من العميل والخادم في نفس الملف التنفيذي `chisel`.
-> لمزيد من التفاصيل: <https://github.com/jpillora/chisel>.
+> لمزيد من التفاصيل: <https://github.com/jpillora/chisel#usage>.
 
 - تشغيل خادم Chisel:
 

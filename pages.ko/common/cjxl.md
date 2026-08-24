@@ -2,7 +2,7 @@
 
 > 이미지를 JPEG XL로 압축.
 > 허용되는 입력 확장자는 PNG, APNG, GIF, JPEG, EXR, PPM, PFM, PAM, PGX 및 JXL입니다.
-> 더 많은 정보: <https://github.com/libjxl/libjxl>.
+> 더 많은 정보: <https://github.com/libjxl/libjxl/blob/main/doc/man/cjxl.txt>.
 
 - 이미지를 JPEG XL로 변환:
 

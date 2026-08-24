@@ -1,7 +1,7 @@
 # aws route53
 
 > AWS Route53용 CLI - Route 53은 가용성과 확장성이 뛰어난 DNS(도메인 네임 시스템) 웹 서비스입니다.
-> 더 많은 정보: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/route53/index.html>.
+> 더 많은 정보: <https://docs.aws.amazon.com/cli/latest/reference/route53/>.
 
 - 모든 호스팅 영역(프라이빗 및 퍼블릭)을 나열:
 

@@ -1,7 +1,7 @@
 # protector
 
 > GitHub 저장소의 브랜치를 보호하거나 보호 해제.
-> 더 많은 정보: <https://github.com/jcgay/protector>.
+> 더 많은 정보: <https://github.com/jcgay/protector#usage>.
 
 - GitHub 저장소의 브랜치 보호 (브랜치 보호 규칙 생성):
 

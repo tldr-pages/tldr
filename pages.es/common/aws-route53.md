@@ -1,7 +1,7 @@
 # aws route53
 
 > CLI para AWS Route53 - Route 53 es un servicio web de Sistema de Nombres de Dominio (DNS) altamente disponible y escalable.
-> Más información: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/route53/index.html>.
+> Más información: <https://docs.aws.amazon.com/cli/latest/reference/route53/>.
 
 - Lista todas las zonas alojadas, privadas y públicas:
 

@@ -1,7 +1,7 @@
 # deluser
 
 > 从系统中删除用户。
-> 更多信息：<https://manned.org/deluser>.
+> 更多信息：<https://manned.org/deluser>。
 
 - 删除用户：
 

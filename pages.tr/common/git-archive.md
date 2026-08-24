@@ -3,7 +3,7 @@
 > İsimlendirilmiş bir ağaçtan dosyaların arşivini oluştur.
 > Daha fazla bilgi için: <https://git-scm.com/docs/git-archive>.
 
-- Mevcut HEAD'deki içerik ile bir tar arşivi oluştur ve içeriği standart çıktı biçiminde göster:
+- Mevcut HEAD'deki içerik ile bir `.tar` arşivi oluştur ve içeriği standart çıktı biçiminde göster:
 
 `git archive {{[-v|--verbose]}} HEAD`
 
@@ -15,11 +15,11 @@
 
 `git archive {{[-v|--verbose]}} {{[-o|--output]}} {{örnek/arşiv/dosyası.zip}} HEAD`
 
-- Belirtilmiş bir daldaki son commitlerin içeriğinden bir tar arşivi oluştur:
+- Belirtilmiş bir daldaki son commitlerin içeriğinden bir `.tar` arşivi oluştur:
 
 `git archive {{[-o|--output]}} {{örnek/arşiv/dosyası.tar}} {{dal_ismi}}`
 
-- Belirtilmiş bir dizindeki içeriklerden tar arşivi oluştur:
+- Belirtilmiş bir dizindeki içeriklerden `.tar` arşivi oluştur:
 
 `git archive {{[-o|--output]}} {{örnek/arşiv/dosyası.tar}} HEAD:{{örnek/dizin}}`
 

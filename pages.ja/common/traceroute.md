@@ -1,7 +1,8 @@
 # traceroute
 
 > ネットワークホストへの経路パケット追跡を表示します。
-> もっと詳しく: <https://manned.org/traceroute>。
+> 参照: `mtr`。
+> 詳細情報: <https://manned.org/traceroute>。
 
 - ホストへの経路追跡:
 
@@ -13,11 +14,11 @@
 
 - 応答までの待機時間を秒単位で指定する:
 
-`traceroute --wait={{0.5}} {{example.com}}`
+`traceroute {{[-w|--wait]}} {{0.5}} {{example.com}}`
 
 - ホップごとのクエリ回数を指定する:
 
-`traceroute --queries={{5}} {{example.com}}`
+`traceroute {{[-q|--queries]}} {{5}} {{example.com}}`
 
 - プローブパケットのサイズをバイト単位で指定する:
 
@@ -29,4 +30,4 @@
 
 - UDPの代わりにICMPを使ってトレースルートする:
 
-`traceroute --icmp {{example.com}}`
+`traceroute {{[-I|--icmp]}} {{example.com}}`

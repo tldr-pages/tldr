@@ -1,7 +1,7 @@
 # erl
 
 > Esegui e gestisci programmi nel linguaggio di programmazione Erlang.
-> Maggiori informazioni: <https://www.erlang.org>.
+> Maggiori informazioni: <https://erlang.org/documentation/doc-16.0/erts-16.0/doc/html/erl_cmd.html>.
 
 - Compila ed esegui un programma Erlang sequenziale come un comune script e poi esci:
 

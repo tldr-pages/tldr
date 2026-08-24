@@ -1,7 +1,7 @@
 # npm find-dupes
 
 > `node_modules`에서 중복된 의존성을 식별.
-> 더 많은 정보: <https://docs.npmjs.com/cli/npm-find-dupes>.
+> 더 많은 정보: <https://docs.npmjs.com/cli/npm-find-dupes/>.
 
 - `node_modules` 내 모든 중복 패키지 나열:
 
@@ -11,7 +11,7 @@
 
 `npm find-dupes --include dev`
 
-- `node-modules`에서 특정 패키지의 모든 중복 인스턴스 나열:
+- `node_modules`에서 특정 패키지의 모든 중복 인스턴스 나열:
 
 `npm find-dupes {{패키지_이름}}`
 

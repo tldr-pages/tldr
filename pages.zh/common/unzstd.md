@@ -1,6 +1,6 @@
 # unzstd
 
-> 这是 `zstd --decompress` 命令的一个别名。
+> 此命令为 `zstd --decompress` 的别名。
 
 - 查看原命令的文档：
 

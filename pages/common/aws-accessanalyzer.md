@@ -1,7 +1,7 @@
 # aws accessanalyzer
 
 > Analyze and review resource policies to identify potential security risks.
-> More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/accessanalyzer/index.html>.
+> More information: <https://docs.aws.amazon.com/cli/latest/reference/accessanalyzer/>.
 
 - Create a new Access Analyzer:
 

@@ -1,7 +1,7 @@
 # path
 
 > 顯示或設定可執行檔的搜尋路徑。
-> 更多資訊：<https://learn.microsoft.com/windows-server/administration/windows-commands/path>.
+> 更多資訊：<https://learn.microsoft.com/windows-server/administration/windows-commands/path>。
 
 - 顯示當前的 PATH 環境變數的設定：
 

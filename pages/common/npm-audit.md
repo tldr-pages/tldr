@@ -1,8 +1,7 @@
 # npm audit
 
-> Scan for known vulnerabilities in project dependencies.
-> Reports vulnerabilities and suggests remediation.
-> More information: <https://docs.npmjs.com/cli/npm-audit>.
+> Scan project dependencies for known security vulnerabilities.
+> More information: <https://docs.npmjs.com/cli/npm-audit/>.
 
 - Scan the project's dependencies for known vulnerabilities:
 
@@ -20,7 +19,7 @@
 
 `npm audit fix --package-lock-only`
 
-- Perform a dry run. Simulate the fix process without making any changes:
+- Simulate the fix process without making any changes:
 
 `npm audit fix --dry-run`
 

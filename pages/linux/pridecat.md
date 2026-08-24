@@ -1,7 +1,7 @@
 # pridecat
 
 > Like cat but more colorful.
-> More information: <https://github.com/lunasorcery/pridecat>.
+> More information: <https://github.com/lunasorcery/pridecat#flags>.
 
 - Print the contents of a file in pride colors to `stdout`:
 

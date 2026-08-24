@@ -1,7 +1,7 @@
 # jello
 
 > Python 구문을 사용하는 명령줄 JSON 처리기.
-> 더 많은 정보: <https://github.com/kellyjonbrazil/jello>.
+> 더 많은 정보: <https://github.com/kellyjonbrazil/jello#usage>.
 
 - `stdin`에서 `stdout`으로 JSON 또는 JSON-Lines 데이터를 보기 좋게 출력:
 
@@ -25,7 +25,7 @@
 
 - (입력 JSON에 `key_name1` 및 `key_name2` 키가 있다고 가정할 때) 여러 키의 값을 새 JSON 객체로 출력:
 
-`cat {{파일.json}} | jello '{"{{키1}}": _.{{key_name1}}, "{{key_name}}": _.{{key_name2}}}'`
+`cat {{파일.json}} | jello '{{{"키1": _.key_name1, "키2": _.key_name2, ...}}}'`
 
 - 문자열로 주어진 키의 값 출력 (JSON 출력 비활성화):
 

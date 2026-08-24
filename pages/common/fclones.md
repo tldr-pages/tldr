@@ -1,7 +1,7 @@
 # fclones
 
 > Efficient duplicate file finder and remover.
-> More information: <https://github.com/pkolaczk/fclones>.
+> More information: <https://github.com/pkolaczk/fclones#usage>.
 
 - Search for duplicate files in the current directory:
 

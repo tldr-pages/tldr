@@ -1,7 +1,7 @@
 # license
 
 > 오픈 소스 프로젝트를 위한 라이선스 파일 생성.
-> 더 많은 정보: <https://nishanths.github.io/license>.
+> 더 많은 정보: <https://nishanths.github.io/license/>.
 
 - 기본값(자동 감지된 작성자 이름 및 현재 연도)을 사용하여 `stdout`에 라이선스 출력:
 

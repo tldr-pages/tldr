@@ -1,7 +1,7 @@
 # systemctl reboot
 
 > Herstart het systeem.
-> Meer informatie: <https://www.freedesktop.org/software/systemd/man/systemctl.html#reboot>.
+> Meer informatie: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#reboot>.
 
 - Herstart het systeem:
 

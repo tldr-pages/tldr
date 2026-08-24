@@ -1,7 +1,7 @@
 # bash
 
 > Bourne-Again SHell, an `sh`- 호환 명령 행 인터프리터.
-> 참조: `zsh`, `histexpand` (history 확장).
+> 관련 항목: `zsh`, `!`.
 > 더 많은 정보: <https://www.gnu.org/software/bash/manual/bash.html#Invoking-Bash>.
 
 - 대화형 쉘 시작하기:
@@ -34,4 +34,4 @@
 
 - 제한된([r]estricted) 쉘 세션을 시작:
 
-`bash -r`
+`bash {{[-r|--restricted]}}`

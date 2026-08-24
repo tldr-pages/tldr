@@ -1,7 +1,7 @@
 # doctl databases user
 
 > View details for, and create, database users.
-> More information: <https://docs.digitalocean.com/reference/doctl/reference/databases/user>.
+> More information: <https://docs.digitalocean.com/reference/doctl/reference/databases/user/>.
 
 - Run a `doctl databases user` command with an access token:
 

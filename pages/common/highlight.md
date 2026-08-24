@@ -1,6 +1,6 @@
 # highlight
 
-> Outputs syntax-highlighted source code to a variety of formats.
+> Output syntax-highlighted source code to a variety of formats.
 > More information: <http://andre-simon.de/doku/highlight/en/highlight.php>.
 
 - Produce a complete HTML document from a source code file:

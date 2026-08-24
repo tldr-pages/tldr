@@ -1,7 +1,7 @@
 # jbang
 
 > Crea, edita y ejecuta fácilmente programas en Java autocontenidos de sólo código fuente.
-> Ver también: `java`.
+> Vea también: `java`.
 > Más información: <https://www.jbang.dev/documentation/jbang/latest/cli/jbang.html>.
 
 - Inicializa una clase en Java simple:
@@ -10,11 +10,11 @@
 
 - Inicializa una clase en Java (útil para scripts):
 
-`jbang init --template={{cli}} {{ruta/al/archivo.java}}`
+`jbang init {{[-t|--template]}}={{cli}} {{ruta/al/archivo.java}}`
 
 - Utiliza `jshell` para explorar y utilizar un script y cualquier dependencia en un editor REPL:
 
-`jbang run --interactive`
+`jbang run {{[-i|--interactive]}}`
 
 - Configura un proyecto temporal para editar un script en un entorno de desarrollo integrado:
 

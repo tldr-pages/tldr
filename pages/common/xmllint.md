@@ -25,4 +25,4 @@
 
 - Validate XML against DTD schema hosted online:
 
-`xmllint --dtdvalid {{URL}} {{source_file.xml}}`
+`xmllint --dtdvalid {{url}} {{source_file.xml}}`

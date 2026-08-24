@@ -1,7 +1,7 @@
 # runsvdir
 
 > Run an entire directory of services.
-> More information: <https://manned.org/runsvdir.8>.
+> More information: <https://manned.org/runsvdir>.
 
 - Start and manage all services in a directory as the current user:
 

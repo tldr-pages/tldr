@@ -17,4 +17,4 @@
 
 - പുതിയ ടാബിന്റെ ടൈറ്റിൽ മാറ്റുവാൻ:
 
-`gnome-terminal --tab --title "{{ടൈറ്റിൽ}}"`
+`gnome-terminal --tab {{[-t|--title]}} "{{ടൈറ്റിൽ}}"`

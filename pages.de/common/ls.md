@@ -17,7 +17,7 @@
 
 - Liste alle Dateien mit Berechtigungen, Besitzer, Größe und Änderungsdatum auf:
 
-`ls {{[-la|--all -l]}}`
+`ls {{[-la|-l --all]}}`
 
 - Liste alle Dateien mit Dateigröße in für Menschen lesbaren Einheiten (KiB, MiB, GiB):
 
@@ -25,7 +25,7 @@
 
 - Liste Dateien nach sortiert nach Dateigröße mit größter beginnend auf:
 
-`ls {{-lSR|-lS --recursive}}`
+`ls {{[-lSR|-lS --recursive]}}`
 
 - Liste alle Dateien sortiert nach dem Änderungsdatum mit ältester beginnend auf:
 

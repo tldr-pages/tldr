@@ -2,7 +2,7 @@
 
 > Programa antivirus de codi obert.
 > ClamAV no és una ordre, sinó un conjunt d'ordres.
-> Més informació: <https://www.clamav.net>.
+> Més informació: <https://www.clamav.net/>.
 
 - Mostra la pàgina tldr per escanejar fitxers amb el dimoni `clamd`:
 

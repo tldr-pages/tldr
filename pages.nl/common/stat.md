@@ -1,6 +1,7 @@
 # stat
 
 > Toon bestands- en bestandssysteeminformatie.
+> Zie ook: `file`.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/stat-invocation.html>.
 
 - Toon eigenschappen van een specifiek bestand zoals grootte, permissies, aanmaak- en toegangsdatums en meer:

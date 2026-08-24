@@ -1,7 +1,7 @@
 # img2pdf
 
 > Losslessly convert raster images to a PDF file.
-> Some supported image formats are: GIF, JPEG, JPEG2000, PNG, GIF and TIFF.
+> Some supported image formats are: GIF, JPEG, JPEG2000, PNG, GIF, and TIFF.
 > More information: <https://gitlab.mister-muffin.de/josch/img2pdf>.
 
 - Convert one or more images to a single PDF, each image being on its own page:
@@ -20,6 +20,6 @@
 
 `img2pdf {{path/to/image.ext}} --pagesize {{30cm}}x{{20cm}} --imgsize {{10cm}}x{{15cm}} --fit {{shrink}} --output {{path/to/file.pdf}}`
 
-- Convert an image to PDF, and specify metadata for the resulting file:
+- Convert an image to PDF and specify metadata for the resulting file:
 
 `img2pdf {{path/to/image.ext}} --title {{title}} --author {{author}} --creationdate {{1970-01-31}} --keywords {{keyword1 keyword2}} --subject {{subject}} --output {{path/to/file.pdf}}`

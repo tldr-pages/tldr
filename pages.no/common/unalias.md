@@ -1,6 +1,7 @@
 # unalias
 
 > Fjern aliaser.
+> Se også: `alias`.
 > Mer informasjon: <https://www.gnu.org/software/bash/manual/bash.html#index-unalias>.
 
 - Fjern et alias:

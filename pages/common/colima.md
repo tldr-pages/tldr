@@ -19,7 +19,7 @@
 
 `colima start --kubernetes`
 
-- Customize CPU count, RAM memory and disk space (in GiB):
+- Customize CPU count, RAM memory, and disk space (in GiB):
 
 `colima start --cpu {{number}} --memory {{memory}} --disk {{storage_space}}`
 

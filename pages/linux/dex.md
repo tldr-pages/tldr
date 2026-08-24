@@ -1,7 +1,7 @@
 # dex
 
 > DesktopEntry Execution is a program to generate and execute DesktopEntry files of the Application type.
-> More information: <https://github.com/jceb/dex>.
+> More information: <https://github.com/jceb/dex#dex>.
 
 - Execute all programs in the autostart folders:
 
@@ -27,6 +27,6 @@
 
 `dex {{[-c|--create]}} {{path/to/file.desktop}}`
 
-- Execute a single program (with `Terminal=true` in the desktop file) in the given terminal:
+- Execute a single program (with `Terminal=true` in the `.desktop` file) in the given terminal:
 
 `dex --term {{terminal}} {{path/to/file.desktop}}`

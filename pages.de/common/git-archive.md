@@ -3,7 +3,7 @@
 > Erstelle ein Archiv von Dateien.
 > Weitere Informationen: <https://git-scm.com/docs/git-archive>.
 
-- Erstelle ein tar-Archiv aus dem Inhalt des aktuellen HEAD und gib dieses aus:
+- Erstelle ein `.tar`-Archiv aus dem Inhalt des aktuellen HEAD und gib dieses aus:
 
 `git archive {{[-v|--verbose]}} HEAD`
 
@@ -15,7 +15,7 @@
 
 `git archive {{[-v|--verbose]}} {{[-o|--output]}} {{pfad/zu/datei.zip}} HEAD`
 
-- Erstelle ein tar-Archiv aus dem Inhalt des letzten Commits eines bestimmten Branches:
+- Erstelle ein `.tar`-Archiv aus dem Inhalt des letzten Commits eines bestimmten Branches:
 
 `git archive {{[-o|--output]}} {{pfad/zu/datei.tar}} {{branch_name}}`
 

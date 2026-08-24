@@ -2,7 +2,7 @@
 
 > Flatten de lagen van een image tot een enkele laag.
 > Push de digest naar de oorspronkelijke image-repository als er geen tags zijn opgegeven.
-> Meer informatie: <https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_digest.md>.
+> Meer informatie: <https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_flatten.md>.
 
 - Flatten een image:
 

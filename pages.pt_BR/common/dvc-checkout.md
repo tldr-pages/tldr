@@ -1,7 +1,7 @@
 # dvc checkout
 
 > Registra a saída de arquivos e diretórios de dados vindos do cache.
-> Mais informações: <https://dvc.org/doc/command-reference/checkout>.
+> Mais informações: <https://doc.dvc.org/command-reference/checkout>.
 
 - Registra a saída de todos os arquivos e diretórios de dados:
 

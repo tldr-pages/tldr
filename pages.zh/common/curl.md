@@ -1,8 +1,9 @@
 # curl
 
 > 向 / 从一个服务器传输数据。
-> 支持大多数协议，包括 HTTP, FTP, 和 POP3.
-> 更多信息：<https://curl.se/docs/manpage.html>.
+> 支持大多数协议，包括 HTTP, FTP, 和 POP3。
+> 另请参阅：`wcurl`, `wget`。
+> 更多信息：<https://curl.se/docs/manpage.html>。
 
 - 将指定 URL 的内容下载到文件：
 

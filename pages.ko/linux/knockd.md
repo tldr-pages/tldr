@@ -5,8 +5,8 @@
 
 - knockd 시스템 데몬 시작:
 
-`knockd -d`
+`knockd {{[-d|--daemon]}}`
 
 - 지정된 구성 [f]파일을 사용하여 knockd 실행:
 
-`knockd -c {{경로/대상/파일}}.configuration`
+`knockd {{[-c|--config]}} {{경로/대상/파일}}.configuration`

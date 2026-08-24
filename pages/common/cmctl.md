@@ -2,7 +2,7 @@
 
 > Manage cert-manager resources inside your cluster.
 > Check cert signing status, approve/deny requests, and issue new certificate requests.
-> More information: <https://cert-manager.io/docs/usage/cmctl/>.
+> More information: <https://cert-manager.io/docs/reference/cmctl/>.
 
 - Check if the cert-manager API is ready:
 

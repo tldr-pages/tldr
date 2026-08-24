@@ -13,7 +13,7 @@
 
 - Monitore o espaço em disco, destacando as diferenças à medida que elas aparecem:
 
-`watch {{[-d|--differences]}} {{df}}`
+`watch {{[-d|--differences]}} df`
 
 - Executar repetidamente um pipeline e mostrar o resultado:
 

@@ -1,6 +1,7 @@
 # find
 
 > Procura recursivamente por arquivos ou diretórios em uma árvore de diretórios.
+> Veja também: `fd`.
 > Mais informações: <https://manned.org/find>.
 
 - Procura por arquivos pela extensão:

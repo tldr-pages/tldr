@@ -1,7 +1,7 @@
 # choco uninstall
 
 > Désinstallez un ou plusieurs packages avec Chocolatey.
-> Plus d'informations : <https://chocolatey.org/docs/commands-uninstall>.
+> Plus d'informations : <https://docs.chocolatey.org/en-us/choco/commands/uninstall/>.
 
 - Désinstaller un ou plusieurs packages séparés par des espaces :
 
@@ -13,11 +13,11 @@
 
 - Confirmer automatiquement toutes les invites :
 
-`choco uninstall {{paquet}} --yes`
+`choco uninstall {{paquet}} {{[-y|--yes]}}`
 
 - Supprimez toutes les dépendances lors de la désinstallation :
 
-`choco uninstall {{paquet}} --remove-dependencies`
+`choco uninstall {{paquet}} {{[-x|--remove-dependencies]}}`
 
 - Désinstaller tous les packages :
 

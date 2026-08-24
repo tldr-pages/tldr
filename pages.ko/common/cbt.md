@@ -1,7 +1,7 @@
 # cbt
 
 > Google Cloud's Bigtable에서 데이터를 읽는 유틸리티.
-> 더 많은 정보: <https://cloud.google.com/bigtable/docs/cbt-reference>.
+> 더 많은 정보: <https://docs.cloud.google.com/bigtable/docs/cbt-reference>.
 
 - 현재 프로젝트의 테이블 나열:
 
@@ -19,7 +19,7 @@
 
 `cbt lookup "{{테이블_이름}}" "{{열_키}}" columns="{{family1:qualifier1,family2:qualifier2,...}}"`
 
-- 특정 정규식 패턴으로 현재 프로젝트에서 최대 5개 행을 검색하고 인쇄:
+- 특정 `regex` 패턴으로 현재 프로젝트에서 최대 5개 행을 검색하고 인쇄:
 
 `cbt read "{{테이블_이름}}" regex="{{열_키_패턴}}" count={{5}}`
 

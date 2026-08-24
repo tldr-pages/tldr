@@ -1,6 +1,6 @@
 # gfold
 
-> Perintah ini merupakan alias dari `-p linux fold`.
+> Perintah ini merupakan alias dari GNU `fold`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 

@@ -1,7 +1,7 @@
 # zapier convert
 
 > 将一个可视化构建器集成转换为 CLI 集成。
-> 更多信息：<https://platform.zapier.com/reference/cli#convert>.
+> 更多信息：<https://platform.zapier.com/reference/cli#convert>。
 
 - 转换一个可视化构建器集成：
 

@@ -1,7 +1,7 @@
 # kcat
 
 > Apache Kafka 생산자 및 소비자 도구.
-> 더 많은 정보: <https://github.com/edenhill/kcat>.
+> 더 많은 정보: <https://manned.org/kcat>.
 
 - 최신 오프셋부터 메시지 소비:
 
@@ -13,7 +13,7 @@
 
 - Kafka 소비자 그룹으로 메시지 소비:
 
-`kcat -G {{그룹_ID}} {{토픽}} -b {{브로커}}`
+`kcat -G {{그룹_id}} {{토픽}} -b {{브로커}}`
 
 - `stdin`에서 읽어 메시지 게시:
 

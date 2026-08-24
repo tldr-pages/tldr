@@ -2,7 +2,7 @@
 
 > CLI for AWS S3 - provides storage through web services interfaces.
 > Some subcommands such as `cp` have their own usage documentation.
-> More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/index.html>.
+> More information: <https://docs.aws.amazon.com/cli/latest/reference/s3/>.
 
 - Show files in a bucket:
 

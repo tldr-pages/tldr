@@ -1,7 +1,7 @@
 # node
 
 > Piattaforma JavaScript Server-side (Node.js).
-> Maggiori informazioni: <https://nodejs.org>.
+> Maggiori informazioni: <https://nodejs.org/docs/latest/api/cli.html#options>.
 
 - Esegue un file JavaScript:
 

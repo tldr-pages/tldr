@@ -1,7 +1,7 @@
 # coredumpctl
 
 > Pobieraj i przetwarzaj zapisane zrzuty pamięci i metadane.
-> Więcej informacji: <https://www.freedesktop.org/software/systemd/man/coredumpctl.html>.
+> Więcej informacji: <https://www.freedesktop.org/software/systemd/man/latest/coredumpctl.html>.
 
 - Wyświetl wszystkie zapisane zrzuty pamięci:
 
@@ -13,7 +13,7 @@
 
 - Wyświetl informacje o zrzutach pamięci programu o podanym PID:
 
-`coredumpctl info {{PID}}`
+`coredumpctl info {{pid}}`
 
 - Wywołaj debugger używając ostatniego zrzutu pamięci programu:
 

@@ -1,7 +1,7 @@
 # docker build
 
 > Dockerfileからイメージを構築します。
-> もっと詳しく: <https://docs.docker.com/reference/cli/docker/buildx/build/>。
+> 詳細情報: <https://docs.docker.com/reference/cli/docker/buildx/build/>。
 
 - カレントディレクトリ内のDockerfileを使ってDockerイメージを構築する:
 
@@ -17,7 +17,7 @@
 
 - ビルドコンテキスト無しでDockerイメージを構築する:
 
-`docker build {{[-t|--tag]}} {{名前:タグ}} - < {{Dockerfile}}`
+`docker < {{Dockerfile}} build {{[-t|--tag]}} {{名前:タグ}} -`
 
 - Dockerイメージ構築時にキャッシュを使わないようにする:
 

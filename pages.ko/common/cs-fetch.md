@@ -11,11 +11,11 @@
 
 `CP="$(cs fetch --classpath org.scalameta::scalafmt-cli:latest.release)"`
 
-- 특정 jar의 소스를 가져옴:
+- 특정 `.jar`의 소스를 가져옴:
 
 `cs fetch --sources {{그룹_아이디}}:{{아티팩트_아이디}}:{{아티팩트_버전}}`
 
-- javadoc jar를 가져옴:
+- javadoc `.jar`를 가져옴:
 
 `cs fetch --javadoc {{그룹_아이디}}:{{아티팩트_아이디}}:{{아티팩트_버전}}`
 

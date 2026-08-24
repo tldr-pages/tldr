@@ -31,3 +31,7 @@
 - List bookmarks:
 
 `<:>blist<Enter>`
+
+- Follow links:
+
+`<f>{{link_number}}<Enter>`

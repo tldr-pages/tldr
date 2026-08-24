@@ -28,7 +28,7 @@ Clients SHOULD support passing `common` as an argument to the [platform flag](#a
 
 ## Command-line interface
 
-This section describes the standardised command-line interface (CLI) for clients implementing one. Clients that do not provide a CLI can ignore this section.
+This section describes the standardized command-line interface (CLI) for clients implementing one. Clients that do not provide a CLI can ignore this section.
 
 ### Arguments
 
@@ -133,11 +133,11 @@ Things to take into account:
 
 ### Examples
 
-- `ping {{example.com}}` MUST be rendered as "ping example.com"
-- `docker inspect --format '\{\{range.NetworkSettings.Networks\}\}\{\{.IPAddress\}\}\{\{end\}\}' {{container}}` MUST be rendered as "docker inspect --format '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' container"
-- `mount \\{{computer_name}}\{{share_name}} Z:` MUST be rendered as "mount \\\\computer_name\share_name Z:"
-- `git stash show --patch {{stash@{0}}}` MUST be rendered as "git stash show --patch stash@{0}"
-- `git add {{[-A|--all]}}` MUST be rendered as "git add -A" or "git add --all" when only short or longform is shown. It MUST be rendered as "git add [-A|--all]" when both are requested.
+- `` `ping {{example.com}}` `` MUST be rendered as `ping example.com`
+- `` `docker inspect --format '\{\{range.NetworkSettings.Networks\}\}\{\{.IPAddress\}\}\{\{end\}\}' {{container}}` `` MUST be rendered as `docker inspect --format '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' container`
+- `` `mount \\{{computer_name}}\{{share_name}} Z:` `` MUST be rendered as `mount \\computer_name\share_name Z:`
+- `` `git stash show --patch {{stash@{0}}}` `` MUST be rendered as `git stash show --patch stash@{0}`
+- `` `git add {{[-A|--all]}}` `` MUST be rendered as `git add -A` or `git add --all` when only short or longform is shown. It MUST be rendered as `git add [-A|--all]` when both are requested.
 
 ## Page resolution
 
@@ -235,8 +235,8 @@ Step  | Path checked         | Outcome
 If appropriate, it is RECOMMENDED that clients implement a cache of pages. If implemented, clients MUST download the entire archive either as a whole from **<https://github.com/tldr-pages/tldr/releases/latest/download/tldr.zip>** or download language-specific archives in the format `https://github.com/tldr-pages/tldr/releases/latest/download/tldr-pages.{{language-code}}.zip` (e.g. **<https://github.com/tldr-pages/tldr/releases/latest/download/tldr-pages.en.zip>**). The English archive is also available from **<https://github.com/tldr-pages/tldr/releases/latest/download/tldr-pages.zip>**.
 
 > [!CAUTION]
-> Prior to version 2.2, the client specification stated that clients MUST download archives from <https://tldr.sh/assets>. This method is now deprecated, and **_will be removed_** in December 2025.
-> Clients that still use the old location will therefore stop working next year.
+> Prior to version 2.2, the client specification stated that clients MUST download archives from <https://tldr.sh/assets>. After almost 2 years of being deprecated, the assets have been removed from this location on [**January 20 2026**](https://github.com/tldr-pages/tldr/pull/20565).
+> Clients that still use the old location can no longer download pages.
 
 Caching SHOULD be done according to the user's language configuration (if any), to not waste unneeded space for unused languages. Additionally, clients MAY automatically update the cache regularly.
 

@@ -2,7 +2,7 @@
 
 > Tambahkan atau ubah informasi dalam pangkalan data pengguna sistem operasi, termasuk syel masuk dan kata sandi.
 > Lihat juga: `passwd`.
-> Informasi lebih lanjut: <https://man.netbsd.org/chpass>.
+> Informasi lebih lanjut: <https://man.netbsd.org/chpass.1>.
 
 - Tentukan syel masuk secara spesifik untuk pengguna saat ini secara interaktif:
 

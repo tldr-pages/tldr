@@ -1,8 +1,8 @@
 # rbenv
 
 > 쉽게 Ruby 버전을 설치하고 애플리케이션 환경을 관리.
-> 같이 보기: `asdf`.
-> 더 많은 정보: <https://github.com/rbenv/rbenv>.
+> 관련 항목: `asdf`.
+> 더 많은 정보: <https://manned.org/rbenv>.
 
 - Ruby 버전 설치:
 

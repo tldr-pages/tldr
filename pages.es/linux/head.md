@@ -1,6 +1,7 @@
 # head
 
 > Muestra la primera parte de los archivos.
+> Vea también: `tail`.
 > Más información: <https://www.gnu.org/software/coreutils/manual/html_node/head-invocation.html>.
 
 - Muestra las primeras líneas de un archivo:

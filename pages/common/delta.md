@@ -1,6 +1,7 @@
 # delta
 
 > A viewer for Git and diff output.
+> See also: `diff`, `difft`.
 > More information: <https://dandavison.github.io/delta/full---help-output.html>.
 
 - Compare files or directories:

@@ -1,0 +1,7 @@
+# impacket-addcomputer
+
+> এই কমান্ডটি `addcomputer.py` - এর একটি উপনাম।
+
+- মূল কমান্ডের ডকুমেন্টেশন দেখুন:
+
+`tldr addcomputer.py`

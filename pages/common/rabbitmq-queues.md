@@ -1,7 +1,7 @@
 # rabbitmq-queues
 
 > Manage RabbitMQ queues.
-> More information: <https://www.rabbitmq.com/docs/man/rabbitmq-queues.8.html>.
+> More information: <https://www.rabbitmq.com/docs/man/rabbitmq-queues.8>.
 
 - Grow quorum queue clusters by adding a member on the specified node:
 

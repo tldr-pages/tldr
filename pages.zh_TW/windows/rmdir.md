@@ -1,7 +1,7 @@
 # rmdir
 
 > 刪除一個目錄和裡面的內容。
-> 更多資訊：<https://learn.microsoft.com/windows-server/administration/windows-commands/rmdir>.
+> 更多資訊：<https://learn.microsoft.com/windows-server/administration/windows-commands/rmdir>。
 
 - 刪除一個空目錄：
 

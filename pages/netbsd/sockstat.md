@@ -5,7 +5,7 @@
 > See also: `netstat`.
 > More information: <https://man.netbsd.org/sockstat.1>.
 
-- Show information for IPv4, IPv6 and Unix sockets for both listening and connected sockets:
+- Show information for IPv4, IPv6, and Unix sockets for both listening and connected sockets:
 
 `sockstat`
 

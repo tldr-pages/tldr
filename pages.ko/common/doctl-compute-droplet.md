@@ -5,12 +5,12 @@
 
 - 드롭릿 생성:
 
-`doctl compute droplet create --region {{지역}} --image {{os_이미지}} --size {{vps_타입}} {{드롭릿_이름}}`
+`doctl compute {{[d|droplet]}} {{[c|create]}} --region {{지역}} --image {{os_이미지}} --size {{vps_타입}} {{드롭릿_이름}}`
 
 - 드롭릿 삭제:
 
-`doctl compute droplet delete {{드롭릿_아이디|드롭릿_이름}}`
+`doctl compute {{[d|droplet]}} {{[d|delete]}} {{드롭릿_아이디|드롭릿_이름}}`
 
 - 드롭릿 나열:
 
-`doctl compute droplet list`
+`doctl compute {{[d|droplet]}} {{[ls|list]}}`

@@ -1,7 +1,7 @@
 # startx
 
 > A front-end to `xinit` that provides a nice user interface for running a single session of the X Window System.
-> More information: <https://x.org/releases/X11R7.5/doc/man/man1/startx.1.html>.
+> More information: <https://www.x.org/releases/X11R7.6/doc/man/man1/startx.1.xhtml>.
 
 - Start an X session:
 

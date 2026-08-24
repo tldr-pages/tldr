@@ -5,4 +5,4 @@
 
 - IP 주소(IPv4 및 IPv6)를 해당 ARPA 이름으로 변환:
 
-`arpaname {{IP_주소}}`
+`arpaname {{ip_주소}}`

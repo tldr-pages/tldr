@@ -2,7 +2,7 @@
 
 > Typst 파일을 PDF로 컴파일.
 > 참고: 출력 위치 지정은 선택 사항입니다.
-> 더 많은 정보: <https://github.com/typst/typst>.
+> 더 많은 정보: <https://manned.org/typst>.
 
 - 주어진 디렉터리에 템플릿(예: `@preview/charged-ieee`)을 사용하여 새로운 Typst 프로젝트 초기화:
 

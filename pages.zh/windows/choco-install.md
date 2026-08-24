@@ -1,7 +1,7 @@
 # choco install
 
 > 使用 Chocolatey 下载一个或多个包。
-> 更多信息：<https://chocolatey.org/docs/commands-install>.
+> 更多信息：<https://docs.chocolatey.org/en-us/choco/commands/install/>。
 
 - 安装一个或多个用空格分隔的软件包：
 
@@ -11,7 +11,7 @@
 
 `choco install {{配置文件的路径}}`
 
-- 安装一个特定的 "nuspec" 或 "nupkg" 文件：
+- 安装一个特定的 `.nuspec` 或 `.nupkg` 文件：
 
 `choco install {{文件的路径}}`
 
@@ -25,12 +25,12 @@
 
 - 自动确认所有提示：
 
-`choco install {{包名}} --yes`
+`choco install {{包名}} {{[-y|--yes]}}`
 
 - 从自定义的源处获取包：
 
-`choco install {{包名}} --source {{源 URL|别名}}`
+`choco install {{包名}} {{[-s|--source]}} {{源url|别名}}`
 
 - 提供一个用户名和密码来进行验证：
 
-`choco install {{包名}} --user {{用户名}} --password {{密码}}`
+`choco install {{包名}} {{[-u|--user]}} {{用户名}} {{[-p|--password]}} {{密码}}`

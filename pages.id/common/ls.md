@@ -17,7 +17,7 @@
 
 - Tampilkan daftar isi berformat panjang (menampilkan izin, kepemilikan, ukuran dan waktu modifikasi pada setiap berkas):
 
-`ls {{[-la|--all -l]}}`
+`ls {{[-la|-l --all]}}`
 
 - Tampilkan daftar isi berformat panjang dan ukuran ditampilkan menggunakan unit yang mudah dibaca manusia (KiB, MiB, GiB):
 
@@ -25,7 +25,7 @@
 
 - Tampilkan daftar isi seluruh berkas secara rekursif, berformat panjang dan diurutkan berdasarkan ukuran (menurun):
 
-`ls {{-lSR|-lS --recursive}}`
+`ls {{[-lSR|-lS --recursive]}}`
 
 - Tampilkan daftar isi berformat panjang dari semua berkas dan diurutkan berdasarkan tanggal modifikasi (terlama dulu):
 

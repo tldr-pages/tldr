@@ -1,7 +1,7 @@
 # systemctl hibernate
 
 > Hibernate the system by saving the current state to disk and powering off.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#hibernate>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#hibernate>.
 
 - Hibernate the system immediately:
 
@@ -9,7 +9,7 @@
 
 - Force hibernation even if inhibitors are present:
 
-`systemctl hibernate --force`
+`systemctl hibernate {{[-f|--force]}}`
 
 - Hibernate the system without sending a message to logged-in users:
 

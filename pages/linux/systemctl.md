@@ -2,7 +2,7 @@
 
 > Control the systemd system and service manager.
 > Some subcommands such as `disable`, `status`, `reboot` etc. have their own usage documentation.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html>.
 
 - Show all running services:
 
@@ -30,7 +30,7 @@
 
 - List all service/socket/automount units filtering by running/failed state:
 
-`systemctl list-units {{[-t|--type]}} {{service|socket|automount}} --state {{failed|running}}`
+`systemctl list-units {{[-t|--type]}} {{service|socket|automount|...}} --state {{failed|running}}`
 
 - Show the contents & absolute path of a unit file or edit it:
 

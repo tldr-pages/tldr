@@ -14,4 +14,4 @@
 
 - Log in to an insecure (HTTP) registry:
 
-`podman login --tls-verify=false {{registry.example.org}}`
+`podman login --tls-verify false {{registry.example.org}}`

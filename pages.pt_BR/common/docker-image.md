@@ -1,12 +1,12 @@
 # docker image
 
 > Gerencia imagens do Docker.
-> Veja também `docker build`, `docker import` e `docker pull`.
+> Veja também: `docker build`, `docker image pull`, `docker image rm`.
 > Mais informações: <https://docs.docker.com/reference/cli/docker/image/>.
 
 - Lista imagens Docker locais:
 
-`docker image ls`
+`docker {{[images|image ls]}}`
 
 - Exclui imagens Docker locais não utilizadas:
 
@@ -14,8 +14,8 @@
 
 - Exclui todas as imagens não utilizadas (não apenas aquelas sem uma etiqueta):
 
-`docker image prune --all`
+`docker image prune {{[-a|--all]}}`
 
 - Mostra o histórico de uma imagem Docker local:
 
-`docker image history {{imagem}}`
+`docker {{[history|image history]}} {{imagem}}`

@@ -1,7 +1,7 @@
 # wasm-objdump
 
 > Display information from WebAssembly binaries.
-> More information: <https://github.com/WebAssembly/wabt>.
+> More information: <https://webassembly.github.io/wabt/doc/wasm-objdump.1.html>.
 
 - Display the section headers of a given binary:
 

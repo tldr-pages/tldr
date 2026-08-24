@@ -1,6 +1,7 @@
 # ffmpeg
 
 > Tool per convertire audio e video.
+> Vedi anche: `gst-launch-1.0`.
 > Maggiori informazioni: <https://ffmpeg.org/ffmpeg.html#Options>.
 
 - Estrai l'audio da un video e salvalo come MP3:
@@ -25,7 +26,7 @@
 
 - Effettua un remux di un video MKV a MP4 senza re-encodare gli stream audio o video:
 
-`ffmpeg -i {percorso/del/{input_video}}.mkv {{[-c|-codec]}} copy {{percorso/del/output_video}}.mp4`
+`ffmpeg -i {{percorso/del/input_video}}.mkv {{[-c|-codec]}} copy {{percorso/del/output_video}}.mp4`
 
 - Converti un video MP4 a codec VP9. Per ottenere la migliore qualità possibile, usa un valore di CRF (consigliabile tra 15-35) e -b:v DEVE essere 0:
 

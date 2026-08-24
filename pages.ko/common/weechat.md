@@ -1,7 +1,7 @@
 # weechat
 
 > 다양한 기능을 갖춘 명령줄 인터넷 릴레이 채팅 클라이언트.
-> 더 많은 정보: <https://weechat.org/doc>.
+> 더 많은 정보: <https://weechat.org/doc/>.
 
 - WeeChat 시작:
 

@@ -2,7 +2,7 @@
 
 > Offline search engine for documentation.
 > Supports manual pages, Arch Wiki, Gentoo Wiki, FreeBSD documentation, and tldr-pages.
-> More information: <https://github.com/filiparag/wikiman>.
+> More information: <https://github.com/filiparag/wikiman#usage>.
 
 - Search for a specific topic in all installed sources:
 

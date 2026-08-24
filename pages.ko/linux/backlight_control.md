@@ -1,7 +1,7 @@
 # backlight_control
 
 > Linux 시스템의 백라이트를 백분율 값으로 제어합니다.
-> 더 많은 정보: <https://github.com/Hendrikto/backlight_control>.
+> 더 많은 정보: <https://github.com/Hendrikto/backlight_control#usage>.
 
 - 백라이트를 특정 백분율만큼 증가/감소:
 

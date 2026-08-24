@@ -2,7 +2,7 @@
 
 > Check out GitHub pull requests locally.
 > Part of `git-extras`.
-> More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-pr>.
+> More information: <https://github.com/tj/git-extras/blob/main/Commands.md#git-pr>.
 
 - Check out a specific pull request:
 

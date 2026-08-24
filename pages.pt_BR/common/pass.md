@@ -2,11 +2,11 @@
 
 > Guarda e lê senhas ou outras informações sensíveis.
 > Todos os dados são criptografados com GPG e gerenciados por um repositório Git.
-> Mais informações: <https://www.passwordstore.org>.
+> Mais informações: <https://git.zx2c4.com/password-store/about/>.
 
 - Inicia (ou recriptografa) o armazenamento usando um ou mais IDs GPG:
 
-`pass init {{gpg_id_1}} {{gpg_id_2}}`
+`pass init {{gpg_id_1 gpg_id_2 ...}}`
 
 - Salva uma nova senha e informações adicionais (pressione `<Ctrl d>` em uma nova linha para completar):
 

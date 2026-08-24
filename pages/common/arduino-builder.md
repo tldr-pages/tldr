@@ -22,4 +22,4 @@
 
 - Enable verbose mode:
 
-`arduino-builder -verbose {{true}}`
+`arduino-builder -verbose true`

@@ -1,7 +1,8 @@
 # bluetoothctl
 
 > 从命令行管理蓝牙设备。
-> 更多信息：<https://manned.org/bluetoothctl>.
+> 另请参阅：`bluetui`。
+> 更多信息：<https://manned.org/bluetoothctl>。
 
 - 进入 bluetoothctl 外壳程序：
 

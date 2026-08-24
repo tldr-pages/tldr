@@ -13,7 +13,7 @@
 
 - Ejecuta un prompt de [s]istema contra un archivo:
 
-`cat {{ruta/al/archivo.py}} | llm --system "{{Explica este código}}"`
+`cat {{ruta/al/archivo.py}} | llm {{[-s|--system]}} "{{Explica este código}}"`
 
 - Instala paquetes de PyPI en el mismo entorno que LLM:
 
@@ -21,12 +21,12 @@
 
 - Descarga y ejecuta un prompt frente a un [m]odelo:
 
-`llm --model {{orca-mini-3b-gguf2-q4_0}} "{{¿Cuál es la capital de Francia?}}"`
+`llm {{[-m|--model]}} {{orca-mini-3b-gguf2-q4_0}} "{{¿Cuál es la capital de Francia?}}"`
 
 - Crea un prompt de [s]istema y lo [s]alva como una plantilla:
 
-`llm --system '{{Eres una torta de queso sensible}}' --save {{torta_de_queso_sensible}}`
+`llm {{[-s|--system]}} '{{Eres una torta de queso sensible}}' --save {{torta_de_queso_sensible}}`
 
 - Establece un chat interactivo con un [m]odelo específico utilizando una plan[t]illa específica:
 
-`llm chat --model {{chatgpt}} --template {{torta_de_queso_sensible}}`
+`llm chat {{[-m|--model]}} {{chatgpt}} {{[-t|--template]}} {{torta_de_queso_sensible}}`

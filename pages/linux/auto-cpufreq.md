@@ -1,7 +1,7 @@
 # auto-cpufreq
 
 > Automatic CPU speed & power optimizer.
-> More information: <https://github.com/AdnanHodzic/auto-cpufreq>.
+> More information: <https://github.com/AdnanHodzic/auto-cpufreq#auto-cpufreq-modes-and-options>.
 
 - Run `auto-cpufreq` in a specific mode:
 

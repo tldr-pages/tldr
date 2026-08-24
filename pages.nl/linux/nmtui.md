@@ -2,6 +2,7 @@
 
 > Tekstgebruikersinterface voor controle over NetworkManager.
 > Gebruik `<ArrowKeys>` om te navigeren en gebruik `<Enter>` om een optie te selecteren.
+> Zie ook: `nmcli`.
 > Meer informatie: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmtui.html>.
 
 - Open de gebruikersinterface:
@@ -14,7 +15,7 @@
 
 - Verbind met een gegeven netwerk:
 
-`nmtui connect {{naam|uuid|apparaat|SSID}}`
+`nmtui connect {{naam|uuid|apparaat|ssid}}`
 
 - Pas aan/Voeg toe/Verwijder een gegeven netwerk:
 

@@ -2,7 +2,7 @@
 
 > Vote for packages in the Arch User Repository.
 > To be able to vote, the file `~/.config/aurvote` must exist and contain your AUR credentials.
-> More information: <https://github.com/archlinuxfr/aurvote>.
+> More information: <https://github.com/archlinuxfr/aurvote#name>.
 
 - Interactively create the file `~/.config/aurvote` containing your AUR username and password:
 

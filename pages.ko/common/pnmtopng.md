@@ -9,4 +9,4 @@
 
 - 버전 표시:
 
-`pnmtopng -version`
+`pnmtopng {{[-vers|-version]}}`

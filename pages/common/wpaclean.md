@@ -2,7 +2,7 @@
 
 > Clean capture files to get only the 4-way handshake and a beacon.
 > Part of Aircrack-ng network software suite.
-> More information: <https://manned.org/wpaclean.1>.
+> More information: <https://manned.org/wpaclean>.
 
 - Clean capture and save only the 4-way handshake and a beacon in the result:
 

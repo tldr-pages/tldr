@@ -2,9 +2,9 @@
 
 > 删除一个或多个文件。
 > 在 PowerShell 中，此命令为 `Remove-Item` 的別名。本页的描述是基于命令提示符 (`cmd`) 中的 `del`。
-> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/del>.
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/del>。
 
-- 查阅 PowerShell 的对应命令:
+- 查阅 PowerShell 的对应命令：
 
 `tldr remove-item`
 
@@ -28,10 +28,10 @@
 
 `del {{文件}} /q`
 
-- 显示帮助和所有的属性列表：
-
-`del /?`
-
 - 根据指定的属性删除文件：
 
 `del {{文件}} /a {{属性}}`
+
+- 显示帮助和所有的属性列表：
+
+`del /?`

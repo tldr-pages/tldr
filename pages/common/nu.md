@@ -2,7 +2,7 @@
 
 > Nushell ("a new type of shell") takes a modern, structured approach to your command-line.
 > See also: `elvish`.
-> More information: <https://www.nushell.sh>.
+> More information: <https://www.nushell.sh/book/configuration.html#flag-behavior>.
 
 - Start an interactive shell session:
 
@@ -10,7 +10,7 @@
 
 - Execute specific commands:
 
-`nu --commands "{{echo 'nu is executed'}}"`
+`nu {{[-c|--commands]}} "{{echo 'nu is executed'}}"`
 
 - Execute a specific script:
 

@@ -13,4 +13,4 @@
 
 - Habilita un linter específico para esta ejecución:
 
-`golangci-lint run --enable {{linter}}`
+`golangci-lint run {{[-E|--enable]}} {{linter}}`

@@ -1,7 +1,7 @@
 # lazygit
 
 > Una sencilla interfaz de terminal para comandos Git, que proporciona una interfaz intuitiva para gestionar repositorios.
-> Más información: <https://github.com/jesseduffield/lazygit>.
+> Más información: <https://manned.org/lazygit>.
 
 - Abre Lazygit en el repositorio actual:
 
@@ -9,7 +9,7 @@
 
 - Abre Lazygit para un repositorio Git específico:
 
-`lazygit --path {{ruta/a/repositorio}}`
+`lazygit {{[-p|--path]}} {{ruta/a/repositorio}}`
 
 - Inicia Lazygit con el foco en un panel específico:
 
@@ -17,16 +17,16 @@
 
 - Imprime la configuración por defecto de Lazygit:
 
-`lazygit --config`
+`lazygit {{[-c|--config]}}`
 
 - Cola los registros de Lazygit (útil con el modo de depuración en otro terminal):
 
-`lazygit --logs`
+`lazygit {{[-l|--logs]}}`
 
 - Ejecuta Lazygit en modo depuración:
 
-`lazygit --debug`
+`lazygit {{[-d|--debug]}}`
 
 - Imprime el directorio de configuración:
 
-`lazygit --print-config-dir`
+`lazygit {{[-cd|--print-config-dir]}}`

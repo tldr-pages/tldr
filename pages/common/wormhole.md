@@ -1,7 +1,7 @@
 # wormhole
 
 > Get things from one computer to another, safely.
-> More information: <https://magic-wormhole.readthedocs.io>.
+> More information: <https://magic-wormhole.readthedocs.io/en/latest/welcome.html#cli-tool>.
 
 - Send a file:
 
@@ -11,7 +11,7 @@
 
 `wormhole receive {{wormhole_code}}`
 
-- Send raw text:
+- Send raw text interactively:
 
 `wormhole send`
 

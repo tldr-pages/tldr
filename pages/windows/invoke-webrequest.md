@@ -1,12 +1,16 @@
 # Invoke-WebRequest
 
-> Performs a HTTP/HTTPS request to the Web.
+> Perform a HTTP/HTTPS request to the Web.
 > Note: This command can only be used through PowerShell.
 > More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - Download the contents of a URL to a file:
 
 `Invoke-WebRequest {{http://example.com}} -OutFile {{path\to\file}}`
+
+- Only return raw HTML data instead of parsing it under Internet Explorer (PowerShell 3.0-5.1 only):
+
+`Invoke-WebRequest {{http://example.com}} -UseBasicParsing`
 
 - Send form-encoded data (POST request of type `application/x-www-form-urlencoded`):
 

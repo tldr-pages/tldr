@@ -2,7 +2,7 @@
 
 > 출발할 시간이 되었을 때 알림을 설정.
 > 알림을 제거하려면 `kill $(pidof leave)` 사용.
-> 더 많은 정보: <https://www.freebsd.org/cgi/man.cgi?query=leave>.
+> 더 많은 정보: <https://man.freebsd.org/cgi/man.cgi?leave>.
 
 - 지정된 시간에 알림 설정:
 

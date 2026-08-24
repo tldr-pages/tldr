@@ -1,12 +1,12 @@
 # fdisk
 
 > Gerencia de tabelas de partições e partições em um disco rígido.
-> Veja também: `partprobe`.
+> Veja também: `partprobe`, `parted`, `cfdisk`.
 > Mais informações: <https://manned.org/fdisk>.
 
 - Lista partições:
 
-`sudo fdisk -l`
+`sudo fdisk {{[-l|--list]}}`
 
 - Inicia o manipulador de partições:
 

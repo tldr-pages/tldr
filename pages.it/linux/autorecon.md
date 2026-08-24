@@ -1,7 +1,7 @@
 # autorecon
 
 > Uno strumento multi-threaded di ricognizione di rete che esegue l'enumerazione automatica dei servizi.
-> Maggiori informazioni: <https://github.com/Tib3rius/AutoRecon>.
+> Maggiori informazioni: <https://github.com/AutoRecon/AutoRecon>.
 
 - Esegui la ricognizione su uno o più host di destinazione (i risultati dettagliati della scansione verranno salvati in `./results`):
 

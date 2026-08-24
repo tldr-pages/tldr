@@ -1,8 +1,8 @@
 # jupyter
 
-> Web application to create and share documents that contain code, visualizations and notes.
-> Primarily used for data analysis, scientific computing and machine learning.
-> More information: <https://docs.jupyter.org/en/latest/>.
+> Web application to create and share documents that contain code, visualizations, and notes.
+> Primarily used for data analysis, scientific computing, and machine learning.
+> More information: <https://docs.jupyter.org/en/latest/use/jupyter-command.html>.
 
 - Start a Jupyter notebook server in the current directory:
 
@@ -10,11 +10,11 @@
 
 - Open a specific Jupyter notebook:
 
-`jupyter notebook {{example.ipynb}}`
+`jupyter notebook {{path/to/file}}.ipynb`
 
 - Export a specific Jupyter notebook into another format:
 
-`jupyter nbconvert --to {{html|markdown|pdf|script}} {{example.ipynb}}`
+`jupyter nbconvert --to {{html|markdown|pdf|script|...}} {{path/to/file}}.ipynb`
 
 - Start a server on a specific port:
 

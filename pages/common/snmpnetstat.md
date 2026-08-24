@@ -5,7 +5,7 @@
 
 - Fetch the networking status:
 
-`snmpnetstat -v {{version}} -c {{community}} {{ip}}`
+`snmpnetstat -v {{version}} -c {{community}} {{ip_address}}`
 
 - Display help:
 

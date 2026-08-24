@@ -1,7 +1,7 @@
 # acyclic
 
 > 일부 간선을 반전시켜 방향성 그래프를 순환이 없는 그래프로 변환합니다.
-> Graphviz 필터: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, & `unflatten`.
+> Graphviz 필터: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, 및 `unflatten`.
 > 더 많은 정보: <https://graphviz.org/pdf/acyclic.1.pdf>.
 
 - 일부 간선을 반전시켜 방향성 그래프를 순환이 없는 그래프로 변환:

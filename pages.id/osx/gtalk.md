@@ -1,6 +1,6 @@
 # gtalk
 
-> Perintah ini merupakan alias dari `-p linux talk`.
+> Perintah ini merupakan alias dari GNU `talk`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 

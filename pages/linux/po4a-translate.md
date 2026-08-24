@@ -2,7 +2,7 @@
 
 > Convert a PO file back to documentation format.
 > The provided PO file should be the translation of the POT file which was produced by `po4a-gettextize`.
-> More information: <https://po4a.org/man/man1/po4a-translate.1.php>.
+> More information: <https://www.po4a.org/man/man1/po4a-translate.1.php>.
 
 - Convert a translated PO file back to a document:
 

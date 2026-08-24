@@ -2,7 +2,7 @@
 
 > 두 저장소의 히스토리를 병합.
 > `git-extras`의 일부.
-> 더 많은 정보: <https://github.com/tj/git-extras/blob/master/Commands.md#git-merge-repo>.
+> 더 많은 정보: <https://github.com/tj/git-extras/blob/main/Commands.md#git-merge-repo>.
 
 - 저장소의 브랜치를 현재 저장소의 디렉토리에 병합:
 

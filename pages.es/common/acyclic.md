@@ -1,7 +1,7 @@
 # acyclic
 
 > Haz un gráfico acíclico invirtiendo algunos bordes.
-> Filtros Graphviz: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, & `unflatten`.
+> Filtros Graphviz: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, y `unflatten`.
 > Más información: <https://graphviz.org/pdf/acyclic.1.pdf>.
 
 - Haz un gráfico acíclico invirtiendo algunos bordes:

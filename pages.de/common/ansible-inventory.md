@@ -2,7 +2,7 @@
 
 > Anzeigen oder Ausgeben eines Ansible-Inventars.
 > Siehe auch: `ansible`.
-> Weitere Informationen: <https://docs.ansible.com/ansible/latest/cli/ansible-inventory.html>.
+> Weitere Informationen: <https://docs.ansible.com/projects/ansible/latest/cli/ansible-inventory.html>.
 
 - Anzeigen des Standardinventars:
 

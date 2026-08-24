@@ -1,0 +1,7 @@
+# xzegrep
+
+> এই কমান্ডটি `xzgrep --extended-regexp` - এর একটি উপনাম।
+
+- মূল কমান্ডের ডকুমেন্টেশন দেখুন:
+
+`tldr xzgrep`

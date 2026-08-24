@@ -15,7 +15,7 @@
 
 `hledger print {{[-f|--file]}} {{path/to/2023.journal}} {{[-f|--file]}} {{path/to/2024.journal}} {{[-B|--cost]}}`
 
-- Show `$` transactions in `*food*` but not `*groceries*` accounts this month:
+- Show `$` transactions this month in accounts whose name contains `food` but not `groceries`:
 
 `hledger print cur:\\$ food not:groceries date:thismonth`
 

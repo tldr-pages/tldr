@@ -1,6 +1,7 @@
 # cargo fmt
 
 > Rust 프로젝트의 모든 소스 파일에 대해 `rustfmt`를 실행.
+> 관련 항목: `rustfmt`.
 > 더 많은 정보: <https://github.com/rust-lang/rustfmt>.
 
 - 모든 소스 파일 포맷:

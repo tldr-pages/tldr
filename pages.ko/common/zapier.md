@@ -2,7 +2,7 @@
 
 > Zapier 통합을 생성, 자동화 및 관리.
 > `build`, `init`, `scaffold`, `push`, `test` 등의 일부 하위 명령에는 자체 사용 설명서가 있습니다.
-> 더 많은 정보: <https://platform.zapier.com/reference/cli>.
+> 더 많은 정보: <https://github.com/zapier/zapier-platform/blob/main/packages/cli/docs/cli.md>.
 
 - Zapier 계정에 연결:
 

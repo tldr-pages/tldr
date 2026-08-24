@@ -1,7 +1,7 @@
 # snake4
 
 > 터미널에서 실행하는 뱀 게임.
-> 더 많은 정보: <https://manned.org/snake4.6>.
+> 더 많은 정보: <https://manned.org/snake4>.
 
 - 뱀 게임 시작:
 

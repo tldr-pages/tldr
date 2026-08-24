@@ -5,12 +5,12 @@
 
 - Belirtilen işlemin limit ve izinlerini incele:
 
-`prctl {{PID}}`
+`prctl {{pid}}`
 
 - İşlem limit ve izinlerini makineye dayanıklı fortmattaExamine process limits and permissions in machine parsable format:
 
-`prctl -P {{PID}}`
+`prctl -P {{pid}}`
 
 - Çalışan işlem için belirtilen limiti öğren:
 
-`prctl -n process.max-file-descriptor {{PID}}`
+`prctl -n process.max-file-descriptor {{pid}}`

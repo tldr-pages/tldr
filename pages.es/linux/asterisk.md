@@ -25,7 +25,7 @@
 
 - Termina un canal:
 
-`asterisk -r -x "hangup request {{ID_del_canal}}"`
+`asterisk -r -x "hangup request {{id_del_canal}}"`
 
 - Recarga la configuración de chan_SIP:
 

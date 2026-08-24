@@ -1,7 +1,7 @@
 # less
 
 > Apri un file per lettura interattiva, permettendo di scorrere e cercare testo al suo interno.
-> Maggiori informazioni: <https://greenwoodsoftware.com/less/>.
+> Maggiori informazioni: <https://manned.org/less>.
 
 - Apri un file:
 

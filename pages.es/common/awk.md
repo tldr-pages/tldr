@@ -1,6 +1,8 @@
 # awk
 
 > Un versátil lenguaje de programación para trabajar con archivos.
+> Nota: Las diferentes implementaciones de AWK suelen convertirlo en un enlace simbólico de su binario.
+> Vea también: `gawk`.
 > Más información: <https://github.com/onetrueawk/awk>.
 
 - Imprime la quinta columna (también conocida como campo) de un archivo separado por espacios:
@@ -29,7 +31,7 @@
 
 - Imprime todas las líneas en las que el valor de la 10ª columna está entre un mínimo y un máximo:
 
-`awk '($10 >= {{valor_mínimo}} && $10 <= {{valor_máximo}})'`
+`awk '($10 >= {{valor_mínimo}} && $10 <= {{valor_máximo}})' {{ruta/al/archivo}}`
 
 - Imprime tabla de usuarios con UID >=1000 con cabecera y salida formateada, usando dos puntos como separador (`%-20s` significa: 20 caracteres de cadena alineados a la izquierda, `%6s` significa: 6 caracteres de cadena alineados a la derecha):
 

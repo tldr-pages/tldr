@@ -14,7 +14,7 @@
 
 - Toon systeemarchitectuur en processorinformatie:
 
-`uname {{[-mp|--machine --processsor]}}`
+`uname {{[-mp|--machine --processor]}}`
 
 - Toon kernelnaam, kernelrelease en kernelversie:
 

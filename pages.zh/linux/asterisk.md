@@ -2,7 +2,7 @@
 
 > 电话和交换（手机）服务器。
 > 用于管理服务器自身和管理已经在运行的实例。
-> 更多信息：<https://docs.asterisk.org/Operation/>.
+> 更多信息：<https://docs.asterisk.org/Operation/>。
 
 - 重新连接一个正在运行的服务器，并打开 3 级的日志详细度：
 
@@ -26,7 +26,7 @@
 
 - 终止一个频道：
 
-`asterisk -r -x "hangup request {{频道 ID}}"`
+`asterisk -r -x "hangup request {{频道_id}}"`
 
 - 重新载入 chan_SIP 设置：
 

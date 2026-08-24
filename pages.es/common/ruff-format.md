@@ -2,7 +2,7 @@
 
 > Un formador de código Python extremadamente rápido.
 > Si no se especifican archivos o directorios, se utiliza el directorio de trabajo actual de forma predeterminada.
-> Más información: <https://docs.astral.sh/ruff/formatter>.
+> Más información: <https://docs.astral.sh/ruff/formatter/>.
 
 - Formatea los archivos o directorios:
 

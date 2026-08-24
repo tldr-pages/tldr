@@ -10,7 +10,7 @@
 
 - Sincroniza archivos locales de la ruta especificada a DBFS y vigila los cambios:
 
-`dbx sync dbfs --source {{ruta/a/directorio}} --dest {{ruta/a/directorio_remoto}}`
+`dbx sync dbfs --source {{ruta/al/directorio}} --dest {{ruta/al/directorio_remoto}}`
 
 - Despliega el flujo de trabajo especificado en el almacenamiento de artefactos:
 

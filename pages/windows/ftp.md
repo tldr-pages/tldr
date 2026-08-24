@@ -19,15 +19,15 @@
 
 `ftp -s:{{path\to\file}} {{host}}`
 
-- Download multiple files (glob expression):
+- [Interactive] Download multiple files (glob expression):
 
 `mget {{*.png}}`
 
-- Upload multiple files (glob expression):
+- [Interactive] Upload multiple files (glob expression):
 
 `mput {{*.zip}}`
 
-- Delete multiple files on the remote server:
+- [Interactive] Delete multiple files on the remote server:
 
 `mdelete {{*.txt}}`
 

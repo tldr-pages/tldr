@@ -1,7 +1,7 @@
 # pip freeze
 
 > List installed packages in requirements format.
-> More information: <https://pip.pypa.io/en/stable/cli/pip_freeze>.
+> More information: <https://pip.pypa.io/en/stable/cli/pip_freeze/>.
 
 - List installed packages:
 

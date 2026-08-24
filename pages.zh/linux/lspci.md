@@ -1,7 +1,7 @@
 # lspci
 
 > 列出所有 PCI 设备。
-> 更多信息：<https://manned.org/lspci>.
+> 更多信息：<https://manned.org/lspci>。
 
 - 显示设备的简要列表：
 

@@ -2,7 +2,7 @@
 
 > 将文件系统与其挂载点解除链接，使其不再可访问。
 > 当文件系统正在使用时，无法卸载。
-> 更多信息：<https://man.openbsd.org/umount>.
+> 更多信息：<https://man.openbsd.org/umount>。
 
 - 卸载文件系统，通过传递挂载源的路径：
 

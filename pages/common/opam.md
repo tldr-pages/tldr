@@ -1,7 +1,7 @@
 # opam
 
 > OCaml Package Manager.
-> Manage OCaml compilers, tools and libraries.
+> Manage OCaml compilers, tools, and libraries.
 > More information: <https://opam.ocaml.org/doc/Usage.html>.
 
 - Initialize opam for first use:

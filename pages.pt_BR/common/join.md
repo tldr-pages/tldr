@@ -9,7 +9,7 @@
 
 - Junta dois arquivos usando uma vírgula (em vez de um espaço) como separador de campo:
 
-`join -t {{','}} {{caminho/para/arquivo1}} {{caminho/para/arquivo2}}`
+`join -t ',' {{caminho/para/arquivo1}} {{caminho/para/arquivo2}}`
 
 - Junta campo3 do arquivo1 ao campo1 do arquivo2:
 

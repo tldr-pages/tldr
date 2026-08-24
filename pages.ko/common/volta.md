@@ -1,7 +1,7 @@
 # volta
 
 > Node.js 런타임, npm 및 Yarn 패키지 관리자 또는 npm에서 제공하는 바이너리를 설치하는 JavaScript 도구 관리자.
-> 더 많은 정보: <https://volta.sh>.
+> 더 많은 정보: <https://docs.volta.sh/reference/>.
 
 - 설치된 모든 도구 나열:
 

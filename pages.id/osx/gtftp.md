@@ -1,6 +1,6 @@
 # gtftp
 
-> Perintah ini merupakan alias dari `-p linux tftp`.
+> Perintah ini merupakan alias dari GNU `tftp`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 

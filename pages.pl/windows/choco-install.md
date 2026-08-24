@@ -1,7 +1,7 @@
 # choco install
 
 > Instalacja jednej lub więcej paczek zarządzanych przez Chocolatey.
-> Więcej informacji: <https://chocolatey.org/docs/commands-install>.
+> Więcej informacji: <https://docs.chocolatey.org/en-us/choco/commands/install/>.
 
 - Instalacja jednego lub więcej pakietów (oddzielonych spacją):
 
@@ -11,7 +11,7 @@
 
 `choco install {{ścieżka/do/plik_konfiguracyjny.config}}`
 
-- Instalacja podanej specyfikacji nuspec lub pliku nupkg:
+- Instalacja podanej specyfikacji `.nuspec` lub pliku `.nupkg`:
 
 `choco install {{ścieżka/do/pliku}}`
 
@@ -25,12 +25,12 @@
 
 - Automatyczna akceptacja wszystkich monitów podczas instalacji:
 
-`choco install {{pakiet}} --yes`
+`choco install {{pakiet}} {{[-y|--yes]}}`
 
 - Ustawienie określonego źródła/repozytorium pakietów:
 
-`choco install {{pakiet}} --source {{adres_url|alias}}`
+`choco install {{pakiet}} {{[-s|--source]}} {{adres_url|alias}}`
 
 - Podanie nazwy użytkownika i hasła do uwierzytelnienia:
 
-`choco install {{pakiet}} --user {{nazwa_użytkownika}} --password {{hasło}}`
+`choco install {{pakiet}} {{[-u|--user]}} {{nazwa_użytkownika}} {{[-p|--password]}} {{hasło}}`

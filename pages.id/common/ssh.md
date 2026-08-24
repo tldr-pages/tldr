@@ -10,7 +10,7 @@
 
 - Terhubung ke server jarak jauh dengan identitas (kunci privat) tertentu:
 
-`ssh -i {{lokasi/ke/berkas_kunci}} {{nama_pengguna}}@{{host_jarak_jauh}}`
+`ssh {{nama_pengguna}}@{{host_jarak_jauh}} -i {{lokasi/ke/berkas_kunci}}`
 
 - Terhubung ke server jarak jauh dengan IP `10.0.0.1` dan menggunakan [p]ort tertentu (Catatan: `10.0.0.1` bisa disingkat menjadi `10.1`):
 
@@ -22,15 +22,15 @@
 
 - SSH tunneling: [D]ynamic port forwarding (proksi SOCKS pada `localhost:1080`):
 
-`ssh -D {{1080}} {{nama_pengguna}}@{{host_jarak_jauh}}`
+`ssh {{nama_pengguna}}@{{host_jarak_jauh}} -D {{1080}}`
 
 - SSH tunneling: Meneruskan (forward) port tertentu (`localhost:9999` ke `example.org:80`) sekaligus menonaktifkan alokasi pseudo-[T]ty dan eksekusi perintah jarak jauh ([N]):
 
-`ssh -L {{9999}}:{{example.org}}:{{80}} -N -T {{nama_pengguna}}@{{host_jarak_jauh}}`
+`ssh {{nama_pengguna}}@{{host_jarak_jauh}} -L {{9999}}:{{example.org}}:{{80}} -N -T`
 
 - SSH [J]umping: Terhubung ke server jarak jauh melalui sebuah jumphost (Beberapa lompatan jump dapat ditentukan, dipisahkan dengan koma):
 
-`ssh -J {{nama_pengguna}}@{{host_jump}} {{nama_pengguna}}@{{host_jarak_jauh}}`
+`ssh {{nama_pengguna}}@{{host_jarak_jauh}} -J {{nama_pengguna}}@{{host_jump}}`
 
 - Tutup sesi yang macet (hang):
 

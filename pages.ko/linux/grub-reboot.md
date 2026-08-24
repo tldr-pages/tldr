@@ -9,4 +9,4 @@
 
 - 다음 부팅을 위해 대체 부팅 디렉토리의 항목 번호, 이름 또는 식별자로 기본 부팅 항목 설정:
 
-`sudo grub-reboot --boot-directory {{/경로/대상/부팅_디렉토리}} {{항목_번호}}`
+`sudo grub-reboot --boot-directory /{{경로/대상/부팅_디렉토리}} {{항목_번호}}`

@@ -1,6 +1,7 @@
 # dialog
 
 > عرض نافذة حوار في الطرفية (Terminal).
+> انظر أيضًا: `gum`, `whiptail`.
 > لمزيد من التفاصيل: <https://manned.org/dialog>.
 
 - عرض رسالة:

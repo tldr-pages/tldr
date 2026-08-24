@@ -5,12 +5,12 @@
 
 - Imprime un país donde se encuentra una dirección IPv4 o host:
 
-`acountry {{ejemplo.com}}`
+`acountry {{example.com}}`
 
 - Imprime salida de depuración adicional:
 
-`acountry -d {{ejemplo.com}}`
+`acountry -d {{example.com}}`
 
 - Imprime información más detallada:
 
-`acountry -v {{ejemplo.com}}`
+`acountry -v {{example.com}}`

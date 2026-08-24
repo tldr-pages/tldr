@@ -1,7 +1,7 @@
 # starship init
 
 > Print shell integration code for starship.
-> More information: <https://starship.rs>.
+> More information: <https://starship.rs/>.
 
 - Print the starship integration code for the specified shell:
 

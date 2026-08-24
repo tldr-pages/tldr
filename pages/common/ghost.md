@@ -1,7 +1,7 @@
 # ghost
 
 > A blogging platform and headless CMS.
-> More information: <https://ghost.org>.
+> More information: <https://docs.ghost.org/ghost-cli>.
 
 - Install Ghost in the current directory:
 

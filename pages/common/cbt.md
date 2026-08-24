@@ -1,7 +1,7 @@
 # cbt
 
 > Utility for reading data from Google Cloud's Bigtable.
-> More information: <https://cloud.google.com/bigtable/docs/cbt-reference>.
+> More information: <https://docs.cloud.google.com/bigtable/docs/cbt-reference>.
 
 - List tables in the current project:
 

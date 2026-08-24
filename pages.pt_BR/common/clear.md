@@ -11,7 +11,7 @@
 
 `clear -x`
 
-- Especifica o tipo de terminal a ser limpado (por padrão é o valor da variável de ambiente `TERM`):
+- Especifica o tipo de terminal a ser limpado (por padrão é o valor da variável de ambiente `$TERM`):
 
 `clear -T {{tipo_do_terminal}}`
 

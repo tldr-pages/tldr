@@ -10,8 +10,8 @@
 
 - 도움말 표시:
 
-`updpkgsums -h`
+`updpkgsums {{[-h|--help]}}`
 
 - 버전 표시:
 
-`updpkgsums -v`
+`updpkgsums {{[-v|--version]}}`

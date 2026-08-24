@@ -1,7 +1,7 @@
 # pngcrush
 
 > PNG 압축 유틸리티.
-> 더 많은 정보: <https://pmt.sourceforge.io/pngcrush>.
+> 더 많은 정보: <https://pmt.sourceforge.io/pngcrush/>.
 
 - PNG 파일 압축:
 

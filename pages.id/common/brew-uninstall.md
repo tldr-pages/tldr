@@ -6,8 +6,8 @@
 
 - Bongkar pemasangan suatu formula/cask:
 
-`brew uninstall {{formula|cask}}`
+`brew {{[rm|uninstall]}} {{formula|cask}}`
 
 - Bongkar pemasangan suatu cask dan hapus seluruh berkas terkait:
 
-`brew uninstall --zap {{cask}}`
+`brew {{[rm|uninstall]}} --zap {{cask}}`

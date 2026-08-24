@@ -1,25 +1,25 @@
 # gcrane completion
 
-> Generar el script de autocompletado para gcrane para el shell especificado.
-> Los shells disponibles son `bash`, `fish`, `powershell` y `zsh`.
+> Genera el script de autocompletado para gcrane para el intérprete de comandos especificado.
+> Los intérpretes de comandos disponibles son `bash`, `fish`, `powershell` y `zsh`.
 > Más información: <https://github.com/google/go-containerregistry/blob/main/cmd/gcrane/README.md>.
 
-- Generar el script de autocompletado para tu shell:
+- Genera el script de autocompletado para tu intérprete de comandos:
 
-`gcrane completion {{nombre_del_shell}}`
+`gcrane completion {{nombre_del_intérprete_de_comandos}}`
 
-- Deshabilitar descripciones de autocompletado:
+- Deshabilita descripciones de autocompletado:
 
-`gcrane completion {{nombre_del_shell}} --no-descriptions`
+`gcrane completion {{nombre_del_intérprete_de_comandos}} --no-descriptions`
 
-- Cargar completaciones en tu sesión actual de shell (powershell):
-
-`gcrane completion powershell | Out-String | Invoke-Expression`
-
-- Cargar completaciones para cada nueva sesión (powershell):
+- Carga autocompletados en tu sesión actual de intérpretes de comandos (powershell):
 
 `gcrane completion powershell | Out-String | Invoke-Expression`
 
-- Mostrar ayuda:
+- Carga autocompletados para cada nueva sesión (powershell):
 
-`gcrane completion {{nombre_del_shell}} {{[-h|--help]}}`
+`gcrane completion powershell | Out-String | Invoke-Expression`
+
+- Muestra la ayuda:
+
+`gcrane completion {{nombre_del_intérprete_de_comandos}} {{[-h|--help]}}`

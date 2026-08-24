@@ -1,7 +1,7 @@
 # speedtest-cli
 
 > <https://speedtest.net>를 사용하여 인터넷 대역폭 테스트.
-> 공식 CLI는 `speedtest`를 참조하세요.
+> 관련 항목: `speedtest`.
 > 더 많은 정보: <https://github.com/sivel/speedtest-cli>.
 
 - 속도 테스트 실행:
@@ -30,7 +30,7 @@
 
 - 특정 speedtest.net 서버로 속도 테스트 실행:
 
-`speedtest-cli --server {{서버_ID}}`
+`speedtest-cli --server {{서버_id}}`
 
 - 속도 테스트를 실행하고 결과를 JSON 형식으로 표시 (진행 정보 억제):
 

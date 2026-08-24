@@ -1,7 +1,7 @@
 # ansible-galaxy
 
 > 执行与 Ansible 角色和集合相关的各种操作。
-> 更多信息：<https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html>.
+> 更多信息：<https://docs.ansible.com/projects/ansible/latest/cli/ansible-galaxy.html>。
 
 - 列出已安装的角色或集合：
 

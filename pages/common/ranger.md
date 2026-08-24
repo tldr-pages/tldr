@@ -2,7 +2,7 @@
 
 > Console file manager with VI key bindings.
 > See also: `clifm`, `vifm`, `mc`, `dolphin`.
-> More information: <https://github.com/ranger/ranger>.
+> More information: <https://github.com/ranger/ranger/blob/master/doc/ranger.pod>.
 
 - Launch ranger:
 

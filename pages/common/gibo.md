@@ -11,7 +11,7 @@
 
 `gibo dump {{boilerplate}}`
 
-- Write a boilerplate to .gitignore:
+- Write a boilerplate to `.gitignore`:
 
 `gibo dump {{boilerplate}} >>{{.gitignore}}`
 

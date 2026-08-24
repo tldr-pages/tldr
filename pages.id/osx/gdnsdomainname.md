@@ -1,6 +1,6 @@
 # gdnsdomainname
 
-> Perintah ini merupakan alias dari `-p linux dnsdomainname`.
+> Perintah ini merupakan alias dari GNU `dnsdomainname`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 

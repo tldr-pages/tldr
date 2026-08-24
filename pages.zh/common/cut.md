@@ -1,7 +1,7 @@
 # cut
 
 > 从标准输入或文件中剪切字段。
-> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html>.
+> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html>。
 
 - 打印每行的特定字符/或属性范围：
 

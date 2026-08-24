@@ -1,6 +1,7 @@
 # echo
 
 > Prikazuje date argumente.
+> Такође погледајте: `printf`.
 > Više informacija na: <https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>.
 
 - Prikazuje tekstualnu poruku. Napomena: navodnici su opcionalni:
@@ -19,6 +20,6 @@
 
 `echo "{{Zdravo Svete}}" >> {{fajl.txt}}`
 
-- Omogućava interpretaciju posebnih karektera (prethodi im "\\"):
+- Omogućava interpretaciju posebnih karektera:
 
 `echo -e "{{Kolona 1\tKolona 2}}"`

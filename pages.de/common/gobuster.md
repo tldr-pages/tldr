@@ -5,11 +5,11 @@
 
 - Finde Verzeichnisse und Dateien, die den Wörtern der Wortliste entsprechen:
 
-`gobuster dir {{[-u|--url]}} {{https://beispiel.com/}} {{[-w|--wordlist]}} {{pfad/zu/datei}}`
+`gobuster dir {{[-u|--url]}} {{https://example.com/}} {{[-w|--wordlist]}} {{pfad/zu/datei}}`
 
 - Finde Subdomains:
 
-`gobuster dns {{[-d|--domain]}} {{beispiel.com}} {{[-w|--wordlist]}} {{pfad/zu/datei}}`
+`gobuster dns {{[-d|--domain]}} {{example.com}} {{[-w|--wordlist]}} {{pfad/zu/datei}}`
 
 - Finde Amazon S3-Buckets:
 
@@ -17,12 +17,12 @@
 
 - Finde andere virtuelle Hosts eines Servers:
 
-`gobuster vhost {{[-u|--url]}} {{https://beispiel.com/}} {{[-w|--wordlist]}} {{pfad/zu/datei}}`
+`gobuster vhost {{[-u|--url]}} {{https://example.com/}} {{[-w|--wordlist]}} {{pfad/zu/datei}}`
 
 - Fuzze den Wert eines URL-Parameters:
 
-`gobuster fuzz {{[-u|--url]}} {{https://beispiel.com/?parameter=FUZZ}} {{[-w|--wordlist]}} {{pfad/zu/datei}}`
+`gobuster fuzz {{[-u|--url]}} {{https://example.com/?parameter=FUZZ}} {{[-w|--wordlist]}} {{pfad/zu/datei}}`
 
 - Fuzze den Namen eines URL-Parameters:
 
-`gobuster fuzz {{[-u|--url]}} {{https://beispiel.com/?FUZZ=wert}} {{[-w|--wordlist]}} {{pfad/zu/datei}}`
+`gobuster fuzz {{[-u|--url]}} {{https://example.com/?FUZZ=wert}} {{[-w|--wordlist]}} {{pfad/zu/datei}}`

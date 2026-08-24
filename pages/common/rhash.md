@@ -1,7 +1,7 @@
 # rhash
 
 > Calculate or check common message digests.
-> More information: <https://rhash.sourceforge.net/manpage.php>.
+> More information: <https://rhash.sourceforge.io/manpage.php>.
 
 - Calculate default CRC32 digests of a file:
 
@@ -19,7 +19,7 @@
 
 `rhash --sha3-256 --message '{{message}}'`
 
-- Calculate CRC32 digest of a file and output digest encoded in base64 using BSD format:
+- Calculate CRC32 digest of a file and output digest encoded in Base64 using BSD format:
 
 `rhash --base64 --bsd {{path/to/file}}`
 

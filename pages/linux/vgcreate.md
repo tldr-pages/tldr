@@ -4,10 +4,14 @@
 > See also: `lvm`.
 > More information: <https://manned.org/vgcreate>.
 
-- Create a new volume group called vg1 using the `/dev/sda1` device:
+- Create a new volume group using the specified device:
 
-`vgcreate {{vg1}} {{/dev/sda1}}`
+`sudo vgcreate {{volume_group}} {{/dev/sdXY}}`
 
-- Create a new volume group called vg1 using multiple devices:
+- Create a new volume group using multiple devices:
 
-`vgcreate {{vg1}} {{/dev/sda1}} {{/dev/sdb1}} {{/dev/sdc1}}`
+`sudo vgcreate {{volume_group}} {{/dev/sdXY /dev/sdXZ ...}}`
+
+- Create a new volume group with custom physical extent size:
+
+`sudo vgcreate {{-s|--physicalextentsize}} {{8M}} {{volume_group}} {{/dev/sdXY /dev/sdXZ ...}}`

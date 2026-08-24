@@ -5,7 +5,7 @@
 
 - Zobacz dokumentację oryginalnego polecenia `wget`:
 
-`tldr wget -p common`
+`tldr wget {{[-p|--platform]}} common`
 
 - Zobacz dokumentację polecenia PowerShell `Invoke-WebRequest`:
 

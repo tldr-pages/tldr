@@ -5,16 +5,16 @@
 
 - 로컬 서버리스 지원을 함수 네임스페이스에 연결:
 
-`doctl serverless connect`
+`doctl {{[sls|serverless]}} connect`
 
 - 함수 네임스페이스에 함수 프로젝트를 배포:
 
-`doctl serverless deploy`
+`doctl {{[sls|serverless]}} deploy`
 
 - 함수 프로젝트의 메타데이터 얻기:
 
-`doctl serverless get-metadata`
+`doctl {{[sls|serverless]}} get-metadata`
 
 - 서버리스 지원에 대한 정보를 제공:
 
-`doctl serverless status`
+`doctl {{[sls|serverless]}} status`

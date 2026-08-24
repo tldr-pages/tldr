@@ -1,0 +1,7 @@
+# impacket-getArch
+
+> এই কমান্ডটি `getArch.py` - এর একটি উপনাম।
+
+- মূল কমান্ডের ডকুমেন্টেশন দেখুন:
+
+`tldr getArch.py`

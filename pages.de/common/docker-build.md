@@ -17,7 +17,7 @@
 
 - Baue ein Docker Image ohne Build-Kontext:
 
-`docker build {{[-t|--tag]}} {{name:tag}} - < {{Dockerfile}}`
+`docker < {{Dockerfile}} build {{[-t|--tag]}} {{name:tag}} -`
 
 - Verwende keinen Cache beim Bauen des Docker Images:
 

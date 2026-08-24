@@ -5,28 +5,28 @@
 
 - 현재 저장소에 대해 대화식으로 새 이슈 생성:
 
-`gh issue create`
+`gh issue {{[new|create]}}`
 
 - `bug` 레이블을 사용하여 대화식으로 새 이슈 생성:
 
-`gh issue create --label "{{bug}}"`
+`gh issue {{[new|create]}} {{[-l|--label]}} "{{bug}}"`
 
 - 지정된 사용자에게 할당하여 대화식으로 새 이슈 생성:
 
-`gh issue create --assignee {{user1,user2,...}}`
+`gh issue {{[new|create]}} {{[-a|--assignee]}} {{user1,user2,...}}`
 
 - 제목과 본문을 지정하고 현재 사용자에게 할당하여 새 이슈 생성:
 
-`gh issue create --title "{{제목}}" --body "{{본문}}" --assignee "{{@me}}"`
+`gh issue {{[new|create]}} {{[-t|--title]}} "{{제목}}" {{[-b|--body]}} "{{본문}}" {{[-a|--assignee]}} "{{@me}}"`
 
 - 파일에서 본문 텍스트를 읽어와 대화식으로 새 이슈 생성:
 
-`gh issue create --body-file {{경로/대상/파일}}`
+`gh issue {{[new|create]}} {{[-F|--body-file]}} {{경로/대상/파일}}`
 
 - 기본 웹 브라우저에서 새 이슈 생성:
 
-`gh issue create --web`
+`gh issue {{[new|create]}} {{[-w|--web]}}`
 
 - 도움말 표시:
 
-`gh issue create --help`
+`gh issue {{[new|create]}} {{[-h|--help]}}`

@@ -13,4 +13,4 @@
 
 - 커스텀 파셋에서 SUI 코인 받기:
 
-`sui client faucet --url {{커스텀-파셋-URL}}`
+`sui client faucet --url {{커스텀-파셋-url}}`

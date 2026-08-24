@@ -1,6 +1,7 @@
 # diff
 
 > Compare deux fichiers ou répertoires.
+> Voir aussi : `delta`, `difft`.
 > Plus d'informations : <https://manned.org/diff>.
 
 - Compare deux fichiers (liste les changements pour transformer `ancien_fichier` en `nouveau_fichier`) :

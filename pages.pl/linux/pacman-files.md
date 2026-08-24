@@ -6,24 +6,24 @@
 
 - Zaktualizuj bazę danych pakietów:
 
-`sudo pacman --files --refresh`
+`sudo pacman -Fy`
 
 - Znajdź pakiet, do którego należy podany plik:
 
-`pacman --files {{nazwa_pliku}}`
+`pacman -F {{nazwa_pliku}}`
 
 - Znajdź pakiet, do którego należy podany plik, używając wyrażenia regularnego:
 
-`pacman --files --regex '{{wyrażenie_regularne}}'`
+`pacman -Fx '{{wyrażenie_regularne}}'`
 
 - Wyświetl tylko nazwy pakietów:
 
-`pacman --files --quiet {{nazwa_pliku}}`
+`pacman -Fq {{nazwa_pliku}}`
 
 - Wyświetl pliki należące do podanego pakietu:
 
-`pacman --files --list {{nazwa_pakietu}}`
+`pacman -Fl {{nazwa_pakietu}}`
 
 - Wyświetl pomoc:
 
-`pacman --files --help`
+`pacman -Fh`

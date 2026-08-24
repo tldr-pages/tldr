@@ -1,7 +1,7 @@
 # meteor
 
 > 웹 애플리케이션을 구축하기 위한 풀스택 JavaScript 플랫폼.
-> 더 많은 정보: <https://meteor.com>.
+> 더 많은 정보: <https://docs.meteor.com/cli/>.
 
 - 루트 디렉터리에서 개발 모드로 meteor 프로젝트 실행:
 

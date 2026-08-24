@@ -1,11 +1,11 @@
 # blight
 
 > 디스플레이 밝기를 변경하는 유틸리티.
-> 더 많은 정보: <https://github.com/gutjuri/blight>.
+> 더 많은 정보: <https://github.com/gutjuri/blight#usage>.
 
 - 디스플레이 밝기를 50%로 설정:
 
-`blight set {{50}} -r`
+`blight set {{50}} {{[-r|--relative]}}`
 
 - 현재 디스플레이 밝기 표시:
 
@@ -17,7 +17,7 @@
 
 - 디스플레이 밝기를 %만큼 증가:
 
-`blight inc {{숫자}} -r`
+`blight inc {{숫자}} {{[-r|--relative]}}`
 
 - 내부 단위로 디스플레이 밝기 감소:
 

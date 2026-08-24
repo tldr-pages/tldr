@@ -1,9 +1,9 @@
 # dhcp6d
 
 > Stateless DHCPv6 server.
+> Note: It should not be invoked manually.
 > See also: `InternetSharing`.
-> It should not be invoked manually.
-> More information: <https://www.manpagez.com/man/8/dhcp6d/>.
+> More information: <https://keith.github.io/xcode-man-pages/dhcp6d.8.html>.
 
 - Start the daemon:
 

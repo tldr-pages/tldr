@@ -1,7 +1,7 @@
 # npm dedupe
 
 > Reduce duplication in the `node_modules` directory.
-> More information: <https://docs.npmjs.com/cli/npm-dedupe>.
+> More information: <https://docs.npmjs.com/cli/npm-dedupe/>.
 
 - Deduplicate packages in `node_modules`:
 

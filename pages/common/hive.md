@@ -1,6 +1,6 @@
 # hive
 
-> CLI tool for Apache Hive.
+> Tool for Apache Hive.
 > More information: <https://cwiki.apache.org/confluence/display/Hive/LanguageManual+Cli>.
 
 - Start a Hive interactive shell:

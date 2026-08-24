@@ -1,7 +1,7 @@
 # clido
 
 > 터미널용 상태 저장 TODO 앱.
-> 더 많은 정보: <https://codeberg.org/Oglo12/clido/wiki>.
+> 더 많은 정보: <https://gitlab.com/Oglo12/clido-legacy#how-to-use>.
 
 - 목록 생성:
 

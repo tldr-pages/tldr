@@ -1,7 +1,7 @@
 # iostat
 
 > 报告设备和分区的统计信息。
-> 更多信息：<https://manned.org/iostat>.
+> 更多信息：<https://manned.org/iostat>。
 
 - 显示系统启动以来的CPU和磁盘统计报告：
 

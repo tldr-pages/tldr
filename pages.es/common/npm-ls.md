@@ -1,7 +1,7 @@
 # npm ls
 
 > Imprime los paquetes instalados a `stdout`.
-> Más información: <https://docs.npmjs.com/cli/npm-ls>.
+> Más información: <https://docs.npmjs.com/cli/npm-ls/>.
 
 - Imprime todas las versiones de dependencias directas a `stdout`:
 

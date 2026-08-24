@@ -3,7 +3,7 @@
 > View the last logged in users.
 > More information: <https://manned.org/last>.
 
-- View last login infromation (e.g., username, terminal, boot time, kernel) of all users as read from `/var/log/wtmp`:
+- View last login information (e.g., username, terminal, boot time, kernel) of all users as read from `/var/log/wtmp`:
 
 `last`
 

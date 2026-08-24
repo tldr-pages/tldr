@@ -2,7 +2,7 @@
 
 > Gestor de paquetes JavaScript y Node.js.
 > Gestiona proyectos Node.js y sus dependencias de módulos.
-> Más información: <https://docs.npmjs.com/cli/npm>.
+> Más información: <https://docs.npmjs.com/cli/npm/>.
 
 - Crea un archivo `package.json` con los valores por defecto (omite --yes para hacerlo de forma interactiva):
 
@@ -22,7 +22,7 @@
 
 - Descarga la última versión de un paquete y lo instala globalmente:
 
-`npm {{[i|install]}} {{[-g|--global]}} {{nombre_paquete}}`
+`npm {{[i|install]}} {{nombre_paquete}} {{[-g|--global]}}`
 
 - Desinstala un paquete y lo elimina de la lista de dependencias en `package.json`:
 

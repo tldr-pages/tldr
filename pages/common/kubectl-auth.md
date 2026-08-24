@@ -1,7 +1,7 @@
 # kubectl auth
 
 > Inspect access permissions in a Kubernetes cluster.
-> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_auth>.
+> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_auth/>.
 
 - Check if the current user can perform all actions on all resources in a specific namespace:
 

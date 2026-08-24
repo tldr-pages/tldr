@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr qm disk resize`
+`tldr qm disk`

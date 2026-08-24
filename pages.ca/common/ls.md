@@ -17,7 +17,7 @@
 
 - Llista de format llarg (permisos, propietat, mida i data de modificació) de tots els fitxers:
 
-`ls {{[-la|--all -l]}}`
+`ls {{[-la|-l --all]}}`
 
 - Llista de format llarg amb unitats llegibles per humans (KiB, MiB, GiB):
 
@@ -25,7 +25,7 @@
 
 - Llista de format lalrg ordenat per mida (descendent):
 
-`ls {{-lSR|-lS --recursive}}`
+`ls {{[-lSR|-lS --recursive]}}`
 
 - Llista de format llarg de tots els fitxers, organitzat per data de modificació (més antics primer):
 

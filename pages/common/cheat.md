@@ -1,7 +1,7 @@
 # cheat
 
 > Create and view interactive cheat sheets.
-> More information: <https://github.com/cheat/cheat>.
+> More information: <https://github.com/cheat/cheat/blob/master/doc/cheat.1.md>.
 
 - Show example usage of a command:
 

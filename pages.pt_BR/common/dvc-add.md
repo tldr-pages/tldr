@@ -1,7 +1,7 @@
 # dvc add
 
 > Adiciona um arquivo modificado para o índice.
-> Mais informações: <https://dvc.org/doc/command-reference/add>.
+> Mais informações: <https://doc.dvc.org/command-reference/add>.
 
 - Adiciona um arquivo para o índice:
 

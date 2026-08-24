@@ -6,7 +6,7 @@
 
 - zram이 활성화되어 있는지 확인:
 
-`lsmod | grep -i zram`
+`lsmod | grep {{[-i|--ignore-case]}} zram`
 
 - 동적 장치 수로 zram 활성화 (`zramctl`을 사용하여 장치를 추가로 구성):
 
@@ -18,7 +18,7 @@
 
 - 다음 사용 가능한 zram 장치를 찾아 LZ4 압축을 사용하여 2GB 가상 드라이브로 초기화:
 
-`sudo zramctl --find --size {{2GB}} --algorithm {{lz4}}`
+`sudo zramctl {{[-f|--find]}} {{[-s|--size]}} {{2GB}} {{[-a|--algorithm]}} {{lz4}}`
 
 - 현재 초기화된 장치 나열:
 

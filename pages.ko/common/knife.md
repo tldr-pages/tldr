@@ -1,7 +1,7 @@
 # knife
 
 > 로컬 Chef 저장소에서 Chef 서버와 상호 작용.
-> 더 많은 정보: <https://docs.chef.io/knife.html>.
+> 더 많은 정보: <https://docs.chef.io/workstation/knife/>.
 
 - 새 노드 부트스트랩:
 

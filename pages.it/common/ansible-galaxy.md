@@ -1,7 +1,7 @@
 # ansible-galaxy
 
 > Esegui varie operazioni inerenti ai Ruoli e alle Collezioni in Ansible.
-> Maggiori informazioni: <https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html>.
+> Maggiori informazioni: <https://docs.ansible.com/projects/ansible/latest/cli/ansible-galaxy.html>.
 
 - Lista i ruoli o le collezioni installate:
 

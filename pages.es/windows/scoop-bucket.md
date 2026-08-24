@@ -2,7 +2,7 @@
 
 > Administrar buckets: repositorios Git que contienen archivos que describen cómo scoop instala aplicaciones.
 > Si Scoop no sabe dónde se encuentra el bucket, debe especificarse la ubicación del repositorio.
-> Más información: <https://github.com/lukesampson/scoop/wiki/Buckets>.
+> Más información: <https://github.com/ScoopInstaller/Scoop/wiki/Buckets>.
 
 - Listar todos los buckets actualmente en uso:
 

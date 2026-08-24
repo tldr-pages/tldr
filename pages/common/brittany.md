@@ -11,7 +11,7 @@
 
 `brittany --write-mode=inplace {{*.hs}}`
 
-- Check whether a Haskell source file needs changes and indicate the result through the programme's exit code:
+- Check whether a Haskell source file needs changes and indicate the result through the program's exit code:
 
 `brittany --check-mode {{path/to/file.hs}}`
 

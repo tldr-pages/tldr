@@ -1,6 +1,6 @@
 # atoum
 
-> A simple, modern and intuitive unit testing framework for PHP.
+> A simple, modern, and intuitive unit testing framework for PHP.
 > More information: <https://atoum.readthedocs.io/en/latest/option_cli.html>.
 
 - Initialize a configuration file:

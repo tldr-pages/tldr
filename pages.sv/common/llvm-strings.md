@@ -2,6 +2,6 @@
 
 > Det här kommandot är ett alias för `strings`.
 
-- Se dokumentationen för orginalkommandot:
+- Se dokumentationen för originalkommandot:
 
 `tldr strings`

@@ -1,7 +1,7 @@
 # snowsql
 
 > Narzędzie wiersza SnowSQL serwisu bazodanowego Snowflake.
-> Więcej informacji: <https://docs.snowflake.com/en/user-guide/snowsql.html>.
+> Więcej informacji: <https://docs.snowflake.com/en/user-guide/snowsql>.
 
 - Połącz z konkretną instancją pod adresem <https://konto.snowflakecomputing.com> (hasło może być wprowadzone w wierszu polecenia lub pliku konfiguracyjnym):
 

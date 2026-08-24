@@ -1,6 +1,7 @@
 # hexdump
 
 > Un visor ASCII, decimal, hexadecimal, octal.
+> Vea también: `hexyl`, `od`, `xxd`.
 > Más información: <https://manned.org/hexdump>.
 
 - Imprime la representación hexadecimal de un archivo, reemplazando líneas duplicadas con '*':

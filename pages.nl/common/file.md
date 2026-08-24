@@ -1,11 +1,16 @@
 # file
 
 > Bepaal bestandstype.
+> Zie ook: `stat`.
 > Meer informatie: <https://manned.org/file>.
 
 - Geef een beschrijving van het type van een bepaald bestand:
 
 `file {{pad/naar/bestand}}`
+
+- Toon niet het bestandspad:
+
+`file {{[-b|--brief]}} {{pad/naar/bestand}}`
 
 - Kijk binnen een gezipt bestand en bepaal de bestandstype(s) erin:
 

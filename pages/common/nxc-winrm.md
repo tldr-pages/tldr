@@ -1,7 +1,7 @@
 # nxc winrm
 
 > Pentest and exploit Windows Remote Management (winrm).
-> More information: <https://www.netexec.wiki/winrm-protocol>.
+> More information: <https://www.netexec.wiki/winrm-protocol/password-spraying>.
 
 - Search for valid credentials by trying out every combination in the specified lists of usernames and passwords:
 

@@ -1,6 +1,7 @@
 # stty
 
 > Stel opties in voor een terminalapparaatinterface.
+> Zie ook: `tput`.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/stty-invocation.html>.
 
 - Toon de huidige terminal grootte:

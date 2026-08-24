@@ -2,7 +2,7 @@
 
 > Delete a submodule from a Git repository.
 > Part of `git-extras`.
-> More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-delete-submodule>.
+> More information: <https://github.com/tj/git-extras/blob/main/Commands.md#git-delete-submodule>.
 
 - Delete a specific submodule:
 

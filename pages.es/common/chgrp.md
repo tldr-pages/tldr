@@ -1,6 +1,7 @@
 # chgrp
 
 > Cambia la propiedad de grupo de archivos y directorios.
+> Vea también: `chown`.
 > Más información: <https://www.gnu.org/software/coreutils/manual/html_node/chgrp-invocation.html>.
 
 - Cambia el grupo propietario de un archivo/directorio:

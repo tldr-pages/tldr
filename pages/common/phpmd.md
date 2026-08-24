@@ -1,7 +1,7 @@
 # phpmd
 
 > PHP mess detector: check for common potential problems.
-> More information: <https://github.com/phpmd/phpmd>.
+> More information: <https://github.com/phpmd/phpmd#command-line-options>.
 
 - Display a list of available rulesets and formats:
 

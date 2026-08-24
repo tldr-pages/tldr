@@ -1,7 +1,7 @@
 # speedcrunch
 
 > 고정밀 과학 계산기.
-> 더 많은 정보: <https://www.speedcrunch.org>.
+> 더 많은 정보: <https://heldercorreia.bitbucket.io/speedcrunch/userguide/index.html>.
 
 - SpeedCrunch 시작:
 

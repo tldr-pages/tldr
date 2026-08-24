@@ -1,7 +1,7 @@
 # pycodestyle
 
 > Check Python code against PEP 8 style conventions.
-> More information: <https://pycodestyle.readthedocs.io>.
+> More information: <https://pycodestyle.pycqa.org/en/latest/intro.html#example-usage-and-output>.
 
 - Check the style of a single file:
 

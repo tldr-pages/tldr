@@ -1,7 +1,7 @@
 # snake4scores
 
 > Mostra les màximes puntuacions del joc snake4.
-> Més informació: <https://manpages.debian.org/snake4/snake4.6.en.html>.
+> Més informació: <https://manned.org/snake4>.
 
 - Mostra les màximes puntuacions:
 

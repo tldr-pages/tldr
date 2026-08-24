@@ -1,7 +1,7 @@
 # crane export
 
 > Exporteer het bestandssysteem van een containerimage als een tarball.
-> Meer informatie: <https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_digest.md>.
+> Meer informatie: <https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_export.md>.
 
 - Schrijf de tarball naar `stdout`:
 

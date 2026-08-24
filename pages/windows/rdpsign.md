@@ -15,7 +15,7 @@
 
 `rdpsign {{path\to\file.rdp}} /q`
 
-- Display verbose warnings, messages and statuses:
+- Display verbose warnings, messages, and statuses:
 
 `rdpsign {{path\to\file.rdp}} /v`
 

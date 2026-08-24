@@ -26,7 +26,7 @@
 
 - Fuerza la creación de un objetivo, incluso si los archivos de origen no se han modificado:
 
-`make {{[-B|--siempre-make]}} {{objetivo}}`
+`make {{[-B|--always-make]}} {{objetivo}}`
 
 - Anula una variable definida en el Makefile:
 

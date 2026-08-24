@@ -1,7 +1,7 @@
 # wacaw
 
 > Herramienta de línea de comandos para macOS para capturar imágenes fijas y videos desde una cámara adjunta.
-> Más información: <https://webcam-tools.sourceforge.net>.
+> Más información: <https://webcam-tools.sourceforge.net/#parameters>.
 
 - Toma una foto desde la cámara web:
 
@@ -9,11 +9,11 @@
 
 - Graba un video:
 
-`wacaw --video {{filename}} --duration {{duration_in_seconds}}`
+`wacaw --video {{filename}} {{[-D|--duration]}} {{duration_in_seconds}}`
 
 - Toma una foto con resolución personalizada:
 
-`wacaw --width {{width}} --height {{height}} {{filename}}`
+`wacaw {{[-x|--width]}} {{width}} {{[-y|--height]}} {{height}} {{filename}}`
 
 - Copia imagen recién tomada al portapapeles:
 
@@ -21,4 +21,4 @@
 
 - Lista de los dispositivos disponibles:
 
-`wacaw --list-devices`
+`wacaw {{[-L|--list-devices]}}`

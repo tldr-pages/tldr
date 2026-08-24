@@ -1,7 +1,7 @@
 # systemctl status
 
 > Display the status of systemd units.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#status%20PATTERN%E2%80%A6%7CPID%E2%80%A6%5D>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#status%20PATTERN%E2%80%A6%7CPID%E2%80%A6%5D>.
 
 - Show the status of a systemd unit:
 
@@ -17,11 +17,11 @@
 
 - List all units in the system:
 
-`systemctl status --all`
+`systemctl status {{[-a|--all]}}`
 
 - List all units of a specific type:
 
-`systemctl status --type {{service|timer|socket|target|...}}`
+`systemctl status {{[-t|--type]}} {{service|timer|socket|target|...}}`
 
 - List all units with a specific state:
 

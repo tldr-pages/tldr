@@ -1,7 +1,7 @@
 # tmsu
 
 > Simple tool for tagging files.
-> More information: <https://tmsu.org>.
+> More information: <https://tmsu.org/>.
 
 - Tag a specific file with multiple tags:
 

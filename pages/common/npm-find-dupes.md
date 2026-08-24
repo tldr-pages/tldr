@@ -1,7 +1,7 @@
 # npm find-dupes
 
 > Identify duplicate dependencies in `node_modules`.
-> More information: <https://docs.npmjs.com/cli/npm-find-dupes>.
+> More information: <https://docs.npmjs.com/cli/npm-find-dupes/>.
 
 - List all duplicate packages within `node_modules`:
 
@@ -11,7 +11,7 @@
 
 `npm find-dupes --include dev`
 
-- List all duplicate instances of a specific package in `node-modules`:
+- List all duplicate instances of a specific package in `node_modules`:
 
 `npm find-dupes {{package_name}}`
 

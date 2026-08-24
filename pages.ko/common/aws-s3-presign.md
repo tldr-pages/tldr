@@ -1,7 +1,7 @@
 # aws s3 presign
 
 > Amazon S3 객체에 대해 미리 서명된 URL 생성.
-> 더 많은 정보: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/presign.html>.
+> 더 많은 정보: <https://docs.aws.amazon.com/cli/latest/reference/s3/presign.html>.
 
 - 한 시간 동안 유효한 특정 S3 객체에 대해 미리 서명된 URL을 생성:
 

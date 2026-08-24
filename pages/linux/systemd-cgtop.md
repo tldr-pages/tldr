@@ -2,7 +2,7 @@
 
 > Show the top control groups of the local Linux control group hierarchy, ordered by their CPU, memory, or disk I/O load.
 > See also: `top`.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemd-cgtop.html>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemd-cgtop.html>.
 
 - Start an interactive view:
 

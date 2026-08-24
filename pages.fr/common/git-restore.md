@@ -1,7 +1,7 @@
 # git restore
 
 > Restaurez les fichiers de l'arborescence de travail. Nécessite la version 2.23+ de Git.
-> Voir aussi `git checkout`.
+> Voir aussi : `git checkout`, `git reset`.
 > Plus d'informations : <https://git-scm.com/docs/git-restore>.
 
 - Restaurer un fichier supprimé à partir du contenu du commit actuel (HEAD) :

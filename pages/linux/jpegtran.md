@@ -7,7 +7,7 @@
 
 `jpegtran {{[-f|-flip]}} {{horizontal|vertical}} {{path/to/image.jpg}} > {{path/to/output.jpg}}`
 
-- Rotate an image 90, 180 or 270 degrees clockwise:
+- Rotate an image 90, 180, or 270 degrees clockwise:
 
 `jpegtran {{[-ro|-rotate]}} {{90|180|270}} {{path/to/image.jpg}} > {{path/to/output.jpg}}`
 

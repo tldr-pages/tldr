@@ -4,7 +4,7 @@
 > See also: `which`, `whatis`, `type`.
 > More information: <https://manned.org/whereis>.
 
-- Locate binary, source and man pages for SSH:
+- Locate binary, source, and man pages for SSH:
 
 `whereis {{ssh}}`
 

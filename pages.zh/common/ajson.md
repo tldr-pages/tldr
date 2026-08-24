@@ -1,7 +1,7 @@
 # ajson
 
 > 对 JSON 对象执行 JSONPath 操作。
-> 更多信息：<https://github.com/spyzhov/ajson>.
+> 更多信息：<https://github.com/spyzhov/ajson#console-application>。
 
 - 从文件中读取 JSON 并执行指定的 JSONPath 表达式：
 

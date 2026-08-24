@@ -1,7 +1,7 @@
 # ruby
 
 > Interpréteur du langage de programmation Ruby.
-> Voir aussi : `gem`, `bundler`, `rake`, `irb`.
+> Voir aussi : `gem`, `bundler`, `rake`, `irb`, `ri`.
 > Plus d'informations : <https://manned.org/ruby>.
 
 - Exécute un script Ruby :
@@ -10,7 +10,7 @@
 
 - Exécute une seule commande Ruby dans la ligne de commande :
 
-`ruby -e {{commande}}`
+`ruby -e "{{commande}}"`
 
 - Vérifie les erreurs de syntaxe d'un script Ruby donné :
 

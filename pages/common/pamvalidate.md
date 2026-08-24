@@ -1,6 +1,6 @@
 # pamvalidate
 
-> Validate PAM, PGM, PBM and PPM files.
+> Validate PAM, PGM, PBM, and PPM files.
 > See also: `pamfile`, `pamfix`.
 > More information: <https://netpbm.sourceforge.net/doc/pamvalidate.html>.
 

@@ -1,7 +1,7 @@
 # aws cloudformation
 
 > 인프라를 코드로 처리하여 AWS 및 타사 리소스를 모델링, 프로비저닝 및 관리.
-> 더 많은 정보: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cloudformation/index.html>.
+> 더 많은 정보: <https://docs.aws.amazon.com/cli/latest/reference/cloudformation/>.
 
 - 템플릿 파일에서 스택 생성:
 

@@ -1,7 +1,7 @@
 # wl-paste
 
 > Wayland 클립보드의 내용을 붙여넣기.
-> 같이 보기: `wl-copy`, `xclip`.
+> 관련 항목: `wl-copy`, `xclip`.
 > 더 많은 정보: <https://github.com/bugaevc/wl-clipboard>.
 
 - 클립보드의 내용을 붙여넣기:

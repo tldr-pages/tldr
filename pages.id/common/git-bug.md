@@ -2,7 +2,7 @@
 
 > Manajer laporan masalah/bug yang menggunakan penyimpanan git, sehingga tidak memengaruhi susunan berkas dalam direktori proyek Anda.
 > Anda dapat memasukkan laporan melalui sumber/hulu jauh (remote) yang sama untuk berinteraksi dengan laporan dan pengguna lainnya seperti mengatur komit dan cabang.
-> Informasi lebih lanjut: <https://github.com/MichaelMure/git-bug/blob/master/doc/md/git-bug.md>.
+> Informasi lebih lanjut: <https://github.com/git-bug/git-bug/blob/master/doc/md/git-bug.md>.
 
 - Buat identitas/pengguna baru:
 

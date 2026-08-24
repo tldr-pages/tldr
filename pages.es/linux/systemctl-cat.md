@@ -1,7 +1,7 @@
 # systemctl cat
 
 > Muestra el contenido completo de los archivos de unidad como los ve systemd.
-> Más información: <https://www.freedesktop.org/software/systemd/man/systemctl.html#cat%20PATTERN%E2%80%A6>.
+> Más información: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#cat%20PATTERN%E2%80%A6>.
 
 - Muestra el contenido y la ruta absoluta de un archivo de unidad:
 

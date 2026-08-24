@@ -15,6 +15,6 @@
 
 `gnome-software --details {{package}}`
 
-- Display the version:
+- Display version:
 
 `gnome-software --version`

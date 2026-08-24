@@ -24,6 +24,6 @@
 
 `git guilt 'git log --until "3 weeks ago" --format "%H" {{[-n|--max-count]}} 1'`
 
-- Find blame delta over the last three weeks (git 1.8.5+):
+- Find blame delta over the last three weeks (Git 1.8.5+):
 
 `git guilt @{3.weeks.ago}`

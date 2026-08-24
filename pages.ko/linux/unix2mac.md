@@ -2,7 +2,7 @@
 
 > Unix 스타일의 줄 끝을 macOS 스타일로 변경.
 > LF를 CR로 대체.
-> 같이 보기: `unix2dos`, `dos2unix`, `mac2unix`.
+> 관련 항목: `unix2dos`, `dos2unix`, `mac2unix`.
 > 더 많은 정보: <https://manned.org/unix2mac>.
 
 - 파일의 줄 끝을 변경:

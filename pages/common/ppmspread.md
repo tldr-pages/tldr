@@ -3,7 +3,7 @@
 > Displace the pixels in a PPM image by a randomized amount.
 > More information: <https://netpbm.sourceforge.net/doc/ppmspread.html>.
 
-- Displace the pixels in a PPM image by a randomized amount that is at most a:
+- Displace the pixels in a PPM image by a randomized amount that is at most `a`:
 
 `ppmspread {{a}} {{path/to/input_file.ppm}} > {{path/to/output_file.ppm}}`
 

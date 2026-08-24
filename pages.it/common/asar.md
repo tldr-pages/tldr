@@ -1,20 +1,20 @@
 # asar
 
 > Gestore di archivi per la piattaforma Electron.
-> Maggiori informazioni: <https://github.com/electron/asar>.
+> Maggiori informazioni: <https://github.com/electron/asar#usage>.
 
 - Archivia un file o una directory:
 
-`asar pack {{percorso/del/file}} {{archivio.asar}}`
+`asar {{[p|pack]}} {{percorso/del/file}} {{archivio.asar}}`
 
 - Estrai un archivio:
 
-`asar extract {{archivio.asar}}`
+`asar {{[e|extract]}} {{archivio.asar}}`
 
 - Estrai uno specifico file da un archivio:
 
-`asar extract-file {{archivio.asar}} {{nome_file}}`
+`asar {{[ef|extract-file]}} {{archivio.asar}} {{nome_file}}`
 
 - Elenca i contenuti in un archivio:
 
-`asar list {{archivio.asar}}`
+`asar {{[l|list]}} {{archivio.asar}}`

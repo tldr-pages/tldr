@@ -21,4 +21,4 @@
 
 - Imprime las líneas solo encontradas en el segundo fichero, cuando los ficheros no están ordenados:
 
-`comm -13 <( sort {{fichero1}}) <( sort {{fichero2}})`
+`comm -13 <(sort {{fichero1}}) <(sort {{fichero2}})`

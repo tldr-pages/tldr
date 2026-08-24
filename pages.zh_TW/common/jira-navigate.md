@@ -1,0 +1,7 @@
+# jira navigate
+
+> 此命令為 `jira open` 的別名。
+
+- 檢視原命令的文件：
+
+`tldr jira open`

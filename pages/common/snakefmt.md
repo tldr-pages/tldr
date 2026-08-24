@@ -1,7 +1,7 @@
 # snakefmt
 
 > Format Snakemake files.
-> More information: <https://github.com/snakemake/snakefmt>.
+> More information: <https://github.com/snakemake/snakefmt#usage>.
 
 - Format a specific Snakefile:
 

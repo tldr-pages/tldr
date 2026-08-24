@@ -1,7 +1,7 @@
 # tbl
 
 > groff (GNU Troff) 문서 형식 시스템을 위한 테이블 전처리기.
-> 같이 보기: `groff`, `troff`.
+> 관련 항목: `groff`, `troff`.
 > 더 많은 정보: <https://manned.org/tbl>.
 
 - 입력에 포함된 테이블을 처리하여, 후에 groff로 PostScript 형식으로 조판할 수 있도록 출력 저장:

@@ -1,7 +1,7 @@
 # a2dissite
 
 > Deaktiviert einen Apache virtuellen Host auf Debian-basierten Betriebssystemen.
-> Weitere Informationen: <https://manned.org/a2dissite.8>.
+> Weitere Informationen: <https://manned.org/a2dissite>.
 
 - Deaktiviere einen virtuellen Host:
 
@@ -9,4 +9,4 @@
 
 - Zeige keine Informationsnachrichten an:
 
-`sudo a2dissite --quiet {{virtueller_host}}`
+`sudo a2dissite {{[-q|--quiet]}} {{virtueller_host}}`

@@ -13,4 +13,4 @@
 
 - 추가 디버깅 출력 표시:
 
-`zapier analytics {{[-m|--mode]}} {{enabled|anonymous|disabled}} {{-d|--debug}}`
+`zapier analytics {{[-m|--mode]}} {{enabled|anonymous|disabled}} {{[-d|--debug]}}`

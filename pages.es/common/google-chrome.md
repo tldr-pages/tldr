@@ -1,7 +1,7 @@
 # google-chrome
 
 > Este comando es un alias de `chromium`.
-> Más información: <https://chrome.google.com>.
+> Más información: <https://www.google.com/chrome/>.
 
 - Muestra la documentación del comando original:
 

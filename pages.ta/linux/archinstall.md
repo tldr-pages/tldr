@@ -1,7 +1,7 @@
 # archinstall
 
 > ஒரு திருப்பத்துடன் வழிகாட்டப்பட்ட ஆர்ச் லினக்ஸ் நிறுவி.
-> மேலும் விவரத்திற்கு: <https://archinstall.readthedocs.io>.
+> மேலும் விவரத்திற்கு: <https://archinstall.archlinux.page/installing/guided.html>.
 
 - ஊடாடும் நிறுவியைத் தொடங்கவும்:
 

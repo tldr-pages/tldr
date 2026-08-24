@@ -28,10 +28,10 @@
 
 `tldr {{[-l|--list]}}`
 
-- List all available subcommand pages for a command:
+- Print the tldr page for a command and display short options:
 
-`tldr {{[-l|--list]}} | grep {{command}} | column`
+`tldr --short-options {{command}}`
 
-- Print the tldr page for a random command:
+- Browse tldr pages in a terminal window (`fzf` must be available):
 
-`tldr {{[-l|--list]}} | shuf {{[-n|--head-count]}} 1 | xargs tldr`
+`tldr {{[-l|--list]}} | fzf --preview "tldr {1} --color=always" --preview-window=right,70% | xargs tldr`

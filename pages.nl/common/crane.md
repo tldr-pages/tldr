@@ -1,7 +1,7 @@
 # crane
 
 > Hulpmiddel voor het beheren van containerimages.
-> Sommige subcommando's zoals `pull`, `push`, `copy`, enz. hebben hun eigen gebruiksdocumentatie.
+> Sommige subcommando's zoals `pull`, `push`, `copy`, etc. hebben hun eigen documentatie.
 > Meer informatie: <https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane.md/>.
 
 - Log in op een register:
@@ -28,9 +28,9 @@
 
 `crane tag {{image}} {{tag}}`
 
-- Kopieer efficiënt een externe image van `src` naar `dst` terwijl de digest-waarde behouden blijft:
+- Kopieer efficiënt een externe image, waarbij de digest-waarde behouden blijft:
 
-`crane copy src dst {{[-a|--all-tags]}}`
+`crane {{[cp|copy]}} {{bron}} {{doel}} {{[-a|--all-tags]}}`
 
 - Verwijder een image-referentie van zijn register:
 

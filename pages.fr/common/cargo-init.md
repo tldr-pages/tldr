@@ -20,6 +20,6 @@
 
 `cargo init --vcs {{git|hg|pijul|fossil|none}}`
 
-- Défini le nom du paquet (défaut : nom du dossier):
+- Défini le nom du paquet (défaut : nom du dossier) :
 
 `cargo init --name {{nom_du_paquet}}`

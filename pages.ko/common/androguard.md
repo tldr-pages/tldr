@@ -5,12 +5,12 @@
 
 - Android 앱 매니페스트 표시:
 
-`androguard axml {{경로/대상/앱.apk}}`
+`androguard axml {{경로/대상/앱}}.apk`
 
 - 앱 메타데이터(버전 및 앱 아이디) 표시:
 
-`androguard apkid {{경로/대상/앱.apk}}`
+`androguard apkid {{경로/대상/앱}}.apk`
 
 - 앱에서 자바 코드를 디컴파일:
 
-`androguard decompile {{경로/대상/앱.apk}} --output {{경로/대상/디렉터리}}`
+`androguard decompile {{경로/대상/앱}}.apk --output {{경로/대상/디렉터리}}`

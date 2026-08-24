@@ -2,7 +2,7 @@
 
 > Ubah format pengakhiran baris teks pada suatu berkas teks (plaintext) dari format DOS menuju Unix.
 > Program ini menggantikan simbol CRLF menjadi LF.
-> Lihat juga: `unix2dos`, `unix2mac`, dan `mac2unix`.
+> Lihat juga: `unix2dos`, `unix2mac`, `mac2unix`.
 > Informasi lebih lanjut: <https://manned.org/dos2unix>.
 
 - Ganti format pengakhiran baris teks dan simpan perubahan pada berkas yang sama:

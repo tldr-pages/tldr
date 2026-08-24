@@ -7,6 +7,6 @@
 
 `avifenc {{path/to/input.png}} {{path/to/output.avif}}`
 
-- Encode with a specific speed (6=default, 0=slowest and 10=fastest):
+- Encode with a specific speed (6=default, 0=slowest, and 10=fastest):
 
 `avifenc --speed {{2}} {{path/to/input.png}} {{path/to/output.avif}}`

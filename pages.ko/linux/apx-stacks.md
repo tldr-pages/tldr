@@ -2,7 +2,7 @@
 
 > `apx`에서 스택을 관리합니다.
 > 참고: 사용자가 생성한 스택 구성은 `~/.local/share/apx/stacks`에 저장됩니다.
-> 더 많은 정보: <https://github.com/Vanilla-OS/apx>.
+> 더 많은 정보: <https://docs.vanillaos.org/docs/en/apx-manpage#stacks>.
 
 - 대화형으로 새로운 스택 구성 생성:
 

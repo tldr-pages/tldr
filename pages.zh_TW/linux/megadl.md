@@ -1,7 +1,7 @@
 # megadl
 
-> 這是 `megatools-dl` 命令的一個別名。
+> 此命令為 `megatools-dl` 的別名。
 
-- 原命令的文件在：
+- 檢視原命令的文件：
 
 `tldr megatools-dl`

@@ -2,9 +2,9 @@
 
 > Edytuj tekst w sposób skryptowalny.
 > Zobacz także: `awk`, `ed`.
-> Więcej informacji: <https://man.openbsd.org/sed.1>.
+> Więcej informacji: <https://man.openbsd.org/sed>.
 
-- Zastąp wszystkie wystąpienia `jabłko` (podstawowe wyrażenie regularne) przez `mango` (podstawowe wyrażenie regularne) we wszystkich liniach wejściowych i wypisz wynik do `stdout`:
+- Zastąp wszystkie wystąpienia `jabłko` (podstawowe `regex`) przez `mango` (podstawowe `regex`) we wszystkich liniach wejściowych i wypisz wynik do `stdout`:
 
 `{{komenda}} | sed 's/jabłko/mango/g'`
 
@@ -16,7 +16,7 @@
 
 `{{komenda}} | sed -fa {{ścieżka/do/skryptu.sed}}`
 
-- Zastąp wszystkie wystąpienia `jabłko` (rozszerzone wyrażenie regularne) przez `JABŁKO` (rozszerzone wyrażenie regularne) we wszystkich liniach wejściowych i wypisz wynik do `stdout`:
+- Zastąp wszystkie wystąpienia `jabłko` (rozszerzone `regex`) przez `JABŁKO` (rozszerzone `regex`) we wszystkich liniach wejściowych i wypisz wynik do `stdout`:
 
 `{{komenda}} | sed -E 's/(jabłko)/\U\1/g'`
 
@@ -24,6 +24,6 @@
 
 `{{komenda}} | sed -n '1p'`
 
-- Zastąp wszystkie wystąpienia `jabłko` (podstawowe wyrażenie regularne) przez `mango` (podstawowe wyrażenie regularne) w określonym pliku i nadpisz oryginalny plik:
+- Zastąp wszystkie wystąpienia `jabłko` (podstawowe `regex`) przez `mango` (podstawowe `regex`) w określonym pliku i nadpisz oryginalny plik:
 
 `sed -i 's/jabłko/mango/g' {{ścieżka/do/pliku}}`

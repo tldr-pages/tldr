@@ -1,7 +1,7 @@
 # wg
 
 > 管理 WireGuard 接口配置。
-> 更多信息：<https://www.wireguard.com/quickstart/>.
+> 更多信息：<https://www.wireguard.com/quickstart/>。
 
 - 检查当前激活接口的状态：
 
@@ -13,7 +13,7 @@
 
 - 从私钥生成公钥：
 
-`wg pubkey < {{路径/到/私钥}} > {{路径/到/公钥}}`
+`wg < {{路径/到/私钥}} pubkey > {{路径/到/公钥}}`
 
 - 同时生成公钥和私钥：
 

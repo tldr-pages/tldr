@@ -1,7 +1,7 @@
 # kubectl expose
 
 > Expose a resource as a new Kubernetes service.
-> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_expose>.
+> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_expose/>.
 
 - Create a service for a resource, which will be served from container port to node port:
 

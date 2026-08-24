@@ -1,7 +1,7 @@
 # stern
 
 > Tail multiple pods and containers from Kubernetes.
-> More information: <https://github.com/stern/stern>.
+> More information: <https://github.com/stern/stern#usage>.
 
 - Tail all pods within a current namespace:
 
@@ -17,12 +17,12 @@
 
 - Tail matched pods from all namespaces:
 
-`stern {{pod_query}} --all-namespaces`
+`stern {{pod_query}} {{[-A|--all-namespaces]}}`
 
 - Tail matched pods from 15 minutes ago:
 
-`stern {{pod_query}} --since {{15m}}`
+`stern {{pod_query}} {{[-s|--since]}} 15m`
 
 - Tail matched pods with a specific label:
 
-`stern {{pod_query}} --selector {{release=canary}}`
+`stern {{pod_query}} {{[-l|--selector]}} {{release=canary}}`

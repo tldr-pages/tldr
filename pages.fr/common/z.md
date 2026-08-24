@@ -7,7 +7,7 @@
 
 `z {{foo}}`
 
-- Aller dans un répertoire qui contient "foo" et "bar' dans son nom :
+- Aller dans un répertoire qui contient "foo" et "bar" dans son nom :
 
 `z {{foo}} {{bar}}`
 

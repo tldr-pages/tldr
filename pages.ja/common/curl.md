@@ -2,7 +2,8 @@
 
 > データをサーバーから転送、もしくはサーバーへ転送します。
 > HTTP、FTP、POP3を含むほとんどのプロトコルをサポートしています。
-> もっと詳しく: <https://curl.se/docs/manpage.html>。
+> 参照: `wcurl`, `wget`。
+> 詳細情報: <https://curl.se/docs/manpage.html>。
 
 - URLのコンテンツをファイルにダウンロードする:
 

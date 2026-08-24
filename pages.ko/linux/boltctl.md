@@ -13,16 +13,16 @@
 
 - 장치를 일시적으로 승인:
 
-`boltctl authorize {{장치_UUID}}`
+`boltctl authorize {{장치_uuid}}`
 
 - 장치를 승인하고 기억:
 
-`boltctl enroll {{장치_UUID}}`
+`boltctl enroll {{장치_uuid}}`
 
 - 이전에 승인된 장치 승인 취소:
 
-`boltctl forget {{장치_UUID}}`
+`boltctl forget {{장치_uuid}}`
 
 - 장치에 대한 추가 정보 표시:
 
-`boltctl info {{장치_UUID}}`
+`boltctl info {{장치_uuid}}`

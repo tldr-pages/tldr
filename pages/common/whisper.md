@@ -1,6 +1,6 @@
 # whisper
 
-> Convert audio files to `txt`, `vtt`, `srt`, `tsv` and `json`.
+> Convert audio files to `txt`, `vtt`, `srt`, `tsv`, and `json`.
 > More information: <https://github.com/openai/whisper>.
 
 - Convert a specific audio file to all of the given file formats:

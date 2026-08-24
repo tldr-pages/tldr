@@ -1,7 +1,7 @@
 # eval
 
 > 在当前 shell 中以单个命令的形式执行参数，并返回其结果。
-> 更多信息：<https://www.gnu.org/software/bash/manual/bash.html#index-eval>.
+> 更多信息：<https://www.gnu.org/software/bash/manual/bash.html#index-eval>。
 
 - 使用 'foo' 做为参数调用 `echo`：
 

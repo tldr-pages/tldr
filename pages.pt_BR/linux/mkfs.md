@@ -6,12 +6,12 @@
 
 - Cria um sistema de arquivo ext2 do Linux em uma partição:
 
-`mkfs {{caminho/para/partição}}`
+`sudo mkfs {{caminho/para/partição}}`
 
 - Cria um sistema de arquivos de um tipo especificado:
 
-`mkfs -t {{ext4}} {{caminho/para/partição}}`
+`sudo mkfs {{[-t|--type]}} {{ext4}} {{caminho/para/partição}}`
 
 - Cria um sistema de arquivos de um tipo especificado e verifica por blocos ruins:
 
-`mkfs -c -t {{ntfs}} {{caminho/para/partição}}`
+`sudo mkfs -c {{[-t|--type]}} {{ntfs}} {{caminho/para/partição}}`

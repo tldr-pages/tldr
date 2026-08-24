@@ -1,7 +1,7 @@
 # sfdk build-shell
 
 > Execute custom steps in build engine.
-> See also: `sfdk config` for configuring the build target and `sfdk build-init` for initializing build tree.
+> See also: `sfdk config`, `sfdk build-init`.
 > More information: <https://github.com/sailfishos/sailfish-qtcreator/blob/master/share/qtcreator/sfdk/modules/20-building-mb2/doc/command.build-shell.adoc>.
 
 - Launch interactive shell in the build engine:

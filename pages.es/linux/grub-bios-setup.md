@@ -2,7 +2,7 @@
 
 > Configura un dispositivo para usar GRUB con una configuración BIOS.
 > Se debe usar `grub-install` en lugar de `grub-bios-setup` en la mayoría de los casos.
-> Más información: <https://manned.org/grub-bios-setup.8>.
+> Más información: <https://manned.org/grub-bios-setup>.
 
 - Configura un dispositivo para arrancar con GRUB:
 

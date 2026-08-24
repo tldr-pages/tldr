@@ -1,6 +1,6 @@
 # gcsplit
 
-> Perintah ini merupakan alias dari `-p linux csplit`.
+> Perintah ini merupakan alias dari GNU `csplit`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 

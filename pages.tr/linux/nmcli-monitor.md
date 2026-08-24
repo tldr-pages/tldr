@@ -5,4 +5,4 @@
 
 - NetworkManager değişikliklerini izlemeye başla:
 
-`nmcli monitor`
+`nmcli {{[m|monitor]}}`

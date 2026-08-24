@@ -13,7 +13,7 @@
 
 - Set [e]SSID:
 
-`pyrit -e "{{ESSID}}" create_essid`
+`pyrit -e "{{essid}}" create_essid`
 
 - [r]ead and analyze a specific packet capture file:
 

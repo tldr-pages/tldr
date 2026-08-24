@@ -2,7 +2,7 @@
 
 > An AUR helper and pacman wrapper.
 > See also: `pacman`, `yay`.
-> More information: <https://github.com/Morganamilo/paru>.
+> More information: <https://github.com/Morganamilo/paru#examples>.
 
 - Interactively search for and install a package:
 
@@ -15,6 +15,10 @@
 - Upgrade AUR packages:
 
 `paru -Sua`
+
+- List manually installed packages:
+
+`paru -Qqm`
 
 - Remove an installed package, it's configuration files, and dependencies:
 
@@ -30,4 +34,4 @@
 
 - Display the `PKGBUILD` file of a package:
 
-`paru --getpkgbuild --print {{package}}`
+`paru -Gp {{package}}`

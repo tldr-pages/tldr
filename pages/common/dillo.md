@@ -23,10 +23,10 @@
 
 `dillo {{[-f|--fullwindow]}}`
 
-- Display version:
-
-`dillo {{[-v|--version]}}`
-
 - Display help:
 
 `dillo {{[-h|--help]}}`
+
+- Display version:
+
+`dillo {{[-v|--version]}}`

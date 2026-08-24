@@ -1,6 +1,7 @@
 # dig
 
 > Utilitário de pesquisa de DNS.
+> Veja também: `resolvectl`, `nslookup`, `host`.
 > Mais informações: <https://manned.org/dig>.
 
 - Pesquisa o(s) IP(s) associados a um hostname (registros A):

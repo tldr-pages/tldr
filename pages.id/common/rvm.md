@@ -1,7 +1,7 @@
 # rvm
 
 > Alat untuk menginstal, mengatur dan bekerja dengan berbagai lingkungan Ruby.
-> Informasi lebih lanjut: <https://rvm.io>.
+> Informasi lebih lanjut: <https://rvm.io/rvm/cli>.
 
 - Pasang suatu atau beberapa versi Ruby:
 

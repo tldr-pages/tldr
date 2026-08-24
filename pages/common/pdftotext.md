@@ -19,6 +19,6 @@
 
 `pdftotext {{input.pdf}} {{output.txt}}`
 
-- Convert pages 2, 3 and 4 of `input.pdf` to plain text and save them as `output.txt`:
+- Convert pages 2, 3, and 4 of `input.pdf` to plain text and save them as `output.txt`:
 
 `pdftotext -f {{2}} -l {{4}} {{input.pdf}} {{output.txt}}`

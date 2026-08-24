@@ -2,7 +2,7 @@
 
 > `polybar`를 프로세스 간 메시징(IPC)을 사용하여 제어.
 > 참고: IPC는 기본적으로 비활성화되어 있으며, Polybar 설정에서 `enable-ipc = true`로 설정하여 활성화할 수 있습니다.
-> 더 많은 정보: <https://polybar.rtfd.io/en/stable/user/ipc.html>.
+> 더 많은 정보: <https://polybar.readthedocs.io/en/stable/user/ipc.html>.
 
 - 바 종료:
 

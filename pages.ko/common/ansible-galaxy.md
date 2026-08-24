@@ -1,7 +1,7 @@
 # ansible-galaxy
 
 > Ansible 역할 생성 및 관리.
-> 더 많은 정보: <https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html>.
+> 더 많은 정보: <https://docs.ansible.com/projects/ansible/latest/cli/ansible-galaxy.html>.
 
 - 역할 설치:
 

@@ -2,6 +2,6 @@
 
 > To polecenie jest aliasem `systemd-mount --umount`.
 
-- Zobacz dokumentację oryginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr systemd-mount`

@@ -1,7 +1,7 @@
 # solo
 
 > Interact with Solo hardware security keys.
-> More information: <https://github.com/solokeys/solo-python>.
+> More information: <https://github.com/solokeys/solo1-cli>.
 
 - List connected Solos:
 

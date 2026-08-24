@@ -1,6 +1,6 @@
 # grsh
 
-> Perintah ini merupakan alias dari `-p linux rsh`.
+> Perintah ini merupakan alias dari GNU `rsh`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 

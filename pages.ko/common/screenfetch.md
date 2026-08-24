@@ -1,7 +1,7 @@
 # screenfetch
 
 > 시스템 정보를 표시합니다.
-> 더 많은 정보: <https://github.com/KittyKatt/screenFetch>.
+> 더 많은 정보: <https://github.com/KittyKatt/screenFetch#running-screenfetch>.
 
 - `screenfetch` 시작:
 

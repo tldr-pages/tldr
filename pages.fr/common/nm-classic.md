@@ -2,6 +2,6 @@
 
 > Cette commande est un alias de `nm`.
 
-- Voir la documentation de la commande originale :
+- Affiche la documentation de la commande originale :
 
 `tldr nm`

@@ -1,7 +1,7 @@
 # systemd-firstboot
 
 > Initialize basic system settings on or before the first boot-up of a system.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemd-firstboot.html>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemd-firstboot.html>.
 
 - Operate on the specified directory instead of the root directory of the host system:
 

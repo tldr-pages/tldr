@@ -1,7 +1,7 @@
 # choco feature
 
 > Chocolateyで機能を操作します。
-> もっと詳しく: <https://chocolatey.org/docs/commands-feature>。
+> 詳細情報: <https://docs.chocolatey.org/en-us/choco/commands/feature/>。
 
 - 利用可能な機能のリストを表示します:
 
@@ -9,8 +9,8 @@
 
 - 機能を有効にします:
 
-`choco feature enable --name {{名}}`
+`choco feature enable {{[-n|--name]}} {{名}}`
 
 - 機能を無効にします:
 
-`choco feature disable --name {{名}}`
+`choco feature disable {{[-n|--name]}} {{名}}`

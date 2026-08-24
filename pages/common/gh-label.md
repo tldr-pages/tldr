@@ -11,7 +11,7 @@
 
 `gh label {{[ls|list]}} {{[-w|--web]}}`
 
-- Create a label with a specific name, description and color in hexadecimal format for the repository in the current directory:
+- Create a label with a specific name, description, and color in hexadecimal format for the repository in the current directory:
 
 `gh label create {{name}} {{[-d|--description]}} "{{description}}" {{[-c|--color]}} {{color_hex}}`
 

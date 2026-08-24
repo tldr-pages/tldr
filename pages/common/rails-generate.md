@@ -11,7 +11,7 @@
 
 `rails generate model {{Post}} {{title:string}} {{body:text}}`
 
-- Generate a new controller named Posts with actions index, show, new and create:
+- Generate a new controller named Posts with actions index, show, new, and create:
 
 `rails generate controller {{Posts}} {{index}} {{show}} {{new}} {{create}}`
 

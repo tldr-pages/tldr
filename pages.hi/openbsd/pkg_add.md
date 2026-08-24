@@ -1,7 +1,7 @@
 # pkg_add
 
 > OpenBSD में पैकेज स्थापित/अपडेट करें।
-> देखें: `pkg_info`, `pkg_delete`।
+> यह भी देखें: `pkg_info`, `pkg_delete`।
 > अधिक जानकारी: <https://man.openbsd.org/pkg_add>।
 
 - सभी पैकेज अपडेट करें, जिसमें निर्भरताएँ शामिल हैं:

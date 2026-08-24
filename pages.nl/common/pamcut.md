@@ -1,7 +1,7 @@
 # pamcut
 
 > Snij een rechthoekig gebied uit van een Netpbm afbeelding.
-> Zie ook: `pamcrop`, `pamdice`, `pamcomp`.
+> Zie ook: `pamdice`, `pamcomp`.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/pamcut.html>.
 
 - Verwijder het gespecificeerde nummer van kolommen/rijen van iedere zijde van de afbeelding:

@@ -1,8 +1,8 @@
 # magick montage
 
 > 在可自定义的网格内平铺图片。
-> 另见：`magick`。
-> 更多信息：<https://imagemagick.org/script/montage.php>.
+> 另请参阅：`magick`。
+> 更多信息：<https://imagemagick.org/script/montage.php>。
 
 - 平铺图片，尺寸大于格子的图片将会被自动缩小：
 

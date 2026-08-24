@@ -11,7 +11,7 @@
 
 `md5 {{path/to/file1 path/to/file2 ...}}`
 
-- Output only the md5 checksum (no filename):
+- Output only the MD5 checksum (no filename):
 
 `md5 -q {{path/to/file}}`
 

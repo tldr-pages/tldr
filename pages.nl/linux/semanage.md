@@ -1,7 +1,7 @@
 # semanage
 
 > SELinux persistent beleid beheertool.
-> Sommige subcommando's zoals `boolean`, `fcontext`, `port`, etc. hebben hun eigen gebruiksdocumentatie.
+> Sommige subcommando's zoals `boolean`, `fcontext`, `port`, etc. hebben hun eigen documentatie.
 > Meer informatie: <https://manned.org/semanage>.
 
 - Stel een SELinux-boolean in of uit. Booleans stellen de beheerder in staat om aan te passen hoe beleidsregels invloed hebben op ingesloten procestypes (ook wel domeinen genoemd):

@@ -7,7 +7,7 @@
 
 `aiac get terraform {{Azure 스토리지 계정을 위한}}`
 
-- nginx를 위한 Dockerfile 생성:
+- `nginx`를 위한 Dockerfile 생성:
 
 `aiac get dockerfile {{보안을 강화한 nginx를 위한}}`
 

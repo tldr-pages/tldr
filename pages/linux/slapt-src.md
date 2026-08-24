@@ -12,7 +12,7 @@
 
 `slapt-src {{[-l|--list]}}`
 
-- Fetch, build and install the specified slackbuild(s):
+- Fetch, build, and install the specified slackbuild(s):
 
 `slapt-src {{[-i|--install]}} {{slackbuild_name}}`
 

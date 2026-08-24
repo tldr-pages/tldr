@@ -6,11 +6,11 @@
 
 - 스토리지 계정에 새 테이블을 만듬:
 
-`az storage table create --account-name {{스토리지_계정_이름}} --name {{테이블_이름}} --fail-on-exist`
+`az storage table create --account-name {{스토리지_계정_이름}} {{[-n|--name]}} {{테이블_이름}} --fail-on-exist`
 
 - 테이블에 대한 공유 액세스 서명을 공유:
 
-`az storage table generate-sas --account-name {{스토리지_계정_이름}} --name {{테이블_이름}} --permissions {{sas_permissions}} --expiry {{만료_날짜}} --https-only`
+`az storage table generate-sas --account-name {{스토리지_계정_이름}} {{[-n|--name]}} {{테이블_이름}} --permissions {{sas_permissions}} --expiry {{만료_날짜}} --https-only`
 
 - 스토리지 계정의 테이블 나열:
 
@@ -18,4 +18,4 @@
 
 - 지정된 테이블과 여기에 포함된 모든 데이터를 삭제:
 
-`az storage table delete --account-name {{스토리지_계정_이름}} --name {{테이블_이름}} --fail-not-exist`
+`az storage table delete --account-name {{스토리지_계정_이름}} {{[-n|--name]}} {{테이블_이름}} --fail-not-exist`

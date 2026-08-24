@@ -14,7 +14,7 @@
 
 - Mostra solo i riferimenti a tag nel repository remoto predefinito:
 
-`git ls-remote --tags`
+`git ls-remote {{[-t|--tags]}}`
 
 - Mostra tutti i riferimenti da un repository remoto dato un nome o URL:
 

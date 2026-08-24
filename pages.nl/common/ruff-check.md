@@ -2,7 +2,7 @@
 
 > Een extreem snelle Python linter. `check` is het standaard commando - het kan overal weggelaten worden.
 > Als geen bestanden of mappen zijn gespecificeerd, wordt de huidige map gebruikt.
-> Meer informatie: <https://docs.astral.sh/ruff/linter>.
+> Meer informatie: <https://docs.astral.sh/ruff/linter/>.
 
 - Voer de linter uit op de opgegeven bestanden of mappen:
 

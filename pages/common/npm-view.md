@@ -1,7 +1,7 @@
 # npm view
 
 > View registry information about a package.
-> More information: <https://docs.npmjs.com/cli/npm-view>.
+> More information: <https://docs.npmjs.com/cli/npm-view/>.
 
 - View information about the latest version of a package:
 

@@ -3,7 +3,7 @@
 > Report system hardware and software configuration.
 > More information: <https://keith.github.io/xcode-man-pages/system_profiler.8.html>.
 
-- Display a report with specific details level (mini [no personal information], basic or full):
+- Display a report with specific details level (mini [no personal information], basic, or full):
 
 `system_profiler -detailLevel {{level}}`
 
@@ -18,3 +18,7 @@
 - Print the system serial number:
 
 `system_profiler SPHardwareDataType|grep "Serial Number (system)" | awk '{ print $4 }'`
+
+- Display the negotiated max wattage of the connected charger and cable:
+
+`system_profiler SPPowerDataType | awk '/Wattage/ {print $3}'`

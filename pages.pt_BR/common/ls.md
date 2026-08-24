@@ -17,7 +17,7 @@
 
 - Lista todos os arquivos em formato longo (permissões, dono, tamanho e data de modificação):
 
-`ls {{[-la|--all -l]}}`
+`ls {{[-la|-l --all]}}`
 
 - Lista em formato longo com tamanho exibido usando unidades legíveis para humanos (KiB, MiB, GiB):
 
@@ -25,7 +25,7 @@
 
 - Lista em formato longo ordenados por tamanhos (decrescente):
 
-`ls {{-lSR|-lS --recursive}}`
+`ls {{[-lSR|-lS --recursive]}}`
 
 - Lista todos os arquivos em formato longo, ordenados por data de modificação (mais antigo primeiro):
 

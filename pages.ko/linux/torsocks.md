@@ -16,7 +16,7 @@
 
 `torsocks --shell`
 
-- 현재 셸이 Tor가 활성화되었는지 확인 (`LD_PRELOAD` 값이 비어 있으면 비활성화됨):
+- 현재 셸이 Tor가 활성화되었는지 확인 (`$LD_PRELOAD` 값이 비어 있으면 비활성화됨):
 
 `torsocks show`
 

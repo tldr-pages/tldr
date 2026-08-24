@@ -2,7 +2,7 @@
 
 > Interface de linha de comando para o AWS Simple Email Service.
 > Serviço em nuvem com alta performance para envio e recebimento de emails.
-> Mais informações: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ses/index.html>.
+> Mais informações: <https://docs.aws.amazon.com/cli/latest/reference/ses/>.
 
 - Cria um novo conjunto de regras:
 
@@ -10,7 +10,7 @@
 
 - Descreve os conjuntos ativos de regras:
 
-`aws ses describe-active-receipt-rule-set --generate-cli-skeletion`
+`aws ses describe-active-receipt-rule-set --generate-cli-skeleton`
 
 - Descreve um regra específica de um conjunto de regras:
 
@@ -30,7 +30,7 @@
 
 - Envia um email:
 
-`aws ses send-email --from {{de_endereco}} --destination "ToAddresses={{para_endereco}}" --message "Subject={Data={{assunto}},Charset=utf8},Body={Text={Data={{corpo_email}},Charset=utf8},Html={Data={{corpo_do_email_com_html}},Charset=utf8}}"`
+`aws ses send-email --from {{de_endereco}} --destination "ToAddresses={{para_endereco}}" --message "Subject={Data={{assunto}},Charset=utf8},Body={Text={Data={{corpo_email}},Charset=utf8},Html={Data={{corpo_do_email_com_html}},Charset=utf8\}\}"`
 
 - Exibe ajuda para um subcomando específico do SES:
 

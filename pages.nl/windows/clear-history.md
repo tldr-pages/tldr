@@ -2,7 +2,7 @@
 
 > Verwijder vermeldingen uit de Powershell-sessie commandogeschiedenis.
 > Opmerking: `clhy` kan gebruikt worden als een alias voor `Clear-History`.
-> Meer informatie: <https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/clear-history>.
+> Meer informatie: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/clear-history>.
 
 - Verwijder alle geschiedenis van de huidige sessie:
 

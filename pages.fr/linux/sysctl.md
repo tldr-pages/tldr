@@ -5,11 +5,11 @@
 
 - Affiche toutes les variables disponibles et leurs valeurs :
 
-`sysctl -a`
+`sysctl {{[-a|--all]}}`
 
 - Définis une variable d'état modifiable du noyau :
 
-`sysctl -w {{section.modifiable}}={{valeur}}`
+`sysctl {{[-w|--write]}} {{section.modifiable}}={{valeur}}`
 
 - Obtiens les gestionnaires de fichiers (handlers) actuellement ouverts :
 
@@ -21,4 +21,4 @@
 
 - Applique les changements de `/etc/sysctl.conf` :
 
-`sysctl -p`
+`sysctl {{[-p|--load]}}`

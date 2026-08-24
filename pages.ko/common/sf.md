@@ -5,7 +5,7 @@
 
 - Salesforce 조직 승인:
 
-`sf force:auth:web:login --setalias {{조직}} --instanceurl {{조직_URL}}`
+`sf force:auth:web:login --setalias {{조직}} --instanceurl {{조직_url}}`
 
 - 승인된 모든 조직 나열:
 

@@ -2,7 +2,8 @@
 
 > Webからファイルをダウンロードします。
 > HTTP, HTTPS, そして FTP をサポートします。
-> もっと詳しく: <https://www.gnu.org/software/wget/manual/wget.html>。
+> 参照: `wcurl`, `curl`。
+> 詳細情報: <https://www.gnu.org/software/wget/manual/wget.html>。
 
 - URLの内容を、ファイルにダウンロードする (この場合 "foo" と言う名前で):
 
@@ -14,11 +15,11 @@
 
 - 1つのウェブページと、その全てのリソースを、リクエスト間隔を3秒にしてダウンロードする (スクリプト、スタイルシート、画像など):
 
-`wget {{[-p|--page-requisites]}} {{[-k|--convert-links]}} {{[-w|--wait]}} 3 {{https://example.com/somepage.html}}`
+`wget {{[-pkw|--page-requisites --convert-links --wait]}} 3 {{https://example.com/somepage.html}}`
 
 - ディレクトリと、そのサブディレクトリ内のリストされたファイルを、全てダウンロードする (埋め込まれたページ要素はダウンロードしない):
 
-`wget {{[-m|--mirror]}} {{[-np|--no-parent]}} {{https://example.com/somepath/}}`
+`wget {{[-mnp|--mirror --no-parent]}} {{https://example.com/somepath/}}`
 
 - ダウンロード速度と接続再試行回数を制限する:
 

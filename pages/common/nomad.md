@@ -1,7 +1,7 @@
 # nomad
 
 > Distributed, highly available, datacenter-aware scheduler.
-> More information: <https://www.nomadproject.io/docs/commands/>.
+> More information: <https://developer.hashicorp.com/nomad/commands>.
 
 - Show the status of nodes in the cluster:
 

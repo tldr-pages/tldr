@@ -21,4 +21,4 @@
 
 - Leeg de inhoud van het bestand, maar maak het bestand niet aan als het niet bestaat:
 
-`truncate {{[-cs|--no-create --size]}} 0 {{pad/naar/bestand}}`
+`truncate {{[-s|--size]}} 0 {{[-c|--no-create]}} {{pad/naar/bestand}}`

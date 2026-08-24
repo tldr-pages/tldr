@@ -6,11 +6,11 @@
 
 - 공급자 등록:
 
-`az provider register --namespace {{Microsoft.PolicyInsights}}`
+`az provider register {{[-n|--namespace]}} {{Microsoft.PolicyInsights}}`
 
 - 공급자 등록 취소:
 
-`az provider unregister --namespace {{Microsoft.Automation}}`
+`az provider unregister {{[-n|--namespace]}} {{Microsoft.Automation}}`
 
 - 구독에 대한 모든 공급자를 나열:
 
@@ -18,7 +18,7 @@
 
 - 특정 공급업체에 대한 정보를 표시:
 
-`az provider show --namespace {{Microsoft.Storage}}`
+`az provider show {{[-n|--namespace]}} {{Microsoft.Storage}}`
 
 - 특정 공급자에 대한 모든 리소스 유형을 나열:
 

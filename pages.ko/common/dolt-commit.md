@@ -9,11 +9,11 @@
 
 - 지정된 메시지로 모든 단계적 변경 사항을 커밋:
 
-`dolt commit --message "{{커밋_메시지}}"`
+`dolt commit {{[-m|--message]}} "{{커밋_메시지}}"`
 
 - 커밋하기 전에, 테이블에 대한 모든 스테이지되지 않은 변경 사항을 스테이징함:
 
-`dolt commit --all`
+`dolt commit {{[-a|--all]}}`
 
 - 지정된 ISO 8601 커밋 날짜를 사용 (기본값은 현재 날짜 및 시간):
 
@@ -29,4 +29,4 @@
 
 - 외래 키 경고를 무시:
 
-`dolt commit --force`
+`dolt commit {{[-f|--force]}}`

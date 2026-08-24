@@ -1,7 +1,7 @@
 # wuzz
 
 > Interactively inspect HTTP requests and responses.
-> More information: <https://github.com/asciimoo/wuzz>.
+> More information: <https://github.com/asciimoo/wuzz#commands>.
 
 - Start `wuzz`:
 

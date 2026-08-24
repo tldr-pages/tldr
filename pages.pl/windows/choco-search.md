@@ -1,7 +1,7 @@
 # choco search
 
 > Wyszukiwanie pakietów Chocolatey dostępnych lokalnie lub w zdalnych źródłach/repozytoriach.
-> Więcej informacji: <https://chocolatey.org/docs/commands-search>.
+> Więcej informacji: <https://docs.chocolatey.org/en-us/choco/commands/search/>.
 
 - Wyszkukiwanie pakietów:
 
@@ -13,16 +13,16 @@
 
 - Wyświetlanie wyłącznie dokładnych dopasowań do podanej kwerendy/szukanej frazy:
 
-`choco search {{kwerenda}} --exact`
+`choco search {{kwerenda}} {{[-e|--exact]}}`
 
 - Automatyczna akceptacja wszystkich monitów (--yes):
 
-`choco search {{kwerenda}} --yes`
+`choco search {{kwerenda}} {{[-y|--yes]}}`
 
 - Ustawienie określonego źródła do wyszukiwania pakietów:
 
-`choco search {{kwerenda}} --source {{adres_url|alias}}`
+`choco search {{kwerenda}} {{[-s|--source]}} {{adres_url|alias}}`
 
 - Podanie nazwy użytkownika i hasła do uwierzytelnienia:
 
-`choco search {{kwerenda}} --user {{nazwa_użytkownika}} --password {{hasło}}`
+`choco search {{kwerenda}} {{[-u|--user]}} {{nazwa_użytkownika}} {{[-p|--password]}} {{hasło}}`

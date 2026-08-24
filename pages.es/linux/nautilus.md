@@ -2,6 +2,7 @@
 
 > Explorador de archivos por defecto para el entorno de escritorio GNOME.
 > También conocido como Archivos de GNOME.
+> Vea también: `dolphin`, `caja`, `thunar`, `vifm`.
 > Más información: <https://manned.org/nautilus>.
 
 - Inicia Nautilus:

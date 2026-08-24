@@ -1,6 +1,6 @@
 # gmktemp
 
-> Perintah ini merupakan alias dari `-p linux mktemp`.
+> Perintah ini merupakan alias dari GNU `mktemp`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 

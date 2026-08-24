@@ -2,7 +2,7 @@
 
 > Een groot taalmodel-runner.
 > Voor een lijst van beschikbare modellen, zie <https://ollama.com/library>.
-> Meer informatie: <https://github.com/ollama/ollama#cli-reference>.
+> Meer informatie: <https://docs.ollama.com/cli>.
 
 - Start de daemon die vereist is om andere commando's uit te voeren:
 
@@ -12,9 +12,9 @@
 
 `ollama run {{model}}`
 
-- Voer een model uit met één prompt:
+- Voer een model uit met één prompt en zet nadenken uit:
 
-`ollama run {{model}} {{prompt}}`
+`ollama run {{model}} --think=false "{{prompt}}"`
 
 - Toon gedownloade modellen:
 

@@ -2,7 +2,7 @@
 
 > A gNMI client.
 > Manage gNMI network device configuration and view operational data.
-> More information: <https://gnmic.kmrd.dev>.
+> More information: <https://gnmic.openconfig.net/user_guide/configuration_flags/>.
 
 - Request device capabilities:
 
@@ -22,4 +22,4 @@
 
 - Subscribe to target state updates under the subtree at a specific path:
 
-`gnmic {{[-a|--address]}} {{ip:port}} subscribe --path {{path}}`
+`gnmic {{[-a|--address]}} {{ip:port}} {{[sub|subscribe]}} --path {{path}}`

@@ -1,7 +1,7 @@
 # matlab
 
 > MathWorks 制作的数值计算环境。
-> 更多信息：<https://www.mathworks.com/help/matlab/matlab_env/startup-options.html>.
+> 更多信息：<https://www.mathworks.com/help/matlab/matlab_env/startup-options/>。
 
 - 在启动过程中，运行时不出现闪屏：
 

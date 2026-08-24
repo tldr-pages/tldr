@@ -1,7 +1,7 @@
 # copr
 
-> Questo comando è un alias di `copr-cli`.
+> Questo comando è un alias per `copr-cli`.
 
-- Mostra la documentazione del comando originale:
+- Consulta la documentazione del comando originale:
 
 `tldr copr-cli`

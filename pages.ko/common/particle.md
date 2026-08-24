@@ -1,7 +1,7 @@
 # particle
 
 > Particle 장치를 조작.
-> 더 많은 정보: <https://docs.particle.io/tutorials/developer-tools/cli>.
+> 더 많은 정보: <https://docs.particle.io/tutorials/developer-tools/cli/>.
 
 - Particle CLI에 로그인하거나 계정 생성:
 

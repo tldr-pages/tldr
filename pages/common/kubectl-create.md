@@ -1,7 +1,7 @@
 # kubectl create
 
 > Create a resource from a file or from `stdin`.
-> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_create>.
+> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_create/>.
 
 - Create a resource using the resource definition file:
 

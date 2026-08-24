@@ -1,6 +1,6 @@
 # lrunzip
 
-> To polecenie jest aliasem `lrzip -d`.
+> To polecenie jest aliasem `lrzip --decompress`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

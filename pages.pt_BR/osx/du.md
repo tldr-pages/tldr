@@ -25,4 +25,4 @@
 
 - Lista o tamanho legível de todos os arquivos `.jpg` nos subdiretórios do diretório atual e exibe um total cumulativo no final:
 
-`du -ch {{*/*.jpg}}`
+`du -ch */*.jpg`

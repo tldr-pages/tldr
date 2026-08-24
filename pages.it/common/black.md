@@ -1,6 +1,7 @@
 # black
 
 > Un formattatore automatico di codice Python.
+> Vedi anche: `ruff`.
 > Maggiori informazioni: <https://black.readthedocs.io/en/stable/usage_and_configuration/the_basics.html>.
 
 - Auto-formatta un file o un'intera directory:
@@ -9,7 +10,7 @@
 
 - Formatta il codice che gli viene passato come stringa:
 
-`black -c "{{codice}}"`
+`black {{[-c|--code]}} "{{codice}}"`
 
 - Verifica se i file necessitano di auto-formattazione senza modificare nulla:
 
@@ -21,8 +22,8 @@
 
 - Auto-formatta un file o una directory senza produrre output:
 
-`black --quiet {{percorso/del/file_o_directory}}`
+`black {{[-q|--quiet]}} {{percorso/del/file_o_directory}}`
 
 - Auto-formatta un file o una directory senza sostituire gli apici con le doppie virgolette:
 
-`black --skip-string-normalization {{percorso/del/file_o_directory}}`
+`black {{[-S|--skip-string-normalization]}} {{percorso/del/file_o_directory}}`

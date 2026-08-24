@@ -13,20 +13,20 @@
 
 - 로컬 저장소를 원격의 최신 상태로 업데이트:
 
-`hg pull --update`
+`hg pull {{[-u|--update]}}`
 
 - 원격 저장소가 관련이 없는 경우에도 변경 사항 가져오기:
 
-`hg pull --force`
+`hg pull {{[-f|--force]}}`
 
 - 특정 리비전 변경 세트를 지정하여 가져오기:
 
-`hg pull --rev {{리비전}}`
+`hg pull {{[-r|--rev]}} {{리비전}}`
 
 - 특정 브랜치를 지정하여 가져오기:
 
-`hg pull --branch {{브랜치}}`
+`hg pull {{[-b|--branch]}} {{브랜치}}`
 
 - 특정 북마크를 지정하여 가져오기:
 
-`hg pull --bookmark {{북마크}}`
+`hg pull {{[-B|--bookmark]}} {{북마크}}`

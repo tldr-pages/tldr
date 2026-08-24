@@ -2,7 +2,7 @@
 
 > Open the current Git repository's CI website in the default web browser.
 > Part of `git-extras`.
-> More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-browse-ci>.
+> More information: <https://github.com/tj/git-extras/blob/main/Commands.md#git-browse-ci>.
 
 - Open the current repository's CI configuration on its upstream website:
 

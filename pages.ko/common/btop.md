@@ -2,6 +2,7 @@
 
 > CPU, 메모리, 디스크, 네트워크 및 프로세스에 대한 정보를 표시하는 리소스 모니터.
 > `bpytop`의 C++ 버전.
+> 관련 항목: `btm`, `glances`, `atop`, `htop`, `top`, `sensors`.
 > 더 많은 정보: <https://github.com/aristocratos/btop#command-line-options>.
 
 - `btop` 시작:
@@ -19,3 +20,15 @@
 - 24비트 색상 모드 대신 256색 모드에서 `btop`을 시작:
 
 `btop {{[-l|--low-color]}}`
+
+- 업데이트 주기를 500 밀리초로 설정:
+
+`btop {{[-u|--update]}} 500`
+
+- `btop` 종료:
+
+`<q>`
+
+- 도움말 표시:
+
+`btop {{[-h|--help]}}`

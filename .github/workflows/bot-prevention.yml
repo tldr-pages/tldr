@@ -1,0 +1,54 @@
+name: Check PR Description
+
+on:
+  pull_request_target:
+    types: [opened, reopened]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  check-pr-body:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Automatically close modified PR templates
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
+        with:
+          script: |
+            if (context.payload.pull_request.user.type === "Bot") {
+              return;
+            }
+            const { data: permissionData } = await github.rest.repos.getCollaboratorPermissionLevel({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              username: context.payload.pull_request.user.login
+            });
+            if (permissionData.permission === "write" || permissionData.permission === "admin") {
+              return;
+            }
+            
+            const requiredTexts = [
+              "The page(s) are in the correct platform directories: `common`, `linux`, `osx`, `windows`, `sunos`, `android`, etc.",
+              "The page description(s) have links to documentation or a homepage.",
+              "The page(s) follow the [content guidelines](/tldr-pages/tldr/blob/main/CONTRIBUTING.md#guidelines).",
+              "The page(s) follow the [style guide](/tldr-pages/tldr/blob/main/contributing-guides/style-guide.md).",
+              "The PR contains at most 5 new pages.",
+              "The PR is authored by me, or has been human-reviewed if it was created with AI or machine translation software.",
+              "The PR title conforms to the recommended [templates](/tldr-pages/tldr/blob/main/CONTRIBUTING.md#commit-message-and-pr-title)."
+            ]
+            const body = context.payload.pull_request.body || "";
+
+            if (requiredTexts.filter(text => !body.includes(text)).length > 0) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.payload.pull_request.number,
+                body: `This PR was automatically closed due to suspected bot activity.`
+              });
+              await github.rest.pulls.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: context.payload.pull_request.number,
+                state: "closed"
+              });
+            }

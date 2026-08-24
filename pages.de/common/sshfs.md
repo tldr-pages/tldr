@@ -1,7 +1,7 @@
 # sshfs
 
 > Dateisystem Client für SSH.
-> Weitere Informationen: <https://github.com/libfuse/sshfs>.
+> Weitere Informationen: <https://github.com/libfuse/sshfs/blob/master/sshfs.rst>.
 
 - Hänge ein externes Verzeichnis ein:
 

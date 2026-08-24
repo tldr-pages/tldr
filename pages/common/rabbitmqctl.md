@@ -1,7 +1,7 @@
 # rabbitmqctl
 
 > Manage, configure, and inspect RabbitMQ servers.
-> More information: <https://www.rabbitmq.com/rabbitmqctl.8.html>.
+> More information: <https://www.rabbitmq.com/docs/man/rabbitmqctl.8>.
 
 - Display the status of the current node:
 

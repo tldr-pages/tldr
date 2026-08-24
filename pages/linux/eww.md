@@ -1,7 +1,7 @@
 # eww
 
 > Implement your own custom widgets in any window manager.
-> More information: <https://elkowar.github.io/eww>.
+> More information: <https://elkowar.github.io/eww/>.
 
 - Start the daemon:
 

@@ -1,7 +1,7 @@
 # jigsaw
 
 > PHP용 Laravel 기반 정적 사이트 빌더.
-> 더 많은 정보: <https://jigsaw.tighten.co>.
+> 더 많은 정보: <https://jigsaw.tighten.co/>.
 
 - 프로젝트 초기화:
 

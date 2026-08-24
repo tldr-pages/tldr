@@ -1,7 +1,8 @@
 # find
 
 > 在指定目录树下递归查找文件或目录。
-> 更多信息：<https://manned.org/find>.
+> 另请参阅：`fd`。
+> 更多信息：<https://manned.org/find>。
 
 - 通过扩展名查找文件：
 

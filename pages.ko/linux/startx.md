@@ -1,7 +1,7 @@
 # startx
 
 > 단일 X 윈도우 시스템 세션 실행을 위한 사용자 인터페이스를 제공하는 `xinit`의 프론트엔드.
-> 더 많은 정보: <https://x.org/releases/X11R7.5/doc/man/man1/startx.1.html>.
+> 더 많은 정보: <https://www.x.org/releases/X11R7.6/doc/man/man1/startx.1.xhtml>.
 
 - X 세션 시작:
 

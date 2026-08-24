@@ -5,13 +5,13 @@
 
 - Codifica un archivo con codificación base64:
 
-`basenc --base64 {{ruta/a/archivo}}`
+`basenc --base64 {{ruta/al/archivo}}`
 
 - Descifra un archivo con codificación base64:
 
-`basenc {{[-d|--decode]}} --base64 {{ruta/a/archivo}}`
+`basenc {{[-d|--decode]}} --base64 {{ruta/al/archivo}}`
 
-- Codifica desde `stdin` con codificación base32 con 42 columnas:
+- Codifica desde `stdin` con codificación Base32 con 42 columnas:
 
 `{{comando}} | basenc --base32 {{[-w|--wrap]}} 42`
 

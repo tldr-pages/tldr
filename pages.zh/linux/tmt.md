@@ -2,7 +2,7 @@
 
 > 创建、运行和调试测试的测试管理工具。
 > 诸如`运行`、`尝试`等子命令，均有相应的用法文档。
-> 更多信息：<https://tmt.readthedocs.io/en/stable/examples.html>.
+> 更多信息：<https://tmt.readthedocs.io/en/stable/examples.html>。
 
 - 列举可用的测试、计划和用户故事：
 
@@ -14,7 +14,7 @@
 
 - 基于模板和链接创建新的测试：
 
-`tmt test create --template {{beakerlib}} --link {{verifies:issue#1234}}`
+`tmt test create {{[-t|--template]}} {{beakerlib}} --link {{verifies:issue#1234}}`
 
 - 列出可用的测试、计划和用户故事：
 
@@ -22,7 +22,7 @@
 
 - 在给定的上下文中显示详细的测试元数据：
 
-`tmt --context {{arch=aarch64}} test show`
+`tmt {{[-c|--context]}} {{arch=aarch64}} test show`
 
 - 根据说明书验证测试管理工具文件的有效性：
 
@@ -30,7 +30,7 @@
 
 - 使用筛选条件：
 
-`tmt tests ls --filter {{tag:foo}} --filter {{tier:0}}`
+`tmt tests ls {{[-f|--filter]}} {{tag:foo}} {{[-f|--filter]}} {{tier:0}}`
 
 - 显示帮助：
 

@@ -1,7 +1,7 @@
 # po4a-updatepo
 
 > Update the translation (in PO format) of a documentation.
-> More information: <https://po4a.org/man/man1/po4a-updatepo.1.php>.
+> More information: <https://www.po4a.org/man/man1/po4a-updatepo.1.php>.
 
 - Update a PO file according to the modification of its origin file:
 

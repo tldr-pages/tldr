@@ -1,7 +1,7 @@
 # snake4
 
 > Snake game in the terminal.
-> More information: <https://manned.org/snake4.6>.
+> More information: <https://manned.org/snake4>.
 
 - Start a snake game:
 

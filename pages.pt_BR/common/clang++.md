@@ -2,7 +2,7 @@
 
 > Compila arquivos fonte escritos em C++.
 > Parte de LLVM.
-> Mais informações: <https://clang.llvm.org>.
+> Mais informações: <https://clang.llvm.org/docs/UsersManual.html#command-line-options>.
 
 - Compila um conjunto de arquivos do código-fonte para um executável binário:
 

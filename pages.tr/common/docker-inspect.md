@@ -3,13 +3,9 @@
 > Docker objelerinde bulunan düşük seviye bilgiyi gösterir.
 > Daha fazla bilgi için: <https://docs.docker.com/reference/cli/docker/inspect/>.
 
-- Yardım içeriğini göster:
-
-`docker inspect`
-
 - Bir konteyner, imge veya hacim ile ilgili bilgiyi ismini veya ID'sini girerek görüntüle:
 
-`docker inspect {{konteyner|imge|ID}}`
+`docker inspect {{konteyner|imge|id}}`
 
 - Bir konteynerin IP adresini görüntüle:
 
@@ -30,3 +26,7 @@
 - Tüm port limanlayıcıları görüntüle:
 
 `docker inspect {{[-f|--format]}} '\{\{range $p, $conf := .NetworkSettings.Ports\}\} \{\{$p\}\} -> \{\{(index $conf 0).HostPort\}\} \{\{end\}\}' {{konteyner}}`
+
+- Yardım içeriğini göster:
+
+`docker inspect`

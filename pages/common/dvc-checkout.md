@@ -1,7 +1,7 @@
 # dvc checkout
 
 > Checkout data files and directories from cache.
-> More information: <https://dvc.org/doc/command-reference/checkout>.
+> More information: <https://doc.dvc.org/command-reference/checkout>.
 
 - Checkout the latest version of all target files and directories:
 

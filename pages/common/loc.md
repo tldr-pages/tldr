@@ -15,6 +15,6 @@
 
 `loc --files`
 
-- Print lines of code without .gitignore (etc.) files (e.g. two -u flags will additionally count hidden files and dirs):
+- Print lines of code without `.gitignore` (etc.) files (e.g. two `-u` flags will additionally count hidden files and dirs):
 
 `loc {{[-u|--unrestricted]}}`

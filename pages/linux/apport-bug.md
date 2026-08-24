@@ -1,7 +1,7 @@
 # apport-bug
 
 > File a bug report on Ubuntu.
-> More information: <https://wiki.ubuntu.com/Apport>.
+> More information: <https://ubuntu.com/project/docs/contributors/debugging/apport/>.
 
 - Report a bug about the whole system:
 
@@ -17,4 +17,4 @@
 
 - Report a bug about a specific process:
 
-`apport-bug {{PID}}`
+`apport-bug {{pid}}`

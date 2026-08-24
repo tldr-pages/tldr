@@ -1,7 +1,7 @@
 # kubectl describe
 
 > Show details of Kubernetes resources.
-> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_describe>.
+> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_describe/>.
 
 - Show details of pods in a namespace:
 

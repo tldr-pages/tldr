@@ -1,23 +1,23 @@
 # tb
 
 > Manage tasks and notes across multiple boards.
-> More information: <https://github.com/klaussinani/taskbook>.
+> More information: <https://github.com/klaudiosinani/taskbook#usage>.
 
 - Add a new task to a board:
 
-`tb --task {{task_description}} @{{board_name}}`
+`tb {{[-t|--task]}} {{task_description}} @{{board_name}}`
 
 - Add a new note to a board:
 
-`tb --note {{note_description}} @{{board_name}}`
+`tb {{[-n|--note]}} {{note_description}} @{{board_name}}`
 
 - Edit item's priority:
 
-`tb --priority @{{item_id}} {{priority}}`
+`tb {{[-p|--priority]}} @{{item_id}} {{priority}}`
 
 - Check/uncheck item:
 
-`tb --check {{item_id}}`
+`tb {{[-c|--check]}} {{item_id}}`
 
 - Archive all checked items:
 
@@ -25,4 +25,4 @@
 
 - Move item to a board:
 
-`tb --move @{{item_id}} {{board_name}}`
+`tb {{[-m|--move]}} @{{item_id}} {{board_name}}`

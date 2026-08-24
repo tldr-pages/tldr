@@ -1,7 +1,7 @@
 # husky
 
 > 네이티브 Git 훅을 쉽게 만들었습니다.
-> 더 많은 정보: <https://typicode.github.io/husky>.
+> 더 많은 정보: <https://typicode.github.io/husky/>.
 
 - 현재 폴더에 Husky를 설치:
 

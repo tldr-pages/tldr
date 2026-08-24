@@ -1,7 +1,7 @@
 # aws sns
 
 > Create topics and subscriptions, send and receive messages, and monitor events and logs for the Amazon Simple Notification Service.
-> More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/sns/index.html>.
+> More information: <https://docs.aws.amazon.com/cli/latest/reference/sns/>.
 
 - List all objects of a specific type:
 

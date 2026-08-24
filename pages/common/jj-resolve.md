@@ -1,7 +1,7 @@
 # jj resolve
 
 > Resolve conflicted files with an external merge tool.
-> More information: <https://jj-vcs.github.io/jj/latest/cli-reference/#jj-resolve>.
+> More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-resolve>.
 
 - Resolve all conflicts:
 

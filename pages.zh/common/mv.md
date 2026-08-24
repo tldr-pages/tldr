@@ -1,7 +1,7 @@
 # mv
 
 > 移动或重命名文件或目录。
-> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/mv-invocation.html>.
+> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/mv-invocation.html>。
 
 - 重命名文件或目录，当目标不是一个已存在的目录时：
 
@@ -33,4 +33,4 @@
 
 - 指定目标目录，以便使用外部工具来收集可移动的文件：
 
-`{{find /var/log -type f -name '*.log' -print0}} | {{xargs -0}} mv --target-directory {{路径/到/目标目录}}`
+`{{find /var/log -type f -name '*.log' -print0}} | {{xargs -0}} mv {{[-t|--target-directory]}} {{路径/到/目标目录}}`

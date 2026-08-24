@@ -5,20 +5,20 @@
 
 - Toon alle beschikbare platforms in een pakket repository:
 
-`tlmgr platform list`
+`tlmgr {{[arch|platform]}} list`
 
 - Voeg de uitvoerbare bestanden toe aan een specifiek platform:
 
-`sudo tlmgr platform add {{platform}}`
+`sudo tlmgr {{[arch|platform]}} add {{platform}}`
 
 - Verwijder de uitvoerbare bestanden uit een specifiek platform:
 
-`sudo tlmgr platform remove {{platform}}`
+`sudo tlmgr {{[arch|platform]}} remove {{platform}}`
 
 - Detecteer automatisch en wissel naar het huidige platform:
 
-`sudo tlmgr platform set auto`
+`sudo tlmgr {{[arch|platform]}} set auto`
 
 - Wissel naar een specifiek platform:
 
-`sudo tlmgr platform set {{platform}}`
+`sudo tlmgr {{[arch|platform]}} set {{platform}}`

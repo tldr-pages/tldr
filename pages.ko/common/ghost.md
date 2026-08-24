@@ -1,7 +1,7 @@
 # ghost
 
 > 블로그 플랫폼이자 헤드리스 CMS.
-> 더 많은 정보: <https://ghost.org>.
+> 더 많은 정보: <https://docs.ghost.org/ghost-cli>.
 
 - 현재 디렉토리에 Ghost를 설치:
 

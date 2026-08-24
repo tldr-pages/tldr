@@ -5,7 +5,7 @@
 
 - List available power profiles:
 
-`powerprofilesctl list`
+`powerprofilesctl`
 
 - Set a specific power profile:
 

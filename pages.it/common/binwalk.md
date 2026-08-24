@@ -1,7 +1,7 @@
 # binwalk
 
 > Strumento per l'analisi di file binari.
-> Maggiori informazioni: <https://github.com/ReFirmLabs/binwalk>.
+> Maggiori informazioni: <https://manned.org/binwalk>.
 
 - Scansiona un file binario:
 
@@ -13,7 +13,7 @@
 
 - Estrae file in maniera ricorsiva a partire da un binario, limitando la profondità di ricorsione a 2 livelli:
 
-`binwalk {{[-e|--extract]}} {{[-M|--matryoshka]}} {{[-d|--depth]}} {{2}} {{percorso/del/file}}`
+`binwalk {{[-e|--extract]}} {{[-M|--matryoshka]}} {{[-d|--depth]}} 2 {{percorso/del/file}}`
 
 - Estrae file da un binario utilizzando una particolare firma (ad esempio il MIME Type):
 

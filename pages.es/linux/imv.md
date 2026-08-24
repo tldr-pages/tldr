@@ -2,7 +2,7 @@
 
 > Visor de imágenes de línea de comando para Wayland y X11 dirigido a gestores de ventanas en mosaico.
 > Maneja múltiples formatos incluyendo Photoshop (PSD).
-> Más información: <https://sr.ht/~exec64/imv>.
+> Más información: <https://sr.ht/~exec64/imv/>.
 
 - Muestra múltiples imágenes:
 
@@ -26,4 +26,4 @@
 
 - Muestra múltiples imágenes de la web:
 
-`curl -Osw '%{filename_effective}\n' '{{http://www.example.com/[1-10].jpg}}' | imv`
+`curl {{[-Osw|--remote-name --silent --write-out]}} '%{filename_effective}\n' '{{http://www.example.com/[1-10].jpg}}' | imv`

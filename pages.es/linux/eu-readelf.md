@@ -9,4 +9,4 @@
 
 - Muestra el contenido de todos los segmentos y secciones de NOTE, o de un segmento o sección en particular:
 
-`eu-readelf {{[-n--notes]}} {{.note.ABI-tag}} {{ruta/al/fichero}}`
+`eu-readelf {{[-n|--notes]}} {{.note.ABI-tag}} {{ruta/al/fichero}}`

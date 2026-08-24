@@ -1,7 +1,7 @@
 # bun run
 
 > Execute a JavaScript/TypeScript file, or a script from `package.json`.
-> More information: <https://bun.com/docs/cli/run>.
+> More information: <https://bun.com/docs/runtime>.
 
 - Run a script defined in `package.json`:
 
@@ -17,4 +17,4 @@
 
 - Run a file using a specific configuration file:
 
-`bun run --config {{path/to/bunfig.toml}} {{path/to/file.ts}}`
+`bun run {{[-c|--config]}} {{path/to/bunfig.toml}} {{path/to/file.ts}}`

@@ -9,7 +9,7 @@
 
 - Voeg alle regels samen tot één enkele regel, met het opgegeven scheidingsteken:
 
-`paste {{[-sd|--serial --delimiters]}} {{scheidingsteken}} {{pad/naar/bestand}}`
+`paste {{[-s|--serial]}} {{[-d|--delimiters]}} {{scheidingsteken}} {{pad/naar/bestand}}`
 
 - Voeg twee bestanden zij aan zij samen, elk in zijn kolom, met TAB als scheidingsteken:
 

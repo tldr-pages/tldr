@@ -1,7 +1,7 @@
 # gau
 
 > 모든 URL 가져오기: AlienVault의 Open Threat Exchange, Wayback Machine, 및 모든 도메인에 대한 Common Crawl에서 알려진 URL을 가져옴.
-> 더 많은 정보: <https://github.com/lc/gau>.
+> 더 많은 정보: <https://github.com/lc/gau#usage>.
 
 - AlienVault의 Open Threat Exchange, Wayback Machine, Common Crawl 및 URLScan에서 도메인의 모든 URL을 가져옴:
 
@@ -13,7 +13,7 @@
 
 - 여러 스레드를 실행하여 입력 파일에서 여러 도메인의 모든 URL을 가져옴:
 
-`gau --threads {{4}} < {{경로/대상/도메인.txt}}`
+`gau < {{경로/대상/도메인.txt}} --threads {{4}}`
 
 - 출력([o]utput) 결과를 파일에 기록:
 

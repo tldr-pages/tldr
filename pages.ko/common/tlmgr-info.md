@@ -29,7 +29,7 @@
 
 - 패키지에 대한 특정 정보만 표시:
 
-`tlmgr info {{패키지}} --data "{{name}},{{category}},{{installed}},{{size}},{{depends}},..."`
+`tlmgr info {{패키지}} --data "{{name}},{{category}},{{installed}},{{size}},{{depends}},{{...}}"`
 
 - 모든 사용 가능한 패키지를 JSON 인코딩된 배열로 출력:
 

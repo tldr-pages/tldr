@@ -1,7 +1,7 @@
 # xed
 
 > 用 Xcode 打开要编辑的文件。
-> 更多信息：<https://keith.github.io/xcode-man-pages/xed.1.html>.
+> 更多信息：<https://keith.github.io/xcode-man-pages/xed.1.html>。
 
 - 用 Xcode 打开文件：
 

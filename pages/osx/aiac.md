@@ -1,13 +1,13 @@
 # aiac
 
-> Use OpenAI to generate IaC configurations, utilities, queries and more.
+> Use OpenAI to generate IaC configurations, utilities, queries, and more.
 > More information: <https://github.com/gofireflyio/aiac>.
 
 - Generate Terraform for Azure storage account:
 
 `aiac get terraform {{for an azure storage account}}`
 
-- Generate a Dockerfile for nginx:
+- Generate a Dockerfile for `nginx`:
 
 `aiac get dockerfile {{for a secured nginx}}`
 

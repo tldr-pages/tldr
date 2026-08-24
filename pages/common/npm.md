@@ -2,7 +2,8 @@
 
 > JavaScript and Node.js package manager.
 > Manage Node.js projects and their module dependencies.
-> More information: <https://docs.npmjs.com/cli/npm>.
+> Some subcommands such as `install`, `run`, etc. have their own usage documentation.
+> More information: <https://docs.npmjs.com/cli/npm/>.
 
 - Create a `package.json` file with default values (omit `--yes` to do it interactively):
 
@@ -20,7 +21,7 @@
 
 `npm {{[i|install]}} {{package_name}} {{[-D|--save-dev]}}`
 
-- Download the latest version of a package and install it globally:
+- Download the latest version of a package and install it globally (set the install location with `npm config set prefix`):
 
 `npm {{[i|install]}} {{package_name}} {{[-g|--global]}}`
 

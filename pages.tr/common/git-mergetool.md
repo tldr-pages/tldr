@@ -13,15 +13,15 @@
 
 - Belirtilen birleştirme aracını başlat:
 
-`git mergetool --tool {{araç_ismi}}`
+`git mergetool {{[-t|--tool]}} {{araç_ismi}}`
 
 - Her birleştirme aracı çağrılışında harekete geçme:
 
-`git mergetool --no-prompt`
+`git mergetool {{[-y|--no-prompt]}}`
 
 - Özellikle grafiksel (GUI) birleştirme aracını kullan (merge.guitool değişkenine göz at):
 
-`git mergetool --gui`
+`git mergetool {{[-g|--gui]}}`
 
 - Özellikle normal birleştirme aracını kullan (merge.guitool değişkenine göz at):
 

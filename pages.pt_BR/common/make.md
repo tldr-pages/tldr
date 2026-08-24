@@ -14,19 +14,19 @@
 
 - Executa um destino específico, executando 4 tarefas simultaneamente em paralelo:
 
-`make -j{{4}} {{destino}}`
+`make {{[-j|--jobs]}} 4 {{destino}}`
 
 - Usa um Makefile específico:
 
-`make --file {{caminho/para/arquivo}}`
+`make {{[-f|--file]}} {{caminho/para/arquivo}}`
 
 - Executa o make a partir de outro diretório:
 
-`make --directory {{caminho/para/diretorio}}`
+`make {{[-C|--directory]}} {{caminho/para/diretorio}}`
 
 - Força a execução de um destino, mesmo que os arquivos de origem não tenham sido alterados:
 
-`make --always-make {{destino}}`
+`make {{[-B|--always-make]}} {{destino}}`
 
 - Substitui uma variável definida no Makefile:
 
@@ -34,4 +34,4 @@
 
 - Substitui variáveis definidas no Makefile pelo ambiente:
 
-`make --environment-overrides {{destino}}`
+`make {{[-e|--environment-overrides]}} {{destino}}`

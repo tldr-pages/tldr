@@ -1,6 +1,8 @@
 # exa
 
 > A modern replacement for `ls` (List directory contents).
+> Note: `exa` is no longer maintained. Use `eza` instead.
+> See also: `eza`.
 > More information: <https://github.com/ogham/exa#command-line-options>.
 
 - List files one per line:
@@ -11,7 +13,7 @@
 
 `exa {{[-a|--all]}}`
 
-- Long format list (permissions, ownership, size and modification date) of all files:
+- Long format list (permissions, ownership, size, and modification date) of all files:
 
 `exa {{[-l|--long]}} {{[-a|--all]}}`
 

@@ -10,7 +10,8 @@ This page lists specific formatting instructions for `tldr` pages.
 4. [Heading](#heading)
 5. [Example descriptions](#example-descriptions)
 6. [Example commands](#example-commands)
-7. [Language and translation rules](#language-and-translation-rules)
+7. [Windows-Specific Rules](#windows-specific-rules)
+8. [Language and translation rules](#language-and-translation-rules)
 
 ## General layout
 
@@ -67,17 +68,14 @@ Example:
 > [!NOTE]\
 > The page's filename and title must match the command name exactly. The page title can be present in any case, whereas the page's Markdown filenames must be lowercase.
 
-There is a linter that enforces the format above.
-It is run automatically on every pull request,
-but you may install it to test your contributions locally before submitting them:
+There is a linter that enforces the format above. It is run automatically on every pull request, but you may install it to test your contributions locally before submitting them:
 
 ```sh
 npm install --global tldr-lint
 tldr-lint path/to/tldr_page.md
 ```
 
-For other ways to use `tldr-lint`, such as linting an entire directory, check out the
-[`tldr page on tldr-lint`](https://github.com/tldr-pages/tldr/blob/main/pages/common/tldr-lint.md). Alternatively, you can also use its alias `tldrl`.
+For other ways to use `tldr-lint`, such as linting an entire directory, check out the [`tldr page on tldr-lint`](https://github.com/tldr-pages/tldr/blob/main/pages/common/tldr-lint.md). Alternatively, you can also use its alias `tldrl`.
 
 Depending on your client, you may be able to preview a page locally using the `--render` flag:
 
@@ -85,37 +83,13 @@ Depending on your client, you may be able to preview a page locally using the `-
 tldr --render path/to/tldr_page.md
 ```
 
-### PowerShell-Specific Rules
-
-When documenting PowerShell commands, please take note of the following naming conventions.
-
-- The name of the file name must be written in lowercase, such as `invoke-webrequest.md` instead of `Invoke-WebRequest.md`.
-- The page title/heading must be written as-is (matching the spelling intended by Microsoft or the PowerShell module author), such as `Invoke-WebRequest` instead of `invoke-webrequest`.
-- The command name and options in the examples should also be written as-is, such as `Command-Name {{input}} -CommandParameter {{value}}` instead of `command-name {{input}} -commandparameter {{value}}`.
-
-Due to [various compatibility differences](https://learn.microsoft.com/powershell/scripting/whats-new/differences-from-windows-powershell) and removed Windows-specific commands in PowerShell 6.x, ensure that
-the command works on between **PowerShell 5.1** (aka. the "Legacy Windows PowerShell" as installed in Windows 10
-and 11), and the **latest version of the Cross-Platform PowerShell** (formerly known as PowerShell Core).
-
-Thus, if the command or its options are unavailable or contain different behaviors between each version, please kindly note them in the descriptions. For example:
-
-```md
-# Clear-RecycleBin
-
-> Clear items from the Recycle Bin.
-> Note: This command can only be used through PowerShell versions 5.1 and below, or 7.1 and above.
-> More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/clear-recyclebin>.
-```
-
 ## Pages
 
 ### Platform differences
 
-If you are afraid the commands may differ between platforms or operating systems (e.g. Windows vs macOS),
-most [tldr pages clients](https://github.com/tldr-pages/tldr/wiki/Clients) will choose the most suitable version of the command to be displayed to the end user.
+If you are afraid the commands may differ between platforms or operating systems (e.g. Windows vs macOS), most [tldr pages clients](https://github.com/tldr-pages/tldr/wiki/Clients) will choose the most suitable version of the command to be displayed to the end user.
 
-In this case, the information of the Windows version of `cd` (stored in `pages/windows/cd.md`) will be displayed by default to Windows users, and a generic/common version (stored in `pages/common/cd.md`)
-will be displayed for Linux, macOS, and other platform users.
+In this case, the information of the Windows version of `cd` (stored in `pages/windows/cd.md`) will be displayed by default to Windows users, and a generic/common version (stored in `pages/common/cd.md`) will be displayed for Linux, macOS, and other platform users.
 
 Try to match the page filename with the invoked command. Do not use the project name if possible. The goal is to be as transparent as possible to the user when they are curious of a command.
 
@@ -148,66 +122,6 @@ Example:
 
 - Pre-translated alias page templates can be found [here](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/translation-templates/alias-pages.md).
 
-#### PowerShell-Specific Aliases
-
-Some PowerShell commands may introduce aliases which fall into one of these three categories:
-
-1. **Replaces an existing Windows Command Prompt (`cmd`) command**, such as `cd` aliasing to `Set-Location` with different command options. In this case, add the following alias note into the second line of the original
-Command Prompt command's tldr description, for example:
-
-```md
-# cd
-
-> Display the current working directory or move to a different directory.
-> In PowerShell, this command is an alias of `Set-Location`. This documentation is based on the Command Prompt (`cmd`) version of `cd`.
-> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
-
-- View documentation of the equivalent PowerShell command:
-
-`tldr set-location`
-```
-
-> [!NOTE]\
-> The "View documentation of the equivalent PowerShell command" example is optional and must be excluded if the page already has the maximum number (8) of examples.
-
-2. **Provides a new alias but only executable in PowerShell**, such as `ni` for `New-Item`. In this case, use the [standard alias template](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/translation-templates/alias-pages.md),
-but add the word "In PowerShell," (or equivalent) to indicate that the command is exclusive to PowerShell. For example,
-
-```md
-# ni
-
-> In PowerShell, this command is an alias of `New-Item`.
-> More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/new-item>.
-
-- View documentation for the original command:
-
-`tldr new-item`
-```
-
-**3. Provides a new alias that conflicts with other programs**, most notoriously the inclusion of `curl` and `wget` as aliases of `Invoke-WebRequest` (with a non-compatible set of command options).
-Note that PowerShell system aliases that fall into this category are commonly exclusive to Windows.
-
-In this case, provide a note and method to determine whether the command currently refers to a PowerShell command (by alias) or others. For example,
-
-```md
-# curl
-
-> In PowerShell, this command may be an alias of `Invoke-WebRequest` when the original `curl` program (<https://curl.se>) is not properly installed.
-> More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
-
-- Check whether `curl` is properly installed by printing its version number. If this command evaluates into an error, PowerShell may have substituted this command with `Invoke-WebRequest`:
-
-`curl --version`
-
-- View documentation for the original `curl` command:
-
-`tldr curl -p common`
-
-- View documentation for PowerShell's `Invoke-WebRequest` command:
-
-`tldr invoke-webrequest`
-```
-
 ### Disambiguations
 
 If there is a name collision between page names on the same platform, disambiguation pages can be used to direct users to different pages. Name the colliding pages with a dot and an appropriate suffix. Numbers starting from 1 can be used if no other suffix is appropriate. If the colliding page is an acronym, direct the user to a page with the name expanded.
@@ -237,7 +151,7 @@ For example `adb disconnect` has a single way using it, but `adb` is expansive e
 ```md
 # adb disconnect
 
-> This command has been moved to `adb connect`.
+> The examples for this command have been moved together with `adb connect`.
 
 - View documentation for `adb disconnect`:
 
@@ -272,10 +186,7 @@ For instance, instead of `Listing all files:`, use the following:
 
 ### Serial Comma
 
-- When declaring a list of 3 or more items,
-use a [serial comma](https://en.wikipedia.org/wiki/Serial_comma),
-also known as the Oxford comma,
-since omitting it can create ambiguity.
+- When declaring a list of 3 or more items, use a [serial comma](https://en.wikipedia.org/wiki/Serial_comma), also known as the Oxford comma, since omitting it can create ambiguity.
 
 > Delete the Git branches, tags and remotes.
 
@@ -293,19 +204,9 @@ This can be resolved by inserting a comma before the "and" or "or" in the final 
 
 ### Special cases
 
-If a command performs irreversible changes to a file system or devices,
-  write every example in a way that cannot be copy pasted thoughtlessly.
-  For example, instead of `ddrescue --force --no-scrape /dev/sda /dev/sdb`
-  write `ddrescue --force --no-scrape {{/dev/sdX}} {{/dev/sdY}}`
-  and use the `{{/dev/sdXY}}` placeholder for *block devices* instead of `/dev/sda1`.
-
-In general, placeholders should make it as intuitive as possible
-to figure out how to use the command and fill it in with values.
-
 Acronym expansions (i.e. protocols, tools, etc) must not be translated unless there is a recognized native equivalent for them.
 
-Technical wording on description lines should use the `backtick` syntax.
-Use backticks on the following:
+Technical wording on description lines should use the `backtick` syntax. Use backticks on the following:
 
 - Paths, e.g. `package.json`, `/etc/package.json`.
 - Extensions, e.g. `.dll`.
@@ -319,6 +220,12 @@ If a program requires root privileges to run and doesn't provide its own prompt 
 
 Avoid explaining general UNIX concepts that could apply to any command (i.e. relative/absolute paths, glob patterns/wildcards, special character escaping, program return values, ...)
 
+When describing an environment variable for UNIX platforms, prepend the variable with a dollar sign and enclose it with backticks (`$VARIABLE_NAME`). For example: "Manage the `$JAVA_HOME` environment variable".
+
+When describing file formats, primarily use the brand name in plain text (e.g. JSON, SQLite), or use the file extension preceded by a dot, wrapped in backticks (e.g. `.txt`).
+
+If the command that is being described is part of an interactive mode, mention the word "interactive" in a previous example that enters said mode and mark the beginning of the description for the interactive commands with `[Interactive]`. Interactive mode can be defined as running commands within the command the page describes, and the prompt not having access to programs in $PATH.
+
 ### Standardized Terms
 
 Some terms are used repeatedly throughout pages, and as such, should be standardized. These include:
@@ -326,6 +233,11 @@ Some terms are used repeatedly throughout pages, and as such, should be standard
 | Term | Standard | Explanation |
 |---|---|---|
 | Regular expression | `` `regex` `` | `regex` defines a match pattern given a string of characters (https://en.wikipedia.org/wiki/Regular_expression). |
+| Glob pattern | `` `glob` `` | `glob` defines a match pattern given a string of characters (https://en.wikipedia.org/wiki/Glob_(programming)). |
+| Standard input | `` `stdin` ``
+| Standard output | `` `stdout` ``
+| Standard error | `` `stderr` ``
+| Dry run | Simulate
 
 ## Heading
 
@@ -349,16 +261,12 @@ It should instead be simplified to make it easier for everyone to read:
 
 ### More information links
 
-- On the `More information` link line, provide a direct link to documentation that instructs on how to use the command. We prefer linking to the author's provided documentation but when not available or very lacking in information, use <https://manned.org> as the default fallback for all platforms
-(except `osx` and BSD platforms other than FreeBSD).
-If there is no documentation page to be found, you can link to the author's website or a third party tutorial.
+- On the `More information` link line, provide a direct link to documentation that instructs on how to use the command. We prefer linking to the author's provided documentation but when not available or very lacking in information, use <https://manned.org> as the default fallback for all platforms (except `osx` and BSD platforms other than FreeBSD). If there is no documentation page to be found, you can link to the author's website or a third party tutorial.
 - Keep the more information link short. Cut out redundant text if possible. For example use https://manned.org/partclone instead of https://manned.org/man/partclone.8 unless there are two different manpages for a command across distributions/platforms i.e. `command.1` and `command.8`.
-
-- For `osx`: Apple distributes the built-in man pages [in Xcode](https://developer.apple.com/documentation/os/reading_unix_manual_pages).
-For commands documented there, we recommend using <https://keith.github.io/xcode-man-pages/>, an HTML export of all Apple's man pages bundled with Xcode.
+- For `osx`: Apple distributes the built-in man pages [in Xcode](https://developer.apple.com/documentation/os/reading_unix_manual_pages). For commands documented there, we recommend using <https://keith.github.io/xcode-man-pages/>, an HTML export of all Apple's man pages bundled with Xcode.
 
 > [!IMPORTANT]
-> All links must be enclosed inside angular brackets (`<` and `>`).
+> All links must be enclosed inside angular brackets (`<` and `>`)  for proper rendering in clients.
 
 - It is suggested to use a more information link with English content in both translations and English pages. That's because the links can eventually change, but the translations are often out of sync with the English pages.
 
@@ -371,17 +279,9 @@ For example, use:
 - <https://manpages.debian.org/latest/apt/apt.8.html> instead of <https://manpages.debian.org/bookworm/apt/apt.8.en.html>.
 - <https://docs.aws.amazon.com/cdk/latest/guide/cli.html> instead of <https://docs.aws.amazon.com/cdk/v2/guide/cli.html>.
 
-#### Microsoft Learn links
+#### Links with locales
 
-When linking pages to the Microsoft Learn links, remove the locale from the address as the website will automatically redirect to the reader's preferred locale setting.
-For example, Use <https://learn.microsoft.com/windows-server/administration/windows-commands/cd> instead of
-<https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/cd>.
-
-Additionally, if the link is related to PowerShell command documentation, remove the **documentation version indicator** (in which the version of PowerShell/module that the documentation is derived from), aka.
-the part of the address that starts with `?view=`.
-
-- Use <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string> instead of <https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/select-string?view=powershell-7.4>.
-- Use <https://learn.microsoft.com/powershell/module/powershellget/install-module> instead of <https://learn.microsoft.com/en-us/powershell/module/powershellget/install-module?view=powershellget-1.x>.
+When linking pages to websites that have locale settings like the Microsoft Learn links, remove the locale from the address if the website will automatically redirect to the reader's preferred locale setting. For example, Use <https://learn.microsoft.com/windows-server/administration/windows-commands/cd> instead of <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/cd>.
 
 ### See also section
 
@@ -397,16 +297,23 @@ the part of the address that starts with `?view=`.
 > See also: `command1`, `command2`, `command3`.
 ```
 
-- Optionally, you can add a short description beside the referenced pages:
-
-```md
-> See also: `date` for Unix information, `uname` for system information and `umount` for unmounting partitions.
-```
-
 - When a command features subcommands, those pages can be referenced with the following line. Note that only the subcommand is named:
 
 ```md
 > Some subcommands such as `commit`, `add`, `branch`, `switch`, `push`, etc. have their own usage documentation.
+```
+
+#### Heading order
+
+The heading should adhere to the following order:
+
+```md
+> Short description of the functionality.
+> Further clarification of the functionality.
+> Note: Any note for the usage.
+> Some subcommands such as `subcommand1`, `subcommand2` have their own usage documentation.
+> See also: `command`.
+> More information: <https://example.com>.
 ```
 
 ## Example descriptions
@@ -425,14 +332,11 @@ Short option mnemonics are optional hints that can be added to help users unders
 `slmgr.vbs /xpr`
 ```
 
-Note that, in the first example, the `[d]`, `[t]`, and `[i]` characters are enclosed with square brackets to indicate that the `/dti` option of the command is a combination of "display", "installation", and "ID", respectively.
-Group consecutive mnemonic characters under the same square brackets, for example: `e[xp]i[r]ation` instead of `e[x][p]i[r]ation`.
+Note that, in the first example, the `[d]`, `[t]`, and `[i]` characters are enclosed with square brackets to indicate that the `/dti` option of the command is a combination of "display", "installation", and "ID", respectively. Group consecutive mnemonic characters under the same square brackets, for example: `e[xp]i[r]ation` instead of `e[x][p]i[r]ation`.
 
-**Mnemonic characters must be written in a case-sensitive manner**, even when it is placed as the first character of the sentence (i.e. use `[d]isplay` instead of `[D]isplay`).
-This is to avoid conflicts with GNU-style command options which may interpret uppercase options differently than the lowercase ones, such as `-v` for displaying the command's `[v]ersion` number and `-V` to run the command in `[V]erbose` mode.
+**Mnemonic characters must be written in a case-sensitive manner**, even when it is placed as the first character of the sentence (i.e. use `[d]isplay` instead of `[D]isplay`). This is to avoid conflicts with GNU-style command options which may interpret uppercase options differently than the lowercase ones, such as `-v` for displaying the command's `[v]ersion` number and `-V` to run the command in `[V]erbose` mode.
 
-Option mnemonics may also be used in translations as long as the highlighted word contains similar meanings to the language (commonly English) which the command is written for.
-For example, `[d]ownload` in English may be translated into `[d]escargar` in Spanish, `[i]nstall` in English may be translated to `[i]nstallieren` in German, and `[a]pp` in English may be translated into `[a]plikasi` in Indonesian and Malay.
+Option mnemonics may also be used in translations as long as the highlighted word contains similar meanings to the language (commonly English) which the command is written for. For example, `[d]ownload` in English may be translated into `[d]escargar` in Spanish, `[i]nstall` in English may be translated to `[i]nstallieren` in German, and `[a]pp` in English may be translated into `[a]plikasi` in Indonesian and Malay.
 
 - Optionally, mnemonics and their enclosed terms can be separated with brackets from the rest of the description (i.e. `([a]ll)`) in translations and specific pages to provide additional context or mention a word not present in the description.
 
@@ -473,8 +377,7 @@ If the command does multiple things, try to keep the chronological order in whic
 
 ### Placeholder syntax
 
-User-provided values should use the `{{placeholder}}` syntax
-in order to allow `tldr` clients to highlight them.
+User-provided values should use the `{{placeholder}}` syntax in order to allow `tldr` clients to highlight them.
 
 > [!TIP]
 > It is suggested to enclose placeholders accepting strings as input within quotes. i.e. Use `"{{placeholder}}"` instead of `{{"placeholder"}}`.
@@ -483,41 +386,39 @@ Keep the following guidelines in mind when choosing placeholders:
 
 #### Naming
 
-- Use short but descriptive placeholders,
-  such as `{{path/to/source_file}}` or `{{path/to/wallet.txt}}`.
-- Use [`snake_case`](https://wikipedia.org/wiki/snake_case) for multi-word placeholders.
+- Use short but descriptive placeholders, such as `{{path/to/source_file}}` or `{{path/to/wallet.txt}}`.
+- Use [`snake_case`](https://wikipedia.org/wiki/snake_case) for multi-word placeholders unless absolutely necessary for clarity like with `Mb` and `MB`.
+- It is possible to either use a direct example placeholder or a text placeholder. For example both `{{192.168.0.1}}` or `{{ip_address}}` are acceptable. Choose whichever is clearest in the given context.
+- Do not use placeholders when the description explicitly mentions the value to be used. Placeholders indicate user choice. For example:
+```
+- Deny traffic on port 80 on this host:
+
+`sudo ufw deny 80`
+```
+- If a command performs irreversible changes to a filesystem or devices, write every example in a way that cannot be copy pasted thoughtlessly. For example, instead of `ddrescue --force --no-scrape /dev/sda /dev/sdb` write `ddrescue --force --no-scrape {{/dev/sdX}} {{/dev/sdY}}` and use the `{{/dev/sdXY}}` placeholder for *block devices* instead of `/dev/sda1`.
+
+In general, placeholders should make it as intuitive as possible to figure out how to use the command and fill it in with values.
 
 #### Paths
 
 - Use `{{filename}}` when just the file name is expected.
-- For any reference to paths of files or directories,
-  use the format `{{path/to/placeholder}}`,
-  except when the location is implicit.
-- When the path cannot be relative
-  and has to start at the root of the filesystem,
-  prefix it with a slash outside the placeholder,
-  such as `get /{{path/to/remote_file}}`.
-- In case of a possible reference both to a file or a directory,
-  use `{{path/to/file_or_directory}}`.
-
-> [!NOTE]\
-> If the command is specific to Windows, use backslashes (`\`) instead, such as `{{path\to\file_or_directory}}`. Drive letters such as `C:` are optional unless the command input requires an absolute path
-> or specific drive letter range, such as `cd /d {{C}}:{{path\to\directory}}`.
+- For any reference to paths of files or directories, use the format `{{path/to/placeholder}}`, except when the location is implicit.
+- When the path cannot be relative and has to start at the root of the filesystem, prefix it with a slash outside the placeholder, such as `get /{{path/to/remote_file}}`.
+- In case of a possible reference both to a file or a directory, use `{{path/to/file_or_directory}}`.
 
 #### Extensions
 
 - If a particular extension is expected for the file, append it.
-  For example, `unrar x {{path/to/compressed.rar}}`.
+- If the extension represents the most common format but the command accepts related variations (such as multi-volume `.r00` or `.part1.rar` archives), keep it **inside** the placeholder: `unrar x {{path/to/archive.rar}}`.
+- If the command strictly requires one specific extension and no others to function, keep the extension **outside** the placeholder to indicate it is mandatory: `java -jar {{path/to/filename}}.jar`.
 - In case a generic extension is needed, use `{{.ext}}`, but **only** if an extension is required.
-  For instance, in `find.md`'s example "Find files by extension" (`find {{path/to/root}} -name '{{*.ext}}'`)
-  using `{{*.ext}}` explains the command without being unnecessarily specific;
-  while in `wc -l {{path/to/file}}` using `{{path/to/file}}` (without extension) is sufficient.
+- For instance, in `find.md`'s example "Find files by extension" (`find {{path/to/root}} -name '{{*.ext}}'`), using `{{*.ext}}` explains the command without being unnecessarily specific.
+- In `wc -l {{path/to/file}}`, using `{{path/to/file}}` (without an extension) is sufficient.
 
 #### Grouping placeholders
 
-- If a command can optionally take 1 or more arguments of the same kind, use an ellipsis: `{{placeholder1 placeholder2 ...}}`.
-  For instance, if multiple paths are expected, use `{{path/to/directory1 path/to/directory2 ...}}`.
-- If only one of the multiple options is possible, write it as: `{{placeholder1|placeholder2|placeholder3}}`. If there are more than 3 possible values, you can use `|...` after the last item.
+- If a command can optionally take 1 or more arguments of the same kind, use an ellipsis: `{{placeholder1 placeholder2 ...}}`. For instance, if multiple paths are expected, use `{{path/to/directory1 path/to/directory2 ...}}`.
+- If the options are mutually exclusive, write it as: `{{placeholder1|placeholder2|placeholder3}}`. If there are more than 3 possible values, you can use `|...` after the last item.
 - Use two dots to mark a range of possible values, for example `{{1..5}}` or `{{a..z}}`.
 
 #### Optional placeholders
@@ -556,6 +457,118 @@ To mark keypresses for TUI or GUI programs, use angle brackets `<` and `>`.
 - For consistency, we prefer generic wording `Display help` and `Display version` for these commands.
 - It is suggested to document the help and version examples if the command follows unconventional flags in platforms like Windows.
 
+### Summary
+
+Here's a quick table to summarize the syntax used in `tldr`:
+
+| Syntax | Meaning |
+|--------|---------|
+| `{{ }}` | Placeholder |
+| `path/to/thing` | Filepath |
+| `{{[ \| ]}}` | Option placeholder |
+| `{{thing1 thing2 ...}}` | One or more arguments |
+| `{{thing1\|thing2\|...}}` | Mutually exclusive arguments |
+| `...}}` | Continuation of a pattern |
+| `{{1..10}}` | Value range |
+| `<Ctrl c>` | Keypress |
+
+
+## Windows-Specific Rules
+
+### General layout
+
+When documenting PowerShell commands, please take note of the following naming conventions.
+
+- The name of the file name must be written in lowercase, such as `invoke-webrequest.md` instead of `Invoke-WebRequest.md`.
+- The page title/heading must be written as-is (matching the spelling intended by Microsoft or the PowerShell module author), such as `Invoke-WebRequest` instead of `invoke-webrequest`.
+- The command name and options in the examples should also be written as-is, such as `Command-Name {{input}} -CommandParameter {{value}}` instead of `command-name {{input}} -commandparameter {{value}}`.
+
+Due to [various compatibility differences](https://learn.microsoft.com/powershell/scripting/whats-new/differences-from-windows-powershell) and removed Windows-specific commands in PowerShell 6.x, ensure that the command works on between **PowerShell 5.1** (aka. the "Legacy Windows PowerShell" as installed in Windows 10 and 11), and the **latest version of the Cross-Platform PowerShell** (formerly known as PowerShell Core).
+
+Thus, if the command or its options are unavailable or contain different behaviors between each version, please kindly note them in the descriptions. For example:
+
+```md
+# Clear-RecycleBin
+
+> Clear items from the Recycle Bin.
+> Note: This command can only be used through PowerShell versions 5.1 and below, or 7.1 and above.
+> More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/clear-recyclebin>.
+```
+
+### Aliases
+
+Some PowerShell commands may introduce aliases which fall into one of these three categories:
+
+1. **Replaces an existing Windows Command Prompt (`cmd`) command**, such as `cd` aliasing to `Set-Location` with different command options. In this case, add the following alias note into the second line of the original Command Prompt command's tldr description, for example:
+
+```md
+# cd
+
+> Display the current working directory or move to a different directory.
+> In PowerShell, this command is an alias of `Set-Location`. This documentation is based on the Command Prompt (`cmd`) version of `cd`.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
+
+- View documentation of the equivalent PowerShell command:
+
+`tldr set-location`
+```
+
+> [!NOTE]\
+> The "View documentation of the equivalent PowerShell command" example is optional and must be excluded if the page already has the maximum number (8) of examples.
+
+2. **Provides a new alias but only executable in PowerShell**, such as `ni` for `New-Item`. In this case, use the [standard alias template](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/translation-templates/alias-pages.md), but add the word "In PowerShell," (or equivalent) to indicate that the command is exclusive to PowerShell. For example,
+
+```md
+# ni
+
+> In PowerShell, this command is an alias of `New-Item`.
+> More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/new-item>.
+
+- View documentation for the original command:
+
+`tldr new-item`
+```
+
+3. **Provides a new alias that conflicts with other programs**, most notoriously the inclusion of `curl` and `wget` as aliases of `Invoke-WebRequest` (with a non-compatible set of command options). Note that PowerShell system aliases that fall into this category are commonly exclusive to Windows.
+
+In this case, provide a note and method to determine whether the command currently refers to a PowerShell command (by alias) or others. For example,
+
+```md
+# curl
+
+> In PowerShell, this command may be an alias of `Invoke-WebRequest` when the original `curl` program (<https://curl.se>) is not properly installed.
+> More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
+
+- Check whether `curl` is properly installed by printing its version number. If this command evaluates into an error, PowerShell may have substituted this command with `Invoke-WebRequest`:
+
+`curl --version`
+
+- View documentation for the original `curl` command:
+
+`tldr curl -p common`
+
+- View documentation for PowerShell's `Invoke-WebRequest` command:
+
+`tldr invoke-webrequest`
+```
+
+### Environment variables
+
+For Windows command prompt, prepend and append the environment variable with a percent sign and enclose it with backticks (`%VARIABLE_NAME%`). For example: "Manage the `%JAVA_HOME%` environment variable".
+
+Whereas for Powershell, prepend the environment variable with a dollar sign, Env and a colon, then enclose it with backticks (`$Env:VARIABLE_NAME`). For example: "Manage the `$Env:JAVA_HOME` environment variable".
+
+### More information links
+
+If the link is related to PowerShell command documentation, remove the **documentation version indicator** (in which the version of PowerShell/module that the documentation is derived from), aka. the part of the address that starts with `?view=`.
+
+- Use <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string> instead of <https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/select-string?view=powershell-7.4>.
+- Use <https://learn.microsoft.com/powershell/module/powershellget/install-module> instead of <https://learn.microsoft.com/en-us/powershell/module/powershellget/install-module?view=powershellget-1.x>.
+
+### Paths
+
+If the command is specific to Windows, write paths with backslashes (`\`) instead of forward slashes (`/`), such as `{{path\to\file_or_directory}}`. Drive letters such as `C:` are optional unless the command input requires an absolute path or specific drive letter range, such as `cd /d {{C}}:{{path\to\directory}}`.
+
 ## Language and translation rules
 
 The below section contains additional language and translation-specific rules:
@@ -563,6 +576,11 @@ The below section contains additional language and translation-specific rules:
 ### General
 
 Do not translate `example.com`. The domain is [reserved by IANA for documentation purposes](https://www.iana.org/help/example-domains) and will not be leased to anyone. Translating the website name could put thoughtless users at risk.
+
+> [!IMPORTANT]
+> Only translate or update languages you can confidently read and proofread.
+> Avoid machine-generated or bulk edits across languages you do not know.
+> When you change an English page, it is fine to leave other languages untouched; native speakers and maintainers will sync them later by referring to the [translation dashboards](https://github.com/tldr-pages/tldr-maintenance/issues/127).
 
 ### English-Specific Rules
 
@@ -691,15 +709,12 @@ To ensure that the sentence may not be confused with `start processing the web s
 
 ### French-Specific Rules
 
-- Command and example descriptions on pages in French must use the third person singular present indicative tense (présent de l'indicatif à la troisième personne du singulier).
-For example, use `Extrait une archive` rather than `Extraire une archive` or `Extrais une archive`.
-- There must be a single blank space between special characters in the descriptions.
-For example, use `Plus d'informations : https://example.com.` instead of `Plus d'informations: https://example.com.` and use `Crée une archive à partir de fichiers :` instead of `Crée une archive à partir de fichiers:`.
+- Command and example descriptions on pages in French must use the third person singular present indicative tense (présent de l'indicatif à la troisième personne du singulier). For example, use `Extrait une archive` rather than `Extraire une archive` or `Extrais une archive`.
+- There must be a single blank space between special characters in the descriptions. For example, use `Plus d'informations : https://example.com.` instead of `Plus d'informations: https://example.com.` and use `Crée une archive à partir de fichiers :` instead of `Crée une archive à partir de fichiers:`.
 
 ### Portuguese-Specific Rules
 
-Example descriptions on pages in Portuguese (for both European and Brazilian Portuguese) must start with verbs in the third person singular present indicative tense.
-This is because the descriptions must explain what the commands do, making this the correct form to express the intended meaning.
+Example descriptions on pages in Portuguese (for both European and Brazilian Portuguese) must start with verbs in the third person singular present indicative tense. This is because the descriptions must explain what the commands do, making this the correct form to express the intended meaning.
 
 For example, use `Lista os arquivos` instead of `Listar os arquivos`, `Listando os arquivos` or any other form.
 

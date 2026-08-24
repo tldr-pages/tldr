@@ -1,7 +1,7 @@
 # choco new
 
 > 使用 Chocolatey 生成新的包规范文件。
-> 更多信息：<https://chocolatey.org/docs/commands-new>.
+> 更多信息：<https://docs.chocolatey.org/en-us/create/commands/new/>。
 
 - 创建一个新的包框架：
 
@@ -17,7 +17,7 @@
 
 - 在指定目录下创建新的包：
 
-`choco new {{包名}} --output-directory {{指定的目录路径}}`
+`choco new {{包名}} {{[--out|--output-directory]}} {{指定的目录路径}}`
 
 - 创建一个新的包并指定其 32 位版和 64 位版的安装 URL：
 

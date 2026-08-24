@@ -1,6 +1,6 @@
 # break
 
-> Break out of a `for`, `while`, `until` or `select` loop.
+> Break out of a `for`, `while`, `until`, or `select` loop.
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#index-break>.
 
 - Break out of a single loop:

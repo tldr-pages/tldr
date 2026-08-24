@@ -7,7 +7,7 @@
 
 `sudo socat - TCP-LISTEN:8080,fork`
 
-- Escucha en un puerto usando SSL e imprime a STDOUT:
+- Escucha en un puerto usando SSL e imprime a `stdout`:
 
 `sudo socat OPENSSL-LISTEN:4433,reuseaddr,cert=./cert.pem,cafile=./ca.cert.pem,key=./key.pem,verify=0 STDOUT`
 

@@ -17,7 +17,7 @@
 
 - Check the rules that apply to a specific branch in another repository:
 
-`gh {{[rs|ruleset]}} check {{branch_name}} {{[-R|--repo]}} {{owner}}/{{repo}}`
+`gh {{[rs|ruleset]}} check {{branch_name}} {{[-R|--repo]}} {{owner}}/{{repository}}`
 
 - Interactively select and view a ruleset for the current repository:
 
@@ -33,4 +33,4 @@
 
 - Open the list of rulesets for a specific repository in the browser:
 
-`gh {{[rs|ruleset]}} {{[ls|list]}} {{[-R|--repo]}} {{owner}}/{{repo}} {{[-w|--web]}}`
+`gh {{[rs|ruleset]}} {{[ls|list]}} {{[-R|--repo]}} {{owner}}/{{repository}} {{[-w|--web]}}`

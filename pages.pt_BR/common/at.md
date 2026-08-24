@@ -16,7 +16,7 @@
 
 `at {{hh:mm}}`
 
-- Executa um comando da `stdin` (standard input) às 10:00 da manhã de hoje:
+- Executa um comando da `stdin` às 10:00 da manhã de hoje:
 
 `echo "{{comando}}" | at 1000`
 

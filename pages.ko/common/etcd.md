@@ -1,7 +1,7 @@
 # etcd
 
 > 분산 시스템의 가장 중요한 데이터를 위한, 신뢰할 수 있는 분산 키-값 저장소.
-> 더 많은 정보: <https://etcd.io>.
+> 더 많은 정보: <https://etcd.io/docs/latest/op-guide/configuration/#command-line-flags>.
 
 - 단일 노드 etcd 클러스터를 시작:
 

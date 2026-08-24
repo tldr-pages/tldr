@@ -2,7 +2,7 @@
 
 > Text editor of the KDE Desktop project.
 > See also: `kate`.
-> More information: <https://docs.kde.org/stable5/en/kate/kwrite/command-line-options.html>.
+> More information: <https://docs.kde.org/stable_kf6/en/kate/kwrite/command-line-options.html>.
 
 - Open a text file:
 

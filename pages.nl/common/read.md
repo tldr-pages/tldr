@@ -19,7 +19,7 @@
 
 `read <<< "{{De achternaam is Bond}}" {{_ variable1 _ variable2}}`
 
-- Laat backslash (\\) niet optreden als een escape-teken:
+- Laat backslash (`\`) niet optreden als een escape-teken:
 
 `read -r {{variable}}`
 
@@ -31,6 +31,6 @@
 
 `read -s {{variable}}`
 
-- Lees `stdin` en voer een actie uit op elke regel:
+- Voer een actie uit op elke regel van de uitvoer van een commando:
 
-`while read line; do {{echo|ls|rm|...}} "$line"; done < {{/dev/stdin|pad/naar/bestand|...}}`
+`{{commando}} | while IFS= read -r line; do {{echo|ls|rm|...}} "$line"; done`

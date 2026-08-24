@@ -1,7 +1,7 @@
 # pbmtomda
 
 > PBM 이미지를 Microdesign MDA 파일로 변환.
-> 같이 보기: `mdatopbm`.
+> 관련 항목: `mdatopbm`.
 > 더 많은 정보: <https://netpbm.sourceforge.net/doc/pbmtomda.html>.
 
 - PBM 이미지를 MDA 파일로 변환:

@@ -1,7 +1,7 @@
 # jj operation
 
 > Work with the operation log of a `jj` repository.
-> More information: <https://jj-vcs.github.io/jj/latest/cli-reference/#jj-operation>.
+> More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-operation>.
 
 - Show operation log:
 
@@ -23,6 +23,6 @@
 
 `jj {{[op|operation]}} show {{operation}}`
 
-- Show stat, summary and patch of modifications of an operation:
+- Show stat, summary, and patch of modifications of an operation:
 
 `jj {{[op|operation]}} show {{--stat}} {{[-s|--summary]}} {{[-p|--patch]}} {{operation}}`

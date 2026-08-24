@@ -1,6 +1,6 @@
 # firewall-cmd
 
-> The firewalld command-line client.
+> The firewalld client.
 > View and adapt the runtime or permanent firewall configuration state.
 > More information: <https://firewalld.org/documentation/man-pages/firewall-cmd>.
 

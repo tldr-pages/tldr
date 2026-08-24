@@ -5,7 +5,7 @@
 
 - Affiche une liste des paramètres de l'espace de nom `global` :
 
-`settings list {{global}}`
+`settings list global`
 
 - Récupère la valeur d'un paramètre :
 

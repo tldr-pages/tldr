@@ -1,7 +1,7 @@
 # physlock
 
 > 모든 콘솔 및 가상 터미널을 잠급니다.
-> 더 많은 정보: <https://github.com/muennich/physlock>.
+> 더 많은 정보: <https://github.com/xyb3rt/physlock#usage>.
 
 - 모든 콘솔 잠금 (해제하려면 현재 사용자 또는 root 필요):
 

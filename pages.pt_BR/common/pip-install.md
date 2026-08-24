@@ -15,7 +15,7 @@
 
 `pip install {{[-r|--requirement]}} {{requirements.txt}}`
 
-- Instala pacotes a partir de uma URL ou arquivo local (.tar.gz | .whl):
+- Instala pacotes a partir de uma URL ou arquivo local (`.tar.gz` | `.whl`):
 
 `pip install {{[-f|--find-links]}} {{url|caminho/do/arquivo}}`
 

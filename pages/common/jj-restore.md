@@ -1,7 +1,7 @@
 # jj restore
 
 > Restore files from another revision.
-> More information: <https://jj-vcs.github.io/jj/latest/cli-reference/#jj-restore>.
+> More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-restore>.
 
 - Restore files from a revision into another revision:
 

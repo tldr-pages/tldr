@@ -1,7 +1,7 @@
 # koji taginfo
 
 > Print basic information about a tag.
-> More information: <https://docs.pagure.org/koji>.
+> More information: <https://docs.pagure.org/koji/>.
 
 - Print basic information:
 
@@ -9,4 +9,4 @@
 
 - Display help:
 
-`koji taginfo --help`
+`koji taginfo {{[-h|--help]}}`

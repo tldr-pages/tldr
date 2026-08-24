@@ -1,6 +1,7 @@
 # passwd
 
 > Verander het wachtwoord van een gebruiker.
+> Zie ook: `chpasswd`.
 > Meer informatie: <https://manned.org/passwd>.
 
 - Verander het wachtwoord van de huidige gebruiker interactief:

@@ -11,7 +11,7 @@
 
 `pdfcrop {{path/to/input_file.pdf}} --margins '{{left}} {{top}} {{right}} {{bottom}}' {{path/to/output_file.pdf}}`
 
-- Set the margins of each page to a specific value, using the same value for left, top, right and bottom:
+- Set the margins of each page to a specific value, using the same value for left, top, right, and bottom:
 
 `pdfcrop {{path/to/input_file.pdf}} --margins {{300}} {{path/to/output_file.pdf}}`
 

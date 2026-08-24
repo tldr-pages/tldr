@@ -10,28 +10,28 @@
 
 - Genera una línea del horizonte para un [u]suario y un año [y] específicos:
 
-`gh skyline --user {{nombre_de_usuario}} --year {{año}}`
+`gh skyline {{[-u|--user]}} {{nombre_de_usuario}} {{[-y|--year]}} {{año}}`
 
 - Genera una línea del horizonte para un intervalo de [a]ños:
 
-`gh skyline --user {{nombre_de_usuario}} --year {{primer_año}}-{{último_año}}`
+`gh skyline {{[-u|--user]}} {{nombre_de_usuario}} {{[-y|--year]}} {{primer_año}}-{{último_año}}`
 
 - Genera una línea del horizonte completa [f] (desde el año de alta del usuario hasta el año actual):
 
-`gh skyline --user {{nombre_de_usuario}} --full`
+`gh skyline {{[-u|--user]}} {{nombre_de_usuario}} {{[-f|--full]}}`
 
 - Habilita el registro de [d]epuración:
 
-`gh skyline --debug`
+`gh skyline {{[-d|--debug]}}`
 
 - Genera una línea del horizonte y especifica la ruta del archivo de salida:
 
-`gh skyline --output {{ruta/al/archivo_salida.stl}}`
+`gh skyline {{[-o|--output]}} {{ruta/al/archivo_salida.stl}}`
 
 - Abre el perfil de GitHub de un [u]suario específico:
 
-`gh skyline --user {{nombre_de_usuario}} --web`
+`gh skyline {{[-u|--user]}} {{nombre_de_usuario}} {{[-w|--web]}}`
 
 - Muestra ayuda:
 
-`gh skyline --help`
+`gh skyline {{[-h|--help]}}`

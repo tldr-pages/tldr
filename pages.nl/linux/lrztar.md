@@ -10,16 +10,16 @@
 
 - Hetzelfde als hierboven, met ZPAQ - extreme compressie, maar erg langzaam:
 
-`lrztar -z {{pad/naar/map}}`
+`lrztar {{[-z|--zpaq]}} {{pad/naar/map}}`
 
 - Geef het uitvoerbestand op:
 
-`lrztar -o {{pad/naar/bestand}} {{pad/naar/map}}`
+`lrztar {{[-o|--outfile]}} {{pad/naar/bestand}} {{pad/naar/map}}`
 
 - Overschrijf het aantal processor threads dat gebruikt moet worden:
 
-`lrztar -p {{8}} {{pad/naar/map}}`
+`lrztar {{[-p|--threads]}} {{8}} {{pad/naar/map}}`
 
 - Forceer het overschrijven van bestaande bestanden:
 
-`lrztar -f {{pad/naar/map}}`
+`lrztar {{[-f|--force]}} {{pad/naar/map}}`

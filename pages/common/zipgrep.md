@@ -1,6 +1,6 @@
 # zipgrep
 
-> Find patterns in files in a Zip archive using extended `regex` (supports `?`, `+`, `{}`, `()` and `|`).
+> Find patterns in files in a Zip archive using extended `regex` (supports `?`, `+`, `{}`, `()`, and `|`).
 > More information: <https://manned.org/zipgrep>.
 
 - Search for a pattern within a Zip archive:

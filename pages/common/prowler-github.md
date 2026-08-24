@@ -2,7 +2,7 @@
 
 > Assess GitHub account, repository, and organization security best practices.
 > See also: `prowler`, `prowler-aws`, `prowler-azure`, `prowler-gcp`, `prowler-kubernetes`, `prowler-m365`.
-> More information: <https://docs.prowler.com/projects/prowler-open-source/en/latest/>.
+> More information: <https://docs.prowler.com/user-guide/cli/tutorials/misc>.
 
 - Run all default GitHub security checks:
 

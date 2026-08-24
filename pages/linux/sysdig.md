@@ -1,7 +1,7 @@
 # sysdig
 
-> System troubleshooting, analysis and exploration.
-> Capture, filter and store systemcalls.
+> System troubleshooting, analysis, and exploration.
+> Capture, filter, and store systemcalls.
 > More information: <https://github.com/draios/sysdig/wiki>.
 
 - Capture all the events from the live system and print them to screen:

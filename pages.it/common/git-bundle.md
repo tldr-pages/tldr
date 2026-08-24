@@ -23,7 +23,7 @@
 
 `git bundle verify {{percorso/del/file.bundle}}`
 
-- Stampa su standard output la lista di riferimenti contenuti in un bundle:
+- Stampa su `stdout` la lista di riferimenti contenuti in un bundle:
 
 `git bundle unbundle {{percorso/del/file.bundle}}`
 

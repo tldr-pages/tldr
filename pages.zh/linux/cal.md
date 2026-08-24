@@ -1,7 +1,7 @@
 # cal
 
 > 打印日历信息，高亮显示当前日期。
-> 更多信息：<https://manned.org/cal>.
+> 更多信息：<https://manned.org/cal>。
 
 - 显示当前月份的日历：
 

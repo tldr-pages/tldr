@@ -1,7 +1,7 @@
 # tuned-adm
 
 > Linux에서 시스템 성능 튜닝 프로필을 관리하고 최적화.
-> 더 많은 정보: <https://tuned-project.org>.
+> 더 많은 정보: <https://manned.org/tuned-adm>.
 
 - 사용 가능한 프로필 나열:
 

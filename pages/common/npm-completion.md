@@ -1,17 +1,17 @@
 # npm completion
 
 > Enable or set up tab-completion for npm commands.
-> More information: <https://docs.npmjs.com/cli/npm-completion>.
+> More information: <https://docs.npmjs.com/cli/npm-completion/>.
 
 - Enable tab-completion for the current shell session:
 
 `npm completion`
 
-- Add completion to your shell profile (Bash):
+- Add completion to the shell profile (Bash):
 
 `npm completion >> ~/.bashrc`
 
-- Add completion to your shell profile (Zsh):
+- Add completion to the shell profile (Zsh):
 
 `npm completion >> ~/.zshrc`
 

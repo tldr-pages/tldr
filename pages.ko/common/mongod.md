@@ -1,7 +1,7 @@
 # mongod
 
 > MongoDB 데이터베이스 서버.
-> 더 많은 정보: <https://docs.mongodb.com/manual/reference/program/mongod>.
+> 더 많은 정보: <https://www.mongodb.com/docs/manual/reference/program/mongod/>.
 
 - 저장 디렉터리 지정 (기본값: Linux 및 macOS는 `/data/db`, Windows는 `C:\data\db`):
 

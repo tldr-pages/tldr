@@ -1,7 +1,7 @@
 # zstd
 
 > Comprime o descomprime archivos con compresión Zstandard.
-> Más información: <https://github.com/facebook/zstd>.
+> Más información: <https://manned.org/zstd>.
 
 - Comprime un archivo en un nuevo archivo con el sufijo `.zst`:
 

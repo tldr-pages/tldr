@@ -1,11 +1,12 @@
 # you-get
 
 > دانلود محتوای چندرسانه ای از وب (ویدیو، صوت، عکس).
+> همچنین : `yt-dlp`, `youtube-viewer`, `instaloader`.
 > اطلاعات بیشتر: <https://you-get.org/#getting-started>.
 
 - چاپ اطلاعات درمورد یک رسانه خاص در سطح وب:
 
-`you-get --info {{https://example.com/video?id=value}}`
+`you-get {{[-i|--info]}} {{https://example.com/video?id=value}}`
 
 - دانلود رسانه از لینک موردنظر:
 
@@ -17,8 +18,8 @@
 
 - دانلود یک رسانه و ذخیره در محل ذخیره شده:
 
-`you-get --output-dir {{path/to/directory}} --output-filename {{filename}} {{https://example.com/watch?v=value}}`
+`you-get {{[-o|--output-dir]}} {{path/to/directory}} {{[-O|--output-filename]}} {{filename}} {{https://example.com/watch?v=value}}`
 
 - دانلود یک رسانه با استفاده از پروکسی:
 
-`you-get --http-proxy {{proxy_server}} {{https://example.com/watch?v=value}}`
+`you-get {{[-x|--http-proxy]}} {{proxy_server}} {{https://example.com/watch?v=value}}`

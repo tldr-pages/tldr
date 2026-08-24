@@ -19,6 +19,6 @@
 
 `github-label-sync --access-token {{token}} --allow-added-labels {{depo_ismi}}`
 
-- `GITHUB_ACCESS_TOKEN` ortam değişkenini kullanarak senkronize et:
+- `$GITHUB_ACCESS_TOKEN` ortam değişkenini kullanarak senkronize et:
 
 `github-label-sync {{depo_ismi}}`

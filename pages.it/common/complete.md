@@ -1,6 +1,7 @@
 # complete
 
 > Fornisce autocompletamento per argomenti dei comandi della shell.
+> Vedi anche: `compgen`, `compopt`.
 > Maggiori informazioni: <https://www.gnu.org/software/bash/manual/bash.html#index-complete>.
 
 - Applica ad un comando una funzione per gestirne l'autocompletamento:

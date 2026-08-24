@@ -2,7 +2,7 @@
 
 > YubiKey 管理器 - 配置 YubiKey。
 > 如果连接了多个 YubiKey，您必须在子命令之前添加 `--device serial_number`。
-> 更多信息：<https://docs.yubico.com/software/yubikey/tools/ykman/index.html>.
+> 更多信息：<https://docs.yubico.com/software/yubikey/tools/ykman/index.html>。
 
 - 显示 YubiKey 的一般信息（序列号、固件版本、功能等）：
 

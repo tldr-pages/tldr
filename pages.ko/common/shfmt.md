@@ -1,7 +1,7 @@
 # shfmt
 
 > 셸 파서, 포매터 및 인터프리터.
-> 더 많은 정보: <https://pkg.go.dev/mvdan.cc/sh>.
+> 더 많은 정보: <https://pkg.go.dev/mvdan.cc/sh#section-readme>.
 
 - 셸 스크립트를 포맷된 버전으로 출력:
 

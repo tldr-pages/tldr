@@ -14,7 +14,7 @@ body:
     attributes:
       label: Documentation
       description: Link to the official documentation.
-      placeholder: https://example.com
+      placeholder: https://manned.org/...
   - type: dropdown
     attributes:
       label: Platform
@@ -29,6 +29,7 @@ body:
         - OpenBSD
         - SunOS
         - Windows
+      default: 1
     validations:
       required: true
   - type: input

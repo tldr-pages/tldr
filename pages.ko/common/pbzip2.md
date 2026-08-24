@@ -1,7 +1,7 @@
 # pbzip2
 
 > `bzip2` 파일 압축기의 병렬 구현.
-> 같이 보기: `bzip2`, `tar`.
+> 관련 항목: `bzip2`, `tar`.
 > 더 많은 정보: <https://manned.org/pbzip2>.
 
 - 파일 압축:

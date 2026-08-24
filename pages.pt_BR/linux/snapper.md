@@ -9,20 +9,20 @@
 
 - Cria configuração do snapper:
 
-`snapper -c {{configuração}} create-config {{caminho/para/diretório}}`
+`snapper {{[-c|--config]}} {{configuração}} create-config {{caminho/para/diretório}}`
 
 - Cria um snapshot com uma descrição:
 
-`snapper -c {{configuração}} create -d "{{descrição_do_snapshot}}"`
+`snapper {{[-c|--config]}} {{configuração}} create {{[-d|--description]}} "{{descrição_do_snapshot}}"`
 
 - Lista snapshots para uma configuração:
 
-`snapper -c {{configuração}} list`
+`snapper {{[-c|--config]}} {{configuração}} list`
 
 - Exclue um snapshot:
 
-`snapper -c {{configuração}} delete {{número_do_snapshot}}`
+`snapper {{[-c|--config]}} {{configuração}} delete {{número_do_snapshot}}`
 
 - Exclue um intervalo de snapshots:
 
-`snapper -c {{configuração}} delete {{snapshot_X}}-{{snapshot_Y}}`
+`snapper {{[-c|--config]}} {{configuração}} delete {{snapshot_X}}-{{snapshot_Y}}`

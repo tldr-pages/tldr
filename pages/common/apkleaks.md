@@ -6,12 +6,12 @@
 
 - Scan an APK file for URIs, endpoints, and secrets:
 
-`apkleaks {{[-f|--file]}} {{path/to/file.apk}}`
+`apkleaks {{[-f|--file]}} {{path/to/file}}.apk`
 
 - Scan and save the output to a specific file:
 
-`apkleaks {{[-f|--file]}} {{path/to/file.apk}} {{[-o|--output]}} {{path/to/output.txt}}`
+`apkleaks {{[-f|--file]}} {{path/to/file}}.apk {{[-o|--output]}} {{path/to/output.txt}}`
 
 - Pass `jadx` disassembler arguments:
 
-`apkleaks {{[-f|--file]}} {{path/to/file.apk}} {{[-a|--args]}} "{{--threads-count 5 --deobf}}"`
+`apkleaks {{[-f|--file]}} {{path/to/file}}.apk {{[-a|--args]}} "{{--threads-count 5 --deobf}}"`

@@ -1,7 +1,7 @@
 # git cola
 
 > 강력하고 직관적인 사용자 인터페이스를 갖춘 Git GUI.
-> 더 많은 정보: <https://git-cola.readthedocs.io>.
+> 더 많은 정보: <https://git-cola.readthedocs.io/en/latest/git-cola.html>.
 
 - GUI 시작:
 
@@ -17,8 +17,8 @@
 
 - 지정된 경로의 Git 저장소 열기:
 
-`git cola --repo {{경로/대상/git-저장소}}`
+`git cola {{[-r|--repo]}} {{경로/대상/git-저장소}}`
 
 - 상태 위젯에 경로 필터 적용:
 
-`git cola --status-filter {{필터}}`
+`git cola {{[-s|--status-filter]}} {{필터}}`

@@ -1,7 +1,7 @@
 # doctl databases options
 
 > Enable the navigation of available options under each database engine.
-> More information: <https://docs.digitalocean.com/reference/doctl/reference/databases/options>.
+> More information: <https://docs.digitalocean.com/reference/doctl/reference/databases/options/>.
 
 - Run a `doctl databases options` command with an access token:
 

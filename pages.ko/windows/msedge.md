@@ -19,19 +19,19 @@
 
 - 애플리케이션 모드로 열기 (도구 모음, URL 표시줄, 버튼 등 없음):
 
-`msedge --app={{https://example.com}}`
+`msedge --app {{https://example.com}}`
 
 - 프록시 서버 사용:
 
-`msedge --proxy-server="{{socks5://hostname:66}}" {{example.com}}`
+`msedge --proxy-server "{{socks5://hostname:66}}" {{example.com}}`
 
 - 사용자 데이터 디렉토리 사용:
 
-`msedge --user-data-dir={{경로\대상\디렉토리}}`
+`msedge --user-data-dir {{경로\대상\디렉토리}}`
 
 - CORS 유효성 검사 없이 열기 (API 테스트에 유용):
 
-`msedge --user-data-dir={{경로\대상\디렉토리}} --disable-web-security`
+`msedge --user-data-dir {{경로\대상\디렉토리}} --disable-web-security`
 
 - 각 탭 열릴 때마다 DevTools 창 열기:
 

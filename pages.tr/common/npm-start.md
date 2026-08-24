@@ -1,7 +1,7 @@
 # npm start
 
-> Bu komut `npm run start` komutunun bir takma addır.
+> Bu komut `npm run start` için bir takma addır.
 
-- Asıl komutun dökümantasyonunu görüntüleyin:
+- Asıl komutun dokümantasyonunu görüntüleyin:
 
 `tldr npm run`

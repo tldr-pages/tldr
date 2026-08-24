@@ -2,7 +2,7 @@
 
 > Rust로 작성된 간단하고 빠르며 반복적인 콘텐츠 검색 도구.
 > 웹 서버 등에서 숨겨진 경로를 무차별 공격하는 데 사용됨.
-> 더 많은 정보: <https://epi052.github.io/feroxbuster-docs/docs/>.
+> 더 많은 정보: <https://epi052.github.io/feroxbuster-docs/configuration/command-line>.
 
 - 확장자, 100개의 스레드 및 임의의 사용자 에이전트가 포함된 단어 목록에서 일치하는 특정 디렉터리 및 파일 검색:
 

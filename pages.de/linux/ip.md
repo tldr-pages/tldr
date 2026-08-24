@@ -9,11 +9,11 @@
 
 - Zeige Interfaces mit kurzen Netzwerkinformationen:
 
-`ip {{[-br a|-brief address]}}`
+`ip {{[-br|-brief]}} {{[a|address]}}`
 
 - Zeige Interfaces mit kurzen link layer Informationen:
 
-`ip {{[-br l|-brief link]}}`
+`ip {{[-br|-brief]}} {{[l|link]}}`
 
 - Zeige die Routing Tabelle:
 

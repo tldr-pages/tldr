@@ -5,8 +5,8 @@
 
 - 특정 초 동안 비디오 캡처:
 
-`rpicam-raw -t {{2000}} -o {{경로/대상/파일.raw}}`
+`rpicam-raw {{[-t|--timeout]}} {{2000}} {{[-o|--output]}} {{경로/대상/파일.raw}}`
 
 - 비디오 크기 및 프레임 속도 변경:
 
-`rpicam-raw -t {{5000}} --width {{4056}} --height {{3040}} -o {{경로/대상/파일.raw}} --framerate {{8}}`
+`rpicam-raw {{[-t|--timeout]}} {{5000}} --width {{4056}} --height {{3040}} {{[-o|--output]}} {{경로/대상/파일.raw}} --framerate {{8}}`

@@ -1,7 +1,8 @@
 # bootctl
 
 > Kontroluj ustawienia oprogramowania układowego EFI i zarządzaj programem rozruchowym.
-> Więcej informacji: <https://www.freedesktop.org/software/systemd/man/bootctl.html>.
+> Zobacz także: `kernel-install`.
+> Więcej informacji: <https://www.freedesktop.org/software/systemd/man/latest/bootctl.html>.
 
 - Wyświetl informacje o oprogramowaniu układowym i programach rozruchowych:
 

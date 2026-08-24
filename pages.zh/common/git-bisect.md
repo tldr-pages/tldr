@@ -2,7 +2,7 @@
 
 > 使用二分查找定位引入错误的提交。
 > Git 会自动在提交历史中来回跳转，逐步缩小问题提交的范围。
-> 更多信息：<https://git-scm.com/docs/git-bisect>.
+> 更多信息：<https://git-scm.com/docs/git-bisect>。
 
 - 在已知有问题提交和已知正常提交（通常较旧）之间开始二分查找会话：
 

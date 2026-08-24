@@ -1,6 +1,6 @@
 # dtrace
 
-> A simple interface to invoke the D language compiler, retrieve buffered trace, and print traced data from the DTrace kernel facility.
+> A simple interface to invoke the D language compiler, retrieve buffered trace and print traced data from the DTrace kernel facility.
 > Generic front-end to DTrace facility, requiring root privileges.
 > More information: <https://keith.github.io/xcode-man-pages/dtrace.1.html>.
 
@@ -24,7 +24,7 @@
 
 `dtrace -c {{command}}`
 
-- Specify [f]unction name to trace or list (-l option). The corresponding argument can include any of the probe description forms like `provider:module:function`, `module:function` or `function`:
+- Specify [f]unction name to trace or list (-l option). The corresponding argument can include any of the probe description forms like `provider:module:function`, `module:function`, or `function`:
 
 `dtrace -f {{function}}`
 

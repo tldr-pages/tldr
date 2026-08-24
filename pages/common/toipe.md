@@ -1,6 +1,6 @@
 # toipe
 
-> Yet another typing test, but crab flavoured.
+> Yet another typing test, but crab flavored.
 > A trusty terminal typing tester.
 > More information: <https://github.com/Samyak2/toipe>.
 

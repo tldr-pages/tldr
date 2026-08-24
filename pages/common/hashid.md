@@ -1,7 +1,7 @@
 # hashid
 
 > Python3 program that identifies data and password hashes.
-> More information: <https://github.com/psypanda/hashID>.
+> More information: <https://github.com/psypanda/hashID#usage>.
 
 - Identify hashes from `stdin` (through typing, copying and pasting, or piping the hash into the program):
 
@@ -17,12 +17,12 @@
 
 - Show all possible hash types (including salted hashes):
 
-`hashid --extended {{hash}}`
+`hashid {{[-e|--extended]}} {{hash}}`
 
 - Show `hashcat`'s mode number and `john`'s format string of the hash types:
 
-`hashid --mode --john {{hash}}`
+`hashid {{[-m|--mode]}} {{[-j|--john]}} {{hash}}`
 
 - Save output to a file instead of printing to `stdout`:
 
-`hashid --outfile {{path/to/output.txt}} {{hash}}`
+`hashid {{[-o|--outfile]}} {{path/to/output.txt}} {{hash}}`

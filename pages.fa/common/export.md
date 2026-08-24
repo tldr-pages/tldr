@@ -7,6 +7,6 @@
 
 `export {{VARIABLE}}={{value}}`
 
-- افزودن یک مسیر به متغییر $PATH:
+- افزودن یک مسیر به متغییر `$PATH`:
 
 `export PATH=$PATH:{{path/to/append}}`

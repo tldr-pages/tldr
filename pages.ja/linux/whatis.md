@@ -1,7 +1,8 @@
 # whatis
 
 > マニュアルページから、一行の説明文を表示します。
-> もっと詳しく: <https://manned.org/whatis>。
+> 参照: `man`, `whereis`。
+> 詳細情報: <https://manned.org/whatis>。
 
 - manページの説明文を表示する:
 
@@ -9,16 +10,16 @@
 
 - 説明文を行末で切らないで表示する:
 
-`whatis --long {{コマンド}}`
+`whatis {{[-l|--long]}} {{コマンド}}`
 
 - globパターンにマッチするすべてのコマンドの説明文を表示する:
 
-`whatis --wildcard {{net*}}`
+`whatis {{[-w|--wildcard]}} {{net*}}`
 
 - 正規表現でmanページの説明文を検索する:
 
-`whatis --regex '{{wish[0-9]\.[0-9]}}'`
+`whatis {{[-r|--regex]}} '{{wish[0-9]\.[0-9]}}'`
 
 - 言語を指定して説明文で表示する:
 
-`whatis --locale={{ja}} {{コマンド}}`
+`whatis {{[-L|--locale]}} {{ja}} {{コマンド}}`

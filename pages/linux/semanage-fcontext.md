@@ -10,11 +10,15 @@
 
 - List all user-defined file labelling rules without headings:
 
-`sudo semanage fcontext {{[-l|--list]}} {{[-C|--locallist]}} {{[-n|--noheading]}}`
+`sudo semanage fcontext {{[-lCn|--list --locallist --noheading]}}`
 
 - Add a user-defined rule that labels any path which matches a PCRE `regex`:
 
 `sudo semanage fcontext {{[-a|--add]}} {{[-t|--type]}} {{samba_share_t}} '{{/mnt/share(/.*)?}}'`
+
+- Add a user-defined rule that creates a labeling equivalence between two subpaths:
+
+`sudo semanage fcontext {{[-a|--add]}} {{[-e|--equal]}} /{{path/to/ref}} /{{path/to/target}}`
 
 - Delete a user-defined rule using its PCRE `regex`:
 
@@ -22,4 +26,4 @@
 
 - Relabel a directory recursively by applying the new rules:
 
-`restorecon -R -v {{path/to/directory}}`
+`restorecon -Rv {{path/to/directory}}`

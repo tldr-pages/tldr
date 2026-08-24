@@ -16,7 +16,7 @@
 
 `crane mutate {{[-o|--output]}} {{pad/naar/tarball}}`
 
-- Repository in de vorm os/arch{{/variant}}{{:osversion}}{{,<platform>}} om de gewijzigde image te pushen:
+- Repository in de vorm `os/arch/variant:osversion,platform` om de gewijzigde image te pushen:
 
 `crane mutate --set-platform {{platform_naam}}`
 

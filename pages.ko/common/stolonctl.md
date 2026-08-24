@@ -1,7 +1,7 @@
 # stolonctl
 
 > Stolon의 CLI, PostgreSQL 고가용성을 위한 클라우드 네이티브 PostgreSQL 관리자.
-> 더 많은 정보: <https://github.com/sorintlab/stolon>.
+> 더 많은 정보: <https://github.com/sorintlab/stolon/blob/master/doc/commands/stolonctl.md>.
 
 - 클러스터 상태 확인:
 

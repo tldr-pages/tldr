@@ -1,7 +1,7 @@
 # removepkg
 
 > Remove a specified Slackware package.
-> More information: <http://www.slackware.com/config/packages.php>.
+> More information: <https://www.slackbook.org/html/book.html#PACKAGE-MANAGEMENT-PACKAGE-UTILITIES-REMOVEPKG>.
 
 - Remove a package:
 

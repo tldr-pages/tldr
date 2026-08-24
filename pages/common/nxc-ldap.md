@@ -1,7 +1,7 @@
 # nxc ldap
 
 > Pentest and exploit Windows Active Directory Domains via LDAP.
-> More information: <https://www.netexec.wiki/ldap-protocol>.
+> More information: <https://www.netexec.wiki/ldap-protocol/authentication>.
 
 - Search for valid domain credentials by trying out every combination in the specified lists of usernames and passwords:
 

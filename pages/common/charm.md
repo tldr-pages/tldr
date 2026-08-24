@@ -1,7 +1,7 @@
 # charm
 
 > Set of tools that makes adding a backend to your terminal-based applications, without worrying about user accounts, data storage and encryption.
-> More information: <https://github.com/charmbracelet/charm>.
+> More information: <https://manned.org/charm>.
 
 - Backup your Charm account keys:
 

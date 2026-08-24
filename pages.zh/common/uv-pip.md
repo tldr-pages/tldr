@@ -1,7 +1,7 @@
 # uv pip
 
 > 提供类似 pip 的命令，用于安装、卸载和管理程序包。
-> 更多信息：<https://docs.astral.sh/uv/reference/cli/#uv-pip>.
+> 更多信息：<https://docs.astral.sh/uv/reference/cli/#uv-pip>。
 
 - 安装一个包：
 
@@ -15,7 +15,7 @@
 
 `uv pip install {{包名==1.2.3}}`
 
-- 卸载一个包
+- 卸载一个包：
 
 `uv pip uninstall {{包名}}`
 

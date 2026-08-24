@@ -16,7 +16,7 @@
 
 `{{command}} | sed -fa {{path/to/script.sed}}`
 
-- Turn on GNU re[g]ex extension:
+- Turn on [g]NU `regex` extension:
 
 `{{command}} | sed -fg {{path/to/script.sed}}`
 

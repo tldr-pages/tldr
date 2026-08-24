@@ -2,7 +2,7 @@
 
 > A Go CLI tool for mapping organization network ranges using ASN information.
 > Note: An API key is required from ProjectDiscovery Cloud Platform for the tool to work.
-> More information: <https://github.com/projectdiscovery/asnmap>.
+> More information: <https://github.com/projectdiscovery/asnmap#usage>.
 
 - Lookup CIDR ranges for an ASN:
 
@@ -22,7 +22,7 @@
 
 - Lookup CIDR ranges from a file of targets:
 
-`asnmap {{[-f|-file]}} {{targets.txt}} -silent`
+`asnmap {{[-f|-file]}} {{path/to/targets.txt}} -silent`
 
 - Output results in JSON format:
 

@@ -1,7 +1,7 @@
 # zcmp
 
 > 比较压缩文件。
-> 更多信息：<https://manned.org/zcmp>.
+> 更多信息：<https://manned.org/zcmp>。
 
 - 对两个通过 `gzip` 压缩的文件运行 `cmp` 命令：
 

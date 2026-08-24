@@ -2,7 +2,7 @@
 
 > Manage parallel versions of multiple Software Development Kits.
 > Supports Java, Groovy, Scala, Kotlin, Gradle, Maven, Vert.x and many others.
-> More information: <https://sdkman.io/usage>.
+> More information: <https://sdkman.io/usage/>.
 
 - Install an SDK version:
 

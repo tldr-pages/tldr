@@ -1,7 +1,7 @@
 # aws iam
 
 > AWS 서비스에 대한 접근을 안전하게 제어하기 위한 웹 서비스인 IAM(Identity and Access Management)과 상호작용.
-> 더 많은 정보: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/iam/index.html>.
+> 더 많은 정보: <https://docs.aws.amazon.com/cli/latest/reference/iam/>.
 
 - 사용자 나열:
 

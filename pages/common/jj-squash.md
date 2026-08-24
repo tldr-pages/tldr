@@ -1,7 +1,7 @@
 # jj squash
 
 > Move changes from a revision into another revision.
-> More information: <https://jj-vcs.github.io/jj/latest/cli-reference/#jj-squash>.
+> More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-squash>.
 
 - Move all changes from current revision to its parent:
 

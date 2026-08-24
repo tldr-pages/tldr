@@ -1,7 +1,7 @@
 # git bugreport
 
 > 收集系统和用户的调试信息，生成文本文件以帮助报告 Git 中的问题。
-> 更多信息：<https://git-scm.com/docs/git-bugreport>.
+> 更多信息：<https://git-scm.com/docs/git-bugreport>。
 
 - 在当前目录创建新的问题报告文件：
 

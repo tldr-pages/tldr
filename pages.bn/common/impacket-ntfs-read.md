@@ -1,0 +1,7 @@
+# impacket-ntfs-read
+
+> এই কমান্ডটি `ntfs-read.py` - এর একটি উপনাম।
+
+- মূল কমান্ডের ডকুমেন্টেশন দেখুন:
+
+`tldr ntfs-read.py`

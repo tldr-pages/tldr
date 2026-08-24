@@ -1,7 +1,7 @@
 # debman
 
 > Read man pages from uninstalled packages.
-> More information: <https://manned.org/debman.1>.
+> More information: <https://manned.org/debman>.
 
 - Read a man page for a command that is provided by a specified [p]ackage:
 

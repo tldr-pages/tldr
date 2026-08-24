@@ -2,7 +2,7 @@
 
 > Git 브랜치 이름 변경.
 > `git-extras`의 일부.
-> 더 많은 정보: <https://github.com/tj/git-extras/blob/master/Commands.md#git-rename-branch>.
+> 더 많은 정보: <https://github.com/tj/git-extras/blob/main/Commands.md#git-rename-branch>.
 
 - 현재 사용 중인 브랜치 이름 변경:
 

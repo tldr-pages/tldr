@@ -18,7 +18,7 @@
 
 - Display only specific fields:
 
-`sudo pvs {{[-o|--options]}} {{field_name_1}},{{field_name_2}}`
+`sudo pvs {{[-o|--options]}} {{field_name_1,field_name_2,...}}`
 
 - Append field to default display:
 

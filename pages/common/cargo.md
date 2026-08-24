@@ -2,7 +2,7 @@
 
 > Manage Rust projects and their module dependencies (crates).
 > Some subcommands such as `build` have their own usage documentation.
-> More information: <https://doc.rust-lang.org/cargo>.
+> More information: <https://doc.rust-lang.org/stable/cargo/>.
 
 - Search for crates:
 
@@ -28,10 +28,10 @@
 
 `cargo {{[b|build]}} {{[-r|--release]}}`
 
+- Run the built binary (will build it if it's not already built):
+
+`cargo {{[r|run]}}`
+
 - Build the Rust project in the current directory using the nightly compiler (requires `rustup`):
 
 `cargo +nightly {{[b|build]}}`
-
-- Build using a specific number of threads (default is the number of logical CPUs):
-
-`cargo {{[b|build]}} --jobs {{number_of_threads}}`

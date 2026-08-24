@@ -1,7 +1,7 @@
 # base64
 
 > Encode or decode file or `stdin` to/from base64, to `stdout` or another file.
-> More information: <https://man.freebsd.org/cgi/man.cgi?query=base64>.
+> More information: <https://man.freebsd.org/cgi/man.cgi?base64>.
 
 - Encode a file to `stdout`:
 

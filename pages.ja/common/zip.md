@@ -1,8 +1,8 @@
 # zip
 
 > ファイルを Zip アーカイブにパッケージして圧縮(アーカイブ)します。
-> `unzip` も参照してください。
-> もっと詳しく: <https://manned.org/zip>。
+> 参照: `unzip`。
+> 詳細情報: <https://manned.org/zip>。
 
 - 指定したアーカイブに、ファイル/ディレクトリを追加する ([r]ecursively):
 

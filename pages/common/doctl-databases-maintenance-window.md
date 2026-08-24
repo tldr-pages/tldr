@@ -1,7 +1,7 @@
 # doctl databases maintenance-window
 
 > Schedule, and check the schedule of, maintenance windows for your databases.
-> More information: <https://docs.digitalocean.com/reference/doctl/reference/databases/maintenance-window>.
+> More information: <https://docs.digitalocean.com/reference/doctl/reference/databases/maintenance-window/>.
 
 - Run a `doctl databases maintenance-window` command with an access token:
 

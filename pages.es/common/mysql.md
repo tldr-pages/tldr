@@ -25,8 +25,8 @@
 
 - Restaura una base de datos a partir de una copia de seguridad creada con `mysqldump` (y se le pedirá la contraseña al usuario):
 
-`mysql {{[-u|--user]}} {{usuario}} {{[-p|--password]}} {{nombre_base_de_datos}} < {{ruta/al/backup.sql}}`
+`mysql < {{ruta/al/backup.sql}} {{[-u|--user]}} {{usuario}} {{[-p|--password]}} {{nombre_base_de_datos}}`
 
 - Restaura todas las bases de datos en una copia de seguridad (y se le pedirá la contraseña al usuario):
 
-`mysql {{[-u|--user]}} {{usuario}} {{[-p|--password]}} < {{ruta/al/backup.sql}}`
+`mysql < {{ruta/al/backup.sql}} {{[-u|--user]}} {{usuario}} {{[-p|--password]}}`

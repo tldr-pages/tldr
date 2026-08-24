@@ -1,6 +1,6 @@
 # gh run
 
-> View, run and watch recent GitHub Actions workflow runs.
+> View, run, and watch recent GitHub Actions workflow runs.
 > More information: <https://cli.github.com/manual/gh_run>.
 
 - Interactively select a run to see information about the jobs:

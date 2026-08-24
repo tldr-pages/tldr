@@ -1,7 +1,7 @@
 # pihole
 
 > Manage the Pi-hole ad-blocking DNS server.
-> More information: <https://docs.pi-hole.net/main/pihole-command>.
+> More information: <https://docs.pi-hole.net/main/pihole-command/>.
 
 - Check Pi-hole's status:
 

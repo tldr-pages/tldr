@@ -13,4 +13,4 @@
 
 - Display help:
 
-`xml {{[esc|escape]}} --help`
+`xml {{[unesc|unescape]}} --help`

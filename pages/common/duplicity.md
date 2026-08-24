@@ -1,8 +1,8 @@
 # duplicity
 
-> Create incremental, compressed, encrypted and versioned backups.
+> Create incremental, compressed, encrypted, and versioned backups.
 > Can also upload the backups to a variety of backend services.
-> It is worth mentioning that depending on the version, some options may not be available (e.g. `--gio` in 2.0.0).
+> Note: Depending on the version, some options may not be available (e.g. `--gio` in 2.0.0).
 > More information: <https://duplicity.gitlab.io/stable/duplicity.1.html#name>.
 
 - Backup a directory via FTPS to a remote machine, encrypting it with a password:
@@ -27,4 +27,4 @@
 
 - Restore a subdirectory from a GnuPG-encrypted local backup to a given location:
 
-`PASSPHRASE={{gpg_key_password}} duplicity restore --encrypt-key {{gpg_key_id}} --path-to-restore {{relative/path/restoredirectory}} file://{{absolute/path/to/backup_directory}} {{path/to/directory_to_restore_to}}`
+`PASSPHRASE={{gpg_key_password}} duplicity restore --encrypt-key {{gpg_key_id}} --path-to-restore {{path/to/restore_directory}} file://{{absolute/path/to/backup_directory}} {{path/to/directory_to_restore_to}}`

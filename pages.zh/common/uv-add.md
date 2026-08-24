@@ -1,8 +1,8 @@
 # uv add
 
 > 将包依赖添加到 `pyproject.toml` 文件。
-> 包的详细解释，请参考 <https://peps.python.org/pep-0508/>.
-> 更多信息：<https://docs.astral.sh/uv/reference/cli/#uv-add>.
+> 包的详细解释，请参考 <https://peps.python.org/pep-0508/>。
+> 更多信息：<https://docs.astral.sh/uv/reference/cli/#uv-add>。
 
 - 添加一个包（最新版本）：
 

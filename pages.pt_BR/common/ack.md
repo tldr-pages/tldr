@@ -1,8 +1,8 @@
 # ack
 
 > Uma ferramenta de pesquisa similar ao `grep`, otimizada para programadores.
-> Veja também: `rg`, que é muito mais rápido.
-> Mais informações: <https://beyondgrep.com/documentation>.
+> Veja também: `rg`.
+> Mais informações: <https://beyondgrep.com/documentation/>.
 
 - Procura por arquivos que contenham o termo, ou a expressão regular, no diretório atual:
 

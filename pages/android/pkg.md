@@ -5,20 +5,32 @@
 
 - Upgrade all installed packages:
 
-`pkg upgrade`
+`pkg {{[up|upgrade]}}`
+
+- List currently installed packages:
+
+`pkg {{[list-i|list-installed]}}`
 
 - Install a package:
 
-`pkg install {{package}}`
+`pkg {{[i|install]}} {{package}}`
 
 - Uninstall a package:
 
-`pkg uninstall {{package}}`
+`pkg {{[un|uninstall]}} {{package}}`
 
 - Reinstall a package:
 
-`pkg reinstall {{package}}`
+`pkg {{[rei|reinstall]}} {{package}}`
 
 - Search for a package:
 
-`pkg search {{package}}`
+`pkg {{[se|search]}} {{package}}`
+
+- Show information about specific package:
+
+`pkg {{[sh|show]}} {{package}}`
+
+- Display help:
+
+`pkg {{[h|help]}}`

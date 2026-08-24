@@ -1,7 +1,7 @@
 # systemd-nspawn
 
 > Spawn a command or OS in a lightweight container.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemd-nspawn.html>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemd-nspawn.html>.
 
 - Run a command in a container:
 

@@ -3,7 +3,7 @@
 > Friendly and fast tool for sending HTTP requests.
 > Note: `xh`, written in rust, serves as an effective drop-in replacement for `http`.
 > See also: `http`, `curl`.
-> More information: <https://github.com/ducaale/xh>.
+> More information: <https://github.com/ducaale/xh#usage>.
 
 - Send a GET request (shows response headers and content):
 
@@ -13,7 +13,7 @@
 
 `xh post {{https://postman-echo.com/post}} {{name=john}} {{age=25}}`
 
-- Send a GET request with query parameters (e.g. `https://postman-echo.com/response-headers?foo1=bar1&foo2=bar2`):
+- Send a GET request with query parameters (e.g. <https://postman-echo.com/response-headers?foo1=bar1&foo2=bar2>):
 
 `xh get {{https://postman-echo.com/response-headers}} {{foo1==bar1}} {{foo2==bar2}}`
 

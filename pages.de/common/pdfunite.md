@@ -1,7 +1,7 @@
 # pdfunite
 
 > Füge PDF Dateien zusammen.
-> Weitere Informationen: <https://github.com/mtgrosser/pdfunite>.
+> Weitere Informationen: <https://manned.org/pdfunite>.
 
 - Füge zwei PDF Dateien zu einer PDF Datei zusammen:
 

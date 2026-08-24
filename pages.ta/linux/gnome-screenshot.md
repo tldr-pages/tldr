@@ -9,27 +9,27 @@
 
 - ஒரு ஸ்கிரீன்ஷாட்டை எடுத்து, பெயரிடப்பட்ட கோப்பு இடத்தில் சேமிக்கவும்:
 
-`gnome-screenshot --file {{கோப்பு/பாதை}}`
+`gnome-screenshot {{[-f|--file]}} {{கோப்பு/பாதை}}`
 
 - ஒரு ஸ்கிரீன்ஷாட்டை எடுத்து கிளிப்போர்டில் சேமிக்கவும்:
 
-`gnome-screenshot --clipboard`
+`gnome-screenshot {{[-c|--clipboard]}}`
 
 - குறிப்பிட்ட எண்ணிக்கையிலான வினாடிகளுக்குப் பிறகு ஸ்கிரீன்ஷாட்டை எடுக்கவும்:
 
-`gnome-screenshot --delay {{5}}`
+`gnome-screenshot {{[-d|--delay]}} {{5}}`
 
 - க்னோம் ஸ்கிரீன்ஷாட் GUI ஐ துவக்கவும்:
 
-`gnome-screenshot --interactive`
+`gnome-screenshot {{[-i|--interactive]}}`
 
 - தற்போதைய சாளரத்தின் ஸ்கிரீன்ஷாட்டை எடுத்து குறிப்பிட்ட கோப்பு இடத்தில் சேமிக்கவும்:
 
-`gnome-screenshot --window --file {{கோப்பு/பாதை}}`
+`gnome-screenshot {{[-w|--window]}} {{[-f|--file]}} {{கோப்பு/பாதை}}`
 
 - குறிப்பிட்ட வினாடிகளுக்குப் பிறகு ஸ்கிரீன் ஷாட்டை எடுத்து கிளிப்போர்டில் சேமிக்கவும்:
 
-`gnome-screenshot --delay {{10}} --clipboard`
+`gnome-screenshot {{[-d|--delay]}} {{10}} {{[-c|--clipboard]}}`
 
 - பதிப்பைக் காட்டு:
 

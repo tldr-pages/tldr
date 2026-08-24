@@ -2,7 +2,7 @@
 
 > Set a property in the Google Cloud CLI configuration.
 > Properties control various aspects of Google Cloud CLI behavior.
-> More information: <https://cloud.google.com/sdk/gcloud/reference/config/set>.
+> More information: <https://docs.cloud.google.com/sdk/gcloud/reference/config/set>.
 
 - Set the project property in the core section:
 

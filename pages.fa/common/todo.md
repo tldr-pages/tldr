@@ -1,7 +1,7 @@
 # todo
 
 > ابزاری ساده و استاندارد برای مدیریت یادداشت و فهرست وظایف.
-> اطلاعات بیشتر: <https://todoman.readthedocs.io>.
+> اطلاعات بیشتر: <https://todoman.readthedocs.io/en/stable/man.html>.
 
 - لیست کارهای آغاز نشده:
 
@@ -9,7 +9,7 @@
 
 - اضافه کردن یک وظیفه به فهرست کارها :
 
-`todo new {{thing_to_do}} --list {{work}}`
+`todo new {{thing_to_do}} {{[-l|--list]}} {{work}}`
 
 - اضافه کردن مکان به یک وظیفه با آیدی:
 

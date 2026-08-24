@@ -1,7 +1,7 @@
 # pamexec
 
 > Netpbm 파일의 각 이미지에 대해 셸 명령을 실행.
-> 같이 보기: `pamfile`, `pampick`, `pamsplit`.
+> 관련 항목: `pamfile`, `pampick`, `pamsplit`.
 > 더 많은 정보: <https://netpbm.sourceforge.net/doc/pamexec.html>.
 
 - Netpbm 파일의 각 이미지에 대해 셸 명령 실행:

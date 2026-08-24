@@ -7,7 +7,7 @@
 
 `addr2line {{[-e|--exe]}} {{path/to/executable}} {{address}}`
 
-- Display the function name, filename and line number:
+- Display the function name, filename, and line number:
 
 `addr2line {{[-e|--exe]}} {{path/to/executable}} {{[-f|--functions]}} {{address}}`
 

@@ -2,7 +2,7 @@
 
 > A terminal-based interface for GitHub, accessed via the `gh` command.
 > It also provides menu-style autocomplete suggestions for `git` commands.
-> More information: <https://github.com/donnemartin/gitsome>.
+> More information: <https://github.com/donnemartin/gitsome#index>.
 
 - Enter the gitsome shell (optional), to enable autocompletion and interactive help for Git (and gh) commands:
 
@@ -26,4 +26,4 @@
 
 - View the recent activity feed for a given GitHub user, using the default pager (e.g. `less`):
 
-`gh feed {{torvalds}} -p`
+`gh feed {{torvalds}} {{[-p|--pager]}}`

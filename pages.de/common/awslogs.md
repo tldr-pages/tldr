@@ -1,7 +1,7 @@
 # awslogs
 
 > CLI um Log-Gruppen, Streams und Events von Amazon CloudWatch Logs abzurufen.
-> Weitere Informationen: <https://github.com/jorgebastida/awslogs>.
+> Weitere Informationen: <https://github.com/jorgebastida/awslogs#options>.
 
 - Liste alle Log-Gruppen auf:
 

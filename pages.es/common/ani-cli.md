@@ -1,6 +1,7 @@
 # ani-cli
 
 > Una interface de línea de comando para navegar y ver anime.
+> Vea también: `animdl`.
 > Más información: <https://manned.org/ani-cli>.
 
 - Busca anime por nombre:
@@ -17,11 +18,11 @@
 
 - Descarga toda la serie (un rango de todos los episodios):
 
-`ani-cli {{[-d|--download]}} {{[-r|--rango]}} "1 -1" "{{nombre_del_anime}}"`
+`ani-cli {{[-d|--download]}} {{[-r|--range]}} "1 -1" "{{nombre_del_anime}}"`
 
 - Usa VLC como reproductor multimedia:
 
-`ani-cli {{[-v|-vlc]}} "{{nombre_del_anime}}"`
+`ani-cli {{[-v|--vlc]}} "{{nombre_del_anime}}"`
 
 - Ve un episodio concreto:
 

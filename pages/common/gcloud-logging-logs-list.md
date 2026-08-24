@@ -3,7 +3,7 @@
 > List logs in a Google Cloud project.
 > Useful for identifying available logs for monitoring and analysis.
 > See also: `gcloud`.
-> More information: <https://cloud.google.com/sdk/gcloud/reference/logging/logs/list>.
+> More information: <https://docs.cloud.google.com/sdk/gcloud/reference/logging/logs/list>.
 
 - List all logs in the current project:
 

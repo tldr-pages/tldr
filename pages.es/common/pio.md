@@ -6,11 +6,11 @@
 
 - Muestra ayuda y lista subcomandantes:
 
-`pio --help`
+`pio {{[-h|--help]}}`
 
 - Muestra ayuda para un subcomando específico:
 
-`pio {{subcommand}} --help`
+`pio {{subcommand}} {{[-h|--help]}}`
 
 - Versión de visualización:
 

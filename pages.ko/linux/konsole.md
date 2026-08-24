@@ -1,7 +1,7 @@
 # konsole
 
 > KDE의 터미널 에뮬레이터.
-> 더 많은 정보: <https://docs.kde.org/stable5/en/konsole/konsole/command-line-options.html>.
+> 더 많은 정보: <https://docs.kde.org/stable_kf6/en/konsole/konsole/command-line-options.html>.
 
 - 특정 디렉토리에서 터미널 열기:
 

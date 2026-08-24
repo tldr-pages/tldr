@@ -1,6 +1,6 @@
 # git check-ignore
 
-> Git ignore/exclude (".gitignore") 파일을 분석하고 디버깅.
+> Git ignore/exclude (`.gitignore`) 파일을 분석하고 디버깅.
 > 더 많은 정보: <https://git-scm.com/docs/git-check-ignore>.
 
 - 파일 또는 폴더가 무시되는지 확인:
@@ -13,7 +13,7 @@
 
 - 각 경로를 한 줄씩 `stdin`에서 사용:
 
-`git check-ignore --stdin < {{경로/대상/파일_목록}}`
+`git < {{경로/대상/파일_목록}} check-ignore --stdin`
 
 - 색인을 확인하지 않음 (경로가 추적되고 무시되지 않은 이유를 디버그하는 데 사용):
 

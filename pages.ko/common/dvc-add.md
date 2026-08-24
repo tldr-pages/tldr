@@ -1,7 +1,7 @@
 # dvc add
 
 > 변경된 파일을 색인에 추가.
-> 더 많은 정보: <https://dvc.org/doc/command-reference/add>.
+> 더 많은 정보: <https://doc.dvc.org/command-reference/add>.
 
 - 단일 대상 파일을 색인에 추가:
 

@@ -1,7 +1,7 @@
 # shasum
 
 > 计算或检查加密 SHA 校验值。
-> 更多信息：<https://manned.org/shasum>.
+> 更多信息：<https://manned.org/shasum>。
 
 - 计算一个或多个文件的 SHA1 校验值：
 
@@ -33,4 +33,4 @@
 
 - 检查文件的已知 SHA 校验值：
 
-`echo {{文件的已知 sha 校验值}} {{路径/到/文件}} | shasum {{[-c|--check]}}`
+`echo '{{文件的已知 sha 校验值}}  {{路径/到/文件}}' | shasum {{[-c|--check]}}`

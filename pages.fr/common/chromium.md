@@ -3,15 +3,15 @@
 > Navigateur Web open source principalement développé et maintenu par Google.
 > Plus d'informations : <https://www.chromium.org/developers/how-tos/run-chromium-with-flags/>.
 
-- Ouvre une URL ou un fichier spécifique :
+- Ouvre une URL ou un fichier spécifique :
 
 `chromium {{https://exemple.com|chemin/vers/fichier.html}}`
 
-- Ouvre en mode navigation privée :
+- Ouvre en mode navigation privée :
 
 `chromium --incognito {{exemple.com}}`
 
-- Ouvre dans une nouvelle fenêtre :
+- Ouvre dans une nouvelle fenêtre :
 
 `chromium --new-window {{exemple.com}}`
 
@@ -19,11 +19,11 @@
 
 `chromium --app={{https://exemple.com}}`
 
-- Utilise un serveur proxy :
+- Utilise un serveur proxy :
 
 `chromium --proxy-server="{{://hostname:66}}" {{exemple.com}}`
 
-- Ouvre dans un répertoire de profil personnalisé :
+- Ouvre dans un répertoire de profil personnalisé :
 
 `chromium --user-data-dir={{chemin/vers/répertoire}}`
 

@@ -1,7 +1,7 @@
 # npm unstar
 
 > 패키지에서 즐겨찾기/별표 표시를 제거.
-> 더 많은 정보: <https://docs.npmjs.com/cli/npm-unstar>.
+> 더 많은 정보: <https://docs.npmjs.com/cli/npm-unstar/>.
 
 - 기본 레지스트리에서 공개 패키지의 별표 제거:
 
@@ -13,7 +13,7 @@
 
 - 특정 레지스트리에서 패키지의 별표 제거:
 
-`npm unstar {{패키지_이름}} --registry {{레지스트리_URL}}`
+`npm unstar {{패키지_이름}} --registry {{레지스트리_url}}`
 
 - 인증이 필요한 비공개 패키지의 별표 제거:
 

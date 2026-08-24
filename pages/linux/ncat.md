@@ -14,7 +14,7 @@
 
 - Write output of specified file to the specified host on the specified port:
 
-`ncat {{address}} {{port}} < {{path/to/file}}`
+`ncat < {{path/to/file}} {{address}} {{port}}`
 
 - Accept multiple incoming connections on an encrypted channel evading detection of traffic content:
 

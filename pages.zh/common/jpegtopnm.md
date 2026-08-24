@@ -1,7 +1,7 @@
 # jpegtopnm
 
 > 将 JPEG/JFIF 文件转换为 PPM 或 PGM 格式。
-> 更多信息：<https://netpbm.sourceforge.net/doc/jpegtopnm.html>.
+> 更多信息：<https://netpbm.sourceforge.net/doc/jpegtopnm.html>。
 
 - 将 JPEG/JFIF 图像转换为 PPM 或 PGM 图像：
 
@@ -9,4 +9,4 @@
 
 - 显示版本信息：
 
-`jpegtopnm -version`
+`jpegtopnm {{[-v|-version]}}`

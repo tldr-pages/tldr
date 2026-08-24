@@ -1,6 +1,7 @@
 # nslookup
 
 > 다양한 도메인 레코드에 대해 네임 서버에 질의.
+> 관련 항목: `dig`, `resolvectl`, `host`.
 > 더 많은 정보: <https://manned.org/nslookup>.
 
 - 시스템의 기본 네임 서버에 도메인의 IP 주소 (A 레코드) 질의:

@@ -1,7 +1,7 @@
 # compare
 
-> 이 명령은 `magick compare`의 별칭.
+> 이 명령은 `magick compare`의 별칭입니다.
 
-- 원래 명령에 대한 문서 보기:
+- 자세한 내용은 원본 명령을 참고하세요:
 
 `tldr magick compare`

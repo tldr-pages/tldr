@@ -1,7 +1,7 @@
 # cmark
 
 > CommonMark Markdown 텍스트를 다른 텍스트 형식으로 변환합니다.
-> 더 많은 정보: <https://github.com/commonmark/cmark>.
+> 더 많은 정보: <https://manned.org/cmark>.
 
 - CommonMark Markdown 파일을 HTML 파일로 렌더링합니다:
 

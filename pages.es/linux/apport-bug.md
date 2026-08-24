@@ -1,7 +1,7 @@
 # apport-bug
 
 > Reporta un error (bug) de Ubuntu.
-> Más información: <https://wiki.ubuntu.com/Apport>.
+> Más información: <https://ubuntu.com/project/docs/contributors/debugging/apport/>.
 
 - Reporta un error respecto a todo el sistema:
 
@@ -17,4 +17,4 @@
 
 - Reporta un error respecto a un proceso específico:
 
-`apport-bug {{PID}}`
+`apport-bug {{pid}}`

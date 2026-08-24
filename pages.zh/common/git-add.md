@@ -1,13 +1,13 @@
 # git add
 
 > 将更改的文件添加到索引（暂存区）。
-> 更多信息：<https://git-scm.com/docs/git-add>.
+> 更多信息：<https://git-scm.com/docs/git-add>。
 
 - 添加单个文件到索引：
 
 `git add {{路径/到/文件}}`
 
-- 添加所有文件（包括已跟踪的和未跟踪的）:
+- 添加所有文件（包括已跟踪的和未跟踪的）：
 
 `git add {{[-A|--all]}}`
 

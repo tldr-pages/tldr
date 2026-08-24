@@ -1,11 +1,11 @@
 # acme.sh --dns
 
 > 使用 DNS-01 挑战来签发 TLS 证书。
-> 更多信息：<https://github.com/acmesh-official/acme.sh/wiki>.
+> 更多信息：<https://github.com/acmesh-official/acme.sh/wiki>。
 
 - 使用自动 DNS API 模式签发证书：
 
-`acme.sh --issue --dns {{gnd_gd}} --domain {{example.com}}`
+`acme.sh --issue --dns {{dns_gd}} --domain {{example.com}}`
 
 - 使用自动 DNS API 模式签发通配符证书（用星号表示）：
 

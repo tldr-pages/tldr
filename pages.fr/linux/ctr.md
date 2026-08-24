@@ -1,7 +1,7 @@
 # ctr
 
 > Gère les conteneurs et images de `containerd`.
-> Plus d'informations : <https://containerd.io>.
+> Plus d'informations : <https://manned.org/ctr>.
 
 - Liste tous les conteneurs (en marche et arrêtés) :
 

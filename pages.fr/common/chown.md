@@ -1,6 +1,7 @@
 # chown
 
 > Modifie l'utilisateur et le groupe propriétaire des fichiers et dossiers.
+> Voir aussi : `chgrp`.
 > Plus d'informations : <https://www.gnu.org/software/coreutils/manual/html_node/chown-invocation.html>.
 
 - Modifie le propriétaire d'un fichier/dossier :

@@ -1,7 +1,7 @@
 # dotenvx
 
 > A better `dotenv`, from the creator of `dotenv`.
-> More information: <https://dotenvx.com/docs>.
+> More information: <https://dotenvx.com/docs/>.
 
 - Run a command with environment variables from a `.env` file:
 

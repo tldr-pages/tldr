@@ -2,7 +2,7 @@
 
 > Een extreem snelle Python code formatter.
 > Als geen bestanden of mappen zijn gespecificeerd, wordt de huidige map gebruikt.
-> Meer informatie: <https://docs.astral.sh/ruff/formatter>.
+> Meer informatie: <https://docs.astral.sh/ruff/formatter/>.
 
 - Formatteer opgegeven bestanden of mappen in-place:
 

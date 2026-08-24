@@ -17,12 +17,12 @@
 
 - 특정 리비전 체인지셋을 지정하여 푸시:
 
-`hg push --rev {{리비전}}`
+`hg push {{[-r|--rev]}} {{리비전}}`
 
 - 특정 브랜치를 지정하여 푸시:
 
-`hg push --branch {{브랜치}}`
+`hg push {{[-b|--branch]}} {{브랜치}}`
 
 - 특정 북마크를 지정하여 푸시:
 
-`hg push --bookmark {{북마크}}`
+`hg push {{[-B|--bookmark]}} {{북마크}}`

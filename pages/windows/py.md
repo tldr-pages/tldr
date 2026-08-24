@@ -10,7 +10,7 @@
 
 - Execute a specific Python file:
 
-`py {{path/to/file.py}}`
+`py {{path\to\file.py}}`
 
 - Run specific Python version. If the version is missing, and `PYLAUNCHER_ALLOW_INSTALL` environment variable is set, auto-install via Microsoft Store or Winget:
 

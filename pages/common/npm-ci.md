@@ -2,7 +2,7 @@
 
 > Clean install of `npm` project dependencies for automated environments.
 > Installs packages based on `package-lock.json` or `npm-shrinkwrap.json`.
-> More information: <https://docs.npmjs.com/cli/npm-ci>.
+> More information: <https://docs.npmjs.com/cli/npm-ci/>.
 
 - Install project dependencies from `package-lock.json` or `npm-shrinkwrap.json`:
 

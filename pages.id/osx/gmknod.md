@@ -1,6 +1,6 @@
 # gmknod
 
-> Perintah ini merupakan alias dari `-p linux mknod`.
+> Perintah ini merupakan alias dari GNU `mknod`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 

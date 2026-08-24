@@ -1,7 +1,7 @@
 # arduino
 
 > Arduino Studio - 为 Arduino 平台准备的集成开发环境。
-> 更多信息：<https://github.com/arduino/Arduino/blob/master/build/shared/manpage.adoc>.
+> 更多信息：<https://github.com/arduino/Arduino/blob/master/build/shared/manpage.adoc>。
 
 - 构建一个草稿：
 
@@ -23,7 +23,7 @@
 
 `arduino --pref build.path={{路径/到/输出_文件夹}} --verify {{路径/到/文件.ino}}`
 
-- 保存任意（修改过的）首选项到 `preferences.txt`:
+- 保存任意（修改过的）首选项到 `preferences.txt`：
 
 `arduino --save-prefs`
 

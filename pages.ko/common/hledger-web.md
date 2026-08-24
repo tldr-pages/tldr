@@ -9,7 +9,7 @@
 
 - 위와 동일하지만, 특정 파일을 지정하고 기존 데이터 편집 허용:
 
-`hledger-web --file {{경로/대상/파일.journal}} --allow edit`
+`hledger-web {{[-f|--file]}} {{경로/대상/파일.journal}} --allow edit`
 
 - 웹 앱만 시작하고, 지정된 호스트와 포트에서 들어오는 연결 수락:
 
@@ -29,4 +29,4 @@
 
 - 도움말 표시:
 
-`hledger-web --help`
+`hledger-web {{[-h|--help]}}`

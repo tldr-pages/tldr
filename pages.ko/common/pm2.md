@@ -2,7 +2,7 @@
 
 > Node.js를 위한 프로세스 관리자.
 > 로그 관리, 모니터링 및 프로세스 구성을 위해 사용됩니다.
-> 더 많은 정보: <https://pm2.keymetrics.io>.
+> 더 많은 정보: <https://pm2.keymetrics.io/docs/usage/quick-start/>.
 
 - 나중에 사용할 수 있는 이름으로 프로세스를 시작:
 

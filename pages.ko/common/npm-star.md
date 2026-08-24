@@ -1,7 +1,7 @@
 # npm star
 
 > 패키지를 즐겨찾기로 표시.
-> 더 많은 정보: <https://docs.npmjs.com/cli/npm-star>.
+> 더 많은 정보: <https://docs.npmjs.com/cli/npm-star/>.
 
 - 기본 레지스트리에서 공개 패키지 즐겨찾기:
 
@@ -13,7 +13,7 @@
 
 - 특정 레지스트리에서 패키지 즐겨찾기:
 
-`npm star {{패키지_이름}} --registry {{레지스트리_URL}}`
+`npm star {{패키지_이름}} --registry {{레지스트리_url}}`
 
 - 인증이 필요한 비공개 패키지 즐겨찾기:
 
@@ -33,4 +33,4 @@
 
 - 특정 레지스트리에서 즐겨찾기한 패키지 나열:
 
-`npm star --list --registry {{레지스트리_URL}}`
+`npm star --list --registry {{레지스트리_url}}`

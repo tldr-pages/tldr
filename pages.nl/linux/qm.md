@@ -1,16 +1,16 @@
 # qm
 
 > QEMU/KVM Virtual Machine Manager.
-> Sommige subcommando's zoals `list`, `start`, `stop`, `clone`, etc. hebben hun eigen gebruiksdocumentatie.
+> Sommige subcommando's zoals `list`, `start`, `stop`, `clone`, etc. hebben hun eigen documentatie.
 > Meer informatie: <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
 - Toon alle virtual machines:
 
 `qm list`
 
-- Maak met behulp van een ISO-bestand dat is geüpload naar de lokale opslag een virtual machine met een 4 GB SCSI-schijf op de `local-lvm`-opslag en een ID van 100:
+- Maak een virtual machine aan met een 4 GB SCSI-schijf op de `local-lvm`-opslag en een ID van 100, gebruikmakend van een ISO-bestand die op de `local`-opslag is geüpload:
 
-`qm {{[cr|create]}} {{100}} --scsi0 {{local-lvm:4}} --net0 {{e1000}} --cdrom {{local:iso/proxmox-mailgateway_2.1.iso}}`
+`qm {{[cr|create]}} 100 --scsi0 local-lvm:4 --net0 {{e1000}} --cdrom local:{{iso/proxmox-mailgateway_2.1.iso}}`
 
 - Toon de configuratie van een virtual machine, met vermelding van de ID:
 

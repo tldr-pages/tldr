@@ -19,10 +19,6 @@
 
 `devcontainer build {{path/to/workspace}}`
 
-- Open a Dev Container in VS Code (the path is optional):
-
-`devcontainer open {{path/to/workspace}}`
-
 - Read and print the configuration of a Dev Container from `devcontainer.json`:
 
 `devcontainer read-configuration`

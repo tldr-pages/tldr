@@ -1,28 +1,38 @@
 # egrep
 
-> Encuentra patrones en archivos usando `regex` extendido ( admite `?`, `+`, `{}`, `()`, y `|`).
+> Busca patrones en archivos utilizando expresiones regulares extendidas.
+> Nota: Este comando es un alias de `grep --extended-regexp`.
+> Vea también: `regex`.
 > Más información: <https://manned.org/egrep>.
 
-- Busca un patrón dentro de un archivo:
+- Busca uno o más caracteres repetidos:
 
-`egrep "{{patrón_de_búsqueda}}" {{ruta/al/archivo}}`
+`egrep '{{a}}+' {{ruta/al/archivo}}`
 
-- Busca un patrón en varios archivos:
+- Busca cero o una aparición de un carácter (coincidencia opcional):
 
-`egrep "{{patrón_de_busqueda}}" {{ruta/al/archivo1 ruta/al/archivo2 ...}}`
+`egrep '{{a}}?' {{ruta/al/archivo}}`
 
-- Busca un patrón en `stdin`:
+- Busca 10 repeticiones de un carácter:
 
-`cat {{ruta/a/archivo}} | egrep {{patrón_de_búsqueda}}`
+`egrep '{{a}}{10}' {{ruta/al/archivo}}`
 
-- Imprime el nombre del archivo y el número de línea de cada coincidencia:
+- Busca entre 3 y 7 repeticiones de un carácter:
 
-`egrep {{[-H|--with-filename]}} {{[-n|--line-number]}} "{{patrón_de_búsqueda}}" {{ruta/al/archivo}}`
+`egrep '{{a}}{3,7}' {{ruta/al/archivo}}`
 
-- Busca un patrón en todos los archivos de forma recursiva en un directorio, ignorando los archivos binarios:
+- Busca una de las opciones enumeradas:
 
-`egrep {{[-r|--recursive]}} --binary-files={{without-match}} "{{patrón_de_búsqueda}}" {{ruta/al/directorio}}`
+`egrep '{{gato}}|{{perro}}|{{ratón}}' {{ruta/al/archivo}}`
 
-- Busca líneas que no coinciden con un patrón:
+- Busca una de las opciones enumeradas dentro de un patrón más amplio:
 
-`egrep {{[-v|--invert-match]}} "{{patrón_de_búsqueda}}" {{ruta/al/archivo}}`
+`egrep 'c({{a}}|{{o}}|{{u}})p' {{ruta/al/archivo}}`
+
+- Busca un grupo de caracteres que se repita una o más veces:
+
+`egrep '({{aeiou}})+' {{ruta/al/archivo}}`
+
+- Busca utilizando clases de caracteres estándar (más información: <https://www.regular-expressions.info/posixbrackets.html>):
+
+`egrep [[{{:alnum:|:alpha:|:space:|...}}]] {{ruta/al/archivo}}`

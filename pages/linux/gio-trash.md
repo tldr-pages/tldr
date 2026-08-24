@@ -2,7 +2,7 @@
 
 > Move files to the trash bin.
 > Used by GNOME to handle trash.
-> More information: <https://manned.org/gio.1>.
+> More information: <https://manned.org/gio>.
 
 - Move specific files to the trash bin:
 
@@ -11,6 +11,10 @@
 - List trash bin items:
 
 `gio trash --list`
+
+- Empty the trash:
+
+`gio trash --empty`
 
 - Restore a specific item from trash using its ID:
 

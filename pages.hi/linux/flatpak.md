@@ -21,7 +21,7 @@
 
 - एक दूरस्थ स्रोत जोड़ें:
 
-`flatpak remote-add --if-not-exists {{दूरस्थ_नाम}} {{दूरस्थ_URL}}`
+`flatpak remote-add --if-not-exists {{दूरस्थ_नाम}} {{दूरस्थ_url}}`
 
 - एक स्थापित अनुप्रयोग हटाएं:
 

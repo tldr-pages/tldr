@@ -1,6 +1,7 @@
 # file
 
 > Determina il tipo di file.
+> Vedi anche: `stat`.
 > Maggiori informazioni: <https://manned.org/file>.
 
 - Fornisce una descrizione del tipo di file specificato. Funziona anche con file senza estensione:

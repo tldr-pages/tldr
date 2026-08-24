@@ -15,7 +15,7 @@
 
 `xclock -digital -strftime {{format}}`
 
-- Display a 24-hour digital clock with the hour, minute and second fields that updates every second:
+- Display a 24-hour digital clock with the hour, minute, and second fields that updates every second:
 
 `xclock -digital -strftime '%H:%M:%S' -update 1`
 

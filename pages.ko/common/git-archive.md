@@ -3,7 +3,7 @@
 > 트리에서 파일의 아카이브를 생성합니다.
 > 더 많은 정보: <https://git-scm.com/docs/git-archive>.
 
-- 현재 HEAD의 내용을 tar 아카이브로 생성하고 `stdout`에 출력:
+- 현재 HEAD의 내용을 `.tar` 아카이브로 생성하고 `stdout`에 출력:
 
 `git archive {{[-v|--verbose]}} HEAD`
 
@@ -15,7 +15,7 @@
 
 `git archive {{[-v|--verbose]}} {{[-o|--output]}} {{경로/대상/파일.zip}} HEAD`
 
-- 특정 브랜치의 최신 커밋 내용을 tar 아카이브로 생성:
+- 특정 브랜치의 최신 커밋 내용을 `.tar` 아카이브로 생성:
 
 `git archive {{[-o|--output]}} {{경로/대상/파일.tar}} {{branch_name}}`
 

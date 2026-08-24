@@ -1,12 +1,24 @@
 # case
 
-> Esegui branch diversi in base al valore di un'espressione.
+> Costrutto builtin di Bash per creare istruzioni condizionali a scelta multipla.
 > Maggiori informazioni: <https://www.gnu.org/software/bash/manual/bash.html#index-case>.
 
-- Esegui il match di una variabile su diverse stringhe per decidere che comando eseguire:
+- Confronta una variabile con stringhe letterali per decidere quale comando eseguire:
 
-`case {{$metrica}} in {{parole}}) {{wc -w README}}; ;; {{linee}}) {{wc -l README}}; ;; esac`
+`case {{$COUNTRULE}} in {{words}}) {{wc --words README}} ;; {{lines}}) {{wc --lines README}} ;; esac`
 
-- Combina pattern con |, utilizzando * come pattern di fallback:
+- Combina pattern con |, usando * come pattern di fallback:
 
-`case {{$metrica}} in {{[pP]|parole}}) {{wc -w README}}; ;; {{[lL]|linee}}) {{wc -l README}}; ;; *) {{echo "cosa?"}}; ;; esac`
+`case {{$COUNTRULE}} in {{[wW]|words}}) {{wc --words README}} ;; {{[lL]|lines}}) {{wc --lines README}} ;; *) {{echo "cosa?"}} ;; esac`
+
+- Consente di confrontare più pattern:
+
+`case {{$ANIMAL}} in {{cat}}) {{echo "È un gatto"}} ;;& {{cat|dog}}) {{echo "È un gatto o un cane"}} ;;& *) {{echo "Fallback"}} ;; esac`
+
+- Continua con i comandi del pattern successivo senza ricontrollare il pattern:
+
+`case {{$ANIMAL}} in {{cat}}) {{echo "È un gatto"}} ;& {{dog}}) {{echo "È un gatto o un cane passato al ramo successivo"}} ;& *) {{echo "Fallback"}} ;; esac`
+
+- Mostra l'aiuto:
+
+`help case`

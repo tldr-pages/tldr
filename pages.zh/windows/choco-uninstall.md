@@ -1,7 +1,7 @@
 # choco uninstall
 
 > 使用 Chocolatey 卸载一个或多个包。
-> 更多信息：<https://chocolatey.org/docs/commands-uninstall>.
+> 更多信息：<https://docs.chocolatey.org/en-us/choco/commands/uninstall/>。
 
 - 卸载一个或多个用空格分隔的软件包：
 
@@ -13,11 +13,11 @@
 
 - 自动确认所有提示：
 
-`choco uninstall {{包名}} --yes`
+`choco uninstall {{包名}} {{[-y|--yes]}}`
 
 - 卸载时同时删除其所有的依赖：
 
-`choco uninstall {{包名}} --remove-dependencies`
+`choco uninstall {{包名}} {{[-x|--remove-dependencies]}}`
 
 - 卸载全部包：
 

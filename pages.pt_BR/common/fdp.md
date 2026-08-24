@@ -1,7 +1,7 @@
 # fdp
 
 > Renderiza uma imagem de um gráfico de rede `force-directed` a partir de um arquivo `graphviz`.
-> Layouts: `dot`, `neato`, `twopi`, `circo`, `fdp`, `sfdp`, `osage` & `patchwork`.
+> Layouts: `dot`, `neato`, `twopi`, `circo`, `fdp`, `sfdp`, `osage`, e `patchwork`.
 > Mais informações: <https://graphviz.org/doc/info/command.html>.
 
 - Renderiza uma imagem PNG com um nome de arquivo baseado no nome do arquivo de entrada e formato de saída (-O maiúsculo):

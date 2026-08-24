@@ -1,7 +1,7 @@
 # lolcat
 
 > Färbe Text in Regenbogenfarben ein.
-> Weitere Informationen: <https://github.com/busyloop/lolcat>.
+> Weitere Informationen: <https://manned.org/lolcat>.
 
 - Gib den Inhalt einer Datei in Regenbogenfarben in der Konsole aus:
 

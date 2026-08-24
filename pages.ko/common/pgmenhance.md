@@ -1,7 +1,7 @@
 # pgmenhance
 
 > PGM 이미지의 가장자리를 강조.
-> 같이 보기: `pamedge`.
+> 관련 항목: `pamedge`.
 > 더 많은 정보: <https://netpbm.sourceforge.net/doc/pgmenhance.html>.
 
 - PGM 이미지의 가장자리 강조:

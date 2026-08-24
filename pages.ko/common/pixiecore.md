@@ -1,7 +1,7 @@
 # pixiecore
 
 > 네트워크 부팅을 관리하는 도구.
-> 더 많은 정보: <https://github.com/danderson/netboot/tree/master/pixiecore>.
+> 더 많은 정보: <https://github.com/danderson/netboot/tree/main/pixiecore>.
 
 - `netboot.xyz` 부팅 이미지를 제공하는 PXE 부팅 서버 시작:
 

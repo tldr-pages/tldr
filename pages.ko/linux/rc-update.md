@@ -1,7 +1,7 @@
 # rc-update
 
 > OpenRC 서비스를 실행 수준에 추가 및 제거.
-> 같이 보기: `openrc`.
+> 관련 항목: `openrc`.
 > 더 많은 정보: <https://manned.org/rc-update>.
 
 - 모든 서비스와 추가된 실행 수준 나열:

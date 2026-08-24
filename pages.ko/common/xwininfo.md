@@ -1,7 +1,7 @@
 # xwininfo
 
 > 창에 대한 정보를 표시.
-> 같이 보기: `xprop`, `xkill`.
+> 관련 항목: `xprop`, `xkill`.
 > 더 많은 정보: <https://www.x.org/releases/current/doc/man/man1/xwininfo.1.xhtml>.
 
 - 커서를 표시하여 창을 선택하고 해당 속성(아이디, 이름, 크기, 위치 등) 표시:

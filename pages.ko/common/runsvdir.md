@@ -1,7 +1,7 @@
 # runsvdir
 
 > 전체 서비스 디렉터리를 실행.
-> 더 많은 정보: <https://manned.org/runsvdir.8>.
+> 더 많은 정보: <https://manned.org/runsvdir>.
 
 - 현재 사용자로 디렉터리 내 모든 서비스 시작 및 관리:
 

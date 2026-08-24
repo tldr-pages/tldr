@@ -1,7 +1,7 @@
 # fish
 
 > The Friendly Interactive SHell, 一个设计为用户友好的命令行解释器。
-> 更多信息：<https://fishshell.com/docs/current/cmds/fish.html>.
+> 更多信息：<https://fishshell.com/docs/current/cmds/fish.html>。
 
 - 启动交互式 shell 会话：
 

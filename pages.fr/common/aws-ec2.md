@@ -2,7 +2,7 @@
 
 > CLI pour AWS EC2.
 > Provisionne, sécurise et des capacités de calcul redimensionnable dans le cloud AWS pour accélérer le développement et le déploiement d'applications.
-> Plus d'informations : <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ec2/index.html>.
+> Plus d'informations : <https://docs.aws.amazon.com/cli/latest/reference/ec2/>.
 
 - Affiche les informations sur une instance spécifique :
 

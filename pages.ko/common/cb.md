@@ -1,7 +1,7 @@
 # cb
 
 > 터미널에서 무엇이든 잘라내고, 복사하고, 붙여넣으세요.
-> 더 많은 정보: <https://github.com/Slackadays/Clipboard>.
+> 더 많은 정보: <https://github.com/Slackadays/Clipboard#-7>.
 
 - 모든 클립보드 표시:
 

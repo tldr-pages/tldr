@@ -1,7 +1,7 @@
 # uuencode
 
 > 将二进制文件编码为 ASCII，以便通过仅支持简单 ASCII 编码的媒介传输。
-> 更多信息：<https://manned.org/uuencode>.
+> 更多信息：<https://manned.org/uuencode>。
 
 - 编码一个文件并将结果打印到 `stdout`：
 
@@ -13,4 +13,4 @@
 
 - 使用 Base64 而不是默认的 uuencode 编码一个文件，并将结果写入到一个文件：
 
-`uuencode -m -o {{路径/到/输出文件}} {{路径/到/输入文件}} {{解码后文件名}}`
+`uuencode {{[-m|--base64]}} -o {{路径/到/输出文件}} {{路径/到/输入文件}} {{解码后文件名}}`

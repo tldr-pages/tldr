@@ -1,7 +1,7 @@
 # debman
 
 > 설치되지 않은 패키지에서 매뉴얼 페이지를 읽습니다.
-> 더 많은 정보: <https://manned.org/debman.1>.
+> 더 많은 정보: <https://manned.org/debman>.
 
 - 지정된 패키지가 제공하는 명령어에 대한 매뉴얼 페이지 읽기:
 

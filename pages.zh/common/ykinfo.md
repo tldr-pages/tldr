@@ -1,7 +1,7 @@
 # ykinfo
 
 > 从 YubiKey 获取基本信息。
-> 更多信息：<https://developers.yubico.com/yubikey-personalization/Manuals/ykinfo.1.html>.
+> 更多信息：<https://developers.yubico.com/yubikey-personalization/Manuals/ykinfo.1.html>。
 
 - 显示 YubiKey 的所有信息：
 

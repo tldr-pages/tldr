@@ -1,7 +1,7 @@
 # nativefier
 
 > Create a desktop app for any web site with minimal configuration.
-> More information: <https://github.com/jiahaog/nativefier>.
+> More information: <https://github.com/nativefier/nativefier>.
 
 - Make a desktop app for a website:
 

@@ -1,7 +1,7 @@
 # picotool
 
 > إدارة لوحات Raspberry Pi Pico.
-> لمزيد من التفاصيل: <https://github.com/raspberrypi/picotool>.
+> لمزيد من التفاصيل: <https://github.com/raspberrypi/picotool#overview>.
 
 - عرض معلومات حول البرنامج المحمّل حاليًا على جهاز Pico:
 
@@ -23,10 +23,10 @@
 
 `picotool otp list`
 
-- عرض إصدار الأداة:
-
-`picotool version`
-
 - عرض المساعدة:
 
 `picotool help`
+
+- عرض إصدار الأداة:
+
+`picotool version`

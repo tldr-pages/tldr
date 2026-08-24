@@ -1,7 +1,7 @@
 # nix why-depends
 
 > Muesta por qué un paquete depende de otro paquete.
-> Más información: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-why-depends.html>.
+> Más información: <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-why-depends.html>.
 
 - Muestra por qué el sistema actual de NixOS requiere una ruta del almacén específica:
 

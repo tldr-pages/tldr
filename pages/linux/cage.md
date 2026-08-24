@@ -1,6 +1,6 @@
 # cage
 
-> Open an applications in a kiosk mode.
+> Open applications in a kiosk mode.
 > See also: `gamescope`.
 > More information: <https://github.com/cage-kiosk/cage/blob/master/cage.1.scd>.
 
@@ -19,6 +19,10 @@
 - Allow [s]witching terminals with `<Ctrl Alt F2>`:
 
 `cage -s {{application}}`
+
+- Run a specific file:
+
+`cage /{{path/to/file}}`
 
 - Display help:
 

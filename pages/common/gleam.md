@@ -1,6 +1,6 @@
 # gleam
 
-> The compiler, build tool, package manager and code formatter for Gleam, "a friendly language for building type-safe systems that scale!".
+> The compiler, build tool, package manager, and code formatter for Gleam, "a friendly language for building type-safe systems that scale!".
 > More information: <https://gleam.run/writing-gleam/command-line-reference/>.
 
 - Create a new gleam project:

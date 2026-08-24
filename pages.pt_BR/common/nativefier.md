@@ -1,7 +1,7 @@
 # nativefier
 
 > Utilitário para criação de aplicativos para desktop à partir de web sites.
-> Mais informações: <https://github.com/jiahaog/nativefier>.
+> Mais informações: <https://github.com/nativefier/nativefier>.
 
 - Gera um aplicativo desktop para site:
 

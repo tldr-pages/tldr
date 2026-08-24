@@ -1,7 +1,7 @@
 # kcat
 
 > Apache Kafka producer and consumer tool.
-> More information: <https://github.com/edenhill/kcat>.
+> More information: <https://manned.org/kcat>.
 
 - Consume messages starting with the newest offset:
 

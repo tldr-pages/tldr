@@ -2,7 +2,8 @@
 
 > Neovim, un editor di testo basato su Vim che offre molti diversi modi di manipolare e navigare il testo.
 > Premere `<i>` per entrare in modalità inserimento (insert mode), `<Esc>` per uscire e tornare alla modalità normale (normal mode).
-> Maggiori informazioni: <https://neovim.io>.
+> Vedi anche: `vim`, `vimtutor`, `vimdiff`.
+> Maggiori informazioni: <https://neovim.io/>.
 
 - Aprire un file:
 

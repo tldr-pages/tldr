@@ -9,4 +9,4 @@
 
 - Wyłączenie wszystkich interfejsów, które są włączone:
 
-`ifdown -a`
+`ifdown {{[-a|--all]}}`

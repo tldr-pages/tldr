@@ -1,7 +1,7 @@
 # wtf
 
 > Show the expansions of acronyms.
-> More information: <https://manned.org/wtf.6>.
+> More information: <https://manned.org/wtf>.
 
 - Expand a given acronym:
 

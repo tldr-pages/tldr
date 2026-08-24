@@ -1,7 +1,7 @@
 # docker compose up
 
 > Start and run Docker services defined in a Compose file.
-> More information: <https://docs.docker.com/compose/reference/up/>.
+> More information: <https://docs.docker.com/reference/cli/docker/compose/up/>.
 
 - Start all services defined in the docker-compose file:
 

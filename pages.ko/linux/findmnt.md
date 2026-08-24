@@ -17,7 +17,7 @@
 
 - 특정 유형의 파일 시스템 찾기:
 
-`findmnt -t {{ext4}}`
+`findmnt {{[-t|--types]}} {{ext4}}`
 
 - 특정 레이블이 있는 파일 시스템 찾기:
 
@@ -25,4 +25,4 @@
 
 - 마운트 테이블 내용을 자세히 확인하고 `/etc/fstab` 검증:
 
-`findmnt --verify --verbose`
+`findmnt {{[-x|--verify]}} --verbose`

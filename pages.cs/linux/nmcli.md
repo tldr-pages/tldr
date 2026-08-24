@@ -1,6 +1,7 @@
 # nmcli
 
 > Spravuje síťovou konfiguraci pomocí NetworkManageru.
+> Viz také: `nmtui`, `iw`, `iwctl`.
 > Více informací: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
 
 - Zobrazit dokumentaci pro správu síťových rozhraní a navázání nových Wi-Fi připojení:

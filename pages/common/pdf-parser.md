@@ -1,7 +1,7 @@
 # pdf-parser
 
 > Identify fundamental elements of a PDF file without rendering it.
-> More information: <https://blog.didierstevens.com/programs/pdf-tools>.
+> More information: <https://blog.didierstevens.com/programs/pdf-tools/>.
 
 - Display statistics for a PDF file:
 

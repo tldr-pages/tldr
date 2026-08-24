@@ -1,7 +1,8 @@
 # df
 
 > ファイルシステムのディスク使用量の概要を表示します。
-> もっと詳しく: <https://www.gnu.org/software/coreutils/manual/html_node/df-invocation.html>。
+> 参照: `ncdu`, `duf`。
+> 詳細情報: <https://www.gnu.org/software/coreutils/manual/html_node/df-invocation.html>。
 
 - すべてのファイルシステムとそのディスク使用量を表示する:
 

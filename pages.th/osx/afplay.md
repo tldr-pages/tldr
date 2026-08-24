@@ -1,6 +1,6 @@
 # afplay
 
-> เครื่องเล่นไฟล์เสียงผ่าน command-line.
+> เครื่องเล่นไฟล์เสียงผ่าน command-line
 > ข้อมูลเพิ่มเติม: <https://keith.github.io/xcode-man-pages/afplay.1.html>
 
 - เล่นไฟล์เสียง (รอจนเล่นจบ):

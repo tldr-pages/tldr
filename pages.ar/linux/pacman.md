@@ -17,7 +17,7 @@
 
 `sudo pacman -Rs {{package}}`
 
-- البحث في قاعدة بيانات الحزم عن تعبير نمطي (Regular Expresssion) أو كلمة مفتاحية:
+- البحث في قاعدة بيانات الحزم عن تعبير نمطي (`regex`) أو كلمة مفتاحية:
 
 `pacman -Ss "{{search_pattern}}"`
 

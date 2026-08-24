@@ -1,7 +1,7 @@
 # gradle
 
 > オープンソースのビルド自動化システムです。
-> もっと詳しく: <https://gradle.org>。
+> 詳細情報: <https://manned.org/gradle>。
 
 - パッケージをコンパイルする:
 
@@ -9,7 +9,7 @@
 
 - test タスクを除外する:
 
-`gradle build -x {{test}}`
+`gradle build {{[-x|--exclude-task]}} test`
 
 - ビルド中に Gradle がネットワークにアクセスしないようにオフラインモードで実行する:
 

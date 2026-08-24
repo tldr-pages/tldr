@@ -5,12 +5,12 @@
 
 - `stdin` बफर का आकार 512 KiB में बदलें:
 
-`stdbuf --input=512K {{आदेश}}`
+`stdbuf {{[-i|--input]}} 512K {{आदेश}}`
 
 - `stdout` बफर को लाइन-बफर्ड में बदलें:
 
-`stdbuf --output=L {{आदेश}}`
+`stdbuf {{[-o|--output]}} L {{आदेश}}`
 
 - `stderr` बफर को अनबफर्ड में बदलें:
 
-`stdbuf --error=0 {{आदेश}}`
+`stdbuf {{[-e|--error]}} 0 {{आदेश}}`

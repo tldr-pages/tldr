@@ -13,11 +13,11 @@
 
 - Afficher des informations détaillées d'une liste de services séparée par des espaces :
 
-`docker service inspect {{nom_du_service|ID}}`
+`docker service inspect {{nom_du_service|id}}`
 
 - Lister les tâches d'une liste de services séparée par des espaces :
 
-`docker service ps {{nom_du_service|ID}}`
+`docker service ps {{nom_du_service|id}}`
 
 - Redimensionner à un nombre spécifique de réplicas pour une liste de services séparée par des espaces :
 
@@ -25,4 +25,4 @@
 
 - Supprimer une liste de services séparée par des espaces :
 
-`docker service rm {{nom_du_service|ID}}`
+`docker service rm {{nom_du_service|id}}`

@@ -5,7 +5,7 @@
 
 - 자동 DNS API 모드를 사용해 인증서 발급:
 
-`acme.sh --issue --dns {{gnd_gd}} --domain {{example.com}}`
+`acme.sh --issue --dns {{dns_gd}} --domain {{example.com}}`
 
 - 자동 DNS API 모드를 사용하여 와일드카드 인증서 (별표로 표시) 발급:
 

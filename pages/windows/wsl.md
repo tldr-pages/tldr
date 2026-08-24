@@ -25,7 +25,7 @@
 
 - Import a distribution from a `.tar` file:
 
-`wsl --import {{distribution}} {{path\to\install_location}} {{path/to/distro_file.tar}}`
+`wsl --import {{distribution}} {{path\to\install_location}} {{path\to\distro_file.tar}}`
 
 - Change the version of wsl used for the specified distribution:
 

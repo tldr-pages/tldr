@@ -9,4 +9,4 @@
 
 - Desactiva totes les interfícies que estiguin activades:
 
-`ifdown -a`
+`ifdown {{[-a|--all]}}`

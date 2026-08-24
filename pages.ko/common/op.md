@@ -1,7 +1,7 @@
 # op
 
 > 1Password의 데스크탑 앱을 위한 공식 CLI.
-> 더 많은 정보: <https://developer.1password.com/docs/cli/reference>.
+> 더 많은 정보: <https://developer.1password.com/docs/cli/reference/>.
 
 - 1Password 계정에 로그인:
 

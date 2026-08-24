@@ -5,7 +5,7 @@
 
 - Create a self-extracting binary file of a Zip archive:
 
-`cat unzipsfx {{path/to/archive.zip}} > {{filename}} && chmod 755 {{filename}}`
+`cat $(which unzipsfx) {{path/to/archive.zip}} > {{filename}} && chmod 755 {{filename}}`
 
 - Extract a self-extracting binary in the current directory:
 

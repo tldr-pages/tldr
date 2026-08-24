@@ -1,7 +1,7 @@
 # rip
 
 > 파일이나 디렉토리를 무덤에 보내 제거하고, 복구할 수 있도록 합니다.
-> 더 많은 정보: <https://github.com/nivekuil/rip>.
+> 더 많은 정보: <https://github.com/nivekuil/rip#-usage>.
 
 - 지정된 위치에서 파일이나 디렉토리를 제거하고 무덤에 보관:
 

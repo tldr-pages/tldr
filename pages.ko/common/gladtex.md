@@ -2,7 +2,7 @@
 
 > HTML 파일용 LaTeX 수식 전처리기.
 > LaTeX 수식을 이미지로 변환.
-> 더 많은 정보: <https://manned.org/gladtex.1>.
+> 더 많은 정보: <https://manned.org/gladtex>.
 
 - HTML로 변환:
 
@@ -20,7 +20,7 @@
 
 `gladtex {{경로/대상/입력파일.htex}} -r {{resolution}}`
 
-- 변환 후 LaTeX 파일 유지([k]eep) :
+- 변환 후 LaTeX 파일 유지([k]eep):
 
 `gladtex {{경로/대상/입력파일.htex}} -k`
 
@@ -30,4 +30,4 @@
 
 - `pandoc` 및 `gladtex`를 사용하여 마크다운을 HTML로 변환:
 
-`pandoc -s -t html --gladtex {{경로/대상/입력파일.md}} | gladtex -o {{경로/대상/출력파일.html}}`
+`pandoc {{[-s|--standalone]}} {{[-t|--to]}} html --gladtex {{경로/대상/입력파일.md}} | gladtex -o {{경로/대상/출력파일.html}}`

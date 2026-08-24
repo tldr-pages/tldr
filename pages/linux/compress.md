@@ -1,7 +1,7 @@
 # compress
 
 > Compress files using the Unix `compress` command.
-> More information: <https://manned.org/compress.1>.
+> More information: <https://manned.org/compress>.
 
 - Compress specific files:
 

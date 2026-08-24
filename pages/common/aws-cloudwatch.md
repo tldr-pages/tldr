@@ -1,7 +1,7 @@
 # aws cloudwatch
 
 > Monitor AWS resources to gain system-wide visibility into resource utilization, application performance, and operational health.
-> More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cloudwatch/index.html>.
+> More information: <https://docs.aws.amazon.com/cli/latest/reference/cloudwatch/>.
 
 - List dashboards for your account:
 
@@ -25,7 +25,7 @@
 
 - Delete the specified alarms:
 
-`aws cloudwatch delete-alarms --alarm_names {{alarm_names}}`
+`aws cloudwatch delete-alarms --alarm-names {{alarm_names}}`
 
 - Delete the specified dashboards:
 

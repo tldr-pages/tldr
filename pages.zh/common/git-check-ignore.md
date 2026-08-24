@@ -1,7 +1,7 @@
 # git check-ignore
 
-> 分析和调试 Git 忽略规则（.gitignore 文件）。
-> 更多信息：<https://git-scm.com/docs/git-check-ignore>.
+> 分析和调试 Git 忽略规则（`.gitignore` 文件）。
+> 更多信息：<https://git-scm.com/docs/git-check-ignore>。
 
 - 检查文件或目录是否被忽略：
 
@@ -13,7 +13,7 @@
 
 - 从标准输入读取路径列表（每行一个路径）：
 
-`git check-ignore --stdin < {{路径/到/文件列表}}`
+`git < {{路径/到/文件列表}} check-ignore --stdin`
 
 - 不检查索引（用于调试为何某些路径被跟踪而非忽略）：
 

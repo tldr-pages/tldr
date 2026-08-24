@@ -4,11 +4,15 @@
 > Use `<ArrowKeys>` to navigate. `<ArrowRight>` and `<ArrowLeft>` to view and return from a submission, respectively.
 > More information: <https://github.com/michael-lazar/rtv>.
 
-- Open the front page:
+- Start an interactive session:
+
+`rtv`
+
+- [Interactive] Open the front page:
 
 `/front`
 
-- Open a subreddit:
+- [Interactive] Open a subreddit:
 
 `/r/{{subreddit_name}}`
 

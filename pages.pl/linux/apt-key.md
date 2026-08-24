@@ -2,7 +2,7 @@
 
 > Narzędzie do zarządzania kluczami menedżera pakietów APT dla Debiana i Ubuntu.
 > Notatka: `apt-key` jest aktualnie przestarzały (za wyjątkiem użycia `apt-key del` w skryptach opiekunów).
-> Więcej informacji: <https://manned.org/apt-key.8>.
+> Więcej informacji: <https://manned.org/apt-key>.
 
 - Wyświetl zaufane klucze:
 
@@ -18,7 +18,7 @@
 
 - Dodaj zdalny klucz do magazynu zaufanych kluczy:
 
-`wget -qO - {{https://host.tld/nazwa_pliku.key}} | apt-key add -`
+`wget {{[-qO|--quiet --output-document]}} - {{https://host.tld/nazwa_pliku.key}} | apt-key add -`
 
 - Dodaj klucz z serwera kluczy na podstawie ID klucza:
 

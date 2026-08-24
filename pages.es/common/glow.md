@@ -1,7 +1,7 @@
 # glow
 
 > Muestra archivos en formato Markdown en la terminal.
-> Más información: <https://github.com/charmbracelet/glow>.
+> Más información: <https://manned.org/glow>.
 
 - Ejecuta glow y selecciona un archivo para ver:
 
@@ -13,7 +13,7 @@
 
 - Muestra un archivo en formato Markdown usando un paginador:
 
-`glow -p {{ruta/al/archivo}}`
+`glow {{[-p|--pager]}} {{ruta/al/archivo}}`
 
 - Muestra un archivo desde una URL:
 

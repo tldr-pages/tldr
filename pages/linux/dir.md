@@ -1,25 +1,7 @@
 # dir
 
-> List directory contents using one line per file, special characters are represented by backslash escape sequences.
-> Works as `ls -C --escape`.
-> More information: <https://manned.org/dir>.
+> This command is an alias of `ls -C --escape`.
 
-- List all files, including hidden files:
+- View documentation for the original command:
 
-`dir {{[-a|--all]}}`
-
-- List files including their author (`-l` is required):
-
-`dir -l --author`
-
-- List files excluding those that match a specified blob pattern:
-
-`dir --hide {{pattern}}`
-
-- List subdirectories recursively:
-
-`dir {{[-R|--recursive]}}`
-
-- Display help:
-
-`dir --help`
+`tldr ls`

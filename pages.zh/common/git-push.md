@@ -1,7 +1,7 @@
 # git push
 
 > 推送提交到远程仓库。
-> 更多信息：<https://git-scm.com/docs/git-push>.
+> 更多信息：<https://git-scm.com/docs/git-push>。
 
 - 将当前分支的本地更改推送到其默认的远程对应分支：
 

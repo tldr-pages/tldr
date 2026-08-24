@@ -1,7 +1,7 @@
 # netlify
 
 > Netlify 플랫폼에 사이트를 배포하고 지속적 배포를 설정.
-> 더 많은 정보: <https://cli.netlify.com>.
+> 더 많은 정보: <https://cli.netlify.com/>.
 
 - Netlify 계정에 로그인:
 

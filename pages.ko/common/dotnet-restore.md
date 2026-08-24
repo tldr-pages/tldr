@@ -13,7 +13,7 @@
 
 - HTTP 요청을 캐시하지 않고 의존성 복원:
 
-`dotnet restore --no-cache`
+`dotnet restore --no-http-cache`
 
 - 마지막 복원이 성공했더라도 모든 의존성을 강제로 해결:
 
@@ -25,4 +25,4 @@
 
 - 특정 상세 수준으로 의존성 복원:
 
-`dotnet restore --verbosity {{quiet|minimal|normal|detailed|diagnostic}}`
+`dotnet restore {{[-v|--verbosity]}} {{quiet|minimal|normal|detailed|diagnostic}}`

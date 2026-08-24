@@ -11,6 +11,6 @@
 
 `ipsumdump --interface {{eth0}} -tsSdDp`
 
-- Print the anonymised source address, anonymised destination address, and IP packet length of all packets in a PCAP file:
+- Print the anonymized source address, anonymized destination address, and IP packet length of all packets in a PCAP file:
 
 `ipsumdump --src --dst --length --anonymize {{path/to/file.pcap}}`

@@ -1,7 +1,7 @@
 # incus
 
 > Contenedor de sistemas y gestor de máquinas virtuales moderno, seguro y potente.
-> Más información: <https://linuxcontainers.org/incus/docs/main>.
+> Más información: <https://linuxcontainers.org/incus/docs/main/>.
 
 - Lista todos los contenedores y máquinas virtuales (tanto en ejecución como detenidas):
 

@@ -1,7 +1,7 @@
 # trufflehog
 
 > Find and verify credentials in files, Git repositories, S3 buckets, and Docker images.
-> More information: <https://github.com/trufflesecurity/trufflehog>.
+> More information: <https://github.com/trufflesecurity/trufflehog#memo-usage>.
 
 - Scan a Git repository for verified secrets:
 

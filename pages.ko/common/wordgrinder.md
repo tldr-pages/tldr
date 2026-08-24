@@ -1,7 +1,7 @@
 # wordgrinder
 
 > 명령줄 워드 프로세서.
-> 더 많은 정보: <https://cowlark.com/wordgrinder>.
+> 더 많은 정보: <https://cowlark.com/wordgrinder/>.
 
 - WordGrinder 시작 (기본적으로 빈 문서를 로드함):
 

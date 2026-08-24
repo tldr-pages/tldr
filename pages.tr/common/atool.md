@@ -7,7 +7,7 @@
 
 `atool --list {{arşiv.zip/dosyasının/yolu}}`
 
-- Bir tar.gz arşivini yeni bir alt dizine (veya yalnızca bir dosya içeriyorsa geçerli dizine) çıkart:
+- Bir `.tar.gz` arşivini yeni bir alt dizine (veya yalnızca bir dosya içeriyorsa geçerli dizine) çıkart:
 
 `atool --extract {{arşiv.tar.gz/dosyasının/yolu}}`
 

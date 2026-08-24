@@ -1,6 +1,7 @@
 # sudo
 
 > Esegue un singolo comando come superuser o come un altro utente.
+> Vedi anche: `pkexec`, `run0`, `doas`.
 > Maggiori informazioni: <https://www.sudo.ws/sudo.html>.
 
 - Esegui un comando come superuser:

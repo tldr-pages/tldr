@@ -1,7 +1,7 @@
 # kubectl edit
 
 > Edit Kubernetes resources.
-> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_edit>.
+> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_edit/>.
 
 - Edit a pod in the default namespace:
 

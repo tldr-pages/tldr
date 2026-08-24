@@ -1,7 +1,7 @@
 # git switch
 
 > Passa ad altri rami. Richiede versioni di Git successive alla 2.23.
-> Vedi anche `git checkout`.
+> Vedi anche: `git checkout`.
 > Maggiori informazioni: <https://git-scm.com/docs/git-switch>.
 
 - Passa ad un altro ramo esistente:

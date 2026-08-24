@@ -1,6 +1,7 @@
 # more
 
 > Aprire un file per la lettura interattiva, con scorrimento e ricerca.
+> Vedi anche: `less`.
 > Maggiori informazioni: <https://manned.org/more.1p>.
 
 - Apri un file:

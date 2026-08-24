@@ -9,7 +9,7 @@
 
 - 두 커밋의 모든 최상의 공통 조상을 출력:
 
-`git merge-base --all {{commit_1}} {{commit_2}}`
+`git merge-base {{[-a|--all]}} {{commit_1}} {{commit_2}}`
 
 - 특정 커밋이 다른 커밋의 조상인지 확인:
 

@@ -1,7 +1,7 @@
 # aws lightsail
 
 > Amazon Lightsail 리소스 관리.
-> 더 많은 정보: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/lightsail/index.html>.
+> 더 많은 정보: <https://docs.aws.amazon.com/cli/latest/reference/lightsail/>.
 
 - 모든 가상 사설 서버 또는 인스턴스를 나열:
 

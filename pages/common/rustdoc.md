@@ -1,7 +1,7 @@
 # rustdoc
 
 > Generate documentation for a Rust crate.
-> More information: <https://doc.rust-lang.org/stable/rustdoc>.
+> More information: <https://doc.rust-lang.org/stable/rustdoc/>.
 
 - Generate documentation from the crate's root:
 
@@ -17,4 +17,8 @@
 
 - Specify the output directory:
 
-`rustdoc {{src/lib.rs}} --out-dir {{path/to/output_directory}}`
+`rustdoc {{src/lib.rs}} {{[-o|--out-dir]}} {{path/to/output_directory}}`
+
+- Display help:
+
+`rustdoc {{[-h|--help]}}`

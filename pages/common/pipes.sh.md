@@ -1,7 +1,8 @@
 # pipes.sh
 
 > A Bash script which draws randomly pathed pipes over the terminal.
-> More information: <https://github.com/pipeseroni/pipes.sh>.
+> See also: `cmatrix`, `cbonsai`, `asciiquarium`.
+> More information: <https://github.com/pipeseroni/pipes.sh#options>.
 
 - Change the pa[t]tern of the pipes:
 

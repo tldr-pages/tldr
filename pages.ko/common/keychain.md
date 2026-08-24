@@ -1,7 +1,7 @@
 # keychain
 
 > ssh-agent 및/또는 gpg-agent를 로그인 간에 재사용.
-> 더 많은 정보: <https://funtoo.org/Keychain>.
+> 더 많은 정보: <https://www.funtoo.org/Keychain>.
 
 - 실행 중인 ssh-agent를 확인하고 필요한 경우 시작:
 

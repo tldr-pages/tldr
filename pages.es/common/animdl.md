@@ -2,7 +2,7 @@
 
 > Recolector eficiente y veloz de datos de anime.
 > Vea también: `ani-cli`.
-> Más información: <https://github.com/justfoolingaround/animdl>.
+> Más información: <https://github.com/justfoolingaround/animdl#usage>.
 
 - Descarga un anime específico:
 

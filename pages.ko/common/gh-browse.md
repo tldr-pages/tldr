@@ -13,11 +13,11 @@
 
 - 현재 저장소의 설정 페이지를 기본 웹 브라우저에서 열기:
 
-`gh browse --settings`
+`gh browse {{[-s|--settings]}}`
 
 - 현재 저장소의 위키를 기본 웹 브라우저에서 열기:
 
-`gh browse --wiki`
+`gh browse {{[-w|--wiki]}}`
 
 - 특정 이슈나 풀 리퀘스트를 웹 브라우저에서 열기:
 
@@ -25,7 +25,7 @@
 
 - 특정 브랜치를 웹 브라우저에서 열기:
 
-`gh browse --branch {{브랜치_이름}}`
+`gh browse {{[-b|--branch]}} {{브랜치_이름}}`
 
 - 현재 저장소의 특정 파일이나 디렉토리를 웹 브라우저에서 열기:
 
@@ -33,4 +33,4 @@
 
 - 웹 브라우저를 열지 않고 URL 출력:
 
-`gh browse --no-browser`
+`gh browse {{[-n|--no-browser]}}`

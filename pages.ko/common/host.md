@@ -1,6 +1,7 @@
 # host
 
 > 도메인 네임 서버 조회.
+> 관련 항목: `dig`, `resolvectl`, `nslookup`.
 > 더 많은 정보: <https://manned.org/host>.
 
 - 도메인의 A, AAAA 및 MX 레코드 조회:

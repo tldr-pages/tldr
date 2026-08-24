@@ -2,7 +2,8 @@
 
 > alias （コマンド文字列を置き換える別名）を作成します。
 > alias は `~/.bashrc` などの shell の設定ファイルで定義されない限り、現在のセッションで失効します。
-> もっと詳しく: <https://www.gnu.org/software/bash/manual/bash.html#index-alias>。
+> 参照: `unalias`。
+> 詳細情報: <https://www.gnu.org/software/bash/manual/bash.html#index-alias>。
 
 - alias の一覧表示:
 
@@ -22,8 +23,8 @@
 
 - `rm` を対話型にする:
 
-`alias {{rm}}="{{rm -i}}"`
+`alias rm="rm -i"`
 
 - `ls -a` のショートカットして `la` を作成する:
 
-`alias {{la}}="{{ls -a}}"`
+`alias la="ls -a"`

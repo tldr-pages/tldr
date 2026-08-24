@@ -25,7 +25,7 @@
 
 - Restablece el recuento de aplicaciones utilizadas (directorio de caché por defecto: `$XDG_CACHE_HOME/fuzzel`):
 
-`rm -v $HOME/.cache/fuzzel`
+`rm {{[-v|--verbose]}} $HOME/.cache/fuzzel`
 
 - Inicia `fuzzel` en un monitor específico, vea `wlr-randr` o `swaymsg -t get_outputs`:
 
@@ -33,4 +33,4 @@
 
 - Utilice `fuzzel` para realizar una búsqueda en línea:
 
-`fuzzel {{[-d|--dmenu]}} {{[-l|--lines]}} 0 --placeholder "{{Escriba su búsqueda}}" | sed 's/^/\«/g;s/$/\»/g' | xargs firefox --search`
+`fuzzel {{[-d|--dmenu]}} {{[-l|--lines]}} 0 --placeholder "{{Escriba su búsqueda}}" | sed 's/^/\"/g;s/$/\"/g' | xargs firefox --search`

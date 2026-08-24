@@ -1,7 +1,7 @@
 # wikit
 
 > Um programa de linha de comando para obter resumos da Wikipédia facilmente.
-> Mais informações: <https://github.com/KorySchneider/wikit>.
+> Mais informações: <https://github.com/KorySchneider/wikit#usage>.
 
 - Mostra um pequeno resumo de um tópico específico da Wikipédia:
 
@@ -9,7 +9,7 @@
 
 - Especifica uma linguagem (código de linguagem ISO 639-1):
 
-`wikit {{tópico}} --lang {{código_de_linguagem}}`
+`wikit {{tópico}} {{[-l|--lang]}} {{código_de_linguagem}}`
 
 - Abre o artigo completo no navegador padrão:
 

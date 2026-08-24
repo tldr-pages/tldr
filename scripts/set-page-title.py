@@ -16,7 +16,7 @@ Options:
     -S, --sync
         Synchronize each translation's title (if exists) with that of the English page.
     -l, --language LANGUAGE
-        Specify the language, a POSIX Locale Name in the form of "ll" or "ll_CC" (e.g. "fr" or "pt_BR").
+        Specify the language in the form of "ll" or "ll_CC" (e.g. "fr" or "pt_BR").
     -s, --stage
         Stage modified pages (requires 'git' on $PATH and TLDR_ROOT to be a Git repository).
     -n, --dry-run
@@ -47,12 +47,13 @@ Examples:
        python3 scripts/set-page-title.py --sync --dry-run
 """
 
+import sys
 from pathlib import Path
 from _common import (
     IGNORE_FILES,
     Colors,
     get_tldr_root,
-    get_pages_dir,
+    get_pages_dirs,
     get_target_paths,
     get_locale,
     get_status,
@@ -167,8 +168,13 @@ def main():
     parser.add_argument("title", type=str, nargs="?", default="")
     args = parser.parse_args()
 
+    # Print usage information if no arguments were provided
+    if len(sys.argv) == 1:
+        parser.print_help()
+        return
+
     root = get_tldr_root()
-    pages_dirs = get_pages_dir(root)
+    pages_dirs = get_pages_dirs(root)
 
     target_paths = []
 

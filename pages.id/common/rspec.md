@@ -1,7 +1,7 @@
 # rspec
 
 > Kerangka pengujian kode Ruby berbasis Ruby dan pola pengembangan berbasis kebiasaan (behavior-driven development).
-> Informasi lebih lanjut: <https://rspec.info>.
+> Informasi lebih lanjut: <https://rspec.info/features/3-13/rspec-core/command-line/>.
 
 - Buat suatu berkas konfigurasi `.rspec` dan berkas pendukung spesifikasi pengujian (spec helper):
 

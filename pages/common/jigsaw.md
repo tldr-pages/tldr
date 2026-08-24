@@ -1,7 +1,7 @@
 # jigsaw
 
 > A Laravel-based static site builder for PHP.
-> More information: <https://jigsaw.tighten.co>.
+> More information: <https://jigsaw.tighten.co/>.
 
 - Initialize a project:
 

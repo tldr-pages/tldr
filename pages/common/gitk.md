@@ -1,7 +1,7 @@
 # gitk
 
 > Browse Git repositories graphically.
-> See also: `git-gui`, `git-cola`, `tig`.
+> See also: `git gui`, `git cola`, `tig`.
 > More information: <https://git-scm.com/docs/gitk>.
 
 - Show the repository browser for the current Git repository:
@@ -14,11 +14,11 @@
 
 - Show commits made since 1 week ago:
 
-`gitk --since="{{1 week ago}}"`
+`gitk --since="1 week ago"`
 
-- Show commits older than 1/1/2016:
+- Show commits older than 1/1/2015:
 
-`gitk --until="{{1/1/2015}}"`
+`gitk --until="1/1/2015"`
 
 - Show at most 100 changes in all branches:
 

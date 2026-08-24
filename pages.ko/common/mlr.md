@@ -1,7 +1,7 @@
 # mlr
 
 > Miller는 CSV, TSV 및 표 형식 JSON과 같은 이름으로 색인된 데이터를 위한 `awk`, `sed`, `cut`, `join`, `sort`와 유사합니다.
-> 더 많은 정보: <https://miller.readthedocs.io>.
+> 더 많은 정보: <https://miller.readthedocs.io/en/latest/manpage/>.
 
 - CSV 파일을 표 형식으로 보기 좋게 출력:
 

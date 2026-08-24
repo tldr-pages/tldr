@@ -1,7 +1,7 @@
 # gopass
 
 > 팀을 위한 표준 Unix 비밀번호 관리자. Go 언어로 작성됨.
-> 더 많은 정보: <https://www.gopass.pw>.
+> 더 많은 정보: <https://github.com/gopasspw/gopass/tree/master/docs/commands>.
 
 - 구성 설정을 초기화:
 

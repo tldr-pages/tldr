@@ -1,7 +1,7 @@
 # aws s3 presign
 
 > Generate pre-signed URLs for Amazon S3 objects.
-> More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/presign.html>.
+> More information: <https://docs.aws.amazon.com/cli/latest/reference/s3/presign.html>.
 
 - Generate a pre-signed URL for a specific S3 object that is valid for one hour:
 

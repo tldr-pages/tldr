@@ -1,6 +1,7 @@
 # dmesg
 
 > Escribe los mensajes del núcleo a la salida estándar.
+> Vea también: `journalctl`.
 > Más información: <https://manned.org/dmesg>.
 
 - Muestra los mensajes del núcleo:

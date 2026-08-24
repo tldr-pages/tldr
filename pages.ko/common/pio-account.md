@@ -5,7 +5,7 @@
 
 - 새 PlatformIO 계정 등록:
 
-`pio account register --username {{사용자이름}} --email {{이메일}} --password {{비밀번호}} --firstname {{이름}} --lastname {{성}}`
+`pio account register {{[-u|--username]}} {{사용자이름}} {{[-e|--email]}} {{이메일}} {{[-p|--password]}} {{비밀번호}} --firstname {{이름}} --lastname {{성}}`
 
 - PlatformIO 계정 및 관련 데이터 영구 삭제:
 
@@ -13,7 +13,7 @@
 
 - PlatformIO 계정에 로그인:
 
-`pio account login --username {{사용자이름}} --password {{비밀번호}}`
+`pio account login {{[-u|--username]}} {{사용자이름}} {{[-p|--password]}} {{비밀번호}}`
 
 - PlatformIO 계정에서 로그아웃:
 
@@ -21,7 +21,7 @@
 
 - PlatformIO 프로필 업데이트:
 
-`pio account update --username {{사용자이름}} --email {{이메일}} --firstname {{이름}} --lastname {{성}} --current-password {{비밀번호}}`
+`pio account update {{[-u|--username]}} {{사용자이름}} {{[-e|--email]}} {{이메일}} --firstname {{이름}} --lastname {{성}} --current-password {{비밀번호}}`
 
 - PlatformIO 계정에 대한 자세한 정보 표시:
 
@@ -29,4 +29,4 @@
 
 - 사용자 이름이나 이메일을 사용하여 비밀번호 재설정:
 
-`pio account forgot --username {{사용자이름_또는_이메일}}`
+`pio account forgot {{[-u|--username]}} {{사용자이름_또는_이메일}}`

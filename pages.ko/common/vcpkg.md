@@ -2,7 +2,7 @@
 
 > C/C++ 라이브러리를 위한 패키지 관리자.
 > 참고: 패키지는 시스템에 설치되지 않습니다. 사용하려면 빌드 시스템(예: CMake)에 `vcpkg`를 사용하도록 지정해야 합니다.
-> 더 많은 정보: <https://learn.microsoft.com/en-us/vcpkg/>.
+> 더 많은 정보: <https://learn.microsoft.com/vcpkg/>.
 
 - `vcpkg` 환경에 `libcurl` 패키지를 빌드하고 추가:
 

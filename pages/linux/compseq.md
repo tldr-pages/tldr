@@ -23,7 +23,7 @@
 
 `compseq -sequence {{path/to/input_rna.fasta}} -word 3 {{path/to/output_file.comp}} -nozero -frame 3`
 
-- Count amino acid triplets in a FASTA file and compare to a previous run of `compseq` to calculate expected and normalised frequency values:
+- Count amino acid triplets in a FASTA file and compare to a previous run of `compseq` to calculate expected and normalized frequency values:
 
 `compseq -sequence {{path/to/human_proteome.fasta}} -word 3 {{path/to/output_file1.comp}} -nozero -infile {{path/to/output_file2.comp}}`
 

@@ -15,9 +15,9 @@
 
 `wmic process list full`
 
-- Access specific fields such as process name, process ID and parent process ID:
+- Access specific fields such as process name, process ID, and parent process ID:
 
-`wmic process get {{name,processid,parentprocessid}}`
+`wmic process get {{name,process_id,parent_process_id}}`
 
 - Display information about a specific process:
 

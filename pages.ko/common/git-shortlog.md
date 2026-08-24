@@ -21,8 +21,8 @@
 
 - 현재 브랜치에서 모든 사용자, 이메일 및 커밋 수 요약 보기:
 
-`git shortlog {{[-s|--summary]}} {{[-n|--numbered]}} {{[-e|--email]}}`
+`git shortlog {{[-sne|--summary --numbered --email]}}`
 
 - 모든 브랜치에서 모든 사용자, 이메일 및 커밋 수 요약 보기:
 
-`git shortlog {{[-s|--summary]}} {{[-n|--numbered]}} {{[-e|--email]}} --all`
+`git shortlog {{[-sne|--summary --numbered --email]}} --all`

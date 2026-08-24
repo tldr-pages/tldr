@@ -3,9 +3,13 @@
 > Install Python packages.
 > More information: <https://pip.pypa.io/en/stable/cli/pip_install/>.
 
-- Install a package:
+- Install one or more packages:
 
-`pip install {{package}}`
+`pip install {{package1 package2 ...}}`
+
+- Upgrade all specified packages to the latest version, installing any that are not already present:
+
+`pip install {{package1 package2 ...}} {{[-U|--upgrade]}}`
 
 - Install a specific version of a package:
 
@@ -15,9 +19,17 @@
 
 `pip install {{[-r|--requirement]}} {{path/to/requirements.txt}}`
 
-- Install packages from an URL or local file archive (e.g. `.tar.gz`, `.whl`):
+- Install a package from a local archive or directory:
 
-`pip install {{[-f|--find-links]}} {{url|path/to/file}}`
+`pip install {{path/to/file.whl|path/to/file.tar.gz|path/to/directory}}`
+
+- Install a package from a Git repository:
+
+`pip install git+https://{{example.com}}/{{user}}/{{repository}}.git`
+
+- Install a package from an alternative source (URL or directory) instead of PyPI:
+
+`pip install {{[-f|--find-links]}} {{url|path/to/directory}} {{package}}`
 
 - Install the local package in the current directory in develop (editable) mode:
 

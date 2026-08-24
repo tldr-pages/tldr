@@ -9,7 +9,7 @@
 
 - Zeige das aktuelle Datum in koordinierter Weltzeit (UTC) im ISO 8601-Format an:
 
-`date -u +%Y-%m-%dT%H:%M:%S%Z`
+`date {{[-u|--utc]}} +%Y-%m-%dT%H:%M:%S%Z`
 
 - Zeige das aktuelle Datum in Unixzeit (vergangene Sekunden seit der Unix-Epoche) an:
 
@@ -17,11 +17,11 @@
 
 - Konvertiere ein in Unixzeit gegebenes Datum zum Standardformat:
 
-`date -d @{{1473305798}}`
+`date {{[-d|--date]}} @{{1473305798}}`
 
 - Konvertiere ein gegebenes Datum zu Unixzeit:
 
-`date -d "{{2018-09-01 00:00}}" +%s --utc`
+`date {{[-d|--date]}} "{{2018-09-01 00:00}}" +%s {{[-u|--utc]}}`
 
 - Zeige das aktuelle Datum im RFC-3339 Format (`YYYY-MM-DD hh:mm:ss TZ`) an:
 

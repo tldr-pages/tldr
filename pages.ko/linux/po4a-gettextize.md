@@ -1,7 +1,7 @@
 # po4a-gettextize
 
 > 파일을 PO 파일로 변환합니다.
-> 더 많은 정보: <https://po4a.org/man/man1/po4a-gettextize.1.php>.
+> 더 많은 정보: <https://www.po4a.org/man/man1/po4a-gettextize.1.php>.
 
 - 텍스트 파일을 PO 파일로 변환:
 

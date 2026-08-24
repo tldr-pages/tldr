@@ -9,24 +9,24 @@
 
 - Tüm ekranın ekran görüntüsünü al ve nasıl devam edileceğini belirlemek adına grafik arayüzünü başlat:
 
-`xfce4-screenshooter --fullscreen`
+`xfce4-screenshooter {{[-f|--fullscreen]}}`
 
 - Tüm ekranın ekran görüntüsünü al ve görüntüyü belirtilen dizine kaydet:
 
-`xfce4-screenshooter --fullscreen --save {{örnek/dizin}}`
+`xfce4-screenshooter {{[-f|--fullscreen]}} {{[-s|--save]}} {{örnek/dizin}}`
 
 - Ekran görüntüsünü çekmeden önce belli bir süre bekle:
 
-`xfce4-screenshooter --delay {{saniye_miktarı}}`
+`xfce4-screenshooter {{[-d|--delay]}} {{saniye_miktarı}}`
 
 - Ekranın (fare ile seçilecek) belli bir bölümünün görüntüsünü al:
 
-`xfce4-screenshooter --region`
+`xfce4-screenshooter {{[-r|--region]}}`
 
 - Üzerinde bulunulan pencerenin görüntüsünü al ve panoya kopyala:
 
-`xfce4-screenshooter --window --clipboard`
+`xfce4-screenshooter {{[-w|--window]}} {{[-c|--clipboard]}}`
 
 - Üzerinde bulunulan pencerenin görüntüsünü qal ve seçilen bir program ile aç:
 
-`xfce4-screenshooter --window --open {{gimp}}`
+`xfce4-screenshooter {{[-w|--window]}} {{[-o|--open]}} {{gimp}}`

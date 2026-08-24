@@ -30,3 +30,7 @@
 - List repositories with a specific primary coding language:
 
 `gh repo {{[ls|list]}} {{owner}} {{[-l|--language]}} {{language_name}}`
+
+- Sync the current local repository with its upstream:
+
+`gh repo sync`

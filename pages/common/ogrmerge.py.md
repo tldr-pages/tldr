@@ -1,7 +1,7 @@
 # ogrmerge.py
 
 > Merge several vector datasets into a single one.
-> More information: <https://gdal.org/programs/ogrmerge.html>.
+> More information: <https://gdal.org/en/stable/programs/ogrmerge.html>.
 
 - Create a GeoPackage with a layer for each input Shapefile:
 

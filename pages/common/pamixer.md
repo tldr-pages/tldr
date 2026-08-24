@@ -13,7 +13,7 @@
 
 - Toggle mute on a sink other than the default:
 
-`pamixer --toggle-mute --sink {{ID}}`
+`pamixer --toggle-mute --sink {{id}}`
 
 - Increase the volume on default sink by 5%:
 
@@ -21,7 +21,7 @@
 
 - Decrease the volume on a source by 5%:
 
-`pamixer {{[-d|--decrease]}} {{5}} --source {{ID}}`
+`pamixer {{[-d|--decrease]}} {{5}} --source {{id}}`
 
 - Use the allow boost option to increase, decrease, or set the volume above 100%:
 

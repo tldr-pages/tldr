@@ -1,7 +1,7 @@
 # spark
 
 > Laravel Spark 명령줄 도구.
-> 더 많은 정보: <https://spark.laravel.com>.
+> 더 많은 정보: <https://spark.laravel.com/>.
 
 - API 토큰 등록:
 

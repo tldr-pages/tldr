@@ -2,7 +2,7 @@
 
 > Manipulate or query the Nix store.
 > See also: `nix store.3`.
-> More information: <https://nixos.org/manual/nix/stable/command-ref/nix-store.html>.
+> More information: <https://nix.dev/manual/nix/stable/command-ref/nix-store.html>.
 
 - Collect garbage, such as removing unused paths:
 

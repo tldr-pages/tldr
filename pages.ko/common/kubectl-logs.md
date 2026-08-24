@@ -1,7 +1,7 @@
 # kubectl logs
 
 > 컨테이너의 로그를 조회하는 도구.
-> 더 많은 정보: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_logs>.
+> 더 많은 정보: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_logs/>.
 
 - 단일 컨테이너가 있는 파드의 로그 조회:
 

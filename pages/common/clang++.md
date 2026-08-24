@@ -2,7 +2,7 @@
 
 > Compile C++ source files.
 > Part of LLVM.
-> More information: <https://clang.llvm.org>.
+> More information: <https://clang.llvm.org/docs/UsersManual.html#command-line-options>.
 
 - Compile a set of source code files into an executable binary:
 

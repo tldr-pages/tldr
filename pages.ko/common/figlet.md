@@ -1,8 +1,8 @@
 # figlet
 
 > 사용자 입력에서 ASCII 배너를 생성.
-> 참고: `showfigfonts`.
-> 더 많은 정보: <http://www.figlet.org/figlet-man.html>.
+> 관련 항목: `showfigfonts`.
+> 더 많은 정보: <https://www.figlet.org/figlet-man.html>.
 
 - 텍스트를 직접 입력하여 생성:
 
@@ -10,11 +10,11 @@
 
 - 사용자 정의 폰트([f]ont) 파일을 사용:
 
-`figlet {{입력_문자열}} -f {{경로/대상/폰트_파일.flf}}`
+`figlet -f {{경로/대상/폰트_파일.flf}} {{입력_문자열}}`
 
 - 기본 글꼴 디렉토리의 폰트([f]ont)를 사용 (확장자는 생략 가능):
 
-`figlet {{입력_문자열}} -f {{폰트_파일이름}}`
+`figlet -f {{폰트_파일이름}} {{입력_문자열}}`
 
 - FIGlet을 통한 파이프 명령 출력:
 

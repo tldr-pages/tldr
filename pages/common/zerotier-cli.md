@@ -1,6 +1,7 @@
 # zerotier-cli
 
 > Control the local ZeroTier virtual network service.
+> See also: `zerotier-idtool`, `zerotier-one`.
 > More information: <https://github.com/zerotier/ZeroTierOne/blob/main/doc/zerotier-cli.1.md>.
 
 - Join a network:

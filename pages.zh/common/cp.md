@@ -1,7 +1,7 @@
 # cp
 
 > 复制文件和目录。
-> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
+> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>。
 
 - 将文件复制到另一个位置：
 
@@ -31,6 +31,6 @@
 
 `cp {{[-L|--dereference]}} {{链接}} {{路径/到/目标_目录}}`
 
-- 使用第一个参数作为目标目录（对于 `xargs ... | cp -t <目标_目录>` 这样的命令非常有用）：
+- 使用第一个参数作为目标目录（对于 `xargs ... | cp -t 目标_目录` 这样的命令非常有用）：
 
 `cp {{[-t|--target-directory]}} {{路径/到/目标目录}} {{路径/到/文件或目录1 路径/到/文件或目录2 ...}}`

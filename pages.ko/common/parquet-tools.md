@@ -1,7 +1,7 @@
 # parquet-tools
 
 > Parquet 파일을 표시하고 검사하며 조작.
-> 더 많은 정보: <https://github.com/apache/parquet-mr>.
+> 더 많은 정보: <https://github.com/apache/parquet-java>.
 
 - Parquet 파일 내용 표시:
 

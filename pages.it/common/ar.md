@@ -1,6 +1,7 @@
 # ar
 
 > Crea, modifica ed estrai da archivi (`.a`, `.so`, `.o`).
+> Vedi anche: `tar`.
 > Maggiori informazioni: <https://manned.org/ar>.
 
 - Estrai ([x]) tutti i membri da un archivio:

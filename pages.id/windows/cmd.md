@@ -7,17 +7,17 @@
 
 `cmd`
 
-- Jalankan suatu perintah ([c]ommand):
+- Jalankan kumpulan perintah secara spesifik:
 
-`cmd /c {{echo Halo dunia}}`
+`cmd /c {{echo 'perintah cmd telah dijalankan'}}`
 
-- Jalankan kumpulan perintah dalam suatu berkas skrip:
+- Jalankan suatu naskah/skrip perintah:
 
 `cmd {{jalan\menuju\skrip.bat}}`
 
 - Jalankan kumpulan perintah spesifik dan kemudian jalankan suatu sesi syel interaktif:
 
-`cmd /k {{echo Halo dunia}}`
+`cmd /k {{echo 'perintah cmd telah dijalankan'}}`
 
 - Jalankan suatu sesi syel interaktif di mana fungsi `echo` dimatikan dalam luaran perintah:
 
@@ -31,6 +31,6 @@
 
 `cmd /e:{{on|off}}`
 
-- Jalankan suatu sesi shell interaktif dengan menggunakan [u]nicode sebagai metode pengkodean luaran teks:
+- Jalankan suatu sesi shell interaktif dengan menggunakan [u]nicode sebagai format penulisan luaran teks:
 
 `cmd /u`

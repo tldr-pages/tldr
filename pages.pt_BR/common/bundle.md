@@ -17,11 +17,11 @@
 
 - Atualiza uma ou mais gema(s) específicas definidas no `Gemfile`:
 
-`bundle update {{nome_da_gema1}} {{nome_da_gema2}}`
+`bundle update {{nome_da_gema1 nome_da_gema2 ...}}`
 
 - Atualiza uma ou mais gema(s) específicas definidas no `Gemfile` mas somente para a próxima versão de patch:
 
-`bundle update --patch {{nome_da_gema1}} {{nome_da_gema2}}`
+`bundle update --patch {{nome_da_gema1 nome_da_gema2 ...}}`
 
 - Atualiza todas as gemas do grupo especificado no `Gemfile`:
 

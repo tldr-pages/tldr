@@ -2,7 +2,7 @@
 
 > Configure and control `bspwm`, managing nodes, desktops, monitors, and more.
 > See also: `bspwm`.
-> More information: <https://github.com/baskerville/bspwm>.
+> More information: <https://github.com/baskerville/bspwm/blob/master/doc/bspwm.1.asciidoc>.
 
 - Define two virtual desktops:
 

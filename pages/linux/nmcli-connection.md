@@ -3,7 +3,7 @@
 > Manage connections with NetworkManager.
 > More information: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html#connection>.
 
-- List all NetworkManager connections (shows name, UUID, type and device):
+- List all NetworkManager connections (shows name, UUID, type, and device):
 
 `nmcli {{[c|connection]}}`
 

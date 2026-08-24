@@ -1,7 +1,7 @@
 # pm
 
 > Android デバイスに関連するアプリケーションの情報を表示します。
-> もっと詳しく: <https://developer.android.com/tools/adb#pm>。
+> 詳細情報: <https://developer.android.com/tools/adb#pm>。
 
 - インストールされたすべてのアプリケーションを表示します:
 

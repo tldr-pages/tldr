@@ -13,16 +13,16 @@
 
 - GPU를 사용하는 앱 나열:
 
-`SafeEjectGPU gpuid {{GPU_ID}} apps`
+`SafeEjectGPU gpuid {{gpu_id}} apps`
 
 - GPU의 상태 확인:
 
-`SafeEjectGPU gpuid {{GPU_ID}} status`
+`SafeEjectGPU gpuid {{gpu_id}} status`
 
 - GPU 제거:
 
-`SafeEjectGPU gpuid {{GPU_ID}} Eject`
+`SafeEjectGPU gpuid {{gpu_id}} Eject`
 
 - GPU에서 앱 실행:
 
-`SafeEjectGPU gpuid {{GPU_ID}} LaunchOnGPU {{경로/대상/App.app}}`
+`SafeEjectGPU gpuid {{gpu_id}} LaunchOnGPU {{경로/대상/App.app}}`

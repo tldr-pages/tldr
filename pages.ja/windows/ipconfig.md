@@ -1,7 +1,7 @@
 # ipconfig
 
 > Windowsのネットワーク構成を表示および管理します。
-> もっと詳しく: <https://learn.microsoft.com/windows-server/administration/windows-commands/ipconfig>。
+> 詳細情報: <https://learn.microsoft.com/windows-server/administration/windows-commands/ipconfig>。
 
 - ネットワークアダプタのリストを表示します:
 

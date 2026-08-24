@@ -1,7 +1,7 @@
 # glab auth
 
 > Authenticate with a GitLab host.
-> More information: <https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/auth/index.md>.
+> More information: <https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/auth/_index.md>.
 
 - Log in with interactive prompt:
 

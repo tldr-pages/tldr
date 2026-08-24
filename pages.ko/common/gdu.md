@@ -1,7 +1,7 @@
 # gdu
 
 > 콘솔 인터페이스를 갖춘 디스크 사용량 분석.
-> 더 많은 정보: <https://github.com/dundee/gdu>.
+> 더 많은 정보: <https://github.com/dundee/gdu#usage>.
 
 - 현재 디렉터리의 디스크 사용량을 대화형으로 표시:
 
@@ -19,7 +19,7 @@
 
 `gdu --ignore-dirs {{경로/대상/디렉토리1,경로/대상/디렉토리2,...}}`
 
-- 정규식으로 경로를 무시:
+- `regex`를 사용해 경로를 무시:
 
 `gdu --ignore-dirs-pattern '{{.*[abc]+}}'`
 

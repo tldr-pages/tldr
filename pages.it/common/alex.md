@@ -4,7 +4,7 @@
 > Aiuta a trovare termini che favoriscono un certo genere, legati alla razza, religiosamente inappropriati, o simili termini non equi in un testo.
 > Maggiori informazioni: <https://github.com/get-alex/alex>.
 
-- Analizza testo da standard input:
+- Analizza testo da `stdin`:
 
 `echo {{Frase da analizzare}} | alex --stdin`
 

@@ -1,26 +1,27 @@
 # powershell
 
 > Shell de línea de comandos y lenguaje de scripting diseñado especialmente para la administración del sistema.
-> Este comando se refiere a la versión 5.1 de PowerShell y anteriores (también conocida como Windows PowerShell heredada). Para usar la versión más nueva y multiplataforma de PowerShell (también conocida como PowerShell Core), usa `pwsh` en lugar de `powershell`.
+> Este comando se refiere a la versión 5.1 de PowerShell y anteriores (también conocida como Windows PowerShell heredada).
+> Para usar la versión más nueva y multiplataforma de PowerShell (también conocida como PowerShell Core), usa `pwsh` en lugar de `powershell`.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/powershell>.
 
-- Iniciar una sesión interactiva de shell:
+- Inicia una sesión interactiva de shell:
 
 `powershell`
 
-- Iniciar una sesión interactiva de shell sin cargar configuraciones de inicio:
+- Inicia una sesión interactiva de shell sin cargar configuraciones de inicio:
 
 `powershell -NoProfile`
 
-- Ejecutar comandos específicos:
+- Ejecuta comandos específicos:
 
 `powershell -Command "{{echo 'powershell se está ejecutando'}}"`
 
-- Ejecutar un script específico:
+- Ejecuta un script específico:
 
 `powershell -File {{ruta/al/script.ps1}}`
 
-- Iniciar una sesión con una versión específica de PowerShell:
+- Inicia una sesión con una versión específica de PowerShell:
 
 `powershell -Version {{versión}}`
 

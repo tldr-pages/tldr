@@ -1,7 +1,7 @@
 # zint
 
 > 生成条形码和二维码。
-> 更多信息：<https://www.zint.org.uk/manual/chapter/4>.
+> 更多信息：<https://www.zint.org.uk/manual/chapter/4>。
 
 - 生成一个条形码并保存：
 

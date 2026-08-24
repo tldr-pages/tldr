@@ -1,6 +1,6 @@
 # sui client ptb
 
-> Create, sign and execute programmable transaction blocks.
+> Create, sign, and execute programmable transaction blocks.
 > More information: <https://docs.sui.io/references/cli/ptb>.
 
 - Call a Move function from a package and module:
@@ -19,6 +19,6 @@
 
 `sui client ptb --transfer-objects "[{{object_id}}]" @{{address}}`
 
-- Publish a Move package, and transfer the upgrade capability to sender:
+- Publish a Move package and transfer the upgrade capability to sender:
 
 `sui client ptb --move-call sui::tx_context::sender --assign sender --publish "." --assign upgrade_cap --transfer-objects "[upgrade_cap]" sender`

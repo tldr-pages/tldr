@@ -1,7 +1,7 @@
 # aws accessanalyzer
 
 > 잠재적인 보안 위험을 파악하기 위해, 리소스 정책을 분석하고 검토.
-> 더 많은 정보: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/accessanalyzer/index.html>.
+> 더 많은 정보: <https://docs.aws.amazon.com/cli/latest/reference/accessanalyzer/>.
 
 - 새로운 Access Analyzer 생성:
 

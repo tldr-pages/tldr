@@ -12,7 +12,7 @@
 
 `uname -mp`
 
-- Print kernel name, kernel release and kernel version:
+- Print kernel name, kernel release, and kernel version:
 
 `uname -srv`
 

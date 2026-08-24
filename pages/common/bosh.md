@@ -5,7 +5,7 @@
 
 - Create local alias for director in a specific environment:
 
-`bosh alias-env {{environment_name}} {{[-e|--environment]}} {{ip_address|URL}} --ca-cert {{ca_certificate}}`
+`bosh alias-env {{environment_name}} {{[-e|--environment]}} {{ip_address|url}} --ca-cert {{ca_certificate}}`
 
 - List environments:
 

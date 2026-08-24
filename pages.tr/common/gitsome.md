@@ -2,7 +2,7 @@
 
 > GitHub için gh komutuyla erişilebilen terminal tabanlı arayüz.
 > Ayrıca `git` komutları için menu tarzı otomatik tamamlanmış öneriler sunar.
-> Daha fazla bilgi için: <https://github.com/donnemartin/gitsome>.
+> Daha fazla bilgi için: <https://github.com/donnemartin/gitsome#index>.
 
 - Otomatik tamamlamayı ve Git ile gh komutları için etkileşimli yardımı etkinleştirmek için gitsome kabuğuna gir:
 
@@ -26,4 +26,4 @@
 
 - Belirtilen GitHub kullanıcısının güncel etkileşimini varsayılan sayfacı ile (örneğin `less`) göster:
 
-`gh feed {{torvalds}} -p`
+`gh feed {{torvalds}} {{[-p|--pager]}}`

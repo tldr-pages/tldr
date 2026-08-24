@@ -1,25 +1,38 @@
 # nmap
 
-> Nmap è un tool per port scanning ed esplorazione di rete.
-> Alcune funzionalità diventano attive solamente con privilegi d'amministratore.
+> Tool per esplorazione di rete e scansione porte/sicurezza.
+> Alcune funzionalità (es. SYN scan) si attivano solo con privilegi root.
+> Vedi anche: `hping3`, `masscan`, `naabu`, `rustscan`, `zmap`.
 > Maggiori informazioni: <https://nmap.org/book/man.html>.
 
-- Controlla se un indirizzo IP è attivo, e indovina il suo sistema operativo:
+- Scansiona le prime 1000 porte di un host remoto con vari livelli di [v]erbosità:
 
-`nmap -O {{ip_o_nome_host}}`
+`nmap -v{{1|2|3}} {{ip_o_nome_host}}`
 
-- Cerca di determinare se gli host specificati sono attivi e quali sono i loro nomi:
+- Esegui ping sweep aggressivo su subnet intera o host individuali:
 
-`sudo nmap -sn {{ip_o_nome_host}} {{opzionale_altro_indirizzo}}`
+`nmap -T5 -sn {{192.168.0.0/24|ip_o_nome_host1,ip_o_nome_host2,...}}`
 
-- Attiva scripts, segnalazione di servizi, OS fingerprinting e traceroute:
+- Abilita rilevamento OS, versione, script scanning e traceroute da file:
 
-`nmap -A {{indirizzo_o_indirizzi}}`
+`sudo nmap -A -iL {{percorso/del/file.txt}}`
 
-- Scansiona una specifica lista di porte (usa `-p-` per tutte le porte `1-65535`):
+- Scansiona lista specifica di [p]orte (usa `-p-` per tutte le porte da 1 a 65535):
 
-`nmap -p {{porta1,porta2,...}} {{indirizzo_o_indirizzi}}`
+`nmap -p {{porta1,porta2,...}} {{ip_o_host1,ip_o_host2,...}}`
 
-- Determina vulnerabilità e informazioni di un host eseguendo una scansione di tutte le porte, servizi e versioni con tutti gli script di default NSE attivi:
+- Rileva servizi e versioni sulle prime 1000 porte con script NSE di default, salva risultati (`-oA`):
 
-`nmap -sC -sV {{indirizzo_o_indirizzi}}`
+`nmap -sC -sV -oA {{top-1000-ports}} {{ip_o_host1,ip_o_host2,...}}`
+
+- Scansiona target con cura usando script NSE `default and safe`:
+
+`nmap --script "default and safe" {{ip_o_host1,ip_o_host2,...}}`
+
+- Scansiona web server su porte standard [p]orte 80 e 443 con tutti gli script `http-*` NSE:
+
+`nmap --script "http-*" {{ip_o_host1,ip_o_host2,...}} -p 80,443`
+
+- Tenta evasione IDS/IPS con scansione lentissima (`-T0`), [D]ecoy indirizzi sorgente, pacchetti [f]rammentati, dati casuali:
+
+`sudo nmap -T0 -D {{decoy_ip1,decoy_ip2,...}} --source-port {{53}} -f --data-length {{16}} -Pn {{ip_o_host}}`

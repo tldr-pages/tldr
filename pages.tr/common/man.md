@@ -1,6 +1,7 @@
 # man
 
 > Kılavuz sayfalarını biçimlendir ve göster.
+> Ayrıca bakınız: `whatis`, `apropos`.
 > Daha fazla bilgi için: <https://manned.org/man>.
 
 - Bir komut için man sayfasını görüntüle:

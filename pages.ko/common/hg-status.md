@@ -9,19 +9,19 @@
 
 - 수정된 파일만 표시:
 
-`hg status --modified`
+`hg status {{[-m|--modified]}}`
 
 - 추가된 파일만 표시:
 
-`hg status --added`
+`hg status {{[-a|--added]}}`
 
 - 제거된 파일만 표시:
 
-`hg status --removed`
+`hg status {{[-r|--removed]}}`
 
 - 삭제되었지만 추적된 파일만 표시:
 
-`hg status --deleted`
+`hg status {{[-d|--deleted]}}`
 
 - 특정 변경 세트와 비교하여 작업 디렉토리의 변경 사항 표시:
 
@@ -29,8 +29,8 @@
 
 - 특정 글로브 패턴과 일치하는 파일만 표시:
 
-`hg status --include {{패턴}}`
+`hg status {{[-I|--include]}} {{패턴}}`
 
 - 특정 글로브 패턴과 일치하지 않는 파일만 표시:
 
-`hg status --exclude {{패턴}}`
+`hg status {{[-X|--exclude]}} {{패턴}}`

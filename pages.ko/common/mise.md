@@ -1,7 +1,7 @@
 # mise
 
 > 다양한 패키지의 버전을 관리.
-> 더 많은 정보: <https://mise.jdx.dev>.
+> 더 많은 정보: <https://mise.jdx.dev/cli/>.
 
 - 사용 가능한 모든 플러그인 나열:
 

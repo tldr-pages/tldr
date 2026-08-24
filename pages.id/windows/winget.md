@@ -5,11 +5,11 @@
 
 - Pasang suatu paket:
 
-`winget install {{nama_paket}}`
+`winget {{[add|install]}} {{nama_paket}}`
 
 - Hapus paket yang terpasang sebelumnya (Catatan: subperintah `uninstall` juga dapat digantikan dengan `remove`):
 
-`winget uninstall {{nama_paket}}`
+`winget {{[rm|uninstall]}} {{nama_paket}}`
 
 - Tampilkan informasi tentang paket:
 
@@ -21,16 +21,16 @@
 
 - Perbarui seluruh paket menuju versi terkini:
 
-`winget upgrade --all`
+`winget upgrade {{[-r|--all]}}`
 
 - Tampilkan paket terpasang yang dapat dikelola oleh `winget`:
 
-`winget list --source winget`
+`winget {{[ls|list]}} {{[-s|--source]}} winget`
 
 - Impor atau ekspor daftar paket terpasang ke dalam suatu file:
 
-`winget {{import|export}} {{--import-file|--output}} {{jalan/menuju/berkas}}`
+`winget {{import|export}} {{--import-file|--output}} {{jalan\menuju\berkas}}`
 
 - Lakukan uji validasi manifes pemaketan winget sebelum mengirimkan rencana perubahan (Pull Request) menuju repositori winget-pkgs:
 
-`winget validate {{jalan/menuju/manifes}}`
+`winget validate {{jalan\menuju\manifes}}`

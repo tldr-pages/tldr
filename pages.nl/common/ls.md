@@ -17,7 +17,7 @@
 
 - Lange lijstweergave (permissies, eigendom, grootte en wijzigingsdatum) van alle bestanden:
 
-`ls {{[-la|--all -l]}}`
+`ls {{[-la|-l --all]}}`
 
 - Lange lijstweergave met grootte weergegeven in leesbare eenheden (KiB, MiB, GiB):
 

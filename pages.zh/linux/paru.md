@@ -1,7 +1,8 @@
 # paru
 
 > 一个 AUR 助手和 pacman 包装。
-> 更多信息：<https://github.com/Morganamilo/paru>.
+> 另请参阅：`pacman`, `yay`。
+> 更多信息：<https://github.com/Morganamilo/paru#examples>。
 
 - 交互式搜索并安装软件包：
 

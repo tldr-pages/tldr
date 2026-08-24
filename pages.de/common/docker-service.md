@@ -13,11 +13,11 @@
 
 - Zeige detaillierte Informationen der mit Leerzeichen separierten Services an:
 
-`docker service inspect {{service_name|ID}}`
+`docker service inspect {{service_name|id}}`
 
 - Liste die Tasks der mit Leerzeichen separierten Services auf:
 
-`docker service ps {{service_name|ID}}`
+`docker service ps {{service_name|id}}`
 
 - Skaliere die angegebenen Services auf eine bestimmte Anzahl an Replikaten:
 
@@ -25,4 +25,4 @@
 
 - Lösche die mit Leerzeichen separierten Services:
 
-`docker service rm {{service_name|ID}}`
+`docker service rm {{service_name|id}}`

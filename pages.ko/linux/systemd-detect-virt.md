@@ -1,7 +1,7 @@
 # systemd-detect-virt
 
 > 가상화된 환경에서 실행 여부를 감지.
-> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/systemd-detect-virt.html>.
+> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/latest/systemd-detect-virt.html>.
 
 - 감지 가능한 가상화 기술 목록 표시:
 

@@ -1,6 +1,7 @@
 # fincore
 
 > Muestra cuánta memoria caché está ocupando un archivo.
+> Vea también: `fadvise`.
 > Más información: <https://manned.org/fincore>.
 
 - Muestra los detalles de la caché de un archivo:

@@ -1,7 +1,7 @@
 # git format-patch
 
-> Prepare .patch files. Useful when emailing commits elsewhere.
-> See also: `git am` which can apply generated .patch files.
+> Prepare `.patch` files. Useful when emailing commits elsewhere.
+> See also: `git am`.
 > More information: <https://git-scm.com/docs/git-format-patch>.
 
 - Create an auto-named `.patch` file for all the unpushed commits:

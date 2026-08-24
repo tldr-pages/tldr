@@ -1,6 +1,6 @@
 # ghead
 
-> Perintah ini merupakan alias dari `-p linux head`.
+> Perintah ini merupakan alias dari GNU `head`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 

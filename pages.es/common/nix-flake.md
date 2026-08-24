@@ -1,7 +1,7 @@
 # nix flake
 
 > Administra los flakes de Nix.
-> Más información: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-flake.html>.
+> Más información: <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-flake.html>.
 
 - Crea un flake nuevo (solo el archivo `flake.nix`) usando la plantilla predeterminada, en el directorio actual:
 

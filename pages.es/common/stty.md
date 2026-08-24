@@ -1,28 +1,37 @@
 # stty
 
-> Establece opciones para una interfaz del dispositivo terminal.
+> Establece u obtiene opciones para la interfaz de un dispositivo de terminal.
+> Vea también: `tput`.
 > Más información: <https://www.gnu.org/software/coreutils/manual/html_node/stty-invocation.html>.
 
-- Muestra todas las opciones de la terminal actual:
+- Muestra el tamaño actual del terminal:
 
-`stty --all`
+`stty size`
+
+- Muestra todos los ajustes del terminal actual:
+
+`stty {{[-a|--all]}}`
 
 - Establece el número de filas o columnas:
 
-`stty {{filas|columnas}} {{cuenta}}`
+`stty {{rows|cols}} {{cuenta}}`
 
 - Obtiene la velocidad de transferencia real de un dispositivo:
 
-`stty --file {{ruta/al/archivo_del_dispositivo}} speed`
+`stty {{[-F|--file]}} {{ruta/al/archivo_del_dispositivo}} speed`
 
-- Restablece todos los modos a valores razonables para el terminal actual:
+- Restablece todos los modos a valores razonables para la terminal actual:
 
 `stty sane`
 
-- Cambia entre modo raw y cooked:
+- Cambia entre el modo sin procesar y el modo normal:
 
 `stty {{raw|cooked}}`
 
-- Desactiva o activa el eco de caracteres:
+- Activa o desactiva el eco de caracteres:
 
 `stty {{-echo|echo}}`
+
+- Muestra la ayuda:
+
+`stty --help`

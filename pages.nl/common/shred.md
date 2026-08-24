@@ -25,4 +25,4 @@
 
 - Overschrijf een bestand 100 keer, voeg een laatste overschrijving met nullen toe, verwijder het bestand na overschrijven en toon verbose voortgang op het scherm:
 
-`shred {{[-vzun|--verbose --zero --remove --iterations]}} 100 {{pad/naar/bestand}}`
+`shred {{[-vzu|--verbose --zero --remove]}} {{[-n|--iterations]}} 100 {{pad/naar/bestand}}`

@@ -2,7 +2,7 @@
 
 > Display commits since a time or date.
 > Part of `git-extras`.
-> More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-commits-since>.
+> More information: <https://github.com/tj/git-extras/blob/main/Commands.md#git-commits-since>.
 
 - Display commits since yesterday:
 

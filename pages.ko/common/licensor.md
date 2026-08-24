@@ -9,7 +9,7 @@
 
 - [p]laceholder 저작권 공지를 포함하여 MIT 라이선스를 `LICENSE`라는 이름의 파일에 작성:
 
-`licensor -p {{MIT}} > {{LICENSE}}`
+`licensor {{[-p|--keep-placeholder]}} {{MIT}} > {{LICENSE}}`
 
 - Bobby Tables라는 저작권자를 지정:
 
@@ -21,8 +21,8 @@
 
 - 사용 가능한 모든 라이선스 목록:
 
-`licensor --licenses`
+`licensor {{[-l|--licenses]}}`
 
 - 사용 가능한 모든 예외사항 목록:
 
-`licensor --exceptions`
+`licensor {{[-e|--exceptions]}}`

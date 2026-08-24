@@ -1,6 +1,7 @@
 # black
 
 > Formatteer Python-code automatisch.
+> Zie ook: `ruff`.
 > Meer informatie: <https://black.readthedocs.io/en/stable/usage_and_configuration/the_basics.html>.
 
 - Formatteer een bestand of hele map automatisch:

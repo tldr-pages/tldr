@@ -1,7 +1,7 @@
 # quarkus
 
 > 创建 Quarkus 项目，管理扩展并执行基本的构建和开发任务。
-> 更多信息：<https://quarkus.io/guides/cli-tooling>.
+> 更多信息：<https://quarkus.io/guides/cli-tooling>。
 
 - 在一个新目录中创建一个新的应用程序项目：
 

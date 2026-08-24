@@ -16,7 +16,7 @@
 
 `nnn -H`
 
-- Abre un marcador existente (definido en la variable de entorno `NNN_BMS`):
+- Abre un marcador existente (definido en la variable de entorno `$NNN_BMS`):
 
 `nnn -b {{nombre_del_marcador}}`
 

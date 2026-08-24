@@ -1,7 +1,7 @@
 # a2disconf
 
 > Matikan suatu konfigurasi piranti peladen Apache yang diatur oleh suatu berkas dalam sistem operasi berbasis Debian.
-> Informasi lebih lanjut: <https://manned.org/a2disconf.8>.
+> Informasi lebih lanjut: <https://manned.org/a2disconf>.
 
 - Matikan konfigurasi yang diatur dalam suatu berkas:
 
@@ -9,4 +9,4 @@
 
 - Jangan menampilkan pesan-pesan informatif selama melakukan operasi:
 
-`sudo a2disconf --quiet {{berkas_konfigurasi}}`
+`sudo a2disconf {{[-q|--quiet]}} {{berkas_konfigurasi}}`

@@ -1,7 +1,7 @@
 # ogrmerge.py
 
 > 여러 벡터 데이터셋을 하나로 병합.
-> 더 많은 정보: <https://gdal.org/programs/ogrmerge.html>.
+> 더 많은 정보: <https://gdal.org/en/stable/programs/ogrmerge.html>.
 
 - 각 입력 셰이프파일에 대해 레이어가 포함된 GeoPackage 생성:
 

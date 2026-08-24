@@ -3,7 +3,7 @@
 > Surt del shell.
 > Més informació: <https://manned.org/exit.1posix>.
 
-- Surt amb l'estat de sortida de l'ordre executada més recent :
+- Surt amb l'estat de sortida de l'ordre executada més recent:
 
 `exit`
 

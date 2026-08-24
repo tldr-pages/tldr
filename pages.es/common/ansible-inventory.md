@@ -2,7 +2,7 @@
 
 > Muestra o vuelca un inventario de Ansible.
 > Vea también: `ansible`.
-> Más información: <https://docs.ansible.com/ansible/latest/cli/ansible-inventory.html>.
+> Más información: <https://docs.ansible.com/projects/ansible/latest/cli/ansible-inventory.html>.
 
 - Muestra el inventario por defecto:
 

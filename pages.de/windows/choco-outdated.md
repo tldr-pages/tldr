@@ -1,7 +1,7 @@
 # choco outdated
 
 > Überprüfe mit Chocolatey, ob Pakete veraltet sind.
-> Weitere Informationen: <https://chocolatey.org/docs/commands-outdated>.
+> Weitere Informationen: <https://docs.chocolatey.org/en-us/choco/commands/outdated/>.
 
 - Zeige eine Liste von veralteten Paketen im Tabellen-Format:
 
@@ -13,8 +13,8 @@
 
 - Gib eine eigene Quelle an, mit der die Aktualität der Pakete überprüft wird:
 
-`choco outdated --source {{source_url|alias}}`
+`choco outdated {{[-s|--source]}} {{source_url|alias}}`
 
 - Gib einen Benutzernamen und ein Passwort für die Authentifizierung an:
 
-`choco outdated --user {{benutzername}} --password {{passwort}}`
+`choco outdated {{[-u|--user]}} {{benutzername}} {{[-p|--password]}} {{passwort}}`

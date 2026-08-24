@@ -1,7 +1,7 @@
 # lastcomm
 
 > 마지막으로 실행된 명령어를 표시.
-> 더 많은 정보: <https://manpages.debian.org/latest/acct/lastcomm.1.en.html>.
+> 더 많은 정보: <https://manned.org/lastcomm>.
 
 - acct (기록 파일)에 있는 모든 명령어 정보 출력:
 

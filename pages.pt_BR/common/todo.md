@@ -1,7 +1,7 @@
 # todo
 
 > Um gerenciador de tarefas simples, de interface de linha de comando e em conformidade com os padrões.
-> Mais informações: <https://todoman.readthedocs.io>.
+> Mais informações: <https://todoman.readthedocs.io/en/stable/man.html>.
 
 - Lista tarefas iniciáveis:
 
@@ -9,7 +9,7 @@
 
 - Adiciona uma nova tarefa à lista de trabalho:
 
-`todo new {{coisas_para_fazer}} --list {{trabalho}}`
+`todo new {{coisas_para_fazer}} {{[-l|--list]}} {{trabalho}}`
 
 - Adiciona um local para uma tarefa com um ID provido:
 

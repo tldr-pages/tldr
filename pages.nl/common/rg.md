@@ -4,13 +4,17 @@
 > Wil een sneller alternatief zijn dan `grep`.
 > Meer informatie: <https://github.com/BurntSushi/ripgrep/blob/master/GUIDE.md>.
 
-- Zoek recursief in de huidige map naar een patroon (reguliere expressie):
+- Zoek recursief in de huidige map naar een patroon (`regex`):
 
 `rg {{patroon}}`
 
 - Zoek recursief naar een patroon in een bestand of map:
 
 `rg {{patroon}} {{pad/naar/bestand_of_map}}`
+
+- Zoek naar een letterlijk string patroon:
+
+`rg {{[-F|--fixed-strings]}} -- {{string}}`
 
 - Voeg verborgen bestanden en onderdelen van de `.gitignore` toe:
 
@@ -31,7 +35,3 @@
 - Toon regels die niet overeenkomen met de gegeven reguliere expressie:
 
 `rg {{[-v|--invert-match]}} {{patroon}}`
-
-- Zoek naar een letterlijk string pattroon:
-
-`rg {{[-D|--fixed-strings]}} -- {{string}}`

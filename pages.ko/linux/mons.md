@@ -1,7 +1,7 @@
 # mons
 
 > 두 디스플레이를 빠르게 관리.
-> 더 많은 정보: <https://github.com/Ventto/mons>.
+> 더 많은 정보: <https://github.com/Ventto/mons#usage>.
 
 - 기본 모니터만 활성화:
 

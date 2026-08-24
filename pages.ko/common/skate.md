@@ -1,7 +1,7 @@
 # skate
 
 > 간단하고 강력한 키-값 저장소.
-> 더 많은 정보: <https://github.com/charmbracelet/skate>.
+> 더 많은 정보: <https://manned.org/skate>.
 
 - 기본 데이터베이스에 키와 값을 저장:
 

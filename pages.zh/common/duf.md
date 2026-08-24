@@ -1,7 +1,8 @@
 # duf
 
 > 磁盘占用/空闲实用工具。
-> 更多信息：<https://github.com/muesli/duf>.
+> 另请参阅：`ncdu`, `df`。
+> 更多信息：<https://github.com/muesli/duf#usage>。
 
 - 列出可访问设备：
 

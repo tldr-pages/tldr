@@ -1,6 +1,6 @@
 # lrunzip
 
-> Este comando es un alias de `lrzip -d`.
+> Este comando es un alias de `lrzip --decompress`.
 
 - Vea la documentación del comando original:
 

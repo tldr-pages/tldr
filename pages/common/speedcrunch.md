@@ -1,7 +1,7 @@
 # speedcrunch
 
 > A high-precision scientific calculator.
-> More information: <https://www.speedcrunch.org>.
+> More information: <https://heldercorreia.bitbucket.io/speedcrunch/userguide/index.html>.
 
 - Start SpeedCrunch:
 

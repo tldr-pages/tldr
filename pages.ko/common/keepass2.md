@@ -1,7 +1,7 @@
 # keepass2
 
 > 경량 비밀번호 관리자.
-> 더 많은 정보: <https://keepass.info>.
+> 더 많은 정보: <https://manned.org/keepass2>.
 
 - 가장 최근에 열었던 비밀번호 데이터베이스를 열면서 KeePass 2 시작:
 

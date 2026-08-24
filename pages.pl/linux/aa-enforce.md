@@ -6,7 +6,7 @@
 
 - Włącz profil:
 
-`sudo aa-enforce --dir {{ścieżka/do/profilu}}`
+`sudo aa-enforce {{[-d|--dir]}} {{ścieżka/do/profilu}}`
 
 - Włącz profile:
 

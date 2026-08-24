@@ -13,7 +13,7 @@
 
 - PID로 파일 열림 추적:
 
-`sudo opensnoop -p {{PID}}`
+`sudo opensnoop -p {{pid}}`
 
 - 특정 파일을 여는 프로세스 추적:
 

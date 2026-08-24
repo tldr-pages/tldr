@@ -1,6 +1,7 @@
 # asciinema
 
 > Enregistre et rejoue les sessions de terminal, et également partageable sur asciinema.org.
+> Voir aussi : `terminalizer`, `agg`.
 > Plus d'informations : <https://docs.asciinema.org/manual/cli/>.
 
 - Associe l’installation locale de `asciinema` avec un compte asciinema.org :

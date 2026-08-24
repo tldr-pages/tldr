@@ -1,6 +1,6 @@
 # alex
 
-> Een tool die ongevoelig, onattent schrijven opvangt.
+> Vang ongevoelig, onattent schrijven op.
 > Het helpt je bij het vinden van genderbegunstigende, polariserende, rasgerelateerde, onachtzame religie of andere ongelijke bewoordingen in de tekst.
 > Meer informatie: <https://github.com/get-alex/alex>.
 
@@ -14,8 +14,8 @@
 
 - Analyseer een specifiek bestand:
 
-`alex {{tekstbestand.md}}`
+`alex {{pad/naar/bestand.md}}`
 
-- Analyseer alle Markdown-bestanden behalve `voorbeeld.md`:
+- Analyseer alle Markdown-bestanden behalve `example.md`:
 
-`alex *.md !{{voorbeeld.md}}`
+`alex *.md !example.md`

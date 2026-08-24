@@ -1,28 +1,38 @@
 # egrep
 
-> Vind patronen in bestanden door gebruik te maken van uitgebreidere reguliere expressies (ondersteund `?`, `+`, `{}`, `()` en `|`).
+> Zoek naar patronen in bestanden met behulp van uitgebreide `regex`en.
+> Opmerking: dit commando is een alias van `grep --extended-regexp`.
+> Zie ook: `regex`.
 > Meer informatie: <https://manned.org/egrep>.
 
-- Zoek naar een patroon in een bestand:
+- Zoek naar één of meer herhaalde tekens:
 
-`egrep "{{zoekpatroon}}" {{pad/naar/bestand}}`
+`egrep '{{a}}+' {{pad/naar/bestand}}`
 
-- Zoek naar een patroon in meerdere bestanden:
+- Zoek naar nul of één keer een teken (optionele overeenkomst):
 
-`egrep "{{zoekpatroon}}" {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
+`egrep '{{a}}?' {{pad/naar/bestand}}`
 
-- Zoek in `stdin` naar een patroon:
+- Zoek naar 10 herhalingen van een teken:
 
-`cat {{pad/naar/bestand}} | egrep {{zoekpatroon}}`
+`egrep '{{a}}{10}' {{pad/naar/bestand}}`
 
-- Toon de bestandsnaam en het regelnummer voor iedere overeenkomst:
+- Zoek naar 3 tot 7 herhalingen van een karakter:
 
-`egrep {{[-H|--with-filename]}} {{[-n|--line-number]}} "{{zoekpatroon}}" {{pad/naar/bestand}}`
+`egrep '{{a}}{3,7}' {{pad/naar/bestand}}`
 
-- Zoek recursief in alle bestanden in een map voor een patroon, maar negeer binaire bestanden:
+- Zoek naar één van de vermelde opties:
 
-`egrep {{[-r|--recursive]}} --binary-files={{without-match}} "{{zoekpatroon}}" {{pad/naar/map}}`
+`egrep '{{cat}}|{{dog}}|{{mouse}}' {{pad/naar/bestand}}`
 
-- Zoek voor regels die niet voldoen aan een patroon:
+- Zoek naar één van de vermelde opties binnen een groter patroon:
 
-`egrep {{[-v|--invert-match]}} "{{zoekpatroon}}" {{pad/naar/bestand}}`
+`egrep 'c({{a}}|{{o}}|{{u}})p' {{pad/naar/bestand}}`
+
+- Zoek naar een groep tekens die één of meerdere keren herhaald worden:
+
+`egrep '({{aeiou}})+' {{pad/naar/bestand}}`
+
+- Zoek naar speciale tekenklassen (meer informatie: <https://www.regular-expressions.info/posixbrackets.html>):
+
+`egrep [[{{:alnum:|:alpha:|:space:|...}}]] {{pad/naar/bestand}}`

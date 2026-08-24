@@ -1,7 +1,7 @@
 # vifm
 
 > VI 파일 관리자는 TUI 파일 관리자입니다.
-> 같이 보기: `clifm`, `vifm`, `mc`, `caja`.
+> 관련 항목: `clifm`, `vifm`, `mc`, `caja`.
 > 더 많은 정보: <https://github.com/vifm/vifm>.
 
 - 현재 디렉토리 열기:

@@ -1,7 +1,7 @@
 # aws s3 mv
 
 > Move local files or S3 objects to another location locally or in S3.
-> More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/mv.html>.
+> More information: <https://docs.aws.amazon.com/cli/latest/reference/s3/mv.html>.
 
 - Move a file from local to a specified bucket:
 

@@ -1,7 +1,7 @@
 # gt
 
 > Crea y gestiona secuencias de cambios de código dependientes (stacks) para Git y GitHub.
-> Más información: <https://graphite.dev/docs/get-started>.
+> Más información: <https://graphite.com/docs/get-started>.
 
 - Inicializa `gt` para el repositorio en el directorio actual:
 

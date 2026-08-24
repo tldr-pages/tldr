@@ -6,7 +6,7 @@
 
 - Rimuovi il job numero 10:
 
-`atrm {{10}}`
+`atrm 10`
 
 - Rimuovi più job, separati da spazi:
 

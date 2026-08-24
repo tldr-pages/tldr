@@ -1,7 +1,7 @@
 # tokei
 
 > Display statistics about code.
-> More information: <https://github.com/XAMPPRocky/tokei>.
+> More information: <https://github.com/XAMPPRocky/tokei#options>.
 
 - Display a report for the code in a directory and all subdirectories:
 
@@ -17,4 +17,4 @@
 
 - Display a report for all files of type Rust and Markdown:
 
-`tokei {{path/to/directory}} {{[-t|--type]}} {{Rust}},{{Markdown}}`
+`tokei {{path/to/directory}} {{[-t|--types]}} {{Rust}},{{Markdown}}`

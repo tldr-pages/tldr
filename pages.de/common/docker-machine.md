@@ -1,7 +1,7 @@
 # docker-machine
 
 > Erstelle und verwalte Maschinen, die Docker ausführen.
-> Weitere Informationen: <https://github.com/docker/machine>.
+> Weitere Informationen: <https://github.com/docker-archive-public/docker.machine>.
 
 - Liste zur Zeit laufende Docker Maschinen auf:
 

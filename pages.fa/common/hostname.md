@@ -1,7 +1,7 @@
 # hostname
 
 > نمایش یا تنظیم نام میزبان سیستم.
-> اطلاعات بیشتر: <https://manned.org/hostname>.
+> اطلاعات بیشتر: <https://www.gnu.org/software/inetutils/manual/inetutils.html#hostname-invocation>.
 
 - نمایش نام میزبان فعلی:
 

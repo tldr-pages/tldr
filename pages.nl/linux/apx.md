@@ -1,7 +1,7 @@
 # apx
 
 > Pakketbeheerhulpprogramma met ondersteuning voor meerdere bronnen, zodat u pakketten in subsystemen kunt installeren.
-> Meer informatie: <https://github.com/Vanilla-OS/apx>.
+> Meer informatie: <https://docs.vanillaos.org/docs/en/apx-manpage>.
 
 - Bekijk de documentatie voor het beheren van pakketmanagers:
 

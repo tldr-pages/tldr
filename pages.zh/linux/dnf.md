@@ -1,8 +1,8 @@
 # dnf
 
 > RHEL, Fedora 和 CentOS 的软件包管理工具（yum 的替代品）。
-> 对于其他包管理器中的等效命令，请见 <https://wiki.archlinux.org/title/Pacman/Rosetta>.
-> 更多信息：<https://dnf.readthedocs.io>.
+> 对于其他包管理器中的等效命令，请见 <https://wiki.archlinux.org/title/Pacman/Rosetta>。
+> 更多信息：<https://dnf5.readthedocs.io/en/latest/commands/index.html>。
 
 - 更新已安装的包到最新可用版本：
 

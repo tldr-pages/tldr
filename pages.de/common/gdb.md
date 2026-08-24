@@ -9,7 +9,7 @@
 
 - Binde einen Prozess an gdb:
 
-`gdb {{[-p|--pid]}} {{prozess_ID}}`
+`gdb {{[-p|--pid]}} {{prozess_id}}`
 
 - Debugge mit einer Kerndatei:
 

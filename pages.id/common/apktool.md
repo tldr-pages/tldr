@@ -5,7 +5,7 @@
 
 - Bongkar isi ([d]ekode) berkas APK:
 
-`apktool d {{berkas.apk}}`
+`apktool d {{berkas}}.apk`
 
 - [b]angun kode sumber dalam suatu direktori menjadi berkas APK:
 
@@ -13,4 +13,4 @@
 
 - Pasang ([i]nstal) dan simpan komponen [f]rameworks dari suatu berkas APK:
 
-`apktool if {{framework.apk}}`
+`apktool if {{framework}}.apk`

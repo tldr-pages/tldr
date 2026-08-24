@@ -1,7 +1,7 @@
 # taskkill
 
 > 經由處理程序識別碼 (PID) 或映像名稱終止程序。
-> 更多資訊：<https://learn.microsoft.com/windows-server/administration/windows-commands/taskkill>.
+> 更多資訊：<https://learn.microsoft.com/windows-server/administration/windows-commands/taskkill>。
 
 - 經由處理程序識別碼終止程序：
 

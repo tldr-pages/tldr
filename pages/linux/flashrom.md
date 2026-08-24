@@ -1,6 +1,6 @@
 # flashrom
 
-> Read, write, verify and erase flash chips.
+> Read, write, verify, and erase flash chips.
 > More information: <https://manned.org/flashrom>.
 
 - Probe the chip, ensuring the wiring is correct:

@@ -17,8 +17,8 @@
 
 - 이름으로 참조 삭제:
 
-`git symbolic-ref --delete refs/{{이름}}`
+`git symbolic-ref {{[-d|--delete]}} refs/{{이름}}`
 
 - 스크립팅을 위해 `--quiet`로 오류를 숨기고 `--short`를 사용하여 간소화하기 ("refs/heads/X"가 "X"로 출력됨):
 
-`git symbolic-ref --quiet --short refs/{{이름}}`
+`git symbolic-ref {{[-q|--quiet]}} --short refs/{{이름}}`

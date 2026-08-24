@@ -1,6 +1,7 @@
 # sudo
 
 > Exécute une commande unique en tant que super-utilisateur (super-user) ou un autre utilisateur.
+> Voir aussi : `pkexec`, `run0`, `doas`.
 > Plus d'informations : <https://www.sudo.ws/sudo.html>.
 
 - Exécute une commande en tant que super-utilisateur :
@@ -33,4 +34,4 @@
 
 - Liste les commandes autorisées (et interdites) pour l'utilisateur courant :
 
-`sudo {{[-l|--list]}}`
+`sudo {{[-ll|--list --list]}}`

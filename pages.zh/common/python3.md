@@ -1,7 +1,7 @@
 # python3
 
-> 这是 `python` 命令的一个别名。
+> 此命令为 `python` 的别名。
 
-- 原命令的文档在：
+- 查看原命令的文档：
 
 `tldr python`

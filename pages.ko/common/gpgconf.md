@@ -1,6 +1,6 @@
 # gpgconf
 
-> .gnupg 홈 디렉터리를 수정.
+> `.gnupg` 홈 디렉터리를 수정.
 > 더 많은 정보: <https://www.gnupg.org/documentation/manuals/gnupg/gpgconf.html>.
 
 - 모든 컴포넌트 나열:
@@ -9,7 +9,7 @@
 
 - gpgconf가 사용하는 디렉토리를 나열:
 
-`gpgconf --list-dirs`
+`gpgconf {{[-L|--list-dirs]}}`
 
 - 컴포넌트의 모든 옵션을 나열:
 

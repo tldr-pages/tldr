@@ -2,7 +2,7 @@
 
 > Zet gegevens over van of naar een server.
 > Ondersteunt de meeste protocollen, waaronder HTTP, HTTPS, FTP, SCP, enz.
-> Zie ook: `wget`.
+> Zie ook: `wcurl`, `wget`.
 > Meer informatie: <https://curl.se/docs/manpage.html>.
 
 - Maak een HTTP GET-verzoek en dump de inhoud naar `stdout`:

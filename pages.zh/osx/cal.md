@@ -1,7 +1,7 @@
 # cal
 
 > 打印日历信息。
-> 更多信息：<https://keith.github.io/xcode-man-pages/cal.1.html>.
+> 更多信息：<https://keith.github.io/xcode-man-pages/cal.1.html>。
 
 - 显示本月日历：
 

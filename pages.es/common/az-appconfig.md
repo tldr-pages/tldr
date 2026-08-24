@@ -6,11 +6,11 @@
 
 - Crea una configuración de aplicación:
 
-`az appconfig create --name {{nombre}} --resource-group {{grupo_de_recursos}} --location {{ubicación}}`
+`az appconfig create {{[-n|--name]}} {{nombre}} {{[-g|--resource-group]}} {{grupo_de_recursos}} {{[-l|--location]}} {{ubicación}}`
 
 - Elimina una configuración de aplicación específica:
 
-`az appconfig delete --resource-group {{grupo_de_recursos}} --name {{nombre_de_configuración}}`
+`az appconfig delete {{[-g|--resource-group]}} {{grupo_de_recursos}} {{[-n|--name]}} {{nombre_de_configuración}}`
 
 - Lista todas las configuraciones de aplicaciones bajo la suscripción actual:
 
@@ -18,12 +18,12 @@
 
 - Lista todas las configuraciones de aplicaciones bajo un grupo de recursos específico:
 
-`az appconfig list --resource-group {{grupo_de_recursos}}`
+`az appconfig list {{[-g|--resource-group]}} {{grupo_de_recursos}}`
 
 - Muestra las propiedades de una configuración de aplicación:
 
-`az appconfig show --name {{nombre_de_configuración}}`
+`az appconfig show {{[-n|--name]}} {{nombre_de_configuración}}`
 
 - Actualiza una configuración de aplicación específica:
 
-`az appconfig update --resource-group {{grupo_de_recursos}} --name {{nombre_de_configuración}}`
+`az appconfig update {{[-g|--resource-group]}} {{grupo_de_recursos}} {{[-n|--name]}} {{nombre_de_configuración}}`

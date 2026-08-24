@@ -21,12 +21,12 @@
 
 - Scrapy가 인식하는 방식으로 웹페이지를 가져와 `stdout`에 소스 출력:
 
-`scrapy fetch {{URL}}`
+`scrapy fetch {{url}}`
 
 - Scrapy가 인식하는 방식으로 웹페이지를 기본 브라우저에서 열기 (더 정확하게 보려면 JavaScript 비활성화):
 
-`scrapy view {{URL}}`
+`scrapy view {{url}}`
 
 - URL에 대한 Scrapy 셸 열기, 이 셸을 통해 Python 셸(IPython이 가능하다면)을 사용하여 페이지 소스와 상호작용 가능:
 
-`scrapy shell {{URL}}`
+`scrapy shell {{url}}`

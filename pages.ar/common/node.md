@@ -1,7 +1,7 @@
 # node
 
 > بيئة تشغيل JavaScript للخادم (Node.js).
-> لمزيد من التفاصيل: <https://nodejs.org>.
+> لمزيد من التفاصيل: <https://nodejs.org/docs/latest/api/cli.html#options>.
 
 - تشغيل ملف JavaScript:
 

@@ -10,11 +10,11 @@
 
 - Liste les interfaces sur la couche réseau de façon synthétique :
 
-`ip {{[-br a|-brief address]}}`
+`ip {{[-br|-brief]}} {{[a|address]}}`
 
 - Liste les interfaces sur la couche liaison de façon synthétique :
 
-`ip {{[-br l|-brief link]}}`
+`ip {{[-br|-brief]}} {{[l|link]}}`
 
 - Affiche la table de routage :
 
@@ -22,7 +22,7 @@
 
 - Affiche les voisins (table ARP) :
 
-`ip {{[n|neighbour]}}`
+`ip {{[n|neighbor]}}`
 
 - Active/Désactive une interface :
 

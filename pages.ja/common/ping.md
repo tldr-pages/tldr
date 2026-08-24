@@ -1,7 +1,8 @@
 # ping
 
 > ICMP ECHO_REQUEST パケットをネットワークホストに送信します。
-> もっと詳しく: <https://manned.org/ping>。
+> 参照: `mtr`。
+> 詳細情報: <https://manned.org/ping>。
 
 - ホストをPingする:
 

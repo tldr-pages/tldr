@@ -1,7 +1,8 @@
 # powershell
 
 > Command-line shell en scripttaal, ontworpen voor systeembeheer.
-> Deze opdracht verwijst naar PowerShell versie 5.1 en lager (ook bekend als legacy Windows PowerShell). Voor de nieuwere, platformonafhankelijke versie van PowerShell (ook bekend als PowerShell Core), gebruik `pwsh` in plaats van `powershell`.
+> Deze opdracht verwijst naar PowerShell versie 5.1 en lager (ook bekend als legacy Windows PowerShell).
+> Voor de nieuwere, platformonafhankelijke versie van PowerShell (ook bekend als PowerShell Core), gebruik `pwsh` in plaats van `powershell`.
 > Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/powershell>.
 
 - Start een interactieve shellsessie:

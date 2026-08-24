@@ -2,6 +2,7 @@
 
 > Hulpprogramma voor pakketbeheer van Debian en Ubuntu.
 > Zoek naar pakketten met `apt-cache`.
+> Het is aanbevolen om `apt` te gebruiken wanneer het interactief wordt gebruikt in Ubuntu versies 16.04 en later.
 > Meer informatie: <https://manned.org/apt-get.8>.
 
 - Werk de lijst van beschikbare pakketten en versies bij (het wordt aanbevolen dit uit te voeren voor elk ander `apt-get` commando):
@@ -26,7 +27,7 @@
 
 - Schoon de lokale repository op - verwijder pakketbestanden (`.deb`) van onderbroken downloads die niet langer kunnen worden gedownload:
 
-`apt-get autoclean`
+`sudo apt-get autoclean`
 
 - Verwijder alle pakketten die niet meer nodig zijn:
 

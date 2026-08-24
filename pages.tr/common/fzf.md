@@ -4,11 +4,11 @@
 > Sk'ya benzer.
 > Daha fazla bilgi için: <https://github.com/junegunn/fzf#usage>.
 
-- Belirtilen dizindeki tüm dosyalarda FZF'yi başlat:
+- Belirtilen dizindeki tüm dosyalarda `fzf`'yi başlat:
 
 `find {{dosya/yolu/dizin}} -type f | fzf`
 
-- Çalışan süreçler için FZF'yi başlat:
+- Çalışan süreçler için `fzf`'yi başlat:
 
 `ps aux | fzf`
 
@@ -16,14 +16,14 @@
 
 `find {{dosya/yolu/dizin}} -type f | fzf {{[-m|--multi]}} > {{dosya/yolu/dosya}}`
 
-- fzf'yi belirli bir sorgu ile başlat:
+- `fzf`'yi belirli bir sorgu ile başlat:
 
 `fzf {{[-q|--query]}} "{{sorgu}}"`
 
-- Core ile başlayan ve Go, RB veya PY ile biten girişlerde fzf'yi başlat:
+- `core` ile başlayan ve `go`, `rb` veya `py` ile biten girişlerde `fzf`'yi başlat:
 
 `fzf {{[-q|--query]}} "^core go$ | rb$ | py$"`
 
-- PYC ile eşleşmeyen ve Travis'e tam olarak eşleşen girişlerde fzf'yi başlat:
+- PYC ile eşleşmeyen ve Travis'e tam olarak eşleşen girişlerde `fzf`'yi başlat:
 
-`fzf {{[-q|--query]}} "!pyc 'travis"`
+`fzf {{[-q|--query]}} '!pyc travis'`

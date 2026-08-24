@@ -1,7 +1,7 @@
 # mp4box
 
 > MPEG-4 시스템 도구: 스트림을 MP4 컨테이너에 멀티플렉싱.
-> 더 많은 정보: <https://gpac.wp.imt.fr/mp4box>.
+> 더 많은 정보: <https://github.com/gpac/gpac/wiki/Fragmentation,-segmentation,-splitting-and-interleaving>.
 
 - 기존 MP4 파일에 대한 정보 표시:
 

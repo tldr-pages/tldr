@@ -2,7 +2,7 @@
 
 > Unix 스타일 줄 끝을 DOS 스타일로 변경.
 > LF를 CRLF로 대체.
-> 같이 보기: `unix2mac`, `dos2unix`, `mac2unix`.
+> 관련 항목: `unix2mac`, `dos2unix`, `mac2unix`.
 > 더 많은 정보: <https://manned.org/unix2dos>.
 
 - 파일의 줄 끝 변경:

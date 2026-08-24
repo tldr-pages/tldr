@@ -1,7 +1,7 @@
 # gdaldem
 
 > 디지털 표고 모델 (DEM)을 분석하고 시각화.
-> 더 많은 정보: <https://gdal.org/programs/gdaldem.html>.
+> 더 많은 정보: <https://gdal.org/en/stable/programs/gdaldem.html>.
 
 - DEM의 음영기복도를 계산:
 

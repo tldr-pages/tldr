@@ -17,4 +17,4 @@
 
 - 여러 폴더에서 발견된 모든 Python 파일 검사:
 
-`pyflakes iterSourceCode {{경로/대상/폴더_1}} {{경로/대상/폴더_2}}`
+`pyflakes iterSourceCode {{경로/대상/폴더_1 경로/대상/폴더_2 ...}}`

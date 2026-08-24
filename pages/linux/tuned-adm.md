@@ -1,7 +1,7 @@
 # tuned-adm
 
 > Manage and optimize system performance tuning profiles on Linux.
-> More information: <https://tuned-project.org>.
+> More information: <https://manned.org/tuned-adm>.
 
 - List available profiles:
 

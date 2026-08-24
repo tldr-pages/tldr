@@ -1,7 +1,7 @@
 # uncrustify
 
 > C, C++, C#, D, Java 및 Pawn 소스 코드 포매터.
-> 더 많은 정보: <https://github.com/uncrustify/uncrustify>.
+> 더 많은 정보: <https://manned.org/uncrustify>.
 
 - 단일 파일 포맷팅:
 

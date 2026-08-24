@@ -9,28 +9,28 @@
 
 - Download a specific file from a competition dataset:
 
-`kaggle competitions download {{competition}} {{[-f|--file]}} {{path/to/file}}`
+`kaggle {{[c|competitions]}} download {{competition}} {{[-f|--file]}} {{path/to/file}}`
 
 - List competitions matching a search term:
 
-`kaggle competitions list {{[-s|--search]}} {{search_term}}`
+`kaggle {{[c|competitions]}} list {{[-s|--search]}} {{search_term}}`
 
 - List files available for a specific competition:
 
-`kaggle competitions files {{competition}}`
+`kaggle {{[c|competitions]}} files {{competition}}`
 
 - Submit a file to a competition with a message:
 
-`kaggle competitions submit {{competition}} {{[-f|--file]}} {{path/to/submission.csv}} {{[-m|--message]}} "{{message}}"`
+`kaggle {{[c|competitions]}} submit {{competition}} {{[-f|--file]}} {{path/to/submission.csv}} {{[-m|--message]}} "{{message}}"`
 
 - List datasets matching a search term:
 
-`kaggle datasets list {{[-s|--search]}} {{search_term}}`
+`kaggle {{[d|datasets]}} list {{[-s|--search]}} {{search_term}}`
 
 - Download all files from a dataset:
 
-`kaggle datasets download {{owner}}/{{dataset_name}}`
+`kaggle {{[d|datasets]}} download {{owner}}/{{dataset_name}}`
 
 - List kernels (notebooks) matching a search term:
 
-`kaggle kernels list {{[-s|--search]}} {{search_term}}`
+`kaggle {{[k|kernels]}} list {{[-s|--search]}} {{search_term}}`

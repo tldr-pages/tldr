@@ -1,6 +1,6 @@
 # nixos-container
 
-> Starts NixOS containers using Linux containers.
+> Start NixOS containers using Linux containers.
 > More information: <https://nixos.org/manual/nixos/stable/#ch-containers>.
 
 - List running containers:

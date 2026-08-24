@@ -1,6 +1,6 @@
 # csv-diff
 
-> View differences between two CSV, TSV or JSON files.
+> View differences between two CSV, TSV, or JSON files.
 > More information: <https://github.com/simonw/csv-diff>.
 
 - Display a human-readable summary of differences between files using a specific column as a unique identifier:

@@ -2,6 +2,6 @@
 
 > Aquest comandament és un àlies de `cal`.
 
-- Veure documentació per el comandament original:
+- Veure documentació pel comandament original:
 
 `tldr cal`

@@ -1,7 +1,7 @@
 # autopkgtest
 
 > Ejecuta pruebas sobre paquetes de Debian.
-> Más información: <https://manpages.debian.org/bookworm/autopkgtest/autopkgtest.1.en.html>.
+> Más información: <https://manned.org/autopkgtest>.
 
 - Construye el paquete en el directorio actual y ejecuta todas las pruebas directamente en el sistema:
 

@@ -1,6 +1,6 @@
 # psping
 
-> A ping tool that includes TCP ping, latency and bandwidth measurement.
+> A ping tool that includes TCP ping, latency, and bandwidth measurement.
 > More information: <https://learn.microsoft.com/sysinternals/downloads/psping>.
 
 - Ping a host using ICMP:

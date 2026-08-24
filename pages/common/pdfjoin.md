@@ -1,7 +1,7 @@
 # pdfjoin
 
 > PDF merging utility based on pdfjam.
-> More information: <https://github.com/rrthomas/pdfjam-extras>.
+> More information: <https://github.com/pdfjam/pdfjam-extras>.
 
 - Merge two PDFs into one with the default suffix "joined":
 

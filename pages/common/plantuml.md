@@ -9,7 +9,7 @@
 
 - Render a diagram in given format (e.g. `png`, `pdf`, `svg`, `txt`):
 
-`plantuml -t {{format}} {{diagram.puml}}`
+`plantuml {{[-f|--format]}} {{format}} {{diagram.puml}}`
 
 - Render all diagrams of a directory:
 
@@ -17,7 +17,7 @@
 
 - Render a diagram to the output directory:
 
-`plantuml -o {{path/to/output}} {{diagram.puml}}`
+`plantuml {{[-o|--output-dir]}} {{path/to/output}} {{diagram.puml}}`
 
 - Render a diagram without storing the diagram's source code (Note: It's stored by default when the `-nometadata` option isn't specified):
 
@@ -29,8 +29,8 @@
 
 - Render a diagram with the configuration file:
 
-`plantuml -config {{config.cfg}} {{diagram.puml}}`
+`plantuml --config {{config.cfg}} {{diagram.puml}}`
 
 - Display help:
 
-`plantuml -help`
+`plantuml {{[-h|--help]}}`

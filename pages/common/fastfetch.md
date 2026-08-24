@@ -1,6 +1,6 @@
 # fastfetch
 
-> Display information about your operating system, software and hardware.
+> Display information about your operating system, software, and hardware.
 > More information: <https://manned.org/fastfetch>.
 
 - Display system information:

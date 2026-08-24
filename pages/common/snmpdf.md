@@ -5,7 +5,7 @@
 
 - Fetch the disk space usage:
 
-`snmpdf -v {{version}} -c {{community}} {{ip}}`
+`snmpdf -v {{version}} -c {{community}} {{ip_address}}`
 
 - Display help:
 

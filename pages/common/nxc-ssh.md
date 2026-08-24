@@ -2,7 +2,7 @@
 
 > Pentest and exploit SSH servers.
 > See also: `hydra`.
-> More information: <https://www.netexec.wiki/ssh-protocol>.
+> More information: <https://www.netexec.wiki/ssh-protocol/password-spraying>.
 
 - Spray the specified password against a list of usernames on the specified target:
 

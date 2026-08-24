@@ -2,7 +2,7 @@
 
 > The Rust compiler.
 > Rust projects usually use `cargo` instead of invoking `rustc` directly.
-> More information: <https://doc.rust-lang.org/rustc>.
+> More information: <https://doc.rust-lang.org/stable/rustc/>.
 
 - Compile a binary crate:
 
@@ -14,7 +14,7 @@
 
 - Compile with debugging information:
 
-`rustc -g {{path/to/main.rs}}`
+`rustc {{[-g|--codegen debuginfo=2]}} {{path/to/main.rs}}`
 
 - Explain an error message:
 
@@ -31,3 +31,7 @@
 - Compile for a specific target:
 
 `rustc --target {{target_triple}} {{path/to/main.rs}}`
+
+- Display help:
+
+`rustc {{[-h|--help]}}`

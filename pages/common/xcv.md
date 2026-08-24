@@ -1,7 +1,7 @@
 # xcv
 
 > Cut, copy, and paste in the command-line.
-> More information: <https://github.com/busterc/xcv>.
+> More information: <https://github.com/busterc/xcv#xcv>.
 
 - Cut a file:
 

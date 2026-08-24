@@ -2,7 +2,7 @@
 
 > Uma coleção de ferramentas para indexar, inspecionar e visualizar uso do disco.
 > O duc mantém uma base de dados dos tamanhos acumlados dos diretórios do sistema de arquivos, permitindo buscas nessa base, ou a criação de gráficos elegantes.
-> Mais informações: <https://duc.zevv.nl/>.
+> Mais informações: <https://htmlpreview.github.io/?https://github.com/zevv/duc/blob/master/doc/duc.1.html>.
 
 - Indexa o diretório /usr, escrevendo a base de dados para o local default em ~/.duc.db:
 
@@ -10,11 +10,11 @@
 
 - Lista todos os arquivos e diretórios dentro do /usr/local, mostrando tamanho relativo dos arquivos em um [g]raph (gráfico):
 
-`duc ls -Fg {{/usr/local}}`
+`duc ls {{[-Fg|--classify --graph]}} {{/usr/local}}`
 
 - Lista todos os arquivos e diretórios dentro do /usr/local em uma visão de árvore recursiva:
 
-`duc ls -Fg -R {{/usr/local}}`
+`duc ls {{[-Fg|--classify --graph]}} {{[-R|--recursive]}} {{/usr/local}}`
 
 - Inicia uma interface gráfica para o usuário explorar o sistema de arquivos exibindo o gráfico sunburst:
 

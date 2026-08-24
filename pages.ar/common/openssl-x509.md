@@ -1,7 +1,7 @@
 # openssl x509
 
 > أمر OpenSSL لإدارة شهادات X.509.
-> لمزيد من التفاصيل: <https://www.openssl.org/docs/manmaster/man1/openssl-x509.html>.
+> لمزيد من التفاصيل: <https://docs.openssl.org/master/man1/openssl-x509/>.
 
 - عرض معلومات الشهادة:
 

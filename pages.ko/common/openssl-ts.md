@@ -1,7 +1,7 @@
 # openssl ts
 
 > OpenSSL 명령어로 타임스탬프를 생성하고 검증합니다.
-> 더 많은 정보: <https://www.openssl.org/docs/manmaster/man1/openssl-ts.html>.
+> 더 많은 정보: <https://docs.openssl.org/master/man1/openssl-ts/>.
 
 - 특정 파일의 SHA-512 타임스탬프 요청을 생성하고 `file.tsq`에 출력:
 

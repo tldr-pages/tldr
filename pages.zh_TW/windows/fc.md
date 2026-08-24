@@ -2,7 +2,7 @@
 
 > 比較兩個檔案或一組檔案間的差異。
 > 以萬用字元 (*) 比較一組檔案。
-> 更多資訊：<https://learn.microsoft.com/windows-server/administration/windows-commands/fc>.
+> 更多資訊：<https://learn.microsoft.com/windows-server/administration/windows-commands/fc>。
 
 - 比較兩個指定檔案：
 

@@ -2,7 +2,7 @@
 
 > Search SELinux policy rules.
 > Part of the `setools` package.
-> See also: `seinfo`, `semodule`.
+> See also: `semodule`.
 > More information: <https://manned.org/sesearch>.
 
 - Search for all allow rules:

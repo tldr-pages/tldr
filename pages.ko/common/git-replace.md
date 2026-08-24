@@ -9,7 +9,7 @@
 
 - 주어진 객체에 대한 기존 대체 참조 삭제:
 
-`git replace --delete {{객체}}`
+`git replace {{[-d|--delete]}} {{객체}}`
 
 - 객체의 내용을 대화형으로 편집:
 

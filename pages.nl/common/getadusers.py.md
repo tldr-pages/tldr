@@ -1,7 +1,7 @@
 # GetADUsers.py
 
 > Haal een lijst met gebruikers op van Active Directory, inclusief attributen zoals laatste logon timestamp en email.
-> Onderdeel van de Impacket suite.
+> Onderdeel van de Impacket-suite.
 > Meer informatie: <https://github.com/fortra/impacket>.
 
 - Ga over alle Active Directory gebruikers en de attributen:

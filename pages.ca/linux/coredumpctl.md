@@ -1,7 +1,7 @@
 # coredumpctl
 
 > Recupera i processa volcats de memòria i les seves metadades.
-> Més informació: <https://www.freedesktop.org/software/systemd/man/coredumpctl.html>.
+> Més informació: <https://www.freedesktop.org/software/systemd/man/latest/coredumpctl.html>.
 
 - Llista tots els volcats de memòria capturats:
 
@@ -13,7 +13,7 @@
 
 - Mostra informació sobre els volcats de memòria que coincideixin amb el `PID` d'un programa:
 
-`coredumpctl info {{PID}}`
+`coredumpctl info {{pid}}`
 
 - Invoca el depurador fent servir l'últim volcat de memòria per un programa:
 

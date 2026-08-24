@@ -2,7 +2,7 @@
 
 > El gestor de paquetes Scoop.
 > Algunos subcomandos como `bucket` tienen su propia documentación de uso.
-> Más información: <https://scoop.sh>.
+> Más información: <https://github.com/ScoopInstaller/Scoop/wiki/Commands>.
 
 - Instala un paquete:
 

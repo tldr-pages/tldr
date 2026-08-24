@@ -1,7 +1,7 @@
 # git cliff
 
 > Un generador de registros de cambios altamente personalizable.
-> Más información: <https://git-cliff.org/docs/usage/args>.
+> Más información: <https://git-cliff.org/docs/usage/args/>.
 
 - Genera un registro de cambios a partir de todos los commits de un repositorio Git y lo guarda en `CHANGELOG.md`:
 

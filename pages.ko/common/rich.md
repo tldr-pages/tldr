@@ -9,7 +9,7 @@
 
 - 줄 번호 및 들여쓰기 가이드 추가:
 
-`rich {{경로/대상/파일.py}} --line-number --guides`
+`rich {{경로/대상/파일.py}} --line-numbers --guides`
 
 - 테마 적용:
 

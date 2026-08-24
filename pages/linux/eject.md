@@ -11,7 +11,7 @@
 
 `eject`
 
-- Eject a specific device (the default order is cd-rom, scsi, floppy and tape):
+- Eject a specific device (the default order is cd-rom, scsi, floppy, and tape):
 
 `eject {{/dev/cdrom}}`
 

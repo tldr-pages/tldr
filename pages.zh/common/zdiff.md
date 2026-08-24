@@ -1,7 +1,7 @@
 # zdiff
 
 > 对 `gzip` 压缩文件调用 `diff`。
-> 更多信息：<https://manned.org/zdiff>.
+> 更多信息：<https://manned.org/zdiff>。
 
 - 比较两个文件，必要时解压它们：
 

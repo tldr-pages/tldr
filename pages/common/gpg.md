@@ -1,6 +1,7 @@
 # gpg
 
 > GNU Privacy Guard, an OpenPGP encryption and signing tool.
+> See also: `sq`.
 > More information: <https://gnupg.org/documentation/manuals/gnupg/Invoking-GPG.html>.
 
 - Create a GPG public and private key interactively:
@@ -27,9 +28,9 @@
 
 `gpg {{[-d|--decrypt]}} {{doc.txt.gpg}}`
 
-- Import a public key:
+- Import a public key from WKD (Web Key Directory) if the key isn't already in the keyring:
 
-`gpg --import {{public.gpg}}`
+`gpg --locate-keys {{alice@example.com}}`
 
 - Export the public/private key for `alice@example.com` (output to `stdout`):
 

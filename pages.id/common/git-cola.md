@@ -1,7 +1,7 @@
 # git cola
 
 > Tampilan antarmuka grafis (GUI) untuk Git yang kuat, apik, dan intuitif.
-> Informasi lebih lanjut: <https://git-cola.readthedocs.io>.
+> Informasi lebih lanjut: <https://git-cola.readthedocs.io/en/latest/git-cola.html>.
 
 - Jalankan program GUI:
 
@@ -17,8 +17,8 @@
 
 - Jalankan dengan membuka repositori Git dengan alamat yang ditentukan:
 
-`git cola --repo {{jalan/menuju/repositori-git}}`
+`git cola {{[-r|--repo]}} {{jalan/menuju/repositori-git}}`
 
 - Terapkan filter jalur ke dalam widget status:
 
-`git cola --status-filter {{filter}}`
+`git cola {{[-s|--status-filter]}} {{filter}}`

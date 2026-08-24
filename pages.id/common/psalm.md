@@ -1,7 +1,7 @@
 # psalm
 
 > Suatu alat analisis kode statis yang dapat dimanfaatkan untuk mencari kesalahan pada aplikasi berbasis PHP.
-> Informasi lebih lanjut: <https://psalm.dev>.
+> Informasi lebih lanjut: <https://psalm.dev/docs/running_psalm/command_line_usage/#command-line-options>.
 
 - Buat sebuah berkas konfigurasi Psalm baru:
 

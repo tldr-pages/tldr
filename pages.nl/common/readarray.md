@@ -11,13 +11,21 @@
 
 `readarray < {{pad/naar/bestand.txt}} {{array_naam}}`
 
-- Verwijder scheidingstekens aan het einde (standaard newline):
+- Verwijder scheidingstekens aan het einde ([t]) (standaard newline):
 
 `readarray < {{pad/naar/bestand.txt}} -t {{array_naam}}`
 
-- Kopieer maximaal het opgegeven aantal regels:
+- Kopieer maximaal `n` regels:
 
-`readarray < {{pad/naar/bestand.txt}} -n {{N}} {{array_naam}}`
+`readarray < {{pad/naar/bestand.txt}} -n {{n}} {{array_naam}}`
+
+- [s]la de eerste `n` regels over:
+
+`readarray < {{pad/naar/bestand.txt}} -s {{n}} {{array_naam}}`
+
+- Zet een aangepast schei[d]ingsteken:
+
+`readarray < {{pad/naar/bestand.txt}} -d {{scheidingsteken}} {{array_naam}}`
 
 - Toon de help:
 

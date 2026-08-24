@@ -1,7 +1,7 @@
 # a2enmod
 
 > Enable an Apache module on Debian-based OSes.
-> More information: <https://manned.org/a2enmod.8>.
+> More information: <https://manned.org/a2enmod>.
 
 - Enable a module:
 

@@ -2,7 +2,7 @@
 
 > Baixa arquivos de `mega.nz`.
 > Parte do conjunto de ferramentas `megatools`.
-> Mais informações: <https://megatools.megous.com/man/megatools-dl.html>.
+> Mais informações: <https://xff.cz/megatools/man/megatools-dl.html>.
 
 - Baixa arquivos de um link `mega.nz` para o diretório atual:
 

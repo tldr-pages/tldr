@@ -1,6 +1,6 @@
 # git check-ignore
 
-> Git yoksayma / dışlama (".gitignore") dosyalarını analiz et.
+> Git yoksayma / dışlama (`.gitignore`) dosyalarını analiz et.
 > Daha fazla bilgi için: <https://git-scm.com/docs/git-check-ignore>.
 
 - Bir dosya veya dizinin yoksayıldığı veya sayılmadığını kontrol et:
@@ -13,7 +13,7 @@
 
 - Her bir satıra tekabül edecek şekilde `stdin`'den yolisimleri kullan:
 
-`git check-ignore --stdin < {{örnek/dosya_sırası}}`
+`git < {{örnek/dosya_sırası}} check-ignore --stdin`
 
 - İndeksi kontrol etme:
 

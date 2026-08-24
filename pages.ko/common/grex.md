@@ -1,13 +1,13 @@
 # grex
 
 > 정규 표현식을 생성.
-> 더 많은 정보: <https://github.com/pemistahl/grex>.
+> 더 많은 정보: <https://github.com/pemistahl/grex#5-how-to-use>.
 
 - 간단한 정규 표현식 생성:
 
 `grex {{공백으로_구분된_문자열}}`
 
-- 대소문자를 구분하지 않는 정규식을 생성:
+- 대소문자를 구분하지 않는 `regex`를 생성:
 
 `grex -i {{공백으로_구분된_문자열}}`
 

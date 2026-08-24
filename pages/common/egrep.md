@@ -1,28 +1,38 @@
 # egrep
 
-> Find patterns in files using extended `regex` (supports `?`, `+`, `{}`, `()`, and `|`).
+> Find patterns in files using extended `regex`es.
+> Note: This command is an alias of `grep --extended-regexp`.
+> See also: `regex`.
 > More information: <https://manned.org/egrep>.
 
-- Search for a pattern within a file:
+- Search for one or more repeated characters:
 
-`egrep "{{search_pattern}}" {{path/to/file}}`
+`egrep '{{a}}+' {{path/to/file}}`
 
-- Search for a pattern within multiple files:
+- Search for zero or one occurrences of a character (optional match):
 
-`egrep "{{search_pattern}}" {{path/to/file1 path/to/file2 ...}}`
+`egrep '{{a}}?' {{path/to/file}}`
 
-- Search `stdin` for a pattern:
+- Search for 10 repetitions of a character:
 
-`cat {{path/to/file}} | egrep {{search_pattern}}`
+`egrep '{{a}}{10}' {{path/to/file}}`
 
-- Print file name and line number for each match:
+- Search for 3 to 7 repetitions of a character:
 
-`egrep {{[-H|--with-filename]}} {{[-n|--line-number]}} "{{search_pattern}}" {{path/to/file}}`
+`egrep '{{a}}{3,7}' {{path/to/file}}`
 
-- Search for a pattern in all files recursively in a directory, ignoring binary files:
+- Search for one of the listed options:
 
-`egrep {{[-r|--recursive]}} --binary-files={{without-match}} "{{search_pattern}}" {{path/to/directory}}`
+`egrep '{{cat}}|{{dog}}|{{mouse}}' {{path/to/file}}`
 
-- Search for lines that do not match a pattern:
+- Search for one of the listed options inside a larger pattern:
 
-`egrep {{[-v|--invert-match]}} "{{search_pattern}}" {{path/to/file}}`
+`egrep 'c({{a}}|{{o}}|{{u}})p' {{path/to/file}}`
+
+- Search for a group of characters repeating one or more times:
+
+`egrep '({{aeiou}})+' {{path/to/file}}`
+
+- Search using standard character classes (more info: <https://www.regular-expressions.info/posixbrackets.html>):
+
+`egrep [[{{:alnum:|:alpha:|:space:|...}}]] {{path/to/file}}`

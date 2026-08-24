@@ -5,13 +5,13 @@
 > 그러나 데이터 자체는 여전히 안전하며, TRIM이 없는 SSD는 더 빨리 마모되므로 TRIM을 활성화하는 것이 좋습니다.
 > 더 많은 정보: <https://manned.org/cryptsetup-open>.
 
-- LUKS 볼륨을 열고 `/dev/mapper/{{매핑_이름}}`에 암호 해독된 매핑 생성:
+- LUKS 볼륨을 열고 `/dev/mapper/매핑_이름`에 암호 해독된 매핑 생성:
 
 `cryptsetup open {{/dev/sdXY}} {{매핑_이름}}`
 
 - 암호 대신 키 파일 사용:
 
-`cryptsetup open --key-file {{경로/대상/파일}} {{/dev/sdXY}} {{매핑_이름}}`
+`cryptsetup open {{[-k|--key-file]}} {{경로/대상/파일}} {{/dev/sdXY}} {{매핑_이름}}`
 
 - 장치에서 TRIM 사용 허용:
 
@@ -23,4 +23,4 @@
 
 - LUKS 볼륨을 열고 암호 해독된 매핑을 읽기 전용으로 설정:
 
-`cryptsetup open --readonly {{/dev/sdXY}} {{매핑_이름}}`
+`cryptsetup open {{[-r|--readonly]}} {{/dev/sdXY}} {{매핑_이름}}`

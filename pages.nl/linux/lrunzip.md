@@ -1,6 +1,6 @@
 # lrunzip
 
-> Dit commando is een alias van `lrzip -d`.
+> Dit commando is een alias van `lrzip --decompress`.
 
 - Bekijk de documentatie van het originele commando:
 

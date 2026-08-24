@@ -3,7 +3,7 @@
 > Konsolowy odtwarzacz dźwięku dla sterownika dźwiękowego ALSA.
 > Więcej informacji: <https://manned.org/aplay>.
 
-- Odtwórz określony plik (częstotliwość próbkowania, ilość bitów, itd. będą określane automatycznie na podstawie formatu):
+- Odtwórz określony plik (częstotliwość próbkowania, ilość bitów, itd. będą określane automatycznie na podstawie formatu):
 
 `aplay {{ścieżka/do/pliku}}`
 

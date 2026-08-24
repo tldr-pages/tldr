@@ -1,7 +1,7 @@
 # jq
 
 > 도메인 특화 언어(DSL)를 사용하는 JSON 처리기.
-> 더 많은 정보: <https://jqlang.github.io/jq/manual/>.
+> 더 많은 정보: <https://jqlang.org/manual/>.
 
 - 특정 표현식을 실행하여 JSON을 색상 및 포맷된 출력으로 표시:
 

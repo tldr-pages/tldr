@@ -5,12 +5,12 @@
 
 - 이미지를 캡처하고 파일명 지정:
 
-`rpicam-jpeg -o {{경로/대상/파일.jpg}}`
+`rpicam-jpeg {{[-o|--output]}} {{경로/대상/파일.jpg}}`
 
 - 설정된 크기로 이미지 캡처:
 
-`rpicam-jpeg -o {{경로/대상/파일.jpg}} --width {{1920}} --height {{1080}}`
+`rpicam-jpeg {{[-o|--output]}} {{경로/대상/파일.jpg}} --width {{1920}} --height {{1080}}`
 
 - 20초의 노출과 150%의 게인으로 이미지 캡처:
 
-`rpicam-jpeg -o {{경로/대상/파일.jpg}} --shutter 20000 --gain 1.5`
+`rpicam-jpeg {{[-o|--output]}} {{경로/대상/파일.jpg}} --shutter 20000 --gain 1.5`

@@ -7,7 +7,7 @@
 
 `brew search {{kata_kunci}}`
 
-- Cari kumpulan cask dan formula menggunakan ekspresi reguler (regex):
+- Cari kumpulan cask dan formula menggunakan ekspresi reguler (`regex`):
 
 `brew search /{{ekspresi_reguler}}/`
 

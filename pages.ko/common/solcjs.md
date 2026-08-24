@@ -1,7 +1,7 @@
 # solcjs
 
 > Solidity 컴파일러를 위한 JavaScript 바인딩 세트.
-> 더 많은 정보: <https://github.com/ethereum/solc-js>.
+> 더 많은 정보: <https://github.com/argotorg/solc-js>.
 
 - 특정 계약을 16진수로 컴파일:
 
@@ -17,7 +17,7 @@
 
 - 외부 코드가 포함된 하나 이상의 경로 지정:
 
-`solcjs --bin --include-path {{경로/대상/폴더}} {{경로/대상/파일.sol}}`
+`solcjs --bin --include-path {{경로/대상/폴더 경로/대상/파일.sol ...}}`
 
 - 생성된 바이트코드 최적화:
 

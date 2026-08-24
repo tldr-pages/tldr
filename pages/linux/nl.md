@@ -31,6 +31,6 @@
 
 `nl {{[-w|--number-width]}} {{col_width}} {{path/to/file}}`
 
-- Use a specific string to separate the line numbers from the lines (TAB by default):
+- Use a specific string to separate the line numbers from the lines (`TAB` by default):
 
 `nl {{[-s|--number-separator]}} {{separator}} {{path/to/file}}`

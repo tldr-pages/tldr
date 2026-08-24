@@ -1,6 +1,6 @@
 # piodebuggdb
 
-> To polecenie jest aliasem `pio debug --interface=gdb`.
+> To polecenie jest aliasem `pio debug --interface gdb`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

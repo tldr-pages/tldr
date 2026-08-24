@@ -9,12 +9,12 @@
 
 - 로그 출력 파일 변경:
 
-`pw-profiler --output {{경로/대상/파일.log}}`
+`pw-profiler {{[-o|--output]}} {{경로/대상/파일.log}}`
 
 - 원격 인스턴스를 프로파일링:
 
-`pw-profiler --remote {{원격_이름}}`
+`pw-profiler {{[-r|--remote]}} {{원격_이름}}`
 
 - 도움말 표시:
 
-`pw-profiler --help`
+`pw-profiler {{[-h|--help]}}`

@@ -1,7 +1,8 @@
 # lsattr
 
 > 列出 Linux 系统下的文件属性。
-> 更多信息：<https://manned.org/lsattr>.
+> 另请参阅：`chattr`。
+> 更多信息：<https://manned.org/lsattr>。
 
 - 显示当前目录下文件的属性：
 

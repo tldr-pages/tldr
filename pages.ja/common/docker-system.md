@@ -1,7 +1,7 @@
 # docker system
 
 > Dockerのデータ管理とシステム全体に関わる情報の表示をします。
-> もっと詳しく: <https://docs.docker.com/reference/cli/docker/system/>。
+> 詳細情報: <https://docs.docker.com/reference/cli/docker/system/>。
 
 - ヘルプの表示をする:
 

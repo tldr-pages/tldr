@@ -1,7 +1,7 @@
 # mumble
 
 > Low-latency, high quality voice chat software.
-> More information: <https://www.mumble.info>.
+> More information: <https://manned.org/mumble>.
 
 - Open Mumble:
 

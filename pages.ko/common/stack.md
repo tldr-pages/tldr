@@ -1,7 +1,7 @@
 # stack
 
 > Haskell 프로젝트 관리 도구.
-> 더 많은 정보: <https://github.com/commercialhaskell/stack>.
+> 더 많은 정보: <https://docs.haskellstack.org/en/stable/commands/>.
 
 - 새 패키지 생성:
 

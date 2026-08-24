@@ -1,7 +1,7 @@
 # nsxiv
 
 > Neo Simple X 이미지 뷰어.
-> 더 많은 정보: <https://nsxiv.codeberg.page/man>.
+> 더 많은 정보: <https://nsxiv.codeberg.page/man/>.
 
 - 이미지 열기:
 
@@ -13,7 +13,7 @@
 
 - 폴더를 재귀적으로 검색하여 이미지를 보기:
 
-`nsxiv -r {{경로/대상/폴더1 경로/대상/폴더2 ...}}`
+`nsxiv {{[-r|--recursive]}} {{경로/대상/폴더1 경로/대상/폴더2 ...}}`
 
 - nsxiv 종료:
 

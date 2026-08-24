@@ -1,7 +1,7 @@
 # zotero
 
 > 管理你的参考书目。
-> 更多信息：<https://www.zotero.org/support>.
+> 更多信息：<https://www.zotero.org/support/>。
 
 - 使用图形用户界面运行：
 

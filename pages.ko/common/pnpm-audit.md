@@ -18,11 +18,11 @@
 
 - [D]ev 의존성만 감사:
 
-`pnpm audit --dev`
+`pnpm audit {{[-D|--dev]}}`
 
 - [P]roduction 의존성만 감사:
 
-`pnpm audit --prod`
+`pnpm audit {{[-P|--prod]}}`
 
 - 선택적 의존성을 감사에서 제외:
 

@@ -11,7 +11,7 @@
 
 `ionic serve`
 
-- Generate new app component, directive, page, pipe, provider or tabs:
+- Generate new app component, directive, page, pipe, provider, or tabs:
 
 `ionic g {{page}}`
 

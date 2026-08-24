@@ -1,7 +1,7 @@
 # ansible-galaxy
 
 > Erstelle und verwalte Ansible Rollen.
-> Weitere Informationen: <https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html>.
+> Weitere Informationen: <https://docs.ansible.com/projects/ansible/latest/cli/ansible-galaxy.html>.
 
 - Installiere eine Rolle:
 

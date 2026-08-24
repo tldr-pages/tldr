@@ -1,7 +1,7 @@
 # snowsql
 
 > Snowflake의 데이터 클라우드를 위한 SnowSQL 커맨드라인 클라이언트.
-> 더 많은 정보: <https://docs.snowflake.com/en/user-guide/snowsql.html>.
+> 더 많은 정보: <https://docs.snowflake.com/en/user-guide/snowsql>.
 
 - <https://account.snowflakecomputing.com>의 특정 인스턴스에 연결 (비밀번호는 프롬프트 또는 설정 파일에서 제공 가능):
 

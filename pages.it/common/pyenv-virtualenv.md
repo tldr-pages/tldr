@@ -1,11 +1,11 @@
 # pyenv virtualenv
 
 > Crea ambienti virtuali basati sulle distribuzioni Python che si hanno installate.
-> Maggiori informazioni: <https://github.com/pyenv/pyenv-virtualenv>.
+> Maggiori informazioni: <https://github.com/pyenv/pyenv-virtualenv#usage>.
 
 - Crea un nuovo ambiente virtuale basato su Python 3.6.6:
 
-`pyenv virtualenv {{3.6.6}} {{virtualenv_name}}`
+`pyenv virtualenv 3.6.6 {{virtualenv_name}}`
 
 - Elenca tutti gli ambienti virtuali esistenti:
 

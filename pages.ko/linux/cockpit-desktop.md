@@ -6,7 +6,7 @@
 
 - 페이지 열기:
 
-`cockpit-desktop {{url}} {{SSH_호스트}}`
+`cockpit-desktop {{url}} {{ssh_호스트}}`
 
 - 저장소 페이지 열기:
 

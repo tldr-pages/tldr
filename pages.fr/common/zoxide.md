@@ -2,7 +2,7 @@
 
 > Garde une trace des répertoires les plus utilisés.
 > Utilise un algorithme de classement pour identifier le meilleur résultat.
-> Plus d'informations : <https://github.com/ajeetdsouza/zoxide>.
+> Plus d'informations : <https://manned.org/zoxide>.
 
 - Aller au répertoire avec le meilleur classement qui contient "foo" dans son nom :
 

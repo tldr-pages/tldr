@@ -8,12 +8,14 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 
 [en](#en) •
 [ar](#ar) •
+[bg](#bg) •
 [bn](#bn) •
 [bs](#bs) •
 [ca](#ca) •
 [cs](#cs) •
 [da](#da) •
 [de](#de) •
+[el](#el) •
 [es](#es) •
 [fa](#fa) •
 [fi](#fi) •
@@ -25,6 +27,7 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 [ko](#ko) •
 [lo](#lo) •
 [ml](#ml) •
+[nb](#nb) •
 [ne](#ne) •
 [nl](#nl) •
 [no](#no) •
@@ -33,7 +36,7 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 [pt_PT](#pt_pt) •
 [ro](#ro) •
 [ru](#ru) •
-[sh](#sh) •
+[si](#si) •
 [sr](#sr) •
 [sv](#sv) •
 [ta](#ta) •
@@ -58,6 +61,14 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 
 ```markdown
 > لمزيد من التفاصيل: <https://example.com>.
+```
+
+---
+
+### bg
+
+```markdown
+> Повече информация: <https://example.com>.
 ```
 
 ---
@@ -106,6 +117,14 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 
 ```markdown
 > Weitere Informationen: <https://example.com>.
+```
+
+---
+
+### el
+
+```markdown
+> Περισσότερες πληροφορίες: <https://example.com>.
 ```
 
 ---
@@ -169,7 +188,7 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 ### ja
 
 ```markdown
-> もっと詳しく: <https://example.com>。
+> 詳細情報: <https://example.com>。
 ```
 
 ---
@@ -194,6 +213,14 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 
 ```markdown
 > കൂടുതൽ വിവരങ്ങൾ: <https://example.com>.
+```
+
+---
+
+### nb
+
+```markdown
+> Mer informasjon: <https://example.com>.
 ```
 
 ---
@@ -262,10 +289,10 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 
 ---
 
-### sh
+### si
 
 ```markdown
-> Više informacija: <https://example.com>.
+> වැඩිදුර තොරතුරු සඳහා: <https://example.com>.
 ```
 
 ---
@@ -329,7 +356,7 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 ### zh
 
 ```markdown
-> 更多信息：<https://example.com>.
+> 更多信息：<https://example.com>。
 ```
 
 ---
@@ -337,7 +364,7 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 ### zh_TW
 
 ```markdown
-> 更多資訊：<https://example.com>.
+> 更多資訊：<https://example.com>。
 ```
 
 ---

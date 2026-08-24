@@ -5,12 +5,12 @@
 
 - Compile a source code file into an object file:
 
-`mpicc -c {{path/to/file.c}}`
+`mpicc -c {{path/to/file}}.c`
 
 - Link an object file and make an executable:
 
-`mpicc -o {{executable}} {{path/to/object_file.o}}`
+`mpicc -o {{executable}} {{path/to/object_file}}.o`
 
 - Compile and link source code in a single command:
 
-`mpicc -o {{executable}} {{path/to/file.c}}`
+`mpicc -o {{executable}} {{path/to/file}}.c`

@@ -1,7 +1,7 @@
 # keychain
 
 > Re-use ssh-agent and/or gpg-agent between logins.
-> More information: <https://funtoo.org/Keychain>.
+> More information: <https://www.funtoo.org/Keychain>.
 
 - Check for a running ssh-agent, and start one if needed:
 

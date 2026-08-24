@@ -10,11 +10,11 @@
 
 - Ouvrir un fichier ou un dossier dans une nouvelle fenêtre :
 
-`atom -n {{chemin/vers/fichier_ou_dossier}}`
+`atom {{[-n|--new-window]}} {{chemin/vers/fichier_ou_dossier}}`
 
 - Ouvrir un fichier ou un dossier dans une fenêtre existante :
 
-`atom --add {{chemin/vers/fichier_ou_dossier}}`
+`atom {{[-a|--add]}} {{chemin/vers/fichier_ou_dossier}}`
 
 - Ouvrir en mode sans-échec (les extensions ne seront pas chargées) :
 
@@ -22,8 +22,8 @@
 
 - Empêcher Atom de se lancer en arrière-plan, en le forçant à s'attacher au terminal :
 
-`atom --foreground`
+`atom {{[-f|--foreground]}}`
 
 - Attendre la fermeture de la fenêtre avant de quitter (utile pour l'éditeur de commits Git) :
 
-`atom --wait`
+`atom {{[-w|--wait]}}`

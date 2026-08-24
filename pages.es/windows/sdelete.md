@@ -1,7 +1,7 @@
 # sdelete
 
 > Elimina de forma segura archivos/directorios del disco, o limpia el espacio libre en un volumen/disco físico.
-> Más información: <https://learn.microsoft.com/en-us/sysinternals/downloads/sdelete>.
+> Más información: <https://learn.microsoft.com/sysinternals/downloads/sdelete>.
 
 - Eliminar archivos con 3 [p]asadas:
 

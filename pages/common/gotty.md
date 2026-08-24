@@ -1,7 +1,7 @@
 # gotty
 
 > Share your terminal as a web application.
-> More information: <https://github.com/yudai/gotty>.
+> More information: <https://github.com/yudai/gotty#usage>.
 
 - Share result of command:
 

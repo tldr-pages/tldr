@@ -1,7 +1,7 @@
 # filebrowser
 
 > Sencillo servidor web HTTP para gestionar archivos y directorios.
-> Más información: <https://filebrowser.org>.
+> Más información: <https://filebrowser.org/cli/filebrowser.html>.
 
 - Inicia una nueva instancia del servidor sirviendo el directorio actual:
 

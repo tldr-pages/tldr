@@ -1,28 +1,28 @@
 # choco list
 
-> Toon een lijst van pakketten met Chocolatey.
-> Meer informatie: <https://chocolatey.org/docs/commands-list>.
+> Toon een lijst van lokaal geïnstalleerde pakketten met Chocolatey.
+> Meer informatie: <https://docs.chocolatey.org/en-us/choco/commands/list/>.
 
-- Toon alle beschikbare pakketten:
+- Toon lokaal geïnstalleerde pakketten:
 
 `choco list`
 
-- Toon alle lokaal geïnstalleerde pakketten:
-
-`choco list --local-only`
-
-- Toon een lijst inclusief lokale programma's:
+- Toon geïnstalleerde inclusief systeemprogramma's:
 
 `choco list {{[-i|--include-programs]}}`
 
-- Toon alleen goedgekeurde pakketten:
+- Toon alleen de ID's van de geïnstalleerde pakketten:
 
-`choco list --approved-only`
+`choco list --id-only`
 
-- Geef een aangepaste bron op om pakketten van weer te geven:
+- Toon geïnstalleerde pakketten die exact overeenkomen met een naam:
 
-`choco list {{[-s|--source]}} {{bron_url|alias}}`
+`choco list {{pakket}} {{[-e|--exact]}}`
 
-- Geef een gebruikersnaam en wachtwoord voor authenticatie op:
+- Toon geïnstalleerde pakketten die beginnen met een specifieke voorvoegsel:
 
-`choco list --user {{gebruikersnaam}} --password {{wachtwoord}}`
+`choco list --id-starts-with {{voorvoegsel}}`
+
+- Toon geïnstalleerde pakketten van een alternatieve bron:
+
+`choco list {{[-s|--source]}} {{windowsfeatures|ruby|cygwin|...}}`

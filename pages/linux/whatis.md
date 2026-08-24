@@ -1,7 +1,7 @@
 # whatis
 
 > Display one-line descriptions from manual pages.
-> See also: `whereis`, `which`, `type`.
+> See also: `man`, `whereis`.
 > More information: <https://manned.org/whatis>.
 
 - Display a description from a man page:
@@ -10,16 +10,16 @@
 
 - Don't cut the description off at the end of the line:
 
-`whatis --long {{command}}`
+`whatis {{[-l|--long]}} {{command}}`
 
 - Display descriptions for all commands matching a glob:
 
-`whatis --wildcard {{net*}}`
+`whatis {{[-w|--wildcard]}} {{net*}}`
 
 - Search man page descriptions with a `regex`:
 
-`whatis --regex '{{wish[0-9]\.[0-9]}}'`
+`whatis {{[-r|--regex]}} '{{wish[0-9]\.[0-9]}}'`
 
 - Display descriptions in a specific language:
 
-`whatis --locale={{en}} {{command}}`
+`whatis {{[-L|--locale]}} {{en}} {{command}}`

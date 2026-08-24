@@ -1,7 +1,7 @@
 # phpspec
 
 > PHP용 행동 주도 개발 도구.
-> 더 많은 정보: <https://phpspec.net>.
+> 더 많은 정보: <https://phpspec.net/en/stable/cookbook/console.html>.
 
 - 클래스에 대한 사양 작성:
 
@@ -17,11 +17,11 @@
 
 - 특정 구성 파일을 사용하여 사양 실행:
 
-`phpspec run -c {{경로/대상/구성_파일}}`
+`phpspec run {{[-c|--config]}} {{경로/대상/구성_파일}}`
 
 - 특정 부트스트랩 파일을 사용하여 사양 실행:
 
-`phpspec run -b {{경로/대상/부트스트랩_파일}}`
+`phpspec run {{[-b|--bootstrap]}} {{경로/대상/부트스트랩_파일}}`
 
 - 코드 생성 프롬프트 비활성화:
 

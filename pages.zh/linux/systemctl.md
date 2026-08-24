@@ -1,7 +1,7 @@
 # systemctl
 
 > 控制 systemd 系统和服务管理器。
-> 更多信息：<https://www.freedesktop.org/software/systemd/man/systemctl.html>.
+> 更多信息：<https://www.freedesktop.org/software/systemd/man/latest/systemctl.html>。
 
 - 显示所有正在运行的服务：
 

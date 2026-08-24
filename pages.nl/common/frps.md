@@ -8,9 +8,9 @@
 
 `frps`
 
-- Start de service met het nieuwere TOML-configuratiebestand (`frps.toml` in plaats van `frps.ini`) in de huidige map:
+- Start de service met het nieuwere TOML-configuratiebestand:
 
-`frps {{[-c|--config]}} ./frps.toml`
+`frps {{[-c|--config]}} {{pad/naar/frps.toml}}`
 
 - Start de service met een specifiek configuratiebestand:
 

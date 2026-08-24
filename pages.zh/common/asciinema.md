@@ -1,8 +1,8 @@
 # asciinema
 
 > 录制和回放终端会话，并可选分享到 <https://asciinema.org>。
-> 另见：`terminalizer`。
-> 更多信息：<https://docs.asciinema.org/manual/cli/>.
+> 另请参阅：`terminalizer`, `agg`。
+> 更多信息：<https://docs.asciinema.org/manual/cli/>。
 
 - 将本地安装的 `asciinema` 与 asciinema.org 账号关联：
 
@@ -18,7 +18,7 @@
 
 - 回放托管在 <https://asciinema.org> 的终端录制：
 
-`asciinema play https://asciinema.org/a/{{文件 ID}}`
+`asciinema play https://asciinema.org/a/{{文件id}}`
 
 - 新建录制，限制空闲时间最多 2.5 秒：
 

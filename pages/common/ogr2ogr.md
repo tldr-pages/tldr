@@ -1,7 +1,7 @@
 # ogr2ogr
 
 > Convert geospatial vector data between file formats.
-> More information: <https://gdal.org/programs/ogr2ogr.html>.
+> More information: <https://gdal.org/en/stable/programs/ogr2ogr.html>.
 
 - Convert a Shapefile into a GeoPackage:
 

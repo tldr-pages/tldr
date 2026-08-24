@@ -1,7 +1,7 @@
 # kubectl describe
 
 > Details von Kubernetes-Objekten und -Ressourcen anzeigen.
-> Weitere Informationen: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_describe>.
+> Weitere Informationen: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_describe/>.
 
 - Zeige Details zu Pods in einem bestimmten [n]amespace an:
 

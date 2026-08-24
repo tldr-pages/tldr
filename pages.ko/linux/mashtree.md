@@ -2,7 +2,7 @@
 
 > 유전체로부터 빠르게 트리를 생성합니다.
 > 계통수를 생성하지 않습니다.
-> 더 많은 정보: <https://github.com/lskatz/mashtree>.
+> 더 많은 정보: <https://github.com/lskatz/mashtree#usage>.
 
 - fastq 및/또는 fasta 파일로부터 여러 스레드를 사용하여 가장 빠르게 트리를 생성하고, newick 파일로 출력:
 

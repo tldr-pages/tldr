@@ -19,7 +19,7 @@
 
 `cal -y -j`
 
-- Markeer ([h]) vandaag en toon [3] maanden rondom de datum::
+- Markeer ([h]) vandaag en toon [3] maanden rondom de datum:
 
 `cal -h -3 {{maand}} {{jaar}}`
 

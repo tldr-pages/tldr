@@ -7,7 +7,7 @@
 
 `crane index filter`
 
-- os/arch{{/variant}}{{:osversion}}{{,<platform>}} 형식으로 기본에서 유지할 플랫폼을 지정:
+- `os/arch/variant:osversion,platform` 형식으로 기본에서 유지할 플랫폼을 지정:
 
 `crane index filter --platform {{플랫폼1 플랫폼2 ...}}`
 

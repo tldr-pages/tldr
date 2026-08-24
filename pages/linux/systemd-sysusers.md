@@ -2,7 +2,7 @@
 
 > Create system users and groups.
 > If the config file is not specified, files in the `sysusers.d` directories are used.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemd-sysusers.html>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemd-sysusers.html>.
 
 - Create users and groups from a specific configuration file:
 

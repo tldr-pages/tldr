@@ -8,7 +8,7 @@
 
 `sudo certbot certonly --webroot {{[-w|--webroot-path]}} {{pad/naar/webroot}} {{[-d|--domain]}} {{subdomein.example.com}}`
 
-- Verkrijg een nieuw certificaat via nginx authorisatie, installeer het nieuwe certificaat automatisch:
+- Verkrijg een nieuw certificaat via `nginx` authorisatie, installeer het nieuwe certificaat automatisch:
 
 `sudo certbot --nginx {{[-d|--domain]}} {{subdomein.example.com}}`
 

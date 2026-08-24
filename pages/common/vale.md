@@ -1,7 +1,7 @@
 # vale
 
 > Extensible style checker that supports multiple markup formats, such as Markdown and AsciiDoc.
-> More information: <https://vale.sh>.
+> More information: <https://vale.sh/docs/cli>.
 
 - Check the style of a file:
 

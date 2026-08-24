@@ -1,15 +1,15 @@
 # aptitude
 
 > Eina de gestió de paquets per a Debian i Ubuntu.
-> Més informació: <https://manned.org/aptitude.8>.
+> Més informació: <https://manned.org/aptitude>.
 
 - Sincronitza la llista de paquets i versions disponibles (es recomana executar aquest commandament abans que qualsevol altre `aptitude`):
 
-`aptitude update`
+`sudo aptitude update`
 
 - Instal·lar un nou paquet i les seves dependències:
 
-`aptitude install {{paquet}}`
+`sudo aptitude install {{paquet}}`
 
 - Buscar un paquet:
 
@@ -21,16 +21,16 @@
 
 - Elimina un paquet i tots els paquets que depenen d'ell:
 
-`aptitude remove {{paquet}}`
+`sudo aptitude remove {{paquet}}`
 
 - Actualitza tots els paquets a les noves versions disponibles:
 
-`aptitude upgrade`
+`sudo aptitude upgrade`
 
 - Actualitza paquets instal·lats (com `aptitude upgrade`), però elimina els paquets obsolets i instal·la paquets nous per satisfer les dependències:
 
-`aptitude full-upgrade`
+`sudo aptitude full-upgrade`
 
 - Manté un paquet perquè no sigui actualitzat automàticament:
 
-`aptitude hold '?installed({{paquete}})'`
+`sudo aptitude hold '?installed({{paquete}})'`

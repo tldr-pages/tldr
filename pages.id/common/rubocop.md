@@ -1,7 +1,7 @@
 # rubocop
 
 > Analisa berkas Ruby.
-> Informasi lebih lanjut: <https://docs.rubocop.org/rubocop/usage/basic_usage.html>.
+> Informasi lebih lanjut: <https://docs.rubocop.org/rubocop/latest/usage/cli_reference.html>.
 
 - Periksa semua berkas dalam direktori saat ini (termasuk direktori-direktori di dalamnya):
 

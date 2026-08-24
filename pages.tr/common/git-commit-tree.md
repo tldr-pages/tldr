@@ -1,7 +1,7 @@
 # git commit-tree
 
 > Commit cisimleri oluşturmaya yarayan düşük seviyeli araç.
-> Ayrıca `git commit` sayfasına bakılması önerilir.
+> Ayrıca bakınız: `git commit`.
 > Daha fazla bilgi için: <https://git-scm.com/docs/git-commit-tree>.
 
 - Belirtilen mesaj ile bir commit cismi oluştur:

@@ -1,6 +1,6 @@
 # gdf
 
-> Perintah ini merupakan alias dari `-p linux df`.
+> Perintah ini merupakan alias dari GNU `df`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 

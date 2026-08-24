@@ -1,6 +1,7 @@
 # unzip
 
 > Ferramenta de descompactação de arquivos zip.
+> Veja também: `zip`.
 > Mais informações: <https://manned.org/unzip>.
 
 - Extrai arquivos zip:
@@ -21,8 +22,8 @@
 
 - Lista conteúdos de arquivos zip:
 
-`unzip -l {{caminho/para/arquivo.zip}}`
+`unzip -l {{caminho/para/arquivo}}.zip`
 
 - Extrai arquivos zip sem a estrutura dos diretórios:
 
-`unzip -j {{caminho/para/arquivo.zip}} {{caminho/para/arquivo1 caminho/para/arquivo2 ...}}`
+`unzip -j {{caminho/para/arquivo}}.zip {{caminho/para/arquivo1 caminho/para/arquivo2 ...}}`

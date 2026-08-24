@@ -9,4 +9,4 @@
 
 - Inicia un proceso de recolección de basura más rápido pero menos exhaustivo:
 
-`dolt gc --shallow`
+`dolt gc {{[-s|--shallow]}}`

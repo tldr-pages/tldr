@@ -1,7 +1,7 @@
 # mid3v2
 
 > 오디오 태그 편집.
-> 같이 보기: `id3v2`.
+> 관련 항목: `id3v2`.
 > 더 많은 정보: <https://mutagen.readthedocs.io/en/latest/man/mid3v2.html>.
 
 - 지원되는 모든 ID3v2.3 또는 ID3v2.4 프레임과 그 의미 나열:

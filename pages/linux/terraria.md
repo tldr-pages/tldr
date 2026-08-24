@@ -5,8 +5,8 @@
 
 - Start an interactive server setup:
 
-`{{path/to/TerrariaServer}}`
+`{{path/to}}/TerrariaServer`
 
 - Start a Terraria server:
 
-`{{path/to/TerrariaServer}} -world {{path/to/world.wld}}`
+`{{path/to}}/TerrariaServer -world {{path/to/world.wld}}`

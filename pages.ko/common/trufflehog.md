@@ -1,7 +1,7 @@
 # trufflehog
 
 > 파일, Git 저장소, S3 버킷 및 Docker 이미지에서 인증 정보를 찾고 검증.
-> 더 많은 정보: <https://github.com/trufflesecurity/trufflehog>.
+> 더 많은 정보: <https://github.com/trufflesecurity/trufflehog#memo-usage>.
 
 - Git 저장소에서 검증된 비밀 검색:
 

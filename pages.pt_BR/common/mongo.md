@@ -1,7 +1,7 @@
 # mongo
 
 > Cliente shell interativo de MongoDB.
-> Mais informações: <https://docs.mongodb.com/manual/reference/program/mongo>.
+> Mais informações: <https://www.mongodb.com/docs/mongodb-shell/>.
 
 - Conecta a uma base de dados local na porta padrão (mongodb://localhost:27017):
 

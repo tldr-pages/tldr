@@ -1,37 +1,38 @@
 # virsh
 
-> Manage `virsh` guest domains. (Note: `guest_id` can be the ID, name or UUID of the guest).
+> Manage `virsh` guest domains.
+> Note: Some of the commands below may require specifying `virsh --connect URI` explicitly.
 > Some subcommands such as `list` have their own usage documentation.
 > More information: <https://libvirt.org/manpages/virsh.html>.
 
-- Connect to a hypervisor session:
+- Connect to a hypervisor session interactively:
 
-`virsh connect {{qemu:///system}}`
+`virsh {{[-c|--connect]}} {{qemu:///system|qemu:///session|xen:///system|lxc:///system|...}}`
+
+- List all domains:
+
+`virsh {{[-c|--connect]}} {{uri}} list --all`
 
 - Activate a network named `default`:
 
 `sudo virsh net-start {{default}}`
 
-- List all domains:
+- Create a domain from a configuration file:
 
-`virsh list --all`
+`sudo virsh create {{path/to/config_file.xml}}`
 
-- Create a guest from a configuration file:
+- Edit a domain's configuration file (editor can be changed with `$EDITOR` or `$VISUAL`):
 
-`virsh create {{path/to/config_file.xml}}`
+`sudo virsh edit {{domain}}`
 
-- Edit a guest's configuration file (editor can be changed with $EDITOR):
+- Start/reboot/reset/shutdown/destroy/suspend/resume a domain:
 
-`virsh edit {{guest_id}}`
+`sudo virsh {{start|reboot|reset|shutdown|destroy|suspend|resume}} {{domain}}`
 
-- Start/reboot/shutdown/suspend/resume a guest:
+- Save the current running state of a domain (RAM, but not disk state) to a state file (domain will be powered off):
 
-`virsh {{command}} {{guest_id}}`
+`sudo virsh save {{domain}} {{path/to/state_file}}`
 
-- Save the current state of a guest to a file:
+- Remove storage and snapshots of a stopped domain:
 
-`virsh save {{guest_id}} {{filename}}`
-
-- Delete a running guest:
-
-`virsh destroy {{guest_id}} && virsh undefine {{guest_id}}`
+`sudo virsh undefine {{domain}} --remove-all-storage --snapshots-metadata`

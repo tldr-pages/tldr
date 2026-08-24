@@ -1,7 +1,7 @@
 # if
 
 > 쉘 스크립트에서 조건부 처리를 수행.
-> 참고: `test`, `[`.
+> 관련 항목: `test`, `[`.
 > 더 많은 정보: <https://www.gnu.org/software/bash/manual/bash.html#Conditional-Constructs>.
 
 - 조건 명령어의 종료 상태가 0인 경우, 지정된 명령을 실행:
@@ -34,4 +34,4 @@
 
 - 가능한 모든 조건을 나열 (`test`는 `[`의 별칭; 둘 다 일반적으로 `if`와 함께 사용됨):
 
-`man [`
+`man test`

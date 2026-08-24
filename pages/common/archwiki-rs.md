@@ -1,6 +1,6 @@
 # archwiki-rs
 
-> Read, search and download pages from the ArchWiki.
+> Read, search, and download pages from the ArchWiki.
 > More information: <https://gitlab.com/lucifayr/archwiki-rs>.
 
 - Read a page from the ArchWiki:

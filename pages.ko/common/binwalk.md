@@ -1,7 +1,7 @@
 # binwalk
 
 > 펌웨어 분석 도구.
-> 더 많은 정보: <https://github.com/ReFirmLabs/binwalk>.
+> 더 많은 정보: <https://manned.org/binwalk>.
 
 - 바이너리 파일 스캔:
 
@@ -13,7 +13,7 @@
 
 - 재귀 깊이를 2로 제한하는 바이너리에서 파일을 재귀적으로 추출:
 
-`binwalk {{[-e|--extract]}} {{[-M|--matryoshka]}} {{[-d|--depth]}} {{2}} {{경로/대상/바이너리}}`
+`binwalk {{[-e|--extract]}} {{[-M|--matryoshka]}} {{[-d|--depth]}} 2 {{경로/대상/바이너리}}`
 
 - 지정된 파일 서명을 사용하여 바이너리에서 파일을 추출:
 

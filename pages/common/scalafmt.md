@@ -2,7 +2,7 @@
 
 > Code formatter for Scala.
 > Configurations are stored in the `.scalafmt.conf` file.
-> More information: <https://scalameta.org/scalafmt>.
+> More information: <https://scalameta.org/scalafmt/>.
 
 - Reformat all `.scala` files in the current directory recursively:
 

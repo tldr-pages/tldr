@@ -1,7 +1,7 @@
 # gdal_translate
 
 > 래스터 데이터를 다양한 형식으로 변환.
-> 더 많은 정보: <https://gdal.org/programs/gdal_translate.html>.
+> 더 많은 정보: <https://gdal.org/en/stable/programs/gdal_translate.html>.
 
 - 래스터 데이터세트를 JPEG 형식으로 변환:
 

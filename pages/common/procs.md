@@ -1,7 +1,7 @@
 # procs
 
 > Display information about the active processes.
-> More information: <https://github.com/dalance/procs>.
+> More information: <https://github.com/dalance/procs/blob/master/man/procs.1.adoc>.
 
 - List all processes showing the PID, user, CPU usage, memory usage, and the command which started them:
 
@@ -11,7 +11,7 @@
 
 `procs --tree`
 
-- List information about processes, if the commands which started them contain Zsh:
+- List information about processes, if the commands which started them contain `zsh`:
 
 `procs {{zsh}}`
 

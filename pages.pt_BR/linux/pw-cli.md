@@ -1,6 +1,7 @@
 # pw-cli
 
 > Gerencia módulos, objetos, nós, dispositivos, conexões e muito mais de uma instância PipeWire.
+> Veja também: `wpctl`.
 > Mais informações: <https://docs.pipewire.org/page_man_pw-cli_1.html>.
 
 - Exibe todos os nós (dispositivos de entrada e saída) com os seus IDs:

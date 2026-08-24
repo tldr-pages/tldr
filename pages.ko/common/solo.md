@@ -1,7 +1,7 @@
 # solo
 
 > Solo 하드웨어 보안 키와 상호 작용.
-> 더 많은 정보: <https://github.com/solokeys/solo-python>.
+> 더 많은 정보: <https://github.com/solokeys/solo1-cli>.
 
 - 연결된 Solo 목록 표시:
 

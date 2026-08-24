@@ -1,7 +1,7 @@
 # jc
 
 > Convert the output of multiple commands to JSON.
-> More information: <https://github.com/kellyjonbrazil/jc>.
+> More information: <https://github.com/kellyjonbrazil/jc#usage>.
 
 - Convert command output to JSON via pipe:
 

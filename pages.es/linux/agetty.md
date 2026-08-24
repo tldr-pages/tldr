@@ -13,9 +13,9 @@
 
 `agetty {{[-t|--timeout]}} {{tiempo_de_espera_en_segundos}} -`
 
-- Asume que `tty` es de [8]-bits, sobreescribiendo la variable de entorno `TERM` establecida por `init`:
+- Asume que `tty` es de [8]-bits, sobreescribiendo la variable de entorno `$TERM` establecida por `init`:
 
-`agetty -8 - {{variable_term}}`
+`agetty {{[-8|--8bits]}} - {{variable_term}}`
 
 - Omite el inicio de sesión e invoca, como superusuario, otro programa de inicio de sesión en lugar de `/bin/login`:
 
@@ -27,4 +27,4 @@
 
 - Cambia el directorio raíz y escribe un host falso en el archivo `utmp`:
 
-`agetty {{[-r|--chroot]}} {{/ruta/a/raíz_directorio}} {{[-H|--host]}} {{host_falso}} -`
+`agetty {{[-r|--chroot]}} /{{ruta/a/raíz_directorio}} {{[-H|--host]}} {{host_falso}} -`

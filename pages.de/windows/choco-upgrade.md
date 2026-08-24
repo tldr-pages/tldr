@@ -1,7 +1,7 @@
 # choco upgrade
 
 > Aktualisiere mit Chocolatey ein oder mehrere Pakete.
-> Weitere Informationen: <https://chocolatey.org/docs/commands-upgrade>.
+> Weitere Informationen: <https://docs.chocolatey.org/en-us/choco/commands/upgrade/>.
 
 - Aktualisiere ein oder mehrere Pakete, deren Namen mit Leerzeichen getrennt sind:
 
@@ -21,12 +21,12 @@
 
 - Stimme allen Fragen automatisch zu:
 
-`choco upgrade {{paket}} --yes`
+`choco upgrade {{paket}} {{[-y|--yes]}}`
 
 - Gib eine eigene Quelle an, von der Pakete aktualisiert werden:
 
-`choco upgrade {{paket}} --source {{quell_url|alias}}`
+`choco upgrade {{paket}} {{[-s|--source]}} {{quell_url|alias}}`
 
 - Gib einen Benutzernamen und ein Passwort für die Authentifizierung an:
 
-`choco upgrade {{paket}} --user {{benutzername}} --password {{passwort}}`
+`choco upgrade {{paket}} {{[-u|--user]}} {{benutzername}} {{[-p|--password]}} {{passwort}}`

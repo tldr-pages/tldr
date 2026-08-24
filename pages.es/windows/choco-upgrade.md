@@ -1,7 +1,7 @@
 # choco upgrade
 
 > Actualiza uno o más paquetes con Chocolatey.
-> Más información: <https://chocolatey.org/docs/commands-upgrade>.
+> Más información: <https://docs.chocolatey.org/en-us/choco/commands/upgrade/>.
 
 - Actualizar uno o más paquetes:
 
@@ -21,12 +21,12 @@
 
 - Confirmar automáticamente todos los mensajes:
 
-`choco upgrade {{paquete}} --yes`
+`choco upgrade {{paquete}} {{[-y|--yes]}}`
 
 - Especificar una fuente personalizada para recibir paquetes:
 
-`choco upgrade {{paquete}} --source {{url_fuente|alias}}`
+`choco upgrade {{paquete}} {{[-s|--source]}} {{url_fuente|alias}}`
 
 - Proporcionar un nombre de usuario y una contraseña para la autenticación:
 
-`choco upgrade {{paquete}} --user {{nombre_usuario}} --password {{contraseña}}`
+`choco upgrade {{paquete}} {{[-u|--user]}} {{nombre_usuario}} {{[-p|--password]}} {{contraseña}}`

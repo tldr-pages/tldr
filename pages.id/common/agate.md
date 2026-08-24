@@ -5,7 +5,7 @@
 
 - Terbitkan kunci privat dan sertifikat TLS:
 
-`agate --content {{jalan/menuju/direktori_konten}} --addr {{[::]:1965}} --addr {{0.0.0.0:1965}} --hostname {{example.com}} --lang {{en-US}}`
+`agate --content {{jalan/menuju/direktori_konten}}/ --addr {{[::]:1965}} --addr {{0.0.0.0:1965}} --hostname {{example.com}} --lang {{en-US}}`
 
 - Jalankan server Gemini:
 
@@ -13,4 +13,4 @@
 
 - Tampilkan informasi bantuan:
 
-`agate -h`
+`agate {{[-h|--help]}}`

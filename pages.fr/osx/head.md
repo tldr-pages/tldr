@@ -1,6 +1,7 @@
 # head
 
 > Affiche les premières lignes d'un fichier.
+> Voir aussi : `tail`.
 > Plus d'informations : <https://keith.github.io/xcode-man-pages/head.1.html>.
 
 - Affiche les 10 premières lignes d'un fichier :

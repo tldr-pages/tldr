@@ -2,7 +2,7 @@
 
 > A fast and multi-purpose HTTP toolkit written in Go to run multiple probes at once.
 > Note: Not to be confused with the unrelated Python's HTTPX which has the same command name.
-> More information: <https://docs.projectdiscovery.io/tools/httpx/running>.
+> More information: <https://docs.projectdiscovery.io/opensource/httpx/running>.
 
 - Run a probe against a [u]RL, host, IP Address or subnet (CIDR notation) showing probe status:
 
@@ -32,6 +32,6 @@
 
 `httpx {{[-u|-target]}} {{host1,host2,...}} {{[-mc|-match-code]}} {{200,301,304}}`
 
-- Run a probe against a URL saving screenshots of certain paths, with screenshot timeouts (assets are saved in `./output`):
+- Run a probe against a URL saving screenshots of certain paths, with screenshot timeouts (assets are saved in `output`):
 
 `httpx {{[-u|-target]}} {{https://www.github.com}} -path {{/tldr-pages/tldr,/projectdiscovery/httpx}} {{[-ss|-screenshot]}} {{[-st|-screenshot-timeout]}} {{10}}`

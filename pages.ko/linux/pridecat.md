@@ -1,7 +1,7 @@
 # pridecat
 
 > cat과 유사하지만 더 다채로운 도구 :).
-> 더 많은 정보: <https://github.com/lunasorcery/pridecat>.
+> 더 많은 정보: <https://github.com/lunasorcery/pridecat#flags>.
 
 - 파일의 내용을 프라이드 색상으로 `stdout`에 출력:
 

@@ -5,11 +5,11 @@
 
 - 토렌트 파일 또는 마그넷 링크를 Transmission에 추가하고 지정한 디렉토리로 다운로드:
 
-`transmission-remote {{호스트명}} {{[-a|--all]}} {{토렌트|url}} {{[-w|--download-dir]}} {{/경로/대상/다운로드_디렉토리}}`
+`transmission-remote {{호스트명}} {{[-a|--all]}} {{토렌트|url}} {{[-w|--download-dir]}} /{{경로/대상/다운로드_디렉토리}}`
 
 - 기본 다운로드 디렉토리 변경:
 
-`transmission-remote {{호스트명}} {{[-w|--download-dir]}} {{/경로/대상/다운로드_디렉토리}}`
+`transmission-remote {{호스트명}} {{[-w|--download-dir]}} /{{경로/대상/다운로드_디렉토리}}`
 
 - 모든 토렌트 나열:
 
@@ -29,4 +29,4 @@
 
 - 토렌트 1-10 및 15-20을 새 디렉토리로 이동 (존재하지 않는 경우 생성됨):
 
-`transmission-remote {{호스트명}} {{[-t|--torrent]}} "1-10,15-20" --move {{/경로/대상/새_디렉토리}}`
+`transmission-remote {{호스트명}} {{[-t|--torrent]}} "1-10,15-20" --move /{{경로/대상/새_디렉토리}}`

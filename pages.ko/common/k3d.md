@@ -1,7 +1,7 @@
 # k3d
 
 > Docker 내에 k3s 클러스터를 쉽게 생성할 수 있는 래퍼.
-> 더 많은 정보: <https://k3d.io>.
+> 더 많은 정보: <https://k3d.io/stable/usage/commands/>.
 
 - 클러스터 생성:
 
@@ -17,7 +17,7 @@
 
 - Docker에서 k3d 클러스터로 이미지 가져오기:
 
-`k3d image import {{이미지_이름}} --cluster {{클러스터_이름}}`
+`k3d image import {{이미지_이름}} {{[-c|--cluster]}} {{클러스터_이름}}`
 
 - 새로운 레지스트리 생성:
 

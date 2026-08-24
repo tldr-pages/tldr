@@ -5,7 +5,7 @@
 
 - Waydroid 시작:
 
-`waydroid`
+`waydroid show-full-ui`
 
 - Waydroid 초기화 (최초 실행 시 또는 Android를 재설치한 후 필요):
 
@@ -13,7 +13,7 @@
 
 - 파일에서 새로운 Android 앱 설치:
 
-`waydroid app install {{경로/대상/파일.apk}}`
+`waydroid app install {{경로/대상/파일}}.apk`
 
 - 패키지 이름으로 Android 앱 실행:
 

@@ -1,7 +1,7 @@
 # docker-machine
 
 > Criar e gerenciar máquinas que executam o Docker.
-> Mais informações: <https://github.com/docker/machine>.
+> Mais informações: <https://github.com/docker-archive-public/docker.machine>.
 
 - Lista as máquinas Docker em execução no momento:
 

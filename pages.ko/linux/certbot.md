@@ -8,7 +8,7 @@
 
 `sudo certbot certonly --webroot {{[-w|--webroot-path]}} {{경로/대상/웹루트}} {{[-d|--domain]}} {{서브도메인.example.com}}`
 
-- nginx 인증을 통해 새 인증서를 획득하고 자동으로 설치하기:
+- `nginx` 인증을 통해 새 인증서를 획득하고 자동으로 설치하기:
 
 `sudo certbot --nginx {{[-d|--domain]}} {{서브도메인.example.com}}`
 

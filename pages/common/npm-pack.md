@@ -1,7 +1,7 @@
 # npm pack
 
 > Create a tarball from a package.
-> More information: <https://docs.npmjs.com/cli/pack>.
+> More information: <https://docs.npmjs.com/cli/pack/>.
 
 - Create a tarball from the current package in the current directory:
 

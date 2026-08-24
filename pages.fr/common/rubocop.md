@@ -1,7 +1,7 @@
 # rubocop
 
 > Lint les fichiers Ruby.
-> Plus d'informations : <https://docs.rubocop.org/rubocop/usage/basic_usage.html>.
+> Plus d'informations : <https://docs.rubocop.org/rubocop/latest/usage/cli_reference.html>.
 
 - Vérifie tous les fichiers du répertoire actuel (y compris les sous-répertoires) :
 

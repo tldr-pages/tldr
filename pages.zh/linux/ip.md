@@ -2,7 +2,7 @@
 
 > 显示/操作路由、设备、策略路由和隧道。
 > 一些子命令（例如 `address`）有自己的使用文档。
-> 更多信息：<https://manned.org/ip.8>.
+> 更多信息：<https://manned.org/ip.8>。
 
 - 列出带有详细信息的接口：
 
@@ -10,11 +10,11 @@
 
 - 列出带有简要网络层信息的接口：
 
-`ip {{[-br a|-brief address]}}`
+`ip {{[-br|-brief]}} {{[a|address]}}`
 
 - 列出带有简要链路层信息的接口：
 
-`ip {{[-br l|-brief link]}}`
+`ip {{[-br|-brief]}} {{[l|link]}}`
 
 - 显示路由表：
 
@@ -22,7 +22,7 @@
 
 - 显示邻居（ARP 表）：
 
-`ip {{[n|neighbour]}}`
+`ip {{[n|neighbor]}}`
 
 - 使接口启动/关闭：
 

@@ -1,7 +1,7 @@
 # wacaw
 
 > Capture both still pictures and video from an attached camera.
-> More information: <https://webcam-tools.sourceforge.net>.
+> More information: <https://webcam-tools.sourceforge.net/#parameters>.
 
 - Take a picture from webcam:
 
@@ -9,11 +9,11 @@
 
 - Record a video:
 
-`wacaw --video {{filename}} --duration {{10}}`
+`wacaw --video {{filename}} {{[-D|--duration]}} {{10}}`
 
 - Take a picture with custom resolution:
 
-`wacaw --width {{width}} --height {{100}} {{filename}}`
+`wacaw {{[-x|--width]}} {{width}} {{[-y|--height]}} {{100}} {{filename}}`
 
 - Copy image just taken to clipboard:
 
@@ -21,4 +21,4 @@
 
 - List the devices available:
 
-`wacaw --list-devices`
+`wacaw {{[-L|--list-devices]}}`

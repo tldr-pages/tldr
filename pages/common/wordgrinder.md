@@ -1,7 +1,7 @@
 # wordgrinder
 
 > Word processor.
-> More information: <https://cowlark.com/wordgrinder>.
+> More information: <https://cowlark.com/wordgrinder/>.
 
 - Start WordGrinder (loads a blank document by default):
 

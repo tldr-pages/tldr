@@ -1,7 +1,7 @@
 # aws cur
 
 > Crea, solicita y elimina definiciones de informes de uso de AWS.
-> Más información: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cur/index.html>.
+> Más información: <https://docs.aws.amazon.com/cli/latest/reference/cur/>.
 
 - Crea una definición de informe de costes y uso de AWS a partir de un archivo JSON:
 

@@ -5,7 +5,7 @@
 
 - Schaue dir hier die Dokumentation für den ursprünglichen `curl`-Befehl an:
 
-`tldr curl -p common`
+`tldr curl {{[-p|--platform]}} common`
 
 - Schaue dir hier die Dokumentation für den PowerShell-Befehl `Invoke-WebRequest` an:
 

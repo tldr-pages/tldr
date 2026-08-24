@@ -1,6 +1,7 @@
 # dmesg
 
 > Escriu els missatges del kernel a la sortida estàndar.
+> Vegeu també: `journalctl`.
 > Més informació: <https://manned.org/dmesg>.
 
 - Mostra els missatges del kernel:

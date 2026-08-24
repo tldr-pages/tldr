@@ -1,7 +1,7 @@
 # pkg_info
 
 > OpenBSD में पैकेजों के बारे में जानकारी देखें।
-> देखें: `pkg_add`, `pkg_delete`।
+> यह भी देखें: `pkg_add`, `pkg_delete`।
 > अधिक जानकारी: <https://man.openbsd.org/pkg_info>।
 
 - पैकेज नाम का उपयोग करके पैकेज के लिए खोजें:

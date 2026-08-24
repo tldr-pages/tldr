@@ -10,11 +10,11 @@
 
 - Toon de laatste 10 regels van meerdere bestanden:
 
-`tail {{path/to/file1 path/to/file2 ...}}`
+`tail {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
 
-- Toon laatste aantal regels in een bestand:
+- Toon laatste 5 regels in een bestand:
 
-`tail {{[-n|--lines]}} {{aantal}} {{pad/naar/bestand}}`
+`tail {{[-5|--lines 5]}} {{pad/naar/bestand}}`
 
 - Toon een bestand vanaf een specifiek regelnummer:
 
@@ -22,7 +22,7 @@
 
 - Toon een specifiek aantal bytes vanaf het einde van een opgegeven bestand:
 
-`tail {{[-n|--lines]}} {{aantal}} {{pad/naar/bestand}}`
+`tail {{[-c|--bytes]}} {{aantal}} {{pad/naar/bestand}}`
 
 - Toon de laatste regels van een bestand en blijf het bestand lezen tot `<Ctrl c>`:
 

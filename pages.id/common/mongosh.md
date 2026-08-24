@@ -2,7 +2,7 @@
 
 > Program syel baris perintah baru untuk manajemen pangkalan data (database) MongoDB, menggantikan `mongo`.
 > Catatan: Seluruh opsi koneksi dapat digantikan dengan suatu string: `mongodb://pengguna@host:port/nama_db?authSource=nama_authdb`.
-> Informasi lebih lanjut: <https://www.mongodb.com/docs/mongodb-shell>.
+> Informasi lebih lanjut: <https://www.mongodb.com/docs/mongodb-shell/>.
 
 - Hubungkan terhadap suatu database lokal menggunakan port bawaan (`mongodb://localhost:27017`):
 

@@ -2,11 +2,11 @@
 
 > Kubernetes クラスタに対してコマンドを実行するためのコマンドラインインターフェイス。
 > `run` のようないくつかのサブコマンドには、使用方法についての独自のドキュメントがあります。
-> もっと詳しく: <https://kubernetes.io/docs/reference/kubectl/>。
+> 詳細情報: <https://kubernetes.io/docs/reference/kubectl/>。
 
 - リソースに関する情報をより詳細に一覧表示する:
 
-`kubectl get {{pod|service|deployment|ingress|...}} {{[-o|--output]}} wide`
+`kubectl get {{pods|service|deployment|ingress|...}} {{[-o|--output]}} wide`
 
 - 指定したポッドにラベル 'unhealthy' と値 'true' を付けて更新する:
 
@@ -18,7 +18,7 @@
 
 - ノードまたはポッドのリソース (CPU/Memory/Storage) 使用量を表示する:
 
-`kubectl top {{pod|node}}`
+`kubectl top {{pods|nodes}}`
 
 - マスターとクラスタサービスのアドレスを表示する:
 

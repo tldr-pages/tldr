@@ -2,6 +2,7 @@
 
 > Crea alias -- palabras que son reemplazadas por una cadena de comando(s).
 > Los alias son temporales en la sesión de shell actual, a no ser que estén definidos en el archivo de configuración de la shell, ej. `~/.bashrc`.
+> Vea también: `unalias`.
 > Más información: <https://www.gnu.org/software/bash/manual/bash.html#index-alias>.
 
 - Lista todos los aliases:
@@ -22,8 +23,8 @@
 
 - Convierte `rm` en un comando interactivo:
 
-`alias {{rm}}="{{rm -i}}"`
+`alias rm="rm -i"`
 
 - Define `la` como un atajo para `ls -a`:
 
-`alias {{la}}="{{ls -a}}"`
+`alias la="ls -a"`

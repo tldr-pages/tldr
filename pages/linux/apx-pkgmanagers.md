@@ -2,13 +2,13 @@
 
 > Manage package managers in `apx`.
 > Note: User-created package manager configurations are stored in `~/.local/share/apx/pkgmanagers`.
-> More information: <https://github.com/Vanilla-OS/apx>.
+> More information: <https://docs.vanillaos.org/docs/en/apx-manpage#pkgmanagers>.
 
 - Interactively create a new package manager configuration:
 
 `apx pkgmanagers create`
 
-- List all available package manager confirgurations:
+- List all available package manager configurations:
 
 `apx pkgmanagers list`
 

@@ -1,7 +1,7 @@
 # kubie
 
 > Utility to switch between `kubectl` contexts and namespaces.
-> More information: <https://github.com/sbstp/kubie>.
+> More information: <https://github.com/sbstp/kubie#usage>.
 
 - Display a selectable menu of contexts:
 
@@ -17,7 +17,7 @@
 
 - Switch current shell to the given context and namespace:
 
-`kubie ctx {{context}} -n {{namespace}}`
+`kubie ctx {{context}} {{[-n|--namespace]}} {{namespace}}`
 
 - Execute a command in the given context and namespace, without spawning a shell:
 

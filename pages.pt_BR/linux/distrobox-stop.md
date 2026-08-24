@@ -1,8 +1,9 @@
 # distrobox-stop
 
 > Parar um contêiner Distrobox.
-> Subcomando de `distrobox`. Veja também: `tldr distrobox`.
-> Mais informações: <https://distrobox.it/usage/distrobox-stop>.
+> Subcomando de `distrobox`.
+> Veja também: `distrobox`.
+> Mais informações: <https://distrobox.it/usage/distrobox-stop/>.
 
 - Para um contêiner Distrobox:
 
@@ -10,4 +11,4 @@
 
 - Para um contêiner Distrobox de forma não interativa (sem confirmação):
 
-`distrobox-stop --name {{nome_do_contêiner}} --yes`
+`distrobox-stop {{nome_do_contêiner}} {{[-Y|--yes]}}`

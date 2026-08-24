@@ -2,6 +2,7 @@
 
 > Compile a Rust package. Similar to `cargo build`, but you can pass extra options to the compiler.
 > See `rustc --help` for all available options.
+> See also: `rustc`.
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-rustc.html>.
 
 - Build the package and pass options to `rustc`:
@@ -14,15 +15,15 @@
 
 - Compile with architecture-specific optimizations for the current CPU:
 
-`cargo rustc {{[-r|--release]}} -- -C target-cpu=native`
+`cargo rustc {{[-r|--release]}} -- {{[-C|--codegen]}} target-cpu=native`
 
 - Compile with speed optimizations:
 
-`cargo rustc -- -C opt-level {{1|2|3}}`
+`cargo rustc -- {{[-C|--codegen]}} opt-level={{1|2|3}}`
 
 - Compile with [s]ize optimizations (`z` also turns off loop vectorization):
 
-`cargo rustc -- -C opt-level {{s|z}}`
+`cargo rustc -- {{[-C|--codegen]}} opt-level={{s|z}}`
 
 - Check if your package uses unsafe code:
 

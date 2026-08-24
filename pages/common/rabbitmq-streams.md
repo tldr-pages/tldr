@@ -1,7 +1,7 @@
 # rabbitmq-streams
 
 > Manage RabbitMQ streams.
-> More information: <https://www.rabbitmq.com/docs/man/rabbitmq-streams.8.html>.
+> More information: <https://www.rabbitmq.com/docs/man/rabbitmq-streams.8>.
 
 - Add a stream replica on the specified node:
 

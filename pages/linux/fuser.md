@@ -7,13 +7,13 @@
 
 `fuser {{path/to/file_or_directory}}`
 
-- Show more fields (`USER`, `PID`, `ACCESS` and `COMMAND`):
+- Show more fields (`USER`, `PID`, `ACCESS`, and `COMMAND`):
 
 `fuser {{[-v|--verbose]}} {{path/to/file_or_directory}}`
 
 - Identify processes using a TCP socket:
 
-`fuser {{[-n|--namespace]}} tcp {{port}}`
+`fuser {{port}}/tcp`
 
 - Kill all processes accessing a file or directory (sends the `SIGKILL` signal):
 

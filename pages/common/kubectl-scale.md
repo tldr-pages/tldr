@@ -1,7 +1,7 @@
 # kubectl scale
 
 > Set a new size for a deployment, replica set, replication controller, or stateful set.
-> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_scale>.
+> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_scale/>.
 
 - Scale a replica set:
 

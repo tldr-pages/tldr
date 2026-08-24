@@ -25,4 +25,4 @@
 
 - 사용자의 모든 값을 재귀적으로 표시:
 
-`nixos-option -r users.users.{{사용자}}`
+`nixos-option {{[-r|--recursive]}} users.users.{{사용자}}`

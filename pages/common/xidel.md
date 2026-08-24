@@ -1,7 +1,7 @@
 # xidel
 
 > Download and extract data from HTML/XML pages as well as JSON APIs.
-> More information: <https://www.videlibri.de/xidel.html>.
+> More information: <https://www.videlibri.de/xidel/>.
 
 - Print all URLs found by a Google search:
 
@@ -23,7 +23,7 @@
 
 `xidel {{https://example.org}} {{[-f|--follow]}} "{{<a>{.}</a>*}}" {{[-e|--extract]}} "{{<title>{.}</title>}}"`
 
-- Read the pattern from example.xml (which will also check if the element containing "ood" is there, and fail otherwise):
+- Read the pattern from `example.xml` (which will also check if the element containing "ood" is there, and fail otherwise):
 
 `xidel {{path/to/example.xml}} {{[-e|--extract]}} "{{<x><foo>ood</foo><bar>{.}</bar></x>}}"`
 

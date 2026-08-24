@@ -2,6 +2,7 @@
 
 > Interfaccia utente solo testo per NetworkManager.
 > Usa `<ArrowKeys>` e `<Enter>` per navigare.
+> Vedi anche: `nmcli`.
 > Maggiori informazioni: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmtui.html>.
 
 - Apri interfaccia utente:
@@ -14,7 +15,7 @@
 
 - Per la connessione a una rete:
 
-`nmtui connect {{nome|uuid|device|SSID}}`
+`nmtui connect {{nome|uuid|device|ssid}}`
 
 - Cambia/Agiunge/Elimina una rete:
 

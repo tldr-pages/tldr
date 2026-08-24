@@ -1,6 +1,7 @@
 # pw-cat
 
 > Toca e grava arquivos de áudio através do PipeWire.
+> Veja também: `wpctl`, `pw-cli`.
 > Mais informações: <https://docs.pipewire.org/page_man_pw-cat_1.html>.
 
 - Toca um arquivo WAV no alvo padrão:

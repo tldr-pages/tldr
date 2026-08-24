@@ -1,7 +1,7 @@
 # aws cur
 
 > Cria, pesquisa e apaga relatórios de uso do AWS.
-> Mais informações: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cur/index.html>.
+> Mais informações: <https://docs.aws.amazon.com/cli/latest/reference/cur/>.
 
 - Cria um relatório de uso e custo do AWS definido de a partir de um arquivo JSON:
 

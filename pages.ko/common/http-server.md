@@ -9,7 +9,7 @@
 
 - 특정 디렉터리를 제공하려면 특정 포트에서 HTTP 서버를 시작:
 
-`http-server {{경로/대상/디렉토리}} --port {{포트}}`
+`http-server {{경로/대상/디렉토리}} {{[-p|--port]}} {{포트}}`
 
 - 기본 인증을 사용하여 HTTP 서버를 시작:
 
@@ -21,7 +21,7 @@
 
 - 지정된 인증서를 사용하여 기본 포트에서 HTTPS 서버를 시작:
 
-`http-server --ssl --cert {{경로/대상/인증서.pem}} --key {{경로/대상/키.pem}}`
+`http-server {{[-S|--ssl]}} {{[-C|--cert]}} {{경로/대상/인증서.pem}} {{[-K|--key]}} {{경로/대상/키.pem}}`
 
 - HTTP 서버를 시작하고 출력 로깅에 클라이언트의 IP 주소를 포함:
 
@@ -33,4 +33,4 @@
 
 - 로깅이 비활성화된 상태에서 HTTP 서버를 시작:
 
-`http-server --silent`
+`http-server {{[-s|--silent]}}`

@@ -2,7 +2,7 @@
 
 > Windows レジストリのキーとその値を管理します。
 > `add` のようないくつかのサブコマンドには、使用方法についての独自のドキュメントがあります。
-> もっと詳しく: <https://learn.microsoft.com/windows-server/administration/windows-commands/reg>。
+> 詳細情報: <https://learn.microsoft.com/windows-server/administration/windows-commands/reg>。
 
 - レジストリのコマンドを実行する:
 

@@ -1,7 +1,7 @@
 # translationd
 
-> Enables Translation features.
-> It should not be invoked manually.
+> Enable Translation features.
+> Note: It should not be invoked manually.
 
 - Start the daemon:
 

@@ -1,7 +1,7 @@
 # turbostat
 
 > Report processor topology, frequency, temperature, power, and idle statistics.
-> More information: <https://manned.org/turbostat.8>.
+> More information: <https://manned.org/turbostat>.
 
 - Display statistics every 5 seconds:
 
@@ -17,7 +17,7 @@
 
 - Display useful information about CPU every 1 second, without header information:
 
-`sudo turbostat --quiet {{[-i|--interval]}} 1 --cpu 0-{{CPU_thread_count}} --show "PkgWatt","Busy%","Core","CoreTmp","Thermal"`
+`sudo turbostat --quiet {{[-i|--interval]}} 1 --cpu 0-{{cpu_thread_count}} --show "PkgWatt","Busy%","Core","CoreTmp","Thermal"`
 
 - Display help:
 

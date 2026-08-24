@@ -1,7 +1,7 @@
 # speedtest-cli
 
 > Teste a largura de banda da Internet usando <https://speedtest.net>.
-> Veja também: `speedtest` para a aplicação CLI oficial.
+> Veja também: `speedtest`.
 > Mais informações: <https://github.com/sivel/speedtest-cli>.
 
 - Executa um teste de velocidade:

@@ -1,6 +1,6 @@
 # quotacheck
 
-> Scan a filesystem for disk usage; create, check and repair quota files.
+> Scan a filesystem for disk usage; create, check, and repair quota files.
 > It is best to run quota check with quotas turned off to prevent damage or loss to quota files.
 > More information: <https://manned.org/quotacheck>.
 

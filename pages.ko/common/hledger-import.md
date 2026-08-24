@@ -17,7 +17,7 @@
 
 - `bank.csv.rules`를 편집하면서 변환 오류 또는 결과 보기:
 
-`watchexec -- hledger -f {{경로/대상/은행.csv}} print`
+`watchexec -- hledger {{[-f|--file]}} {{경로/대상/은행.csv}} print`
 
 - `bank.csv`의 현재 데이터를 이미 가져온 것으로 표시:
 
@@ -25,4 +25,4 @@
 
 - `bank.csv`를 모두 새로 가져온 것으로 표시:
 
-`rm -f .latest.bank.csv`
+`rm {{[-f|--force]}} .latest.bank.csv`

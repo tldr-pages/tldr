@@ -1,7 +1,8 @@
 # fc
 
 > 打开最近的命令进行编辑，然后运行它。
-> 更多信息：<https://www.gnu.org/software/bash/manual/bash.html#index-fc>.
+> 另请参阅：`history`。
+> 更多信息：<https://www.gnu.org/software/bash/manual/bash.html#index-fc>。
 
 - 在默认系统编辑器中打开最后一个命令，并在编辑后运行：
 
@@ -9,7 +10,7 @@
 
 - 指定一个编辑器打开：
 
-`fc -e {{'emacs'}}`
+`fc -e '{{emacs}}'`
 
 - 从历史记录中列出最近的命令：
 

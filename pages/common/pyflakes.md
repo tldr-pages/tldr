@@ -1,6 +1,6 @@
 # pyflakes
 
-> Checks Python source code files for errors.
+> Check Python source code files for errors.
 > More information: <https://pypi.org/project/pyflakes>.
 
 - Check a single Python file:
@@ -17,4 +17,4 @@
 
 - Check all Python files found in multiple directories:
 
-`pyflakes iterSourceCode {{path/to/directory_1}} {{path/to/directory_2}}`
+`pyflakes iterSourceCode {{path/to/directory_1 path/to/directory_2 ...}}`

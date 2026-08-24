@@ -1,7 +1,7 @@
 # rabbitmq-upgrade
 
 > Manage the upgrade of a RabbitMQ node.
-> More information: <https://www.rabbitmq.com/docs/man/rabbitmq-upgrade.8.html>.
+> More information: <https://www.rabbitmq.com/docs/man/rabbitmq-upgrade.8>.
 
 - Wait for all quorum queues to have an above minimum online quorum:
 

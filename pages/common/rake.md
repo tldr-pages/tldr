@@ -2,7 +2,7 @@
 
 > A Make-like program for Ruby.
 > Tasks for `rake` are specified in a Rakefile.
-> More information: <https://ruby.github.io/rake>.
+> More information: <https://ruby.github.io/rake/>.
 
 - Run the `default` Rakefile task:
 

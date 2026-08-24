@@ -1,7 +1,7 @@
 # clip
 
 > 入力コンテンツをWindowsクリップボードにコピーします。
-> もっと詳しく: <https://learn.microsoft.com/windows-server/administration/windows-commands/clip>。
+> 詳細情報: <https://learn.microsoft.com/windows-server/administration/windows-commands/clip>。
 
 - コマンドライン出力をWindowsクリップボードにパイプします:
 
@@ -9,7 +9,7 @@
 
 - ファイルの内容をWindowsクリップボードにコピーします:
 
-`clip < {{path/to/file.ext}}`
+`clip < {{ファイルパス.ext}}`
 
 - 末尾に改行が付いたテキストをWindowsクリップボードにコピーします:
 

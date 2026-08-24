@@ -14,7 +14,7 @@
 
 - Ejecuta un archivo Python específico e inicia una REPL:
 
-`bpython --interactive {{ruta/al/archivo.py}}`
+`bpython {{[-i|--interactive]}} {{ruta/al/archivo.py}}`
 
 - Utiliza el archivo [c]onfig especificado en lugar de la configuración predeterminada:
 

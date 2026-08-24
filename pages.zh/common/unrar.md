@@ -1,7 +1,7 @@
 # unrar
 
 > 提取 RAR 压缩档案。
-> 更多信息：<https://manned.org/unrar>.
+> 更多信息：<https://manned.org/unrar>。
 
 - 提取文件并保留原始目录结构：
 

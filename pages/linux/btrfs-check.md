@@ -19,7 +19,7 @@
 
 `sudo btrfs {{[c|check]}} --check-data-csum {{path/to/partition}}`
 
-- Use the `n`-th superblock (`n` can be 0, 1 or 2):
+- Use the `n`-th superblock (`n` can be 0, 1, or 2):
 
 `sudo btrfs {{[c|check]}} {{[-s|--super]}} {{n}} {{path/to/partition}}`
 

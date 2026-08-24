@@ -16,9 +16,9 @@
 
 `postconf -d`
 
-- Display parameters only from the specified class. The class can be one of builtin, service, user or all:
+- Display parameters only from the specified class:
 
-`postconf -C {{class}}`
+`postconf -C {{builtin|service|user|all}}`
 
 - List available SASL plug-in types for the Postfix SMTP server. The plug-in type is selected with the `smtpd_sasl_type` configuration parameter by specifying `cyrus` or `dovecot` as the name:
 

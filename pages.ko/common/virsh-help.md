@@ -1,7 +1,7 @@
 # virsh help
 
 > `virsh` 명령 또는 명령 그룹에 대한 정보 표시.
-> 같이 보기: `virsh`.
+> 관련 항목: `virsh`.
 > 더 많은 정보: <https://manned.org/virsh>.
 
 - 관련 카테고리로 그룹화된 `virsh` 명령 나열:

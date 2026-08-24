@@ -2,7 +2,7 @@
 
 > Create a new Git backed Jujutsu repo.
 > Note: Unless `--colocate` is used, it is not a valid Git repository and `git` commands can't be used on it.
-> More information: <https://jj-vcs.github.io/jj/latest/cli-reference/#jj-git-init>.
+> More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-git-init>.
 
 - Create a new Git backed repo in the current directory:
 

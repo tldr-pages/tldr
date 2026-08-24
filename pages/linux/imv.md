@@ -2,7 +2,7 @@
 
 > CLI image viewer for wayland and X11 aimed at tiling window managers.
 > Handles multiple formats including Photoshop (PSD).
-> More information: <https://sr.ht/~exec64/imv>.
+> More information: <https://sr.ht/~exec64/imv/>.
 
 - View multiple images:
 

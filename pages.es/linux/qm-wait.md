@@ -1,16 +1,16 @@
 # qm wait
 
 > Espera hasta que se detenga la máquina virtual.
-> Más información: <https://pve.proxmox.com/pve-docs/qm.1.html>.
+> Más información: <https://pve.proxmox.com/pve-docs/qm.1.html#cli_qm_wait>.
 
 - Espera hasta que se detenga la máquina virtual:
 
-`qm wait {{id_mv}}`
+`qm {{[w|wait]}} {{100}}`
 
 - Espera hasta que la máquina virtual se detenga con un tiempo de espera máximo de 10 segundos:
 
-`qm wait --timeout {{10}} {{id_mv}}`
+`qm {{[w|wait]}} {{100}} --timeout {{10}}`
 
 - Envía una solicitud de apagado, luego espera hasta que la máquina virtual se detenga con un tiempo máximo de espera de 10 segundos:
 
-`qm shutdown {{id_mv}} && qm wait --timeout {{10}} {{id_mv}}`
+`qm {{[shu|shutdown]}} {{100}} && qm {{[w|wait]}} {{100}} --timeout {{10}}`

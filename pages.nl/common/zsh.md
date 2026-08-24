@@ -1,7 +1,7 @@
 # zsh
 
 > Z SHell, een Bash-compatibele commandoregel-interpreteerder.
-> Zie ook: `bash`, `histexpand`.
+> Zie ook: `bash`, `!`, `^`.
 > Meer informatie: <https://zsh.sourceforge.io/Doc/Release/Invocation.html#Invocation>.
 
 - Start een interactieve shell sessie:
@@ -18,7 +18,7 @@
 
 - Controleer een specifiek script op syntax fouten zonder het uit te voeren:
 
-`zsh --no-exec {{pad/naar/script.zsh}}`
+`zsh {{[-n|--no-exec]}} {{pad/naar/script.zsh}}`
 
 - Voer specifieke commando's uit van `stdin`:
 
@@ -26,12 +26,12 @@
 
 - Voer een specifiek script uit en toon elke opdracht in het script voordat deze wordt uitgevoerd:
 
-`zsh --xtrace {{pad/naar/script.zsh}}`
+`zsh {{[-x|--xtrace]}} {{pad/naar/script.zsh}}`
 
 - Start een interactieve shell sessie in verbose modus en toon elke opdracht voordat deze wordt uitgevoerd:
 
-`zsh --verbose`
+`zsh {{[-v|--verbose]}}`
 
-- Voer een specifiek commando uit binnen `zsh` met uitgeschakelde glob patronen:
+- Start Zsh zonder het laden van user-level configuratie (bijv. `~/.zshrc`):
 
-`noglob {{commando}}`
+`zsh {{[-f|--no-rcs]}}`

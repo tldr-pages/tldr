@@ -1,7 +1,7 @@
 # jobs
 
 > 显示当前会话中作业的状态。
-> 更多信息：<https://manned.org/jobs>.
+> 更多信息：<https://manned.org/jobs>。
 
 - 显示所有作业的状态：
 

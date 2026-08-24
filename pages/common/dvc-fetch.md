@@ -1,7 +1,7 @@
 # dvc fetch
 
 > Download DVC tracked files and directories from a remote repository.
-> More information: <https://dvc.org/doc/command-reference/fetch>.
+> More information: <https://doc.dvc.org/command-reference/fetch>.
 
 - Fetch the latest changes from the default remote upstream repository (if set):
 

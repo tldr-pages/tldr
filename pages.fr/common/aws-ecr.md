@@ -1,7 +1,7 @@
 # aws ecr
 
 > Pousse, récupère et gère les images de conteneur.
-> Plus d'informations : <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ecr/index.html>.
+> Plus d'informations : <https://docs.aws.amazon.com/cli/latest/reference/ecr/>.
 
 - Connecte Docker avec le registre par défaut (le nom d'utilisateur est AWS) :
 

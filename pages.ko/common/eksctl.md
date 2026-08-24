@@ -1,7 +1,7 @@
 # eksctl
 
 > Amazon EKS의 공식 CLI.
-> 더 많은 정보: <https://eksctl.io>.
+> 더 많은 정보: <https://docs.aws.amazon.com/eks/latest/eksctl/what-is-eksctl.html>.
 
 - 기본 클러스터 생성:
 

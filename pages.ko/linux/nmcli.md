@@ -1,19 +1,20 @@
 # nmcli
 
 > NetworkManager를 사용하여 네트워크 구성을 관리합니다.
+> 관련 항목: `nmtui`, `iw`, `iwctl`.
 > 더 많은 정보: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
 
-- NetworkManager 비밀/폴킷 에이전트로서 `nmcli` 실행에 대한 문서 보기:
+- 네트워크 인터페이스 관리 및 새로운 Wi-Fi 연결 설정에 대한 문서 보기:
 
-`tldr nmcli agent`
+`tldr nmcli device`
 
 - 네트워크 연결 관리에 대한 문서 보기:
 
 `tldr nmcli connection`
 
-- 네트워크 인터페이스 관리 및 새로운 Wi-Fi 연결 설정에 대한 문서 보기:
+- NetworkManager 비밀/폴킷 에이전트로서 `nmcli` 실행에 대한 문서 보기:
 
-`tldr nmcli device`
+`tldr nmcli agent`
 
 - NetworkManager의 일반 설정 관리에 대한 문서 보기:
 

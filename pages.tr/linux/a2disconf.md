@@ -1,7 +1,7 @@
 # a2disconf
 
 > Debian tabanlı işletim sistemlerinde Apache konfigürasyon dosyasını devre dışı bırak.
-> Daha fazla bilgi için: <https://manned.org/a2disconf.8>.
+> Daha fazla bilgi için: <https://manned.org/a2disconf>.
 
 - Bir konfigürasyon dosyasını devre dışı bırak:
 
@@ -9,4 +9,4 @@
 
 - Bilgilendirici mesajı gösterme:
 
-`sudo a2disconf --quiet {{konfigürasyon_dosyası}}`
+`sudo a2disconf {{[-q|--quiet]}} {{konfigürasyon_dosyası}}`

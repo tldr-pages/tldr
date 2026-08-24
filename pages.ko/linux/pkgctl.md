@@ -1,7 +1,7 @@
 # pkgctl
 
 > Arch Linux devtools를 위한 통합 명령줄 프론트엔드.
-> 더 많은 정보: <https://manned.org/pkgctl.1>.
+> 더 많은 정보: <https://manned.org/pkgctl>.
 
 - GitLab 같은 서비스와 `pkgctl` 인증에 대한 문서 보기:
 

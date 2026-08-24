@@ -1,6 +1,7 @@
 # diff
 
 > Dosyaları ve dizinleri karşılaştırın.
+> Ayrıca bakınız: `delta`, `difft`.
 > Daha fazla bilgi için: <https://manned.org/diff>.
 
 - Dosyaları karşılaştır (`eski_dosya`'yı `yeni_dosya`'ya dönüştürmek için yapılan değişiklikleri listeler):

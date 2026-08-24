@@ -1,6 +1,7 @@
 # delta
 
 > Git 및 diff 출력 전용 뷰어.
+> 관련 항목: `diff`, `difft`.
 > 더 많은 정보: <https://dandavison.github.io/delta/full---help-output.html>.
 
 - 파일 또는 디렉터리 비교:

@@ -1,7 +1,7 @@
 # reboot
 
 > 重新启动系统。
-> 更多信息：<https://manned.org/reboot.8>.
+> 更多信息：<https://manned.org/reboot.8>。
 
 - 重启系统：
 

@@ -8,7 +8,7 @@
 
 `rsync {{chemin/vers/origine}} {{chemin/vers/destination}}`
 
-- Utilise le mode archive (copier récursivement les répertoires, copier les liens symboliques sans résolution et conserver les autorisations, la propriété et les délais de modification) :
+- Utilise le mode archive (copier récursivement les répertoires, copier les liens symboliques sans résolution et conserver les autorisations, la propriété et les délais de modification) :
 
 `rsync {{[-a|--archive]}} {{chemin/vers/origine}} {{chemin/vers/destination}}`
 
@@ -24,7 +24,7 @@
 
 `rsync {{[-auL|--archive --update --copy-links]}} {{chemin/vers/origine}} {{chemin/vers/destination}}`
 
-- Transférer un fichier vers un hôte distant exécutant `rsyncd` et supprimez les fichiers sur la destination qui n'existent pas sur l'hôte distant :
+- Transférer un fichier vers un hôte distant exécutant `rsyncd` et supprimez les fichiers sur la destination qui n'existent pas sur l'hôte distant :
 
 `rsync {{[-r|--recursive]}} --delete rsync://{{hote_distant}}:{{chemin/vers/origine}} {{chemin/vers/destination}}`
 

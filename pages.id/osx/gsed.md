@@ -1,6 +1,6 @@
 # gsed
 
-> Perintah ini merupakan alias dari `-p linux sed`.
+> Perintah ini merupakan alias dari GNU `sed`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 

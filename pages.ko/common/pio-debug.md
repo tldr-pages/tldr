@@ -9,16 +9,16 @@
 
 - 특정 PlatformIO 프로젝트 디버그:
 
-`pio debug --project-dir {{경로/대상/platformio_project}}`
+`pio debug {{[-d|--project-dir]}} {{경로/대상/platformio_project}}`
 
 - 특정 환경 디버그:
 
-`pio debug --environment {{환경}}`
+`pio debug {{[-e|--environment]}} {{환경}}`
 
 - 특정 설정 파일을 사용하여 PlatformIO 프로젝트 디버그:
 
-`pio debug --project-conf {{경로/대상/platformio.ini}}`
+`pio debug {{[-c|--project-conf]}} {{경로/대상/platformio.ini}}`
 
 - `gdb` 디버거를 사용하여 PlatformIO 프로젝트 디버그:
 
-`pio debug --interface={{gdb}} {{gdb_옵션}}`
+`pio debug --interface {{gdb}} {{gdb_옵션}}`

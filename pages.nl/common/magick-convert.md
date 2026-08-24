@@ -1,7 +1,7 @@
 # magick convert
 
 > Converteer tussen afbeeldingsformaten, schaal, voeg samen, maak afbeeldingen en nog veel meer.
-> Let op: deze tool (voorheen `convert`) is vervangen door `magick` in ImageMagick 7+.
+> Opmerking: deze tool (voorheen `convert`) is vervangen door `magick` in ImageMagick 7+.
 > Meer informatie: <https://imagemagick.org/script/convert.php>.
 
 - Converteer een afbeelding van JPEG naar PNG:

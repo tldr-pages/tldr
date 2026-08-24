@@ -1,7 +1,7 @@
 # wuzz
 
 > HTTP 요청 및 응답을 대화형으로 검사.
-> 더 많은 정보: <https://github.com/asciimoo/wuzz>.
+> 더 많은 정보: <https://github.com/asciimoo/wuzz#commands>.
 
 - `wuzz` 시작:
 

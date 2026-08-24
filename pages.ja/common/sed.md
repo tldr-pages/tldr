@@ -1,7 +1,8 @@
 # sed
 
 > スクリプトによるテキスト編集。
-> もっと詳しく: <https://manned.org/sed.1posix>。
+> 参照: `awk`, `ed`。
+> 詳細情報: <https://manned.org/sed.1posix>。
 
 - ファイルの各行で正規表現の最初の出現箇所を置換し、その結果を表示する:
 

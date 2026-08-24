@@ -2,7 +2,7 @@
 
 > Display how much activity a file has had, showing commits per file and "active days" i.e. total number of days that contributed to the file.
 > Part of `git-extras`.
-> More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-effort>.
+> More information: <https://github.com/tj/git-extras/blob/main/Commands.md#git-effort>.
 
 - Display each file in the repository, showing commits and active days:
 

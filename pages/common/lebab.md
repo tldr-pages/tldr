@@ -16,7 +16,7 @@
 
 `lebab {{path/to/input_file}} --out-file {{path/to/output_file}}`
 
-- Replace all `.js` files in-place in the specified directory, glob or file:
+- Replace all `.js` files in-place in the specified directory, glob, or file:
 
 `lebab --replace {{directory|glob|file}}`
 

@@ -1,7 +1,7 @@
 # nload
 
 > Visualize network usage in the terminal.
-> More information: <https://github.com/rolandriegel/nload>.
+> More information: <https://manned.org/nload>.
 
 - View all network traffic (use the `<ArrowKeys>` to switch interfaces):
 

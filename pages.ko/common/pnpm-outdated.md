@@ -10,7 +10,7 @@
 
 - 모든 워크스페이스 패키지에서 발견된 오래된 의존성 확인:
 
-`pnpm outdated -r`
+`pnpm outdated {{[-r|--recursive]}}`
 
 - 패키지 선택기를 사용하여 오래된 패키지 필터링:
 
@@ -18,7 +18,7 @@
 
 - 오래된 패키지를 [g]lobal로 나열:
 
-`pnpm outdated --global`
+`pnpm outdated {{[-g|--global]}}`
 
 - 오래된 패키지의 세부정보 출력:
 
@@ -34,4 +34,4 @@
 
 - 오래된 [D]ev 의존성만 확인:
 
-`pnpm outdated --dev`
+`pnpm outdated {{[-D|--dev]}}`

@@ -9,11 +9,11 @@
 
 - Usa sudo e sudoedit para remover e mesclar arquivos:
 
-`pacdiff --sudo`
+`pacdiff {{[-s|--sudo]}}`
 
 - Reveja arquivos precisando de manutenção, criando `.bak`ups do original se você `s(O)brescrever`:
 
-`pacdiff --sudo --backup`
+`pacdiff {{[-s|--sudo]}} {{[-b|--backup]}}`
 
 - Usa um editor específico para ver e mesclar arquivos de configuração (o padrão é `vim -d`):
 
@@ -21,8 +21,8 @@
 
 - Procura arquivos de configuração com `locate` ao invés de usar o banco de dados do `pacman`:
 
-`pacdiff --locate`
+`pacdiff {{[-l|--locate]}}`
 
 - Exibe ajuda:
 
-`pacdiff --help`
+`pacdiff {{[-h|--help]}}`

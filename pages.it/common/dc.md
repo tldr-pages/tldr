@@ -1,6 +1,7 @@
 # dc
 
 > Calcolatore a precisione arbitraria. Usa la notazione polacca inversa (RPN).
+> Vedi anche: `bc`, `qalc`.
 > Maggiori informazioni: <https://www.gnu.org/software/bc/manual/dc-1.05/html_mono/dc.html>.
 
 - Avvia il calcolatore in modalità interattiva:

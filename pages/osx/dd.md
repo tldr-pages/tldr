@@ -7,7 +7,7 @@
 
 `dd if={{path/to/file.iso}} of={{/dev/usb_drive}} status=progress`
 
-- Clone a drive to another drive with 4 MB block, ignore error and show the progress:
+- Clone a drive to another drive with 4 MB block, ignore errors, and show the progress:
 
 `dd bs=4m conv=noerror if={{/dev/source_drive}} of={{/dev/dest_drive}} status=progress`
 

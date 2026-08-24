@@ -2,7 +2,7 @@
 
 > Remplace les fins de lignes de style DOS par des fins de lignes de style Unix.
 > Remplace CRLF par LF.
-> Voir également `unix2dos`, `unix2mac`, et `mac2unix`.
+> Voir aussi : `unix2dos`, `unix2mac`, `mac2unix`.
 > Plus d'informations : <https://manned.org/dos2unix>.
 
 - Remplace les fins de lignes d'un fichier :

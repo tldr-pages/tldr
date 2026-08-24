@@ -12,17 +12,21 @@
 
 `rg {{pattern}} {{path/to/file_or_directory}}`
 
+- Search for a literal string pattern:
+
+`rg {{[-F|--fixed-strings]}} -- {{string}}`
+
 - Include hidden files and entries listed in `.gitignore`:
 
 `rg {{[-.|--hidden]}} --no-ignore {{pattern}}`
 
-- Only search the files whose names match the glob pattern(s) (e.g. `README.*`):
+- Only search the files matching the glob pattern(s) (e.g. `README.*`, use `!filename_pattern` to exclude instead):
 
-`rg {{pattern}} {{[-g|--glob]}} {{filename_glob_pattern}}`
+`rg {{pattern}} {{[-g|--glob]}} '{{filename_glob_pattern}}'`
 
-- Recursively list filenames in the current directory that match a pattern:
+- Recursively list filenames in the current directory and highlight ones that match a pattern:
 
-`rg --files | rg {{pattern}}`
+`rg --files | rg {{[--passthru|--passthrough]}} {{pattern}}`
 
 - Only list matched files (useful when piping to other commands):
 
@@ -31,7 +35,3 @@
 - Show lines that do not match the pattern:
 
 `rg {{[-v|--invert-match]}} {{pattern}}`
-
-- Search for a literal string pattern:
-
-`rg {{[-F|--fixed-strings]}} -- {{string}}`

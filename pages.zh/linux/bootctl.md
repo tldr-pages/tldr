@@ -1,7 +1,8 @@
 # bootctl
 
 > 控制EFI固件启动设置并管理启动加载器。
-> 更多信息：<https://www.freedesktop.org/software/systemd/man/bootctl.html>.
+> 另请参阅：`kernel-install`。
+> 更多信息：<https://www.freedesktop.org/software/systemd/man/latest/bootctl.html>。
 
 - 显示系统固件和启动加载器的信息：
 

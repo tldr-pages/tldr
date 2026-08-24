@@ -18,7 +18,7 @@
 
 - Tailscale 계층에서 피어 노드를 핑하고 각 응답에 대한 경로 표시:
 
-`tailscale ping {{IP|호스트명}}`
+`tailscale ping {{ip|호스트명}}`
 
 - 로컬 네트워크 상태를 분석하고 결과 표시:
 

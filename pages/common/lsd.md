@@ -2,7 +2,7 @@
 
 > List directory contents.
 > The next generation `ls` command, written in Rust.
-> More information: <https://github.com/Peltoche/lsd>.
+> More information: <https://github.com/lsd-rs/lsd/blob/main/doc/lsd.md>.
 
 - List files and directories, one per line:
 

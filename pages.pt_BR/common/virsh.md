@@ -20,7 +20,7 @@
 
 `virsh create {{caminho/para/arquivo_de_configuracao.xml}}`
 
-- Edita o arquivo de configuração de um convidado (o editor pode ser alterado com $EDITOR):
+- Edita o arquivo de configuração de um convidado (o editor pode ser alterado com `$EDITOR`):
 
 `virsh edit {{guest_id}}`
 

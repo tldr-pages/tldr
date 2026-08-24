@@ -1,7 +1,7 @@
 # conda list
 
 > 列出一个 conda 环境中已安装的包。
-> 更多信息：<https://docs.conda.io/projects/conda/en/stable/commands/list.html>.
+> 更多信息：<https://docs.conda.io/projects/conda/en/stable/commands/list.html>。
 
 - 列出当前环境中的所有包：
 

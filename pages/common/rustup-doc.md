@@ -2,7 +2,7 @@
 
 > Open the offline Rust documentation for the current toolchain.
 > There are a lot more documentation pages not mentioned here. See `rustup help doc` for more information.
-> More information: <https://rust-lang.github.io/rustup>.
+> More information: <https://rust-lang.github.io/rustup/>.
 
 - Open the main page:
 

@@ -1,7 +1,7 @@
 # n
 
 > 用于管理多个 node 版本的工具。
-> 更多信息：<https://github.com/tj/n>.
+> 更多信息：<https://github.com/tj/n>。
 
 - 安装给定版本的 node。如果版本已经安装，它将被激活：
 

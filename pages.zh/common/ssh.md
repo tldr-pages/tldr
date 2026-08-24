@@ -2,7 +2,7 @@
 
 > 安全 Shell 是一种用于安全登录远程系统的协议。
 > 它可用于在远程服务器上记录或执行命令。
-> 更多信息：<https://man.openbsd.org/ssh>.
+> 更多信息：<https://man.openbsd.org/ssh>。
 
 - 连接到远程服务器：
 

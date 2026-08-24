@@ -2,7 +2,7 @@
 
 > Scala 코드를 위한 코드 포매터.
 > 설정은 `.scalafmt.conf` 파일에 저장됩니다.
-> 더 많은 정보: <https://scalameta.org/scalafmt>.
+> 더 많은 정보: <https://scalameta.org/scalafmt/>.
 
 - 현재 디렉토리의 모든 `.scala` 파일을 재귀적으로 재포맷:
 

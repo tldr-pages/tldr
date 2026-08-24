@@ -1,6 +1,6 @@
 # ifne
 
-> Run a command depending on the emptyness of `stdin`.
+> Run a command depending on the emptiness of `stdin`.
 > More information: <https://manned.org/ifne>.
 
 - Run the specified command if and only if `stdin` is not empty:

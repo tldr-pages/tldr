@@ -1,7 +1,7 @@
 # mongorestore
 
 > 컬렉션이나 데이터베이스를 바이너리 덤프에서 MongoDB 인스턴스로 가져오기 위한 유틸리티.
-> 더 많은 정보: <https://docs.mongodb.com/database-tools/mongorestore/>.
+> 더 많은 정보: <https://www.mongodb.com/docs/database-tools/mongorestore/>.
 
 - BSON 데이터 덤프를 디렉토리에서 MongoDB 데이터베이스로 가져오기:
 

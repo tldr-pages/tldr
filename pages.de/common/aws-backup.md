@@ -1,7 +1,7 @@
 # aws backup
 
 > Einheitliches Backup-Service zum Schutz der Amazon Web Services und der damit verbundenen Daten.
-> Weitere Informationen: <https://docs.aws.amazon.com/cli/latest/reference/backup/index.html>.
+> Weitere Informationen: <https://docs.aws.amazon.com/cli/latest/reference/backup/>.
 
 - Gib Backup-Plan-Details für eine bestimmte Backup-Plan-ID aus:
 

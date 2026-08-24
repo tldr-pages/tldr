@@ -1,7 +1,7 @@
 # pacgraph
 
 > Dibuja un gráfico de los paquetes instalados a PNG/SVG/GUI/consola.
-> Más información: <https://github.com/keenerd/pacgraph>.
+> Más información: <https://manned.org/pacgraph>.
 
 - Crea un gráfico SVG y PNG:
 
@@ -9,28 +9,28 @@
 
 - Crear un gráfico SVG:
 
-`pacgraph --svg`
+`pacgraph {{[-s|--svg]}}`
 
 - Imprime resumen en la consola:
 
-`pacgraph --console`
+`pacgraph {{[-c|--console]}}`
 
 - Anula el nombre de archivo/ubicación por defecto (Nota: No especifiques la extensión del archivo):
 
-`pacgraph --file={{ruta/al/archivo}}`
+`pacgraph {{[-f|--file]}} {{ruta/al/archivo}}`
 
 - Cambia el color de los paquetes que no son dependencias:
 
-`pacgraph --top={{color}}`
+`pacgraph {{[-t|--top]}} {{color}}`
 
 - Cambia el color de los paquetes dependientes:
 
-`pacgraph --dep={{color}}`
+`pacgraph {{[-d|--dep]}} {{color}}`
 
 - Cambia el color de fondo de un gráfico:
 
-`pacgraph --background={{color}}`
+`pacgraph {{[-b|--background]}} {{color}}`
 
 - Cambia el color de los enlaces entre paquetes:
 
-`pacgraph --link={{color}}`
+`pacgraph {{[-l|--link]}} {{color}}`

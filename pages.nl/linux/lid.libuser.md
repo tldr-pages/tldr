@@ -1,7 +1,7 @@
 # lid
 
 > Toon groepen van een gebruiker of de gebruikers van een groep.
-> Meer informatie: <https://manned.org/lid.8>.
+> Meer informatie: <https://manned.org/lid>.
 
 - Toon primaire en secundaire groepen van een specifieke gebruiker:
 

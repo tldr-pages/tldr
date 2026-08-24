@@ -1,7 +1,7 @@
 # irssi
 
 > Text based IRC client.
-> More information: <https://irssi.org>.
+> More information: <https://manned.org/irssi>.
 
 - Open Irssi and connect to a server with a nickname:
 
@@ -11,18 +11,18 @@
 
 `irssi {{[-c|--connect]}} {{irc.example.com}} {{[-p|--port]}} {{port}}`
 
-- Display help:
-
-`irssi {{[-?|--help]}}`
-
-- Join a channel:
+- [Interactive] Join a channel:
 
 `/join {{#channelname}}`
 
-- Change active window (starts at 1):
+- [Interactive] Change active window (starts at 1):
 
 `/win {{window_number}}`
 
-- Exit the application cleanly and quitting any server(s):
+- [Interactive] Exit the application cleanly and quitting any server(s):
 
 `/quit`
+
+- Display help:
+
+`irssi {{[-?|--help]}}`

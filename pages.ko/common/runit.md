@@ -1,7 +1,7 @@
 # runit
 
 > 3단계 초기화 시스템.
-> 더 많은 정보: <https://smarden.org/runit/runit.8.html>.
+> 더 많은 정보: <https://smarden.org/runit/runit.8>.
 
 - runit의 3단계 초기화 체계 시작:
 

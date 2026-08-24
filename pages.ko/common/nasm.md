@@ -1,7 +1,7 @@
 # nasm
 
 > Netwide Assembler, 휴대용 80x86 어셈블러.
-> 더 많은 정보: <https://www.nasm.us/xdoc/3.01/html/nasmdoc2.html>.
+> 더 많은 정보: <https://www.nasm.us/doc/nasm02.html>.
 
 - `source.asm`을 (기본) raw 바이너리 형식의 바이너리 파일 `source`로 어셈블:
 
@@ -21,4 +21,4 @@
 
 - 어셈블하기 전에 포함 파일 검색 경로에 디렉토리 추가(마지막에 슬래시 포함 필요):
 
-`nasm -i {{경로/대상/포함_폴더/}} {{source.asm}}`
+`nasm -i {{경로/대상/포함_폴더}}/ {{source.asm}}`

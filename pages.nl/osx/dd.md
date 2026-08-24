@@ -23,6 +23,6 @@
 
 `dd if={{/dev/schijf_apparaat}} of={{pad/naar/bestand.img}} status=progress`
 
-- Bekijk de voortgang van een lopende `dd` operatie (voer dit commando uit vanaf een andere shell)::
+- Bekijk de voortgang van een lopende `dd` operatie (voer dit commando uit vanaf een andere shell):
 
 `kill -USR1 $(pgrep ^dd)`

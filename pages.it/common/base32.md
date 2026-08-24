@@ -1,6 +1,6 @@
 # base32
 
-> Codifica o decodifica file o standard input in Base32 su standard output.
+> Codifica o decodifica file o `stdin` in Base32 su `stdout`.
 > Maggiori informazioni: <https://manned.org/base32>.
 
 - Codifica un file:

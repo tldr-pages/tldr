@@ -1,7 +1,7 @@
 # wipeclean
 
 > Clear the terminal screen using an animated wiper.
-> More information: <https://github.com/JeanJouliaCode/wipeClean>.
+> More information: <https://github.com/JeanJouliaCode/wipeClean#usage>.
 
 - Clear the terminal screen:
 
@@ -9,4 +9,4 @@
 
 - Set the animation speed in frames per second (defaults to 150):
 
-`wipeclean --speed {{speed}}`
+`wipeclean {{[-s|--speed]}} {{speed}}`

@@ -2,7 +2,7 @@
 
 > O compilador Rust.
 > Projetos Rust geralmente usam o `cargo` em vez de chamar `rustc` diretamente.
-> Mais informações: <https://doc.rust-lang.org/rustc>.
+> Mais informações: <https://doc.rust-lang.org/stable/rustc/>.
 
 - Compila uma crate binária:
 
@@ -10,7 +10,7 @@
 
 - Compila com otimizações (s significa otimizar o tamanho do binário; z é o mesmo com ainda mais otimizações):
 
-`rustc -C lto -C opt-level={{0|1|2|3|s|z}} {{caminho/para/arquivo.rs}}`
+`rustc {{[-C|--codegen]}} lto {{[-C|--codegen]}} opt-level={{0|1|2|3|s|z}} {{caminho/para/arquivo.rs}}`
 
 - Compila com informações de depuração:
 
@@ -22,7 +22,7 @@
 
 - Compila com otimizações específicas de arquitetura para a CPU atual:
 
-`rustc -C target-cpu={{native}} {{caminho/para/arquivo.rs}}`
+`rustc {{[-C|--codegen]}} target-cpu={{native}} {{caminho/para/arquivo.rs}}`
 
 - Exibe lista de targets:
 

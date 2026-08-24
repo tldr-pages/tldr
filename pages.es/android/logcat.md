@@ -11,7 +11,7 @@
 
 `logcat -f {{ruta/al/archivo}}`
 
-- Muestra registros que coincidan con una expresión regular:
+- Muestra registros que coincidan con una `regex`:
 
 `logcat --regex {{expresión_regular}}`
 

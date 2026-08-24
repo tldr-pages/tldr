@@ -5,11 +5,11 @@
 > See also: `complete`, `compopt`.
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#index-compgen>.
 
-- List all shell built-ins, aliases, functions and executables that you could run:
+- List all shell built-ins, aliases, functions, and executables that you could run:
 
 `compgen -c`
 
-- List all commands that you could run that start with a specified string and save results to `COMPREPLY`:
+- List all commands that you could run that start with a specified string and save results to `$COMPREPLY`:
 
 `compgen -V COMPREPLY -c {{str}}`
 

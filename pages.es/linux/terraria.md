@@ -5,8 +5,8 @@
 
 - Inicia la configuración de un servidor interactivo:
 
-`{{ruta/a/TerrariaServer}}`
+`{{ruta/a}}/TerrariaServer`
 
 - Inicia un servidor Terraria:
 
-`{{ruta/a/TerrariaServer}} -world {{ruta/a/mundo.wld}}`
+`{{ruta/a}}/TerrariaServer -world {{ruta/a/mundo.wld}}`

@@ -32,6 +32,6 @@
 
 `sudo {{[-i|--login]}} {{[-u|--user]}} {{user}}`
 
-- List the allowed (and forbidden) commands for the invoking user:
+- List the allowed (and forbidden) commands for the invoking user in longer format:
 
 `sudo {{[-ll|--list --list]}}`

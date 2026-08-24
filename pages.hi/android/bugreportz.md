@@ -12,6 +12,10 @@
 
 `bugreportz -p`
 
+- एंड्रॉइड बग रिपोर्ट की सामग्री को `stdout` में लिखें:
+
+`bugreportz -s`
+
 - सहायता प्रदर्शित करें:
 
 `bugreportz -h`

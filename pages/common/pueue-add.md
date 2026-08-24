@@ -1,7 +1,7 @@
 # pueue add
 
 > Enqueue a task for execution.
-> More information: <https://github.com/Nukesor/pueue>.
+> More information: <https://github.com/Nukesor/pueue#how-to-use-it>.
 
 - Add any command to the default queue:
 
@@ -17,7 +17,7 @@
 
 - Add a command to a group and start it immediately, see `pueue group` to manage groups:
 
-`pueue add {{[-i|--immediate]}} {{[-g|--group]}} "{{CPU_intensive}}" -- {{ffmpeg -i input.mp4 frame_%d.png}}`
+`pueue add {{[-i|--immediate]}} {{[-g|--group]}} "{{cpu_intensive}}" -- {{ffmpeg -i input.mp4 frame_%d.png}}`
 
 - Add a command and start it after commands 9 and 12 finish successfully:
 

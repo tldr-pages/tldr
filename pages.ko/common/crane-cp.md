@@ -1,7 +1,7 @@
 # crane cp
 
-> 이 명령은 `crane copy`의 별칭이다.
+> 이 명령은 `crane copy`의 별칭입니다.
 
-- 원본 명령어에 대한 설명서 보기:
+- 자세한 내용은 원본 명령을 참고하세요:
 
 `tldr crane copy`

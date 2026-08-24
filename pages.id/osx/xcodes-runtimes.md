@@ -1,7 +1,7 @@
 # xcodes runtimes
 
 > Atur pemasangan runtime Simulator yang tersedia bagi aplikasi Xcode.
-> Informasi lebih lanjut: <https://github.com/xcodesorg/xcodes>.
+> Informasi lebih lanjut: <https://github.com/xcodesorg/xcodes#commands>.
 
 - Tampilkan seluruh Simulator yang tersedia bagi aplikasi Xcode:
 

@@ -1,11 +1,11 @@
 # khal
 
 > Eine textbasierte Kalender- und Planungsanwendung für die Kommandozeile.
-> Weitere Informationen: <https://lostpackets.de/khal>.
+> Weitere Informationen: <https://lostpackets.de/khal/>.
 
-- Starte khal im interaktiven Modus:
+- Starte Khal im interaktiven Modus:
 
-`ikhal`
+`khal interactive`
 
 - Gib alle Termine aus, die im Kalender "privat" in den nächsten sieben Tagen geplant sind:
 

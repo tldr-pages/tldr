@@ -7,7 +7,7 @@
 
 `vswhere -products * -latest -prerelease -find **\VC\Auxiliary\Build\vcvarsall.bat`
 
-- x64 MSVC 컴파일러 (cl.exe 등)의 디렉토리 찾기:
+- x64 MSVC 컴파일러 (`cl.exe` 등)의 디렉토리 찾기:
 
 `vswhere -products * -latest -prerelease -find **\Hostx64\x64\*`
 

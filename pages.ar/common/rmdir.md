@@ -1,7 +1,7 @@
 # rmdir
 
 > إزالة الدلائل بدون ملفات.
-> لمزيد من التفاصيل: `rm`.
+> انظر أيضًا: `rm`.
 > لمزيد من التفاصيل: <https://www.gnu.org/software/coreutils/manual/html_node/rmdir-invocation.html>.
 
 - إزالة أدلة محددة:

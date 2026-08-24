@@ -1,8 +1,9 @@
 # dhcp6d
 
-> Servidor DHCPv6 sin estado. Ver también: `InternetSharing`.
+> Servidor DHCPv6 sin estado.
 > No debe invocarse manualmente.
-> Más información: <https://www.manpagez.com/man/8/dhcp6d/>.
+> Vea también: `InternetSharing`.
+> Más información: <https://keith.github.io/xcode-man-pages/dhcp6d.8.html>.
 
 - Inicia el proceso residente:
 

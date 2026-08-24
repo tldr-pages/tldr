@@ -1,7 +1,7 @@
 # openssl genrsa
 
 > RSA 개인 키를 생성하는 OpenSSL 명령어.
-> 더 많은 정보: <https://www.openssl.org/docs/manmaster/man1/openssl-genrsa.html>.
+> 더 많은 정보: <https://docs.openssl.org/master/man1/openssl-genrsa/>.
 
 - 2048비트 RSA 개인 키를 `stdout`에 생성:
 

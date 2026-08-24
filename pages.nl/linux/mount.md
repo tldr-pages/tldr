@@ -1,6 +1,7 @@
 # mount
 
 > Krijg toegang tot een volledig bestandssysteem in één map.
+> Zie ook: `udisksctl`.
 > Meer informatie: <https://manned.org/mount.8>.
 
 - Toon alle gemounte bestandssystemen:
@@ -27,9 +28,9 @@
 
 `mount {{[-a|--all]}}`
 
-- Koppel een specifiek bestandssysteem omschreven in `/etc/fstab` (b.v. `/dev/sda1 /my_drive ext2 defaults 0 2`):
+- Koppel een specifiek bestandssysteem omschreven in `/etc/fstab` (b.v. `/dev/sda1 /pad/naar/mountpunt ext2 defaults 0 2`):
 
-`mount {{/mijn_schijf}}`
+`mount {{pad/naar/mountpunt}}`
 
 - Koppel een map aan een andere map:
 

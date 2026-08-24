@@ -1,7 +1,7 @@
 # anbox
 
 > 在任何 Linux 操作系统上运行安卓应用。
-> 更多信息：<https://manned.org/anbox>.
+> 更多信息：<https://manned.org/anbox>。
 
 - 在应用管理器中运行 Anbox：
 

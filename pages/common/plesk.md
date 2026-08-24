@@ -7,10 +7,6 @@
 
 `plesk login`
 
-- Show product version information:
-
-`plesk version`
-
 - List all hosted domains:
 
 `plesk bin domain --list`
@@ -26,3 +22,7 @@
 - Open the Plesk main configuration file in the default editor:
 
 `plesk conf {{panel.ini}}`
+
+- Display version:
+
+`plesk version`

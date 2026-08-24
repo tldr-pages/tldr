@@ -2,8 +2,8 @@
 
 > 端末のマルチプレクサ。
 > ウィンドウやペインなどによる複数セッションを可能にします。
-> も参照してください: `zellij`, `screen` 。
-> もっと詳しく: <https://github.com/tmux/tmux>。
+> 参照: `zellij`, `screen`。
+> 詳細情報: <https://github.com/tmux/tmux>。
 
 - 新規セッションの開始:
 
@@ -11,15 +11,15 @@
 
 - 新しい名前付きセッションを開始する:
 
-`tmux new -s {{セッション名}}`
+`tmux {{[new|new-session]}} -s {{セッション名}}`
 
 - 既存のセッションを一覧表示:
 
-`tmux ls`
+`tmux {{[ls|list-sessions]}}`
 
 - 直近に使用したセッションにアタッチ:
 
-`tmux attach`
+`tmux {{[a|attach]}}`
 
 - 現在のセッションからの切り離し（tmuxセッション内）:
 

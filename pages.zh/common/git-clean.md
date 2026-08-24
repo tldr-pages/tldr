@@ -1,7 +1,7 @@
 # git clean
 
 > 从工作区删除未被 Git 跟踪的文件。
-> 更多信息：<https://git-scm.com/docs/git-clean>.
+> 更多信息：<https://git-scm.com/docs/git-clean>。
 
 - 删除未跟踪的文件：
 

@@ -2,7 +2,7 @@
 
 > Install, manage, and update Rust toolchains.
 > Some subcommands, such as `toolchain`, `target`, `update`, etc. have their own usage documentation.
-> More information: <https://rust-lang.github.io/rustup>.
+> More information: <https://rust-lang.github.io/rustup/>.
 
 - Install the nightly toolchain for your system:
 

@@ -2,7 +2,7 @@
 
 > Виводить коміти починаючи з певного періоду часу або дати.
 > Частина `git-extras`.
-> Більше інформації: <https://github.com/tj/git-extras/blob/master/Commands.md#git-commits-since>.
+> Більше інформації: <https://github.com/tj/git-extras/blob/main/Commands.md#git-commits-since>.
 
 - Виводить коміти починаючи зі вчора:
 

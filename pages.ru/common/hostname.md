@@ -1,24 +1,20 @@
 # hostname
 
-> Показ и изменение системного имени хоста.
-> Больше информации: <https://manned.org/hostname>.
+> Показывать или задавать системное имя хоста.
+> Больше информации: <https://www.gnu.org/software/inetutils/manual/inetutils.html#hostname-invocation>.
 
-- Показать имя хоста:
+- Показать текущее имя хоста:
 
 `hostname`
 
-- Показать сетевой адрес, соответствующий имени хоста:
+- Показать сетевой адрес имени хоста:
 
-`hostname -i`
+`hostname {{[-i|--ip-address]}}`
 
-- Показать все сетевые адреса хоста:
+- Показать полное доменное имя (FQDN):
 
-`hostname -I`
+`hostname {{[-f|--fqdn]}}`
 
-- Показать полное доменное имя (FQDN, Fully Qualified Domain Name):
-
-`hostname --fqdn`
-
-- Задать имя хоста:
+- Задать текущее имя хоста:
 
 `hostname {{новое_имя}}`

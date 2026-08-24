@@ -6,32 +6,32 @@
 
 - Lista pacotes instalados e suas versões:
 
-`pacman --query`
+`pacman -Q`
 
 - Lista apenas pacotes e versões que foram instalados explicitamente:
 
-`pacman --query --explicit`
+`pacman -Qe`
 
 - Procura qual pacote possui um arquivo:
 
-`pacman --query --owns {{arquivo}}`
+`pacman -Qo {{arquivo}}`
 
 - Exibe informações sobre um pacote instalado:
 
-`pacman --query --info {{pacote}}`
+`pacman -Qi {{pacote}}`
 
 - Lista arquivos fornecidos por um pacote:
 
-`pacman --query --list {{pacote}}`
+`pacman -Ql {{pacote}}`
 
 - Lista pacotes órfãos (instalados como dependências, mas que nenhum pacote instalado necessita):
 
-`pacman --query --unrequired --deps --quiet`
+`pacman -Qdtq`
 
 - Lista pacotes instalados não encontrados nos repositórios:
 
-`pacman --query --foreign`
+`pacman -Qm`
 
 - Lista pacotes desatualizados:
 
-`pacman --query --upgrades`
+`pacman -Qu`

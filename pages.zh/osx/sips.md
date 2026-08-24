@@ -2,7 +2,7 @@
 
 > 苹果的处理文件脚本系统。
 > 光栅 / 查询图像 和 颜色同步 ICC 配置文件。
-> 更多信息：<https://keith.github.io/xcode-man-pages/sips.1.html>.
+> 更多信息：<https://keith.github.io/xcode-man-pages/sips.1.html>。
 
 - S 指定一个输出目录，这样原始文件就不会被修改：
 
@@ -22,7 +22,7 @@
 
 - 将图像从 CMYK 转换为 RGB：
 
-`sips --matchTo "/System/Library/ColorSync/Profiles/Generic RGB Profile.icc" {{目标 / 文件夹 / 图片。扩展}} {{目标 / 文件夹 / 输出文件夹}}`
+`sips --matchTo "/System/Library/ColorSync/Profiles/Generic RGB Profile.icc" {{目标 / 文件夹 / 图片。扩展}} --out {{目标 / 文件夹 / 输出文件夹}}`
 
 - 从图像中删除 ColorSync ICC 配置：
 

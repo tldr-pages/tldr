@@ -1,7 +1,7 @@
 # apt-mark
 
 > Eina per canviar l'estat dels paquets instal·lats.
-> Més informació: <https://manned.org/apt-mark.8>.
+> Més informació: <https://manned.org/apt-mark>.
 
 - Marca un paquet com a instal·lat automàticament:
 

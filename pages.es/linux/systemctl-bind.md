@@ -1,7 +1,7 @@
 # systemctl bind
 
 > Monta temporalmente un archivo o directorio del host en el espacio de nombres de montaje de una unidad.
-> Más información: <https://www.freedesktop.org/software/systemd/man/systemctl.html#%0A%20%20%20%20%20%20%20%20%20%20%20%20bind%0A%20%20%20%20%20%20%20%20%20%20%20%20UNIT%0A%20%20%20%20%20%20%20%20%20%20%20%20PATH%0A%20%20%20%20%20%20%20%20%20%20%20%20%5BPATH%5D%0A%20%20%20%20%20%20%20%20%20%20>.
+> Más información: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#bind%20UNIT%20PATH%20%5BPATH%5D>.
 
 - Monta una ruta del host en la misma ubicación dentro de la unidad:
 

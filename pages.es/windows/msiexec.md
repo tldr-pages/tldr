@@ -9,7 +9,7 @@
 
 - Instala un paquete MSI desde un sitio web:
 
-`msiexec /package {{https://ejemplo.com/instalador.msi}}`
+`msiexec /package {{https://example.com/instalador.msi}}`
 
 - Instala un archivo de parche MSP:
 

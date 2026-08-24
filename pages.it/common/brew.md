@@ -1,32 +1,37 @@
 # brew
 
-> Gestore di pacchetti per macOS.
+> Homebrew - gestore di pacchetti per macOS e Linux.
+> Alcuni sottocomandi come `install` hanno la propria documentazione.
 > Maggiori informazioni: <https://docs.brew.sh/Manpage>.
 
-- Installa l'ultima versione stabile di una formula:
+- Installa l'ultima versione stabile di una formula o cask:
 
 `brew install {{formula|cask}}`
 
-- Mostra tutte le formule installate:
+- Elenca tutte le formule e casks installate:
 
 `brew list`
 
-- Aggiorna una formula installata (se non viene fornito il nome di nessuna formula, tutte le formule installate verranno aggiornate):
+- Aggiorna una formula o cask installata (se non specificata, aggiorna tutto):
 
 `brew upgrade {{formula|cask}}`
 
-- Trova la versione più aggiornata di Homebrew e di tutte le formule da GitHub:
+- Scarica l'ultima versione di Homebrew e di tutte le formule/casks dal repository:
 
 `brew update`
 
-- Cerca formule e cask:
+- Mostra formule e casks con versioni più recenti disponibili:
+
+`brew outdated`
+
+- Cerca formule (pacchetti) e casks (pacchetti `.app` nativi macOS):
 
 `brew search {{testo}}`
 
-- Mostra le informazioni su una specifica formula (versione, percorso di installazione, dipendenze, ecc...):
+- Visualizza informazioni su una formula o cask (versione, percorso, dipendenze, etc.):
 
 `brew info {{formula|cask}}`
 
-- Verifica se la versione installata di Homebrew presenta dei problemi:
+- Controlla l'installazione locale di Homebrew per problemi:
 
 `brew doctor`

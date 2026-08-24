@@ -14,7 +14,7 @@
 
 - Afficher uniquement les tags du dépôt configuré par défaut :
 
-`git ls-remote --tags`
+`git ls-remote {{[-t|--tags]}}`
 
 - Afficher les références du dépôt précisé :
 

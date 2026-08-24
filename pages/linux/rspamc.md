@@ -7,7 +7,7 @@
 
 `rspamc learn_spam {{path/to/email_file}}`
 
-- Train the bayesian filter to recognise an email as ham:
+- Train the bayesian filter to recognize an email as ham:
 
 `rspamc learn_ham {{path/to/email_file}}`
 

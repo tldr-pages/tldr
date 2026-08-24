@@ -2,7 +2,7 @@
 
 > Interface for OrbStack, a fast and lightweight container and virtual machine runtime for macOS.
 > Provides Docker-compatible commands and Linux VM management.
-> More information: <https://docs.orbstack.dev/>.
+> More information: <https://docs.orbstack.dev/headless>.
 
 - List all containers and VMs:
 

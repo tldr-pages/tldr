@@ -1,7 +1,7 @@
 # choco uninstall
 
 > Verwijder een of meerdere pakketen met Chocolatey.
-> Meer informatie: <https://chocolatey.org/docs/commands-uninstall>.
+> Meer informatie: <https://docs.chocolatey.org/en-us/choco/commands/uninstall/>.
 
 - Verwijder een of meerdere spatie-gescheiden pakketten:
 
@@ -13,11 +13,11 @@
 
 - Bevestig alle prompts automatisch:
 
-`choco uninstall {{pakket}} --yes`
+`choco uninstall {{pakket}} {{[-y|--yes]}}`
 
 - Verwijder alle afhankelijkheden bij het verwijderen:
 
-`choco uninstall {{pakket}} --remove-dependencies`
+`choco uninstall {{pakket}} {{[-x|--remove-dependencies]}}`
 
 - Verwijder alle pakketten:
 

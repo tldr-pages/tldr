@@ -1,7 +1,7 @@
 # swc
 
 > JavaScript and TypeScript compiler written in Rust.
-> More information: <https://swc.rs>.
+> More information: <https://swc.rs/docs/usage/cli>.
 
 - Transpile a specified input file and output to `stdout`:
 
@@ -9,15 +9,15 @@
 
 - Transpile the input file every time it is changed:
 
-`swc {{path/to/file}} --watch`
+`swc {{path/to/file}} {{[-w|--watch]}}`
 
 - Transpile a specified input file and output to a specific file:
 
-`swc {{path/to/input_file}} --out-file {{path/to/output_file}}`
+`swc {{path/to/input_file}} {{[-o|--out-file]}} {{path/to/output_file}}`
 
 - Transpile a specified input directory and output to a specific directory:
 
-`swc {{path/to/input_directory}} --out-dir {{path/to/output_directory}}`
+`swc {{path/to/input_directory}} {{[-d|--out-dir]}} {{path/to/output_directory}}`
 
 - Transpile a specified input directory using a specific configuration file:
 

@@ -1,7 +1,7 @@
 # pueue clean
 
 > Remove all finished tasks from the list and clear logs.
-> More information: <https://github.com/Nukesor/pueue>.
+> More information: <https://github.com/Nukesor/pueue#how-to-use-it>.
 
 - Remove finished tasks and clear logs:
 

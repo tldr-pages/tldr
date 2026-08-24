@@ -1,7 +1,8 @@
 # w
 
 > 顯示目前的登錄者以及他們正在進行的動作。
-> 更多資訊：<https://manned.org/w>.
+> 另請參閱：`who`, `users`。
+> 更多資訊：<https://manned.org/w>。
 
 - 顯示目前的登錄者的訊息：
 
@@ -13,8 +14,8 @@
 
 - 顯示目前的登錄者的訊息，並隱藏標題：
 
-`w --no-header`
+`w {{[-h|--no-header]}}`
 
 - 顯示 login、JCPU、PCPU 以外的資訊：
 
-`w --short`
+`w {{[-s|--short]}}`

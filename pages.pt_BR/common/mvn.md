@@ -13,7 +13,7 @@
 
 - Cria um artefato de distribuição sem executar testes unitários:
 
-`mvn package -DskipTests`
+`mvn package {{[-D|--define]}} skipTests`
 
 - Instala um artefato gerado em um repositório local:
 
@@ -29,8 +29,8 @@
 
 - Executa as fases `clean` e `package` em um projeto utilizando um perfil:
 
-`mvn clean -P {{perfil}} package`
+`mvn clean {{[-P|--activate-profiles]}} {{perfil}} package`
 
 - Executa uma classe que possua o método `main`:
 
-`mvn exec:java -Dexec.mainClass="{{nome.do.pacote.classe}}" -Dexec.args="{{argument1 argument2 ...}}"`
+`mvn exec:java {{[-D|--define]}} exec.mainClass="{{nome.do.pacote.classe}}" {{[-D|--define]}} exec.args="{{argument1 argument2 ...}}"`

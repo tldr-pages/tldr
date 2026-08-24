@@ -2,11 +2,12 @@
 
 > 도메인 이름, IPv4 및 IPv6 주소, DNS 리소스 레코드 및 서비스를 해석.
 > DNS 해석기를 검사하고 재구성.
-> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/resolvectl.html>.
+> 관련 항목: `dig`, `nslookup`, `host`.
+> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/latest/resolvectl.html>.
 
 - DNS 설정 표시:
 
-`resolvectl status`
+`resolvectl`
 
 - 하나 이상의 도메인에 대한 IPv4 및 IPv6 주소 해석:
 
@@ -14,7 +15,7 @@
 
 - 지정한 IP 주소의 도메인 검색:
 
-`resolvectl query {{IP_주소}}`
+`resolvectl query {{ip_주소}}`
 
 - 모든 로컬 DNS 캐시 플러시:
 
@@ -26,7 +27,7 @@
 
 - 도메인의 MX 레코드 검색:
 
-`resolvectl --legend={{no}} --type={{MX}} query {{도메인}}`
+`resolvectl --legend {{no}} {{[-t|--type]}} MX query {{도메인}}`
 
 - 예를 들어 _xmpp-server._tcp gmail.com와 같은 SRV 레코드 해석:
 

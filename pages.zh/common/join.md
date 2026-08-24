@@ -1,7 +1,7 @@
 # join
 
 > 在两个已排序的文件中根据一个公共字段合并行。
-> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/join-invocation.html>.
+> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/join-invocation.html>。
 
 - 根据第一个（默认）字段合并两个文件：
 
@@ -9,7 +9,7 @@
 
 - 使用逗号（而不是空格）作为字段分隔符合并两个文件：
 
-`join -t {{','}} {{路径/到/文件1}} {{路径/到/文件2}}`
+`join -t ',' {{路径/到/文件1}} {{路径/到/文件2}}`
 
 - 将文件1的字段3与文件2的字段1合并：
 

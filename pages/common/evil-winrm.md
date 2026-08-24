@@ -4,34 +4,34 @@
 > Once connected, we get a PowerShell prompt on the target host.
 > More information: <https://github.com/Hackplayers/evil-winrm>.
 
-- Connect to a host:
+- Connect to a host and start an interactive session:
 
-`evil-winrm {{[-i|--ip]}} {{ip}} {{[-u|--user]}} {{user}} {{[-p|--password]}} {{password}}`
+`evil-winrm {{[-i|--ip]}} {{ip_address}} {{[-u|--user]}} {{user}} {{[-p|--password]}} {{password}}`
 
 - Connect to a host using pass-the-hash authentication instead of a password:
 
-`evil-winrm {{[-i|--ip]}} {{ip}} {{[-u|--user]}} {{user}} {{[-H|--hash]}} {{nt_hash}}`
+`evil-winrm {{[-i|--ip]}} {{ip_address}} {{[-u|--user]}} {{user}} {{[-H|--hash]}} {{nt_hash}}`
 
 - Connect to a host, specifying directories for PowerShell scripts and executables:
 
-`evil-winrm {{[-i|--ip]}} {{ip}} {{[-u|--user]}} {{user}} {{[-p|--password]}} {{password}} {{[-s|--scripts]}} {{path/to/scripts}} {{[-e|--executables]}} {{path/to/executables}}`
+`evil-winrm {{[-i|--ip]}} {{ip_address}} {{[-u|--user]}} {{user}} {{[-p|--password]}} {{password}} {{[-s|--scripts]}} {{path/to/scripts}} {{[-e|--executables]}} {{path/to/executables}}`
 
 - Connect to a host, using SSL:
 
-`evil-winrm {{[-i|--ip]}} {{ip}} {{[-u|--user]}} {{user}} {{[-p|--password]}} {{password}} {{[-S|--ssl]}} {{[-c|--pub-key]}} {{path/to/pubkey}} {{[-k|--priv-key]}} {{path/to/privkey}}`
+`evil-winrm {{[-i|--ip]}} {{ip_address}} {{[-u|--user]}} {{user}} {{[-p|--password]}} {{password}} {{[-S|--ssl]}} {{[-c|--pub-key]}} {{path/to/pubkey}} {{[-k|--priv-key]}} {{path/to/privkey}}`
 
-- Upload a file to the host:
+- [Interactive] Upload a file to the host:
 
-`PS > upload {{path/to/local_file}} {{path/to/remote_file}}`
+`upload {{path/to/local_file}} {{path/to/remote_file}}`
 
-- List all loaded PowerShell functions:
+- [Interactive] List all loaded PowerShell functions:
 
-`PS > menu`
+`menu`
 
-- Load a PowerShell script from the `--scripts` directory:
+- [Interactive] Load a PowerShell script from the `--scripts` directory:
 
-`PS > {{script.ps1}}`
+`{{script.ps1}}`
 
-- Invoke a binary on the host from the `--executables` directory:
+- [Interactive] Invoke a binary on the host from the `--executables` directory:
 
-`PS > Invoke-Binary {{binary.exe}}`
+`Invoke-Binary {{binary.exe}}`

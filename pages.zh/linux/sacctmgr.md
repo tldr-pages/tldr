@@ -1,7 +1,7 @@
 # sacctmgr
 
 > 查看、配置、管理 Slurm 账户。
-> 更多信息：<https://slurm.schedmd.com/sacctmgr.html>.
+> 更多信息：<https://slurm.schedmd.com/sacctmgr.html>。
 
 - 显示现有配置：
 

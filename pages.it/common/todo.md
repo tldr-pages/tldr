@@ -1,7 +1,7 @@
 # todo
 
 > Un semplice gestore per i todo da linea di comando.
-> Maggiori informazioni: <https://todoman.readthedocs.io>.
+> Maggiori informazioni: <https://todoman.readthedocs.io/en/stable/man.html>.
 
 - Elenco dei task che possono essere inizializzati:
 
@@ -9,7 +9,7 @@
 
 - Aggiungere un nuovo task alla lista delle cose da fare per lavoro:
 
-`todo new {{cose_da_fare}} --list {{lavoro}}`
+`todo new {{cose_da_fare}} {{[-l|--list]}} {{lavoro}}`
 
 - Aggiungere una località ad un task con un dato ID:
 

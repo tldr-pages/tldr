@@ -15,7 +15,7 @@
 
 `finger -s`
 
-- Geef een output in meerdere regels weer met dezelfde informatie als `-s` evenals de thuisdirectory van de gebruiker, thuistelefoonnummer, loginshell, mailstatus, enz.:
+- Geef een output in meerdere regels weer met dezelfde informatie als `-s` evenals de thuismap van de gebruiker, thuistelefoonnummer, loginshell, mailstatus, enz.:
 
 `finger -l`
 

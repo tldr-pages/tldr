@@ -1,7 +1,7 @@
 # po4a-gettextize
 
 > Convert a file to a PO file.
-> More information: <https://po4a.org/man/man1/po4a-gettextize.1.php>.
+> More information: <https://www.po4a.org/man/man1/po4a-gettextize.1.php>.
 
 - Convert a text file to PO file:
 

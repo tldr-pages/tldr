@@ -2,7 +2,7 @@
 
 > Diagnose, monitor, and run health checks on RabbitMQ nodes.
 > Many subcommands are delegated to `rabbitmqctl`.
-> More information: <https://www.rabbitmq.com/docs/man/rabbitmq-diagnostics.8.html>.
+> More information: <https://www.rabbitmq.com/docs/man/rabbitmq-diagnostics.8>.
 
 - List resource alarms:
 

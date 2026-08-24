@@ -1,0 +1,7 @@
+# pulumi down
+
+> यह आदेश `pulumi destroy` का उपनाम है।
+
+- मूल आदेश के लिए दस्तावेज़ देखें:
+
+`tldr pulumi destroy`

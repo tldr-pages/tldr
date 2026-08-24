@@ -1,7 +1,7 @@
 # chrome
 
-> यो आदेश `chromium` को उपनाम हो |
-> थप जानकारी: <https://chrome.google.com>।
+> यो आदेश `chromium` को उपनाम हो।
+> थप जानकारी: <https://www.google.com/chrome/>।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

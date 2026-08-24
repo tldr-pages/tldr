@@ -1,7 +1,7 @@
 # eslint
 
 > Uma ferramenta de linting plugável para JavaScript e JSX.
-> Mais informações: <https://eslint.org>.
+> Mais informações: <https://eslint.org/docs/latest/use/command-line-interface>.
 
 - Cria o arquivo de configuração do ESLint:
 

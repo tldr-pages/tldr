@@ -1,7 +1,7 @@
 # blackfire
 
 > Strumento di profilazione da linea di comando per PHP.
-> Maggiori informazioni: <https://blackfire.io>.
+> Maggiori informazioni: <https://www.blackfire.io/>.
 
 - Inizializza e configura il client Blackfire:
 

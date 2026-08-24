@@ -1,7 +1,7 @@
 # pabcnetcclear
 
 > PascalABC.NET 소스 파일을 전처리하고 컴파일합니다.
-> 더 많은 정보: <https://pascalabc.net>.
+> 더 많은 정보: <https://pascalabc.net/>.
 
 - 지정된 소스 파일을 동일한 이름의 실행 파일로 컴파일:
 

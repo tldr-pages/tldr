@@ -1,7 +1,7 @@
 # vale
 
 > Markdown 및 AsciiDoc과 같은 여러 마크업 형식을 지원하는 확장 가능한 스타일 검사기.
-> 더 많은 정보: <https://vale.sh>.
+> 더 많은 정보: <https://vale.sh/docs/cli>.
 
 - 파일의 스타일 검사:
 

@@ -20,7 +20,7 @@
 
 `conda init --no-user`
 
-- Add `condabin/` directory to PATH:
+- Add `condabin/` directory to `$PATH`:
 
 `conda init --condabin`
 

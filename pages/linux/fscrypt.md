@@ -1,7 +1,7 @@
 # fscrypt
 
 > Go tool for managing Linux filesystem encryption.
-> More information: <https://github.com/google/fscrypt>.
+> More information: <https://github.com/google/fscrypt#example-usage>.
 
 - Prepare the root filesystem for use with `fscrypt`:
 

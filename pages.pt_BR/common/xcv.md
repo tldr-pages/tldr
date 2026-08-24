@@ -1,7 +1,7 @@
 # xcv
 
 > Corta, copia e cola na linha de comando.
-> Mais informações: <https://github.com/busterc/xcv>.
+> Mais informações: <https://github.com/busterc/xcv#xcv>.
 
 - Corta um arquivo:
 

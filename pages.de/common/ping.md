@@ -1,6 +1,7 @@
 # ping
 
 > Sendet ICMP ECHO_REQUEST Pakete an andere Geräte im Netzwerk.
+> Siehe auch: `mtr`.
 > Weitere Informationen: <https://manned.org/ping>.
 
 - Sende Pings an ein Gerät im Netzwerk:

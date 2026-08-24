@@ -1,6 +1,6 @@
 # gruncon
 
-> Perintah ini merupakan alias dari `-p linux runcon`.
+> Perintah ini merupakan alias dari GNU `runcon`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 

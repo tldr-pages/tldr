@@ -1,7 +1,7 @@
 # uv python
 
 > 管理 Python 版本和安装。
-> 更多信息：<https://docs.astral.sh/uv/reference/cli/#uv-python>.
+> 更多信息：<https://docs.astral.sh/uv/reference/cli/#uv-python>。
 
 - 列出所有可用的 Python 安装：
 

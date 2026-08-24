@@ -9,7 +9,7 @@
 
 - Abre una URL en el navegador predeterminado:
 
-`xdg-open {{https://www.ejemplo.es}}`
+`xdg-open {{https://www.example.com}}`
 
 - Abre una imagen en el visor de imágenes predeterminado:
 

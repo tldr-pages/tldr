@@ -1,7 +1,7 @@
 # rustup set
 
 > `rustup` 설정 변경.
-> 더 많은 정보: <https://rust-lang.github.io/rustup>.
+> 더 많은 정보: <https://rust-lang.github.io/rustup/>.
 
 - 기본 호스트 트리플 설정:
 

@@ -21,7 +21,7 @@
 
 - Add an IPv4 address to the list of allowed NetBoot sources:
 
-`csrutil netboot add {{ip}}`
+`csrutil netboot add {{ip_address}}`
 
 - Reset the System Integrity Protection status and clear the NetBoot list:
 

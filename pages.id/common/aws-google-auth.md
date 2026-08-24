@@ -5,16 +5,16 @@
 
 - Masuk menggunakan akun SSO Google dengan data pengenal [u]sername, [I]DP, dan [S]P, kemudian atur [d]urasi akses kredensial sementara selama satu jam ke depan:
 
-`aws-google-auth -u {{example@example.com}} -I {{$GOOGLE_IDP_ID}} -S {{$GOOGLE_SP_ID}} -d {{3600}}`
+`aws-google-auth {{[-u|--username]}} {{example@example.com}} {{[-I|--idp-id]}} {{$GOOGLE_IDP_ID}} {{[-S|--sp-id]}} {{$GOOGLE_SP_ID}} {{[-d|--duration]}} {{3600}}`
 
 - Masuk dengan men[a]nyakan peran (role) yang hendak digunakan dalam membuat kredensial (bila terdapat beberapa peran SAML yang tersedia):
 
-`aws-google-auth -u {{example@example.com}} -I {{$GOOGLE_IDP_ID}} -S {{$GOOGLE_SP_ID}} -d {{3600}} -a`
+`aws-google-auth {{[-u|--username]}} {{example@example.com}} {{[-I|--idp-id]}} {{$GOOGLE_IDP_ID}} {{[-S|--sp-id]}} {{$GOOGLE_SP_ID}} {{[-d|--duration]}} {{3600}} {{[-a|--ask-role]}}`
 
 - Selesaikan kumpulan alias bagi akun AWS:
 
-`aws-google-auth -u {{example@example.com}} -I {{$GOOGLE_IDP_ID}} -S {{$GOOGLE_SP_ID}} -d {{3600}} -a --resolve-aliases`
+`aws-google-auth {{[-u|--username]}} {{example@example.com}} {{[-I|--idp-id]}} {{$GOOGLE_IDP_ID}} {{[-S|--sp-id]}} {{$GOOGLE_SP_ID}} {{[-d|--duration]}} {{3600}} {{[-a|--ask-role]}} --resolve-aliases`
 
 - Tampilkan bantuan:
 
-`aws-google-auth -h`
+`aws-google-auth {{[-h|--help]}}`

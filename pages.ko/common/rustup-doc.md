@@ -2,7 +2,7 @@
 
 > 현재 툴체인의 오프라인 Rust 문서를 엽니다.
 > 여기서 언급되지 않은 더 많은 문서 페이지가 있습니다. 자세한 내용은 `rustup help doc`을 참조하세요.
-> 더 많은 정보: <https://rust-lang.github.io/rustup>.
+> 더 많은 정보: <https://rust-lang.github.io/rustup/>.
 
 - 메인 페이지 열기:
 

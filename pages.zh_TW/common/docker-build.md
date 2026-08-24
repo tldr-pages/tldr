@@ -1,7 +1,7 @@
 # docker build
 
 > 從 Dockerfile 建立 Docker 映像檔 (Image)。
-> 更多資訊：<https://docs.docker.com/reference/cli/docker/buildx/build/>.
+> 更多資訊：<https://docs.docker.com/reference/cli/docker/buildx/build/>。
 
 - 使用當前目錄的 Dockerfile 建立映像檔：
 
@@ -17,7 +17,7 @@
 
 - 不使用建構上下文（Build Context）來建立映像檔：
 
-`docker build {{[-t|--tag]}} {{名稱:標籤}} - < {{Dockerfile}}`
+`docker < {{Dockerfile}} build {{[-t|--tag]}} {{名稱:標籤}} -`
 
 - 在建構映像檔時不使用快取：
 

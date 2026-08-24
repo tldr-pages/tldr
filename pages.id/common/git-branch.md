@@ -3,7 +3,7 @@
 > Perintah Git utama untuk bekerja dengan cabang (_branch_).
 > Informasi lebih lanjut: <https://git-scm.com/docs/git-branch>.
 
-- Tampilkan daftar semua cabang (lokal dan remote; cabang saat ini ditandai oleh `*`) :
+- Tampilkan daftar semua cabang (lokal dan remote; cabang saat ini ditandai oleh `*`):
 
 `git branch {{[-a|--all]}}`
 

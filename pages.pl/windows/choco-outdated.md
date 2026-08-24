@@ -1,7 +1,7 @@
 # choco outdated
 
 > Sprawdzenie nieaktualnych pakietów zarządzanych przez Chocolatey.
-> Więcej informacji: <https://chocolatey.org/docs/commands-outdated>.
+> Więcej informacji: <https://docs.chocolatey.org/en-us/choco/commands/outdated/>.
 
 - Wyświetlanie listy nieaktualnych pakietów w formie tabeli:
 
@@ -13,8 +13,8 @@
 
 - Ustawienie określonego źródła do sprawdzenia aktualności pakietów:
 
-`choco outdated --source {{adres_url|alias}}`
+`choco outdated {{[-s|--source]}} {{adres_url|alias}}`
 
 - Podanie nazwy użytkownika i hasła do uwierzytelnienia:
 
-`choco outdated --user {{nazwa_użytkownika}} --password {{hasło}}`
+`choco outdated {{[-u|--user]}} {{nazwa_użytkownika}} {{[-p|--password]}} {{hasło}}`

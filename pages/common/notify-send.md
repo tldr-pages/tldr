@@ -5,7 +5,7 @@
 
 - Show a notification with the title "Test" and the content "This is a test":
 
-`notify-send "{{Test}}" "{{This is a test}}"`
+`notify-send "Test" "This is a test"`
 
 - Show a notification with a custom icon:
 

@@ -1,7 +1,7 @@
 # traefik
 
 > HTTP 리버스 프록시 및 로드 밸런서.
-> 더 많은 정보: <https://traefik.io>.
+> 더 많은 정보: <https://doc.traefik.io/traefik/v2.11/operations/cli/>.
 
 - 기본 설정으로 서버 시작:
 

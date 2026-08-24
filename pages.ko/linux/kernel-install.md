@@ -1,7 +1,7 @@
 # kernel-install
 
 > 커널 및 initrd 이미지를 `/boot`에 추가 및 제거.
-> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/kernel-install.html>.
+> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/latest/kernel-install.html>.
 
 - 커널 및 initramfs 이미지를 부트로더 파티션에 추가:
 

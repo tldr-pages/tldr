@@ -1,7 +1,7 @@
 # pio init
 
-> Det här kommandot är ett alias för `pio project`.
+> Det här kommandot är ett alias för `pio project init`.
 
-- Se dokumentationen för orginalkommandot:
+- Se dokumentationen för originalkommandot:
 
 `tldr pio project`

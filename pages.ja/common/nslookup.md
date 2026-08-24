@@ -1,7 +1,8 @@
 # nslookup
 
 > ネームサーバに様々なドメインレコードを問い合わせます。
-> もっと詳しく: <https://manned.org/nslookup>。
+> 参照: `dig`, `resolvectl`, `host`。
+> 詳細情報: <https://manned.org/nslookup>。
 
 - システムのデフォルトネームサーバに、ドメインの IP アドレス（A レコード）を問い合わせる:
 

@@ -1,6 +1,7 @@
 # exa
 
 > Pengganti `ls` (Tampilkan isi direktori) yang modern.
+> Lihat juga: `eza`.
 > Informasi lebih lanjut: <https://github.com/ogham/exa#command-line-options>.
 
 - Tampilkan daftar berkas, satu berkas per baris:

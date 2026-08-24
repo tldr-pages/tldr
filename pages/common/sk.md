@@ -2,7 +2,7 @@
 
 > Fuzzy finder written in Rust.
 > Similar to `fzf`.
-> More information: <https://github.com/lotabout/skim>.
+> More information: <https://github.com/skim-rs/skim>.
 
 - Start `skim` on all files in the specified directory:
 

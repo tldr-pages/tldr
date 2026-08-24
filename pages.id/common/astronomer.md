@@ -1,7 +1,7 @@
 # astronomer
 
 > Periksa kumpulan bintang/star (penandaan repositori sebagai bagian dari favorit) yang dipalsukan dari akun-akun bot pada proyek-proyek GitHub.
-> Informasi lebih lanjut: <https://github.com/Ullaakut/astronomer>.
+> Informasi lebih lanjut: <https://github.com/Ullaakut/astronomer#arguments-and-options>.
 
 - Pindai suatu repositori:
 
@@ -9,8 +9,8 @@
 
 - Atur jumlah bintang/star terbanyak dalam suatu repositori untuk diperiksa:
 
-`astronomer {{tldr-pages/tldr-node-client}} --stars {{50}}`
+`astronomer {{tldr-pages/tldr-node-client}} {{[-s|--stars]}} {{50}}`
 
 - Pindai suatu repositori termasuk laporan-laporan perbandingan dalam proses analisis:
 
-`astronomer {{tldr-pages/tldr-node-client}} --verbose`
+`astronomer {{tldr-pages/tldr-node-client}} {{[-v|--verbose]}}`

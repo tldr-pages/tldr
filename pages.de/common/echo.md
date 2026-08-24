@@ -1,6 +1,7 @@
 # echo
 
 > Gib angegebene Argumente aus.
+> Siehe auch: `printf`.
 > Weitere Informationen: <https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>.
 
 - Gib einen Text aus. (Hinweis: Anführungszeichen sind optional):

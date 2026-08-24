@@ -26,7 +26,7 @@
 
 - Lista arquivos abertos por um certo processo, dado o seu PID:
 
-`lsof -p {{PID}}`
+`lsof -p {{pid}}`
 
 - Lista arquivos abertos em um diretório:
 

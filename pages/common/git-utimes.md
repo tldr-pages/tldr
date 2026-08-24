@@ -2,7 +2,7 @@
 
 > Change files modification time to their last commit date. Does not touch files that are in the working tree or index.
 > Part of `git-extras`.
-> More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-utimes>.
+> More information: <https://github.com/tj/git-extras/blob/main/Commands.md#git-utimes>.
 
 - Change all files modification time to their last commit date:
 

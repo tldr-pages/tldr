@@ -1,12 +1,7 @@
 # whoami
 
-> Imprime o nome do usuário associado com o ID do usuário efetivamente atual.
-> Mais informações: <https://www.gnu.org/software/coreutils/manual/html_node/whoami-invocation.html>.
+> Este comando é um apelido de `id --user --name`.
 
-- Exibe o nome do usuário logado:
+- Veja documentação sobre o comando original:
 
-`whoami`
-
-- Exibe o nome do usuário depois de uma mudança do ID do usuário:
-
-`sudo whoami`
+`tldr id`

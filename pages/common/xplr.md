@@ -1,7 +1,7 @@
 # xplr
 
-> Terminal-based file system explorer.
-> More information: <https://xplr.dev>.
+> Terminal-based filesystem explorer.
+> More information: <https://xplr.dev/>.
 
 - Open a directory:
 

@@ -1,6 +1,6 @@
 # Measure-Object
 
-> Calculates the numeric properties of objects, and the characters, words, and lines in string objects, such as files of text.
+> Calculate the numeric properties of objects, and the characters, words, and lines in string objects, such as files of text.
 > Note: This command can only be used through PowerShell.
 > More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/measure-object>.
 

@@ -1,7 +1,7 @@
 # octave
 
 > A programming language for scientific computing.
-> More information: <https://docs.octave.org/latest/Command-Line-Options.html>.
+> More information: <https://manned.org/octave>.
 
 - Start an interactive session:
 

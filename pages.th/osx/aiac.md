@@ -1,13 +1,13 @@
 # aiac
 
-> ใช้ OpenAI ผลิตการกำหนดค่าของ IaC, เครื่องมือ , คิวรีสำหรับค้นหา และอื่นๆ.
+> ใช้ OpenAI ผลิตการกำหนดค่าของ IaC, เครื่องมือ , คิวรีสำหรับค้นหา และอื่นๆ
 > ข้อมูลเพิ่มเติม: <https://github.com/gofireflyio/aiac>
 
 - สร้าง Terraform สำหรับบัญชี Azure storage:
 
 `aiac get terraform {{for an azure storage account}}`
 
-- สร้าง Dockerfile สำหรับ nginx:
+- สร้าง Dockerfile สำหรับ `nginx`:
 
 `aiac get dockerfile {{for a secured nginx}}`
 

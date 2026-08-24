@@ -1,7 +1,7 @@
 # glab alias
 
 > Manage GitLab CLI command aliases.
-> More information: <https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/alias/index.md>.
+> More information: <https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/alias/_index.md>.
 
 - List all the aliases `glab` is configured to use:
 

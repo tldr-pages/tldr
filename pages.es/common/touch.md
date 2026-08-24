@@ -1,7 +1,7 @@
 # touch
 
 > Crea archivos y establece los tiempos de acceso y modificación.
-> Más información: <https://manned.org/touch>.
+> Más información: <https://www.gnu.org/software/coreutils/manual/html_node/touch-invocation.html>.
 
 - Crea los archivos especificados:
 

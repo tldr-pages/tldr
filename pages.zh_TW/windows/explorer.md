@@ -1,7 +1,7 @@
 # explorer
 
 > Windows 檔案總管。
-> 更多資訊：<https://ss64.com/nt/explorer.html>.
+> 更多資訊：<https://ss64.com/nt/explorer.html>。
 
 - 打開 Windows 檔案總管：
 

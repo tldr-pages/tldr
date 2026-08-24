@@ -1,7 +1,7 @@
 # lpoptions
 
 > 프린터 옵션 및 기본값 표시 또는 설정.
-> 같이 보기: `lpadmin`.
+> 관련 항목: `lpadmin`.
 > 더 많은 정보: <https://openprinting.github.io/cups/doc/man-lpoptions.html>.
 
 - 기본 프린터 설정:

@@ -2,6 +2,7 @@
 
 > NetworkManager를 제어하기 위한 텍스트 사용자 인터페이스.
 > `<ArrowKeys>`로 탐색하고, `<Enter>` 키로 옵션을 선택하세요.
+> 관련 항목: `nmcli`.
 > 더 많은 정보: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmtui.html>.
 
 - 사용자 인터페이스 열기:
@@ -14,11 +15,11 @@
 
 - 특정 네트워크에 연결:
 
-`nmtui connect {{이름|UUID|장치|SSID}}`
+`nmtui connect {{이름|uuid|장치|ssid}}`
 
 - 특정 네트워크 편집/추가/삭제:
 
-`nmtui edit {{이름|ID}}`
+`nmtui edit {{이름|id}}`
 
 - 시스템 호스트명 설정:
 

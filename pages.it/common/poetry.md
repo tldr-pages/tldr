@@ -1,6 +1,7 @@
 # poetry
 
 > Gestore di pacchetti e dipendenze per Python.
+> Vedi anche: `asdf`, `pipenv`, `hatch`.
 > Maggiori informazioni: <https://python-poetry.org/docs/cli/>.
 
 - Crea un nuovo progetto Poetry nella directory specificata:

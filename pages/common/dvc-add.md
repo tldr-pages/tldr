@@ -1,7 +1,7 @@
 # dvc add
 
 > Add changed files to the index.
-> More information: <https://dvc.org/doc/command-reference/add>.
+> More information: <https://doc.dvc.org/command-reference/add>.
 
 - Add a single target file to the index:
 

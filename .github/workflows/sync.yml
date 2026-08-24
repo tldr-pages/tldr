@@ -1,0 +1,43 @@
+name: Monthly synchronization
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    name: Run synchronization scripts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install pip dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run synchronization scripts
+        run: |
+          python3 scripts/set-alias-page.py -S
+          python3 scripts/set-more-info-link.py -S
+          python3 scripts/set-page-title.py -S
+          python3 scripts/set-see-also.py -S
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
+        with:
+          commit-message: "pages.*/: synchronize pages"
+          title: "pages.*/: synchronize pages"
+          body: "Automated monthly synchronization of translated pages with existing English tldr pages."
+          branch: "monthly-sync"
+          delete-branch: true

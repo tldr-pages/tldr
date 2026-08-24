@@ -18,8 +18,8 @@
 
 - Terminate a process using the SIGINT (interrupt) signal, which is the same signal sent by pressing `<Ctrl c>`:
 
-`killall -INT {{process_name}}`
+`killall {{[-2|-SIGINT]}} {{process_name}}`
 
 - Force kill a process:
 
-`killall -KILL {{process_name}}`
+`killall {{[-9|-SIGKILL]}} {{process_name}}`

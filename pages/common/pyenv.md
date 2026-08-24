@@ -2,7 +2,7 @@
 
 > Switch between multiple versions of Python easily.
 > See also: `asdf`.
-> More information: <https://github.com/pyenv/pyenv>.
+> More information: <https://manned.org/pyenv>.
 
 - List all available commands:
 

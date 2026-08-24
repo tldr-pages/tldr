@@ -9,7 +9,7 @@
 
 - Tampilkan pesan dengan ukuran lebar ([w]idth) sebesar 50 karakter:
 
-`banner -w 50 "{{Halo Dunia}}"`
+`banner {{[-w|--width]}} 50 "{{Halo Dunia}}"`
 
 - Baca teks dari `stdin`:
 

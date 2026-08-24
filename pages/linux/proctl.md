@@ -1,7 +1,7 @@
 # proctl
 
 > Manage projects licenses and languages, switch between templated licenses.
-> More information: <https://github.com/HeCodes2Much/proctl>.
+> More information: <https://github.com/CreativeCodeCat/proctl>.
 
 - List available licenses:
 

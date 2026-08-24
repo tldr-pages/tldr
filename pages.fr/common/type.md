@@ -1,6 +1,7 @@
 # type
 
 > Affiche le type de la commande que le terminal exécuterait.
+> Voir aussi : `whereis`, `which`.
 > Plus d'informations : <https://www.gnu.org/software/bash/manual/bash.html#index-type>.
 
 - Affiche le type d'une commande :

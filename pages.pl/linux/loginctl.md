@@ -1,7 +1,8 @@
 # loginctl
 
 > Zarządzaj menedżerem logowania systemd.
-> Więcej informacji: <https://www.freedesktop.org/software/systemd/man/loginctl.html>.
+> Zobacz także: `lslogins`.
+> Więcej informacji: <https://www.freedesktop.org/software/systemd/man/latest/loginctl.html>.
 
 - Wyświetl wszystkie aktualne sesje:
 

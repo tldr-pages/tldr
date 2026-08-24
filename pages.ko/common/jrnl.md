@@ -1,7 +1,7 @@
 # jrnl
 
 > 간단한 커맨드라인 저널 애플리케이션.
-> 더 많은 정보: <https://jrnl.sh>.
+> 더 많은 정보: <https://jrnl.sh/en/stable/reference-command-line/>.
 
 - 편집기를 사용하여 새 항목 삽입:
 

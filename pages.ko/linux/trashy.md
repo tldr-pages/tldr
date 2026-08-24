@@ -1,7 +1,7 @@
 # trashy
 
 > Rust로 작성된 `rm` 및 `trash-cli`의 대안.
-> 더 많은 정보: <https://github.com/oberblastmeister/trashy>.
+> 더 많은 정보: <https://github.com/oberblastmeister/trashy#usage>.
 
 - 특정 파일을 휴지통으로 이동:
 

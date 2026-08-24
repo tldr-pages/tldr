@@ -1,7 +1,7 @@
 # nxc rdp
 
 > Pentest and exploit RDP servers.
-> More information: <https://www.netexec.wiki/rdp-protocol>.
+> More information: <https://www.netexec.wiki/rdp-protocol/password-spraying>.
 
 - Search for valid credentials by trying out every combination in the specified lists of usernames and passwords:
 

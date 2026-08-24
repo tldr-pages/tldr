@@ -1,7 +1,7 @@
 # aws sqs
 
 > Cria, apaga, e envia mensagens para filas para o serviço AWS SQS.
-> Mais informações: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/sqs/index.html>.
+> Mais informações: <https://docs.aws.amazon.com/cli/latest/reference/sqs/>.
 
 - Lista todas as filas disponíveis:
 

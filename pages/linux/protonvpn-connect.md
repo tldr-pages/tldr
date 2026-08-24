@@ -1,28 +1,24 @@
 # protonvpn connect
 
-> Connect to ProtonVPN.
-> More information: <https://github.com/Rafficer/linux-cli-community>.
+> Connect to Proton VPN.
+> More information: <https://protonvpn.com/support/linux-cli#how-to-use-the-cli-for-linux>.
 
-- Connect to ProtonVPN interactively:
+- Connect to Proton VPN using the fastest server available:
 
-`protonvpn {{[c|connect]}}`
+`protonvpn connect`
 
-- Connect to ProtonVPN using the fastest server available:
+- Connect to the fastest server in a specific country:
 
-`protonvpn {{[c|connect]}} {{[-f|--fastest]}}`
+`protonvpn connect --country "{{country_code_or_name}}"`
 
-- Connect to ProtonVPN using a specific server with a specific protocol:
+- Connect to the fastest server in a specific city:
 
-`protonvpn {{[c|connect]}} {{server_name}} -p {{udp|tcp}}`
+`protonvpn connect --city "{{city_name}}"`
 
-- Connect to ProtonVPN using a random server with a specific protocol:
+- Connect to a specific server:
 
-`protonvpn {{[c|connect]}} {{[-r|--random]}} -p {{udp|tcp}}`
-
-- Connect to ProtonVPN using the fastest Tor-supporting server:
-
-`protonvpn {{[c|connect]}} --tor`
+`protonvpn connect {{server_name}}`
 
 - Display help:
 
-`protonvpn {{[c|connect]}} --help`
+`protonvpn connect {{[-h|--help]}}`

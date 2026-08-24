@@ -1,6 +1,7 @@
 # top
 
 > Zobrazuje dynamické informace o běžících procesech v reálném čase.
+> Viz také: `htop`, `atop`, `glances`, `btop`, `btm`.
 > Více informací: <https://manned.org/top>.
 
 - Zapnout `top`:

@@ -2,7 +2,7 @@
 
 > 通过反转一些边来使有向图无环。
 > Graphviz 过滤器：`acyclic`、`bcomps`、`comps`、`edgepaint`、`gvcolor`、`gvpack`、`mingle`、`nop`、`sccmap`、`tred` 和 `unflatten`。
-> 更多信息：<https://graphviz.org/pdf/acyclic.1.pdf>.
+> 更多信息：<https://graphviz.org/pdf/acyclic.1.pdf>。
 
 - 通过反转一些边来使有向图无环：
 

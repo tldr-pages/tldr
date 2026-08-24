@@ -1,7 +1,7 @@
 # systemctl emergency
 
 > Entra en modo de emergencia `emergency.target`.
-> Más información: <https://www.freedesktop.org/software/systemd/man/systemctl.html#emergency>.
+> Más información: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#emergency>.
 
 - Entra en modo de emergencia:
 

@@ -26,4 +26,4 @@
 
 - Annuler l'opération et retourner à la branche précédente :
 
-`git-imerge remove && git checkout {{previous_branch}}`
+`git imerge remove && git checkout {{previous_branch}}`

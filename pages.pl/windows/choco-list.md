@@ -1,7 +1,7 @@
 # choco list
 
 > Wyświetlanie listy pakietów Chocolatey.
-> Więcej informacji: <https://chocolatey.org/docs/commands-list>.
+> Więcej informacji: <https://docs.chocolatey.org/en-us/choco/commands/list/>.
 
 - Wyświetlanie wszystkich dostępnych pakietów:
 
@@ -13,7 +13,7 @@
 
 - Wyświetlanie listy pakietów zawierającej lokalnie zainstalowane programy:
 
-`choco list --include-programs`
+`choco list {{[-i|--include-programs]}}`
 
 - Wyświetlanie listy wyłącznie zatwierdzonych pakietów:
 
@@ -21,7 +21,7 @@
 
 - Wyświetlanie listy pakietów dpstępnych w podanym źródle/repozytorium:
 
-`choco list --source {{adres_url|alias}}`
+`choco list {{[-s|--source]}} {{adres_url|alias}}`
 
 - PPodanie nazwy użytkownika i hasła do uwierzytelnienia:
 

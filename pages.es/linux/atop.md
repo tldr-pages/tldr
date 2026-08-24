@@ -1,6 +1,7 @@
 # atop
 
 > Monitor de sistemas y procesos para Linux.
+> Vea también: `htop`, `top`, `btop`, `btm`, `glances`.
 > Más información: <https://manned.org/atop>.
 
 - Inicia:

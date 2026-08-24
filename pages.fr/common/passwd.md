@@ -1,6 +1,7 @@
 # passwd
 
 > Passwd est un outil de changement de mot de passe utilisateur.
+> Voir aussi : `chpasswd`.
 > Plus d'informations : <https://manned.org/passwd>.
 
 - Change le mot de passe de l'utilisateur actuel :

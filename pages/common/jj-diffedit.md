@@ -1,7 +1,7 @@
 # jj diffedit
 
 > Touch up the content changes in a revision with a diff editor.
-> More information: <https://jj-vcs.github.io/jj/latest/cli-reference/#jj-diffedit>.
+> More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-diffedit>.
 
 - Edit changes in the current revision with a diff editor:
 

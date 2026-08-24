@@ -1,7 +1,7 @@
 # u3d
 
 > 一组用于与 Unity 进行交互的工具。
-> 更多信息：<https://github.com/DragonBox/u3d>.
+> 更多信息：<https://github.com/DragonBox/u3d>。
 
 - 使用正确的 Unity 版本打开当前目录中的项目：
 

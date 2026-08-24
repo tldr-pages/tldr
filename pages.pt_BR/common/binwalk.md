@@ -1,7 +1,7 @@
 # binwalk
 
 > Ferramenta de análise de Firmware.
-> Mais informações: <https://github.com/ReFirmLabs/binwalk>.
+> Mais informações: <https://manned.org/binwalk>.
 
 - Escaneia um arquivo binário:
 
@@ -13,7 +13,7 @@
 
 - Extrai recursivamente arquivos de um binário limitando a profundidade da recursão para 2:
 
-`binwalk {{[-e|--extract]}} {{[-M|--matryoshka]}} {{[-d|--depth]}} {{2}} {{caminho/para/binário}}`
+`binwalk {{[-e|--extract]}} {{[-M|--matryoshka]}} {{[-d|--depth]}} 2 {{caminho/para/binário}}`
 
 - Extrai arquivos de um binário com uma assinatura específica:
 

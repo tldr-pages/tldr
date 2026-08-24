@@ -1,7 +1,7 @@
 # psalm
 
 > PHP 애플리케이션에서 오류를 찾기 위한 정적 분석 도구.
-> 더 많은 정보: <https://psalm.dev>.
+> 더 많은 정보: <https://psalm.dev/docs/running_psalm/command_line_usage/#command-line-options>.
 
 - Psalm 구성 생성:
 

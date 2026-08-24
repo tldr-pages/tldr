@@ -23,6 +23,6 @@
 
 `terraform apply`
 
-- Destroy Terraform-managed infrastructure:
+- Destroy all infrastructure in the current directory:
 
 `terraform destroy`

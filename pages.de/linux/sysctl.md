@@ -5,11 +5,11 @@
 
 - Liste alle verfügbaren Kernelparameter mit ihren Werten auf:
 
-`sysctl -a`
+`sysctl {{[-a|--all]}}`
 
 - Setze einen veränderbaren Kernelparameter:
 
-`sysctl -w {{sektion.tunable}}={{wert}}`
+`sysctl {{[-w|--write]}} {{sektion.tunable}}={{wert}}`
 
 - Frage aktuell geöffnete Datei-Handler ab:
 
@@ -21,4 +21,4 @@
 
 - Übernimm Änderungen aus der `/etc/sysctl.conf` Datei:
 
-`sysctl -p`
+`sysctl {{[-p|--load]}}`

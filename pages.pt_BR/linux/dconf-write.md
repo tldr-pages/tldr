@@ -6,24 +6,24 @@
 
 - Escreve um valor de chave específico:
 
-`dconf write {{/caminho/para/chave}} "{{valor}}"`
+`dconf write /{{caminho/para/chave}} "{{valor}}"`
 
 - Escreve uma string específica como valor de chave:
 
-`dconf write {{/caminho/para/chave}} "'{{string}}'"`
+`dconf write /{{caminho/para/chave}} "'{{string}}'"`
 
 - Escreve um inteiro específico como valor de chave:
 
-`dconf write {{/caminho/para/chave}} "{{5}}"`
+`dconf write /{{caminho/para/chave}} "{{5}}"`
 
 - Escreve um booleano específico como valor de chave:
 
-`dconf write {{/caminho/para/chave}} "{{true|false}}"`
+`dconf write /{{caminho/para/chave}} "{{true|false}}"`
 
 - Escreve um array específico como valor de chave:
 
-`dconf write {{/caminho/para/chave}} "[{{'primeiro', 'segundo', ...}}]"`
+`dconf write /{{caminho/para/chave}} "[{{'primeiro', 'segundo', ...}}]"`
 
 - Escreve um array vazio específico como valor de chave:
 
-`dconf write {{/caminho/para/chave}} "@as []"`
+`dconf write /{{caminho/para/chave}} "@as []"`

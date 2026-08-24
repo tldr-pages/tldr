@@ -1,6 +1,7 @@
 # find
 
 > Dateien oder Verzeichnisse in einem Verzeichnisbaum rekursiv suchen.
+> Siehe auch: `fd`.
 > Weitere Informationen: <https://manned.org/find>.
 
 - Dateien nach Erweiterung suchen:

@@ -2,7 +2,7 @@
 
 > High-performance build system for JavaScript and TypeScript codebases.
 > See also: `nx`.
-> More information: <https://turborepo.org/docs/reference/command-line-reference>.
+> More information: <https://turborepo.com/docs/reference>.
 
 - Log in using the default web browser with a Vercel account:
 

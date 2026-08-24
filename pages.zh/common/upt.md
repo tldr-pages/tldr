@@ -2,8 +2,8 @@
 
 > 统一的界面，用于管理各种操作系统上的软件包，例如 Windows、许多 Linux 发行版、macOS、FreeBSD，甚至 Haiku。
 > 它需要安装本机操作系统的软件包管理器。
-> 请参阅：`flatpak`、`brew`、`scoop`、`apt`、`dnf`.
-> 更多信息：<https://github.com/sigoden/upt>.
+> 另请参阅：`flatpak`, `brew`, `scoop`, `apt`, `dnf`。
+> 更多信息：<https://github.com/sigoden/upt>。
 
 - 更新可用软件包的列表：
 

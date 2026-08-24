@@ -2,7 +2,7 @@
 
 > Yesod 是一个基于 Haskell 的网页框架的辅助工具。
 > 所有 Yesod 命令都通过 `stack` 项目管理器来调用。
-> 更多信息：<https://github.com/yesodweb/yesod>.
+> 更多信息：<https://github.com/yesodweb/yesod>。
 
 - 在 `my-project` 目录下创建一个以 SQLite 为后端的新样板网站：
 

@@ -2,7 +2,7 @@
 
 > Fork a GitHub repo. Like `git clone` but forks first.
 > Part of `git-extras`.
-> More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-fork>.
+> More information: <https://github.com/tj/git-extras/blob/main/Commands.md#git-fork>.
 
 - Fork and clone a GitHub repository by its URL:
 

@@ -1,7 +1,7 @@
 # noti
 
 > 프로세스를 모니터링하고 배너 알림을 트리거.
-> 더 많은 정보: <https://github.com/variadico/noti>.
+> 더 많은 정보: <https://github.com/variadico/noti/blob/main/docs/noti.md>.
 
 - tar가 파일 압축을 완료하면 알림 표시:
 
@@ -13,4 +13,4 @@
 
 - PID를 통해 프로세스를 모니터링하고 PID가 사라지면 알림 트리거:
 
-`noti -w {{프로세스_ID}}`
+`noti {{[-w|--pwatch]}} {{프로세스_id}}`

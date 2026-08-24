@@ -1,12 +1,16 @@
 # nvme
 
 > NVMe storage user space utility.
-> More information: <https://github.com/linux-nvme/nvme-cli>.
+> More information: <https://manned.org/nvme>.
 
-- List all nvme devices:
+- List all NVMe devices:
 
 `sudo nvme list`
 
 - Show device information:
 
 `sudo nvme smart-log {{device}}`
+
+- Secure erase user data on NVMe device:
+
+`sudo nvme format {{[-s|--ses]}} 1 {{[-r|--reset]}} {{device}}`

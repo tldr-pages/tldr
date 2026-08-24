@@ -1,7 +1,7 @@
 # manim
 
 > 用于制作数学动画的视频引擎。
-> 更多信息：<https://docs.manim.community/en/stable/tutorials/quickstart.html>.
+> 更多信息：<https://docs.manim.community/en/stable/tutorials/quickstart.html>。
 
 - 使用默认设置渲染 Python 脚本中的场景：
 
@@ -21,12 +21,12 @@
 
 - 使用指定分辨率和帧率进行渲染：
 
-`manim {{[-r|--resolution]}} {{1920,1080}} {{[-f|--fps]}} {{60}} {{路径/文件.py}} {{场景名称}}`
+`manim {{[-r|--resolution]}} {{1920,1080}} --fps {{60}} {{路径/文件.py}} {{场景名称}}`
 
 - 列出文件中可用的场景而不进行渲染：
 
 `manim --list_scenes {{路径/文件.py}}`
 
-- 显示帮助信息：
+- 显示帮助：
 
 `manim --help`

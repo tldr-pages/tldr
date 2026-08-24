@@ -9,12 +9,12 @@
 
 - 모든 객체의 수와 총 디스크 사용량을 계산하여 사람이 읽기 쉬운 단위로 표시:
 
-`git count-objects --human-readable`
+`git count-objects {{[-H|--human-readable]}}`
 
 - 더 자세한 정보 표시:
 
-`git count-objects --verbose`
+`git count-objects {{[-v|--verbose]}}`
 
 - 더 자세한 정보를 사람이 읽기 쉬운 단위로 표시:
 
-`git count-objects --human-readable --verbose`
+`git count-objects {{[-H|--human-readable]}} {{[-v|--verbose]}}`

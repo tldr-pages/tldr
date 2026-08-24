@@ -1,7 +1,7 @@
 # direnv
 
 > Shell extension to load and unload environment variables depending on the current directory.
-> More information: <https://github.com/direnv/direnv>.
+> More information: <https://github.com/direnv/direnv/blob/master/man/direnv.1.md>.
 
 - Grant direnv permission to load the `.envrc` present in the current directory:
 

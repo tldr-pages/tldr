@@ -1,7 +1,7 @@
 # timedatectl
 
 > Control the system time and date.
-> More information: <https://www.freedesktop.org/software/systemd/man/timedatectl.html>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/timedatectl.html>.
 
 - Check the current system clock time:
 
@@ -22,6 +22,10 @@
 - Enable Network Time Protocol (NTP) synchronization:
 
 `timedatectl set-ntp on`
+
+- Show information about time synchronization (only available when using `systemd-timesyncd`):
+
+`timedatectl timesync-status`
 
 - Change the hardware clock time standard to localtime:
 

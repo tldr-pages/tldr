@@ -1,7 +1,7 @@
 # git commit-graph
 
 > 生成和验证 Git 提交图文件。
-> 更多信息：<https://git-scm.com/docs/git-commit-graph>.
+> 更多信息：<https://git-scm.com/docs/git-commit-graph>。
 
 - 为仓库本地 `.git` 目录中的打包提交生成提交图文件：
 

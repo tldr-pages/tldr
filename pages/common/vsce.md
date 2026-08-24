@@ -7,7 +7,7 @@
 
 `vsce list {{publisher}}`
 
-- Publish an extension as major, minor or patch version:
+- Publish an extension as major, minor, or patch version:
 
 `vsce publish {{major|minor|patch}}`
 

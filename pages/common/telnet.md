@@ -11,7 +11,7 @@
 
 `telnet {{ip_address}} {{port}}`
 
-- Exit a telnet session:
+- [Interactive] Exit a telnet session:
 
 `quit`
 

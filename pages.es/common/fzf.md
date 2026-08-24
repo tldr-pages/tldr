@@ -20,10 +20,10 @@
 
 `fzf {{[-q|--query]}} "{{consulta}}"`
 
-- Aplica `fzf` en las entradas que comienzan con `programa` y finalizan con `go`, `rb`, o `py`:
+- Aplica `fzf` en las entradas que comienzan con `core` y finalizan con `go`, `rb`, o `py`:
 
-`fzf {{[-q|--query]}} "^programa go$ | rb$ | py$"`
+`fzf {{[-q|--query]}} "^core go$ | rb$ | py$"`
 
 - Aplica `fzf` en entradas que no coinciden con `pyc` y coinciden exactamente con `travis`:
 
-`fzf {{[-q|--query]}} "\!pyc 'travis'`
+`fzf {{[-q|--query]}} '!pyc travis'`

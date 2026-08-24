@@ -1,7 +1,7 @@
 # husky
 
 > Native Git hooks made easy.
-> More information: <https://typicode.github.io/husky>.
+> More information: <https://typicode.github.io/husky/>.
 
 - Install Husky in the current directory:
 

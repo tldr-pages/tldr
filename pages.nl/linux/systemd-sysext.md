@@ -1,7 +1,7 @@
 # systemd-sysext
 
 > Activeer or deactiveer systeem extensie images.
-> Meer informatie: <https://www.freedesktop.org/software/systemd/man/systemd-sysext.html>.
+> Meer informatie: <https://www.freedesktop.org/software/systemd/man/latest/systemd-sysext.html>.
 
 - Toon geïnstalleerde extensie images:
 
@@ -13,7 +13,7 @@
 
 - Toon de huidige status van het samenvoegen:
 
-`systemd-sysext status`
+`systemd-sysext`
 
 - Draai het samenvoegen van alle huidig geïnstalleerde systeem extensie images terug in `/usr/` en `/opt/`:
 

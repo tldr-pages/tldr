@@ -1,7 +1,7 @@
 # infection
 
 > A mutation testing framework for PHP.
-> More information: <https://infection.github.io>.
+> More information: <https://infection.github.io/guide/command-line-options.html>.
 
 - Analyze code using the configuration file (or create one if it does not exist):
 
@@ -9,7 +9,7 @@
 
 - Use a specific number of threads:
 
-`infection --threads {{number_of_threads}}`
+`infection {{[-j|--threads]}} {{number_of_threads}}`
 
 - Specify a minimum Mutation Score Indicator (MSI):
 
@@ -29,7 +29,7 @@
 
 - Display the mutation code that has been applied:
 
-`infection --show-mutations`
+`infection {{[-s|--show-mutations]}}`
 
 - Specify the log verbosity:
 

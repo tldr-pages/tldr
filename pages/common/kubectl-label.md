@@ -1,7 +1,7 @@
 # kubectl label
 
 > Label Kubernetes resources.
-> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_label>.
+> More information: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_label/>.
 
 - Label a pod:
 

@@ -1,7 +1,7 @@
 # apt-add-repository
 
-> এই কমান্ডটি মূলত `add-apt-repository` কমান্ডের একটি alias।
+> এই কমান্ডটি `add-apt-repository` - এর একটি উপনাম।
 
-- মূল কমান্ডের বিস্তারিত ডকুমেন্টেশন দেখতে:
+- মূল কমান্ডের ডকুমেন্টেশন দেখুন:
 
 `tldr add-apt-repository`

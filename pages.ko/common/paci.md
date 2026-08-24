@@ -1,7 +1,7 @@
 # paci
 
 > Bash 스크립트를 위한 패키지 관리자.
-> 더 많은 정보: <https://github.com/tradebyte/paci>.
+> 더 많은 정보: <https://github.com/tradebyte/paci#usage>.
 
 - 사용 가능한 패키지 및 버전 목록 업데이트 (다른 `paci` 명령어를 실행하기 전에 이 명령어를 실행하는 것이 권장됨):
 

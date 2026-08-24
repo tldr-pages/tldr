@@ -1,6 +1,7 @@
 # find
 
 > Mencari file atau direktori di dalam sebuah struktur direktori (directory tree) secara rekursif.
+> Lihat juga: `fd`.
 > Informasi lebih lanjut: <https://manned.org/find>.
 
 - Cari berkas berdasarkan ekstensi:

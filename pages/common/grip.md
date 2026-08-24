@@ -1,6 +1,6 @@
 # grip
 
-> Preview GitHub-flavoured Markdown files locally.
+> Preview GitHub-flavored Markdown files locally.
 > More information: <https://manned.org/grip>.
 
 - Start the server and serve the rendered `README` file of a current directory:

@@ -1,7 +1,7 @@
 # insmod
 
 > Carga módulos dinámicamente en el Kernel Linux.
-> Vea también: `kmod` para otros comandos de gestión de módulos.
+> Vea también: `kmod`.
 > Más información: <https://manned.org/insmod>.
 
 - Inserta un módulo del kernel en el kernel de Linux:

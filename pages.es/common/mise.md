@@ -1,7 +1,7 @@
 # mise
 
 > Gestiona versiones de diferentes paquetes.
-> Más información: <https://mise.jdx.dev>.
+> Más información: <https://mise.jdx.dev/cli/>.
 
 - Lista todos los complementos disponibles:
 
@@ -21,7 +21,7 @@
 
 - Establece una versión global de un paquete:
 
-`mise use --global {{nombre}}@{{versión}}`
+`mise use {{[-g|--global]}} {{nombre}}@{{versión}}`
 
 - Establece una versión local de un paquete:
 

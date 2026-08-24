@@ -5,20 +5,32 @@
 
 - Upgrade alle geïnstalleerde pakketten:
 
-`pkg upgrade`
+`pkg {{[up|upgrade]}}`
+
+- Toon geïnstalleerde pakketten:
+
+`pkg {{[list-i|list-installed]}}`
 
 - Installeer een pakket:
 
-`pkg install {{pakket}}`
+`pkg {{[i|install]}} {{pakket}}`
 
 - Verwijder een pakket:
 
-`pkg uninstall {{pakket}}`
+`pkg {{[un|uninstall]}} {{pakket}}`
 
 - Herinstalleer een pakket:
 
-`pkg reinstall {{pakket}}`
+`pkg {{[rei|reinstall]}} {{pakket}}`
 
 - Zoek naar een pakket:
 
-`pkg search {{pakket}}`
+`pkg {{[se|search]}} {{pakket}}`
+
+- Toon informatie over een specifiek pakket:
+
+`pkg {{[sh|show]}} {{pakket}}`
+
+- Toon de help:
+
+`pkg {{[h|help]}}`

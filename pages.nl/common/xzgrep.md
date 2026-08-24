@@ -16,13 +16,9 @@
 
 `xzgrep {{[-n|--line-number]}} "{{zoekpatroon}}" {{pad/naar/bestand}}`
 
-- Gebruik uitgebreidere reguliere expressies (ondersteund `?`, `+`, `{}`, `()` en `|`), in case-ongevoelige modus:
-
-`xzgrep {{[-E|--extended-regexp]}} {{[-i|--ignore-case]}} "{{zoekpatroon}}" {{pad/naar/bestand}}`
-
 - Toon 3 regels met [C]ontext rond, voor ([B]) of n[A] elke overeenkomst:
 
-`xzgrep --{{context|before-context|after-context}} {{3}} "{{zoekpatroon}}" {{pad/naar/bestand}}`
+`xzgrep {{--context|--before-context|--after-context}} 3 "{{zoekpatroon}}" {{pad/naar/bestand}}`
 
 - Toon bestandsnaam en regelnummer voor elke overeenkomst met kleuren:
 
@@ -31,3 +27,7 @@
 - Zoek naar regels die overeenkomen met een patroon en toon alleen de gematchte tekst:
 
 `xzgrep {{[-o|--only-matching]}} "{{zoekpatroon}}" {{pad/naar/bestand}}`
+
+- Gebruik uitgebreide `regex` (ondersteund `?`, `+`, `{}`, `()` en `|`), in hoofdletterongevoelig modus:
+
+`xzgrep {{[-E|--extended-regexp]}} {{[-i|--ignore-case]}} "{{zoekpatroon}}" {{pad/naar/bestand}}`

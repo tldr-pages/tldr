@@ -2,7 +2,7 @@
 
 > Beheer een groep van computers op afstand over SSH. (Gebruik het `/etc/ansible/hosts` bestand om nieuwe groepen/hosts toe te voegen).
 > Sommige subcommando's zoals `galaxy` hebben hun eigen documentatie.
-> Meer informatie: <https://docs.ansible.com/ansible/latest/cli/ansible.html>.
+> Meer informatie: <https://docs.ansible.com/projects/ansible/latest/cli/ansible.html>.
 
 - Toon de hosts die tot een groep behoren:
 
@@ -22,7 +22,7 @@
 
 - Voer een commando uit met administratieve rechten:
 
-`ansible {{groep}} {{[-b|--become]}} --ask-become-pass {{[-m|--module-name]}} command {{[-a|--args]}} '{mijn_commando}}'`
+`ansible {{groep}} {{[-b|--become]}} --ask-become-pass {{[-m|--module-name]}} command {{[-a|--args]}} '{{mijn_commando}}'`
 
 - Voer een commando uit met een aangepast inventaris bestand:
 

@@ -28,10 +28,10 @@
 
 `ed {{path/to/file}}`
 
-- Replace a string with a specific replacement for all lines:
+- [Interactive] Replace a string with a specific replacement for all lines:
 
-`,s/{{regex}}/{{replacement}}/g<Enter>`
+`,s/{{regex}}/{{replacement}}/g`
 
-- Exit `ed`:
+- [Interactive] Exit `ed`:
 
-`q<Enter>`
+`q`

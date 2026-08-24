@@ -2,7 +2,7 @@
 
 > A utility and a library for HTTP load testing.
 > See also: `ab`.
-> More information: <https://github.com/tsenart/vegeta>.
+> More information: <https://github.com/tsenart/vegeta#usage-manual>.
 
 - Launch an attack lasting 30 seconds:
 

@@ -1,7 +1,7 @@
 # ninja
 
 > 一个快速的构建系统。
-> 更多信息：<https://ninja-build.org/manual.html>.
+> 更多信息：<https://ninja-build.org/manual.html>。
 
 - 在当前目录下构建：
 
@@ -19,6 +19,6 @@
 
 `ninja -t targets`
 
-- 查看帮助：
+- 显示帮助：
 
 `ninja -h`

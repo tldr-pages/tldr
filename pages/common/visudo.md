@@ -1,7 +1,7 @@
 # visudo
 
 > Safely edit the sudoers file.
-> More information: <https://www.sudo.ws/docs/man/visudo.man>.
+> More information: <https://www.sudo.ws/docs/man/visudo.man/>.
 
 - Edit the sudoers file:
 
@@ -15,6 +15,6 @@
 
 `sudo EDITOR={{editor}} visudo`
 
-- Display version information:
+- Display version:
 
 `visudo {{[-V|--version]}}`

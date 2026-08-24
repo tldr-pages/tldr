@@ -1,6 +1,6 @@
 # Set-Service
 
-> Starts, stops, and suspends a service, and changes its properties.
+> Start, stop, and suspend a service, and changes its properties.
 > Note: This command can only be used through PowerShell.
 > More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/set-service>.
 

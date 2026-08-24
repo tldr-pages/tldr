@@ -23,7 +23,7 @@
 
 `git diff --stat {{commit}}`
 
-- Output a summary of file creations, renames and mode changes since a given commit:
+- Output a summary of file creations, renames, and mode changes since a given commit:
 
 `git diff --summary {{commit}}`
 

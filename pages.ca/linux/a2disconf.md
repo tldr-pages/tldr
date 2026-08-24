@@ -1,7 +1,7 @@
 # a2disconf
 
 > Desactiva un fitxer de configuració d'Apache en sistemes operatius basats en Debian.
-> Més informació: <https://manned.org/a2disconf.8>.
+> Més informació: <https://manned.org/a2disconf>.
 
 - Desactiva un fitxer de configuració:
 
@@ -9,4 +9,4 @@
 
 - No mostris missatges informatius:
 
-`sudo a2disconf --quiet {{fitxer_configuració}}`
+`sudo a2disconf {{[-q|--quiet]}} {{fitxer_configuració}}`

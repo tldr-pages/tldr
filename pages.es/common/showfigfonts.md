@@ -1,7 +1,7 @@
 # showfigfonts
 
 > Muestra una lista de fuentes disponibles para figlet.
-> Vea también `figlet`.
+> Vea también: `figlet`.
 > Más información: <https://manned.org/showfigfonts>.
 
 - Muestra las fuentes disponibles:

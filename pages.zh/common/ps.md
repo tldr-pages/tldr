@@ -1,7 +1,7 @@
 # ps
 
 > 提供正在运行的进程的信息。
-> 更多信息：<https://manned.org/ps>.
+> 更多信息：<https://manned.org/ps>。
 
 - 列出所有正在运行的进程：
 
@@ -25,7 +25,7 @@
 
 - 获取一个进程的父进程 ID：
 
-`ps {{[-o|--format]}} ppid= {{[-p|--pid]}} {{进程 ID}}`
+`ps {{[-o|--format]}} ppid= {{[-p|--pid]}} {{进程id}}`
 
 - 按内存使用量对进程进行排序：
 

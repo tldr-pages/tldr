@@ -1,7 +1,7 @@
 # choco new
 
 > Erstelle neue Paket-Beschreibungs-Dateien mit Chocolatey.
-> Weitere Informationen: <https://chocolatey.org/docs/commands-new>.
+> Weitere Informationen: <https://docs.chocolatey.org/en-us/create/commands/new/>.
 
 - Erstelle ein neues Grundgerüst für ein Paket:
 
@@ -17,7 +17,7 @@
 
 - Erstelle ein neues Paket in einem bestimmten Ausgabe-Verzeichnis:
 
-`choco new {{paket_name}} --output-directory {{pfad/zu/verzeichnis}}`
+`choco new {{paket_name}} {{[--out|--output-directory]}} {{pfad/zu/verzeichnis}}`
 
 - Erstelle ein neues Paket mit verschiedenen URLs für die 32-Bit und 64-Bit Installationsroutinen:
 

@@ -6,7 +6,7 @@
 
 - Debian Stable 디렉토리 chroot 생성:
 
-`sudo mmdebstrap stable {{경로/대상/debian-root/}}`
+`sudo mmdebstrap stable {{경로/대상/debian-root}}/`
 
 - 미러를 사용하여 Debian Bookworm tarball chroot 생성:
 

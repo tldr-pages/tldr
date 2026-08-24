@@ -2,7 +2,7 @@
 
 > A lightweight and customizable notification daemon for X11 and Wayland.
 > If not started manually, D-Bus will automatically start `dunst` when a notification is sent.
-> More information: <https://dunst-project.org/documentation/dunst>.
+> More information: <https://dunst-project.org/documentation/dunst/>.
 
 - Start `dunst`:
 

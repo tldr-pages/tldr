@@ -1,6 +1,7 @@
 # head
 
 > Geef het eerste deel van bestanden weer.
+> Zie ook: `tail`.
 > Meer informatie: <https://keith.github.io/xcode-man-pages/head.1.html>.
 
 - Geef de eerste tien regels van een bestand weer:

@@ -1,7 +1,7 @@
 # rmmod
 
 > Elimina módulos del núcleo Linux.
-> Vea también: `kmod`, para otros comandos de gestión de módulos.
+> Vea también: `kmod`.
 > Más información: <https://manned.org/rmmod>.
 
 - Elimina un módulo del kernel:

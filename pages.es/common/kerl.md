@@ -5,7 +5,7 @@
 
 - Compila e instala una versión de Erlang/OTP en un directorio:
 
-`kerl build-install {{28.0}} {{28.0}} {{ruta/a/directorio_de_instalación}}/{{28.0}}`
+`kerl build-install {{28.0}} {{28.0}} {{ruta/al/directorio_de_instalación}}/{{28.0}}`
 
 - Activa una instalación Erlang/OTP:
 

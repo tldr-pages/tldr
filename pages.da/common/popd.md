@@ -1,7 +1,7 @@
 # popd
 
 > Fjern en mappe placeret på mappe-stakken via den indbyggede shell-kommando `pushd`.
-> Se `pushd` for at placere en mappe på mappe-stakken og `dirs` for at vise indholdet af mappe-stakken.
+> Se også: `pushd`, `dirs`.
 > Mere information: <https://www.gnu.org/software/bash/manual/bash.html#index-popd>.
 
 - Fjern den øverste mappe fra mappe-stakken og `cd` til mappen:

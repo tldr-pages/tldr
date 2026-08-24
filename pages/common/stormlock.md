@@ -1,7 +1,7 @@
 # stormlock
 
 > Centralized locking system.
-> More information: <https://github.com/tmccombs/stormlock>.
+> More information: <https://github.com/tmccombs/stormlock#usage>.
 
 - Acquire a lease for resource:
 

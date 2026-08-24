@@ -5,7 +5,7 @@
 > Zie ook: `unalias`.
 > Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#index-alias>.
 
-- Overzicht alle aliases:
+- Toon alle aliassen:
 
 `alias`
 
@@ -17,14 +17,14 @@
 
 `alias {{woord}}`
 
-- Verwijdert een alias:
+- Verwijder een alias:
 
 `unalias {{woord}}`
 
 - Maak van `rm` een interactief commando:
 
-`alias {{rm}}="{{rm -i}}"`
+`alias rm="rm -i"`
 
 - Maak een alias `la` aan als korte schrijfwijze van `ls -a`:
 
-`alias {{la}}="{{ls -a}}"`
+`alias la="ls -a"`

@@ -1,6 +1,6 @@
 # gptx
 
-> Perintah ini merupakan alias dari `-p linux ptx`.
+> Perintah ini merupakan alias dari GNU `ptx`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 

@@ -7,7 +7,7 @@
 
 `bash-it update {{stable|dev}}`
 
-- Reload Bash profile (set `BASH_IT_AUTOMATIC_RELOAD_AFTER_CONFIG_CHANGE` to non-empty value for an automatic reload):
+- Reload Bash profile (set `$BASH_IT_AUTOMATIC_RELOAD_AFTER_CONFIG_CHANGE` to non-empty value for an automatic reload):
 
 `bash-it reload`
 

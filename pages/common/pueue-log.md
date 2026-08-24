@@ -2,7 +2,7 @@
 
 > Display the log output of 1 or more tasks.
 > See also: `pueue status`.
-> More information: <https://github.com/Nukesor/pueue>.
+> More information: <https://github.com/Nukesor/pueue#how-to-use-it>.
 
 - Show the last few lines of output from all tasks:
 

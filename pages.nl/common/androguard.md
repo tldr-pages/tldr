@@ -5,12 +5,12 @@
 
 - Toon Android app manifest:
 
-`androguard axml {{pad/naar/app.apk}}`
+`androguard axml {{pad/naar/app}}.apk`
 
 - Toon app metadata (versie en app ID):
 
-`androguard apkid {{pad/naar/app.apk}}`
+`androguard apkid {{pad/naar/app}}.apk`
 
 - Decompileer Java code van een applicatie:
 
-`androguard decompile {{pad/naar/app.apk}} --output {{pad/naar/map}}`
+`androguard decompile {{pad/naar/app}}.apk --output {{pad/naar/map}}`

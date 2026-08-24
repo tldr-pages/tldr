@@ -1,7 +1,7 @@
 # brew
 
 > Linux 和 macOS 的套件管理工具。
-> 更多資訊：<https://docs.brew.sh/Manpage>.
+> 更多資訊：<https://docs.brew.sh/Manpage>。
 
 - 安裝最新穩定版的配方（formula）或木桶（cask）：
 

@@ -1,6 +1,6 @@
 # pbmtonokia
 
-> Convert a PBM image to one of Nokia's Smart Messaging Formats .
+> Convert a PBM image to one of Nokia's Smart Messaging Formats.
 > More information: <https://netpbm.sourceforge.net/doc/pbmtonokia.html>.
 
 - Convert a PBM image into a Nokia Operator Logo as hexcode:

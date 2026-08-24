@@ -1,7 +1,7 @@
 # docker build
 
 > 从 Dockerfile 打包镜像。
-> 更多信息：<https://docs.docker.com/reference/cli/docker/buildx/build/>.
+> 更多信息：<https://docs.docker.com/reference/cli/docker/buildx/build/>。
 
 - 使用当前目录下的 Dockerfile 打包一个 Docker 镜像：
 
@@ -17,7 +17,7 @@
 
 - 打包一个没有上下文的 Docker 镜像：
 
-`docker build {{[-t|--tag]}} {{name:tag}} - < {{Dockerfile}}`
+`docker < {{Dockerfile}} build {{[-t|--tag]}} {{name:tag}} -`
 
 - 打包镜像时不使用缓存：
 

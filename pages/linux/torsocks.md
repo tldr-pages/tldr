@@ -16,7 +16,7 @@
 
 `torsocks --shell`
 
-- Check if current shell is Tor enabled (`LD_PRELOAD` value will be empty if disabled):
+- Check if current shell is Tor enabled (`$LD_PRELOAD` value will be empty if disabled):
 
 `torsocks show`
 
@@ -26,4 +26,4 @@
 
 - Connect to a Tor proxy running on a specific address and port:
 
-`torsocks {{[-a|--address]}} {{ip}} {{[-P|--port]}} {{port}} {{command}}`
+`torsocks {{[-a|--address]}} {{ip_address}} {{[-P|--port]}} {{port}} {{command}}`

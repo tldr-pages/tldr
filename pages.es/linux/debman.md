@@ -1,7 +1,7 @@
 # debman
 
 > Lee las páginas de ayuda (man) de paquetes desinstalados.
-> Más información: <https://manned.org/debman.1>.
+> Más información: <https://manned.org/debman>.
 
 - Lee una página man para un comando proporcionado por un paquete dado:
 

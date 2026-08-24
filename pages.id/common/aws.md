@@ -2,7 +2,7 @@
 
 > Alat baris perintah (CLI) resmi untuk Amazon Web Services.
 > Beberapa subperintah seperti `s3` mempunyai dokumentasi terpisah.
-> Informasi lebih lanjut: <https://aws.amazon.com/cli>.
+> Informasi lebih lanjut: <https://docs.aws.amazon.com/cli/latest/reference/>.
 
 - Atur penggunaan AWS Command-line secara umum:
 

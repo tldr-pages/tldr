@@ -2,7 +2,7 @@
 
 > Tampilkan informasi mengenai modul-modul (action plugins) yang terpasang dalam pustaka pemasangan Ansible.
 > Tampilkan informasi singkat mengenai daftar plugin beserta deskripsi singkatnya.
-> Informasi lebih lanjut: <https://docs.ansible.com/ansible/latest/cli/ansible-doc.html>.
+> Informasi lebih lanjut: <https://docs.ansible.com/projects/ansible/latest/cli/ansible-doc.html>.
 
 - Tampilkan daftar modul/plugin yang tersedia:
 

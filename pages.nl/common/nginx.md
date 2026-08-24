@@ -1,6 +1,6 @@
 # nginx
 
-> Nginx webserver.
+> `nginx` webserver.
 > Meer informatie: <https://nginx.org/docs/switches.html>.
 
 - Start de server met het standaard configuratiebestand:

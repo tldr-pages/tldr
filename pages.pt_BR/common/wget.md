@@ -2,6 +2,7 @@
 
 > Baixar arquivos da Internet.
 > Suporta HTTP, HTTPS, e FTP.
+> Veja também: `wcurl`, `curl`.
 > Mais informações: <https://www.gnu.org/software/wget/manual/wget.html>.
 
 - Baixa o conteúdo de uma URL para o arquivo (nomeado como "foo" neste caso):
@@ -14,11 +15,11 @@
 
 - Baixa uma única página web e todo os seus recursos com intervalos de 3 segundos entre requisições (scripts, stylesheets, imagens, etc.):
 
-`wget {{[-p|--page-requisites]}} {{[-k|--convert-links]}} {{[-w|--wait]}} 3 {{https://example.com/algumapagina.html}}`
+`wget {{[-pkw|--page-requisites --convert-links --wait]}} 3 {{https://example.com/algumapagina.html}}`
 
 - Baixa todos os arquivos listados dentro de um diretório e seus sub-diretórios (não baixa elementos de página incorporados):
 
-`wget {{[-m|--mirror]}} {{[-np|--no-parent]}} {{https://example.com/algumcaminho/}}`
+`wget {{[-mnp|--mirror --no-parent]}} {{https://example.com/algumcaminho/}}`
 
 - Limita a velocidade de download e o número de novas tentativas de conexão:
 

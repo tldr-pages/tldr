@@ -13,4 +13,4 @@
 
 - 디버그 심볼만 제거:
 
-`strip --strip-debug {{경로/대상/파일.o}}`
+`strip {{[-d|--strip-debug]}} {{경로/대상/파일.o}}`

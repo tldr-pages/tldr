@@ -7,7 +7,7 @@
 
 `patator ssh_login host={{ip_or_host}} user=FILE0 password=FILE1 0={{path/to/users.txt}} 1={{path/to/passwords.txt}} --rate_limit={{seconds}} --timeout={{seconds}} -x ignore:mesg='Authentication failed.'`
 
-- Brute force encrypted zip file:
+- Brute force encrypted ZIP file:
 
 `patator unzip_pass zipfile={{path/to/file.zip}} password=FILE0 0={{path/to/passwords.txt}} -x ignore:code!=0`
 

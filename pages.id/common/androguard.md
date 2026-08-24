@@ -5,12 +5,12 @@
 
 - Tampilkan manifes aplikasi Android:
 
-`androguard axml {{jalan/menuju/aplikasi.apk}}`
+`androguard axml {{jalan/menuju/aplikasi}}.apk`
 
 - Tampilkan metadata aplikasi (versi dan ID aplikasi):
 
-`androguard apkid {{jalan/menuju/aplikasi.apk}}`
+`androguard apkid {{jalan/menuju/aplikasi}}.apk`
 
 - Bongkar kode-kode program Java dari suatu aplikasi:
 
-`androguard decompile {{jalan/menuju/aplikasi.apk}} --output {{jalan/menuju/direktori}}`
+`androguard decompile {{jalan/menuju/aplikasi}}.apk --output {{jalan/menuju/direktori}}`

@@ -2,6 +2,7 @@
 
 > Explorador de fitxers per defecte en l'escriptori GNOME.
 > També conegut com a Fitxers.
+> Vegeu també: `dolphin`, `caja`, `thunar`, `vifm`.
 > Més informació: <https://manned.org/nautilus>.
 
 - Obre Nautilus:

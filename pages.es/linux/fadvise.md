@@ -1,6 +1,7 @@
 # fadvise
 
 > Controla el comportamiento de la caché de archivos de Linux.
+> Vea también: `fincore`.
 > Más información: <https://manned.org/fadvise>.
 
 - Precarga un archivo en la caché:

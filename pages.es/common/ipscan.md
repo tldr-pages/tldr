@@ -2,7 +2,7 @@
 
 > Un rápido escáner de red diseñado para ser simple de usar.
 > También conocido como Angry IP Scanner.
-> Más información: <https://angryip.org/>.
+> Más información: <https://www.aldeid.com/wiki/Angry-IPScan#CLI>.
 
 - Escanea una dirección IP específica:
 

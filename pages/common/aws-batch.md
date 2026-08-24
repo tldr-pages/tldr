@@ -1,7 +1,7 @@
 # aws batch
 
 > Run batch computing workloads through the AWS Batch service.
-> More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/batch/index.html>.
+> More information: <https://docs.aws.amazon.com/cli/latest/reference/batch/>.
 
 - List running batch jobs:
 

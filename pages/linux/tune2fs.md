@@ -1,6 +1,6 @@
 # tune2fs
 
-> Adjust parameters of an ext2, ext3 or ext4 filesystem.
+> Adjust parameters of an ext2, ext3, or ext4 filesystem.
 > May be used on mounted filesystems.
 > More information: <https://manned.org/tune2fs>.
 
@@ -8,7 +8,7 @@
 
 `sudo tune2fs -c 2 {{/dev/sdXN}}`
 
-- Set the filesystem label to MY_LABEL:
+- Set the filesystem label to `MY_LABEL`:
 
 `sudo tune2fs -L 'MY_LABEL' {{/dev/sdXN}}`
 

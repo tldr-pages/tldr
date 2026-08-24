@@ -2,6 +2,7 @@
 
 > Pokazuje kto jest zalogowany i co aktualnie robi.
 > Wyświetla login, TTY, zdalny host, czas zalogowania, czas bezczynności i aktualny proces.
+> Zobacz także: `who`, `users`.
 > Więcej informacji: <https://manned.org/w>.
 
 - Pokazuje informacje o aktualnie zalogowanych użytkownikach:

@@ -1,20 +1,20 @@
 # asar
 
 > Pengarsip berkas untuk platform Electron.
-> Informasi lebih lanjut: <https://github.com/electron/asar>.
+> Informasi lebih lanjut: <https://github.com/electron/asar#usage>.
 
 - Arsipkan sebuah berkas atau direktori:
 
-`asar pack {{jalan/menuju/berkas_atau_direktori}} {{arsip.asar}}`
+`asar {{[p|pack]}} {{jalan/menuju/berkas_atau_direktori}} {{arsip.asar}}`
 
 - Bongkar isi suatu arsip:
 
-`asar extract {{arsip.asar}}`
+`asar {{[e|extract]}} {{arsip.asar}}`
 
 - Bongkar isi berkas tertentu dari suatu arsip:
 
-`asar extract-file {{arsip.asar}} {{berkas}}`
+`asar {{[ef|extract-file]}} {{arsip.asar}} {{berkas}}`
 
 - Tampilkan daftar isi dari suatu berkas arsip:
 
-`asar list {{arsip.asar}}`
+`asar {{[l|list]}} {{arsip.asar}}`

@@ -6,7 +6,7 @@
 
 - Afegeix una nova abreviatura:
 
-`abbr --add {{nom_abreviatura}} {{comandament}} {{arguments}}`
+`abbr {{[-a|--add]}} {{nom_abreviatura}} {{comandament}} {{arguments}}`
 
 - Canvia el nom d'una abreviatura existent:
 
@@ -14,8 +14,8 @@
 
 - Esborra una abreviatura existent:
 
-`abbr --erase {{nom_abreviatura}}`
+`abbr {{[-e|--erase]}} {{nom_abreviatura}}`
 
 - Importa les abreviatures definides en un altre host per SSH:
 
-`ssh {{nom_host}} abbr --show | source`
+`ssh {{nom_host}} abbr {{[-s|--show]}} | source`

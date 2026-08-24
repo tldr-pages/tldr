@@ -2,7 +2,7 @@
 
 > Manipula el almacén de Nix.
 > Vea también: `nix-store`.
-> Más información: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-store.html>.
+> Más información: <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-store.html>.
 
 - Recolecta basura, es decir, elimina rutas desusadas para reducir el uso de disco:
 

@@ -1,6 +1,7 @@
 # echo
 
 > Imprime los argumentos dados.
+> Vea también: `printf`.
 > Más información: <https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>.
 
 - Imprime un mensaje de texto. Nota: las comillas son opcionales:

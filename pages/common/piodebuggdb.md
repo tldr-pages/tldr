@@ -1,6 +1,6 @@
 # piodebuggdb
 
-> This command is an alias of `pio debug --interface=gdb`.
+> This command is an alias of `pio debug --interface gdb`.
 
 - View documentation for the original command:
 

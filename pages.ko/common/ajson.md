@@ -1,7 +1,7 @@
 # ajson
 
 > JSON 객체에서 JSONPath를 실행합니다.
-> 더 많은 정보: <https://github.com/spyzhov/ajson>.
+> 더 많은 정보: <https://github.com/spyzhov/ajson#console-application>.
 
 - 파일에서 JSON을 읽고 지정된 JSONPath 표현식을 실행:
 

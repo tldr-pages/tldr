@@ -1,7 +1,7 @@
 # exiftool
 
 > Leggi e scrivi metadati nei file.
-> Maggiori informazioni: <https://exiftool.org>.
+> Maggiori informazioni: <https://exiftool.org/exiftool_pod.html>.
 
 - Rimuovi tutti i metadati EXIF dai file specificati:
 

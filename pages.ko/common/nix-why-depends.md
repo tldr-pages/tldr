@@ -1,7 +1,7 @@
 # nix why-depends
 
 > 패키지가 다른 패키지에 의존하는 이유를 보여줍니다.
-> 더 많은 정보: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-why-depends.html>.
+> 더 많은 정보: <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-why-depends.html>.
 
 - 현재 실행 중인 NixOS 시스템이 특정 저장소 경로를 요구하는 이유를 표시:
 

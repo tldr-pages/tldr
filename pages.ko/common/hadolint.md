@@ -1,7 +1,7 @@
 # hadolint
 
 > Dockerfile 린터.
-> 더 많은 정보: <https://github.com/hadolint/hadolint>.
+> 더 많은 정보: <https://github.com/hadolint/hadolint#cli>.
 
 - Dockerfile 린트:
 
@@ -9,11 +9,11 @@
 
 - Dockerfile을 린트하여, 출력을 JSON 형식으로 표시:
 
-`hadolint --format {{json}} {{경로/대상/Dockerfile}}`
+`hadolint {{[-f|--format]}} {{json}} {{경로/대상/Dockerfile}}`
 
 - Dockerfile을 린트하여, 특정 형식으로 출력을 표시:
 
-`hadolint --format {{tty|json|checkstyle|codeclimate|codacy}} {{경로/대상/Dockerfile}}`
+`hadolint {{[-f|--format]}} {{tty|json|checkstyle|codeclimate|codacy}} {{경로/대상/Dockerfile}}`
 
 - 특정 규칙을 무시하고 Dockerfile을 린트:
 

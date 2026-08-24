@@ -1,7 +1,7 @@
 # terragrunt
 
 > Terraform CLI 인수를 DRY하게 유지.
-> 더 많은 정보: <https://terragrunt.gruntwork.io>.
+> 더 많은 정보: <https://terragrunt.gruntwork.io/docs/reference/cli/>.
 
 - 실행 계획 생성 및 표시:
 

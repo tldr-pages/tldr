@@ -1,7 +1,7 @@
 # weechat
 
 > Internet relay chat client with various features.
-> More information: <https://weechat.org/doc>.
+> More information: <https://weechat.org/doc/>.
 
 - Start WeeChat:
 

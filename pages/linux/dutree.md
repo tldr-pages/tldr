@@ -1,6 +1,6 @@
 # dutree
 
-> Analyze file system usage with colorful text-based trees.
+> Analyze filesystem usage with colorful text-based trees.
 > More information: <https://github.com/nachoparker/dutree#usage>.
 
 - Show a graphical tree of the current directory:

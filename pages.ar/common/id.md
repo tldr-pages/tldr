@@ -1,6 +1,7 @@
 # id
 
 > يعرض معرف المستخدم الحالي ومعرف المجموعة.
+> انظر أيضًا: `logname`.
 > لمزيد من التفاصيل: <https://www.gnu.org/software/coreutils/manual/html_node/id-invocation.html>.
 
 - عرض معرف المستخدم الحالي (UID) ومعرف المجموعة (GID) والمجموعات التي ينتمي إليها:

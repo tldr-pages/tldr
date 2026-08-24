@@ -1,7 +1,8 @@
 # basename
 
 > 移除一个路径的目录部分字符。
-> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/basename-invocation.html>.
+> 另请参阅：`dirname`。
+> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/basename-invocation.html>。
 
 - 仅显示文件名：
 

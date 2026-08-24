@@ -1,7 +1,7 @@
 # gnmic get
 
 > Get a snapshot of a gnmi network device operation data.
-> More information: <https://gnmic.kmrd.dev/cmd/get>.
+> More information: <https://gnmic.openconfig.net/cmd/get/>.
 
 - Get a snapshot of the device state at a specific path:
 

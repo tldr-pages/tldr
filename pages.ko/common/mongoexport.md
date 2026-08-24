@@ -1,7 +1,7 @@
 # mongoexport
 
 > MongoDB 인스턴스에 저장된 데이터를 JSON 또는 CSV 형식으로 내보내기.
-> 더 많은 정보: <https://docs.mongodb.com/database-tools/mongoexport/>.
+> 더 많은 정보: <https://www.mongodb.com/docs/database-tools/mongoexport/>.
 
 - 컬렉션을 JSON 형식으로 `stdout`에 내보내기:
 
@@ -25,7 +25,7 @@
 
 - 문서를 사람이 읽을 수 있는 JSON 형식으로 `stdout`에 내보내기:
 
-`mongoexport --uri={{몽고DB_URI}} --collection={{컬렉션_이름}} --pretty`
+`mongoexport --uri={{몽고db_uri}} --collection={{컬렉션_이름}} --pretty`
 
 - 도움말 표시:
 

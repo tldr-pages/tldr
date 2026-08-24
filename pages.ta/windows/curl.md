@@ -5,7 +5,7 @@
 
 - அசல் `curl` கட்டளைக்கான ஆவணங்களைக் காண்க:
 
-`tldr curl -p common`
+`tldr curl {{[-p|--platform]}} common`
 
 - PowerShell இன் `Invoke-WebRequest` கட்டளைக்கான ஆவணங்களைக் காண்க:
 

@@ -1,7 +1,7 @@
 # nvidia-smi
 
 > Aid the management and monitoring of NVIDIA GPU devices.
-> More information: <https://developer.nvidia.com/nvidia-system-management-interface>.
+> More information: <https://developer.nvidia.com/system-management-interface>.
 
 - Display information on all available GPUs and processes using them:
 

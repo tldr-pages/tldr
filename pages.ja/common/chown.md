@@ -1,7 +1,8 @@
 # chown
 
 > ファイルやディレクトリのユーザとグループの所有者を変更します。
-> もっと詳しく: <https://www.gnu.org/software/coreutils/manual/html_node/chown-invocation.html>。
+> 参照: `chgrp`。
+> 詳細情報: <https://www.gnu.org/software/coreutils/manual/html_node/chown-invocation.html>。
 
 - ファイル/ディレクトリの所有ユーザを変更:
 

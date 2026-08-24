@@ -19,7 +19,7 @@
 
 `java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar {{filename.jar}}`
 
-- Display JDK, JRE and HotSpot versions:
+- Display JDK, JRE, and HotSpot versions:
 
 `java -version`
 

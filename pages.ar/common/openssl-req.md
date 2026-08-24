@@ -1,7 +1,7 @@
 # openssl req
 
 > أمر OpenSSL لإدارة طلبات توقيع الشهادات PKCS#10.
-> لمزيد من التفاصيل: <https://www.openssl.org/docs/manmaster/man1/openssl-req.html>.
+> لمزيد من التفاصيل: <https://docs.openssl.org/master/man1/openssl-req/>.
 
 - إنشاء طلب توقيع شهادة لإرساله إلى جهة تصديق:
 

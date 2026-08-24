@@ -1,12 +1,7 @@
 # docker rename
 
-> Hernoem een container.
-> Meer informatie: <https://docs.docker.com/reference/cli/docker/container/rename/>.
+> Dit commando is een alias van `docker container rename`.
 
-- Hernoem een container:
+- Bekijk de documentatie van het originele commando:
 
-`docker rename {{container}} {{nieuwe_naam}}`
-
-- Toon de help:
-
-`docker rename --help`
+`tldr docker container rename`

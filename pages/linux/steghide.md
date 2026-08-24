@@ -1,6 +1,6 @@
 # steghide
 
-> Steganography tool for JPEG, BMP, WAV and AU file formats.
+> Steganography tool for JPEG, BMP, WAV, and AU file formats.
 > More information: <https://manned.org/steghide>.
 
 - Embed data in a PNG, prompting for a passphrase:

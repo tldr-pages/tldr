@@ -1,7 +1,7 @@
 # gradle
 
 > Un sistema de automatización de construcción de código abierto.
-> Más información: <https://gradle.org>.
+> Más información: <https://manned.org/gradle>.
 
 - Compila un paquete:
 
@@ -9,7 +9,7 @@
 
 - Excluye la compilación test:
 
-`gradle build -x {{test}}`
+`gradle build {{[-x|--exclude-task]}} test`
 
 - Ejecuta en modo sin conexión para evitar que Gradle acceda a la red durante la compilación:
 

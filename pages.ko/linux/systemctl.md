@@ -1,7 +1,7 @@
 # systemctl
 
 > systemd 시스템 및 서비스 관리자를 제어합니다.
-> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/systemctl.html>.
+> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html>.
 
 - 실행 중인 서비스 모두 표시:
 

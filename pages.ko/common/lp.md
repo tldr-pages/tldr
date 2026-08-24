@@ -25,4 +25,4 @@
 
 - 인쇄 작업 재개:
 
-`lp -i {{작업_ID}} -H resume`
+`lp -i {{작업_id}} -H resume`

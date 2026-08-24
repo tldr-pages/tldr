@@ -1,7 +1,7 @@
 # pkg
 
 > Termux 用パッケージ管理ユーティリティ。
-> もっと詳しく: <https://wiki.termux.com/wiki/Package_Management>。
+> 詳細情報: <https://wiki.termux.com/wiki/Package_Management>。
 
 - すべてのインストールされたパッケージをアップグレードします:
 

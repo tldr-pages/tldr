@@ -2,7 +2,7 @@
 
 > 转换图片格式，创建，组合图片，调整图片尺寸等功能。
 > 注意：原命令 `convert` 在 ImageMagick 7 以上版本中已被替换为 `magick`。
-> 更多信息：<https://imagemagick.org/script/convert.php>.
+> 更多信息：<https://imagemagick.org/script/convert.php>。
 
 - 将 JPEG 图片转换为 PNG 图片：
 
@@ -18,7 +18,7 @@
 
 - 将图片调整至特定文件大小：
 
-`magick convert {{路径/到/输入图片.png}} -define jpeg:extent=512kb {{路径/到/输出图片.jpg}}`
+`magick convert {{路径/到/输入图片.png}} -define jpeg:extent={{512kb}} {{路径/到/输出图片.jpg}}`
 
 - 水平/竖直地排列图片：
 

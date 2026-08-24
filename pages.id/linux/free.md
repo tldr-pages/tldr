@@ -17,4 +17,4 @@
 
 - Tampilkan output setiap 2 detik:
 
-`free {{[-s|--seconds]}} {{2}}`
+`free {{[-s|--seconds]}} 2`

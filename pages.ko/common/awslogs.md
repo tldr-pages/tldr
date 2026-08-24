@@ -1,7 +1,7 @@
 # awslogs
 
 > Amazon CloudWatch 로그에서 그룹, 스트림 및 이벤트를 쿼리.
-> 더 많은 정보: <https://github.com/jorgebastida/awslogs>.
+> 더 많은 정보: <https://github.com/jorgebastida/awslogs#options>.
 
 - 로그 그룹 나열:
 

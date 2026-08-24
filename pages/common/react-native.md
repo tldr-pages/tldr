@@ -1,7 +1,7 @@
 # react-native
 
 > A framework for building native apps with React.
-> More information: <https://reactnative.dev>.
+> More information: <https://github.com/react-native-community/cli/blob/main/docs/commands.md>.
 
 - Initialize a new React Native project in a directory of the same name:
 

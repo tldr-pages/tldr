@@ -9,11 +9,11 @@
 
 - `report6part4.txt`를 `./french/rapport6partie4.txt`로 복사하고, 유사한 이름을 가진 모든 파일도 함께 복사:
 
-`mmv -c "{{report*part*.txt}}" "{{./french/rapport#1partie#2.txt}}"`
+`mmv {{[-c|--copy]}} "{{report*part*.txt}}" "{{./french/rapport#1partie#2.txt}}"`
 
 - 모든 `.txt` 파일을 하나의 파일로 합치기:
 
-`mmv -a "{{*.txt}}" "{{모두.txt}}"`
+`mmv {{[-a|--append]}} "{{*.txt}}" "{{모두.txt}}"`
 
 - 파일 이름의 날짜 형식을 "M-D-Y"에서 "D-M-Y"로 변환:
 

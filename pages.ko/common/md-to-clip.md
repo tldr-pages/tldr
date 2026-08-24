@@ -1,7 +1,7 @@
 # md-to-clip
 
 > tldr 페이지를 커맨드라인 인터페이스 페이지로 변환.
-> 같이 보기: `clip-view`.
+> 관련 항목: `clip-view`.
 > 더 많은 정보: <https://github.com/command-line-interface-pages/v2-tooling/tree/main/md-to-clip>.
 
 - tldr 페이지 파일을 변환하고 같은 디렉토리에 저장:

@@ -2,6 +2,7 @@
 
 > Download bestanden vanaf het internet.
 > Ondersteunt HTTP, HTTPS en FTP.
+> Zie ook: `wcurl`, `curl`.
 > Meer informatie: <https://www.gnu.org/software/wget/manual/wget.html>.
 
 - Download de inhoud van een URL naar een bestand (in dit geval genaamd "foo"):

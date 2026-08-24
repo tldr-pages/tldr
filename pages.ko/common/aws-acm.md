@@ -1,7 +1,7 @@
 # aws acm
 
 > AWS 인증서 관리자.
-> 더 많은 정보: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/acm/index.html>.
+> 더 많은 정보: <https://docs.aws.amazon.com/cli/latest/reference/acm/>.
 
 - 인증서 가져오기:
 
