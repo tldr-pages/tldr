@@ -1,6 +1,6 @@
 # virsh snapshot-list
 
-> List available snapshots
+> List available snapshots.
 > More information: <https://manned.org/virsh>.
 
 - List all snapshots and their basic information:
