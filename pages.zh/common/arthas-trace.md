@@ -14,7 +14,7 @@
 
 - 追踪多个类和方法的调用：
 
-`trace -E {{class-pattern1|class-patter2}} {{method-pattern1|method-pattern2|method-pattern3}}`
+`trace -E {{class-pattern1}}|{{class-patter2}} {{method-pattern1}}|{{method-pattern2}}|{{method-pattern3}}`
 
 - 仅显示大于 10 毫秒的调用链，观测 10 次：
 
