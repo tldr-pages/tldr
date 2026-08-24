@@ -6,3 +6,7 @@
 - Print the XML of a snapshot:
 
 `sudo virsh snapshot-dumpxml "{{vm_name}}" "{{snapshot_name}}"`
+
+- Display help:
+
+`virsh snapshot-dumpxml --help`
