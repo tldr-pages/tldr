@@ -10,3 +10,7 @@
 - List all snapshots in a tree structure:
 
 `sudo virsh snapshot-list "{{vm_name}}" --tree`
+
+- Display help:
+
+`virsh snapshot-list --help`
