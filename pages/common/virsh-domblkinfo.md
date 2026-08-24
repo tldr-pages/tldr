@@ -1,6 +1,6 @@
 # virsh domblkinfo
 
-> Print block device size info for a domain.
+> Print block device size info.
 > More information: <https://manned.org/virsh>.
 
 - Print block device info:
