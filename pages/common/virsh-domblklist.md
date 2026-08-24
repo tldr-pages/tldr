@@ -11,3 +11,7 @@
 - List the disk type and device value as well as the target name and source path:
 
 `virsh domblklist {{vm_name}} --details`
+
+- Display help:
+
+`virsh domblklist --help`
