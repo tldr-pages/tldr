@@ -2,7 +2,7 @@
 
 > Fetch the latest Stack configuration from a connected VCS repository.
 > See also: `terraform stacks configuration list`, `terraform stacks configuration upload`, `terraform stacks configuration watch`.
-> More information: [https://developer.hashicorp.com/terraform/cli/commands/stacks/configuration/fetch](https://developer.hashicorp.com/terraform/cli/commands/stacks/configuration/fetch).
+> More information: <https://developer.hashicorp.com/terraform/cli/commands/stacks/configuration/fetch>.
 
 - Fetch configuration for a Stack by organization, project, and Stack name:
 

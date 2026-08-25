@@ -1,9 +1,8 @@
-
 # terraform stacks configuration list
 
 > List the configuration versions for a Stack.
 > See also: `terraform stacks configuration fetch`, `terraform stacks configuration upload`, `terraform stacks configuration watch`.
-> More information: [https://developer.hashicorp.com/terraform/cli/commands/stacks/configuration/list](https://developer.hashicorp.com/terraform/cli/commands/stacks/configuration/list).
+> More information: <https://developer.hashicorp.com/terraform/cli/commands/stacks/configuration/list>.
 
 - List configurations for a Stack by organization, project, and Stack name:
 

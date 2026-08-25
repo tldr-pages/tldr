@@ -1,9 +1,8 @@
-
 # terraform stacks configuration
 
 > Manage Stack configurations: list, upload, fetch, and watch.
 > Some subcommands such as `list`, `upload`, `fetch`, and `watch` have their own usage documentation.
-> More information: [https://developer.hashicorp.com/terraform/cli/commands/stacks/configuration](https://developer.hashicorp.com/terraform/cli/commands/stacks/configuration).
+> More information: <https://developer.hashicorp.com/terraform/cli/commands/stacks/configuration>.
 
 - List configurations for a Stack by organization, project, and Stack name:
 
