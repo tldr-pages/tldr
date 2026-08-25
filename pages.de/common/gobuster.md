@@ -9,7 +9,7 @@
 
 - Finde Subdomains:
 
-`gobuster dns {{[-d|--domain]}} {{example.com}} {{[-w|--wordlist]}} {{pfad/zu/datei}}`
+`gobuster dns {{[-do|--domain]}} {{example.com}} {{[-w|--wordlist]}} {{pfad/zu/datei}}`
 
 - Finde Amazon S3-Buckets:
 
