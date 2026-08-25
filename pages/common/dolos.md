@@ -1,7 +1,7 @@
 # dolos
 
 > Plagiarism detection for programming exercises.
-> More information: <https://dolos.ugent.be>.
+> More information: <https://dolos.ugent.be/docs/running.html>.
 
 - Run a basic analysis:
 
