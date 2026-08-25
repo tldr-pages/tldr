@@ -6,15 +6,15 @@
 
 - Mostra gli IP associati ad un hostname (record A):
 
-`dig +short {{esempio.com}}`
+`dig +short {{example.com}}`
 
 - Mostra i mail server associati ad uno specifico dominio (record MX):
 
-`dig +short {{esempio.com}} MX`
+`dig +short {{example.com}} MX`
 
 - Specifica un server DNS alternativo a cui fare richiesta:
 
-`dig @{{8.8.8.8}} {{esempio.com}}`
+`dig @{{8.8.8.8}} {{example.com}}`
 
 - Esegui un lookup DNS inverso su di un indirizzo IP (record PTR):
 
@@ -22,8 +22,8 @@
 
 - Trova i nameserver autoritativi per la zona e mostra i record SOA:
 
-`dig +nssearch {{esempio.com}}`
+`dig +nssearch {{example.com}}`
 
 - Esegui richieste iterative e mostra l'intero percorso per risolvere il dominio:
 
-`dig +trace {{esempio.com}}`
+`dig +trace {{example.com}}`
