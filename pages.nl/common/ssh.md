@@ -24,9 +24,9 @@
 
 `ssh {{gebruikersnaam}}@{{externe_host}} -D {{1080}}`
 
-- SSH-tunneling: Stuur een specifieke poort door (`localhost:9999` naar `voorbeeld.org:80`) en schakel pseudo-[T]ty toewijzing en uitvoeri[N]g van externe opdrachten uit:
+- SSH-tunneling: Stuur een specifieke poort door (`localhost:9999` naar `example.org:80`) en schakel pseudo-[T]ty toewijzing en uitvoeri[N]g van externe opdrachten uit:
 
-`ssh {{gebruikersnaam}}@{{externe_host}} -L {{9999}}:{{voorbeeld.org}}:{{80}} -N -T`
+`ssh {{gebruikersnaam}}@{{externe_host}} -L {{9999}}:{{example.org}}:{{80}} -N -T`
 
 - SSH [J]umping: Verbind door een jumphost met een externe server (Meerdere jump hops mogen gespecificeerd worden door te splitsen met komma's):
 
