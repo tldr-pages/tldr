@@ -11,6 +11,6 @@
 
 `{{[-h|--help]}}`
 
-- Console device to be used:
+- Specify the console device to use:
 
-`{{[ -C|--console]}}`
+`{{[-C|--console]}}`
