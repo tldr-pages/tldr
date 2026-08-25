@@ -7,7 +7,7 @@
 
 - Fait une requête HTTP GET et affiche la réponse :
 
-`curl {{http://example.com}}`
+`curl {{https://example.com}}`
 
 - Fait une requête HTTP GET, suit toute redirection HTTP `3xx`, et affiche les en-têtes et le contenu de la réponse vers `stdout` :
 
@@ -15,11 +15,11 @@
 
 - Télécharge le contenu d'une URL dans un fichier nommé comme indiqué par l'URL :
 
-`curl {{[-O|--remote-name]}} {{http://example.com/nom_fichier.zip}}`
+`curl {{[-O|--remote-name]}} {{https://example.com/nom_fichier.zip}}`
 
 - Envoie des données de formulaire encodées (requête POST de type `application/x-www-form-urlencoded`). Utilise `--data @file_name` ou `--data @'-'` pour lire depuis `stdin` :
 
-`curl {{[-X|--request]}} POST {{[-d|--data]}} {{'nom=bob'}} {{http://example.com/formulaire}}`
+`curl {{[-X|--request]}} POST {{[-d|--data]}} '{{nom=bob}}' {{http://example.com/formulaire}}`
 
 - Envoie une requête avec un en-tête supplémentaire, en spécifiant la méthode HTTP, à travers un proxy, et en ignorant les erreurs de validation de certificat :
 
@@ -27,12 +27,12 @@
 
 - Envoie des données au format JSON, en spécifiant l'en-tête Content-Type adéquat :
 
-`curl {{[-d|--data]}} {{'{"nom":"bob"}'}} {{[-H|--header]}} {{'Content-Type: application/json'}} {{http://example.com/utilisateurs/1234}}`
+`curl {{[-d|--data]}} '{{{"nom":"bob"}}}' {{[-H|--header]}} '{{Content-Type: application/json}}' {{http://example.com/utilisateurs/1234}}`
 
 - Transmet le certificat client et la clé privée pour la requête, en ignorant la validation du certificat :
 
 `curl {{[-E|--cert]}} {{client.pem}} --key {{cle.pem}} {{[-k|--insecure]}} {{https://example.com}}`
 
-- Résout un nom de domaine vers une adresse IP spécifique (similaire à modifier le fichier /etc/hosts pour une résolution DNS locale), en activant le mode verbeux :
+- Résout un nom de domaine vers une adresse IP spécifique (similaire à modifier le fichier `/etc/hosts` pour une résolution DNS locale), en activant le mode verbeux :
 
 `curl {{[-v|--verbose]}} --resolve {{example.com}}:{{80}}:{{127.0.0.1}} {{http://example.com}}`
