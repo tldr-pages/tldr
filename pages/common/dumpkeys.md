@@ -3,7 +3,7 @@
 > Dump keyboard translation tables.
 > More information: <https://manned.org/dumpkeys>.
 
-- Print the program's version number:
+- Display help:
 
 `{{[-h|--help]}}`
 
@@ -27,6 +27,6 @@
 
 `{{[-v|--verbose]}}`
 
-- Print version number and exits:
+- Display version:
 
 `{{[-V|--version]}}`
