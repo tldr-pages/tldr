@@ -30,7 +30,7 @@
 
 - 启动交互式的合并任务，对最近提交的 5 个 commits 进行重新排序、省略、合并或修改：
 
-`git rebase {{[-i|--interactive]}} {{HEAD~5}}`
+`git rebase {{[-i|--interactive]}} HEAD~5`
 
 - 以当前分支优先的策略，自动处理分支间的冲突，执行合并：
 
