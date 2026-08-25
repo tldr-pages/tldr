@@ -14,7 +14,7 @@
 
 - 특정 노드를 인터넷 트래픽을 위한 종료 노드로 사용하여 연결:
 
-`sudo tailscale up --exit-node={{종료_노드_IP}}`
+`sudo tailscale up --exit-node={{종료_노드_ip}}`
 
 - 연결하고 현재 노드로의 수신 연결 차단:
 

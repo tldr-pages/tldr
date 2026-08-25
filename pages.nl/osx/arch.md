@@ -10,8 +10,8 @@
 
 - Voer een commando uit met behulp van x86_64:
 
-`arch -x86_64 "{{commando}}"`
+`arch -x86_64 {{commando}} {{argument1 argument2 ...}}`
 
-- Voer een commando uit met behulp van arm:
+- Voer een commando uit met behulp van ARM:
 
-`arch -arm64 "{{commando}}"`
+`arch -arm64 {{commando}} {{argument1 argument2 ...}}`

@@ -26,4 +26,4 @@
 
 - 기본 호출기(예: `less`)를 사용하여 특정 GitHub 사용자의 최근 활동 피드를 보기:
 
-`gh feed {{torvalds}} -p`
+`gh feed {{torvalds}} {{[-p|--pager]}}`

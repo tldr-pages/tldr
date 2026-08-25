@@ -5,20 +5,28 @@
 
 - Connect to a server:
 
-`openconnect {{vpn.example.org}}`
+`sudo openconnect {{vpn.example.org}}`
 
 - Connect to a server, forking into the background:
 
-`openconnect --background {{vpn.example.org}}`
+`sudo openconnect {{[-b|--background]}} {{vpn.example.org}}`
 
 - Terminate the connection that is running in the background:
 
-`killall -SIGINT openconnect`
+`sudo killall -SIGINT openconnect`
+
+- Specify the user to log in as:
+
+`sudo openconnect {{[-u|--user]}} {{username}} {{vpn.example.org}}`
+
+- Specify the connection protocol:
+
+`sudo openconnect --protocol {{nc|pulse|gp|f5|fortinet|array}} {{vpn.example.org}}`
 
 - Connect to a server, reading options from a configuration file:
 
-`openconnect --config={{path/to/file}} {{vpn.example.org}}`
+`sudo openconnect --config {{path/to/config_file}} {{vpn.example.org}}`
 
 - Connect to a server and authenticate with a specific SSL client certificate:
 
-`openconnect --certificate={{path/to/file}} {{vpn.example.org}}`
+`sudo openconnect {{[-c|--certificate]}} {{path/to/certificate.pem}} {{vpn.example.org}}`

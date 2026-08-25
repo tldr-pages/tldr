@@ -1,6 +1,6 @@
 # linux32
 
-> Tämä on alias komennolle `setarch linux32`.
+> Tämä on alias `setarch linux32` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

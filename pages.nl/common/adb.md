@@ -34,4 +34,4 @@
 
 - Specificeer naar welk apparaat de opdrachten verzonden dienen te worden als er meerdere apparaten zijn:
 
-`adb -s {{apparaat_ID}} {{shell}}`
+`adb -s {{apparaat_id}} {{shell}}`

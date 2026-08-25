@@ -13,7 +13,7 @@
 
 - Wyświetl informacje o zrzutach pamięci programu o podanym PID:
 
-`coredumpctl info {{PID}}`
+`coredumpctl info {{pid}}`
 
 - Wywołaj debugger używając ostatniego zrzutu pamięci programu:
 

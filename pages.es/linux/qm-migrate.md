@@ -6,20 +6,20 @@
 
 - Migra una máquina virtual específica:
 
-`qm {{[mi|migrate]}} {{id_mv}} {{destino}}`
+`qm {{[mi|migrate]}} {{100}} {{destino}}`
 
 - Supera el límite de ancho de banda E/S actual con 10 KiB/s:
 
-`qm {{[mi|migrate]}} {{id_mv}} {{destino}} --bwlimit 10`
+`qm {{[mi|migrate]}} {{100}} {{destino}} --bwlimit 10`
 
 - Permite la migración de máquinas virtuales usando dispositivos locales (solo root):
 
-`qm {{[mi|migrate]}} {{id_mv}} {{destino}} --force true`
+`qm {{[mi|migrate]}} {{100}} {{destino}} --force true`
 
 - Utiliza la migración en vivo (online) si una máquina virtual está ejecutándose:
 
-`qm {{[mi|migrate]}} {{id_mv}} {{destino}} --online true`
+`qm {{[mi|migrate]}} {{100}} {{destino}} --online true`
 
 - Permite la migración de almacenamiento en vivo para discos locales:
 
-`qm {{[mi|migrate]}} {{id_mv}} {{destino}} --with-local-disks true`
+`qm {{[mi|migrate]}} {{100}} {{destino}} --with-local-disks true`

@@ -1,6 +1,6 @@
 # nmtui-connect
 
-> Tämä on alias komennolle `nmtui connect`.
+> Tämä on alias `nmtui connect` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

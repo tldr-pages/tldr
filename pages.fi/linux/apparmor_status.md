@@ -1,6 +1,6 @@
 # apparmor_status
 
-> Tämä on alias komennolle `aa-status`.
+> Tämä on alias `aa-status` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

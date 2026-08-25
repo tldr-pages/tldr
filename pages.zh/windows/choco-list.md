@@ -21,7 +21,7 @@
 
 - 从指定的源列出软件包：
 
-`choco list {{[-s|--source]}} {{源 URL|别名}}`
+`choco list {{[-s|--source]}} {{源url|别名}}`
 
 - 提供用户名和密码进行身份验证：
 

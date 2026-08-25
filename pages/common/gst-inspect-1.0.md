@@ -9,7 +9,7 @@
 
 - List hardware transcoding capabilities of your device:
 
-`gst-inspect-1.0 {{va|nvcodec|...}}`
+`gst-inspect-1.0 {{va|vaapi|nvcodec|...}}`
 
 - List available container plugins:
 

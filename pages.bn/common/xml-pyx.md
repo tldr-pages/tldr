@@ -5,7 +5,7 @@
 
 - একটি XML ডকুমেন্টকে PYX ফরম্যাটে রূপান্তর করুন:
 
-`xml pyx {{path/to/input.xml|URI}} > {{path/to/output.pyx}}`
+`xml pyx {{path/to/input.xml|uri}} > {{path/to/output.pyx}}`
 
 - `stdin` থেকে একটি XML ডকুমেন্টকে PYX ফরম্যাটে রূপান্তর করুন:
 

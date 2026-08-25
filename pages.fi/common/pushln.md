@@ -1,6 +1,6 @@
 # pushln
 
-> Tämä on alias komennolle `print -nz`.
+> Tämä on alias `print -nz` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

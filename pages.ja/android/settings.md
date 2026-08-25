@@ -5,7 +5,7 @@
 
 - `global` 名前空間にある設定を表示します:
 
-`settings list {{global}}`
+`settings list global`
 
 - 指定した設定値を取得します:
 

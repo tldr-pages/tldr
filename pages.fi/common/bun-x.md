@@ -1,6 +1,6 @@
 # bun x
 
-> Tämä on alias komennolle `bunx`.
+> Tämä on alias `bunx` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -5,7 +5,7 @@
 
 - Crea un nuovo ambiente chiamato `py39`, installa Python 3.9, NumPy v1.11 o superiore e l'ultima versione stabile di SciPy. Conferma automaticamente tutte le richieste:
 
-`conda create {{[-ny|--name --yes]}} py39 python=3.9 "numpy>=1.11 scipy"`
+`conda create {{[-y|--yes]}} {{[-n|--name]}} py39 python=3.9 "numpy>=1.11" scipy`
 
 - Crea un nuovo ambiente chiamato `myenv` e installa i pacchetti elencati nei file specificati:
 

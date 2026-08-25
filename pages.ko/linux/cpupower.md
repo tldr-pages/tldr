@@ -5,20 +5,20 @@
 
 - CPU 목록 나열:
 
-`sudo cpupower --cpu {{all}} info`
+`sudo cpupower {{[-c|--cpu]}} {{all}} info`
 
 - 모든 코어에 대한 정보 출력:
 
-`sudo cpupower --cpu {{all}} info`
+`sudo cpupower {{[-c|--cpu]}} {{all}} info`
 
 - 모든 CPU를 절전 주파수 관리자로 설정:
 
-`sudo cpupower --cpu {{all}} frequency-set --governor {{powersave}}`
+`sudo cpupower {{[-c|--cpu]}} {{all}} frequency-set --governor {{powersave}}`
 
 - CPU 0의 사용 가능한 주파수 [g]overnor 출력:
 
-`sudo cpupower --cpu {{0}} frequency-info g | grep "analyzing\|governors"`
+`sudo cpupower {{[-c|--cpu]}} {{0}} frequency-info {{[-g|--governors]}} | grep "analyzing\|governors"`
 
 - CPU 4의 하드웨어 주파수를 사람이 읽기 쉬운 형식으로 출력:
 
-`sudo cpupower --cpu {{4}} frequency-info --hwfreq --human`
+`sudo cpupower {{[-c|--cpu]}} {{4}} frequency-info {{[-w|--hwfreq]}} {{[-m|--human]}}`

@@ -23,6 +23,14 @@
 
 `wine {{regedit|control|taskmgr}}`
 
+- Open a virtual Wine desktop:
+
+`wine explorer /desktop={{shell}},{{1920x1080}}`
+
 - Run the configuration tool:
 
 `wine winecfg`
+
+- Add a registry key:
+
+`wine reg add '{{path\to\registry_key}}' /v {{Value_name}} /t {{REG_SZ|REG_BINARY|REG_DWORD|...}} /d '{{data}}'`

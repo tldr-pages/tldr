@@ -3,7 +3,7 @@
 > 编译并执行基准测试。
 > 更多信息：<https://doc.rust-lang.org/cargo/commands/cargo-bench.html>。
 
-- 执行包的所有基准测试：
+- 执行软件包的所有基准测试：
 
 `cargo bench`
 
@@ -19,7 +19,7 @@
 
 `cargo bench --bench {{基准测试名称}}`
 
-- 使用给定的配置文件进行基准测试 (默认为 `bench`)：
+- 使用给定的配置文件进行基准测试（默认为 `bench`）：
 
 `cargo bench --profile {{配置文件}}`
 
@@ -31,6 +31,6 @@
 
 `cargo bench --bins`
 
-- 对包的库(lib)进行基准测试：
+- 对软件包的库（lib）进行基准测试：
 
 `cargo bench --lib`

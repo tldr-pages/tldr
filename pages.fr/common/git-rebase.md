@@ -30,7 +30,7 @@
 
 - Rejoue les 5 derniers commits, ce qui permet aux commits d'être re-arrangés, exclus, combinés ou modifiés :
 
-`git rebase {{[-i|--interactive]}} {{HEAD~5}}`
+`git rebase {{[-i|--interactive]}} HEAD~5`
 
 - Résoudre automatiquement les conflits en précisant la version à conserver (`theirs` signifie la version des fichiers à privilégier) :
 

@@ -1,6 +1,6 @@
 # sal
 
-> Tämä on alias komennolle `Set-Alias`.
+> Tämä on alias `Set-Alias` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

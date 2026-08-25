@@ -18,8 +18,8 @@
 
 - TLS를 통해 특정 원격 가상 머신에 연결:
 
-`virt-viewer --connect "xen//{{URL}}" "{{도메인}}"`
+`virt-viewer --connect "xen//{{url}}" "{{도메인}}"`
 
 - SSH를 통해 특정 원격 가상 머신에 연결:
 
-`virt-viewer --connect "qemu+ssh//{{사용자명}}@{{URL}}/system" "{{도메인}}"`
+`virt-viewer --connect "qemu+ssh//{{사용자명}}@{{url}}/system" "{{도메인}}"`

@@ -7,32 +7,32 @@
 
 - Scan all ports of one or more comma-delimited addresses using the default values:
 
-`rustscan {{[-a|--addresses]}} {{ip_or_hostname}}`
+`rustscan {{[-a|--addresses]}} {{ip_or_hostname1,ip_or_hostname2,...}}`
 
 - Scan the top 1000 ports with service and version detection:
 
-`rustscan --top {{[-a|--addresses]}} {{address_or_addresses}}`
+`rustscan --top {{[-a|--addresses]}} {{address}}`
 
 - Scan a specific list of ports:
 
-`rustscan {{[-p|--ports]}} {{port1,port2,...}} {{[-a|--addresses]}} {{address_or_addresses}}`
+`rustscan {{[-p|--ports]}} {{port1,port2,...}} {{[-a|--addresses]}} {{address}}`
 
 - Scan a specific range of ports:
 
-`rustscan {{[-r|--range]}} {{start}}-{{end}} {{[-a|--addresses]}} {{address_or_addresses}}`
+`rustscan {{[-r|--range]}} {{start}}-{{end}} {{[-a|--addresses]}} {{address}}`
 
 - Invoke `nmap` functionalities (Nmap's OS detection and default scripts):
 
-`rustscan {{[-a|--addresses]}} {{address_or_addresses}} -- -O {{[-sC|--script=default]}}`
+`rustscan {{[-a|--addresses]}} {{address}} -- -O {{[-sC|--script=default]}}`
 
 - Scan with custom batch size (default: 4500) and timeout (default: 1500ms):
 
-`rustscan {{[-b|--batch-size]}} {{batch_size}} {{[-t|--timeout]}} {{timeout}} {{[-a|--addresses]}} {{address_or_addresses}}`
+`rustscan {{[-b|--batch-size]}} {{batch_size}} {{[-t|--timeout]}} {{timeout}} {{[-a|--addresses]}} {{address}}`
 
 - Scan with specific port order:
 
-`rustscan --scan-order {{serial|random}} {{[-a|--addresses]}} {{address_or_addresses}}`
+`rustscan --scan-order {{serial|random}} {{[-a|--addresses]}} {{address}}`
 
 - Scan in greppable mode (only output of the ports, no `nmap`):
 
-`rustscan {{[-g|--greppable]}} {{[-a|--addresses]}} {{address_or_addresses}}`
+`rustscan {{[-g|--greppable]}} {{[-a|--addresses]}} {{address}}`

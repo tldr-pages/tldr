@@ -5,6 +5,10 @@
 > Lihat juga: `bashmarks`.
 > Informasi lebih lanjut: <https://github.com/wting/autojump#name>.
 
+- Tambahkan alias-alias perintah `autojump` menuju lingkungan shell Anda:
+
+`source /usr/share/autojump/autojump.{{bash|fish|zsh}}`
+
 - Lompat menuju direktori yang mengandung pola yang diberikan:
 
 `j {{pola}}`

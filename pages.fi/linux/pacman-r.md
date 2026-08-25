@@ -1,6 +1,6 @@
 # pacman -R
 
-> Tämä on alias komennolle `pacman --remove`.
+> Tämä on alias `pacman --remove` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -5,11 +5,11 @@
 
 - 비밀번호 문구를 사용하여 디렉터리를 `archive.gpg`로 암호화:
 
-`gpg-zip --symmetric --output {{아카이브.gpg}} {{경로/대상/디렉터리}}`
+`gpg-zip {{[-c|--symmetric]}} {{[-o|--output]}} {{아카이브.gpg}} {{경로/대상/디렉터리}}`
 
 - `아카이브.gpg`를 같은 이름의 디렉터리로 복호화:
 
-`gpg-zip --decrypt {{경로/대상/아카이브.gpg}}`
+`gpg-zip {{[-d|--decrypt]}} {{경로/대상/아카이브.gpg}}`
 
 - 암호화된 `아카이브.gpg`의 내용을 나열:
 

@@ -9,7 +9,7 @@
 
 - Kayıtları yazdır ve izle:
 
-`docker {{[logs|container logs]}} {{[-f|--follow]}} {{konteyner_ismi}}`
+`docker {{[logs|container logs]}} {{konteyner_ismi}} {{[-f|--follow]}}`
 
 - Son 5 kaydı yazdır:
 
@@ -17,7 +17,7 @@
 
 - Kayıtları yazdır ve zaman damgaları ile iliştir:
 
-`docker {{[logs|container logs]}} {{[-t|--timestamps]}} {{konteyner_ismi}}`
+`docker {{[logs|container logs]}} {{konteyner_ismi}} {{[-t|--timestamps]}}`
 
 - Belli bir konteyner çalışma zamanındaki (i.e. 23m, 10s, 2013-01-02T13:23:37) kayıtları yazdır:
 

@@ -4,7 +4,7 @@
 > See `rustup help toolchain` for more information about toolchains.
 > More information: <https://rust-lang.github.io/rustup/>.
 
-- List directiory toolchain overrides:
+- List directory toolchain overrides:
 
 `rustup override list`
 

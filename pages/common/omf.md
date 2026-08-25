@@ -6,7 +6,7 @@
 
 - Install one or more packages:
 
-`omf install {{name}}`
+`omf install {{package1 package2 ...}}`
 
 - List installed packages:
 

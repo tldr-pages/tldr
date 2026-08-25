@@ -13,11 +13,11 @@
 
 - 소스 역할 바인딩과 함께 모든 RBAC 바인딩 보기:
 
-`rbac-lookup -o wide`
+`rbac-lookup {{[-o|--output]}} wide`
 
 - 주체로 필터링된 모든 RBAC 바인딩 보기:
 
-`rbac-lookup -k {{사용자|그룹|서비스계정}}`
+`rbac-lookup {{[-k|--kind]}} {{사용자|그룹|서비스계정}}`
 
 - IAM 역할과 함께 모든 RBAC 바인딩 보기 (GKE를 사용하는 경우):
 

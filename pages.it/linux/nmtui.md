@@ -15,7 +15,7 @@
 
 - Per la connessione a una rete:
 
-`nmtui connect {{nome|uuid|device|SSID}}`
+`nmtui connect {{nome|uuid|device|ssid}}`
 
 - Cambia/Agiunge/Elimina una rete:
 

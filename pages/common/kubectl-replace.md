@@ -11,6 +11,6 @@
 
 `kubectl replace {{[-f|--filename]}} -`
 
-- Force replace, delete and then re-create the resource:
+- Force replace, delete, and then re-create the resource:
 
 `kubectl replace {{[-f|--filename]}} {{path/to/file.yml}} --force`

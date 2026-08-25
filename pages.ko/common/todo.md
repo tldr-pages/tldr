@@ -13,19 +13,19 @@
 
 - 지정된 ID의 작업에 위치 추가:
 
-`todo edit --location {{위치_이름}} {{작업_ID}}`
+`todo edit --location {{위치_이름}} {{작업_id}}`
 
 - 작업에 대한 세부 정보 표시:
 
-`todo show {{작업_ID}}`
+`todo show {{작업_id}}`
 
 - 지정된 ID의 작업 완료로 표시:
 
-`todo done {{작업_ID1 작업_ID2 ...}}`
+`todo done {{작업_id1 작업_id2 ...}}`
 
 - 작업 삭제:
 
-`todo delete {{작업_ID}}`
+`todo delete {{작업_id}}`
 
 - 완료된 작업 삭제 및 남은 작업 ID 초기화:
 

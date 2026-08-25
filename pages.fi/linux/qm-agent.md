@@ -1,6 +1,6 @@
 # qm agent
 
-> Tämä on alias komennolle `qm guest cmd`.
+> Tämä on alias `qm guest cmd` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

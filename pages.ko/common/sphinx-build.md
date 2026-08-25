@@ -5,8 +5,8 @@
 
 - 문서 빌드:
 
-`sphinx-build -b {{html|epub|text|latex|man|...}} {{경로/대상/소스_폴더}} {{경로/대상/빌드_폴더}}`
+`sphinx-build {{[-b|--builder]}} {{html|epub|text|latex|man|...}} {{경로/대상/소스_폴더}} {{경로/대상/빌드_폴더}}`
 
 - readthedocs.io를 위한 문서 빌드 (sphinx-rtd-theme pip 패키지가 필요):
 
-`sphinx-build -b {{html}} {{경로/대상/문서_폴더}} {{경로/대상/빌드_폴더}}`
+`sphinx-build {{[-b|--builder]}} {{html}} {{경로/대상/문서_폴더}} {{경로/대상/빌드_폴더}}`

@@ -8,6 +8,10 @@
 
 `qrencode {{[-o|--output]}} {{path/to/output_file.png}} {{string}}`
 
+- Convert a string to a micro QR code and save to an output file:
+
+`qrencode {{[-o|--output]}} {{path/to/output_file.png}} {{[-M|--micro]}} {{string}}`
+
 - Convert an input file to a QR code and save to an output file:
 
 `qrencode {{[-o|--output]}} {{path/to/output_file.png}} {{[-r|--read-from]}} {{path/to/input_file}}`
@@ -16,6 +20,10 @@
 
 `qrencode {{[-t|--type]}} ansiutf8 {{string}}`
 
+- Convert a string to a QR code with a specific error correction level and save to an output file:
+
+`qrencode {{[-o|--output]}} {{path/to/output_file.png}} {{[-l|--level]}} {{[l|m|q|h]}} {{string}}`
+
 - Convert input from pipe to a QR code and print it in terminal:
 
-`echo {{string}} | qrencode {{[-t|--type]}} ansiutf8`
+`echo {{string}} | qrencode {{[-t|--type]}} utf8`

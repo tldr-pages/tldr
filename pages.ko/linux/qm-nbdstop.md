@@ -5,4 +5,4 @@
 
 - 내장 nbd 서버 중지:
 
-`qm {{[n|nbdstop]}} {{가상_머신_ID}}`
+`qm {{[n|nbdstop]}} {{100}}`

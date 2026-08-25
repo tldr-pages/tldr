@@ -1,7 +1,7 @@
 # rubocop
 
 > Ruby 파일을 린트합니다.
-> 더 많은 정보: <https://docs.rubocop.org/rubocop/usage/basic_usage.html>.
+> 더 많은 정보: <https://docs.rubocop.org/rubocop/latest/usage/cli_reference.html>.
 
 - 현재 디렉토리의 모든 파일 확인(하위 디렉토리 포함):
 

@@ -19,6 +19,10 @@
 
 `sudo libinput debug-tablet`
 
+- Record a single device:
+
+`sudo libinput record`
+
 - Display help:
 
 `libinput {{[-h|--help]}}`

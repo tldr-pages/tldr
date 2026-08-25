@@ -5,4 +5,4 @@
 
 - Obtiene la configuración de la máquina virtual de una máquina virtual (mv) específica:
 
-`qm {{[p|pending]}} {{id_mv}}`
+`qm {{[p|pending]}} {{100}}`

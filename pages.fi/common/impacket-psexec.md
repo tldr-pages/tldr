@@ -1,6 +1,6 @@
 # impacket-psexec
 
-> Tämä on alias komennolle `psexec.py`.
+> Tämä on alias `psexec.py` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

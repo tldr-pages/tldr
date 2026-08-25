@@ -1,6 +1,6 @@
 # bye
 
-> Tämä on alias komennolle `exit`.
+> Tämä on alias `exit` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

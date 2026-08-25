@@ -1,6 +1,6 @@
 # bun i
 
-> Tämä on alias komennolle `bun install`.
+> Tämä on alias `bun install` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

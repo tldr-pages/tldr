@@ -9,7 +9,7 @@
 
 - Affiche les travaux de la file nommé 'a' (les files ont des noms avec une seule lettre) :
 
-`atq -q {{a}}`
+`atq -q a`
 
 - Affiche les travaux de tous les utilisateurs (lancé en tant que super-utilisateur) :
 

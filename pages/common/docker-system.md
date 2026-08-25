@@ -19,6 +19,10 @@
 
 `docker system prune --filter "until={{hours}}h{{minutes}}m"`
 
+- Remove all unused data:
+
+`docker system prune {{[-a|--all]}} --volumes`
+
 - Display real-time events from the Docker daemon:
 
 `docker system events`
@@ -30,7 +34,3 @@
 - Display system-wide information:
 
 `docker system info`
-
-- Display help:
-
-`docker system`

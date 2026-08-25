@@ -2,6 +2,6 @@
 
 > Det här kommandot är ett alias för `pct move-volume`.
 
-- Se dokumentationen för orginalkommandot:
+- Se dokumentationen för originalkommandot:
 
 `tldr pct move-volume`

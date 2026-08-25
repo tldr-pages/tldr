@@ -1,6 +1,6 @@
 # pw-play
 
-> Tämä on alias komennolle `pw-cat --playback`.
+> Tämä on alias `pw-cat --playback` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -10,20 +10,20 @@
 
 - 각 기본 블록에 대한 개별 실행 횟수 기록:
 
-`gcov --all-blocks {{경로/대상/파일.cpp}}`
+`gcov {{[-a|--all-blocks]}} {{경로/대상/파일.cpp}}`
 
 - 분기 빈도를 출력 파일에 기록하고 요약 정보를 백분율로 `stdout`에 출력:
 
-`gcov --branch-probabilities {{경로/대상/파일.cpp}}`
+`gcov {{[-b|--branch-probabilities]}} {{경로/대상/파일.cpp}}`
 
 - 백분율이 아닌 실행된 분기의 수로 분기 빈도 기록:
 
-`gcov --branch-counts {{경로/대상/파일.cpp}}`
+`gcov {{[-c|--branch-counts]}} {{경로/대상/파일.cpp}}`
 
 - `gcov` 출력 파일 생성 안 함:
 
-`gcov --no-output {{경로/대상/파일.cpp}}`
+`gcov {{[-n|--no-output]}} {{경로/대상/파일.cpp}}`
 
 - 파일 수준 및 함수 수준 요약을 기록:
 
-`gcov --function-summaries {{경로/대상/파일.cpp}}`
+`gcov {{[-f|--function-summaries]}} {{경로/대상/파일.cpp}}`

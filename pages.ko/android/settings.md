@@ -5,7 +5,7 @@
 
 - `global` 네임스페이스의 설정 목록을 표시:
 
-`settings list {{global}}`
+`settings list global`
 
 - 특정 설정의 값 가져오기:
 

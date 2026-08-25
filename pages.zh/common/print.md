@@ -8,8 +8,8 @@
 
 - 查看 `run-mailcap` 的 `print` 别名的文档：
 
-`tldr --platform linux print.runmailcap`
+`tldr {{[-p|--platform]}} linux run-mailcap`
 
 - 查看在 Windows 上打印文本文件的文档：
 
-`tldr --platform windows print.win`
+`tldr {{[-p|--platform]}} windows print.win`

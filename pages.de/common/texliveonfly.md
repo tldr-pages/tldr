@@ -9,7 +9,7 @@
 
 - Verwende einen bestimmten Compiler (standardmäßig `pdflatex`):
 
-`texliveonfly --compiler={{compiler}} {{quelldatei.tex}}`
+`texliveonfly {{[-c|--compiler]}} {{compiler}} {{quelldatei.tex}}`
 
 - Verwende ein bestimmtes Tex Live `bin` Verzeichnis:
 

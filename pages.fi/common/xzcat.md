@@ -1,6 +1,6 @@
 # xzcat
 
-> Tämä on alias komennolle `xz --decompress --stdout`.
+> Tämä on alias `xz --decompress --stdout` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

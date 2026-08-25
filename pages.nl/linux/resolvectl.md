@@ -7,7 +7,7 @@
 
 - Toon DNS instellingen:
 
-`resolvectl status`
+`resolvectl`
 
 - Resolve de IPv4 en IPv6 adressen voor een of meerdere domeinen:
 
@@ -27,9 +27,9 @@
 
 - Verkrijg een MX record van een domein:
 
-`resolvectl --legend {{no}} {{[-t|--type]}} {{MX}} query {{domein}}`
+`resolvectl --legend {{no}} {{[-t|--type]}} MX query {{domein}}`
 
-- Resolve een SRV record, bijvoorbeeld _xmpp-server._tcp gmail.com:
+- Resolve een SRV record, bijvoorbeeld `_xmpp-server._tcp gmail.com`:
 
 `resolvectl service _{{service}}._{{protocol}} {{naam}}`
 

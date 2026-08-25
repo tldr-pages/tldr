@@ -9,19 +9,19 @@
 
 - 로컬 디렉터리 스캔:
 
-`gitleaks detect --source {{경로/대상/디렉터리}}`
+`gitleaks detect {{[-s|--source]}} {{경로/대상/디렉터리}}`
 
 - 스캔 결과를 JSON 파일로 출력:
 
-`gitleaks detect --source {{경로/대상/디렉터리}} --report {{경로/대상/리포트.json}}`
+`gitleaks detect {{[-s|--source]}} {{경로/대상/디렉터리}} --report {{경로/대상/리포트.json}}`
 
 - 사용자 정의 규칙 파일을 사용:
 
-`gitleaks detect --source {{경로/대상/디렉터리}} --config-path {{경로/대상/구성파일.toml}}`
+`gitleaks detect {{[-s|--source]}} {{경로/대상/디렉터리}} --config-path {{경로/대상/구성파일.toml}}`
 
 - 특정 커밋에서 스캔을 시작:
 
-`gitleaks detect --source {{경로/대상/디렉터리}} --log-opts {{--since=commit_id}}`
+`gitleaks detect {{[-s|--source]}} {{경로/대상/디렉터리}} --log-opts {{--since=commit_id}}`
 
 - 커밋 전에 커밋되지 않은 변경사항을 검색:
 

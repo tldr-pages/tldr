@@ -23,8 +23,8 @@
 
 - Сделать `rm` интерактивной командой:
 
-`alias {{rm}}="{{rm --interactive}}"`
+`alias rm="rm --interactive"`
 
 - Создать `la` как сокращение для `ls --all`:
 
-`alias {{la}}="{{ls --all}}"`
+`alias la="ls --all"`

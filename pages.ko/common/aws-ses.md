@@ -30,7 +30,7 @@
 
 - 이메일 전송:
 
-`aws ses send-email --from {{송신_주소}} --destination "ToAddresses={{주소}}" --message "Subject={Data={{subject_text}},Charset=utf8},Body={Text={Data={{body_text}},Charset=utf8},Html={Data={{message_body_containing_html}},Charset=utf8}}"`
+`aws ses send-email --from {{송신_주소}} --destination "ToAddresses={{주소}}" --message "Subject={Data={{subject_text}},Charset=utf8},Body={Text={Data={{body_text}},Charset=utf8},Html={Data={{message_body_containing_html}},Charset=utf8\}\}"`
 
 - 특정 SES 하위 명령어에 대한 도움말 표시:
 

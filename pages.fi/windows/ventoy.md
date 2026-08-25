@@ -1,6 +1,6 @@
 # ventoy
 
-> Tämä on alias komennolle `Ventoy2Disk`.
+> Tämä on alias `Ventoy2Disk` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

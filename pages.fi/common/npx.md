@@ -1,6 +1,6 @@
 # npx
 
-> Tämä on alias komennolle `npm exec`.
+> Tämä on alias `npm exec` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

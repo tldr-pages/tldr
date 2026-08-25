@@ -18,7 +18,7 @@
 
 - Use the specified UUID:
 
-`sudo mkswap {{[-U|--uuid]}} {{clear|random|time|UUID_value}}`
+`sudo mkswap {{[-U|--uuid]}} {{clear|random|time|uuid_value}}`
 
 - Set up a swap file (for btrfs, see `tldr btrfs filesystem` instead):
 

@@ -14,7 +14,7 @@
 
 - 신뢰할 수 있는 키 저장소에서 키 삭제:
 
-`apt-key del {{키_ID}}`
+`apt-key del {{키_id}}`
 
 - 원격 키를 신뢰할 수 있는 키 저장소에 추가:
 
@@ -22,4 +22,4 @@
 
 - 키 ID만 사용하여 키서버에서 키 추가:
 
-`apt-key adv --keyserver {{pgp.mit.edu}} --recv {{KEYID}}`
+`apt-key adv --keyserver {{pgp.mit.edu}} --recv {{key_id}}`

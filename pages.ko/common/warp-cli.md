@@ -23,12 +23,4 @@
 
 - 특정 모드로 전환:
 
-`warp-cli set-mode {{모드}}`
-
-- 도움말 표시:
-
-`warp-cli help`
-
-- 하위 명령에 대한 도움말 표시:
-
-`warp-cli help {{하위_명령}}`
+`warp-cli mode {{warp|doh|warp+doh|dot|warp+dot|proxy|tunnel_only}}`

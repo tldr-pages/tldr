@@ -13,11 +13,11 @@
 
 - 添加远程仓库：
 
-`git remote add {{远程仓库名字}} {{远程仓库 URL}}`
+`git remote add {{远程仓库名字}} {{远程仓库url}}`
 
 - 更改远程仓库地址链接（使用 `--add` 选项不会移除现有的 URL）：
 
-`git remote set-url {{远程仓库名字}} {{新 URL}}`
+`git remote set-url {{远程仓库名字}} {{新url}}`
 
 - 查看远程仓库的 URL：
 

@@ -1,6 +1,6 @@
 # jira issues
 
-> Tämä on alias komennolle `jira issue`.
+> Tämä on alias `jira issue` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -1,6 +1,6 @@
 # cuninst
 
-> Tämä on alias komennolle `choco uninstall`.
+> Tämä on alias `choco uninstall` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -23,8 +23,8 @@
 
 - Ubah perintah `rm` menjadi perintah interaktif:
 
-`alias {{rm}}="{{rm --interactive}}"`
+`alias rm="rm --interactive"`
 
 - Buat perintah `la` menjadi pintasan untuk `ls --all`:
 
-`alias {{la}}="{{ls --all}}"`
+`alias la="ls --all"`

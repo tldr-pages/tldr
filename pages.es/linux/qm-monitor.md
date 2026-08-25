@@ -5,4 +5,4 @@
 
 - Introduce la interfaz QEMU Monitor de una máquina virtual específica:
 
-`qm {{[mo|monitor]}} {{id_mv}}`
+`qm {{[mo|monitor]}} {{100}}`

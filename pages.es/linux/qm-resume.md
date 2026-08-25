@@ -5,8 +5,8 @@
 
 - Reanuda una máquina virtual dada:
 
-`qm {{[resu|resume]}} {{id_mv}}`
+`qm {{[resu|resume]}} {{100}}`
 
 - Recupera una máquina virtual específica omitiendo cualquier bloqueo (requiere root):
 
-`sudo qm {{[resu|resume]}} {{id_mv}} --skiplock true`
+`sudo qm {{[resu|resume]}} {{100}} --skiplock true`

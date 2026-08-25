@@ -10,7 +10,7 @@
 
 - Execute a subcommand with input from a file or URI, printing to `stdout`:
 
-`xml {{subcommand}} {{options}} {{path/to/input.xml|URI}}`
+`xml {{subcommand}} {{options}} {{path/to/input.xml|uri}}`
 
 - Execute a subcommand using `stdin` and `stdout`:
 
@@ -18,7 +18,7 @@
 
 - Execute a subcommand with input from a file or URI and output to a file:
 
-`xml {{subcommand}} {{options}} {{path/to/input.xml|URI}} > {{path/to/output}}`
+`xml {{subcommand}} {{options}} {{path/to/input.xml|uri}} > {{path/to/output}}`
 
 - Display help for a specific subcommand:
 

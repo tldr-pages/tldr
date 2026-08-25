@@ -1,6 +1,6 @@
 # npm-rb
 
-> Tämä on alias komennolle `npm-rebuild`.
+> Tämä on alias `npm-rebuild` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

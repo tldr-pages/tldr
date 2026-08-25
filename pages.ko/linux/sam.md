@@ -9,7 +9,7 @@
 
 - 특정 런타임으로 서버리스 애플리케이션 초기화:
 
-`sam init --runtime {{python3.7}}`
+`sam init {{[-r|--runtime]}} {{python3.7}}`
 
 - SAM 애플리케이션 패키징:
 

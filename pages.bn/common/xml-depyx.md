@@ -5,7 +5,7 @@
 
 - একটি PYX (ESIS - ISO 8879) ডকুমেন্টকে XML ফরম্যাটে রূপান্তর করুন:
 
-`xml {{[p2x|depyx]}} {{path/to/input.pyx|URI}} > {{path/to/output.xml}}`
+`xml {{[p2x|depyx]}} {{path/to/input.pyx|uri}} > {{path/to/output.xml}}`
 
 - `stdin` থেকে একটি PYX ডকুমেন্টকে XML ফরম্যাটে রূপান্তর করুন:
 

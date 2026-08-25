@@ -1,6 +1,6 @@
 # cola
 
-> Tämä on alias komennolle `git-cola`.
+> Tämä on alias `git-cola` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

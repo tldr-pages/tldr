@@ -5,7 +5,7 @@
 
 - Crea un alias locale per un director:
 
-`bosh alias-env {{nome_ambiente}} -e {{indirizzo_ip|url}} --ca-cert {{certificato_ca}}`
+`bosh alias-env {{nome_ambiente}} {{[-e|--environment]}} {{indirizzo_ip|url}} --ca-cert {{certificato_ca}}`
 
 - Elenca ambienti:
 
@@ -13,24 +13,24 @@
 
 - Esegui il login al director:
 
-`bosh login -e {{ambiente}}`
+`bosh login {{[-e|--environment]}} {{ambiente}}`
 
 - Elenca deployment (distribuzioni):
 
-`bosh -e {{ambiente}} deployments`
+`bosh {{[-e|--environment]}} {{ambiente}} deployments`
 
 - Elenca le macchine virtuali in un ambiente:
 
-`bosh -e {{ambiente}} vms -d {{deployment}}`
+`bosh {{[-e|--environment]}} {{ambiente}} vms {{[-d|--deployment]}} {{deployment}}`
 
 - Avvia una sessione SSH in una macchina virtuale:
 
-`bosh -e {{ambiente}} ssh {{macchina_virtuale}} -d {{deployment}}`
+`bosh {{[-e|--environment]}} {{ambiente}} ssh {{macchina_virtuale}} {{[-d|--deployment]}} {{deployment}}`
 
 - Carica una stemcell:
 
-`bosh -e {{ambiente}} upload-stemcell {{file_stemcell|url}}`
+`bosh {{[-e|--environment]}} {{ambiente}} upload-stemcell {{file_stemcell|url}}`
 
 - Mostra la configurazione cloud attuale:
 
-`bosh -e {{ambiente}} cloud-config`
+`bosh {{[-e|--environment]}} {{ambiente}} cloud-config`

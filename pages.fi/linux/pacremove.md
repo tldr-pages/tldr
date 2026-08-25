@@ -1,6 +1,6 @@
 # pacremove
 
-> Tämä on alias komennolle `pactrans --remove`.
+> Tämä on alias `pactrans --remove` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

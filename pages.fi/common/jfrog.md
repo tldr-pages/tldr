@@ -1,6 +1,6 @@
 # jfrog
 
-> Tämä on alias komennolle `jf`.
+> Tämä on alias `jf` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

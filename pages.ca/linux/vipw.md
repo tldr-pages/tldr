@@ -9,4 +9,4 @@
 
 - Mostra la versió instal·lada de `vipw`:
 
-`vipw --version`
+`vipw {{[-V|--version]}}`

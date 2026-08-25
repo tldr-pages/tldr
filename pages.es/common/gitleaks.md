@@ -9,19 +9,19 @@
 
 - Escanea un directorio local:
 
-`gitleaks detect --source {{ruta/al/repositorio}}`
+`gitleaks detect {{[-s|--source]}} {{ruta/al/repositorio}}`
 
 - Crea un archivo JSON con los resultados del análisis:
 
-`gitleaks detect --source {{ruta/al/repositorio}} --report {{ruta/a/informe.json}}`
+`gitleaks detect {{[-s|--source]}} {{ruta/al/repositorio}} --report {{ruta/a/informe.json}}`
 
 - Utiliza un archivo de reglas personalizado:
 
-`gitleaks detect --source {{ruta/al/repositorio}} --config-path {{ruta/al/archivo_de_configuración.toml}}`
+`gitleaks detect {{[-s|--source]}} {{ruta/al/repositorio}} --config-path {{ruta/al/archivo_de_configuración.toml}}`
 
 - Inicia la búsqueda a partir de una confirmación específica:
 
-`gitleaks detect --source {{ruta/al/repositorio}} --log-opts {{--since=identificador_confirmación}}`
+`gitleaks detect {{[-s|--source]}} {{ruta/al/repositorio}} --log-opts {{--since=identificador_confirmación}}`
 
 - Escanea cambios no confirmados antes de una confirmación:
 

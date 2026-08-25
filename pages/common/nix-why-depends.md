@@ -7,6 +7,6 @@
 
 `nix why-depends {{/run/current-system}} /nix/store/{{checksum-package-version.ext}}`
 
-- Show why a package from nixpkgs requires another package as a _build-time_ dependency:
+- Show why a package from nixpkgs requires another package as a build-time dependency:
 
 `nix why-depends --derivation {{nixpkgs#dependent}} {{nixpkgs#dependency}}`

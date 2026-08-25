@@ -1,6 +1,6 @@
 # fossil new
 
-> Tämä on alias komennolle `fossil init`.
+> Tämä on alias `fossil init` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

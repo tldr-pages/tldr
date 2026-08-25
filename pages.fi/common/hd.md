@@ -1,6 +1,6 @@
 # hd
 
-> Tämä on alias komennolle `hexdump`.
+> Tämä on alias `hexdump` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

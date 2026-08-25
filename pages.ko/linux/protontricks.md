@@ -9,11 +9,11 @@
 
 - 특정 게임에 대해 Winetricks 실행:
 
-`protontricks {{앱_ID}} {{winetricks_인수}}`
+`protontricks {{앱_id}} {{winetricks_인수}}`
 
 - 게임 설치 디렉토리 내에서 명령 실행:
 
-`protontricks -c {{명령어}} {{앱_ID}}`
+`protontricks -c {{명령어}} {{앱_id}}`
 
 - 설치된 모든 게임 [l]나열:
 

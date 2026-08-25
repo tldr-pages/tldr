@@ -6,27 +6,27 @@
 
 - 모든 패키지를 동기화하고 업데이트:
 
-`aurman --sync --refresh --sysupgrade`
+`aurman {{[-S|--sync]}} {{[-y|--refresh]}} {{[-u|--sysupgrade]}}`
 
 - `PKGBUILD` 파일의 변경 사항을 표시하지 않고 모든 패키지를 동기화하고 업데이트:
 
-`aurman --sync --refresh --sysupgrade --noedit`
+`aurman {{[-S|--sync]}} {{[-y|--refresh]}} {{[-u|--sysupgrade]}} --noedit`
 
 - 새 패키지 설치:
 
-`aurman --sync {{패키지}}`
+`aurman {{[-S|--sync]}} {{패키지}}`
 
 - `PKGBUILD` 파일의 변경 사항을 표시하지 않고 새 패키지 설치:
 
-`aurman --sync --noedit {{패키지}}`
+`aurman {{[-S|--sync]}} --noedit {{패키지}}`
 
 - 묻지 않고 새 패키지 설치:
 
-`aurman --sync --noedit --noconfirm {{패키지}}`
+`aurman {{[-S|--sync]}} --noedit --noconfirm {{패키지}}`
 
 - 공식 저장소와 AUR에서 키워드를 검색하여 패키지 검색:
 
-`aurman --sync --search {{키워드}}`
+`aurman {{[-S|--sync]}} {{[-s|--search]}} {{키워드}}`
 
 - 특정 패키지 및 의존성 제거:
 
@@ -34,4 +34,4 @@
 
 - 패키지 캐시 지우기 (모든 패키지를 삭제하려면 두 개의 `--clean` 플래그 사용):
 
-`aurman --sync --clean`
+`aurman {{[-S|--sync]}} {{[-c|--clean]}}`

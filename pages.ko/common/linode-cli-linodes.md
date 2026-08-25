@@ -10,28 +10,28 @@
 
 - 새 Linode 생성:
 
-`linode-cli linodes create --type {{linode_유형}} --region {{지역}} --image {{이미지_ID}}`
+`linode-cli linodes create --type {{linode_유형}} --region {{지역}} --image {{이미지_id}}`
 
 - 특정 Linode의 세부 정보 보기:
 
-`linode-cli linodes view {{linode_ID}}`
+`linode-cli linodes view {{linode_id}}`
 
 - Linode 설정 업데이트:
 
-`linode-cli linodes update {{linode_ID}} --label {{새_레이블}}`
+`linode-cli linodes update {{linode_id}} --label {{새_레이블}}`
 
 - Linode 삭제:
 
-`linode-cli linodes delete {{linode_ID}}`
+`linode-cli linodes delete {{linode_id}}`
 
 - Linode에 전원 관리 작업 수행:
 
-`linode-cli linodes {{boot|reboot|shutdown}} {{linode_ID}}`
+`linode-cli linodes {{boot|reboot|shutdown}} {{linode_id}}`
 
 - Linode에 대한 사용 가능한 백업 목록:
 
-`linode-cli linodes backups-list {{linode_ID}}`
+`linode-cli linodes backups-list {{linode_id}}`
 
 - Linode에 백업 복원:
 
-`linode-cli linodes backups-restore {{linode_ID}} --backup-id {{백업_ID}}`
+`linode-cli linodes backups-restore {{linode_id}} --backup-id {{백업_id}}`

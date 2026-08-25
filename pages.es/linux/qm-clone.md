@@ -5,24 +5,24 @@
 
 - Copia una máquina virtual:
 
-`qm clone {{id_mv}} {{id_nueva_mv}}`
+`qm clone {{100}} {{101}}`
 
 - Copia una máquina virtual usando un nombre específico:
 
-`qm clone {{id_mv}} {{id_nueva_mv}} --name {{nombre}}`
+`qm clone {{100}} {{101}} --name {{nombre}}`
 
 - Copia una máquina virtual usando una descripción específica:
 
-`qm clone {{id_mv}} {{id_nueva_mv}} --description {{descripción}}`
+`qm clone {{100}} {{101}} --description {{descripción}}`
 
 - Copia una máquina virtual creando una copia completa de todos los discos:
 
-`qm clone {{id_mv}} {{id_nueva_mv}} --full`
+`qm clone {{100}} {{101}} --full`
 
 - Copia una máquina virtual usando un formato específico para el almacenamiento de archivos (requiere `--full`):
 
-`qm clone {{id_mv}} {{id_nueva_mv}} --full --format {{qcow2|raw|vmdk}}`
+`qm clone {{100}} {{101}} --full --format {{qcow2|raw|vmdk}}`
 
 - Copia una máquina virtual y luego la añade a un grupo (pool) específico:
 
-`qm clone {{id_mv}} {{id_nueva_mv}} --pool {{nombre_grupo}}`
+`qm clone {{100}} {{101}} --pool {{nombre_grupo}}`

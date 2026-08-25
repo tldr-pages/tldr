@@ -18,3 +18,7 @@
 - Convert an intent to a URI:
 
 `am to-uri -a {{android.intent.action.VIEW}} -d {{tel:123}}`
+
+- Start the home activity on an emulator or device:
+
+`am start -W -c android.intent.category.HOME -a android.intent.action.MAIN`

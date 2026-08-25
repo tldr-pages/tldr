@@ -22,4 +22,4 @@
 
 - Add a key from keyserver with only key ID:
 
-`apt-key adv --keyserver {{pgp.mit.edu}} --recv {{KEYID}}`
+`apt-key adv --keyserver {{pgp.mit.edu}} --recv {{key_id}}`

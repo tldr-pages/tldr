@@ -17,7 +17,7 @@
 
 - 객체를 주소로 전송:
 
-`sui client ptb --transfer-objects "[{{객체_ID}}]" @{{주소}}`
+`sui client ptb --transfer-objects "[{{객체_id}}]" @{{주소}}`
 
 - Move 패키지를 게시하고 업그레이드 기능을 송신자에게 전송:
 

@@ -14,4 +14,4 @@
 
 - 用 `xwininfo` 中列出的窗口 ID 对特定窗口进行捕获，保存为 JPEG 图片：
 
-`magick import -window {{窗口 ID}} {{路径/到/输出图片.jpg}}`
+`magick import -window {{窗口id}} {{路径/到/输出图片.jpg}}`

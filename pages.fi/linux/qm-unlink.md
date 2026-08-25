@@ -1,6 +1,6 @@
 # qm unlink
 
-> Tämä on alias komennolle `qm disk unlink`.
+> Tämä on alias `qm disk unlink` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

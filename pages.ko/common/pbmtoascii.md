@@ -18,4 +18,4 @@
 
 - 버전 표시:
 
-`pbmtoascii -version`
+`pbmtoascii {{[-v|-version]}}`

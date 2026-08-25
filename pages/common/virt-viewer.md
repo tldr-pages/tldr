@@ -11,11 +11,11 @@
 
 - Launch `virt-viewer` for a specific virtual machine by ID, UUID, or name:
 
-`virt-viewer {{[-c|--connect]}} {{URI}} {{domain}}`
+`virt-viewer {{[-c|--connect]}} {{uri}} {{domain}}`
 
 - Wait for a virtual machine to start and automatically reconnect if it shuts down and restarts:
 
-`virt-viewer {{[-c|--connect]}} {{URI}} {{[-r|--reconnect]}} {{[-w|--wait]}} {{domain}}`
+`virt-viewer {{[-c|--connect]}} {{uri}} {{[-r|--reconnect]}} {{[-w|--wait]}} {{domain}}`
 
 - Connect to a specific remote virtual machine over TLS (requires pre-configured TLS certificates):
 

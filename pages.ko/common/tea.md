@@ -5,7 +5,7 @@
 
 - Gitea 서버에 로그인:
 
-`tea login add --name "{{이름}}" --url "{{URL}}" --token "{{토큰}}"`
+`tea login add --name "{{이름}}" --url "{{url}}" --token "{{토큰}}"`
 
 - 모든 저장소 표시:
 

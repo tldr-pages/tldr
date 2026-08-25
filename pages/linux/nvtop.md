@@ -28,6 +28,6 @@
 
 `nvtop {{[-p|--no-plot]}}`
 
-- Show the program version:
+- Display version:
 
 `nvtop {{[-v|--version]}}`

@@ -10,7 +10,7 @@
 
 - 특정 명령 실행:
 
-`nu --commands "{{echo 'nu is executed'}}"`
+`nu {{[-c|--commands]}} "{{echo 'nu is executed'}}"`
 
 - 특정 스크립트 실행:
 

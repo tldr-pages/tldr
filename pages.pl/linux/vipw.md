@@ -9,4 +9,4 @@
 
 - Wyświetlenie bieżącej wersji `vipw`:
 
-`vipw --version`
+`vipw {{[-V|--version]}}`

@@ -5,12 +5,12 @@
 
 - Display the virtual machine configuration:
 
-`qm {{[co|config]}} {{vm_id}}`
+`qm {{[co|config]}} {{100}}`
 
 - Display the current configuration values instead of pending values for the virtual machine:
 
-`qm {{[co|config]}} --current {{true}} {{vm_id}}`
+`qm {{[co|config]}} --current {{true}} {{100}}`
 
 - Fetch the configuration values from the given snapshot:
 
-`qm {{[co|config]}} --snapshot {{snapshot_name}} {{vm_id}}`
+`qm {{[co|config]}} --snapshot {{snapshot_name}} {{100}}`

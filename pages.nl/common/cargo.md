@@ -28,10 +28,10 @@
 
 `cargo {{[b|build]}} {{[-r|--release]}}`
 
+- Voer de gecompileerde binary uit (wordt eerst gecompileerd als het nog niet is gecompileerd):
+
+`cargo {{[r|run]}}`
+
 - Bouw het Rust-project in de huidige map door gebruik te maken van de nachtelijkse compiler (vereist `rustup`):
 
 `cargo +nightly {{[b|build]}}`
-
-- Bouw met een gegeven aantal taken (Standaard is het aantal CPU-kernen):
-
-`cargo {{[b|build]}} {{[-j|--jobs]}} {{aantal_taken}}`

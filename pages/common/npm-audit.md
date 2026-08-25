@@ -19,7 +19,7 @@
 
 `npm audit fix --package-lock-only`
 
-- Perform a dry run. Simulate the fix process without making any changes:
+- Simulate the fix process without making any changes:
 
 `npm audit fix --dry-run`
 

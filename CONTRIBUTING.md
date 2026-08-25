@@ -21,6 +21,12 @@ Contributions to the tldr-pages project are [most welcome](GOVERNANCE.md)!
 
 All `tldr` pages are stored in Markdown right here on GitHub. Just open an issue or send a pull request, and we'll incorporate it as soon as possible.
 
+> [!NOTE]
+> Please ensure that the project has been maintained for at least a year before submitting a page for it, notable projects are exempt from this requirement.
+> The definition of notable is at the discretion of the tldr maintainers.
+> This is to ensure that the tldr pages doesn't get cluttered with projects that have been abandoned or created for just the personal use of the creator.
+> Abandoned projects or inactive personal utilities may be subject to removal at the maintainers' discretion. This does not apply to stable or complete tools that are widely used.
+
 > [!IMPORTANT]
 > While this file contains general instructions to get started, it is suggested to read the [style guide](contributing-guides/style-guide.md) and [translation templates](contributing-guides/translation-templates)
 > for more detailed information about the syntax and commonly used translation terms.
@@ -96,7 +102,7 @@ As a quick reference, the format of each page should match the following templat
 # command-name
 
 > Short, snappy description.
-> Preferably one line; two are acceptable if necessary.
+> Further clarification of the functionality only when absolutely necessary.
 > More information: <https://url-to-upstream.tld>.
 
 - Example description:
@@ -111,12 +117,12 @@ As a quick reference, the format of each page should match the following templat
 For page descriptions, you can additionally use ``See also: `command`.`` and [subcommand reference](#subcommands).
 
 > [!NOTE]
-> While we suggest only two lines for the page description, it is acceptable to have more than two lines if it is necessary to add additional information (i.e. [`pacman`](https://github.com/tldr-pages/tldr/blob/main/pages/linux/pacman.md)).
+> While we suggest only two lines for the page description, it is acceptable to have more than two lines if it is necessary to add additional information (i.e. [`pacman`](https://github.com/tldr-pages/tldr/blob/main/pages/linux/pacman.md?plain=1)).
 
 To see some examples of preexisting pages, you can look at:
 
-- [pwd](https://github.com/tldr-pages/tldr/blob/main/pages/common/pwd.md) - one of the simplest command examples
-- [tar](https://github.com/tldr-pages/tldr/blob/main/pages/common/tar.md) - page with placeholders
+- [pwd](https://github.com/tldr-pages/tldr/blob/main/pages/common/pwd.md?plain=1) - one of the simplest command examples
+- [tar](https://github.com/tldr-pages/tldr/blob/main/pages/common/tar.md?plain=1) - page with placeholders
 
 In our pages, we use placeholders defined as being tokens within curly brackets. For example, in `sleep {{5}}`, the user can change 5 to any number.
 

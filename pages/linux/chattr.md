@@ -1,6 +1,7 @@
 # chattr
 
 > Change attributes of files or directories.
+> See also: `lsattr`.
 > More information: <https://manned.org/chattr>.
 
 - Make a file or directory [i]mmutable to changes and deletion, even by superuser:

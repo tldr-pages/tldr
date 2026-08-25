@@ -1,6 +1,7 @@
 # exa
 
 > Ein moderner Ersatz für `ls` (Verzeichnisinhalte auflisten).
+> Siehe auch: `eza`.
 > Weitere Informationen: <https://github.com/ogham/exa#command-line-options>.
 
 - Liste eine Datei pro Zeile auf:

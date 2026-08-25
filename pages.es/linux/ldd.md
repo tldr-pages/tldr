@@ -10,16 +10,16 @@
 
 - Muestra toda la información sobre las dependencias:
 
-`ldd --verbose {{ruta/al/binario}}`
+`ldd {{[-v|--verbose]}} {{ruta/al/binario}}`
 
 - Muestra dependencias directas no utilizadas:
 
-`ldd --unused {{ruta/al/binario}}`
+`ldd {{[-u|--unused]}} {{ruta/al/binario}}`
 
 - Reporta objetos de datos perdidos y realiza reubicaciones de datos:
 
-`ldd --data-relocs {{ruta/al/binario}}`
+`ldd {{[-d|--data-relocs]}} {{ruta/al/binario}}`
 
 - Reporta objetos y funciones de datos ausentes y los reubica a ambos:
 
-`ldd --function-relocs {{ruta/al/binario}}`
+`ldd {{[-r|--function-relocs]}} {{ruta/al/binario}}`

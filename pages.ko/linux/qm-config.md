@@ -5,12 +5,12 @@
 
 - 가상 머신 구성 표시:
 
-`qm {{[co|config]}} {{가상_머신_ID}}`
+`qm {{[co|config]}} {{100}}`
 
 - 가상 머신에 대한 현재 구성 값을 표시 (대기 중인 값 대신):
 
-`qm {{[co|config]}} --current {{true}} {{vm_id}}`
+`qm {{[co|config]}} --current {{true}} {{100}}`
 
 - 지정된 스냅샷에서 구성 값 가져오기:
 
-`qm {{[co|config]}} --snapshot {{snapshot_name}} {{vm_id}}`
+`qm {{[co|config]}} --snapshot {{snapshot_name}} {{100}}`

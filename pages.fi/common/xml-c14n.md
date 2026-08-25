@@ -1,6 +1,6 @@
 # xml c14n
 
-> Tämä on alias komennolle `xml canonic`.
+> Tämä on alias `xml canonic` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

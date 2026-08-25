@@ -3,7 +3,7 @@
 > Un generador de sitios estático sencillo que tiene en cuenta los blogs.
 > Más información: <https://jekyllrb.com/docs/usage/>.
 
-- Genera un servidor de desarrollo que funcionará en http://localhost:4000/:
+- Genera un servidor de desarrollo que funcionará en <http://localhost:4000/>:
 
 `jekyll serve`
 

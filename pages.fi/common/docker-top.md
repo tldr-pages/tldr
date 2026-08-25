@@ -1,6 +1,6 @@
 # docker top
 
-> Tämä on alias komennolle `docker container top`.
+> Tämä on alias `docker container top` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

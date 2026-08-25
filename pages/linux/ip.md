@@ -22,7 +22,7 @@
 
 - Show neighbors (ARP table):
 
-`ip {{[n|neighbour]}}`
+`ip {{[n|neighbor]}}`
 
 - Make an interface up/down:
 

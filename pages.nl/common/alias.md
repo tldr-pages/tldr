@@ -23,8 +23,8 @@
 
 - Maak van `rm` een interactief commando:
 
-`alias {{rm}}="{{rm -i}}"`
+`alias rm="rm -i"`
 
 - Maak een alias `la` aan als korte schrijfwijze van `ls -a`:
 
-`alias {{la}}="{{ls -a}}"`
+`alias la="ls -a"`

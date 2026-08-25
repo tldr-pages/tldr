@@ -13,8 +13,8 @@
 
 - 패키지를 확인할 사용자 지정 소스 지정:
 
-`choco outdated --source {{source_url|alias}}`
+`choco outdated {{[-s|--source]}} {{source_url|alias}}`
 
 - 인증을 위한 사용자 명과 비밀번호 제공:
 
-`choco outdated --user {{사용자_명}} --password {{비밀번호}}`
+`choco outdated {{[-u|--user]}} {{사용자_명}} {{[-p|--password]}} {{비밀번호}}`

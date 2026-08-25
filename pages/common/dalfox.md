@@ -1,7 +1,7 @@
 # dalfox
 
 > A powerful open-source XSS scanner focused on automation.
-> More information: <https://dalfox.hahwul.com/page/usage/>.
+> More information: <https://dalfox.hahwul.com/reference/cli/>.
 
 - Scan a single URL for XSS vulnerabilities:
 

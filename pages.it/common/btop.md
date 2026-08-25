@@ -2,7 +2,7 @@
 
 > Monitor di risorse che mostra informazioni su CPU, memoria, dischi, rete e processi.
 > Versione in C++ di `bpytop`.
-> Vedi anche: `btm`, `glances`, `atop`, `htop`, `top`.
+> Vedi anche: `btm`, `glances`, `atop`, `htop`, `top`, `sensors`.
 > Maggiori informazioni: <https://github.com/aristocratos/btop#command-line-options>.
 
 - Avvia `btop`:

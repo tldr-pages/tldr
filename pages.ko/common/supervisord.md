@@ -6,8 +6,8 @@
 
 - 지정된 구성 파일로 `supervisord` 시작:
 
-`supervisord -c {{경로/대상/파일}}`
+`supervisord {{[-c|--configuration]}} {{경로/대상/파일}}`
 
 - 포그라운드에서 supervisord 실행:
 
-`supervisord -n`
+`supervisord {{[-n|--nodaemon]}}`

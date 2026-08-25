@@ -5,8 +5,8 @@
 
 - Sube un `.nupkg` compilado al feed especificado:
 
-`choco push --source {{https://push.chocolatey.org/}}`
+`choco push {{[-s|--source]}} {{https://push.chocolatey.org/}}`
 
 - Sube un `.nupkg` compilado al feed especificado con un tiempo de espera en segundos (el valor predeterminado es 2700):
 
-`choco push --source {{https://push.chocolatey.org/}} --execution-timeout {{500}}`
+`choco push {{[-s|--source]}} {{https://push.chocolatey.org/}} {{[--timeout|--execution-timeout]}} {{500}}`

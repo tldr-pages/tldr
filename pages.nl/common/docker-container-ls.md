@@ -25,7 +25,7 @@
 
 - Filter containers op exit-statuscode:
 
-`docker {{[ps|container ls]}} {{[-a|--all]}} {{[-f|--filter]}} "exited={{code}}"`
+`docker {{[ps|container ls]}} {{[-f|--filter]}} "exited={{code}}" {{[-a|--all]}}`
 
 - Filter containers op status (created, running, removing, paused, exited en dead):
 

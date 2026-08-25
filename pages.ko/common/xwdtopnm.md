@@ -9,8 +9,8 @@
 
 - 변환 과정에 대한 정보 표시:
 
-`xwdtopnm -verbose {{경로/대상/입력_파일.xwd}} > {{경로/대상/출력_파일.pnm}}`
+`xwdtopnm {{[-verb|-verbose]}} {{경로/대상/입력_파일.xwd}} > {{경로/대상/출력_파일.pnm}}`
 
 - 입력 파일의 X11 헤더 내용 표시:
 
-`xwdtopnm -headerdump {{경로/대상/입력_파일.xwd}} > {{경로/대상/출력_파일.pnm}}`
+`xwdtopnm {{[-h|-headerdump]}} {{경로/대상/입력_파일.xwd}} > {{경로/대상/출력_파일.pnm}}`

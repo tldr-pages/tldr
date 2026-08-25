@@ -6,4 +6,4 @@
 
 - Connect to an address:
 
-`plink {{IP_address}}`
+`plink {{ip_address}}`

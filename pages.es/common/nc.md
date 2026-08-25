@@ -5,7 +5,7 @@
 
 - Inicia un escuchador en un puerto TCP y le envía un archivo:
 
-`nc -l -p {{puerto}} < {{nombre_de_archivo}}`
+`nc < {{nombre_de_archivo}} -l -p {{puerto}}`
 
 - Conecta a un escuchador en un puerto y recibe un archivo de él:
 

@@ -9,11 +9,11 @@
 
 - 특정 PNG를 압축하고 원본을 덮어쓰기:
 
-`pngquant --ext .png --force {{경로/대상/파일.png}}`
+`pngquant --ext .png {{[-f|--force]}} {{경로/대상/파일.png}}`
 
 - 사용자 지정 품질로 특정 PNG를 압축 시도 (최소 값보다 낮으면 건너뜀):
 
-`pngquant --quality {{0-100}} {{경로/대상/파일.png}}`
+`pngquant {{[-Q|--quality]}} {{0-100}} {{경로/대상/파일.png}}`
 
 - 색상이 64개로 줄어진 특정 PNG를 압축:
 
@@ -29,8 +29,8 @@
 
 - 특정 PNG를 압축하고 지정된 경로에 저장:
 
-`pngquant {{경로/대상/파일.png}} --output {{경로/대상/파일.png}}`
+`pngquant {{경로/대상/파일.png}} {{[-o|--output]}} {{경로/대상/파일.png}}`
 
 - 특정 PNG를 압축하고 진행 상황 표시:
 
-`pngquant --verbose {{경로/대상/파일.png}}`
+`pngquant {{[-v|--verbose]}} {{경로/대상/파일.png}}`

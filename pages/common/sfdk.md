@@ -28,9 +28,9 @@
 
 `sfdk --help`
 
-- Display help for specific topic (`building`, `testing`, `maintaining`, `ide`, `all`):
+- Display help for specific topic:
 
-`sfdk --help-{{topic}}`
+`sfdk --help-{{building|testing|maintaining|ide|all}}`
 
 - Display version:
 

@@ -14,12 +14,12 @@
 
 - 하나 이상의 AUR 패키지에서 투표 취소:
 
-`aurvote --unvote {{패키지1 패키지2 ...}}`
+`aurvote {{[-u|--unvote]}} {{패키지1 패키지2 ...}}`
 
 - 하나 이상의 AUR 패키지가 이미 투표되었는지 확인:
 
-`aurvote --check {{패키지1 패키지2 ...}}`
+`aurvote {{[-c|--check]}} {{패키지1 패키지2 ...}}`
 
 - 도움말 표시:
 
-`aurvote --help`
+`aurvote {{[-h|--help]}}`

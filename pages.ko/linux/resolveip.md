@@ -13,4 +13,4 @@
 
 - 조용한 모드. 출력량을 줄임:
 
-`resolveip --silent {{example.org}}`
+`resolveip {{[-s|--silent]}} {{example.org}}`

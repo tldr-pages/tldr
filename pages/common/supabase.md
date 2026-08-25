@@ -30,3 +30,7 @@
 - List all Supabase projects:
 
 `supabase projects list`
+
+- Generate the autocompletion script for a specific shell:
+
+`supabase completion {{bash|fish|zsh|...}}`

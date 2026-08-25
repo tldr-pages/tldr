@@ -1,6 +1,6 @@
 # steamos-boot-install
 
-> Tämä on alias komennolle `steamos-finalize-install`.
+> Tämä on alias `steamos-finalize-install` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

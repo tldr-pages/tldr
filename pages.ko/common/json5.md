@@ -13,16 +13,16 @@
 
 - JSON5 파일을 지정된 JSON 파일로 변환:
 
-`json5 {{경로/대상/입력_파일.json5}} --out-file {{경로/대상/출력_파일.json}}`
+`json5 {{경로/대상/입력_파일.json5}} {{[-o|--out-file]}} {{경로/대상/출력_파일.json}}`
 
 - JSON5 파일 유효성 검사:
 
-`json5 {{경로/대상/입력_파일.json5}} --validate`
+`json5 {{경로/대상/입력_파일.json5}} {{[-v|--validate]}}`
 
 - 들여쓰기할 공백 수를 지정 (또는 "t"로 탭 사용):
 
-`json5 --space {{들여쓰기_수량}}`
+`json5 {{[-s|--space]}} {{들여쓰기_수량}}`
 
 - 도움말 표시:
 
-`json5 --help`
+`json5 {{[-h|--help]}}`

@@ -9,16 +9,16 @@
 
 - Dapatkan konten teks dari paragraf pertama:
 
-`cat {{jalan/menuju/berkas.html}} | htmlq --text 'p:first-of-type'`
+`cat {{jalan/menuju/berkas.html}} | htmlq {{[-t|--text]}} 'p:first-of-type'`
 
 - Tampilkan seluruh tautan dalam suatu laman:
 
-`cat {{jalan/menuju/berkas.html}} | htmlq --attribute href 'a'`
+`cat {{jalan/menuju/berkas.html}} | htmlq {{[-a|--attribute]}} href 'a'`
 
 - Hapus seluruh gambar dan elemen SVG dari suatu laman:
 
-`cat {{jalan/menuju/berkas.html}} | htmlq --remove-nodes 'img' --remove-nodes 'svg'`
+`cat {{jalan/menuju/berkas.html}} | htmlq {{[-r|--remove-nodes]}} 'img' {{[-r|--remove-nodes]}} 'svg'`
 
 - Simpan laman input secara cetak-cantik menuju suatu berkas output:
 
-`htmlq --pretty --filename {{jalan/menuju/input.html}} --output {{jalan/menuju/output.html}}`
+`htmlq {{[-p|--pretty]}} {{[-f|--filename]}} {{jalan/menuju/input.html}} {{[-o|--output]}} {{jalan/menuju/output.html}}`

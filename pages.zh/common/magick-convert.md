@@ -18,7 +18,7 @@
 
 - 将图片调整至特定文件大小：
 
-`magick convert {{路径/到/输入图片.png}} -define jpeg:extent=512kb {{路径/到/输出图片.jpg}}`
+`magick convert {{路径/到/输入图片.png}} -define jpeg:extent={{512kb}} {{路径/到/输出图片.jpg}}`
 
 - 水平/竖直地排列图片：
 

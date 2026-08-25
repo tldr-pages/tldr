@@ -9,8 +9,8 @@
 
 - 입력 이미지를 회전할 때 노출되는 배경색 지정:
 
-`pnmrotate -background {{색상}} {{각도}} {{경로/대상/입력.pnm}} > {{경로/대상/출력.pnm}}`
+`pnmrotate {{[-b|-background]}} {{색상}} {{각도}} {{경로/대상/입력.pnm}} > {{경로/대상/출력.pnm}}`
 
 - 성능을 향상시키지만 품질이 감소하는 안티앨리어싱 비활성화:
 
-`pnmrotate -noantialias {{각도}} {{경로/대상/입력.pnm}} > {{경로/대상/출력.pnm}}`
+`pnmrotate {{[-n|-noantialias]}} {{각도}} {{경로/대상/입력.pnm}} > {{경로/대상/출력.pnm}}`

@@ -9,7 +9,7 @@
 
 - 从 `stdin` 中给定的 XML 生成一个 Go 结构体，并将输出发送到文件：
 
-`curl -s {{https://url/to/xml}} | zek -o {{路径/到/输出.go}}`
+`curl {{[-s|--silent]}} {{https://url/to/xml}} | zek -o {{路径/到/输出.go}}`
 
 - 从 `stdin` 中给定的 XML 生成一个示例 Go 程序，并将输出发送到文件：
 

@@ -21,4 +21,4 @@
 
 - Membuka terminal dengan font Serif dengan ukuran font sebesar 20:
 
-`xterm -fa {{'Serif'}} -fs {{20}}`
+`xterm -fa '{{Serif}}' -fs {{20}}`

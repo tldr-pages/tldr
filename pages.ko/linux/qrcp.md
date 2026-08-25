@@ -17,11 +17,11 @@
 
 - 특정 [p]포트 사용:
 
-`qrcp {{send|receive}} --port {{포트_번호}}`
+`qrcp {{send|receive}} {{[-p|--port]}} {{포트_번호}}`
 
 - 특정 네트워크 [i]인터페이스 사용:
 
-`qrcp {{send|receive}} --interface {{인터페이스}}`
+`qrcp {{send|receive}} {{[-i|--interface]}} {{인터페이스}}`
 
 - 서버를 계속 활성 상태로 유지:
 

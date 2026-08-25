@@ -17,7 +17,7 @@
 
 - Format a file using the `.clang-format` file in one of the parent directories of the source file:
 
-`clang-format --style=file {{path/to/file}}`
+`clang-format --style file {{path/to/file}}`
 
 - Generate a custom `.clang-format` file:
 

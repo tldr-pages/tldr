@@ -5,11 +5,11 @@
 
 - 使用密码将一个目录加密为`archive.gpg`：
 
-`gpg-zip --symmetric --output {{archive.gpg}} {{path/to/directory}}`
+`gpg-zip {{[-c|--symmetric]}} {{[-o|--output]}} {{archive.gpg}} {{path/to/directory}}`
 
 - 将`archive.gpg`解密到同名目录中：
 
-`gpg-zip --decrypt {{path/to/archive.gpg}}`
+`gpg-zip {{[-d|--decrypt]}} {{path/to/archive.gpg}}`
 
 - 列出加密的`archive.gpg`的内容：
 

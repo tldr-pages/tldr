@@ -9,4 +9,4 @@
 
 - 디버그 정보를 `stderr`에 출력:
 
-`thinkjettopbm -d {{경로/대상/입력}} > {{경로/대상/출력.pbm}}`
+`thinkjettopbm {{[-d|-debug]}} {{경로/대상/입력}} > {{경로/대상/출력.pbm}}`

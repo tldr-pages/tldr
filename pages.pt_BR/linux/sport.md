@@ -5,7 +5,7 @@
 
 - Puxa a lista de SlackBuilds para rodar `sport` pela primeira vez:
 
-`sudo mkdir -p /usr/ports && sudo rsync -av rsync://slackbuilds.org /slackbuilds/$(awk '{print $2}' /etc/slackware-version)/ /usr/ports/`
+`sudo mkdir {{[-p|--parents]}} /usr/ports && sudo rsync {{[-av|--archive --verbose]}} rsync://slackbuilds.org /slackbuilds/$(awk '{print $2}' /etc/slackware-version)/ /usr/ports/`
 
 - Puxa qualquer atualização para a árvore do sistema via `rsync`:
 

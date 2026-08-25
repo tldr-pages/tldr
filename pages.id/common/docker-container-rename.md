@@ -1,8 +1,12 @@
 # docker container rename
 
-> Perintah ini merupakan alias dari `docker rename`.
+> Ubah nama suatu kontainer.
 > Informasi lebih lanjut: <https://docs.docker.com/reference/cli/docker/container/rename/>.
 
-- Tampilkan dokumentasi untuk perintah asli:
+- Ubah nama suatu kontainer:
 
-`tldr docker rename`
+`docker {{[rename|container rename]}} {{kontainer}} {{nama_baru}}`
+
+- Tampilkan bantuan:
+
+`docker {{[rename|container rename]}} --help`

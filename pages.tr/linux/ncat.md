@@ -14,7 +14,7 @@
 
 - Belirtilen dosyanın çıktısını al ve belirtilen bilgisayardaki belirtilen porta yaz:
 
-`ncat {{bilgisayar}} {{port}} < {{dosya/yolu}}`
+`ncat < {{dosya/yolu}} {{bilgisayar}} {{port}}`
 
 - Trafik içeriğinin tespit edilmesini önleyerek şifreli bir kanalda çoklu bağlantıları kabul edin:
 

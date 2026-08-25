@@ -1,6 +1,6 @@
 # ic
 
-> Tämä on alias komennolle `ibmcloud`.
+> Tämä on alias `ibmcloud` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -1,6 +1,6 @@
 # lzma
 
-> Tämä on alias komennolle `xz --format lzma`.
+> Tämä on alias `xz --format lzma` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -8,6 +8,10 @@
 
 `file {{path/to/file}}`
 
+- Do not print the filepath:
+
+`file {{[-b|--brief]}} {{path/to/file}}`
+
 - Look inside a zipped file and determine the file type(s) inside:
 
 `file {{[-z|--uncompress]}} {{path/to/file.zip}}`

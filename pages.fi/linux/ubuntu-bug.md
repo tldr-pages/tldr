@@ -1,6 +1,6 @@
 # ubuntu-bug
 
-> Tämä on alias komennolle `apport-bug`.
+> Tämä on alias `apport-bug` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

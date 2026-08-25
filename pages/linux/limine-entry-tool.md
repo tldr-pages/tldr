@@ -21,8 +21,8 @@
 
 - Remove an entire OS entry by its name or machine ID:
 
-`limine-entry-tool --remove-os "{{OS_name|machine_id}}"`
+`limine-entry-tool --remove-os "{{os_name|machine_id}}"`
 
 - Add an EFI boot entry for an alternative bootloader (e.g., Windows):
 
-`limine-entry-tool --add-efi "{{EFI_entry_name}}" "{{path/to/loader.efi}}"`
+`limine-entry-tool --add-efi "{{efi_entry_name}}" "{{path/to/loader.efi}}"`

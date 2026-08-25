@@ -10,7 +10,7 @@
 
 - 특정 날짜부터 또는 그 사이에 시작되는 이벤트 표시(예: "내일"과 같은 상대 날짜도 사용):
 
-`gcalcli agenda {{mm/dd}} [{{mm/dd}}]`
+`gcalcli agenda {{mm/dd}} {{mm/dd}}`
 
 - 특정 캘린더의 이벤트 나열:
 

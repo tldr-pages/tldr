@@ -1,6 +1,6 @@
 # zeditor
 
-> Tämä on alias komennolle `zed`.
+> Tämä on alias `zed` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -2,6 +2,6 @@
 
 > Det här kommandot är ett alias för `lstopo-no-graphics`.
 
-- Se dokumentationen för orginalkommandot:
+- Se dokumentationen för originalkommandot:
 
 `tldr lstopo-no-graphics`

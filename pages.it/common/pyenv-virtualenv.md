@@ -5,7 +5,7 @@
 
 - Crea un nuovo ambiente virtuale basato su Python 3.6.6:
 
-`pyenv virtualenv {{3.6.6}} {{virtualenv_name}}`
+`pyenv virtualenv 3.6.6 {{virtualenv_name}}`
 
 - Elenca tutti gli ambienti virtuali esistenti:
 

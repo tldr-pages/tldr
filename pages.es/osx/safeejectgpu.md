@@ -13,16 +13,16 @@
 
 - Lista de aplicaciones que utilizan una GPU:
 
-`SafeEjectGPU gpuid {{GPU_ID}} apps`
+`SafeEjectGPU gpuid {{gpu_id}} apps`
 
 - Obtén el estado de una GPU:
 
-`SafeEjectGPU gpuid {{GPU_ID}} status`
+`SafeEjectGPU gpuid {{gpu_id}} status`
 
 - Expulsa una GPU:
 
-`SafeEjectGPU gpuid {{GPU_ID}} Eject`
+`SafeEjectGPU gpuid {{gpu_id}} Eject`
 
 - Inicia una aplicación en una GPU:
 
-`SafeEjectGPU gpuid {{GPU_ID}} LaunchOnGPU {{ruta/al/App.app}}`
+`SafeEjectGPU gpuid {{gpu_id}} LaunchOnGPU {{ruta/al/App.app}}`

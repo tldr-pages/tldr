@@ -13,4 +13,4 @@
 
 - 특정 린터를 이 실행에서 [E]nable:
 
-`golangci-lint run --enable {{린터}}`
+`golangci-lint run {{[-E|--enable]}} {{린터}}`

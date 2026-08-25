@@ -11,6 +11,10 @@
 
 `git pull {{[-r|--rebase]}}`
 
+- Download changes from a specific remote repository:
+
+`git pull {{remote_name}}`
+
 - Download changes from given remote repository and branch, then merge them into `HEAD`:
 
 `git pull {{remote_name}} {{branch}}`

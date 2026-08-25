@@ -1,6 +1,6 @@
 # rustup install
 
-> Tämä on alias komennolle `rustup toolchain install`.
+> Tämä on alias `rustup toolchain install` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

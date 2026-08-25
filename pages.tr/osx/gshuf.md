@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr {{[-p|--platform]}} coomon shuf`
+`tldr {{[-p|--platform]}} common shuf`

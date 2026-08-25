@@ -23,6 +23,6 @@
 
 `CONFIG -set "dos ems=off"`
 
-- Get property value (stored in %CONFIG%):
+- Get property value (stored in `%CONFIG%`):
 
 `CONFIG -get "cpu core"`

@@ -1,6 +1,6 @@
 # gmd5sum
 
-> Perintah ini merupakan alias dari `md5sum`.
+> Perintah ini merupakan alias dari GNU `md5sum`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 

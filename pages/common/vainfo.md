@@ -1,6 +1,6 @@
 # vainfo
 
-> Display information from VA API driver .
+> Display information from VA API driver.
 > More information: <https://wiki.archlinux.org/title/Hardware_video_acceleration#Verifying_VA-API>.
 
 - Show version and supported entrypoints:

@@ -25,7 +25,7 @@
 
 - 문서를 사람이 읽을 수 있는 JSON 형식으로 `stdout`에 내보내기:
 
-`mongoexport --uri={{몽고DB_URI}} --collection={{컬렉션_이름}} --pretty`
+`mongoexport --uri={{몽고db_uri}} --collection={{컬렉션_이름}} --pretty`
 
 - 도움말 표시:
 

@@ -9,12 +9,12 @@
 
 - Ejecuta una máquina virtual QEMU y almacena el estado en un directorio específico:
 
-`virt-qemu-run --root={{ruta/al/directorio}} {{ruta/a/guest.xml}}`
+`virt-qemu-run {{[-r|--root]}} {{ruta/al/directorio}} {{ruta/a/guest.xml}}`
 
 - Ejecuta una máquina virtual QEMU y muestra información detallada sobre el inicio:
 
-`virt-qemu-run --verbose {{ruta/a/guest.xml}}`
+`virt-qemu-run {{[-v|--verbose]}} {{ruta/a/guest.xml}}`
 
 - Muestra ayuda:
 
-`virt-qemu-run --help`
+`virt-qemu-run {{[-h|--help]}}`

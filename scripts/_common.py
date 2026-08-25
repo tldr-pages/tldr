@@ -247,7 +247,7 @@ def get_locale(path: Path) -> str:
     path (Path): the path to extract the locale.
 
     Returns:
-    str: a POSIX Locale Name in the form of "ll" or "ll_CC" (e.g. "fr" or "pt_BR").
+    str: a language in the form of "ll" or "ll_CC" (e.g. "fr" or "pt_BR").
     """
 
     # compute locale

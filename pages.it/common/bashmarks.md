@@ -1,25 +1,29 @@
 # bashmarks
 
-> Salva e salta a directory comunemente utilizzate usilizzando comandi di un carattere.
+> Salva e salta a directory usate frequentemente con comandi da 1 carattere.
 > Vedi anche: `autojump`.
 > Maggiori informazioni: <https://github.com/huyng/bashmarks#shell-commands>.
 
-- Elenca i segnalibri disponibili:
+- Aggiungi gli alias bashmark alla tua shell:
+
+`source /usr/share/bashmarks/bashmarks.sh`
+
+- Elenca i bookmark disponibili:
 
 `l`
 
-- Salva la directory corrente come segnalibro:
+- Salva la directory corrente come "nome_bookmark":
 
-`s {{nome_segnalibro}}`
+`s {{nome_bookmark}}`
 
-- Vai ad una directory salvata:
+- Vai a una directory bookmarkata:
 
-`g {{nome_segnalibro}}`
+`g {{nome_bookmark}}`
 
-- Lista i contenuti di una directory salvata:
+- Stampa i contenuti di una directory bookmarkata:
 
-`p {{nome_segnalibro}}`
+`p {{nome_bookmark}}`
 
-- Elimina un segnalibro:
+- Elimina un bookmark:
 
-`d {{nome_segnalibro}}`
+`d {{nome_bookmark}}`

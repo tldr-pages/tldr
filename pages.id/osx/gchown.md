@@ -1,6 +1,6 @@
 # gchown
 
-> Perintah ini merupakan alias dari `chown`.
+> Perintah ini merupakan alias dari GNU `chown`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 

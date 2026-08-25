@@ -3,18 +3,22 @@
 > Stampa e concatena file.
 > Maggiori informazioni: <https://manned.org/cat.1posix>.
 
-- Stampa i contenuti di un file su `stdout`:
+- Stampa il contenuto di un file su `stdout`:
 
-`cat {{file}}`
+`cat {{percorso/del/file}}`
 
-- Concatena più file in un unico file:
+- Concatena diversi file in un file di output:
 
-`cat {{file1}} {{file2}} > {{file_finale}}`
+`cat {{percorso/del/file1 percorso/del/file2 ...}} > {{percorso/del/file_di_output}}`
 
-- Aggiungi il contenuto di diversi file alla fine di un file:
+- Aggiunge diversi file a un file di output:
 
-`cat {{file1}} {{file2}} >> {{file_finale}}`
+`cat {{percorso/del/file1 percorso/del/file2 ...}} >> {{percorso/del/file_di_output}}`
 
-- Numera tutte le linee stampate:
+- Copia il contenuto di un file in un file di output senza buffering:
 
-`cat -n {{file}}`
+`cat -u {{/dev/tty12}} > {{/dev/tty13}}`
+
+- Scrive `stdin` in un file:
+
+`cat - > {{percorso/del/file}}`

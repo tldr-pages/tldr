@@ -5,7 +5,7 @@
 
 - 在 `全局` 命名空间中显示环境变量列表：
 
-`settings list {{global}}`
+`settings list global`
 
 - 获取指定环境变量的值：
 

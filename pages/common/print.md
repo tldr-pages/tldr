@@ -6,9 +6,9 @@
 
 `tldr print.zsh`
 
-- View documentation for the `print` alias of `run-mailcap`:
+- View documentation for the `print` alias of `run-mailcap --action=print`:
 
-`tldr {{[-p|--platform]}} linux print.runmailcap`
+`tldr {{[-p|--platform]}} linux run-mailcap`
 
 - View documentation for printing text files on Windows:
 

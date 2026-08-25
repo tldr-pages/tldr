@@ -6,20 +6,20 @@
 
 - Lista las dependencias de un paquete:
 
-`expac -S '%D' {{paquete}}`
+`expac {{[-S|--sync]}} '%D' {{paquete}}`
 
 - Lista las dependencias opcionales de un paquete:
 
-`expac -S "%o" {{paquete}}`
+`expac {{[-S|--sync]}} "%o" {{paquete}}`
 
 - Lista el tamaño de descarga de los paquetes en MiB:
 
-`expac -S -H M '%k\t%n' {{paquete1 paquete2 ...}}`
+`expac {{[-S|--sync]}} {{[-H|--humansize]}} M '%k\t%n' {{paquete1 paquete2 ...}}`
 
 - Lista los paquetes marcados para actualización con su tamaño de descarga:
 
-`expac -S -H M '%k\t%n' $(pacman -Qqu) | sort -sh`
+`expac {{[-S|--sync]}} {{[-H|--humansize]}} M '%k\t%n' $(pacman -Qqu) | sort {{[-sh|--sort --human-numeric-sort]}}`
 
-- Listar los paquetes instalados explícitamente con sus dependencias opcionales:
+- Enumera los paquetes instalados explícitamente con sus dependencias opcionales:
 
-`expac -d '\n\n' -l '\n\t' -Q '%n\n\t%O' $(pacman -Qeq)`
+`expac {{[-d|--delim]}} '\n\n' {{[-l|--listdelim]}} '\n\t' {{[-Q|--query]}} '%n\n\t%O' $(pacman -Qeq)`

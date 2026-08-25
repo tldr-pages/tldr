@@ -31,6 +31,6 @@
 
 `cp {{[-L|--dereference]}} {{link}} {{caminho/para/diretório_destino}}`
 
-- Usa o primeiro argumento como o diretório destino (útil para `xargs ... | cp -t <DIR_DEST>`):
+- Usa o primeiro argumento como o diretório destino (útil para `xargs ... | cp -t destination_directory`):
 
 `cp {{[-t|--target-directory]}} {{caminho/para/diretório_destino}} {{caminho/para/arquivo_ou_diretório1 caminho/para/arquivo_ou_diretório2 ...}}`

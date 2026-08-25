@@ -1,6 +1,6 @@
 # docker rm
 
-> Tämä on alias komennolle `docker container rm`.
+> Tämä on alias `docker container rm` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

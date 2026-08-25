@@ -17,7 +17,7 @@
 
 - 소스 파일의 상위 디렉터리 중 하나에 있는 `.clang-format` 파일을 사용하여 파일 형식을 지정:
 
-`clang-format --style=file {{경로/대상/파일}}`
+`clang-format --style file {{경로/대상/파일}}`
 
 - 사용자 정의 `.clang-format` 파일을 생성:
 

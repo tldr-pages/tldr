@@ -1,6 +1,6 @@
 # aa
 
-> Tämä on alias komennolle `yaa`.
+> Tämä on alias `yaa` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

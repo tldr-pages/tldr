@@ -8,7 +8,7 @@
 
 `ipcs`
 
-- Show information about active shared [m]emory segments, message [q]ueues or [s]empahore sets:
+- Show information about active shared [m]emory segments, message [q]ueues or [s]emaphore sets:
 
 `ipcs {{--shmems|--queues|--semaphores}}`
 

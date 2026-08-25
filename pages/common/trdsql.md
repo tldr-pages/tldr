@@ -7,7 +7,7 @@
 
 `trdsql -ocsv -oh "SELECT * FROM {{path/to/directory/*.json}}" | sed 's/\([^,]*\)/"&"/g' > {{path/to/file.csv}}`
 
-- Interpret JSON list as a table and put objects inside as columns (path/to/file.json: `{"list":[{"age":"26","name":"Tanaka"}]}`):
+- Interpret JSON list as a table and put objects inside as columns (`path/to/file.json: {"list":[{"age":"26","name":"Tanaka"}]}`):
 
 `trdsql "SELECT * FROM {{path/to/file.json}}::.list"`
 
@@ -17,7 +17,7 @@
 
 - Merge content of 2 CSV files to one CSV file:
 
-`trdsql "SELECT {{column1,colum2}} FROM {{path/to/file1.csv}} UNION SELECT {{column1,column2}} FROM {{path/to/file2.csv}}"`
+`trdsql "SELECT {{column1,column2}} FROM {{path/to/file1.csv}} UNION SELECT {{column1,column2}} FROM {{path/to/file2.csv}}"`
 
 - Connect to PostgreSQL database:
 
@@ -25,7 +25,7 @@
 
 - Create table data to MySQL database from CSV file:
 
-`trdsql -driver mysql -dsn "{{username}}:{{password}}@{{hostname}}/{{database}}" -ih "CREATE TABLE {{table}} ({{column1}} int, {{colum2}} varchar(20)) AS SELECT {{column3}} AS {{column1}},{{column2}} FROM {{path/to/header_file.csv}}"`
+`trdsql -driver mysql -dsn "{{username}}:{{password}}@{{hostname}}/{{database}}" -ih "CREATE TABLE {{table}} ({{column1}} int, {{column2}} varchar(20)) AS SELECT {{column3}} AS {{column1}},{{column2}} FROM {{path/to/header_file.csv}}"`
 
 - Show data from compress log files:
 

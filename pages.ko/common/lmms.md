@@ -11,7 +11,7 @@
 
 - GUI 시작 및 외부 구성 파일 로드:
 
-`lmms --config {{경로/대상/config.xml}}`
+`lmms {{[-c|--config]}} {{경로/대상/config.xml}}`
 
 - GUI 시작 및 MIDI 또는 Hydrogen 파일 가져오기:
 
@@ -35,4 +35,4 @@
 
 - 사용자 지정 샘플레이트, 포맷으로 루프 렌더링:
 
-`lmms render --samplerate {{88200}} --format {{ogg}} --loop --output {{경로/대상/출력/파일.ogg}}`
+`lmms render {{[-s|--samplerate]}} {{88200}} {{[-f|--format]}} {{ogg}} {{[-l|--loop]}} {{[-o|--output]}} {{경로/대상/출력/파일.ogg}}`

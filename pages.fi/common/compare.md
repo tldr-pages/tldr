@@ -1,6 +1,6 @@
 # compare
 
-> Tämä on alias komennolle `magick compare`.
+> Tämä on alias `magick compare` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

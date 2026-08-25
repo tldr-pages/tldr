@@ -1,6 +1,6 @@
 # ncal
 
-> Tämä on alias komennolle `cal`.
+> Tämä on alias `cal` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

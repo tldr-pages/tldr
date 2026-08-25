@@ -1,6 +1,6 @@
 # git continue
 
-> Tämä on alias komennolle `git abort`.
+> Tämä on alias `git abort` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

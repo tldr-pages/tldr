@@ -1,6 +1,6 @@
 # impacket-mqtt_check
 
-> Tämä on alias komennolle `mqtt_check.py`.
+> Tämä on alias `mqtt_check.py` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

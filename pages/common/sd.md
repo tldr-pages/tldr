@@ -15,6 +15,6 @@
 
 `sd {{[-p|--preview]}} '{{window.fetch}}' '{{fetch}}' {{path/to/file.js}}`
 
-- Find and replace in all files in the current project (output stream: `stdout`):
+- Find and replace in all files in the current project:
 
-`sd '{{from "react"}}' '{{from "preact"}}' "$(find . -type f)"`
+`find . -type f -exec sd '{{from "react"}}' '{{from "preact"}}' {} \;`

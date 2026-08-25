@@ -1,6 +1,6 @@
 # typeset
 
-> Tämä on alias komennolle `declare`.
+> Tämä on alias `declare` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -8,30 +8,30 @@
 
 `sudo dmesg`
 
+- Toon kernelberichten in een leesbare formaat (gelijk aan `dmesg --color --reltime` doorgestuurd naar een pager):
+
+`sudo dmesg {{[-H|--human]}}`
+
 - Toon kernel foutmeldingen:
 
 `sudo dmesg {{[-l|--level]}} err`
 
-- Toon kernelberichten en blijf nieuwe lezen, vergelijkbaar met `tail -f` (beschikbaar in kernels 3.5.0 en nieuwer):
+- Toon kernelberichten en blijf nieuwe lezen, vergelijkbaar met `tail -f`:
 
 `sudo dmesg {{[-w|--follow]}}`
 
-- Toon hoeveel fysiek geheugen beschikbaar is op dit systeem:
+- Toon kernelberichten die in het afgelopen uur zijn verzonden:
 
-`sudo dmesg | grep {{[-i|--ignore-case]}} memory`
+`sudo dmesg --since "1 hour ago"`
 
-- Toon kernelberichten 1 pagina per keer:
+- Toon kernelberichten met tijdstempels als verschillen ten opzichte van de lokale tijd:
 
-`sudo dmesg | less`
+`sudo dmesg {{[-e|--reltime]}}`
 
-- Toon kernelberichten met een tijdstempel (beschikbaar in kernels 3.5.0 en nieuwer):
+- Toon kernelberichten met een tijdstempel voor elk bericht:
 
 `sudo dmesg {{[-T|--ctime]}}`
 
-- Toon kernelberichten in een leesbare vorm (beschikbaar in kernels 3.5.0 en nieuwer):
-
-`sudo dmesg {{[-H|--human]}}`
-
-- Kleur output (beschikbaar in kernels 3.5.0 en nieuwer):
+- Kleur output:
 
 `sudo dmesg {{[-L|--color]}}`

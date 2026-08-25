@@ -6,8 +6,8 @@
 
 - 모든 볼륨 그룹의 논리 볼륨 활성화 상태 변경:
 
-`sudo vgchange --activate {{y|n}}`
+`sudo vgchange {{[-a|--activate]}} {{y|n}}`
 
 - 지정된 볼륨 그룹의 논리 볼륨 활성화 상태 변경 (`vgscan`으로 확인 가능):
 
-`sudo vgchange --activate {{y|n}} {{볼륨_그룹}}`
+`sudo vgchange {{[-a|--activate]}} {{y|n}} {{볼륨_그룹}}`

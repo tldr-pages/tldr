@@ -18,15 +18,15 @@
 
 - 등록된 키 나열:
 
-`mokutil --list-enrolled`
+`mokutil {{[-l|--list-enrolled]}}`
 
 - 새 키 등록:
 
-`mokutil --import {{경로/대상/키.der}}`
+`mokutil {{[-i|--import]}} {{경로/대상/키.der}}`
 
 - 등록될 키 나열:
 
-`mokutil --list-new`
+`mokutil {{[-N|--list-new]}}`
 
 - shim 자세히 설정:
 

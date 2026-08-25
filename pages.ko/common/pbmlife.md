@@ -9,4 +9,4 @@
 
 - 버전 표시:
 
-`pbmlife -version`
+`pbmlife {{[-v|-version]}}`

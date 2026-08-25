@@ -14,7 +14,7 @@
 
 - 장치에 대해 자세한 정보 표시(자세한 정보 지원 장치만):
 
-`sudo tlp-stat --verbose --{{battery|processor|pcie|usb}}`
+`sudo tlp-stat {{[-v|--verbose]}} --{{battery|processor|pcie|usb}}`
 
 - 구성 표시:
 

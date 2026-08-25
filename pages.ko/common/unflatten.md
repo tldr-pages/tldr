@@ -6,7 +6,7 @@
 
 - 하나 이상의 방향 그래프를 조정하여 레이아웃 가로 세로 비율을 개선:
 
-`unflatten {{경로/대상/input1.gv}} {{경로/대상/input2.gv ...}} > {{경로/대상/output.gv}}`
+`unflatten {{경로/대상/input1.gv 경로/대상/input2.gv ...}} > {{경로/대상/output.gv}}`
 
 - `unflatten`을 `dot` 레이아웃 전처리기로 사용하여 가로 세로 비율 개선:
 

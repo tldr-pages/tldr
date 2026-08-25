@@ -10,11 +10,11 @@
 
 - /usr/local 아래의 모든 파일과 디렉터리를 나열, 그래프([g]raph)에 상대 파일 크기를 표시:
 
-`duc ls -Fg {{/usr/local}}`
+`duc ls {{[-Fg|--classify --graph]}} {{/usr/local}}`
 
 - treeview를 반복적으로 사용해 /usr/local 아래의 모든 파일과 디렉터리를 나열:
 
-`duc ls -Fg -R {{/usr/local}}`
+`duc ls {{[-Fg|--classify --graph]}} {{[-R|--recursive]}} {{/usr/local}}`
 
 - sunburst 그래프를 사용하여 파일 시스템을 탐색하려면, 그래픽 인터페이스를 시작:
 

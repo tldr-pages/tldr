@@ -14,12 +14,12 @@
 
 - 为一个或多个 AUR 包取消投票：
 
-`aurvote --unvote {{package1 package2 ...}}`
+`aurvote {{[-u|--unvote]}} {{package1 package2 ...}}`
 
 - 检查一个或多个 AUR 包是否已投票：
 
-`aurvote --check {{package1 package2 ...}}`
+`aurvote {{[-c|--check]}} {{package1 package2 ...}}`
 
 - 查看 `aurvote` 的帮助信息：
 
-`aurvote --help`
+`aurvote {{[-h|--help]}}`

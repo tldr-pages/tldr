@@ -1,6 +1,6 @@
 # docker logs
 
-> Tämä on alias komennolle `docker container logs`.
+> Tämä on alias `docker container logs` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

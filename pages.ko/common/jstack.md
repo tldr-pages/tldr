@@ -5,11 +5,11 @@
 
 - Java 프로세스의 모든 스레드에 대한 Java 스택 추적 출력:
 
-`jstack {{자바_PID}}`
+`jstack {{자바_pid}}`
 
 - Java 프로세스의 모든 스레드에 대한 혼합 모드(Java/C++) 스택 추적 출력:
 
-`jstack -m {{자바_PID}}`
+`jstack -m {{자바_pid}}`
 
 - Java 코어 덤프에서 스택 추적 출력:
 

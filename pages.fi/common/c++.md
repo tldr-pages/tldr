@@ -1,6 +1,6 @@
 # c++
 
-> Tämä on alias komennolle `g++`.
+> Tämä on alias `g++` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

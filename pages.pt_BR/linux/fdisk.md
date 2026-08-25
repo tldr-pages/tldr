@@ -6,7 +6,7 @@
 
 - Lista partições:
 
-`sudo fdisk -l`
+`sudo fdisk {{[-l|--list]}}`
 
 - Inicia o manipulador de partições:
 

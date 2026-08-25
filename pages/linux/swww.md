@@ -1,24 +1,7 @@
 # swww
 
-> Efficient animated wallpaper daemon for Wayland.
-> More information: <https://github.com/LGFae/swww#usage>.
+> This command has been renamed to `awww`.
 
-- Set wallpaper:
+- View documentation for the command under its current name:
 
-`swww img {{path/to/image}}`
-
-- Set wallpaper to specified outputs:
-
-`swww img {{[-o|--outputs]}} {{output1,output2,...}} {{path/to/image}}`
-
-- Restore last wallpaper:
-
-`swww restore`
-
-- Kill daemon:
-
-`swww kill`
-
-- Display output information:
-
-`swww query`
+`tldr awww`

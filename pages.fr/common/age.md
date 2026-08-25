@@ -1,29 +1,25 @@
 # age
 
-> Un outil de cryptage de fichiers simple, moderne et sécurisé.
-> Voir aussi : `age-keygen`.
+> Un outil de chiffrement de fichiers simple, moderne et sécurisé.
+> Voir aussi : `age-keygen`, `age-inspect`.
 > Plus d'informations : <https://github.com/FiloSottile/age#usage>.
 
-- Générez un fichier crypté qui peut être décrypté avec une mot de passe :
+- Génère un fichier chiffré déchiffrable avec une phrase de passe :
 
-`age --passphrase --output {{chemin/vers/fichier_crypté}} {{chemin/vers/fichier_non_crypté}}`
+`age {{[-p|--passphrase]}} {{[-o|--output]}} {{chemin/vers/fichier_chiffré.age}} {{chemin/vers/fichier_non_chiffré}}`
 
-- Générer une paire de clés, en enregistrant la clé privée dans un fichier non crypté et en imprimant la clé publique sur `stdout` :
+- Chiffre un fichier avec une ou plusieurs clés publiques entrées comme des littéraux (répéter `--recipient` pour plusieurs clés) :
 
-`age-keygen --output {{chemin/vers/fichier}}`
+`age {{[-r|--recipient]}} {{clé_publique}} {{[-o|--output]}} {{chemin/vers/fichier_chiffré.age}} {{chemin/vers/fichier_non_chiffré}}`
 
-- Cryptage d'un fichier avec une ou plusieurs clés publiques qui sont entrées comme des littéraux :
+- Chiffre un fichier avec les clés publiques spécifiées dans un fichier de destinataires (une par ligne) :
 
-`age --recipient {{clé_publique_1}} --recipient {{clé_publique_2}} {{chemin/vers/fichier_non_crypté}} --output {{chemin/vers/fichier_crypté}}`
+`age {{[-R|--recipients-file]}} {{chemin/vers/fichier_destinataires.txt}} {{[-o|--output]}} {{chemin/vers/fichier_chiffré.age}} {{chemin/vers/fichier_non_chiffré}}`
 
-- Cryptez un fichier avec une ou plusieurs clés publiques spécifiées dans un fichier de destinataires :
+- Déchiffre un fichier avec une phrase de passe :
 
-`age --recipients-file {{chemin/vers/fichier_destinataire}} {{chemin/vers/fichier_non_crypté}} --output {{chemin/vers/fichier_crypté}}`
+`age {{[-d|--decrypt]}} {{[-o|--output]}} {{chemin/vers/fichier_déchiffré}} {{chemin/vers/fichier_chiffré.age}}`
 
-- Déchiffrer un fichier avec un mot de passe :
+- Déchiffre un fichier avec un fichier de clé privée :
 
-`age --decrypt --output {{chemin/vers/fichier_décrypté}} {{chemin/vers/fichier_crypté}}`
-
-- Decrypt a file with a private key file :
-
-`age --decrypt --identity {{chemin/vers/fichier_clé_privée}} --output {{chemin/vers/fichier_décrypté}} {{chemin/vers/fichier_crypté}}`
+`age {{[-d|--decrypt]}} {{[-i|--identity]}} {{chemin/vers/fichier_clé_privée}} {{[-o|--output]}} {{chemin/vers/fichier_déchiffré}} {{chemin/vers/fichier_chiffré.age}}`

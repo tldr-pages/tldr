@@ -21,6 +21,10 @@
 
 `magick {{pad/naar/invoer_afbeelding.png}} -define jpeg:extent={{512kb}} {{pad/naar/uitvoer_afbeelding.png}}`
 
+- Voeg afbeeldingen verticaal/horizontaal toe en maak de lege ruimte transparant:
+
+`magick convert -background none {{pad/naar/afbeelding1.png pad/naar/afbeelding2.png ...}} {{-append|+append}} {{pad/naar/uitvoer_afbeelding.png}}`
+
 - Maak een GIF van alle JPEG-afbeeldingen uit de huidige map:
 
 `magick {{*.jpg}} {{pad/naar/uitvoer_afbeelding.gif}}`

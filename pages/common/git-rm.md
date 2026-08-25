@@ -14,3 +14,7 @@
 - Remove file from repository index but keep it untouched locally:
 
 `git rm --cached {{path/to/file}}`
+
+- Reduce the repository to only the `.git` directory:
+
+`git rm -r .`

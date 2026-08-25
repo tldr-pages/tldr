@@ -10,8 +10,8 @@
 
 - 특정 이벤트에 대한 세부 정보 보기:
 
-`linode-cli events view {{이벤트_ID}}`
+`linode-cli events view {{이벤트_id}}`
 
 - 이벤트를 읽은 것으로 표시:
 
-`linode-cli events mark-read {{이벤트_ID}}`
+`linode-cli events mark-read {{이벤트_id}}`

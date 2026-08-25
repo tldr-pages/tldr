@@ -5,7 +5,7 @@
 
 - `global` isim alanındaki ayarların sırasını görüntüle:
 
-`settings list {{global}}`
+`settings list global`
 
 - Belirtilen ayarın değerini al:
 

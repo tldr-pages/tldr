@@ -19,6 +19,6 @@
 
 `theHarvester --domain {{nombre_de_dominio}} --source {{google}} --file {{nombre_de_archivo_de_salida}}`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `theHarvester --help`

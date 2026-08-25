@@ -5,7 +5,7 @@
 
 - 현재 디레터리를 저장소로 사용하고, SFTP 저장소를 초기화하고, 저장소를 비밀번호로 암호화:
 
-`duplicacy init -e {{snapshot_id}} {{sftp://user@192.168.2.100/path/to/storage/}}`
+`duplicacy init {{[-e|-encrypt]}} {{snapshot_id}} {{sftp://user@192.168.2.100/path/to/storage}}/`
 
 - 저장소의 스냅샷을 기본 저장소에 저장:
 

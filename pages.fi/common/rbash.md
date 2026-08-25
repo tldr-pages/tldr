@@ -1,6 +1,6 @@
 # rbash
 
-> Tämä on alias komennolle `bash --restricted`.
+> Tämä on alias `bash --restricted` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

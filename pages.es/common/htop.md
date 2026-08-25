@@ -1,6 +1,7 @@
 # htop
 
-> Muestra información dinámica en tiempo real sobre los procesos ejecutándose. Una versión mejorada de `top`.
+> Muestra información dinámica en tiempo real sobre los procesos ejecutándose.
+> Una versión mejorada de `top`.
 > Vea también: `top`, `atop`, `glances`, `btop`, `btm`.
 > Más información: <https://manned.org/htop>.
 
@@ -16,7 +17,7 @@
 
 `htop {{[-t|--tree]}}`
 
-- Ordena procesos especificando un `criterio_de_ordenamiento` (usa `htop --sort help` para ver las opciones disponibles):
+- Ordena procesos especificando un `criterio_de_ordenamiento` (use `htop --sort help` para ver las opciones disponibles):
 
 `htop {{[-s|--sort]}} {{criterio_de_ordenamiento}}`
 
@@ -24,14 +25,14 @@
 
 `htop {{[-d|--delay]}} {{50}}`
 
+- Desactiva todas las funciones que modifican el sistema y los procesos:
+
+`htop --readonly`
+
 - Muestra comandos interactivos mientras se está ejecutando `htop`:
 
-`<?>`
+`{{<F1>|<?>}}`
 
 - Cambia a otro panel:
 
 `<Tab>`
-
-- Muestra la ayuda:
-
-`htop {{[-h|--help]}}`

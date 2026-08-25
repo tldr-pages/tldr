@@ -6,12 +6,12 @@
 
 - Stwórz losowy UUIDv4:
 
-`uuidgen --random`
+`uuidgen {{[-r|--random]}}`
 
 - Stwórz UUIDv1 oparty o aktualny czas:
 
-`uuidgen --time`
+`uuidgen {{[-t|--time]}}`
 
 - Stwórz UUIDv5 z nazwy i prefiksu przestrzeni nazw:
 
-`uuidgen --sha1 --namespace {{@dns|@url|@oid|@x500}} --name {{nazwa_obiektu}}`
+`uuidgen {{[-s|--sha1]}} {{[-n|--namespace]}} {{@dns|@url|@oid|@x500}} {{[-N|--name]}} {{nazwa_obiektu}}`

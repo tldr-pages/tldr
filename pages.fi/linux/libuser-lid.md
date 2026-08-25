@@ -1,6 +1,6 @@
 # libuser-lid
 
-> Tämä on alias komennolle `lid`.
+> Tämä on alias `lid` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -1,6 +1,6 @@
 # impacket-ticketConverter
 
-> Tämä on alias komennolle `ticketConverter.py`.
+> Tämä on alias `ticketConverter.py` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

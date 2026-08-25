@@ -22,8 +22,8 @@
 
 - Enumera los contenidos de un archivo específico sin extraerlos:
 
-`unzip -l {{ruta/al/archivo.zip}}`
+`unzip -l {{ruta/al/archivo}}.zip`
 
 - Extrae un archivo específico de un archivo:
 
-`unzip -j {{ruta/al/archivo.zip}} {{ruta/al/archivo1_en_archivo ruta/al/archivo2_en_archivo ...}}`
+`unzip -j {{ruta/al/archivo}}.zip {{ruta/al/archivo1_en_archivo ruta/al/archivo2_en_archivo ...}}`

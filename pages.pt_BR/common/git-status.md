@@ -16,10 +16,6 @@
 
 `git status {{[-vv|--verbose --verbose]}}`
 
-- Mostra informações da branch e de rastreamento:
-
-`git status {{[-b|--branch]}}`
-
 - Mostra a saída em formato curto junto com as informações da branch:
 
 `git status {{[-sb|--short --branch]}}`

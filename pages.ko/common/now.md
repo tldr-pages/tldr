@@ -14,11 +14,11 @@
 
 - 배포와 관련된 정보 표시:
 
-`now inspect {{배포_URL}}`
+`now inspect {{배포_url}}`
 
 - 배포 제거:
 
-`now remove {{배포_ID}}`
+`now remove {{배포_id}}`
 
 - 계정에 로그인하거나 새 계정 생성:
 

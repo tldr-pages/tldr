@@ -19,15 +19,15 @@
 
 - 폼으로 인코딩된 데이터([d]ata) 전송 (POST 요청의 타입, `application/x-www-form-urlencoded`). `stdin`으로 부터 읽으려면 `--data @file_name` 이나 `--data @'-'`를 사용:
 
-`curl {{[-X|--request]}} POST {{[-d|--data]}} {{'name=bob'}} {{http://example.com/form}}`
+`curl {{[-X|--request]}} POST {{[-d|--data]}} '{{name=bob}}' {{http://example.com/form}}`
 
 - 추가 헤더를 포함하여 요청을 전송하고, 사용자 지정 HTTP 메소드를 사용한 후 프록시(pro[x]y)를 통해 전송하고 (예: BurpSuite), 신뢰할 수 없는 자체 서명 인증서를 무시:
 
-`curl {{[-k|--insecure]}} {{[-x|--proxy]}} {{http://127.0.0.1:8080}} {{[-H|--header]}} {{'Authorization: Bearer token'}} {{[-X|--request]}} {{GET|PUT|POST|DELETE|PATCH|...}} {{https://example.com}}`
+`curl {{[-k|--insecure]}} {{[-x|--proxy]}} {{http://127.0.0.1:8080}} {{[-H|--header]}} '{{Authorization: Bearer token}}' {{[-X|--request]}} {{GET|PUT|POST|DELETE|PATCH|...}} {{https://example.com}}`
 
 - 적절한 컨텐츠 유형 헤더([H]eader)를 지정하여 JSON 포맷으로 데이터 전송:
 
-`curl {{[-d|--data]}} {{'{"name":"bob"}'}} {{[-H|--header]}} {{'Content-Type: application/json'}} {{http://example.com/users/123}}`
+`curl {{[-d|--data]}} '{{{"name":"bob"}}}' {{[-H|--header]}} '{{Content-Type: application/json}}' {{http://example.com/users/123}}`
 
 - 리소스에 대한 클라이언트 인증서 및 키 전달, 인증서 유효성 검사 생략:
 

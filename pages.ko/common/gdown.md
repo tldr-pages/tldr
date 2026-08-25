@@ -17,8 +17,8 @@
 
 - 해당 ID 또는 전체 URL을 사용하여 폴더를 다운로드:
 
-`gdown {{폴더_아이디|주소}} -O {{경로/대상/출력_디렉토리}} --folder`
+`gdown {{폴더_아이디|주소}} {{[-O|--output]}} {{경로/대상/출력_디렉토리}} --folder`
 
 - `.tar` 아카이브를 다운로드하고, `stdout`에 쓴 후 추출:
 
-`gdown {{tar압축파일_주소}} -O - --quiet | tar xvf -`
+`gdown {{tar압축파일_주소}} {{[-O|--output]}} - {{[-q|--quiet]}} | tar xvf -`

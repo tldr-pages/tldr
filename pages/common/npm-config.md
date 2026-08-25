@@ -23,7 +23,7 @@
 
 `npm {{[c|config]}} delete {{key}}`
 
-- Edit the global npm configuration file in the default editor:
+- Edit the npm configuration file in the default editor (use the `--global` flag to edit the global config):
 
 `npm {{[c|config]}} edit`
 

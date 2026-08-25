@@ -17,7 +17,7 @@
 
 - Display useful information about CPU every 1 second, without header information:
 
-`sudo turbostat --quiet {{[-i|--interval]}} 1 --cpu 0-{{CPU_thread_count}} --show "PkgWatt","Busy%","Core","CoreTmp","Thermal"`
+`sudo turbostat --quiet {{[-i|--interval]}} 1 --cpu 0-{{cpu_thread_count}} --show "PkgWatt","Busy%","Core","CoreTmp","Thermal"`
 
 - Display help:
 

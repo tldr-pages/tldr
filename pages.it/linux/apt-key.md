@@ -21,4 +21,4 @@
 
 - Aggiunge una chiave da un server di chiavi con il solo ID della chiave:
 
-`apt-key adv --keyserver {{pgp.mit.edu}} --recv {{ID_DELLA_CHIAVE}}`
+`apt-key adv --keyserver {{pgp.mit.edu}} --recv {{id_della_chiave}}`

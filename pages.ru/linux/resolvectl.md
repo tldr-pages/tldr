@@ -7,7 +7,7 @@
 
 - Показать настройки DNS:
 
-`resolvectl status`
+`resolvectl`
 
 - Разрешить IPv4- и IPv6-адреса для одного или нескольких доменов:
 
@@ -27,7 +27,7 @@
 
 - Получить MX-запись домена:
 
-`resolvectl --legend {{no}} {{[-t|--type]}} {{MX}} query {{домен}}`
+`resolvectl --legend {{no}} {{[-t|--type]}} MX query {{домен}}`
 
 - Разрешить SRV-запись, например _xmpp-server._tcp gmail.com:
 

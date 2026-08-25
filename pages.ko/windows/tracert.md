@@ -5,23 +5,23 @@
 
 - 경로 추적:
 
-`tracert {{IP}}`
+`tracert {{ip}}`
 
 - `tracert`가 IP 주소를 호스트 이름으로 확인하지 않도록 방지:
 
-`tracert /d {{IP}}`
+`tracert /d {{ip}}`
 
 - `tracert`가 IPv4만 사용하도록 강제:
 
-`tracert /4 {{IP}}`
+`tracert /4 {{ip}}`
 
 - `tracert`가 IPv6만 사용하도록 강제:
 
-`tracert /6 {{IP}}`
+`tracert /6 {{ip}}`
 
 - 대상을 찾기 위한 검색에서 최대 홉 수 지정:
 
-`tracert /h {{최대_홉_수}} {{IP}}`
+`tracert /h {{최대_홉_수}} {{ip}}`
 
 - 도움말 표시:
 

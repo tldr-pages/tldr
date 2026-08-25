@@ -7,10 +7,10 @@
 
 `hcloud`
 
-- 도움말 표시:
-
-`hcloud -h`
-
 - `hcloud` 컨텍스트에 사용 가능한 명령과 플래그를 표시:
 
 `hcloud context`
+
+- 도움말 표시:
+
+`hcloud -h`

@@ -1,6 +1,6 @@
 # bun rm
 
-> Tämä on alias komennolle `bun remove`.
+> Tämä on alias `bun remove` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

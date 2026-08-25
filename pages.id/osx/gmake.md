@@ -1,6 +1,6 @@
 # gmake
 
-> Perintah ini merupakan alias dari `make`.
+> Perintah ini merupakan alias dari GNU `make`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 

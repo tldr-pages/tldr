@@ -10,7 +10,7 @@
 
 - 下载 `package.json` 中列出的所有依赖包：
 
-`pnpm install`
+`pnpm {{[i|install]}}`
 
 - 下载指定版本的包并添加至 `package.json` 的依赖列表：
 
@@ -18,20 +18,20 @@
 
 - 下载包并添加至 `package.json` 的开发依赖列表：
 
-`pnpm add {{[-D|--save-dev]}} {{模块名}}`
+`pnpm add {{模块名}} {{[-D|--save-dev]}}`
 
 - 下载并全局安装包：
 
-`pnpm add {{[-g|--global]}} {{模块名}}`
+`pnpm add {{模块名}} {{[-g|--global]}}`
 
 - 卸载包并将其从 `package.json` 的依赖列表删除：
 
-`pnpm remove {{模块名}}`
+`pnpm {{[rm|remove]}} {{模块名}}`
 
 - 打印本地安装的模块树：
 
-`pnpm list`
+`pnpm {{[ls|list]}}`
 
 - 列出顶级全局安装的模块：
 
-`pnpm list {{[-g|--global]}} --depth {{0}}`
+`pnpm {{[ls|list]}} {{[-g|--global]}} --depth {{0}}`

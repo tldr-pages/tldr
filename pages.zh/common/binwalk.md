@@ -13,7 +13,7 @@
 
 - 递归解压一个二进制文件并限制递归深度为 2：
 
-`binwalk {{[-e|--extract]}} {{[-M|--matryoshka]}} {{[-d|--depth]}} {{2}} {{二进制文件}}`
+`binwalk {{[-e|--extract]}} {{[-M|--matryoshka]}} {{[-d|--depth]}} 2 {{二进制文件}}`
 
 - 解压一个二进制文件并指定文件签名：
 

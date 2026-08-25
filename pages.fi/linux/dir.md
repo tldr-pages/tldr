@@ -1,6 +1,6 @@
 # dir
 
-> Tämä on alias komennolle `ls -C --escape`.
+> Tämä on alias `ls -C --escape` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -9,7 +9,7 @@
 
 - Conecta a um servidor FTP especificando o endereço de IP e porta:
 
-`ftp {{endereço_IP}} {{porta}}`
+`ftp {{endereço_ip}} {{porta}}`
 
 - Alterna para o modo de transferência binária (gráficos, arquivos compactados, etc):
 

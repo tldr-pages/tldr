@@ -5,4 +5,4 @@
 
 - `build_id`를 기반으로 데이터 요청:
 
-`debuginfod-find -vv debuginfo {{빌드_ID}}`
+`debuginfod-find -vv debuginfo {{빌드_id}}`

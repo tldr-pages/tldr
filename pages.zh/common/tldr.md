@@ -28,9 +28,9 @@
 
 `tldr {{[-l|--list]}}`
 
-- 列出某个命令的所有可用子命令页面：
+- 在终端窗口中浏览 tldr 页面（需要有 `fzf`）：
 
-`tldr {{[-l|--list]}} | grep {{命令}} | column`
+`tldr {{[-l|--list]}} | fzf --preview "tldr {1} --color=always" --preview-window=right,70% | xargs tldr`
 
 - 打印随机命令的 tldr 页面：
 

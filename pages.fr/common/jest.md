@@ -13,7 +13,7 @@
 
 - Exécuter les suites de test pour des fichiers, dans le répertoire courant et ses sous-répertoires, dont le chemin correspond à l'expression régulière indiquée :
 
-`jest {{expression_régulière}} {{expression_régulière}}`
+`jest {{expression_régulière expression_régulière ...}}`
 
 - Exécuter les tests dont les noms correspondent aux expressions régulières indiquées :
 

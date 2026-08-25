@@ -1,6 +1,6 @@
 # podman image load
 
-> Tämä on alias komennolle `podman load`.
+> Tämä on alias `podman load` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

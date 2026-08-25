@@ -1,6 +1,6 @@
 # crane cp
 
-> Tämä on alias komennolle `crane copy`.
+> Tämä on alias `crane copy` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

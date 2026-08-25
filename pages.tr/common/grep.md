@@ -1,7 +1,7 @@
 # grep
 
 > Düzenli ifadeler (`regex`) kullanarak dosyalardaki kalıpları bul.
-> Ayrıca bakınız: `regex`.
+> Ayrıca bakınız: `rg`, `regex`.
 > Daha fazla bilgi için: <https://www.gnu.org/software/grep/manual/grep.html>.
 
 - Bir dosya içinde kalıp ara:

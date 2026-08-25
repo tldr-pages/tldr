@@ -10,7 +10,7 @@
 
 - Inicia la reproducción de música:
 
-`clementine {{URL|ruta/a/música.ext}}`
+`clementine {{url|ruta/a/música.ext}}`
 
 - Alterna entre pausa y reproducción:
 
@@ -26,7 +26,7 @@
 
 - Crea una nueva lista de reproducción con uno o varios archivos de música o URLs:
 
-`clementine {{[-c|--create]}} {{URL1|ruta/a/música1.ext URL2|ruta/a/música2.ext ...}}`
+`clementine {{[-c|--create]}} {{url1|ruta/a/música1.ext url2|ruta/a/música2.ext ...}}`
 
 - Carga un archivo de lista de reproducción:
 

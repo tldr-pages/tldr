@@ -14,20 +14,20 @@
 
 - 30개 디렉터리 표시 (기본값은 21):
 
-`dust --number-of-lines {{30}}`
+`dust {{[-n|--number-of-lines]}} 30`
 
 - 현재 디렉토리에 대한 정보를, 최대 3단계까지 표시:
 
-`dust --depth {{3}}`
+`dust {{[-d|--depth]}} 3`
 
 - 가장 큰 디렉토리를 내림차순으로 맨 위에 표시:
 
-`dust --reverse`
+`dust {{[-r|--reverse]}}`
 
 - 특정 이름을 가진 모든 파일과 디렉터리를 무시:
 
-`dust --ignore-directory {{파일_또는_디렉터리_이름}}`
+`dust {{[-X|--ignore-directory]}} {{파일_또는_디렉터리_이름}}`
 
 - 백분율 막대 및 백분율을 표시하지 않음:
 
-`dust --no-percent-bars`
+`dust {{[-b|--no-percent-bars]}}`

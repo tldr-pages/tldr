@@ -1,6 +1,7 @@
 # steamos-select-branch
 
 > Select a SteamOS system release branch.
+> Note: This command is deprecated, use `atomupd-manager` instead.
 > More information: <https://gitlab.com/users/evlaV/projects>.
 
 - View the current branch:

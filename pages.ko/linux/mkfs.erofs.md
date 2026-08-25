@@ -9,7 +9,7 @@
 
 - 특정 UUID를 가진 EROFS 이미지 생성:
 
-`mkfs.erofs -U {{UUID}} image.erofs root/`
+`mkfs.erofs -U {{uuid}} image.erofs root/`
 
 - 압축된 EROFS 이미지 생성:
 

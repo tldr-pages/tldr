@@ -11,4 +11,4 @@
 
 - 도움말 표시:
 
-`switch_root -h`
+`switch_root {{[-h|--help]}}`

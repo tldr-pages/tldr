@@ -1,6 +1,6 @@
 # pacman -T
 
-> Tämä on alias komennolle `pacman --deptest`.
+> Tämä on alias `pacman --deptest` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

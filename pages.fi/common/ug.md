@@ -1,6 +1,6 @@
 # ug
 
-> Tämä on alias komennolle `ugrep --config --pretty --sort`.
+> Tämä on alias `ugrep --config --pretty --sort` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

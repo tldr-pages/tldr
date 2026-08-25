@@ -13,7 +13,7 @@
 
 - Set an APT configuration option:
 
-`gdebi {{path/to/package.deb}} {{[-o|--option]}} {{APT_OPTS}}`
+`gdebi {{path/to/package.deb}} {{[-o|--option]}} {{apt_options}}`
 
 - Use alternative root dir:
 

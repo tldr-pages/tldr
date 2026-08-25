@@ -9,7 +9,7 @@
 
 - 전체 화면 창으로 시작:
 
-`terminator -f`
+`terminator {{[-f|--fullscreen]}}`
 
 - 터미널을 가로로 분할:
 

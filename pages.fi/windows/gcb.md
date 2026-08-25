@@ -1,6 +1,6 @@
 # gcb
 
-> Tämä on alias komennolle `Get-Clipboard`.
+> Tämä on alias `Get-Clipboard` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -6,7 +6,7 @@
 
 - 파티션 나열:
 
-`sudo fdisk -l`
+`sudo fdisk {{[-l|--list]}}`
 
 - 파티션 조작기 시작:
 

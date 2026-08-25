@@ -10,7 +10,7 @@
 
 - Liste uniquement les paquets installés explicitement :
 
-`pacman -Qe`
+`pacman -Qeq`
 
 - Trouve le paquet propriétaire d'un fichier :
 

@@ -2,6 +2,6 @@
 
 > Det här kommandot är ett alias för `mqtt_check.py`.
 
-- Se dokumentationen för orginalkommandot:
+- Se dokumentationen för originalkommandot:
 
 `tldr mqtt_check.py`

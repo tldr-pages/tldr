@@ -17,11 +17,11 @@
 
 - Aggiunge un volume fisico tramite il suo PVID:
 
-`sudo lvmdevices --addpvid {{PVID}}`
+`sudo lvmdevices --addpvid {{pvid}}`
 
 - Rimuove un volume fisico tramite il suo PVID:
 
-`sudo lvmdevices --delpvid {{PVID}}`
+`sudo lvmdevices --delpvid {{pvid}}`
 
 - Aggiorna il file dei dispositivi dopo il cambio di nomi dei dispositivi:
 

@@ -2,7 +2,7 @@
 
 > Muestra información del sistema sobre la CPU, la memoria, los discos, la red y los procesos.
 > Una alternativa mejorada a `top`.
-> Vea también: `btop`, `glances`, `atop`, `htop`, `top`.
+> Vea también: `btop`, `glances`, `atop`, `htop`, `top`, `sensors`.
 > Más información: <https://clementtsang.github.io/bottom/nightly/#usage-and-configuration>.
 
 - Muestra el diseño predeterminado (CPU, memoria, temperaturas, disco, red y procesos):

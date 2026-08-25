@@ -5,7 +5,7 @@
 
 - `bug` 라벨이 있는 최근 10개 문제를 나열:
 
-`hub issue list --limit {{10}} --labels "{{bug}}"`
+`hub issue list {{[-L|--limit]}} {{10}} {{[-l|--labels]}} "{{bug}}"`
 
 - 특정 문제를 표시:
 
@@ -13,4 +13,4 @@
 
 - 특정 사용자에게 할당된 10개의 종결된 문제를 나열:
 
-`hub issue --state {{closed}} --assignee {{사용자명}} --limit {{10}}`
+`hub issue {{[-s|--state]}} {{closed}} {{[-a|--assignee]}} {{사용자명}} --limit {{10}}`

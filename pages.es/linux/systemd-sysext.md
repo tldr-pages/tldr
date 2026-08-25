@@ -13,7 +13,7 @@
 
 - Comprueba el estado de fusión actual:
 
-`systemd-sysext status`
+`systemd-sysext`
 
 - Separa todas las imágenes de extensión del sistema actualmente instaladas en `/usr/` y `/opt/`:
 

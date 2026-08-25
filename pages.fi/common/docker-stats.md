@@ -1,6 +1,6 @@
 # docker stats
 
-> Tämä on alias komennolle `docker container stats`.
+> Tämä on alias `docker container stats` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

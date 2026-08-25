@@ -1,6 +1,6 @@
 # unzstd
 
-> Tämä on alias komennolle `zstd --decompress`.
+> Tämä on alias `zstd --decompress` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

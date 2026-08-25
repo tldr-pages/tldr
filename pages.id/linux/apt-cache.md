@@ -1,24 +1,24 @@
 # apt-cache
 
-> Pencari paket untuk Debian dan Ubuntu.
+> Alat pencari paket peranti lunak untuk untuk Debian dan Ubuntu.
 > Informasi lebih lanjut: <https://manned.org/apt-cache>.
 
-- Cari paket di sumber yang sudah dimiliki:
+- Cari paket yang tersedia dengan nama atau deskripsi tertentu:
 
-`apt-cache search {{query}}`
+`apt-cache search {{kata_kunci}}`
 
 - Tampilkan informasi tentang sebuah paket:
 
-`apt-cache show {{paket}}`
+`apt-cache show {{nama_paket}}`
 
-- Tampilkan apakah sebuah paket sudah terinstal dan paling terbaru:
+- Tampilkan apakah sebuah paket sudah terpasang dan paling terbaru:
 
-`apt-cache policy {{paket}}`
+`apt-cache policy {{nama_paket}}`
 
 - Tampilkan dependensi sebuah paket:
 
-`apt-cache depends {{paket}}`
+`apt-cache depends {{nama_paket}}`
 
 - Tampilkan paket yang bergantung pada paket tertentu:
 
-`apt-cache rdepends {{paket}}`
+`apt-cache rdepends {{nama_paket}}`

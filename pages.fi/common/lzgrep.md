@@ -1,6 +1,6 @@
 # lzgrep
 
-> Tämä on alias komennolle `xzgrep`.
+> Tämä on alias `xzgrep` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

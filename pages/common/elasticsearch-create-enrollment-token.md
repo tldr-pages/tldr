@@ -17,7 +17,7 @@
 
 - Create an enrollment token for a Kibana instance with a custom Elasticsearch URL:
 
-`elasticsearch-create-enrollment-token {{[-s|--scope]}} kibana --url "{{IP}}"`
+`elasticsearch-create-enrollment-token {{[-s|--scope]}} kibana --url "{{ip}}"`
 
 - Display help:
 

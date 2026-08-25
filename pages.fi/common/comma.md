@@ -1,6 +1,6 @@
 # comma
 
-> Tämä on alias komennolle `,`.
+> Tämä on alias `,` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

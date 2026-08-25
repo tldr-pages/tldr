@@ -1,6 +1,6 @@
 # gfactor
 
-> Perintah ini merupakan alias dari `factor`.
+> Perintah ini merupakan alias dari GNU `factor`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 

@@ -30,4 +30,4 @@
 
 - `pandoc` 및 `gladtex`를 사용하여 마크다운을 HTML로 변환:
 
-`pandoc -s -t html --gladtex {{경로/대상/입력파일.md}} | gladtex -o {{경로/대상/출력파일.html}}`
+`pandoc {{[-s|--standalone]}} {{[-t|--to]}} html --gladtex {{경로/대상/입력파일.md}} | gladtex -o {{경로/대상/출력파일.html}}`

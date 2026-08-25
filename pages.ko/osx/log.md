@@ -9,7 +9,7 @@
 
 - 특정 PID를 가진 프로세스에서 `syslog`로 전송된 로그 스트리밍:
 
-`log stream --process {{프로세스_ID}}`
+`log stream --process {{프로세스_id}}`
 
 - 특정 이름을 가진 프로세스에서 syslog로 전송된 로그 표시:
 

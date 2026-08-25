@@ -16,10 +16,6 @@
 
 `git status {{[-vv|--verbose --verbose]}}`
 
-- 显示当前分支及其跟踪（上游）分支信息：
-
-`git status {{[-b|--branch]}}`
-
 - 以简短形式输出，同时包含分支信息：
 
 `git status {{[-sb|--short --branch]}}`

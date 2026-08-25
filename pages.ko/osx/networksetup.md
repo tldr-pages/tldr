@@ -17,4 +17,4 @@
 
 - 특정 Wi-Fi 네트워크에 연결:
 
-`networksetup -setairportnetwork {{en0}} {{무선 네트워크 SSID}} {{비밀번호}}`
+`networksetup -setairportnetwork {{en0}} {{ssid}} {{비밀번호}}`

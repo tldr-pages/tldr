@@ -14,4 +14,4 @@
 
 - Mount the first partition at sector 2048 into a new `.raw` image file:
 
-`xmount --offset {{2048}} --in {{raw}} {{path/to/image.dd}} --out {{raw}} {{mountpoint}}`
+`xmount --offset 2048 --in {{raw}} {{path/to/image.dd}} --out raw {{mountpoint}}`

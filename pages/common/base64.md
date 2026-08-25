@@ -1,6 +1,6 @@
 # base64
 
-> Encode or decode file or `stdin` to/from base64, to `stdout`.
+> Encode or decode file or `stdin` to/from Base64, to `stdout`.
 > More information: <https://manned.org/base64>.
 
 - Encode a file:

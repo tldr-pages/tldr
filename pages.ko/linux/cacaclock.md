@@ -9,8 +9,8 @@
 
 - 글꼴 변경:
 
-`cacaclock -f {{글꼴}}`
+`cacaclock {{[-f|--font]}} {{글꼴}}`
 
 - `strftime` 형식 사양을 사용하여 형식 변경:
 
-`cacaclock -d {{strftime_인수}}`
+`cacaclock {{[-d|--dateformat]}} {{strftime_인수}}`

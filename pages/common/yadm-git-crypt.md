@@ -1,6 +1,6 @@
 # yadm git-crypt
 
-> Git Crypt enables transparent encryption and decryption of files in a git repository.
+> Git Crypt enables transparent encryption and decryption of files in a Git repository.
 > More information: <https://github.com/AGWA/git-crypt>.
 
 - Initialize repo to use Git Crypt:

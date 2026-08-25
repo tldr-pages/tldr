@@ -20,6 +20,6 @@
 
 `sudo pkgtool --install_menu`
 
-- Set up packages interactively (run doinst.sh scripts):
+- Set up packages interactively (run `doinst.sh` scripts):
 
 `sudo pkgtool --setup_menu`

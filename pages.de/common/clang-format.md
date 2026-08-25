@@ -17,7 +17,7 @@
 
 - Formatiere eine Datei mit der `.clang-format`-Datei aus einem der Überverzeichnisse der Quelldatei:
 
-`clang-format --style=file {{pfad/zu/quelldatei.cpp}}`
+`clang-format --style file {{pfad/zu/quelldatei.cpp}}`
 
 - Generiere eine eigene `.clang-format`-Datei:
 

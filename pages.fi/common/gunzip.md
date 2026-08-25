@@ -1,6 +1,6 @@
 # gunzip
 
-> Tämä on alias komennolle `gzip --decompress`.
+> Tämä on alias `gzip --decompress` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

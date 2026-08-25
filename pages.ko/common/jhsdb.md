@@ -13,7 +13,7 @@
 
 - 원격 디버그 서버 시작:
 
-`jhsdb debugd --pid {{pid}} --serverid {{선택적_고유_ID}}`
+`jhsdb debugd --pid {{pid}} --serverid {{선택적_고유_id}}`
 
 - 프로세스에 인터랙티브 디버그 모드로 연결:
 

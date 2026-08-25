@@ -9,7 +9,7 @@
 
 - 특정 컴파일러 사용 (`pdflatex`가 기본값):
 
-`texliveonfly --compiler={{컴파일러}} {{소스.tex}}`
+`texliveonfly {{[-c|--compiler]}} {{컴파일러}} {{소스.tex}}`
 
 - 사용자 지정 TeX Live `bin` 폴더 사용:
 

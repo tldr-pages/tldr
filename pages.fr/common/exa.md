@@ -1,6 +1,7 @@
 # exa
 
 > Une alternative moderne à `ls` (pour lister le contenu de répertoires).
+> Voir aussi : `eza`.
 > Plus d'informations : <https://github.com/ogham/exa#command-line-options>.
 
 - Liste les fichiers, un par ligne :

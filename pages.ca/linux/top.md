@@ -22,7 +22,7 @@
 
 - Mostra els fils individuals d'un procés donat:
 
-`top -Hp {{id_procés}}`
+`top {{[-Hp|--threads-show --pid]}} {{id_procés}}`
 
 - Mostra només els processos amb un(s) PID(s) donat(s), separats per comes. (Normalment no es coneix el PID amb antelació. Aquest exemple l'obté del nom del procés):
 

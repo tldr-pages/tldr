@@ -6,15 +6,15 @@
 
 - 현재 캐시 통계 표시([s]tatistics):
 
-`ccache --show-stats`
+`ccache {{[-s|--show-stats]}}`
 
 - 모든 캐시 지우기([C]lear):
 
-`ccache --clear`
+`ccache {{[-C|--clear]}}`
 
 - 통계 재설정 ([z]ero) (캐시 자체는 아님):
 
-`ccache --zero-stats`
+`ccache {{[-z|--zero-stats]}}`
 
 - C 코드를 컴파일하고 컴파일된 출력을 캐시 (모든 `gcc` 호출에서 `ccache`를 사용하려면, 위를 참고):
 

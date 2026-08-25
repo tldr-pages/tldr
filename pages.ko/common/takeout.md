@@ -29,8 +29,8 @@
 
 - 특정 컨테이너 시작:
 
-`takeout start {{컨테이너_ID}}`
+`takeout start {{컨테이너_id}}`
 
 - 특정 컨테이너 중지:
 
-`takeout stop {{컨테이너_ID}}`
+`takeout stop {{컨테이너_id}}`

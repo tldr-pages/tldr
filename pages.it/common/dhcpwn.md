@@ -5,8 +5,8 @@
 
 - Inonda la rete con richieste di IP:
 
-`dhcpwn --interface {{interfaccia}} flood --count {{numero_di_richieste}}`
+`dhcpwn {{[-i|--interface]}} {{interfaccia}} flood {{[-c|--count]}} {{numero_di_richieste}}`
 
 - Intercetta traffico DHCP locale:
 
-`dhcpwn --interface {{interfaccia}} sniff`
+`dhcpwn {{[-i|--interface]}} {{interfaccia}} sniff`

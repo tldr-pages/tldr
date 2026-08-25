@@ -6,27 +6,27 @@
 
 - Sincroniza y actualiza todos los paquetes:
 
-`aurman --sync --refresh --sysupgrade`
+`aurman {{[-S|--sync]}} {{[-y|--refresh]}} {{[-u|--sysupgrade]}}`
 
 - Sincroniza y actualiza todos los paquetes sin mostrar los cambios en los archivos `PKGBUILD`:
 
-`aurman --sync --refresh --sysupgrade --noedit`
+`aurman {{[-S|--sync]}} {{[-y|--refresh]}} {{[-u|--sysupgrade]}} --noedit`
 
 - Instala un nuevo paquete:
 
-`aurman --sync {{paquete}}`
+`aurman {{[-S|--sync]}} {{paquete}}`
 
 - Instala un nuevo paquete sin mostrar los cambios en los archivos `PKGBUILD`:
 
-`aurman --sync --noedit {{paquete}}`
+`aurman {{[-S|--sync]}} --noedit {{paquete}}`
 
 - Instala un nuevo paquete sin pedir confirmación:
 
-`aurman --sync --noedit --noconfirm {{paquete}}`
+`aurman {{[-S|--sync]}} --noedit --noconfirm {{paquete}}`
 
 - Busca en la base de datos de paquetes una palabra clave en los repositorios oficiales y AUR:
 
-`aurman --sync --search {{palabra_clave}}`
+`aurman {{[-S|--sync]}} {{[-s|--search]}} {{palabra_clave}}`
 
 - Elimina un paquete y sus dependencias:
 
@@ -34,4 +34,4 @@
 
 - Limpia la caché de paquetes (usa dos banderas `--clean` para limpiar todos los paquetes):
 
-`aurman --sync --clean`
+`aurman {{[-S|--sync]}} {{[-c|--clean]}}`

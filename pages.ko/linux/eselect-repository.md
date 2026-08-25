@@ -18,7 +18,7 @@
 
 - 등록되지 않은 저장소 활성화:
 
-`eselect repository add {{이름}} {{rsync|git|mercurial|svn|...}} {{동기화_URI}}`
+`eselect repository add {{이름}} {{rsync|git|mercurial|svn|...}} {{동기화_uri}}`
 
 - 저장소의 내용을 제거하지 않고 비활성화:
 

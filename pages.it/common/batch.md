@@ -1,18 +1,14 @@
 # batch
 
-> Esegui comandi nel futuro quando il carico di lavoro del sistema lo permette.
-> Il servizio atd (o atrun) deve essere attivo per eseguire i comandi.
+> Esegue comandi in un momento successivo quando i livelli di carico del sistema lo permettono.
+> I risultati vengono inviati alla mail dell'utente.
 > Vedi anche: `at`, `atq`, `atrm`, `mail`.
 > Maggiori informazioni: <https://manned.org/batch>.
 
-- Esegui i comandi inseriti `stdin` (premere `<Ctrl d>` dopo aver inserito i comandi):
+- Esegue comandi da `stdin` (premi `<Ctrl d>` quando finito):
 
 `batch`
 
-- Esegui un comando da `stdin`:
+- Esegue un comando da `stdin`:
 
-`echo "{{./mio_script.sh}}" | batch`
-
-- Esegui comandi contenuti in un dato file:
-
-`batch -f {{percorso/del/file}}`
+`echo "{{./make_db_backup.sh}}" | batch`

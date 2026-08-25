@@ -2,7 +2,7 @@
 
 > Azure Storage로 데이터를 복사하거나 Azure Storage에서 데이터를 복사.
 > 관련 항목: `az storage`.
-> 더 많은 정보: <https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10#list-of-commands>.
+> 더 많은 정보: <https://learn.microsoft.com/azure/storage/common/storage-use-azcopy-v10#list-of-commands>.
 
 - Azure Tenant에 로그인:
 

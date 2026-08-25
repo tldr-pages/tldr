@@ -5,16 +5,16 @@
 
 - Añade etiquetas a un archivo:
 
-`tag --add {{nombre_etiqueta1,nombre_etiqueta2,...}} {{ruta/al/archivo}}`
+`tag {{[-a|--add]}} {{nombre_etiqueta1,nombre_etiqueta2,...}} {{ruta/al/archivo}}`
 
 - Elimina una etiqueta:
 
-`tag --remove {{nombre_etiqueta}} {{ruta/al/archivo}}`
+`tag {{[-r|--remove]}} {{nombre_etiqueta}} {{ruta/al/archivo}}`
 
 - Elimina todas las etiquetas de un archivo:
 
-`tag --remove \* {{ruta/al/archivo}}`
+`tag {{[-r|--remove]}} \* {{ruta/al/archivo}}`
 
 - Muestra todos los archivos con una etiqueta determinada:
 
-`tag --match {{nombre_de_la_etiqueta}}`
+`tag {{[-m|--match]}} {{nombre_de_la_etiqueta}}`

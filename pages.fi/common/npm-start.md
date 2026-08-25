@@ -1,6 +1,6 @@
 # npm start
 
-> Tämä on alias komennolle `npm run start`.
+> Tämä on alias `npm run start` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

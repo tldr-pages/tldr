@@ -19,7 +19,7 @@
 
 `bdfr download {{path/to/output_directory}} {{[-s|--subreddit]}} Python {{[-S|--sort]}} top {{[-t|--time]}} all {{[-L|--limit]}} 10`
 
-- Download the maximum possible number of both submission data and videos/images from subreddit r/Python skipping over submissions with mp4 or gif file extensions and creating hard links for duplicate files:
+- Download the maximum possible number of both submission data and videos/images from subreddit r/Python skipping over submissions with `.mp4` or `.gif` file extensions and creating hard links for duplicate files:
 
 `bdfr clone {{path/to/output_directory}} {{[-s|--subreddit]}} Python --skip mp4 --skip gif --make-hard-links`
 

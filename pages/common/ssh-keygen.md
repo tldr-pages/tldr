@@ -10,7 +10,7 @@
 
 - Generate an ed25519 key with 32 key derivation function rounds and save the key to a specific file:
 
-`ssh-keygen -t ed25519 -a 32 -f {{~/.ssh/filename}}`
+`ssh-keygen -f {{~/.ssh/filename}} -t ed25519 -a 32`
 
 - Generate an RSA 4096-bit key with email as a comment:
 
@@ -22,16 +22,16 @@
 
 - Retrieve the fingerprint of a key in MD5 Hex:
 
-`ssh-keygen -l -E md5 -f {{~/.ssh/filename}}`
+`ssh-keygen -f {{~/.ssh/filename}} -l -E md5`
 
 - Change the password of a key:
 
-`ssh-keygen -p -f {{~/.ssh/filename}}`
+`ssh-keygen -f {{~/.ssh/filename}} -p`
 
 - Change the type of the key format (for example from OPENSSH format to PEM), the file will be rewritten in-place:
 
-`ssh-keygen -p -m PEM -f {{~/.ssh/OpenSSH_private_key}}`
+`ssh-keygen -f {{~/.ssh/OpenSSH_private_key}} -p -m PEM`
 
 - Retrieve public key from private key:
 
-`ssh-keygen -y -f {{~/.ssh/OpenSSH_private_key}}`
+`ssh-keygen -f {{~/.ssh/OpenSSH_private_key}} -y`

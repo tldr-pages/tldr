@@ -8,9 +8,9 @@
 
 `pacman -Q`
 
-- List only packages and versions that were [e]xplicitly installed:
+- List only packages that were [e]xplicitly installed without version numbers:
 
-`pacman -Qe`
+`pacman -Qeq`
 
 - Find which package [o]wns a file:
 

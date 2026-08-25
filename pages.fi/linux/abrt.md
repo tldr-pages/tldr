@@ -1,6 +1,6 @@
 # abrt
 
-> Tämä on alias komennolle `abrt-cli`.
+> Tämä on alias `abrt-cli` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

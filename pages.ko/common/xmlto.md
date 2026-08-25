@@ -5,11 +5,11 @@
 
 - DocBook XML 문서를 PDF 형식으로 변환:
 
-`xmlto {{pdf}} {{문서.xml}}`
+`xmlto pdf {{문서.xml}}`
 
 - DocBook XML 문서를 HTML 형식으로 변환하고 결과 파일을 별도의 디렉토리에 저장:
 
-`xmlto -o {{경로/대상/html_파일}} {{html}} {{문서.xml}}`
+`xmlto -o {{경로/대상/html_파일}} html {{문서.xml}}`
 
 - DocBook XML 문서를 단일 HTML 파일로 변환:
 

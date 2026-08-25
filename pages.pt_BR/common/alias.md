@@ -23,8 +23,8 @@
 
 - Torna o comando `rm` interativo:
 
-`alias {{rm}}="{{rm --interactive}}"`
+`alias rm="rm --interactive"`
 
 - Cria o apelido `la` como um atalho para `ls --all`:
 
-`alias {{la}}="{{ls --all}}"`
+`alias la="ls --all"`

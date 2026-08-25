@@ -5,4 +5,4 @@
 
 - Revierte el estado de una MV a una instantánea dada:
 
-`qm {{[ro|rollback]}} {{id_mv}} {{nombre_de_la_instantánea}}`
+`qm {{[ro|rollback]}} {{100}} {{nombre_de_la_instantánea}}`

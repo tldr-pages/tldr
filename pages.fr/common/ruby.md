@@ -1,7 +1,7 @@
 # ruby
 
 > Interpréteur du langage de programmation Ruby.
-> Voir aussi : `gem`, `bundler`, `rake`, `irb`.
+> Voir aussi : `gem`, `bundler`, `rake`, `irb`, `ri`.
 > Plus d'informations : <https://manned.org/ruby>.
 
 - Exécute un script Ruby :

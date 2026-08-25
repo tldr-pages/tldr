@@ -10,11 +10,11 @@
 
 - Lista todos os arquivos e diretórios dentro do /usr/local, mostrando tamanho relativo dos arquivos em um [g]raph (gráfico):
 
-`duc ls -Fg {{/usr/local}}`
+`duc ls {{[-Fg|--classify --graph]}} {{/usr/local}}`
 
 - Lista todos os arquivos e diretórios dentro do /usr/local em uma visão de árvore recursiva:
 
-`duc ls -Fg -R {{/usr/local}}`
+`duc ls {{[-Fg|--classify --graph]}} {{[-R|--recursive]}} {{/usr/local}}`
 
 - Inicia uma interface gráfica para o usuário explorar o sistema de arquivos exibindo o gráfico sunburst:
 

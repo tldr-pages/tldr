@@ -5,7 +5,7 @@
 
 - Utwórz system plików squashfs (domyślnie kompresując za pomocą `gzip`) z nieskompresowanego archiwum `.tar`:
 
-`sqfstar {{system_plików.squashfs}} < {{archiwum.tar}}`
+`sqfstar < {{archiwum.tar}} {{system_plików.squashfs}}`
 
 - Utwórz system plików squashfs z archiwum `.tar` skompresowanego za pomocą `gzip`, i skompresuj system plików używając podanego algorytmu:
 

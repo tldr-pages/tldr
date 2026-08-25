@@ -2,6 +2,6 @@
 
 > Det här kommandot är ett alias för `xml depyx`.
 
-- Se dokumentationen för orginalkommandot:
+- Se dokumentationen för originalkommandot:
 
 `tldr xml depyx`

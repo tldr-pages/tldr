@@ -13,15 +13,15 @@
 
 - Show all TCP sockets connected to the local HTTPS port (443):
 
-`ss {{[-t|--tcp]}} src :{{443}}`
+`ss {{[-t|--tcp]}} src :443`
 
 - Show all TCP sockets listening on the local 8080 port:
 
-`ss {{[-lt|--listening --tcp]}} src :{{8080}}`
+`ss {{[-lt|--listening --tcp]}} src :8080`
 
 - Show all TCP sockets along with processes connected to a remote SSH port:
 
-`ss {{[-pt|--processes --tcp]}} dst :{{ssh}}`
+`ss {{[-pt|--processes --tcp]}} dst :ssh`
 
 - Show all UDP sockets connected on specific source and destination ports:
 
@@ -29,7 +29,7 @@
 
 - Show all TCP IPv4 sockets locally connected on the subnet 192.168.0.0/16:
 
-`ss {{[-4t|--ipv4 --tcp]}} src {{192.168/16}}`
+`ss {{[-4t|--ipv4 --tcp]}} src 192.168/16`
 
 - Kill IPv4 or IPv6 Socket Connection with a specific destination IP and port:
 

@@ -1,7 +1,6 @@
 # zsh
 
-> Z SHell.
-> Mit `bash` und `sh` kompatible Eingabeaufforderung.
+> Z SHell. Mit `bash` und `sh` kompatible Eingabeaufforderung.
 > Siehe auch: `bash`, `!`, `^`.
 > Weitere Informationen: <https://zsh.sourceforge.io/Doc/Release/Invocation.html#Invocation>.
 
@@ -11,20 +10,28 @@
 
 - Führe Parameter als Befehl aus:
 
-`zsh -c {{befehl}}`
+`zsh -c "{{echo Hello world}}"`
 
 - Führe Befehle aus einem Skript aus:
 
-`zsh {{pfad/zu/skript}}`
+`zsh {{pfad/zu/skript.zsh}}`
+
+- Prüfe ein Skript nach Syntaxfehlern, ohne es auszuführen:
+
+`zsh {{[-n|--no-exec]}} {{pfad/zu/skript.zsh}}`
+
+- Führe Befehle von `stdin` aus:
+
+`{{echo echo Hello World}} | zsh`
 
 - Führe Befehle aus einem Skript aus und schreibe die Befehle in die Konsole:
 
-`zsh --xtrace {{pfad/zu/skript}}`
+`zsh {{[-x|--xtrace]}} {{pfad/zu/skript.zsh}}`
 
 - Starte eine interaktive Eingabeaufforderung, in der jeder Befehl ausgegeben wird, bevor er ausgeführt wird:
 
-`zsh --verbose`
+`zsh {{[-v|--verbose]}}`
 
-- Führe einen Befehl innerhalb von Zsh mit ausgeschalteten Glob-Mustern aus:
+- Starte Zsh, ohne Nutzerkonfigurationen zu laden (z.B. `~/.zshrc`):
 
-`noglob {{befehl}}`
+`zsh {{[-f|--no-rcs]}}`

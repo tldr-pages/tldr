@@ -9,8 +9,8 @@
 
 - Revisa la conexión con un nombre de host específico y el puerto:
 
-`pg_isready --host={{nombre_del_equipo}} --port={{puerto}}`
+`pg_isready {{[-h|--host]}} {{nombre_del_equipo}} {{[-p|--port]}} {{puerto}}`
 
 - Comprueba la conexión mostrando un mensaje solo cuando la conexión falla:
 
-`pg_isready --quiet`
+`pg_isready {{[-q|--quiet]}}`

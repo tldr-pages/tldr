@@ -11,8 +11,8 @@
 
 - 변경 사항을 적용하지 않고 보기:
 
-`systemd-repart --dry-run=yes`
+`systemd-repart --dry-run yes`
 
 - 루트 파티션 크기를 10기가바이트로 확장:
 
-`systemd-repart --size=10G --root /`
+`systemd-repart --size 10G --root /`

@@ -1,6 +1,6 @@
 # identify
 
-> Tämä on alias komennolle `magick identify`.
+> Tämä on alias `magick identify` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

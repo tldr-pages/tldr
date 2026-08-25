@@ -14,19 +14,19 @@
 
 - 발견된 리소스의 exploit-db 링크 표시:
 
-`searchsploit --www {{검색어}}`
+`searchsploit {{[-w|--www]}} {{검색어}}`
 
 - 리소스를 현재 디렉토리로 복사 ([m]irror) (익스플로잇 번호 필요):
 
-`searchsploit --mirror {{익스플로잇_번호}}`
+`searchsploit {{[-m|--mirror]}} {{익스플로잇_번호}}`
 
 - `$PAGER` 환경 변수에 정의된 페이지 뷰어를 사용하여 리소스를 e[x]amine:
 
-`searchsploit --examine {{익스플로잇_번호}}`
+`searchsploit {{[-x|--examine]}} {{익스플로잇_번호}}`
 
 - 로컬 Exploit Database [u]업데이트:
 
-`searchsploit --update`
+`searchsploit {{[-u|--update]}}`
 
 - [c]ommon [v]ulnerabilities and [e]xposures (CVE) 값 검색:
 

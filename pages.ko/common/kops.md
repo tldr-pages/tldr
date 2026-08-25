@@ -5,11 +5,11 @@
 
 - 구성 사양에서 클러스터 생성:
 
-`kops create cluster -f {{클러스터_이름.yaml}}`
+`kops create cluster {{[-f|--filename]}} {{클러스터_이름.yaml}}`
 
 - 새로운 SSH 공개 키 생성:
 
-`kops create secret sshpublickey {{키_이름}} -i {{~/.ssh/id_rsa.pub}}`
+`kops create sshpublickey {{키_이름}} {{[-i|--ssh-public-key]}} {{~/.ssh/id_rsa.pub}}`
 
 - 클러스터 구성을 `~/.kube/config` 파일로 내보내기:
 
@@ -17,11 +17,11 @@
 
 - 클러스터 구성을 YAML로 가져오기:
 
-`kops get cluster {{클러스터_이름}} -o yaml`
+`kops get cluster {{클러스터_이름}} {{[-o|--output]}} yaml`
 
 - 클러스터 삭제:
 
-`kops delete cluster {{클러스터_이름}} --yes`
+`kops delete cluster {{클러스터_이름}} {{[-y|--yes]}}`
 
 - 클러스터 유효성 검사:
 

@@ -1,6 +1,6 @@
 # lzcmp
 
-> Tämä on alias komennolle `xzcmp`.
+> Tämä on alias `xzcmp` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -6,7 +6,7 @@
 
 - core 섹션에서 프로젝트 속성 설정:
 
-`gcloud config set project {{프로젝트_ID}}`
+`gcloud config set project {{프로젝트_id}}`
 
 - 향후 작업을 위한 컴퓨트 영역 설정:
 

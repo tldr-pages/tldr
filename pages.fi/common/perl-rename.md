@@ -1,6 +1,6 @@
 # perl-rename
 
-> Tämä on alias komennolle `rename`.
+> Tämä on alias `rename` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

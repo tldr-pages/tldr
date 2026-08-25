@@ -1,7 +1,7 @@
 # ruby
 
 > Ruby-programmeertaal interpreter.
-> Zie ook: `gem`, `bundler`, `rake`, `irb`.
+> Zie ook: `gem`, `bundler`, `rake`, `irb`, `ri`.
 > Meer informatie: <https://manned.org/ruby>.
 
 - Voer een Ruby-script uit:

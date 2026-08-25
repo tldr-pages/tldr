@@ -14,11 +14,11 @@
 
 - 응답 대기 시간을 초 단위로 지정:
 
-`traceroute --wait={{0.5}} {{example.com}}`
+`traceroute {{[-w|--wait]}} {{0.5}} {{example.com}}`
 
 - 홉당 쿼리 수 지정:
 
-`traceroute --queries={{5}} {{example.com}}`
+`traceroute {{[-q|--queries]}} {{5}} {{example.com}}`
 
 - 프로빙 패킷의 크기를 바이트 단위로 지정:
 
@@ -30,4 +30,4 @@
 
 - UDP 대신 ICMP를 사용하여 traceroute 실행:
 
-`traceroute --icmp {{example.com}}`
+`traceroute {{[-I|--icmp]}} {{example.com}}`

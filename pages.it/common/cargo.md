@@ -1,34 +1,37 @@
 # cargo
 
-> Gestore di pacchetti di Rust.
-> Gestisce progetti Rust ed i moduli dai quali sono dipendenti (detti crate).
-> Alcuni comandi aggiuntivi, come `build`, hanno la propria documentazione.
+> Gestisce progetti Rust e le loro dipendenze (crate).
+> Alcuni sottocomandi come `build` hanno la propria documentazione.
 > Maggiori informazioni: <https://doc.rust-lang.org/stable/cargo/>.
 
-- Cerca una crate:
+- Cerca crate:
 
-`cargo search {{termine_di_ricerca}}`
+`cargo search {{stringa_di_ricerca}}`
 
-- Installa una crate:
+- Installa un crate binario:
 
 `cargo install {{nome_crate}}`
 
-- Elenca crate installate:
+- Elenca i crate binari installati:
 
 `cargo install --list`
 
-- Crea un nuovo progetto Rust binario o di libreria nella directory corrente:
+- Crea un nuovo progetto Rust binario o libreria nella directory specificata:
 
-`cargo init --{{bin|lib}}`
+`cargo init --{{bin|lib}} {{percorso/della/directory}}`
 
-- Crea un nuovo progetto Rust binario o di libreria nella directory specificata:
+- Aggiungi una dipendenza a `Cargo.toml` nella directory corrente:
 
-`cargo new {{percorso/della/directory}} --{{bin|lib}}`
+`cargo add {{dipendenza}}`
 
-- Builda il progetto Rust nella directory corrente:
+- Compila il progetto Rust con il profilo release:
 
-`cargo {{[b|build]}}`
+`cargo {{[b|build]}} {{[-r|--release]}}`
 
-- Builda utilizzando più job (thread) paralleli:
+- Compila il progetto con il compilatore nightly (richiede `rustup`):
 
-`cargo {{[b|build]}} {{[-j|--jobs]}} {{numero_job}}`
+`cargo +nightly {{[b|build]}}`
+
+- Compila usando un numero specifico di thread:
+
+`cargo {{[b|build]}} {{[-j|--jobs]}} {{numero_thread}}`

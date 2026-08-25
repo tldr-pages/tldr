@@ -9,4 +9,4 @@
 
 - Włączenie wszystkich interfejsów zdefiniowanych jako "auto" w `/etc/network/interfaces`:
 
-`ifup -a`
+`ifup {{[-a|--all]}}`

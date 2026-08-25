@@ -15,7 +15,7 @@
 
 - Belirtilen ağa bağlan:
 
-`nmtui connect {{ad|uuid|aygıt|SSID}}`
+`nmtui connect {{ad|uuid|aygıt|ssid}}`
 
 - Belirtilen ağı düzenle/ekle/sil:
 

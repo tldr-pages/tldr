@@ -5,7 +5,7 @@
 
 - 새로운 Python 3.6.6 가상 환경 생성:
 
-`pyenv virtualenv {{3.6.6}} {{가상환경_이름}}`
+`pyenv virtualenv 3.6.6 {{가상환경_이름}}`
 
 - 모든 기존 가상 환경 나열:
 

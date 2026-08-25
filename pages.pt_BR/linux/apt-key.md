@@ -21,4 +21,4 @@
 
 - Adiciona uma chave, de um servidor de chaves, na lista de chaves confiáveis:
 
-`apt-key adv --keyserver {{pgp.mit.edu}} --recv {{KEYID}}`
+`apt-key adv --keyserver {{pgp.mit.edu}} --recv {{key_id}}`

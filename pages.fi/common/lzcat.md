@@ -1,6 +1,6 @@
 # lzcat
 
-> Tämä on alias komennolle `xz --format lzma --decompress --stdout`.
+> Tämä on alias `xz --format lzma --decompress --stdout` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

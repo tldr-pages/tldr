@@ -14,12 +14,12 @@
 
 - 특정 LKE 클러스터 세부정보 보기:
 
-`linode-cli lke clusters view {{클러스터_ID}}`
+`linode-cli lke clusters view {{클러스터_id}}`
 
 - 기존 LKE 클러스터 업데이트:
 
-`linode-cli lke clusters update {{클러스터_ID}} --node-type {{새_노드_유형}}`
+`linode-cli lke clusters update {{클러스터_id}} --node-type {{새_노드_유형}}`
 
 - LKE 클러스터 삭제:
 
-`linode-cli lke clusters delete {{클러스터_ID}}`
+`linode-cli lke clusters delete {{클러스터_id}}`

@@ -10,8 +10,8 @@
 
 - 단순 임계값을 사용하여 축소:
 
-`pbmreduce -threshold {{N}} {{경로/대상/이미지.pbm}} > {{경로/대상/출력.pbm}}`
+`pbmreduce {{[-t|-threshold]}} {{N}} {{경로/대상/이미지.pbm}} > {{경로/대상/출력.pbm}}`
 
 - 모든 양자화에 지정한 임계값 사용:
 
-`pbmreduce -value {{0.6}} {{N}} {{경로/대상/이미지.pbm}} > {{경로/대상/출력.pbm}}`
+`pbmreduce {{[-va|-value]}} {{0.6}} {{N}} {{경로/대상/이미지.pbm}} > {{경로/대상/출력.pbm}}`

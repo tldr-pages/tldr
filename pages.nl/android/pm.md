@@ -1,24 +1,36 @@
 # pm
 
-> Toon informatie over apps op een Android-apparaat.
+> Android Package Manager-hulpprogramma.
 > Meer informatie: <https://developer.android.com/tools/adb#pm>.
 
-- Maak een lijst van alle geïnstalleerde apps:
+- Toon geïnstalleerde pakketten:
 
 `pm list packages`
 
-- Maak een lijst van alle geïnstalleerde systeem-apps:
+- Installeer een app-pakket van een opgegeven pad:
 
-`pm list packages -s`
+`pm install /{{pad/naar/app}}.apk`
 
-- Maak een lijst van alle geïnstalleerde apps van 3e partijen:
+- Verwijder een pakket van het apparaat:
 
-`pm list packages -3`
+`pm uninstall {{pakket}}`
 
-- Maak een lijst met apps die overeenkomen met specifieke trefwoorden:
+- Verwijder alle app-data voor een pakket:
 
-`pm list packages {{keyword1 keyword2 ...}}`
+`pm clear {{pakket}}`
 
-- Toon een pad van de APK van een specifieke app:
+- Schakel een pakket of component in:
 
-`pm path {{app}}`
+`pm enable {{pakket_of_class}}`
+
+- Schakel een pakket of component uit:
+
+`pm disable-user {{pakket_of_class}}`
+
+- Geef toestemming aan een app:
+
+`pm grant {{pakket}} {{android.permission.CAMERA|android.permission.ACCESS_FINE_LOCATION|android.permission.READ_CONTACTS|...}}`
+
+- Toestemming voor een app intrekken:
+
+`pm revoke {{pakket}} {{android.permission.CAMERA|android.permission.ACCESS_FINE_LOCATION|android.permission.READ_CONTACTS|...}}`

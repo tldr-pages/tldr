@@ -9,16 +9,16 @@
 
 - 프로세스 시작 이후 경과한 시간(초)를 표시:
 
-`{{npm test}} | gnomon --type=elapsed-total`
+`{{npm test}} | gnomon {{[-t|--type]}} elapsed-total`
 
 - UTC로 절대 타임스탬프를 표시:
 
-`{{npm test}} | gnomon --type=absolute`
+`{{npm test}} | gnomon {{[-t|--type]}} absolute`
 
 - 0.5초의 높은 임계값을 사용, 이 값을 초과하면 타임스탬프가 밝은 빨간색으로 표시됨:
 
-`{{npm test}} | gnomon --high 0.5`
+`{{npm test}} | gnomon {{[-h|--high]}} 0.5`
 
 - 0.2초의 중간 임계값을 사용, 이를 초과하면 타임스탬프가 밝은 노란색으로 표시됨:
 
-`{{npm test}} | gnomon --medium {{0.2}}`
+`{{npm test}} | gnomon {{[-m|--medium]}} 0.2`

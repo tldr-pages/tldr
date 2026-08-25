@@ -17,7 +17,7 @@
 
 - 특정 플레이어를 사용하여 스트림 데이터를 전달 (기본적으로 VLC가 발견되면 사용됨):
 
-`streamlink --player={{mpv}} {{example.com/stream}} {{best}}`
+`streamlink {{[-p|--player]}} {{mpv}} {{example.com/stream}} {{best}}`
 
 - 스트림 시작 부분에서 특정 시간을 건너뜀. 라이브 스트림의 경우 스트림 끝에서부터 음수 오프셋(되감기):
 
@@ -29,8 +29,8 @@
 
 - 스트림 데이터를 재생 대신 파일에 기록:
 
-`streamlink --output {{경로/대상/파일.ts}} {{example.com/stream}} {{best}}`
+`streamlink {{[-o|--output]}} {{경로/대상/파일.ts}} {{example.com/stream}} {{best}}`
 
 - 스트림을 플레이어에서 열고 동시에 파일에 기록:
 
-`streamlink --record {{경로/대상/파일.ts}} {{example.com/stream}} {{best}}`
+`streamlink {{[-r|--record]}} {{경로/대상/파일.ts}} {{example.com/stream}} {{best}}`

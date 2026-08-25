@@ -25,12 +25,12 @@
 
 - 가져온 VM의 게스트 OS 유형 설정 (`VBoxManage list ostypes` 중 하나):
 
-`VBoxManage import {{경로/대상/파일.ovf}} --ostype={{os유형}}`
+`VBoxManage import {{경로/대상/파일.ovf}} --ostype {{os유형}}`
 
 - 가져온 VM의 메모리 크기 설정 (메가바이트 단위):
 
-`VBoxManage import {{경로/대상/파일.ovf}} --memory={{1}}`
+`VBoxManage import {{경로/대상/파일.ovf}} --memory {{1}}`
 
 - 가져온 VM의 CPU 개수 설정:
 
-`VBoxManage import {{경로/대상/파일.ovf}} --cpus={{1}}`
+`VBoxManage import {{경로/대상/파일.ovf}} --cpus {{1}}`

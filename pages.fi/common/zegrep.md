@@ -1,6 +1,6 @@
 # zegrep
 
-> Tämä on alias komennolle `zgrep --extended-regexp`.
+> Tämä on alias `zgrep --extended-regexp` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

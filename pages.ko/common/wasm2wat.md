@@ -9,4 +9,4 @@
 
 - 출력 결과를 지정한 파일에 저장:
 
-`wasm2wat {{파일.wasm}} -o {{파일.wat}}`
+`wasm2wat {{파일.wasm}} {{[-o|--output]}} {{파일.wat}}`

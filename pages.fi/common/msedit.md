@@ -1,6 +1,6 @@
 # msedit
 
-> Tämä on alias komennolle `edit`.
+> Tämä on alias `edit` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

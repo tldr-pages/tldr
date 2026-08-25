@@ -1,6 +1,6 @@
 # adduser
 
-> Kullanıcı ekleme yardımcısı
+> Kullanıcı ekleme yardımcısı.
 > Daha fazla bilgi için: <https://manned.org/adduser>.
 
 - Varsayılan ev diziniyle yeni bir kullanıcı oluşturun ve kullanıcının bir parola belirlemesini isteyin:

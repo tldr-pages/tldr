@@ -5,7 +5,7 @@
 
 - Tampilkan daftar pengaturan di dalam namespace `global`:
 
-`settings list {{global}}`
+`settings list global`
 
 - Tampilkan nilai dari pengaturan tertentu:
 

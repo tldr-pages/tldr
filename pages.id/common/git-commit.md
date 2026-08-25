@@ -30,3 +30,7 @@
 - Buat komit kosong, tanpa berkas bertahap:
 
 `git commit {{[-m|--message]}} "{{pesan}}" --allow-empty`
+
+- Buat komit dengan sebuah pesan beserta deskripsi pesan:
+
+`git commit {{[-m|--message]}} "{{pesan}}" {{[-m|--message]}} "{{deskripsi_pesan}}"`

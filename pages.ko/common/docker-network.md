@@ -17,11 +17,11 @@
 
 - 이름 또는 ID를 사용하여 네트워크에 컨테이너 연결:
 
-`docker network connect {{네트워크_이름}} {{컨테이너_이름|ID}}`
+`docker network connect {{네트워크_이름}} {{컨테이너_이름|id}}`
 
 - 네트워크에서 컨테이너 연결 해제:
 
-`docker network disconnect {{네트워크_이름}} {{컨테이너_이름|ID}}`
+`docker network disconnect {{네트워크_이름}} {{컨테이너_이름|id}}`
 
 - 사용되지 않는 모든 네트워크 제거 (어떤 컨테이너에도 참조되지 않음):
 

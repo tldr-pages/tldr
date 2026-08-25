@@ -2,7 +2,7 @@
 
 > Findet Ausdrücke in einem Eingabetext.
 > Unterstützt einfache Muster und reguläre Ausdrücke.
-> Siehe auch: `regex`.
+> Siehe auch: `rg`, `regex`.
 > Weitere Informationen: <https://www.gnu.org/software/grep/manual/grep.html>.
 
 - Suche nach einem Ausdruck in einer Datei:

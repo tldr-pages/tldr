@@ -14,12 +14,12 @@
 
 - Usa un [s]riparatore specifico:
 
-`tac -s {{separatore}} {{percorso/del/file1 percorso/del/file2 ...}}`
+`tac {{[-s|--separator]}} {{separatore}} {{percorso/del/file1 percorso/del/file2 ...}}`
 
 - Usa un [r]egex specifico come [s]eparatore:
 
-`tac -r -s {{separatore}} {{percorso/del/file1 percorso/del/file2 ...}}`
+`tac {{[-r|--regex]}} {{[-s|--separator]}} {{separatore}} {{percorso/del/file1 percorso/del/file2 ...}}`
 
 - Utilizzare un separatore [b]prima di ciascun file:
 
-`tac -b {{percorso/del/file1 percorso/del/file2 ...}}`
+`tac {{[-b|--before]}} {{percorso/del/file1 percorso/del/file2 ...}}`

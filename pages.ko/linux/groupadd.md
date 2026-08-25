@@ -14,4 +14,4 @@
 
 - 특정 그룹 ID로 새 그룹 생성:
 
-`sudo groupadd {{[-g|--gid]}} {{ID}} {{그룹_이름}}`
+`sudo groupadd {{[-g|--gid]}} {{id}} {{그룹_이름}}`

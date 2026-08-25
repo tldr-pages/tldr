@@ -9,15 +9,15 @@
 
 - 구성 파일을 사용하여 디렉터리 분석:
 
-`phpstan analyse {{경로/대상/디렉터리}} --configuration {{경로/대상/구성}}`
+`phpstan analyse {{경로/대상/디렉터리}} {{[-c|--configuration]}} {{경로/대상/구성}}`
 
 - 특정 규칙 레벨을 사용하여 분석 (0-7, 숫자가 높을수록 엄격함):
 
-`phpstan analyse {{경로/대상/디렉터리}} --level {{레벨}}`
+`phpstan analyse {{경로/대상/디렉터리}} {{[-l|--level]}} {{레벨}}`
 
 - 분석 전에 로드할 자동 로드 파일 지정:
 
-`phpstan analyse {{경로/대상/디렉터리}} --autoload-file {{경로/대상/자동로드_파일}}`
+`phpstan analyse {{경로/대상/디렉터리}} {{[-a|--autoload-file]}} {{경로/대상/자동로드_파일}}`
 
 - 분석 중 메모리 제한 지정:
 

@@ -14,16 +14,16 @@
 
 - Sube un directorio y sus subdirectorios:
 
-`immich upload --recursive {{ruta/al/directorio}}`
+`immich upload {{[-r|--recursive]}} {{ruta/al/directorio}}`
 
 - Crea un álbum basado en un directorio:
 
-`immich upload --album-name "{{Vacaciones de verano}}" --recursive {{ruta/al/directorio}}`
+`immich upload {{[-r|--recursive]}} {{ruta/al/directorio}} {{[-A|--album-name]}} "{{Vacaciones de verano}}"`
 
 - Omite recursos que coincidan con un patrón global:
 
-`immich upload --ignore {{**/Raw/** **/*.tif}} --recursive {{directorio/}}`
+`immich upload {{[-r|--recursive]}} {{directorio/}} {{[-i|--ignore]}} {{**/Raw/** **/*.tif}}`
 
 - Incluye archivos ocultos:
 
-`immich upload --include-hidden --recursive {{ruta/al/directorio}}`
+`immich upload {{[-r|--recursive]}} {{ruta/al/directorio}} {{[-H|--include-hidden]}}`

@@ -31,3 +31,7 @@
 - Toon bookmarks:
 
 `<:>blist<Enter>`
+
+- Volg links:
+
+`<f>{{link_nummer}}<Enter>`

@@ -1,6 +1,6 @@
 # bzfgrep
 
-> Tämä on alias komennolle `bzgrep --fixed-strings`.
+> Tämä on alias `bzgrep --fixed-strings` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

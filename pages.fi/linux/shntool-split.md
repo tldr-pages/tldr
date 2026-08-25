@@ -1,6 +1,6 @@
 # shntool split
 
-> Tämä on alias komennolle `shnsplit`.
+> Tämä on alias `shnsplit` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -1,6 +1,6 @@
 # docker load
 
-> Tämä on alias komennolle `docker image load`.
+> Tämä on alias `docker image load` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

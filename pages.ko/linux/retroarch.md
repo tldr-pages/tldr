@@ -10,7 +10,7 @@
 
 - 전체 화면 모드로 시작:
 
-`retroarch --fullscreen`
+`retroarch {{[-f|--fullscreen]}}`
 
 - 컴파일된 모든 기능 나열:
 
@@ -18,11 +18,11 @@
 
 - 설정 파일의 경로 설정:
 
-`retroarch --config={{경로/대상/설정_파일}}`
+`retroarch {{[-c|--config]}} {{경로/대상/설정_파일}}`
 
 - 도움말 표시:
 
-`retroarch --help`
+`retroarch {{[-h|--help]}}`
 
 - 버전 표시:
 

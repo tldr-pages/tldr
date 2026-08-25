@@ -5,28 +5,28 @@
 
 - 도메인을 스캔하고 결과를 SQLite 데이터베이스에 저장:
 
-`dnsrecon --domain {{example.com}} --db {{경로/대상/데이터베이스.sqlite}}`
+`dnsrecon {{[-d|--domain]}} {{example.com}} --db {{경로/대상/데이터베이스.sqlite}}`
 
 - 도메인을 스캔하며 네임서버를 지정하고 존 전송 수행:
 
-`dnsrecon --domain {{example.com}} --name_server {{nameserver.example.com}} --type axfr`
+`dnsrecon {{[-d|--domain]}} {{example.com}} {{[-n|--name_server]}} {{nameserver.example.com}} {{[-t|--type]}} axfr`
 
 - 도메인을 스캔하며 서브도메인 및 호스트명의 사전으로 무차별 공격 수행:
 
-`dnsrecon --domain {{example.com}} --dictionary {{경로/대상/사전.txt}} --type brt`
+`dnsrecon {{[-d|--domain]}} {{example.com}} {{[-D|--dictionary]}} {{경로/대상/사전.txt}} {{[-t|--type]}} brt`
 
 - 도메인을 스캔하며 SPF 레코드에서 IP 범위의 역방향 조회를 수행하고 JSON 파일에 결과 저장:
 
-`dnsrecon --domain {{example.com}} -s --json`
+`dnsrecon {{[-d|--domain]}} {{example.com}} -s {{[-j|--json]}}`
 
 - 도메인을 스캔하며 Google 열거를 수행하고 CSV 파일에 결과 저장:
 
-`dnsrecon --domain {{example.com}} -g --csv`
+`dnsrecon {{[-d|--domain]}} {{example.com}} -g {{[-c|--csv]}}`
 
 - 도메인을 스캔하며 DNS 캐시 스누핑 수행:
 
-`dnsrecon --domain {{example.com}} --type snoop --name_server {{nameserver.example.com}} --dictionary {{경로/대상/사전.txt}}`
+`dnsrecon {{[-d|--domain]}} {{example.com}} {{[-t|--type]}} snoop {{[-n|--name_server]}} {{nameserver.example.com}} {{[-D|--dictionary]}} {{경로/대상/사전.txt}}`
 
 - 도메인을 스캔하며 존 워킹 수행:
 
-`dnsrecon --domain {{example.com}} --type zonewalk`
+`dnsrecon {{[-d|--domain]}} {{example.com}} {{[-t|--type]}} zonewalk`

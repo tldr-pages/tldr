@@ -1,6 +1,6 @@
 # pacman -Q
 
-> Tämä on alias komennolle `pacman --query`.
+> Tämä on alias `pacman --query` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

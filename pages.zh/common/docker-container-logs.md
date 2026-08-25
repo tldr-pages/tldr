@@ -9,7 +9,7 @@
 
 - 显示历史日志，然后跟踪容器日志：
 
-`docker {{[logs|container logs]}} {{[-f|--follow]}} {{容器_名称}}`
+`docker {{[logs|container logs]}} {{容器_名称}} {{[-f|--follow]}}`
 
 - 显示最后 5 行日志：
 
@@ -17,7 +17,7 @@
 
 - 显示带有时间戳的日志：
 
-`docker {{[logs|container logs]}} {{[-t|--timestamps]}} {{容器_名称}}`
+`docker {{[logs|container logs]}} {{容器_名称}} {{[-t|--timestamps]}}`
 
 - 展示容器运行过程中，自某个时间点以来的日志（也就是，23m、10s、2013-01-02T13:23:37）：
 
