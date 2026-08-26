@@ -5,20 +5,20 @@
 
 - Initialize terminals:
 
-`{{[tset|— initialization]}}`
-
-- Set the terminal modes to “sane” values:
-
-`{{[reset|— reinitialization]}}`
+`tset`
 
 - Set control characters and modes:
 
-`-c`
+`tset {{[-c]}}`
 
 - Print the terminal type to the (`standard error`) output:
 
-`-r`
+`tset {{[-r]}}`
 
 - Print the sequence of shell commands:
 
-`-s`
+`tset {{[-s]}}`
+
+- Resize the terminal window to the detected size:
+
+`tset {{[-w]}}`
