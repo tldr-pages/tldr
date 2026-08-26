@@ -26,7 +26,7 @@
 
 - Tunnel SSH : Transfère un port spécifique (localhost:9999 vers example.org:80) en désactivant l'allocation de pseudo-[t]ty et l'exécution de commandes distantes :
 
-`ssh -L {{9999}}:{{exemple.org}}:{{80}} -N -T {{utilisateur}}@{{hote_distant}}`
+`ssh -L {{9999}}:{{example.org}}:{{80}} -N -T {{utilisateur}}@{{hote_distant}}`
 
 - Saut SSH : Se connecter sur un serveur distant à travers une machine de rebond (plusieurs machines de rebond peuvent être définies en les séparant par des virgules) :
 
