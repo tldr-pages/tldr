@@ -1,7 +1,7 @@
 # grub-mkfont
 
 > Convert common font file formats into the PF2 format used by GRUB.
-> More information: <https://manpages.debian.org/latest/grub2-common/grub-mkfont.1.en.html>.
+> More information: <https://manned.org/grub-mkfont>.
 
 - Convert a font to PF2:
 
