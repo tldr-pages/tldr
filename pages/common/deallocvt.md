@@ -3,14 +3,18 @@
 > Deallocate unused virtual consoles.
 > More information: <https://manned.org/deallocvt>.
 
+- Free all unused consoles:
+
+`deallocvt`
+
 - Print version number:
 
-`{{[-V|--version]}}`
+`deallocvt {{[-V|--version]}}`
 
 - Print this usage message:
 
-`{{[-h|--help]}}`
+`deallocvt {{[-h|--help]}}`
 
 - Specify the console device to use:
 
-`{{[-C|--console]}}`
+`deallocvt {{[-C|--console]}}`
