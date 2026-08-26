@@ -18,7 +18,7 @@
 
 - Make a package, but skip checking the source's hashes and PGP signatures:
 
-`makepkg --skipchecksums --skippgpchecks`
+`makepkg --skipchecksums --skippgpcheck`
 
 - Clean up work directories after a successful build:
 
