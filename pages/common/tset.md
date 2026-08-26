@@ -15,7 +15,7 @@
 
 `tset {{[-r]}}`
 
-- Print the sequence of shell commands:
+- Print shell commands to set the environment:
 
 `tset {{[-s]}}`
 
