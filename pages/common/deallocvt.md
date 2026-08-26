@@ -7,14 +7,14 @@
 
 `deallocvt`
 
-- Print version number:
+- Display version:
 
 `deallocvt {{[-V|--version]}}`
 
-- Print this usage message:
+- Display help:
 
 `deallocvt {{[-h|--help]}}`
 
-- Specify the console device to use:
+- Deallocate a specific console:
 
-`deallocvt {{[-C|--console]}}`
+`deallocvt {{[-C|--console]}} {{/dev/ttyN}}`
