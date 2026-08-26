@@ -6,28 +6,28 @@
 
 - Renderizza tutti i frame di una animazione in background, senza caricare l'interfaccia grafica (l'output è salvato in `/tmp`):
 
-`blender --background {{nome_file.blend}} --render-anim`
+`blender {{[-b|--background]}} {{nome_file.blend}} {{[-a|--render-anim]}}`
 
 - Renderizza un'animazione usando uno specifico pattern, in un percorso relativo (`//`) al file `.blend`:
 
-`blender --background {{nome_file.blend}} --render-output //{{render/frame_###.png}} --render-anim`
+`blender {{[-b|--background]}} {{nome_file.blend}} {{[-o|--render-output]}} //{{render/frame_###.png}} {{[-a|--render-anim]}}`
 
 - Renderizza il decimo frame di un'animazione come singola immagine, salvandolo in una directory esistente (percorso assoluto):
 
-`blender --background {{nome_file.blend}} --render-output {{/percorso/della/directory_output}} --render-frame {{10}}`
+`blender {{[-b|--background]}} {{nome_file.blend}} {{[-o|--render-output]}} /{{percorso/della/directory_output}} {{[-f|--render-frame]}} {{10}}`
 
 - Renderizza il penultimo frame di un'animazione come immagine JPEG, salvandolo in una directory esistente (path relativa al file):
 
-`blender --background {{nome_file.blend}} --render-output //{{directory_output}} --render-frame {{JPEG}} --render-frame {{-2}}`
+`blender {{[-b|--background]}} {{nome_file.blend}} {{[-o|--render-output]}} //{{directory_output}} {{[-f|--render-frame]}} {{JPEG}} {{[-f|--render-frame]}} {{-2}}`
 
 - Renderizza l'animazione di una specifica scena, dal frame 10 al 500:
 
-`blender --background {{nome_file.blend}} --scene {{nome_scena}} --frame-start {{10}} --frame-end {{500}} --render-anim`
+`blender {{[-b|--background]}} {{nome_file.blend}} {{[-S|--scene]}} {{nome_scena}} {{[-s|--frame-start]}} {{10}} {{[-e|--frame-end]}} {{500}} {{[-a|--render-anim]}}`
 
 - Renderizza un'animazione ad una specifica risoluzione, attraverso l'utilizzo di uno script python:
 
-`blender --background {{nome_file.blend}} --python-expr '{{import bpy; bpy.data.scenes[0].render.resolution_percentage = 25}}' --render-anim`
+`blender {{[-b|--background]}} {{nome_file.blend}} --python-expr '{{import bpy; bpy.data.scenes[0].render.resolution_percentage = 25}}' {{[-a|--render-anim]}}`
 
 - Avvia una sessione interattiva di Blender nel terminale con una console python (esegui `import bpy` dopo l'avvio):
 
-`blender --background --python-console`
+`blender {{[-b|--background]}} --python-console`

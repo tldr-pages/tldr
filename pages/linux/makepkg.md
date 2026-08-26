@@ -18,7 +18,7 @@
 
 - Make a package, but skip checking the source's hashes, PGP signatures, and the `PKGBUILD` `check()` function:
 
-`makepkg {{[--skipinteg|--skipchecksums --skippgpchecks]}} --nocheck`
+`makepkg {{[--skipinteg|--skipchecksums --skippgpcheck]}} --nocheck`
 
 - Clean up work directories after a successful build:
 

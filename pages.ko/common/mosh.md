@@ -26,4 +26,4 @@
 
 - `mosh-server` 바이너리가 표준 경로 외부에 있을 때 사용법:
 
-`mosh --server={{경로/대상/바이너리/}}mosh-server {{원격_호스트}}`
+`mosh --server={{경로/대상/바이너리/mosh-server}} {{원격_호스트}}`
