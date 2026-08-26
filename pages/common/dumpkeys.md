@@ -3,30 +3,34 @@
 > Dump keyboard translation tables.
 > More information: <https://manned.org/dumpkeys>.
 
+- Display the current keyboard mapping:
+
+`dumpkeys`
+
 - Display help:
 
-`{{[-h|--help]}}`
+`dumpkeys {{[-h|--help]}}`
 
-- Print some characteristics of the kernel's keyboard driver:
+- Display kernel keyboard info:
 
-`{{[-i|--short-info]}}`
+`dumpkeys {{[-i|--short-info]}}`
 
-- Skip all the short-hand heuristics:
+- Skip shorthand heuristics:
 
-`{{[-f|--full-table]}}`
+`dumpkeys {{[-f|--full-table]}}`
 
-- Force dumpkeys to write one line per (modifier,keycode) pair:
+- Print one line per (modifier, keycode) pair:
 
-`{{[-1|--separate-lines]}}`
+`dumpkeys {{[-1|--separate-lines]}}`
 
-- Print only the function key string:
+- Display function key strings:
 
-`{{[-t|--funcs-only]}}`
+`dumpkeys {{[-t|--funcs-only]}}`
 
-- Turn on verbose output:
+- Enable verbose output:
 
-`{{[-v|--verbose]}}`
+`dumpkeys {{[-v|--verbose]}}`
 
 - Display version:
 
-`{{[-V|--version]}}`
+`dumpkeys {{[-V|--version]}}`
