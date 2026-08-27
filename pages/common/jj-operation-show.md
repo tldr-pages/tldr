@@ -1,7 +1,6 @@
 # jj operation show
 
 > Show repository changes in an operation.
-> See also: `jj operation abandon`, `jj operation diff`, `jj operation integrate`, `jj operation log`, `jj operation restore`, `jj operation revert`.
 > More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-operation-show>.
 
 - Show repository changes in the current operation compared to its parent:

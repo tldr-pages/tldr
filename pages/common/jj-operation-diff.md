@@ -1,7 +1,6 @@
 # jj operation diff
 
 > Compare changes to the repository between two operations.
-> See also: `jj operation abandon`, `jj operation integrate`, `jj operation log`, `jj operation restore`, `jj operation revert`, `jj operation show`.
 > More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-operation-diff>.
 
 - Compare repository changes in a specific operation to its parent:
