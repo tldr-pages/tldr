@@ -11,11 +11,3 @@
 - Add a Git remote with a specific push URL:
 
 `jj git remote add --push-url {{push_url}} {{remote_name}} {{remote_url}}`
-
-- Add a Git remote and fetch all tags:
-
-`jj git remote add --fetch-tags all {{remote_name}} {{remote_url}}`
-
-- Add a Git remote without fetching tags:
-
-`jj git remote add --fetch-tags none {{remote_name}} {{remote_url}}`
