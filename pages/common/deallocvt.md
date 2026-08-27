@@ -7,14 +7,14 @@
 
 `deallocvt`
 
-- Display version:
+- Deallocate a specific console:
 
-`deallocvt {{[-V|--version]}}`
+`deallocvt {{[-C|--console]}} {{/dev/ttyN}}`
 
 - Display help:
 
 `deallocvt {{[-h|--help]}}`
 
-- Deallocate a specific console:
+- Display version:
 
-`deallocvt {{[-C|--console]}} {{/dev/ttyN}}`
+`deallocvt {{[-V|--version]}}`
