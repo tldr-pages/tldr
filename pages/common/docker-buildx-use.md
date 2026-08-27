@@ -1,7 +1,7 @@
 # docker buildx use
 
 > Set the current builder instance.
-> More information: <https://docs.docker.com/reference/cli/docker/buildx/use/>.
+> More information: <https://docs.docker.com/reference/cli/docker/buildx/use>.
 
 - Set a specific builder instance as the current one:
 

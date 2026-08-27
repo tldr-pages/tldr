@@ -1,7 +1,7 @@
 # docker buildx stop
 
 > Stop a builder instance.
-> More information: <https://docs.docker.com/reference/cli/docker/buildx/stop/>.
+> More information: <https://docs.docker.com/reference/cli/docker/buildx/stop>.
 
 - Stop the current builder instance:
 

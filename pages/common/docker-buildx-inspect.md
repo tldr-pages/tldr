@@ -1,7 +1,7 @@
 # docker buildx inspect
 
 > Inspect the current or a specified builder instance.
-> More information: <https://docs.docker.com/reference/cli/docker/buildx/inspect/>.
+> More information: <https://docs.docker.com/reference/cli/docker/buildx/inspect>.
 
 - Show information about the current builder instance:
 
