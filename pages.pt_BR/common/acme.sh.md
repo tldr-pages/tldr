@@ -10,7 +10,7 @@
 
 - Emite um certificado para múltiplos domínios usando o modo standalone na porta 80:
 
-`acme.sh --issue --standalone {{[-d|--domain]}} {{example.com}} {{[-d|--domain]}} {{www.exemplo.com}}`
+`acme.sh --issue --standalone {{[-d|--domain]}} {{example.com}} {{[-d|--domain]}} {{www.example.com}}`
 
 - Emite um certificado usando o modo standaline TLS na porta 443:
 
@@ -30,4 +30,4 @@
 
 - Instala os arquivos dos certificaods em um local específico (útil para renovação automática do certificado):
 
-`acme.sh {{[-i|--install-cert]}} {{[-d|--domain]}} {{example.com}} --key-file /{{caminho/para/exemplo.com.key}} --fullchain-file /{{caminho/para/exemplo.com.cer}} --reloadcmd "{{systemctl force-reload nginx}}"`
+`acme.sh {{[-i|--install-cert]}} {{[-d|--domain]}} {{example.com}} --key-file /{{caminho/para/example.com.key}} --fullchain-file /{{caminho/para/example.com.cer}} --reloadcmd "{{systemctl force-reload nginx}}"`
