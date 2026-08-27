@@ -1,7 +1,7 @@
 # opencode
 
 > 一個用於程式設計的 AI 代理程式。
-> 部分子命令（例如 `auth`、`models`、`web` 等）有各自的使用說明文件。
+> 此命令也有關於其子命令的文件，例如：`auth`、`models`、`web`。
 > 更多資訊：<https://opencode.ai/docs/cli/>。
 
 - 啟動互動式終端使用者介面（TUI）：
@@ -30,7 +30,7 @@
 
 - 啟動無介面的 OpenCode 伺服器以供 API 存取：
 
-`opencode serve {{[-h|--hostname]}} {{主機名稱}} {{[-p|--port]}} {{連接埠}}`
+`opencode serve {{[-h|--hostname]}} {{主機名稱}} {{[-p|--port]}} {{埠}}`
 
 - 使用自訂設定建立新的代理程式：
 
