@@ -17,7 +17,7 @@
 
 - Execute specific commands and then enter an interactive shell:
 
-`cmd /k {{echo 'cmd is executed'}}`
+`cmd /k {{echo cmd is executed}}`
 
 - Start an interactive shell session where `echo` is disabled in command output:
 
