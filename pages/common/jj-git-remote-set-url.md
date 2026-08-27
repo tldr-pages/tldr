@@ -1,7 +1,6 @@
 # jj git remote set-url
 
 > Set the URL of a Git remote.
-> See also: `jj git remote add`, `jj git remote list`, `jj git remote remove`, `jj git remote rename`.
 > More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-git-remote-set-url>.
 
 - Set the fetch URL for a Git remote:
