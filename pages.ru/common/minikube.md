@@ -11,7 +11,7 @@
 
 `minikube ip`
 
-- Получить URL сервиса с именем `my_service`, доступного через порт узла:
+- Получить URL для доступа к сервису с именем `my_service`, доступному через порт узла:
 
 `minikube service {{my_service}} --url`
 
