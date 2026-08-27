@@ -11,9 +11,9 @@
 
 `reflector {{[-c|--country]}} Germany {{[-p|--protocol]}} https`
 
-- Only get the 10 recently sync'd mirrors:
+- Only get the 10 recently synced mirrors:
 
-`reflector {{[-l|--latest]}} {{10}}`
+`reflector {{[-l|--latest]}} 10`
 
 - Use a configuration file to fetch mirrors:
 

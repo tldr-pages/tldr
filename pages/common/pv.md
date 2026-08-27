@@ -30,3 +30,7 @@
 - Calculate hash (MD5, SHA1, SHA256, etc) of a large file and show progress:
 
 `pv {{path/to/file}} | {{sha256sum}}`
+
+- Only display a timer for how long a command has taken to run:
+
+`{{command}} | pv {{[-t|--timer]}}`

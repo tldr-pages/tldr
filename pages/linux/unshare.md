@@ -13,4 +13,8 @@
 
 - Execute a command as a child process without sharing mounts, processes, or networks:
 
-`sudo unshare {{[-minf|--mount --pid --net --fork]}} {{command}} {{argument1 argument2 ...}}`
+`sudo unshare {{[-mpnf|--mount --pid --net --fork]}} {{command}} {{argument1 argument2 ...}}`
+
+- Create a container manually:
+
+`sudo unshare {{[-puinmf|--pid --uts --ipc --net --mount --fork]}} chroot {{path/to/new_root}} {{/bin/sh}}`
