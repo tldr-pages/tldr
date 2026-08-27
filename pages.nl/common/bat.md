@@ -2,6 +2,7 @@
 
 > Bestanden tonen en samenvoegen.
 > Een `cat` kopie met syntax highlighting en Git integratie.
+> Zie ook: `cat`.
 > Meer informatie: <https://manned.org/bat>.
 
 - Toon de inhoud van een of meerdere bestanden in `stdout`:

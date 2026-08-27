@@ -1,6 +1,7 @@
 # cat
 
 > Print en concateneer bestanden.
+> Zie ook: `bat`.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html>.
 
 - Print de inhoud van een bestand naar `stdout`:

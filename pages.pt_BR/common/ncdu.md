@@ -1,6 +1,7 @@
 # ncdu
 
 > Analisador de uso de disco com uma interface ncurses.
+> Veja também: `duf`, `df`.
 > Mais informações: <https://dev.yorhel.nl/ncdu/man>.
 
 - Analisa o diretório de trabalho atual:

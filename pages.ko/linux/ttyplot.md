@@ -5,7 +5,7 @@
 
 - 값 `1`, `2`, `3`을 플로팅 (`cat`은 ttyplot의 종료를 방지):
 
-`{ echo {{1 2 3}}; cat; } | ttyplot`
+`{ echo 1 2 3; cat; } | ttyplot`
 
 - 특정 제목과 단위를 설정:
 
@@ -13,7 +13,7 @@
 
 - while 루프를 사용하여 랜덤 값을 지속적으로 플로팅:
 
-`{ while {{true}}; do echo {{$RANDOM}}; sleep {{1}}; done } | ttyplot`
+`{ while true; do echo $RANDOM; sleep {{1}}; done } | ttyplot`
 
 - `ping`의 출력을 파싱하여 시각화:
 

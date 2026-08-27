@@ -30,7 +30,7 @@
 
 - Bearbeite die 5 letzten Commits der aktuellen Basis um diese neu zu ordnen, auszulassen, kombinieren oder zu bearbeiten:
 
-`git rebase {{[-i|--interactive]}} {{HEAD~5}}`
+`git rebase {{[-i|--interactive]}} HEAD~5`
 
 - Löse Konflikte automatisch auf, indem der aktuelle Branch bevorzugt wird (das Schlüsselwort `theirs` hat in diesem Fall eine umgekehrte Bedeutung):
 

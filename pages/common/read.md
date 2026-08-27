@@ -31,6 +31,6 @@
 
 `read -s {{variable}}`
 
-- Read `stdin` and perform an action on every line:
+- Perform an action on each line of a command's output:
 
-`cat {{/dev/stdin|path/to/file|...}} | while read line; do {{echo|ls|rm|...}} "$line"; done`
+`{{command}} | while IFS= read -r line; do {{echo|ls|rm|...}} "$line"; done`

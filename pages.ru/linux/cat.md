@@ -1,6 +1,7 @@
 # cat
 
 > Выводить и объединять файлы.
+> Смотрите также: `bat`.
 > Больше информации: <https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html>.
 
 - Вывести содержимое файла в `stdout`:

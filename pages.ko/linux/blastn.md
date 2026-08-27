@@ -13,7 +13,7 @@
 
 - 사용자 정의 표형식 출력, 파일로 출력:
 
-`blastn -query {{query.fa}} -subject {{subject.fa}} -outfmt {{'6 qseqid qlen qstart qend sseqid slen sstart send bitscore evalue pident'}} -out {{output.tsv}}`
+`blastn -query {{query.fa}} -subject {{subject.fa}} -outfmt '{{6 qseqid qlen qstart qend sseqid slen sstart send bitscore evalue pident}}' -out {{output.tsv}}`
 
 - 뉴클레오타이드 쿼리를 사용하여 뉴클레오타이드 데이터베이스 검색, BLAST 검색에 사용할 스레드(CPU) 16개, 최대 10개의 정렬된 서열 유지:
 
