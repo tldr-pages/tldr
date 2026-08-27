@@ -1,7 +1,6 @@
 # jj file search
 
 > Search for content in files in a `jj` repository.
-> See also: `jj file list`, `jj file show`.
 > More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-file-search>.
 
 - Search for files containing a `regex` in the working copy:

@@ -1,7 +1,6 @@
 # jj file show
 
 > Print contents of files in a revision of a `jj` repository.
-> See also: `jj file list`, `jj file search`.
 > More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-file-show>.
 
 - Print the contents of a file in the working copy:

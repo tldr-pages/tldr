@@ -1,7 +1,6 @@
 # jj file annotate
 
 > Show the source change for each line of a target file in a `jj` repository.
-> See also: `jj file list`, `jj file show`.
 > More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-file-annotate>.
 
 - Annotate a file line by line in the working copy:

@@ -1,7 +1,6 @@
 # jj file list
 
 > List files in a revision of a `jj` repository.
-> See also: `jj file search`, `jj file show`.
 > More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-file-list>.
 
 - List all files in the current working copy:
