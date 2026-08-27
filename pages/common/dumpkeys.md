@@ -7,10 +7,6 @@
 
 `dumpkeys`
 
-- Display help:
-
-`dumpkeys {{[-h|--help]}}`
-
 - Display kernel keyboard info:
 
 `dumpkeys {{[-i|--short-info]}}`
@@ -30,6 +26,10 @@
 - Enable verbose output:
 
 `dumpkeys {{[-v|--verbose]}}`
+
+- Display help:
+
+`dumpkeys {{[-h|--help]}}`
 
 - Display version:
 
