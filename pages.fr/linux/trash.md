@@ -29,4 +29,4 @@
 
 - Supprime tous les fichiers ayant un emplacement d’origine spécifique :
 
-`trash-rm /{{chemin/vers/fichier_ou_répertoire}}`
+`trash-rm /{{chemin/vers/fichier_ou_dossier}}`
