@@ -3,7 +3,7 @@
 > Affiche l’état de pare-feu simple et ses règles.
 > Plus d’informations : <https://manned.org/ufw>.
 
- Affiche si le pare-feu est actif et liste les règles :
+- Affiche si le pare-feu est actif et liste les règles :
 
 `sudo ufw status`
 
