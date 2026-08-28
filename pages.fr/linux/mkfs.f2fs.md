@@ -9,4 +9,4 @@
 
 - Crée un système de fichiers F2FS avec une étiquette de volume :
 
-`sudo mkfs.f2fs -l {{volume_label}} {{/dev/sdXY}}`
+`sudo mkfs.f2fs -l {{étiquette_volume}} {{/dev/sdXY}}`
