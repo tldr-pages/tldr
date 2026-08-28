@@ -33,4 +33,4 @@
 
 - Set the lockout action applied once a user's time runs out:
 
-`timekpra --setlockouttype {{username}} {{lock|suspend|terminate|shutdown}}`
+`timekpra --setlockouttype {{username}} {{lock|suspend|suspendwake|terminate|kill|shutdown}}`
