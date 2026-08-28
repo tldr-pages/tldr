@@ -1,7 +1,6 @@
 # timekpra
 
 > Command-line administration client for Timekpr-nExT, a tool to manage and limit computer usage time per user account.
-> Automatically falls back to this CLI mode when no graphical display is available.
 > More information: <https://mjasnik.gitlab.io/timekpr-next/>.
 
 - List all users known to Timekpr-nExT:
