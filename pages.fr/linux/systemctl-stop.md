@@ -5,12 +5,12 @@
 
 - Arrête une unité :
 
-  `systemctl stop {{unité}}`
+`systemctl stop {{unité}}`
 
 - Arrête un service et masque les avertissements :
 
-  `systemctl stop {{unité}} --no-warn`
+`systemctl stop {{unité}} --no-warn`
 
 - Arrête une unité utilisateur :
 
-  `systemctl stop {{unité}} --user`
+`systemctl stop {{unité}} --user`
