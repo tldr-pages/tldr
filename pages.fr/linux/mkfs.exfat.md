@@ -1,7 +1,7 @@
 # mkfs.exfat
 
 > Crée un système de fichiers exfat à l’intérieur d’une partition.
-> Plus d’informations : https://manned.org/mkfs.exfat.
+> Plus d’informations : <https://manned.org/mkfs.exfat>.
 
 - Crée un système de fichiers exfat dans la partition Y sur le périphérique X :
 
