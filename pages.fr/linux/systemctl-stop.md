@@ -1,16 +1,16 @@
 # systemctl stop
 
-> Arrêter des unités systemd.
+> Arrête des unités systemd.
 > Plus d'informations : <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#stop%20PATTERN%E2%80%A6>.
 
-- Arrêter une unité :
+- Arrête une unité :
 
   `systemctl stop {{unité}}`
 
-- Arrêter un service et masquer les avertissements :
+- Arrête un service et masque les avertissements :
 
   `systemctl stop {{unité}} --no-warn`
 
-- Arrêter une unité utilisateur :
+- Arrête une unité utilisateur :
 
   `systemctl stop {{unité}} --user`
