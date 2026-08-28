@@ -9,4 +9,4 @@
 
 - Crée un système de fichiers XFS avec une étiquette de volume :
 
-`sudo mkfs.xfs -L {{volume_label}} {{/dev/sdXY}}`
+`sudo mkfs.xfs -L {{étiquette_volume}} {{/dev/sdXY}}`
