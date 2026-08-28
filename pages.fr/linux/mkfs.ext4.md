@@ -9,7 +9,7 @@
 
 - Crée un système de fichiers ext4 avec une étiquette de volume :
 
-`sudo mkfs.ext4 -L {{volume_label}} {{/dev/sdXY}}`
+`sudo mkfs.ext4 -L {{étiquette_volume}} {{/dev/sdXY}}`
 
 - Crée un système de fichiers ext4 appartenant à un utilisateur et à un groupe spécifiques :
 
