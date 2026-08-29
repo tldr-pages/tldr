@@ -1,7 +1,7 @@
 # mkfs.ext4
 
 > Crée un système de fichiers ext4 à l’intérieur d’une partition.
-> Plus d’informations : <https://manned.org/mkfs.ext4>.
+> Plus d'informations : <https://manned.org/mkfs.ext4>.
 
 - Crée un système de fichiers ext4 dans la partition Y sur le périphérique X :
 
