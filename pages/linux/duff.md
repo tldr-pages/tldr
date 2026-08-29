@@ -9,11 +9,11 @@
 
 - List all but one file from each cluster of duplicates:
 
-`duff -e -r {{path/to/directory}}`
+`duff -er {{path/to/directory}}`
 
 - List unique files:
 
-`duff -u -r {{path/to/directory}}`
+`duff -ur {{path/to/directory}}`
 
 - Use SHA-256 instead of SHA-1:
 
