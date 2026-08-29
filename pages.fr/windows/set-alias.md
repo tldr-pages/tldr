@@ -2,7 +2,7 @@
 
 > Une commande PowerShell permettant de définir ou de modifier un alias.
 > Remarque : `sal` peut être utilisé comme alias pour `Set-Alias`.
-> Plus d’informations : <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/set-alias>.
+> Plus d'informations : <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/set-alias>.
 
 - Crée ou réattribue un nouvel alias :
 
