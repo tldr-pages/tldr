@@ -23,7 +23,7 @@
 
 `woodpecker-cli exec --secrets {{name1="value1",name2="value2",...}} {{path/to/workflow.yml}}`
 
-- Setup woodpecker-cli for managing a Woodpecker CI server:
+- Set up the command-line client to manage a Woodpecker CI server:
 
 `woodpecker-cli setup`
 
