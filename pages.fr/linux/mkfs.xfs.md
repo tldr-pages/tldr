@@ -1,7 +1,7 @@
 # mkfs.xfs
 
 > Crée un système de fichiers XFS à l’intérieur d’une partition.
-> Plus d’informations : <https://manned.org/mkfs.xfs>.
+> Plus d'informations : <https://manned.org/mkfs.xfs>.
 
 - Crée un système de fichiers XFS dans la partition Y du périphérique X :
 
