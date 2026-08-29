@@ -1,7 +1,7 @@
 # ufw allow
 
 > Autorise le trafic à travers le pare-feu.
-> Plus d’informations : <https://manned.org/ufw>.
+> Plus d'informations : <https://manned.org/ufw>.
 
 - Autorise tout trafic sur un port :
 
