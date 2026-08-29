@@ -2,7 +2,7 @@
 
 > Simple pare-feu.
 > Interface pour `iptables` visant à simplifier la configuration d’un pare-feu.
-> Plus d’informations : <https://manned.org/ufw>.
+> Plus d'informations : <https://manned.org/ufw>.
 
 - Active/désactive `ufw` :
 
