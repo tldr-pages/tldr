@@ -23,7 +23,7 @@
 
 `trash-empty 10`
 
-- Supprime tous les fichiers de la corbeille qui correspondent à schéma d'expansion de fichier :
+- Supprime tous les fichiers de la corbeille qui correspondent au schéma d'expansion de fichier :
 
 `trash-rm "{{*.o}}"`
 
