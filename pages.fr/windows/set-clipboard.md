@@ -2,7 +2,7 @@
 
 > Commande PowerShell permettant de placer du contenu dans le presse-papiers.
 > Remarque : `scb` peut être utilisé comme alias pour `Set-Clipboard`.
-> Plus d’informations : <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/set-clipboard>.
+> Plus d'informations : <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/set-clipboard>.
 
 - Copie du texte dans le presse-papiers :
 
