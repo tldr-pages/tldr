@@ -1,6 +1,6 @@
 # ufw
 
-> Simple pare-feu
+> Simple pare-feu.
 > Interface pour `iptables` visant à simplifier la configuration d’un pare-feu.
 > Plus d’informations : <https://manned.org/ufw>.
 
