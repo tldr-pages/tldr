@@ -9,7 +9,7 @@
 
 - Obre una URL en el navegador predeterminat:
 
-`xdg-open {{https://www.exemple.cat}}`
+`xdg-open {{https://www.example.com}}`
 
 - Obre una imatge en el visor d'imatges predeterminat:
 
