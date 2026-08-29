@@ -23,7 +23,7 @@
 
 `trash-empty 10`
 
-- Supprime tous les fichiers de la corbeille qui correspondent à un motif de type glob spécifique :
+- Supprime tous les fichiers de la corbeille qui correspondent à schéma d'expension de fichier :
 
 `trash-rm "{{*.o}}"`
 
