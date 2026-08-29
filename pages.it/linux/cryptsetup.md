@@ -10,15 +10,15 @@
 
 - Apre un volume LUKS e crea un mapping decrittografato su `/dev/mapper/mapping_name`:
 
-`cryptsetup open {{/dev/sdXY}} {{mapping_name}}`
+`cryptsetup open {{/dev/sdXY}} {{nome_mapping}}`
 
 - Mostra informazioni su un mapping:
 
-`cryptsetup status {{mapping_name}}`
+`cryptsetup status {{nome_mapping}}`
 
 - Rimuove un mapping esistente:
 
-`cryptsetup close {{mapping_name}}`
+`cryptsetup close {{nome_mapping}}`
 
 - Cambia la passphrase di un volume LUKS:
 

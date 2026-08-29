@@ -7,20 +7,20 @@
 
 - Apre un volume LUKS e crea un mapping decrittografato su `/dev/mapper/mapping_name`:
 
-`cryptsetup open {{/dev/sdXY}} {{mapping_name}}`
+`cryptsetup open {{/dev/sdXY}} {{nome_mapping}}`
 
 - Utilizza un keyfile invece di una passphrase:
 
-`cryptsetup open {{[-k|--key-file]}} {{path/to/file}} {{/dev/sdXY}} {{mapping_name}}`
+`cryptsetup open {{[-k|--key-file]}} {{path/to/file}} {{/dev/sdXY}} {{nome_mapping}}`
 
 - Permette l'uso di TRIM sul dispositivo:
 
-`cryptsetup open --allow-discards {{/dev/sdXY}} {{mapping_name}}`
+`cryptsetup open --allow-discards {{/dev/sdXY}} {{nome_mapping}}`
 
 - Scrive l'opzione `--allow-discards` nell'intestazione LUKS (l'opzione verrà quindi sempre utilizzata quando si apre il dispositivo):
 
-`cryptsetup open --allow-discards --persistent {{/dev/sdXY}} {{mapping_name}}`
+`cryptsetup open --allow-discards --persistent {{/dev/sdXY}} {{nome_mapping}}`
 
 - Apre un volume LUKS e rende il mapping decrittografato di sola lettura:
 
-`cryptsetup open {{[-r|--readonly]}} {{/dev/sdXY}} {{mapping_name}}`
+`cryptsetup open {{[-r|--readonly]}} {{/dev/sdXY}} {{nome_mapping}}`
