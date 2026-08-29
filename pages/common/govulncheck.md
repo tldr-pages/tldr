@@ -16,7 +16,7 @@
 
 `govulncheck -mode binary {{path/to/binary}}`
 
-- Extract build information and build information from a go binary:
+- Extract build information and build dependencies from a Go binary:
 
 `govulncheck -mode extract {{path/to/binary}}`
 
