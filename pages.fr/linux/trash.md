@@ -1,7 +1,7 @@
 # trash
 
 > Gère la corbeille.
-> Plus d’informations : <https://github.com/andreafrancia/trash-cli>.
+> Plus d'informations : <https://github.com/andreafrancia/trash-cli>.
 
 - Envoie un fichier à la corbeille :
 
