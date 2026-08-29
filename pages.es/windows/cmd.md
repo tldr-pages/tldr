@@ -9,7 +9,7 @@
 
 - Ejecuta [c]omandos específicos:
 
-`cmd /c {{echo 'cmd es ejecutado'}}`
+`cmd /c {{echo cmd es ejecutado}}`
 
 - Ejecuta un script específico:
 
