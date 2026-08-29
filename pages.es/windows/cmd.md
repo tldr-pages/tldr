@@ -17,7 +17,7 @@
 
 - Ejecuta comandos específicos y luego entrar en un shell interactivo:
 
-`cmd /k {{echo 'cmd es ejecutado'}}`
+`cmd /k {{echo cmd es ejecutado}}`
 
 - Inicia una sesión shell interactiva donde `echo` está desactivado en la salida de comandos:
 
