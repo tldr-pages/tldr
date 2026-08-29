@@ -2,7 +2,7 @@
 
 > Affiche le dossier de travail actuel ou se déplace vers un autre dossier.
 > Remarque : cette commande peut uniquement être utilisée via PowerShell.
-> Plus d’informations : <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/set-location>.
+> Plus d'informations : <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/set-location>.
 
 - Va dans le dossier spécifié :
 
