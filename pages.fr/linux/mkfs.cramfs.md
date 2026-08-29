@@ -1,7 +1,7 @@
 # mkfs.cramfs
 
 > Crée un système de fichiers ROM à l’intérieur d’une partition.
-> Plus d’informations : <https://manned.org/mkfs.cramfs>.
+> Plus d'informations : <https://manned.org/mkfs.cramfs>.
 
 - Crée un système de fichiers ROM à partir d’un dossier dans la partition Y sur le périphérique X :
 
