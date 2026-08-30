@@ -1,7 +1,6 @@
 # pkg
 
 > Gestionnaire de paquets FreeBSD.
->
 > Plus d'informations : <https://man.freebsd.org/cgi/man.cgi?pkg>.
 
 - Installe un nouveau paquet :
