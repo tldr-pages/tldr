@@ -11,7 +11,7 @@
 
 - Effectue une simulation — affiche les modifications qui seraient effectuées sans les appliquer :
 
-`rename -n 's/{{from}}/{{to}}/' {{*.txt}}`
+`rename -n 's/{{depuis}}/{{vers}}/' {{*.txt}}`
 
 - Modifie l’extension :
 
