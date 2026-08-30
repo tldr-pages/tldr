@@ -15,7 +15,7 @@
 
 - Modifie l’extension :
 
-`rename 's/\.{{old}}$/\.{{new}}/' {{*.txt}}`
+`rename 's/\.{{ancienne}}$/\.{{nouvelle}}/' {{*.txt}}`
 
 - Convertit les noms en minuscules (utilise `-f` avec les systèmes de fichiers insensibles à la casse) :
 
