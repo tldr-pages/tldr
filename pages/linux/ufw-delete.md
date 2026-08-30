@@ -3,7 +3,7 @@
 > Delete firewall rules.
 > More information: <https://manned.org/ufw>.
 
-- Delete corresponding rule:
+- Delete an exact matching rule:
 
 `sudo ufw delete {{rule}}`
 
