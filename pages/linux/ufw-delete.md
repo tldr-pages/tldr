@@ -9,4 +9,4 @@
 
 - Delete a rule by its rule number:
 
-`sudo ufw delete {{num}}`
+`sudo ufw delete {{number}}`
