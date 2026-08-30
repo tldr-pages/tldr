@@ -1,6 +1,7 @@
 # docker compose
 
 > Run and manage multi container Docker applications.
+> Some subcommands such as `up`, `down`, `logs`, `stop` have their own usage documentation.
 > More information: <https://docs.docker.com/reference/cli/docker/compose/>.
 
 - List all running containers:
