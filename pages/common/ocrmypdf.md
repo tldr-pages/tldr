@@ -5,7 +5,7 @@
 
 - Create a new searchable PDF/A file from a scanned PDF or image file:
 
-`ocrmypdf {{path/to/input}} {{path/to/output.pdf}}`
+`ocrmypdf {{path/to/input.pdf}} {{path/to/output.pdf}}`
 
 - Skip pages of a mixed-format input PDF file that already contain text:
 
