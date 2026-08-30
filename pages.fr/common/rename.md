@@ -7,7 +7,7 @@
 
 - Remplace `depuis` par `vers` dans les noms des fichiers spécifiés :
 
-`rename 's/{{from}}/{{to}}/' {{*.txt}}`
+`rename 's/{{depuis}}/{{vers}}/' {{*.txt}}`
 
 - Effectue une simulation — affiche les modifications qui seraient effectuées sans les appliquer :
 
