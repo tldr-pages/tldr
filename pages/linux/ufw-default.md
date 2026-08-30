@@ -1,4 +1,4 @@
-# ufw-default
+# ufw default
 
 > Change the default policy for traffic based on direction.
 > More information: <https://manned.org/ufw>.
