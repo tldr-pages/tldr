@@ -25,6 +25,6 @@
 
 `rename {{[-f|--force]}} 's/\b(\w)/\U$1/g' {{*.txt}}`
 
-- Remplace les espaces par des underscores :
+- Remplace les espaces par des tirets bas :
 
 `rename 's/\s+/_/g' {{*.txt}}`
