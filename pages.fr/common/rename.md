@@ -5,7 +5,7 @@
 > Remarque : cette page concerne la version Perl, également appelée `file-rename`.
 > Plus d'informations : <https://manned.org/prename>.
 
-- Remplace `from` par `to` dans les noms des fichiers spécifiés :
+- Remplace `depuis` par `vers` dans les noms des fichiers spécifiés :
 
 `rename 's/{{from}}/{{to}}/' {{*.txt}}`
 
