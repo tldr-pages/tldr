@@ -7,6 +7,6 @@
 
 `sudo ufw delete {{rule}}`
 
-- Delete rule from number:
+- Delete a rule by its rule number:
 
 `sudo ufw delete {{num}}`
