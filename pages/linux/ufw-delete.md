@@ -1,6 +1,6 @@
 # ufw delete
 
-> Deletes corresponding rules.
+> Delete firewall rules.
 > More information: <https://manned.org/ufw>.
 
 - Delete corresponding rule:
