@@ -4,4 +4,4 @@
 
 - Affiche la documentation de la commande originale :
 
-`tldr base32  
+`tldr base32`
