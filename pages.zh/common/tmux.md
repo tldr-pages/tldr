@@ -2,7 +2,7 @@
 
 > 终端复用器。
 > 支持包含窗口、窗格等的多个会话。
-> 另请参阅：`zellij`, `screen`。
+> 另请参阅：`zellij`, `screen`, `herdr`。
 > 更多信息：<https://github.com/tmux/tmux>。
 
 - 启动一个新会话：

@@ -1,6 +1,7 @@
 # lp
 
 > Druckt Dateien.
+> Siehe auch: `lpstat`, `lpoptions`.
 > Weitere Informationen: <https://manned.org/lp>.
 
 - Drucke die Ausgabe eines Befehls mit dem Standard-Drucker (siehe `lpstat`):
