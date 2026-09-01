@@ -2,7 +2,7 @@
 
 > Version control system by Epic Games.
 > Optimized for projects combining code with large binary assets.
-> More information: <https://lore.org>.
+> More information: <https://github.com/EpicGames/lore/blob/main/docs/reference/lore-cli-commands.md>.
 
 - Clone an existing repository:
 
