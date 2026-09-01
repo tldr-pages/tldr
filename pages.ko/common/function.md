@@ -1,6 +1,7 @@
 # function
 
 > 함수 정의.
+> 관련 항목: `declare`, `unset`.
 > 더 많은 정보: <https://www.gnu.org/software/bash/manual/bash.html#Shell-Functions>.
 
 - 지정한 이름으로 함수 정의:
