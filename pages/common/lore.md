@@ -16,9 +16,9 @@
 
 `lore commit {{[-m|--message]}} "{{message}}"`
 
-- Create and switch to a new branch:
+- Create a new branch:
 
-`lore checkout -b {{branch_name}}`
+`lore branch create {{branch_name}}`
 
 - Start a local server in demo mode:
 
