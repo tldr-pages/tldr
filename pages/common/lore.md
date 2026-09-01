@@ -26,7 +26,7 @@
 
 - Display help:
 
-`lore {{--help|help}}`
+`lore help`
 
 - Display version:
 
