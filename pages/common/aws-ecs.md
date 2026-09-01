@@ -19,7 +19,7 @@
 
 `aws ecs deregister-task-definition --task-definition {{task_definition}}:{{revision_number}}`
 
-- List services:
+- List services in a specific cluster:
 
 `aws ecs list-services --cluster {{cluster_name}}`
 
