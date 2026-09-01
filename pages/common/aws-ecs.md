@@ -13,7 +13,7 @@
 
 - Create a task definition or make a revision:
 
-`aws ecs register-task-definition --cli-input-json file://{{filename}}`
+`aws ecs register-task-definition --cli-input-json file://{{path_to_file.json}}`
 
 - Deregister a task definition marking them INACTIVE:
 
