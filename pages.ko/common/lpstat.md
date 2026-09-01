@@ -1,6 +1,7 @@
 # lpstat
 
 > 프린터에 대한 상태 정보를 표시.
+> 관련 항목: `lp`, `lpoptions`.
 > 더 많은 정보: <https://manned.org/lpstat>.
 
 - 기기에 존재하는 프린터와 프린터 사용 가능 여부 나열:

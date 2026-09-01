@@ -1,7 +1,7 @@
 # tmux
 
 > Multiplexador do terminal. Permite várias sessões com janelas, painéis e muito mais.
-> Veja também: `zellij`, `screen`.
+> Veja também: `zellij`, `screen`, `herdr`.
 > Mais informações: <https://github.com/tmux/tmux>.
 
 - Inicia uma nova sessão:
