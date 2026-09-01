@@ -2,7 +2,7 @@
 
 > Utilidad de mantenimiento de la base de datos de paquetes que elimina paquetes de un repositorio local.
 > Vea también: `repo-add`.
-> Más información: <https://manned.org/repo-add>.
+> Más información: <https://manned.org/repo-remove>.
 
 - Elimina un paquete de un repositorio local:
 
