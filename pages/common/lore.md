@@ -1,6 +1,6 @@
 # lore
 
-> Next-generation open source version control system by Epic Games.
+> Version control system by Epic Games.
 > Optimized for projects combining code with large binary assets.
 > More information: <https://lore.org>.
 
