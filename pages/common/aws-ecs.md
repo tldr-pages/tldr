@@ -1,6 +1,6 @@
 # aws ecs
 
-> Manage Elastic Container Service (ECS) cluster.
+> Manage Elastic Container Service (ECS) clusters.
 > More information: <https://docs.aws.amazon.com/cli/latest/reference/ecs/>.
 
 - List task definitions:
