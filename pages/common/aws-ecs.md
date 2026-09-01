@@ -31,6 +31,6 @@
 
 `aws ecs update-service --cluster {{cluster_name}} --service {{service_name}} --task-definition {{task_definition_arn}} --force-new-deployment`
 
-- Wait for service/s to succeed:
+- Wait until one or more services to succeed:
 
 `aws ecs wait services-stable --cluster {{cluster_name}} --services {{service_name}} {{service_name}}`
