@@ -23,7 +23,7 @@
 
 `aws ecs list-services --cluster {{cluster_name}}`
 
-- Describe services/s:
+- Describe one or more services in a cluster:
 
 `aws ecs describe-services --services {{service_name}} {{service_name}} --cluster {{cluster_name}}`
 
