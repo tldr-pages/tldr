@@ -20,9 +20,9 @@
 
 `lore branch create {{branch_name}}`
 
-- Start a local server in demo mode:
+- Start a service for a repository:
 
-`lore server --demo`
+`lore service start`
 
 - Display help:
 
