@@ -1,7 +1,7 @@
 # docker buildx build
 
 > Build an image from a Dockerfile using the BuildKit engine.
-> More information: <https://docs.docker.com/reference/cli/docker/buildx/build/>.
+> More information: <https://docs.docker.com/reference/cli/docker/buildx/build>.
 
 - Build an image from the Dockerfile in the current directory:
 
