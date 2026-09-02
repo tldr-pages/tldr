@@ -5,24 +5,24 @@
 
 - Convert a font to PF2:
 
-`grub-mkfont --output {{path/to/output.pf2}} {{path/to/font.ttf}}`
+`grub-mkfont {{[-o|--output]}} {{path/to/output.pf2}} {{path/to/font.ttf}}`
 
 - Convert a font at a specific size:
 
-`grub-mkfont --size {{24}} --output {{path/to/output.pf2}} {{path/to/font.ttf}}`
+`grub-mkfont {{[-o|--output]}} {{path/to/output.pf2}} {{[-s|--size]}} {{24}} {{path/to/font.ttf}}`
 
 - Convert only characters in specific Unicode ranges:
 
-`grub-mkfont --range {{0x20-0x7E,0xA0-0xFF}} --output {{path/to/output.pf2}} {{path/to/font.ttf}}`
+`grub-mkfont {{[-o|--output]}} {{path/to/output.pf2}} {{[-r|--range]}} {{0x20-0x7E,0xA0-0xFF}} {{path/to/font.ttf}}`
 
 - Set the output font family name:
 
-`grub-mkfont --name "{{font_family_name}}" --output {{path/to/output.pf2}} {{path/to/font.ttf}}`
+`grub-mkfont {{[-o|--output]}} {{path/to/output.pf2}} {{[-n|--name]}} "{{font_family_name}}" {{path/to/font.ttf}}`
 
 - Convert a font to bold while forcing automatic hinting:
 
-`grub-mkfont --bold --force-autohint --output {{path/to/output.pf2}} {{path/to/font.ttf}}`
+`grub-mkfont {{[-o|--output]}} {{path/to/output.pf2}} {{[-b|--bold]}} {{[-a|--force-autohint]}} {{path/to/font.ttf}}`
 
 - Disable hinting and ignore embedded bitmap strikes:
 
-`grub-mkfont --no-hinting --no-bitmap --output {{path/to/output.pf2}} {{path/to/font.ttf}}`
+`grub-mkfont {{[-o|--output]}} {{path/to/output.pf2}} --no-hinting --no-bitmap {{path/to/font.ttf}}`
