@@ -1,6 +1,7 @@
 # asusctl
 
-> Control various features of ASUS laptops on Linux. More information: <https://github.com/OpenGamingCollective/asusctl>.
+> Control various features of ASUS laptops on Linux.
+> More information: <https://github.com/OpenGamingCollective/asusctl>.
 
 - Show the current profile:
 
