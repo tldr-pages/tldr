@@ -14,7 +14,7 @@
 
 - Commit changes with a specific message:
 
-`lore commit {{[-m|--message]}} "{{message}}"`
+`lore commit "{{message}}"`
 
 - Create a new branch:
 
