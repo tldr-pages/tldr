@@ -4,25 +4,29 @@
 > Some subcommands such as `install`, `create`, `profile`, `remote` have their own usage documentation.
 > More information: <https://docs.conan.io/2/reference/commands.html>.
 
-- Install packages based on `conanfile.txt`:
+- Auto-detect the host environment and create a `default` profile:
+
+`conan profile detect`
+
+- Install dependencies based on `conanfile.txt` or a `conanfile.py` recipe:
 
 `conan install {{.}}`
 
-- Install packages and create configuration files for a specific generator:
+- Install dependencies, building from source only when prebuilt binaries are missing:
 
-`conan install -g {{generator}}`
+`conan install {{.}} --build {{missing}}`
 
-- Install packages, building from source:
+- Create a package from a `conanfile.py` recipe in the current directory:
 
-`conan install {{.}} --build`
+`conan create {{.}}`
 
-- Search for locally installed packages:
+- Build a package locally from its recipe without creating it:
 
-`conan search {{package}}`
+`conan build {{.}}`
 
-- Search for remote packages:
+- List locally cached packages matching a pattern:
 
-`conan search {{package}} -r {{remote}}`
+`conan list {{pattern}}`
 
 - List remotes:
 
