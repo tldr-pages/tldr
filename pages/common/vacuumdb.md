@@ -13,20 +13,20 @@
 
 - Vacuum a specific table in a database:
 
-`vacuumdb {{[-t|--table]}} {{table_name}} {{database_name}}`
+`vacuumdb {{database_name}} {{[-t|--table]}} {{table_name}}`
 
 - Vacuum and update statistics for the query planner:
 
-`vacuumdb {{[-z|--analyze]}} {{database_name}}`
+`vacuumdb {{database_name}} {{[-z|--analyze]}}`
 
 - Perform a full vacuum (more aggressive, locks tables, rewrites the whole table):
 
-`vacuumdb {{[-f|--full]}} {{database_name}}`
+`vacuumdb {{database_name}} {{[-f|--full]}}`
 
 - Vacuum with verbose output:
 
-`vacuumdb {{[-v|--verbose]}} {{database_name}}`
+`vacuumdb {{database_name}} {{[-v|--verbose]}}`
 
 - Vacuum a database using multiple parallel jobs:
 
-`vacuumdb --jobs {{number_of_jobs}} {{database_name}}`
+`vacuumdb {{database_name}} {{[-j|--jobs]}} {{number_of_jobs}}`

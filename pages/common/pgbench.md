@@ -5,8 +5,8 @@
 
 - Initialize a database with a scale factor of 50 times the default size:
 
-`pgbench --initialize --scale={{50}} {{database_name}}`
+`pgbench {{database_name}} {{[-i|--initialize]}} {{[-s|--scale]}} {{50}}`
 
 - Benchmark a database with 10 clients, 2 worker threads, and 10,000 transactions per client:
 
-`pgbench --client={{10}} --jobs={{2}} --transactions={{10000}} {{database_name}}`
+`pgbench {{database_name}} {{[-c|--client]}} {{10}} {{[-j|--jobs]}} {{2}} {{[-t|--transactions]}} {{10000}}`

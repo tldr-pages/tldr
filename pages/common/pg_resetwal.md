@@ -5,15 +5,15 @@
 
 - Reset the WAL and control information for a specific data directory:
 
-`pg_resetwal {{[-D|--pgdata]}} {{path/to/data}}`
+`pg_resetwal {{[-D|--pgdata]}} {{path/to/data_directory}}`
 
 - Perform a dry run:
 
-`pg_resetwal {{[-D|--pgdata]}} {{path/to/data}} {{[-n|--dry-run]}}`
+`pg_resetwal {{[-D|--pgdata]}} {{path/to/data_directory}} {{[-n|--dry-run]}}`
 
 - Force the WAL and control information reset:
 
-`pg_resetwal {{[-D|--pgdata]}} {{path/to/data}} {{[-f|--force]}}`
+`pg_resetwal {{[-D|--pgdata]}} {{path/to/data_directory}} {{[-f|--force]}}`
 
 - Display help:
 

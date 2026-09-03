@@ -9,7 +9,7 @@
 
 - Check connection with a specific hostname and port:
 
-`pg_isready {{[-h|--host]}} {{hostname}} {{[-p|--port]}} {{port}}`
+`pg_isready {{[-h|--host]}} {{host}} {{[-p|--port]}} {{port}}`
 
 - Check connection displaying a message only when the connection fails:
 

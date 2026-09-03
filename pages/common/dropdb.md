@@ -10,28 +10,28 @@
 
 - Request a verification prompt before any destructive actions:
 
-`dropdb {{[-i|--interactive]}} {{database_name}}`
+`dropdb {{database_name}} {{[-i|--interactive]}}`
 
 - Connect with a specific username and destroy a database:
 
-`dropdb {{[-U|--username]}} {{username}} {{database_name}}`
+`dropdb {{database_name}} {{[-U|--username]}} {{username}}`
 
 - Force a password prompt before connecting to the database:
 
-`dropdb {{[-W|--password]}} {{database_name}}`
+`dropdb {{database_name}} {{[-W|--password]}}`
 
 - Suppress a password prompt before connecting to the database:
 
-`dropdb {{[-w|--no-password]}} {{database_name}}`
+`dropdb {{database_name}} {{[-w|--no-password]}}`
 
 - Specify the server host name:
 
-`dropdb {{[-h|--host]}} {{host}} {{database_name}}`
+`dropdb {{database_name}} {{[-h|--host]}} {{host}}`
 
 - Specify the server port:
 
-`dropdb {{[-p|--port]}} {{port}} {{database_name}}`
+`dropdb {{database_name}} {{[-p|--port]}} {{port}}`
 
 - Attempt to terminate existing connections before destroying the database:
 
-`dropdb {{[-f|--force]}} {{database_name}}`
+`dropdb {{database_name}} {{[-f|--force]}}`

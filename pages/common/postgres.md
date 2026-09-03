@@ -17,4 +17,4 @@
 
 - Start in single-user mode for a specific database (defaults to the user name):
 
-`postgres --single -D {{path/to/datadir}} {{my_database}}`
+`postgres --single -D {{path/to/data_directory}} {{database_name}}`

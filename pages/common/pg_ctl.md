@@ -5,20 +5,20 @@
 
 - Initialize a new PostgreSQL database cluster:
 
-`pg_ctl {{[-D|--pgdata]}} {{data_directory}} init`
+`pg_ctl init {{[-D|--pgdata]}} {{path/to/data_directory}}`
 
 - Start a PostgreSQL server:
 
-`pg_ctl {{[-D|--pgdata]}} {{data_directory}} start`
+`pg_ctl start {{[-D|--pgdata]}} {{path/to/data_directory}}`
 
 - Stop a PostgreSQL server:
 
-`pg_ctl {{[-D|--pgdata]}} {{data_directory}} stop`
+`pg_ctl stop {{[-D|--pgdata]}} {{path/to/data_directory}}`
 
 - Restart a PostgreSQL server:
 
-`pg_ctl {{[-D|--pgdata]}} {{data_directory}} restart`
+`pg_ctl restart {{[-D|--pgdata]}} {{path/to/data_directory}}`
 
 - Reload the PostgreSQL server configuration:
 
-`pg_ctl {{[-D|--pgdata]}} {{data_directory}} reload`
+`pg_ctl reload {{[-D|--pgdata]}} {{path/to/data_directory}}`

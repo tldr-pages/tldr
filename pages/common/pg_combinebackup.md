@@ -10,19 +10,19 @@
 
 - Perform a dry run to show what would be done, without creating files:
 
-`pg_combinebackup {{[-n|--dry-run]}} {{path/to/full_backup}} {{path/to/incremental_backup}} {{[-o|--output]}} {{path/to/output_directory}}`
+`pg_combinebackup {{path/to/full_backup}} {{path/to/incremental_backup}} {{[-o|--output]}} {{path/to/output_directory}} {{[-n|--dry-run]}}`
 
 - Use hard links instead of copying files (faster, same filesystem required):
 
-`pg_combinebackup {{[-k|--link]}} {{path/to/full_backup}} {{path/to/incremental_backup}} {{[-o|--output]}} {{path/to/output_directory}}`
+`pg_combinebackup {{path/to/full_backup}} {{path/to/incremental_backup}} {{[-o|--output]}} {{path/to/output_directory}} {{[-k|--link]}}`
 
 - Use file cloning (reflinks) for efficient copy if supported:
 
-`pg_combinebackup --clone {{path/to/full_backup}} {{path/to/incremental_backup}} {{[-o|--output]}} {{path/to/output_directory}}`
+`pg_combinebackup {{path/to/full_backup}} {{path/to/incremental_backup}} {{[-o|--output]}} {{path/to/output_directory}} --clone`
 
 - Use the `copy_file_range` system call for efficient copying:
 
-`pg_combinebackup --copy-file-range {{path/to/full_backup}} {{path/to/incremental_backup}} {{[-o|--output]}} {{path/to/output_directory}}`
+`pg_combinebackup {{path/to/full_backup}} {{path/to/incremental_backup}} {{[-o|--output]}} {{path/to/output_directory}} --copy-file-range`
 
 - Relocate a tablespace during reconstruction:
 
@@ -30,8 +30,8 @@
 
 - Disable fsync for faster but unsafe writes (testing only):
 
-`pg_combinebackup {{[-N|--no-sync]}} {{path/to/backup1 path/to/backup2 ...}} {{[-o|--output]}} {{path/to/output_directory}}`
+`pg_combinebackup {{path/to/backup1 path/to/backup2 ...}} {{[-o|--output]}} {{path/to/output_directory}} {{[-N|--no-sync]}}`
 
 - Show detailed debug output:
 
-`pg_combinebackup {{[-d|--debug]}} {{path/to/backup1 path/to/backup2 ...}} {{[-o|--output]}} {{path/to/output_directory}}`
+`pg_combinebackup {{path/to/backup1 path/to/backup2 ...}} {{[-o|--output]}} {{path/to/output_directory}} {{[-d|--debug]}}`

@@ -5,7 +5,7 @@
 
 - Create a user interactively:
 
-`createuser --interactive {{username}}`
+`createuser {{username}} --interactive`
 
 - Create a user with no special rights:
 
@@ -13,12 +13,12 @@
 
 - Create a superuser:
 
-`createuser {{[-s|--superuser]}} {{username}}`
+`createuser {{username}} {{[-s|--superuser]}}`
 
 - Create a user allowed to create databases, manage roles, and prompt for a password:
 
-`createuser {{[-d|--createdb]}} {{[-r|--createrole]}} {{[-P|--pwprompt]}} {{username}}`
+`createuser {{username}} {{[-d|--createdb]}} {{[-r|--createrole]}} {{[-P|--pwprompt]}}`
 
 - Create a user without the ability to create databases or manage roles:
 
-`createuser {{[-D|--no-createdb]}} {{[-R|--no-createrole]}} {{username}}`
+`createuser {{username}} {{[-D|--no-createdb]}} {{[-R|--no-createrole]}}`

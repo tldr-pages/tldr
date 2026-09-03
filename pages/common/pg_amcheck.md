@@ -5,7 +5,7 @@
 
 - Check a specific database:
 
-`pg_amcheck {{dbname}}`
+`pg_amcheck {{database_name}}`
 
 - Check all databases:
 
@@ -17,11 +17,11 @@
 
 - Check specific tables within a database:
 
-`pg_amcheck {{[-t|--table]}} {{pattern}} {{dbname}}`
+`pg_amcheck {{database_name}} {{[-t|--table]}} {{pattern}}`
 
 - Check specific schemas within a database:
 
-`pg_amcheck {{[-s|--schema]}} {{pattern}} {{dbname}}`
+`pg_amcheck {{database_name}} {{[-s|--schema]}} {{pattern}}`
 
 - Display help:
 

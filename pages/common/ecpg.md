@@ -5,7 +5,7 @@
 
 - Preprocess a specific file:
 
-`ecpg {{input.pgc}}`
+`ecpg {{path/to/input.pgc}}`
 
 - Preprocess from `stdin` and output to `stdout`:
 
@@ -13,20 +13,20 @@
 
 - Preprocess from `stdin` and write to a file:
 
-`cat input.pgc | ecpg -o output.c -`
+`cat {{path/to/input.pgc}} | ecpg -o {{path/to/output.c}} -`
 
 - Preprocess and specify an output file:
 
-`ecpg -o {{output.c}} {{input.pgc}}`
+`ecpg {{path/to/input.pgc}} -o {{path/to/output.c}}`
 
 - Preprocess a header file (`.pgh` extension):
 
-`ecpg {{input.pgh}}`
+`ecpg {{path/to/input.pgh}}`
 
 - Preprocess in a specific compatibility mode:
 
-`ecpg -C {{INFORMIX|INFORMIX_SE|ORACLE}} {{input.pgc}}`
+`ecpg {{path/to/input.pgc}} -C {{INFORMIX|INFORMIX_SE|ORACLE}}`
 
 - Preprocess with autocommit enabled:
 
-`ecpg -t {{input.pgc}}`
+`ecpg {{path/to/input.pgc}} -t`

@@ -9,8 +9,8 @@
 
 - Print one line per individual modified block (rather than ranges):
 
-`pg_walsummary {{[-i|--individual]}} {{path/to/file}}`
+`pg_walsummary {{path/to/file}} {{[-i|--individual]}}`
 
 - Suppress normal output (only errors):
 
-`pg_walsummary {{[-q|--quiet]}} {{path/to/file}}`
+`pg_walsummary {{path/to/file}} {{[-q|--quiet]}}`

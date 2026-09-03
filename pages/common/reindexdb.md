@@ -9,7 +9,7 @@
 
 - Reindex a specific database using connection options:
 
-`reindexdb {{database_name}} {{[-h|--host]}} {{hostname}} {{[-p|--port]}} {{port}} {{[-U|--username]}} {{username}}`
+`reindexdb {{database_name}} {{[-h|--host]}} {{host}} {{[-p|--port]}} {{port}} {{[-U|--username]}} {{username}}`
 
 - Reindex all databases:
 

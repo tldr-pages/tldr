@@ -5,19 +5,19 @@
 
 - Create a new logical replication slot:
 
-`pg_recvlogical {{[-d|--dbname]}} {{dbname}} {{[-S|--slot]}} {{slot_name}} --create-slot`
+`pg_recvlogical {{[-d|--dbname]}} {{database_name}} {{[-S|--slot]}} {{slot_name}} --create-slot`
 
 - Start streaming changes from a logical replication slot to a file:
 
-`pg_recvlogical {{[-d|--dbname]}} {{dbname}} {{[-S|--slot]}} {{slot_name}} --start {{[-f|--file]}} {{filename}}`
+`pg_recvlogical {{[-d|--dbname]}} {{database_name}} {{[-S|--slot]}} {{slot_name}} --start {{[-f|--file]}} {{path/to/output_file}}`
 
 - Drop a logical replication slot:
 
-`pg_recvlogical {{[-d|--dbname]}} {{dbname}} {{[-S|--slot]}} {{slot_name}} --drop-slot`
+`pg_recvlogical {{[-d|--dbname]}} {{database_name}} {{[-S|--slot]}} {{slot_name}} --drop-slot`
 
 - Create a slot with two-phase commit enabled:
 
-`pg_recvlogical {{[-d|--dbname]}} {{dbname}} {{[-S|--slot]}} {{slot_name}} --create-slot {{[-t|--enable-two-phase]}}`
+`pg_recvlogical {{[-d|--dbname]}} {{database_name}} {{[-S|--slot]}} {{slot_name}} --create-slot {{[-t|--enable-two-phase]}}`
 
 - Display help:
 

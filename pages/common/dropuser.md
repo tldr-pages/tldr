@@ -13,12 +13,12 @@
 
 - No error if the user to be removed doesn't exist:
 
-`dropuser --if-exists {{username}}`
+`dropuser {{username}} --if-exists`
 
 - Remove a user on the server with address 127.0.0.1 on port 4321:
 
-`dropuser {{[-h|--host]}} 127.0.0.1 {{[-p|--port]}} 4321 {{username}}`
+`dropuser {{username}} {{[-h|--host]}} 127.0.0.1 {{[-p|--port]}} 4321`
 
 - Remove a user on the server with address 127.0.0.1 on port 4321 as user "admin":
 
-`dropuser {{[-U|--username]}} admin {{[-h|--host]}} 127.0.0.1 {{[-p|--port]}} 4321 {{username}}`
+`dropuser {{username}} {{[-h|--host]}} 127.0.0.1 {{[-p|--port]}} 4321 {{[-U|--username]}} admin`

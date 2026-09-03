@@ -5,7 +5,7 @@
 
 - Display control information for a specific data directory:
 
-`pg_controldata {{[-D|--pgdata]}} {{path/to/data}}`
+`pg_controldata {{[-D|--pgdata]}} {{path/to/data_directory}}`
 
 - Display help:
 

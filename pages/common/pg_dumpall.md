@@ -5,20 +5,20 @@
 
 - Dump all databases:
 
-`pg_dumpall > {{path/to/file.sql}}`
+`pg_dumpall > {{path/to/output_file.sql}}`
 
 - Dump all databases using a specific username:
 
-`pg_dumpall {{[-U|--username]}} {{username}} > {{path/to/file.sql}}`
+`pg_dumpall {{[-U|--username]}} {{username}} > {{path/to/output_file.sql}}`
 
 - Same as above, customize host and port:
 
-`pg_dumpall {{[-h|--host]}} {{host}} {{[-p|--port]}} {{port}} > {{output_file.sql}}`
+`pg_dumpall {{[-h|--host]}} {{host}} {{[-p|--port]}} {{port}} > {{path/to/output_file.sql}}`
 
 - Dump only database data into an SQL-script file:
 
-`pg_dumpall {{[-a|--data-only]}} > {{path/to/file.sql}}`
+`pg_dumpall {{[-a|--data-only]}} > {{path/to/output_file.sql}}`
 
 - Dump only schema (data definitions) into an SQL-script file:
 
-`pg_dumpall {{[-s|--schema-only]}} > {{output_file.sql}}`
+`pg_dumpall {{[-s|--schema-only]}} > {{path/to/output_file.sql}}`
