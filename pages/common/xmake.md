@@ -5,11 +5,15 @@
 
 - Create an Xmake C project, consisting of a hello world and `xmake.lua`:
 
-`xmake create {{[-l|--language]}} {{[c|clean]}} {{[-P|--project]}} {{project_name}}`
+`xmake create {{[-l|--language]}} {{[-P|--project]}} {{project_name}}`
 
-- Build and run an Xmake project:
+- Build an Xmake project:
 
-`xmake {{[b|build]}} {{[r|run]}}`
+`xmake {{[b|build]}}`
+
+- Run an Xmake project:
+
+`xmake {{[r|run]}}`
 
 - Run a compiled Xmake target directly:
 
