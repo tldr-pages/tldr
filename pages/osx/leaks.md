@@ -9,7 +9,7 @@
 
 - Examine a running process for leaks by its PID:
 
-`leaks {{pid}}`
+`leaks {{process_id}}`
 
 - Launch a command and check for leaks when it exits:
 
