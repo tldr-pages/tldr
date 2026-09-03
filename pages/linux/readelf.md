@@ -22,3 +22,7 @@
 - Display ELF section header information:
 
 `readelf {{[-S|--section-headers]}} {{path/to/binary}}`
+
+- Display DWARF information:
+
+`readelf {{[-w|--debug-dump]}} {{path/to/binary}}`
