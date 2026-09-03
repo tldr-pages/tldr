@@ -188,6 +188,8 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [04 November 2025](https://github.com/tldr-pages/tldr/issues/19189) — [29 July 2026](https://github.com/tldr-pages/tldr/issues/23436)
 - Meinard Francisco ([@znarfm](https://github.com/znarfm)):
   [04 November 2025](https://github.com/tldr-pages/tldr/issues/19190) — [30 July 2026](https://github.com/tldr-pages/tldr/issues/23435)
+- Agam Agarwal ([@AgamAgarwal](https://github.com/AgamAgarwal)):
+  [03 September 2026](https://github.com/tldr-pages/tldr/issues/23809) — present
 
 ## Organization members
 
