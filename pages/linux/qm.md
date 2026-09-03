@@ -14,16 +14,16 @@
 
 - Show the configuration of a virtual machine, specifying its ID:
 
-`qm {{[co|config]}} {{100}}`
+`qm {{[co|config]}} {{vmid}}`
 
 - Start a specific virtual machine:
 
-`qm start {{100}}`
+`qm start {{vmid}}`
 
 - Send a shutdown request, then wait until the virtual machine is stopped:
 
-`qm {{[shu|shutdown]}} {{100}} && qm {{[w|wait]}} {{100}}`
+`qm {{[shu|shutdown]}} {{vmid}} && qm {{[w|wait]}} {{vmid}}`
 
 - Destroy a virtual machine and remove all related resources:
 
-`qm {{[des|destroy]}} {{100}} --purge`
+`qm {{[des|destroy]}} {{vmid}} --purge`

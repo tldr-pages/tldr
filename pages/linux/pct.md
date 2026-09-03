@@ -9,28 +9,28 @@
 
 - Start/Stop/Reboot a specific container:
 
-`pct {{start|stop|reboot}} {{100}}`
+`pct {{start|stop|reboot}} {{ctid}}`
 
 - Access a specific container's shell:
 
-`pct {{[en|enter]}} {{100}}`
+`pct {{[en|enter]}} {{ctid}}`
 
 - Create a container from template with 4GB size:
 
-`pct {{[cr|create]}} {{100}} {{local:vztmpl/distro-name.tar.zst}} --rootfs {{local-lvm}}:4`
+`pct {{[cr|create]}} {{ctid}} {{local:vztmpl/distro-name.tar.zst}} --rootfs {{local-lvm}}:4`
 
 - Resize the container's disk to 20G:
 
-`pct {{[resi|resize]}} {{100}} {{rootfs|mpX}} {{20G}}`
+`pct {{[resi|resize]}} {{ctid}} {{rootfs|mpX}} {{20G}}`
 
 - Show the configuration of a container, specifying its ID:
 
-`pct {{[conf|config]}} {{100}}`
+`pct {{[conf|config]}} {{ctid}}`
 
 - Snapshot a specific container with description:
 
-`pct {{[sn|snapshot]}} {{100}} {{my-snapshot}} --description {{My snapshot description}}`
+`pct {{[sn|snapshot]}} {{ctid}} {{my-snapshot}} --description {{My snapshot description}}`
 
 - Destroy a container and remove all related resources:
 
-`pct {{[des|destroy]}} {{100}} --purge`
+`pct {{[des|destroy]}} {{ctid}} --purge`
