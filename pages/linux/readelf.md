@@ -5,20 +5,20 @@
 
 - Display all information about the ELF file:
 
-`readelf -all {{path/to/binary}}`
+`readelf {{[-a|--all]}} {{path/to/binary}}`
 
 - Display all the headers present in the ELF file:
 
-`readelf --headers {{path/to/binary}}`
+`readelf {{[-e|--headers]}} {{path/to/binary}}`
 
 - Display the entries in symbol table section of the ELF file, if it has one:
 
-`readelf --symbols {{path/to/binary}}`
+`readelf {{[-s|--symbols]}} {{path/to/binary}}`
 
 - Display ELF header information:
 
-`readelf --file-header {{path/to/binary}}`
+`readelf {{[-h|--file-header]}} {{path/to/binary}}`
 
 - Display ELF section header information:
 
-`readelf --section-headers {{path/to/binary}}`
+`readelf {{[-S|--section-headers]}} {{path/to/binary}}`
