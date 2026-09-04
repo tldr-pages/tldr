@@ -1,6 +1,7 @@
 # zypper
 
 > SUSE & openSUSE utilitaire de gestion de paquets.
+> Pour les commandes équivalentes dans d’autres gestionnaires de paquets, consulter <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > Plus d'informations : <https://en.opensuse.org/SDB:Zypper_manual>.
 
 - Synchroniser la liste des paquets et versions disponibles :
