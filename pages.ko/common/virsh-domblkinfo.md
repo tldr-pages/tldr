@@ -1,7 +1,7 @@
 # virsh domblkinfo
 
 > 블록 장치의 크기 정보를 출력.
-> More information: <https://manned.org/virsh>.
+> 더 많은 정보: <https://manned.org/virsh>.
 
 - 블록 장치 정보 표시:
 
