@@ -5,7 +5,7 @@
 
 - Create an Xmake C project, consisting of a hello world and `xmake.lua`:
 
-`xmake create {{[-l|--language]}} {{[-P|--project]}} {{project_name}}`
+`xmake create {{[-l|--language]}} c {{[-P|--project]}} {{project_name}}`
 
 - Build an Xmake project:
 
