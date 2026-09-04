@@ -2,7 +2,7 @@
 
 > Multiplexor de terminal.
 > Permite múltiples sesiones con ventanas, paneles y más.
-> Vea también: `zellij`, `screen`.
+> Vea también: `zellij`, `screen`, `herdr`.
 > Más información: <https://github.com/tmux/tmux>.
 
 - Inicia una nueva sesión:
