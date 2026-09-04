@@ -13,6 +13,10 @@
 
 `apt search {{package}}`
 
+- Recherche des paquets uniquement par nom (accepte les caractères génériques comme *)
+
+`apt list {{package}}`
+
 - Afficher les informations pour un paquet :
 
 `apt show {{package}}`
@@ -28,10 +32,6 @@
 - Mettre à jour tous les paquets installés vers les dernières versions disponibles :
 
 `sudo apt upgrade`
-
-- Lister tous les paquets :
-
-`apt list`
 
 - Lister les paquets installés :
 
