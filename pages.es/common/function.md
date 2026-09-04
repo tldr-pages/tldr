@@ -6,15 +6,15 @@
 
 - Define una función con el nombre especificado:
 
-`function {{nombre_funcion}} { {{echo "Contenido de la función aquí"}}; }`
+`function {{func_name}} { {{echo "Contenido de la función aquí"}}; }`
 
-- Ejecuta una función llamada `nombre_funcion`:
+- Ejecuta una función llamada `func_name`:
 
-`nombre_funcion`
+`func_name`
 
 - Define una función sin la palabra clave `function`:
 
-`{{nombre_funcion}}() { {{echo "Contenido de la función aquí"}}; }`
+`{{func_name}}() { {{echo "Contenido de la función aquí"}}; }`
 
 - Muestra la ayuda:
 
