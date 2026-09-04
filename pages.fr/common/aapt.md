@@ -1,7 +1,6 @@
 # aapt
 
-> Android Asset Packaging Tool.
-> Compile et empaquette les ressources d'une application Android.
+> Android Asset Packaging Tool : compile et empaquette les ressources d'une application Android.
 > Plus d'informations : <https://manned.org/aapt>.
 
 - Liste les fichiers contenus une archive APK :
