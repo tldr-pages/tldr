@@ -26,7 +26,7 @@
 
 - Show all messages by a specific process:
 
-`journalctl _PID={{pid}}`
+`journalctl _PID={{process_id}}`
 
 - Show all messages by a specific executable:
 

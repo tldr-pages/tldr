@@ -5,11 +5,11 @@
 
 - Display the OOM-killer score of the process with a specific ID:
 
-`choom {{[-p|--pid]}} {{pid}}`
+`choom {{[-p|--pid]}} {{process_id}}`
 
 - Change the adjust OOM-killer score of a specific process:
 
-`choom {{[-p|--pid]}} {{pid}} {{[-n|--adjust]}} {{-1000..+1000}}`
+`choom {{[-p|--pid]}} {{process_id}} {{[-n|--adjust]}} {{-1000..+1000}}`
 
 - Run a command with a specific adjust OOM-killer score:
 
