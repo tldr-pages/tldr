@@ -15,7 +15,7 @@
 
 - Decrease the priority of all processes owned by a user:
 
-`renice --relative {{4}} {{[-u|--user]}} {{user_id|user}}`
+`renice --relative {{4}} {{[-u|--user]}} {{user_id|username}}`
 
 - Set the priority of all processes that belong to a process group:
 
