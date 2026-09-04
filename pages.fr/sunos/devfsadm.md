@@ -1,6 +1,7 @@
 # devfsadm
 
-> Commande d'administration pour `/dev`. Maintient le `/dev` espace de noms.
+> Commande d'administration pour `/dev`.
+> Maintient le `/dev` espace de noms.
 > Plus d'informations : <https://www.unix.com/man-page/sunos/1m/devfsadm>.
 
 - Rechercher de nouveaux disques :
