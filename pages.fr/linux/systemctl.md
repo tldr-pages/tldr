@@ -1,6 +1,7 @@
 # systemctl
 
 > Contrôle le système systemd et le gestionnaire de services.
+> Certaines sous-commandes, telles que disable, status, reboot, etc., disposent de leur propre documentation d’utilisation.
 > Plus d'informations : <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html>.
 
 - Liste des unités en échec :
