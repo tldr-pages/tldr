@@ -17,17 +17,21 @@
 
 `sudo pacman -Rs {{nom_paquet}}`
 
+- Recherche dans la base de données des paquets à l’aide d’une `regex` ou d’un mot-clé :
+
+`pacman -Ss "{{motif_recherche}}"`
+
 - Recherche dans la base de données des paquets contenant un certain fichier :
 
 `pacman -F "{{nom_fichier}}"`
 
-- Liste les paquets installés et leurs versions :
-
-`pacman -Q`
-
 - Liste seulement les paquets installés explicitement et leurs versions :
 
 `pacman -Qe`
+
+- Liste les paquets orphelins (installés comme dépendances, mais qui ne sont requis par aucun paquet) :
+
+`pacman -Qtdq`
 
 - Vide le cache des paquets pour libérer de l'espace :
 
