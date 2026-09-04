@@ -4,30 +4,34 @@
 > Certaines sous-commandes, telles que disable, status, reboot, etc., disposent de leur propre documentation d’utilisation.
 > Plus d'informations : <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html>.
 
+- Affiche tous les services actuellement actifs :
+
+`systemctl status`
+
 - Liste des unités en échec :
 
 `systemctl --failed`
 
-- Démarre/arrête/redémarre/recharge un service :
+- Démarre/Arrête/Redémarre/Recharge un service :
 
 `systemctl {{start|stop|restart|reload}} {{unité}}`
-
-- Affiche le statut d'une unité :
-
-`systemctl status {{unité}}`
 
 - Active/désactive une unité à démarrer au démarrage :
 
 `systemctl {{enable|disable}} {{unité}}`
 
-- Masque/démasque une unité pour empêcher l'activation et l'activation manuelle :
-
-`systemctl {{mask|unmask}} {{unité}}`
-
 - Rechargement de systemd, recherche d'unités nouvelles ou modifiées :
 
 `systemctl daemon-reload`
 
-- Vérifie si une unité est activée :
+- Vérifie si une unité est active/activée/en échec :
 
-`systemctl is-enabled {{unité}}`
+`systemctl {{is-active|is-enabled|is-failed}} {{unité}}`
+
+- Liste toutes les unités de service, de socket, et d’automontage en filtrant selon leur état (active/en échec) :
+
+`systemctl list-units {{[-t|--type]}} {{service|socket|automount|...}} --state {{failed|running}}`
+
+- Affiche le contenu et le chemin absolu d’un fichier d’unité ou le modifier :
+
+`systemctl {{cat|edit}} {{unité}}`
