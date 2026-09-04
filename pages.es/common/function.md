@@ -8,13 +8,13 @@
 
 `function {{nombre_funcion}} { {{echo "Contenido de la función aquí"}}; }`
 
-- Ejecuta una función llamada `func_name`:
+- Ejecuta una función llamada `nombre_funcion`:
 
-`func_name`
+`nombre_funcion`
 
 - Define una función sin la palabra clave `function`:
 
-`{{func_name}}() { {{echo "Contenido de la función aquí"}}; }`
+`{{nombre_funcion}}() { {{echo "Contenido de la función aquí"}}; }`
 
 - Muestra la ayuda:
 
