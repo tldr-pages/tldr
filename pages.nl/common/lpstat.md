@@ -1,6 +1,7 @@
 # lpstat
 
 > Bekijk de status informatie over printers.
+> Zie ook: `lp`, `lpoptions`.
 > Meer informatie: <https://manned.org/lpstat>.
 
 - Toon alle printtaken die in de wachtrij staan:
