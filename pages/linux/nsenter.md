@@ -10,7 +10,7 @@
 
 - Run a specific command in an existing process's mount|UTS|IPC|network|PID|user|cgroup|time namespace:
 
-`nsenter {{[-t|--target]}} {{process_id}} --{{mount|uts|ipc|net|process_id|user|cgroup}} {{command}} {{command_arguments}}`
+`nsenter {{[-t|--target]}} {{process_id}} --{{mount|uts|ipc|net|pid|user|cgroup}} {{command}} {{command_arguments}}`
 
 - Run a specific command in an existing process's UTS, time, and IPC namespaces:
 
