@@ -3,13 +3,17 @@
 > A cross-platform C & C++ build utility based on Lua.
 > More information: <https://xmake.io/#/getting_started>.
 
-- Create an Xmake C project, consisting of a hello world and `xmake.lua`:
+- Create an Xmake project, consisting of a hello world and `xmake.lua`:
 
-`xmake create {{[-l|--language]}} {{[c|clean]}} {{[-P|--project]}} {{project_name}}`
+`xmake create {{[-l|--language]}} {{c|c++|go|rust|...}} {{[-P|--project]}} {{project_name}}`
 
-- Build and run an Xmake project:
+- Build an Xmake project:
 
-`xmake {{[b|build]}} {{[r|run]}}`
+`xmake {{[b|build]}}`
+
+- Build and run an Xmake project (builds first if needed):
+
+`xmake {{[r|run]}}`
 
 - Run a compiled Xmake target directly:
 
