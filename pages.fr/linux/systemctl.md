@@ -24,7 +24,7 @@
 
 `systemctl daemon-reload`
 
-- Vérifie si une unité est active/activée/en échec :
+- Vérifie si une unité est en cours d'exécution/activée/en échec :
 
 `systemctl {{is-active|is-enabled|is-failed}} {{unité}}`
 
