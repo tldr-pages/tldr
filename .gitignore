@@ -34,3 +34,6 @@ __pycache__
 
 # Generated log
 debug.log
+
+# Generated filename consistency report
+inconsistent-filenames.txt
