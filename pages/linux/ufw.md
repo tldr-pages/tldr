@@ -2,6 +2,7 @@
 
 > Uncomplicated Firewall.
 > Frontend for `iptables` aiming to make configuration of a firewall easier.
+> Some subcommands such as `allow`, `enable`, `delete`, etc. have their own usage documentation.
 > More information: <https://manned.org/ufw>.
 
 - Enable/Disable `ufw`:
