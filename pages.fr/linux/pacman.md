@@ -19,7 +19,7 @@
 
 - Recherche dans la base de données des paquets à l’aide d’une `regex` ou d’un mot-clé :
 
-`pacman -Ss "{{motif_recherche}}"`
+`pacman -Ss "{{motif_recherché}}"`
 
 - Recherche dans la base de données des paquets contenant un certain fichier :
 
