@@ -6,7 +6,7 @@
 
 - Scaffold a new project from a template recipe, e.g. a CMake library:
 
-`conan new {{cmake_lib}} -d name={{pkg_name}} -d version={{1.0}}`
+`conan new {{cmake_lib}} {{[-d|--define]}} name={{pkg_name}} {{[-d|--define]}} version={{1.0}}`
 
 - Auto-detect the host environment and create a `default` profile:
 
@@ -18,7 +18,7 @@
 
 - Install a package directly from the configured remotes:
 
-`conan install --requires={{zlib/1.3.1}}`
+`conan install --requires {{zlib/1.3.1}}`
 
 - Install dependencies, building from source only when prebuilt binaries are missing:
 
