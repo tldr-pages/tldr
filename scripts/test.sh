@@ -83,22 +83,10 @@ function run_shellcheck {
 
 # Default test function, run by `npm test`.
 function run_tests {
-  find pages* -name '*.md' -exec markdownlint {} +
-  tldr-lint ./pages
-  for f in ./pages.*; do
-    checks="TLDR104"
-    # Skip the `pages.en` symlink.
-    [[ -h $f ]] && continue
-    case $f in
-      *ar*|*bn*|*fa*|*hi*|*ja*|*ko*|*lo*|*ml*|*ne*|*ta*|*th*|*tr*)
-        checks+=",TLDR003,TLDR004,TLDR015"
-      ;;
-      *zh*)
-        checks+=",TLDR003,TLDR004,TLDR005,TLDR015"
-      ;;
-    esac
-    tldr-lint --ignore "$checks" "$f"
-  done
+  page_count="$(find pages* -name '*.md' -printf . | wc -c)"
+  nproc="$(nproc)"
+  find pages* -name '*.md' -print0 | xargs -0 -n $((page_count / nproc / 2)) -P "$nproc" markdownlint
+  echo ./pages.* | xargs -n1 -P "$nproc" scripts/test-tldr-lint.sh
   run_black
   run_flake8
   run_pytest
