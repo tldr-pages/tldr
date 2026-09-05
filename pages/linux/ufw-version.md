@@ -5,4 +5,4 @@
 
 - Show `ufw` version:
 
-`sudo ufw {{version|--version}}`
+`sudo ufw version`
