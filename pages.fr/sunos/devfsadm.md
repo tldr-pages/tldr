@@ -1,6 +1,6 @@
 # devfsadm
 
-> Commande d'administration pour `/dev`.
+> Administre `/dev`.
 > Maintient le `/dev` espace de noms.
 > Plus d'informations : <https://www.unix.com/man-page/sunos/1m/devfsadm>.
 
