@@ -28,7 +28,7 @@
 
 `systemctl {{is-active|is-enabled|is-failed}} {{unité}}`
 
-- Liste toutes les unités de service, de socket, et d’automontage en filtrant selon leur état (active/en échec) :
+- Liste toutes les unités de service, de socket, et d’automontage en filtrant selon leur état (en échec/active) :
 
 `systemctl list-units {{[-t|--type]}} {{service|socket|automount|...}} --state {{failed|running}}`
 
