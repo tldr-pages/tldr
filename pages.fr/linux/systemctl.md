@@ -32,6 +32,6 @@
 
 `systemctl list-units {{[-t|--type]}} {{service|socket|automount|...}} --state {{failed|running}}`
 
-- Affiche le contenu et le chemin absolu d’un fichier d’unité ou le modifier :
+- Affiche/modifie le contenu d’un fichier d’unité :
 
 `systemctl {{cat|edit}} {{unité}}`
