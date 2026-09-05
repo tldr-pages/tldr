@@ -31,3 +31,7 @@
 - Pull changes from a remote:
 
 `dolt pull`
+
+- Execute a SQL query against the database:
+
+`dolt sql {{[-q|--query]}} "SELECT * FROM {{table_name}}"`
