@@ -35,7 +35,3 @@
 - List locally cached packages matching a pattern:
 
 `conan list {{pattern}}`
-
-- List remotes:
-
-`conan remote list`
