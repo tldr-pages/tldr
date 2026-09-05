@@ -1,6 +1,7 @@
 # docker compose
 
 > Exécute et gère des applications au travers de plusieurs conteneurs Docker.
+> Certaines sous-commandes, telles que `up`, `down`, `logs`, `stop` disposent de leur propre documentation d’utilisation.
 > Plus d'informations : <https://docs.docker.com/reference/cli/docker/compose/>.
 
 - Liste tous les conteneurs en cours d'exécution :
