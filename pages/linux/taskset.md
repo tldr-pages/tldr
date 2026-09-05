@@ -5,11 +5,11 @@
 
 - Get a running process' CPU affinity by PID:
 
-`taskset {{[-p|--pid]}} {{[-c|--cpu-list]}} {{pid}}`
+`taskset {{[-p|--pid]}} {{[-c|--cpu-list]}} {{process_id}}`
 
 - Set a running process' CPU affinity by PID:
 
-`taskset {{[-p|--pid]}} {{[-c|--cpu-list]}} {{cpu_id}} {{pid}}`
+`taskset {{[-p|--pid]}} {{[-c|--cpu-list]}} {{cpu_id}} {{process_id}}`
 
 - Start a new process with affinity for a single CPU:
 

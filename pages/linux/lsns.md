@@ -13,7 +13,7 @@
 
 - List namespaces associated with the specified process:
 
-`lsns {{[-p|--task]}} {{pid}}`
+`lsns {{[-p|--task]}} {{process_id}}`
 
 - List the specified type of namespaces only:
 

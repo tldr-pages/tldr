@@ -114,6 +114,8 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [5 May 2026](https://github.com/tldr-pages/tldr/issues/22333) — present
 - **Andrei Murariu (iamxorum) ([@iamxorum](https://github.com/iamxorum))**:
   [5 May 2026](https://github.com/tldr-pages/tldr/issues/22338) — present
+- **Agam Agarwal ([@AgamAgarwal](https://github.com/AgamAgarwal))**:
+  [03 September 2026](https://github.com/tldr-pages/tldr/issues/23809) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke)):
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
