@@ -17,7 +17,7 @@
 
 `sudo pacman -Rs {{nom_paquet}}`
 
-- Recherche dans la base de données des paquets à l’aide d’une `regex` ou d’un mot-clé :
+- Recherche dans la base de données des paquets à l’aide d’une expression régulière ou d’un mot-clé :
 
 `pacman -Ss "{{motif_recherché}}"`
 
