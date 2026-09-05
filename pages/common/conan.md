@@ -1,29 +1,37 @@
 # conan
 
 > The open source, decentralized, and cross-platform package manager to create and share all your native binaries.
-> Some subcommands such as `frogarian` have their own usage documentation.
+> Some subcommands such as `install`, `create`, `profile`, `remote` have their own usage documentation.
 > More information: <https://docs.conan.io/2/reference/commands.html>.
 
-- Install packages based on `conanfile.txt`:
+- Scaffold a new project from a template recipe, e.g. a CMake library:
+
+`conan new {{cmake_lib}} {{[-d|--define]}} name={{pkg_name}} {{[-d|--define]}} version={{1.0}}`
+
+- Auto-detect the host environment and create a `default` profile:
+
+`conan profile detect`
+
+- Install dependencies based on `conanfile.txt` or a `conanfile.py` recipe:
 
 `conan install {{.}}`
 
-- Install packages and create configuration files for a specific generator:
+- Install a package directly from the configured remotes:
 
-`conan install -g {{generator}}`
+`conan install --requires {{zlib/1.3.1}}`
 
-- Install packages, building from source:
+- Install dependencies, building from source only when prebuilt binaries are missing:
 
-`conan install {{.}} --build`
+`conan install {{.}} --build {{missing}}`
 
-- Search for locally installed packages:
+- Create a package from a `conanfile.py` recipe in the current directory:
 
-`conan search {{package}}`
+`conan create {{.}}`
 
-- Search for remote packages:
+- Build a package locally from its recipe without creating it:
 
-`conan search {{package}} -r {{remote}}`
+`conan build {{.}}`
 
-- List remotes:
+- List locally cached packages matching a pattern:
 
-`conan remote list`
+`conan list {{pattern}}`
