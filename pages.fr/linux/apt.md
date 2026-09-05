@@ -13,7 +13,7 @@
 
 `apt search {{package}}`
 
-- Recherche des paquets uniquement par nom (accepte les caractères génériques comme *) :
+- Recherche des paquets uniquement par nom (accepte les caractères joker comme `*`) :
 
 `apt list {{package}}`
 
