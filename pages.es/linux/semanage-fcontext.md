@@ -14,7 +14,7 @@
 
 - Añade una regla definida por el usuario que etiquete cualquier ruta que coincida con una `expresión regular` PCRE:
 
-`sudo semanage fcontext {{[-a|--add]}} {{[-t|--type]}} {{samba_share_t}} "{{/mnt/share(/.*)?}}"`
+`sudo semanage fcontext {{[-a|--add]}} {{[-t|--type]}} {{samba_share_t}} '{{/mnt/share(/.*)?}}'`
 
 - Añade una regla definida por el usuario que establezca una equivalencia de etiquetado entre dos subrutas:
 
@@ -22,7 +22,7 @@
 
 - Elimina una regla definida por el usuario utilizando su expresión regular PCRE:
 
-`sudo semanage fcontext {{[-d|--delete]}} "{{/mnt/share(/.*)?}}"`
+`sudo semanage fcontext {{[-d|--delete]}} '{{/mnt/share(/.*)?}}'`
 
 - Reetiqueta un directorio de forma recursiva aplicando las nuevas reglas:
 
