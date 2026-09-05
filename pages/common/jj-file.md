@@ -1,7 +1,7 @@
 # jj file
 
 > Manage and inspect files in a `jj` repository.
-> Some subcommands such as `annotate`, `list`, `search`, `show` have their own usage documentation.
+> Some subcommands such as `annotate`, `show`, `track`, `untrack` have their own usage documentation.
 > More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-file>.
 
 - List files tracked in the working copy:
