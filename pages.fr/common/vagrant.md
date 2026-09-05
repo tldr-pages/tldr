@@ -1,6 +1,7 @@
 # vagrant
 
 > Gère des environnements de développement légers, reproductibles et portables.
+> Certaines sous-commandes, telles que `box`, `snapshot`, `halt`, etc., disposent de leur propre documentation d’utilisation.
 > Plus d'informations : <https://developer.hashicorp.com/vagrant/docs/cli>.
 
 - Crée un fichier Vagrantfile dans le répertoire actuel avec l'image Vagrant de base :
