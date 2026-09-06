@@ -17,7 +17,7 @@
 
 - Attach to an already running process and see its file reading progress:
 
-`pv {{[-d|--watchfd]}} {{pid}}`
+`pv {{[-d|--watchfd]}} {{process_id}}`
 
 - Read an erroneous file, skip errors as `dd conv=sync,noerror` would:
 

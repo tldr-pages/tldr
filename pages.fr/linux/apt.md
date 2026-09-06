@@ -1,7 +1,8 @@
 # apt
 
 > Utilitaire de gestion des paquets pour les distributions basées sur Debian.
-> Remplacement recommandé pour `apt-get` lorsqu'il est utilisé de manière interactive dans les versions 16.04 et ultérieures d'Ubuntu.
+> Conçue comme une alternative conviviale à `apt-get` pour une utilisation interactive.
+> Pour les commandes équivalentes dans d’autres gestionnaires de paquets, voir <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > Plus d'informations : <https://manned.org/apt.8>.
 
 - Mettre à jour la liste des paquets et des versions disponibles (il est recommandé de l'exécuter avant les autres commandes `apt`) :
@@ -11,6 +12,10 @@
 - Recherche d'un paquet donné :
 
 `apt search {{package}}`
+
+- Recherche des paquets uniquement par nom (accepte les caractères joker comme `*`) :
+
+`apt list {{package}}`
 
 - Afficher les informations pour un paquet :
 
@@ -27,10 +32,6 @@
 - Mettre à jour tous les paquets installés vers les dernières versions disponibles :
 
 `sudo apt upgrade`
-
-- Lister tous les paquets :
-
-`apt list`
 
 - Lister les paquets installés :
 
