@@ -5,7 +5,7 @@
 > Vea también: `gammastep`.
 > Más información: <https://manned.org/redshift>.
 
-- Activa Redshift con la [t]emperatura ajustada a 5700 K durante el día y a 3600 K por la noche:
+- Activa Redshift con la [t]emperatura ajustada a 5700k durante el día y a 3600k por la noche:
 
 `redshift -t 5700:3600`
 
