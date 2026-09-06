@@ -2,6 +2,7 @@
 
 > Utilitaire de gestion des paquets Debian et Ubuntu.
 > Recherche des paquets en utilisant `apt-cache`.
+> Il est recommandé d’utiliser `apt` pour une utilisation interactive dans les versions 16.04 et ultérieures d’Ubuntu.
 > Plus d'informations : <https://manned.org/apt-get.8>.
 
 - Mise à jour de la liste des paquets et des versions disponibles (il est recommandé de l'exécuter avant les autres commandes `apt-get`) :
