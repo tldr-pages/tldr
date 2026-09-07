@@ -9,7 +9,7 @@
 
 - Install dependencies, building from source only when prebuilt binaries are missing:
 
-`conan install {{.}} --build {{missing}}`
+`conan install {{.}} {{[-b|--build]}} {{missing}}`
 
 - Install dependencies using a specific profile:
 
@@ -21,4 +21,4 @@
 
 - Install dependencies into a specific output folder:
 
-`conan install {{.}} --of {{path/to/output_folder}}`
+`conan install {{.}} {{[-of|--output-folder]}} {{path/to/output_folder}}`
