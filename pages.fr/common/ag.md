@@ -23,7 +23,7 @@
 
 `ag {{foo}} -G {{bar}}`
 
-- Trouve des fichiers dont le contenu correspond à une expression régulière :
+- Trouve des fichiers dont le contenu correspond à une `regex` :
 
 `ag '{{^ba(r|z)$}}'`
 

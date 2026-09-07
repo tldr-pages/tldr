@@ -11,6 +11,6 @@
 
 `logcat -f {{chemin/vers/fichier}}`
 
-- Affiche les lignes qui correspondent à une expression régulière :
+- Affiche les lignes qui correspondent à une `regex` :
 
-`logcat --regex {{expression_régulière}}`
+`logcat --regex {{regex}}`
