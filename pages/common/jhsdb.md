@@ -5,7 +5,7 @@
 
 - Print stack and locks information of a Java process:
 
-`jhsdb jstack --pid {{pid}}`
+`jhsdb jstack --pid {{process_id}}`
 
 - Open a core dump in interactive debug mode:
 
@@ -17,4 +17,4 @@
 
 - Connect to a process in interactive debug mode:
 
-`jhsdb clhsdb --pid {{pid}}`
+`jhsdb clhsdb --pid {{process_id}}`
