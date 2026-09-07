@@ -21,7 +21,7 @@
 
 - Trouve `string` dans les fichiers nommés `nom_fichier` :
 
-`ag string {{[-G|--file-search-regex]}} nom_fichier`
+`ag string {{[-G|--file-search-regex]}} {{nom_fichier}}`
 
 - Trouve des fichiers dont le contenu correspond à une expression régulière :
 
