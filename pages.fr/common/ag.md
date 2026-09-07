@@ -3,30 +3,30 @@
 > The Silver Searcher. Comme `ack`, mais inspire à être plus rapide.
 > Plus d'informations : <https://manned.org/ag>.
 
-- Trouve les fichiers qui contiennent "foo", et affiche les lignes correspondantes dans le contexte courant :
+- Trouve les fichiers qui contiennent `string`, et affiche les lignes correspondantes dans le contexte courant :
 
-`ag {{foo}}`
+`ag string`
 
-- Trouve les fichiers qui contiennent "foo" dans un dossier spécifique :
+- Trouve les fichiers qui contiennent `string` dans un dossier spécifique :
 
-`ag {{foo}} {{chelin/vers/dossier}}`
+`ag string {{chemin/vers/dossier}}`
 
-- Trouve les fichiers qui contiennent "foo", mais affiche les nom de fichier uniquement :
+- Trouve les fichiers qui contiennent `string`, mais affiche uniquement les noms des fichiers :
 
-`ag -l {{foo}}`
+`ag {{[-l|--files-with-matches]}} string`
 
-- Trouve les fichiers qui contiennent "FOO" en étant insensible à la casse et affiche que le premier résultat plutôt que la ligne entière :
+- Trouve les fichiers qui contiennent `STRING` en étant insensible à la casse et affiche que le résultat plutôt que la ligne entière :
 
-`ag -i -o {{FOO}}`
+`ag {{[-i|--ignore-case]}} {{[-o|--only-matching]}} STRING`
 
-- Trouve "foo" dans les fichiers avec un nom contenant "bar" :
+- Trouve `string` dans les fichiers nommés `nom_fichier` :
 
-`ag {{foo}} -G {{bar}}`
+`ag string {{[-G|--file-search-regex]}} {{nom_fichier}}`
 
 - Trouve des fichiers dont le contenu correspond à une `regex` :
 
-`ag '{{^ba(r|z)$}}'`
+`ag '{{^ca(t|r)$}}'`
 
-- Trouve les fichiers avec un nom contenant "foo" :
+- Trouve les fichiers avec un nom correspondant à `string` :
 
-`ag -g {{foo}}`
+`ag {{[-g|--filename-pattern]}} string`
