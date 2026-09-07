@@ -9,7 +9,7 @@
 
 - Build the package and store the artifacts in a specific output folder:
 
-`conan build {{.}} --of {{path/to/output_folder}}`
+`conan build {{.}} {{[-of|--output-folder]}} {{path/to/output_folder}}`
 
 - Build the package using a specific profile:
 
