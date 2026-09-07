@@ -22,7 +22,7 @@
 
 - Install dependencies, building from source only when prebuilt binaries are missing:
 
-`conan install {{.}} --build {{missing}}`
+`conan install {{.}} {{[-b|--build]}} {{missing}}`
 
 - Create a package from a `conanfile.py` recipe in the current directory:
 
