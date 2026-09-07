@@ -10,7 +10,7 @@
 
 - Show a limited number of recent commits:
 
-`dolt log -n {{count}}`
+`dolt log {{[-n|--number]}} {{count}}`
 
 - Show the commit history for a specific table:
 
