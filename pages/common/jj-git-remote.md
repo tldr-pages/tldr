@@ -9,7 +9,7 @@
 
 - Add a Git remote:
 
-`jj git remote add {{remote}} {{url}}`
+`jj git remote add {{remote_name}} {{remote_url}}`
 
 - Add a Git remote with a specific push URL:
 
@@ -17,7 +17,7 @@
 
 - Change the URL of a Git remote:
 
-`jj git remote set-url {{remote}} {{url}}`
+`jj git remote set-url {{remote_name}} {{remote_url}}`
 
 - Set the push URL for a Git remote:
 
@@ -29,7 +29,7 @@
 
 - Remove a Git remote:
 
-`jj git remote remove {{remote}}`
+`jj git remote remove {{remote_name}}`
 
 - Rename a Git remote:
 
