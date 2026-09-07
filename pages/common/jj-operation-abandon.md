@@ -1,7 +1,7 @@
 # jj operation abandon
 
 > Abandon operation history in a `jj` repository.
-> See also: `jj operation log`, `jj operation restore`, `jj operation revert`
+> See also: `jj operation log`, `jj operation restore`, `jj operation revert`.
 > More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-operation-abandon>.
 
 - Abandon a specific operation:
