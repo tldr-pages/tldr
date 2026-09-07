@@ -12,6 +12,10 @@
 
 `jj file show {{path/to/file}}`
 
+- Print the contents of a file from another revision:
+
+`jj file show {{[-r|--revision]}} {{revset}} {{path/to/file}}`
+
 - Search for a pattern across tracked files:
 
 `jj file search {{[-p|--pattern]}} "{{pattern}}"`
