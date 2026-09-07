@@ -29,9 +29,9 @@
 
 `</>{{motif_recherché}}<Entrée>`
 
-- Effectue une substitution par expression régulière dans tout le fichier :
+- Effectuer une substitution par `regex` dans tout le fichier :
 
-`<:>%s/{{motif}}/{{remplacement}}/g<Entrée>`
+`<:>%s/{{regex}}/{{remplacement}}/g<Entrée>`
 
 - Affiche les numéros de ligne :
 
