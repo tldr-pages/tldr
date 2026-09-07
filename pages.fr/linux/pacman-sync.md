@@ -16,7 +16,7 @@
 
 `sudo pacman --sync --refresh --sysupgrade --noconfirm {{paquet}}`
 
-- Recherche un paquet en utilisant un nom ou une expression régulière :
+- Recherche un paquet en utilisant un nom ou une `regex` :
 
 `pacman --sync --search "{{motif}}"`
 

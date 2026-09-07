@@ -1,6 +1,6 @@
 # z
 
-> Recherche les répertoires les plus utilisés et permet une navigation rapide à l'aide de chaînes de caractères ou d'expressions régulières.
+> Recherche les répertoires les plus utilisés et permet une navigation rapide à l'aide de chaînes de caractères ou d'`regex`.
 > Plus d'informations : <https://github.com/rupa/z>.
 
 - Aller dans un répertoire qui contient "foo" dans son nom :
