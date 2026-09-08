@@ -5,27 +5,27 @@
 > Voir aussi : `vimdiff`, `vimtutor`, `nvim`, `gvim`.
 > Plus d'informations : <https://www.vim.org/>.
 
-- Ouvrir un fichier :
+- Ouvre un fichier :
 
 `vim {{chemin/vers/fichier}}`
 
-- Ouvrir un fichier à une ligne spécifiée :
+- Ouvre un fichier à une ligne spécifiée :
 
 `vim +{{numero_ligne}} {{chemin/vers/fichier}}`
 
-- Consulter le manuel utilisateur :
+- Consulte le manuel utilisateur :
 
 `<:>help<Enter>`
 
-- Sauvegarder et fermer :
+- Sauvegarde et ferme :
 
 `{{<Esc><Z><Z>|<Esc><:>x<Enter>|<Esc><:>wq<Enter>}}`
 
-- Annuler la dernière opération :
+- Annule la dernière opération :
 
 `<Esc><u>`
 
-- Rechercher un motif dans un fichier (appuyez `<n>`/`<N>` pour aller à la prochaine / précédente occurrence) :
+- Recherche un motif dans un fichier (appuyer `<n>`/`<N>` pour aller à la prochaine / précédente occurrence) :
 
 `</>{{motif_recherché}}<Entrée>`
 
@@ -33,6 +33,6 @@
 
 `<:>%s/{{regex}}/{{remplacement}}/g<Entrée>`
 
-- Afficher les numéros de ligne :
+- Affiche les numéros de ligne :
 
 `<:>set nu<Entrée>`
