@@ -21,7 +21,7 @@
 
 - Liste l'ensemble des dossiers dans la base de données `z` qui contiennent `string` dans leurs noms :
 
-`z -l {{foo}}`
+`z -l string`
 
 - Supprime le dossier actuel de la base de données de `z` :
 
