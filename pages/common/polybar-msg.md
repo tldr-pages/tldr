@@ -30,4 +30,4 @@
 
 - Only send messages to a specific Polybar instance (all instances by default):
 
-`polybar-msg -p {{pid}} {{cmd|action}} {{payload}}`
+`polybar-msg -p {{process_id}} {{cmd|action}} {{payload}}`
