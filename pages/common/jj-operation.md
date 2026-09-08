@@ -20,6 +20,10 @@
 
 `jj {{[op|operation]}} restore {{operation}}`
 
+- Revert an earlier operation by applying its inverse:
+
+`jj {{[op|operation]}} revert {{operation}}`
+
 - Show changes to the repository in an operation:
 
 `jj {{[op|operation]}} show {{operation}}`
@@ -27,3 +31,7 @@
 - Show stat, summary, and patch of modifications of an operation:
 
 `jj {{[op|operation]}} show {{--stat}} {{[-s|--summary]}} {{[-p|--patch]}} {{operation}}`
+
+- Compare repository changes between two operations:
+
+`jj {{[op|operation]}} diff {{[-f|--from]}} {{from_op}} {{[-t|--to]}} {{to_op}}`
