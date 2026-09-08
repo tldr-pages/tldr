@@ -11,7 +11,7 @@
 
 `pulumi policy validate-config {{조직_이름}}/{{정책_모음_이름}} {{버전}}`
 
-- List all policies for an organization:
+- 조직의 모든 정책 목록 표시:
 
 `pulumi policy ls {{[-j|--json]}} {{조직_이름}}`
 
