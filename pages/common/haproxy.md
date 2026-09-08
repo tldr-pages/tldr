@@ -25,7 +25,7 @@
 
 - Reload configuration with graceful shutdown of old process:
 
-`haproxy -f {{path/to/haproxy.cfg}} -sf {{pid}}`
+`haproxy -f {{path/to/haproxy.cfg}} -sf {{process_id}}`
 
 - Set maximum number of simultaneous connections:
 
@@ -33,4 +33,4 @@
 
 - Reload with zero downtime by reusing sockets from old process:
 
-`haproxy -f {{path/to/haproxy.cfg}} -x {{path/to/haproxy.sock}} -sf {{pid}}`
+`haproxy -f {{path/to/haproxy.cfg}} -x {{path/to/haproxy.sock}} -sf {{process_id}}`
