@@ -19,6 +19,6 @@
 
 `localectl list-keymaps`
 
-- Set the system keyboard mapping for the console and X11:
+- Set the system keyboard mapping for the console and graphical sessions:
 
 `localectl set-keymap {{us}}`

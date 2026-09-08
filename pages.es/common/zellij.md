@@ -1,7 +1,7 @@
 # zellij
 
 > Multiplexor de terminal con baterías incluidas.
-> Vea también: `tmux`, `screen`.
+> Vea también: `tmux`, `screen`, `herdr`.
 > Más información: <https://zellij.dev/documentation/>.
 
 - Inicia una nueva sesión con nombre:

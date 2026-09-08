@@ -1,6 +1,7 @@
 # scrcpy
 
 > Tampilkan layar and kontrol perangkat Android anda di dalam desktop.
+> Lihat juga: `adb connect`.
 > Informasi lebih lanjut: <https://github.com/Genymobile/scrcpy>.
 
 - Tampilkan layar sebuah perangkat yang terhubung:

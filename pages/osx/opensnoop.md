@@ -13,7 +13,7 @@
 
 - Track all file opens by a process by PID:
 
-`sudo opensnoop -p {{pid}}`
+`sudo opensnoop -p {{process_id}}`
 
 - Track which processes open a specified file:
 

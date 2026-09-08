@@ -10,7 +10,7 @@
 
 - Voer specifieke [c]ommando's uit:
 
-`zsh -c "{{echo Hello world}}"`
+`zsh -c "{{echo 'zsh wordt uitgevoerd'}}"`
 
 - Voer een specifiek script uit:
 
@@ -22,7 +22,7 @@
 
 - Voer specifieke commando's uit van `stdin`:
 
-`{{echo Hello world}} | zsh`
+`{{echo "echo 'zsh wordt uitgevoerd'"}} | zsh`
 
 - Voer een specifiek script uit en toon elke opdracht in het script voordat deze wordt uitgevoerd:
 
