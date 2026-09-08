@@ -3,26 +3,30 @@
 > Recherche les répertoires les plus utilisés et permet une navigation rapide à l'aide de chaînes de caractères ou de `regex`.
 > Plus d'informations : <https://github.com/rupa/z>.
 
-- Aller dans un répertoire qui contient "foo" dans son nom :
+- Navigue vers un dossier qui contient `string` dans son nom :
 
-`z {{foo}}`
+`z string`
 
-- Aller dans un répertoire qui contient "foo" et "bar" dans son nom :
+- Navigue vers un dossier qui contient `string1` puis `string2` :
 
-`z {{foo}} {{bar}}`
+`z string1 string2`
 
-- Aller dans le répertoire le mieux classé parmi ceux qui contiennent "foo" dans leurs noms :
+- Navigue vers le dossier le mieux classé parmi ceux qui contiennent `string` dans leurs noms :
 
-`z -r {{foo}}`
+`z -r string`
 
-- Aller dans le répertoire accédé le plus récemment parmi ceux qui contiennent "foo" dans leurs noms :
+- Navigue vers le dossier accédé le plus récemment parmi ceux qui contiennent `string` dans leurs noms :
 
-`z -t {{foo}}`
+`z -t string`
 
-- Lis l'ensemble des répertoires dans la base de données `z` qui contiennent "foo" dans leurs noms :
+- Liste l'ensemble des dossiers dans la base de données `z` qui contiennent `string` dans leurs noms :
 
 `z -l {{foo}}`
 
-- Supprime le répertoire courant de la base de données de `z` :
+- Supprime le dossier actuel de la base de données de `z` :
 
-`z -x .`
+`z -x`
+
+- Restreint les correspondances aux sous-dossiers du dossier actuel :
+
+`z -c {{string}}`
