@@ -15,6 +15,6 @@
 
 `fossil {{[ci|commit]}} {{[-M|--message-file]}} {{경로/대상/커밋_메시지}}`
 
-- Create a new version containing changes from the specified files; user will be prompted for a comment:
+- 지정한 파일의 변경 사항을 포함하는 새로운 버전 생성 후, 사용자에게 주석 입력을 요청:
 
 `fossil {{[ci|commit]}} {{경로/대상/파일1 경로/대상/파일2 ...}}`
