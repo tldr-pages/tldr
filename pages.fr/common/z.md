@@ -23,7 +23,7 @@
 
 `z -l string`
 
-- Supprime le dossier actuel de la base de données de `z` :
+- Supprime le répertoire actuel de la base de données de `z` :
 
 `z -x`
 
