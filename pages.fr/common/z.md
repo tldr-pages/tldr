@@ -27,6 +27,6 @@
 
 `z -x`
 
-- Restreint les correspondances aux sous-dossiers du dossier actuel :
+- Restreint les correspondances aux sous-répertoires du répertoire actuel :
 
 `z -c {{string}}`
