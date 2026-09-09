@@ -19,7 +19,7 @@
 
 `z -t string`
 
-- Liste l'ensemble des dossiers dans la base de données `z` qui contiennent `string` dans leurs noms :
+- Liste l'ensemble des répertoires dans la base de données `z` qui contiennent `string` dans leurs noms :
 
 `z -l string`
 
