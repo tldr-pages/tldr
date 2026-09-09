@@ -11,7 +11,7 @@
 
 `z string1 string2`
 
-- Navigue vers le dossier le mieux classé parmi ceux qui contiennent `string` dans leurs noms :
+- Navigue vers le répertoire le mieux classé parmi ceux qui contiennent `string` dans leurs noms :
 
 `z -r string`
 
