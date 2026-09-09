@@ -204,8 +204,6 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [29 December 2023](https://github.com/tldr-pages/tldr/issues/11918) — present
 - **Vitor Henrique ([@vitorhcl](https://github.com/vitorhcl))**:
   [21 January 2024](https://github.com/tldr-pages/tldr/issues/12094) — present
-- **Fazle Arefin ([@fazlearefin](https://github.com/fazlearefin))**:
-  [2 April 2024](https://github.com/tldr-pages/tldr/issues/12595) — present
 - **Alejandro Cervera ([@tricantivu](https://github.com/tricantivu))**:
   [3 April 2024](https://github.com/tldr-pages/tldr/issues/12594) — present
 - **Magrid0 ([@Magrid0](https://github.com/Magrid0))**:
@@ -274,6 +272,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [6 January 2020](https://github.com/tldr-pages/tldr/issues/3738) — [9 September 2026](https://github.com/tldr-pages/tldr/issues/23434)
 - Tan Siret Akıncı ([@tansiret](https://github.com/tansiret)):
   [7 April 2021](https://github.com/tldr-pages/tldr/issues/5702) — [9 September 2026](https://github.com/tldr-pages/tldr/issues/23432) (Removed due to 2FA enforcement, when converting to outside collaborator)
+- Fazle Arefin ([@fazlearefin](https://github.com/fazlearefin)):
+  [2 April 2024](https://github.com/tldr-pages/tldr/issues/12595) — [9 September 2026](https://github.com/tldr-pages/tldr/issues/23889)
 
 ## Organization owners
 
