@@ -7,7 +7,7 @@
 
 `z string`
 
-- Navigue vers un dossier qui contient `string1` puis `string2` :
+- Navigue vers un répertoire qui contient `string1` puis `string2` :
 
 `z string1 string2`
 
