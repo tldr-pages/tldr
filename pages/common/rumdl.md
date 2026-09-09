@@ -1,7 +1,7 @@
 # rumdl
 
 > A fast Markdown linter and formatter written in Rust.
-> More information: <https://rumdl.dev>.
+> More information: <https://rumdl.dev/usage/cli>.
 
 - Lint the specified files or directories:
 
