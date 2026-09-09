@@ -21,7 +21,7 @@
 
 - Find `string` in files with a name matching `file_name`:
 
-`ag string {{[-G|--file-search-regex]}} file_name`
+`ag string {{[-G|--file-search-regex]}} {{file_name}}`
 
 - Find files whose contents match a `regex`:
 

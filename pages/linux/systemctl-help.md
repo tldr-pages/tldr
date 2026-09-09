@@ -21,4 +21,4 @@
 
 - Show the manual page for the unit of a process by PID:
 
-`systemctl help {{pid}}`
+`systemctl help {{process_id}}`

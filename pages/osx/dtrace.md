@@ -30,8 +30,8 @@
 
 - Grad the specified [p]rocess ID, cache its symbol table, and exit upon completion:
 
-`dtrace -p {{pid}}`
+`dtrace -p {{process_id}}`
 
 - Combine different options for tracing function in a process:
 
-`dtrace -a -b {{buffer_size}} -f {{function}} -p {{pid}}`
+`dtrace -a -b {{buffer_size}} -f {{function}} -p {{process_id}}`

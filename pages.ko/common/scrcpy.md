@@ -1,6 +1,7 @@
 # scrcpy
 
 > Android 기기를 데스크톱에서 표시하고 제어.
+> 관련 항목: `adb connect`.
 > 더 많은 정보: <https://github.com/Genymobile/scrcpy>.
 
 - 연결된 기기의 화면 미러링:
