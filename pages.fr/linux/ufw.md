@@ -2,6 +2,7 @@
 
 > Simple pare-feu.
 > Interface pour `iptables` visant à simplifier la configuration d’un pare-feu.
+> Certaines sous-commandes, telles que `allow`, `enable`, `delete`, etc., disposent de leur propre documentation d'utilisation.
 > Plus d'informations : <https://manned.org/ufw>.
 
 - Active/désactive `ufw` :
