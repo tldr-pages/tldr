@@ -15,7 +15,7 @@
 
 `z -r string`
 
-- Navigue vers le dossier accédé le plus récemment parmi ceux qui contiennent `string` dans leurs noms :
+- Navigue vers le répertoire accédé le plus récemment parmi ceux qui contiennent `string` dans leurs noms :
 
 `z -t string`
 
