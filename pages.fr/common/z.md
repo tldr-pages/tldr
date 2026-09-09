@@ -3,7 +3,7 @@
 > Recherche les répertoires les plus utilisés et permet une navigation rapide à l'aide de chaînes de caractères ou de `regex`.
 > Plus d'informations : <https://github.com/rupa/z>.
 
-- Navigue vers un dossier qui contient `string` dans son nom :
+- Navigue vers un répertoire qui contient `string` dans son nom :
 
 `z string`
 
