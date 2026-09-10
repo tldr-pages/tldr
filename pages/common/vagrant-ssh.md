@@ -1,7 +1,6 @@
 # vagrant ssh
 
 > SSH into a running Vagrant machine.
-> See also: `vagrant`.
 > More information: <https://developer.hashicorp.com/vagrant/docs/cli/ssh>.
 
 - SSH into the machine running in the current directory:
