@@ -27,7 +27,7 @@
 
 `rumdl init`
 
-- Show information about a specific rule (omit the rule to list all rules):
+- Show information about a specific rule (list all rules if omitted):
 
 `rumdl rule {{MD013}}`
 
