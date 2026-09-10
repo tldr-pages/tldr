@@ -7,7 +7,7 @@
 
 `wmctrl -l`
 
-- List all virtual desktops (workspaces), marking the current one with an asterisk:
+- List all virtual [d]esktops (workspaces), marking the current one with an asterisk:
 
 `wmctrl -d`
 
