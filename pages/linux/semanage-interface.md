@@ -1,7 +1,7 @@
 # semanage interface
 
 > Manage SELinux network interface type definitions.
-> See also: `semanage-port`.
+> See also: `semanage port`.
 > More information: <https://manned.org/semanage-interface>.
 
 - List all interface type definitions:
