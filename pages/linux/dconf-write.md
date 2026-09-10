@@ -1,7 +1,6 @@
 # dconf write
 
 > Write key values in dconf databases.
-> See also: `dconf`.
 > More information: <https://manned.org/dconf>.
 
 - Write a specific key value:
