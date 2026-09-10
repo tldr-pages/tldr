@@ -1,6 +1,6 @@
 # arch-update
 
-> Interactive update notifier & applier for Arch Linux.
+> Interactively check for, notify, and apply updates on Arch Linux.
 > More information: <https://github.com/Antiz96/arch-update>.
 
 - Start the system update:
