@@ -1,7 +1,7 @@
 # prowler gcp
 
 > Assess Google Cloud Platform (GCP) security best practices, audits, and compliance checks.
-> See also: `prowler`, `prowler-aws`, `prowler-azure`, `prowler-kubernetes`, `prowler-m365`, `prowler-github`.
+> See also: `prowler aws`, `prowler azure`, `prowler kubernetes`, `prowler m365`, `prowler github`.
 > More information: <https://docs.prowler.com/user-guide/cli/tutorials/misc>.
 
 - Run the default set of checks on all accessible GCP projects using default user credentials:
