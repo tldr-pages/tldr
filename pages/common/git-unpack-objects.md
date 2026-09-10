@@ -15,7 +15,7 @@
 
 `git unpack objects {{[-r]}}`
 
-- Do not write objects containing broken content or links:
+- Don't write objects containing broken content or links:
 
 `git unpack objects {{[--strict]}}`
 
