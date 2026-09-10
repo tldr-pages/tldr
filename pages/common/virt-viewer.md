@@ -2,6 +2,7 @@
 
 > Minimal graphical interface for a virtual machine (VM).
 > Note: `domain` refers to the name, UUID, or ID for the existing VMs.
+> See also: `virsh`.
 > More information: <https://manned.org/virt-viewer>.
 
 - Launch `virt-viewer` with a prompt to select running virtual machines:
