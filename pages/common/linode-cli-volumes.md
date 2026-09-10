@@ -1,7 +1,6 @@
 # linode-cli volumes
 
 > Manage Linode Volumes.
-> See also: `linode-cli`.
 > More information: <https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-block-storage-volumes>.
 
 - List current Volumes:
