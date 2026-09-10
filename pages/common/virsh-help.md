@@ -1,7 +1,6 @@
 # virsh help
 
 > Display information about `virsh` commands or command groups.
-> See also: `virsh`.
 > More information: <https://manned.org/virsh>.
 
 - List the `virsh` commands grouped into related categories:
