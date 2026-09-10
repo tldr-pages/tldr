@@ -2,7 +2,7 @@
 
 > Tabiew, a lightweight TUI application to view and query tabular data files.
 > Supports CSV, TSV, Parquet, JSON, JSONL, Arrow, FWF, SQLite, Excel, and more.
-> More information: <https://github.com/shshemi/tabiew>.
+> More information: <https://github.com/shshemi/tabiew#usage>.
 
 - Open one or more files, detecting the format based on the file extension:
 
