@@ -1,7 +1,6 @@
 # pkgctl diff
 
 > Compare package files using different modes.
-> See also: `pkgctl`.
 > More information: <https://manned.org/pkgctl-diff>.
 
 - Compare package files in tar content list different mode (default):

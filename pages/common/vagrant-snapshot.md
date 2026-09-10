@@ -1,7 +1,6 @@
 # vagrant snapshot
 
 > Manage snapshots of Vagrant machines.
-> See also: `vagrant`.
 > More information: <https://developer.hashicorp.com/vagrant/docs/cli/snapshot>.
 
 - Take a snapshot of the machine (running or stopped):
