@@ -23,7 +23,7 @@
 
 `git branch {{branch_name}} {{commit_hash}}`
 
-- Rename a branch (you must switch to a different branch before doing this):
+- Rename a branch:
 
 `git branch {{[-m|--move]}} {{old_branch_name}} {{new_branch_name}}`
 
