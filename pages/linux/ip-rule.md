@@ -1,6 +1,7 @@
 # ip rule
 
 > IP routing policy database management.
+> See also: `ip route`.
 > More information: <https://manned.org/ip-rule>.
 
 - Display the routing policy:
