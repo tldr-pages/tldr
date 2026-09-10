@@ -27,6 +27,6 @@
 
 `git fetch --deepen 2`
 
-- Fast-forward the local `main` branch to the remote `main` branch without checking it out:
+- Update the `main` branch without switching to it (equivalent to `git pull`):
 
 `git fetch {{origin}} main:main`
