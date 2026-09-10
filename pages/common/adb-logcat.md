@@ -25,7 +25,7 @@
 
 - Display logs for a specific PID:
 
-`adb logcat --pid {{pid}}`
+`adb logcat --pid {{process_id}}`
 
 - Display logs for the process of a specific package:
 

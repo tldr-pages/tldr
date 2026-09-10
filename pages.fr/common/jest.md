@@ -11,13 +11,13 @@
 
 `jest {{chemin/vers/fichier1 chemin/vers/fichier2 ...}}`
 
-- Exécuter les suites de test pour des fichiers, dans le répertoire courant et ses sous-répertoires, dont le chemin correspond à l'expression régulière indiquée :
+- Exécuter les suites de test pour des fichiers, dans le répertoire courant et ses sous-répertoires, dont le chemin correspond à la `regex` indiquée :
 
-`jest {{expression_régulière expression_régulière ...}}`
+`jest {{regex1 regex2 ...}}`
 
-- Exécuter les tests dont les noms correspondent aux expressions régulières indiquées :
+- Exécuter les tests dont les noms correspondent aux `regex` indiquées :
 
-`jest --testNamePattern {{nom_test}}`
+`jest --testNamePattern {{regex}}`
 
 - Exécuter les suites de test associées à un fichier source donné :
 

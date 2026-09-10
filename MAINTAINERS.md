@@ -114,12 +114,18 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [5 May 2026](https://github.com/tldr-pages/tldr/issues/22333) — present
 - **Andrei Murariu (iamxorum) ([@iamxorum](https://github.com/iamxorum))**:
   [5 May 2026](https://github.com/tldr-pages/tldr/issues/22338) — present
+- **Agam Agarwal ([@AgamAgarwal](https://github.com/AgamAgarwal))**:
+  [03 September 2026](https://github.com/tldr-pages/tldr/issues/23809) — present
+- **Ein Verne ([@einverne](https://github.com/einverne))**:
+  [27 October 2019](https://github.com/tldr-pages/tldr/issues/3488) — [6 January 2020](https://github.com/tldr-pages/tldr/issues/3738), [9 September 2026](https://github.com/tldr-pages/tldr/issues/23434) — present
+- **Muhammad Falak R Wani ([@mfrw](https://github.com/mfrw))**:
+  [6 September 2018](https://github.com/tldr-pages/tldr/issues/2306) — [21 June 2021](https://github.com/tldr-pages/tldr/issues/6142), [9 September 2026](https://github.com/tldr-pages/tldr/issues/23433) — present
+- **open-source-learner ([@open-source-learner](https://github.com/open-source-learner))**:
+  [10 September 2026](https://github.com/tldr-pages/tldr/issues/23903) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke)):
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
   [28 January 2019](https://github.com/tldr-pages/tldr/issues/2735) — [8 April 2019](https://github.com/tldr-pages/tldr/issues/2874)
-- Ein Verne ([@einverne](https://github.com/einverne)):
-  [27 October 2019](https://github.com/tldr-pages/tldr/issues/3488) — [6 January 2020](https://github.com/tldr-pages/tldr/issues/3738)
 - Zlatan Vasović ([@zlatanvasovic](https://github.com/zlatanvasovic)):
   [28 November 2019](https://github.com/tldr-pages/tldr/issues/3636) — [17 December 2019](https://github.com/tldr-pages/tldr/issues/3663)
 - bl-ue ([@bl-ue](https://github.com/bl-ue)):
@@ -130,8 +136,6 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [16 April 2021](https://github.com/tldr-pages/tldr/issues/5774) — [19 May 2021](https://github.com/tldr-pages/tldr/issues/5989)
 - CleanMachine1 ([@CleanMachine1](https://github.com/CleanMachine1)):
   [14 May 2021](https://github.com/tldr-pages/tldr/issues/5961) — [14 June 2021](https://github.com/tldr-pages/tldr/issues/6123)
-- Muhammad Falak R Wani ([@mfrw](https://github.com/mfrw)):
-  [6 September 2018](https://github.com/tldr-pages/tldr/issues/2306) — [21 June 2021](https://github.com/tldr-pages/tldr/issues/6142)
 - Seth Falco ([@SethFalco](https://github.com/SethFalco)):
   [19 May 2021](https://github.com/tldr-pages/tldr/issues/5993) — [21 June 2021](https://github.com/tldr-pages/tldr/issues/6149)
 - Pixel Häußler ([@pixelcmtd](https://github.com/pixelcmtd)):
@@ -194,10 +198,6 @@ If you are an owner of the organization, you can see an automated list [here](ht
 In addition to everything that repository collaborators can do, organization members have write access to all the repositories in the tldr-pages organization, and [a few extra maintenance capabilities](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/permission-levels-for-an-organization).
 An automated list can be found [here](https://github.com/orgs/tldr-pages/people).
 
-- **Ein Verne ([@einverne](https://github.com/einverne))**:
-  [6 January 2020](https://github.com/tldr-pages/tldr/issues/3738) — present
-- **Tan Siret Akıncı ([@tansiret](https://github.com/tansiret))**:
-  [7 April 2021](https://github.com/tldr-pages/tldr/issues/5702) — present
 - **Florian Benscheidt ([@Waples](https://github.com/Waples))**:
   [19 May 2021](https://github.com/tldr-pages/tldr/issues/5989) — present
 - **Seth Falco ([@SethFalco](https://github.com/SethFalco))**:
@@ -206,8 +206,6 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [29 December 2023](https://github.com/tldr-pages/tldr/issues/11918) — present
 - **Vitor Henrique ([@vitorhcl](https://github.com/vitorhcl))**:
   [21 January 2024](https://github.com/tldr-pages/tldr/issues/12094) — present
-- **Fazle Arefin ([@fazlearefin](https://github.com/fazlearefin))**:
-  [2 April 2024](https://github.com/tldr-pages/tldr/issues/12595) — present
 - **Alejandro Cervera ([@tricantivu](https://github.com/tricantivu))**:
   [3 April 2024](https://github.com/tldr-pages/tldr/issues/12594) — present
 - **Magrid0 ([@Magrid0](https://github.com/Magrid0))**:
@@ -272,6 +270,12 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [28 December 2025](https://github.com/tldr-pages/tldr/issues/20284) — [30 July 2026](https://github.com/tldr-pages/tldr/issues/23431)
 - Harshavardhan ([@TheRootDaemon](https://github.com/TheRootDaemon)):
   [26 December 2025](https://github.com/tldr-pages/tldr/issues/20285) — [31 July 2026](https://github.com/tldr-pages/tldr/issues/23430)
+- Ein Verne ([@einverne](https://github.com/einverne)):
+  [6 January 2020](https://github.com/tldr-pages/tldr/issues/3738) — [9 September 2026](https://github.com/tldr-pages/tldr/issues/23434)
+- Tan Siret Akıncı ([@tansiret](https://github.com/tansiret)):
+  [7 April 2021](https://github.com/tldr-pages/tldr/issues/5702) — [9 September 2026](https://github.com/tldr-pages/tldr/issues/23432) (Removed due to 2FA enforcement, when converting to outside collaborator)
+- Fazle Arefin ([@fazlearefin](https://github.com/fazlearefin)):
+  [2 April 2024](https://github.com/tldr-pages/tldr/issues/12595) — [9 September 2026](https://github.com/tldr-pages/tldr/issues/23889)
 
 ## Organization owners
 
@@ -292,8 +296,6 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [14 December 2021](https://github.com/tldr-pages/tldr/issues/7541) — present
 - **Pixel Häußler ([@pixelcmtd](https://github.com/pixelcmtd))**:
   [10 May 2023](https://github.com/tldr-pages/tldr/pull/10056) — present
-- **Muhammad Falak R Wani ([@mfrw](https://github.com/mfrw))**:
-  [9 June 2023](https://github.com/tldr-pages/tldr/pull/10355) — present
 - **K.B.Dharun Krishna ([@kbdharun](https://github.com/kbdharun))**:
   [19 June 2023](https://github.com/tldr-pages/tldr/issues/10057) — present
 - **Lin Cheng Chieh ([@blueskyson](https://github.com/blueskyson))**:
@@ -342,3 +344,5 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   until [20 November 2023](https://github.com/tldr-pages/tldr/issues/11381)
 - Axel Navarro ([@navarroaxel](https://github.com/navarroaxel)):
   until [14 November 2024](https://github.com/tldr-pages/tldr/issues/14541)
+- Muhammad Falak R Wani ([@mfrw](https://github.com/mfrw)):
+  [9 June 2023](https://github.com/tldr-pages/tldr/pull/10355) — [9 September 2026](https://github.com/tldr-pages/tldr/issues/23433)

@@ -1,7 +1,6 @@
 # aws kafka
 
 > Manage an Amazon MSK (Managed Streaming for Apache Kafka) cluster.
-> See also: `aws`.
 > More information: <https://docs.aws.amazon.com/cli/latest/reference/kafka/>.
 
 - Create a new MSK cluster:

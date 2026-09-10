@@ -7,7 +7,7 @@
 
 - Trace a running process by PID:
 
-`sudo dtruss -p {{pid}}`
+`sudo dtruss -p {{process_id}}`
 
 - Run a program and trace it:
 
@@ -19,12 +19,12 @@
 
 - Print [e]lapsed time, [o]n-cpu time, and [c]ount of each system call:
 
-`sudo dtruss -eoc -p {{pid}}`
+`sudo dtruss -eoc -p {{process_id}}`
 
 - Trace a process and [f]ollow children:
 
-`sudo dtruss -f -p {{pid}}`
+`sudo dtruss -f -p {{process_id}}`
 
 - Print occurrences of a specific system call:
 
-`sudo dtruss -t {{syscall}} -p {{pid}}`
+`sudo dtruss -t {{syscall}} -p {{process_id}}`
