@@ -27,6 +27,6 @@
 
 `git fetch --deepen 2`
 
-- Fast-forward the local `main` branch, when it is not checked out, from the remote `main` branch:
+- Fast-forward a local `main` branch that is not checked out from the remote `main` branch (fails if the update is not a fast-forward):
 
 `git fetch {{origin}} main:main`
