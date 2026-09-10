@@ -112,7 +112,7 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [18 March 2026](https://github.com/tldr-pages/tldr/issues/20981) — present
 - **Ninzero Xu ([@Ninzero](https://github.com/Ninzero))**:
   [5 May 2026](https://github.com/tldr-pages/tldr/issues/22333) — present
-- **Andrei Murariu (iamxorum) ([@iamxorum](https://github.com/iamxorum))**:
+- **Andrei Murariu ([@iamxorum](https://github.com/iamxorum))**:
   [5 May 2026](https://github.com/tldr-pages/tldr/issues/22338) — present
 - **Agam Agarwal ([@AgamAgarwal](https://github.com/AgamAgarwal))**:
   [03 September 2026](https://github.com/tldr-pages/tldr/issues/23809) — present
