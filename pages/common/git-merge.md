@@ -15,7 +15,7 @@
 
 `git merge --no-ff {{branch_name}}`
 
-- Copy the state of a branch into the working tree and stage it (Note: Use `git commit` to create the actual commit):
+- Stage the result of merging a branch without creating a commit:
 
 `git merge --squash {{branch_name}}`
 
