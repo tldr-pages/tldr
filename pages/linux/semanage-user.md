@@ -1,7 +1,7 @@
-# semanage-user
+# semanage user
 
 > Manage SELinux user mappings.
-> See also: `semanage`, `semanage-login`.
+> See also: `semanage login`.
 > More information: <https://manned.org/semanage-user>.
 
 - List all SELinux users:
