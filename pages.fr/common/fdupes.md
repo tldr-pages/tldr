@@ -21,7 +21,7 @@
 
 - Cherche récursivement, en considérant les liens physiques comme des doublons :
 
-`fdupes {{[-rH|--recurse --hardlinks]}} {{chemin/vers/répertoire}}
+`fdupes {{[-rH|--recurse --hardlinks]}} {{chemin/vers/répertoire}}`
 
 - Cherche récursivement les dupliqués et demande les fichiers à conserver, supprimant les autres :
 
