@@ -8,13 +8,9 @@
 
 `jj {{[op|operation]}} log`
 
-- Undo the last operation:
+- Abandon a specific operation:
 
-`jj {{[op|operation]}} undo`
-
-- Undo a given operation:
-
-`jj {{[op|operation]}} undo {{operation}}`
+`jj {{[op|operation]}} abandon {{operation}}`
 
 - Restore the repository to its state at a given operation:
 
@@ -35,3 +31,7 @@
 - Compare repository changes between two operations:
 
 `jj {{[op|operation]}} diff {{[-f|--from]}} {{from_op}} {{[-t|--to]}} {{to_op}}`
+
+- Show diff as a histogram of changes:
+
+`jj {{[op|operation]}} diff {{--stat}} {{[--op|--operation]}} {{operation_id}}`
