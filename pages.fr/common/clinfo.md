@@ -7,7 +7,7 @@
 
 `clinfo`
 
-- Énumére les plateformes et les appareils par nom :
+- Énumère les plateformes et les appareils par nom :
 
 `clinfo {{[-l|--list]}}`
 
