@@ -19,9 +19,9 @@
 
 `atoum {{[-f|--files]}} {{chemin/vers/fichier}}`
 
-- Lance les tests présent dans dossier donné :
+- Lance les tests présent dans le répertoire donné :
 
-`atoum {{[-d|--directories]}} {{chemin/vers/dossier}}`
+`atoum {{[-d|--directories]}} {{chemin/vers/répertoire}}`
 
 - Lance tous les tests sous un certain namespace :
 
