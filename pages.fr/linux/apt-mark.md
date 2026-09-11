@@ -3,22 +3,22 @@
 > Utilitaire permettant de modifier l'état des paquets installés.
 > Plus d'informations : <https://manned.org/apt-mark>.
 
-- Marquer un paquet comme étant automatiquement installé :
+- Marque un paquet comme étant automatiquement installé :
 
 `sudo apt-mark auto {{package_name}}`
 
-- Maintenir un paquet à sa version actuelle et empêcher les mises à jour :
+- Maintient un paquet à sa version actuelle et empêche les mises à jour :
 
 `sudo apt-mark hold {{package_name}}`
 
-- Permettre une nouvelle mise à jour d'un paquet :
+- Permet une nouvelle mise à jour d'un paquet :
 
 `sudo apt-mark unhold {{package_name}}`
 
-- Afficher les paquets installés manuellement :
+- Affiche les paquets installés manuellement :
 
 `apt-mark showmanual`
 
-- Afficher les paquets détenus qui ne sont pas mis à jour :
+- Affiche les paquets détenus qui ne sont pas mis à jour :
 
 `apt-mark showhold`
