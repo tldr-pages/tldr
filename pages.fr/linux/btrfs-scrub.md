@@ -12,7 +12,7 @@
 
 `sudo btrfs {{[sc|scrub]}} status {{chemin/vers/point_de_montage_btrfs}}`
 
-- Stoppe un examen en cours :
+- Arrête un examen en cours :
 
 `sudo btrfs {{[sc|scrub]}} {{[c|cancel]}} {{chemin/vers/point_de_montage_btrfs}}`
 
