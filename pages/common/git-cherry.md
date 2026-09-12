@@ -7,10 +7,10 @@
 
 `git cherry {{[-v|--verbose]}}`
 
-- Specify a different upstream and topic branch:
+- Specify a different upstream and branch:
 
-`git cherry {{origin}} {{topic_branch}}`
+`git cherry {{origin}} {{specified_branch}}`
 
 - Limit commits to those after a given commit:
 
-`git cherry {{origin}} {{topic_branch}} {{limit_commit}}`
+`git cherry {{origin}} {{specified_branch}} {{limit_commit}}`
