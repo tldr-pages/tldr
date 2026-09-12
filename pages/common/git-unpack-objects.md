@@ -19,6 +19,6 @@
 
 `git unpack objects {{[--strict]}}`
 
-- Die, given a pack larger than <size>:
+- Die, given a pack larger than `size`:
 
 `git unpack objects {{[--max-input-size=<size>]}}`
