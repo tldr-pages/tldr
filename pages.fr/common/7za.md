@@ -6,7 +6,7 @@
 
 - Compresse un fichier ou un dossier :
 
-`7za a {{chemin/vers/archive.7z}} {{chemin/vers/file_or_directory}}`
+`7za a {{chemin/vers/archive.7z}} {{chemin/vers/fichier_ou_répertoire}}`
 
 - Chiffre une archive existante (en incluant les en-têtes) :
 
@@ -18,7 +18,7 @@
 
 - Extrait une archive vers un dossier specifique :
 
-`7za x {{chemin/vers/archive.7z}} -o{{chemin/vers/la/sortie}}`
+`7za x {{chemin/vers/archive.7z}} -o{{chemin/vers/sortie}}`
 
 - Extrait une archive vers sortie standard :
 
@@ -26,7 +26,7 @@
 
 - Compresse en utilisant une compression spécifique :
 
-`7za a -t{{7z|bzip2|gzip|lzip|tar|...}} {{chemin/vers/archive.7z}} {{chemin/vers/le/fichier_ou_dossier}}`
+`7za a -t{{7z|bzip2|gzip|lzip|tar|...}} {{chemin/vers/archive.7z}} {{chemin/vers/fichier_ou_répertoire}}`
 
 - Liste le contenu d'une archive :
 
@@ -34,4 +34,4 @@
 
 - Définit le niveau de compression (plus il est élevé, plus la compression est importante, mais plus elle est lente) :
 
-`7za a {{chemin/vers/archive.7z}} -mx={{0|1|3|5|7|9}} {{chemin/vers/fichier_ou_dossier}}`
+`7za a {{chemin/vers/archive.7z}} -mx={{0|1|3|5|7|9}} {{chemin/vers/fichier_ou_répertoire}}`
