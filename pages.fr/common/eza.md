@@ -27,10 +27,6 @@
 
 `eza {{[-l|--long]}} {{[-s|--sort]}} {{modified}}`
 
-- Liste les fichiers avec une icône et affiche en premier les dossiers (on peut ajouter -l après le eza pour afficher en liste)
-
-`eza --icons --group-directories-first`
-
 - Liste les fichiers avec leurs en-têtes, leurs icônes et leur statut Git:
 
 `eza {{[-lh|--long --header]}} --icons --git`

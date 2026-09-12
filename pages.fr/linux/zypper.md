@@ -20,6 +20,10 @@
 
 `sudo zypper {{[up|update]}}`
 
+- Réaliser une mise à niveau de la distribution :
+
+`sudo zypper {{[dup|dist-upgrade]}}`
+
 - Cherche un paquet par mot clef :
 
 `zypper {{[se|search]}} {{mot_clef}}`
