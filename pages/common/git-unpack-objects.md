@@ -5,19 +5,19 @@
 
 - Simulate the pack file without unpacking objects:
 
-`git unpack objects {{[-n]}}`
+`git unpack-objects -n`
 
 - Suppress percentage progress typically shown by the command:
 
-`git unpack objects {{[-q]}}`
+`git unpack-objects -q`
 
 - Unpack a corrupt packfile beyond the first corruption:
 
-`git unpack objects {{[-r]}}`
+`git unpack-objects -r`
 
 - Don't write objects containing broken content or links:
 
-`git unpack objects {{[--strict]}}`
+`git unpack-objects --strict`
 
 - Die, given a pack larger than `size`:
 
