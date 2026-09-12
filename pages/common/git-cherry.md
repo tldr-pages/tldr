@@ -11,6 +11,6 @@
 
 `git cherry {{origin}} {{topic}}`
 
-- Limit commits to those after a given limit:
+- Limit commits to those after a given commit:
 
-`git cherry {{origin}} {{topic}} {{base}}`
+`git cherry {{origin}} {{head}} {{limit_commit}}`
