@@ -1,4 +1,4 @@
-# git unpack objects
+# git unpack-objects
 
 > Git command for unpacking objects from a packed archive.
 > More information: <https://git-scm.com/docs/git-unpack-objects>.
