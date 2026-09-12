@@ -18,7 +18,7 @@
 
 - Werk de instellingen bij voor een Linode:
 
-`linode-cli linodes update {{linode_id}} --label {{[new_label}}`
+`linode-cli linodes update {{linode_id}} --label {{new_label}}`
 
 - Verwijder een Linode:
 
