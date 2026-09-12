@@ -13,4 +13,4 @@
 
 - Limit commits to those after a given commit:
 
-`git cherry {{origin}} {{specified_branch}} {{limit_commit}}`
+`git cherry {{origin}} {{branch_name}} {{limit_commit}}`
