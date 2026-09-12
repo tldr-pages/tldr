@@ -1,7 +1,7 @@
 # pacman --files
 
 > Query the local files database.
-> See also: `pacman`, `pkgfile`.
+> See also: `pkgfile`.
 > More information: <https://manned.org/pacman.8>.
 
 - Update the package database:

@@ -8,9 +8,9 @@
 
 `cargo init`
 
-- Initailise un projet de binaire Rust dans le dossier spécifié :
+- Initailise un projet de binaire Rust dans le répertoire spécifié :
 
-`cargo init {{chemin/vers/dossier}}`
+`cargo init {{chemin/vers/répertoire}}`
 
 - Initialise un projet de bibliothèque Rust dans le dossier spécifié :
 
@@ -20,6 +20,6 @@
 
 `cargo init --vcs {{git|hg|pijul|fossil|none}}`
 
-- Défini le nom du paquet (défaut : nom du dossier) :
+- Défini le nom du paquet (défaut : nom du répertoire) :
 
 `cargo init --name {{nom_du_paquet}}`

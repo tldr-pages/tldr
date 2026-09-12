@@ -11,7 +11,7 @@
 
 `jest {{chemin/vers/fichier1 chemin/vers/fichier2 ...}}`
 
-- Exécuter les suites de test pour des fichiers, dans le répertoire courant et ses sous-répertoires, dont le chemin correspond à l'`regex` indiquée :
+- Exécuter les suites de test pour des fichiers, dans le répertoire courant et ses sous-répertoires, dont le chemin correspond à la `regex` indiquée :
 
 `jest {{regex1 regex2 ...}}`
 

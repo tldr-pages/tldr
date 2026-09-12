@@ -3,7 +3,7 @@
 > Merge branches.
 > More information: <https://git-scm.com/docs/git-merge>.
 
-- Merge branches into your current branch:
+- Merge branches into the current branch:
 
 `git merge {{branch_name1 branch_name2 ...}}`
 
@@ -15,7 +15,7 @@
 
 `git merge --no-ff {{branch_name}}`
 
-- Copy the state of a branch into the working tree and stage it (Note: Use `git commit` to create the actual commit):
+- Stage the result of merging a branch without creating a commit:
 
 `git merge --squash {{branch_name}}`
 

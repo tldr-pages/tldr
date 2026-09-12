@@ -13,7 +13,7 @@
 
 - Start a remote debug server:
 
-`jhsdb debugd --pid {{pid}} --serverid {{optional_unique_id}}`
+`jhsdb debugd --pid {{process_id}} --serverid {{optional_unique_id}}`
 
 - Connect to a process in interactive debug mode:
 

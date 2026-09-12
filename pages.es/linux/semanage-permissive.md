@@ -2,7 +2,7 @@
 
 > Gestiona dominios SELinux en modo permisivo de forma persistente.
 > Ten en cuenta que esto, en la práctica, hace que el proceso quede sin restricciones. Para un uso a largo plazo, se recomienda configurar SELinux correctamente.
-> Vea también: `semanage`, `getenforce`, `setenforce`.
+> Vea también: `getenforce`, `setenforce`.
 > Más información: <https://manned.org/semanage-permissive>.
 
 - Muestra todos los tipos de proceso (también conocidos como dominios) que se encuentran en modo permisivo:

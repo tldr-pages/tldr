@@ -1,6 +1,6 @@
 # tail
 
-> Afficher la fin d'un fichier.
+> Affiche la fin d'un fichier.
 > Voir aussi : `head`.
 > Plus d'informations : <https://keith.github.io/xcode-man-pages/tail.1.html>.
 
