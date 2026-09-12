@@ -13,4 +13,4 @@
 
 - Stop a running "forever" process:
 
-`forever stop {{id|pid|script}}`
+`forever stop {{id|process_id|script}}`

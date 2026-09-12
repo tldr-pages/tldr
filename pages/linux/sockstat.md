@@ -16,14 +16,14 @@
 
 `sockstat -cu`
 
-- Only show sockets of the specified `pid` or process:
+- Only show sockets of the specified `process_id` or process:
 
-`sockstat -P {{pid|process}}`
+`sockstat -P {{process_id|process}}`
 
-- Only show sockets of the specified `uid` or user:
+- Only show sockets of the specified `user_id` or user:
 
-`sockstat -U {{uid|user}}`
+`sockstat -U {{user_id|user}}`
 
-- Only show sockets of the specified `gid` or group:
+- Only show sockets of the specified `group_id` or group:
 
-`sockstat -G {{gid|group}}`
+`sockstat -G {{group_id|group}}`
