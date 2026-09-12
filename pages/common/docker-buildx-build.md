@@ -9,7 +9,7 @@
 
 - Build an image and tag it:
 
-`docker buildx build -t {{image:tag}} .`
+`docker buildx build {{[-t|--tag]}} {{image:tag}} .`
 
 - Build an image using a specific Dockerfile:
 
@@ -25,12 +25,12 @@
 
 - Build an image and load it into `docker images`:
 
-`docker buildx build --load -t {{image:tag}} .`
+`docker buildx build --load {{[-t|--tag]}} {{image:tag}} .`
 
 - Build for multiple platforms and push to a registry:
 
-`docker buildx build --platform {{linux/amd64,linux/arm64}} --push -t {{registry.example.com/image:tag}} .`
+`docker buildx build --platform {{linux/amd64,linux/arm64}} --push {{[-t|--tag]}} {{registry.example.com/image:tag}} .`
 
 - Build a specific stage from a multi-stage Dockerfile:
 
-`docker buildx build --target {{stage_name}} -t {{image:tag}} .`
+`docker buildx build --target {{stage_name}} {{[-t|--tag]}} {{image:tag}} .`
