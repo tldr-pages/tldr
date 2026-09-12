@@ -26,4 +26,4 @@
 
 - Annuleer de huidige taak van een specifieke printer of klasse:
 
-`lprm -P {{bestemming}}/{{instantie]}}`
+`lprm -P {{bestemming}}/{{instantie}}`
