@@ -9,7 +9,7 @@
 
 - Construit un fichier APK depuis un dossier :
 
-`apktool b {{chemin/vers/un/dossier}}`
+`apktool b {{chemin/vers/répertoire}}`
 
 - Installe et enregistre le framework :
 
