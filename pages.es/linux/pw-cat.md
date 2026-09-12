@@ -10,15 +10,15 @@
 
 - Reproduce un archivo MIDI:
 
-`pw-cat {{[-p|--playback]}} {{[-m|--midi]}} {{ruta/al/archivo.mid}}`
+`pw-cat {{[-pm|--playback --midi]}} {{ruta/al/archivo.mid}}`
 
 - Reproduce un archivo DSD:
 
-`pw-cat {{[-p|--playback]}} {{[-d|--dsd]}} {{ruta/al/archivo.dsf}}`
+`pw-cat {{[-pd|--playback --dsd]}} {{ruta/al/archivo.dsf}}`
 
 - Reproduce un archivo de audio comprimido mediante passthrough (requiere integración con FFmpeg):
 
-`pw-cat {{[-p|--playback]}} {{[-o|--encoded]}} {{ruta/al/archivo.ac3}}`
+`pw-cat {{[-po|--playback --encoded]}} {{ruta/al/archivo.ac3}}`
 
 - Reproduce un archivo WAV con una calidad de remuestreo especificada (4 por defecto):
 
@@ -26,7 +26,7 @@
 
 - Graba un archivo MIDI:
 
-`pw-cat {{[-r|--record]}} {{[-m|--midi]}} {{ruta/al/archivo.mid}}`
+`pw-cat {{[-rm|--record --midi]}} {{ruta/al/archivo.mid}}`
 
 - Graba una muestra con un volumen del 125 %:
 
