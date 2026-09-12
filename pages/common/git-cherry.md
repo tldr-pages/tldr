@@ -9,7 +9,7 @@
 
 - Specify a different upstream and branch:
 
-`git cherry {{origin}} {{specified_branch}}`
+`git cherry {{origin}} {{branch_name}}`
 
 - Limit commits to those after a given commit:
 
