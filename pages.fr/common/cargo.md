@@ -16,7 +16,7 @@
 
 `cargo install --list`
 
-- Crée un nouveau binaire ou librairie du projet Rust dans les répertoires spécifiés (ou dans le répertoire courant par défaut) :
+- Crée un nouveau binaire ou librairie du projet Rust dans les répertoires spécifiés (ou dans le répertoire actuel par défaut) :
 
 `cargo init --{{bin|lib}} {{chemin/vers/répertoire}}`
 
@@ -24,7 +24,7 @@
 
 `cargo add {{dépendance}}`
 
-- Compile le projet Rust dans le dossier courant en utilisant le profil release :
+- Compile le projet Rust dans le répertoire actuel en utilisant le profil release :
 
 `cargo {{[b|build]}} {{[-r|--release]}}`
 
@@ -32,6 +32,6 @@
 
 `cargo {{[r|run]}}`
 
-- Compile le projet Rust dans le dossier courant en utilisant le compilateur nightly :
+- Compile le projet Rust dans le répertoire actuel en utilisant le compilateur nightly :
 
 `cargo +nightly {{[b|build]}}`

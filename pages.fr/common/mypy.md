@@ -21,11 +21,11 @@
 
 - Ignore les imports manquants :
 
-`mypy --ignore-missing-imports {{chemin/vers/fichier_ou_dossier}}`
+`mypy --ignore-missing-imports {{chemin/vers/fichier_ou_répertoire}}`
 
 - Montre le détail des messages d'erreurs :
 
-`mypy {{[--tb|--show-traceback]}} {{chemin/vers/fichier_ou_dossier}}`
+`mypy {{[--tb|--show-traceback]}} {{chemin/vers/fichier_ou_répertoire}}`
 
 - Spécifie un fichier de configuration :
 

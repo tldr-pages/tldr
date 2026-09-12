@@ -28,6 +28,6 @@
 
 `acme.sh --issue --dns {{dns_cf}} {{[-d|--domain]}} {{*.example.com}}`
 
-- Installe les fichiers de certificat dans un dossier spécifique (Utile pour les renouvellements automatiques de certificat) :
+- Installe les fichiers de certificat dans un répertoire spécifique (Utile pour les renouvellements automatiques de certificat) :
 
 `acme.sh {{[-i|--install-cert]}} {{[-d|--domain]}} {{example.com}} --key-file /{{chemin/vers/example.com.key}} --fullchain-file /{{chemin/vers/example.com.cer}} --reloadcmd "{{systemctl force-reload nginx}}"`

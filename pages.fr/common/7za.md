@@ -4,7 +4,7 @@
 > Similaire à `7z` sauf qu'il supporte moins de type de fichiers mais est multi-plateforme.
 > Plus d'informations : <https://manned.org/7za>.
 
-- Compresse un fichier ou un dossier :
+- Compresse un fichier ou un répertoire :
 
 `7za a {{chemin/vers/archive.7z}} {{chemin/vers/fichier_ou_répertoire}}`
 
