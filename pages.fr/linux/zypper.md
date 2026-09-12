@@ -20,7 +20,7 @@
 
 `sudo zypper {{[up|update]}}`
 
-- Réaliser une mise à niveau de la distribution :
+- Réalise une mise à niveau de la distribution :
 
 `sudo zypper {{[dup|dist-upgrade]}}`
 
