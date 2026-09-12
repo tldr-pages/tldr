@@ -1,7 +1,12 @@
 # stripe
 
-> Interact with a Stripe account.
-> More information: <https://docs.stripe.com/stripe-cli>.
+> The official command-line tool to interact with Stripe.
+> Some subcommands such as `docs`, `listen`, and `logs` have their own usage documentation.
+> More information: <https://docs.stripe.com/cli>.
+
+- Browse Stripe documentation:
+
+`stripe docs {{/testing}}`
 
 - Follow the logs of activity on the account:
 
@@ -17,8 +22,4 @@
 
 - Create a customer:
 
-`stripe customers create --email="{{test@example.com}}" --name="{{Jenny Rosen}}"`
-
-- Print to JSON:
-
-`stripe listen --print-json`
+`stripe customers create --email "{{test@example.com}}" --name "{{Jenny Rosen}}"`
