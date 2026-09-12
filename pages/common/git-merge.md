@@ -3,7 +3,7 @@
 > Merge branches.
 > More information: <https://git-scm.com/docs/git-merge>.
 
-- Merge branches into your current branch:
+- Merge branches into the current branch:
 
 `git merge {{branch_name1 branch_name2 ...}}`
 
