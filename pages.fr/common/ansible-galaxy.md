@@ -25,7 +25,7 @@
 
 - Installe ou enlève une/des collection(s) :
 
-ansible-galaxy collection {{install|remove}} {{nom_de_collection1 nom_de_collection2 ...}}
+- ansible-galaxy collection {{install|remove}} {{nom_de_collection1 nom_de_collection2 ...}}
 
 - Affiche l'aide sur les rôles ou les collections :
 
