@@ -3,7 +3,7 @@
 > La ligne de commande officielle pour Avo.
 > Plus d'informations : <https://www.avo.app/docs/implementation/cli>.
 
-- Initialise un espace de travail dans le dossier courant :
+- Initialise un espace de travail dans le répertoire actuel :
 
 `avo init`
 
@@ -15,7 +15,7 @@
 
 `avo checkout {{nom_de_branche}}`
 
-- Récupère les couvertures analytique pour le chemin courant :
+- Récupère les couvertures analytique pour le chemin actuel :
 
 `avo pull`
 
@@ -27,7 +27,7 @@
 
 `avo conflict`
 
-- Ouvre l'espace de travail courant Avo dans le navigateur web par défaut :
+- Ouvre l'espace de travail actuel Avo dans le navigateur web par défaut :
 
 `avo edit`
 
