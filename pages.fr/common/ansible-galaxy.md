@@ -13,7 +13,7 @@
 
 - Installe ou enlève un/des rôle(s) :
 
-`ansible-galaxy {{install|remove}} {{nom_du_rôle1 nom_du_rôle2 ...}}`
+`ansible-galaxy role {{install|remove}} {{nom_du_rôle1 nom_du_rôle2 ...}}`
 
 - Crée un nouveau rôle :
 
