@@ -25,7 +25,7 @@
 
 - Affiche les informations de diagnostic et de processus de la fenêtre de code en cours d’exécution :
 
-- code {{[-s|--status]}}
+`code {{[-s|--status]}}`
 
 - Affiche les extensions installées avec leurs versions :
 
