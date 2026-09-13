@@ -4,7 +4,7 @@
 > Voir aussi : `git am`.
 > Plus d'informations : <https://git-scm.com/docs/git-apply>.
 
-- Afficher les messages à propos des fichiers corrigés :
+- Affiche les messages à propos des fichiers corrigés :
 
 `git apply {{[-v|--verbose]}} {{chemin/vers/fichier}}`
 
