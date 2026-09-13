@@ -6,7 +6,7 @@
 
 - 새로운 노드에 설정을 적용:
 
-`talosctl apply-config {{[-i|--insecture]}} {{[-n|--nodes]}} {{컨트롤_플레인_ip}} {{[-f|--file]}} {{경로/대상/컨트롤_플레인.yaml}}`
+`talosctl apply-config {{[-i|--insecure]}} {{[-n|--nodes]}} {{컨트롤_플레인_ip}} {{[-f|--file]}} {{경로/대상/컨트롤_플레인.yaml}}`
 
 - 노드에서 `etcd` 클러스터 부트스트랩:
 
