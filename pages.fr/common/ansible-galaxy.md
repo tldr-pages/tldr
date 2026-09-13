@@ -3,30 +3,30 @@
 > Crée et gère les rôles Ansible.
 > Plus d'informations : <https://docs.ansible.com/projects/ansible/latest/cli/ansible-galaxy.html>.
 
-- Installe un rôle :
+- Liste les rôles ou les collections installés :
 
-`ansible-galaxy install {{nom_d_utilisateur}}.{{nom_du_rôle}}`
+`ansible-galaxy {{rôle|collection}} list`
 
-- Enlève un rôle :
+- Recherche un rôle avec différents niveaux de verbosité (`-v` doit être spécifié à la fin) :
 
-`ansible-galaxy remove {{nom_d_utilisateur}}.{{nom_du_rôle}}`
+`ansible-galaxy role search {{mot_clé}} -v{{vvvvv}}`
 
-- Liste les rôles installés :
+- Installe ou enlève un/des rôle(s) :
 
-`ansible-galaxy list`
-
-- Recherche pour un role donné :
-
-`ansible-galaxy search {{nom_du_rôle}}`
+`ansible-galaxy {{install|remove}} {{nom_du_rôle1 nom_du_rôle2 ...}}`
 
 - Crée un nouveau rôle :
 
 `ansible-galaxy init {{nom_du_rôle}}`
 
-- Récupère les informations sur le rôle d'un utilisateur :
+- Récupère les informations sur un rôle :
 
-`ansible-galaxy role info {{nom_d_utilisateur}}.{{nom_du_rôle}}`
+`ansible-galaxy role info {{nom_du_rôle}}`
 
-- Récupère les informations d'une collection :
+- Installe ou enlève une/des collection(s) :
 
-`ansible-galaxy collection info {{nom_d_utilisateur}}.{{nom_de_la_collection}}`
+ansible-galaxy collection {{install|remove}} {{nom_de_collection1 nom_de_collection2 ...}}
+
+- Affiche l'aide sur les rôles ou les collections :
+
+`ansible-galaxy {{rôle|collection}} {{[-h|--help]}}`
