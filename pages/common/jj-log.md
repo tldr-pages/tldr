@@ -11,6 +11,6 @@
 
 `jj log {{[-r|--revisions]}} {{revsets}}`
 
-- Show log with a particular template for each line (e.g. 5 characters of commit hash and author):
+- Show log with a custom template (e.g. a unique commit hash prefix of at least 5 characters and the author):
 
 `jj log {{[-T|--template]}} 'commit_id.shortest(5) ++ " " ++ author'`

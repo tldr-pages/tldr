@@ -11,7 +11,7 @@
 
 `jj file show {{[-r|--revision]}} {{revision}} {{path/to/file}}`
 
-- Print all files under a directory recursively:
+- Print file contents under a directory recursively:
 
 `jj file show {{path/to/directory}}`
 
