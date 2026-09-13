@@ -17,7 +17,7 @@
 
 - Crée un nouveau rôle :
 
-`ansible-galaxy init {{nom_du_rôle}}`
+`ansible-galaxy role init {{nom_du_rôle}}`
 
 - Récupère les informations sur un rôle :
 
