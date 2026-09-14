@@ -15,6 +15,10 @@
 
 `jj sparse reset`
 
+- Exclude all files from the working copy:
+
+`jj sparse set --clear`
+
 - Update patterns to only include specified paths:
 
 `jj sparse set --clear --add {{path/to/directory}}`
@@ -22,6 +26,10 @@
 - Add a path to the working copy:
 
 `jj sparse set --add {{path/to/directory}}`
+
+- Add multiple paths to the working copy:
+
+`jj sparse set --add {{path/to/directory1}} --add {{path/to/directory2}}`
 
 - Remove a path from the working copy:
 
