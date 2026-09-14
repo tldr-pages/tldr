@@ -1,10 +1,9 @@
 # gopls
 
-> The official Go language server, providing IDE features to editors via the Language Server Protocol.
-> It is usually started by an editor, but its features can also be used from the command line.
+> The official Go language server.
 > More information: <https://go.dev/gopls/>.
 
-- Start the language server (the default when no subcommand is given):
+- Start the language server:
 
 `gopls serve`
 
@@ -12,11 +11,11 @@
 
 `gopls check {{path/to/file1.go path/to/file2.go ...}}`
 
-- Format one or more files, overwriting them in-place:
+- Format one or more files in-place:
 
 `gopls format {{[-w|-write]}} {{path/to/file1.go path/to/file2.go ...}}`
 
-- Add missing and remove unused imports in a file, overwriting it in-place:
+- Add missing and remove unused imports in a file in-place:
 
 `gopls imports {{[-w|-write]}} {{path/to/file.go}}`
 
