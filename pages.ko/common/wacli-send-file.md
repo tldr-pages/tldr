@@ -8,7 +8,7 @@
 
 `wacli send file --to {{전화번호}} --file {{경로/대상/파일}}`
 
-- Send a file to a specific JID:
+- 지정한 JID로 파일 전송:
 
 `wacli send file --to {{전화번호}}@s.whatsapp.net --file {{경로/대상/파일}}`
 

@@ -16,6 +16,6 @@
 
 `wacli sync --store {{경로/대상/저장소}}`
 
-- Synchronize messages with a custom timeout:
+- 사용자 지정 타임아웃을 설정하여 메시지 동기화:
 
 `wacli sync --timeout {{10m}}`
