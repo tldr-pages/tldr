@@ -12,6 +12,6 @@
 
 `wacli send file --to {{전화번호}}@s.whatsapp.net --file {{경로/대상/파일}}`
 
-- 사용자 지정:
+- 사용자 지정 타임아웃을 설정하여 파일 전송:
 
 `wacli send file --to {{전화번호}} --file {{경로/대상/파일}} --timeout {{10m}}`
