@@ -15,6 +15,6 @@
 
 `arch-update --tray --enable`
 
-- Показать последние 10 новостей Arch:
+- Показать последние 10 новостей Arch Linux:
 
 `arch-update {{[-n|--news]}} 10`
