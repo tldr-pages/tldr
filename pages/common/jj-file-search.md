@@ -7,7 +7,7 @@
 
 `jj file search {{[-p|--pattern]}} "{{regex}}"`
 
-- Search for files with lines matching a glob pattern in the working copy:
+- Search for files with lines matching a `glob` pattern in the working copy:
 
 `jj file search {{[-p|--pattern]}} "{{glob:*pattern*}}"`
 
