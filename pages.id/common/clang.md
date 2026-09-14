@@ -1,7 +1,7 @@
 # clang
 
 > Susun kode sumber C, C++, dan Objective-C. Dapat dipakai sebagai pengganti mutlak (drop-in) bagi GCC.
-> Part of LLVM.
+> Bagian dari LLVM.
 > Informasi lebih lanjut: <https://clang.llvm.org/docs/ClangCommandLineReference.html>.
 
 - Ubah suatu berkas kode sumber menjadi program:
