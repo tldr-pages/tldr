@@ -7,9 +7,9 @@
 
 `ag string`
 
-- Trouve les fichiers qui contiennent `string` dans un dossier spécifique :
+- Trouve les fichiers qui contiennent `string` dans un répertoire spécifique :
 
-`ag string {{chemin/vers/dossier}}`
+`ag string {{chemin/vers/répertoire}}`
 
 - Trouve les fichiers qui contiennent `string`, mais affiche uniquement les noms des fichiers :
 
