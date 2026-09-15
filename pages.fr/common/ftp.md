@@ -5,7 +5,7 @@
 
 - Connexion à un serveur FTP :
 
-`ftp {{ftp.exemple.com}}`
+`ftp {{ftp.example.com}}`
 
 - Connexion à un serveur FTP en spécifiant son adresse IP et son port :
 

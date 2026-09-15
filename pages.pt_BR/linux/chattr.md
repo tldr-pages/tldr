@@ -1,6 +1,7 @@
 # chattr
 
 > Altera os atributos de arquivos ou diretórios.
+> Veja também: `lsattr`.
 > Mais informações: <https://manned.org/chattr>.
 
 - Bloqueia um arquivo ou diretório para mudanças ou remoção, mesmo para um super usuário:

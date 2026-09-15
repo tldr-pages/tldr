@@ -1,6 +1,6 @@
 # node
 
-> یک runtime برای اجرای جاوا اسکریپت. (Node.js)
+> یک runtime برای اجرای جاوا اسکریپت. (Node.js).
 > اطلاعات بیشتر: <https://nodejs.org/docs/latest/api/cli.html#options>.
 
 - اجرای یک فایل جاوااسکریپت:

@@ -30,7 +30,7 @@
 
 - Añade paquete como editable:
 
-`uv add --editable {{ruta/a/paquete/}}`
+`uv add --editable {{ruta/a/paquete}}/`
 
 - Habilita un extra al instalar el paquete, se puede proporcionar varias veces:
 

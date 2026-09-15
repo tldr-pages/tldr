@@ -2,6 +2,6 @@
 
 > Det här kommandot är ett alias för `hdiutil attach`.
 
-- Se dokumentationen för orginalkommandot:
+- Se dokumentationen för originalkommandot:
 
 `tldr hdiutil`

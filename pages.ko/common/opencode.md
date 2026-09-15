@@ -1,7 +1,7 @@
 # opencode
 
 > AI 코딩 에이전트.
-> `auth`, `models`, `web`와 같은 일부 하위명령어는 별도의 사용법 문서를 가짐
+> `auth`, `models`, `web`와 같은 일부 하위명령어는 별도의 사용법 문서를 가짐.
 > 더 많은 정보: <https://opencode.ai/docs/cli/>.
 
 - 대화형 TUI 시작:

@@ -17,4 +17,4 @@
 
 - Usuwanie klucza API dla podanego źródła:
 
-`choco apikey {{[-s|--source]}} "{{adres_url}}" --remove`
+`choco apikey remove {{[-s|--source]}} "{{adres_url}}"`

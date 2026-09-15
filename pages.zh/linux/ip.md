@@ -22,7 +22,7 @@
 
 - 显示邻居（ARP 表）：
 
-`ip {{[n|neighbour]}}`
+`ip {{[n|neighbor]}}`
 
 - 使接口启动/关闭：
 

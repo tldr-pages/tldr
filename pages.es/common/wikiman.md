@@ -20,6 +20,6 @@
 
 `wikiman -S`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `wikiman -h`

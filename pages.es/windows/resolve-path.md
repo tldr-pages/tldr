@@ -6,7 +6,7 @@
 
 - Resolver la ruta de la carpeta de inicio:
 
-`Resolve-Path {{~}}`
+`Resolve-Path ~`
 
 - Resolver una ruta UNC:
 

@@ -1,28 +1,32 @@
 # fdupes
 
-> Trouve les fichiers dupliqués dans les dossiers donnés.
+> Trouve les fichiers dupliqués dans les répertoires donnés.
 > Plus d'informations : <https://github.com/adrianlopezroche/fdupes#introduction>.
 
-- Chercher dans un dossier :
+- Cherche dans un répertoire :
 
-`fdupes {{dossier}}`
+`fdupes {{chemin/vers/répertoire}}`
 
-- Chercher dans plusieurs dossiers :
+- Cherche dans plusieurs répertoires :
 
-`fdupes {{dossier1}} {{dossier2}}`
+`fdupes {{chemin/vers/répertoire1 chemin/vers/répertoire2 ...}}`
 
-- Chercher dans un dossier récursivement :
+- Cherche dans un répertoire récursivement :
 
-`fdupes -r {{dossier}}`
+`fdupes {{[-r|--recurse]}} {{chemin/vers/répertoire}}`
 
-- Chercher dans plusieurs dossiers dont un récursivement :
+- Cherche dans plusieurs répertoires dont un récursivement :
 
-`fdupes {{dossier1}} -R {{dossier2}}`
+`fdupes {{chemin/vers/répertoire1}} {{[-R|--recurse:]}} {{chemin/vers/répertoire2}}`
 
-- Chercher récursivement les dupliqués et demander les fichiers à conserver, supprimant les autres :
+- Cherche récursivement, en considérant les liens physiques comme des doublons :
 
-`fdupes -rd {{dossier}}`
+`fdupes {{[-rH|--recurse --hardlinks]}} {{chemin/vers/répertoire}}`
 
-- Chercher récursivement et supprimer les dupliqués automatiquement :
+- Cherche récursivement les dupliqués et demande les fichiers à conserver, supprimant les autres :
 
-`fdupes -rdN {{dossier}}`
+`fdupes {{[-rd|--recurse --delete]}} {{chemin/vers/répertoire}}`
+
+- Cherche récursivement et supprime les dupliqués automatiquement :
+
+`fdupes {{[-rdN|--recurse --delete --noprompt]}} {{chemin/vers/répertoire}}`

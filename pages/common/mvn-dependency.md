@@ -4,6 +4,10 @@
 > Provides goals for viewing, resolving, and copying project dependencies.
 > More information: <https://maven.apache.org/plugins/maven-dependency-plugin/usage.html>.
 
+- Add a dependency:
+
+`mvn dependency:add -Dgav={{group_id}}:{{artifact_id}}:{{version}}`
+
 - Display the full dependency tree, including direct and transitive dependencies:
 
 `mvn dependency:tree`

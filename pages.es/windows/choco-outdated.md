@@ -13,8 +13,8 @@
 
 - Especificar una fuente personalizada para comprobar paquetes:
 
-`choco outdated --source {{url_fuente|alias}}`
+`choco outdated {{[-s|--source]}} {{url_fuente|alias}}`
 
 - Proporcionar un nombre de usuario y una contraseña para la autenticación:
 
-`choco outdated --user {{nombre_usuario}} --password {{contraseña}}`
+`choco outdated {{[-u|--user]}} {{nombre_usuario}} {{[-p|--password]}} {{contraseña}}`

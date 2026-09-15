@@ -13,8 +13,8 @@
 
 - 从自定义的源处检查过时的包：
 
-`choco outdated --source {{源url|别名}}`
+`choco outdated {{[-s|--source]}} {{源url|别名}}`
 
 - 提供一个用户名和密码来进行验证：
 
-`choco outdated --user {{用户名}} --password {{密码}}`
+`choco outdated {{[-u|--user]}} {{用户名}} {{[-p|--password]}} {{密码}}`

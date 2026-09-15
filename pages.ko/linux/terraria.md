@@ -5,8 +5,8 @@
 
 - 대화형 서버 설정 시작:
 
-`{{경로/대상/TerrariaServer}}`
+`{{경로/대상}}/TerrariaServer`
 
 - Terraria 서버 시작:
 
-`{{경로/대상/TerrariaServer}} -world {{경로/대상/world.wld}}`
+`{{경로/대상}}/TerrariaServer -world {{경로/대상/world.wld}}`

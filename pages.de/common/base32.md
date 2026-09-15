@@ -3,7 +3,7 @@
 > Kodieren oder Dekodieren von Dateien oder Standardeingaben in/aus Base32, zur Standardausgabe.
 > Weitere Informationen: <https://manned.org/base32>.
 
-- Kodiere den Inhalt einer Datei als base32 und schreibe das Ergebnis nach `stdout`:
+- Kodiere den Inhalt einer Datei als Base32 und schreibe das Ergebnis nach `stdout`:
 
 `base32 {{pfad/zu/datei}}`
 
@@ -11,7 +11,7 @@
 
 `base32 {{[-w|--wrap]}} {{0|76|...}} {{pfad/zu/datei}}`
 
-- Dekodiere den Inhalt einer Datei als base32 und schreibe das Ergebnis nach `stdout`:
+- Dekodiere den Inhalt einer Datei als Base32 und schreibe das Ergebnis nach `stdout`:
 
 `base32 {{[-d|--decode]}} {{pfad/zu/datei}}`
 

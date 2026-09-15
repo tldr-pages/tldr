@@ -18,4 +18,4 @@
 
 - 하위 폴더의 모든 파일을 한 단계 위로 이동:
 
-`git filter-repo --path-rename {{경로/대상/폴더/:}}`
+`git filter-repo --path-rename {{경로/대상/폴더}}/:`

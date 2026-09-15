@@ -13,12 +13,12 @@
 
 - 구성된 저장소의 자격 증명 표시:
 
-`transcrypt --display`
+`transcrypt {{[-d|--display]}}`
 
 - 구성된 저장소의 새 클론을 초기화하고 복호화:
 
-`transcrypt --cipher={{암호화_알고리즘}}`
+`transcrypt {{[-c|--cipher]}} {{암호화_알고리즘}}`
 
 - 암호화 알고리즘이나 암호를 변경하기 위한 키 재설정:
 
-`transcrypt --rekey`
+`transcrypt {{[-r|--rekey]}}`

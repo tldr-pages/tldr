@@ -10,4 +10,24 @@
 
 - Show temperatures in degrees Fahrenheit:
 
-`sensors --fahrenheit`
+`sensors {{[-f|--fahrenheit]}}`
+
+- Show the readings of a specific sensor chip (run `sensors` to find chip name, e.g. coretemp-isa-0000):
+
+`sensors {{chip_name}}`
+
+- Output sensor data in JSON format:
+
+`sensors -j`
+
+- Show raw sensor output for scripting or debugging purposes:
+
+`sensors -u`
+
+- Show sensor readings using a specific configuration file:
+
+`sensors {{[-c|--config-file]}} {{path/to/sensors.conf}}`
+
+- List all detected hardware communication buses (like I2C or ISA):
+
+`sensors --bus-list`

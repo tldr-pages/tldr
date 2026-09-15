@@ -10,7 +10,7 @@
 
 - 为指定目录启动 HTTP 服务器：
 
-`updog --directory {{/路径/到/目录}}`
+`updog --directory /{{路径/到/目录}}`
 
 - 在指定端口上启动 HTTP 服务器：
 
