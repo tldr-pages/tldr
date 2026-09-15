@@ -1,7 +1,7 @@
 # matchpathcon
 
 > Lookup the persistent SELinux security context setting of a path.
-> See also: `semanage-fcontext`, `secon`, `chcon`, `restorecon`.
+> See also: `semanage fcontext`, `secon`, `chcon`, `restorecon`.
 > More information: <https://manned.org/matchpathcon.8>.
 
 - Lookup the persistent security context setting of an absolute path:

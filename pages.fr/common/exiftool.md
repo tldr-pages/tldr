@@ -5,7 +5,7 @@
 
 - Affiche les métadonnées EXIF d'un fichier donné :
 
-`exiftool {{chemin/vers/le/fichier}}`
+`exiftool {{chemin/vers/fichier}}`
 
 - Supprime toutes les métadonnées EXIF des fichiers donnés :
 
@@ -21,7 +21,7 @@
 
 - Avance d'une heure la date de prise de toutes les photos d'un répertoire :
 
-`exiftool "-AllDates+=0:0:0 1:0:0" {{chemin/vers/le/répertoire}}`
+`exiftool "-AllDates+=0:0:0 1:0:0" {{chemin/vers/répertoire}}`
 
 - Recule d'un jour et deux heures la date de prise de toutes les photos JPEG du répertoire courant :
 
@@ -33,4 +33,4 @@
 
 - Renomme récursivement toutes les photos JPEG d'un répertoire à partir du champ `DateTimeOriginal` :
 
-`exiftool '-filename<DateTimeOriginal' {{[-d|-dateFormat]}} %Y-%m-%d_%H-%M-%S%%lc.%%e {{chemin/vers/le/répertoire}} {{[-r|-recurse]}} {{[-ext|-extension]}} jpg`
+`exiftool '-filename<DateTimeOriginal' {{[-d|-dateFormat]}} %Y-%m-%d_%H-%M-%S%%lc.%%e {{chemin/vers/répertoire}} {{[-r|-recurse]}} {{[-ext|-extension]}} jpg`

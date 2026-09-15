@@ -1,7 +1,7 @@
 # cargo
 
-> Gestion d'un projet Rust et ses dependences (crates).
-> Certaines sous-commandes comme `build` ont leurs propres documentations.
+> Gestion d'un projet Rust et ses dépendences (crates).
+> Certaines sous-commandes comme `build` ont leur propre documentation.
 > Plus d'informations : <https://doc.rust-lang.org/stable/cargo/>.
 
 - Recherche des crates :
@@ -16,11 +16,11 @@
 
 `cargo install --list`
 
-- Crée un nouveau binaire ou librairie du projet Rust dans les dossiers spécifiés (ou dans le dossier courant par défaut) :
+- Crée un nouveau binaire ou librairie du projet Rust dans les répertoires spécifiés (ou dans le répertoire courant par défaut) :
 
-`cargo init --{{bin|lib}} {{chemin/vers/dossier}}`
+`cargo init --{{bin|lib}} {{chemin/vers/répertoire}}`
 
-- Ajoute une dépendance à `Cargo.toml` dans le dossier actuel :
+- Ajoute une dépendance à `Cargo.toml` dans le répertoire actuel :
 
 `cargo add {{dépendance}}`
 
