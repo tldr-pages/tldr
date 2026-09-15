@@ -11,7 +11,7 @@
 
 `winedump dump -f {{path/to/file.dll}}`
 
-- Dump a specific section in [j]SON, such as the import or export table:
+- Dump a specific section, such as the import or export table:
 
 `winedump dump -j {{import|export}} {{path/to/file.dll}}`
 
