@@ -28,10 +28,10 @@
 
 `audtool mainwin-show`
 
-- Muestra ayuda:
-
-`audtool help`
-
 - Muestra configuración:
 
 `audtool preferences-show`
+
+- Muestra ayuda:
+
+`audtool help`
