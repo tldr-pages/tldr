@@ -1,36 +1,28 @@
 # doctl
 
-> Manage DigitalOcean resources.
+> Official command-line interface for the DigitalOcean API.
 > More information: <https://docs.digitalocean.com/reference/doctl/>.
 
-- Authenticate with DigitalOcean:
+- Authenticate doctl with your DigitalOcean account using an API token:
 
 `doctl auth init`
 
-- Display account information:
+- Display the currently authenticated account information:
 
 `doctl account get`
 
-- Create a new Droplet:
-
-`doctl compute droplet create {{name}} --size {{size}} --image {{image}} --region {{region}}`
-
-- List all Droplets:
+- List all droplets (cloud servers) in your account:
 
 `doctl compute droplet list`
 
-- SSH into a Droplet:
-
-`doctl compute ssh {{droplet_id}}`
-
-- Create a Kubernetes cluster:
-
-`doctl kubernetes cluster create {{cluster_name}}`
-
-- List Kubernetes clusters:
+- List all Kubernetes clusters:
 
 `doctl kubernetes cluster list`
 
-- List managed databases:
+- List all managed databases:
 
 `doctl databases list`
+
+- Display help for a subcommand:
+
+`doctl {{subcommand}} --help`
