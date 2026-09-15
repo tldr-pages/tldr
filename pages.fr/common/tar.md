@@ -16,7 +16,7 @@
 
 `tar czf {{chemin/vers/cible.tar.gz}} {{[-C|--directory]}} {{chemin/vers/répertoire}} .`
 
-- Extrait une archive (compressée) dans le dossier courant en affichant la liste des fichiers traités :
+- Extrait une archive (compressée) dans le répertoire actuel en affichant la liste des fichiers traités :
 
 `tar xvf {{chemin/vers/source.tar[.gz|.bz2|.xz]}}`
 
