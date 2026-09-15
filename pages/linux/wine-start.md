@@ -24,7 +24,7 @@
 
 `wine start {{/min|/max}} {{path\to\program.exe}}`
 
-- Launch a program from a specific working directory:
+- Launch a program from a specific working [d]irectory:
 
 `wine start /d {{path\to\directory}} {{path\to\program.exe}}`
 

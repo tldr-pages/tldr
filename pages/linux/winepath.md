@@ -3,26 +3,26 @@
 > Convert file paths between Windows and Unix formats for a Wine prefix.
 > More information: <https://manned.org/winepath>.
 
-- Convert a Windows path to a [u]nix path:
+- Convert a Windows path to a unix path:
 
-`winepath -u '{{C:\path\to\file}}'`
+`winepath {{[-u|--unix]}} '{{C:\path\to\file}}'`
 
-- Convert a Unix path to a long [w]indows path:
+- Convert a Unix path to a long windows path:
 
-`winepath -w {{path/to/file}}`
+`winepath {{[-w|--windows]}} {{path/to/file}}`
 
-- Convert a short (8.3) Windows path of an existing file to its [l]ong form:
+- Convert a short (8.3) Windows path of an existing file to its long form:
 
-`winepath -l '{{C:\PROGRA~1}}'`
+`winepath {{[-l|--long]}} '{{C:\PROGRA~1}}'`
 
-- Convert a long Windows path of an existing file to its [s]hort (8.3) form:
+- Convert a long Windows path of an existing file to its short (8.3) form:
 
-`winepath -s '{{C:\Program Files}}'`
+`winepath {{[-s|--short]}} '{{C:\Program Files}}'`
 
 - Separate output paths with a null character instead of a newline:
 
-`winepath -u -0 {{path1 path2 ...}}`
+`winepath {{[-u|--unix]}} -0 {{path1 path2 ...}}`
 
 - Display help:
 
-`winepath --help`
+`winepath {{[-h|--help]}}`
