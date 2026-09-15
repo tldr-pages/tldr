@@ -1,29 +1,32 @@
 # talosctl
 
-> Interact with Talos Linux, a minimal and immutable Kubernetes distribution.
-> See also: `kubectl`.
-> More information: <https://docs.siderolabs.com/talos/v1.11/reference/cli>.
+> Manage Talos Linux nodes and clusters from the command-line.
+> More information: <https://www.talos.dev/latest/reference/cli/>.
 
-- Apply a config to a fresh node:
+- Display the version of talosctl and the connected node:
 
-`talosctl apply-config {{[-i|--insecure]}} {{[-n|--nodes]}} {{control_plane_ip}} {{[-f|--file]}} {{path/to/control_plane.yaml}}`
+`talosctl version`
 
-- Bootstrap the `etcd` cluster on a node:
+- List all nodes in the cluster:
 
-`talosctl bootstrap {{[-n|--nodes]}} {{node_ip}}`
+`talosctl get members`
 
-- Edit an API resource:
+- Display the health of a cluster:
 
-`talosctl edit {{resource_to_edit}} {{[-n|--nodes]}} {{node_ip}}`
+`talosctl health`
 
-- Get resources:
+- Display logs from a service on a node:
 
-`talosctl get {{resource_to_get}} {{[-n|--nodes]}} {{node_ip}}`
+`talosctl logs {{service_name}}`
 
-- Download the admin kube configuration from a node:
+- Reboot a node:
 
-`talosctl kubeconfig {{[-n|--nodes]}} {{node_ip}}`
+`talosctl reboot`
 
-- Reset a node:
+- Reset a node to its initial state:
 
-`talosctl reset {{[-n|--nodes]}} {{node_ip}}`
+`talosctl reset`
+
+- Display information about a node's network interfaces:
+
+`talosctl get addresses`
