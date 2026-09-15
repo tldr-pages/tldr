@@ -26,7 +26,7 @@
 
 - Crea una interfaz virtual en modo monitor con una dirección MAC específica:
 
-`sudo iw dev {{wlanX}} interface add "{{nombre_vif}" type monitor addr {{12:34:56:aa:bb:cc}}`
+`sudo iw dev {{wlanX}} interface add "{{nombre_vif}}" type monitor addr {{12:34:56:aa:bb:cc}}`
 
 - Elimina la interfaz virtual:
 

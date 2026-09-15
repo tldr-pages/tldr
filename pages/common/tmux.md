@@ -2,7 +2,7 @@
 
 > Terminal multiplexer.
 > It allows multiple sessions with windows, panes, and more.
-> See also: `zellij`, `screen`.
+> See also: `zellij`, `screen`, `herdr`.
 > More information: <https://github.com/tmux/tmux>.
 
 - Start a new session:

@@ -11,7 +11,7 @@
 
 `aws kinesis put-record --stream-name {{nombre}} --partition-key {{clave}} --data {{base64_encoded_message}}`
 
-- Escribe un registro en un flujo Kinesis con codificación base64 en línea:
+- Escribe un registro en un flujo Kinesis con codificación Base64 en línea:
 
 `aws kinesis put-record --stream-name {{nombre}} --partition-key {{clave}} --data "$( echo "{{my raw message}}" | base64 )"`
 

@@ -14,8 +14,8 @@
 
 - Show the unit a specific process belongs to:
 
-`systemctl whoami {{pid}}`
+`systemctl whoami {{process_id}}`
 
 - Show the units for multiple processes:
 
-`systemctl whoami {{pid1 pid2 ...}}`
+`systemctl whoami {{process_id1 process_id2 ...}}`

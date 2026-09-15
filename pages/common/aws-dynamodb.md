@@ -1,6 +1,6 @@
 # aws dynamodb
 
-> Manipulate an AWS Dynamodb database, a fast NoSQL database with predictable performance and seamless scalability.
+> Manipulate an AWS DynamoDB database, a fast NoSQL database with predictable performance and seamless scalability.
 > More information: <https://docs.aws.amazon.com/cli/latest/reference/dynamodb/>.
 
 - Create a table:
@@ -17,15 +17,15 @@
 
 - Add an item to a table:
 
-`aws dynamodb put-item --table-name {{table_name}} --item '{{{"AttributeName": {"S": "value"}}}}'`
+`aws dynamodb put-item --table-name {{table_name}} --item '{{{"AttributeName": {"S": "value"\}\}}}'`
 
 - Retrieve an item from a table:
 
-`aws dynamodb get-item --table-name {{table_name}} --key '{{{"ID": {"N": "1"}}}}'`
+`aws dynamodb get-item --table-name {{table_name}} --key '{{{"ID": {"N": "1"\}\}}}'`
 
 - Update an item in the table:
 
-`aws dynamodb update-item --table-name {{table_name}} --key '{{{"ID": {"N": "1"}}}}' --update-expression "{{SET Name = :n}}" --expression-attribute-values '{{{":n": {"S": "Jane"}}}}'`
+`aws dynamodb update-item --table-name {{table_name}} --key '{{{"ID": {"N": "1"\}\}}}' --update-expression "{{SET Name = :n}}" --expression-attribute-values '{{{":n": {"S": "Jane"\}\}}}'`
 
 - Scan items in the table:
 
@@ -33,4 +33,4 @@
 
 - Delete an item from the table:
 
-`aws dynamodb delete-item --table-name {{table_name}} --key '{{{"ID": {"N": "1"}}}}'`
+`aws dynamodb delete-item --table-name {{table_name}} --key '{{{"ID": {"N": "1"\}\}}}'`

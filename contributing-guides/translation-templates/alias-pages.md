@@ -27,6 +27,7 @@ The templates can be changed when necessary.
 [ko](#ko) •
 [lo](#lo) •
 [ml](#ml) •
+[nb](#nb) •
 [ne](#ne) •
 [nl](#nl) •
 [no](#no) •
@@ -35,6 +36,7 @@ The templates can be changed when necessary.
 [pt_PT](#pt_pt) •
 [ro](#ro) •
 [ru](#ru) •
+[si](#si) •
 [sr](#sr) •
 [sv](#sv) •
 [ta](#ta) •
@@ -341,6 +343,20 @@ The templates can be changed when necessary.
 
 ---
 
+### nb
+
+```markdown
+# example
+
+> Denne kommandoen er et alias for `example`.
+
+- Vis dokumentasjonen for den opprinnelige kommandoen:
+
+`tldr example`
+```
+
+---
+
 ### ne
 
 ```markdown
@@ -447,6 +463,20 @@ The templates can be changed when necessary.
 > Эта команда — псевдоним для `example`.
 
 - Смотри документацию для оригинальной команды:
+
+`tldr example`
+```
+
+---
+
+### si
+
+```markdown
+# example
+
+> මෙම විධානය `example` සඳහා අන්වර්ථ නාමයක් වේ.
+
+- මුල් විධානය සඳහා ලේඛනය බලන්න:
 
 `tldr example`
 ```

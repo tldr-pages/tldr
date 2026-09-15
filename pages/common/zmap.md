@@ -20,7 +20,7 @@
 
 `sudo zmap {{[-r|--rate]}} {{packets_per_second}} {{subnet}}`
 
-- Perform a dry run without sending packets:
+- Simulate running zmap without sending packets:
 
 `zmap {{[-d|--dryrun]}} {{subnet}}`
 

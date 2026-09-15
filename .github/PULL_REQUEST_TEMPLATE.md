@@ -1,9 +1,9 @@
 <!--
 Thank you for contributing!
-Please fill in the following checklist, removing items that do not apply.
+Please fill in the following checklist.
 See also https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md.
 
-Sign the CLA before submitting a pull request or it will be closed after some time.
+Sign the CLA before submitting a pull request and do not modify the PR checklist or it will be closed after some time.
 https://cla-assistant.io/tldr-pages/tldr
 -->
 
@@ -14,9 +14,12 @@ https://cla-assistant.io/tldr-pages/tldr
 - [ ] The page(s) follow the [content guidelines](/tldr-pages/tldr/blob/main/CONTRIBUTING.md#guidelines).
 - [ ] The page(s) follow the [style guide](/tldr-pages/tldr/blob/main/contributing-guides/style-guide.md).
 - [ ] The PR contains at most 5 new pages.
-- [ ] The PR is authored by me, or has been human-reviewed if it was created with AI or machine translation software.
+- [ ] The PR is authored by me, or has been human-reviewed if it was created with AI or machine translation software (see [AI-Assisted Development Policy](/tldr-pages/tldr/blob/main/contributing-guides/AI-policy.md)).
 - [ ] The PR title conforms to the recommended [templates](/tldr-pages/tldr/blob/main/CONTRIBUTING.md#commit-message-and-pr-title).
 - **Version of the command being documented (if known):**
 - Reference issue: #
 - Closes: #
 <!-- Only use "Closes:" if this PR fixes the entire issue. -->
+
+### Additional details:
+<!-- If you have additional information that you need to give, write it under here. -->

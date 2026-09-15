@@ -2,6 +2,6 @@
 
 > Det här kommandot är ett alias för `docker container rename`.
 
-- Se dokumentationen för orginalkommandot:
+- Se dokumentationen för originalkommandot:
 
 `tldr docker container rename`

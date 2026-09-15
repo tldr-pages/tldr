@@ -2,7 +2,7 @@
 
 > JavaScript 和 Node.js 软件包管理器。
 > 管理 Node.js 项目及其模块依赖项。
-> 此命令也有关于其子命令的文件，例如：`install`, `run`.
+> 此命令也有关于其子命令的文件，例如：`install`, `run`。
 > 更多信息：<https://docs.npmjs.com/cli/npm/>。
 
 - 使用默认值创建一个 `package.json` 文件（省略 `--yes` 来以交互方式执行）：

@@ -9,12 +9,12 @@
 
 - Detiene una máquina virtual y espera por lo menos 10 segundos:
 
-`qm stop {{100}} --timeout {{10}}`
+`qm stop {{100}} --timeout 10`
 
 - Detiene una máquina virtual y omite cualquier bloqueo (solo el root puede usar esta opción):
 
-`qm stop {{100}} --skiplock {{true}}`
+`qm stop {{100}} --skiplock true`
 
 - Detiene una máquina virtual y no desactive los volúmenes de almacenamiento:
 
-`qm stop {{100}} --keepActive {{true}}`
+`qm stop {{100}} --keepActive true`

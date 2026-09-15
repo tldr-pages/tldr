@@ -34,4 +34,4 @@
 
 - Stuur een `SIGUSR1` signaal naar alle processen met de gegeven GID (groeps-ID):
 
-`kill -SIGUSR1 -{{groep_id}}`
+`kill {{[-10|-SIGUSR1]}} -{{groep_id}}`

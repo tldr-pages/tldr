@@ -1,7 +1,7 @@
 # git gui
 
 > Una GUI para Git para gestionar ramas, remotos, confirmaciones de cambio y realizar fusiones locales.
-> Vea también: `git-cola`, `gitk`.
+> Vea también: `git cola`, `gitk`.
 > Más información: <https://git-scm.com/docs/git-gui>.
 
 - Inicia la GUI:

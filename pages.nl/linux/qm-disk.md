@@ -9,11 +9,11 @@
 
 - Verplaats een virtuele schijf:
 
-`qm {{[di|disk]}} {{[m|move]}} {{100}} {{destination}} {{index}}`
+`qm {{[di|disk]}} {{[m|move]}} {{100}} {{scic0}} {{bestemming_opslag_naam}}`
 
 - Verwijder de vorige kopie van de virtuele schijf:
 
-`qm {{[di|disk]}} {{[m|move]}} --delete {{100}} {{bestemming}} {{index}}`
+`qm {{[di|disk]}} {{[m|move]}} {{100}} {{scic0}} {{bestemming_opslag_naam}} --delete`
 
 - Importeer een VMDK/`.qcow2`/raw schijfimage met een specifieke opslagnaam:
 
@@ -30,3 +30,7 @@
 - Specificeer een virtuele machine via zijn ID:
 
 `qm {{[di|disk]}} {{[resc|rescan]}} --vmid {{100}}`
+
+- Verwijder een schijf:
+
+`qm {{[di|disk]}} {{[u|unlink]}} {{100}} --idlist {{unused0,unused1,scsi1,...}}`

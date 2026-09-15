@@ -1,6 +1,6 @@
 # update-alternatives
 
-> Een handig hulpmiddel voor het onderhouden van symbolische links om standaard commando's te bepalen.
+> Onderhoud handig symbolische links om standaard commando's te bepalen.
 > Meer informatie: <https://manned.org/update-alternatives>.
 
 - Voeg een symbolische link toe:
@@ -9,7 +9,7 @@
 
 - Configureer een symbolische link voor `java`:
 
-`sudo update-alternatives --config {{java}}`
+`sudo update-alternatives --config java`
 
 - Verwijder een symbolische link:
 

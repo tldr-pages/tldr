@@ -4,22 +4,22 @@
 > Certaines sous-commandes comme `device` ont leur propre documentation.
 > Plus d'informations : <https://btrfs.readthedocs.io/en/latest/btrfs.html>.
 
-- Créer un sous-volume :
+- Crée un sous-volume :
 
 `sudo btrfs {{[su|subvolume]}} {{[c|create]}} {{chemin/vers/sous_volume}}`
 
-- Lister les sous-volumes :
+- Liste les sous-volumes :
 
 `sudo btrfs {{[su|subvolume]}} {{[l|list]}} {{chemin/vers/point_de_montage}}`
 
-- Afficher les informations d'utilisation d'espace :
+- Affiche les informations d'utilisation d'espace :
 
 `sudo btrfs {{[f|filesystem]}} df {{chemin/vers/point_de_montage}}`
 
-- Activer les quotas :
+- Active les quotas :
 
 `sudo btrfs {{[qu|quota]}} {{[e|enable]}} {{chemin/vers/sous_volume}}`
 
-- Afficher les quotas :
+- Affiche les quotas :
 
 `sudo btrfs {{[qg|qgroup]}} {{[s|show]}} {{chemin/vers/sous_volume}}`

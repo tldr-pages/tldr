@@ -14,11 +14,11 @@
 
 - فرض إنهاء العمليات المطابقة (لا يمكن حظره):
 
-`pkill -9 "{{process_name}}"`
+`pkill {{[-9|-SIGKILL]}} "{{process_name}}"`
 
 - إرسال إشارة `SIGUSR1` إلى العمليات التي تطابق الاسم المحدد:
 
-`pkill -USR1 "{{process_name}}"`
+`pkill {{[-10|-SIGUSR1]}} "{{process_name}}"`
 
 - إنهاء العملية الرئيسية لـ `firefox` لإغلاق المتصفح:
 
