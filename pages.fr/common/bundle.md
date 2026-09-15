@@ -17,11 +17,11 @@
 
 - Mets à jour une ou plusieurs gem(s) spécifique(s) définie(s) dans le `Gemfile` :
 
-`bundle update {{nom_de_la_gem}} {{nom_de_la_gem}}`
+`bundle update {{nom_de_gem1 nom_de_gem2 ...}}`
 
 - Mets à jour une ou plusieurs gem(s) spécifique(s) définie(s) dans le `Gemfile` mais seulement vers la prochaine version de patch :
 
-`bundle update --patch {{nom_de_la_gem}} {{nom_de_la_gem}}`
+`bundle update --patch {{nom_de_gem1 nom_de_gem2 ...}}`
 
 - Mets à jour toutes les gem(s) du groupe donné dans le `Gemfile` :
 
@@ -33,4 +33,4 @@
 
 - Crée un nouveau squelette de gem :
 
-`bundle gem {{nom_de_la_gem}}`
+`bundle gem {{nom_de_gem}}`
