@@ -1,33 +1,32 @@
 # pulumi
 
-> Define infrastructure on any cloud using familiar programming languages.
-> Some subcommands such as `up` have their own usage documentation.
-> More information: <https://www.pulumi.com/docs/iac/cli/>.
+> Define and deploy cloud infrastructure using familiar programming languages.
+> More information: <https://www.pulumi.com/docs/reference/cli/>.
 
-- Create a new project using a template:
+- Create a new Pulumi project:
 
 `pulumi new`
 
-- Create a new stack using an isolated deployment target:
-
-`pulumi stack init`
-
-- Configure variables (e.g. keys, regions, etc.) interactively:
-
-`pulumi config`
-
-- Preview and deploy changes to a program and/or infrastructure:
-
-`pulumi up`
-
-- Simulate deployment changes without performing them (dry-run):
+- Preview changes to infrastructure without deploying:
 
 `pulumi preview`
 
-- Destroy a program and its infrastructure:
+- Deploy the current stack:
+
+`pulumi up`
+
+- Display the current stack's resources:
+
+`pulumi stack`
+
+- Destroy all resources in the current stack:
 
 `pulumi destroy`
 
-- Use Pulumi locally, independent of a Pulumi Cloud:
+- List all stacks in the current project:
 
-`pulumi login {{[-l|--local]}}`
+`pulumi stack ls`
+
+- Display the output values of the current stack:
+
+`pulumi stack output`
