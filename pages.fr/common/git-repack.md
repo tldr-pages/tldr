@@ -1,12 +1,12 @@
 # git repack
 
-> Empaqueter les objets décompressés dans un dépôt Git.
+> Empaquete les objets décompressés dans un dépôt Git.
 > Plus d'informations : <https://git-scm.com/docs/git-repack>.
 
-- Empaqueter les objets décompressés dans le dépôt courant :
+- Empaquete les objets décompressés dans le dépôt actuel :
 
 `git repack`
 
-- Également supprimer les objets redondants après empaquetage :
+- Supprime également les objets redondants après empaquetage :
 
 `git repack -d`
