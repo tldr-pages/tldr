@@ -1,6 +1,6 @@
 # wlmail
 
-> Manage emails and subscribed online news with Windows Live Mail.
+> Manage emails with Windows Live Mail.
 > Some subcommands are not supported in older Windows Mail (`winmail`) for Windows Vista.
 > Note: This program is deprecated since Windows 8 in favor of their successors (Mail, New Outlook).
 > More information: <https://archive.org/details/windows_live_essentials_2012_qfe4_image>.
