@@ -15,10 +15,10 @@
 
 `wineserver {{[-p|--persistent]}}`
 
-- Display version:
-
-`wineserver {{[-v|--version]}}`
-
 - Display help:
 
 `wineserver {{[-h|--help]}}`
+
+- Display version:
+
+`wineserver {{[-v|--version]}}`
