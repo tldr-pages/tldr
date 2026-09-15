@@ -23,6 +23,6 @@
 
 `sudo rtcwake {{[-m|--mode]}} disable`
 
-- Perform a dry run to wakeup the computer at a given time. (Press `<Ctrl c>` to abort):
+- Simulate waking up the computer at a given time. (Press `<Ctrl c>` to abort):
 
 `sudo rtcwake {{[-m|--mode]}} on --date {{hh:ss}}`

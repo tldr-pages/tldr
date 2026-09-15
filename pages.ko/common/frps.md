@@ -10,7 +10,7 @@
 
 - 현재 디렉터리에서 최신 TOML 구성 파일 (`frps.ini` 대신 `frps.toml`)을 사용하여 서비스를 시작:
 
-`frps {{[-c|--config]}} ./frps.toml`
+`frps {{[-c|--config]}} {{경로/대상/frps.toml}}`
 
 - 특정 구성 파일을 사용하여, 서비스를 시작:
 
