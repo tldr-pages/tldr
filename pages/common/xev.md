@@ -1,7 +1,7 @@
 # xev
 
 > Print contents of X events.
-> More information: <https://gitlab.freedesktop.org/xorg/app/xev>.
+> More information: <https://manned.org/xev>.
 
 - Monitor all occurring X events:
 

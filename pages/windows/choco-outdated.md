@@ -13,8 +13,8 @@
 
 - Specify a custom source to check packages from:
 
-`choco outdated --source {{source_url|alias}}`
+`choco outdated {{[-s|--source]}} {{source_url|alias}}`
 
 - Provide a username and password for authentication:
 
-`choco outdated --user {{username}} --password {{password}}`
+`choco outdated {{[-u|--user]}} {{username}} {{[-p|--password]}} {{password}}`

@@ -13,11 +13,11 @@
 
 - Confirmer automatiquement toutes les invites :
 
-`choco uninstall {{paquet}} --yes`
+`choco uninstall {{paquet}} {{[-y|--yes]}}`
 
 - Supprimez toutes les dépendances lors de la désinstallation :
 
-`choco uninstall {{paquet}} --remove-dependencies`
+`choco uninstall {{paquet}} {{[-x|--remove-dependencies]}}`
 
 - Désinstaller tous les packages :
 

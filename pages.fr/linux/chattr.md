@@ -1,6 +1,7 @@
 # chattr
 
 > Modifie les attributs des fichiers ou des répertoires.
+> Voir aussi : `lsattr`.
 > Plus d'informations : <https://manned.org/chattr>.
 
 - Rend un fichier ou un répertoire [i]mmuable aux modifications et à la suppression, même par le superutilisateur :

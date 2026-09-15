@@ -11,9 +11,9 @@
 
 `sudo btrfs {{[rest|restore]}} {{[-D|--dry-run]}} {{chemin/du/device/btrfs}} {{chemin/du/dossier}}`
 
-- Restaurer les fichiers correspondants à une expression régulière donnée (non sensible à la casse) à restaurer depuis un système de fichiers btrfs (tous les répertoires parents des fichiers doivent correspondre également à l'expression régulière) :
+- Restaurer les fichiers correspondants à une `regex` donnée (non sensible à la casse) à restaurer depuis un système de fichiers btrfs (tous les répertoires parents des fichiers doivent correspondre également à l'`regex`) :
 
-`sudo btrfs {{[rest|restore]}} --path-regex {{expression_reguliere}} -c {{chemin/vers/peripherique_btrfs}} {{chemin/vers/dossier}}`
+`sudo btrfs {{[rest|restore]}} --path-regex {{regex}} -c {{chemin/vers/peripherique_btrfs}} {{chemin/vers/dossier}}`
 
 - Restaurer les fichiers depuis un système de fichiers btrfs en utilisant un arbre racine spécifique `bytenr` (voir `btrfs-find-root`) :
 

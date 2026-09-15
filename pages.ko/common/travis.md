@@ -3,10 +3,6 @@
 > Travis CI와 상호작용하는 명령줄 클라이언트.
 > 더 많은 정보: <https://github.com/travis-ci/travis.rb#command-line-client>.
 
-- 클라이언트 버전 표시:
-
-`travis version`
-
 - 인증 토큰을 사용하여 서버에 CLI 클라이언트 인증:
 
 `travis login`
@@ -22,3 +18,7 @@
 - `.travis.yml` 파일 생성 및 프로젝트 활성화:
 
 `travis init`
+
+- 클라이언트 버전 표시:
+
+`travis version`

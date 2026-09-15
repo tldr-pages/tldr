@@ -1,7 +1,7 @@
 # ld
 
 > Hubungkan berkas-berkas obyek berbarengan untuk membangun suatu berkas program executable.
-> Informasi lebih lanjut: <https://sourceware.org/binutils/docs/ld.html>.
+> Informasi lebih lanjut: <https://sourceware.org/binutils/docs/ld.html#Options>.
 
 - Hubungkan berkas obyek tertentu yang tidak memiliki kebergantungan ke suatu executable:
 

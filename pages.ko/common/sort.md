@@ -13,7 +13,7 @@
 
 - 파일을 대소문자를 구분하지 않고 정렬:
 
-`sort {{-f|--ignore-case}} {{경로/대상/파일}}`
+`sort {{[-f|--ignore-case]}} {{경로/대상/파일}}`
 
 - 파일을 알파벳 순이 아닌 숫자 순으로 정렬:
 
@@ -21,11 +21,11 @@
 
 - ":"를 필드 구분자로 사용하여 3번째 필드를 기준으로 `/etc/passwd`를 숫자 순으로 정렬:
 
-`sort {{[-t|--field-separator]}} {{:}} {{[-k|--key]}} {{3n}} {{/etc/passwd}}`
+`sort {{[-t|--field-separator]}} : {{[-k|--key]}} 3n /etc/passwd`
 
 - 위와 동일하지만, 3번째 필드의 항목이 동일한 경우 4번째 필드를 지수와 함께 숫자 순으로 정렬:
 
-`sort {{[-t|--field-separator]}} {{:}} {{[-k|--key]}} {{3,3n}} {{[-k|--key]}} {{4,4g}} {{/etc/passwd}}`
+`sort {{[-t|--field-separator]}} : {{[-k|--key]}} 3,3n {{[-k|--key]}} 4,4g /etc/passwd`
 
 - 파일을 정렬하면서 유일한 줄만 보존:
 

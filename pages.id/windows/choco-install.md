@@ -25,12 +25,12 @@
 
 - Lakukan konfirmasi perizinan secara otomatis:
 
-`choco install {{nama_paket}} --yes`
+`choco install {{nama_paket}} {{[-y|--yes]}}`
 
 - Tentukan suatu sumber untuk mendapatkan kumpulan paket:
 
-`choco install {{nama_paket}} --source {{url_sumber|alias}}`
+`choco install {{nama_paket}} {{[-s|--source]}} {{url_sumber|alias}}`
 
 - Sediakan nama pengguna (username) dan kata sandi untuk autentikasi:
 
-`choco install {{nama_paket}} --user {{username}} --password {{kata_sandi}}`
+`choco install {{nama_paket}} {{[-u|--user]}} {{username}} {{[-p|--password]}} {{kata_sandi}}`

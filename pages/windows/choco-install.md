@@ -19,18 +19,18 @@
 
 `choco install {{package}} --version {{version}}`
 
-- Allow installing multiple versions of a package:
+- Force reinstallation of a package:
 
-`choco install {{package}} --allow-multiple`
+`choco install {{package}} {{[-f|--force]}}`
 
 - Confirm all prompts automatically:
 
-`choco install {{package}} --yes`
+`choco install {{package}} {{[-y|--yes]}}`
 
 - Specify a custom source to receive packages from:
 
-`choco install {{package}} --source {{source_url|alias}}`
+`choco install {{package}} {{[-s|--source]}} {{source_url|alias}}`
 
 - Provide a username and password for authentication:
 
-`choco install {{package}} --user {{username}} --password {{password}}`
+`choco install {{package}} {{[-u|--user]}} {{username}} {{[-p|--password]}} {{password}}`

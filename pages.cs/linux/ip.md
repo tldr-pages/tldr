@@ -22,7 +22,7 @@
 
 - Ukázat sousedy (ARP tabulka):
 
-`ip {{[n|neighbour]}}`
+`ip {{[n|neighbor]}}`
 
 - Změnit rozhraní nahoru/dolů:
 

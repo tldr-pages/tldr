@@ -2,6 +2,6 @@
 
 > Det här kommandot är ett alias för `ip route list`.
 
-- Se dokumentationen för orginalkommandot:
+- Se dokumentationen för originalkommandot:
 
 `tldr ip route list`

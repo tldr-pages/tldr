@@ -11,7 +11,7 @@
 
 `qm {{[sn|snapshot]}} {{100}} {{snapshot_name}} --description {{description}}`
 
-- Create a snapshot including the vmstate:
+- Create a snapshot including the running virtual machine state:
 
 `qm {{[sn|snapshot]}} {{100}} {{snapshot_name}} --description {{description}} --vmstate 1`
 
@@ -21,4 +21,4 @@
 
 - Rollback the state of a specific VM to a specified snapshot:
 
-`qm {{[ro|rollback]}} {{100}} {{snap_name}}`
+`qm {{[ro|rollback]}} {{100}} {{snapshot_name}}`

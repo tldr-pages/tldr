@@ -13,7 +13,7 @@
 
 - 특정 ipsw 파일에서 새로운 Mac VM 생성:
 
-`tart create --from-ipsw={{latest|경로/대상/파일.ipsw}} {{VM-이름}}`
+`tart create --from-ipsw {{latest|경로/대상/파일.ipsw}} {{VM-이름}}`
 
 - 기존 VM 실행:
 
@@ -21,7 +21,7 @@
 
 - 특정 폴더를 마운트하여 기존 VM 실행:
 
-`tart run --dir={{경로/대상/폴더}}:{{/경로/대상/로컬_폴더}} {{VM-이름}}`
+`tart run --dir {{경로/대상/폴더}}:/{{경로/대상/로컬_폴더}} {{VM-이름}}`
 
 - VM 목록 나열:
 

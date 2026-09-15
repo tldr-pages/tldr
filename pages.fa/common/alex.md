@@ -18,4 +18,4 @@
 
 - بررسی تمام فایل های نشانه گذاری به جز `example.md`:
 
-`alex *.md !{{example.md}}`
+`alex *.md !example.md`

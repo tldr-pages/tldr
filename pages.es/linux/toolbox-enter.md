@@ -6,12 +6,12 @@
 
 - Entra a un contenedor de Toolbx utilizando la imagen predeterminada de una distribución específica:
 
-`toolbox enter --distro {{distribución}}`
+`toolbox enter {{[-d|--distro]}} {{distribución}}`
 
 - Entra a un contenedor de Toolbx utilizando la imagen predeterminada de una liberación específica de la distribución actual:
 
-`toolbox enter --release {{liberación}}`
+`toolbox enter {{[-r|--release]}} {{liberación}}`
 
 - Entra a un contenedor de Toolbx utilizando la imagen predeterminada de Fedora 39:
 
-`toolbox enter --distro {{fedora}} --release {{f39}}`
+`toolbox enter {{[-d|--distro]}} {{fedora}} {{[-r|--release]}} f{{39}}`

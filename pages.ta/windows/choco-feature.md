@@ -9,8 +9,8 @@
 
 - ஒரு அம்சத்தை இயக்கு:
 
-`choco feature enable --name {{பெயர்}}`
+`choco feature enable {{[-n|--name]}} {{பெயர்}}`
 
 - ஒரு அம்சத்தை முடக்கு:
 
-`choco feature disable --name {{பெயர்}}`
+`choco feature disable {{[-n|--name]}} {{பெயர்}}`

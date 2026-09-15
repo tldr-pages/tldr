@@ -7,7 +7,7 @@
 
 `cdk ls`
 
-- Synthesize and print the CloudFormation template for the specified stack(s):
+- 지정한 스택의 CloudFormation 템플릿을 합성하여 출력:
 
 `cdk synth {{스택_이름}}`
 
