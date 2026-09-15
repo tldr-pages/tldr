@@ -3,11 +3,11 @@
 > Convert file paths between Windows and Unix formats for a Wine prefix.
 > More information: <https://manned.org/winepath>.
 
-- Convert a Windows path to a unix path:
+- Convert a Windows path to a Unix path:
 
 `winepath {{[-u|--unix]}} '{{C:\path\to\file}}'`
 
-- Convert a Unix path to a long windows path:
+- Convert a Unix path to a long Windows path:
 
 `winepath {{[-w|--windows]}} {{path/to/file}}`
 
