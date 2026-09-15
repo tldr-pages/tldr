@@ -19,7 +19,7 @@
 
 `wineboot {{[-s|--shutdown]}}`
 
-- End the current session, [f]orcing unresponsive processes to close:
+- End the current session, forcing unresponsive processes to close:
 
 `wineboot {{[-ef|--end-session --force]}}`
 

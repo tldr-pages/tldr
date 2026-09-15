@@ -13,7 +13,7 @@
 
 - Set the Windows [v]ersion the prefix emulates:
 
-`winecfg /v {{win11|win10|win7|winxp}}`
+`winecfg /v {{win11|win10|win7|winxp|...}}`
 
 - Display help:
 
