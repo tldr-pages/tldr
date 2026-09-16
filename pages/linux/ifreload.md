@@ -5,7 +5,7 @@
 
 - Reload all network interface configurations:
 
-`sudo ifreload -a`
+`sudo ifreload {{[-a|--all]}}`
 
 - Reload a specific network interface:
 
