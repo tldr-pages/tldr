@@ -12,6 +12,6 @@
 
 `devfsadm -C -v`
 
-- Dry-run - output what would be changed but make no modifications:
+- Simulate what would happen but make no modifications:
 
 `devfsadm -C -v -n`
