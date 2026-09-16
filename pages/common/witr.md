@@ -17,7 +17,7 @@
 
 - Display a full process tree for a specific PID:
 
-`witr --pid {{pid}} --tree`
+`witr --pid {{process_id}} --tree`
 
 - Display a short summary output:
 
@@ -25,4 +25,4 @@
 
 - Display the results in a JSON format:
 
-`witr --json --pid {{process_id}}`
+`witr --pid {{process_id}} --json`
