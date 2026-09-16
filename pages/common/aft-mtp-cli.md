@@ -19,13 +19,9 @@
 
 `aft-mtp-cli {{[-i|--interactive]}}`
 
-- Batch command processing:
+- Execute commands from a file in batch mode:
 
-`aft-mtp-cli {{[-b|--batch]}} {{device_name}}`
-
-- Read input commands from a file:
-
-`aft-mtp-cli {{[-f|--input-file]}} {{path/to/file}}`
+`aft-mtp-cli {{[-b|--batch]}} {{[-f|--input-file]}} {{path/to/file}}`
 
 - Display help:
 
