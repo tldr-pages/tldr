@@ -13,15 +13,15 @@
 
 - Connect to a FreeRDP server with dynamic resolution:
 
-`xfreerdp /v:{{ip_address}} /u:{{username}} /p:{{password}} /dynamic-resolution`
+`xfreerdp /v:{{host}} /u:{{username}} /p:{{password}} /dynamic-resolution`
 
 - Connect to a FreeRDP server with clipboard redirection:
 
-`xfreerdp /v:{{ip_address}} /u:{{username}} /p:{{password}} +clipboard`
+`xfreerdp /v:{{host}} /u:{{username}} /p:{{password}} +clipboard`
 
 - Connect to a FreeRDP server ignoring any certificate checks:
 
-`xfreerdp /v:{{ip_address}} /u:{{username}} /p:{{password}} /cert:ignore`
+`xfreerdp /v:{{host}} /u:{{username}} /p:{{password}} /cert:ignore`
 
 - Connect to a FreeRDP server with a shared directory:
 
