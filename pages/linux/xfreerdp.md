@@ -5,11 +5,11 @@
 
 - Connect to a FreeRDP server:
 
-`xfreerdp /u:{{username}} /p:{{password}} /v:{{ip_address}}`
+`xfreerdp /u:{{username}} /p:{{password}} /v:{{host}}`
 
 - Connect to a FreeRDP server with a custom window width and height:
 
-`xfreerdp /v:{{ip_address}} /u:{{username}} /p:{{password}} /w:{{width_in_pixels}} /h:{{height_in_pixels}}`
+`xfreerdp /v:{{host}} /u:{{username}} /p:{{password}} /w:{{width_in_pixels}} /h:{{height_in_pixels}}`
 
 - Connect to a FreeRDP server with dynamic resolution:
 
@@ -25,8 +25,8 @@
 
 - Connect to a FreeRDP server with a shared directory:
 
-`xfreerdp /v:{{ip_address}} /u:{{username}} /p:{{password}} /drive:{{path/to/directory}},{{share_name}}`
+`xfreerdp /v:{{host}} /u:{{username}} /p:{{password}} /drive:{{path/to/directory}},{{share_name}}`
 
 - Connect to a FreeRDP server and activate audio output redirection using `sys:alsa` device:
 
-`xfreerdp /u:{{username}} /p:{{password}} /v:{{ip_address}} /sound:{{sys:alsa}}`
+`xfreerdp /u:{{username}} /p:{{password}} /v:{{host}} /sound:{{sys:alsa}}`
