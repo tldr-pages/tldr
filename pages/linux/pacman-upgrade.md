@@ -1,7 +1,6 @@
 # pacman --upgrade
 
 > Install packages manually from archive files.
-> See also: `pacman`.
 > More information: <https://manned.org/pacman.8>.
 
 - Install one or more packages from files:

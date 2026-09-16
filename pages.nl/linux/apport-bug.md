@@ -1,7 +1,7 @@
 # apport-bug
 
 > Dien een bugrapport in over Ubuntu.
-> Meer informatie: <https://wiki.ubuntu.com/Apport>.
+> Meer informatie: <https://ubuntu.com/project/docs/contributors/debugging/apport/>.
 
 - Meld een bug over het hele systeem:
 

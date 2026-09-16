@@ -1,7 +1,7 @@
 # svcs
 
 > Ambil atau atur sumber daya dari proses, tugas dan projek yang berjalan.
-> Informasi lebih lanjut: <https://www.unix.com/man-page/linux/1/svcs>.
+> Informasi lebih lanjut: <https://www.unix.com/man-page/sunos/1/svcs>.
 
 - Daftar semua servis yang berjalan:
 
@@ -19,6 +19,6 @@
 
 `svcs -L apache`
 
-- Display end of a service log file:
+- Tampilkan isi akhir suatu berkas log servis:
 
 `tail $(svcs -L apache)`

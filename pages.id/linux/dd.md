@@ -6,7 +6,7 @@
 
 - Buat suatu perangkat USB bootable dari suatu berkas isohybrid (seperti `archlinux-xxx.iso`) dan tampilkan kemajuannya:
 
-`sudo dd if={{jalan/menuju/berkas.iso}} of={{/dev/perangkat_usb}} status=progress`
+`sudo dd status=progress if={{jalan/menuju/berkas.iso}} of={{/dev/perangkat_usb}}`
 
 - Salin isi suatu perangkat penyimpanan menuju perangkat lain dengan ukuran blok 4 MiB dan lakukan flush write sebelum perintah berakhir:
 
@@ -22,7 +22,7 @@
 
 - Buat cadangan sistem, simpan ke dalam berkas IMG (dapat dipulihkan nanti dengan menukar `if` dan `of`), dan tampilkan kemajuannya:
 
-`sudo dd if={{/dev/perangkat_penyimpanan}} of={{jalan/menuju/berkas.img}} status=progress`
+`sudo dd status=progress if={{/dev/perangkat_penyimpanan}} of={{jalan/menuju/berkas.img}}`
 
 - Periksa kemajuan dari suatu proses `dd` yang sedang berjalan (jalankan perintah ini dari sesi shell lainnya):
 

@@ -25,12 +25,12 @@
 
 - Confirma todos prompts automaticamente:
 
-`choco install {{pacote}} --yes`
+`choco install {{pacote}} {{[-y|--yes]}}`
 
 - Especifica uma fonte personalizada para receber pacotes:
 
-`choco install {{pacote}} --source {{url_do_pacote|apelido}}`
+`choco install {{pacote}} {{[-s|--source]}} {{url_do_pacote|apelido}}`
 
 - Fornece um nome e uma senha para autenticação:
 
-`choco install {{pacote}} --user {{usuario}} --password {{senha}}`
+`choco install {{pacote}} {{[-u|--user]}} {{usuario}} {{[-p|--password]}} {{senha}}`

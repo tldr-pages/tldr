@@ -6,7 +6,7 @@
 
 - 从 isohybrid 文件（如 `archlinux-xxx.iso`）创建可启动 USB 驱动器并显示进度：
 
-`sudo dd if={{路径/到/文件.iso}} of={{/dev/usb_drive}} status=progress`
+`sudo dd status=progress if={{路径/到/文件.iso}} of={{/dev/usb_drive}}`
 
 - 以 4 MiB 块大小克隆驱动器到另一个驱动器，并在命令终止前刷新写入：
 
@@ -22,7 +22,7 @@
 
 - 创建系统备份，保存为 IMG 文件（稍后可通过交换 `if` 和 `of` 参数恢复），并显示进度：
 
-`sudo dd if={{/dev/驱动器设备}} of={{路径/到/文件.img}} status=progress`
+`sudo dd status=progress if={{/dev/驱动器设备}} of={{路径/到/文件.img}}`
 
 - 检查正在进行的 `dd` 操作的进度（在另一个 shell 中运行此命令）：
 

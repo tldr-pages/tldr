@@ -1,6 +1,6 @@
 # npm diff
 
-> `npm` 레지스트리의 패키지 버전을 비교하여 차이점을 보여주는 명령어
+> `npm` 레지스트리의 패키지 버전을 비교하여 차이점을 보여주는 명령어.
 > `git diff`와 유사하게 동작.
 > 더 많은 정보: <https://docs.npmjs.com/cli/npm-diff/>.
 

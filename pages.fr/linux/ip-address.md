@@ -19,7 +19,7 @@
 
 `sudo ip {{[a|address]}} {{[a|add]}} {{ip_address}} dev {{eth0}}`
 
-- Supprimer une adresse réseau d'une interface réseau :
+- Supprime une adresse réseau d'une interface réseau :
 
 `sudo ip {{[a|address]}} {{[d|delete]}} {{ip_address}} dev {{eth0}}`
 

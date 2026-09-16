@@ -9,7 +9,7 @@
 
 - Toon beknopte tabel van alle RPC-diensten geregistreerd op localhost:
 
-`rpcinfo -s {{localhost}}`
+`rpcinfo -s localhost`
 
 - Toon tabel met statistieken van rpcbind-operaties op localhost:
 

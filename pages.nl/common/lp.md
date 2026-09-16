@@ -1,6 +1,7 @@
 # lp
 
 > Print bestanden.
+> Zie ook: `lpstat`, `lpoptions`.
 > Meer informatie: <https://manned.org/lp>.
 
 - Toon de output van een commando met de standaard printer (bekijk het `lpstat` commando):

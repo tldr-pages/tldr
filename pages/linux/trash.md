@@ -23,7 +23,7 @@
 
 `trash-empty 10`
 
-- Remove all files in the trash, which match a specific blob pattern:
+- Remove all files in the trash, which match a specific glob pattern:
 
 `trash-rm "{{*.o}}"`
 

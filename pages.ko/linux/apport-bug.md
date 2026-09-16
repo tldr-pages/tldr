@@ -1,7 +1,7 @@
 # apport-bug
 
 > Ubuntu에서 버그 보고서를 제출합니다.
-> 더 많은 정보: <https://wiki.ubuntu.com/Apport>.
+> 더 많은 정보: <https://ubuntu.com/project/docs/contributors/debugging/apport/>.
 
 - 전체 시스템에 대한 버그 보고:
 

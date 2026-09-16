@@ -13,8 +13,8 @@
 
 - Spécifiez une source personnalisée à partir de laquelle vérifier les packages :
 
-`choco outdated --source {{source_url|alias}}`
+`choco outdated {{[-s|--source]}} {{source_url|alias}}`
 
 - Fournir un nom d'utilisateur et un mot de passe pour l'authentification :
 
-`choco outdated --user {{nom_d_utilisateur}} --password {{mot_de_passe}}`
+`choco outdated {{[-u|--user]}} {{nom_d_utilisateur}} {{[-p|--password]}} {{mot_de_passe}}`
