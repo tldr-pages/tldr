@@ -9,24 +9,24 @@
 
 - Disable an input:
 
-`xinput disable {{id}}`
+`xinput disable {{input_device_id}}`
 
 - Enable an input:
 
-`xinput enable {{id}}`
+`xinput enable {{input_device_id}}`
 
 - Disconnect an input from its master:
 
-`xinput float {{id}}`
+`xinput float {{input_device_id}}`
 
 - Reattach an input as slave to a master:
 
-`xinput reattach {{id}} {{master_id}}`
+`xinput reattach {{input_device_id}} {{master_id}}`
 
 - List settings of an input device:
 
-`xinput list-props {{id}}`
+`xinput list-props {{input_device_id}}`
 
 - Change a setting of an input device:
 
-`xinput set-prop {{id}} {{setting_id}} {{value}}`
+`xinput set-prop {{input_device_id}} {{setting_id}} {{value}}`

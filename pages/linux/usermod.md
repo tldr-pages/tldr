@@ -10,7 +10,7 @@
 
 - Change a user ID:
 
-`sudo usermod {{[-u|--uid]}} {{id}} {{username}}`
+`sudo usermod {{[-u|--uid]}} {{user_id}} {{username}}`
 
 - Change a user shell:
 

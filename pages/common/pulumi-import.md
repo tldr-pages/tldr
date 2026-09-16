@@ -6,11 +6,11 @@
 
 - Generate the resource definition with a given name for an existing provider resource:
 
-`pulumi import {{type_token}} {{name}} {{id}}`
+`pulumi import {{type_token}} {{name}} {{resource_id}}`
 
 - Import an existing AWS user as a `pulumi` resource:
 
-`pulumi import aws:iam/user:User {{my_user_resource}} {{id}}`
+`pulumi import aws:iam/user:User {{my_user_resource}} {{resouce_id}}`
 
 - Import an existing Cloudflare worker:
 
