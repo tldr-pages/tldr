@@ -1,6 +1,6 @@
 # Enable-PnpDevice
 
-> Enables a Plug and Play (PnP) device. You must use an Administrator account to enable a device.
+> Enable a Plug and Play (PnP) device. You must use an Administrator account to enable a device.
 > Note: This command can only be used through PowerShell.
 > More information: <https://learn.microsoft.com/powershell/module/pnpdevice/enable-pnpdevice>.
 
