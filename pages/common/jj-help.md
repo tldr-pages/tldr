@@ -1,9 +1,9 @@
 # jj help
 
-> Display help information for jj or a specific subcommand.
+> Display help information for `jj` or a specific subcommand.
 > More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-help>.
 
-- Display help for jj:
+- Display help for `jj`:
 
 `jj help`
 
