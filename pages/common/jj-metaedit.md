@@ -8,7 +8,7 @@
 
 `jj metaedit --update-author`
 
-- Set a specific author on a revision:
+- Set a specific author on the working-copy commit:
 
 `jj metaedit --author "{{name}} <{{email}}>"`
 
