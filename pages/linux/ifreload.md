@@ -13,8 +13,8 @@
 
 - Reload interfaces and print detailed output:
 
-`sudo ifreload -v`
+`sudo ifreload {{[-v|--verbose]}}`
 
 - Check the configuration without applying changes:
 
-`sudo ifreload -c`
+`sudo ifreload {{[-c|--currently-up]}}`
