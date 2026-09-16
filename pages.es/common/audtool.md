@@ -32,6 +32,6 @@
 
 `audtool preferences-show`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `audtool help`
