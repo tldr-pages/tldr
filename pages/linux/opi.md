@@ -3,7 +3,7 @@
 > Search and install packages from openSUSE, community, and proprietary repositories.
 > More information: <https://github.com/openSUSE/opi>.
 
-- Search package:
+- Search for a package:
 
 `opi {{package}}`
 
