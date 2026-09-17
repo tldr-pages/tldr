@@ -13,19 +13,19 @@
 
 - Installe ou enlève un/des rôle(s) :
 
-`ansible-galaxy role {{install|remove}} {{nom_du_rôle1 nom_du_rôle2 ...}}`
+`ansible-galaxy role {{install|remove}} {{nom_rôle1 nom_rôle2 ...}}`
 
 - Crée un nouveau rôle :
 
-`ansible-galaxy role init {{nom_du_rôle}}`
+`ansible-galaxy role init {{nom_rôle}}`
 
 - Récupère les informations sur un rôle :
 
-`ansible-galaxy role info {{nom_du_rôle}}`
+`ansible-galaxy role info {{nom_rôle}}`
 
 - Installe ou enlève une/des collection(s) :
 
-`ansible-galaxy collection {{install|remove}} {{nom_de_collection1 nom_de_collection2 ...}}`
+`ansible-galaxy collection {{install|remove}} {{nom_collection1 nom_collection2 ...}}`
 
 - Affiche l'aide sur les rôles ou les collections :
 
