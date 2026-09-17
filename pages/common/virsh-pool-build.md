@@ -1,6 +1,6 @@
 # virsh pool-build
 
-> Build the underlying storage system for a virtual machine storage pool as defined in it's configuration file in `/etc/libvirt/storage`.
+> Build the underlying storage system for a virtual machine storage pool as defined in its configuration file in `/etc/libvirt/storage`.
 > See also: `virsh pool-define-as`, `virsh pool-start`.
 > More information: <https://manned.org/virsh>.
 
