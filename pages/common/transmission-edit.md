@@ -14,4 +14,4 @@
 
 - Update a tracker's passcode in a torrent file:
 
-`transmission-edit {{[-r|--replace]}} {{old-passcode}} {{new-passcode}} {{path/to/file.torrent}}`
+`transmission-edit {{[-r|--replace]}} {{old_passcode}} {{new_passcode}} {{path/to/file.torrent}}`
