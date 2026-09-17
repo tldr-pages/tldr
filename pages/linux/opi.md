@@ -15,7 +15,7 @@
 
 `opi -P {{package}}`
 
-- Search package in non interactive mode:
+- Search for a package in non interactive mode:
 
 `sudo opi -n {{package}}`
 
