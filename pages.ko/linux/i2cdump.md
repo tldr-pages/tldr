@@ -1,8 +1,8 @@
 # i2cdump
 
 > I2C 장치의 레지스터 내용을 출력.
-> 관련 항목: `i2cdetect`, `i2cget`, `i2cset`.
 > 참고: All addresses should be specified in hexadecimal.
+> 관련 항목: `i2cdetect`, `i2cget`, `i2cset`.
 > 더 많은 정보: <https://manned.org/i2cdump>.
 
 - I2C 장치의 모든 레지스터 내용 출력:

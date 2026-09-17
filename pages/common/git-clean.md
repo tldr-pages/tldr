@@ -19,7 +19,7 @@
 
 `git clean {{[-f|--force]}} -d`
 
-- Delete only untracked files matching specific paths or glob patterns:
+- Delete only untracked files matching specific paths or `glob` patterns:
 
 `git clean {{[-f|--force]}} -- {{path/to/directory}} '{{*.ext}}'`
 
