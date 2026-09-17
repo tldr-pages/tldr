@@ -11,7 +11,7 @@
 
 `opi codecs`
 
-- Search package without running scripts:
+- Search for a package without running scripts:
 
 `opi -P {{package}}`
 
