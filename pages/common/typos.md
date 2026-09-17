@@ -19,7 +19,7 @@
 
 `typos --hidden {{path/to/file_or_directory}}`
 
-- Check a file or directory, ignoring files that match a specific glob pattern:
+- Check a file or directory, ignoring files that match a specific `glob` pattern:
 
 `typos --exclude {{pattern}} {{path/to/file_or_directory}}`
 
