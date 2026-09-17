@@ -9,7 +9,7 @@
 
 - Avanza/retrocede página:
 
-`{{<BarraEspaciadora>|<b>}}`
+`{{<Space>|<b>}}`
 
 - Ir al final/principio del archivo:
 
