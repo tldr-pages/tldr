@@ -7,7 +7,7 @@
 
 `prctl {{pid}}`
 
-- İşlem limit ve izinlerini makineye dayanıklı fortmatta:
+- İşlem limit ve izinlerini makineye dayanıklı formatta incele:
 
 `prctl -P {{pid}}`
 
