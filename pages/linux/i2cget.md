@@ -1,6 +1,6 @@
 # i2cget
 
-> Read from an register of an I2C device.
+> Read from a register of an I2C device.
 > See also: `i2cdetect`, `i2cdump`, `i2cset`.
 > Note: All addresses should be specified in hexadecimal.
 > More information: <https://manned.org/i2cget>.

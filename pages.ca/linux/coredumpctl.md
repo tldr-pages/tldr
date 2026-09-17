@@ -13,7 +13,7 @@
 
 - Mostra informació sobre els volcats de memòria que coincideixin amb el `PID` d'un programa:
 
-`coredumpctl info {{PID}}`
+`coredumpctl info {{pid}}`
 
 - Invoca el depurador fent servir l'últim volcat de memòria per un programa:
 

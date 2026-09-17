@@ -1,7 +1,7 @@
 # virsh list
 
 > 가상 머신의 ID, 이름, 상태 나열.
-> 같이 보기: `virsh`.
+> 관련 항목: `virsh`.
 > 더 많은 정보: <https://manned.org/virsh>.
 
 - 실행 중인 가상 머신에 대한 정보 나열:

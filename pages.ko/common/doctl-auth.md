@@ -9,7 +9,7 @@
 
 - 인증 컨텍스트 나열 (API 토큰):
 
-`doctl auth list`
+`doctl auth {{[ls|list]}}`
 
 - 컨텍스트 전환 (API 토큰):
 
@@ -21,4 +21,4 @@
 
 - 사용 가능한 명령 표시:
 
-`doctl auth --help`
+`doctl auth {{[-h|--help]}}`

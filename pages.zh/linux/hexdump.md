@@ -10,12 +10,12 @@
 
 - 以十六进制显示输入偏移量，并在最后两列中显示其 ASCII 表示形式：
 
-`hexdump -C {{路径/到/文件}}`
+`hexdump {{[-C|--canonical]}} {{路径/到/文件}}`
 
 - 显示文件的十六进制表示，但只解释输入的指定字节数：
 
-`hexdump -C -n{{字节数}} {{路径/到/文件}}`
+`hexdump {{[-C|--canonical]}} {{[-n|--length]}} {{字节数}} {{路径/到/文件}}`
 
 - 不使用 '*' 替换重复的行：
 
-`hexdump --no-squeezing {{路径/到/文件}}`
+`hexdump {{[-v|--no-squeezing]}} {{路径/到/文件}}`

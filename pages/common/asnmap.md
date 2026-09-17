@@ -22,7 +22,7 @@
 
 - Lookup CIDR ranges from a file of targets:
 
-`asnmap {{[-f|-file]}} {{targets.txt}} -silent`
+`asnmap {{[-f|-file]}} {{path/to/targets.txt}} -silent`
 
 - Output results in JSON format:
 

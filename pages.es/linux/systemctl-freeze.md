@@ -2,7 +2,7 @@
 
 > Congela una o más unidades.
 > Las unidades congeladas se pueden reanudar con `systemctl thaw`.
-> Más información: <https://www.freedesktop.org/software/systemd/man/systemctl.html#freeze%20PATTERN%E2%80%A6>.
+> Más información: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#freeze%20PATTERN%E2%80%A6>.
 
 - Congela una unidad específica:
 

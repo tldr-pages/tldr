@@ -11,7 +11,7 @@
 
 `npm find-dupes --include dev`
 
-- List all duplicate instances of a specific package in `node-modules`:
+- List all duplicate instances of a specific package in `node_modules`:
 
 `npm find-dupes {{package_name}}`
 

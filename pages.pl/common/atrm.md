@@ -6,7 +6,7 @@
 
 - Usuń zadanie numer 10:
 
-`atrm {{10}}`
+`atrm 10`
 
 - Usuń kilka zadań, oddzielonych spacjami:
 

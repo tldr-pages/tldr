@@ -21,7 +21,7 @@
 
 - 지정된 태그에 대해 플레이북에서 작업 실행:
 
-`ansible-playbook {{playbook}} {{[-t|--tags|]}} {{태그1,태그2}}`
+`ansible-playbook {{playbook}} {{[-t|--tags]}} {{태그1,태그2}}`
 
 - 특정 작업에서 시작하는 playbook에서 작업 실행:
 
@@ -29,4 +29,4 @@
 
 - 변경사항을 적용하지 않고 플레이북에서 작업 실행(dry-run):
 
-`ansible-playbook {{playbook}} {{[-C|--check|]}} {{[-D|--diff|]}}`
+`ansible-playbook {{playbook}} {{[-C|--check]}} {{[-D|--diff]}}`

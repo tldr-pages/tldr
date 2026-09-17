@@ -34,4 +34,4 @@
 
 - Inicia uma sessão do shell [r]estrita:
 
-`bash -r`
+`bash {{[-r|--restricted]}}`

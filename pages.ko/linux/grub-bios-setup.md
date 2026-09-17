@@ -10,8 +10,8 @@
 
 - 문제가 감지되어도 설치 강행:
 
-`grub-bios-setup --force {{/dev/sdX}}`
+`grub-bios-setup {{[-f|--force]}} {{/dev/sdX}}`
 
 - 특정 디렉터리에 GRUB 설치:
 
-`grub-bios-setup --directory={{/boot/grub}} {{/dev/sdX}}`
+`grub-bios-setup {{[-d|--directory]}} {{/boot/grub}} {{/dev/sdX}}`

@@ -19,18 +19,18 @@
 
 `rpcclient {{[-U|--user]}} {{domain}}\{{username}}%{{password}} {{[-c|--command]}} {{semicolon_separated_commands}} {{ip_address}}`
 
-- Display domain users:
+- [Interactive] Display domain users:
 
-`rpcclient $> enumdomusers`
+`enumdomusers`
 
-- Display privileges:
+- [Interactive] Display privileges:
 
-`rpcclient $> enumprivs`
+`enumprivs`
 
-- Display information about a specific user:
+- [Interactive] Display information about a specific user:
 
-`rpcclient $> queryuser {{username|rid}}`
+`queryuser {{username|rid}}`
 
-- Create a new user in the domain:
+- [Interactive] Create a new user in the domain:
 
-`rpcclient $> createdomuser {{username}}`
+`createdomuser {{username}}`

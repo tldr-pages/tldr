@@ -3,10 +3,14 @@
 > Esegui un comando o una shell interattiva con una speciale directory root.
 > Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/chroot-invocation.html>.
 
-- Esegui un comando con una diversa directory root:
+- Esegui `$SHELL` nella nuova directory root:
 
-`chroot {{/percorso/della/nuova/root}} {{comando}}`
+`sudo chroot {{percorso/della/nuova/root}}`
 
-- Specifica utente e gruppo (ID o nome) da usare:
+- Esegui un comando nella nuova directory root:
 
-`chroot --userspec={{utente:gruppo}}`
+`sudo chroot {{percorso/della/nuova/root}} {{comando}}`
+
+- Usa un utente e un gruppo specifici:
+
+`sudo chroot --userspec {{nome_utente_o_id}}:{{nome_gruppo_o_id}} {{percorso/della/nuova/root}}`

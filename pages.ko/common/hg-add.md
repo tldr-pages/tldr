@@ -9,16 +9,16 @@
 
 - 지정된 패턴과 일치하는 모든 스테이징되지 않은 파일 추가:
 
-`hg add --include {{패턴}}`
+`hg add {{[-I|--include]}} {{패턴}}`
 
 - 지정된 패턴과 일치하지 않는 모든 스테이징되지 않은 파일 추가:
 
-`hg add --exclude {{패턴}}`
+`hg add {{[-X|--exclude]}} {{패턴}}`
 
 - 하위 저장소를 재귀적으로 추가:
 
-`hg add --subrepos`
+`hg add {{[-S|--subrepos]}}`
 
 - 아무런 작업도 수행하지 않고 테스트 실행:
 
-`hg add --dry-run`
+`hg add {{[-n|--dry-run]}}`

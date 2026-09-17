@@ -21,4 +21,4 @@
 
 - `stdin`에서 정렬하여 트리 생성 (비재귀 `git ls-tree` 출력 형식 필요):
 
-`git mktree < {{경로/대상/tree.txt}}`
+`git < {{경로/대상/tree.txt}} mktree`

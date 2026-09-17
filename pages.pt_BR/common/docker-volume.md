@@ -13,7 +13,7 @@
 
 - Cria um volume `tmpfs` com tamanho de 100 MiB e uid 1000:
 
-`docker volume create --opt {{type}}={{tmpfs}} --opt {{device}}={{tmpfs}} --opt {{o}}={{size=100m,uid=1000}} {{nome_do_volume}}`
+`docker volume create {{[-o|--opt]}} {{type}}={{tmpfs}} {{[-o|--opt]}} {{device}}={{tmpfs}} {{[-o|--opt]}} {{o}}={{size=100m,uid=1000}} {{nome_do_volume}}`
 
 - Lista todos os volumes:
 

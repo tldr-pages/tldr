@@ -1,6 +1,6 @@
 # gdirname
 
-> Perintah ini merupakan alias dari `dirname`.
+> Perintah ini merupakan alias dari GNU `dirname`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 

@@ -2,6 +2,7 @@
 
 > Network exploration tool and security/port scanner.
 > Some features (e.g. SYN scan) activate only when `nmap` is run with root privileges.
+> See also: `hping3`, `masscan`, `naabu`, `rustscan`, `zmap`.
 > More information: <https://nmap.org/book/man.html>.
 
 - Scan the top 1000 ports of a remote host with various [v]erbosity levels:

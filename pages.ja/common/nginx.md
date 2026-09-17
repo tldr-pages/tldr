@@ -1,7 +1,7 @@
 # nginx
 
-> Nginx ウェブサーバ。
-> もっと詳しく: <https://nginx.org/docs/switches.html>。
+> `nginx` ウェブサーバ。
+> 詳細情報: <https://nginx.org/docs/switches.html>。
 
 - デフォルトの設定ファイルでサーバーを起動する:
 

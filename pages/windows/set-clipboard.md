@@ -14,11 +14,11 @@
 
 - Copy files or directories to clipboard:
 
-`Set-Clipboard -Path "{{path/to/files_or_directories}}"`
+`Set-Clipboard -Path "{{path\to\files_or_directories}}"`
 
 - Copy multiple files:
 
-`Set-Clipboard -Path "{{path/to/file1}}","{{path/to/file2}}","{{path/to/file3}}"`
+`Set-Clipboard -Path "{{path\to\file1}}","{{path\to\file2}}","{{path\to\file3}}"`
 
 - Clear the clipboard:
 

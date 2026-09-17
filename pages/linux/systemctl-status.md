@@ -1,7 +1,7 @@
 # systemctl status
 
 > Display the status of systemd units.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#status%20PATTERN%E2%80%A6%7CPID%E2%80%A6%5D>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#status%20PATTERN%E2%80%A6%7CPID%E2%80%A6%5D>.
 
 - Show the status of a systemd unit:
 

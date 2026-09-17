@@ -9,7 +9,7 @@
 
 - Descifra un fichero utilizando una clave pública:
 
-`RsaCtfTool.py --publickey {{ruta/a/clave.pub}} --decryptfile {{ruta/a/archivo_cifrado}}`
+`RsaCtfTool.py --publickey {{ruta/a/clave.pub}} --decryptfile {{ruta/al/archivo_cifrado}}`
 
 - Descifra una cadena de texto cifrado específica:
 

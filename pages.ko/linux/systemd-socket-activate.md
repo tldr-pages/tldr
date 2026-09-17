@@ -21,4 +21,4 @@
 
 - 지정된 포트로 서비스를 활성화:
 
-`systemd-socket-activate {{경로/대상/socket.service}} -l {{8080}}`
+`systemd-socket-activate {{경로/대상/socket.service}} {{[-l|--listen]}} {{8080}}`

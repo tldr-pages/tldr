@@ -16,7 +16,7 @@
 
 `acme.sh --issue --alpn {{[-d|--domain]}} {{example.com}}`
 
-- Geef een certificaat uit met een werkende Nginx-configuratie:
+- Geef een certificaat uit met een werkende `nginx`-configuratie:
 
 `acme.sh --issue --nginx {{[-d|--domain]}} {{example.com}}`
 

@@ -9,4 +9,4 @@
 
 - 버전 표시:
 
-`neotoppm -version`
+`neotoppm {{[-v|-version]}}`

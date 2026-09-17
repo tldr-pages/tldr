@@ -9,8 +9,8 @@
 
 - `toolbox` 컨테이너만 나열:
 
-`toolbox list --containers`
+`toolbox list {{[-c|--containers]}}`
 
 - `toolbox` 이미지만 나열:
 
-`toolbox list --images`
+`toolbox list {{[-i|--images]}}`

@@ -1,6 +1,7 @@
 # mount
 
 > Get access to an entire filesystem in one directory.
+> See also: `udisksctl`.
 > More information: <https://manned.org/mount.8>.
 
 - Show all mounted filesystems:

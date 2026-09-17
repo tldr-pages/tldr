@@ -10,8 +10,8 @@
 
 - 파드 포함:
 
-`kube-capacity -p`
+`kube-capacity {{[-p|--pods]}}`
 
 - 활용도 포함:
 
-`kube-capacity -u`
+`kube-capacity {{[-u|--util]}}`

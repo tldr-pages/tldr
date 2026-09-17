@@ -1,7 +1,7 @@
 # setcap
 
 > 지정된 파일의 권한 설정.
-> 같이 보기: `getcap`.
+> 관련 항목: `getcap`.
 > 더 많은 정보: <https://manned.org/setcap>.
 
 - 주어진 파일에 `cap_net_raw` 권한 설정 (RAW 및 PACKET 소켓 사용을 위해):

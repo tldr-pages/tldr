@@ -24,6 +24,6 @@
 
 `git annex get {{路径/到/文件或目录}}`
 
-- 显示帮助信息：
+- 显示帮助：
 
 `git annex help`

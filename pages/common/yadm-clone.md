@@ -17,11 +17,11 @@
 
 `yadm clone {{remote_repository_location}} --no-bootstrap`
 
-- Change the worktree that `yadm` will use during cloning:
+- Change the worktree that yadm will use during cloning:
 
 `yadm clone {{remote_repository_location}} --w {{worktree_file}}`
 
-- Change the branch that `yadm` gets files from:
+- Change the branch that yadm gets files from:
 
 `yadm clone {{remote_repository_location}} -b {{branch}}`
 

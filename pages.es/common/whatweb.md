@@ -9,24 +9,24 @@
 
 - Lee objetivos/sitios web desde un archivo:
 
-`whatweb -i {{archivo_objetivos}}`
+`whatweb {{[-i|--input-file]}} {{archivo_objetivos}}`
 
 - Analiza un sitio web/objetivo en modo detallado:
 
-`whatweb -v {{example.com}}`
+`whatweb {{[-v|--verbose]}} {{example.com}}`
 
 - Ejecuta un escaneo agresivo en un sitio web:
 
-`whatweb -a 3 {{example.com}}`
+`whatweb {{[-a|--aggression]}} 3 {{example.com}}`
 
-- Escanear una red y suprimir errores:
+- Escanea una red y suprime los errores:
 
 `whatweb --no-errors {{192.168.0.0/24}}`
 
 - Lista de complementos:
 
-`whatweb -l`
+`whatweb {{[-l|--list-plugins]}}`
 
 - Lista de complementos:
 
-`whatweb -I {{nombre_del_complemento}}`
+`whatweb {{[-I|--info-plugins]}} {{nombre_del_complemento}}`

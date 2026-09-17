@@ -1,7 +1,7 @@
 # cfssl
 
 > Cloudflare의 PKI 및 TLS 툴킷.
-> 같이 보기: `openssl`.
+> 관련 항목: `openssl`.
 > 더 많은 정보: <https://github.com/cloudflare/cfssl>.
 
 - 호스트의 인증서 정보 표시:

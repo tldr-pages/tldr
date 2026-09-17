@@ -22,4 +22,4 @@
 
 - Füge einen Schlüssel von einem Schlüsselserver hinzu nur mit der Schlüssel-ID:
 
-`apt-key adv --keyserver {{pgp.mit.edu}} --recv {{KEYID}}`
+`apt-key adv --keyserver {{pgp.mit.edu}} --recv {{key_id}}`

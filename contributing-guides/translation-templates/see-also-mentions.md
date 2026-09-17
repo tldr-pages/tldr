@@ -9,6 +9,7 @@ This file contains the translation templates of this notice.
 
 [en](#en) •
 [ar](#ar) •
+[bg](#bg) •
 [bn](#bn) •
 [bs](#bs) •
 [ca](#ca) •
@@ -27,6 +28,7 @@ This file contains the translation templates of this notice.
 [ko](#ko) •
 [lo](#lo) •
 [ml](#ml) •
+[nb](#nb) •
 [ne](#ne) •
 [nl](#nl) •
 [no](#no) •
@@ -35,6 +37,7 @@ This file contains the translation templates of this notice.
 [pt_PT](#pt_pt) •
 [ro](#ro) •
 [ru](#ru) •
+[si](#si) •
 [sr](#sr) •
 [sv](#sv) •
 [ta](#ta) •
@@ -59,6 +62,14 @@ This file contains the translation templates of this notice.
 
 ```markdown
 > انظر أيضًا: `example`.
+```
+
+---
+
+### bg
+
+```markdown
+> Виж също: `example`.
 ```
 
 ---
@@ -186,7 +197,7 @@ This file contains the translation templates of this notice.
 ### ko
 
 ```markdown
-> 같이 보기: `example`.
+> 관련 항목: `example`.
 ```
 
 ---
@@ -207,10 +218,18 @@ This file contains the translation templates of this notice.
 
 ---
 
+### nb
+
+```markdown
+> Se også: `example`.
+```
+
+---
+
 ### ne
 
 ```markdown
-> हेर्नुहोस् पनि: `example`.
+> हेर्नुहोस् पनि: `example`।
 ```
 
 ---
@@ -271,6 +290,14 @@ This file contains the translation templates of this notice.
 
 ---
 
+### si
+
+```markdown
+> මෙයද බලන්න: `example`.
+```
+
+---
+
 ### sr
 
 ```markdown
@@ -290,7 +317,7 @@ This file contains the translation templates of this notice.
 ### ta
 
 ```markdown
-> இதையும் பார்க்கவும்: `example`.
+> மேலும் காண்க: `example`.
 ```
 
 ---

@@ -1,6 +1,7 @@
 # gcloud
 
 > La herramienta CLI oficial de Google Cloud Platform.
+> Algunos subcomandos, como `app` e `init`, tienen su propia documentación de uso.
 > Más información: <https://docs.cloud.google.com/sdk/gcloud>.
 
 - Lista todas las propiedades de la configuración activa:

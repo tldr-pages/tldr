@@ -9,7 +9,7 @@
 
 - 전체 패키지 언퍼블리시:
 
-`npm unpublish {{패키지_이름}} --force`
+`npm unpublish {{패키지_이름}} {{[-f|--force]}}`
 
 - 스코프가 있는 패키지 언퍼블리시:
 

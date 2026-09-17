@@ -1,28 +1,29 @@
 # zypper
 
 > SUSE & openSUSE utilitaire de gestion de paquets.
+> Pour les commandes équivalentes dans d’autres gestionnaires de paquets, consulter <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > Plus d'informations : <https://en.opensuse.org/SDB:Zypper_manual>.
 
-- Synchroniser la liste des paquets et versions disponibles :
+- Synchronise la liste des paquets et versions disponibles :
 
-`zypper refresh`
+`sudo zypper {{[ref|refresh]}}`
 
-- Installer un nouveau paquet :
+- Installe un nouveau paquet :
 
-`zypper install {{paquet}}`
+`sudo zypper {{[in|install]}} {{paquet}}`
 
-- Supprimer un paquet :
+- Supprime un paquet :
 
-`zypper remove {{paquet}}`
+`sudo zypper {{[rm|remove]}} {{paquet}}`
 
-- Mettre à jour un paquet installé vers la version la plus récente disponible :
+- Met à jour un paquet installé vers la version la plus récente disponible :
 
-`zypper update`
+`sudo zypper {{[up|update]}}`
 
-- Chercher un paquet par mot clef :
+- Cherche un paquet par mot clef :
 
-`zypper search {{mot_clef}}`
+`zypper {{[se|search]}} {{mot_clef}}`
 
-- Afficher les informations concernant les dépôts de paquets configurés :
+- Affiche les informations concernant les dépôts de paquets configurés :
 
-`zypper repos --sort-by-priority`
+`zypper {{[lr|repos]}} --sort-by-priority`

@@ -1,6 +1,7 @@
 # cam
 
 > `libcamera`의 프론트엔드 도구.
+> 관련 항목: `v4l2-ctl`.
 > 더 많은 정보: <https://libcamera.org/docs.html>.
 
 - 사용 가능한 카메라 나열:

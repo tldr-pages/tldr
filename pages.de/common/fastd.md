@@ -7,15 +7,15 @@
 
 - Starte `fastd` mit einer bestimmten Konfigurationsdatei:
 
-`fastd --config {{pfad/zu/fastd.conf}}`
+`fastd {{[-c|--config]}} {{pfad/zu/fastd.conf}}`
 
 - Starte einen Schicht-3-VPN mit einer MTU von 1400 und lade den Rest der Konfigurationsparameter aus einer Datei:
 
-`fastd --mode {{tap}} --mtu {{1400}} --config {{pfad/zu/fastd.conf}}`
+`fastd {{[-m|--mode]}} {{tap}} {{[-M|--mtu]}} {{1400}} {{[-c|--config]}} {{pfad/zu/fastd.conf}}`
 
 - Validiere eine Konfigurationsdatei:
 
-`fastd --verify-config --config {{pfad/zu/fastd.conf}}`
+`fastd --verify-config {{[-c|--config]}} {{pfad/zu/fastd.conf}}`
 
 - Generiere einen neuen Schlüssel:
 
@@ -23,8 +23,8 @@
 
 - Zeige den öffentlichen Schlüssel zu einem privaten Schlüssel in einer Konfigurationsdatei an:
 
-`fastd --show-key --config {{pfad/zu/fastd.conf}}`
+`fastd --show-key {{[-c|--config]}} {{pfad/zu/fastd.conf}}`
 
 - Zeige die aktuelle Version an:
 
-`fastd -v`
+`fastd {{[-v|--version]}}`

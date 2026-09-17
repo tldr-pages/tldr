@@ -9,4 +9,4 @@
 
 - Vertaal een IP naar een hostnaam, verbose:
 
-`avahi-resolve {{[-v|--verbose]}} {{[-a|--address]}} {{IP}}`
+`avahi-resolve {{[-v|--verbose]}} {{[-a|--address]}} {{ip}}`

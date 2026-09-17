@@ -8,6 +8,10 @@
 
 `file {{pad/naar/bestand}}`
 
+- Toon niet het bestandspad:
+
+`file {{[-b|--brief]}} {{pad/naar/bestand}}`
+
 - Kijk binnen een gezipt bestand en bepaal de bestandstype(s) erin:
 
 `file {{[-z|--uncompress]}} {{pad/naar/bestand.zip}}`

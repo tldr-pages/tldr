@@ -1,7 +1,7 @@
 # duc
 
 > A collection of tools for indexing, inspecting, and visualizing disk usage.
-> Duc maintains a database of accumulated sizes of directories of the file system, allowing queries in this database, or creating fancy graphs to show where data is.
+> Duc maintains a database of accumulated sizes of directories of the filesystem, allowing queries in this database, or creating fancy graphs to show where data is.
 > More information: <https://htmlpreview.github.io/?https://github.com/zevv/duc/blob/master/doc/duc.1.html>.
 
 - Index the `/usr` directory, writing to the default database location `~/.duc.db`:
@@ -16,11 +16,11 @@
 
 `duc ls {{[-Fg|--classify --graph]}} {{[-R|--recursive]}} {{/usr/local}}`
 
-- Start the graphical interface to explore the file system using sunburst graphs:
+- Start the graphical interface to explore the filesystem using sunburst graphs:
 
 `duc gui {{/usr}}`
 
-- Run the ncurses console interface to explore the file system:
+- Run the ncurses console interface to explore the filesystem:
 
 `duc ui {{/usr}}`
 

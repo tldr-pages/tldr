@@ -1,7 +1,7 @@
 # pamundice
 
 > 여러 개의 Netpbm 이미지를 하나로 결합.
-> 같이 보기: `pamdice`.
+> 관련 항목: `pamdice`.
 > 더 많은 정보: <https://netpbm.sourceforge.net/doc/pamundice.html>.
 
 - `printf` 스타일의 파일 이름 표현과 일치하는 이미지 결합. 특정 크기의 그리드를 가정:

@@ -17,8 +17,8 @@
 
 - 지정된 경로의 Git 저장소 열기:
 
-`git cola --repo {{경로/대상/git-저장소}}`
+`git cola {{[-r|--repo]}} {{경로/대상/git-저장소}}`
 
 - 상태 위젯에 경로 필터 적용:
 
-`git cola --status-filter {{필터}}`
+`git cola {{[-s|--status-filter]}} {{필터}}`

@@ -27,7 +27,7 @@
 
 - Especifica un archivo de política para su posterior análisis:
 
-`audit2allow {{[-p|--policy]}} {{ruta/a/archivo_de_directiva}}`
+`audit2allow {{[-p|--policy]}} {{ruta/al/archivo_de_directiva}}`
 
 - Limita el análisis a los mensajes con un tipo especificado en `regex`:
 

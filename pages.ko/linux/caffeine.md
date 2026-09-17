@@ -9,8 +9,8 @@
 
 - 도움말 표시:
 
-`caffeine --help`
+`caffeine {{[-h|--help]}}`
 
 - 버전 표시:
 
-`caffeine --version`
+`caffeine {{[-V|--version]}}`

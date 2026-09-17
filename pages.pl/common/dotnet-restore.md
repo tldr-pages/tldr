@@ -13,7 +13,7 @@
 
 - Przywróć zależnośći pomijając cache zapytań HTTP:
 
-`dotnet restore --no-cache`
+`dotnet restore --no-http-cache`
 
 - Wymuś rozwiązanie wszystkich zależności nawet jeśli poprzednie przywracanie zakończyło się sukcesem:
 
@@ -25,4 +25,4 @@
 
 - Przywróć zależności z wybranym poziomem szczegółowości logów:
 
-`dotnet restore --verbosity {{quiet|minimal|normal|detailed|diagnostic}}`
+`dotnet restore {{[-v|--verbosity]}} {{quiet|minimal|normal|detailed|diagnostic}}`

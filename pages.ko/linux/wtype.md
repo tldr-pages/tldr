@@ -1,7 +1,7 @@
 # wtype
 
 > Wayland에서 키보드 입력을 시뮬레이트합니다. X11의 `xdotool type`과 유사합니다.
-> 같이 보기: `ydotool`.
+> 관련 항목: `ydotool`.
 > 더 많은 정보: <https://manned.org/wtype>.
 
 - 텍스트 입력을 시뮬레이트:

@@ -1,24 +1,36 @@
 # pm
 
-> Mostra informazioni sulle applicazioni su un dispositivo Android.
+> Strumento Android pacchetto Manager.
 > Maggiori informazioni: <https://developer.android.com/tools/adb#pm>.
 
-- Elenca tutte le app installate:
+- Elenca i pacchetti installati:
 
 `pm list packages`
 
-- Elenca tutte le app di sistema installate:
+- Installa un pacchetto app da un percorso specificato:
 
-`pm list packages -s`
+`pm install /{{percorso/all/app}}.apk`
 
-- Elenca tutte le app di terze parti installate:
+- Disinstalla un pacchetto dal dispositivo:
 
-`pm list packages -3`
+`pm uninstall {{pacchetto}}`
 
-- Elenca le app che corrispondono a parole chiave specifiche:
+- Cancella tutti i dati dell'app per un pacchetto:
 
-`pm list packages {{parola_chiave1 parola_chiave2 ...}}`
+`pm clear {{pacchetto}}`
 
-- Mostra il percorso dell'APK di una specifica app:
+- Abilita un pacchetto o componente:
 
-`pm path {{app}}`
+`pm enable {{pacchetto_or_classe}}`
+
+- Disabilita un pacchetto o componente:
+
+`pm disable-user {{pacchetto_or_classe}}`
+
+- Concede un permesso per un'app:
+
+`pm grant {{pacchetto}} {{android.permission.CAMERA|android.permission.ACCESS_FINE_LOCATION|android.permission.READ_CONTACTS|...}}`
+
+- Revoca un permesso per un'app:
+
+`pm revoke {{pacchetto}} {{android.permission.CAMERA|android.permission.ACCESS_FINE_LOCATION|android.permission.READ_CONTACTS|...}}`

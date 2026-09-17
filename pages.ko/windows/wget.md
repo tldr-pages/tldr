@@ -6,7 +6,7 @@
 
 - 원래 `wget` 명령어의 문서 보기:
 
-`tldr wget -p common`
+`tldr wget {{[-p|--platform]}} common`
 
 - PowerShell의 `Invoke-WebRequest` 명령어의 문서 보기:
 

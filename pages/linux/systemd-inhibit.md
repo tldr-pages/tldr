@@ -6,7 +6,7 @@
 
 - List all active inhibition locks and the reasons for their creation:
 
-`systemd-inhibit --list`
+`systemd-inhibit`
 
 - Block system shutdown for a specified number of seconds with the `sleep` command:
 

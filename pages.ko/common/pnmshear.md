@@ -9,8 +9,8 @@
 
 - 전단된 이미지의 배경색 지정:
 
-`pnmshear -background {{파랑}} {{각도}} {{경로/대상/입력.pnm}} > {{경로/대상/출력.pnm}}`
+`pnmshear {{[-b|-background]}} {{파랑}} {{각도}} {{경로/대상/입력.pnm}} > {{경로/대상/출력.pnm}}`
 
 - 안티앨리어싱 없이 수행:
 
-`pnmshear -noantialias {{각도}} {{경로/대상/입력.pnm}} > {{경로/대상/출력.pnm}}`
+`pnmshear {{[-n|-noantialias]}} {{각도}} {{경로/대상/입력.pnm}} > {{경로/대상/출력.pnm}}`

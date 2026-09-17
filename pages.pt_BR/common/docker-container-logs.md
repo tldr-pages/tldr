@@ -9,7 +9,7 @@
 
 - Exibe logs de um container e segue exibindo:
 
-`docker {{[logs|container logs]}} {{[-f|--follow]}} {{nome_do_container}}`
+`docker {{[logs|container logs]}} {{nome_do_container}} {{[-f|--follow]}}`
 
 - Exibe as últimas 5 linhas:
 
@@ -17,7 +17,7 @@
 
 - Exibe logs e adiciona a informação de hora ao log:
 
-`docker {{[logs|container logs]}} {{[-t|--timestamps]}} {{nome_do_container}}`
+`docker {{[logs|container logs]}} {{nome_do_container}} {{[-t|--timestamps]}}`
 
 - Exibe logs até um certo ponto no tempo de execução do container (por exemplo: 23m, 10s, 2013-01-02T13:23:37):
 

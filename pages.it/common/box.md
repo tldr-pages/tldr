@@ -9,7 +9,7 @@
 
 - Crea un nuovo file Phar usando uno specifico file di configurazione:
 
-`box compile -c {{percorso/della/configurazione}}`
+`box compile {{[-c|--config]}} {{percorso/della/configurazione}}`
 
 - Mostra informazioni sulla estensione PHP PHAR:
 

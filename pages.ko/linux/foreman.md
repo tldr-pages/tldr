@@ -9,7 +9,7 @@
 
 - 지정된 Procfile로 애플리케이션 시작:
 
-`foreman start -f {{Procfile}}`
+`foreman start {{[-f|--procfile]}} {{Procfile}}`
 
 - 특정 애플리케이션 시작:
 
@@ -25,4 +25,4 @@
 
 - "worker"라는 이름의 프로세스를 제외한 모든 프로세스 시작:
 
-`foreman start -m all=1,{{worker}}=0`
+`foreman start {{[-m|--formation]}} all=1,{{worker}}=0`

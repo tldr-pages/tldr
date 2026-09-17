@@ -2,6 +2,7 @@
 
 > Install Rust binaries from CI artifacts.
 > Falls back to `cargo install` (from source code) if there are no binaries available.
+> Note: This is not a built-in Cargo command, you need to install it first.
 > More information: <https://github.com/cargo-bins/cargo-binstall>.
 
 - Install a package from <https://crates.io>:

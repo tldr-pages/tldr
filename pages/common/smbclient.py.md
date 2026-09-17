@@ -1,6 +1,7 @@
 # smbclient.py
 
-> A Python-based SMB client for interacting with SMB servers.
+> Interact with SMB servers.
+> Part of the Impacket suite.
 > More information: <https://github.com/fortra/impacket>.
 
 - Connect to an SMB server with username and password:

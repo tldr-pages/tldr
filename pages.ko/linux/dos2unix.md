@@ -2,7 +2,7 @@
 
 > DOS 스타일의 줄 바꿈을 Unix 스타일로 변경.
 > CRLF를 LF로 대체합니다.
-> 같이 보기: `unix2dos`, `unix2mac`, `mac2unix`.
+> 관련 항목: `unix2dos`, `unix2mac`, `mac2unix`.
 > 더 많은 정보: <https://manned.org/dos2unix>.
 
 - 파일의 줄 바꿈 변경:

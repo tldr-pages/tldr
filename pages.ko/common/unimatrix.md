@@ -1,7 +1,7 @@
 # unimatrix
 
 > 유니코드 문자를 사용하여 매트릭스 느낌을 시뮬레이션.
-> 같이 보기: `cmatrix`.
+> 관련 항목: `cmatrix`.
 > 더 많은 정보: <https://github.com/will8211/unimatrix>.
 
 - `cmatrix`의 기본 출력을 모방 (유니코드 없이, TTY에서 작동):

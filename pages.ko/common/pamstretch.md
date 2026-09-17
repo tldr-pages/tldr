@@ -1,7 +1,7 @@
 # pamstretch
 
 > PAM 이미지를 픽셀 간 보간을 통해 확대.
-> 같이 보기: `pamstretch-gen`, `pamenlarge`, `pamscale`.
+> 관련 항목: `pamstretch-gen`, `pamenlarge`, `pamscale`.
 > 더 많은 정보: <https://netpbm.sourceforge.net/doc/pamstretch.html>.
 
 - PAM 이미지를 정수 배율로 확대:

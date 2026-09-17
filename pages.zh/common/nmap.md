@@ -2,6 +2,7 @@
 
 > 网络探索工具和安全/端口扫描程序。
 > 某些功能（如 SYN 扫描）仅当以 root 权限运行 `nmap` 时才能激活。
+> 另请参阅：`hping3`, `masscan`, `naabu`, `rustscan`, `zmap`。
 > 更多信息：<https://nmap.org/book/man.html>。
 
 - 使用不同的详细（[v]erbosity）级别扫描远程主机的前 1000 个端口：

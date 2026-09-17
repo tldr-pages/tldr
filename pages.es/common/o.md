@@ -5,11 +5,11 @@
 
 - Abre un archivo en el editor:
 
-`o {{ruta/a/archivo}}`
+`o {{ruta/al/archivo}}`
 
 - Abre un archivo como de solo lectura:
 
-`o {{[-m|-monitor]}} {{ruta/a/archivo}}`
+`o {{[-m|-monitor]}} {{ruta/al/archivo}}`
 
 - Guarda el archivo:
 

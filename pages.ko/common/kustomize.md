@@ -9,7 +9,7 @@
 
 - 커스터마이제이션 파일을 빌드하고 `kubectl`로 배포:
 
-`kustomize build . | kubectl apply -f -`
+`kustomize build . | kubectl apply {{[-f|--filename]}} -`
 
 - 커스터마이제이션 파일에 이미지 설정:
 

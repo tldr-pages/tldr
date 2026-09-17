@@ -1,7 +1,7 @@
 # jj duplicate
 
 > Create new changes with the same content as existing ones.
-> More information: <https://jj-vcs.github.io/jj/latest/cli-reference/#jj-duplicate>.
+> More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-duplicate>.
 
 - Duplicate the current revision onto its existing parent:
 
@@ -13,19 +13,19 @@
 
 - Duplicate a revision onto a different parent:
 
-`jj duplicate --destination {{dest_revset}} {{revset}}`
+`jj duplicate {{[-d|--destination]}} {{dest_revset}} {{revset}}`
 
-- Duplicate a revision and insert it **after** other revision(s):
+- Duplicate a revision and insert it after other revision(s):
 
-`jj duplicate --insert-after {{after_revset}} {{revset}}`
+`jj duplicate {{[-A|--insert-after]}} {{after_revset}} {{revset}}`
 
-- Duplicate a revision and insert it **before** other revision(s):
+- Duplicate a revision and insert it before other revision(s):
 
-`jj duplicate --insert-before {{before_revset}} {{revset}}`
+`jj duplicate {{[-B|--insert-before]}} {{before_revset}} {{revset}}`
 
 - Duplicate onto multiple parents (creates a merge commit):
 
-`jj duplicate --destination {{destination1}} --destination {{destination2}} {{revset}}`
+`jj duplicate {{[-d|--destination]}} {{destination1}} {{[-d|--destination]}} {{destination2}} {{revset}}`
 
 - Duplicate multiple revisions:
 

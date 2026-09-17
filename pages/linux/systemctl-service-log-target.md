@@ -2,7 +2,7 @@
 
 > Get or set the log target for a service.
 > Only works for D-Bus integrated services.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#service-log-target%20SERVICE%20[TARGET]>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#service-log-target%20SERVICE%20%5BTARGET%5D>.
 
 - Show the current log target for a service:
 

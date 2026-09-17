@@ -18,7 +18,7 @@
 
 - Cambia recursivamente el propietario de un directorio y su contenido:
 
-`chown {{[-R|--recursive]}} {{usuario}} {{ruta/a/directorio}}`
+`chown {{[-R|--recursive]}} {{usuario}} {{ruta/al/directorio}}`
 
 - Cambia el propietario de un enlace simbólico:
 

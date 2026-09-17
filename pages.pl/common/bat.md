@@ -2,6 +2,7 @@
 
 > Wypisz i łącz pliki.
 > Klon `cat` z podświetlaniem składni i integracją z Gitem.
+> Zobacz także: `cat`.
 > Więcej informacji: <https://manned.org/bat>.
 
 - Wypisz zawartość pliku na standardowe wyjście:

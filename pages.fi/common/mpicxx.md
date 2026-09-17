@@ -1,6 +1,6 @@
 # mpicxx
 
-> Tämä on alias komennolle `mpic++`.
+> Tämä on alias `mpic++` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

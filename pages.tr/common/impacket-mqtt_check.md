@@ -2,6 +2,6 @@
 
 > Bu komut `mqtt_check.py` için bir takma addır.
 
-- Asıl komutun belgelerini görüntüleyin:
+- Asıl komutun dokümantasyonunu görüntüleyin:
 
 `tldr mqtt_check.py`

@@ -9,4 +9,4 @@
 
 - 성공적으로 완료된 명령만 정리:
 
-`pueue clean --successful-only`
+`pueue clean {{[-s|--successful-only]}}`

@@ -1,7 +1,7 @@
 # pamfix
 
 > PAM, PBM, PGM 및 PPM 파일의 오류를 수정합니다.
-> 같이 보기: `pamfile`, `pamvalidate`.
+> 관련 항목: `pamfile`, `pamvalidate`.
 > 더 많은 정보: <https://netpbm.sourceforge.net/doc/pamfix.html>.
 
 - 마지막 부분이 손상된 Netpbm 파일 수정:

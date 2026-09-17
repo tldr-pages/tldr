@@ -5,7 +5,7 @@
 
 - Show all peers on the bus by their service names:
 
-`busctl list`
+`busctl`
 
 - Show process information and credentials of a bus service, a process, or the owner of the bus (if no parameter is specified):
 

@@ -6,11 +6,11 @@
 
 - Crea una nueva clave SSH:
 
-`az sshkey create --name {{nombre}} --resource-group {{grupo_de_recursos}}`
+`az sshkey create --name {{nombre}} {{[-g|--resource-group]}} {{grupo_de_recursos}}`
 
 - Sube una clave SSH existente:
 
-`az sshkey create --name {{nombre}} --resource-group {{grupo_de_recursos}} --public-key "{{@ruta/de/llave.pub}}"`
+`az sshkey create --name {{nombre}} {{[-g|--resource-group]}} {{grupo_de_recursos}} --public-key "{{@ruta/de/llave.pub}}"`
 
 - Lista todas las claves públicas SSH:
 
@@ -18,4 +18,4 @@
 
 - Muestra información sobre una clave pública SSH:
 
-`az sshkey show --name {{nombre}} --resource-group {{grupo_de_recursos}}`
+`az sshkey show --name {{nombre}} {{[-g|--resource-group]}} {{grupo_de_recursos}}`

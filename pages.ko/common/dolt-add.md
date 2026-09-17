@@ -9,4 +9,4 @@
 
 - 모든 테이블 준비:
 
-`dolt add --all`
+`dolt add {{[-A|--all]}}`

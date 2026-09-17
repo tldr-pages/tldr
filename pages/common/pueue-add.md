@@ -17,7 +17,7 @@
 
 - Add a command to a group and start it immediately, see `pueue group` to manage groups:
 
-`pueue add {{[-i|--immediate]}} {{[-g|--group]}} "{{CPU_intensive}}" -- {{ffmpeg -i input.mp4 frame_%d.png}}`
+`pueue add {{[-i|--immediate]}} {{[-g|--group]}} "{{cpu_intensive}}" -- {{ffmpeg -i input.mp4 frame_%d.png}}`
 
 - Add a command and start it after commands 9 and 12 finish successfully:
 

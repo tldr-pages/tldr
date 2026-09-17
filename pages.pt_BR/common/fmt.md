@@ -9,12 +9,12 @@
 
 - Reformata um arquivo produzindo linhas de saída de (no máximo) `n` caracteres:
 
-`fmt -w {{n}} {{caminho/para/arquivo}}`
+`fmt {{[-w|--width]}} {{n}} {{caminho/para/arquivo}}`
 
 - Reformata um arquivo sem unir linhas menores do que a largura fornecida:
 
-`fmt -s {{caminho/para/arquivo}}`
+`fmt {{[-s|--split-only]}} {{caminho/para/arquivo}}`
 
 - Reformata um arquivo com espaçamento uniforme (1 espaço entre palavras e 2 espaços entre parágrafos):
 
-`fmt -u {{caminho/para/arquivo}}`
+`fmt {{[-u|--uniform-spacing]}} {{caminho/para/arquivo}}`

@@ -9,7 +9,7 @@
 
 - Exibe um banner com a largura de 50 caracteres:
 
-`banner -w 50 "{{Olá Mundo}}"`
+`banner {{[-w|--width]}} 50 "{{Olá Mundo}}"`
 
 - Lê texto da `stdin`, isto é, da entrada padrão:
 

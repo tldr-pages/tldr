@@ -9,15 +9,15 @@
 
 - 작업의 우선순위 업데이트:
 
-`task {{작업_ID}} modify priority:{{H|M|L}}`
+`task {{작업_id}} modify priority:{{H|M|L}}`
 
 - 작업 완료:
 
-`task {{작업_ID}} done`
+`task {{작업_id}} done`
 
 - 작업 삭제:
 
-`task {{작업_ID}} delete`
+`task {{작업_id}} delete`
 
 - 모든 열려 있는 작업 나열:
 

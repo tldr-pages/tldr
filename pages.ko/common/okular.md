@@ -1,7 +1,7 @@
 # okular
 
 > 문서 보기.
-> 더 많은 정보: <https://docs.kde.org/stable5/en/okular/okular/command-line-options.html>.
+> 더 많은 정보: <https://docs.kde.org/stable_kf6/en/okular/okular/command-line-options.html>.
 
 - 문서 뷰어 시작:
 
@@ -13,7 +13,7 @@
 
 - 특정 페이지에서 문서 열기:
 
-`okular --page {{페이지_번호}} {{경로/대상/파일}}`
+`okular {{[-p|--page]}} {{페이지_번호}} {{경로/대상/파일}}`
 
 - 특정 문서를 프레젠테이션 모드에서 열기:
 

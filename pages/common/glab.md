@@ -30,4 +30,4 @@
 
 - Check out a specific pull request locally:
 
-`glab mr checkout {{pr_number}}`
+`glab {{[co|mr checkout]}} {{pr_number}}`

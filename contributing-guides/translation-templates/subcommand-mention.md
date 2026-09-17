@@ -7,6 +7,7 @@ This file contains the translation templates of this notice.
 
 [en](#en) •
 [ar](#ar) •
+[bg](#bg) •
 [bn](#bn) •
 [bs](#bs) •
 [ca](#ca) •
@@ -25,6 +26,7 @@ This file contains the translation templates of this notice.
 [ko](#ko) •
 [lo](#lo) •
 [ml](#ml) •
+[nb](#nb) •
 [ne](#ne) •
 [nl](#nl) •
 [no](#no) •
@@ -33,6 +35,7 @@ This file contains the translation templates of this notice.
 [pt_PT](#pt_pt) •
 [ro](#ro) •
 [ru](#ru) •
+[si](#si) •
 [sr](#sr) •
 [sv](#sv) •
 [ta](#ta) •
@@ -56,7 +59,15 @@ This file contains the translation templates of this notice.
 ### ar
 
 ```markdown
-> بعض الأوامر الفرعية لديها توثيقات الاستخدام الخاصة بها مثل: `example`
+> بعض الأوامر الفرعية لديها توثيقات الاستخدام الخاصة بها مثل: `example`.
+```
+
+---
+
+### bg
+
+```markdown
+> Някои подкоманди като `example` имат собствена документация за употреба.
 ```
 
 ---
@@ -176,7 +187,7 @@ This file contains the translation templates of this notice.
 ### ja
 
 ```markdown
-> `example` のようないくつかのサブコマンドには、使用方法についての独自のドキュメントがあります。
+> `example` などの一部のサブコマンドには、独自のドキュメントがあります。
 ```
 
 ---
@@ -184,7 +195,7 @@ This file contains the translation templates of this notice.
 ### ko
 
 ```markdown
-> `example`와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
+> `example`과 같은 일부 하위 명령어는 별도의 도움말을 참고하세요.
 ```
 
 ---
@@ -201,6 +212,14 @@ This file contains the translation templates of this notice.
 
 ```markdown
 > `example` പോലുള്ള ചില ഉപകമാൻഡുകൾക്ക് അവരുടേതായ ഉപയോഗ ഡോക്യുമെന്റേഷൻ ഉണ്ട്.
+```
+
+---
+
+### nb
+
+```markdown
+> Noen underkommandoer som `example` har sin egen bruksdokumentasjon.
 ```
 
 ---
@@ -269,6 +288,14 @@ This file contains the translation templates of this notice.
 
 ---
 
+### si
+
+```markdown
+> `example` වැනි ඇතැම් අනු විධාන සඳහා, එය සඳහාම වූ ලේඛන පවතී.
+```
+
+---
+
 ### sr
 
 ```markdown
@@ -288,7 +315,7 @@ This file contains the translation templates of this notice.
 ### ta
 
 ```markdown
-> `example` போன்ற சிலச் சார்கட்டளைகளுக்குத் தனிப் பக்கம் உள்ளது.
+> `example` போன்ற சிலச் சார்கட்டளைகளுக்குத் தனித்தனி பயன்பாட்டு ஆவணங்கள் உள்ளன.
 ```
 
 ---
@@ -304,7 +331,7 @@ This file contains the translation templates of this notice.
 ### tr
 
 ```markdown
-> `example` gibi bazı alt komutların kendi kullanım belgeleri vardır.
+> `example` gibi bazı alt komutların kendi kullanım dokümantasyonu vardır.
 ```
 
 ---

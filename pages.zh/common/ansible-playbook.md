@@ -21,7 +21,7 @@
 
 - 执行 playbook 中的指定标签的任务：
 
-`ansible-playbook {{playbook}} {{[-t|--tags|]}} {{标签1,标签2}}`
+`ansible-playbook {{playbook}} {{[-t|--tags]}} {{标签1,标签2}}`
 
 - 从指定任务开始执行 playbook 中的任务：
 
@@ -29,4 +29,4 @@
 
 - 以不做任何更改（试执行）方式执行 playbook 中的任务：
 
-`ansible-playbook {{playbook}} {{[-C|--check|]}} {{[-D|--diff|]}}`
+`ansible-playbook {{playbook}} {{[-C|--check]}} {{[-D|--diff]}}`

@@ -7,7 +7,7 @@
 
 `hledger {{[areg|aregister]}} assets:bank:checking`
 
-- Show transactions and running balance in the first account named `*savings*`:
+- Show transactions and running balance in the first account whose name contains `savings`:
 
 `hledger {{[areg|aregister]}} savings`
 

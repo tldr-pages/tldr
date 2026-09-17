@@ -6,7 +6,7 @@
 
 - Supprime le travail numéro 10 :
 
-`atrm {{10}}`
+`atrm 10`
 
 - Supprime plusieurs travaux, séparés par un espace :
 

@@ -9,12 +9,12 @@
 
 - Monitora uma instância remota específica:
 
-`pw-mon --remote={{nome_do_remoto}}`
+`pw-mon {{[-r|--remote]}} {{nome_do_remoto}}`
 
 - Monitora a instância padrão especificando uma configuração de cor:
 
-`pw-mon --color={{never|always|auto}}`
+`pw-mon {{[-N|--color]}} {{never|always|auto}}`
 
 - Exibe ajuda:
 
-`pw-mon --help`
+`pw-mon {{[-h|--help]}}`

@@ -21,7 +21,7 @@
 
 - Crea (despliega) un contrato inteligente, le asignar un alias local y establece su almacenamiento inicial como un valor codificado por Michelson:
 
-`octez-client originate contract {{alias}} transferring {{0}} from {{alias|address}} running {{ruta/a/archivo_de_origen.tz}} --init "{{almacenamiento_inicial}}" --burn_cap {{1}}`
+`octez-client originate contract {{alias}} transferring {{0}} from {{alias|address}} running {{ruta/al/archivo_de_origen.tz}} --init "{{almacenamiento_inicial}}" --burn_cap {{1}}`
 
 - Llama a un contrato inteligente por su alias o dirección y pasa un parámetro codificado por Michelson:
 

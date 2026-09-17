@@ -12,7 +12,7 @@
 
 `yadm introspect configs`
 
-- 주요 `yadm` 명령의 스위치 출력:
+- 주요 yadm 명령의 스위치 출력:
 
 `yadm introspect switches`
 

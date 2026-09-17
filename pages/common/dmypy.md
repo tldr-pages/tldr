@@ -6,7 +6,7 @@
 
 - Type check a file, and start the daemon if it is not running:
 
-`dmypy check -- {{path/to/file.py}}`
+`dmypy run -- {{path/to/file.py}}`
 
 - Start the daemon:
 
@@ -14,7 +14,7 @@
 
 - Type check a file (requires the daemon to be running):
 
-`dmypy run -- {{path/to/file.py}}`
+`dmypy check -- {{path/to/file.py}}`
 
 - Stop the daemon:
 

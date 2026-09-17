@@ -10,11 +10,11 @@
 
 - Tambahkan file ke dalam repositori:
 
-`git annex add {{jalan/menuju/file_atau_direktori}}`
+`git annex add {{jalan/menuju/berkas_atau_direktori}}`
 
 - Tampilkan status file atau direktori saat ini:
 
-`git annex status {{jalan/menuju/file_atau_direktori}}`
+`git annex status {{jalan/menuju/berkas_atau_direktori}}`
 
 - Sinkronisasikan repositori lokal dengan sumber remote:
 
@@ -22,7 +22,7 @@
 
 - Dapatkan isi file atau direktori:
 
-`git annex get {{jalan/menuju/file_atau_direktori}}`
+`git annex get {{jalan/menuju/berkas_atau_direktori}}`
 
 - Tampilkan informasi bantuan:
 

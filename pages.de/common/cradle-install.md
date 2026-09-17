@@ -9,7 +9,7 @@
 
 - Installiere Cradle Komponenten gewaltsam:
 
-`cradle install --force`
+`cradle install {{[-f|--force]}}`
 
 - Überspringe SQL Migrationen:
 

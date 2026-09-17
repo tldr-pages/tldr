@@ -10,12 +10,12 @@
 
 - 将 JWT 解码为 JSON 字符串：
 
-`jwt decode -j {{jwt字符串}}`
+`jwt decode {{[-j|--json]}} {{jwt字符串}}`
 
 - 将 JSON 字符串编码为 JWT：
 
-`jwt encode --alg {{HS256}} --secret {{1234567890}} '{{json字符串}}'`
+`jwt encode {{[-A|--alg]}} {{HS256}} {{[-S|--secret]}} {{1234567890}} '{{json字符串}}'`
 
 - 将键值对载荷编码为 JWT：
 
-`jwt encode --alg {{HS256}} --secret {{1234567890}} -P {{键=值}}`
+`jwt encode {{[-A|--alg]}} {{HS256}} {{[-S|--secret]}} {{1234567890}} {{[-P|--payload]}} {{键=值}}`

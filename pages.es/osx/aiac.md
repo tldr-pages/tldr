@@ -7,7 +7,7 @@
 
 `aiac get terraform {{for an azure storage account}}`
 
-- Genera un Dockerfile para nginx:
+- Genera un Dockerfile para `nginx`:
 
 `aiac get dockerfile {{for a secured nginx}}`
 

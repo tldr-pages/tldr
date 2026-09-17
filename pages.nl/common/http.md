@@ -1,6 +1,7 @@
 # http
 
 > HTTPie: een HTTP-client ontworpen voor het testen, debuggen en in het algemeen interactie met API's en HTTP-servers.
+> Zie ook: `xh`.
 > Meer informatie: <https://httpie.io/docs/cli/usage>.
 
 - Maak een eenvoudige GET-aanvraag (toont response header en inhoud):

@@ -12,7 +12,7 @@
 
 `bunx {{pakket_naam}} --version`
 
-- Forceer een uitvoerbaar bestand om te draaien met de `Bun` runtime (in plaats van `Node`):
+- Forceer een uitvoerbaar bestand om te draaien met de Bun runtime (in plaats van Node):
 
 `bunx --bun {{pakket_naam}}`
 

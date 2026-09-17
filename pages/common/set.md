@@ -17,11 +17,11 @@
 
 - Write and edit text in the command-line with `vi`-like keybindings (e.g. `yy`):
 
-`set -o {{vi}}`
+`set -o vi`
 
-- Return to default mode:
+- Return to default (`emacs`) mode:
 
-`set -o {{emacs}}`
+`set -o emacs`
 
 - List all modes:
 

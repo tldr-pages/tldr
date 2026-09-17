@@ -9,7 +9,7 @@
 
 - 显示将会更新的内容，但实际上不写入锁定文件：
 
-`cargo update --dry-run`
+`cargo update {{[-n|--dry-run]}}`
 
 - 仅更新指定的依赖项：
 

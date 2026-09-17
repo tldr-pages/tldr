@@ -9,4 +9,4 @@
 
 - `/etc/network/interfaces`에서 "auto"로 정의된 모든 인터페이스 활성화:
 
-`ifup -a`
+`ifup {{[-a|--all]}}`

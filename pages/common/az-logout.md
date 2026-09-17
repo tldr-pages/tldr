@@ -8,6 +8,6 @@
 
 `az logout`
 
-- Log out a specific username:
+- Log out a specific user:
 
 `az logout --username {{alias@example.com}}`

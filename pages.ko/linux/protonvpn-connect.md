@@ -1,7 +1,7 @@
 # protonvpn connect
 
 > ProtonVPN에 연결.
-> 더 많은 정보: <https://github.com/Rafficer/linux-cli-community>.
+> 더 많은 정보: <https://protonvpn.com/support/linux-cli#how-to-use-the-cli-for-linux>.
 
 - ProtonVPN에 대화식으로 연결:
 

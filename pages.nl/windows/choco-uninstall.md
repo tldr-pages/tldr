@@ -13,11 +13,11 @@
 
 - Bevestig alle prompts automatisch:
 
-`choco uninstall {{pakket}} --yes`
+`choco uninstall {{pakket}} {{[-y|--yes]}}`
 
 - Verwijder alle afhankelijkheden bij het verwijderen:
 
-`choco uninstall {{pakket}} --remove-dependencies`
+`choco uninstall {{pakket}} {{[-x|--remove-dependencies]}}`
 
 - Verwijder alle pakketten:
 

@@ -3,7 +3,7 @@
 > Display information from input device drivers.
 > More information: <https://manned.org/evtest>.
 
-- List all detected input devices:
+- List all detected input devices and select one for monitoring:
 
 `sudo evtest`
 

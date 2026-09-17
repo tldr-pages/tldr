@@ -13,7 +13,7 @@
 
 - Inverte una porta TCP da un emulatore o dispositivo specifico (per ID dispositivo / numero [s]eriale) verso localhost:
 
-`adb -s {{device_ID}} reverse tcp:{{porta_remota}} tcp:{{porta_locale}}`
+`adb -s {{device_id}} reverse tcp:{{porta_remota}} tcp:{{porta_locale}}`
 
 - Rimuove una connessione socket inversa da un emulatore o dispositivo:
 

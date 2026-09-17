@@ -15,10 +15,10 @@
 
 `sudo rkhunter --list`
 
-- 버전 표시:
-
-`sudo rkhunter --versioncheck`
-
 - 도움말 표시:
 
 `sudo rkhunter --help`
+
+- 버전 표시:
+
+`sudo rkhunter --versioncheck`

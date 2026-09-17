@@ -1,7 +1,7 @@
 # nix profile
 
 > Nix 프로필에서 패키지를 설치, 업데이트 및 제거.
-> 더 많은 정보: <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-profile.html>.
+> 더 많은 정보: <https://nix.dev/manual/nix/latest/command-ref/new-cli/nix3-profile.html>.
 
 - 기본 프로필에 nixpkgs에서 일부 패키지 설치:
 

@@ -1,6 +1,6 @@
 # sfdk emulator device-model-list
 
-> This command has been moved to `sfdk emulator device-model-show`.
+> The examples for this command have been moved together with `sfdk emulator device-model-show`.
 
 - View documentation for `sfdk emulator device-model-show`:
 

@@ -9,8 +9,8 @@
 
 - Cambia la fuente:
 
-`cacaclock -f {{fuente}}`
+`cacaclock {{[-f|--font]}} {{fuente}}`
 
 - Cambia el formato usando una especificación de formato de `strftime`:
 
-`cacaclock -d {{argumentos_strftime}}`
+`cacaclock {{[-d|--dateformat]}} {{argumentos_strftime}}`

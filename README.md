@@ -63,18 +63,27 @@ SunOS, Android, Windows, Cisco IOS, and DOS command-line tools.
 > For browsing without installing a client on your computer,
 > see the web client at <https://tldr.inbrowser.app> (with offline support using PWA).
 
-A popular and convenient way to access these pages on your computer
-is to install the official [Python client](https://github.com/tldr-pages/tldr-python-client), which can be installed from [PyPI](https://pypi.org/project/tldr/) via [pipx](https://github.com/pypa/pipx) (or [other package managers](https://github.com/tldr-pages/tldr-python-client#installation)):
+There are several official clients available.
+
+### Python client
+
+The official [Python client](https://github.com/tldr-pages/tldr-python-client) can be installed from [PyPI](https://pypi.org/project/tldr/) via [pipx](https://github.com/pypa/pipx) (or [other package managers](https://github.com/tldr-pages/tldr-python-client#installation)):
 
 ```shell
 pipx install tldr
 ```
 
-Linux and Mac users can also install the official [Rust Client](https://github.com/tldr-pages/tlrc) using [Homebrew](https://formulae.brew.sh/formula/tlrc)
+### Rust client
+
+Linux and Mac users can also install the official [Rust Client](https://github.com/tldr-pages/tlrc) using [Homebrew](https://formulae.brew.sh/formula/tlrc), [Cargo](https://crates.io/crates/tlrc)
 (or [other package managers](https://github.com/tldr-pages/tlrc#installation) on other operating systems):
 
 ```shell
 brew install tlrc
+```
+
+```shell
+cargo install tlrc --locked
 ```
 
 Windows users can also install the official [Rust Client](https://github.com/tldr-pages/tlrc) using [Winget](https://github.com/microsoft/winget-pkgs/tree/master/manifests/t/tldr-pages/tlrc) (or [other package managers](https://github.com/tldr-pages/tlrc#installation) on other operating systems):
@@ -82,6 +91,8 @@ Windows users can also install the official [Rust Client](https://github.com/tld
 ```shell
 winget install tldr-pages.tlrc
 ```
+
+### Node.js client
 
 Alternatively, you can also use the official [Node.js client](https://github.com/tldr-pages/tldr-node-client), although it has fallen behind in updates:
 
@@ -122,7 +133,7 @@ If it's your first time contributing, have a look at the [contributing guideline
 If you'd like to contribute to translations, you can visit <https://lukwebsforge.github.io/tldri18n/>
 to see the overall progress of all translations, and which translations are missing or outdated.
 
-You are also welcome to join us on the [matrix chatroom](https://matrix.to/#/#tldr-pages:matrix.org)!
+You are also welcome to join us on the [matrix chatroom](https://matrix.to/#/#tldr-pages:matrix.org) and the [matrix space](https://matrix.to/#/!mynHqJpTGlenkzgKGM:matrix.org) that contains all tldr related chatrooms!
 
 ## Similar projects
 
@@ -156,7 +167,7 @@ You are also welcome to join us on the [matrix chatroom](https://matrix.to/#/#tl
 - [Command Line Interface Pages](https://github.com/command-line-interface-pages)
   allows you to write standardized help pages for CLI, directories, and configs.
 
-- [bropages (deprecated)](http://bropages.org)
+- [bropages (deprecated)](https://github.com/pombadev/bropages)
   are a highly readable supplement to man pages.
   It shows concise, common-case examples for Unix commands.
   The examples are submitted by the user base, and can be voted up or down;

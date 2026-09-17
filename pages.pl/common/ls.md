@@ -17,7 +17,7 @@
 
 - Wypisz listę w długim formacie (uprawnienia, własność, rozmiar i data modyfikacji) wszystkich plików:
 
-`ls {{[-la|--all -l]}}`
+`ls {{[-la|-l --all]}}`
 
 - Wypisz listę w długim formacie z rozmiarem w jednostkach z przedrostkami dwójkowymi (KiB, MiB, GiB):
 
@@ -25,7 +25,7 @@
 
 - Wypisz listę rekurencyjnie w długim formacie, posortowaną po rozmiarze (malejąco):
 
-`ls {{-lSR|-lS --recursive}}`
+`ls {{[-lSR|-lS --recursive]}}`
 
 - Wypisz listę wszystkich plików w długim formacie posortowaną według daty modyfikacji (od najstarszych):
 

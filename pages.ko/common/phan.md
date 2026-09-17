@@ -17,7 +17,7 @@
 
 - 하나 이상의 디렉터리 분석:
 
-`phan --directory {{경로/대상/폴더}} --directory {{경로/대상/다른_폴더}}`
+`phan {{--directory 경로/대상/폴더 --directory 경로/대상/다른_폴더 ...}}`
 
 - 구성 파일 지정 (기본값은 `.phan/config.php`):
 

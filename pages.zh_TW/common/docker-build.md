@@ -17,7 +17,7 @@
 
 - 不使用建構上下文（Build Context）來建立映像檔：
 
-`docker build {{[-t|--tag]}} {{名稱:標籤}} - < {{Dockerfile}}`
+`docker < {{Dockerfile}} build {{[-t|--tag]}} {{名稱:標籤}} -`
 
 - 在建構映像檔時不使用快取：
 

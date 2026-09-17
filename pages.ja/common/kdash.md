@@ -1,7 +1,7 @@
 # kdash
 
 > ターミナル上でKubernetesのダッシュボードを作成するためのコマンドラインインターフェイス。
-> もっと詳しく: <https://github.com/kdash-rs/kdash/#usage>。
+> 詳細情報: <https://github.com/kdash-rs/kdash/#usage>。
 
 - ダッシュボードの起動:
 

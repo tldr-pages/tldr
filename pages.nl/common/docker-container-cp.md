@@ -13,4 +13,4 @@
 
 - Kopieer een bestand of map van de host naar een container, symlinks volgend (kopieert de symlinked bestanden direct, niet de symlinks zelf):
 
-`docker {{[cp|container cp]}} {{[-L|--follow-link]}} {{path/to/symlink_on_host}} {{container_naam}}:{{pad/naar/bestand_of_map_in_container}}`
+`docker {{[cp|container cp]}} {{[-L|--follow-link]}} {{pad/naar/symlink_op_host}} {{container_naam}}:{{pad/naar/bestand_of_map_in_container}}`

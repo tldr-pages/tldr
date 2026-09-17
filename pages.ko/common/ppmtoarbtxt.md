@@ -17,4 +17,4 @@
 
 - 버전 표시:
 
-`ppmtoarbtxt -version`
+`ppmtoarbtxt {{[-v|-version]}}`

@@ -25,7 +25,7 @@
 
 - Pilah kontainer berdasarkan kode status keluar (exit status code):
 
-`docker {{[ps|container ls]}} {{[-a|--all]}} {{[-f|--filter]}} "exited={{kode}}"`
+`docker {{[ps|container ls]}} {{[-f|--filter]}} "exited={{kode}}" {{[-a|--all]}}`
 
 - Pilah kontainer berdasarkan status (created, running, removing, paused, exited, dan dead):
 

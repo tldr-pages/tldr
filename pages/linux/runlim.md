@@ -1,6 +1,6 @@
 # runlim
 
-> Sample and limit time and memory usage of a program and its child processes using the proc file system on Linux.
+> Sample and limit time and memory usage of a program and its child processes using the proc filesystem on Linux.
 > More information: <https://fmv.jku.at/runlim/>.
 
 - Print the time and memory usage of a command:

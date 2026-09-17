@@ -14,7 +14,7 @@
 
 - Analisa teks dari suatu file:
 
-`alex {{jalan/menuju/file.md}}`
+`alex {{jalan/menuju/berkas.md}}`
 
 - Analisa seluruh file Markdown (`.md`) kecuali `contoh.md`:
 

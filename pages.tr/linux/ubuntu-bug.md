@@ -2,6 +2,6 @@
 
 > Bu komut `apport-bug` için bir takma addır.
 
-- Asıl komutun belgelerini görüntüleyin:
+- Asıl komutun dokümantasyonunu görüntüleyin:
 
 `tldr apport-bug`

@@ -2,7 +2,7 @@
 
 > Reexecute systemd while preserving current unit states.
 > See also: `systemctl daemon-reload`.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#daemon-reexec>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#daemon-reexec>.
 
 - Reexecute systemd:
 

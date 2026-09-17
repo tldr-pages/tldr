@@ -34,4 +34,4 @@
 
 - Display the logs of one or more containers and follow log output:
 
-`podman logs {{[-f|--follow]}} {{container_name}} {{container_id}}`
+`podman logs {{[-f|--follow]}} {{container_name_or_id1 container_name_or_id2 ...}}`

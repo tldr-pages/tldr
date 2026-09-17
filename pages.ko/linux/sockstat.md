@@ -1,7 +1,7 @@
 # sockstat
 
 > 열린 인터넷 또는 UNIX 도메인 소켓 나열.
-> 같이 보기: `netstat`.
+> 관련 항목: `netstat`.
 > 더 많은 정보: <https://manned.org/sockstat>.
 
 - 대기 중이거나 연결된 IPv4 및 IPv6 소켓 정보 표시:

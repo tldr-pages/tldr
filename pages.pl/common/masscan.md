@@ -2,6 +2,7 @@
 
 > Bardzo efektywny skaner sieci.
 > Najlepiej działa z podwyższonymi uprawnieniami. Aby uzyskać pomoc dotyczącą zgodności z Nmap'em, użyj komendy `masscan --nmap`.
+> Zobacz także: `hping3`, `naabu`, `nmap`, `rustscan`, `zmap`.
 > Więcej informacji: <https://manned.org/masscan>.
 
 - Skanuj adres IP lub podsieć w poszukowaniu portu 80:

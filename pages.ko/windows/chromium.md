@@ -18,19 +18,19 @@
 
 - 애플리케이션 모드로 열기 (툴바, URL 바, 버튼 등 없이):
 
-`chromium --app={{https://example.com}}`
+`chromium --app {{https://example.com}}`
 
 - 프록시 서버 사용:
 
-`chromium --proxy-server="{{socks5://hostname:66}}" {{example.com}}`
+`chromium --proxy-server "{{socks5://hostname:66}}" {{example.com}}`
 
 - 사용자 정의 프로필 디렉토리로 열기:
 
-`chromium --user-data-dir={{경로/대상/폴더}}`
+`chromium --user-data-dir {{경로/대상/폴더}}`
 
 - CORS 검증 없이 열기 (API 테스트에 유용):
 
-`chromium --user-data-dir={{경로/대상/폴더}} --disable-web-security`
+`chromium --user-data-dir {{경로/대상/폴더}} --disable-web-security`
 
 - 열리는 각 탭에 대해 개발자 도구 창과 함께 열기:
 

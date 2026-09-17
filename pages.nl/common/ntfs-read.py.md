@@ -1,7 +1,7 @@
 # ntfs-read.py
 
 > Een alleen-lezen NTFS verkenner voor het openen en extraheren van bestanden van NTFS volumes.
-> Onderdeel van de Impacket suite.
+> Onderdeel van de Impacket-suite.
 > Meer informatie: <https://github.com/fortra/impacket>.
 
 - Open een NTFS volume voor verkenning (bijvoorbeeld `C:\.\\` of `/dev/disk1s1`):

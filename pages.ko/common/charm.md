@@ -9,7 +9,7 @@
 
 - Charm 계정 키를 특정 위치에 백업:
 
-`charm backup-keys -o {{경로/대상/출력_파일.tar}}`
+`charm backup-keys {{[-o|--output]}} {{경로/대상/출력_파일.tar}}`
 
 - 이전에 백업한 Charm 계정 키 가져오기:
 

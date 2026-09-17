@@ -9,16 +9,16 @@
 
 - Discord Canary에 BetterDiscord 설치:
 
-`sudo betterdiscordctl --d-flavors canary install`
+`sudo betterdiscordctl {{[-f|--d-flavors]}} canary install`
 
 - Discord PTB에 BetterDiscord 설치:
 
-`sudo betterdiscordctl --d-flavors ptb install`
+`sudo betterdiscordctl {{[-f|--d-flavors]}} ptb install`
 
 - Flatpak으로 설치된 Discord에 BetterDiscord 설치:
 
-`sudo betterdiscordctl --d-install flatpak install`
+`sudo betterdiscordctl {{[-i|--d-install]}} flatpak install`
 
 - Snap으로 설치된 Discord에 BetterDiscord 설치:
 
-`sudo betterdiscordctl --d-install snap install`
+`sudo betterdiscordctl {{[-i|--d-install]}} snap install`

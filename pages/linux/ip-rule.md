@@ -1,6 +1,7 @@
 # ip rule
 
 > IP routing policy database management.
+> See also: `ip route`.
 > More information: <https://manned.org/ip-rule>.
 
 - Display the routing policy:
@@ -9,15 +10,15 @@
 
 - Create a new generic routing rule with a higher priority than `main`:
 
-`sudo ip {{[ru|rule]}} {{[a|add]}} from all lookup {{100}}`
+`sudo ip {{[ru|rule]}} {{[a|add]}} from all lookup {{table_id}}`
 
 - Add a new rule based on packet source addresses:
 
-`sudo ip {{[ru|rule]}} {{[a|add]}} from {{192.168.178.2/32}}`
+`sudo ip {{[ru|rule]}} {{[a|add]}} from {{192.168.178.2/32}} lookup {{table_id}}`
 
 - Add a new rule based on packet destination addresses:
 
-`sudo ip {{[ru|rule]}} {{[a|add]}} to {{192.168.178.2/32}}`
+`sudo ip {{[ru|rule]}} {{[a|add]}} to {{192.168.178.2/32}} lookup {{table_id}}`
 
 - Delete a rule based on packet source addresses:
 

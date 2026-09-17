@@ -5,12 +5,12 @@
 
 - 현재 프로젝트에서 패키지 제거:
 
-`npm uninstall {{패키지_이름}}`
+`npm {{[r|uninstall]}} {{패키지_이름}}`
 
 - 전역에서 패키지 제거:
 
-`npm uninstall -g {{패키지_이름}}`
+`npm {{[r|uninstall]}} {{패키지_이름}} {{[-g|--global]}}`
 
 - 여러 패키지를 한 번에 제거:
 
-`npm uninstall {{패키지_이름1 패키지_이름2 ...}}`
+`npm {{[r|uninstall]}} {{패키지_이름1 패키지_이름2 ...}}`

@@ -1,7 +1,7 @@
 # gemini
 
 > Launch an interactive prompt with Gemini AI.
-> More information: <https://github.com/google-gemini/gemini-cli>.
+> More information: <https://geminicli.com/docs/cli/cli-reference/>.
 
 - Start a REPL session to chat interactively:
 
@@ -9,11 +9,11 @@
 
 - Send the output of another command to Gemini and exit immediately:
 
-`{{echo "Summarize the history of Rome"}} | gemini {{[-p|--prompt]}}`
+`{{echo "Summarize the history of Rome"}} | gemini {{[-p|--prompt]}} -`
 
-- Override the default model (default: gemini-2.5-pro):
+- Use a specific model (default: auto-gemini-3):
 
-`gemini {{[-m|--model]}} {{gemini-2.5-flash}}`
+`gemini {{[-m|--model]}} {{model_name}}`
 
 - Run inside a sandbox container:
 
@@ -23,10 +23,10 @@
 
 `gemini {{[-i|--prompt-interactive]}} "{{Give me an example of recursion in Python}}"`
 
-- Include all files in context:
+- Set the approval mode for tool calls:
 
-`gemini {{[-a|--all-files]}}`
+`gemini --approval-mode {{default|auto_edit|yolo|plan}}`
 
-- Show memory usage in status bar:
+- Resume a session (defaults to "latest"; accepts an index number or UUID):
 
-`gemini --show-memory-usage`
+`gemini {{[-r|--resume]}} {{latest|index|session_id}}`

@@ -5,20 +5,32 @@
 
 - Mutakhirkan seluruh paket yang terpasang:
 
-`pkg upgrade`
+`pkg {{[up|upgrade]}}`
 
-- Pasang sebuah paket di dalam instalasi Termux:
+- Tampilkan daftar seluruh paket yang terpasang:
 
-`pkg install {{paket}}`
+`pkg {{[list-i|list-installed]}}`
+
+- Pasang suatu paket di dalam instalasi Termux:
+
+`pkg {{[i|install]}} {{paket}}`
 
 - Buang paket dari instalasi Termux:
 
-`pkg uninstall {{paket}}`
+`pkg {{[un|uninstall]}} {{paket}}`
 
 - Pasang ulang paket di dalam instalasi Termux:
 
-`pkg reinstall {{paket}}`
+`pkg {{[rei|reinstall]}} {{paket}}`
 
 - Cari paket yang tersedia bagi Termux:
 
-`pkg search {{paket}}`
+`pkg {{[se|search]}} {{paket}}`
+
+- Cari informasi tentang suatu paket:
+
+`pkg {{[sh|show]}} {{paket}}`
+
+- Tampilkan bantuan:
+
+`pkg {{[h|help]}}`

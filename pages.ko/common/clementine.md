@@ -1,7 +1,7 @@
 # clementine
 
 > 현대적인 음악 플레이어이자 라이브러리 생성자.
-> 같이 보기: `audacious`, `qmmp`, `cmus`, `mpv`.
+> 관련 항목: `audacious`, `qmmp`, `cmus`, `mpv`.
 > 더 많은 정보: <https://manned.org/clementine>.
 
 - Clementine 열기:

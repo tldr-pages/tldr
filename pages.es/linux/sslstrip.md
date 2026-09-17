@@ -22,7 +22,7 @@
 
 - Especifica la ruta del archivo para almacenar los registros:
 
-`sslstrip --listen={{8080}} --write={{ruta/a/archivo}}`
+`sslstrip --listen={{8080}} --write={{ruta/al/archivo}}`
 
 - Muestra la ayuda:
 

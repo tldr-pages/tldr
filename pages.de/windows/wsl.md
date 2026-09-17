@@ -9,23 +9,23 @@
 
 - Führe einen Linux-Befehl aus, ohne eine Shell zu benutzen:
 
-`wsl --exec {{befehl}} {{befehl_argumente}}`
+`wsl {{[-e|--exec]}} {{befehl}} {{befehl_argumente}}`
 
 - Gib eine bestimmte Distribution an:
 
-`wsl --distribution {{distribution}} {{shell_befehl}}`
+`wsl {{[-d|--distribution]}} {{distribution}} {{shell_befehl}}`
 
 - Liste verfügbare Distributionen auf:
 
-`wsl --list`
+`wsl {{[-l|--list]}}`
 
 - Exportiere eine Distribution in eine `.tar` Datei:
 
-`wsl --export {{distribution}} {{pfad/zu/datei.tar}}`
+`wsl --export {{distribution}} {{pfad\zu\datei.tar}}`
 
 - Importiere eine Distribution von einer `.tar` Datei:
 
-`wsl --import {{distribution}} {{pfad/zu/installations_verzeichnis}} {{pfad/zu/datei.tar}}`
+`wsl --import {{distribution}} {{pfad\zu\installations_verzeichnis}} {{pfad\zu\datei.tar}}`
 
 - Ändere die WSL-Version einer bestimmten Distribution:
 

@@ -9,7 +9,7 @@
 
 - 以漂亮打印格式输出 YAML 文件（v3）：
 
-`yq read {{路径/到/file.yaml}} --colors`
+`yq read {{路径/到/file.yaml}} {{[-C|--colors]}}`
 
 - 输出仅包含数组的 YAML 文件中的第一个元素（v4+）：
 
@@ -21,11 +21,11 @@
 
 - 在文件中设置（或覆盖）键的值（v4+）：
 
-`yq eval '.{{键}} = "{{值}}"' --inplace {{路径/到/file.yaml}}`
+`yq eval '.{{键}} = "{{值}}"' {{[-i|--inplace]}} {{路径/到/file.yaml}}`
 
 - 在文件中设置（或覆盖）键的值（v3）：
 
-`yq write --inplace {{路径/到/file.yaml}} '{{键}}' '{{值}}'`
+`yq write {{[-i|--inplace]}} {{路径/到/file.yaml}} '{{键}}' '{{值}}'`
 
 - 合并两个文件并打印到 `stdout`（v4+）：
 
@@ -33,4 +33,4 @@
 
 - 合并两个文件并打印到 `stdout`（v3）：
 
-`yq merge {{路径/到/file1.yaml}} {{路径/到/file2.yaml}} --colors`
+`yq merge {{路径/到/file1.yaml}} {{路径/到/file2.yaml}} {{[-C|--colors]}}`

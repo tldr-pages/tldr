@@ -1,7 +1,7 @@
 # zed
 
 > Editor de texto diseñado para ser rápido, eficiente y cómodo.
-> Más información: <https://zed.dev/docs/#cli>.
+> Más información: <https://zed.dev/docs/reference/cli>.
 
 - Abre rutas específicas en Zed:
 
@@ -21,4 +21,4 @@
 
 - Abre una pestaña diff en Zed para dos versiones de un archivo:
 
-`zed --diff {{ruta/a/archivo_antiguo}} {{ruta/al/archivo_nuevo}}`
+`zed --diff {{ruta/al/archivo_antiguo}} {{ruta/al/archivo_nuevo}}`

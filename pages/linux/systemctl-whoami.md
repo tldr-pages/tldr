@@ -2,7 +2,7 @@
 
 > Show units that processes belong to.
 > If no PID is specified, shows the unit the `systemctl` command itself is invoked in.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#whoami%20%5BPID%E2%80%A6%5D>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#whoami%20%5BPID%E2%80%A6%5D>.
 
 - Show the unit of the current shell (where `systemctl` is running):
 
@@ -14,8 +14,8 @@
 
 - Show the unit a specific process belongs to:
 
-`systemctl whoami {{pid}}`
+`systemctl whoami {{process_id}}`
 
 - Show the units for multiple processes:
 
-`systemctl whoami {{pid1 pid2 ...}}`
+`systemctl whoami {{process_id1 process_id2 ...}}`

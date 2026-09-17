@@ -13,4 +13,4 @@
 
 - Set the associated program for a specific file type:
 
-`ftype {{file_type}}="{{path/to/executable_file}}"`
+`ftype {{file_type}}="{{path\to\executable_file}}"`

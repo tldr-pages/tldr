@@ -6,20 +6,20 @@
 
 - 서브볼륨 생성:
 
-`sudo btrfs subvolume create {{경로/대상/서브볼륨}}`
+`sudo btrfs {{[su|subvolume]}} {{[c|create]}} {{경로/대상/서브볼륨}}`
 
 - 서브볼륨 목록 나열:
 
-`sudo btrfs subvolume list {{경로/대상/마운트_포인트}}`
+`sudo btrfs {{[su|subvolume]}} {{[l|list]}} {{경로/대상/마운트_포인트}}`
 
 - 공간 사용 정보 표시:
 
-`sudo btrfs filesystem df {{경로/대상/마운트_포인트}}`
+`sudo btrfs {{[f|filesystem]}} df {{경로/대상/마운트_포인트}}`
 
 - 쿼터 활성화:
 
-`sudo btrfs quota enable {{경로/대상/서브볼륨}}`
+`sudo btrfs {{[qu|quota]}} {{[e|enable]}} {{경로/대상/서브볼륨}}`
 
 - 쿼터 표시:
 
-`sudo btrfs qgroup show {{경로/대상/서브볼륨}}`
+`sudo btrfs {{[qg|qgroup]}} {{[s|show]}} {{경로/대상/서브볼륨}}`

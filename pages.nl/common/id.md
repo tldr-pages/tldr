@@ -34,4 +34,4 @@
 
 - Sla het opzoeken van de naam over en specificeer het UID-nummer expliciet:
 
-`id +{{uid_number}}`
+`id +{{uid_nummer}}`

@@ -20,7 +20,7 @@
 
 `apptainer pull --arch {{amd64|arm64|ppc64le}} {{path/to/image.sif}} library://{{image}}:{{tag}}`
 
-- [F]orce overwrite an existing image file:
+- Force overwrite an existing image file:
 
 `apptainer pull {{[-F|--force]}} {{path/to/image.sif}} docker://{{image}}:{{tag}}`
 

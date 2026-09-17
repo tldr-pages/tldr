@@ -1,7 +1,7 @@
 # pyenv
 
 > 여러 버전의 Python 사이를 쉽게 전환.
-> 같이 보기: `asdf`.
+> 관련 항목: `asdf`.
 > 더 많은 정보: <https://manned.org/pyenv>.
 
 - 사용 가능한 모든 명령 나열:

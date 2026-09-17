@@ -9,7 +9,7 @@
 
 - 더 자세한 GPU 정보 표시:
 
-`nvidia-smi --query`
+`nvidia-smi {{[-q|--query]}}`
 
 - 1초 간격으로 전체 GPU 사용량 모니터링:
 

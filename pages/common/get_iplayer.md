@@ -13,7 +13,7 @@
 
 - Record program by URL from the BBC iPlayer website:
 
-`get_iplayer "https://www.bbc.co.uk/iplayer/episode/{{program_PID}}/{{name-of-show-episode-number-episode-title}}"`
+`get_iplayer "https://www.bbc.co.uk/iplayer/episode/{{program_pid}}/{{name-of-show-episode-number-episode-title}}"`
 
 - Download subtitles for a program by results of search:
 

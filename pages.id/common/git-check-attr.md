@@ -5,7 +5,7 @@
 
 - Tampilkan informasi seluruh atribut Git dalam suatu berkas:
 
-`git check-attr --all {{jalan/menuju/berkas}}`
+`git check-attr {{[-a|--all]}} {{jalan/menuju/berkas}}`
 
 - Cek nilai suatu atribut Git dalam suatu berkas:
 
@@ -13,7 +13,7 @@
 
 - Cek nilai seluruh atribut Git dalam kumpulan berkas:
 
-`git check-attr --all {{jalan/menuju/berkas1 jalan/menuju/berkas2 ...}}`
+`git check-attr {{[-a|--all]}} {{jalan/menuju/berkas1 jalan/menuju/berkas2 ...}}`
 
 - Cek nilai suatu atribut Git dalam kumpulan berkas:
 

@@ -24,7 +24,7 @@ Options:
     -S, --sync
         Synchronize each translation's alias page (if exists) with that of the English page.
     -l, --language LANGUAGE
-        Specify the language, a POSIX Locale Name in the form of "ll" or "ll_CC" (e.g. "fr" or "pt_BR").
+        Specify the language in the form of "ll" or "ll_CC" (e.g. "fr" or "pt_BR").
     -s, --stage
         Stage modified pages (requires 'git' on $PATH and TLDR_ROOT to be a Git repository).
     -n, --dry-run
@@ -236,7 +236,9 @@ def get_alias_command_in_page(path: Path, alias_pattern: str) -> AliasPageConten
 
     title = next((line.strip("# \n") for line in lines if line.startswith("# ")), "")
 
-    command_lines = [line for line in lines if "`" in line]
+    command_lines = [
+        line for line in lines if line.startswith(("> " + alias_pattern, "`"))
+    ]
 
     if len(command_lines) != 2 or not title:
         return AliasPageContent(title="", original_command="", documentation_command="")
@@ -439,7 +441,8 @@ def prompt_alias_page_info(page_path: str) -> AliasPageContent:
 
 def main():
     parser = create_argument_parser(
-        "Sets the alias page for all translations of a page"
+        "Sets the alias page for some or all translations of a page. "
+        "New contributors should use e.g. `-p osx/gsum -l en`"
     )
     parser.add_argument(
         "-i",

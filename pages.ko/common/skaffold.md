@@ -5,20 +5,20 @@
 
 - 아티팩트 빌드:
 
-`skaffold build -f {{skaffold.yaml}}`
+`skaffold build {{[-f|--filename]}} {{skaffold.yaml}}`
 
 - 코드가 변경될 때마다 앱 빌드 및 배포:
 
-`skaffold dev -f {{skaffold.yaml}}`
+`skaffold dev {{[-f|--filename]}} {{skaffold.yaml}}`
 
 - 파이프라인 파일 실행:
 
-`skaffold run -f {{skaffold.yaml}}`
+`skaffold run {{[-f|--filename]}} {{skaffold.yaml}}`
 
 - Skaffold 진단 실행:
 
-`skaffold diagnose -f {{skaffold.yaml}}`
+`skaffold diagnose {{[-f|--filename]}} {{skaffold.yaml}}`
 
 - 아티팩트 배포:
 
-`skaffold deploy -f {{skaffold.yaml}}`
+`skaffold deploy {{[-f|--filename]}} {{skaffold.yaml}}`

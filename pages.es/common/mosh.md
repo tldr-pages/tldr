@@ -10,7 +10,7 @@
 
 - Conecta a un servidor remoto con una identidad específica (clave privada):
 
-`mosh --ssh="ssh -i {{ruta/a/archivo_de_clave}}" {{usuario}}@{{equipo_remoto}}`
+`mosh --ssh="ssh -i {{ruta/al/archivo_de_clave}}" {{usuario}}@{{equipo_remoto}}`
 
 - Conecta a un servidor remoto usando un puerto específico:
 
@@ -26,4 +26,4 @@
 
 - Se lo usa cuando el binario `mosh-server` no se encuentra en la ruta estándar:
 
-`mosh --server={{ruta/a/bin/}}mosh-server {{equipo_remoto}}`
+`mosh --server={{ruta/a/bin/mosh-server}} {{equipo_remoto}}`

@@ -5,7 +5,7 @@
 
 - OPML 파일에서 피드 URL을 처음으로 가져오기:
 
-`newsboat -i {{내-피드.xml}}`
+`newsboat {{[-i|--import-from-opml]}} {{내-피드.xml}}`
 
 - 또는 피드를 수동으로 추가:
 
@@ -13,11 +13,11 @@
 
 - Newsboat을 시작하고 시작 시 모든 피드를 새로 고침:
 
-`newsboat -r`
+`newsboat {{[-r|--refresh-on-start]}}`
 
 - 비대화형 모드에서 하나 이상의 명령 실행:
 
-`newsboat -x {{reload print-unread ...}}`
+`newsboat {{[-x|--execute]}} {{reload print-unread ...}}`
 
 - 키보드 단축키 보기 (가장 관련 있는 것은 상태 줄에 표시됨):
 

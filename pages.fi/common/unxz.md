@@ -1,6 +1,6 @@
 # unxz
 
-> Tämä on alias komennolle `xz --decompress`.
+> Tämä on alias `xz --decompress` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

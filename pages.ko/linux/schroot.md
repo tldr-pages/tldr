@@ -29,8 +29,8 @@
 
 - 기존 세션에 연결:
 
-`schroot --run-session --chroot {{세션_ID}}`
+`schroot --run-session --chroot {{세션_id}}`
 
 - 기존 세션 종료:
 
-`schroot --end-session --chroot {{세션_ID}}`
+`schroot --end-session --chroot {{세션_id}}`

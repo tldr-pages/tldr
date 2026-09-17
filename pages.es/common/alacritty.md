@@ -17,7 +17,7 @@
 
 - Inicia el intérprete de comandos en un directorio específico (también funciona con `alacritty msg create-window`):
 
-`alacritty --working-directory {{ruta/a/directorio}}`
+`alacritty --working-directory {{ruta/al/directorio}}`
 
 - [e]jecuta un comando en una nueva ventana de Alacritty (también funciona con `alacritty msg create-window`):
 

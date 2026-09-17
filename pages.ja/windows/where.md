@@ -2,7 +2,7 @@
 
 > 検索パターンに一致するファイルの場所を表示します。
 > デフォルトは現在の作業ディレクトリと環境変数 `%PATH%` のパスです。
-> もっと詳しく: <https://learn.microsoft.com/windows-server/administration/windows-commands/where>。
+> 詳細情報: <https://learn.microsoft.com/windows-server/administration/windows-commands/where>。
 
 - ファイルパターンの場所を表示する:
 

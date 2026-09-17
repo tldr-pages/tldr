@@ -10,4 +10,4 @@
 
 - Stop een Distrobox container zonder bevestiging:
 
-`distrobox-stop {{[-n|--name]}} {{container_naam}} {{[-Y|--yes]}}`
+`distrobox-stop {{container_naam}} {{[-Y|--yes]}}`

@@ -5,27 +5,27 @@
 
 - 자동 시작 폴더의 모든 프로그램 실행:
 
-`dex --autostart`
+`dex {{[-a|--autostart]}}`
 
 - 지정된 폴더의 모든 프로그램 실행:
 
-`dex --autostart --search-paths {{경로/대상/폴더1}}:{{경로/대상/폴더2}}:{{경로/대상/폴더3}}:`
+`dex {{[-a|--autostart]}} {{[-s|--search-paths]}} {{경로/대상/폴더1}}:{{경로/대상/폴더2}}:{{경로/대상/폴더3}}:`
 
 - GNOME 특정 자동 시작에서 실행될 프로그램 미리보기:
 
-`dex --autostart --environment {{GNOME}}`
+`dex {{[-a|--autostart]}} {{[-e|--environment]}} {{GNOME}}`
 
 - 일반 자동 시작에서 실행될 프로그램 미리보기:
 
-`dex --autostart --dry-run`
+`dex {{[-a|--autostart]}} {{[-d|--dry-run]}}`
 
 - DesktopEntry 속성 `Name`의 값 미리보기:
 
-`dex --property {{Name}} {{경로/대상/파일.desktop}}`
+`dex {{[-p|--property]}} {{Name}} {{경로/대상/파일.desktop}}`
 
 - 현재 디렉토리에서 프로그램에 대한 DesktopEntry 생성:
 
-`dex --create {{경로/대상/파일.desktop}}`
+`dex {{[-c|--create]}} {{경로/대상/파일.desktop}}`
 
 - 주어진 터미널에서 단일 프로그램 실행 (`Terminal=true`가 데스크탑 파일에 있는 경우):
 

@@ -1,7 +1,7 @@
 # systemctl hibernate
 
 > Hibernate the system by saving the current state to disk and powering off.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#hibernate>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#hibernate>.
 
 - Hibernate the system immediately:
 

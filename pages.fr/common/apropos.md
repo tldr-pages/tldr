@@ -6,12 +6,12 @@
 
 - Recherche par mot clé :
 
-`apropos {{expression_reguliere}}`
+`apropos {{regex}}`
 
 - Recherche sans limiter la sortie à la largeur du terminal :
 
-`apropos -l {{expression_reguliere}}`
+`apropos {{[-l|--long]}} {{regex}}`
 
-- Recherche les pages qui contiennent toutes les expressions données (fonction ET) :
+- Recherche les pages qui contiennent toutes les `regex` (fonction ET) :
 
-`apropos {{expression_reguliere_1}} -a {{expression_reguliere_2}} -a {{expression_reguliere_3}}`
+`apropos {{regex_1}} {{[-a|--and]}} {{regex_2}} {{[-a|--and]}} {{regex_3}}`

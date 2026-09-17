@@ -2,19 +2,19 @@
 
 > A large language model runner.
 > For a list of available models, see <https://ollama.com/library>.
-> More information: <https://github.com/ollama/ollama#cli-reference>.
+> More information: <https://docs.ollama.com/cli>.
 
 - Start the daemon required to run other commands:
 
 `ollama serve`
 
-- Run a model and chat with it:
+- Run a model and chat with it (will automatically download the model if it's not downloaded):
 
 `ollama run {{model}}`
 
-- Run a model with a single prompt:
+- Run a model with a single prompt and thinking turned off:
 
-`ollama run {{model}} {{prompt}}`
+`ollama run {{model}} --think=false "{{prompt}}"`
 
 - List downloaded models:
 

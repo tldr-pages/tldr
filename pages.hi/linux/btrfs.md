@@ -6,20 +6,20 @@
 
 - उप-वॉल्यूम बनाएं:
 
-`sudo btrfs subvolume create {{उप-वॉल्यूम/का/पथ}}`
+`sudo btrfs {{[su|subvolume]}} {{[c|create]}} {{उप-वॉल्यूम/का/पथ}}`
 
 - उप-वॉल्यूमों की सूची दिखाएं:
 
-`sudo btrfs subvolume list {{माउंट_बिंदु/का/पथ}}`
+`sudo btrfs {{[su|subvolume]}} {{[l|list]}} {{माउंट_बिंदु/का/पथ}}`
 
 - स्थान उपयोग सूचना दिखाएं:
 
-`sudo btrfs filesystem df {{माउंट_बिंदु/का/पथ}}`
+`sudo btrfs {{[f|filesystem]}} df {{माउंट_बिंदु/का/पथ}}`
 
 - कोटा सक्षम करें:
 
-`sudo btrfs quota enable {{उप-वॉल्यूम/का/पथ}}`
+`sudo btrfs {{[qu|quota]}} {{[e|enable]}} {{उप-वॉल्यूम/का/पथ}}`
 
 - कोटा दिखाएं:
 
-`sudo btrfs qgroup show {{उप-वॉल्यूम/का/पथ}}`
+`sudo btrfs {{[qg|qgroup]}} {{[s|show]}} {{उप-वॉल्यूम/का/पथ}}`

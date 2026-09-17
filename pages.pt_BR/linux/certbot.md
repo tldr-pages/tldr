@@ -8,7 +8,7 @@
 
 `sudo certbot certonly --webroot {{[-w|--webroot-path]}} {{caminho_para_webroot}} {{[-d|--domain]}} {{subdominio.dominio.com}}`
 
-- Obtém um novo certificado via autorização nginx e instala-o automaticamente:
+- Obtém um novo certificado via autorização `nginx` e instala-o automaticamente:
 
 `sudo certbot --nginx {{[-d|--domain]}} {{subdominio.dominio.com}}`
 

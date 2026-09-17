@@ -5,11 +5,11 @@
 
 - 安装一个包：
 
-`winget install {{包}}`
+`winget {{[add|install]}} {{包}}`
 
 - 移除一个包（注意：`remove` 也可以用来代替 `uninstall`）：
 
-`winget uninstall {{包}}`
+`winget {{[rm|uninstall]}} {{包}}`
 
 - 显示一个包的信息：
 
@@ -21,16 +21,16 @@
 
 - 将所有包升级到最新版本：
 
-`winget upgrade --all`
+`winget upgrade {{[-r|--all]}}`
 
 - 列出所有可以通过 `winget` 管理的已安装包：
 
-`winget list --source winget`
+`winget {{[ls|list]}} {{[-s|--source]}} winget`
 
 - 从文件导入包，或将已安装的包导出到文件：
 
-`winget {{import|export}} {{--import-file|--output}} {{路径/到/文件}}`
+`winget {{import|export}} {{--import-file|--output}} {{路径\到\文件}}`
 
 - 在提交合并到 winget-pkgs 仓库之前验证清单：
 
-`winget validate {{路径/到/清单}}`
+`winget validate {{路径\到\清单}}`

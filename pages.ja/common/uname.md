@@ -2,7 +2,7 @@
 
 > 現在のマシンとその上で動作しているオペレーティングシステムの詳細を表示します。
 > 参照: `lsb_release`。
-> もっと詳しく: <https://www.gnu.org/software/coreutils/manual/html_node/uname-invocation.html>。
+> 詳細情報: <https://www.gnu.org/software/coreutils/manual/html_node/uname-invocation.html>。
 
 - カーネル名を表示する:
 

@@ -2,6 +2,6 @@
 
 > Bu komut `ping.py` için bir takma addır.
 
-- Asıl komutun belgelerini görüntüleyin:
+- Asıl komutun dokümantasyonunu görüntüleyin:
 
 `tldr ping.py`

@@ -3,10 +3,10 @@
 > Follow symlinks and get symlink information.
 > More information: <https://www.gnu.org/software/coreutils/manual/html_node/readlink-invocation.html>.
 
-- Get the actual file to which the symlink points:
+- Print the target of a symbolic link to a file or directory:
 
-`readlink {{path/to/file}}`
+`readlink {{path/to/symlink}}`
 
-- Get the absolute path to a file:
+- Get the absolute path to a file or directory:
 
-`readlink {{[-f|--canonicalize]}} {{path/to/file}}`
+`readlink {{[-f|--canonicalize]}} {{path/to/file_or_directory}}`

@@ -17,8 +17,8 @@
 
 - Jalankan dengan membuka repositori Git dengan alamat yang ditentukan:
 
-`git cola --repo {{jalan/menuju/repositori-git}}`
+`git cola {{[-r|--repo]}} {{jalan/menuju/repositori-git}}`
 
 - Terapkan filter jalur ke dalam widget status:
 
-`git cola --status-filter {{filter}}`
+`git cola {{[-s|--status-filter]}} {{filter}}`

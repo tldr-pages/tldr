@@ -10,7 +10,7 @@
 
 - Inicia sesión con una entidad de servicio mediante un secreto de cliente:
 
-`az login --service-principal {{[-u|--username]}} {{http://azure-cli-service-principal}} {{[-p|--password]}} {{secreto}} --tenant {{someone.onmicrosoft.com}}`
+`az login --service-principal {{[-u|--username]}} {{http://azure-cli-service-principal}} {{[-p|--password]}} {{secreto}} {{[-t|--tenant]}} {{someone.onmicrosoft.com}}`
 
 - Inicia sesión con una entidad de servicio mediante un certificado de cliente:
 

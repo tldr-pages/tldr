@@ -19,7 +19,7 @@
 
 `xz {{[-d|--decompress]}} {{[-F|--format]}} lzma {{path/to/file.lzma}}`
 
-- فك ضغط ملف وكتابته إلى المخرجات القياسية (stdout) (يتضمن `--keep`):
+- فك ضغط ملف وكتابته إلى المخرجات القياسية (`stdout`) (يتضمن `--keep`):
 
 `xz {{[-d|--decompress]}} {{[-c|--stdout]}} {{path/to/file.xz}}`
 

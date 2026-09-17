@@ -1,7 +1,7 @@
 # cmuwmtopbm
 
 > CMU 창 관리자 비트맵을 PBM 이미지로 변환.
-> 같이 보기: `pbmtocmuwm`.
+> 관련 항목: `pbmtocmuwm`.
 > 더 많은 정보: <https://netpbm.sourceforge.net/doc/cmuwmtopbm.html>.
 
 - CMU 창 관리자 비트맵을 PBM 이미지로 변환:

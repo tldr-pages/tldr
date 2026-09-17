@@ -1,11 +1,11 @@
 # pyenv virtualenv
 
 > 설치된 Python 배포판을 기반으로 가상 환경을 생성합니다.
-> 더 많은 정보: <https://github.com/pyenv/pyenv-virtualenv>.
+> 더 많은 정보: <https://github.com/pyenv/pyenv-virtualenv#usage>.
 
 - 새로운 Python 3.6.6 가상 환경 생성:
 
-`pyenv virtualenv {{3.6.6}} {{가상환경_이름}}`
+`pyenv virtualenv 3.6.6 {{가상환경_이름}}`
 
 - 모든 기존 가상 환경 나열:
 

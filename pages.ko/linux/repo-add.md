@@ -1,7 +1,7 @@
 # repo-add
 
 > Pacman을 통해 해당 패키지의 설치를 가능하게 하는 패키지 데이터베이스 유지 관리 유틸리티.
-> 같이 보기: `repo-remove`.
+> 관련 항목: `repo-remove`.
 > 더 많은 정보: <https://manned.org/repo-add>.
 
 - 빈 저장소 생성:

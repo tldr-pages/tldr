@@ -6,7 +6,7 @@
 
 - 列出本地的 Docker 镜像：
 
-`docker image ls`
+`docker {{[images|image ls]}}`
 
 - 删除未使用的 Docker 镜像：
 
@@ -18,7 +18,7 @@
 
 - 展示本地 Docker 镜像的历史：
 
-`docker image history {{镜像}}`
+`docker {{[history|image history]}} {{镜像}}`
 
 - 查看 `docker image rm` 的文档：
 

@@ -9,4 +9,4 @@
 
 - 전체 전역 manpath 표시:
 
-`manpath --global`
+`manpath {{[-g|--global]}}`

@@ -6,7 +6,7 @@
 
 - Liste lokale Docker Images auf:
 
-`docker image ls`
+`docker {{[images|image ls]}}`
 
 - Lösche nicht verwendete, lokale Docker Images:
 
@@ -14,8 +14,8 @@
 
 - Lösche alle nicht verwendeten Docker Images (nicht nur die ohne Tag):
 
-`docker image prune --all`
+`docker image prune {{[-a|--all]}}`
 
 - Zeige die Geschichte eines lokalen Docker Images:
 
-`docker image history {{image}}`
+`docker {{[history|image history]}} {{image}}`

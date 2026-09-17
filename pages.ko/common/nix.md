@@ -2,7 +2,7 @@
 
 > 패키지 관리를 신뢰성 있고, 재현 가능하며, 선언적으로 만드는 강력한 패키지 관리자.
 > `build`, `develop`, `flake`, `registry`, `profile`, `search`, `repl`, `store`, `edit`, `why-depends` 등의 일부 하위 명령에는 자체 사용 설명서가 있습니다.
-> 같이 보기: `nix classic`.
+> 관련 항목: `nix classic`.
 > 더 많은 정보: <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix>.
 
 - `nix` 명령 활성화:

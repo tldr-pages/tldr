@@ -3,6 +3,10 @@
 > Diagnose Direct Rendering Manager and Kernel Mode Setting.
 > More information: <https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18841850/Video_Mixer#modetest>.
 
+- List connectors and their available modes:
+
+`modetest -c`
+
 - List connectors and their available modes for a specific driver:
 
 `modetest -M {{mgag200}} -c`

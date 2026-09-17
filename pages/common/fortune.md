@@ -7,22 +7,26 @@
 
 `fortune`
 
-- Print an offensive quotation:
+- Print an [o]ffensive quotation:
 
 `fortune -o`
 
-- Print a long quotation:
+- Print a [l]ong quotation:
 
 `fortune -l`
 
-- Print a short quotation:
+- Print a [s]hort quotation:
 
 `fortune -s`
 
-- List the available quotation database files:
+- List the available quotation database [f]iles:
 
 `fortune -f`
 
 - Print a quotation from one of the database files listed by `fortune -f`:
 
 `fortune {{path/to/file}}`
+
+- Pipe a fortune through another command (like `cowsay` or `lolcat`):
+
+`fortune | cowsay | lolcat`

@@ -2,9 +2,10 @@
 
 > JavaScript en Node.js pakketbeheer.
 > Beheer Node.js-projecten en hun module-afhankelijkheden.
+> Sommige subcommando's zoals `install`, `run`, etc. hebben hun eigen documentatie.
 > Meer informatie: <https://docs.npmjs.com/cli/npm/>.
 
-- Maak een `package.json`-bestand met standaardwaarden (laat --yes weg om dit interactief te doen):
+- Maak een `package.json`-bestand met standaardwaarden (laat `--yes` weg om dit interactief te doen):
 
 `npm init {{[-y|--yes]}}`
 
@@ -20,7 +21,7 @@
 
 `npm {{[i|install]}} {{pakket_naam}} {{[-D|--save-dev]}}`
 
-- Download de nieuwste versie van een pakket en installeer het globaal:
+- Download de nieuwste versie van een pakket en installeer het globaal (stel de installatielocatie in met `npm config set prefix`):
 
 `npm {{[i|install]}} {{pakket_naam}} {{[-g|--global]}}`
 

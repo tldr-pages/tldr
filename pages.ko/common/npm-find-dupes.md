@@ -11,7 +11,7 @@
 
 `npm find-dupes --include dev`
 
-- `node-modules`에서 특정 패키지의 모든 중복 인스턴스 나열:
+- `node_modules`에서 특정 패키지의 모든 중복 인스턴스 나열:
 
 `npm find-dupes {{패키지_이름}}`
 

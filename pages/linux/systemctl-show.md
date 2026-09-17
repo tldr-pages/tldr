@@ -1,7 +1,7 @@
 # systemctl show
 
 > Show properties of units or systemd itself.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#show%20PATTERN%E2%80%A6%7CJOB%E2%80%A6>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#show%20PATTERN%E2%80%A6%7CJOB%E2%80%A6>.
 
 - Show properties of the system service manager:
 

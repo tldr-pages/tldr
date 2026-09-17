@@ -19,7 +19,7 @@
 
 `fclones < {{path/to/file.txt}} move {{path/to/target_directory}}`
 
-- Perform a dry run for soft links in a TXT file without actually linking:
+- Simulate soft links in a TXT file without actually linking:
 
 `fclones < {{path/to/file.txt}} link --soft --dry-run 2 > /dev/null`
 

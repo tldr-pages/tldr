@@ -12,11 +12,11 @@
 
 `apptainer push {{path/to/image.sif}} oras://{{registry/namespace/image}}:{{tag}}`
 
-- Push an [U]nsigned container (skip signature verification):
+- Push an unsigned container (skip signature verification):
 
 `apptainer push {{[-U|--allow-unsigned]}} {{path/to/image.sif}} library://{{user/collection/container}}:{{tag}}`
 
-- Push a container with a [D]escription (library only):
+- Push a container with a description (library only):
 
 `apptainer push {{[-D|--description]}} "{{description}}" {{path/to/image.sif}} library://{{user/collection/container}}:{{tag}}`
 

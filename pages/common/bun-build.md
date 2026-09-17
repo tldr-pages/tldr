@@ -33,4 +33,4 @@
 
 - Bundle with external dependencies not included in the output:
 
-`bun build {{path/to/entry.ts}} --outfile {{path/to/output.js}} --external {{react react-dom}}`
+`bun build {{path/to/entry.ts}} --outfile {{path/to/output.js}} {{[-e|--external]}} {{react react-dom}}`

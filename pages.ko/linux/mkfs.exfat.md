@@ -13,4 +13,4 @@
 
 - 볼륨 ID를 지정하여 파일 시스템 생성:
 
-`mkfs.exfat -i {{볼륨_ID}} {{/dev/sdb1}}`
+`mkfs.exfat -i {{볼륨_id}} {{/dev/sdb1}}`

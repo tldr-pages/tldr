@@ -22,3 +22,7 @@
 - Affiche l'identifiant de connexion de l'utilisateur courant :
 
 `whoami /logonid`
+
+- Affiche toutes les informations de l'utilisateur courant :
+
+`whoami /all`

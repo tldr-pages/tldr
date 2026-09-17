@@ -17,11 +17,11 @@
 
 - Connetti un container ad una rete usando il suo nome o ID:
 
-`docker network connect {{nome_rete}} {{nome_container|ID}}`
+`docker network connect {{nome_rete}} {{nome_container|id}}`
 
 - Disconnetti un container da una rete:
 
-`docker network disconnect {{nome_rete}} {{nome_container|ID}}`
+`docker network disconnect {{nome_rete}} {{nome_container|id}}`
 
 - Elimina le reti inutilizzate (non referenziate da alcun container):
 
@@ -29,4 +29,4 @@
 
 - Elimina una lista di reti (separata da spazi) inutilizzate:
 
-`docker network rm {{nome_rete_1 nome_rete_2}}`
+`docker network rm {{nome_rete_1 nome_rete_2 ...}}`

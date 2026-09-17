@@ -5,7 +5,7 @@
 
 - 使用自动 DNS API 模式签发证书：
 
-`acme.sh --issue --dns {{gnd_gd}} --domain {{example.com}}`
+`acme.sh --issue --dns {{dns_gd}} --domain {{example.com}}`
 
 - 使用自动 DNS API 模式签发通配符证书（用星号表示）：
 

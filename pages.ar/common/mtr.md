@@ -1,6 +1,7 @@
 # mtr
 
 > أداة Matt's Traceroute: تجمع بين traceroute و ping.
+> انظر أيضًا: `traceroute`, `ping`.
 > لمزيد من التفاصيل: <https://manned.org/mtr>.
 
 - تتبع المسار إلى مضيف وإرسال حزم ping مستمرة لجميع النقاط الوسيطة:

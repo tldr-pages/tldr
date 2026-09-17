@@ -2,7 +2,7 @@
 
 > Stop and then start one or more systemd units.
 > Can be used in place of `systemctl start` on a stopped unit, but `start` is safer so that a running unit isn't accidentally restarted.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#restart%20PATTERN%E2%80%A6>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#restart%20PATTERN%E2%80%A6>.
 
 - Restart a unit:
 

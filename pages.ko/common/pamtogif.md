@@ -1,7 +1,7 @@
 # pamtogif
 
 > Netpbm 이미지를 애니메이션이 없는 GIF 이미지로 변환.
-> 같이 보기: `giftopnm`, `gifsicle`.
+> 관련 항목: `giftopnm`, `gifsicle`.
 > 더 많은 정보: <https://netpbm.sourceforge.net/doc/pamtogif.html>.
 
 - Netpbm 이미지를 애니메이션이 없는 GIF 이미지로 변환:

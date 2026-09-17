@@ -1,7 +1,7 @@
 # systemctl reboot
 
 > Reboot the system.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#reboot>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#reboot>.
 
 - Reboot the system:
 

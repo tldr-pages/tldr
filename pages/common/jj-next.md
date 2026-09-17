@@ -1,7 +1,7 @@
 # jj next
 
 > Move the working-copy commit to a child revision.
-> More information: <https://jj-vcs.github.io/jj/latest/cli-reference/#jj-next>.
+> More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-next>.
 
 - Move the working-copy commit to the next child revision:
 

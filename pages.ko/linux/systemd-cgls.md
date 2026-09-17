@@ -13,4 +13,4 @@
 
 - 하나 이상의 systemd 유닛의 제어 그룹 계층 표시:
 
-`systemd-cgls --unit {{unit1 unit2 ...}}`
+`systemd-cgls {{[-u|--unit]}} {{unit1 unit2 ...}}`

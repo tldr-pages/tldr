@@ -1,6 +1,6 @@
 # fgrep
 
-> Tämä on alias komennolle `grep --fixed-strings`.
+> Tämä on alias `grep --fixed-strings` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -17,4 +17,4 @@
 
 - Descarga una copia local de todas las páginas de ArchWiki en un directorio específico:
 
-`archwiki-rs local-wiki {{ruta/a/wiki_local}} --format {{plain-text|markdown|html}}`
+`archwiki-rs local-wiki /{{ruta/a/wiki_local}} --format {{plain-text|markdown|html}}`

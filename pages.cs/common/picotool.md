@@ -23,10 +23,10 @@
 
 `picotool otp list`
 
-- Zobrazit verzi:
-
-`picotool version`
-
 - Zobrazit nápovědu:
 
 `picotool help`
+
+- Zobrazit verzi:
+
+`picotool version`

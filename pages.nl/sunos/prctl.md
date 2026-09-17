@@ -5,12 +5,12 @@
 
 - Uitlezen van de process limits en rechten:
 
-`prctl {{PID}}`
+`prctl {{pid}}`
 
 - Uitlezen van de process limits en rechten in een geformatteerde layout:
 
-`prctl -P {{PID}}`
+`prctl -P {{pid}}`
 
 - Uitlezen van het max file descripter van een lopend proces:
 
-`prctl -n process.max-file-descriptor {{PID}}`
+`prctl -n process.max-file-descriptor {{pid}}`

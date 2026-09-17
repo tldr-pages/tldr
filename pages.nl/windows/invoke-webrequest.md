@@ -8,6 +8,10 @@
 
 `Invoke-WebRequest {{http://example.com}} -OutFile {{pad\naar\bestand}}`
 
+- Geef alleen de ruwe HTML-data in plaats van deze te parsen onder Internet Explorer (alleen voor PowerShell 3.0-5.1):
+
+`Invoke-WebRequest {{http://example.com}} -UseBasicParsing`
+
 - Stuur form-gecodeerde gegevens (POST request van het type `application/x-www-form-urlencoded`):
 
 `Invoke-WebRequest -Method Post -Body @{ name='bob' } {{http://example.com/form}}`

@@ -1,7 +1,7 @@
 # cvfsck
 
-> Check and repair an Xsan file system volume.
-> Part of the Xsan file system utilities on macOS.
+> Check and repair an Xsan filesystem volume.
+> Part of the Xsan filesystem utilities on macOS.
 > More information: <https://www.manpagez.com/man/1/cvfsck/>.
 
 - Check an Xsan volume for metadata corruption (read-only mode):

@@ -1,24 +1,33 @@
 # dep
 
-> Go 프로젝트에서 종속성 관리를 위한 툴.
+> PHP 애플리케이션 배포.
+> 참고: 동일한 이름의 Go 명령어 `dep`은 더 이상 사용 되지 않으며 유지 보수되지 않음(archived).
 > 더 많은 정보: <https://deployer.org/docs/8.x/cli>.
 
-- 현재 디렉토리를 Go 프로젝트의 루트 디렉토리로 초기화:
+- 로컬 경로에서 대화형으로 deployer를 초기화 (`--template=template`으로 프레임워크 템플릿 사용 가능):
 
 `dep init`
 
-- 누락된 종속성 설치(Gopkg.toml 과 `.go` 파일들 스캔):
+- 애플리케이션을 원격 호스트에 배포:
 
-`dep ensure`
+`dep deploy {{호스트명}}`
 
-- 프로젝트의 종속성의 상태 보고:
+- 이전 정상 동작 릴리스로 롤백:
 
-`dep status`
+`dep rollback`
 
-- 프로젝트에 종속성 추가:
+- SSH를 통해 원격 호스트에 접속:
 
-`dep ensure -add {{패키지_url}}`
+`dep ssh {{호스트명}}`
 
-- 모든 종속성들의 잠긴 버전 업데이트:
+- 사용 가능한 명령 목록을 표시:
 
-`dep ensure -update`
+`dep list`
+
+- 원격 호스트에서 임의의 명령을 실행:
+
+`dep run "{{명령어}}"`
+
+- 명령어에 대한 도움말 표시:
+
+`dep help {{명령어}}`

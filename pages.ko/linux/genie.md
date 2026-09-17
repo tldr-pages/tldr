@@ -6,12 +6,12 @@
 
 - 보틀 초기화 (시작 시 한 번 실행):
 
-`genie -i`
+`genie {{[-i|--initialize]}}`
 
 - 보틀 내부에서 로그인 셸 실행:
 
-`genie -s`
+`genie {{[-s|--shell]}}`
 
 - 보틀 내부에서 특정 명령 실행:
 
-`genie -c {{명령}}`
+`genie {{[-c|--command]}} {{명령}}`

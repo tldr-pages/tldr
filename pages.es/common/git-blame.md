@@ -29,4 +29,4 @@
 
 - Ignora los espacios en blanco y los movimientos de línea:
 
-`git blame -w -C -C -C {{ruta/a/archivo}}`
+`git blame -w -C -C -C {{ruta/al/archivo}}`

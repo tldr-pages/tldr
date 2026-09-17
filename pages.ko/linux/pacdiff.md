@@ -9,11 +9,11 @@
 
 - sudo와 sudoedit를 사용하여 파일 제거 및 병합:
 
-`pacdiff --sudo`
+`pacdiff {{[-s|--sudo]}}`
 
 - 유지 관리가 필요한 파일을 검토하고, `(O)덮어쓰기` 시 원본의 `.bak`업 생성:
 
-`pacdiff --sudo --backup`
+`pacdiff {{[-s|--sudo]}} {{[-b|--backup]}}`
 
 - 특정 편집기를 사용하여 설정 파일을 보고 병합 (기본값은 `vim -d`):
 
@@ -21,8 +21,8 @@
 
 - `pacman` 데이터베이스 대신 `locate`를 사용하여 설정 파일 스캔:
 
-`pacdiff --locate`
+`pacdiff {{[-l|--locate]}}`
 
 - 도움말 표시:
 
-`pacdiff --help`
+`pacdiff {{[-h|--help]}}`

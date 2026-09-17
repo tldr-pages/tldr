@@ -1,6 +1,6 @@
 # cheatshh
 
-> CLI cheatsheet with customized descriptions, tldr and groups, to look into for your reference.
+> CLI cheatsheet with customized descriptions, tldr, and groups, to look into for your reference.
 > Press `<Enter>` to a command to copy it to your clipboard and exit.
 > More information: <https://github.com/AnirudhG07/cheatshh/blob/main/docs/man/cheatshh.1>.
 
@@ -24,7 +24,7 @@
 
 `cheatshh {{[-eg|--edit-group]}}`
 
-- Delete an existing group and it's sub commands from commands.json file:
+- Delete an existing group and it's sub commands from `commands.json` file:
 
 `cheatshh {{[-dg|--delete-group]}}`
 

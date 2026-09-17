@@ -1,7 +1,7 @@
 # jj git fetch
 
 > Fetch from a Git remote, downloading objects and refs from the remote repository.
-> More information: <https://jj-vcs.github.io/jj/latest/cli-reference/#jj-git-fetch>.
+> More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-git-fetch>.
 
 - Fetch the latest changes from the default remote repository:
 

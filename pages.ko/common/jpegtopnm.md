@@ -9,4 +9,4 @@
 
 - 버전 표시:
 
-`jpegtopnm -version`
+`jpegtopnm {{[-v|-version]}}`

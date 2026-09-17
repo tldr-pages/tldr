@@ -1,7 +1,7 @@
 # flips
 
 > Cria e aplica patches em arquivos IPS e BPS.
-> Mais informações: <https://github.com/Alcaro/Flips>.
+> Mais informações: <https://git.disroot.org/Sir_Walrus/Flips>.
 
 - Abre Flips para criar e aplicar um patch:
 

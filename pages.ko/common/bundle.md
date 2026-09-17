@@ -17,11 +17,11 @@
 
 - `Gemfile`에 정의된 하나 이상의 특정 gem을 업데이트:
 
-`bundle update {{gem_이름1}} {{gem_이름2}}`
+`bundle update {{gem_이름1 gem_이름2 ...}}`
 
 - `Gemfile`에 정의된 하나 이상의 특정 gem을 다음 패치 버전으로만 업데이트:
 
-`bundle update --patch {{gem_이름1}} {{gem_이름2}}`
+`bundle update --patch {{gem_이름1 gem_이름2 ...}}`
 
 - `Gemfile`에서 지정된 그룹 내의 모든 gem을 업데이트:
 

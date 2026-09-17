@@ -1,7 +1,7 @@
 # parted
 
 > Програма для роботи з розділами.
-> Дивіться також: `parted.interactive`, `partprobe`.
+> Дивіться також: `parted.interactive`, `cfdisk`, `partprobe`.
 > Більше інформації: <https://www.gnu.org/software/parted/manual/parted.html#Invoking-Parted>.
 
 - Перелічити розділи на всіх блокових пристроях:

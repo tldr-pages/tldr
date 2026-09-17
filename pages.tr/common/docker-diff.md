@@ -2,6 +2,6 @@
 
 > Bu komut `docker container diff` için bir takma addır.
 
-- Asıl komutun belgelerini görüntüleyin:
+- Asıl komutun dokümantasyonunu görüntüleyin:
 
 `tldr docker container diff`

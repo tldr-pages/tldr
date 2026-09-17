@@ -9,4 +9,4 @@
 
 - 특정 그룹의 상태 표시:
 
-`pueue status --group {{그룹_이름}}`
+`pueue status {{[-g|--group]}} {{그룹_이름}}`

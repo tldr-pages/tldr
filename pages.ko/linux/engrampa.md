@@ -1,7 +1,7 @@
 # engrampa
 
 > MATE 데스크톱 환경에서 zip/tar 파일로 패키지 파일을 압축.
-> 같이 보기: `zip`, `tar`.
+> 관련 항목: `zip`, `tar`.
 > 더 많은 정보: <https://github.com/mate-desktop/engrampa>.
 
 - Engrampa 시작:

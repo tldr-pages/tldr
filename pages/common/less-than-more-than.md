@@ -3,7 +3,7 @@
 > Open a file descriptor for read and write.
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#Opening-File-Descriptors-for-Reading-and-Writing>.
 
-- Open a file in a file descriptor for read an write:
+- Open a file in a file descriptor for read and write:
 
 `exec {{3}}<>{{path/to/file}}`
 

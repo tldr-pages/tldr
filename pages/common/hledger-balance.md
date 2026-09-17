@@ -8,7 +8,7 @@
 
 `hledger {{[bal|balance]}}`
 
-- Show the balance change in accounts named `*expenses*`, as a tree, summarising the top two levels only:
+- Show the balance change in accounts whose name contains `expenses`, as a tree, summarising the top two levels only:
 
 `hledger {{[bal|balance]}} {{expenses}} {{[-t|--tree]}} {{[-2|--depth 2]}}`
 
@@ -20,7 +20,7 @@
 
 `hledger {{[bal|balance]}} type:{{X}} {{[-MTAS|--monthly --row-total --average --sort-amount]}} --budget {{[-t|--tree]}} {{[-2|--depth 2]}} --no-elide`
 
-- Show end balances (including from postings before the start date), quarterly in 2024, in accounts named `*assets*` or `*liabilities*`:
+- Show end balances (including from postings before the start date), quarterly in 2024, in accounts whose name contains `assets` or `liabilities`:
 
 `hledger {{[bal|balance]}} {{[-H|--historical]}} {{[-p|--period]}} '{{quarterly in 2024}}' {{assets}} {{liabilities}}`
 

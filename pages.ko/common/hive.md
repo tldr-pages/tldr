@@ -13,7 +13,7 @@
 
 - 변수 대체를 사용해서 HiveQL 파일을 실행:
 
-`hive --define {{키}}={{값}} -f {{경로/대상/파일.sql}}`
+`hive {{[-d|--define]}} {{키}}={{값}} -f {{경로/대상/파일.sql}}`
 
 - HiveConfig를 사용해 HiveQL을 실행 (예: `mapred.reduce.tasks=32`):
 

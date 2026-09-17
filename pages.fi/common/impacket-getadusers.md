@@ -1,6 +1,6 @@
 # impacket-GetADUsers
 
-> Tämä on alias komennolle `GetADUsers.py`.
+> Tämä on alias `GetADUsers.py` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

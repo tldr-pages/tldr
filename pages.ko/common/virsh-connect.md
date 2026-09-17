@@ -1,7 +1,7 @@
 # virsh connect
 
 > 가상 머신 하이퍼바이저에 연결합니다.
-> 같이 보기: `virsh`.
+> 관련 항목: `virsh`.
 > 더 많은 정보: <https://manned.org/virsh>.
 
 - 기본 하이퍼바이저에 연결:

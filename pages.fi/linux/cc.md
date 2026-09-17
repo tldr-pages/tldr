@@ -1,6 +1,6 @@
 # cc
 
-> Tämä on alias komennolle `gcc`.
+> Tämä on alias `gcc` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

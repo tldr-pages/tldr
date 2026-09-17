@@ -1,7 +1,7 @@
 # odpscmd tunnel
 
 > ODPS(Open Data Processing Service)에서의 데이터 터널.
-> 같이 보기: `odpscmd`.
+> 관련 항목: `odpscmd`.
 > 더 많은 정보: <https://www.alibabacloud.com/help/en/maxcompute/user-guide/maxcompute-client>.
 
 - 테이블을 로컬 파일로 다운로드:

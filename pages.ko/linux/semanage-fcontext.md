@@ -1,7 +1,7 @@
 # semanage fcontext
 
 > 파일/폴더에 대한 지속적인 SELinux 보안 컨텍스트 규칙 관리.
-> 같이 보기: `semanage`, `matchpathcon`, `secon`, `chcon`, `restorecon`.
+> 관련 항목: `semanage`, `matchpathcon`, `secon`, `chcon`, `restorecon`.
 > 더 많은 정보: <https://manned.org/semanage-fcontext>.
 
 - 모든 파일 레이블링 규칙 나열:

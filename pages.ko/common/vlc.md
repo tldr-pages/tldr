@@ -1,7 +1,7 @@
 # vlc
 
 > 크로스 플랫폼 멀티미디어 플레이어.
-> 같이 보기: `mpv`, `mplayer`, `ytfzf`.
+> 관련 항목: `mpv`, `mplayer`, `ytfzf`.
 > 더 많은 정보: <https://wiki.videolan.org/Documentation:Command_line/>.
 
 - 파일 재생:

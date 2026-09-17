@@ -1,6 +1,6 @@
 # systemctl condstop
 
-> Tämä on alias komennolle `systemctl stop`.
+> Tämä on alias `systemctl stop` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

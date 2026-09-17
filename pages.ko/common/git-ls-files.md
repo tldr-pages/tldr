@@ -5,16 +5,16 @@
 
 - 삭제된 파일 보기:
 
-`git ls-files --deleted`
+`git ls-files {{[-d|--deleted]}}`
 
 - 수정되거나 삭제된 파일 보기:
 
-`git ls-files --modified`
+`git ls-files {{[-m|--modified]}}`
 
 - `.gitignore`에 명시된 파일과 Git이 관리하지 않는 파일 보기:
 
-`git ls-files --others`
+`git ls-files {{[-o|--others]}}`
 
 - Git이 관리하지 않는 파일 중 `.gitignore`에 명시되지 않은 파일 보기:
 
-`git ls-files --others --exclude-standard`
+`git ls-files {{[-o|--others]}} --exclude-standard`

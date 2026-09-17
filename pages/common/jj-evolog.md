@@ -1,7 +1,7 @@
 # jj evolog
 
 > Show how a change has evolved over time, listing the previous commits it has pointed to.
-> More information: <https://jj-vcs.github.io/jj/latest/cli-reference/#jj-evolog>.
+> More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-evolog>.
 
 - Show how a revision has evolved over time:
 

@@ -22,8 +22,8 @@
 
 - Vypsat obsah konkrétního archivu bez extrahování:
 
-`unzip -l {{cesta/k/archivu.zip}}`
+`unzip -l {{cesta/k/archivu}}.zip`
 
 - Extrahovat konkrétní soubor z archivu:
 
-`unzip -j {{cesta/k/archivu.zip}} {{cesta/k/souboru1_v_archivu cesta/k/souboru2_v_archivu ...}}`
+`unzip -j {{cesta/k/archivu}}.zip {{cesta/k/souboru1_v_archivu cesta/k/souboru2_v_archivu ...}}`

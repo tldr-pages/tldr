@@ -26,4 +26,4 @@
 
 - imerge 작업 중단 및 이전 브랜치로 돌아가기:
 
-`git-imerge remove && git checkout {{이전_브랜치}}`
+`git imerge remove && git checkout {{이전_브랜치}}`

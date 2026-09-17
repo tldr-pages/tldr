@@ -13,7 +13,7 @@
 
 - Restore dependencies without caching the HTTP requests:
 
-`dotnet restore --no-cache`
+`dotnet restore --no-http-cache`
 
 - Force all dependencies to be resolved even if the last restore was successful:
 

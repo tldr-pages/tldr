@@ -3,18 +3,18 @@
 > Supprime un ou plusieurs conteneurs.
 > Plus d'informations : <https://docs.docker.com/reference/cli/docker/container/rm/>.
 
-- Supprimer des conteneurs :
+- Supprime des conteneurs :
 
-`docker rm {{conteneur1 conteneur2 ...}}`
+`docker {{[rm|container rm]}} {{conteneur1 conteneur2 ...}}`
 
-- Supprimer des conteneurs par la force :
+- Supprime des conteneurs par la force :
 
-`docker rm {{[-f|--force]}} {{conteneur1 conteneur2 ...}}`
+`docker {{[rm|container rm]}} {{[-f|--force]}} {{conteneur1 conteneur2 ...}}`
 
-- Supprimer un conteneur et ses volumes :
+- Supprime un conteneur et ses volumes :
 
-`docker rm {{[-v|--volumes]}} {{conteneur}}`
+`docker {{[rm|container rm]}} {{[-v|--volumes]}} {{conteneur}}`
 
 - Affiche l'aide :
 
-`docker rm {{[-h|--help]}}`
+`docker {{[rm|container rm]}} --help`

@@ -2,7 +2,7 @@
 
 > Freeze one or more units.
 > Frozen units can be resumed with `systemctl thaw`.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#freeze%20PATTERN%E2%80%A6>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#freeze%20PATTERN%E2%80%A6>.
 
 - Freeze a specific unit:
 

@@ -21,7 +21,7 @@
 
 - Guarda la salida del terminal en un archivo y otros resultados detallados en un directorio:
 
-`amass enum -o {{fichero_de_salida}} -dir {{ruta/a/directorio}} -d {{nombre_dominio}}`
+`amass enum -o {{fichero_de_salida}} -dir {{ruta/al/directorio}} -d {{nombre_dominio}}`
 
 - Lista todas las fuentes de datos disponibles:
 

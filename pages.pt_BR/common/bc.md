@@ -10,7 +10,7 @@
 
 - Inicia uma sessão [i]nterativa com a biblioteca padrão habilitada:
 
-`bc --interactive --mathlib`
+`bc {{[-i|--interactive]}} {{[-l|--mathlib]}}`
 
 - Calcula uma expressão:
 
@@ -26,7 +26,7 @@
 
 - Calcula uma função seno/cosseno/arco tangente/logaritmo natural/função exponencial usando `mathlib`:
 
-`echo '{{s|c|a|l|e}}({{1}})' | bc --mathlib`
+`echo '{{s|c|a|l|e}}({{1}})' | bc {{[-l|--mathlib]}}`
 
 - Executa um script fatorial a partir da linha de comando:
 

@@ -18,3 +18,7 @@
 - Print the system serial number:
 
 `system_profiler SPHardwareDataType|grep "Serial Number (system)" | awk '{ print $4 }'`
+
+- Display the negotiated max wattage of the connected charger and cable:
+
+`system_profiler SPPowerDataType | awk '/Wattage/ {print $3}'`

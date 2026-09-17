@@ -1,7 +1,7 @@
 # git commit-tree
 
 > Git의 내부 동작을 직접 다루는 명령어로, 커밋 객체를 직접 생성합니다.
-> 같이 보기: `git commit`.
+> 관련 항목: `git commit`.
 > 더 많은 정보: <https://git-scm.com/docs/git-commit-tree>.
 
 - 지정된 메시지로 커밋 객체 생성:

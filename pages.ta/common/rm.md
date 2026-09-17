@@ -1,7 +1,7 @@
 # rm
 
 > கோப்புகளையோ அடைவுகளையோ அழி.
-> இதையும் பார்க்கவும்: `rmdir`, `trash`.
+> மேலும் காண்க: `rmdir`, `trash`.
 > மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>.
 
 - குறிப்பிட்ட கோப்புகளை அகற்றவும்:

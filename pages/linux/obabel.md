@@ -7,9 +7,9 @@
 
 `obabel {{path/to/file.mol}} -O {{path/to/output_file.xyz}}`
 
-- Convert a SMILES string to a 500x500 picture:
+- Convert a Simplified Molecular Input Line Entry System string to a 500x500 picture:
 
-`obabel -:"{{SMILES}}" -O {{path/to/output_file.png}} -xp 500`
+`obabel -:"{{smiles_string}}" -O {{path/to/output_file.png}} -xp 500`
 
 - Convert a file of SMILES string to separate 3D `.mol` files:
 

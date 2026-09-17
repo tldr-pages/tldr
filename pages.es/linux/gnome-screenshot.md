@@ -9,27 +9,27 @@
 
 - Toma una captura de pantalla y la guarda en la ubicación de archivo indicada:
 
-`gnome-screenshot --file {{ruta/al/archivo}}`
+`gnome-screenshot {{[-f|--file]}} {{ruta/al/archivo}}`
 
 - Toma una captura de pantalla y la guarda en el portapapeles:
 
-`gnome-screenshot --clipboard`
+`gnome-screenshot {{[-c|--clipboard]}}`
 
 - Toma una captura después de un número determinado de segundos:
 
-`gnome-screenshot --delay {{5}}`
+`gnome-screenshot {{[-d|--delay]}} {{5}}`
 
 - Lanza la interfaz gráfica (GUI) de Captura de Pantalla GNOME:
 
-`gnome-screenshot --interactive`
+`gnome-screenshot {{[-i|--interactive]}}`
 
 - Toma una captura de pantalla de la ventana actual y la guarda en la ubicación especificada:
 
-`gnome-screenshot --window --file {{ruta/al/archivo}}`
+`gnome-screenshot {{[-w|--window]}} {{[-f|--file]}} {{ruta/al/archivo}}`
 
 - Toma una captura después del un número determinado de segundos y la guarda en el portapapeles:
 
-`gnome-screenshot --delay {{10}} --clipboard`
+`gnome-screenshot {{[-d|--delay]}} {{10}} {{[-c|--clipboard]}}`
 
 - Muestra la versión:
 

@@ -1,7 +1,7 @@
 # net
 
 > ネットワーク関連の設定を表示、変更するためのシステムユーティリティ。
-> もっと詳しく: <https://learn.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/gg651155(v=ws.11)>。
+> 詳細情報: <https://learn.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/gg651155(v=ws.11)>。
 
 - Windowsサービスを同期的に開始または停止する:
 

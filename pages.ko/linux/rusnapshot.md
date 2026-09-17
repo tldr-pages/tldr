@@ -5,24 +5,24 @@
 
 - 구성 파일을 사용하여 스냅샷 생성:
 
-`sudo rusnapshot --config {{경로/대상/config.toml}} --cr`
+`sudo rusnapshot {{[-c|--config]}} {{경로/대상/config.toml}} --cr`
 
 - 생성된 스냅샷 나열:
 
-`sudo rusnapshot -c {{경로/대상/config.toml}} --list`
+`sudo rusnapshot {{[-c|--config]}} {{경로/대상/config.toml}} {{[-l|--list]}}`
 
 - ID 또는 스냅샷 이름으로 스냅샷 삭제:
 
-`sudo rusnapshot -c {{경로/대상/config.toml}} --del --id {{스냅샷_id}}`
+`sudo rusnapshot {{[-c|--config]}} {{경로/대상/config.toml}} --del --id {{스냅샷_id}}`
 
 - 모든 `hourly` 스냅샷 삭제:
 
-`sudo rusnapshot -c {{경로/대상/config.toml}} --list --keep {{0}} --clean --kind {{hourly}}`
+`sudo rusnapshot {{[-c|--config]}} {{경로/대상/config.toml}} {{[-l|--list]}} {{[-k|--keep]}} {{0}} --clean --kind {{hourly}}`
 
 - 읽기-쓰기 스냅샷 생성:
 
-`sudo rusnapshot -c {{경로/대상/config.toml}} --cr --rw`
+`sudo rusnapshot {{[-c|--config]}} {{경로/대상/config.toml}} --cr {{[-r|--rw]}}`
 
 - 스냅샷 복원:
 
-`sudo rusnapshot -c {{경로/대상/config.toml}} --id {{스냅샷_id}} --restore`
+`sudo rusnapshot {{[-c|--config]}} {{경로/대상/config.toml}} --id {{스냅샷_id}} {{[-r|--restore]}}`

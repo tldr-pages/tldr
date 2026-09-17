@@ -1,13 +1,7 @@
 # compose
 
-> `run-mailcap`의 동작인 compose에 대한 별칭.
-> 원래 `run-mailcap`은 MIME 타입/파일을 처리하는 데 사용됩니다.
-> 더 많은 정보: <https://manned.org/compose>.
+> 이 명령은 `run-mailcap --action=compose`의 별칭입니다.
 
-- 기본 mailcap 편집 도구에서 기존 파일이나 새 파일을 작성하는 데 compose 동작 사용:
+- 자세한 내용은 원본 명령을 참고하세요:
 
-`compose {{파일명}}`
-
-- `run-mailcap` 사용:
-
-`run-mailcap --action=compose {{파일명}}`
+`tldr run-mailcap`

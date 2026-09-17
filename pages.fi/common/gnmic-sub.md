@@ -1,6 +1,6 @@
 # gnmic sub
 
-> Tämä on alias komennolle `gnmic subscribe`.
+> Tämä on alias `gnmic subscribe` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

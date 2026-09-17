@@ -1,7 +1,7 @@
 # turbo
 
 > JavaScript 및 TypeScript 코드베이스를 위한 고성능 빌드 시스템.
-> 같이 보기: `nx`.
+> 관련 항목: `nx`.
 > 더 많은 정보: <https://turborepo.com/docs/reference>.
 
 - 기본 웹 브라우저를 사용하여 Vercel 계정으로 로그인:

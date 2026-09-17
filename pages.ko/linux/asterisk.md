@@ -25,7 +25,7 @@
 
 - 채널 종료:
 
-`asterisk -r -x "hangup request {{채널_ID}}"`
+`asterisk -r -x "hangup request {{채널_id}}"`
 
 - chan_SIP 구성 다시 로드:
 

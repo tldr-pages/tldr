@@ -5,24 +5,24 @@
 
 - Sincronitza la llista de paquets i versions disponibles:
 
-`zypper refresh`
+`sudo zypper {{[ref|refresh]}}`
 
 - Instal·la un nou paquet:
 
-`zypper install {{paquet}}`
+`sudo zypper {{[in|install]}} {{paquet}}`
 
 - Elimina un paquet:
 
-`zypper remove {{paquet}}`
+`sudo zypper {{[rm|remove]}} {{paquet}}`
 
 - Actualitza els paquets instal·lats a la versió més recent disponible:
 
-`zypper update`
+`sudo zypper {{[up|update]}}`
 
 - Busca en els repositoris un paquet mitjançant una paraula clau:
 
-`zypper search {{paraula_clau}}`
+`zypper {{[se|search]}} {{paraula_clau}}`
 
 - Mostra informació relacionada amb els repositoris configurats:
 
-`zypper repos --sort-by-priority`
+`zypper {{[lr|repos]}} --sort-by-priority`

@@ -7,7 +7,7 @@
 
 `cowsay "Hello world"`
 
-- Usa il testo da standard input per il fumetto:
+- Usa il testo da `stdin` per il fumetto:
 
 `echo "Ciao" | cowsay`
 

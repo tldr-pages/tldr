@@ -1,7 +1,7 @@
 # nu
 
 > Nushell("새로운 유형의 셸")은 명령줄에 대한 현대적이고 구조화된 접근 방식을 제공합니다.
-> 같이 보기: `elvish`.
+> 관련 항목: `elvish`.
 > 더 많은 정보: <https://www.nushell.sh/book/configuration.html#flag-behavior>.
 
 - 대화형 셸 세션 시작:
@@ -10,7 +10,7 @@
 
 - 특정 명령 실행:
 
-`nu --commands "{{echo 'nu is executed'}}"`
+`nu {{[-c|--commands]}} "{{echo 'nu is executed'}}"`
 
 - 특정 스크립트 실행:
 

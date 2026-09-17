@@ -6,7 +6,7 @@
 
 - 직렬 콘솔에 연결:
 
-`az serial-console connect --resource-group {{리소스_그룹_이름}} --name {{가상_머신_이름}}`
+`az serial-console connect {{[-g|--resource-group]}} {{리소스_그룹_이름}} {{[-n|--name]}} {{가상_머신_이름}}`
 
 - 연결을 종료:
 

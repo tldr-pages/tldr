@@ -1,6 +1,6 @@
 # clhy
 
-> Tämä on alias komennolle `Clear-History`.
+> Tämä on alias `Clear-History` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

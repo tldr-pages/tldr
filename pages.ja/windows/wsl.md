@@ -1,7 +1,7 @@
 # wsl
 
 > Windows Subsystem for Linux を管理します。
-> もっと詳しく: <https://learn.microsoft.com/windows/wsl/reference>。
+> 詳細情報: <https://learn.microsoft.com/windows/wsl/reference>。
 
 - Linuxシェルを起動する(デフォルトのディストリビューションの場合):
 
@@ -9,23 +9,23 @@
 
 - シェルを使わずにLinuxコマンドを実行する:
 
-`wsl --exec {{コマンド}} {{コマンド引数}}`
+`wsl {{[-e|--exec]}} {{コマンド}} {{コマンド引数}}`
 
 - 特定のディストリビューションを指定する:
 
-`wsl --distribution {{ディストリビューション}} {{シェルコマンド}}`
+`wsl {{[-d|--distribution]}} {{ディストリビューション}} {{シェルコマンド}}`
 
 - 利用可能なディストリビューションを一覧表示する:
 
-`wsl --list`
+`wsl {{[-l|--list]}}`
 
 - ディストリビューションを`.tar`ファイルにエクスポートする:
 
-`wsl --export {{ディストリビューション}} {{path\to\distro_file.tar}}`
+`wsl --export {{ディストリビューション}} {{ディストロファイルパス.tar}}`
 
 - ディストリビューションを`.tar`ファイルからインポートする:
 
-`wsl --import {{ディストリビューション}} {{path\to\install_location}} {{path/to/distro_file.tar}}`
+`wsl --import {{ディストリビューション}} {{インストール先パス}} {{ディストロファイルパス.tar}}`
 
 - 指定したディストリビューションで使用するwslのバージョンを変更する:
 

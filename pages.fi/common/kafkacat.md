@@ -1,6 +1,6 @@
 # kafkacat
 
-> Tämä on alias komennolle `kcat`.
+> Tämä on alias `kcat` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -9,16 +9,16 @@
 
 - 특정 장치의 모든 사용 가능한 서명 유형을 파티션을 재귀적으로 탐색하지 않고 삭제:
 
-`sudo wipefs --all {{/dev/sdX}}`
+`sudo wipefs {{[-a|--all]}} {{/dev/sdX}}`
 
 - 글롭 패턴을 사용하여 장치 및 파티션의 모든 사용 가능한 서명 유형 삭제:
 
-`sudo wipefs --all {{/dev/sdX}}*`
+`sudo wipefs {{[-a|--all]}} {{/dev/sdX}}*`
 
 - 시뮬레이션 실행:
 
-`sudo wipefs --all --no-act {{/dev/sdX}}`
+`sudo wipefs {{[-a|--all]}} {{[-n|--no-act]}} {{/dev/sdX}}`
 
 - 파일 시스템이 마운트되어 있어도 강제로 삭제:
 
-`sudo wipefs --all --force {{/dev/sdX}}`
+`sudo wipefs {{[-a|--all]}} {{[-f|--force]}} {{/dev/sdX}}`

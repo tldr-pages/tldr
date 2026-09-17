@@ -11,7 +11,7 @@
 
 - Crea una copia con finales de línea de estilo macOS:
 
-`unix2mac {{[-n|--newfile]}} {{ruta/al/archivo}} {{ruta/a/archivo_nuevo}}`
+`unix2mac {{[-n|--newfile]}} {{ruta/al/archivo}} {{ruta/al/archivo_nuevo}}`
 
 - Muestra información del archivo:
 

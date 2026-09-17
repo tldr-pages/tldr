@@ -2,7 +2,7 @@
 
 > スクリプタブルな方法でテキストを編集します。
 > 参照: `awk`, `ed`。
-> もっと詳しく: <https://www.gnu.org/software/sed/manual/sed.html>。
+> 詳細情報: <https://www.gnu.org/software/sed/manual/sed.html>。
 
 - 全ての入力行の `apple` (基本正規表現)を `mango` (基本正規表現)に置換し、結果を`stdout`に出力する:
 

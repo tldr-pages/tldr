@@ -1,7 +1,7 @@
 # speaker-test
 
 > ALSA를 위한 스피커 테스트 톤 생성기.
-> 같이 보기: `aplay`, `arecord`, `amixer`.
+> 관련 항목: `aplay`, `arecord`, `amixer`.
 > 더 많은 정보: <https://manned.org/speaker-test>.
 
 - 핑크 노이즈로 기본 스피커 테스트:

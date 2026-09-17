@@ -1,7 +1,7 @@
 # nix-shell
 
 > Nix 표현을 기반으로 대화형 셸 시작.
-> 같이 보기: `nix shell.3`.
+> 관련 항목: `nix shell.3`.
 > 더 많은 정보: <https://nix.dev/manual/nix/stable/command-ref/nix-shell.html>.
 
 - 현재 디렉터리의 `shell.nix` 또는 `default.nix`의 nix 표현으로 시작:

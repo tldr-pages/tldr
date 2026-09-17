@@ -23,3 +23,7 @@
 - Change a LUKS volume's passphrase:
 
 `cryptsetup luksChangeKey {{/dev/sdXY}}`
+
+- Display LUKS header information and key slot metadata of an encrypted device:
+
+`cryptsetup luksDump {{/dev/sdXY}}`

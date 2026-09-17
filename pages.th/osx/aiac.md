@@ -7,7 +7,7 @@
 
 `aiac get terraform {{for an azure storage account}}`
 
-- สร้าง Dockerfile สำหรับ nginx:
+- สร้าง Dockerfile สำหรับ `nginx`:
 
 `aiac get dockerfile {{for a secured nginx}}`
 

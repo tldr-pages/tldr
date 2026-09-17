@@ -1,7 +1,7 @@
 # systemctl cancel
 
 > Cancela uno o más trabajos pendientes en el administrador del sistema o de usuario.
-> Más información: <https://www.freedesktop.org/software/systemd/man/systemctl.html#cancel%20JOB%E2%80%A6>.
+> Más información: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#cancel%20JOB%E2%80%A6>.
 
 - Cancela un trabajo por su ID numérico:
 

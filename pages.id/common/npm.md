@@ -4,34 +4,34 @@
 > Mengelola proyek Node.js dan dependensi modulnya.
 > Informasi lebih lanjut: <https://docs.npmjs.com/cli/npm/>.
 
-- Membuat file `package.json` secara interaktif:
+- Buat berkas `package.json` dengan nilai pengaturan default (hapus `--yes` untuk membuatnya secara interaktif):
 
-`npm init`
+`npm init {{[-y|--yes]}}`
 
-- Unduh semua paket yang terdaftar sebagai dependensi di package.json:
+- Unduh semua paket yang terdaftar sebagai ketergantungan/dependency dalam package.json:
 
-`npm install`
+`npm {{[i|install]}}`
 
-- Unduh versi tertentu dari sebuah paket dan menambahkan ke daftar dependensi di `package.json`:
+- Unduh versi tertentu dari sebuah paket dan menambahkan ke daftar ketergantungan di `package.json`:
 
-`npm install {{nama_modul}}@{{versi}}`
+`npm {{[i|install]}} {{nama_modul}}@{{versi}}`
 
-- Unduh paket dan menambahkan ke daftar dependensi dev di package.json:
+- Unduh dan tambahkan paket ke daftar ketergantungan pengembangan (dev dependency) di package.json:
 
-`npm install {{nama_modul}} {{[-D|--save-dev]}}`
+`npm {{[i|install]}} {{nama_modul}} {{[-D|--save-dev]}}`
 
-- Unduh paket dan instal secara global:
+- Unduh dan pasang paket ke secara [g]lobal:
 
-`npm install {{[-g|--global]}} {{nama_modul}}`
+`npm {{[i|install]}} {{nama_modul}} {{[-g|--global]}}`
 
-- Copot pemasangan paket dan hapus dari daftar dependensi di `package.json`:
+- Copot pemasangan dan hapus paket dari daftar ketergantungan dalam `package.json`:
 
-`npm uninstall {{nama_modul}}`
+`npm {{[r|uninstall]}} {{nama_modul}}`
 
-- Mencetak pohon dependensi yang diinstal secara lokal:
+- Tampilkan daftar paket ketergantungan yang dipasang secara lokal:
 
-`npm list`
+`npm {{[ls|list]}}`
 
-- Buat daftar modul tingkat atas yang diinstal secara global:
+- Tampilkan daftar paket tingkat atas yang diinstal secara global:
 
-`npm list {{[-g|--global]}} --depth {{0}}`
+`npm {{[ls|list]}} {{[-g|--global]}} --depth {{0}}`

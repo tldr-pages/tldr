@@ -10,15 +10,15 @@
 
 - Run a command with a file lock, or exit if the lock is currently being held (with exit code 1):
 
-`flock {{path/to/lock.lock}} {{[-n|--nonblock]}} {{command}}`
+`flock {{[-n|--nonblock]}} {{path/to/lock.lock}} {{command}}`
 
 - Run a command with a file lock, or exit with a specific error code if the lock is currently being held:
 
-`flock {{path/to/lock.lock}} {{[-n|--nonblock]}} {{[-E|--conflict-exit-code]}} {{123}} {{command}}`
+`flock {{[-n|--nonblock]}} {{[-E|--conflict-exit-code]}} {{123}} {{path/to/lock.lock}} {{command}}`
 
 - Run a command with a file lock, waiting up to 10 seconds for the lock to be available before giving up:
 
-`flock {{path/to/lock.lock}} {{[-w|--timeout]}} 10 {{command}}`
+`flock {{[-w|--timeout]}} 10 {{path/to/lock.lock}} {{command}}`
 
 - Backup a bunch of files, waiting for the previous `tar` command to finish if it's still running elsewhere and holding the same lock file (can be used in a `cron` job that runs often):
 

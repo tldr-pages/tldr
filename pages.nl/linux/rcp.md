@@ -8,7 +8,7 @@
 
 `rcp {{pad/naar/lokaal_bestand}} {{gebruikersnaam}}@{{remote_host}}:/{{pad/naar/bestemming}}/`
 
-- Kopieer een directory recursief:
+- Kopieer een map recursief:
 
 `rcp {{[-r|--recursive]}} {{pad/naar/lokale_map}} {{gebruikersnaam}}@{{remote_host}}:/{{pad/naar/bestemming}}/`
 

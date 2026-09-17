@@ -1,6 +1,8 @@
 # egrep
 
 > Este comando é um apelido de `grep --extended-regexp`.
+> Veja também: `regex`.
+> Mais informações: <https://manned.org/egrep>.
 
 - Veja documentação sobre o comando original:
 

@@ -5,11 +5,11 @@
 
 - 하나 이상의 파일에서 새 Gist 생성:
 
-`gh gist create {{경로/대상/파일1 경로/대상/파일2 ...}}`
+`gh gist {{[new|create]}} {{경로/대상/파일1 경로/대상/파일2 ...}}`
 
 - 특정 설명으로 새 Gist 생성:
 
-`gh gist create {{경로/대상/파일1 경로/대상/파일2 ...}} --desc "{{설명}}"`
+`gh gist {{[new|create]}} {{경로/대상/파일1 경로/대상/파일2 ...}} {{[-d|--desc]}} "{{설명}}"`
 
 - Gist 수정:
 
@@ -17,8 +17,8 @@
 
 - 현재 로그인된 사용자가 소유한 최대 42개의 Gist 나열:
 
-`gh gist list --limit {{42}}`
+`gh gist {{[ls|list]}} {{[-L|--limit]}} 42`
 
 - 기본 브라우저에서 마크다운 렌더링 없이 Gist 보기:
 
-`gh gist view {{id|url}} --web --raw`
+`gh gist view {{id|url}} {{[-w|--web]}} {{[-r|--raw]}}`

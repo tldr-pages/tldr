@@ -1,7 +1,7 @@
 # groupmod
 
 > 시스템에서 기존 사용자 그룹을 수정합니다.
-> 같이 보기: `groups`, `groupadd`, `groupdel`.
+> 관련 항목: `groups`, `groupadd`, `groupdel`.
 > 더 많은 정보: <https://manned.org/groupmod>.
 
 - 그룹 이름 변경:
@@ -10,4 +10,4 @@
 
 - 그룹 ID 변경:
 
-`sudo groupmod {{[-g|--gid]}} {{새_ID}} {{그룹_이름}}`
+`sudo groupmod {{[-g|--gid]}} {{새_id}} {{그룹_이름}}`

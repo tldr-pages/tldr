@@ -1,6 +1,7 @@
 # http
 
 > HTTPie: klient HTTP przeznaczony do testowania, debugowania i ogólnej interakcji z API i serwerami HTTP.
+> Zobacz także: `xh`.
 > Więcej informacji: <https://httpie.io/docs/cli/usage>.
 
 - Wykonaj proste żądanie GET (wyświetla nagłówki odpowiedzi i zawartość):

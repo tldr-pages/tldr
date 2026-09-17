@@ -18,7 +18,7 @@
 
 - Toon de tldr-pagina voor een commando van een specifiek platform:
 
-`tldr {{[-p|--platform]}} {{android|common|freebsd|linux|osx|netbsd|openbsd|sunos|windows}} {{commando}}`
+`tldr {{[-p|--platform]}} {{android|cisco-ios|common|dos|freebsd|linux|netbsd|openbsd|osx|sunos|windows}} {{commando}}`
 
 - Update de lokale cache van tldr-pagina's:
 
@@ -28,10 +28,10 @@
 
 `tldr {{[-l|--list]}}`
 
-- Toon alle beschikbare subcommandopagina's voor een commando:
+- Toon de tldr-pagina voor een commando en toon korte opties:
 
-`tldr {{[-l|--list]}} | grep {{commando}} | column`
+`tldr --short-options {{commando}}`
 
-- Toon de tldr-pagina voor een willekeurig commando:
+- Blader door tldr-pagina's in een terminalvenster (`fzf` moet beschikbaar zijn):
 
-`tldr {{[-l|--list]}} | shuf {{[-n|--head-count]}} 1 | xargs tldr`
+`tldr {{[-l|--list]}} | fzf --preview "tldr {1} --color=always" --preview-window=right,70% | xargs tldr`

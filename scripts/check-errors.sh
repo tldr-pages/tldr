@@ -5,7 +5,6 @@ echo Placeholders
 tput sgr0
 grep -r -- "{{\[[^}]*\]}[^}]"
 grep -r -- "[^{]{\[.*\]}}"
-grep -rE "{{\[[a-z]\|--[a-z]+\]}}"
 grep -r "{{-[a-zA-Z][a-zA-Z]|-"
 grep -r "{{\[ "
 grep -r " ]}}"
@@ -25,6 +24,7 @@ echo
 echo Man pages
 tput sgr0
 grep -r www.manned
+grep -r linux.die
 grep -r linux.org/docs
 grep -r linuxcommandlibrary
 grep -r /html_node/| grep -Ev "coreutils|emacs|grub"
@@ -43,6 +43,7 @@ tput sgr0
 grep -r "?ref_type=heads"
 grep -r "?tab=readme-ov-file"
 grep -r "?utm_source=chatgpt.com"
+grep -r "?gi-language"
 
 tput setaf 5
 echo
@@ -66,17 +67,34 @@ tput setaf 5
 echo
 echo Imperative mood
 tput sgr0
+grep -r Calculates
+grep -r Captures
+grep -r Checks
+grep -r Controls
 grep -r Converts
 grep -r Deploys
 grep -r Displays
+grep -r Enables
+grep -r Encodes
+grep -r Evaluates
 grep -r Executes
+grep -r Extracts
 grep -r Generates
 grep -r Gets
 grep -r Initializes
+grep -r Inspects
 grep -r Launches
+grep -r Manages
+grep -r Performs
+grep -r Prints
+grep -r Publishes
 grep -r Queries
 grep -r Resolves
 grep -r Restarts
+grep -r Scans
+grep -r Sets
+grep -r Starts
+grep -r Stops
 
 tput setaf 5
 echo
@@ -85,7 +103,10 @@ tput sgr0
 grep -r …
 grep -r –
 grep -r —
+grep -r "´"
+grep -r "‘"
 grep -r "’"
+grep -r '“'
 grep -r '”'
 grep -r \`\`
 grep -r $'\u00A0'
@@ -95,7 +116,20 @@ grep -r $'\u200C'
 grep -r $'\u200D'
 grep -r $'\u200F'
 grep -r $'\u202F'
+grep -r $'\u3000'
 grep -r $'\uFEFF'
+grep -r «
+grep -r »
+
+tput setaf 5
+echo
+echo Punctuation
+tput sgr0
+grep -r "\.\.$"
+grep -r "::$"
+grep -r " ।$"
+grep -r " ：$"
+grep -r " 。"
 
 tput setaf 5
 echo
@@ -104,6 +138,7 @@ tput sgr0
 grep -ir initialise
 grep -ir licence
 grep -r backtic | grep -v backtick
+grep -ri adress
 
 tput setaf 5
 echo
@@ -123,3 +158,5 @@ echo
 echo Use of apostrophe instead of backtick
 tput sgr0
 grep -vr ^\` | grep "'[a-zA-Z][a-zA-Z]*'"
+
+echo

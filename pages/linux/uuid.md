@@ -10,23 +10,23 @@
 
 - Generate a UUIDv4 (based on random data):
 
-`uuid -v {{4}}`
+`uuid -v 4`
 
 - Generate multiple UUIDv4 identifiers at once:
 
-`uuid -v {{4}} -n {{number_of_uuids}}`
+`uuid -v 4 -n {{number_of_uuids}}`
 
 - Generate a UUIDv4 and specify the output format:
 
-`uuid -v {{4}} -F {{BIN|STR|SIV}}`
+`uuid -v 4 -F {{BIN|STR|SIV}}`
 
 - Generate a UUIDv4 and write the output to a file:
 
-`uuid -v {{4}} -o {{path/to/file}}`
+`uuid -v 4 -o {{path/to/file}}`
 
 - Generate a UUIDv5 (based on the supplied object name) with a specified namespace prefix:
 
-`uuid -v {{5}} ns:{{DNS|URL|OID|X500}} {{object_name}}`
+`uuid -v 5 ns:{{DNS|URL|OID|X500}} {{object_name}}`
 
 - Decode a given UUID:
 

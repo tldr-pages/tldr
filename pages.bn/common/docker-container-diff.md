@@ -1,8 +1,12 @@
 # docker container diff
 
-> এই কমান্ডটি `docker diff` - এর একটি উপনাম।
+> একটি কন্টেইনারের ফাইলসিস্টেমে থাকা ফাইল বা ডিরেক্টরির পরিবর্তনসমূহ পরিদর্শন করতে ব্যবহৃত হয়।
 > আরও তথ্য পাবেন: <https://docs.docker.com/reference/cli/docker/container/diff/>।
 
-- মূল কমান্ডের ডকুমেন্টেশন দেখুন:
+- কন্টেইনার তৈরি হওয়ার পর থেকে ঘটে যাওয়া পরিবর্তনসমূহ পরিদর্শন করুন:
 
-`tldr docker diff`
+`docker {{[diff|container diff]}} {{container}}`
+
+- সাহায্য প্রদর্শন:
+
+`docker {{[diff|container diff]}} --help`

@@ -2,6 +2,6 @@
 
 > Bu komut `docker container top` için bir takma addır.
 
-- Asıl komutun belgelerini görüntüleyin:
+- Asıl komutun dokümantasyonunu görüntüleyin:
 
 `tldr docker container top`

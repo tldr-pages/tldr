@@ -10,7 +10,7 @@
 
 - Start browsh in a specific webpage:
 
-`browsh --startup-url {{URL}}`
+`browsh --startup-url {{url}}`
 
 - Focus URL bar:
 

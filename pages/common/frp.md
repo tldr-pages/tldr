@@ -1,7 +1,8 @@
 # frp
 
 > Fast Reverse Proxy: quickly set up network tunnels to expose certain services to the Internet or other external networks.
-> More information: <https://github.com/fatedier/frp>.
+> Note: `frp` isn't a command, but a set of commands.
+> More information: <https://github.com/fatedier/frp#example-usage>.
 
 - View documentation for `frpc`, the `frp` client component:
 

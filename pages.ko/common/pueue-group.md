@@ -9,8 +9,8 @@
 
 - 사용자 정의 그룹 추가:
 
-`pueue group --add "{{그룹_이름}}"`
+`pueue group add "{{그룹_이름}}"`
 
 - 그룹 제거 및 해당 작업을 기본 그룹으로 이동:
 
-`pueue group --remove "{{그룹_이름}}"`
+`pueue group remove "{{그룹_이름}}"`

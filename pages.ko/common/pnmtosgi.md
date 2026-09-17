@@ -13,4 +13,4 @@
 
 - SGI 이미지 헤더의 `imagename` 필드에 지정된 문자열을 기록:
 
-`pnmtosgi -imagename {{문자열}} {{경로/대상/입력.pnm}} > {{경로/대상/출력.sgi}}`
+`pnmtosgi {{[-i|-imagename]}} {{문자열}} {{경로/대상/입력.pnm}} > {{경로/대상/출력.sgi}}`

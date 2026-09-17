@@ -1,7 +1,7 @@
 # xzless
 
 > `xz` 및 `lzma` 압축 파일에서 텍스트를 표시.
-> 같이 보기: `less`.
+> 관련 항목: `less`.
 > 더 많은 정보: <https://manned.org/xzless>.
 
 - 압축 파일 보기:

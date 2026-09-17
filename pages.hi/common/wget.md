@@ -15,11 +15,11 @@
 
 - अनुरोधों के बीच 3-सेकंड अंतराल के साथ एक एकल वेब पेज और उसके सभी संसाधन डाउनलोड करें (स्क्रिप्ट्स, स्टाइलशीट, चित्र, आदि।):
 
-`wget {{[-p|--page-requisites]}} {{[-k|--convert-links]}} {{[-w|--wait]}} 3 {{https://example.com/somepage.html}}`
+`wget {{[-pkw|--page-requisites --convert-links --wait]}} 3 {{https://example.com/somepage.html}}`
 
 - एक निर्देशिका और उसकी उप-निर्देशिकाओं में सभी सूचीबद्ध फ़ाइलें डाउनलोड करें (अंतर्निहित पृष्ठ तत्व डाउनलोड नहीं करता):
 
-`wget {{[-m|--mirror]}} {{[-np|--no-parent]}} {{https://example.com/somepath/}}`
+`wget {{[-mnp|--mirror --no-parent]}} {{https://example.com/somepath/}}`
 
 - डाउनलोड की गति और कनेक्शन के पुन: प्रयास की संख्या सीमित करें:
 

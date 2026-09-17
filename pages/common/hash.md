@@ -15,7 +15,7 @@
 
 `hash -d {{command}}`
 
-- Print the full path of `command`:
+- Print the full path of a command:
 
 `hash -t {{command}}`
 

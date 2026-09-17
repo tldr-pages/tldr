@@ -32,6 +32,6 @@
 
 `uname {{[-n|--nodename]}}`
 
-- 显示帮助信息：
+- 显示帮助：
 
 `uname --help`

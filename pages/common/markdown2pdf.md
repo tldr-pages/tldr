@@ -17,4 +17,4 @@
 
 - Convert from URL (this will convert a Markdown file at that URL to a local PDF file):
 
-`markdown2pdf {{[-u|--url]}} {{URL}} {{[-o|--output]}} {{path/to/output_file.pdf}}`
+`markdown2pdf {{[-u|--url]}} {{url}} {{[-o|--output]}} {{path/to/output_file.pdf}}`

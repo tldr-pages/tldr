@@ -5,7 +5,7 @@
 
 - 개인 키와 인증서 실행 및 생성:
 
-`agate --content {{경로/대상/컨텐츠/}} --addr {{[::]:1965}} --addr {{0.0.0.0:1965}} --hostname {{example.com}} --lang {{en-US}}`
+`agate --content {{경로/대상/컨텐츠}}/ --addr {{[::]:1965}} --addr {{0.0.0.0:1965}} --hostname {{example.com}} --lang {{en-US}}`
 
 - 서버 실행:
 
@@ -13,4 +13,4 @@
 
 - 도움말 표시:
 
-`agate -h`
+`agate {{[-h|--help]}}`

@@ -14,11 +14,11 @@
 
 - 지정된 X, Y 좌표에 소를 표시:
 
-`xcowsay --at={{X}},{{Y}}`
+`xcowsay --at {{X}},{{Y}}`
 
 - 다른 크기의 소를 표시:
 
-`xcowsay --cow-size={{small|med|large}}`
+`xcowsay --cow-size {{small|med|large}}`
 
 - 말풍선 대신 생각풍선을 표시:
 
@@ -26,4 +26,4 @@
 
 - 기본 소 대신 다른 이미지를 표시:
 
-`xcowsay --image={{경로/대상/파일}}`
+`xcowsay --image {{경로/대상/파일}}`

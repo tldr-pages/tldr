@@ -2,6 +2,6 @@
 
 > Bu komut `xml depyx` için bir takma addır.
 
-- Asıl komutun belgelerini görüntüleyin:
+- Asıl komutun dokümantasyonunu görüntüleyin:
 
 `tldr xml depyx`

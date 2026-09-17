@@ -5,11 +5,11 @@
 
 - Adiciona um arquivo torrent ou link magnético para o Transmission e baixa para um diretório específico:
 
-`transmission-remote {{hostname}} {{[-a|--all]}} {{torrent|url}} {{[-w|--download-dir]}} {{/caminho/para/diretorio_download}}`
+`transmission-remote {{hostname}} {{[-a|--all]}} {{torrent|url}} {{[-w|--download-dir]}} /{{caminho/para/diretorio_download}}`
 
 - Altera o diretório de download padrão:
 
-`transmission-remote {{hostname}} {{[-w|--download-dir]}} {{/caminho/para/diretorio_download}}`
+`transmission-remote {{hostname}} {{[-w|--download-dir]}} /{{caminho/para/diretorio_download}}`
 
 - Lista todos os torrents:
 
@@ -29,4 +29,4 @@
 
 - Move os torrents 1-10 e 15-20 para um novo diretório (que será criado se não existir):
 
-`transmission-remote {{hostname}} {{[-t|--torrent]}} "1-10,15-20" --move {{/caminho/para/nodo_diretorio}}`
+`transmission-remote {{hostname}} {{[-t|--torrent]}} "1-10,15-20" --move /{{caminho/para/nodo_diretorio}}`

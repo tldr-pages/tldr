@@ -9,4 +9,4 @@
 
 - Display status of GitHub checks for a commit:
 
-`hub ci-status {{[-v|--verbose]}} {{commit_SHA}}`
+`hub ci-status {{[-v|--verbose]}} {{commit_sha}}`

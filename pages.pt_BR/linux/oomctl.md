@@ -5,4 +5,4 @@
 
 - Mostra o estado atual dos contextos de cgroups e do sistema armazenados pelo `systemd-oomd`:
 
-`oomctl dump`
+`oomctl`

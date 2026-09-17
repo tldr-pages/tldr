@@ -10,7 +10,11 @@
 
 - Show events starting from or between specific dates (also takes relative dates e.g. "tomorrow"):
 
-`gcalcli agenda {{mm/dd}} [{{mm/dd}}]`
+`gcalcli agenda {{mm/dd}}`
+
+- Show events between specific dates (also takes relative dates e.g. "tomorrow"):
+
+`gcalcli agenda {{mm/dd}} {{mm/dd}}`
 
 - List events from a specific calendar:
 

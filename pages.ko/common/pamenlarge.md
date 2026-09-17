@@ -1,7 +1,7 @@
 # pamenlarge
 
 > 픽셀을 복제하여 PAM 이미지를 확대합니다.
-> 같이 보기: `pbmreduce`, `pamditherbw`, `pbmpscale`.
+> 관련 항목: `pbmreduce`, `pamditherbw`, `pbmpscale`.
 > 더 많은 정보: <https://netpbm.sourceforge.net/doc/pamenlarge.html>.
 
 - 지정된 이미지를 주어진 배율로 확대:

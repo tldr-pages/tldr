@@ -2,6 +2,7 @@
 
 > Bestanden tonen en samenvoegen.
 > Een `cat` kopie met syntax highlighting en Git integratie.
+> Zie ook: `cat`.
 > Meer informatie: <https://manned.org/bat>.
 
 - Toon de inhoud van een of meerdere bestanden in `stdout`:
@@ -12,9 +13,9 @@
 
 `bat {{pad/naar/bestand1 pad/naar/bestand2 ...}} > {{pad/naar/doelbestand}}`
 
-- Verwijder decoraties en schakel paging uit (`--style plain` kan vervangen worden met `-p` of beide opties met `-pp`):
+- Verwijder decoraties en schakel paging uit:
 
-`bat --style plain --pager never {{pad/naar/bestand}}`
+`bat {{[-pp|--style plain --pager never]}} {{pad/naar/bestand}}`
 
 - Highlight een specifieke regel of een reeks van regels met een andere achtergrondkleur:
 

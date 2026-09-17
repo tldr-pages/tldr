@@ -6,12 +6,12 @@
 
 - Trova righe contenenti una certa stringa nella colonna 1:
 
-`csvgrep -c {{1}} -m {{stringa}} {{data.csv}}`
+`csvgrep {{[-c|--columns]}} {{1}} {{[-m|--match]}} {{stringa}} {{data.csv}}`
 
 - Trova righe per le quali le colonne 3 e 4 soddisfano una certa espressione regolare:
 
-`csvgrep -c {{3,4}} -r {{espressione_regolare}} {{data.csv}}`
+`csvgrep {{[-c|--columns]}} {{3,4}} {{[-r|--regex]}} {{espressione_regolare}} {{data.csv}}`
 
 - Trova righe dove la colonna "nome" NON include la stringa "Mario Rossi":
 
-`csvgrep -i -c {{nome}} -m "{{Mario Rossi}}" {{data.csv}}`
+`csvgrep {{[-i|--invert-match]}} {{[-c|--columns]}} {{nome}} {{[-m|--match]}} "{{Mario Rossi}}" {{data.csv}}`

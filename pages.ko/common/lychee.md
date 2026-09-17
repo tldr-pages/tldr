@@ -17,7 +17,7 @@
 
 - 디렉터리 구조 내 파일에서 깨진 URL 확인:
 
-`grep -r "{{패턴}}" | lychee -`
+`grep {{[-r|--recursive]}} "{{패턴}}" | lychee -`
 
 - 도움말 표시:
 

@@ -1,6 +1,6 @@
 # vc
 
-> Tämä on alias komennolle `vercel`.
+> Tämä on alias `vercel` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

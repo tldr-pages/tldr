@@ -2,7 +2,7 @@
 
 > Power off the system.
 > See also: `poweroff`.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#poweroff>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#poweroff>.
 
 - Power off the system:
 

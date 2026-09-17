@@ -1,6 +1,6 @@
 # lzdiff
 
-> Tämä on alias komennolle `xzdiff`.
+> Tämä on alias `xzdiff` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

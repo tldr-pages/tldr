@@ -9,12 +9,12 @@
 
 - QEMU 가상 머신을 실행하고 상태를 특정 디렉토리에 저장:
 
-`virt-qemu-run --root={{경로/대상/폴더}} {{경로/대상/guest.xml}}`
+`virt-qemu-run {{[-r|--root]}} {{경로/대상/폴더}} {{경로/대상/guest.xml}}`
 
 - QEMU 가상 머신을 실행하고 시작에 대한 자세한 정보 표시:
 
-`virt-qemu-run --verbose {{경로/대상/guest.xml}}`
+`virt-qemu-run {{[-v|--verbose]}} {{경로/대상/guest.xml}}`
 
 - 도움말 표시:
 
-`virt-qemu-run --help`
+`virt-qemu-run {{[-h|--help]}}`

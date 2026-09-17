@@ -1,7 +1,7 @@
 # findstr
 
 > 1 つ以上のファイル内で指定されたテキストを検索します。
-> もっと詳しく: <https://learn.microsoft.com/windows-server/administration/windows-commands/findstr>。
+> 詳細情報: <https://learn.microsoft.com/windows-server/administration/windows-commands/findstr>。
 
 - 全てのファイルから 1 つ以上の文字列を検索:
 

@@ -2,7 +2,7 @@
 
 > Ftrace Linux 커널 내부 트레이서와 상호 작용하는 도구.
 > 이 도구는 root 사용자로만 실행됩니다.
-> 같이 보기: `trace-cmd list`, `trace-cmd record`, `trace-cmd report`.
+> 관련 항목: `trace-cmd list`, `trace-cmd record`, `trace-cmd report`.
 > 더 많은 정보: <https://manned.org/trace-cmd>.
 
 - 트레이싱 시스템의 상태 표시:

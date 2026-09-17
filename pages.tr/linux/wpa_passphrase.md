@@ -5,8 +5,8 @@
 
 - Standart girişten parolayı okuyarak belirtilen SSID için WPA-PSK anahtarını hesapla ve görüntüle:
 
-`wpa_passphrase {{SSID}}`
+`wpa_passphrase {{ssid}}`
 
 - Parolayı argüman olarak belirterek belirtilen SSID için WPA-PSK anahtarını hesapla ve görüntüle:
 
-`wpa_passphrase {{SSID}} {{parola}}`
+`wpa_passphrase {{ssid}} {{parola}}`

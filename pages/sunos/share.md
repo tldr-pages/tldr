@@ -3,7 +3,7 @@
 > Make local resource/filesystem available for mounting by remote systems.
 > More information: <https://docs.oracle.com/cd/E36784_01/html/E36825/gntjt.html>.
 
-- List all currently shared file systems:
+- List all currently shared filesystems:
 
 `share`
 

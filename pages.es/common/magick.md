@@ -23,4 +23,4 @@
 
 - Crea un archivo PDF a partir de todas las imágenes JPEG en el directorio actual:
 
-`magick {{*.jpg}} -adjoin {{ruta/a/archivo.pdf}}`
+`magick {{*.jpg}} -adjoin {{ruta/al/archivo.pdf}}`

@@ -1,7 +1,6 @@
 # aapt
 
-> Alat Pemaketan Android Asset.
-> Susun dan buat paket resource aplikasi Android.
+> Alat Pemaketan Aset Android: susun dan buat paket resource aplikasi Android.
 > Informasi lebih lanjut: <https://manned.org/aapt>.
 
 - Tampilkan daftar berkas yang termuat dalam suatu arsip APK:

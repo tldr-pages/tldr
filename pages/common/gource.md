@@ -20,6 +20,10 @@
 
 `gource {{[-f|--fullscreen]}} {{[-b|--background-colour]}} {{hex_color_code}}`
 
+- Highlight the name of a specific user:
+
+`gource --follow-user {{user_name}}`
+
 - Specify the animation title:
 
 `gource --title {{title}}`
@@ -28,10 +32,6 @@
 
 `<Space>`
 
-- Adjust simulation speed:
+- Adjust simulation speed and timescale:
 
-`<{{+|-}}>`
-
-- Display help:
-
-`gource {{[-h|--help]}}`
+`<{{+|-|<|>}}>`

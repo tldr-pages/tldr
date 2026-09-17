@@ -20,7 +20,7 @@
 
 `gitui {{[-f|--file]}} {{path/to/file}}`
 
-- Use notify-based file system watcher instead of tick-based update:
+- Use notify-based filesystem watcher instead of tick-based update:
 
 `gitui --watcher`
 

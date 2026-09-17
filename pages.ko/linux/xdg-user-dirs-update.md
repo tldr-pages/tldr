@@ -1,7 +1,7 @@
 # xdg-user-dirs-update
 
 > XDG 사용자 디렉터리 업데이트.
-> 같이 보기: `xdg-user-dir`.
+> 관련 항목: `xdg-user-dir`.
 > 더 많은 정보: <https://manned.org/xdg-user-dirs-update>.
 
 - XDG의 DESKTOP 디렉터리를 지정한 디렉터리로 변경 (절대 경로여야 함):

@@ -1,6 +1,7 @@
 # stty
 
 > Настройка параметров интерфейса терминального устройства.
+> Смотрите также: `tput`.
 > Больше информации: <https://www.gnu.org/software/coreutils/manual/html_node/stty-invocation.html>.
 
 - Показать размеры текущего терминала:

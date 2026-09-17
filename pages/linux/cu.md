@@ -1,6 +1,7 @@
 # cu
 
 > Call Up another system and act as a dial-in/serial terminal or perform file transfers with no error checking.
+> See also: `picocom`, `minicom`, `tio`.
 > More information: <https://manned.org/cu>.
 
 - Open a given serial port:

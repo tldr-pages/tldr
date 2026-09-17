@@ -14,7 +14,7 @@
 
 - Despeja configurações do daemon em formato JSON:
 
-`transmission-daemon --dump-settings > {{caminho/para/arquivo.json}}`
+`transmission-daemon {{[-d|--dump-settings]}} > {{caminho/para/arquivo.json}}`
 
 - Inicia com configurações específicas para a interface web:
 

@@ -9,8 +9,8 @@
 
 - 보고서를 `stdout`으로 출력:
 
-`hardinfo -r`
+`hardinfo {{[-r|--generate-report]}}`
 
 - 보고서를 HTML 파일로 저장:
 
-`hardinfo -r -f html > hardinfo.html`
+`hardinfo {{[-r|--generate-report]}} {{[-f|--report-format]}} html > hardinfo.html`

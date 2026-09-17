@@ -5,16 +5,16 @@
 
 - 액세스 토큰을 사용하여 `doctl databases firewalls` 명령을 실행:
 
-`doctl databases firewalls {{명령어}} --access-token {{액세스_토큰}}`
+`doctl {{[d|databases]}} {{[fw|firewalls]}} {{명령어}} {{[-t|--access-token]}} {{액세스_토큰}}`
 
 - 특정 데이터베이스에 대한 방화벽 규칙 목록을 검색:
 
-`doctl databases firewalls list`
+`doctl {{[d|databases]}} {{[fw|firewalls]}} {{[ls|list]}}`
 
 - 특정 데이터베이스에 데이터베이스 방화벽 규칙을 추가:
 
-`doctl databases firewalls append {{데이터베이스_아이디}} --rule {{droplet|k8s|ip_addr|tag|app}}:{{value}}`
+`doctl {{[d|databases]}} {{[fw|firewalls]}} {{[a|append]}} {{데이터베이스_아이디}} --rule {{droplet|k8s|ip_addr|tag|app}}:{{value}}`
 
 - 특정 데이터베이스에 대한 방화벽 규칙을 추가:
 
-`doctl databases firewalls remove {{데이터베이스_아이디}} {{룰_uuid}}`
+`doctl {{[d|databases]}} {{[fw|firewalls]}} {{[rm|remove]}} {{데이터베이스_아이디}} {{룰_uuid}}`

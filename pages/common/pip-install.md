@@ -19,9 +19,17 @@
 
 `pip install {{[-r|--requirement]}} {{path/to/requirements.txt}}`
 
-- Install packages from a URL or local file archive (e.g. `.tar.gz`, `.whl`):
+- Install a package from a local archive or directory:
 
-`pip install {{[-f|--find-links]}} {{url|path/to/file}}`
+`pip install {{path/to/file.whl|path/to/file.tar.gz|path/to/directory}}`
+
+- Install a package from a Git repository:
+
+`pip install git+https://{{example.com}}/{{user}}/{{repository}}.git`
+
+- Install a package from an alternative source (URL or directory) instead of PyPI:
+
+`pip install {{[-f|--find-links]}} {{url|path/to/directory}} {{package}}`
 
 - Install the local package in the current directory in develop (editable) mode:
 

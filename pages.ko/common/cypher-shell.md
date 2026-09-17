@@ -1,7 +1,7 @@
 # cypher-shell
 
 > 대화형 세션을 열고 Neo4j 인스턴스에 대해 Cypher 쿼리를 실행.
-> 같이 보기: `neo4j-admin`, `mysql`.
+> 관련 항목: `neo4j-admin`, `mysql`.
 > 더 많은 정보: <https://neo4j.com/docs/operations-manual/current/cypher-shell/>.
 
 - 기본 포트에서 로컬 인스턴스에 연결 (`neo4j://localhost:7687`):

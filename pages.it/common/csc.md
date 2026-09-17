@@ -5,7 +5,7 @@
 
 - Compila uno o più file C# in un eseguibile da command-line:
 
-`csc {{percorso/del/file_input_a.cs}} {{percorso/del/file_input_b.cs}}`
+`csc {{percorso/del/file_input_a.cs percorso/del/file_input_b.cs ...}}`
 
 - Specifica il nome del file output:
 

@@ -9,8 +9,8 @@
 
 - Skanuj maksymalną liczbę gwiazdek w repozytorium:
 
-`astronomer {{tldr-pages/tldr-node-client}} --stars {{50}}`
+`astronomer {{tldr-pages/tldr-node-client}} {{[-s|--stars]}} {{50}}`
 
 - Skanuj repozytorium, w tym raporty porównawcze:
 
-`astronomer {{tldr-pages/tldr-node-client}} --verbose`
+`astronomer {{tldr-pages/tldr-node-client}} {{[-v|--verbose]}}`

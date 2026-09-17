@@ -2,6 +2,6 @@
 
 > Det här kommandot är ett alias för `ugrep --config --pretty --sort`.
 
-- Se dokumentationen för orginalkommandot:
+- Se dokumentationen för originalkommandot:
 
 `tldr ugrep`

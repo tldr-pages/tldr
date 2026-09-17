@@ -1,6 +1,6 @@
 # br
 
-> Tämä on alias komennolle `broot`.
+> Tämä on alias `broot` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

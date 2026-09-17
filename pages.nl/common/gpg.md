@@ -1,6 +1,7 @@
 # gpg
 
 > GNU Privacy Guard, een OpenPGP encryptie- en ondertekeningstool.
+> Zie ook: `sq`.
 > Meer informatie: <https://gnupg.org/documentation/manuals/gnupg/Invoking-GPG.html>.
 
 - Maak interactief een GPG publieke en private sleutel:
@@ -27,9 +28,9 @@
 
 `gpg {{[-d|--decrypt]}} {{doc.txt.gpg}}`
 
-- Importeer een publieke sleutel:
+- Importeer een publieke sleutel vanaf WKD (Web Key Directory) als de sleutel nog niet in de sleutelring zit:
 
-`gpg --import {{public.gpg}}`
+`gpg --locate-keys {{alice@example.com}}`
 
 - Exporteer de publieke/privé sleutel voor `alice@example.com` (uitvoer naar `stdout`):
 

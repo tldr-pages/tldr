@@ -1,7 +1,7 @@
 # flatpak
 
 > Flatpak アプリケーションとランタイムのビルド、インストール、実行をします。
-> もっと詳しく: <https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak>。
+> 詳細情報: <https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak>。
 
 - インストール済のアプリケーションを実行する:
 

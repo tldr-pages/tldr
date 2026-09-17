@@ -1,13 +1,17 @@
 # xdelta
 
-> Delta encoding utility.
-> Often used for applying patches to binary files.
-> More information: <https://github.com/jmacd/xdelta>.
+> A delta encoding utility to generate and apply patches to binary files.
+> For the modern version (v3), see `xdelta3`.
+> More information: <https://manned.org/xdelta>.
 
-- Apply a patch:
+- Generate a patch (delta) between two files:
 
-`xdelta -d -s {{path/to/input_file}} {{path/to/delta_file.xdelta}} {{path/to/output_file}}`
+`xdelta delta {{path/to/old_file}} {{path/to/new_file}} {{path/to/patch_file}}`
 
-- Create a patch:
+- Apply a patch to an old file to reconstruct the new file:
 
-`xdelta -e -s {{path/to/old_file}} {{path/to/new_file}} {{path/to/output_file.xdelta}}`
+`xdelta patch {{path/to/patch_file}} {{path/to/old_file}} {{path/to/new_file}}`
+
+- Generate a patch with a specific compression level:
+
+`xdelta delta -{{0..9}} {{path/to/old_file}} {{path/to/new_file}} {{path/to/patch_file}}`

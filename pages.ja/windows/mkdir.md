@@ -1,7 +1,7 @@
 # mkdir
 
 > ディレクトリを作成します。
-> もっと詳しく: <https://learn.microsoft.com/windows-server/administration/windows-commands/mkdir>。
+> 詳細情報: <https://learn.microsoft.com/windows-server/administration/windows-commands/mkdir>。
 
 - ディレクトリを作成します:
 

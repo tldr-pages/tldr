@@ -1,28 +1,29 @@
 # aws s3
 
 > AWS S3용 CLI - 웹 서비스 인터페이스를 통해 스토리지를 제공합니다.
+> `cp`와 같은 일부 하위 명령어는 별도의 사용법 문서를 제공합니다.
 > 더 많은 정보: <https://docs.aws.amazon.com/cli/latest/reference/s3/>.
 
 - 버킷 안의 파일 보기:
 
-`aws s3 ls {{bucket_name}}`
+`aws s3 ls {{버킷_이름}}`
 
 - 로컬에서 버킷으로 파일 및 디렉토리 동기화:
 
-`aws s3 sync {{path/to/files}} s3://{{bucket_name}}`
+`aws s3 sync {{경로/대상/디렉토리}} s3://{{버킷_이름}}`
 
 - 버킷에서 로컬로 파일 및 디렉토리 동기화:
 
-`aws s3 sync s3://{{bucket_name}} {{path/to/target}}`
+`aws s3 sync s3://{{버킷_이름}} {{경로/대상/타겟}}`
 
-- 제외 된 파일 및 디렉토리 동기화:
+- 특정 파일을 제외하고 디렉터리 파일을 동기화:
 
-`aws s3 sync {{path/to/files}} s3://{{bucket_name}} --exclude {{path/to/file}} --exclude {{path/to/directory}}/*`
+`aws s3 sync {{경로/대상/디렉토리}} s3://{{버킷_이름}} --exclude {{경로/대상/파일}} --exclude {{경로/대상/디렉토리}}/*`
 
-- 버킷에서 파일 제거:
+- 버킷에서 파일 삭제:
 
-`aws s3 rm s3://{{bucket}}/{{path/to/file}}`
+`aws s3 rm s3://{{버킷}}/{{경로/대상/파일}}`
 
-- 변경 사항만 미리보기:
+- 변경 사항 미리보기:
 
-`aws s3 {{any_command}} --dryrun`
+`aws s3 {{어떤_명령어}} --dryrun`

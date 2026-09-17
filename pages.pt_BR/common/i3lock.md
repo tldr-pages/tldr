@@ -9,24 +9,24 @@
 
 - Bloqueia a tela com uma cor de fundo (formato rrggbb):
 
-`i3lock --color {{0000ff}}`
+`i3lock {{[-c|--color]}} {{0000ff}}`
 
 - Bloqueia a tela com uma imagem PNG:
 
-`i3lock --image {{caminho/para/imagem.png}}`
+`i3lock {{[-i|--image]}} {{caminho/para/imagem.png}}`
 
 - Bloqueia a tela e disabilita o indicador de desbloqueio (remove as resposta do sistema ao pressionar alguma tecla):
 
-`i3lock --no-unlock-indicator`
+`i3lock {{[-u|--no-unlock-indicator]}}`
 
 - Bloqueia a tela e não esconde o ponteiro do mouse:
 
-`i3lock --pointer {{default}}`
+`i3lock {{[-p|--pointer]}} {{default}}`
 
 - Bloqueia a tela com uma imagem PNG sendo mostrada em todos os monitores:
 
-`i3lock --image {{path/to/imagem.png}} --tiling`
+`i3lock {{[-i|--image]}} {{path/to/imagem.png}} {{[-t|--tiling]}}`
 
 - Bloqueia a tela e mostra o número de tentativas de login que falharam:
 
-`i3lock --show-failed-attempts`
+`i3lock {{[-f|--show-failed-attempts]}}`

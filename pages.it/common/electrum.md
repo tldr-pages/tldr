@@ -5,15 +5,15 @@
 
 - Crea un nuovo wallet:
 
-`electrum -w {{nuovo_wallet.dat}} create`
+`electrum {{[-w|--wallet]}} {{nuovo_wallet.dat}} create`
 
 - Ripristina un wallet esistente da un seed offline:
 
-`electrum -w {{wallet_ripristinato.dat}} restore -o`
+`electrum {{[-w|--wallet]}} {{wallet_ripristinato.dat}} restore {{[-o|--offline]}}`
 
 - Crea una transazione firmata offline:
 
-`electrum mktx {{destinatario}} {{ammontare}} -f 0.0000001 -F {{mittente}} -o`
+`electrum mktx {{destinatario}} {{ammontare}} {{[-f|--fee]}} 0.0000001 {{[-F|--from-addr]}} {{mittente}} {{[-o|--offline]}}`
 
 - Mostra tutti gli indirizzi del wallet per la ricezione:
 
@@ -29,4 +29,4 @@
 
 - Connettiti solo ad una specifica istanza electrum-server:
 
-`electrum -p socks5:{{127.0.0.1}}:9050 -s {{56ckl5obj37gypcu.onion}}:50001:t -1`
+`electrum {{[-p|--proxy]}} socks5:{{127.0.0.1}}:9050 {{[-s|--server]}} {{56ckl5obj37gypcu.onion}}:50001:t {{[-1|--oneserver]}}`

@@ -1,6 +1,6 @@
 # chkdsk
 
-> Check file system and volume metadata for errors.
+> Check filesystem and volume metadata for errors.
 > More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/chkdsk>.
 
 - Specify the drive letter (followed by a colon), mount point, or volume name to check:

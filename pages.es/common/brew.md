@@ -1,6 +1,7 @@
 # brew
 
 > Administrador de paquetes para macOS y Linux.
+> Algunos subcomandos, como `install`, tienen su propia documentación de uso.
 > Más información: <https://docs.brew.sh/Manpage>.
 
 - Instala la última versión estable de una fórmula:

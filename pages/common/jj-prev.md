@@ -1,7 +1,7 @@
 # jj prev
 
 > Move the working-copy commit to a parent revision.
-> More information: <https://jj-vcs.github.io/jj/latest/cli-reference/#jj-prev>.
+> More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-prev>.
 
 - Move the working-copy commit to the previous parent revision:
 

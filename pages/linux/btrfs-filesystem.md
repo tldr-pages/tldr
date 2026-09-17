@@ -29,4 +29,4 @@
 
 - Create a swap file:
 
-`sudo btrfs {{[f|filesystem]}} {{[m|mkswapfile]}} --size {{8g}} --uuid {{clear|random|time|UUID_value}} {{path/to/swapfile}}`
+`sudo btrfs {{[f|filesystem]}} {{[m|mkswapfile]}} --size {{8g}} --uuid {{clear|random|time|uuid_value}} {{path/to/swapfile}}`

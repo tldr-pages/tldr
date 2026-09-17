@@ -6,24 +6,24 @@
 
 - 현재 사용자의 쿼터 편집:
 
-`edquota --user $(whoami)`
+`edquota {{[-u|--user]}} $(whoami)`
 
 - 특정 사용자의 쿼터 편집:
 
-`sudo edquota --user {{사용자명}}`
+`sudo edquota {{[-u|--user]}} {{사용자명}}`
 
 - 그룹의 쿼터 편집:
 
-`sudo edquota --group {{그룹}}`
+`sudo edquota {{[-g|--group]}} {{그룹}}`
 
 - 지정된 파일 시스템으로 작업 제한 (기본적으로 edquota는 쿼터가 있는 모든 파일 시스템에서 작동합니다):
 
-`sudo edquota --file-system {{파일_시스템}}`
+`sudo edquota {{[-f|--file-system]}} {{파일_시스템}}`
 
 - 기본 유예 기간 편집:
 
-`sudo edquota -t`
+`sudo edquota {{[-t|--edit-period]}}`
 
 - 다른 사용자에게 쿼터 복제:
 
-`sudo edquota -p {{참조_사용자}} {{대상_사용자1}} {{대상_사용자2}}`
+`sudo edquota {{[-p|--prototype]}} {{참조_사용자}} {{대상_사용자1 대상_사용자2 ...}}`

@@ -9,7 +9,7 @@
 
 - Display a report with the specified Cargo-generated ID:
 
-`cargo report future-incompatibilities --id {{id}}`
+`cargo report future-incompatibilities --id {{report_id}}`
 
 - Display a report for the specified package:
 

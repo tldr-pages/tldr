@@ -2,6 +2,6 @@
 
 > Bu komut `systemd-mount --umount` için bir takma addır.
 
-- Asıl komutun belgelerini görüntüleyin:
+- Asıl komutun dokümantasyonunu görüntüleyin:
 
 `tldr systemd-mount`

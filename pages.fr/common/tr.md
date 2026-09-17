@@ -5,7 +5,7 @@
 
 - Remplace toutes les occurrences d'un caractère dans un fichier, et affiche le résultat :
 
-`tr {{caractère_recherché}} {{caractère_remplacé}} < {{fichier}}`
+`tr < {{fichier}} {{caractère_recherché}} {{caractère_remplacé}}`
 
 - Remplace toutes les occurrences d'un caractère dans la sortie d'une autre commande :
 
@@ -13,20 +13,20 @@
 
 - Fais correspondre chaque caractère du premier ensemble au caractère correspondant du second ensemble :
 
-`tr '{{abcd}}' '{{jkmn}}' < {{fichier}}`
+`tr < {{fichier}} '{{abcd}}' '{{jkmn}}'`
 
 - Supprime toutes les occurrences de l'ensemble de caractères spécifié dans l'entrée :
 
-`tr -d '{{caractères_en_entrée}}' < {{fichier}}`
+`tr < {{fichier}} {{[-d|--delete]}} '{{caractères_en_entrée}}'`
 
 - Comprime une série de caractères identiques en un seul caractère :
 
-`tr -s '{{caractères_en_entrée}}' < {{fichier}}`
+`tr < {{fichier}} {{[-s|--squeeze-repeats]}} '{{caractères_en_entrée}}'`
 
 - Traduis le contenu d'un fichier en majuscules :
 
-`tr "[:lower:]" "[:upper:]" < {{fichier}}`
+`tr < {{fichier}} "[:lower:]" "[:upper:]"`
 
 - Supprime les caractères non imprimables d'un fichier :
 
-`tr -cd "[:print:]" < {{fichier}}`
+`tr < {{fichier}} {{[-cd|--complement --delete]}} "[:print:]"`

@@ -6,7 +6,7 @@
 
 - Voer een commando uit als root:
 
-`doas {{command}}`
+`doas {{commando}}`
 
 - Voer een commando uit als een andere gebruiker:
 
@@ -18,7 +18,7 @@
 
 - Parse een configuratiebestand en controleer of de uitvoering van het commando als een andere gebruiker toegestaan is:
 
-`doas -C {{pad/naar/configuratiebestand}} {{command}}`
+`doas -C {{pad/naar/configuratiebestand}} {{commando}}`
 
 - Zorg ervoor dat `doas` om een wachtwoord vraagt, zelfs als het eerder is opgegeven:
 

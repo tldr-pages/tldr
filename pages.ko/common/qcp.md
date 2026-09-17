@@ -13,4 +13,4 @@
 
 - 파일 복사 시 편집기에서 소스와 대상 파일 이름의 위치를 바꿈:
 
-`qcp --option swap {{*.jpg}}`
+`qcp {{[-o|--option]}} swap {{*.jpg}}`

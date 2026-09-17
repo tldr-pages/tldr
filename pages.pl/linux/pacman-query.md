@@ -6,32 +6,32 @@
 
 - Wyświetl zainstalowane pakiety i ich wersje:
 
-`pacman --query`
+`pacman -Q`
 
 - Wyświetl tylko pakiety niebędące zależnościami i ich wersje:
 
-`pacman --query --explicit`
+`pacman -Qe`
 
 - Znajdź, do którego pakietu należy plik:
 
-`pacman --query --owns {{nazwa_pliku}}`
+`pacman -Qo {{nazwa_pliku}}`
 
 - Wyświetl informacje o zainstalowanym pakiecie:
 
-`pacman --query --info {{nazwa_pakietu}}`
+`pacman -Qi {{nazwa_pakietu}}`
 
 - Znajdź pliki należące do pakietu:
 
-`pacman --query --list {{nazwa_pakietu}}`
+`pacman -Ql {{nazwa_pakietu}}`
 
 - Wyświetl pakiety-sieroty (zainstalowane jako zależności ale nie są już wymagane przez żaden pakiet):
 
-`pacman --query --unrequired --deps --quiet`
+`pacman -Qdtq`
 
 - Wyświetl zainstalowane pakiety, których nie ma w repozytoriach:
 
-`pacman --query --foreign`
+`pacman -Qm`
 
 - Wyświetl przestarzałe pakiety:
 
-`pacman --query --upgrades`
+`pacman -Qu`

@@ -1,11 +1,12 @@
 # ping
 
 > Send ICMP ECHO_REQUEST packets to network hosts.
+> See also: `mtr`.
 > More information: <https://manned.org/ping>.
 
-- Ping host:
+- Ping a host with IP `10.0.0.1` (Note: `10.0.0.1` can be shortened to `10.1`):
 
-`ping {{host}}`
+`ping 10.0.0.1`
 
 - Ping a host only a specific number of times:
 
@@ -27,6 +28,10 @@
 
 `ping -O {{host}}`
 
-- Ping a host with specific number of pings, per-packet response timeout (`-W`), and total time limit (`-w`) of the entire ping run:
+- Ping a host with specific [c]ount of pings, per-packet time to [W]ait for a response, and total [w]ait time limit of the entire ping run:
 
 `ping -c {{count}} -W {{seconds}} -w {{seconds}} {{host}}`
+
+- Ping all IPv6 local network hosts:
+
+`ping -6 ff02::1%{{eth0}}`

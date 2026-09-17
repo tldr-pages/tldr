@@ -13,7 +13,7 @@
 
 - Check the current merge status:
 
-`systemd-sysext status`
+`systemd-sysext`
 
 - Unmerge all currently installed system extension images from `/usr/` and `/opt/`:
 

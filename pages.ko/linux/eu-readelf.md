@@ -9,4 +9,4 @@
 
 - 모든 NOTE 세그먼트/섹션 또는 특정 세그먼트/섹션의 내용 표시:
 
-`eu-readelf {{[-n--notes]}} {{.note.ABI-tag}} {{경로/대상/파일}}`
+`eu-readelf {{[-n|--notes]}} {{.note.ABI-tag}} {{경로/대상/파일}}`

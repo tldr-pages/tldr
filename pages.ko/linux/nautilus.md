@@ -2,7 +2,7 @@
 
 > GNOME 데스크톱 환경의 기본 파일 탐색기.
 > GNOME Files로도 알려져 있습니다.
-> 같이 보기: `dolphin`, `caja`, `thunar`, `vifm`.
+> 관련 항목: `dolphin`, `caja`, `thunar`, `vifm`.
 > 더 많은 정보: <https://manned.org/nautilus>.
 
 - Nautilus 실행:

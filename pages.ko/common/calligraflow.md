@@ -1,7 +1,7 @@
 # calligraflow
 
 > Calligra의 흐름도 및 다이어그램 응용 프로그램.
-> 같이 보기: `calligrastage`, `calligrawords`, `calligrasheets`.
+> 관련 항목: `calligrastage`, `calligrawords`, `calligrasheets`.
 > 더 많은 정보: <https://manned.org/calligraflow>.
 
 - 순서도 및 다이어그램 애플리케이션을 시작:

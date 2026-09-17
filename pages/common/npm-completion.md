@@ -7,11 +7,11 @@
 
 `npm completion`
 
-- Add completion to your shell profile (Bash):
+- Add completion to the shell profile (Bash):
 
 `npm completion >> ~/.bashrc`
 
-- Add completion to your shell profile (Zsh):
+- Add completion to the shell profile (Zsh):
 
 `npm completion >> ~/.zshrc`
 

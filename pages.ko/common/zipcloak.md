@@ -9,8 +9,8 @@
 
 - Zip 아카이브의 내용을 [d]복호화:
 
-`zipcloak -d {{경로/대상/아카이브.zip}}`
+`zipcloak {{[-d|--decrypt]}} {{경로/대상/아카이브.zip}}`
 
 - 암호화된 내용을 새로운 Zip 아카이브로 [O]출력:
 
-`zipcloak {{경로/대상/아카이브.zip}} -O {{경로/대상/암호화됨.zip}}`
+`zipcloak {{경로/대상/아카이브.zip}} {{[-O|--output-file]}} {{경로/대상/암호화됨.zip}}`

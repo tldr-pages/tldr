@@ -1,7 +1,12 @@
 # lpstat
 
 > Show status information about printers.
+> See also: `lp`, `lpoptions`.
 > More information: <https://manned.org/lpstat>.
+
+- List all queued print jobs:
+
+`lpstat`
 
 - List printers present on the machine and whether they are enabled for printing:
 
@@ -18,3 +23,7 @@
 - List print jobs queued by a specific user:
 
 `lpstat -u {{user}}`
+
+- Display what devices the printers are attached to:
+
+`lpstat -v`

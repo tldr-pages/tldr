@@ -13,11 +13,11 @@
 
 - 지정한 Phar를 전역적으로 설치:
 
-`phive install {{별칭|url}} --global`
+`phive install {{별칭|url}} {{[-g|--global]}}`
 
 - 지정한 Phar를 대상 디렉터리에 설치:
 
-`phive install {{별칭|url}} --target {{경로/대상/폴더}}`
+`phive install {{별칭|url}} {{[-t|--target]}} {{경로/대상/폴더}}`
 
 - 모든 Phar 파일을 최신 버전으로 업데이트:
 

@@ -1,6 +1,6 @@
 # cargo doc
 
-> 构建 Rust 包的文档。
+> 构建 Rust 软件包的文档。
 > 更多信息：<https://doc.rust-lang.org/cargo/commands/cargo-doc.html>。
 
 - 为当前项目及所有依赖项构建文档：
@@ -15,6 +15,6 @@
 
 `cargo {{[d|doc]}} --open`
 
-- 构建并查看特定包的文档：
+- 构建并查看特定软件包的文档：
 
-`cargo {{[d|doc]}} --open {{[-p|--package]}} {{包名}}`
+`cargo {{[d|doc]}} --open {{[-p|--package]}} {{软件包}}`

@@ -5,8 +5,8 @@
 
 - 단일 쿼리 실행:
 
-`dolt sql --query "{{INSERT INTO t values (1, 3);}}"`
+`dolt sql {{[-q|--query]}} "{{INSERT INTO t values (1, 3);}}"`
 
 - 저장된 모든 쿼리를 나열:
 
-`dolt sql --list-saved`
+`dolt sql {{[-l|--list-saved]}}`

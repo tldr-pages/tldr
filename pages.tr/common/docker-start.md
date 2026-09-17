@@ -2,6 +2,6 @@
 
 > Bu komut `docker container start` için bir takma addır.
 
-- Asıl komutun belgelerini görüntüleyin:
+- Asıl komutun dokümantasyonunu görüntüleyin:
 
 `tldr docker container start`

@@ -5,12 +5,12 @@
 
 - 1 열에 특정 문자열이 있는 행 찾기:
 
-`csvgrep -c {{1}} -m {{찾을_문자열}} {{데이터.csv}}`
+`csvgrep {{[-c|--columns]}} {{1}} {{[-m|--match]}} {{찾을_문자열}} {{데이터.csv}}`
 
 - 3열 또는 4열에서 특정 `regex` 패턴과 일치하는 행 찾기:
 
-`csvgrep -c {{3,4}} -r {{정규식_패턴}} {{데이터.csv}}`
+`csvgrep {{[-c|--columns]}} {{3,4}} {{[-r|--regex]}} {{정규식_패턴}} {{데이터.csv}}`
 
 - "이름" 열에서 "John Doe"가 포함되지 않는 행 찾기:
 
-`csvgrep -i -c {{이름}} -m "{{John Doe}}" {{데이터.csv}}`
+`csvgrep {{[-i|--invert-match]}} {{[-c|--columns]}} {{이름}} {{[-m|--match]}} "{{John Doe}}" {{데이터.csv}}`

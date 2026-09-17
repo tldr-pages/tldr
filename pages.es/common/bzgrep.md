@@ -9,7 +9,7 @@
 
 - Busca un patrón de forma recursiva en un archivo comprimido bzip2 `.tar`:
 
-`bzgrep {{[-r|--recursive]}} "{{patrón_de_búsqueda}}" {{ruta/a/archivo_tar}}`
+`bzgrep {{[-r|--recursive]}} "{{patrón_de_búsqueda}}" {{ruta/al/archivo_tar}}`
 
 - Imprime 3 líneas de [C]ontexto alrededor, [A]ntes o [D]espués de cada coincidencia:
 

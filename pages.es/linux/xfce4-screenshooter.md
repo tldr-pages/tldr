@@ -9,24 +9,24 @@
 
 - Toma una captura de pantalla de toda la pantalla y lanza la GUI para preguntar cómo proceder:
 
-`xfce4-screenshooter --fullscreen`
+`xfce4-screenshooter {{[-f|--fullscreen]}}`
 
 - Toma una captura de pantalla de toda la pantalla y la guarda en el directorio especificado:
 
-`xfce4-screenshooter --fullscreen --save {{ruta/al/directorio}}`
+`xfce4-screenshooter {{[-f|--fullscreen]}} {{[-s|--save]}} {{ruta/al/directorio}}`
 
 - Espera un tiempo antes de tomar la captura de pantalla:
 
-`xfce4-screenshooter --delay {{segundos}}`
+`xfce4-screenshooter {{[-d|--delay]}} {{segundos}}`
 
 - Toma una captura de pantalla de una región de la pantalla (selecciona usando el ratón):
 
-`xfce4-screenshooter --region`
+`xfce4-screenshooter {{[-r|--region]}}`
 
 - Toma una captura de pantalla de la ventana activa, y la copia al portapapeles:
 
-`xfce4-screenshooter --window --clipboard`
+`xfce4-screenshooter {{[-w|--window]}} {{[-c|--clipboard]}}`
 
 - Toma una captura de pantalla de la ventana activa, y la abre con un programa elegido:
 
-`xfce4-screenshooter --window --open {{gimp}}`
+`xfce4-screenshooter {{[-w|--window]}} {{[-o|--open]}} {{gimp}}`

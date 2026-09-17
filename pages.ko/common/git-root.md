@@ -10,4 +10,4 @@
 
 - 현재 작업 디렉토리를 현재 Git 저장소의 루트에 상대적으로 출력:
 
-`git root --relative`
+`git root {{[-r|--relative]}}`

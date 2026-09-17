@@ -8,13 +8,13 @@
 
 `zenity --question`
 
-- Display an info dialog displaying the text "Hello!":
+- Display an info dialog displaying a message:
 
-`zenity --info --text="{{Hello!}}"`
+`zenity --info --text "{{message}}"`
 
-- Display a name/password form and output the data separated by ";":
+- Display a name/password form and output the data separated by ";" ("|" by default):
 
-`zenity --forms --add-entry="{{Name}}" --add-password="{{Password}}" --separator="{{;}}"`
+`zenity --forms --add-entry "{{name_label}}" --add-password "{{password_label}}" --separator ";"`
 
 - Display a file selection form in which the user can only select directories:
 

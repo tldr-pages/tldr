@@ -9,20 +9,20 @@
 
 - squashfs 파일 시스템을 지정된 디렉토리에 추출:
 
-`unsquashfs -dest {{경로/대상/폴더}} {{파일_시스템.squashfs}}`
+`unsquashfs {{[-d|-dest]}} {{경로/대상/폴더}} {{파일_시스템.squashfs}}`
 
 - 파일이 추출될 때 파일 이름 표시:
 
-`unsquashfs -info {{파일_시스템.squashfs}}`
+`unsquashfs {{[-i|-info]}} {{파일_시스템.squashfs}}`
 
 - 파일이 추출될 때 파일 이름과 속성 표시:
 
-`unsquashfs -linfo {{파일_시스템.squashfs}}`
+`unsquashfs {{[-li|-linfo]}} {{파일_시스템.squashfs}}`
 
 - squashfs 파일 시스템 내부의 파일 나열 (추출하지 않고):
 
-`unsquashfs -ls {{파일_시스템.squashfs}}`
+`unsquashfs {{[-l|-ls]}} {{파일_시스템.squashfs}}`
 
 - squashfs 파일 시스템 내부의 파일과 속성 나열 (추출하지 않고):
 
-`unsquashfs -lls {{파일_시스템.squashfs}}`
+`unsquashfs {{[-ll|-lls]}} {{파일_시스템.squashfs}}`

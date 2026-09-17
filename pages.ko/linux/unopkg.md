@@ -2,7 +2,7 @@
 
 > LibreOffice 확장 관리자.
 > 확장 프로그램 다운로드: <https://extensions.libreoffice.org>.
-> 같이 보기: `libreoffice`.
+> 관련 항목: `libreoffice`.
 > 더 많은 정보: <https://manned.org/unopkg>.
 
 - 지정된 확장을 추가하고 배포:
@@ -11,7 +11,7 @@
 
 - 확장 제거:
 
-`unopkg remove {{확장_ID}}`
+`unopkg remove {{확장_id}}`
 
 - 배포된 확장에 대한 정보 표시:
 

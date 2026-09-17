@@ -1,24 +1,36 @@
 # pm
 
-> 显示关于 Android 设备上的应用程序的信息。
+> 安卓软件包管理工具。
 > 更多信息：<https://developer.android.com/tools/adb#pm>。
 
-- 打印所有已安装应用程序的列表：
+- 列出已安装的包：
 
 `pm list packages`
 
-- 打印所有已安装的系统应用程序的列表：
+- 从指定路径，安装软件包：
 
-`pm list packages -s`
+`pm install /{{路径/到/软件包}}.apk`
 
-- 打印所有已安装的第三方应用程序的列表：
+- 从设备卸载一个包：
 
-`pm list packages -3`
+`pm uninstall {{软件包}}`
 
-- 打印与指定关键字匹配的应用程序列表：
+- 清除单个软件包的所有数据文件：
 
-`pm list packages {{关键词}}`
+`pm clear {{软件包}}`
 
-- 打印指定应用的 APK 的路径：
+- 启用软件包或组件：
 
-`pm path {{应用名}}`
+`pm enable {{包名_或_类名}}`
+
+- 禁用软件包或组件：
+
+`pm disable-user {{包名_或_类名}}`
+
+- 为应用授予权限：
+
+`pm grant {{包名}} {{android.permission.CAMERA|android.permission.ACCESS_FINE_LOCATION|android.permission.READ_CONTACTS|...}}`
+
+- 撤销应用权限：
+
+`pm revoke {{包名}} {{android.permission.CAMERA|android.permission.ACCESS_FINE_LOCATION|android.permission.READ_CONTACTS|...}}`

@@ -1,7 +1,7 @@
 # troff
 
 > groff (GNU Troff) 문서 형식 시스템을 위한 조판 프로세서.
-> 같이 보기: `groff`.
+> 관련 항목: `groff`.
 > 더 많은 정보: <https://manned.org/troff>.
 
 - 출력 형식을 PostScript 프린터용으로 지정하고, 출력을 파일에 저장:

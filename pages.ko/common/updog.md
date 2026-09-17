@@ -10,7 +10,7 @@
 
 - 지정된 디렉토리에 대한 HTTP 서버 시작:
 
-`updog --directory {{/경로/대상/폴더}}`
+`updog --directory /{{경로/대상/폴더}}`
 
 - 지정된 포트에서 HTTP 서버 시작:
 

@@ -21,7 +21,7 @@
 
 - Desmonta uno o más dispositivos:
 
-`systemd-mount {{[-u|--umount]}} {{ruta/al/punto_de_montaje_o_dispositivo1}} {{ruta/al/punto_de_montaje_o_dispositivo2}}`
+`systemd-mount {{[-u|--umount]}} {{ruta/al/punto_de_montaje_o_dispositivo1 ruta/al/punto_de_montaje_o_dispositivo2 ...}}`
 
 - Monta un sistema de archivos (dispositivo de imagen o bloque) con un tipo de sistema de archivos específico:
 

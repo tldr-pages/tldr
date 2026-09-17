@@ -1,7 +1,7 @@
 # cd
 
 > 現在の作業ディレクトリを変更します。
-> もっと詳しく: <https://www.gnu.org/software/bash/manual/bash.html#index-cd>。
+> 詳細情報: <https://www.gnu.org/software/bash/manual/bash.html#index-cd>。
 
 - 指定したディレクトリへ移動する:
 

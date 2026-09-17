@@ -4,26 +4,26 @@
 > Lihat juga: `pacman`.
 > Informasi lebih lanjut: <https://manned.org/pacman.8>.
 
-- Instal satu paket atau lebih dari file:
+- Pasang suatu atau beberapa paket atau dari kumpulan berkas:
 
-`sudo pacman --upgrade {{jalan/menuju/paket1.pkg.tar.zst}} {{jalan/menuju/paket2.pkg.tar.zst}}`
+`sudo pacman -U {{jalan/menuju/paket1.pkg.tar.zst jalan/menuju/paket2.pkg.tar.zst ...}}`
 
-- Instal paket tanpa konfirmasi:
+- Pasang paket tanpa konfirmasi:
 
-`sudo pacman --upgrade --noconfirm {{jalan/menuju/paket.pkg.tar.zst}}`
+`sudo pacman -U --noconfirm {{jalan/menuju/paket.pkg.tar.zst}}`
 
-- Timpa file yang bentrok selama pemasangan paket:
+- Timpa berkas-berkas sistem yang bentrok selama pemasangan paket:
 
-`sudo pacman --upgrade --overwrite {{jalan/menuju/file}} {{jalan/menuju/paket.pkg.tar.zst}}`
+`sudo pacman -U --overwrite {{jalan/menuju/berkas}} {{jalan/menuju/paket.pkg.tar.zst}}`
 
-- Instal paket, melewati pemeriksaan versi dependensi:
+- Pasang paket, melewati pemeriksaan versi [d]ependensi:
 
-`sudo pacman --upgrade --nodeps {{jalan/menuju/paket.pkg.tar.zst}}`
+`sudo pacman -Ud {{jalan/menuju/paket.pkg.tar.zst}}`
 
-- Tampilkan daftar paket yang akan terpengaruh (tidak menginstal paket apa pun):
+- Tampilkan ([p]rint) daftar paket yang akan terpengaruh (tidak menginstal paket apa pun):
 
-`pacman --upgrade --print {{jalan/menuju/paket.pkg.tar.zst}}`
+`pacman -Up {{jalan/menuju/paket.pkg.tar.zst}}`
 
 - Tampilkan bantuan:
 
-`pacman --upgrade --help`
+`pacman -Uh`

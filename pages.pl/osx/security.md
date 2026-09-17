@@ -17,7 +17,7 @@
 
 - Ustaw certyfikat który ma być używany przy stronie internetowej lub [s]erwisie używając nazwy własnej (ta komenda nie powiedzie się gdy więcej niż jeden certyfikat ma taką samą nazwę własną):
 
-`security set-identity-preference -s {{URL|hostname|serwis}} -c "{{nazwa_własna}}" {{ścieżka/do/pliku.keychain}}`
+`security set-identity-preference -s {{url|hostname|serwis}} -c "{{nazwa_własna}}" {{ścieżka/do/pliku.keychain}}`
 
 - Dodaj certyfikat z pliku do pęku [k]luczy (Jeżeli parametr -k nie został podany, domyślny pęk kluczy zostanie wykorzystany):
 

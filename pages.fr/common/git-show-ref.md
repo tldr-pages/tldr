@@ -9,12 +9,12 @@
 
 - Affiche seulement les références des têtes de branches :
 
-`git show-ref --heads`
+`git show-ref --branches`
 
 - Affiche seulement les références de tags :
 
 `git show-ref --tags`
 
-- Vérifier l'existence d'une référence :
+- Vérifie l'existence d'une référence :
 
 `git show-ref --verify {{chemin/vers/reference}}`

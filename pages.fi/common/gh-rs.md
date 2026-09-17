@@ -1,6 +1,6 @@
 # gh rs
 
-> Tämä on alias komennolle `gh ruleset`.
+> Tämä on alias `gh ruleset` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

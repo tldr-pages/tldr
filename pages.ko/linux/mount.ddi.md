@@ -1,7 +1,7 @@
 # mount.ddi
 
 > Discoverable Disk Images 마운트.
-> 같이 보기: `systemd-dissect`.
+> 관련 항목: `systemd-dissect`.
 > 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/latest/systemd-dissect.html>.
 
 - 운영 체제 이미지를 마운트:

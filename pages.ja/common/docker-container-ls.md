@@ -1,7 +1,7 @@
 # docker container ls
 
 > Dockerコンテナ一覧を表示します。
-> もっと詳しく: <https://docs.docker.com/reference/cli/docker/container/ls/>。
+> 詳細情報: <https://docs.docker.com/reference/cli/docker/container/ls/>。
 
 - 現在実行中のdockerコンテナ一覧を表示する:
 
@@ -25,7 +25,7 @@
 
 - 終了コードでコンテナをフィルタリングする:
 
-`docker {{[ps|container ls]}} {{[-a|--all]}} {{[-f|--filter]}} "exited={{コード}}"`
+`docker {{[ps|container ls]}} {{[-f|--filter]}} "exited={{コード}}" {{[-a|--all]}}`
 
 - 以下のいずれかのステータスでフィルタリングする(created, running, removing, paused, exited, dead):
 

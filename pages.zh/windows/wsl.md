@@ -9,23 +9,23 @@
 
 - 在不使用 Shell 的情况下运行 Linux 命令：
 
-`wsl --exec {{命令}} {{命令参数}}`
+`wsl {{[-e|--exec]}} {{命令}} {{命令参数}}`
 
 - 指定特定的发行版：
 
-`wsl --distribution {{发行版}} {{shell_命令}}`
+`wsl {{[-d|--distribution]}} {{发行版}} {{shell_命令}}`
 
 - 列出所有可用发行版：
 
-`wsl --list`
+`wsl {{[-l|--list]}}`
 
 - 将发行版导出到 `.tar` 文件：
 
-`wsl --export {{发行版}} {{路径/distro_fs.tar}}`
+`wsl --export {{发行版}} {{路径\distro_fs.tar}}`
 
 - 从 `.tar` 文件导入发行版：
 
-`wsl --import {{发行版}} {{路径/安装位置}} {{路径/distro_fs.tar}}`
+`wsl --import {{发行版}} {{路径\安装位置}} {{路径\distro_fs.tar}}`
 
 - 更改指定发行版的版本：
 

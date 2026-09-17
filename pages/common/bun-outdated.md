@@ -1,6 +1,6 @@
 # bun outdated
 
-> List dependencies in your project that have newer versions available.
+> List dependencies that have newer versions available.
 > More information: <https://bun.com/docs/pm/cli/outdated>.
 
 - List all outdated dependencies in the current project:
@@ -17,8 +17,8 @@
 
 - Show outdated dependencies for specific workspaces:
 
-`bun outdated --filter "{{workspace_pattern}}"`
+`bun outdated {{[-F|--filter]}} "{{workspace_pattern}}"`
 
 - Recursively check all workspaces in a monorepo:
 
-`bun outdated --recursive`
+`bun outdated {{[-r|--recursive]}}`

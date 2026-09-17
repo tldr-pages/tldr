@@ -7,17 +7,13 @@
 
 `hostname`
 
-- 호스트 이름의 네트워크 주소 표시:
+- 호스트 이름의 네트워크 주소 출력:
 
-`hostname -i`
+`hostname {{[-i|--ip-address]}}`
 
-- 호스트의 모든 네트워크 주소를 표시:
+- FQDN (정규화된 도메인 이름) 출력:
 
-`hostname -I`
-
-- FQDN 표시 (Fully Qualified Domain Name):
-
-`hostname --fqdn`
+`hostname {{[-f|--fqdn]}}`
 
 - 현재 호스트 이름 설정:
 

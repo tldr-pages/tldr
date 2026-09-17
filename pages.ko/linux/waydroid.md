@@ -5,7 +5,7 @@
 
 - Waydroid 시작:
 
-`waydroid`
+`waydroid show-full-ui`
 
 - Waydroid 초기화 (최초 실행 시 또는 Android를 재설치한 후 필요):
 

@@ -10,7 +10,7 @@
 
 - 최적화하여 컴파일 (`s`는 바이너리 크기 최적화를 의미하며, `z`는 더 많은 최적화를 포함):
 
-`rustc -C lto -C opt-level={{0|1|2|3|s|z}} {{경로/대상/main.rs}}`
+`rustc {{[-C|--codegen]}} lto {{[-C|--codegen]}} opt-level={{0|1|2|3|s|z}} {{경로/대상/main.rs}}`
 
 - 디버깅 정보 포함하여 컴파일:
 
@@ -22,7 +22,7 @@
 
 - 현재 CPU에 대한 아키텍처별 최적화로 컴파일:
 
-`rustc -C target-cpu={{native}} {{경로/대상/main.rs}}`
+`rustc {{[-C|--codegen]}} target-cpu={{native}} {{경로/대상/main.rs}}`
 
 - 대상 목록 표시 (참고: 컴파일하려는 대상은 먼저 `rustup`을 사용하여 추가해야 함):
 

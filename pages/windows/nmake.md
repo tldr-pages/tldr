@@ -9,7 +9,7 @@
 
 - Build targets using a specific makefile:
 
-`nmake /F {{path/to/makefile}}`
+`nmake /F {{path\to\makefile}}`
 
 - Build a specific target:
 

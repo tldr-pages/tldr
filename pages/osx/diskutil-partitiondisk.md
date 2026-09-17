@@ -21,6 +21,6 @@
 
 `diskutil partitionDisk {{/dev/disk_device}} {{number_of_partitions}} {{APM|MBR|GPT}} {{partition_filesystem1}} {{partition_name1}} {{partition_size1}} {{partition_filesystem2}} {{partition_name2}} {{partition_size2}} ...`
 
-- List all supported file systems for partitioning:
+- List all supported filesystems for partitioning:
 
 `diskutil listFilesystems`

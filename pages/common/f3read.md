@@ -1,8 +1,8 @@
 # f3read
 
-> Validate .h2w files to test the real capacity of the drive.
+> Validate `.h2w` files to test the real capacity of the drive.
 > See also: `f3write`, `f3probe`, `f3fix`.
-> More information: <https://oss.digirati.com.br/f3/>.
+> More information: <https://manned.org/f3read>.
 
 - Validate a device by checking the files in a given directory:
 

@@ -1,13 +1,13 @@
 # pwd
 
-> Print de naam van de huidige/werkdirectory.
+> Toon de naam van de huidige/werkmap.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/pwd-invocation.html>.
 
-- Print de huidige directory:
+- Toon de huidige map:
 
 `pwd`
 
-- Print de huidige directory en los alle symlinks op (d.w.z. toon het "fysieke" pad):
+- Toon de huidige map en los alle symlinks op (d.w.z. toon het "fysieke" pad):
 
 `pwd {{[-P|--physical]}}`
 

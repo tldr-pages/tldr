@@ -9,7 +9,7 @@
 
 - Toon logs en volg:
 
-`docker {{[logs|container logs]}} {{[-f|--follow]}} {{container_naam}}`
+`docker {{[logs|container logs]}} {{container_naam}} {{[-f|--follow]}}`
 
 - Toon de laatste 5 regels:
 
@@ -17,7 +17,7 @@
 
 - Toon logs en voorzien van timestamps:
 
-`docker {{[logs|container logs]}} {{[-t|--timestamps]}} {{container_naam}}`
+`docker {{[logs|container logs]}} {{container_naam}} {{[-t|--timestamps]}}`
 
 - Toon logs vanaf een bepaald tijdstip van de uitvoering van de container (bijv. 23m, 10s, 2013-01-02T13:23:37):
 

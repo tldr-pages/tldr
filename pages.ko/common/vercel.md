@@ -21,11 +21,11 @@
 
 - 환경 변수와 함께 배포:
 
-`vercel --env {{ENV}}={{var}}`
+`vercel {{[-e|--env]}} {{ENV}}={{var}}`
 
 - 환경 변수와 함께 빌드:
 
-`vercel --build-env {{ENV}}={{var}}`
+`vercel {{[-b|--build-env]}} {{ENV}}={{var}}`
 
 - 배포를 적용할 기본 지역을 설정:
 

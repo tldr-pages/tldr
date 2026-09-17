@@ -1,6 +1,6 @@
 # pct move_volume
 
-> Tämä on alias komennolle `pct move-volume`.
+> Tämä on alias `pct move-volume` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -1,6 +1,6 @@
 # openssl dgst
 
-> OpenSSL command to generate digest values and perform signature operations.
+> Generate digest values and perform signature operations.
 > More information: <https://docs.openssl.org/master/man1/openssl-dgst/>.
 
 - Calculate the SHA256 digest for a file, saving the result to a specific file:

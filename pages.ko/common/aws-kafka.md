@@ -1,7 +1,7 @@
 # aws kafka
 
 > Amazon MSK (Apache Kafka용 관리형 스트리밍) 클러스터 관리.
-> 같이 보기: `aws`.
+> 관련 항목: `aws`.
 > 더 많은 정보: <https://docs.aws.amazon.com/cli/latest/reference/kafka/>.
 
 - 새로운 MSK 클러스터 만들기:

@@ -10,4 +10,4 @@
 
 - Lista solo el atributo especificado:
 
-`modinfo -F {{author|description|license|parm|filename}} {{módulo_del_núcleo}}`
+`modinfo {{[-F|--field]}} {{author|description|license|parm|filename|version|...}} {{módulo_del_núcleo}}`

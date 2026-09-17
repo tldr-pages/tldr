@@ -1,7 +1,7 @@
 # alien
 
 > 다양한 설치 패키지를 다른 형식으로 변환합니다.
-> 같이 보기: `debtap`.
+> 관련 항목: `debtap`.
 > 더 많은 정보: <https://manned.org/alien>.
 
 - 특정 설치 파일을 Debian 형식(`.deb` 확장자)으로 변환:

@@ -10,7 +10,7 @@
 
 - Voer specifieke [c]ommando's uit:
 
-`zsh -c "{{echo Hello world}}"`
+`zsh -c "{{echo 'zsh wordt uitgevoerd'}}"`
 
 - Voer een specifiek script uit:
 
@@ -18,20 +18,20 @@
 
 - Controleer een specifiek script op syntax fouten zonder het uit te voeren:
 
-`zsh --no-exec {{pad/naar/script.zsh}}`
+`zsh {{[-n|--no-exec]}} {{pad/naar/script.zsh}}`
 
 - Voer specifieke commando's uit van `stdin`:
 
-`{{echo Hello world}} | zsh`
+`{{echo "echo 'zsh wordt uitgevoerd'"}} | zsh`
 
 - Voer een specifiek script uit en toon elke opdracht in het script voordat deze wordt uitgevoerd:
 
-`zsh --xtrace {{pad/naar/script.zsh}}`
+`zsh {{[-x|--xtrace]}} {{pad/naar/script.zsh}}`
 
 - Start een interactieve shell sessie in verbose modus en toon elke opdracht voordat deze wordt uitgevoerd:
 
-`zsh --verbose`
+`zsh {{[-v|--verbose]}}`
 
-- Voer een specifiek commando uit binnen `zsh` met uitgeschakelde glob patronen:
+- Start Zsh zonder het laden van user-level configuratie (bijv. `~/.zshrc`):
 
-`noglob {{commando}}`
+`zsh {{[-f|--no-rcs]}}`

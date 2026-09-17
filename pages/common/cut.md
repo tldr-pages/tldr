@@ -23,7 +23,7 @@
 
 `{{command}} | cut {{[-d|--delimiter]}} " " {{[-f|--fields]}} -3`
 
-- Do not print lines that do not contain the delimiter:
+- Only print lines that contain the delimiter:
 
 `{{command}} | cut {{[-d|--delimiter]}} "{{:}}" {{[-f|--fields]}} {{1}} {{[-s|--only-delimited]}}`
 

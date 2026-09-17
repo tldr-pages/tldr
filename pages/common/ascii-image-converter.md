@@ -5,24 +5,24 @@
 
 - Convert an image into ASCII:
 
-`ascii-image-converter {{path/to/image|URL}}`
+`ascii-image-converter {{path/to/image|url}}`
 
 - Colorize the output:
 
-`ascii-image-converter {{[-C|--color]}} {{path/to/image|URL}}`
+`ascii-image-converter {{[-C|--color]}} {{path/to/image|url}}`
 
 - Create a tresholded image using braille (if the image is barely visible, try changing the terminal font):
 
-`ascii-image-converter {{[-b|--braille]}} {{path/to/image|URL}}`
+`ascii-image-converter {{[-b|--braille]}} {{path/to/image|url}}`
 
 - Create a dithered image using braille (if the image is barely visible, try changing the terminal font):
 
-`ascii-image-converter {{[-b|--braille]}} --dither {{path/to/image|URL}}`
+`ascii-image-converter {{[-b|--braille]}} --dither {{path/to/image|url}}`
 
 - Display the image with negative colors:
 
-`ascii-image-converter {{[-Cn|--color --negative]}} {{path/to/image|URL}}`
+`ascii-image-converter {{[-Cn|--color --negative]}} {{path/to/image|url}}`
 
 - Use a wider range of characters to display an image (may improve image accuracy):
 
-`ascii-image-converter {{[-c|--complex]}} {{path/to/image|URL}}`
+`ascii-image-converter {{[-c|--complex]}} {{path/to/image|url}}`

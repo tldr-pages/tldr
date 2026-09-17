@@ -34,4 +34,4 @@
 
 - Liste les commandes autorisées (et interdites) pour l'utilisateur courant :
 
-`sudo {{[-l|--list]}}`
+`sudo {{[-ll|--list --list]}}`

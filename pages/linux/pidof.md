@@ -1,6 +1,7 @@
 # pidof
 
 > Get the ID of a process using its name.
+> See also: `pgrep`.
 > More information: <https://manned.org/pidof>.
 
 - List all process IDs with given name:

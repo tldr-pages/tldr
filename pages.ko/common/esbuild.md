@@ -9,7 +9,7 @@
 
 - `stdin`에서 JSX 애플리케이션 번들링:
 
-`esbuild --bundle --outfile={{경로/대상/파일.js}} < {{경로/대상/파일.jsx}}`
+`esbuild < {{경로/대상/파일.jsx}} --bundle --outfile={{경로/대상/파일.js}}`
 
 - `production` 모드에서 소스맵을 사용하여 JSX 애플리케이션을 번들로 묶고 압축:
 

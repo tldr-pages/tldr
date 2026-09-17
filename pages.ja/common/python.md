@@ -1,7 +1,7 @@
 # python
 
 > Python language インタプリタ。
-> もっと詳しく: <https://docs.python.org/using/cmdline.html>。
+> 詳細情報: <https://docs.python.org/using/cmdline.html>。
 
 - REPLを開始する (インタラクティブ):
 

@@ -1,7 +1,7 @@
 # extundelete
 
 > 저널을 분석하여 ext3 또는 ext4 파티션에서 삭제된 파일을 복구합니다.
-> 같이 보기: `date`, `umount`.
+> 관련 항목: `date`, `umount`.
 > 더 많은 정보: <https://extundelete.sourceforge.net/options.html>.
 
 - 디바이스 X의 파티션 N 안의 모든 삭제된 파일 복구:

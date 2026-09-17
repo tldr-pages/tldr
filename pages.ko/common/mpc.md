@@ -1,7 +1,7 @@
 # mpc
 
 > Music Player Client: Music Player Daemon (MPD)를 제어하는 클라이언트.
-> 같이 보기: `mpd`, `ncmpcpp`, `cmus`.
+> 관련 항목: `mpd`, `ncmpcpp`, `cmus`.
 > 더 많은 정보: <https://www.musicpd.org/doc/mpc/html/>.
 
 - 재생/일시 정지 전환:

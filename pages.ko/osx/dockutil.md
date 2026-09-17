@@ -9,11 +9,11 @@
 
 - 현재 사용자 Dock에서 한 애플리케이션을 다른 애플리케이션으로 교체:
 
-`dockutil --add {{/경로/대상/애플리케이션}} --replacing '{{dock_item_label}}'`
+`dockutil --add /{{경로/대상/애플리케이션}} --replacing '{{dock_item_label}}'`
 
 - 보기 옵션과 함께 폴더를 추가하고 폴더 아이콘 또는 스택으로 표시:
 
-`dockutil --add {{/경로/대상/폴더}} --view {{grid|fan|list|auto}} --display {{folder|stack}}`
+`dockutil --add /{{경로/대상/폴더}} --view {{grid|fan|list|auto}} --display {{folder|stack}}`
 
 - 다른 항목 뒤에 URL Dock 항목 추가:
 

@@ -25,4 +25,4 @@
 
 - Vierte los bytes crudos del bloque actual a un archivo:
 
-`> pr > {{ruta/al/archivo.bin}}`
+`pr > {{ruta/al/archivo.bin}}`

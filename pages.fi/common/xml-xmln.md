@@ -1,6 +1,6 @@
 # xml xmln
 
-> Tämä on alias komennolle `xml pyx`.
+> Tämä on alias `xml pyx` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -9,7 +9,7 @@
 
 - 显示主机名的网络地址：
 
-`hostname {{[-i|--ip-addresses]}}`
+`hostname {{[-i|--ip-address]}}`
 
 - 显示 FQDN（完全限定域名）：
 

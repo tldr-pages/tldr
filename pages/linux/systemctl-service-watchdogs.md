@@ -1,7 +1,7 @@
 # systemctl service-watchdogs
 
 > Get or set the global state of service runtime watchdogs.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#service-watchdogs%20[yes|no]>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#service-watchdogs%20%5Byes%7Cno%5D>.
 
 - Show whether service watchdogs are currently enabled:
 

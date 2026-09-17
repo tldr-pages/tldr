@@ -1,6 +1,6 @@
 # nmtui-edit
 
-> Tämä on alias komennolle `nmtui edit`.
+> Tämä on alias `nmtui edit` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

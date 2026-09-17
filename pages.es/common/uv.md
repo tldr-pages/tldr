@@ -10,7 +10,7 @@
 
 - Crear un nuevo proyecto Python en la ruta especificada:
 
-`uv init {{ruta/a/directorio}}`
+`uv init {{ruta/al/directorio}}`
 
 - Añade una nueva dependencia al proyecto:
 

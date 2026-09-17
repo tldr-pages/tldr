@@ -9,7 +9,7 @@
 
 - Excluye la compilación test:
 
-`gradle build -x {{test}}`
+`gradle build {{[-x|--exclude-task]}} test`
 
 - Ejecuta en modo sin conexión para evitar que Gradle acceda a la red durante la compilación:
 

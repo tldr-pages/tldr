@@ -5,12 +5,12 @@
 
 - Muestra la línea de comando inicial de una máquina virtual específica:
 
-`qm showcmd {{id_mv}}`
+`qm {{[sho|showcmd]}} {{100}}`
 
 - Pone cada opción en una nueva línea para mejorar la legibilidad:
 
-`qm showcmd --pretty {{true}} {{id_mv}}`
+`qm {{[sho|showcmd]}} {{100}} --pretty {{true}}`
 
 - Obtiene valores de configuración de una instantánea específica:
 
-`qm showcmd --snapshot {{cadena}} {{id_mv}}`
+`qm {{[sho|showcmd]}} {{100}} --snapshot {{cadena}}`

@@ -2,6 +2,7 @@
 
 > Show utilization of AMD GPUs.
 > May require root privileges depending on your system.
+> See also: `nvtop`, `amdgpu_top`.
 > More information: <https://github.com/clbr/radeontop/blob/master/radeontop.asc>.
 
 - Show the utilization of the default AMD GPU:

@@ -1,6 +1,6 @@
 # fossil rm
 
-> Tämä on alias komennolle `fossil delete`.
+> Tämä on alias `fossil delete` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

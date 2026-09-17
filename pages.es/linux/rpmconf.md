@@ -6,8 +6,8 @@
 
 - Lista los archivos sobrantes y elige interactivamente que hacer con cada uno de ellos:
 
-`sudo rpmconf --all`
+`sudo rpmconf {{[-a|--all]}}`
 
 - Elimina los archivos huérfanos RPMNEW y RPMSAVE:
 
-`sudo rpmconf --all --clean`
+`sudo rpmconf {{[-a|--all]}} {{[-c|--clean]}}`

@@ -1,28 +1,28 @@
 # nix profile
 
-> Instala, actualiza y quita paquetes de perfiles de Nix.
-> Más información: <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-profile.html>.
+> Instala, actualiza y elimina paquetes de los perfiles Nix.
+> Más información: <https://nix.dev/manual/nix/latest/command-ref/new-cli/nix3-profile.html>.
 
-- Instala unos paquetes desde nixpkgs al perfil predeterminado:
+- Instala paquetes de nixpkgs en el perfil predeterminado:
 
-`nix profile install {{nixpkgs#pkg1 nixpkgs#pkg2 ...}}`
+`nix profile add {{nixpkgs#pkg1 nixpkgs#pkg2 ...}}`
 
-- Instala un paquete desde un flake en GitHub a un perfil específico:
+- Instala un paquete de un flake en GitHub en un perfil personalizado:
 
-`nix profile install {{github:dueño/repositorio/paquete}} --profile {{./ruta/al/directorio}}`
+`nix profile add {{github:owner/repo/pkg}} --profile {{ruta/al/directorio}}`
 
-- Lista los paquetes instalados actualmente en el perfil predeterminado:
+- Enumera los paquetes actualmente instalados en el perfil predeterminado:
 
 `nix profile list`
 
-- Quita un paquete instalado desde nixpkgs del perfil predeterminado, por nombre:
+- Elimina un paquete instalado desde nixpkgs del perfil predeterminado, por nombre:
 
 `nix profile remove {{legacyPackages.x86_64-linux.pkg}}`
 
-- Actualiza paquetes en el perfil predeterminado a la versión más reciente disponible:
+- Actualiza los paquetes del perfil predeterminado a las últimas versiones disponibles:
 
-`nix profile upgrade`
+`nix profile upgrade --all`
 
-- Revierte (cancela) la acción más reciente en el perfil predeterminado:
+- Revierte (cancela) la última acción en el perfil predeterminado:
 
 `nix profile rollback`

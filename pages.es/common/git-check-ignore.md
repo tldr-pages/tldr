@@ -13,7 +13,7 @@
 
 - Usa nombres de rutas, uno por línea, a partir de la entrada estandar (`stdin`):
 
-`git check-ignore --stdin < {{ruta/al/archivo_lista}}`
+`git < {{ruta/al/archivo_lista}} check-ignore --stdin`
 
 - Comprueba sin leer el índice (se utiliza para depurar por qué las rutas fueron rastreadas y no ignoradas):
 

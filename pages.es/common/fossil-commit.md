@@ -5,16 +5,16 @@
 
 - Crea una nueva versión que contiene todos los cambios en el checkout actual; se solicitará al usuario un comentario:
 
-`fossil commit`
+`fossil {{[ci|commit]}}`
 
 - Crea una versión que contiene todos los cambios en el checkout actual, utilizando el comentario especificado:
 
-`fossil commit --comment "{{comentario}}"`
+`fossil {{[ci|commit]}} {{[-m|--comment]}} "{{comentario}}"`
 
 - Crea una versión que contiene todos los cambios en el checkout actual con un comentario leído de un archivo específico:
 
-`fossil commit --message-file {{ruta/al/archivo_con_comentario}}`
+`fossil {{[ci|commit]}} {{[-M|--message-file]}} {{ruta/al/archivo_con_comentario}}`
 
 - Crea una versión que contiene cambios de los archivos especificados; se solicitará al usuario un comentario:
 
-`fossil commit {{ruta/al/archivo1 ruta/al/archivo2 ...}}`
+`fossil {{[ci|commit]}} {{ruta/al/archivo1 ruta/al/archivo2 ...}}`

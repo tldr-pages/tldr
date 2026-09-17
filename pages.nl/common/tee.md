@@ -15,6 +15,6 @@
 
 `echo "voorbeeld" | tee {{/dev/tty}} | {{xargs printf "[%s]"}}`
 
-- Maak een directory genaamd "voorbeeld", tel het aantal tekens in "voorbeeld" en schrijf "voorbeeld" naar de terminal:
+- Maak een map genaamd "voorbeeld", tel het aantal tekens in "voorbeeld" en schrijf "voorbeeld" naar de terminal:
 
 `echo "voorbeeld" | tee >(xargs mkdir) >(wc {{[-c|--bytes]}})`

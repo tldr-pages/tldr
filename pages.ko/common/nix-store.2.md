@@ -1,7 +1,7 @@
 # nix-store
 
 > Nix 저장소를 조작하거나 쿼리.
-> 같이 보기: `nix store.3`.
+> 관련 항목: `nix store.3`.
 > 더 많은 정보: <https://nix.dev/manual/nix/stable/command-ref/nix-store.html>.
 
 - 사용하지 않는 경로를 제거하는 등의 쓰레기 수집:

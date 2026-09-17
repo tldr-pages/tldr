@@ -2,7 +2,7 @@
 
 > Apaga y detiene el sistema (detiene el kernel del SO pero mantiene el hardware encendido).
 > Vea también: `halt`.
-> Más información: <https://www.freedesktop.org/software/systemd/man/systemctl.html#halt>.
+> Más información: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#halt>.
 
 - Detiene el sistema:
 
@@ -10,15 +10,15 @@
 
 - Detiene el sistema inmediatamente sin solicitar a los servicios que se detengan elegantemente:
 
-`systemctl halt --force`
+`systemctl halt {{[-f|--force]}}`
 
 - Detiene el sistema inmediatamente sin enviar notificaciones a los usuarios conectados:
 
-`systemctl halt --force --no-wall`
+`systemctl halt {{[-f|--force]}} --no-wall`
 
 - Detiene el sistema inmediatamente sin terminar procesos o desmontar sistemas de archivos (peligroso, puede causar pérdida de datos):
 
-`systemctl halt --force --force`
+`systemctl halt {{[-ff|--force --force]}}`
 
 - Programa una detención a una hora específica (ej., 23:00):
 

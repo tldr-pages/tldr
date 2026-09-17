@@ -9,12 +9,12 @@
 
 - 특정 네임스페이스 스캔:
 
-`popeye -n {{네임스페이스}}`
+`popeye {{[-n|--namespace]}} {{네임스페이스}}`
 
 - 특정 Kubernetes 컨텍스트 스캔:
 
-`popeye --context={{컨텍스트}}`
+`popeye --context {{컨텍스트}}`
 
 - 스캐닝에 스피니치 구성 파일 사용:
 
-`popeye -f {{spinach.yaml}}`
+`popeye {{[-f|--file]}} {{spinach.yaml}}`

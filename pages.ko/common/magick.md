@@ -1,26 +1,34 @@
 # magick
 
-> 이미지 형식 간 변환, 편집, 합성 또는 변환.
-> 이 도구는 ImageMagick 7+에서 `convert`를 대체합니다. 7+ 버전에서 이전 도구를 사용하려면 `magick convert`를 참조하세요.
-> `mogrify`와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
+> 이미지 생성, 편집, 합성 및 포맷 변환.
+> ImageMagick 7 이상에서 `convert`를 대체하는 명령어. 7 버전 이상에서 기존 도구를 사용하려면 `magick convert`를 참고.
+> 일부 하위 명령어(`mogrify` 등)은 별도의 문서를 제공.
 > 더 많은 정보: <https://imagemagick.org/script/magick.php>.
 
-- 이미지 형식 간 변환:
+- 이미지 포맷 변환:
 
 `magick {{경로/대상/입력_이미지.png}} {{경로/대상/출력_이미지.jpg}}`
 
-- 이미지를 크기 조정하여 새 복사본 만들기:
+- 이미지 크기 조정 후 새로운 파일 생성:
 
 `magick {{경로/대상/입력_이미지.jpg}} -resize {{100x100}} {{경로/대상/출력_이미지.jpg}}`
 
-- 현재 디렉토리의 모든 JPEG 이미지로 GIF 생성:
+- 비율 기준으로 이미지 크기 조정:
+
+`magick {{경로/대상/입력_이미지.png}} -resize {{50}}% {{경로/대상/출력_이미지.png}}`
+
+- 지정한 파일 크기에 맞춰 JPEG 이미지 생성:
+
+`magick {{경로/대상/입력_이미지.png}} -define jpeg:extent={{512kb}} {{경로/대상/출력_이미지.jpg}}`
+
+- 현재 디렉터리의 JPEG 파일들로 GIF 생성:
 
 `magick {{*.jpg}} {{경로/대상/이미지.gif}}`
 
-- 체커보드 패턴 생성:
+- 체커보드(Checkerboard) 패턴 이미지 생성:
 
 `magick -size {{640x480}} pattern:checkerboard {{경로/대상/체커보드.png}}`
 
-- 현재 디렉토리의 모든 JPEG 이미지로 PDF 파일 생성:
+- 현재 디렉터리의 JPEG 파일들을 PDF로 변환:
 
 `magick {{*.jpg}} -adjoin {{경로/대상/파일.pdf}}`

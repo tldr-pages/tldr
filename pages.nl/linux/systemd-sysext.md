@@ -13,7 +13,7 @@
 
 - Toon de huidige status van het samenvoegen:
 
-`systemd-sysext status`
+`systemd-sysext`
 
 - Draai het samenvoegen van alle huidig geïnstalleerde systeem extensie images terug in `/usr/` en `/opt/`:
 

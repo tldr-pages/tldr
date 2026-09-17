@@ -1,17 +1,9 @@
 # git whatchanged
 
-> Show what has changed with recent commits or files.
-> See also: `git log`.
+> This command is an alias of `git log --raw --no-merges` (log with raw diffs for each commit).
+> Note: This command is deprecated and will be removed in the future.
 > More information: <https://git-scm.com/docs/git-whatchanged>.
 
-- Display logs and changes for recent commits:
+- View documentation for the original command:
 
-`git whatchanged`
-
-- Display logs and changes for recent commits within the specified time frame:
-
-`git whatchanged --since "{{2 hours ago}}"`
-
-- Display logs and changes for recent commits for specific files or directories:
-
-`git whatchanged {{path/to/file_or_directory}}`
+`tldr git log`

@@ -1,7 +1,7 @@
 # head
 
 > 파일의 첫 부분을 출력합니다.
-> 같이 보기: `tail`.
+> 관련 항목: `tail`.
 > 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/head-invocation.html>.
 
 - 파일의 처음 몇 줄을 출력:

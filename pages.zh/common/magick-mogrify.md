@@ -29,6 +29,6 @@
 
 `magick mogrify -layers 'optimize' -fuzz {{7%}} {{*.gif}}`
 
-- 查看帮助：
+- 显示帮助：
 
 `magick mogrify -help`

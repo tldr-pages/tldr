@@ -15,10 +15,10 @@
 
 `for %{{variabele}} in ({{pad\naar\bestand1.ext pad\naar\bestand2.ext ...}}) do ({{echo Loop wordt uitgevoerd}})`
 
-- Itereer over een gegeven lijst van directories:
+- Itereer over een gegeven lijst van mappen:
 
-`for /d %{{variabele}} in ({{pad\naar\directory1.ext pad\naar\directory2.ext ...}}) do ({{echo Loop wordt uitgevoerd}})`
+`for /d %{{variabele}} in ({{pad\naar\map1.ext pad\naar\map2.ext ...}}) do ({{echo Loop wordt uitgevoerd}})`
 
-- Voer een gegeven commando uit in elke directory:
+- Voer een gegeven commando uit in elke map:
 
 `for /d %{{variabele}} in (*) do (if exist %{{variabele}} {{echo Loop wordt uitgevoerd}})`

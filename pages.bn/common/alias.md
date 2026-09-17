@@ -23,8 +23,8 @@
 
 - `rm` কমান্ডকে ইন্টার‌্যাকটিভ কমান্ডে রূপান্তর করুন:
 
-`alias {{rm}}="{{rm --interactive}}"`
+`alias rm="rm --interactive"`
 
 - `ls --all`-এর শর্টকাট হিসেবে `la` উপনাম তৈরি করুন:
 
-`alias {{la}}="{{ls --all}}"`
+`alias la="ls --all"`

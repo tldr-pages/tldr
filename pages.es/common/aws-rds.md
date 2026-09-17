@@ -1,7 +1,6 @@
 # aws rds
 
-> CLI para AWS Relational Database Service.
-> Crea y administra bases de datos relacionales.
+> Utiliza AWS Relational Database Service, un servicio web para configurar, operar y escalar bases de datos relacionales.
 > Más información: <https://docs.aws.amazon.com/cli/latest/reference/rds/>.
 
 - Muestra ayuda para subcomando RDS específicos:

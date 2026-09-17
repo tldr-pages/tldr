@@ -1,10 +1,10 @@
 # chezmoi
 
-> A multi-machine dotfile manager, written in Go.
+> Manage dotfiles across multiple diverse machines.
 > See also: `stow`, `tuckr`, `vcsh`, `homeshick`.
 > More information: <https://www.chezmoi.io/reference/>.
 
-- Setup up `chezmoi`, creating a Git repository in `~/.local/share/chezmoi`:
+- Set up `chezmoi`, creating a Git repository in `~/.local/share/chezmoi`:
 
 `chezmoi init`
 
@@ -30,7 +30,7 @@
 
 - Apply the changes:
 
-`chezmoi -v apply`
+`chezmoi apply`
 
 - Pull changes from a remote repository and apply them:
 

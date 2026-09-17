@@ -4,4 +4,4 @@
 
 - Voir la documentation de la commande originale :
 
-`tldr {{[-p|--platform]}} coomon shuf`
+`tldr {{[-p|--platform]}} common shuf`

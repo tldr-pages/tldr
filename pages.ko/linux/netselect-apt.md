@@ -13,8 +13,8 @@
 
 - non-free 섹션 포함:
 
-`sudo netselect-apt --non-free`
+`sudo netselect-apt {{[-n|--non-free]}}`
 
 - 미러 목록 조회를 위한 국가 지정:
 
-`sudo netselect-apt -c {{인도}}`
+`sudo netselect-apt {{[-c|--country]}} {{인도}}`

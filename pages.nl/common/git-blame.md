@@ -1,13 +1,13 @@
 # git blame
 
-> Toon commit hash en laatste auteur op elke regel van een bestand.
+> Toon welke commit en auteur een bestand voor het laatst heeft gewijzigd.
 > Meer informatie: <https://git-scm.com/docs/git-blame>.
 
-- Toon bestand met auteursnaam en commit hash op elke regel:
+- Toon een bestand met informatie over de auteur (auteursnaam en commithash):
 
 `git blame {{pad/naar/bestand}}`
 
-- Toon bestand met e-mailadres van de auteur en commit hash op elke regel:
+- Toon de e-mail van de auteur in plaats van de naam:
 
 `git blame {{[-e|--show-email]}} {{pad/naar/bestand}}`
 
@@ -19,14 +19,18 @@
 
 `git blame {{commit}}~ {{pad/naar/bestand}}`
 
-- Ga naar de bovenliggende commit van een specifieke commit en volg een specifieke tekst en de 10 regels die daarop volgen:
+- Toon een bestand met informatie over de auteur, begginend bij een gegeven regel:
 
-`git blame -L '/{{text}}/',+10 {{a82812aa}}^ {{pad/naar/bestand}}`
+`git blame -L {{123}} {{pad/naar/bestand}}`
 
 - Toon auteursnaam en commit hash informatie voor een specifieke regelbereik:
 
 `git blame -L {{start_regel}},{{eind_regel}} {{pad/naar/bestand}}`
 
-- Negeer witruimtes en regelverplaatsingen:
+- Annoteer 10 regels van een bestand, beginnend bij de eerste regel die overeenkomt met een gegeven tekenreeks:
+
+`git blame -L '/{{tekst}}/',+10 {{pad/naar/bestand}}`
+
+- Annoteer een bestand zonder witruimtes en regelverplaatsingen:
 
 `git blame -w -C -C -C {{pad/naar/bestand}}`

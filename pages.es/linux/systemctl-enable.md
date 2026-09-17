@@ -1,7 +1,8 @@
 # systemctl enable
 
 > Activa servicios de systemd.
-> Más información: <https://www.freedesktop.org/software/systemd/man/systemctl.html#enable%20UNIT%E2%80%A6>.
+> Vea también: `systemctl revert`.
+> Más información: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#enable%20UNIT%E2%80%A6>.
 
 - Activa un servicio para que se ejecute al arrancar:
 

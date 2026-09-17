@@ -1,7 +1,7 @@
 # csh
 
 > C와 유사한 구문을 사용하는 셸 (명령어 인터프리터).
-> 같이 보기: `tcsh`.
+> 관련 항목: `tcsh`.
 > 더 많은 정보: <https://www.mkssoftware.com/docs/man1/csh.1.asp>.
 
 - 대화형 셸 세션을 시작:

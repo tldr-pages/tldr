@@ -6,28 +6,28 @@
 
 - Bir paket ve bağlılıklarını sil:
 
-`sudo pacman --remove --recursive {{paket_ismi}}`
+`sudo pacman -Rs {{paket_ismi}}`
 
 - Bir paketi ve onun hem bağlılıklarını, hem de konfigürasyon dosyalarını sil:
 
-`sudo pacman --remove --recursive --nosave {{paket_ismi}}`
+`sudo pacman -Rsn {{paket_ismi}}`
 
 - Bir paketi telkin olmaksızın sil:
 
-`sudo pacman --remove --noconfirm {{paket_ismi}}`
+`sudo pacman -R --noconfirm {{paket_ismi}}`
 
 - Yetim (başka bir pakete bağlılık olarak indirilmiş ancak herhangi bir paket tarafından gerektirilmeyen) paketleri sil:
 
-`sudo pacman --remove --recursive --nosave $(pacman --query --unrequired --deps --quiet)`
+`sudo pacman -Rsn $(pacman -Qdtq)`
 
 - Bir paketi ve ona bağlı olan tüm öbür paketleri sil:
 
-`sudo pacman --remove --cascade {{paket_ismi}}`
+`sudo pacman -Rc {{paket_ismi}}`
 
 - (Bir paketin silinme durumunda) Etkilenecek paketleri (silmeden) listele:
 
-`pacman --remove --print {{paket_ismi}}`
+`pacman -Rp {{paket_ismi}}`
 
 - Bu alt komut için yardım göster:
 
-`pacman --remove --help`
+`pacman -Rh`

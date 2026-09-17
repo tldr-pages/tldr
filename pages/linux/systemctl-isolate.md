@@ -2,7 +2,7 @@
 
 > Start the specified unit with its dependencies and stop all others.
 > Ignores the units which have `IgnoreOnIsolate=yes`.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#isolate%20UNIT>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#isolate%20UNIT>.
 
 - Switch to a target (assumed `.target` if no extension provided):
 

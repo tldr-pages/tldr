@@ -17,4 +17,4 @@
 
 - ID로 특정 키 제거:
 
-`sudo tlmgr key remove {{키_ID}}`
+`sudo tlmgr key remove {{키_id}}`

@@ -2,6 +2,6 @@
 
 > Bu komut `zed` için bir takma addır.
 
-- Asıl komutun belgelerini görüntüleyin:
+- Asıl komutun dokümantasyonunu görüntüleyin:
 
 `tldr zed`

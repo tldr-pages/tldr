@@ -1,7 +1,7 @@
 # dnf
 
 > Paketmanagement Tool für RHEL, Fedora, und CentOS (ersetzt yum).
-> Weitere Informationen: <https://dnf.readthedocs.io/en/latest/command_ref.html>.
+> Weitere Informationen: <https://dnf5.readthedocs.io/en/latest/commands/index.html>.
 
 - Aktualisiere alle Pakete auf die neueste Version:
 

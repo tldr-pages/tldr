@@ -1,6 +1,6 @@
 # base64
 
-> Codifica o decodifica file o standard input in Base64 su standard output.
+> Codifica o decodifica file o `stdin` in Base64 su `stdout`.
 > Maggiori informazioni: <https://manned.org/base64>.
 
 - Codifica un file:

@@ -16,7 +16,7 @@
 
 `acme.sh --issue --alpn {{[-d|--domain]}} {{example.com}}`
 
-- Emite un certificado utilizando una configuración Nginx que está operativa:
+- Emite un certificado utilizando una configuración `nginx` que está operativa:
 
 `acme.sh --issue --nginx {{[-d|--domain]}} {{example.com}}`
 

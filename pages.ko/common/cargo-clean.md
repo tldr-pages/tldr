@@ -13,7 +13,7 @@
 
 - 릴리스 아티팩트 제거 (`target/release` 디렉터리):
 
-`cargo clean --release`
+`cargo clean {{[-r|--release]}}`
 
 - 지정된 프로필의 디렉터리에서 아티팩트를 제거 (이 경우, `target/debug`):
 

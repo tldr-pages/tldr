@@ -1,9 +1,8 @@
 # dnf
 
-> Package management utility for RHEL, Fedora, and CentOS (replaces yum).
-> Some subcommands such as `group` and `config-manager` have their own usage documentation.
+> Package manager for Fedora 41+ and RHEL 10.
 > For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
-> More information: <https://dnf.readthedocs.io/en/latest/command_ref.html>.
+> More information: <https://dnf5.readthedocs.io/en/latest/commands/index.html>.
 
 - Upgrade installed packages to the newest available versions:
 
@@ -17,11 +16,11 @@
 
 `dnf {{[if|info]}} {{package}}`
 
-- Install a new package (use `--assumeyes` to confirm all prompts automatically):
+- Install new packages (use `--assumeyes` to confirm all prompts automatically):
 
 `sudo dnf {{[in|install]}} {{package1 package2 ...}}`
 
-- Remove a package:
+- Remove packages:
 
 `sudo dnf {{[rm|remove]}} {{package1 package2 ...}}`
 
@@ -31,8 +30,8 @@
 
 - Find which packages provide a given command:
 
-`dnf {{[wp|provides]}} {{command}}`
+`dnf provides {{command}}`
 
-- View all past operations:
+- Clean cached data:
 
-`dnf {{[hist|history]}}`
+`sudo dnf clean {{all|dbcache|expire-cache|metadata|packages}}`

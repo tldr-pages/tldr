@@ -1,6 +1,7 @@
 # picocom
 
 > Minimal program to emulate serial consoles.
+> See also: `minicom`, `cu`, `tio`.
 > More information: <https://manned.org/picocom>.
 
 - Connect to a serial console with the default baud rate of 9600:

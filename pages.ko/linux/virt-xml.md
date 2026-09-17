@@ -1,7 +1,7 @@
 # virt-xml
 
 > 명령줄 옵션을 사용하여 libvirt 도메인 XML 파일을 편집합니다.
-> 같이 보기: `virsh`.
+> 관련 항목: `virsh`.
 > 더 많은 정보: <https://github.com/virt-manager/virt-manager/blob/main/man/virt-xml.rst>.
 
 - 특정 옵션에 대한 모든 하위 옵션 나열:

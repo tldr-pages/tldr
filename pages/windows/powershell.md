@@ -19,7 +19,7 @@
 
 - Execute a specific script:
 
-`powershell -File {{path/to/script.ps1}}`
+`powershell -File {{path\to\script.ps1}}`
 
 - Start a session with a specific version of PowerShell:
 

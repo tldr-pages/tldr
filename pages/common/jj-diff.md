@@ -1,7 +1,7 @@
 # jj diff
 
 > Compare file contents between two revisions.
-> More information: <https://jj-vcs.github.io/jj/latest/cli-reference/#jj-diff>.
+> More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-diff>.
 
 - Show changes of current revision:
 

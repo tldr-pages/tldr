@@ -1,7 +1,7 @@
 # hwinfo
 
 > Probe for the hardware present in the system.
-> See also: `inxi`, `lshw`.
+> See also: `inxi`, `lshw`, `dmidecode`.
 > More information: <https://manpages.opensuse.org/hwinfo/hwinfo.8.en.html>.
 
 - Display all available hardware information:

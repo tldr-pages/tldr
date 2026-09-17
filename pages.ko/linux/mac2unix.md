@@ -2,7 +2,7 @@
 
 > macOS 스타일의 줄 바꿈을 Unix 스타일로 변경.
 > CR을 LF로 대체.
-> 같이 보기: `unix2dos`, `unix2mac`, `dos2unix`.
+> 관련 항목: `unix2dos`, `unix2mac`, `dos2unix`.
 > 더 많은 정보: <https://manned.org/mac2unix>.
 
 - 파일의 줄 바꿈 변경:

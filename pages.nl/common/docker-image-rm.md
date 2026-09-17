@@ -17,4 +17,4 @@
 
 - Toon de help:
 
-`docker {{[rmi|image rm]}}`
+`docker {{[rmi|image rm]}} --help`

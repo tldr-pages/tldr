@@ -1,7 +1,7 @@
 # quickemu
 
 > 고도로 최적화된 데스크탑 가상 머신을 빠르게 구축하고 관리합니다.
-> 같이 보기: `quickget`.
+> 관련 항목: `quickget`.
 > 더 많은 정보: <https://github.com/quickemu-project/quickemu>.
 
 - 구성 파일에서 가상 머신 생성 및 실행:

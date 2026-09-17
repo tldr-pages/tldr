@@ -5,24 +5,24 @@
 
 - Kubernetes 클러스터 생성:
 
-`doctl kubernetes cluster create --count {{3}} --region {{nyc1}} --size {{s-1vcpu-2gb}} --version {{latest}} {{클러스터_이름}}`
+`doctl {{[k|kubernetes]}} {{[c|cluster]}} {{[c|create]}} --count {{3}} --region {{nyc1}} --size {{s-1vcpu-2gb}} --version {{latest}} {{클러스터_이름}}`
 
 - 모든 Kubernetes 클러스터 나열:
 
-`doctl kubernetes cluster list`
+`doctl {{[k|kubernetes]}} {{[c|cluster]}} {{[ls|list]}}`
 
 - kubeconfig를 가져와 저장:
 
-`doctl kubernetes cluster kubeconfig save {{클러스터_이름}}`
+`doctl {{[k|kubernetes]}} {{[c|cluster]}} {{[cfg|kubeconfig]}} {{[s|save]}} {{클러스터_이름}}`
 
 - 사용 가능한 업그레이드 확인:
 
-`doctl kubernetes cluster get-upgrades {{클러스터_이름}}`
+`doctl {{[k|kubernetes]}} {{[c|cluster]}} {{[gu|get-upgrades]}} {{클러스터_이름}}`
 
 - 클러스터를 새로운 Kubernetes 버전으로 업그레이드:
 
-`doctl kubernetes cluster upgrade {{클러스터_이름}}`
+`doctl {{[k|kubernetes]}} {{[c|cluster]}} upgrade {{클러스터_이름}}`
 
 - 클러스터 삭제:
 
-`doctl kubernetes cluster delete {{클러스터_이름}}`
+`doctl {{[k|kubernetes]}} {{[c|cluster]}} {{[d|delete]}} {{클러스터_이름}}`

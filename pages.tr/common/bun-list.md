@@ -2,6 +2,6 @@
 
 > Bu komut `bun pm ls` için bir takma addır.
 
-- Asıl komutun belgelerini görüntüleyin:
+- Asıl komutun dokümantasyonunu görüntüleyin:
 
 `tldr bun pm ls`

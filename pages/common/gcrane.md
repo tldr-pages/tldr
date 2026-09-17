@@ -10,7 +10,7 @@
 
 `gcrane auth login {{registry}} {{[-u|--username]}} {{user}} {{[-p|--password]}} {{password}}`
 
-- List tags, manifests, and sub-repostiories:
+- List tags, manifests, and sub-repositories:
 
 `gcrane ls {{registry}}/{{project_id}}`
 

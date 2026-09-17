@@ -9,4 +9,4 @@
 
 - 전역 `node_modules` 디렉토리 경로 표시:
 
-`npm root --global`
+`npm root {{[-g|--global]}}`

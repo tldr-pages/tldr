@@ -3,10 +3,14 @@
 > 특수 루트 디렉토리를 사용하여 명령 또는 대화형 쉘 실행.
 > 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/chroot-invocation.html>.
 
-- 새로운 루트 디렉토리로 명령어 실행:
+- 새 루트 디렉토리에서 `$SHELL`을 실행:
 
-`chroot {{/경로/새로운/루트/디렉토리}} {{명령어}}`
+`sudo chroot {{경로/대상/새로운_루트}}`
 
-- 사용할 사용자 및 그룹(ID 또는 이름) 지정:
+- 새 루트 디렉터리에서 지정한 명령어를 실행:
 
-`chroot --userspec={{사용자:그룹}}`
+`sudo chroot {{경로/대상/새로운_루트}} {{명령어}}`
+
+- 특정 사용자와 그룹을 사용:
+
+`sudo chroot --userspec {{사용자이름_또는_아이디}}:{{그룹_이름_또는_아이디}} {{경로/대상/새로운_루트}}`

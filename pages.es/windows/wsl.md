@@ -3,23 +3,23 @@
 > Administra el Subsistema de Windows para Linux.
 > Más información: <https://learn.microsoft.com/windows/wsl/reference>.
 
-- Iniciar un shell de Linux (usando la distribución predeterminada):
+- Inicia un intérprete de comandos de Linux (usando la distribución predeterminada):
 
 `wsl {{comando_de_shell}}`
 
-- Ejecutar un comando de Linux sin usar un shell:
+- Ejecuta un comando de Linux sin usar un intérprete de comandos:
 
-`wsl --exec {{comando}} {{argumentos_del_comando}}`
+`wsl {{[-e|--exec]}} {{comando}} {{argumentos_del_comando}}`
 
-- Especificar una distribución particular:
+- Especifica una distribución particular:
 
-`wsl --distribution {{distribución}} {{comando_de_shell}}`
+`wsl {{[-d|--distribution]}} {{distribución}} {{comando_de_shell}}`
 
-- Listar las distribuciones disponibles:
+- Lista las distribuciones disponibles:
 
-`wsl --list`
+`wsl {{[-l|--list]}}`
 
-- Exportar una distribución a un archivo `.tar`:
+- Exporta una distribución a un archivo `.tar`:
 
 `wsl --export {{distribución}} {{ruta\a\archivo_de_distribucion.tar}}`
 

@@ -1,6 +1,6 @@
 # impacket-secretsdump
 
-> Tämä on alias komennolle `secretsdump.py`.
+> Tämä on alias `secretsdump.py` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

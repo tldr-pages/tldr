@@ -1,6 +1,7 @@
 # ping
 
 > Kirim kumpulan paket ICMP ECHO_REQUEST (sebagai pesan "ping") ke host dalam jaringan.
+> Lihat juga: `mtr`.
 > Informasi lebih lanjut: <https://manned.org/ping>.
 
 - Ping suatu host:

@@ -2,7 +2,7 @@
 
 > 현재 셸에서 실행된 프로세스에 대한 정보를 표시하는 셸 내장 명령입니다.
 > `-l` 및 `-p`를 제외한 옵션은 `bash`에만 적용됩니다.
-> 같이 보기: `fg`, `bg`, `disown`, `%`.
+> 관련 항목: `fg`, `bg`, `disown`, `%`.
 > 더 많은 정보: <https://www.gnu.org/software/bash/manual/bash.html#index-jobs>.
 
 - 현재 셸에서 실행된 작업 보기:

@@ -6,24 +6,24 @@
 
 - 사용 가능한 패키지 및 버전 목록 동기화:
 
-`zypper refresh`
+`sudo zypper {{[ref|refresh]}}`
 
 - 새 패키지 설치:
 
-`zypper install {{패키지}}`
+`sudo zypper {{[in|install]}} {{패키지}}`
 
 - 패키지 제거:
 
-`zypper remove {{패키지}}`
+`sudo zypper {{[rm|remove]}} {{패키지}}`
 
 - 설치된 패키지를 최신 버전으로 업그레이드:
 
-`zypper update`
+`sudo zypper {{[up|update]}}`
 
 - 키워드를 통한 패키지 검색:
 
-`zypper search {{키워드}}`
+`zypper {{[se|search]}} {{키워드}}`
 
 - 구성된 저장소에 대한 정보 표시:
 
-`zypper repos --sort-by-priority`
+`zypper {{[lr|repos]}} --sort-by-priority`

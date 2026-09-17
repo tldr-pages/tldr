@@ -6,12 +6,12 @@
 
 - 파일 압축:
 
-`zlib-flate -compress < {{경로/대상/입력_파일}} > {{경로/대상/압축된.zlib}}`
+`zlib-flate < {{경로/대상/입력_파일}} -compress > {{경로/대상/압축된.zlib}}`
 
 - 파일 압축 해제:
 
-`zlib-flate -uncompress < {{경로/대상/압축된.zlib}} > {{경로/대상/출력_파일}}`
+`zlib-flate < {{경로/대상/압축된.zlib}} -uncompress > {{경로/대상/출력_파일}}`
 
 - 지정된 압축 수준으로 파일 압축. 0=가장 빠름 (최악), 9=가장 느림 (최고):
 
-`zlib-flate -compress={{압축_수준}} < {{경로/대상/입력_파일}} > {{경로/대상/압축된.zlib}}`
+`zlib-flate < {{경로/대상/입력_파일}} -compress={{압축_수준}} > {{경로/대상/압축된.zlib}}`

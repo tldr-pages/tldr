@@ -8,14 +8,14 @@
 
 `git difftool --tool-help`
 
-- Set the default diff tool to meld:
+- Set the default diff tool to Meld:
 
-`git config --global diff.tool "{{meld}}"`
+`git config --global diff.tool "meld"`
 
 - Use the default diff tool to show staged changes:
 
 `git difftool --staged`
 
-- Use a specific tool (opendiff) to show changes since a given commit:
+- Use a specific tool to show changes since a given commit:
 
 `git difftool {{[-t|--tool]}} {{opendiff}} {{commit}}`

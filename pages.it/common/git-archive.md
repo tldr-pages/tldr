@@ -3,11 +3,11 @@
 > Crea un archivio dei file nell'albero di lavoro.
 > Maggiori informazioni: <https://git-scm.com/docs/git-archive>.
 
-- Crea un archivio `.tar` del contenuto in HEAD e stampa il risultato su standard output:
+- Crea un archivio `.tar` del contenuto in HEAD e stampa il risultato su `stdout`:
 
 `git archive {{[-v|--verbose]}} HEAD`
 
-- Crea un archivio zip del contenuto in HEAD e stampa il risultato su standard output:
+- Crea un archivio zip del contenuto in HEAD e stampa il risultato su `stdout`:
 
 `git archive {{[-v|--verbose]}} --format zip HEAD`
 

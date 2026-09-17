@@ -12,7 +12,7 @@
 
 `crane registry serve --address {{address_naam}}`
 
-- Pad naar een directory waar blobs worden opgeslagen:
+- Navigeer naar een map waar blobs worden opgeslagen:
 
 `crane registry serve --disk {{pad/naar/store_dir}}`
 

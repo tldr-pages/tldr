@@ -1,7 +1,7 @@
 # ng
 
 > Angular 애플리케이션 생성 및 관리 도구.
-> 더 많은 정보: <https://angular.io/cli>.
+> 더 많은 정보: <https://angular.dev/cli>.
 
 - 디렉토리 내에 새로운 Angular 애플리케이션 생성:
 

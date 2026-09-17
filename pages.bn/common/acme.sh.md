@@ -16,7 +16,7 @@
 
 `acme.sh --issue --alpn {{[-d|--domain]}} {{example.com}}`
 
-- কার্যকর (working) Nginx কনফিগারেশন ব্যবহার করে একটি সার্টিফিকেট ইস্যু করুন:
+- কার্যকর (working) `nginx` কনফিগারেশন ব্যবহার করে একটি সার্টিফিকেট ইস্যু করুন:
 
 `acme.sh --issue --nginx {{[-d|--domain]}} {{example.com}}`
 

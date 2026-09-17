@@ -11,4 +11,4 @@
 
 - Remove um contêiner Distrobox forçadamente:
 
-`distrobox-rm {{nome_do_contêiner}} --force`
+`distrobox-rm {{nome_do_contêiner}} {{[-f|--force]}}`

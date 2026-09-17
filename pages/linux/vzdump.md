@@ -15,7 +15,7 @@
 
 `vzdump {{vm_id}} --mode {{suspend|snapshot}}`
 
-- Back up all guest systems and send an notification email to the root and admin users:
+- Back up all guest systems and send a notification email to the root and admin users:
 
 `vzdump --all --mode {{suspend}} --mailto {{root}} --mailto {{admin}}`
 

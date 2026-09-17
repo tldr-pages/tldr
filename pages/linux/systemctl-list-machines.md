@@ -1,7 +1,7 @@
 # systemctl list-machines
 
 > List the host and all running local virtual machines or containers with their state.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html#list-machines%20PATTERN%E2%80%A6>.
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#list-machines%20PATTERN%E2%80%A6>.
 
 - Show all machines (host and running containers/VMs):
 

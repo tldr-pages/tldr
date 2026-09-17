@@ -8,6 +8,7 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 
 [en](#en) •
 [ar](#ar) •
+[bg](#bg) •
 [bn](#bn) •
 [bs](#bs) •
 [ca](#ca) •
@@ -26,6 +27,7 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 [ko](#ko) •
 [lo](#lo) •
 [ml](#ml) •
+[nb](#nb) •
 [ne](#ne) •
 [nl](#nl) •
 [no](#no) •
@@ -34,6 +36,7 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 [pt_PT](#pt_pt) •
 [ro](#ro) •
 [ru](#ru) •
+[si](#si) •
 [sr](#sr) •
 [sv](#sv) •
 [ta](#ta) •
@@ -58,6 +61,14 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 
 ```markdown
 > لمزيد من التفاصيل: <https://example.com>.
+```
+
+---
+
+### bg
+
+```markdown
+> Повече информация: <https://example.com>.
 ```
 
 ---
@@ -177,7 +188,7 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 ### ja
 
 ```markdown
-> もっと詳しく: <https://example.com>。
+> 詳細情報: <https://example.com>。
 ```
 
 ---
@@ -202,6 +213,14 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 
 ```markdown
 > കൂടുതൽ വിവരങ്ങൾ: <https://example.com>.
+```
+
+---
+
+### nb
+
+```markdown
+> Mer informasjon: <https://example.com>.
 ```
 
 ---
@@ -266,6 +285,14 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 
 ```markdown
 > Больше информации: <https://example.com>.
+```
+
+---
+
+### si
+
+```markdown
+> වැඩිදුර තොරතුරු සඳහා: <https://example.com>.
 ```
 
 ---

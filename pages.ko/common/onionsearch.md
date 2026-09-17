@@ -22,4 +22,4 @@
 
 - 지원되는 모든 검색 엔진 나열:
 
-`onionsearch --help | grep -A1 -i "supported engines"`
+`onionsearch --help | grep {{[-A|--after-context]}} 1 {{[-i|--ignore-case]}} "supported engines"`

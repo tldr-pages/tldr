@@ -2,7 +2,7 @@
 
 > 델타 인코딩 유틸리티.
 > 주로 바이너리 파일에 패치를 적용하는 데 사용됩니다.
-> 더 많은 정보: <https://github.com/jmacd/xdelta>.
+> 더 많은 정보: <https://manned.org/xdelta>.
 
 - 패치 적용:
 

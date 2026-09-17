@@ -1,7 +1,7 @@
 # nix store
 
 > Nix 저장소를 조작.
-> 같이 보기: `nix-store`.
+> 관련 항목: `nix-store`.
 > 더 많은 정보: <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-store.html>.
 
 - 가비지 수집을 통해 공간 사용량 줄이기 위해 사용되지 않는 경로 제거:

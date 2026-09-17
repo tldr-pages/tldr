@@ -9,4 +9,4 @@
 
 - 기본 브라우저에서 <https://pinout.xyz/> 열기:
 
-`pinout -x`
+`pinout {{[-x|--xyz]}}`

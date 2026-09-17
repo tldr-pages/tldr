@@ -6,7 +6,7 @@
 
 - Mostra la documentazione del comando `wget` originale:
 
-`tldr wget -p common`
+`tldr wget {{[-p|--platform]}} common`
 
 - Mostra la documentazione del comando `Invoke-WebRequest` di PowerShell:
 

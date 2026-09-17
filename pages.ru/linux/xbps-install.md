@@ -10,4 +10,4 @@
 
 - Синхронизировать и обновить все пакеты:
 
-`xbps-install {{[-S|--sync]}} {{[-u|--update]}}`
+`xbps-install {{[-Su|--sync --update]}}`

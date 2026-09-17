@@ -5,20 +5,20 @@
 
 - Inicia un nuevo grupo de base de datos PostgreSQL:
 
-`pg_ctl -D {{directorio_de_datos}} init`
+`pg_ctl {{[-D|--pgdata]}} {{directorio_de_datos}} init`
 
 - Inicia un servidor PostgreSQL:
 
-`pg_ctl -D {{directorio_de_datos}} start`
+`pg_ctl {{[-D|--pgdata]}} {{directorio_de_datos}} start`
 
 - Detiene un servidor PostgreSQL:
 
-`pg_ctl -D {{directorio_de_datos}} stop`
+`pg_ctl {{[-D|--pgdata]}} {{directorio_de_datos}} stop`
 
 - Reinicia un servidor PostgreSQL:
 
-`pg_ctl -D {{directorio_de_datos}} restart`
+`pg_ctl {{[-D|--pgdata]}} {{directorio_de_datos}} restart`
 
 - Recarga la configuración del servidor PostgreSQL:
 
-`pg_ctl -D {{directorio_de_datos}} reload`
+`pg_ctl {{[-D|--pgdata]}} {{directorio_de_datos}} reload`

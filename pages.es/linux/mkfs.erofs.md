@@ -9,7 +9,7 @@
 
 - Crea una imagen EROFS con un UUID específico:
 
-`mkfs.erofs -U {{UUID}} image.erofs root/`
+`mkfs.erofs -U {{uuid}} image.erofs root/`
 
 - Crea una imagen EROFS comprimida:
 

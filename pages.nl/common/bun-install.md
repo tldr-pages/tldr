@@ -17,7 +17,7 @@
 
 - Installeer alleen productieafhankelijkheden (slaat `devDependencies` over):
 
-`bun {{[i|install]}} --production`
+`bun {{[i|install]}} {{[-p|--production]}}`
 
 - Installeer afhankelijkheden precies vanuit het `bun.lockb` lockbestand (bevroren lockbestand):
 

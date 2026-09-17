@@ -14,20 +14,20 @@
 
 - Zeige 30 Verzeichnisse an (Standardwert: 21):
 
-`dust --number-of-lines 30`
+`dust {{[-n|--number-of-lines]}} 30`
 
 - Zeigt Informationen für das aktuelle Verzeichnis an, bis zu 3 Ebenen tief:
 
-`dust --depth 3`
+`dust {{[-d|--depth]}} 3`
 
 - Die größten Verzeichnisse in absteigender Reihenfolge oben anzeigen:
 
-`dust --reverse`
+`dust {{[-r|--reverse]}}`
 
 - Alle Dateien und Verzeichnisse mit einem bestimmten Namen ignorieren:
 
-`dust --ignore-directory {{datei_oder_verzeichnis_name}}`
+`dust {{[-X|--ignore-directory]}} {{datei_oder_verzeichnis_name}}`
 
 - Keine Prozentbalken und Prozente anzeigen:
 
-`dust --no-percent-bars`
+`dust {{[-b|--no-percent-bars]}}`

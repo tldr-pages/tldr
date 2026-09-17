@@ -15,7 +15,7 @@
 
 `sudo wipefs {{[-a|--all]}} {{/dev/sdX}}*`
 
-- Perform dry run:
+- Simulate wiping all signature types from a device without actually modifying it:
 
 `sudo wipefs {{[-a|--all]}} {{[-n|--no-act]}} {{/dev/sdX}}`
 

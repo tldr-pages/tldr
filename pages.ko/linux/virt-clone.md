@@ -5,8 +5,8 @@
 
 - 가상 머신을 복제하고 새 이름, 저장 경로 및 MAC 주소를 자동으로 생성:
 
-`virt-clone --original {{가상머신_이름}} --auto-clone`
+`virt-clone {{[-o|--original]}} {{가상머신_이름}} --auto-clone`
 
 - 가상 머신을 복제하고 새 이름, 저장 경로 및 MAC 주소를 지정:
 
-`virt-clone --original {{가상머신_이름}} --name {{새_가상머신_이름}} --file {{경로/대상/새_저장소}} --mac {{ff:ff:ff:ff:ff:ff|RANDOM}}`
+`virt-clone {{[-o|--original]}} {{가상머신_이름}} {{[-n|--name]}} {{새_가상머신_이름}} {{[-f|--file]}} {{경로/대상/새_저장소}} {{[-m|--mac]}} {{ff:ff:ff:ff:ff:ff|RANDOM}}`

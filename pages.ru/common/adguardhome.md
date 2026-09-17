@@ -9,11 +9,11 @@
 
 - Запустить AdGuard с заданной конфигурацией:
 
-`AdGuardHome --config {{путь/до/AdGuardHome.yaml}}`
+`AdGuardHome --config {{путь/к/AdGuardHome.yaml}}`
 
-- Установить рабочую папку, где будут сохранятья данные:
+- Установить рабочий каталог, где будут сохраняться данные:
 
-`AdGuardHome --work-dir {{путь/до/папки}}`
+`AdGuardHome --work-dir {{путь/к/каталогу}}`
 
 - Установить или удалить AdGuard Home как службу:
 

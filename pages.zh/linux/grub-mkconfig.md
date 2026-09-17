@@ -9,8 +9,8 @@
 
 - 生成配置文件：
 
-`sudo grub-mkconfig --output={{/boot/grub/grub.cfg}}`
+`sudo grub-mkconfig {{[-o|--output]}} {{/boot/grub/grub.cfg}}`
 
 - 打印帮助页面：
 
-`grub-mkconfig --help`
+`grub-mkconfig {{[-h|--help]}}`

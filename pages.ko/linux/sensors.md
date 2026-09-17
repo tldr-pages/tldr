@@ -1,6 +1,7 @@
 # sensors
 
 > 센서 정보를 표시합니다.
+> 관련 항목: `btm`, `btop`.
 > 더 많은 정보: <https://manned.org/sensors>.
 
 - 모든 센서 칩의 현재 읽기값 표시:
