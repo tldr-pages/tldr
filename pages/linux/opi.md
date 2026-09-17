@@ -1,24 +1,24 @@
-# opi 
+# opi
 
-> Searching for and installing packages from openSUSE, community, and proprietary repositories
+> Searching for and installing packages from openSUSE, community, and proprietary repositories.
 > More information: <https://github.com/openSUSE/opi>.
 
-- Search package 
+- Search package:
 
 `opi {{keyword}}`
 
-- Install media codecs
+- Install media codecs:
 
 `opi codecs`
 
-- Search package without running scripts
+- Search package without running scripts:
 
 `opi -P {{keyword}}`
 
-- Search package in non interactive mode
+- Search package in non interactive mode:
 
 `sudo opi -n {{keyword}}`
 
-- Search multi packages
+- Search multi packages:
 
 `opi -m {{keyword}} {{keyword}} {{keyword}}`
