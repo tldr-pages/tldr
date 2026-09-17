@@ -13,7 +13,7 @@
 
 - Mets à jour toutes les gems selon les règles définies dans le `Gemfile` et régénére le fichier `Gemfile.lock` :
 
-`bundle update`
+`bundle update --all`
 
 - Mets à jour une ou plusieurs gem(s) spécifique(s) définie(s) dans le `Gemfile` :
 
