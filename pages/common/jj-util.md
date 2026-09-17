@@ -7,7 +7,7 @@
 
 `jj util completion {{bash|fish|nushell|zsh}}`
 
-- Execute an external command in the workspace:
+- Execute an external command in the workspace (helpful for creating aliases):
 
 `jj util exec -- {{command}}`
 
