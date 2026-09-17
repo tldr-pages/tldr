@@ -1,6 +1,6 @@
 # git branch
 
-> Perintah Git utama untuk bekerja dengan cabang (_branch_).
+> Perintah Git utama untuk bekerja dengan cabang (branch).
 > Informasi lebih lanjut: <https://git-scm.com/docs/git-branch>.
 
 - Tampilkan daftar semua cabang (lokal dan remote; cabang saat ini ditandai oleh `*`):
