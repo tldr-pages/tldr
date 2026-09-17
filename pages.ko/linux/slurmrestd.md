@@ -1,6 +1,6 @@
 # slurmrestd
 
-> REST API를 통해 Slurm에 인터페이스를 제공하는 도구입니다. *Inetd 모드* 및 *Listen 모드*에서 사용할 수 있습니다.
+> REST API를 통해 Slurm에 인터페이스를 제공하는 도구입니다. Inetd 모드 및 Listen 모드에서 사용할 수 있습니다.
 > 더 많은 정보: <https://slurm.schedmd.com/slurmrestd.html>.
 
 - 클라이언트 요청을 처리하기 전에 그룹 ID를 변경하고 보조 그룹을 제거:
