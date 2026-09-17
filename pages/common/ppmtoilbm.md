@@ -11,7 +11,7 @@
 
 `ppmtoilbm {{[-mp|-maxplanes]}} {{n}} -{{hamif|24if|dcif}} {{path/to/file.ppm}} > {{path/to/file.ilbm}}`
 
-- Produce a ILBM file with exactly `n` planes:
+- Produce an ILBM file with exactly `n` planes:
 
 `ppmtoilbm {{[-fp|-fixplanes]}} {{n}} {{path/to/file.ppm}} > {{path/to/file.ilbm}}`
 
