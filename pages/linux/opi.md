@@ -19,6 +19,6 @@
 
 `sudo opi -n {{package}}`
 
-- Search multi packages:
+- Search for multiple packages:
 
 `opi -m {{package1 package2 ...}}`
