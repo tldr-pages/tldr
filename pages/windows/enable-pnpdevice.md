@@ -16,6 +16,6 @@
 
 `Enable-PnpDevice -InstanceId 'RETRIEVED USING Get-PnpDevice COMMAND' -Confirm:$False`
 
-- Dry run of what would happen if the cmdlet runs:
+- Simulate what would happen if the cmdlet runs:
 
 `Enable-PnpDevice -InstanceId 'USB\VID_5986&;PID_0266&;MI_00\7&;1E5D3568&;0&;0000' -WhatIf:$True`

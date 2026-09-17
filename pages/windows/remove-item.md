@@ -24,6 +24,6 @@
 
 `Remove-Item -Recurse {{path\to\key1 , path\to\key2 ...}}`
 
-- Perform a dry run of the deletion process:
+- Simulate the deletion process:
 
 `Remove-Item -WhatIf {{path\to\file1 , path\to\file2 ...}}`
