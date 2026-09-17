@@ -11,6 +11,10 @@
 
 `sync {{경로/대상/파일}}`
 
-- 쓰기 작업을 디스크에 반영하고 파일 시스템 캐시 비우기:
+- 쓰기 작업을 디스크에 반영하고 파일 시스템 캐시 비우기 (Linux 전용):
 
 `sync; echo 3 | sudo tee /proc/sys/vm/drop_caches`
+
+- 디스크 쓰기 작업을 반영하고 비활성 메모리 및 파일 시스템 캐시 비우기 시도 (macOS 전용):
+
+`sync; sudo purge`
