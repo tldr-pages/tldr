@@ -17,7 +17,7 @@
 
 - Search package in non interactive mode:
 
-`sudo opi -n {{keyword}}`
+`sudo opi -n {{package}}`
 
 - Search multi packages:
 
