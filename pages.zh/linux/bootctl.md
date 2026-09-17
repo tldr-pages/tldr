@@ -1,6 +1,6 @@
 # bootctl
 
-> 控制EFI固件启动设置并管理启动加载器。
+> 控制 EFI 固件启动设置并管理启动加载器。
 > 另请参阅：`kernel-install`。
 > 更多信息：<https://www.freedesktop.org/software/systemd/man/latest/bootctl.html>。
 
@@ -16,14 +16,14 @@
 
 `sudo bootctl reboot-to-firmware true`
 
-- 指定EFI系统分区（默认为`/efi/`，`/boot/`或`/boot/efi`）：
+- 指定 EFI 系统分区（默认为`/efi/`，`/boot/`或`/boot/efi`）：
 
 `bootctl --esp-path={{/path/to/efi_system_partition/}}`
 
-- 将`systemd-boot`安装到EFI系统分区：
+- 将`systemd-boot`安装到 EFI 系统分区：
 
 `sudo bootctl install`
 
-- 从EFI系统分区移除所有已安装的`systemd-boot`版本：
+- 从 EFI 系统分区移除所有已安装的`systemd-boot`版本：
 
 `sudo bootctl remove`
