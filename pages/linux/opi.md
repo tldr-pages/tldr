@@ -21,4 +21,4 @@
 
 - Search multi packages:
 
-`opi -m {{keyword}} {{keyword}} {{keyword}}`
+`opi -m {{package1 package2 ...}}`
