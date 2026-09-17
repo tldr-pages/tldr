@@ -1,6 +1,6 @@
 # opi
 
-> Searching for and installing packages from openSUSE, community, and proprietary repositories.
+> Search and install packages from openSUSE, community, and proprietary repositories.
 > More information: <https://github.com/openSUSE/opi>.
 
 - Search package:
