@@ -7,7 +7,7 @@
 
 `darling shell {{uname}}`
 
-- Run a specific program with arguments:
+- 인수를 전달하여 지정한 프로그램 실행:
 
 `darling shell {{경로/대상/프로그램}} {{프로그램_인수_1 프로그램_인수_2 ...}}`
 
