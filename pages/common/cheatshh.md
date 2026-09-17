@@ -24,7 +24,7 @@
 
 `cheatshh {{[-eg|--edit-group]}}`
 
-- Delete an existing group and its sub commands from `commands.json` file:
+- Delete an existing group and its subcommands from `commands.json` file:
 
 `cheatshh {{[-dg|--delete-group]}}`
 
