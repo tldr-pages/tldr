@@ -1,7 +1,7 @@
 # basicmaker
 
 > SoftMaker Office's BASIC macro editor application.
-> More information: <https://help.softmaker.com/basicmaker2026/en/index.html>
+> More information: <https://help.softmaker.com/basicmaker2026/en/index.html>.
 
 - Launch the macro editor (omitting the file path will create a new blank file):
 
