@@ -19,10 +19,10 @@
 
 `java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar {{文件名.jar}}`
 
-- 显示 JDK、JRE 和 HotSpot 的版本：
-
-`java -version`
-
 - 显示帮助：
 
 `java -help`
+
+- 显示 JDK、JRE 和 HotSpot 的版本：
+
+`java -version`
