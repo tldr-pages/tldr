@@ -23,10 +23,10 @@
 
 `dillo --fullwindow`
 
-- 버전 정보 출력:
-
-`dillo --version`
-
 - 도움말 표시:
 
 `dillo --help`
+
+- 버전 정보 출력:
+
+`dillo --version`

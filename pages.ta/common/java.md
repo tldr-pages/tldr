@@ -19,10 +19,10 @@
 
 `java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar {{கோப்புபெயர்.jar}}`
 
-- JDK, JRE மற்றும் HotSpot பதிப்புகளைக் காண்பி:
-
-`java -version`
-
 - ஜாவா கட்டளைக்கான பயன்பாட்டுத் தகவலைக் காண்பி:
 
 `java -help`
+
+- JDK, JRE மற்றும் HotSpot பதிப்புகளைக் காண்பி:
+
+`java -version`
