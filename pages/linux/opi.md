@@ -5,7 +5,7 @@
 
 - Search package:
 
-`opi {{keyword}}`
+`opi {{package}}`
 
 - Install media codecs:
 
