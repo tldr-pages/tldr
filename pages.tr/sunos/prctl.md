@@ -7,7 +7,7 @@
 
 `prctl {{pid}}`
 
-- İşlem limit ve izinlerini makineye dayanıklı fortmattaExamine process limits and permissions in machine parsable format:
+- İşlem limit ve izinlerini makineye dayanıklı fortmatta:
 
 `prctl -P {{pid}}`
 
