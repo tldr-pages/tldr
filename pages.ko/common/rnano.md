@@ -1,8 +1,8 @@
 # rnano
 
-> 이 명령어는 `nano --restricted`의 별칭.
+> 이 명령은 `nano --restricted`의 별칭입니다.
 > 더 많은 정보: <https://manned.org/rnano>.
 
-- 원본 명령어 문서 보기:
+- 자세한 내용은 원본 명령을 참고하세요:
 
 `tldr nano`
