@@ -10,7 +10,7 @@
 
 - 압축된 `.tar` 파일에서 이미지 불러오기:
 
-`podman load {{[-i|--input]}} {{경로/대상/파일.tar[.gz|.bz2|.xz|.zst]}}`
+`podman load {{[-i|--input]}} {{경로/대상/파일.tar.ext}}`
 
 - 이미지를 불러오고 이미지 ID만 출력:
 
