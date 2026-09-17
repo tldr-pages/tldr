@@ -1,6 +1,6 @@
 # jj gerrit
 
-> Interact with gerrit to upload changes for code review, or update existing changes.
+> Interact with Gerrit to upload changes for code review, or update existing changes.
 > See also: `jj git push`.
 > More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-gerrit-upload>.
 
