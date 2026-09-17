@@ -13,7 +13,7 @@
 
 - Search package without running scripts:
 
-`opi -P {{keyword}}`
+`opi -P {{package}}`
 
 - Search package in non interactive mode:
 
