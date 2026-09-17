@@ -1,7 +1,7 @@
 # opi
 
 > Search and install packages from openSUSE, community, and proprietary repositories.
-> More information: <https://github.com/openSUSE/opi>.
+> More information: <https://manpages.opensuse.org/Tumbleweed/opi/opi.8.en.html>.
 
 - Search for a package:
 
