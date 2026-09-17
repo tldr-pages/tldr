@@ -19,7 +19,7 @@
 
 `trivy fs --scanners {{vuln,misconfig}} {{path/to/project_directory}}`
 
-- Scan a IaC (Terraform, CloudFormation, ARM, Helm, and Dockerfile) directory for misconfigurations:
+- Scan an IaC (Terraform, CloudFormation, ARM, Helm, and Dockerfile) directory for misconfigurations:
 
 `trivy config {{path/to/iac_directory}}`
 
