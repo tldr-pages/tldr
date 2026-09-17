@@ -3,9 +3,9 @@
 > Microsoft Office's presentation application.
 > More information: <https://support.microsoft.com/office/command-line-switches-for-microsoft-office-products-079164cd-4ef5-4178-b235-441737deb3a6#category=powerpoint%2C_powerpoint_viewer>.
 
-- Launch the presentation application:
+- Launch the presentation application (omitting the file path will launch the File page):
 
-`powerpnt`
+`powerpnt {{path\to\file.pptx}}`
 
 - Create a new [b]lank presentation:
 

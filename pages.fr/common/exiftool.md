@@ -23,7 +23,7 @@
 
 `exiftool "-AllDates+=0:0:0 1:0:0" {{chemin/vers/répertoire}}`
 
-- Recule d'un jour et deux heures la date de prise de toutes les photos JPEG du répertoire courant :
+- Recule d'un jour et deux heures la date de prise de toutes les photos JPEG du répertoire actuel :
 
 `exiftool "-AllDates-=0:0:1 2:0:0" {{[-ext|-extension]}} jpg`
 
