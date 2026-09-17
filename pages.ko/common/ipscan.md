@@ -20,7 +20,7 @@
 
 `ipscan {{192.168.0.1-254}} -p {{80,443,22}}`
 
-- Scan with a delay between requests to avoid network congestion:
+- 네트워크 혼잡을 방지하기 위해 요청 사이에 지연 시간을 두고 스캔:
 
 `ipscan {{192.168.0.1-254}} -d {{200}}`
 
