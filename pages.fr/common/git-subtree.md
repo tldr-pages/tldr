@@ -1,24 +1,24 @@
 # git subtree
 
-> Outil pour gérer les dépendances de projet en tant que sous-projets.
+> Fusionne des sous-arbres ou divise un dépôt en sous-arbres.
 > Plus d'informations : <https://manned.org/git-subtree>.
 
-- Ajout d'un dépôt Git en tant que sous-arbre :
+- Ajoute un dépôt Git en tant que sous-arbre et fusionne les commits:
 
-`git subtree add {{[-P|--prefix]}} {{chemin/vers/repertoire/}} --squash {{repository_url}} {{master}}`
+`git subtree add {{[-P|--prefix]}} {{chemin/vers/répertoire}} --squash {{url_dépôt}} {{nom_branche}}`
 
-- Mettre à jour le sous-arbre avec son dernier commit :
+- Met à jour le sous-arbre avec son dernier commit :
 
-`git subtree pull {{[-P|--prefix]}} {{chemin/vers/repertoire/}} {{repository_url}} {{master}}`
+`git subtree pull {{[-P|--prefix]}} {{chemin/vers/répertoire}} {{url_dépôt}} {{nom_branche}}`
 
-- Merge le dépot d'un sous arbre dans la branche master :
+- Fusionne les modifications récentes jusqu'au dernier commit du sous-arbre dans le sous-arbre :
 
-`git subtree merge {{[-P|--prefix]}} {{chemin/vers/repertoire/}} --squash {{repository_url}} {{master}}`
+`git subtree merge {{[-P|--prefix]}} {{chemin/vers/répertoire}} --squash {{url_dépôt}} {{nom_branche}}`
 
-- Pousser les commits vers le dépôt d'un sous-arbre :
+- Pousse les commits vers le dépôt d'un sous-arbre :
 
-`git subtree push {{[-P|--prefix]}} {{chemin/vers/repertoire/}} {{repository_url}} {{master}}`
+`git subtree push {{[-P|--prefix]}} {{chemin/vers/répertoire}} {{url_dépôt}} {{nom_branche}}`
 
-- Extraire un nouvel historique de projet de l'historique d'un sous-arbre :
+- Extrait un nouvel historique de projet de l'historique d'un sous-arbre :
 
-`git subtree split {{[-P|--prefix]}} {{chemin/vers/repertoire/}} {{repository_url}} {{[-b|--branch]}} {{nom_de_branche}}`
+`git subtree split {{[-P|--prefix]}} {{chemin/vers/répertoire}} {{url_dépôt}} {{[-b|--branch]}} {{nom_branche}}`
