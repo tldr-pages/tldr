@@ -7,7 +7,7 @@
 
 `git lfs install`
 
-- Track files that match a glob:
+- Track files that match a `glob`:
 
 `git lfs track '{{*.bin}}'`
 
