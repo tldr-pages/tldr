@@ -7,7 +7,7 @@
 
 `ctrlaltdel`
 
-- CTRL+ALT+DEL을 즉시 재부팅하도록 설정 (준비 없이):
+- `<Ctrl Alt Del>`을 즉시 재부팅하도록 설정 (준비 없이):
 
 `sudo ctrlaltdel hard`
 
