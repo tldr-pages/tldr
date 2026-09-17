@@ -18,11 +18,11 @@
 
 - E[x]trahovat (komprimovaný) archiv do aktuálního adresáře [v]erbózně:
 
-`tar xvf {{cesta/ke/zdroji.tar[.gz|.bz2|.xz]}}`
+`tar xvf {{cesta/ke/zdroji.tar.tar}}`
 
 - E[x]trahovat (komprimovaný) archiv do cílového adresáře:
 
-`tar xf {{cesta/ke/zdroji.tar[.gz|.bz2|.xz]}} {{[-C|--directory]}} {{cesta/k/adresari}}`
+`tar xf {{cesta/ke/zdroji.tar.tar}} {{[-C|--directory]}} {{cesta/k/adresari}}`
 
 - Vytvořit komprimovaý archiv, zapsat jej do souboru a [a]utomaticky určit program pro kompresi pomocí přípony souboru:
 
