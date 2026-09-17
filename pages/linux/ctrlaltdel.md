@@ -1,6 +1,6 @@
 # ctrlaltdel
 
-> Utility to control what happens when CTRL+ALT+DEL is pressed.
+> Utility to control what happens when `<Ctrl Alt Del>` is pressed.
 > More information: <https://manned.org/ctrlaltdel>.
 
 - Get current setting:
@@ -11,6 +11,6 @@
 
 `sudo ctrlaltdel hard`
 
-- Set CTRL+ALT+DEL to reboot "normally", giving processes a chance to exit first (send SIGINT to PID1):
+- Set `<Ctrl Alt Del>` to reboot "normally", giving processes a chance to exit first (send `SIGINT` to PID1):
 
 `sudo ctrlaltdel soft`
