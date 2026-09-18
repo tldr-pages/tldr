@@ -11,11 +11,11 @@
 
 `git describe --abbrev={{4}}`
 
-- Génère un nom avec le chemin complet du tag :
+- Génère un nom avec le chemin complet de l'étiquette :
 
 `git describe --all`
 
-- Décrit un tag Git :
+- Décrit une étiquette Git :
 
 `git describe {{v1.0.0}}`
 
