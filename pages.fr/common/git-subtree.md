@@ -11,7 +11,7 @@
 
 `git subtree pull {{[-P|--prefix]}} {{chemin/vers/répertoire}} {{url_dépôt}} {{nom_branche}}`
 
-- Fusionne les modifications récentes jusqu'au dernier commit du sous-arbre dans le sous-arbre :
+- Fusionne les modifications récentes jusqu'à la dernère validation du sous-arbre dans le sous-arbre :
 
 `git subtree merge {{[-P|--prefix]}} {{chemin/vers/répertoire}} --squash {{url_dépôt}} {{nom_branche}}`
 
