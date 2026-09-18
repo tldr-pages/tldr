@@ -17,7 +17,7 @@
 
 - Envoie les modifications d'une branche locale spécifique vers une branche distante spécifique :
 
-git push {{nom_distant}} {{branche_locale}}:{{branche_distante}}
+`git push {{nom_distant}} {{branche_locale}}:{{branche_distante}}`
 
 - Envoie les modifications locales sur toutes les branches locales vers leur contrepartie sur le dépôt distant :
 
