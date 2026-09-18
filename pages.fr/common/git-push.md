@@ -21,7 +21,7 @@
 
 - Envoie les modifications locales sur toutes les branches locales vers leur contrepartie sur le dépôt distant :
 
-`git push --all {{remote_name}}`
+`git push --all {{nom_distant}}`
 
 - Supprime une branche dans un dépôt distant :
 
@@ -31,6 +31,6 @@
 
 `git push --prune {{nom_distant}}`
 
-- Publie les tags qui ne sont pas encore sur le dépôt distant :
+- Publie les étiquettes qui ne sont pas encore sur le dépôt distant :
 
 `git push --tags`
