@@ -9,12 +9,12 @@
 
 - Download and install all updates:
 
-`softwareupdate {{[-i|--install]]} {{[-a|--all]}}`
+`softwareupdate {{[-i|--install]}} {{[-a|--all]}}`
 
 - Download and install all recommended updates:
 
-`softwareupdate {{[-i|--install]]} {{[-r|--recommended]}}`
+`softwareupdate {{[-i|--install]}} {{[-r|--recommended]}}`
 
 - Download and install a specific app:
 
-`softwareupdate {{[-i|--install]]} {{update_name}}`
+`softwareupdate {{[-i|--install]}} {{update_name}}`
