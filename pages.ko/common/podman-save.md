@@ -14,7 +14,7 @@
 
 - 이미지를 압축하여 저장:
 
-`podman save {{이미지:태그}} | {{[gzip|bzip2|xz|zstd|zstdchunked]}} > {{경로/대상/파일.tar[.gz|.bz2|.xz|.zst|.zst]}}`
+`podman save {{이미지:태그}} | {{gzip|bzip2|xz|zstd|zstdchunked}} > {{경로/대상/파일.tar.ext}}`
 
 - 이미지를 실시간으로 압축하며 진행률을 표시하고 원격 시스템으로 전송:
 
