@@ -13,11 +13,11 @@
 
 - Mount a specific device when several are connected:
 
-`go-mtpfs {{[-dev]}} {{regexp}} {{mount_point}}`
+`go-mtpfs {{[-dev]}} {{regex}} {{mount_point}}`
 
-- Mount only the storage areas matching a regular expression:
+- Mount only the storage areas matching a `regex`:
 
-`go-mtpfs {{[-storage]}} {{regexp}} {{mount_point}}`
+`go-mtpfs {{[-storage]}} {{regex}} {{mount_point}}`
 
 - Unmount the device:
 
