@@ -31,14 +31,6 @@
 
 `outlook /c ipm.note /m {{email@example.com}}`
 
-- Open a specified message (`.msg`), calendar (`.ics`/`.vcs`), or contact (`.vcf`) file:
+- Open a specified message (`.msg`) or contact (`.vcf`) file, or reset the Folder Pane:
 
-`outlook /f {{path\to\file.msg}} /ical {{path\to\file.ics}} /vcal {{path\to\file.vcs}} /v {{path\to\file.vcf}}`
-
-- Create an item with a specified file attached:
-
-`outlook /a {{path\to\file}}`
-
-- Reset the Folder Pane (navigation pane) for the current profile:
-
-`outlook /resetnavpane`
+`outlook /f {{path\to\file.msg}} /v {{path\to\file.vcf}} /resetnavpane`
