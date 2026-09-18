@@ -5,7 +5,7 @@
 
 - Sauvegarde une image en redirigeant la sortie standard vers une archive `.tar` :
 
-`docker {{[save|image save]}} {{image}}:{{etiquette}} > {{chemin/vers/fichier.tar}}`
+`docker {{[save|image save]}} {{image}}:{{étiquette}} > {{chemin/vers/fichier.tar}}`
 
 - Sauvegarde une image dans une archive `.tar` :
 
