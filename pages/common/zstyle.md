@@ -28,6 +28,6 @@
 
 `zstyle -b {{context}} {{style}} {{variable_name}}`
 
-- Retrieve a style value as an array:
+- Retrieve a style value as an array and store it in a variable:
 
 `zstyle -a {{context}} {{style}} {{variable_name}}`
