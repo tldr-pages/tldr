@@ -15,7 +15,7 @@
 
 `wrc {{[-D|--define]}} {{id[=val]}} {{path/to/input.rc}}`
 
-- Preprocess only, writing the result to standard output:
+- Preprocess only, writing the result to `stdout`:
 
 `wrc {{[-E]}} {{path/to/input.rc}}`
 
