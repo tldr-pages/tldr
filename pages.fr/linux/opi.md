@@ -1,7 +1,7 @@
 # opi
 
 > Recherche et installe des paquets à partir des dépôts openSUSE, communautaires et propriétaires.
-> Plus d'informations: <https://manpages.opensuse.org/Tumbleweed/opi/opi.8.en.html>.
+> Plus d'informations : <https://manpages.opensuse.org/Tumbleweed/opi/opi.8.en.html>.
 
 - Recherche un paquet:
 
