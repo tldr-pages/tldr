@@ -17,4 +17,4 @@
 
 - Sélectionne des étiquettes particulières d'une image à sauvegarder :
 
-`docker {{[save|image save]}} {{[-o|--output]}} {{chemin/vers/fichier.tar}} {{nom_image:etiquette1 nom_image:etiquette2 ...}}`
+`docker {{[save|image save]}} {{[-o|--output]}} {{chemin/vers/fichier.tar}} {{nom_image:étiquette1 nom_image:étiquette2 ...}}`
