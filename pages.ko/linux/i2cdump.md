@@ -1,7 +1,7 @@
 # i2cdump
 
 > I2C 장치의 레지스터 내용을 출력.
-> 참고: All addresses should be specified in hexadecimal.
+> 참고: 모든 주소는 16진수로 지정해야 함.
 > 관련 항목: `i2cdetect`, `i2cget`, `i2cset`.
 > 더 많은 정보: <https://manned.org/i2cdump>.
 
