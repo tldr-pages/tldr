@@ -28,10 +28,10 @@
 
 `del {{patrón_del_archivo}} /q`
 
-- Muestra la ayuda y la lista de atributos disponibles:
-
-`del /?`
-
 - Elimina archivos en función de los atributos especificados:
 
 `del {{patrón_del_archivo}} /a {{atributo}}`
+
+- Muestra la ayuda y la lista de atributos disponibles:
+
+`del /?`

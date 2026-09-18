@@ -5,16 +5,16 @@
 
 - List all available updates:
 
-`softwareupdate --list`
+`softwareupdate {{[-l|--list]}}`
 
 - Download and install all updates:
 
-`softwareupdate --install --all`
+`softwareupdate {{[-i|--install]]} {{[-a|--all]}}`
 
-- Download and install all [r]ecommended updates:
+- Download and install all recommended updates:
 
-`softwareupdate --install --recommended`
+`softwareupdate {{[-i|--install]]} {{[-r|--recommended]}}`
 
 - Download and install a specific app:
 
-`softwareupdate --install {{update_name}}`
+`softwareupdate {{[-i|--install]]} {{update_name}}`

@@ -3,6 +3,7 @@
 > Install, activate, and manage volume licensed versions of Microsoft Office products.
 > Use `cscript` to run this program in the CLI, or `wscript` in the GUI.
 > Note: This command may override, deactivate, and/or remove your current volume of licensed Office product versions, so please proceed cautiously.
+> See also: `gethelpcmd-officeactivationscenario`.
 > More information: <https://learn.microsoft.com/deployoffice/vlactivation/tools-to-manage-volume-activation-of-office>.
 
 - Install a product key (Note: It replaces the existing key):

@@ -2,6 +2,7 @@
 
 > Imprime y concatena archivos.
 > Un clon de `cat` con resaltado de sintaxis e integración con Git.
+> Vea también: `cat`.
 > Más información: <https://manned.org/bat>.
 
 - Imprime bellamente (pretty print) el contenido de uno o más archivos en `stdout`:

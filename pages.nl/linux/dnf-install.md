@@ -15,9 +15,13 @@
 
 `sudo dnf {{[in|install]}} {{https://example.com/pakket.rpm}}`
 
+- Voeg de Fedora non-free pakketten repository toe:
+
+`sudo dnf {{[in|install]}} https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm`
+
 - Voeg de Extra Packages for Enterprise Linux (EPEL) repositories toe:
 
-`sudo dnf {{[in|install]}} https://dl.fedoraproject.org/pub/epel/epel-release-latest-{{10}}.noarch.rpm`
+`sudo dnf {{[in|install]}} epel-release`
 
 - Voeg Remi's RPM repository toe:
 

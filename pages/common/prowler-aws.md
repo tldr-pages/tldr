@@ -1,7 +1,7 @@
 # prowler aws
 
 > Assess AWS security best practices, perform audits, compliance checks, and generate reports.
-> See also: `prowler`, `prowler-azure`, `prowler-gcp`, `prowler-kubernetes`, `prowler-m365`, `prowler-github`.
+> See also: `prowler azure`, `prowler gcp`, `prowler kubernetes`, `prowler m365`, `prowler github`.
 > More information: <https://docs.prowler.com/user-guide/cli/tutorials/misc>.
 
 - Run the default set of checks on the AWS account:

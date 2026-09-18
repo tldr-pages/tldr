@@ -35,6 +35,7 @@ This file contains the translation templates of this notice.
 [pt_PT](#pt_pt) •
 [ro](#ro) •
 [ru](#ru) •
+[si](#si) •
 [sr](#sr) •
 [sv](#sv) •
 [ta](#ta) •
@@ -283,6 +284,14 @@ This file contains the translation templates of this notice.
 
 ```markdown
 > Некоторые подкоманды, такие как `example`, имеют собственную документацию по использованию.
+```
+
+---
+
+### si
+
+```markdown
+> `example` වැනි ඇතැම් අනු විධාන සඳහා, එය සඳහාම වූ ලේඛන පවතී.
 ```
 
 ---

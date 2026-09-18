@@ -14,20 +14,20 @@
 
 - 네트워크 장치를 활성화:
 
-`networkctl up {{인터페이스1 인터페이스2 ...}}`
+`sudo networkctl up {{인터페이스1 인터페이스2 ...}}`
 
 - 네트워크 장치를 비활성화:
 
-`networkctl down {{인터페이스1 인터페이스2 ...}}`
+`sudo networkctl down {{인터페이스1 인터페이스2 ...}}`
 
 - 동적 구성 갱신 (예: DHCP 서버로부터 받은 IP 주소):
 
-`networkctl renew {{인터페이스1 인터페이스2 ...}}`
+`sudo networkctl renew {{인터페이스1 인터페이스2 ...}}`
 
 - 구성 파일(`.netdev` 및 `.network`) 재로드:
 
-`networkctl reload`
+`sudo networkctl reload`
 
-- 네트워크 인터페이스 재구성 (구성을 편집한 경우, 먼저 `networkctl reload`를 호출해야 함):
+- 네트워크 인터페이스 재구성 (구성을 편집한 경우, 먼저 `sudo networkctl reload`를 호출해야 함):
 
-`networkctl reconfigure {{인터페이스1 인터페이스2 ...}}`
+`sudo networkctl reconfigure {{인터페이스1 인터페이스2 ...}}`

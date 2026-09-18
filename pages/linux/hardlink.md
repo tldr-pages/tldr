@@ -4,7 +4,7 @@
 > Part of `util-linux`, useful for saving disk space when identical files exist across directories.
 > More information: <https://manned.org/hardlink>.
 
-- Perform a dry run without modifying files:
+- Simulate hardlinking duplicate files without modifying them:
 
 `hardlink {{[-n|--dry-run]}} {{path/to/directory}}`
 

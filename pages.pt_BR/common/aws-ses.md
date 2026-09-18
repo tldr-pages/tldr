@@ -30,7 +30,7 @@
 
 - Envia um email:
 
-`aws ses send-email --from {{de_endereco}} --destination "ToAddresses={{para_endereco}}" --message "Subject={Data={{assunto}},Charset=utf8},Body={Text={Data={{corpo_email}},Charset=utf8},Html={Data={{corpo_do_email_com_html}},Charset=utf8}}"`
+`aws ses send-email --from {{de_endereco}} --destination "ToAddresses={{para_endereco}}" --message "Subject={Data={{assunto}},Charset=utf8},Body={Text={Data={{corpo_email}},Charset=utf8},Html={Data={{corpo_do_email_com_html}},Charset=utf8\}\}"`
 
 - Exibe ajuda para um subcomando específico do SES:
 
