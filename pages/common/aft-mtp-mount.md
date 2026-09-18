@@ -1,6 +1,6 @@
 # aft-mtp-mount
 
-> Mount MTP devices using FUSE.
+> Mount MTP (Media Transfer Protocol) devices to the local filesystem using FUSE.
 > More information: <https://manned.org/aft-mtp-mount>.
 
 - Mount an MTP device to a directory:
