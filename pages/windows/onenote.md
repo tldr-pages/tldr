@@ -27,10 +27,10 @@
 
 `onenote /sidenote`
 
-- Immediately start recording audio or video on the current page:
+- Immediately start recording audio on the current page:
 
-`onenote /audionote|/videonote`
+`onenote /audionote`
 
-- Stop any active recording session:
+- Immediately start recording video on the current page:
 
-`onenote /stoprecording`
+`onenote /videonote`
