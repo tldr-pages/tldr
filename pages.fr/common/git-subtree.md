@@ -3,7 +3,7 @@
 > Fusionne des sous-arbres ou divise un dépôt en sous-arbres.
 > Plus d'informations : <https://manned.org/git-subtree>.
 
-- Ajoute un dépôt Git en tant que sous-arbre et fusionne les commits:
+- Ajoute un dépôt Git en tant que sous-arbre et fusionne les validations:
 
 `git subtree add {{[-P|--prefix]}} {{chemin/vers/répertoire}} --squash {{url_dépôt}} {{nom_branche}}`
 
