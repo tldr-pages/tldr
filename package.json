@@ -16,7 +16,10 @@
   "scripts": {
     "lint-markdown": "markdownlint pages*/**/*.md",
     "lint-tldr-pages": "tldr-lint ./pages",
-    "test": "bash scripts/test.sh",
+    "test": "node scripts/test.cjs",
+    "test-bash": "bash scripts/test.sh",
+    "test-powershell": "powershell scripts/test.ps1",
+    "test-pwsh": "pwsh scripts/test.ps1",
     "build-index": "node ./scripts/build-index.js > index.json",
     "prepare": "husky"
   },
