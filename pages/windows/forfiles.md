@@ -15,7 +15,7 @@
 
 `forfiles /c "{{command}}"`
 
-- Search for files using a specific glob mask:
+- Search for files using a specific `glob` mask:
 
 `forfiles /m {{glob_pattern}}`
 

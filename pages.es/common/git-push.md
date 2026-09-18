@@ -1,6 +1,6 @@
 # git push
 
-> Envía (*push*) los commits al repositorio remoto.
+> Envía (push) los commits al repositorio remoto.
 > Más información: <https://git-scm.com/docs/git-push>.
 
 - Envía los cambios locales en la rama actual a la misma rama en el remoto:

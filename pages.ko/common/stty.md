@@ -24,11 +24,11 @@
 
 `stty sane`
 
-- Switch between raw and normal mode:
+- raw 모드와 일반 모드 간 전환:
 
 `stty {{raw|cooked}}`
 
-- Turn character echoing off or on:
+- 문자 입력 echo 비활성화 또는 활성화:
 
 `stty {{-echo|echo}}`
 

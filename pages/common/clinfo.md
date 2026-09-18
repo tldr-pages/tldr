@@ -1,7 +1,7 @@
 # clinfo
 
 > Show OpenCL platforms and devices.
-> More information: <https://manned.org/man/clinfo>.
+> More information: <https://manned.org/clinfo>.
 
 - Display information about all OpenCL platforms and devices:
 

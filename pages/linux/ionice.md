@@ -13,10 +13,6 @@
 
 `ionice {{[-c|--class]}} {{scheduling_class}} -{{p|P|u}} {{id}}`
 
-- Run a command with custom I/O scheduling class and priority:
-
-`ionice {{[-c|--class]}} {{scheduling_class}} {{[-n|--classdata]}} {{priority}} {{command}}`
-
 - Ignore failure to set the requested priority:
 
 `ionice {{[-t|--ignore]}} {{[-n|--classdata]}} {{priority}} {{[-p|--pid]}} {{process_id}}`
