@@ -1,6 +1,6 @@
 # git push
 
-> Pousse les commits vers un dépôt distant.
+> Pousse les validations vers un dépôt distant.
 > Plus d'informations : <https://git-scm.com/docs/git-push>.
 
 - Envoie les changements locaux dans la branche courante vers sa contrepartie distante :
@@ -15,7 +15,7 @@
 
 `git push {{nom_distant}} {{[-u|--set-upstream]}} {{branche_distante}}`
 
-- Envoi les changements locaux sur toutes les branches locales vers leur contrepartie sur le dépôt distant :
+- Envoie les changements locaux sur toutes les branches locales vers leur contrepartie sur le dépôt distant :
 
 `git push --all {{nom_distant}}`
 

@@ -1,32 +1,32 @@
 # git show
 
-> Affiche différents types d'objets Git (commits, tags, etc.).
+> Affiche différents types d'objets Git (validations, tags, etc.).
 > Plus d'informations : <https://git-scm.com/docs/git-show>.
 
-- Afficher des informations sur le dernier commit (hachage, message, modifications et autres métadonnées) :
+- Affiche des informations sur la dernière validation (hachage, message, modifications et autres métadonnées) :
 
 `git show`
 
-- Affiche les informations du dernier commit :
+- Affiche les informations de la dernière validation :
 
-`git show {{commit}}`
+`git show {{validation}}`
 
 - Affiche les informations associés au tag spécifié :
 
 `git show {{etiquette}}`
 
-- Affiche les informations à propos du 3ème commit en partant du sommet de la branche :
+- Affiche les informations à propos de la 3ème validation en partant du sommet de la branche :
 
 `git show {{branche}}~{{3}}`
 
-- Afficher le message d'un commit sur une seule ligne, en supprimant la sortie diff :
+- Afficher le message d'une validation sur une seule ligne, en supprimant la sortie diff :
 
-`git show --oneline -s {{commit}}`
+`git show --oneline -s {{validation}}`
 
-- Affiche uniquement la liste des fichiers changés dans un commit :
+- Affiche uniquement la liste des fichiers changés dans une validation :
 
-`git show --stat {{commit}}`
+`git show --stat {{validation}}`
 
-- Afficher le contenu d'un fichier tel qu'il était à une révision donnée (par exemple, branche, tag ou commit) :
+- Affiche le contenu d'un fichier tel qu'il était à une révision donnée (par exemple, branche, tag ou validation) :
 
 `git show {{revision}}:{{chemin/vers/fichier}}`
