@@ -5,28 +5,24 @@
 
 - Mount an MTP device to a directory:
 
-`aft-mtp-mount {{path/to/mountpoint}}`
+`aft-mtp-mount {{path/to/mount_point}}`
 
 - Mount a specific device to a directory:
 
-`aft-mtp-mount -D {{device_name}} {{path/to/mountpoint}}`
-
-- Display debug output:
-
-`aft-mtp-mount {{[-d|-o debug]}}`
+`aft-mtp-mount -D {{device_name}} {{path/to/mount_point}}`
 
 - Reset the device before mounting:
 
-`aft-mtp-mount -R {{path/to/mountpoint}}`
+`aft-mtp-mount -R {{path/to/mount_point}}`
 
-- Do not claim the USB interface:
+- Mount a device without claiming the USB interface:
 
-`aft-mtp-mount -C {{path/to/mountpoint}}`
+`aft-mtp-mount -C {{path/to/mount_point}}`
 
-- Enable verbose output:
+- Mount a device and display debug output:
 
-`aft-mtp-mount -v`
+`aft-mtp-mount -d {{path/to/mount_point}}`
 
 - Display help:
 
-`aft-mtp-mount -h`
+`aft-mtp-mount {{[-h|--help]}}`
