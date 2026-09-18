@@ -31,6 +31,6 @@
 
 `git show --name-only {{validation}}`
 
-- Affiche le contenu d'un fichier tel qu'il était à une révision donnée (par exemple, branche, tag ou validation) :
+- Affiche le contenu d'un fichier tel qu'il était à une révision donnée (par exemple, branche, étiquette ou validation) :
 
-`git show {{revision}}:{{chemin/vers/fichier}}`
+`git show {{révision}}:{{chemin/vers/fichier}}`
