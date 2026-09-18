@@ -20,7 +20,7 @@
 
 `<:>theme {{theme_name}}`
 
-- Save and Quit:
+- Save and quit:
 
 `<:>wq<Enter>`
 
