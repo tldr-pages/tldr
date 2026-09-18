@@ -23,14 +23,14 @@
 
 `outlook /select {{outlook:calendar}}`
 
-- Create a new item of the specified message class (e.g. an email, appointment, or contact):
+- Compose a new email message:
 
-`outlook /c {{ipm.note|ipm.appointment|ipm.contact}}`
+`outlook /c ipm.note`
 
-- Create an email addressed to a specific recipient (used together with `/c ipm.note`):
+- Compose a new email message addressed to a specific recipient:
 
 `outlook /c ipm.note /m {{email@example.com}}`
 
-- Open a specified message (`.msg`) or contact (`.vcf`) file, or reset the Folder Pane:
+- Open a specified message (`.msg`) file:
 
-`outlook /f {{path\to\file.msg}} /v {{path\to\file.vcf}} /resetnavpane`
+`outlook /f {{path\to\file.msg}}`
