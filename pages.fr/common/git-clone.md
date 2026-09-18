@@ -29,7 +29,7 @@
 
 - Clone un dépôt existant en ne récupérant qu'une branche spécifique :
 
-git clone {{[-b|--branch]}} {{nom_branche}} --single-branch {{emplacement_dépôt_distant}}
+`git clone {{[-b|--branch]}} {{nom_branche}} --single-branch {{emplacement_dépôt_distant}}`
 
 - Clone un dépôt existant en utilisant une commande SSH spécifique :
 
