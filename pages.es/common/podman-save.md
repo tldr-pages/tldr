@@ -12,7 +12,7 @@
 
 `podman save {{image:tag}} > {{ruta/al/archivo.tar}}`
 
-- Guardar una imagen con compresión:
+- Guarda una imagen con compresión:
 
 `podman save {{image:tag}} | {{gzip|bzip2|xz|zstd|zstdchunked}} > {{ruta/al/archivo.tar.ext]}}`
 
