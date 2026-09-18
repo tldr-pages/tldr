@@ -9,7 +9,7 @@
 
 - Sauvegarde une image dans une archive `.tar` :
 
-`docker {{[save|image save]}} {{[-o|--output]}} {{chemin/vers/fichier.tar}} {{image}}:{{etiquette}}`
+`docker {{[save|image save]}} {{[-o|--output]}} {{chemin/vers/fichier.tar}} {{image}}:{{étiquette}}`
 
 - Sauvegarde toutes les étiquettes de l'image :
 
