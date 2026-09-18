@@ -1,29 +1,29 @@
 # git diff
 
-> Affiche les changements sur les fichiers suivis.
+> Affiche les modifications sur les fichiers suivis.
 > Plus d'informations : <https://git-scm.com/docs/git-diff>.
 
-- Affiche les changements sur les fichiers suivis :
+- Affiche les modifications non indexées :
 
 `git diff`
 
-- Affiche tous les changements sur les fichiers par rapport à la tête de branche :
+- Affiche toutes les modifications non validées (y compris celles qui sont indexées) :
 
 `git diff HEAD`
 
-- Affiche tous les changements sur les fichiers ajoutés mais pas encore validés :
+- Affiche uniquement les modifications indexées (ajoutées, mais pas encore validées) :
 
 `git diff --staged`
 
-- Affiche les changements de tous les validations à partir d'une date / heure donnée (expression de dates, ex : "1 week 2 days" pour 1 semaine et 2 jours ou une date ISO) :
+- Affiche les modifications de toutes les validations à partir d'une date/heure donnée (expression de dates, ex : "1 week 2 days" pour 1 semaine et 2 jours ou une date ISO) :
 
 `git diff 'HEAD@{{{3 months|weeks|days|hours|seconds ago}}}'`
 
-- Affiche seulement les noms des fichiers modifiés depuis une validation donnée :
+- Affiche les statistiques du diff, comme les fichiers modifiés, l'histogramme et le nombre total de lignes ajoutées/supprimées :
 
-`git diff --name-only {{validation}}`
+`git diff --stat {{validation}}`
 
-- Affiche un résumé des créations de fichiers, renommages ou changements de droits depuis une validation :
+- Affiche un résumé des créations de fichiers, renommages ou changements de mode depuis une validation donnée:
 
 `git diff --summary {{validation}}`
 
@@ -31,6 +31,6 @@
 
 `git diff {{branche_1}}..{{branche_2}} {{chemin/vers/fichier}}`
 
-- Compare plusieurs fichiers de la branche courante avec une autre branche :
+- Compare différents fichiers de la branche actuelle avec une autre branche :
 
-`git diff {{branche}}:{{chemin/vers/fichier2}} {{chemin/vers/fichier}}`
+`git diff {{autre_branche}}:{{chemin/vers/fichier2}} {{chemin/vers/fichier1}}`
