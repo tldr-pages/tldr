@@ -1,7 +1,6 @@
 # pacman --sync
 
-> Hulpprogramma voor het beheren van pakketten op Arch Linux.
-> Zie ook: `pacman`.
+> Synchroniseer pakketten van externe repositories.
 > Meer informatie: <https://manned.org/pacman.8>.
 
 - Installeer een nieuw pakket:
