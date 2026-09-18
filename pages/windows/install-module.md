@@ -31,6 +31,6 @@
 
 `Install-Module {{module}} -Scope {{AllUsers|CurrentUser}}`
 
-- Perform a dry run to determine which modules will be installed, upgraded, or removed through `Install-Module`:
+- Simulate a run to determine which modules will be installed, upgraded, or removed through `Install-Module`:
 
 `Install-Module {{module}} -WhatIf`

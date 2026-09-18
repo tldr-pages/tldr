@@ -23,10 +23,6 @@
 
 `colima start --cpu {{number}} --memory {{memory}} --disk {{storage_space}}`
 
-- Use Docker via Colima (Docker is required):
-
-`colima start`
-
 - List containers with their information and status:
 
 `colima list`

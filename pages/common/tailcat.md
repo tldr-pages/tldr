@@ -1,6 +1,6 @@
 # tailcat
 
-> WireGuard-encrypted tunnels using Tailscale's data plane, like netcat but encrypted.
+> WireGuard-encrypted tunnels using Tailscale's data plane, like `netcat` but encrypted.
 > In the examples below, an `addrblob` is the connection token (`tcom...`) printed by a running `tailcat` server, used by clients to reach it.
 > More information: <https://github.com/tailscale/tailcat#usage>.
 

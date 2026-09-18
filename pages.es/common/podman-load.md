@@ -10,7 +10,7 @@
 
 - Carga una imagen desde un archivo `.tar` comprimido:
 
-`podman load {{[-i|--input]}} {{ruta/al/archivo.tar[.gz|.bz2|.xz|.zst]}}`
+`podman load {{[-i|--input]}} {{ruta/al/archivo.tar.ext}}`
 
 - Carga una imagen y muestra una salida silenciosa (solo muestra el ID de la imagen):
 

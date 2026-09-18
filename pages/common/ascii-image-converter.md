@@ -11,7 +11,7 @@
 
 `ascii-image-converter {{[-C|--color]}} {{path/to/image|url}}`
 
-- Create a tresholded image using braille (if the image is barely visible, try changing the terminal font):
+- Create a thresholded image using braille (if the image is barely visible, try changing the terminal font):
 
 `ascii-image-converter {{[-b|--braille]}} {{path/to/image|url}}`
 
