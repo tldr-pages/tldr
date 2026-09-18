@@ -16,6 +16,6 @@
 
 `alex {{fichiertexte.md}}`
 
-- Analyse tous les fichiers Markdown sauf `example.md` :
+- Analyse tous les fichiers Markdown sauf celui spécifié :
 
-`alex *.md !example.md`
+`alex *.md !{{fichier.md}}`
