@@ -34,11 +34,3 @@
 - Stop any active recording session:
 
 `onenote /stoprecording`
-
-- Paste the contents of the clipboard onto the current page:
-
-`onenote /paste`
-
-- Start OneNote in Safe Mode:
-
-`onenote /safe`
