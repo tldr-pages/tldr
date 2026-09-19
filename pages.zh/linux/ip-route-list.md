@@ -1,8 +1,8 @@
 # ip route list
 
-> 这是 `ip route show`.命令的一个别名。
+> 此命令为 `ip route show` 的别名。
 > 更多信息：<https://manned.org/ip-route>。
 
-- 原命令的文档在：
+- 查看原命令的文档：
 
 `tldr ip route show`
