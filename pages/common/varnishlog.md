@@ -1,7 +1,7 @@
 # varnishlog
 
 > Display Varnish logs.
-> More information: <https://vinyl-cache.org/docs/trunk/reference/varnishlog.html>.
+> More information: <https://vinyl-cache.org/docs/8.0/reference/varnishlog.html>.
 
 - Display logs in real time:
 

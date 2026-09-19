@@ -1,7 +1,7 @@
 # write
 
 > Write data to memory.
-> More information: <https://www.oreilly.com/library/view/cisco-ios-in/0596008694/re869.html#book-content>.
+> More information: <https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/fundamentals/command/cf_command_ref/test_cable-diagnostics_through_xmodem.html>.
 
 - Write current configuration to memory:
 
