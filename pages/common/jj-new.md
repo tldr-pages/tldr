@@ -17,4 +17,4 @@
 
 - Insert a new empty change between specified revisions:
 
-`jj new {{[-B|--insert-before]}} {{revsets}} {{[-A|--insert-after]}} {{revsets}}`
+`jj new {{[-A|--insert-after]}} {{revsets}} {{[-B|--insert-before]}} {{revsets}}`
