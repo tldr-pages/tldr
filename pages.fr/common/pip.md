@@ -30,6 +30,7 @@
 - Affiche les informations d'un paquet installé :
 
 `pip show {{paquet}}`
+
 - Installe des paquets à partir d'un fichier :
 
 `pip install {{[-r|--requirement]}} {{requirements.txt}}`
