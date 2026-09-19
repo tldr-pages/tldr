@@ -27,7 +27,7 @@
 
 `sudo pacman -Syu --overwrite {{pad/naar/bestand}}`
 
-- Verwijder niet-geïnstalleerde pakketten en ongebruikte repositories uit de cache (gebruik de vlaggen `Scc` om alle pakketten op te schonen):
+- Verwijder niet-geïnstalleerde pakketten en ongebruikte repositories uit de cache (gebruik de vlaggen `Scc` om alle pakketten op te schonen ([c])):
 
 `sudo pacman -Sc`
 
