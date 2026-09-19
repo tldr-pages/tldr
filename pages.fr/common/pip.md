@@ -27,6 +27,7 @@
 - Liste les paquets installés :
 
 `pip list`
+
 - Affiche les informations d'un paquet installé :
 
 `pip show {{paquet}}`
