@@ -1,7 +1,8 @@
 # aft-mtp-mount
 
 > Mount MTP (Media Transfer Protocol) devices to the local filesystem using FUSE.
-> More information: <https://manned.org/aft-mtp-mount>.
+> See also: `fusermount`.
+> More information: <https://github.com/whoozle/android-file-transfer-linux>.
 
 - Mount an MTP device to a directory:
 
