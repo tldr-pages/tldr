@@ -1,36 +1,36 @@
 # pacman --sync
 
-> Synchronise les paquets.
+> Synchronise les paquets depuis les dépôts distants.
 > Plus d'informations : <https://manned.org/pacman.8>.
 
 - Installe un nouveau paquet :
 
-`sudo pacman --sync {{paquet}}`
+`sudo pacman -S {{paquet}}`
 
-- Synchronise et mettre à jour :
+- Synchronise et actualise la base de données des paquets en effectuant aussi une mise à niveau du système (ajouter `--downloadonly` pour télécharger uniquement les paquets sans les mettre à jour) :` :
 
-`sudo pacman --sync --refresh --sysupgrade`
+`sudo pacman -Syu`
 
-- Synchronise, mets à jour et installe un paquet sans demander de confirmation :
+- Synchronise, met à jour et installe un paquet sans demander de confirmation :
 
-`sudo pacman --sync --refresh --sysupgrade --noconfirm {{paquet}}`
+`sudo pacman -Syu --noconfirm {{paquet}}`
 
-- Recherche un paquet en utilisant un nom ou une `regex` :
+- Recherche un paquet en utilisant un mot-clé ou une `regex` :
 
-`pacman --sync --search "{{motif}}"`
+`pacman -Ss "{{motif_recherche}}"`
 
 - Affiche des informations sur un paquet :
 
-`pacman --sync --info {{paquet}}`
+`pacman -Si {{paquet}}`
 
-- Ecris par dessus des fichiers pendant une mise à jour :
+- Ecrit par-dessus des fichiers en conflit pendant une mise à jour :
 
-`sudo pacman --sync --refresh --sysupgrade --overwrite {{path/to/file}}`
+`sudo pacman -Syu --overwrite {{chemin/vers/fichier}}`
 
-- Synchronise et mets à jour les paquets, en ignorant un paquet (peut être utilisé plusieurs fois) :
+- Supprime les fichiers concernant des paquets non installés et les dépôts inutilisés du cache de pacman (utiliser les options `Scc` pour nettoyer tous les paquets):
 
-`sudo pacman --sync --refresh --sysupgrade --ignore {{paquet}}`
+`sudo pacman -Sc`
 
-- Supprime les fichiers concernant des paquets non installés et les dépôts supprimés du cache de pacman :
+- Spécifie la version du paquet à installer :
 
-`sudo pacman --sync --clean`
+`sudo pacman -S {{paquet}}={{version}}`
