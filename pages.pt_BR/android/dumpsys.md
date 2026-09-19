@@ -24,6 +24,6 @@
 
 `dumpsys --skip {{servico}}`
 
-- Específica um periodo de _timeout_ (por padrão é 10s):
+- Específica um periodo de timeout (por padrão é 10s):
 
 `dumpsys -t {{segundos}}`

@@ -3,7 +3,7 @@
 > Affiche le contenu d'un répertoire.
 > Plus d'informations : <https://learn.microsoft.com/windows-server/administration/windows-commands/dir>.
 
-- Affiche le contenu du répertoire courant :
+- Affiche le contenu du répertoire actuel :
 
 `dir`
 
@@ -11,7 +11,7 @@
 
 `dir {{chemin\vers\répertoire}}`
 
-- Affiche le contenu du répertoire courant, y compris les fichiers cachés :
+- Affiche le contenu du répertoire actuel, y compris les fichiers cachés :
 
 `dir /a`
 
@@ -19,7 +19,7 @@
 
 `dir {{chemin\vers\répertoire}} /a`
 
-- Affiche une liste simple des répertoires et fichiers, sans information supplémentaire :
+- Affiche une liste simple des répertoires et fichiers, sans informations supplémentaires :
 
 `dir /b`
 
