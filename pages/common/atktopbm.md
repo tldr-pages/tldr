@@ -1,6 +1,6 @@
 # atktopbm
 
-> Convert a Andrew Toolkit raster object to a PBM image.
+> Convert an Andrew Toolkit raster object to a PBM image.
 > See also: `pbmtoatk`.
 > More information: <https://netpbm.sourceforge.net/doc/atktopbm.html>.
 
