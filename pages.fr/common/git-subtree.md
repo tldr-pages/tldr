@@ -5,7 +5,7 @@
 
 - Ajout d'un dépôt Git en tant que sous-arbre :
 
-`git subtree add {{[-P|--prefix]}} {{chemin/vers/repertoire/}} --squash {{repository_url}} {{master}}`
+`git subtree add {{[-P|--prefix]}} {{chemin/vers/répertoire/}} --squash {{repository_url}} {{master}}`
 
 - Mettre à jour le sous-arbre avec son dernier commit :
 

@@ -25,6 +25,6 @@
 
 `atom {{[-f|--foreground]}}`
 
-- Attend la fermeture de la fenêtre avant de quitter (utile pour l'éditeur de commits Git) :
+- Attend la fermeture de la fenêtre avant de quitter (utile pour l'éditeur de validations Git) :
 
 `atom {{[-w|--wait]}}`

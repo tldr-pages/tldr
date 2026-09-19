@@ -1,32 +1,36 @@
 # git show
 
-> Affiche différents types d'objets Git (commits, tags, etc.).
+> Affiche différents types d'objets Git (validations, étiquettes, etc.).
 > Plus d'informations : <https://git-scm.com/docs/git-show>.
 
-- Afficher des informations sur le dernier commit (hachage, message, modifications et autres métadonnées) :
+- Affiche des informations sur la dernière validation (hachage, message, modifications et autres métadonnées) :
 
 `git show`
 
-- Affiche les informations du dernier commit :
+- Affiche les informations sur une validation, étiquette, ou branche spécifique (comme `HEAD` pour la validation la plus récente) :
 
-`git show {{commit}}`
+`git show {{validation|étiquette|branche}}`
 
-- Affiche les informations associés au tag spécifié :
+- Affiche uniquement la liste des fichiers ajoutés, renommés, ou supprimés :
 
-`git show {{etiquette}}`
+`git show --summary {{validation}}`
 
-- Affiche les informations à propos du 3ème commit en partant du sommet de la branche :
+- Ignore les espaces lors de la comparaison de lignes :
 
-`git show {{branche}}~{{3}}`
+`git show {{[-w|--ignore-all-space]}}`
 
-- Afficher le message d'un commit sur une seule ligne, en supprimant la sortie diff :
+- Affiche le message d'une validation sur une seule ligne, en supprimant la sortie diff :
 
-`git show --oneline -s {{commit}}`
+`git show --oneline {{[-s|--no-patch]}} {{validation}}`
 
-- Affiche uniquement la liste des fichiers changés dans un commit :
+- Affiche les statistiques du diff pour les fichiers modifiés (comme des lignes ajoutées ou supprimées) :
 
-`git show --stat {{commit}}`
+`git show --stat {{validation}}`
 
-- Afficher le contenu d'un fichier tel qu'il était à une révision donnée (par exemple, branche, tag ou commit) :
+- Affiche une liste simplifiée de tous les fichiers modifiés dans une validation (modifiés, ajoutés, et supprimés) :
 
-`git show {{revision}}:{{chemin/vers/fichier}}`
+`git show --name-only {{validation}}`
+
+- Affiche le contenu d'un fichier tel qu'il était à une révision donnée (par exemple, branche, étiquette ou validation) :
+
+`git show {{révision}}:{{chemin/vers/fichier}}`
