@@ -33,6 +33,6 @@
 
 `awk '($10 >= {{valeur_min}} && $10 <= {{valeur_max}})' {{chemin/vers/fichier}}`
 
-- Affiche une table des utilisateurs avec un UID >= 1000, avec un en-tête et une sortie formatée, en utilisant les deux-points comme séparateur (%-20ssignifie : 20 caractères de chaîne alignés à gauche,%6s signifie : 6 caractères de chaîne alignés à droite) :
+- Affiche une table des utilisateurs avec un UID >= 1000, avec un en-tête et une sortie formatée, en utilisant les deux-points comme séparateur (`%-20s` : 20 caractères alignés à gauche, `%6s` : 6 caractères alignés à droite) :
 
 `awk 'BEGIN {FS=":";printf "%-20s %6s %25s\n", "Name", "UID", "Shell"} $4 >= 1000 {printf "%-20s %6d %25s\n", $1, $4, $7}' /etc/passwd`
