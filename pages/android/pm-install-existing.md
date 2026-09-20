@@ -5,4 +5,4 @@
 
 - Re-add an app:
 
-`pm install-existing {{app_name}}`
+`pm install-existing {{package}}`

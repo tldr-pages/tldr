@@ -6,7 +6,7 @@
 
 - Add or change user database information for the current user interactively:
 
-`su -c chpass`
+`chpass`
 
 - Set a specific login [s]hell for the current user:
 
@@ -26,8 +26,8 @@
 
 - Specify the [h]ostname or address of an NIS server to query:
 
-`su -c 'chpass -h {{hostname}} {{username}}'`
+`su -c 'ypchpass -h {{hostname}} {{username}}'`
 
 - Specify a particular NIS [d]omain (system domain name by default):
 
-`su -c 'chpass -d {{domain}} {{username}}'`
+`su -c 'ypchpass -d {{domain}} {{username}}'`
