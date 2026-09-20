@@ -25,7 +25,7 @@
 
 `awk 'NR%3==1' {{chemin/vers/fichier}}`
 
-- Affiche differents valeurs selon des conditions :
+- Affiche différentes valeurs selon des conditions :
 
 `awk '{if ($1 == "string1") print "Correspondance exacte string1"; else if ($1 ~ "string2") print "Correspondance partielle string2"; else print "string3"}' {{chemin/vers/fichier}}`
 
