@@ -1,7 +1,7 @@
 # traefik
 
 > An HTTP reverse proxy and load balancer.
-> More information: <https://doc.traefik.io/traefik/reference/static-configuration/cli/>.
+> More information: <https://doc.traefik.io/traefik/v3.4/operations/cli/>.
 
 - Start the server with the default configuration:
 

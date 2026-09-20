@@ -1,7 +1,7 @@
 # octo
 
 > Tools for Octopus Deploy.
-> More information: <https://octopus.com/docs/cli>.
+> More information: <https://octopus.com/docs/cli/octopus-cli>.
 
 - Create a package:
 
