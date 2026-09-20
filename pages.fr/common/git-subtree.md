@@ -7,7 +7,7 @@
 
 `git subtree add {{[-P|--prefix]}} {{chemin/vers/répertoire/}} --squash {{repository_url}} {{master}}`
 
-- Mettre à jour le sous-arbre avec son dernier commit :
+- Mettre à jour le sous-arbre avec sa dernière validation :
 
 `git subtree pull {{[-P|--prefix]}} {{chemin/vers/repertoire/}} {{repository_url}} {{master}}`
 
