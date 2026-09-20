@@ -1,7 +1,7 @@
 # awk
 
 > Langage de programmation polyvalent pour travailler sur des fichiers.
-> Remarque : Differentes implementations d'AWK font souvent de ceci un lien symbolique vers leur binaire.
+> Remarque : Différentes implémentations d'AWK font souvent de ceci un lien symbolique vers leur binaire.
 > Voir aussi : `gawk`.
 > Plus d'informations : <https://github.com/onetrueawk/awk>.
 
