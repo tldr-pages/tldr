@@ -24,6 +24,6 @@
 
 `tlmgr restore {{package}} {{revision}} --backupdir {{path/to/backup_directory}}`
 
-- Perform a dry-run and print all taken actions without making them:
+- Simulate a run and print all taken actions without making them:
 
 `tlmgr restore --dry-run {{package}} {{revision}}`
