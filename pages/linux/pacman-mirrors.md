@@ -23,4 +23,4 @@
 
 - Generate a mirrorlist, only using mirrors in your country:
 
-`sudo pacman-mirrors --geoip`
+`pacman-mirrors --country {{Country}}`
