@@ -1,7 +1,6 @@
 # nono
 
 > Secure, kernel-enforced sandbox CLI for AI agents and untrusted processes.
-> Leverages Landlock (Linux) and Seatbelt (macOS) to restrict filesystem, network, and execution capabilities.
 > More information: <https://nono.sh/docs>.
 
 - Run a command using a configured profile with read and write access scoped to a specific path:
