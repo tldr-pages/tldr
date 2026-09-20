@@ -1,6 +1,7 @@
 # doctl completion
 
 > Generate the autocompletion script for `doctl` for the specified shell.
+> Note: This subcommand does not have a documentation page and is likely deprecated.
 > More information: <https://docs.digitalocean.com/reference/doctl/reference/>.
 
 - Generate the autocompletion script for Bash:
