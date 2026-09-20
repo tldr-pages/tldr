@@ -8,7 +8,7 @@
 
 `gitsome`
 
-- Setup GitHub integration with the current account:
+- Set up GitHub integration with the current account:
 
 `gh configure`
 
