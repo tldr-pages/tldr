@@ -4,7 +4,7 @@
 > Voir aussi : `git format-patch`.
 > Plus d'informations : <https://git-scm.com/docs/git-am>.
 
-- Applique et valide un fichier de patch local :
+- Applique et valide un fichier de correctif local :
 
 `git am {{chemin/vers/fichier.patch}}`
 
