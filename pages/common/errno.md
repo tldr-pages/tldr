@@ -3,7 +3,7 @@
 > Look up errno names and descriptions.
 > More information: <https://joeyh.name/code/moreutils/>.
 
-- Lookup errno description by name or code:
+- Look up errno description by name or code:
 
 `errno {{name|code}}`
 
