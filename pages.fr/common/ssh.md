@@ -32,6 +32,6 @@
 
 `ssh {{utilisateur}}@{{hôte_distant}} -J {{utilisateur}}@{{hôte_de_rebond}}`
 
-- Ferme une session bloquée:
+- Ferme une session bloquée :
 
 `<Enter><~><.>`
