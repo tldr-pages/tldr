@@ -4,7 +4,7 @@
 > The path of `vcvarsall` for a certain Visual Studio installation can be found using `vswhere`.
 > More information: <https://learn.microsoft.com/cpp/build/building-on-the-command-line>.
 
-- Setup the environment for native x64:
+- Set up the environment for native x64:
 
 `vcvarsall x64`
 

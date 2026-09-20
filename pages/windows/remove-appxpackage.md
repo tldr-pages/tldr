@@ -15,6 +15,6 @@
 
 `Remove-AppxPackage {{package}} -AllUsers`
 
-- Remove an app package but preserve it's app data:
+- Remove an app package but preserve its app data:
 
 `Remove-AppxPackage {{package}} -PreserveApplicationData`

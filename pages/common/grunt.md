@@ -23,7 +23,7 @@
 
 `grunt --tasks {{path/to/directory}}`
 
-- Perform a dry-run without writing any files:
+- Simulate a run without writing any files:
 
 `grunt --no-write`
 

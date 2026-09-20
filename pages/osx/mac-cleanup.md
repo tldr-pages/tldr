@@ -11,7 +11,7 @@
 
 `mac-cleanup {{[-c|--configure]}}`
 
-- Perform a dry-run, showing what will be removed without actually deleting it:
+- Simulate what would be removed without actually deleting it:
 
 `mac-cleanup {{[-n|--dry-run]}}`
 

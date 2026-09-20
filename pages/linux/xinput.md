@@ -1,6 +1,6 @@
 # xinput
 
-> List available input devices, query information about a device and change input device settings.
+> List available input devices, query information about a device, and change input device settings.
 > More information: <https://manned.org/xinput>.
 
 - List all input devices:

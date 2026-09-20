@@ -15,6 +15,6 @@
 
 `flake8 --ignore {{rule1,rule2,...}} {{path/to/file_or_directory}}`
 
-- Lint a file or directory recursively but exclude files matching the given globs or substrings:
+- Lint a file or directory recursively but exclude files matching the given `glob`s or substrings:
 
 `flake8 --exclude {{substring1,glob2}} {{path/to/file_or_directory}}`

@@ -23,3 +23,7 @@
 - Toon printtaken in de wachtrij voor een specifieke gebruiker:
 
 `lpstat -u {{gebruiker}}`
+
+- Toon met welke apparaten de printers verbonden zijn:
+
+`lpstat -v`
