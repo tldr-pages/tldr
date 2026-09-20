@@ -7,7 +7,7 @@
 
 `fsadm check {{/dev/vg_name/lv_name}}`
 
-- Perform a dry-run resize to a specific size (no changes made):
+- Simulate resizing to a specific size, without making any changes:
 
 `fsadm {{[-n|--dry-run]}} resize {{/dev/vg_name/lv_name}} {{10G}}`
 
