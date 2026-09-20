@@ -24,6 +24,6 @@
 
 `reg.py {{domain}}/{{username}}:{{password}}@{{target}} save -keyName '{{HKLM\SOFTWARE\Example}}' -o '\\{{target}}\{{share}}\{{output_file.reg}}'`
 
-- Backup SAM, SYSTEM and SECURITY hives to a file on a target via UNC path (requires SYSTEM privileges):
+- Backup SAM, SYSTEM, and SECURITY hives to a file on a target via UNC path (requires SYSTEM privileges):
 
 `reg.py {{domain}}/{{username}}:{{password}}@{{target}} backup -o '\\{{target}}\{{share}}'`
