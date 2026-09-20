@@ -8,7 +8,7 @@
 
 `rexec {{[-h|--host]}} {{remote_host}} {{ls -l}}`
 
-- Specificeer de externe gebr[u]ikersnaam op een externe [h]ost:
+- Specificeer de externe gebruikersnaam op een externe host:
 
 `rexec {{[-u|--username]}} {{gebruikersnaam}} {{[-h|--host]}} {{remote_host}} {{ps aux}}`
 
