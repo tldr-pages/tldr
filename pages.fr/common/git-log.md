@@ -19,7 +19,7 @@
 
 `git log --oneline --graph`
 
-- Affiche un graphique de tout les validations, tags et branches dans le dépôt entier :
+- Affiche un graphique de tout les validations, étiquettes et branches dans le dépôt entier :
 
 `git log --oneline --decorate --all --graph`
 
