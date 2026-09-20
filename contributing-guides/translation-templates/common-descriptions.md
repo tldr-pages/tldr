@@ -26,7 +26,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | ja    | ヘルプを表示する     | バージョンを表示         | [対話的]          |
 | ko    | 도움말 표시             | 버전 표시                 | [대화형]            |
 | lo    |                    |                       |                  |
-| ml    | സഹായം കാണിക്കുക | പതിപ്പ് കാണിക്കുക | ഇൻററാക്ടീവ് |
+| ml    | സഹായം കാണിക്കുക | പതിപ്പ് കാണിക്കുക | [ഇൻററാക്ടീവ്] |
 | nb    | Vis hjelp          | Vis versjon           | [Interaktivt]    |
 | ne    |                    |                       |                  |
 | nl    | Toon de help       | Toon de versie        | [Interactief]    |
