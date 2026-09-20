@@ -12,7 +12,7 @@
 
 `Remove-NodeVersion {{node_versie1 , node_versie2 , ...}}`
 
-- Deïnstalleer alle huidige geïnstalleerde versie van Node.js 20.x:
+- Deïnstalleer alle huidige geïnstalleerde versies van Node.js 20.x:
 
 `Get-NodeVersions -Filter ">=20.0.0 <21.0.0" | Remove-NodeVersion`
 

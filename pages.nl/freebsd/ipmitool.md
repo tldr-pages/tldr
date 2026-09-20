@@ -11,6 +11,6 @@
 
 `ipmitool shell`
 
-- Open IPMI shell op een remote host:
+- Open de IPMI shell op een remote host:
 
 `ipmitool -H {{ip_adres}} -U {{gebruikersnaam}} shell`

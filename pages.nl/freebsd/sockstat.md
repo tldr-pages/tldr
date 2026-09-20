@@ -23,11 +23,11 @@
 
 `sockstat -sU`
 
-- Toon het [C]ongestiecontrolemodule en de protocol[S]tack, indien van toepassing (deze zijn momenteel alleen geïmplementeerd voor TCP):
+- Toon de [C]ongestiecontrolemodule en de protocol[S]tack, indien van toepassing (deze zijn momenteel alleen geïmplementeerd voor TCP):
 
 `sockstat -CS`
 
-- Toon alleen internetsockets als de lokale en buitenlandse adressen niet in het loopback-netwerkprefix 127.0.0.0/8 zitten, of niet het IPv6-loopbackadres ::1 bevatten:
+- Toon alleen internetsockets als de lokale en externe adressen niet in het loopback-netwerkprefix 127.0.0.0/8 zitten, of niet het IPv6-loopbackadres ::1 bevatten:
 
 `sockstat -L`
 

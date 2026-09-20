@@ -7,7 +7,7 @@
 
 `read {{variable}}`
 
-- Sla elke van de volgende regels die je invoert op als waarden van een array:
+- Sla elk van de volgende regels die je invoert op als waarden van een array:
 
 `read -a {{array}}`
 

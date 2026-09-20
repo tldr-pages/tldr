@@ -1,10 +1,10 @@
 # move
 
 > Verplaats of hernoem bestanden en mappen.
-> In PowerShell is dit commando een alias van `Move-Item`. Deze documentatie is gebaserd op de Command Prompt (`cmd`) versie van `move`.
+> In PowerShell is dit commando een alias van `Move-Item`. Deze documentatie is gebaseerd op de Command Prompt (`cmd`) versie van `move`.
 > Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/move>.
 
-- Bekijk de documentatie van het PowerShell equivalente commando:
+- Bekijk de documentatie van het equivalente PowerShell commando:
 
 `tldr move-item`
 
@@ -20,10 +20,10 @@
 
 `move {{C:\pad\naar\bron}} {{D:\pad\naar\doel}}`
 
-- Vraag niet voor bevestiging voordat bestaande bestanden worden overschreven:
+- Vraag niet om bevestiging voordat bestaande bestanden worden overschreven:
 
 `move /Y {{pad\naar\bron}} {{pad\naar\bestaande_map}}`
 
-- Vraag voor bevestiging voordat bestaande bestanden worden overschreven, ongeacht de bestandspermissies:
+- Vraag om bevestiging voordat bestaande bestanden worden overschreven, ongeacht de bestandspermissies:
 
 `move /-Y {{pad\naar\bron}} {{pad\naar\bestaande_map}}`

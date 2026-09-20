@@ -12,7 +12,7 @@
 
 `gcrane ls {{repository}} --json`
 
-- Of door repositories te recursief te doorlopen:
+- Of de repositories doorzocht moeten worden:
 
 `gcrane ls {{repository}} {{[-r|--recursive]}}`
 

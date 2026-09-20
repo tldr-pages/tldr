@@ -1,6 +1,6 @@
 # basename
 
-> Verwijder voorlopende map delen van een pad.
+> Verwijder voorafgaande mapdelen van een pad.
 > Zie ook: `dirname`.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/basename-invocation.html>.
 
@@ -8,7 +8,7 @@
 
 `basename {{pad/naar/bestand}}`
 
-- Toon alleen de meest rechtse map naam van een pad:
+- Toon alleen de meest rechtse mapnaam van een pad:
 
 `basename {{pad/naar/map/}}`
 

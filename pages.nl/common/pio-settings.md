@@ -7,7 +7,7 @@
 
 `pio settings get`
 
-- Toon de naam, waarde en beschrijving van een specfieke PlatformIO instelling:
+- Toon de naam, waarde en beschrijving van een specifieke PlatformIO instelling:
 
 `pio settings get {{instelling}}`
 

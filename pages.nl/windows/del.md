@@ -10,9 +10,9 @@
 
 - Verwijder een of meer, door spatie gescheiden, bestanden of patronen:
 
-`del {{file_pattern}}`
+`del {{file_pattern1 file_pattern2 ...}}`
 
-- Vraag om bevestiging voordat u elk bestand verwijdert:
+- Vraag om bevestiging voordat elk bestand wordt verwijderd:
 
 `del {{file_pattern}} /p`
 

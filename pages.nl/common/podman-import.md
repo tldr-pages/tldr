@@ -1,6 +1,6 @@
 # podman import
 
-> Importeer een tarball sla op als een bestandssysteem image.
+> Importeer een tarball en sla het op als een bestandssysteem image.
 > Zie ook: `podman export`, `podman save`.
 > Meer informatie: <https://docs.podman.io/en/latest/markdown/podman-import.1.html>.
 
