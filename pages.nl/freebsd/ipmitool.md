@@ -1,7 +1,7 @@
 # ipmitool
 
 > Interface met de Intelligent Platform Management Interface (IPMI).
-> Meer informatie: <https://man.freebsd.org/cgi/man.cgi?ipmitool>.
+> Meer informatie: <https://man.freebsd.org/cgi/man.cgi?query=ipmitool>.
 
 - Laad de IPMI kernelmodule voor lokale verbindingen:
 

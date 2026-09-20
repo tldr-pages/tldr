@@ -1,7 +1,7 @@
 # sockstat
 
 > Toon open Internet- of UNIX-domeinsockets.
-> Meer informatie: <https://man.freebsd.org/cgi/man.cgi?sockstat>.
+> Meer informatie: <https://man.freebsd.org/cgi/man.cgi?query=sockstat>.
 
 - Bekijk welke gebruikers/processen [l]uisteren op welke poorten:
 
