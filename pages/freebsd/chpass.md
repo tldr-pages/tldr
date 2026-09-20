@@ -1,7 +1,7 @@
 # chpass
 
 > Add or change user database information, including login shell and password.
-> See also: `passwd`.
+> See also: `passwd`, `ypchpass`.
 > More information: <https://man.freebsd.org/cgi/man.cgi?query=chpass>.
 
 - Add or change user database information for the current user interactively:
