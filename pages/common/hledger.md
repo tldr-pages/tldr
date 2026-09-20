@@ -24,7 +24,7 @@
 
 `hledger {{[bs|balancesheet]}} {{[-E|--empty]}} {{[-t|--tree]}} --no-elide`
 
-- Show monthly incomes/expenses/totals, largest first, summarised to 2 levels:
+- Show monthly incomes/expenses/totals, largest first, summarized to 2 levels:
 
 `hledger {{[is|incomestatement]}} {{[-M|--monthly]}} {{[-T|--row-total]}} {{[-A|--average]}} --sort {{[-2|--depth 2]}}`
 

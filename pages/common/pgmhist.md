@@ -8,15 +8,15 @@
 
 `pgmhist {{path/to/image.pgm}}`
 
-- Display the median grey value:
+- Display the median gray value:
 
 `pgmhist {{[-me|-median]}} {{path/to/image.pgm}}`
 
-- Display four quartile grey value:
+- Display the four quartile gray values:
 
 `pgmhist {{[-qua|-quartile]}} {{path/to/image.pgm}}`
 
-- Report the existence of invalid grey values:
+- Report the existence of invalid gray values:
 
 `pgmhist {{[-f|-forensic]}} {{path/to/image.pgm}}`
 
