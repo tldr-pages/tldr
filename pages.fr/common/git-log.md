@@ -27,7 +27,7 @@
 
 `git log {{[-i|--regexp-ignore-case]}} --grep {{chaine_recherché}}`
 
-- Affiche les N derniers validations d'un utilisateur :
+- Affiche les N dernières validations d'un utilisateur :
 
 `git log {{[-n|--max-count]}} {{number}} --author "{{author}}"`
 
