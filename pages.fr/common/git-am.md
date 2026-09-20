@@ -8,7 +8,7 @@
 
 `git am {{chemin/vers/fichier.patch}}`
 
-- Applique et valide un fichier de patch distant :
+- Applique et valide un fichier de correctif distant :
 
 `curl {{[-L|--location]}} {{https://example.com/fichier.patch}} | git am`
 
