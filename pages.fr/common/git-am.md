@@ -1,6 +1,6 @@
 # git am
 
-> Applique des fichiers de "patch" Git et crée une validation. Utile lorsque l'on reçoit des validations par email.
+> Applique des fichiers de "correctif" Git et crée une validation. Utile lorsque l'on reçoit des validations par email.
 > Voir aussi : `git format-patch`.
 > Plus d'informations : <https://git-scm.com/docs/git-am>.
 
