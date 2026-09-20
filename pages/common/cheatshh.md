@@ -4,15 +4,15 @@
 > Press `<Enter>` to a command to copy it to your clipboard and exit.
 > More information: <https://github.com/AnirudhG07/cheatshh/blob/main/docs/man/cheatshh.1>.
 
-- Add a new command to the cheatshheet:
+- Add a new command to the cheatsheet:
 
 `cheatshh {{[-a|--add]}}`
 
-- Edit an existing command's description or group in the cheatshheet:
+- Edit an existing command's description or group in the cheatsheet:
 
 `cheatshh {{[-ec|--edit-command]}}`
 
-- Delete an existing command from the cheatshheet:
+- Delete an existing command from the cheatsheet:
 
 `cheatshh {{[-dc|--delete-command]}}`
 
@@ -24,7 +24,7 @@
 
 `cheatshh {{[-eg|--edit-group]}}`
 
-- Delete an existing group and it's sub commands from `commands.json` file:
+- Delete an existing group and its subcommands from `commands.json` file:
 
 `cheatshh {{[-dg|--delete-group]}}`
 

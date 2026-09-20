@@ -12,7 +12,7 @@
 
 `pg_basebackup {{[-h|--host]}} {{host}} {{[-D|--pgdata]}} {{path/to/backup_dir}} {{[-P|--progress]}}`
 
-- Create a compressed backup (`gzip`) in tar format:
+- Create a compressed backup (`gzip`) in `tar` format:
 
 `pg_basebackup {{[-D|--pgdata]}} {{path/to/backup_dir}} {{[-F|--format]}} {{[t|tar]}} {{[-z|--gzip]}}`
 

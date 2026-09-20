@@ -23,3 +23,7 @@
 - Koppel alle gemounte bestandssystemen los (behalve het `proc` bestandssysteem):
 
 `sudo umount {{[-a|--all]}}`
+
+- Koppel een bestandssysteem los uit de bestandssysteemhiërarchie en ontkoppel het zodra er geen verwijzingen meer naar zijn:
+
+`sudo umount {{[-l|--lazy]}} {{pad/naar/gemounte_map}}`

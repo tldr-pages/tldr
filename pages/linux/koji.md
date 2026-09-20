@@ -8,7 +8,7 @@
 
 `koji {{subcommand}}`
 
-- Introduce yourself to test connectivity with koijhub:
+- Introduce yourself to test connectivity with kojihub:
 
 `koji moshimoshi`
 

@@ -11,7 +11,7 @@
 
 `mkinitfs -c {{path/to/config}}`
 
-- Compress the initramfs using the specified compression algorithm (default: gzip):
+- Compress the initramfs using the specified compression algorithm (default: `gzip`):
 
 `mkinitfs -C {{gzip|xz|zstd|lz4|none}}`
 
