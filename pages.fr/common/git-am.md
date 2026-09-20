@@ -12,7 +12,7 @@
 
 `curl {{[-L|--location]}} {{https://example.com/fichier.patch}} | git am`
 
-- Annule l'application d'un fichier de patch :
+- Annule l'application d'un fichier de correctif :
 
 `git am --abort`
 
