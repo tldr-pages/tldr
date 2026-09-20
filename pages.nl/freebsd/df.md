@@ -1,7 +1,7 @@
 # df
 
 > Toon een overzicht van het gebruik van het bestandssysteem op het gebied van schijfruimte.
-> Meer informatie: <https://man.freebsd.org/cgi/man.cgi?df>.
+> Meer informatie: <https://man.freebsd.org/cgi/man.cgi?query=df>.
 
 - Toon alle bestandssystemen en hun schijfgebruik met behulp van 512-byte eenheden:
 
