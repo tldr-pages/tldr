@@ -1,6 +1,6 @@
 # distrobox
 
-> Gebruik elke Linux distributie in uw terminal in een container. Installeer en gebruik pakketten erin terwijl ze nauw integreren met het host-besturingssysteem, het delen van opslag (`home`-map) en hardware.
+> Gebruik elke Linux distributie in uw terminal in een container. Installeer en gebruik pakketten erin terwijl deze nauw wordt geïntegreerd met het host-besturingssysteem, waarbij opslag (`home`-map) en hardware worden gedeeld.
 > Opmerking: `distrobox` is geen commando, maar een set van commando's.
 > Meer informatie: <https://github.com/89luca89/distrobox>.
 
@@ -16,7 +16,7 @@
 
 `tldr distrobox-enter`
 
-- Bekijk de documentatie voor het uitvoeren van een command op de host vanuit een container:
+- Bekijk de documentatie voor het uitvoeren van een commando op de host vanuit een container:
 
 `tldr distrobox-host-exec`
 

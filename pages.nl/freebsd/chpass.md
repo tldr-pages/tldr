@@ -28,6 +28,6 @@
 
 `su -c 'chpass -h {{hostnaam}} {{gebruikersnaam}}'`
 
-- Specificeer een specifiek [d]omein (standaard systeem domein naam):
+- Specificeer een specifiek NIS-[d]omein (standaard systeemdomeinnaam):
 
 `su -c 'chpass -d {{domein}} {{gebruikersnaam}}'`

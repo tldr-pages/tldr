@@ -20,7 +20,7 @@
 
 `git bisect skip`
 
-- Staat een bisect-sessie en houd hierbij alleen rekening met commits die een bepaald bestand aanpassen:
+- Start een bisect-sessie en houd hierbij alleen rekening met commits die een bepaald bestand of een bepaalde map aanpassen:
 
 `git bisect start {{foutieve_commit}} {{schone_commit}} -- {{pad/naar/bestand_of_map}}`
 
