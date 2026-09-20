@@ -11,19 +11,19 @@
 
 `bundle exec {{commande}} {{arguments}}`
 
-- Mets à jour toutes les gems selon les règles définies dans le `Gemfile` et régénére le fichier `Gemfile.lock` :
+- Met à jour toutes les gems selon les règles définies dans le `Gemfile` et régénère le fichier `Gemfile.lock` :
 
-`bundle update`
+`bundle update --all`
 
-- Mets à jour une ou plusieurs gem(s) spécifique(s) définie(s) dans le `Gemfile` :
+- Met à jour une ou plusieurs gem(s) spécifique(s) définie(s) dans le `Gemfile` :
 
-`bundle update {{nom_de_la_gem}} {{nom_de_la_gem}}`
+`bundle update {{nom_gem1 nom_gem2 ...}}`
 
-- Mets à jour une ou plusieurs gem(s) spécifique(s) définie(s) dans le `Gemfile` mais seulement vers la prochaine version de patch :
+- Met à jour une ou plusieurs gem(s) spécifique(s) définie(s) dans le `Gemfile` mais seulement vers la prochaine version de patch :
 
-`bundle update --patch {{nom_de_la_gem}} {{nom_de_la_gem}}`
+`bundle update --patch {{nom_gem1 nom_gem2 ...}}`
 
-- Mets à jour toutes les gem(s) du groupe donné dans le `Gemfile` :
+- Met à jour toutes les gem(s) du groupe donné dans le `Gemfile` :
 
 `bundle update --group {{nom_groupe}}`
 
@@ -33,4 +33,4 @@
 
 - Crée un nouveau squelette de gem :
 
-`bundle gem {{nom_de_la_gem}}`
+`bundle gem {{nom_gem}}`

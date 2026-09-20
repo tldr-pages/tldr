@@ -13,7 +13,7 @@
 
 `nagios -d`
 
-- Start `nagios`, print service check scheduling information to `stdout`, then shutdown:
+- Start `nagios`, print service check scheduling information to `stdout`, then shut down:
 
 `nagios -s`
 

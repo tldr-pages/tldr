@@ -421,12 +421,6 @@ In general, placeholders should make it as intuitive as possible to figure out h
 - If the options are mutually exclusive, write it as: `{{placeholder1|placeholder2|placeholder3}}`. If there are more than 3 possible values, you can use `|...` after the last item.
 - Use two dots to mark a range of possible values, for example `{{1..5}}` or `{{a..z}}`.
 
-#### Optional placeholders
-
-When documenting optional placeholders like paths or file extensions, it is suggested to specify them in the page or example descriptions instead of the placeholder itself. For example:
-
-- Use `{{path/to/source.ext}}` instead of `{{path/to/source.tar[.gz|.bz2|.xz]}}`.
-
 #### Exceptions
 
 - Do not put placeholders inside placeholders.
