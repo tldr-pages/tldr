@@ -2,7 +2,7 @@
 
 > 최소 구성 및 불변 방식의 Kubernetes 배포판인 Talos Linux와 상호작용.
 > 관련 항목: `kubectl`.
-> 더 많은 정보: <https://docs.siderolabs.com/talos/v1.11/reference/cli>.
+> 더 많은 정보: <https://docs.siderolabs.com/talos/v1.14/reference/cli>.
 
 - 새로운 노드에 설정을 적용:
 
