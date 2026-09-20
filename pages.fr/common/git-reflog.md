@@ -9,7 +9,7 @@
 
 - Affiche le reflog d'une branche spécifique :
 
-`git reflog {{nom_de_branche}}`
+`git reflog {{nom_branche}}`
 
 - Affiche les 5 dernières entrées dans le reflog :
 

@@ -17,11 +17,11 @@
 
 - Crée une archive depuis le dernier commit de la branche spécifiée :
 
-`git archive {{[-o|--output]}} {{chemin/vers/fichier.tar}} {{nom_de_branche}}`
+`git archive {{[-o|--output]}} {{chemin/vers/fichier.tar}} {{nom_branche}}`
 
 - Crée une archive avec le contenu d'un répertoire donné :
 
-`git archive {{[-o|--output]}} {{chemin/vers/fichier.tar}} HEAD:{{chemin/vers/repertoire}}`
+`git archive {{[-o|--output]}} {{chemin/vers/fichier.tar}} HEAD:{{chemin/vers/répertoire}}`
 
 - Ajoutez un chemin d'accès à chaque fichier pour l'archiver dans un répertoire spécifique :
 
