@@ -1,6 +1,7 @@
 # shutdown
 
 > Matikan dan nyalakan ulang sistem komputer.
+> Lihat juga: `poweroff`.
 > Informasi lebih lanjut: <https://manned.org/shutdown.8>.
 
 - Matikan ([h]alt) sistem secara segera:
@@ -13,7 +14,7 @@
 
 - Nyalakan ulang dalam 5 menit:
 
-`shutdown {{[-r|--reboot]}} +{{5}} &`
+`shutdown {{[-r|--reboot]}} +5 &`
 
 - Matikan sistem pada pukul 1 siang (menggunakan format 24 jam):
 

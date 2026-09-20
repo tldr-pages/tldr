@@ -19,9 +19,9 @@
 
 `choco install {{pakket}} --version {{versie}}`
 
-- Sta het toe om meerdere versies van een pakket te installeren:
+- Installeer geforceerd een pakket opnieuw:
 
-`choco install {{pakket}} --allow-multiple`
+`choco install {{pakket}} {{[-f|--force]}}`
 
 - Bevestig alle prompts automatisch:
 

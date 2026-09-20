@@ -1,7 +1,7 @@
 # lxc profile
 
 > Gestisce i profili per i container LXD.
-> Maggiori informazioni: <https://documentation.ubuntu.com/lxd/latest/reference/manpages/lxc/profile/>.
+> Maggiori informazioni: <https://canonical.com/lxd/docs/latest/reference/manpages/lxc/profile/>.
 
 - Elenca tutti i profili disponibili:
 

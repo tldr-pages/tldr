@@ -23,6 +23,6 @@
 
 `ping -a "{{host}}"`
 
-- Ping a host and prints the time a packet was received (this option is an Apple addition):
+- Ping a host and print the time a packet was received (this option is an Apple addition):
 
 `ping --apple-time "{{host}}"`

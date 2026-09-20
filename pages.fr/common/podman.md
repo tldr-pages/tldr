@@ -34,4 +34,4 @@
 
 - Affiche les journaux d'un ou plusieurs conteneurs et suit la sortie en continu :
 
-`podman logs {{[-f|--follow]}} {{nom_conteneur}} {{identifiant_conteneur}}`
+`podman logs {{[-f|--follow]}} {{nom_conteneur identifiant_conteneur ...}}`

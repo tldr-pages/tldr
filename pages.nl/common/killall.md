@@ -18,8 +18,8 @@
 
 - Beëindig een proces met het SIGINT (interrupt) signaal, hetzelfde signaal dat wordt verzonden door `<Ctrl c>` in te drukken:
 
-`killall -INT {{proces_naam}}`
+`killall {{[-2|-SIGINT]}} {{proces_naam}}`
 
 - Forceer het beëindigen van een proces:
 
-`killall -KILL {{proces_naam}}`
+`killall {{[-9|-SIGKILL]}} {{proces_naam}}`

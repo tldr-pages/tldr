@@ -34,4 +34,4 @@
 
 - 주어진 GID (그룹 ID)를 가진 모든 프로세스에 `SIGUSR1` 신호 보내기:
 
-`kill -SIGUSR1 -{{그룹_id}}`
+`kill {{[-10|-SIGUSR1]}} -{{그룹_id}}`

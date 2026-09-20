@@ -5,7 +5,7 @@
 
 - Print the status of a specific PID:
 
-`qm {{[g|guest]}} {{[exec-s|exec-status]}} {{100}} {{pid}}`
+`qm {{[g|guest]}} {{[exec-s|exec-status]}} {{100}} {{process_id}}`
 
 - Set a password for a specific user in a virtual machine interactively:
 

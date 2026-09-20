@@ -2,6 +2,7 @@
 
 > Zoek naar patronen in bestanden met behulp van uitgebreide `regex`en.
 > Opmerking: dit commando is een alias van `grep --extended-regexp`.
+> Zie ook: `regex`.
 > Meer informatie: <https://manned.org/egrep>.
 
 - Zoek naar één of meer herhaalde tekens:

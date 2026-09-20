@@ -9,4 +9,4 @@
 
 - Espera durante `n` segundos por una conexión (30 por defecto):
 
-`nm-online --timeout {{n}}`
+`nm-online {{[-t|--timeout]}} {{n}}`

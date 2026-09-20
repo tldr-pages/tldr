@@ -15,7 +15,7 @@
 
 `cargo clippy --workspace`
 
-- Run checks for a package:
+- 패키지에 대한 검사 실행:
 
 `cargo clippy --package {{패키지}}`
 
