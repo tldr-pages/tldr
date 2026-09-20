@@ -19,7 +19,7 @@
 
 `eza {{[-r|--reverse]}} {{[-s|--sort]}} {{size}}`
 
-- Affiche un arbre de fichiers, sur trois niveaux de profondeur :
+- Affiche une arborescence de fichiers, sur trois niveaux de profondeur :
 
 `eza {{[-lT|--long --tree]}} {{[-L|--level]}} {{3}}`
 
