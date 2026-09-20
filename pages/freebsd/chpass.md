@@ -1,7 +1,7 @@
 # chpass
 
 > Add or change user database information, including login shell and password.
-> See also: `passwd`, `ypchpass`.
+> See also: `passwd`.
 > More information: <https://man.freebsd.org/cgi/man.cgi?query=chpass>.
 
 - Add or change user database information for the current user interactively:
@@ -23,3 +23,11 @@
 - Change a user's password:
 
 `su -c 'chpass -p {{encrypted_password}} {{username}}'`
+
+- Specify the [h]ostname or address of an NIS server to query:
+
+`su -c 'chpass -h {{hostname}} {{username}}'`
+
+- Specify a particular NIS [d]omain (system domain name by default):
+
+`su -c 'chpass -d {{domain}} {{username}}'`
