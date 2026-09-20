@@ -16,7 +16,7 @@
 
 `lp -d {{printer_naam}} {{pad/naar/bestand}}`
 
-- Print n kopieën van een bestand naar de standaard printer:
+- Print `n` kopieën van een bestand naar de standaard printer:
 
 `lp -n {{n}} {{pad/naar/bestand}}`
 
