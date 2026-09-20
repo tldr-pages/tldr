@@ -15,7 +15,7 @@
 
 `zeroclaw gateway {{[-p|--port]}} 0`
 
-- 지정한 호스트에서 게이트웨의 시작:
+- 지정한 호스트에서 게이트웨이 시작:
 
 `zeroclaw gateway --host {{0.0.0.0}} {{[-p|--port]}} {{8080}}`
 
