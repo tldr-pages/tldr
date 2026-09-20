@@ -11,7 +11,7 @@
 
 `vswhere -products * -latest -prerelease -find **\Hostx64\x64\*`
 
-- Find the directory of Clang bundled with Visual Studio bundled (clang-cl, clang-tidy, etc):
+- Find the directory of Clang bundled with Visual Studio bundled (clang-cl, clang-tidy, etc.):
 
 `vswhere -products * -latest -prerelease -find **\Llvm\bin\*`
 
