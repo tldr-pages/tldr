@@ -14,4 +14,4 @@
 
 - Toon de laatste N commando's:
 
-`Get-History -Count {{10}}`
+`Get-History -Count {{n}}`
