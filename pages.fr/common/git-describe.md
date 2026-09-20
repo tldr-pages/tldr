@@ -3,7 +3,7 @@
 > Crée un nom unique et lisible pour un objet à partir d'une référence disponible.
 > Plus d'informations : <https://git-scm.com/docs/git-describe>.
 
-- Crée un nom unique pour la validation actuelle (le nom contient le tag le plus récent, le nombre de validations additionnelles, et l'empreinte abrégée de la validation) :
+- Crée un nom unique pour la validation actuelle (le nom contient l'étiquette la plus récente, le nombre de validations additionnelles, et l'empreinte abrégée de la validation) :
 
 `git describe`
 
