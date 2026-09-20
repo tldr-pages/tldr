@@ -31,6 +31,6 @@
 
 `git log {{[-n|--max-count]}} {{number}} --author "{{author}}"`
 
-- Affiche les validations entre deux dates (yyyy-mm-dd) :
+- Affiche les validations entre deux dates (aaaa-mm-jj) :
 
 `git log --before "{{2017-01-29}}" --after "{{2017-01-17}}"`
