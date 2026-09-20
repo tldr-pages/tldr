@@ -19,7 +19,7 @@
 
 `zeroclaw agent {{[-m|--message]}} "{{Hello}}" --model {{anthropic/claude-sonnet-4-20250514}}`
 
-- 사용자 지정 temperature 값으로 메시지 선송:
+- 사용자 지정 temperature 값으로 메시지 전송:
 
 `zeroclaw agent {{[-m|--message]}} "{{Hello}}" {{[-t|--temperature]}} {{0.5}}`
 
