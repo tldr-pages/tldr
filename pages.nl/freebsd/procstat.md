@@ -1,7 +1,7 @@
 # procstat
 
 > Geef gedetailleerde informatie weer over processen in FreeBSD.
-> Meer informatie: <https://man.freebsd.org/cgi/man.cgi?procstat>.
+> Meer informatie: <https://man.freebsd.org/cgi/man.cgi?query=procstat>.
 
 - Geef bestandsdescriptors van een specifiek proces weer:
 
