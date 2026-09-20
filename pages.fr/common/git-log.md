@@ -23,7 +23,7 @@
 
 `git log --oneline --decorate --all --graph`
 
-- Affiche uniquement les validations dont le message contient la chaine (non sensible à la casse) :
+- Affiche uniquement les validations dont le message contient la chaine (insensible à la casse) :
 
 `git log {{[-i|--regexp-ignore-case]}} --grep {{chaine_recherché}}`
 
