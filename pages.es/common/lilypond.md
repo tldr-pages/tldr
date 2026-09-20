@@ -2,7 +2,7 @@
 
 > Compila música y/o produce MIDI a partir de un archivo.
 > Vea también: `musescore`.
-> Más información: <https://lilypond.org/doc/v2.26/Documentation/usage/command_002dline-usage>.
+> Más información: <https://lilypond.org/doc/v2.24/Documentation/usage/command_002dline-usage>.
 
 - Compila un archivo lilypond en un PDF:
 

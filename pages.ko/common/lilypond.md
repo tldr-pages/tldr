@@ -2,7 +2,7 @@
 
 > 악보를 조판하고/또는 파일에서 MIDI를 생성합니다.
 > 관련 항목: `musescore`.
-> 더 많은 정보: <https://lilypond.org/doc/v2.26/Documentation/usage/command_002dline-usage>.
+> 더 많은 정보: <https://lilypond.org/doc/v2.24/Documentation/usage/command_002dline-usage>.
 
 - lilypond 파일을 PDF로 컴파일:
 
