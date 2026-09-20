@@ -1,7 +1,7 @@
 # cal
 
 > Display a calendar with the current day highlighted.
-> More information: <https://man.freebsd.org/cgi/man.cgi?cal>.
+> More information: <https://man.freebsd.org/cgi/man.cgi?query=cal>.
 
 - Display a calendar for the current month:
 
