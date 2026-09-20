@@ -14,7 +14,7 @@
 
 - Define una función sin la palabra clave `function`:
 
-`{{func_name}}() { {{echo "Contenido de la función aquí"}}; }`
+`{{nombre_de_la_función}}() { {{echo "Contenido de la función aquí"}}; }`
 
 - Muestra la ayuda:
 
