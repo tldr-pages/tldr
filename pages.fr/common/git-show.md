@@ -3,7 +3,7 @@
 > Affiche différents types d'objets Git (validations, étiquettes, etc.).
 > Plus d'informations : <https://git-scm.com/docs/git-show>.
 
-- Affiche des informations sur la dernière validation (hachage, message, modifications et autres métadonnées) :
+- Affiche des informations sur la dernière validation (haché, message, modifications et autres métadonnées) :
 
 `git show`
 
