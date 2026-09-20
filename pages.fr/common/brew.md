@@ -1,6 +1,7 @@
 # brew
 
 > Gestionnaire de paquets pour macOS et Linux.
+> Certaines sous-commandes, telles que `install`, disposent de leur propre documentation d'utilisation.
 > Plus d'informations : <https://docs.brew.sh/Manpage>.
 
 - Installe la dernière version stable d'une formule ou d'un cask :

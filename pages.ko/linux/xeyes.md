@@ -1,6 +1,7 @@
 # xeyes
 
 > 마우스 커서를 따라가는 눈을 화면에 표시합니다.
+> 관련 항목: `xprop`.
 > 더 많은 정보: <https://manned.org/xeyes>.
 
 - 로컬 머신의 기본 디스플레이에서 xeyes 실행:

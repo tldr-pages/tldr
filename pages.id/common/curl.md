@@ -15,7 +15,7 @@
 
 - Unduh dan simpan suatu berkas dengan nama berkas yang ditentukan oleh URL:
 
-`curl {{[-O|--remote-name]}} {{http://contoh.com/nama_berkas.zip}}`
+`curl {{[-O|--remote-name]}} {{http://example.com/nama_berkas.zip}}`
 
 - Kirim suatu [d]ata dengan format form-encoded (permintaan POST dengan format data `application/x-www-form-urlencoded`). Gunakan `--data @file_name` atau `--data @'-'` untuk membaca dari `stdin`:
 

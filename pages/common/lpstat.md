@@ -23,3 +23,7 @@
 - List print jobs queued by a specific user:
 
 `lpstat -u {{user}}`
+
+- Display what devices the printers are attached to:
+
+`lpstat -v`

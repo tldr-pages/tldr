@@ -1,7 +1,7 @@
 # screen
 
 > Mantiene una sesión abierta en un servidor remoto. Gestiona varias ventanas con una única conexión SSH.
-> Vea también: `tmux`, `zellij`.
+> Vea también: `tmux`, `zellij`, `herdr`.
 > Más información: <https://manned.org/screen>.
 
 - Inicia una nueva sesión de pantalla:

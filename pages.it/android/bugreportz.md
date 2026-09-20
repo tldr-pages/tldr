@@ -1,6 +1,6 @@
 # bugreportz
 
-> Genera un report di bug di Android in formato compresso (.zip).
+> Genera un report di bug di Android in formato compresso (`.zip`).
 > Questo comando può essere usato solo tramite `adb shell`.
 > Maggiori informazioni: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreportz>.
 

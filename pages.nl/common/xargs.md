@@ -13,7 +13,7 @@
 
 `{{argumenten_bron}} | xargs sh -c "{{commando1}} && {{commando2}} | {{commando3}}"`
 
-- Voer een nieuwe commando uit met elk argument:
+- Voer een nieuw commando uit met elk argument:
 
 `{{argumenten_bron}} | xargs {{[-n|--max-args]}} 1 {{commando}}`
 

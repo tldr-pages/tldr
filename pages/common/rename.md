@@ -9,7 +9,7 @@
 
 `rename 's/{{from}}/{{to}}/' {{*.txt}}`
 
-- Dry-run - display which changes would occur without performing them:
+- Simulate running the program without doing anything:
 
 `rename -n 's/{{from}}/{{to}}/' {{*.txt}}`
 

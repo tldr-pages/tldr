@@ -27,7 +27,7 @@
 
 `ugrep {{[-z|--decompress]}} "{{search_pattern}}"`
 
-- Search only files whose filenames match a specific glob pattern:
+- Search only files whose filenames match a specific `glob` pattern:
 
 `ugrep {{[-g |--glob=]}}"{{glob_pattern}}" "{{search_pattern}}"`
 

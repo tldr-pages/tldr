@@ -1,8 +1,8 @@
 # pm install-existing
 
-> Re-add a pre-existing app to a given user.
+> Riaggiungi un'app già presente a un determinato utente.
 > Maggiori informazioni: <https://developer.android.com/tools/adb#pm>.
 
-- Re-add an app:
+- Riaggiungi un'app:
 
 `pm install-existing {{app_name}}`
