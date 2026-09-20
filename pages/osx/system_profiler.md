@@ -11,7 +11,7 @@
 
 `system_profiler -xml > MyReport.spx`
 
-- Display a hardware overview (Model, CPU, Memory, Serial, etc) and software data (System, Kernel, Name, Uptime, etc):
+- Display a hardware overview (Model, CPU, Memory, Serial, etc) and software data (System, Kernel, Name, Uptime, etc.):
 
 `system_profiler SPHardwareDataType SPSoftwareDataType`
 
