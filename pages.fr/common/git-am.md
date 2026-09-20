@@ -16,6 +16,6 @@
 
 `git am --abort`
 
-- Applique autant que possible un fichier de patch, en enregistrant les morceaux qui échouent dans des fichiers de rejet :
+- Applique autant que possible un fichier de correctif, en enregistrant les morceaux qui échouent dans des fichiers de rejet :
 
 `git am --reject {{chemin/vers/fichier.patch}}`
