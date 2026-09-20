@@ -3,7 +3,7 @@
 > Server daemon voor de CUPS print server.
 > Meer informatie: <https://openprinting.github.io/cups/doc/man-cupsd.html>.
 
-- Start `cupsd` op de achterground, aka. als een daemon:
+- Start `cupsd` op de achtergrond, aka. als een daemon:
 
 `cupsd`
 

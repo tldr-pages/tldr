@@ -8,11 +8,11 @@
 
 `kiterunner wordlist list`
 
-- Geef woordlijsten met JSON uitvoer weer:
+- Geef woordenlijsten met JSON uitvoer weer:
 
 `kiterunner wordlist list {{[-o|--output]}} {{json}}`
 
-- Geef woordlijsten met uitgebreide debug-uitvoer weer:
+- Geef woordenlijsten met uitgebreide debug-uitvoer weer:
 
 `kiterunner wordlist list {{[-v|--verbose]}} {{debug}}`
 

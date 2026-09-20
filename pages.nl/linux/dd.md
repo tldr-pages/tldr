@@ -16,7 +16,7 @@
 
 `dd bs={{100}} count={{1}} if=/dev/urandom of={{pad/naar/willekeurig_bestand}}`
 
-- Benchmark de sequentiële schrijfsnelheid van een schijf:
+- Benchmark de schrijfsnelheid van een schijf:
 
 `dd bs={{1M}} count={{1024}} if=/dev/zero of={{pad/naar/bestand_1GB}}`
 
