@@ -9,7 +9,7 @@
 
 `rename {{foo}} {{bar}} {{*}}`
 
-- Dry-run - display which renames would occur without performing them:
+- Simulate running the program without doing anything:
 
 `rename {{[-vn|--verbose --no-act]}} {{foo}} {{bar}} {{*}}`
 

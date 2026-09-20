@@ -25,6 +25,6 @@
 
 `[!{{a}}]`
 
-- Match a single character not withing a range:
+- Match a single character not within a range:
 
 `[!{{a-z}}]`

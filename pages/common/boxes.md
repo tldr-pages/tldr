@@ -19,7 +19,7 @@
 
 `echo "{{string}}" | boxes {{[-s|--size]}} {{10}}x{{5}}`
 
-- Align the box text [h]orizonally (at [l]eft, [c]enter, or [r]ight):
+- Align the box text [h]orizontally (at [l]eft, [c]enter, or [r]ight):
 
 `echo "{{string}}" | boxes {{[-a|--align]}} h{{l|c|r}}`
 

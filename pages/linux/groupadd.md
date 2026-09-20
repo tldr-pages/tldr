@@ -14,4 +14,4 @@
 
 - Create a new group with the specific groupid:
 
-`sudo groupadd {{[-g|--gid]}} {{id}} {{group_name}}`
+`sudo groupadd {{[-g|--gid]}} {{group_id}} {{group_name}}`
