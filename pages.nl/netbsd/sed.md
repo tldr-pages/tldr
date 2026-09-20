@@ -1,6 +1,6 @@
 # sed
 
-> Pas tekst aan in een op een scriptbare manier.
+> Pas tekst aan op een scriptbare manier.
 > Zie ook: `awk`, `ed`.
 > Meer informatie: <https://man.netbsd.org/sed.1>.
 

@@ -5,13 +5,13 @@
 > Zie ook: `netstat`.
 > Meer informatie: <https://man.netbsd.org/sockstat.1>.
 
-- Toon informatie voor IPv4- en IPv6-sockets voor zowel luister- als verbonden sockets:
+- Toon informatie voor IPv4-, IPv6- en Unix-sockets voor zowel luister- als verbonden sockets:
 
 `sockstat`
 
 - Toon informatie voor IPv[4]/IPv[6] sockets die [l]uisteren op specifieke [p]oorten met een specifiek [P]rotocol:
 
-`sockstat -{{4|6}} -l -P {{tcp|udp|sctp|divert}} -p {{port1,port2...}}`
+`sockstat -{{4|6}} -l -P {{tcp|udp|sctp|divert}} -p {{poort1,poort2...}}`
 
 - Toon ook [c]onnected sockets en [u]nix-sockets:
 

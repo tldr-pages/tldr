@@ -8,6 +8,6 @@
 
 `pamcrater {{[-h|-height]}} {{hoogte}} {{[-w|-width]}} {{breedte}} > {{pad/naar/uitvoer.pam}}`
 
-- Maak een afbeelding met het gespecificeerde nummer van kraters:
+- Maak een afbeelding met het gespecificeerde aantal kraters:
 
 `pamcrater {{[-n|-number]}} {{n_kraters}} > {{pad/naar/uitvoer.pam}}`

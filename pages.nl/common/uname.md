@@ -24,7 +24,7 @@
 
 `uname {{[-n|--nodename]}}`
 
-- Toon de huidige OS naam:
+- Toon de huidige besturingssysteemnaam:
 
 `uname {{[-o|--operating-system]}}`
 
