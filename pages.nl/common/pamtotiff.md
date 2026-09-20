@@ -11,6 +11,6 @@
 
 `pamtotiff -{{none|packbits|lzw|g3|g4|flate|adobeflate}} {{pad/naar/invoer_bestand.pam}} > {{pad/naar/uitvoer_bestand.tiff}}`
 
-- Produceer altijd een gekleurde TIFF afbeelding, ook als de invoer-afbeelding een grijsschaal is:
+- Produceer altijd een gekleurde TIFF afbeelding, ook als de invoerafbeelding een grijsschaal is:
 
 `pamtotiff {{[-c|-color]}} {{pad/naar/invoer_bestand.pam}} > {{pad/naar/uitvoer_bestand.tiff}}`
