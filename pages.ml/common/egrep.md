@@ -1,6 +1,6 @@
 # egrep
 
-> ഈ കമാൻഡ് `grep --extended-regexp` എന്നത്തിന്റെ അപരനാമമാണ്.
+> ഈ കമാൻഡ് `grep --extended-regexp` എന്നതിന്റെ അപരനാമമാണ്.
 > ഇതും കാണുക: `regex`.
 > കൂടുതൽ വിവരങ്ങൾ: <https://manned.org/egrep>.
 
