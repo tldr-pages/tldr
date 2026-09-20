@@ -20,7 +20,7 @@
 
 `ssh {{utilisateur}}@{{hôte_distant}} -t {{commande}} {{arguments_commande}}`
 
-- Tunnel SSH : Redirection de port [D]ynamique (le SOCKS proxy se trouve sur `localhost:1080`) :
+- Tunnel SSH : Redirection de port [D]ynamique (le proxy SOCKS se trouve sur `localhost:1080`) :
 
 `ssh {{utilisateur}}@{{hôte_distant}} -D {{1080}}`
 
