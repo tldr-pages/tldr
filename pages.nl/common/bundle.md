@@ -13,7 +13,7 @@
 
 - Update alle gems volgens de regels gedefineerd in de `Gemfile` en regenereer de `Gemfile.lock`:
 
-`bundle update`
+`bundle update --all`
 
 - Update een of meerdere specifieke gem(s) gedefineerd in de `Gemfile`:
 

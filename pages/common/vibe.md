@@ -12,7 +12,7 @@
 
 `vibe {{[-c|--continue]}}`
 
-- Start an interactive Vibe session to setup an API key then exit:
+- Start an interactive Vibe session to set up an API key then exit:
 
 `vibe --setup`
 
