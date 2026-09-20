@@ -44,7 +44,7 @@ Option                   | Required?   | Meaning
 `-l`, `--list`           | No          | Lists all the pages in the current platform to the standard output.
 `-L`, `--language`       | No          | Specifies the preferred language for the page returned. Overrides other language detection mechanisms. See the [language section](#language) for more information.
 `-S`, `--short-options`  | No          | If set, will filter examples to show their shortform option when available
-`--long-options`         | No          | If set, will filter examples to show their longform option when available
+`-E`, `--long-options`   | No          | If set, will filter examples to show their longform option when available
 
 By default clients SHOULD display only the longform option when neither `--short-options` or `--long-options` is set by the user. If both are provided, both options should be displayed (see the [Page Structure / Examples](#examples) section for the output format).
 
