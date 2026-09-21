@@ -4,7 +4,7 @@
 > Por defecto, los archivos solo se copiarán si la fuente y el destino tienen marcas de tiempo diferentes o tamaños de archivo distintos.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/robocopy>.
 
-- Copiar todos los archivos `.jpg` y `.bmp` de un directorio a otro:
+- Copia todos los archivos `.jpg` y `.bmp` de un directorio a otro:
 
 `robocopy {{ruta\al\directorio_origen}} {{ruta\al\directorio_destino}} {{*.jpg}} {{*.bmp}}`
 
