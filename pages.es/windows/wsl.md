@@ -27,7 +27,7 @@
 
 `wsl --import {{distribución}} {{ruta\a\ubicacion_de_instalacion}} {{ruta\a\archivo_de_distribucion.tar}}`
 
-- Cambiar la versión de wsl usada para la distribución especificada:
+- Cambia la versión de wsl usada para la distribución especificada:
 
 `wsl --set-version {{distribución}} {{versión}}`
 
