@@ -3,11 +3,11 @@
 > Multi-pattern string replacement and file renaming tool.
 > More information: <https://github.com/jlevy/repren>.
 
-- Do a dry-run renaming a directory of PNGs with a literal string replacement:
+- Simulate renaming a directory of PNGs with a literal string replacement:
 
 `repren {{[-n|--dry-run]}} --rename --literal --from '{{find_string}}' --to '{{replacement_string}}' {{*.png}}`
 
-- Do a dry-run renaming a directory of JPEGs with a `regex`:
+- Simulate renaming a directory of JPEGs with a `regex`:
 
 `repren --rename {{[-n|--dry-run]}} --from '{{regex}}' --to '{{replacement_string}}' {{*.jpg}} {{*.jpeg}}`
 

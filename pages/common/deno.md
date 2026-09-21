@@ -12,13 +12,13 @@
 
 `deno init sample && cd sample && deno test`
 
-- Run a file securely. It will ask (if needed) to allow net, read, etc:
+- Run a file securely. It will ask (if needed) to allow net, read, etc.:
 
 `deno run {{path/to/file.ts}}`
 
 - Run a file with explicit permissions or allow all (only if you trust the source):
 
-`deno run {{[--allow-env|--allow-net|--allow-write|--allow-all]}} {{jsr:@deno/deployctl}}`
+`deno run {{--allow-env|--allow-net|--allow-write|--allow-all}} {{jsr:@deno/deployctl}}`
 
 - List and run tasks from `deno.json` or scripts from `package.json`:
 

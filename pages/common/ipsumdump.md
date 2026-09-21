@@ -7,7 +7,7 @@
 
 `ipsumdump --src --dst {{path/to/file.pcap}}`
 
-- Print the timestamps, source address, source port, destination address, destination port and protocol of all packets read from a given network interface:
+- Print the timestamps, source address, source port, destination address, destination port, and protocol of all packets read from a given network interface:
 
 `ipsumdump --interface {{eth0}} -tsSdDp`
 
