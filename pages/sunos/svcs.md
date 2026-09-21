@@ -13,12 +13,12 @@
 
 - List information about a service:
 
-`svcs {{service}}`
+`svcs {{apache}}`
 
 - Show location of service log file:
 
-`svcs -L {{service}}`
+`svcs -L {{apache}}`
 
 - Display end of a service log file:
 
-`tail $(svcs -L {{service}})`
+`tail $(svcs -L {{apache}})`
