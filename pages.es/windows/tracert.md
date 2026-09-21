@@ -7,7 +7,7 @@
 
 `tracert {{ip}}`
 
-- Evitar que `tracert` resuelva direcciones IP a nombres de host:
+- Evita que `tracert` resuelva direcciones IP a nombres de host:
 
 `tracert /d {{ip}}`
 
