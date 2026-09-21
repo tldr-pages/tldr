@@ -3,7 +3,7 @@
 > Termina un proceso por su ID o nombre.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/taskkill>.
 
-- Terminar un proceso por su ID:
+- Termina un proceso por su ID:
 
 `taskkill /pid {{id_proceso}}`
 
