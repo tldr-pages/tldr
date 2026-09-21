@@ -12,7 +12,7 @@
 
 `Set-Volume -FileSystemLabel "EtiquetaVieja" -NewFileSystemLabel "EtiquetaNueva"`
 
-- Modificar las propiedades de un volumen usando un objeto volumen:
+- Modifica las propiedades de un volumen usando un objeto volumen:
 
 `Set-Volume -InputObject $(Get-Volume -DriveLetter "E") -NewFileSystemLabel "Respaldo"`
 
