@@ -7,7 +7,7 @@
 
 `for %{{variable}} in ({{elemento_a elemento_b elemento_c}}) do ({{echo Se ejecuta el bucle}})`
 
-- Iterar sobre un rango dado de números:
+- Itera sobre un rango dado de números:
 
 `for /l %{{variable}} in ({{desde}}, {{paso}}, {{hasta}}) do ({{echo Se ejecuta el bucle}})`
 
