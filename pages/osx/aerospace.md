@@ -1,7 +1,7 @@
 # aerospace
 
 > A tiling window manager for macOS.
-> More information: https://nikitabobko.github.io/AeroSpace/guide.
+> More information: <https://nikitabobko.github.io/AeroSpace/guide>.
 
 - Reload the configuration:
 
@@ -35,10 +35,3 @@
 
 `aerospace layout <tiling|floating>`
 
-- Close the focused window:
-
-`aerospace close`
-
-- Move the focused window to a workspace and switch to it:
-
-`aerospace eval 'move-node-to-workspace <workspace>; workspace <workspace>'`
