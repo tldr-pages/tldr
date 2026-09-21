@@ -19,7 +19,7 @@
 
 `repair-bde {{C:}} -RecoveryPassword {{contraseña}}`
 
-- Intentar reparar un volumen especificado usando la contraseña proporcionada:
+- Intenta reparar un volumen especificado usando la contraseña proporcionada:
 
 `repair-bde {{C:}} -Password {{contraseña}}`
 
