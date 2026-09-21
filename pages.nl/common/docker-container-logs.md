@@ -5,20 +5,20 @@
 
 - Toon logs van een container:
 
-`docker {{[logs|container logs]}} {{container_naam}}`
+`docker {{[logs|container logs]}} {{naam|id}}`
 
 - Toon logs en volg:
 
-`docker {{[logs|container logs]}} {{container_naam}} {{[-f|--follow]}}`
+`docker {{[logs|container logs]}} {{naam|id}} {{[-f|--follow]}}`
 
 - Toon de laatste 5 regels:
 
-`docker {{[logs|container logs]}} {{container_naam}} {{[-n|--tail]}} 5`
+`docker {{[logs|container logs]}} {{naam|id}} {{[-n|--tail]}} 5`
 
 - Toon logs en voorzien van timestamps:
 
-`docker {{[logs|container logs]}} {{container_naam}} {{[-t|--timestamps]}}`
+`docker {{[logs|container logs]}} {{naam|id}} {{[-t|--timestamps]}}`
 
 - Toon logs vanaf een bepaald tijdstip van de uitvoering van de container (bijv. 23m, 10s, 2013-01-02T13:23:37):
 
-`docker {{[logs|container logs]}} {{container_naam}} --until {{time}}`
+`docker {{[logs|container logs]}} {{naam|id}} --until {{time}}`
