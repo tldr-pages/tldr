@@ -1,7 +1,7 @@
 # df
 
 > Display an overview of the filesystem disk space usage.
-> More information: <https://man.freebsd.org/cgi/man.cgi?df>.
+> More information: <https://man.freebsd.org/cgi/man.cgi?query=df>.
 
 - Display all filesystems and their disk usage (using 512-byte units):
 
