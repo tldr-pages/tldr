@@ -15,7 +15,7 @@
 
 `pipwin install {{paquete}}`
 
-- Desinstalar un paquete:
+- Desinstala un paquete:
 
 `pipwin uninstall {{paquete}}`
 
