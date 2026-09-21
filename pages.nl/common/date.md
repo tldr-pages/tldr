@@ -9,7 +9,7 @@
 
 - Toon de huidige datum in UTC, in het ISO 8601-formaat:
 
-`date {{[-u|--utc]}} +%Y-%m-%dT%H:%M:%S%Z`
+`date {{[-u|--utc]}} +%Y-%m-%dT%H:%M:%SZ`
 
 - Toon de huidige datum als een Unix timestamp (seconden sinds de Unix-epoch):
 
