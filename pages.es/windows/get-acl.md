@@ -8,6 +8,6 @@
 
 `Get-Acl {{ruta\al\directorio}}`
 
-- Obtener una ACL para una clave del registro:
+- Obtiene una ACL para una clave del registro:
 
 `Get-Acl -Path {{HKLM:\System\SetDeControlesActual\Control}} | Format-List`
