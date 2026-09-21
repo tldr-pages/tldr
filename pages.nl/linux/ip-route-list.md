@@ -21,7 +21,7 @@
 
 - Toon alleen routes van een bepaald apparaat:
 
-`ip {{[r|route]}} {{[l|list]}} dev {{eth0}}`
+`ip {{[r|route]}} {{[l|list]}} dev {{ethX}}`
 
 - Toon een lijst van routes binnen een bepaald bereik:
 

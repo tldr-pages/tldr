@@ -19,10 +19,10 @@
 
 `pio home --no-open`
 
-- Sluit de server af na n (in seconden) als er niemand verbonden is:
+- Sluit de server automatisch af na een timeout (in seconden) als er niemand verbonden is:
 
-`pio home --shutdown-timeout {{n}}`
+`pio home --shutdown-timeout {{tijd}}`
 
 - Specificeer een unieke sessie identificatie om PlatformIO Home geïsoleerd te houden van andere instances en beschermd van toegang van derde partijen:
 
-`pio home --session-id {{id}}`
+`pio home --session-id {{sessie_id}}`
