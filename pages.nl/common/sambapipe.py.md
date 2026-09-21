@@ -22,4 +22,4 @@
 
 - Gebruik een aangepaste poort voor de SMB-verbinding:
 
-`sambaPipe.py -so {{pad/naar/bestand.so}} -port {{porrt}} {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}@{{doel}}`
+`sambaPipe.py -so {{pad/naar/bestand.so}} -port {{poort}} {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}@{{doel}}`
