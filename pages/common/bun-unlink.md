@@ -12,7 +12,7 @@
 
 `bun unlink --cwd {{path/to/package}}`
 
-- Perform a dry run without actually unregistering:
+- Simulate unregistering without actually doing it:
 
 `bun unlink --dry-run`
 

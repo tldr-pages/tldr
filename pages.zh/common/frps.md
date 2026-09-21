@@ -10,15 +10,15 @@
 
 - 使用新的 TOML 配置文件启动服务：
 
-`frps {{[-c|--config]}} {{path/to/frps.toml}}`
+`frps {{[-c|--config]}} {{路径/到/frps.toml}}`
 
 - 使用指定的配置文件启动服务：
 
-`frps {{[-c|--config]}} {{path/to/file}}`
+`frps {{[-c|--config]}} {{路径/到/文件}}`
 
 - 检查配置文件的有效性：
 
-`frps verify {{[-c|--config]}} {{path/to/file}}`
+`frps verify {{[-c|--config]}} {{路径/到/文件}}`
 
 - 生成 Bash、fish、PowerShell 或 Zsh 的自动补全脚本：
 

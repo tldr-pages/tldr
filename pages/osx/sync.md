@@ -11,6 +11,6 @@
 
 `sync {{path/to/file}}`
 
-- Flush disk writes and attempts to clear inactive memory and filesystem caches:
+- Flush disk writes and attempt to clear inactive memory and filesystem caches:
 
 `sync; sudo purge`

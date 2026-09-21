@@ -26,7 +26,7 @@
 
 - Start a terminal with the specified Wayland app id (default: `footclient`):
 
-`footclient {{[-a|--app-id]}} {{id}}`
+`footclient {{[-a|--app-id]}} {{app_id}}`
 
 - Override a configuration option:
 

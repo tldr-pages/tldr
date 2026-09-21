@@ -16,6 +16,6 @@
 
 `alex {{path/to/file.md}}`
 
-- Analyze all Markdown files except `example.md`:
+- Analyze all Markdown files except a specified file:
 
-`alex *.md !example.md`
+`alex *.md !{{file.md}}`

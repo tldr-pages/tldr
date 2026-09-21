@@ -1,8 +1,8 @@
 # i2cset
 
 > I2C 장치의 레지스터 값을 설정.
-> 관련 항목: `i2cdetect`, `i2cdump`, `i2cget`.
 > 참고: 모든 주소는 16진수로 지정해야 함.
+> 관련 항목: `i2cdetect`, `i2cdump`, `i2cget`.
 > 더 많은 정보: <https://manned.org/i2cset>.
 
 - I2C 장치의 레지스터 값 쓰기:

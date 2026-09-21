@@ -5,17 +5,17 @@
 > Remarque : Atom a été abandonné et n’est plus activement maintenu. Utiliser `zed` à la place.
 > Plus d'informations : <https://atom.io/>.
 
-- Ouvre un fichier ou un dossier :
+- Ouvre un fichier ou un répertoire :
 
-`atom {{chemin/vers/fichier_ou_dossier}}`
+`atom {{chemin/vers/fichier_ou_répertoire}}`
 
-- Ouvre un fichier ou un dossier dans une nouvelle fenêtre :
+- Ouvre un fichier ou un répertoire dans une nouvelle fenêtre :
 
-`atom {{[-n|--new-window]}} {{chemin/vers/fichier_ou_dossier}}`
+`atom {{[-n|--new-window]}} {{chemin/vers/fichier_ou_répertoire}}`
 
-- Ouvre un fichier ou un dossier dans une fenêtre existante :
+- Ouvre un fichier ou un répertoire dans une fenêtre existante :
 
-`atom {{[-a|--add]}} {{chemin/vers/fichier_ou_dossier}}`
+`atom {{[-a|--add]}} {{chemin/vers/fichier_ou_répertoire}}`
 
 - Ouvre en mode sans-échec (les extensions ne seront pas chargées) :
 

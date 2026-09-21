@@ -11,11 +11,11 @@
 
 `goku --config {{path/to/config.edn}}`
 
-- Dry run the new configuration into `stdout` instead of updating `karabiner.json`:
+- Simulate generating the new configuration and print it to `stdout` instead of updating `karabiner.json`:
 
 `goku --dry-run`
 
-- Dry run the whole configuration into `stdout` instead of updating `karabiner.json`:
+- Simulate generating the whole configuration and print it to `stdout` instead of updating `karabiner.json`:
 
 `goku --dry-run-all`
 
