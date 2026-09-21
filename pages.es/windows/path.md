@@ -1,6 +1,6 @@
 # path
 
-> Mostra o establecer la ruta de búsqueda para archivos ejecutables.
+> Muestra o establece la ruta de búsqueda para archivos ejecutables.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/path>.
 
 - Muestra la ruta actual:

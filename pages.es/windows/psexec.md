@@ -12,7 +12,7 @@
 
 `psexec \\{{host_remoto}} -u {{nombre_de_usuario}} -p {{contraseña}}`
 
-- Ejecuta un comando de forma remota y enviar el resultado a un archivo:
+- Ejecuta un comando de forma remota y envía el resultado a un archivo:
 
 `psexec \\{{host_remoto}} cmd /c {{comando}} -an ^>{{ruta\al\archivo.txt}}`
 
@@ -20,6 +20,6 @@
 
 `psexec \\{{host_remoto}} -d -i {{nombre_del_programa}}`
 
-- Mostra la configuración IP del host remoto:
+- Muestra la configuración IP del host remoto:
 
 `psexec \\{{host_remoto}} ipconfig /all`

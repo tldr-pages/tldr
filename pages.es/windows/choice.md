@@ -23,6 +23,6 @@
 
 `choice /t {{5}} /d {{opcion_predeterminada}}`
 
-- Mostra ayuda:
+- Muestra la ayuda:
 
 `choice /?`
