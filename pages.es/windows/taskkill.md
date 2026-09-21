@@ -19,7 +19,7 @@
 
 `taskkill /im {{nombre_proceso}} /t`
 
-- Terminar un proceso en una máquina remota:
+- Termina un proceso en una máquina remota:
 
 `taskkill /pid {{id_proceso}} /s {{nombre_remoto}}`
 
