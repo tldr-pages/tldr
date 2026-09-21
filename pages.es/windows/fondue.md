@@ -7,7 +7,7 @@
 
 `fondue /enable-feature:{{característica}}`
 
-- Ocultar todos los mensajes de salida al usuario:
+- Oculta todos los mensajes de salida al usuario:
 
 `fondue /enable-feature:{{característica}} /hide-ux:all`
 
