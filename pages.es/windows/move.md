@@ -16,7 +16,7 @@
 
 `move {{ruta\al\origen}} {{ruta\al\directorio_existente}}`
 
-- Mover un archivo o directorio entre unidades:
+- Mueve un archivo o directorio entre unidades:
 
 `move {{C:\ruta\al\origen}} {{D:\ruta\al\destino}}`
 
