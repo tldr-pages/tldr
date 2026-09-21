@@ -8,7 +8,7 @@
 
 `robocopy {{ruta\al\directorio_origen}} {{ruta\al\directorio_destino}} {{*.jpg}} {{*.bmp}}`
 
-- Copiar todos los archivos y subdirectorios, incluidos los vacíos:
+- Copia todos los archivos y subdirectorios, incluidos los vacíos:
 
 `robocopy {{ruta\al\directorio_origen}} {{ruta\al\directorio_destino}} /E`
 
