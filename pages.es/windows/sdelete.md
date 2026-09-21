@@ -11,7 +11,7 @@
 
 `sdelete -s {{ruta\al\directorio1 ruta\al\directorio2 ...}}`
 
-- Limpiar el espacio libre del volumen D: con 3 [p]asadas:
+- Limpia el espacio libre del volumen D: con 3 [p]asadas:
 
 `sdelete -p 3 D:`
 
