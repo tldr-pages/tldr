@@ -15,7 +15,7 @@
 
 `poetry remove {{package}} {{[-G|--group]}} {{group_name}}`
 
-- Remove a package without making any changes (dry-run):
+- Simulate removing a package without making any changes:
 
 `poetry remove {{package}} --dry-run`
 
