@@ -20,6 +20,6 @@
 
 `$PSVersionTable.GitCommitId`
 
-- Verificar si el usuario está ejecutando PowerShell Core (6.0 o posterior) o la "Windows PowerShell" original (versión 5.1 o anterior):
+- Verifica si el usuario está ejecutando PowerShell Core (6.0 o posterior) o la "Windows PowerShell" original (versión 5.1 o anterior):
 
 `$PSVersionTable.PSEdition`
