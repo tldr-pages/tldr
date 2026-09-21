@@ -15,7 +15,7 @@
 
 `tracert /4 {{ip}}`
 
-- Forzar que `tracert` use solo IPv6:
+- Obliga a que `tracert` use solo IPv6:
 
 `tracert /6 {{ip}}`
 
