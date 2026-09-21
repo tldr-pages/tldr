@@ -23,7 +23,7 @@
 
 `repair-bde {{C:}} -Password {{contraseña}}`
 
-- Intentar reparar un volumen especificado usando el paquete de claves proporcionado:
+- Intenta reparar un volumen especificado usando el paquete de claves proporcionado:
 
 `repair-bde {{C:}} -KeyPackage {{ruta\al\directorio}}`
 
