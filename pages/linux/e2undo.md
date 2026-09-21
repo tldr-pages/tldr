@@ -8,7 +8,7 @@
 
 `e2undo -h {{path/to/undo_file}} {{/dev/sdXN}}`
 
-- Perform a dry-run and display the candidate blocks for replaying:
+- Simulate a run and display the candidate blocks for replaying:
 
 `e2undo -nv {{path/to/undo_file}} {{/dev/sdXN}}`
 

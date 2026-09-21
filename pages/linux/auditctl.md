@@ -1,6 +1,6 @@
 # auditctl
 
-> Utility to control the behavior, get status and manage rules of the Linux Auditing System.
+> Utility to control the behavior, get status, and manage rules of the Linux Auditing System.
 > More information: <https://manned.org/auditctl>.
 
 - Display the [s]tatus of the audit system:

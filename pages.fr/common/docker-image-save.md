@@ -1,20 +1,20 @@
 # docker image save
 
-> Exporeter une ou plusieurs images Docker dans une archive.
+> Exporte une ou plusieurs images Docker dans une archive.
 > Plus d'informations : <https://docs.docker.com/reference/cli/docker/image/save/>.
 
-- Sauvegarder une image en redirigeant la sortie standard vers une archive `.tar` :
+- Sauvegarde une image en redirigeant la sortie standard vers une archive `.tar` :
 
-`docker {{[save|image save]}} {{image}}:{{etquette}} > {{chemin/vers/fichier.tar}}`
+`docker {{[save|image save]}} {{image}}:{{étiquette}} > {{chemin/vers/fichier.tar}}`
 
-- Sauvegarder une image dans une archive `.tar` :
+- Sauvegarde une image dans une archive `.tar` :
 
-`docker {{[save|image save]}} {{[-o|--output]}} {{chemin/vers/fichier.tar}} {{image}}:{{etquette}}`
+`docker {{[save|image save]}} {{[-o|--output]}} {{chemin/vers/fichier.tar}} {{image}}:{{étiquette}}`
 
-- Sauvegarder toutes les étiquettes de l'image :
+- Sauvegarde toutes les étiquettes de l'image :
 
-`docker {{[save|image save]}} {{[-o|--output]}} {{chemin/vers/fichier.tar}} {{nom_de_l_image}}`
+`docker {{[save|image save]}} {{[-o|--output]}} {{chemin/vers/fichier.tar}} {{nom_image}}`
 
-- Sélectionner des étiquettes particulières d'une image à sauvegarder :
+- Sélectionne des étiquettes particulières d'une image à sauvegarder :
 
-`docker {{[save|image save]}} {{[-o|--output]}} {{chemin/vers/fichier.tar}} {{nom_de_l_image:etquette1 nom_de_l_image:etquette2 ...}}`
+`docker {{[save|image save]}} {{[-o|--output]}} {{chemin/vers/fichier.tar}} {{nom_image:étiquette1 nom_image:étiquette2 ...}}`
