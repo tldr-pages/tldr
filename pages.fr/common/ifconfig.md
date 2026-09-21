@@ -3,22 +3,22 @@
 > Configurateur des interfaces réseau.
 > Plus d'informations : <https://net-tools.sourceforge.io/man/ifconfig.8.html>.
 
-- Affiche les paramètres de réseau d'un adaptateur ethernet :
+- Affiche les paramètres réseau d'une interface :
 
-`ifconfig eth0`
+`ifconfig {{nom_interface}}`
 
 - Affiche les détails de toutes les interfaces, y compris les interfaces désactivées :
 
 `ifconfig -a`
 
-- Désactive l'interface eth0 :
+- Désactive une interface :
 
-`ifconfig eth0 down`
+`ifconfig {{nom_interface}} down`
 
-- Active l'interface eth0 :
+- Active une interface :
 
-`ifconfig eth0 up`
+`ifconfig {{nom_interface}} up`
 
-- Assigne une adresse IP à l'interface eth0 :
+- Assigne une adresse IP à une interface :
 
-`ifconfig eth0 {{addresse_ip}}`
+`ifconfig {{nom_interface}} {{adresse_ip}}`
