@@ -1,7 +1,7 @@
 # truss
 
 > Troubleshooting tool for tracing system calls.
-> SunOS equivalent of strace.
+> SunOS equivalent of `strace`.
 > More information: <https://www.unix.com/man-page/sunos/1/truss>.
 
 - Start tracing a program by executing it, following all child processes:
