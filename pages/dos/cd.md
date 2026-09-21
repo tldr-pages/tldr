@@ -5,7 +5,7 @@
 
 - Go to the specified directory:
 
-`CD {{path\to\directory}}`
+`CD {{PATH\TO\DIRECTORY}}`
 
 - Go up to the parent of the current directory:
 
