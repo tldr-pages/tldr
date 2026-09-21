@@ -15,7 +15,7 @@
 
 `repair-bde {{C:}} -RecoveryKey {{ruta\al\archivo.bek}}`
 
-- Intentar reparar un volumen especificado usando la contraseña numérica de recuperación proporcionada:
+- Intenta reparar un volumen especificado usando la contraseña numérica de recuperación proporcionada:
 
 `repair-bde {{C:}} -RecoveryPassword {{contraseña}}`
 
