@@ -16,7 +16,7 @@
 
 `jbang run {{[-i|--interactive]}}`
 
-- Setup a temporary project to edit a script in an IDE:
+- Set up a temporary project to edit a script in an IDE:
 
 `jbang edit --open={{codium|code|eclipse|idea|netbeans|gitpod}} {{path/to/script.java}}`
 
