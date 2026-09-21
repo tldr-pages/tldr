@@ -16,7 +16,7 @@
 
 `scoop bucket add {{nombre}}`
 
-- Agregar un bucket desconocido por su nombre y URL del repositorio Git:
+- Agrega un bucket desconocido por su nombre y URL del repositorio Git:
 
 `scoop bucket add {{nombre}} {{https://example.com/repository.git}}`
 
