@@ -9,7 +9,7 @@
 
 - Start a new stack specifying branches upfront:
 
-`gh stack init {{branch_name1}} {{branch_name2}}`
+`gh stack init {{branch_name1 branch_name2 ...}}`
 
 - Add a branch on top of the stack:
 
