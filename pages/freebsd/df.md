@@ -1,7 +1,7 @@
 # df
 
 > Display an overview of the filesystem disk space usage.
-> More information: <https://man.freebsd.org/cgi/man.cgi?query=df>.
+> More information: <https://man.freebsd.org/cgi/man.cgi?df>.
 
 - Display all filesystems and their disk usage (using 512-byte units):
 
@@ -13,7 +13,7 @@
 
 - Use [H]uman-readable units (based on powers of 1000):
 
-`df -{{-si|H}}`
+`df -H`
 
 - Display the filesystem containing the specified file or directory:
 
