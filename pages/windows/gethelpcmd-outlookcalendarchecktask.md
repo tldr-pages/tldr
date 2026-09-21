@@ -5,11 +5,11 @@
 > Note: This tool has been deprecated and will not work in the new Outlook application.
 > More information: <https://learn.microsoft.com/troubleshoot/microsoft-365/admin/miscellaneous/get-help-outlook-calendar-scan>.
 
-- Analyse the calendar for the current, active profile, and accept this command's End-User License Agreement (EULA):
+- Analyze the calendar for the current, active profile, and accept this command's End-User License Agreement (EULA):
 
 `GetHelpCmd.exe -S OutlookCalendarCheckTask -AcceptEula`
 
-- Analyse calendar for a specific Outlook profile:
+- Analyze calendar for a specific Outlook profile:
 
 `GetHelpCmd.exe -S OutlookCalendarCheckTask -AcceptEula -P {{profile}}`
 
