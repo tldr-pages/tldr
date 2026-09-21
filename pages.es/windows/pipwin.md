@@ -11,7 +11,7 @@
 
 `pipwin search {{nombre_parcial|nombre}}`
 
-- Instalar un paquete:
+- Instala un paquete:
 
 `pipwin install {{paquete}}`
 
