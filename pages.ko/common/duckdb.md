@@ -13,7 +13,7 @@
 
 - CSV, JSON 또는 Parquet 파일을 직접 쿼리:
 
-`duckdb -c "{{SELECT * FROM 'data_source.[csv|csv.gz|json|json.gz|parquet]'}}"`
+`duckdb -c "{{SELECT * FROM 'data_source.ext'}}"`
 
 - SQL 스크립트를 실행:
 

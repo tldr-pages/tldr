@@ -22,11 +22,11 @@
 
 - Zoek in bestanden die overeenkomen met een glob (bijv. `README.*`) naar een patroon:
 
-`rg {{patroon}} {{[-g|--glob]}} {{bestandsnaam_glob_patroon}}`
+`rg {{patroon}} {{[-g|--glob]}} '{{bestandsnaam_glob_patroon}}'`
 
 - Toon recursief de bestandsnamen welke overeenkomen met een pattern:
 
-`rg --files | rg {{patroon}}`
+`rg --files | rg {{[--passthru|--passthrough]}} {{patroon}}`
 
 - Toon alleen overeenkomende bestanden (handig bij het doorsturen naar andere commando's):
 

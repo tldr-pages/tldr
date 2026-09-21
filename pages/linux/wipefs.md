@@ -11,7 +11,7 @@
 
 `sudo wipefs {{[-a|--all]}} {{/dev/sdX}}`
 
-- Wipe all available signature types for the device and partitions using a glob pattern:
+- Wipe all available signature types for the device and partitions using a `glob` pattern:
 
 `sudo wipefs {{[-a|--all]}} {{/dev/sdX}}*`
 

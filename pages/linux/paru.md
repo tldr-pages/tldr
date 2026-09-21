@@ -20,7 +20,7 @@
 
 `paru -Qqm`
 
-- Remove an installed package, it's configuration files, and dependencies:
+- Remove an installed package, its configuration files, and dependencies:
 
 `paru -Rns {{package}}`
 

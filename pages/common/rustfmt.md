@@ -11,7 +11,7 @@
 
 `rustfmt --check {{path/to/source.rs}}`
 
-- Backup any modified files before formatting (the original file is renamed with a `.bk` extension):
+- Back up any modified files before formatting (the original file is renamed with a `.bk` extension):
 
 `rustfmt --backup {{path/to/source.rs}}`
 
