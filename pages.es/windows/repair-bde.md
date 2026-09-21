@@ -3,7 +3,7 @@
 > Intenta reparar o descifra un volumen cifrado con BitLocker dañado.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/repair-bde>.
 
-- Intentar reparar un volumen especificado:
+- Intenta reparar un volumen especificado:
 
 `repair-bde {{C:}}`
 
