@@ -8,7 +8,7 @@
 
 `Set-Volume -DriveLetter "D" -NewFileSystemLabel "VolumenDatos"`
 
-- Cambiar la etiqueta del sistema de archivos de un volumen identificado por la etiqueta del sistema:
+- Cambia la etiqueta del sistema de archivos de un volumen identificado por la etiqueta del sistema:
 
 `Set-Volume -FileSystemLabel "EtiquetaVieja" -NewFileSystemLabel "EtiquetaNueva"`
 
