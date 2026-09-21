@@ -11,7 +11,7 @@
 
 `for /l %{{variable}} in ({{desde}}, {{paso}}, {{hasta}}) do ({{echo Se ejecuta el bucle}})`
 
-- Iterar sobre una lista dada de archivos:
+- Itera sobre una lista dada de archivos:
 
 `for %{{variable}} in ({{ruta\al\archivo1.ext ruta\al\archivo2.ext ...}}) do ({{echo Se ejecuta el bucle}})`
 
