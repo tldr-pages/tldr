@@ -16,7 +16,7 @@
 
 `$PSVersionTable.PSCompatibleVersions`
 
-- Obtener el ID del último commit de Git en el que se basa la versión de PowerShell actualmente instalada (funciona en PowerShell 6.0 y posteriores):
+- Obtiene el ID del último commit de Git en el que se basa la versión de PowerShell actualmente instalada (funciona en PowerShell 6.0 y posteriores):
 
 `$PSVersionTable.GitCommitId`
 
