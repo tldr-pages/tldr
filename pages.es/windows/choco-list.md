@@ -3,23 +3,23 @@
 > Muestra una lista de paquetes con Chocolatey.
 > Más información: <https://docs.chocolatey.org/en-us/choco/commands/list/>.
 
-- Mostra todos los paquetes disponibles:
+- Muestra todos los paquetes disponibles:
 
 `choco list`
 
-- Mostra todos los paquetes instalados localmente:
+- Muestra todos los paquetes instalados localmente:
 
 `choco list --local-only`
 
-- Mostra una lista que incluya programas locales:
+- Muestra una lista que incluya programas locales:
 
 `choco list {{[-i|--include-programs]}}`
 
-- Mostra solo paquetes aprobados:
+- Muestra solo paquetes aprobados:
 
 `choco list --approved-only`
 
-- Especifica una fuente personalizada para Mostra paquetes:
+- Especifica una fuente personalizada para mostrar paquetes:
 
 `choco list {{[-s|--source]}} {{url_fuente|alias}}`
 

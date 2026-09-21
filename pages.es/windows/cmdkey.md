@@ -7,7 +7,7 @@
 
 `cmdkey /list`
 
-- Almacenar credenciales para un usuario que accede a un servidor:
+- Almacena credenciales para un usuario que accede a un servidor:
 
 `cmdkey /add:{{nombre_del_servidor}} /user:{{nombre_de_usuario}}`
 

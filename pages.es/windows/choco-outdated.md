@@ -3,11 +3,11 @@
 > Comprueba paquetes desactualizados con Chocolatey.
 > Más información: <https://docs.chocolatey.org/en-us/choco/commands/outdated/>.
 
-- Mostra una lista de paquetes desactualizados en formato de tabla:
+- Muestra una lista de paquetes desactualizados en formato de tabla:
 
 `choco outdated`
 
-- Ignorar paquetes fijados en la salida:
+- Ignora paquetes fijados en la salida:
 
 `choco outdated --ignore-pinned`
 
@@ -15,6 +15,6 @@
 
 `choco outdated {{[-s|--source]}} {{url_fuente|alias}}`
 
-- Proporcionar un nombre de usuario y una contraseña para la autenticación:
+- Proporciona un nombre de usuario y una contraseña para la autenticación:
 
 `choco outdated {{[-u|--user]}} {{nombre_usuario}} {{[-p|--password]}} {{contraseña}}`

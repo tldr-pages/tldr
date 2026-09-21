@@ -12,11 +12,11 @@
 
 `surfraw {{nombre_elvi}} "{{términos_búsqueda}}"`
 
-- Mostra la descripción de un elvi y sus opciones específicas:
+- Muestra la descripción de un elvi y sus opciones específicas:
 
 `surfraw {{nombre_elvi}} {{[-lh|-local-help]}}`
 
-- Realiza una búsqueda utilizando un elvi con opciones específicas y abrir la página de resultados en el navegador:
+- Realiza una búsqueda utilizando un elvi con opciones específicas y abre la página de resultados en el navegador:
 
 `surfraw {{nombre_elvi}} {{opciones_elvi}} "{{términos_búsqueda}}"`
 

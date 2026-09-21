@@ -23,6 +23,6 @@
 
 `limine-entry-tool --remove-os "{{os_name|machine_id}}"`
 
-- Añadir una entrada de arranque EFI para un gestor de arranque alternativo (por ejemplo, Windows):
+- Añade una entrada de arranque EFI para un gestor de arranque alternativo (por ejemplo, Windows):
 
 `limine-entry-tool --add-efi "{{nombre_arranque_efi}}" "{{ruta/a/loader.efi}}"`

@@ -15,7 +15,7 @@
 
 `pacgraph {{[-c|--console]}}`
 
-- Anula el nombre de archivo/ubicación por defecto (Nota: No especifiques la extensión del archivo):
+- Anula el nombre de archivo/ubicación por defecto (Nota: No especifique la extensión del archivo):
 
 `pacgraph {{[-f|--file]}} {{ruta/al/archivo}}`
 

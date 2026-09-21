@@ -1,6 +1,6 @@
 # ng
 
-> Crea y gestionar aplicaciones Angular.
+> Crea y gestiona aplicaciones Angular.
 > Más información: <https://angular.dev/cli>.
 
 - Crea una nueva aplicación Angular dentro de un directorio:

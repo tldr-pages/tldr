@@ -4,15 +4,15 @@
 > Los paquetes fijados se omiten automáticamente al actualizar.
 > Más información: <https://docs.chocolatey.org/en-us/choco/commands/pin/>.
 
-- Mostra una lista de paquetes fijados y sus versiones:
+- Muestra una lista de paquetes fijados y sus versiones:
 
 `choco pin list`
 
-- Fijar un paquete en su versión actual:
+- Fija un paquete en su versión actual:
 
 `choco pin add {{[-n|--name]}} {{paquete}}`
 
-- Fijar un paquete en una versión específica:
+- Fija un paquete en una versión específica:
 
 `choco pin add {{[-n|--name]}} {{paquete}} --version {{versión}}`
 

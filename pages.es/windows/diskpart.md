@@ -23,10 +23,10 @@
 
 `create partition primary`
 
-- Activar el volumen seleccionado:
+- Activa el volumen seleccionado:
 
 `active`
 
-- Salir de diskpart:
+- Sale de diskpart:
 
 `exit`

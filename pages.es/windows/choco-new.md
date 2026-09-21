@@ -19,6 +19,6 @@
 
 `choco new {{paquete}} {{[--out|--output-directory]}} {{ruta/al/directorio}}`
 
-- Crea un nuevo paquete con URLs de instalador específicas para 32 bits y 64 bits:
+- Crea un nuevo paquete con URLs de instalador específicas para 32 y 64 bits:
 
 `choco new {{paquete}} url="{{url}}" url64="{{url}}"`
