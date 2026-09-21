@@ -19,7 +19,7 @@
 
 `pipwin uninstall {{paquete}}`
 
-- Descargar un paquete a un directorio específico:
+- Descarga un paquete a un directorio específico:
 
 `pipwin download --dest {{ruta\al\directorio}} {{paquete}}`
 
