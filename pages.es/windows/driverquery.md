@@ -27,6 +27,6 @@
 
 `driverquery /v`
 
-- Mostra ayuda:
+- Muestra la ayuda:
 
 `driverquery /?`

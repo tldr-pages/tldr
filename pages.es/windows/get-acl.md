@@ -4,7 +4,7 @@
 > Nota: Este comando solo se puede usar a través de PowerShell.
 > Más información: <https://learn.microsoft.com/powershell/module/microsoft.powershell.security/get-acl>.
 
-- Mostra la ACL para un directorio específico:
+- Muestra la ACL para un directorio específico:
 
 `Get-Acl {{ruta\al\directorio}}`
 

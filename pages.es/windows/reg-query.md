@@ -11,7 +11,7 @@
 
 `reg query {{nombre_de_clave}} /v {{valor}}`
 
-- Mostra todos los valores de una clave y sus [s]ubclaves:
+- Muestra todos los valores de una clave y sus [s]ubclaves:
 
 `reg query {{nombre_de_clave}} /s`
 
@@ -19,7 +19,7 @@
 
 `reg query {{nombre_de_clave}} /f "{{patrón_de_búsqueda}}"`
 
-- Mostra un valor de una clave que coincida con un [t]ipo de dato específico:
+- Muestra un valor de una clave que coincida con un [t]ipo de dato específico:
 
 `reg query {{nombre_de_clave}} /t REG_{{SZ|MULTI_SZ|EXPAND_SZ|DWORD|BINARY|NONE}}`
 

@@ -1,6 +1,6 @@
 # forfiles
 
-> Seleccionar archivos para ejecutar un comando especificado.
+> Selecciona archivos para ejecutar un comando especificado.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/forfiles>.
 
 - Busca archivos en el directorio actual:

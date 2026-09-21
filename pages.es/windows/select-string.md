@@ -17,7 +17,7 @@
 
 `Select-String -Path "{{*.ext}}" -Pattern '{{patrón_de_búsqueda}}'`
 
-- Capturar el número especificado de líneas antes y después de la línea que coincide con el patrón:
+- Captura el número especificado de líneas antes y después de la línea que coincide con el patrón:
 
 `Select-String --Context {{2,3}} "{{patrón_de_búsqueda}}" {{ruta\al\archivo}}`
 

@@ -23,6 +23,6 @@
 
 `tracert /h {{max_saltos}} {{ip}}`
 
-- Mostra ayuda:
+- Muestra la ayuda:
 
 `tracert /?`

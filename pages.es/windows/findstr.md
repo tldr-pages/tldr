@@ -27,10 +27,10 @@
 
 `findstr /c:"{{cadena1 cadena2 ...}}" *.txt`
 
-- Mostra el número de línea antes de cada línea coincidente:
+- Muestra el número de línea antes de cada línea coincidente:
 
 `findstr /n "{{cadena1 cadena2 ...}}" *`
 
-- Mostra solo los nombres de archivo que contienen una coincidencia:
+- Muestra solo los nombres de archivo que contienen una coincidencia:
 
 `findstr /m "{{cadena1 cadena2 ...}}" *`

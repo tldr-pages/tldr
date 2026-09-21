@@ -1,6 +1,6 @@
 # Get-Alias
 
-> Lista y obtener alias de comandos en la sesión actual de PowerShell.
+> Lista y obtiene alias de comandos en la sesión actual de PowerShell.
 > Este comando solo se puede ejecutar en PowerShell.
 > Más información: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/get-alias>.
 
@@ -8,7 +8,7 @@
 
 `Get-Alias`
 
-- Obtener el nombre del comando asociado al alias:
+- Obtiene el nombre del comando asociado al alias:
 
 `Get-Alias {{alias_de_comando}}`
 

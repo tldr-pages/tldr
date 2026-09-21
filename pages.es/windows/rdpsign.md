@@ -15,7 +15,7 @@
 
 `rdpsign {{ruta\al\archivo.rdp}} /q`
 
-- Mostra advertencias, mensajes y estados detallados:
+- Muestra advertencias, mensajes y estados detallados:
 
 `rdpsign {{ruta\al\archivo.rdp}} /v`
 

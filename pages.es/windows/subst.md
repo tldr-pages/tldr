@@ -7,7 +7,7 @@
 
 `subst`
 
-- Agregar una asociación:
+- Agrega una asociación:
 
 `subst {{Z:}} {{C:\Python2.7}}`
 

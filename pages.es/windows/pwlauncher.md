@@ -1,9 +1,9 @@
 # pwlauncher
 
-> Gestionar las opciones de inicio de Windows To Go.
+> Gestiona las opciones de inicio de Windows To Go.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/pwlauncher>.
 
-- Mostra el estado actual de Windows To Go:
+- Muestra el estado actual de Windows To Go:
 
 `pwlauncher`
 

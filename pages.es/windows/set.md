@@ -7,7 +7,7 @@
 
 `set`
 
-- Establecer una variable de entorno a un valor específico:
+- Establece una variable de entorno a un valor específico:
 
 `set {{nombre}}={{valor}}`
 

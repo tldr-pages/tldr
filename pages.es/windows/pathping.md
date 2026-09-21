@@ -31,6 +31,6 @@
 
 `pathping {{nombre_del_host}} -6`
 
-- Mostra ayuda:
+- Muestra la ayuda:
 
 `pathping /?`

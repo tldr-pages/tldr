@@ -24,10 +24,10 @@
 
 `robocopy {{ruta\al\directorio_origen}} {{ruta\al\directorio_destino}} /MIN:{{52428800}} /L`
 
-- Permitir reanudar si se pierde la conexión de red y limitar los reintentos a 5 y el tiempo de espera a 15 segundos:
+- Permite reanudar si se pierde la conexión de red y limita los reintentos a 5 y el tiempo de espera a 15 segundos:
 
 `robocopy {{ruta\al\directorio_origen}} {{ruta\al\directorio_destino}} /Z /R:5 /W:15`
 
-- Mostra ayuda:
+- Muestra la ayuda:
 
 `robocopy /?`
