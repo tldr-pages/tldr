@@ -4,7 +4,7 @@
 > En PowerShell, este comando es un alias de `Move-Item`. Esta documentación se basa en la versión de `move` del Símbolo del sistema (`cmd`).
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/move>.
 
-- Ver la documentación del comando equivalente de PowerShell:
+- Vea la documentación del comando equivalente de PowerShell:
 
 `tldr move-item`
 
