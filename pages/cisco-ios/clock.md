@@ -7,10 +7,14 @@
 
 `clock set {{23}}:{{59}}:{{59}} {{30}} {{april}} {{2000}}`
 
-- Display the current system date and time:
+- Auto negotiate with the far end of the link, defaulting to active-clock:
 
-`show clock`
+`clock active prefer`
 
-- Display the current system date and time, along with the source of the time:
+- Auto negotiate with the far end of the link, defaulting to passive-clock:
 
-`show clock detail`
+`clock passive prefer`
+
+- Show the current clock mode negotiated by the firmware:
+
+`clock show interfaces`
