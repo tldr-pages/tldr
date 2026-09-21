@@ -8,7 +8,7 @@
 
 `tldr move-item`
 
-- Renombrar un archivo o directorio cuando el destino no es un directorio existente:
+- Renombra un archivo o directorio cuando el destino no es un directorio existente:
 
 `move {{ruta\al\origen}} {{ruta\al\destino}}`
 
