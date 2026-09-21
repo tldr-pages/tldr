@@ -15,9 +15,13 @@
 
 `gh stack add {{branch_name}}`
 
-- Push all branches:
+- Push all branches to the default remote:
 
 `gh stack push`
+
+- Push all branches to a specified remote:
+
+`gh stack push --remote {{remote_name}}`
 
 - View the stack:
 
