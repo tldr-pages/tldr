@@ -1,6 +1,6 @@
 # GetHelpCmd
 
-> Analyse and fix common problems in Microsoft 365 Enterprise installations.
+> Analyze and fix common problems in Microsoft 365 Enterprise installations.
 > Formerly Microsoft Support and Recovery Assistant (SaRA), command-line version (`SaRAcmd.exe`).
 > Note: This tool is not related to PowerShell (`Get-Help`), and has been deprecated in favor of the GUI troubleshooters available within Windows Settings.
 > Some subcommands such as `OutlookCalendarCheckTask`, `ExpertExperienceAdminTask` have their own usage documentation.
