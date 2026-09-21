@@ -15,7 +15,7 @@
 
 `taskkill /pid {{id_proceso}} /f`
 
-- Terminar un proceso y sus procesos hijos:
+- Termina un proceso y sus procesos hijos:
 
 `taskkill /im {{nombre_proceso}} /t`
 
