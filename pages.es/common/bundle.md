@@ -13,7 +13,7 @@
 
 - Actualiza todas las gemas (gems) definidas por las reglas en el `Gemfile` y regenera `Gemfile.lock`:
 
-`bundle update`
+`bundle update --all`
 
 - Actualiza una o más gemas (gems) específicas definidas en el `Gemfile`:
 

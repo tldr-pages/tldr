@@ -7,7 +7,7 @@
 
 `svcadm enable {{service_name}}`
 
-- Disable service:
+- Disable a service:
 
 `svcadm disable {{service_name}}`
 
