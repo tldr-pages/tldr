@@ -11,7 +11,7 @@
 
 `taskkill /im {{nombre_proceso}}`
 
-- Forzar la terminación de un proceso especificado:
+- Obliga a la terminación de un proceso especificado:
 
 `taskkill /pid {{id_proceso}} /f`
 
