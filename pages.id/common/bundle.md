@@ -13,7 +13,7 @@
 
 - Perbarui seluruh gem menurut aturan ketergantungan dalam berkas `Gemfile` dan bangun ulang berkas `Gemfile.lock`:
 
-`bundle update`
+`bundle update --all`
 
 - Perbarui satu atau beberapa gem yang terdaftar dalam berkas `Gemfile`:
 
