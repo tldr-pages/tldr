@@ -4,7 +4,7 @@
 > Nota: Este comando solo puede usarse a través de PowerShell.
 > Más información: <https://learn.microsoft.com/powershell/module/storage/set-volume>.
 
-- Cambiar la etiqueta del sistema de archivos de un volumen identificado por la letra de unidad:
+- Cambia la etiqueta del sistema de archivos de un volumen identificado por la letra de unidad:
 
 `Set-Volume -DriveLetter "D" -NewFileSystemLabel "VolumenDatos"`
 
