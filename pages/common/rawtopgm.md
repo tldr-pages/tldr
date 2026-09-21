@@ -1,17 +1,17 @@
 # rawtopgm
 
-> Convert a raw grayscale image to a PGM image.
+> Convert a raw greyscale image to a PGM image.
 > More information: <https://netpbm.sourceforge.net/doc/rawtopgm.html>.
 
-- Convert a raw grayscale image to a PGM image:
+- Convert a raw greyscale image to a PGM image:
 
 `rawtopgm {{width}} {{height}} {{path/to/image.raw}} > {{path/to/output.pgm}}`
 
-- Convert a raw grayscale image to a PGM image, assume the image to be a square:
+- Convert a raw greyscale image to a PGM image, assume the image to be a square:
 
 `rawtopgm {{path/to/image.raw}} > {{path/to/output.pgm}}`
 
-- Convert a raw grayscale image in which the pixels come bottom-first instead of top-first to a PGM image:
+- Convert a raw greyscale image in which the pixels come bottom-first instead of top-first to a PGM image:
 
 `rawtopgm {{width}} {{height}} {{[-bt|-bottomfirst]}} {{path/to/image.raw}} > {{path/to/output.pgm}}`
 
@@ -23,7 +23,7 @@
 
 `rawtopgm {{width}} {{height}} {{[-r|-rowskip]}} {{m}} {{path/to/image.raw}} > {{path/to/output.pgm}}`
 
-- Specify the maxval for the gray values in the input to be equal to `n`:
+- Specify the maxval for the grey values in the input to be equal to `n`:
 
 `rawtopgm {{width}} {{height}} {{[-m|-maxval]}} {{n}} {{path/to/image.raw}} > {{path/to/output.pgm}}`
 

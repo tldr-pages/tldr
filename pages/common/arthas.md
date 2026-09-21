@@ -12,7 +12,7 @@
 
 `telnet localhost {{port_number}}`
 
-- Exit the current Arthas client without affecting other clients, equivalent to `exit`, `logout`, or `q`:
+- Exit the current Arthas client without affecting other clients:
 
 `{{exit|quit|logout|q}}`
 
