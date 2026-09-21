@@ -27,7 +27,7 @@
 
 `repair-bde {{C:}} -KeyPackage {{ruta\al\directorio}}`
 
-- Registrar toda la salida en un archivo específico:
+- Registra toda la salida en un archivo específico:
 
 `repair-bde {{C:}} -LogFile {{ruta\al\archivo}}`
 
