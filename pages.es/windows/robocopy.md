@@ -16,7 +16,7 @@
 
 `robocopy {{ruta\al\directorio_origen}} {{ruta\al\directorio_destino}} /MIR /COPYALL`
 
-- Copiar todos los archivos y subdirectorios, excluyendo los archivos de origen que sean más antiguos que los archivos en el destino:
+- Copia todos los archivos y subdirectorios, excluyendo los archivos de origen que sean más antiguos que los archivos en el destino:
 
 `robocopy {{ruta\al\directorio_origen}} {{ruta\al\directorio_destino}} /E /XO`
 
