@@ -19,6 +19,6 @@
 
 `for /d %{{variable}} in ({{ruta\al\directorio1.ext ruta\al\directorio2.ext ...}}) do ({{echo Se ejecuta el bucle}})`
 
-- Realizar un comando dado en cada directorio:
+- Realiza un comando dado en cada directorio:
 
 `for /d %{{variable}} in (*) do (if exist %{{variable}} {{echo Se ejecuta el bucle}})`
