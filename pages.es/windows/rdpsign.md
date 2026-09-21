@@ -19,6 +19,6 @@
 
 `rdpsign {{ruta\al\archivo.rdp}} /v`
 
-- Probar la firma mostrando la salida en `stdout` sin actualizar el archivo:
+- Prueba la firma mostrando la salida en `stdout` sin actualizar el archivo:
 
 `rdpsign {{ruta\al\archivo.rdp}} /l`
