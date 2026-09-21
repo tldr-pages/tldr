@@ -23,7 +23,7 @@
 
 `qm {{[di|disk]}} {{[resc|rescan]}}`
 
-- Simulate a rescan but do not write any changes to configurations:
+- Simulate a rescan without writing any changes to configurations:
 
 `qm {{[di|disk]}} {{[resc|rescan]}} --dryrun`
 
