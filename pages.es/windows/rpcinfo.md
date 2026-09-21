@@ -15,6 +15,6 @@
 
 `rpcinfo /t {{nombre_de_computadora}} {{nombre_del_programa}}`
 
-- Llamar a un programa específico en una computadora remota usando UDP:
+- Llama a un programa específico en una computadora remota usando UDP:
 
 `rpcinfo /u {{nombre_de_computadora}} {{nombre_del_programa}}`
