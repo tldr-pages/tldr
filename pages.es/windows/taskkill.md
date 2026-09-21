@@ -7,7 +7,7 @@
 
 `taskkill /pid {{id_proceso}}`
 
-- Terminar un proceso por su nombre:
+- Termina un proceso por su nombre:
 
 `taskkill /im {{nombre_proceso}}`
 
