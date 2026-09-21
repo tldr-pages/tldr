@@ -1,36 +1,36 @@
 # git show-branch
 
-> Affiche les branches et leurs commits.
+> Affiche les branches et leurs validations.
 > Plus d'informations : <https://git-scm.com/docs/git-show-branch>.
 
-- Affiche un résumé du dernier commit dans la branche :
+- Affiche un résumé de la dernière validation dans la branche :
 
-`git show-branch {{nom_de_branche|ref|commit}}`
+`git show-branch {{nom_branche|ref|validation}}`
 
-- Comparer des commits avec plusieurs commits ou branches :
+- Compare des validations avec plusieurs validations ou branches :
 
-`git show-branch {{nom_de_branche|ref|commit}}`
+`git show-branch {{nom_branche1|ref1|validation1 nom_branche2|ref2|validation2 ...}}`
 
-- Comparer toutes les branches distantes :
+- Compare toutes les branches de suivi distantes :
 
-`git show-branch --remotes`
+`git show-branch {{[-r|--remotes]}}`
 
-- Comparer la branche locale avec la branche distante :
+- Compare les branches locales et les branches de suivi distantes :
 
-`git show-branch --all`
+`git show-branch {{[-a|--all]}}`
 
-- Lister les derniers commits sur toutes les branches :
+- Liste les dernières validations sur toutes les branches :
 
-`git show-branch --all --list`
+`git show-branch {{[-a|--all]}} --list`
 
-- Comparer une branche spécifique à la branche courante :
+- Compare une branche spécifique à la branche actuelle :
 
-`git show-branch --current {{commit|nom_de_branche|ref}}`
+`git show-branch --current {{validation|nom_branche|ref}}`
 
-- Afficher le nom du commit au lieu du nom relatif :
+- Affiche le nom de la validation au lieu du nom relatif :
 
-`git show-branch --sha1-name --current {{current|nom_de_branche|ref}}`
+`git show-branch --sha1-name --current {{actuel|nom_branche|ref}}`
 
-- Continuez l'affichage d'un certain nombre de commits au-delà de l'ancêtre commun :
+- Continue l'affichage d'un certain nombre de validations au-delà de l'ancêtre commun :
 
-`git show-branch --more {{5}} {{commit|nom_de_branche|ref}} {{commit|nom_de_branche|ref}} {{...}}`
+`git show-branch --more {{5}} {{nom_branche1|ref1|validation1 nom_branche2|ref2|validation2 ...}}`
