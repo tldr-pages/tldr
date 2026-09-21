@@ -25,7 +25,7 @@
 
 - Toon de huidige datum in het RFC-3339 formaat (`YYYY-MM-DD hh:mm:ss TZ`) en specificeer de precisie ervan:
 
-`date --rfc-3339 {{date|seconds|s}}`
+`date --rfc-3339 {{date|seconds|ns}}`
 
 - Stel de huidige datum in met het formaat `MMDDhhmmYYYY.ss` (`YYYY` en `.ss` zijn optioneel):
 

@@ -1,12 +1,12 @@
 # semanage
 
-> SELinux persistent beleid beheertool.
+> Hulpprogramma voor permanent SELinux-beleidsbeheer.
 > Sommige subcommando's zoals `boolean`, `fcontext`, `port`, etc. hebben hun eigen documentatie.
 > Meer informatie: <https://manned.org/semanage>.
 
 - Stel een SELinux-boolean in of uit. Booleans stellen de beheerder in staat om aan te passen hoe beleidsregels invloed hebben op ingesloten procestypes (ook wel domeinen genoemd):
 
-`sudo semanage boolean {{[-m|--modify]}} {{-1|--on|-0|--off}} {{haproxy_connect_any}}`
+`sudo semanage boolean {{[-m|--modify]}} {{--on|--off}} {{haproxy_connect_any}}`
 
 - Voeg een door de gebruiker gedefinieerde bestandscontextlabelregel toe. Bestandscontexten definiëren welke bestanden ingesloten domeinen mogen openen:
 
@@ -18,7 +18,7 @@
 
 - Stel de permissieve modus in of uit voor een ingesloten domein. Per-domein permissieve modus biedt meer gedetailleerde controle vergeleken met `setenforce`:
 
-`sudo semanage permissive {{-a|--add|-d|--delete}} {{httpd_t}}`
+`sudo semanage permissive {{--add|--delete}} {{httpd_t}}`
 
 - Exporteer lokale aanpassingen in de standaardopslag:
 
