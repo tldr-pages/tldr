@@ -12,7 +12,7 @@
 
 `robocopy {{ruta\al\directorio_origen}} {{ruta\al\directorio_destino}} /E`
 
-- Espejar/Sincronizar un directorio, eliminando todo lo que no esté en el origen e incluyendo todos los atributos y permisos:
+- Espeja/sincroniza un directorio, eliminando todo lo que no esté en el origen e incluyendo todos los atributos y permisos:
 
 `robocopy {{ruta\al\directorio_origen}} {{ruta\al\directorio_destino}} /MIR /COPYALL`
 
