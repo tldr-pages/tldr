@@ -15,6 +15,6 @@
 
 `sdelete -p 3 D:`
 
-- Limpiar el espacio libre con ceros [z] del disco físico 2, que no debe contener volúmenes a limpiar:
+- Limpia el espacio libre con ceros [z] del disco físico 2, que no debe contener volúmenes a limpiar:
 
 `sdelete -z 2`
