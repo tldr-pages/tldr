@@ -11,7 +11,7 @@
 
 `rpcinfo /p {{nombre_de_computadora}}`
 
-- Llamar a un programa específico en una computadora remota usando TCP:
+- Llama a un programa específico en una computadora remota usando TCP:
 
 `rpcinfo /t {{nombre_de_computadora}} {{nombre_del_programa}}`
 
