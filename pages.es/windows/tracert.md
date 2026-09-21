@@ -3,7 +3,7 @@
 > Recibe información sobre cada paso en la ruta entre tu PC y el destino.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/tracert>.
 
-- Rastrear una ruta:
+- Rastrea una ruta:
 
 `tracert {{ip}}`
 
