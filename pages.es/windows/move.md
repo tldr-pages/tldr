@@ -12,7 +12,7 @@
 
 `move {{ruta\al\origen}} {{ruta\al\destino}}`
 
-- Mover un archivo o directorio a un directorio existente:
+- Mueve un archivo o directorio a un directorio existente:
 
 `move {{ruta\al\origen}} {{ruta\al\directorio_existente}}`
 
