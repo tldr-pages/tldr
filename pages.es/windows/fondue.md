@@ -3,7 +3,7 @@
 > Instala características opcionales de Windows.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/fondue>.
 
-- Habilitar una característica específica de Windows:
+- Habilita una característica específica de Windows:
 
 `fondue /enable-feature:{{característica}}`
 
