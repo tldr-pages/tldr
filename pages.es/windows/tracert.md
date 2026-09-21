@@ -11,7 +11,7 @@
 
 `tracert /d {{ip}}`
 
-- Forzar que `tracert` use solo IPv4:
+- Obliga a que `tracert` use solo IPv4:
 
 `tracert /4 {{ip}}`
 
