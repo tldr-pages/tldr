@@ -11,7 +11,7 @@
 
 `repair-bde {{C:}} {{D:}}`
 
-- Intentar reparar un volumen especificado usando el archivo de clave de recuperación proporcionado:
+- Intenta reparar un volumen especificado usando el archivo de clave de recuperación proporcionado:
 
 `repair-bde {{C:}} -RecoveryKey {{ruta\al\archivo.bek}}`
 
