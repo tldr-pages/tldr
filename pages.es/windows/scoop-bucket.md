@@ -12,7 +12,7 @@
 
 `scoop bucket known`
 
-- Agregar un bucket conocido por su nombre:
+- Agrega un bucket conocido por su nombre:
 
 `scoop bucket add {{nombre}}`
 
