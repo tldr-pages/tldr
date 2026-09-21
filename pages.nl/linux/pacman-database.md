@@ -2,7 +2,6 @@
 
 > Werk op de database van het Arch Linux pakket.
 > Wijzig bepaalde attributen van de geïnstalleerde pakketten.
-> Zie ook: `pacman`.
 > Meer informatie: <https://manned.org/pacman.8>.
 
 - Markeer een pakket als impliciet geïnstalleerd:

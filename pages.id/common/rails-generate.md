@@ -11,7 +11,7 @@
 
 `rails generate model {{Post}} {{judul:string}} {{uraian:text}}`
 
-- Mmebuat _controller_ baru bernama Posts dengan actions index, show, new dan create:
+- Mmebuat controller baru bernama Posts dengan actions index, show, new dan create:
 
 `rails generate controller {{Posts}} {{index}} {{show}} {{new}} {{create}}`
 
@@ -19,6 +19,6 @@
 
 `rails generate migration {{AddKategoriToPost}} {{kategori:string}}`
 
-- Membuat _scaffold_ untuk model bernama Post, dengan pendefinisian atribut judul dan uraian:
+- Membuat scaffold untuk model bernama Post, dengan pendefinisian atribut judul dan uraian:
 
 `rails generate scaffold {{Post}} {{title:string}} {{body:text}}`
