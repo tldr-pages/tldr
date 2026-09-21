@@ -28,6 +28,6 @@
 
 `fc /t {{ruta\al\archivo1}} {{ruta\al\archivo2}}`
 
-- Comprimir espacios en blanco (tabulaciones y espacios) para comparaciones:
+- Comprime espacios en blanco (tabulaciones y espacios) para hacer comparaciones:
 
 `fc /w {{ruta\al\archivo1}} {{ruta\al\archivo2}}`
