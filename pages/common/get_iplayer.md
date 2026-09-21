@@ -19,7 +19,7 @@
 
 `get_iplayer "{{program_name}}" --subtitles-only`
 
-- Search for a program, record it and download subtitles:
+- Search for a program, record it, and download subtitles:
 
 `get_iplayer "{{program_name}}" {{[-g|--get]}} --subtitles`
 

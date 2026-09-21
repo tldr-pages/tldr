@@ -24,7 +24,7 @@
 
 `hledger {{[bal|balance]}} {{[-H|--historical]}} {{[-p|--period]}} '{{quarterly in 2024}}' {{assets}} {{liabilities}}`
 
-- Similar to the above, also show zero balances, sort by total and summarize to three levels:
+- Similar to the above, also show zero balances, sort by total, and summarize to three levels:
 
 `hledger {{[bal|balance]}} {{[-HQ|--historical --quarterly]}} date:{{2024}} type:{{AL}} {{[-ES|--empty --sort-amount]}} {{[-3|--depth 3]}}`
 
