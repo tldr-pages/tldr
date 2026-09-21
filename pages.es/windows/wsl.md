@@ -23,7 +23,7 @@
 
 `wsl --export {{distribución}} {{ruta\a\archivo_de_distribucion.tar}}`
 
-- Importar una distribución de un archivo `.tar`:
+- Importa una distribución de un archivo `.tar`:
 
 `wsl --import {{distribución}} {{ruta\a\ubicacion_de_instalacion}} {{ruta\a\archivo_de_distribucion.tar}}`
 
