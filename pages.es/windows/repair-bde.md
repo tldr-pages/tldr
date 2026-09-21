@@ -1,6 +1,6 @@
 # repair-bde
 
-> Intentar reparar o descifrar un volumen cifrado con BitLocker dañado.
+> Intenta reparar o descifra un volumen cifrado con BitLocker dañado.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/repair-bde>.
 
 - Intentar reparar un volumen especificado:
