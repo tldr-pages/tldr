@@ -20,7 +20,7 @@
 
 `move {{C:\ruta\al\origen}} {{D:\ruta\al\destino}}`
 
-- No solicitar confirmación antes de sobrescribir archivos existentes:
+- No solicita confirmación antes de sobrescribir archivos existentes:
 
 `move /Y {{ruta\al\origen}} {{ruta\al\directorio_existente}}`
 
