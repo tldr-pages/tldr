@@ -24,7 +24,7 @@
 
 `mssqlclient.py {{nombre_de_usuario}}:{{contraseña}}@{{destino}} -query "{{SELECT nombre_de_usuario();}}"`
 
-- Ejecutar varios comandos SQL desde un archivo:
+- Ejecuta varios comandos SQL desde un archivo:
 
 `mssqlclient.py {{nombre_de_usuario}}:{{contraseña}}@{{destino}} -file {{ruta/al/archivo_sql.sql}}`
 

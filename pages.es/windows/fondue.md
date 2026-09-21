@@ -11,6 +11,6 @@
 
 `fondue /enable-feature:{{característica}} /hide-ux:all`
 
-- Especificar un nombre de proceso llamador para la información de errores:
+- Especifica un nombre de proceso llamador para la información de errores:
 
 `fondue /enable-feature:{{característica}} /caller-name:{{nombre}}`

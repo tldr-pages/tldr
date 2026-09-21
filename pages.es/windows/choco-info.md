@@ -3,15 +3,15 @@
 > Muestra información detallada sobre un paquete con Chocolatey.
 > Más información: <https://docs.chocolatey.org/en-us/choco/commands/info/>.
 
-- Mostrar información sobre un paquete específico:
+- Mostra información sobre un paquete específico:
 
 `choco info {{paquete}}`
 
-- Mostrar información solo para un paquete local:
+- Mostra información solo para un paquete local:
 
 `choco info {{paquete}} {{[-l|--local-only]}}`
 
-- Especificar una fuente personalizada para recibir información sobre paquetes:
+- Especifica una fuente personalizada para recibir información sobre paquetes:
 
 `choco info {{paquete}} {{[-s|--source]}} {{url_fuente|alias}}`
 

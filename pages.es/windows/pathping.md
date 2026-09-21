@@ -11,15 +11,15 @@
 
 `pathping {{nombre_del_host}} -n`
 
-- Especificar el número máximo de saltos para buscar el objetivo (el valor predeterminado es 30):
+- Especifica el número máximo de saltos para buscar el objetivo (el valor predeterminado es 30):
 
 `pathping {{nombre_del_host}} -h {{max_hops}}`
 
-- Especificar los milisegundos a esperar entre pings (el valor predeterminado es 240):
+- Especifica los milisegundos a esperar entre pings (el valor predeterminado es 240):
 
 `pathping {{nombre_del_host}} -p {{tiempo}}`
 
-- Especificar el número de consultas por salto (el valor predeterminado es 100):
+- Especifica el número de consultas por salto (el valor predeterminado es 100):
 
 `pathping {{nombre_del_host}} -q {{consultas}}`
 
@@ -31,6 +31,6 @@
 
 `pathping {{nombre_del_host}} -6`
 
-- Mostrar ayuda:
+- Mostra ayuda:
 
 `pathping /?`

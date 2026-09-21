@@ -19,6 +19,6 @@
 
 `nix flake show {{github:dueño/repositorio}}`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `nix flake --help`

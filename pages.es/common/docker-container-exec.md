@@ -15,7 +15,7 @@
 
 `docker {{[exec|container exec]}} {{[-it|--interactive --tty]}} {{[-w|--workdir]}} {{ruta/al/directorio}} {{nombre_del_contenedor}} {{comando}}`
 
-- Ejecutar un comando en segundo plano en un contenedor existente, pero mantener `stdin` abierto:
+- Ejecuta un comando en segundo plano en un contenedor existente, pero mantener `stdin` abierto:
 
 `docker {{[exec|container exec]}} {{[-i|--interactive]}} {{[-d|--detach]}} {{nombre_contenedor}} {{comando}}`
 

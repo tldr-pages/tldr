@@ -4,15 +4,15 @@
 > Este comando puede sobrescribir, desactivar y/o eliminar la licencia actual de Windows. Proceda con precaución.
 > Más información: <https://learn.microsoft.com/windows-server/get-started/activation-slmgr-vbs-options>.
 
-- Mostrar[d] la [i]nformación actual de la [l]icencia de Windows:
+- Mostra[d] la [i]nformación actual de la [l]icencia de Windows:
 
 `slmgr.vbs /dli`
 
-- Mostrar[d] el [i]D de ins[t]alación del dispositivo actual. Útil para activación de licencia sin conexión:
+- Mostra[d] el [i]D de ins[t]alación del dispositivo actual. Útil para activación de licencia sin conexión:
 
 `slmgr.vbs /dti`
 
-- Mostrar la fecha y hora de caducidad e[xp]i[r]ación de la licencia actual:
+- Mostra la fecha y hora de caducidad e[xp]i[r]ación de la licencia actual:
 
 `slmgr.vbs /xpr`
 

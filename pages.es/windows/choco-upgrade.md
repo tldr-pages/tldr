@@ -23,7 +23,7 @@
 
 `choco upgrade {{paquete}} {{[-y|--yes]}}`
 
-- Especificar una fuente personalizada para recibir paquetes:
+- Especifica una fuente personalizada para recibir paquetes:
 
 `choco upgrade {{paquete}} {{[-s|--source]}} {{url_fuente|alias}}`
 

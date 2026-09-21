@@ -15,11 +15,11 @@
 
 `limine-entry-tool --add-uki "{{nombre_kernel}}" "{{ruta/a/uki.efi}}"`
 
-- Eliminar una entrada de arranque del kernel y sus archivos asociados del ESP:
+- Elimina una entrada de arranque del kernel y sus archivos asociados del ESP:
 
 `limine-entry-tool --remove "{{nombre_kernel}}"`
 
-- Eliminar una entrada completa del sistema operativo por su nombre o ID de máquina:
+- Elimina una entrada completa del sistema operativo por su nombre o ID de máquina:
 
 `limine-entry-tool --remove-os "{{os_name|machine_id}}"`
 

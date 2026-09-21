@@ -3,7 +3,7 @@
 > Comprueba paquetes desactualizados con Chocolatey.
 > Más información: <https://docs.chocolatey.org/en-us/choco/commands/outdated/>.
 
-- Mostrar una lista de paquetes desactualizados en formato de tabla:
+- Mostra una lista de paquetes desactualizados en formato de tabla:
 
 `choco outdated`
 
@@ -11,7 +11,7 @@
 
 `choco outdated --ignore-pinned`
 
-- Especificar una fuente personalizada para comprobar paquetes:
+- Especifica una fuente personalizada para comprobar paquetes:
 
 `choco outdated {{[-s|--source]}} {{url_fuente|alias}}`
 

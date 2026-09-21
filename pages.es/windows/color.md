@@ -7,7 +7,7 @@
 
 `color`
 
-- Listar los valores de color disponibles y la información detallada:
+- Lista los valores de color disponibles y la información detallada:
 
 `color /?`
 

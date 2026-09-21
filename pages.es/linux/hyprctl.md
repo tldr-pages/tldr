@@ -27,6 +27,6 @@
 
 `hyprctl keyword {{palabra_clave}} {{valor}}`
 
-- Muestra versión:
+- Muestra la versión:
 
 `hyprctl version`

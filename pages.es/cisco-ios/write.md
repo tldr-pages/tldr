@@ -11,6 +11,6 @@
 
 `write erase`
 
-- Mostrar la ayuda:
+- Mostra la ayuda:
 
 `write ?`

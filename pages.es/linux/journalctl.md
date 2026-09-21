@@ -32,6 +32,6 @@
 
 `journalctl _PID={{pid}}`
 
-- Mostrar todos los mensajes de un ejecutable específico:
+- Mostra todos los mensajes de un ejecutable específico:
 
 `journalctl {{ruta/al/ejecutable}}`

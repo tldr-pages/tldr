@@ -3,7 +3,7 @@
 > Gestiona fuentes para paquetes con Chocolatey.
 > Más información: <https://docs.chocolatey.org/en-us/choco/commands/source/>.
 
-- Listar las fuentes actualmente disponibles:
+- Lista las fuentes actualmente disponibles:
 
 `choco source list`
 
@@ -23,10 +23,10 @@
 
 `choco source enable {{[-n|--name]}} {{nombre}}`
 
-- Deshabilitar una fuente de paquete:
+- Deshabilita una fuente de paquete:
 
 `choco source disable {{[-n|--name]}} {{nombre}}`
 
-- Eliminar una fuente de paquete:
+- Elimina una fuente de paquete:
 
 `choco source remove {{[-n|--name]}} {{nombre}}`

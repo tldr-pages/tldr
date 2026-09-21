@@ -27,6 +27,6 @@
 
 `octez-client transfer {{0}} from {{alias|address}} to {{contract}} --entrypoint "{{entrypoint}}" --arg "{{parámetro}}" --burn-cap {{1}}`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `octez-client man`

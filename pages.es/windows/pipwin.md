@@ -3,11 +3,11 @@
 > Una herramienta para instalar binarios de paquetes de Python no oficiales en Windows.
 > Más información: <https://github.com/lepisma/pipwin>.
 
-- Listar todos los paquetes disponibles para descargar:
+- Lista todos los paquetes disponibles para descargar:
 
 `pipwin list`
 
-- Buscar paquetes:
+- Busca paquetes:
 
 `pipwin search {{nombre_parcial|nombre}}`
 

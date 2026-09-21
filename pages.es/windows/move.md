@@ -24,6 +24,6 @@
 
 `move /Y {{ruta\al\origen}} {{ruta\al\directorio_existente}}`
 
-- Solicitar confirmación antes de sobrescribir archivos existentes, independientemente de los permisos de archivo:
+- Solicita confirmación antes de sobrescribir archivos existentes, independientemente de los permisos de archivo:
 
 `move /-Y {{ruta\al\origen}} {{ruta\al\directorio_existente}}`

@@ -28,6 +28,6 @@
 
 `cypher-shell --log {{ruta/al/archivo.log}}`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `cypher-shell --help`

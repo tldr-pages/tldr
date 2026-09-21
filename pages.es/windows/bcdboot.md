@@ -11,7 +11,7 @@
 
 `bcdboot {{C:\Windows}} /v`
 
-- Especificar la letra de volumen de la partición [s]istema:
+- Especifica la letra de volumen de la partición [s]istema:
 
 `bcdboot {{C:\Windows}} /s {{S:}}`
 

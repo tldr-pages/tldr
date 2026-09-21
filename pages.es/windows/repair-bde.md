@@ -31,6 +31,6 @@
 
 `repair-bde {{C:}} -LogFile {{ruta\al\archivo}}`
 
-- Mostrar ayuda:
+- Mostra ayuda:
 
 `repair-bde /?`

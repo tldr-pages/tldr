@@ -12,7 +12,7 @@
 
 `$PSVersionTable.PSVersion`
 
-- Listar todas las versiones de script de PowerShell compatibles que esta versión de PowerShell admite:
+- Lista todas las versiones de script de PowerShell compatibles que esta versión de PowerShell admite:
 
 `$PSVersionTable.PSCompatibleVersions`
 

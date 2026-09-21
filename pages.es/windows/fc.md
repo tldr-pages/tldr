@@ -24,7 +24,7 @@
 
 `fc /b {{ruta\al\archivo1}} {{ruta\al\archivo2}}`
 
-- Deshabilitar la expansión de tabulaciones a espacios:
+- Deshabilita la expansión de tabulaciones a espacios:
 
 `fc /t {{ruta\al\archivo1}} {{ruta\al\archivo2}}`
 

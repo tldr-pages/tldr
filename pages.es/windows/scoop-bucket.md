@@ -1,14 +1,14 @@
 # scoop bucket
 
-> Administrar buckets: repositorios Git que contienen archivos que describen cómo scoop instala aplicaciones.
+> Administra buckets: repositorios Git que contienen archivos que describen cómo scoop instala aplicaciones.
 > Si Scoop no sabe dónde se encuentra el bucket, debe especificarse la ubicación del repositorio.
 > Más información: <https://github.com/ScoopInstaller/Scoop/wiki/Buckets>.
 
-- Listar todos los buckets actualmente en uso:
+- Lista todos los buckets actualmente en uso:
 
 `scoop bucket list`
 
-- Listar todos los buckets conocidos:
+- Lista todos los buckets conocidos:
 
 `scoop bucket known`
 
@@ -20,6 +20,6 @@
 
 `scoop bucket add {{nombre}} {{https://example.com/repository.git}}`
 
-- Eliminar un bucket por su nombre:
+- Elimina un bucket por su nombre:
 
 `scoop bucket rm {{nombre}}`

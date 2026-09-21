@@ -8,6 +8,6 @@
 
 `Install-Module PSWindowsUpdate`
 
-- Listar todos los comandos disponibles en el módulo:
+- Lista todos los comandos disponibles en el módulo:
 
 `Get-Command -Module PSWindowsUpdate`

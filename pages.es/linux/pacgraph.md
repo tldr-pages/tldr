@@ -7,7 +7,7 @@
 
 `pacgraph`
 
-- Crear un gráfico SVG:
+- Crea un gráfico SVG:
 
 `pacgraph {{[-s|--svg]}}`
 

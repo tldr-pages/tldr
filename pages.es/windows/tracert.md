@@ -19,10 +19,10 @@
 
 `tracert /6 {{ip}}`
 
-- Especificar el número máximo de saltos en la búsqueda del destino:
+- Especifica el número máximo de saltos en la búsqueda del destino:
 
 `tracert /h {{max_saltos}} {{ip}}`
 
-- Mostrar ayuda:
+- Mostra ayuda:
 
 `tracert /?`

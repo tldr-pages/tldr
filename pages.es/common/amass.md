@@ -8,7 +8,7 @@
 
 `amass {{intel|enum}} {{options}}`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `amass -help`
 

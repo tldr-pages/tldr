@@ -20,7 +20,7 @@
 
 `robocopy {{ruta\al\directorio_origen}} {{ruta\al\directorio_destino}} /E /XO`
 
-- Listar todos los archivos de 50 MB o más en lugar de copiarlos:
+- Lista todos los archivos de 50 MB o más en lugar de copiarlos:
 
 `robocopy {{ruta\al\directorio_origen}} {{ruta\al\directorio_destino}} /MIN:{{52428800}} /L`
 
@@ -28,6 +28,6 @@
 
 `robocopy {{ruta\al\directorio_origen}} {{ruta\al\directorio_destino}} /Z /R:5 /W:15`
 
-- Mostrar ayuda:
+- Mostra ayuda:
 
 `robocopy /?`

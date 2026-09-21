@@ -3,7 +3,7 @@
 > Verifica el sistema de archivos y los metadatos del volumen en busca de errores.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/chkdsk>.
 
-- Especificar la letra de la unidad (seguida de dos puntos), el punto de montaje o el nombre del volumen a verificar:
+- Especifica la letra de la unidad (seguida de dos puntos), el punto de montaje o el nombre del volumen a verificar:
 
 `chkdsk {{volumen}}`
 

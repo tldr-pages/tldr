@@ -1,9 +1,9 @@
 # for
 
-> Ejecutar condicionalmente un comando varias veces.
+> Ejecuta condicionalmente un comando varias veces.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/for>.
 
-- Ejecutar los comandos dados para el conjunto especificado:
+- Ejecuta los comandos dados para el conjunto especificado:
 
 `for %{{variable}} in ({{elemento_a elemento_b elemento_c}}) do ({{echo Se ejecuta el bucle}})`
 

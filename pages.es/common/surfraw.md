@@ -12,7 +12,7 @@
 
 `surfraw {{nombre_elvi}} "{{términos_búsqueda}}"`
 
-- Mostrar la descripción de un elvi y sus opciones específicas:
+- Mostra la descripción de un elvi y sus opciones específicas:
 
 `surfraw {{nombre_elvi}} {{[-lh|-local-help]}}`
 

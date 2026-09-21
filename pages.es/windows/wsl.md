@@ -31,6 +31,6 @@
 
 `wsl --set-version {{distribución}} {{versión}}`
 
-- Apagar el Subsistema de Windows para Linux:
+- Apaga el Subsistema de Windows para Linux:
 
 `wsl --shutdown`

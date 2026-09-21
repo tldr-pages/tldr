@@ -16,6 +16,6 @@
 
 `Set-Volume -InputObject $(Get-Volume -DriveLetter "E") -NewFileSystemLabel "Respaldo"`
 
-- Especificar el modo de desduplicación de datos para el volumen:
+- Especifica el modo de desduplicación de datos para el volumen:
 
 `Set-Volume -DriveLetter "D" -DedupMode Backup`
