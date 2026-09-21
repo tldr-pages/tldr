@@ -7,7 +7,7 @@
 
 `repair-bde {{C:}}`
 
-- Intentar reparar un volumen especificado y enviar la salida a otro volumen:
+- Intenta reparar un volumen especificado y envía la salida a otro volumen:
 
 `repair-bde {{C:}} {{D:}}`
 
