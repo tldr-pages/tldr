@@ -23,6 +23,6 @@
 
 `pipwin download --dest {{ruta\al\directorio}} {{paquete}}`
 
-- Instalar paquetes de acuerdo a `requirements.txt`:
+- Instala paquetes de acuerdo a `requirements.txt`:
 
 `pipwin install --file {{ruta\al\requirements.txt}}`
