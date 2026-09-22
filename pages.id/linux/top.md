@@ -24,7 +24,7 @@
 
 `top {{[-Hp|--threads-show --pid]}} {{id_proses}}`
 
-- Hanya tampilkan daftar proses yang memiliki nomor induk (PID) tertentu, masing-masing dipisah dengan tanda koma (Umumnya Anda tidak akan mengetahui daftar PID untuk proses-proses berjalan. Perintah contoh ini secara otomatis mengambil daftar PID berdasarkan nama proses yang diketahui):
+- Hanya tampilkan proses yang memiliki nomor induk (PID) tertentu, masing-masing dipisah dengan tanda koma (Umumnya Anda takkan mengetahui nomor-nomornya. Perintah contoh ini secara otomatis mengambil daftar PID berdasarkan nama proses diketahui):
 
 `top {{[-p|--pid]}} $(pgrep {{[-d|--delimiter]}} ',' {{nama_proses}})`
 
