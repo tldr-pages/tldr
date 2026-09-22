@@ -8,7 +8,7 @@
 
 `ykman openpgp info`
 
-- Stel het aantal herstelpogingen in voor de gebruikers pin, herstelcode en admin pin:
+- Stel het aantal herstelpogingen in voor respectievelijk de gebruikers pin, herstelcode en admin pin:
 
 `ykman openpgp access set-retries {{3}} {{3}} {{3}}`
 

@@ -9,7 +9,7 @@
 
 `nmtui`
 
-- Toon een lijst met alle beschikbare verbindingen, met de optie om deze te activeren danwel te deactiveren:
+- Toon een lijst met alle beschikbare verbindingen, met de optie om deze te activeren dan wel te deactiveren:
 
 `nmtui connect`
 

@@ -1,6 +1,6 @@
 # expr
 
-> Evalueer expressies en manipuleer string.
+> Evalueer expressies en manipuleer strings.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/expr-invocation.html>.
 
 - Krijg de lengte van een specifieke string:

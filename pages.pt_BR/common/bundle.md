@@ -13,7 +13,7 @@
 
 - Atualiza todas as gemas respeitando as regras definidas no `Gemfile` e recria o arquivo `Gemfile.lock`:
 
-`bundle update`
+`bundle update --all`
 
 - Atualiza uma ou mais gema(s) específicas definidas no `Gemfile`:
 

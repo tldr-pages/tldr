@@ -8,10 +8,10 @@
 
 `fossil {{[rm|delete]}} {{pad/naar/bestand_of_map}}`
 
-- Een bestand of map verwijderen uit Fossil-versiebeheer en ook van de schijf verwijderen:
+- Verwijder een bestand of map uit Fossil-versiebeheer en ook van de schijf:
 
 `fossil {{[rm|delete]}} --hard {{pad/naar/bestand_of_map}}`
 
-- Alle eerder verwijderde en niet-vastgelegde bestanden opnieuw toevoegen aan Fossil-versiebeheer:
+- Voeg alle eerder verwijderde en niet-vastgelegde bestanden opnieuw toe aan Fossil-versiebeheer:
 
 `fossil {{[rm|delete]}} --reset`

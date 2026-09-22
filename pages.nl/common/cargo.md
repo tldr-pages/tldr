@@ -16,11 +16,11 @@
 
 `cargo install --list`
 
-- Maak een nieuwe Rust-binary (bin) of -bibliotheek (lib) in de gegeven map. (Standaard is de huidige map):
+- Maak een nieuw Rust-project van het type binary (bin) of bibliotheek (lib) in de gegeven map (standaard de huidige map):
 
 `cargo init --{{bin|lib}} {{pad/naar/map}}`
 
-- Voeg een afhankelijkheid toe aan `Cargo.toml` in de huidge map:
+- Voeg een afhankelijkheid toe aan `Cargo.toml` in de huidige map:
 
 `cargo add {{afhankelijkheid}}`
 

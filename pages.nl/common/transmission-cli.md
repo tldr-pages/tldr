@@ -16,11 +16,11 @@
 
 `transmission-cli --new {{pad/naar/bronbestand_of_map}}`
 
-- Zet de download snelheid limiet naar 50 KB/s:
+- Specificeer de downloadsnelheidslimiet (in KB/s):
 
 `transmission-cli {{[-d|--downlimit]}} {{50}} {{url|magnet|pad/naar/bestand}}`
 
-- Zet de upload snelheid limiet naar 50 KB/s:
+- Specificeer de uploadsnelheidslimiet (in KB/s):
 
 `transmission-cli {{[-u|--uplimit]}} {{50}} {{url|magnet|pad/naar/bestand}}`
 

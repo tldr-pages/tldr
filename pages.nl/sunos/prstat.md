@@ -1,13 +1,13 @@
 # prstat
 
-> Rapportering van de statistieken van actieve processen.
+> Rapporteer statistieken van actieve processen.
 > Meer informatie: <https://www.unix.com/man-page/sunos/1m/prstat>.
 
-- Bekijken alle processen en rapporteer de statieken gestoord op basis van CPU gebruik:
+- Bekijk alle processen en rapporteer de statistieken gesorteerd op basis van CPU-gebruik:
 
 `prstat`
 
-- Bekijken alle processen en rapporteer de statieken gestoord op basis van geheugen gebruik:
+- Bekijk alle processen en rapporteer de statistieken gesorteerd op basis van geheugengebruik:
 
 `prstat -s rss`
 
