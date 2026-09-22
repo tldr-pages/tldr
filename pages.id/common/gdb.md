@@ -21,7 +21,7 @@
 
 - Jalankan `gdb` dan teruskan argumen-argumen perintah ke dalam program yang diawasi:
 
-`gdb --args {{jalan/menuju/berkas_exe}} {{argumen1}} {{argumen2}}`
+`gdb --args {{jalan/menuju/berkas_exe}} {{argumen1 argumen2 ...}}`
 
 - Lewati `debuginfod` dan fitur navigasi, dan kemudian segera cetak jejak balik eksekusi program jika terdapat kesalahan:
 
