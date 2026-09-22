@@ -1,6 +1,6 @@
 # Get-Location
 
-> Toon de naam van de huidige/werk- map.
+> Toon de naam van de huidige/werkmap.
 > Dit commando kan alleen worden uitgevoerd onder PowerShell.
 > Meer informatie: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/get-location>.
 

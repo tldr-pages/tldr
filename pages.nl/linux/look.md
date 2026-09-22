@@ -9,7 +9,7 @@
 
 `look {{prefix}} {{pad/naar/bestand}}`
 
-- Zoek hoofdletterongevoeling alleen op lege en alfanumerieke tekens:
+- Zoek hoofdletterongevoelig alleen op lege en alfanumerieke tekens:
 
 `look {{[-f|--ignore-case]}} {{[-d|--alphanum]}} {{prefix}} {{pad/naar/bestand}}`
 

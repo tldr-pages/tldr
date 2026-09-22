@@ -9,7 +9,7 @@
 
 `gcrane gc {{repository}}`
 
-- Recursief door de repositories heen:
+- Doorzoek repositories recursief:
 
 `gcrane gc {{repository}} {{[-r|--recursive]}}`
 

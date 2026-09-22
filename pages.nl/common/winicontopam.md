@@ -11,10 +11,10 @@
 
 `winicontopam {{[-al|-allimages]}} {{pad/naar/invoer_bestand.ico}} > {{pad/naar/uitvoer.pam}}`
 
-- Converteer de n afbeelding in het invoerbestand naar PAM:
+- Converteer de n'de afbeelding in het invoerbestand naar PAM:
 
 `winicontopam {{[-i|-image]}} {{n}} {{pad/naar/invoer_bestand.ico}} > {{pad/naar/uitvoer.pam}}`
 
-- Als de afbeelding(en) voor te extraheren bevatten transparantie data en een AND mask, scrhijf de AND mask naar het vijfde kanaal van het uitvoer PAM bestand:
+- Als de afbeelding(en) die geëxtraheerd moeten worden gegradeerde transparantiegegevens en een AND mask bevatten, schrijf de AND mask naar het vijfde kanaal van het PAM-uitvoerbestand:
 
 `winicontopam {{[-an|-andmasks]}} {{pad/naar/invoer_bestand.ico}} > {{pad/naar/uitvoer.pam}}`

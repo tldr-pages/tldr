@@ -8,7 +8,7 @@
 
 `pamtogif {{pad/naar/afbeelding.pam}} > {{pad/naar/uitvoer.gif}}`
 
-- Markeer de gespecificeerde kleur als transparent in het uitvoer GIF bestand:
+- Markeer de gespecificeerde kleur als transparant in het uitvoer GIF bestand:
 
 `pamtogif {{[-t|-transparent]}} {{kleur}} {{pad/naar/afbeelding.pam}} > {{pad/naar/uitvoer.gif}}`
 

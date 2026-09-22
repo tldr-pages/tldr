@@ -1,7 +1,7 @@
 # nvim
 
-> Neovim, een programmeurs tekstbewerker gebaseerd op Vim, welke verschillende modi aanbied voor verschillende soorten text manipulatie.
-> Op `<i>` drukken in de normale modus, gaat naar de invoer modus. `<Esc>` gaat terug naar de normale modus, die geen reguliere tekst invoer accepteert.
+> Neovim, een programmeurs tekstbewerker gebaseerd op Vim, welke verschillende modi aanbiedt voor verschillende soorten tekstmanipulatie.
+> Op `<i>` drukken in de normale modus, gaat naar de invoer modus. `<Esc>` of `<Ctrl c>` gaat terug naar de normale modus, die geen reguliere tekstinvoer accepteert.
 > Zie ook: `vim`, `vimtutor`, `vimdiff`.
 > Meer informatie: <https://neovim.io/>.
 
@@ -21,7 +21,7 @@
 
 `<Esc><u>`
 
-- Zoek voor een patroon in het bestand (druk op `<n>`/`<N>` om naar de volgende/vorige overeenkomst te gaan):
+- Zoek naar een patroon in het bestand (druk op `<n>`/`<N>` om naar de volgende/vorige overeenkomst te gaan):
 
 `<Esc></>{{zoek_patroon}}<Enter>`
 

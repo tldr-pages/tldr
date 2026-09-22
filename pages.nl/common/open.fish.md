@@ -1,7 +1,7 @@
 # open
 
 > Opent bestanden, mappen en URI's met standaardtoepassingen.
-> Deze commando is beschikbaar via fish op besturingssystemen zonder het ingebouwde `open`-commando (bijv. Haiku en macOS).
+> Dit commando is beschikbaar via fish op besturingssystemen zonder het ingebouwde `open`-commando (bijv. Haiku en macOS).
 > Meer informatie: <https://fishshell.com/docs/current/cmds/open.html>.
 
 - Open een bestand met de bijbehorende applicatie:
@@ -12,7 +12,7 @@
 
 `open {{*.ext}}`
 
-- Open een map met behulp van de standaardbestandbeheerder:
+- Open een map met behulp van de standaardbestandsbeheerder:
 
 `open {{pad/naar/map}}`
 

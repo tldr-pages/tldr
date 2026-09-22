@@ -1,6 +1,6 @@
 # choco uninstall
 
-> Verwijder een of meerdere pakketen met Chocolatey.
+> Verwijder een of meerdere pakketten met Chocolatey.
 > Meer informatie: <https://docs.chocolatey.org/en-us/choco/commands/uninstall/>.
 
 - Verwijder een of meerdere spatie-gescheiden pakketten:

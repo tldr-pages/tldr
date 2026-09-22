@@ -8,7 +8,7 @@
 
 `Get-Alias`
 
-- Ontvang de aliased commando naam:
+- Ontvang de aliased commandonaam:
 
 `Get-Alias {{commando_alias}}`
 
@@ -16,6 +16,6 @@
 
 `Get-Alias -Definition {{commando}}`
 
-- Toon aliases die beginnen met `abc`, maar sluit die uit die eindigen op`def`:
+- Toon aliases die beginnen met `abc`, maar sluit die uit die eindigen op `def`:
 
 `Get-Alias {{abc}}* -Exclude *{{def}}`
