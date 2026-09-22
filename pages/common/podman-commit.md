@@ -13,7 +13,7 @@
 
 - Apply `LABEL`, `ENTRYPOINT` and `CMD` instruction to the created image:
 
-`podman commit {{[-c|--change]}} CMD={{command}} {{[-c|--change]}} ENTRYPOINT={{command}} {{[-c|--change]}} "LABEL {{key}}={{value}}" {{container}} {{image}}:{{tag}`
+`podman commit {{[-c|--change]}} CMD={{command}} {{[-c|--change]}} ENTRYPOINT={{command}} {{[-c|--change]}} "LABEL {{key}}={{value}}" {{container}} {{image}}:{{tag}}`
 
 - Create an image with a specific author and comment in the metadata:
 
