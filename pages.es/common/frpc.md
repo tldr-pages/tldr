@@ -1,6 +1,6 @@
 # frpc
 
-> Conéctate a un servidor `frps` para iniciar conexiones proxy en el host actual.
+> Se conecta a un servidor `frps` para iniciar conexiones proxy en el host actual.
 > Parte de `frp`.
 > Más información: <https://github.com/fatedier/frp>.
 

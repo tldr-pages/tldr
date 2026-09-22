@@ -7,6 +7,6 @@
 
 `aws codecommit help`
 
-- Muestra ayuda de un comando:
+- Muestra la ayuda de un comando:
 
 `aws codecommit {{comando}} help`

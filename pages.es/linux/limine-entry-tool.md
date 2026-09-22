@@ -11,7 +11,7 @@
 
 `limine-entry-tool --add "{{nombre_kernel}}" "{{ruta/a/initramfs}}" "{{ruta/a/vmlinuz}}"`
 
-- Añadir una nueva entrada de arranque de imagen de kernel unificada (UKI):
+- Añade una nueva entrada de arranque de imagen de kernel unificada (UKI):
 
 `limine-entry-tool --add-uki "{{nombre_kernel}}" "{{ruta/a/uki.efi}}"`
 

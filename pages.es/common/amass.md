@@ -12,7 +12,7 @@
 
 `amass -help`
 
-- Muestra ayuda sobre un subcomando de Amass:
+- Muestra la ayuda sobre un subcomando de Amass:
 
 `amass {{intel|enum}} -help`
 

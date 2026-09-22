@@ -11,7 +11,7 @@
 
 `docker {{[exec|container exec]}} {{[-d|--detach]}} {{nombre_contenedor}} {{comando}}`
 
-- Seleccionar el directorio de trabajo para ejecutar un comando determinado:
+- Selecciona el directorio de trabajo para ejecutar un comando determinado:
 
 `docker {{[exec|container exec]}} {{[-it|--interactive --tty]}} {{[-w|--workdir]}} {{ruta/al/directorio}} {{nombre_del_contenedor}} {{comando}}`
 
