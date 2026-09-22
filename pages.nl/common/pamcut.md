@@ -4,7 +4,7 @@
 > Zie ook: `pamdice`, `pamcomp`.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/pamcut.html>.
 
-- Verwijder het gespecificeerde nummer van kolommen/rijen van iedere zijde van de afbeelding:
+- Verwijder het gespecificeerde aantal kolommen/rijen van iedere zijde van de afbeelding:
 
 `pamcut {{[-cropl|-cropleft]}} {{waarde}} {{[-cropr|-cropright]}} {{waarde}} {{[-cropt|-croptop]}} {{waarde}} {{[-cropb|-cropbottom]}} {{waarde}} {{pad/naar/afbeelding.ppm}} > {{pad/naar/uitvoer.ppm}}`
 

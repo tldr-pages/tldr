@@ -1,8 +1,8 @@
 # zless
 
-> Bekijk gecomprimeerde bestanden.
+> Bekijk `gzip`- en `xz`-gecomprimeerde bestanden.
 > Meer informatie: <https://manned.org/zless>.
 
-- Blader door een gecomprimeerd archief met `minder`:
+- Blader door een `gzip`-gecomprimeerd bestand met `less`:
 
 `zless {{bestand.txt.gz}}`

@@ -3,7 +3,7 @@
 > Start gestopte containers.
 > Meer informatie: <https://docs.docker.com/reference/cli/docker/container/start/>.
 
-- Een Docker-container starten:
+- Start een Docker-container:
 
 `docker {{[start|container start]}} {{container}}`
 
