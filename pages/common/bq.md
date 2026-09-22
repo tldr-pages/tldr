@@ -3,9 +3,9 @@
 > A Python-based tool for BigQuery, Google Cloud's fully managed and completely serverless enterprise data warehouse.
 > More information: <https://docs.cloud.google.com/bigquery/docs/reference/bq-cli-reference>.
 
-- Run query against a BigQuery table using standard SQL, add `--dry_run` flag to estimate the number of bytes read by the query:
+- Simulate a query against a BigQuery table using standard SQL, to estimate the number of bytes it would read:
 
-`bq query --nouse_legacy_sql 'SELECT COUNT(*) FROM {{DATASET_NAME}}.{{TABLE_NAME}}'`
+`bq query --nouse_legacy_sql --dry_run 'SELECT COUNT(*) FROM {{DATASET_NAME}}.{{TABLE_NAME}}'`
 
 - Run a parameterized query:
 

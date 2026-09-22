@@ -24,7 +24,7 @@
 
 `id {{[-g|--group]}}`
 
-- Toon alle groupen waartoe de huidige gebruiker behoort:
+- Toon alle groepen waartoe de huidige gebruiker behoort:
 
 `id {{[-Gn|--groups --name]}}`
 
