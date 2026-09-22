@@ -28,7 +28,7 @@
 
 `tail {{[-f|--follow]}} {{pad/naar/bestand}}`
 
-- Blijf het bestand lezen tot `<Ctrl c>`, ook als het bestand niet toegangelijk is:
+- Blijf het bestand lezen tot `<Ctrl c>`, ook als het bestand niet toegankelijk is:
 
 `tail {{[-F|--retry --follow]}} {{pad/naar/bestand}}`
 

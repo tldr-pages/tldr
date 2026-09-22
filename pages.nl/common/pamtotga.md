@@ -7,7 +7,7 @@
 
 `pamtotga {{pad/naar/bestand.pam}} > {{pad/naar/uitvoer.tga}}`
 
-- Specifieer de kleur van de uitvoer afbeelding:
+- Specificeer de kleurkaart van de uitvoerafbeelding:
 
 `pamtotga -{{cmap|cmap16|mono|rgb}} {{pad/naar/bestand.pam}} > {{pad/naar/uitvoer.tga}}`
 

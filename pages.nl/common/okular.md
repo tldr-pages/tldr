@@ -23,6 +23,6 @@
 
 `okular --print {{pad/naar/bestand}}`
 
-- Open een document en zoek voor een specifieke string:
+- Open een document en zoek naar een specifieke string:
 
 `okular --find {{zoekstring}} {{pad/naar/bestand}}`

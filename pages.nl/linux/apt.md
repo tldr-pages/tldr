@@ -21,11 +21,11 @@
 
 `apt show {{pakket}}`
 
-- Installeer specifieke pakketten of werk ze bij naar de nieuwste versies:
+- Installeer een pakket, of werk het bij naar de nieuwste versie:
 
 `sudo apt install {{pakket}}`
 
-- Verwijder specifieke pakketten (gebruik in plaats daarvan `purge` om ook hun configuratiebestanden te verwijderen):
+- Verwijder een pakket (gebruik in plaats daarvan `purge` om ook de configuratiebestanden te verwijderen):
 
 `sudo apt remove {{pakket}}`
 
