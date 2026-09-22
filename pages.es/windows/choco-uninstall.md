@@ -3,15 +3,15 @@
 > Desinstala paquetes con Chocolatey.
 > Más información: <https://docs.chocolatey.org/en-us/choco/commands/uninstall/>.
 
-- Desinstalar uno o más paquetes:
+- Desinstala uno o más paquetes:
 
 `choco uninstall {{paquete1 paquete2 ...}}`
 
-- Desinstalar una versión específica de un paquete:
+- Desinstala una versión específica de un paquete:
 
 `choco uninstall {{paquete}} --version {{versión}}`
 
-- Confirmar automáticamente todos los mensajes:
+- Confirma automáticamente todos los mensajes:
 
 `choco uninstall {{paquete}} {{[-y|--yes]}}`
 

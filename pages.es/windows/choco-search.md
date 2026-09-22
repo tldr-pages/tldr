@@ -15,7 +15,7 @@
 
 `choco search {{consulta}} {{[-e|--exact]}}`
 
-- Confirmar automáticamente todos los mensajes:
+- Confirma automáticamente todos los mensajes:
 
 `choco search {{consulta}} {{[-y|--yes]}}`
 
@@ -23,6 +23,6 @@
 
 `choco search {{consulta}} {{[-s|--source]}} {{url_fuente|alias}}`
 
-- Proporcionar un nombre de usuario y una contraseña para la autenticación:
+- Proporciona un nombre de usuario y una contraseña para la autenticación:
 
 `choco search {{consulta}} {{[-u|--user]}} {{nombre_usuario}} {{[-p|--password]}} {{contraseña}}`

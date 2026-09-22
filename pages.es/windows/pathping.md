@@ -3,11 +3,11 @@
 > Una herramienta de traza de ruta que combina características de `ping` y `tracert`.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/pathping>.
 
-- Hacer ping y trazar la ruta a un host:
+- Realiza un ping y traza la ruta a un host:
 
 `pathping {{nombre_del_host}}`
 
-- No realizar la búsqueda inversa de la dirección IP al nombre de host:
+- No realiza la búsqueda inversa de la dirección IP al nombre de host:
 
 `pathping {{nombre_del_host}} -n`
 
@@ -23,11 +23,11 @@
 
 `pathping {{nombre_del_host}} -q {{consultas}}`
 
-- Forzar el uso de IPV4:
+- Obliga al uso de IPV4:
 
 `pathping {{nombre_del_host}} -4`
 
-- Forzar el uso de IPV6:
+- Obliga al uso de IPV6:
 
 `pathping {{nombre_del_host}} -6`
 

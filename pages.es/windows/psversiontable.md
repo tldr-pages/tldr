@@ -4,11 +4,11 @@
 > Este comando solo se puede ejecutar en PowerShell.
 > Más información: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_automatic_variables#psversiontable>.
 
-- Imprimir un resumen de la versión y edición de PowerShell actualmente instaladas:
+- Imprime un resumen de la versión y edición de PowerShell actualmente instaladas:
 
 `$PSVersionTable`
 
-- Obtener el número de versión detallado (mayor, menor, compilación y revisión) de PowerShell:
+- Obtiene el número de versión detallado (mayor, menor, compilación y revisión) de PowerShell:
 
 `$PSVersionTable.PSVersion`
 

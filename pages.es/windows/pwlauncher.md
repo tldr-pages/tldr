@@ -7,6 +7,6 @@
 
 `pwlauncher`
 
-- Habilitar o deshabilitar las opciones de inicio de Windows To Go:
+- Habilita o deshabilita las opciones de inicio de Windows To Go:
 
 `pwlauncher /{{habilitar|deshabilitar}}`

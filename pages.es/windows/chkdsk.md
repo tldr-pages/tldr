@@ -7,14 +7,14 @@
 
 `chkdsk {{volumen}}`
 
-- Corregir errores en un volumen específico:
+- Corrige errores en un volumen específico:
 
 `chkdsk {{volumen}} /f`
 
-- Desmontar un volumen específico antes de verificar:
+- Desmonta un volumen específico antes de verificar:
 
 `chkdsk {{volumen}} /x`
 
-- Cambiar el tamaño del archivo de registro al tamaño especificado (solo para NTFS):
+- Cambia el tamaño del archivo de registro al tamaño especificado (solo para NTFS):
 
 `chkdsk /l{{tamaño}}`

@@ -3,15 +3,15 @@
 > Una herramienta para firmar archivos del Protocolo de Escritorio Remoto (RDP).
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/rdpsign>.
 
-- Firmar un archivo RDP:
+- Firma un archivo RDP:
 
 `rdpsign {{ruta\al\archivo.rdp}}`
 
-- Firmar un archivo RDP utilizando un hash sha256 específico:
+- Firma un archivo RDP utilizando un hash sha256 específico:
 
 `rdpsign {{ruta\al\archivo.rdp}} /sha265 {{hash}}`
 
-- Habilitar salida silenciosa:
+- Habilita salida silenciosa:
 
 `rdpsign {{ruta\al\archivo.rdp}} /q`
 

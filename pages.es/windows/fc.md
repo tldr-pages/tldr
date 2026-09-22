@@ -12,15 +12,15 @@
 
 `fc /c {{ruta\al\archivo1}} {{ruta\al\archivo2}}`
 
-- Comparar archivos como texto Unicode:
+- Compara archivos como texto Unicode:
 
 `fc /u {{ruta\al\archivo1}} {{ruta\al\archivo2}}`
 
-- Comparar archivos como texto ASCII:
+- Compara archivos como texto ASCII:
 
 `fc /l {{ruta\al\archivo1}} {{ruta\al\archivo2}}`
 
-- Comparar archivos como binarios:
+- Compara archivos como binarios:
 
 `fc /b {{ruta\al\archivo1}} {{ruta\al\archivo2}}`
 
