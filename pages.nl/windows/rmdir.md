@@ -10,12 +10,12 @@
 
 - Verwijder een lege map:
 
-`rmdir {{pad/naar/map}}`
+`rmdir {{pad\naar\map}}`
 
-- Verwijder een map en zen inhoud recursief:
+- Verwijder een map en zijn inhoud recursief:
 
-`rmdir {{pad/naar/map}} /s`
+`rmdir {{pad\naar\map}} /s`
 
-- Verwijder een map en zen inhoud recursief zonder te vragen:
+- Verwijder een map en zijn inhoud recursief zonder te vragen:
 
-`rmdir {{pad/naar/map}} /s /q`
+`rmdir {{pad\naar\map}} /s /q`

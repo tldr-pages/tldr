@@ -3,7 +3,7 @@
 > Manage access to AWS resources using Single Sign-On (SSO) credentials.
 > More information: <https://docs.aws.amazon.com/cli/latest/reference/sso/>.
 
-- Start SSO session and refresh access tokens. Requires setup using `aws configure sso`:
+- Start SSO session and refresh access tokens (requires setup using `aws configure sso`):
 
 `aws sso login`
 
@@ -13,7 +13,7 @@
 
 - List all AWS accounts accessible to the user:
 
-`aws sso list-accounts`
+`aws sso list-accounts --access-token {{token}}`
 
 - List all roles accessible to the user for a given AWS account:
 

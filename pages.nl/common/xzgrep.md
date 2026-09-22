@@ -10,13 +10,13 @@
 
 - Zoek naar een exacte tekenreeks (schakelt reguliere expressies uit):
 
-`xzgrep {{[-F|--fixed-strings]}} "{{exact_string}}" {{pad/naar/bestand}}`
+`xzgrep {{[-F|--fixed-strings]}} "{{exacte_string}}" {{pad/naar/bestand}}`
 
 - Zoek naar een patroon in alle bestanden en geef de regelnummers weer van de overeenkomsten:
 
 `xzgrep {{[-n|--line-number]}} "{{zoekpatroon}}" {{pad/naar/bestand}}`
 
-- Toon 3 regels met [C]ontext rond, voor ([B]) of n[A] elke overeenkomst:
+- Toon 3 regels rondom [C]ontext, voor ([B]) of n[A] elke overeenkomst:
 
 `xzgrep {{--context|--before-context|--after-context}} 3 "{{zoekpatroon}}" {{pad/naar/bestand}}`
 
@@ -28,6 +28,6 @@
 
 `xzgrep {{[-o|--only-matching]}} "{{zoekpatroon}}" {{pad/naar/bestand}}`
 
-- Gebruik uitgebreide `regex` (ondersteund `?`, `+`, `{}`, `()` en `|`), in hoofdletterongevoelig modus:
+- Gebruik uitgebreide `regex` (ondersteunt `?`, `+`, `{}`, `()` en `|`), in hoofdletterongevoelige modus:
 
 `xzgrep {{[-E|--extended-regexp]}} {{[-i|--ignore-case]}} "{{zoekpatroon}}" {{pad/naar/bestand}}`

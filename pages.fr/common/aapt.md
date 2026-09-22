@@ -5,12 +5,12 @@
 
 - Liste les fichiers contenus une archive APK :
 
-`aapt list {{chemin/vers/app}}.apk`
+`aapt list {{chemin/vers/application}}.apk`
 
 - Affiche les metadatas d'une application (version, autorisations, etc.) :
 
-`aapt dump badging {{chemin/vers/app}}.apk`
+`aapt dump badging {{chemin/vers/application}}.apk`
 
 - Créé une nouvelle archive APK avec les fichiers venant d'un dossier spécifique :
 
-`aapt package -F {{chemin/vers/app}}.apk {{chemin/vers/le/dossier}}`
+`aapt package -F {{chemin/vers/application}}.apk {{chemin/vers/répertoire}}`

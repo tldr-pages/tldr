@@ -11,7 +11,7 @@
 
 `ptpython {{pad/naar/bestand.py}}`
 
-- Voer een specfiek Python bestand uit en start een REPL:
+- Voer een specifiek Python bestand uit en start een REPL:
 
 `ptpython {{[-i|--interactive]}} {{pad/naar/bestand.py}}`
 

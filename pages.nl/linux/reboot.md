@@ -11,7 +11,7 @@
 
 `reboot {{[-p|--poweroff]}}`
 
-- Houd het systeem (beëindigt alle processen en zet de CPU uit) (zelfde als `halt`):
+- Stop het systeem (beëindigt alle processen en zet de CPU uit) (zelfde als `halt`):
 
 `reboot --halt`
 

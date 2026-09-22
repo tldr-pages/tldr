@@ -2,7 +2,7 @@
 
 > Gebruikersdatabase informatie toevoegen of wijzigen, inclusief login shell en wachtwoord.
 > Zie ook: `passwd`.
-> Meer informatie: <https://man.freebsd.org/cgi/man.cgi?chpass>.
+> Meer informatie: <https://man.freebsd.org/cgi/man.cgi?query=chpass>.
 
 - Voeg toe of pas interactief de gebruikersdatabase informatie aan voor de huidige gebruiker:
 
@@ -28,6 +28,6 @@
 
 `su -c 'chpass -h {{hostnaam}} {{gebruikersnaam}}'`
 
-- Specificeer een specifiek [d]omein (standaard systeem domein naam):
+- Specificeer een specifiek NIS-[d]omein (standaard systeemdomeinnaam):
 
 `su -c 'chpass -d {{domein}} {{gebruikersnaam}}'`

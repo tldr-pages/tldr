@@ -20,7 +20,7 @@
 
 `<:>theme {{theme_name}}`
 
-- Save and Quit:
+- Save and quit:
 
 `<:>wq<Enter>`
 
@@ -28,9 +28,9 @@
 
 `<:>q!<Enter>`
 
-- Undo the last operation:
+- Undo/Redo the last operation:
 
-`<u>`
+`{{<u>|<U>}}`
 
 - Search for a pattern in the file (press `<n>`/`<N>` to go to next/previous match):
 

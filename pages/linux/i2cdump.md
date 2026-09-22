@@ -1,8 +1,8 @@
 # i2cdump
 
 > Dump I2C device registers.
-> See also: `i2cdetect`, `i2cget`, `i2cset`.
 > Note: All addresses should be specified in hexadecimal.
+> See also: `i2cdetect`, `i2cget`, `i2cset`.
 > More information: <https://manned.org/i2cdump>.
 
 - Dump all registers of an I2C device:

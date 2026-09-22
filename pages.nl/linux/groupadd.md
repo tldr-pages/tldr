@@ -14,4 +14,4 @@
 
 - Maak een nieuwe groep aan met een specifieke groeps-ID:
 
-`sudo groupadd {{[-g|--gid]}} {{id}} {{groepsnaam}}`
+`sudo groupadd {{[-g|--gid]}} {{groep_id}} {{groepsnaam}}`

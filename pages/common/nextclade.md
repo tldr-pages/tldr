@@ -1,6 +1,6 @@
 # nextclade
 
-> Bioinformatics tool for virus genome alignment, clade assignment and qc checks.
+> Bioinformatics tool for virus genome alignment, clade assignment, and qc checks.
 > More information: <https://docs.nextstrain.org/projects/nextclade/en/stable/user/nextclade-cli/reference.html>.
 
 - Align sequences to user provided reference, outputting the alignment to a file:

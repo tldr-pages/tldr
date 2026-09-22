@@ -1,7 +1,6 @@
 # gcloud container
 
 > Manage containerized applications on Kubernetes and clusters.
-> See also: `gcloud`.
 > More information: <https://docs.cloud.google.com/sdk/gcloud/reference/container>.
 
 - Register `gcloud` as a Docker credential helper:

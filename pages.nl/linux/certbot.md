@@ -16,14 +16,14 @@
 
 `sudo certbot --apache {{[-d|--domain]}} {{subdomein.example.com}}`
 
-- Vernieuw alle Let's Encrypt certificaten die binnen 30 dagen verlopen (vergeet achteraf niet alle servers te herstarten die dit certificaat gebruiken):
+- Vernieuw alle Let's Encrypt certificaten die binnen 30 dagen verlopen (vergeet achteraf niet alle servers te herstarten die deze gebruiken):
 
 `sudo certbot renew`
 
-- Simuleer het verkrijgen van een nieuw certificaat, maar sla deze niet op, op een harde schijf:
+- Simuleer het verkrijgen van een nieuw certificaat, zonder daadwerkelijk nieuwe certificaten op de schijf op te slaan:
 
 `sudo certbot --webroot {{[-w|--webroot-path]}} {{pad/naar/webroot}} {{[-d|--domain]}} {{subdomein.example.com}} --dry-run`
 
-- Verkrijg een onvertrouwd test certificaat:
+- Verkrijg in plaats daarvan een onvertrouwd testcertificaat:
 
 `sudo certbot --webroot {{[-w|--webroot-path]}} {{pad/naar/webroot}} {{[-d|--domain]}} {{subdomein.example.com}} --test-cert`

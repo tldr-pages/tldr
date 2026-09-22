@@ -11,7 +11,7 @@
 
 `colima start --edit`
 
-- Start and setup containerd (install `nerdctl` to use containerd via `nerdctl`):
+- Start and set up containerd (install `nerdctl` to use containerd via `nerdctl`):
 
 `colima start --runtime containerd`
 
@@ -22,10 +22,6 @@
 - Customize CPU count, RAM memory, and disk space (in GiB):
 
 `colima start --cpu {{number}} --memory {{memory}} --disk {{storage_space}}`
-
-- Use Docker via Colima (Docker is required):
-
-`colima start`
 
 - List containers with their information and status:
 

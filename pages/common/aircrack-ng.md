@@ -14,7 +14,7 @@
 
 - Crack key from capture file using [w]ordlist and the access point's [e]ssid:
 
-`aircrack-ng -w {{path/to/wordlist.txt}} -e {{essid}} {{path/to/capture.cap}}`
+`aircrack-ng -w {{path/to/wordlist.txt}} -e {{extended_ssid}} {{path/to/capture.cap}}`
 
 - Crack key from capture file using [w]ordlist and the access point's MAC address:
 

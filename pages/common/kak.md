@@ -16,9 +16,9 @@
 
 `<Esc>`
 
-- Replace all instances of "foo" in the current file with "bar":
+- Replace all instances of `string1` in the current file with `string2`:
 
-`%s{{foo}}<Enter>c{{bar}}<Esc>`
+`%s{{string1}}<Enter>c{{string2}}<Esc>`
 
 - Unselect all secondary selections, and keep only the main one:
 

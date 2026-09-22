@@ -8,13 +8,13 @@
 
 `apptainer pull {{경로/대상/이미지.sif}} docker://{{이미지}}:{{태그}}`
 
-- Pull a container from the Container Library에서 컨테이너 다운로드:
+- Container Library에서 컨테이너 다운로드:
 
-`apptainer pull {{경로/대상/이미지.sif}} library://{{user/collection/container}}:{{태그}}`
+`apptainer pull {{경로/대상/이미지.sif}} library://{{사용자/컬렉션/컨테이너}}:{{태그}}`
 
 - OCI 레지스트리에서 컨테이너 다운로드:
 
-`apptainer pull {{경로/대상/이미지.sif}} oras://{{registry/namespace/image}}:{{태그}}`
+`apptainer pull {{경로/대상/이미지.sif}} oras://{{레지스트리/네임스페이스/이미지}}:{{태그}}`
 
 - 특정 아키텍처용 컨테이너 다운로드:
 

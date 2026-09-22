@@ -10,7 +10,7 @@
 
 - Inicia el servicio, utilizando el nuevo archivo de configuración TOML (`frps.toml` en lugar de `frps.ini`) en el directorio actual:
 
-`frpc {{[-c|--config]}} ./frps.toml`
+`frpc {{[-c|--config]}} {{ruta/al/frpc.toml}}`
 
 - Inicia el servicio, utilizando un archivo de configuración específico:
 

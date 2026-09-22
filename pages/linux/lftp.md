@@ -7,11 +7,11 @@
 
 `lftp {{[-u|--user]}} {{username}} {{ftp.example.com}}`
 
-- [Interactive] Download multiple files (glob expression):
+- [Interactive] Download multiple files (`glob` expression):
 
 `mget {{path/to/*.png}}`
 
-- [Interactive] Upload multiple files (glob expression):
+- [Interactive] Upload multiple files (`glob` expression):
 
 `mput {{path/to/*.zip}}`
 
