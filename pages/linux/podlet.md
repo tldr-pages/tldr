@@ -8,7 +8,7 @@
 
 `podlet {{podman_command}}`
 
-- Set an explicit name and description for the generated Quadlet:
+- Generate a Quadlet with a custom name and a description:
 
 `podlet {{[-n|--name]}} {{name}} {{[-d|--description]}} {{description}} {{podman_command}}`
 
@@ -16,7 +16,7 @@
 
 `podlet {{[-i|--install]}} --wanted-by {{unit}} --after {{unit}} {{podman_command}}`
 
-- Generate Quadlets for a compose file in the current directory with a well-known name (`(docker-)?compose\.ya?ml`):
+- Generate Quadlets from a compose file in the current directory:
 
 `podlet compose`
 
