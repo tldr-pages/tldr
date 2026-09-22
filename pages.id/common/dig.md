@@ -2,7 +2,7 @@
 
 > Alat pencari entri DNS.
 > Lihat juga: `resolvectl`, `nslookup`, `host`.
-> Informasi selengkapnya: <https://manned.org/dig>.
+> Informasi lebih lanjut: <https://manned.org/dig>.
 
 - Cari kumpulan alamat IP yang dirujuk oleh suatu nama host (berdasarkan informasi rekor A):
 
