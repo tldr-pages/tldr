@@ -30,7 +30,7 @@
 
 - Undo/Redo the last operation:
 
-`<u>`/`<U>`
+`{{<u>|<U>}}`
 
 - Search for a pattern in the file (press `<n>`/`<N>` to go to next/previous match):
 
