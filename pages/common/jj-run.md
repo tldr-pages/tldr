@@ -24,7 +24,7 @@
 
 `jj run {{[-r|--revision]}} {{revset}} {{[-j|--jobs]}} {{num_jobs}} -- {{command}}`
 
-- Run a command without rewriting any commits (dry-run):
+- Simulate running a command without rewriting any commits:
 
 `jj run --ignore-changes {{[-r|--revision]}} {{revset}} -- {{command}}`
 
