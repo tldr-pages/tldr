@@ -1,7 +1,7 @@
 # pkgfile
 
 > Zoek bestanden van pakketten in de officiële repositories op Arch-gebaseerde systemen.
-> Zie ook: `pacman --files`.
+> Zie ook: `pacman files`.
 > Meer informatie: <https://manned.org/pkgfile>.
 
 - Synchroniseer de pkgfile-database:
