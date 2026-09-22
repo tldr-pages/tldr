@@ -1,6 +1,6 @@
 # podman commit
 
-> Create new image based on the changed container.
+> Create a new image based on the changed container.
 > More information: <https://docs.podman.io/en/latest/markdown/podman-commit.1.html>.
 
 - Create an image from a specific container:
