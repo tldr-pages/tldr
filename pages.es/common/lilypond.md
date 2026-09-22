@@ -16,7 +16,7 @@
 
 `lilypond {{[-s|--silent]}} {{ruta/al/archivo}}`
 
-- Compila el archivo especificado y especificar también el nombre del archivo de salida:
+- Compila el archivo especificado y especifica también el nombre del archivo de salida:
 
 `lilypond {{[-o|--output]}} {{ruta/al/archivo_de_salida}} {{ruta/al/archivo_de_entrada}}`
 
