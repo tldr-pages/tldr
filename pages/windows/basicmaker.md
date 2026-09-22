@@ -15,11 +15,11 @@
 
 `basicmaker -S "{{path\to\file.bas}}"`
 
-- Launch PlanMaker with [N]o open macro scripts:
+- Launch BasicMaker with [N]o open macro scripts:
 
 `basicmaker -N`
 
-- Launch PlanMaker with an interactive dialog to choose which [F]ile to [O]pen:
+- Launch BasicMaker with an interactive dialog to choose which [F]ile to [O]pen:
 
 `basicmaker -FO`
 
