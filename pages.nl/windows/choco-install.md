@@ -1,6 +1,6 @@
 # choco install
 
-> Installeer een of meerdere pakketen met Chocolatey.
+> Installeer een of meerdere pakketten met Chocolatey.
 > Meer informatie: <https://docs.chocolatey.org/en-us/choco/commands/install/>.
 
 - Installeer een of meerdere spatie-gescheiden pakketten:
@@ -27,7 +27,7 @@
 
 `choco install {{pakket}} {{[-y|--yes]}}`
 
-- Specificieer een aangepaste bron om pakketten van te ontvangen:
+- Specificeer een aangepaste bron om pakketten van te ontvangen:
 
 `choco install {{pakket}} {{[-s|--source]}} {{source_url|alias}}`
 

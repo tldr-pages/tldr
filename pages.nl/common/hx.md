@@ -1,7 +1,7 @@
 # hx
 
 > Helix, een post-moderne tekst bewerker, welke verschillende modi beschikbaar stelt tot verschillende manieren van tekst manipulatie.
-> Drukken op `<i>` begint invoegmodus. `<Esc>` begint normale modus, wat toegang geeft tot de Vim commando's.
+> Drukken op `<i>` begint invoegmodus. `<Esc>` begint normale modus, wat toegang geeft tot de Helix commando's.
 > Meer informatie: <https://manned.org/man/debian-forky/hx>.
 
 - Open een bestand:
@@ -18,7 +18,7 @@
 
 - Pas het Helix thema aan:
 
-`<:>theme {{thema_naam}}<Enter>`
+`<:>theme {{thema_naam}}`
 
 - Opslaan en afsluiten:
 

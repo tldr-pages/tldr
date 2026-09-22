@@ -12,11 +12,11 @@
 
 `musescore {{[-d|--debug]}}`
 
-- Schakel experimentele funcies in, bijvoorbeeld lagen:
+- Schakel experimentele functies in, bijvoorbeeld lagen:
 
 `musescore {{[-e|--experimental]}}`
 
-- Exporteer het gegeven bestand naar het gegeven uitvoer bestand. Het bestandstype hangt af van de gegeven extentie:
+- Exporteer het gegeven bestand naar het gegeven uitvoer bestand. Het bestandstype hangt af van de gegeven extensie:
 
 `musescore {{[-o|--export-to]}} {{uitvoer_bestand}} {{invoer_bestand}}`
 
@@ -24,6 +24,6 @@
 
 `musescore --diff {{pad/naar/bestand1}} {{pad/naar/bestand2}}`
 
-- Specificeer een MIDI invoer operaties bestand:
+- Specificeer een MIDI import operaties bestand:
 
 `musescore {{[-M|--midi-operations]}} {{pad/naar/bestand}}`
