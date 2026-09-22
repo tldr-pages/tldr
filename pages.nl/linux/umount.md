@@ -16,7 +16,7 @@
 
 `sudo umount {{[-r|--read-only]}} {{pad/naar/gemounte_map}}`
 
-- Koppel ieder gespecificeerde map recursief los:
+- Koppel iedere gespecificeerde map recursief los:
 
 `sudo umount {{[-R|--recursive]}} {{pad/naar/gemounte_map}}`
 

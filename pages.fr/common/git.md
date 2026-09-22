@@ -24,7 +24,7 @@
 
 `git commit {{[-m|--message]}} {{texte_du_message}}`
 
-- Envoie les commits locaux vers un dépôt distant :
+- Envoie les validations locaux vers un dépôt distant :
 
 `git push`
 
@@ -32,6 +32,6 @@
 
 `git pull`
 
-- Réinitialise complètement le dépôt à l’état du dernier commit :
+- Réinitialise complètement le dépôt à l’état de la dernière validation :
 
 `git reset --hard; git clean {{[-f|--force]}}`

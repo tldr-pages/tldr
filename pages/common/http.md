@@ -24,7 +24,7 @@
 
 `http {{[-a|--auth]}} {{username:password|token}} {{[-A|--auth-type]}} {{basic|digest|bearer}} {{GET|POST|...}} {{https://example.com/auth}}`
 
-- Construct a request but do not send it (similar to a dry-run):
+- Simulate sending a request without actually sending it:
 
 `http --offline {{GET|DELETE|...}} {{https://example.com}}`
 

@@ -25,7 +25,7 @@
 
 `<Ctrl b><d>`
 
-- Creëer een nieuwe venster (binnen een tmux sessie):
+- Creëer een nieuw venster (binnen een tmux sessie):
 
 `<Ctrl b><c>`
 
