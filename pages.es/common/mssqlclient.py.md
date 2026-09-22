@@ -12,7 +12,7 @@
 
 `mssqlclient.py {{nombre de usuario}}:{{contraseña}}@{{destino}}`
 
-- Se conecta mediante autenticación «pass-the-hash»:
+- Se conecta mediante autenticación "pass-the-hash":
 
 `mssqlclient.py {{dominio}}/{{nombre de usuario}}@{{destino}} -hashes {{LM_Hash}}:{{NT_Hash}}`
 
