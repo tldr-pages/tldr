@@ -1,7 +1,7 @@
 # df
 
 > Toon een overzicht van het gebruik van het bestandssysteem op het gebied van schijfruimte.
-> Meer informatie: <https://man.freebsd.org/cgi/man.cgi?df>.
+> Meer informatie: <https://man.freebsd.org/cgi/man.cgi?query=df>.
 
 - Toon alle bestandssystemen en hun schijfgebruik met behulp van 512-byte eenheden:
 
@@ -15,7 +15,7 @@
 
 `df -{{-si|H}}`
 
-- Toon het bestandssysteem en het schijfgebruik voor het opgegeven bestand of map:
+- Toon het bestandssysteem dat het opgegeven bestand of de map bevat:
 
 `df {{pad/naar/bestand_of_map}}`
 
@@ -23,10 +23,10 @@
 
 `df -iT`
 
-- Gebruik 1024-byte eenheden voor het schrijven van de ruimte figuren:
+- Gebruik [k]ibibyte-eenheden (1024 byte) voor het weergeven van de groottecijfers:
 
 `df -k`
 
-- Toon informatie in een [P]ortable wijze:
+- Toon informatie op een [P]ortable wijze:
 
 `df -P`
