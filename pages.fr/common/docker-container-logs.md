@@ -3,22 +3,22 @@
 > Affiche les journaux d'un conteneur.
 > Plus d'informations : <https://docs.docker.com/reference/cli/docker/container/logs/>.
 
-- Afficher les journaux d'un conteneur :
+- Affiche les journaux d'un conteneur :
 
-`docker {{[logs|container logs]}} {{nom_du_conteneur}}`
+`docker {{[logs|container logs]}} {{nom_conteneur}}`
 
-- Afficher les journaux d'un conteneur en les suivants :
+- Affiche les journaux d'un conteneur en les suivants :
 
-`docker {{[logs|container logs]}} {{nom_du_conteneur}} {{[-f|--follow]}}`
+`docker {{[logs|container logs]}} {{nom_conteneur}} {{[-f|--follow]}}`
 
-- Afficher les 5 dernière lignes des journaux d'un conteneur :
+- Affiche les 5 dernières lignes des journaux d'un conteneur :
 
-`docker {{[logs|container logs]}} {{nom_du_conteneur}} {{[-n|--tail]}} 5`
+`docker {{[logs|container logs]}} {{nom_conteneur}} {{[-n|--tail]}} 5`
 
-- Afficher les journaux d'un conteneur avec l'horodatage :
+- Affiche les journaux d'un conteneur avec l'horodatage :
 
-`docker {{[logs|container logs]}} {{nom_du_conteneur}} {{[-t|--timestamps]}}`
+`docker {{[logs|container logs]}} {{nom_conteneur}} {{[-t|--timestamps]}}`
 
-- Afficher les journaux d'un conteneur depuis un certain temps (i.e. 23m, 10s, 2013-01-02T13:23:37) :
+- Affiche les journaux d'un conteneur depuis un certain temps (i.e. 23m, 10s, 2013-01-02T13:23:37) :
 
-`docker {{[logs|container logs]}} {{nom_du_conteneur}} --until {{temps}}`
+`docker {{[logs|container logs]}} {{nom_conteneur}} --until {{temps}}`
