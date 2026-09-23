@@ -1,6 +1,6 @@
 # podman commit
 
-> Create new image based on the changed container.
+> Create a new image based on the changed container.
 > More information: <https://docs.podman.io/en/latest/markdown/podman-commit.1.html>.
 
 - Create an image from a specific container:
@@ -13,7 +13,7 @@
 
 - Apply `LABEL`, `ENTRYPOINT` and `CMD` instruction to the created image:
 
-`podman commit {{[-c|--change]}} CMD={{command}} {{[-c|--change]}} ENTRYPOINT={{command}} {{[-c|--change]}} "LABEL {{key}}={{value}}" {{container}} {{image}}:{{tag}`
+`podman commit {{[-c|--change]}} CMD={{command}} {{[-c|--change]}} ENTRYPOINT={{command}} {{[-c|--change]}} "LABEL {{key}}={{value}}" {{container}} {{image}}:{{tag}}`
 
 - Create an image with a specific author and comment in the metadata:
 
