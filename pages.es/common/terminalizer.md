@@ -1,8 +1,8 @@
 # terminalizer
 
-> Graba la terminal, genera GIF animados y un reproductor web, y, si lo desea, sube el archivo a https://terminalizer.com.
+> Graba la terminal, genera GIF animados y un reproductor web, y, si lo desea, sube el archivo a <https://terminalizer.com>.
 > Vea también: `asciinema`.
-> Más información: https://www.terminalizer.com/docs#getting-started.
+> Más información: <https://www.terminalizer.com/docs#getting-started>.
 
 - Crea el directorio de configuración global:
 
