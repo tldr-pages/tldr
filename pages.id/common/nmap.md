@@ -35,4 +35,4 @@
 
 - Coba hindari deteksi sistem IDS/IPS dengan memindai secara sangat perlahan (`-T0`), alamat ip sumber umpan ([D]ecoy), paket ter[f]ragmentasi, data acak, dan metode lainnya:
 
-`sudo nmap -T0 -D {{ip_umpan1,ip_umpan1,...}} --source-port {{53}} -f --data-length {{16}} -Pn {{ip_atau_host}}`
+`sudo nmap -T0 -D {{ip_umpan1,ip_umpan2,...}} --source-port {{53}} -f --data-length {{16}} -Pn {{ip_atau_host}}`
