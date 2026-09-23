@@ -7,7 +7,7 @@
 
 `git checkout -b {{nom_branche}}`
 
-- Crée une branche depuis une référence spécifique et bascule dessus (par exemple, branche locale/distante, tag, commit) :
+- Crée une branche depuis une référence spécifique et bascule dessus (par exemple, branche locale/distante, tag, validation) :
 
 `git checkout -b {{nom_branche}} {{référence}}`
 
