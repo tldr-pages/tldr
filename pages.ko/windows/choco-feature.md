@@ -9,8 +9,8 @@
 
 - 기능 활성화:
 
-`choco feature enable --name {{이름}}`
+`choco feature enable {{[-n|--name]}} {{이름}}`
 
 - 기능 비활성화:
 
-`choco feature disable --name {{이름}}`
+`choco feature disable {{[-n|--name]}} {{이름}}`

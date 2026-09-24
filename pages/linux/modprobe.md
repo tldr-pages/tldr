@@ -6,7 +6,7 @@
 
 - Pretend to load a module into the kernel, but don't actually do it:
 
-`sudo modprobe {{[-n|--dry-run]}} {{module_name}}`
+`modprobe {{[-n|--dry-run]}} {{module_name}}`
 
 - Load a module into the kernel:
 

@@ -19,6 +19,6 @@
 
 `ping {{host}} | x ping vis {{[-m|--heatmap]}}`
 
-- Show help:
+- Display help:
 
 `x ping {{[-h|--help]}}`

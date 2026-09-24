@@ -1,7 +1,7 @@
 # gsettings
 
 > Consulta e modifica configurações do dconf com validação de esquema.
-> Mais informações: <https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/using_the_desktop_environment_in_rhel_8/configuring-gnome-at-low-level_using-the-desktop-environment-in-rhel-8#using-gsettings-command_configuring-gnome-at-low-level>.
+> Mais informações: <https://manned.org/gsettings>.
 
 - Define o valor de uma chave. Falha se a chave não existe ou o valor está fora do intervalo:
 

@@ -1,7 +1,7 @@
 # ruby
 
 > Interpreter bahasa pemrograman Ruby.
-> Lihat juga: `gem`, `bundler`, `rake`, `irb`.
+> Lihat juga: `gem`, `bundler`, `rake`, `irb`, `ri`.
 > Informasi lebih lanjut: <https://manned.org/ruby>.
 
 - Jalankan suatu berkas skrip atau program Ruby:

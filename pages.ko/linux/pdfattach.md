@@ -14,7 +14,7 @@
 
 - 도움말 표시:
 
-`pdfattach -h`
+`pdfattach {{[-h|--help]}}`
 
 - 버전 표시:
 

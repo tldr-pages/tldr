@@ -5,16 +5,16 @@
 
 - 利用可能なすべての情報を表示する:
 
-`lsb_release -a`
+`lsb_release {{[-a|--all]}}`
 
 - オペレーティングシステムの説明(通常はフルネーム)を表示する:
 
-`lsb_release -d`
+`lsb_release {{[-d|--description]}}`
 
 - オペレーティングシステムの名前(ID)だけを表示する:
 
-`lsb_release -i -s`
+`lsb_release {{[-is|--id --short]}}`
 
 - ディストリビューションのリリース番号とコードネームを表示する:
 
-`lsb_release -rcs`
+`lsb_release {{[-rcs|--release --codename --short]}}`

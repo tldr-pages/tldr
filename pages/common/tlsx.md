@@ -15,7 +15,7 @@
 
 `tlsx {{[-l|-list]}} {{path/to/hosts.txt}} {{[-ex|-expired]}} {{[-ss|-self-signed]}} {{[-mm|-mismatched]}} {{[-re|-revoked]}} {{[-un|-untrusted]}}`
 
-- Adjust per host concurrency, timeout, retry and delay parameters when scanning a list of hosts for wildcard SSL certificates:
+- Adjust per host concurrency, timeout, retry, and delay parameters when scanning a list of hosts for wildcard SSL certificates:
 
 `tlsx {{[-l|-list]}} {{path/to/hosts.txt}} {{[-c|-concurrency]}} {{300}} -timeout {{5}} -retry {{3}} -delay {{200ms}} {{[-wc|-wildcard-cert]}}`
 

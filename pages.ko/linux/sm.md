@@ -9,19 +9,19 @@
 
 - 색상을 반전하여 메시지를 표시:
 
-`sm -i "{{Hello World!}}"`
+`sm {{[-i|--invert]}} "{{Hello World!}}"`
 
 - 사용자 지정 전경색으로 메시지를 표시:
 
-`sm -f {{파란색}} "{{Hello World!}}"`
+`sm {{[-f|--foreground]}} {{파란색}} "{{Hello World!}}"`
 
 - 사용자 지정 배경색으로 메시지를 표시:
 
-`sm -b {{#008888}} "{{Hello World!}}"`
+`sm {{[-b|--background]}} {{#008888}} "{{Hello World!}}"`
 
 - 메시지를 3회 회전하여 표시 (90도씩 반시계 방향):
 
-`sm -r {{3}} "{{Hello World!}}"`
+`sm {{[-r|--rotate]}} {{3}} "{{Hello World!}}"`
 
 - 다른 명령의 출력을 사용하여 메시지를 표시:
 

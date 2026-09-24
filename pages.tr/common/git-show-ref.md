@@ -9,7 +9,7 @@
 
 - Yalnızca kafa referanslarını göster:
 
-`git show-ref --heads`
+`git show-ref --branches`
 
 - Yalnızca etiket referanslarını göster:
 

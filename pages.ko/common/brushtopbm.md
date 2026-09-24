@@ -9,4 +9,4 @@
 
 - 버전 표시:
 
-`brushtopbm -version`
+`brushtopbm {{[-v|-version]}}`

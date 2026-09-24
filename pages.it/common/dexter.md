@@ -5,8 +5,8 @@
 
 - Crea ed autentica un utente con Google OIDC:
 
-`dexter auth -i {{id-client}} -s {{segreto-client}}`
+`dexter auth {{[-i|--client-id]}} {{id-client}} {{[-s|--client-secret]}} {{segreto-client}}`
 
 - Sovrascrivi la posizione predefinita della configurazione di kube:
 
-`dexter auth -i {{id-client}} -s {{segreto-client}} --kube-config {{percorso/della/configurazione}}`
+`dexter auth {{[-i|--client-id]}} {{id-client}} {{[-s|--client-secret]}} {{segreto-client}} {{[-k|--kube-config]}} {{percorso/della/configurazione}}`

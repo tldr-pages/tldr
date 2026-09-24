@@ -21,7 +21,7 @@
 
 - 여러 파일을 `bgm_(원래 이름).wav`로 변환 (기본 `-o` 패턴은 `?f.wav`):
 
-`vgmstream_cli -o {{경로/대상/bgm_?f.wav}} {{경로/대상/파일1.adc}} {{경로/대상/파일2.adc}}`
+`vgmstream_cli -o {{경로/대상/bgm_?f.wav}} {{경로/대상/파일1.adc 경로/대상/파일2.adc ...}}`
 
 - 파일을 무한 반복으로 재생 (`channels`와 `rate`는 메타데이터와 일치해야 함):
 

@@ -11,6 +11,10 @@
 
 `systemsettings --list`
 
+- Open a specific KCM:
+
+`systemsettings {{kcm_name}}`
+
 - Display help:
 
 `systemsettings {{[-h|--help]}}`

@@ -10,7 +10,7 @@
 
 - [Interactive] Show your timeline (optional number of tweets to display, default is 5):
 
-`home [{{num_of_last_tweets}}]`
+`home {{number_of_tweets}}`
 
 - [Interactive] Show profile of a given user:
 

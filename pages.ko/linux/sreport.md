@@ -5,7 +5,7 @@
 
 - 파이프로 구분된 클러스터 사용량 데이터를 표시:
 
-`sreport --parsable cluster utilization`
+`sreport {{[-p|--parsable]}} cluster utilization`
 
 - 실행된 작업 수를 표시:
 

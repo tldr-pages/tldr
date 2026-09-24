@@ -8,6 +8,14 @@
 
 `sudo aa-status`
 
+- JSON 형태로 상태 표시:
+
+`sudo aa-status --json`
+
+- 정리된 JSON 형태로 상태 표시:
+
+`sudo aa-status --pretty-json`
+
 - 로드된 정책의 수 표시:
 
 `sudo aa-status --profiled`

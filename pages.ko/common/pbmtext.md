@@ -14,8 +14,8 @@
 
 - PBM 파일로 제공된 사용자 지정 폰트를 사용하여 텍스트 렌더링:
 
-`pbmtext -font {{경로/대상/폰트.pbm}} "{{Hello World!}}" > {{경로/대상/출력.pbm}}`
+`pbmtext {{[-f|-font]}} {{경로/대상/폰트.pbm}} "{{Hello World!}}" > {{경로/대상/출력.pbm}}`
 
 - 문자와 줄 사이의 픽셀 수 지정:
 
-`echo "{{Hello\nWorld!}}" | pbmtext -space {{3}} -lspace {{10}} > {{경로/대상/출력.pbm}}`
+`echo "{{Hello\nWorld!}}" | pbmtext {{[-s|-space]}} {{3}} {{[-ls|-lspace]}} {{10}} > {{경로/대상/출력.pbm}}`

@@ -11,6 +11,10 @@
 
 `regedit -D {{path/to/registry_key}}`
 
+- Open the graphical registry manager:
+
+`regedit`
+
 - Display help:
 
 `regedit -?`

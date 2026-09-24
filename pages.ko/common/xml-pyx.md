@@ -5,7 +5,7 @@
 
 - XML 문서를 PYX 형식으로 변환:
 
-`xml pyx {{경로/대상/입력.xml|URI}} > {{경로/대상/출력.pyx}}`
+`xml pyx {{경로/대상/입력.xml|uri}} > {{경로/대상/출력.pyx}}`
 
 - `stdin`에서 XML 문서를 받아 PYX 형식으로 변환:
 

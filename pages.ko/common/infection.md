@@ -9,7 +9,7 @@
 
 - 특정 수의 스레드를 사용:
 
-`infection --threads {{스레드_수}}`
+`infection {{[-j|--threads]}} {{스레드_수}}`
 
 - 최소 MSI(Mutation Score Indicator)를 지정:
 
@@ -29,7 +29,7 @@
 
 - 적용된 코드 변경을 주는 부분을 표시:
 
-`infection --show-mutations`
+`infection {{[-s|--show-mutations]}}`
 
 - 로그 상세 수준을 지정:
 

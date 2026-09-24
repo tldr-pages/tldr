@@ -5,24 +5,24 @@
 
 - 사용 중인 모든 쿼터의 통계 보고:
 
-`sudo repquota -all`
+`sudo repquota {{[-a|--all]}}`
 
 - 할당량을 사용하지 않는 사용자도 포함하여 모든 사용자의 쿼터 통계 보고:
 
-`sudo repquota -v {{파일시스템}}`
+`sudo repquota {{[-v|--verbose]}} {{파일시스템}}`
 
 - 사용자에 대한 쿼터 보고:
 
-`repquota --user {{파일시스템}}`
+`repquota {{[-u|--user]}} {{파일시스템}}`
 
 - 그룹에 대한 쿼터 보고:
 
-`sudo repquota --group {{파일시스템}}`
+`sudo repquota {{[-g|--group]}} {{파일시스템}}`
 
 - 사람이 읽기 쉬운 형식으로 사용된 쿼터 및 제한 보고:
 
-`sudo repquota --human-readable {{파일시스템}}`
+`sudo repquota {{[-s|--human-readable]}} {{파일시스템}}`
 
 - 사람이 읽기 쉬운 형식으로 사용자 및 그룹의 모든 쿼터 보고:
 
-`sudo repquota -augs`
+`sudo repquota {{[-augs|--all --user --group --human-readable]}}`

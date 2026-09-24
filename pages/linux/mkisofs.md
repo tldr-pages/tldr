@@ -11,3 +11,7 @@
 - Set the disc label when creating an ISO:
 
 `mkisofs -o {{filename.iso}} -V "{{label_name}}" {{path/to/source_directory}}`
+
+- Create an ISO image with files larger than 2GiB by reporting a smaller apparent size for ISO9660 filesystems:
+
+`mkisofs -o {{filename.iso}} -allow-limited-size {{path/to/source_directory}}`

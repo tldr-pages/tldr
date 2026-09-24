@@ -17,11 +17,11 @@
 
 - TXT 파일의 중복 파일을 다른 디렉터리로 이동:
 
-`fclones move {{경로/대상/대상_디렉터리}} < {{경로/대상/파일.txt}}`
+`fclones < {{경로/대상/파일.txt}} move {{경로/대상/대상_디렉터리}}`
 
 - 실제로 연결하지 않고 TXT 파일의 소프트 링크에 대해 연습 실행을 수행:
 
-`fclones link --soft < {{경로/대상/파일.txt}} --dry-run 2 > /dev/null`
+`fclones < {{경로/대상/파일.txt}} link --soft --dry-run 2 > /dev/null`
 
 - 파일에 저장하지 않고 현재 디렉터리에서 최신 복사본을 삭제:
 

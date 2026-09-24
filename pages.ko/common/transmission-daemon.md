@@ -14,7 +14,7 @@
 
 - JSON 형식으로 데몬 설정 덤프:
 
-`transmission-daemon --dump-settings > {{경로/대상/파일.json}}`
+`transmission-daemon {{[-d|--dump-settings]}} > {{경로/대상/파일.json}}`
 
 - 웹 인터페이스에 대한 특정 설정으로 시작:
 

@@ -1,7 +1,7 @@
 # xmount
 
 > Convert on-the-fly between multiple input and output hard disk image types with optional write cache support.
-> Create a virtual file system using FUSE (Filesystem in Userspace) that contains a virtual representation of the input image.
+> Create a virtual filesystem using FUSE (Filesystem in Userspace) that contains a virtual representation of the input image.
 > More information: <https://manned.org/xmount>.
 
 - Mount a `.raw` image file into a DMG container file:
@@ -14,4 +14,4 @@
 
 - Mount the first partition at sector 2048 into a new `.raw` image file:
 
-`xmount --offset {{2048}} --in {{raw}} {{path/to/image.dd}} --out {{raw}} {{mountpoint}}`
+`xmount --offset 2048 --in {{raw}} {{path/to/image.dd}} --out raw {{mountpoint}}`

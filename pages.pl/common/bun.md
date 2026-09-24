@@ -4,6 +4,10 @@
 > Zawiera kompilator, narzędzie do uruchamiania testów i menadżera pakietów.
 > Więcej informacji: <https://bun.com/docs>.
 
+- Stwórz nowy projekt Bun w aktualnym katalogu:
+
+`bun init`
+
 - Uruchom plik JavaScript lub skrypt `package.json`:
 
 `bun run {{ścieka/do/pliku|nazwa_skryptu}}`
@@ -14,19 +18,15 @@
 
 - Pobierz i zainstaluj wszystkie pakiety wpisane jako zależności w `package.json`:
 
-`bun install`
+`bun {{[i|install]}}`
 
 - Dodaj zależność do `package.json`:
 
-`bun add {{nazwa_biblioteki}}`
+`bun {{[a|add]}} {{nazwa_biblioteki}}`
 
 - Usuń zależność z `package.json`:
 
-`bun remove {{nazwa_biblioteki}}`
-
-- Stwórz nowy projekt Bun w aktualnym katalogu:
-
-`bun init`
+`bun {{[rm|remove]}} {{nazwa_biblioteki}}`
 
 - Uruchom REPL (interaktywną powłokę):
 

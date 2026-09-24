@@ -9,23 +9,23 @@
 
 - Inicia um ou mais contêineres parados:
 
-`docker {{[start|container start]}} {{nome_do_contêiner1}} {{nome_do_contêiner2}}`
+`docker {{[start|container start]}} {{nome_do_contêiner1 nome_do_contêiner2 ...}}`
 
 - Encerra um ou mais contêineres em execução:
 
-`docker {{[kill|container kill]}} {{nome_do_contêiner}}`
+`docker {{[kill|container kill]}} {{nome_do_contêiner1 nome_do_contêiner2 ...}}`
 
 - Para um ou mais contêineres em execução:
 
-`docker {{[stop|container stop]}} {{nome_do_contêiner}}`
+`docker {{[stop|container stop]}} {{nome_do_contêiner1 nome_do_contêiner2 ...}}`
 
 - Pausa todos os processos em um ou mais contêineres:
 
-`docker {{[pause|container pause]}} {{nome_do_contêiner}}`
+`docker {{[pause|container pause]}} {{nome_do_contêiner1 nome_do_contêiner2 ...}}`
 
 - Exibe informações detalhadas sobre um ou mais contêineres:
 
-`docker container inspect {{nome_do_contêiner}}`
+`docker container inspect {{nome_do_contêiner1 nome_do_contêiner2 ...}}`
 
 - Exporta o sistema de arquivos de um contêiner como um arquivo `.tar`:
 

@@ -6,32 +6,32 @@
 
 - Tampilkan daftar paket yang diinstal beserta versinya:
 
-`pacman --query`
+`pacman -Q`
 
 - Tampilkan daftar paket yang diinstal beserta versinya secara eksplisit:
 
-`pacman --query --explicit`
+`pacman -Qe`
 
 - Temukan paket mana yang memiliki file:
 
-`pacman --query --owns {{namafile}}`
+`pacman -Qo {{namafile}}`
 
 - Tampilkan informasi paket yang diinstal:
 
-`pacman --query --info {{nama_paket}}`
+`pacman -Qi {{nama_paket}}`
 
 - Tampilkan daftar file yang dimiliki oleh paket:
 
-`pacman --query --list {{nama_paket}}`
+`pacman -Ql {{nama_paket}}`
 
 - Tampilkan daftar paket yatim piatu (diinstal sebagai dependensi namun tidak dibutuhkan oleh paket apa pun):
 
-`pacman --query --unrequired --deps --quiet`
+`pacman -Qdtq`
 
 - Tampilkan daftar paket yang diinstal tidak ditemukan di tempat penyimpanan:
 
-`pacman --query --foreign`
+`pacman -Qm`
 
 - Tampilkan daftar paket usang:
 
-`pacman --query --upgrades`
+`pacman -Qu`

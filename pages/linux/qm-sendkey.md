@@ -5,8 +5,8 @@
 
 - Send the specified key event to a specific virtual machine:
 
-`qm {{[sen|sendkey]}} {{vm_id}} {{key}}`
+`qm {{[sen|sendkey]}} {{100}} {{key}}`
 
 - Allow root user to send key event and ignore locks:
 
-`qm {{[sen|sendkey]}} --skiplock {{true}} {{vm_id}} {{key}}`
+`qm {{[sen|sendkey]}} --skiplock {{true}} {{100}} {{key}}`

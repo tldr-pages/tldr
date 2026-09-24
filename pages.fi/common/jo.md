@@ -1,6 +1,6 @@
 # jo
 
-> Tämä on alias komennolle `autojump`.
+> Tämä on alias `autojump` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

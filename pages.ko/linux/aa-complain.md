@@ -10,4 +10,4 @@
 
 - 정책들을 컴플레인 모드로 설정:
 
-`sudo aa-complain --dir {{경로/대상/프로필들}}`
+`sudo aa-complain {{[-d|--dir]}} {{경로/대상/프로필들}}`

@@ -5,16 +5,16 @@
 
 - `package.json` dosyasında listelenen bağımlılıkları kurar:
 
-`npm install`
+`npm {{[i|install]}}`
 
 - Bir paketin spesifik bir versiyonunu indirir ve `package.json` dosyasındaki bağımlılık listesine ekler:
 
-`npm install {{paket_adı}}@{{versiyon}}`
+`npm {{[i|install]}} {{paket_adı}}@{{versiyon}}`
 
 - Paketin son sürümünü indirir ve `package.json` dosyasındaki geliştirme bağımlılık listesine ekler:
 
-`npm install {{paket_adı}} {{-D|--save-dev}}`
+`npm {{[i|install]}} {{paket_adı}} {{[-D|--save-dev]}}`
 
 - Paketin son sürümünü indirir ve global olarak kurar:
 
-`npm install {{-g|--global}} {{paket_adı}}`
+`npm {{[i|install]}} {{paket_adı}} {{[-g|--global]}}`

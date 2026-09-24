@@ -22,3 +22,7 @@
 - Copy the contents of `stdin` to the clipboard:
 
 `echo {{example}} | kitty +kitten clipboard`
+
+- Open a terminal without loading the user config:
+
+`kitty --config NONE`

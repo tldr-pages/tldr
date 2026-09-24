@@ -1,16 +1,16 @@
 # prctl
 
-> Lees of configureer de Get or set the resource controls of running processes, tasks, and projects.
+> Lees of configureer de resource controls van lopende processen, taken en projecten.
 > Meer informatie: <https://www.unix.com/man-page/sunos/1/prctl>.
 
-- Uitlezen van de process limits en rechten:
+- Bekijk de proceslimieten en -rechten:
 
-`prctl {{PID}}`
+`prctl {{pid}}`
 
-- Uitlezen van de process limits en rechten in een geformatteerde layout:
+- Bekijk de proceslimieten en -rechten in een machineleesbaar formaat:
 
-`prctl -P {{PID}}`
+`prctl -P {{pid}}`
 
-- Uitlezen van het max file descripter van een lopend proces:
+- Verkrijg een specifieke limiet voor een lopend proces:
 
-`prctl -n process.max-file-descriptor {{PID}}`
+`prctl -n process.max-file-descriptor {{pid}}`

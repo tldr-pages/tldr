@@ -26,4 +26,4 @@
 
 - Interrompi l'operazione di imerge e ritorna al ramo precedente:
 
-`git-imerge remove && git checkout {{ramo_precedente}}`
+`git imerge remove && git checkout {{ramo_precedente}}`

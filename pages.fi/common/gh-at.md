@@ -1,6 +1,6 @@
 # gh at
 
-> Tämä on alias komennolle `gh attestation`.
+> Tämä on alias `gh attestation` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -1,7 +1,7 @@
 # nordvpn
 
 > Kommandozeilen-Schnittstelle für NordVPN.
-> Weitere Informationen: <https://support.nordvpn.com/hc/en-us/articles/20196094470929-Installing-NordVPN-on-Linux-distributions>.
+> Weitere Informationen: <https://support.nordvpn.com/hc/articles/20196094470929-Installing-NordVPN-on-Linux-distributions>.
 
 - Interaktiv bei einem NordVPN-Konto anmelden:
 
@@ -13,7 +13,7 @@
 
 - Stelle eine Verbindung zum nächsten NordVPN-Server her:
 
-`nordvpn connect`
+`nordvpn {{[c|connect]}}`
 
 - Liste alle verfügbaren Länder auf:
 
@@ -21,12 +21,12 @@
 
 - Stelle eine Verbindung zu einem NordVPN-Server in einem bestimmten Land her:
 
-`nordvpn connect {{Germany}}`
+`nordvpn {{[c|connect]}} {{Germany}}`
 
 - Stelle eine Verbindung zu einem NordVPN-Server in einem bestimmten Land und einer bestimmten Stadt her:
 
-`nordvpn connect {{Germany}} {{Berlin}}`
+`nordvpn {{[c|connect]}} {{Germany}} {{Berlin}}`
 
 - Aktiviere die `autoconnect`-Option:
 
-`nordvpn set autoconnect on`
+`nordvpn {{[s|set]}} autoconnect on`

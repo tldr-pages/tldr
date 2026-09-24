@@ -18,4 +18,4 @@
 
 - JSON 파일을 in2csv로 파이프:
 
-`cat {{data.json}} | in2csv -f json > {{data.csv}}`
+`cat {{data.json}} | in2csv {{[-f|--format]}} json > {{data.csv}}`

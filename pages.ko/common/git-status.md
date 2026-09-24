@@ -16,10 +16,6 @@
 
 `git status {{[-vv|--verbose --verbose]}}`
 
-- [b]ranch 및 추적 정보 표시:
-
-`git status {{[-b|--branch]}}`
-
 - [s]hort 형식으로 출력하면서 [b]ranch 정보 표시:
 
 `git status {{[-sb|--short --branch]}}`

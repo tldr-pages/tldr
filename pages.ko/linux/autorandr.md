@@ -5,7 +5,7 @@
 
 - 현재 화면 레이아웃 저장:
 
-`autorandr --save {{프로필_이름}}`
+`autorandr {{[-s|--save]}} {{프로필_이름}}`
 
 - 저장된 프로필 표시:
 
@@ -13,12 +13,12 @@
 
 - 감지된 첫 번째 프로필 불러오기:
 
-`autorandr --change`
+`autorandr {{[-c|--change]}}`
 
 - 특정 프로필 불러오기:
 
-`autorandr --load {{프로필_이름}}`
+`autorandr {{[-l|--load]}} {{프로필_이름}}`
 
 - 기본 프로필 설정:
 
-`autorandr --default {{프로필_이름}}`
+`autorandr {{[-d|--default]}} {{프로필_이름}}`

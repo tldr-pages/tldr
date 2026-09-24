@@ -9,7 +9,7 @@
 
 - Display the current date in UTC, using the ISO 8601 format:
 
-`date {{[-u|--utc]}} +%Y-%m-%dT%H:%M:%S%Z`
+`date {{[-u|--utc]}} +%Y-%m-%dT%H:%M:%SZ`
 
 - Display the current date as a Unix timestamp (seconds since the Unix epoch):
 
@@ -23,13 +23,13 @@
 
 `date {{[-d|--date]}} "{{2018-09-01 00:00}}" +%s {{[-u|--utc]}}`
 
-- Display the current date using the RFC-3339 format (`YYYY-MM-DD hh:mm:ss TZ`):
+- Display the current date using the RFC-3339 format (`YYYY-MM-DD hh:mm:ss TZ`) and specify its precision:
 
-`date --rfc-3339 s`
+`date --rfc-3339 {{date|seconds|ns}}`
 
 - Set the current date using the format `MMDDhhmmYYYY.ss` (`YYYY` and `.ss` are optional):
 
-`date {{093023592021.59}}`
+`sudo date {{093023592021.59}}`
 
 - Display the current ISO week number:
 

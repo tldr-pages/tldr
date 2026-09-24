@@ -33,4 +33,4 @@
 
 - 도움말 표시:
 
-`homectl --help`
+`homectl {{[-h|--help]}}`

@@ -13,13 +13,13 @@
 
 - Record program by URL from the BBC iPlayer website:
 
-`get_iplayer "https://www.bbc.co.uk/iplayer/episode/{{program_PID}}/{{name-of-show-episode-number-episode-title}}"`
+`get_iplayer "https://www.bbc.co.uk/iplayer/episode/{{program_pid}}/{{name-of-show-episode-number-episode-title}}"`
 
 - Download subtitles for a program by results of search:
 
 `get_iplayer "{{program_name}}" --subtitles-only`
 
-- Search for a program, record it and download subtitles:
+- Search for a program, record it, and download subtitles:
 
 `get_iplayer "{{program_name}}" {{[-g|--get]}} --subtitles`
 

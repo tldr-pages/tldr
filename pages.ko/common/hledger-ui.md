@@ -13,15 +13,15 @@
 
 - 대차대조표 계정 화면에서 시작하고, 계층 구조를 3단계까지 표시:
 
-`hledger-ui --bs --tree --depth 3`
+`hledger-ui --bs {{[-t|--tree]}} {{[-3|--depth 3]}}`
 
 - 이 계정의 화면에서 시작하고, 정리된 거래를 표시하며 변경 시 다시 로드:
 
-`hledger-ui --register {{assets:bank:checking}} --cleared --watch`
+`hledger-ui --register {{assets:bank:checking}} {{[-C|--cleared]}} {{[-w|--watch]}}`
 
 - 두 개의 저널 파일을 읽고, 알려진 경우 현재 가치로 금액을 표시:
 
-`hledger-ui --file {{경로/대상/2024.journal}} --file {{경로/대상/2024-prices.journal}} --value now`
+`hledger-ui {{[-f|--file]}} {{경로/대상/2024.journal}} {{[-f|--file]}} {{경로/대상/2024-prices.journal}} --value now`
 
 - 가능한 경우 Info 형식으로 매뉴얼 표시:
 
@@ -29,4 +29,4 @@
 
 - 도움말 표시:
 
-`hledger-ui --help`
+`hledger-ui {{[-h|--help]}}`

@@ -7,24 +7,24 @@
 
 - Markiere ein Paket als implizit installiert:
 
-`sudo pacman --database --asdeps {{paketname}}`
+`sudo pacman -D --asdeps {{paketname}}`
 
 - Markiere ein Paket als explizit installiert:
 
-`sudo pacman --database --asexplicit {{paketname}}`
+`sudo pacman -D --asexplicit {{paketname}}`
 
 - Überprüfe, dass alle Paketabhängigkeiten installiert sind:
 
-`pacman --database --check`
+`pacman -Dk`
 
 - Überprüfe in den Repositorien, dass alle angegebenen Abhängigkeiten verfügbar sind:
 
-`pacman --database --check --check`
+`pacman -Dkk`
 
 - Zeige nur Fehlermeldungen:
 
-`pacman --database --check --quiet`
+`pacman -Dkq`
 
 - Zeige Hilfe an:
 
-`pacman --database --help`
+`pacman -Dh`

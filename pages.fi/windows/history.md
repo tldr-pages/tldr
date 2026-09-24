@@ -1,6 +1,6 @@
 # history
 
-> Tämä on alias komennolle `Get-History`.
+> Tämä on alias `Get-History` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

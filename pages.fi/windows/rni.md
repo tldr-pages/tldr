@@ -1,6 +1,6 @@
 # rni
 
-> Tämä on alias komennolle `Rename-Item`.
+> Tämä on alias `Rename-Item` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

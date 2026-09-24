@@ -1,6 +1,6 @@
 # uname26
 
-> Tämä on alias komennolle `setarch uname26`.
+> Tämä on alias `setarch uname26` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

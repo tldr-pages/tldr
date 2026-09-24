@@ -9,7 +9,7 @@
 
 - Tampilkan deskripsi isi dari suatu berkas gambar GEM:
 
-`gemtopnm -d {{path/menuju/berkas.img}}`
+`gemtopnm {{[-d|-debug]}} {{path/menuju/berkas.img}}`
 
 - Tampilkan informasi versi:
 

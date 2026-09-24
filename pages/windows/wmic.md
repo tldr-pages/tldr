@@ -17,7 +17,7 @@
 
 - Access specific fields such as process name, process ID, and parent process ID:
 
-`wmic process get {{name,processid,parentprocessid}}`
+`wmic process get {{name,process_id,parent_process_id}}`
 
 - Display information about a specific process:
 
@@ -25,8 +25,8 @@
 
 - Display specific fields for a specific process:
 
-`wmic process where processid={{pid}} get {{name,commandline}}`
+`wmic process where processid={{process_id}} get {{name,commandline}}`
 
 - Kill a process:
 
-`wmic process {{pid}} delete`
+`wmic process {{process_id}} delete`

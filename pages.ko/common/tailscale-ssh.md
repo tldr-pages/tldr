@@ -5,7 +5,7 @@
 
 - 호스트에서 SSH 광고/비활성화:
 
-`sudo tailscale up --ssh={{true|false}}`
+`tailscale up --ssh={{true|false}}`
 
 - Tailscale-SSH가 활성화된 특정 호스트에 SSH 접속:
 

@@ -1,6 +1,6 @@
 # impacket-ntfs-read
 
-> Tämä on alias komennolle `ntfs-read.py`.
+> Tämä on alias `ntfs-read.py` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

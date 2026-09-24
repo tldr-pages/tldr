@@ -17,7 +17,7 @@
 
 - URI를 지정하여 원격 서버에 연결:
 
-`redis-cli -u {{URI}}`
+`redis-cli -u {{uri}}`
 
 - 비밀번호 지정:
 

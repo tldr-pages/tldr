@@ -7,7 +7,7 @@
 
 `cdk ls`
 
-- Synthesize and print the CloudFormation template for the specified stack(s):
+- 지정한 스택의 CloudFormation 템플릿을 합성하여 출력:
 
 `cdk synth {{스택_이름}}`
 
@@ -25,7 +25,7 @@
 
 - 지정된 언어([l]anguage)에 대해 현재 디렉터리에 새 CDK 프로젝트를 만듬:
 
-`cdk init -l {{언어}}`
+`cdk init {{[-l|--language]}} {{언어}}`
 
 - 브라우저에서 CDK API 참조를 열기:
 

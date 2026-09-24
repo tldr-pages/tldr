@@ -5,7 +5,7 @@
 
 - 압축되지 않은 `.tar` 아카이브에서 기본적으로 `gzip`으로 압축된 squashfs 파일 시스템 생성:
 
-`sqfstar {{파일_시스템.squashfs}} < {{아카이브.tar}}`
+`sqfstar < {{아카이브.tar}} {{파일_시스템.squashfs}}`
 
 - `gzip`으로 압축된 `.tar` 아카이브에서 특정 알고리즘으로 파일 시스템을 [comp]압축하여 squashfs 파일 시스템 생성:
 

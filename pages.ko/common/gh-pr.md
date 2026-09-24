@@ -6,11 +6,11 @@
 
 - 풀 리퀘스트 생성:
 
-`gh pr create`
+`gh pr {{[new|create]}}`
 
 - 특정 풀 리퀘스트를 로컬에서 체크아웃:
 
-`gh pr checkout {{pr_number}}`
+`gh {{[co|pr checkout]}} {{pr_number}}`
 
 - 현재 브랜치의 풀 리퀘스트에서 변경 사항 보기:
 
@@ -18,7 +18,7 @@
 
 - 현재 브랜치의 풀 리퀘스트 승인:
 
-`gh pr review --approve`
+`gh pr review {{[-a|--approve]}}`
 
 - 현재 브랜치와 연관된 풀 리퀘스트를 대화식으로 병합:
 
@@ -30,7 +30,7 @@
 
 - 풀 리퀘스트의 기준 브랜치 수정:
 
-`gh pr edit --base {{branch_name}}`
+`gh pr edit {{[-B|--base]}} {{branch_name}}`
 
 - 현재 저장소의 풀 리퀘스트 상태 확인:
 

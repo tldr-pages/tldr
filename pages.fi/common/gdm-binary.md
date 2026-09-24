@@ -1,6 +1,6 @@
 # gdm-binary
 
-> Tämä on alias komennolle `gdm`.
+> Tämä on alias `gdm` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -1,6 +1,6 @@
 # jupyterlab
 
-> Tämä on alias komennolle `jupyter lab`.
+> Tämä on alias `jupyter lab` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

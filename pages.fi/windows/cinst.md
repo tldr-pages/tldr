@@ -1,6 +1,6 @@
 # cinst
 
-> Tämä on alias komennolle `choco install`.
+> Tämä on alias `choco install` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

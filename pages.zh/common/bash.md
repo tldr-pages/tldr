@@ -34,4 +34,4 @@
 
 - 启动一个限制的 shell 会话：
 
-`bash -r`
+`bash {{[-r|--restricted]}}`

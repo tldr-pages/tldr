@@ -1,10 +1,10 @@
 # pammixinterlace
 
-> Merge each row in an image with its two neighbours.
+> Merge each row in an image with its two neighbors.
 > See also: `pamdeinterlace`.
 > More information: <https://netpbm.sourceforge.net/doc/pammixinterlace.html>.
 
-- Merge each row in an image with its two neighbours:
+- Merge each row in an image with its two neighbors:
 
 `pammixinterlace {{path/to/image.ppm}} > {{path/to/output.ppm}}`
 

@@ -1,6 +1,6 @@
 # libreoffice
 
-> Tämä on alias komennolle `soffice`.
+> Tämä on alias `soffice` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

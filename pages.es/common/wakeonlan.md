@@ -9,12 +9,12 @@
 
 - Envía paquete a un dispositivo específico a través de una dirección IP:
 
-`wakeonlan {{01:02:03:04:05:06}} -i {{192.168.178.2}}`
+`wakeonlan {{01:02:03:04:05:06}} {{[-i|--ip]}} {{192.168.178.2}}`
 
 - Imprime los comandos, pero no los ejecutes (dry-run):
 
-`wakeonlan -n {{01:02:03:04:05:06}}`
+`wakeonlan {{[-n|--dry-run]}} {{01:02:03:04:05:06}}`
 
 - Ejecuta en modo silencioso:
 
-`wakeonlan -q {{01:02:03:04:05:06}}`
+`wakeonlan {{[-q|--quiet]}} {{01:02:03:04:05:06}}`

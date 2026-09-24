@@ -5,12 +5,12 @@
 
 - 익명으로 애플리케이션 설치 또는 업데이트:
 
-`steamcmd +login {{익명}} +app_update {{앱ID}} +quit`
+`steamcmd +login {{익명}} +app_update {{앱id}} +quit`
 
 - 지정된 자격 증명을 사용하여 애플리케이션 설치 또는 업데이트:
 
-`steamcmd +login {{사용자명}} +app_update {{앱ID}} +quit`
+`steamcmd +login {{사용자명}} +app_update {{앱id}} +quit`
 
 - 특정 플랫폼용 애플리케이션 설치:
 
-`steamcmd +@sSteamCmdForcePlatformType {{windows}} +login {{anonymous}} +app_update {{앱ID}} validate +quit`
+`steamcmd +@sSteamCmdForcePlatformType {{windows}} +login {{anonymous}} +app_update {{앱id}} validate +quit`

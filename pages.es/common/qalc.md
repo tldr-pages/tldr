@@ -6,15 +6,15 @@
 
 - Lanzamiento en modo [i]nteractivo:
 
-`qalc {{--interactive}}`
+`qalc {{[-i|--interactive]}}`
 
 - Ejecuta en modo [t]erse (solo imprime los resultados):
 
-`qalc --terse`
+`qalc {{[-t|--terse]}}`
 
 - Actualiza los tipos de cambio:
 
-`qalc --exrates`
+`qalc {{[-e|--exrates]}}`
 
 - Realiza cálculos de forma no interactiva:
 
@@ -26,4 +26,4 @@
 
 - Ejecuta comandos desde un archivo:
 
-`qalc --file {{ruta/al/archivo}}`
+`qalc {{[-f|--file]}} {{ruta/al/archivo}}`

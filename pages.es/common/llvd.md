@@ -5,16 +5,16 @@
 
 - Descarga un [c]urso utilizando la autenticación basada en cookies:
 
-`llvd -c {{nombre-de-curso}} --cookies`
+`llvd {{[-c|--course]}} {{nombre-de-curso}} --cookies`
 
 - Descarga un curso en una [r]esolución específica:
 
-`llvd -c {{nombre-de-curso}} -r 720`
+`llvd {{[-c|--course]}} {{nombre-de-curso}} {{[-r|--resolution]}} 720`
 
 - Descarga un curso con subtítulos:
 
-`llvd -c {{nombre-de-curso}} --caption`
+`llvd {{[-c|--course]}} {{nombre-de-curso}} {{[-ca|--caption]}}`
 
 - Descarga un [p]lan de curso con espera entre 10 y 30 segundos:
 
-`llvd -p {{nombre-de-plan}} -t {{10,30}} --cookies`
+`llvd {{[-p|--path]}} {{nombre-de-plan}} {{[-t|--throttle]}} {{10,30}} --cookies`

@@ -17,7 +17,7 @@
 
 - 그룹에 명령 추가 및 즉시 시작, 그룹 관리에 대해서는 `pueue group` 참고:
 
-`pueue add {{[-i|--immediate]}} {{[-g|--group]}} "{{CPU_집중}}" -- {{ffmpeg -i input.mp4 frame_%d.png}}`
+`pueue add {{[-i|--immediate]}} {{[-g|--group]}} "{{cpu_집중}}" -- {{ffmpeg -i input.mp4 frame_%d.png}}`
 
 - 명령 추가 및 9번과 12번 명령이 성공적으로 완료된 후 시작:
 

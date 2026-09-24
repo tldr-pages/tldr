@@ -6,15 +6,15 @@
 
 - Muestra las e[s]tadísticas de la caché actual:
 
-`ccache --show-stats`
+`ccache {{[-s|--show-stats]}}`
 
 - Borra toda la caché:
 
-`ccache --clear`
+`ccache {{[-C|--clear]}}`
 
 - Restablece ([z]ero) las estadísticas (pero no la propia caché):
 
-`ccache --zero-stats`
+`ccache {{[-z|--zero-stats]}}`
 
 - Compila código C y almacena la salida compilada en la caché (para usar `ccache` en todas las invocaciones de `gcc`, lea la nota anterior):
 

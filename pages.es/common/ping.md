@@ -1,6 +1,7 @@
 # ping
 
 > Envía paquetes ICMP ECHO_REQUEST (pings) a equipos (hosts) de la red.
+> Vea también: `mtr`.
 > Más información: <https://manned.org/ping>.
 
 - Envía pings a un host:

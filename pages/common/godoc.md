@@ -13,7 +13,7 @@
 
 - Serve documentation as a web server on port 6060:
 
-`godoc -http=:{{6060}}`
+`godoc -http=:6060`
 
 - Create an index file:
 

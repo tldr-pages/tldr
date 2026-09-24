@@ -3,7 +3,7 @@
 > Export structured data about your OpenTofu resources.
 > More information: <https://opentofu.org/docs/cli/commands/output/>.
 
-- With no additional arguments, `output` will display all outputs for the root module:
+- Display all outputs for the root module:
 
 `tofu output`
 

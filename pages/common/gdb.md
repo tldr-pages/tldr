@@ -9,7 +9,7 @@
 
 - Attach a process to `gdb`:
 
-`gdb {{[-p|--pid]}} {{procID}}`
+`gdb {{[-p|--pid]}} {{process_id}}`
 
 - Debug with a core file:
 

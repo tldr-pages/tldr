@@ -9,13 +9,13 @@
 
 `nmtui`
 
-- Toon een lijst met alle beschikbare verbindingen, met de optie om deze te activeren danwel te deactiveren:
+- Toon een lijst met alle beschikbare verbindingen, met de optie om deze te activeren dan wel te deactiveren:
 
 `nmtui connect`
 
 - Verbind met een gegeven netwerk:
 
-`nmtui connect {{naam|uuid|apparaat|SSID}}`
+`nmtui connect {{naam|uuid|apparaat|ssid}}`
 
 - Pas aan/Voeg toe/Verwijder een gegeven netwerk:
 

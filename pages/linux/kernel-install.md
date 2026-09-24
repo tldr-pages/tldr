@@ -3,14 +3,22 @@
 > Add and remove kernel and initrd images to and from `/boot`.
 > More information: <https://www.freedesktop.org/software/systemd/man/latest/kernel-install.html>.
 
-- Add kernel and initramfs images to bootloader partition:
+- Show the current kernel configuration that has been configured or auto-detected:
 
-`sudo kernel-install add {{kernel-version}} {{kernel-image}} {{path/to/initrd-file ...}}`
+`kernel-install`
 
-- Remove kernel from the bootloader partition:
+- Show the configuration for a specific kernel image:
 
-`sudo kernel-install remove {{kernel-version}}`
+`kernel-install inspect {{path/to/kernel_image}}`
 
-- Show various paths and parameters that have been configured or auto-detected:
+- Add a kernel to the bootloader partition:
 
-`sudo kernel-install inspect {{kernel-image}}`
+`sudo kernel-install add {{kernel_version}} {{path/to/kernel_image}}`
+
+- Add a kernel and initramfs images to the bootloader partition:
+
+`sudo kernel-install add {{kernel_version}} {{path/to/kernel_image}} {{path/to/initrd1 path/to/initrd2 ...}}`
+
+- Remove a kernel from the bootloader partition:
+
+`sudo kernel-install remove {{kernel_version}}`

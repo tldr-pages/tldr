@@ -17,11 +17,11 @@
 
 - Add a physical volume by its PVID:
 
-`sudo lvmdevices --addpvid {{PVID}}`
+`sudo lvmdevices --addpvid {{pvid}}`
 
 - Remove a physical volume by its PVID:
 
-`sudo lvmdevices --delpvid {{PVID}}`
+`sudo lvmdevices --delpvid {{pvid}}`
 
 - Update the devices file after device names change:
 

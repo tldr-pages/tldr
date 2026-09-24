@@ -1,6 +1,6 @@
 # ip
 
-> Show/manipulate routing, devices, policy routing and tunnels.
+> Show/manipulate routing, devices, policy routing, and tunnels.
 > Some subcommands such as `address` have their own usage documentation.
 > More information: <https://manned.org/ip.8>.
 
@@ -22,7 +22,7 @@
 
 - Show neighbors (ARP table):
 
-`ip {{[n|neighbour]}}`
+`ip {{[n|neighbor]}}`
 
 - Make an interface up/down:
 

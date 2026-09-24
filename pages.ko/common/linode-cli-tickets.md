@@ -14,8 +14,8 @@
 
 - 티켓에 대한 답변 목록 보기:
 
-`linode-cli tickets replies {{티켓_ID}}`
+`linode-cli tickets replies {{티켓_id}}`
 
 - 특정 티켓에 답장하기:
 
-`linode-cli tickets reply {{티켓_ID}} --description "{{답변 내용}}"`
+`linode-cli tickets reply {{티켓_id}} --description "{{답변 내용}}"`

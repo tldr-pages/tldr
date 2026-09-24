@@ -1,6 +1,6 @@
 # rehash
 
-> Tämä on alias komennolle `hash -r`.
+> Tämä on alias `hash -r` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

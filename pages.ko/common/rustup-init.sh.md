@@ -5,11 +5,11 @@
 
 - `rustup` 및 기본 Rust 툴체인을 설치하기 위해 `rustup-init` 다운로드 및 실행:
 
-`curl https://sh.rustup.rs -sSf | sh -s`
+`curl https://sh.rustup.rs {{[-sSf|--silent --show-error --fail]}} | sh -s`
 
 - `rustup-init` 다운로드 및 실행하고 인자를 전달:
 
-`curl https://sh.rustup.rs -sSf | sh -s -- {{인자}}`
+`curl https://sh.rustup.rs {{[-sSf|--silent --show-error --fail]}} | sh -s -- {{인자}}`
 
 - `rustup-init` 실행 및 추가 구성 요소나 타겟 지정하여 설치:
 

@@ -9,11 +9,11 @@
 
 - List all notes attached to a given object (defaults to `HEAD`):
 
-`git notes list [{{object}}]`
+`git notes list {{object}}`
 
 - Show the notes attached to a given object (defaults to `HEAD`):
 
-`git notes show [{{object}}]`
+`git notes show {{object}}`
 
 - Append a note to a specified object (opens the default text editor):
 
@@ -25,7 +25,7 @@
 
 - Edit an existing note (defaults to `HEAD`):
 
-`git notes edit [{{object}}]`
+`git notes edit {{object}}`
 
 - Copy a note from one object to another:
 

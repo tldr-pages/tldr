@@ -14,16 +14,16 @@
 
 - 하위 디렉터리를 포함한 디렉터리 업로드:
 
-`immich upload --recursive {{경로/대상/디렉터리}}`
+`immich upload {{[-r|--recursive]}} {{경로/대상/디렉터리}}`
 
 - 디렉터리를 기반으로 앨범 만들기:
 
-`immich upload --album-name "{{My summer holiday}}" --recursive {{경로/대상/디렉터리}}`
+`immich upload {{[-r|--recursive]}} {{경로/대상/디렉터리}} {{[-A|--album-name]}} "{{My summer holiday}}"`
 
 - glob 패턴과 일치하는 리소스 건너뛰기:
 
-`immich upload --ignore {{**/Raw/** **/*.tif}} --recursive {{경로/대상/디렉터리}}`
+`immich upload {{[-r|--recursive]}} {{경로/대상/디렉터리}} {{[-i|--ignore]}} {{**/Raw/** **/*.tif}}`
 
 - 숨겨진 파일 포함:
 
-`immich upload --include-hidden --recursive {{경로/대상/디렉터리}}`
+`immich upload {{[-r|--recursive]}} {{경로/대상/디렉터리}} {{[-H|--include-hidden]}}`

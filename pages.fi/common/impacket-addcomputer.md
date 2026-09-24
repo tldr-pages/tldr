@@ -1,6 +1,6 @@
 # impacket-addcomputer
 
-> Tämä on alias komennolle `addcomputer.py`.
+> Tämä on alias `addcomputer.py` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

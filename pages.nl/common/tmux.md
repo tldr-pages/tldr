@@ -2,7 +2,7 @@
 
 > Terminal multiplexer.
 > Het maakt meerdere sessies met vensters, panes en meer mogelijk.
-> Zie ook: `zellij`, `screen`.
+> Zie ook: `zellij`, `screen`, `herdr`.
 > Meer informatie: <https://github.com/tmux/tmux>.
 
 - Start een nieuwe sessie:
@@ -25,7 +25,7 @@
 
 `<Ctrl b><d>`
 
-- Creëer een nieuwe venster (binnen een tmux sessie):
+- Creëer een nieuw venster (binnen een tmux sessie):
 
 `<Ctrl b><c>`
 

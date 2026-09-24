@@ -13,7 +13,7 @@
 
 - 특정 호스트에 VM 부팅:
 
-`nova boot --nic net-id={{네트워크_ID}} --image {{이미지_ID}} --flavor {{플레이버}} --availability-zone nova:{{호스트_이름}} {{VM_이름}}`
+`nova boot --nic net-id={{네트워크_id}} --image {{이미지_id}} --flavor {{플레이버}} --availability-zone nova:{{호스트_이름}} {{VM_이름}}`
 
 - 서버 시작:
 
@@ -25,4 +25,4 @@
 
 - 특정 VM에 네트워크 인터페이스 연결:
 
-`nova interface-attach --net-id {{네트워크_ID}} {{서버}}`
+`nova interface-attach --net-id {{네트워크_id}} {{서버}}`

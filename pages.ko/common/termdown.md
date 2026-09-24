@@ -13,12 +13,12 @@
 
 - 1분 30초 카운트다운을 시작하고 종료 시 터미널 깜빡이기:
 
-`termdown {{1m30s}} --blink`
+`termdown 1m30s {{[-b|--blink]}}`
 
 - 카운트다운 위에 제목 표시:
 
-`termdown {{1m30s}} --title "{{흥미로운 제목}}"`
+`termdown {{1m30s}} {{[-T|--title]}} "{{흥미로운 제목}}"`
 
 - 현재 시간 표시:
 
-`termdown --time`
+`termdown {{[-z|--time]}}`

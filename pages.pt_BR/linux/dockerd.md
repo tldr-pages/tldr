@@ -9,16 +9,16 @@
 
 - Executa o daemon do Docker e configurá-lo para escutar em sockets específicos (UNIX e TCP):
 
-`dockerd --host unix://{{caminho/para/tmp.sock}} --host tcp://{{ip}}`
+`dockerd {{[-H|--host]}} unix://{{caminho/para/tmp.sock}} {{[-H|--host]}} tcp://{{ip}}`
 
 - Executa com um arquivo PID específico para o daemon:
 
-`dockerd --pidfile {{caminho/para/arquivo_pid}}`
+`dockerd {{[-p|--pidfile]}} {{caminho/para/arquivo_pid}}`
 
 - Executa no modo de depuração:
 
-`dockerd --debug`
+`dockerd {{[-D|--debug]}}`
 
 - Executa e define um nível de log específico:
 
-`dockerd --log-level {{debug|info|warn|error|fatal}}`
+`dockerd {{[-l|--log-level]}} {{debug|info|warn|error|fatal}}`

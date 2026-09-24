@@ -17,11 +17,11 @@
 
 - Mueve los archivos duplicados en un archivo de texto a un directorio diferente:
 
-`fclones move {{ruta/al/directorio_objetivo}} < {{ruta/al/archivo.txt}}`
+`fclones < {{ruta/al/archivo.txt}} move {{ruta/al/directorio_objetivo}}`
 
 - Simula un enlace simbólico a un archivo de texto sin realmente enlazarlo:
 
-`fclones link --soft < {{ruta/al/archivo.txt}} --dry-run 2> /dev/null`
+`fclones < {{ruta/al/archivo.txt}} link --soft --dry-run 2 > /dev/null`
 
 - Elimina los archivos duplicados más recientes en el directorio actual sin almacenarlos en un archivo:
 

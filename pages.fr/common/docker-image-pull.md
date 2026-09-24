@@ -21,4 +21,4 @@
 
 - Affiche l'aide :
 
-`docker {{[pull|image pull]}} {{[-h|--help]}}`
+`docker {{[pull|image pull]}} --help`

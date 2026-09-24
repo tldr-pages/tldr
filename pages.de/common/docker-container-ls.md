@@ -25,7 +25,7 @@
 
 - Zeige nur Container mit einem bestimmten Exit-Code:
 
-`docker {{[ps|container ls]}} {{[-a|--all]}} {{[-f|--filter]}} "exited={{code}}"`
+`docker {{[ps|container ls]}} {{[-f|--filter]}} "exited={{code}}" {{[-a|--all]}}`
 
 - Zeige nur Container mit einem bestimmten Status (created, running, removing, paused, exited und dead):
 

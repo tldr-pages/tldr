@@ -4,7 +4,7 @@
 > Note: You'll most likely need to run with `sudo` if you don't have the necessary permissions.
 > More information: <https://keith.github.io/xcode-man-pages/automount.8.html>.
 
-- Run automount, flush the cache(`-c`) beforehand, and be verbose(`-v`) about it (most common use):
+- Run automount, flush the [c]ache beforehand, and be [v]erbose about it (most common use):
 
 `automount -cv`
 
@@ -12,6 +12,6 @@
 
 `automount -t 300`
 
-- Unmount anything previously mounted by automount and/or defined in `/etc/auto_master`:
+- [u]nmount anything previously mounted by automount and/or defined in `/etc/auto_master`:
 
 `automount -u`

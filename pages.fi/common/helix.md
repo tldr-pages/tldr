@@ -1,6 +1,6 @@
 # helix
 
-> Tämä on alias komennolle `hx`.
+> Tämä on alias `hx` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

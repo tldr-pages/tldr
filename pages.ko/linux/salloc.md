@@ -13,4 +13,4 @@
 
 - 지정된 제약 조건을 충족하는 노드만 할당:
 
-`salloc --constraint={{(amd|intel)&gpu}}`
+`salloc {{[-C|--constraint]}} {{(amd|intel)&gpu}}`

@@ -13,7 +13,7 @@
 
 - 현재 병합 상태 확인:
 
-`systemd-sysext status`
+`systemd-sysext`
 
 - 현재 설치된 모든 시스템 확장 이미지를 `/usr/` 및 `/opt/`에서 제거:
 

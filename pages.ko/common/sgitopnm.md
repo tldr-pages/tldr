@@ -9,8 +9,8 @@
 
 - SGI 파일에 대한 정보 표시:
 
-`sgitopnm -verbose {{경로/대상/입력.sgi}} > {{경로/대상/출력.pnm}}`
+`sgitopnm {{[-verb|-verbose]}} {{경로/대상/입력.sgi}} > {{경로/대상/출력.pnm}}`
 
 - SGI 파일의 n 채널 추출:
 
-`sgitopnm -channel {{n}} {{경로/대상/입력.sgi}} > {{경로/대상/출력.pnm}}`
+`sgitopnm {{[-c|-channel]}} {{n}} {{경로/대상/입력.sgi}} > {{경로/대상/출력.pnm}}`

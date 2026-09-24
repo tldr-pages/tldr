@@ -1,16 +1,17 @@
 # devfsadm
 
-> Administration command for `/dev`. Maintains the `/dev` namespace.
+> Administer `/dev`.
+> Maintains the `/dev` namespace.
 > More information: <https://www.unix.com/man-page/sunos/1m/devfsadm>.
 
 - Scan for new disks:
 
 `devfsadm -c disk`
 
-- Cleanup any dangling /dev links and scan for new device:
+- Cleanup any dangling `/dev` links and scan for new devices:
 
 `devfsadm -C -v`
 
-- Dry-run - output what would be changed but make no modifications:
+- Simulate what would happen but make no modifications:
 
 `devfsadm -C -v -n`

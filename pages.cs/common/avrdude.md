@@ -5,11 +5,11 @@
 
 - P[r]ečíst flash ROM AVR mikrořadiče s konkrétním ID součástky:
 
-`avrdude -p {{cislo_soucastky}} -c {{id_programatora}} -U flash:r:{{soubor.hex}}:i`
+`avrdude -p {{part_id}} -c {{id_programatora}} -U flash:r:{{soubor.hex}}:i`
 
 - Zapsat do flash ROM AVR mikrořadiče:
 
-`avrdude -p {{cislo_soucastky}} -c {{programator}} -U flash:w:{{file.hex}}`
+`avrdude -p {{part_id}} -c {{programator}} -U flash:w:{{file.hex}}`
 
 - Vypsat dostupné AVR zařízení:
 

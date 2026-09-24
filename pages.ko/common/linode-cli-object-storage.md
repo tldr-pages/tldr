@@ -10,11 +10,11 @@
 
 - 새 오브젝트 스토리지 버킷 생성:
 
-`linode-cli object-storage buckets create --cluster {{클러스터_ID}} --label {{버킷_레이블}}`
+`linode-cli object-storage buckets create --cluster {{클러스터_id}} --label {{버킷_레이블}}`
 
 - 오브젝트 스토리지 버킷 삭제:
 
-`linode-cli object-storage buckets delete {{클러스터_ID}} {{버킷_레이블}}`
+`linode-cli object-storage buckets delete {{클러스터_id}} {{버킷_레이블}}`
 
 - 오브젝트 스토리지 클러스터 지역 나열:
 
@@ -30,4 +30,4 @@
 
 - 오브젝트 스토리지에 대한 액세스 키 해제:
 
-`linode-cli object-storage keys revoke {{액세스_키_ID}}`
+`linode-cli object-storage keys revoke {{액세스_키_id}}`

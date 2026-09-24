@@ -13,11 +13,11 @@
 
 - 요약된 시스템 토폴로지를 [p]hysical 인덱스만 사용하여 표시 (즉, OS에서 보는 것처럼):
 
-`lstopo --physical`
+`lstopo {{[-p|--physical]}}`
 
 - 지정된 형식으로 파일에 전체 시스템 토폴로지 작성:
 
-`lstopo --no-factorize --output-format {{콘솔|ascii|tex|fig|svg|pdf|ps|png|xml}} {{경로/대상/파일}}`
+`lstopo --no-factorize {{[--of|--output-format]}} {{콘솔|ascii|tex|fig|svg|pdf|ps|png|xml}} {{경로/대상/파일}}`
 
 - 단색 또는 회색조로 출력:
 

@@ -17,11 +17,11 @@
 
 - 특정 포트를 수신하며 대화형 장치 모니터 시작:
 
-`pio device monitor --port {{/dev/ttyUSBX}}`
+`pio device monitor {{[-p|--port]}} {{/dev/ttyUSBX}}`
 
 - 특정 전송 속도를 설정하여 대화형 장치 모니터 시작 (기본값은 9600):
 
-`pio device monitor --baud {{57600}}`
+`pio device monitor {{[-b|--baud]}} {{57600}}`
 
 - 특정 EOL 문자를 설정하여 대화형 장치 모니터 시작 (기본값은 `CRLF`):
 

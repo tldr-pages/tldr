@@ -11,7 +11,7 @@
 
 `aws kinesis put-record --stream-name {{이름}} --partition-key {{키}} --data {{base64로_인코딩된_메시지}}`
 
-- 인라인 base64 인코딩을 사용하여 Kinesis 스트림에 레코드를 씀:
+- 인라인 Base64 인코딩을 사용하여 Kinesis 스트림에 레코드를 씀:
 
 `aws kinesis put-record --stream-name {{이름}} --partition-key {{키}} --data "$( echo "{{my raw message}}" | base64 )"`
 

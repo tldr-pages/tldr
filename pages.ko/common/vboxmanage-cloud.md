@@ -9,7 +9,7 @@
 
 - 새 인스턴스 생성:
 
-`VBoxManage cloud --provider={{제공자_이름}} --profile={{프로필_이름}} instance create --domain-name={{도메인_이름}} --image-id={{이미지_id}} | {{--옵션...}}`
+`VBoxManage cloud --provider={{제공자_이름}} --profile={{프로필_이름}} instance create --domain-name={{도메인_이름}} --image-id={{이미지_id}}`
 
 - 특정 인스턴스에 대한 정보 수집:
 

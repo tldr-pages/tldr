@@ -1,6 +1,6 @@
 # lzmore
 
-> Tämä on alias komennolle `xzmore`.
+> Tämä on alias `xzmore` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

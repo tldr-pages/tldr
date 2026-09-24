@@ -1,6 +1,6 @@
 # jira sprints
 
-> Tämä on alias komennolle `jira sprint`.
+> Tämä on alias `jira sprint` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

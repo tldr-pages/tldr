@@ -26,4 +26,4 @@
 
 - 프로젝트의 로그를 실시간으로 추적:
 
-`serverless logs -t`
+`serverless logs {{[-t|--tail]}}`

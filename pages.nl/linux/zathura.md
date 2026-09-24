@@ -20,7 +20,7 @@
 
 `<Ctrl r>`
 
-- Zoek voor tekst met een string:
+- Zoek naar tekst met een opgegeven string:
 
 `</>{{string}}`
 
@@ -31,3 +31,7 @@
 - Toon bookmarks:
 
 `<:>blist<Enter>`
+
+- Volg links:
+
+`<f>{{link_nummer}}<Enter>`

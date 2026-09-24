@@ -17,7 +17,7 @@
 
 - `.backup` 확장자를 가진 모든 파일 삭제:
 
-`find . -name {{'*.backup'}} | xe rm -v`
+`find . -name '{{*.backup}}' | xe rm -v`
 
 - 최대 `max-jobs` 프로세스를 병렬로 실행; 기본값은 1. `max-jobs`가 0이면 xe는 CPU 코어 수만큼 프로세스를 실행:
 

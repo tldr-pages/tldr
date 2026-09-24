@@ -13,7 +13,7 @@
 
 - 확장 취소 게시:
 
-`vsce unpublish {{확장_ID}}`
+`vsce unpublish {{확장_id}}`
 
 - 현재 작업 디렉토리를 `.vsix` 파일로 패키징:
 
@@ -21,4 +21,4 @@
 
 - 확장과 관련된 메타데이터 표시:
 
-`vsce show {{확장_ID}}`
+`vsce show {{확장_id}}`

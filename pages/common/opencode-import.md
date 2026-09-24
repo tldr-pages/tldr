@@ -9,7 +9,7 @@
 
 - Import from a share URL:
 
-`opencode import {{URL}}`
+`opencode import {{url}}`
 
 - Display help:
 

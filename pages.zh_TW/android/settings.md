@@ -5,7 +5,7 @@
 
 - 在 `global` 命名空間中顯示環境變數列表：
 
-`settings list {{global}}`
+`settings list global`
 
 - 獲取指定環境變數的值：
 

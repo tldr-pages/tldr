@@ -7,7 +7,7 @@
 
 `docker {{[rm|container rm]}} {{container1 container2 ...}}`
 
-- Verwijdeer een container geforceerd:
+- Verwijder een container geforceerd:
 
 `docker {{[rm|container rm]}} {{[-f|--force]}} {{container1 container2 ...}}`
 
@@ -17,4 +17,4 @@
 
 - Toon de help:
 
-`docker {{[rm|container rm]}} {{[-h|--help]}}`
+`docker {{[rm|container rm]}} --help`

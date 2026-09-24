@@ -9,7 +9,7 @@
 
 - Calcola e salva l'elenco dei checksum BLAKE2 in un file:
 
-`b2sum {{percorso/del/file1 percorso/del/file2 ...}} > {{percorso/del/file}}.b2`
+`b2sum {{percorso/del/file1 percorso/del/file2 ...}} > {{percorso/del/file.b2}}`
 
 - Calcola un checksum BLAKE2 da `stdin`:
 
@@ -17,15 +17,15 @@
 
 - Legge un file di checksum BLAKE2 e nomi di file e verifica che tutti i file abbiano checksum corrispondenti:
 
-`b2sum {{[-c|--check]}} {{percorso/del/file}}.b2`
+`b2sum {{[-c|--check]}} {{percorso/del/file.b2}}`
 
 - Mostra un messaggio solo per file mancanti o quando la verifica fallisce:
 
-`b2sum {{[-c|--check]}} --quiet {{percorso/del/file}}.b2`
+`b2sum {{[-c|--check]}} --quiet {{percorso/del/file.b2}}`
 
 - Mostra un messaggio solo quando la verifica fallisce, ignorando i file mancanti:
 
-`b2sum --ignore-missing {{[-c|--check]}} --quiet {{percorso/del/file}}.b2`
+`b2sum --ignore-missing {{[-c|--check]}} --quiet {{percorso/del/file.b2}}`
 
 - Verifica un checksum BLAKE2 noto di un file:
 

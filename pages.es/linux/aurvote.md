@@ -14,12 +14,12 @@
 
 - Retira el voto de uno o más paquetes del AUR:
 
-`aurvote --unvote {{paquete1 paquete2 ...}}`
+`aurvote {{[-u|--unvote]}} {{paquete1 paquete2 ...}}`
 
 - Verifica si uno o más paquetes del AUR ya han sido votados:
 
-`aurvote --check {{paquete1 paquete2 ...}}`
+`aurvote {{[-c|--check]}} {{paquete1 paquete2 ...}}`
 
 - Muestra la ayuda:
 
-`aurvote --help`
+`aurvote {{[-h|--help]}}`

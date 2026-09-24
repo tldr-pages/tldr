@@ -17,4 +17,4 @@
 
 - 도움말 표시:
 
-`docker {{[rm|container rm]}} {{[-h|--help]}}`
+`docker {{[rm|container rm]}} --help`

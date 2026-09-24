@@ -9,11 +9,11 @@
 
 - 모든 업데이트에 대해 '예'라고 응답:
 
-`topgrade -y`
+`topgrade {{[-y|--yes]}}`
 
 - 임시/오래된 파일 정리:
 
-`topgrade -c`
+`topgrade {{[-c|--cleanup]}}`
 
 - 특정 업데이트 작업 비활성화:
 

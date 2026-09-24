@@ -1,6 +1,6 @@
 # impacket-rpcmap
 
-> Tämä on alias komennolle `rpcmap.py`.
+> Tämä on alias `rpcmap.py` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

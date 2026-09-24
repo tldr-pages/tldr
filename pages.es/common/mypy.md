@@ -9,15 +9,15 @@
 
 - Comprueba un [m]ódulo específico:
 
-`mypy -m {{nombre_del_módulo}}`
+`mypy {{[-m|--module]}} {{nombre_del_módulo}}`
 
 - Comprueba un [p]aquete específico:
 
-`mypy -p {{nombre_del_paquete}}`
+`mypy {{[-p|--package]}} {{nombre_del_paquete}}`
 
 - Comprueba una cadena de código:
 
-`mypy -c "{{código}}"`
+`mypy {{[-c|--command]}} "{{código}}"`
 
 - Ignora importaciones faltantes:
 
@@ -25,12 +25,12 @@
 
 - Muestra mensajes de error detallados:
 
-`mypy --show-traceback {{ruta/al/archivo_o_directorio}}`
+`mypy {{[--tb|--show-traceback]}} {{ruta/al/archivo_o_directorio}}`
 
 - Especifica un archivo de configuración personalizado:
 
 `mypy --config-file {{ruta/al/archivo_de_configuración}}`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
-`mypy -h`
+`mypy {{[-h|--help]}}`

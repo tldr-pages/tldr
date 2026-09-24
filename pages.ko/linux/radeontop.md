@@ -11,12 +11,12 @@
 
 - 색상 출력 활성화:
 
-`radeontop --color`
+`radeontop {{[-c|--color]}}`
 
 - 특정 GPU 선택 (버스 번호는 `lspci` 출력의 첫 번째 숫자입니다):
 
-`radeontop --bus {{버스_번호}}`
+`radeontop {{[-b|--bus]}} {{버스_번호}}`
 
 - 화면 새로고침 빈도 지정 (값이 클수록 GPU 오버헤드가 증가):
 
-`radeontop --ticks {{초당_샘플_수}}`
+`radeontop {{[-t|--ticks]}} {{초당_샘플_수}}`

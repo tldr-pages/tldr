@@ -10,7 +10,7 @@
 
 - 사용자 정의 주소와 포트에 바인딩하여 `mitmproxy` 시작:
 
-`mitmproxy --listen-host {{IP_주소}} {{[-p|--listen-port]}} {{포트}}`
+`mitmproxy --listen-host {{ip_주소}} {{[-p|--listen-port]}} {{포트}}`
 
 - 스크립트를 사용하여 트래픽을 처리하는 `mitmproxy` 시작:
 

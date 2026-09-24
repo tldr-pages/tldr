@@ -3,14 +3,14 @@
 > Interactúa con características de Chocolatey.
 > Más información: <https://docs.chocolatey.org/en-us/choco/commands/feature/>.
 
-- Mostrar una lista de características disponibles:
+- Muestra una lista de características disponibles:
 
 `choco feature list`
 
-- Habilitar una característica:
+- Habilita una característica:
 
-`choco feature enable --name {{nombre}}`
+`choco feature enable {{[-n|--name]}} {{nombre}}`
 
-- Deshabilitar una característica:
+- Deshabilita una característica:
 
-`choco feature disable --name {{nombre}}`
+`choco feature disable {{[-n|--name]}} {{nombre}}`

@@ -7,6 +7,6 @@
 
 `nix why-depends {{/run/current-system}} /nix/store/{{checksum-package-version.ext}}`
 
-- 显示 nixpkgs 中的某个包为何将另一个包作为**构建时**依赖：
+- 显示 nixpkgs 中的某个包为何将另一个包作为构建时依赖：
 
 `nix why-depends --derivation {{nixpkgs#dependent}} {{nixpkgs#dependency}}`

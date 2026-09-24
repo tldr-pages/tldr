@@ -5,7 +5,7 @@
 
 - Liste tous les alias pour lesquels `gh` est configuré :
 
-`gh alias list`
+`gh alias {{[ls|list]}}`
 
 - Crée un alias de sous-commande pour `gh` :
 
@@ -13,7 +13,7 @@
 
 - Définit une commande shell comme sous-commande de `gh` :
 
-`gh alias set --shell {{nom_de_l'alias}} {{commande}}`
+`gh alias set {{[-s|--shell]}} {{nom_de_l'alias}} {{commande}}`
 
 - Supprime un alias :
 

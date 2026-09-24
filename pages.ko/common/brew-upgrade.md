@@ -13,4 +13,4 @@
 
 - 업그레이드할 항목을 인쇄하되, 실제로는 아무것도 업그레이드 하지 않음:
 
-`brew upgrade --dry-run`
+`brew upgrade {{[-n|--dry-run]}}`

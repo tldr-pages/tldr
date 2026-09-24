@@ -10,7 +10,7 @@
 
 - 모든 컨테이너를 기본 패키지 관리자를 사용하여 업그레이드:
 
-`distrobox-upgrade --all`
+`distrobox-upgrade {{[-a|--all]}}`
 
 - 특정 컨테이너를 기본 패키지 관리자를 통해 업그레이드:
 

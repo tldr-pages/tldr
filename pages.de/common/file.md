@@ -4,22 +4,26 @@
 > Siehe auch: `stat`.
 > Weitere Informationen: <https://manned.org/file>.
 
-- Gibt eine Beschreibung des Typs der angegebenen Datei zurück. Funktioniert bei Dateien ohne Dateiendung:
+- Gib eine Beschreibung des Typs der angegebenen Datei zurück. Funktioniert bei Dateien ohne Dateiendung:
 
-`file {{dateiname}}`
+`file {{pfad/zu/datei}}`
 
-- Bestimmt die Dateityp(en) in einer gezippten Datei:
+- Zeige den Dateipfad nich an:
 
-`file {{[-z|--uncompress]}} {{archiv.zip}}`
+`file {{[-b|--brief]}} {{pfad/zu/datei}}`
 
-- Zulassen, dass die Datei mit speziellen oder Gerätedateien arbeitet:
+- Bestimme die Dateityp(en) in einer gezippten Datei:
 
-`file {{[-s|--special-files]}} {{dateiname}}`
+`file {{[-z|--uncompress]}} {{pfad/zu/datei.zip}}`
 
-- Hört nicht bei der ersten Dateityp-Übereinstimmung auf; weitermachen bis zum Ende der Datei:
+- Lasse zu, dass die Datei mit speziellen oder Gerätedateien arbeitet:
 
-`file {{[-k|--keep-going]}} {{dateiname}}`
+`file {{[-s|--special-files]}} {{pfad/zu/datei}}`
 
-- Bestimmen des MIME-Codierungstyp einer Datei:
+- Höre nicht bei der ersten Dateityp-Übereinstimmung auf; mache bis zum Ende der Datei weiter:
 
-`file {{[-i|--mime]}} {{dateiname}}`
+`file {{[-k|--keep-going]}} {{pfad/zu/datei}}`
+
+- Bestimme den MIME-Codierungstyp einer Datei:
+
+`file {{[-i|--mime]}} {{pfad/zu/datei}}`

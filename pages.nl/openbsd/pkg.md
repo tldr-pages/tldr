@@ -7,10 +7,10 @@
 
 `tldr pkg_add`
 
-- Bekijk de documentatie voor het verwijderen van pakketen:
+- Bekijk de documentatie voor het verwijderen van pakketten:
 
 `tldr pkg_delete`
 
-- Bekijk de documentatie voor het bekijken van informatie over pakketen:
+- Bekijk de documentatie voor het bekijken van informatie over pakketten:
 
 `tldr pkg_info`

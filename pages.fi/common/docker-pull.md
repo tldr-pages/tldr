@@ -1,6 +1,6 @@
 # docker pull
 
-> Tämä on alias komennolle `docker image pull`.
+> Tämä on alias `docker image pull` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

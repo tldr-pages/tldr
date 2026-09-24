@@ -10,12 +10,12 @@
 
 - 화면 잠금 시 잠금 해제 표시기 비활성화 (키 입력 시 피드백 제거):
 
-`blurlock --no-unlock-indicator`
+`blurlock {{[-u|--no-unlock-indicator]}}`
 
 - 화면 잠금 시 마우스 포인터 숨김 해제:
 
-`blurlock --pointer {{default}}`
+`blurlock {{[-p|--pointer]}} {{default}}`
 
 - 화면 잠금 시 로그인 실패 횟수 표시:
 
-`blurlock --show-failed-attempts`
+`blurlock {{[-f|--show-failed-attempts]}}`

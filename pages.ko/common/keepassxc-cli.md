@@ -13,7 +13,7 @@
 
 - 자동 생성된 비밀번호로 항목 추가:
 
-`keepassxc-cli add --generate {{경로/대상/데이터베이스_파일}} {{항목_이름}}`
+`keepassxc-cli add {{[-g|--generate]}} {{경로/대상/데이터베이스_파일}} {{항목_이름}}`
 
 - 항목 삭제:
 
@@ -25,12 +25,12 @@
 
 - TOTP 코드를 클립보드에 복사:
 
-`keepassxc-cli clip --totp {{경로/대상/데이터베이스_파일}} {{항목_이름}}`
+`keepassxc-cli clip {{[-t|--totp]}} {{경로/대상/데이터베이스_파일}} {{항목_이름}}`
 
 - 7개의 단어로 구성된 구문 생성:
 
-`keepassxc-cli diceware --words {{7}}`
+`keepassxc-cli diceware {{[-W|--words]}} 7`
 
 - 16개의 출력 가능한 ASCII 문자로 비밀번호 생성:
 
-`keepassxc-cli generate --lower --upper --numeric --special --length {{16}}`
+`keepassxc-cli generate {{[-lUns|--lower --upper --numeric --special]}} {{[-L|--length]}} 16`

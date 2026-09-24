@@ -2,6 +2,7 @@
 
 > Stampa e concatena file.
 > Un clone di `cat` con syntax highlighting e integrazione Git.
+> Vedi anche: `cat`.
 > Maggiori informazioni: <https://manned.org/bat>.
 
 - Stampa in modo formattato i contenuti di uno o più file su `stdout`:
@@ -12,9 +13,9 @@
 
 `bat {{percorso/del/file1 percorso/del/file2 ...}} > {{percorso/del/file_destinazione}}`
 
-- Rimuove decorazioni e disabilita paging (`--style plain` può essere sostituito con `-p`, o entrambe le opzioni con `-pp`):
+- Rimuove decorazioni e disabilita paging:
 
-`bat --style plain --pager never {{percorso/del/file}}`
+`bat {{[-pp|--style plain --pager never]}} {{percorso/del/file}}`
 
 - Evidenzia una riga specifica o un intervallo di righe con un colore di sfondo diverso:
 

@@ -1,6 +1,6 @@
 # llvm-lipo
 
-> Tämä on alias komennolle `lipo`.
+> Tämä on alias `lipo` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

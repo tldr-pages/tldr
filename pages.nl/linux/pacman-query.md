@@ -1,16 +1,15 @@
 # pacman --query
 
-> Arch Linux pakketbeheer hulpprogramma.
-> Zie ook: `pacman`.
+> Raadpleeg de lokale pakketdatabase.
 > Meer informatie: <https://manned.org/pacman.8>.
 
-- [Q]uery de lokale pakkettendatabase en toon geïnstalleerde pakketten en versies:
+- [Q]uery de lokale pakketdatabase en toon geïnstalleerde pakketten en versies:
 
 `pacman -Q`
 
-- Toon alleen pakketten en versies welke [e]xpliciet geïnstalleerd zijn:
+- Toon alleen pakketten die [e]xpliciet geïnstalleerd zijn zonder versienummers:
 
-`pacman -Qe`
+`pacman -Qeq`
 
 - Zoek welk pakket een bestand bezit ([o]):
 
@@ -28,7 +27,7 @@
 
 `pacman -Qdtq`
 
-- Toon geïnstalleerde pakketten foreign ([m]) voor de repository database:
+- Toon geïnstalleerde pakketten die vreemd ([m]) zijn aan de repository database:
 
 `pacman -Qm`
 

@@ -26,3 +26,7 @@
 - Set a display as primary display:
 
 `kscreen-doctor output.{{HDMI-A-1}}.primary`
+
+- Display help:
+
+`kscreen-doctor {{[-h|--help]}}`

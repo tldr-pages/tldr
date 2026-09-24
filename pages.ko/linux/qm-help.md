@@ -5,8 +5,8 @@
 
 - 특정 명령에 대한 도움말 표시:
 
-`qm help {{명령어}}`
+`qm {{[h|help]}} {{명령어}}`
 
 - 자세한 정보와 함께 특정 명령에 대한 도움말 표시:
 
-`qm help {{명령어}} --verbose {{true|false}}`
+`qm {{[h|help]}} {{명령어}} --verbose {{true|false}}`

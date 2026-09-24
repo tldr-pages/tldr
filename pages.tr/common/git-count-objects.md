@@ -9,12 +9,12 @@
 
 - Tüm cisimleri say ve toplam disk tüketimlerini insanların okuyabileceği biçimde görüntüle:
 
-`git count-objects --human-readable`
+`git count-objects {{[-H|--human-readable]}}`
 
 - Daha fazla ayrıntı görüntüle:
 
-`git count-objects --verbose`
+`git count-objects {{[-v|--verbose]}}`
 
 - Daha fazla ayrıntıyı insanların okuyabileceği biçimde görüntüle:
 
-`git count-objects --human-readable --verbose`
+`git count-objects {{[-H|--human-readable]}} {{[-v|--verbose]}}`

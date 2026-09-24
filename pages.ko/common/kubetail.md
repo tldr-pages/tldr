@@ -9,12 +9,12 @@
 
 - 여러 포드에서 특정 컨테이너의 로그만 추적:
 
-`kubetail {{my_app}} -c {{my_container}}`
+`kubetail {{my_app}} {{[-c|--container]}} {{my_container}}`
 
 - 여러 포드에서 여러 컨테이너의 로그를 추적:
 
-`kubetail {{my_app}} -c {{my_container_1}} -c {{my_container_2}}`
+`kubetail {{my_app}} {{[-c|--container]}} {{my_container_1}} {{[-c|--container]}} {{my_container_2}}`
 
 - 여러 애플리케이션의 로그를 동시에 추적하려면 쉼표로 구분:
 
-`kubetail {{my_app_1}},{{my_app_2}}`
+`kubetail {{my_app_1,my_app_2,...}}`

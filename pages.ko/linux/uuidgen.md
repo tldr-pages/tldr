@@ -6,12 +6,12 @@
 
 - 무작위 UUIDv4 생성:
 
-`uuidgen --random`
+`uuidgen {{[-r|--random]}}`
 
 - 현재 시간을 기반으로 UUIDv1 생성:
 
-`uuidgen --time`
+`uuidgen {{[-t|--time]}}`
 
 - 지정된 네임스페이스 접두사를 가진 이름의 UUIDv5 생성:
 
-`uuidgen --sha1 --namespace {{@dns|@url|@oid|@x500}} --name {{객체_이름}}`
+`uuidgen {{[-s|--sha1]}} {{[-n|--namespace]}} {{@dns|@url|@oid|@x500}} {{[-N|--name]}} {{객체_이름}}`

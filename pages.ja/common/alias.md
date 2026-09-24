@@ -23,8 +23,8 @@
 
 - `rm` を対話型にする:
 
-`alias {{rm}}="{{rm -i}}"`
+`alias rm="rm -i"`
 
 - `ls -a` のショートカットして `la` を作成する:
 
-`alias {{la}}="{{ls -a}}"`
+`alias la="ls -a"`

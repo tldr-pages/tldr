@@ -6,24 +6,24 @@
 
 - Atualiza o banco de dados de pacotes:
 
-`sudo pacman --files --refresh`
+`sudo pacman -Fy`
 
 - Procura o pacote que possui um arquivo específico:
 
-`pacman --files {{nome_arquivo}}`
+`pacman -F {{nome_arquivo}}`
 
 - Encontra o pacote que possui um arquivo específico, usando uma expressão regular:
 
-`pacman --files --regex '{{expressao_regular}}'`
+`pacman -Fx '{{expressao_regular}}'`
 
 - Lista apenas os nomes de pacotes:
 
-`pacman --files --quiet {{nome_arquivo}}`
+`pacman -Fq {{nome_arquivo}}`
 
 - Lista os arquivos de um pacote específico:
 
-`pacman --files --list {{pacote}}`
+`pacman -Fl {{pacote}}`
 
 - Exibe ajuda:
 
-`pacman --files --help`
+`pacman -Fh`

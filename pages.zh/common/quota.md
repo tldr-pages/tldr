@@ -5,20 +5,20 @@
 
 - 以人类可读的单位显示当前用户的磁盘配额：
 
-`quota -s`
+`quota {{[-s|--human-readable]}}`
 
 - 详细输出（同时显示未分配存储的文件系统上的配额）：
 
-`quota -v`
+`quota {{[-v|--verbose]}}`
 
 - 安静输出（仅显示使用超过配额的文件系统上的配额）：
 
-`quota -q`
+`quota {{[-q|--quiet]}}`
 
 - 打印当前用户所属组的配额：
 
-`quota -g`
+`quota {{[-g|--group]}}`
 
 - 显示其他用户的磁盘配额：
 
-`sudo quota -u {{用户名}}`
+`sudo quota {{[-u|--user]}} {{用户名}}`

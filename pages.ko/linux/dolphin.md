@@ -30,4 +30,4 @@
 
 - 도움말 표시:
 
-`dolphin --help`
+`dolphin {{[-h|--help]}}`

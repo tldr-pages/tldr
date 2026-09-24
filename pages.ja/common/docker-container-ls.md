@@ -25,7 +25,7 @@
 
 - 終了コードでコンテナをフィルタリングする:
 
-`docker {{[ps|container ls]}} {{[-a|--all]}} {{[-f|--filter]}} "exited={{コード}}"`
+`docker {{[ps|container ls]}} {{[-f|--filter]}} "exited={{コード}}" {{[-a|--all]}}`
 
 - 以下のいずれかのステータスでフィルタリングする(created, running, removing, paused, exited, dead):
 

@@ -14,7 +14,7 @@
 
 - Izinkan peringatan dan simbol debug dalam output:
 
-`g++ {{jalan/menuju/sumber.cpp}} -Wall {{-g|--debug}} -Og {{[-o|--output]}} {{jalan/menuju/program}}`
+`g++ {{jalan/menuju/sumber.cpp}} -Wall {{[-g|--debug]}} -Og {{[-o|--output]}} {{jalan/menuju/program}}`
 
 - Pilih standar bahasa untuk dikompilasi (C++98/C++11/C++14/C++17):
 
@@ -26,7 +26,7 @@
 
 - Susun dan gabungkan beberapa berkas kode sumber menjadi suatu berkas program biner:
 
-`g++ {{-c|--compile}} {{jalan/menuju/sumber1.cpp jalan/menuju/sumber2.cpp ...}} && g++ {{[-o|--output]}} {{jalan/menuju/program}} {{jalan/menuju/sumber1.o jalan/menuju/sumber2.o ...}}`
+`g++ {{[-c|--compile]}} {{jalan/menuju/sumber1.cpp jalan/menuju/sumber2.cpp ...}} && g++ {{[-o|--output]}} {{jalan/menuju/program}} {{jalan/menuju/sumber1.o jalan/menuju/sumber2.o ...}}`
 
 - [O]ptimalkan progam yang disusun agar dapat dijalankan lebih cepat:
 

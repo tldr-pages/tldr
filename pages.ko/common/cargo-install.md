@@ -9,11 +9,15 @@
 
 - 지정된 Git 저장소에서 패키지를 설치:
 
-`cargo install --git {{레포지토리_주소}}`
+`cargo install --git {{저장소_주소}}`
 
 - Git 저장소에서 설치할 떄 지정된 분기/태그/커밋에서 빌드:
 
-`cargo install --git {{레포지토리_주소}} --{{branch|tag|rev}} {{브랜치_이름|태그|커밋_해시}}`
+`cargo install --git {{저장소_주소}} --{{branch|tag|rev}} {{브랜치_이름|태그|커밋_해시}}`
+
+- 로컬 디렉토리에서 패키지 설치:
+
+`cargo install --path {{경로/대상/패키지}}`
 
 - 설치된 모든 패키지와 해당 버전을 나열:
 

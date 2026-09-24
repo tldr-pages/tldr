@@ -19,9 +19,9 @@
 
 `oxipng {{[-o|--opt]}} {{0|1|2|3|4|5|6|max}} {{path/to/file.png}}`
 
-- Set the PNG interlacing type (`0` removes interlacing, `1` applies Adam7 interlacing, `keep` preserves existing interlacing; default is `0`):
+- Set the PNG interlacing type (`off` removes interlacing, `on` applies Adam7 interlacing, `keep` preserves existing interlacing; default is `off`):
 
-`oxipng {{[-i|--interlace]}} {{0|1|keep}} {{path/to/file.png}}`
+`oxipng {{[-i|--interlace]}} {{off|on|keep}} {{path/to/file.png}}`
 
 - Perform additional optimization on images with an alpha channel:
 
@@ -29,7 +29,7 @@
 
 - Use the much slower but stronger Zopfli compressor with max optimization:
 
-`oxipng {{[-Z|--zopfli]}} {{[-o|--opt]}} max {{path/to/file.png}}`
+`oxipng {{[-z|--zopfli]}} {{[-o|--opt]}} max {{path/to/file.png}}`
 
 - Strip all non-critical metadata chunks:
 

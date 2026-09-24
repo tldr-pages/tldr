@@ -1,6 +1,6 @@
 # uvx
 
-> Tämä on alias komennolle `uv tool run`.
+> Tämä on alias `uv tool run` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

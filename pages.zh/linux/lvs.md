@@ -6,28 +6,28 @@
 
 - 显示逻辑卷信息：
 
-`lvs`
+`sudo lvs`
 
 - 显示所有逻辑卷：
 
-`lvs -a`
+`sudo lvs {{[-a|--all]}}`
 
 - 改变默认显示以显示更多细节：
 
-`lvs -v`
+`sudo lvs {{[-v|--verbose]}}`
 
 - 只显示特定字段：
 
-`lvs -o {{域名 1}},{{域名 2}}`
+`sudo lvs {{[-o|--options]}} {{域名 1,域名 2,...}}`
 
 - 将字段附加到显示：
 
-`lvs -o +{{域名}}`
+`sudo lvs {{[-o|--options]}} +{{域名}}`
 
 - 抑制标题行：
 
-`lvs --noheadings`
+`sudo lvs --noheadings`
 
 - 使用特殊分隔符分隔特定字段：
 
-`lvs --separator {{=}}`
+`sudo lvs --separator {{=}}`

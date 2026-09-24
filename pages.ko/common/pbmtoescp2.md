@@ -10,12 +10,12 @@
 
 - 출력의 압축 지정:
 
-`pbmtoescp2 -compression {{0|1}} {{경로/대상/이미지.pbm}} > {{경로/대상/출력.escp2}}`
+`pbmtoescp2 {{[-c|-compression]}} {{0|1}} {{경로/대상/이미지.pbm}} > {{경로/대상/출력.escp2}}`
 
 - 출력을 인치당 도트 수로 가로 및 세로 해상도 지정:
 
-`pbmtoescp2 -resolution {{180|360|720}} {{경로/대상/이미지.pbm}} > {{경로/대상/출력.escp2}}`
+`pbmtoescp2 {{[-re|-resolution]}} {{180|360|720}} {{경로/대상/이미지.pbm}} > {{경로/대상/출력.escp2}}`
 
 - 출력의 끝에 폼피드 명령 추가:
 
-`pbmtoescp2 -formfeed {{경로/대상/이미지.pbm}} > {{경로/대상/출력.escp2}}`
+`pbmtoescp2 {{[-f|-formfeed]}} {{경로/대상/이미지.pbm}} > {{경로/대상/출력.escp2}}`

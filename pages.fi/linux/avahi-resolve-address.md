@@ -1,6 +1,6 @@
 # avahi-resolve-address
 
-> Tämä on alias komennolle `avahi-resolve --address`.
+> Tämä on alias `avahi-resolve --address` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

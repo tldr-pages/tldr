@@ -10,12 +10,12 @@
 
 - 파일을 읽을 때 지정된 바이트 수만큼 건너뜀:
 
-`macptopbm -extraskip {{N}} > {{경로/대상/출력.pbm}}`
+`macptopbm {{[-e|-extraskip]}} {{N}} > {{경로/대상/출력.pbm}}`
 
 - 모든 정보 메시지 억제:
 
-`macptopbm -quiet > {{경로/대상/출력.pbm}}`
+`macptopbm {{[-q|-quiet]}} > {{경로/대상/출력.pbm}}`
 
 - 버전 표시:
 
-`macptopbm -version`
+`macptopbm {{[-v|-version]}}`

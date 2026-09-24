@@ -25,8 +25,8 @@
 
 - Przywróć bazę danych z kopii zapasowej (użytkownik zostanie poproszony o podanie hasła):
 
-`mysql {{[-u|--user]}} {{użytkownik}} {{[-p|--password]}} {{nazwa_bazy_danych}} < {{ścieżka/do/kopii_zapasowej.sql}}`
+`mysql < {{ścieżka/do/kopii_zapasowej.sql}} {{[-u|--user]}} {{użytkownik}} {{[-p|--password]}} {{nazwa_bazy_danych}}`
 
 - Przywróć wszystkie bazy danych z kopii zapasowej (użytkownik zostanie poproszony o podanie hasła):
 
-`mysql {{[-u|--user]}} {{użytkownik}} {{[-p|--password]}} < {{ścieżka/do/kopii_zapasowej.sql}}`
+`mysql < {{ścieżka/do/kopii_zapasowej.sql}} {{[-u|--user]}} {{użytkownik}} {{[-p|--password]}}`

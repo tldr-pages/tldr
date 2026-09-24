@@ -6,11 +6,11 @@
 
 - Lista los entornos de ejecución disponibles para una aplicación web:
 
-`az webapp list-runtimes --os-type {{windows|linux}}`
+`az webapp list-runtimes {{[-os|--os-type]}} {{windows|linux}}`
 
 - Crea una aplicación web:
 
-`az webapp up --name {{nombre}} --location {{ubicación}} --runtime {{entorno_de_ejecución}}`
+`az webapp up {{[-n|--name]}} {{nombre}} {{[-l|--location]}} {{ubicación}} {{[-r|--runtime]}} {{entorno_de_ejecución}}`
 
 - Lista todas las aplicaciones web:
 
@@ -18,4 +18,4 @@
 
 - Elimina una aplicación web específica:
 
-`az webapp delete --name {{nombre}} --resource-group {{grupo_de_recursos}}`
+`az webapp delete {{[-n|--name]}} {{nombre}} {{[-g|--resource-group]}} {{grupo_de_recursos}}`

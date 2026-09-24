@@ -29,7 +29,7 @@
 
 - 捕获除 22 端口以外的所有流量，并写入转储文件：
 
-`sudo tcpdump -w {{dumpfile.pcap}} port not {{22}}`
+`sudo tcpdump -w {{dumpfile.pcap}} port not 22`
 
 - 从给定的转储文件中读取内容：
 

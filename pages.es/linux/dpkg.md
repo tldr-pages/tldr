@@ -7,28 +7,28 @@
 
 - Instala un paquete:
 
-`dpkg -i {{ruta/al/archivo.deb}}`
+`sudo dpkg {{[-i|--install]}} {{ruta/al/archivo.deb}}`
 
 - Remueve un paquete:
 
-`dpkg -r {{paquete}}`
+`sudo dpkg {{[-r|--remove]}} {{paquete}}`
 
 - Lista los paquetes instalados:
 
-`dpkg -l {{patrón}}`
+`dpkg {{[-l|--list]}} {{patrón}}`
 
 - Lista los contenidos de un paquete:
 
-`dpkg -L {{paquete}}`
+`dpkg {{[-L|--listfiles]}} {{paquete}}`
 
 - Lista los contenidos de un archivo de paquete local:
 
-`dpkg -c {{ruta/al/archivo.deb}}`
+`dpkg {{[-c|--contents]}} {{ruta/al/archivo.deb}}`
 
 - Averigua qué paquete posee un archivo:
 
-`dpkg -S {{ruta/al/archivo}}`
+`dpkg {{[-S|--search]}} {{ruta/al/archivo}}`
 
 - Purga un paquete instalado o ya eliminado, incluyendo su configuración:
 
-`dpkg -P {{paquete}}`
+`sudo dpkg {{[-P|--purge]}} {{paquete}}`

@@ -1,6 +1,6 @@
 # impacket-rpcdump
 
-> Tämä on alias komennolle `rpcdump.py`.
+> Tämä on alias `rpcdump.py` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -6,12 +6,12 @@
 
 - 특정 배포판의 기본 이미지를 사용하여 Toolbx 컨테이너에 진입:
 
-`toolbox enter --distro {{배포판}}`
+`toolbox enter {{[-d|--distro]}} {{배포판}}`
 
 - 현재 배포판의 특정 릴리스의 기본 이미지를 사용하여 Toolbx 컨테이너에 진입:
 
-`toolbox enter --release {{릴리스}}`
+`toolbox enter {{[-r|--release]}} {{릴리스}}`
 
 - Fedora 39의 기본 이미지를 사용하여 Toolbx 컨테이너에 진입:
 
-`toolbox enter --distro {{fedora}} --release {{f39}}`
+`toolbox enter {{[-d|--distro]}} {{fedora}} {{[-r|--release]}} f{{39}}`

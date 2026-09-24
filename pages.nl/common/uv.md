@@ -20,13 +20,9 @@
 
 `uv remove {{pakket}}`
 
-- Voer een script uit in de projectomgeving:
+- Voer een script of commando uit in de projectomgeving:
 
-`uv run {{pad/naar/script.py}}`
-
-- Voer een commando uit in de projectomgeving:
-
-`uv run {{commando}}`
+`uv run {{pad/naar/script.py|commando}}`
 
 - Update een projectomgeving vanuit `pyproject.toml`:
 
@@ -35,3 +31,7 @@
 - Creëer een lock bestand voor de afhankelijkheden van het project:
 
 `uv lock`
+
+- Bouw het project in bron- en binary distributies:
+
+`uv build`

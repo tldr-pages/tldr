@@ -29,4 +29,4 @@
 
 - Assign one or more tags (e.g., administrator) to a user:
 
-`rabbitmqctl set_user_tags {{username}} {{tag1}} [{{tag2}}]`
+`rabbitmqctl set_user_tags {{username}} {{tag1 tag2 ...}}`

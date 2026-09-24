@@ -1,6 +1,6 @@
 # ip route show
 
-> Tämä on alias komennolle `ip route list`.
+> Tämä on alias `ip route list` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

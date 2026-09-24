@@ -17,4 +17,4 @@
 
 - Sincronizza con una directory persistente ogni 500 millisecondi:
 
-`beanstalkd -b {{percorso/della/directory_persistente}} -f {{500}}`
+`beanstalkd -b {{percorso/della/directory_persistente}} -f 500`

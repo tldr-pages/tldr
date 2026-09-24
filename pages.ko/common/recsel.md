@@ -5,12 +5,12 @@
 
 - 이름 및 버전 필드 추출:
 
-`recsel -p name,version {{data.rec}}`
+`recsel {{[-p|--print]}} name,version {{data.rec}}`
 
 - "~"를 사용하여 주어진 정규 표현식과 문자열 매칭:
 
-`recsel -e "{{필드_이름}} ~ '{{정규_표현식}}' {{data.rec}}"`
+`recsel {{[-e|--expression]}} "{{필드_이름}} ~ '{{정규_표현식}}' {{data.rec}}"`
 
 - 이름과 버전을 매칭하는 조건 사용:
 
-`recsel -e "name ~ '{{정규_표현식}}' && version ~ '{{정규_표현식}}'" {{data.rec}}`
+`recsel {{[-e|--expression]}} "name ~ '{{정규_표현식}}' && version ~ '{{정규_표현식}}'" {{data.rec}}`

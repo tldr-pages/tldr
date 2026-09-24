@@ -17,7 +17,7 @@
 
 - 특정 구성 파일로 Kismet 시작:
 
-`sudo kismet -c {{wlan0}} -f {{경로/대상/config.conf}}`
+`sudo kismet -c {{wlan0}} {{[-f|--config-file]}} {{경로/대상/config.conf}}`
 
 - SQLite 데이터베이스에 데이터를 모니터링하고 기록:
 
@@ -33,4 +33,4 @@
 
 - 특정 AP의 패킷에 대한 자세한 정보 표시:
 
-`sudo kismet -c {{wlan0}} --info {{BSSID}}`
+`sudo kismet -c {{wlan0}} --info {{bssid}}`

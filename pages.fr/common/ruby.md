@@ -1,7 +1,7 @@
 # ruby
 
 > Interpréteur du langage de programmation Ruby.
-> Voir aussi : `gem`, `bundler`, `rake`, `irb`.
+> Voir aussi : `gem`, `bundler`, `rake`, `irb`, `ri`.
 > Plus d'informations : <https://manned.org/ruby>.
 
 - Exécute un script Ruby :
@@ -22,7 +22,7 @@
 
 - Exécute localement un binaire Ruby sans installer la bibliothèque requise dont il dépend :
 
-`ruby -I {{chemin/vers/dossier_bibliothèque}} -r {{nom_chargement_bibliothèque}} {{chemin/vers/dossier_bin/nom_bin}}`
+`ruby -I {{chemin/vers/répertoire_bibliothèque}} -r {{nom_chargement_bibliothèque}} {{chemin/vers/répertoire_bin/nom_bin}}`
 
 - Affiche la version de Ruby utilisée :
 

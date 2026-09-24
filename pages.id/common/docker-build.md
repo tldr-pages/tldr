@@ -17,7 +17,7 @@
 
 - Bangun sebuah Docker image tanpa konteks pembangunan:
 
-`docker build {{[-t|--tag]}} {{nama:tag}} - < {{Dockerfile}}`
+`docker < {{Dockerfile}} build {{[-t|--tag]}} {{nama:tag}} -`
 
 - Bangun sebuah image tanpa menggunakan cache:
 

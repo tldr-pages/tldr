@@ -7,24 +7,24 @@
 
 - Oznacz pakiet jako pośrednio zainstalowany (zależność):
 
-`sudo pacman --database --asdeps {{nazwa_pakietu}}`
+`sudo pacman -D --asdeps {{nazwa_pakietu}}`
 
 - Oznacz pakiet jako bezpośrednio zainstalowany:
 
-`sudo pacman --database --asexplicit {{nazwa_pakietu}}`
+`sudo pacman -D --asexplicit {{nazwa_pakietu}}`
 
 - Sprawdź, czy wszystkie zależności pakietów są zainstalowane:
 
-`pacman --database --check`
+`pacman -Dk`
 
 - Sprawdź repozytoria, aby zapewnić, że wszystkie podane zależności są dostępne:
 
-`pacman --database --check --check`
+`pacman -Dkk`
 
 - Wyświetlaj tylko komunikaty o błędach:
 
-`pacman --database --check --quiet`
+`pacman -Dkq`
 
 - Wyświetl pomoc:
 
-`pacman --database --help`
+`pacman -Dh`

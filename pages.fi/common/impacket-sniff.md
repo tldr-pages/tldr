@@ -1,6 +1,6 @@
 # impacket-sniff
 
-> Tämä on alias komennolle `sniff.py`.
+> Tämä on alias `sniff.py` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

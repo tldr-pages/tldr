@@ -5,7 +5,7 @@
 
 - 정적 로딩을 위해 모든 플러그인을 번들로 묶음:
 
-`antibody bundle < {{~/.zsh_plugins.txt}} > {{~/.zsh_plugins.sh}}`
+`antibody < {{~/.zsh_plugins.txt}} bundle > {{~/.zsh_plugins.sh}}`
 
 - 모든 번들 업데이트:
 

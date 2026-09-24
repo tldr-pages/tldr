@@ -1,6 +1,6 @@
 # openssl x509
 
-> OpenSSL command to manage X.509 certificates.
+> Manage X.509 certificates.
 > More information: <https://docs.openssl.org/master/man1/openssl-x509/>.
 
 - Display certificate information:

@@ -7,7 +7,7 @@
 
 `history`
 
-- Toon de laatste 20 commando's (in Zsh worden alle commando's vanaf regel 20 vertoont):
+- Toon de laatste 20 commando's (in Zsh worden alle commando's vanaf regel 20 getoond):
 
 `history 20`
 

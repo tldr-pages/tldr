@@ -9,7 +9,7 @@
 
 - Toon de huidige datum in UTC, in het ISO 8601-formaat:
 
-`date {{[-u|--utc]}} +%Y-%m-%dT%H:%M:%S%Z`
+`date {{[-u|--utc]}} +%Y-%m-%dT%H:%M:%SZ`
 
 - Toon de huidige datum als een Unix timestamp (seconden sinds de Unix-epoch):
 
@@ -23,13 +23,13 @@
 
 `date {{[-d|--date]}} "{{2018-09-01 00:00}}" +%s {{[-u|--utc]}}`
 
-- Toon de huidige datum in het RFC-3339 formaat (`YYYY-MM-DD hh:mm:ss TZ`):
+- Toon de huidige datum in het RFC-3339 formaat (`YYYY-MM-DD hh:mm:ss TZ`) en specificeer de precisie ervan:
 
-`date --rfc-3339 s`
+`date --rfc-3339 {{date|seconds|ns}}`
 
 - Stel de huidige datum in met het formaat `MMDDhhmmYYYY.ss` (`YYYY` en `.ss` zijn optioneel):
 
-`date {{093023592021.59}}`
+`sudo date {{093023592021.59}}`
 
 - Toon het huidige ISO-weeknummer:
 

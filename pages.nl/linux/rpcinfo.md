@@ -1,6 +1,6 @@
 # rpcinfo
 
-> Maak een RPC-oproep naar een RPC-server en rapporteert wat het vindt.
+> Maak een RPC-oproep naar een RPC-server en rapporteer wat het vindt.
 > Meer informatie: <https://manned.org/rpcinfo>.
 
 - Toon volledige tabel van alle RPC-diensten geregistreerd op localhost:
@@ -9,7 +9,7 @@
 
 - Toon beknopte tabel van alle RPC-diensten geregistreerd op localhost:
 
-`rpcinfo -s {{localhost}}`
+`rpcinfo -s localhost`
 
 - Toon tabel met statistieken van rpcbind-operaties op localhost:
 

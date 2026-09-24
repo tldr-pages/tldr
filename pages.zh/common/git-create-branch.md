@@ -10,8 +10,8 @@
 
 - 创建本地分支并推送到 origin 远程：
 
-`git create-branch --remote {{分支名}}`
+`git create-branch {{[-r|--remote]}} {{分支名}}`
 
 - 创建本地分支并推送到 upstream 远程（常用于 fork 的工作流）：
 
-`git create-branch --remote upstream {{分支名}}`
+`git create-branch {{[-r|--remote]}} upstream {{分支名}}`

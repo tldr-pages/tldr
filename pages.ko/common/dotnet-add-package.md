@@ -13,15 +13,15 @@
 
 - 특정 버전의 패키지를 프로젝트에 추가:
 
-`dotnet add package {{패키지}} --version {{1.0.0}}`
+`dotnet add package {{패키지}} {{[-v|--version]}} {{1.0.0}}`
 
 - 특정 NuGet 소스를 사용하여 패키지 추가:
 
-`dotnet add package {{패키지}} --source {{https://api.nuget.org/v3/index.json}}`
+`dotnet add package {{패키지}} {{[-s|--source]}} {{https://api.nuget.org/v3/index.json}}`
 
 - 특정 프레임워크를 대상으로 할 때만 패키지 추가:
 
-`dotnet add package {{패키지}} --framework {{net7.0}}`
+`dotnet add package {{패키지}} {{[-f|--framework]}} {{net7.0}}`
 
 - 패키지를 복원할 디렉토리 지정 후 추가 (`~/.nuget/packages` 기본값):
 

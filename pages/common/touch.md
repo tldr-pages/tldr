@@ -3,7 +3,7 @@
 > Create files and set access/modification times.
 > More information: <https://www.gnu.org/software/coreutils/manual/html_node/touch-invocation.html>.
 
-- Create specific files:
+- Create specific files or update their timestamps if they already exist:
 
 `touch {{path/to/file1 path/to/file2 ...}}`
 

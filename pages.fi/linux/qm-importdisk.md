@@ -1,6 +1,6 @@
 # qm importdisk
 
-> Tämä on alias komennolle `qm disk import`.
+> Tämä on alias `qm disk import` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

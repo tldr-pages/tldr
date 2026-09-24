@@ -5,19 +5,19 @@
 
 - Opublikuj projekt w konfiguracji wydania:
 
-`dotnet publish --configuration Release {{ścieżka/do/projektu_lub_solucji}}`
+`dotnet publish {{[-c|--configuration]}} Release {{ścieżka/do/projektu_lub_solucji}}`
 
 - Opublikuj projekt z dołączonym wybranym środowiskiem uruchomieniowym:
 
-`dotnet publish --self-contained true --runtime {{identyfikator_runtime}} {{ścieżka/do/projektu_lub_solucji}}`
+`dotnet publish {{[-sc|--self-contained]}} true {{[-r|--runtime]}} {{identyfikator_runtime}} {{ścieżka/do/projektu_lub_solucji}}`
 
 - Zapakuj aplikację do pojedyńczego pliku uruchomieniowego dla konkretnej platformy:
 
-`dotnet publish --runtime {{identyfikator_runtime}} -p:PublishSingleFile=true {{ścieżka/do/projektu_lub_solucji}}`
+`dotnet publish {{[-r|--runtime]}} {{identyfikator_runtime}} -p:PublishSingleFile=true {{ścieżka/do/projektu_lub_solucji}}`
 
 - Pomiń nieużywane biblioteki aby obniżyć rozmiar wdrażanej aplikacji:
 
-`dotnet publish --self-contained true --runtime {{identyfikator_runtime}} -p:PublishTrimmed=true {{ścieżka/do/projektu_lub_solucji}}`
+`dotnet publish {{[-sc|--self-contained]}} true {{[-r|--runtime]}} {{identyfikator_runtime}} -p:PublishTrimmed=true {{ścieżka/do/projektu_lub_solucji}}`
 
 - Kompiluj projekt bez przywracania zależności:
 
@@ -25,4 +25,4 @@
 
 - Wybierz katalog docelowy:
 
-`dotnet publish --output {{ściezka/do/katalogu}} {{ścieżka/do/projektu_lub_solucji}}`
+`dotnet publish {{[-o|--output]}} {{ściezka/do/katalogu}} {{ścieżka/do/projektu_lub_solucji}}`

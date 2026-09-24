@@ -9,7 +9,7 @@
 
 - Sovrascrivi i file forzatamente:
 
-`cradle install --force`
+`cradle install {{[-f|--force]}}`
 
 - Salta l'esecuzione di migrazioni SQL:
 

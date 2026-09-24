@@ -3,7 +3,7 @@
 > Beheer virtuele collecties van pakketten op Fedora gebaseerde systemen.
 > Meer informatie: <https://dnf.readthedocs.io/en/latest/command_ref.html#group-command>.
 
-- Maak een lijst van DNF-groepen, met geïnstalleerde en verwijderde status in een tabel:
+- Maak een lijst van DNF-groepen, met geïnstalleerde en niet-geïnstalleerde status in een tabel:
 
 `dnf {{[grp|group]}} list`
 

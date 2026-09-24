@@ -1,6 +1,6 @@
 # alternatives
 
-> Tämä on alias komennolle `update-alternatives`.
+> Tämä on alias `update-alternatives` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

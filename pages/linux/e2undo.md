@@ -8,7 +8,7 @@
 
 `e2undo -h {{path/to/undo_file}} {{/dev/sdXN}}`
 
-- Perform a dry-run and display the candidate blocks for replaying:
+- Simulate replaying the undo file and display the candidate blocks:
 
 `e2undo -nv {{path/to/undo_file}} {{/dev/sdXN}}`
 
@@ -20,6 +20,6 @@
 
 `e2undo -v {{path/to/undo_file}} {{/dev/sdXN}}`
 
-- Write the old contents of the block to an undo file before overwriting a file system block:
+- Write the old contents of the block to an undo file before overwriting a filesystem block:
 
 `e2undo -z {{path/to/file.e2undo}} {{path/to/undo_file}} {{/dev/sdXN}}`

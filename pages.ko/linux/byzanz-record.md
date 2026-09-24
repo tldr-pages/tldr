@@ -5,16 +5,16 @@
 
 - 화면을 녹화하고 파일에 기록 (기본적으로 `byzanz-record`는 10초만 녹화합니다):
 
-`byzanz-record {{경로/대상/파일.[byzanz|flv|gif|ogg|ogv|webm]}}`
+`byzanz-record {{경로/대상/파일.ext}}`
 
 - 녹화 중 및 녹화 후 정보를 표시:
 
-`byzanz-record --verbose {{경로/대상/파일.[byzanz|flv|gif|ogg|ogv|webm]}}`
+`byzanz-record {{[-v|--verbose]}} {{경로/대상/파일.ext}}`
 
 - 화면을 1분 동안 녹화:
 
-`byzanz-record --duration 60 {{경로/대상/파일.[byzanz|flv|gif|ogg|ogv|webm]}}`
+`byzanz-record {{[-d|--duration]}} 60 {{경로/대상/파일.ext}}`
 
 - 녹화를 10초 지연 후 시작:
 
-`byzanz-record --delay 10 {{경로/대상/파일.[byzanz|flv|gif|ogg|ogv|webm]}}`
+`byzanz-record --delay 10 {{경로/대상/파일.ext}}`

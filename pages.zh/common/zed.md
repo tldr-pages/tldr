@@ -1,7 +1,7 @@
 # zed
 
 > 一款旨在快速、高效且便捷的文本编辑器。
-> 更多信息：<https://zed.dev/docs/#cli>。
+> 更多信息：<https://zed.dev/docs/reference/cli>。
 
 - 在 Zed 中打开指定路径：
 

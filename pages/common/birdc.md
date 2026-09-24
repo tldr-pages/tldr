@@ -26,7 +26,7 @@
 
 - Show all routes that contain a specific AS number:
 
-`birdc "show route where bgp_path ~ [{{4242120045}}]"`
+`birdc "show route where bgp_path ~ {{4242120045}}"`
 
 - Show all best routes:
 

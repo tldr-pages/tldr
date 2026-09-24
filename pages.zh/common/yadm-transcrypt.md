@@ -7,20 +7,20 @@
 
 - 设置用于加密的对称加密算法：
 
-`yadm transcrypt --cipher={{加密算法}}`
+`yadm transcrypt {{[-c|--cipher]}} {{加密算法}}`
 
 - 提供用来派生密钥的密码：
 
-`yadm transcrypt --password={{密码}}`
+`yadm transcrypt {{[-p|--password]}} {{密码}}`
 
 - 假设所有回答为“是”并接受未指定选项的默认值：
 
-`yadm transcrypt --yes`
+`yadm transcrypt {{[-y|--yes]}}`
 
 - 显示当前仓库的加密算法和密码：
 
-`yadm transcrypt --display`
+`yadm transcrypt {{[-d|--display]}}`
 
 - 使用新的凭证重新加密所有已加密的文件：
 
-`yadm transcrypt --rekey`
+`yadm transcrypt {{[-r|--rekey]}}`

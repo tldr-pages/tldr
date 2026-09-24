@@ -26,4 +26,4 @@
 
 - imerge işlemini sonlandır ve belirtilen eski bir dala geri dön:
 
-`git-imerge remove && git checkout {{eski_dal}}`
+`git imerge remove && git checkout {{eski_dal}}`

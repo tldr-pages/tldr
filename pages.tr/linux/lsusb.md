@@ -13,11 +13,11 @@
 
 - USB aygıtları hakkında ayrıntılı bilgileri görüntüleyin:
 
-`lsusb {{[-v|--verbose]}}`
+`sudo lsusb {{[-v|--verbose]}}`
 
 - Bir USB aygıtı hakkında ayrıntılı bilgileri görüntüleyin:
 
-`lsusb {{[-v|--verbose]}} -s {{giriş}}:{{cihaz numarası}}`
+`sudo lsusb {{[-v|--verbose]}} -s {{giriş}}:{{cihaz numarası}}`
 
 - Sadece belirli satıcı ve cihaz ID'sine sahip aygıtları listeleyin:
 

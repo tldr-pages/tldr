@@ -11,7 +11,7 @@
 
 - 확장 제거:
 
-`unopkg remove {{확장_ID}}`
+`unopkg remove {{확장_id}}`
 
 - 배포된 확장에 대한 정보 표시:
 

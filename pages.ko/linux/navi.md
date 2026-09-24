@@ -21,4 +21,4 @@
 
 - 쿼리에 가장 잘 맞는 스니펫을 자동 선택 및 실행:
 
-`navi --query '{{쿼리}}' --best-match`
+`navi {{[-q|--query]}} '{{쿼리}}' --best-match`

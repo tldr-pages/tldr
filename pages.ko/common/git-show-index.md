@@ -9,4 +9,4 @@
 
 - 색인 파일의 해시 알고리즘 지정 (실험적):
 
-`git show-index --object-format={{sha1|sha256}} {{경로/대상/파일}}`
+`git show-index --object-format {{sha1|sha256}} {{경로/대상/파일}}`

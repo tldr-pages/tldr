@@ -1,6 +1,7 @@
 # scrcpy
 
 > Display and control your Android device on a desktop.
+> See also: `adb connect`.
 > More information: <https://github.com/Genymobile/scrcpy>.
 
 - Display a mirror of a connected device:
@@ -15,10 +16,6 @@
 
 `scrcpy {{[-s|--serial]}} {{0123456789abcdef|192.168.0.1:5555}}`
 
-- Start display in fullscreen mode:
-
-`scrcpy {{[-f|--fullscreen]}}`
-
 - Show touches on physical device:
 
 `scrcpy {{[-t|--show-touches]}}`
@@ -30,3 +27,11 @@
 - Specify the target directory for pushing files to device by drag and drop (non-APK):
 
 `scrcpy --push-target {{path/to/directory}}`
+
+- View the phone's camera (requires Android 12 or newer):
+
+`scrcpy --video-source camera`
+
+- Create a Video4Linux2 device from the phone's camera (`v4l2loopback` must be installed):
+
+`scrcpy --video-source camera --camera-size {{1920x1080}} --v4l2-sink {{/dev/video0}} --no-playback`

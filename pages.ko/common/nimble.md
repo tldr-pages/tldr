@@ -14,7 +14,7 @@
 
 - 설치된 패키지 나열:
 
-`nimble list -i`
+`nimble list {{[-i|--installed]}}`
 
 - 현재 디렉토리에 새로운 Nimble 패키지 생성:
 

@@ -1,7 +1,7 @@
 # svcs
 
 > List information about running services.
-> More information: <https://www.unix.com/man-page/linux/1/svcs>.
+> More information: <https://www.unix.com/man-page/sunos/1/svcs>.
 
 - List all running services:
 
@@ -13,12 +13,12 @@
 
 - List information about a service:
 
-`svcs apache`
+`svcs {{apache}}`
 
 - Show location of service log file:
 
-`svcs -L apache`
+`svcs -L {{apache}}`
 
 - Display end of a service log file:
 
-`tail $(svcs -L apache)`
+`tail $(svcs -L {{apache}})`

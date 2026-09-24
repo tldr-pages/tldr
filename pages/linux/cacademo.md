@@ -1,7 +1,7 @@
 # cacademo
 
 > Display a random ASCII art animation.
-> More information: <https://packages.debian.org/sid/caca-utils>.
+> More information: <https://manned.org/cacademo>.
 
 - View an animation:
 

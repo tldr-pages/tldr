@@ -1,8 +1,23 @@
 # run-mailcap
 
-> Run MailCap Programs.
-> Run mailcap view, see, edit, compose, print - execute programs via entries in the mailcap file (or any of its aliases) will use the given action to process each mime-type/file.
+> Execute programs via entries in the mailcap file.
 > More information: <https://manned.org/run-mailcap>.
+
+- Compose any existing file or new on default `mailcap` edit tool:
+
+`run-mailcap --action=compose {{path/to/file}}`
+
+- View any file on default `mailcap` explorer:
+
+`run-mailcap --action=edit {{path/to/file}}`
+
+- Print a file using the default `mailcap` print tool:
+
+`run-mailcap --action=print {{path/to/file}}`
+
+- View any file (usually image) on default `mailcap` explorer:
+
+`run-mailcap --action=view {{path/to/file}}`
 
 - Invoke individual actions/programs on run-mailcap:
 

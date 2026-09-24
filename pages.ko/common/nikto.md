@@ -5,20 +5,20 @@
 
 - 대상 호스트에 대해 기본 Nikto 스캔 수행:
 
-`perl nikto.pl -h {{192.168.0.1}}`
+`perl nikto.pl {{[-h|-host]}} {{192.168.0.1}}`
 
 - 기본 스캔을 수행할 때 포트 번호 지정:
 
-`perl nikto.pl -h {{192.168.0.1}} -p {{443}}`
+`perl nikto.pl {{[-h|-host]}} {{192.168.0.1}} {{[-p|-port]}} {{443}}`
 
 - 전체 URL 구문을 사용하여 포트 및 프로토콜 스캔:
 
-`perl nikto.pl -h {{https://192.168.0.1:443/}}`
+`perl nikto.pl {{[-h|-host]}} {{https://192.168.0.1:443/}}`
 
 - 동일한 스캔 세션에서 여러 포트 스캔:
 
-`perl nikto.pl -h {{192.168.0.1}} -p {{80,88,443}}`
+`perl nikto.pl {{[-h|-host]}} {{192.168.0.1}} {{[-p|-port]}} {{80,88,443}}`
 
 - 최신 플러그인 및 데이터베이스로 업데이트:
 
-`perl nikto.pl -update`
+`perl nikto.pl {{[-u|-update]}}`

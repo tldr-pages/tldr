@@ -13,8 +13,8 @@
 
 - 구성 파일(예, 입력 스크립트 및 출력 파일 이름 포함)을 전달하고 컴파일 진행률을 표시:
 
-`webpack --config {{webpack.config.js}} --progress`
+`webpack {{[-c|--config]}} {{webpack.config.js}} --progress`
 
 - 프로젝트 파일 변경 시 자동으로 다시 컴파일:
 
-`webpack --watch {{app.js}} {{bundle.js}}`
+`webpack {{[-w|--watch]}} {{app.js}} {{bundle.js}}`

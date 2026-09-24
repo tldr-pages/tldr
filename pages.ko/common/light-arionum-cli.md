@@ -33,4 +33,4 @@
 
 - 특정 거래에 대한 정보 표시:
 
-`light-arionum-cli transaction {{거래_ID}}`
+`light-arionum-cli transaction {{거래_id}}`

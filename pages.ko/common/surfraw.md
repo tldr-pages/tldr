@@ -14,7 +14,7 @@
 
 - elvi 설명 및 특정 옵션 표시:
 
-`surfraw {{elvi}} -local-help`
+`surfraw {{elvi}} {{[-lh|-local-help]}}`
 
 - 특정 옵션을 사용하여 elvi로 검색하고 결과 페이지를 브라우저에서 열기:
 

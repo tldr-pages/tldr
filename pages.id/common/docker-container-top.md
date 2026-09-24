@@ -1,8 +1,12 @@
 # docker container top
 
-> Perintah ini merupakan alias dari `docker top`.
+> Tampilkan daftar proses berjalan dalam suatu kontainer.
 > Informasi lebih lanjut: <https://docs.docker.com/reference/cli/docker/container/top/>.
 
-- Tampilkan dokumentasi untuk perintah asli:
+- Tampilkan daftar proses berjalan dalam suatu kontainer:
 
-`tldr docker top`
+`docker {{[top|container top]}} {{kontainer}}`
+
+- Tampilkan bantuan:
+
+`docker {{[top|container top]}} --help`

@@ -11,7 +11,7 @@
 
 - 파일을 비공개로 무시하고, `.git/info/exclude` 파일을 업데이트:
 
-`git ignore {{파일_패턴}} --private`
+`git ignore {{파일_패턴}} {{[-p|--private]}}`
 
 - 파일을 로컬에서 무시하고, 로컬 `.gitignore` 파일을 업데이트:
 
@@ -19,4 +19,4 @@
 
 - 파일을 전역에서 무시하고, 전역 `.gitignore` 파일을 업데이트:
 
-`git ignore {{파일_패턴}} --global`
+`git ignore {{파일_패턴}} {{[-g|--global]}}`

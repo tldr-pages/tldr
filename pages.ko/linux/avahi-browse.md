@@ -6,16 +6,16 @@
 
 - 로컬 네트워크에서 사용 가능한 서비스와 해당 주소 및 포트를 나열하되, 로컬 머신의 서비스는 무시:
 
-`avahi-browse --all --resolve --ignore-local`
+`avahi-browse {{[-a|--all]}} {{[-r|--resolve]}} {{[-l|--ignore-local]}}`
 
 - 스크립트를 위한 SSV 형식으로 로컬 네트워크의 서비스를 빠르게 나열:
 
-`avahi-browse --all --terminate --parsable`
+`avahi-browse {{[-a|--all]}} {{[-t|--terminate]}} {{[-p|--parsable]}}`
 
 - 주변 도메인 나열:
 
-`avahi-browse --browse-domains`
+`avahi-browse {{[-D|--browse-domains]}}`
 
 - 특정 도메인으로 검색 제한:
 
-`avahi-browse --all --domain={{도메인}}`
+`avahi-browse {{[-a|--all]}} --domain={{도메인}}`

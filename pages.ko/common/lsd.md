@@ -6,32 +6,32 @@
 
 - 파일과 디렉터리를 한 줄에 하나씩 나열:
 
-`lsd -1`
+`lsd {{[-1|--oneline]}}`
 
 - 현재 디렉터리의 모든 파일과 디렉터리(숨김 파일 포함) 나열:
 
-`lsd -a`
+`lsd {{[-a|--all]}}`
 
 - 디렉터리 이름에 `/`를 추가하여 파일과 디렉터리 나열:
 
-`lsd -F`
+`lsd {{[-F|--classify]}}`
 
 - 파일과 디렉터리를 긴 형식으로 나열 (권한, 소유권, 사람이 읽기 쉬운 형식의 크기, 수정 날짜 포함):
 
-`lsd -lha`
+`lsd {{[-lha|--long --human-readable --all]}}`
 
 - 파일과 디렉터리를 크기별로 내림차순 정렬하여 긴 형식으로 나열:
 
-`lsd -lS`
+`lsd {{[-lS|--long --sizesort]}}`
 
 - 파일과 디렉터리를 수정 날짜별로 오래된 것부터 정렬하여 긴 형식으로 나열:
 
-`lsd -ltr`
+`lsd {{[-ltr|--long --timesort --reverse]}}`
 
 - 디렉터리만 나열:
 
-`lsd -d {{*/}}`
+`lsd {{[-d|--directory-only]}} {{*/}}`
 
 - 모든 디렉터리를 재귀적으로 트리 형식으로 나열:
 
-`lsd --tree -d`
+`lsd --tree {{[-d|--directory-only]}}`

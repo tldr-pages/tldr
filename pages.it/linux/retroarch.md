@@ -10,7 +10,7 @@
 
 - Avvia in modalità schermo intero:
 
-`retroarch --fullscreen`
+`retroarch {{[-f|--fullscreen]}}`
 
 - Elenca tutte le funzionalità compilate:
 
@@ -18,11 +18,11 @@
 
 - Imposta il percorso di un file di configurazione:
 
-`retroarch --config={{percorso/al/file_di_configurazione}}`
+`retroarch {{[-c|--config]}} {{percorso/al/file_di_configurazione}}`
 
 - Mostra l'aiuto:
 
-`retroarch --help`
+`retroarch {{[-h|--help]}}`
 
 - Mostra la versione:
 

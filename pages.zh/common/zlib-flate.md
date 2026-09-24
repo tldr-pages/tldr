@@ -6,12 +6,12 @@
 
 - 压缩一个文件：
 
-`zlib-flate -compress < {{路径/到/输入_文件}} > {{路径/到/压缩.zlib}}`
+`zlib-flate < {{路径/到/输入_文件}} -compress > {{路径/到/压缩.zlib}}`
 
 - 解压缩一个文件：
 
-`zlib-flate -uncompress < {{路径/到/压缩.zlib}} > {{路径/到/输出_文件}}`
+`zlib-flate < {{路径/到/压缩.zlib}} -uncompress > {{路径/到/输出_文件}}`
 
 - 使用指定的压缩级别压缩文件。0=最快（最差），9=最慢（最佳）：
 
-`zlib-flate -compress={{压缩级别}} < {{路径/到/输入_文件}} > {{路径/到/压缩.zlib}}`
+`zlib-flate < {{路径/到/输入_文件}} -compress={{压缩级别}} > {{路径/到/压缩.zlib}}`

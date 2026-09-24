@@ -5,7 +5,7 @@
 
 - List all commits on the current branch:
 
-`git rev-list {{HEAD}}`
+`git rev-list HEAD`
 
 - Print the latest commit that changed (add/edit/remove) a specific file on the current branch:
 

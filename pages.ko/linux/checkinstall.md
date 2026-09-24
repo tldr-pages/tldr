@@ -5,7 +5,7 @@
 
 - 기본 설정으로 패키지를 생성하고 설치:
 
-`sudo checkinstall --default`
+`sudo checkinstall {{[-y|--default]}}`
 
 - 패키지를 생성하지만 설치하지 않음:
 

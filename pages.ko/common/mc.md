@@ -1,14 +1,11 @@
 # mc
 
-> Midnight Commander, TUI 파일 관리자.
-> `<ArrowKeys>`, 마우스 또는 터미널에 명령을 입력하여 디렉토리 구조를 탐색하세요.
-> 관련 항목: `ranger`, `clifm`, `vifm`, `nautilus`.
-> 더 많은 정보: <https://midnight-commander.org>.
+> `mc`는 동일한 이름을 가진 여러 명령을 의미할 수 있음.
 
-- Midnight Commander 시작:
+- MinIO 클라이언트 문서 보기:
 
-`mc`
+`tldr mc.cli`
 
-- 흑백 모드로 Midnight Commander 시작:
+- Midnight Commander 문서 보기:
 
-`mc -b`
+`tldr mc.fm`

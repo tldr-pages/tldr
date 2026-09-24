@@ -17,7 +17,7 @@
 
 - Attach to an already running process and see its file reading progress:
 
-`pv {{[-d|--watchfd]}} {{PID}}`
+`pv {{[-d|--watchfd]}} {{process_id}}`
 
 - Read an erroneous file, skip errors as `dd conv=sync,noerror` would:
 
@@ -27,6 +27,10 @@
 
 `pv {{[-L|--rate-limit]}} {{1K}} {{[-S|--stop-at-size]}} {{maximum_file_size_to_be_read}}`
 
-- Calculate hash (MD5, SHA1, SHA256, etc) of a large file and show progress:
+- Calculate hash (MD5, SHA1, SHA256, etc.) of a large file and show progress:
 
 `pv {{path/to/file}} | {{sha256sum}}`
+
+- Only display a timer for how long a command has taken to run:
+
+`{{command}} | pv {{[-t|--timer]}}`

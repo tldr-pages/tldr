@@ -13,16 +13,16 @@
 
 - 배포 생성:
 
-`kubectl create deployment {{배포_이름}} --image={{이미지}}`
+`kubectl create {{[deploy|deployment]}} {{배포_이름}} --image {{이미지}}`
 
 - 복제본과 함께 배포 생성:
 
-`kubectl create deployment {{배포_이름}} --image={{이미지}} --replicas={{복제본_수}}`
+`kubectl create {{[deploy|deployment]}} {{배포_이름}} --image {{이미지}} --replicas {{복제본_수}}`
 
 - 서비스 생성:
 
-`kubectl create service {{서비스_유형}} {{서비스_이름}} --tcp={{포트}}:{{대상_포트}}`
+`kubectl create {{[svc|service]}} {{서비스_유형}} {{서비스_이름}} --tcp {{포트}}:{{대상_포트}}`
 
 - 네임스페이스 생성:
 
-`kubectl create namespace {{네임스페이스_이름}}`
+`kubectl create {{[ns|namespace]}} {{네임스페이스_이름}}`

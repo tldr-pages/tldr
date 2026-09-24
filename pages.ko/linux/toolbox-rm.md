@@ -10,8 +10,8 @@
 
 - 모든 Toolbx 컨테이너 제거:
 
-`toolbox rm --all`
+`toolbox rm {{[-a|--all]}}`
 
 - 현재 활성 상태의 Toolbx 컨테이너 강제 제거:
 
-`toolbox rm --force {{컨테이너_이름}}`
+`toolbox rm {{[-f|--force]}} {{컨테이너_이름}}`

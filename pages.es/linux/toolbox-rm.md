@@ -10,8 +10,8 @@
 
 - Quita todos los contenedores de Toolbx:
 
-`toolbox rm --all`
+`toolbox rm {{[-a|--all]}}`
 
 - Fuerza la eliminación de un contenedor de Toolbx activo actualmente:
 
-`toolbox rm --force {{nombre_del_contenedor}}`
+`toolbox rm {{[-f|--force]}} {{nombre_del_contenedor}}`

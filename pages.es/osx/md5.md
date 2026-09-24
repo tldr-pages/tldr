@@ -11,7 +11,7 @@
 
 `md5 {{ruta/al/archivo1 ruta/al/archivo2 ...}}`
 
-- Obtén sólo la suma de comprobación md5 (sin nombre de archivo):
+- Obtén sólo la suma de comprobación MD5 (sin nombre de archivo):
 
 `md5 -q {{ruta/al/archivo}}`
 

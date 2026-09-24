@@ -1,6 +1,7 @@
 # duf
 
 > 디스크 사용량/무료 유틸리티.
+> 관련 항목: `ncdu`, `df`.
 > 더 많은 정보: <https://github.com/muesli/duf#usage>.
 
 - 접근 가능한 장치 목록:

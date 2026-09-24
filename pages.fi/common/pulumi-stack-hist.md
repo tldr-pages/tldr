@@ -1,6 +1,6 @@
 # pulumi stack hist
 
-> Tämä on alias komennolle `pulumi stack history`.
+> Tämä on alias `pulumi stack history` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

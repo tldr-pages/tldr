@@ -1,9 +1,9 @@
 # cargo build
 
-> 编译本地包及其所有依赖项。
+> 编译本地软件包及其所有依赖项。
 > 更多信息：<https://doc.rust-lang.org/cargo/commands/cargo-build.html>。
 
-- 在本地路径中构建由 `Cargo.toml` 清单文件定义的一个或多个包：
+- 在本地路径中构建由 `Cargo.toml` 清单文件定义的一个或多个软件包：
 
 `cargo {{[b|build]}}`
 
@@ -15,13 +15,13 @@
 
 `cargo {{[b|build]}} --locked`
 
-- 构建工作区中的所有包：
+- 构建工作区中的所有软件包：
 
 `cargo {{[b|build]}} --workspace`
 
-- 构建特定的包：
+- 构建特定的软件包：
 
-`cargo {{[b|build]}} {{[-p|--package]}} {{包名}}`
+`cargo {{[b|build]}} {{[-p|--package]}} {{软件包}}`
 
 - 仅构建指定的二进制文件：
 

@@ -1,7 +1,7 @@
 # cacaview
 
 > Muestra una imagen en formato PMN.
-> Más información: <https://packages.debian.org/sid/caca-utils>.
+> Más información: <https://manned.org/cacaview>.
 
 - Muestra una imagen:
 

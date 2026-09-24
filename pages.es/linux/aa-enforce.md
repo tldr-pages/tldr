@@ -6,7 +6,7 @@
 
 - Activa el perfil:
 
-`sudo aa-enforce --dir {{ruta/al/perfil}}`
+`sudo aa-enforce {{[-d|--dir]}} {{ruta/al/perfil}}`
 
 - Activa los perfiles:
 

@@ -9,16 +9,16 @@
 
 - Zeige eine Liste aller zuletzt angemeldeten Benutzer seit einem bestimmten Zeitpunkt an:
 
-`sudo lastb --since {{YYYY-MM-DD}}`
+`sudo lastb {{[-s|--since]}} {{YYYY-MM-DD}}`
 
 - Zeige eine Liste aller zuletzt angemeldeten Benutzer bis zu einem bestimmten Zeitpunkt an:
 
-`sudo lastb --until {{YYYY-MM-DD}}`
+`sudo lastb {{[-t|--until]}} {{YYYY-MM-DD}}`
 
 - Zeige eine Liste aller angemeldeten Benutzer zu einem bestimmten Zeitpunkt an:
 
-`sudo lastb --present {{hh:mm}}`
+`sudo lastb {{[-p|--present]}} {{hh:mm}}`
 
 - Zeige eine Liste aller zuletzt angemeldeten Benutzer und übersetze die IP zu einem Hostnamen:
 
-`sudo lastb --dns`
+`sudo lastb {{[-d|--dns]}}`

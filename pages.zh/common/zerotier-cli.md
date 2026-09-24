@@ -6,7 +6,7 @@
 
 - 加入一个网络：
 
-`sudo zerotier-cli join {{网络 ID}}`
+`sudo zerotier-cli join {{网络id}}`
 
 - 列出网络：
 
@@ -18,7 +18,7 @@
 
 - 离开一个网络：
 
-`sudo zerotier-cli leave {{网络 ID}}`
+`sudo zerotier-cli leave {{网络id}}`
 
 - 显示 ZeroTier One 的状态：
 

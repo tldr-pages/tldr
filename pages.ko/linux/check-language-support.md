@@ -9,7 +9,7 @@
 
 - 특정 로케일의 패키지 나열:
 
-`check-language-support --language {{en}}`
+`check-language-support {{[-l|--language]}} {{en}}`
 
 - 설치된 패키지와 누락된 패키지 모두 표시:
 

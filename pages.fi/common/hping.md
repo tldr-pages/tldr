@@ -1,6 +1,6 @@
 # hping
 
-> Tämä on alias komennolle `hping3`.
+> Tämä on alias `hping3` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

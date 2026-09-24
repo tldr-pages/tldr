@@ -27,7 +27,7 @@
 
 `wfuzz -z list,{{word1-word2-...}} {{https://api.example.com}} -d "{{id=FUZZ&showwallet=true}}"`
 
-- Provide wordlists from a file applying base64 and md5 encoding on them (`wfuzz -e encoders` lists all available encoders):
+- Provide wordlists from a file applying Base64 and MD5 encoding on them (`wfuzz -e encoders` lists all available encoders):
 
 `wfuzz -z file,{{path/to/file}},none-base64-md5 {{https://example.com/FUZZ}}`
 

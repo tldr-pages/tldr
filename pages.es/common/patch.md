@@ -10,16 +10,16 @@
 
 - Aplica un parche a un archivo específico:
 
-`patch {{ruta/al/archivo}} < {{parche.diff}}`
+`patch < {{parche.diff}} {{ruta/al/archivo}}`
 
 - Emparcha un archivo escribiendo el resultado a un archivo diferente:
 
-`patch {{ruta/al/archivo_de_entrada}} -o {{ruta/al/archivo_resultado}} < {{parche.diff}}`
+`patch < {{parche.diff}} {{ruta/al/archivo_de_entrada}} {{[-o|--output]}} {{ruta/al/archivo_resultado}}`
 
 - Aplica un parche al directorio actual:
 
-`patch -p1 < {{parche.diff}}`
+`patch < {{parche.diff}} {{[-p|--strip]}} 1`
 
 - Aplica el reverso de un parche:
 
-`patch -R < {{parche.diff}}`
+`patch < {{parche.diff}} {{[-R|--reverse]}}`

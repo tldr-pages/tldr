@@ -5,16 +5,16 @@
 
 - 列出所有可用的更新：
 
-`softwareupdate --list`
+`softwareupdate {{[-l|--list]}}`
 
 - 下载并安装所有更新：
 
-`softwareupdate --install --all`
+`softwareupdate {{[-i|--install]}} {{[-a|--all]}}`
 
 - 下载并安装所有推荐的更新：
 
-`softwareupdate --install --recommended`
+`softwareupdate {{[-i|--install]}} {{[-r|--recommended]}}`
 
 - 下载并安装特定的应用程序：
 
-`softwareupdate --install {{更新应用程序名}}`
+`softwareupdate {{[-i|--install]}} {{更新应用程序名}}`

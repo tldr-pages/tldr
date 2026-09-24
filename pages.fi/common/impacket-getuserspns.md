@@ -1,6 +1,6 @@
 # impacket-GetUserSPNs
 
-> Tämä on alias komennolle `GetUserSPNs.py`.
+> Tämä on alias `GetUserSPNs.py` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

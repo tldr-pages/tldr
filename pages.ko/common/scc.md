@@ -17,11 +17,11 @@
 
 - 특정 출력 형식을 사용하여 출력 표시 (기본값은 `tabular`):
 
-`scc --format {{tabular|wide|json|csv|cloc-yaml|html|html-table}}`
+`scc {{[-f|--format]}} {{tabular|wide|json|csv|cloc-yaml|html|html-table}}`
 
 - 특정 파일 확장자를 가진 파일만 계산:
 
-`scc --include-ext {{go,java,js}}`
+`scc {{[-i|--include-ext]}} {{go,java,js}}`
 
 - 카운트에서 제외할 디렉토리 지정:
 
@@ -29,8 +29,8 @@
 
 - 출력 및 정렬 기준 열로 정렬 (기본값은 파일 기준):
 
-`scc --sort {{files|name|lines|blanks|code|comments|complexity}}`
+`scc {{[-s|--sort]}} {{files|name|lines|blanks|code|comments|complexity}}`
 
 - 도움말 표시:
 
-`scc -h`
+`scc {{[-h|--help]}}`

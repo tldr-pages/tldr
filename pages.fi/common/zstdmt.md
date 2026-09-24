@@ -1,6 +1,6 @@
 # zstdmt
 
-> Tämä on alias komennolle `zstd --threads 0`.
+> Tämä on alias `zstd --threads 0` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

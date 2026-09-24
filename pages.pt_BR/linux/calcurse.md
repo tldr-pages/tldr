@@ -9,7 +9,7 @@
 
 - Mostra os agendamentos e eventos para o presente dia:
 
-`calcurse --appointment`
+`calcurse {{[-a|--appointment]}}`
 
 - Apaga todos os objetos gravados localmente e importa os objetos remotos:
 

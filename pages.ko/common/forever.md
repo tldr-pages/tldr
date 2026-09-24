@@ -13,4 +13,4 @@
 
 - 실행 중인 "영구" 프로세스를 중지:
 
-`forever stop {{ID|pid|script}}`
+`forever stop {{id|pid|script}}`

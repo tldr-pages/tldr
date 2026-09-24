@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD007 MD013 MD024-->
 # tldr-pages client specification
 
-**Current Specification Version:** 2.3
+**Current Specification Version:** Unreleased
 
 This document contains the official specification for tldr-pages clients. It is _not_ a specification of the format of the pages themselves - only a specification of how a user should be able to interface with an official client. For a list of previous versions of the specification, see the [changelog section](#changelog) below.
 
@@ -36,15 +36,15 @@ The following table documents what command-line options MUST be supported and wh
 
 When adding support for an option, clients MUST implement all variants of that option listed in the table. For example, clients should implement _both_ `-v` and `--version`. When a client implements updating the offline cache, they should support _both_ `-u` and `--update`.
 
-Option             | Required?   | Meaning
--------------------|-------------|----------
-`-v`, `--version`  | Yes         | Shows the current version of the client, and the version of this specification that it implements.
-`-p`, `--platform` | Yes         | Specifies the platform (including common) to be used to perform the action (either listing or searching) as an argument. If this option is specified, the selected platform MUST be checked first instead of the current platform as described below.
-`-u`, `--update`   | Conditional | Updates the offline cache of pages. MUST be implemented if caching is supported.
-`-l`, `--list`     | No          | Lists all the pages in the current platform to the standard output.
-`-L`, `--language` | No          | Specifies the preferred language for the page returned. Overrides other language detection mechanisms. See the [language section](#language) for more information.
-`--short-options`  | No          | If set, will filter examples to show their shortform option when available
-`--long-options`   | No          | If set, will filter examples to show their longform option when available
+Option                  | Required?   | Meaning
+------------------------|-------------|----------
+`-v`, `--version`       | Yes         | Shows the current version of the client, and the version of this specification that it implements.
+`-p`, `--platform`      | Yes         | Specifies the platform (including common) to be used to perform the action (either listing or searching) as an argument. If this option is specified, the selected platform MUST be checked first instead of the current platform as described below.
+`-u`, `--update`        | Conditional | Updates the offline cache of pages. MUST be implemented if caching is supported.
+`-l`, `--list`          | No          | Lists all the pages in the current platform to the standard output.
+`-L`, `--language`      | No          | Specifies the preferred language for the page returned. Overrides other language detection mechanisms. See the [language section](#language) for more information.
+`-S`, `--short-options` | No          | If set, will filter examples to show their shortform option when available
+`-E`, `--long-options`  | No          | If set, will filter examples to show their longform option when available
 
 By default clients SHOULD display only the longform option when neither `--short-options` or `--long-options` is set by the user. If both are provided, both options should be displayed (see the [Page Structure / Examples](#examples) section for the output format).
 
@@ -235,8 +235,8 @@ Step  | Path checked         | Outcome
 If appropriate, it is RECOMMENDED that clients implement a cache of pages. If implemented, clients MUST download the entire archive either as a whole from **<https://github.com/tldr-pages/tldr/releases/latest/download/tldr.zip>** or download language-specific archives in the format `https://github.com/tldr-pages/tldr/releases/latest/download/tldr-pages.{{language-code}}.zip` (e.g. **<https://github.com/tldr-pages/tldr/releases/latest/download/tldr-pages.en.zip>**). The English archive is also available from **<https://github.com/tldr-pages/tldr/releases/latest/download/tldr-pages.zip>**.
 
 > [!CAUTION]
-> Prior to version 2.2, the client specification stated that clients MUST download archives from <https://tldr.sh/assets>. This method is now deprecated, and **_will be removed_** in December 2025.
-> Clients that still use the old location will therefore stop working next year.
+> Prior to version 2.2, the client specification stated that clients MUST download archives from <https://tldr.sh/assets>. After almost 2 years of being deprecated, the assets have been removed from this location on [**January 20 2026**](https://github.com/tldr-pages/tldr/pull/20565).
+> Clients that still use the old location can no longer download pages.
 
 Caching SHOULD be done according to the user's language configuration (if any), to not waste unneeded space for unused languages. Additionally, clients MAY automatically update the cache regularly.
 

@@ -11,10 +11,14 @@
 
 `system_profiler -xml > MyReport.spx`
 
-- Display a hardware overview (Model, CPU, Memory, Serial, etc) and software data (System, Kernel, Name, Uptime, etc):
+- Display a hardware overview (Model, CPU, Memory, Serial, etc.) and software data (System, Kernel, Name, Uptime, etc.):
 
 `system_profiler SPHardwareDataType SPSoftwareDataType`
 
 - Print the system serial number:
 
 `system_profiler SPHardwareDataType|grep "Serial Number (system)" | awk '{ print $4 }'`
+
+- Display the negotiated max wattage of the connected charger and cable:
+
+`system_profiler SPPowerDataType | awk '/Wattage/ {print $3}'`

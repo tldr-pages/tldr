@@ -19,10 +19,10 @@
 
 `CONFIG -set "cpu cycles={{10000}}"`
 
-- Set property (e.g., disable EMS):
+- Set a property (e.g., disable EMS):
 
 `CONFIG -set "dos ems=off"`
 
-- Get property value (stored in %CONFIG%):
+- Get a property's value (stored in `%CONFIG%`):
 
 `CONFIG -get "cpu core"`

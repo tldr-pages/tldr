@@ -5,8 +5,8 @@
 
 - Delete a snapshot:
 
-`qm {{[del|delsnapshot]}} {{vm_id}} {{snapshot_name}}`
+`qm {{[del|delsnapshot]}} {{100}} {{snapshot_name}}`
 
 - Delete a snapshot from a configuration file (even if removing the disk snapshot fails):
 
-`qm {{[del|delsnapshot]}} {{vm_id}} {{snapshot_name}} --force 1`
+`qm {{[del|delsnapshot]}} {{100}} {{snapshot_name}} --force 1`

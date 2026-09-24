@@ -1,6 +1,6 @@
 # xml p2x
 
-> Tämä on alias komennolle `xml depyx`.
+> Tämä on alias `xml depyx` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

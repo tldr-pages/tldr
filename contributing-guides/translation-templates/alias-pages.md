@@ -8,6 +8,7 @@ The templates can be changed when necessary.
 
 [en](#en) •
 [ar](#ar) •
+[bg](#bg) •
 [bn](#bn) •
 [bs](#bs) •
 [ca](#ca) •
@@ -26,6 +27,7 @@ The templates can be changed when necessary.
 [ko](#ko) •
 [lo](#lo) •
 [ml](#ml) •
+[nb](#nb) •
 [ne](#ne) •
 [nl](#nl) •
 [no](#no) •
@@ -34,6 +36,7 @@ The templates can be changed when necessary.
 [pt_PT](#pt_pt) •
 [ro](#ro) •
 [ru](#ru) •
+[si](#si) •
 [sr](#sr) •
 [sv](#sv) •
 [ta](#ta) •
@@ -68,6 +71,20 @@ The templates can be changed when necessary.
 > هذا الأمر هو اسم مستعار لـ `example`.
 
 - إعرض التوثيقات للأمر الأصلي:
+
+`tldr example`
+```
+
+---
+
+### bg
+
+```markdown
+# example
+
+> Тази команда е псевдоним на `example`.
+
+- Виж документацията за оригиналната команда:
 
 `tldr example`
 ```
@@ -205,7 +222,7 @@ The templates can be changed when necessary.
 ```markdown
 # example
 
-> Tämä on alias komennolle `example`.
+> Tämä on alias `example` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
@@ -317,9 +334,23 @@ The templates can be changed when necessary.
 ```markdown
 # example
 
-> ഈ കമാൻഡ് `example` എന്നത്തിന്റെ അപരനാമമാണ്.
+> ഈ കമാൻഡ് `example` എന്നതിന്റെ അപരനാമമാണ്.
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
+
+`tldr example`
+```
+
+---
+
+### nb
+
+```markdown
+# example
+
+> Denne kommandoen er et alias for `example`.
+
+- Vis dokumentasjonen for den opprinnelige kommandoen:
 
 `tldr example`
 ```
@@ -438,6 +469,20 @@ The templates can be changed when necessary.
 
 ---
 
+### si
+
+```markdown
+# example
+
+> මෙම විධානය `example` සඳහා අන්වර්ථ නාමයක් වේ.
+
+- මුල් විධානය සඳහා ලේඛනය බලන්න:
+
+`tldr example`
+```
+
+---
+
 ### sr
 
 ```markdown
@@ -459,7 +504,7 @@ The templates can be changed when necessary.
 
 > Det här kommandot är ett alias för `example`.
 
-- Se dokumentationen för orginalkommandot:
+- Se dokumentationen för originalkommandot:
 
 `tldr example`
 ```

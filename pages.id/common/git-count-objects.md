@@ -9,12 +9,12 @@
 
 - Hitung jumlah seluruh objek dan pemakaian ruang penyimpanan, dalam format satuan yang lebih ramah dibaca manusia:
 
-`git count-objects --human-readable`
+`git count-objects {{[-H|--human-readable]}}`
 
 - Tampilkan informasi perhitungan secara lebih mendalam:
 
-`git count-objects --verbose`
+`git count-objects {{[-v|--verbose]}}`
 
 - Tampilkan informasi perhitungan secara lebih mendalam, menggunakan format satuan yang lebih ramah dibaca manusia:
 
-`git count-objects --human-readable --verbose`
+`git count-objects {{[-H|--human-readable]}} {{[-v|--verbose]}}`

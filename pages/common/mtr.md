@@ -1,6 +1,7 @@
 # mtr
 
 > Matt's Traceroute: combined traceroute and ping tool.
+> See also: `traceroute`, `ping`.
 > More information: <https://manned.org/mtr>.
 
 - Traceroute to a host and continuously ping all intermediary hops:

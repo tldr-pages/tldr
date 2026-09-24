@@ -17,7 +17,7 @@
 
 - Cambia el intérprete de comandos actual al contexto y espacio de nombres dados:
 
-`kubie ctx {{contexto}} -n {{espacio_de_nombres}}`
+`kubie ctx {{contexto}} {{[-n|--namespace]}} {{espacio_de_nombres}}`
 
 - Ejecuta un comando en el contexto y espacio de nombres dados, sin crear un nuevo intérprete de comandos:
 

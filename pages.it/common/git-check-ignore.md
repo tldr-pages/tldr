@@ -13,7 +13,7 @@
 
 - Leggi i percorsi di file o directory da `stdin` (uno per riga) invece che dalla riga di comando:
 
-`git check-ignore --stdin < {{percorso/della/lista_dei_file_o_directory}}`
+`git < {{percorso/della/lista_dei_file_o_directory}} check-ignore --stdin`
 
 - Non controllare nell'indice (usato per determinare il motivo per cui alcuni percorsi non sono ignorati):
 

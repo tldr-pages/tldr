@@ -1,0 +1,7 @@
+# ip6tables-save
+
+> এই কমান্ডটি IPv6 ফায়ারওয়ালের জন্য `iptables-save` - এর একটি উপনাম।
+
+- মূল কমান্ডের ডকুমেন্টেশন দেখুন:
+
+`tldr iptables-save`

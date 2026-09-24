@@ -5,7 +5,7 @@
 
 - 모든 알려진 사용자 기록 나열:
 
-`userdbctl user`
+`userdbctl`
 
 - 특정 사용자 세부 정보 표시:
 

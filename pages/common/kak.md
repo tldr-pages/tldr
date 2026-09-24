@@ -1,6 +1,6 @@
 # kak
 
-> Kakoune is a mode-based code editor implementing the "multiple selections" paradigm.
+> Kakoune, a mode-based code editor implementing the "multiple selections" paradigm.
 > Data can be selected and simultaneously edited in different locations, using multiple selections; users can also connect to the same session for collaborative editing.
 > More information: <https://manned.org/kak>.
 
@@ -16,9 +16,9 @@
 
 `<Esc>`
 
-- Replace all instances of "foo" in the current file with "bar":
+- Replace all instances of `string1` in the current file with `string2`:
 
-`%s{{foo}}<Enter>c{{bar}}<Esc>`
+`%s{{string1}}<Enter>c{{string2}}<Esc>`
 
 - Unselect all secondary selections, and keep only the main one:
 

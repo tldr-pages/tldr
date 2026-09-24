@@ -3,7 +3,7 @@
 > Configure system authentication resources.
 > More information: <https://manned.org/authconfig>.
 
-- Display the current configuration (or dry run):
+- Display the current configuration:
 
 `authconfig --test`
 

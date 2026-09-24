@@ -10,3 +10,7 @@
 - Add 10GB to the container storage:
 
 `pct {{[resi|resize]}} {{100}} rootfs +10G`
+
+- Resize a mounted volume:
+
+`pct {{[resi|resize]}} {{100}} mp{{0}} {{+10G}}`

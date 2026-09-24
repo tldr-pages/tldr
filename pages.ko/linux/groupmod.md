@@ -10,4 +10,4 @@
 
 - 그룹 ID 변경:
 
-`sudo groupmod {{[-g|--gid]}} {{새_ID}} {{그룹_이름}}`
+`sudo groupmod {{[-g|--gid]}} {{새_id}} {{그룹_이름}}`

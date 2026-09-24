@@ -11,28 +11,28 @@
 
 - Print all properties of an object:
 
-`wpctl inspect {{id}}`
+`wpctl inspect {{object_id}}`
 
 - Set an object to be the default in its group:
 
-`wpctl set-default {{id}}`
+`wpctl set-default {{object_id}}`
 
 - Get the volume of a sink:
 
-`wpctl get-volume {{id}}`
+`wpctl get-volume {{sink_id}}`
 
 - Set the volume of a sink to `n` percent:
 
-`wpctl set-volume {{id}} {{n}}%`
+`wpctl set-volume {{sink_id}} {{n}}%`
 
 - Increase/Decrease the volume of a sink by `n` percent:
 
-`wpctl set-volume {{id}} {{n}}%{{+|-}}`
+`wpctl set-volume {{sink_id}} {{n}}%{{+|-}}`
 
 - Increase the volume of a sink by `n` percent but limit the volume below 100%:
 
-`wpctl set-volume {{[-l|--limit]}} 1 {{id}} {{n}}%-`
+`wpctl set-volume {{[-l|--limit]}} 1 {{sink_id}} {{n}}%-`
 
-- Mute/Unmute a sink (1 is mute, 0 is unmute):
+- Mute/Unmute the default audio sink or source (1 is mute, 0 is unmute):
 
-`wpctl set-mute {{id}} {{1|0|toggle}}`
+`wpctl set-mute @DEFAULT_{{SINK|SOURCE}}@ {{1|0|toggle}}`

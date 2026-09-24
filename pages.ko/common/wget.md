@@ -15,11 +15,11 @@
 
 - 요청 사이에 3초 간격으로 단일 웹 페이지와 모든 리소스(스크립트, 스타일시트, 이미지 등)를 다운로드:
 
-`wget {{[-p|--page-requisites]}} {{[-k|--convert-links]}} {{[-w|--wait]}} 3 {{https://example.com/somepage.html}}`
+`wget {{[-pkw|--page-requisites --convert-links --wait]}} 3 {{https://example.com/somepage.html}}`
 
 - 폴더 및 해당 폴더 내에 나열된 모든 파일을 다운로드(포함된 페이지는 다운로드하지 않음):
 
-`wget {{[-m|--mirror]}} {{[-np|--no-parent]}} {{https://example.com/somepath/}}`
+`wget {{[-mnp|--mirror --no-parent]}} {{https://example.com/somepath/}}`
 
 - 다운로드 속도와 연결 재시도 횟수를 제한:
 

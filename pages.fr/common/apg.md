@@ -13,11 +13,11 @@
 
 - Crée un mot de passe avec 16 caractères :
 
-`apg -m {{16}}`
+`apg -m 16`
 
 - Crée un mot de passe avec une longeur maximum de 16 :
 
-`apg -x {{16}}`
+`apg -x 16`
 
 - Crée un mot de passe qui n'apparaît pas dans le dictionnaire (le fichier de dictionnaire doit être donné) :
 

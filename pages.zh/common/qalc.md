@@ -6,15 +6,15 @@
 
 - 以交互模式启动：
 
-`qalc {{--interactive}}`
+`qalc {{[-i|--interactive]}}`
 
 - 以简洁模式启动（仅输出结果）：
 
-`qalc --terse`
+`qalc {{[-t|--terse]}}`
 
 - 更新货币兑换率：
 
-`qalc --exrates`
+`qalc {{[-e|--exrates]}}`
 
 - 非交互地执行计算：
 
@@ -26,4 +26,4 @@
 
 - 从文件中执行命令：
 
-`qalc --file {{路径/到/文件}}`
+`qalc {{[-f|--file]}} {{路径/到/文件}}`

@@ -17,16 +17,16 @@
 
 - Tüm oynatıcıları listeleyin:
 
-`playerctl --list-all`
+`playerctl {{[-l|--list-all]}}`
 
 - Belirtilen oynatıcıya komut verin:
 
-`playerctl --player {{oynatıcı_ismi}} {{play-pause|next|previous|...}}`
+`playerctl {{[-p|--player]}} {{oynatıcı_ismi}} {{play-pause|next|previous|...}}`
 
 - Tüm oynatıcılara komut verin:
 
-`playerctl --all-players {{play-pause|next|previous|...}}`
+`playerctl {{[-a|--all-players]}} {{play-pause|next|previous|...}}`
 
 - Mevcut medyanın meta verisini görüntüleyin:
 
-`playerctl metadata --format "{{Şuanda oynatılıyor: \{\{artist\}\} - \{\{album\}\} - \{\{title\}\}}}"`
+`playerctl metadata {{[-f|--format]}} "{{Şuanda oynatılıyor: \{\{artist\}\} - \{\{album\}\} - \{\{title\}\}}}"`
