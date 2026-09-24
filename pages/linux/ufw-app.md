@@ -10,7 +10,7 @@
 
 - Display information about a specific profile or all:
 
-`sudo ufw app info {{[profile|all]}}`
+`sudo ufw app info {{profile|all}}`
 
 - Allow or deny traffic using an specific profile:
 
