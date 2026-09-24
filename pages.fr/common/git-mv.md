@@ -7,7 +7,7 @@
 
 `git mv {{chemin/vers/fichier}} {{nouveau/chemin/vers/fichier}}`
 
-- Renome un fichier et met à jour l'index, valide à la prochaine validation :
+- Renomme un fichier et met à jour l'index, valide à la prochaine validation :
 
 `git mv {{nom_fichier}} {{nouveau_nom_fichier}}`
 
