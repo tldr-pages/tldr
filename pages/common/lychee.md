@@ -21,4 +21,4 @@
 
 - Display help:
 
-`lychee --help`
+`lychee {{[-h|--help]}}`
