@@ -87,7 +87,7 @@ function run_tests {
   if command -v nproc >/dev/null; then
     nproc="$(nproc)"
   else
-    nproc="$(sysctl -n hw.logicalcpu)"
+    nproc="$(sysctl -n hw.logicalcpu 2>/dev/null || echo 1)"
   fi
   find pages* -name '*.md' -print0 | xargs -0 -n $((page_count / nproc / 2)) -P "$nproc" npx markdownlint
   echo ./pages.* | xargs -n1 -P "$nproc" scripts/test-tldr-lint.sh
