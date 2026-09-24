@@ -3,9 +3,9 @@
 > Rate limit connections to denies an IP initiating 6 or more attempts within 30 seconds.
 > More information: <https://manned.org/ufw>.
 
-- Preview a rule without applying it:
+- Simulate a rule without applying it:
 
-`sudo ufw --dry-run limit {{ssh}}`
+`sudo ufw --dry-run limit {{profile}}`
 
 - Rate limit specific service by profile:
 
@@ -17,7 +17,7 @@
 
 - Rate limit only from a specific source address or subnet:
 
-`sudo ufw limit from {{192.168.1.0/24}} to any port {{22}} proto {{tcp}}`
+`sudo ufw limit from {{192.168.0.0/16}} to any port {{22}} proto {{tcp}}`
 
 - Rate limit on a specific network interface:
 
