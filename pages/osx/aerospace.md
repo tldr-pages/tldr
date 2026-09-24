@@ -9,11 +9,11 @@
 
 - Switch to a workspace:
 
-`aerospace workspace <workspace>`
+`aerospace workspace {{workspace}}`
 
 - Move the focused window to a workspace:
 
-`aerospace move-node-to-workspace <workspace>`
+`aerospace move-node-to-workspace {{workspace}}`
 
 - Focus a window in a direction:
 
