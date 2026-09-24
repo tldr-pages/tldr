@@ -1,6 +1,6 @@
 # ufw limit
 
-> Rate limit connections to denies an IP initiating 6 or more attempts within 30 seconds.
+> Rate limit connections to deny an IP initiating 6 or more attempts within 30 seconds.
 > More information: <https://manned.org/ufw>.
 
 - Simulate a rule without applying it:
