@@ -362,6 +362,8 @@ For example: `systemctl <input_file.txt status pipewire --user >output_file.txt`
 
 This is only a suggestion and should be disregarded when program functionality or readability dictates otherwise. For example when a page is repeating arguments between commands try to align them vertically.
 
+Prefer omitting the space after redirection operators (`<input`, `>output`) to treat them as a single unit.
+
 If the command does multiple things, try to keep the chronological order in which things happen.
 
 ### Option syntax
