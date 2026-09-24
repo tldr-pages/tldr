@@ -1,7 +1,7 @@
 # aerospace
 
 > A tiling window manager for macOS.
-> More information: <https://nikitabobko.github.io/AeroSpace/guide>.
+> More information: <https://nikitabobko.github.io/AeroSpace/commands>.
 
 - Reload the configuration:
 
