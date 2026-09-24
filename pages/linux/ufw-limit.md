@@ -7,9 +7,9 @@
 
 `sudo ufw --dry-run limit {{ssh}}`
 
-- Rate limit specific service by name:
+- Rate limit specific service by profile:
 
-`sudo ufw limit {{ssh}}`
+`sudo ufw limit {{profile}}`
 
 - Rate limit specific port and protocol:
 
