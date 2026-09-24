@@ -9,7 +9,7 @@
 
 - Display a breakdown of error types:
 
-`lychee {{[-f|--format]}} detailed {{https://example.com}}`
+`lychee {{[-f|--format]}} {{compact|detailed|json|junit|markdown}} {{https://example.com}}`
 
 - Limit the amount of connections to prevent DDOS protection:
 
