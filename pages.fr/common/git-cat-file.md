@@ -7,7 +7,7 @@
 
 `git cat-file -s HEAD`
 
-- Obtient le type [t] (blob, tree, validation, étiquette) d'un objet Git spécifié :
+- Obtient le type [t] (blob, tree, commit, tag) d'un objet Git spécifié :
 
 `git cat-file -t {{8c442dc3}}`
 
