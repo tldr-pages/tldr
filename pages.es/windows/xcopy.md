@@ -11,7 +11,7 @@
 
 `xcopy {{ruta\al\archivo_o_directorio}} {{ruta\al\directorio_de_destino}} /p`
 
-- Copiar solo la estructura del directorio, excluyendo archivos:
+- Copia solo la estructura del directorio, excluyendo archivos:
 
 `xcopy {{ruta\al\archivo_o_directorio}} {{ruta\al\directorio_de_destino}} /t`
 

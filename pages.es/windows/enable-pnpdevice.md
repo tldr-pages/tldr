@@ -4,15 +4,15 @@
 > Nota: Este comando solo se puede usar a través de PowerShell.
 > Más información: <https://learn.microsoft.com/powershell/module/pnpdevice/enable-pnpdevice>.
 
-- Habilitar un dispositivo:
+- Habilita un dispositivo:
 
 `Enable-PnpDevice -InstanceId 'ID OBTENIDO USANDO EL COMANDO Get-PnpDevice'`
 
-- Habilitar todos los dispositivos PnP deshabilitados:
+- Habilita todos los dispositivos PnP deshabilitados:
 
 `Get-PnpDevice | Where-Object {$_.Problem -eq 22} | Enable-PnpDevice`
 
-- Habilitar un dispositivo sin confirmación:
+- Habilita un dispositivo sin confirmación:
 
 `Enable-PnpDevice -InstanceId 'ID OBTENIDO USANDO EL COMANDO Get-PnpDevice' -Confirm:$False`
 

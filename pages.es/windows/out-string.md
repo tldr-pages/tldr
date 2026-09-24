@@ -4,7 +4,7 @@
 > Nota: Este comando solo se puede usar a través de PowerShell.
 > Más información: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/out-string>.
 
-- Imprimir información del host como cadena:
+- Imprime información del host como cadena:
 
 `Get-Alias | Out-String`
 

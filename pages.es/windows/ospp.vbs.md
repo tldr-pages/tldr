@@ -10,7 +10,7 @@
 
 `cscript ospp.vbs /inpkey:{{clave_producto}}`
 
-- Desinstalar una clave de producto instalada utilizando los últimos cinco dígitos de la clave de producto:
+- Desinstala una clave de producto instalada utilizando los últimos cinco dígitos de la clave de producto:
 
 `cscript ospp.vbs /unpkey:{{dígitos_clave_producto}}`
 

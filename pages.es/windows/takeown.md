@@ -15,6 +15,6 @@
 
 `takeown /r /d {{ruta\al\directorio}}`
 
-- Cambiar la propiedad al grupo Administradores en lugar del usuario actual:
+- Cambia la propiedad al grupo Administradores en lugar del usuario actual:
 
 `takeown /a /f {{ruta\al\archivo}}`

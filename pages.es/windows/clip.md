@@ -7,14 +7,14 @@
 
 `{{dir}} | clip`
 
-- Copiar el contenido de un archivo al portapapeles de Windows:
+- Copia el contenido de un archivo al portapapeles de Windows:
 
 `clip < {{ruta\al\archivo.ext}}`
 
-- Copiar texto con un salto de línea al portapapeles de Windows:
+- Copia texto con un salto de línea al portapapeles de Windows:
 
 `echo {{texto}} | clip`
 
-- Copiar texto sin un salto de línea al portapapeles de Windows:
+- Copia texto sin un salto de línea al portapapeles de Windows:
 
 `echo | set /p="texto" | clip`

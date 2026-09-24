@@ -8,6 +8,6 @@
 
 `tldr clear-host`
 
-- Limpiar la pantalla:
+- Limpia la pantalla:
 
 `cls`
