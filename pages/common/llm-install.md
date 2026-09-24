@@ -9,11 +9,11 @@
 
 - Upgrade a plugin to its latest version:
 
-`llm install --upgrade {{plugin_name}}`
+`llm install {{[-U|--upgrade]}} {{plugin_name}}`
 
 - Install a local plugin in editable mode:
 
-`llm install --editable {{path/to/plugin_directory}}`
+`llm install {{[-e|--editable]}} {{path/to/plugin_directory}}`
 
 - Reinstall a plugin even if it is already up to date:
 
