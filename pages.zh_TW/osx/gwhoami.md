@@ -1,7 +1,7 @@
 # gwhoami
 
-> 這是 `whoami` 命令的一個別名。
+> 此命令為 `whoami` 的別名。
 
-- 原命令的文件在：
+- 檢視原命令的文件：
 
 `tldr whoami`
