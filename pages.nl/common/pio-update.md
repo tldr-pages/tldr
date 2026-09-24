@@ -11,6 +11,6 @@
 
 `pio update --core-packages`
 
-- Controleer voor nieuwe versies van pakketten, platformen en bibliotheken, maar update ze niet:
+- Controleer op nieuwe versies van pakketten, platformen en bibliotheken, maar update ze niet:
 
 `pio update --dry-run`

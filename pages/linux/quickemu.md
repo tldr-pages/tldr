@@ -1,6 +1,6 @@
 # quickemu
 
-> Build and manage highly optimised desktop virtual machines quickly.
+> Build and manage highly optimized desktop virtual machines quickly.
 > Note: Virtual machine must be in stopped state when working with snapshots.
 > See also: `quickget`.
 > More information: <https://github.com/quickemu-project/quickemu>.

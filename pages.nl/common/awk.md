@@ -13,7 +13,7 @@
 
 `awk '/{{foo}}/ {print $2}' {{pad/naar/bestand}}`
 
-- Toon de laatste kolom van iedere regel in een bestand en maak gebruik van een komma (in plaats van een spatie) als veld scheider:
+- Toon de laatste kolom van iedere regel in een bestand en maak gebruik van een komma (in plaats van een spatie) als veldscheider:
 
 `awk -F ',' '{print $NF}' {{pad/naar/bestand}}`
 

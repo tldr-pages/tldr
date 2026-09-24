@@ -11,7 +11,7 @@
 
 `ftp {{ip_address}} {{port}}`
 
-- [Interactive] Switch to binary transfer mode (graphics, compressed files, etc):
+- [Interactive] Switch to binary transfer mode (graphics, compressed files, etc.):
 
 `binary`
 
@@ -19,11 +19,11 @@
 
 `prompt off`
 
-- [Interactive] Download multiple files (glob expression):
+- [Interactive] Download multiple files (`glob` expression):
 
 `mget {{*.png}}`
 
-- [Interactive] Upload multiple files (glob expression):
+- [Interactive] Upload multiple files (`glob` expression):
 
 `mput {{*.zip}}`
 

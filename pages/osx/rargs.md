@@ -8,7 +8,7 @@
 
 `{{command}} | rargs {{command}} {0}`
 
-- Do a dry run, which prints the commands that would be run instead of executing them:
+- Simulate which commands would be run without executing them:
 
 `{{command}} | rargs -e {{command}} {0}`
 

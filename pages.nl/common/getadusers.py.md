@@ -12,7 +12,7 @@
 
 `GetADUsers.py -user {{gebruiker}} -dc-ip {{domain_controller_ip}} {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}`
 
-- Extraheer gebruiksdetials door gebruik te maken van pass-the-hash authentication:
+- Extraheer gebruiksdetails door gebruik te maken van pass-the-hash authentication:
 
 `GetADUsers.py -all -dc-ip {{domain_controller_ip}} -hashes {{LM_Hash}}:{{NT_Hash}} {{domein}}/{{gebruikersnaam}}`
 

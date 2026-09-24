@@ -1,36 +1,28 @@
 # adb shell
 
-> Android Debug Bridge Shell: Запуск удалённой командной оболочки на эмуляторе Android или подключенном устройстве Android.
+> Выполнять команды оболочки на подключённом Android-устройстве или эмуляторе.
 > Больше информации: <https://developer.android.com/tools/adb>.
 
 - Запустить удалённую интерактивную оболочку на эмуляторе или устройстве:
 
 `adb shell`
 
-- Получить все свойства от эмулятора или устройства:
+- Посмотреть документацию по отображению системных свойств Android:
 
-`adb shell getprop`
+`tldr {{[-p|--platform]}} android getprop`
 
-- Вернуть всем разрешениям значение по умолчанию:
+- Посмотреть документацию по менеджеру пакетов Android:
 
-`adb shell pm reset-permissions`
+`tldr {{[-p|--platform]}} android pm`
 
-- Отозвать опасные разрешения для приложения:
+- Посмотреть документацию по отправке кодов событий и событий сенсорного экрана:
 
-`adb shell pm revoke {{пакет}} {{разрешения}}`
+`tldr {{[-p|--platform]}} android input`
 
-- Вызвать событие клавиши:
+- Посмотреть документацию по менеджеру активностей Android:
 
-`adb shell input keyevent {{код_клавиши}}`
+`tldr {{[-p|--platform]}} android am`
 
-- Очистить данные приложения на эмуляторе или устройстве:
+- Вывести список задокументированных команд оболочки Android:
 
-`adb shell pm clear {{пакет}}`
-
-- Запустить activity на эмуляторе или устройстве:
-
-`adb shell am start -n {{пакет}}/{{активность}}`
-
-- Запустить базовый activity на эмуляторе или устройстве:
-
-`adb shell am start -W -c android.intent.category.HOME -a android.intent.action.MAIN`
+`tldr {{[-p|--platform]}} android {{[-l|--list]}}`

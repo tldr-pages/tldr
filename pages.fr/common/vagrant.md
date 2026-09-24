@@ -1,15 +1,16 @@
 # vagrant
 
 > Gère des environnements de développement légers, reproductibles et portables.
+> Certaines sous-commandes, telles que `box`, `snapshot`, `halt`, etc., disposent de leur propre documentation d’utilisation.
 > Plus d'informations : <https://developer.hashicorp.com/vagrant/docs/cli>.
 
 - Crée un fichier Vagrantfile dans le répertoire actuel avec l'image Vagrant de base :
 
 `vagrant init`
 
-- Crée un fichier Vagrantfile avec l'image Ubuntu 20.04 (Focal Fossa) depuis HashiCorp Atlas :
+- Crée un fichier Vagrantfile avec une image depuis le Vagrant Public Registry :
 
-`vagrant init ubuntu/focal64`
+`vagrant init {{ubuntu/focal64}}`
 
 - Démarre et configure l’environnement Vagrant :
 

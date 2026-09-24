@@ -1,6 +1,7 @@
 # lp
 
 > 파일을 인쇄합니다.
+> 관련 항목: `lpstat`, `lpoptions`.
 > 더 많은 정보: <https://manned.org/lp>.
 
 - 명령어의 출력을 기본 프린터로 인쇄 (참고: `lpstat` 명령어):

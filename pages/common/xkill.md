@@ -14,4 +14,4 @@
 
 - Kill a window with a specific ID (use `xwininfo` to get info about windows):
 
-`xkill -id {{id}}`
+`xkill -id {{window_id}}`

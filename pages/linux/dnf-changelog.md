@@ -2,7 +2,6 @@
 
 > View the changelogs for a given package.
 > Not default to `dnf` but supported via `dnf-plugins-core`.
-> See also: `dnf`.
 > More information: <https://dnf-plugins-core.readthedocs.io/en/latest/changelog.html>.
 
 - View all changelogs for a given package:

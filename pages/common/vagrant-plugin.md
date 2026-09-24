@@ -1,7 +1,6 @@
 # vagrant plugin
 
 > Manage Vagrant plugins.
-> See also: `vagrant`.
 > More information: <https://developer.hashicorp.com/vagrant/docs/cli/plugin>.
 
 - List all the plugins currently installed:

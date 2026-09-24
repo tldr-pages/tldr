@@ -7,7 +7,7 @@
 
 `qsub {{script.sh}}`
 
-- Submit a script with a specified wallclock runtime limit of 1 hour, 2 minutes and 3 seconds:
+- Submit a script with a specified wallclock runtime limit of 1 hour 2 minutes and 3 seconds:
 
 `qsub -l walltime={{1}}:{{2}}:{{3}} {{script.sh}}`
 

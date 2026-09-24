@@ -11,7 +11,7 @@
 
 `sfdk deploy --{{method}} {{[-n|--dry-run]}}`
 
-- Deploy files in glob pattern `package*`:
+- Deploy files in `glob` pattern `package*`:
 
 `sfdk deploy --{{method}} "+package*"`
 
