@@ -4,7 +4,7 @@
 > Protege las unidades redirigiendo cualquier escritura a una superposición virtual. Las escrituras se descartan al reiniciar, a menos que se confirmen por defecto.
 > Más información: <https://learn.microsoft.com/windows/iot/iot-enterprise/customize/unified-write-filter>.
 
-- Obtene el estado actual:
+- Obtiene el estado actual:
 
 `uwfmgr get-config`
 

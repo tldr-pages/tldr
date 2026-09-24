@@ -8,6 +8,6 @@
 
 `$OriginAcl = Get-Acl -Path {{ruta\al\archivo}}; Set-Acl -Path {{ruta\al\archivo}} -AclObject $OriginAcl`
 
-- Usar el operador pipeline para pasar un descriptor:
+- Usa el operador pipeline para pasar un descriptor:
 
 `Get-Acl -Path {{ruta\al\archivo}} | Set-Acl -Path {{ruta\al\archivo}}`

@@ -3,7 +3,7 @@
 > Copia el contenido de entrada al portapapeles de Windows.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/clip>.
 
-- Redirigir la salida de la línea de comandos al portapapeles de Windows:
+- Redirige la salida de la línea de comandos al portapapeles de Windows:
 
 `{{dir}} | clip`
 

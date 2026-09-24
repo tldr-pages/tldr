@@ -15,11 +15,11 @@
 
 `reg compare {{nombre_clave1}} {{nombre_clave2}} /s`
 
-- Solo [o]utputear las coincidencias ([s]imilares) entre las claves especificadas:
+- Solo genera un resultad[o] con las coincidencias ([s]imilares) entre las claves especificadas:
 
 `reg compare {{nombre_clave1}} {{nombre_clave2}} /os`
 
-- [o]utputear las diferencias y coincidencias ([a]mbas) entre las claves especificadas:
+- Genera un resultad[o] con las diferencias y coincidencias ([a]mbas) entre las claves especificadas:
 
 `reg compare {{nombre_clave1}} {{nombre_clave2}} /oa`
 

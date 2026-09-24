@@ -19,6 +19,6 @@
 
 `reg add {{nombre_clave}} /t REG_{{SZ|MULTI_SZ|DWORD_BIG_ENDIAN|DWORD|BINARY|DWORD_LITTLE_ENDIAN|LINK|FULL_RESOURCE_DESCRIPTOR|EXPAND_SZ}}`
 
-- [f]orzar (sin un aviso) la sobrescritura del valor de registro existente:
+- [f]uerza (sin un aviso) la sobrescritura del valor de registro existente:
 
 `reg add {{nombre_clave}} /f`

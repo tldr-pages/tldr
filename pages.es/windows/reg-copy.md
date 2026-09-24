@@ -11,6 +11,6 @@
 
 `reg copy {{nombre_clave_antigua}} {{nombre_clave_nueva}} /s`
 
-- [f]orzar (sin un aviso) la copia de una clave de registro:
+- [f]uerza (sin un aviso) la copia de una clave de registro:
 
 `reg copy {{nombre_clave_antigua}} {{nombre_clave_nueva}} /f`

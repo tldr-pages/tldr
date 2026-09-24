@@ -19,11 +19,11 @@
 
 `xcopy {{ruta\al\archivo_o_directorio}} {{ruta\al\directorio_de_destino}} /e`
 
-- Mantener el ACL de origen en el destino:
+- Mantiene el ACL de origen en el destino:
 
 `xcopy {{ruta\al\archivo_o_directorio}} {{ruta\al\directorio_de_destino}} /o`
 
-- Permitir reanudar cuando se pierde la conexión de red:
+- Permite reanudar cuando se pierde la conexión de red:
 
 `xcopy {{ruta\al\archivo_o_directorio}} {{ruta\al\directorio_de_destino}} /z`
 

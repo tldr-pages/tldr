@@ -7,6 +7,6 @@
 
 `reg export {{nombre_clave}} {{ruta\al\archivo.reg}}`
 
-- Forza (asumiendo sí [y]) la sobrescritura de un archivo existente:
+- Obliga (asumiendo sí [y]) la sobrescritura de un archivo existente:
 
 `reg export {{nombre_clave}} {{ruta\al\archivo.reg}} /y`

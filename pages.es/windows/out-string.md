@@ -8,10 +8,10 @@
 
 `Get-Alias | Out-String`
 
-- Convertir cada objeto a una cadena en lugar de concatenar todos los objetos en una sola cadena:
+- Convierte cada objeto a una cadena en lugar de concatenar todos los objetos en una sola cadena:
 
 `Get-Alias | Out-String -Stream`
 
-- Usar el parámetro `Width` (Ancho) para evitar la truncación:
+- Usa el parámetro `Width` (Ancho) para evitar la truncación:
 
 `@{TestKey = ('x' * 200)} | Out-String -Width {{250}}`

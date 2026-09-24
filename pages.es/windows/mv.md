@@ -1,7 +1,7 @@
 # mv
 
 > En PowerShell, este comando es un alias de `Move-Item`.
-> Sin embargo, este comando no está disponible en el Símbolo del sistema (`cmd`). Usa `move` en su lugar para una funcionalidad similar.
+> Sin embargo, este comando no está disponible en el Símbolo del sistema (`cmd`). Use `move` en su lugar para una funcionalidad similar.
 
 - Vea la documentación del comando equivalente del Símbolo del sistema:
 
