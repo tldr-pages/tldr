@@ -14,11 +14,15 @@
 
 - Show information on a specific profile or all:
 
-`sudo ufw app info "{{[profile|all]}}"`
+`sudo ufw app info {{[profile|all]}}`
 
 - Apply edits on a specific profile or all to existing rules:
 
 `sudo ufw app update {{profile|all}}`
+
+- Update a profile's rules, applying the default application policy (replaces the existing action, or adds a rule if none exists):
+
+`sudo ufw app update --add-new {{profile}}`
 
 - Set the policy applied to new profiles by `ufw app update --add-new`:
 
