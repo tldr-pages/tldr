@@ -24,6 +24,6 @@
 
 `sudo ufw app update --add-new {{profile}}`
 
-- Set the policy applied to new profiles by `ufw app update --add-new`:
+- Set the default policy applied to new profiles:
 
 `sudo ufw app default {{allow|deny|reject|skip}}`
