@@ -21,7 +21,7 @@
 
 - Move the focused window in a direction:
 
-`aerospace move <left|down|up|right>`
+`aerospace move {{left|down|up|right}}`
 
 - List all windows:
 
