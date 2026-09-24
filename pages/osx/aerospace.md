@@ -33,4 +33,4 @@
 
 - Change the focused window's layout:
 
-`aerospace layout <tiling|floating>`
+`aerospace layout {{tiling|floating}}`
