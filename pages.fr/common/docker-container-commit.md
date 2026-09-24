@@ -1,6 +1,6 @@
 # docker container commit
 
-> Crée une nouvelle image depuis les changement d'un conteneur.
+> Crée une nouvelle image depuis les changements d'un conteneur.
 > Plus d'informations : <https://docs.docker.com/reference/cli/docker/container/commit/>.
 
 - Crée une image à partir d'un conteneur spécifique :
