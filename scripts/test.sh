@@ -83,9 +83,13 @@ function run_shellcheck {
 
 # Default test function, run by `npm test`.
 function run_tests {
-  page_count="$(find pages* -name '*.md' -printf . | wc -c)"
-  nproc="$(nproc)"
-  find pages* -name '*.md' -print0 | xargs -0 -n $((page_count / nproc / 2)) -P "$nproc" markdownlint
+  page_count="$(find pages* -name '*.md' | wc -l)"
+  if command -v nproc >/dev/null; then
+    nproc="$(nproc)"
+  else
+    nproc="$(sysctl -n hw.logicalcpu)"
+  fi
+  find pages* -name '*.md' -print0 | xargs -0 -n $((page_count / nproc / 2)) -P "$nproc" npx markdownlint
   echo ./pages.* | xargs -n1 -P "$nproc" scripts/test-tldr-lint.sh
   run_black
   run_flake8

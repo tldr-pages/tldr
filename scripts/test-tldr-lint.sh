@@ -5,8 +5,6 @@
 # so that it can be parallelized
 
 checks="TLDR104"
-# Don't ignore anything for the `pages.en` symlink.
-[[ -h $1 ]] && checks=""
 case $1 in
   *ar*|*bn*|*fa*|*hi*|*ja*|*ko*|*lo*|*ml*|*ne*|*ta*|*th*|*tr*)
     checks+=",TLDR003,TLDR004,TLDR015"
@@ -14,5 +12,11 @@ case $1 in
   *zh*)
     checks+=",TLDR003,TLDR004,TLDR005,TLDR015"
   ;;
+  *en*)
+    # Don't ignore anything for the `pages.en` symlink.
+    checks=""
+    # "pages.en" -> "pages"
+    set -- "pages"
+  ;;
 esac
-exec tldr-lint --ignore "$checks" "$1"
+exec npx tldr-lint --ignore "$checks" "$1"
