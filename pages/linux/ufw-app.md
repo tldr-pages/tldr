@@ -1,22 +1,22 @@
 # ufw app
 
-> List, inspect, and update application profiles.
-> Profiles are defined in files under `/etc/ufw/applications.d/`, not created or removed by this command.
+> Manage `ufw` application profiles and their associated firewall rules.
+> Application profiles are defined in `/etc/ufw/applications.d/`.
 > More information: <https://manned.org/ufw#head8>.
 
 - List available application profiles:
 
 `sudo ufw app list`
 
-- Allow traffic using a specific profile:
-
-`sudo ufw allow {{profile}}`
-
-- Show information on a specific profile or all:
+- Display information about a specific profile or all:
 
 `sudo ufw app info {{[profile|all]}}`
 
-- Apply edits on a specific profile or all to existing rules:
+- Allow traffic or deny using an specific profile:
+
+`sudo ufw {{allow|deny}} {{profile}}`
+
+- Update existing firewall rules after modifying a profile or all:
 
 `sudo ufw app update {{profile|all}}`
 
