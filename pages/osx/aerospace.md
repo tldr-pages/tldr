@@ -17,7 +17,7 @@
 
 - Focus a window in a direction:
 
-`aerospace focus <left|down|up|right>`
+`aerospace focus {{left|down|up|right}}`
 
 - Move the focused window in a direction:
 
