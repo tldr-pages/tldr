@@ -4,7 +4,7 @@
 > Zie ook: `tar`, `lrzuntar`, `lrunzip`.
 > Meer informatie: <https://manned.org/lrztar>.
 
-- Archiveer een map met tar en comprimeer dan:
+- Archiveer een map met `tar` en comprimeer dan:
 
 `lrztar {{pad/naar/map}}`
 

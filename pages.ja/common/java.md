@@ -19,10 +19,10 @@
 
 `java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar {{filename.jar}}`
 
-- JDK、JRE、HotSpot のバージョンを表示する:
-
-`java -version`
-
 - ヘルプを表示する:
 
 `java -help`
+
+- JDK、JRE、HotSpot のバージョンを表示する:
+
+`java -version`

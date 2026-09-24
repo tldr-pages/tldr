@@ -42,8 +42,8 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Find an existing username validation issue
-      uses: micalevisk/last-issue-action@0d40124cc99ac8601c2516007f0c98ef3d27537b # v2.3.0
-      id: last-issue # Step ID to reference later
+      uses: micalevisk/last-issue-action@010dfff63530f63c7a9fd54211bde51cc38cff73 # v2.4.0
+      id: last-issue   id: last-issue # Step ID to reference later
       with:
         state: all
         labels: check usernames

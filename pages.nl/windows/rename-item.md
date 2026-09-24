@@ -10,7 +10,7 @@
 
 - Hernoem een map:
 
-`Rename-Item -Path "{{pad\naar\bestand}}" -NewName "{{nieuwe_mapnaam}}"`
+`Rename-Item -Path "{{pad\naar\map}}" -NewName "{{nieuwe_mapnaam}}"`
 
 - Hernoem en verplaats een bestand:
 

@@ -8,7 +8,7 @@
 
 `pngtopam {{pad/naar/afbeelding.png}} > {{pad/naar/uitvoer.pam}}`
 
-- Maak een uitvoerafbeelding die zowel de hoofdafbeelding als de transparantiemasker van de invoerafbeelding bevat:
+- Maak een uitvoerafbeelding die zowel de hoofdafbeelding als het transparantiemasker van de invoerafbeelding bevat:
 
 `pngtopam -alphapam {{pad/naar/afbeelding.png}} > {{pad/naar/uitvoer.pam}}`
 

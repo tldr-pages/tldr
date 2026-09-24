@@ -1,7 +1,7 @@
 # clang++
 
 > Compileert C++ bronbestanden.
-> Onderdeel van of LLVM.
+> Onderdeel van LLVM.
 > Meer informatie: <https://clang.llvm.org/docs/UsersManual.html#command-line-options>.
 
 - Compileer broncodebestand(en) naar een uitvoerbaar binair bestand:

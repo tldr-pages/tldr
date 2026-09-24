@@ -11,7 +11,3 @@
 - Clone a Git repository into a new directory, checking out a specific branch:
 
 `git force-clone {{[-b|--branch]}} {{branch_name}} {{remote_repository_location}} {{path/to/directory}}`
-
-- Clone a Git repository into an existing directory of a Git repository, performing a force-reset to resemble it to the remote and checking out a specific branch:
-
-`git force-clone {{[-b|--branch]}} {{branch_name}} {{remote_repository_location}} {{path/to/directory}}`

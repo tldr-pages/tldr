@@ -24,7 +24,7 @@
 
 `obs --startstreaming`
 
-- Minimise to the system tray on launch:
+- Minimize to the system tray on launch:
 
 `obs --minimize-to-tray`
 

@@ -23,9 +23,9 @@
 
 `code --{{install|uninstall}}-extension {{éditeur.extension}}`
 
-- Affiche les extensions installées :
+- Affiche les informations de diagnostic et de processus de la fenêtre de code en cours d’exécution :
 
-`code --list-extensions`
+`code {{[-s|--status]}}`
 
 - Affiche les extensions installées avec leurs versions :
 

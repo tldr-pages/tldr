@@ -20,9 +20,9 @@
 
 `uv add --optional {{optional}} {{패키지1 패키지2 ...}}`
 
-- Add packages to a local group, which will not be included when published:
+- 배포 시 포함되지 않는 로컬 의존성 그룹에 패키지 추가:
 
-`uv add --group {{group}} {{패키지1 패키지2 ...}}`
+`uv add --group {{그룹}} {{패키지1 패키지2 ...}}`
 
 - dev 그룹에 패키지 추가 (`--group dev`의 축약 표현):
 

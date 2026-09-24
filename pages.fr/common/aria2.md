@@ -2,6 +2,6 @@
 
 > Cette commande est un alias de `aria2c`.
 
-- Voir la documentation pour la commande :
+- Affiche la documentation de la commande originale :
 
 `tldr aria2c`
