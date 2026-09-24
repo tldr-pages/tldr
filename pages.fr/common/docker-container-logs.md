@@ -7,7 +7,7 @@
 
 `docker {{[logs|container logs]}} {{nom_conteneur}}`
 
-- Affiche les journaux d'un conteneur en les suivants :
+- Affiche les journaux d'un conteneur en les suivant :
 
 `docker {{[logs|container logs]}} {{nom_conteneur}} {{[-f|--follow]}}`
 
