@@ -15,6 +15,6 @@
 
 `virt-qemu-run {{[-v|--verbose]}} {{ruta/a/guest.xml}}`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `virt-qemu-run {{[-h|--help]}}`

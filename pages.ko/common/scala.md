@@ -9,7 +9,7 @@
 
 - 클래스패스에 의존성을 추가하여 인터프리터 시작:
 
-`scala -classpath {{파일이름.jar}} {{명령}}`
+`scala {{[-cp|--extra-jars]}} {{파일이름.jar}} {{명령}}`
 
 - Scala 스크립트 실행:
 
@@ -21,4 +21,4 @@
 
 - 커맨드라인에서 단일 Scala 명령 실행:
 
-`scala -e {{명령}}`
+`scala {{[-e|--execute-script]}} {{명령}}`
