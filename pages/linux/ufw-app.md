@@ -8,7 +8,7 @@
 
 `sudo ufw app list`
 
-- Display information about a specific profile or all:
+- Display information about a specific or all profiles:
 
 `sudo ufw app info {{profile|all}}`
 
