@@ -17,7 +17,7 @@
 
 - Sort a CSV file by one or more columns:
 
-`qsv sort {{column1,column2,...}} {{path/to/file.csv}}`
+`qsv sort {{[-s|--select]}} {{column1,column2,...}} {{path/to/file.csv}}`
 
 - Compute summary statistics and infer data types for each column:
 
