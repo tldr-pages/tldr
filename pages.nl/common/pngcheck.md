@@ -1,6 +1,6 @@
 # pngcheck
 
-> Forensics tool voor het valideren van de integriteit van PNG-gebaseerde (PNG, JNG, MNG) afbeeldingbestanden.
+> Forensics tool voor het valideren van de integriteit van PNG-gebaseerde (PNG, JNG, MNG) afbeeldingsbestanden.
 > Kan ook embedded afbeeldingen en tekst van een bestand extraheren.
 > Meer informatie: <https://manned.org/pngcheck>.
 

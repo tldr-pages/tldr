@@ -2,7 +2,7 @@
 
 > Debian pakketbeheerder.
 > Sommige subcommando's zoals `deb` hebben hun eigen documentatie.
-> Voor gelijkwaardige commando's in andere pakket managers, zie <https://wiki.archlinux.org/title/Pacman/Rosetta>.
+> Voor gelijkwaardige commando's in andere pakketmanagers, zie <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > Meer informatie: <https://manned.org/dpkg>.
 
 - Installeer een pakket:

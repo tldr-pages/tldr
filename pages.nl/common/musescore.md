@@ -1,6 +1,6 @@
 # musescore
 
-> MuseScore bladmuziek bewerker.
+> MuseScore bladmuziekbewerker.
 > Zie ook: `lilypond`.
 > Meer informatie: <https://handbook.musescore.org/appendix/command-line-usage>.
 
@@ -16,7 +16,7 @@
 
 `musescore {{[-e|--experimental]}}`
 
-- Exporteer het gegeven bestand naar het gegeven uitvoer bestand. Het bestandstype hangt af van de gegeven extensie:
+- Exporteer het gegeven bestand naar het gegeven uitvoerbestand. Het bestandstype hangt af van de gegeven extensie:
 
 `musescore {{[-o|--export-to]}} {{uitvoer_bestand}} {{invoer_bestand}}`
 

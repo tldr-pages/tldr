@@ -11,7 +11,7 @@
 
 `winicontopam {{[-al|-allimages]}} {{pad/naar/invoer_bestand.ico}} > {{pad/naar/uitvoer.pam}}`
 
-- Converteer de n'de afbeelding in het invoerbestand naar PAM:
+- Converteer de n-de afbeelding in het invoerbestand naar PAM:
 
 `winicontopam {{[-i|-image]}} {{n}} {{pad/naar/invoer_bestand.ico}} > {{pad/naar/uitvoer.pam}}`
 

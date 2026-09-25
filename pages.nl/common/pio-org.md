@@ -23,6 +23,6 @@
 
 `pio org list`
 
-- Update de name, email of weergave naam van een organisatie:
+- Update de name, email of weergavenaam van een organisatie:
 
 `pio org update --orgname {{nieuwe_organisatie_naam}} --email {{nieuw_email}} --displayname {{nieuwe_weergave_naam}} {{organisatie_naam}}`
