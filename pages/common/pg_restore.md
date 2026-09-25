@@ -7,11 +7,11 @@
 
 `pg_restore {{[-d|--dbname]}} {{db_name}} {{archive_file.dump}}`
 
-- Same as above, customize username:
+- Restore an archive into an existing database, using a specific username:
 
 `pg_restore {{[-U|--username]}} {{username}} {{[-d|--dbname]}} {{db_name}} {{archive_file.dump}}`
 
-- Same as above, customize host and port:
+- Restore an archive into an existing database, using a specific host and port:
 
 `pg_restore {{[-h|--host]}} {{host}} {{[-p|--port]}} {{port}} {{[-d|--dbname]}} {{db_name}} {{archive_file.dump}}`
 

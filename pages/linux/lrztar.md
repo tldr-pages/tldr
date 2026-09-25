@@ -8,7 +8,7 @@
 
 `lrztar {{path/to/directory}}`
 
-- Same as above, with ZPAQ - extreme compression, but very slow:
+- Archive a directory with `tar`, then compress with ZPAQ (extreme compression, but very slow):
 
 `lrztar {{[-z|--zpaq]}} {{path/to/directory}}`
 
