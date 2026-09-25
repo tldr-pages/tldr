@@ -11,7 +11,7 @@
 
 `qsv select {{column1,column2,...}} {{path/to/file.csv}}`
 
-- Filter rows containing a regex or literal text:
+- Filter rows containing a `regex` or literal text:
 
 `qsv search {{regex_or_text}} {{path/to/file.csv}}`
 
