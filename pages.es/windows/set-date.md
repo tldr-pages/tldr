@@ -8,7 +8,7 @@
 
 `Set-Date -Date (Get-Date).AddDays({{3}})`
 
-- Retrasar el reloj del sistema 10 minutos:
+- Retrasa el reloj del sistema 10 minutos:
 
 `Set-Date -Adjust -0:10:0 -DisplayHint Time`
 
