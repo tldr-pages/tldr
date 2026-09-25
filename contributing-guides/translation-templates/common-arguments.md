@@ -2,7 +2,7 @@
 
 This page provides translations of commonly used arguments to simplify maintaining pages in foreign languages.\
 The best way to edit this file is by using [tableconvert.com](https://tableconvert.com/markdown-to-markdown).\
-There, the old table can be **imported**, **edited** in a WYSIWYG editor and **exported** again.\
+There, the old table can be **imported**, **edited** in a WYSIWYG editor and **exported** again.
 
 > [!NOTE]
 > Placeholders in Arabian (`ar`) and Farsi (`fa`) pages shouldn't be translated to prevent flipped text when reading.
