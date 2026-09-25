@@ -8,7 +8,7 @@
 
 `find {{root_pad}} -name '{{*.ext}}'`
 
-- Vind bestanden die overeenkomen met meerdere pad-/naam patronen:
+- Vind bestanden die overeenkomen met meerdere pad-/naampatronen:
 
 `find {{root_pad}} -path '{{**/path/**/*.ext}}' -or -name '{{*patroon*}}'`
 

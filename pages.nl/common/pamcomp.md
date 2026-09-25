@@ -3,7 +3,7 @@
 > Leg twee PAM afbeeldingen over elkaar.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/pamcomp.html>.
 
-- Leg twee afbeeldingen over elkaar zodat de bovenlaag delen van de onderlaag blokeert:
+- Leg twee afbeeldingen over elkaar zodat de bovenlaag delen van de onderlaag blokkeert:
 
 `pamcomp {{pad/naar/bovenlaag.pam}} {{pad/naar/onderlaag.pam}} > {{pad/naar/uitvoer.pam}}`
 

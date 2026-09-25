@@ -1,6 +1,6 @@
 # cal
 
-> Toon kalender informatie.
+> Toon kalenderinformatie.
 > Meer informatie: <https://keith.github.io/xcode-man-pages/cal.1.html>.
 
 - Toon een kalender voor de huidige maand:

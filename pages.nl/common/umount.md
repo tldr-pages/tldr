@@ -1,6 +1,6 @@
 # umount
 
-> Koppel een bestandssysteem los vanuit het mount-punt, waardoor het niet langer toegankelijk is.
+> Koppel een bestandssysteem los vanuit het mountpunt, waardoor het niet langer toegankelijk is.
 > Een bestandssysteem kan niet losgekoppeld worden als het bezig is.
 > Meer informatie: <https://man.openbsd.org/umount>.
 
