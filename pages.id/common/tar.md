@@ -18,11 +18,11 @@
 
 - E[x]trak suatu berkas ([f]ile) arsip (biasa atau terkompres) menuju direktori saat ini dengan menampilkan rincian operasi (mode [v]erbose):
 
-`tar xvf {{jalan/menuju/sumber.tar[.gz|.bz2|.xz]}}`
+`tar xvf {{jalan/menuju/sumber.tar.ext}}`
 
 - E[x]trak suatu berkas ([f]ile) arsip (biasa atau terkompres) menuju direktori target yang ditentukan:
 
-`tar xf {{jalan/menuju/sumber.tar[.gz|.bz2|.xz]}} {{[-C|--directory]}} {{jalan/menuju/direktori}}`
+`tar xf {{jalan/menuju/sumber.tar.ext}} {{[-C|--directory]}} {{jalan/menuju/direktori}}`
 
 - Buat ([c]reate) suatu arsip terkompres dan simpan di dalam suatu berkas ([f]ile), menggunakan metode kompresi yang ditentukan secara otom[a]tis berdasarkan nama ekstensi berkas tujuan:
 

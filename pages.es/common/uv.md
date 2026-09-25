@@ -8,7 +8,7 @@
 
 `uv init`
 
-- Crear un nuevo proyecto Python en la ruta especificada:
+- Crea un nuevo proyecto Python en la ruta especificada:
 
 `uv init {{ruta/al/directorio}}`
 

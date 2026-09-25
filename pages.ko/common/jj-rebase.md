@@ -5,15 +5,15 @@
 
 - 지정한 리비전을 다른 부모 리비전으로 이동:
 
-`jj rebase {{[-r|--revisions]}} {{revset}} {{[-d|--destination]}} {{revset}}`
+`jj rebase {{[-r|--revisions]}} {{revset}} {{[-o|--onto]}} {{revset}}`
 
 - 지정한 리비전과 모든 자식 리비전을 다른 부모 리비전으로 이동:
 
-`jj rebase {{[-s|--source]}} {{revset}} {{[-d|--destination]}} {{revset}}`
+`jj rebase {{[-s|--source]}} {{revset}} {{[-o|--onto]}} {{revset}}`
 
 - 지정한 리비전이 포함된 브랜치의 모든 리비전을 다른 부모 리비전으로 이동:
 
-`jj rebase {{[-b|--branch]}} {{revset}} {{[-d|--destination]}} {{revset}}`
+`jj rebase {{[-b|--branch]}} {{revset}} {{[-o|--onto]}} {{revset}}`
 
 - 리비전을 다른 리비전의 앞이나 뒤로 이동:
 

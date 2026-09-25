@@ -5,7 +5,7 @@
 
 - Affiche l'empreinte du commit de la branche courante :
 
-`git rev-parse {{nom_de_branche}}`
+`git rev-parse {{nom_branche}}`
 
 - Affiche le nom de la branche courante :
 

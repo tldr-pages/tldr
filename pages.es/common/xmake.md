@@ -1,7 +1,7 @@
 # xmake
 
 > Una utilidad de compilación multiplataforma C & C++ basada en Lua.
-> Más información: <https://xmake.io/#/getting_started>.
+> Más información: <https://github.com/xmake-io/xmake#command-line-interface-reference>.
 
 - Crea un proyecto Xmake C, consistente en un hello world y `xmake.lua`:
 

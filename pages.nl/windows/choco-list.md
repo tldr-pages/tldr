@@ -7,7 +7,7 @@
 
 `choco list`
 
-- Toon geïnstalleerde inclusief systeemprogramma's:
+- Toon geïnstalleerde pakketten, inclusief systeemprogramma's:
 
 `choco list {{[-i|--include-programs]}}`
 
@@ -19,7 +19,7 @@
 
 `choco list {{pakket}} {{[-e|--exact]}}`
 
-- Toon geïnstalleerde pakketten die beginnen met een specifieke voorvoegsel:
+- Toon geïnstalleerde pakketten die beginnen met een specifiek voorvoegsel:
 
 `choco list --id-starts-with {{voorvoegsel}}`
 

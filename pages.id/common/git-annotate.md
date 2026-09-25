@@ -13,6 +13,6 @@
 
 `git annotate {{[-e|--show-email]}} {{jalan/menuju/berkas}}`
 
-- Tampilkan hanya baris-baris teks yang memenuhi kriteria ekspresi reguler:
+- Tampilkan hanya baris-baris teks yang memenuhi kriteria `regex`:
 
-`git annotate -L :{{ekspresi_reguler}} {{jalan/menuju/berkas}}`
+`git annotate -L :{{regex}} {{jalan/menuju/berkas}}`
