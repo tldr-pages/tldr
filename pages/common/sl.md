@@ -7,7 +7,7 @@
 
 `sl`
 
-- The train burns, people scream:
+- Make the train burn and people scream:
 
 `sl -a`
 

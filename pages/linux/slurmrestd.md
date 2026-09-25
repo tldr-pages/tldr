@@ -8,7 +8,7 @@
 
 `slurmrestd -g {{group_id}} {{[host]:port|unix:/path/to/socket}}`
 
-- Comma-delimited list of [a]uthentication plugins to load:
+- Specify a comma-delimited list of [a]uthentication plugins to load:
 
 `slurmrestd -a {{authentication_plugins}} {{[host]:port|unix:/path/to/socket}}`
 

@@ -8,7 +8,7 @@
 
 `watch {{class-pattern}} {{method-pattern}} '{{{ params[0],returnObj }}}' -x 4`
 
-- When the value of the first parameter of the method is 5, the second parameter and return value are output, and the object is expanded 4 layers:
+- When the value of the first parameter of the method is 5, output the second parameter and return value, and expand the object 4 layers:
 
 `watch {{class-pattern}} {{method-pattern}} '{{{ params[1],returnObj }}}' '{{"5".equals(params[0])}}' -x 4`
 
