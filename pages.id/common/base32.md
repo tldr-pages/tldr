@@ -1,9 +1,9 @@
 # base32
 
-> Lakukan pengodean dan pendekodean terhadap suatu berkas atau `stdin` dari/menuju format Base32, menuju `stdout`.
+> Tulis ulang isi suatu berkas atau `stdin` dalam format biner dari/menuju format penulisan enkoding Base32, menuju `stdout`.
 > Informasi lebih lanjut: <https://manned.org/base32>.
 
-- Kodekan isi suatu berkas menuju format Base32:
+- Tulis ulang isi biner suatu berkas dalam format Base32:
 
 `base32 {{jalan/menuju/berkas}}`
 
@@ -11,14 +11,14 @@
 
 `base32 {{[-w|--wrap]}} {{0|76|...}} {{jalan/menuju/berkas}}`
 
-- Dekodekan kode Base32 yang tersimpan dalam suatu berkas:
+- Tulis ulang isi suatu berkas dari format Base32 menuju format asli/biner:
 
 `base32 {{[-d|--decode]}} {{jalan/menuju/berkas}}`
 
-- Kodekan isi dari `stdin`:
+- Tulis ulang isi biner `stdin` menuju format Base32:
 
 `{{perintah}} | base32`
 
-- Dekodekan kode Base32 yang berasal dari `stdout`:
+- Tulis ulang isi Base32 `stdin` menuju format asli/biner:
 
 `{{perintah}} | base32 {{[-d|--decode]}}`

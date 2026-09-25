@@ -9,20 +9,20 @@
 
 - 최근 작업의 작업 ID, 작업 상태 및 작업 종료 코드를 표시:
 
-`sacct --brief`
+`sacct {{[-b|--brief]}}`
 
 - 작업의 할당을 표시:
 
-`sacct --jobs {{작업_id}} --allocations`
+`sacct {{[-j|--jobs]}} {{작업_id}} {{[-X|--allocations]}}`
 
 - 작업의 경과 시간, 작업 이름, 요청된 CPU 수 및 요청된 메모리를 표시:
 
-`sacct --jobs {{작업_id}} --format=Elapsed,JobName,ReqCPUS,ReqMem`
+`sacct {{[-j|--jobs]}} {{작업_id}} {{[-o|--format]}} Elapsed,JobName,ReqCPUS,ReqMem`
 
 - 1주일 전부터 현재까지 발생한 최근 작업을 표시:
 
-`sacct --starttime=$(date -d "1 week ago" +'%F')`
+`sacct {{[-S|--starttime]}} $(date {{[-d|--date]}} "1 week ago" +'%F')`
 
 - 속성에 대해 더 많은 문자를 출력:
 
-`sacct --format=JobID,JobName%100`
+`sacct {{[-o|--format]}} JobID,JobName%100`

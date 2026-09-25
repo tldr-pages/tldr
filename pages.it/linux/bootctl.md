@@ -1,6 +1,7 @@
 # bootctl
 
 > Controlla le impostazioni di avvio del firmware EFI e gestisce il boot loader.
+> Vedi anche: `kernel-install`.
 > Maggiori informazioni: <https://www.freedesktop.org/software/systemd/man/latest/bootctl.html>.
 
 - Mostra informazioni sul firmware di sistema e i boot loader:

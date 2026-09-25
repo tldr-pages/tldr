@@ -1,6 +1,6 @@
 # brew abv
 
-> Tämä on alias komennolle `brew info`.
+> Tämä on alias `brew info` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

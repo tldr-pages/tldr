@@ -22,9 +22,9 @@
 
 - Include ignored and hidden files in the search:
 
-`fd "{{regex}}" {{[-H|--hidden]}} {{[-I|--no-ignore]}}`
+`fd "{{regex}}" {{[-HI|--hidden --no-ignore]}}`
 
-- Exclude files that match a specific glob pattern:
+- Exclude files that match a specific `glob` pattern:
 
 `fd "{{regex}}" {{[-E|--exclude]}} {{glob}}`
 

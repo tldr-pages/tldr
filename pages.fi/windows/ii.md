@@ -1,6 +1,6 @@
 # ii
 
-> Tämä on alias komennolle `Invoke-Item`.
+> Tämä on alias `Invoke-Item` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

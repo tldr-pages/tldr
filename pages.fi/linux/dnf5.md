@@ -1,6 +1,6 @@
 # dnf5
 
-> Tämä on alias komennolle `dnf`.
+> Tämä on alias `dnf` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

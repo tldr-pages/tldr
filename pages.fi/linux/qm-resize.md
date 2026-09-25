@@ -1,6 +1,6 @@
 # qm resize
 
-> Tämä on alias komennolle `qm disk resize`.
+> Tämä on alias `qm disk resize` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

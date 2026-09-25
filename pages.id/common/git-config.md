@@ -10,7 +10,7 @@
 
 - Tampilkan daftar pengaturan Git untuk lingkungan lokal, global, atau sistem operasi, dan tampilkan lokasi berkas tersebut:
 
-`git config {{[-l|--list]}} --{{local|global|system}} --show-origin`
+`git config --{{local|global|system}} {{[-l|--list]}} --show-origin`
 
 - Tentukan nilai global atas suatu entri konfigurasi (dalam hal ini merupakan alias):
 

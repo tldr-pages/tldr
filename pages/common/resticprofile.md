@@ -1,7 +1,7 @@
 # resticprofile
 
 > Configuration profiles manager for restic backup.
-> See also: `restic`, `resticprofile-schedule`, `resticprofile-unschedule`.
+> See also: `restic`, `resticprofile schedule`, `resticprofile unschedule`.
 > More information: <https://creativeprojects.github.io/resticprofile/configuration/getting_started/index.html#write-your-first-configuration-file>.
 
 - List all saved snapshots:
@@ -16,7 +16,7 @@
 
 `resticprofile {{[-n|--name]}} "{{profile_name}}" backup`
 
-- Run in dry-run mode and show the underlying restic commands:
+- Simulate a backup and show the underlying restic commands:
 
 `resticprofile --dry-run backup`
 

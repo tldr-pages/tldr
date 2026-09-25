@@ -1,7 +1,7 @@
 # age
 
 > Strumento semplice, moderno e sicuro per la crittografia di file.
-> Vedi anche: `age-keygen`.
+> Vedi anche: `age-keygen`, `age-inspect`.
 > Maggiori informazioni: <https://github.com/FiloSottile/age#usage>.
 
 - Crea un file crittografato che può essere decrittato con una passphrase:

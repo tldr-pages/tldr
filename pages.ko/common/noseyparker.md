@@ -19,7 +19,7 @@
 
 - 원격 Git 저장소 (Git 히스토리 포함)에서 비밀 정보 스캔:
 
-`noseyparker scan --git-url {{URL}} {{[-d|--datastore]}} {{경로/대상/datastore.np}}`
+`noseyparker scan --git-url {{url}} {{[-d|--datastore]}} {{경로/대상/datastore.np}}`
 
 - GitHub 사용자 또는 조직의 모든 저장소에서 비밀 정보 스캔:
 

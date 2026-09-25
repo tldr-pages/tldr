@@ -17,7 +17,7 @@
 
 - Bir ağın SSID değerini ayarla:
 
-`sudo wpa_cli {{[set_n|set_network]}} {{numara}} ssid "{{SSID}}"`
+`sudo wpa_cli {{[set_n|set_network]}} {{numara}} ssid "{{ssid}}"`
 
 - Ağı etkinleştir:
 

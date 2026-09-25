@@ -13,15 +13,15 @@
 
 - Aggiorna tutte le gem secondo le regole del `Gemfile` e rigenera `Gemfile.lock`:
 
-`bundle update`
+`bundle update --all`
 
 - Aggiorna una o più gem specifiche definite nel `Gemfile`:
 
-`bundle update {{nome_gem1}} {{nome_gem2}}`
+`bundle update {{nome_gem1 nome_gem2 ...}}`
 
 - Aggiorna una o più gem specifiche solo alla prossima versione patch:
 
-`bundle update --patch {{nome_gem1}} {{nome_gem2}}`
+`bundle update --patch {{nome_gem1 nome_gem2 ...}}`
 
 - Aggiorna tutte le gem del gruppo specificato nel `Gemfile`:
 

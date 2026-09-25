@@ -8,7 +8,7 @@
 
 `crane mutate {{[-a|--annotation]}}/{{[-l|--label]}} {{annotation/label}}`
 
-- Pad naar tarball/opdracht/entrypoint/omgeving variabele/exposed-ports om aan de image toe te voegen:
+- Pad naar tarball/opdracht/entrypoint/omgevingsvariabele/exposed-ports om aan de image toe te voegen:
 
 `crane mutate {{--append}}/{{--cmd}}/{{--entrypoint}}/{{[-e|--env]}}/{{--exposed-ports}} {{var1 var2 ...}}`
 

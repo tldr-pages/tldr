@@ -13,11 +13,11 @@
 
 - Uruchom przejściową usługę z podaną nazwą jednostki i opisem:
 
-`sudo systemd-run --unit={{nazwa}} --description={{string}} {{komenda}} {{argument1 argument2 ...}}`
+`sudo systemd-run {{[-u|--unit]}} {{nazwa}} --description {{string}} {{komenda}} {{argument1 argument2 ...}}`
 
 - Uruchom przejściową usługę, która nie jest czyszczona po jej zakończeniu z podaną zmienną środowiskową:
 
-`sudo systemd-run --remain-after-exit --set-env={{nazwa}}={{wartość}} {{komenda}} {{argument1 argument2 ...}}`
+`sudo systemd-run {{[-r|--remain-after-exit]}} --set-env={{nazwa}}={{wartość}} {{komenda}} {{argument1 argument2 ...}}`
 
 - Uruchom przejściowy timer, który okresowo uruchamia swoją przejściową usługę (zobacz `man systemd.time`, aby zapoznać się z formatem wydarzeń kalendarza):
 
@@ -25,12 +25,12 @@
 
 - Udostępnij terminal programowi (umożliwiając interaktywne wejście/wyjście) i zapewnij, że szczegóły wykonania pozostaną po zakończeniu programu:
 
-`systemd-run --remain-after-exit --pty {{komenda}}`
+`systemd-run {{[-r|--remain-after-exit]}} --pty {{komenda}}`
 
 - Ustaw właściwości (np. CPUQuota, MemoryMax) procesu i poczekaj, aż się zakończy:
 
-`systemd-run --property MemoryMax={{pamięć_w_bajtach}} --property CPUQuota={{procent_czasu_cpu}}% --wait {{komenda}}`
+`systemd-run {{[-p|--property]}} MemoryMax={{pamięć_w_bajtach}} {{[-p|--property]}} CPUQuota={{procent_czasu_cpu}}% --wait {{komenda}}`
 
 - Użyj programu w potoku powłoki:
 
-`{{komenda1}} | systemd-run --pipe {{komenda2}} | {{komenda3}}`
+`{{komenda1}} | systemd-run {{[-P|--pipe]}} {{komenda2}} | {{komenda3}}`

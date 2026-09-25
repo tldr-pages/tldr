@@ -15,11 +15,11 @@
 
 - 특정 네트워크에 연결:
 
-`nmtui connect {{이름|UUID|장치|SSID}}`
+`nmtui connect {{이름|uuid|장치|ssid}}`
 
 - 특정 네트워크 편집/추가/삭제:
 
-`nmtui edit {{이름|ID}}`
+`nmtui edit {{이름|id}}`
 
 - 시스템 호스트명 설정:
 

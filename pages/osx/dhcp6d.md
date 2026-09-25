@@ -1,7 +1,7 @@
 # dhcp6d
 
 > Stateless DHCPv6 server.
-> It should not be invoked manually.
+> Note: It should not be invoked manually.
 > See also: `InternetSharing`.
 > More information: <https://keith.github.io/xcode-man-pages/dhcp6d.8.html>.
 

@@ -13,11 +13,11 @@
 
 - Автоматически подтвердить все запросы:
 
-`choco uninstall {{пакет}} --yes`
+`choco uninstall {{пакет}} {{[-y|--yes]}}`
 
 - Удалить все зависимости при удалении:
 
-`choco uninstall {{пакет}} --remove-dependencies`
+`choco uninstall {{пакет}} {{[-x|--remove-dependencies]}}`
 
 - Удалить все пакеты:
 

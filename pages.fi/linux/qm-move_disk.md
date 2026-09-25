@@ -1,6 +1,6 @@
 # qm move_disk
 
-> Tämä on alias komennolle `qm disk move`.
+> Tämä on alias `qm disk move` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

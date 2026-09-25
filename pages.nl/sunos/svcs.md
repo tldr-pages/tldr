@@ -1,24 +1,24 @@
 # svcs
 
 > Geef informatie over actieve services.
-> Meer informatie: <https://www.unix.com/man-page/linux/1/svcs>.
+> Meer informatie: <https://www.unix.com/man-page/sunos/1/svcs>.
 
-- Oplijsting van alle actieve services:
+- Toon alle actieve services:
 
 `svcs`
 
-- Oplijsting van alle inactieve services:
+- Toon inactieve services:
 
 `svcs -vx`
 
 - Geef informatie over een specifieke service:
 
-`svcs apache`
+`svcs {{apache}}`
 
-- Toon de locatie van de log file van een service:
+- Toon de locatie van het logbestand van een service:
 
-`svcs -L apache`
+`svcs -L {{apache}}`
 
-- Toon de laatste lijnen van een service log file:
+- Toon de laatste lijnen van het logbestand van een service:
 
-`tail $(svcs -L apache)`
+`tail $(svcs -L {{apache}})`

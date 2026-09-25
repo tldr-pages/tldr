@@ -10,7 +10,7 @@
 
 - 오픈된 무선 네트워크에 연결:
 
-`iw dev {{wlanX}} connect {{SSID}}`
+`iw dev {{wlanX}} connect {{ssid}}`
 
 - 현재 연결 종료:
 

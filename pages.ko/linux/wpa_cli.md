@@ -17,7 +17,7 @@
 
 - 네트워크의 SSID 설정:
 
-`sudo wpa_cli {{[set_n|set_network]}} {{번호}} ssid "{{SSID}}"`
+`sudo wpa_cli {{[set_n|set_network]}} {{번호}} ssid "{{ssid}}"`
 
 - 네트워크 활성화:
 

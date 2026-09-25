@@ -1,6 +1,6 @@
 # getln
 
-> Tämä on alias komennolle `read -zr`.
+> Tämä on alias `read -zr` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

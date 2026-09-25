@@ -1,6 +1,6 @@
 # docker commit
 
-> Tämä on alias komennolle `docker container commit`.
+> Tämä on alias `docker container commit` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

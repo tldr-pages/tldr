@@ -1,6 +1,6 @@
 # kr
 
-> Tämä on alias komennolle `kiterunner`.
+> Tämä on alias `kiterunner` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

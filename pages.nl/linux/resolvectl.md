@@ -1,7 +1,7 @@
 # resolvectl
 
 > Resolve domeinnamen, IPv4 en IPv6 adressen, DNS resource records en services.
-> Bekijk en herconfigureer de DNS resolver.
+> Opmerking: `systemd-resolved.service` moet actief zijn.
 > Zie ook: `dig`, `nslookup`, `host`.
 > Meer informatie: <https://www.freedesktop.org/software/systemd/man/latest/resolvectl.html>.
 
@@ -27,7 +27,7 @@
 
 - Verkrijg een MX record van een domein:
 
-`resolvectl --legend {{no}} {{[-t|--type]}} {{MX}} query {{domein}}`
+`resolvectl --legend {{no}} {{[-t|--type]}} MX query {{domein}}`
 
 - Resolve een SRV record, bijvoorbeeld `_xmpp-server._tcp gmail.com`:
 

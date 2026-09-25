@@ -3,7 +3,7 @@
 > Tampilkan daftar proses dengan port TCP/UDP terbuka yang tidak memiliki profil AppArmor yang dimuat.
 > Informasi lebih lanjut: <https://gitlab.com/apparmor/apparmor/-/wikis/manpage_aa-unconfined.8>.
 
-- Tampilkan daftar proses yang tidak dibatasi (_unconfined_) menggunakan perintah `ss` (default):
+- Tampilkan daftar proses yang tidak dibatasi (unconfined) menggunakan perintah `ss` (default):
 
 `sudo aa-unconfined`
 

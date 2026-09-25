@@ -6,19 +6,19 @@
 
 - 컨테이너에서 VLC 실행:
 
-`x11docker --pulseaudio --share={{$HOME/Videos}} {{jess/vlc}}`
+`x11docker {{[-p|--pulseaudio]}} --share {{$HOME/Videos}} {{jess/vlc}}`
 
 - 창에서 Xfce 실행:
 
-`x11docker --desktop {{x11docker/xfce}}`
+`x11docker {{[-d|--desktop]}} {{x11docker/xfce}}`
 
 - 창에서 GNOME 실행:
 
-`x11docker --desktop --gpu --init={{systemd}} {{x11docker/gnome}}`
+`x11docker {{[-d|--desktop]}} {{[-g|--gpu]}} --init={{systemd}} {{x11docker/gnome}}`
 
 - 창에서 KDE Plasma 실행:
 
-`x11docker --desktop --gpu --init={{systemd}} {{x11docker/kde-plasma}}`
+`x11docker {{[-d|--desktop]}} {{[-g|--gpu]}} --init={{systemd}} {{x11docker/kde-plasma}}`
 
 - 도움말 표시:
 

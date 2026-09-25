@@ -1,6 +1,6 @@
 # clojure
 
-> Tämä on alias komennolle `clj`.
+> Tämä on alias `clj` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

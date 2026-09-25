@@ -1,6 +1,6 @@
 # huggingface-cli
 
-> Tämä on alias komennolle `hf`.
+> Tämä on alias `hf` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

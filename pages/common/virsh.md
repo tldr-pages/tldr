@@ -11,7 +11,7 @@
 
 - List all domains:
 
-`virsh {{[-c|--connect]}} {{URI}} list --all`
+`virsh {{[-c|--connect]}} {{uri}} list --all`
 
 - Activate a network named `default`:
 

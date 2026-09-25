@@ -1,6 +1,6 @@
 # r
 
-> Tämä on alias komennolle `fc -e -`.
+> Tämä on alias `fc -e -` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

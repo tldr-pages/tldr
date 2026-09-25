@@ -1,6 +1,6 @@
 # wodim
 
-> Tämä on alias komennolle `cdrecord`.
+> Tämä on alias `cdrecord` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

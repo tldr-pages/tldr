@@ -2,6 +2,6 @@
 
 > Det här kommandot är ett alias för `bleachbit_console`.
 
-- Se dokumentationen för orginalkommandot:
+- Se dokumentationen för originalkommandot:
 
 `tldr bleachbit_console`

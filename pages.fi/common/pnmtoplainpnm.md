@@ -1,6 +1,6 @@
 # pnmtoplainpnm
 
-> Tämä on alias komennolle `pamtopnm -plain`.
+> Tämä on alias `pamtopnm -plain` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

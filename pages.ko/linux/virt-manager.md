@@ -25,11 +25,11 @@
 
 - 특정 가상 머신/컨테이너에 대한 도메인 세부 정보 창 표시:
 
-`virt-manager --show-domain-editor {{이름|ID|UUID}}`
+`virt-manager --show-domain-editor {{이름|id|uuid}}`
 
 - 특정 가상 머신/컨테이너에 대한 도메인 성능 창 표시:
 
-`virt-manager --show-domain-performance {{이름|ID|UUID}}`
+`virt-manager --show-domain-performance {{이름|id|uuid}}`
 
 - 연결 세부 정보 창 표시:
 

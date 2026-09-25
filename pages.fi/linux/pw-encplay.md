@@ -1,6 +1,6 @@
 # pw-encplay
 
-> Tämä on alias komennolle `pw-cat --playback --encoded`.
+> Tämä on alias `pw-cat --playback --encoded` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

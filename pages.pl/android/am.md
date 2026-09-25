@@ -18,3 +18,7 @@
 - Konwertuj intencję na URI:
 
 `am to-uri -a {{android.intent.action.VIEW}} -d {{tel:123}}`
+
+- Uruchom aktywność ekranu głównego na emulatorze lub urządzeniu:
+
+`am start -W -c android.intent.category.HOME -a android.intent.action.MAIN`

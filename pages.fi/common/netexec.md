@@ -1,6 +1,6 @@
 # netexec
 
-> Tämä on alias komennolle `nxc`.
+> Tämä on alias `nxc` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

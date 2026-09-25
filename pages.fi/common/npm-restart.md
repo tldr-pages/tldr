@@ -1,6 +1,6 @@
 # npm restart
 
-> Tämä on alias komennolle `npm run restart`.
+> Tämä on alias `npm run restart` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

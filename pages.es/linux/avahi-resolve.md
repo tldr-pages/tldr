@@ -9,4 +9,4 @@
 
 - Resuelve una dirección IP a un nombre de host, de manera detallada:
 
-`avahi-resolve {{[-v|--verbose]}} {{[-a|--address]}} {{IP}}`
+`avahi-resolve {{[-v|--verbose]}} {{[-a|--address]}} {{ip}}`

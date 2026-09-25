@@ -1,6 +1,6 @@
 # bup
 
-> Backup system based on the Git packfile format, providing incremental saves and global deduplication.
+> Back up system based on the Git packfile format, providing incremental saves and global deduplication.
 > More information: <https://manned.org/bup>.
 
 - Initialize a backup repository in a given local directory:
@@ -11,7 +11,7 @@
 
 `bup {{[-d|--bup-dir]}} {{path/to/repository}} index {{path/to/directory}}`
 
-- Backup a directory to the repository specifying its name:
+- Back up a directory to the repository specifying its name:
 
 `bup {{[-d|--bup-dir]}} {{path/to/repository}} save {{[-n|--name]}} {{backup_name}} {{path/to/directory}}`
 

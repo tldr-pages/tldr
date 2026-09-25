@@ -25,8 +25,12 @@
 
 - Get the parent PID of a process:
 
-`ps {{[-o|--format]}} ppid= {{[-p|--pid]}} {{pid}}`
+`ps {{[-o|--format]}} ppid= {{[-p|--pid]}} {{process_id}}`
 
 - Sort processes by memory consumption:
 
-`ps --sort size`
+`ps {{[k|--sort]}} size`
+
+- Display threads for a specific process:
+
+`ps -L {{[-p|--pid]}} {{process_id}}`

@@ -9,11 +9,11 @@
 
 - Move a virtual disk:
 
-`qm {{[di|disk]}} {{[m|move]}} {{100}} {{destination}} {{index}}`
+`qm {{[di|disk]}} {{[m|move]}} {{100}} {{scic0}} {{destination_storage_name}}`
 
 - Delete the previous copy of the virtual disk:
 
-`qm {{[di|disk]}} {{[m|move]}} --delete {{100}} {{destination}} {{index}}`
+`qm {{[di|disk]}} {{[m|move]}} {{100}} {{scic0}} {{destination_storage_name}} --delete`
 
 - Import a VMDK/`.qcow2`/raw disk image using a specific storage name:
 
@@ -23,10 +23,14 @@
 
 `qm {{[di|disk]}} {{[resc|rescan]}}`
 
-- Perform a dry-run of a rescan and do not write any changes to configurations:
+- Simulate a rescan without writing any changes to configurations:
 
 `qm {{[di|disk]}} {{[resc|rescan]}} --dryrun`
 
 - Specify a virtual machine by its ID:
 
 `qm {{[di|disk]}} {{[resc|rescan]}} --vmid {{100}}`
+
+- Delete a disk:
+
+`qm {{[di|disk]}} {{[u|unlink]}} {{100}} --idlist {{unused0,unused1,scsi1,...}}`

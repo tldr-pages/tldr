@@ -27,7 +27,7 @@
 
 - Retrieve an MX record of a domain:
 
-`resolvectl --legend {{no}} {{[-t|--type]}} {{MX}} query {{domain}}`
+`resolvectl --legend {{no}} {{[-t|--type]}} MX query {{domain}}`
 
 - Resolve an SRV record, for example `_xmpp-server._tcp gmail.com`:
 

@@ -1,6 +1,6 @@
 # mo
 
-> Tämä on alias komennolle `mole`.
+> Tämä on alias `mole` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

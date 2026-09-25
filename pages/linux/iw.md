@@ -10,7 +10,7 @@
 
 - Join an open wireless network:
 
-`iw dev {{wlanX}} connect {{SSID}}`
+`iw dev {{wlanX}} connect {{ssid}}`
 
 - Close the current connection:
 

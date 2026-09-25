@@ -1,6 +1,6 @@
 # ntl
 
-> Tämä on alias komennolle `netlify`.
+> Tämä on alias `netlify` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

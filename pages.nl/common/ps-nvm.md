@@ -4,11 +4,11 @@
 > Deze tool biedt meerdere commando's die allemaal alleen via PowerShell uitgevoerd kunnen worden.
 > Meer informatie: <https://github.com/aaronpowell/ps-nvm>.
 
-- Bekijk de documentatie voor `Get-NodeInstallLocation`, een tool om de huidige Node.js installatie locaties te verkrijgen:
+- Bekijk de documentatie voor `Get-NodeInstallLocation`, een tool om de huidige Node.js installatie locatie te verkrijgen:
 
 `tldr get-nodeinstalllocation`
 
-- Bekijk de documentatie voor `Get-NodeVersions`, een tool om alle beschikbare en geïnstalleerde Node.js versies to tonen:
+- Bekijk de documentatie voor `Get-NodeVersions`, een tool om alle beschikbare en geïnstalleerde Node.js versies te tonen:
 
 `tldr get-nodeversions`
 

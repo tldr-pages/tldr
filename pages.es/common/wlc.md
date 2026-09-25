@@ -9,7 +9,7 @@
 
 - Lista los componentes de un proyecto y anula la URL y la clave de la API:
 
-`wlc {{[-u|--url]}} {{URL}} {{[-k|--key]}} {{clave}} ls {{proyecto}}`
+`wlc {{[-u|--url]}} {{url}} {{[-k|--key]}} {{clave}} ls {{proyecto}}`
 
 - Lista las traducciones de un componente en un formato específico:
 

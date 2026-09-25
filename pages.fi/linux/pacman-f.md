@@ -1,6 +1,6 @@
 # pacman -F
 
-> Tämä on alias komennolle `pacman --files`.
+> Tämä on alias `pacman --files` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

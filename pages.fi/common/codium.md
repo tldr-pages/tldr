@@ -1,6 +1,6 @@
 # codium
 
-> Tämä on alias komennolle `code`.
+> Tämä on alias `code` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

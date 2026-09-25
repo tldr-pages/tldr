@@ -1,6 +1,6 @@
 # vdir
 
-> Tämä on alias komennolle `ls -l --escape`.
+> Tämä on alias `ls -l --escape` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

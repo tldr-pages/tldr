@@ -9,11 +9,11 @@
 
 - 사용자의 비밀번호 또는 NTLM 해시를 입력하여 호스트의 SMB 공유 및 권한 표시:
 
-`smbmap {{[-u|--username]}} {{사용자명}} --prompt -H {{IP}}`
+`smbmap {{[-u|--username]}} {{사용자명}} --prompt -H {{ip}}`
 
 - 원격 시스템에서 셸 명령 실행:
 
-`smbmap {{[-u|--username]}} {{사용자명}} --prompt -H {{IP}} -x {{명령}}`
+`smbmap {{[-u|--username]}} {{사용자명}} --prompt -H {{ip}} -x {{명령}}`
 
 - 호스트를 열거하고 SMB 파일 권한 확인:
 
@@ -33,4 +33,4 @@
 
 - SMB 공유를 표시하고 디렉토리 및 파일을 재귀적으로 나열하며, 정규 표현식과 일치하는 파일 내용을 검색:
 
-`smbmap {{[-u|--username]}} {{사용자명}} --prompt -H {{IP}} -R -F {{패턴}}`
+`smbmap {{[-u|--username]}} {{사용자명}} --prompt -H {{ip}} -R -F {{패턴}}`

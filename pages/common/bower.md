@@ -1,7 +1,7 @@
 # bower
 
 > A package manager optimized for front-end web development.
-> A package can be a GitHub user/repo shorthand, a Git endpoint, a URL or a registered package.
+> A package can be a GitHub user/repo shorthand, a Git endpoint, a URL, or a registered package.
 > More information: <https://bower.io/#getting-started>.
 
 - Install a project's dependencies, listed in its `bower.json`:
@@ -10,11 +10,11 @@
 
 - Install one or more packages to the bower_components directory:
 
-`bower install {{package}} {{package}}`
+`bower install {{package1 package2 ...}}`
 
 - Uninstall packages locally from the bower_components directory:
 
-`bower uninstall {{package}} {{package}}`
+`bower uninstall {{package1 package2 ...}}`
 
 - List local packages and possible updates:
 

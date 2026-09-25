@@ -29,4 +29,4 @@
 
 - Create a new `SKILL.md` template:
 
-`skills init {{[skill_name]}}`
+`skills init {{skill_name}}`

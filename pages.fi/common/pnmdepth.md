@@ -1,6 +1,6 @@
 # pnmdepth
 
-> Tämä on alias komennolle `pamdepth`.
+> Tämä on alias `pamdepth` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

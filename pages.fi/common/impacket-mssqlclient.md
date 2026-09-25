@@ -1,6 +1,6 @@
 # impacket-mssqlclient
 
-> Tämä on alias komennolle `mssqlclient.py`.
+> Tämä on alias `mssqlclient.py` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

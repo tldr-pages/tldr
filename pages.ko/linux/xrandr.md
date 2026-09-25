@@ -13,19 +13,19 @@
 
 - DisplayPort 1의 해상도와 갱신 빈도를 1920x1080, 60Hz로 변경:
 
-`xrandr --output {{DP1}} --mode {{1920x1080}} --rate {{60}}`
+`xrandr --output DP1 --mode 1920x1080 {{[-r|--rate]}} 60`
 
 - HDMI2의 해상도를 1280x1024로 설정하고 DP1의 오른쪽에 배치:
 
-`xrandr --output {{HDMI2}} --mode {{1280x1024}} --right-of {{DP1}}`
+`xrandr --output HDMI2 --mode 1280x1024 --right-of DP1`
 
 - VGA1 출력 비활성화:
 
-`xrandr --output {{VGA1}} --off`
+`xrandr --output VGA1 --off`
 
 - LVDS1의 밝기를 50%로 설정:
 
-`xrandr --output {{LVDS1}} --brightness {{0.5}}`
+`xrandr --output LVDS1 --brightness 0.5`
 
 - X 서버의 현재 상태 표시:
 

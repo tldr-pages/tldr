@@ -4,7 +4,7 @@
 > Some subcommands such as `run` and `secrets` have their own usage documentation.
 > More information: <https://docs.doppler.com/docs/cli>.
 
-- Setup Doppler project and configuration in current directory:
+- Set up Doppler project and configuration in current directory:
 
 `doppler setup`
 

@@ -9,4 +9,4 @@
 
 - বিস্তারিতভাবে একটি IP-কে হোস্টনেমে রূপান্তর করুন:
 
-`avahi-resolve {{[-v|--verbose]}} {{[-a|--address]}} {{IP}}`
+`avahi-resolve {{[-v|--verbose]}} {{[-a|--address]}} {{ip}}`

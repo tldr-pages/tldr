@@ -1,6 +1,6 @@
 # lzless
 
-> Tämä on alias komennolle `xzless`.
+> Tämä on alias `xzless` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

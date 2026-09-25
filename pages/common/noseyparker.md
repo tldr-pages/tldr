@@ -19,7 +19,7 @@
 
 - Scan a remote Git repo (and Git history) for secrets:
 
-`noseyparker scan --git-url {{URL}} {{[-d|--datastore]}} {{path/to/datastore.np}}`
+`noseyparker scan --git-url {{url}} {{[-d|--datastore]}} {{path/to/datastore.np}}`
 
 - Scan all GitHub repositories of a user or organization for secrets:
 

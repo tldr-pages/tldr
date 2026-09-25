@@ -5,7 +5,7 @@
 
 - Establece cookies:
 
-`nhentai --cookie "csrftoken={{TOKEN}}; sessionid={{ID}}"`
+`nhentai --cookie "csrftoken={{token}}; sessionid={{id}}"`
 
 - Descarga un doujin específico:
 

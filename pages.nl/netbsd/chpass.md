@@ -20,7 +20,7 @@
 
 `su -c 'chpass -a {{gebruikersnaam:gecodeerd_wachtwoord:uid:gid:...}} -s {{pad/naar/bestand}}' {{gebruikersnaam}}`
 
-- Pas alleen het lokale wachtwoord bestand aan:
+- Pas alleen het lokale wachtwoordbestand aan:
 
 `su -c 'chpass -l -s {{pad/naar/shell}}' {{gebruikersnaam}}`
 

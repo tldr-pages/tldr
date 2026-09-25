@@ -16,6 +16,10 @@
 
 `jj config {{[l|list]}}`
 
+- List the value of a specific config option:
+
+`jj config {{[l|list]}} {{name}}`
+
 - Print the path to the user-level config file:
 
 `jj config {{[p|path]}} --user`
@@ -27,3 +31,7 @@
 - Unset a config option in the user-level config:
 
 `jj config {{[u|unset]}} --user {{name}}`
+
+- Find and delete stale repo-level config directories:
+
+`jj config gc`

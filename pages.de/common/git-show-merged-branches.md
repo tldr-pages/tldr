@@ -1,6 +1,7 @@
 # git show-merged-branches
 
 > Gibt alle Branches aus, welche bereits in die aktuelle HEAD-Datei gemerget wurden.
+> Teil der `git-extras`.
 > Weitere Informationen: <https://github.com/tj/git-extras/blob/main/Commands.md#git-show-merged-branches>.
 
 - Gib alle Branches aus, die bereits in die aktuelle HEAD-Datei gemerget wurden:

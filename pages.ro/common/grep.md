@@ -1,7 +1,7 @@
 # grep
 
 > Caută tipare în fișiere folosind expresii regulate (`regex`).
-> Vezi și: `regex`.
+> Vezi și: `rg`, `regex`.
 > Mai multe informații: <https://www.gnu.org/software/grep/manual/grep.html>.
 
 - Caută un tipar într-un set de fișiere:

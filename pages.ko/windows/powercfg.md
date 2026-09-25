@@ -13,7 +13,7 @@
 
 - GUID를 사용하여 활성 전원 관리 계획 설정:
 
-`powercfg /setactive {{GUID}}`
+`powercfg /setactive {{guid}}`
 
 - AC 전원 사용 시 지정한 분 후 디스플레이 끄기:
 

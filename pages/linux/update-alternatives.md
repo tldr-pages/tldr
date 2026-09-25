@@ -1,6 +1,6 @@
 # update-alternatives
 
-> Convenientily maintain symbolic links to determine default commands.
+> Conveniently maintain symbolic links to determine default commands.
 > More information: <https://manned.org/update-alternatives>.
 
 - Add a symbolic link:
@@ -9,7 +9,7 @@
 
 - Configure a symbolic link for `java`:
 
-`sudo update-alternatives --config {{java}}`
+`sudo update-alternatives --config java`
 
 - Remove a symbolic link:
 

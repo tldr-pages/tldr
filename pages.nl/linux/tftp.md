@@ -7,7 +7,7 @@
 
 `tftp {{server_ip}} {{poort}}`
 
-- Maak verbinding met een TFTP-server en voer een TFTP-[c]ommand uit:
+- Maak verbinding met een TFTP-server en voer een TFTP-[c]ommando uit:
 
 `tftp {{server_ip}} -c {{commando}}`
 
@@ -15,18 +15,18 @@
 
 `tftp {{server_ip}} -6 -R {{poort}}:{{poort}}`
 
-- Stel de overdrachtsmodus in op binaire of ASCII via de tftp-client:
+- [Interactief] Stel de overdrachtsmodus in op binaire of ASCII via de tftp-client:
 
 `mode {{binary|ascii}}`
 
-- Download een bestand van een server via de tftp-client:
+- [Interactief] Download een bestand van een server via de tftp-client:
 
-`get {{file}}`
+`get {{bestand}}`
 
-- Upload een bestand naar een server via de tftp-client:
+- [Interactief] Upload een bestand naar een server via de tftp-client:
 
-`put {{file}}`
+`put {{bestand}}`
 
-- Verlaat de tftp-client:
+- [Interactief] Verlaat de tftp-client:
 
 `quit`

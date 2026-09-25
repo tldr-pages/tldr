@@ -3,17 +3,17 @@
 > Arch script to fetch and sort mirrorlists.
 > More information: <https://manned.org/reflector>.
 
-- Get all mirrors, sort for download speed and save them:
+- Get all mirrors, sort for download speed, and save them:
 
 `sudo reflector --sort {{rate}} --save {{/etc/pacman.d/mirrorlist}}`
 
 - Only get German HTTPS mirrors:
 
-`reflector {{[-c|--country]}} {{Germany}} {{[-p|--protocol]}} {{https}}`
+`reflector {{[-c|--country]}} Germany {{[-p|--protocol]}} https`
 
-- Only get the 10 recently sync'd mirrors:
+- Only get the 10 recently synced mirrors:
 
-`reflector {{[-l|--latest]}} {{10}}`
+`reflector {{[-l|--latest]}} 10`
 
 - Use a configuration file to fetch mirrors:
 

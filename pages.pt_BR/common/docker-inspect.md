@@ -5,7 +5,7 @@
 
 - Exibe informações sobre um contêiner, imagem ou volume usando um nome ou ID:
 
-`docker inspect {{contêiner|imagem|ID}}`
+`docker inspect {{contêiner|imagem|id}}`
 
 - Exibe o endereço IP de um contêiner:
 

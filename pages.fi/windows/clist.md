@@ -1,6 +1,6 @@
 # clist
 
-> Tämä on alias komennolle `choco list`.
+> Tämä on alias `choco list` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

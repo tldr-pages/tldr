@@ -1,13 +1,13 @@
 # svcadm
 
 > Manipulate service instances.
-> More information: <https://www.unix.com/man-page/linux/1m/svcadm>.
+> More information: <https://www.unix.com/man-page/sunos/1m/svcadm>.
 
 - Enable a service in the service database:
 
 `svcadm enable {{service_name}}`
 
-- Disable service:
+- Disable a service:
 
 `svcadm disable {{service_name}}`
 

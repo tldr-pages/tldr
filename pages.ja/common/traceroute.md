@@ -14,11 +14,11 @@
 
 - 応答までの待機時間を秒単位で指定する:
 
-`traceroute --wait={{0.5}} {{example.com}}`
+`traceroute {{[-w|--wait]}} {{0.5}} {{example.com}}`
 
 - ホップごとのクエリ回数を指定する:
 
-`traceroute --queries={{5}} {{example.com}}`
+`traceroute {{[-q|--queries]}} {{5}} {{example.com}}`
 
 - プローブパケットのサイズをバイト単位で指定する:
 
@@ -30,4 +30,4 @@
 
 - UDPの代わりにICMPを使ってトレースルートする:
 
-`traceroute --icmp {{example.com}}`
+`traceroute {{[-I|--icmp]}} {{example.com}}`

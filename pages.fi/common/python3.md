@@ -1,6 +1,6 @@
 # python3
 
-> Tämä on alias komennolle `python`.
+> Tämä on alias `python` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

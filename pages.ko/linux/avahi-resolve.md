@@ -9,4 +9,4 @@
 
 - IP를 호스트 이름으로 변환, 자세히:
 
-`avahi-resolve {{[-v|--verbose]}} {{[-a|--address]}} {{IP}}`
+`avahi-resolve {{[-v|--verbose]}} {{[-a|--address]}} {{ip}}`

@@ -1,7 +1,7 @@
 # age
 
 > Alat pengenkripsi berkas yang sederhana, modern, dan aman.
-> Lihat juga: `age-keygen`.
+> Lihat juga: `age-keygen`, `age-inspect`.
 > Informasi lebih lanjut: <https://github.com/FiloSottile/age#usage>.
 
 - Buat sebuah berkas terenkripsi yang hanya dapat didekripsi menggunakan kata sandi:

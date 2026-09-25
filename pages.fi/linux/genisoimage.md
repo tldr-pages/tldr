@@ -1,6 +1,6 @@
 # genisoimage
 
-> Tämä on alias komennolle `mkisofs`.
+> Tämä on alias `mkisofs` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

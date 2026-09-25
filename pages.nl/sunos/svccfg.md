@@ -1,16 +1,16 @@
 # svccfg
 
-> Importeer, exporteer, en wijzig service configurations.
-> Meer informatie: <https://www.unix.com/man-page/linux/1m/svccfg>.
+> Importeer, exporteer, en wijzig serviceconfiguraties.
+> Meer informatie: <https://www.unix.com/man-page/sunos/1m/svccfg>.
 
-- Validatie van een configuratie bestand:
+- Valideer een configuratiebestand:
 
-`svccfg validate {{smf.xml}}`
+`svccfg validate {{pad/naar/smf_bestand.xml}}`
 
-- Exporteer de configuratie van een service naar een bestand:
+- Exporteer de configuraties van een service naar een bestand:
 
-`svccfg export {{servicenaam}} > {{smf.xml}}`
+`svccfg export {{servicenaam}} > {{pad/naar/smf_bestand.xml}}`
 
-- Update de service configuratie aan de hand van een bestand:
+- Importeer/update de serviceconfiguraties vanuit een bestand:
 
-`svccfg import {{smf.xml}}`
+`svccfg import {{pad/naar/smf_bestand.xml}}`

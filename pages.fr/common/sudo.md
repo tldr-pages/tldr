@@ -16,11 +16,11 @@
 
 `sudo {{[-u|--user]}} {{utilisateur}} {{[-g|--group]}} {{groupe}} {{id -a}}`
 
-- Répéte la dernière commande préfixée de `sudo` (uniquement dans Bash, Zsh, etc.) :
+- Répète la dernière commande préfixée de `sudo` (uniquement dans Bash, Zsh, etc.) :
 
 `sudo !!`
 
-- Lance le terminal par défaut avec des privilèges de super-utilisateur et exécuter des fichiers à profil spécifique (`.profile`, `.bash_profile`, etc.) :
+- Lance le terminal par défaut avec des privilèges de super-utilisateur et exécute des fichiers à profil spécifique (`.profile`, `.bash_profile`, etc.) :
 
 `sudo {{[-i|--login]}}`
 
@@ -32,6 +32,6 @@
 
 `sudo {{[-i|--login]}} {{[-u|--user]}} {{utilisateur}}`
 
-- Liste les commandes autorisées (et interdites) pour l'utilisateur courant :
+- Liste les commandes autorisées (et interdites) pour l'utilisateur actuel :
 
-`sudo {{[-l|--list]}}`
+`sudo {{[-ll|--list --list]}}`

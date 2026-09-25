@@ -1,7 +1,7 @@
 # install
 
 > Kopieer bestanden en stel attributen in.
-> Kopieer bestanden (vaak uitvoerbare) naar een systeemlocatie zoals `/usr/local/bin` en geef ze de juiste permissies/eigendom.
+> Meestal gebruikt door Makefiles.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/install-invocation.html>.
 
 - Kopieer bestanden naar de bestemming:

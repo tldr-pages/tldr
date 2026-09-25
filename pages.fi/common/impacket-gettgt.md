@@ -1,6 +1,6 @@
 # impacket-getTGT
 
-> Tämä on alias komennolle `getTGT.py`.
+> Tämä on alias `getTGT.py` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

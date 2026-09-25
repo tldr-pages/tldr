@@ -1,6 +1,6 @@
 # edit
 
-> Tämä on alias komennolle `run-mailcap --action=edit`.
+> Tämä on alias `run-mailcap --action=edit` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -21,14 +21,15 @@ There, the old table can be **imported**, **edited** in a WYSIWYG editor and **e
 | es    | ruta/al/archivo       | ruta/al/directorio       | ruta/al/archivo_o_directorio         | paquete       | usuario            | contraseña        | comando  | puerto | valor    |
 | fa    | path/to/file          | path/to/directory        | path/to/file_or_directory            | package       | username           | password          | command  | port   | value    |
 | fi    | polku/tiedostoon      | polku/hakemistoon        | polku/tiedostoon_tai_hakemistoon     | paketti       | käyttäjätunnus     | salasana          | komento  | portti | arvo     |
-| fr    | chemin/vers/fichier   | chemin/vers/dossier      | chemin/vers/fichier_ou_dossier       | paquet        | nom_d_utilisateur  | mot_de_passe      | commande | port   | valeur   |
+| fr    | chemin/vers/fichier   | chemin/vers/répertoire   | chemin/vers/fichier_ou_répertoire    | paquet        | nom_d_utilisateur  | mot_de_passe      | commande | port   | valeur   |
 | hi    | फ़ाइल/का/पथ           | निर्देशिका/का/पथ         | फ़ाइल_या_निर्देशिका/का/पथ            | पैकेज         | उपयोगकर्ता_नाम     |                   |          |        |          |
 | id    | jalan/menuju/berkas   | jalan/menuju/direktori   | jalan/menuju/berkas_atau_direktori   | paket         | nama_pengguna      | kata_sandi        | perintah | port   | nilai    |
 | it    | percorso/del/file     | percorso/della/directory | percorso/del/file_o_directory        | pacchetto     | nome_utente        | password          | comando  | porta  | valore   |
-| ja    | パス/宛先/ファイル         | パス/宛先/ディレクトリ        | パス/宛先/ファイル_または_ディレクトリ         | パッケージ      | ユーザー名          | パスワード          | コマンド  | ポート  | 値        |
+| ja    | ディレクトリ/サブディレクトリ/ファイル         | ディレクトリ/サブディレクトリ        | ディレクトリ/サブディレクトリ/ファイル_または_ディレクトリ         | パッケージ      | ユーザー名          | パスワード          | コマンド  | ポート  | 値        |
 | ko    | 경로/대상/파일              | 경로/대상/폴더                 | 경로/대상/파일_또는_폴더                       | 패키지           | 사용자 명              | 비밀번호              | 명령어      | 포트     | 값        |
 | lo    |                       |                          |                                      |               |                    |                   |          |        |          |
 | ml    | ഫയലിലേക്കുള്ള/പാത     | ഡയറക്ടറിയിലേക്കുള്ള/പാത  | ഫയലിലേക്കോ_ഡയറക്ടറിയിലേക്കോ/ഉള്ള/പാത | പാക്കേജ്      | ഉപയോക്തൃനാമം       |                   |          |        |          |
+| nb    | sti/til/fil           | sti/til/katalog          | sti/til/fil_eller_katalog            | pakke         | brukernavn         | passord           | kommando | port   | verdi    |
 | ne    | फाइल/को/पथ            | निर्देशिका/को/पथ         | फाइल_वा_निर्देशिका/को/पथ             | प्याकेज       | प्रयोगकर्ता_नाम    |                   |          |        |          |
 | nl    | pad/naar/bestand      | pad/naar/map             | pad/naar/bestand_of_map              | pakket        | gebruikersnaam     | wachtwoord        | commando | poort  | waarde   |
 | no    | sti/til/fil           | sti/til/katalog          | sti/til/fil_eller_katalog            | pakke         | brukernavn         |                   |          |        |          |
@@ -37,8 +38,9 @@ There, the old table can be **imported**, **edited** in a WYSIWYG editor and **e
 | pt_PT | caminho/para/ficheiro | caminho/para/diretório   | caminho/para/ficheiro_ou_diretório   | pacote        | nome_de_utilizador |                   |          |        |          |
 | ro    | cale/către/fișier     | cale/către/director      | cale/către/fișier_sau_director       | pachet        | nume_utilizator    | parolă            | comandă  | port   |          |
 | ru    | путь/к/файлу          | путь/к/каталогу          | путь/к/файлу_или_каталогу            | пакет         | имя_пользователя   | пароль            | команда  | порт   | значение |
+| si    | ගොනුව/වෙත/මාර්ගය         |  බහාලුම/වෙත/මාර්ගය         | ගොනුව_හෝ_බහාලුම/වෙත/මාර්ගය           | පැකේජය         | පරිශීලක_නාමය  | මුරපදය            | විධානය  | පොර්ට්   | අගය |
 | sr    | put/do/datoteke       | put/do/direktorijuma     | put/do/datoteke_ili_direktorijuma    | paket         | korisničko_ime     |                   |          |        |          |
-| sv    | sökväg/till/fil       | sökväg/till/katalog      | sökväg/till/fil_eller_katalog        | paket         | användarnamn       |                   |          |        |          |
+| sv    | sökväg/till/fil       | sökväg/till/katalog      | sökväg/till/fil_eller_katalog        | paket         | användarnamn       | lösenord          | kommando | port   | värde    |
 | ta    | கோப்பு/பாதை           | அடைவிற்குப்/பாதை         | கோப்பு_அல்லது_அடைவு/பாதை             | நிரல்தொகுப்பு | பயனர்ப்பெயர்       | கடவுச்சொல்        | கட்டளை   | குதை   | மதிப்பு  |
 | th    | ทาง/ไป/ไฟล์           | ทาง/ไป/สารบบ             | ทาง/ไป/สารบบหรือไฟล์                 | แพ็กเกจ       | ชื่อผู้ใช้         | รหัสผ่าน          | คำสั่ง   | พอร์ต  | ค่า      |
 | tr    | yol/dosya             | yol/dizin                | yol/dosya_veya_dizin                 | paket         | kullanıcı_adı      | şifre             | komut    | port   | değer    |

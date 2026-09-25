@@ -17,7 +17,7 @@
 
 - Set a network's SSID:
 
-`sudo wpa_cli {{[set_n|set_network]}} {{number}} ssid "{{SSID}}"`
+`sudo wpa_cli {{[set_n|set_network]}} {{number}} ssid "{{ssid}}"`
 
 - Enable network:
 

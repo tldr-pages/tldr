@@ -1,7 +1,7 @@
 # apport-bug
 
 > Ajukan laporan bug di Ubuntu.
-> Informasi lebih lanjut: <https://wiki.ubuntu.com/Apport>.
+> Informasi lebih lanjut: <https://ubuntu.com/project/docs/contributors/debugging/apport/>.
 
 - Laporkan bug tentang sistem secara keseluruhan:
 
@@ -17,4 +17,4 @@
 
 - Laporkan bug tentang proses tertentu:
 
-`apport-bug {{PID}}`
+`apport-bug {{pid}}`

@@ -1,6 +1,6 @@
 # netcat
 
-> Tämä on alias komennolle `nc`.
+> Tämä on alias `nc` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

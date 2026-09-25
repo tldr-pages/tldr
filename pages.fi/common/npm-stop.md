@@ -1,6 +1,6 @@
 # npm stop
 
-> Tämä on alias komennolle `npm run stop`.
+> Tämä on alias `npm run stop` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

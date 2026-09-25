@@ -3,10 +3,6 @@
 > Windows 시스템 파일의 무결성을 검사합니다.
 > 더 많은 정보: <https://learn.microsoft.com/windows-server/administration/windows-commands/sfc>.
 
-- 명령어 사용 정보 표시:
-
-`sfc`
-
 - 모든 시스템 파일을 검사하고 가능하면 문제 수정:
 
 `sfc /scannow`
@@ -30,3 +26,7 @@
 - 오프라인 복구 시 Windows 디렉터리 지정:
 
 `sfc /offwindir={{경로\대상\폴더}}`
+
+- 명령어 사용 정보 표시:
+
+`sfc`

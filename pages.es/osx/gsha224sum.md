@@ -2,6 +2,6 @@
 
 > Este comando es un alias de `sha224sum`.
 
-- Vea la documentación para el comando original:
+- Vea la documentación del comando original:
 
 `tldr sha224sum`

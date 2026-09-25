@@ -1,6 +1,6 @@
 # docker rmi
 
-> Tämä on alias komennolle `docker image rm`.
+> Tämä on alias `docker image rm` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

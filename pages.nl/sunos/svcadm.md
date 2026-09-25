@@ -1,21 +1,21 @@
 # svcadm
 
-> Manipuleer service instanties.
-> Meer informatie: <https://www.unix.com/man-page/linux/1m/svcadm>.
+> Manipuleer serviceinstanties.
+> Meer informatie: <https://www.unix.com/man-page/sunos/1m/svcadm>.
 
-- Inschakelen van een service in de service database:
+- Schakel een service in de servicedatabase in:
 
 `svcadm enable {{service_naam}}`
 
-- Uitschakelen van een service in de service database:
+- Schakel een service in de servicedatabase uit:
 
 `svcadm disable {{service_naam}}`
 
-- Herstarten van een draaiende service:
+- Herstart een draaiende service:
 
 `svcadm restart {{service_naam}}`
 
-- Refresh de configuratie van een service:
+- Herlaad de configuratie van een service:
 
 `svcadm refresh {{service_naam}}`
 

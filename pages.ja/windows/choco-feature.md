@@ -9,8 +9,8 @@
 
 - 機能を有効にします:
 
-`choco feature enable --name {{名}}`
+`choco feature enable {{[-n|--name]}} {{名}}`
 
 - 機能を無効にします:
 
-`choco feature disable --name {{名}}`
+`choco feature disable {{[-n|--name]}} {{名}}`

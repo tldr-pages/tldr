@@ -5,23 +5,23 @@
 
 - ルートを追跡する:
 
-`tracert {{IP}}`
+`tracert {{ip}}`
 
 - `tracert`がIPアドレスをホスト名に解決しないようにする:
 
-`tracert /d {{IP}}`
+`tracert /d {{ip}}`
 
 - `tracert`にIPv4のみの利用を強制する:
 
-`tracert /4 {{IP}}`
+`tracert /4 {{ip}}`
 
 - `tracert`にIpv6のみの利用を強制する:
 
-`tracert /6 {{IP}}`
+`tracert /6 {{ip}}`
 
 - ターゲットの検索における最大ホップ数を指定する:
 
-`tracert /h {{最大ホップ数}} {{IP}}`
+`tracert /h {{最大ホップ数}} {{ip}}`
 
 - ヘルプを表示する:
 

@@ -1,7 +1,6 @@
 # magick import
 
 > Capture some or all of an X server screen and save the image to a file.
-> See also: `magick`.
 > More information: <https://imagemagick.org/script/import.php>.
 
 - Capture the entire X server screen into a PostScript file:

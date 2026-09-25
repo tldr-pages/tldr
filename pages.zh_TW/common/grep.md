@@ -1,7 +1,7 @@
 # grep
 
 > 使用 `regex` 式搜尋檔案中的模式。
-> 另請參閱：`regex`。
+> 另請參閱：`rg`, `regex`。
 > 更多資訊：<https://www.gnu.org/software/grep/manual/grep.html>。
 
 - 在檔案中搜尋模式：

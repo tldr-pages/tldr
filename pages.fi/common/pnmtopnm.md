@@ -1,6 +1,6 @@
 # pnmtopnm
 
-> Tämä on alias komennolle `pamtopnm`.
+> Tämä on alias `pamtopnm` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

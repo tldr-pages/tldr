@@ -1,7 +1,7 @@
 # age-keygen
 
 > Gera par de chaves `age`.
-> Veja também: `age`.
+> Veja também: `age`, `age-inspect`.
 > Mais informações: <https://manned.org/age-keygen>.
 
 - Gera um par de chaves, salva em um arquivo não criptografado e imprime a chave pública para `stdout`:

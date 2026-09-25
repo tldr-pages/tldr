@@ -1,6 +1,6 @@
 # impacket-getST
 
-> Tämä on alias komennolle `getST.py`.
+> Tämä on alias `getST.py` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

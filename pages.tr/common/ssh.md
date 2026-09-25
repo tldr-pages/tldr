@@ -10,7 +10,7 @@
 
 - Belirli bir kimlik dosyası (özel anahtar) ile uzak sunucuya bağlan:
 
-`ssh -i {{anahtar/dosyasi/yolu}} {{kullanici}}@{{uzak_sunucu}}`
+`ssh {{kullanici}}@{{uzak_sunucu}} -i {{anahtar/dosyasi/yolu}}`
 
 - `10.0.0.1` IP adresli uzak sunucuya belirli bir port ile bağlan (Not: `10.0.0.1` kısaltılarak `10.1` yazılabilir):
 
@@ -22,15 +22,15 @@
 
 - SSH tünelleme: Dinamik port yönlendirme (`localhost:1080` üzerinde SOCKS proxy):
 
-`ssh -D {{1080}} {{kullanici}}@{{uzak_sunucu}}`
+`ssh {{kullanici}}@{{uzak_sunucu}} -D {{1080}}`
 
 - SSH tünelleme: Belirli bir portu yönlendir (`localhost:9999`'dan `example.org:80`'e), sahte tty tahsisini ve uzak komut çalıştırmayı devre dışı bırak:
 
-`ssh -L {{9999}}:{{example.org}}:{{80}} -N -T {{kullanici}}@{{uzak_sunucu}}`
+`ssh {{kullanici}}@{{uzak_sunucu}} -L {{9999}}:{{example.org}}:{{80}} -N -T`
 
 - SSH atlama: Bir atlama sunucusu üzerinden uzak sunucuya bağlan (birden fazla atlama virgülle ayrılabilir):
 
-`ssh -J {{kullanici}}@{{atlama_sunucusu}} {{kullanici}}@{{uzak_sunucu}}`
+`ssh {{kullanici}}@{{uzak_sunucu}} -J {{kullanici}}@{{atlama_sunucusu}}`
 
 - Takılmış bir oturumu kapat:
 

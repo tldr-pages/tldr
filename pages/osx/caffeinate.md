@@ -9,7 +9,7 @@
 
 - Prevent from sleeping for 1 hour (3600 seconds):
 
-`caffeinate -u -t {{3600}}`
+`caffeinate -u -t 3600`
 
 - Fork a process, exec "make" in it, and prevent sleep as long as that process is running:
 
@@ -17,7 +17,7 @@
 
 - Prevent from sleeping until a process with the specified PID completes:
 
-`caffeinate -w {{pid}}`
+`caffeinate -w {{process_id}}`
 
 - Prevent disk from sleeping (use `<Ctrl c>` to exit):
 

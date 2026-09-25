@@ -7,6 +7,6 @@
 
 `systemctl reboot`
 
-- Herstart het systeem in de BIOS/UEFI-menu:
+- Herstart het systeem in het BIOS/UEFI-menu:
 
 `systemctl reboot --firmware-setup`

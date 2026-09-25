@@ -13,7 +13,7 @@
 
 `awk '/{{foo}}/ {print $2}' {{pad/naar/bestand}}`
 
-- Toon de laatste kolom van iedere regel in een bestand en maak gebruik van een komma (in plaats van een spatie) als veld scheider:
+- Toon de laatste kolom van iedere regel in een bestand en maak gebruik van een komma (in plaats van een spatie) als veldscheider:
 
 `awk -F ',' '{print $NF}' {{pad/naar/bestand}}`
 
@@ -31,7 +31,7 @@
 
 - Toon alle regels waarbij de waarde van de 10e kolom tussen een minimale en maximale waarde is:
 
-`awk '($10 >= {{min_waarde}} && $10 <= {{max_waarde})' {{pad/naar/bestand}}`
+`awk '($10 >= {{min_waarde}} && $10 <= {{max_waarde}})' {{pad/naar/bestand}}`
 
 - Print een tabel van gebruikers met UID >= 1000 met header en opgemaakte uitvoer, gebruikmakend van een dubbele punt als scheidingsteken (`%-20s` betekent: 20 links uitgelijnde tekens, `%6s` betekent: 6 rechts uitgelijnde tekens):
 

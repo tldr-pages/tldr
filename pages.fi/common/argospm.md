@@ -1,6 +1,6 @@
 # argospm
 
-> Tämä on alias komennolle `argos-translate`.
+> Tämä on alias `argos-translate` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

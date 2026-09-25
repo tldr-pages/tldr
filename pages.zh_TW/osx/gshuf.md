@@ -1,7 +1,7 @@
 # gshuf
 
-> 這是 `shuf` 命令的一個別名。
+> 此命令為 `shuf` 的別名。
 
-- 原命令的文件在：
+- 檢視原命令的文件：
 
-`tldr {{[-p|--platform]}} coomon shuf`
+`tldr {{[-p|--platform]}} common shuf`

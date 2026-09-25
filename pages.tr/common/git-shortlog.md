@@ -9,11 +9,11 @@
 
 - Yapılan tüm commit'lerin en çok commit yapan yazar ismi en üstte olacak şekilde özetini göster:
 
-`git shortlog {{-n|--numbered}}`
+`git shortlog {{[-n|--numbered]}}`
 
 - Yapılan tüm commit'lerin yazar bilgilerini (isim ve e-posta) gösterecek şekilde özetini göster:
 
-`git shortlog {{-c|--committer}}`
+`git shortlog {{[-c|--committer]}}`
 
 - En son yapılan 5 commit'in özetini göster (sürüm aralığı belirt):
 

@@ -9,7 +9,7 @@
 
 - Monitor TCP sockets from Loopback interfaces:
 
-`nettop -m {{tcp}} -t {{loopback}}`
+`nettop -m tcp -t loopback`
 
 - Monitor a specific process:
 
@@ -21,11 +21,11 @@
 
 - Print 10 samples of network information:
 
-`nettop -l {{10}}`
+`nettop -l 10`
 
 - Monitor changes every 5 seconds:
 
-`nettop -d -s {{5}}`
+`nettop -d -s 5`
 
 - While running nettop, list interactive commands:
 

@@ -17,7 +17,7 @@
 
 - 모든 오디오 파일의 기본 애플리케이션으로 MPV 설정:
 
-`handlr set {{'audio/*'}} {{mpv.desktop}}`
+`handlr set '{{audio/*}}' {{mpv.desktop}}`
 
 - 모든 기본 앱 나열:
 

@@ -15,7 +15,7 @@
 
 `sudo tc {{[q|qdisc]}} {{[a|add]}} dev {{eth0}} root netem {{corruption|loss|duplication}} {{effect_percentage}}%`
 
-- Limit bandwidth, burst rate and max latency:
+- Limit bandwidth, burst rate, and max latency:
 
 `sudo tc {{[q|qdisc]}} {{[a|add]}} dev eth0 root tbf rate {{max_bandwidth_mb}}mbit burst {{max_burst_rate_kb}}kbit latency {{max_latency_before_drop_ms}}ms`
 

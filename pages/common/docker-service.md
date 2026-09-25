@@ -13,7 +13,7 @@
 
 - Display detailed information about one or more services:
 
-`docker service inspect {{service_name_or_id1 service_name_or_id2}}`
+`docker service inspect {{service_name_or_id1 service_name_or_id2 ...}}`
 
 - List the tasks of one or more services:
 
@@ -25,4 +25,4 @@
 
 - Remove one or more services:
 
-`docker service rm {{service_name_or_id1 service_name_or_id2}}`
+`docker service rm {{service_name_or_id1 service_name_or_id2 ...}}`

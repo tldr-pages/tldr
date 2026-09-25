@@ -3,23 +3,23 @@
 > Comprimeren of decomprimeren van XZ en LZMA bestanden.
 > Meer informatie: <https://manned.org/xz>.
 
-- Comprimeer een bestand gebruik makend van xz file:
+- Comprimeer een bestand naar het XZ-formaat:
 
 `xz {{pad/naar/bestand}}`
 
-- Decomprimer een xz bestand:
+- Decomprimeer een XZ-bestand:
 
 `xz {{[-d|--decompress]}} {{pad/naar/bestand.xz}}`
 
-- Comprimeer een bestand gebruik makend van lzma:
+- Comprimeer een bestand gebruik makend van LZMA:
 
 `xz {{[-F|--format]}} lzma {{pad/naar/bestand}}`
 
-- Decomprimer een LZMA bestand:
+- Decomprimeer een LZMA-bestand:
 
 `xz {{[-d|--decompress]}} {{[-F|--format]}} lzma {{pad/naar/bestand.lzma}}`
 
-- Decomprimer een bestand en schrijf het naar `stdout` (impliceert `--keep`):
+- Decomprimeer een bestand en schrijf het naar `stdout` (impliceert `--keep`):
 
 `xz {{[-d|--decompress]}} {{[-c|--stdout]}} {{pad/naar/bestand.xz}}`
 

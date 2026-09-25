@@ -1,7 +1,7 @@
 # cargo
 
 > 管理 Rust 项目及其模块依赖项（crates）。
-> 此命令也有关于其子命令的文件，例如：`build`.
+> 此命令也有关于其子命令的文件，例如：`build`。
 > 更多信息：<https://doc.rust-lang.org/stable/cargo/>。
 
 - 搜索包（crate）：

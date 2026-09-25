@@ -1,6 +1,6 @@
 # mapfile
 
-> Tämä on alias komennolle `readarray`.
+> Tämä on alias `readarray` komennolle.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 

@@ -12,7 +12,7 @@
 
 `Remove-Item -Force {{pad\naar\bestand1 , pad\naar\bestand2 ...}}`
 
-- Verwijder specifieke bestanden of registersleutels interactief gevraagd vóór elke verwijdering:
+- Verwijder specifieke bestanden of registersleutels, waarbij interactief om bevestiging wordt gevraagd vóór elke verwijdering:
 
 `Remove-Item -Confirm {{pad\naar\bestand_of_key1 , pad\naar\bestand_of_key2 ...}}`
 

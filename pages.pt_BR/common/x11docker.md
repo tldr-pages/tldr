@@ -6,19 +6,19 @@
 
 - Inicia o VLC em um contêiner:
 
-`x11docker --pulseaudio --share={{$HOME/Videos}} {{jess/vlc}}`
+`x11docker {{[-p|--pulseaudio]}} --share {{$HOME/Videos}} {{jess/vlc}}`
 
 - Inicia o Xfce em uma janela:
 
-`x11docker --desktop {{x11docker/xfce}}`
+`x11docker {{[-d|--desktop]}} {{x11docker/xfce}}`
 
 - Inicia o GNOME em uma janela:
 
-`x11docker --desktop --gpu --init={{systemd}} {{x11docker/gnome}}`
+`x11docker {{[-d|--desktop]}} {{[-g|--gpu]}} --init={{systemd}} {{x11docker/gnome}}`
 
 - Inicia o KDE Plasma em uma janela:
 
-`x11docker --desktop --gpu --init={{systemd}} {{x11docker/kde-plasma}}`
+`x11docker {{[-d|--desktop]}} {{[-g|--gpu]}} --init={{systemd}} {{x11docker/kde-plasma}}`
 
 - Exibe ajuda:
 

@@ -5,11 +5,11 @@
 
 - Display attributes of a process:
 
-`chrt {{[-p|--pid]}} {{PID}}`
+`chrt {{[-p|--pid]}} {{process_id}}`
 
 - Display attributes of all threads of a process:
 
-`chrt {{[-a|--all-tasks]}} {{[-p|--pid]}} {{PID}}`
+`chrt {{[-a|--all-tasks]}} {{[-p|--pid]}} {{process_id}}`
 
 - Display the min/max priority values that can be used with `chrt`:
 
@@ -17,8 +17,8 @@
 
 - Set the scheduling priority of a process:
 
-`chrt {{[-p|--pid]}} {{priority}} {{PID}}`
+`chrt {{[-p|--pid]}} {{priority}} {{process_id}}`
 
 - Set the scheduling policy of a process:
 
-`chrt --{{deadline|idle|batch|rr|fifo|other}} {{[-p|--pid]}} {{priority}} {{PID}}`
+`chrt --{{deadline|idle|batch|rr|fifo|other}} {{[-p|--pid]}} {{priority}} {{process_id}}`
