@@ -20,7 +20,7 @@
 
 `atuin register {{[-u|--username]}} {{username}} {{[-e|--email]}} {{email}} {{[-p|--password]}} {{password}}`
 
-- Login to the default sync server:
+- Log in to the default sync server:
 
 `atuin login {{[-u|--username]}} {{username}} {{[-p|--password]}} {{password}}`
 
