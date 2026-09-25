@@ -28,9 +28,9 @@
 
 `<:>q!<Enter>`
 
-- Maak de laatste verandering ongedaan:
+- Maak de laatste verandering ongedaan/opnieuw:
 
-`<u>`
+`{{<u>|<U>}}`
 
 - Zoek een patroon in het bestand (druk op `<n>`/`<N>` om naar de volgende/vorige overeenkomst te gaan):
 
