@@ -84,14 +84,14 @@ function run_shellcheck {
 # Default test function, run by `npm test`.
 function run_tests {
   if command -v nproc >/dev/null; then
-    nproc="$(nproc)"
+    logical_cpus="$(nproc)"
   else
-    nproc="$(sysctl -n hw.logicalcpu 2>/dev/null || echo 1)"
+    logical_cpus="$(sysctl -n hw.logicalcpu 2>/dev/null || echo 1)"
   fi
-  # 2000 is 0.5s faster than page_count/nproc/2 on 24 cores
+  # 2000 is 0.5s faster than page_count/logical_cpus/2 on 24 cores
   # 2000 * (most paths < 64 bytes) < (MAX_ARG_STRLEN = 131072)
-  find pages* -name '*.md' -print0 | xargs -0 -n 2000 -P "$nproc" npx markdownlint
-  echo ./pages.* | xargs -n1 -P "$nproc" scripts/test-tldr-lint.sh
+  find pages* -name '*.md' -print0 | xargs -0 -n 2000 -P "$logical_cpus" npx markdownlint
+  echo ./pages.* | xargs -n1 -P "$logical_cpus" scripts/test-tldr-lint.sh
   run_black
   run_flake8
   run_pytest
