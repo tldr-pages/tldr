@@ -1,7 +1,7 @@
 # exo compute
 
 > Manage Exoscale Compute resources.
-> Some subcommands such as `instance` have their own documentation.
+> Some subcommands such as `instance` have their own usage documentation.
 > More information: <https://community.exoscale.com/product/>.
 
 - Quickly create an Exoscale Compute resource (e.g., instance, Security Group, SKS cluster,...):
