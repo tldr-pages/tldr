@@ -15,6 +15,6 @@
 
 `getopt {{[-o|--options]}} v:: {{[-l|--longoptions]}} verbose:: -- --verbose arg`
 
-- Accept a `-r` and `--verbose` flag, a `--accept` option with an optional argument and add a `--target` with a required argument option with shorthands:
+- Accept a `-r` and `--verbose` flag, a `--accept` option with an optional argument, and add a `--target` with a required argument option with shorthands:
 
 `getopt {{[-o|--options]}} rv::s::t: {{[-l|--longoptions]}} verbose,source::,target: -- -v --target target`

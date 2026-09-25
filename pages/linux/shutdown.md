@@ -16,7 +16,7 @@
 
 `shutdown {{[-r|--reboot]}} +5 &`
 
-- Shutdown at 1:00 pm (Uses 24h clock):
+- Shut down at 1:00 pm (Uses 24h clock):
 
 `shutdown -h 13:00`
 

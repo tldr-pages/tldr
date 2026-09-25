@@ -1,7 +1,7 @@
 # rename
 
 > Rename multiple files.
-> WARNING: This command will overwrite files without prompting unless the dry-run option is used.
+> WARNING: This command will overwrite files without prompting unless the `--no-act` option is used.
 > Note: This page refers to the command from the `util-linux` package.
 > More information: <https://manned.org/rename>.
 

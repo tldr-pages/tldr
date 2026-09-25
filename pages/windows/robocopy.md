@@ -12,7 +12,7 @@
 
 `robocopy {{path\to\source_directory}} {{path\to\destination_directory}} /E`
 
-- Mirror/Sync a directory, deleting anything not in source and include all attributes and permissions:
+- Mirror/Sync a directory, deleting anything not in source, and include all attributes and permissions:
 
 `robocopy {{path\to\source_directory}} {{path\to\destination_directory}} /MIR /COPYALL`
 

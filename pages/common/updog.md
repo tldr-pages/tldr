@@ -1,7 +1,7 @@
 # updog
 
 > A replacement for Python's SimpleHTTPServer.
-> It allows uploading and downloading via HTTP/S, can set ad hoc SSL certificates and use HTTP basic auth.
+> It allows uploading and downloading via HTTP/S, can set ad hoc SSL certificates, and use HTTP basic auth.
 > More information: <https://github.com/sc0tfree/updog>.
 
 - Start a HTTP server for the current directory:
