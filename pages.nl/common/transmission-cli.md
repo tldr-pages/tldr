@@ -12,7 +12,7 @@
 
 `transmission-cli {{[-w|--download-dir]}} {{pad/naar/download_map}} {{url|magnet|pad/naar/bestand}}`
 
-- Maak een torrent bestand van een specifiek bestand of map:
+- Maak een torrentbestand van een specifiek bestand of map:
 
 `transmission-cli --new {{pad/naar/bronbestand_of_map}}`
 

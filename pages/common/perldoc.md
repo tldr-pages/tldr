@@ -3,7 +3,7 @@
 > Look up Perl documentation in `.pod` format.
 > More information: <https://perldoc.perl.org/perldoc>.
 
-- View documentation for a builtin [f]unction, a [v]ariable or an [a]PI:
+- View documentation for a builtin [f]unction, a [v]ariable, or an [a]PI:
 
 `perldoc -{{f|v|a}} {{name}}`
 
