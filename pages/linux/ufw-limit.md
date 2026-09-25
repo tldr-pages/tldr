@@ -11,7 +11,7 @@
 
 `sudo ufw limit {{profile}}`
 
-- Rate limit specific port and protocol:
+- Rate limit a specific port and protocol:
 
 `sudo ufw limit {{22}}/{{tcp}}`
 
