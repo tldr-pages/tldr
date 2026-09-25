@@ -1,7 +1,7 @@
 # jj operation
 
 > Work with the operation log of a `jj` repository.
-> Some subcommands such as `abandon`, `diff`, `integrate`, `log`, `restore`, `revert`, `show`, etc. have their own usage documentation.
+> Some subcommands such as `abandon`, `diff`, `integrate`, `log`, `restore`, `revert`, and `show` have their own usage documentation.
 > More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-operation>.
 
 - Show operation log:

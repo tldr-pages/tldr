@@ -1,7 +1,7 @@
 # nh
 
 > Modern helper utility tool for the Nix/NixOS ecosystem.
-> Some subcommands such as `os`, `home`, `clean`, `search`, etc. have their own usage documentation.
+> Some subcommands such as `os`, `home`, `clean`, and `search` have their own usage documentation.
 > More information: <https://github.com/nix-community/nh#usage>.
 
 - Build and switch to a specified NixOS flake configuration:

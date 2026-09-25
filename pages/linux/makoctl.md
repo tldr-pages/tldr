@@ -1,7 +1,7 @@
 # makoctl
 
 > Control the `mako` notification daemon.
-> Some subcommands such as `dismiss`, `invoke`, `mode`, etc. have their own usage documentation.
+> Some subcommands such as `dismiss`, `invoke`, and `mode` have their own usage documentation.
 > More information: <https://manned.org/makoctl>.
 
 - List all current notifications:

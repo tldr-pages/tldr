@@ -1,7 +1,7 @@
 # nix flake
 
 > Manage Nix flakes.
-> Some subcommands such as `init`, `show`, `info`, etc. have their own usage documentation.
+> Some subcommands such as `init`, `show`, and `info` have their own usage documentation.
 > More information: <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-flake.html>.
 
 - Update all inputs (dependencies) of the flake in the current directory:
