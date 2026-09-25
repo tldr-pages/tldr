@@ -1,6 +1,6 @@
 # sfc
 
-> Проверить целостность системных файлов Windows.
+> Проверять целостность системных файлов Windows.
 > Больше информации: <https://learn.microsoft.com/windows-server/administration/windows-commands/sfc>.
 
 - Проверить все системные файлы и по возможности исправить найденные проблемы:
