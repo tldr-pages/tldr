@@ -1,6 +1,6 @@
 # vim
 
-> Vim (Vi IMproved), een command-line tekst bewerker, geeft toegang tot verschillende manieren van tekst manipulatie.
+> Vim (Vi IMproved), een command-line tekstbewerker, geeft toegang tot verschillende manieren van tekstmanipulatie.
 > Drukken op `<i>` begint invoegmodus. `<Esc>` begint normale modus, wat toegang geeft tot de Vim commando's.
 > Zie ook: `vimdiff`, `vimtutor`, `nvim`, `gvim`.
 > Meer informatie: <https://www.vim.org/>.

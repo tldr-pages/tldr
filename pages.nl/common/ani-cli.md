@@ -26,7 +26,7 @@
 
 - Bekijk een specifieke aflevering:
 
-`ani-cli {{[-e|--episode]}} {{afleveringnummer}} "{{anime_titel}}"`
+`ani-cli {{[-e|--episode]}} {{afleveringsnummer}} "{{anime_titel}}"`
 
 - Bekijk anime verder uit je geschiedenis:
 
