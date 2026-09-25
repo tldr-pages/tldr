@@ -20,7 +20,7 @@
 
 `rg {{[-.|--hidden]}} --no-ignore {{patroon}}`
 
-- Zoek in bestanden die overeenkomen met een glob (bijv. `README.*`) naar een patroon:
+- Zoek in bestanden die overeenkomen met een `glob` (bijv. `README.*`) naar een patroon:
 
 `rg {{patroon}} {{[-g|--glob]}} '{{bestandsnaam_glob_patroon}}'`
 

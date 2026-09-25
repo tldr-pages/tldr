@@ -19,11 +19,11 @@
 
 `ftp -s:{{pad\naar\bestand}} {{host}}`
 
-- Download meerdere bestanden (glob-expressie):
+- Download meerdere bestanden (`glob`-expressie):
 
 `mget {{*.png}}`
 
-- Upload meerdere bestanden (glob-expressie):
+- Upload meerdere bestanden (`glob`-expressie):
 
 `mput {{*.zip}}`
 
