@@ -15,7 +15,7 @@
 
 `aws iam list-groups`
 
-- Obtén los usuarios en un grupo:
+- Obtiene los usuarios en un grupo:
 
 `aws iam get-group --group-name {{nombre_del_grupo}}`
 
@@ -31,6 +31,6 @@
 
 `aws iam list-access-keys --user-name {{usuario}}`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `aws iam help`

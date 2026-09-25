@@ -12,22 +12,22 @@
 
 `fc /c {{ruta\al\archivo1}} {{ruta\al\archivo2}}`
 
-- Comparar archivos como texto Unicode:
+- Compara archivos como texto Unicode:
 
 `fc /u {{ruta\al\archivo1}} {{ruta\al\archivo2}}`
 
-- Comparar archivos como texto ASCII:
+- Compara archivos como texto ASCII:
 
 `fc /l {{ruta\al\archivo1}} {{ruta\al\archivo2}}`
 
-- Comparar archivos como binarios:
+- Compara archivos como binarios:
 
 `fc /b {{ruta\al\archivo1}} {{ruta\al\archivo2}}`
 
-- Deshabilitar la expansión de tabulaciones a espacios:
+- Deshabilita la expansión de tabulaciones a espacios:
 
 `fc /t {{ruta\al\archivo1}} {{ruta\al\archivo2}}`
 
-- Comprimir espacios en blanco (tabulaciones y espacios) para comparaciones:
+- Comprime espacios en blanco (tabulaciones y espacios) para hacer comparaciones:
 
 `fc /w {{ruta\al\archivo1}} {{ruta\al\archivo2}}`
