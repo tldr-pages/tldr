@@ -7,7 +7,7 @@
 
 `sudo ufw --dry-run limit {{profile}}`
 
-- Rate limit specific service by profile:
+- Rate limit a specific service by profile:
 
 `sudo ufw limit {{profile}}`
 
