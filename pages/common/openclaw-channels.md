@@ -7,11 +7,11 @@
 
 `openclaw channels list`
 
-- Login to a channel:
+- Log in to a channel:
 
 `openclaw channels login --channel {{whatsapp}}`
 
-- Login to a specific channel with verbose logging:
+- Log in to a specific channel with verbose logging:
 
 `openclaw channels login --channel {{telegram}} --verbose`
 

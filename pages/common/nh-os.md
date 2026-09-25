@@ -27,6 +27,6 @@
 
 `nh os info`
 
-- Rollback to a specified generation:
+- Roll back to a specified generation:
 
 `nh os rollback {{[-t|-to]}} {{generation}}`
