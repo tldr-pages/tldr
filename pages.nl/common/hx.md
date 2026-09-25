@@ -20,11 +20,11 @@
 
 `<:>theme {{thema_naam}}`
 
-- Opslaan en afsluiten:
+- Sla op en sluit af:
 
 `<:>wq<Enter>`
 
-- Geforceerd afsluiten zonder op te slaan:
+- Sluit geforceerd af zonder op te slaan:
 
 `<:>q!<Enter>`
 

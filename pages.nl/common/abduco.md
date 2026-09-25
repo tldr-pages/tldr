@@ -15,7 +15,7 @@
 
 `abduco -A {{naam}}`
 
-- Loskoppelen van een sessie:
+- Koppel los van een sessie:
 
 `<Ctrl \>`
 

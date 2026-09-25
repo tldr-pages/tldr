@@ -15,19 +15,19 @@
 
 `ls {{[-F|--classify]}}`
 
-- Lange lijstweergave (permissies, eigendom, grootte en wijzigingsdatum) van alle bestanden:
+- Toon alle bestanden in een [l]ange lijstweergave (permissies, eigendom, grootte en wijzigingsdatum):
 
 `ls {{[-la|-l --all]}}`
 
-- Lange lijstweergave met grootte weergegeven in leesbare eenheden (KiB, MiB, GiB):
+- Toon bestanden in een [l]ange lijstweergave met grootte weergegeven in leesbare eenheden (KiB, MiB, GiB):
 
 `ls {{[-lh|-l --human-readable]}}`
 
-- Lange lijstweergave gesorteerd op grootte (aflopend) recursief:
+- Toon bestanden recursief in een [l]ange lijstweergave, gesorteerd op grootte (aflopend):
 
 `ls {{[-lSR|-lS --recursive]}}`
 
-- Lange lijstweergave van alle bestanden, gesorteerd op wijzigingsdatum (oudste eerst):
+- Toon bestanden in een [l]ange lijstweergave, gesorteerd op wijzigingsdatum (oudste eerst):
 
 `ls {{[-ltr|-lt --reverse]}}`
 

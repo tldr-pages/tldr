@@ -33,6 +33,6 @@
 
 `wpctl set-volume {{[-l|--limit]}} 1 {{sink_id}} {{n}}%-`
 
-- Dempen/Opheffen van demping van de standaard audio sink of source (1 is dempen, 0 is opheffen):
+- Demp de standaard audio sink of source of hef de demping op (1 is dempen, 0 is opheffen):
 
 `wpctl set-mute @DEFAULT_{{SINK|SOURCE}}@ {{1|0|toggle}}`

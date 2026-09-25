@@ -17,11 +17,11 @@
 
 `<:>help<Enter>`
 
-- Opslaan en afsluiten:
+- Sla de huidige buffer op en sluit af:
 
 `{{<Esc><Z><Z>|<Esc><:>x<Enter>|<Esc><:>wq<Enter>}}`
 
-- Terug naar normale modus en maak de laatste verandering ongedaan:
+- Ga terug naar de normale modus en maak de laatste verandering ongedaan:
 
 `<Esc><u>`
 

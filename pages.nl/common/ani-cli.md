@@ -24,7 +24,7 @@
 
 `ani-cli {{[-v|--vlc]}} "{{anime_titel}}"`
 
-- Bekjk een specifieke aflevering:
+- Bekijk een specifieke aflevering:
 
 `ani-cli {{[-e|--episode]}} {{afleveringnummer}} "{{anime_titel}}"`
 
