@@ -1,6 +1,6 @@
 # pabcnetcclear
 
-> Preprocesar y compilar archivos fuente de PascalABC.NET.
+> Preprocesa y compila archivos fuente de PascalABC.NET.
 > Más información: <https://pascalabc.net/>.
 
 - Compila el archivo fuente especificado en un ejecutable con el mismo nombre:

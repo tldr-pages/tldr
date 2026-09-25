@@ -21,7 +21,7 @@
 
 - Ejecuta una máquina virtual existente con un directorio específico montado:
 
-`tart run --dir {{ruta/al/directorio}}:/{{ruta/al/local_directory}} {{vm-name}}`
+`tart run --dir {{ruta/al/directorio}}:/{{ruta/al/directorio_local}} {{vm-name}}`
 
 - Lista máquinas virtuales:
 
