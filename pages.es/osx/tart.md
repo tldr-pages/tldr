@@ -13,7 +13,7 @@
 
 - Crea una nueva Mac VM a partir de un archivo ipsw específico:
 
-`tart create --from-ipsw {{latest|path/to/file.ipsw}} {{vm-name}}`
+`tart create --from-ipsw {{latest|ruta/al/archivo.ipsw}} {{vm-name}}`
 
 - Ejecuta una máquina virtual existente:
 
@@ -21,7 +21,7 @@
 
 - Ejecuta una máquina virtual existente con un directorio específico montado:
 
-`tart run --dir {{path/to/directory}}:/{{path/to/local_directory}} {{vm-name}}`
+`tart run --dir {{ruta/al/directorio}}:/{{ruta/al/local_directory}} {{vm-name}}`
 
 - Lista máquinas virtuales:
 

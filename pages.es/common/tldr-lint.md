@@ -14,7 +14,7 @@
 
 - Formatea una página específica a `stdout`:
 
-`tldr-lint {{[-f|--format]}} {{path/to/page.md}}`
+`tldr-lint {{[-f|--format]}} {{ruta/al/page.md}}`
 
 - Formatea una página en el mismo lugar:
 
