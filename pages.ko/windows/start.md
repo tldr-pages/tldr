@@ -1,7 +1,7 @@
 # start
 
 > 새 콘솔에서 명령을 시작.
-> `PATH` 환경 변수에 등록되지 않았더라도  Windows 레지스트리의 `App Paths`에 등록된 프로그램 실행할 수도 있음.
+> `%PATH%` 환경 변수에 등록되지 않았더라도  Windows 레지스트리의 `App Paths`에 등록된 프로그램 실행할 수도 있음.
 > PowerShell에서는, 이 명령이 `Start-Process`의 별칭. 이 문서는 명령 프롬프트 (`cmd`)의 `start` 명령을 기준으로 함.
 > 더 많은 정보: <https://learn.microsoft.com/windows-server/administration/windows-commands/start>.
 
