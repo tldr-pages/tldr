@@ -10,7 +10,7 @@
 
 - Installeer een crate:
 
-`cargo install {{crate-naam}}`
+`cargo install {{crate_naam}}`
 
 - Geef een lijst van geïnstalleerde crates:
 
