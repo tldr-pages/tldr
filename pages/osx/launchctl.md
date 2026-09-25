@@ -2,32 +2,37 @@
 
 > Control Apple's `launchd` manager for launch daemons (system-wide services) and launch agents (per-user programs).
 > `launchd` loads XML-based `*.plist` files placed in the appropriate locations, and runs the corresponding commands according to their defined schedule.
+> Note: `bootstrap`, `bootout` and `kickstart` replace the deprecated `load`, `unload` and `start`. Jobs are identified by a target of a domain plus the service label, e.g. `gui/501/local.example.agent` or `system/local.example.daemon`.
 > More information: <https://keith.github.io/xcode-man-pages/launchctl.1.html>.
 
-- Activate a user-specific agent to be loaded into `launchd` whenever the user logs in:
+- Load a user-specific agent into the GUI domain of the current user, so it is loaded at login:
 
-`launchctl load ~/Library/LaunchAgents/{{my_script}}.plist`
+`launchctl bootstrap gui/{{uid}} ~/Library/LaunchAgents/{{my_script}}.plist`
 
-- Activate an agent which requires root privileges to run and/or should be loaded whenever any user logs in (note the absence of `~` in the path):
+- Load a system-wide daemon, so it is loaded at boot even if no user logs in:
 
-`sudo launchctl load /Library/LaunchAgents/{{root_script}}.plist`
+`sudo launchctl bootstrap system /Library/LaunchDaemons/{{system_daemon}}.plist`
 
-- Activate a system-wide daemon to be loaded whenever the system boots up (even if no user logs in):
-
-`sudo launchctl load /Library/LaunchDaemons/{{system_daemon}}.plist`
-
-- Show all loaded agents/daemons, with the PID if the process they specify is currently running, and the exit code returned the last time they ran:
+- Show all loaded agents and daemons, with the PID of the ones currently running and the last exit code:
 
 `launchctl list`
 
-- Unload a currently loaded agent, e.g. to make changes (Note: The plist file is automatically loaded into `launchd` after a reboot and/or logging in):
+- Unload a currently loaded agent, e.g. to make changes:
 
-`launchctl unload ~/Library/LaunchAgents/{{my_script}}.plist`
+`launchctl bootout gui/{{uid}}/{{label}}`
 
-- Manually run a known (loaded) agent/daemon, even if it is not the right time (Note: This command uses the agent's label, rather than the filename):
+- Manually run a loaded agent or daemon, even if it is not the right time:
 
-`launchctl start {{script_file}}`
+`launchctl kickstart gui/{{uid}}/{{label}}`
 
-- Manually kill the process associated with a known agent/daemon, if it is running:
+- Restart a loaded service, killing the running instance first:
 
-`launchctl stop {{script_file}}`
+`launchctl kickstart -k gui/{{uid}}/{{label}}`
+
+- Manually send a signal to the process of a loaded service, if it is running:
+
+`launchctl kill {{signal_name}} gui/{{uid}}/{{label}}`
+
+- Enable a service that has been disabled, so it can be loaded again:
+
+`launchctl enable gui/{{uid}}/{{label}}`
