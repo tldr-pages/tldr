@@ -28,9 +28,9 @@
 
 `crane mutate {{[-u|--user]}} {{gebruikersnaam}}`
 
-- Nieuwe werk-map in te stellen:
+- Nieuwe werkmap in te stellen:
 
-`crane mutate {{[-w|--workdir]}} {{pad/naar/werk-map}}`
+`crane mutate {{[-w|--workdir]}} {{pad/naar/werkmap}}`
 
 - Toon de help:
 

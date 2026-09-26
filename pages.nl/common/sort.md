@@ -19,7 +19,7 @@
 
 `sort {{[-n|--numeric-sort]}} {{pad/naar/bestand}}`
 
-- Sorteer `/etc/passwd` numeriek vanaf het 3e veld van elke regel, gebruik makend van ":" als veldscheidingsteken:
+- Sorteer `/etc/passwd` numeriek vanaf het 3e veld van elke regel, gebruikmakend van ":" als veldscheidingsteken:
 
 `sort {{[-t|--field-separator]}} : {{[-k|--key]}} 3n /etc/passwd`
 

@@ -16,7 +16,7 @@
 
 `ruff check --watch`
 
-- Zet alleen de gespecificeerde regels (of alle regels) aan en negeer het configuratie bestand:
+- Zet alleen de gespecificeerde regels (of alle regels) aan en negeer het configuratiebestand:
 
 `ruff check --select {{ALL|regelcode1,regelcode2,...}}`
 

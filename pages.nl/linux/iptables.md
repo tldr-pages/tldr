@@ -5,7 +5,7 @@
 > Zie ook: `iptables-save`, `iptables-restore`.
 > Meer informatie: <https://manned.org/iptables>.
 
-- Bekijk ketens, regels, pakket/byte tellers en regelnummers voor de filter tabel:
+- Bekijk ketens, regels, pakket/byte tellers en regelnummers voor de filtertabel:
 
 `sudo iptables {{[-vnL --line-numbers|--verbose --numeric --list --line-numbers]}}`
 

@@ -3,7 +3,7 @@
 > Controleer elke opgegeven afhankelijkheid en retourneer een lijst met afhankelijkheden die momenteel niet zijn voldaan op het systeem.
 > Meer informatie: <https://manned.org/pacman.8>.
 
-- Toon de pakket-namen van de afhankelijkheden welke niet geïnstalleerd zijn:
+- Toon de pakketnamen van de afhankelijkheden welke niet geïnstalleerd zijn:
 
 `pacman -T {{pakket1 pakket2 ...}}`
 
