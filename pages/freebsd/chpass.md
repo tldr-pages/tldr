@@ -6,7 +6,7 @@
 
 - Add or change user database information for the current user interactively:
 
-`su -c chpass`
+`chpass`
 
 - Set a specific login [s]hell for the current user:
 

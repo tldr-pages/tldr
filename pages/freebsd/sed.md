@@ -14,7 +14,7 @@
 
 - Delay opening each file until a command containing the related `w` function or flag is applied to a line of input:
 
-`{{command}} | sed -fa {{path/to/script.sed}}`
+`{{command}} | sed -af {{path/to/script.sed}}`
 
 - Replace all `apple` (extended `regex`) occurrences with `APPLE` (extended `regex`) in all input lines and print the result to `stdout`:
 
