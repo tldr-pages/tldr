@@ -16,6 +16,14 @@
 
 `nmcli {{[d|device]}} {{[w|wifi]}} {{[c|connect]}} {{ssid}} {{[-a|--ask]}}`
 
+- Vytvořit Wi-Fi hotspot:
+
+`nmcli {{[d|device]}} {{[w|wifi]}} {{[ho|hotspot]}} ifname {{wlan0}} ssid "{{hotspot_ssid}}" password "{{heslo}}"`
+
 - Vypsat heslo a QR kód pro aktuální Wi-Fi síť:
 
 `nmcli {{[d|device]}} {{[w|wifi]}} {{[s|show-password]}}`
+
+- Print detailed information about a device:
+
+`nmcli {{[d|device]}} {{[sh|show]}} {{wlan0}}`
