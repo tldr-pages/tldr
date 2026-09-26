@@ -22,7 +22,7 @@
 
 - Specify Tor configuration file:
 
-`torify -c {{config-file}} {{command}}`
+`torify -c {{config_file}} {{command}}`
 
 - Use a specific Tor SOCKS proxy:
 

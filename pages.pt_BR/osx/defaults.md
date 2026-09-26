@@ -13,7 +13,7 @@
 
 - Pesquisa uma palavra-chave em nomes de domínio, chaves, e valores:
 
-`defaults find "{{palavra-chave}}"`
+`defaults find "{{palavra_chave}}"`
 
 - Grava o valor padrão de uma opção do aplicativo:
 

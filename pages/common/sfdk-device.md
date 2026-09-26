@@ -9,8 +9,8 @@
 
 - Execute a command on a device by name or index:
 
-`sfdk device exec {{device-name-or-idx}} {{command}}`
+`sfdk device exec {{device_name_or_idx}} {{command}}`
 
 - Run an interactive shell on a device by name or index:
 
-`sfdk device exec {{device-name-or-idx}}`
+`sfdk device exec {{device_name_or_idx}}`

@@ -17,7 +17,7 @@
 
 - Quietly merge all files with a custom program:
 
-`git merge-index -q {{merge-program}} -a`
+`git merge-index -q {{merge_program}} -a`
 
 - Inspect merge inputs for a file using `cat`:
 
