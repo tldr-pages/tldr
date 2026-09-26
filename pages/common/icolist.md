@@ -10,7 +10,7 @@
 
 - Run with verbose/debug logging:
 
-`icolist --verbose {{path/to/input.exe}}`
+`icolist {{[-V|--verbose]}} {{path/to/input.exe}}`
 
 - Display help:
 
