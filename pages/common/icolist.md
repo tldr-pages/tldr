@@ -1,6 +1,7 @@
 # icolist
 
-> List group icons present in a Windows executable (part of icoextract).
+> List group icons present in a Windows executable.
+> See also: `icoextract`.
 > More information: <https://github.com/jlu5/icoextract>.
 
 - List the icons present in an executable:
@@ -11,6 +12,10 @@
 
 `icolist --verbose {{path/to/input.exe}}`
 
-- Display the installed version:
+- Display help:
+
+`icolist --help`
+
+- Display version:
 
 `icolist --version`

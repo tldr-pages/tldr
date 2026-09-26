@@ -1,9 +1,10 @@
 # icoextract
 
-> Extract icons from Windows executables (.exe, .dll, .mun) into .ico files.
+> Extract icons from Windows executables (`.exe`, `.dll`, `.mun`) into ICO files.
+> See also: `icolist`.
 > More information: <https://github.com/jlu5/icoextract>.
 
-- Extract the icon(s) from an executable to an ICO file:
+- Extract the icons from an executable to an ICO file:
 
 `icoextract {{path/to/input.exe}} {{path/to/output.ico}}`
 
@@ -19,6 +20,10 @@
 
 `icoextract --verbose {{path/to/input.exe}} {{path/to/output.ico}}`
 
-- Display the installed version:
+- Display help:
+
+`icoextract --help`
+
+- Display version:
 
 `icoextract --version`
