@@ -6,7 +6,7 @@
 > Some subcommands such as `completion`, `gc`, `help` are specific to gcrane and have their own usage documentation.
 > More information: <https://github.com/google/go-containerregistry/blob/main/cmd/gcrane/README.md>.
 
-- Login to a registry:
+- Log in to a registry:
 
 `gcrane auth login {{registry}} {{[-u|--username]}} {{user}} {{[-p|--password]}} {{password}}`
 

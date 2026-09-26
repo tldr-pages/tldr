@@ -4,7 +4,7 @@
 > Zie ook: `pamcrater`, `ppmrelief`.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/pamshadedrelief.html>.
 
-- Genereer een schaduwwerking afbeelding met de invoer-afbeelding als een hoogtekaart:
+- Genereer een schaduwwerking afbeelding met de invoerafbeelding als een hoogtekaart:
 
 `pamshadedrelief < {{pad/naar/invoer.pam}} > {{pad/naar/uitvoer.pam}}`
 

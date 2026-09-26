@@ -4,7 +4,7 @@
 > Generations can be listed using `nix-env --list-generations` or `nh os info`.
 > More information: <https://github.com/nix-community/nh#usage>.
 
-- Ask for clean up plan confirmation, clean all profiles and collect garbage:
+- Ask for clean up plan confirmation, clean all profiles, and collect garbage:
 
 `nh clean all {{[-a|--ask]}}`
 

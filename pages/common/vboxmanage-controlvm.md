@@ -15,11 +15,11 @@
 
 `VBoxManage controlvm {{uuid|vm_name}} reset`
 
-- Poweroff a virtual machine with the same effect as pulling the power cable of a computer:
+- Power off a virtual machine with the same effect as pulling the power cable of a computer:
 
 `VBoxManage controlvm {{uuid|vm_name}} poweroff`
 
-- Shutdown the virtual machine and save its current state:
+- Shut down the virtual machine and save its current state:
 
 `VBoxManage controlvm {{uuid|vm_name}} savestate`
 
@@ -31,6 +31,6 @@
 
 `VBoxManage controlvm {{uuid|vm_name}} reboot`
 
-- Shutdown down the virtual machine without saving its state:
+- Shut down the virtual machine without saving its state:
 
 `VBoxManage controlvm {{uuid|vm_name}} shutdown`
