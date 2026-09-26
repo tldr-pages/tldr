@@ -1,6 +1,6 @@
 # umount
 
-> Koppel een bestandssysteem los vanuit het mount-punt, waardoor het niet langer toegankelijk is.
+> Koppel een bestandssysteem los vanuit het mountpunt, waardoor het niet langer toegankelijk is.
 > Een bestandssysteem kan niet losgekoppeld worden als het bezig is.
 > Meer informatie: <https://manned.org/umount.8>.
 
@@ -16,10 +16,14 @@
 
 `sudo umount {{[-r|--read-only]}} {{pad/naar/gemounte_map}}`
 
-- Koppel ieder gespecificeerde map recursief los:
+- Koppel iedere gespecificeerde map recursief los:
 
 `sudo umount {{[-R|--recursive]}} {{pad/naar/gemounte_map}}`
 
 - Koppel alle gemounte bestandssystemen los (behalve het `proc` bestandssysteem):
 
 `sudo umount {{[-a|--all]}}`
+
+- Koppel een bestandssysteem los uit de bestandssysteemhiërarchie en ontkoppel het zodra er geen verwijzingen meer naar zijn:
+
+`sudo umount {{[-l|--lazy]}} {{pad/naar/gemounte_map}}`

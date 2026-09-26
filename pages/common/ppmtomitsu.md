@@ -7,7 +7,7 @@
 
 `ppmtomitsu {{path/to/file.ppm}} > {{path/to/file.mitsu}}`
 
-- Enlarge the image by the specified factor, use the specified sharpness and produce `n` copies:
+- Enlarge the image by the specified factor, use the specified sharpness, and produce `n` copies:
 
 `ppmtomitsu {{[-e|-enlarge]}} {{1|2|3}} {{[-s|-sharpness]}} {{1|2|3|4}} {{[-c|-copy]}} {{n}} {{path/to/file.ppm}} > {{path/to/file.mitsu}}`
 

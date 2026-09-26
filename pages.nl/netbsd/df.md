@@ -11,11 +11,11 @@
 
 `df -h`
 
-- Toon alle velden van de structu(u)r(en) geretourneerd door `statvfs`:
+- Toon alle velden van de structuur/structuren geretourneerd door `statvfs`:
 
 `df -G`
 
-- Toon het bestandssysteem en het schijfgebruik voor het opgegeven bestand of map:
+- Toon het bestandssysteem dat het opgegeven bestand of de map bevat:
 
 `df {{pad/naar/bestand_of_map}}`
 
@@ -23,10 +23,10 @@
 
 `df -i`
 
-- Gebruik 1024-byte eenheden voor het schrijven van de ruimte figuren:
+- Gebruik [k]ibibyte-eenheden (1024 byte) voor het weergeven van de groottecijfers:
 
 `df -k`
 
-- Toon informatie in een [P]ortable wijze:
+- Toon informatie op een [P]ortable wijze:
 
 `df -P`

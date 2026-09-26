@@ -1,7 +1,7 @@
 # pio ci
 
 > Bouw PlatformIO projects met een arbitraire broncode structuur.
-> Dit zal een tijdelijk project maken waar naartoe de broncode gekopieerd zal worden.
+> Dit zal een tijdelijk project maken waarnaartoe de broncode gekopieerd zal worden.
 > Meer informatie: <https://docs.platformio.org/en/latest/core/userguide/cmd_ci.html>.
 
 - Bouw een PlatformIO project in de standaard systeem tijdelijke map en verwijder het naderhand:

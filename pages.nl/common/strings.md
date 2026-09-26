@@ -1,6 +1,6 @@
 # strings
 
-> Vind printbare strings in een object bestand of binary.
+> Vind printbare strings in een objectbestand of binary.
 > Meer informatie: <https://manned.org/strings>.
 
 - Toon alle strings in een binary:

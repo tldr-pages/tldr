@@ -5,16 +5,16 @@
 
 - 사용 가능한 모든 업데이트 나열:
 
-`softwareupdate --list`
+`softwareupdate {{[-l|--list]}}`
 
 - 모든 업데이트 다운로드 및 설치:
 
-`softwareupdate --install --all`
+`softwareupdate {{[-i|--install]}} {{[-a|--all]}}`
 
 - 모든 [r]추천 업데이트 다운로드 및 설치:
 
-`softwareupdate --install --recommended`
+`softwareupdate {{[-i|--install]}} {{[-r|--recommended]}}`
 
 - 특정 앱 다운로드 및 설치:
 
-`softwareupdate --install {{업데이트_이름}}`
+`softwareupdate {{[-i|--install]}} {{업데이트_이름}}`

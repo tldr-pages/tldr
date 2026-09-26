@@ -9,9 +9,9 @@
 
 - Zoek naar een patroon zonder op hoofdletters te letten:
 
-`locate {{[-i|--ignore-case]}} "{{pattern}}"`
+`locate {{[-i|--ignore-case]}} "{{patroon}}"`
 
-- Zoek naar een bestand op basis van de exacte bestandsnaam (een patroon zonder glob-tekens wordt geïnterpreteerd als `*patroon*`):
+- Zoek naar een bestand op basis van de exacte bestandsnaam (een patroon zonder `glob`-tekens wordt geïnterpreteerd als `*patroon*`):
 
 `locate "*/{{bestandsnaam}}"`
 

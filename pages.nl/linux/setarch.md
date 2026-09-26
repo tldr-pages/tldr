@@ -8,7 +8,7 @@
 
 `setarch i686 {{opdracht}}`
 
-- Een shell uitvoeren met de `x86_64` architectuur:
+- Voer een shell uit met de `x86_64` architectuur:
 
 `setarch x86_64 {{bash}}`
 

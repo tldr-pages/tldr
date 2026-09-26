@@ -8,7 +8,7 @@
 
 `devfsadm -c disk`
 
-- Cleanup any dangling `/dev` links and scan for new device:
+- Clean up any dangling `/dev` links and scan for new devices:
 
 `devfsadm -C -v`
 

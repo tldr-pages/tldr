@@ -24,7 +24,7 @@
 
 `magick convert -background none {{pad/naar/afbeelding1.png pad/naar/afbeelding2.png ...}} {{-append|+append}} {{pad/naar/uitvoer_afbeelding.png}}`
 
-- Maak een GIF van een series van afbeeldingen met 100ms pauze ertusen:
+- Maak een GIF van een series van afbeeldingen met 100ms pauze ertussen:
 
 `magick convert {{pad/naar/afbeelding1.png pad/naar/afbeelding2.png ...}} -delay {{10}} {{pad/naar/animation.gif}}`
 

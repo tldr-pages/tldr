@@ -19,11 +19,11 @@
 
 `prompt off`
 
-- Descarga varios archivos (expresión glob):
+- Descarga varios archivos (expresión `glob`):
 
 `mget {{*.png}}`
 
-- Carga varios archivos (expresión glob):
+- Carga varios archivos (expresión `glob`):
 
 `mput {{*.zip}}`
 

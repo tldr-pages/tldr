@@ -1,10 +1,10 @@
 # sed
 
-> Pas tekst aan in een op een scriptbare manier.
+> GNU stream-editor voor het filteren en transformeren van tekst.
 > Zie ook: `awk`, `ed`.
 > Meer informatie: <https://www.gnu.org/software/sed/manual/sed.html>.
 
-- Vervang ([s]) alle "apple" (basis `regex`) met "mango" (basis `regex`) in alle invoerregels en toon het resultaat in `stdout`:
+- Vervang ([s]) alle voorkomens van "apple" door "mango" in alle regels en toon het resultaat naar `stdout`:
 
 `{{commando}} | sed 's/apple/mango/g'`
 
@@ -16,7 +16,7 @@
 
 `{{commando}} | sed -e '{{s/appel/mango/g}}' -e '{{s/sinaasappel/limoen/g}}'`
 
-- Gebruik een aangepaste scheidingsteken (handig als het patroon `/` bevat):
+- Gebruik een aangepast scheidingsteken (handig als het patroon `/` bevat):
 
 `{{commando}} | sed '{{s#////#____#g}}'`
 
@@ -28,7 +28,7 @@
 
 `{{commando}} | sed {{[-n|--quiet]}} '1p'`
 
-- Voeg een nieuwe regel in bij de eerste regel van een bestand:
+- Voeg ([i]) een nieuwe regel in aan het begin van een bestand, waarbij het originele bestand wordt overschreven:
 
 `sed {{[-i|--in-place]}} '1i\your new line text\' {{pad/naar/bestand}}`
 

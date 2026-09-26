@@ -6,32 +6,32 @@
 
 - Trouve des fichiers par extension :
 
-`find {{racine}} -name '{{*.ext}}'`
+`find {{chemin/vers/répertoire}} -name '{{*.ext}}'`
 
 - Trouve des fichiers correspondant à plusieurs chemins ou motifs :
 
-`find {{racine}} -path '{{**/chemin/**/*.ext}}' -or -name '{{*motif*}}'`
+`find {{chemin/vers/répertoire}} -path '{{*/chemin/*/*.ext}}' -or -name '{{*motif*}}'`
 
 - Trouve des dossiers correspondant à un nom donné sans vérifier la casse :
 
-`find {{racine}} -type d -iname '{{*lib*}}'`
+`find {{chemin/vers/répertoire}} -type d -iname '{{*lib*}}'`
 
 - Trouve des fichiers correspondant à un motif donné en excluant certains chemins de la recherche :
 
-`find {{racine}} -name '{{*.py}}' -not -path '{{*/site-packages/*}}'`
+`find {{chemin/vers/répertoire}} -name '{{*.py}}' -not -path '{{*/site-packages/*}}'`
 
-- Trouve des fichiers dans une fourchette de tailles et limite la profondeur récursive à "1" :
+- Trouve des fichiers dans une fourchette de tailles en limitant la profondeur récursive à "1" :
 
-`find {{racine}} -maxdepth 1 -size {{+500k}} -size {{-10M}}`
+`find {{chemin/vers/répertoire}} -maxdepth 1 -size {{+500k}} -size {{-10M}}`
 
 - Exécute une commande pour chaque fichier (utiliser `{}` dans la commande pour utiliser le nom des fichiers) :
 
-`find {{racine}} -name '{{*.ext}}' -exec {{wc -l {} }}\;`
+`find {{chemin/vers/répertoire}} -name '{{*.ext}}' -exec {{wc -l}} {} \;`
 
-- Trouve les fichiers modifiés dans les 7 derniers jours :
+- Trouve les fichiers modifiés aujourd'hui et transmet les résultats à une commande comme arguments :
 
-`find {{racine}} -daystart -mtime -{{7}}`
+`find {{chemin/vers/répertoire}} -daystart -mtime {{-1}} -exec {{tar -cvf archive.tar}} {} \+`
 
-- Trouve les fichiers vides (de taille nulle) et les supprimer :
+- Trouve les fichiers ou les répertoires vides et les supprime en affichant les résultats :
 
-`find {{racine}} -type {{f}} -empty -delete`
+`find {{chemin/vers/répertoire}} -type {{f|d}} -empty -delete -print`

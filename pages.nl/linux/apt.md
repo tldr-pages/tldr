@@ -2,7 +2,7 @@
 
 > Pakketbeheerder voor op Debian gebaseerde distributies.
 > Gebruiksvriendelijk alternatief voor `apt-get` voor interactief gebruik.
-> Voor gelijkwaardige commando's in andere pakket managers, zie <https://wiki.archlinux.org/title/Pacman/Rosetta>.
+> Voor gelijkwaardige commando's in andere pakketmanagers, zie <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > Meer informatie: <https://manned.org/apt.8>.
 
 - Werk de lijst van beschikbare pakketten en versies bij (het wordt aanbevolen dit uit te voeren voor elk ander `apt` commando):
@@ -21,11 +21,11 @@
 
 `apt show {{pakket}}`
 
-- Installeer specifieke pakketten of werk ze bij naar de nieuwste versies:
+- Installeer een pakket, of werk het bij naar de nieuwste versie:
 
 `sudo apt install {{pakket}}`
 
-- Verwijder specifieke pakketten (gebruik in plaats daarvan `purge` om ook hun configuratiebestanden te verwijderen):
+- Verwijder een pakket (gebruik in plaats daarvan `purge` om ook de configuratiebestanden te verwijderen):
 
 `sudo apt remove {{pakket}}`
 

@@ -11,7 +11,7 @@
 
 `git cola --amend`
 
-- Vraag voor een Git repository. (Standaard de huidige map):
+- Vraag om een Git repository. (Standaard de huidige map):
 
 `git cola --prompt`
 

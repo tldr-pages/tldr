@@ -16,7 +16,7 @@
 
 `chromium --new-window {{example.com}}`
 
-- Open in applicatie modus (zonder werkbalken, URL balk, knoppen, etc.):
+- Open in applicatiemodus (zonder werkbalken, URL balk, knoppen, etc.):
 
 `chromium --app {{https://example.com}}`
 
@@ -24,7 +24,7 @@
 
 `chromium --proxy-server "{{socks5://hostname:66}}" {{example.com}}`
 
-- Open met een aangepaste profiel map:
+- Open met een aangepaste profielmap:
 
 `chromium --user-data-dir {{pad\naar\map}}`
 
