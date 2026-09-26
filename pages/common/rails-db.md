@@ -27,7 +27,7 @@
 
 `rails db:migrate:status`
 
-- Rollback the last migration:
+- Roll back the last migration:
 
 `rails db:rollback`
 

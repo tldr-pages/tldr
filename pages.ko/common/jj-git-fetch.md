@@ -17,4 +17,4 @@
 
 - 모든 원격 저장소에서 최신 변경 사항 가져오기:
 
-`jj git fetch --all-remote`
+`jj git fetch --all-remotes`

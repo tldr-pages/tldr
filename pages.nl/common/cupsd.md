@@ -15,19 +15,19 @@
 
 `cupsd -l`
 
-- Start `cupsd` met het gespecificeerde [`c`]`upsd.conf` configuratie bestand:
+- Start `cupsd` met het gespecificeerde [`c`]`upsd.conf` configuratiebestand:
 
 `cupsd -c {{pad/naar/cupsd.conf}}`
 
-- Start `cupsd` met het gespecificeerde `cups-bestanden.conf` configuratie bestand:
+- Start `cupsd` met het gespecificeerde `cups-bestanden.conf` configuratiebestand:
 
 `cupsd -s {{pad/naar/cups-bestanden.conf}}`
 
-- [t]est het [`c`]`upsd.conf` configuratie bestand voor fouten:
+- [t]est het [`c`]`upsd.conf` configuratiebestand voor fouten:
 
 `cupsd -t -c {{pad/naar/cupsd.conf}}`
 
-- [t]est het `cups-bestanden.conf` configuratie bestand voor fouten:
+- [t]est het `cups-bestanden.conf` configuratiebestand voor fouten:
 
 `cupsd -t -s {{pad/naar/cups-bestanden.conf}}`
 

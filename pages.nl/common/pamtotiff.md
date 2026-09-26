@@ -7,7 +7,7 @@
 
 `pamtotiff {{pad/naar/invoer_bestand.pam}} > {{pad/naar/uitvoer_bestand.tiff}}`
 
-- Specificeer expliciet de compressie methode voor een uitvoerbestand:
+- Specificeer expliciet de compressiemethode voor een uitvoerbestand:
 
 `pamtotiff -{{none|packbits|lzw|g3|g4|flate|adobeflate}} {{pad/naar/invoer_bestand.pam}} > {{pad/naar/uitvoer_bestand.tiff}}`
 

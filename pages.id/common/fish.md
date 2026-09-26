@@ -19,7 +19,7 @@
 
 `fish {{jalan/menuju/naskah.fish}}`
 
-- Check a specific script for syntax errors:
+- Periksa kesalahan sintaks pada suatu naskah:
 
 `fish {{[-N|--no-execute]}} {{jalan/menuju/naskah.fish}}`
 

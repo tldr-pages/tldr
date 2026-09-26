@@ -4,19 +4,19 @@
 > Vea también: `neo4j-admin`, `mysql`.
 > Más información: <https://neo4j.com/docs/operations-manual/current/cypher-shell/>.
 
-- Conéctate a una instancia local en el puerto por defecto (`neo4j://localhost:7687`):
+- Se conecta a una instancia local en el puerto por defecto (`neo4j://localhost:7687`):
 
 `cypher-shell`
 
-- Conéctate a una instancia remota:
+- Se conecta a una instancia remota:
 
 `cypher-shell --address neo4j://{{host}}:{{puerto}}`
 
-- Conéctate y proporciona credenciales de seguridad:
+- Se conecta y proporciona credenciales de seguridad:
 
 `cypher-shell --username {{usuario}} --password {{contraseña}}`
 
-- Conéctate a una base de datos específica:
+- Se conecta a una base de datos específica:
 
 `cypher-shell --database {{nombre_base_de_datos}}`
 
@@ -28,6 +28,6 @@
 
 `cypher-shell --log {{ruta/al/archivo.log}}`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `cypher-shell --help`

@@ -1,6 +1,6 @@
 # ClamAV
 
-> Open-source anti-virus programma.
+> Open-source antivirusprogramma.
 > ClamAV is geen commando, maar een set van commando's.
 > Meer informatie: <https://www.clamav.net/>.
 
@@ -12,6 +12,6 @@
 
 `tldr clamscan`
 
-- Toon de tldr pagina om de virus definities te updaten:
+- Toon de tldr pagina om de virusdefinities te updaten:
 
 `tldr freshclam`

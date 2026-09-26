@@ -8,7 +8,7 @@
 
 `git grep "{{pola_pencarian_string}}"`
 
-- Cari untuk suatu string dalam berkas-berkas yang memenuhi suatu pola glob nama berkas dalam `HEAD` saat ini:
+- Cari untuk suatu string dalam berkas-berkas yang memenuhi suatu pola `glob` nama berkas dalam `HEAD` saat ini:
 
 `git grep "{{pola_pencarian_string}}" -- "{{*.ext}}"`
 

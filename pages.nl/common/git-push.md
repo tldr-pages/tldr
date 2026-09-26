@@ -11,7 +11,7 @@
 
 `git push {{externe_naam}} {{lokale_branch}}`
 
-- Stuur veranderingen van een specifieke lokale branch naar naar zijn externe tegenhanger en stel de externe branch in als de standaard push/pull-doel voor de lokale branch:
+- Stuur veranderingen van een specifieke lokale branch naar zijn externe tegenhanger en stel de externe branch in als de standaard push/pull-doel voor de lokale branch:
 
 `git push {{[-u|--set-upstream]}} {{externe_naam}} {{lokale_branch}}`
 

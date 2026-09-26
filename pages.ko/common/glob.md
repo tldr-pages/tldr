@@ -1,6 +1,6 @@
 # glob
 
-> Glob 패턴 (`glob`)은 파일 이름이나 경로를 일치시키기 위해 사용하는 패턴.
+> `glob` 패턴은 파일 이름이나 경로를 일치시키기 위해 사용하는 패턴.
 > 참고: `glob`은 명령이 아니라, 다른 명령이나 쉘에서 사용하는 문법.
 > 관련 항목: `regex`.
 > 더 많은 정보: <https://en.wikipedia.org/wiki/Glob_(programming)>.
