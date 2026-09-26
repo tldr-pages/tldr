@@ -21,6 +21,10 @@
 
 `sudo pacman-mirrors --api --set-branch {{stable|unstable|testing}}`
 
-- Generate a mirrorlist, only using mirrors in your country:
+- List available countries:
 
-`sudo pacman-mirrors --geoip`
+`pacman-mirrors --country-list`
+
+- Generate a mirrorlist using only mirrors in specific countries:
+
+`sudo pacman-mirrors --country {{United_States,France,Germany,...}}`
