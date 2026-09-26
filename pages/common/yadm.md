@@ -1,7 +1,7 @@
 # yadm
 
 > A dotfiles manager that works by using `git`.
-> Some subcommands such as `init`, `clone`, `push`, and `pull` have their own usage documentation.
+> Some subcommands such as `init`, `clone`, `push`, `pull`, etc. have their own usage documentation.
 > More information: <https://yadm.io/docs/overview>.
 
 - Override yadm's configuration directory:
