@@ -1,8 +1,10 @@
 name: PR Labeler
-on: 
+on:
   pull_request_target:
-  pull_request:
     types:
+      - opened
+      - synchronize
+      - reopened
       - ready_for_review
 permissions:
   pull-requests: write
