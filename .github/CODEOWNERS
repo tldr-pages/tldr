@@ -1,12 +1,10 @@
 /pages.ar/ @MachiavelliII
 /pages.bn/ @badhon495
-/pages.cs/ @Sarijen
-/pages.de/ @pixelcmtd @gutjuri
+/pages.de/ @pixelcmtd
 /pages.es/ @kant
-/pages.fa/ @MrMw3
 /pages.fi/ @Managor
 /pages.fr/ @nicokosi @noraj @Raizo62 @open-source-learner
-/pages.hi/ @kbdharun @debghs
+/pages.hi/ @kbdharun
 /pages.id/ @reinhart1010
 /pages.it/ @Magrid0 @SpikeTheDragon40k
 /pages.ml/ @open-source-learner
@@ -32,13 +30,11 @@
 /contributing-guides/translation-templates/ @kbdharun @sebastiaanspeck
 /contributing-guides/*.ar.md @MachiavelliII
 /contributing-guides/*.bn.md @badhon495
-/contributing-guides/*.cs.md @Sarijen
-/contributing-guides/*.de.md @pixelcmtd @gutjuri
+/contributing-guides/*.de.md @pixelcmtd
 /contributing-guides/*.es.md @kant
-/contributing-guides/*.fa.md @MrMw3
 /contributing-guides/*.fi.md @Managor
 /contributing-guides/*.fr.md @nicokosi @noraj @Raizo62 @open-source-learner
-/contributing-guides/*.hi.md @kbdharun @debghs
+/contributing-guides/*.hi.md @kbdharun
 /contributing-guides/*.id.md @reinhart1010
 /contributing-guides/*.it.md @Magrid0 @SpikeTheDragon40k
 /contributing-guides/*.ml.md @open-source-learner
