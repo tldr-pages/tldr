@@ -5,7 +5,7 @@
 
 - Create a new address with the ED25519 scheme:
 
-`sui client new-address ed25519 {{address-alias}}`
+`sui client new-address ed25519 {{address_alias}}`
 
 - Create a new testnet environment with an RPC URL and alias:
 
@@ -13,15 +13,15 @@
 
 - Switch to the address of your choice (accepts also an alias):
 
-`sui client switch --address {{address-alias}}`
+`sui client switch --address {{address_alias}}`
 
 - Switch to the given environment:
 
-`sui client switch --env {{env-alias}}`
+`sui client switch --env {{env_alias}}`
 
 - Publish a smart contract:
 
-`sui client publish {{package-path}}`
+`sui client publish {{package_path}}`
 
 - Interact with the Sui faucet:
 

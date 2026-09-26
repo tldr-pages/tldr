@@ -5,11 +5,11 @@
 
 - Create a stack from a template file:
 
-`aws cloudformation create-stack --stack-name {{stack-name}} --region {{region}} --template-body {{file://path/to/file.yml}} --profile {{profile}}`
+`aws cloudformation create-stack --stack-name {{stack_name}} --region {{region}} --template-body {{file://path/to/file.yml}} --profile {{profile}}`
 
 - Delete a stack:
 
-`aws cloudformation delete-stack --stack-name {{stack-name}} --profile {{profile}}`
+`aws cloudformation delete-stack --stack-name {{stack_name}} --profile {{profile}}`
 
 - List all stacks:
 
@@ -21,12 +21,12 @@
 
 - Check the status of a stack:
 
-`aws cloudformation describe-stacks --stack-name {{stack-id}} --profile {{profile}}`
+`aws cloudformation describe-stacks --stack-name {{stack_id}} --profile {{profile}}`
 
 - Initiate drift detection for a stack:
 
-`aws cloudformation detect-stack-drift --stack-name {{stack-id}} --profile {{profile}}`
+`aws cloudformation detect-stack-drift --stack-name {{stack_id}} --profile {{profile}}`
 
 - Check the drift status output of a stack using `StackDriftDetectionId` from the previous command output:
 
-`aws cloudformation describe-stack-resource-drifts --stack-name {{stack-drift-detection-id}} --profile {{profile}}`
+`aws cloudformation describe-stack-resource-drifts --stack-name {{stack_drift_detection_id}} --profile {{profile}}`
