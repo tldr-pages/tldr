@@ -10,20 +10,20 @@
 
 - Extract a specific icon by its index:
 
-`icoextract --num {{index}} {{path/to/input.exe}} {{path/to/output.ico}}`
+`icoextract {{[-n|--num]}} {{index}} {{path/to/input.exe}} {{path/to/output.ico}}`
 
 - Extract an icon by its resource ID:
 
-`icoextract --id {{resource_id}} {{path/to/input.exe}} {{path/to/output.ico}}`
+`icoextract {{[-i|--id]}} {{resource_id}} {{path/to/input.exe}} {{path/to/output.ico}}`
 
 - Run with verbose/debug logging:
 
-`icoextract --verbose {{path/to/input.exe}} {{path/to/output.ico}}`
+`icoextract {{[-v|--verbose]}} {{path/to/input.exe}} {{path/to/output.ico}}`
 
 - Display help:
 
-`icoextract --help`
+`icoextract {{[-h|--help]}}`
 
 - Display version:
 
-`icoextract --version`
+`icoextract {{[-V|--version]}}`

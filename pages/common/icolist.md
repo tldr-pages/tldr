@@ -10,12 +10,12 @@
 
 - Run with verbose/debug logging:
 
-`icolist {{[-V|--verbose]}} {{path/to/input.exe}}`
+`icolist {{[-v|--verbose]}} {{path/to/input.exe}}`
 
 - Display help:
 
-`icolist --help`
+`icolist {{[-h|--help]}}`
 
 - Display version:
 
-`icolist --version`
+`icolist {{[-V|--version]}}`
