@@ -15,11 +15,11 @@
 
 `mysql {{[-h|--host]}} {{数据库地址}} {{数据库名}}`
 
-- 通过 Unix 套接字文件连接到数据库：
+- 通过Unix套接字文件连接到数据库：
 
 `mysql {{[-S|--socket]}} {{路径/到/socket.sock}}`
 
-- 执行脚本文件中的 SQL 语句：
+- 执行脚本文件中的SQL语句：
 
 `mysql {{[-e|--execute]}} "source {{脚本.sql}}" {{数据库名}}`
 

@@ -11,7 +11,7 @@
 
 `manim {{[-pql|--preview --quality low]}} {{路径/文件.py}} {{场景名称}}`
 
-- 以高质量渲染（1080p 60 帧）：
+- 以高质量渲染（1080p 60帧）：
 
 `manim {{[-pqh|--preview --quality high]}} {{路径/文件.py}} {{场景名称}}`
 

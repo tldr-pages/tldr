@@ -16,7 +16,7 @@
 
 `nix shell -L`
 
-- 使用 GitHub 上 flake 中的软件包启动 Shell：
+- 使用GitHub上 flake 中的软件包启动 Shell：
 
 `nix shell {{github:所有者/仓库#软件包}}`
 

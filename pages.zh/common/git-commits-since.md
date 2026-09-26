@@ -16,6 +16,6 @@
 
 `git commits-since {{last month}}`
 
-- 显示从昨天下午 2 点以来的所有提交：
+- 显示从昨天下午2点以来的所有提交：
 
 `git commits-since {{yesterday 2pm}}`

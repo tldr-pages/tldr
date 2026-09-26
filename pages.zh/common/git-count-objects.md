@@ -7,7 +7,7 @@
 
 `git count-objects`
 
-- 统计所有对象并以易读格式显示总磁盘使用量（如 KB/MB）：
+- 统计所有对象并以易读格式显示总磁盘使用量（如KB/MB）：
 
 `git count-objects {{[-H|--human-readable]}}`
 

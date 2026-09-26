@@ -7,7 +7,7 @@
 
 `docker {{[run|container run]}} {{镜像:标签}} {{命令}}`
 
-- 在后台运行新容器中的命令，并输出其容器 ID：
+- 在后台运行新容器中的命令，并输出其容器ID：
 
 `docker {{[run|container run]}} {{[-d|--detach]}} {{镜像}} {{命令}}`
 

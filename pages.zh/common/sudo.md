@@ -16,19 +16,19 @@
 
 `sudo {{[-u|--user]}} {{用户}} {{[-g|--group]}} {{组}} {{id -a}}`
 
-- 重复执行上一条以“sudo”为前缀的命令（仅适用于 Bash、Zsh 等）：
+- 重复执行上一条以“sudo”为前缀的命令（仅适用于Bash、Zsh等）：
 
 `sudo !!`
 
-- 以超级用户权限启动默认 Shell，并运行登录特定的文件（如`.profile`、`.bash_profile`等）：
+- 以超级用户权限启动默认Shell，并运行登录特定的文件（如`.profile`、`.bash_profile`等）：
 
 `sudo {{[-i|--login]}}`
 
-- 在不改变环境的情况下，使用超级用户权限启动默认的 shell：
+- 在不改变环境的情况下，使用超级用户权限启动默认的shell：
 
 `sudo {{[-s|--shell]}}`
 
-- 以指定用户的身份启动默认的 shell，加载该用户的环境变量并读取登录特定的文件（如`.profile`、`.bash_profile`等）：
+- 以指定用户的身份启动默认的shell，加载该用户的环境变量并读取登录特定的文件（如`.profile`、`.bash_profile`等）：
 
 `sudo {{[-i|--login]}} {{[-u|--user]}} {{用户}}`
 

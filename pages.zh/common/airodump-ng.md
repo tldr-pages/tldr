@@ -8,11 +8,11 @@
 
 `sudo airodump-ng {{网络接口}}`
 
-- 捕获数据包并显示关于 5 GHz 频段无线网络的信息：
+- 捕获数据包并显示关于 5GHz 频段无线网络的信息：
 
 `sudo airodump-ng {{网络接口}} --band a`
 
-- 捕获数据包并显示关于 2.4 GHz 和 5 GHz 频段无线网络的信息：
+- 捕获数据包并显示关于 2.4GHz 和 5GHz 频段无线网络的信息：
 
 `sudo airodump-ng {{网络接口}} --band abg`
 
