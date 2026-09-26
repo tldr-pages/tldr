@@ -3,7 +3,7 @@
 > Interactive shell for detailed information about running processes.
 > More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/wmic>.
 
-- Fundamental grammar:
+- Run a command using the fundamental grammar:
 
 `wmic {{alias}} {{where_clause}} {{verb_clause}}`
 
