@@ -1,7 +1,6 @@
 # nmcli device
 
 > Spravuje síťové rozhraní a navazuje nové Wi-Fi spojení pomocí NetworkManageru.
-> Tento dílčí příkaz může být zvolán také pomocí `nmcli d`.
 > Více informací: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html#device>.
 
 - Vypsat stav všech síťových rozhraní:
