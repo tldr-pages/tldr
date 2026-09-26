@@ -1,6 +1,6 @@
 # clamscan
 
-> Een command-line virus scanner.
+> Een command-line virusscanner.
 > Meer informatie: <https://docs.clamav.net/manual/Usage/Scanning.html#clamscan>.
 
 - Scan een bestand op kwetsbaarheden:
@@ -23,7 +23,7 @@
 
 `clamscan {{[-i|--infected]}}`
 
-- Sla het scan rapport op in een log bestand:
+- Sla het scanrapport op in een logbestand:
 
 `clamscan {{[-l|--log]}} {{pad/naar/log_bestand}}`
 

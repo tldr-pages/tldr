@@ -7,6 +7,6 @@
 
 `pkgctl auth login`
 
-- Toon authenticatie status:
+- Toon authenticatiestatus:
 
 `pkgctl auth status`
