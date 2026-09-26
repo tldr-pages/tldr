@@ -20,7 +20,7 @@
 
 `immich upload {{[-r|--recursive]}} {{경로/대상/디렉터리}} {{[-A|--album-name]}} "{{My summer holiday}}"`
 
-- glob 패턴과 일치하는 리소스 건너뛰기:
+- `glob` 패턴과 일치하는 리소스 건너뛰기:
 
 `immich upload {{[-r|--recursive]}} {{경로/대상/디렉터리}} {{[-i|--ignore]}} {{**/Raw/** **/*.tif}}`
 

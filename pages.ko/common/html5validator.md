@@ -15,7 +15,7 @@
 
 `html5validator --show-warnings {{경로/대상/파일}}`
 
-- glob 패턴을 사용하여 여러 파일을 일치시킴:
+- `glob` 패턴을 사용하여 여러 파일을 일치시킴:
 
 `html5validator --root {{경로/대상/디렉터리}} --match "{{*.html *.php}}"`
 
