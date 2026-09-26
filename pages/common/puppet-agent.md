@@ -15,7 +15,7 @@
 
 `puppet agent --test`
 
-- Run the agent in dry-mode:
+- Simulate running the agent without applying any changes:
 
 `puppet agent --test --noop`
 

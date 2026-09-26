@@ -8,14 +8,14 @@
 
 `vcvarsall x64`
 
-- Setup the environment for cross-compiled native x86 from the x64 host:
+- Set up the environment for cross-compiled native x86 from the x64 host:
 
 `vcvarsall x64_x86`
 
-- Setup the environment for cross-compiled native Arm x64 from the x64 host:
+- Set up the environment for cross-compiled native Arm x64 from the x64 host:
 
 `vcvarsall x64_arm64`
 
-- Setup the environment for native UWP x64:
+- Set up the environment for native UWP x64:
 
 `vcvarsall x64 uwp`

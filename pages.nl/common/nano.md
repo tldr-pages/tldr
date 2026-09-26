@@ -1,6 +1,6 @@
 # nano
 
-> Tekst bewerker. Een verbeterde `pico` kloon.
+> Tekstbewerker. Een verbeterde `pico` kloon.
 > Zie ook: `pico`, `rnano`.
 > Meer informatie: <https://nano-editor.org/dist/latest/nano.html>.
 
@@ -8,7 +8,7 @@
 
 `nano {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
 
-- Start de tekst bewerker zonder gebruik te maken van configuratiebestanden:
+- Start de tekstbewerker zonder gebruik te maken van configuratiebestanden:
 
 `nano {{[-I|--ignorercfiles]}}`
 

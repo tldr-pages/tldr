@@ -11,11 +11,11 @@
 
 `crane pull {{image_name}} {{path/to/tarball}} --annotate-ref`
 
-- Path to cache image layers:
+- Cache image layers in a specific directory:
 
 `crane pull {{image_name}} {{path/to/tarball}} {{[-c|--cache_path]}} {{path/to/cache}}`
 
-- Format in which to save images (default `tarball`):
+- Specify the format in which to save images (default `tarball`):
 
 `crane pull {{image_name}} {{path/to/tarball}} {{-format}} {{format_name}}`
 

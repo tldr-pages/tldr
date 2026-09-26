@@ -3,7 +3,7 @@
 > Voer een commando uit met aangepaste buffering operaties voor de standaard streams.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/stdbuf-invocation.html>.
 
-- Verander de buffer grootte van `stdin` naar 512 KiB:
+- Verander de buffergrootte van `stdin` naar 512 KiB:
 
 `stdbuf {{[-i|--input]}} 512K {{commando}}`
 

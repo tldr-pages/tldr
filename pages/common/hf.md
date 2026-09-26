@@ -4,7 +4,7 @@
 > Login, manage local cache, download, or upload files.
 > More information: <https://huggingface.co/docs/huggingface_hub/guides/cli>.
 
-- Login to Hugging Face Hub:
+- Log in to Hugging Face Hub:
 
 `hf auth login`
 

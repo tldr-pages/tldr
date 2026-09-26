@@ -4,6 +4,6 @@
 > Vea también: `pushd`.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/popd>.
 
-- Cambiar al directorio en la parte superior de la pila:
+- Cambia al directorio en la parte superior de la pila:
 
 `popd`

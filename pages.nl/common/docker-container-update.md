@@ -20,7 +20,7 @@
 
 `docker {{[update|container update]}} {{[-m|--memory]}} {{limiet}}M {{container_naam}}`
 
-- Update het maximum aantal proces-ID's dat is toegestaan in een specifieke container (gebruik `-1` voor onbeperkt):
+- Update het maximumaantal proces-ID's dat is toegestaan in een specifieke container (gebruik `-1` voor onbeperkt):
 
 `docker {{[update|container update]}} --pids-limit {{aantal}} {{container_naam}}`
 

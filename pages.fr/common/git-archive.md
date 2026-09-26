@@ -1,6 +1,6 @@
 # git archive
 
-> Crée une archive de fichiers depuis un branche donnée.
+> Crée une archive de fichiers depuis une branche donnée.
 > Plus d'informations : <https://git-scm.com/docs/git-archive>.
 
 - Crée une archive `.tar` avec le contenu de la HEAD et l'affiche sur la sortie standard :
@@ -15,7 +15,7 @@
 
 `git archive {{[-v|--verbose]}} {{[-o|--output]}} {{chemin/vers/fichier.zip}} HEAD`
 
-- Crée une archive depuis le dernier commit de la branche spécifiée :
+- Crée une archive depuis la dernière validation de la branche spécifiée :
 
 `git archive {{[-o|--output]}} {{chemin/vers/fichier.tar}} {{nom_branche}}`
 

@@ -11,7 +11,7 @@
 
 `java -jar jenkins-cli.jar -s {{jenkins_server_url}} restart`
 
-- Shutdown jenkins:
+- Shut down jenkins:
 
 `java -jar jenkins-cli.jar -s {{jenkins_server_url}} shutdown`
 
