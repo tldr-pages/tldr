@@ -1,5 +1,6 @@
 /pages.ar/ @MachiavelliII
 /pages.bn/ @badhon495
+/pages.cs/ @Sarijen
 /pages.de/ @pixelcmtd
 /pages.es/ @kant
 /pages.fi/ @Managor
@@ -30,6 +31,7 @@
 /contributing-guides/translation-templates/ @kbdharun @sebastiaanspeck
 /contributing-guides/*.ar.md @MachiavelliII
 /contributing-guides/*.bn.md @badhon495
+/contributing-guides/*.cs.md @Sarijen
 /contributing-guides/*.de.md @pixelcmtd
 /contributing-guides/*.es.md @kant
 /contributing-guides/*.fi.md @Managor
