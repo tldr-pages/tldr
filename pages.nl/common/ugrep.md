@@ -27,7 +27,7 @@
 
 `ugrep {{[-z|--decompress]}} "{{zoekpatroon}}"`
 
-- Zoek alleen naar bestanden met namen die overeenkomen met een specifieke `glob` patroon:
+- Zoek alleen naar bestanden met namen die overeenkomen met een specifiek `glob`-patroon:
 
 `ugrep {{[-g |--glob=]}}"{{glob_patroon}}" "{{zoekpatroon}}"`
 

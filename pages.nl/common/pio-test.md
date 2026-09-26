@@ -11,11 +11,11 @@
 
 `pio test {{[-e|--environment]}} {{omgeving1}} {{[-e|--environment]}} {{omgeving2}}`
 
-- Voer alleen testen uit die qua naam overeenkomen met een specifiek `glob` patroon:
+- Voer alleen testen uit die qua naam overeenkomen met een specifiek `glob`-patroon:
 
 `pio test {{[-f|--filter]}} "{{patroon}}"`
 
-- Negeer testen die qua naam overeenkomen met een specifiek `glob` patroon:
+- Negeer testen die qua naam overeenkomen met een specifiek `glob`-patroon:
 
 `pio test {{[-i|--ignore]}} "{{patroon}}"`
 

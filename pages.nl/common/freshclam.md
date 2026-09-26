@@ -1,8 +1,8 @@
 # freshclam
 
-> Update virus definities voor ClamAV antivirus programma.
+> Update virusdefinities voor ClamAV-antivirusprogramma.
 > Meer informatie: <https://docs.clamav.net/manual/Usage/SignatureManagement.html#freshclam>.
 
-- Update virus definities:
+- Update virusdefinities:
 
 `freshclam`
