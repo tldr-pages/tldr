@@ -1,7 +1,7 @@
 # egrep
 
 > Vyhledat vzory v souborech pomocí rozšířených `regex` výrazů.
-> Tento příkaz je aliasem pro `grep --extended-regexp`.
+> Poznámka: Tento příkaz je aliasem pro `grep --extended-regexp`.
 > Viz také: `regex`.
 > Více informací: <https://manned.org/egrep>.
 
