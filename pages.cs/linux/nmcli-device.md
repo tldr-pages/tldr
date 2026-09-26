@@ -23,6 +23,6 @@
 
 `nmcli {{[d|device]}} {{[w|wifi]}} {{[s|show-password]}}`
 
-- Print detailed information about a device:
+- Vypsat podrobné informace o zařízení:
 
 `nmcli {{[d|device]}} {{[sh|show]}} {{wlan0}}`
