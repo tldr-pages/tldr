@@ -17,4 +17,4 @@
 
 - 지정한 리비전의 파일에 실행 권한 설정:
 
-`jj file chmod {{[-r|--revision]}} {{revision}} {{[x|executable]}} {{경로/대상/파일}}`
+`jj file chmod {{[-r|--revision]}} {{리비전}} {{[x|executable]}} {{경로/대상/파일}}`
