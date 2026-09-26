@@ -1,7 +1,6 @@
 # mlflow
 
 > Plateforme de suivi d’expériences, de gestion de modèles et de déploiement pour les projets de machine learning.
-> Certaines sous-commandes, telles que `server`, `run`, `db`, `artifacts` et `models`, disposent de leur propre documentation.
 > Plus d'informations : <https://mlflow.org/docs/latest/api_reference/cli.html>.
 
 - Démarre uniquement l’interface web locale:
