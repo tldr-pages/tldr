@@ -1,7 +1,6 @@
 # mlflow
 
 > A platform to track experiments, manage models, and deploy machine learning projects.
-> Some subcommands, such as `server`, `run`, `db`, `artifacts`, and `models`, have their own documentation.
 > More information: <https://mlflow.org/docs/latest/api_reference/cli.html>.
 
 - Start only the local web interface:
