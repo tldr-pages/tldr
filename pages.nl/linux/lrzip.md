@@ -20,7 +20,7 @@
 
 `lrzip {{[-l|--lzo]}} {{pad/naar/bestand}}`
 
-- Een bestand comprimeren en met een wachtwoord beveiligen/versleutelen:
+- Comprimeer een bestand en beveilig/versleutel het met een wachtwoord:
 
 `lrzip {{[-e|--encrypt]}} {{pad/naar/bestand}}`
 

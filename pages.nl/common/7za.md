@@ -24,7 +24,7 @@
 
 `7za x {{pad/naar/archief.7z}} -so`
 
-- Archiveren met een specifiek archieftype:
+- Archiveer met een specifiek archieftype:
 
 `7za a -t{{7z|bzip2|gzip|lzip|tar|...}} {{pad/naar/archief.7z}} {{pad/naar/bestand_of_map}}`
 

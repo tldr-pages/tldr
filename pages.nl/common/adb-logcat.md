@@ -27,7 +27,7 @@
 
 `adb logcat --pid {{pid}}`
 
-- Logboeken weergeven voor het proces van een specifiek pakket:
+- Geef logboeken weer voor het proces van een specifiek pakket:
 
 `adb logcat --pid $(adb shell pidof -s {{pakket}})`
 
