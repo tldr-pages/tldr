@@ -155,7 +155,7 @@ This file contains the translation templates of this label.
 ### fr
 
 ```markdown
-> Remarque : Cette commande est obsolète, use `example` instead.
+> Remarque : Cette commande est obsolète, utiliser `example` à la place.
 ```
 
 ---
