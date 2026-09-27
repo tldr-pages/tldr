@@ -14,7 +14,7 @@
 
 - Opóźnij otwieranie każdego pliku, dopóki polecenie zawierające powiązaną funkcję lub flagę `w` nie zostanie zastosowane do linii wejściowej:
 
-`{{komenda}} | sed -fa {{ścieżka/do/skryptu.sed}}`
+`{{komenda}} | sed -af {{ścieżka/do/skryptu.sed}}`
 
 - Zamień wszystkie wystąpienia `jabłko` (rozszerzone `regex`) na `JABŁKO` (rozszerzone `regex`) we wszystkich liniach wejściowych i wypisz wynik do `stdout`:
 
