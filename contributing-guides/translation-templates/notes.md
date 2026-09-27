@@ -99,7 +99,7 @@ This file contains the translation templates of this label.
 ### cs
 
 ```markdown
-> Poznámka: Tento příkaz je zastaralý, místo něj použijte `example`
+> Poznámka: Tento příkaz je zastaralý, místo něj použijte `example`.
 ```
 
 ---
