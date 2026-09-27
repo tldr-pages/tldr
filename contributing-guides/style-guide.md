@@ -312,9 +312,12 @@ The heading should adhere to the following order:
 > Further clarification of the functionality.
 > Note: Any note for the usage.
 > Some subcommands such as `subcommand1`, `subcommand2` have their own usage documentation.
+> Part of the Example suite.
 > See also: `command`.
 > More information: <https://example.com>.
 ```
+
+A `Part of` line is equivalent to a `See also` line and belongs in the same spot, directly before `See also` when both are present.
 
 ## Example descriptions
 

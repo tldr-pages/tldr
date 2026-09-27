@@ -2,8 +2,8 @@
 
 > Check if an IPv6 host is reachable using ICMPv6.
 > Sends ICMPv6 echo requests and listens for echo replies.
-> Part of the Impacket suite.
 > Note: Requires root privileges for raw socket access (e.g., run with `sudo`).
+> Part of the Impacket suite.
 > More information: <https://github.com/fortra/impacket>.
 
 - Ping an IPv6 host from a specified source IPv6 address:
