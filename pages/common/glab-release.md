@@ -3,7 +3,7 @@
 > Manage GitLab releases.
 > More information: <https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/release/_index.md>.
 
-- List releases in a Gitlab repository, limited to 30 items:
+- List releases in a GitLab repository, limited to 30 items:
 
 `glab release list`
 
