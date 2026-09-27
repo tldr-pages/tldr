@@ -179,7 +179,7 @@ This file contains the translation templates of this label.
 ### it
 
 ```markdown
-> Nota: Questo comando è deprecato, use `example` instead.
+> Nota: Questo comando è deprecato, usa `esempio`.
 ```
 
 ---
