@@ -50,7 +50,7 @@ Where the rest of the example line is still in English, it has yet to be transla
 ### bn
 
 ```markdown
-> নোট: This command is deprecated, use `example` instead.
+> নোট: এই কমান্ডটি deprecated, use `example` instead.
 ```
 
 ---
@@ -74,7 +74,7 @@ Where the rest of the example line is still in English, it has yet to be transla
 ### es
 
 ```markdown
-> Nota: This command is deprecated, use `example` instead.
+> Nota: Este comando está en desuso, use `example` instead.
 ```
 
 ---
@@ -82,7 +82,7 @@ Where the rest of the example line is still in English, it has yet to be transla
 ### fr
 
 ```markdown
-> Remarque : This command is deprecated, use `example` instead.
+> Remarque : Cette commande est obsolète, use `example` instead.
 ```
 
 ---
@@ -106,7 +106,7 @@ Where the rest of the example line is still in English, it has yet to be transla
 ### it
 
 ```markdown
-> Nota: This command is deprecated, use `example` instead.
+> Nota: questo comando è deprecato, use `example` instead.
 ```
 
 ---
@@ -114,7 +114,7 @@ Where the rest of the example line is still in English, it has yet to be transla
 ### ja
 
 ```markdown
-> 注: This command is deprecated, use `example` instead.
+> 注: このコマンドは非推奨であり、use `example` instead.
 ```
 
 ---
@@ -154,7 +154,7 @@ Where the rest of the example line is still in English, it has yet to be transla
 ### ru
 
 ```markdown
-> Примечание: This command is deprecated, use `example` instead.
+> Примечание: эта команда устарела, use `example` instead.
 ```
 
 ---
