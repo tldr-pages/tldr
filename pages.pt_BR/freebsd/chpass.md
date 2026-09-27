@@ -6,7 +6,7 @@
 
 - Adiciona ou altera informação de usuário do banco de dados para o usuário atual interativamente:
 
-`su -c chpass`
+`chpass`
 
 - Define uma [s]hell de login para o usuário atual:
 

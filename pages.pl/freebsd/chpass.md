@@ -6,7 +6,7 @@
 
 - Dodaj lub zmień informacje w bazie danych użytkowników dla bieżącego użytkownika w sposób interaktywny:
 
-`su -c chpass`
+`chpass`
 
 - Ustaw określoną powłokę (z ang. [s]hell) logowania dla bieżącego użytkownika:
 
