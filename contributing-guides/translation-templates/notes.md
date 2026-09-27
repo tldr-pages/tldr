@@ -4,7 +4,6 @@ Sometimes a page needs to point out something important about the command, such 
 In that case, we add a note to the header of the page, right after the description (see the [heading order](../style-guide.md#heading-order)).
 The text of a note differs per page, so only the `Note:` label is fixed; the rest should be translated freely.
 This file contains the translation templates of this label.
-Where (part of) the example line is still in English, it has yet to be translated by the maintainers of that language.
 
 [en](#en) •
 [ar](#ar) •
