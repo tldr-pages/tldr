@@ -2,7 +2,7 @@
 
 > Dodaj lub zmień informacje w bazie danych użytkowników, w tym powłokę logowania i hasło.
 > Zobacz także: `passwd`.
-> Więcej informacji: <https://man.freebsd.org/cgi/man.cgi?chpass>.
+> Więcej informacji: <https://man.freebsd.org/cgi/man.cgi?query=chpass>.
 
 - Dodaj lub zmień informacje w bazie danych użytkowników dla bieżącego użytkownika w sposób interaktywny:
 
