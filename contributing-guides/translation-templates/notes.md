@@ -66,7 +66,7 @@ Where the rest of the example line is still in English, it has yet to be transla
 ### de
 
 ```markdown
-> Notiz: This command is deprecated, use `example` instead.
+> Notiz: Dieser Befehl ist veraltet, verwende stattdessen `example`.
 ```
 
 ---
