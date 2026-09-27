@@ -8,7 +8,7 @@
 
 `cargo publish`
 
-- Perform checks, create a `.crate` file but don't upload it (equivalent of `cargo package`):
+- Simulate publishing, performing checks, and creating a `.crate` file without uploading it (equivalent of `cargo package`):
 
 `cargo publish {{[-n|--dry-run]}}`
 
