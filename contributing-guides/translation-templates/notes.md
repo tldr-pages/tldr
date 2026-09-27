@@ -122,7 +122,7 @@ Where the rest of the example line is still in English, it has yet to be transla
 ### ko
 
 ```markdown
-> 참고: This command is deprecated, use `example` instead.
+> 참고: 이 명령은 더 이상 사용되지 않으며, 대신 `example`를 사용하세요.
 ```
 
 ---
