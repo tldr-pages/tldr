@@ -5,6 +5,7 @@ only available in a specific shell, or not meant to be invoked manually.
 In that case, we add a note to the header of the page, right after the description (see the [heading order](../style-guide.md#heading-order)).
 The text of a note differs per page, so only the `Note:` label is fixed; the rest should be translated freely.
 This file contains the translation templates of this label, using a deprecation notice as an example.
+Languages that still show the English example have not been translated yet.
 
 [en](#en) •
 [ar](#ar) •
@@ -68,7 +69,7 @@ This file contains the translation templates of this label, using a deprecation 
 ### bg
 
 ```markdown
-> Забележка: Тази команда е остаряла, използвайте `example` вместо нея.
+> Note: This command is deprecated, use `example` instead.
 ```
 
 ---
@@ -84,7 +85,7 @@ This file contains the translation templates of this label, using a deprecation 
 ### bs
 
 ```markdown
-> Napomena: Ova komanda je zastarjela, umjesto nje koristite `example`.
+> Note: This command is deprecated, use `example` instead.
 ```
 
 ---
@@ -92,7 +93,7 @@ This file contains the translation templates of this label, using a deprecation 
 ### ca
 
 ```markdown
-> Nota: Aquesta comanda està obsoleta, utilitzeu `example` en el seu lloc.
+> Note: This command is deprecated, use `example` instead.
 ```
 
 ---
@@ -100,7 +101,7 @@ This file contains the translation templates of this label, using a deprecation 
 ### cs
 
 ```markdown
-> Poznámka: Tento příkaz je zastaralý, použijte místo něj `example`.
+> Note: This command is deprecated, use `example` instead.
 ```
 
 ---
@@ -108,7 +109,7 @@ This file contains the translation templates of this label, using a deprecation 
 ### da
 
 ```markdown
-> Bemærk: Denne kommando er forældet, brug `example` i stedet.
+> Note: This command is deprecated, use `example` instead.
 ```
 
 ---
@@ -124,7 +125,7 @@ This file contains the translation templates of this label, using a deprecation 
 ### el
 
 ```markdown
-> Σημείωση: Αυτή η εντολή έχει καταργηθεί, χρησιμοποιήστε το `example` αντί αυτής.
+> Note: This command is deprecated, use `example` instead.
 ```
 
 ---
@@ -140,7 +141,7 @@ This file contains the translation templates of this label, using a deprecation 
 ### fa
 
 ```markdown
-> توجه: این فرمان منسوخ شده است، به جای آن از `example` استفاده کنید.
+> Note: This command is deprecated, use `example` instead.
 ```
 
 ---
@@ -148,7 +149,7 @@ This file contains the translation templates of this label, using a deprecation 
 ### fi
 
 ```markdown
-> Huomautus: Tämä komento on vanhentunut, käytä sen sijaan komentoa `example`.
+> Note: This command is deprecated, use `example` instead.
 ```
 
 ---
@@ -204,7 +205,7 @@ This file contains the translation templates of this label, using a deprecation 
 ### lo
 
 ```markdown
-> ໝາຍເຫດ: ຄຳສັ່ງນີ້ເລີກໃຊ້ແລ້ວ, ໃຫ້ໃຊ້ `example` ແທນ.
+> Note: This command is deprecated, use `example` instead.
 ```
 
 ---
@@ -212,7 +213,7 @@ This file contains the translation templates of this label, using a deprecation 
 ### ml
 
 ```markdown
-> കുറിപ്പ്: ഈ കമാൻഡ് ഒഴിവാക്കപ്പെട്ടതാണ്, പകരം `example` ഉപയോഗിക്കുക.
+> Note: This command is deprecated, use `example` instead.
 ```
 
 ---
@@ -220,7 +221,7 @@ This file contains the translation templates of this label, using a deprecation 
 ### nb
 
 ```markdown
-> Merk: Denne kommandoen er foreldet, bruk `example` i stedet.
+> Note: This command is deprecated, use `example` instead.
 ```
 
 ---
@@ -228,7 +229,7 @@ This file contains the translation templates of this label, using a deprecation 
 ### ne
 
 ```markdown
-> नोट: यो कमाण्ड अप्रचलित छ, यसको सट्टा `example` प्रयोग गर्नुहोस्।
+> Note: This command is deprecated, use `example` instead.
 ```
 
 ---
@@ -244,7 +245,7 @@ This file contains the translation templates of this label, using a deprecation 
 ### no
 
 ```markdown
-> Merk: Denne kommandoen er foreldet, bruk `example` i stedet.
+> Note: This command is deprecated, use `example` instead.
 ```
 
 ---
@@ -268,7 +269,7 @@ This file contains the translation templates of this label, using a deprecation 
 ### pt_PT
 
 ```markdown
-> Nota: Este comando está obsoleto, utilize `example` em vez dele.
+> Note: This command is deprecated, use `example` instead.
 ```
 
 ---
@@ -276,7 +277,7 @@ This file contains the translation templates of this label, using a deprecation 
 ### ro
 
 ```markdown
-> Notă: Această comandă este învechită, folosiți `example` în schimb.
+> Note: This command is deprecated, use `example` instead.
 ```
 
 ---
@@ -292,7 +293,7 @@ This file contains the translation templates of this label, using a deprecation 
 ### si
 
 ```markdown
-> සටහන: මෙම විධානය යල් පැන ගොස් ඇත, ඒ වෙනුවට `example` භාවිතා කරන්න.
+> Note: This command is deprecated, use `example` instead.
 ```
 
 ---
@@ -300,7 +301,7 @@ This file contains the translation templates of this label, using a deprecation 
 ### sr
 
 ```markdown
-> Напомена: Ова команда је застарела, уместо ње користите `example`.
+> Note: This command is deprecated, use `example` instead.
 ```
 
 ---
@@ -308,7 +309,7 @@ This file contains the translation templates of this label, using a deprecation 
 ### sv
 
 ```markdown
-> Obs: Det här kommandot är föråldrat, använd `example` i stället.
+> Note: This command is deprecated, use `example` instead.
 ```
 
 ---
@@ -324,7 +325,7 @@ This file contains the translation templates of this label, using a deprecation 
 ### th
 
 ```markdown
-> หมายเหตุ: คำสั่งนี้เลิกใช้แล้ว ให้ใช้ `example` แทน
+> Note: This command is deprecated, use `example` instead.
 ```
 
 ---
@@ -348,7 +349,7 @@ This file contains the translation templates of this label, using a deprecation 
 ### uz
 
 ```markdown
-> Eslatma: Bu buyruq eskirgan, uning o'rniga `example` dan foydalaning.
+> Note: This command is deprecated, use `example` instead.
 ```
 
 ---
