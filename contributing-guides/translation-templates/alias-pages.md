@@ -280,7 +280,7 @@ The templates can be changed when necessary.
 
 > Questo comando è un alias per `example`.
 
-- Consulta la documentazione del comando originale:
+- Visualizza la documentazione del comando originale:
 
 `tldr example`
 ```

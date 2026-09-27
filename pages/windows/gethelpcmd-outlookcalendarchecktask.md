@@ -2,7 +2,7 @@
 
 > Scan for calendar configuration issues in legacy Microsoft Outlook applications.
 > Part of `GetHelpCmd.exe`, formerly `SaRAcmd.exe` (Microsoft Support and Recovery Assistant).
-> Note: This tool has been deprecated and will not work in the new Outlook application.
+> Note: This command is deprecated and will not work in the new Outlook application.
 > More information: <https://learn.microsoft.com/troubleshoot/microsoft-365/admin/miscellaneous/get-help-outlook-calendar-scan>.
 
 - Analyze the calendar for the current, active profile, and accept this command's End-User License Agreement (EULA):

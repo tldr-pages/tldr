@@ -2,7 +2,7 @@
 
 > Adiciona ou altera informação de usuário do banco de dados, incluindo login shell e senha.
 > Veja também: `passwd`.
-> Mais informações: <https://man.freebsd.org/cgi/man.cgi?chpass>.
+> Mais informações: <https://man.freebsd.org/cgi/man.cgi?query=chpass>.
 
 - Adiciona ou altera informação de usuário do banco de dados para o usuário atual interativamente:
 
