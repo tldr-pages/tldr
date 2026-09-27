@@ -7,7 +7,7 @@
 
 `archinstall`
 
-- Simulate an installation, going through the interactive installer and generating a configuration file without installing:
+- Simulate an installation, going through the interactive installer, and generating a configuration file without installing:
 
 `archinstall --dry-run`
 
