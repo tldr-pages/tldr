@@ -211,7 +211,7 @@ This file contains the translation templates of this label.
 ### ml
 
 ```markdown
-> Note: This command is deprecated, use `example` instead.
+> കുറിപ്പ്: ഈ കമാൻഡ് കാലഹരണപ്പെട്ടതാണ്; പകരം `example` ഉപയോഗിക്കുക.
 ```
 
 ---
