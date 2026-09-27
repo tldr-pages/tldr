@@ -1,8 +1,8 @@
 # Select-String
 
 > Finds text in strings and files in PowerShell.
-> Note: This command can only be used through PowerShell.
 > You can use `Select-String` similar to `grep` in UNIX or `findstr.exe` in Windows.
+> Note: This command can only be used through PowerShell.
 > More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
 
 - Search for a pattern within a file:
