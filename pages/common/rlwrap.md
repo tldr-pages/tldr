@@ -11,7 +11,7 @@
 
 `rlwrap {{[-r|--remember]}} {{command}}`
 
-- Better prompt completion if prompts contain ANSI color codes:
+- Better prompt completion if prompts contain ANSI colour codes:
 
 `rlwrap {{[-A|--ansi-colour-aware]}} {{command}}`
 
@@ -19,6 +19,6 @@
 
 `rlwrap {{[-c|--complete-filenames]}} {{command}}`
 
-- Add colored prompts, use color name or an ANSI-conformant color specification. Use an uppercase color name for bold styling:
+- Add coloured prompts, use colour name or an ANSI-conformant colour specification. Use an uppercase colour name for bold styling:
 
 `rlwrap {{[-p|--prompt-colour=]}}{{black|red|green|yellow|blue|cyan|purple|white|colour_spec}} {{command}}`
