@@ -1,7 +1,7 @@
 # arduino-builder
 
 > Compile arduino sketches.
-> DEPRECATION WARNING: this tool is being phased out in favor of `arduino`.
+> Note: This command is deprecated, use `arduino` instead.
 > More information: <https://github.com/arduino/arduino-builder>.
 
 - Compile a sketch:

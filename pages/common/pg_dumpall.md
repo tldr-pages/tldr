@@ -11,7 +11,7 @@
 
 `pg_dumpall {{[-U|--username]}} {{username}} > {{path/to/file.sql}}`
 
-- Same as above, customize host and port:
+- Dump all databases using a specific host and port:
 
 `pg_dumpall {{[-h|--host]}} {{host}} {{[-p|--port]}} {{port}} > {{output_file.sql}}`
 
