@@ -3,7 +3,7 @@
 > Multipurpose relay (SOcket CAT).
 > More information: <http://www.dest-unreach.org/socat/>.
 
-- Listen to a port, wait for an incoming connection and transfer data to STDIO:
+- Listen to a port, wait for an incoming connection, and transfer data to STDIO:
 
 `sudo socat - TCP-LISTEN:8080,fork`
 

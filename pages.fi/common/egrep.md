@@ -1,6 +1,6 @@
 # egrep
 
-> Tämä on alias komennolle `grep --extended-regexp`.
+> Tämä on alias `grep --extended-regexp` komennolle.
 > Katso myös: `regex`.
 > Lisätietoa: <https://manned.org/egrep>.
 

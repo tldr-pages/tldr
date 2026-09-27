@@ -7,7 +7,7 @@
 
 `createrepo {{path/to/directory}}`
 
-- Initialize a repository, exclude test RPMs and display verbose logs:
+- Initialize a repository, exclude test RPMs, and display verbose logs:
 
 `createrepo {{[-v|--verbose]}} {{[-x|--excludes]}} {{test_*.rpm}} {{path/to/directory}}`
 

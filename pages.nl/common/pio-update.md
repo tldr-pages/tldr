@@ -7,7 +7,7 @@
 
 `pio update`
 
-- Update alleen kern pakketten (sla platformen en bibliotheken over):
+- Update alleen kernpakketten (sla platformen en bibliotheken over):
 
 `pio update --core-packages`
 

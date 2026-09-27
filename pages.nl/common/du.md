@@ -3,11 +3,11 @@
 > Schijfgebruik: schat en vat ruimtegebruik van bestanden en mappen samen.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/du-invocation.html>.
 
-- Toon de grootte van een map en mogelijke sub-mappen, met een gegeven eenheid (B/KiB/MiB):
+- Toon de grootte van een map en mogelijke submappen, met een gegeven eenheid (B/KiB/MiB):
 
 `du -{{b|k|m}} {{pad/naar/map}}`
 
-- Toon de grootte van een map en mogelijke sub-mappen, met een leesbaar formaat (d.w.z. door het automatisch kiezen van een eenheid gebaseerd op grootte):
+- Toon de grootte van een map en mogelijke submappen, met een leesbaar formaat (d.w.z. door het automatisch kiezen van een eenheid gebaseerd op grootte):
 
 `du {{[-h|--human-readable]}} {{pad/naar/map}}`
 
@@ -19,7 +19,7 @@
 
 `du {{[-ah|--all --human-readable]}} {{pad/naar/map}}`
 
-- Toon de grootte in leesbare vorm van een map en alle sub-mappen tot `n` niveaus diep:
+- Toon de grootte in leesbare vorm van een map en alle submappen tot `n` niveaus diep:
 
 `du {{[-h|--human-readable]}} {{[-d|--max-depth]}} {{n}} {{pad/naar/map}}`
 

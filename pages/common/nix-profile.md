@@ -23,6 +23,6 @@
 
 `nix profile upgrade --all`
 
-- Rollback (cancel) the latest action on the default profile:
+- Roll back (cancel) the latest action on the default profile:
 
 `nix profile rollback`

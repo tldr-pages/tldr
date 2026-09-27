@@ -11,7 +11,7 @@
 
 `pamslice {{[-c|-column]}} {{n}} {{pad/naar/afbeelding.pam}}`
 
-- Beschouw alleen het opgegeven vlak (m) van de invoer-afbeelding:
+- Beschouw alleen het opgegeven vlak (m) van de invoerafbeelding:
 
 `pamslice {{[-r|-row]}} {{n}} -plane {{m}} {{pad/naar/afbeelding.pam}}`
 

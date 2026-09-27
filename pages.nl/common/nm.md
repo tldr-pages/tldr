@@ -1,6 +1,6 @@
 # nm
 
-> Toon symbool namen in object bestanden.
+> Toon symboolnamen in objectbestanden.
 > Meer informatie: <https://manned.org/nm>.
 
 - Toon globale (externe) functies in een bestand (voorafgegaan door T):

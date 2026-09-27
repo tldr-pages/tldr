@@ -15,7 +15,7 @@
 
 `sudo nixos-rebuild switch --upgrade`
 
-- Rollback changes to the configuration, switching to the previous generation:
+- Roll back changes to the configuration, switching to the previous generation:
 
 `sudo nixos-rebuild switch --rollback`
 

@@ -1,7 +1,7 @@
 # cleanmgr
 
 > Clear unnecessary files from the computer's hard disk.
-> Deprecated in newer Windows versions and replaced by "Storage Sense".
+> Note: This command is deprecated in newer Windows versions, use "Storage Sense" instead.
 > More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/cleanmgr>.
 
 - Open Disk Cleanup for a specific drive:

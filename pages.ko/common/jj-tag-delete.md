@@ -12,7 +12,7 @@
 
 `jj tag {{[d|delete]}} {{태그1 태그2 ...}}`
 
-- glob 패턴과 일치하는 태그 삭제:
+- `glob` 패턴과 일치하는 태그 삭제:
 
 `jj tag {{[d|delete]}} "{{glob:v1.*}}"`
 

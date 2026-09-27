@@ -4,7 +4,7 @@
 > Note: `foot --server` must be started before using the client.
 > More information: <https://manned.org/footclient>.
 
-- Start a new terminal window, wait until the window is closed and return its exit code:
+- Start a new terminal window, wait until the window is closed, and return its exit code:
 
 `footclient`
 

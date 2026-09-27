@@ -9,7 +9,7 @@
 
 `gcrane gc {{repository}}`
 
-- Whether to recurse through repositories:
+- Recurse through repositories:
 
 `gcrane gc {{repository}} {{[-r|--recursive]}}`
 

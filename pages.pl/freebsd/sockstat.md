@@ -1,7 +1,7 @@
 # sockstat
 
 > Wyświetl listę otwartych gniazd internetowych lub UNIX-owych.
-> Więcej informacji: <https://man.freebsd.org/cgi/man.cgi?sockstat>.
+> Więcej informacji: <https://man.freebsd.org/cgi/man.cgi?query=sockstat>.
 
 - Zobacz, którzy użytkownicy/procesy nasłuchują na których portach:
 
