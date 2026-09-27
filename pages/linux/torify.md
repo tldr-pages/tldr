@@ -1,7 +1,7 @@
 # torify
 
 > Route network traffic through the Tor network.
-> Note: This command is deprecated, use `torsocks` instead. It is now a backwards-compatible wrapper of `torsocks`.
+> Note: This command is deprecated, use `torsocks` instead. `torify` is now a backwards-compatible wrapper of `torsocks`.
 > More information: <https://manned.org/torify>.
 
 - Route traffic via Tor:
