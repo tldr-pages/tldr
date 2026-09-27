@@ -5,46 +5,25 @@ only available in a specific shell, or not meant to be invoked manually.
 In that case, we add a note to the header of the page, right after the description (see the [heading order](../style-guide.md#heading-order)).
 The text of a note differs per page, so only the `Note:` label is fixed; the rest should be translated freely.
 This file contains the translation templates of this label, using a deprecation notice as an example.
-Languages that still show the English example have not been translated yet.
 
 [en](#en) •
 [ar](#ar) •
-[bg](#bg) •
 [bn](#bn) •
-[bs](#bs) •
-[ca](#ca) •
-[cs](#cs) •
-[da](#da) •
 [de](#de) •
-[el](#el) •
 [es](#es) •
-[fa](#fa) •
-[fi](#fi) •
 [fr](#fr) •
 [hi](#hi) •
 [id](#id) •
 [it](#it) •
 [ja](#ja) •
 [ko](#ko) •
-[lo](#lo) •
-[ml](#ml) •
-[nb](#nb) •
-[ne](#ne) •
 [nl](#nl) •
-[no](#no) •
 [pl](#pl) •
 [pt_BR](#pt_br) •
-[pt_PT](#pt_pt) •
-[ro](#ro) •
 [ru](#ru) •
-[si](#si) •
-[sr](#sr) •
-[sv](#sv) •
 [ta](#ta) •
-[th](#th) •
 [tr](#tr) •
 [uk](#uk) •
-[uz](#uz) •
 [zh](#zh) •
 [zh_TW](#zh_tw)
 
@@ -66,50 +45,10 @@ Languages that still show the English example have not been translated yet.
 
 ---
 
-### bg
-
-```markdown
-> Note: This command is deprecated, use `example` instead.
-```
-
----
-
 ### bn
 
 ```markdown
 > নোট: এই কমান্ডটি অপ্রচলিত, এর পরিবর্তে `example` ব্যবহার করুন।
-```
-
----
-
-### bs
-
-```markdown
-> Note: This command is deprecated, use `example` instead.
-```
-
----
-
-### ca
-
-```markdown
-> Note: This command is deprecated, use `example` instead.
-```
-
----
-
-### cs
-
-```markdown
-> Note: This command is deprecated, use `example` instead.
-```
-
----
-
-### da
-
-```markdown
-> Note: This command is deprecated, use `example` instead.
 ```
 
 ---
@@ -122,34 +61,10 @@ Languages that still show the English example have not been translated yet.
 
 ---
 
-### el
-
-```markdown
-> Note: This command is deprecated, use `example` instead.
-```
-
----
-
 ### es
 
 ```markdown
 > Nota: Este comando está obsoleto, use `example` en su lugar.
-```
-
----
-
-### fa
-
-```markdown
-> Note: This command is deprecated, use `example` instead.
-```
-
----
-
-### fi
-
-```markdown
-> Note: This command is deprecated, use `example` instead.
 ```
 
 ---
@@ -202,50 +117,10 @@ Languages that still show the English example have not been translated yet.
 
 ---
 
-### lo
-
-```markdown
-> Note: This command is deprecated, use `example` instead.
-```
-
----
-
-### ml
-
-```markdown
-> Note: This command is deprecated, use `example` instead.
-```
-
----
-
-### nb
-
-```markdown
-> Note: This command is deprecated, use `example` instead.
-```
-
----
-
-### ne
-
-```markdown
-> Note: This command is deprecated, use `example` instead.
-```
-
----
-
 ### nl
 
 ```markdown
 > Opmerking: Dit commando is verouderd, gebruik in plaats daarvan `example`.
-```
-
----
-
-### no
-
-```markdown
-> Note: This command is deprecated, use `example` instead.
 ```
 
 ---
@@ -266,22 +141,6 @@ Languages that still show the English example have not been translated yet.
 
 ---
 
-### pt_PT
-
-```markdown
-> Note: This command is deprecated, use `example` instead.
-```
-
----
-
-### ro
-
-```markdown
-> Note: This command is deprecated, use `example` instead.
-```
-
----
-
 ### ru
 
 ```markdown
@@ -290,42 +149,10 @@ Languages that still show the English example have not been translated yet.
 
 ---
 
-### si
-
-```markdown
-> Note: This command is deprecated, use `example` instead.
-```
-
----
-
-### sr
-
-```markdown
-> Note: This command is deprecated, use `example` instead.
-```
-
----
-
-### sv
-
-```markdown
-> Note: This command is deprecated, use `example` instead.
-```
-
----
-
 ### ta
 
 ```markdown
 > குறிப்பு: இந்தக் கட்டளை வழக்கற்றுப் போனது, அதற்குப் பதிலாக `example` ஐப் பயன்படுத்தவும்.
-```
-
----
-
-### th
-
-```markdown
-> Note: This command is deprecated, use `example` instead.
 ```
 
 ---
@@ -342,14 +169,6 @@ Languages that still show the English example have not been translated yet.
 
 ```markdown
 > Примітка: Ця команда застаріла, використовуйте замість неї `example`.
-```
-
----
-
-### uz
-
-```markdown
-> Note: This command is deprecated, use `example` instead.
 ```
 
 ---
