@@ -75,7 +75,7 @@ This file contains the translation templates of this label.
 ### bn
 
 ```markdown
-> নোট: এই কমান্ডটি deprecated, use `example` instead.
+> নোট: এই কমান্ডটি অবচিত (deprecated), এর পরিবর্তে `example` ব্যবহার করুন।.
 ```
 
 ---
