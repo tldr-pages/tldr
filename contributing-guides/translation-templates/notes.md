@@ -1,10 +1,9 @@
 # Notes
 
-Sometimes a page needs to point out something important about the command, such as it being deprecated,
-only available in a specific shell, or not meant to be invoked manually.
+Sometimes a page needs to point out something important about the command, such as it being deprecated, only available in a specific shell, or not meant to be invoked manually.
 In that case, we add a note to the header of the page, right after the description (see the [heading order](../style-guide.md#heading-order)).
 The text of a note differs per page, so only the `Note:` label is fixed; the rest should be translated freely.
-This file contains the translation templates of this label, using a deprecation notice as an example.
+This file contains the translation templates of this label.
 
 [en](#en) •
 [ar](#ar) •
