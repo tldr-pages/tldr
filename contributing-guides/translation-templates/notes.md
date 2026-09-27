@@ -283,7 +283,7 @@ This file contains the translation templates of this label.
 ### ru
 
 ```markdown
-> Примечание: Эта команда устарела, use `example` instead.
+> Примечание: Эта команда устарела, используйте вместо неё `example`.
 ```
 
 ---
