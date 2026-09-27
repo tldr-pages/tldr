@@ -59,7 +59,7 @@ This file contains the translation templates of this label.
 ### ar
 
 ```markdown
-> ملاحظة: This command is deprecated, use `example` instead.
+> ملاحظة: لم يعد يُنصح باستخدام هذا الأمر، استخدم `example` بدلًا منه.
 ```
 
 ---
