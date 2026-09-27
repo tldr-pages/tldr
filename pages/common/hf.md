@@ -1,7 +1,7 @@
 # hf
 
 > Interact with Hugging Face Hub.
-> Login, manage local cache, download, or upload files.
+> Log in, manage local cache, download, or upload files.
 > More information: <https://huggingface.co/docs/huggingface_hub/guides/cli>.
 
 - Log in to Hugging Face Hub:
