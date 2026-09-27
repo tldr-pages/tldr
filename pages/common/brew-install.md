@@ -11,6 +11,6 @@
 
 `brew install {{[-s|--build-from-source]}} {{formula}}`
 
-- Download the manifest, print what would be installed but don't actually install anything:
+- Simulate an installation, downloading the manifest and printing what would be installed:
 
 `brew install {{[-n|--dry-run]}} {{formula|cask}}`

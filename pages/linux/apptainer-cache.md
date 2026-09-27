@@ -27,7 +27,7 @@
 
 `apptainer cache clean {{[-D|--days]}} {{days}}`
 
-- Preview what would be cleaned without removing anything:
+- Simulate cleaning the cache, showing what would be removed:
 
 `apptainer cache clean {{[-n|--dry-run]}}`
 
