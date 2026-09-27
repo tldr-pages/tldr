@@ -7,18 +7,26 @@
 
 `sudo wg`
 
-- Generate a new private key:
+- Check status of the specified interface:
+
+`sudo wg show {{interface}}`
+
+- Generate a new private key and print it to `stdout`:
 
 `wg genkey`
 
-- Generate a public key from a private key:
+- Generate a public key from a private key and print it to `stdout`:
 
-`wg < {{path/to/private_key}} pubkey > {{path/to/public_key}}`
+`wg < {{path/to/private_key}} pubkey`
 
-- Generate a public and private key:
+- Generate a public and private key and save them to files:
 
 `wg genkey | tee {{path/to/private_key}} | wg pubkey > {{path/to/public_key}}`
 
-- Show the current configuration of a wireguard interface:
+- Generate a pre-shared key and print it to `stdout`:
 
-`sudo wg showconf {{wg0}}`
+`wg genpsk`
+
+- Show the active configuration of an interface:
+
+`sudo wg showconf {{interface}}`
