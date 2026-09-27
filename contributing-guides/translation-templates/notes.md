@@ -99,7 +99,7 @@ This file contains the translation templates of this label.
 ### cs
 
 ```markdown
-> Note: This command is deprecated, use `example` instead.
+> Poznámka: This command is deprecated, use `example` instead.
 ```
 
 ---
