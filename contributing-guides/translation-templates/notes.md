@@ -106,7 +106,7 @@ Where the rest of the example line is still in English, it has yet to be transla
 ### it
 
 ```markdown
-> Nota: questo comando è deprecato, use `example` instead.
+> Nota: Questo comando è deprecato, use `example` instead.
 ```
 
 ---
@@ -154,7 +154,7 @@ Where the rest of the example line is still in English, it has yet to be transla
 ### ru
 
 ```markdown
-> Примечание: эта команда устарела, use `example` instead.
+> Примечание: Эта команда устарела, use `example` instead.
 ```
 
 ---
