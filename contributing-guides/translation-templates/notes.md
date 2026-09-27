@@ -130,7 +130,7 @@ Where the rest of the example line is still in English, it has yet to be transla
 ### nl
 
 ```markdown
-> Opmerking: This command is deprecated, use `example` instead.
+> Opmerking: Dit commando is verouderd, gebruik in plaats daarvan `example`.
 ```
 
 ---
