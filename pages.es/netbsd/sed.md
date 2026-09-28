@@ -14,11 +14,11 @@
 
 - Retrasa abrir cada archivo hasta que se aplique a una línea de entrada un comando que contenga la función `w` u otra similar:
 
-`{{comando}} | sed -fa {{ruta/al/script.sed}}`
+`{{comando}} | sed -af {{ruta/al/script.sed}}`
 
 - Activa la extensión de [g]NU de `regex`:
 
-`{{comando}} | sed -fg {{ruta/al/script.sed}}`
+`{{comando}} | sed -gf {{ruta/al/script.sed}}`
 
 - Sustituye todas las ocurrencias de `apple` (`regex` extendida) por `APPLE` (`regex` extendida) en todas las líneas de entrada e imprime el resultado en `stdout`:
 
