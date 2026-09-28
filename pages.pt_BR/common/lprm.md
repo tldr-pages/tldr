@@ -22,4 +22,4 @@
 
 - Cancela o trabalho atual de uma impressora ou classe específica:
 
-`lprm -P {{destino[/instância]}}`
+`lprm -P {{destino}}/{{instância}}`
