@@ -13,7 +13,7 @@
 
 - Print the terminal type to the (`stderr`) output:
 
-`tset {{[-r]}}`
+`tset -r`
 
 - Print shell commands to set the environment:
 
