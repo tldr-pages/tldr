@@ -11,7 +11,7 @@
 
 `tset -c`
 
-- Print the terminal type to the (`standard error`) output:
+- Print the terminal type to the (`stderr`) output:
 
 `tset {{[-r]}}`
 
