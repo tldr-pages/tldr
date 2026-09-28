@@ -3,7 +3,7 @@
 > Initialize or reset terminal state.
 > More information: <https://manned.org/tset>.
 
-- Initialize terminals:
+- Initialize the terminal:
 
 `tset`
 
