@@ -1,6 +1,6 @@
 # nmcli
 
-> Beheer de netwerk configuratie via NetworkManager.
+> Beheer de netwerkconfiguratie via NetworkManager.
 > Zie ook: `nmtui`, `iw`, `iwctl`.
 > Meer informatie: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
 

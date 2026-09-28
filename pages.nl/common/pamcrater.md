@@ -1,10 +1,10 @@
 # pamcrater
 
-> Maak een PAM afbeelding van een krater terrein.
+> Maak een PAM afbeelding van een kraterterrein.
 > Zie ook: `pamshadedrelief`, `ppmrelief`.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/pamcrater.html>.
 
-- Maak een afbeelding van een krater terrein met de gespecificeerde dimensies:
+- Maak een afbeelding van een kraterterrein met de gespecificeerde dimensies:
 
 `pamcrater {{[-h|-height]}} {{hoogte}} {{[-w|-width]}} {{breedte}} > {{pad/naar/uitvoer.pam}}`
 

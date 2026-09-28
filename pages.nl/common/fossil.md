@@ -1,6 +1,6 @@
 # fossil
 
-> Gedistribueerd versiebeheer systeem met een ingebouwde wiki, bugtracker en webinterface.
+> Gedistribueerd versiebeheersysteem met een ingebouwde wiki, bugtracker en webinterface.
 > Sommige subcommando's zoals `commit` hebben hun eigen documentatie.
 > Meer informatie: <https://fossil-scm.org/home/help>.
 

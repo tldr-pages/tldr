@@ -5,11 +5,11 @@
 
 - Crea uno stack da un file template:
 
-`aws cloudformation create-stack --stack-name {{nome-stack}} --region {{regione}} --template-body {{file://percorso/del/file.yml}} --profile {{profilo}}`
+`aws cloudformation create-stack --stack-name {{nome_stack}} --region {{regione}} --template-body {{file://percorso/del/file.yml}} --profile {{profilo}}`
 
 - Elimina uno stack:
 
-`aws cloudformation delete-stack --stack-name {{nome-stack}} --profile {{profilo}}`
+`aws cloudformation delete-stack --stack-name {{nome_stack}} --profile {{profilo}}`
 
 - Elenca tutti gli stack:
 
@@ -29,4 +29,4 @@
 
 - Controlla l'output dello stato deriva di uno stack usando `StackDriftDetectionId` dall'output del comando precedente:
 
-`aws cloudformation describe-stack-resource-drifts --stack-name {{stack-drift-detection-id}} --profile {{profilo}}`
+`aws cloudformation describe-stack-resource-drifts --stack-name {{stack_drift_detection_id}} --profile {{profilo}}`

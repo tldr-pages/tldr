@@ -1,8 +1,9 @@
 # yumdownloader
 
-> Download storici pacchetti YUM per installazioni Fedora; ora deprecato.
+> Download storici pacchetti YUM per installazioni Fedora.
 > Questo comando è un alias per `dnf download`.
+> Nota: Questo comando è deprecato, usa `dnf download`.
 
-- Consulta la documentazione del comando originale:
+- Visualizza la documentazione del comando originale:
 
 `tldr dnf download`

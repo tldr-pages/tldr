@@ -12,6 +12,6 @@
 
 `chsh --shell {{ruta/a/shell}}`
 
-- Establecer un inicio de sesión del [s]hell para un usuario específico:
+- Establece un inicio de sesión del [s]hell para un usuario específico:
 
 `sudo chsh --shell {{ruta/al/shell}} {{nombre_de_usuario}}`

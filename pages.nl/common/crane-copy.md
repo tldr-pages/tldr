@@ -11,7 +11,7 @@
 
 `crane {{[cp|copy]}} {{bron}} {{doel}} {{[-a|--all-tags]}}`
 
-- Stel het maximum aantal gelijktijdige kopieën in, standaard is GOMAXPROCS:
+- Stel het maximumaantal gelijktijdige kopieën in, standaard is GOMAXPROCS:
 
 `crane {{[cp|copy]}} {{bron}} {{doel}} {{[-j|--jobs]}} {{int}}`
 

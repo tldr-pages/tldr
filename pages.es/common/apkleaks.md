@@ -12,6 +12,6 @@
 
 `apkleaks {{[-f|--file]}} {{ruta/al/archivo}}.apk {{[-o|--output]}} {{ruta/al/archivo.txt}}`
 
-- Pasar [a]rgumentos del desensamblador `jadx`:
+- Pasa [a]rgumentos del desensamblador `jadx`:
 
 `apkleaks {{[-f|--file]}} {{ruta/al/archivo}}.apk {{[-a|--args]}} "{{--threads-count 5 --deobf}}"`

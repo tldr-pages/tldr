@@ -7,7 +7,7 @@
 
 `jj file search {{[-p|--pattern]}} "{{regex}}"`
 
-- glob 패턴과 일치하는 내용을 포함하는 파일 검색:
+- `glob` 패턴과 일치하는 내용을 포함하는 파일 검색:
 
 `jj file search {{[-p|--pattern]}} "{{glob:*pattern*}}"`
 

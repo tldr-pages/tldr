@@ -23,6 +23,6 @@
 
 `choco list {{[-s|--source]}} {{url_fuente|alias}}`
 
-- Proporcionar un nombre de usuario y una contraseña para la autenticación:
+- Proporciona un nombre de usuario y una contraseña para la autenticación:
 
 `choco list --user {{nombre_usuario}} --password {{contraseña}}`

@@ -8,11 +8,11 @@
 
 `amass {{intel|enum}} {{opties}}`
 
-- Toon de generieke help pagina:
+- Toon de generieke helppagina:
 
 `amass -help`
 
-- Toon de help pagina van een subcommando:
+- Toon de helppagina van een subcommando:
 
 `amass {{intel|enum}} -help`
 

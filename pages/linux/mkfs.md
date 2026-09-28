@@ -1,7 +1,7 @@
 # mkfs
 
 > Build a Linux filesystem on a hard disk partition.
-> This command is deprecated in favor of filesystem specific mkfs.type utils.
+> Note: This command is deprecated, use filesystem specific commands like `mkfs.ext4` instead.
 > More information: <https://manned.org/mkfs>.
 
 - Build a Linux ext2 filesystem on a partition:
