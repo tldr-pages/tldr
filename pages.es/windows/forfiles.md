@@ -15,7 +15,7 @@
 
 `forfiles /c "{{comando}}"`
 
-- Busca archivos utilizando un patrón de glob específico:
+- Busca archivos utilizando un patrón de `glob` específico:
 
 `forfiles /m {{patrón_glob}}`
 

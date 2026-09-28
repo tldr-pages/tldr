@@ -19,3 +19,7 @@
 - Použít zpoždění akt[u]alizace 100 centisekund (1 sekunda):
 
 `cmatrix -u 100`
+
+- Použít režim [s]pořiče obrazovky ve kterém program skončí při prvním stisknutím klávesy:
+
+`cmatrix -s`

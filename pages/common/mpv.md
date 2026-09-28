@@ -1,6 +1,6 @@
 # mpv
 
-> A audio/video player based on MPlayer.
+> An audio/video player based on MPlayer.
 > See also: `mplayer`, `vlc`.
 > More information: <https://mpv.io/manual/stable/>.
 

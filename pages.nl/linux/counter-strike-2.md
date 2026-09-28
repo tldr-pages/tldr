@@ -7,7 +7,7 @@
 
 `{{pad/naar}}/cs2 -dedicated +map {{de_dust2}}`
 
-- Start een spel met een bepaald maximum aantal spelers:
+- Start een spel met een bepaald maximumaantal spelers:
 
 `{{pad/naar}}/cs2 -dedicated +map {{de_dust2}} -maxplayers {{64}}`
 

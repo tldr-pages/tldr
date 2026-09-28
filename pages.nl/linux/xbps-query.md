@@ -16,7 +16,7 @@
 
 `xbps-query {{[-S|--show]}} {{pakket}} --repository`
 
-- Toon alle geregistreerde pakketten in de pakket database:
+- Toon alle geregistreerde pakketten in de pakketdatabase:
 
 `xbps-query {{[-l|--list-pkgs]}}`
 

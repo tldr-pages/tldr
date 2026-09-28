@@ -15,7 +15,7 @@
 
 `rpcinfo -m`
 
-- Toon lijst van items van een bepaalde service naam (mountd) en versienummer (2) op een remote nfs-share:
+- Toon lijst van items van een bepaalde servicenaam (mountd) en versienummer (2) op een remote nfs-share:
 
 `rpcinfo -l {{remote_nfs_server_ip}} {{mountd}} {{2}}`
 

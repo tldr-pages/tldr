@@ -19,11 +19,11 @@
 
 `prompt off`
 
-- [Interactief] Download meerdere bestanden (glob-expressie):
+- [Interactief] Download meerdere bestanden (`glob`-expressie):
 
 `mget {{*.png}}`
 
-- [Interactief] Upload meerdere bestanden (glob-expressie):
+- [Interactief] Upload meerdere bestanden (`glob`-expressie):
 
 `mput {{*.zip}}`
 

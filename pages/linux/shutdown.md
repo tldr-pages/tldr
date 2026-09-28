@@ -1,6 +1,6 @@
 # shutdown
 
-> Shutdown and reboot the system.
+> Shut down and reboot the system.
 > See also: `poweroff`.
 > More information: <https://manned.org/shutdown.8>.
 

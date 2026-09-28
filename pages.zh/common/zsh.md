@@ -32,6 +32,6 @@
 
 `zsh --verbose`
 
-- 在 `zsh` 里执行指定的命令，但禁用 glob 模式：
+- 在 `zsh` 里执行指定的命令，但禁用 `glob` 模式：
 
 `noglob {{命令}}`

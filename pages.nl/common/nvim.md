@@ -1,7 +1,7 @@
 # nvim
 
 > Neovim, een programmeurs tekstbewerker gebaseerd op Vim, welke verschillende modi aanbiedt voor verschillende soorten tekstmanipulatie.
-> Op `<i>` drukken in de normale modus, gaat naar de invoer modus. `<Esc>` of `<Ctrl c>` gaat terug naar de normale modus, die geen reguliere tekstinvoer accepteert.
+> Op `<i>` drukken in de normale modus, gaat naar de invoermodus. `<Esc>` of `<Ctrl c>` gaat terug naar de normale modus, die geen reguliere tekstinvoer accepteert.
 > Zie ook: `vim`, `vimtutor`, `vimdiff`.
 > Meer informatie: <https://neovim.io/>.
 
