@@ -11,7 +11,7 @@
 
 - 매월 전체 백업을 수행하여 Amazon S3에 디렉터리를 백업:
 
-`duplicity --full-if-older-than {{1M}} s3://{{버킷_이름[/접두사]}}`
+`duplicity --full-if-older-than {{1M}} s3://{{버킷_이름/접두사}}`
 
 - WebDAV 공유에 저장된 백업에서 1년이 넘은 버전을 삭제:
 
