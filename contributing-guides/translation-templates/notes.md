@@ -131,7 +131,7 @@ This file contains the translation templates of this label.
 ### es
 
 ```markdown
-> Nota: Este comando está en desuso, use `example` instead.
+> Nota: Este comando está en desuso, use `example` en su lugar.
 ```
 
 ---
