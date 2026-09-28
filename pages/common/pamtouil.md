@@ -5,7 +5,7 @@
 
 - Convert a PNM or PAM file into a Motif UIL icon file:
 
-`pamtouil {{path/to/input.pnm|pam}} > {{path/to/output.uil}}`
+`pamtouil {{path/to/input}}.{{pnm|pam}} > {{path/to/output.uil}}`
 
 - Specify a prefix string to be printed in the output UIL file:
 
