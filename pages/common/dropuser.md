@@ -11,7 +11,7 @@
 
 `dropuser {{username}}`
 
-- No error if the user to be removed doesn't exist:
+- Do not throw an error if the user to be removed doesn't exist:
 
 `dropuser --if-exists {{username}}`
 

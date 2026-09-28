@@ -19,7 +19,7 @@
 
 `phpcbf {{path/to/directory}} --extensions {{file_extension1,file_extension2,...}}`
 
-- A comma-separated list of files to load before processing:
+- Specify a comma-separated list of files to load before processing:
 
 `phpcbf {{path/to/directory}} --bootstrap {{path/to/file1,path/to/file2,...}}`
 
