@@ -9,7 +9,7 @@
 
 - Set control characters and modes:
 
-`tset {{[-c]}}`
+`tset -c`
 
 - Print the terminal type to the (`standard error`) output:
 
