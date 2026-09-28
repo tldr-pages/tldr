@@ -11,7 +11,7 @@
 
 `xz {{[-d|--decompress]}} {{pad/naar/bestand.xz}}`
 
-- Comprimeer een bestand gebruik makend van LZMA:
+- Comprimeer een bestand gebruikmakend van LZMA:
 
 `xz {{[-F|--format]}} lzma {{pad/naar/bestand}}`
 
@@ -27,10 +27,10 @@
 
 `xz {{[-k|--keep]}} {{pad/naar/bestand}}`
 
-- Comprimeer een bestand, gebruik makend van de snelste compressie:
+- Comprimeer een bestand, gebruikmakend van de snelste compressie:
 
 `xz -0 {{pad/naar/bestand}}`
 
-- Comprimeer een bestand, gebruik makend van de beste compressie:
+- Comprimeer een bestand, gebruikmakend van de beste compressie:
 
 `xz -9 {{pad/naar/bestand}}`

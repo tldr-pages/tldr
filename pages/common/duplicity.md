@@ -11,7 +11,7 @@
 
 - Back up a directory to Amazon S3, doing a full backup every month:
 
-`duplicity --full-if-older-than {{1M}} s3://{{bucket_name[/prefix]}}`
+`duplicity --full-if-older-than {{1M}} s3://{{bucket_name/prefix}}`
 
 - Delete versions older than 1 year from a backup stored on a WebDAV share:
 

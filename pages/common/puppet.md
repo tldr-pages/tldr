@@ -2,7 +2,7 @@
 
 > Manage and automate the configuration of servers.
 > Puppet uses a declarative language to define system configurations and apply them automatically.
-> Some subcommands, such as `agent` and `apply`, have their own usage documentation.
+> Some subcommands such as `agent`, `apply` have their own usage documentation.
 > More information: <https://github.com/puppetlabs/puppet/blob/main/references/man/overview.md>.
 
 - Apply a Puppet manifest file to configure the system:

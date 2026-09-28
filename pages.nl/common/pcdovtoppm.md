@@ -7,7 +7,7 @@
 
 `pcdovtoppm {{pad/naar/bestand.pcd}} > {{pad/naar/uitvoer.ppm}}`
 
-- Specificeer de maximale breedte van de uitvoer-afbeelding en de maximale grootte van elke afbeelding die in de uitvoer wordt opgenomen:
+- Specificeer de maximale breedte van de uitvoerafbeelding en de maximale grootte van elke afbeelding die in de uitvoer wordt opgenomen:
 
 `pcdovtoppm {{[-m|-maxwidth]}} {{breedte}} {{[-s|-size]}} {{grootte}} {{pad/naar/bestand.pcd}} > {{pad/naar/uitvoer.ppm}}`
 

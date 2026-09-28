@@ -15,7 +15,7 @@
 
 `radare2 -i {{pad/naar/script.r2}} {{pad/naar/binary}}`
 
-- [Interactief] Toon de help tekst voor ieder commando in de interactieve CLI:
+- [Interactief] Toon de helptekst voor ieder commando in de interactieve CLI:
 
 `{{radare2_commando}}?`
 

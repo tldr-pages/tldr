@@ -17,7 +17,7 @@
 
 - Lee un archivo de sumas de comprobación BLAKE2 y nombres de archivo y verifica que todos los archivos tengan sumas de comprobación coincidentes:
 
-`b2sum {{[-c|--check]}} {{path/to/file.b2}}`
+`b2sum {{[-c|--check]}} {{ruta/al/archivo.b2}}`
 
 - Muestra solo un mensaje para los archivos que faltan o cuando falla la verificación:
 

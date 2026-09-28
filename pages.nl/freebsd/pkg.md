@@ -1,7 +1,7 @@
 # pkg
 
 > FreeBSD pakketbeheer.
-> Meer informatie: <https://man.freebsd.org/cgi/man.cgi?pkg>.
+> Meer informatie: <https://man.freebsd.org/cgi/man.cgi?query=pkg>.
 
 - Installeer een nieuw pakket:
 

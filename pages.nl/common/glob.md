@@ -1,6 +1,6 @@
 # glob
 
-> Glob-patronen (`glob`) zijn patronen die worden gebruikt om tekst te vergelijken en zoeken.
+> `glob`-patronen zijn patronen die worden gebruikt om tekst te vergelijken en zoeken.
 > Opmerking: `glob` is geen commando, maar syntax die gebruikt kan worden met andere commando's of de shell.
 > Zie ook: `regex`.
 > Meer informatie: <https://en.wikipedia.org/wiki/Glob_(programming)>.

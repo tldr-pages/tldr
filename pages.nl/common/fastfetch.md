@@ -29,4 +29,4 @@
 
 - Gebruik een specifieke kleur voor de sleutels en titel:
 
-`fastfetch --color {{blauw}}`
+`fastfetch --color {{blue}}`

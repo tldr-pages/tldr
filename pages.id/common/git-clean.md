@@ -19,7 +19,7 @@
 
 `git clean {{[-f|--force]}} -d`
 
-- Hanya hapus berkas-berkas tak dilacak dengan alamat berkas spesifik atau pola (glob) nama yang sesuai dengan yang ditentukan:
+- Hanya hapus berkas-berkas tak dilacak dengan alamat berkas spesifik atau pola (`glob`) nama yang sesuai dengan yang ditentukan:
 
 `git clean {{[-f|--force]}} -- {{jalan/menuju/direktori}} '{{*.ext}}'`
 
