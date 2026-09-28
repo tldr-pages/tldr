@@ -17,8 +17,8 @@
 
 - Print shell commands to set the environment:
 
-`tset {{[-s]}}`
+`tset -s`
 
 - Resize the terminal window to the detected size:
 
-`tset {{[-w]}}`
+`tset -w`
