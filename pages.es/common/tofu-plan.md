@@ -21,7 +21,7 @@
 
 - Centra la atención de Tofu solo en un subconjunto de recursos:
 
-`tofu plan -target {{tipo_recurso.nombre_recurso[índice instancia]}}`
+`tofu plan -target {{tipo_recurso.nombre_recurso}}`
 
 - Obtiene un plan en formato JSON:
 

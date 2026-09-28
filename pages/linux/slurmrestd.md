@@ -6,11 +6,11 @@
 
 - Change the [g]roup ID (and drop supplemental groups) before processing client requests:
 
-`slurmrestd -g {{group_id}} {{[host]:port|unix:/path/to/socket}}`
+`slurmrestd -g {{group_id}} {{host:port|unix:/path/to/socket}}`
 
 - Comma-delimited list of [a]uthentication plugins to load:
 
-`slurmrestd -a {{authentication_plugins}} {{[host]:port|unix:/path/to/socket}}`
+`slurmrestd -a {{authentication_plugins}} {{host:port|unix:/path/to/socket}}`
 
 - Read Slurm configuration from the specified [f]ile:
 
