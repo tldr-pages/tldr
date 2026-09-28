@@ -13,7 +13,7 @@
 
 - Gebruik leesbare eenheden (gebaseerd op de macht van 1000):
 
-`df -{{-si|H}}`
+`df -H`
 
 - Toon het bestandssysteem dat het opgegeven bestand of de map bevat:
 
