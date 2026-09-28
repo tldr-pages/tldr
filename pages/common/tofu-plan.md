@@ -21,7 +21,7 @@
 
 - Focus Tofu's attention on only a subset of resources:
 
-`tofu plan -target {{resource_type.resource_name[instance index]}}`
+`tofu plan -target {{resource_type.resource_name}}`
 
 - Output a plan as JSON:
 
