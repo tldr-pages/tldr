@@ -15,6 +15,6 @@
 
 `mkdir {{[-m|--mode]}} {{rwxrw-r--}} {{cesta/k/adresari1 cesta/k/adresari2 ...}}`
 
-- Vytvořit několik vnořených adresářu rekurzivně:
+- Vytvořit několik vnořených adresářů rekurzivně:
 
 `mkdir {{[-p|--parents]}} {{cesta/k/{a,b}/{x,y,z}/{h,i,j}}}`
