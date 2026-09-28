@@ -1,37 +1,37 @@
 # ip rule
 
-> IP routing policy database management.
-> See also: `ip route`.
-> More information: <https://manned.org/ip-rule>.
+> Gestión de la base de datos de políticas de enrutamiento IP.
+> Vea también: `ip route`.
+> Más información: https://manned.org/ip-rule.
 
-- Display the routing policy:
+- Muestra la política de enrutamiento:
 
 `ip {{[ru|rule]}}`
 
-- Create a new generic routing rule with a higher priority than `main`:
+- Crea una nueva regla de enrutamiento genérica con una prioridad mayor que `main`:
 
-`sudo ip {{[ru|rule]}} {{[a|add]}} from all lookup {{table_id}}`
+`sudo ip {{[ru|rule]}} {{[a|add]}} from all lookup {{tabla_id}}`
 
-- Add a new rule based on packet source addresses:
+- Añade una nueva regla basada en las direcciones de origen de los paquetes:
 
-`sudo ip {{[ru|rule]}} {{[a|add]}} from {{192.168.178.2/32}} lookup {{table_id}}`
+`sudo ip {{[ru|rule]}} {{[a|add]}} from {{192.168.178.2/32}} lookup {{tabla_id}}`
 
-- Add a new rule based on packet destination addresses:
+- Añade una nueva regla basada en las direcciones de destino de los paquetes:
 
-`sudo ip {{[ru|rule]}} {{[a|add]}} to {{192.168.178.2/32}} lookup {{table_id}}`
+`sudo ip {{[ru|rule]}} {{[a|add]}} to {{192.168.178.2/32}} lookup {{tabla_id}}`
 
-- Delete a rule based on packet source addresses:
+- Elimina una regla basada en las direcciones de origen de los paquetes:
 
-`sudo ip {{[ru|rule]}} {{[d|delete]}} from {{192.168.178.2/32}}`
+`sudo ip {{[ru|rule]}} {{[d|delete]}} de {{192.168.178.2/32}}`
 
-- Remove all routing rules:
+- Elimina todas las reglas de enrutamiento:
 
 `sudo ip {{[ru|rule]}} {{[f|flush]}}`
 
-- Save all rules to a file:
+- Guarda todas las reglas en un archivo:
 
-`ip {{[ru|rule]}} {{[s|save]}} > {{path/to/ip_rules.dat}}`
+`ip {{[ru|rule]}} {{[s|save]}} > {{ruta/a/ip_reglas.dat}}`
 
-- Restore all rules from a file:
+- Restaura todas las reglas desde un archivo:
 
-`sudo ip < {{path/to/ip_rules.dat}} {{[ru|rule]}} {{[r|restore]}}`
+`sudo ip < {{ruta/a/ip_reglas.dat}} {{[ru|rule]}} {{[r|restore]}}`
