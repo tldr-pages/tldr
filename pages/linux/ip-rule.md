@@ -2,7 +2,7 @@
 
 > Gestión de la base de datos de políticas de enrutamiento IP.
 > Vea también: `ip route`.
-> Más información: https://manned.org/ip-rule.
+> Más información: <https://manned.org/ip-rule>.
 
 - Muestra la política de enrutamiento:
 
