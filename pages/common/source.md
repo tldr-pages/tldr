@@ -11,7 +11,7 @@
 
 `source {{path/to/file}} {{argument1 argument2 ...}}`
 
-- Search and evaluate a file from `$PATH`
+- Search and evaluate a file from `$PATH`:
 
 `source {{file}}`
 
