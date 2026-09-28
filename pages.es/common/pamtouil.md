@@ -9,4 +9,4 @@
 
 - Especifique una cadena de prefijo que se imprimirá en el archivo UIL de salida:
 
-`pamtouil {{[-n|-name]}} {{nombre_uil}} {{ruta/a/entrada.[pnm|pam]}} > {{ruta/a/salida.uil}}`
+`pamtouil {{[-n|-name]}} {{nombre_uil}} {{ruta/a/entrada}}.{{pnm|pam}} > {{ruta/a/salida.uil}}`
