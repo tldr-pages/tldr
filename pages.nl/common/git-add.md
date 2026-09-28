@@ -23,14 +23,14 @@
 
 `git add {{[-f|--force]}} {{pad/naar/bestand}}`
 
-- Interactief delen van bestanden toevoegen:
+- Voeg interactief delen van bestanden toe:
 
 `git add {{[-p|--patch]}}`
 
-- Interactief delen van een opgegeven bestand toevoegen:
+- Voeg interactief delen van een opgegeven bestand toe:
 
 `git add {{[-p|--patch]}} {{pad/naar/bestand}}`
 
-- Interactief een bestand toevoegen:
+- Voeg interactief een bestand toe:
 
 `git add {{[-i|--interactive]}}`

@@ -16,7 +16,7 @@
 
 `resticprofile {{[-n|--name]}} "{{profile_name}}" backup`
 
-- Run in dry-run mode and show the underlying restic commands:
+- Simulate a backup and show the underlying restic commands:
 
 `resticprofile --dry-run backup`
 

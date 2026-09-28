@@ -2,7 +2,7 @@
 
 > Muestra las líneas que empiezan con un prefijo en un archivo ordenado.
 > Vea también: `grep`, `sort`.
-> Más información: <https://man.freebsd.org/cgi/man.cgi?look>.
+> Más información: <https://man.freebsd.org/cgi/man.cgi?query=look>.
 
 - Busca líneas que comiencen con un prefijo específico en un archivo específico:
 

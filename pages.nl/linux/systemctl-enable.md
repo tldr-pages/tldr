@@ -12,6 +12,6 @@
 
 `systemctl enable {{eenheid}} --now`
 
-- Schakel het automatisch opstarten van een gebruikersservice na het inloggen in:
+- Schakel het automatisch opstarten van een gebruikerseenheid na het inloggen in:
 
 `systemctl enable {{eenheid}} --user`

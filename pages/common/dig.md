@@ -4,7 +4,7 @@
 > See also: `resolvectl`, `nslookup`, `host`.
 > More information: <https://manned.org/dig>.
 
-- Lookup the IP(s) associated with a hostname (A records):
+- Look up the IP(s) associated with a hostname (A records):
 
 `dig +short {{example.com}}`
 

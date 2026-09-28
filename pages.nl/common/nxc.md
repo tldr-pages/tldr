@@ -8,7 +8,7 @@
 
 `nxc {{smb|ssh|ldap|ftp|wmi|winrm|rdp|vnc|mssql}} {{[-L|--list-modules]}}`
 
-- Toont de opties die beschikbaar zijn voor de opgegeven module:
+- Toon de opties die beschikbaar zijn voor de opgegeven module:
 
 `nxc {{smb|ssh|ldap|ftp|wmi|winrm|rdp|vnc|mssql}} {{[-M|--module]}} {{module_naam}} --options`
 

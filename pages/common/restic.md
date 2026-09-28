@@ -7,7 +7,7 @@
 
 `restic init {{[-r|--repo]}} {{path/to/repository}}`
 
-- Backup a directory to the repository:
+- Back up a directory to the repository:
 
 `restic {{[-r|--repo]}} {{path/to/repository}} backup {{path/to/directory}}`
 

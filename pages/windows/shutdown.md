@@ -3,11 +3,11 @@
 > A tool for shutting down, restarting, or logging off a machine.
 > More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/shutdown>.
 
-- Shutdown the current machine:
+- Shut down the current machine:
 
 `shutdown /s`
 
-- Shutdown the current machine force-closing all apps:
+- Shut down the current machine force-closing all apps:
 
 `shutdown /s /f`
 
@@ -31,6 +31,6 @@
 
 `shutdown /a`
 
-- Shutdown a remote machine:
+- Shut down a remote machine:
 
 `shutdown /m {{\\hostname}}`

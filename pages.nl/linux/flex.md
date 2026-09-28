@@ -8,7 +8,7 @@
 
 `flex {{analyzer.l}}`
 
-- Analysator naar `stdout` schrijven:
+- Schrijf de analysator naar `stdout`:
 
 `flex {{[-t|--stdout]}} {{analyzer.l}}`
 

@@ -17,6 +17,6 @@
 
 `sudo run_init {{[-t|--type]}} {{context_type}} {{path/to/script}}`
 
-- Display the context that would be used without running the script:
+- Simulate running a script, displaying the context that would be used:
 
 `sudo run_init {{[-n|--dry-run]}} {{path/to/script}}`

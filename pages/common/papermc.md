@@ -15,7 +15,7 @@
 
 `papermc restart`
 
-- Backup a world:
+- Back up a world:
 
 `papermc backup`
 

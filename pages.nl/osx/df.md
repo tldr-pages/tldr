@@ -15,7 +15,7 @@
 
 `df {{[-H|--si]}}`
 
-- Toon het bestandssysteem die de opgegeven bestand of map bevat:
+- Toon het bestandssysteem dat het opgegeven bestand of de opgegeven map bevat:
 
 `df {{pad/naar/bestand_of_map}}`
 
@@ -23,10 +23,10 @@
 
 `df -iY`
 
-- Gebruik [k]ibibyte (1024-byte) eenheden voor het schrijven van de ruimte figuren:
+- Gebruik [k]ibibyte (1024-byte) eenheden voor het weergeven van de groottecijfers:
 
 `df -k`
 
-- Toon informatie in een [P]ortable wijze:
+- Toon informatie op een [P]ortable wijze:
 
 `df -P`

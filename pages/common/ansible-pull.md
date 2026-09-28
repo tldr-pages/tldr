@@ -15,6 +15,6 @@
 
 `ansible-pull {{[-U|--url]}} {{repository_url}} {{[-C|--checkout]}} {{branch}} {{playbook}}`
 
-- Pull a playbook from a VCS, specify hosts file and execute a specific playbook:
+- Pull a playbook from a VCS, specify hosts file, and execute a specific playbook:
 
 `ansible-pull {{[-U|--url]}} {{repository_url}} {{[-i|--inventory]}} {{hosts_file}} {{playbook}}`

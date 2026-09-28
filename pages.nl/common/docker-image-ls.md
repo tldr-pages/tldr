@@ -3,7 +3,7 @@
 > Toon Docker-images.
 > Meer informatie: <https://docs.docker.com/reference/cli/docker/image/ls/>.
 
-- Alle Docker-images weergeven:
+- Toon alle Docker-images:
 
 `docker {{[images|image ls]}}`
 

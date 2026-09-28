@@ -1,6 +1,6 @@
 # systemd-mount
 
-> Zet mount of auto-mount punten op of verwijder ze.
+> Maak tijdelijke mount- of auto-mountpunten aan en verwijder ze.
 > Meer informatie: <https://www.freedesktop.org/software/systemd/man/latest/systemd-mount.html>.
 
 - Mount een bestandssysteem (afbeelding of blokapparaat) op `/run/media/system/LABEL` waar LABEL het bestandssysteemlabel is of de apparaatnaam als er geen label is:

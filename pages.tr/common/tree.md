@@ -23,11 +23,11 @@
 
 `tree -s -h --du`
 
-- Ağaç hiyerarşisi içindeki dosyaları bir wildcard (glob) kalıbı kullanarak ve aranan özellikteki dosyalara sahip olmayan dizinleri yoksayarak göster:
+- Ağaç hiyerarşisi içindeki dosyaları bir wildcard (`glob`) kalıbı kullanarak ve aranan özellikteki dosyalara sahip olmayan dizinleri yoksayarak göster:
 
 `tree -P '{{*.txt}}' --prune`
 
-- Ağaç hiyerarşisi içindeki dizinleri bir wildcard (glob) kalıbı kullanarak ve istenen dizine atalığı olmayan dizinleri yoksayarak göster:
+- Ağaç hiyerarşisi içindeki dizinleri bir wildcard (`glob`) kalıbı kullanarak ve istenen dizine atalığı olmayan dizinleri yoksayarak göster:
 
 `tree -P {{dizin_ismi}} --matchdirs --prune`
 

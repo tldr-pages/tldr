@@ -20,7 +20,7 @@
 
 `choco uninstall {{pakket_naam}} {{[-y|--yes]}}`
 
-- Zoek voor pakketten op naam of sleutelwoord:
+- Zoek naar pakketten op naam of sleutelwoord:
 
 `choco search {{query}}`
 

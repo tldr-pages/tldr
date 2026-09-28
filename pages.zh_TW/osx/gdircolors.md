@@ -1,7 +1,7 @@
 # gdircolors
 
-> 這是 `dircolors` 命令的一個別名。
+> 此命令為 `dircolors` 的別名。
 
-- 原命令的文件在：
+- 檢視原命令的文件：
 
 `tldr dircolors`

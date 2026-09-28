@@ -4,7 +4,7 @@
 > It has colorful output, supports DNS-over-TLS and DNS-over-HTTPS protocols, and can emit JSON.
 > More information: <https://github.com/ogham/dog#examples>.
 
-- Lookup the IP(s) associated with a hostname (A records):
+- Look up the IP(s) associated with a hostname (A records):
 
 `dog {{example.com}}`
 
@@ -24,6 +24,6 @@
 
 `dog {{[-q|--query]}} {{example.com}} {{[-t|--type]}} MX {{[-n|--nameserver]}} {{1.1.1.1}} {{[-T|--tcp]}}`
 
-- Lookup the IP(s) associated with a hostname (A records) using DNS over HTTPS (DoH):
+- Look up the IP(s) associated with a hostname (A records) using DNS over HTTPS (DoH):
 
 `dog {{example.com}} {{[-H|--https]}} @{{https://cloudflare-dns.com/dns-query}}`

@@ -16,10 +16,10 @@
 
 `bugreportz -s`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `bugreportz -h`
 
-- Muestra versión:
+- Muestra la versión:
 
 `bugreportz -v`

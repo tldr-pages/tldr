@@ -8,7 +8,7 @@
 
 `Clear-History`
 
-- Verwijder commando op exacte naam:
+- Verwijder een commando op specifieke naam:
 
 `Clear-History -CommandLine "{{commando}}"`
 

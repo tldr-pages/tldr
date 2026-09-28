@@ -1,7 +1,7 @@
 # gunicorn
 
 > Python WSGI HTTP Server.
-> More information: <https://docs.gunicorn.org/en/latest/run.html>.
+> More information: <https://manned.org/gunicorn>.
 
 - Run Python web app:
 

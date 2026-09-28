@@ -1,7 +1,7 @@
 # ibmcloud ks
 
 > Manage Kubernetes and OpenShift clusters in IBM Cloud.
-> More information: <https://cloud.ibm.com/docs/cli?topic=cli-kubernetes-service-cli>.
+> More information: <https://cloud.ibm.com/docs/containers?topic=containers-kubernetes-service-cli>.
 
 - View the details of a cluster:
 

@@ -1,13 +1,13 @@
 # git gc
 
-> Optimise the local repository by cleaning unnecessary files.
+> Optimize the local repository by cleaning unnecessary files.
 > More information: <https://git-scm.com/docs/git-gc>.
 
-- Optimise the repository:
+- Optimize the repository:
 
 `git gc`
 
-- Aggressively optimise, takes more time:
+- Aggressively optimize, takes more time:
 
 `git gc --aggressive`
 

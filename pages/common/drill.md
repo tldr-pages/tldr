@@ -3,11 +3,11 @@
 > Perform various DNS queries.
 > More information: <https://manned.org/drill>.
 
-- Lookup the IP(s) associated with a hostname (A records):
+- Look up the IP(s) associated with a hostname (A records):
 
 `drill {{example.com}}`
 
-- Lookup the mail server(s) associated with a given domain name (MX record):
+- Look up the mail server(s) associated with a given domain name (MX record):
 
 `drill mx {{example.com}}`
 

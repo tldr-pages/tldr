@@ -1,6 +1,6 @@
 # ipsumdump
 
-> Summarise TCP/IP dumps into a human and machine readable ASCII format.
+> Summarize TCP/IP dumps into a human and machine readable ASCII format.
 > More information: <https://manned.org/ipsumdump>.
 
 - Print the source and destination IP addresses of all packets in a PCAP file:

@@ -11,7 +11,7 @@
 
 `bun outdated {{package}}`
 
-- Elenca le dipendenze obsolete corrispondenti a un pattern glob:
+- Elenca le dipendenze obsolete corrispondenti a un pattern `glob`:
 
 `bun outdated "{{pattern}}"`
 

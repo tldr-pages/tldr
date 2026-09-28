@@ -21,7 +21,7 @@
 
 - Deploy the project with a specific profile:
 
-`devspace deploy {{[-p|--profile]}} {{profile-name}}`
+`devspace deploy {{[-p|--profile]}} {{profile_name}}`
 
 - Build all defined images:
 

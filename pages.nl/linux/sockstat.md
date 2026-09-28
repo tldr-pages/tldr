@@ -10,7 +10,7 @@
 
 - Toon informatie voor IPv[4]/IPv[6] sockets die [l]uisteren op specifieke [p]oorten met een specifiek p[R]otocol:
 
-`sockstat -{{4|6}} -l -R {{tcp|udp|sctp|divert}} -p {{poort1,poort2...}}`
+`sockstat -{{4|6}} -l -R {{tcp|udp|raw|unix}} -p {{poort1,poort2...}}`
 
 - Toon ook [c]onnected sockets en [u]nix-sockets:
 

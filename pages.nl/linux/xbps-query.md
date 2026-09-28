@@ -16,10 +16,10 @@
 
 `xbps-query {{[-S|--show]}} {{pakket}} --repository`
 
-- Toon alle geregistreerde pakketen in de pakket database:
+- Toon alle geregistreerde pakketten in de pakketdatabase:
 
 `xbps-query {{[-l|--list-pkgs]}}`
 
-- Toon expliciet geïnstalleerde pakketen (bijv. niet automatisch geïnstalleerd als afhankelijkheden):
+- Toon expliciet geïnstalleerde pakketten (bijv. niet automatisch geïnstalleerd als afhankelijkheden):
 
 `xbps-query {{[-m|--list-manual-pkgs]}}`

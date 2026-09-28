@@ -15,7 +15,7 @@
 
 - Test of een bestand bestaat:
 
-`test -f "{{pad/naar/bestand_of_map}}"`
+`test -f "{{pad/naar/bestand}}"`
 
 - Test of een map niet bestaat:
 

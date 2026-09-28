@@ -7,7 +7,7 @@
 
 `aws s3 rm s3://{{bucket_name}}/{{path/to/file}}`
 
-- Preview the deletion of a specific S3 object without deleting it (dry-run):
+- Simulate the deletion of a specific S3 object without deleting it:
 
 `aws s3 rm s3://{{bucket_name}}/{{path/to/file}} --dryrun`
 

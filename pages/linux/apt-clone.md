@@ -1,6 +1,6 @@
 # apt-clone
 
-> Clone/backup/restore the package state of a Debian-based system.
+> Clone/back up/restore the package state of a Debian-based system.
 > More information: <https://github.com/mvo5/apt-clone>.
 
 - Clone the package state of the current system into a specified directory:

@@ -1,6 +1,6 @@
 # shutdown
 
-> Een tool om een machine af te sluiten, her op te starten of af te melden.
+> Een tool om een machine af te sluiten, te herstarten of af te melden.
 > Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/shutdown>.
 
 - Sluit de huidige machine af:
@@ -25,9 +25,9 @@
 
 - Zet een timer in aantal seconden voor het afsluiten van de huidige machine:
 
-`shutdown /s /t {{seconden}}`
+`shutdown /s /t {{8}}`
 
-- Breek een afsluit sequentie af vooraleer de timer was afgelopen:
+- Breek een afsluitsequentie af voordat de timer is afgelopen:
 
 `shutdown /a`
 

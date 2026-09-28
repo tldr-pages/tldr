@@ -6,4 +6,4 @@
 
 - Open een bestand:
 
-`view {{bestand}}`
+`view {{pad/naar/bestand}}`

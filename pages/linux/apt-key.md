@@ -1,7 +1,7 @@
 # apt-key
 
 > Key management utility for the APT Package Manager on Debian and Ubuntu.
-> Note: `apt-key` is now deprecated (except for the use of `apt-key del` in maintainer scripts).
+> Note: This command is deprecated (except for the use of `apt-key del` in maintainer scripts).
 > More information: <https://manned.org/apt-key>.
 
 - List trusted keys:

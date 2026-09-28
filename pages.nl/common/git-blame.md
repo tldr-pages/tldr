@@ -19,7 +19,7 @@
 
 `git blame {{commit}}~ {{pad/naar/bestand}}`
 
-- Toon een bestand met informatie over de auteur, begginend bij een gegeven regel:
+- Toon een bestand met informatie over de auteur, beginnend bij een gegeven regel:
 
 `git blame -L {{123}} {{pad/naar/bestand}}`
 

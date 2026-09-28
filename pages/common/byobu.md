@@ -2,7 +2,7 @@
 
 > Window manager and terminal multiplexer.
 > See also: `tmux`, `screen`.
-> More information: <https://www.byobu.org/documentation>.
+> More information: <https://manned.org/byobu>.
 
 - Start a new session:
 

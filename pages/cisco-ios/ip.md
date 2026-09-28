@@ -8,11 +8,11 @@
 
 `ip ssh version {{2}}`
 
-- Set the address of the device (This is done under `interface command`):
+- Set the address of the device (this is done under the `interface` command):
 
 `ip address {{10.0.0.1}} {{255.255.255.0}}`
 
-- Set the address to be determined with DHCP (This is done under `interface command`):
+- Set the address to be determined with DHCP (this is done under the `interface` command):
 
 `ip address dhcp`
 

@@ -12,7 +12,7 @@
 
 `deno init sample && cd sample && deno test`
 
-- Run a file securely. It will ask (if needed) to allow net, read, etc:
+- Run a file securely. It will ask (if needed) to allow net, read, etc.:
 
 `deno run {{path/to/file.ts}}`
 

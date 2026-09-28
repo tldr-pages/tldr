@@ -27,6 +27,6 @@
 
 `npm {{[c|config]}} edit`
 
-- Intentar reparar elementos de configuración no válidos:
+- Intenta reparar elementos de configuración no válidos:
 
 `npm {{[c|config]}} fix`

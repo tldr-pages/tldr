@@ -1,7 +1,7 @@
 # cal
 
 > Toon een kalender met de huidige dag gemarkeerd.
-> Meer informatie: <https://man.freebsd.org/cgi/man.cgi?cal>.
+> Meer informatie: <https://man.freebsd.org/cgi/man.cgi?query=cal>.
 
 - Toon een kalender voor de huidige maand:
 

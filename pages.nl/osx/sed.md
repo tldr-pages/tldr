@@ -1,6 +1,6 @@
 # sed
 
-> Pas tekst aan in een op een scriptbare manier.
+> Pas tekst aan op een scriptbare manier.
 > Zie ook: `awk`, `ed`.
 > Meer informatie: <https://keith.github.io/xcode-man-pages/sed.1.html>.
 

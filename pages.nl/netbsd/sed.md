@@ -1,6 +1,6 @@
 # sed
 
-> Pas tekst aan in een op een scriptbare manier.
+> Pas tekst aan op een scriptbare manier.
 > Zie ook: `awk`, `ed`.
 > Meer informatie: <https://man.netbsd.org/sed.1>.
 
@@ -14,11 +14,11 @@
 
 - Vertraag het openen van elk bestand tot een commando met de gerelateerde `w`-functie of vlag wordt toegepast op een regel invoer:
 
-`{{commando}} | sed -fa {{pad/naar/script.sed}}`
+`{{commando}} | sed -af {{pad/naar/script.sed}}`
 
 - Zet [g]NU `regex` extensie aan:
 
-`{{commando}} | sed -fg {{pad/naar/script.sed}}`
+`{{commando}} | sed -gf {{pad/naar/script.sed}}`
 
 - Vervang alle `apple` (uitgebreide `regex`) met `APPLE` (uitgebreide `regex`) in alle invoerregels en toon het resultaat in `stdout`:
 

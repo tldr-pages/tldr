@@ -15,7 +15,7 @@
 
 `html5validator --show-warnings {{jalan/menuju/berkas}}`
 
-- Lakukan proses validasi terhadap kumpulan berkas yang memenuhi glob kriteria nama berkas:
+- Lakukan proses validasi terhadap kumpulan berkas yang memenuhi `glob` kriteria nama berkas:
 
 `html5validator --root {{jalan/menuju/direktori}} --match "{{*.html *.php}}"`
 

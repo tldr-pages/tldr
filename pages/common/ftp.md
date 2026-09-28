@@ -11,7 +11,7 @@
 
 `ftp {{ip_address}} {{port}}`
 
-- [Interactive] Switch to binary transfer mode (graphics, compressed files, etc):
+- [Interactive] Switch to binary transfer mode (graphics, compressed files, etc.):
 
 `binary`
 

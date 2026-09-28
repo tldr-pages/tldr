@@ -26,7 +26,7 @@
 
 - Maak verbinding met een niet-standaard SMB-poort:
 
-`smbclient.py -port {{port}} {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}@{{doel}}`
+`smbclient.py -port {{poort}} {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}@{{doel}}`
 
 - Voer opdrachten uit vanuit een invoerbestand in de SMB-shell:
 
