@@ -29,7 +29,7 @@
 
 - Afficher les événements du démon Docker en temps réel avec un format JSON :
 
-`docker system events {{[-f|--filter]}} 'type=container' --format '{{json .}}'`
+`docker system events {{[-f|--filter]}} 'type=container' --format '\{\{json .\}\}'`
 
 - Afficher les informations sur le système Docker :
 
