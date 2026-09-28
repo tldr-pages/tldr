@@ -1,6 +1,6 @@
 # hub issue
 
-> Manage Github issues.
+> Manage GitHub issues.
 > More information: <https://hub.github.com/hub-issue.1.html>.
 
 - List the last 10 issues with the `bug` label:
@@ -11,6 +11,6 @@
 
 `hub issue show {{issue_number}}`
 
-- List 10 closed issues assigneed to a specific user:
+- List 10 closed issues assigned to a specific user:
 
 `hub issue {{[-s|--state]}} {{closed}} {{[-a|--assignee]}} {{username}} --limit {{10}}`

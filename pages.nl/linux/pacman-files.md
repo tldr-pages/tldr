@@ -1,7 +1,7 @@
 # pacman --files
 
-> Arch Linux pakketbeheer hulpprogramma.
-> Zie ook: `pacman`, `pkgfile`.
+> Raadpleeg de lokale bestandendatabase.
+> Zie ook: `pkgfile`.
 > Meer informatie: <https://manned.org/pacman.8>.
 
 - Werk de pakketdatabase bij:

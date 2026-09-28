@@ -2,7 +2,6 @@
 
 > Operate on the Arch Linux package database.
 > Modify certain attributes of the installed packages.
-> See also: `pacman`.
 > More information: <https://manned.org/pacman.8>.
 
 - Mark a package as implicitly installed:

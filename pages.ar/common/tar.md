@@ -18,11 +18,11 @@
 
 - فك ضغط ملف أرشيف مضغوط في المجلد الحالي:
 
-`tar xvf {{path/to/source.tar[.gz|.bz2|.xz]}}`
+`tar xvf {{path/to/source.tar.ext}}`
 
 - فك ضغط ملف أرشيف مضغوط في مجلد محدد:
 
-`tar xf {{path/to/source.tar[.gz|.bz2|.xz]}} {{[-C|--directory]}} {{path/to/directory}}`
+`tar xf {{path/to/source.tar.ext}} {{[-C|--directory]}} {{path/to/directory}}`
 
 - إنشاء أرشيف مضغوط وكتابته إلى ملف، مع تحديد خوارزمية الضغط تلقائيًا بناءً على امتداد الملف:
 

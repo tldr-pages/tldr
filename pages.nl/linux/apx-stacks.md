@@ -1,14 +1,14 @@
 # apx stacks
 
 > Beheer stacks in `apx`.
-> Opmerking: door gebruikers gecreëerde pakketbeheerconfiguraties worden opgeslagen in `~/.local/share/apx/pkgmanagers`.
+> Opmerking: door gebruikers gecreëerde stackconfiguraties worden opgeslagen in `~/.local/share/apx/stacks`.
 > Meer informatie: <https://docs.vanillaos.org/docs/en/apx-manpage#stacks>.
 
 - Maak interactief een nieuwe stack configuratie:
 
 `apx stacks new`
 
-- Update interactief een nieuwe stack configuratie:
+- Update interactief een stack configuratie:
 
 `apx stacks update {{naam}}`
 

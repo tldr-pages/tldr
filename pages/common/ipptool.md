@@ -6,7 +6,7 @@
 
 - Get all attributes and their values supported by a printer:
 
-`ipptool ipp://{{printer_uri}} get-completed-jobs.test`
+`ipptool ipp://{{printer_uri}} get-printer-attributes.test`
 
 - Get the list of completed jobs of a printer:
 

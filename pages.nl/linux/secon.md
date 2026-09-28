@@ -10,15 +10,15 @@
 
 - Krijg de huidige beveiligingscontext van een proces:
 
-`secon --pid {{1}}`
+`secon {{[-p|--pid]}} {{1}}`
 
 - Krijg de huidige beveiligingscontext van een bestand, waarbij alle tussenliggende symlinks worden opgelost:
 
-`secon --file {{pad/naar/bestand_of_map}}`
+`secon {{[-f|--file]}} {{pad/naar/bestand_of_map}}`
 
 - Krijg de huidige beveiligingscontext van een symlink zelf (d.w.z. niet oplossen):
 
-`secon --link {{pad/naar/symlink}}`
+`secon {{[-L|--link]}} {{pad/naar/symlink}}`
 
 - Parse en leg een contextspecificatie uit:
 

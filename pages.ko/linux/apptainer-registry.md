@@ -8,7 +8,7 @@
 
 `apptainer registry list`
 
-- 사용자 이름으로 레지스트리에 로그인 (password will be prompted):
+- 사용자 이름으로 레지스트리에 로그인 (비밀번호 입력 요청 표시):
 
 `apptainer registry login {{[-u|--username]}} {{사용자명}} docker://{{레지스트리}}`
 

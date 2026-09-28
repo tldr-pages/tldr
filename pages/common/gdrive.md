@@ -6,16 +6,16 @@
 
 - Upload a local path to the parent folder with the specified ID:
 
-`gdrive upload {{[-p|--parent]}} {{id}} {{path/to/file_or_folder}}`
+`gdrive upload {{[-p|--parent]}} {{folder_id}} {{path/to/file_or_folder}}`
 
 - Download file or directory by ID to current directory:
 
-`gdrive download {{id}}`
+`gdrive download {{file_or_directory_id}}`
 
 - Download to a given local path by its ID:
 
-`gdrive download --path {{path/to/folder}} {{id}}`
+`gdrive download --path {{path/to/folder}} {{file_or_directory_id}}`
 
 - Create a new revision of an ID using a given file or folder:
 
-`gdrive update {{id}} {{path/to/file_or_folder}}`
+`gdrive update {{file_or_folder_id}} {{path/to/file_or_folder}}`

@@ -1,6 +1,6 @@
 # treetime
 
-> TreeTime provides routines for ancestral sequence reconstruction and inference of molecular-clock phylogenies.
+> Provides routines for ancestral sequence reconstruction and inference of molecular-clock phylogenies.
 > More information: <https://treetime.readthedocs.io/en/latest/tutorials.html>.
 
 - Infer ancestral sequences maximizing the joint or marginal likelihood:

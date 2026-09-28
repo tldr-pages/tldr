@@ -1,7 +1,6 @@
 # semanage port
 
 > Beheer persistente SELinux-poortdefinities.
-> Zie ook: `semanage`.
 > Meer informatie: <https://manned.org/semanage-port>.
 
 - Toon alle poortlabelregels:

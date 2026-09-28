@@ -1,6 +1,6 @@
 # bat
 
-> Bestanden tonen en samenvoegen.
+> Toon en voeg bestanden samen.
 > Een `cat` kopie met syntax highlighting en Git integratie.
 > Zie ook: `cat`.
 > Meer informatie: <https://manned.org/bat>.

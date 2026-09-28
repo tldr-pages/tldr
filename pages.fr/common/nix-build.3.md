@@ -12,9 +12,9 @@
 
 `nix build {{[-L|--print-build-logs]}} {{.#pkg}}`
 
-- Construit le paquet par défaut d'un flake depuis un dossier quelconque :
+- Construit le paquet par défaut d'un flake depuis un répertoire quelconque :
 
-`nix build {{chemin/vers/dossier}}`
+`nix build {{chemin/vers/répertoire}}`
 
 - Construit un paquet sans lier symboliquement le résultat, mais affiche le chemin de stockage dans le `stdout` :
 

@@ -11,7 +11,7 @@
 
 `bun outdated {{package}}`
 
-- List outdated dependencies matching a glob pattern:
+- List outdated dependencies matching a `glob` pattern:
 
 `bun outdated "{{pattern}}"`
 

@@ -1,6 +1,7 @@
 # aws s3
 
 > CLI pour AWS S3 - fournis du stockage à travers les services web.
+> Certaines sous-commandes, telles que `cp`, disposent de leur propre documentation d'utilisation.
 > Plus d'informations : <https://docs.aws.amazon.com/cli/latest/reference/s3/>.
 
 - Affiche les fichiers d'un bucket :

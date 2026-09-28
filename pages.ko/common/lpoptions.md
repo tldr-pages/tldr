@@ -1,12 +1,12 @@
 # lpoptions
 
 > 프린터 옵션 및 기본값 표시 또는 설정.
-> 관련 항목: `lpadmin`.
+> 관련 항목: `lpadmin`, `lp`, `lpstat`.
 > 더 많은 정보: <https://openprinting.github.io/cups/doc/man-lpoptions.html>.
 
 - 기본 프린터 설정:
 
-`lpoptions -d {{프린터[/인스턴스]}}`
+`lpoptions -d {{프린터}}/{{인스턴스}}`
 
 - 특정 프린터의 프린터 전용 옵션 나열:
 

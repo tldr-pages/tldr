@@ -2,7 +2,6 @@
 
 > Stop a guest machine and destroy all its resources.
 > Any boxes installed are kept intact.
-> See also: `vagrant`.
 > More information: <https://developer.hashicorp.com/vagrant/docs/cli/destroy>.
 
 - Destroy the currently running machine:

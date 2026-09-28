@@ -8,7 +8,7 @@
 
 `ykman info`
 
-- Toon alle verbonden YubiKeys met een korte, een-regel beschrijving (inclusief het serienummer):
+- Toon alle verbonden YubiKeys met korte, eenregelige beschrijvingen (inclusief het serienummer):
 
 `ykman list`
 

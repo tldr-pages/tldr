@@ -1,6 +1,6 @@
 # ruget
 
-> Alternative to wget written in Rust.
+> Alternative to `wget` written in Rust.
 > More information: <https://github.com/ksk001100/ruget>.
 
 - Download the contents of a URL to a file:

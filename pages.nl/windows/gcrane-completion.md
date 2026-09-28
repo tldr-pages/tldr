@@ -16,10 +16,6 @@
 
 `gcrane completion powershell | Out-String | Invoke-Expression`
 
-- Laad completions voor elke nieuwe sessie (powershell):
-
-`gcrane completion powershell | Out-String | Invoke-Expression`
-
 - Toon de help:
 
 `gcrane completion {{shell_naam}} {{[-h|--help]}}`

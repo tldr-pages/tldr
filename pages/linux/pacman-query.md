@@ -1,7 +1,6 @@
 # pacman --query
 
 > Query the local package database.
-> See also: `pacman`.
 > More information: <https://manned.org/pacman.8>.
 
 - [Q]uery the local package database and list installed packages and versions:

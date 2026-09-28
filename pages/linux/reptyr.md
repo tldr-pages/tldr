@@ -6,7 +6,7 @@
 
 - Move a running process to your current terminal:
 
-`reptyr {{pid}}`
+`reptyr {{process_id}}`
 
 - Attach to a process using its name:
 

@@ -1,6 +1,6 @@
 # jj describe
 
-> Update the change description or other metadata.
+> 변경 내용 설명 또는 기타 메타데이터를 업데이트.
 > 더 많은 정보: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-describe>.
 
 - 현재 변경에 대한 설명 업데이트:

@@ -16,10 +16,6 @@
 
 `gcrane completion powershell | Out-String | Invoke-Expression`
 
-- Load completions for every new session (PowerShell):
-
-`gcrane completion powershell | Out-String | Invoke-Expression`
-
 - Display help:
 
 `gcrane completion {{shell_name}} {{[-h|--help]}}`

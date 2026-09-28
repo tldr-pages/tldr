@@ -25,8 +25,8 @@
 
 - Display specific fields for a specific process:
 
-`wmic process where processid={{pid}} get {{name,commandline}}`
+`wmic process where processid={{process_id}} get {{name,commandline}}`
 
 - Kill a process:
 
-`wmic process {{pid}} delete`
+`wmic process {{process_id}} delete`

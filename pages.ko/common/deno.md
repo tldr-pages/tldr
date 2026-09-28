@@ -18,7 +18,7 @@
 
 - 명시적인 권한을 지정하거나 모든 권한을 허용하여 실행 (신뢰할 수 있는 경우에만 사용):
 
-`deno run {{[--allow-env|--allow-net|--allow-write|--allow-all]}} {{jsr:@deno/deployctl}}`
+`deno run {{--allow-env|--allow-net|--allow-write|--allow-all}} {{jsr:@deno/deployctl}}`
 
 - `deno.json`의 작업 또는 `package.json`의 스크립트를 목록으로 표시하고 실행:
 

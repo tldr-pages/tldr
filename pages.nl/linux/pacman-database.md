@@ -1,8 +1,7 @@
 # pacman --database
 
-> Werk op de database van het Arch Linux pakket.
+> Werk op de pakketdatabase van Arch Linux.
 > Wijzig bepaalde attributen van de geïnstalleerde pakketten.
-> Zie ook: `pacman`.
 > Meer informatie: <https://manned.org/pacman.8>.
 
 - Markeer een pakket als impliciet geïnstalleerd:

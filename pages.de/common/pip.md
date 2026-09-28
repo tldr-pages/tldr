@@ -1,6 +1,6 @@
 # pip
 
-> Python package manager.
+> Python-Paketmanager.
 > Einige Unterbefehle wie `pip install` sind separat dokumentiert.
 > Weitere Informationen: <https://pip.pypa.io/en/stable/cli/pip/>.
 

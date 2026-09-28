@@ -12,7 +12,7 @@
 
 `whatis {{[-l|--long]}} {{command}}`
 
-- Display descriptions for all commands matching a glob:
+- Display descriptions for all commands matching a `glob`:
 
 `whatis {{[-w|--wildcard]}} {{net*}}`
 

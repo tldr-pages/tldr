@@ -11,7 +11,7 @@
 
 `python {{pad/naar/bestand.py}}`
 
-- Voer een specfiek Python bestand uit en start een REPL:
+- Voer een specifiek Python bestand uit en start een REPL:
 
 `python -i {{pad/naar/bestand.py}}`
 
@@ -19,7 +19,7 @@
 
 `python -c "{{expressie}}"`
 
-- Voer het script uit van een gespecificeerd bibliotheek module:
+- Voer het script uit van de gespecificeerde bibliotheekmodule:
 
 `python -m {{module}} {{argumenten}}`
 

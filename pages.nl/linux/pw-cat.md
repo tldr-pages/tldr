@@ -1,6 +1,6 @@
 # pw-cat
 
-> Speel en neem audio-bestanden op via PipeWrite.
+> Speel en neem audio-bestanden op via PipeWire.
 > Zie ook: `wpctl`, `pw-cli`.
 > Meer informatie: <https://docs.pipewire.org/page_man_pw-cat_1.html>.
 
@@ -16,7 +16,7 @@
 
 `pw-cat {{[-pd|--playback --dsd]}} {{pad/naar/bestand.dsf}}`
 
-- Speel een gecomprimeerde audiobestand af met passthrough (vereist FFmpeg-integratie):
+- Speel een gecomprimeerd audiobestand af met passthrough (vereist FFmpeg-integratie):
 
 `pw-cat {{[-po|--playback --encoded]}} {{pad/naar/bestand.ac3}}`
 

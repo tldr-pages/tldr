@@ -1,6 +1,6 @@
 # rails
 
-> Sebuah _framework_ MVC yang ditulis dalam Ruby.
+> Sebuah framework MVC yang ditulis dalam Ruby.
 > Beberapa subperintah seperti `rails generate` mempunyai dokumentasi terpisah.
 > Informasi lebih lanjut: <https://guides.rubyonrails.org/command_line.html>.
 
@@ -16,7 +16,7 @@
 
 `rails server -p "{{port}}"`
 
-- Membuka konsol untuk berinteraksi dengan aplikasinya dari _command-line_:
+- Membuka konsol untuk berinteraksi dengan aplikasinya dari command-line:
 
 `rails console`
 

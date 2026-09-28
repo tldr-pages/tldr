@@ -1,6 +1,6 @@
 # vso
 
-> Package manager, system updater and a task automator for Vanilla OS.
+> Package manager, system updater, and a task automator for Vanilla OS.
 > More information: <https://github.com/Vanilla-OS/vanilla-system-operator>.
 
 - Check for system updates to the host system:

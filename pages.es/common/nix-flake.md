@@ -15,10 +15,10 @@
 
 `nix flake update {{entrada}}`
 
-- Muestra todas the salidas de un flake en github:
+- Muestra todas las salidas de un flake en github:
 
 `nix flake show {{github:dueño/repositorio}}`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `nix flake --help`

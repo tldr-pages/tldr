@@ -1,7 +1,6 @@
 # gcloud compute
 
 > Create, run, and manage VMs on Google Cloud infrastructure.
-> See also: `gcloud`.
 > More information: <https://docs.cloud.google.com/sdk/gcloud/reference/compute>.
 
 - List Compute Engine zones:

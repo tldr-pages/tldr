@@ -16,11 +16,11 @@
 
 `sudo launchctl load /Library/LaunchDaemons/{{system_daemon}}.plist`
 
-- Toon alle geladen agenten/daemons, met de PID als het proces dat ze specificeren momenteel actief is, en de afsluitcode de laatste keer dat ze werden uitgevoerd terugstuurde:
+- Toon alle geladen agenten/daemons, met de PID als het proces dat ze specificeren momenteel actief is, en de afsluitcode die de laatste keer dat ze werden uitgevoerd is teruggegeven:
 
 `launchctl list`
 
-- Een momenteel geladen agent ontladen, b.v. om wijzigingen aan te brengen (Let op: het plist-bestand wordt automatisch in `launchd` geladen na een herstart en/of inloggen):
+- Ontlaad een momenteel geladen agent, b.v. om wijzigingen aan te brengen (Let op: het plist-bestand wordt automatisch in `launchd` geladen na een herstart en/of inloggen):
 
 `launchctl unload ~/Library/LaunchAgents/{{my_script}}.plist`
 

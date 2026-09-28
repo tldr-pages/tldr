@@ -1,6 +1,6 @@
 # retroarch
 
-> A frontend for emulators, game engines and media players.
+> A frontend for emulators, game engines, and media players.
 > The reference implementation of the libretro API.
 > More information: <https://manned.org/retroarch>.
 

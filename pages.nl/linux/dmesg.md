@@ -8,7 +8,7 @@
 
 `sudo dmesg`
 
-- Toon kernelberichten in een leesbare formaat (gelijk aan `dmesg --color --reltime` doorgestuurd naar een pager):
+- Toon kernelberichten in een leesbaar formaat (gelijk aan `dmesg --color --reltime` doorgestuurd naar een pager):
 
 `sudo dmesg {{[-H|--human]}}`
 
@@ -16,7 +16,7 @@
 
 `sudo dmesg {{[-l|--level]}} err`
 
-- Toon kernelberichten en blijf nieuwe lezen, vergelijkbaar met `tail -f`:
+- Toon kernelberichten en blijf nieuwe lezen, vergelijkbaar met `tail --follow`:
 
 `sudo dmesg {{[-w|--follow]}}`
 

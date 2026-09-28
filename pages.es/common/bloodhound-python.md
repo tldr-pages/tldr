@@ -17,7 +17,7 @@
 
 - Especifica un servidor de nombres personalizado para consultas DNS:
 
-`bloodhound-python --collectionmethod {{Todos}}} --username {{nombre_de_usuario}} --password {{contraseña}} --domain {{dominio}} --nameserver {{nombre_de_servidor}}`
+`bloodhound-python --collectionmethod {{Todos}} --username {{nombre_de_usuario}} --password {{contraseña}} --domain {{dominio}} --nameserver {{nombre_de_servidor}}`
 
 - Guarde los archivos de salida como un archivo ZIP comprimido:
 

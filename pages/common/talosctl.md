@@ -2,11 +2,11 @@
 
 > Interact with Talos Linux, a minimal and immutable Kubernetes distribution.
 > See also: `kubectl`.
-> More information: <https://docs.siderolabs.com/talos/v1.11/reference/cli>.
+> More information: <https://docs.siderolabs.com/talos/latest/reference/cli>.
 
 - Apply a config to a fresh node:
 
-`talosctl apply-config {{[-i|--insecture]}} {{[-n|--nodes]}} {{control_plane_ip}} {{[-f|--file]}} {{path/to/control_plane.yaml}}`
+`talosctl apply-config {{[-i|--insecure]}} {{[-n|--nodes]}} {{control_plane_ip}} {{[-f|--file]}} {{path/to/control_plane.yaml}}`
 
 - Bootstrap the `etcd` cluster on a node:
 

@@ -7,11 +7,11 @@
 
 `phploc {{path/to/directory}}`
 
-- Include only specific files from a comma-separated list (globs are allowed):
+- Include only specific files from a comma-separated list (`glob`s are allowed):
 
 `phploc {{path/to/directory}} --names '{{path/to/file1,path/to/file2,...}}'`
 
-- Exclude specific files from a comma-separated list (globs are allowed):
+- Exclude specific files from a comma-separated list (`glob`s are allowed):
 
 `phploc {{path/to/directory}} --names-exclude '{{path/to/file1,path/to/file2,...}}'`
 

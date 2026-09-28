@@ -19,6 +19,6 @@
 
 `pdfgrep {{[-r|--recursive]}} {{pattern}}`
 
-- Find pattern on files that match a specific glob in the current directory recursively:
+- Find pattern on files that match a specific `glob` in the current directory recursively:
 
 `pdfgrep {{[-r|--recursive]}} --include '{{*book.pdf}}' {{pattern}}`

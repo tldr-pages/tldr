@@ -1,7 +1,7 @@
 # gomoku
 
 > Play the classic 5-in-a-row strategy board game.
-> More information: <https://manned.org/man/gomoku>.
+> More information: <https://manned.org/gomoku>.
 
 - Start the game:
 

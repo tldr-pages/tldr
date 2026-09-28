@@ -19,11 +19,11 @@
 
 `ftp -s:{{ruta\al\archivo}} {{host}}`
 
-- Descarga múltiples archivos (expresión glob):
+- Descarga múltiples archivos (expresión `glob`):
 
 `mget {{*.png}}`
 
-- Sube múltiples archivos (expresión glob):
+- Sube múltiples archivos (expresión `glob`):
 
 `mput {{*.zip}}`
 

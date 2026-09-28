@@ -18,4 +18,4 @@
 
 - Restore a specific item from trash using its ID:
 
-`gio trash trash://{{id}}`
+`gio trash trash://{{item_id}}`

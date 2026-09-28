@@ -1,7 +1,7 @@
 # xcodes
 
 > Download, install, and manage multiple Xcode versions.
-> See also: `xcodes runtimes`.
+> Some subcommands such as `runtimes` have their own usage documentation.
 > More information: <https://github.com/xcodesorg/xcodes#commands>.
 
 - List all installed Xcode versions:

@@ -1,6 +1,6 @@
 # dnstracer
 
-> The dnstracer command determines where a DNS gets its information from.
+> Determines where a DNS gets its information from.
 > More information: <https://manned.org/dnstracer>.
 
 - Find out where your local DNS got the information on www.example.com:

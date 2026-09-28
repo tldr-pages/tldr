@@ -1,7 +1,6 @@
 # pkgctl repo
 
 > Manage Git packaging repositories and their configuration for Arch Linux.
-> See also: `pkgctl`.
 > More information: <https://manned.org/pkgctl-repo>.
 
 - Clone a package repository (requires setting an SSH key in your Arch Linux GitLab account):

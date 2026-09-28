@@ -2,7 +2,6 @@
 
 > Beheer DNF-configuratie-opties en repositories op Fedora-gebaseerde systemen.
 > Niet standaard voor `dnf` maar ondersteund via `dnf-plugins-core`.
-> Zie ook: `dnf`.
 > Meer informatie: <https://dnf-plugins-core.readthedocs.io/en/latest/config_manager.html>.
 
 - Voeg een repository toe (en schakel deze in) vanaf een URL:

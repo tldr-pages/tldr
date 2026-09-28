@@ -1,7 +1,6 @@
 # linode-cli events
 
 > Manage Linode events.
-> See also: `linode-cli`.
 > More information: <https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-viewing-events>.
 
 - List the events on your account:

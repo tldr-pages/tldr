@@ -21,7 +21,7 @@
 
 - Attach to a running process and begin debugging:
 
-`dlv attach {{pid}}`
+`dlv attach {{process_id}}`
 
 - Compile and begin tracing a program:
 

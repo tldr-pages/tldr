@@ -7,7 +7,7 @@
 
 `sha1sum {{ruta/al/archivo1 ruta/al/archivo2 ...}}`
 
-- Calcula y guardar la lista de sumas de comprobación SHA1 en un archivo:
+- Calcula y guarda la lista de sumas de comprobación SHA1 en un archivo:
 
 `sha1sum {{ruta/al/archivo1 ruta/al/archivo2 ...}} > {{ruta/al/archivo.sha1}}`
 

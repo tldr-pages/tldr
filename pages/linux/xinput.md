@@ -1,6 +1,6 @@
 # xinput
 
-> List available input devices, query information about a device and change input device settings.
+> List available input devices, query information about a device, and change input device settings.
 > More information: <https://manned.org/xinput>.
 
 - List all input devices:
@@ -9,24 +9,24 @@
 
 - Disable an input:
 
-`xinput disable {{id}}`
+`xinput disable {{device_id}}`
 
 - Enable an input:
 
-`xinput enable {{id}}`
+`xinput enable {{device_id}}`
 
 - Disconnect an input from its master:
 
-`xinput float {{id}}`
+`xinput float {{device_id}}`
 
 - Reattach an input as slave to a master:
 
-`xinput reattach {{id}} {{master_id}}`
+`xinput reattach {{device_id}} {{master_id}}`
 
 - List settings of an input device:
 
-`xinput list-props {{id}}`
+`xinput list-props {{device_id}}`
 
 - Change a setting of an input device:
 
-`xinput set-prop {{id}} {{setting_id}} {{value}}`
+`xinput set-prop {{device_id}} {{setting_id}} {{value}}`

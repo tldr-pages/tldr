@@ -1,6 +1,6 @@
 # bun pm pkg
 
-> `get`, `set`, `delete`, `fix` 작업을 통해 package.json 데이터를 관리.
+> `get`, `set`, `delete`, `fix` 작업을 통해 `package.json` 데이터를 관리.
 > 더 많은 정보: <https://bun.com/docs/pm/cli/pm#pkg>.
 
 - `package.json`의 모든 속성 조회:

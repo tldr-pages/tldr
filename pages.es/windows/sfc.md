@@ -3,10 +3,6 @@
 > Escanea la integridad de los archivos del sistema de Windows.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/sfc>.
 
-- Muestra información sobre el uso del comando:
-
-`sfc`
-
 - Escanea todos los archivos del sistema y, si es posible, reparar cualquier problema:
 
 `sfc /scannow`
@@ -30,3 +26,7 @@
 - Al reparar sin conexión, especificar el directorio de Windows:
 
 `sfc /offwindir={{ruta\al\directorio}}`
+
+- Muestra información sobre el uso del comando:
+
+`sfc`

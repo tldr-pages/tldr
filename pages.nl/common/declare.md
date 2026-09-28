@@ -19,7 +19,7 @@
 
 `declare -A {{variabele}}=({{[sleutel_a]=item_a [sleutel_b]=item_b [sleutel_c]=item_c}})`
 
-- Declareer a readonly string variabele met de gespecificeerde waarde:
+- Declareer een alleen-lezen string variabele met de gespecificeerde waarde:
 
 `declare -r {{variabele}}="{{waarde}}"`
 

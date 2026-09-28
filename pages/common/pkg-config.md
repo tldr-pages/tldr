@@ -15,6 +15,6 @@
 
 `pkg-config --modversion {{module1 module2 ...}}`
 
-- Compile your code with libgtk-3, libwebkit2gtk-4.0 and all their dependencies:
+- Compile your code with libgtk-3, libwebkit2gtk-4.0, and all their dependencies:
 
 `c++ example.cpp $(pkg-config --cflags --libs gtk+-3.0 webkit2gtk-4.0) -o example`

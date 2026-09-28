@@ -11,7 +11,7 @@
 
 `readarray < {{path/to/file.txt}} {{array_name}}`
 
-- Remove [t]railing deliminators (newline by default):
+- Remove [t]railing delimiters (newline by default):
 
 `readarray < {{path/to/file.txt}} -t {{array_name}}`
 

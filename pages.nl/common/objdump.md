@@ -1,6 +1,6 @@
 # objdump
 
-> Bekijk informatie over object bestanden.
+> Bekijk informatie over objectbestanden.
 > Meer informatie: <https://manned.org/objdump>.
 
 - Toon de bestand header informatie:

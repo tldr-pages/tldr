@@ -3,7 +3,7 @@
 > Un générateur de site statique à partir d'un unique binaire sans dépendance.
 > Plus d'informations : <https://www.getzola.org/documentation/getting-started/cli-usage/>.
 
-- Créer la structure du répertoire utilisé par Zola dans un répertoire donné :
+- Crée la structure du répertoire utilisé par Zola dans un répertoire donné :
 
 `zola init {{mon_site}}`
 
@@ -13,7 +13,7 @@
 
 - Construit la totalité du site dans un répertoire différent :
 
-`zola build --output-dir {{chemin/du/répertoire_de_sortie}}/`
+`zola build --output-dir {{chemin/du/repertoire_de_sortie}}/`
 
 - Construit et met à disposition le site à partir d'un serveur local (l'adresse par défaut est `127.0.0.1:1111`) :
 

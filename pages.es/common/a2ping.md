@@ -27,6 +27,6 @@
 
 `a2ping --extra {{argumentos}} {{ruta/al/archivo}}`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `a2ping {{[-h|--help]}}`

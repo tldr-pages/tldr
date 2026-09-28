@@ -7,7 +7,7 @@
 
 `sudo btrfs {{[rest|restore]}} {{path/to/btrfs_device}} {{path/to/target_directory}}`
 
-- List (don't write) files to be restored from a btrfs filesystem:
+- Simulate a restore, listing the files that would be restored from a btrfs filesystem:
 
 `sudo btrfs {{[rest|restore]}} {{[-D|--dry-run]}} {{path/to/btrfs_device}} {{path/to/target_directory}}`
 

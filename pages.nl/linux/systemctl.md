@@ -30,7 +30,7 @@
 
 - Toon alle service/socket/automount eenheden, waarbij wordt gefilterd op de actief/gefaald status:
 
-`systemctl list-units {{[-t|--type]}} {{service|socket|automount}} --state {{failed|running}}`
+`systemctl list-units {{[-t|--type]}} {{service|socket|automount|...}} --state {{failed|running}}`
 
 - Toon of bewerk de inhoud en het absolute pad van een eenheidsbestand:
 

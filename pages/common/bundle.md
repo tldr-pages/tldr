@@ -13,7 +13,7 @@
 
 - Update all gems by the rules defined in the `Gemfile` and regenerate `Gemfile.lock`:
 
-`bundle update`
+`bundle update --all`
 
 - Update one or more specific gem(s) defined in the `Gemfile`:
 

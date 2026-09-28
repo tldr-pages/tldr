@@ -11,7 +11,7 @@
 
 `sfdk undeploy --{{method}} {{[-n|--dry-run]}}`
 
-- Undeploy files in glob pattern `package*`:
+- Undeploy files in `glob` pattern `package*`:
 
 `sfdk undeploy --{{method}} "+package*"`
 

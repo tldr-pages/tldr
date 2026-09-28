@@ -1,7 +1,6 @@
 # odpscmd inst
 
 > Manage instances in ODPS (Open Data Processing Service).
-> See also: `odpscmd`.
 > More information: <https://www.alibabacloud.com/help/en/maxcompute/user-guide/maxcompute-client>.
 
 - [Interactive] Show instances created by current user:

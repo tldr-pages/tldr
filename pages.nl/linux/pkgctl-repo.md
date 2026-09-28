@@ -1,7 +1,6 @@
 # pkgctl repo
 
 > Beheer Git verpakkingsrepositories en hun configuratie voor Arch Linux.
-> Zie ook: `pkgctl`.
 > Meer informatie: <https://manned.org/pkgctl-repo>.
 
 - Kloon een pakketrepository (vereist het instellen van een SSH-key in uw Arch Linux GitLab-account):
@@ -12,7 +11,7 @@
 
 `pkgctl repo clone --protocol https {{pkgname}}`
 
-- Maak een nieuwe GitLab pakketrepository en kloon het na het aanmaken (vereist valide GitLab API authenticatie):
+- Maak een nieuwe GitLab pakketrepository en kloon deze na het aanmaken (vereist geldige GitLab API authenticatie):
 
 `pkgctl repo create {{pkgbase}}`
 
@@ -20,6 +19,6 @@
 
 `pkgctl repo switch {{versie}} {{pkgbase}}`
 
-- Open een pakketrepository's website:
+- Open de website van een pakketrepository:
 
 `pkgctl repo web {{pkgbase}}`

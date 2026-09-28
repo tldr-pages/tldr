@@ -2,7 +2,7 @@
 
 > Gestor de ventanas y multiplexor de terminales.
 > Vea también: `tmux`, `screen`.
-> Más información: <https://www.byobu.org/documentation>.
+> Más información: <https://manned.org/byobu>.
 
 - Inicia una nueva sesión:
 

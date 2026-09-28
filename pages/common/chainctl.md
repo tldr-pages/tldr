@@ -7,7 +7,7 @@
 
 `chainctl auth login`
 
-- Logout from the Chainguard Platform:
+- Log out from the Chainguard Platform:
 
 `chainctl auth logout`
 

@@ -1,6 +1,6 @@
 # iex
 
-> IEx is the interactive shell for Elixir.
+> Interactive shell for Elixir.
 > More information: <https://manned.org/iex>.
 
 - Start an interactive session:

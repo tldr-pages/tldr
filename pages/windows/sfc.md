@@ -3,10 +3,6 @@
 > Scan the integrity of Windows system files.
 > More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/sfc>.
 
-- Display information about the usage of the command:
-
-`sfc`
-
 - Scan all system files and, if possible, repair any problems:
 
 `sfc /scannow`
@@ -30,3 +26,7 @@
 - When repairing offline, specify the Windows directory:
 
 `sfc /offwindir={{path\to\directory}}`
+
+- Display help:
+
+`sfc`

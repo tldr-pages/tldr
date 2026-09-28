@@ -12,7 +12,7 @@
 
 `echo "{{Mijn pad is $PATH}}"`
 
-- Toont een bericht zonder te volgen met een nieuwe regel:
+- Toon een bericht zonder de afsluitende nieuwe regel:
 
 `echo -n "{{Hallo Wereld}}"`
 
@@ -20,9 +20,9 @@
 
 `echo "{{Hallo Wereld}}" >> {{bestand.txt}}`
 
-- Interpretatie van backslash-escapes (speciale tekens) inschakelen:
+- Schakel interpretatie van backslash-escapes (speciale tekens) in:
 
-`echo -e "{{kolom 1\kolom 2}}"`
+`echo -e "{{kolom 1\tkolom 2}}"`
 
 - Toon de afsluitstatus van de laatst uitgevoerde opdracht (Let op: in Windows Command Prompt en PowerShell zijn de equivalente opdrachten respectievelijk `echo %errorlevel%` en `$lastexitcode`):
 

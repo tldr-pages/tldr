@@ -23,7 +23,7 @@
 
 `trash-empty 10`
 
-- Verwijder alle bestanden in de prullenbak die overeenkomen met een specifiek blob-patroon:
+- Verwijder alle bestanden in de prullenbak die overeenkomen met een specifiek `glob`-patroon:
 
 `trash-rm "{{*.o}}"`
 

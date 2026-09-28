@@ -4,15 +4,15 @@
 > Certaines sous-commandes telles que `build` ont leur propre documentation d'utilisation.
 > Plus d'informations : <https://pkg.go.dev/cmd/go>.
 
-- Télécharger et installer un paquet, spécifié par son chemin d'importation :
+- Télécharge et installe un paquet, spécifié par son chemin d'importation :
 
 `go get {{chemin_du_paquet}}`
 
-- Compiler et exécuter un fichier source (il doit contenir un paquet `main`) :
+- Compile et exécute un fichier source (il doit contenir un paquet `main`) :
 
 `go run {{fichier}}.go`
 
-- Compiler un fichier source dans un exécutable nommé :
+- Compile un fichier source dans un exécutable nommé :
 
 `go build -o {{executable}} {{fichier}}.go`
 
@@ -20,14 +20,14 @@
 
 `go build`
 
-- Exécuter tous les cas de test du paquet courant (les fichiers doivent se terminer par `_test.go`) :
+- Exécute tous les cas de test du paquet courant (les fichiers doivent se terminer par `_test.go`) :
 
 `go test`
 
-- Compiler et installer le paquet actuel :
+- Compile et installe le paquet actuel :
 
 `go install`
 
-- Initialiser un nouveau module dans le répertoire courant :
+- Initialise un nouveau module dans le répertoire courant :
 
 `go mod init {{nom_du_module}}`

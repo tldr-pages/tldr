@@ -1,10 +1,9 @@
 # pacman --query
 
 > Raadpleeg de lokale pakketdatabase.
-> Zie ook: `pacman`.
 > Meer informatie: <https://manned.org/pacman.8>.
 
-- [Q]uery de lokale pakkettendatabase en toon geïnstalleerde pakketten en versies:
+- [Q]uery de lokale pakketdatabase en toon geïnstalleerde pakketten en versies:
 
 `pacman -Q`
 
@@ -28,7 +27,7 @@
 
 `pacman -Qdtq`
 
-- Toon geïnstalleerde pakketten foreign ([m]) voor de repository database:
+- Toon geïnstalleerde pakketten die vreemd ([m]) zijn aan de repository database:
 
 `pacman -Qm`
 

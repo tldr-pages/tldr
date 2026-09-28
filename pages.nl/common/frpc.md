@@ -10,7 +10,7 @@
 
 - Start de service met het nieuwere TOML-configuratiebestand:
 
-`frpc {{[-c|--config]}} {{pad/naar/frps.toml}}`
+`frpc {{[-c|--config]}} {{pad/naar/frpc.toml}}`
 
 - Start de service met een specifiek configuratiebestand:
 

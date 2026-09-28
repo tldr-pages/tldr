@@ -12,11 +12,11 @@
 
 `kiterunner scan {{https://example.com}} {{[-w|--kitebuilder-list]}} {{pad/naar/woordenlijst.kite}}`
 
-- Meerdere hosts scannen vanuit een bestand met een kitebuilder wordlist:
+- Scan meerdere hosts vanuit een bestand met een kitebuilder woordenlijst:
 
 `kiterunner scan {{pad/naar/hosts.txt}} {{[-w|--kitebuilder-list]}} {{pad/naar/woordenlijst.kite}}`
 
-- Scannen met een Assetnote woordenlijst en JSON uitvoer:
+- Scan met een Assetnote woordenlijst en JSON uitvoer:
 
 `kiterunner scan {{https://example.com}} {{[-A|--assetnote-wordlist]}} {{apiroutes-210228:5000}} -o {{json}}`
 
@@ -24,7 +24,7 @@
 
 `kiterunner scan {{https://example.com}} {{[-w|--kitebuilder-list]}} {{pad/naar/woordenlijst.kite}} {{[-x|--max-connection-per-host]}} {{5}} {{[-j|--max-parallel-hosts]}} {{100}}`
 
-- Scannen met een woordenlijst als een normale woordenlijst, waarbij het scannen op diepte wordt uitgeschakeld:
+- Scan met een woordenlijst als een normale woordenlijst, waarbij het scannen op diepte wordt uitgeschakeld:
 
 `kiterunner scan {{https://example.com}} {{[-w|--kitebuilder-list]}} {{pad/naar/rafter.txt}} {{[-d|--preflight-depth]}} {{0}}`
 

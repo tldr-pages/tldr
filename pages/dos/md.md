@@ -3,6 +3,6 @@
 > Make a directory.
 > More information: <https://www.dosbox.com/wiki/Commands#MD>.
 
-- Create directory:
+- Create a directory:
 
 `MD {{path/to/directory}}`

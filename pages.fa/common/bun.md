@@ -4,6 +4,10 @@
 > شامل یک bundler، یک ابزار تست و یک package manager.
 > اطلاعات بیشتر: <https://bun.com/docs>.
 
+- ایجاد یک پروژه جدید Bun در دایرکتوری فعلی:
+
+`bun init`
+
 - اجرای یک فایل جاوااسکریپت یا یک اسکریپت در `package.json`:
 
 `bun run {{path/to/file|script_name}}`
@@ -14,19 +18,15 @@
 
 - دانلود و نصب تمام بسته‌های ذکرشده در `package.json`:
 
-`bun install`
+`bun {{[i|install]}}`
 
 - افزودن یک وابستگی به `package.json`:
 
-`bun add {{module_name}}`
+`bun {{[a|add]}} {{module_name}}`
 
 - حذف یک وابستگی از `package.json`:
 
-`bun remove {{module_name}}`
-
-- ایجاد یک پروژه جدید Bun در دایرکتوری فعلی:
-
-`bun init`
+`bun {{[rm|remove]}} {{module_name}}`
 
 - شروع یک REPL (پوسته تعاملی):
 

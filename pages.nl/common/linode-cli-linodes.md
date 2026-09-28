@@ -1,7 +1,6 @@
 # linode-cli linodes
 
 > Beheer Linode instanties.
-> Zie ook: `linode-cli`.
 > Meer informatie: <https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-compute-instances>.
 
 - Toon alle Linodes:
@@ -18,7 +17,7 @@
 
 - Werk de instellingen bij voor een Linode:
 
-`linode-cli linodes update {{linode_id}} --label {{[new_label}}`
+`linode-cli linodes update {{linode_id}} --label {{new_label}}`
 
 - Verwijder een Linode:
 

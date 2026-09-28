@@ -18,11 +18,11 @@
 
 - E[x]traheer een (gecomprimeerd) archiefbestand ([f]) naar de huidige map [v]erbose:
 
-`tar xvf {{pad/naar/bron.tar[.gz|.bz2|.xz]}}`
+`tar xvf {{pad/naar/bron.tar.ext}}`
 
 - E[x]traheer een (gecomprimeerd) archiefbestand ([f]) naar de doelmap:
 
-`tar xf {{pad/naar/bron.tar[.gz|.bz2|.xz]}} {{[-C|--directory]}} {{pad/naar/map}}`
+`tar xf {{pad/naar/bron.tar.ext}} {{[-C|--directory]}} {{pad/naar/map}}`
 
 - [c]reëer een gecomprimeerd archief en schrijf het naar een bestand ([f]), gebruikmakend van de bestandsnaam extensie om [a]utomatisch het compressieprogramma te bepalen:
 

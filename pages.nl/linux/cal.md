@@ -7,7 +7,7 @@
 
 `cal`
 
-- Toon [3] maanden (vorige, huidige en volgende):
+- Toon 3 maanden rondom de datum:
 
 `cal {{[-3|--three]}}`
 

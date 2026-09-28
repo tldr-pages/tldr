@@ -12,7 +12,7 @@
 
 `jj tag {{[d|delete]}} {{tag1 tag2 ...}}`
 
-- Delete tags matching a glob pattern:
+- Delete tags matching a `glob` pattern:
 
 `jj tag {{[d|delete]}} "{{glob:v1.*}}"`
 

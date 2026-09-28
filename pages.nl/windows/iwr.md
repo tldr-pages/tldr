@@ -1,6 +1,6 @@
 # iwr
 
-> Dit commando is een alias van `invoke-webrequest`.
+> In PowerShell is dit commando een alias van `Invoke-WebRequest`.
 
 - Bekijk de documentatie van het originele commando:
 

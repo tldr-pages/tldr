@@ -3,7 +3,7 @@
 > Dependency manager voor de Ruby programmeertaal.
 > Meer informatie: <https://bundler.io/man/bundle.1.html>.
 
-- Installeer alle gems gedefineerd in de `Gemfile`, welke verwacht word in de huidige map:
+- Installeer alle gems gedefinieerd in de `Gemfile`, welke verwacht wordt in de huidige map:
 
 `bundle install`
 
@@ -11,15 +11,15 @@
 
 `bundle exec {{commando}} {{argumenten}}`
 
-- Update alle gems volgens de regels gedefineerd in de `Gemfile` en regenereer de `Gemfile.lock`:
+- Update alle gems volgens de regels gedefinieerd in de `Gemfile` en regenereer de `Gemfile.lock`:
 
-`bundle update`
+`bundle update --all`
 
-- Update een of meerdere specifieke gem(s) gedefineerd in de `Gemfile`:
+- Update een of meerdere specifieke gem(s) gedefinieerd in de `Gemfile`:
 
 `bundle update {{gem_naam1 gem_naam2 ...}}`
 
-- Update een of meerdere specifieke gem(s) gedefineerd in de `Gemfile` maar alleen naar de volgende patch versie:
+- Update een of meerdere specifieke gem(s) gedefinieerd in de `Gemfile` maar alleen naar de volgende patch versie:
 
 `bundle update --patch {{gem_naam1 gem_naam2 ...}}`
 

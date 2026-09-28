@@ -11,11 +11,11 @@
 
 `crane validate --fast`
 
-- Name of remote image to validate:
+- Validate a remote image:
 
 `crane validate --remote {{image_name}}`
 
-- Path to tarball to validate:
+- Validate a tarball:
 
 `crane validate --tarball {{path/to/tarball}}`
 

@@ -15,7 +15,7 @@
 
 `nmcli {{[c|connection]}} {{[d|down]}} {{uuid}}`
 
-- Maak een automatisch geconfigueeerde dual stack connectie:
+- Maak een automatisch geconfigureerde dual stack connectie:
 
 `nmcli {{[c|connection]}} {{[a|add]}} ifname {{interface_naam}} type {{ethernet}} ipv4.method {{auto}} ipv6.method {{auto}}`
 

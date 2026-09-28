@@ -1,6 +1,6 @@
 # mpicc
 
-> Open MPI C wrapper compiler.
+> Open MPI wrapper compiler voor C.
 > Meer informatie: <https://www.mpich.org/static/docs/latest/www1/mpicc.html>.
 
 - Compileer een bronbestand naar een objectbestand:

@@ -5,8 +5,8 @@
 
 - Converteer een PNM of PAM bestand naar een Motif UIL icon bestand:
 
-`pamtouil {{pad/naar/invoer.pnm|pam}} > {{pad/naar/uitvoer.uil}}`
+`pamtouil {{pad/naar/invoer}}.{{pnm|pam}} > {{pad/naar/uitvoer.uil}}`
 
 - Specificeer een voorvoegsel dat in het uitvoer-UIL-bestand moet worden afgedrukt:
 
-`pamtouil {{[-n|-name]}} {{uilnaam}} {{pad/naar/invoer.pnm|pam}} > {{pad/naar/uitvoer.uil}}`
+`pamtouil {{[-n|-name]}} {{uilnaam}} {{pad/naar/invoer}}.{{pnm|pam}} > {{pad/naar/uitvoer.uil}}`

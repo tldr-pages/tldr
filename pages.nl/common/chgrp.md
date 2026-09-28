@@ -4,7 +4,7 @@
 > Zie ook: `chown`.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/chgrp-invocation.html>.
 
-- Verander beheerdergroep van een bestand of map:
+- Verander beheerdersgroep van een bestand of map:
 
 `chgrp {{groep}} {{pad/naar/bestand_of_map}}`
 

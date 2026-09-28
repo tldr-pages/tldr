@@ -1,6 +1,7 @@
 # git pr
 
 > Récupère les pull-requests GitHub localement.
+> Fait partie de `git-extras`.
 > Plus d'informations : <https://github.com/tj/git-extras/blob/main/Commands.md#git-pr>.
 
 - Récupère une pull-request spécifique :

@@ -1,13 +1,13 @@
 # charm
 
-> Set of tools that makes adding a backend to your terminal-based applications, without worrying about user accounts, data storage and encryption.
+> Set of tools that makes adding a backend to your terminal-based applications, without worrying about user accounts, data storage, and encryption.
 > More information: <https://manned.org/charm>.
 
-- Backup your Charm account keys:
+- Back up your Charm account keys:
 
 `charm backup-keys`
 
-- Backup Charm account keys to a specific location:
+- Back up Charm account keys to a specific location:
 
 `charm backup-keys {{[-o|--output]}} {{path/to/output_file.tar}}`
 

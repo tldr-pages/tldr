@@ -1,7 +1,7 @@
 # prowler kubernetes
 
 > Assess Kubernetes cluster security best practices and configurations.
-> See also: `prowler`, `prowler-aws`, `prowler-azure`, `prowler-gcp`, `prowler-m365`, `prowler-github`.
+> See also: `prowler aws`, `prowler azure`, `prowler gcp`, `prowler m365`, `prowler github`.
 > More information: <https://docs.prowler.com/user-guide/cli/tutorials/misc>.
 
 - Run the default checks using the default kubeconfig location:

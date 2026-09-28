@@ -11,7 +11,7 @@
 
 `xclock -digital -brief`
 
-- Display a digital clock using an strftime format string (see strftime(3)):
+- Display a digital clock using a strftime format string (see strftime(3)):
 
 `xclock -digital -strftime {{format}}`
 

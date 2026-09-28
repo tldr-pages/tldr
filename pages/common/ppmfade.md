@@ -15,6 +15,6 @@
 
 `ppmfade -l {{path/to/image.ppm}} -{{mix|spread|shift|relief|oil|...}}`
 
-- Store the resulting images in files named `base.NNNN.ppm` where `NNNN` is a increasing number:
+- Store the resulting images in files named `base.NNNN.ppm` where `NNNN` is an increasing number:
 
 `ppmfade -f {{path/to/image1.ppm}} -l {{path/to/image2.ppm}} -{{mix|spread|shift|relief|oil|...}} -base {{base}}`

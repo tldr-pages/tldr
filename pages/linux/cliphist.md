@@ -18,7 +18,7 @@
 
 - Delete a specific clipboard entry by ID:
 
-`cliphist delete {{id}}`
+`cliphist delete {{entry_id}}`
 
 - Save the current clipboard content manually:
 

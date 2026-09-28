@@ -11,7 +11,7 @@
 
 `pg_rewind {{[-D|--target-pgdata]}} {{path/to/target_data}} --source-server {{connstr}}`
 
-- Perform a dry run:
+- Simulate a synchronization without actually doing it:
 
 `pg_rewind {{[-D|--target-pgdata]}} {{path/to/target_data}} --source-pgdata {{path/to/source_data}} {{[-n|--dry-run]}}`
 

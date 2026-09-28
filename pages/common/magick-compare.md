@@ -1,7 +1,6 @@
 # magick compare
 
 > Create a comparison image to visually annotate the difference between two images.
-> See also: `magick`.
 > More information: <https://imagemagick.org/script/compare.php>.
 
 - Compare two images:

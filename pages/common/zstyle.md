@@ -1,6 +1,6 @@
 # zstyle
 
-> Define and lookup configuration styles in Zsh.
+> Define and look up configuration styles in Zsh.
 > This builtin is part of the `zsh/zutil` module.
 > More information: <https://zsh.sourceforge.io/Doc/Release/Zsh-Modules.html>.
 
@@ -28,6 +28,6 @@
 
 `zstyle -b {{context}} {{style}} {{variable_name}}`
 
-- Retrieve a style value as an array:
+- Retrieve a style value as an array into a variable:
 
 `zstyle -a {{context}} {{style}} {{variable_name}}`

@@ -1,6 +1,6 @@
 # git psykorebase
 
-> Rebase a branch on top of another using a merge commit and only one conflict handling.
+> Rebase a branch on top of another using a merge commit while requiring conflict resolution only once.
 > Part of `git-extras`.
 > More information: <https://manned.org/git-psykorebase>.
 

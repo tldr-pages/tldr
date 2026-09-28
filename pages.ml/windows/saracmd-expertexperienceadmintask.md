@@ -1,6 +1,6 @@
 # SaRAcmd ExpertExperienceAdminTask
 
-> ഈ കമാൻഡ് `GetHelpCmd.exe -S ExpertExperienceAdminTask` എന്നത്തിന്റെ അപരനാമമാണ്.
+> ഈ കമാൻഡ് `GetHelpCmd.exe -S ExpertExperienceAdminTask` എന്നതിന്റെ അപരനാമമാണ്.
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
 

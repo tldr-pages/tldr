@@ -5,15 +5,15 @@
 
 - Print memory map for a specific process ID (PID):
 
-`pmap {{pid}}`
+`pmap {{process_id}}`
 
 - Show the extended format:
 
-`pmap --extended {{pid}}`
+`pmap --extended {{process_id}}`
 
 - Show the device format:
 
-`pmap --device {{pid}}`
+`pmap --device {{process_id}}`
 
 - Limit results to a memory address range specified by `low` and `high`:
 
@@ -21,4 +21,4 @@
 
 - Print memory maps for multiple processes:
 
-`pmap {{pid1 pid2 ...}}`
+`pmap {{process_id1 process_id2 ...}}`

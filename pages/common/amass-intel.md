@@ -1,6 +1,6 @@
 # amass intel
 
-> Collect open source intel on an organisation like root domains and ASNs.
+> Collect open source intel on an organization like root domains and ASNs.
 > More information: <https://github.com/owasp-amass/amass/blob/master/doc/user_guide.md#the-intel-subcommand>.
 
 - Find root domains in an IP [addr]ess range:
@@ -15,9 +15,9 @@
 
 `amass intel -whois -d {{domain_name}}`
 
-- Find ASNs belonging to an [org]anisation:
+- Find ASNs belonging to an [org]anization:
 
-`amass intel -org {{organisation_name}}`
+`amass intel -org {{organization_name}}`
 
 - Find root domains belonging to a given Autonomous System Number:
 

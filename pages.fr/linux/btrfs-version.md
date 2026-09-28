@@ -1,12 +1,12 @@
 # btrfs version
 
-> Afficher les informations de version des outils btrfs, et accéder aux pages d'aide.
+> Affiche les informations de version des outils btrfs, et accède aux pages d'aide.
 > Plus d'informations : <https://btrfs.readthedocs.io/en/latest/btrfs.html>.
 
-- Afficher l'aide :
+- Affiche l'aide :
 
 `btrfs {{[v|version]}} --help`
 
-- Afficher les informations de version des outils btrfs :
+- Affiche les informations de version des outils btrfs :
 
 `btrfs {{[v|version]}}`

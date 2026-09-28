@@ -1,6 +1,6 @@
 # lz4
 
-> Compress or decompress .lz4 files.
+> Compress or decompress `.lz4` files.
 > More information: <https://github.com/lz4/lz4>.
 
 - Compress a file:

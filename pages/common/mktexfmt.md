@@ -7,10 +7,10 @@
 
 `mktexfmt {{format}}`
 
-- Display version information:
-
-`mktexfmt --version`
-
 - Display help:
 
 `mktexfmt --help`
+
+- Display version:
+
+`mktexfmt --version`

@@ -15,7 +15,7 @@
 
 `dolt clone {{[-b|--branch]}} {{브랜치_이름}} {{레포지토리_주소}}`
 
-- AWS 리전을 사용하여, 리포지토리를 복제 (uses the profile's default region if none is provided):
+- AWS 리전을 사용하여, 리포지토리를 복제 (리전을 지정하지 않으면 프로필의 기본 리전 사용):
 
 `dolt clone --aws-region {{리전_이름}} {{레포지토리_주소}}`
 

@@ -1,8 +1,8 @@
 # i2cset
 
 > Set the value of a register of an I2C device.
-> See also: `i2cdetect`, `i2cdump`, `i2cget`.
 > Note: All addresses should be specified in hexadecimal.
+> See also: `i2cdetect`, `i2cdump`, `i2cget`.
 > More information: <https://manned.org/i2cset>.
 
 - Write to a register of an I2C device:

@@ -2,7 +2,6 @@
 
 > Download RPM-pakketten uit de DNF-repositories.
 > Niet standaard inbegrepen bij `dnf`, maar ondersteund via `dnf-plugins-core`.
-> Zie ook: `dnf`.
 > Meer informatie: <https://dnf-plugins-core.readthedocs.io/en/latest/download.html>.
 
 - Download de recentste versie van een pakket naar de huidige map:

@@ -1,9 +1,9 @@
 # aws history
 
-> Print the command-line history for AWS CLI commands (the record of history of AWS CLI commands must be enabled).
+> Print AWS CLI command history (command history must be enabled).
 > More information: <https://docs.aws.amazon.com/cli/latest/reference/history/>.
 
-- List commands history with command IDs:
+- List commands in the history with their command IDs:
 
 `aws history list`
 

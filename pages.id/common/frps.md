@@ -10,9 +10,9 @@
 
 - Jalankan layanan menggunakan berkas konfigurasi dengan format terbaru berbasis TOML (`frps.toml` daripada `frps.ini`) pada direktori saat ini:
 
-`frps {{[-c|--config]}} ./frps.toml`
+`frps {{[-c|--config]}} {{jalan/menuju/frps.toml}}`
 
-- Start the service, using a specific configuration file:
+- Jalankan layanan menggunakan berkas konfigurasi tertentu:
 
 `frps {{[-c|--config]}} {{jalan/menuju/berkas}}`
 

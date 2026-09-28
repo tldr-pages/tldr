@@ -7,7 +7,7 @@
 
 `sstat {{[-j|--jobs]}} {{job_id}}`
 
-- Display job ID, average CPU and average virtual memory size of a comma-separated list of jobs, with pipes as column delimiters:
+- Display job ID, average CPU, and average virtual memory size of a comma-separated list of jobs, with pipes as column delimiters:
 
 `sstat {{[-p|--parsable]}} {{[-j|--jobs]}} {{job_id}} {{[-o|--format]}} {{JobID,AveCPU,AveVMSize}}`
 

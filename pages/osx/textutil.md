@@ -19,6 +19,6 @@
 
 `textutil -convert rtf -font Times -fontsize 10 {{path/to/file.txt}}`
 
-- Load all RTF files in the current directory, concatenates their contents, and writes the result out as `index.html` with the HTML title set to "Several Files":
+- Load all RTF files in the current directory, concatenate their contents, and write the result out as `index.html` with the HTML title set to "Several Files":
 
 `textutil -cat {{html}} -title "Several Files" -output {{path/to/index.html}} *.rtf`

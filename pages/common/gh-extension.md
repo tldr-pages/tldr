@@ -23,10 +23,6 @@
 
 `gh {{[ext|extension]}} upgrade --all`
 
-- List installed extensions:
-
-`gh {{[ext|extension]}} {{[ls|list]}}`
-
 - Remove an extension:
 
 `gh {{[ext|extension]}} remove {{extension_name}}`

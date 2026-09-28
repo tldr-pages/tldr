@@ -3,10 +3,6 @@
 > Tools regarding CPU power and tuning options.
 > More information: <https://manned.org/cpupower>.
 
-- List CPUs:
-
-`sudo cpupower {{[-c|--cpu]}} {{all}} info`
-
 - Print information about all cores:
 
 `sudo cpupower {{[-c|--cpu]}} {{all}} info`

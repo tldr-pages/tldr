@@ -32,6 +32,6 @@
 
 `sudo {{[-i|--login]}} {{[-u|--user]}} {{gebruiker}}`
 
-- Toon de toegestane (en verboden) commando's voor de aanroepende gebruiker:
+- Toon de toegestane (en verboden) commando's voor de aanroepende gebruiker in het lange formaat:
 
 `sudo {{[-ll|--list --list]}}`

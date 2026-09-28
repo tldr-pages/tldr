@@ -5,11 +5,11 @@
 
 - 실행 중인 Firefox 창의 X-Windows 창 ID 검색:
 
-`xdotool search --onlyvisible --name {{firefox}}`
+`xdotool search --onlyvisible --name firefox`
 
 - 오`<RightClick>`:
 
-`xdotool click {{3}}`
+`xdotool click 3`
 
 - 현재 활성 창의 ID 가져오기:
 
@@ -21,8 +21,8 @@
 
 - 각 글자마다 500ms 지연을 두고 메시지 입력:
 
-`xdotool type --delay {{500}} "Hello world"`
+`xdotool type --delay 500 "{{Hello world}}"`
 
 - `<Enter>` 키 누르기:
 
-`xdotool key {{KP_Enter}}`
+`xdotool key KP_Enter`

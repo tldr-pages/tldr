@@ -16,7 +16,7 @@
 
 `ghc -O {{path/to/file.hs}}`
 
-- Stop compilation after generating object files (.o):
+- Stop compilation after generating object files (`.o`):
 
 `ghc -c {{path/to/file.hs}}`
 

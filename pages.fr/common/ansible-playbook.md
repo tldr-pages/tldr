@@ -21,7 +21,7 @@
 
 - Exécute les tâches d'un playbook pour certain tags :
 
-`ansible-playbook {{playbook}} {{[-t|--tags|]}} {{tag1,tag2}}`
+`ansible-playbook {{playbook}} {{[-t|--tags]}} {{tag1,tag2}}`
 
 - Exécute les tâches d'un playbook en démarrant depuis une certaine tache :
 

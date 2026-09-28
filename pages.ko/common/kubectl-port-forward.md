@@ -1,6 +1,6 @@
 # kubectl port-forward
 
-> 하나 이상의 로컬 포트를 local ports to a pod.
+> 하나 이상의 로컬 포트를 파드로 포워딩.
 > 더 많은 정보: <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_port-forward/>.
 
 - 로컬 포트 5000, 6000을 Pod의 5000, 6000 포트로 포워딩:

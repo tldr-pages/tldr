@@ -4,14 +4,14 @@
 > Voir aussi : `dirname`.
 > Plus d'informations : <https://www.gnu.org/software/coreutils/manual/html_node/basename-invocation.html>.
 
-- N'afficher que le nom du fichier depuis un chemin :
+- N'affiche que le nom du fichier depuis un chemin :
 
 `basename {{chemin/vers/fichier}}`
 
-- N'afficher que le nom du dernier répertoire depuis un chemin :
+- N'affiche que le nom du dernier répertoire depuis un chemin :
 
 `basename {{chemin/vers/répertoire/}}`
 
-- N'afficher que le nom du fichier depuis un chemin, en ôtant un préfixe donné :
+- N'affiche que le nom du fichier depuis un chemin, en ôtant un préfixe donné :
 
 `basename {{chemin/vers/fichier}} {{suffixe}}`

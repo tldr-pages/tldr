@@ -16,7 +16,7 @@
 
 `ed {{[-v|--verbose]}}`
 
-- Start an interactive editor session with an empty document and without diagnostics, byte counts and '!' prompt:
+- Start an interactive editor session with an empty document and without diagnostics, byte counts, and '!' prompt:
 
 `ed {{[-q|--quiet]}} {{[-s|--script]}}`
 

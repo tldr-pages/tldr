@@ -1,7 +1,6 @@
 # magick montage
 
 > Plaats afbeeldingen in een aanpasbaar raster.
-> Zie ook: `magick`.
 > Meer informatie: <https://imagemagick.org/script/montage.php>.
 
 - Plaats afbeeldingen in een raster, waarbij afbeeldingen die groter zijn dan de rastercelgrootte automatisch worden aangepast:

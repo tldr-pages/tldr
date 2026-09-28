@@ -21,7 +21,7 @@
 
 `{{<Esc><Z><Z>|<Esc><:>x<Enter>|<Esc><:>wq<Enter>}}`
 
-- Terug naar normale modues en maak de laatste verandering ongedaan:
+- Terug naar normale modus en maak de laatste verandering ongedaan:
 
 `<Esc><u>`
 

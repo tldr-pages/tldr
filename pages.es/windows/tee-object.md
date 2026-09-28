@@ -4,10 +4,10 @@
 > Nota: Este comando solo se puede usar en PowerShell.
 > Más información: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/tee-object>.
 
-- Guardar la lista de procesos en un archivo y mostrarla en la consola:
+- Guarda la lista de procesos en un archivo y la muestra en la consola:
 
 `Get-Process | Tee-Object -FilePath {{ruta\al\archivo}}`
 
-- Guardar el proceso "notepad" en una variable y luego seleccionar propiedades específicas:
+- Guarda el proceso "notepad" en una variable y luego selecciona propiedades específicas:
 
 `Get-Process notepad | Tee-Object -Variable {{proceso}} | Select-Object processname,handles`

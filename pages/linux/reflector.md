@@ -3,7 +3,7 @@
 > Arch script to fetch and sort mirrorlists.
 > More information: <https://manned.org/reflector>.
 
-- Get all mirrors, sort for download speed and save them:
+- Get all mirrors, sort for download speed, and save them:
 
 `sudo reflector --sort {{rate}} --save {{/etc/pacman.d/mirrorlist}}`
 

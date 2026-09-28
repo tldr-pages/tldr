@@ -19,7 +19,7 @@
 
 `act {{[-j|--job]}} {{job_id}}`
 
-- Do [n]ot actually run the actions (i.e. a dry run):
+- Simulate running the actions without actually doing it:
 
 `act {{[-n|--dryrun]}}`
 

@@ -21,7 +21,7 @@
 
 - Get a shard iterator for reading from the oldest message in a stream's shard:
 
-`aws kinesis get-shard-iterator --shard-iterator-type TRIM_HORIZON --stream-name {{name}} --shard-id {{id}}`
+`aws kinesis get-shard-iterator --shard-iterator-type TRIM_HORIZON --stream-name {{name}} --shard-id {{shard_id}}`
 
 - Read records from a shard, using a shard iterator:
 

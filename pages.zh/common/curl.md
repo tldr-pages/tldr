@@ -1,38 +1,38 @@
 # curl
 
-> 向 / 从一个服务器传输数据。
-> 支持大多数协议，包括 HTTP, FTP, 和 POP3。
+> 从服务器接收数据或者向服务器发送数据。
+> 支持包括 HTTP、HTTPS、FTP 和 SCP 在内的大多数协议。
 > 另请参阅：`wcurl`, `wget`。
 > 更多信息：<https://curl.se/docs/manpage.html>。
 
-- 将指定 URL 的内容下载到文件：
+- 发起 HTTP GET 请求，将响应内容输出到 `stdout`：
 
-`curl {{http://example.com}} {{[-o|--output]}} {{文件名}}`
+`curl {{https://example.com}}`
 
-- 将文件从 URL 保存到由 URL 指示的文件名中：
+- 发起 HTTP GET 请求，自动跟随所有 `3xx` 重定向，将响应头和内容输出到 `stdout`：
 
-`curl {{[-O|--remote-name]}} {{http://example.com/filename}}`
+`curl {{[-L|--location]}} {{[-D|--dump-header]}} - {{https://example.com}}`
 
-- 下载文件，跟随 重定向，并且自动 续传（恢复）前序文件传输：
+- 按照 URL 指定的文件名保存下载内容：
 
-`curl {{[-f|--fail]}} {{[-O|--remote-name]}} {{[-L|--location]}} {{[-C|--continue-at]}} - {{http://example.com/filename}}`
+`curl {{[-O|--remote-name]}} {{https://example.com/filename.zip}}`
 
-- 发送表单编码数据（`application/x-www-form-urlencoded` 的 POST 请求）：
+- 以表单编码格式发送数据（`application/x-www-form-urlencoded` 类型的 POST 请求）。如需从 `stdin` 读取数据，可使用 `--data @file_name` 或 `--data @'-'`：
 
-`curl {{[-d|--data]}} {{'name=bob'}} {{http://example.com/form}}`
+`curl {{[-X|--request]}} POST {{[-d|--data]}} '{{name=bob}}' {{http://example.com/form}}`
 
-- 发送带有额外请求头，使用自定义请求方法的请求：
+- 通过代理（如 BurpSuite）使用自定义 HTTP 方法发送带有额外请求头的请求，同时忽略不安全的自签名证书：
 
-`curl {{[-H|--header]}} {{'X-My-Header: 123'}} {{[-X|--request]}} {{PUT}} {{http://example.com}}`
+`curl {{[-k|--insecure]}} {{[-x|--proxy]}} {{http://127.0.0.1:8080}} {{[-H|--header]}} '{{Authorization: Bearer token}}' {{[-X|--request]}} {{GET|PUT|POST|DELETE|PATCH|...}} {{https://example.com}}`
 
-- 发送 JSON 格式的数据，并附加正确的 `Content-Type` 请求头：
+- 设置正确的 `Content-Type` 请求头，以 JSON 格式发送数据：
 
-`curl {{[-d|--data]}} {{'{"name":"bob"}'}} {{[-H|--header]}} {{'Content-Type: application/json'}} {{http://example.com/users/1234}}`
+`curl {{[-d|--data]}} '{{{"name":"bob"}}}' {{[-H|--header]}} '{{Content-Type: application/json}}' {{http://example.com/users/1234}}`
 
-- 使用用户名和密码，授权访问服务器：
-
-`curl {{[-u|--user]}} {{用户名}} {{http://example.com}}`
-
-- 为指定资源使用客户端证书和密钥，并且跳过证书验证：
+- 跳过证书验证，使用客户端证书和私钥发起请求：
 
 `curl {{[-E|--cert]}} {{client.pem}} --key {{key.pem}} {{[-k|--insecure]}} {{https://example.com}}`
+
+- 将主机名解析为自定义 IP 地址，以详细模式输出结果（类似于通过编辑 `/etc/hosts` 文件自定义 DNS 解析）：
+
+`curl {{[-v|--verbose]}} --resolve {{example.com}}:{{80}}:{{127.0.0.1}} {{http://example.com}}`

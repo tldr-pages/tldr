@@ -12,7 +12,7 @@
 
 `proxify {{[-ha|-http-addr]}} "{{ip_주소}}:{{포트_번호}}"`
 
-- Specify output format and output file:
+- 출력 형식과 출력 파일 지정:
 
 `proxify {{[-of|-output-format]}} {{jsonl|yaml}} {{[-o|-output]}} {{경로/대상/파일}}`
 

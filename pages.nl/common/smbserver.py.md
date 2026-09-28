@@ -26,7 +26,7 @@
 
 - Stel een share in op een niet-standaard SMB-poort:
 
-`smbserver.py -port {{port}} {{share_naam}} {{pad/naar/share}}`
+`smbserver.py -port {{poort}} {{share_naam}} {{pad/naar/share}}`
 
 - Stel een share in met SMB2 ondersteuning:
 

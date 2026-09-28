@@ -1,7 +1,7 @@
 # semanage boolean
 
 > Manage persistent SELinux boolean settings.
-> See also: `semanage`, `getsebool`, `setsebool`.
+> See also: `getsebool`, `setsebool`.
 > More information: <https://manned.org/semanage-boolean>.
 
 - List all booleans settings:

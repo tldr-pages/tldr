@@ -1,7 +1,6 @@
 # semanage port
 
 > Manage persistent SELinux port definitions.
-> See also: `semanage`.
 > More information: <https://manned.org/semanage-port>.
 
 - List all port labeling rules:

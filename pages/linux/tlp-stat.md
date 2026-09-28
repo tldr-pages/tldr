@@ -24,7 +24,7 @@
 
 `sudo tlp-stat {{[-P|--pev]}}`
 
-- Show [p]ower [sup]ply diagonistics:
+- Show [p]ower [sup]ply diagnostics:
 
 `sudo tlp-stat --psup`
 

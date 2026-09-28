@@ -20,7 +20,7 @@
 
 `ntfyme exec {{[-t|--track-process]}} {{[-c|--cmd]}} {{command}}`
 
-- Setup the tool configurations interactively:
+- Set up the tool configurations interactively:
 
 `ntfyme setup`
 

@@ -29,7 +29,7 @@
 
 - Split the current window in half:
 
-`<CTRL x><o>`
+`<Ctrl x><o>`
 
 - Exit:
 

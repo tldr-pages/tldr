@@ -7,7 +7,7 @@
 
 - Affiche les paramètres DNS :
 
-`resolvectl status`
+`resolvectl`
 
 - Résout les adresses IPv4 et IPv6 pour un ou plusieurs domaines :
 
@@ -27,12 +27,12 @@
 
 - Récupère un enregistrement MX du domaine :
 
-`resolvectl --legend={{no}} --type={{MX}} query {{domaine}}`
+`resolvectl --legend {{no}} {{[-t|--type]}} MX query {{domaine}}`
 
-- Résout un enregistrement SRV, par exemple _xmpp-server._tcp gmail.com :
+- Résout un enregistrement SRV, par exemple `_xmpp-server._tcp gmail.com` :
 
 `resolvectl service _{{service}}._{{protocole}} {{nom}}`
 
 - Récupère une clé TLS :
 
-`resolvectl tlsa tcp {{domain}}:443`
+`resolvectl tlsa tcp {{domaine}}:443`

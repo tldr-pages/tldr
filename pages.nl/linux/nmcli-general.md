@@ -23,6 +23,6 @@
 
 `nmcli {{[g|general]}} {{[l|logging]}}`
 
-- Zet het logging level en/of domainen (zie `man NetworkManager.conf` voor alle beschikbare domeinen):
+- Zet het logging level en/of domeinen (zie `man NetworkManager.conf` voor alle beschikbare domeinen):
 
 `sudo nmcli {{[g|general]}} {{[l|logging]}} {{[l|level]}} {{INFO|OFF|ERR|WARN|DEBUG|TRACE}} domain {{domein_1,domein_2,...}}`

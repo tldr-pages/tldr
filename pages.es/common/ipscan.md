@@ -12,7 +12,7 @@
 
 `ipscan {{192.168.0.1-254}}`
 
-- Escanea un rango de direcciones IP y guardar los resultados en un archivo:
+- Escanea un rango de direcciones IP y guarda los resultados en un archivo:
 
 `ipscan {{192.168.0.1-254}} -o {{ruta/a/salida.txt}}`
 
@@ -24,6 +24,6 @@
 
 `ipscan {{192.168.0.1-254}} -d {{200}}`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `ipscan --help`

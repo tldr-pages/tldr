@@ -11,7 +11,7 @@
 
 `paccache {{[-rk|--remove --keep]}} {{num_versions}}`
 
-- Perform a dry-run and show the number of candidate packages for deletion:
+- Simulate the cleaning and show the number of candidate packages for deletion:
 
 `paccache {{[-d|--dryrun]}}`
 

@@ -1,6 +1,6 @@
 # ed
 
-> De originele Unix tekst editor.
+> De originele Unix teksteditor.
 > Zie ook: `awk`, `sed`.
 > Meer informatie: <https://www.gnu.org/software/ed/manual/ed_manual.html>.
 

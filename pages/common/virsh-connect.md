@@ -1,7 +1,6 @@
 # virsh connect
 
 > Connect to a virtual machine hypervisor.
-> See also: `virsh`.
 > More information: <https://manned.org/virsh>.
 
 - Connect to the default hypervisor:

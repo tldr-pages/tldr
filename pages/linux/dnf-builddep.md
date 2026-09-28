@@ -2,7 +2,6 @@
 
 > Install dependencies to build a given package.
 > Not default to `dnf` but supported via `dnf-plugins-core`.
-> See also: `dnf`.
 > More information: <https://dnf-plugins-core.readthedocs.io/en/latest/builddep.html>.
 
 - Install dependencies for a given package:

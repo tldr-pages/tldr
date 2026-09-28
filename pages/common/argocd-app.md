@@ -23,7 +23,7 @@
 
 `argocd app set {{app_name}} --sync-policy auto --auto-prune --self-heal`
 
-- Preview app synchronization without affecting cluster:
+- Simulate app synchronization, including pruning, without affecting the cluster:
 
 `argocd app sync {{app_name}} --dry-run --prune`
 
@@ -31,6 +31,6 @@
 
 `argocd app history {{app_name}} --output {{wide|id}}`
 
-- Rollback application to a previous deployed version by history ID (deleting unexpected resources):
+- Roll back application to a previous deployed version by history ID (deleting unexpected resources):
 
 `argocd app rollback {{app_name}} {{history_id}} --prune`

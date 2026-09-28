@@ -24,6 +24,6 @@
 
 `Invoke-Item -Path {{path\to\directory}}\* -Exclude {{*keyword*}}`
 
-- Perform a dry run to determine which files will be opened inside a directory through `Invoke-Item`:
+- Simulate a run to determine which files will be opened inside a directory through `Invoke-Item`:
 
 `Invoke-Item -Path {{path\to\directory}}\* -WhatIf`

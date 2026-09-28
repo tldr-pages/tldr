@@ -10,7 +10,7 @@
 
 - Create a new user with the specified user ID:
 
-`sudo useradd {{[-u|--uid]}} {{id}} {{username}}`
+`sudo useradd {{[-u|--uid]}} {{user_id}} {{username}}`
 
 - Create a new user with the specified shell:
 

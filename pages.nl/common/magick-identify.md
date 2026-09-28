@@ -1,7 +1,6 @@
 # magick identify
 
 > Beschrijf het formaat en eigenschappen van afbeeldingen.
-> Zie ook: `magick`.
 > Meer informatie: <https://imagemagick.org/script/identify.php>.
 
 - Beschrijf het formaat en basis eigenschappen van een afbeelding:

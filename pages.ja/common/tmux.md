@@ -2,7 +2,7 @@
 
 > 端末のマルチプレクサ。
 > ウィンドウやペインなどによる複数セッションを可能にします。
-> 参照: `zellij`, `screen`。
+> 参照: `zellij`, `screen`, `herdr`。
 > 詳細情報: <https://github.com/tmux/tmux>。
 
 - 新規セッションの開始:

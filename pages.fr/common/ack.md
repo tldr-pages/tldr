@@ -4,7 +4,7 @@
 > Voir aussi : `rg`.
 > Plus d'informations : <https://beyondgrep.com/documentation/>.
 
-- Recherche des fichiers contenant une chaine de caractère ou une expression régulière dans le répertoire courant récursivement :
+- Recherche des fichiers contenant une chaine de caractère ou une `regex` dans le répertoire courant récursivement :
 
 `ack "{{motif_de_recherche}}"`
 

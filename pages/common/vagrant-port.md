@@ -1,7 +1,6 @@
 # vagrant port
 
 > List mappings between guest and host ports.
-> See also: `vagrant`.
 > More information: <https://developer.hashicorp.com/vagrant/docs/cli/port>.
 
 - List all port mappings of machine(s) running in the current directory:

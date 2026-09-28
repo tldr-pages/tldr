@@ -1,6 +1,6 @@
 # git bug
 
-> A distributed bug tracker that uses Git's internal storage, so no files are added in your project.
+> A distributed bug tracker that uses Git's internal storage, so no files are added to your project.
 > You may submit your problems to the same Git remote you use to interact with others, much like commits and branches.
 > More information: <https://github.com/git-bug/git-bug/blob/master/doc/md/git-bug.md>.
 

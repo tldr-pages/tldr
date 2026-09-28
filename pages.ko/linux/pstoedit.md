@@ -5,7 +5,7 @@
 
 - PDF 페이지를 PNG 또는 JPEG 형식으로 변환:
 
-`pstoedit -page {{페이지_번호}} -f magick {{경로/대상/파일.pdf}} {{페이지.png|페이지.jpg]}}`
+`pstoedit -page {{페이지_번호}} -f magick {{경로/대상/파일.pdf}} {{페이지.png|페이지.jpg}}`
 
 - 여러 PDF 페이지를 번호가 매겨진 이미지로 변환:
 

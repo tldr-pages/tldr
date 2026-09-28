@@ -23,7 +23,7 @@
 
 `git show --oneline {{[-s|--no-patch]}} {{commit}}`
 
-- Show only statistics (added/removed characters) about the changed files:
+- Show diff statistics for changed files (such as lines added and removed):
 
 `git show --stat {{commit}}`
 

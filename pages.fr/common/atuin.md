@@ -18,11 +18,11 @@
 
 - Inscrire un compte sur le serveur de synchronisation par défaut :
 
-`atuin register {{[-u|--username]}} {{nom_d_utilisateur}} {{[-e|--email]}} {{email}} {{[-p|--password]}} {{mot_de_passe}}`
+`atuin register {{[-u|--username]}} {{nom_utilisateur}} {{[-e|--email]}} {{email}} {{[-p|--password]}} {{mot_de_passe}}`
 
 - Connexion au serveur de synchronisation par défaut :
 
-`atuin login {{[-u|--username]}} {{nom_d_utilisateur}} {{[-p|--password]}} {{mot_de_passe}}`
+`atuin login {{[-u|--username]}} {{nom_utilisateur}} {{[-p|--password]}} {{mot_de_passe}}`
 
 - Synchronise l'historique avec le serveur :
 

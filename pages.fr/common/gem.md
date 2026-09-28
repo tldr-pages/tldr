@@ -5,7 +5,7 @@
 
 - Recherche des gems distantes et affiche toutes les versions disponibles :
 
-`gem search {{expression_régulière}} {{[-a|--all]}}`
+`gem search {{regex}} {{[-a|--all]}}`
 
 - Installe la dernière version d'une gem :
 

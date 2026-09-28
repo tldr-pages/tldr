@@ -3,6 +3,6 @@
 > Change keyboard layout.
 > More information: <https://www.dosbox.com/wiki/KEYB>.
 
-- Set layout:
+- Set the keyboard layout:
 
 `KEYB {{us|uk|gr|...}}`

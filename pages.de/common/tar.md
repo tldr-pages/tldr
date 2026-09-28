@@ -18,7 +18,7 @@
 
 - Extrahiere ein (komprimiertes) Archiv in das derzeitige Verzeichnis im ausführlichen Modus:
 
-`tar xvf {{pfad/zu/quelle.tar[.gz|.bz2|.xz]}}`
+`tar xvf {{pfad/zu/quelle.tar.ext}}`
 
 - Extrahiere ein Archiv in ein Verzeichnis:
 

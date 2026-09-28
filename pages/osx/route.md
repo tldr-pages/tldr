@@ -23,6 +23,6 @@
 
 `sudo route delete "{{destination_ip_address}}/24"`
 
-- Lookup and display the route for a destination (hostname or IP address):
+- Look up and display the route for a destination (hostname or IP address):
 
 `sudo route get "{{destination}}"`

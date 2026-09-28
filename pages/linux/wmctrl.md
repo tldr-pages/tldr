@@ -11,7 +11,7 @@
 
 `wmctrl -a {{window_title}}`
 
-- Move a window to the current workspace, raise it and give it focus:
+- Move a window to the current workspace, raise it, and give it focus:
 
 `wmctrl -R {{window_title}}`
 

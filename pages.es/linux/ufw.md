@@ -1,6 +1,6 @@
 # ufw
 
-> Cortafuegos sin complicaciones (_Uncomplicated Firewall_).
+> Cortafuegos sin complicaciones (Uncomplicated Firewall).
 > Interfaz de usuario de `iptables` para facilitar la configuración de un firewall.
 > Más información: <https://manned.org/ufw>.
 

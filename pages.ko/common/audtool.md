@@ -28,10 +28,10 @@
 
 `audtool mainwin-show`
 
-- 도움말 표시:
-
-`audtool help`
-
 - 설정 표시:
 
 `audtool preferences-show`
+
+- 도움말 표시:
+
+`audtool help`

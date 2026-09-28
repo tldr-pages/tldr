@@ -1,7 +1,7 @@
 # aws ec2
 
 > Manage AWS EC2 instances and volumes.
-> AWS EC2 provides secure and resizable computing capacity in the AWS cloud for faster development and deployment of applications.
+> Provides secure and resizable computing capacity in the AWS cloud for faster development and deployment of applications.
 > More information: <https://docs.aws.amazon.com/cli/latest/reference/ec2/>.
 
 - Display information about a specific instance:

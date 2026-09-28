@@ -1,34 +1,33 @@
 # git reset
 
-> Enlève des commits ou des changements en réinitialisant la tête Git à l'état spécifié.
-> Si un chemin est passé en paramètre, Git reset fonctionne comme «unstage».
-> Si un hash de commit est passé en paramètre, Git reset annule les commits jusqu'à ce dernier.
+> Enlève des validations ou des modifications en réinitialisant la tête Git à l'état spécifié.
+> Si un chemin est passé en paramètre, Git reset fonctionne comme «unstage»; si un hash de validation ou une branche est passé en paramètre, Git reset fonctionne comme «uncommit».
 > Plus d'informations : <https://git-scm.com/docs/git-reset>.
 
-- Tout enlever de la zone de stage :
+- Désindexe tout :
 
 `git reset`
 
-- Enlever des fichiers spécifiques de la zone de stage :
+- Désindexe des fichiers spécifiques :
 
-`git reset {{chemin/vers/fichier(s)}}`
+`git reset {{chemin/vers/fichier1 chemin/vers/fichier2 ...}}`
 
-- Enlever, en mode interactif, des fichiers spécifiques de l’index :
+- Désindexe certaines parties d'un fichier en mode interactif :
 
 `git reset {{[-p|--patch]}} {{chemin/vers/fichier}}`
 
-- Annuler le dernier commit, mais garder les changements effectués dans votre système de fichiers :
+- Annule la dernière validation, mais garde les modifications effectuées (ainsi que toute autre modification non validée) dans le système de fichiers :
 
 `git reset HEAD~`
 
-- Défaire les deux derniers commits, et ajouter leurs changements à l'index (dans la zone de stage) :
+- Défait les deux dernières validations, et ajoute leurs modifications à l'index (indexées pour validation) :
 
 `git reset --soft HEAD~2`
 
-- Enlever tout les changements qui n'ont pas été commit, qu'ils soient dans la zone de stage ou non (pour enlever seulement les changements de la zone de stage, utiliser `git checkout`) :
+- Enlève toutes les modifications qui n'ont pas été validées, qu'elles soient indexées ou non (pour enlever uniquement les modifications désindexées, utiliser `git checkout`) :
 
 `git reset --hard`
 
-- Réinitialiser le dépôt à un commit spécifique en retirant tout les changements (ceci inclus les changements dans des commits entre la tête et le commit spécifié !) :
+- Réinitialise le dépôt à une validation spécifique en retirant les modifications validées, indexées, et désindexées depuis cette validation :
 
-`git reset --hard {{commit}}`
+`git reset --hard {{validation}}`

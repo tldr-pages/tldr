@@ -1,6 +1,6 @@
 # dnf
 
-> Hulpprogramma voor pakketbeheer van RHEL, Fedora en CentOS (vervangt Yum).
+> Pakketbeheerder voor Fedora 41+ en RHEL 10.
 > Voor equivalente commando's in andere pakketbeheerders, zie <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > Meer informatie: <https://dnf5.readthedocs.io/en/latest/commands/index.html>.
 
@@ -20,7 +20,7 @@
 
 `sudo dnf {{[in|install]}} {{pakket1 pakket2 ...}}`
 
-- Verwijder een pakket:
+- Verwijder pakketten:
 
 `sudo dnf {{[rm|remove]}} {{pakket1 pakket2 ...}}`
 
@@ -28,7 +28,7 @@
 
 `dnf {{[ls|list]}} --installed`
 
-- Vind welk pakket voorziet van een bepaald commando:
+- Vind welke pakketten voorzien in een bepaald commando:
 
 `dnf provides {{commando}}`
 

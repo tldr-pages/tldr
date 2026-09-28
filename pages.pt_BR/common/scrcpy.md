@@ -1,6 +1,7 @@
 # scrcpy
 
 > Exiba e controle seu dispositivo Android em um desktop.
+> Veja também: `adb connect`.
 > Mais informações: <https://github.com/Genymobile/scrcpy>.
 
 - Espelha a tela de um dispositivo conectado:

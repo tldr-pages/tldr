@@ -1,7 +1,6 @@
 # pacman --remove
 
 > Remove packages from the system.
-> See also: `pacman`.
 > More information: <https://manned.org/pacman.8>.
 
 - [R]emove a package and its dependencies recur[s]ively:

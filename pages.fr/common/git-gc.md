@@ -11,7 +11,7 @@
 
 `git gc --aggressive`
 
-- Afficher les objets à supprimer :
+- Affiche les objets à supprimer :
 
 `git gc --no-prune`
 
@@ -19,6 +19,6 @@
 
 `git gc --quiet`
 
-- Afficher le manuel :
+- Affiche le manuel :
 
 `git gc --help`

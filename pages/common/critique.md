@@ -27,7 +27,7 @@
 
 `critique --watch`
 
-- Restrict the review to files matching a glob pattern:
+- Restrict the review to files matching a `glob` pattern:
 
 `critique --filter "{{src/**/*.ts}}"`
 

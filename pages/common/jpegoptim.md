@@ -1,13 +1,13 @@
 # jpegoptim
 
-> Optimise JPEG images.
+> Optimize JPEG images.
 > More information: <https://manned.org/jpegoptim>.
 
-- Optimise a set of JPEG images, retaining all associated data:
+- Optimize a set of JPEG images, retaining all associated data:
 
 `jpegoptim {{image1.jpeg image2.jpeg image3.jpeg ...}}`
 
-- Optimise JPEG images, stripping all non-essential data:
+- Optimize JPEG images, stripping all non-essential data:
 
 `jpegoptim {{[-s|--strip-all]}} {{image1.jpeg image2.jpeg image3.jpeg ...}}`
 

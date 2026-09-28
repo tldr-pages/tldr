@@ -11,7 +11,7 @@
 
 `ld {{path/to/file1.o path/to/file2.o ...}} {{[-o|--output]}} {{path/to/output_executable}}`
 
-- Link a object file to a specific target emulation:
+- Link an object file to a specific target emulation:
 
 `ld {{path/to/file.o}} -m {{target_emulation}} {{[-o|--output]}} {{path/to/output_executable}}`
 

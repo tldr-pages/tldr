@@ -27,7 +27,7 @@
 
 `steamosctl get-valid-desktop-sessions`
 
-- Set the the default desktop session:
+- Set the default desktop session:
 
 `steamosctl set-default-desktop-session {{plasma.desktop|plasmax11.desktop|...}}`
 
