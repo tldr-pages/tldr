@@ -11,7 +11,7 @@
 
 `brew upgrade {{formula|cask}}`
 
-- Print what would be upgraded, but don't actually upgrade anything:
+- Simulate an upgrade, printing what would be upgraded:
 
 `brew upgrade {{[-n|--dry-run]}}`
 

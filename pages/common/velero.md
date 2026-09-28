@@ -1,6 +1,6 @@
 # velero
 
-> Backup and migrate Kubernetes applications and their persistent volumes.
+> Back up and migrate Kubernetes applications and their persistent volumes.
 > More information: <https://velero.io/docs/main/>.
 
 - Create a backup containing all resources:

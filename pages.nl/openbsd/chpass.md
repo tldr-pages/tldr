@@ -6,7 +6,7 @@
 
 - Stel interactief een specifieke login shell in voor de huidige gebruiker:
 
-`doas chpass`
+`chpass`
 
 - Stel een specifieke login [s]hell in voor de huidige gebruiker:
 

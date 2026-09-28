@@ -5,8 +5,8 @@
 
 - Convierte un archivo PNM o PAM en un archivo de icono Motif UIL:
 
-`pamtouil {{ruta/a/entrada.[pnm|pam]}} > {{ruta/a/salida.uil}}`
+`pamtouil {{ruta/a/entrada}}.{{pnm|pam}} > {{ruta/a/salida.uil}}`
 
 - Especifique una cadena de prefijo que se imprimirá en el archivo UIL de salida:
 
-`pamtouil {{[-n|-name]}} {{nombre_uil}} {{ruta/a/entrada.[pnm|pam]}} > {{ruta/a/salida.uil}}`
+`pamtouil {{[-n|-name]}} {{nombre_uil}} {{ruta/a/entrada}}.{{pnm|pam}} > {{ruta/a/salida.uil}}`
