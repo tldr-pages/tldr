@@ -14,4 +14,4 @@
 
 - Repareer een Netpbm bestand waar de pixelwaardes de `maxval` van de afbeelding overschrijden door deze te verhogen:
 
-`pamfix {{[-ch|-changemaxval]}} {{pad/naar/corrupt.pam|pbm|pgm|ppm}} > {{pad/naar/uitvoer.pam|pbm|pgm|ppm}}`
+`pamfix {{[-ch|-changemaxval]}} {{pad/naar/corrupt}}.{{pam|pbm|pgm|ppm}} > {{pad/naar/uitvoer}}.{{pam|pbm|pgm|ppm}}`

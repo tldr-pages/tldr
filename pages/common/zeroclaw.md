@@ -1,7 +1,7 @@
 # zeroclaw
 
 > Fast, small, and fully autonomous AI assistant infrastructure.
-> Some subcommands such as `onboard`, `models`, `service`, etc have their own usage documentation.
+> Some subcommands such as `onboard`, `models`, `service`, etc. have their own usage documentation.
 > See also: `openclaw`.
 > More information: <https://github.com/zeroclaw-labs/zeroclaw#quick-start>.
 

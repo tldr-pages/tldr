@@ -9,7 +9,7 @@
 
 - Zeige das aktuelle Datum in koordinierter Weltzeit (UTC) im ISO 8601-Format an:
 
-`date {{[-u|--utc]}} +%Y-%m-%dT%H:%M:%S%Z`
+`date {{[-u|--utc]}} +%Y-%m-%dT%H:%M:%SZ`
 
 - Zeige das aktuelle Datum in Unixzeit (vergangene Sekunden seit der Unix-Epoche) an:
 
