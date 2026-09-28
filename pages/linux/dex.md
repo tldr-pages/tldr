@@ -15,7 +15,7 @@
 
 `dex {{[-a|--autostart]}} {{[-e|--environment]}} {{GNOME}}`
 
-- Preview the programs would be executed in a regular autostart:
+- Simulate a regular autostart, showing the programs that would be executed:
 
 `dex {{[-a|--autostart]}} {{[-d|--dry-run]}}`
 

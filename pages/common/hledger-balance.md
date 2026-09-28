@@ -16,7 +16,7 @@
 
 `hledger {{[bal|balance]}} {{expenses}} {{[-M|--monthly]}} {{[-T|--row-total]}} {{[-A|--average]}} {{[-S|--sort-amount]}} --budget`
 
-- Similar to the above, matching accounts by `Expense` type, as a two level tree without squashing boring accounts:
+- Show monthly totals, averages, and budget goals for accounts matching the `Expense` type, as a two level tree without squashing boring accounts:
 
 `hledger {{[bal|balance]}} type:{{X}} {{[-MTAS|--monthly --row-total --average --sort-amount]}} --budget {{[-t|--tree]}} {{[-2|--depth 2]}} --no-elide`
 
@@ -24,7 +24,7 @@
 
 `hledger {{[bal|balance]}} {{[-H|--historical]}} {{[-p|--period]}} '{{quarterly in 2024}}' {{assets}} {{liabilities}}`
 
-- Similar to the above, also show zero balances, sort by total, and summarize to three levels:
+- Show quarterly end balances in 2024 for asset and liability accounts, including zero balances, sorted by total, and summarized to three levels:
 
 `hledger {{[bal|balance]}} {{[-HQ|--historical --quarterly]}} date:{{2024}} type:{{AL}} {{[-ES|--empty --sort-amount]}} {{[-3|--depth 3]}}`
 

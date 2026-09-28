@@ -7,7 +7,7 @@
 
 `crane push {{path/to/tarball}} {{image_name}}`
 
-- Path to file with list of published image references:
+- Write a list of published image references to a file:
 
 `crane push {{path/to/tarball}} {{image_name}} --image-refs {{path/to/file}}`
 

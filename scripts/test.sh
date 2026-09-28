@@ -83,22 +83,15 @@ function run_shellcheck {
 
 # Default test function, run by `npm test`.
 function run_tests {
-  find pages* -name '*.md' -exec markdownlint {} +
-  tldr-lint ./pages
-  for f in ./pages.*; do
-    checks="TLDR104"
-    # Skip the `pages.en` symlink.
-    [[ -h $f ]] && continue
-    case $f in
-      *ar*|*bn*|*fa*|*hi*|*ja*|*ko*|*lo*|*ml*|*ne*|*ta*|*th*|*tr*)
-        checks+=",TLDR003,TLDR004,TLDR015"
-      ;;
-      *zh*)
-        checks+=",TLDR003,TLDR004,TLDR005,TLDR015"
-      ;;
-    esac
-    tldr-lint --ignore "$checks" "$f"
-  done
+  if command -v nproc >/dev/null; then
+    logical_cpus="$(nproc)"
+  else
+    logical_cpus="$(sysctl -n hw.logicalcpu 2>/dev/null || echo 1)"
+  fi
+  # 2000 is 0.5s faster than page_count/logical_cpus/2 on 24 cores
+  # 2000 * (most paths < 64 bytes) < (MAX_ARG_STRLEN = 131072)
+  find pages* -name '*.md' -print0 | xargs -0 -n 2000 -P "$logical_cpus" npx markdownlint
+  echo ./pages.* | xargs -n1 -P "$logical_cpus" scripts/test-tldr-lint.sh
   run_black
   run_flake8
   run_pytest

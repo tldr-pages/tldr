@@ -9,7 +9,7 @@
 
 - Mostra la data corrente in UTC e formato ISO 8601:
 
-`date -u +"%Y-%m-%dT%H:%M:%S%Z"`
+`date -u +"%Y-%m-%dT%H:%M:%SZ"`
 
 - Mostra la data corrente come timestamp Unix (secondi dall'epoca Unix):
 

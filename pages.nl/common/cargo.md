@@ -10,7 +10,7 @@
 
 - Installeer een crate:
 
-`cargo install {{crate-naam}}`
+`cargo install {{crate_naam}}`
 
 - Geef een lijst van geïnstalleerde crates:
 
@@ -32,6 +32,6 @@
 
 `cargo {{[r|run]}}`
 
-- Bouw het Rust-project in de huidige map door gebruik te maken van de nachtelijkse compiler (vereist `rustup`):
+- Bouw het Rust-project in de huidige map door gebruik te maken van de nachtelijke compiler (vereist `rustup`):
 
 `cargo +nightly {{[b|build]}}`

@@ -12,6 +12,6 @@
 
 `pamcut {{[-l|-left]}} {{waarde}} {{[-ri|-right]}} {{waarde}} {{pad/naar/afbeelding.ppm}} > {{pad/naar/uitvoer.ppm}}`
 
-- Vul missende gebieden met zwarte pixels als de gespecificeerde rechthoek niet volledig ligt in de invoer-afbeelding:
+- Vul missende gebieden met zwarte pixels als de gespecificeerde rechthoek niet volledig ligt in de invoerafbeelding:
 
 `pamcut {{[-t|-top]}} {{waarde}} {{[-b|-bottom]}} {{waarde}} -pad {{pad/naar/afbeelding.ppm}} > {{pad/naar/uitvoer.ppm}}`

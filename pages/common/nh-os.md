@@ -7,7 +7,7 @@
 
 `nh os switch {{path/to/flake}}`
 
-- Update all the flake inputs of the specified NixOS flake configuration, build it and make it the boot default:
+- Update all the flake inputs of the specified NixOS flake configuration, build it, and make it the boot default:
 
 `nh os boot {{path/to/flake}} {{[-u|--update]}}`
 
@@ -27,6 +27,6 @@
 
 `nh os info`
 
-- Rollback to a specified generation:
+- Roll back to a specified generation:
 
 `nh os rollback {{[-t|-to]}} {{generation}}`

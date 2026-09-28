@@ -2,7 +2,7 @@
 
 > Pakketbeheerder voor op Debian gebaseerde distributies.
 > Gebruiksvriendelijk alternatief voor `apt-get` voor interactief gebruik.
-> Voor gelijkwaardige commando's in andere pakket managers, zie <https://wiki.archlinux.org/title/Pacman/Rosetta>.
+> Voor gelijkwaardige commando's in andere pakketmanagers, zie <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > Meer informatie: <https://manned.org/apt.8>.
 
 - Werk de lijst van beschikbare pakketten en versies bij (het wordt aanbevolen dit uit te voeren voor elk ander `apt` commando):

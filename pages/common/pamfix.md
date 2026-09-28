@@ -14,4 +14,4 @@
 
 - Fix a Netpbm file where pixel values exceed the image's `maxval` by increasing it:
 
-`pamfix {{[-ch|-changemaxval]}} {{path/to/corrupted.pam|pbm|pgm|ppm}} > {{path/to/output.pam|pbm|pgm|ppm}}`
+`pamfix {{[-ch|-changemaxval]}} {{path/to/corrupted}}.{{pam|pbm|pgm|ppm}} > {{path/to/output}}.{{pam|pbm|pgm|ppm}}`
