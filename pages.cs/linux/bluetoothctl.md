@@ -16,22 +16,22 @@
 
 `bluetoothctl power {{on|off}}`
 
+- Vyhledat dostupné zařízeni po dobu 10 sekund:
+
+`bluetoothctl {{[-t|--timeout]}} 10 scan on`
+
 - Spárovat se zařízením:
 
-`bluetoothctl pair {{mac_adresa}}`
+`bluetoothctl pair {{mac_addresa}}`
+
+- Připojit se k nebo odpojit se od spárovaného zařízení:
+
+`bluetoothctl {{connect|disconnect}} {{mac_addresa}}`
+
+- Povolit zařízení připojit se zpět:
+
+`bluetoothctl trust {{mac_addresa}}`
 
 - Smazat zařízení:
 
-`bluetoothctl remove {{mac_adresa}}`
-
-- Připojit se k spárovanému zařízení:
-
-`bluetoothctl connect {{mac_adresa}}`
-
-- Odpojit se od spárovaného zařízení:
-
-`bluetoothctl disconnect {{mac_adresa}}`
-
-- Zobrazit nápovědu:
-
-`bluetoothctl help`
+`bluetoothctl remove {{mac_addresa}}`
