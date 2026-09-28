@@ -19,7 +19,7 @@
 
 `gt stack submit`
 
-- Checkout different branch (prompts interactive mode when branch name is omitted):
+- Check out different branch (prompts interactive mode when branch name is omitted):
 
 `gt co {{branch_name}}`
 

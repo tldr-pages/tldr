@@ -30,8 +30,8 @@
 
 - Verwijder een specifieke versie van een gepubliceerd pakket van het register:
 
-`pio pkg unpublish {{pakket}}@{{version}}`
+`pio pkg unpublish {{pakket}}@{{versie}}`
 
 - Maak de verwijdering ongedaan en zet alle versies of een specifieke versie van het pakket terug in het register:
 
-`pio pkg unpublish --undo {{pakket}}@{{version}}`
+`pio pkg unpublish --undo {{pakket}}@{{versie}}`

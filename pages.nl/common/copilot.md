@@ -11,7 +11,7 @@
 
 `copilot --allow-tool write`
 
-- Hervat de recenste sessie:
+- Hervat de recentste sessie:
 
 `copilot --continue`
 

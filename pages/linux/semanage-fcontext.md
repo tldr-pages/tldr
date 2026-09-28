@@ -4,11 +4,11 @@
 > See also: `matchpathcon`, `secon`, `chcon`, `restorecon`.
 > More information: <https://manned.org/semanage-fcontext>.
 
-- List all file labelling rules:
+- List all file labeling rules:
 
 `sudo semanage fcontext {{[-l|--list]}}`
 
-- List all user-defined file labelling rules without headings:
+- List all user-defined file labeling rules without headings:
 
 `sudo semanage fcontext {{[-lCn|--list --locallist --noheading]}}`
 

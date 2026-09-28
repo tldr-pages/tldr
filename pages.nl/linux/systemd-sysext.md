@@ -1,6 +1,6 @@
 # systemd-sysext
 
-> Activeer or deactiveer systeem extensie images.
+> Activeer of deactiveer systeem extensie images.
 > Meer informatie: <https://www.freedesktop.org/software/systemd/man/latest/systemd-sysext.html>.
 
 - Toon geïnstalleerde extensie images:
@@ -19,6 +19,6 @@
 
 `systemd-sysext unmerge`
 
-- Ververs de systeem extensie images (een combinatie van `unmerge` and `merge`):
+- Ververs de systeem extensie images (een combinatie van `unmerge` en `merge`):
 
 `systemd-sysext refresh`

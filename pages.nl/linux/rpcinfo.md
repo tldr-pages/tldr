@@ -1,6 +1,6 @@
 # rpcinfo
 
-> Maak een RPC-oproep naar een RPC-server en rapporteert wat het vindt.
+> Maak een RPC-oproep naar een RPC-server en rapporteer wat het vindt.
 > Meer informatie: <https://manned.org/rpcinfo>.
 
 - Toon volledige tabel van alle RPC-diensten geregistreerd op localhost:
@@ -15,7 +15,7 @@
 
 `rpcinfo -m`
 
-- Toon lijst van items van een bepaalde service naam (mountd) en versienummer (2) op een remote nfs-share:
+- Toon lijst van items van een bepaalde servicenaam (mountd) en versienummer (2) op een remote nfs-share:
 
 `rpcinfo -l {{remote_nfs_server_ip}} {{mountd}} {{2}}`
 

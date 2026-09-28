@@ -6,7 +6,7 @@
 
 - Voeg verbinding toe aan een S3-server:
 
-`mc alias set {{local}} {{http://localhost:9000}} {{toegangssleutel}} {{privésleutel}}`
+`mc alias set {{local}} {{http://localhost:9000}} {{toegangssleutel}} {{geheime_sleutel}}`
 
 - Maak een bucket aan:
 

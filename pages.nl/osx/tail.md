@@ -20,7 +20,7 @@
 
 `tail -f {{pad/naar/bestand}}`
 
-- Blijf het bestand lezen tot `<Ctrl c>`, ook als het bestand niet toegangelijk is:
+- Blijf het bestand lezen tot `<Ctrl c>`, ook als het bestand niet toegankelijk is:
 
 `tail -F {{pad/naar/bestand}}`
 

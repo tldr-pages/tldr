@@ -20,7 +20,7 @@
 
 `unzip -O {{gbk}} {{pad/naar/archief1.zip pad/naar/archief2.zip ...}}`
 
-- Toon de inhoud van specifiek archief zonder te extraheren:
+- Toon de inhoud van een specifiek archief zonder te extraheren:
 
 `unzip -l {{pad/naar/archief}}.zip`
 

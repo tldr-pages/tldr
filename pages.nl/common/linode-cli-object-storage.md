@@ -27,6 +27,6 @@
 
 `linode-cli object-storage keys create --label {{label}}`
 
-- Trek een access key terug voor Object Storage:
+- Trek een access key voor Object Storage in:
 
 `linode-cli object-storage keys revoke {{access_key_id}}`

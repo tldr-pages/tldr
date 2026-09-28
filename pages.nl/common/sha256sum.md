@@ -29,4 +29,4 @@
 
 - Controleer een bekende SHA256 checksum van een bestand:
 
-`echo {{bekende_sha256_checksum_van_een_bestand}} {{pad/naar/bestand}} | sha256sum {{[-c|--check]}}`
+`echo {{bekende_sha256_checksum_van_het_bestand}} {{pad/naar/bestand}} | sha256sum {{[-c|--check]}}`

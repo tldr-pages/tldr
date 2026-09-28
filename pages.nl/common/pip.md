@@ -28,7 +28,7 @@
 
 `pip list`
 
-- Toon informatie over geïnstalleerde pakketten:
+- Toon informatie over een geïnstalleerd pakket:
 
 `pip show {{pakket}}`
 

@@ -7,7 +7,7 @@
 
 `git lfs install`
 
-- Tieni traccia dei file che soddisfano un criterio glob:
+- Tieni traccia dei file che soddisfano un criterio `glob`:
 
 `git lfs track '{{*.bin}}'`
 

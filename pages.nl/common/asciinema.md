@@ -1,6 +1,6 @@
 # asciinema
 
-> Neemt op en speelt terminal sessies af en deelt hem optioneel op asciinema.org.
+> Neem op en speel terminal sessies af, en deel ze optioneel op <https://asciinema.org>.
 > Zie ook: `terminalizer`, `agg`.
 > Meer informatie: <https://docs.asciinema.org/manual/cli/>.
 

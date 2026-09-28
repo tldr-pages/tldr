@@ -13,7 +13,7 @@
 
 - `Gemfile` 에 정의된 규칙에 따라 모든 gem을 업데이트 하고 `Gemfile.lock`을 재생성:
 
-`bundle update`
+`bundle update --all`
 
 - `Gemfile`에 정의된 하나 이상의 특정 gem을 업데이트:
 

@@ -1,9 +1,9 @@
 # git cherry
 
-> Recherche des commits qui n'ont pas encore été appliqués en amont.
+> Recherche des validations qui n'ont pas encore été appliquées en amont.
 > Plus d'informations : <https://git-scm.com/docs/git-cherry>.
 
-- Affiche les commits (et leurs messages) avec des commits équivalents en amont :
+- Affiche les validations (et leurs messages) avec des validations équivalentes en amont :
 
 `git cherry {{[-v|--verbose]}}`
 

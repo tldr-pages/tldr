@@ -11,7 +11,7 @@
 
 `xcopy {{ruta\al\archivo_o_directorio}} {{ruta\al\directorio_de_destino}} /p`
 
-- Copiar solo la estructura del directorio, excluyendo archivos:
+- Copia solo la estructura del directorio, excluyendo archivos:
 
 `xcopy {{ruta\al\archivo_o_directorio}} {{ruta\al\directorio_de_destino}} /t`
 
@@ -19,11 +19,11 @@
 
 `xcopy {{ruta\al\archivo_o_directorio}} {{ruta\al\directorio_de_destino}} /e`
 
-- Mantener el ACL de origen en el destino:
+- Mantiene el ACL de origen en el destino:
 
 `xcopy {{ruta\al\archivo_o_directorio}} {{ruta\al\directorio_de_destino}} /o`
 
-- Permitir reanudar cuando se pierde la conexión de red:
+- Permite reanudar cuando se pierde la conexión de red:
 
 `xcopy {{ruta\al\archivo_o_directorio}} {{ruta\al\directorio_de_destino}} /z`
 

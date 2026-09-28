@@ -24,7 +24,7 @@
 
 `mpv --sub-file={{pad/naar/bestand}}`
 
-- Maak een screenshot van het huidige frame (standaard opgeslagen als `./mpv-shotNNNN.jpg`):
+- Maak een screenshot van het huidige frame (standaard opgeslagen als `mpv-shotNNNN.jpg`):
 
 `<s>`
 

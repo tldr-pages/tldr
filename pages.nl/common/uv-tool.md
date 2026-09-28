@@ -11,7 +11,7 @@
 
 `uv tool install {{pakket}}`
 
-- Upgrade een geïnstalleerde Python-pakket:
+- Upgrade een geïnstalleerd Python-pakket:
 
 `uv tool upgrade {{pakket}}`
 

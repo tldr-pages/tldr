@@ -32,6 +32,6 @@
 
 `mv -Confirm {{path\to\source}} {{path\to\target}}`
 
-- Simulate moving files, showing files and directories which could be moved without executing them:
+- Simulate moving files, showing the files and directories which could be moved without executing them:
 
 `mv -WhatIf {{path\to\source}} {{path\to\target}}`

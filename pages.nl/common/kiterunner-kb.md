@@ -10,7 +10,7 @@
 
 - Converteer een kite bestand naar een tekst woordenlijst:
 
-`kiterunner kb convert {{pad/naar/woordenlijst.kite}} {{pad/naar/woordlijst.txt}}`
+`kiterunner kb convert {{pad/naar/woordenlijst.kite}} {{pad/naar/woordenlijst.txt}}`
 
 - Converteer een tekst woordenlijst naar een kite bestand:
 
@@ -24,11 +24,11 @@
 
 `kiterunner kb parse {{pad/naar/woordenlijst.json}} {{[-o|--output]}} {{json}}`
 
-- Parseer een vliegerbestand en voer opgemaakte tekstgegevens uit:
+- Parseer een kite bestand en voer opgemaakte tekstgegevens uit:
 
 `kiterunner kb parse {{pad/naar/woordenlijst.kite}} {{[-o|--output]}} {{text}}`
 
-- Een specifiek verzoek van een kitebuilder schema-uitvoer opnieuw afspelen:
+- Speel een specifiek verzoek van een kitebuilder schema-uitvoer opnieuw af:
 
 `kiterunner kb replay {{[-w|--kitebuilder-list]}} {{pad/naar/woordenlijst.kite}} "{{request_output}}"`
 

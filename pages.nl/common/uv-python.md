@@ -13,7 +13,7 @@
 
 - Verwijder een Python-versie:
 
-`uv python uninstall {{version}}`
+`uv python uninstall {{versie}}`
 
 - Zoek naar een Python-installatie:
 

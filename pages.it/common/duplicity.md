@@ -10,11 +10,11 @@
 
 - Esegui il backup di una directory in un server Amazon S3, facendo un backup completo ogni mese:
 
-`duplicity --full-if-older-than {{1M}} s3://{{nome_bucket[/prefisso]}}`
+`duplicity --full-if-older-than {{1M}} s3://{{nome_bucket/prefisso}}`
 
 - Elimina le versioni più vecchie di un anno da un backup salvato in un server WebDAV:
 
-`FTP_PASSWORD={{password_login_webdav}} duplicity remove-older-than {{1Y}} --force {{webdav[s]://utente@hostname[:porta]/directory}}`
+`FTP_PASSWORD={{password_login_webdav}} duplicity remove-older-than {{1Y}} --force {{webdav://utente@hostname:porta/directory}}`
 
 - Elenca i backup disponibili:
 

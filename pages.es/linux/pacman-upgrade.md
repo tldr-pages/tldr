@@ -1,6 +1,6 @@
 # pacman --upgrade
 
-> Instalar paquetes manualmente a partir de archivos comprimidos.
+> Instala paquetes manualmente a partir de archivos comprimidos.
 > Vea también: `pacman`.
 > Más información: <https://manned.org/pacman.8>.
 

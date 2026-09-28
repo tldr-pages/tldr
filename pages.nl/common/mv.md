@@ -31,6 +31,6 @@
 
 `mv {{[-v|--verbose]}} {{pad/naar/bron}} {{pad/naar/doel}}`
 
-- Specificeer de doelmap (handig in situaties waarin de doelmap het eerste argument moet zijn):
+- Specificeer de doelmap zodat je externe tools kunt gebruiken om verplaatsbare bestanden te verzamelen:
 
 `{{find /var/log -type f -name '*.log' -print0}} | {{xargs -0}} mv {{[-t|--target-directory]}} {{pad/naar/doel_map}}`

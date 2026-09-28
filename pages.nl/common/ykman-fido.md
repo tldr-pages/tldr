@@ -17,7 +17,7 @@
 
 - Verwijder specifieke inloggegevens van de YubiKey:
 
-`ykman fido credentials delete {{id}}`
+`ykman fido credentials delete {{inloggegevens_id}}`
 
 - Toon vingerafdrukken opgeslagen op de YubiKey (vereist een sleutel met een vingerafdruk sensor):
 

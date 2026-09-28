@@ -20,6 +20,6 @@
 
 `flock {{[-w|--timeout]}} 10 {{pad/naar/lock.lock}} {{commando}}`
 
-- Maak een back-up van een aantal bestanden, wacht tot het vorige `tar`-commando klaar is als deze nog wordt uitgevoerd en houd dezelfde bestandlock vast (kan gebruikt worden in een `cron` job die periodiek wordt uitgevoerd):
+- Maak een back-up van een aantal bestanden, wacht tot het vorige `tar`-commando klaar is als deze nog wordt uitgevoerd en houd dezelfde bestandslock vast (kan gebruikt worden in een `cron` job die periodiek wordt uitgevoerd):
 
 `flock {{pad/naar/backup.lock}} {{tar -cvf pad/naar/backup.tar pad/naar/data/}}`

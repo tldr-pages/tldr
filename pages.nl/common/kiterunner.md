@@ -11,10 +11,10 @@
 
 `tldr kiterunner scan`
 
-- Bekijken documentatie voor het manipuleren van kitebuilder schema's:
+- Bekijk documentatie voor het manipuleren van kitebuilder schema's:
 
 `tldr kiterunner kb`
 
-- Bekijken documentatie voor het beheren van woordenlijsten in de cache en op afstand:
+- Bekijk documentatie voor het beheren van woordenlijsten in de cache en op afstand:
 
 `tldr kiterunner wordlist`

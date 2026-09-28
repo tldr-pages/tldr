@@ -16,6 +16,6 @@
 
 `alex {{pad/naar/bestand.md}}`
 
-- Analyseer alle Markdown-bestanden behalve `example.md`:
+- Analyseer alle Markdown-bestanden behalve een opgegeven bestand:
 
-`alex *.md !example.md`
+`alex *.md !{{bestand.md}}`

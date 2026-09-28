@@ -1,9 +1,9 @@
 # gcrane
 
-> Beheer tool voor containerafbeeldingen.
+> Beheertool voor containerafbeeldingen.
 > Deze tool implementeert een superset van de `crane`-commando's, met aanvullende commando's die specifiek zijn voor Google Container Registry (`gcr.io`).
-> Sommige subcommando's zoals `append`, `auth`, `copy`, etc. hebben hun eigen documentatie die te vinden is onder `crane`.
-> Sommige subcommando's zoals `completion`, `gc`, `help` zijn specifiek voor gcrane en hebben hun eigen documentatie.
+> Sommige subcommando's zoals `copy`, `gc`, `help`, `ls` hebben hun eigen documentatie.
+> Zie ook: `crane`.
 > Meer informatie: <https://github.com/google/go-containerregistry/blob/main/cmd/gcrane/README.md>.
 
 - Log in op een register:
@@ -18,11 +18,11 @@
 
 `gcrane cp {{[-r|--recursive]}} {{bronregister}}/{{project_id}}/{{repository}} {{doelregister}}/{{project_id}}/{{repository}}`
 
-- Toon images die door de garbage collecter verzameld kunnen worden:
+- Toon images die door de garbage collector verzameld kunnen worden:
 
 `gcrane gc {{register}}/{{project_id}}/{{repository}}`
 
-- Verwijder images die door de garbage collecter verzameld kunnen worden:
+- Verwijder images die door de garbage collector verzameld kunnen worden:
 
 `gcrane gc {{register}}/{{project_id}}/{{repository}} | xargs {{[-n|--max-args]}} 1 gcrane delete`
 

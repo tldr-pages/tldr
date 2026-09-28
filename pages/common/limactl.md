@@ -24,7 +24,7 @@
 
 `limactl shell {{vm_name}} {{command}}`
 
-- Stop/shutdown a VM:
+- Stop/shut down a VM:
 
 `limactl stop {{vm_name}}`
 

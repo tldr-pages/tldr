@@ -8,7 +8,7 @@
 
 `detox {{path/to/file}}`
 
-- Show how detox would rename all the files in a directory tree:
+- Simulate renaming all the files in a directory tree, showing how they would be renamed:
 
 `detox {{[-n|--dry-run]}} -r {{path/to/directory}}`
 

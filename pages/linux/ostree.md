@@ -1,7 +1,7 @@
 # ostree
 
 > Version control for binary files similar to `git` but optimized for operating system root filesystems.
-> Foundation for immutable image-based operating systems such as Fedora Silverblue, Fedora IoT or Fedora CoreOS.
+> Foundation for immutable image-based operating systems such as Fedora Silverblue, Fedora IoT, or Fedora CoreOS.
 > More information: <https://ostreedev.github.io/ostree/>.
 
 - Initialize a repository of the files in `$PWD` with metadata in `$PWD/path/to/repo`:

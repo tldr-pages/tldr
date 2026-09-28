@@ -1,7 +1,7 @@
 # df
 
 > Exibe uma visão geral do uso de espaço de disco do sistema de arquivos.
-> Mais informações: <https://man.freebsd.org/cgi/man.cgi?df>.
+> Mais informações: <https://man.freebsd.org/cgi/man.cgi?query=df>.
 
 - Exibe todos os sistemas de arquivos e seu uso de disco usando unidades 512-bytes:
 

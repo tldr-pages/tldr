@@ -12,7 +12,7 @@
 
 `surfraw {{elvi_naam}} "{{zoektermen}}"`
 
-- Toon een elvi-beschijving en zijn specifieke opties:
+- Toon een elvi-beschrijving en zijn specifieke opties:
 
 `surfraw {{elvi_naam}} {{[-lh|-local-help]}}`
 

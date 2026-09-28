@@ -27,6 +27,6 @@
 
 `more {{ruta\al\archivo}} /e`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `more /?`

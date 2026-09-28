@@ -20,7 +20,7 @@
 
 `sudo abroot pkg apply`
 
-- Rollback your system to previous state:
+- Roll back your system to previous state:
 
 `sudo abroot rollback`
 

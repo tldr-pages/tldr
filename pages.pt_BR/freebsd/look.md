@@ -2,7 +2,7 @@
 
 > Exibe linhas começando com um prefixo em um arquivo ordenado.
 > Veja também: `grep`, `sort`.
-> Mais informações: <https://man.freebsd.org/cgi/man.cgi?look>.
+> Mais informações: <https://man.freebsd.org/cgi/man.cgi?query=look>.
 
 - Busca por linhas começando com um prefixo específico em um arquivo específico:
 

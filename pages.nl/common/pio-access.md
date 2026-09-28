@@ -1,6 +1,6 @@
 # pio access
 
-> Stel het toegangsniveau in op publieke bronnen (pakketten) in het register.
+> Stel het toegangsniveau in op gepubliceerde bronnen (pakketten) in het register.
 > Meer informatie: <https://docs.platformio.org/en/latest/core/userguide/access/>.
 
 - Verleen een gebruiker toegang tot een bron:
@@ -11,7 +11,7 @@
 
 `pio access revoke {{gebruikersnaam}} {{bron_urn}}`
 
-- Toon alle bronnen waartoe een gebruiker of team toegang tot heeft en het toegangsniveau:
+- Toon alle bronnen waartoe een gebruiker of team toegang heeft en het toegangsniveau:
 
 `pio access list {{gebruikersnaam}}`
 

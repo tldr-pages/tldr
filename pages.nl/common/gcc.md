@@ -8,7 +8,7 @@
 
 `gcc {{pad/naar/bron1.c pad/naar/bron2.c ...}} {{[-o|--output]}} {{pad/naar/uitvoerbaar_bestand}}`
 
-- Toon (bijna) alle fouten en waarschuwingen:
+- Toon alle fouten en waarschuwingen:
 
 `gcc {{pad/naar/bron.c}} -Wall {{[-o|--output]}} {{pad/naar/uitvoerbaar_bestand}}`
 
@@ -24,7 +24,7 @@
 
 `gcc {{[-S|--assemble]}} {{pad/naar/bron.c}}`
 
-- Compileer broncode zonder deze te linken:
+- Compileer broncode naar een objectbestand zonder deze te linken:
 
 `gcc {{[-c|--compile]}} {{pad/naar/bron.c}}`
 

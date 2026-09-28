@@ -3,14 +3,14 @@
 > Maak een kwantisatiekleurkaart voor een PNM afbeelding.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/pnmcolormap.html>.
 
-- Genereer een afbeelding met alleen `n_kleuren` of minder kleuren, zo dicht als mogelijk bij de invoer-afbeelding:
+- Genereer een afbeelding met alleen `n_kleuren` of minder kleuren, zo dicht als mogelijk bij de invoerafbeelding:
 
 `pnmcolormap {{n_kleuren}} {{pad/naar/invoer.pnm}} > {{pad/naar/uitvoer.ppm}}`
 
-- Gebruik de splitspread strategie voor het bepalen van de uitvoer-kleuren, welke waarschijnlijk een beter resultaat oplevert met afbeeldingen met kleine details:
+- Gebruik de splitspread strategie voor het bepalen van de uitvoer-kleuren, welke mogelijk een beter resultaat oplevert met afbeeldingen met kleine details:
 
 `pnmcolormap {{[-splits|-splitspread]}} {{n_kleuren}} {{pad/naar/invoer.pnm}} > {{pad/naar/uitvoer.ppm}}`
 
-- Sorteer de resulteerde kleurkaart, welke nuttig is voor het vergelijken van kleurkaarten:
+- Sorteer de resulterende kleurkaart, welke nuttig is voor het vergelijken van kleurkaarten:
 
 `pnmcolormap {{[-so|-sort]}} {{pad/naar/invoer.pnm}} > {{pad/naar/uitvoer.ppm}}`

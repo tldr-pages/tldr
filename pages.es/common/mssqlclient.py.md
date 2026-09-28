@@ -12,7 +12,7 @@
 
 `mssqlclient.py {{nombre de usuario}}:{{contraseña}}@{{destino}}`
 
-- Se conecta mediante autenticación «pass-the-hash»:
+- Se conecta mediante autenticación "pass-the-hash":
 
 `mssqlclient.py {{dominio}}/{{nombre de usuario}}@{{destino}} -hashes {{LM_Hash}}:{{NT_Hash}}`
 
@@ -24,7 +24,7 @@
 
 `mssqlclient.py {{nombre_de_usuario}}:{{contraseña}}@{{destino}} -query "{{SELECT nombre_de_usuario();}}"`
 
-- Ejecutar varios comandos SQL desde un archivo:
+- Ejecuta varios comandos SQL desde un archivo:
 
 `mssqlclient.py {{nombre_de_usuario}}:{{contraseña}}@{{destino}} -file {{ruta/al/archivo_sql.sql}}`
 

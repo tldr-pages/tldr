@@ -15,6 +15,6 @@
 
 `shuf {{pad/naar/invoer_bestand}} {{[-o|--output]}} {{pad/naar/uitvoer_bestand}}`
 
-- Genereer 3 willekeurige getallen in het bereik van 1 tot 10 (inclusief):
+- Genereer 3 willekeurige getallen in het bereik van 1 tot 10 (inclusief, getallen mogen herhaald worden):
 
 `shuf {{[-n|--head-count]}} 3 {{[-i|--input-range]}} 1-10 {{[-r|--repeat]}}`

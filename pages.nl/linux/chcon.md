@@ -18,7 +18,7 @@
 
 - Verander alleen het gebruikersgedeelte van de SELinux beveiligingscontext:
 
-`chcon {{[-u|--user]}} {{user}} {{bestandsnaam}}`
+`chcon {{[-u|--user]}} {{gebruiker}} {{bestandsnaam}}`
 
 - Verander alleen het rolgedeelte van de SELinux beveiligingscontext:
 

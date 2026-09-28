@@ -11,15 +11,15 @@
 
 `octez-client gen keys {{alias}}`
 
-- Obtén el saldo de una cuenta por alias o dirección:
+- Obtiene el saldo de una cuenta por alias o dirección:
 
 `octez-client get balance for {{alias_o_dirección}}`
 
-- Transfiere tez a otra cuenta:
+- Transfiere a otra cuenta:
 
 `octez-client transfer {{5}} from {{alias|address}} to {{alias|address}}`
 
-- Crea (despliega) un contrato inteligente, le asignar un alias local y establece su almacenamiento inicial como un valor codificado por Michelson:
+- Crea (despliega) un contrato inteligente, le asigna un alias local y establece su almacenamiento inicial como un valor codificado por Michelson:
 
 `octez-client originate contract {{alias}} transferring {{0}} from {{alias|address}} running {{ruta/al/archivo_de_origen.tz}} --init "{{almacenamiento_inicial}}" --burn_cap {{1}}`
 
@@ -27,6 +27,6 @@
 
 `octez-client transfer {{0}} from {{alias|address}} to {{contract}} --entrypoint "{{entrypoint}}" --arg "{{parámetro}}" --burn-cap {{1}}`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `octez-client man`

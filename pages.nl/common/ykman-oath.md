@@ -8,11 +8,11 @@
 
 `ykman oath info`
 
-- Verander het wachtwoord dat de OATH accounts beschermd (voeg `--clear` toe om het te verwijderen):
+- Verander het wachtwoord dat de OATH accounts beschermt (voeg `--clear` toe om het te verwijderen):
 
 `ykman oath access change`
 
-- Voeg een nieuw account toe (`--issuer` is optioneel):
+- Voeg een nieuw account toe (de indiener is optioneel):
 
 `ykman oath accounts add {{[-i|--issuer]}} {{indiener}} {{naam}}`
 

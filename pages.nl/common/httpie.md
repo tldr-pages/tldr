@@ -12,6 +12,6 @@
 
 `httpie cli plugins list`
 
-- Installeer/upgrade/installeer plugins:
+- Installeer/upgrade/deïnstalleer plugins:
 
 `httpie cli plugins {{install|upgrade|uninstall}} {{plugin_naam}}`

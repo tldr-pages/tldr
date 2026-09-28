@@ -16,7 +16,7 @@
 
 `sudo upgradepkg --reinstall {{path/to/package.tgz}}`
 
-- Preview what would happen without actually upgrading:
+- Simulate an upgrade, showing what would happen:
 
 `upgradepkg --dry-run {{path/to/package.tgz}}`
 

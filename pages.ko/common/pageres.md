@@ -9,11 +9,11 @@
 
 - 특정 URL에 대해 글로벌 옵션을 무시하고 특정 옵션 제공:
 
-`pageres [{{https://example.com/}} {{1366x768}} --no-crop] [{{https://example2.com/}} {{1024x768}}] --crop`
+`pageres [ {{https://example.com/}} {{1366x768}} --no-crop ] [ {{https://example2.com/}} {{1024x768}} ] {{[-c|--crop]}}`
 
 - 사용자 정의 파일명 템플릿 제공:
 
-`pageres {{https://example.com/}} {{1024x768}} --filename={{'<%= date %> - <%= url %>'}}`
+`pageres {{https://example.com/}} {{1024x768}} --filename='{{<%= date %> - <%= url %>}}'`
 
 - 페이지의 특정 요소 캡처:
 

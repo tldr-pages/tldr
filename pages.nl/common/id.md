@@ -4,7 +4,7 @@
 > Zie ook: `logname`.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/id-invocation.html>.
 
-- Toon de ID (UID), groep-ID (GID) en groepen waartoe de huidige gebruiker behoort:
+- Toon de ID (UID), groeps-ID (GID) en groepen waartoe de huidige gebruiker behoort:
 
 `id`
 
@@ -24,11 +24,11 @@
 
 `id {{[-g|--group]}}`
 
-- Toon alle groupen waartoe de huidige gebruiker behoort:
+- Toon alle groepen waartoe de huidige gebruiker behoort:
 
 `id {{[-Gn|--groups --name]}}`
 
-- Toon de ID (UID), groep-ID (GID) en groepen waartoe een willekeurige gebruiker behoort:
+- Toon de ID (UID), groeps-ID (GID) en groepen waartoe een willekeurige gebruiker behoort:
 
 `id {{gebruikersnaam}}`
 

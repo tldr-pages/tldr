@@ -7,7 +7,7 @@
 
 `cmd`
 
-- Voer specifieke [c]ommandos uit:
+- Voer specifieke [c]ommando's uit:
 
 `cmd /c {{echo cmd wordt uitgevoerd}}`
 

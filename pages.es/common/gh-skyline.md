@@ -32,6 +32,6 @@
 
 `gh skyline {{[-u|--user]}} {{nombre_de_usuario}} {{[-w|--web]}}`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `gh skyline {{[-h|--help]}}`

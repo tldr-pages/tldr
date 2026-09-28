@@ -1,6 +1,6 @@
 # nettacker
 
-> Automate information gathering, vulnerability scanning and eventually generate a report.
+> Automate information gathering, vulnerability scanning, and eventually generate a report.
 > More information: <https://nettacker.readthedocs.io/en/latest/Home/>.
 
 - List all available modules:

@@ -20,7 +20,7 @@
 
 `ned {{[-R|--recursive]}} --exclude '{{*.htm}}' '{{^[dl]og}}' {{.}}`
 
-- Simple replace:
+- Replace a string in all files in the current directory:
 
 `ned '{{dog}}' {{[-r|--replace]}} '{{cat}}' {{.}}`
 

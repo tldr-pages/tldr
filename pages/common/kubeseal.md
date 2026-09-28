@@ -15,7 +15,7 @@
 
 - Seal a secret using a specific controller namespace of sealed-secrets controller and name:
 
-`kubeseal < {{secret.yaml}} --controller-namespace {{controller-namespace}} --controller-name {{controller-name}} > {{sealedsecret.yaml}}`
+`kubeseal < {{secret.yaml}} --controller-namespace {{controller_namespace}} --controller-name {{controller_name}} > {{sealedsecret.yaml}}`
 
 - Encrypt a raw secret value from a file with a specified name and scope:
 

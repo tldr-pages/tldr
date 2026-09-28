@@ -1,7 +1,7 @@
 # slmgr.vbs
 
 > Installeer, activeer en beheer Windows licenties.
-> Gebruik `cscript` om dit programma te gebruiken via de CLI, of `wscript` voor een GUI.
+> Gebruik `cscript` om dit programma als CLI uit te voeren, of `wscript` voor een GUI.
 > Opmerking: dit commando kan uw huidige Windows licentie overschrijven, deactiveren en/of verwijderen, ga dus met voorzichtigheid verder.
 > Meer informatie: <https://learn.microsoft.com/windows-server/get-started/activation-slmgr-vbs-options>.
 
@@ -25,7 +25,7 @@
 
 `cscript slmgr.vbs /ato`
 
-- [a]c[t]iveer de Windows [p]roduct licentie offline. Vereist beheerdersrechten een bevestigings ID verstrekt door Microsoft Product Activation Center:
+- [a]c[t]iveer de Windows [p]roduct licentie offline. Vereist beheerdersrechten en een bevestigings-ID verstrekt door Microsoft Product Activation Center:
 
 `cscript slmgr.vbs /atp {{bevestigings_id}}`
 
@@ -33,6 +33,6 @@
 
 `cscript slmgr.vbs /cpky`
 
-- Deinstalleer de huidigie licentie (door zijn [p]roduct sleutel):
+- Deïnstalleer de huidige licentie (door zijn [p]roduct sleutel):
 
 `cscript slmgr.vbs /upk`

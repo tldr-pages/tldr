@@ -8,7 +8,7 @@
 
 `megatools-dl {{https://mega.nz/...}}`
 
-- Download bestanden van eem `mega.nz` link naar een specifieke map:
+- Download bestanden van een `mega.nz` link naar een specifieke map:
 
 `megatools-dl --path {{pad/naar/map}} {{https://mega.nz/...}}`
 
@@ -18,4 +18,4 @@
 
 - Beperk de downloadsnelheid in KiB/s:
 
-`megatools-dl --limit-speed {{speed}} {{https://mega.nz/...}}`
+`megatools-dl --limit-speed {{snelheid}} {{https://mega.nz/...}}`

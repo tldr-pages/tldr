@@ -8,7 +8,7 @@
 
 `pnmnorm {{pad/naar/afbeelding.pnm}} > {{pad/naar/uitvoer.pnm}}`
 
-- Forceer de helderste pixels om wit te zijn, de donkerste pixels om zwart te zijn en verspreid de tussenliggende pixels kwadratisch zodat pixels met een helderheid van `n` 50% helderder worden:
+- Forceer de helderste pixels om wit te zijn, de donkerste pixels om zwart te zijn en verspreid de tussenliggende pixels kwadratisch zodat pixels met een helderheid van `n` 50% helder worden:
 
 `pnmnorm {{[-midv|-midvalue]}} {{n}} {{pad/naar/afbeelding.pnm}} > {{pad/naar/uitvoer.pnm}}`
 

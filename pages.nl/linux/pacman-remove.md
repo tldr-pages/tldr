@@ -27,6 +27,6 @@
 
 `pacman -Rp {{pakket}}`
 
-- Toon [h]ulp:
+- Toon de [h]elp:
 
 `pacman -Rh`
