@@ -6,7 +6,7 @@
 
 - Voeg toe of pas interactief de gebruikersdatabase informatie aan voor de huidige gebruiker:
 
-`su -c chpass`
+`chpass`
 
 - Stel een specifieke login [s]hell in voor de huidige gebruiker:
 

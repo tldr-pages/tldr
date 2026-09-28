@@ -1,7 +1,7 @@
 # sockstat
 
 > 오픈된 인터넷 또는 UNIX 도메인 소켓을 나열합니다.
-> 더 많은 정보: <https://man.freebsd.org/cgi/man.cgi?sockstat>.
+> 더 많은 정보: <https://man.freebsd.org/cgi/man.cgi?query=sockstat>.
 
 - 어떤 사용자/프로세스가 어떤 포트에서 [l]istening하는지 보기:
 

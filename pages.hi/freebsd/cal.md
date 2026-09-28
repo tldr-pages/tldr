@@ -1,7 +1,7 @@
 # cal
 
 > वर्तमान दिन को हाइलाइट करते हुए एक कैलेंडर दिखाएँ।
-> अधिक जानकारी: <https://man.freebsd.org/cgi/man.cgi?cal>।
+> अधिक जानकारी: <https://man.freebsd.org/cgi/man.cgi?query=cal>।
 
 - वर्तमान महीने का कैलेंडर दिखाएँ:
 
