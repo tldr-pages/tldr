@@ -251,7 +251,7 @@ This file contains the translation templates of this label.
 ### pl
 
 ```markdown
-> Uwaga: This command is deprecated, use `example` instead.
+> Uwaga: Używanie tej komendy nie jest zalecane, zamiast niej użyj `example`.
 ```
 
 ---
