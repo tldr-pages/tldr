@@ -1,4 +1,4 @@
-# docker-build
+# docker build
 
 > ഈ കമാൻഡ് `docker buildx build` എന്നതിന്റെ അപരനാമമാണ്.
 
