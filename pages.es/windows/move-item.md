@@ -22,7 +22,7 @@
 
 - Mueve o renombra clave(s) del registro:
 
-`Move-Item {{ruta\al\clave_origen1 , ruta\al\clave_origen2 ...}} {{ruta\al\clave_nueva_o_existente}}`
+`Move-Item {{ruta\a\la\clave_origen1 , ruta\a\la\clave_origen2 ...}} {{ruta\a\la\clave_nueva_o_existente}}`
 
 - No solicita confirmación antes de sobrescribir archivos o claves del registro existentes:
 
