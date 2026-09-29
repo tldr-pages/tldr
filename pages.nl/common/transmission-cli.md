@@ -1,7 +1,7 @@
 # transmission-cli
 
 > Een lichtgewicht, command-line BitTorrent client.
-> Deze tool is verouderd, bekijk `transmission-remote`.
+> Opmerking: dit commando is verouderd, gebruik `transmission-remote` in plaats daarvan.
 > Meer informatie: <https://manned.org/transmission-cli>.
 
 - Download een specifieke torrent:
@@ -32,6 +32,6 @@
 
 `transmission-cli {{[-er|--encryption-required]}} {{url|magnet|pad/naar/bestand}}`
 
-- Gebruik een Bluetack-geformatteerde peer blocklist:
+- Gebruik een Bluetack-geformatteerde peer-blocklist:
 
 `transmission-cli {{[-b|--blocklist]}} {{blocklist_url|pad/naar/blocklist}} {{url|magnet|pad/naar/bestand}}`
