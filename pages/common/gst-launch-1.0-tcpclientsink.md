@@ -5,4 +5,4 @@
 
 - Send data to a server and specify its IP and port:
 
-`gst-launch-1.0 {{pipeline}} ! tcpclientsink host={{ip_address}} port={{port}}`
+`gst-launch-1.0 {{pipeline}} ! tcpclientsink host={{target_ip_address}}`
