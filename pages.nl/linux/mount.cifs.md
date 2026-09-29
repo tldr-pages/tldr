@@ -12,6 +12,6 @@
 
 `mount.cifs -o guest //{{server}}/{{share_naam}} {{mountpoint}}`
 
-- Stel eigendomsinformatie in voor de mounted map:
+- Stel eigendomsinformatie in voor de gemounte map:
 
 `mount.cifs -o uid={{gebruiker_id|gebruikersnaam}},gid={{groep_id|groepsnaam}} //{{server}}/{{share_naam}} {{mountpoint}}`

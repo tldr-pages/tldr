@@ -8,7 +8,7 @@
 
 `lrztar {{pad/naar/map}}`
 
-- Hetzelfde als hierboven, met ZPAQ - extreme compressie, maar erg langzaam:
+- Archiveer een map met `tar` en comprimeer dan met ZPAQ (extreme compressie, maar erg langzaam):
 
 `lrztar {{[-z|--zpaq]}} {{pad/naar/map}}`
 

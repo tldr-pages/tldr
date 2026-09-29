@@ -27,7 +27,7 @@
 
 `pacman -Qdtq`
 
-- Toon geïnstalleerde pakketten die vreemd ([m]) zijn aan de repository database:
+- Toon geïnstalleerde pakketten die vreemd ([m]) zijn aan de repositorydatabase:
 
 `pacman -Qm`
 
