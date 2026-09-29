@@ -11,7 +11,7 @@
 
 `crane index filter --platform {{platform1 platform2 ...}}`
 
-- Tag die toegepast moet worden op de resulterende image:
+- Pas een tag toe op de resulterende image:
 
 `crane index filter {{[-t|--tags]}} {{tag_naam}}`
 

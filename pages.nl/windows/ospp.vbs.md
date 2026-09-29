@@ -10,7 +10,7 @@
 
 `cscript ospp.vbs /inpkey:{{productcode}}`
 
-- Verwijder een geïnstalleerde productcode met de laatste vijf cijfers van de productcode:
+- Deïnstalleer een geïnstalleerde productcode met de laatste vijf cijfers van de productcode:
 
 `cscript ospp.vbs /unpkey:{{productcode_cijfers}}`
 
