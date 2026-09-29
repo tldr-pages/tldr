@@ -1,7 +1,7 @@
 # wacli
 
 > WhatsApp command-line client for sending messages, managing chats, and contacts.
-> Some subcommands such as `send`, `messages`, `chats`, and `contacts` have their own usage documentation.
+> Some subcommands such as `send`, `messages`, `chats`, `contacts`, etc. have their own usage documentation.
 > More information: <https://wacli.sh/>.
 
 - Authenticate via QR code:
