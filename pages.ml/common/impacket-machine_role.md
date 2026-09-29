@@ -4,4 +4,4 @@
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
 
-`tldr {{[-p|--platform]}} linux machine_role.py`
+`tldr machine_role.py`
