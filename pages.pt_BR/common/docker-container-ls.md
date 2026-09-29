@@ -33,4 +33,4 @@
 
 - Filtra contêineres que montem um volume específico ou tenham um volume montado em um caminho específico:
 
-`docker {{[ps|container ls]}} {{[-f|--filter]}} "volume={{caminho/para/diretório}}" --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Mounts}}"`
+`docker {{[ps|container ls]}} {{[-f|--filter]}} "volume={{caminho/para/diretório}}" --format "table \{\{.ID\}\}\t\{\{.Image\}\}\t\{\{.Names\}\}\t\{\{.Mounts\}\}"`
