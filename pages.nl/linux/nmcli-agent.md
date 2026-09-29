@@ -7,7 +7,7 @@
 
 `nmcli {{[a|agent]}} {{[s|secret]}}`
 
-- Registreer `nmcli` als een polkit agent en luister naar autorisatie verzoeken:
+- Registreer `nmcli` als een polkit agent en luister naar autorisatieverzoeken:
 
 `nmcli {{[a|agent]}} {{[p|polkit]}}`
 
