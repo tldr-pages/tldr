@@ -1,4 +1,4 @@
-# jj-root
+# jj root
 
 > ഈ കമാൻഡ് `jj workspace root` എന്നതിന്റെ അപരനാമമാണ്.
 
