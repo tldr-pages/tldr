@@ -5,4 +5,4 @@
 
 - Set up a server to receive data:
 
-`gst-launch-1.0 tcpserversrc port={{port}} ! {{pipeline}}`
+`gst-launch-1.0 tcpserversrc host={{accepted_ip_address}} ! {{pipeline}}`
