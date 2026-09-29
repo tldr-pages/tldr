@@ -1,7 +1,7 @@
 # sockstat
 
 > Lista sockets de domínio aberto Internet ou UNIX.
-> Mais informações: <https://man.freebsd.org/cgi/man.cgi?sockstat>.
+> Mais informações: <https://man.freebsd.org/cgi/man.cgi?query=sockstat>.
 
 - Vê quais usuários/processos estão [e]scutando em quais portas:
 

@@ -18,7 +18,7 @@
 
 - Baixa e instala uma versão específica do Xcode:
 
-`xcodes install {{versao-do-xcode}}`
+`xcodes install {{versao_do_xcode}}`
 
 - Baixa, instala e seleciona a versão mais recente do Xcode:
 
@@ -26,4 +26,4 @@
 
 - Baixa uma versão específica do Xcode para um diretório específico sem instalá-la:
 
-`xcodes download {{versao-do-xcode}} --directory {{caminho/para/diretorio}}`
+`xcodes download {{versao_do_xcode}} --directory {{caminho/para/diretorio}}`

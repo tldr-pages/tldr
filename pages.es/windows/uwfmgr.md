@@ -16,7 +16,7 @@
 
 `uwfmgr volume unprotect {{letra_de_unidad}}:`
 
-- Habilita o deshabilitar la protección (se aplica después del reinicio):
+- Habilita o deshabilita la protección (se aplica después del reinicio):
 
 `uwfmgr filter {{enable|disable}}`
 

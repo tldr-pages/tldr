@@ -10,7 +10,7 @@
 
 - Use a custom AWS profile and filter audited regions:
 
-`prowler aws {{[-p|--profile]}} {{custom-profile}} {{[-f|--filter-region]}} {{us-east-1 eu-south-2 ...}}`
+`prowler aws {{[-p|--profile]}} {{custom_profile}} {{[-f|--filter-region]}} {{us-east-1 eu-south-2 ...}}`
 
 - Run checks for selected AWS services:
 

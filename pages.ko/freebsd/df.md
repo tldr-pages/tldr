@@ -1,7 +1,7 @@
 # df
 
 > 파일 시스템 디스크 공간 사용량 개요를 표시합니다.
-> 더 많은 정보: <https://man.freebsd.org/cgi/man.cgi?df>.
+> 더 많은 정보: <https://man.freebsd.org/cgi/man.cgi?query=df>.
 
 - 512바이트 단위로 모든 파일 시스템과 디스크 사용량 표시:
 
@@ -13,7 +13,7 @@
 
 - [H]uman-readable(1000의 거듭제곱에 기반한) 단위 사용:
 
-`df -{{-si|H}}`
+`df -H`
 
 - 주어진 파일 또는 디렉토리를 포함하는 파일 시스템 및 디스크 사용량 표시:
 

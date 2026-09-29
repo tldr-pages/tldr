@@ -2,7 +2,7 @@
 
 > Edita texto de uma maneira programável.
 > Veja também: `awk`, `ed`.
-> Mais informações: <https://man.freebsd.org/cgi/man.cgi?sed>.
+> Mais informações: <https://man.freebsd.org/cgi/man.cgi?query=sed>.
 
 - Substitui todas as ocorrências de `maçã` (`regex` básico) por `manga` (`regex` básico) em todas as linhas de entrada e imprime o resultado para `stdout`:
 
@@ -14,7 +14,7 @@
 
 - Atrasa a abertura de cada arquivo até que um comando contendo a função ou flag `w` relacionada seja aplicada a linha de entrada:
 
-`{{comando}} | sed -fa {{caminho/para/script.sed}}`
+`{{comando}} | sed -af {{caminho/para/script.sed}}`
 
 - Substitui todas as ocorrências de `maçã` (`regex` extendido) por `MAÇÃ` (`regex` extendido) em todas as linhas de entrada e imprime o resultado para `stdout`:
 
