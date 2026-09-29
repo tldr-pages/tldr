@@ -21,10 +21,6 @@
 
 `tmux {{[a|attach]}} -t {{name}}`
 
-- Attach to the most recently used session:
-
-`tmux {{[a|attach]}}`
-
 - Detach from the current session (inside a tmux session):
 
 `<Ctrl b><d>`
