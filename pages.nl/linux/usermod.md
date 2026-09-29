@@ -24,7 +24,7 @@
 
 `sudo usermod {{[-rG|--remove --groups]}} {{groep1,groep2,...}} {{gebruikersnaam}}`
 
-- Verander een gebruikers thuismap:
+- Verander een gebruikersthuismap:
 
 `sudo usermod {{[-m|--move-home]}} {{[-d|--home]}} {{pad/naar/nieuwe_thuismap}} {{gebruikersnaam}}`
 
