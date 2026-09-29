@@ -24,7 +24,7 @@
 
 `uv add --group {{groep}} {{pakket1 pakket2 ...}}`
 
-- Voeg pakketten toe aan de dev groep, afkorting voor `--group dev`:
+- Voeg pakketten toe aan de dev-groep, afkorting voor `--group dev`:
 
 `uv add --dev {{pakket1 pakket2 ...}}`
 
