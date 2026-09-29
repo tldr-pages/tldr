@@ -32,6 +32,6 @@
 
 `aws dynamodb update-table --generate-cli-skeleton`
 
-- Voir l'aide pour une commande AWS :
+- Affiche l'aide pour une commande AWS :
 
 `aws {{commande}} help`
