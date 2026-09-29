@@ -1,6 +1,6 @@
 # pkgin
 
-> Beheer `pkgsrc` binary pakketten op NetBSD.
+> Beheer `pkgsrc` binaire pakketten op NetBSD.
 > Meer informatie: <https://pkgin.net/#usage>.
 
 - Installeer een pakket:
