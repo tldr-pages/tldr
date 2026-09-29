@@ -4,4 +4,4 @@
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
 
-`tldr {{[-p|--platform]}} linux mc.cli`
+`tldr mc.cli`
