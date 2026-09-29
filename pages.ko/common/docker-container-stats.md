@@ -13,7 +13,7 @@
 
 - 컨테이너의 CPU 사용률을 표시하도록 열 형식을 변경:
 
-`docker {{[stats|container stats]}} --format "{{.Name}}:\t{{.CPUPerc}}"`
+`docker {{[stats|container stats]}} --format "\{\{.Name\}\}:\t\{\{.CPUPerc\}\}"`
 
 - 모든 컨테이너(실행 중 및 중지된)의 통계를 표시:
 

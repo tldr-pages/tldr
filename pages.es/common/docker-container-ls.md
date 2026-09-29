@@ -33,4 +33,4 @@
 
 - Filtra contenedores que montan un volumen específico o tienen un volumen montado en una ruta específica:
 
-`docker {{[ps|container ls]}} {{[-f|--filter]}} "volume={{ruta/a/directorio}}" --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Mounts}}"`
+`docker {{[ps|container ls]}} {{[-f|--filter]}} "volume={{ruta/a/directorio}}" --format "table \{\{.ID\}\}\t\{\{.Image\}\}\t\{\{.Names\}\}\t\{\{.Mounts\}\}"`

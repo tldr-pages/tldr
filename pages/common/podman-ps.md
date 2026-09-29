@@ -33,4 +33,4 @@
 
 - Filter containers that mount a specific volume or have a volume mounted in a specific path:
 
-`podman ps {{[-f|--filter]}} "volume={{path/to/directory}}" --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Mounts}}"`
+`podman ps {{[-f|--filter]}} "volume={{path/to/directory}}" --format "table \{\{.ID\}\}\t\{\{.Image\}\}\t\{\{.Names\}\}\t\{\{.Mounts\}\}"`

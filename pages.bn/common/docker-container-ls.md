@@ -33,4 +33,4 @@
 
 - নির্দিষ্ট একটি ভলিউম মাউন্ট করা বা নির্দিষ্ট পথে ভলিউম মাউন্ট থাকা কন্টেইনারগুলো ফিল্টার করুন:
 
-`docker {{[ps|container ls]}} {{[-f|--filter]}} "volume={{path/to/directory}}" --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Mounts}}"`
+`docker {{[ps|container ls]}} {{[-f|--filter]}} "volume={{path/to/directory}}" --format "table \{\{.ID\}\}\t\{\{.Image\}\}\t\{\{.Names\}\}\t\{\{.Mounts\}\}"`

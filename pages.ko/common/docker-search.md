@@ -25,4 +25,4 @@
 
 - 출력 형식 커스터마이징:
 
-`docker search {{[-f|--format]}} "{{.Name}}: {{.Description}}" {{키워드}}`
+`docker search {{[-f|--format]}} "\{\{.Name\}\}: \{\{.Description\}\}" {{키워드}}`
