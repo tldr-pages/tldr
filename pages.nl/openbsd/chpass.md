@@ -1,6 +1,6 @@
 # chpass
 
-> Gebruikersdatabase informatie toevoegen of wijzigen, inclusief login shell en wachtwoord.
+> Gebruikersdatabase-informatie toevoegen of wijzigen, inclusief login shell en wachtwoord.
 > Zie ook: `passwd`.
 > Meer informatie: <https://man.openbsd.org/chpass>.
 

@@ -20,11 +20,11 @@
 
 `adb install -r {{pad/naar/bestand}}.apk`
 
-- Kopiëer een bestand/map van het doelapparaat:
+- Kopieer een bestand/map van het doelapparaat:
 
 `adb pull {{pad/naar/extern/bestand_of_map}} {{pad/naar/lokaal/bestand_of_map}}`
 
-- Kopiëer een bestand/map naar het doelapparaat:
+- Kopieer een bestand/map naar het doelapparaat:
 
 `adb push {{pad/naar/lokaal/bestand_of_map}} {{pad/naar/extern/bestand_of_map}}`
 

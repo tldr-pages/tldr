@@ -24,7 +24,7 @@
 
 `tldr reg {{export|import}}`
 
-- Bekijk de documentatie voor het opslaan, herstellen en het lossen van sleutels met behoud van de eigenaar en ACLs:
+- Bekijk de documentatie voor het opslaan, herstellen, laden en ontladen van sleutels met behoud van de eigenaar en ACLs:
 
 `tldr reg {{save|restore|load|unload}}`
 
