@@ -17,6 +17,10 @@
 
 `tmux {{[ls|list-sessions]}}`
 
+- Attach to the session:
+
+`tmux {{[a|attach]}} -t {{name}}`
+
 - Attach to the most recently used session:
 
 `tmux {{[a|attach]}}`
