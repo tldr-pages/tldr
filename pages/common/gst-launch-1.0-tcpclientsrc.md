@@ -5,4 +5,4 @@
 
 - Receive data from a server that is waiting to transmit it:
 
-` gst-launch-1.0 tcpclientsrc port={{port}} ! {{pipeline}}`
+`gst-launch-1.0 tcpclientsrc port={{port}} ! {{pipeline}}`
