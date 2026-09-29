@@ -20,6 +20,6 @@
 
 `setcap -v '{{cap_net_raw}}' {{path/to/file}}`
 
-- The optional `-n root_uid` argument can be used to set the file capability for use only in a user namespace with this root user ID owner:
+- Set the file capability for use only in a user namespace with a specific root user ID owner:
 
 `setcap -n {{root_uid}} '{{cap_net_admin}}' {{path/to/file}}`

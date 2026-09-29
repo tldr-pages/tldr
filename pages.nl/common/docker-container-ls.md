@@ -33,4 +33,4 @@
 
 - Filter containers die gekoppeld zijn aan een specifiek volume of waarvan het volume op een specifiek pad is gekoppeld:
 
-`docker {{[ps|container ls]}} {{[-f|--filter]}} "volume={{pad/naar/map}}" --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Mounts}}"`
+`docker {{[ps|container ls]}} {{[-f|--filter]}} "volume={{pad/naar/map}}" --format "table \{\{.ID\}\}\t\{\{.Image\}\}\t\{\{.Names\}\}\t\{\{.Mounts\}\}"`

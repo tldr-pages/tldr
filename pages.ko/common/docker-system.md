@@ -29,7 +29,7 @@
 
 - 유효한 JSON 라인으로 스트리밍되는 컨테이너의 실시간 이벤트 표시:
 
-`docker system events {{[-f|--filter]}} 'type=container' --format '{{json .}}'`
+`docker system events {{[-f|--filter]}} 'type=container' --format '\{\{json .\}\}'`
 
 - 시스템 전반의 정보 표시:
 

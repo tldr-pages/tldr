@@ -11,7 +11,7 @@
 
 `fossil {{[ci|commit]}} {{[-m|--comment]}} "{{opmerking}}"`
 
-- Maak een nieuwe versie met alle aanpassingen in de huidige checkout met een comment ingelezen vanaf een specifiek bestand:
+- Maak een nieuwe versie met alle aanpassingen in de huidige checkout met een opmerking ingelezen vanaf een specifiek bestand:
 
 `fossil {{[ci|commit]}} {{[-M|--message-file]}} {{pad/naar/commit_message_bestand}}`
 

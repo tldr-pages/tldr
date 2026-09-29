@@ -9,7 +9,7 @@
 
 `rename 's/{{van}}/{{naar}}/' {{*.txt}}`
 
-- Dry-run - toon welke veranderingen zouden plaatsvinden zonder ze uit te voeren:
+- Toon welke veranderingen zouden plaatsvinden zonder ze uit te voeren (dry-run):
 
 `rename -n 's/{{van}}/{{naar}}/' {{*.txt}}`
 

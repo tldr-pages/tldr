@@ -13,7 +13,7 @@
 
 - Ändere das Spaltenformat um die CPU Auslastung von Containern in Prozent anzuzeigen:
 
-`docker {{[stats|container stats]}} --format "{{.Name}}:\t{{.CPUPerc}}"`
+`docker {{[stats|container stats]}} --format "\{\{.Name\}\}:\t\{\{.CPUPerc\}\}"`
 
 - Zeige Statistiken für alle Container (laufende und gestoppte):
 
