@@ -17,7 +17,7 @@
 
 - Publish a message to a specific topic or phone number and show the message ID:
 
-`aws sns publish {{--topic-arn "arn:aws:sns:us-west-2:123456789012:topic-name"||--phone-number +1-555-555-0100}} --message file://{{path/to/file}}`
+`aws sns publish {{--topic-arn "arn:aws:sns:us-west-2:123456789012:topic-name"|--phone-number +1-555-555-0100}} --message file://{{path/to/file}}`
 
 - Delete the subscription with a specific ARN from its topic:
 
