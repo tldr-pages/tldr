@@ -11,7 +11,7 @@
 
 `prstat -s rss`
 
-- Bekijk het totaal gebruik voor elke gebruiker:
+- Bekijk het totaalgebruik voor elke gebruiker:
 
 `prstat -t`
 

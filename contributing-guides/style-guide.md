@@ -303,6 +303,13 @@ When linking pages to websites that have locale settings like the Microsoft Lear
 > Some subcommands such as `commit`, `add`, `branch`, `switch`, `push`, etc. have their own usage documentation.
 ```
 
+- If the listed subcommands are not all the subcommands that have their own page, end the list with `etc.`. If every subcommand with its own page is listed, omit `etc.` and join the last item with `and` instead:
+
+```md
+> Some subcommands such as `append` and `filter` have their own usage documentation.
+> Some subcommands such as `delete`, `list`, and `set` have their own usage documentation.
+```
+
 #### Heading order
 
 The heading should adhere to the following order:
@@ -311,7 +318,7 @@ The heading should adhere to the following order:
 > Short description of the functionality.
 > Further clarification of the functionality.
 > Note: Any note for the usage.
-> Some subcommands such as `subcommand1`, `subcommand2` have their own usage documentation.
+> Some subcommands such as `subcommand1`, `subcommand2`, etc. have their own usage documentation.
 > See also: `command`.
 > More information: <https://example.com>.
 ```
