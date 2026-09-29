@@ -12,7 +12,7 @@
 
 `podman import {{https://example.com/image.tar}} {{image:tag}}`
 
-- Importeer een tarball en voeg een commit bericht toe:
+- Importeer een tarball en voeg een commitbericht toe:
 
 `podman import {{[-m|--message]}} "{{commit_bericht}}" {{pad/naar/tarball.tar}} {{image:tag}}`
 

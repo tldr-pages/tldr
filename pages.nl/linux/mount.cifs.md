@@ -4,7 +4,7 @@
 > Opmerking: u kunt ook hetzelfde doen door de optie `-t cifs` door te geven aan `mount`.
 > Meer informatie: <https://manned.org/mount.cifs>.
 
-- Verbinding maken met de opgegeven gebruikersnaam of `$USER` als standaard (u wordt gevraagd om een wachtwoord):
+- Maak verbinding met de opgegeven gebruikersnaam of `$USER` als standaard (u wordt gevraagd om een wachtwoord):
 
 `mount.cifs -o user={{gebruikersnaam}} //{{server}}/{{share_naam}} {{mountpoint}}`
 
