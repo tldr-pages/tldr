@@ -15,7 +15,7 @@
 
 `linode-cli object-storage buckets delete {{cluster_id}} {{bucket_label}}`
 
-- Toon alle Object Storage cluster regio's:
+- Toon alle Object Storage clusterregio's:
 
 `linode-cli object-storage clusters list`
 
@@ -23,7 +23,7 @@
 
 `linode-cli object-storage keys list`
 
-- Maak een nieuw access key voor Object Storage:
+- Maak een nieuwe access key voor Object Storage:
 
 `linode-cli object-storage keys create --label {{label}}`
 
