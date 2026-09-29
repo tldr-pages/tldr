@@ -28,7 +28,7 @@
 
 `fc '{{416}}' '{{420}}'`
 
-- Run the previous command immediately without opening an editor and replace all occurences of a string with another string:
+- Run the previous command immediately without opening an editor and replace all occurrences of a string with another string:
 
 `fc -s {{string1}}={{string2}}`
 
