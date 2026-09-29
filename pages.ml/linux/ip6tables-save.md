@@ -1,7 +1,7 @@
 # ip6tables-save
 
-> ഈ കമാൻഡ് GNU `iptables-save` എന്നതിന്റെ അപരനാമമാണ്.
+> ഈ കമാൻഡ് IPv6 ഫയർവാളിനായുള്ള `iptables` എന്നതിന്റെ അപരനാമമാണ്.
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
 
-`tldr {{[-p|--platform]}} linux iptables-save`
+`tldr iptables-save`
