@@ -1,4 +1,4 @@
-# podman-container-commit
+# podman container commit
 
 > ഈ കമാൻഡ് `podman commit` എന്നതിന്റെ അപരനാമമാണ്.
 
