@@ -15,7 +15,7 @@
 
 `adb install -r {{pad/naar/bestand}}.apk`
 
-- Push een Android-applicatie die downgrade van versiecode mogelijk maakt (alleen foutopsporingspakketten):
+- Push een Android-applicatie en sta downgrade van de versiecode toe (alleen foutopsporingspakketten):
 
 `adb install -d {{pad/naar/bestand}}.apk`
 
