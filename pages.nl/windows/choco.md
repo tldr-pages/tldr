@@ -1,6 +1,6 @@
 # choco
 
-> De Chocolatey pakket manager.
+> De Chocolatey pakketmanager.
 > Sommige subcommando's zoals `install`, `upgrade`, `pin` hebben hun eigen documentatie.
 > Meer informatie: <https://docs.chocolatey.org/en-us/choco/commands/>.
 

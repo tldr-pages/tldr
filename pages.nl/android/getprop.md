@@ -1,9 +1,9 @@
 # getprop
 
-> Toon informatie over Android systeemeigenschappen.
+> Toon informatie over Android-systeemeigenschappen.
 > Meer informatie: <https://manned.org/getprop>.
 
-- Toon informatie over Android systeemeigenschappen:
+- Toon informatie over Android-systeemeigenschappen:
 
 `getprop`
 
@@ -15,11 +15,11 @@
 
 `getprop {{ro.build.version.sdk}}`
 
-- Toon de Android versie:
+- Toon de Android-versie:
 
 `getprop {{ro.build.version.release}}`
 
-- Toon het Android apparaatmodel:
+- Toon het Android-apparaatmodel:
 
 `getprop {{ro.vendor.product.model}}`
 
@@ -27,6 +27,6 @@
 
 `getprop {{ro.oem_unlock_supported}}`
 
-- Toon het MAC adres van de Android's Wi-Fi kaart:
+- Toon het MAC-adres van de Android's Wi-Fi kaart:
 
 `getprop {{ro.boot.wifimacaddr}}`
