@@ -19,7 +19,7 @@
 
 `df {{pad/naar/bestand_of_map}}`
 
-- Neem statistieken op over het aantal beschikbare en gebruikte [i]-knooppunten inclusief de bestandssysteem [T]ypes:
+- Neem statistieken op over het aantal beschikbare en gebruikte [i]-knooppunten, inclusief de bestandssysteem[T]ypen:
 
 `df -iT`
 
