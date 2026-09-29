@@ -19,7 +19,7 @@
 
 `lvm_import_vdo --no-snapshot {{/dev/mapper/vdo_volume}}`
 
-- Verbose output and automatically answer "yes" to prompts:
+- Convert a VDO volume with verbose output and automatically answer "yes" to prompts:
 
 `lvm_import_vdo {{[-v|--verbose]}} {{[-y|--yes]}} {{/dev/mapper/vdo_volume}}`
 

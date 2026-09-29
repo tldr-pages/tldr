@@ -15,7 +15,7 @@
 
 - WebDAV 공유에 저장된 백업에서 1년이 넘은 버전을 삭제:
 
-`FTP_PASSWORD={{webdav_로그인_비밀번호}} duplicity remove-older-than {{1Y}} --force {{webdav[s]://사용자@호스트명[:포트]/일부_디렉토리}}`
+`FTP_PASSWORD={{webdav_로그인_비밀번호}} duplicity remove-older-than {{1Y}} --force {{webdav://사용자@호스트명:포트/일부_디렉토리}}`
 
 - 사용 가능한 백업을 나열:
 

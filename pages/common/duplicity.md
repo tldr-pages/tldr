@@ -15,7 +15,7 @@
 
 - Delete versions older than 1 year from a backup stored on a WebDAV share:
 
-`FTP_PASSWORD={{webdav_login_password}} duplicity remove-older-than {{1Y}} --force {{webdav[s]://user@hostname[:port]/some_directory}}`
+`FTP_PASSWORD={{webdav_login_password}} duplicity remove-older-than {{1Y}} --force {{webdav://user@hostname:port/some_directory}}`
 
 - List the available backups:
 
