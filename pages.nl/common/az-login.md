@@ -16,7 +16,7 @@
 
 `az login --service-principal {{[-u|--username]}} {{http://azure-cli-service-principal}} {{[-p|--password]}} {{pad/naar/cert.pem}} {{[-t|--tenant]}} {{iemand.onmicrosoft.com}}`
 
-- Log in met de door de systeem toegewezen identiteit van een VM:
+- Log in met de door het systeem toegewezen identiteit van een VM:
 
 `az login {{[-i|--identity]}}`
 

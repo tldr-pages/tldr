@@ -15,9 +15,9 @@
 
 `gh {{[cs|codespace]}} ssh`
 
-- Kopieer interactief een specifiek bestand naar de codespace:
+- Kopieer interactief een specifiek bestand naar een codespace:
 
-`gh {{[cs|codespace]}} cp {{pad/naar/bron_file}} remote:{{pad/naar/remote_bestand}}`
+`gh {{[cs|codespace]}} cp {{pad/naar/bronbestand}} remote:{{pad/naar/remote_bestand}}`
 
 - Toon interactief de poorten van een codespace:
 
