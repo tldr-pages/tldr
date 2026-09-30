@@ -11,7 +11,7 @@
 
 `bun {{[c|create]}} {{template}} {{pad/naar/bestemming}}`
 
-- Maak een nieuw project van een GitHub repository sjabloon:
+- Maak een nieuw project van een GitHub-repository-sjabloon:
 
 `bun {{[c|create]}} {{https://github.com/gebruikersnaam/repo}} {{pad/naar/bestemming}}`
 
