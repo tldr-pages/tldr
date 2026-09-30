@@ -1,7 +1,7 @@
 # wacli
 
 > 메시지 전송, 채팅 및 연락처 관리를 위한 WhatsApp 명령줄 클라이언트.
-> `send`, `messages`, `chats`, `contacts` 등 일부 하위 명령은 각각 별도의 사용 문서를 제공.
+> `send`, `messages`, `contacts` 등 일부 하위 명령은 각각 별도의 사용 문서를 제공.
 > 더 많은 정보: <https://wacli.sh/>.
 
 - QR 코드를 사용하여 인증:
