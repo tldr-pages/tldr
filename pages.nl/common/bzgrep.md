@@ -11,7 +11,7 @@
 
 `bzgrep {{[-r|--recursive]}} "{{zoekpatroon}}" {{pad/naar/tar_bestand}}`
 
-- Toon 3 regels rondom [C]ontext, voor ([B]) of  na ([A]) elke overeenkomst:
+- Toon 3 regels rondom [C]ontext, voor ([B]) of n[A] elke overeenkomst:
 
 `bzgrep {{--context|--before-context|--after-context}} 3 "{{zoekpatroon}}" {{pad/naar/bestand}}`
 
