@@ -19,7 +19,7 @@
 
 `wondershaper -a {{adapter_name}} -u {{512}}`
 
-- Set a specific maximum [d]ownload rate and [u]pload rate (in Kpbs):
+- Set a specific maximum [d]ownload rate and [u]pload rate (in Kbps):
 
 `wondershaper -a {{adapter_name}} -d {{1024}} -u {{512}}`
 

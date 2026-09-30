@@ -19,7 +19,7 @@
 
 `docker {{[ps|container ls]}} {{[-f|--filter]}} "name={{naam}}"`
 
-- Filter containers die een bepaalde afbeelding als voorouder hebben:
+- Filter containers die een bepaalde image als voorouder hebben:
 
 `docker {{[ps|container ls]}} {{[-f|--filter]}} "ancestor={{image}}:{{tag}}"`
 
