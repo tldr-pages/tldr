@@ -11,7 +11,7 @@
 
 `npm {{[x|exec]}} --package {{pakket}} {{commando}}`
 
-- Voer een commando uit als het bestaat in het huidig pad of in `node_modules/.bin`:
+- Voer een commando uit als het bestaat in het huidige pad of in `node_modules/.bin`:
 
 `npm {{[x|exec]}} --no-install {{commando}} {{argument1 argument2 ...}}`
 

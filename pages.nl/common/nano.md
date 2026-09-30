@@ -1,6 +1,6 @@
 # nano
 
-> Tekstbewerker. Een verbeterde `pico` kloon.
+> Tekstbewerker. Een verbeterde `pico`-kloon.
 > Zie ook: `pico`, `rnano`.
 > Meer informatie: <https://nano-editor.org/dist/latest/nano.html>.
 
