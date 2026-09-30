@@ -324,7 +324,7 @@ The heading should adhere to the following order:
 > More information: <https://example.com>.
 ```
 
-A `Part of` line is equivalent to a `See also` line and belongs in the same spot, directly before `See also` when both are present.
+A `Part of` line is equivalent to a `See also` line, but goes before the subcommands line when both are present.
 
 ## Example descriptions
 
