@@ -1,6 +1,6 @@
 # nxc
 
-> Netwerk service opsomming en exploitatie gereedschap.
+> Tool voor netwerkservice-enumeratie en -exploitatie.
 > Sommige subcommando's zoals `smb` hebben hun eigen documentatie.
 > Meer informatie: <https://www.netexec.wiki/getting-started/selecting-and-using-a-protocol>.
 
