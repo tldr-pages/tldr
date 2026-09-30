@@ -4,7 +4,7 @@
 > Onderdeel van de Impacket-suite.
 > Meer informatie: <https://github.com/fortra/impacket>.
 
-- Dump vertrouwelijke gegevens van een Windows machine met een gebruikersnaam en wachtwoord:
+- Dump vertrouwelijke gegevens van een Windows-machine met een gebruikersnaam en wachtwoord:
 
 `secretsdump.py {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}@{{doel}}`
 

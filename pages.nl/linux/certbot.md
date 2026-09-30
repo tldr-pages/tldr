@@ -1,6 +1,6 @@
 # certbot
 
-> De Let's Encrypt Agent om automatisch TLS certificaten te verkrijgen en te vernieuwen.
+> De Let's Encrypt Agent om automatisch TLS-certificaten te verkrijgen en te vernieuwen.
 > Opvolger van `letsencrypt`.
 > Meer informatie: <https://eff-certbot.readthedocs.io/en/latest/using.html>.
 
