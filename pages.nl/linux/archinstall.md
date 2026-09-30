@@ -1,13 +1,13 @@
 # archinstall
 
-> Begeleidende Arch Linux installatie.
+> Begeleidende Arch Linux installer.
 > Meer informatie: <https://archinstall.archlinux.page/installing/guided.html>.
 
 - Start de interactieve installatie:
 
 `archinstall`
 
-- Start de interactieve installer en genereer een configuratiebestand in plaats van te installeren:
+- Simuleer een installatie door de interactieve installer te doorlopen, en genereer een configuratiebestand zonder te installeren:
 
 `archinstall --dry-run`
 
@@ -19,7 +19,7 @@
 
 `archinstall --config {{pad/naar/config.json}} --creds {{pad/naar/credentials.json}}`
 
-- Installeer met een configuratiebestand van een externe server:
+- Installeer met configuratiebestanden van een externe server:
 
 `archinstall --config-url {{https://example.com/config.json}} --creds-url {{https://example.com/credentials.json}}`
 

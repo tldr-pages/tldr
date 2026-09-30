@@ -26,8 +26,8 @@
 
 - Crea una nueva entrada de registro en blanco (en REG_SZ, usar `New-ItemProperty` o `Set-ItemProperty` para ajustar el tipo de valor):
 
-`New-Item {{ruta\al\clave_de_registro}}`
+`New-Item {{ruta\a\la\clave_de_registro}}`
 
 - Crea una nueva entrada de registro en blanco con un valor especificado:
 
-`New-Item {{ruta\al\clave_de_registro}} -Value {{valor}}`
+`New-Item {{ruta\a\la\clave_de_registro}} -Value {{valor}}`
