@@ -1,7 +1,7 @@
 # gnumfmt
 
-> 这是 `numfmt` 命令的一个别名。
+> 此命令为 `numfmt` 的别名。
 
-- 原命令的文档在：
+- 查看原命令的文档：
 
 `tldr numfmt`

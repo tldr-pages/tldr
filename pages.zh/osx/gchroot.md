@@ -1,7 +1,7 @@
 # gchroot
 
-> 这是 `chroot` 命令的一个别名。
+> 此命令为 `chroot` 的别名。
 
-- 原命令的文档在：
+- 查看原命令的文档：
 
 `tldr chroot`
