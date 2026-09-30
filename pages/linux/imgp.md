@@ -9,7 +9,7 @@
 
 - Scale an image by 75% and overwrite the source image to a target resolution:
 
-`imgp {{[-x|--res]}} {{75}} z-w {{path/to/file}}`
+`imgp {{[-x|--res]}} {{75}} {{[-w|--overwrite]}} {{path/to/file}}`
 
 - Rotate an image clockwise by 90 degrees:
 

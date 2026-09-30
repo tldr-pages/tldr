@@ -22,7 +22,7 @@
 
 - Sla een registersleutel (en subsleutels) op in een bestand op het doel via een UNC-pad:
 
-`reg.py {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}@{{doel}} save -keyName '{{HKLM\SOFTWARE\Example}}' -o '\\{{doel}}\{{share}}\{{output_bestand.reg}}'`
+`reg.py {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}@{{doel}} save -keyName '{{HKLM\SOFTWARE\Example}}' -o '\\{{doel}}\{{share}}\{{uitvoer_bestand.reg}}'`
 
 - Maak een back-up van de SAM-, SYSTEM- en SECURITY-hives naar een bestand op een doel via een UNC-pad (vereist SYSTEM-rechten):
 
