@@ -1,6 +1,6 @@
 # ln
 
-> Maakt een verwijzing naar bestanden en mappen.
+> Maak verwijzingen naar bestanden en mappen.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/ln-invocation.html>.
 
 - Maak een symbolische verwijzing naar een bestand of map:

@@ -1,6 +1,6 @@
 # mc
 
-> Minio Client voor objectopslag en bestandssystemen.
+> MinIO Client voor objectopslag en bestandssystemen.
 > Kan op sommige systemen `mc` of `mcli` heten.
 > Meer informatie: <https://minio.github.io/mc/>.
 
