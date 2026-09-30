@@ -19,7 +19,7 @@
 
 `docker {{[commit|container commit]}} {{[-a|--author]}} "{{auteur}}" {{container}} {{image}}:{{tag}}`
 
-- Maak een image met een specifieke opmerking in de metagegevens:
+- Maak een image met een specifieke opmerking in de metadata:
 
 `docker {{[commit|container commit]}} {{[-m|--message]}} "{{opmerking}}" {{container}} {{image}}:{{tag}}`
 
