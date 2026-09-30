@@ -15,9 +15,9 @@
 
 `cp {{[-r|--recursive]}} {{pad/naar/bronmap}} {{pad/naar/doelmap}}`
 
-- Kopieer een map recursief, in verbose modus (toont bestanden terwijl ze worden gekopieerd):
+- Kopieer een map recursief, in verbose modus (toont bestanden terwijl ze worden gekopieerd) en behoud machtigingen, tijdstempels en symlinks:
 
-`cp {{[-vr|--verbose --recursive]}} {{pad/naar/bronmap}} {{pad/naar/doelmap}}`
+`cp {{[-vra|--verbose --recursive --archive]}} {{pad/naar/bronmap}} {{pad/naar/doelmap}}`
 
 - Kopieer meerdere bestanden tegelijk naar een map:
 

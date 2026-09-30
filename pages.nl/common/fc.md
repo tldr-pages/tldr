@@ -28,6 +28,10 @@
 
 `fc '{{416}}' '{{420}}'`
 
+- Voer het vorige commando onmiddellijk uit zonder een editor te openen en vervang alle voorkomens van een string door een andere string:
+
+`fc -s {{string1}}={{string2}}`
+
 - Toon de help:
 
 `fc --help`
