@@ -12,7 +12,7 @@
 
 `file {{[-b|--brief]}} {{pad/naar/bestand}}`
 
-- Kijk binnen een gezipt bestand en bepaal de bestandstype(s) erin:
+- Kijk binnen een gezipt bestand en bepaal het bestandstype(s) erin:
 
 `file {{[-z|--uncompress]}} {{pad/naar/bestand.zip}}`
 
@@ -20,10 +20,10 @@
 
 `file {{[-s|--special-files]}} {{pad/naar/bestand}}`
 
-- Stop niet bij de eerste overeenkomende bestandstype; blijf doorgaan totdat het einde van het bestand is bereikt:
+- Stop niet bij het eerste overeenkomende bestandstype; blijf doorgaan totdat het einde van het bestand is bereikt:
 
 `file {{[-k|--keep-going]}} {{pad/naar/bestand}}`
 
-- Bepaal de MIME-coderingstype van een bestand:
+- Bepaal het MIME-coderingstype van een bestand:
 
 `file {{[-i|--mime]}} {{pad/naar/bestand}}`

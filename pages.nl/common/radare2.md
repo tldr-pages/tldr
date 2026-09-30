@@ -3,7 +3,7 @@
 > Een set van reverse engineering tools.
 > Meer informatie: <https://book.rada.re/first_steps/commandline_flags.html>.
 
-- Open een schrijfbaar bestand zonder het parsen van de bestandsformaat headers:
+- Open een schrijfbaar bestand zonder het parsen van de bestandsformaatheaders:
 
 `radare2 -nw {{pad/naar/binary}}`
 

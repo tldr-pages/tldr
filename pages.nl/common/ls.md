@@ -11,7 +11,7 @@
 
 `ls {{[-a|--all]}}`
 
-- Toon alle bestanden, met een `/` achter de namen van mappen:
+- Toon alle bestanden met een achtervoegsel dat het bestandstype aangeeft (map/, symbolische_link@, uitvoerbaar_bestand*, ...):
 
 `ls {{[-F|--classify]}}`
 
