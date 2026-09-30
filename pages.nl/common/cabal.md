@@ -16,7 +16,7 @@
 
 `cabal install {{pakket}}`
 
-- Maak een nieuwe Haskell-project in de huidige map:
+- Maak een nieuw Haskell-project in de huidige map:
 
 `cabal init`
 
