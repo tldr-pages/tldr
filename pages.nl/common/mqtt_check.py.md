@@ -1,10 +1,10 @@
 # mqtt_check.py
 
-> Eenvoudig hulpprogramma voor het testen en valideren van MQTT aanmeldgegevens.
+> Eenvoudig hulpprogramma voor het testen en valideren van MQTT-aanmeldingsgegevens.
 > Onderdeel van de Impacket-suite.
 > Meer informatie: <https://github.com/fortra/impacket>.
 
-- Controleer MQTT aanmeldingsgegevens voor een doel (hostnaam van de MQTT broker):
+- Controleer MQTT-aanmeldingsgegevens voor een doel (hostnaam van de MQTT-broker):
 
 `mqtt_check.py {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}@{{doel_naam}}`
 
