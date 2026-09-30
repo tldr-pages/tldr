@@ -1,6 +1,7 @@
 # lighthouse
 
-> Analyzes web applications and web pages, collecting modern performance metrics and insights on developer best practices.
+> Analyze web applications and web pages.
+> Collects modern performance metrics and insights on developer best practices.
 > More information: <https://github.com/GoogleChrome/lighthouse#cli-options>.
 
 - Generate an HTML report for a specific website and save it to a file in the current directory:
