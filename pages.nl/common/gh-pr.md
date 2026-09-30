@@ -8,7 +8,7 @@
 
 `gh pr {{[new|create]}}`
 
-- Bekijk een specifieke pull request lokaal:
+- Haal een specifieke pull request lokaal op:
 
 `gh {{[co|pr checkout]}} {{pr_nummer|url|branch}}`
 
