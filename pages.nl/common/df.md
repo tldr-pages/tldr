@@ -7,7 +7,7 @@
 
 `df`
 
-- Toon het bestandssysteem en het schijfgebruik voor het opgegeven bestand of map:
+- Toon het bestandssysteem dat het opgegeven bestand of map bevat:
 
 `df {{pad/naar/bestand_of_map}}`
 
@@ -15,6 +15,6 @@
 
 `df -k`
 
-- Toon informatie in een portable wijze:
+- Toon informatie op een draagbare wijze:
 
 `df -P`

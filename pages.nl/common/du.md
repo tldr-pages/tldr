@@ -11,7 +11,7 @@
 
 `du {{[-h|--human-readable]}} {{pad/naar/map}}`
 
-- Toon de grootte van een enkele map met een leesbaar eenheid formaat:
+- Toon de grootte van een enkele map, in leesbare eenheden:
 
 `du {{[-sh|--summarize --human-readable]}} {{pad/naar/map}}`
 
@@ -27,6 +27,6 @@
 
 `du {{[-ch|--total --human-readable]}} *.jpg`
 
-- Toon alle bestanden en mappen (inclusief verborgen) boven een bepaalde drempelwaarde (bruikbaar om te onderzoeken wat veel ruimte in neemt):
+- Toon alle bestanden en mappen (inclusief verborgen) boven een bepaalde drempelwaarde (bruikbaar om te onderzoeken wat veel ruimte inneemt):
 
 `du {{[-ah|--all --human-readable]}} {{[-t|--threshold]}} {{1G|1024M|1048576K}} .[^.]* *`
