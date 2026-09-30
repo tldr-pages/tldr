@@ -27,7 +27,7 @@
 
 `docker {{[run|container run]}} {{[-p|--publish]}} {{host_poort}}:{{container_poort}} {{image}} {{commando}}`
 
-- Voer een commando uit in een nieuwe container en overschrijf het beginpunt van de image:
+- Voer een commando uit in een nieuwe container en overschrijf het entrypoint van de image:
 
 `docker {{[run|container run]}} --entrypoint {{commando}} {{image}}`
 
