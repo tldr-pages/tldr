@@ -14,7 +14,7 @@
 
 - Sla blobs op in een specifieke map:
 
-`crane registry serve --disk {{pad/naar/opslagmap}}`
+`crane registry serve --disk {{pad/naar/map}}`
 
 - Toon de help voor `crane registry`:
 
