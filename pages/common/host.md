@@ -1,6 +1,6 @@
 # host
 
-> Lookup Domain Name Server.
+> Look up Domain Name Server.
 > See also: `dig`, `resolvectl`, `nslookup`.
 > More information: <https://manned.org/host>.
 
