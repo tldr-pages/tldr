@@ -17,6 +17,10 @@
 
 `sort {{pad/naar/bestand}} | uniq {{[-d|--repeated]}}`
 
+- Toon elke regel één keer, hoofdletterongevoelig:
+
+`sort {{pad/naar/bestand}} | uniq {{[-i|--ignore-case]}}`
+
 - Toon het aantal voorkomens van elke regel samen met die regel:
 
 `sort {{pad/naar/bestand}} | uniq {{[-c|--count]}}`
