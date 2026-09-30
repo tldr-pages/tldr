@@ -1,9 +1,9 @@
 # gcrane copy
 
-> Kopieer efficiënt een afbeelding van de ene locatie naar de andere terwijl de digestwaarde behouden blijft.
+> Kopieer efficiënt een image van de ene locatie naar de andere terwijl de digestwaarde behouden blijft.
 > Meer informatie: <https://github.com/google/go-containerregistry/blob/main/cmd/gcrane/README.md>.
 
-- Kopieer een afbeelding van bron naar doel:
+- Kopieer een image van bron naar doel:
 
 `gcrane {{[cp|copy]}} {{bron}} {{doel}}`
 
