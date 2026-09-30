@@ -1,10 +1,10 @@
 # false
 
-> Geeft een afsluitcode van 1 terug.
+> Geeft een niet-nul afsluitcode terug.
 > Zie ook: `true`.
 > Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#index-false>.
 
-- Geef een afsluitcode van 1 terug:
+- Geef een niet-nul afsluitcode terug:
 
 `false`
 

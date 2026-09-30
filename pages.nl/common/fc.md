@@ -1,6 +1,6 @@
 # fc
 
-> Open het meest recente commando voor bewerking en voer het uit.
+> Open de recente commando's voor bewerking en voer ze vervolgens uit.
 > Zie ook: `history`.
 > Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#index-fc>.
 
