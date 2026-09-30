@@ -3,7 +3,7 @@
 > Beschrijf het formaat en eigenschappen van afbeeldingen.
 > Meer informatie: <https://imagemagick.org/script/identify.php>.
 
-- Beschrijf het formaat en basiseigenschappen van een afbeelding:
+- Beschrijf het formaat en basis eigenschappen van een afbeelding:
 
 `magick identify {{pad/naar/afbeelding}}`
 
