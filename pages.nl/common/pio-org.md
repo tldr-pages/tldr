@@ -15,7 +15,7 @@
 
 `pio org add {{organisatie_naam}} {{gebruikersnaam}}`
 
-- Verwijder een gebruiker uit een organisatie:
+- Verwijder een gebruiker van een organisatie:
 
 `pio org remove {{organisatie_naam}} {{gebruikersnaam}}`
 
