@@ -20,7 +20,7 @@
 
 `zip {{[-r|--recurse-paths]}} -{{0..9}} {{pad/naar/gecomprimeerd.zip}} {{pad/naar/bestand_of_map1 pad/naar/bestand_of_map2 ...}}`
 
-- Maak een encrypted archief met een specifiek wachtwoord:
+- Maak een versleuteld archief met een specifiek wachtwoord:
 
 `zip {{[-re|--recurse-paths --encrypt]}} {{pad/naar/gecomprimeerd.zip}} {{pad/naar/bestand_of_map1 pad/naar/bestand_of_map2 ...}}`
 

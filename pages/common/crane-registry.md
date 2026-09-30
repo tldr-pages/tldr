@@ -14,7 +14,7 @@
 
 - Store blobs in a specific directory:
 
-`crane registry serve --disk {{path/to/store_directory}}`
+`crane registry serve --disk {{path/to/directory}}`
 
 - Display help for `crane registry`:
 
