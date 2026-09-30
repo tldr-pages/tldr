@@ -21,7 +21,7 @@
 
 `nmap -p {{poort1,poort2,...}} {{ip_of_host1,ip_of_host2,...}}`
 
-- Voer service- en versiedetectie uit van de top 1000 poorten met standaard NSE-scripts, en schrijf resultaten (`-oA`) naar outputbestanden:
+- Voer service- en versiedetectie uit van de top 1000 poorten met standaard NSE-scripts, en schrijf resultaten (`-oA`) naar uitvoerbestanden:
 
 `nmap -sC -sV -oA {{top-1000-ports}} {{ip_of_host1,ip_of_host2,...}}`
 
@@ -29,7 +29,7 @@
 
 `nmap --script "default and safe" {{ip_of_host1,ip_of_host2,...}}`
 
-- Scan naar webservers die draaien op de standaard[p]oorten 80 en 443 met alle beschikbare `http-*` NSE-scripts:
+- Scan naar webservers die draaien op de standaard [p]oorten 80 en 443 met alle beschikbare `http-*` NSE-scripts:
 
 `nmap --script "http-*" {{ip_of_host1,ip_of_host2,...}} -p 80,443`
 
