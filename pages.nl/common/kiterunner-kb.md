@@ -1,34 +1,34 @@
 # kiterunner kb
 
-> Een contextuele webscanner voor het manipuleren van kitebuilder-schema's die gebruikt worden in API en web endpoint discovery.
-> Het `kb` subcommando zorgt voor schema compilatie, conversie, parsing en request replay.
+> Een contextuele webscanner voor het manipuleren van kitebuilder-schema's die gebruikt worden bij het ontdekken van API-paden en webeindpunten.
+> Het `kb` subcommando zorgt voor schemacompilatie, conversie, parsing en verzoekherhaling.
 > Meer informatie: <https://github.com/assetnote/kiterunner#usage>.
 
-- Compileer een kitebuilder schema van JSON naar een kite bestand:
+- Compileer een kitebuilder-schema van JSON naar een kite-bestand:
 
 `kiterunner kb compile {{pad/naar/woordenlijst.json}} {{pad/naar/woordenlijst.kite}}`
 
-- Converteer een kite bestand naar een tekst woordenlijst:
+- Converteer een kite-bestand naar een tekstwoordenlijst:
 
 `kiterunner kb convert {{pad/naar/woordenlijst.kite}} {{pad/naar/woordenlijst.txt}}`
 
-- Converteer een tekst woordenlijst naar een kite bestand:
+- Converteer een tekstwoordenlijst naar een kite-bestand:
 
 `kiterunner kb convert {{pad/naar/woordenlijst.txt}} {{pad/naar/woordenlijst.kite}}`
 
-- Converteer een kite bestand naar een JSON schema:
+- Converteer een kite-bestand naar een JSON-schema:
 
 `kiterunner kb convert {{pad/naar/woordenlijst.kite}} {{pad/naar/woordenlijst.json}}`
 
-- Parseer een kitebuilder schema en voer opgemaakte JSON data uit:
+- Parseer een kitebuilder-schema en voer opgemaakte JSON data uit:
 
 `kiterunner kb parse {{pad/naar/woordenlijst.json}} {{[-o|--output]}} {{json}}`
 
-- Parseer een kite bestand en voer opgemaakte tekstgegevens uit:
+- Parseer een kite-bestand en voer opgemaakte tekstgegevens uit:
 
 `kiterunner kb parse {{pad/naar/woordenlijst.kite}} {{[-o|--output]}} {{text}}`
 
-- Speel een specifiek verzoek van een kitebuilder schema-uitvoer opnieuw af:
+- Speel een specifiek verzoek van een kitebuilder-schema-uitvoer opnieuw af:
 
 `kiterunner kb replay {{[-w|--kitebuilder-list]}} {{pad/naar/woordenlijst.kite}} "{{request_output}}"`
 

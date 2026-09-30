@@ -1,6 +1,6 @@
 # xbps-query
 
-> XBPS hulpprogramma om te zoeken naar een pakket en repository informatie.
+> XBPS hulpprogramma om te zoeken naar pakket- en repository-informatie.
 > Zie ook: `xbps`.
 > Meer informatie: <https://manned.org/xbps-query>.
 

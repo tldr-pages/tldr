@@ -23,7 +23,7 @@
 
 `git commit {{[-S|--gpg-sign]}} {{sleutel_id}} {{[-m|--message]}} "{{bericht}}"`
 
-- Voeg de huidige wijzigingen toe aan de laatste commit en herschrijf deze, waarbij de commit hash wordt aangepast en een tekstverwerker wordt geopend om het bericht te veranderen:
+- Voeg de huidige wijzigingen toe aan de laatste commit en herschrijf deze, waarbij de commit hash wordt aangepast en een tekstbewerker wordt geopend om het bericht te veranderen:
 
 `git commit --amend`
 
