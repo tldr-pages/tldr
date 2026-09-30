@@ -14,7 +14,7 @@
 
 - Schrijf resultaten weg naar een CSV-bestand met aangepaste velden:
 
-`sudo zmap {{[-o|--output-file]}} {{pad/naar/outputbestand.csv}} {{[-f|--output-fields]}} "{{saddr,daddr,sport,dport}}" {{subnet}}`
+`sudo zmap {{[-o|--output-file]}} {{pad/naar/uitvoerbestand.csv}} {{[-f|--output-fields]}} "{{saddr,daddr,sport,dport}}" {{subnet}}`
 
 - Beperk de scansnelheid tot een specifiek aantal pakketten per seconde:
 
