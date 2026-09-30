@@ -16,6 +16,6 @@
 
 `dunst -print`
 
-- Gebruik het opgegeven configuratiebestand (standaard:  `$XDG_CONFIG_HOME/dunst/dunstrc`):
+- Gebruik het opgegeven configuratiebestand (standaard: `$XDG_CONFIG_HOME/dunst/dunstrc`):
 
 `dunst {{[-conf|-config]}} {{pad/naar/bestand}}`

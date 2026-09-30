@@ -23,10 +23,10 @@
 
 `expr {{expressie1}} {{+|-|*|/|%}} {{expressie2}}`
 
-- Bekijk de eerste expressie als de waarde niet nul is en niet null, anders de tweede:
+- Krijg de eerste expressie als de waarde niet nul is en niet null, anders de tweede:
 
 `expr {{expressie1}} \| {{expressie2}}`
 
-- Bekijk de eerste expressie als beide expressies niet nul zijn en niet null, anders 0:
+- Krijg de eerste expressie als beide expressies niet nul zijn en niet null, anders 0:
 
 `expr {{expressie1}} \& {{expressie2}}`

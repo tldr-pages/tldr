@@ -1,6 +1,6 @@
 # fc
 
-> Open het meest recente commando voor bewerking en voer het uit.
+> Open de recente commando's voor bewerking en voer ze vervolgens uit.
 > Zie ook: `history`.
 > Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#index-fc>.
 
@@ -27,6 +27,10 @@
 - Pas commando's in een gegeven interval aan en voer ze uit:
 
 `fc '{{416}}' '{{420}}'`
+
+- Voer het vorige commando direct uit zonder een editor te openen, en vervang alle voorkomens van een string door een andere string:
+
+`fc -s {{string1}}={{string2}}`
 
 - Toon de help:
 
