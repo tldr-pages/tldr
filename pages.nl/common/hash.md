@@ -3,7 +3,7 @@
 > Bekijk locaties van gecachete uitvoerbare bestanden.
 > Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#index-hash>.
 
-- Bekijk gecachete commando locaties voor de huidige shell:
+- Bekijk gecachete commandolocaties voor de huidige shell:
 
 `hash`
 

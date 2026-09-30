@@ -3,7 +3,7 @@
 > Beheer TeX Live platforms.
 > Meer informatie: <https://www.tug.org/texlive/doc/tlmgr.html#platform>.
 
-- Toon alle beschikbare platforms in een pakket repository:
+- Toon alle beschikbare platforms in de pakketrepository:
 
 `tlmgr {{[arch|platform]}} list`
 
