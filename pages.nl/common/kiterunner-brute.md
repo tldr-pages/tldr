@@ -22,7 +22,7 @@
 
 - Bruteforce een lijst met doelen uit een bestand met aangepaste concurrency-instellingen voor prestaties:
 
-`kiterunner brute {{pad/naar/targets.txt}} {{[-w|--wordlist]}} {{pad/naar/woordenlijst.txt}} {{[-x|--max-connection-per-host]}} {{5}} {{[-j|--max-parallel-hosts]}} {{100}}`
+`kiterunner brute {{pad/naar/doelen.txt}} {{[-w|--wordlist]}} {{pad/naar/woordenlijst.txt}} {{[-x|--max-connection-per-host]}} {{5}} {{[-j|--max-parallel-hosts]}} {{100}}`
 
 - Bruteforce en negeer specifieke inhoudslengte antwoorden:
 
