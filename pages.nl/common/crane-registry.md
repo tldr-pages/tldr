@@ -8,7 +8,7 @@
 
 `crane registry serve`
 
-- Adres om naar te luisteren:
+- Specificeer het adres om naar te luisteren:
 
 `crane registry serve --address {{address_naam}}`
 

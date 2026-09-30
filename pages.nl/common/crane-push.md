@@ -7,7 +7,7 @@
 
 `crane push {{pad/naar/tarball}} {{image_naam}}`
 
-- Pad naar bestand met lijst van gepubliceerde image-referenties:
+- Schrijf een lijst van gepubliceerde image-referenties naar een bestand:
 
 `crane push {{pad/naar/tarball}} {{image_naam}} --image-refs {{pad/naar/bestand}}`
 
