@@ -7,7 +7,7 @@
 
 `linode-cli account view`
 
-- Bekijk account instellingen:
+- Bekijk accountinstellingen:
 
 `linode-cli account settings`
 
@@ -15,6 +15,6 @@
 
 `linode-cli account payment-create --cvv {{cvv}} --usd {{amount_in_dollars}}`
 
-- Bekijk account notificaties:
+- Bekijk accountnotificaties:
 
 `linode-cli account notifications-list`
