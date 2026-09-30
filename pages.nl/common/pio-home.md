@@ -1,21 +1,21 @@
 # pio home
 
-> Lanceer de PlatformIO Home web server.
+> Lanceer de PlatformIO Home webserver.
 > Meer informatie: <https://docs.platformio.org/en/latest/core/userguide/cmd_home.html>.
 
-- Open PlatformIO Home in de standaard web browser:
+- Open PlatformIO Home in de standaard webbrowser:
 
 `pio home`
 
-- Gebruik een specifieke HTTP poort (standaard 8008):
+- Gebruik een specifieke HTTP-poort (standaard 8008):
 
 `pio home --port {{poort}}`
 
-- Koppel aan een specifiek IP adres (standaard 127.0.0.1):
+- Koppel aan een specifiek IP-adres (standaard 127.0.0.1):
 
 `pio home --host {{ip_adres}}`
 
-- Open niet automatisch PlatformIO Home in de standaard web browser:
+- Open niet automatisch PlatformIO Home in de standaard webbrowser:
 
 `pio home --no-open`
 

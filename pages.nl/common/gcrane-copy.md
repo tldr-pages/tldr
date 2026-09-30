@@ -1,6 +1,6 @@
 # gcrane copy
 
-> Kopieer efficiënt een image van de ene locatie naar de andere terwijl de digestwaarde behouden blijft.
+> Kopieer efficiënt een remote image van bron naar doel terwijl de digest-waarde behouden blijft.
 > Meer informatie: <https://github.com/google/go-containerregistry/blob/main/cmd/gcrane/README.md>.
 
 - Kopieer een image van bron naar doel:
