@@ -31,6 +31,6 @@
 
 `pip install {{[-f|--find-links]}} {{url|pad/naar/map}} {{pakket}}`
 
-- Installeer het lokale pakket in de huidige map in develop-modus:
+- Installeer het lokale pakket in de huidige map in develop-modus (editable):
 
 `pip install {{[-e|--editable]}} .`
