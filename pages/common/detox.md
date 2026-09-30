@@ -1,6 +1,6 @@
 # detox
 
-> Renames files to make them easier to work with.
+> Rename files to make them easier to work with.
 > It removes spaces and other such annoyances like duplicate underline characters.
 > More information: <https://manned.org/detox>.
 
