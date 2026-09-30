@@ -1,28 +1,24 @@
 # defaults
 
-> Read and write macOS user configuration for applications.
+> Get and set macOS application preferences, system-wide and per-user.
 > More information: <https://keith.github.io/xcode-man-pages/defaults.1.html>.
 
-- Read system defaults for an application option:
+- Show all user preferences:
 
-`defaults read "{{application}}" "{{option}}"`
+`defaults read`
 
-- Read default values for an application option:
+- Show the value of a specific preference key in a domain:
 
-`defaults read -app "{{application}}" "{{option}}"`
+`defaults read {{com.apple.dock}} {{tilesize}}`
 
-- Search for a keyword in domain names, keys, and values:
+- Write a preference value (e.g. show hidden files in Finder):
 
-`defaults find "{{keyword}}"`
+`defaults write {{com.apple.finder}} {{AppleShowAllFiles}} -bool {{true}}`
 
-- Write the default value of an application option:
+- Delete a preference key (reverts to the system default):
 
-`defaults write "{{application}}" "{{option}}" {{-type}} {{value}}`
+`defaults delete {{com.apple.dock}} {{tilesize}}`
 
-- Speed up Mission Control animations:
+- Search all domains for preferences containing a string:
 
-`defaults write com.apple.Dock expose-animation-duration -float 0.1`
-
-- Delete all defaults of an application:
-
-`defaults delete "{{application}}"`
+`defaults find {{dark}}`

@@ -1,24 +1,28 @@
 # xattr
 
-> Utility to work with extended filesystem attributes.
+> Display and manipulate the extended attributes of files and directories.
 > More information: <https://keith.github.io/xcode-man-pages/xattr.1.html>.
 
-- List key:value extended attributes for a given file:
+- List the names of all extended attributes of a file:
 
-`xattr -l {{file}}`
+`xattr {{path/to/file}}`
 
-- Write an attribute for a given file:
+- Print the value of a specific attribute:
 
-`xattr -w {{attribute_key}} {{attribute_value}} {{file}}`
+`xattr -p {{com.apple.quarantine}} {{path/to/file}}`
 
-- Delete an attribute from a given file:
+- Remove a specific attribute (e.g. clear the Gatekeeper quarantine flag from a downloaded app):
 
-`xattr -d {{com.apple.quarantine}} {{file}}`
+`xattr -d {{com.apple.quarantine}} {{path/to/file}}`
 
-- Delete all extended attributes from a given file:
+- Remove all extended attributes from a file:
 
-`xattr -c {{file}}`
+`xattr -c {{path/to/file}}`
 
-- Recursively delete an attribute in a given directory:
+- Recursively remove an attribute from all files in a directory:
 
-`xattr -rd {{attribute_key}} {{directory}}`
+`xattr -r -d {{com.apple.quarantine}} {{path/to/directory}}`
+
+- Write an attribute value to a file:
+
+`xattr -w {{attribute_name}} {{value}} {{path/to/file}}`

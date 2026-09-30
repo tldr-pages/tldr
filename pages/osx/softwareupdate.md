@@ -1,20 +1,28 @@
 # softwareupdate
 
-> Update macOS App Store apps.
+> Update macOS from the command line.
 > More information: <https://keith.github.io/xcode-man-pages/softwareupdate.8.html>.
 
 - List all available updates:
 
-`softwareupdate {{[-l|--list]}}`
+`softwareupdate -l`
 
-- Download and install all updates:
+- Install all available updates:
 
-`softwareupdate {{[-i|--install]}} {{[-a|--all]}}`
+`softwareupdate -i -a`
 
-- Download and install all recommended updates:
+- Download an update without installing it:
 
-`softwareupdate {{[-i|--install]}} {{[-r|--recommended]}}`
+`softwareupdate -d {{update_label}}`
 
-- Download and install a specific app:
+- Install a specific update and automatically restart if required:
 
-`softwareupdate {{[-i|--install]}} {{update_name}}`
+`softwareupdate -i {{update_label}} -R`
+
+- List the available full macOS installers:
+
+`softwareupdate --list-full-installers`
+
+- Install Rosetta 2 (for running Intel binaries on Apple Silicon):
+
+`softwareupdate --install-rosetta`
