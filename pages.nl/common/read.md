@@ -3,9 +3,9 @@
 > Shell builtin voor het ophalen van data van `stdin`.
 > Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#index-read>.
 
-- Sla gegevens op die je van het toetsenbord typt:
+- Sla gegevens op die je van het toetsenbord typt in een of meerdere variabelen:
 
-`read {{variable}}`
+`read {{variable1 variable2 ...}}`
 
 - Sla elk van de volgende regels die je invoert op als waarden van een array:
 
