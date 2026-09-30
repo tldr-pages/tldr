@@ -12,7 +12,7 @@
 
 `kiterunner brute {{https://example.com}} {{[-w|--wordlist]}} {{pad/naar/woordenlijst.txt}}`
 
-- Bruteforce met een dirsearch-woordlijst met extensie-substitutie:
+- Bruteforce met een dirsearch-stijl woordenlijst met extensie-substitutie:
 
 `kiterunner brute {{https://example.com}} {{[-w|--wordlist]}} {{pad/naar/dirsearch.txt}} {{[-D|--dirsearch-compat]}} {{[-e|--extensions]}} {{json,txt}}`
 
@@ -24,7 +24,7 @@
 
 `kiterunner brute {{pad/naar/doelen.txt}} {{[-w|--wordlist]}} {{pad/naar/woordenlijst.txt}} {{[-x|--max-connection-per-host]}} {{5}} {{[-j|--max-parallel-hosts]}} {{100}}`
 
-- Bruteforce en negeer specifieke inhoudslengte antwoorden:
+- Bruteforce en negeer antwoorden met specifieke inhoudslengte:
 
 `kiterunner brute {{https://example.com}} {{[-w|--wordlist]}} {{pad/naar/woordenlijst.txt}} --ignore-length {{100-105}}`
 
