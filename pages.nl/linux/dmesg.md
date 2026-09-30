@@ -12,7 +12,7 @@
 
 `sudo dmesg {{[-H|--human]}}`
 
-- Toon kernel foutmeldingen:
+- Toon kernelfoutmeldingen:
 
 `sudo dmesg {{[-l|--level]}} err`
 
