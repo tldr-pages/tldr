@@ -318,8 +318,8 @@ The heading should adhere to the following order:
 > Short description of the functionality.
 > Further clarification of the functionality.
 > Note: Any note for the usage.
-> Some subcommands such as `subcommand1`, `subcommand2`, etc. have their own usage documentation.
 > Part of the Example suite.
+> Some subcommands such as `subcommand1`, `subcommand2`, etc. have their own usage documentation.
 > See also: `command`.
 > More information: <https://example.com>.
 ```
