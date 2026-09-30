@@ -1,6 +1,6 @@
 # hx
 
-> Helix, een postmoderne tekstbewerker, welke verschillende modi beschikbaar stelt tot verschillende manieren van tekstmanipulatie.
+> Helix, een postmoderne tekstbewerker, welke verschillende modi beschikbaar stelt voor verschillende manieren van tekstmanipulatie.
 > Drukken op `<i>` begint invoegmodus. `<Esc>` begint normale modus, wat toegang geeft tot de Helix commando's.
 > Meer informatie: <https://manned.org/man/debian-forky/hx>.
 

@@ -16,7 +16,7 @@
 
 `parallel convert {} {.}.png ::: *.jpg`
 
-- Parallel xargs, stop zoveel mogelijk argumenten in één commando:
+- Werk zoals `xargs`, maar dan parallel, en stop zoveel mogelijk argumenten in één commando:
 
 `{{argumenten}} | parallel -X {{commando}}`
 
