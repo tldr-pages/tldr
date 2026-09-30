@@ -2,7 +2,7 @@
 
 > Beheertool voor containerafbeeldingen.
 > Deze tool implementeert een superset van de `crane`-commando's, met aanvullende commando's die specifiek zijn voor Google Container Registry (`gcr.io`).
-> Sommige subcommando's zoals `copy`, `gc`, `help`, `ls` hebben hun eigen documentatie.
+> Sommige subcommando's zoals `copy`, `gc`, `help`, `ls`, etc. hebben hun eigen documentatie.
 > Zie ook: `crane`.
 > Meer informatie: <https://github.com/google/go-containerregistry/blob/main/cmd/gcrane/README.md>.
 

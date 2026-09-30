@@ -20,7 +20,7 @@
 
 `crane mutate --set-platform {{platform_naam}}`
 
-- Nieuwe tagreferentie die moet worden toegepast op de gewijzigde image:
+- Voorzie de gewijzigde image van een nieuwe tagreferentie:
 
 `crane mutate {{[-t|--tag]}} {{tag_naam}}`
 

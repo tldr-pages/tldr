@@ -25,6 +25,6 @@
 
 `atom {{[-f|--foreground]}}`
 
-- Wacht op het Atom venster om zich te sluiten voor door te gaan (handig voor Git commit bewerker):
+- Wacht totdat het Atom-venster gesloten wordt voordat er wordt doorgegaan (handig voor de Git commit-editor):
 
 `atom {{[-w|--wait]}}`
