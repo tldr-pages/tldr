@@ -24,6 +24,6 @@
 
 `dumpsys --skip {{service}}`
 
-- Geef een timeout periode in seconden op (standaard 10s):
+- Geef een [t]imeoutperiode in seconden op (standaard 10s):
 
 `dumpsys -t {{8}}`

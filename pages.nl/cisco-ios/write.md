@@ -11,6 +11,6 @@
 
 `write erase`
 
-- Toon de hulp:
+- Toon de help:
 
 `write ?`
