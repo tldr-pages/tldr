@@ -4,19 +4,19 @@
 > De container moet naar een registry worden gepusht, en het manifest wordt daar bijgewerkt.
 > Meer informatie: <https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_mutate.md>.
 
-- Nieuwe annotaties om in te stellen (standaard []):
+- Stel nieuwe annotaties of labels in:
 
 `crane mutate {{[-a|--annotation]}}/{{[-l|--label]}} {{annotation/label}}`
 
-- Pad naar tarball/opdracht/entrypoint/omgevingsvariabele/exposed-ports om aan de image toe te voegen:
+- Voeg een tarball toe, of stel het commando/de entrypoint/omgevingsvariabelen/exposed ports van een image in:
 
 `crane mutate {{--append}}/{{--cmd}}/{{--entrypoint}}/{{[-e|--env]}}/{{--exposed-ports}} {{var1 var2 ...}}`
 
-- Pad naar nieuwe tarball van de resulterende image:
+- Schrijf de resulterende image naar een nieuwe tarball:
 
 `crane mutate {{[-o|--output]}} {{pad/naar/tarball}}`
 
-- Repository in de vorm `os/arch/variant:osversion,platform` om de gewijzigde image te pushen:
+- Stel het platform van de gewijzigde image in, in de vorm `os/arch/variant:osversion,platform`:
 
 `crane mutate --set-platform {{platform_naam}}`
 
@@ -24,11 +24,11 @@
 
 `crane mutate {{[-t|--tag]}} {{tag_naam}}`
 
-- Nieuwe gebruiker in te stellen:
+- Stel een nieuwe gebruiker in:
 
 `crane mutate {{[-u|--user]}} {{gebruikersnaam}}`
 
-- Nieuwe werkmap in te stellen:
+- Stel een nieuwe werkmap in:
 
 `crane mutate {{[-w|--workdir]}} {{pad/naar/werkmap}}`
 

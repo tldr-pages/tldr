@@ -5,7 +5,7 @@
 > Zie ook: `distrobox`.
 > Meer informatie: <https://distrobox.it/usage/distrobox-create/>.
 
-- Maak een Distrobox container met behulp van het Ubuntu image:
+- Maak een Distrobox container met behulp van de Ubuntu-image:
 
 `distrobox-create {{container_naam}} {{[-i|--image]}} {{ubuntu:latest}}`
 
