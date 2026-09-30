@@ -16,7 +16,7 @@
 
 `kiterunner scan {{pad/naar/hosts.txt}} {{[-w|--kitebuilder-list]}} {{pad/naar/woordenlijst.kite}}`
 
-- Scan met een Assetnote woordenlijst en JSON-uitvoer:
+- Scan met een Assetnote woordenlijst en JSON uitvoer:
 
 `kiterunner scan {{https://example.com}} {{[-A|--assetnote-wordlist]}} {{apiroutes-210228:5000}} -o {{json}}`
 
@@ -32,6 +32,6 @@
 
 `kiterunner scan {{https://example.com}} {{[-w|--kitebuilder-list]}} {{pad/naar/woordenlijst.kite}} {{[-H|--header]}} "{{Authorization: Bearer token}}" --ignore-length {{100-105}}`
 
-- Voer een volledige kitebuilder scan uit zonder fasescanning:
+- Voer een volledige kitebuilder scan uit zonder fase scanning:
 
 `kiterunner scan {{https://example.com}} {{[-w|--kitebuilder-list]}} {{pad/naar/woordenlijst.kite}} --kitebuilder-full-scan`
