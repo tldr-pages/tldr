@@ -8,6 +8,6 @@
 
 `sudo aa-disable {{pad/naar/profiel1 pad/naar/profiel2 ...}}`
 
-- Schakel profielen uit (standaard naar `/etc/apparmor.d`):
+- Schakel profielen uit in een map (standaard is `/etc/apparmor.d`):
 
 `sudo aa-disable --dir {{pad/naar/profielen}}`
