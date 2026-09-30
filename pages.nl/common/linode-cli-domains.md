@@ -25,11 +25,11 @@
 
 - Voeg een DNS-record toe aan een domein:
 
-`linode-cli domains records-create {{domein_id}} --type {{A|AAAA|CNAME|MX|...}} --name {{subdomein}} --target {{target_value}}`
+`linode-cli domains records-create {{domein_id}} --type {{A|AAAA|CNAME|MX|...}} --name {{subdomein}} --target {{doelwaarde}}`
 
 - Update een DNS-record voor een domein:
 
-`linode-cli domains records-update {{domein_id}} {{record_id}} --target {{new_target_value}}`
+`linode-cli domains records-update {{domein_id}} {{record_id}} --target {{nieuwe_doelwaarde}}`
 
 - Verwijder een DNS-record van een domein:
 
