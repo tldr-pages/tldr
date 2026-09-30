@@ -10,7 +10,7 @@
 
 - Vind bestanden die overeenkomen met meerdere pad-/naampatronen:
 
-`find {{root_pad}} -path '{{**/path/**/*.ext}}' -or -name '{{*patroon*}}'`
+`find {{root_pad}} -path '{{*/path/*/*.ext}}' -or -name '{{*patroon*}}'`
 
 - Vind mappen die overeenkomen met een gegeven naam, hoofdletterongevoelig:
 
@@ -32,6 +32,6 @@
 
 `find {{root_pad}} -daystart -mtime {{-1}} -exec {{tar -cvf archief.tar}} {} \+`
 
-- Vind lege bestanden (0 bytes) of mappen en verwijder ze uitvoerig:
+- Vind lege bestanden of mappen en verwijder ze uitvoerig:
 
 `find {{root_pad}} -type {{f|d}} -empty -delete -print`

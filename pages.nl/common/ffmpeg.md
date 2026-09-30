@@ -1,6 +1,6 @@
 # ffmpeg
 
-> Videoconversie tool.
+> Videoconversietool.
 > Zie ook: `gst-launch-1.0`.
 > Meer informatie: <https://ffmpeg.org/ffmpeg.html#Options>.
 

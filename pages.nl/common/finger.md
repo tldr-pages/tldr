@@ -19,6 +19,6 @@
 
 `finger -l`
 
-- Voorkom het matchen tegen gebruikersnamen en gebruik alleen login namen:
+- Voorkom het matchen tegen gebruikersnamen en gebruik alleen loginnamen:
 
 `finger -m`
