@@ -19,7 +19,7 @@
 
 `uv tree --outdated`
 
-- Sluit afhankelijkheden uit van de dev groep:
+- Sluit afhankelijkheden uit van de dev-groep:
 
 `uv tree --no-dev`
 

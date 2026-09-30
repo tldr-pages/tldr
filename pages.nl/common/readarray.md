@@ -3,7 +3,7 @@
 > Lees regels van `stdin` in een array.
 > Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#index-readarray>.
 
-- Interactief regels in een array invoeren:
+- Voer interactief regels in een array in:
 
 `readarray {{array_naam}}`
 

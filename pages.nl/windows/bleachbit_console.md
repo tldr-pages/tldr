@@ -9,7 +9,7 @@
 
 - Versnipper een bestand:
 
-`bleachbit_console.exe --shred {{pad/naar/bestand}}`
+`bleachbit_console.exe --shred {{pad\naar\bestand}}`
 
 - Toon beschikbare schoonmaakopties:
 
