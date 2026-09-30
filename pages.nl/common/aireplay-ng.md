@@ -1,7 +1,7 @@
 # aireplay-ng
 
 > Injecteer pakketten in een draadloos netwerk.
-> Deel van `aircrack-ng`.
+> Onderdeel van Aircrack-ng netwerksoftwaresuite.
 > Meer informatie: <https://www.aircrack-ng.org/doku.php?id=aireplay-ng>.
 
 - Stuur een specifiek aantal deauthenticatiepakketten op basis van het MAC-adres van een toegangspunt, het MAC-adres van een cliënt en een interface:

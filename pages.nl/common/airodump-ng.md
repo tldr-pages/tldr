@@ -1,7 +1,7 @@
 # airodump-ng
 
 > Leg pakketten vast en geef informatie over draadloze netwerken weer.
-> Deel van `aircrack-ng`.
+> Onderdeel van Aircrack-ng netwerksoftwaresuite.
 > Meer informatie: <https://www.aircrack-ng.org/doku.php?id=airodump-ng>.
 
 - Leg pakketten vast en geef informatie weer over draadloze netwerken op de 2.4GHz band:
