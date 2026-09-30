@@ -14,3 +14,11 @@
 - Re-enable a builtin:
 
 `enable {{command}}`
+
+- Load a new builtin from a shared object:
+
+`enable -f {{path/to/file.so}} {{builtin_name}}`
+
+- Display help:
+
+`help enable`

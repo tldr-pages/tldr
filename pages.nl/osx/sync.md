@@ -11,6 +11,6 @@
 
 `sync {{pad/naar/bestand}}`
 
-- Voer schijf schrijfoperaties uit en probeer inactief geheugen en caches van het bestandssysteem te wissen:
+- Schrijf schrijfoperaties naar schijf en probeer inactief geheugen en caches van het bestandssysteem te wissen:
 
 `sync; sudo purge`
