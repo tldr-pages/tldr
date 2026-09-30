@@ -5,7 +5,7 @@
 
 - Sla gegevens op die je van het toetsenbord typt in een of meerdere variabelen:
 
-`read {{variable1 variable2 ...}}`
+`read {{variabele1 variabele2 ...}}`
 
 - Sla elk van de volgende regels die je invoert op als waarden van een array:
 
