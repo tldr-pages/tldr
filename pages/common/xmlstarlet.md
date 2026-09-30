@@ -8,7 +8,7 @@
 
 `xmlstarlet format {{path/to/file.xml}}`
 
-- XML document can also be piped from `stdin`:
+- Format an XML document piped from `stdin`:
 
 `{{cat path/to/file.xml}} | xmlstarlet format`
 

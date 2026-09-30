@@ -34,4 +34,4 @@
 
 - 특정 작업 실행의 Dot 그래프 생성 (출력 파일 형식은 파일 이름으로 제어 가능):
 
-`turbo run {{작업_이름}} --graph={{경로/대상/파일.html|jpg|json|pdf|png|svg}}`
+`turbo run {{작업_이름}} --graph={{경로/대상/파일}}.{{html|jpg|json|pdf|png|svg}}`

@@ -28,6 +28,10 @@
 
 `cat {{[-A|--show-all]}} {{path/to/file}}`
 
+- Omit repeating empty lines:
+
+`cat {{[-s|--squeeze-blank]}} {{path/to/file}}`
+
 - Pass file contents to another program through `stdin`:
 
 `cat {{path/to/file}} | {{program}}`

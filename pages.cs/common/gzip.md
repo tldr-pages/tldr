@@ -11,22 +11,26 @@
 
 `gzip {{[-d|--decompress]}} {{cesta/k/souboru.gz}}`
 
+- Zobrazit název a procento zmenšení pro každý komprimovaný soubor:
+
+`gzip {{[-v|--verbose]}} {{cesta/k/souboru.gz}}`
+
 - Komprimovat soubor se zachováním původního souboru:
 
 `gzip {{[-k|--keep]}} {{cesta/k/souboru}}`
 
 - Komprimovat soubor a zadat název výstupního souboru:
 
-`gzip {{[-c|--stdout]}} {{cesta/k/souboru}} > {{souboru/k/komprimovanemu_souboru.gz}}`
+`gzip {{[-c|--stdout]}} {{cesta/k/souboru}} > {{cesta/ke/komprimovanemu_souboru.gz}}`
 
 - Dekomprimovat `gzip` archiv a zadat název výstupního souboru:
 
-`gzip {{[-c|--stdout]}} {{[-d|--decompress]}} {{cesta/k/souboru.gz}} > {{cesta/k/nekomprimovanemu_souboru}}`
+`gzip {{[-cd|--stdout --decompress]}} {{cesta/k/souboru.gz}} > {{cesta/k/nekomprimovanemu_souboru}}`
 
 - Upřesnit úroveň komprese. 1 je nejrychlejší (nízká komprese), 9 je nejpomalejší (vysoká komprese), 6 je výchozí:
 
 `gzip -{{1..9}} {{[-c|--stdout]}} {{cesta/k/souboru}} > {{cesta/ke/komprimovanemu_souboru.gz}}`
 
-- Zobrazit název a procento zmenšení pro každý komprimovaný nebo dekomprimovaný soubor:
+- Vypsat obsah komprimovaného souboru:
 
-`gzip {{[-v|--verbose]}} {{[-d|--decompress]}} {{cesta/k/souboru.gz}}`
+`gzip {{[-l|--list]}} {{cesta/k/souboru.txt.gz}}`

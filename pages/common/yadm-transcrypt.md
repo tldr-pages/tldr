@@ -21,6 +21,6 @@
 
 `yadm transcrypt {{[-d|--display]}}`
 
-- Re -encrypt all encrypted files using new credentials:
+- Re-encrypt all encrypted files using new credentials:
 
 `yadm transcrypt {{[-r|--rekey]}}`

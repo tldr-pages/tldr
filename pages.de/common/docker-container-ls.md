@@ -33,4 +33,4 @@
 
 - Zeige nur Container, welche einen bestimmten Datenträger oder einen Datenträger an einem bestimmten Pfad eingehängt haben:
 
-`docker {{[ps|container ls]}} {{[-f|--filter]}} "volume={{pfad/zu/verzeichnis}}" --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Mounts}}"`
+`docker {{[ps|container ls]}} {{[-f|--filter]}} "volume={{pfad/zu/verzeichnis}}" --format "table \{\{.ID\}\}\t\{\{.Image\}\}\t\{\{.Names\}\}\t\{\{.Mounts\}\}"`

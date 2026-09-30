@@ -4,7 +4,7 @@
 > Zie ook: `podman load`, `podman export`.
 > Meer informatie: <https://docs.podman.io/en/latest/markdown/podman-save.1.html>.
 
-- Sla een image op in een tar-bestand:
+- Sla een image op in een `.tar`-bestand:
 
 `podman save {{[-o|--output]}} {{pad/naar/bestand.tar}} {{image:tag}}`
 

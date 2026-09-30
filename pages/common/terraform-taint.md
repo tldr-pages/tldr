@@ -1,7 +1,7 @@
 # terraform taint
 
 > Mark a resource instance as not fully functional to force replacement on next apply.
-> Note: This command is deprecated. Use `terraform apply -replace` instead.
+> Note: This command is deprecated, use `terraform apply -replace` instead.
 > See also: `terraform apply`, `terraform untaint`.
 > More information: <https://developer.hashicorp.com/terraform/cli/commands/taint>.
 

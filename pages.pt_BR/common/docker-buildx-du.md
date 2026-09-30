@@ -17,7 +17,7 @@
 
 - Formata a saída usando um template Go:
 
-`docker buildx du --format "table {{.ID}}    {{.Description}}"`
+`docker buildx du --format "table \{\{.ID\}\}    \{\{.Description\}\}"`
 
 - Exibe a saída formatada como JSON com o comando `jq`:
 

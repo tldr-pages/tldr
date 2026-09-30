@@ -1,6 +1,6 @@
 # snoop
 
-> Netwerk pakket sniffer.
+> Netwerkpakketsniffer.
 > SunOS equivalent van `tcpdump`.
 > Meer informatie: <https://www.unix.com/man-page/sunos/1m/snoop>.
 
@@ -12,7 +12,7 @@
 
 `snoop -o {{bestandsnaam}}`
 
-- Toon de verbose protocol layer samenvatting van de pakketten in een bestand:
+- Toon de verbose protocollaag-samenvatting van de pakketten in een bestand:
 
 `snoop -V -i {{bestandsnaam}}`
 

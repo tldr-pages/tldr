@@ -1,6 +1,6 @@
 # dumpsys
 
-> Geef informatie over Android system services.
+> Geef informatie over Android-systeemservices.
 > Dit commando kan alleen worden gebruikt via `adb shell`.
 > Meer informatie: <https://developer.android.com/tools/dumpsys>.
 

@@ -16,6 +16,6 @@
 
 `ykman openpgp access change-{{pin|reset-code|admin-pin}}`
 
-- Herstel de OpenPGP applicatie naar fabrieksinstellingen (je moet dit doen nadat je het aantal pogingen voor de Admin pin hebt overschreden):
+- Herstel de OpenPGP applicatie naar fabrieksinstellingen (je moet dit doen nadat je het aantal pogingen voor de admin pin hebt overschreden):
 
 `ykman openpgp reset`

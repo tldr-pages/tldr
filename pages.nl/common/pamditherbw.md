@@ -1,10 +1,10 @@
 # pamditherbw
 
-> Pas dithering toe op een grijze afbeelding, d.w.z. zet het om in een patroon van zwarte en witte pixels die eruitzien als de originele grijstinten.
+> Pas dithering toe op een grijsschaalafbeelding, d.w.z. zet deze om in een patroon van zwarte en witte pixels die eruitzien als de originele grijsschaal.
 > Zie ook: `pbmreduce`.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/pamditherbw.html>.
 
-- Lees een PGM afbeelding, pas dithering toe en sla het op naar een bestand:
+- Lees een PGM afbeelding, pas dithering toe en sla deze op in een bestand:
 
 `pamditherbw {{pad/naar/afbeelding.pgm}} > {{pad/naar/bestand.pgm}}`
 

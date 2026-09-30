@@ -16,7 +16,7 @@
 
 `move {{pad\naar\bron}} {{pad\naar\bestaande_map}}`
 
-- Verplaats een map of bestand naar een andere schijf:
+- Verplaats een bestand of map naar een andere schijf:
 
 `move {{C:\pad\naar\bron}} {{D:\pad\naar\doel}}`
 

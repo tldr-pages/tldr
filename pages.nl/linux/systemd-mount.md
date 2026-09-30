@@ -15,7 +15,7 @@
 
 `systemd-mount --list`
 
-- Maak een automount punt dat het bestandssysteem zal mounten op het moment van eerste toegang:
+- Maak een auto-mountpunt dat het daadwerkelijke bestandssysteem zal mounten op het moment van eerste toegang:
 
 `systemd-mount --automount yes {{pad/naar/bestand_of_apparaat}}`
 
