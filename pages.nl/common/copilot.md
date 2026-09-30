@@ -29,4 +29,4 @@
 
 - Voer een prompt direct uit zonder interactieve modus, terwijl `copilot` alle commando's mag uitvoeren:
 
-`copilot {{[-p|--prompt]}} "{{Haal de bug uit main.js}}" --allow-all-tools`
+`copilot {{[-p|--prompt]}} "{{Repareer de bug in main.js}}" --allow-all-tools`
