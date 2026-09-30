@@ -7,15 +7,15 @@
 
 `crane validate`
 
-- Sla het downloaden/digiteren van lagen over:
+- Sla het downloaden/digesten van lagen over:
 
 `crane validate --fast`
 
-- Naam van de remote image om te valideren:
+- Valideer een remote image:
 
 `crane validate --remote {{image_naam}}`
 
-- Pad naar tarball om te valideren:
+- Valideer een tarball:
 
 `crane validate --tarball {{pad/naar/tarball}}`
 

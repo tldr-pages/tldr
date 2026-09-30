@@ -22,11 +22,11 @@
 
 - Exporteer een enkel object, gezien zijn ID, in een bitmap:
 
-`inkscape {{pad/naar/bestand.svg}} {{[-i|--export-id]}} {{id}} {{[-o|--export-filename]}} {{object.png}}`
+`inkscape {{pad/naar/bestand.svg}} {{[-i|--export-id]}} {{object_id}} {{[-o|--export-filename]}} {{object.png}}`
 
 - Exporteer een SVG-document naar PDF, converteer alle teksten naar paden:
 
-`inkscape {{pad/naar/bestand.svg}} {{[-o|--export-filename]}} {{bestandsnaam.pdf}} {{[-T|--export-text-to-path]}}`
+`inkscape {{pad/naar/bestand.svg}} {{[-o|--export-filename]}} {{pad/naar/bestandsnaam.pdf}} {{[-T|--export-text-to-path]}}`
 
 - Dupliceer het object met id="path123", roteer het duplicaat 90 graden, sla het bestand op, en sluit Inkscape af:
 

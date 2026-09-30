@@ -3,9 +3,9 @@
 > Voeg branches samen.
 > Meer informatie: <https://git-scm.com/docs/git-merge>.
 
-- Voeg een branch samen met de huidige branch:
+- Voeg branches samen met de huidige branch:
 
-`git merge {{branch_naam}}`
+`git merge {{branch_naam1 branch_naam2 ...}}`
 
 - Bewerk het samenvoegingsbericht:
 

@@ -1,6 +1,6 @@
 # git blame
 
-> Toon welke commit en auteur een bestand voor het laatst heeft gewijzigd.
+> Toon welke commit en auteur elke regel van een bestand voor het laatst heeft gewijzigd.
 > Meer informatie: <https://git-scm.com/docs/git-blame>.
 
 - Toon een bestand met informatie over de auteur (auteursnaam en commithash):
@@ -11,11 +11,11 @@
 
 `git blame {{[-e|--show-email]}} {{pad/naar/bestand}}`
 
-- Toon bestand met auteursnaam en commit hash op elke regel op een specifieke commit:
+- Toon bestand met auteursnaam en commithash op elke regel op een specifieke commit:
 
 `git blame {{commit}} {{pad/naar/bestand}}`
 
-- Toon bestand met auteursnaam en commit hash op elke regel vóór een specifieke commit:
+- Toon bestand met auteursnaam en commithash op elke regel vóór een specifieke commit:
 
 `git blame {{commit}}~ {{pad/naar/bestand}}`
 
@@ -23,7 +23,7 @@
 
 `git blame -L {{123}} {{pad/naar/bestand}}`
 
-- Toon auteursnaam en commit hash informatie voor een specifieke regelbereik:
+- Toon auteursnaam- en commithashinformatie voor een specifieke regelbereik:
 
 `git blame -L {{start_regel}},{{eind_regel}} {{pad/naar/bestand}}`
 

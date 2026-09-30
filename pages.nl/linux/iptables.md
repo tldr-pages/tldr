@@ -5,7 +5,7 @@
 > Zie ook: `iptables-save`, `iptables-restore`.
 > Meer informatie: <https://manned.org/iptables>.
 
-- Bekijk ketens, regels, pakket/byte tellers en regelnummers voor de filtertabel:
+- Bekijk ketens, regels, pakket/byte-tellers en regelnummers voor de filtertabel:
 
 `sudo iptables {{[-vnL --line-numbers|--verbose --numeric --list --line-numbers]}}`
 
@@ -21,10 +21,10 @@
 
 `sudo iptables {{[-A|--append]}} {{keten}} {{[-s|--source]}} {{ip}} {{[-p|--protocol]}} {{tcp|udp|icmp|...}} --dport {{poort}} {{[-j|--jump]}} {{regel}}`
 
-- Voeg een NAT regel toe om al het verkeer van `192.168.0.0/24` subnet te vertalen naar de host's publieke IP:
+- Voeg een NAT regel toe om al het verkeer van het `192.168.0.0/24` subnet te vertalen naar de publieke IP van de host:
 
 `sudo iptables {{[-t|--table]}} {{nat}} {{[-A|--append]}} {{POSTROUTING}} {{[-s|--source]}} {{192.168.0.0/24}} {{[-j|--jump]}} {{MASQUERADE}}`
 
-- Verwij[D]er keten regel:
+- Verwijder keten regel:
 
 `sudo iptables {{[-D|--delete]}} {{keten}} {{regelnummer}}`
