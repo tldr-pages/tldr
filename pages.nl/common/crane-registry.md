@@ -8,13 +8,13 @@
 
 `crane registry serve`
 
-- Specificeer het adres om naar te luisteren:
+- Adres om naar te luisteren:
 
 `crane registry serve --address {{address_naam}}`
 
 - Sla blobs op in een specifieke map:
 
-`crane registry serve --disk {{pad/naar/store_dir}}`
+`crane registry serve --disk {{pad/naar/opslagmap}}`
 
 - Toon de help voor `crane registry`:
 
