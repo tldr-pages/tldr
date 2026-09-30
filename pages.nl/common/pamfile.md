@@ -1,6 +1,6 @@
 # pamfile
 
-> Beschrijf Netpbm (PAM or PNM) bestanden.
+> Beschrijf Netpbm (PAM of PNM) bestanden.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/pamfile.html>.
 
 - Beschrijf de gespecificeerde Netpbm bestanden:
