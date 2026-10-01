@@ -11,7 +11,7 @@
 
 `choco search {{consulta}} --local-only`
 
-- Incluir solo coincidencias exactas en los resultados:
+- Inclui solo coincidencias exactas en los resultados:
 
 `choco search {{consulta}} {{[-e|--exact]}}`
 
