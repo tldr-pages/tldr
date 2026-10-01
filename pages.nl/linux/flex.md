@@ -1,10 +1,10 @@
 # flex
 
 > Lexicale analysator generator.
-> Gegeven de specificatie voor een lexicale analysator, genereert C-code die het implementeert.
+> Gegeven de specificatie voor een lexicale analysator, genereert C-code die deze implementeert.
 > Meer informatie: <https://manned.org/flex>.
 
-- Genereer een analysator uit een Lex-bestand en sla het op in het bestand `lex.yy.c`:
+- Genereer een analysator uit een Lex-bestand en sla deze op in het bestand `lex.yy.c`:
 
 `flex {{analyzer.l}}`
 

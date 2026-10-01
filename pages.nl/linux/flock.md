@@ -1,6 +1,6 @@
 # flock
 
-> Beheer bestandslocks van shell scripts.
+> Beheer bestandslocks van shell-scripts.
 > Het kan gebruikt worden om ervoor te zorgen dat slechts één instantie van een commando draait.
 > Meer informatie: <https://manned.org/flock>.
 
