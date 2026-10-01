@@ -8,7 +8,7 @@
 
 `tldr remove-item`
 
-- Verwijder een of meer, door spatie gescheiden, bestanden of patronen:
+- Verwijder een of meer bestanden of patronen:
 
 `del {{bestand_patroon1 bestand_patroon2 ...}}`
 

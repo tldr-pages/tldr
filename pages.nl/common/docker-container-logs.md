@@ -7,7 +7,7 @@
 
 `docker {{[logs|container logs]}} {{naam|id}}`
 
-- Toon logs en volg:
+- Toon logs en volg deze:
 
 `docker {{[logs|container logs]}} {{naam|id}} {{[-f|--follow]}}`
 
@@ -15,7 +15,7 @@
 
 `docker {{[logs|container logs]}} {{naam|id}} {{[-n|--tail]}} 5`
 
-- Toon logs en voorzien van timestamps:
+- Toon logs en voorzie deze van timestamps:
 
 `docker {{[logs|container logs]}} {{naam|id}} {{[-t|--timestamps]}}`
 

@@ -10,7 +10,7 @@
 
 - Controleer de architectuur van meerdere doelen van een bestand (één per regel):
 
-`getArch.py -targets {{pad/naar/doelen_file}}`
+`getArch.py -targets {{pad/naar/doelen_bestand}}`
 
 - Stel een custom socket timeout in (standaard is 2 seconden):
 
