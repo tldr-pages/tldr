@@ -15,11 +15,11 @@
 
 - Voeg regel toe aan keten policy voor IP:
 
-`sudo iptables {{[-A|--append]}} {{keten}} {{[-s|--source]}} {{ip}} {{[-j|--jump]}} {{regel}}`
+`sudo iptables {{[-A|--append]}} {{keten}} {{[-s|--source]}} {{ip_adres}} {{[-j|--jump]}} {{regel}}`
 
 - Voeg regel toe aan keten policy voor IP met [p]rotocol en poort in overweging:
 
-`sudo iptables {{[-A|--append]}} {{keten}} {{[-s|--source]}} {{ip}} {{[-p|--protocol]}} {{tcp|udp|icmp|...}} --dport {{poort}} {{[-j|--jump]}} {{regel}}`
+`sudo iptables {{[-A|--append]}} {{keten}} {{[-s|--source]}} {{ip_adres}} {{[-p|--protocol]}} {{tcp|udp|icmp|...}} --dport {{poort}} {{[-j|--jump]}} {{regel}}`
 
 - Voeg een NAT regel toe om al het verkeer van het `192.168.0.0/24` subnet te vertalen naar de publieke IP van de host:
 
