@@ -7,7 +7,7 @@
 
 `pg_resetwal {{[-D|--pgdata]}} {{path/to/data}}`
 
-- Perform a dry run:
+- Simulate resetting without actually doing it:
 
 `pg_resetwal {{[-D|--pgdata]}} {{path/to/data}} {{[-n|--dry-run]}}`
 

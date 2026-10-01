@@ -8,7 +8,7 @@
 
 `borg init {{path/to/repo_directory}}`
 
-- Backup a directory into the repository, creating an archive called "Monday":
+- Back up a directory into the repository, creating an archive called "Monday":
 
 `borg create --progress {{path/to/repo_directory}}::{{Monday}} {{path/to/source_directory}}`
 

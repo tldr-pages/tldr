@@ -4,9 +4,9 @@
 > Zie ook: `xh`.
 > Meer informatie: <https://httpie.io/docs/cli/usage>.
 
-- Maak een eenvoudige GET-aanvraag (toont response header en inhoud):
+- Maak een eenvoudige GET-aanvraag (toont response headers en inhoud):
 
-`http {{https://example.org}}`
+`http {{https://example.com}}`
 
 - Print specifieke uitvoerinhoud (`H`: request headers, `B`: request body, `h`: response headers, `b`: response body, `m`: response metadata):
 

@@ -24,7 +24,7 @@
 
 `ipcs {{[-u|--summary]}}`
 
-- Toon creator's en owner's UIDs en PIDs voor alle IPC-faciliteiten:
+- Toon de UID's en PID's van de maker en de eigenaar voor alle IPC-faciliteiten:
 
 `ipcs {{[-c|--creator]}}`
 

@@ -15,6 +15,6 @@
 
 `systemctl list-machines {{machine_1 machine_2 ...}}`
 
-- Filter machines using wildcard patterns ie, `shell-globbing`:
+- Filter machines using wildcard patterns i.e. `shell-globbing`:
 
 `systemctl list-machines {{pattern}}`

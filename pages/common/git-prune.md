@@ -4,7 +4,7 @@
 > This command is often not used directly but as an internal command that is used by Git gc.
 > More information: <https://git-scm.com/docs/git-prune>.
 
-- Report what would be removed by Git prune without removing it:
+- Simulate pruning, reporting what would be removed:
 
 `git prune {{[-n|--dry-run]}}`
 

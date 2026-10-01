@@ -1,6 +1,6 @@
 # rg
 
-> Ripgrep, een recursieve regel-georiënteerde zoek tool.
+> Ripgrep, een recursieve regel-georiënteerde zoektool.
 > Wil een sneller alternatief zijn dan `grep`.
 > Meer informatie: <https://github.com/BurntSushi/ripgrep/blob/master/GUIDE.md>.
 
@@ -20,13 +20,13 @@
 
 `rg {{[-.|--hidden]}} --no-ignore {{patroon}}`
 
-- Zoek in bestanden die overeenkomen met een glob (bijv. `README.*`) naar een patroon:
+- Zoek in bestanden die overeenkomen met een `glob` (bijv. `README.*`, gebruik `!bestandsnaam_patroon` om in plaats daarvan uit te sluiten) naar een patroon:
 
-`rg {{patroon}} {{[-g|--glob]}} {{bestandsnaam_glob_patroon}}`
+`rg {{patroon}} {{[-g|--glob]}} '{{bestandsnaam_glob_patroon}}'`
 
-- Toon recursief de bestandsnamen welke overeenkomen met een pattern:
+- Toon recursief de bestandsnamen in de huidige map en markeer degene die overeenkomen met een patroon:
 
-`rg --files | rg {{patroon}}`
+`rg --files | rg {{[--passthru|--passthrough]}} {{patroon}}`
 
 - Toon alleen overeenkomende bestanden (handig bij het doorsturen naar andere commando's):
 

@@ -3,7 +3,7 @@
 > Generate a GRUB configuration file.
 > More information: <https://www.gnu.org/software/grub/manual/grub/grub.html#Invoking-grub_002dmkconfig>.
 
-- Do a dry run and print the configuration to `stdout`:
+- Simulate generating a GRUB configuration and print it to `stdout`:
 
 `sudo grub-mkconfig`
 

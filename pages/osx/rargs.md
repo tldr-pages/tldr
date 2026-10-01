@@ -8,7 +8,7 @@
 
 `{{command}} | rargs {{command}} {0}`
 
-- Do a dry run, which prints the commands that would be run instead of executing them:
+- Simulate which commands would be run without executing them:
 
 `{{command}} | rargs -e {{command}} {0}`
 
@@ -18,7 +18,7 @@
 
 - Execute commands in parallel:
 
-`{{command}} | rargs -w {{max-procs}}`
+`{{command}} | rargs -w {{max_procs}}`
 
 - Consider each line of input to be separated by a NUL character (`\0`) instead of a newline (`\n`):
 

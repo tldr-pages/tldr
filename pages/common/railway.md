@@ -3,7 +3,7 @@
 > Connect code to a Railway project.
 > More information: <https://docs.railway.com/reference/cli-api>.
 
-- Login to a Railway account:
+- Log in to a Railway account:
 
 `railway login`
 

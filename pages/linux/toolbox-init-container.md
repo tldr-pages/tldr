@@ -6,4 +6,4 @@
 
 - Initialize a running Toolbx container:
 
-`toolbox init-container --gid {{gid}} --home {{home}} --home-link --media-link --mnt-link --monitor-host --shell {{shell}} --uid {{uid}} --user {{user}}`
+`toolbox init-container --gid {{group_id}} --home {{home}} --home-link --media-link --mnt-link --monitor-host --shell {{shell}} --uid {{user_id}} --user {{user}}`

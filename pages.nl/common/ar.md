@@ -16,10 +16,10 @@
 
 `ar r {{pad/naar/bestand.deb}} {{pad/naar/debian-binary pad/naar/control.tar.gz pad/naar/data.tar.xz ...}}`
 
-- Voeg een object bestandsindex toe (equivalent aan het gebruik van `ranlib`):
+- Voeg een objectbestandsindex toe (equivalent aan het gebruik van `ranlib`):
 
 `ar s {{pad/naar/bestand.a}}`
 
-- Maak een archief met specifieke bestanden en een begeleidend object bestandsindex:
+- Maak een archief met specifieke bestanden en een begeleidende objectbestandsindex:
 
 `ar rs {{pad/naar/bestand.a}} {{pad/naar/bestand1.o pad/naar/bestand2.o ...}}`

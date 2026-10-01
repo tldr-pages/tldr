@@ -12,7 +12,7 @@
 
 `pbzip2 -p{{4}} {{path/to/file}}`
 
-- Compress in combination with tar (options can be passed to `pbzip2`):
+- Compress in combination with `tar` (options can be passed to `pbzip2`):
 
 `tar -cf {{path/to/compressed_file}}.tar.bz2 {{[-I|--use-compress-program]}} "pbzip2 {{-option1 -option2 ...}}" {{path/to/file}}`
 

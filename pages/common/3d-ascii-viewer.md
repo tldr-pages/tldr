@@ -19,7 +19,7 @@
 
 `3d-ascii-viewer -f {{fps}} {{path/to/model}}.obj`
 
-- Interactive mode:
+- View a model in interactive mode:
 
 `3d-ascii-viewer --interactive {{path/to/model}}.obj`
 

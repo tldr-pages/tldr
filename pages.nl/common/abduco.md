@@ -11,14 +11,14 @@
 
 `abduco -A {{naam}} {{bash}}`
 
-- Maak verbinding met een sessie met `dvtm` en maak deze aan als deze nog niet bestaat:
+- Koppel aan een sessie met `dvtm` en maak deze aan als deze nog niet bestaat:
 
 `abduco -A {{naam}}`
 
-- Loskoppelen van een sessie:
+- Koppel los van een sessie:
 
 `<Ctrl \>`
 
-- Voeg toe aan een sessie in alleen-lezen modus:
+- Koppel aan een sessie in alleen-lezen modus:
 
 `abduco -Ar {{naam}}`

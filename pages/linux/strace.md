@@ -6,19 +6,19 @@
 
 - Start tracing a specific process by its PID:
 
-`sudo strace {{[-p|--attach]}} {{pid}}`
+`sudo strace {{[-p|--attach]}} {{process_id}}`
 
 - Trace a process and filter output by system call [e]xpression:
 
-`sudo strace {{[-p|--attach]}} {{pid}} -e {{system_call,system_call2,...}}`
+`sudo strace {{[-p|--attach]}} {{process_id}} -e {{system_call,system_call2,...}}`
 
 - Count time, calls, and errors for each system call and report a summary on program exit:
 
-`sudo strace {{[-p|--attach]}} {{pid}} {{[-c|--summary-only]}}`
+`sudo strace {{[-p|--attach]}} {{process_id}} {{[-c|--summary-only]}}`
 
 - Show the time spent in every system call and specify the maximum string size to print:
 
-`sudo strace {{[-p|--attach]}} {{pid}} {{[-T|--syscall-times]}} {{[-s|--string-limit]}} {{32}}`
+`sudo strace {{[-p|--attach]}} {{process_id}} {{[-T|--syscall-times]}} {{[-s|--string-limit]}} {{32}}`
 
 - Start tracing a program by executing it:
 

@@ -13,7 +13,7 @@
 
 `awk '/{{foo}}/ {print $2}' {{pad/naar/bestand}}`
 
-- Toon de laatste kolom van iedere regel in een bestand en maak gebruik van een komma (in plaats van een spatie) als veld scheider:
+- Toon de laatste kolom van iedere regel in een bestand en maak gebruik van een komma (in plaats van een spatie) als veldscheider:
 
 `awk -F ',' '{print $NF}' {{pad/naar/bestand}}`
 
@@ -27,7 +27,7 @@
 
 - Toon verschillende waardes gebaseerd op condities:
 
-`awk '{if ($1 == "foo") print "Exact match foo"; else if ($1 ~ "bar") print "Partial match bar"; else print "Baz"}' {{pad/naar/bestand}}`
+`awk '{if ($1 == "foo") print "Exact match foo"; else if ($1 ~ "bar") print "Partial match bar"; else print "baz"}' {{pad/naar/bestand}}`
 
 - Toon alle regels waarbij de waarde van de 10e kolom tussen een minimale en maximale waarde is:
 

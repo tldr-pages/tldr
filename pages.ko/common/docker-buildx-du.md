@@ -17,7 +17,7 @@
 
 - Go 템플릿으로 출력 형식 지정:
 
-`docker buildx du --format "table {{.ID}}    {{.Description}}"`
+`docker buildx du --format "table \{\{.ID\}\}    \{\{.Description\}\}"`
 
 - `jq`를 사용해 JSON 형식으로 보기 좋게 출력:
 

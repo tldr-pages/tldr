@@ -15,7 +15,7 @@
 
 `sysctl -n machdep.cpu.brand_string`
 
-- Show available CPU features (MMX, SSE, SSE2, SSE3, AES, etc):
+- Show available CPU features (MMX, SSE, SSE2, SSE3, AES, etc.):
 
 `sysctl -n machdep.cpu.features`
 

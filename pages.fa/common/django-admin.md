@@ -11,10 +11,10 @@
 
 `django-admin startapp {{app_name}}`
 
-- نسخه کنونی جنگو:
-
-`django-admin --version`
-
 - نمایش اطلاعات بیشتر برای دستور موردنظر:
 
 `django-admin help {{command}}`
+
+- نسخه کنونی جنگو:
+
+`django-admin --version`

@@ -13,18 +13,10 @@
 
 `ionice {{[-c|--class]}} {{scheduling_class}} -{{p|P|u}} {{id}}`
 
-- Run a command with custom I/O scheduling class and priority:
+- Set the priority of a running process, ignoring failure to do so (this can happen due to insufficient privileges or an old kernel version):
 
-`ionice {{[-c|--class]}} {{scheduling_class}} {{[-n|--classdata]}} {{priority}} {{command}}`
-
-- Ignore failure to set the requested priority:
-
-`ionice {{[-t|--ignore]}} {{[-n|--classdata]}} {{priority}} {{[-p|--pid]}} {{pid}}`
-
-- Run the command even in case it was not possible to set the desired priority (this can happen due to insufficient privileges or an old kernel version):
-
-`ionice {{[-t|--ignore]}} {{[-n|--classdata]}} {{priority}} {{[-p|--pid]}} {{pid}}`
+`ionice {{[-t|--ignore]}} {{[-n|--classdata]}} {{priority}} {{[-p|--pid]}} {{process_id}}`
 
 - Print the I/O scheduling class and priority of a running process:
 
-`ionice {{[-p|--pid]}} {{pid}}`
+`ionice {{[-p|--pid]}} {{process_id}}`

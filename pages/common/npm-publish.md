@@ -23,7 +23,7 @@
 
 `npm publish --registry {{https://registry.npmjs.org/}}`
 
-- Run a dry run to see what would be published without uploading:
+- Simulate what would be published without uploading:
 
 `npm publish --dry-run`
 

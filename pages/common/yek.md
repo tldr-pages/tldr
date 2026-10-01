@@ -11,7 +11,7 @@
 
 `yek {{path/to/directory1 path/to/directory2 ...}} --output-dir {{path/to/output_directory}}`
 
-- Process multiple files or use glob patterns (quote globs to avoid shell expansion):
+- Process multiple files or use `glob` patterns (quote `glob`s to avoid shell expansion):
 
 `yek "{{path/to/directory/**/*.rs}}" "{{path/to/directory/**/*.md}}"`
 

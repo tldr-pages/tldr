@@ -19,6 +19,6 @@
 
 `b4 send --resend {{version_number}}`
 
-- Perform a dry run without sending any mail:
+- Simulate sending the path series without sending any mail:
 
 `b4 send {{[-d|--dry-run]}}`

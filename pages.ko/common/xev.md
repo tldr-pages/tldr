@@ -1,7 +1,7 @@
 # xev
 
 > X 이벤트의 내용을 출력.
-> 더 많은 정보: <https://gitlab.freedesktop.org/xorg/app/xev>.
+> 더 많은 정보: <https://manned.org/xev>.
 
 - 발생하는 모든 X 이벤트 모니터링:
 

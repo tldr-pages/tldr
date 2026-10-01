@@ -20,6 +20,6 @@
 
 `kubectl cordon {{[-l|--selector]}} {{label_key}}={{label_value}}`
 
-- Preview the changes without actually cordoning the nodes (dry run):
+- Simulate the changes without actually cordoning the nodes:
 
 `kubectl cordon {{node_name}} --dry-run={{none|server|client}}`

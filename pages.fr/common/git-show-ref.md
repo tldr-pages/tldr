@@ -15,6 +15,6 @@
 
 `git show-ref --tags`
 
-- Vérifier l'existence d'une référence :
+- Vérifie l'existence d'une référence :
 
 `git show-ref --verify {{chemin/vers/reference}}`

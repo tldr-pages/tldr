@@ -27,6 +27,6 @@
 
 `pip show {{包名}}`
 
-- 通过依赖文件（如 requirements.txt）来进行安装：
+- 通过依赖文件（如 `requirements.txt`）来进行安装：
 
 `pip install {{[-r|--requirement]}} {{requirements.txt}}`

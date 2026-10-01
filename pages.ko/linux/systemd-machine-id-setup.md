@@ -10,12 +10,12 @@
 
 - 이미지 정책 지정:
 
-`systemd-machine-id-setup --image-policy={{your_policy}}`
+`systemd-machine-id-setup --image-policy {{your_policy}}`
 
 - 출력을 JSON 형식으로 표시:
 
-`sudo systemd-machine-id-setup --json=pretty`
+`sudo systemd-machine-id-setup --json pretty`
 
 - 디렉터리 트리 대신 디스크 이미지에서 작업 수행:
 
-`systemd-machine-id-setup --image={{/경로/대상/이미지}}`
+`systemd-machine-id-setup --image /{{경로/대상/이미지}}`

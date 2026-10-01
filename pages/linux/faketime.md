@@ -14,3 +14,7 @@
 - Simulate how a program would act next Friday night:
 
 `faketime '{{next Friday 1 am}}' {{path/to/program}}`
+
+- Run a program on a specific date and time:
+
+`faketime '{{2020-01-01 12:00:00}}' {{program}}`

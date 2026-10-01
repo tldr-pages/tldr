@@ -8,6 +8,6 @@
 
 `pkg_info -Q {{pakket}}`
 
-- Toon een lijst met geïnstalleerde pakketen voor het gebruik met `pkg_add -l`:
+- Toon een lijst met geïnstalleerde pakketten voor het gebruik met `pkg_add -l`:
 
 `pkg_info -mz`

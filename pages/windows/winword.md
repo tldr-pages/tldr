@@ -3,9 +3,9 @@
 > Microsoft Office's word processor application.
 > More information: <https://support.microsoft.com/office/command-line-switches-for-microsoft-office-products-079164cd-4ef5-4178-b235-441737deb3a6#category=word>.
 
-- Launch the word processor application:
+- Launch the word processor application (omitting the file path will launch the File page):
 
-`winword`
+`winword {{path\to\file.docx}}`
 
 - Launch Word with [n]o open documents:
 

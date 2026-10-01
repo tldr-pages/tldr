@@ -13,8 +13,8 @@
 
 - Crea un contenedor pasando opciones a una plantilla:
 
-`sudo lxc-create {{[-n|--name]}} {{nombre}} {{[-t|--template]}} download -- {{[-d|--dist]}} {{nombre-distro}} {{[-r|--release]}} {{versión-de-lanzamiento}} {{[-a|--arch]}} {{arch}}`
+`sudo lxc-create {{[-n|--name]}} {{nombre}} {{[-t|--template]}} download -- {{[-d|--dist]}} {{nombre_distro}} {{[-r|--release]}} {{versión_de_lanzamiento}} {{[-a|--arch]}} {{arch}}`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `lxc-create {{[-?|--help]}}`

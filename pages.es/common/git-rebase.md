@@ -30,7 +30,7 @@
 
 - Reaplica las últimas cinco confirmaciones en su lugar, evita que puedan ser reordenadas, omitidas, combinadas o modificadas:
 
-`git rebase {{[-i|--interactive]}} {{HEAD~5}}`
+`git rebase {{[-i|--interactive]}} HEAD~5`
 
 - Resuelve automáticamente cualquier conflicto favoreciendo la versión de la rama en la que se está trabajando (en este caso la palabra `theirs` tiene un significado invertido):
 

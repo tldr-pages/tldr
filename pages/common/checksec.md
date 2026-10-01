@@ -14,7 +14,7 @@
 
 - List security properties of a process:
 
-`checksec proc {{pid}}`
+`checksec proc {{process_id}}`
 
 - List security properties of the running kernel:
 

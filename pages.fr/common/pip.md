@@ -1,22 +1,18 @@
 # pip
 
 > Gestionnaire des paquets pour Python.
-> Certaines commandes comme `pip install` ont leur propre documentation.
+> Certaines sous-commandes comme `install` ont leur propre documentation.
 > Plus d'informations : <https://pip.pypa.io/en/stable/cli/pip/>.
 
-- Installe un paquet :
+- Installe un paquet (voir `pip install` pour plus d'exemples d'installation) :
 
 `pip install {{paquet}}`
 
-- Installe une version particulière d'un paquet :
-
-`pip install {{paquet}}=={{version}}`
-
-- Installe un paquet dans le répertoire utilisateur au lieu de l'emplacement par défaut système :
+- Installe un paquet dans le répertoire de l'utilisateur au lieu de l'emplacement par défaut système :
 
 `pip install --user {{paquet}}`
 
-- Met à jour un paquet :
+- Met à niveau un paquet :
 
 `pip install {{[-U|--upgrade]}} {{paquet}}`
 
@@ -24,14 +20,18 @@
 
 `pip uninstall {{paquet}}`
 
-- Sauvegarde une liste des paquets installés :
+- Sauvegarde les paquets installés à un fichier :
 
 `pip freeze > {{requirements.txt}}`
 
-- Installe des paquets à partir d'un fichier :
+- Liste les paquets installés :
 
-`pip install {{[-r|--requirement]}} {{requirements.txt}}`
+`pip list`
 
 - Affiche les informations d'un paquet installé :
 
 `pip show {{paquet}}`
+
+- Installe des paquets à partir d'un fichier :
+
+`pip install {{[-r|--requirement]}} {{requirements.txt}}`

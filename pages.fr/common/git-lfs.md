@@ -7,30 +7,30 @@
 
 `git lfs install`
 
-- Suivre des fichiers correspondant à un pattern :
+- Suit des fichiers correspondant à un pattern :
 
 `git lfs track '{{*.bin}}'`
 
-- Changer l'URL du point de terminaison Git LFS (utile si le serveur LFS est séparé du serveur Git) :
+- Change l'URL du point de terminaison Git LFS (utile si le serveur LFS est séparé du serveur Git) :
 
 `git config {{[-f|--file]}} .lfsconfig lfs.url {{lfs_endpoint_url}}`
 
-- Lister les pattern de fichiers suivis :
+- Liste les pattern de fichiers suivis :
 
 `git lfs track`
 
-- Lister les fichiers suivis ayant été commité :
+- Liste les fichiers suivis ayant été commité :
 
 `git lfs ls-files`
 
-- Pousser tout les objets LFS vers le serveur distant :
+- Pousse tout les objets LFS vers le serveur distant :
 
 `git lfs push --all {{nom_distant}} {{nom_de_branche}}`
 
-- Chercher tout les objets LFS :
+- Cherche tout les objets LFS :
 
 `git lfs fetch`
 
-- Charger tout les objets LFS :
+- Charge tout les objets LFS :
 
 `git lfs checkout`

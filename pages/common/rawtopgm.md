@@ -19,7 +19,7 @@
 
 `rawtopgm {{width}} {{height}} {{[-h|-headerskip]}} {{n}} {{path/to/image.raw}} > {{path/to/output.pgm}}`
 
-- Ignore the last m bytes of each row in the specified file:
+- Ignore the last `m` bytes of each row in the specified file:
 
 `rawtopgm {{width}} {{height}} {{[-r|-rowskip]}} {{m}} {{path/to/image.raw}} > {{path/to/output.pgm}}`
 

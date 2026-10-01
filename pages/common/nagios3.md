@@ -1,7 +1,7 @@
 # nagios3
 
 > Legacy host/service/networking monitoring program.
-> Largely deprecated by `nagios4`.
+> Note: This command is deprecated, use `nagios4` instead.
 > See also: `nagios`, `nagios2`, `nagios4`.
 > More information: <https://manned.org/nagios>.
 
@@ -13,7 +13,7 @@
 
 `nagios3 -d`
 
-- Start `nagios3`, print service check scheduling information to `stdout`, then shutdown:
+- Start `nagios3`, print service check scheduling information to `stdout`, then shut down:
 
 `nagios3 -s`
 

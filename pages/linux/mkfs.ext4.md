@@ -13,4 +13,4 @@
 
 - Create an ext4 filesystem owned by a specific user and group:
 
-`sudo mkfs.ext4 -E root_owner={{uid}}:{{gid}} {{/dev/sdXY}}`
+`sudo mkfs.ext4 -E root_owner={{user_id}}:{{group_id}} {{/dev/sdXY}}`

@@ -1,7 +1,7 @@
 # df
 
 > Wyświetl przegląd wykorzystania przestrzeni dyskowej systemu plików.
-> Więcej informacji: <https://man.freebsd.org/cgi/man.cgi?df>.
+> Więcej informacji: <https://man.freebsd.org/cgi/man.cgi?query=df>.
 
 - Wyświetl wszystkie systemy plików i ich wykorzystanie dysków w jednostkach 512-bajtowych:
 
@@ -13,7 +13,7 @@
 
 - Użyj jednostek czytelnych dla człowieka (z ang. [H]uman) (opartych na potęgach 1000):
 
-`df -{{-si|H}}`
+`df -H`
 
 - Wyświetl wszystkie systemy plików i ich wykorzystanie dysków zawierające podany plik lub katalog:
 

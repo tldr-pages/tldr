@@ -2,7 +2,7 @@
 
 > Een platformonafhankelijke inplugbare tekstbewerker.
 > Plugins zijn beheerd door `apm`.
-> Opmerking: Atom is niet meer actief en wordt niet meer actief onderhouden. Gebruik in plaats hiervan `zed`.
+> Opmerking: Atom is niet meer in ontwikkeling en wordt niet meer actief onderhouden. Gebruik in plaats hiervan `zed`.
 > Meer informatie: <https://atom.io/>.
 
 - Open een bestand of map:
@@ -21,10 +21,10 @@
 
 `atom --safe`
 
-- Voorkom dat Atom zich vertakt in de achtergrond, en houdt Atom in de terminal:
+- Voorkom dat Atom zich vertakt in de achtergrond, en houd Atom in de terminal:
 
 `atom {{[-f|--foreground]}}`
 
-- Wacht op het Atom venster om zich te sluiten voor door te gaan (handig voor Git commit bewerker):
+- Wacht totdat het Atom-venster gesloten wordt voordat er wordt doorgegaan (handig voor de Git commit-editor):
 
 `atom {{[-w|--wait]}}`

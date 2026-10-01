@@ -9,7 +9,7 @@
 
 - Exibe os valores de configuração de um servidor específico:
 
-`cupsctl -h {{servidor[:porta]}}`
+`cupsctl -h {{servidor:porta}}`
 
 - Ativa a criptografia na conexão ao scheduler:
 

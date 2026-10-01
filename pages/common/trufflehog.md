@@ -25,7 +25,7 @@
 
 - Scan S3 buckets using IAM Roles:
 
-`trufflehog s3 --role-arn {{iam-role-arn}}`
+`trufflehog s3 --role-arn {{iam_role_arn}}`
 
 - Scan individual files or directories:
 

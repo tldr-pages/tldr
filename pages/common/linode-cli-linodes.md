@@ -1,7 +1,6 @@
 # linode-cli linodes
 
 > Manage Linode instances.
-> See also: `linode-cli`.
 > More information: <https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-compute-instances>.
 
 - List all Linodes:

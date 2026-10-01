@@ -18,11 +18,11 @@
 
 - استخراج [x] یک آرشیو (فشرده) [f]فایل در پوشه فعلی به صورت [v]کامل:
 
-`tar xvf {{path/to/source.tar[.gz|.bz2|.xz]}}`
+`tar xvf {{path/to/source.tar.ext}}`
 
 - استخراج [x] یک آرشیو (فشرده) [f]فایل در پوشه مقصد:
 
-`tar xf {{path/to/source.tar[.gz|.bz2|.xz]}} {{[-C|--directory]}} {{path/to/directory}}`
+`tar xf {{path/to/source.tar.ext}} {{[-C|--directory]}} {{path/to/directory}}`
 
 - [c]ایجاد یک آرشیو فشرده و نوشتن آن در یک [f]فایل، با استفاده از پسوند فایل برای تعیین [a]خودکار برنامه فشرده‌سازی:
 

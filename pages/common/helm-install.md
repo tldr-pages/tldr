@@ -19,7 +19,7 @@
 
 `helm install {{repository_name}}/{{chart_name}} {{[-g|--generate-name]}}`
 
-- Perform a dry run:
+- Simulate an install without actually doing it:
 
 `helm install {{name}} {{repository_name}}/{{chart_name}} --dry-run`
 

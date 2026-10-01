@@ -21,7 +21,7 @@
 
 - Download a license by its SPDX identifier and place it in the LICENSES directory:
 
-`reuse download {{spdx-identifier}}`
+`reuse download {{spdx_identifier}}`
 
 - Download all missing licenses detected in the project:
 

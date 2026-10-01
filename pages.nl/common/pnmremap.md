@@ -3,7 +3,7 @@
 > Vervang de kleuren in een PNM afbeelding.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/pnmremap.html>.
 
-- Vervang de kleuren in een afbeelding met diegene gespecificeerd in een kleurenpalet:
+- Vervang de kleuren in een afbeelding met die in het gespecificeerde kleurenpalet:
 
 `pnmremap {{[-ma|-mapfile]}} {{pad/naar/kleurenpalet_bestand.ppm}} {{pad/naar/invoer.pnm}} > {{pad/naar/uitvoer.pnm}}`
 

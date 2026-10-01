@@ -1,6 +1,7 @@
 # lpstat
 
 > Zeige Statusinformationen von Druckern.
+> Siehe auch: `lp`, `lpoptions`.
 > Weitere Informationen: <https://manned.org/lpstat>.
 
 - Liste alle aktuell verbundenen Drucker mit ihrer Druckverfügbarkeit auf:

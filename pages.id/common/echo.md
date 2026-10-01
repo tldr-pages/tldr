@@ -27,3 +27,7 @@
 - Cetak status keluar dari perintah terakhir yang dieksekusi (Catatan: Dalam Windows Command Prompt dan PowerShell, perintah yang setara adalah `echo %errorlevel%` dan `$lastexitcode`):
 
 `echo $?`
+
+- Teruskan suatu pesan teks menuju program lainnya menuju `stdin`:
+
+`echo "{{Halo Dunia}}" | {{program}}`

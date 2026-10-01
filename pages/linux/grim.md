@@ -27,11 +27,11 @@
 
 - Set the PNG compression level (default: 6):
 
-`grim -l {{0-9}} {{path/to/output.png}}`
+`grim -l {{0..9}} {{path/to/output.png}}`
 
 - Set the JPEG quality level (default: 80):
 
-`grim -t jpeg -q {{0-100}} {{path/to/output.jpg}}`
+`grim -t jpeg -q {{0..100}} {{path/to/output.jpg}}`
 
 - Include cursors in the screenshot:
 

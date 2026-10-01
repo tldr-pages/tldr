@@ -19,6 +19,6 @@
 
 `snakefmt --line-length {{100}} {{path/to/snakefile}}`
 
-- Display the changes that would be performed without performing them (dry-run):
+- Simulate formatting and display the changes that would be made:
 
 `snakefmt --diff {{path/to/snakefile}}`

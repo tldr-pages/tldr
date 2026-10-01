@@ -11,7 +11,7 @@
 
 `arc list`
 
-- Mets à jour les messages de commit Git après relecture :
+- Met à jour les messages de validation Git après relecture :
 
 `arc amend`
 

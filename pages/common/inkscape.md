@@ -22,7 +22,7 @@
 
 - Export a single object, given its ID, into a bitmap:
 
-`inkscape {{path/to/file.svg}} {{[-i|--export-id]}} {{id}} {{[-o|--export-filename]}} {{object.png}}`
+`inkscape {{path/to/file.svg}} {{[-i|--export-id]}} {{object_id}} {{[-o|--export-filename]}} {{object.png}}`
 
 - Export an SVG document to PDF, converting all texts to paths:
 

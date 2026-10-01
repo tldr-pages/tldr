@@ -1,7 +1,6 @@
 # magick identify
 
 > Describe the format and characteristics of image files.
-> See also: `magick`.
 > More information: <https://imagemagick.org/script/identify.php>.
 
 - Describe the format and basic characteristics of an image:

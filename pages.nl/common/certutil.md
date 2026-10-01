@@ -11,11 +11,11 @@
 
 `certutil -L -d .`
 
-- Toon alle private [S]leutels in een database door het wachtwoord[b]estand te specificeren:
+- Toon alle privésleutels in een database door het wachtwoordbestand op te geven:
 
 `certutil -K -d . -f {{pad/naar/wachtwoord_bestand.txt}}`
 
-- [V]oeg het ondertekende certificaat toe aan de database van de aanvrager door een [b]ijnaam, [v]ertrouwensattributen en een [i]nvoer-CRT-bestand te specificeren:
+- Voeg het ondertekende certificaat toe aan de database van de aanvrager, met een bijnaam, vertrouwensattributen en een [i]nvoer-CRT-bestand:
 
 `certutil -A -n "{{server_certificaat}}" -t ",," -i {{pad/naar/bestand.crt}} -d .`
 

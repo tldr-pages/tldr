@@ -7,9 +7,9 @@
 
 `cmd`
 
-- Voer specifieke [c]ommandos uit:
+- Voer specifieke [c]ommando's uit:
 
-`cmd /c {{echo Hello world}}`
+`cmd /c {{echo cmd wordt uitgevoerd}}`
 
 - Voer een specifiek script uit:
 
@@ -17,7 +17,7 @@
 
 - Voer specifieke commando's uit en start vervolgens een interactieve shell:
 
-`cmd /k {{echo Hello world}}`
+`cmd /k {{echo cmd wordt uitgevoerd}}`
 
 - Start een interactieve shell-sessie waarbij `echo` is uitgeschakeld in de opdrachtuitvoer:
 

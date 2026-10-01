@@ -19,6 +19,6 @@
 
 `hg add {{[-S|--subrepos]}}`
 
-- Perform a test-run without performing any actions:
+- Simulate adding files without performing any actions:
 
 `hg add {{[-n|--dry-run]}}`

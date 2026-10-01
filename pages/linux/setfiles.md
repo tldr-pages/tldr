@@ -2,7 +2,7 @@
 
 > Set SELinux file security contexts based on policy rules.
 > Similar to `restorecon` but reads contexts from a file_contexts file.
-> See also: `restorecon`, `semanage-fcontext`, `fixfiles`.
+> See also: `restorecon`, `semanage fcontext`, `fixfiles`.
 > More information: <https://manned.org/setfiles>.
 
 - Set file contexts according to the default policy file:

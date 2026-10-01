@@ -9,7 +9,7 @@
 
 - 특정 창 크기와 화면 위치로 Dillo를 실행:
 
-`dillo --geometry {{너비}}x{{높이}}+{{x_위치}}+{{y_위치}}`
+`dillo {{[-g|--geometry]}} {{너비}}x{{높이}}+{{x_위치}}+{{y_위치}}`
 
 - Dillo를 실행하고 특정 URL을 열기:
 
@@ -21,12 +21,12 @@
 
 - 전체 화면 모드로 Dillo를 실행:
 
-`dillo --fullwindow`
-
-- 버전 정보 출력:
-
-`dillo --version`
+`dillo {{[-f|--fullwindow]}}`
 
 - 도움말 표시:
 
-`dillo --help`
+`dillo {{[-h|--help]}}`
+
+- 버전 정보 출력:
+
+`dillo {{[-v|--version]}}`

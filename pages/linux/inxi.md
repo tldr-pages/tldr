@@ -4,7 +4,7 @@
 > See also: `lshw`, `hwinfo`, `dmidecode`.
 > More information: <https://manned.org/inxi>.
 
-- Print a summary of CPU, memory, hard drive and kernel information:
+- Print a summary of CPU, memory, hard drive, and kernel information:
 
 `inxi`
 

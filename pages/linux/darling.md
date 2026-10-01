@@ -15,6 +15,6 @@
 
 `darling shell`
 
-- Shutdown the service:
+- Shut down the service:
 
 `darling shutdown`

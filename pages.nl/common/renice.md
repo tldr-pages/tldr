@@ -7,11 +7,11 @@
 
 - Verhoog/verlaag de prioriteit van een lopend [p]roces:
 
-`renice -n {{3}} -p {{pid}}`
+`renice -n {{3}} -p {{proces_id}}`
 
-- Verhoog/verlaag de prioriteit van alle processen die eigendom zijn van een [g]ebruiker:
+- Verhoog/verlaag de prioriteit van alle processen die eigendom zijn van een gebruiker ([u]ser):
 
-`renice -n {{-4}} -u {{uid|user}}`
+`renice -n {{-4}} -u {{gebruikers_id|gebruikersnaam}}`
 
 - Verhoog/verlaag de prioriteit van alle processen die behoren tot een proces[g]roep:
 

@@ -15,7 +15,7 @@
 
 `html5validator --show-warnings {{path/to/file}}`
 
-- Match multiple files using a glob pattern:
+- Match multiple files using a `glob` pattern:
 
 `html5validator --root {{path/to/directory}} --match "{{*.html *.php}}"`
 

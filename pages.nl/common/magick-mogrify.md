@@ -2,10 +2,9 @@
 
 > Voer bewerkingen uit op meerdere afbeeldingen, zoals het wijzigen van de grootte, bijsnijden, omkeren en effecten toevoegen.
 > Wijzigingen worden direct toegepast op het originele bestand.
-> Zie ook: `magick`.
 > Meer informatie: <https://imagemagick.org/script/mogrify.php>.
 
-- Wijzig de grootte van alle JPEG afbeeldingen in de map naar 50% van hun oorspronkelijke grootte:
+- Wijzig de grootte van alle JPEG-afbeeldingen in de map naar 50% van hun oorspronkelijke grootte:
 
 `magick mogrify -resize {{50%}} {{*.jpg}}`
 

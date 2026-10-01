@@ -19,11 +19,11 @@
 
 `ftp -s:{{path\to\file}} {{host}}`
 
-- [Interactive] Download multiple files (glob expression):
+- [Interactive] Download multiple files (`glob` expression):
 
 `mget {{*.png}}`
 
-- [Interactive] Upload multiple files (glob expression):
+- [Interactive] Upload multiple files (`glob` expression):
 
 `mput {{*.zip}}`
 

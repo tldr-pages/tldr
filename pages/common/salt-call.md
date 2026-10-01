@@ -7,7 +7,7 @@
 
 `salt-call state.highstate`
 
-- Perform a highstate dry-run, compute all changes but don't actually perform them:
+- Simulate a highstate, computing all changes without actually performing them:
 
 `salt-call state.highstate test=true`
 

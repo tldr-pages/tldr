@@ -4,17 +4,17 @@
 > Het commando blokkeert terwijl de server pushes en pulls accepteert en de inhoud kan worden opgeslagen in het geheugen en op de schijf.
 > Meer informatie: <https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_registry_serve.md>.
 
-- Dien een registry-implementatie:
+- Start een registry-implementatie:
 
 `crane registry serve`
 
-- Adres om naar te luisteren:
+- Specificeer het adres om naar te luisteren:
 
 `crane registry serve --address {{address_naam}}`
 
-- Navigeer naar een map waar blobs worden opgeslagen:
+- Sla blobs op in een specifieke map:
 
-`crane registry serve --disk {{pad/naar/store_dir}}`
+`crane registry serve --disk {{pad/naar/map}}`
 
 - Toon de help voor `crane registry`:
 

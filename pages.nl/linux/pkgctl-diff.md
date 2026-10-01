@@ -1,7 +1,6 @@
 # pkgctl diff
 
 > Vergelijk pakketbestanden met behulp van verschillende modi.
-> Zie ook: `pkgctl`.
 > Meer informatie: <https://manned.org/pkgctl-diff>.
 
 - Vergelijk pakketbestanden in tar-inhoud [l]ijst verschillende modus (standaard):

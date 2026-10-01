@@ -1,6 +1,6 @@
 # ppmquant
 
-> Dit commando is vervangen met `pnmquant` en `pnmremap`.
+> Dit commando is vervangen door `pnmquant` en `pnmremap`.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/ppmquant.html>.
 
 - Bekijk de documentatie voor `pnmquant`:

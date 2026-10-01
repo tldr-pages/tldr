@@ -1,7 +1,6 @@
 # linode-cli object-storage
 
 > Manage Linode Object Storage.
-> See also: `linode-cli`.
 > More information: <https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-object-storage>.
 
 - List all Object Storage buckets:

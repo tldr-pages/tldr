@@ -1,12 +1,12 @@
 # lpoptions
 
 > Exibe ou define opções e padrões de uma impressora.
-> Veja também: `lpadmin`.
+> Veja também: `lpadmin`, `lp`, `lpstat`.
 > Mais informações: <https://openprinting.github.io/cups/doc/man-lpoptions.html>.
 
 - Define a impressora padrão:
 
-`lpoptions -d {{impressora[/instância]}}`
+`lpoptions -d {{impressora}}/{{instância}}`
 
 - Lista opções específicas de uma impressora:
 

@@ -9,15 +9,15 @@
 
 `crane index append`
 
-- Verwijs naar manifests om toe te voegen aan de basisindex:
+- Voeg specifieke manifests toe aan de basisindex:
 
 `crane index append {{[-m|--manifest]}} {{manifest_naam1 manifest_naam2 ...}}`
 
-- Tag die toegepast moet worden op de resulterende image:
+- Pas een tag toe op de resulterende image:
 
 `crane index append {{[-t|--tag]}} {{tag_naam}}`
 
-- Lege basisindex heeft Docker-media types in plaats van OCI:
+- Gebruik Docker-media in plaats van OCI voor een lege basisindex:
 
 `crane index append --docker-empty-base`
 

@@ -1,7 +1,6 @@
 # odpscmd func
 
 > Manage functions in ODPS (Open Data Processing Service).
-> See also: `odpscmd`.
 > More information: <https://www.alibabacloud.com/help/en/maxcompute/user-guide/maxcompute-client>.
 
 - [Interactive] Show functions in the current project:

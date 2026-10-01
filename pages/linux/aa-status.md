@@ -20,7 +20,7 @@
 
 `sudo aa-status --profiled`
 
-- Display the number of loaded enforicing policies:
+- Display the number of loaded enforcing policies:
 
 `sudo aa-status --enforced`
 

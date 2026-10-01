@@ -1,27 +1,28 @@
 # lp
 
 > Print bestanden.
+> Zie ook: `lpstat`, `lpoptions`.
 > Meer informatie: <https://manned.org/lp>.
 
-- Toon de output van een commando met de standaard printer (bekijk het `lpstat` commando):
+- Print de output van een commando naar de standaard printer (bekijk het `lpstat` commando):
 
 `echo "test" | lp`
 
-- Toon een bestand met de standaard printer:
+- Print een bestand naar de standaard printer:
 
-`lp {{pad/naar/bestandsnaam}}`
+`lp {{pad/naar/bestand}}`
 
-- Toon een bestand met een printer met naam (bekijk het `lpstat` commando):
+- Print een bestand naar een printer met naam (bekijk het `lpstat` commando):
 
-`lp -d {{printer_naam}} {{pad/naar/bestandsnaam}}`
+`lp -d {{printer_naam}} {{pad/naar/bestand}}`
 
-- Toon N kopieën van een bestand met de standaard printer (vervang N met het gewenste aantal kopieën):
+- Print `n` kopieën van een bestand naar de standaard printer:
 
-`lp -n {{N}} {{pad/naar/bestandsnaam}}`
+`lp -n {{n}} {{pad/naar/bestand}}`
 
-- Toon alleen specifieke pagina's met de standaard printer (print pagina's 1, 3-5, and 16):
+- Print alleen specifieke pagina's naar de standaard printer (print pagina's 1, 3-5 en 16):
 
-`lp -P 1,3-5,16 {{pad/naar/bestandsnaam}}`
+`lp -P 1,3-5,16 {{pad/naar/bestand}}`
 
 - Hervat het printen van een taak:
 

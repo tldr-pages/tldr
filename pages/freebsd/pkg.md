@@ -1,7 +1,7 @@
 # pkg
 
 > FreeBSD package manager.
-> More information: <https://man.freebsd.org/cgi/man.cgi?pkg>.
+> More information: <https://man.freebsd.org/cgi/man.cgi?query=pkg>.
 
 - Install a new package:
 

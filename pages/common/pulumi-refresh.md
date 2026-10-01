@@ -19,7 +19,7 @@
 
 `pulumi refresh --preview-only`
 
-- The name of the stack to operate on (defaults to the current stack):
+- Specify the name of the stack to operate on (defaults to the current stack):
 
 `pulumi refresh {{[-s|--stack]}} {{stack_name}}`
 

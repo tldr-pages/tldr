@@ -1,7 +1,6 @@
 # pacman --remove
 
-> Hulpprogramma voor het beheren van pakketten op Arch Linux.
-> Zie ook: `pacman`.
+> Verwijder pakketten van het systeem.
 > Meer informatie: <https://manned.org/pacman.8>.
 
 - Verwijde[R] een pakket en zijn afhankelijkheden recur[s]ief:
@@ -16,7 +15,7 @@
 
 `sudo pacman -R --noconfirm {{pakket}}`
 
-- Verwijde[R] weespakketten (geïnstalleerd als [d]ependencies maar [n]iet vereist door een ander pakket):
+- Verwijde[R] weespakketten (geïnstalleerd als afhankelijkhe[d]en maar nie[t] vereist door een ander pakket):
 
 `sudo pacman -Rsn $(pacman -Qdtq)`
 
@@ -28,6 +27,6 @@
 
 `pacman -Rp {{pakket}}`
 
-- Toon [h]ulp:
+- Toon de [h]elp:
 
 `pacman -Rh`

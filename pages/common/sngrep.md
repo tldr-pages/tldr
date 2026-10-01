@@ -11,7 +11,7 @@
 
 `sngrep -crI {{path/to/file.pcap}}`
 
-- Real-time interface with only dialogs starting with INVITE packets with RTP packets:
+- Display a real-time interface with only dialogs starting with INVITE packets, including RTP packets:
 
 `sngrep -cr`
 

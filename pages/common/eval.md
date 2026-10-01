@@ -9,4 +9,4 @@
 
 - Set a variable in the current shell:
 
-`eval "{{foo=bar}}"`
+`eval "{{variable_name=value}}"`

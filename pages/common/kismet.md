@@ -33,4 +33,4 @@
 
 - Display detailed information about a specific AP's packets:
 
-`sudo kismet -c {{wlan0}} --info {{bssid}}`
+`sudo kismet -c {{wlan0}} --info {{basic_ssid}}`

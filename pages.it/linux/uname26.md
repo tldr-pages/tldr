@@ -2,6 +2,6 @@
 
 > Questo comando è un alias per `setarch uname26`.
 
-- Consulta la documentazione del comando originale:
+- Visualizza la documentazione del comando originale:
 
 `tldr setarch`

@@ -4,7 +4,7 @@
 > See also: `pbmreduce`.
 > More information: <https://netpbm.sourceforge.net/doc/pamditherbw.html>.
 
-- Read a PGM image, apply dithering and save it to a file:
+- Read a PGM image, apply dithering, and save it to a file:
 
 `pamditherbw {{path/to/image.pgm}} > {{path/to/file.pgm}}`
 

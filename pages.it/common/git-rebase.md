@@ -30,7 +30,7 @@
 
 - Applica gli ultimi 5 commit locali, consentendo di riordinarli, ometterli, unirli o modificarli:
 
-`git rebase {{[-i|--interactive]}} {{HEAD~5}}`
+`git rebase {{[-i|--interactive]}} HEAD~5`
 
 - Risolvi automaticamente i conflitti a favore del ramo di versione corrente (la parola chiave `theirs` ha qui un significato opposto):
 

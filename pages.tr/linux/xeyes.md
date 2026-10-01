@@ -1,6 +1,7 @@
 # xeyes
 
 > Ekranda fare imlecini takip eden bir çift göz göster.
+> Ayrıca bakınız: `xprop`.
 > Daha fazla bilgi için: <https://manned.org/xeyes>.
 
 - Xeyes'ı yerel makinenin varsayılan ekranında başlat:

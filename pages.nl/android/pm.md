@@ -31,6 +31,6 @@
 
 `pm grant {{pakket}} {{android.permission.CAMERA|android.permission.ACCESS_FINE_LOCATION|android.permission.READ_CONTACTS|...}}`
 
-- Toestemming voor een app intrekken:
+- Trek toestemming voor een app in:
 
 `pm revoke {{pakket}} {{android.permission.CAMERA|android.permission.ACCESS_FINE_LOCATION|android.permission.READ_CONTACTS|...}}`

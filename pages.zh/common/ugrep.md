@@ -27,7 +27,7 @@
 
 `ugrep {{[-z|--decompress]}} "{{search_pattern}}"`
 
-- 仅搜索文件名匹配特定 glob 模式的文件：
+- 仅搜索文件名匹配特定 `glob` 模式的文件：
 
 `ugrep {{[-g |--glob=]}}"{{glob_pattern}}" "{{search_pattern}}"`
 
