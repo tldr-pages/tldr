@@ -23,7 +23,7 @@
 
 `ipcs -p`
 
-- Toon toegang[t]ijden voor alle IPC-faciliteiten:
+- Toon toegangs[t]ijden voor alle IPC-faciliteiten:
 
 `ipcs -t`
 

@@ -33,6 +33,6 @@
 
 `egrep '({{aeiou}})+' {{pad/naar/bestand}}`
 
-- Zoek naar speciale tekenklassen (meer informatie: <https://www.regular-expressions.info/posixbrackets.html>):
+- Zoek met behulp van standaard tekenklassen (meer informatie: <https://www.regular-expressions.info/posixbrackets.html>):
 
 `egrep [[{{:alnum:|:alpha:|:space:|...}}]] {{pad/naar/bestand}}`

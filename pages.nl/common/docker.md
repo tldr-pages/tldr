@@ -32,6 +32,6 @@
 
 `docker {{[rm|container rm]}} {{container1 container2 ...}}`
 
-- Vang en volg de logs van een container:
+- Toon de logs van een container en volg deze:
 
 `docker {{[logs|container logs]}} {{[-f|--follow]}} {{container_naam}}`
