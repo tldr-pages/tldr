@@ -12,7 +12,7 @@
 
 `age {{[-r|--recipient]}} {{openbare_sleutel}} {{[-o|--output]}} {{pad/naar/versleuteld_bestand}} {{pad/naar/niet-versleuteld_bestand}}`
 
-- Versleutel een bestand met een of meer openbare sleutels die zijn opgegeven in het bestand van een ontvanger:
+- Versleutel een bestand voor een of meer ontvangers van wie de openbare sleutels zijn opgegeven in een bestand (één per regel):
 
 `age {{[-R|--recipients-file]}} {{pad/naar/ontvangers_bestand}} {{[-o|--output]}} {{pad/naar/versleuteld_bestand}} {{pad/naar/niet-versleuteld_bestand}}`
 

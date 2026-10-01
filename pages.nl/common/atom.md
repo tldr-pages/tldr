@@ -17,7 +17,7 @@
 
 `atom {{[-a|--add]}} {{pad/naar/bestand_of_map}}`
 
-- Open Atom in veilige modus (laadt geen geïnstalleerde pakketten):
+- Open Atom in veilige modus (laadt geen extra pakketten):
 
 `atom --safe`
 
