@@ -19,7 +19,7 @@
 
 `<Ctrl ]>`
 
-- Start `telnet` met "x" als het sessie beëindigingsteken:
+- Start `telnet` met "x" als het sessiebeëindigingsteken:
 
 `telnet {{[-e|--escape]}} {{x}} {{ip_adres}} {{poort}}`
 
