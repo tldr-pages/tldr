@@ -2,10 +2,6 @@
 
 > Gestion des paquets, des dépendances et des environnements pour tout langage de programmation.
 
-> Voir aussi : `mamba`.
-
-> Plus d'informations : <https://docs.conda.io/projects/conda/en/latest/commands/index.html>.
-
 > Certaines sous-commandes comme `create` ont leur propre documentation.
 
 > Voir aussi : `mamba`.
@@ -43,3 +39,4 @@
 - Supprime les paquets et caches inutilisés :
 
 `conda clean {{[-a|--all]}}`
+
