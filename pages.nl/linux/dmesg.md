@@ -16,7 +16,7 @@
 
 `sudo dmesg {{[-l|--level]}} err`
 
-- Toon kernelberichten en blijf nieuwe lezen, vergelijkbaar met `tail --follow`:
+- Toon kernelberichten en blijf nieuwe berichten lezen, vergelijkbaar met `tail --follow`:
 
 `sudo dmesg {{[-w|--follow]}}`
 
