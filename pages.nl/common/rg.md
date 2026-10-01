@@ -32,6 +32,6 @@
 
 `rg {{[-l|--files-with-matches]}} {{patroon}}`
 
-- Toon regels die niet overeenkomen met de gegeven reguliere expressie:
+- Toon regels die niet overeenkomen met het patroon:
 
 `rg {{[-v|--invert-match]}} {{patroon}}`
