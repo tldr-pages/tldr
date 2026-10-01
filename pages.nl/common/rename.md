@@ -17,7 +17,7 @@
 
 `rename 's/\.{{oud}}$/\.{{nieuw}}/' {{*.txt}}`
 
-- Verander naar kleine letters (gebruik `-f` in hoofdlettergevoelige bestandssystemen):
+- Verander naar kleine letters (gebruik `-f` in hoofdletterongevoelige bestandssystemen):
 
 `rename {{[-f|--force]}} 'y/A-Z/a-z/' {{*.txt}}`
 

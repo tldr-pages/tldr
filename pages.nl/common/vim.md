@@ -29,7 +29,7 @@
 
 `</>{{zoek_patroon}}<Enter>`
 
-- Voer een reguliere expressie substitutie uit in het hele bestand:
+- Voer een `regex`-substitutie uit in het hele bestand:
 
 `<:>%s/{{reguliere_expressie}}/{{vervanging}}/g<Enter>`
 
