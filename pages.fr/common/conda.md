@@ -1,11 +1,8 @@
 # conda
 
 > Gestion des paquets, des dépendances et des environnements pour tout langage de programmation.
-
 > Certaines sous-commandes comme `create` ont leur propre documentation.
-
 > Voir aussi : `mamba`.
-
 > Plus d'informations : <https://docs.conda.io/projects/conda/en/latest/commands/index.html>.
 
 - Crée un nouvel environnement en y installant les paquets nommés :
