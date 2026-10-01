@@ -16,7 +16,7 @@
 
 `chpass -s {{pad/naar/shell}} {{gebruikersnaam}}`
 
-- Pas de account v[e]rloop tijd aan (in seconden vanaf de epoch, UTC):
+- Pas de account-v[e]rlooptijd aan (in seconden vanaf de epoch, UTC):
 
 `su -c 'chpass -e {{tijd}} {{gebruikersnaam}}'`
 
