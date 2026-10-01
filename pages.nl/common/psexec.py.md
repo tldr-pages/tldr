@@ -18,7 +18,7 @@
 
 - Voer een commando uit vanaf een specifiek pad op een extern doelwit:
 
-`psexec.py -path {{path}} {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}@{{doel}} {{commando}}`
+`psexec.py -path {{pad}} {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}@{{doel}} {{commando}}`
 
 - Authenticeer met pass-the-hash-authenticatie in plaats van een wachtwoord:
 
