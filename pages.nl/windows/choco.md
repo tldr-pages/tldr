@@ -24,7 +24,7 @@
 
 `choco search {{query}}`
 
-- Toon alle geïnstalleerde pakketten:
+- Toon alle op de machine geïnstalleerde pakketten:
 
 `choco list`
 
