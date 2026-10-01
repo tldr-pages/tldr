@@ -23,7 +23,7 @@
 
 `pacman -Ql {{pakket}}`
 
-- Maak een lijst van pakketten welke geïnstalleerd zijn als afhankelijkhe[d]en maar niet vereist door een pakket en print in stille ([q]) modus (alleen pakketnaam wordt weergegeven):
+- Maak een lijst van pakketten welke geïnstalleerd zijn als afhankelijkhe[d]en maar nie[t] vereist door een pakket en print in stille ([q]) modus (alleen pakketnaam wordt weergegeven):
 
 `pacman -Qdtq`
 

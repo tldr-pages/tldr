@@ -19,6 +19,6 @@
 
 `export PATH=$PATH:{{pad/om/toe_te_voegen}}`
 
-- Toon een lijst van actieve geëxporteerde variabelen in shell-opdrachtvorm:
+- Toon ([p]) een lijst van actieve geëxporteerde variabelen in shell-opdrachtvorm:
 
 `export -p`
