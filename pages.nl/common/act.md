@@ -27,6 +27,6 @@
 
 `act {{[-v|--verbose]}}`
 
-- Voer een specifieke workflow uit:
+- Voer een specifieke workflow uit met het push-evenement:
 
 `act push {{[-W|--workflows]}} {{pad/naar/workflow}}`
