@@ -13,23 +13,23 @@
 
 - Specificeer het maximale aantal karakters dat gelezen moet worden:
 
-`read -n {{character_count}} {{variable}}`
+`read -n {{aantal_karakters}} {{variabele}}`
 
 - Wijs meerdere waarden toe aan meerdere variabelen:
 
-`read <<< "{{De achternaam is Bond}}" {{_ variable1 _ variable2}}`
+`read <<< "{{De achternaam is Bond}}" {{_ variabele1 _ variabele2}}`
 
 - Laat backslash (`\`) niet optreden als een escape-teken:
 
-`read -r {{variable}}`
+`read -r {{variabele}}`
 
 - Toon een prompt vóór de invoer:
 
-`read -p "{{Voer je invoer hier in: }}" {{variable}}`
+`read -p "{{Voer je invoer hier in: }}" {{variabele}}`
 
 - Echo de ingetikte tekens niet (stille modus):
 
-`read -s {{variable}}`
+`read -s {{variabele}}`
 
 - Voer een actie uit op elke regel van de uitvoer van een commando:
 
