@@ -7,7 +7,7 @@
 
 `pacman -T {{pakket1 pakket2 ...}}`
 
-- Controleer of het geïnstalleerde pakket voldoet met de gegeven minimale versie:
+- Controleer of het geïnstalleerde pakket voldoet aan de gegeven minimale versie:
 
 `pacman -T "{{bash>=5}}"`
 
