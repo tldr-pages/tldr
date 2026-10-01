@@ -27,6 +27,6 @@
 
 `getprop {{ro.oem_unlock_supported}}`
 
-- Toon het MAC-adres van de Android's Wi-Fi kaart:
+- Toon het MAC-adres van de Android's Wi-Fi-kaart:
 
 `getprop {{ro.boot.wifimacaddr}}`

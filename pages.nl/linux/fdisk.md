@@ -8,7 +8,7 @@
 
 `sudo fdisk {{[-l|--list]}}`
 
-- Start de partitiemanipulator:
+- Start de interactieve partitiemanipulator:
 
 `sudo fdisk {{/dev/sdX}}`
 

@@ -11,7 +11,7 @@
 
 `tldr kiterunner scan`
 
-- Bekijk documentatie voor het manipuleren van kitebuilder schema's:
+- Bekijk documentatie voor het manipuleren van kitebuilder-schema's:
 
 `tldr kiterunner kb`
 

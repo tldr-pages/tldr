@@ -2,7 +2,7 @@
 
 > ポッド、コンテナ、イメージのシンプルな管理ツールです。
 > PodmanはDocker-CLIと互換性のあるコマンドラインを提供します。簡潔に言うと: `alias docker=podman`。
-> 詳細情報: <https://github.com/containers/podman/blob/main/commands-demo.md>。
+> 詳細情報: <https://docs.podman.io/en/latest/Commands.html>。
 
 - 全てのコンテナ(実行中と停止中の両方)を一覧表示する:
 

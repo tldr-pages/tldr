@@ -2,6 +2,6 @@
 
 > Questo comando è un alias per `uv tool run`.
 
-- Consulta la documentazione del comando originale:
+- Visualizza la documentazione del comando originale:
 
 `tldr uv tool`

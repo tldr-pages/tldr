@@ -15,7 +15,7 @@
 
 `alacritty msg create-window`
 
-- Voer in een specifieke map uit (werkt ook met `alacritty msg create-window`):
+- Start de shell in een specifieke map (werkt ook met `alacritty msg create-window`):
 
 `alacritty --working-directory {{pad/naar/map}}`
 

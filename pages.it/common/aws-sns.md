@@ -17,7 +17,7 @@
 
 - Pubblica un messaggio a un topic o numero di telefono specifico e mostra l'ID del messaggio:
 
-`aws sns publish {{--topic-arn "arn:aws:sns:us-west-2:123456789012:topic-name"||--phone-number +1-555-555-0100}} --message file://{{path/to/file}}`
+`aws sns publish {{--topic-arn "arn:aws:sns:us-west-2:123456789012:topic-name"|--phone-number +1-555-555-0100}} --message file://{{path/to/file}}`
 
 - Elimina la sottoscrizione con un ARN specifico dal suo topic:
 

@@ -7,7 +7,7 @@
 
 `sleep {{seconden}}`
 
-- Wacht in [m]inuten. (Andere eenheden zoals [d]ag, [u]ur, [s]econde, [inf]initeit kunnen ook worden gebruikt):
+- Wacht in [m]inuten. (Andere eenheden zoals [d]ag, uur ([h]), [s]econde, [inf]initeit kunnen ook worden gebruikt):
 
 `sleep {{minuten}}m`
 
