@@ -15,7 +15,7 @@
 
 `sudo pacman -R --noconfirm {{pakket}}`
 
-- Verwijde[R] weespakketten (geïnstalleerd als [d]ependencies maar [n]iet vereist door een ander pakket):
+- Verwijde[R] weespakketten (geïnstalleerd als afhankelijkhe[d]en maar nie[t] vereist door een ander pakket):
 
 `sudo pacman -Rsn $(pacman -Qdtq)`
 
