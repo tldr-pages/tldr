@@ -30,8 +30,8 @@
 
 - Vervang een string met een specifieke vervanging voor alle regels:
 
-`,s/{{reguliere_expressie}}/{{vervanging}}/g<Enter>`
+`,s/{{reguliere_expressie}}/{{vervanging}}/g`
 
 - Sluit `ed` af:
 
-`q<Enter>`
+`q`

@@ -1,7 +1,7 @@
 # rename
 
 > Hernoem een bestand of groep van bestanden met een `regex`.
-> WAARSCHUWING: Dit commando overschrijft bestanden zonder bevestiging, tenzij de dry-run optie gebruikt wordt.
+> WAARSCHUWING: Dit commando overschrijft bestanden zonder bevestiging, tenzij de `-n` optie gebruikt wordt.
 > Opmerking: Deze pagina verwijst naar de Perl-versie, ook bekend als `file-rename`.
 > Meer informatie: <https://manned.org/prename>.
 

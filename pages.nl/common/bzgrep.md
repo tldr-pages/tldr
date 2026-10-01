@@ -7,7 +7,7 @@
 
 `bzgrep "{{zoekpatroon}}" {{pad/naar/bestand}}`
 
-- Zoek recursief naar een patroon in bestanden in een bzip2 gecomprimeerd `.tar`-archief:
+- Zoek recursief naar een patroon in bestanden in een `bzip2` gecomprimeerd `.tar`-archief:
 
 `bzgrep {{[-r|--recursive]}} "{{zoekpatroon}}" {{pad/naar/tar_bestand}}`
 

@@ -3,11 +3,11 @@
 > Voer GitHub-acties lokaal uit met behulp van Docker.
 > Meer informatie: <https://manned.org/act>.
 
-- Maak een lijst van de beschikbare acties:
+- Maak een lijst van de beschikbare jobs:
 
 `act {{[-l|--list]}}`
 
-- Voer de standaard evenement uit:
+- Voer het standaardevenement uit:
 
 `act`
 

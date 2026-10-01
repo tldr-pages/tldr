@@ -11,11 +11,11 @@
 
 `b2sum {{pad/naar/bestand1 pad/naar/bestand2 ...}} > {{pad/naar/bestand.b2}}`
 
-- Bereken de BLAKE2 checksum voor `stdin`:
+- Bereken een BLAKE2 checksum van `stdin`:
 
 `{{commando}} | b2sum`
 
-- Lees een bestand van BLAKE2 sums en bestandsnamen en verifieer dat alle bestanden overeenkomende checksums hebben:
+- Lees een bestand met BLAKE2 checksums en bestandsnamen en verifieer dat alle bestanden overeenkomende checksums hebben:
 
 `b2sum {{[-c|--check]}} {{pad/naar/bestand.b2}}`
 

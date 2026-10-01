@@ -23,10 +23,10 @@
 
 `getprop {{ro.vendor.product.model}}`
 
-- Toon de OEM ontgrendelingsstatus:
+- Toon de OEM-ontgrendelingsstatus:
 
 `getprop {{ro.oem_unlock_supported}}`
 
-- Toon het MAC-adres van de Android's Wi-Fi kaart:
+- Toon het MAC-adres van de Android's Wi-Fi-kaart:
 
 `getprop {{ro.boot.wifimacaddr}}`

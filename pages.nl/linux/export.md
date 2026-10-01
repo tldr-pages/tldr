@@ -11,7 +11,7 @@
 
 `export -n {{VARIABELE}}`
 
-- Exporteer een functie naar child-processen:
+- Exporteer een [f]unctie naar child-processen:
 
 `export -f {{FUNCTIE_NAAM}}`
 

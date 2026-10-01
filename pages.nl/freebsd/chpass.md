@@ -24,7 +24,7 @@
 
 `su -c 'chpass -p {{gecodeerd_wachtwoord}} {{gebruikersnaam}}'`
 
-- Specificeer een [h]ostnaam of adres van een NIS server:
+- Specificeer de [h]ostnaam of het adres van een NIS-server om te bevragen:
 
 `su -c 'chpass -h {{hostnaam}} {{gebruikersnaam}}'`
 
