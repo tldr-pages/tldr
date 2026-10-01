@@ -36,4 +36,3 @@
 - Supprime les paquets et caches inutilisés :
 
 `conda clean {{[-a|--all]}}`
-
