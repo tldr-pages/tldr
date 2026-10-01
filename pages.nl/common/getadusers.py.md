@@ -4,7 +4,7 @@
 > Onderdeel van de Impacket-suite.
 > Meer informatie: <https://github.com/fortra/impacket>.
 
-- Ga over alle Active Directory gebruikers en hun attributen:
+- Som alle Active Directory gebruikers en hun attributen op:
 
 `GetADUsers.py -all -dc-ip {{domain_controller_ip}} {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}`
 
