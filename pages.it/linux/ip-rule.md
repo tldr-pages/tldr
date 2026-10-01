@@ -1,6 +1,7 @@
 # ip rule
 
 > Gestione del database delle politiche di routing IP.
+> Vedi anche: `ip route`.
 > Maggiori informazioni: <https://manned.org/ip-rule>.
 
 - Mostra la politica di routing:
