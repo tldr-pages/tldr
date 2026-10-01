@@ -1,8 +1,8 @@
 # pacman
 
 > Hulpprogramma voor het beheren van pakketten op Arch Linux.
-> Zie ook: `pacman-sync`, `pacman-remove`, `pacman-query`, `pacman-upgrade`, `pacman-files`, `pacman-database`, `pacman-deptest`, `pacman-key`, `pacman-mirrors`.
 > Voor gelijkwaardige commando's in andere pakketmanagers, zie <https://wiki.archlinux.org/title/Pacman/Rosetta>.
+> Zie ook: `pacman-sync`, `pacman-remove`, `pacman-query`, `pacman-upgrade`, `pacman-files`, `pacman-database`, `pacman-deptest`, `pacman-key`, `pacman-mirrors`.
 > Meer informatie: <https://manned.org/pacman.8>.
 
 - [S]ynchroniseer en update alle pakketten:
