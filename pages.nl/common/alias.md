@@ -1,7 +1,7 @@
 # alias
 
 > Maak een alias aan - woorden die vervangen worden door een commandostring.
-> Een alias blijft bestaan in de huidige shell sessie, tenzij gedefinieerd in de configuratie van de shell, bijvoorbeeld in `~/.bashrc` voor Bash of `~/.zshrc` voor Zsh.
+> Aliassen verdwijnen aan het einde van de huidige shell sessie, tenzij ze gedefinieerd zijn in het configuratiebestand van de shell, bijvoorbeeld `~/.bashrc` voor Bash of `~/.zshrc` voor Zsh.
 > Zie ook: `unalias`.
 > Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#index-alias>.
 

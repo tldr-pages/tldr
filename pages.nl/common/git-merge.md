@@ -15,7 +15,7 @@
 
 `git merge --no-ff {{branch_naam}}`
 
-- Kopieer de status van een branch naar de huidige working tree en voeg deze toe (Opmerking: gebruik `git commit` om de daadwerkelijke commit aan te maken):
+- Voeg het resultaat van het samenvoegen van een branch toe zonder een commit aan te maken:
 
 `git merge --squash {{branch_naam}}`
 
