@@ -30,8 +30,8 @@
 
 - Voeg een IP-adres toe aan een interface of verwijder het ervan:
 
-`sudo ip {{[a|address]}} {{add|delete}} {{ip}}/{{mask}} dev {{ethX}}`
+`sudo ip {{[a|address]}} {{add|delete}} {{ip_adres}}/{{mask}} dev {{ethX}}`
 
 - Voeg een standaardroute toe:
 
-`sudo ip {{[r|route]}} {{[a|add]}} default via {{ip}} dev {{ethX}}`
+`sudo ip {{[r|route]}} {{[a|add]}} default via {{ip_adres}} dev {{ethX}}`
