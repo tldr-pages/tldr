@@ -24,7 +24,7 @@
 
 `find {{pad/naar/map}} -maxdepth 1 -size {{+500k}} -size {{-10M}}`
 
-- Voer een commando uit voor elk bestand (gebruik `{}` binnen het commando om de bestandsnaam te openen):
+- Voer een commando uit voor elk bestand (gebruik `{}` binnen het commando om toegang te krijgen tot de bestandsnaam):
 
 `find {{pad/naar/map}} -name '{{*.ext}}' -exec {{wc -l}} {} \;`
 

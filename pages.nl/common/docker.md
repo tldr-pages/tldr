@@ -1,10 +1,10 @@
 # docker
 
-> Beheer Docker containers en images.
+> Beheer Docker-containers en -images.
 > Sommige subcommando's zoals `container`, `image`, etc. hebben hun eigen documentatie.
 > Meer informatie: <https://docs.docker.com/reference/cli/docker/>.
 
-- Toon alle Docker containers (actief en gestopt):
+- Toon alle Docker-containers (actief en gestopt):
 
 `docker {{[ps|container ls]}} {{[-a|--all]}}`
 

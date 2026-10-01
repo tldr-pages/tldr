@@ -28,10 +28,10 @@
 
 `ed {{pad/naar/bestand}}`
 
-- Vervang een string met een specifieke vervanging voor alle regels:
+- [Interactief] Vervang een string met een specifieke vervanging voor alle regels:
 
 `,s/{{reguliere_expressie}}/{{vervanging}}/g`
 
-- Sluit `ed` af:
+- [Interactief] Sluit `ed` af:
 
 `q`
