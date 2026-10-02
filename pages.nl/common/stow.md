@@ -21,6 +21,6 @@
 
 `stow {{[-R|--restow]}} {{[-t|--target]}} {{pad/naar/doel_map}} {{pad/naar/bestand_of_map1 pad/naar/bestand_of_map2 ...}}`
 
-- Sluit bestanden uit die overeenkomen met een reguliere expressie:
+- Sluit bestanden uit die overeenkomen met een `regex`:
 
 `stow --ignore={{reguliere_expressie}} {{[-t|--target]}} {{pad/naar/doel_map}} {{pad/naar/bestand_of_map1 pad/naar/bestand_of_map2 ...}}`

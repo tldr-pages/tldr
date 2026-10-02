@@ -17,7 +17,7 @@
 
 - Mostra os trabalhos da fila de uma impressora ou classe específica:
 
-`lpq -P {{destino[/instância]}}`
+`lpq -P {{destino}}/{{instância}}`
 
 - Mostra os trabalhos na fila a cada n segundos até que a fila esteja vazia:
 

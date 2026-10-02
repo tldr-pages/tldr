@@ -4,7 +4,7 @@
 > See also: `kmod`.
 > More information: <https://manned.org/modprobe>.
 
-- Pretend to load a module into the kernel, but don't actually do it:
+- Simulate loading a module into the kernel:
 
 `modprobe {{[-n|--dry-run]}} {{module_name}}`
 

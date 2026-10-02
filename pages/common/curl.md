@@ -1,6 +1,6 @@
 # curl
 
-> Transfers data from or to a server.
+> Transfer data from or to a server.
 > Supports most protocols, including HTTP, HTTPS, FTP, SCP, etc.
 > See also: `wcurl`, `wget`.
 > More information: <https://curl.se/docs/manpage.html>.

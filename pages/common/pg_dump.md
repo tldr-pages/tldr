@@ -7,11 +7,11 @@
 
 `pg_dump {{db_name}} > {{output_file.sql}}`
 
-- Same as above, customize username:
+- Dump a database into an SQL-script file, using a specific username:
 
 `pg_dump {{[-U|--username]}} {{username}} {{db_name}} > {{output_file.sql}}`
 
-- Same as above, customize host and port:
+- Dump a database into an SQL-script file, using a specific host and port:
 
 `pg_dump {{[-h|--host]}} {{host}} {{[-p|--port]}} {{port}} {{db_name}} > {{output_file.sql}}`
 

@@ -11,7 +11,7 @@
 
 `caffeinate -u -t 3600`
 
-- Splits een proces, voer daarin "make" uit en voorkom dat het scherm in slaapstand gaat zolang dat proces actief is:
+- Fork een proces, voer daarin "make" uit en voorkom dat het scherm in slaapstand gaat zolang dat proces actief is:
 
 `caffeinate -i make`
 

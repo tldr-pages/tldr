@@ -1,7 +1,7 @@
 # dstat
 
 > Versatile tool for generating system resource statistics.
-> Note: dstat is deprecated and no longer maintained.
+> Note: This command is deprecated and no longer maintained.
 > More information: <https://github.com/dstat-real/dstat>.
 
 - Display CPU, disk, net, paging, and system statistics:

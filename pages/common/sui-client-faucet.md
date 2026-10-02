@@ -13,4 +13,4 @@
 
 - Get a SUI coin from custom faucet:
 
-`sui client faucet --url {{custom-faucet-url}}`
+`sui client faucet --url {{custom_faucet_url}}`

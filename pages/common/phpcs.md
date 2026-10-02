@@ -27,7 +27,7 @@
 
 `phpcs {{path/to/directory}} --config-set {{key}} {{value}}`
 
-- A comma-separated list of files to load before processing:
+- Specify a comma-separated list of files to load before processing:
 
 `phpcs {{path/to/directory}} --bootstrap {{path/to/file1,path/to/file2,...}}`
 

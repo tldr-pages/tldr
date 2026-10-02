@@ -15,6 +15,6 @@
 
 `curl --silent {{http://example.com:9090/metrics/}} | promtool check metrics`
 
-- Unit tests for rules config:
+- Run unit tests for rules config:
 
 `promtool test rules {{test_file.yml}}`

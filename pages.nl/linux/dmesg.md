@@ -12,11 +12,11 @@
 
 `sudo dmesg {{[-H|--human]}}`
 
-- Toon kernel foutmeldingen:
+- Toon kernelfoutmeldingen:
 
 `sudo dmesg {{[-l|--level]}} err`
 
-- Toon kernelberichten en blijf nieuwe lezen, vergelijkbaar met `tail --follow`:
+- Toon kernelberichten en blijf [w]achten op nieuwe berichten, vergelijkbaar met `tail --follow`:
 
 `sudo dmesg {{[-w|--follow]}}`
 

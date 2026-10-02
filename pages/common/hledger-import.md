@@ -7,7 +7,7 @@
 
 `hledger import {{path/to/bank.csv}}`
 
-- Show what would be imported from these two files, without doing anything:
+- Simulate importing from these two files, showing what would be imported:
 
 `hledger import {{path/to/bank1.csv}} {{path/to/bank2.csv}} --dry-run`
 

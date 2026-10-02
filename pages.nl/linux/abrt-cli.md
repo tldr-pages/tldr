@@ -4,7 +4,7 @@
 > Gebruikt om applicatie crashes te detecteren, analyseren en rapporteren.
 > Meer informatie: <https://abrt.readthedocs.io/en/latest/usage.html>.
 
-- Lijst van gedetecteerde problemen:
+- Toon een lijst van gedetecteerde problemen:
 
 `abrt-cli list`
 
@@ -12,15 +12,15 @@
 
 `abrt-cli info {{probleem_id}}`
 
-- Een crashrapport verwijderen:
+- Verwijder een crashrapport:
 
 `abrt-cli remove {{probleem_id}}`
 
-- Een probleem rapporteren aan de geconfigureerde bugtracker (bijv. Bugzilla):
+- Rapporteer een probleem aan de geconfigureerde bugtracker (bijv. Bugzilla):
 
 `abrt-cli report {{probleem_id}}`
 
-- Een logbestand monitoren en een programma starten als er een overeenkomst wordt gevonden:
+- Monitor een logbestand en start een programma als er een overeenkomst wordt gevonden:
 
 `abrt-watch-log -F {{error_string}} {{/var/log/myapp.log}} {{notify-send "Crash gedetecteerd"}}`
 

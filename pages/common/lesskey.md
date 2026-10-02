@@ -1,7 +1,7 @@
 # lesskey
 
 > Customize keybindings for `less`.
-> Note: This command has been deprecated.
+> Note: This command is deprecated.
 > More information: <https://manned.org/lesskey>.
 
 - Compile key bindings from a source file:

@@ -1,7 +1,6 @@
 # bpftool
 
 > eBPF 프로그램 및 맵을 간단하게 검사하고 조작.
-> `prog`와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
 > 더 많은 정보: <https://manned.org/bpftool>.
 
 - 로드된 `eBPF` 프로그램 정보 나열:

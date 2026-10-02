@@ -15,6 +15,6 @@
 
 `git init --object-format sha256`
 
-- Initialiseer een eenvoudige repository, geschikt voor gebruik als externe SSH-server:
+- Initialiseer een eenvoudige repository, geschikt voor gebruik als externe repository via SSH:
 
 `git init --bare`

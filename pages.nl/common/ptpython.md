@@ -23,7 +23,7 @@
 
 `<F3>`
 
-- Wissel de plak modus:
+- Wissel de plakmodus:
 
 `<F6>`
 

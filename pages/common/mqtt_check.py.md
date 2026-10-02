@@ -6,23 +6,23 @@
 
 - Check MQTT login credentials for a target (MQTT broker's hostname):
 
-`mqtt_check.py {{domain}}/{{username}}:{{password}}@{{targetName}}`
+`mqtt_check.py {{domain}}/{{username}}:{{password}}@{{target_name}}`
 
 - Specify a custom client ID for authentication:
 
-`mqtt_check.py -client-id {{client_id}} {{domain}}/{{username}}:{{password}}@{{targetName}}`
+`mqtt_check.py -client-id {{client_id}} {{domain}}/{{username}}:{{password}}@{{target_name}}`
 
 - Enable SSL for the connection:
 
-`mqtt_check.py -ssl {{domain}}/{{username}}:{{password}}@{{targetName}}`
+`mqtt_check.py -ssl {{domain}}/{{username}}:{{password}}@{{target_name}}`
 
 - Connect to a specific port (default is 1883):
 
-`mqtt_check.py -port {{port}} {{domain}}/{{username}}:{{password}}@{{targetName}}`
+`mqtt_check.py -port {{port}} {{domain}}/{{username}}:{{password}}@{{target_name}}`
 
 - Enable debug output:
 
-`mqtt_check.py -debug {{domain}}/{{username}}:{{password}}@{{targetName}}`
+`mqtt_check.py -debug {{domain}}/{{username}}:{{password}}@{{target_name}}`
 
 - Display help:
 

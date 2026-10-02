@@ -7,6 +7,6 @@
 
 `growpart {{/dev/sdX}} {{n}}`
 
-- Show what modifications would be made when growing partition `n` in a disk image:
+- Simulate growing partition `n` in a disk image, showing what modifications would be made:
 
 `growpart {{[-N|--dry-run]}} /{{path/to/disk.img}} {{n}}`

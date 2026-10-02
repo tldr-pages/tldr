@@ -3,7 +3,7 @@
 > Installeer een of meerdere pakketten met Chocolatey.
 > Meer informatie: <https://docs.chocolatey.org/en-us/choco/commands/install/>.
 
-- Installeer een of meerdere spatie-gescheiden pakketten:
+- Installeer een of meerdere pakketten:
 
 `choco install {{pakket1 pakket2 ...}}`
 

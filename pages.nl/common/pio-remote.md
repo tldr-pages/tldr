@@ -24,7 +24,7 @@
 
 `pio remote --agent {{agent_naam}} run`
 
-- Update geïnstalleerde kern pakketten, ontwikkelplatformen en globale bibliotheken op een specifieke Agent:
+- Update geïnstalleerde kernpakketten, ontwikkelplatformen en globale bibliotheken op een specifieke Agent:
 
 `pio remote --agent {{agent_naam}} update`
 

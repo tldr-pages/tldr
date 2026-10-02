@@ -22,4 +22,4 @@
 
 - Use a HTTP proxy to download Node.js:
 
-`Install-NodeVersion {{node-version}} -Proxy {{http://example.com}}`
+`Install-NodeVersion {{node_version}} -Proxy {{http://example.com}}`

@@ -1,7 +1,7 @@
 # cal
 
 > Wyświetl kalendarz z wyróżnionym bieżącym dniem.
-> Więcej informacji: <https://man.freebsd.org/cgi/man.cgi?cal>.
+> Więcej informacji: <https://man.freebsd.org/cgi/man.cgi?query=cal>.
 
 - Wyświetl kalendarz dla obecnego miesiąca:
 

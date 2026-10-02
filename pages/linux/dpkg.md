@@ -1,8 +1,8 @@
 # dpkg
 
 > Debian package manager.
-> Some subcommands such as `deb` have their own usage documentation.
 > For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
+> Some subcommands such as `deb` have their own usage documentation.
 > More information: <https://manned.org/dpkg>.
 
 - Install a package:

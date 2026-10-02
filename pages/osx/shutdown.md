@@ -1,6 +1,6 @@
 # shutdown
 
-> Shutdown and reboot the system.
+> Shut down and reboot the system.
 > More information: <https://keith.github.io/xcode-man-pages/shutdown.8.html>.
 
 - Power off (halt) immediately:

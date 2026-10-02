@@ -1,17 +1,17 @@
 # reg delete
 
-> Eliminar claves o sus valores del registro.
+> Elimina claves o sus valores del registro.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/reg-delete>.
 
-- Eliminar una clave de registro específica:
+- Elimina una clave de registro específica:
 
 `reg delete {{nombre_clave}}`
 
-- Eliminar un [v]alor bajo una clave específica:
+- Elimina un [v]alor bajo una clave específica:
 
 `reg delete {{nombre_clave}} /v {{valor}}`
 
-- Eliminar todos [a] los [v]alores recursivamente bajo la clave especificada:
+- Elimina todos [a] los [v]alores recursivamente bajo la clave especificada:
 
 `reg delete {{nombre_clave}} /va`
 

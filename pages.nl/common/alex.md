@@ -1,7 +1,7 @@
 # alex
 
 > Vang ongevoelig, onattent schrijven op.
-> Het helpt je bij het vinden van genderbegunstigende, polariserende, rasgerelateerde, onachtzame religie of andere ongelijke bewoordingen in de tekst.
+> Het helpt je bij het vinden van genderbegunstigende, polariserende, rasgerelateerde, religieus onachtzame of andere ongelijke bewoordingen in de tekst.
 > Meer informatie: <https://github.com/get-alex/alex>.
 
 - Analyseer tekst van `stdin`:
@@ -16,6 +16,6 @@
 
 `alex {{pad/naar/bestand.md}}`
 
-- Analyseer alle Markdown-bestanden behalve `example.md`:
+- Analyseer alle Markdown-bestanden behalve een opgegeven bestand:
 
-`alex *.md !example.md`
+`alex *.md !{{bestand.md}}`

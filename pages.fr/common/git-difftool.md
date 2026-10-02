@@ -16,6 +16,6 @@
 
 `git difftool --staged`
 
-- Utilise un outil de comparaison spécifique (opendiff) pour afficher les changements depuis un commit :
+- Utilise un outil de comparaison spécifique (opendiff) pour afficher les changements depuis une validation :
 
-`git difftool {{[-t|--tool]}} {{opendiff}} {{commit}}`
+`git difftool {{[-t|--tool]}} {{opendiff}} {{validation}}`

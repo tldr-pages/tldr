@@ -13,12 +13,12 @@
 
 - Geef informatie over een specifieke service:
 
-`svcs apache`
+`svcs {{apache}}`
 
 - Toon de locatie van het logbestand van een service:
 
-`svcs -L apache`
+`svcs -L {{apache}}`
 
 - Toon de laatste lijnen van het logbestand van een service:
 
-`tail $(svcs -L apache)`
+`tail $(svcs -L {{apache}})`

@@ -1,9 +1,9 @@
 # pkg
 
-> OpenBSD pakketbeheer hulpprogramma.
+> OpenBSD pakketbeheerhulpprogramma.
 > Meer informatie: <https://www.openbsd.org/faq/faq15.html>.
 
-- Bekijk de documentatie voor installeren/updaten van pakketten:
+- Bekijk de documentatie voor het installeren/updaten van pakketten:
 
 `tldr pkg_add`
 
