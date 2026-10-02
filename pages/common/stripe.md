@@ -1,6 +1,6 @@
 # stripe
 
-> The official command-line tool to interact with Stripe.
+> Interact with Stripe payment processor.
 > Some subcommands such as `docs`, `listen`, and `logs` have their own usage documentation.
 > More information: <https://docs.stripe.com/cli>.
 
