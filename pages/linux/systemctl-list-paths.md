@@ -7,7 +7,7 @@
 
 `systemctl list-paths`
 
-- List path units matching specific wildcard pattern i.e. `glob`:
+- List path units matching specific wildcard pattern i.e. a `glob`:
 
 `systemctl list-paths {{pattern}}`
 
