@@ -1,7 +1,7 @@
 # dot2gxl
 
 > Converts between graphs represented in GXL and in the DOT language.
-> More information: <https://linux.die.net/man/1/dot2gxl>
+> More information: <https://linux.die.net/man/1/dot2gxl>.
 
 - Convert DOT to GXL:
 
