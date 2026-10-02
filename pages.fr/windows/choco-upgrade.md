@@ -1,32 +1,32 @@
 # choco upgrade
 
-> Surclassez un ou plusieurs forfaits avec Chocolatey.
+> Surclasse un ou plusieurs forfaits avec Chocolatey.
 > Plus d'informations : <https://docs.chocolatey.org/en-us/choco/commands/upgrade/>.
 
-- Mettre à niveau un ou plusieurs packages séparés par des espaces :
+- Met à niveau un ou plusieurs paquets séparés par des espaces :
 
 `choco upgrade {{paquet1 paquet2 ...}}`
 
-- Mise à niveau vers une version spécifique d'un package :
+- Met à niveau vers une version spécifique d'un paquet :
 
 `choco upgrade {{paquet}} --version {{version}}`
 
-- Mettre à niveau tous les packages :
+- Met à niveau tous les paquets :
 
 `choco upgrade all`
 
-- Mettre à niveau tous les packages sauf ceux spécifiés, séparés par des virgules :
+- Met à niveau tous les paquets sauf ceux spécifiés, séparés par des virgules :
 
 `choco upgrade all --except "{{paquet1 paquet2 ...}}"`
 
-- Confirmer automatiquement toutes les invites :
+- Confirme automatiquement toutes les invites :
 
 `choco upgrade {{paquet}} {{[-y|--yes]}}`
 
-- Spécifier une source personnalisée à partir de laquelle recevoir les packages :
+- Spécifie une source personnalisée à partir de laquelle recevoir les paquets :
 
 `choco upgrade {{paquet}} {{[-s|--source]}} {{source_url|alias}}`
 
-- Fournir un nom d'utilisateur et un mot de passe pour l'authentification :
+- Fournit un nom d'utilisateur et un mot de passe pour l'authentification :
 
-`choco upgrade {{paquet}} {{[-u|--user]}} {{nom d'utilisateur}} {{[-p|--password]}} {{mot de passe}}`
+`choco upgrade {{paquet}} {{[-u|--user]}} {{nom_utilisateur}} {{[-p|--password]}} {{mot_de_passe}}`
