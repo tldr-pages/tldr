@@ -17,7 +17,7 @@
 
 - Reset the auth password for a given user:
 
-`doctl {{[d|databases]}} {{[u|user]}} {{[rs|reset]}} {{database id}} {{user_name}}`
+`doctl {{[d|databases]}} {{[u|user]}} {{[rs|reset]}} {{database_id}} {{user_name}}`
 
 - Reset the MySQL auth plugn for a given user:
 
