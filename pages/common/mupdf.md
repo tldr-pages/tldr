@@ -25,7 +25,7 @@
 
 - Open a PDF tinted red #FF0000 (hexadecimal color syntax RRGGBB):
 
-`mupdf -C FF0000}
+`mupdf -C FF0000}`
 
 - Open a PDF wit anti-aliasing (0 = off):
 
