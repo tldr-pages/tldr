@@ -3,6 +3,7 @@
 > Display simple help pages for command-line tools from the tldr-pages project.
 > Note: The `--language` and `--list` options are not required by the client specification, but most clients implement them.
 > More information: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.
+> See also: `cheatshh`, `cheat`, `navi`
 
 - Print the tldr page for a specific command (hint: this is how you got here!):
 
