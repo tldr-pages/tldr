@@ -1,6 +1,6 @@
 # stripe docs
 
-> Browse docs.stripe.com from the terminal.
+> Browse <https://docs.stripe.com> from the terminal.
 > More information: <https://docs.stripe.com/cli/docs>.
 
 - Read a documentation page by path:
