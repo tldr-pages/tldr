@@ -24,7 +24,7 @@
 
 `Set-Location ~`
 
-- Regresa/ir al directorio elegido anteriormente:
+- Regresa/va al directorio elegido anteriormente:
 
 `Set-Location {{-|+}}`
 
