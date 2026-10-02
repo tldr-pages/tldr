@@ -6,7 +6,7 @@
 
 - Browse Stripe documentation:
 
-`stripe docs {{/testing}}`
+`stripe docs`
 
 - Follow the logs of activity on the account:
 
