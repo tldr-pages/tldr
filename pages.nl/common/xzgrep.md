@@ -1,6 +1,6 @@
 # xzgrep
 
-> Zoek bestanden die mogelijk worden gecomprimeerd met `xz`, `lzma`, `gzip`, `bzip2`, `lzop`, of `zstd` met behulp van reguliere expressies.
+> Zoek bestanden die mogelijk worden gecomprimeerd met `xz`, `lzma`, `gzip`, `bzip2`, `lzop`, of `zstd` met behulp van `regex`.
 > Zie ook: `grep`.
 > Meer informatie: <https://manned.org/xzgrep>.
 
@@ -8,7 +8,7 @@
 
 `xzgrep "{{zoekpatroon}}" {{pad/naar/bestand}}`
 
-- Zoek naar een exacte tekenreeks (schakelt reguliere expressies uit):
+- Zoek naar een exacte tekenreeks (schakelt `regex` uit):
 
 `xzgrep {{[-F|--fixed-strings]}} "{{exacte_string}}" {{pad/naar/bestand}}`
 

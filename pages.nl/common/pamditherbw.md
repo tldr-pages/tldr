@@ -12,7 +12,7 @@
 
 `pamditherbw -{{floyd|fs|atkinson|threshold|hilbert|...}} {{pad/naar/afbeelding.pgm}} > {{pad/naar/bestand.pgm}}`
 
-- Gebruik de atkinson kwantisatiemethode en de gespecificeerde seed voor een pseudo-random nummer generator:
+- Gebruik de atkinson kwantisatiemethode en de gespecificeerde seed voor een pseudo-random getallengenerator:
 
 `pamditherbw {{[-a|-atkinson]}} {{[-r|-randomseed]}} {{1337}} {{pad/naar/afbeelding.pgm}} > {{pad/naar/bestand.pgm}}`
 

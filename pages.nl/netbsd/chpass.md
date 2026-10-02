@@ -18,7 +18,7 @@
 
 - Specificeer een gebruikersdatabase entry in het `passwd` bestandsformaat:
 
-`su -c 'chpass -a {{gebruikersnaam:gecodeerd_wachtwoord:uid:gid:...}} -s {{pad/naar/shell}}' {{gebruikersnaam}}`
+`su -c 'chpass -a {{gebruikersnaam:gecodeerd_wachtwoord:gebruiker_id:groep_id:...}} -s {{pad/naar/shell}}' {{gebruikersnaam}}`
 
 - Pas alleen het [l]okale wachtwoordbestand aan:
 

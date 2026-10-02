@@ -23,7 +23,7 @@
 
 `getprop {{ro.vendor.product.model}}`
 
-- Toon de OEM ontgrendelingsstatus:
+- Toon de OEM-ontgrendelingsstatus:
 
 `getprop {{ro.oem_unlock_supported}}`
 

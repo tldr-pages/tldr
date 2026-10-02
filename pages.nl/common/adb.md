@@ -4,11 +4,11 @@
 > Sommige subcommando's zoals `shell` hebben hun eigen documentatie.
 > Meer informatie: <https://developer.android.com/tools/adb>.
 
-- Controleer of het adb serverproces draait en start het:
+- Controleer of het adb-serverproces draait en start het:
 
 `adb start-server`
 
-- Sluit het adb serverproces:
+- Sluit het adb-serverproces:
 
 `adb kill-server`
 
