@@ -1,6 +1,6 @@
 # archinstall
 
-> Begeleidende Arch Linux installer.
+> Begeleide Arch Linux-installer.
 > Meer informatie: <https://archinstall.archlinux.page/installing/guided.html>.
 
 - Start de interactieve installatie:
