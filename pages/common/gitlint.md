@@ -7,11 +7,11 @@
 
 `gitlint`
 
-- The range of commits to lint:
+- Lint a specific range of commits:
 
 `gitlint --commits {{single_refspec_argument}}`
 
-- Path to a directory or Python module with extra user-defined rules:
+- Use a directory or Python module with extra user-defined rules:
 
 `gitlint --extra-path {{path/to/directory}}`
 
@@ -19,7 +19,7 @@
 
 `gitlint --target {{path/to/target_directory}}`
 
-- Path to a file containing a commit-msg:
+- Lint a commit message from a specific file:
 
 `gitlint --msg-filename {{path/to/file}}`
 

@@ -3,9 +3,9 @@
 > Schaal een Netpbm afbeelding.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/pamscale.html>.
 
-- Schaal een afbeelding zodat het resultaat de gespecificeerde verhoudingen heeft:
+- Schaal een afbeelding zodat het resultaat de gespecificeerde afmetingen heeft:
 
-`pamscale {{[-wid|-width]}} {{breedte}} {{[-h|-height]}} {{hoogte}} {{pad/naar/invoer.pam}} > {{pad/naar/uitvoering.pam}}`
+`pamscale {{[-wid|-width]}} {{breedte}} {{[-h|-height]}} {{hoogte}} {{pad/naar/invoer.pam}} > {{pad/naar/uitvoer.pam}}`
 
 - Schaal een afbeelding zodat het resultaat de gespecificeerde breedte heeft met behoud van de beeldverhouding:
 
@@ -15,7 +15,7 @@
 
 `pamscale {{[-xsc|-xscale]}} {{x_factor}} {{[-ysc|-yscale]}} {{y_factor}} {{pad/naar/invoer.pam}} > {{pad/naar/uitvoer.pam}}`
 
-- Schaal een afbeelding zodat het past binnen het kader met behoud van de beeldverhouding:
+- Schaal een afbeelding zodat het past binnen het gespecificeerde kader met behoud van de beeldverhouding:
 
 `pamscale -xyfit {{kader_breedte}} {{kader_hoogte}} {{pad/naar/invoer.pam}} > {{pad/naar/uitvoer.pam}}`
 

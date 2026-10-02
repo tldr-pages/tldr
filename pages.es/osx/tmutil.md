@@ -9,7 +9,7 @@
 
 - Establece un recurso compartido APF o SMB como destino de la copia de seguridad:
 
-`sudo tmutil setdestination "{{protocolo://usuario[:contraseña]@host/compartir}}"`
+`sudo tmutil setdestination "{{protocolo://usuario:contraseña@host/compartir}}"`
 
 - Añade el destino indicado a la lista de destinos:
 

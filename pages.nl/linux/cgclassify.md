@@ -1,16 +1,16 @@
 # cgclassify
 
-> Verplaats lopende taken naar opgegeven `cgroups`.
+> Verplaats lopende taken naar `cgroups`.
 > Meer informatie: <https://manned.org/cgclassify>.
 
-- Verplaats het proces met een specifiek PID naar de controle groep student in de CPU hierarchie:
+- Verplaats het proces met een specifiek PID naar de controlegroep student in de CPU-hiërarchie:
 
 `cgclassify -g {{cpu:student}} {{1234}}`
 
-- Verplaats het proces met een specifiek PID naar de controle groepen gebaseerd op het `/etc/cgrules.conf` configuratie bestand:
+- Verplaats het proces met een specifiek PID naar de controlegroepen gebaseerd op het `/etc/cgrules.conf` configuratiebestand:
 
 `cgclassify {{1234}}`
 
-- Verplaats het proces met een specifiek PID naar de controle groep student in de CPU hierarchy. Let op: de daemon van de service `cgred` veranderd `cgroups` van de specifieke PID en zijn onderliggende processen niet (gebaseerd op `/etc/cgrules.conf`):
+- Verplaats het proces met een specifiek PID naar de controlegroep student in de CPU-hiërarchie. Let op: de daemon van de service `cgred` verandert `cgroups` van de specifieke PID en zijn onderliggende processen niet (gebaseerd op `/etc/cgrules.conf`):
 
 `cgclassify --sticky -g {{cpu:/student}} {{1234}}`

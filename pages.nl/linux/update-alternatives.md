@@ -5,7 +5,7 @@
 
 - Voeg een symbolische link toe:
 
-`sudo update-alternatives --install {{pad/naar/symlink}} {{commando_naam}} {{pad/naar/commando_binary}} {{priority}}`
+`sudo update-alternatives --install {{pad/naar/symlink}} {{commando_naam}} {{pad/naar/commando_binary}} {{prioriteit}}`
 
 - Configureer een symbolische link voor `java`:
 

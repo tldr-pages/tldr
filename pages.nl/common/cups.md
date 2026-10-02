@@ -16,7 +16,7 @@
 
 `tldr lp`
 
-- Bekijk de documentatie voor het bekijken van de status informatie over de huidige klasses, taken en printers:
+- Bekijk de documentatie voor het bekijken van de statusinformatie over de huidige klassen, taken en printers:
 
 `tldr lpstat`
 

@@ -13,4 +13,4 @@
 
 - Muestra qué información IP se puede visualizar:
 
-`ip show ?`
+`show ip ?`

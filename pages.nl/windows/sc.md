@@ -3,7 +3,7 @@
 > Communiceer met de Service Control Manager en services.
 > Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/sc-query>.
 
-- Toon de status van een service (geen service naam zal alle services tonen):
+- Toon de status van een service (geen servicenaam zal alle services tonen):
 
 `sc query {{service_naam}}`
 
@@ -23,6 +23,6 @@
 
 `sc delete {{service_naam}}`
 
-- Zet het type van een service:
+- Stel het type van een service in:
 
 `sc config {{service_naam}} type= {{service_type}}`

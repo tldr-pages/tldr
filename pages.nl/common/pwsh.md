@@ -29,10 +29,10 @@
 
 `pwsh -NoExit`
 
-- Beschrijf het formaat van de data die gestuurd word naar to PowerShell:
+- Beschrijf het formaat van de data die gestuurd wordt naar PowerShell:
 
 `pwsh -InputFormat {{Text|XML}}`
 
-- Bepaal hoe een uitvoer van Powershell word geformatteerd:
+- Bepaal hoe een uitvoer van PowerShell wordt geformatteerd:
 
 `pwsh -OutputFormat {{Text|XML}}`

@@ -1,7 +1,7 @@
 # now
 
 > Cloud platform for serverless deployment.
-> This command is deprecated. See `vercel`, the updated version of this tool.
+> Note: This command is deprecated, use `vercel` instead.
 > More information: <https://vercel.com/home>.
 
 - Deploy the current directory:

@@ -15,7 +15,7 @@
 
 `sudo bridge {{[v|vlan]}} {{[a|add]}} dev {{lanX}} vid {{vlan_id}} pvid {{tagged|untagged}}`
 
-- Eliminar una VLAN de un puerto:
+- Elimina una VLAN de un puerto:
 
 `sudo bridge {{[v|vlan]}} {{[d|delete]}} dev {{lanX}} vid {{vlan_id}}`
 

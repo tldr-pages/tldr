@@ -23,7 +23,7 @@
 
 `{{commando}} | cut {{[-d|--delimiter]}} " " {{[-f|--fields]}} -3`
 
-- Toon geen regels die het scheidingsteken niet bevatten:
+- Toon alleen regels die het scheidingsteken bevatten:
 
 `{{commando}} | cut {{[-d|--delimiter]}} "{{:}}" {{[-f|--fields]}} {{1}} {{[-s|--only-delimited]}}`
 

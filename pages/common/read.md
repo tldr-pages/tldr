@@ -3,9 +3,9 @@
 > Shell builtin for retrieving data from `stdin`.
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#index-read>.
 
-- Store data that you type from the keyboard:
+- Store data that you type from the keyboard to one or more variable:
 
-`read {{variable}}`
+`read {{variable1 variable2 ...}}`
 
 - Store each of the next lines you enter as values of an array:
 

@@ -11,7 +11,7 @@
 
 `fclones group --cache {{path/to/directory1 path/to/directory2 ...}}`
 
-- Search only the specified directory for duplicate files, skipping subdirectories and save the results into a file:
+- Search only the specified directory for duplicate files, skipping subdirectories, and save the results into a file:
 
 `fclones group {{path/to/directory}} --depth 1 > {{path/to/file.txt}}`
 

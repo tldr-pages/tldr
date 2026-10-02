@@ -14,7 +14,7 @@
 
 - Neem een screenshot en sla deze op via een `adb`-verbinding:
 
-`adb shell screencap -p > {{path/to/afbeelding.png}}`
+`adb shell screencap -p > {{pad/naar/afbeelding.png}}`
 
 - Toon de help:
 

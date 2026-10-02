@@ -27,7 +27,7 @@
 
 `critique --watch`
 
-- 지정한 glob 패턴과 일치하는 파일만 검토:
+- 지정한 `glob` 패턴과 일치하는 파일만 검토:
 
 `critique --filter "{{src/**/*.ts}}"`
 

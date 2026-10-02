@@ -1,6 +1,6 @@
 # glob
 
-> Glob patterns (`glob`) are patterns used to match and search text.
+> `glob` patterns are patterns used to match and search text.
 > Note: `glob` isn't a command, but syntax to be used with other commands or the shell.
 > See also: `regex`.
 > More information: <https://en.wikipedia.org/wiki/Glob_(programming)>.

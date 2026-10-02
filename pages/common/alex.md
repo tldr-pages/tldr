@@ -1,7 +1,7 @@
 # alex
 
 > Catch insensitive, inconsiderate writing.
-> It helps you find gender favouring, polarising, race related, religion inconsiderate, or other unequal phrasing in text.
+> It helps you find gender favoring, polarizing, race related, religion inconsiderate, or other unequal phrasing in text.
 > More information: <https://github.com/get-alex/alex>.
 
 - Analyze text from `stdin`:

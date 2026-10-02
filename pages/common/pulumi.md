@@ -20,7 +20,7 @@
 
 `pulumi up`
 
-- Simulate deployment changes without performing them (dry-run):
+- Simulate deployment changes without performing them:
 
 `pulumi preview`
 

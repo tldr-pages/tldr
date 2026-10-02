@@ -1,6 +1,6 @@
 # nxc
 
-> Netwerk service opsomming en exploitatie gereedschap.
+> Tool voor netwerkservice-enumeratie en -exploitatie.
 > Sommige subcommando's zoals `smb` hebben hun eigen documentatie.
 > Meer informatie: <https://www.netexec.wiki/getting-started/selecting-and-using-a-protocol>.
 
@@ -8,7 +8,7 @@
 
 `nxc {{smb|ssh|ldap|ftp|wmi|winrm|rdp|vnc|mssql}} {{[-L|--list-modules]}}`
 
-- Toont de opties die beschikbaar zijn voor de opgegeven module:
+- Toon de opties die beschikbaar zijn voor de opgegeven module:
 
 `nxc {{smb|ssh|ldap|ftp|wmi|winrm|rdp|vnc|mssql}} {{[-M|--module]}} {{module_naam}} --options`
 

@@ -19,7 +19,7 @@
 
 - Voer een specifiek script uit:
 
-`powershell -File {{pad/naar/script.ps1}}`
+`powershell -File {{pad\naar\script.ps1}}`
 
 - Start een sessie met een specifieke versie van PowerShell:
 

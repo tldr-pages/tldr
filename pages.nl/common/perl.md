@@ -1,6 +1,6 @@
 # perl
 
-> De Perl 5-interpeter.
+> De Perl 5-interpreter.
 > Zie ook: `perldoc`.
 > Meer informatie: <https://perldoc.perl.org/perl>.
 

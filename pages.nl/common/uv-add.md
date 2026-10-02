@@ -1,6 +1,6 @@
 # uv add
 
-> Voeg pakket afhankelijkheden toe aan het `pyproject.toml` bestand.
+> Voeg pakketafhankelijkheden toe aan het `pyproject.toml` bestand.
 > Pakketten worden gespecificeerd volgens <https://peps.python.org/pep-0508/>.
 > Meer informatie: <https://docs.astral.sh/uv/reference/cli/#uv-add>.
 
@@ -24,7 +24,7 @@
 
 `uv add --group {{groep}} {{pakket1 pakket2 ...}}`
 
-- Voeg pakketten toe aan de dev groep, afkorting voor `--group dev`:
+- Voeg pakketten toe aan de dev-groep, afkorting voor `--group dev`:
 
 `uv add --dev {{pakket1 pakket2 ...}}`
 

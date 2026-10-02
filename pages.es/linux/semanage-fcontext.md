@@ -1,7 +1,7 @@
 # semanage fcontext
 
 > Gestiona las reglas persistentes del contexto de seguridad de SELinux en archivos y directorios.
-> Vea también: `semanage`, `matchpathcon`, `secon`, `chcon`, `restorecon`.
+> Vea también: `matchpathcon`, `secon`, `chcon`, `restorecon`.
 > Más información: <https://manned.org/semanage-fcontext>.
 
 - Muestra todas las reglas de etiquetado de archivos:

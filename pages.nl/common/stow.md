@@ -7,20 +7,20 @@
 
 - Symlink alle bestanden recursief naar de opgegeven map:
 
-`stow {{[-t|--target]}} {{pad/naar/doel_map}} {{bestand1 map1 bestand2 map2}}`
+`stow {{[-t|--target]}} {{pad/naar/doel_map}} {{pad/naar/bestand_of_map1 pad/naar/bestand_of_map2 ...}}`
 
 - Verwijder alle symlinks recursief in de opgegeven map:
 
-`stow {{[-D|--delete]}} {{[-t|--target]}} {{pad/naar/doel_map}} {{bestand1 map1 bestand2 map2}}`
+`stow {{[-D|--delete]}} {{[-t|--target]}} {{pad/naar/doel_map}} {{pad/naar/bestand_of_map1 pad/naar/bestand_of_map2 ...}}`
 
 - Simuleer om te zien hoe het resultaat eruit ziet:
 
-`stow {{[-n|--simulate]}} {{[-t|--target]}} {{pad/naar/doel_map}} {{bestand1 map1 bestand2 map2}}`
+`stow {{[-n|--simulate]}} {{[-t|--target]}} {{pad/naar/doel_map}} {{pad/naar/bestand_of_map1 pad/naar/bestand_of_map2 ...}}`
 
 - Verwijder en maak opnieuw de symlinks aan:
 
-`stow {{[-R|--restow]}} {{[-t|--target]}} {{pad/naar/doel_map}} {{bestand1 map1 bestand2 map2}}`
+`stow {{[-R|--restow]}} {{[-t|--target]}} {{pad/naar/doel_map}} {{pad/naar/bestand_of_map1 pad/naar/bestand_of_map2 ...}}`
 
 - Sluit bestanden uit die overeenkomen met een reguliere expressie:
 
-`stow --ignore={{reguliere_expressie}} {{[-t|--target]}} {{pad/naar/doel_map}} {{bestand1 map1 bestand2 map2}}`
+`stow --ignore={{reguliere_expressie}} {{[-t|--target]}} {{pad/naar/doel_map}} {{pad/naar/bestand_of_map1 pad/naar/bestand_of_map2 ...}}`

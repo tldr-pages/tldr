@@ -1,6 +1,6 @@
 # gl
 
-> In PowerShell is dit commando een alias van `get-location`.
+> In PowerShell is dit commando een alias van `Get-Location`.
 
 - Bekijk de documentatie van het originele commando:
 

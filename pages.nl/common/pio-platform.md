@@ -27,6 +27,6 @@
 
 `pio platform uninstall {{platform}}`
 
-- Toon alle ondersteunde geraamtes:
+- Toon alle ondersteunde frameworks:
 
 `pio platform frameworks`

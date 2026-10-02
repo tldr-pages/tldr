@@ -12,7 +12,7 @@
 
 `7za a {{pad/naar/versleuteld.7z}} -p{{wachtwoord}} -mhe={{on}} {{pad/naar/archief.7z}}`
 
-- Pak een archief uit met behoud van de originele map structuur:
+- Pak een archief uit met behoud van de originele mapstructuur:
 
 `7za x {{pad/naar/archief.7z}}`
 
@@ -24,7 +24,7 @@
 
 `7za x {{pad/naar/archief.7z}} -so`
 
-- Archiveren met een specifiek archieftype:
+- Archiveer met een specifiek archieftype:
 
 `7za a -t{{7z|bzip2|gzip|lzip|tar|...}} {{pad/naar/archief.7z}} {{pad/naar/bestand_of_map}}`
 

@@ -11,7 +11,7 @@
 
 `MOUNT C {{C:\path\to\directory}}`
 
-- Mount with free space limit (MB):
+- Mount with a free space limit (in MB):
 
 `MOUNT C {{C:\path\to\directory}} -freesize {{1024}}`
 

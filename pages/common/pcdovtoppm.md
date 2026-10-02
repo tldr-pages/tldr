@@ -11,9 +11,9 @@
 
 `pcdovtoppm {{[-m|-maxwidth]}} {{width}} {{[-s|-size]}} {{size}} {{path/to/file.pcd}} > {{path/to/output.ppm}}`
 
-- Specify the maximum number of images across and the maximum number of colours:
+- Specify the maximum number of images across and the maximum number of colors:
 
-`pcdovtoppm {{[-a|-across]}} {{n_images}} {{[-c|-colors]}} {{n_colours}} {{path/to/file.pcd}} > {{path/to/output.ppm}}`
+`pcdovtoppm {{[-a|-across]}} {{n_images}} {{[-c|-colors]}} {{n_colors}} {{path/to/file.pcd}} > {{path/to/output.ppm}}`
 
 - Use the specified font for annotations and paint the background white:
 

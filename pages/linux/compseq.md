@@ -11,7 +11,7 @@
 
 `compseq {{path/to/input_protein.fasta}} -word 2 {{path/to/output_file.comp}}`
 
-- Count observed frequencies of hexanucleotides from a FASTA file, save output to a text file and ignore zero counts:
+- Count observed frequencies of hexanucleotides from a FASTA file, save output to a text file, and ignore zero counts:
 
 `compseq {{path/to/input_dna.fasta}} -word 6 {{path/to/output_file.comp}} -nozero`
 

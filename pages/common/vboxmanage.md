@@ -21,11 +21,11 @@
 
 `VBoxManage startvm {{name|uuid}} --type headless`
 
-- Shutdown the virtual machine and save its current state:
+- Shut down the virtual machine and save its current state:
 
 `VBoxManage controlvm {{name|uuid}} savestate`
 
-- Shutdown down the virtual machine without saving its state:
+- Shut down the virtual machine without saving its state:
 
 `VBoxManage controlvm {{name|uuid}} poweroff`
 

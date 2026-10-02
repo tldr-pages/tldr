@@ -9,4 +9,4 @@
 
 - Go 템플릿으로 출력 형식 지정:
 
-`docker buildx ls --format "{{.NAME}}: {{.DriverEndpoint}}"`
+`docker buildx ls --format "\{\{.NAME\}\}: \{\{.DriverEndpoint\}\}"`

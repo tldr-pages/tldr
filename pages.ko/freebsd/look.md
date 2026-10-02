@@ -2,7 +2,7 @@
 
 > 정렬된 파일에서 접두사로 시작하는 줄을 표시합니다.
 > 관련 항목: `grep`, `sort`.
-> 더 많은 정보: <https://man.freebsd.org/cgi/man.cgi?look>.
+> 더 많은 정보: <https://man.freebsd.org/cgi/man.cgi?query=look>.
 
 - 특정 파일에서 특정 접두사로 시작하는 줄을 검색:
 

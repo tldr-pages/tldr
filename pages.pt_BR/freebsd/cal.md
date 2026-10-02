@@ -1,7 +1,7 @@
 # cal
 
 > Mostra um calendário com o dia atual destacado.
-> Mais informações: <https://man.freebsd.org/cgi/man.cgi?cal>.
+> Mais informações: <https://man.freebsd.org/cgi/man.cgi?query=cal>.
 
 - Exibe um calendário para o mês atual:
 

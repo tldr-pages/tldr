@@ -30,7 +30,7 @@
 
 - Guess IMAP credentials on a range of hosts using a list of colon-separated username/password pairs:
 
-`hydra -C {{path/to/username_password_pairs.txt}} {{imap://[host_range_cidr]}}`
+`hydra -C {{path/to/username_password_pairs.txt}} {{imap://host_range_cidr}}`
 
 - Guess POP3 credentials on a list of hosts using usernames and passwords lists, exiting when a username/password pair is found:
 

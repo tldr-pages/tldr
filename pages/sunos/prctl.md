@@ -11,6 +11,6 @@
 
 `prctl -P {{process_id}}`
 
-- Get specific limit for a running process:
+- Get a specific limit for a running process:
 
 `prctl -n process.max-file-descriptor {{process_id}}`

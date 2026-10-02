@@ -7,7 +7,7 @@
 
 `ng {{[n|new]}} {{app_name}}`
 
-- Preview the actions without creating files:
+- Simulate creating a new app, showing the actions without creating files:
 
 `ng {{[n|new]}} {{app_name}} {{[-d|--dry-run]}}`
 

@@ -7,6 +7,6 @@
 
 `brew autoremove`
 
-- Print what would be removed, but don't actually remove anything:
+- Simulate removing unused formulae, printing what would be removed:
 
 `brew autoremove {{[-n|--dry-run]}}`

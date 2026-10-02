@@ -18,7 +18,7 @@
 
 - Execute commands in parallel:
 
-`{{command}} | rargs -w {{max-procs}}`
+`{{command}} | rargs -w {{max_procs}}`
 
 - Consider each line of input to be separated by a NUL character (`\0`) instead of a newline (`\n`):
 

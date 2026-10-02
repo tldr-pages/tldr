@@ -1,6 +1,6 @@
 # az network
 
-> Administrar los recursos de red de Azure.
+> Administra los recursos de red de Azure.
 > Parte de `azure-cli` (también conocido como `az`).
 > Más información: <https://learn.microsoft.com/cli/azure/network>.
 
