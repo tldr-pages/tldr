@@ -1,6 +1,6 @@
 # docker container run
 
-> Exécuter une commande dans un nouveau conteneur Docker.
+> Exécute une commande dans un nouveau conteneur Docker.
 > Plus d'informations : <https://docs.docker.com/reference/cli/docker/container/run/>.
 
 - Exécute une commande dans un nouveau conteneur Docker avec une image étiquetée :
@@ -21,11 +21,11 @@
 
 - Exécute une commande dans un nouveau conteneur avec des volumes montés :
 
-`docker {{[run|container run]}} {{[-v|--volume]}} /{{chemin/vers/l_hôte}}:/{{chemin/vers/le/conteneur}} {{image}} {{commande}}`
+`docker {{[run|container run]}} {{[-v|--volume]}} /{{chemin/vers/hôte}}:/{{chemin/vers/conteneur}} {{image}} {{commande}}`
 
 - Exécute une commande dans un nouveau conteneur avec des ports publiés :
 
-`docker {{[run|container run]}} {{[-p|--publish]}} {{port_de_l_hôte}}:{{port_du_conteneur}} {{image}} {{commande}}`
+`docker {{[run|container run]}} {{[-p|--publish]}} {{port_hôte}}:{{port_conteneur}} {{image}} {{commande}}`
 
 - Exécute une commande dans un nouveau conteneur en écrasant l'entrée du point d'entrée de l'image :
 
