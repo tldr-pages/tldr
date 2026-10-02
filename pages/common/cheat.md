@@ -1,6 +1,7 @@
 # cheat
 
 > Create and view interactive cheat sheets.
+> See also: `tldr`, `cheatshh`, `navi`.
 > More information: <https://github.com/cheat/cheat/blob/master/doc/cheat.1.md>.
 
 - Show example usage of a command:
