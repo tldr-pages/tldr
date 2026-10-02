@@ -20,6 +20,6 @@
 
 `kubectl uncordon {{[-l|--selector]}} {{label_key}}={{label_value}}`
 
-- Preview the changes without actually uncordoning the nodes (dry run):
+- Simulate the changes without actually uncordoning the nodes:
 
 `kubectl uncordon {{node_name}} --dry-run={{none|server|client}}`

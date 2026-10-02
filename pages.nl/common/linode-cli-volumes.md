@@ -1,7 +1,6 @@
 # linode-cli volumes
 
 > Beheer Linode Volumes.
-> Zie ook: `linode-cli`.
 > Meer informatie: <https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-block-storage-volumes>.
 
 - Toon alle huidige Volumes:

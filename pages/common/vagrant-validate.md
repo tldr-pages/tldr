@@ -1,7 +1,7 @@
 # vagrant validate
 
 > Check the validity of a Vagrantfile.
-> See also: `vagrant`, `vagrant box`, `vagrant plugin`.
+> See also: `vagrant box`, `vagrant plugin`.
 > More information: <https://developer.hashicorp.com/vagrant/docs/cli/validate>.
 
 - Validate the syntax of the Vagrantfile to ensure it is correctly structured and free of errors:

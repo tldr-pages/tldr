@@ -3,11 +3,11 @@
 > Administrador de discos, volúmenes y particiones.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/diskpart>.
 
-- Ejecutar diskpart por sí mismo en un símbolo del sistema administrativo para ingresar a su línea de comandos:
+- Ejecuta diskpart por sí mismo en un símbolo del sistema administrativo para ingresar a su línea de comandos:
 
 `diskpart`
 
-- Listar todos los discos:
+- Lista todos los discos:
 
 `list disk`
 
@@ -19,14 +19,14 @@
 
 `assign letter {{letra}}`
 
-- Crear una nueva partición:
+- Crea una nueva partición:
 
 `create partition primary`
 
-- Activar el volumen seleccionado:
+- Activa el volumen seleccionado:
 
 `active`
 
-- Salir de diskpart:
+- Sale de diskpart:
 
 `exit`

@@ -5,7 +5,7 @@
 
 - Windows 탐색기에서 현재 디렉토리 열기:
 
-`wsl-open {{.}}`
+`wsl-open .`
 
 - Windows에서 사용자의 기본 웹 브라우저에 URL 열기:
 

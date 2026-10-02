@@ -1,6 +1,6 @@
 # phpspec
 
-> A Behaviour Driven Development tool for PHP.
+> A behavior-driven development tool for PHP.
 > More information: <https://phpspec.net/en/stable/cookbook/console.html>.
 
 - Create a specification for a class:

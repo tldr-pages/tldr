@@ -2,7 +2,7 @@
 
 > Terminal multiplexer.
 > It allows multiple sessions with windows, panes, and more.
-> See also: `zellij`, `screen`.
+> See also: `zellij`, `screen`, `herdr`.
 > More information: <https://github.com/tmux/tmux>.
 
 - Start a new session:
@@ -17,9 +17,9 @@
 
 `tmux {{[ls|list-sessions]}}`
 
-- Attach to the most recently used session:
+- Attach to a named session ([t]arget can be omitted to attach to the most recently used session):
 
-`tmux {{[a|attach]}}`
+`tmux {{[a|attach]}} -t {{name}}`
 
 - Detach from the current session (inside a tmux session):
 

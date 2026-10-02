@@ -9,7 +9,7 @@
 
 - Muestra un nombre [m]asculino, (o [f]emenino) aleatorio y una dirección:
 
-`rig -{{m|f}}`
+`rig {{-m|-f}}`
 
 - Usa archivos de datos de un directorio específico (por defecto es `/usr/share/rig`):
 

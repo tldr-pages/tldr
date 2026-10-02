@@ -2,7 +2,7 @@
 
 > Wyświetl linie zaczynające się od przedrostka w posortowanym pliku.
 > Zobacz także: `grep`, `sort`.
-> Więcej informacji: <https://man.freebsd.org/cgi/man.cgi?look>.
+> Więcej informacji: <https://man.freebsd.org/cgi/man.cgi?query=look>.
 
 - Wyszukaj linie zaczynające się określonym przedrostkiem w określonym pliku:
 

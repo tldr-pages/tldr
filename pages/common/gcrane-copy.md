@@ -11,7 +11,7 @@
 
 `gcrane copy {{source}} {{target}} {{[-j|--jobs]}} {{nr_of_copies}}`
 
-- Whether to recurse through repositories:
+- Recurse through repositories:
 
 `gcrane copy {{source}} {{target}} {{[-r|--recursive]}}`
 

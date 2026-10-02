@@ -13,11 +13,11 @@
 
 - 다운로드한 파일을 저장할 위치를 지정:
 
-`eget {{zyedidia/micro}} --to={{경로/대상/디렉터리}}`
+`eget {{zyedidia/micro}} --to {{경로/대상/디렉터리}}`
 
 - 최신 버전을 사용하는 대신 Git 태그를 지정:
 
-`eget {{zyedidia/micro}} --tag={{v2.0.10}}`
+`eget {{zyedidia/micro}} {{[-t|--tag]}} {{v2.0.10}}`
 
 - 최신 안정 버전 대신 최신 시험판을 설치:
 
@@ -25,7 +25,7 @@
 
 - 추출을 건너뛰고, 리소스만 다운로드:
 
-`eget {{zyedidia/micro}} --download-only`
+`eget {{zyedidia/micro}} {{[-d|--download-only]}}`
 
 - 현재 다운로드한 버전보다 회신 버전이 있는 경우에만 다운로드:
 

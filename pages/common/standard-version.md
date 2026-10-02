@@ -31,6 +31,6 @@
 
 `standard-version --infile {{path/to/file.md}}`
 
-- Display the release that would be performed without performing them:
+- Simulate a release, displaying what would be performed:
 
 `standard-version --dry-run`

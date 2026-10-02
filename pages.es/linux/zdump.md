@@ -7,6 +7,6 @@
 
 `zdump {{zona_horaria}}`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `zdump --help`

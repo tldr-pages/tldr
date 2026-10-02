@@ -5,11 +5,11 @@
 
 - Cria uma pilha a partir de um arquivo de modelo:
 
-`aws cloudformation create-stack --stack-name {{nome-da-pilha}} --region {{região}} --template-body {{file://caminho/para/arquivo.yml}} --profile {{perfil}}`
+`aws cloudformation create-stack --stack-name {{nome_da_pilha}} --region {{região}} --template-body {{file://caminho/para/arquivo.yml}} --profile {{perfil}}`
 
 - Deleta uma pilha:
 
-`aws cloudformation delete-stack --stack-name {{nome-da-pilha}} --profile {{perfil}}`
+`aws cloudformation delete-stack --stack-name {{nome_da_pilha}} --profile {{perfil}}`
 
 - Lista todas as pilhas:
 
@@ -21,12 +21,12 @@
 
 - Verifica o status de uma pilha:
 
-`aws cloudformation describe-stacks --stack-name {{id-da-pilha}} --profile {{perfil}}`
+`aws cloudformation describe-stacks --stack-name {{id_da_pilha}} --profile {{perfil}}`
 
 - Inicia a detecção de desvio para uma pilha:
 
-`aws cloudformation detect-stack-drift --stack-name {{id-da-pilha}} --profile {{perfil}}`
+`aws cloudformation detect-stack-drift --stack-name {{id_da_pilha}} --profile {{perfil}}`
 
 - Verifica o status de desvio de uma pilha usando 'StackDriftDetectionId' do resultado do comando anterior:
 
-`aws cloudformation describe-stack-resource-drifts --stack-name {{stack-drift-detection-id}} --profile {{perfil}}`
+`aws cloudformation describe-stack-resource-drifts --stack-name {{stack_drift_detection_id}} --profile {{perfil}}`

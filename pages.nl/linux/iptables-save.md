@@ -8,7 +8,7 @@
 
 `sudo iptables-save`
 
-- Toon de `iptables` configuratie van een specifiek tabel:
+- Toon de `iptables` configuratie van een specifieke tabel:
 
 `sudo iptables-save {{[-t|--table]}} {{tabel}}`
 

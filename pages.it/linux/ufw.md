@@ -2,7 +2,7 @@
 
 > Ufw (Uncomplicated Firewall) - Firewall Semplice.
 > Frontend per `iptables` per semplificare la configurazione di un firewall.
-> Maggiori informazioni: <https://wiki.ubuntu.com/UncomplicatedFirewall>.
+> Maggiori informazioni: <https://manned.org/ufw>.
 
 - Accendi ufw:
 

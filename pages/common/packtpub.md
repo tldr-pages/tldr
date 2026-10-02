@@ -19,10 +19,6 @@
 
 `packtpub logout`
 
-- Display the daily offer:
-
-`packtpub view-offer`
-
 - Open the daily offer in the default web browser:
 
 `packtpub view-offer`

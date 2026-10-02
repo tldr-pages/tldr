@@ -11,10 +11,10 @@
 
 `openclaw update --channel {{stable|beta|dev}}`
 
-- Display version:
-
-`openclaw update {{[-v|--version]}}`
-
 - Display help:
 
 `openclaw update {{[-h|--help]}}`
+
+- Display version:
+
+`openclaw update {{[-v|--version]}}`

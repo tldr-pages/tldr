@@ -13,11 +13,11 @@
 
 - 전극 네이티브 컨테이너 만들기:
 
-`ern create-container --miniapps {{/경로/대상/miniapp_디렉토리}} --platform {{ios|android}}`
+`ern create-container --miniapps /{{경로/대상/miniapp_디렉토리}} --platform {{ios|android}}`
 
 - 전극 네이티브 컨테이너를 로컬 Maven 저장소에 저장:
 
-`ern publish-container --publisher {{maven}} --platform {{android}} --extra {{'{"groupId":"com.walmart.ern","artifactId":"quickstart"}'}}`
+`ern publish-container --publisher {{maven}} --platform {{android}} --extra '{{{"groupId":"com.walmart.ern","artifactId":"quickstart"}}}'`
 
 - iOS 컨테이너를 사전 컴파일된 바이너리 프레임워크로 변환:
 

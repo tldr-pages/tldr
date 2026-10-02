@@ -17,7 +17,7 @@
 
 - Get the parent PID of a process:
 
-`ps -o ppid= -p {{pid}}`
+`ps -o ppid= -p {{process_id}}`
 
 - Sort processes by memory usage:
 

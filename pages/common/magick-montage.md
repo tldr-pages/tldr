@@ -1,7 +1,6 @@
 # magick montage
 
 > Tile images into a customizable grid.
-> See also: `magick`.
 > More information: <https://imagemagick.org/script/montage.php>.
 
 - Tile images into a grid, automatically resizing images larger than the grid cell size:

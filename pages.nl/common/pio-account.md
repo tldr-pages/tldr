@@ -1,6 +1,6 @@
 # pio account
 
-> Beheer jouw PlatformIO account op de command-line.
+> Beheer je PlatformIO account.
 > Meer informatie: <https://docs.platformio.org/en/latest/core/userguide/account/>.
 
 - Registreer een nieuw PlatformIO account:

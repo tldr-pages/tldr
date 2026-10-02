@@ -29,7 +29,7 @@
 
 - 패치 파일을 사용하여 DSM 업그레이드 (절대 경로여야 함):
 
-`sudo synoupgrade --patch {{/경로/대상/파일.pat}}`
+`sudo synoupgrade --patch /{{경로/대상/파일.pat}}`
 
 - 도움말 표시:
 

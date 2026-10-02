@@ -11,7 +11,7 @@
 
 `aws-vault exec {{profile}} -- {{aws s3 ls}}`
 
-- Open a browser window and login to the AWS Console:
+- Open a browser window and log in to the AWS Console:
 
 `aws-vault login {{profile}}`
 

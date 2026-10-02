@@ -1,7 +1,7 @@
 # fossil
 
-> Gedistribueerd versiebheer systeem met een ingebouwde wiki, bugtracker en webinterface.
-> Sommige subcommando's zoals `db` hebben hun eigen documentatie.
+> Gedistribueerd versiebeheersysteem met een ingebouwde wiki, bugtracker en webinterface.
+> Sommige subcommando's zoals `commit` hebben hun eigen documentatie.
 > Meer informatie: <https://fossil-scm.org/home/help>.
 
 - Maak een nieuwe lege Fossil-repository aan:
@@ -12,7 +12,7 @@
 
 `fossil clone {{externe_url}}`
 
-- Toon een overzicht van de huidige status van een repository:
+- Toon een overzicht van de huidige status van de repository:
 
 `fossil status`
 
@@ -26,7 +26,7 @@
 
 - Commit alle toegevoegde wijzigingen:
 
-`fossil {{[ci|commit]}} {{[-m|--comment]}} "{{bericht}}"`
+`fossil {{[ci|commit]}} {{[-m|--comment]}} "{{opmerking}}"`
 
 - Stuur wijzigingen van de lokale repository naar een externe repository:
 

@@ -19,7 +19,7 @@
 
 `jdupes {{[-d|--delete]}} {{[-r|--recurse]}} {{path/to/directory}}`
 
-- Search multiple directories and follow subdirectores under directory2, not directory1:
+- Search multiple directories and follow subdirectories under directory2, not directory1:
 
 `jdupes {{directory1}} {{[-R|--recurse:]}} {{directory2}}`
 

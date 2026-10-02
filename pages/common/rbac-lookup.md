@@ -1,6 +1,6 @@
 # rbac-lookup
 
-> Find roles and cluster roles attached to any user, service account or group name in your Kubernetes cluster.
+> Find roles and cluster roles attached to any user, service account, or group name in your Kubernetes cluster.
 > More information: <https://github.com/FairwindsOps/rbac-lookup>.
 
 - View all RBAC bindings:

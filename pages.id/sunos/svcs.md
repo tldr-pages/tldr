@@ -19,6 +19,6 @@
 
 `svcs -L apache`
 
-- Display end of a service log file:
+- Tampilkan isi akhir suatu berkas log servis:
 
 `tail $(svcs -L apache)`

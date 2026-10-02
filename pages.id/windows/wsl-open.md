@@ -5,7 +5,7 @@
 
 - Buka direktori saat ini di dalam Windows Explorer:
 
-`wsl-open {{.}}`
+`wsl-open .`
 
 - Buka suatu URL di dalam aplikasi peramban web (browser) yang diatur sebagai default dalam Windows:
 

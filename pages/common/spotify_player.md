@@ -15,7 +15,7 @@
 
 `spotify_player {{[-t|--theme]}} {{theme_name}}`
 
-- Use configuration files (`app.toml`, `keymap.toml` and `theme.toml`) in the specified directory:
+- Use configuration files (`app.toml`, `keymap.toml`, and `theme.toml`) in the specified directory:
 
 `spotify_player {{[-c|--config-folder]}} {{path/to/directory}}`
 

@@ -1,8 +1,8 @@
 # ufw
 
-> Cortafuegos sin complicaciones (_Uncomplicated Firewall_).
+> Cortafuegos sin complicaciones (Uncomplicated Firewall).
 > Interfaz de usuario de `iptables` para facilitar la configuración de un firewall.
-> Más información: <https://wiki.ubuntu.com/UncomplicatedFirewall>.
+> Más información: <https://manned.org/ufw>.
 
 - Activa ufw:
 

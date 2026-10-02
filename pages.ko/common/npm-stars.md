@@ -1,7 +1,7 @@
 # npm stars
 
 > 즐겨찾기로 표시한 패키지를 조회하는 명령어.
-> 더 많은 정보: <https://docs.npmjs.com/cli/npm-stars/>.
+> 더 많은 정보: <https://docs.npmjs.com/cli/v11/npm-stars>.
 
 - 현재 로그인한 사용자의 즐겨찾기 패키지 목록 출력:
 

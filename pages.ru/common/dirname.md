@@ -1,6 +1,7 @@
 # dirname
 
 > Удалять завершающую часть имени файла из пути.
+> Смотрите также: `basename`.
 > Больше информации: <https://www.gnu.org/software/coreutils/manual/html_node/dirname-invocation.html>.
 
 - Определить родительский каталог заданного пути:

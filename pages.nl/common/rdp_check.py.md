@@ -4,7 +4,7 @@
 > Onderdeel van de Impacket-suite.
 > Meer informatie: <https://github.com/fortra/impacket>.
 
-- Controleer of referenties geldig zijn op op een doel (wachtwoord wordt gevraagd indien weggelaten):
+- Controleer of referenties geldig zijn op een doel (wachtwoord wordt gevraagd indien weggelaten):
 
 `rdp_check.py {{domein}}/{{gebruikersnaam}}@{{doel}}`
 

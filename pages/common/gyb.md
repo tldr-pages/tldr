@@ -7,11 +7,11 @@
 
 `gyb --email {{email@gmail.com}} --action estimate`
 
-- Backup a Gmail account to a specific directory:
+- Back up a Gmail account to a specific directory:
 
 `gyb --email {{email@gmail.com}} --action backup --local-folder {{path/to/directory}}`
 
-- Backup only important or starred emails from a Gmail account to the default local folder:
+- Back up only important or starred emails from a Gmail account to the default local folder:
 
 `gyb --email {{email@gmail.com}} --search "{{is:important OR is:starred}}"`
 

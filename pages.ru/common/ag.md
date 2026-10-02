@@ -19,9 +19,9 @@
 
 `ag {{[-i|--ignore-case]}} {{[-o|--only-matching]}} STRING`
 
-- Найти `string` в файлах, имя которых совпадает с `file_name`:
+- Найти `string` в файлах, имя которых совпадает с `имя_файла`:
 
-`ag string {{[-G|--file-search-regex]}} file_name`
+`ag string {{[-G|--file-search-regex]}} {{имя_файла}}`
 
 - Найти файлы, содержимое которых совпадает с регулярным выражением:
 

@@ -16,14 +16,14 @@
 
 `<Espacio>`
 
-- Busca una cadena de caracteres (presione `n` para ir a la siguiente coincidencia):
+- Busca una cadena de caracteres (presione `<n>` para ir a la siguiente coincidencia):
 
-`/{{cadena}}`
+`</>{{algo}}<Intro>`
 
-- Sal del programa:
+- Sale del programa:
 
-`q`
+`<q>`
 
 - Muestra ayuda sobre comandos interactivos:
 
-`h`
+`<h>`

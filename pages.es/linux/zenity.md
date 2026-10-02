@@ -10,11 +10,11 @@
 
 - Muestra un diálogo de información que muestra el texto "¡Hola!":
 
-`zenity --info --text="{{¡Hola!}}"`
+`zenity --info --text "{{¡Hola!}}"`
 
 - Muestra un formulario de nombre/contraseña y retorna los datos separados por ";":
 
-`zenity --forms --add-entry="{{Nombre}}" --add-password="{{Contraseña}}" --separator="{{;}}"`
+`zenity --forms --add-entry "{{Nombre}}" --add-password "{{Contraseña}}" --separator "{{;}}"`
 
 - Muestra un formulario de selección de archivos en el que el usuario sólo puede seleccionar directorios:
 

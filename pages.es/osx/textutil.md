@@ -9,15 +9,15 @@
 
 - Convierte `foo.rtf` en `foo.html`:
 
-`textutil -convert {{html}} {{foo.rtf}}`
+`textutil -convert html {{foo.rtf}}`
 
 - Convierte texto enriquecido a texto normal:
 
-`textutil {{foo.rtf}} -convert {{txt}}`
+`textutil {{foo.rtf}} -convert txt`
 
 - Convierte `foo.txt` en `foo.rtf`, usando la fuente Times con un tamaño 10:
 
-`textutil -convert {{rtf}} -font {{Times}} -fontsize {{10}} {{foo.txt}}`
+`textutil -convert rtf -font Times -fontsize 10 {{foo.txt}}`
 
 - Carga todos los archivos RTF en el directorio actual, concatena su contenido y escribe el resultado como `index.html` con el título HTML establecido en "Varios archivos":
 

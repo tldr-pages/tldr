@@ -1,6 +1,7 @@
 # cat
 
 > ফাইলের বিষয়বস্তু প্রিন্ট করা এবং একাধিক ফাইল একত্রিত করার জন্য ব্যবহৃত হয়।
+> আরও দেখুন: `bat`।
 > আরও তথ্য পাবেন: <https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html>।
 
 - একটি ফাইলের বিষয়বস্তু `stdout`-এ দেখুন:

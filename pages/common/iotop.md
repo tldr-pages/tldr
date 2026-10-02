@@ -21,7 +21,7 @@
 
 - Show I/O usage of given PID(s):
 
-`sudo iotop {{[-p|--pid]}} {{pid}}`
+`sudo iotop {{[-p|--pid]}} {{process_id}}`
 
 - Show I/O usage of a given user:
 

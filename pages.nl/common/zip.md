@@ -16,11 +16,11 @@
 
 `zip {{[-r|--recurse-paths]}} {{pad/naar/gecomprimeerd.zip}} {{pad/naar/bestand_of_map1 pad/naar/bestand_of_map2 ...}} {{[-x|--exclude]}} {{pad/naar/uitgesloten_bestanden_of_mappen}}`
 
-- Archiveer bestanden/mappen met een specifieke compressieniveau (`0` - het laagste, `9` - het hoogste):
+- Archiveer bestanden/mappen met een specifiek compressieniveau (`0` - het laagste, `9` - het hoogste):
 
 `zip {{[-r|--recurse-paths]}} -{{0..9}} {{pad/naar/gecomprimeerd.zip}} {{pad/naar/bestand_of_map1 pad/naar/bestand_of_map2 ...}}`
 
-- Maak een encrypted archief met een specifiek wachtwoord:
+- Maak een versleuteld archief met een specifiek wachtwoord:
 
 `zip {{[-re|--recurse-paths --encrypt]}} {{pad/naar/gecomprimeerd.zip}} {{pad/naar/bestand_of_map1 pad/naar/bestand_of_map2 ...}}`
 

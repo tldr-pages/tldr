@@ -14,25 +14,6 @@ IGNORE_SET = {
     ":",
     "?",
     "|",
-    "jc.json",
-    "lid.libuser",
-    "mc.cli",
-    "mc.fm",
-    "pacman d",
-    "pacman f",
-    "pacman q",
-    "pacman r",
-    "pacman s",
-    "pacman t",
-    "pacman u",
-    "parted",
-    "print.runmailcap",
-    "print.win",
-    "print.zsh",
-    "python m json.tool",
-    "rename",
-    "snap.esa",
-    "snap.pkg",
 }
 
 
@@ -40,25 +21,36 @@ def normalize(text: str) -> str:
     """
     Normalize a string:
     - replace '-' with spaces
+    - drop colons followed by a space (e.g. "ARK: Survival Evolved")
     - lowercase
     - collapse multiple spaces into one
     - strip leading/trailing whitespace
     """
     text = text.replace("-", " ").lower().strip()
+    text = re.sub(r":(?=\s)", "", text)
     text = re.sub(r"\s+", " ", text)
     return text
+
+
+def is_disambiguated(command_file: str, command_page: str) -> bool:
+    """
+    Check if the filename is the title with a disambiguation suffix (e.g. `just.js` for `just`),
+    see https://github.com/tldr-pages/tldr/blob/main/contributing-guides/style-guide.md#disambiguations.
+    The English disambiguation page (e.g. `just`) has to exist.
+    """
+    base, _, suffix = command_file.rpartition(".")
+    return (
+        base == command_page
+        and suffix != ""
+        and any(Path("pages").glob(f"*/{base.replace(' ', '-')}.md"))
+    )
 
 
 def check_file(path: Path) -> str | None:
     """Check a single markdown file for name/title consistency."""
     filename = path.name
 
-    # Remove known suffixes
-    command_file = filename
-    for suffix in (".md", ".fish", ".js", ".1", ".2", ".3"):
-        if command_file.endswith(suffix):
-            command_file = command_file[: -len(suffix)]
-    command_file = normalize(command_file)
+    command_file = normalize(filename.removesuffix(".md"))
 
     try:
         with path.open("r", encoding="utf-8") as f:
@@ -75,7 +67,9 @@ def check_file(path: Path) -> str | None:
     if command_file in IGNORE_SET or command_page in IGNORE_SET:
         return None
 
-    if command_file != command_page:
+    if command_file != command_page and not is_disambiguated(
+        command_file, command_page
+    ):
         return (
             f"Inconsistency found in file: {path}: "
             f"{command_page} should be {command_file}"

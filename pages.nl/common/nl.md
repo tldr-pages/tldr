@@ -31,6 +31,6 @@
 
 `nl -w {{col_width}} {{pad/naar/bestand}}`
 
-- Gebruik een specifieke string om de regelnummers van de regels te [s]cheiden (standaard is TAB):
+- Gebruik een specifieke string om de regelnummers van de regels te [s]cheiden (standaard is `TAB`):
 
 `nl -s {{separator}} {{pad/naar/bestand}}`

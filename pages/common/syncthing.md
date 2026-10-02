@@ -1,6 +1,6 @@
 # syncthing
 
-> Continuous bidirectional decentralised folder synchronisation tool.
+> Continuous bidirectional decentralized folder synchronization tool.
 > More information: <https://docs.syncthing.net/users/syncthing.html>.
 
 - Start Syncthing:

@@ -8,7 +8,7 @@
 
 `fsck {{/dev/sdX}}`
 
-- Controleer bestandssysteem `/dev/sdX` alleen als het schoon is, rapporteer beschadigde blokken en laat de gebruiker interactief kiezen om elke blok te repareren:
+- Controleer bestandssysteem `/dev/sdX` alleen als het schoon is, rapporteer beschadigde blokken en laat de gebruiker interactief kiezen om elk blok te repareren:
 
 `fsck -f {{/dev/sdX}}`
 

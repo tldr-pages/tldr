@@ -21,12 +21,12 @@
 
 - Stimme allen Fragen automatisch zu:
 
-`choco upgrade {{paket}} --yes`
+`choco upgrade {{paket}} {{[-y|--yes]}}`
 
 - Gib eine eigene Quelle an, von der Pakete aktualisiert werden:
 
-`choco upgrade {{paket}} --source {{quell_url|alias}}`
+`choco upgrade {{paket}} {{[-s|--source]}} {{quell_url|alias}}`
 
 - Gib einen Benutzernamen und ein Passwort für die Authentifizierung an:
 
-`choco upgrade {{paket}} --user {{benutzername}} --password {{passwort}}`
+`choco upgrade {{paket}} {{[-u|--user]}} {{benutzername}} {{[-p|--password]}} {{passwort}}`

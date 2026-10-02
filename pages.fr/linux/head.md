@@ -1,6 +1,6 @@
 # head
 
-> Afficher le début d'un fichier.
+> Affiche le début d'un fichier.
 > Voir aussi : `tail`.
 > Plus d'informations : <https://www.gnu.org/software/coreutils/manual/html_node/head-invocation.html>.
 

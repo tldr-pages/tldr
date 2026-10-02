@@ -5,7 +5,7 @@
 
 - Assign a name and tag to a specific image ID:
 
-`docker {{[tag|image tag]}} {{id}} {{name}}:{{tag}}`
+`docker {{[tag|image tag]}} {{image_id}} {{name}}:{{tag}}`
 
 - Assign a tag to a specific image:
 

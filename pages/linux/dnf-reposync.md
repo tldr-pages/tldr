@@ -2,7 +2,6 @@
 
 > Synchronize packages and metadata of a remote DNF repository to a local directory.
 > Not default to `dnf` but supported via `dnf-plugins-core`.
-> See also: `dnf`.
 > More information: <https://dnf-plugins-core.readthedocs.io/en/latest/reposync.html>.
 
 - Synchronize all packages from the repository with id `repo_name` to a subdirectory `repo_name` of the current working directory:

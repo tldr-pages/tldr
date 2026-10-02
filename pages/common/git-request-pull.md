@@ -7,6 +7,6 @@
 
 `git request-pull {{v1.1}} {{https://example.com/project}} {{branch_name}}`
 
-- Produce a request summarizing the changes between the v0.1 release on the `foo` branch and the local `bar` branch:
+- Produce a request summarizing the changes between the v0.1 release and a local branch that was pushed to the remote under a different name:
 
-`git request-pull {{v0.1}} {{https://example.com/project}} {{foo:bar}}`
+`git request-pull {{v0.1}} {{https://example.com/project}} {{local_branch}}:{{remote_branch}}`

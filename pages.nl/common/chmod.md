@@ -11,11 +11,11 @@
 
 `chmod u+rw {{pad/naar/bestand_of_map}}`
 
-- Haal uitvoertoestemming (e[x]ecute) voor een bestand weg van de [g]roep:
+- Haal uitvoertoestemming (e[x]ecute) voor een bestand weg van de [g]roep en anderen ([o]thers):
 
-`chmod g-x {{pad/naar/bestand}}`
+`chmod g-x,o-x {{pad/naar/bestand}}`
 
-- Geef [a]lle gebruikers toegang om een bestand te lezen ([r]ead) en schrijven ([w]rite):
+- Geef [a]lle gebruikers toegang om een bestand te lezen ([r]ead) en uitvoertoestemming (e[x]ecute):
 
 `chmod a+rx {{pad/naar/bestand}}`
 
@@ -27,10 +27,10 @@
 
 `chmod o= {{pad/naar/bestand}}`
 
-- Verander de toestemmingen recursief, waarbij de [g]roep en anderen ([o]thers) de mogelijkheid tot schrijven ([w]rite) krijgen:
+- Stel de rechten in met octale notatie:
 
-`chmod {{[-R|--recursive]}} g+w,o+w {{map}}`
+`chmod {{644}} {{pad/naar/bestand}}`
 
-- Geef recursief alle gebruikers ([a]ll users) toegang om bestanden te lezen ([r]ead) en uitvoertoestemming (e[X]ecute) voor alle onderliggende mappen in een map:
+- Geef recursief alle gebruikers ([a]ll users) toegang om bestanden te lezen ([r]ead) en uitvoertoestemming (e[X]ecute) voor bestanden die al ten minste één uitvoertoestemming hebben en voor alle onderliggende mappen in een map:
 
 `chmod {{[-R|--recursive]}} a+rX {{pad/naar/map}}`

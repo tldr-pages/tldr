@@ -5,20 +5,20 @@
 
 - Crée un nouvel utilisateur avec un répertoire personnel générique et demande interactivement un mot de passe :
 
-`adduser {{nom_d_utilisateur}}`
+`adduser {{nom_utilisateur}}`
 
 - Crée un nouvel utilisateur sans répertoire personnel :
 
-`adduser --no-create-home {{nom_dutilisateur}}`
+`adduser --no-create-home {{nom_utilisateur}}`
 
-- Crée un nouvel utilisateur avec un répertoire personnel correspondant au dossier spécifié :
+- Crée un nouvel utilisateur avec un répertoire personnel correspondant au répertoire spécifié :
 
-`adduser --home {{chemin/vers/dossier}} {{nom_d_utilisateur}}`
+`adduser --home {{chemin/vers/répertoire}} {{nom_utilisateur}}`
 
 - Crée un nouvel utilisateur avec l'interpréteur de commandes spécifié comme interpréteur de commandes de connexion :
 
-`adduser --shell {{chemin/vers/shell}} {{nom_d_utilisateur}}`
+`adduser --shell {{chemin/vers/shell}} {{nom_utilisateur}}`
 
 - Crée un nouvel utilisateur appartenant au groupe donné :
 
-`adduser --ingroup {{groupe}} {{nom_d_utilisateur}}`
+`adduser --ingroup {{groupe}} {{nom_utilisateur}}`

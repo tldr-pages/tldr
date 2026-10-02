@@ -1,6 +1,7 @@
 # cat
 
 > Зчитування та об'єднання файлів.
+> Дивіться також: `bat`.
 > Більше інформації: <https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html>.
 
 - Вивести вміст файлу в `stdout`:

@@ -1,6 +1,6 @@
 # git reflog
 
-> Muestra un registro de cambios de las referencias (*reflog*) locales como HEAD, ramas o etiquetas.
+> Muestra un registro de cambios de las referencias (reflog) locales como HEAD, ramas o etiquetas.
 > Más información: <https://git-scm.com/docs/git-reflog>.
 
 - Muestra un registro de referencias para HEAD:

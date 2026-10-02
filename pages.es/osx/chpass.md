@@ -3,7 +3,7 @@
 > Añade o cambia la información de la base de datos del usuario, incluyendo el intérprete de comandos (shell) y la contraseña.
 > Nota: no es posible cambiar la contraseña del usuario en sistemas Open Directory, utiliza `passwd` en su lugar.
 > Vea también: `passwd`.
-> Más información: <https://man.freebsd.org/cgi/man.cgi?chpass>.
+> Más información: <https://man.freebsd.org/cgi/man.cgi?query=chpass>.
 
 - Añade o cambia la información de la base de datos del usuario actual de forma interactiva:
 

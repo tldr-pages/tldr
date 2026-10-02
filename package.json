@@ -7,8 +7,8 @@
   "homepage": "https://tldr.sh/",
   "dependencies": {
     "glob": "13.0.6",
-    "markdownlint-cli": "^0.49.0",
-    "tldr-lint": "^0.0.22"
+    "markdownlint-cli": "^0.49.1",
+    "tldr-lint": "^0.0.23"
   },
   "devDependencies": {
     "husky": "^9.1.7"

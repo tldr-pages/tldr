@@ -15,6 +15,6 @@
 
 `tuxi -q {{término_de_búsquedas}}`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `tuxi -h`

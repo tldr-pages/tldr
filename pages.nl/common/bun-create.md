@@ -7,11 +7,11 @@
 
 `bun {{[c|create]}} {{template}}`
 
-- Maak een nieuw project van een officiële sjabloon in een nieuwe map:
+- Maak een nieuw project van een officieel sjabloon in een nieuwe map:
 
 `bun {{[c|create]}} {{template}} {{pad/naar/bestemming}}`
 
-- Maak een nieuw project van een GitHub repository sjabloon:
+- Maak een nieuw project van een GitHub-repository-sjabloon:
 
 `bun {{[c|create]}} {{https://github.com/gebruikersnaam/repo}} {{pad/naar/bestemming}}`
 

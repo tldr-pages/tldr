@@ -23,6 +23,6 @@
 
 `uv run --isolated {{pad/naar/script.py}}`
 
-- Voer uit zonder de omgeving eerste te synchroniseren:
+- Voer uit zonder de omgeving eerst te synchroniseren:
 
 `uv run --no-sync {{commando}}`

@@ -24,7 +24,7 @@
 
 `pio remote --agent {{agent_name}} run`
 
-- Update installed core packages, development platforms and global libraries on a specific Agent:
+- Update installed core packages, development platforms, and global libraries on a specific Agent:
 
 `pio remote --agent {{agent_name}} update`
 

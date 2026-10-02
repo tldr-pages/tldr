@@ -3,7 +3,7 @@
 > Convert a PPM image to NCSA ICR format.
 > More information: <https://netpbm.sourceforge.net/doc/ppmtoicr.html>.
 
-- Convert a PPM image to a ICR file:
+- Convert a PPM image to an ICR file:
 
 `ppmtoicr {{path/to/file.ppm}} > {{path/to/file.icr}}`
 

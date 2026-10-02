@@ -16,7 +16,11 @@
 
 `paru -Sua`
 
-- Remove an installed package, it's configuration files, and dependencies:
+- List manually installed packages:
+
+`paru -Qqm`
+
+- Remove an installed package, its configuration files, and dependencies:
 
 `paru -Rns {{package}}`
 
@@ -30,4 +34,4 @@
 
 - Display the `PKGBUILD` file of a package:
 
-`paru --getpkgbuild --print {{package}}`
+`paru -Gp {{package}}`

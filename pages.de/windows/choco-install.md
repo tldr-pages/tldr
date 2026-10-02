@@ -25,12 +25,12 @@
 
 - Stimme allen Fragen automatisch zu:
 
-`choco install {{paket}} --yes`
+`choco install {{paket}} {{[-y|--yes]}}`
 
 - Gib eine eigene Quelle an, von der Paket-Informationen abgerufen werden:
 
-`choco install {{paket}} --source {{quell_url|alias}}`
+`choco install {{paket}} {{[-s|--source]}} {{quell_url|alias}}`
 
 - Gib einen Benutzernamen und ein Passwort für die Authentifizierung an:
 
-`choco install {{paket}} --user {{benutzername}} --password {{passwort}}`
+`choco install {{paket}} {{[-u|--user]}} {{benutzername}} {{[-p|--password]}} {{passwort}}`

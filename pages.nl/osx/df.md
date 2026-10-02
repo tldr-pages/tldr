@@ -15,18 +15,18 @@
 
 `df {{[-H|--si]}}`
 
-- Toon het bestandssysteem die de opgegeven bestand of map bevat:
+- Toon het bestandssysteem dat het opgegeven bestand of de opgegeven map bevat:
 
 `df {{pad/naar/bestand_of_map}}`
 
-- Neem statistieken op over het aantal beschikbare en gebruikte [i]-knooppunten, inclusief de bestandssysteem t[Y]pes:
+- Neem statistieken op over het aantal beschikbare en gebruikte [i]-knooppunten, inclusief de bestandssysteemt[Y]pes:
 
 `df -iY`
 
-- Gebruik [k]ibibyte (1024-byte) eenheden voor het schrijven van de ruimte figuren:
+- Gebruik [k]ibibyte-eenheden (1024 byte) voor het weergeven van de groottecijfers:
 
 `df -k`
 
-- Toon informatie in een [P]ortable wijze:
+- Toon informatie op een [P]ortable wijze:
 
 `df -P`

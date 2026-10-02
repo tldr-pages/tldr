@@ -5,7 +5,7 @@
 
 - 특정 디렉터리의 임시 또는 구성 파일에서 전체 경로와 크기를 선택:
 
-`fselect size, path from {{경로/대상/디렉토리}} where name = {{'*.cfg'}} or name = {{'*.tmp'}}`
+`fselect size, path from {{경로/대상/디렉토리}} where name = '{{*.cfg}}' or name = '{{*.tmp}}'`
 
 - 정사각형 이미지 찾기:
 

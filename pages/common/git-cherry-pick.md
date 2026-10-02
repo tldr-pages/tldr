@@ -19,3 +19,7 @@
 - Add the changes of a commit to the working directory, without creating a commit:
 
 `git cherry-pick {{[-n|--no-commit]}} {{commit}}`
+
+- Append a line to the commit message to indicate that the commit was cherry-picked:
+
+`git cherry-pick -x {{commit}}`

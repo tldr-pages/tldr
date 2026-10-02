@@ -15,7 +15,7 @@
 
 `pulumi destroy {{[-y|--yes]}}`
 
-- Sluit beschermde bronnen uit van vernietigd worden:
+- Sluit beschermde bronnen uit van vernietiging:
 
 `pulumi destroy --exclude-protected`
 

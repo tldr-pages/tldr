@@ -15,6 +15,10 @@
 
 `seq 5 3 20`
 
+- Print a reverse sequence from 10 to 1:
+
+`seq 10 -1 1`
+
 - Separate the output with a space instead of a newline:
 
 `seq {{[-s|--separator]}} " " {{5 3 20}}`

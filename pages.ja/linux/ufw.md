@@ -2,7 +2,7 @@
 
 > シンプルなファイアウォール。
 > ファイアウォールの設定を簡単にすることを目的とした `iptables` のフロントエンドです。
-> 詳細情報: <https://wiki.ubuntu.com/UncomplicatedFirewall>。
+> 詳細情報: <https://manned.org/ufw>。
 
 - ufw を有効化:
 

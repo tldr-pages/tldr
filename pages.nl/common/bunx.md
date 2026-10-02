@@ -1,6 +1,6 @@
 # bunx
 
-> Voer een binair pakket uit (lokaal geïnstalleerd of op afstand opgehaald).
+> Voer de binary van een pakket uit (lokaal geïnstalleerd of op afstand opgehaald).
 > Opmerking: `bun x` kan als alias voor `bunx` gebruikt worden.
 > Meer informatie: <https://bun.com/docs/pm/bunx>.
 

@@ -2,7 +2,7 @@
 
 > جدار حماية بسيط.
 > واجهة أمامية لـ `iptables` تهدف إلى تسهيل تكوين جدار الحماية.
-> لمزيد من التفاصيل: <https://wiki.ubuntu.com/UncomplicatedFirewall>.
+> لمزيد من التفاصيل: <https://manned.org/ufw>.
 
 - تفعيل ufw:
 

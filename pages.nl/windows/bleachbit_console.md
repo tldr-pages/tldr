@@ -9,13 +9,13 @@
 
 - Versnipper een bestand:
 
-`bleachbit_console.exe --shred {{pad/naar/bestand}}`
+`bleachbit_console.exe --shred {{pad\naar\bestand}}`
 
 - Toon beschikbare schoonmaakopties:
 
 `bleachbit_console.exe --list-cleaners`
 
-- Bekijk een voorbeeld van de bestanden die zullen worden verwijderd en andere wijzigingen voordat de schoonmaak-operatie wordt uitgevoerd:
+- Bekijk een voorbeeld van de bestanden die zullen worden verwijderd en andere wijzigingen voordat de schoonmaakoperatie wordt uitgevoerd:
 
 `bleachbit_console.exe --preview {{cleaner1.optie1 cleaner2.* ...}}`
 

@@ -1,6 +1,7 @@
 # gc
 
 > In PowerShell, this command is an alias of `Get-Content` (equivalent to `cat`) when the original `gc` program (<https://graphviz.org/pdf/gc.1.pdf>) is not installed.
+> More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/get-content>.
 
 - View documentation for GraphViz's `gc` command:
 

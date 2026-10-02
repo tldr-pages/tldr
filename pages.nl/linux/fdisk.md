@@ -8,9 +8,17 @@
 
 `sudo fdisk {{[-l|--list]}}`
 
-- Start de partitiemanipulator:
+- Start de interactieve partitiemanipulator:
 
 `sudo fdisk {{/dev/sdX}}`
+
+- Open een hulp[m]enu:
+
+`<m>`
+
+- Toon de [p]artitietabel:
+
+`<p>`
 
 - Maak een [n]ieuwe partitie:
 
@@ -20,10 +28,6 @@
 
 `<d>`
 
-- Toon de [p]artitietabel:
-
-`<p>`
-
 - Schrijf ([w]) gemaakte veranderingen:
 
 `<w>`
@@ -31,7 +35,3 @@
 - Verwijder gemaakte veranderingen en sluit ([q]) het programma af:
 
 `<q>`
-
-- Open een hulp[m]enu:
-
-`<m>`

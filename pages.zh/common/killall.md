@@ -18,8 +18,8 @@
 
 - 使用 SIGINT（中断）信号终止进程，与按下 `<Ctrl c>` 发送的信号相同：
 
-`killall -INT {{进程名称}}`
+`killall {{[-2|-SIGINT]}} {{进程名称}}`
 
 - 强制杀死一个进程：
 
-`killall -KILL {{进程名称}}`
+`killall {{[-9|-SIGKILL]}} {{进程名称}}`

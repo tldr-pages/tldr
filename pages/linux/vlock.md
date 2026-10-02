@@ -7,10 +7,6 @@
 
 `vlock`
 
-- Lock current virtual console session via flag:
-
-`vlock {{[-c|--current]}}`
-
 - Lock all virtual console sessions:
 
 `vlock {{[-a|--all]}}`

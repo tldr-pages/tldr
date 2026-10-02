@@ -7,15 +7,15 @@
 
 `crane pull {{image_naam}} {{pad/naar/tarball}}`
 
-- Bewaar de image-referentie die is gebruikt om op te halen als een annotatie wanneer gebruikt met --format=oci:
+- Bewaar de image-referentie die is gebruikt om op te halen als een annotatie wanneer gebruikt met `--format=oci`:
 
 `crane pull {{image_naam}} {{pad/naar/tarball}} --annotate-ref`
 
-- Pad naar cache-image-lagen:
+- Cache image-lagen in een specifieke map:
 
 `crane pull {{image_naam}} {{pad/naar/tarball}} {{[-c|--cache_path]}} {{pad/naar/cache}}`
 
-- Formaat waarin images moeten worden opgeslagen (standaard 'tarball'):
+- Specificeer het formaat waarin images moeten worden opgeslagen (standaard `tarball`):
 
 `crane pull {{image_naam}} {{pad/naar/tarball}} {{-format}} {{format_naam}}`
 

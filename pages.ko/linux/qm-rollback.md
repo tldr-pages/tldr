@@ -5,4 +5,4 @@
 
 - 특정 VM의 상태를 지정된 스냅샷으로 롤백:
 
-`qm {{[ro|rollback]}} {{100}} {{snap_name}}`
+`qm {{[ro|rollback]}} {{100}} {{snapshot_name}}`

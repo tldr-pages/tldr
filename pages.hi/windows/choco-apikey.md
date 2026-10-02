@@ -17,4 +17,4 @@
 
 - एक स्रोत के लिए API चाबी हटाएं:
 
-`choco apikey {{[-s|--source]}} "{{स्रोत_url}}" --remove`
+`choco apikey remove {{[-s|--source]}} "{{स्रोत_url}}"`

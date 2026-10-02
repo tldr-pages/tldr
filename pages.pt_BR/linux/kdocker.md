@@ -17,7 +17,7 @@
 
 - Exibe um cursor que envia uma janela para a bandeja do sistema com um ícone personalizado ao pressionar o botão esquerdo do mouse:
 
-`kdocker -i {{/caminho/para/ícone}}`
+`kdocker -i /{{caminho/para/ícone}}`
 
 - Abre um aplicativo, envia-o para a bandeja do sistema e, se perder o foco, minimiza-o:
 

@@ -1,6 +1,7 @@
 # cat
 
 > 印出並連接檔案內容。
+> 另請參閱：`bat`。
 > 更多資訊：<https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html>。
 
 - 將檔案內容印出至 `stdout`：

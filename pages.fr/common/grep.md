@@ -1,7 +1,7 @@
 # grep
 
 > Recherche des motifs dans un texte.
-> Supporte des motifs simples et des expressions régulières.
+> Supporte des motifs simples et des `regex`.
 > Voir aussi : `rg`, `regex`.
 > Plus d'informations : <https://www.gnu.org/software/grep/manual/grep.html>.
 
@@ -17,9 +17,9 @@
 
 `grep {{[-r|--recursive]}} {{[-n|--line-number]}} "{{chaîne_recherchée}}" .`
 
-- Utilise des expressions régulières étendues (supporte `?`, `+`, `{}`, `()` et `|`) :
+- Utilise des `regex` étendues (supporte `?`, `+`, `{}`, `()` et `|`) :
 
-`grep {{[-Ei|--extended-regexp --ignore-case]}} {{expression_régulière}} {{chemin/vers/fichier}}`
+`grep {{[-Ei|--extended-regexp --ignore-case]}} {{regex}} {{chemin/vers/fichier}}`
 
 - Affiche 3 lignes de [C]ontexte, avant ([B]efore), ou [A]près chaque concordance :
 

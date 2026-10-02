@@ -15,7 +15,7 @@
 
 `just eval "{{code}}"`
 
-- Initaliseer een nieuw project in een map van dezelfde naam:
+- Initialiseer een nieuw project in een map van dezelfde naam:
 
 `just init {{project_naam}}`
 

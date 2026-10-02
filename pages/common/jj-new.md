@@ -15,6 +15,6 @@
 
 `jj new {{revset1 revset2 ...}}`
 
-- Create a new empty change before and after specified revisions:
+- Insert a new empty change between specified revisions:
 
-`jj new {{[-B|--insert-before]}} {{revsets}} {{[-A|--insert-after]}} {{revsets}}`
+`jj new {{[-A|--insert-after]}} {{revsets}} {{[-B|--insert-before]}} {{revsets}}`

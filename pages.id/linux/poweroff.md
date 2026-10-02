@@ -1,6 +1,7 @@
 # poweroff
 
 > Matikan sistem.
+> Lihat juga: `shutdown`.
 > Informasi lebih lanjut: <https://manned.org/poweroff>.
 
 - Matikan sistem:

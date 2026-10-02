@@ -1,16 +1,17 @@
 # devfsadm
 
-> Commande d'administration pour `/dev`. Maintient le `/dev` espace de noms.
+> Administre `/dev`.
+> Maintient l'espace de noms `/dev`.
 > Plus d'informations : <https://www.unix.com/man-page/sunos/1m/devfsadm>.
 
-- Rechercher de nouveaux disques :
+- Recherche de nouveaux disques :
 
 `devfsadm -c disk`
 
-- Nettoyez tout pendaison `/dev` liens et rechercher un nouvel appareil :
+- Nettoie toute pendaison `/dev` liens et recherche un nouvel appareil :
 
 `devfsadm -C -v`
 
-- Marche à sec - sortir ce qui serait changé mais ne faire aucune modification :
+- Marche à sec - sort ce qui serait changé mais ne fait aucune modification :
 
 `devfsadm -C -v -n`

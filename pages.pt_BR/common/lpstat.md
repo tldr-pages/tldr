@@ -1,6 +1,7 @@
 # lpstat
 
 > Exibe informações sobre o estado de impressoras.
+> Veja também: `lp`, `lpoptions`.
 > Mais informações: <https://manned.org/lpstat>.
 
 - Lista impressoras presentes na máquina e se estão habilitadas para impressão:

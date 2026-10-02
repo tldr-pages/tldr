@@ -15,7 +15,7 @@
 
 `opencode uninstall {{[-d|--keep-data]}}`
 
-- Show what would be removed without removing:
+- Simulate uninstalling, showing what would be removed:
 
 `opencode uninstall --dry-run`
 

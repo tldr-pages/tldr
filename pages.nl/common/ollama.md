@@ -8,7 +8,7 @@
 
 `ollama serve`
 
-- Voer een model uit en praat ermee:
+- Voer een model uit en praat ermee (het model wordt automatisch gedownload als het nog niet is gedownload):
 
 `ollama run {{model}}`
 

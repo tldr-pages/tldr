@@ -10,7 +10,7 @@
 
 - Start the service, using the newer TOML configuration file:
 
-`frpc {{[-c|--config]}} {{path/to/frps.toml}}`
+`frpc {{[-c|--config]}} {{path/to/frpc.toml}}`
 
 - Start the service, using a specific configuration file:
 

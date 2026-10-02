@@ -2,7 +2,7 @@
 
 > Edit the partition table of a fake flash drive.
 > See also: `f3probe`, `f3write`, `f3read`.
-> More information: <https://oss.digirati.com.br/f3/>.
+> More information: <https://manned.org/f3fix>.
 
 - Fill a fake flash drive with a single partition that matches its real capacity:
 
@@ -10,8 +10,8 @@
 
 - Mark the partition as bootable:
 
-`sudo f3fix --boot {{/dev/device_name}}`
+`sudo f3fix {{[-b|--boot]}} {{/dev/device_name}}`
 
 - Specify the filesystem:
 
-`sudo f3fix --fs-type={{filesystem_type}} {{/dev/device_name}}`
+`sudo f3fix {{[-f|--fs-type]}} {{filesystem_type}} {{/dev/device_name}}`

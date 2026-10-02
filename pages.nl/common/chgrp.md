@@ -4,7 +4,7 @@
 > Zie ook: `chown`.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/chgrp-invocation.html>.
 
-- Verander beheerdergroep van een bestand of map:
+- Verander beheerdersgroep van een bestand of map:
 
 `chgrp {{groep}} {{pad/naar/bestand_of_map}}`
 
@@ -16,6 +16,6 @@
 
 `chgrp {{[-h|--no-dereference]}} {{groep}} {{pad/naar/symlink}}`
 
-- Verander de beheerdersgroep van een bestand/map naar de permissies van een referentiebestand:
+- Verander de beheerdersgroep van een bestand/map naar dezelfde als een referentiebestand:
 
 `chgrp --reference {{pad/naar/referentiebestand}} {{pad/naar/bestand_of_map}}`

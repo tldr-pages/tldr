@@ -1,7 +1,7 @@
 # gh copilot
 
 > Interact with GitHub Copilot.
-> Note: Deprecated in favor of `copilot`.
+> Note: This command is deprecated, use `copilot` instead.
 > More information: <https://github.com/github/gh-copilot#usage>.
 
 - Suggest a command, given a description:

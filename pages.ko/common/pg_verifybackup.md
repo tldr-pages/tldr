@@ -3,7 +3,7 @@
 > PostgreSQL 클러스터의 베이스 백업 무결성을 검증.
 > 더 많은 정보: <https://www.postgresql.org/docs/current/app-pgverifybackup.html>.
 
-- Verify a backup stored in a specific directory:
+- 지정한 디렉터리에 저장된 백업 검증:
 
 `pg_verifybackup {{경로/대상/백업}}`
 

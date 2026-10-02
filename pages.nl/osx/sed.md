@@ -1,6 +1,6 @@
 # sed
 
-> Pas tekst aan in een op een scriptbare manier.
+> Pas tekst aan op een scriptbare manier.
 > Zie ook: `awk`, `ed`.
 > Meer informatie: <https://keith.github.io/xcode-man-pages/sed.1.html>.
 
@@ -8,7 +8,7 @@
 
 `{{commando}} | sed 's/apple/mango/g'`
 
-- Voer een specifiek script bestand uit en toon het resultaat in `stdout`:
+- Voer een specifiek scriptbestand uit en toon het resultaat in `stdout`:
 
 `{{commando}} | sed -f {{pad/naar/script_bestand.sed}}`
 

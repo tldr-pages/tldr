@@ -31,4 +31,4 @@
 
 - Batasi luaran program menuju `stdout` dan gunakan suatu nilai user-agent kustom saat mengunduh:
 
-`axel {{[-q|--quiet]}} {{[-U|--user-agent]}} {{"Mozilla/5.0"}} {{url}}`
+`axel {{[-q|--quiet]}} {{[-U|--user-agent]}} "{{Mozilla/5.0}}" {{url}}`

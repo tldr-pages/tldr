@@ -1,6 +1,6 @@
 # melt
 
-> Backup and restore Ed25519 SSH keys using memorizable seed phrases.
+> Back up and restore Ed25519 SSH keys using memorizable seed phrases.
 > More information: <https://github.com/charmbracelet/melt#usage>.
 
 - Generate a seed phrase from an existing Ed25519 private key:

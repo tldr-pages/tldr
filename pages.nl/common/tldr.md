@@ -28,10 +28,10 @@
 
 `tldr {{[-l|--list]}}`
 
+- Toon de tldr-pagina voor een commando en toon korte opties:
+
+`tldr --short-options {{commando}}`
+
 - Blader door tldr-pagina's in een terminalvenster (`fzf` moet beschikbaar zijn):
 
 `tldr {{[-l|--list]}} | fzf --preview "tldr {1} --color=always" --preview-window=right,70% | xargs tldr`
-
-- Toon de tldr-pagina voor een willekeurig commando:
-
-`tldr {{[-l|--list]}} | shuf {{[-n|--head-count]}} 1 | xargs tldr`

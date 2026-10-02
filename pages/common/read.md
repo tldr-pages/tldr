@@ -3,9 +3,9 @@
 > Shell builtin for retrieving data from `stdin`.
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#index-read>.
 
-- Store data that you type from the keyboard:
+- Store data that you type from the keyboard to one or more variable:
 
-`read {{variable}}`
+`read {{variable1 variable2 ...}}`
 
 - Store each of the next lines you enter as values of an array:
 
@@ -31,6 +31,6 @@
 
 `read -s {{variable}}`
 
-- Read `stdin` and perform an action on every line:
+- Perform an action on each line of a command's output:
 
-`cat {{/dev/stdin|path/to/file|...}} | while read line; do {{echo|ls|rm|...}} "$line"; done`
+`{{command}} | while IFS= read -r line; do {{echo|ls|rm|...}} "$line"; done`

@@ -9,11 +9,11 @@
 
 - Comprueba si hay duplicados mayores a un tamaño determinado, preferiblemente manteniendo los archivos en directorios etiquetados (después de la doble barra):
 
-`rmlint -s {{1MB}} {{ruta/al/directorio}} // {{ruta/al/directorio_original}}`
+`rmlint {{[-s|--size]}} {{1MB}} {{ruta/al/directorio}} // {{ruta/al/directorio_original}}`
 
 - Comprueba que no se desperdicia espacio, manteniendo todo en los directorios no etiquetados:
 
-`rmlint --keep-all-untagged {{ruta/al/directorio}} // {{ruta/al/directorio_original}}`
+`rmlint {{[-k|--keep-all-untagged]}} {{ruta/al/directorio}} // {{ruta/al/directorio_original}}`
 
 - Elimina archivos duplicados encontrados tras una ejecución de `rmlint`:
 
@@ -21,16 +21,16 @@
 
 - Encuentra árboles de directorios duplicados basándose en los datos, ignorando los nombres:
 
-`rmlint --merge-directories {{ruta/al/directorio}}`
+`rmlint {{[-D|--merge-directories]}} {{ruta/al/directorio}}`
 
 - Marca archivos en la profundida[d] de la ruta inferior como originales, en caso de igualdad elegir uno más corto [l]:
 
-`rmlint --rank-by={{dl}} {{ruta/al/directorio}}`
+`rmlint {{[-S|--rank-by]}} {{dl}} {{ruta/al/directorio}}`
 
 - Encuentra archivos con idéntico nombre de archivo y contenido, y vincula en lugar de eliminar los duplicados:
 
-`rmlint -c sh:link --match-basename {{ruta/al/directorio}}`
+`rmlint {{[-c|--config]}} sh:link {{[-b|--match-basename]}} {{ruta/al/directorio}}`
 
 - Utiliza `data` como directorio maestro. Busca solo los duplicados de la copia de seguridad que también estén en `datos`. No elimina ningún archivo de "datos":
 
-`rmlint {{ruta/a/copia}} // {{ruta/a/datos}} --keep-all-tagged --must-match-tagged`
+`rmlint {{ruta/a/copia}} // {{ruta/a/datos}} {{[-k|--keep-all-tagged]}} {{[-m|--must-match-tagged]}}`

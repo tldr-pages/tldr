@@ -17,4 +17,4 @@
 
 - ソースのAPIキーを削除します:
 
-`choco apikey {{[-s|--source]}} "{{ソースurl}}" --remove`
+`choco apikey remove {{[-s|--source]}} "{{ソースurl}}"`

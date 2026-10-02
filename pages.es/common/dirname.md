@@ -1,6 +1,7 @@
 # dirname
 
 > Calcula el directorio padre de una ruta de archivo o directorio.
+> Vea también: `basename`.
 > Más información: <https://www.gnu.org/software/coreutils/manual/html_node/dirname-invocation.html>.
 
 - Calcula el directorio padre de una ruta dada:

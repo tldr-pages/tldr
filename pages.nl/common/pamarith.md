@@ -6,4 +6,4 @@
 
 - Pas de gespecificeerde binaire functie pixel-gewijs toe op twee gespecificeerde afbeeldingen (welke hetzelfde formaat dienen te hebben):
 
-`pamarith -{{add|subtract|multiply|divide|difference|minimum|maximum|...}} {{pad/naar/afbeelding1.pam|pbm|pgm|ppm}} {{pad/naar/afbeelding2.pam|pbm|pgm|ppm}}`
+`pamarith -{{add|subtract|multiply|divide|difference|minimum|maximum|...}} {{pad/naar/afbeelding1}}.{{pam|pbm|pgm|ppm}} {{pad/naar/afbeelding2}}.{{pam|pbm|pgm|ppm}}`

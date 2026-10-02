@@ -36,6 +36,7 @@ The templates can be changed when necessary.
 [pt_PT](#pt_pt) •
 [ro](#ro) •
 [ru](#ru) •
+[si](#si) •
 [sr](#sr) •
 [sv](#sv) •
 [ta](#ta) •
@@ -279,7 +280,7 @@ The templates can be changed when necessary.
 
 > Questo comando è un alias per `example`.
 
-- Consulta la documentazione del comando originale:
+- Visualizza la documentazione del comando originale:
 
 `tldr example`
 ```
@@ -307,7 +308,7 @@ The templates can be changed when necessary.
 
 > 이 명령은 `example`의 별칭입니다.
 
-- 자세한 내용은 원본 명령을 참고하세요:
+- 원래 명령의 문서 보기:
 
 `tldr example`
 ```
@@ -333,7 +334,7 @@ The templates can be changed when necessary.
 ```markdown
 # example
 
-> ഈ കമാൻഡ് `example` എന്നത്തിന്റെ അപരനാമമാണ്.
+> ഈ കമാൻഡ് `example` എന്നതിന്റെ അപരനാമമാണ്.
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
 
@@ -462,6 +463,20 @@ The templates can be changed when necessary.
 > Эта команда — псевдоним для `example`.
 
 - Смотри документацию для оригинальной команды:
+
+`tldr example`
+```
+
+---
+
+### si
+
+```markdown
+# example
+
+> මෙම විධානය `example` සඳහා අන්වර්ථ නාමයක් වේ.
+
+- මුල් විධානය සඳහා ලේඛනය බලන්න:
 
 `tldr example`
 ```

@@ -25,4 +25,4 @@
 
 - 파일 시스템의 마운트 포인트 변경:
 
-`zfs set mountpoint={{/my/mount/path}} {{풀_이름/파일시스템_이름}}`
+`zfs set mountpoint=/{{my/mount/path}} {{풀_이름/파일시스템_이름}}`

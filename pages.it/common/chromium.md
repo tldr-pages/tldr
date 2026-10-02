@@ -10,19 +10,19 @@
 
 - Apri in modalità incognito:
 
-`chromium --incognito {{esempio.com}}`
+`chromium --incognito {{example.com}}`
 
 - Apri in una nuova finestra:
 
-`chromium --new-window {{esempio.com}}`
+`chromium --new-window {{example.com}}`
 
 - Apri in modalità applicazione (senza barre degli strumenti, barra URL, pulsanti, ecc.):
 
-`chromium --app={{https://esempio.com}}`
+`chromium --app={{https://example.com}}`
 
 - Usa un server proxy:
 
-`chromium --proxy-server="{{socks5://hostname:66}}" {{esempio.com}}`
+`chromium --proxy-server="{{socks5://hostname:66}}" {{example.com}}`
 
 - Apri con una directory di profilo personalizzata:
 

@@ -17,11 +17,11 @@
 
 - Récupère les utilisateurs dans un groupe :
 
-`aws iam get-group --group-name {{nom_du_groupe}}`
+`aws iam get-group --group-name {{nom_groupe}}`
 
 - Décris une politique IAM :
 
-`aws iam get-policy --policy-arn arn:aws:iam::aws:policy/{{nom_de_la_politique}}`
+`aws iam get-policy --policy-arn arn:aws:iam::aws:policy/{{nom_politique}}`
 
 - Liste les clés d’accès :
 
@@ -29,7 +29,7 @@
 
 - Liste les clés d'accès pour un utilisateur spécifique :
 
-`aws iam list-access-keys --user-name {{nom_d_utilisateur}}`
+`aws iam list-access-keys --user-name {{nom_utilisateur}}`
 
 - Affiche la page d'aide pour `aws iam` (avec toutes les commandes iam disponibles) :
 

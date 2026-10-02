@@ -15,6 +15,6 @@
 
 `choco apikey {{[-s|--source]}} "{{source_url}}" {{[-k|--api-key]}} "{{api_key}}"`
 
-- Remove an API key for a source:
+- Remove the API key for a source:
 
-`choco apikey {{[-s|--source]}} "{{source_url}}" --remove`
+`choco apikey remove {{[-s|--source]}} "{{source_url}}"`

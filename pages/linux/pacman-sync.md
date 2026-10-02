@@ -1,7 +1,6 @@
 # pacman --sync
 
 > Synchronize packages from remote repositories.
-> See also: `pacman`.
 > More information: <https://manned.org/pacman.8>.
 
 - Install a new package:

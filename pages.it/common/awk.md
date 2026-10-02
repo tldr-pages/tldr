@@ -9,7 +9,7 @@
 
 `awk '{print $5}' {{percorso/del/file}}`
 
-- Stampa la seconda colonna delle linee contenenti "{{foo}}" in un file separato da spazi:
+- Stampa la seconda colonna delle linee contenenti "foo" in un file separato da spazi:
 
 `awk '/{{foo}}/ {print $2}' {{percorso/del/file}}`
 

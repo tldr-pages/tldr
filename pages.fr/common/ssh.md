@@ -4,34 +4,34 @@
 > On peut l'utiliser pour se connecter ou exécuter des commandes sur un serveur distant.
 > Plus d'informations : <https://man.openbsd.org/ssh>.
 
-- Se connecter à un serveur distant :
+- Se connecte à un serveur distant :
 
-`ssh {{utilisateur}}@{{hote_distant}}`
+`ssh {{utilisateur}}@{{hôte_distant}}`
 
-- Se connecter à un serveur distant en utilisant une identité spécifique (clé privée) :
+- Se connecte à un serveur distant en utilisant une [i]dentité spécifique (clé privée) :
 
-`ssh -i {{chemin/vers/fichier_clef}} {{utilisateur}}@{{hote_distant}}`
+`ssh {{utilisateur}}@{{hôte_distant}} -i {{chemin/vers/fichier_clé}}`
 
-- Se connecter à un serveur distant en utilisant un port spécifique :
+- Se connecte à un serveur distant avec IP `10.0.0.1` et utilisant un [p]ort spécifique (Remarque : `10.0.0.1` peut être réduit à `10.1`) :
 
-`ssh {{utilisateur}}@{{hote_distant}} -p {{2222}}`
+`ssh {{utilisateur}}@10.0.0.1 -p {{2222}}`
 
-- Exécuter une commande sur un serveur distant :
+- Exécute une commande sur un serveur distant avec une allocation [t]ty qui permet une interaction avec la commande distante :
 
-`ssh {{utilisateur}}@{{hote_distant}} -t {{commande}} {{commande_options}}`
+`ssh {{utilisateur}}@{{hôte_distant}} -t {{commande}} {{arguments_commande}}`
 
-- Tunnel SSH : Transfert par port dynamique (le SOCKS proxy se trouve sur localhost:1080) :
+- Tunnel SSH : Redirection de port [D]ynamique (le proxy SOCKS se trouve sur `localhost:1080`) :
 
-`ssh -D {{1080}} {{utilisateur}}@{{hote_distant}}`
+`ssh {{utilisateur}}@{{hôte_distant}} -D {{1080}}`
 
-- Tunnel SSH : Transfère un port spécifique (localhost:9999 vers example.org:80) en désactivant l'allocation de pseudo-[t]ty et l'exécution de commandes distantes :
+- Tunnel SSH : Transfère un port spécifique (`localhost:9999` vers `example.org:80`) en désactivant l'allocation de pseudo-[T]ty et l'exécutio[N] de commandes distantes :
 
-`ssh -L {{9999}}:{{exemple.org}}:{{80}} -N -T {{utilisateur}}@{{hote_distant}}`
+`ssh {{utilisateur}}@{{hôte_distant}} -L {{9999}}:{{example.org}}:{{80}} -N -T`
 
-- Saut SSH : Se connecter sur un serveur distant à travers une machine de rebond (plusieurs machines de rebond peuvent être définies en les séparant par des virgules) :
+- Saut SSH : Se connecte à un serveur distant à travers une machine de rebond (plusieurs machines de rebond peuvent être définies en les séparant par des virgules) :
 
-`ssh -J {{utilisateur}}@{{hote_de_rebond}} {{utilisateur}}@{{hote_distant}}`
+`ssh {{utilisateur}}@{{hôte_distant}} -J {{utilisateur}}@{{hôte_de_rebond}}`
 
-- Transfert d'agent : Transfère les informations d'authentification vers la machine distante (voir `man ssh_config` pour les options disponibles) :
+- Ferme une session bloquée :
 
-`ssh -A {{utilisateur}}@{{hote_distant}}`
+`<Enter><~><.>`

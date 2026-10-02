@@ -5,7 +5,7 @@
 
 - 현재 브랜치의 모든 커밋 나열:
 
-`git rev-list {{HEAD}}`
+`git rev-list HEAD`
 
 - 특정 파일이 변경(추가/편집/제거)된 최신 커밋 출력:
 

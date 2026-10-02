@@ -1,9 +1,9 @@
 # docker image rm
 
-> Verwijdr Docker-images.
+> Verwijder Docker-images.
 > Meer informatie: <https://docs.docker.com/reference/cli/docker/image/rm/>.
 
-- Verwijder een of meer images met hun naam:
+- Verwijder een of meer images op basis van hun namen:
 
 `docker {{[rmi|image rm]}} {{image1 image2 ...}}`
 
@@ -11,7 +11,7 @@
 
 `docker {{[rmi|image rm]}} {{[-f|--force]}} {{image}}`
 
-- Verwijder een image zonder ongemerkte ouders te verwijderen:
+- Verwijder een image zonder niet getagde ouders te verwijderen:
 
 `docker {{[rmi|image rm]}} --no-prune {{image}}`
 

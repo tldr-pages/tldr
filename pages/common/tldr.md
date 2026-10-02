@@ -28,10 +28,10 @@
 
 `tldr {{[-l|--list]}}`
 
+- Print the tldr page for a command and display short options:
+
+`tldr --short-options {{command}}`
+
 - Browse tldr pages in a terminal window (`fzf` must be available):
 
 `tldr {{[-l|--list]}} | fzf --preview "tldr {1} --color=always" --preview-window=right,70% | xargs tldr`
-
-- Print the tldr page for a random command:
-
-`tldr {{[-l|--list]}} | shuf {{[-n|--head-count]}} 1 | xargs tldr`

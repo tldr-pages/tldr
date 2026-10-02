@@ -15,7 +15,7 @@
 
 `ping -i {{seconds}} "{{host}}"`
 
-- Ping a host without trying to lookup symbolic names for addresses:
+- Ping a host without trying to look up symbolic names for addresses:
 
 `ping -n "{{host}}"`
 
@@ -23,6 +23,6 @@
 
 `ping -a "{{host}}"`
 
-- Ping a host and prints the time a packet was received (this option is an Apple addition):
+- Ping a host and print the time a packet was received (this option is an Apple addition):
 
 `ping --apple-time "{{host}}"`

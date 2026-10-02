@@ -8,7 +8,7 @@
 
 `pg_combinebackup {{path/to/full_backup}} {{path/to/incremental_backup}} {{[-o|--output]}} {{path/to/output_directory}}`
 
-- Perform a dry run to show what would be done, without creating files:
+- Simulate what would be done without creating files:
 
 `pg_combinebackup {{[-n|--dry-run]}} {{path/to/full_backup}} {{path/to/incremental_backup}} {{[-o|--output]}} {{path/to/output_directory}}`
 

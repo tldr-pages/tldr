@@ -1,6 +1,6 @@
 # unison
 
-> Bidirectional file synchronisation tool.
+> Bidirectional file synchronization tool.
 > More information: <https://github.com/bcpierce00/unison>.
 
 - Sync two directories (creates log first time these two directories are synchronized):

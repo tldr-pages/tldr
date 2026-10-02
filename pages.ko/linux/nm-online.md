@@ -9,4 +9,4 @@
 
 - 연결을 `n`초 동안 대기 (기본값 30초):
 
-`nm-online --timeout {{n}}`
+`nm-online {{[-t|--timeout]}} {{n}}`

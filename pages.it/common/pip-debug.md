@@ -20,6 +20,6 @@
 
 `pip debug --implementation {{implementazione}}`
 
-- Show debug information for a specific ABI:
+- Mostra informazioni di debug per una specifica ABI:
 
 `pip debug --abi {{abi}}`

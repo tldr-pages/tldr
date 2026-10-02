@@ -31,6 +31,6 @@
 
 `uv sync --check`
 
-- Preview what would be synced without making changes:
+- Simulate syncing, showing what would be synced without making changes:
 
 `uv sync --dry-run`

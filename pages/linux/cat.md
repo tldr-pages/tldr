@@ -1,6 +1,7 @@
 # cat
 
 > Print and concatenate files.
+> See also: `bat`.
 > More information: <https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html>.
 
 - Print the contents of a file to `stdout`:
@@ -26,6 +27,10 @@
 - Display all characters, including tabs, line endings, and non-printing characters:
 
 `cat {{[-A|--show-all]}} {{path/to/file}}`
+
+- Omit repeating empty lines:
+
+`cat {{[-s|--squeeze-blank]}} {{path/to/file}}`
 
 - Pass file contents to another program through `stdin`:
 

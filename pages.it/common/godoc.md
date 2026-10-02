@@ -13,7 +13,7 @@
 
 - Serve la documentazione come web server sulla porta 6060:
 
-`godoc -http=:{{6060}}`
+`godoc -http=:6060`
 
 - Crea un file indice:
 

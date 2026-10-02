@@ -19,7 +19,7 @@
 
 `luanti --server`
 
-- Iniciar un servidor con un mundo específico:
+- Inicia un servidor con un mundo específico:
 
 `luanti --server --world {{nombre_mundo}}`
 

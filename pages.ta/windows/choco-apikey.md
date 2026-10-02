@@ -17,4 +17,4 @@
 
 - மூலத்திற்கான API விசையை அகற்றவும்:
 
-`choco apikey {{[-s|--source]}} "{{மூல_முகவரி}}" --remove`
+`choco apikey remove {{[-s|--source]}} "{{மூல_முகவரி}}"`

@@ -17,7 +17,7 @@
 
 - Format the output using a Go template:
 
-`docker buildx du --format "table {{.ID}}    {{.Description}}"`
+`docker buildx du --format "table \{\{.ID\}\}    \{\{.Description\}\}"`
 
 - Pretty print output as JSON with `jq` command:
 
