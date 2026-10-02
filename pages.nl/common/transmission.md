@@ -1,7 +1,7 @@
 # transmission
 
 > Een eenvoudige torrent-client.
-> Transmission is geen commando, maar een set van commando's.
+> Opmerking: Transmission is geen commando, maar een set van commando's.
 > Meer informatie: <https://transmissionbt.com/>.
 
 - Toon de documentatie voor het uitvoeren van de daemon van Transmission:
