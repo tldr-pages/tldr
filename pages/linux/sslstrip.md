@@ -10,15 +10,15 @@
 
 - Log only HTTPS POST traffic on port 8080:
 
-`sslstrip --listen={{8080}}`
+`sslstrip --listen=8080`
 
 - Log all SSL traffic to and from the server on port 8080:
 
-`sslstrip --ssl --listen={{8080}}`
+`sslstrip --ssl --listen=8080`
 
 - Log all SSL and HTTP traffic to and from the server on port 8080:
 
-`sslstrip --listen={{8080}} --all`
+`sslstrip --listen=8080 --all`
 
 - Specify the file path to store the logs:
 
