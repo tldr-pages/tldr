@@ -23,3 +23,7 @@
 - Create a customer:
 
 `stripe customers create --email "{{test@example.com}}" --name "{{Jenny Rosen}}"`
+
+- Print to JSON:
+
+`stripe listen --print-json`
