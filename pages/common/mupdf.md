@@ -27,6 +27,6 @@
 
 `mupdf -C FF0000}`
 
-- Open a PDF wit anti-aliasing (0 = off):
+- Open a PDF with a level of anti-aliasing (0 = off):
 
 `mupdf -A {{0..8}}`
