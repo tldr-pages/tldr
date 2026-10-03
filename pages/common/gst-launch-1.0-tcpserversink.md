@@ -5,4 +5,4 @@
 
 - Set up a server to send data to a client:
 
-`gst-launch-1.0 {{pipeline}} ! tcpserversink host={{accepted_ip_address}}`
+`gst-launch-1.0 {{pipeline}} ! tcpserversink host={{interface_ip_address}}`
