@@ -406,7 +406,6 @@ Keep the following guidelines in mind when choosing placeholders:
 `sudo ufw deny 80`
 ```
 - If a command performs irreversible changes to a filesystem or devices, write every example in a way that cannot be copy pasted thoughtlessly. For example, instead of `ddrescue --force --no-scrape /dev/sda /dev/sdb` write `ddrescue --force --no-scrape {{/dev/sdX}} {{/dev/sdY}}` and use the `{{/dev/sdXY}}` placeholder for *block devices* instead of `/dev/sda1`.
-- Use the `{{path/to/mount_point}}` placeholder for the directory a filesystem is mounted on, instead of variants like `{{mountpoint}}` or `{{mount_point}}`. Hardcoded paths such as `/mnt` are only acceptable when the page describes a workflow that depends on them, like installing a system.
 
 In general, placeholders should make it as intuitive as possible to figure out how to use the command and fill it in with values.
 
@@ -416,6 +415,7 @@ In general, placeholders should make it as intuitive as possible to figure out h
 - For any reference to paths of files or directories, use the format `{{path/to/placeholder}}`, except when the location is implicit.
 - When the path cannot be relative and has to start at the root of the filesystem, prefix it with a slash outside the placeholder, such as `get /{{path/to/remote_file}}`.
 - In case of a possible reference both to a file or a directory, use `{{path/to/file_or_directory}}`.
+- Use the `{{path/to/mount_point}}` placeholder for the directory a filesystem is mounted on, instead of variants like `{{mountpoint}}` or `{{mount_point}}`. Hardcoded paths such as `/mnt` are only acceptable when the page describes a workflow that depends on them, like installing a system.
 
 #### Extensions
 
