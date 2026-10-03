@@ -1,6 +1,6 @@
 # vpnd
 
-> Listens for incoming VPN connections.
+> Listen for incoming VPN connections.
 > Note: It should not be invoked manually.
 > More information: <https://keith.github.io/xcode-man-pages/vpnd.8.html>.
 
