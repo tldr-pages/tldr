@@ -18,7 +18,7 @@
 
 - Download all images from a specific article:
 
-`feedreader --url={{feed_url}} --grabImages={{article_path}}`
+`feedreader --url={{feed_url}} --grabImages={{path/to/article}}`
 
 - Play media from a URL:
 

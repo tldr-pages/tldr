@@ -119,7 +119,7 @@ tldr --render path/to/tldr_page.md
 - 파일에 특정 확장자가 필요한 경우 추가하십시오.
   (ex: `unrar x {{compressed.rar}}`)
 - 만약 일반적인 확장자가 필요하다면, **반드시 필요한 경우에만** `{{.ext}}`를 사용하십시오.
-  예시1: `find.md`의 "확장자로 파일 찾기"(`find {{root_path}} -name '{{*.ext}}'`)는 `{{*.ext}}`를 사용하여 불필요한 내용 없이, 구체적이지  않게 설명합니다.
+  예시1: `find.md`의 "확장자로 파일 찾기"(`find {{path/to/directory}} -name '{{*.ext}}'`)는 `{{*.ext}}`를 사용하여 불필요한 내용 없이, 구체적이지  않게 설명합니다.
   예시2: `wc -l {{file}}`는 `{{file}}`을 (extension 없이) 사용하는 것 만으로 충분합니다.
 
 ### Special Cases

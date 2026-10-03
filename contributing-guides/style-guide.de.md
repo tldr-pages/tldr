@@ -59,7 +59,7 @@ Die folgenden Regeln sollten für Tokens beachtet werden:
 6. Wenn ein Befehl eine bestimmte Dateiendung erwartet, benutze sie.
    Beispiel: `unrar x {{compressed.rar}}`.
    Für eine generelle Dateiendung, benutze `{{.ext}}`, aber **nur**, wenn eine Endung wirklich nötig ist.
-   Beispielsweise, in find.md's Beispiel "Find files by extension" (`find {{root_path}} -name '{{*.ext}}'`)
+   Beispielsweise, in find.md's Beispiel "Find files by extension" (`find {{path/to/directory}} -name '{{*.ext}}'`)
    erklärt `{{*.ext}}` den Befehl ohne unnötig spezifisch zu sein;
    Aber in einem Befehl wie `wc -l {{file}}`, genügt `{{file}}` (ohne Endung).
 7. Wenn das Beispiel mit einem konkreten Wert klarer ist, nutze einen Beispielwert.

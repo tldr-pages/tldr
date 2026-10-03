@@ -17,7 +17,7 @@
 
 - Esporta un progetto per il rilascio usando un preset di esportazione specificato (il preset deve essere definito nel progetto):
 
-`godot --export-release {{preset}} {{output_path}}`
+`godot --export-release {{preset}} {{percorso/di/output}}`
 
 - Esegue un file GDScript standalone (lo script deve ereditare da `SceneTree` o `MainLoop`):
 

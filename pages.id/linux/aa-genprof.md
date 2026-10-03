@@ -5,15 +5,15 @@
 
 - Mulai buat profil untuk sebuah program:
 
-`sudo aa-genprof {{program_path}}`
+`sudo aa-genprof {{path/ke/program}}`
 
 - Tentukan direktori kustom untuk profil:
 
-`sudo aa-genprof {{[-d|--dir]}} /{{path/ke/profil}} {{program_path}}`
+`sudo aa-genprof {{[-d|--dir]}} /{{path/ke/profil}} {{path/ke/program}}`
 
 - Tentukan file log kustom untuk profiling:
 
-`sudo aa-genprof {{[-f|--file]}} /{{path/ke/file_log}} {{program_path}}`
+`sudo aa-genprof {{[-f|--file]}} /{{path/ke/file_log}} {{path/ke/program}}`
 
 - Tampilkan bantuan:
 
