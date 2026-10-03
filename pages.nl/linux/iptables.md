@@ -21,7 +21,7 @@
 
 `sudo iptables {{[-A|--append]}} {{keten}} {{[-s|--source]}} {{ip_adres}} {{[-p|--protocol]}} {{tcp|udp|icmp|...}} --dport {{poort}} {{[-j|--jump]}} {{regel}}`
 
-- Voeg een NAT regel toe om al het verkeer van het `192.168.0.0/24` subnet te vertalen naar de publieke IP van de host:
+- Voeg een NAT-regel toe om al het verkeer van het `192.168.0.0/24` subnet te vertalen naar de publieke IP van de host:
 
 `sudo iptables {{[-t|--table]}} {{nat}} {{[-A|--append]}} {{POSTROUTING}} {{[-s|--source]}} {{192.168.0.0/24}} {{[-j|--jump]}} {{MASQUERADE}}`
 

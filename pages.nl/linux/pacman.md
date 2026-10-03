@@ -17,7 +17,7 @@
 
 `sudo pacman -Rs {{pakket}}`
 
-- Doorzoek ([s]) de pakketdatabase met een reguliere expressie of zoekwoord:
+- Doorzoek ([s]) de pakketdatabase met een `regex` of zoekwoord:
 
 `pacman -Ss "{{zoekterm}}"`
 
