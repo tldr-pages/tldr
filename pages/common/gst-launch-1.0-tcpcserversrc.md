@@ -1,4 +1,4 @@
-# gst-launch-1.0 tcpcserversrc
+# gst-launch-1.0 tcpserversrc
 
 > Receive data sent by a client.
 > More information: <https://gstreamer.freedesktop.org/documentation/tcp/tcpserversrc.html>.
