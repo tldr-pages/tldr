@@ -16,7 +16,7 @@
 
 `cd {{pad\naar\map}}`
 
-- Ga naar een map in een andere drive:
+- Ga naar een map in een andere [d]rive:
 
 `cd /d {{C}}:{{pad\naar\map}}`
 

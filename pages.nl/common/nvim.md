@@ -25,9 +25,9 @@
 
 `<Esc></>{{zoek_patroon}}<Enter>`
 
-- Voer een reguliere expressie vervanging uit in het volledige bestand:
+- Voer een `regex` vervanging uit in het volledige bestand:
 
-`<Esc><:>%s/{{reguliere_expressie}}/{{vervanging}}/g<Enter>`
+`<Esc><:>%s/{{regex}}/{{vervanging}}/g<Enter>`
 
 - Ga naar de normale modus, sla (write) het bestand op en sluit af:
 

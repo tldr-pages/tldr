@@ -15,7 +15,7 @@
 
 `nl {{[-b|--body-numbering]}} {{a|n}} {{pad/naar/bestand}}`
 
-- Nummer alleen de [b]ody regels die overeenkomen met een basis reguliere expressie (BRE) [p]atroon:
+- Nummer alleen de [b]ody regels die overeenkomen met een basis `regex` (BRE) [p]atroon:
 
 `nl {{[-b|--body-numbering]}} p'FooBar[0-9]' {{pad/naar/bestand}}`
 
