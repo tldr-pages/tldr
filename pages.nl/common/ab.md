@@ -15,7 +15,7 @@
 
 `ab -n 100 -T {{application/json}} -p {{pad/naar/bestand.json}} {{url}}`
 
-- Gebruik HTTP Keep Alive, d.w.z. voer meerdere verzoeken uit binnen één HTTP-sessie:
+- Gebruik HTTP [k]eep-Alive, d.w.z. voer meerdere verzoeken uit binnen één HTTP-sessie:
 
 `ab -k {{url}}`
 
@@ -23,6 +23,6 @@
 
 `ab -t {{60}} {{url}}`
 
-- Schrijf de resultaten naar een CSV bestand:
+- Schrijf de resultaten naar een CSV-bestand:
 
 `ab -e {{pad/naar/bestand.csv}}`

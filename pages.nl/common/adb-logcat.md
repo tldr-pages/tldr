@@ -15,7 +15,7 @@
 
 `adb logcat {{tag}}:{{modus}} *:S`
 
-- Geef logs weer voor React Native-applicaties in [V]erbose mode [S]ilencing andere tags:
+- Geef logs weer voor React Native-applicaties in [V]erbose-modus, waarbij andere tags worden onderdrukt ([S]ilent):
 
 `adb logcat ReactNative:V ReactNativeJS:V *:S`
 

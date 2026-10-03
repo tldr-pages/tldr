@@ -22,7 +22,7 @@
 
 - Verander recursief de beheerder van een map en alle inhoud:
 
-`sudo chown {{[-R|--recursive]}} {{gebruiker}} {{pad/naar/bestand_of_map}}`
+`sudo chown {{[-R|--recursive]}} {{gebruiker}} {{pad/naar/map}}`
 
 - Verander de gebruiker van een symbolische link:
 
