@@ -6,7 +6,7 @@
 
 - 프린터가 지원하는 모든 속성과 값 조회:
 
-`ipptool ipp://{{프린터_uri}} get-completed-jobs.test`
+`ipptool ipp://{{프린터_uri}} get-printer-attributes.test`
 
 - 프린터의 완료된 작업 목록 조회:
 
