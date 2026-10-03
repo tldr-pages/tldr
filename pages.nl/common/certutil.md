@@ -13,7 +13,7 @@
 
 - Toon alle privésleutels in een database door het wachtwoordbestand op te geven:
 
-`certutil -K -d . -f {{pad/naar/wachtwoord_bestand.txt}}`
+`certutil -K -d . -f {{pad/naar/wachtwoordbestand.txt}}`
 
 - Voeg het ondertekende certificaat toe aan de database van de aanvrager, met een bijnaam, vertrouwensattributen en een [i]nvoer-CRT-bestand:
 
