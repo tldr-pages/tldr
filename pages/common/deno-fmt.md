@@ -5,7 +5,7 @@
 
 - Format all supported files in the current directory recursively:
 
-`deno fmt .`
+`deno fmt {{.}}`
 
 - Format specific files or directories:
 
@@ -13,16 +13,16 @@
 
 - Check formatting without modifying files:
 
-`deno fmt --check .`
+`deno fmt --check {{.}}`
 
 - Watch for changes and automatically format files:
 
-`deno fmt --watch .`
+`deno fmt --watch {{.}}`
 
 - Format files while ignoring a specific directory:
 
-`deno fmt --ignore={{path/to/ignored_directory}} .`
+`deno fmt --ignore={{path/to/ignored_directory}} {{.}}`
 
-- Format Markdown from `stdin` and print the result to `stdout`:
+- Format code from `stdin` and print the result to `stdout`:
 
-`echo "{{markdown_text}}" | deno fmt --ext md -`
+`echo "{{markdown_text}}" | deno fmt --ext {{md}} -`
