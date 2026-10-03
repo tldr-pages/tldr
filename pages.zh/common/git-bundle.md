@@ -11,11 +11,11 @@
 
 `git bundle create {{路径/到/文件.bundle}} --all`
 
-- 创建当前分支最近5次提交的打包文件：
+- 创建当前分支最近 5 次提交的打包文件：
 
 `git bundle create {{路径/到/文件.bundle}} -5 {{HEAD}}`
 
-- 创建最近7天提交的打包文件：
+- 创建最近 7 天提交的打包文件：
 
 `git bundle create {{路径/到/文件.bundle}} --since 7.days {{HEAD}}`
 
