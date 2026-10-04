@@ -23,7 +23,7 @@
 
 - Limite la vitesse de téléchargement et le nombre de tentatives de connexion :
 
-`wget --limit-rate {{300k}} {{[-t|--tries]}} {{100}} {{https://example.com/some_path/}}`
+`wget --limit-rate {{300k}} {{[-t|--tries]}} {{100}} {{https://example.com/un_chemin/}}`
 
 - Télécharge un fichier depuis un serveur HTTP avec l'authentification Basic (fonctionne aussi pour FTP) :
 
