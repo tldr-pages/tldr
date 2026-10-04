@@ -19,7 +19,7 @@
 
 - Télécharge tous les fichiers listés dans un répertoire et ses sous-répertoires (ne télécharge pas les éléments intégrés de la page) :
 
-`wget {{[-mnp|--mirror --no-parent]}} {{https://example.com/some_path/}}`
+`wget {{[-mnp|--mirror --no-parent]}} {{https://example.com/un_chemin/}}`
 
 - Limite la vitesse de téléchargement et le nombre de tentatives de connexion :
 
