@@ -19,7 +19,7 @@
 
 `python -c "{{expression}}"`
 
-- Exécute le script du module de bibliothèque spécifié :
+- Exécute le script du module de la bibliothèque spécifiée :
 
 `python -m {{module}} {{arguments}}`
 
