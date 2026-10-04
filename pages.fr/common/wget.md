@@ -15,7 +15,7 @@
 
 - Télécharge une page web et toutes ses ressources avec des intervalles de 3 secondes entre les requêtes (scripts, feuilles de style, images, etc.) :
 
-`wget {{[-pkw|--page-requisites --convert-links --wait]}} 3 {{https://example.com/some_page.html}}`
+`wget {{[-pkw|--page-requisites --convert-links --wait]}} 3 {{https://example.com/une_page.html}}`
 
 - Télécharge tous les fichiers listés dans un répertoire et ses sous-répertoires (ne télécharge pas les éléments intégrés de la page) :
 
