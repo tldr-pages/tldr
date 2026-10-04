@@ -1,6 +1,6 @@
 # logrotate
 
-> Rotates, compresses, and mails system logs.
+> Rotate, compresse, and mail system logs.
 > More information: <https://manned.org/logrotate>.
 
 - Trigger a run manually:
