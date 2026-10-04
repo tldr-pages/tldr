@@ -1,6 +1,6 @@
 # serialver
 
-> Returns the serialVersionUID of classes.
+> Return the serialVersionUID of classes.
 > It does not set a security manager by default.
 > More information: <https://docs.oracle.com/en/java/javase/25/docs/specs/man/serialver.html>.
 
