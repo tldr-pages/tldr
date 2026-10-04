@@ -1,36 +1,33 @@
 # setterm
 
-> Set terminal attributes.
+> Set terminal attributes such as colors, cursor visibility and screen blanking.
+> Some options only work in a Linux virtual console.
 > More information: <https://manned.org/setterm>.
 
 - Clear the screen:
 
-'setterm --clear dest'
+`setterm --clear`
 
-- Make the cursor visible:
+- Make the cursor visible or invisible:
 
-'setterm --cursor on'
+`setterm --cursor {{on|off}}`
 
-- Make the cursor invisible:
+- Turn blinking text on or off:
 
-'setterm --cursor off'
+`setterm --blink {{on|off}}`
 
-- Turn blink mode on:
+- Set the text color:
 
-'setterm --blink on'
+`setterm --foreground {{red}}`
 
-- Turn blink mode off:
+- Set the background color:
 
-'setterm --blink off'
+`setterm --background {{black}}`
 
-- Set the foreground text color to 'foo':
+- Blank the screen after a number of minutes of inactivity (`0` disables blanking):
 
-'setterm --foreground foo'
+`setterm --blank {{10}}`
 
-- Set the background text color to 'foo':
+- Reset the terminal to its default state:
 
-'setterm --background foo'
-
-- Set the time, in minutes, after which the screen will be automatically blanked:
-
-'setterm --blank=[0-60]'
+`setterm --reset`
