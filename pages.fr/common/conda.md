@@ -33,6 +33,6 @@
 
 `conda list`
 
-- Supprime les paquets et caches inutilisés :
+- Supprime les paquets et les caches inutilisés :
 
 `conda clean {{[-a|--all]}}`
