@@ -32,6 +32,6 @@
 
 `pip show {{package}}`
 
-- Install packages from a file:
+- Purge all cached packages:
 
-`pip install {{[-r|--requirement]}} {{requirements.txt}}`
+`pip cache purge`
