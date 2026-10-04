@@ -5,11 +5,11 @@
 
 - Build and publish a container image from a Go package import path:
 
-`ko build {{import_path}}`
+`ko build {{path/to/import}}`
 
 - Build and load a container image into a local Docker daemon:
 
-`ko build {{[-L|--local]}} {{import_path}}`
+`ko build {{[-L|--local]}} {{path/to/import}}`
 
 - Apply Kubernetes manifests with Go image references resolved to digests:
 
@@ -25,7 +25,7 @@
 
 - Build and run a Go package on Kubernetes:
 
-`ko run {{import_path}}`
+`ko run {{path/to/import}}`
 
 - Delete Kubernetes resources defined in a manifest:
 
