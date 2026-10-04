@@ -1,7 +1,7 @@
 # pass-cli
 
 > Access and manage Proton Pass vaults and items.
-> More information: <https://protonpass.github.io/pass-cli/commands/>.
+> More information: <https://protonpass.github.io/pass-cli/commands/login/>.
 
 - Log in using the default web flow:
 
