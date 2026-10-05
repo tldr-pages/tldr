@@ -1,8 +1,6 @@
 # btrfs send
 
 > Send and receive are complementary commands that allow to transfer data from one filesystem to another in a streamable format.
-> Send traverses a given read-only subvolume and either creates a full stream representation of its data and metadata (full mode), or given a set of subvolumes for reference it generates a difference relative to that set (incremental mode).
-> Receive takes a stream and reconstructs a subvolume with files and directories equivalent to the filesystem that was used to produce the stream.
 > See also: `btrfs-subvolume`, `btrfs-property`.
 > More information: <https://btrfs.readthedocs.io/en/latest/Send-receive.html>.
 
