@@ -11,7 +11,7 @@
 
 `cs complete-dep {{group_id}}:{{artifact_id}}`
 
-- Print which artifacts are pubblished under a given Maven groupId searching in the ivy2local:
+- Print which artifacts are published under a given Maven groupId searching in the ivy2local:
 
 `cs complete-dep {{group_id}} --repository ivy2local`
 

@@ -1,32 +1,32 @@
 # systemd-mount
 
-> Zet mount of auto-mount punten op of verwijder ze.
+> Maak tijdelijke mount- of auto-mountpunten aan en verwijder ze.
 > Meer informatie: <https://www.freedesktop.org/software/systemd/man/latest/systemd-mount.html>.
 
-- Mount een bestandssysteem (afbeelding of blokapparaat) op `/run/media/system/LABEL` waar LABEL het bestandssysteemlabel is of de apparaatnaam als er geen label is:
+- Mount een bestandssysteem (image of blokapparaat) op `/run/media/system/LABEL` waar LABEL het bestandssysteemlabel is of de apparaatnaam als er geen label is:
 
 `systemd-mount {{pad/naar/bestand_of_apparaat}}`
 
-- Mount een bestandssysteem (afbeelding of blokapparaat) op een gegeven locatie:
+- Mount een bestandssysteem (image of blokapparaat) op een gegeven locatie:
 
-`systemd-mount {{pad/naar/bestand_of_apparaat}} {{pad/naar/mount_point}}`
+`systemd-mount {{pad/naar/bestand_of_apparaat}} {{pad/naar/mountpunt}}`
 
 - Toon een lijst van alle lokale, bekende blokapparaten met de bestandssystemen die mogelijk gemount kunnen worden:
 
 `systemd-mount --list`
 
-- Maak een automount punt dat het bestandssysteem zal mounten op het moment van eerste toegang:
+- Maak een auto-mountpunt dat het daadwerkelijke bestandssysteem zal mounten op het moment van eerste toegang:
 
 `systemd-mount --automount yes {{pad/naar/bestand_of_apparaat}}`
 
 - Unmount een of meerdere apparaten:
 
-`systemd-mount {{[-u|--umount]}} {{pad/naar/mount_point_of_apparaat1 pad/naar/mount_point_of_apparaat2 ...}}`
+`systemd-mount {{[-u|--umount]}} {{pad/naar/mountpunt_of_apparaat1 pad/naar/mountpunt_of_apparaat2 ...}}`
 
-- Mount een bestandssysteem (afbeelding of blokapparaat) met een specifiek bestandssysteemtype:
+- Mount een bestandssysteem (image of blokapparaat) met een specifiek bestandssysteemtype:
 
-`systemd-mount {{[-t|--type]}} {{file_system_type}} {{pad/naar/bestand_of_apparaat}} {{pad/naar/mount_point}}`
+`systemd-mount {{[-t|--type]}} {{bestandssysteemtype}} {{pad/naar/bestand_of_apparaat}} {{pad/naar/mountpunt}}`
 
-- Mount een bestandssysteem (afbeelding of blokapparaat) met extra mount opties:
+- Mount een bestandssysteem (image of blokapparaat) met extra mount opties:
 
-`systemd-mount {{[-o|--options]}} {{mount_options}} {{pad/naar/bestand_of_apparaat}} {{pad/naar/mount_point}}`
+`systemd-mount {{[-o|--options]}} {{mount_opties}} {{pad/naar/bestand_of_apparaat}} {{pad/naar/mountpunt}}`

@@ -11,7 +11,7 @@
 
 `topgrade {{[-y|--yes]}}`
 
-- Cleanup temporary/old files:
+- Clean up temporary/old files:
 
 `topgrade {{[-c|--cleanup]}}`
 

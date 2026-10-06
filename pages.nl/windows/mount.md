@@ -1,6 +1,6 @@
 # mount
 
-> Koppel Network File System (NFS) netwerkschijven.
+> Koppel Network File System (NFS) netwerkshares.
 > Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/mount>.
 
 - Koppel een netwerkshare aan de "Z"-schijfletter:
@@ -11,7 +11,7 @@
 
 `mount \\{{computer_naam}}\{{share_naam}} *`
 
-- Koppel een netwerkshare met een leesslot in seconden (standaard 0,8, kan 0,9 of 1 tot 60 zijn):
+- Koppel een netwerkshare met een leestimeout in seconden (standaard 0,8, kan 0,9 of 1 tot 60 zijn):
 
 `mount -o timeout={{seconden}} \\{{computer_naam}}\{{share_naam}} {{Z:}}`
 

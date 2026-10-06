@@ -15,6 +15,6 @@
 
 `autoflake --remove-unused-variables --in-place {{chemin/vers/fichier.py}}`
 
-- Enlève les variables non-utilisées de tous les fichiers d'un dossier de manière récursive, en les surchargeant :
+- Enlève les variables non-utilisées de tous les fichiers d'un répertoire de manière récursive, en les surchargeant :
 
-`autoflake --remove-unused-variables --in-place --recursive {{chemin/vers/dossier}}`
+`autoflake --remove-unused-variables --in-place --recursive {{chemin/vers/répertoire}}`

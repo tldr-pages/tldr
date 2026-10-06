@@ -19,7 +19,7 @@
 
 `bun publish --registry {{registry}}`
 
-- Run a dry run to see what would be published without uploading:
+- Simulate what would be published without uploading:
 
 `bun publish --dry-run`
 

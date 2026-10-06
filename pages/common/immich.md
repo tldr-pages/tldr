@@ -20,7 +20,7 @@
 
 `immich upload {{[-r|--recursive]}} {{path/to/directory}} {{[-A|--album-name]}} "{{My summer holiday}}"`
 
-- Skip assets matching a glob pattern:
+- Skip assets matching a `glob` pattern:
 
 `immich upload {{[-r|--recursive]}} {{path/to/directory}} {{[-i|--ignore]}} {{**/Raw/** **/*.tif}}`
 

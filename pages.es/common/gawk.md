@@ -30,7 +30,7 @@
 
 - Imprime todas las líneas en las que el valor de la décima columna esté comprendido entre un mínimo y un máximo:
 
-`gawk '($10 >= {{min_value}} && $10 <= {{max_value}})' {{path/to/file}}`
+`gawk '($10 >= {{min_value}} && $10 <= {{max_value}})' {{ruta/al/archivo}}`
 
 - Imprime una tabla de usuarios con UID >=1000 con encabezado y salida formateada, utilizando dos puntos como separador (`%-20s` significa: cadena de 20 caracteres alineada a la izquierda; `%6s` significa: cadena de 6 caracteres alineada a la derecha):
 

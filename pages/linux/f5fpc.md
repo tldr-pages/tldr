@@ -19,6 +19,6 @@
 
 `sudo f5fpc --info`
 
-- Shutdown the VPN connection:
+- Shut down the VPN connection:
 
 `sudo f5fpc --stop`

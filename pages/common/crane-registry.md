@@ -8,13 +8,13 @@
 
 `crane registry serve`
 
-- Address to listen on:
+- Specify the address to listen on:
 
 `crane registry serve --address {{address_name}}`
 
-- Path to a directory where blobs will be stored:
+- Store blobs in a specific directory:
 
-`crane registry serve --disk {{path/to/store_directory}}`
+`crane registry serve --disk {{path/to/directory}}`
 
 - Display help for `crane registry`:
 

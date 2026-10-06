@@ -303,6 +303,13 @@ When linking pages to websites that have locale settings like the Microsoft Lear
 > Some subcommands such as `commit`, `add`, `branch`, `switch`, `push`, etc. have their own usage documentation.
 ```
 
+- If the listed subcommands are not all the subcommands that have their own page, end the list with `etc.`. If every subcommand with its own page is listed, omit `etc.` and join the last item with `and` instead:
+
+```md
+> Some subcommands such as `append` and `filter` have their own usage documentation.
+> Some subcommands such as `delete`, `list`, and `set` have their own usage documentation.
+```
+
 #### Heading order
 
 The heading should adhere to the following order:
@@ -311,10 +318,13 @@ The heading should adhere to the following order:
 > Short description of the functionality.
 > Further clarification of the functionality.
 > Note: Any note for the usage.
-> Some subcommands such as `subcommand1`, `subcommand2` have their own usage documentation.
+> Part of the Example suite.
+> Some subcommands such as `subcommand1`, `subcommand2`, etc. have their own usage documentation.
 > See also: `command`.
 > More information: <https://example.com>.
 ```
+
+A `Part of` line is equivalent to a `See also` line, but goes before the subcommands line when both are present.
 
 ## Example descriptions
 
@@ -405,6 +415,7 @@ In general, placeholders should make it as intuitive as possible to figure out h
 - For any reference to paths of files or directories, use the format `{{path/to/placeholder}}`, except when the location is implicit.
 - When the path cannot be relative and has to start at the root of the filesystem, prefix it with a slash outside the placeholder, such as `get /{{path/to/remote_file}}`.
 - In case of a possible reference both to a file or a directory, use `{{path/to/file_or_directory}}`.
+- Use the `{{path/to/mount_point}}` placeholder for the directory a filesystem is mounted on, instead of variants like `{{mountpoint}}` or `{{mount_point}}`. Hardcoded paths such as `/mnt` are only acceptable when the page describes a workflow that depends on them, like installing a system.
 
 #### Extensions
 
@@ -420,12 +431,6 @@ In general, placeholders should make it as intuitive as possible to figure out h
 - If a command can optionally take 1 or more arguments of the same kind, use an ellipsis: `{{placeholder1 placeholder2 ...}}`. For instance, if multiple paths are expected, use `{{path/to/directory1 path/to/directory2 ...}}`.
 - If the options are mutually exclusive, write it as: `{{placeholder1|placeholder2|placeholder3}}`. If there are more than 3 possible values, you can use `|...` after the last item.
 - Use two dots to mark a range of possible values, for example `{{1..5}}` or `{{a..z}}`.
-
-#### Optional placeholders
-
-When documenting optional placeholders like paths or file extensions, it is suggested to specify them in the page or example descriptions instead of the placeholder itself. For example:
-
-- Use `{{path/to/source.ext}}` instead of `{{path/to/source.tar[.gz|.bz2|.xz]}}`.
 
 #### Exceptions
 

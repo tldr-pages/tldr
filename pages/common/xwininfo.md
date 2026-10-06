@@ -14,7 +14,7 @@
 
 - Display the attributes of a window with a specific ID:
 
-`xwininfo -id {{id}}`
+`xwininfo -id {{window_id}}`
 
 - Display the attributes of a window with a specific name:
 

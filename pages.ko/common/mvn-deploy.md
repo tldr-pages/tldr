@@ -7,6 +7,6 @@
 
 `mvn deploy`
 
-- Copy an artifact, that is not built using Maven to the remote repository:
+- Maven으로 빌드되지 않은 아티팩트를 원격 저장소에 복사:
 
 `mvn deploy:deploy-file {{[-D|--define]}} url={{원격_저장소_url}} {{[-D|--define]}} repositoryId={{settings.xml에_설정된_서버_아이디}} {{[-D|--define]}} file={{배포될_파일}}`

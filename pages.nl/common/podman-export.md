@@ -4,7 +4,7 @@
 > Zie ook: `podman import`, `podman save`.
 > Meer informatie: <https://docs.podman.io/en/latest/markdown/podman-export.1.html>.
 
-- Exporteer het bestandssysteem van een container naar een tar-bestand:
+- Exporteer het bestandssysteem van een container naar een `.tar`-bestand:
 
 `podman export {{[-o|--output]}} {{pad/naar/bestand.tar}} {{container_naam_of_id}}`
 

@@ -11,3 +11,11 @@
 - Ejecuta una función llamada `func_name`:
 
 `func_name`
+
+- Define una función sin la palabra clave `function`:
+
+`{{nombre_de_la_función}}() { {{echo "Contenido de la función aquí"}}; }`
+
+- Muestra la ayuda:
+
+`help function`

@@ -1,6 +1,6 @@
 # grub-mount
 
-> Mount a filesystem or filesystem image read-only using GRUB's filesystem drivers.
+> GRUB의 파일 시스템 드라이버를 사용하여 파일 시스템 또는 파일 시스템 이미지를 읽기 전용으로 마운트.
 > 더 많은 정보: <https://www.gnu.org/software/grub/manual/grub/grub.html#Invoking-grub_002dmount>.
 
 - 블록 장치 또는 파일 시스템 이미지를 지정한 마운트 지점에 마운트:

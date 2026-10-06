@@ -8,7 +8,7 @@
 
 `borg init {{path/to/repo_directory}}`
 
-- Backup a directory into the repository, creating an archive called "Monday":
+- Back up a directory into the repository, creating an archive called "Monday":
 
 `borg create --progress {{path/to/repo_directory}}::{{Monday}} {{path/to/source_directory}}`
 
@@ -26,7 +26,7 @@
 
 - Mount a repository as a FUSE filesystem:
 
-`borg mount {{path/to/repo_directory}}::{{Monday}} {{path/to/mountpoint}}`
+`borg mount {{path/to/repo_directory}}::{{Monday}} {{path/to/mount_point}}`
 
 - Display help on creating archives:
 

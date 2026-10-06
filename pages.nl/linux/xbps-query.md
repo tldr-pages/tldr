@@ -1,12 +1,12 @@
 # xbps-query
 
-> XBPS hulpprogramma om te zoeken naar een pakket en repository informatie.
+> XBPS hulpprogramma om te zoeken naar pakket- en repository-informatie.
 > Zie ook: `xbps`.
 > Meer informatie: <https://manned.org/xbps-query>.
 
-- Zoek naar een pakket in externe repositories met behulp van een reguliere expressie of een trefwoord (als `--regex` wordt weggelaten):
+- Zoek naar een pakket in externe repositories met behulp van een `regex` of een trefwoord (als `--regex` wordt weggelaten):
 
-`xbps-query {{[-s|--search]}} {{reguliere_expressie|trefwoord}} --repository --regex`
+`xbps-query {{[-s|--search]}} {{regex|trefwoord}} --repository --regex`
 
 - Toon informatie over een geïnstalleerd pakket:
 
@@ -16,10 +16,10 @@
 
 `xbps-query {{[-S|--show]}} {{pakket}} --repository`
 
-- Toon alle geregistreerde pakketen in de pakket database:
+- Toon alle geregistreerde pakketten in de pakketdatabase:
 
 `xbps-query {{[-l|--list-pkgs]}}`
 
-- Toon expliciet geïnstalleerde pakketen (bijv. niet automatisch geïnstalleerd als afhankelijkheden):
+- Toon expliciet geïnstalleerde pakketten (bijv. niet automatisch geïnstalleerd als afhankelijkheden):
 
 `xbps-query {{[-m|--list-manual-pkgs]}}`

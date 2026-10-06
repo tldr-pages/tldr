@@ -2,7 +2,7 @@
 
 This page provides translations of commonly used arguments to simplify maintaining pages in foreign languages.\
 The best way to edit this file is by using [tableconvert.com](https://tableconvert.com/markdown-to-markdown).\
-There, the old table can be **imported**, **edited** in a WYSIWYG editor and **exported** again.\
+There, the old table can be **imported**, **edited** in a WYSIWYG editor and **exported** again.
 
 > [!NOTE]
 > Placeholders in Arabian (`ar`) and Farsi (`fa`) pages shouldn't be translated to prevent flipped text when reading.
@@ -25,7 +25,7 @@ There, the old table can be **imported**, **edited** in a WYSIWYG editor and **e
 | hi    | फ़ाइल/का/पथ           | निर्देशिका/का/पथ         | फ़ाइल_या_निर्देशिका/का/पथ            | पैकेज         | उपयोगकर्ता_नाम     |                   |          |        |          |
 | id    | jalan/menuju/berkas   | jalan/menuju/direktori   | jalan/menuju/berkas_atau_direktori   | paket         | nama_pengguna      | kata_sandi        | perintah | port   | nilai    |
 | it    | percorso/del/file     | percorso/della/directory | percorso/del/file_o_directory        | pacchetto     | nome_utente        | password          | comando  | porta  | valore   |
-| ja    | パス/宛先/ファイル         | パス/宛先/ディレクトリ        | パス/宛先/ファイル_または_ディレクトリ         | パッケージ      | ユーザー名          | パスワード          | コマンド  | ポート  | 値        |
+| ja    | ディレクトリ/サブディレクトリ/ファイル         | ディレクトリ/サブディレクトリ        | ディレクトリ/サブディレクトリ/ファイル_または_ディレクトリ         | パッケージ      | ユーザー名          | パスワード          | コマンド  | ポート  | 値        |
 | ko    | 경로/대상/파일              | 경로/대상/폴더                 | 경로/대상/파일_또는_폴더                       | 패키지           | 사용자 명              | 비밀번호              | 명령어      | 포트     | 값        |
 | lo    |                       |                          |                                      |               |                    |                   |          |        |          |
 | ml    | ഫയലിലേക്കുള്ള/പാത     | ഡയറക്ടറിയിലേക്കുള്ള/പാത  | ഫയലിലേക്കോ_ഡയറക്ടറിയിലേക്കോ/ഉള്ള/പാത | പാക്കേജ്      | ഉപയോക്തൃനാമം       |                   |          |        |          |

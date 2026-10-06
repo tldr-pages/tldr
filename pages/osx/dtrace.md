@@ -1,6 +1,6 @@
 # dtrace
 
-> A simple interface to invoke the D language compiler, retrieve buffered trace and print traced data from the DTrace kernel facility.
+> A simple interface to invoke the D language compiler, retrieve buffered trace, and print traced data from the DTrace kernel facility.
 > Generic front-end to DTrace facility, requiring root privileges.
 > More information: <https://keith.github.io/xcode-man-pages/dtrace.1.html>.
 
@@ -28,7 +28,7 @@
 
 `dtrace -f {{function}}`
 
-- Grad the specified [p]rocess ID, cache its symbol table, and exit upon completion:
+- Grab the specified [p]rocess ID, cache its symbol table, and exit upon completion:
 
 `dtrace -p {{process_id}}`
 

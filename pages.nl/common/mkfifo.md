@@ -11,7 +11,7 @@
 
 `echo "{{Hello World}}" > {{pad/naar/pipe}} &`
 
-- Ontvang data van benoemde pipe:
+- Ontvang data van een benoemde pipe:
 
 `cat {{pad/naar/pipe}}`
 

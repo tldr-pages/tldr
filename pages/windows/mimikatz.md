@@ -12,10 +12,6 @@
 
 `mimikatz "privilege::debug"`
 
-- List available logon sessions:
-
-`mimikatz "sekurlsa::logonpasswords"`
-
 - Dump plaintext passwords, NTLM hashes, and Kerberos tickets from memory:
 
 `mimikatz "sekurlsa::logonpasswords"`

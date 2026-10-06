@@ -17,7 +17,7 @@
 
 - 파일 시스템을 취약점 및 잘못된 구성에 대해 스캔:
 
-`trivy fs --security-checks {{vuln,config}} {{경로/대상/프로젝트_폴더}}`
+`trivy fs --scanners {{vuln,misconfig}} {{경로/대상/프로젝트_폴더}}`
 
 - IaC(Terraform, CloudFormation, ARM, Helm 및 Dockerfile) 디렉토리를 잘못된 구성에 대해 스캔:
 

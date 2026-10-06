@@ -8,7 +8,7 @@
 
 `magick convert {{路径/到/输入图片.jpg}} {{路径/到/输出图片.png}}`
 
-- 将图片调整至原图片尺寸的50%：
+- 将图片调整至原图片尺寸的 50%：
 
 `magick convert {{路径/到/输入图片.png}} -resize 50% {{路径/到/输出图片.png}}`
 
@@ -24,7 +24,7 @@
 
 `magick convert -background none {{路径/到/图片1.png 路径/到/图片2.png ...}} {{-append|+append}} {{路径/到/输出图片.png}}`
 
-- 创建一个 GIF 动图，按 100ms 的间隔播放一系列图片：
+- 创建一个 GIF 动图，按 100 ms 的间隔播放一系列图片：
 
 `magick convert {{路径/到/图片1.png 路径/到/图片2.png ...}} -delay {{10}} {{路径/到/GIF 动图.gif}}`
 

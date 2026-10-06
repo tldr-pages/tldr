@@ -23,6 +23,6 @@
 
 `taskkill /pid {{process_id}} /s {{remote_name}}`
 
-- Display information about the usage of the command:
+- Display help:
 
 `taskkill /?`

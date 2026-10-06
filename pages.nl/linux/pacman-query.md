@@ -1,10 +1,9 @@
 # pacman --query
 
 > Raadpleeg de lokale pakketdatabase.
-> Zie ook: `pacman`.
 > Meer informatie: <https://manned.org/pacman.8>.
 
-- [Q]uery de lokale pakkettendatabase en toon geïnstalleerde pakketten en versies:
+- [Q]uery de lokale pakketdatabase en toon geïnstalleerde pakketten en versies:
 
 `pacman -Q`
 
@@ -24,11 +23,11 @@
 
 `pacman -Ql {{pakket}}`
 
-- Maak een lijst van pakketten welke geïnstalleerd zijn als afhankelijkhe[d]en maar niet vereist door een pakket en print in stille ([q]) modus (alleen pakketnaam wordt weergegeven):
+- Maak een lijst van pakketten welke geïnstalleerd zijn als afhankelijkhe[d]en maar nie[t] vereist door een pakket en print in stille ([q]) modus (alleen pakketnaam wordt weergegeven):
 
 `pacman -Qdtq`
 
-- Toon geïnstalleerde pakketten foreign ([m]) voor de repository database:
+- Toon geïnstalleerde pakketten die vreemd ([m]) zijn aan de repositorydatabase:
 
 `pacman -Qm`
 

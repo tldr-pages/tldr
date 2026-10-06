@@ -5,16 +5,16 @@
 
 - Lista todos as atualizações disponíveis:
 
-`softwareupdate --list`
+`softwareupdate {{[-l|--list]}}`
 
 - Descarrega e instala todas as atualizações disponíveis:
 
-`softwareupdate --install --all`
+`softwareupdate {{[-i|--install]}} {{[-a|--all]}}`
 
 - Descarrega e instala todas as atualizações recomendadas:
 
-`softwareupdate --install --recommended`
+`softwareupdate {{[-i|--install]}} {{[-r|--recommended]}}`
 
 - Descarrega e instala um aplicativo específico:
 
-`softwareupdate --install {{nome_atulizacao}}`
+`softwareupdate {{[-i|--install]}} {{nome_atulizacao}}`

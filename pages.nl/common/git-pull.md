@@ -15,6 +15,6 @@
 
 `git pull {{externe_naam}}`
 
-- Download wijzigingen uit de opgegeven externe repository en branch en voeg deze vervolgens samen met HEAD:
+- Download wijzigingen uit de opgegeven externe repository en branch en voeg deze vervolgens samen met `HEAD`:
 
 `git pull {{externe_naam}} {{branch}}`

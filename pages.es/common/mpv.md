@@ -12,7 +12,7 @@
 
 `{{<ArrowLeft>|<ArrowRight>}}`
 
-- Avanzar o retroceder 1 minuto:
+- Avanza o retroceder 1 minuto:
 
 `{{<ArrowLeft>|<ArrowRight>}}`
 

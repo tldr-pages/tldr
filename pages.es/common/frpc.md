@@ -1,6 +1,6 @@
 # frpc
 
-> Conéctate a un servidor `frps` para iniciar conexiones proxy en el host actual.
+> Se conecta a un servidor `frps` para iniciar conexiones proxy en el host actual.
 > Parte de `frp`.
 > Más información: <https://github.com/fatedier/frp>.
 
@@ -10,7 +10,7 @@
 
 - Inicia el servicio, utilizando el nuevo archivo de configuración TOML (`frps.toml` en lugar de `frps.ini`) en el directorio actual:
 
-`frpc {{[-c|--config]}} ./frps.toml`
+`frpc {{[-c|--config]}} {{ruta/al/frpc.toml}}`
 
 - Inicia el servicio, utilizando un archivo de configuración específico:
 
@@ -24,6 +24,6 @@
 
 `frpc completion {{bash|fish|powershell|zsh}}`
 
-- Muestra versión:
+- Muestra la versión:
 
 `frpc {{[-v|--version]}}`

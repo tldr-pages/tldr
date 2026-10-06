@@ -1,6 +1,6 @@
 # pio
 
-> Ontwikkelomgeving voor voor embedded boards.
+> Ontwikkelomgeving voor embedded boards.
 > Sommige subcommando's zoals `run` hebben hun eigen documentatie.
 > Meer informatie: <https://docs.platformio.org/en/latest/core/userguide/>.
 

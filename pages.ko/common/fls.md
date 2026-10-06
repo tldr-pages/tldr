@@ -1,7 +1,7 @@
 # fls
 
 > 이미지 파일이나 장치의 파일과 디렉터리를 나열.
-> 더 많은 정보: <https://wiki.sleuthkit.org/index.php?title=Fls>.
+> 더 많은 정보: <https://wiki.sleuthkit.org/fls/>.
 
 - 장치에 대한 재귀 fls 목록을 작성하면, 출력 경로가 C로 시작:
 

@@ -11,26 +11,26 @@
 
 `reg query {{nombre_de_clave}} /v {{valor}}`
 
-- Mostrar todos los valores de una clave y sus [s]ubclaves:
+- Muestra todos los valores de una clave y sus [s]ubclaves:
 
 `reg query {{nombre_de_clave}} /s`
 
-- Buscar [f] claves y valores que coincidan con un patrón específico:
+- Busca [f] claves y valores que coincidan con un patrón específico:
 
 `reg query {{nombre_de_clave}} /f "{{patrón_de_búsqueda}}"`
 
-- Mostrar un valor de una clave que coincida con un [t]ipo de dato específico:
+- Muestra un valor de una clave que coincida con un [t]ipo de dato específico:
 
 `reg query {{nombre_de_clave}} /t REG_{{SZ|MULTI_SZ|EXPAND_SZ|DWORD|BINARY|NONE}}`
 
-- Buscar solo en los [d]atos:
+- Busca solo en los [d]atos:
 
 `reg query {{nombre_de_clave}} /d`
 
-- Buscar solo en los nombres de clave [k]:
+- Busca solo en los nombres de clave [k]:
 
 `reg query {{nombre_de_clave}} /f "{{patrón_de_búsqueda}}" /k`
 
-- Buscar una coincidencia [e]xacta distinguiendo entre mayúsculas y minúsculas [c]:
+- Busca una coincidencia [e]xacta distinguiendo entre mayúsculas y minúsculas [c]:
 
 `reg query {{nombre_de_clave}} /c /e`

@@ -3,7 +3,7 @@
 > Python style guide checker.
 > More information: <https://github.com/google/yapf#usage>.
 
-- Display a diff of the changes that would be made, without making them (dry-run):
+- Simulate formatting and display a diff of the changes that would be made:
 
 `yapf {{[-d|--diff]}} {{path/to/file}}`
 

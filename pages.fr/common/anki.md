@@ -15,6 +15,6 @@
 
 `anki {{[-l|--lang]}} {{langue}}`
 
-- Lancer `anki` depuis un dossier spécifique au lieu de celui par défaut (`~/Anki`) :
+- Lancer `anki` depuis un répertoire spécifique au lieu de celui par défaut (`~/Anki`) :
 
-`anki {{[-b|--base]}} {{chemin/vers/dossier}}`
+`anki {{[-b|--base]}} {{chemin/vers/répertoire}}`

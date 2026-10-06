@@ -1,6 +1,6 @@
 # repomix
 
-> Pack a Github repository into an AI-friendly file.
+> Pack a GitHub repository into an AI-friendly file.
 > More information: <https://github.com/yamadashy/repomix>.
 
 - Output custom format:

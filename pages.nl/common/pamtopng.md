@@ -8,11 +8,11 @@
 
 `pamtopng {{pad/naar/afbeelding.pam}} > {{pad/naar/uitvoer.png}}`
 
-- Markeer de gespecificeerde kleur als transparent in de uitvoer-afbeelding:
+- Markeer de gespecificeerde kleur als transparant in de uitvoerafbeelding:
 
 `pamtopng {{[-t|-transparent]}} {{kleur}} {{pad/naar/afbeelding.pam}} > {{pad/naar/uitvoer.png}}`
 
-- Voeg de tekst in gespecificeerde bestand toe als tEXt chunks in de uitvoer:
+- Voeg de tekst in het gespecificeerde bestand toe als tEXt chunks in de uitvoer:
 
 `pamtopng {{[-te|-text]}} {{pad/naar/bestand.txt}} {{pad/naar/afbeelding.pam}} > {{pad/naar/uitvoer.png}}`
 

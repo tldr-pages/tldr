@@ -21,7 +21,7 @@
 
 - Pesquisa pacote por palavra-chave:
 
-`zypper {{[se|search]}} {{palavra-chave}}`
+`zypper {{[se|search]}} {{palavra_chave}}`
 
 - Mostra informações relacionadas aos repositórios configurados:
 

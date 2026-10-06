@@ -11,7 +11,7 @@
 
 `tasklist /fo {{table|list|csv}}`
 
-- 已匹配的方式（.exe, .dll）显示当前运行的进程：
+- 已匹配的方式（`.exe`, `.dll`）显示当前运行的进程：
 
 `tasklist /m {{匹配模式}}`
 

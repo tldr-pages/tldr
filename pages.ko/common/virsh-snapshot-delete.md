@@ -7,7 +7,7 @@
 
 `sudo virsh snapshot-delete "{{가상머신_이름}}" "{{스냅샷_이름}}"`
 
-- Delete only the metadata, leaving the snapshot contents in place:
+- 스냅샷 내용은 그대로 유지하고, 메타데이터만 삭제:
 
 `sudo virsh snapshot-delete "{{가상머신_이름}}" "{{스냅샷_이름}}" --metadata`
 

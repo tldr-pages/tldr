@@ -7,7 +7,7 @@
 
 `dd if={{pad/naar/bestand.iso}} of={{/dev/usb_apparaat}} status=progress`
 
-- Kopieer een schijf naar een andere schijf met een blokgrootte van 4 MiB, negeer fouten en toon de voortgang:
+- Kopieer een schijf naar een andere schijf met een blokgrootte van 4 MB, negeer fouten en toon de voortgang:
 
 `dd bs=4m conv=noerror if={{/dev/bron_apparaat}} of={{/dev/doel_apparaat}} status=progress`
 

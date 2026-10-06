@@ -11,7 +11,7 @@
 
 `npm pack {{path/to/package_directory}}`
 
-- Run a dry run to preview the tarball contents without creating it:
+- Simulate the tarball creation without creating it:
 
 `npm pack --dry-run`
 

@@ -19,7 +19,7 @@
 
 `git clean {{[-f|--force]}} -d`
 
-- Verwijder alleen niet-bijgehouden bestanden die overeenkomen met specifieke paden of glob-patronen:
+- Verwijder alleen niet-bijgehouden bestanden die overeenkomen met specifieke paden of `glob`-patronen:
 
 `git clean {{[-f|--force]}} -- {{pad/naar/map}} '{{*.ext}}'`
 

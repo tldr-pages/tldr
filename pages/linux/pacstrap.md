@@ -3,11 +3,11 @@
 > Install Arch Linux packages in the specified new root directory.
 > More information: <https://manned.org/pacstrap>.
 
-- Install the `base` package, the Linux kernel and firmware for common hardware:
+- Install the `base` package, the Linux kernel, and firmware for common hardware:
 
 `pacstrap {{path/to/new_root}} {{base}} {{linux}} {{linux-firmware}}`
 
-- Install the `base` package, the Linux LTS kernel and `base-devel` build tools:
+- Install the `base` package, the Linux LTS kernel, and `base-devel` build tools:
 
 `pacstrap {{path/to/new_root}} {{base}} {{base-devel}} {{linux-lts}}`
 

@@ -8,7 +8,7 @@
 
 `ssh {{gebruikersnaam}}@{{externe_host}}`
 
-- Verbind met een externe server met een specifieke identiteit (privésleutel):
+- Verbind met een externe server met een specifieke [i]dentiteit (privésleutel):
 
 `ssh {{gebruikersnaam}}@{{externe_host}} -i {{pad/naar/sleutel_bestand}}`
 

@@ -7,7 +7,7 @@
 
 `npm {{[ls|list]}}`
 
-- Print alle geïnstalleerde pakketten inclusief gelijkwaardige afhankelijkheden:
+- Print alle geïnstalleerde pakketten inclusief peer dependencies:
 
 `npm {{[ls|list]}} {{[-a|--all]}}`
 

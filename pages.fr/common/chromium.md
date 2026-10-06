@@ -1,6 +1,7 @@
 # chromium
 
 > Navigateur Web open source principalement développé et maintenu par Google.
+> Remarque : Vous devrez peut-être remplacer la commande `chromium` par le navigateur web de votre choix, tel que `brave`, `google-chrome`, `opera`, ou `vivaldi`.
 > Plus d'informations : <https://www.chromium.org/developers/how-tos/run-chromium-with-flags/>.
 
 - Ouvre une URL ou un fichier spécifique :

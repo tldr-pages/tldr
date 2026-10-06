@@ -1,7 +1,6 @@
 # pacman --sync
 
-> Hulpprogramma voor het beheren van pakketten op Arch Linux.
-> Zie ook: `pacman`.
+> Synchroniseer pakketten van externe repositories.
 > Meer informatie: <https://manned.org/pacman.8>.
 
 - Installeer een nieuw pakket:
@@ -16,7 +15,7 @@
 
 `sudo pacman -Syu --noconfirm {{pakket}}`
 
-- Doorzoek ([s]) de pakketdatabase met een reguliere expressie of zoekwoord:
+- Doorzoek ([s]) de pakketdatabase met een `regex` of zoekwoord:
 
 `pacman -Ss "{{zoekterm}}"`
 
@@ -28,7 +27,7 @@
 
 `sudo pacman -Syu --overwrite {{pad/naar/bestand}}`
 
-- Verwijder niet-geïnstalleerde pakketten en ongebruikte repositories uit de cache (gebruik de vlag `Sc` om [c]ache volledig schoon te maken):
+- Verwijder niet-geïnstalleerde pakketten en ongebruikte repositories uit de cache (gebruik de vlaggen `Scc` om alle pakketten op te schonen ([c])):
 
 `sudo pacman -Sc`
 

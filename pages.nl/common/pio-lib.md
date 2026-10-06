@@ -7,7 +7,7 @@
 
 `pio lib list`
 
-- Toon ingebouwde bibliotheken gebaseerd op geïnstalleerde ontwikkelplatformen en hun geraamtes:
+- Toon ingebouwde bibliotheken gebaseerd op geïnstalleerde ontwikkelplatformen en hun frameworks:
 
 `pio lib builtin`
 

@@ -1,7 +1,7 @@
 # berks
 
 > Chef cookbook dependency manager.
-> More information: <https://docs.chef.io/workstation/berkshelf/>.
+> More information: <https://docs.chef.io/workstation/latest/tools/berkshelf/#berkshelf-cli>.
 
 - Install cookbook dependencies into a local repo:
 

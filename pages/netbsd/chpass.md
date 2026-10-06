@@ -6,7 +6,7 @@
 
 - Set a specific login shell for the current user interactively:
 
-`su -c chpass`
+`chpass`
 
 - Set a specific login [s]hell for the current user:
 
@@ -18,7 +18,7 @@
 
 - Specify a user database entry in the `passwd` file format:
 
-`su -c 'chpass -a {{username:encrypted_password:uid:gid:...}} -s {{path/to/shell}}' {{username}}`
+`su -c 'chpass -a {{username:encrypted_password:user_id:group_id:...}} -s {{path/to/shell}}' {{username}}`
 
 - Only update the [l]ocal password file:
 

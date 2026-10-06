@@ -1,6 +1,6 @@
 # transmission-edit
 
-> Wijzig aankondigings URL's van torrentbestanden.
+> Wijzig aankondigings-URL's van torrentbestanden.
 > Zie ook: `transmission`.
 > Meer informatie: <https://manned.org/transmission-edit>.
 
@@ -14,4 +14,4 @@
 
 - Werk de toegangscode van een tracker bij in een torrentbestand:
 
-`transmission-edit {{[-r|--replace]}} {{oude-toegangscode}} {{nieuwe-toegangscode}} {{pad/naar/bestand.torrent}}`
+`transmission-edit {{[-r|--replace]}} {{oude_toegangscode}} {{nieuwe_toegangscode}} {{pad/naar/bestand.torrent}}`

@@ -2,7 +2,7 @@
 
 > Frontend for `su`.
 > Run graphical commands which need root access without having to run an X terminal emulator.
-> Note: This command is deprecated in favor of commands like `pkexec`, and is no longer maintained.
+> Note: This command is deprecated and no longer maintained, use `pkexec` instead.
 > See also: `gksudo`.
 > More information: <https://manned.org/gksu>.
 

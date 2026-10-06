@@ -1,7 +1,7 @@
 # PATH
 
 > Display or set the search path for executable files.
-> This command is available in `FreeDOS` only.
+> This command is available in FreeDOS only.
 > More information: <https://help.fdos.org/en/hhstndrd/batch/path.htm>.
 
 - Display the current search path:

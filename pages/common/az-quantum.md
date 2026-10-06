@@ -17,7 +17,7 @@
 
 - Submit a QIR quantum job to a target:
 
-`az quantum job submit {{[-g|--resource-group]}} {{ResourceGroup}} {{[-w|--workspace-name]}} {{Workspace}} {{[-l|--location]}} {{Location}} {{[-t|--target-id]}} {{Id}} --job-name {{Job}} --job-input-file {{QirBitcode.bc}} --job-input-format {{qir.v1}}`
+`az quantum job submit {{[-g|--resource-group]}} {{ResourceGroup}} {{[-w|--workspace-name]}} {{Workspace}} {{[-l|--location]}} {{Location}} {{[-t|--target-id]}} {{target_id}} --job-name {{Job}} --job-input-file {{QirBitcode.bc}} --job-input-format {{qir.v1}}`
 
 - List all jobs in a Quantum Workspace:
 
@@ -33,4 +33,4 @@
 
 - Set a default target for job submissions:
 
-`az quantum target set {{[-t|--target-id]}} {{Id}}`
+`az quantum target set {{[-t|--target-id]}} {{target_id}}`

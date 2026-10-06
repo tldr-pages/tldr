@@ -4,7 +4,7 @@
 > Bu komut yalnızca `adb shell` ile kullanılabilir.
 > Daha fazla bilgi için: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreportz>.
 
-- Bir Android cihazı için ziplenmiş şekilde eksizsiz bir bug raporu oluşturGenerate a complete zipped bug report of an Android device:
+- Bir Android cihazı için ziplenmiş şekilde eksizsiz bir bug raporu oluştur:
 
 `bugreportz`
 

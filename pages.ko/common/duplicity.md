@@ -11,11 +11,11 @@
 
 - 매월 전체 백업을 수행하여 Amazon S3에 디렉터리를 백업:
 
-`duplicity --full-if-older-than {{1M}} s3://{{버킷_이름[/접두사]}}`
+`duplicity --full-if-older-than {{1M}} s3://{{버킷_이름/접두사}}`
 
 - WebDAV 공유에 저장된 백업에서 1년이 넘은 버전을 삭제:
 
-`FTP_PASSWORD={{webdav_로그인_비밀번호}} duplicity remove-older-than {{1Y}} --force {{webdav[s]://사용자@호스트명[:포트]/일부_디렉토리}}`
+`FTP_PASSWORD={{webdav_로그인_비밀번호}} duplicity remove-older-than {{1Y}} --force {{webdav://사용자@호스트명:포트/일부_디렉토리}}`
 
 - 사용 가능한 백업을 나열:
 

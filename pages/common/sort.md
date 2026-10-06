@@ -23,7 +23,7 @@
 
 `sort {{[-t|--field-separator]}} : {{[-k|--key]}} 3n /etc/passwd`
 
-- As above, but when items in the 3rd field are equal, sort by the 4th field by numbers with exponents:
+- Sort `/etc/passwd` numerically by the 3rd field, and when items in the 3rd field are equal, sort by the 4th field by numbers with exponents:
 
 `sort {{[-t|--field-separator]}} : {{[-k|--key]}} 3,3n {{[-k|--key]}} 4,4g /etc/passwd`
 

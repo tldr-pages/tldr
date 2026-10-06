@@ -8,7 +8,7 @@
 
 `ffmpeg -i {{路径/到/video.mp4}} -vn {{路径/到/sound.mp3}}`
 
-- 将 FLAC 文件转码为红皮书 CD 格式（44100kHz，16位）：
+- 将 FLAC 文件转码为红皮书 CD 格式（44100 kHz，16 位）：
 
 `ffmpeg -i {{路径/到/input_audio.flac}} -ar 44100 -sample_fmt s16 {{路径/到/output_audio.wav}}`
 

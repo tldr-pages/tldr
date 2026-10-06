@@ -1,6 +1,6 @@
 # zramctl
 
-> Setup and control zram devices.
+> Set up and control zram devices.
 > Use `mkfs` or `mkswap` to format zram devices to partitions.
 > More information: <https://manned.org/zramctl>.
 

@@ -6,11 +6,11 @@
 
 - Chiama la funzione build con opzione scratch:
 
-`koji call build '"{{git+https://src.fedoraproject.org/rpms/vim.git#e847a50297a216229050bf4db3d06a139104e7cf}}"' \"{{target}}\" --kwargs '{"opts":{"scratch": True}}'`
+`koji call build '"{{git+https://src.fedoraproject.org/rpms/vim.git#e847a50297a216229050bf4db3d06a139104e7cf}}"' \"{{target}}\" --kwargs '{"opts":{"scratch": True\}\}'`
 
 - Chiama la funzione build con opzione arch_override:
 
-`koji call build '"{{git+https://src.fedoraproject.org/rpms/vim.git#e847a50297a216229050bf4db3d06a139104e7cf}}"' \"{{target}}\" --kwargs '{"opts":{"arch_override":"sw_64"}}'`
+`koji call build '"{{git+https://src.fedoraproject.org/rpms/vim.git#e847a50297a216229050bf4db3d06a139104e7cf}}"' \"{{target}}\" --kwargs '{"opts":{"arch_override":"sw_64"\}\}'`
 
 - Chiama la funzione build sul canale `default`:
 

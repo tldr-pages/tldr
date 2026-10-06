@@ -1,10 +1,10 @@
 # Remove-Item
 
-> Verwijder bestanden, mappen, evenals registersleutels en subkeys.
+> Verwijder bestanden, mappen, evenals registersleutels en subsleutels.
 > Deze opdracht kan alleen door PowerShell worden uitgevoerd.
 > Meer informatie: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/remove-item>.
 
-- Verwijder specifieke bestanden of registersleutels (zonder subkeys):
+- Verwijder specifieke bestanden of registersleutels (zonder subsleutels):
 
 `Remove-Item {{pad\naar\bestand_of_key1 , pad\naar\bestand_of_key2 ...}}`
 
@@ -12,7 +12,7 @@
 
 `Remove-Item -Force {{pad\naar\bestand1 , pad\naar\bestand2 ...}}`
 
-- Verwijder specifieke bestanden of registersleutels interactief gevraagd vóór elke verwijdering:
+- Verwijder specifieke bestanden of registersleutels, waarbij interactief om bevestiging wordt gevraagd vóór elke verwijdering:
 
 `Remove-Item -Confirm {{pad\naar\bestand_of_key1 , pad\naar\bestand_of_key2 ...}}`
 
@@ -20,7 +20,7 @@
 
 `Remove-Item -Recurse {{pad\naar\bestand_of_map1 , pad\naar\bestand_of_map2 ...}}`
 
-- Verwijder specifieke Windows-registersleutels en al zijn subkeys:
+- Verwijder specifieke Windows-registersleutels en al hun subsleutels:
 
 `Remove-Item -Recurse {{pad\naar\key1 , pad\naar\key2 ...}}`
 

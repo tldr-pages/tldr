@@ -25,14 +25,14 @@
 
 `powershell -Version {{versión}}`
 
-- Evitar que el shell se cierre después de ejecutar comandos de inicio:
+- Evita que el shell se cierre después de ejecutar comandos de inicio:
 
 `powershell -NoExit`
 
-- Describir el formato de los datos enviados a PowerShell:
+- Describi el formato de los datos enviados a PowerShell:
 
 `powershell -InputFormat {{Texto|XML}}`
 
-- Determinar cómo se formatea una salida de PowerShell:
+- Determina cómo se formatea una salida de PowerShell:
 
 `powershell -OutputFormat {{Texto|XML}}`

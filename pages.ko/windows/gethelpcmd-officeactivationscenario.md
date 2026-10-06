@@ -1,7 +1,7 @@
 # GetHelpCmd OfficeActivationScenario
 
 > Microsoft Office / Microsoft 365 Apps for Enterprise의 정품 인증 관련 문제를 자동으로 복구.
-> Part of `GetHelpCmd.exe`, formerly `SaRAcmd.exe` (Microsoft Support and Recovery Assistant).
+> `GetHelpCmd.exe`의 일부이며, 이전에는 `SaRAcmd.exe` (Microsoft 지원 및 복구 도우미)로 제공되었음.
 > 참고: 이 도구는 더 이상 사용되지 않으며, 새로운 OneNote 및 Outlook 애플리케이션에서는 동작하지 않음.
 > 참고: 이 명령은 현재 설치된 Office 제품의 볼륨 라이선스를 변경, 비활성화 또는 제거할 수 있으므로 주의해서 사용해야 함.
 > 관련 항목: `ospp.vbs`.

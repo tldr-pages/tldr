@@ -19,7 +19,7 @@
 
 `sudo bpftrace -e '{{tracepoint:raw_syscalls:sys_enter /pid == 123/ { @[comm] = count(); }}}'`
 
-- Do a dry run and display the output in eBPF format:
+- Simulate running the program and display the output in eBPF format:
 
 `sudo bpftrace -d -e '{{one_line_program}}'`
 

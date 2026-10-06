@@ -23,11 +23,11 @@
 
 `pathping {{hostname}} -q {{queries}}`
 
-- Force IPV4 usage:
+- Force IPv4 usage:
 
 `pathping {{hostname}} -4`
 
-- Force IPV6 usage:
+- Force IPv6 usage:
 
 `pathping {{hostname}} -6`
 

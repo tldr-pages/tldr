@@ -11,6 +11,6 @@
 
 `pip uninstall {{[-r|--requirement]}} {{pad/naar/requirements.txt}}`
 
-- Verwijder pakketten zonder om bevestiging te vragen:
+- Verwijder een pakket zonder om bevestiging te vragen:
 
 `pip uninstall {{[-y|--yes]}} {{pakket}}`

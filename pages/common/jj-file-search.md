@@ -3,11 +3,11 @@
 > Search for content in files in a `jj` repository.
 > More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-file-search>.
 
-- Search for files containing a `regex` in the working copy:
+- Search for files with lines matching a `regex` in the working copy:
 
 `jj file search {{[-p|--pattern]}} "{{regex}}"`
 
-- Search for files containing a glob pattern:
+- Search for files with lines matching a `glob` pattern in the working copy:
 
 `jj file search {{[-p|--pattern]}} "{{glob:*pattern*}}"`
 

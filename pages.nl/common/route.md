@@ -1,6 +1,6 @@
 # route
 
-> Gebruik het route-commando om de routetabel in te stellen.
+> Toon en bewerk de routetabel.
 > Meer informatie: <https://manned.org/route>.
 
 - Toon de informatie van de routetabel:

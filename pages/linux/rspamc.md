@@ -3,7 +3,7 @@
 > Client for `rspamd` servers.
 > More information: <https://manned.org/rspamc>.
 
-- Train the bayesian filter to recognise an email as spam:
+- Train the bayesian filter to recognize an email as spam:
 
 `rspamc learn_spam {{path/to/email_file}}`
 

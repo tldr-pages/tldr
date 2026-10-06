@@ -4,13 +4,13 @@
 > Sommige subcommando's zoals `pull`, `push`, `copy`, etc. hebben hun eigen documentatie.
 > Meer informatie: <https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane.md/>.
 
-- Log in op een register:
+- Log in op een registry:
 
-`crane auth login {{register}} {{[-u|--username]}} {{gebruiker}} {{[-p|--password]}} {{wachtwoord}}`
+`crane auth login {{registry}} {{[-u|--username]}} {{gebruiker}} {{[-p|--password]}} {{wachtwoord}}`
 
-- Toon de repositories in een register:
+- Toon de repositories in een registry:
 
-`crane catalog {{register}} --full-ref`
+`crane catalog {{registry}} --full-ref`
 
 - Toon de tags in een repository:
 
@@ -20,7 +20,7 @@
 
 `crane pull {{image}} {{tarball}}`
 
-- Push lokale inhoud van images naar een externe repository:
+- Push lokale inhoud van images naar een externe registry:
 
 `crane push {{pad/naar/map_of_tarball}} {{image}}`
 
@@ -32,6 +32,6 @@
 
 `crane {{[cp|copy]}} {{bron}} {{doel}} {{[-a|--all-tags]}}`
 
-- Verwijder een image-referentie van zijn register:
+- Verwijder een image-referentie van zijn registry:
 
 `crane delete {{image}}`

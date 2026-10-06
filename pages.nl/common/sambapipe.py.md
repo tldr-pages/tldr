@@ -8,7 +8,7 @@
 
 `sambaPipe.py -so {{pad/naar/bestand.so}} {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}@{{doel}}`
 
-- Authenticeren met NTLM hashes in plaats van een wachtwoord:
+- Authenticeer met NTLM hashes in plaats van een wachtwoord:
 
 `sambaPipe.py -so {{pad/naar/bestand.so}} -hashes {{LM_HASH:NT_HASH}} {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}@{{doel}}`
 
@@ -22,4 +22,4 @@
 
 - Gebruik een aangepaste poort voor de SMB-verbinding:
 
-`sambaPipe.py -so {{pad/naar/bestand.so}} -port {{porrt}} {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}@{{doel}}`
+`sambaPipe.py -so {{pad/naar/bestand.so}} -port {{poort}} {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}@{{doel}}`

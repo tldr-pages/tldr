@@ -4,7 +4,7 @@
 > Part of `azure-cli` (also known as `az`).
 > More information: <https://learn.microsoft.com/cli/azure/devops>.
 
-- Set the Personal Access Token (PAT) to login to a particular organization:
+- Set the Personal Access Token (PAT) to log in to a particular organization:
 
 `az devops login {{[--org|--organization]}} {{organization_url}}`
 

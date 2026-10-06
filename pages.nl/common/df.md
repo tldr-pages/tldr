@@ -7,14 +7,14 @@
 
 `df`
 
-- Toon het bestandssysteem en het schijfgebruik voor het opgegeven bestand of map:
+- Toon het bestandssysteem dat het opgegeven bestand of map bevat:
 
 `df {{pad/naar/bestand_of_map}}`
 
-- Gebruik 1024-byte eenheden voor het schrijven van de ruimte figuren:
+- Gebruik kibibyte-eenheden (1024 byte) voor het weergeven van de groottes:
 
 `df -k`
 
-- Toon informatie in een portable wijze:
+- Toon informatie op een draagbare wijze:
 
 `df -P`

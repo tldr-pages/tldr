@@ -1,6 +1,6 @@
 # gow
 
-> Watches Go files and restarts the app on changes.
+> Watch Go files and restart the app on changes.
 > More information: <https://github.com/mitranim/gow>.
 
 - Start and watch the current directory:

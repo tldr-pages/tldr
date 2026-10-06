@@ -1,6 +1,6 @@
 # logname
 
-> Toont de inlognaam van de gebruiker.
+> Toon de inlognaam van de gebruiker.
 > Zie ook: `id`.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/logname-invocation.html>.
 

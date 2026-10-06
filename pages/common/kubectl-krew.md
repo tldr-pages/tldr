@@ -1,7 +1,7 @@
 # kubectl krew
 
 > Plugin manager for `kubectl`.
-> See also: `kubectl-plugin`.
+> See also: `kubectl plugin`.
 > More information: <https://krew.sigs.k8s.io/docs/>.
 
 - Search for available plugins:

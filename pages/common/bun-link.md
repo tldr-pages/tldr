@@ -16,7 +16,7 @@
 
 `bun link --cwd {{path/to/package}}`
 
-- Perform a dry run without actually linking:
+- Simulate linking without actually doing it:
 
 `bun link --dry-run`
 

@@ -7,7 +7,7 @@
 
 `sfdk scrape`
 
-- Preview the list of commits to be scrapped:
+- Simulate saving modifications as patches, listing the commits that would be converted:
 
 `sfdk scrape {{[-n|--dry-run]}}`
 

@@ -24,14 +24,14 @@
 
 `git tag {{[-d|--delete]}} {{tag_naam}}`
 
-- Haal geüpdatete tags op van de remote:
+- Haal geüpdatete tags op van de externe repository:
 
 `git fetch {{[-t|--tags]}}`
 
-- Push een tag naar de remote:
+- Push een tag naar de externe repository:
 
 `git push origin tag {{tag_naam}}`
 
-- Toon alle tags die een bepaalde commit bevatten (HEAD indien niet gespecificeerd):
+- Toon alle tags die een bepaalde commit bevatten (`HEAD` indien niet gespecificeerd):
 
 `git tag --contains {{commit}}`

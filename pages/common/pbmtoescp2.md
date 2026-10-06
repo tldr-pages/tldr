@@ -1,10 +1,10 @@
 # pbmtoescp2
 
-> Convert a PBM image to a ESC/P2 printer file.
+> Convert a PBM image to an ESC/P2 printer file.
 > See also: `pbmtoepson`, `escp2topbm`.
 > More information: <https://netpbm.sourceforge.net/doc/pbmtoescp2.html>.
 
-- Convert a PBM image to a ESC/P2 printer file:
+- Convert a PBM image to an ESC/P2 printer file:
 
 `pbmtoescp2 {{path/to/image.pbm}} > {{path/to/output.escp2}}`
 

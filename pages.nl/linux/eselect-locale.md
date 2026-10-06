@@ -3,7 +3,7 @@
 > Een `eselect`-module voor het beheren van de `$LANG`-omgevingsvariabele, die de systeemtaal instelt.
 > Meer informatie: <https://wiki.gentoo.org/wiki/Eselect#Locale>.
 
-- Toon van beschikbare locales:
+- Toon beschikbare locales:
 
 `eselect locale list`
 

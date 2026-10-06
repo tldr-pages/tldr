@@ -2,6 +2,7 @@
 
 > Показывать простые страницы помощи для инструментов командной строки из проекта tldr-pages.
 > Примечание: параметры `--language` и `--list` не требуются в спецификации клиента, но большинство клиентов их используют.
+> Смотрите также: `cheatshh`, `cheat`, `navi`.
 > Больше информации: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.
 
 - Вывести страницу tldr для конкретной команды (подсказка: именно так вы сюда попали!):
@@ -28,10 +29,10 @@
 
 `tldr {{[-l|--list]}}`
 
+- Вывести страницу tldr для команды с отображением коротких опций:
+
+`tldr --short-options {{команда}}`
+
 - Просмотреть страницы tldr в терминале (требуется `fzf`):
 
 `tldr {{[-l|--list]}} | fzf --preview "tldr {1} --color=always" --preview-window=right,70% | xargs tldr`
-
-- Вывести страницу tldr для случайной команды:
-
-`tldr {{[-l|--list]}} | shuf {{[-n|--head-count]}} 1 | xargs tldr`

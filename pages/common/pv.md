@@ -27,7 +27,7 @@
 
 `pv {{[-L|--rate-limit]}} {{1K}} {{[-S|--stop-at-size]}} {{maximum_file_size_to_be_read}}`
 
-- Calculate hash (MD5, SHA1, SHA256, etc) of a large file and show progress:
+- Calculate hash (MD5, SHA1, SHA256, etc.) of a large file and show progress:
 
 `pv {{path/to/file}} | {{sha256sum}}`
 

@@ -32,6 +32,6 @@
 
 `rpcmap.py -hashes-rpc {{LMHASH:NTHASH}} {{문자열_바인딩}}`
 
-- Enable debug output for verbose information:
+- 자세한 정보 확인을 위한 디버그 출력 활성화:
 
 `rpcmap.py -debug {{문자열_바인딩}}`

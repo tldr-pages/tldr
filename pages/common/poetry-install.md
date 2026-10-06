@@ -15,6 +15,6 @@
 
 `poetry install --without dev`
 
-- Install optional dependenciy groups:
+- Install optional dependency groups:
 
 `poetry install --with test,docs`

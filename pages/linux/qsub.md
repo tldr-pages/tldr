@@ -1,13 +1,13 @@
 # qsub
 
-> Submits a script to the queue management system TORQUE.
+> Submit a script to the queue management system TORQUE.
 > More information: <https://manned.org/qsub.1>.
 
 - Submit a script with default settings (depends on TORQUE settings):
 
 `qsub {{script.sh}}`
 
-- Submit a script with a specified wallclock runtime limit of 1 hour, 2 minutes and 3 seconds:
+- Submit a script with a specified wallclock runtime limit of 1 hour 2 minutes and 3 seconds:
 
 `qsub -l walltime={{1}}:{{2}}:{{3}} {{script.sh}}`
 

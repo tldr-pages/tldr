@@ -1,6 +1,6 @@
 # ufw
 
-> Tallafocs sense complicacions (_Uncomplicated Firewall_).
+> Tallafocs sense complicacions (Uncomplicated Firewall).
 > Interfície d'usuari de `iptables` per facilitar la configuració d'un firewall.
 > Més informació: <https://manned.org/ufw>.
 

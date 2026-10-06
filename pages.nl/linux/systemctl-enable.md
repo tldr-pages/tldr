@@ -1,6 +1,6 @@
 # systemctl enable
 
-> Schakel systemd-services aan.
+> Schakel systemd-services in.
 > Zie ook: `systemctl revert`.
 > Meer informatie: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#enable%20UNIT%E2%80%A6>.
 
@@ -12,6 +12,6 @@
 
 `systemctl enable {{eenheid}} --now`
 
-- Schakel het automatisch opstarten van een gebruikersservice na het inloggen in:
+- Schakel het automatisch opstarten van een gebruikerseenheid na het inloggen in:
 
 `systemctl enable {{eenheid}} --user`

@@ -1,6 +1,6 @@
 # git diff-tree
 
-> Compares the content and mode of blobs found via two tree objects.
+> Compare the content and mode of blobs found via two tree objects.
 > More information: <https://git-scm.com/docs/git-diff-tree>.
 
 - Compare two tree objects:

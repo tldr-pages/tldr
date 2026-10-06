@@ -19,10 +19,10 @@
 
 `java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar {{파일명.jar}}`
 
-- JDK, JRE 및 HotSpot 버전 표시:
-
-`java -version`
-
 - 도움말 표시:
 
 `java -help`
+
+- JDK, JRE 및 HotSpot 버전 표시:
+
+`java -version`
