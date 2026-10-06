@@ -1,7 +1,7 @@
 # pkg
 
 > Manajer paket untuk FreeBSD.
-> Informasi lebih lanjut: <https://man.freebsd.org/cgi/man.cgi?pkg>.
+> Informasi lebih lanjut: <https://man.freebsd.org/cgi/man.cgi?query=pkg>.
 
 - Pasang sebuah paket:
 

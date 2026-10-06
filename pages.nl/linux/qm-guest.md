@@ -27,10 +27,10 @@
 
 `qm {{[g|guest]}} exec {{100}} {{argument1 argument2 ...}} --synchronous 0`
 
-- Voer een specifieke opdracht uit via een gast agent met een opgegeven time-out van 10 seconden:
+- Voer een specifiek commando uit via een gast agent met een opgegeven time-out van 10 seconden:
 
 `qm {{[g|guest]}} exec {{100}} {{argument1 argument2...}} --timeout {{10}}`
 
-- Voer een specifieke opdracht uit via een gast agent en stuur invoer van `stdin` tot EOF door naar de gast agent:
+- Voer een specifiek commando uit via een gast agent en stuur invoer van `stdin` tot EOF door naar de gast agent:
 
 `qm {{[g|guest]}} exec {{100}} {{argument1 argument2 ...}} --pass-stdin 1`

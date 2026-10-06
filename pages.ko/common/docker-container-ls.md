@@ -33,4 +33,4 @@
 
 - 특정 볼륨을 마운트하거나 특정 경로에 볼륨이 마운트된 컨테이너 필터링:
 
-`docker {{[ps|container ls]}} {{[-f|--filter]}} "volume={{경로/대상/폴더}}" --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Mounts}}"`
+`docker {{[ps|container ls]}} {{[-f|--filter]}} "volume={{경로/대상/폴더}}" --format "table \{\{.ID\}\}\t\{\{.Image\}\}\t\{\{.Names\}\}\t\{\{.Mounts\}\}"`

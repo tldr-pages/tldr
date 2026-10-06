@@ -1,7 +1,7 @@
 # piactl
 
 > 상업용 VPN 제공업체인 Private Internet Access의 명령줄 도구.
-> 더 많은 정보: <https://helpdesk.privateinternetaccess.com/kb/articles/pia-desktop-command-line-interface-2>.
+> 더 많은 정보: <https://helpdesk.privateinternetaccess.com/hc/en-us/articles/46815372532123-PIA-Desktop-Command-Line-Interface>.
 
 - Private Internet Access에 로그인:
 

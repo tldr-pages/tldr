@@ -9,7 +9,7 @@
 
 `Select-String -Path "{{pad\naar\bestand}}" -Pattern '{{zoek_patroon}}'`
 
-- Zoek naar een exacte string (schakelt reguliere expressies uit):
+- Zoek naar een exacte string (schakelt `regex` uit):
 
 `Select-String -SimpleMatch "{{exacte_string}}" {{pad\naar\bestand}}`
 

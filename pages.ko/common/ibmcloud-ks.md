@@ -1,7 +1,7 @@
 # ibmcloud ks
 
 > IBM Cloud의 Kubernetes 및 OpenShift 클러스터 관리.
-> 더 많은 정보: <https://cloud.ibm.com/docs/cli?topic=cli-kubernetes-service-cli>.
+> 더 많은 정보: <https://cloud.ibm.com/docs/containers?topic=containers-kubernetes-service-cli>.
 
 - 클러스터 상세 정보 표시:
 

@@ -1,6 +1,6 @@
 # podman import
 
-> Importeer een tarball en sla het op als een bestandssysteem image.
+> Importeer een tarball en sla het op als een bestandssysteem-image.
 > Zie ook: `podman export`, `podman save`.
 > Meer informatie: <https://docs.podman.io/en/latest/markdown/podman-import.1.html>.
 
@@ -12,7 +12,7 @@
 
 `podman import {{https://example.com/image.tar}} {{image:tag}}`
 
-- Importeer een tarball en voeg een commit bericht toe:
+- Importeer een tarball en voeg een commitbericht toe:
 
 `podman import {{[-m|--message]}} "{{commit_bericht}}" {{pad/naar/tarball.tar}} {{image:tag}}`
 

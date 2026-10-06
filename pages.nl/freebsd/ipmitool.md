@@ -3,14 +3,14 @@
 > Interface met de Intelligent Platform Management Interface (IPMI).
 > Meer informatie: <https://man.freebsd.org/cgi/man.cgi?query=ipmitool>.
 
-- Laad de IPMI kernelmodule voor lokale verbindingen:
+- Laad de IPMI-kernelmodule voor lokale verbindingen:
 
 `kldload ipmi.ko`
 
-- Open de IPMI shell op de lokale hardware:
+- Open de IPMI-shell op de lokale hardware:
 
 `ipmitool shell`
 
-- Open de IPMI shell op een remote host:
+- Open de IPMI-shell op een externe host:
 
 `ipmitool -H {{ip_adres}} -U {{gebruikersnaam}} shell`

@@ -17,7 +17,7 @@
 
 - Ping the target over TCP 50 times and produce a histogram of the results:
 
-`psping {{hostname}}:{{port}} -q -n {{50}} -h`
+`psping {{hostname}}:{{port}} -q -n 50 -h`
 
 - Display help:
 

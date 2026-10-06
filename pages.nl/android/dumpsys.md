@@ -1,6 +1,6 @@
 # dumpsys
 
-> Geef informatie over Android system services.
+> Geef informatie over Android-systeemservices.
 > Dit commando kan alleen worden gebruikt via `adb shell`.
 > Meer informatie: <https://developer.android.com/tools/dumpsys>.
 
@@ -24,6 +24,6 @@
 
 `dumpsys --skip {{service}}`
 
-- Geef een timeout periode in seconden op (standaard 10s):
+- Geef een [t]imeoutperiode in seconden op (standaard 10s):
 
 `dumpsys -t {{8}}`

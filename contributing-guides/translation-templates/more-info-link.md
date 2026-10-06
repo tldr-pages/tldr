@@ -39,6 +39,7 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 [si](#si) •
 [sr](#sr) •
 [sv](#sv) •
+[sw](#sw) •
 [ta](#ta) •
 [th](#th) •
 [tr](#tr) •
@@ -309,6 +310,14 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 
 ```markdown
 > Mer information: <https://example.com>.
+```
+
+---
+
+### sw
+
+```markdown
+> Maelezo zaidi: <https://example.com>.
 ```
 
 ---

@@ -1,7 +1,7 @@
 # truss
 
 > Troubleshooting tool voor het traceren van system calls.
-> SunOS equivalent van strace.
+> SunOS equivalent van `strace`.
 > Meer informatie: <https://www.unix.com/man-page/sunos/1/truss>.
 
 - Start het traceren van een programma door het uit te voeren, en volg alle child processes:
@@ -16,10 +16,10 @@
 
 `truss -a -e {{programma}}`
 
-- Tel tijd, oproepen en fouten voor elke systeem call en geef een overzicht bij de beëindiging van de applicatie:
+- Tel tijd, oproepen en fouten voor elke system call en geef een overzicht bij de beëindiging van de applicatie:
 
 `truss -c -p {{pid}}`
 
-- Traceer een proces en filter de uitvoer op systeem call:
+- Traceer een proces en filter de uitvoer op system call:
 
 `truss -p {{pid}} -t {{system_call_naam}}`

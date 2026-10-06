@@ -11,11 +11,11 @@
 
 - Back up a directory to Amazon S3, doing a full backup every month:
 
-`duplicity --full-if-older-than {{1M}} s3://{{bucket_name[/prefix]}}`
+`duplicity --full-if-older-than {{1M}} s3://{{bucket_name/prefix}}`
 
 - Delete versions older than 1 year from a backup stored on a WebDAV share:
 
-`FTP_PASSWORD={{webdav_login_password}} duplicity remove-older-than {{1Y}} --force {{webdav[s]://user@hostname[:port]/some_directory}}`
+`FTP_PASSWORD={{webdav_login_password}} duplicity remove-older-than {{1Y}} --force {{webdav://user@hostname:port/some_directory}}`
 
 - List the available backups:
 

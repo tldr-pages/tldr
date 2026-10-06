@@ -32,6 +32,6 @@
 
 `jj gerrit upload --quiet`
 
-- Preview what would be uploaded without pushing to Gerrit:
+- Simulate an upload, showing what would be uploaded without pushing to Gerrit:
 
 `jj gerrit upload {{[-n|--dry-run]}}`

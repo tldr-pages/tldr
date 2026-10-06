@@ -1,7 +1,7 @@
 # sockstat
 
 > खुले इंटरनेट या UNIX डोमेन सॉकेट्स की सूची।
-> अधिक जानकारी: <https://man.freebsd.org/cgi/man.cgi?sockstat>।
+> अधिक जानकारी: <https://man.freebsd.org/cgi/man.cgi?query=sockstat>।
 
 - देखें कि कौन से उपयोगकर्ता/प्रक्रियाएँ किन पोर्ट्स पर [l]सुन रही हैं:
 

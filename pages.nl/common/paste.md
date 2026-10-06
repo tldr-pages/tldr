@@ -3,7 +3,7 @@
 > Voeg regels van bestanden samen.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/paste-invocation.html>.
 
-- Voeg alle regels samen tot één enkele regel, met TAB als scheidingsteken:
+- Voeg alle regels samen tot één enkele regel, met `TAB` als scheidingsteken:
 
 `paste {{[-s|--serial]}} {{pad/naar/bestand}}`
 
@@ -11,7 +11,7 @@
 
 `paste {{[-s|--serial]}} {{[-d|--delimiters]}} {{scheidingsteken}} {{pad/naar/bestand}}`
 
-- Voeg twee bestanden zij aan zij samen, elk in zijn kolom, met TAB als scheidingsteken:
+- Voeg twee bestanden zij aan zij samen, elk in zijn kolom, met `TAB` als scheidingsteken:
 
 `paste {{pad/naar/bestand1}} {{pad/naar/bestand2}}`
 

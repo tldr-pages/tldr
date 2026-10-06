@@ -30,7 +30,7 @@
 
 - Adivina credenciales IMAP en un rango de hosts utilizando una lista de pares de nombre de usuario y contraseña separados por dos puntos:
 
-`hydra -C {{ruta/a/pares_nombre_de_usuario_contraseña.txt}} {{imap://[host_range_cidr]}}`
+`hydra -C {{ruta/a/pares_nombre_de_usuario_contraseña.txt}} {{imap://host_range_cidr}}`
 
 - Adivina las credenciales POP3 en una lista de hosts utilizando listas de nombres de usuario y contraseñas, y termina cuando se encuentra un nombre de usuario y contraseña:
 

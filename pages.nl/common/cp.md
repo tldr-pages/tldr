@@ -5,19 +5,19 @@
 
 - Kopieer een bestand naar een andere locatie:
 
-`cp {{pad/naar/bronbestand.ext}} {{pad/naar/doelbestand.ext}}`
+`cp {{pad/naar/bronbestand}} {{pad/naar/doelbestand}}`
 
 - Kopieer een bestand naar een andere map, met behoud van de bestandsnaam:
 
-`cp {{pad/naar/bronbestand.ext}} {{pad/naar/doelmap}}`
+`cp {{pad/naar/bronbestand}} {{pad/naar/doelmap}}`
 
 - Kopieer de inhoud van een map recursief naar een andere locatie (als de bestemming bestaat, wordt de map erin gekopieerd):
 
 `cp {{[-r|--recursive]}} {{pad/naar/bronmap}} {{pad/naar/doelmap}}`
 
-- Kopieer een map recursief, in verbose modus (toont bestanden terwijl ze worden gekopieerd):
+- Kopieer een map recursief, in verbose modus (toont bestanden terwijl ze worden gekopieerd) en behoud rechten, tijdstempels en symlinks:
 
-`cp {{[-vr|--verbose --recursive]}} {{pad/naar/bronmap}} {{pad/naar/doelmap}}`
+`cp {{[-vra|--verbose --recursive --archive]}} {{pad/naar/bronmap}} {{pad/naar/doelmap}}`
 
 - Kopieer meerdere bestanden tegelijk naar een map:
 
@@ -33,4 +33,4 @@
 
 - Gebruik het volledige pad van bronbestanden, maak eventuele missende tussenliggende mappen aan tijdens het kopiëren:
 
-`cp --parents {{bron/pad/naar/bestand}} {{pad/naar/doel_bestand}}`
+`cp --parents {{bron/pad/naar/bestand}} {{pad/naar/doelbestand}}`

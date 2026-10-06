@@ -1,6 +1,6 @@
 # Rename-Item
 
-> Comando de Powershell para cambiar el nombre de un elemento.
+> Comando de PowerShell para cambiar el nombre de un elemento.
 > Nota: Tanto `ren` como `rni` pueden utilizarse como alias de `Rename-Item`.
 > Más información: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/rename-item>.
 

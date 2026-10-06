@@ -1,6 +1,6 @@
 # detox
 
-> Renames files to make them easier to work with.
+> Rename files to make them easier to work with.
 > It removes spaces and other such annoyances like duplicate underline characters.
 > More information: <https://manned.org/detox>.
 
@@ -8,7 +8,7 @@
 
 `detox {{path/to/file}}`
 
-- Show how detox would rename all the files in a directory tree:
+- Simulate renaming all the files in a directory tree, showing how they would be renamed:
 
 `detox {{[-n|--dry-run]}} -r {{path/to/directory}}`
 

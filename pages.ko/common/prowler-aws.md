@@ -1,7 +1,7 @@
 # prowler aws
 
 > AWS의 보안 모범 사례 점검, 보안 감사, 규정 준수 검사 및 보고서 생성을 수행.
-> 관련 항목: `prowler`, `prowler-azure`, `prowler-gcp`, `prowler-kubernetes`, `prowler-m365`, `prowler-github`.
+> 관련 항목: `prowler azure`, `prowler gcp`, `prowler kubernetes`, `prowler m365`, `prowler github`.
 > 더 많은 정보: <https://docs.prowler.com/user-guide/cli/tutorials/misc>.
 
 - AWS 계정에 대해 기본 보안 검사 실행:

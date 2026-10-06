@@ -15,7 +15,7 @@
 
 `pio org add {{organisatie_naam}} {{gebruikersnaam}}`
 
-- Verwijder een gebruiker van een organisatie:
+- Verwijder een gebruiker uit een organisatie:
 
 `pio org remove {{organisatie_naam}} {{gebruikersnaam}}`
 
@@ -23,6 +23,6 @@
 
 `pio org list`
 
-- Update de name, email of weergavenaam van een organisatie:
+- Update de naam, email of weergavenaam van een organisatie:
 
 `pio org update --orgname {{nieuwe_organisatie_naam}} --email {{nieuw_email}} --displayname {{nieuwe_weergave_naam}} {{organisatie_naam}}`
