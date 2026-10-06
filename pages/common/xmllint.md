@@ -3,13 +3,13 @@
 > XML parser and linter that supports XPath, a syntax for navigating XML trees.
 > More information: <https://manned.org/xmllint>.
 
-- Return all nodes (tags) named "foo":
+- Return all nodes (tags) with a specific name:
 
-`xmllint --xpath "//{{foo}}" {{source_file.xml}}`
+`xmllint --xpath "//{{node_name}}" {{source_file.xml}}`
 
-- Return the contents of the first node named "foo" as a string:
+- Return the contents of the first node with a specific name as a string:
 
-`xmllint --xpath "string(//{{foo}})" {{source_file.xml}}`
+`xmllint --xpath "string(//{{node_name}})" {{source_file.xml}}`
 
 - Return the href attribute of the second anchor element in an HTML file:
 

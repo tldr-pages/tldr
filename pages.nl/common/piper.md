@@ -1,6 +1,6 @@
 # piper
 
-> Een snel, lokaal neuraal tekst-naar-spraak systeem.
+> Een snel, lokaal neuraal tekst-naar-spraaksysteem.
 > Probeer en download spraakmodellen op <https://rhasspy.github.io/piper-samples>.
 > Meer informatie: <https://github.com/OHF-Voice/piper1-gpl>.
 

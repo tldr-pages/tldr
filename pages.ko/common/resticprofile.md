@@ -1,7 +1,7 @@
 # resticprofile
 
 > restic 백업을 위한 설정 프로필을 관리.
-> 관련 항목: `restic`, `resticprofile-schedule`, `resticprofile-unschedule`.
+> 관련 항목: `restic`, `resticprofile schedule`, `resticprofile unschedule`.
 > 더 많은 정보: <https://creativeprojects.github.io/resticprofile/configuration/getting_started/index.html#write-your-first-configuration-file>.
 
 - 저장된 모든 스냅샷 목록 표시:

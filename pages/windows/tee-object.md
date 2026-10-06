@@ -1,6 +1,6 @@
 # Tee-Object
 
-> Saves command output in a file or variable and also sends it down the pipeline.
+> Save command output in a file or variable and also send it down the pipeline.
 > Note: This command can only be used through PowerShell.
 > More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/tee-object>.
 

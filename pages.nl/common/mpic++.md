@@ -8,6 +8,6 @@
 
 `mpic++ {{pad/naar/bronbestand}}`
 
-- Toon alle wrapper geleverde vlaggen:
+- Toon alle wrapper-geleverde vlaggen:
 
 `mpic++ --showme`

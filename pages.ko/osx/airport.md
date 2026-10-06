@@ -9,7 +9,7 @@
 
 - 채널 1에서 무선 트래픽 스니핑:
 
-`airport sniff {{1}}`
+`airport sniff 1`
 
 - 사용 가능한 무선 네트워크 검색:
 

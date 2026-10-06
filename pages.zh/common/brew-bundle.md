@@ -1,6 +1,6 @@
 # brew bundle
 
-> Homebrew，Homebrew Cask 和 Mac App Store的打包器。
+> Homebrew，Homebrew Cask 和 Mac App Store 的打包器。
 > 更多信息：<https://docs.brew.sh/Manpage#bundle-subcommand>。
 
 - 从当前路径下的 Brewfile 安装软件包：

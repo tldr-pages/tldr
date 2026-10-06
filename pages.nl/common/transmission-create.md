@@ -20,6 +20,6 @@
 
 `transmission-create {{[-o|--outfile]}} {{pad/naar/voorbeeld.torrent}} {{[-t|--tracker]}} {{tracker_url1}} {{[-t|--tracker]}} {{tracker_url2}} {{pad/naar/bestand_of_map}}`
 
-- Toon de help-pagina:
+- Toon de help:
 
 `transmission-create {{[-h|--help]}}`

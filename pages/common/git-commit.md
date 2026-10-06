@@ -23,7 +23,7 @@
 
 `git commit {{[-S|--gpg-sign]}} {{key_id}} {{[-m|--message]}} "{{message}}"`
 
-- Update the last commit by adding the currently staged changes, changing the commit's hash and open an editor to change the message:
+- Update the last commit by adding the currently staged changes, changing the commit's hash, and open an editor to change the message:
 
 `git commit --amend`
 

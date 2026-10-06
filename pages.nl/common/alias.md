@@ -1,7 +1,7 @@
 # alias
 
-> Maak een alias aan -- Woorden die vervangen worden door commando's.
-> Een alias blijft bestaan in de huidige shell sessie, tenzij gedefinieerd in de configuratie van de shell, bijvoorbeeld in `~/.bashrc`.
+> Maak een alias aan - woorden die vervangen worden door een commandostring.
+> Aliassen verdwijnen aan het einde van de huidige shell sessie, tenzij ze gedefinieerd zijn in het configuratiebestand van de shell, bijvoorbeeld `~/.bashrc` voor Bash of `~/.zshrc` voor Zsh.
 > Zie ook: `unalias`.
 > Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#index-alias>.
 
@@ -23,8 +23,8 @@
 
 - Maak van `rm` een interactief commando:
 
-`alias rm="rm -i"`
+`alias rm="rm --interactive"`
 
-- Maak een alias `la` aan als korte schrijfwijze van `ls -a`:
+- Maak een alias `la` aan als korte schrijfwijze van `ls --all`:
 
-`alias la="ls -a"`
+`alias la="ls --all"`

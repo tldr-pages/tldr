@@ -24,7 +24,7 @@
 
 `fd "{{regex}}" {{[-HI|--hidden --no-ignore]}}`
 
-- 특정 glob 패턴과 일치하는 파일을 제외:
+- 특정 `glob` 패턴과 일치하는 파일을 제외:
 
 `fd "{{regex}}" {{[-E|--exclude]}} {{glob}}`
 

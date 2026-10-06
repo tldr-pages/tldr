@@ -1,6 +1,6 @@
 # cargo
 
-> Beheer Rust projecten en hun afhankelijkheden (crates).
+> Beheer Rust-projecten en hun module-afhankelijkheden (crates).
 > Sommige subcommando's zoals `build` hebben hun eigen documentatie.
 > Meer informatie: <https://doc.rust-lang.org/stable/cargo/>.
 
@@ -10,7 +10,7 @@
 
 - Installeer een crate:
 
-`cargo install {{crate-naam}}`
+`cargo install {{crate_naam}}`
 
 - Geef een lijst van geïnstalleerde crates:
 
@@ -32,6 +32,6 @@
 
 `cargo {{[r|run]}}`
 
-- Bouw het Rust-project in de huidige map door gebruik te maken van de nachtelijkse compiler (vereist `rustup`):
+- Bouw het Rust-project in de huidige map door gebruik te maken van de nachtelijke compiler (vereist `rustup`):
 
 `cargo +nightly {{[b|build]}}`

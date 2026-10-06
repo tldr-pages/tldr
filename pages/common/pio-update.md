@@ -11,6 +11,6 @@
 
 `pio update --core-packages`
 
-- Check for new versions of packages, platforms, and libraries but do not actually update them:
+- Simulate an update, checking for new versions of packages, platforms, and libraries without updating them:
 
 `pio update --dry-run`

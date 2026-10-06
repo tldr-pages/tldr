@@ -8,6 +8,6 @@
 
 `distrobox-stop {{container_naam}}`
 
-- Stop een Distrobox container zonder bevestiging:
+- Stop een Distrobox container niet-interactief (zonder bevestiging):
 
 `distrobox-stop {{container_naam}} {{[-Y|--yes]}}`

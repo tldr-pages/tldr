@@ -9,4 +9,4 @@
 
 - Toon het IP-adres van een interface:
 
-`ipconfig getifaddr {{interfacenaam}}`
+`ipconfig getifaddr {{interface_naam}}`

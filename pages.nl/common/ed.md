@@ -1,6 +1,6 @@
 # ed
 
-> De originele Unix tekst editor.
+> De originele Unix teksteditor.
 > Zie ook: `awk`, `sed`.
 > Meer informatie: <https://www.gnu.org/software/ed/manual/ed_manual.html>.
 
@@ -28,10 +28,10 @@
 
 `ed {{pad/naar/bestand}}`
 
-- Vervang een string met een specifieke vervanging voor alle regels:
+- [Interactief] Vervang een string met een specifieke vervanging voor alle regels:
 
-`,s/{{reguliere_expressie}}/{{vervanging}}/g<Enter>`
+`,s/{{reguliere_expressie}}/{{vervanging}}/g`
 
-- Sluit `ed` af:
+- [Interactief] Sluit `ed` af:
 
-`q<Enter>`
+`q`

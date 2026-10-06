@@ -7,7 +7,7 @@
 
 `df`
 
-- Toon alle bestandssystemen en hun schijfgebruik in een leesbaar formaat (gebaseerd op de macht van 1024):
+- Toon alle bestandssystemen in een leesbaar formaat (gebaseerd op de macht van 1024):
 
 `df -h`
 

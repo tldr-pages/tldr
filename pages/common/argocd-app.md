@@ -23,7 +23,7 @@
 
 `argocd app set {{app_name}} --sync-policy auto --auto-prune --self-heal`
 
-- Preview app synchronization without affecting cluster:
+- Simulate app synchronization, including pruning, without affecting the cluster:
 
 `argocd app sync {{app_name}} --dry-run --prune`
 

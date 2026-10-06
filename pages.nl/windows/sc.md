@@ -23,6 +23,6 @@
 
 `sc delete {{service_naam}}`
 
-- Zet het type van een service:
+- Stel het type van een service in:
 
 `sc config {{service_naam}} type= {{service_type}}`

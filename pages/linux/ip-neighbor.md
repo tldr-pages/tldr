@@ -1,6 +1,7 @@
 # ip neighbor
 
 > Neighbor/ARP/NDP tables management IP subcommand.
+> See also: `arp-scan`.
 > More information: <https://manned.org/ip-neighbour>.
 
 - Display the neighbor/ARP table entries:

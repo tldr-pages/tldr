@@ -1,7 +1,7 @@
 # Start-Process
 
 > 새로운 프로세스에서 명령 시작.
-> `PATH` 환경 변수에 등록되지 않았더라도  Windows 레지스트리의 `App Paths`에 등록된 프로그램 실행할 수도 있음.
+> `$Env:PATH` 환경 변수에 등록되지 않았더라도  Windows 레지스트리의 `App Paths`에 등록된 프로그램 실행할 수도 있음.
 > 더 많은 정보: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/start-process>.
 
 - Windows 탐색기에서 지정한 디렉터리 열기 (`explorer 경로\대상\디렉터리`와 동일):

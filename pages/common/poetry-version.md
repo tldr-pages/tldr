@@ -17,6 +17,6 @@
 
 `poetry version --next-phase`
 
-- Test project stage function without writing to `pyproject.toml`:
+- Simulate bumping the version to a given stage without writing to `pyproject.toml`:
 
 `poetry version {{stage}} --dry-run`

@@ -1,7 +1,7 @@
 # kiterunner scan
 
-> Een contextuele web scanner om gelijktijdig API paden en web eindpunten te scannen met behulp van kitebuilder woordenlijsten.
-> Het `scan` subcommando richt zich op een of meerdere hosts met gestructureerde API verzoeken.
+> Een contextuele webscanner om gelijktijdig API-paden en webeindpunten te scannen met behulp van kitebuilder woordenlijsten.
+> Het `scan` subcommando richt zich op een of meerdere hosts met gestructureerde API-verzoeken.
 > Meer informatie: <https://github.com/assetnote/kiterunner#usage>.
 
 - Scan een doel met een Assetnote woordenlijst (bijvoorbeeld de eerste 5000 API-routes):
@@ -16,7 +16,7 @@
 
 `kiterunner scan {{pad/naar/hosts.txt}} {{[-w|--kitebuilder-list]}} {{pad/naar/woordenlijst.kite}}`
 
-- Scan met een Assetnote woordenlijst en JSON uitvoer:
+- Scan met een Assetnote woordenlijst en JSON-uitvoer:
 
 `kiterunner scan {{https://example.com}} {{[-A|--assetnote-wordlist]}} {{apiroutes-210228:5000}} -o {{json}}`
 
@@ -32,6 +32,6 @@
 
 `kiterunner scan {{https://example.com}} {{[-w|--kitebuilder-list]}} {{pad/naar/woordenlijst.kite}} {{[-H|--header]}} "{{Authorization: Bearer token}}" --ignore-length {{100-105}}`
 
-- Voer een volledige kitebuilder scan uit zonder fase scanning:
+- Voer een volledige kitebuilder scan uit zonder fasescanning:
 
 `kiterunner scan {{https://example.com}} {{[-w|--kitebuilder-list]}} {{pad/naar/woordenlijst.kite}} --kitebuilder-full-scan`

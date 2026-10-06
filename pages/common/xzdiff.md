@@ -1,6 +1,6 @@
 # xzdiff
 
-> Invokes `diff` on files compressed with `xz`, `lzma`, `gzip`, `bzip2`, `lzop`, or `zstd`.
+> Invoke `diff` on files compressed with `xz`, `lzma`, `gzip`, `bzip2`, `lzop`, or `zstd`.
 > All options specified are passed directly to `diff`.
 > More information: <https://manned.org/xzdiff>.
 

@@ -21,7 +21,7 @@
 
 - Skip a specific amount of time from the beginning of the stream. For live streams, this is a negative offset from the end of the stream (rewind):
 
-`streamlink --hls-start-offset {{[HH:]MM:SS}} {{example.com/stream}} {{best}}`
+`streamlink --hls-start-offset {{HH:MM:SS}} {{example.com/stream}} {{best}}`
 
 - Skip to the beginning of a live stream, or as far back as possible:
 

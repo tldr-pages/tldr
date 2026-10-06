@@ -9,11 +9,11 @@
 
 - Baixa um runtime do Simulador:
 
-`xcodes runtimes download {{nome-do-runtime}}`
+`xcodes runtimes download {{nome_do_runtime}}`
 
 - Baixa e instala um runtime do Simulador:
 
-`xcodes runtimes install {{nome-do-runtime}}`
+`xcodes runtimes install {{nome_do_runtime}}`
 
 - Baixa/instala um runtime do Simulador para a versão iOS/watchOS/tvOS/visionOS especificada (diferencia maiúsculo de minúsculo):
 

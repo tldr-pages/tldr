@@ -3,7 +3,7 @@
 > Execute the DNS (Dynamic Name Service) server daemon that converts host names to IP addresses and vice versa.
 > More information: <https://manned.org/named>.
 
-- Read the default configuration file `/etc/named.conf`, read any initial data and listen for queries:
+- Read the default configuration file `/etc/named.conf`, read any initial data, and listen for queries:
 
 `named`
 

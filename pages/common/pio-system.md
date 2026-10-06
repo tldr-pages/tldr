@@ -23,6 +23,6 @@
 
 `pio system prune --cache`
 
-- List unused PlatformIO data that would be removed but do not actually remove it:
+- Simulate pruning, listing unused PlatformIO data that would be removed:
 
 `pio system prune --dry-run`

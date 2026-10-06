@@ -8,7 +8,7 @@
 
 `journalctl {{[-n|--lines]}} {{n}} {{[-f|--follow]}}`
 
-- Toon alle berichten met prioriteitsniveau 3 (fouten) sinds de laatste keer opstarten voor de laatste afsluiting:
+- Toon alle berichten met prioriteitsniveau 3 (fouten) van de opstart voorafgaand aan de laatste afsluiting:
 
 `journalctl {{[-b|--boot]}} -1 {{[-p|--priority]}} 3`
 

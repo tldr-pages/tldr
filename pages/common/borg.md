@@ -26,7 +26,7 @@
 
 - Mount a repository as a FUSE filesystem:
 
-`borg mount {{path/to/repo_directory}}::{{Monday}} {{path/to/mountpoint}}`
+`borg mount {{path/to/repo_directory}}::{{Monday}} {{path/to/mount_point}}`
 
 - Display help on creating archives:
 

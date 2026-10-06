@@ -7,7 +7,7 @@
 
 `docker {{[commit|container commit]}} {{container}} {{image}}:{{tag}}`
 
-- Pas een `CMD` Dockerfile instructie toe op de aangemaakte image:
+- Pas een `CMD` Dockerfile-instructie toe op de aangemaakte image:
 
 `docker {{[commit|container commit]}} {{[-c|--change]}} "CMD {{commando}}" {{container}} {{image}}:{{tag}}`
 
@@ -15,13 +15,13 @@
 
 `docker {{[commit|container commit]}} {{[-c|--change]}} "ENV {{naam}}={{waarde}}" {{container}} {{image}}:{{tag}}`
 
-- Maak een afbeelding met een specifieke auteur in de metadata:
+- Maak een image met een specifieke auteur in de metadata:
 
-`docker {{[commit|container commit]}} {{[-a|--author]}} "{{author}}" {{container}} {{image}}:{{tag}}`
+`docker {{[commit|container commit]}} {{[-a|--author]}} "{{auteur}}" {{container}} {{image}}:{{tag}}`
 
-- Maak een afbeelding met een specifieke opmerking in de metagegevens:
+- Maak een image met een specifieke opmerking in de metadata:
 
-`docker {{[commit|container commit]}} {{[-m|--message]}} "{{comment}}" {{container}} {{image}}:{{tag}}`
+`docker {{[commit|container commit]}} {{[-m|--message]}} "{{opmerking}}" {{container}} {{image}}:{{tag}}`
 
 - Maak een image zonder de container te pauzeren tijdens het vastleggen:
 

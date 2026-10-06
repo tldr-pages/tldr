@@ -8,7 +8,7 @@
 
 `systemd-sysusers {{path/to/file}}`
 
-- Process configuration files and print what would be done without actually doing anything:
+- Simulate processing configuration files, printing what would be done:
 
 `systemd-sysusers --dry-run {{path/to/file}}`
 

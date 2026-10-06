@@ -8,7 +8,7 @@
 
 `pamtopng {{pad/naar/afbeelding.pam}} > {{pad/naar/uitvoer.png}}`
 
-- Markeer de gespecificeerde kleur als transparant in de uitvoer-afbeelding:
+- Markeer de gespecificeerde kleur als transparant in de uitvoerafbeelding:
 
 `pamtopng {{[-t|-transparent]}} {{kleur}} {{pad/naar/afbeelding.pam}} > {{pad/naar/uitvoer.png}}`
 

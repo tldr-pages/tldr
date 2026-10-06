@@ -3,22 +3,22 @@
 > Beheer Linode Kubernetes Engine (LKE) clusters.
 > Meer informatie: <https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-lke>.
 
-- Toon alle LKE clusters:
+- Toon alle LKE-clusters:
 
 `linode-cli lke clusters list`
 
-- Maak een nieuw LKE cluster:
+- Maak een nieuw LKE-cluster:
 
-`linode-cli lke clusters create --region {{region}} --type {{type}} --node-type {{node_type}} --nodes-count {{count}}`
+`linode-cli lke clusters create --region {{regio}} --type {{type}} --node-type {{node_type}} --nodes-count {{count}}`
 
-- Toon details van een specifiek LKE cluster:
+- Toon details van een specifiek LKE-cluster:
 
 `linode-cli lke clusters view {{cluster_id}}`
 
-- Update een bestaand LKE cluster:
+- Update een bestaand LKE-cluster:
 
 `linode-cli lke clusters update {{cluster_id}} --node-type {{new_node_type}}`
 
-- Verwijder een LKE cluster:
+- Verwijder een LKE-cluster:
 
 `linode-cli lke clusters delete {{cluster_id}}`

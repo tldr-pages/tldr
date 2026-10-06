@@ -21,7 +21,7 @@
 
 `atom --safe`
 
-- Evitar que Atom se bifurque en segundo plano, manteniendo Atom unido al terminal:
+- Evita que Atom se bifurque en segundo plano, manteniendo Atom unido al terminal:
 
 `atom {{[-f|--foreground]}}`
 

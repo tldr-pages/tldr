@@ -5,7 +5,7 @@
 
 - Inizializza nuovo modulo nella directory corrente:
 
-`go mod init {{nomeModulo}}`
+`go mod init {{nome_modulo}}`
 
 - Scarica moduli nella cache locale:
 

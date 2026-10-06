@@ -2,7 +2,7 @@
 
 > 파드, 컨테이너 및 이미지의 간단한 관리 도구.
 > Podman은 Docker-CLI와 유사한 명령줄을 제공합니다. 간단히 말해: `alias docker=podman`.
-> 더 많은 정보: <https://github.com/containers/podman/blob/main/commands-demo.md>.
+> 더 많은 정보: <https://docs.podman.io/en/latest/Commands.html>.
 
 - 모든 컨테이너 나열 (실행 중 및 중지됨 모두 포함):
 
