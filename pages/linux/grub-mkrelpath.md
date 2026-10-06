@@ -1,6 +1,6 @@
 # grub-mkrelpath
 
-> Convert a system path into the path GRUB uses, relative to the root of the filesystem the path is on.
+> Convert a system path to a path relative to its filesystem root for GRUB.
 > More information: <https://www.gnu.org/software/grub/manual/grub/html_node/Invoking-grub_002dmkrelpath.html>.
 
 - Print the GRUB path of a file:
