@@ -30,8 +30,8 @@
 
 - Ajoute/Supprime une adresse ip à une interface :
 
-`sudo ip {{[a|address]}} {{add|delete}} {{ip}}/{{mask}} dev {{interface}}`
+`sudo ip {{[a|address]}} {{add|delete}} {{ip_address}}/{{mask}} dev {{interface}}`
 
 - Ajoute une route par défaut :
 
-`sudo ip {{[r|route]}} {{[a|add]}} default via {{ip}} dev {{interface}}`
+`sudo ip {{[r|route]}} {{[a|add]}} default via {{ip_address}} dev {{interface}}`
