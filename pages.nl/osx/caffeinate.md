@@ -7,15 +7,15 @@
 
 `caffeinate -d`
 
-- Voorkom dat het scherm gedurende 1 uur (3600 seconden) in slaapstand gaat:
+- Voorkom de slaapstand gedurende 1 uur (3600 seconden):
 
 `caffeinate -u -t 3600`
 
-- Fork een proces, voer daarin "make" uit en voorkom dat het scherm in slaapstand gaat zolang dat proces actief is:
+- Fork een proces, voer daarin "make" uit en voorkom de slaapstand zolang dat proces actief is:
 
 `caffeinate -i make`
 
-- Voorkom dat het scherm in slaapstand gaat totdat een proces met het opgegeven PID is voltooid:
+- Voorkom de slaapstand totdat een proces met het opgegeven PID is voltooid:
 
 `caffeinate -w {{pid}}`
 

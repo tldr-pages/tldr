@@ -12,11 +12,11 @@
 
 `New-Item -ItemType Directory {{ruta\al\directorio}}`
 
-- Escribir un nuevo archivo de texto con el contenido especificado:
+- Escribe un nuevo archivo de texto con el contenido especificado:
 
 `New-Item {{ruta\al\archivo}} -Value {{contenido}}`
 
-- Escribir el mismo archivo de texto en múltiples ubicaciones:
+- Escribe el mismo archivo de texto en múltiples ubicaciones:
 
 `New-Item {{ruta\al\archivo1 , ruta\al\archivo2 , ...}} -Value {{contenido}}`
 

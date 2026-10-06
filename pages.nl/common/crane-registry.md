@@ -10,7 +10,7 @@
 
 - Specificeer het adres om naar te luisteren:
 
-`crane registry serve --address {{address_naam}}`
+`crane registry serve --address {{adres_naam}}`
 
 - Sla blobs op in een specifieke map:
 

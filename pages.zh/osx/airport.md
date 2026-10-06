@@ -9,7 +9,7 @@
 
 - 在通道 1 上监察（嗅探）无线流量：
 
-`airport sniff {{1}}`
+`airport sniff 1`
 
 - 扫描可用的无线网络：
 

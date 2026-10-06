@@ -3,15 +3,15 @@
 > Cross-platform, GPU-versnelde terminalemulator.
 > Meer informatie: <https://manned.org/alacritty>.
 
-- Open een nieuw Alacritty-venster:
+- Start een nieuw Alacritty-proces en maak een venster aan:
 
 `alacritty`
 
-- Start de Alacritty daemon (zonder een venster te maken):
+- Start de Alacritty-daemon (zonder een venster te maken):
 
 `alacritty --daemon`
 
-- Maak een nieuw venster met behulp van het reeds lopende Alacritty proces:
+- Maak een nieuw venster met behulp van het reeds lopende Alacritty-proces:
 
 `alacritty msg create-window`
 

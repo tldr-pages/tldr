@@ -1,6 +1,6 @@
 # vagrant halt
 
-> Shuts down the running machine Vagrant is managing.
+> Shut down the running machine Vagrant is managing.
 > See also: `vagrant box`, `vagrant plugin`, `vagrant validate`.
 > More information: <https://developer.hashicorp.com/vagrant/docs/cli/halt>.
 

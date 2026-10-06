@@ -19,7 +19,7 @@
 
 `<F2>`
 
-- Open de geschiedenis pagina:
+- Open de geschiedenispagina:
 
 `<F3>`
 

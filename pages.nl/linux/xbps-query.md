@@ -4,9 +4,9 @@
 > Zie ook: `xbps`.
 > Meer informatie: <https://manned.org/xbps-query>.
 
-- Zoek naar een pakket in externe repositories met behulp van een reguliere expressie of een trefwoord (als `--regex` wordt weggelaten):
+- Zoek naar een pakket in externe repositories met behulp van een `regex` of een trefwoord (als `--regex` wordt weggelaten):
 
-`xbps-query {{[-s|--search]}} {{reguliere_expressie|trefwoord}} --repository --regex`
+`xbps-query {{[-s|--search]}} {{regex|trefwoord}} --repository --regex`
 
 - Toon informatie over een geïnstalleerd pakket:
 

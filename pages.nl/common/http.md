@@ -24,7 +24,7 @@
 
 `http {{[-a|--auth]}} {{gebruikersnaam:wachtwoord|token}} {{[-A|--auth-type]}} {{basic|digest|bearer}} {{GET|POST|...}} {{https://example.com/auth}}`
 
-- Maak een verzoek maar verzend het niet (vergelijkbaar met een dry-run):
+- Simuleer het versturen van een verzoek zonder het daadwerkelijk te versturen:
 
 `http --offline {{GET|DELETE|...}} {{https://example.com}}`
 
