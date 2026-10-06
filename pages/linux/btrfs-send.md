@@ -1,7 +1,7 @@
 # btrfs send
 
 > Transfer data (subvolume/snapshot) from one filesystem to another in a streamable format.
-> Note: send requires the snapshot be read-only.
+> Note: `send` requires the snapshot be read-only.
 > See also: `btrfs-subvolume`, `btrfs-property`.
 > More information: <https://btrfs.readthedocs.io/en/latest/Send-receive.html>.
 
