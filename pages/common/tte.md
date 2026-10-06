@@ -5,7 +5,7 @@
 
 - Apply a random effect to a command's output:
 
-`{{command}} | tte --random-effect`
+`{{command}} | tte {{[-R|--random-effect]}}`
 
 - Apply a specific effect to a command's output:
 
@@ -13,11 +13,11 @@
 
 - View the options for a specific effect:
 
-`tte {{decrypt}} -h`
+`tte {{decrypt}} {{[-h|--help]}}`
 
 - Apply an effect to text from a file:
 
-`tte --input-file {{path/to/file}} {{beams}}`
+`tte {{[-i|--input-file]}} {{path/to/file}} {{beams}}`
 
 - Print shell completion scripts:
 

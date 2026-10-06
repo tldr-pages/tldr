@@ -5,7 +5,7 @@
 
 - Aplica um efeito aleatório à saída de um comando:
 
-`{{comando}} | tte --random-effect`
+`{{comando}} | tte {{[-R|--random-effect]}}`
 
 - Aplica um efeito específico à saída de um comando:
 
@@ -13,11 +13,11 @@
 
 - Mostra as opções de um efeito específico:
 
-`tte {{decrypt}} -h`
+`tte {{decrypt}} {{[-h|--help]}}`
 
 - Aplica um efeito ao texto de um arquivo:
 
-`tte --input-file {{caminho/para/arquivo}} {{beams}}`
+`tte {{[-i|--input-file]}} {{caminho/para/arquivo}} {{beams}}`
 
 - Imprime scripts de conclusão para o shell:
 
