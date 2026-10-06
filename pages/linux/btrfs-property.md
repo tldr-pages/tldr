@@ -25,4 +25,4 @@
 
 - Set the `read-only` property for a given btrfs subvolume:
 
-`sudo btrfs {{[p|property]}} {{[s|set]}} {{path/to/btrfs/subvolume}} ro {{true|false}}`
+`sudo btrfs {{[p|property]}} {{[s|set]}} {{path/to/btrfs_subvolume}} ro {{true|false}}`
