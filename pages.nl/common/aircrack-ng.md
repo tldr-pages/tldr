@@ -14,7 +14,7 @@
 
 - Kraak de sleutel uit het opnamebestand met behulp van de [w]oordenlijst en de [e]ssid van het toegangspunt:
 
-`aircrack-ng -w {{pad/naar/woordenlijst.txt}} -e {{essid}} {{pad/naar/pakketbestand.cap}}`
+`aircrack-ng -w {{pad/naar/woordenlijst.txt}} -e {{extended_ssid}} {{pad/naar/pakketbestand.cap}}`
 
 - Kraak de sleutel uit het opnamebestand met behulp van de [w]oordenlijst en het MAC-adres van het toegangspunt:
 
