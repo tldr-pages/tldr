@@ -28,6 +28,6 @@
 
 `cd %userprofile%`
 
-- Ga naar de hoofdmap:
+- Ga naar de hoofdmap van de huidige drive:
 
 `cd \`
