@@ -23,4 +23,4 @@
 
 - Sluit bestanden uit die overeenkomen met een `regex`:
 
-`stow --ignore={{reguliere_expressie}} {{[-t|--target]}} {{pad/naar/doel_map}} {{pad/naar/bestand_of_map1 pad/naar/bestand_of_map2 ...}}`
+`stow --ignore={{regex}} {{[-t|--target]}} {{pad/naar/doel_map}} {{pad/naar/bestand_of_map1 pad/naar/bestand_of_map2 ...}}`
