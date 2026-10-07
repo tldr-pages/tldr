@@ -21,7 +21,7 @@
 
 - Añade una dirección IPv4 a la lista de fuentes NetBoot permitidas:
 
-`csrutil netboot add {{ip}}`
+`csrutil netboot add {{ip_address}}`
 
 - Restablece el estado de Protección de integridad del Sistema y borra la lista NetBoot:
 

@@ -30,8 +30,8 @@
 
 - Bir arayüze IP adresi ekle/sil:
 
-`sudo ip {{[a|address]}} {{add|delete}} {{ip}}/{{maske}} dev {{arayüz}}`
+`sudo ip {{[a|address]}} {{add|delete}} {{ip_address}}/{{maske}} dev {{arayüz}}`
 
 - Öntanımlı yönlendirme ekle:
 
-`sudo ip {{[r|route]}} {{[a|add]}} default via {{ip}} dev {{arayüz}}`
+`sudo ip {{[r|route]}} {{[a|add]}} default via {{ip_address}} dev {{arayüz}}`
