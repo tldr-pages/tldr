@@ -30,7 +30,7 @@
 
 - [Interactief] Vervang een string met een specifieke vervanging voor alle regels:
 
-`,s/{{reguliere_expressie}}/{{vervanging}}/g`
+`,s/{{regex}}/{{vervanging}}/g`
 
 - [Interactief] Sluit `ed` af:
 

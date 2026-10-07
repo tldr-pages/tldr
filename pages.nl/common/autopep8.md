@@ -9,7 +9,7 @@
 
 - Formatteer een bestand, geef een diff weer met de wijzigingen:
 
-`autopep8 --diff {{pad/naar/bestand.py}}`
+`autopep8 --diff {{pad/naar/bestand}}`
 
 - Formatteer het bestand en sla de wijzigingen op:
 
