@@ -1,6 +1,6 @@
 # qm guest
 
-> Beheer een VM gast agent.
+> Beheer een VM-gastagent.
 > Meer informatie: <https://pve.proxmox.com/pve-docs/qm.1.html#cli_qm_guest_cmd>.
 
 - Toon de status van een specifieke PID:
@@ -19,18 +19,18 @@
 
 `qm {{[g|guest]}} {{[c|cmd]}} {{100}} {{fsfreeze-freeze|fsfreeze-status|fsfreeze-thaw|fstrim|get-fsinfo|...}}`
 
-- Voer een specifiek commando uit via een gast agent:
+- Voer een specifiek commando uit via een gastagent:
 
 `qm {{[g|guest]}} exec {{100}} {{commando}} {{argument1 argument2 ...}}`
 
-- Voer een specifiek commando asynchroon uit via een gast agent:
+- Voer een specifiek commando asynchroon uit via een gastagent:
 
 `qm {{[g|guest]}} exec {{100}} {{argument1 argument2 ...}} --synchronous 0`
 
-- Voer een specifiek commando uit via een gast agent met een opgegeven time-out van 10 seconden:
+- Voer een specifiek commando uit via een gastagent met een opgegeven time-out van 10 seconden:
 
 `qm {{[g|guest]}} exec {{100}} {{argument1 argument2...}} --timeout {{10}}`
 
-- Voer een specifiek commando uit via een gast agent en stuur invoer van `stdin` tot EOF door naar de gast agent:
+- Voer een specifiek commando uit via een gastagent en stuur invoer van `stdin` tot EOF door naar de gastagent:
 
 `qm {{[g|guest]}} exec {{100}} {{argument1 argument2 ...}} --pass-stdin 1`
