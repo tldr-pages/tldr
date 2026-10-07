@@ -14,12 +14,12 @@
 
 - Decodeer een met WPA/WPA2 gecodeerd opnamebestand met behulp van de essid en het wachtwoord van het toegangspunt:
 
-`airdecap-ng -e {{essid}} -p {{wachtwoord}} {{pad/naar/pakketbestand.cap}}`
+`airdecap-ng -e {{extended_ssid}} -p {{wachtwoord}} {{pad/naar/pakketbestand.cap}}`
 
 - Decodeer een met WPA/WPA2 gecodeerd opnamebestand met behoud van de headers met behulp van de essid en het wachtwoord van het toegangspunt:
 
-`airdecap-ng -l -e {{essid}} -p {{wachtwoord}} {{pad/naar/pakketbestand.cap}}`
+`airdecap-ng -l -e {{extended_ssid}} -p {{wachtwoord}} {{pad/naar/pakketbestand.cap}}`
 
 - Decodeer een met WPA/WPA2 gecodeerd opnamebestand met behulp van de essid en het wachtwoord van het toegangspunt en gebruik het MAC-adres om te filteren:
 
-`airdecap-ng -b {{ap_mac}} -e {{essid}} -p {{wachtwoord}} {{pad/naar/pakketbestand.cap}}`
+`airdecap-ng -b {{ap_mac}} -e {{extended_ssid}} -p {{wachtwoord}} {{pad/naar/pakketbestand.cap}}`

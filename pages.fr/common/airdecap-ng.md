@@ -14,12 +14,12 @@
 
 - Décrypte un fichier de capture WPA/WPA2 chiffré à l'aide de l'[e]ssid et du mot de [p]asse du point d'accès :
 
-`airdecap-ng -e {{essid}} -p {{mot_de_passe}} {{chemin/vers.cap}}`
+`airdecap-ng -e {{extended_ssid}} -p {{mot_de_passe}} {{chemin/vers.cap}}`
 
 - Décrypte un fichier de capture WPA/WPA2 chiffré en préservant les en-têtes à l'aide de l'[e]ssid et du mot de [p]asse du point d'accès :
 
-`airdecap-ng -l -e {{essid}} -p {{mot_de_passe}} {{chemin/vers.cap}}`
+`airdecap-ng -l -e {{extended_ssid}} -p {{mot_de_passe}} {{chemin/vers.cap}}`
 
 - Décrypte un fichier de capture WPA/WPA2 chiffré à l'aide de l'[e]ssid et du mot de [p]asse du point d'accès et utilise son adresse MAC pour filtrer :
 
-`airdecap-ng -b {{mac_pa}} -e {{essid}} -p {{mot_de_passe}} {{chemin/vers/capture.cap}}`
+`airdecap-ng -b {{mac_pa}} -e {{extended_ssid}} -p {{mot_de_passe}} {{chemin/vers/capture.cap}}`
