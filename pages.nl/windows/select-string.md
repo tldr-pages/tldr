@@ -1,8 +1,8 @@
 # Select-String
 
 > Vindt tekst in strings en bestanden in PowerShell.
-> Opmerking: dit commando kan alleen gebruikt worden via PowerShell.
 > Je kan `Select-String` gebruiken zoals `grep` in UNIX of `findstr.exe` in Windows.
+> Opmerking: dit commando kan alleen gebruikt worden via PowerShell.
 > Meer informatie: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
 
 - Zoek naar een patroon binnen een bestand:
