@@ -20,7 +20,7 @@
 
 `ffmpeg -i {{pad/naar/frame_%d.jpg}} -f image2 {{video.mpg|video.gif}}`
 
-- Trim een video vanaf een gegeven starttijd mm:ss tot een eindtijd mm2:ss2 (Laat de -to vlag weg om tot het einde te trimmen):
+- Trim een video vanaf een gegeven starttijd mm:ss tot een eindtijd mm2:ss2 (laat de -to vlag weg om tot het einde te trimmen):
 
 `ffmpeg -i {{pad/naar/input_video.mp4}} -ss {{mm:ss}} -to {{mm2:ss2}} {{[-c|-codec]}} copy {{pad/naar/output_video.mp4}}`
 

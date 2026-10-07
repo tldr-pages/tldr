@@ -6,30 +6,30 @@
 > Zie ook: `crane`.
 > Meer informatie: <https://github.com/google/go-containerregistry/blob/main/cmd/gcrane/README.md>.
 
-- Log in op een register:
+- Log in op een registry:
 
-`gcrane auth login {{register}} {{[-u|--username]}} {{gebruiker}} {{[-p|--password]}} {{wachtwoord}}`
+`gcrane auth login {{registry}} {{[-u|--username]}} {{gebruiker}} {{[-p|--password]}} {{wachtwoord}}`
 
 - Toon tags, manifesten en sub-repositories:
 
-`gcrane ls {{register}}/{{project_id}}`
+`gcrane ls {{registry}}/{{project_id}}`
 
-- Kopieer images van een register naar een andere:
+- Kopieer images van een registry naar een andere:
 
-`gcrane cp {{[-r|--recursive]}} {{bronregister}}/{{project_id}}/{{repository}} {{doelregister}}/{{project_id}}/{{repository}}`
+`gcrane cp {{[-r|--recursive]}} {{bronregistry}}/{{project_id}}/{{repository}} {{doelregistry}}/{{project_id}}/{{repository}}`
 
 - Toon images die door de garbage collector verzameld kunnen worden:
 
-`gcrane gc {{register}}/{{project_id}}/{{repository}}`
+`gcrane gc {{registry}}/{{project_id}}/{{repository}}`
 
 - Verwijder images die door de garbage collector verzameld kunnen worden:
 
-`gcrane gc {{register}}/{{project_id}}/{{repository}} | xargs {{[-n|--max-args]}} 1 gcrane delete`
+`gcrane gc {{registry}}/{{project_id}}/{{repository}} | xargs {{[-n|--max-args]}} 1 gcrane delete`
 
-- Toon een specifiek register met een specifieke ID:
+- Toon een specifieke registry met een specifieke ID:
 
 `gcrane ls {{gcr.io}}/{{mijn-project-id}}`
 
-- Migreer alle images van het VS-register naar het EU-register:
+- Migreer alle images van de VS-registry naar de EU-registry:
 
 `gcrane cp {{[-r|--recursive]}} {{gcr.io}}/{{mijn-project-id}}/{{repository}} {{eu.gcr.io}}/{{mijn-project-id}}/{{repository}}`
