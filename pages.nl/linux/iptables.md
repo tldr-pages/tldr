@@ -9,15 +9,15 @@
 
 `sudo iptables {{[-vnL --line-numbers|--verbose --numeric --list --line-numbers]}}`
 
-- Zet keten [P]olicy regel:
+- Stel een ketenbeleidsregel in ([P]):
 
 `sudo iptables {{[-P|--policy]}} {{keten}} {{regel}}`
 
-- Voeg regel toe aan keten policy voor IP:
+- Voeg regel toe aan ketenbeleid voor IP:
 
 `sudo iptables {{[-A|--append]}} {{keten}} {{[-s|--source]}} {{ip_adres}} {{[-j|--jump]}} {{regel}}`
 
-- Voeg regel toe aan keten policy voor IP met [p]rotocol en poort in overweging:
+- Voeg regel toe aan ketenbeleid voor IP met [p]rotocol en poort in overweging:
 
 `sudo iptables {{[-A|--append]}} {{keten}} {{[-s|--source]}} {{ip_adres}} {{[-p|--protocol]}} {{tcp|udp|icmp|...}} --dport {{poort}} {{[-j|--jump]}} {{regel}}`
 
@@ -25,6 +25,6 @@
 
 `sudo iptables {{[-t|--table]}} {{nat}} {{[-A|--append]}} {{POSTROUTING}} {{[-s|--source]}} {{192.168.0.0/24}} {{[-j|--jump]}} {{MASQUERADE}}`
 
-- Verwijder keten regel:
+- Verwijder ketenregel:
 
 `sudo iptables {{[-D|--delete]}} {{keten}} {{regelnummer}}`

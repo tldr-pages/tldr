@@ -24,6 +24,6 @@
 
 `lrzip {{[-e|--encrypt]}} {{pad/naar/bestand}}`
 
-- Overschrijf het aantal processor threads om te gebruiken:
+- Overschrijf het aantal processorthreads om te gebruiken:
 
 `lrzip {{[-p|--threads]}} {{8}} {{pad/naar/bestand}}`
