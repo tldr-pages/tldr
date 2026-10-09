@@ -7,15 +7,15 @@
 
 `certutil -N -d .`
 
-- Toon alle certificaten in een database:
+- Toon een [L]ijst van alle certificaten in een database:
 
 `certutil -L -d .`
 
-- Toon alle privésleutels in een database door het wachtwoordbestand op te geven:
+- Toon alle privésleutels ([K]) in een database door het wachtwoordbestand ([f]) op te geven:
 
 `certutil -K -d . -f {{pad/naar/wachtwoordbestand.txt}}`
 
-- Voeg het ondertekende certificaat toe aan de database van de aanvrager, met een bijnaam, vertrouwensattributen en een [i]nvoer-CRT-bestand:
+- Voeg ([A]) het ondertekende certificaat toe aan de database van de aanvrager, met een bij[n]aam, vertrouwensattribu[t]en en een [i]nvoer-CRT-bestand:
 
 `certutil -A -n "{{server_certificaat}}" -t ",," -i {{pad/naar/bestand.crt}} -d .`
 
