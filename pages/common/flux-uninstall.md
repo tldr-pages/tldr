@@ -9,7 +9,7 @@
 
 - Uninstall Flux without asking for confirmation:
 
-`flux uninstall --silent`
+`flux uninstall {{[-s|--silent]}}`
 
 - Uninstall Flux from a specific namespace:
 
