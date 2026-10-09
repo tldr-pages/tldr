@@ -1,32 +1,36 @@
 # gitleaks
 
-> Detect secrets and API keys leaked in Git repositories.
+> Detect secrets and API keys leaked in Git repositories, directories, and files.
 > More information: <https://github.com/gitleaks/gitleaks#usage>.
 
-- Scan a remote repository:
+- Scan the commit history of the current Git repository and print each finding:
 
-`gitleaks detect --repo-url {{https://github.com/username/repository.git}}`
+`gitleaks git {{[-v|--verbose]}}`
 
-- Scan a local directory:
+- Scan the commit history of a specific Git repository:
 
-`gitleaks detect {{[-s|--source]}} {{path/to/repository}}`
+`gitleaks git {{path/to/repository}}`
 
-- Output scan results to a JSON file:
+- Scan staged changes before committing:
 
-`gitleaks detect {{[-s|--source]}} {{path/to/repository}} --report {{path/to/report.json}}`
+`gitleaks git --staged`
 
-- Use a custom rules file:
+- Scan only a specific range of commits:
 
-`gitleaks detect {{[-s|--source]}} {{path/to/repository}} --config-path {{path/to/config.toml}}`
+`gitleaks git --log-opts "{{start_commit}}..{{end_commit}}"`
 
-- Start scanning from a specific commit:
+- Scan a directory or file without looking at Git history:
 
-`gitleaks detect {{[-s|--source]}} {{path/to/repository}} --log-opts {{--since=commit_id}}`
+`gitleaks dir {{path/to/file_or_directory}}`
 
-- Scan uncommitted changes before a commit:
+- Scan data from `stdin`:
 
-`gitleaks protect --staged`
+`cat {{path/to/file}} | gitleaks stdin`
 
-- Display verbose output indicating which parts were identified as leaks during the scan:
+- Write the findings to a report file in a specific format:
 
-`gitleaks protect --staged --verbose`
+`gitleaks git {{[-r|--report-path]}} {{path/to/report}} {{[-f|--report-format]}} {{json|csv|junit|sarif}}`
+
+- Use a custom configuration file and ignore findings already listed in a previous report:
+
+`gitleaks git {{[-c|--config]}} {{path/to/config.toml}} {{[-b|--baseline-path]}} {{path/to/baseline.json}}`
