@@ -25,4 +25,4 @@
 
 - Watch Kustomizations for changes:
 
-`flux get kustomizations --watch`
+`flux get kustomizations {{[-w|--watch]}}`
