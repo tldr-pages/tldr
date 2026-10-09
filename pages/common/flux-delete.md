@@ -9,7 +9,7 @@
 
 - Delete a Kustomization without asking for confirmation:
 
-`flux delete kustomization {{kustomization_name}} --silent`
+`flux delete kustomization {{kustomization_name}} {{[-s|--silent]}}`
 
 - Delete a HelmRelease:
 
