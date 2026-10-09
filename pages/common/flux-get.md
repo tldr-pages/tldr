@@ -5,7 +5,7 @@
 
 - List all resources and statuses across all namespaces:
 
-`flux get all --all-namespaces`
+`flux get all {{[-A|--all-namespaces]}}`
 
 - List all Kustomizations and their statuses:
 
