@@ -29,7 +29,7 @@
 
 - Показать события от контейнеров в реальном времени в формате JSON Lines:
 
-`docker system events {{[-f|--filter]}} 'type=container' --format '{{json .}}'`
+`docker system events {{[-f|--filter]}} 'type=container' --format '\{\{json .\}\}'`
 
 - Показать общесистемную информацию:
 
