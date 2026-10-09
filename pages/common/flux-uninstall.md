@@ -13,7 +13,7 @@
 
 - Uninstall Flux from a specific namespace:
 
-`flux uninstall --namespace {{namespace}}`
+`flux uninstall {{[-n|--namespace]}} {{namespace}}`
 
 - Uninstall Flux but keep the namespace:
 
