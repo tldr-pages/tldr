@@ -19,4 +19,4 @@
 
 - Stel de prioriteit in van alle processen die behoren tot een procesgroep:
 
-`sudo renice {{-5}} {{[-g|--pgrp]}} {{process_group}}`
+`sudo renice {{-5}} {{[-g|--pgrp]}} {{proces_groep}}`
