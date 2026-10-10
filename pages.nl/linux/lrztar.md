@@ -16,7 +16,7 @@
 
 `lrztar {{[-o|--outfile]}} {{pad/naar/bestand}} {{pad/naar/map}}`
 
-- Overschrijf het aantal processor threads dat gebruikt moet worden:
+- Overschrijf het aantal processorthreads dat gebruikt moet worden:
 
 `lrztar {{[-p|--threads]}} {{8}} {{pad/naar/map}}`
 

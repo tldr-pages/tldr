@@ -23,6 +23,6 @@
 
 `watch {{[-g|--chgexit]}} {{lsblk}}`
 
-- Interpreteer terminal besturingstekens:
+- Interpreteer terminalbesturingstekens:
 
 `watch {{[-c|--color]}} {{ls --color=always}}`

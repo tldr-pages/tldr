@@ -7,7 +7,7 @@
 
 `am start -n {{com.android.settings/.Settings}}`
 
-- Start een intent[a]ctie en geef er [d]ata aan door:
+- Start een intent-[a]ctie en geef er [d]ata aan door:
 
 `am start -a {{android.intent.action.VIEW}} -d {{tel:123}}`
 

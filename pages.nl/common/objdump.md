@@ -23,10 +23,10 @@
 
 `objdump {{[-d|--disassemble]}} {{pad/naar/binary}} --visualize-jumps={{color|extended-color}} --disassembler-color={{color|extended-color}}`
 
-- Toon de symbooltabel:
+- Toon de symbool[t]abel:
 
 `objdump {{[-t|--syms]}} {{pad/naar/binary}}`
 
-- Toon een complete binary hex dump van alle secties:
+- Toon een complete binary hex dump van alle [s]ecties:
 
 `objdump {{[-s|--full-contents]}} {{pad/naar/binary}}`
