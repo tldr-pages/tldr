@@ -20,7 +20,7 @@
 
 `ed {{[-q|--quiet]}} {{[-s|--script]}}`
 
-- Start een interactieve editor sessie zonder exit status change als het commando faalt:
+- Start een interactieve editor sessie zonder wijziging van de exitstatus als het commando faalt:
 
 `ed {{[-l|--loose-exit-status]}}`
 

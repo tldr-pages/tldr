@@ -19,6 +19,6 @@
 
 `git cola {{[-r|--repo]}} {{pad/naar/git-repository}}`
 
-- Voer het pad filter uit voor de status widget:
+- Pas het padfilter toe op de statuswidget:
 
 `git cola {{[-s|--status-filter]}} {{filter}}`

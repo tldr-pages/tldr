@@ -4,11 +4,11 @@
 > Zie ook: `zsh`, `!`.
 > Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#Invoking-Bash>.
 
-- Start een interactieve shell sessie:
+- Start een interactieve shellsessie:
 
 `bash`
 
-- Start een interactieve shell sessie zonder het laden van startup configuratie:
+- Start een interactieve shellsessie zonder het laden van startup configuratie:
 
 `bash --norc`
 
@@ -32,6 +32,6 @@
 
 `{{echo "echo 'bash is executed'"}} | bash`
 
-- Start een beperkte shell sessie:
+- Start een beperkte shellsessie:
 
 `bash {{[-r|--restricted]}}`

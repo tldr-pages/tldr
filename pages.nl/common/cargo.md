@@ -32,6 +32,6 @@
 
 `cargo {{[r|run]}}`
 
-- Bouw het Rust-project in de huidige map door gebruik te maken van de nachtelijke compiler (vereist `rustup`):
+- Bouw het Rust-project in de huidige map door gebruik te maken van de nightly compiler (vereist `rustup`):
 
 `cargo +nightly {{[b|build]}}`
