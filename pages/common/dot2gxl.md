@@ -5,12 +5,12 @@
 
 - Convert DOT to GXL:
 
-`dot2gxl {{filename.dot}} -o {{filename.gxl}}`
+`dot2gxl {{path/to/filename.dot}} -o {{path/to/filename.gxl}}`
 
 - Convert DOT to GXL based on .dot input extension:
 
-`dot2gxl {{filename.dot}} > {{filename.gxl}}`
+`dot2gxl {{path/to/filename.dot}} > {{path/to/filename.gxl}}`
 
 - Convert GXL to DOT based on .gxl input extension:
 
-`dot2gxl {{filename.gxl}} > {{filename.dot}}`
+`dot2gxl {{path/to/filename.gxl}} > {{path/to/filename.dot}}`
