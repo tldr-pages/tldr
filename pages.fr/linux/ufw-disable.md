@@ -3,7 +3,7 @@
 > Décharge et désactive le pare-feu au démarrage.
 > Plus d'informations : <https://manned.org/ufw>.
 
-- Simuler la désactivation du pare-feu sans effectuer de modifications :
+- Simule la désactivation du pare-feu sans effectuer de modifications :
 
 `sudo ufw --dry-run disable`
 
