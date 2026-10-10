@@ -6,24 +6,24 @@
 
 - Affiche les fichiers d'un bucket :
 
-`aws s3 ls {{nom_du_bucket}}`
+`aws s3 ls {{nom_bucket}}`
 
-- Synchronise les fichiers et dossiers locaux avec un bucket :
+- Synchronise les fichiers et répertoires locaux avec un bucket :
 
-`aws s3 sync {{chemin/vers/les/fichiers}} s3://{{nom_du_bucket}}`
+`aws s3 sync {{chemin/vers/fichiers}} s3://{{nom_bucket}}`
 
-- Synchronise les fichiers et dossiers d'un bucket avec le ceux en local :
+- Synchronise les fichiers et répertoires d'un bucket avec le ceux en local :
 
-`aws s3 sync s3://{{nom_du_bucket}} {{chemin/vers/cible}}`
+`aws s3 sync s3://{{nom_bucket}} {{chemin/vers/cible}}`
 
-- Synchronise les fichiers et les dossiers avec des exclusions :
+- Synchronise les fichiers et les répertoires avec des exclusions :
 
-`aws s3 sync {{chemin/vers/les/fichiers}} s3://{{nom_du_bucket}} --exclude {{chemin/vers/le/fichier}} --exclude {{chemin/vers/le/dossier}}/*`
+`aws s3 sync {{chemin/vers/fichiers}} s3://{{nom_bucket}} --exclude {{chemin/vers/fichier}} --exclude {{chemin/vers/répertoire}}/*`
 
 - Supprime un fichier d'un bucket :
 
-`aws s3 rm s3://{{bucket}}/{{chemin/vers/le/fichier}}`
+`aws s3 rm s3://{{bucket}}/{{chemin/vers/fichier}}`
 
 - Prévisualise uniquement les changements :
 
-`aws s3 {{n_importe_quelle_commande}} --dryrun`
+`aws s3 {{commande}} --dryrun`

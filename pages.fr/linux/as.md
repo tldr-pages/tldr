@@ -18,4 +18,4 @@
 
 - Inclut un chemin donné à la liste des répertoires dans lesquels chercher les fichiers spécifiés dans les directives `.include` :
 
-`as -I {{chemin/vers/le/répertoire}} {{chemin/vers/fichier.s}}`
+`as -I {{chemin/vers/répertoire}} {{chemin/vers/fichier.s}}`
