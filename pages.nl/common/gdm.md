@@ -12,7 +12,7 @@
 
 `gdm --nodaemon`
 
-- Schakel `gdm`-beheer van lokale console X servers uit voor headless of externe omgevingen:
+- Schakel `gdm`-beheer van lokale console X-servers uit voor headless of externe omgevingen:
 
 `gdm --no-console`
 
