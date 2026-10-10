@@ -3,7 +3,7 @@
 > Voer een commando meerdere keren uit.
 > Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#Looping-Constructs>.
 
-- Itereer over de command line argumenten:
+- Itereer over de commandoregelargumenten:
 
 `for {{variabele}}; do {{echo $variabele}}; done`
 

@@ -15,7 +15,7 @@
 
 `gdb {{[-c|--core]}} {{pad/naar/core}} {{pad/naar/uitvoerbaar_bestand}}`
 
-- Voer een bepaald GDB-commando uit bij het starten:
+- Voer bepaalde GDB-commando's uit bij het starten:
 
 `gdb {{[-ex|--eval-command]}} "{{commando's}}" {{pad/naar/uitvoerbaar_bestand}}`
 

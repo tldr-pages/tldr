@@ -1,6 +1,6 @@
 # agg
 
-> Maak een GIF van een `asciinema` terminal opname.
+> Maak een GIF van een `asciinema` terminalopname.
 > Meer informatie: <https://docs.asciinema.org/manual/agg/usage/>.
 
 - Maak een GIF:
