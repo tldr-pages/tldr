@@ -8,6 +8,6 @@
 
 `interface vlan {{1}}`
 
-- Stel een interface in als actief of inactief (dit wordt uitgevoerd binnen het `interface`-commando):
+- Stel een interface in als actief of inactief (dit wordt uitgevoerd binnen het interface-commando):
 
 `{{no shutdown|shutdown}}`

@@ -23,7 +23,7 @@
 
 `sudo zoneadm -z {{zone_naam}} reboot`
 
-- Stop een zone, waarbij eventuele afsluitscripts binnen de zone worden overgeslagen:
+- Halt (stop) een zone, waarbij eventuele afsluitscripts binnen de zone worden overgeslagen:
 
 `sudo zoneadm -z {{zone_naam}} halt`
 

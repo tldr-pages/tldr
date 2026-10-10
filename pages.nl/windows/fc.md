@@ -24,7 +24,7 @@
 
 `fc /b {{pad\naar\bestand1}} {{pad\naar\bestand2}}`
 
-- Schakel tab-naar-spatie uitbreiding uit:
+- Schakel tab-naar-spatie-uitbreiding uit:
 
 `fc /t {{pad\naar\bestand1}} {{pad\naar\bestand2}}`
 
