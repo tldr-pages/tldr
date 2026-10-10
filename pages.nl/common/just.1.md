@@ -1,6 +1,6 @@
 # just
 
-> Sla op en run project-specifieke commands uit.
+> Sla projectspecifieke commando's op en voer ze uit.
 > Meer informatie: <https://manned.org/just>.
 
 - Voer een recept uit dat gespecificeerd is in een justfile:

@@ -11,11 +11,11 @@
 
 `ykman fido access change-pin`
 
-- Toon een lijst van inloggegevens die opgeslagen zijn op de YubiKey:
+- Toon een lijst van residente inloggegevens die opgeslagen zijn op de YubiKey:
 
 `ykman fido credentials list`
 
-- Verwijder specifieke inloggegevens van de YubiKey:
+- Verwijder specifieke residente inloggegevens van de YubiKey:
 
 `ykman fido credentials delete {{inloggegevens_id}}`
 
