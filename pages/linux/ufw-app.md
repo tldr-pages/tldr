@@ -20,7 +20,7 @@
 
 `sudo ufw app update {{profile|all}}`
 
-- Update a profile's rules, applying the default application policy (replaces the existing action, or adds a rule if none exists):
+- Update an application profile, applying the default policy if new:
 
 `sudo ufw app update --add-new {{profile}}`
 
