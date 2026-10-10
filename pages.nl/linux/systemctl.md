@@ -1,6 +1,6 @@
 # systemctl
 
-> Beheer systemd, de system and service manager.
+> Beheer systemd, de systeem- en servicemanager.
 > Sommige subcommando's zoals `disable`, `status`, `reboot` etc. hebben hun eigen documentatie.
 > Meer informatie: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html>.
 
