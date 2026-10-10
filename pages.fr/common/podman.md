@@ -2,7 +2,7 @@
 
 > Outil de gestion simple pour les pods, conteneurs et images.
 > Podman fournit une interface en ligne de commande comparable à Docker. En résumé : `alias docker=podman`.
-> Plus d'informations : <https://github.com/containers/podman/blob/main/commands-demo.md>.
+> Plus d'informations : <https://docs.podman.io/en/latest/Commands.html>.
 
 - Liste tous les conteneurs (en cours d'exécution et arrêtés) :
 

@@ -1,6 +1,6 @@
 # pacman-key
 
-> Wrapper-script voor GnuPG, gebruikt om de keyring van `pacman` te beheren.
+> Wrapper-script voor GnuPG, gebruikt om de keyring van pacman te beheren.
 > Zie ook: `pacman`.
 > Meer informatie: <https://manned.org/pacman-key>.
 

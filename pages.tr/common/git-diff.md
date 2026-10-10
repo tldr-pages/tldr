@@ -15,13 +15,13 @@
 
 `git diff --staged`
 
-- Belirtilen bir tarihten itibaren yapılmış tüm commit'lerdeki değişiklikleri göster:
+- Belirtilen bir tarihten itibaren yapılmış tüm commit'lerdeki değişiklikleri göster (bir tarih ifadesi, örn. "1 week 2 days" ya da bir ISO tarihi):
 
 `git diff 'HEAD@{{{3 months|weeks|days|hours|seconds ago}}}'`
 
-- Belirtilen bir commit'ten itibaren yalnızca üzerinde değişiklik yapılmış dosyaların ismini göster:
+- Değişen dosyalar, histogram ve toplam eklenen/silinen satır sayısı gibi diff istatistiklerini göster:
 
-`git diff --name-only {{commit}}`
+`git diff --stat {{commit}}`
 
 - Belirtilen bir commit'ten itibaren yapılmış dosya oluşturma, yeniden adlandırma ve mod değişim işlemlerini göster:
 

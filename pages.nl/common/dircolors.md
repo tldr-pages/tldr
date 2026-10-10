@@ -1,6 +1,6 @@
 # dircolors
 
-> Geef commando's weer om de `$LS_COLOR`-omgevingsvariabele in te stellen en style `ls`, `dir` enz.
+> Geef commando's weer om de `$LS_COLOR`-omgevingsvariabele in te stellen en de stijl van `ls`, `dir` enz. te bepalen.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/dircolors-invocation.html>.
 
 - Geef commando's weer om `$LS_COLOR` in te stellen met standaardkleuren:

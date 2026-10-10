@@ -1,7 +1,7 @@
 # sockstat
 
 > Toon open Internet- of UNIX-domeinsockets.
-> Opmerking: dit programma is hergeschreven voor NetBSD 3.0 van FreeBSD's `sockstat`.
+> Opmerking: dit programma is herschreven voor NetBSD 3.0 van FreeBSD's `sockstat`.
 > Zie ook: `netstat`.
 > Meer informatie: <https://man.netbsd.org/sockstat.1>.
 
@@ -13,7 +13,7 @@
 
 `sockstat -{{4|6}} -l -P {{tcp|udp|sctp|divert}} -p {{poort1,poort2...}}`
 
-- Toon ook [c]onnected sockets en [u]nix-sockets:
+- Toon ook verbonden ([c]) sockets en [u]nix-sockets:
 
 `sockstat -cu`
 

@@ -12,7 +12,7 @@
 
 `fossil clone {{externe_url}}`
 
-- Toon een overzicht van de huidige status van een repository:
+- Toon een overzicht van de huidige status van de repository:
 
 `fossil status`
 
@@ -26,7 +26,7 @@
 
 - Commit alle toegevoegde wijzigingen:
 
-`fossil {{[ci|commit]}} {{[-m|--comment]}} "{{bericht}}"`
+`fossil {{[ci|commit]}} {{[-m|--comment]}} "{{opmerking}}"`
 
 - Stuur wijzigingen van de lokale repository naar een externe repository:
 

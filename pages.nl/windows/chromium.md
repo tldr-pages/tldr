@@ -1,12 +1,12 @@
 # chromium
 
 > Open-source webbrowser die voornamelijk ontwikkeld en onderhouden wordt door Google.
-> Opmerking: mogelijk moet je het `chromium` commando vervangen met jouw gewenste webbrowser, zoals `brave`, `google-chrome`, `microsoft-edge`/`msedge`, `opera` of `vivaldi`.
+> Opmerking: mogelijk moet je het `chromium` commando vervangen door jouw gewenste webbrowser, zoals `brave`, `google-chrome`, `microsoft-edge`/`msedge`, `opera` of `vivaldi`.
 > Meer informatie: <https://www.chromium.org/developers/how-tos/run-chromium-with-flags/>.
 
 - Open een specifieke URL of bestand:
 
-`chromium {{https://example.com|path\naar\bestand.html}}`
+`chromium {{https://example.com|pad\naar\bestand.html}}`
 
 - Open in incognito modus (gebruik `--inprivate` voor Microsoft Edge):
 
@@ -16,11 +16,11 @@
 
 `chromium --new-window {{example.com}}`
 
-- Open in applicatiemodus (zonder werkbalken, URL balk, knoppen, etc.):
+- Open in applicatiemodus (zonder werkbalken, URL-balk, knoppen, etc.):
 
 `chromium --app {{https://example.com}}`
 
-- Gebruik een proxy server:
+- Gebruik een proxyserver:
 
 `chromium --proxy-server "{{socks5://hostname:66}}" {{example.com}}`
 

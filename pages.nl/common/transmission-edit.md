@@ -14,4 +14,4 @@
 
 - Werk de toegangscode van een tracker bij in een torrentbestand:
 
-`transmission-edit {{[-r|--replace]}} {{oude-toegangscode}} {{nieuwe-toegangscode}} {{pad/naar/bestand.torrent}}`
+`transmission-edit {{[-r|--replace]}} {{oude_toegangscode}} {{nieuwe_toegangscode}} {{pad/naar/bestand.torrent}}`

@@ -8,6 +8,10 @@
 
 `printf "{{%s\n}}" "{{Hello world}}"`
 
+- Print formatted message multiple times with different strings:
+
+`printf "%s\n" {{string1 string2 ...}}`
+
 - Print an integer in bold blue:
 
 `printf "{{\e[1;34m%.3d\e[0m\n}}" {{42}}`

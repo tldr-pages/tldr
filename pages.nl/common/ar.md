@@ -16,7 +16,7 @@
 
 `ar r {{pad/naar/bestand.deb}} {{pad/naar/debian-binary pad/naar/control.tar.gz pad/naar/data.tar.xz ...}}`
 
-- Voeg een objectbestandsindex toe (equivalent aan het gebruik van `ranlib`):
+- Voeg ([s]) een objectbestandsindex toe (equivalent aan het gebruik van `ranlib`):
 
 `ar s {{pad/naar/bestand.a}}`
 

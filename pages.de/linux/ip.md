@@ -29,8 +29,8 @@
 
 - Entferne oder füge eine IP zu einem Interface hinzu:
 
-`sudo ip {{[a|address]}} {{add|delete}} {{ip}}/{{mask}} dev {{interface}}`
+`sudo ip {{[a|address]}} {{add|delete}} {{ip_address}}/{{mask}} dev {{interface}}`
 
 - Füge eine Standard Route hinzu:
 
-`sudo ip {{[r|route]}} {{[a|add]}} default via {{ip}} dev {{interface}}`
+`sudo ip {{[r|route]}} {{[a|add]}} default via {{ip_address}} dev {{interface}}`

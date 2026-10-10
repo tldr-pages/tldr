@@ -1,7 +1,12 @@
 # stripe
 
-> Interact with a Stripe account.
-> More information: <https://docs.stripe.com/stripe-cli>.
+> Interact with Stripe payment processor.
+> Some subcommands such as `docs`, `listen`, and `logs` have their own usage documentation.
+> More information: <https://docs.stripe.com/cli>.
+
+- Browse Stripe documentation:
+
+`stripe docs`
 
 - Follow the logs of activity on the account:
 
@@ -17,7 +22,7 @@
 
 - Create a customer:
 
-`stripe customers create --email="{{test@example.com}}" --name="{{Jenny Rosen}}"`
+`stripe customers create --email "{{test@example.com}}" --name "{{Jenny Rosen}}"`
 
 - Print to JSON:
 

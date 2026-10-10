@@ -30,8 +30,8 @@
 
 - Додати/видалити IP-адресу до/з інтерфейсу:
 
-`sudo ip {{[a|address]}} {{add|delete}} {{ip}}/{{mask}} dev {{ethX}}`
+`sudo ip {{[a|address]}} {{add|delete}} {{ip_address}}/{{mask}} dev {{ethX}}`
 
 - Додати маршрут за замовчуванням:
 
-`sudo ip {{[r|route]}} {{[a|add]}} default via {{ip}} dev {{ethX}}`
+`sudo ip {{[r|route]}} {{[a|add]}} default via {{ip_address}} dev {{ethX}}`

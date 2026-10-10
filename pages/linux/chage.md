@@ -9,11 +9,11 @@
 
 - Enable password expiration in 10 days:
 
-`sudo chage {{[-M|--maxdays]}} {{10}} {{username}}`
+`sudo chage {{[-M|--maxdays]}} 10 {{username}}`
 
 - Disable password expiration:
 
-`sudo chage {{[-M|--maxdays]}} {{-1}} {{username}}`
+`sudo chage {{[-M|--maxdays]}} -1 {{username}}`
 
 - Set account expiration date:
 
@@ -21,7 +21,7 @@
 
 - Force user to change password on next log in:
 
-`sudo chage {{[-d|--lastday]}} {{0}} {{username}}`
+`sudo chage {{[-d|--lastday]}} 0 {{username}}`
 
 - Re-enable an account:
 

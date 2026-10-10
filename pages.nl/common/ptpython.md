@@ -7,11 +7,11 @@
 
 `ptpython`
 
-- Voer een specifiek Python bestand uit:
+- Voer een specifiek Python-bestand uit:
 
 `ptpython {{pad/naar/bestand.py}}`
 
-- Voer een specifiek Python bestand uit en start een REPL:
+- Voer een specifiek Python-bestand uit en start een REPL:
 
 `ptpython {{[-i|--interactive]}} {{pad/naar/bestand.py}}`
 
@@ -19,7 +19,7 @@
 
 `<F2>`
 
-- Open de geschiedenis pagina:
+- Open de geschiedenispagina:
 
 `<F3>`
 

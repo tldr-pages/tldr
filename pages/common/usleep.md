@@ -1,7 +1,7 @@
 # usleep
 
 > Delay execution for a specific interval in microseconds.
-> Largely deprecated in favor of `nanosleep`.
+> Note: This command is deprecated, use `nanosleep` instead.
 > See also: `sleep`.
 > More information: <https://manned.org/usleep.1>.
 

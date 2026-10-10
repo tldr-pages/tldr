@@ -3,7 +3,7 @@
 > Tambahkan atau ubah informasi dalam pangkalan data pengguna sistem operasi, termasuk syel masuk dan kata sandi.
 > Catatan: Kata sandi pengguna tidak dapat diubah pada sistem Open Directory, gunakan `passwd` sebagai gantinya.
 > Lihat juga: `passwd`.
-> Informasi lebih lanjut: <https://man.freebsd.org/cgi/man.cgi?chpass>.
+> Informasi lebih lanjut: <https://man.freebsd.org/cgi/man.cgi?query=chpass>.
 
 - Tentukan syel masuk secara spesifik untuk pengguna saat ini secara interaktif:
 

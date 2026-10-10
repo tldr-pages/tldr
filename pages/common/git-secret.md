@@ -1,6 +1,6 @@
 # git secret
 
-> Stores private data inside a Git repository. Written in Bash.
+> Store private data inside a Git repository. Written in Bash.
 > More information: <https://github.com/sobolevn/git-secret>.
 
 - Initialize `git-secret` in a local repository:

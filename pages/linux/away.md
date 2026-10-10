@@ -1,6 +1,6 @@
 # away
 
-> Locks terminal with an away message.
+> Lock terminal with an away message.
 > More information: <https://manned.org/away>.
 
 - Lock terminal and set away message:

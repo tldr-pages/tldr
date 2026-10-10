@@ -23,11 +23,11 @@
 
 `cmake -G {{generator_naam}} {{pad/naar/projectmap}}`
 
-- Installeer de bouwartefacten met een aangepaste voorvoegsel voor paden:
+- Installeer de bouwartefacten met een aangepast voorvoegsel voor paden:
 
 `cmake --install {{pad/naar/bouwmap}} --strip --prefix {{pad/naar/map}}`
 
-- Voer een aangepaste bouwdoel uit:
+- Voer een aangepast bouwdoel uit:
 
 `cmake --build {{pad/naar/bouwmap}} {{[-t|--target]}} {{doelnaam}}`
 

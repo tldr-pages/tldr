@@ -29,7 +29,7 @@
 
 - コンテナからのリアルタイムイベントを適正なJSON行としてストリーム表示する:
 
-`docker system events {{[-f|--filter]}} 'type=container' --format '{{json .}}'`
+`docker system events {{[-f|--filter]}} 'type=container' --format '\{\{json .\}\}'`
 
 - システム全体に関わる情報の表示をする:
 

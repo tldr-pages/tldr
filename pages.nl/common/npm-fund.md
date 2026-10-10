@@ -11,6 +11,6 @@
 
 `npm fund {{pakket}}`
 
-- Toon afhankelijkheden met een financierings-URL voor een specifieke [w]orkspace voor het project in de huidige map:
+- Toon afhankelijkheden met een financierings-URL voor een specifieke workspace voor het project in de huidige map:
 
 `npm fund {{[-w|--workspace]}} {{workspace}}`

@@ -12,6 +12,14 @@
 
 `wait`
 
+- Wait for one of the processes to finish:
+
+`wait -n`
+
+- Wait for one of the processes to finish and store its PID in a variable:
+
+`wait -n -p {{variable}}`
+
 - Wait for a job to finish (run `jobs` to find the job number):
 
 `wait %{{job_number}}`

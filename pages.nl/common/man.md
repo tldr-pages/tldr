@@ -8,7 +8,7 @@
 
 `man {{commando}}`
 
-- Open de man pagina voor een commando in een browser (`$BROWSER` omgevingsvariabele kan `=browser_name` vervangen):
+- Open de handleiding voor een commando in een browser (`$BROWSER` omgevingsvariabele kan `=browser_name` vervangen):
 
 `man {{[-H|--html=]}}{{browser_naam}} {{commando}}`
 
@@ -28,9 +28,9 @@
 
 `man {{[-w|--where]}} {{commando}}`
 
-- Toon de handleiding in een specifieke taal:
+- Toon de handleiding met een specifieke locale:
 
-`man {{[-L|--locale]}} {{taal}} {{commando}}`
+`man {{[-L|--locale]}} {{locale}} {{commando}}`
 
 - Zoek naar handleidingen die een zoekterm bevatten:
 

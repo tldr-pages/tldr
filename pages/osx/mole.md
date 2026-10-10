@@ -11,7 +11,7 @@
 
 `mole clean`
 
-- Preview cleanup without making changes:
+- Simulate the cleanup without making changes:
 
 `mole clean --dry-run`
 

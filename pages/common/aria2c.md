@@ -29,7 +29,7 @@
 
 `aria2c {{[-s|--split]}} {{number_of_connections}} "{{url}}"`
 
-- FTP download with username and password:
+- Download a file via FTP with a username and password:
 
 `aria2c --ftp-user {{username}} --ftp-passwd {{password}} "{{url}}"`
 

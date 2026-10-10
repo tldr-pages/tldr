@@ -4,7 +4,7 @@
 > Duc onderhoudt een database van geaccumuleerde groottes van mappen van het bestandssysteem, waardoor je deze database kunt raadplegen of mooie grafieken kunt maken om te laten zien waar de data zich bevindt.
 > Meer informatie: <https://htmlpreview.github.io/?https://github.com/zevv/duc/blob/master/doc/duc.1.html>.
 
-- Indexeer de `/usr` map en schrijf naar de standaard database locatie `~/.duc.db`:
+- Indexeer de `/usr` map en schrijf naar de standaard databaselocatie `~/.duc.db`:
 
 `duc index {{/usr}}`
 
@@ -20,10 +20,10 @@
 
 `duc gui {{/usr}}`
 
-- Start de ncurses console interface om het bestandssysteem te verkennen:
+- Start de ncurses-consoleinterface om het bestandssysteem te verkennen:
 
 `duc ui {{/usr}}`
 
-- Dump database-informatie:
+- Dump databaseinformatie:
 
 `duc info`

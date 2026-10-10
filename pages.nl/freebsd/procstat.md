@@ -15,6 +15,6 @@
 
 `procstat arguments {{pid}}`
 
-- Toon bron limieten van een proces:
+- Toon bronlimieten van een proces:
 
 `procstat rlimit {{pid}}`

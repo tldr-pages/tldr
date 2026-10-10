@@ -3,7 +3,7 @@
 > Gegevens overdragen tussen twee machines in een lokaal netwerk.
 > Meer informatie: <https://airshare.readthedocs.io/en/latest/cli.html>.
 
-- Bestanden of mappen delen:
+- Deel bestanden of mappen:
 
 `airshare {{code}} {{pad/naar/bestand_of_map1 pad/naar/bestand_of_map2 ...}}`
 
@@ -19,7 +19,7 @@
 
 `airshare --upload {{code}} {{pad/naar/bestand_of_map1 pad/naar/bestand_of_map2 ...}}`
 
-- Bestanden verzenden waarvan de paden naar het klembord zijn gekopieerd:
+- Stuur bestanden waarvan de paden naar het klembord zijn gekopieerd:
 
 `airshare --file-path {{code}}`
 

@@ -7,11 +7,11 @@
 
 `shutdown /s`
 
-- Sluit de huidige machine af en sluit alle applicaties:
+- Sluit de huidige machine geforceerd af, waarbij alle applicaties worden gesloten:
 
 `shutdown /s /f`
 
-- Herstart de huidige machine:
+- Herstart de huidige machine onmiddellijk:
 
 `shutdown /r /t 0`
 
@@ -19,7 +19,7 @@
 
 `shutdown /h`
 
-- Log uit van de huidige machine:
+- Meld de huidige machine af:
 
 `shutdown /l`
 

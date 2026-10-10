@@ -7,7 +7,7 @@
 
 `pg_receivewal {{[-D|--directory]}} {{directory}}`
 
-- Same as above, specify host, port, username including verbose output:
+- Stream WAL to a local directory, specifying host, port, and username, with verbose output:
 
 `pg_receivewal {{[-v|--verbose]}} {{[-h|--host]}} {{host}} {{[-p|--port]}} {{port}} {{[-U|--username]}} {{username}} {{[-D|--directory]}} {{directory}}`
 

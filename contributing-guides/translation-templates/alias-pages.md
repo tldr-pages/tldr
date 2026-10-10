@@ -39,6 +39,7 @@ The templates can be changed when necessary.
 [si](#si) •
 [sr](#sr) •
 [sv](#sv) •
+[sw](#sw) •
 [ta](#ta) •
 [th](#th) •
 [tr](#tr) •
@@ -280,7 +281,7 @@ The templates can be changed when necessary.
 
 > Questo comando è un alias per `example`.
 
-- Consulta la documentazione del comando originale:
+- Visualizza la documentazione del comando originale:
 
 `tldr example`
 ```
@@ -308,7 +309,7 @@ The templates can be changed when necessary.
 
 > 이 명령은 `example`의 별칭입니다.
 
-- 자세한 내용은 원본 명령을 참고하세요:
+- 원래 명령의 문서 보기:
 
 `tldr example`
 ```
@@ -505,6 +506,20 @@ The templates can be changed when necessary.
 > Det här kommandot är ett alias för `example`.
 
 - Se dokumentationen för originalkommandot:
+
+`tldr example`
+```
+
+---
+
+### sw
+
+```markdown
+# example
+
+> Amri hii ni lakabu ya `example`.
+
+- Tazama nyaraka za amri asili:
 
 `tldr example`
 ```

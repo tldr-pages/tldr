@@ -4,7 +4,7 @@
 > Zie ook: `bash`, `!`, `^`.
 > Meer informatie: <https://zsh.sourceforge.io/Doc/Release/Invocation.html#Invocation>.
 
-- Start een interactieve shell sessie:
+- Start een interactieve shellsessie:
 
 `zsh`
 
@@ -28,7 +28,7 @@
 
 `zsh {{[-x|--xtrace]}} {{pad/naar/script.zsh}}`
 
-- Start een interactieve shell sessie in verbose modus en toon elke opdracht voordat deze wordt uitgevoerd:
+- Start een interactieve shellsessie in verbose modus en toon elke opdracht voordat deze wordt uitgevoerd:
 
 `zsh {{[-v|--verbose]}}`
 

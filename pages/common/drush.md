@@ -3,13 +3,13 @@
 > Shell and scripting interface for Drupal.
 > More information: <https://www.drush.org/latest/usage/>.
 
-- Enable module "foo":
+- Enable a module:
 
-`drush en {{foo}}`
+`drush en {{module_name}}`
 
-- Uninstall module "foo":
+- Uninstall a module:
 
-`drush pmu {{foo}}`
+`drush pmu {{module_name}}`
 
 - Clear all caches:
 

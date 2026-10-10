@@ -1,7 +1,7 @@
 # Set-Location
 
 > Geef de huidige werkmap weer of ga naar een andere map.
-> Deze opdracht kan alleen worden gebruikt via PowerShell.
+> Opmerking: dit commando kan alleen gebruikt worden via PowerShell.
 > Meer informatie: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/set-location>.
 
 - Ga naar de opgegeven map:

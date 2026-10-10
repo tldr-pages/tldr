@@ -8,7 +8,7 @@
 
 `lrztar {{pad/naar/map}}`
 
-- Hetzelfde als hierboven, met ZPAQ - extreme compressie, maar erg langzaam:
+- Archiveer een map met `tar` en comprimeer dan met ZPAQ (extreme compressie, maar erg langzaam):
 
 `lrztar {{[-z|--zpaq]}} {{pad/naar/map}}`
 
@@ -16,7 +16,7 @@
 
 `lrztar {{[-o|--outfile]}} {{pad/naar/bestand}} {{pad/naar/map}}`
 
-- Overschrijf het aantal processor threads dat gebruikt moet worden:
+- Overschrijf het aantal processorthreads dat gebruikt moet worden:
 
 `lrztar {{[-p|--threads]}} {{8}} {{pad/naar/map}}`
 

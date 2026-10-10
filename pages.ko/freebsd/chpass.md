@@ -2,11 +2,11 @@
 
 > 사용자 데이터베이스 정보, 로그인 쉘 및 비밀번호를 추가하거나 변경합니다.
 > 관련 항목: `passwd`.
-> 더 많은 정보: <https://man.freebsd.org/cgi/man.cgi?chpass>.
+> 더 많은 정보: <https://man.freebsd.org/cgi/man.cgi?query=chpass>.
 
 - 현재 사용자의 사용자 데이터베이스 정보를 대화식으로 추가하거나 변경:
 
-`su -c chpass`
+`chpass`
 
 - 현재 사용자의 로그인 쉘 설정:
 

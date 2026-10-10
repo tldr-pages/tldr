@@ -9,7 +9,7 @@
 
 - Executa o daemon do Docker e configurá-lo para escutar em sockets específicos (UNIX e TCP):
 
-`dockerd {{[-H|--host]}} unix://{{caminho/para/tmp.sock}} {{[-H|--host]}} tcp://{{ip}}`
+`dockerd {{[-H|--host]}} unix://{{caminho/para/tmp.sock}} {{[-H|--host]}} tcp://{{ip_address}}`
 
 - Executa com um arquivo PID específico para o daemon:
 

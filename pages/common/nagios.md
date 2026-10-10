@@ -1,7 +1,7 @@
 # nagios
 
 > Legacy host/service/networking monitoring program.
-> Largely deprecated by `nagios4`.
+> Note: This command is deprecated, use `nagios4` instead.
 > See also: `nagios2`, `nagios3`, `nagios4`.
 > More information: <https://manned.org/nagios>.
 

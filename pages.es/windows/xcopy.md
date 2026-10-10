@@ -15,7 +15,7 @@
 
 `xcopy {{ruta\al\archivo_o_directorio}} {{ruta\al\directorio_de_destino}} /t`
 
-- Incluir directorios vacíos al copiar:
+- Incluye directorios vacíos al copiar:
 
 `xcopy {{ruta\al\archivo_o_directorio}} {{ruta\al\directorio_de_destino}} /e`
 

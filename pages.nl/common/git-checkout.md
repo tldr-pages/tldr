@@ -1,6 +1,6 @@
 # git checkout
 
-> Haal een branch of paden naar de worktree op.
+> Haal een branch of paden naar de working tree op.
 > Meer informatie: <https://git-scm.com/docs/git-checkout>.
 
 - Creëer en schakel naar een nieuwe branch:
