@@ -9,7 +9,7 @@
 
 - Generate Java code from a `.proto` file that imports other `.proto` files:
 
-`protoc --java_out={{path/to/output_directory}} --proto_path={{path/to/import_search_path}} {{input_file.proto}}`
+`protoc --java_out={{path/to/output_directory}} --proto_path={{path/to/import_search_directory}} {{input_file.proto}}`
 
 - Generate code for multiple languages:
 

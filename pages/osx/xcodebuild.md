@@ -5,11 +5,11 @@
 
 - Build workspace:
 
-`xcodebuild -workspace {{workspace_name.workspace}} -scheme {{scheme_name}} -configuration {{configuration_name}} clean build SYMROOT={{SYMROOT_path}}`
+`xcodebuild -workspace {{workspace_name.workspace}} -scheme {{scheme_name}} -configuration {{configuration_name}} clean build SYMROOT={{path/to/SYMROOT}}`
 
 - Build project:
 
-`xcodebuild -target {{target_name}} -configuration {{configuration_name}} clean build SYMROOT={{SYMROOT_path}}`
+`xcodebuild -target {{target_name}} -configuration {{configuration_name}} clean build SYMROOT={{path/to/SYMROOT}}`
 
 - Show SDKs:
 
