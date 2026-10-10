@@ -1,10 +1,10 @@
 # pngtopam
 
-> Converteer een PNG afbeelding naar een Netpbm afbeelding.
+> Converteer een PNG-afbeelding naar een Netpbm-afbeelding.
 > Zie ook: `pamtopng`.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/pngtopam.html>.
 
-- Converteer de gespecificeerde PNG afbeelding naar een Netpbm afbeelding:
+- Converteer de gespecificeerde PNG-afbeelding naar een Netpbm-afbeelding:
 
 `pngtopam {{pad/naar/afbeelding.png}} > {{pad/naar/uitvoer.pam}}`
 
