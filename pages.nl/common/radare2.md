@@ -19,7 +19,7 @@
 
 `{{radare2_commando}}?`
 
-- [Interactief] Voer een shell commando uit vanuit de interactieve CLI:
+- [Interactief] Voer een shellcommando uit vanuit de interactieve CLI:
 
 `!{{shell_commando}}`
 
