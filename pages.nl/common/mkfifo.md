@@ -15,6 +15,6 @@
 
 `cat {{pad/naar/pipe}}`
 
-- Deel je terminal sessie in real-time:
+- Deel je terminalsessie in real-time:
 
 `mkfifo {{pad/naar/pipe}}; script {{[-f|--flush]}} {{pad/naar/pipe}}`

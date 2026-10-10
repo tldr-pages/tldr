@@ -1,21 +1,21 @@
 # python
 
-> Python taal interpreter.
+> Python-taalinterpreter.
 > Meer informatie: <https://docs.python.org/using/cmdline.html>.
 
 - Start een REPL (interactieve shell):
 
 `python`
 
-- Voer een specifiek Python bestand uit:
+- Voer een specifiek Python-bestand uit:
 
 `python {{pad/naar/bestand.py}}`
 
-- Voer een specifiek Python bestand uit en start een REPL:
+- Voer een specifiek Python-bestand uit en start een REPL:
 
 `python -i {{pad/naar/bestand.py}}`
 
-- Voer een Python expressie uit:
+- Voer een Python-expressie uit:
 
 `python -c "{{expressie}}"`
 
@@ -27,10 +27,10 @@
 
 `python -m pip install {{pakket}}`
 
-- Debug interactief een Python script:
+- Debug interactief een Python-script:
 
 `python -m pdb {{pad/naar/bestand.py}}`
 
-- Start de ingebouwde HTTP server op poort 8000 in de huidige map:
+- Start de ingebouwde HTTP-server op poort 8000 in de huidige map:
 
 `python -m http.server`

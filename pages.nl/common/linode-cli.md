@@ -28,7 +28,7 @@
 
 `tldr linode-cli object-storage`
 
-- Bekijk de documentatie voor het beheren van domains en DNS-configuratie:
+- Bekijk de documentatie voor het beheren van domeinen en DNS-configuratie:
 
 `tldr linode-cli domains`
 

@@ -1,6 +1,6 @@
 # flex
 
-> Lexicale analysator generator.
+> Lexicale analysatorgenerator.
 > Gegeven de specificatie voor een lexicale analysator, genereert C-code die deze implementeert.
 > Meer informatie: <https://manned.org/flex>.
 
@@ -16,7 +16,7 @@
 
 `flex {{analyzer.l}} {{[-o|--outfile]}} {{analyzer.c}}`
 
-- Genereer een batch scanner in plaats van een interactieve scanner:
+- Genereer een batchscanner in plaats van een interactieve scanner:
 
 `flex {{[-B|--batch]}} {{analyzer.l}}`
 

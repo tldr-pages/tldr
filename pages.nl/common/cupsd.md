@@ -7,11 +7,11 @@
 
 `cupsd`
 
-- Start `cupsd` op de voorgrond:
+- Start `cupsd` op de voorgrond ([f]):
 
 `cupsd -f`
 
-- Draai `cupsd` op aanvraag (vaak gebruikt door `launchd` of `systemd`):
+- Draai ([l]) `cupsd` op aanvraag (vaak gebruikt door `launchd` of `systemd`):
 
 `cupsd -l`
 
