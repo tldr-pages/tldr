@@ -9,16 +9,16 @@
 
 - Envoie un message :
 
-`echo {{text}} | airpaste`
+`echo {{texte}} | airpaste`
 
 - Envoie un fichier :
 
 `airpaste < {{chemin/vers/fichier}}`
 
-- Recevoir un fichier :
+- Reçoit un fichier :
 
 `airpaste > {{chemin/vers/fichier}}`
 
-- Crée ou rejoins un canal :
+- Crée ou rejoint un canal :
 
-`airpaste {{nom_du_canal}}`
+`airpaste {{nom_canal}}`
