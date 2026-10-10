@@ -7,7 +7,7 @@
 
 `fossil {{[ci|commit]}}`
 
-- Maak een nieuwe versie met alle aanpassingen in de huidige checkout en maak gebruik van de gespecificeerde opmerking:
+- Maak een nieuwe versie met alle aanpassingen in de huidige checkout en maak gebruik van de gespecificeerde op[m]erking:
 
 `fossil {{[ci|commit]}} {{[-m|--comment]}} "{{opmerking}}"`
 

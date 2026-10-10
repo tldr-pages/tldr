@@ -11,7 +11,7 @@
 
 `amass intel -active -addr {{192.168.0.1-254}}`
 
-- Vind hoofddomeinen gerelateerd aan een domein:
+- Vind hoofddomeinen gerelateerd aan een [d]omein:
 
 `amass intel -whois -d {{domeinnaam}}`
 

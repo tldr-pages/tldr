@@ -1,15 +1,15 @@
 # pwsh
 
-> Command-line shell en scripting taal specifiek ontworpen voor systeemadministratie.
+> Shell en scriptingtaal specifiek ontworpen voor systeemadministratie.
 > Dit commando refereert naar PowerShell versie 6 en hoger (ook wel bekend als PowerShell Core en cross-platform PowerShell).
 > Om de originele Windows versie (5.1 en lager, ook wel bekend als de legacy Windows PowerShell) te gebruiken, gebruik `powershell` in plaats van `pwsh`.
 > Meer informatie: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_pwsh>.
 
-- Start een interactieve shell sessie:
+- Start een interactieve shellsessie:
 
 `pwsh`
 
-- Start een interactieve shell sessie zonder het laden van startup configuraties:
+- Start een interactieve shellsessie zonder het laden van startup configuraties:
 
 `pwsh -NoProfile`
 

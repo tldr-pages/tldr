@@ -17,7 +17,7 @@
 
 - 사용자 정의 Elasticsearch URL을 사용하여 Kibana용 등록 토큰 생성:
 
-`elasticsearch-create-enrollment-token {{[-s|--scope]}} kibana --url "{{ip}}"`
+`elasticsearch-create-enrollment-token {{[-s|--scope]}} kibana --url "{{ip_address}}"`
 
 - 도움말 표시:
 

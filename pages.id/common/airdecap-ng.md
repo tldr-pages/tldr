@@ -14,12 +14,12 @@
 
 - Buka enkripsi WPA/WPA2 dari file tangkapan jaringan menggunakan [e]ssid titik akses Wi-Fi dan kata sandi ([p]assword):
 
-`airdecap-ng -e {{essid}} -p {{kata_sandi}} {{jalan/menuju/tangkapan_jaringan.cap}}`
+`airdecap-ng -e {{extended_ssid}} -p {{kata_sandi}} {{jalan/menuju/tangkapan_jaringan.cap}}`
 
 - Buka enkripsi WPA/WPA2 dari file tangkapan jaringan menggunakan [e]ssid dan kata sandi ([p]assword), tanpa menghilangkan informasi header jaringan:
 
-`airdecap-ng -l -e {{essid}} -p {{kata_sandi}} {{jalan/menuju/tangkapan_jaringan.cap}}`
+`airdecap-ng -l -e {{extended_ssid}} -p {{kata_sandi}} {{jalan/menuju/tangkapan_jaringan.cap}}`
 
 - Buka enkripsi WPA/WPA2 dari file tangkapan jaringan menggunakan [e]ssid dan kata sandi ([p]assword), dan saring menurut alamat MAC titik akses Wi-Fi:
 
-`airdecap-ng -b {{alamat_mac}} -e {{essid}} -p {{kata_sandi}} {{jalan/menuju/tangkapan_jaringan.cap}}`
+`airdecap-ng -b {{alamat_mac}} -e {{extended_ssid}} -p {{kata_sandi}} {{jalan/menuju/tangkapan_jaringan.cap}}`

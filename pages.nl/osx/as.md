@@ -18,4 +18,4 @@
 
 - Voeg een specifiek pad toe aan de lijst met mappen om te zoeken naar bestanden die zijn opgegeven in `.include`-richtlijnen:
 
-`as -I {{pad/naar/directory}} {{pad/naar/bestand.s}}`
+`as -I {{pad/naar/map}} {{pad/naar/bestand.s}}`

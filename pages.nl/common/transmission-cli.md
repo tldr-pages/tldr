@@ -1,7 +1,7 @@
 # transmission-cli
 
 > Een lichtgewicht, command-line BitTorrent client.
-> Opmerking: dit commando is verouderd, gebruik `transmission-remote` in plaats daarvan.
+> Opmerking: Dit commando is verouderd, gebruik in plaats daarvan `transmission-remote`.
 > Meer informatie: <https://manned.org/transmission-cli>.
 
 - Download een specifieke torrent:

@@ -1,7 +1,7 @@
 # swupd
 
 > Clear Linux의 패키지 관리 도구.
-> 더 많은 정보: <https://www.clearlinux.org/clear-linux-documentation/guides/clear/swupd.html>.
+> 더 많은 정보: <https://github.com/clearlinux/clear-linux-documentation/blob/master/source/guides/clear/swupd.rst>.
 
 - 최신 버전으로 업데이트:
 

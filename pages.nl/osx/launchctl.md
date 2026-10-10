@@ -8,7 +8,7 @@
 
 `launchctl load ~/Library/LaunchAgents/{{my_script}}.plist`
 
-- Activeer een agent die root-rechten vereist om te kunnen werken en/of moet worden geladen wanneer een gebruiker inlogt (let op de afwezigheid van `~` in het pad):
+- Activeer een agent die root-rechten vereist om te kunnen werken en/of moet worden geladen wanneer elke gebruiker inlogt (let op de afwezigheid van `~` in het pad):
 
 `sudo launchctl load /Library/LaunchAgents/{{root_script}}.plist`
 

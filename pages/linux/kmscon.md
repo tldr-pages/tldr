@@ -3,7 +3,7 @@
 > Use the framebuffer instead of text mode to draw a terminal in a TTY.
 > More information: <https://manned.org/kmscon>.
 
-- Start `kmscon` on the first available TTY:
+- Start `kmscon` on the first available TTY, as reported by `fgconsole --next-available`:
 
 `sudo kmscon`
 

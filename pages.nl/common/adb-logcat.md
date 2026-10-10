@@ -7,15 +7,15 @@
 
 `adb logcat`
 
-- Geef regels weer die overeenkomen met een reguliere expressie:
+- Geef regels weer die overeenkomen met een `reg[e]x`:
 
-`adb logcat -e {{reguliere_expressie}}`
+`adb logcat -e {{regex}}`
 
 - Toon logs voor een tag in een specifieke modus ([V]erbose, [D]ebug, [I]nfo, [W]arning, [E]rror, [F]atal, [S]ilent), andere tags filteren:
 
 `adb logcat {{tag}}:{{modus}} *:S`
 
-- Geef logs weer voor React Native-applicaties in [V]erbose mode [S]ilencing andere tags:
+- Geef logs weer voor React Native-applicaties in [V]erbose-modus, waarbij andere tags worden onderdrukt ([S]ilent):
 
 `adb logcat ReactNative:V ReactNativeJS:V *:S`
 

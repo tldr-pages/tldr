@@ -32,6 +32,6 @@
 
 `git push origin tag {{tag_naam}}`
 
-- Toon alle tags die een bepaalde commit bevatten (HEAD indien niet gespecificeerd):
+- Toon alle tags die een bepaalde commit bevatten (`HEAD` indien niet gespecificeerd):
 
 `git tag --contains {{commit}}`

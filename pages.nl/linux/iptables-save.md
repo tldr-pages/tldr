@@ -1,6 +1,6 @@
 # iptables-save
 
-> Sla de `iptables` IPv4 configuratie op.
+> Sla de `iptables` IPv4-configuratie op.
 > Gebruik `ip6tables-save` om hetzelfde te doen voor IPv6.
 > Meer informatie: <https://manned.org/iptables-save>.
 
@@ -8,7 +8,7 @@
 
 `sudo iptables-save`
 
-- Toon de `iptables` configuratie van een specifiek tabel:
+- Toon de `iptables` configuratie van een specifieke tabel:
 
 `sudo iptables-save {{[-t|--table]}} {{tabel}}`
 

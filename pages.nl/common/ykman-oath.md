@@ -16,7 +16,7 @@
 
 `ykman oath accounts add {{[-i|--issuer]}} {{indiener}} {{naam}}`
 
-- Toon alle accounts (met hun indiener):
+- Toon alle accounts (met hun indieners):
 
 `ykman oath accounts list`
 

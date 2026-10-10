@@ -24,7 +24,7 @@
 
 `tput {{cols|lines|colors}}`
 
-- Schakel woordafbreking in of uit:
+- Schakel woordomloop in of uit:
 
 `tput {{smam|rmam}}`
 

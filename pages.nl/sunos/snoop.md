@@ -10,11 +10,11 @@
 
 - Sla de pakketten op in een bestand, in plaats van ze weer te geven:
 
-`snoop -o {{bestandsnaam}}`
+`snoop -o {{pad/naar/bestand}}`
 
 - Toon de verbose protocollaag-samenvatting van de pakketten in een bestand:
 
-`snoop -V -i {{bestandsnaam}}`
+`snoop -V -i {{pad/naar/bestand}}`
 
 - Leg netwerkpakketten vast die van een bepaalde host komen en naar een gegeven poort gaan:
 

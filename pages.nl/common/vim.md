@@ -1,7 +1,7 @@
 # vim
 
 > Vim (Vi IMproved), een command-line tekstbewerker, geeft toegang tot verschillende manieren van tekstmanipulatie.
-> Drukken op `<i>` begint invoegmodus. `<Esc>` begint normale modus, wat toegang geeft tot de Vim commando's.
+> Drukken op `<i>` in de normale modus begint de invoegmodus. `<Esc>` gaat terug naar de normale modus, wat toegang geeft tot de Vim-commando's.
 > Zie ook: `vimdiff`, `vimtutor`, `nvim`, `gvim`.
 > Meer informatie: <https://www.vim.org/>.
 
@@ -29,9 +29,9 @@
 
 `</>{{zoek_patroon}}<Enter>`
 
-- Voer een reguliere expressie substitutie uit in het hele bestand:
+- Voer een `regex`-substitutie uit in het hele bestand:
 
-`<:>%s/{{reguliere_expressie}}/{{vervanging}}/g<Enter>`
+`<:>%s/{{regex}}/{{vervanging}}/g<Enter>`
 
 - Geef de regelnummers weer:
 

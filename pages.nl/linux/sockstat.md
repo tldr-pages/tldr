@@ -12,7 +12,7 @@
 
 `sockstat -{{4|6}} -l -R {{tcp|udp|raw|unix}} -p {{poort1,poort2...}}`
 
-- Toon ook [c]onnected sockets en [u]nix-sockets:
+- Toon ook verbonden ([c]) sockets en [u]nix-sockets:
 
 `sockstat -cu`
 

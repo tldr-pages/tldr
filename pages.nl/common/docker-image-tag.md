@@ -5,7 +5,7 @@
 
 - Wijs een naam en tag toe aan een specifiek image-ID:
 
-`docker {{[tag|image tag]}} {{id}} {{naam}}:{{tag}}`
+`docker {{[tag|image tag]}} {{image_id}} {{naam}}:{{tag}}`
 
 - Wijs een tag toe aan een specifiek image:
 

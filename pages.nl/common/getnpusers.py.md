@@ -1,10 +1,10 @@
 # GetNPUsers.py
 
-> Ga over alle Active Directory accounts met Kerberos pre-authentication uitgeschakeld, die vatbaar kunnen zijn voor AS-REP roasting aanvallen.
+> Som Active Directory accounts op met Kerberos pre-authentication uitgeschakeld, die vatbaar kunnen zijn voor AS-REP roasting aanvallen.
 > Onderdeel van de Impacket-suite.
 > Meer informatie: <https://github.com/fortra/impacket>.
 
-- Ga over alle gebruikers met Kerberos pre-authentication uitgeschakeld (standaard anonieme enumeration):
+- Som gebruikers op met Kerberos pre-authentication uitgeschakeld (standaard anonieme enumeration):
 
 `GetNPUsers.py {{domein}}/ -usersfile {{pad/naar/gebruikerslijst}} -dc-ip {{domain_controller_ip}} -no-pass`
 
@@ -20,6 +20,6 @@
 
 `GetNPUsers.py {{domein}}/{{gebruikersnaam}} -hashes {{LM_Hash}}:{{NT_Hash}} -usersfile {{pad/naar/gebruikerslijst}} -dc-ip {{domain_controller_ip}}`
 
-- Sla de output op in een bestand:
+- Sla de output op in een bestand voor verdere analyse:
 
 `GetNPUsers.py {{domein}}/ -usersfile {{pad/naar/gebruikerslijst}} -dc-ip {{domain_controller_ip}} -request > {{pad/naar/output.txt}}`

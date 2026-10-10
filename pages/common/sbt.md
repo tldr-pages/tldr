@@ -31,6 +31,6 @@
 
 `sbt -sbt-jar {{path}}`
 
-- List all sbt options:
+- Display help:
 
 `sbt -h`

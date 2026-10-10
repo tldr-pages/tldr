@@ -1,7 +1,7 @@
 # hangman
 
 > 고전적인 Hangman 단어 맞히기 게임을 플레이.
-> 더 많은 정보: <https://manned.org/man/hangman>.
+> 더 많은 정보: <https://manned.org/hangman>.
 
 - 게임 시작:
 

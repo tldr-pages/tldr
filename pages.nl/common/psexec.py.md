@@ -1,6 +1,6 @@
 # psexec.py
 
-> Voer commando's uit op een Windows machine op afstand met `RemComSvc`, met PsExec-achtige functionaliteit.
+> Voer commando's uit op een Windows-machine op afstand met `RemComSvc`, met PsExec-achtige functionaliteit.
 > Onderdeel van de Impacket-suite.
 > Meer informatie: <https://github.com/fortra/impacket>.
 
@@ -18,7 +18,7 @@
 
 - Voer een commando uit vanaf een specifiek pad op een extern doelwit:
 
-`psexec.py -path {{path}} {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}@{{doel}} {{commando}}`
+`psexec.py -path {{pad}} {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}@{{doel}} {{commando}}`
 
 - Authenticeer met pass-the-hash-authenticatie in plaats van een wachtwoord:
 

@@ -18,7 +18,7 @@
 
 - Maak verbinding met een specifieke poort (standaard is 1883):
 
-`mqtt_check.py -port {{port}} {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}@{{doel_naam}}`
+`mqtt_check.py -port {{poort}} {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}@{{doel_naam}}`
 
 - Schakel debug-uitvoer in:
 

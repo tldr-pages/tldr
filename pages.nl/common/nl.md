@@ -15,7 +15,7 @@
 
 `nl -b {{a|n}} {{pad/naar/bestand}}`
 
-- Nummer alleen de [b]ody regels die overeenkomen met een basis reguliere expressie (BRE) [p]atroon:
+- Nummer alleen de [b]ody regels die overeenkomen met een basis `regex` (BRE) [p]atroon:
 
 `nl -b p'FooBar[0-9]' {{pad/naar/bestand}}`
 
@@ -23,7 +23,7 @@
 
 `nl -i {{increment}} {{pad/naar/bestand}}`
 
-- Specificeer het nummeringsformaat voor regels: [r]echts of [l]inks uitgelijnd, met of zonder voorloopnullen ([z]eros):
+- Specificeer het nummeringsformaat voor regels: [r]echts of [l]inks uitgelijnd, met voorloopnullen ([z]eros) of [n]iet:
 
 `nl -n {{rz|ln|rn}}`
 
@@ -31,6 +31,6 @@
 
 `nl -w {{col_width}} {{pad/naar/bestand}}`
 
-- Gebruik een specifieke string om de regelnummers van de regels te [s]cheiden (standaard is TAB):
+- Gebruik een specifieke string om de regelnummers van de regels te [s]cheiden (standaard is `TAB`):
 
 `nl -s {{separator}} {{pad/naar/bestand}}`

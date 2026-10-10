@@ -7,10 +7,10 @@
 
 `sudo fsck {{/dev/sdXN}}`
 
-- Controleer bestandssysteem `/dev/sdXN`, rapporteer beschadigde blokken en laat de gebruiker interactief kiezen om elke blok te repareren:
+- Controleer bestandssysteem `/dev/sdXN`, rapporteer beschadigde blokken en laat de gebruiker interactief kiezen om elk blok te repareren:
 
 `sudo fsck -r {{/dev/sdXN}}`
 
-- Controleer bestandssysteem `/dev/sdXN`, rapporteer beschadigde blokken en repareer ze automatisch:
+- Controleer bestandssysteem `/dev/sdXN`, rapporteer beschadigde blokken en repareer ze [a]utomatisch:
 
 `sudo fsck -a {{/dev/sdXN}}`

@@ -21,7 +21,7 @@
 
 - Scan an S3 bucket for verified keys:
 
-`trufflehog s3 --bucket {{bucket name}} --only-verified`
+`trufflehog s3 --bucket {{bucket_name}} --only-verified`
 
 - Scan S3 buckets using IAM Roles:
 

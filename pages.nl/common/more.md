@@ -20,7 +20,7 @@
 
 `</>{{iets}}<Enter>`
 
-- Afsluiten:
+- Sluit af:
 
 `<q>`
 

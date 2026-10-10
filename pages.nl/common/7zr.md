@@ -4,7 +4,7 @@
 > Vergelijkbaar met `7z`, behalve dat het alleen 7z-bestanden ondersteunt.
 > Meer informatie: <https://manned.org/7zr>.
 
-- Archiveer een bestand of map:
+- [a]rchiveer een bestand of map:
 
 `7zr a {{pad/naar/archief.7z}} {{pad/naar/bestand_of_map}}`
 

@@ -21,15 +21,15 @@
 
 `bat {{[-H|--highlight-line]}} {{10|5:10|:10|10:|10:+5}} {{pad/naar/bestand}}`
 
-- Toon niet-printbare karakters zoals spatie, tab of witregel:
+- Toon niet-printbare karakters zoals spatie, tab of regeleinde:
 
 `bat {{[-A|--show-all]}} {{pad/naar/bestand}}`
 
-- Nummer alle uitvoerregels:
+- Verwijder alle decoraties behalve regelnummers in de uitvoer:
 
 `bat {{[-n|--number]}} {{pad/naar/bestand}}`
 
-- Highlight de syntax van een JSON-bestand:
+- Highlight de syntax van een JSON-bestand door expliciet de taal in te stellen:
 
 `bat {{[-l|--language]}} json {{pad/naar/bestand.json}}`
 

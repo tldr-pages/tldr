@@ -14,9 +14,9 @@
 
 - Voer meerdere vervangingen uit in één commando:
 
-`{{commando}} | sed -e '{{s/appel/mango/g}}' -e '{{s/sinaasappel/limoen/g}}'`
+`{{commando}} | sed -e '{{s/apple/mango/g}}' -e '{{s/orange/lime/g}}'`
 
-- Gebruik een aangepast scheidingsteken (handig als het patroon `/` bevat):
+- Gebruik een aangepast scheidingsteken (handig als het patroon schuine strepen bevat):
 
 `{{commando}} | sed '{{s#////#____#g}}'`
 

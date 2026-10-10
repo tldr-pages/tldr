@@ -7,13 +7,13 @@
 
 `last`
 
-- Toon login informatie van een specifieke gebruiker:
+- Toon de inloggegevens van een specifieke gebruiker:
 
 `last {{gebruikersnaam}}`
 
 - Specificeer hoeveel van de laatste aanmeldingen weergegeven moeten worden:
 
-`last {{[-n|--limit]}} {{login_count}}`
+`last {{[-n|--limit]}} {{aantal_aanmeldingen}}`
 
 - Toon de volledige datum en tijd voor vermeldingen en toon vervolgens de kolom met de hostnaam als laatste weer om afkapping te voorkomen:
 

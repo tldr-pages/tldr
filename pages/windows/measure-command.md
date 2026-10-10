@@ -1,6 +1,6 @@
 # Measure-Command
 
-> Measures the time it takes to run script blocks and cmdlets.
+> Measure the time it takes to run script blocks and cmdlets.
 > Note: This command can only be used through PowerShell.
 > More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/measure-command>.
 

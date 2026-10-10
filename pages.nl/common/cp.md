@@ -5,11 +5,11 @@
 
 - Kopieer een bestand naar een andere locatie:
 
-`cp {{pad/naar/bronbestand.ext}} {{pad/naar/doelbestand.ext}}`
+`cp {{pad/naar/bronbestand}} {{pad/naar/doelbestand}}`
 
 - Kopieer een bestand naar een andere map, met behoud van de bestandsnaam:
 
-`cp {{pad/naar/bronbestand.ext}} {{pad/naar/doelmap}}`
+`cp {{pad/naar/bronbestand}} {{pad/naar/doelmap}}`
 
 - Kopieer de inhoud van een map recursief naar een andere locatie (als de bestemming bestaat, wordt de map erin gekopieerd):
 

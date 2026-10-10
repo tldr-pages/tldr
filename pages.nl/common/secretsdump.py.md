@@ -1,10 +1,10 @@
 # secretsdump.py
 
-> NTLM-hashes, wachtwoorden in platte tekst en domeingegevens van Windows-systemen op afstand downloaden.
+> NTLM-hashes, wachtwoorden in platte tekst en domeingegevens van Windows-systemen op afstand dumpen.
 > Onderdeel van de Impacket-suite.
 > Meer informatie: <https://github.com/fortra/impacket>.
 
-- Dump vertrouwelijke gegevens van een Windows-machine met een gebruikersnaam en wachtwoord:
+- Dump referenties van een Windows-machine met een gebruikersnaam en wachtwoord:
 
 `secretsdump.py {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}@{{doel}}`
 

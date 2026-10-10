@@ -1,7 +1,7 @@
 # vifm
 
 > VI File Manager es un gestor de archivos TUI.
-> Vea también: `clifm`, `vifm`, `mc`, `caja`.
+> Vea también: `clifm`, `mc`, `caja`.
 > Más información: <https://github.com/vifm/vifm>.
 
 - Abre el directorio actual:

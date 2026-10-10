@@ -9,7 +9,7 @@
 
 - Docker 데몬을 실행하고 특정 소켓(UNIX 및 TCP)을 수신하도록 설정:
 
-`dockerd {{[-H|--host]}} unix://{{경로/대상/tmp.sock}} {{[-H|--host]}} tcp://{{ip}}`
+`dockerd {{[-H|--host]}} unix://{{경로/대상/tmp.sock}} {{[-H|--host]}} tcp://{{ip_address}}`
 
 - 특정 데몬 PID 파일로 실행:
 
