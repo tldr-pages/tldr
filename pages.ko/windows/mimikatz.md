@@ -8,7 +8,7 @@
 
 `mimikatz`
 
-- 디버그 권한 활성화 (대부분의 작업에 필요):
+- 디버그 권한 활성화(대부분의 작업에 필요):
 
 `mimikatz "privilege::debug"`
 
@@ -18,7 +18,7 @@
 
 - 지정한 NTLM 해시로 Pass-the-Hash를 수행하고 명령 실행:
 
-`mimikatz "sekurlsa::pth /user:{{사용자명}} /domain:{{도메인명}} /ntlm:{{해쉬}} /run:{{cmd}}"`
+`mimikatz "sekurlsa::pth /user:{{사용자명}} /domain:{{도메인명}} /ntlm:{{해시}} /run:{{명령어}}"`
 
 - 로컬 SAM 데이터베이스의 해시 덤프:
 
