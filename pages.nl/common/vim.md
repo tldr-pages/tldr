@@ -31,7 +31,7 @@
 
 - Voer een `regex`-substitutie uit in het hele bestand:
 
-`<:>%s/{{reguliere_expressie}}/{{vervanging}}/g<Enter>`
+`<:>%s/{{regex}}/{{vervanging}}/g<Enter>`
 
 - Geef de regelnummers weer:
 

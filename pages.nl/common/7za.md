@@ -4,7 +4,7 @@
 > Vergelijkbaar met `7z`, behalve dat het minder bestandstypes ondersteunt, maar platformonafhankelijk is.
 > Meer informatie: <https://manned.org/7za>.
 
-- Archiveer een bestand of map:
+- [a]rchiveer een bestand of map:
 
 `7za a {{pad/naar/archief.7z}} {{pad/naar/bestand_of_map}}`
 
@@ -24,7 +24,7 @@
 
 `7za x {{pad/naar/archief.7z}} -so`
 
-- Archiveer met een specifiek archieftype:
+- [a]rchiveer met een specifiek archieftype:
 
 `7za a -t{{7z|bzip2|gzip|lzip|tar|...}} {{pad/naar/archief.7z}} {{pad/naar/bestand_of_map}}`
 

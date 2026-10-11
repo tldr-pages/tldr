@@ -27,6 +27,6 @@
 
 `xrandr --output LVDS1 --brightness 0.5`
 
-- Toon de huidige status van een X server:
+- Toon de huidige status van een X-server:
 
 `xrandr {{[-d|--display]}} :{{0}} {{[-q|--query]}}`

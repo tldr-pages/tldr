@@ -1,6 +1,6 @@
 # z
 
-> Tracks the most used (by frequency) directories and enables quickly navigating to them using string patterns or `regex`.
+> Track the most used (by frequency) directories and enable quickly navigating to them using string patterns or `regex`.
 > More information: <https://github.com/rupa/z>.
 
 - Go to a directory that contains `string` in the name:

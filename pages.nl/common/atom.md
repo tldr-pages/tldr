@@ -1,7 +1,7 @@
 # atom
 
 > Een platformonafhankelijke inplugbare tekstbewerker.
-> Plugins zijn beheerd door `apm`.
+> Plugins worden beheerd door `apm`.
 > Opmerking: Atom is niet meer in ontwikkeling en wordt niet meer actief onderhouden. Gebruik in plaats hiervan `zed`.
 > Meer informatie: <https://atom.io/>.
 

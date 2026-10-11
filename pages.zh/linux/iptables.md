@@ -15,11 +15,11 @@
 
 - 追加规则到 IP 的规则链策略：
 
-`sudo iptables {{[-A|--append]}} {{规则链}} {{[-s|--source]}} {{ip}} {{[-j|--jump]}} {{规则}}`
+`sudo iptables {{[-A|--append]}} {{规则链}} {{[-s|--source]}} {{ip_address}} {{[-j|--jump]}} {{规则}}`
 
 - 追加规则到 IP 的规则链策略（考虑协议与端口）：
 
-`sudo iptables {{[-A|--append]}} {{规则链}} {{[-s|--source]}} {{ip}} {{[-p|--protocol]}} {{协议}} --dport {{端口}} {{[-j|--jump]}} {{规则}}`
+`sudo iptables {{[-A|--append]}} {{规则链}} {{[-s|--source]}} {{ip_address}} {{[-p|--protocol]}} {{协议}} --dport {{端口}} {{[-j|--jump]}} {{规则}}`
 
 - 添加 NAT 规则，将来自 `192.168.0.0/24` 子网的所有流量转换为主机的公共 IP：
 

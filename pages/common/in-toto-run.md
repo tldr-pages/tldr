@@ -1,6 +1,6 @@
 # in-toto-run
 
-> Generating link metadata while carrying out a supply chain step.
+> Generate link metadata while carrying out a supply chain step.
 > More information: <https://in-toto.readthedocs.io/en/latest/command-line-tools/in-toto-run.html>.
 
 - Tag a Git repo and signing the resulting link file:

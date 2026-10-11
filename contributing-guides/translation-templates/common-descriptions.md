@@ -39,6 +39,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | si    | උදව් දැක්වීම   | අනුවාදය දැක්වීම       | [අන්තර් ක්‍රියාකාරී]   |
 | sr    |                    |                       |                  |
 | sv    | Visa hjälpen       | Visa versionen        | [Interaktiv]     |
+| sw    | Onyesha msaada     | Onyesha toleo         | [Shirikishi]     |
 | ta    | உதவியைக் காட்டு    | பதிப்பைக் காட்டு      | [ஊடாடும் கட்டளை] |
 | th    | แสดงวิธีใช้งาน     | แสดงเวอร์ชัน          | [อินเทอร์แอคทีฟ] |
 | tr    | Yardımı görüntüle  | Sürümü görüntüle      | [Etkileşimli]    |
