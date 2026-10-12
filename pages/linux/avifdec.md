@@ -5,4 +5,4 @@
 
 - Convert a specific AVIF image to PNG:
 
-`avifenc {{path/to/input}}.avif {{path/to/output}}.png`
+'avifdec {{path/to/input}}.avif {{path/to/output}}.png`
