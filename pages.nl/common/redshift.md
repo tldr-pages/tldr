@@ -21,6 +21,6 @@
 
 `redshift -g {{rood}}:{{groen}}:{{blauw}}`
 
-- Verwijder ([P]urge) bestaande temperatuurveranderingen en stel een constante, onveranderlijke kleurtemperatuur in [O]ne-shot-modus in:
+- Verwijder ([P]) bestaande temperatuurveranderingen en stel een constante, onveranderlijke kleurtemperatuur in [O]ne-shot-modus in:
 
 `redshift -PO {{temperatuur}}`

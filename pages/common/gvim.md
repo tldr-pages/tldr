@@ -1,6 +1,7 @@
 # gvim
 
 > A Graphical User Interface version of Vim (Vi IMproved), a command-line text editor.
+> This command is an alias of `vim -g`.
 > See also: `vimdiff`, `vimtutor`, `nvim`, `vim`.
 > More information: <https://www.vim.org/>.
 
