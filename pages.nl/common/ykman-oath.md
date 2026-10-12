@@ -1,10 +1,10 @@
 # ykman oath
 
-> Beheer de OATH YubiKey applicatie.
+> Beheer de OATH YubiKey-applicatie.
 > Een `keyword` kan onderdeel zijn van de naam of van de indiener.
 > Meer informatie: <https://docs.yubico.com/software/yubikey/tools/ykman/OATH_Commands.html>.
 
-- Toon algemene informatie over de OATH applicatie:
+- Toon algemene informatie over de OATH-applicatie:
 
 `ykman oath info`
 

@@ -1,9 +1,9 @@
 # ykman fido
 
-> Beheer YubiKey FIDO applicaties.
+> Beheer YubiKey FIDO-applicaties.
 > Meer informatie: <https://docs.yubico.com/software/yubikey/tools/ykman/FIDO_Commands.html>.
 
-- Toon algemene informatie over de FIDO2 applicatie:
+- Toon algemene informatie over de FIDO2-applicatie:
 
 `ykman fido info`
 

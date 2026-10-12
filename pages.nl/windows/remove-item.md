@@ -6,7 +6,7 @@
 
 - Verwijder specifieke bestanden of registersleutels (zonder subsleutels):
 
-`Remove-Item {{pad\naar\bestand_of_key1 , pad\naar\bestand_of_key2 ...}}`
+`Remove-Item {{pad\naar\bestand_of_sleutel1 , pad\naar\bestand_of_sleutel2 ...}}`
 
 - Verwijder verborgen of alleen-lezen bestanden:
 
@@ -14,7 +14,7 @@
 
 - Verwijder specifieke bestanden of registersleutels, waarbij interactief om bevestiging wordt gevraagd vóór elke verwijdering:
 
-`Remove-Item -Confirm {{pad\naar\bestand_of_key1 , pad\naar\bestand_of_key2 ...}}`
+`Remove-Item -Confirm {{pad\naar\bestand_of_sleutel1 , pad\naar\bestand_of_sleutel2 ...}}`
 
 - Verwijder specifieke bestanden en mappen recursief (Windows 10 versie 1909 of hoger):
 
@@ -22,7 +22,7 @@
 
 - Verwijder specifieke Windows-registersleutels en al hun subsleutels:
 
-`Remove-Item -Recurse {{pad\naar\key1 , pad\naar\key2 ...}}`
+`Remove-Item -Recurse {{pad\naar\sleutel1 , pad\naar\sleutel2 ...}}`
 
 - Voer een dry-run van het verwijderproces uit:
 

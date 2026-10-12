@@ -12,15 +12,15 @@
 
 `7zr a {{pad/naar/versleuteld.7z}} -p{{wachtwoord}} -mhe={{on}} {{pad/naar/archief.7z}}`
 
-- Pak een archief uit met behoud van de originele mapstructuur:
+- E[x]traheer een archief met behoud van de originele mapstructuur:
 
 `7zr x {{pad/naar/archief.7z}}`
 
-- Pak een archief uit naar een specifieke map:
+- E[x]traheer een archief naar een specifieke map:
 
 `7zr x {{pad/naar/archief.7z}} -o{{pad/naar/uitkomst}}`
 
-- Pak een archief uit naar `stdout`:
+- E[x]traheer een archief naar `stdout`:
 
 `7zr x {{pad/naar/archief.7z}} -so`
 

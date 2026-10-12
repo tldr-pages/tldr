@@ -6,7 +6,7 @@
 > Onderdeel van de Impacket-suite.
 > Meer informatie: <https://github.com/fortra/impacket>.
 
-- Ping een IPv6 host vanaf een opgegeven IPv6 bron-adres:
+- Ping een IPv6-host vanaf een opgegeven IPv6-bronadres:
 
 `ping6.py {{bron_ipv6}} {{bestemmings_ipv6}}`
 

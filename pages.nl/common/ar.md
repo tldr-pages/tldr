@@ -4,7 +4,7 @@
 > Zie ook: `tar`.
 > Meer informatie: <https://manned.org/ar>.
 
-- Pak alles uit van een archief:
+- E[x]traheer alles uit een archief:
 
 `ar x {{pad/naar/bestand.a}}`
 

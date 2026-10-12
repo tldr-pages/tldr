@@ -8,7 +8,7 @@
 
 `df`
 
-- Toon alle bestandssystemen en hun schijfgebruik in een leesbaar formaat:
+- Toon alle bestandssystemen in een leesbaar formaat:
 
 `df {{[-h|--human-readable]}}`
 

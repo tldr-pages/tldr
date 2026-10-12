@@ -19,6 +19,6 @@
 
 `zed {{pad/naar/bestand}}:{{regelnummer}}:{{kolomnummer}}`
 
-- Toon een diff in Zed voor twee versies van een bestand:
+- Open een diff-tab in Zed voor twee versies van een bestand:
 
 `zed --diff {{pad/naar/oud_bestand}} {{pad/naar/nieuw_bestand}}`

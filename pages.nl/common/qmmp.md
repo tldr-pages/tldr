@@ -12,7 +12,7 @@
 
 `qmmp {{[-t|--play-pause]}}`
 
-- Spring een specifieke hoeveelheid tijd in seconden voorwaarts of achterwaarts:
+- Spring voorwaarts ([fwd]) of achterwaarts ([bwd]) een specifieke hoeveelheid tijd in seconden:
 
 `qmmp --seek-{{fwd|bwd}} {{time_in_seconds}}`
 
@@ -28,6 +28,6 @@
 
 `qmmp --volume-status`
 
-- Verhoog of verlaag het volume van de momenteel afspelende audio met 5%:
+- Verhoog ([inc]) of verlaag ([dec]) het volume van de momenteel afspelende audio met 5%:
 
 `qmmp --volume-{{inc|dec}}`

@@ -27,6 +27,6 @@
 
 `sudo zoneadm -z {{zone_naam}} halt`
 
-- Verwijder de installatie van een zone:
+- Verwijder een zone:
 
 `sudo zoneadm -z {{zone_naam}} uninstall`

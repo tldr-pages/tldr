@@ -19,7 +19,7 @@
 
 `npm query '#{{pakket}}@{{semantische_versie}}'`
 
-- Print afhankelijkheden die geen andere afhankelijkheden hebben:
+- Print afhankelijkheden die geen afhankelijkheden hebben:
 
 `npm query ':empty'`
 

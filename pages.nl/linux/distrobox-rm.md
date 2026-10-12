@@ -1,13 +1,13 @@
 # distrobox-rm
 
-> Verwijder een Distrobox container.
+> Verwijder een Distrobox-container.
 > Zie ook: `distrobox`.
 > Meer informatie: <https://distrobox.it/usage/distrobox-rm/>.
 
-- Verwijder een Distrobox container (Tip: Stop de container voordat je hem verwijdert):
+- Verwijder een Distrobox-container (Tip: Stop de container voordat je hem verwijdert):
 
 `distrobox-rm {{container_naam}}`
 
-- Verwijder een Distrobox container geforceerd:
+- Verwijder een Distrobox-container geforceerd:
 
 `distrobox-rm {{container_naam}} {{[-f|--force]}}`
