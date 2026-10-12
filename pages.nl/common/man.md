@@ -28,9 +28,9 @@
 
 `man {{[-w|--where]}} {{commando}}`
 
-- Toon de handleiding in een specifieke taal:
+- Toon de handleiding met een specifieke locale:
 
-`man {{[-L|--locale]}} {{taal}} {{commando}}`
+`man {{[-L|--locale]}} {{locale}} {{commando}}`
 
 - Zoek naar handleidingen die een zoekterm bevatten:
 

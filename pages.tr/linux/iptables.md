@@ -15,11 +15,11 @@
 
 - Verilen kuralı belirtilen IP için zincir politikasına uygulayın:
 
-`sudo iptables {{[-A|--append]}} {{zincir}} {{[-s|--source]}} {{ip}} {{[-j|--jump]}} {{kural}}`
+`sudo iptables {{[-A|--append]}} {{zincir}} {{[-s|--source]}} {{ip_address}} {{[-j|--jump]}} {{kural}}`
 
 - Protokol ve portu dikkate alarak verilen IP için zincir politikasına kural ekle:
 
-`sudo iptables {{[-A|--append]}} {{zincir}} {{[-s|--source]}} {{ip}} {{[-p|--protocol]}} {{tcp|udp|icmp|...}} --dport {{port}} {{[-j|--jump]}} {{kural}}`
+`sudo iptables {{[-A|--append]}} {{zincir}} {{[-s|--source]}} {{ip_address}} {{[-p|--protocol]}} {{tcp|udp|icmp|...}} --dport {{port}} {{[-j|--jump]}} {{kural}}`
 
 - `192.168.0.0/24` alt ağından gelen tüm trafiği ana bilgisayarın açık IP adresine yönlendirmek için bir NAT kuralı ekleyin:
 

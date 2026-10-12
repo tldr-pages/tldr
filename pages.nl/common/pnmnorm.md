@@ -1,6 +1,6 @@
 # pnmnorm
 
-> Normaliseer het contrast in een PNM afbeelding.
+> Normaliseer het contrast in een PNM-afbeelding.
 > Zie ook: `pnmhisteq`.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/pnmnorm.html>.
 

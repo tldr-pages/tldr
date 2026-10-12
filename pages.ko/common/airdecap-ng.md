@@ -14,12 +14,12 @@
 
 - 액세스 포인트의 [e]ssid 및 [p]assword를 사용하여 WPA/WPA2 암호화된 캡처 파일을 해독:
 
-`airdecap-ng -e {{essid}} -p {{비밀번호}} {{경로/대상/capture.cap}}`
+`airdecap-ng -e {{extended_ssid}} -p {{비밀번호}} {{경로/대상/capture.cap}}`
 
 - 액세스 포인트의 [e]ssid 및 [p]assword를 사용하여 헤더를 보존하는, WPA/WPA2 암호화된 캡처 파일을 해독:
 
-`airdecap-ng -l -e {{essid}} -p {{비밀번호}} {{경로/대상/capture.cap}}`
+`airdecap-ng -l -e {{extended_ssid}} -p {{비밀번호}} {{경로/대상/capture.cap}}`
 
 - 액세스 포인트의 [e]ssid 및 [p]assword를 사용하여 WPA/WPA2 암호화된 캡처 파일을 해독하고, 해당 MAC 주소를 사용하여 필터링:
 
-`airdecap-ng -b {{ap_mac}} -e {{essid}} -p {{비밀번호}} {{경로/대상/capture.cap}}`
+`airdecap-ng -b {{ap_mac}} -e {{extended_ssid}} -p {{비밀번호}} {{경로/대상/capture.cap}}`

@@ -5,4 +5,4 @@
 
 - Obtiene el estado de la red:
 
-`snmpnetstat -v {{versión}} -c {{comunidad}} {{ip}}`
+`snmpnetstat -v {{versión}} -c {{comunidad}} {{ip_address}}`

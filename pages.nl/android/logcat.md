@@ -17,7 +17,7 @@
 
 - Toon logs voor een specifieke PID:
 
-`logcat --pid {{pid}}`
+`logcat --pid {{proces_id}}`
 
 - Toon logs voor een proces van een specifiek pakket:
 

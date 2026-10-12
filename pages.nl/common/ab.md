@@ -19,7 +19,7 @@
 
 `ab -k {{url}}`
 
-- Stel het maximale aantal seconden in dat je wilt besteden aan benchmarking (standaard 30):
+- Stel het maximale aantal seconden ([t]imeout) in dat je wilt besteden aan benchmarking (standaard 30):
 
 `ab -t {{60}} {{url}}`
 

@@ -28,7 +28,7 @@
 
 `uv sync`
 
-- Creëer een lock bestand voor de afhankelijkheden van het project:
+- Creëer een lockbestand voor de afhankelijkheden van het project:
 
 `uv lock`
 
