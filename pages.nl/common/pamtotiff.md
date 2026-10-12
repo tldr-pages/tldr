@@ -1,6 +1,6 @@
 # pamtotiff
 
-> Converteer een PAM afbeelding naar een TIFF bestand.
+> Converteer een PAM afbeelding naar een TIFF-bestand.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/pamtotiff.html>.
 
 - Converteer een PAM afbeelding naar een TIFF afbeelding:

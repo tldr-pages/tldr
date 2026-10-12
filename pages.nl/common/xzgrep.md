@@ -1,6 +1,6 @@
 # xzgrep
 
-> Zoek bestanden die mogelijk worden gecomprimeerd met `xz`, `lzma`, `gzip`, `bzip2`, `lzop`, of `zstd` met behulp van `regex`.
+> Zoek bestanden die mogelijk gecomprimeerd zijn met `xz`, `lzma`, `gzip`, `bzip2`, `lzop`, of `zstd` met behulp van `regex`.
 > Zie ook: `grep`.
 > Meer informatie: <https://manned.org/xzgrep>.
 
