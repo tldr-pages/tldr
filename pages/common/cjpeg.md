@@ -5,4 +5,4 @@
 
 - Compress a JPEG file with default settings:
 
-`cwebp -outfile {{path/to/output}}.jpg {{path/to/image_file}}`
+`cjpeg -outfile {{path/to/output}}.jpg {{path/to/image_file}}`
