@@ -13,7 +13,7 @@
 
 - Meld een bug over een specifiek uitvoerbaar bestand:
 
-`apport-bug {{pad/naar/executable}}`
+`apport-bug {{pad/naar/uitvoerbaar_bestand}}`
 
 - Meld een bug over een specifiek proces:
 
