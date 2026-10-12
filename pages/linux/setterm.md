@@ -1,7 +1,7 @@
 # setterm
 
 > Set terminal attributes such as colors, cursor visibility and screen blanking.
-> Some options only work in a Linux virtual console.
+> Some options only work in a virtual consoles (TTY).
 > More information: <https://manned.org/setterm>.
 
 - Clear the screen:
