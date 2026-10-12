@@ -1,7 +1,7 @@
 # limactl
 
-> Virtual machine manager voor Linux gasten, met meerdere VM-templates beschikbaar.
-> Kan worden gebruikt om containers op macOS uit te voeren, maar ook voor generieke virtuele machine use cases op macOS en Linux hosts.
+> Virtuele machinebeheerder voor Linux gasten, met meerdere VM-templates beschikbaar.
+> Kan worden gebruikt om containers op macOS uit te voeren, maar ook voor generieke virtuele machine gebruiksscenario's op macOS en Linux hosts.
 > Meer informatie: <https://github.com/lima-vm/lima>.
 
 - Toon VMs:

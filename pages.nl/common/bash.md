@@ -20,11 +20,11 @@
 
 `bash {{pad/naar/script.sh}}`
 
-- Voer commando's van bestand uit, en print alle uitgevoerde commando's naar de terminal:
+- Voer commando's van bestand uit ([x]), en print alle uitgevoerde commando's naar de terminal:
 
 `bash -x {{pad/naar/script.sh}}`
 
-- Voer commando's van bestand uit, en stop bij de eerste fout:
+- Voer commando's van bestand uit, en stop bij de [e]erste fout:
 
 `bash -e {{pad/naar/script.sh}}`
 
@@ -32,6 +32,6 @@
 
 `{{echo "echo 'bash is executed'"}} | bash`
 
-- Start een beperkte shellsessie:
+- Start een bepe[r]kte shellsessie:
 
 `bash {{[-r|--restricted]}}`

@@ -7,11 +7,11 @@
 
 `abduco`
 
-- Koppel aan een sessie en maak deze aan als deze nog niet bestaat:
+- Koppel [a]an een sessie en maak deze aan als deze nog niet bestaat:
 
 `abduco -A {{naam}} {{bash}}`
 
-- Koppel aan een sessie met `dvtm` en maak deze aan als deze nog niet bestaat:
+- Koppel [a]an een sessie met `dvtm` en maak deze aan als deze nog niet bestaat:
 
 `abduco -A {{naam}}`
 
@@ -19,6 +19,6 @@
 
 `<Ctrl \>`
 
-- Koppel aan een sessie in alleen-lezen modus:
+- Koppel [a]an een sessie in alleen-lezen ([r]) modus:
 
 `abduco -Ar {{naam}}`
