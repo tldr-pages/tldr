@@ -11,11 +11,11 @@
 
 `pm list packages -f`
 
-- Toon alleen uitgeschakelde pakketten ([d]isabled):
+- Toon alleen uitgeschakelde pakketten ([d]):
 
 `pm list packages -d`
 
-- Toon alleen ingeschakelde pakketten ([e]nabled):
+- Toon alleen ingeschakelde pakketten ([e]):
 
 `pm list packages -e`
 
@@ -23,7 +23,7 @@
 
 `pm list packages -s`
 
-- Toon alleen pakketten van derden ([3]rd-party, niet-systeem):
+- Toon alleen pakketten van derden ([3]):
 
 `pm list packages -3`
 

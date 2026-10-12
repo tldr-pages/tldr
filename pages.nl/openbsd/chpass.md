@@ -16,6 +16,6 @@
 
 `doas chpass -s {{pad/naar/shell}} {{gebruikersnaam}}`
 
-- Specificeer een gebruikersdatabase entry in het `passwd` bestandsformaat:
+- Specificeer een gebruikersdatabasevermelding in het `passwd` bestandsformaat:
 
 `doas chpass -a {{gebruikersnaam:gecodeerd_wachtwoord:uid:gid:...}}`

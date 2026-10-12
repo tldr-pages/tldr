@@ -22,7 +22,7 @@
 
 - Maak een symbolische link\harde link\junction naar een bestand of map:
 
-`New-Item -ItemType {{SymbolicLink|HardLink|Junction}} -Path {{pad\naar\link_file}} -Target {{pad\naar\bronbestand_of_map}}`
+`New-Item -ItemType {{SymbolicLink|HardLink|Junction}} -Path {{pad\naar\linkbestand}} -Target {{pad\naar\bronbestand_of_map}}`
 
 - Maak een nieuwe lege registerinvoer (in REG_SZ, gebruik `New-ItemProperty` of `Set-ItemProperty` om het waardetype te verfijnen):
 
