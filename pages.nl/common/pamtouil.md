@@ -1,9 +1,9 @@
 # pamtouil
 
-> Converteer een PNM of PAM bestand naar een Motif UIL icon bestand.
+> Converteer een PNM- of PAM-bestand naar een Motif UIL icon-bestand.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/pamtouil.html>.
 
-- Converteer een PNM of PAM bestand naar een Motif UIL icon bestand:
+- Converteer een PNM- of PAM-bestand naar een Motif UIL icon-bestand:
 
 `pamtouil {{pad/naar/invoer}}.{{pnm|pam}} > {{pad/naar/uitvoer.uil}}`
 

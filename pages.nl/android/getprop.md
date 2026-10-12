@@ -9,7 +9,7 @@
 
 - Toon informatie over een specifieke eigenschap:
 
-`getprop {{property}}`
+`getprop {{eigenschap}}`
 
 - Toon het SDK API level:
 

@@ -3,7 +3,7 @@
 > Verander de toegangstoestemmingen van een bestand of map.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html>.
 
-- Geef een gebruiker ([u]ser) die het bestand beheert het recht om deze uit te voeren (e[x]ecute):
+- Geef de gebruiker ([u]ser) die eigenaar is van een bestand het recht om dit uit te voeren (e[x]ecute):
 
 `chmod u+x {{pad/naar/bestand}}`
 
@@ -19,7 +19,7 @@
 
 `chmod a+rx {{pad/naar/bestand}}`
 
-- Geef anderen ([o]thers) die niet in de groep van de beheerder zitten, dezelfde rechten als de [g]roep:
+- Geef anderen ([o]thers) die niet in de groep van de eigenaar zitten, dezelfde rechten als de [g]roep:
 
 `chmod o=g {{pad/naar/bestand}}`
 

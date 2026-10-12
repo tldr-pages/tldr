@@ -1,6 +1,6 @@
 # cfdisk
 
-> Beheer partitietabellen en partities op een harde schijf met het gebruik van een curses UI.
+> Beheer partitietabellen en partities op een harde schijf met behulp van een curses UI.
 > Zie ook: `parted`.
 > Meer informatie: <https://manned.org/cfdisk>.
 

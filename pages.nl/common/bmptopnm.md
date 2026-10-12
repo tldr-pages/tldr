@@ -1,9 +1,9 @@
 # bmptopnm
 
-> Converteer een BMP bestand naar een PBM, PGM of PNM afbeelding.
+> Converteer een BMP-bestand naar een PBM, PGM of PNM-afbeelding.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/bmptopnm.html>.
 
-- Genereer de PBM, PGM of PNM afbeelding als output, vanuit een Windows of OS/2 BMP bestand als input:
+- Genereer de PBM, PGM of PNM-afbeelding als output, vanuit een Windows of OS/2 BMP-bestand als input:
 
 `bmptopnm {{pad/naar/bestand.bmp}}`
 

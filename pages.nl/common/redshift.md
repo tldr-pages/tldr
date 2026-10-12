@@ -5,7 +5,7 @@
 > Zie ook: `gammastep`.
 > Meer informatie: <https://manned.org/redshift>.
 
-- Schakel Redshift in met een specifieke [t]emperatuur overdag (bijv. 5700K) en 's nachts (bijv. 3600K):
+- Schakel Redshift in met een [t]emperatuur van 5700k overdag en 3600k 's nachts:
 
 `redshift -t 5700:3600`
 
@@ -13,7 +13,7 @@
 
 `redshift -l {{breedtegraad}}:{{lengtegraad}}`
 
-- Schakel Redshift in met een specifieke schermhelderheid ([b]rightness) overdag (bijv. 70%) en 's nachts (bijv. 40%):
+- Schakel Redshift in met schermhelderheid ([b]rightness) ingesteld op 70% overdag en 40% 's nachts:
 
 `redshift -b 0.7:0.4`
 

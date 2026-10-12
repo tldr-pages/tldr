@@ -1,6 +1,6 @@
 # whois
 
-> Opdrachtregelclient voor het WHOIS (RFC 3912) protocol.
+> Client voor het WHOIS (RFC 3912) protocol.
 > Meer informatie: <https://manned.org/whois>.
 
 - Verkrijg informatie over een domeinnaam:
