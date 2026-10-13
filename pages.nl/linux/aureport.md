@@ -15,7 +15,7 @@
 
 `sudo aureport {{[-s|--syscall]}}`
 
-- Genereer een samenvatting van uitvoerbare-bestand-gebeurtenissen:
+- Genereer een samenvatting van gebeurtenissen voor uitvoerbare bestanden:
 
 `sudo aureport {{[-x|--executable]}}`
 

@@ -1,6 +1,6 @@
 # pamfunc
 
-> Pas een eenvoudige rekenkundige functie toe op een Netpbm afbeelding.
+> Pas een eenvoudige rekenkundige functie toe op een Netpbm-afbeelding.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/pamfunc.html>.
 
 - Pas de gespecificeerde rekenkundige functie toe met `n` als tweede argument op elk sample in de gespecificeerde PAM afbeelding:

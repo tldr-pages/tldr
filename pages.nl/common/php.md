@@ -19,7 +19,7 @@
 
 `php {{[-r|--run]}} "{{code}}"`
 
-- Start een PHP ingebouwde webserver in de huidige map:
+- Start een ingebouwde PHP-webserver in de huidige map:
 
 `php {{[-S|--server]}} {{host}}:{{poort}}`
 

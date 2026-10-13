@@ -1,6 +1,6 @@
 # pnmremap
 
-> Vervang de kleuren in een PNM afbeelding.
+> Vervang de kleuren in een PNM-afbeelding.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/pnmremap.html>.
 
 - Vervang de kleuren in een afbeelding met die in het gespecificeerde kleurenpalet:

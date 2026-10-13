@@ -16,7 +16,7 @@
 
 `zellij {{[a|attach]}}`
 
-- Open een nieuwe pane (binnen een zellij sessie):
+- Open een nieuwe pane (binnen een zellij-sessie):
 
 `<Alt n>`
 
