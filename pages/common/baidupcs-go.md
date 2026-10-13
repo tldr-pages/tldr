@@ -8,7 +8,7 @@
 
 `BaiduPCS-GO login -bduss {{bduss}} -stoken {{stoken}}`
 
-- Download remote files or directories to a specific local directory (uses the configured download directory if `--saveto` is omitted):
+- Download remote files or directories to a specific local directory (downloads to `./download/` if `--saveto` is omitted):
 
 `BaiduPCS-GO download {{path/to/remote1 path/to/remote2 ...}} --saveto {{path/to/local_directory}}`
 

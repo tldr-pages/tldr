@@ -7,7 +7,7 @@
 
 `BaiduPCS-Go login -bduss {{bduss}} -stoken {{stoken}}`
 
-- 下载云端文件或目录到指定的本地目录（省略 `--saveto` 时使用配置的下载目录）：
+- 下载云端文件或目录到指定的本地目录（省略 `--saveto` 时下载到`./download/`）：
 
 `BaiduPCS-Go download {{云端/文件或目录1 云端/文件或目录2 ...}} --saveto {{本地/目录}}`
 
