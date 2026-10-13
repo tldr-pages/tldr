@@ -24,3 +24,10 @@
 
 `BaiduPCS-GO cd {{path/to/remote_directory}}`
 
+- List files and directories in a remote directory:
+
+`BaiduPCS-GO ls {{path/to/remote_directory}}`
+
+- Start an interactive session:
+
+`BaiduPCS-GO`
