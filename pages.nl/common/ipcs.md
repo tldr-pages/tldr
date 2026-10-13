@@ -7,7 +7,7 @@
 
 `ipcs -a`
 
-- Toon informatie over actieve gedeelde [m]emory-segmenten, berichten[q]ueues of [s]emaphore-sets:
+- Toon informatie over actieve gedeelde [m]emory-segmenten, berichtenwachtrijen ([q]) of [s]emafoorsets:
 
 `ipcs {{-m|-q|-s}}`
 
@@ -27,6 +27,6 @@
 
 `ipcs -t`
 
-- Toon [o]utstanding gebruik voor actieve berichtenwachtrijen en gedeelde geheugensegmenten:
+- Toon [o]penstaand gebruik voor actieve berichtenwachtrijen en gedeelde geheugensegmenten:
 
 `ipcs -o`

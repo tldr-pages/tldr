@@ -6,7 +6,7 @@
 > Onderdeel van de Impacket-suite.
 > Meer informatie: <https://github.com/fortra/impacket>.
 
-- Ping een host vanaf een opgegeven IPv4 bron-adres:
+- Ping een host vanaf een opgegeven IPv4-bronadres:
 
 `ping.py {{bron_ipv4}} {{bestemmings_ipv4}}`
 
