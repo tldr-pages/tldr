@@ -24,6 +24,6 @@
 
 `sudo umount {{[-a|--all]}}`
 
-- Separa un sistema de archivos de la jerarquía de sistemas de archivos y desmóntalo en cuanto no haya referencias a él:
+- Separa un sistema de archivos de la jerarquía de sistemas de archivos y lo desmonta en cuanto no haya referencias al mismo:
 
 `sudo umount {{[-l|--lazy]}} {{ruta/al/directorio_montado}}`
