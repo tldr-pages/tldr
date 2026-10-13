@@ -23,10 +23,3 @@
 
 `BaiduPCS-Go cd {{云端/目标目录}}`
 
-- 列出云端目录中的文件和目录：
-
-`BaiduPCS-Go ls {{云端/目录}}`
-
-- 进入交互模式：
-
-`BaiduPCS-Go`
