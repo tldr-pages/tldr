@@ -19,7 +19,7 @@
 
 `act {{[-j|--job]}} {{job_id}}`
 
-- Voer de acties [n]iet daadwerkelijk uit (d.w.z. een dry-run):
+- Voer de acties niet daadwerkelijk uit (d.w.z. een dry-ru[n]):
 
 `act {{[-n|--dryrun]}}`
 

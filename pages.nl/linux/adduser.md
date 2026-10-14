@@ -15,7 +15,7 @@
 
 `adduser --home {{pad/naar/thuismap}} {{gebruikersnaam}}`
 
-- Maak een gebruiker aan met de opgegeven shell als login-shell:
+- Maak een nieuwe gebruiker aan met de opgegeven shell als login-shell:
 
 `adduser --shell {{pad/naar/shell}} {{gebruikersnaam}}`
 
