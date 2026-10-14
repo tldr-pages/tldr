@@ -16,7 +16,7 @@
 
 `xzgrep {{[-n|--line-number]}} "{{zoekpatroon}}" {{pad/naar/bestand}}`
 
-- Toon 3 regels rondom [C]ontext, voor ([B]) of na ([A]) elke overeenkomst:
+- Toon 3 regels rondom [C]ontext, voor ([B]) of n[A] elke overeenkomst:
 
 `xzgrep {{--context|--before-context|--after-context}} 3 "{{zoekpatroon}}" {{pad/naar/bestand}}`
 

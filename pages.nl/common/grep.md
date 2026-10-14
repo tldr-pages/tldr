@@ -16,7 +16,7 @@
 
 `grep {{[-rI|--recursive --binary-files=without-match]}} "{{zoekpatroon}}" {{pad/naar/map}}`
 
-- Toon 3 regels met [C]ontext rond, voor ([B]) of na ([A]) elke overeenkomst:
+- Toon 3 regels met [C]ontext rond, voor ([B]) of n[A] elke overeenkomst:
 
 `grep {{--context|--before-context|--after-context}} 3 "{{zoekpatroon}}" {{pad/naar/bestand}}`
 
