@@ -20,10 +20,10 @@
 
 `sudo ufw app update {{profile|all}}`
 
-- Update an application profile, applying the default policy if new:
+- Update a profile or add a new rule to the firewall:
 
 `sudo ufw app update --add-new {{profile}}`
 
-- Set the default policy applied to new profiles:
+- Set the default behavior for `update --add-new`:
 
 `sudo ufw app default {{allow|deny|reject|skip}}`
