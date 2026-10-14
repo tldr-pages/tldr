@@ -16,14 +16,14 @@
 
 `sudo ufw {{allow|deny}} {{profile}}`
 
-- Update existing firewall rules after modifying a profile or all:
+- Update firewall rules for a modified profile or all profiles:
 
 `sudo ufw app update {{profile|all}}`
 
-- Update a profile or add a new rule to the firewall:
+- Update a profile and add a new rule to the firewall:
 
 `sudo ufw app update --add-new {{profile}}`
 
-- Set the default behavior for `update --add-new`:
+- Configure the default behavior of `update --add-new`:
 
 `sudo ufw app default {{allow|deny|reject|skip}}`
