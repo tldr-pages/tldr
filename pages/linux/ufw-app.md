@@ -14,7 +14,7 @@
 
 - Allow or deny traffic using a specific profile:
 
-`sudo ufw {{allow|deny}} {{profile}}`
+`sudo ufw {{allow|deny}} "{{profile_name}}"`
 
 - Update firewall rules for a modified profile or all profiles:
 
