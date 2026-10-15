@@ -18,7 +18,7 @@
 
 - Update firewall rules for a modified profile or all profiles:
 
-`sudo ufw app update {{profile|all}}`
+`sudo ufw app update {{profile_name|all}}`
 
 - Update a profile and add a new rule to the firewall:
 
