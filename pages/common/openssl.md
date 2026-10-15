@@ -16,6 +16,10 @@
 
 `openssl req -new -x509 -key {{path/to/private.key}} -out {{path/to/certificate.crt}} -days 365`
 
+- Generate 16 random bytes and convert it to base64 or hex:
+
+`openssl rand -{{base64|hex}} 16`
+
 - Convert a certificate to `.pem` or `.der` format:
 
 `openssl x509 -in {{path/to/certificate.crt}} -out {{path/to/certificate.pem|path/to/certificate.der}} -outform {{pem|der}}`
