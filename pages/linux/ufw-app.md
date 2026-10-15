@@ -20,7 +20,7 @@
 
 `sudo ufw app update {{profile_name|all}}`
 
-- Update a profile and add a new rule to the firewall:
+- Update a profile, adding new rules if none exist:
 
 `sudo ufw app update --add-new {{profile}}`
 
