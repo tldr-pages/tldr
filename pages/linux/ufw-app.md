@@ -22,7 +22,7 @@
 
 - Update a profile, adding new rules if none exist:
 
-`sudo ufw app update --add-new {{profile}}`
+`sudo ufw app update --add-new "{{profile_name}}"`
 
 - Configure the default behavior of `update --add-new`:
 
