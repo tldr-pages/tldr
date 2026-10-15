@@ -17,11 +17,11 @@
 
 - Run a script with forwarded command-line arguments:
 
-`colab run {{path/to/script.py}} {{arg1 arg2 ...}}`
+`colab run {{path/to/script.py}} {{argument1 argument2 ...}}`
 
 - Run a script on a GPU and keep the session active after completion:
 
-`colab run --gpu {{T4|L4|A100}} --keep {{path/to/script.py}}`
+`colab run --gpu {{T4|L4|G4|A100|H100}} --keep {{path/to/script.py}}`
 
 - Run a script on a named session with a custom timeout:
 
