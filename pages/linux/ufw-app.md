@@ -12,7 +12,7 @@
 
 `sudo ufw app info {{profile_name|all}}`
 
-- Allow or deny traffic using an specific profile:
+- Allow or deny traffic using a specific profile:
 
 `sudo ufw {{allow|deny}} {{profile}}`
 
