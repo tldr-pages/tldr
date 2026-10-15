@@ -1,7 +1,7 @@
 # uv
 
 > Een snelle Python pakket- en projectbeheerder.
-> Sommige subcommando's zoals `tool` en `python` hebben hun eigen documentatie.
+> Sommige subcommando's zoals `tool`, `python`, etc. hebben hun eigen documentatie.
 > Meer informatie: <https://docs.astral.sh/uv/reference/cli/>.
 
 - Creëer een nieuw Python project in de huidige map:

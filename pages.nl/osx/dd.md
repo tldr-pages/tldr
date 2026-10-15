@@ -13,7 +13,7 @@
 
 - Genereer een bestand met een specifiek aantal willekeurige bytes met behulp van de kernel random driver:
 
-`dd bs={{100}} count={{1}} if=/dev/urandom of={{pad/naar/random_bestand}}`
+`dd bs={{100}} count={{1}} if=/dev/urandom of={{pad/naar/willekeurig_bestand}}`
 
 - Benchmark de schrijfsnelheid van een schijf:
 
