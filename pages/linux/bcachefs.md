@@ -10,7 +10,7 @@
 
 - Mount a `bcachefs` filesystem:
 
-`sudo bcachefs mount {{path/to/partition}} {{path/to/mountpoint}}`
+`sudo bcachefs mount {{path/to/partition}} {{path/to/mount_point}}`
 
 - Create a RAID 0 filesystem where an SSD acts as a cache and an HDD acts as a long-term storage:
 
@@ -18,11 +18,11 @@
 
 - Mount a multidevice filesystem:
 
-`sudo bcachefs mount {{path/to/partition1}}:{{path/to/partition2}} {{path/to/mountpoint}}`
+`sudo bcachefs mount {{path/to/partition1}}:{{path/to/partition2}} {{path/to/mount_point}}`
 
 - Display disk usage:
 
-`bcachefs fs usage {{[-h|--human-readable]}} {{path/to/mountpoint}}`
+`bcachefs fs usage {{[-h|--human-readable]}} {{path/to/mount_point}}`
 
 - Set replicas after formatting and mounting:
 
@@ -30,7 +30,7 @@
 
 - Force `bcachefs` to ensure all files are replicated:
 
-`sudo bcachefs data rereplicate {{path/to/mountpoint}}`
+`sudo bcachefs data rereplicate {{path/to/mount_point}}`
 
 - Create a snapshot of a particular directory:
 

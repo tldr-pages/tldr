@@ -29,7 +29,7 @@
 
 - Affiche les événements en temps réel des conteneurs sous forme de JSON :
 
-`docker system events {{[-f|--filter]}} 'type=container' --format '{{json .}}'`
+`docker system events {{[-f|--filter]}} 'type=container' --format '\{\{json .\}\}'`
 
 - Affiche les informations générales du système :
 

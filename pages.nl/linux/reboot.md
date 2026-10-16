@@ -15,7 +15,7 @@
 
 `reboot --halt`
 
-- Herstart onmiddellijk zonder contact op te nemen met de systeembeheerder:
+- Herstart onmiddellijk zonder contact op te nemen met de system manager:
 
 `reboot {{[-f|--force]}}`
 

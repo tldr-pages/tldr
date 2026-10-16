@@ -33,4 +33,4 @@
 
 - Filtra contenedores que montan un volumen específico o tienen un volumen montado en una ruta específica:
 
-`podman ps {{[-f|--filter]}} "volume={{ruta/al/directorio}}" --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Mounts}}"`
+`podman ps {{[-f|--filter]}} "volume={{ruta/al/directorio}}" --format "table \{\{.ID\}\}\t\{\{.Image\}\}\t\{\{.Names\}\}\t\{\{.Mounts\}\}"`

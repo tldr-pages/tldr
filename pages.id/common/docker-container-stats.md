@@ -13,7 +13,7 @@
 
 - Ubah format kolom luaran untuk menampilkan persentase penggunaan CPU oleh kontainer:
 
-`docker {{[stats|container stats]}} --format "{{.Name}}:\t{{.CPUPerc}}"`
+`docker {{[stats|container stats]}} --format "\{\{.Name\}\}:\t\{\{.CPUPerc\}\}"`
 
 - Siarkan statistik untuk semu[a] kontainer (baik yang dijalankan atau dihentikan):
 

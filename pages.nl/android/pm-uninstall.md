@@ -7,6 +7,6 @@
 
 `pm uninstall {{pakket}}`
 
-- Verwijder een app voor een specifieke gebruiker:
+- Verwijder een app van een specifieke gebruiker:
 
 `pm uninstall --user {{gebruiker_id}} {{pakket}}`

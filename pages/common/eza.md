@@ -11,7 +11,7 @@
 
 `eza {{[-a|--all]}}`
 
-- Long format list (permissions, ownership, size, and modification date) of all files:
+- List all files in long format (permissions, ownership, size, and modification date):
 
 `eza {{[-al|--all --long]}}`
 

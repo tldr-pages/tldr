@@ -13,7 +13,7 @@
 
 - Użyj jednostek czytelnych dla człowieka (z ang. [H]uman) (opartych na potęgach 1000):
 
-`df -{{-si|H}}`
+`df -H`
 
 - Wyświetl wszystkie systemy plików i ich wykorzystanie dysków zawierające podany plik lub katalog:
 

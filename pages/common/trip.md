@@ -5,7 +5,7 @@
 > Designed to assist with the analysis of networking issues.
 > More information: <https://trippy.rs/reference/cli/>.
 
-- Basic usage with default parameters:
+- Trace the route to a host with default parameters:
 
 `sudo trip {{example.com}}`
 

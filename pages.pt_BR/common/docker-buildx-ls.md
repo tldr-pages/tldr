@@ -9,4 +9,4 @@
 
 - Formata a saída usando um template Go:
 
-`docker buildx ls --format "{{.NAME}}: {{.DriverEndpoint}}"`
+`docker buildx ls --format "\{\{.NAME\}\}: \{\{.DriverEndpoint\}\}"`

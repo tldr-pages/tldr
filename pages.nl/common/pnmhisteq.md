@@ -1,9 +1,9 @@
 # pnmhisteq
 
-> Pas histogramequalisatie toe op een PNM afbeelding.
+> Pas histogramequalisatie toe op een PNM-afbeelding.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/pnmhisteq.html>.
 
-- Verhoog het contrast van een PNM afbeelding met behulp van histogramequalisatie:
+- Verhoog het contrast van een PNM-afbeelding met behulp van histogramequalisatie:
 
 `pnmhisteq {{pad/naar/invoer.pnm}} > {{pad/naar/uitvoer.pnm}}`
 

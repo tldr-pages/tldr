@@ -19,11 +19,11 @@
 
 `sort {{[-n|--numeric-sort]}} {{pad/naar/bestand}}`
 
-- Sorteer `/etc/passwd` numeriek vanaf het 3e veld van elke regel, gebruikmakend van ":" als veldscheidingsteken:
+- Sorteer `/etc/passwd` numeriek vanaf het 3e veld van elke regel, gebruikmakend van `:` als veldscheidingsteken:
 
 `sort {{[-t|--field-separator]}} : {{[-k|--key]}} 3n /etc/passwd`
 
-- Sorteer zoals hierboven, maar wanneer items in het 3e veld gelijk zijn, sorteer op het 4e veld met getallen en exponenten:
+- Sorteer `/etc/passwd` numeriek op het 3e veld, en wanneer items in het 3e veld gelijk zijn, sorteer op het 4e veld met getallen en exponenten:
 
 `sort {{[-t|--field-separator]}} : {{[-k|--key]}} 3,3n {{[-k|--key]}} 4,4g /etc/passwd`
 

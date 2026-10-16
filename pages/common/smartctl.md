@@ -17,7 +17,7 @@
 
 - Display the self-test log:
 
-`sudo smartctl {{[-l|--log]}} selftest`
+`sudo smartctl {{[-l|--log]}} selftest {{/dev/sdX}}`
 
 - Display current/last self-test status and other SMART capabilities:
 

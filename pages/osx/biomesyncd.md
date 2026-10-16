@@ -1,6 +1,6 @@
 # biomesyncd
 
-> Synchronizes data between devices registered to the same account.
+> Synchronize data between devices registered to the same account.
 > Note: It should not be invoked manually.
 > More information: <https://keith.github.io/xcode-man-pages/biomesyncd.8.html>.
 

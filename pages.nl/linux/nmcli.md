@@ -24,7 +24,7 @@
 
 `tldr nmcli monitor`
 
-- Bekijk de documentatie voor de status van netwerken in/uit te schakelen en te controleren:
+- Bekijk de documentatie voor het in-/uitschakelen en controleren van de status van netwerken:
 
 `tldr nmcli networking`
 

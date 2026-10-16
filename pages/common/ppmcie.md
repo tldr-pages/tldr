@@ -13,7 +13,7 @@
 
 - Specify the location of the individual illuminants:
 
-`ppmcie -{{red|green|blue}} {{xpos ypos}} > {{path/to/output.ppm}}`
+`ppmcie -{{red|green|blue}} {{xpos}} {{ypos}} > {{path/to/output.ppm}}`
 
 - Do not dim the area outside the Maxwell triangle:
 

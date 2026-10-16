@@ -5,4 +5,4 @@
 
 - PNG를 벡터 이미지 형식으로 변환:
 
-`vectorize-pixelart {{경로/대상/입력.png}} {{경로/대상/출력.svg|.eps}}`
+`vectorize-pixelart {{경로/대상/입력.png}} {{경로/대상/출력}}.{{svg|eps}}`

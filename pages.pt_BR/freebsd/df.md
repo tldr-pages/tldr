@@ -13,7 +13,7 @@
 
 - Usa unidades legíveis para [h]umanos (baseadas em potências de 1000):
 
-`df -{{-si|H}}`
+`df -H`
 
 - Exibe o sistema de arquivos e seu uso do disco contendo o arquivo ou diretório dado:
 

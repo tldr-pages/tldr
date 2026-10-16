@@ -7,11 +7,11 @@
 
 `df`
 
-- Gebruik leesbare eenheden (gebaseerd op de macht van 1024) en toon het grote totaal:
+- Gebruik leesbare eenheden ([h], gebaseerd op de macht van 1024) en toon het grote totaal:
 
 `df -h -c`
 
-- Gebruik leesbare eenheden (gebaseerd op de macht van 1000):
+- Gebruik leesbare eenheden ([H], gebaseerd op de macht van 1000):
 
 `df {{[-H|--si]}}`
 
@@ -19,14 +19,14 @@
 
 `df {{pad/naar/bestand_of_map}}`
 
-- Neem statistieken op over het aantal beschikbare en gebruikte [i]-knooppunten, inclusief de bestandssysteem t[Y]pes:
+- Neem statistieken op over het aantal beschikbare en gebruikte [i]-knooppunten, inclusief de bestandssysteemt[Y]pes:
 
 `df -iY`
 
-- Gebruik [k]ibibyte (1024-byte) eenheden voor het weergeven van de groottecijfers:
+- Gebruik [k]ibibyte-eenheden (1024 byte) voor het weergeven van de groottecijfers:
 
 `df -k`
 
-- Toon informatie op een [P]ortable wijze:
+- Toon informatie op een draagbare wijze ([P]):
 
 `df -P`

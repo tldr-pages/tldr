@@ -10,7 +10,7 @@
 
 - Haal het PowerShell geschiedenis-item op via een ID:
 
-`Get-History -Id {{id}}`
+`Get-History -Id {{item_id}}`
 
 - Toon de laatste `n` commando's:
 

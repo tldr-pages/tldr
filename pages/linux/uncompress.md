@@ -15,6 +15,6 @@
 
 `uncompress -c {{path/to/file1.Z path/to/file2.Z ...}}`
 
-- Verbose mode (write to `stderr` about percentage reduction or expansion):
+- Uncompress files verbosely (write to `stderr` about percentage reduction or expansion):
 
 `uncompress -v {{path/to/file1.Z path/to/file2.Z ...}}`

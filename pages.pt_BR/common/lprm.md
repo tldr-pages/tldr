@@ -10,7 +10,7 @@
 
 - Cancela um trabalho de um servidor específico:
 
-`lprm -h {{servidor[:porta]}} {{id_do_trabalho}}`
+`lprm -h {{servidor:porta}} {{id_do_trabalho}}`
 
 - Cancela múltiplos trabalhos com uma conexão criptografada com o servidor:
 

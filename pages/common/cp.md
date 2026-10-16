@@ -15,9 +15,9 @@
 
 `cp {{[-r|--recursive]}} {{path/to/source_directory}} {{path/to/target_directory}}`
 
-- Copy a directory recursively, in verbose mode (shows files as they are copied):
+- Copy a directory recursively, in verbose mode (shows files as they are copied) and preserve permission, timestamps, and symlinks:
 
-`cp {{[-vr|--verbose --recursive]}} {{path/to/source_directory}} {{path/to/target_directory}}`
+`cp {{[-vra|--verbose --recursive --archive]}} {{path/to/source_directory}} {{path/to/target_directory}}`
 
 - Copy multiple files at once to a directory:
 

@@ -1,7 +1,7 @@
 # choco
 
 > The Chocolatey package manager.
-> Some subcommands such as `install`, `upgrade`, `pin` have their own usage documentation.
+> Some subcommands such as `install`, `upgrade`, `pin`, etc. have their own usage documentation.
 > More information: <https://docs.chocolatey.org/en-us/choco/commands/>.
 
 - Install a package:

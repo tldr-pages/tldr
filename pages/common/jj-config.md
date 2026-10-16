@@ -1,7 +1,7 @@
 # jj config
 
 > Manage config options.
-> Some subcommands such as `edit`, `get`, `list`, `path`, `set`, `unset` have their own usage documentation.
+> Some subcommands such as `edit`, `get`, `list`, `path`, `set`, and `unset` have their own usage documentation.
 > More information: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-config>.
 
 - Start an editor on the user-level config file:

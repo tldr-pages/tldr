@@ -16,7 +16,7 @@
 
 `parallel convert {} {.}.png ::: *.jpg`
 
-- Parallel xargs, cram as many args as possible onto one command:
+- Run like `xargs` in parallel, cramming as many arguments as possible onto one command:
 
 `{{args}} | parallel -X {{command}}`
 

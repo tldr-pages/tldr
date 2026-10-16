@@ -1,7 +1,7 @@
 # cradle
 
 > The Cradle PHP framework.
-> Some subcommands such as `install` and `package` have their own usage documentation.
+> Some subcommands such as `install`, `package`, etc. have their own usage documentation.
 > More information: <https://cradlephp.github.io/docs/3.B.-Reference-Command-Line-Tools.html>.
 
 - Install Cradle components (prompts for additional info):

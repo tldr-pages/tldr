@@ -33,4 +33,4 @@
 
 - Affiche les conteneurs avec un point de montage spécifique :
 
-`docker {{[ps|container ls]}} {{[-f|--filter]}} "volume={{chemin/vers/répertoire}}" --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Mounts}}"`
+`docker {{[ps|container ls]}} {{[-f|--filter]}} "volume={{chemin/vers/répertoire}}" --format "table \{\{.ID\}\}\t\{\{.Image\}\}\t\{\{.Names\}\}\t\{\{.Mounts\}\}"`

@@ -8,7 +8,7 @@
 
 `apt list`
 
-- List packages by name only (supports wildcards like *):
+- List packages by name only (supports wildcards like `*`):
 
 `apt list {{package}}`
 

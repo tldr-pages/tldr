@@ -1,6 +1,6 @@
 # ip route list
 
-> Toon het subcommando voor het beheer van IP-routetabellen.
+> IP-subcommando voor het weergeven van routeringstabellen.
 > Meer informatie: <https://manned.org/ip-route>.
 
 - Toon de `main` routeringstabel:

@@ -19,7 +19,7 @@
 
 `docker {{[ps|container ls]}} {{[-f|--filter]}} "name={{naam}}"`
 
-- Filter containers die een bepaalde afbeelding als voorouder hebben:
+- Filter containers die een bepaalde image als voorouder hebben:
 
 `docker {{[ps|container ls]}} {{[-f|--filter]}} "ancestor={{image}}:{{tag}}"`
 
@@ -33,4 +33,4 @@
 
 - Filter containers die gekoppeld zijn aan een specifiek volume of waarvan het volume op een specifiek pad is gekoppeld:
 
-`docker {{[ps|container ls]}} {{[-f|--filter]}} "volume={{pad/naar/map}}" --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Mounts}}"`
+`docker {{[ps|container ls]}} {{[-f|--filter]}} "volume={{pad/naar/map}}" --format "table \{\{.ID\}\}\t\{\{.Image\}\}\t\{\{.Names\}\}\t\{\{.Mounts\}\}"`

@@ -3,7 +3,7 @@
 > Toon een log met veranderingen in lokale referenties zoals HEAD, branches en tags.
 > Meer informatie: <https://git-scm.com/docs/git-reflog>.
 
-- Toon de reflog voor HEAD:
+- Toon de reflog voor `HEAD`:
 
 `git reflog`
 

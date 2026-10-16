@@ -1,7 +1,7 @@
 # kubectl krew
 
 > `kubectl`용 플러그인 관리자.
-> 관련 항목: `kubectl-plugin`.
+> 관련 항목: `kubectl plugin`.
 > 더 많은 정보: <https://krew.sigs.k8s.io/docs/>.
 
 - 사용 가능한 플러그인 검색:

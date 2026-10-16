@@ -1,6 +1,6 @@
 # linode-cli domains
 
-> Beheer Linode Domains en DNS configuratie.
+> Beheer Linode Domains en DNS-configuratie.
 > Meer informatie: <https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-the-dns-manager>.
 
 - Toon alle beheerde domeinen:
@@ -23,14 +23,14 @@
 
 `linode-cli domains records-list {{domein_id}}`
 
-- Voeg een DNS record toe aan een domein:
+- Voeg een DNS-record toe aan een domein:
 
-`linode-cli domains records-create {{domein_id}} --type {{A|AAAA|CNAME|MX|...}} --name {{subdomein}} --target {{target_value}}`
+`linode-cli domains records-create {{domein_id}} --type {{A|AAAA|CNAME|MX|...}} --name {{subdomein}} --target {{doelwaarde}}`
 
-- Update een DNS record voor een domein:
+- Update een DNS-record voor een domein:
 
-`linode-cli domains records-update {{domein_id}} {{record_id}} --target {{new_target_value}}`
+`linode-cli domains records-update {{domein_id}} {{record_id}} --target {{nieuwe_doelwaarde}}`
 
-- Verwijder een DNS record van een domein:
+- Verwijder een DNS-record van een domein:
 
 `linode-cli domains records-delete {{domein_id}} {{record_id}}`

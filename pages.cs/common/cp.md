@@ -13,11 +13,11 @@
 
 - Rekurzivně zkopírovat obsah adresáře do jiné lokace (pokud cíl existuje, adresář se zkopíruje do něj):
 
-`cp {{[-r|--recursive]}} {{cesta/ke/zdrojovemu_adresari}} {{cesta/k/cilovemu_adresare}}`
+`cp {{[-r|--recursive]}} {{cesta/ke/zdrojovemu_adresari}} {{cesta/k/cilovemu_adresari}}`
 
-- Zkopírovat adresář rekurzivně, ve verbózním režimu (zobrazí soubory jak jsou zkopírovány):
+- Zkopírovat adresář rekurzivně, ve verbózním režimu (zobrazí soubory jak jsou zkopírovány) a zachovat oprávnění, časové razítka, a symbolické odkazy:
 
-`cp {{[-vr|--verbose --recursive]}} {{cesta/ke/zdrojovemu_adresari}} {{cesta/k/cilovemu_adresari}}`
+`cp {{[-vra|--verbose --recursive --archive]}} {{cesta/ke/zdrojovemu_adresari}} {{cesta/k/cilovemu_adresari}}`
 
 - Zkopírovat více souborů do adresáře naráz:
 

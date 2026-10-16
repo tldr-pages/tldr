@@ -8,7 +8,7 @@
 
 `rdesktop -u {{username}} -p {{password}} {{host:port}}`
 
-- Simple Examples:
+- Connect to a remote computer as `Administrator` with a specific password:
 
 `rdesktop -u Administrator -p passwd123 192.168.1.111:3389`
 

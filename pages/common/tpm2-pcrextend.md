@@ -1,6 +1,6 @@
 # tpm2 pcrextend
 
-> Extends a PCR.
+> Extend a PCR.
 > More information: <https://manned.org/tpm2_pcrextend>.
 
 - Extend the PCR 16 value of the sha1 bank:

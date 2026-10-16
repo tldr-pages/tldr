@@ -9,7 +9,7 @@
 
 - Endus lalu lintas nirkabel dalam saluran no. 1:
 
-`airport sniff {{1}}`
+`airport sniff 1`
 
 - Pindai daftar jaringan nirkabel yang tersedia:
 

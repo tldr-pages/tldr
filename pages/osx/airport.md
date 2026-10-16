@@ -9,7 +9,7 @@
 
 - Sniff wireless traffic on channel 1:
 
-`airport sniff {{1}}`
+`airport sniff 1`
 
 - Scan for available wireless networks:
 

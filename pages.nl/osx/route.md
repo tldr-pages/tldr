@@ -7,7 +7,7 @@
 
 `sudo route add "{{bestemming_ip_adres}}" "{{gateway_adres}}"`
 
-- Voeg een route toe naar een /24 subnet via een gateway:
+- Voeg een route toe naar een `/24` subnet via een gateway:
 
 `sudo route add "{{subnet_ip_adres}}/24" "{{gateway_adres}}"`
 

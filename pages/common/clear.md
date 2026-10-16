@@ -1,6 +1,6 @@
 # clear
 
-> Clears the screen of the terminal.
+> Clear the screen of the terminal.
 > More information: <https://manned.org/clear>.
 
 - Clear the screen:

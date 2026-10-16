@@ -1,6 +1,6 @@
 # base64
 
-> Encodeer of decodeer een bestand of `stdin` van/naar base64, naar `stdout` of een ander bestand.
+> Encodeer of decodeer een bestand of `stdin` van/naar Base64, naar `stdout` of een ander bestand.
 > Meer informatie: <https://keith.github.io/xcode-man-pages/bintrans.1>.
 
 - Encodeer een bestand naar `stdout`:

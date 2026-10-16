@@ -1,7 +1,7 @@
 # bun pm
 
 > A set of utilities for working with Bun's package manager.
-> Some subcommands such as `pack`, `pkg` have their own usage documentation.
+> Some subcommands such as `pack`, `pkg`, etc. have their own usage documentation.
 > More information: <https://bun.com/docs/pm/cli/pm>.
 
 - Create a tarball of the current workspace:

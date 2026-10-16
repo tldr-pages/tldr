@@ -8,7 +8,7 @@
 
 `unimatrix --no-bold --speed {{96}} --character-list {{o}}`
 
-- No bold characters, slowly, with emojis, numbers, and a few symbols:
+- Display characters without bold, slowly, with emojis, numbers, and a few symbols:
 
 `unimatrix --no-bold --speed {{50}} --character-list {{ens}}`
 

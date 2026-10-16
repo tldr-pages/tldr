@@ -9,7 +9,7 @@
 
 - Activeer de virtuele omgeving (Linux en macOS):
 
-`{{[.|source]}} {{pad\naar\virtuele_omgeving}}/bin/activate`
+`{{[.|source]}} {{pad/naar/virtuele_omgeving}}/bin/activate`
 
 - Activeer de virtuele omgeving (Windows):
 

@@ -1,6 +1,6 @@
 # Move-Item
 
-> Verplaats of hernoem bestanden, mappen, registersleutels en andere PowerShell data items.
+> Verplaats of hernoem bestanden, mappen, registersleutels en andere PowerShell-gegevensitems.
 > Dit commando kan alleen worden uitgevoerd onder PowerShell.
 > Meer informatie: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/move-item>.
 

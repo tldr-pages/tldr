@@ -7,11 +7,11 @@
 
 `quota {{[-s|--human-readable]}}`
 
-- Verbose output (also display quotas on filesystems where no storage is allocated):
+- Display disk quotas verbosely (also display quotas on filesystems where no storage is allocated):
 
 `quota {{[-v|--verbose]}}`
 
-- Quiet output (only display quotas on filesystems where usage is over quota):
+- Display disk quotas quietly (only display quotas on filesystems where usage is over quota):
 
 `quota {{[-q|--quiet]}}`
 

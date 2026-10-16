@@ -20,7 +20,7 @@
 
 `ed {{[-q|--quiet]}} {{[-s|--script]}}`
 
-- Start een interactieve editor sessie zonder exit status change als het commando faalt:
+- Start een interactieve editor sessie zonder wijziging van de exitstatus als het commando faalt:
 
 `ed {{[-l|--loose-exit-status]}}`
 
@@ -28,10 +28,10 @@
 
 `ed {{pad/naar/bestand}}`
 
-- Vervang een string met een specifieke vervanging voor alle regels:
+- [Interactief] Vervang een string met een specifieke vervanging voor alle regels:
 
-`,s/{{reguliere_expressie}}/{{vervanging}}/g<Enter>`
+`,s/{{regex}}/{{vervanging}}/g`
 
-- Sluit `ed` af:
+- [Interactief] Sluit `ed` af:
 
-`q<Enter>`
+`q`

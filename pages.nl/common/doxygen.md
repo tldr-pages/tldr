@@ -7,7 +7,7 @@
 
 `doxygen`
 
-- Genereer het standaard configuratiebestand `Doxyfile`:
+- Genereer het standaard template configuratiebestand `Doxyfile`:
 
 `doxygen -g`
 
