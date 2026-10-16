@@ -12,7 +12,7 @@
 
 `zip {{[-d|--delete]}} {{pad/naar/gecomprimeerd.zip}} {{pad/naar/bestand_of_map1 pad/naar/bestand_of_map2 ...}}`
 
-- Archiveer bestanden/mappen waarbij opgegeven bestanden worden uitgesloten:
+- Archiveer bestanden/mappen waarbij opgegeven bestanden of mappen worden uitgesloten:
 
 `zip {{[-r|--recurse-paths]}} {{pad/naar/gecomprimeerd.zip}} {{pad/naar/bestand_of_map1 pad/naar/bestand_of_map2 ...}} {{[-x|--exclude]}} {{pad/naar/uitgesloten_bestanden_of_mappen}}`
 

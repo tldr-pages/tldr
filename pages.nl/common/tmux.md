@@ -21,15 +21,15 @@
 
 `tmux {{[a|attach]}} -t {{naam}}`
 
-- Koppel los van de huidige sessie (binnen een tmux sessie):
+- Koppel los van de huidige sessie (binnen een tmux-sessie):
 
 `<Ctrl b><d>`
 
-- Creëer een nieuw venster (binnen een tmux sessie):
+- Creëer een nieuw venster (binnen een tmux-sessie):
 
 `<Ctrl b><c>`
 
-- Wissel tussen sessies en vensters (binnen een tmux sessie):
+- Wissel tussen sessies en vensters (binnen een tmux-sessie):
 
 `<Ctrl b><w>`
 

@@ -1,6 +1,6 @@
 # fossil commit
 
-> Commit bestanden naar een Fossil repository.
+> Commit bestanden naar een Fossil-repository.
 > Meer informatie: <https://fossil-scm.org/home/help/commit>.
 
 - Maak een nieuwe versie met alle aanpassingen in de huidige checkout; de gebruiker zal gevraagd worden voor een opmerking:
@@ -13,7 +13,7 @@
 
 - Maak een nieuwe versie met alle aanpassingen in de huidige checkout met een opmerking ingelezen vanaf een specifiek bestand:
 
-`fossil {{[ci|commit]}} {{[-M|--message-file]}} {{pad/naar/commit_message_bestand}}`
+`fossil {{[ci|commit]}} {{[-M|--message-file]}} {{pad/naar/commit_bericht_bestand}}`
 
 - Maak een nieuwe versie met aanpassingen van de gespecificeerde bestanden; de gebruiker zal gevraagd worden voor een opmerking:
 

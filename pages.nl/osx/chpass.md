@@ -21,6 +21,6 @@
 
 `chpass -l {{locatie}} -s {{pad/naar/shell}} {{gebruikersnaam}}`
 
-- Gebruik de opgegeven gebr[u]ikersnaam bij het authenticeren van het mapknooppunt dat de gebruiker bevat:
+- Gebruik de opgegeven gebr[u]ikersnaam bij het authenticeren van de directory node die de gebruiker bevat:
 
-`chpass -u {{auth_naam}} -s {{pad/naar/shell}} {{gebruikersnaam}}`
+`chpass -u {{authnaam}} -s {{pad/naar/shell}} {{gebruikersnaam}}`

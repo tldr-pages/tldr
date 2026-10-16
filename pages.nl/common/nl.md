@@ -29,8 +29,8 @@
 
 - Specificeer de breedte ([w]) van de nummering (standaard is 6):
 
-`nl -w {{col_width}} {{pad/naar/bestand}}`
+`nl -w {{kolombreedte}} {{pad/naar/bestand}}`
 
 - Gebruik een specifieke string om de regelnummers van de regels te [s]cheiden (standaard is `TAB`):
 
-`nl -s {{separator}} {{pad/naar/bestand}}`
+`nl -s {{scheidingsteken}} {{pad/naar/bestand}}`

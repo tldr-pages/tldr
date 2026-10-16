@@ -7,6 +7,6 @@
 
 `avahi-resolve -4 {{[-n|--name]}} {{service.local}}`
 
-- Vertaal een IP naar een hostnaam, verbose:
+- Vertaal een IP naar een hostnaam, uitgebreid:
 
 `avahi-resolve {{[-v|--verbose]}} {{[-a|--address]}} {{ip_adres}}`
