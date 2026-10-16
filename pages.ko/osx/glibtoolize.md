@@ -1,7 +1,7 @@
 # glibtoolize
 
-> 이 명령어는 GNU `libtoolize`의 별칭입니다.
+> 이 명령은 `libtoolize`의 별칭입니다.
 
-- 원본 명령어 보기:
+- 원래 명령의 문서 보기:
 
 `tldr {{[-p|--platform]}} linux libtoolize`
