@@ -7,7 +7,7 @@
 
 `stat {{pad/naar/bestand}}`
 
-- Zelfde als hierboven maar uitgebreid (meer vergelijkbaar met Linux's `stat`):
+- Toon bestandseigenschappen uitgebreid (meer vergelijkbaar met Linux's `stat`):
 
 `stat -x {{pad/naar/bestand}}`
 

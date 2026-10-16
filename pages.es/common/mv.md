@@ -19,7 +19,7 @@
 
 `mv {{[-f|--force]}} {{ruta/a/origen}} {{ruta/a/destino}}`
 
-- Pedir confirmación interactivamente antes de sobrescribir archivos existentes, independientemente de los permisos de los archivos:
+- Pide confirmación interactivamente antes de sobrescribir archivos existentes, independientemente de los permisos de los archivos:
 
 `mv {{[-i|--interactive]}} {{ruta/a/origen}} {{ruta/a/destino}}`
 

@@ -1,6 +1,6 @@
 # inotifywait
 
-> Waits for changes to files.
+> Wait for changes to files.
 > See also: `fatrace`.
 > More information: <https://manned.org/inotifywait>.
 

@@ -4,7 +4,7 @@
 > Wijzigingen worden direct toegepast op het originele bestand.
 > Meer informatie: <https://imagemagick.org/script/mogrify.php>.
 
-- Wijzig de grootte van alle JPEG afbeeldingen in de map naar 50% van hun oorspronkelijke grootte:
+- Wijzig de grootte van alle JPEG-afbeeldingen in de map naar 50% van hun oorspronkelijke grootte:
 
 `magick mogrify -resize {{50%}} {{*.jpg}}`
 

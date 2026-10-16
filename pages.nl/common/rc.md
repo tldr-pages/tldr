@@ -1,6 +1,6 @@
 # rc
 
-> Een moderne simplistische poort luisteraar en omgekeerde shell.
+> Een moderne simplistische poortluisteraar en omgekeerde shell.
 > Vergelijkbaar met `nc`.
 > Meer informatie: <https://github.com/robiot/rustcat/wiki/Basic-Usage>.
 

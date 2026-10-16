@@ -1,7 +1,7 @@
 # mmls
 
 > 볼륨 시스템의 파티션 레이아웃을 표시.
-> 더 많은 정보: <https://wiki.sleuthkit.org/index.php?title=Mmls>.
+> 더 많은 정보: <https://wiki.sleuthkit.org/Mmls/>.
 
 - 이미지 파일에 저장된 파티션 테이블 표시:
 

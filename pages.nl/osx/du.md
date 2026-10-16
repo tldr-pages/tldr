@@ -11,7 +11,7 @@
 
 `du -h {{pad/naar/map}}`
 
-- Toon de grootte van een enkele map met een leesbaar eenheid formaat:
+- Toon de grootte van een enkele map, in leesbare eenheden:
 
 `du -sh {{pad/naar/map}}`
 

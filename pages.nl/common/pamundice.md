@@ -1,6 +1,6 @@
 # pamundice
 
-> Combineer een raster van Netpbm afbeeldingen tot één afbeelding.
+> Combineer een raster van Netpbm-afbeeldingen tot één afbeelding.
 > Zie ook: `pamdice`.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/pamundice.html>.
 

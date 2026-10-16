@@ -13,11 +13,11 @@
 
 - Pak een archief uit naar de huidige map:
 
-`yaa extract -i {{pad/naar/archief.yaa}}`
+`yaa extract -i {{pad/naar/archief_bestand.yaa}}`
 
 - Toon de inhoud van een archief:
 
-`yaa list -i {{pad/naar/archief.yaa}}`
+`yaa list -i {{pad/naar/archief_bestand.yaa}}`
 
 - Maak een archief met een specifiek compressie-algoritme:
 

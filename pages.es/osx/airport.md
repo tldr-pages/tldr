@@ -9,7 +9,7 @@
 
 - Detecta tráfico inalámbrico en el canal 1:
 
-`airport sniff {{1}}`
+`airport sniff 1`
 
 - Busca redes inalámbricas disponibles:
 

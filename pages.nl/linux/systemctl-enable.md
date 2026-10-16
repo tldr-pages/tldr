@@ -1,6 +1,6 @@
 # systemctl enable
 
-> Schakel systemd-services aan.
+> Schakel systemd-services in.
 > Zie ook: `systemctl revert`.
 > Meer informatie: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#enable%20UNIT%E2%80%A6>.
 

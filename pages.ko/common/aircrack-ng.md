@@ -10,7 +10,7 @@
 
 - [w]ordlist와 액세스 포인트의 [e]ssid를 사용하여 캡처 파일에서 키를 크랙:
 
-`aircrack-ng -w {{경로/대상/wordlist.txt}} -e {{essid}} {{경로/대상/capture.cap}}`
+`aircrack-ng -w {{경로/대상/wordlist.txt}} -e {{extended_ssid}} {{경로/대상/capture.cap}}`
 
 - [w]ordlist와 액세스 포인트의 MAC 주소를 사용하여 캡처 파일에서 키를 크랙:
 

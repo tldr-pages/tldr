@@ -14,11 +14,11 @@
 
 - Appendi regola ad una catena di policy per IP:
 
-`sudo iptables {{[-A|--append]}} {{catena}} {{[-s|--source]}} {{ip}} {{[-j|--jump]}} {{regola}}`
+`sudo iptables {{[-A|--append]}} {{catena}} {{[-s|--source]}} {{ip_address}} {{[-j|--jump]}} {{regola}}`
 
 - Appendi regola ad una catena di policy per IP considerando protocollo e porta:
 
-`sudo iptables {{[-A|--append]}} {{catena}} {{[-s|--source]}} {{ip}} {{[-p|--protocol]}} {{protocollo}} --dport {{porta}} {{[-j|--jump]}} {{regola}}`
+`sudo iptables {{[-A|--append]}} {{catena}} {{[-s|--source]}} {{ip_address}} {{[-p|--protocol]}} {{protocollo}} --dport {{porta}} {{[-j|--jump]}} {{regola}}`
 
 - Cancella regola da una catena:
 

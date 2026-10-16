@@ -1,6 +1,6 @@
 # texliveonfly
 
-> Downloads missing TeX Live packages while compiling `.tex` files.
+> Download missing TeX Live packages while compiling `.tex` files.
 > More information: <https://ctan.org/tex-archive/support/texliveonfly>.
 
 - Download missing packages while compiling:

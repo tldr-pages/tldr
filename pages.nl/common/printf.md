@@ -8,6 +8,10 @@
 
 `printf "{{%s\n}}" "{{Hallo wereld}}"`
 
+- Toon een geformatteerd bericht meerdere keren met verschillende strings:
+
+`printf "%s\n" {{string1 string2 ...}}`
+
 - Toon een geheel getal in vetgedrukt blauw:
 
 `printf "{{\e[1;34m%.3d\e[0m\n}}" {{42}}`
@@ -26,4 +30,4 @@
 
 - Toon een hexadecimaal, octaal en wetenschappelijk getal:
 
-`printf "{{hex=%x octal=%o scientific=%e}}" 0x{{FF}} 0{{377}} {{100000}}`
+`printf "{{hex=%x octal=%o scientific=%e\n}}" 0x{{FF}} 0{{377}} {{100000}}`

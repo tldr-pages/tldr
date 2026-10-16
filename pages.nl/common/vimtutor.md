@@ -4,9 +4,9 @@
 > Zie ook: `vim`, `vimdiff`, `nvim`.
 > Meer informatie: <https://manned.org/vimtutor>.
 
-- Start de vim tutor voor de opgegeven taal (en, fr, de, ...):
+- Start de vim tutor voor de opgegeven taal:
 
-`vimtutor {{taal}}`
+`vimtutor {{en|fr|de|...}}`
 
 - Verlaat de tutor:
 

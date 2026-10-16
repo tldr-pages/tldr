@@ -24,6 +24,6 @@
 
 `PATH;`
 
-- Toon de hulp:
+- Toon de help:
 
 `PATH /?`

@@ -8,7 +8,7 @@
 
 `kill {{proces_id}}`
 
-- Toon beschikbare signalen (te gebruiken zonder het `SIG` voorvoegsel):
+- Toon beschikbare signaalnamen (te gebruiken zonder het `SIG` voorvoegsel):
 
 `kill -l`
 

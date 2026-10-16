@@ -1,6 +1,6 @@
 # bundle
 
-> Dependency manager voor de Ruby programmeertaal.
+> Dependency manager voor de Ruby-programmeertaal.
 > Meer informatie: <https://bundler.io/man/bundle.1.html>.
 
 - Installeer alle gems gedefinieerd in de `Gemfile`, welke verwacht wordt in de huidige map:
@@ -19,7 +19,7 @@
 
 `bundle update {{gem_naam1 gem_naam2 ...}}`
 
-- Update een of meerdere specifieke gem(s) gedefinieerd in de `Gemfile` maar alleen naar de volgende patch versie:
+- Update een of meerdere specifieke gem(s) gedefinieerd in de `Gemfile` maar alleen naar de volgende patch-versie:
 
 `bundle update --patch {{gem_naam1 gem_naam2 ...}}`
 
@@ -31,6 +31,6 @@
 
 `bundle outdated`
 
-- Maak een nieuw gem skelet:
+- Maak een nieuw gem-skelet:
 
 `bundle gem {{gem_naam}}`

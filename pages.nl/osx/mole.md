@@ -11,7 +11,7 @@
 
 `mole clean`
 
-- Bekijk een voorproefje van de opschoning zonder wijzigingen aan te brengen:
+- Simuleer de opschoning zonder wijzigingen aan te brengen:
 
 `mole clean --dry-run`
 
@@ -31,6 +31,6 @@
 
 `mole status`
 
-- Verwijder oude projectbestanden:
+- Verwijder oude projectartefacten:
 
 `mole purge`

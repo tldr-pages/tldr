@@ -1,7 +1,7 @@
 # csplit
 
 > Splits een bestand in stukken.
-> Dit genereert bestanden zoals `xx00`, `xx01` etc.
+> Dit genereert bestanden genaamd `xx00`, `xx01` etc.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/csplit-invocation.html>.
 
 - Splits een bestand in twee delen, waarbij het tweede deel begint op regel 10:

@@ -1,6 +1,6 @@
 # glib-compile-resources
 
-> Compiles resource files (e.g. images) into a binary resource bundle.
+> Compile resource files (e.g. images) into a binary resource bundle.
 > These may be linked into GTK applications using the GResource API.
 > More information: <https://manned.org/glib-compile-resources>.
 

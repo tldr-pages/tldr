@@ -7,15 +7,15 @@
 
 `crane rebase`
 
-- Nieuwe basisimage om in te voegen:
+- Specificeer een nieuwe basisimage om in te voegen:
 
 `crane rebase --new_base {{image_naam}}`
 
-- Oude basisimage om te verwijderen:
+- Specificeer een oude basisimage om te verwijderen:
 
 `crane rebase --old_base {{image_naam}}`
 
-- Tag om toe te passen op de gerebaseerde image:
+- Pas een tag toe op de gerebaseerde image:
 
 `crane rebase {{[-t|--tag]}} {{tag_naam}}`
 

@@ -1,7 +1,7 @@
 # pydocstyle
 
 > Python 스크립트가 Python 도크스트링 규칙을 준수하는지 정적 검사합니다.
-> 더 많은 정보: <https://www.pydocstyle.org/en/latest/>.
+> 더 많은 정보: <https://pydocstyle.readthedocs.io/en/latest/usage.html>.
 
 - Python 스크립트 또는 특정 디렉터리의 모든 Python 스크립트 분석:
 

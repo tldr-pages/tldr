@@ -1,6 +1,6 @@
 # chcon
 
-> Verander SELinux beveiligingscontext van een bestand of bestanden/mappen.
+> Verander SELinux-beveiligingscontext van een bestand of bestanden/mappen.
 > Zie ook: `secon`, `restorecon`, `semanage fcontext`.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/chcon-invocation.html>.
 
@@ -12,22 +12,22 @@
 
 `chcon --reference {{referentiebestand}} {{doelbestand}}`
 
-- Verander de volledige SELinux beveiligingscontext van een bestand:
+- Verander de volledige SELinux-beveiligingscontext van een bestand:
 
 `chcon {{gebruiker}}:{{rol}}:{{type}}:{{bereik/niveau}} {{bestandsnaam}}`
 
-- Verander alleen het gebruikersgedeelte van de SELinux beveiligingscontext:
+- Verander alleen het gebruikersgedeelte van de SELinux-beveiligingscontext:
 
 `chcon {{[-u|--user]}} {{gebruiker}} {{bestandsnaam}}`
 
-- Verander alleen het rolgedeelte van de SELinux beveiligingscontext:
+- Verander alleen het rolgedeelte van de SELinux-beveiligingscontext:
 
 `chcon {{[-r|--role]}} {{rol}} {{bestandsnaam}}`
 
-- Verander alleen het typegedeelte van de SELinux beveiligingscontext:
+- Verander alleen het typegedeelte van de SELinux-beveiligingscontext:
 
 `chcon {{[-t|--type]}} {{type}} {{bestandsnaam}}`
 
-- Verander alleen het bereik/niveaugedeelte van de SELinux beveiligingscontext:
+- Verander alleen het bereik/niveaugedeelte van de SELinux-beveiligingscontext:
 
 `chcon {{[-l|--range]}} {{bereik/niveau}} {{bestandsnaam}}`

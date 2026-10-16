@@ -3,11 +3,11 @@
 > Plan cron jobs zodat deze volgens een tijdsinterval voor de huidige gebruiker worden uitgevoerd.
 > Meer informatie: <https://manned.org/crontab>.
 
-- Pas het crontab bestand aan voor de huidige gebruiker:
+- Pas het crontab-bestand aan voor de huidige gebruiker:
 
 `crontab -e`
 
-- Pas het crontab bestand aan voor een specifieke gebruiker:
+- Pas het crontab-bestand aan voor een specifieke gebruiker:
 
 `sudo crontab -e -u {{gebruiker}}`
 
@@ -23,14 +23,14 @@
 
 `crontab -r`
 
-- Voorbeeld crontab entry, welke iedere dag om 10:00 draait (* betekent elke waarde):
+- Voorbeeld cron job die iedere dag om 10:00 draait (* betekent elke waarde):
 
 `0 10 * * * {{commando_om_uit_te_voeren}}`
 
-- Voorbeeld crontab entry, welke iedere 10 minuten een commando uitvoert:
+- Voorbeeld cron job die iedere 10 minuten een commando uitvoert:
 
 `*/10 * * * * {{commando_om_uit_te_voeren}}`
 
-- Voorbeeld crontab entry, welke iedere vrijdag om 02:30 een specifiek script draait:
+- Voorbeeld cron job die iedere vrijdag om 02:30 een specifiek script draait:
 
 `30 2 * * Fri /{{pad/naar/script.sh}}`

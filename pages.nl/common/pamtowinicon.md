@@ -1,13 +1,13 @@
 # pamtowinicon
 
-> Converteer een PAM afbeelding naar een Windows ICO bestand.
+> Converteer een PAM afbeelding naar een Windows ICO-bestand.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/pamtowinicon.html>.
 
-- Converteer een PAM afbeelding naar een ICO bestand:
+- Converteer een PAM afbeelding naar een ICO-bestand:
 
 `pamtowinicon {{pad/naar/invoer_bestand.pam}} > {{pad/naar/uitvoer.ico}}`
 
-- Encodeer afbeeldingen met resoluties kleiner dan `t` in het BMP formaat en alle andere afbeeldingen in het PNG formaat:
+- Encodeer afbeeldingen met resoluties kleiner dan `t` in het BMP-formaat en alle andere afbeeldingen in het PNG-formaat:
 
 `pamtowinicon {{[-pn|-pngthreshold]}} {{t}} {{pad/naar/invoer_bestand.pam}} > {{pad/naar/uitvoer.ico}}`
 

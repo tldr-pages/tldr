@@ -21,7 +21,7 @@
 
 - Set the level of compression (higher means more compression but slower):
 
-`zpaq {{[a|add]}} {{path/to/archive.zpaq}} -m{{1|2|3|4|5}} {{path/to/file_or_directory}}`
+`zpaq {{[a|add]}} {{path/to/archive.zpaq}} -m{{1..5}} {{path/to/file_or_directory}}`
 
 - Extract the specified files from the archive that are not newer than the specified date:
 

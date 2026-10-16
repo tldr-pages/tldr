@@ -3,11 +3,11 @@
 > De Friendly Interactive SHell, een commandoregel-interpreteerder die is ontworpen voor gebruiksvriendelijkheid.
 > Meer informatie: <https://fishshell.com/docs/current/cmds/fish.html>.
 
-- Start een interactieve shell sessie:
+- Start een interactieve shellsessie:
 
 `fish`
 
-- Start een interactieve shell sessie zonder opstartconfiguraties te laden:
+- Start een interactieve shellsessie zonder opstartconfiguraties te laden:
 
 `fish {{[-N|--no-config]}}`
 
@@ -27,7 +27,7 @@
 
 `{{echo "echo 'fish is executed'"}} | fish`
 
-- Start een interactieve shell sessie in privémodus, waarbij de shell geen toegang heeft tot oude geschiedenis of nieuwe geschiedenis opslaat:
+- Start een interactieve shellsessie in privémodus, waarbij de shell geen toegang heeft tot oude geschiedenis of nieuwe geschiedenis opslaat:
 
 `fish {{[-P|--private]}}`
 

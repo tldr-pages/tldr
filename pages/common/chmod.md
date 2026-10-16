@@ -11,9 +11,9 @@
 
 `chmod u+rw {{path/to/file_or_directory}}`
 
-- Remove e[x]ecutable rights from the [g]roup:
+- Remove e[x]ecutable rights from the [g]roup and [o]thers:
 
-`chmod g-x {{path/to/file}}`
+`chmod g-x,o-x {{path/to/file}}`
 
 - Give [a]ll users rights to [r]ead and e[x]ecute:
 
@@ -27,9 +27,9 @@
 
 `chmod o= {{path/to/file}}`
 
-- Change permissions recursively giving [g]roup and [o]thers the ability to [w]rite:
+- Set rights using the octal notation:
 
-`chmod {{[-R|--recursive]}} g+w,o+w {{path/to/directory}}`
+`chmod {{644}} {{path/to/file}}`
 
 - Recursively give [a]ll users [r]ead permissions to files. Also give e[X]ecute permissions to files that have at least one execution permission and to all sub-directories:
 
