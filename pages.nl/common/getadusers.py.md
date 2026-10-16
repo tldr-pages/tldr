@@ -4,7 +4,7 @@
 > Onderdeel van de Impacket-suite.
 > Meer informatie: <https://github.com/fortra/impacket>.
 
-- Ga over alle Active Directory gebruikers en de attributen:
+- Som alle Active Directory gebruikers en hun attributen op:
 
 `GetADUsers.py -all -dc-ip {{domain_controller_ip}} {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}`
 
@@ -12,7 +12,7 @@
 
 `GetADUsers.py -user {{gebruiker}} -dc-ip {{domain_controller_ip}} {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}`
 
-- Extraheer gebruiksdetails door gebruik te maken van pass-the-hash authentication:
+- Extraheer gebruikersdetails door gebruik te maken van pass-the-hash authentication:
 
 `GetADUsers.py -all -dc-ip {{domain_controller_ip}} -hashes {{LM_Hash}}:{{NT_Hash}} {{domein}}/{{gebruikersnaam}}`
 

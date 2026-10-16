@@ -21,7 +21,7 @@
 
 - Stel een omgevingsvariabele in in een lopende Bash-sessie:
 
-`docker {{[exec|container exec]}} {{[-it|--interactive --tty]}} {{[-e|--env]}} {{variabele_naam}}={{waarde}} {{container_name}} {{/bin/bash}}`
+`docker {{[exec|container exec]}} {{[-it|--interactive --tty]}} {{[-e|--env]}} {{variabele_naam}}={{waarde}} {{container_naam}} {{/bin/bash}}`
 
 - Voer een opdracht uit als een specifieke gebruiker:
 

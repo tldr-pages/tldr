@@ -1,30 +1,30 @@
 # rename
 
 > Hernoem meerdere bestanden.
-> WAARSCHUWING: dit commando overschrijft bestanden zonder te vragen, tenzij de dry-run optie wordt gebruikt.
+> WAARSCHUWING: dit commando overschrijft bestanden zonder te vragen, tenzij de `--no-act` optie wordt gebruikt.
 > Opmerking: deze pagina verwijst naar het commando uit het `util-linux` pakket.
 > Meer informatie: <https://manned.org/rename>.
 
-- Hernoem bestanden met eenvoudige vervangingen (vervang `foo` door `bar` waar het ook gevonden wordt):
+- Hernoem bestanden met eenvoudige vervangingen (vervang een string door een vervanging waar het ook gevonden wordt):
 
-`rename {{foo}} {{bar}} {{*}}`
+`rename {{string}} {{vervanging}} {{*}}`
 
 - Simuleer het uitvoeren van het programma zonder iets te doen:
 
-`rename {{[-vn|--verbose --no-act]}} {{foo}} {{bar}} {{*}}`
+`rename {{[-vn|--verbose --no-act]}} {{string}} {{vervanging}} {{*}}`
 
 - Overschrijf geen bestaande bestanden:
 
-`rename {{[-o|--no-overwrite]}} {{foo}} {{bar}} {{*}}`
+`rename {{[-o|--no-overwrite]}} {{string}} {{vervanging}} {{*}}`
 
 - Wijzig bestandsextensies:
 
 `rename {{.ext}} {{.bak}} {{*.ext}}`
 
-- Voeg "foo" toe aan het begin van alle bestandsnamen in de huidige map:
+- Voeg een voorvoegsel toe aan het begin van alle bestandsnamen in de huidige map:
 
-`rename '' '{{foo}}' {{*}}`
+`rename '' '{{voorvoegsel}}' {{*}}`
 
 - Hernoem een groep opeenvolgend genummerde bestanden met nul-opvulling van de nummers tot 3 cijfers:
 
-`rename {{foo}} {{foo00}} {{foo?}} && rename {{foo}} {{foo0}} {{foo??}}`
+`rename {{voorvoegsel}} {{voorvoegsel00}} {{voorvoegsel?}} && rename {{voorvoegsel}} {{voorvoegsel0}} {{voorvoegsel??}}`

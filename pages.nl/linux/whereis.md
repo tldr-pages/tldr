@@ -20,10 +20,10 @@
 
 `whereis -b -B {{/usr/bin/}} -f {{gcc}}`
 
-- Zoek [u]ngewone binaries (die meer of minder dan één binary op het systeem hebben):
+- Zoek ongewone ([u]) binaries (die meer of minder dan één binary op het systeem hebben):
 
 `whereis -u *`
 
-- Zoek binaries met [u]ngewone [m]anual-vermeldingen (binaries die meer of minder dan één manual geïnstalleerd hebben):
+- Zoek binaries met ongewone ([u]) [m]anual-vermeldingen (binaries die meer of minder dan één manual geïnstalleerd hebben):
 
 `whereis -u -m *`

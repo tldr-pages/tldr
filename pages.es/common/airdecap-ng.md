@@ -14,12 +14,12 @@
 
 - Descifra un archivo de captura WPA/WPA2 cifrado usando los puntos de acceso [e]ssid y contraseña:
 
-`airdecap-ng -e {{essid}} -p {{contraseña}} {{ruta/al/archivo_de_captura.cap}}`
+`airdecap-ng -e {{extended_ssid}} -p {{contraseña}} {{ruta/al/archivo_de_captura.cap}}`
 
 - Descifra un archivo de captura WPA/WPA2 cifrado preservando los encabezados usando los puntos de acceso [e]ssid y contraseña:
 
-`airdecap-ng -l -e {{essid}} -p {{contraseña}} {{ruta/al/archivo_de_captura.cap}}`
+`airdecap-ng -l -e {{extended_ssid}} -p {{contraseña}} {{ruta/al/archivo_de_captura.cap}}`
 
 - Descifra un archivo de captura WPA/WPA2 cifrado usando los puntos de acceso [e]ssid y contraseña, así como su dirección MAC para filtrar:
 
-`airdecap-ng -b {{ap_mac}} -e {{essid}} -p {{contraseña}} {{ruta/al/archivo_de_captura.cap}}`
+`airdecap-ng -b {{ap_mac}} -e {{extended_ssid}} -p {{contraseña}} {{ruta/al/archivo_de_captura.cap}}`

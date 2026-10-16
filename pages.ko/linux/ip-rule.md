@@ -1,6 +1,7 @@
 # ip rule
 
 > IP 라우팅 정책 데이터베이스 관리.
+> 관련 항목: `ip route`.
 > 더 많은 정보: <https://manned.org/ip-rule>.
 
 - 라우팅 정책 표시:

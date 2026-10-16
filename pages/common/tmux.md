@@ -17,9 +17,9 @@
 
 `tmux {{[ls|list-sessions]}}`
 
-- Attach to the most recently used session:
+- Attach to a named session ([t]arget can be omitted to attach to the most recently used session):
 
-`tmux {{[a|attach]}}`
+`tmux {{[a|attach]}} -t {{name}}`
 
 - Detach from the current session (inside a tmux session):
 

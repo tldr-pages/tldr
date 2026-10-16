@@ -1,8 +1,8 @@
 # tailscale up
 
 > Connect the client to the Tailscale network.
-> Note: Run `sudo tailscale set --operator $USER` to allow the current user to run these commands.
 > All options described here can be changed later using `tailscale set --option argument`. Use `--option=false` to disable options that don't require arguments.
+> Note: Run `sudo tailscale set --operator $USER` to allow the current user to run these commands.
 > More information: <https://tailscale.com/kb/1080/cli/#up>.
 
 - Connect to Tailscale:

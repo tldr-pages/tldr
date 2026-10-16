@@ -3,7 +3,7 @@
 > Verander de toegangstoestemmingen van een bestand of map.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html>.
 
-- Geef een gebruiker ([u]ser) die het bestand beheert het recht om deze uit te voeren (e[x]ecute):
+- Geef de gebruiker ([u]ser) die eigenaar is van een bestand het recht om dit uit te voeren (e[x]ecute):
 
 `chmod u+x {{pad/naar/bestand}}`
 
@@ -11,15 +11,15 @@
 
 `chmod u+rw {{pad/naar/bestand_of_map}}`
 
-- Haal uitvoertoestemming (e[x]ecute) voor een bestand weg van de [g]roep:
+- Haal uitvoertoestemming (e[x]ecute) voor een bestand weg van de [g]roep en anderen ([o]thers):
 
-`chmod g-x {{pad/naar/bestand}}`
+`chmod g-x,o-x {{pad/naar/bestand}}`
 
-- Geef [a]lle gebruikers toegang om een bestand te lezen ([r]ead) en schrijven ([w]rite):
+- Geef [a]lle gebruikers toegang om een bestand te lezen ([r]ead) en uitvoertoestemming (e[x]ecute):
 
 `chmod a+rx {{pad/naar/bestand}}`
 
-- Geef anderen ([o]thers) die niet in de groep van de beheerder zitten, dezelfde rechten als de [g]roep:
+- Geef anderen ([o]thers) die niet in de groep van de eigenaar zitten, dezelfde rechten als de [g]roep:
 
 `chmod o=g {{pad/naar/bestand}}`
 
@@ -27,10 +27,10 @@
 
 `chmod o= {{pad/naar/bestand}}`
 
-- Verander de toestemmingen recursief, waarbij de [g]roep en anderen ([o]thers) de mogelijkheid tot schrijven ([w]rite) krijgen:
+- Stel de rechten in met octale notatie:
 
-`chmod {{[-R|--recursive]}} g+w,o+w {{map}}`
+`chmod {{644}} {{pad/naar/bestand}}`
 
-- Geef recursief alle gebruikers ([a]ll users) toegang om bestanden te lezen ([r]ead) en uitvoertoestemming (e[X]ecute) voor alle onderliggende mappen in een map:
+- Geef recursief alle gebruikers ([a]ll users) toegang om bestanden te lezen ([r]ead) en uitvoertoestemming (e[X]ecute) voor bestanden die al ten minste één uitvoertoestemming hebben en voor alle onderliggende mappen in een map:
 
 `chmod {{[-R|--recursive]}} a+rX {{pad/naar/map}}`

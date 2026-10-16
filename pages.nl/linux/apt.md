@@ -13,7 +13,7 @@
 
 `apt search {{pakket}}`
 
-- Zoek naar pakketten op naam (ondersteund wildcards zoals `*`):
+- Zoek naar pakketten op naam (ondersteunt wildcards zoals `*`):
 
 `apt list {{pakket}}`
 

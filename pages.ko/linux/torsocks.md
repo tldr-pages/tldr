@@ -26,4 +26,4 @@
 
 - 특정 주소 및 포트에서 실행 중인 Tor 프록시에 연결:
 
-`torsocks {{[-a|--address]}} {{ip}} {{[-P|--port]}} {{포트}} {{명령}}`
+`torsocks {{[-a|--address]}} {{ip_address}} {{[-P|--port]}} {{포트}} {{명령}}`

@@ -2,6 +2,6 @@
 
 > Questo comando è un alias per `npm-rebuild`.
 
-- Consulta la documentazione del comando originale:
+- Visualizza la documentazione del comando originale:
 
 `tldr npm-rebuild`

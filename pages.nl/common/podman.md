@@ -1,6 +1,6 @@
 # podman
 
-> Eenvoudig beheertool voor pods, containers en images.
+> Eenvoudige beheertool voor pods, containers en images.
 > Biedt een met Docker-CLI vergelijkbare command-line. Simpel gezegd: `alias docker=podman`.
 > Meer informatie: <https://docs.podman.io/en/latest/Commands.html>.
 

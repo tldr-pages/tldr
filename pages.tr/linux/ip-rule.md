@@ -1,6 +1,7 @@
 # ip rule
 
 > IP yönlendirme politikası veri tabanı yönetimi.
+> Ayrıca bakınız: `ip route`.
 > Daha fazla bilgi için: <https://manned.org/ip-rule>.
 
 - Yönlendirme politikasını göster:

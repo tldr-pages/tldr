@@ -19,15 +19,15 @@
 
 `ftp -s:{{pad\naar\bestand}} {{host}}`
 
-- Download meerdere bestanden (`glob`-expressie):
+- [Interactief] Download meerdere bestanden (`glob`-expressie):
 
 `mget {{*.png}}`
 
-- Upload meerdere bestanden (`glob`-expressie):
+- [Interactief] Upload meerdere bestanden (`glob`-expressie):
 
 `mput {{*.zip}}`
 
-- Verwijder meerdere bestanden op de externe server:
+- [Interactief] Verwijder meerdere bestanden op de externe server:
 
 `mdelete {{*.txt}}`
 

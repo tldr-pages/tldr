@@ -1,7 +1,7 @@
 # dconf
 
 > Gerencia banco de dados dconf.
-> Veja também: `dconf-read`, `dconf-reset`, `dconf-write`, `gsettings`.
+> Veja também: `dconf read`, `dconf reset`, `dconf write`, `gsettings`.
 > Mais informações: <https://manned.org/dconf>.
 
 - Imprime um valor de chave específico:

@@ -28,7 +28,7 @@
 
 `Clear-History -Id ({{start_id}}..{{eind_id}})`
 
-- Toon wat er verwijderd zou worden:
+- Simuleer het verwijderen van de geschiedenis en toon wat er verwijderd zou worden:
 
 `Clear-History -WhatIf`
 

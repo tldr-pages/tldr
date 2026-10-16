@@ -15,7 +15,7 @@
 
 `git stash {{[-p|--patch]}}`
 
-- Toon alle stashes (toont stash-naam, gerelateerde branch en bericht):
+- Toon alle stashes:
 
 `git stash list`
 

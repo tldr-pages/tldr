@@ -8,15 +8,15 @@
 
 `{{commando}} | sed 's/apple/mango/g'`
 
-- Vervang alle "apple" met "mango" in een bestand (waarbij het originele bestand wordt overschreven):
+- Vervang "apple" door "mango" in een bestand (waarbij het originele bestand wordt overschreven):
 
 `sed {{[-i|--in-place]}} 's/apple/mango/g' {{pad/naar/bestand}}`
 
 - Voer meerdere vervangingen uit in één commando:
 
-`{{commando}} | sed -e '{{s/appel/mango/g}}' -e '{{s/sinaasappel/limoen/g}}'`
+`{{commando}} | sed -e '{{s/apple/mango/g}}' -e '{{s/orange/lime/g}}'`
 
-- Gebruik een aangepast scheidingsteken (handig als het patroon `/` bevat):
+- Gebruik een aangepast scheidingsteken (handig als het patroon schuine strepen bevat):
 
 `{{commando}} | sed '{{s#////#____#g}}'`
 

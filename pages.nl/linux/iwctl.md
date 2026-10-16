@@ -1,6 +1,6 @@
 # iwctl
 
-> Beheer de `iwd` netwerk supplicant.
+> Beheer de `iwd` netwerksupplicant.
 > Zie ook: `nmcli`, `iw`.
 > Meer informatie: <https://manned.org/iwctl>.
 

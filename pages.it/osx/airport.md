@@ -9,7 +9,7 @@
 
 - Intercetta il traffico delle connessioni senza fili sul primo canale:
 
-`airport sniff {{1}}`
+`airport sniff 1`
 
 - Ricerca le reti senza fili disponibili:
 

@@ -8,11 +8,11 @@
 
 `df`
 
-- Toon alle bestandssystemen en hun schijfgebruik in een leesbaar formaat:
+- Toon alle bestandssystemen in een leesbaar formaat:
 
 `df {{[-h|--human-readable]}}`
 
-- Toon het bestandssysteem en het schijfgebruik voor het opgegeven bestand of map:
+- Toon het bestandssysteem dat het opgegeven bestand of map bevat:
 
 `df {{pad/naar/bestand_of_map}}`
 

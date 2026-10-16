@@ -4,11 +4,11 @@
 > Onderdeel van de Impacket-suite.
 > Meer informatie: <https://github.com/fortra/impacket>.
 
-- Maak verbinding met een MSSQL server met Windows authenticatie:
+- Maak verbinding met een MSSQL-server met Windows-authenticatie:
 
 `mssqlclient.py -windows-auth {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}@{{doel}}`
 
-- Maak verbinding met SQL server-authenticatie:
+- Maak verbinding met SQL-server-authenticatie:
 
 `mssqlclient.py {{gebruikersnaam}}:{{wachtwoord}}@{{doel}}`
 

@@ -5,7 +5,7 @@
 
 - 호스트의 SNMP 트리를 public 문자열로 탐색하여 `.1.3.6` 하위의 모든 OID 쿼리:
 
-`braa public@{{ip}}:{{.1.3.6.*}}`
+`braa public@{{ip_address}}:{{.1.3.6.*}}`
 
 - `ip_range`의 전체 서브넷에 대해 `system.sysLocation.0` 쿼리:
 
@@ -13,4 +13,4 @@
 
 - `system.sysLocation.0`의 값을 특정 워크그룹으로 설정 시도:
 
-`braa private@{{ip}}:{{.1.3.6.1.2.1.1.6.0}}=s'{{workgroup}}'`
+`braa private@{{ip_address}}:{{.1.3.6.1.2.1.1.6.0}}=s'{{workgroup}}'`

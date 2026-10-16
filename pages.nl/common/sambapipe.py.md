@@ -16,7 +16,7 @@
 
 `sambaPipe.py -so {{pad/naar/bestand.so}} -k -no-pass {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}@{{doel}}`
 
-- Specificeer een domeincontroller IP voor authenticatie:
+- Specificeer een domeincontroller-IP voor authenticatie:
 
 `sambaPipe.py -so {{pad/naar/bestand.so}} -dc-ip {{dc_ip}} {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}@{{doel}}`
 

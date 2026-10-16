@@ -27,6 +27,6 @@
 
 `df -k`
 
-- Toon informatie op een [P]ortable wijze:
+- Toon informatie op een draagbare wijze ([P]):
 
 `df -P`

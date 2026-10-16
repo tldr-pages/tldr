@@ -1,7 +1,7 @@
 # write
 
 > 데이터를 메모리에 저장.
-> 더 많은 정보: <https://www.oreilly.com/library/view/cisco-ios-in/0596008694/re869.html#book-content>.
+> 더 많은 정보: <https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/fundamentals/command/cf_command_ref/test_cable-diagnostics_through_xmodem.html#wp1263433371>.
 
 - 현재 설정을 메모리에 저장:
 

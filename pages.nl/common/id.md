@@ -16,11 +16,11 @@
 
 `id {{[-u|--user]}}`
 
-- Toon de identiteit van de huidige primaire groepsidentiteit:
+- Toon de identiteit van de huidige primaire groep:
 
 `id {{[-gn|--group --name]}}`
 
-- Toon de identiteit van de huidige primaire groepsidentiteit als een nummer:
+- Toon de identiteit van de huidige primaire groep als een nummer:
 
 `id {{[-g|--group]}}`
 

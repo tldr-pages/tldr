@@ -22,3 +22,7 @@
 - Ignore a signal:
 
 `trap '' {{[INT|SIGINT]}}`
+
+- Display help:
+
+`help trap`

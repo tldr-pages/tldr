@@ -4,11 +4,11 @@
 > `cgroups` types kunnen een van `memory`, `cpu`, `net_cls`, etc. zijn.
 > Meer informatie: <https://manned.org/cgcreate>.
 
-- Maak een nieuwe groep:
+- Maak een nieuwe [g]roep:
 
 `cgcreate -g {{groep_type}}:{{groepsnaam}}`
 
-- Maak een nieuwe groep met meerdere cgroep typen:
+- Maak een nieuwe [g]roep met meerdere cgroep typen:
 
 `cgcreate -g {{groep_type1}},{{groep_type2}}:{{groepsnaam}}`
 

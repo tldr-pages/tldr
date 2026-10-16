@@ -1,7 +1,7 @@
 # imhex
 
 > 리버스 엔지니어링과 프로그래밍을 위한 Hex 편집기.
-> 더 많은 정보: <https://docs.werwolv.net/imhex/>.
+> 더 많은 정보: <https://docs.werwolv.net/imhex>.
 
 - ImHex에서 파일 열기:
 

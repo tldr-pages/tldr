@@ -14,7 +14,7 @@
 
 - Crackare la chiave dal file di cattura utilizzando [w]ordlist e l'[e]ssid del punto di accesso:
 
-`aircrack-ng -w {{percorso/alla/wordlist.txt}} -e {{essid}} {{percorso/al/capture.cap}}`
+`aircrack-ng -w {{percorso/alla/wordlist.txt}} -e {{extended_ssid}} {{percorso/al/capture.cap}}`
 
 - Crackare la chiave dal file di cattura utilizzando [w]ordlist e l'indirizzo MAC del punto di accesso:
 

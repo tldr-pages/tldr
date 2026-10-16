@@ -12,7 +12,7 @@
 
 `mount {{pad/naar/apparaatbestand}} {{pad/naar/doelmap}}`
 
-- Maak een specifieke map aan als het niet bestaat en koppel er een apparaat aan:
+- Maak een specifieke map aan als deze niet bestaat en koppel er een apparaat aan:
 
 `mount {{[-m|--mkdir]}} {{pad/naar/apparaatbestand}} {{pad/naar/doelmap}}`
 

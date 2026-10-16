@@ -1,7 +1,7 @@
 # pacman --files
 
 > Arch Linux paket yöneticisi aracı.
-> Ayrıca bakınız: `pacman`, `pkgfile`.
+> Ayrıca bakınız: `pkgfile`.
 > Daha fazla bilgi için: <https://manned.org/pacman.8>.
 
 - Paket veritabanını güncelle:

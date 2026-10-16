@@ -1,7 +1,7 @@
 # prowler gcp
 
 > Google Cloud Platform (GCP)의 보안 모범 사례 점검, 보안 감사 및 규정 준수 검사를 수행.
-> 관련 항목: `prowler`, `prowler-aws`, `prowler-azure`, `prowler-kubernetes`, `prowler-m365`, `prowler-github`.
+> 관련 항목: `prowler aws`, `prowler azure`, `prowler kubernetes`, `prowler m365`, `prowler github`.
 > 더 많은 정보: <https://docs.prowler.com/user-guide/cli/tutorials/misc>.
 
 - 기본 사용자 자격 증명을 사용하여, 접근 가능한 모든 GCP 프로젝트에 대해 기본 보안 검사 실행:

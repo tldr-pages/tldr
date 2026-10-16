@@ -19,7 +19,7 @@
 
 `podman run {{[-e|--env]}} '{{variabele}}={{waarde}}' {{[-e|--env]}} {{variabele}} {{image:tag}} {{commando}}`
 
-- Voer een commando uit in een nieuwe container met gebonden gekoppelde volumes:
+- Voer een commando uit in een nieuwe container met gebonden volumes:
 
 `podman run {{[-v|--volume]}} /{{pad/naar/hostpad}}:/{{pad/naar/containerpad}} {{image:tag}} {{commando}}`
 

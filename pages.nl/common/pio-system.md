@@ -11,7 +11,7 @@
 
 `pio system completion uninstall`
 
-- Toon systeem-wijde PlatformIO informatie:
+- Toon systeemwijde PlatformIO informatie:
 
 `pio system info`
 
