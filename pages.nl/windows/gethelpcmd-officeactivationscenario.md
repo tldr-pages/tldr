@@ -1,9 +1,9 @@
 # GetHelpCmd OfficeActivationScenario
 
 > Herstel automatisch activeringsgerelateerde problemen binnen Microsoft Office / Microsoft 365 Apps for Enterprise.
-> Onderdeel van `GetHelpCmd.exe`, voorheen `SaRAcmd.exe` (Microsoft Support and Recovery Assistant).
 > Opmerking: deze tool is verouderd en werkt niet in de nieuwe OneNote- en Outlook-applicaties.
 > Opmerking: dit commando kan je huidige volume aan gelicentieerde Office-productversies overschrijven, deactiveren en/of verwijderen, ga dus voorzichtig te werk.
+> Onderdeel van `GetHelpCmd.exe`, voorheen `SaRAcmd.exe` (Microsoft Support and Recovery Assistant).
 > Zie ook: `ospp.vbs`.
 > Meer informatie: <https://learn.microsoft.com/troubleshoot/microsoft-365/admin/miscellaneous/get-help-office-activation>.
 

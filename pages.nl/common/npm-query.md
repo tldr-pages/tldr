@@ -15,11 +15,11 @@
 
 `npm query '#{{pakket}}'`
 
-- Print afhankelijkheden met een specifieke naam en binnen een semantische versie range:
+- Print afhankelijkheden met een specifieke naam en binnen een semantisch versiebereik:
 
 `npm query '#{{pakket}}@{{semantische_versie}}'`
 
-- Print afhankelijkheden die geen andere afhankelijkheden hebben:
+- Print afhankelijkheden die geen afhankelijkheden hebben:
 
 `npm query ':empty'`
 

@@ -10,4 +10,4 @@
 
 - Hervat een specifieke job en laat deze op de achtergrond draaien (voer `jobs` uit om het jobnummer te vinden):
 
-`bg %{{job_number}}`
+`bg %{{job_nummer}}`

@@ -1,9 +1,9 @@
 # factor
 
-> Toon de priemfactor van een getal.
+> Toon de priemfactorisatie van een getal.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/factor-invocation.html>.
 
-- Toon de priemfactor van een getal:
+- Toon de priemfactorisatie van een getal:
 
 `factor {{nummer}}`
 

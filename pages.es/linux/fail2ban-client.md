@@ -9,7 +9,7 @@
 
 - Elimina una IP de la lista de IPs bloqueadas:
 
-`fail2ban-client set {{cárcel}} unbanip {{ip}}`
+`fail2ban-client set {{cárcel}} unbanip {{ip_address}}`
 
 - Comprueba que el servidor Fail2Ban sigue activo:
 

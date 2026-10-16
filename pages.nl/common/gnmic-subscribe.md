@@ -1,9 +1,9 @@
 # gnmic subscribe
 
-> Abonneer op gnmic netwerk apparaat status updates.
+> Abonneer op statusupdates van gnmic-netwerkapparaten.
 > Meer informatie: <https://gnmic.openconfig.net/cmd/subscribe/>.
 
-- Abonneer op doel status updates onder de subtree van een specifiek pad:
+- Abonneer op statusupdates van een doel onder de subtree van een specifiek pad:
 
 `gnmic {{[-a|--address]}} {{ip:poort}} {{[sub|subscribe]}} --path {{pad}}`
 

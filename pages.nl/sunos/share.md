@@ -19,6 +19,6 @@
 
 `share -F nfs -o rw,root={{hostnaam}} /{{pad/naar/map}}`
 
-- Maak delen persistent door entries toe te voegen aan `/etc/dfs/dfstab`:
+- Maak delen persistent door vermeldingen toe te voegen aan `/etc/dfs/dfstab`:
 
 `echo "share -F nfs -o rw /{{pad/naar/map}}" >> /etc/dfs/dfstab`

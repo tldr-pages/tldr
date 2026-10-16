@@ -11,21 +11,21 @@
 
 `a2ping --nocompress {{none|zip|best|flate}} {{pad/naar/bestand}}`
 
-- Scan HiResBoundingBox indien aanwezig (Let op: de standaard is yes):
+- Scan HiResBoundingBox indien aanwezig (Let op: de standaard is ja):
 
 `a2ping --nohires {{pad/naar/bestand}}`
 
-- Sta pagina-inhoud onder en links van de oorsprong toe (Let op: de standaard is no):
+- Sta pagina-inhoud onder en links van de oorsprong toe (Let op: de standaard is nee):
 
 `a2ping --below {{pad/naar/bestand}}`
 
 - Geef extra argumenten door aan `gs`:
 
-`a2ping --gsextra {{arguments}} {{pad/naar/bestand}}`
+`a2ping --gsextra {{argumenten}} {{pad/naar/bestand}}`
 
 - Geef extra argumenten mee aan het externe programma (bijv. `pdftops`):
 
-`a2ping --extra {{arguments}} {{pad/naar/bestand}}`
+`a2ping --extra {{argumenten}} {{pad/naar/bestand}}`
 
 - Toon de help:
 

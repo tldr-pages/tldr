@@ -1,9 +1,9 @@
 # ykman fido
 
-> Beheer YubiKey FIDO applicaties.
+> Beheer YubiKey FIDO-applicaties.
 > Meer informatie: <https://docs.yubico.com/software/yubikey/tools/ykman/FIDO_Commands.html>.
 
-- Toon algemene informatie over de FIDO2 applicatie:
+- Toon algemene informatie over de FIDO2-applicatie:
 
 `ykman fido info`
 
@@ -11,11 +11,11 @@
 
 `ykman fido access change-pin`
 
-- Toon een lijst van inloggegevens die opgeslagen zijn op de YubiKey:
+- Toon een lijst van residente inloggegevens die opgeslagen zijn op de YubiKey:
 
 `ykman fido credentials list`
 
-- Verwijder specifieke inloggegevens van de YubiKey:
+- Verwijder specifieke residente inloggegevens van de YubiKey:
 
 `ykman fido credentials delete {{inloggegevens_id}}`
 

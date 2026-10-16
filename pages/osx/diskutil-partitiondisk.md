@@ -1,8 +1,8 @@
 # diskutil partitionDisk
 
 > Utility to manage partitions inside disks and volumes.
-> Part of `diskutil`.
 > APM is only supported for macOS, MBR is optimized for DOS, while GPT is compatible for most modern systems.
+> Part of `diskutil`.
 > More information: <https://keith.github.io/xcode-man-pages/diskutil.8.html>.
 
 - Reformat a volume using APM/MBR/GPT partitioning scheme, leaving no partitions inside (this will erase all data on the volume):

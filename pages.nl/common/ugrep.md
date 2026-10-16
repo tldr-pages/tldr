@@ -3,7 +3,7 @@
 > Ultrasnelle bestandszoeker met interactieve TUI.
 > Meer informatie: <https://github.com/Genivia/ugrep#man-page>.
 
-- Open een interactieve TUI om recursief bestanden te zoeken (`<Ctrl z>` voor hulp):
+- Open een interactieve TUI om recursief bestanden in de huidige map te zoeken (`<Ctrl z>` voor hulp):
 
 `ugrep {{[-Q|--query]}}`
 
@@ -23,7 +23,7 @@
 
 `ugrep {{[-Z|--fuzzy=]}}{{3}} "{{zoekpatroon}}"`
 
-- Zoek passende gecomprimeerde bestanden, zip en `.tar` archieven recursief in de huidige map:
+- Doorzoek ook gecomprimeerde bestanden, zip- en `.tar`-archieven recursief:
 
 `ugrep {{[-z|--decompress]}} "{{zoekpatroon}}"`
 

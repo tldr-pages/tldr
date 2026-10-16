@@ -7,7 +7,7 @@
 
 `pm list packages`
 
-- Toon [s]ysteempakketten of pakketten van derden ([3]rd-party):
+- Toon [s]ysteempakketten of pakketten van derden ([3]):
 
 `pm list packages {{-s|-3}}`
 

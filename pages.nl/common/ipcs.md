@@ -3,11 +3,11 @@
 > Toon informatie over het gebruik van XSI IPC-faciliteiten: gedeelde geheugensegmenten, berichtenwachtrijen en semafoorarrays.
 > Meer informatie: <https://manned.org/ipcs.1p>.
 
-- Toon informatie over alle IPC:
+- Toon informatie over [a]lle IPC:
 
 `ipcs -a`
 
-- Toon informatie over actieve gedeelde [m]emory-segmenten, berichten[q]ueues of [s]emaphore-sets:
+- Toon informatie over actieve gedeelde [m]emory-segmenten, berichtenwachtrijen ([q]) of [s]emafoorsets:
 
 `ipcs {{-m|-q|-s}}`
 
@@ -23,10 +23,10 @@
 
 `ipcs -p`
 
-- Toon toegang[s]tijden voor alle IPC-faciliteiten:
+- Toon toegangs[t]ijden voor alle IPC-faciliteiten:
 
 `ipcs -t`
 
-- Toon [o]utstanding gebruik voor actieve berichtenwachtrijen en gedeelde geheugensegmenten:
+- Toon [o]penstaand gebruik voor actieve berichtenwachtrijen en gedeelde geheugensegmenten:
 
 `ipcs -o`

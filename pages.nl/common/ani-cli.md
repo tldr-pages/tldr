@@ -14,7 +14,7 @@
 
 - Download een reeks van afleveringen:
 
-`ani-cli {{[-d|--download]}} {{[-r|--range]}} "{{1 6}}" "{{anime_title}}"`
+`ani-cli {{[-d|--download]}} {{[-r|--range]}} "{{1 6}}" "{{anime_titel}}"`
 
 - Download de gehele serie (een reeks van alle afleveringen):
 

@@ -22,4 +22,4 @@
 
 - Parse en leg een contextspecificatie uit:
 
-`secon {{systeem_u:systeem_r:container_t:s0:c899,c900}}`
+`secon {{system_u:system_r:container_t:s0:c899,c900}}`

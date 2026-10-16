@@ -13,7 +13,7 @@
 
 - [e]SSID 설정:
 
-`pyrit -e "{{essid}}" create_essid`
+`pyrit -e "{{extended_ssid}}" create_essid`
 
 - 특정 패킷 캡처 파일 [r]읽고 분석:
 

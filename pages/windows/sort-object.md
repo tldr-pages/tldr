@@ -1,6 +1,6 @@
 # Sort-Object
 
-> Sorts objects by property values.
+> Sort objects by property values.
 > Note: This command can only be used through PowerShell.
 > More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/sort-object>.
 

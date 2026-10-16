@@ -1,7 +1,7 @@
 # restorecon
 
 > Restaura el contexto de seguridad de SELinux en archivos y directorios según las reglas persistentes.
-> Vea también: `semanage-fcontext`.
+> Vea también: `semanage fcontext`.
 > Más información: <https://manned.org/restorecon>.
 
 - Muestra el contexto de seguridad actual de un archivo o directorio:

@@ -20,7 +20,7 @@
 
 `kiterunner kb convert {{pad/naar/woordenlijst.kite}} {{pad/naar/woordenlijst.json}}`
 
-- Parseer een kitebuilder-schema en voer opgemaakte JSON data uit:
+- Parseer een kitebuilder-schema en voer opgemaakte JSON-data uit:
 
 `kiterunner kb parse {{pad/naar/woordenlijst.json}} {{[-o|--output]}} {{json}}`
 

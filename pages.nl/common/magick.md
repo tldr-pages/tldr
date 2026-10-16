@@ -11,7 +11,7 @@
 
 - Wijzig de grootte van een afbeelding en maak een nieuwe kopie:
 
-`magick {{pad/naar/invoer_afbeelding.png}} -resize {{100x100}} {{pad/naar/uitvoer_afbeelding.jpg}}`
+`magick {{pad/naar/invoer_afbeelding.jpg}} -resize {{100x100}} {{pad/naar/uitvoer_afbeelding.jpg}}`
 
 - Wijzig de grootte van een afbeelding met een percentage:
 
@@ -21,7 +21,7 @@
 
 `magick {{pad/naar/invoer_afbeelding.png}} -define jpeg:extent={{512kb}} {{pad/naar/uitvoer_afbeelding.jpg}}`
 
-- Voeg afbeeldingen verticaal/horizontaal toe en maak de lege ruimte transparant:
+- Voeg afbeeldingen verticaal/horizontaal samen en maak de lege ruimte transparant:
 
 `magick convert -background none {{pad/naar/afbeelding1.png pad/naar/afbeelding2.png ...}} {{-append|+append}} {{pad/naar/uitvoer_afbeelding.png}}`
 

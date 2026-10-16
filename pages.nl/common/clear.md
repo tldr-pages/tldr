@@ -3,11 +3,11 @@
 > Leegt het scherm van de terminal.
 > Meer informatie: <https://manned.org/clear>.
 
-- Maak het scherm leeg (gelijk aan het indrukken van `<Ctrl l>` in de Bash-shell):
+- Maak het scherm leeg:
 
 `clear`
 
-- Maak het scherm leeg maar behoud de scrollbackbuffer van de terminal:
+- Maak het scherm leeg maar behoud de scrollbackbuffer van de terminal (gelijk aan het indrukken van `<Ctrl l>` in de Bash-shell):
 
 `clear -x`
 

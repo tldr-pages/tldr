@@ -23,7 +23,7 @@
 
 `git blame -L {{123}} {{pad/naar/bestand}}`
 
-- Toon auteursnaam- en commithashinformatie voor een specifieke regelbereik:
+- Toon auteursnaam- en commithashinformatie voor een specifiek regelbereik:
 
 `git blame -L {{start_regel}},{{eind_regel}} {{pad/naar/bestand}}`
 

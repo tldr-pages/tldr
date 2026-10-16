@@ -4,11 +4,11 @@
 > Probeer en download spraakmodellen op <https://rhasspy.github.io/piper-samples>.
 > Meer informatie: <https://github.com/OHF-Voice/piper1-gpl>.
 
-- Genereer een WAV-[f]ile met een tekst-naar-spraak-[m]odel (uitgaande van een configuratiebestand op model_pad + `.json`):
+- Genereer een WAV-bestand ([f]) met een tekst-naar-spraak-[m]odel (uitgaande van een configuratiebestand op model_pad + `.json`):
 
 `echo {{Te zeggen tekst}} | piper -m {{pad/naar/model.onnx}} -f {{uitvoerbestand.wav}}`
 
-- Genereer een WAV-[f]ile met een [m]odel en specificeer het bijbehorende JSON-[c]onfiguratiebestand:
+- Genereer een WAV-bestand ([f]) met een [m]odel en specificeer het bijbehorende JSON-[c]onfiguratiebestand:
 
 `echo {{Te zeggen tekst}} | piper -m {{pad/naar/model.onnx}} -c {{pad/naar/model.onnx.json}} -f {{uitvoerbestand.wav}}`
 

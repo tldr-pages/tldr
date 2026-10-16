@@ -1,7 +1,7 @@
 # jobs
 
 > Shell ingebouwd commando om informatie te bekijken over processen die door de huidige shell zijn gestart.
-> Opties anders dan `-l` en `-p` zijn exclusief voor `bash`.
+> Opties anders dan `-l` en `-p` zijn exclusief voor Bash.
 > Zie ook: `fg`, `bg`, `disown`, `%`.
 > Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#index-jobs>.
 

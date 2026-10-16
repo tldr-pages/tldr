@@ -1,6 +1,6 @@
 # zellij
 
-> Terminal multiplexer met extra functies.
+> Terminal multiplexer met alles erop en eraan.
 > Zie ook: `tmux`, `screen`, `herdr`.
 > Meer informatie: <https://zellij.dev/documentation/>.
 
@@ -16,7 +16,7 @@
 
 `zellij {{[a|attach]}}`
 
-- Open een nieuwe pane (binnen een zellij sessie):
+- Open een nieuwe pane (binnen een zellij-sessie):
 
 `<Alt n>`
 

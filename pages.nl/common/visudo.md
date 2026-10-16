@@ -3,11 +3,11 @@
 > Bewerk veilig het sudoers-bestand.
 > Meer informatie: <https://www.sudo.ws/docs/man/visudo.man/>.
 
-- Bewerk sudoers-bestand:
+- Bewerk het sudoers-bestand:
 
 `sudo visudo`
 
-- Controleer sudoers-bestand op fouten:
+- Controleer het sudoers-bestand op fouten:
 
 `sudo visudo {{[-c|--check]}}`
 

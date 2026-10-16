@@ -1,6 +1,6 @@
 # findfs
 
-> Finds a filesystem by label or UUID.
+> Find a filesystem by label or UUID.
 > More information: <https://manned.org/findfs>.
 
 - Search block devices by filesystem label:

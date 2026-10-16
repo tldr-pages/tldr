@@ -15,7 +15,7 @@
 
 `{{commando}} | clamscan -`
 
-- Specificeer een virus database bestand of map van bestanden:
+- Specificeer een virusdatabasebestand of map van bestanden:
 
 `clamscan {{[-d|--database]}} {{pad/naar/database_bestand_of_map}}`
 
@@ -29,7 +29,7 @@
 
 - Verplaats geïnfecteerde bestanden naar een specifieke map:
 
-`clamscan --move {{pad/naar/quarantine_map}}`
+`clamscan --move {{pad/naar/quarantaine_map}}`
 
 - Verwijder geïnfecteerde bestanden:
 

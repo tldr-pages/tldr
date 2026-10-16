@@ -1,6 +1,6 @@
 # npm
 
-> JavaScript en Node.js pakketbeheer.
+> JavaScript en Node.js pakketbeheerder.
 > Beheer Node.js-projecten en hun module-afhankelijkheden.
 > Sommige subcommando's zoals `install`, `run`, etc. hebben hun eigen documentatie.
 > Meer informatie: <https://docs.npmjs.com/cli/npm/>.

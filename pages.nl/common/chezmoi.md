@@ -8,7 +8,7 @@
 
 `chezmoi init`
 
-- Stel `chezmoi` in gebaseerd op een bestaande Git-repository:
+- Stel `chezmoi` in vanuit bestaande dotfiles in een Git-repository:
 
 `chezmoi init {{repository_url}}`
 
@@ -20,7 +20,7 @@
 
 `chezmoi re-add {{pad/naar/dotfile1 pad/naar/dotfile2 ...}}`
 
-- Bewerk de source status van een bijgehouden bestand:
+- Bewerk de source status van een bijgehouden dotfile:
 
 `chezmoi edit {{pad/naar/dotfile_of_symlink}}`
 

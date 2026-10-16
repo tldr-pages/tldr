@@ -9,7 +9,7 @@
 
 - Maak een nieuw LKE-cluster:
 
-`linode-cli lke clusters create --region {{regio}} --type {{type}} --node-type {{node_type}} --nodes-count {{count}}`
+`linode-cli lke clusters create --region {{regio}} --type {{type}} --node-type {{node_type}} --nodes-count {{aantal}}`
 
 - Toon details van een specifiek LKE-cluster:
 
@@ -17,7 +17,7 @@
 
 - Update een bestaand LKE-cluster:
 
-`linode-cli lke clusters update {{cluster_id}} --node-type {{new_node_type}}`
+`linode-cli lke clusters update {{cluster_id}} --node-type {{nieuwe_node_type}}`
 
 - Verwijder een LKE-cluster:
 

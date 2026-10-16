@@ -5,7 +5,7 @@
 
 - Run a Shadowsocks proxy by specifying the host, server port, local port, password, and encryption method:
 
-`ss-local -s {{host}} -p {{server_port}} -l {{local port}} -k {{password}} -m {{encrypt_method}}`
+`ss-local -s {{host}} -p {{server_port}} -l {{local_port}} -k {{password}} -m {{encrypt_method}}`
 
 - Run a Shadowsocks proxy by specifying the configuration file:
 
