@@ -22,7 +22,7 @@
 
 - Set the background color:
 
-`setterm --background {{black}}`
+`setterm --background {{default|black|blue|red|...}}`
 
 - Blank the screen after a number of minutes of inactivity (`0` disables blanking):
 
