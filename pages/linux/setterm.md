@@ -26,7 +26,7 @@
 
 - Set the screen blanking timeout in minutes (`0` disables blanking):
 
-`setterm --blank {{10}}`
+`setterm --blank {{0..60}}`
 
 - Reset the terminal to its default state:
 
