@@ -3,7 +3,7 @@
 > Synthesize speech.
 > More information: <https://github.com/coqui-ai/TTS#command-line-tts>.
 
-- Run text-to-speech with the default models, writing the output to "tts_output.wav":
+- Run text-to-speech with the default models, writing the output to `tts_output.wav`:
 
 `tts --text "{{text}}"`
 
