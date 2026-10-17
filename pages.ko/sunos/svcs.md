@@ -13,12 +13,12 @@
 
 - 서비스에 대한 정보를 나열:
 
-`svcs apache`
+`svcs {{apache}}`
 
 - 서비스 로그 파일의 위치 표시:
 
-`svcs -L apache`
+`svcs -L {{apache}}`
 
 - 서비스 로그 파일의 끝을 표시:
 
-`tail $(svcs -L apache)`
+`tail $(svcs -L {{apache}})`
