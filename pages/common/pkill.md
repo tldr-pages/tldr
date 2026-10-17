@@ -16,7 +16,7 @@
 
 `pkill {{[-9|-SIGKILL]}} "{{process_name}}"`
 
-- Send SIGUSR1 signal to processes which match:
+- Send `SIGUSR1` signal to processes which match:
 
 `pkill {{[-10|-SIGUSR1]}} "{{process_name}}"`
 
