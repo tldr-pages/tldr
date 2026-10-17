@@ -11,6 +11,6 @@
 
 `sudo ctrlaltdel hard`
 
-- `<Ctrl Alt Del>`을 "일반적으로" 재부팅하도록 설정, 프로세스 종료 기회를 제공 (PID1에 SIGINT 전송):
+- `<Ctrl Alt Del>`을 "일반적으로" 재부팅하도록 설정, 프로세스 종료 기회를 제공 (PID1에 `SIGINT` 전송):
 
 `sudo ctrlaltdel soft`
