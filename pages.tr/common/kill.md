@@ -30,4 +30,4 @@
 
 - Verilen GID'ye (grup kimliği) sahip tüm süreçlere bir `SIGUSR1` sinyali gönder:
 
-`kill -SIGUSR1 -{{grup_kimliği}}`
+`kill {{[-10|-SIGUSR1]}} -{{grup_kimliği}}`

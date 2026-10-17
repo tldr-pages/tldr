@@ -30,4 +30,4 @@
 
 - 向所有具有指定 GID（组 ID）的进程发送 `SIGUSR1` 信号：
 
-`kill -SIGUSR1 -{{组id}}`
+`kill {{[-10|-SIGUSR1]}} -{{组id}}`
