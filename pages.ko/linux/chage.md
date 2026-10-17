@@ -9,11 +9,11 @@
 
 - 비밀번호 만료를 10일 후로 설정:
 
-`sudo chage --maxdays {{10}} {{사용자명}}`
+`sudo chage --maxdays 10 {{사용자명}}`
 
 - 비밀번호 만료 비활성화:
 
-`sudo chage --maxdays {{-1}} {{사용자명}}`
+`sudo chage --maxdays -1 {{사용자명}}`
 
 - 계정 만료 날짜 설정:
 
@@ -21,4 +21,4 @@
 
 - 다음 로그인 시 비밀번호 변경을 강제:
 
-`sudo chage --lastday {{0}} {{사용자명}}`
+`sudo chage --lastday 0 {{사용자명}}`
