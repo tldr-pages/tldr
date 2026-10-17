@@ -18,7 +18,7 @@
 
 - Set the text color:
 
-`setterm --foreground {{red}}`
+`setterm --foreground {{default|black|blue|red|...}}`
 
 - Set the background color:
 
