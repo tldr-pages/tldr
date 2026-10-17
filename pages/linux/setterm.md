@@ -24,7 +24,7 @@
 
 `setterm --background {{default|black|blue|red|...}}`
 
-- Blank the screen after a number of minutes of inactivity (`0` disables blanking):
+- Set the screen blanking timeout in minutes (`0` disables blanking):
 
 `setterm --blank {{10}}`
 
