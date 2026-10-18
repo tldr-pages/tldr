@@ -20,6 +20,6 @@
 
 `sudo setsebool -P {{key1 1 key2 0 ...}}`
 
-- Stel een boolean persistent in (alternatieve methode met `semanage-boolean`):
+- Stel een boolean persistent in of uit (alternatieve methode met `semanage-boolean`):
 
 `sudo semanage boolean {{[-m|--modify]}} {{-1|--on|-0|--off}} {{haproxy_connect_any}}`

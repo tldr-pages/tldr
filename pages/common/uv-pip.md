@@ -1,6 +1,6 @@
 # uv pip
 
-> Provides pip-like commands for installing, uninstalling, and managing packages.
+> Provide pip-like commands for installing, uninstalling, and managing packages.
 > More information: <https://docs.astral.sh/uv/reference/cli/#uv-pip>.
 
 - Install a package:

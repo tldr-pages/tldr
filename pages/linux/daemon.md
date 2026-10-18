@@ -1,6 +1,6 @@
 # daemon
 
-> Turns other processes into daemons.
+> Turn other processes into daemons.
 > More information: <https://manned.org/daemon.1>.
 
 - Run a command as a daemon:
@@ -19,7 +19,7 @@
 
 `daemon {{[-n|--name]}} "{{name}}" {{[-l|--errlog]}} {{path/to/file.log}} {{command}}`
 
-- Kill a daemon (SIGTERM):
+- Kill a daemon (`SIGTERM`):
 
 `daemon {{[-n|--name]}} "{{name}}" --stop`
 

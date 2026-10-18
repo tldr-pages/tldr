@@ -16,7 +16,7 @@
 
 `cd {{pad\naar\map}}`
 
-- Ga naar een map in een andere drive:
+- Ga naar een map in een andere [d]rive:
 
 `cd /d {{C}}:{{pad\naar\map}}`
 
@@ -28,6 +28,6 @@
 
 `cd %userprofile%`
 
-- Ga naar de hoofdmap:
+- Ga naar de hoofdmap van de huidige drive:
 
 `cd \`

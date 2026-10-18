@@ -11,11 +11,11 @@
 
 `adb logcat -e {{regex}}`
 
-- Toon logs voor een tag in een specifieke modus ([V]erbose, [D]ebug, [I]nfo, [W]arning, [E]rror, [F]atal, [S]ilent), andere tags filteren:
+- Toon logs voor een tag in een specifieke modus ([V]erbose, [D]ebug, [I]nfo, [W]arning, [E]rror, [F]atal, [S]ilent), waarbij andere tags worden gefilterd:
 
 `adb logcat {{tag}}:{{modus}} *:S`
 
-- Geef logs weer voor React Native-applicaties in [V]erbose mode [S]ilencing andere tags:
+- Geef logs weer voor React Native-applicaties in [V]erbose-modus, waarbij andere tags worden onderdrukt ([S]ilent):
 
 `adb logcat ReactNative:V ReactNativeJS:V *:S`
 
@@ -25,7 +25,7 @@
 
 - Geef logs weer voor een specifieke PID:
 
-`adb logcat --pid {{pid}}`
+`adb logcat --pid {{proces_id}}`
 
 - Geef logs weer voor het proces van een specifiek pakket:
 

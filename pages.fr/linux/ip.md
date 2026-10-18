@@ -28,10 +28,10 @@
 
 `sudo ip {{[l|link]}} {{[s|set]}} {{interface}} {{up|down}}`
 
-- Ajoute/Supprime une adresse ip à une interface :
+- Ajoute/Supprime une adresse IP à une interface :
 
-`sudo ip {{[a|address]}} {{add|delete}} {{ip}}/{{mask}} dev {{interface}}`
+`sudo ip {{[a|address]}} {{add|delete}} {{adresse_ip}}/{{masque}} dev {{interface}}`
 
 - Ajoute une route par défaut :
 
-`sudo ip {{[r|route]}} {{[a|add]}} default via {{ip}} dev {{interface}}`
+`sudo ip {{[r|route]}} {{[a|add]}} default via {{adresse_ip}} dev {{interface}}`

@@ -1,6 +1,6 @@
 # distrobox-upgrade
 
-> Upgrade een of meerdere Distrobox containers.
+> Upgrade een of meerdere Distrobox-containers.
 > Zie ook: `distrobox`.
 > Meer informatie: <https://distrobox.it/usage/distrobox-upgrade/>.
 

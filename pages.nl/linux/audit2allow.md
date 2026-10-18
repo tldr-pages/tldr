@@ -31,7 +31,7 @@
 
 - Genereer toestemmingsregels voor een specifieke service:
 
-`sudo ausearch {{[-m|--message]}} avc {{[-c|--comm]}} {{service_naam}} | audit2allow {{[-M|--module]}} {{beleidsnaam}}`
+`sudo ausearch {{[-m|--message]}} avc {{[-c|--comm]}} {{service_naam}} | audit2allow {{[-M|--module]}} {{beleid_naam}}`
 
 - Schakel uitgebreide uitvoermodus in:
 

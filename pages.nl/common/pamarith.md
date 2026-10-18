@@ -1,6 +1,6 @@
 # pamarith
 
-> Pas een binaire functie toe op twee Netpbm afbeeldingen.
+> Pas een binaire functie toe op twee Netpbm-afbeeldingen.
 > Zie ook: `pamfunc`.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/pamarith.html>.
 

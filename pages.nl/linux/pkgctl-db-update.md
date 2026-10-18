@@ -1,6 +1,6 @@
 # pkgctl db update
 
-> Update de pacman-database als laatste stap van de release voor pakketten die zijn overgedragen en opgevoerd in <https://repos.archlinux.org>.
+> Update de `pacman`-database als laatste stap van de release voor pakketten die zijn overgedragen en opgevoerd in <https://repos.archlinux.org>.
 > Meer informatie: <https://manned.org/pkgctl-db-update>.
 
 - Update de binaire repository als laatste stap van de release:

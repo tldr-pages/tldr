@@ -13,7 +13,7 @@
 
 - 개별 조명의 위치 지정:
 
-`ppmcie -{{red|green|blue}} {{xpos ypos}} > {{경로/대상/출력.ppm}}`
+`ppmcie -{{red|green|blue}} {{xpos}} {{ypos}} > {{경로/대상/출력.ppm}}`
 
 - 맥스웰 삼각형 외부 영역을 흐리지 않음:
 

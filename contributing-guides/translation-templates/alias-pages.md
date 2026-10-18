@@ -39,6 +39,7 @@ The templates can be changed when necessary.
 [si](#si) •
 [sr](#sr) •
 [sv](#sv) •
+[sw](#sw) •
 [ta](#ta) •
 [th](#th) •
 [tr](#tr) •
@@ -505,6 +506,20 @@ The templates can be changed when necessary.
 > Det här kommandot är ett alias för `example`.
 
 - Se dokumentationen för originalkommandot:
+
+`tldr example`
+```
+
+---
+
+### sw
+
+```markdown
+# example
+
+> Amri hii ni lakabu ya `example`.
+
+- Tazama nyaraka za amri asili:
 
 `tldr example`
 ```

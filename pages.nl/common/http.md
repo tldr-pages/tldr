@@ -8,7 +8,7 @@
 
 `http {{https://example.com}}`
 
-- Print specifieke uitvoerinhoud (`H`: request headers, `B`: request body, `h`: response headers, `b`: response body, `m`: response metadata):
+- Print specifieke delen van de inhoud (`H`: request headers, `B`: request body, `h`: response headers, `b`: response body, `m`: response metadata):
 
 `http {{[-p|--print]}} {{H|B|h|b|m|Hh|Hhb|...}} {{https://example.com}}`
 
@@ -24,7 +24,7 @@
 
 `http {{[-a|--auth]}} {{gebruikersnaam:wachtwoord|token}} {{[-A|--auth-type]}} {{basic|digest|bearer}} {{GET|POST|...}} {{https://example.com/auth}}`
 
-- Maak een verzoek maar verzend het niet (vergelijkbaar met een dry-run):
+- Simuleer het versturen van een verzoek zonder het daadwerkelijk te versturen:
 
 `http --offline {{GET|DELETE|...}} {{https://example.com}}`
 

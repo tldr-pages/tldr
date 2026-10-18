@@ -7,6 +7,6 @@
 
 `pio upgrade`
 
-- Update PlatformIO naar de laatste ontwikkel (instabiele) versie:
+- Update PlatformIO naar de laatste (instabiele) ontwikkelversie:
 
 `pio upgrade --dev`

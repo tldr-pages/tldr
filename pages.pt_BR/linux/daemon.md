@@ -19,7 +19,7 @@
 
 `daemon {{[-n|--name]}} "{{nome}}" {{[-l|--errlog]}} {{caminho/para/arquivo.log}} {{comando}}`
 
-- Elimina um daemon (SIGTERM):
+- Elimina um daemon (`SIGTERM`):
 
 `daemon {{[-n|--name]}} "{{nome}}" --stop`
 
