@@ -27,6 +27,6 @@
 
 `mlflow artifacts download --run-id {{id_exécution}} --dst-path ./artifacts`
 
-- Démarre un serveur d’inférence pour un modèle enregistré dans un run:
+- Démarre un serveur d’inférence pour un modèle enregistré dans une exécution :
 
 `mlflow models serve --model-uri runs:/{{id_exécution}}/model --port 5001`
