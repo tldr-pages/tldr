@@ -25,7 +25,7 @@
 
 - Télécharge tous les artefacts d’un run:
 
-`mlflow artifacts download --run-id {{identifiant_du_run}} --dst-path ./artifacts`
+`mlflow artifacts download --run-id {{id_exécution}} --dst-path ./artifacts`
 
 - Démarre un serveur d’inférence pour un modèle enregistré dans un run:
 
