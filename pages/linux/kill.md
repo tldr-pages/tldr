@@ -1,10 +1,10 @@
 # kill
 
 > Send a signal to a process, usually related to stopping the process.
-> All signals except for SIGKILL and SIGSTOP can be intercepted by the process to perform a clean exit.
+> All signals except for `SIGKILL` and `SIGSTOP` can be intercepted by the process to perform a clean exit.
 > More information: <https://manned.org/kill>.
 
-- Terminate a program using the default SIGTERM (terminate) signal:
+- Terminate a program using the default `SIGTERM` (terminate) signal:
 
 `kill {{process_id}}`
 
@@ -16,11 +16,11 @@
 
 `kill %{{job_id}}`
 
-- Terminate a program using the SIGHUP (hang up) signal. Many daemons will reload instead of terminating:
+- Terminate a program using the `SIGHUP` (hang up) signal. Many daemons will reload instead of terminating:
 
 `kill {{[-1|-HUP]}} {{process_id}}`
 
-- Terminate a program using the SIGINT (interrupt) signal. This is typically initiated by the user pressing `<Ctrl c>`:
+- Terminate a program using the `SIGINT` (interrupt) signal. This is typically initiated by the user pressing `<Ctrl c>`:
 
 `kill {{[-2|-INT]}} {{process_id}}`
 
@@ -28,7 +28,7 @@
 
 `kill {{[-9|-KILL]}} {{process_id}}`
 
-- Signal the operating system to pause a program until a SIGCONT ("continue") signal is received:
+- Signal the operating system to pause a program until a `SIGCONT` ("continue") signal is received:
 
 `kill {{[-19|-STOP]}} {{process_id}}`
 

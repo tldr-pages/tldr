@@ -9,7 +9,7 @@
 
 - Koppel een proces aan `gdb`:
 
-`gdb {{[-p|--pid]}} {{pid}}`
+`gdb {{[-p|--pid]}} {{proces_id}}`
 
 - Debug met een core-bestand:
 

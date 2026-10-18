@@ -15,7 +15,7 @@
 
 `jigsaw build`
 
-- "build_local" 디렉토리에서 사이트 미리보기:
+- `build_local` 디렉토리에서 사이트 미리보기:
 
 `jigsaw serve`
 
@@ -23,6 +23,6 @@
 
 `jigsaw build production`
 
-- "build_production" 디렉토리에서 사이트 미리보기:
+- `build_production` 디렉토리에서 사이트 미리보기:
 
 `jigsaw serve {{build_production}}`

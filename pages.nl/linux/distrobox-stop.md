@@ -1,13 +1,13 @@
 # distrobox-stop
 
-> Stop een Distrobox container.
+> Stop een Distrobox-container.
 > Zie ook: `distrobox`.
 > Meer informatie: <https://distrobox.it/usage/distrobox-stop/>.
 
-- Stop een Distrobox container:
+- Stop een Distrobox-container:
 
 `distrobox-stop {{container_naam}}`
 
-- Stop een Distrobox container niet-interactief (zonder bevestiging):
+- Stop een Distrobox-container niet-interactief (zonder bevestiging):
 
 `distrobox-stop {{container_naam}} {{[-Y|--yes]}}`

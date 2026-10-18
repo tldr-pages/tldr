@@ -20,7 +20,7 @@
 
 `gcc {{pad/naar/bron.c}} {{[-o|--output]}} {{pad/naar/uitvoerbaar_bestand}} -I{{pad/naar/header}} -L{{pad/naar/bibliotheek}} -l{{bibliotheek_naam}}`
 
-- Compileer broncode naar Assembler instructies:
+- Compileer broncode naar Assembler-instructies:
 
 `gcc {{[-S|--assemble]}} {{pad/naar/bron.c}}`
 

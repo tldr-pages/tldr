@@ -19,7 +19,7 @@
 
 `pio test {{[-i|--ignore]}} "{{patroon}}"`
 
-- Specificeer een poort voor firmware uploading:
+- Specificeer een poort voor het uploaden van firmware:
 
 `pio test --upload-port {{upload_poort}}`
 

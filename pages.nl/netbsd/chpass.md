@@ -16,7 +16,7 @@
 
 `chpass -s {{pad/naar/shell}} {{gebruikersnaam}}`
 
-- Specificeer een gebruikersdatabase entry in het `passwd` bestandsformaat:
+- Specificeer een gebruikersdatabasevermelding in het `passwd` bestandsformaat:
 
 `su -c 'chpass -a {{gebruikersnaam:gecodeerd_wachtwoord:gebruiker_id:groep_id:...}} -s {{pad/naar/shell}}' {{gebruikersnaam}}`
 
@@ -24,6 +24,6 @@
 
 `su -c 'chpass -l -s {{pad/naar/shell}}' {{gebruikersnaam}}`
 
-- Pas geforceerd een database [y]P wachtwoord database entry aan:
+- Pas geforceerd een database [y]P wachtwoord databasevermelding aan:
 
 `su -c 'chpass -y -s {{pad/naar/shell}}' {{gebruikersnaam}}`
