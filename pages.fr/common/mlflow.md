@@ -29,4 +29,4 @@
 
 - Démarre un serveur d’inférence pour un modèle enregistré dans un run:
 
-`mlflow models serve --model-uri runs:/{{identifiant_du_run}}/model --port 5001`
+`mlflow models serve --model-uri runs:/{{id_exécution}}/model --port 5001`
