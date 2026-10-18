@@ -27,9 +27,9 @@
 
 `sbx rm {{sandbox_name1 sandbox_name2 ...}}`
 
-- Allow network access to a specific host for all sandboxes:
+- Allow network access to a specific hostname or IP address for all sandboxes:
 
-`sbx policy allow network {{host}}`
+`sbx policy allow network {{hostname|ip_address}}`
 
 - Store a secret globally for all sandboxes:
 
