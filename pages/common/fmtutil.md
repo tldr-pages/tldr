@@ -25,8 +25,8 @@
 
 - Recreate all system format files:
 
-`fmtutil --all --sys`
+`fmtutil --sys --all`
 
 - Recreate all user format files:
 
-`fmtutil --all --user`
+`fmtutil --user --all`
