@@ -29,4 +29,4 @@
 
 - Interactively select an rsync mirror and append it to the repository configuration:
 
-`sudo mirrorselect {{[-i|--interactive]}} {{[-r|--rsync]}} {{[-o|--output]}} | sudo tee -a {{/etc/portage/repos.conf/gentoo.conf}}`
+`mirrorselect {{[-i|--interactive]}} {{[-r|--rsync]}} {{[-o|--output]}} | sudo tee -a /etc/portage/repos.conf/gentoo.conf`
