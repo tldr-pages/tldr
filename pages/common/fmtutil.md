@@ -22,3 +22,7 @@
 - Recreate a specific format:
 
 `fmtutil --byfmt {{format}}`
+
+- Recreate all system format files:
+
+`fmtutil-sys --all --sys`
