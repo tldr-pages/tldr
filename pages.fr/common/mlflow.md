@@ -13,7 +13,7 @@
 
 - Démarre un serveur en spécifiant des URI pour les données d'expériences et artefacts :
 
-`mlflow server --backend-store-uri sqlite:///mlflow.db --artifacts-destination ./mlartifacts `
+`mlflow server --backend-store-uri sqlite:///mlflow.db --artifacts-destination ./mlartifacts`
 
 - Met à niveau le schéma d’une base de données MLflow après une mise à jour de MLflow :
 
