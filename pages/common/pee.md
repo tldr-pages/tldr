@@ -12,6 +12,6 @@
 
 `pee cat {{command1 command2 ...}}`
 
-- Immediately terminate upon SIGPIPEs and write errors:
+- Immediately terminate upon `SIGPIPE`s and write errors:
 
 `pee --no-ignore-sigpipe --no-ignore-write-errors {{command1 command2 ...}}`

@@ -1,6 +1,6 @@
 # poetry install
 
-> pyproject.toml 파일에 정의된 Python 프로젝트의 모든 의존성을 설치.
+> `pyproject.toml` 파일에 정의된 Python 프로젝트의 모든 의존성을 설치.
 > 더 많은 정보: <https://python-poetry.org/docs/cli/#install>.
 
 - 의존성 설치:
