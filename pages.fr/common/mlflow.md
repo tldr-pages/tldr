@@ -23,7 +23,7 @@
 
 `mlflow run . --entry-point train --parameter learning_rate=0.001 --parameter epochs=20`
 
-- Télécharge tous les artefacts d’un run:
+- Télécharge tous les artefacts d’une exécution :
 
 `mlflow artifacts download --run-id {{id_exécution}} --dst-path ./artifacts`
 
