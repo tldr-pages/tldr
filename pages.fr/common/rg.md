@@ -4,7 +4,7 @@
 > Se veut une alternative plus rapide à `grep`.
 > Plus d'informations : <https://github.com/BurntSushi/ripgrep/blob/master/GUIDE.md>.
 
-- Rechercher de manière récursive un motif (`expression régulière`) dans le répertoire courant :
+- Recherche de manière récursive un motif (`expression régulière`) dans le répertoire courant :
 
 `rg {{motif}}`
 
