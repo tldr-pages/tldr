@@ -1,7 +1,7 @@
 # fmtutil
 
 > Manage TeX formats and Metafont bases.
-> More information: <https://manned.org/fmtutil-sys>.
+> More information: <https://manned.org/fmtutil>.
 
 - Recreate all format files:
 
