@@ -9,4 +9,4 @@
 
 - runit 종료:
 
-`kill --CONT {{runit_pid}}`
+`kill -SIGCONT {{runit_pid}}`

@@ -25,4 +25,4 @@
 
 - Periksa kemajuan dari suatu proses `dd` yang sedang berjalan (jalankan perintah ini dari sesi shell lainnya):
 
-`kill -USR1 $(pgrep ^dd)`
+`kill {{[-30|-SIGUSR1]}} $(pgrep ^dd)`
