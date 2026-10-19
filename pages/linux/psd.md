@@ -16,6 +16,14 @@
 
 `psd sync`
 
+- Resync profiles from `tmpfs` back to disk (same as `sync`, normally run hourly by `psd-resync.timer`):
+
+`psd resync`
+
+- Sync profiles back to disk, close running browsers, and restore the original profile directories:
+
+`psd unsync`
+
 - Display help:
 
 `psd`
