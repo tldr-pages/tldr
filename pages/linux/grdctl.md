@@ -13,7 +13,7 @@
 
 - Set RDP credentials:
 
-`grdctl set-credentials [<username>] [<password>]`
+`grdctl rdp set-credentials [<username>] [<password>]`
 
 - Enable Virtual Network Computing (VNC) backend service:
 
@@ -21,7 +21,7 @@
 
 - Set VNC password:
 
-`grdctl set-password [<password>]`
+`grdctl vnc set-password [<password>]`
 
 - Enable remote control of input devices:
 
