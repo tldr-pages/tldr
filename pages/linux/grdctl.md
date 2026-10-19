@@ -1,7 +1,7 @@
 # grdctl
 
 > Manage GNOME Remote Desktop service.
-> More information: <https://github.com/GNOME/gnome-remote-desktop>.
+> More information: <https://github.com/GNOME/gnome-remote-desktop/blob/main/man/grdctl.txt>.
 
 - List the current GRD settings:
 
