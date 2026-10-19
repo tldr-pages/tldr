@@ -5,19 +5,15 @@
 
 - List sessions excluding the currently attached:
 
-`sesh list --hide-attached`
+`sesh list {{[-H|--hide-attached]}}`
 
 - List sessions with icons:
 
-`sesh list --icons`
-
-- List panes for the currently connected session:
-
-`sesh list --panes`
+`sesh list {{[-i|--icons]}}`
 
 - Start fuzzy picker of sessions with icons:
 
-`sesh picker --icons`
+`sesh picker {{[-i|--icons]}}`
 
 - Connect to a session:
 
