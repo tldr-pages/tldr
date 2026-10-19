@@ -9,7 +9,7 @@
 
 - Add a to-do with a due date of tomorrow with a priority of `A`:
 
-`topydo add "(A) {{todo _message}} due:{{1d}}"`
+`topydo add "(A) {{todo_message}} due:{{1d}}"`
 
 - Add a to-do with a due date of Friday:
 
