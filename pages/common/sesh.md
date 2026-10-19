@@ -1,11 +1,15 @@
 # sesh
 
-> Sesh is a tool for managing tmux sessions using [zoxide](https://github.com/ajeetdsouza/zoxide).
-> More information: <https://github.com/joshmedeski/sesh>.
+> Manage `tmux` sessions using `zoxide`.
+> More information: <https://github.com/joshmedeski/sesh#how-to-use>.
 
-- List sessions excluding the currently attached with icons:
+- List sessions excluding the currently attached:
 
-`sesh list --hide-attached --icons`
+`sesh list --hide-attached`
+
+- List sessions with icons:
+
+`sesh list --icons`
 
 - List panes for the currently connected session:
 
@@ -17,7 +21,7 @@
 
 - Connect to a session:
 
-`sesh connect {{name}}`
+`sesh connect {{session_name}}`
 
 - Connect to the previously connected session:
 
@@ -25,4 +29,4 @@
 
 - Preview the active window in a session:
 
-`sesh preview {{name}}`
+`sesh preview {{session_name}}`
