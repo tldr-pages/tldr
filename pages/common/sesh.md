@@ -11,6 +11,10 @@
 
 `sesh list {{[-i|--icons]}}`
 
+- List panes for the currently connected session:
+
+`sesh list {{[-p|--panes]}}`
+
 - Start fuzzy picker of sessions with icons:
 
 `sesh picker {{[-i|--icons]}}`
