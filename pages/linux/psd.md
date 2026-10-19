@@ -1,7 +1,6 @@
 # psd
 
-> Profile-sync-daemon: keep browser profiles in `tmpfs` and sync them back to disk periodically.
-> It normally runs as a systemd user service called `psd`.
+> Sync browser profiles between `tmpfs` and disk.
 > More information: <https://manned.org/psd>.
 
 - Show which browser profiles will be managed and their current state:
@@ -16,11 +15,11 @@
 
 `psd sync`
 
-- Resync profiles from `tmpfs` back to disk (same as `sync`, normally run hourly by `psd-resync.timer`):
+- Sync profiles from `tmpfs` back to disk once an hour:
 
 `psd resync`
 
-- Sync profiles back to disk, close running browsers, and restore the original profile directories:
+- Sync profiles back to disk, close browsers, and restore original profile directories:
 
 `psd unsync`
 
