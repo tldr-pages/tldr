@@ -23,6 +23,10 @@
 
 `grdctl vnc set-password {{password}}`
 
-- Enable  remote control of input devices:
+- Enable remote control of input devices:
 
 `grdctl {{rdp|vnc}} disable-view-only`
+
+- Disable remote control of input devices:
+
+`grdctl {{rdp|vnc}} enable-view-only`
