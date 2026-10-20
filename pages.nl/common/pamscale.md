@@ -1,6 +1,6 @@
 # pamscale
 
-> Schaal een Netpbm afbeelding.
+> Schaal een Netpbm-afbeelding.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/pamscale.html>.
 
 - Schaal een afbeelding zodat het resultaat de gespecificeerde afmetingen heeft:

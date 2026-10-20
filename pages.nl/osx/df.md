@@ -7,11 +7,11 @@
 
 `df`
 
-- Gebruik leesbare eenheden (gebaseerd op de macht van 1024) en toon het grote totaal:
+- Gebruik leesbare eenheden ([h], gebaseerd op de macht van 1024) en toon het grote totaal:
 
 `df -h -c`
 
-- Gebruik leesbare eenheden (gebaseerd op de macht van 1000):
+- Gebruik leesbare eenheden ([H], gebaseerd op de macht van 1000):
 
 `df {{[-H|--si]}}`
 
@@ -27,6 +27,6 @@
 
 `df -k`
 
-- Toon informatie op een [P]ortable wijze:
+- Toon informatie op een draagbare wijze ([P]):
 
 `df -P`

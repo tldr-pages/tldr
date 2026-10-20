@@ -23,11 +23,11 @@
 
 `ls {{[-lh|-l --human-readable]}}`
 
-- Toon bestanden recursief in een [l]ange lijstweergave, gesorteerd op grootte (aflopend):
+- Toon bestanden recursief in een [l]ange lijstweergave, gesorteerd op grootte ([S]) (aflopend):
 
 `ls {{[-lSR|-lS --recursive]}}`
 
-- Toon bestanden in een [l]ange lijstweergave, gesorteerd op wijzigingsdatum (oudste eerst):
+- Toon bestanden in een [l]ange lijstweergave, gesorteerd op wijzigingsdatum ([t]) (oudste eerst):
 
 `ls {{[-ltr|-lt --reverse]}}`
 

@@ -11,15 +11,15 @@
 
 `adb -s {{serienummer}} install {{pad/naar/bestand}}.apk`
 
-- Installeer een bestaande app opnieuw, waarbij de gegevens behouden blijven:
+- Installee[r] een bestaande app opnieuw, waarbij de gegevens behouden blijven:
 
 `adb install -r {{pad/naar/bestand}}.apk`
 
-- Push een Android-applicatie en sta downgrade van de versiecode toe (alleen foutopsporingspakketten):
+- Push een Android-applicatie en sta [d]owngrade van de versiecode toe (alleen foutopsporingspakketten):
 
 `adb install -d {{pad/naar/bestand}}.apk`
 
-- Verleen alle machtigingen die worden vermeld in het app-manifest:
+- Verleen ([g]) alle machtigingen die worden vermeld in het app-manifest:
 
 `adb install -g {{pad/naar/bestand}}.apk`
 

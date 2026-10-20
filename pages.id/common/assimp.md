@@ -16,7 +16,7 @@
 
 `assimp export {{berkas_masukan.stl}} {{berkas_luaran.obj}}`
 
-- Ubah isi suatu berkas menggunakan kumpulan parameter kustom (daftar parameter yang tersedia dapat dilihat pada berkas dox_cmd.h pada kode sumber assimp):
+- Ubah isi suatu berkas menggunakan kumpulan parameter kustom (daftar parameter yang tersedia dapat dilihat pada berkas `dox_cmd.h` pada kode sumber assimp):
 
 `assimp export {{berkas_masukan.stl}} {{berkas_luaran.obj}} {{kumpulan_parameter}}`
 

@@ -1,6 +1,6 @@
 # Get-Alias
 
-> Toon en verkrijg commandoaliassen in de huidige PowerShell sessie.
+> Toon en verkrijg commandoaliassen in de huidige PowerShell-sessie.
 > Dit commando kan alleen worden uitgevoerd onder PowerShell.
 > Meer informatie: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/get-alias>.
 

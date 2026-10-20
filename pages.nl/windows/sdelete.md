@@ -15,6 +15,6 @@
 
 `sdelete -p 3 D:`
 
-- Maak de vrije ruimte schoon met nullen ([z]) van fysieke schijf 2, welke geen volumes meer mag bevatten die opgeschoond kunnen worden:
+- Maak de vrije ruimte schoon met nullen ([z]eros) van fysieke schijf 2, welke geen volumes meer mag bevatten die opgeschoond kunnen worden:
 
 `sdelete -z 2`

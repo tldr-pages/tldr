@@ -27,6 +27,6 @@
 
 `systemd-mount {{[-t|--type]}} {{bestandssysteemtype}} {{pad/naar/bestand_of_apparaat}} {{pad/naar/mountpunt}}`
 
-- Mount een bestandssysteem (image of blokapparaat) met extra mount opties:
+- Mount een bestandssysteem (image of blokapparaat) met extra mount-opties:
 
 `systemd-mount {{[-o|--options]}} {{mount_opties}} {{pad/naar/bestand_of_apparaat}} {{pad/naar/mountpunt}}`

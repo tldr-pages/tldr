@@ -7,7 +7,7 @@
 
 `truncate {{[-s|--size]}} 10G {{pad/naar/bestand}}`
 
-- Verleng de bestandsgrootte met 50 MiB, vul met gaten (die lezen als null bytes):
+- Verleng de bestandsgrootte met 50 MiB, vul met gaten (die lezen als nulbytes):
 
 `truncate {{[-s|--size]}} +50M {{pad/naar/bestand}}`
 

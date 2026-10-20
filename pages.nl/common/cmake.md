@@ -27,7 +27,7 @@
 
 `cmake --install {{pad/naar/bouwmap}} --strip --prefix {{pad/naar/map}}`
 
-- Voer een aangepaste bouwdoel uit:
+- Voer een aangepast bouwdoel uit:
 
 `cmake --build {{pad/naar/bouwmap}} {{[-t|--target]}} {{doelnaam}}`
 

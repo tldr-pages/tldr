@@ -17,20 +17,20 @@
 
 - 동일한 영역의 상대 레코드를 가리키는 `www` 하위 도메인을 생성:
 
-`cli53 {{rc|rrcreate}} {{도메인주소.com}} {{'www 300 CNAME lb'}}`
+`cli53 {{[rc|rrcreate]}} {{도메인주소.com}} '{{www 300 CNAME lb}}'`
 
 - 외부 주소를 가리키는 `www` 하위 도메인을 생성 (점으로 끝나야 함):
 
-`cli53 {{rc|rrcreate}} {{도메인주소.com}} {{'www 300 CNAME lb.externalhost.com.'}}`
+`cli53 {{[rc|rrcreate]}} {{도메인주소.com}} '{{www 300 CNAME lb.externalhost.com.}}'`
 
 - IP 주소를 가리키는 `www` 하위 도메인을 생성:
 
-`cli53 {{rc|rrcreate}} {{도메인주소.com}} {{'www 300 A 150.130.110.1'}}`
+`cli53 {{[rc|rrcreate]}} {{도메인주소.com}} '{{www 300 A 150.130.110.1}}'`
 
 - 다른 IP를 가리키는 `www` 하위 도메인을 교체:
 
-`cli53 {{rc|rrcreate}} --replace {{'www 300 A 150.130.110.2'}}`
+`cli53 {{[rc|rrcreate]}} --replace '{{www 300 A 150.130.110.2}}'`
 
 - A 레코드 삭제:
 
-`cli53 {{rd|rrdelete}} {{도메인주소.com}} {{www}} {{A}}`
+`cli53 {{[rd|rrdelete]}} {{도메인주소.com}} {{www}} {{A}}`

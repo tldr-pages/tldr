@@ -7,7 +7,7 @@
 
 `last`
 
-- Toon login informatie van een specifieke gebruiker:
+- Toon de inloggegevens van een specifieke gebruiker:
 
 `last {{gebruikersnaam}}`
 

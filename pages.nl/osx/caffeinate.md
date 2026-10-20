@@ -17,7 +17,7 @@
 
 - Voorkom de slaapstand totdat een proces met het opgegeven PID is voltooid:
 
-`caffeinate -w {{pid}}`
+`caffeinate -w {{proces_id}}`
 
 - Voorkom dat de schijf in slaapstand gaat (gebruik `<Ctrl c>` om te stoppen):
 

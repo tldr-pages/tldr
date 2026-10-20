@@ -1,7 +1,7 @@
 # abrt-cli
 
-> Automatisch bug rapportage hulpmiddel voor Fedora-gebaseerde systemen.
-> Gebruikt om applicatie crashes te detecteren, analyseren en rapporteren.
+> Automatisch bugrapportagehulpmiddel voor Fedora-gebaseerde systemen.
+> Gebruikt om applicatiecrashes te detecteren, analyseren en rapporteren.
 > Meer informatie: <https://abrt.readthedocs.io/en/latest/usage.html>.
 
 - Toon een lijst van gedetecteerde problemen:

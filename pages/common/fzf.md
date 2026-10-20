@@ -1,7 +1,7 @@
 # fzf
 
 > Fuzzy finder.
-> Similar to `sk`.
+> See also: `sk`.
 > More information: <https://github.com/junegunn/fzf#usage>.
 
 - Start `fzf` on all files in the specified directory:

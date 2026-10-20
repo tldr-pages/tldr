@@ -3,7 +3,7 @@
 > Load-testing tool to determine number of concurrent users a system can handle.
 > More information: <https://docs.locust.io/en/stable/configuration.html#configuration>.
 
-- Load-test "example.com" with web interface using locustfile.py:
+- Load-test "example.com" with web interface using `locustfile.py`:
 
 `locust {{[-H|--host]}} {{http://example.com}}`
 

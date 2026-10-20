@@ -25,4 +25,4 @@
 
 - Voeg samen met behulp van een specifieke strategie:
 
-`git merge {{[-s|--strategy]}} {{strategie}} {{[-X|--strategy-option]}} {{strategie_keuze}} {{branch_naam}}`
+`git merge {{[-s|--strategy]}} {{strategie}} {{[-X|--strategy-option]}} {{strategie_optie}} {{branch_naam}}`
