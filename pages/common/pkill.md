@@ -18,7 +18,7 @@
 
 - Send `SIGUSR1` signal to processes which match:
 
-`pkill {{[-10|-SIGUSR1]}} "{{process_name}}"`
+`pkill {{[-USR1|-SIGUSR1]}} "{{process_name}}"`
 
 - Kill the main `firefox` process to close the browser:
 
