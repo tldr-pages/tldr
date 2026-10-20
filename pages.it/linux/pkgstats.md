@@ -23,6 +23,6 @@
 
 `pkgstats show {{pacchetto1 pacchetto2 ...}}`
 
-- Mostra aiuto:
+- Mostra l'aiuto:
 
 `pkgstats {{[-h|--help]}}`
