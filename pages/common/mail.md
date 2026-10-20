@@ -10,7 +10,7 @@
 
 - Send a typed email message with optional CC. The command-line below continues after pressing `<Enter>`. Input message text (can be multiline). Press `<Ctrl d>` to complete the message text:
 
-`mail --subject "{{subject line}}" {{to_user@example.com}} --cc "{{cc_email_address}}"`
+`mail --subject "{{subject_line}}" {{to_user@example.com}} --cc "{{cc_email_address}}"`
 
 - Send an email that contains file content:
 

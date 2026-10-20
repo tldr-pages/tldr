@@ -18,19 +18,19 @@
 
 - Termina un programa usando la señal `SIGHUP` (hang up). Muchos servicios se recargarán en lugar de terminar:
 
-`kill {{[-1|-HUP]}} {{id_del_proceso}}`
+`kill {{[-1|-SIGHUP]}} {{id_del_proceso}}`
 
 - Termina un programa usando la señal `SIGINT` (interrupción). Esto es normalmente iniciado por el usuario pulsando `<Ctrl c>`:
 
-`kill {{[-2|-INT]}} {{id_del_proceso}}`
+`kill {{[-2|-SIGINT]}} {{id_del_proceso}}`
 
 - Indica al sistema operativo terminar inmediatamente un programa (que no tiene oportunidad de capturar la señal):
 
-`kill {{[-9|-KILL]}} {{id_del_proceso}}`
+`kill {{[-9|-SIGKILL]}} {{id_del_proceso}}`
 
 - Indica al sistema operativo detener un programa hasta que se reciba una señal `SIGCONT` ("continúa"):
 
-`kill {{[-19|-STOP]}} {{id_del_proceso}}`
+`kill {{[-19|-SIGSTOP]}} {{id_del_proceso}}`
 
 - Envía una señal `SIGUSR1` a todos los procesos con el GID dado (id del grupo):
 
