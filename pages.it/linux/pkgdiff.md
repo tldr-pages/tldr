@@ -9,8 +9,8 @@
 
 - Confronta due pacchetti con output colorato:
 
-`pkgdiff -c {{percorso/pacchetto1.txz}} {{percorso/pacchetto2.txz}}`
+`pkgdiff -c {{percorso/del/pacchetto1.txz}} {{percorso/del/pacchetto2.txz}}`
 
 - Confronta due pacchetti e mostra un output unificato semplice:
 
-`pkgdiff -a {{percorso/pacchetto1.txz}} {{percorso/pacchetto2.txz}}`
+`pkgdiff -a {{percorso/del/pacchetto1.txz}} {{percorso/del/pacchetto2.txz}}`
