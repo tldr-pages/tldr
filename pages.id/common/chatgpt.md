@@ -1,6 +1,6 @@
 # chatgpt
 
-> Skrip syel untuk memakai OpenAI ChatGPT dan DALL-E dalam terminal.
+> Skrip syel untuk memakai OpenAI ChatGPT dan DALL·E dalam terminal.
 > Informasi lebih lanjut: <https://github.com/0xacx/chatGPT-shell-cli>.
 
 - Jalankan dalam mode percakapan interaktif:
@@ -23,6 +23,6 @@
 
 `echo "{{Bagaimana cara melihat proses yang berjalan di Ubuntu?}}" | chatgpt`
 
-- Buat gambar baru menggunakan model DALL-E:
+- Buat gambar baru menggunakan model DALL·E:
 
 `chatgpt {{[-p|--prompt]}} "{{image: Seekor kucing putih}}"`
