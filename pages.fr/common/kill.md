@@ -26,8 +26,8 @@
 
 - Demande au système d'exploitation de suspendre un processus jusqu'à recevoir le signal `SIGCONT` ("continue") :
 
-`kill {{[-19|-SIGSTOP]}} {{identifiant_processus}}`
+`kill {{[-STOP|-SIGSTOP]}} {{identifiant_processus}}`
 
 - Envoie le signal `SIGUSR1` à tous les processus dans le groupe avec l'identifiant indiqué :
 
-`kill -SIGUSR1 -{{identifiant_groupe}}`
+`kill {{[-USR1|-SIGUSR1]}} -{{identifiant_groupe}}`

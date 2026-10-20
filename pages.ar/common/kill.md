@@ -26,8 +26,8 @@
 
 - إرسال إشارة إلى نظام التشغيل لإيقاف برنامج مؤقتًا حتى يتم استلام إشارة `SIGCONT` ("متابعة"):
 
-`kill {{[-19|-SIGSTOP]}} {{process_id}}`
+`kill {{[-STOP|-SIGSTOP]}} {{process_id}}`
 
 - إرسال إشارة `SIGUSR1` إلى جميع العمليات التي تملك معرف المجموعة المحدد (GID):
 
-`kill -SIGUSR1 -{{group_id}}`
+`kill {{[-USR1|-SIGUSR1]}} -{{group_id}}`
