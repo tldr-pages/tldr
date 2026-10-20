@@ -22,7 +22,7 @@
 
 - Search within a specific folder:
 
-`es -path {{folder_path}} {{search_term}}`
+`es -path {{path/to/folder}} {{search_term}}`
 
 - List folders only:
 
