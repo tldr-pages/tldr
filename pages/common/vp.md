@@ -2,7 +2,7 @@
 
 > Unified toolchain for web development.
 > Some subcommands such as `env` have their own usage documentation.
-> More information: <https://viteplus.dev/guide/cli>.
+> More information: <https://viteplus.dev/guide/#quick-start>.
 
 - Create a new project interactively:
 
@@ -32,6 +32,6 @@
 
 `vp {{[i|install]}}`
 
-- Add packages to dependencies:
+- Add a package to dependencies:
 
 `vp add {{package_name}}`

@@ -13,11 +13,11 @@
 
 - Activate a specific Node.js version in the current shell session:
 
-`vp env use {{version}}`
+`vp env use {{node_version}}`
 
 - Pin Node.js or a package manager version for the current project:
 
-`vp env pin {{version|package_manager@version}}`
+`vp env pin {{node_version|package_manager@version}}`
 
 - Remove project environment pins:
 
