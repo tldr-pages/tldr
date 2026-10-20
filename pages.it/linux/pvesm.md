@@ -1,28 +1,32 @@
 # pvesm
 
-> Gestisce l'archiviazione di Proxmox.
+> Gestisce lo storage di Proxmox.
 > Maggiori informazioni: <https://pve.proxmox.com/pve-docs/pvesm.1.html>.
 
-- Ottieni lo stato per tutti i datastore:
+- Mostra lo stato di tutti i datastore:
 
 `pvesm {{[st|status]}}`
 
-- Elenca i contenuti dell'archivio:
+- Elenca i contenuti dello storage:
 
-`pvesm {{[l|list]}} {{nome_archivio}}`
+`pvesm {{[l|list]}} {{nome_storage}}`
 
-- Aggiungi un archivio di directory:
+- Mostra il percorso di un file archiviato:
 
-`pvesm add {{[d|dir]}} {{nome_archivio}} --path {{percorso/directory}}`
+`pvesm {{[pa|path]}} {{nome_storage}}:{{tipo_contenuto}}/{{nome_file}}`
 
-- Imposta un archivio per contenere contenuti specifici:
+- Aggiunge uno storage di tipo directory:
 
-`pvesm set {{nome_archivio}} --content {{iso,images,backup,vztmpl,...}}`
+`pvesm {{[ad|add]}} dir {{nome_storage}} --path {{percorso/della/directory}}`
 
-- Elimina un file dall'archivio:
+- Configura uno storage per contenere tipi di contenuto specifici:
 
-`pvesm free {{local:iso/archlinux-2025.08.01-x86_64.iso}}`
+`pvesm {{[se|set]}} {{nome_storage}} --content {{iso,images,backup,vztmpl,rootdir,snippets,import}}`
 
-- Rimuovi un archivio:
+- Elimina un file dallo storage:
 
-`pvesm {{[r|remove]}} {{nome_archivio}}`
+`pvesm {{[f|free]}} {{local:iso/archlinux-2025.08.01-x86_64.iso}}`
+
+- Rimuove uno storage:
+
+`pvesm {{[r|remove]}} {{nome_storage}}`
