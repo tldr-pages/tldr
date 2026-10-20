@@ -11,10 +11,6 @@
 
 `grdctl {{rdp|vnc}} enable`
 
-- Disable Remote Desktop Protocol (RDP) or Virtual Network Computing (VNC) backend services:
-
-`grdctl {{rdp|vnc}} disable`
-
 - Set RDP credentials:
 
 `grdctl rdp set-credentials {{username}} {{password}}`
@@ -30,3 +26,7 @@
 - Disable remote control of input devices:
 
 `grdctl {{rdp|vnc}} enable-view-only`
+
+- Disable Remote Desktop Protocol (RDP) or Virtual Network Computing (VNC) backend services:
+
+`grdctl {{rdp|vnc}} disable`
