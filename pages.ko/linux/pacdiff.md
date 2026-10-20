@@ -7,7 +7,7 @@
 
 `pacdiff`
 
-- sudo와 sudoedit를 사용하여 파일 제거 및 병합:
+- `sudo`와 `sudoedit`를 사용하여 파일 제거 및 병합:
 
 `pacdiff {{[-s|--sudo]}}`
 

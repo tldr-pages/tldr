@@ -18,19 +18,19 @@
 
 - Beëindig een programma met behulp van het `SIGHUP` (hang up) signaal. Veel daemons zullen herladen in plaats van beëindigen:
 
-`kill {{[-1|-HUP]}} {{proces_id}}`
+`kill {{[-1|-SIGHUP]}} {{proces_id}}`
 
 - Beëindig een programma met behulp van het `SIGINT` (interrupt) signaal. Dit wordt meestal geïnitieerd door de gebruiker die `<Ctrl c>` indrukt:
 
-`kill {{[-2|-INT]}} {{proces_id}}`
+`kill {{[-2|-SIGINT]}} {{proces_id}}`
 
 - Signaleer het besturingssysteem om een programma onmiddellijk te beëindigen (het programma krijgt geen kans om het signaal te onderscheppen):
 
-`kill {{[-9|-KILL]}} {{proces_id}}`
+`kill {{[-9|-SIGKILL]}} {{proces_id}}`
 
 - Signaleer het besturingssysteem om een programma te pauzeren totdat een `SIGCONT` ("continue") signaal wordt ontvangen:
 
-`kill {{[-19|-STOP]}} {{proces_id}}`
+`kill {{[-19|-SIGSTOP]}} {{proces_id}}`
 
 - Stuur een `SIGUSR1` signaal naar alle processen met de gegeven GID (groeps-ID):
 
