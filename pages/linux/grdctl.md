@@ -5,7 +5,7 @@
 
 - List the current GRD settings:
 
-`rdctl status`
+`grdctl status`
 
 - Enable Remote Desktop Protocol (RDP) backend service:
 
