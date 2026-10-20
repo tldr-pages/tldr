@@ -5,7 +5,7 @@
 
 - Confronta due pacchetti e mostra le differenze:
 
-`pkgdiff {{percorso/pacchetto1.txz}} {{percorso/pacchetto2.txz}}`
+`pkgdiff {{percorso/del/pacchetto1.txz}} {{percorso/del/pacchetto2.txz}}`
 
 - Confronta due pacchetti con output colorato:
 
