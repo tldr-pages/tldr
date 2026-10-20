@@ -26,8 +26,8 @@
 
 - 向操作系统发送信号，暂停一个程序，直到收到 `SIGCONT`（继续）信号：
 
-`kill {{[-19|-SIGSTOP]}} {{进程id}}`
+`kill {{[-STOP|-SIGSTOP]}} {{进程id}}`
 
 - 向所有具有指定 GID（组 ID）的进程发送 `SIGUSR1` 信号：
 
-`kill -SIGUSR1 -{{组id}}`
+`kill {{[-USR1|-SIGUSR1]}} -{{组id}}`

@@ -26,8 +26,8 @@
 
 - İşletim sistemine, bir `SIGCONT` ("devam et") sinyali alınana kadar programı duraklatması için sinyal gönder:
 
-`kill {{[-19|-SIGSTOP]}} {{süreç_kimliği}}`
+`kill {{[-STOP|-SIGSTOP]}} {{süreç_kimliği}}`
 
 - Verilen GID'ye (grup kimliği) sahip tüm süreçlere bir `SIGUSR1` sinyali gönder:
 
-`kill -SIGUSR1 -{{grup_kimliği}}`
+`kill {{[-USR1|-SIGUSR1]}} -{{grup_kimliği}}`

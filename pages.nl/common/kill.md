@@ -26,8 +26,8 @@
 
 - Signaleer het besturingssysteem om een programma te pauzeren totdat een `SIGCONT` ("continue") signaal wordt ontvangen:
 
-`kill {{[-19|-SIGSTOP]}} {{proces_id}}`
+`kill {{[-STOP|-SIGSTOP]}} {{proces_id}}`
 
 - Stuur een `SIGUSR1` signaal naar alle processen met de gegeven GID (groeps-ID):
 
-`kill -SIGUSR1 -{{groep_id}}`
+`kill {{[-USR1|-SIGUSR1]}} -{{groep_id}}`
