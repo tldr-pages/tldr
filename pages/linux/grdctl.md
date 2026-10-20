@@ -7,17 +7,17 @@
 
 `grdctl status`
 
-- Enable Remote Desktop Protocol (RDP) backend service:
+- Enable Remote Desktop Protocol (RDP) or Virtual Network Computing (VNC) backend services:
 
-`grdctl rdp enable`
+`grdctl {{rdp|vnc}} enable`
+
+- Disable Remote Desktop Protocol (RDP) or Virtual Network Computing (VNC) backend services:
+
+`grdctl {{rdp|vnc}} disable`
 
 - Set RDP credentials:
 
 `grdctl rdp set-credentials {{username}} {{password}}`
-
-- Enable Virtual Network Computing (VNC) backend service:
-
-`grdctl vnc enable`
 
 - Set VNC password:
 
