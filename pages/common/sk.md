@@ -1,7 +1,7 @@
 # sk
 
 > Fuzzy finder written in Rust.
-> Similar to `fzf`.
+> See also: `fzf`.
 > More information: <https://github.com/skim-rs/skim>.
 
 - Start `skim` on all files in the specified directory:
