@@ -1,13 +1,14 @@
 # BaiduPCS-Go
 
-> 百度网盘CLI客户端，支持上传、下载、转存和离线下载。
+> 百度网盘CLI客户端。
+> 支持上传、下载、转存和离线下载。
 > 更多信息：<https://github.com/qjfoidnh/BaiduPCS-Go>。
 
 - 登录百度网盘账号（BDUSS 和 STOKEN 的获取方法参见 <https://github.com/qjfoidnh/BaiduPCS-Go#登录百度帐号>）：
 
 `BaiduPCS-Go login -bduss {{bduss}} -stoken {{stoken}}`
 
-- 下载云端文件或目录到指定的本地目录（省略 `--saveto` 时下载到`./download/`）：
+- 下载云端文件或目录到指定的本地目录（省略 `--saveto` 时下载到 `./download/`）：
 
 `BaiduPCS-Go download {{云端/文件或目录1 云端/文件或目录2 ...}} --saveto {{本地/目录}}`
 
