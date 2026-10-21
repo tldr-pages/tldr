@@ -7,10 +7,10 @@
 
 `dot2gxl {{path/to/input_file.dot}} -o {{path/to/output_file.gxl}}`
 
-- Convert DOT to GXL based on .dot input extension:
+- Convert DOT to GXL based on `.dot` input extension:
 
 `dot2gxl {{path/to/input_file.dot}} > {{path/to/output_file.gxl}}`
 
-- Convert GXL to DOT based on .gxl input extension:
+- Convert GXL to DOT based on `.gxl` input extension:
 
 `dot2gxl {{path/to/input_file.gxl}} > {{path/to/output_file.dot}}`
