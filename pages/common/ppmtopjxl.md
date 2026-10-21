@@ -3,7 +3,7 @@
 > Convert a PPM image into an HP PaintJet XL PCL file.
 > More information: <https://netpbm.sourceforge.net/doc/ppmtopjxl.html>.
 
-- Convert a PPM image into an PJXL file:
+- Convert a PPM image into a PJXL file:
 
 `ppmtopjxl {{path/to/image.ppm}} > {{path/to/output.pjxl}}`
 
