@@ -11,7 +11,7 @@
 
 `pkl server`
 
-- Evaluate Pkl modules as tests and produces a report:
+- Evaluate Pkl modules as tests and produce a report:
 
 `pkl test {{module.pkl}}`
 
