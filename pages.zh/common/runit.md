@@ -9,4 +9,4 @@
 
 - 停止运行 runit：
 
-`kill -SIGCONT {{runit 进程 id}}`
+`kill {{[-CONT|-SIGCONT]}} {{runit 进程 id}}`

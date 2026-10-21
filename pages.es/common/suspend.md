@@ -9,7 +9,7 @@
 
 - Ejecuta en un terminal separado para continuar desde la suspensión si `suspend` fue usado en un intérprete de comandos no anidado:
 
-`pkill -SIGCONT {{bash}}`
+`pkill {{[-CONT|-SIGCONT]}} {{bash}}`
 
 - Fuerza la suspensión, incluso si esto bloquea el sistema:
 
