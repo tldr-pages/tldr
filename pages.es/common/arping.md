@@ -26,4 +26,4 @@
 
 - Detecta direcciones IP duplicadas en la red enviando peticiones ARP con un tiempo de espera de 3 segundos:
 
-`sudo arping -D -w {{3}} {{ip_a_verificar}}`
+`sudo arping -D -w 3 {{ip_a_verificar}}`
