@@ -23,6 +23,6 @@
 
 `pkl project package {{path/to/project_directory}}`
 
-- Resolve project dependencies and writes the resolved versions to a file at path `PklProject.deps.json`:
+- Resolve project dependencies and write the resolved versions to a file at path `PklProject.deps.json`:
 
 `pkl project resolve {{path/to/project_directory}}`
