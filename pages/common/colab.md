@@ -16,7 +16,7 @@
 
 `colab run --gpu {{T4|L4|A100|H100}} {{path/to/script.py}}`
 
-- Execute a local Python script or Jupyter notebook in an specific session:
+- Execute a local Python script or Jupyter notebook in a specific session:
 
 `colab exec {{[-s|--session]}} {{session_name}} {{[-f|--file]}} {{path/to/file.py|path/to/notebook.ipynb}}`
 
