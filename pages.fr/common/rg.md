@@ -8,7 +8,7 @@
 
 `rg {{motif}}`
 
-- Rechercher de manière récursive un motif dans un fichier ou un répertoire :
+- Recherche de manière récursive un motif dans un fichier ou un répertoire :
 
 `rg {{motif}} {{chemin/vers/fichier_ou_répertoire}}`
 
