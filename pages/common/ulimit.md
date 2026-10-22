@@ -20,6 +20,10 @@
 
 `ulimit -u {{30}}`
 
+- Remove limits from a resource:
+
+`ulimit {{-n}} unlimited`
+
 - Display help (Bash only):
 
 `help ulimit`
