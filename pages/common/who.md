@@ -19,3 +19,7 @@
 - Display the name of the current terminal:
 
 `who am i`
+
+- Display help:
+
+`who --help`
