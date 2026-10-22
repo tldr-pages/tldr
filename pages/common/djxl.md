@@ -6,7 +6,11 @@
 
 - Decompress a JPEG XL image to another format:
 
-`djxl {{path/to/image.jxl}} {{path/to/output.ext}}`
+`djxl {{path/to/image}}.jxl {{path/to/output.ext}}`
+
+- Benchmark decoding speed:
+
+`djxl --num_reps={{repetitions}} --num_threads={{threads}} --disable_output {{path/to/image}}.jxl`
 
 - Display an extremely detailed help:
 
