@@ -1,9 +1,9 @@
 # pbmtoxbm
 
-> Convert a PBM image to a X11 or X10 bitmap.
+> Convert a PBM image to an X11 or X10 bitmap.
 > More information: <https://netpbm.sourceforge.net/doc/pbmtoxbm.html>.
 
-- Convert a PBM image to a X11 XBM file:
+- Convert a PBM image to an X11 XBM file:
 
 `pbmtoxbm {{path/to/input_file.pbm}} > {{path/to/output_file.xbm}}`
 

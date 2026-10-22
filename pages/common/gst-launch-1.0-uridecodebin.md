@@ -1,6 +1,6 @@
 # gst-launch-1.0 uridecodebin
 
-> Load data from an URI and automatically decode it.
+> Load data from a URI and automatically decode it.
 > More information: <https://gstreamer.freedesktop.org/documentation/playback/uridecodebin.html>.
 
 - Load and decode data from the internet:
