@@ -28,9 +28,9 @@
 
 `git fetch {{[-t|--tags]}}`
 
-- Push a tag to remote:
+- Push all tags to a remote:
 
-`git push origin tag {{tag_name}}`
+`git push --tags`
 
 - List all tags which contain a given commit (`HEAD` if not specified):
 
