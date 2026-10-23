@@ -28,6 +28,6 @@
 
 `udisksctl power-off {{[-b|--block-device]}} {{/dev/sdX}}`
 
-- Supervisa el daemon en busca de eventos:
+- Supervisa el programa residente en busca de eventos:
 
 `udisksctl monitor`
