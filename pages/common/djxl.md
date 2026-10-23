@@ -10,7 +10,7 @@
 
 - Benchmark decoding speed:
 
-`djxl --num_reps={{repetitions}} --num_threads={{threads}} --disable_output {{path/to/image}}.jxl`
+`djxl {{path/to/image}}.jxl --num_reps {{repetitions}} --num_threads {{threads}} --disable_output`
 
 - Display an extremely detailed help:
 
