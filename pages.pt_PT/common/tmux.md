@@ -20,7 +20,7 @@
 
 `tmux attach`
 
-- Sai da sessão atual (com o prefixo Ctrl-B):
+- Sai da sessão atual (com o prefixo `<Ctrl b>`):
 
 `<Ctrl b><d>`
 
