@@ -25,4 +25,4 @@
 
 - Check the progress of an ongoing `dd` operation (run this command from another shell):
 
-`kill -USR1 $(pgrep ^dd)`
+`kill {{[-30|-SIGUSR1]}} $(pgrep ^dd)`

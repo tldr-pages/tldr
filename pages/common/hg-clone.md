@@ -5,7 +5,7 @@
 
 - Clone a repository to a specified directory:
 
-`hg clone {{remote_repository_source}} {{destination_path}}`
+`hg clone {{remote_repository_source}} {{path/to/destination}}`
 
 - Clone a repository to the head of a specific branch, ignoring later commits:
 
