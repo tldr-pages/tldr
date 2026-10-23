@@ -17,7 +17,7 @@
 
 - Specify the directory that will hold the print files (by default, a directory under the user's temporary directory):
 
-`ippeveprinter -d {{spool_directory}} "{{service_name}}"`
+`ippeveprinter -d {{path/to/spool_directory}} "{{service_name}}"`
 
 - Keep the print documents in the spool directory rather than deleting them:
 

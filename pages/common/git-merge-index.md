@@ -21,4 +21,4 @@
 
 - Inspect merge inputs for a file using `cat`:
 
-`git merge-index cat -- {{path}}`
+`git merge-index cat -- {{path/to/file}}`

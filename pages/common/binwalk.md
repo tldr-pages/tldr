@@ -9,7 +9,7 @@
 
 - Extract files from a binary, specifying the output directory:
 
-`binwalk {{[-e|--extract]}} {{[-C|--directory]}} {{output_directory}} {{path/to/binary}}`
+`binwalk {{[-e|--extract]}} {{[-C|--directory]}} {{path/to/output_directory}} {{path/to/binary}}`
 
 - Recursively extract files from a binary limiting the recursion depth to 2:
 

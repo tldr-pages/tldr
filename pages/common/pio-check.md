@@ -9,7 +9,7 @@
 
 - Perform a basic analysis check on a specific project:
 
-`pio check {{[-d|--project-dir]}} {{project_directory}}`
+`pio check {{[-d|--project-dir]}} {{path/to/project_directory}}`
 
 - Perform an analysis check for a specific environment:
 
