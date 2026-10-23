@@ -27,7 +27,7 @@
 
 - Filter objects by type:
 
-`wpctl set-volume {{audio|video}} {{devices|sinks|sources}}`
+`wpctl list {{audio|video}} {{devices|sinks|sources}}`
 
 - Increase the volume of a sink by `n` percent but limit the volume below 100%:
 
