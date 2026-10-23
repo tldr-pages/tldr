@@ -1,6 +1,6 @@
 # pnmcolormap
 
-> Maak een kwantisatiekleurkaart voor een PNM afbeelding.
+> Maak een kwantisatiekleurkaart voor een PNM-afbeelding.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/pnmcolormap.html>.
 
 - Genereer een afbeelding met alleen `n_kleuren` of minder kleuren, zo dicht als mogelijk bij de invoerafbeelding:

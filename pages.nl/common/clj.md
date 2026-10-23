@@ -1,6 +1,6 @@
 # clj
 
-> Clojure-tool om een REPL te starten of een specifieke functie met data aan te roepen.
+> Clojure-tool om een REPL te starten of een functie met data aan te roepen.
 > Alle opties kunnen worden gedefinieerd in een `deps.edn` bestand.
 > Meer informatie: <https://clojure.org/guides/deps_and_cli>.
 

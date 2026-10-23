@@ -12,7 +12,7 @@
 
 `rg {{patroon}} {{pad/naar/bestand_of_map}}`
 
-- Zoek naar een letterlijk string patroon:
+- Zoek naar een letterlijk stringpatroon:
 
 `rg {{[-F|--fixed-strings]}} -- {{string}}`
 

@@ -1,8 +1,8 @@
 # GetHelpCmd OutlookCalendarCheckTask
 
 > Scan op agendaconfiguratieproblemen in verouderde Microsoft Outlook-applicaties.
-> Onderdeel van `GetHelpCmd.exe`, voorheen `SaRAcmd.exe` (Microsoft Support and Recovery Assistant).
 > Opmerking: deze tool is verouderd en werkt niet in de nieuwe Outlook-applicatie.
+> Onderdeel van `GetHelpCmd.exe`, voorheen `SaRAcmd.exe` (Microsoft Support and Recovery Assistant).
 > Meer informatie: <https://learn.microsoft.com/troubleshoot/microsoft-365/admin/miscellaneous/get-help-outlook-calendar-scan>.
 
 - Analyseer de agenda voor het huidige, actieve profiel, en accepteer de licentieovereenkomst voor eindgebruikers (EULA) van dit commando:

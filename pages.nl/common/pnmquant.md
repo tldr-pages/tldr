@@ -1,6 +1,6 @@
 # pnmquant
 
-> Kwantiseer de kleuren in een PNM afbeelding naar een kleinere set.
+> Kwantiseer de kleuren in een PNM-afbeelding naar een kleinere set.
 > Dit commando is een combinatie van `pnmcolormap` en `pnmremap` en accepteert de combinatie van hun opties, behalve `-mapfile`.
 > Zie ook: `pnmquantall`.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/pnmquant.html>.

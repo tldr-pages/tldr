@@ -13,12 +13,12 @@
 
 - Belirtilen servise dair bilgileri sırala:
 
-`svcs apache`
+`svcs {{apache}}`
 
 - Servis kayıt dosyasının yerini göster:
 
-`svcs -L apache`
+`svcs -L {{apache}}`
 
 - Servis kayıt dosyasının sonunu görüntüle:
 
-`tail $(svcs -L apache)`
+`tail $(svcs -L {{apache}})`

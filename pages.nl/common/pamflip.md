@@ -1,6 +1,6 @@
 # pamflip
 
-> Flip of draai een PAM of PNM afbeelding.
+> Flip of draai een PAM- of PNM-afbeelding.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/pamflip.html>.
 
 - Draai de invoerafbeelding tegen de klok in met de gespecificeerde graden:

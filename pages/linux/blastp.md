@@ -17,7 +17,7 @@
 
 - Search protein databases using a protein query, 16 threads to use in the BLAST search, with a maximum number of 10 aligned sequences to keep:
 
-`blastp -query {{query.fa}} -db {{blast_database_name}} -num_threads {{16}} -max_target_seqs {{10}}`
+`blastp -query {{query.fa}} -db {{blast_database_name}} -num_threads 16 -max_target_seqs 10`
 
 - Search the remote non-redundant protein database using a protein query:
 

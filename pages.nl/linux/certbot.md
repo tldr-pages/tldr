@@ -4,19 +4,19 @@
 > Opvolger van `letsencrypt`.
 > Meer informatie: <https://eff-certbot.readthedocs.io/en/latest/using.html>.
 
-- Verkrijg een nieuw certificaat via webroot autorisatie, maar installeer het certificaat niet automatisch:
+- Verkrijg een nieuw certificaat via webroot-autorisatie, maar installeer het certificaat niet automatisch:
 
 `sudo certbot certonly --webroot {{[-w|--webroot-path]}} {{pad/naar/webroot}} {{[-d|--domain]}} {{subdomein.example.com}}`
 
-- Verkrijg een nieuw certificaat via `nginx` autorisatie, installeer het nieuwe certificaat automatisch:
+- Verkrijg een nieuw certificaat via `nginx`-autorisatie, installeer het nieuwe certificaat automatisch:
 
 `sudo certbot --nginx {{[-d|--domain]}} {{subdomein.example.com}}`
 
-- Verkrijg een nieuw certificaat via apache autorisatie, installeer het nieuwe certificaat automatisch:
+- Verkrijg een nieuw certificaat via apache-autorisatie, installeer het nieuwe certificaat automatisch:
 
 `sudo certbot --apache {{[-d|--domain]}} {{subdomein.example.com}}`
 
-- Vernieuw alle Let's Encrypt certificaten die binnen 30 dagen verlopen (vergeet achteraf niet alle servers te herstarten die deze gebruiken):
+- Vernieuw alle Let's Encrypt-certificaten die binnen 30 dagen verlopen (vergeet achteraf niet alle servers te herstarten die deze gebruiken):
 
 `sudo certbot renew`
 

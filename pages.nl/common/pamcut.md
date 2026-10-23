@@ -1,6 +1,6 @@
 # pamcut
 
-> Snij een rechthoekig gebied uit van een Netpbm afbeelding.
+> Snij een rechthoekig gebied uit van een Netpbm-afbeelding.
 > Zie ook: `pamdice`, `pamcomp`.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/pamcut.html>.
 

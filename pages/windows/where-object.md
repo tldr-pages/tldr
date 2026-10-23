@@ -1,6 +1,6 @@
 # Where-Object
 
-> Selects objects from a collection based on their property values.
+> Select objects from a collection based on their property values.
 > Note: This command can only be used through PowerShell.
 > More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/where-object>.
 

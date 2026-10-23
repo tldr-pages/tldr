@@ -4,6 +4,6 @@
 > Toutes les options spécifiées sont passées directement à `gcc`.
 > Plus d'informations : <https://manned.org/musl-gcc>.
 
-- Voir la documentation de `gcc` :
+- Affiche la documentation de `gcc` :
 
 `tldr gcc`

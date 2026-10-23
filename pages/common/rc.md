@@ -1,7 +1,7 @@
 # rc
 
 > A modern simplistic port listener & reverse shell.
-> Similar to `nc`.
+> See also: `nc`.
 > More information: <https://github.com/robiot/rustcat/wiki/Basic-Usage>.
 
 - Start listening on a specific port:

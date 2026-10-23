@@ -23,7 +23,7 @@
 
 `nl {{[-i|--line-increment]}} {{increment}} {{pad/naar/bestand}}`
 
-- Specificeer het nummeringsformaat voor regels: [r]echts of [l]inks uitgelijnd, met of zonder voorloopnullen ([z]eros):
+- Specificeer het nummeringsformaat voor regels: [r]echts of [l]inks uitgelijnd, met voorloopnullen ([z]eros) of [n]iet:
 
 `nl {{[-n|--number-format]}} {{rz|ln|rn}}`
 

@@ -19,7 +19,7 @@
 
 `daemon {{[-n|--name]}} "{{이름}}" {{[-l|--errlog]}} {{경로/대상/파일.log}} {{명령어}}`
 
-- 데몬 종료 (SIGTERM):
+- 데몬 종료 (`SIGTERM`):
 
 `daemon {{[-n|--name]}} "{{이름}}" --stop`
 

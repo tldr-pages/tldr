@@ -5,16 +5,16 @@
 
 - Geef bestandsdescriptors van een specifiek proces weer:
 
-`procstat fds {{pid}}`
+`procstat fds {{proces_id}}`
 
 - Toon virtuele geheugentoewijzingen van een proces:
 
-`procstat vm {{pid}}`
+`procstat vm {{proces_id}}`
 
 - Geef procesargumenten weer:
 
-`procstat arguments {{pid}}`
+`procstat arguments {{proces_id}}`
 
 - Toon bronlimieten van een proces:
 
-`procstat rlimit {{pid}}`
+`procstat rlimit {{proces_id}}`

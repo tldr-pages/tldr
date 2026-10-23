@@ -16,7 +16,7 @@
 
 `Set-Location {{ruta\al\directorio}} -PassThru`
 
-- Subir al directorio padre del directorio actual:
+- Sube al directorio padre del directorio actual:
 
 `Set-Location ..`
 
@@ -24,7 +24,7 @@
 
 `Set-Location ~`
 
-- Regresar/ir al directorio elegido anteriormente:
+- Regresa/va al directorio elegido anteriormente:
 
 `Set-Location {{-|+}}`
 

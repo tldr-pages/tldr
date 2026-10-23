@@ -11,11 +11,11 @@
 
 `sudo grub-install --target {{i386-pc}} {{path/to/device}}`
 
-- Install GRUB on an UEFI system:
+- Install GRUB on a UEFI system:
 
 `sudo grub-install --efi-directory {{path/to/efi_directory}}`
 
-- Install GRUB on an UEFI system while specifying architecture and boot menu text:
+- Install GRUB on a UEFI system while specifying architecture and boot menu text:
 
 `sudo grub-install --target {{x86_64-efi}} --efi-directory {{path/to/efi_directory}} --bootloader-id {{GRUB}}`
 

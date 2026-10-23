@@ -16,6 +16,6 @@
 
 `disown -a`
 
-- Mantiene el trabajo (no renuncia a él), pero lo marca para que no se reciba ningún SIGHUP futuro al salir del intérprete de comandos (solo Bash):
+- Mantiene el trabajo (no renuncia a él), pero lo marca para que no se reciba ningún `SIGHUP` futuro al salir del intérprete de comandos (solo Bash):
 
 `disown -h %{{jnúmero_trabajo}}`

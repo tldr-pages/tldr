@@ -10,7 +10,7 @@
 
 - Trace method invoke chains and only display invoke information longer than 10 ms:
 
-`trace {{class_pattern}} {{method_pattern}} '#cost > {{10}}'`
+`trace {{class_pattern}} {{method_pattern}} '#cost > 10'`
 
 - Trace the invoke chain of multiple classes or multiple methods:
 
@@ -18,4 +18,4 @@
 
 - Track method invoke chains, only display invoke information that exceeds 10 ms, and exit after 5 times:
 
-`trace {{class_pattern}} {{method_pattern}} '#cost > {{10}}' -n 5`
+`trace {{class_pattern}} {{method_pattern}} '#cost > 10' -n 5`

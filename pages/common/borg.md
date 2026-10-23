@@ -4,9 +4,9 @@
 > Create local or remote backups that are mountable as filesystems.
 > More information: <https://borgbackup.readthedocs.io/en/stable/usage/general.html>.
 
-- Initialize a (local) repository:
+- Initialize a repository:
 
-`borg init {{path/to/repo_directory}}`
+`borg init {{[-e|--encryption]}} {{repokey|keyfile|none|...}} {{path/to/repo_directory}}`
 
 - Back up a directory into the repository, creating an archive called "Monday":
 
@@ -26,7 +26,7 @@
 
 - Mount a repository as a FUSE filesystem:
 
-`borg mount {{path/to/repo_directory}}::{{Monday}} {{path/to/mountpoint}}`
+`borg mount {{path/to/repo_directory}}::{{Monday}} {{path/to/mount_point}}`
 
 - Display help on creating archives:
 
