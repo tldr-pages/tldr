@@ -7,22 +7,22 @@
 
 `sio`
 
-- Custom polling interval TUI:
+- Set custom polling interval:
 
 `sio --interval {{milliseconds}}`
 
-- Snapshot of current sensor values:
+- Snapshot the current sensor values:
 
 `sio sensors`
 
 - Output report to filetype:
 
-`sio -f {{json|xml|html|}}`
+`sio {{-f|--format}} {{json|xml|html}}`
 
 - Output specific hardware details:
 
 `sio {{cpu|gpu|memory|storage|network|pci|pcie|audio|usb|battery|board}}`
 
-- Root sensor access:
+- Open sio with root sensor access:
 
 `sudo sio`
