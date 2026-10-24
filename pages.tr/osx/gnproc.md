@@ -2,6 +2,6 @@
 
 > Bu komut `nproc` için bir takma addır.
 
-- Asıl komutun belgelerini görüntüleyin:
+- Asıl komutun dokümantasyonunu görüntüleyin:
 
 `tldr nproc`
