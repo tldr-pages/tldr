@@ -14,8 +14,8 @@
 
 - Download to a specific path:
 
-`deemix --bitrate {{bitrate}} --path {{path}} {{url}}`
+`deemix --bitrate {{bitrate}} --path {{path/to/directory}} {{url}}`
 
 - Create a portable deemix configuration file in the current directory:
 
-`deemix --portable --bitrate {{bitrate}} --path {{path}} {{url}}`
+`deemix --portable --bitrate {{bitrate}} --path {{path/to/directory}} {{url}}`

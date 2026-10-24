@@ -17,7 +17,7 @@
 
 - Scrape while saving patches to a specified output directory:
 
-`sfdk scrape {{[-o|--output-dir]}} {{directory}}`
+`sfdk scrape {{[-o|--output-dir]}} {{path/to/output_directory}}`
 
 - Scrape without removing commits from submodules after creating patches:
 
