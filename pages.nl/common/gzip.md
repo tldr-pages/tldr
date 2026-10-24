@@ -3,11 +3,11 @@
 > Comprimeer/decomprimeer bestanden met `gzip`-compressie (LZ77).
 > Meer informatie: <https://www.gnu.org/software/gzip/manual/gzip.html>.
 
-- Comprimeer een bestand en vervang deze met een `gzip`-archief:
+- Comprimeer een bestand en vervang het met een `gzip`-archief:
 
 `gzip {{pad/naar/bestand}}`
 
-- Decomprimeer een bestand en vervang deze met de originele, ongecomprimeerde versie:
+- Decomprimeer een bestand en vervang het met de originele, ongecomprimeerde versie:
 
 `gzip {{[-d|--decompress]}} {{pad/naar/bestand.gz}}`
 

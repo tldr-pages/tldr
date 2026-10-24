@@ -14,12 +14,12 @@
 
 - 使用接入点的 ESSID 和密码解密 WPA/WPA2 加密的捕获文件：
 
-`airdecap-ng -e {{essid}} -p {{密码}} {{路径/到/捕获文件.cap}}`
+`airdecap-ng -e {{extended_ssid}} -p {{密码}} {{路径/到/捕获文件.cap}}`
 
 - 使用接入点的 ESSID 和密码解密 WPA/WPA2 加密的捕获文件，并保留头部信息：
 
-`airdecap-ng -l -e {{essid}} -p {{密码}} {{路径/到/捕获文件.cap}}`
+`airdecap-ng -l -e {{extended_ssid}} -p {{密码}} {{路径/到/捕获文件.cap}}`
 
 - 使用接入点的 MAC 地址进行过滤，并使用接入点的 ESSID 和密码解密 WPA/WPA2 加密的捕获文件：
 
-`airdecap-ng -b {{ap_mac}} -e {{essid}} -p {{密码}} {{路径/到/捕获文件.cap}}`
+`airdecap-ng -b {{ap_mac}} -e {{extended_ssid}} -p {{密码}} {{路径/到/捕获文件.cap}}`

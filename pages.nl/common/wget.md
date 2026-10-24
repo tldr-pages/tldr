@@ -9,9 +9,9 @@
 
 `wget {{https://example.com/foo}}`
 
-- Download de inhoud van een URL naar een bestand (in dit geval genaamd "bar"):
+- Download de inhoud van een URL naar een specifiek bestand:
 
-`wget {{[-O|--output-document]}} {{bar}} {{https://example.com/foo}}`
+`wget {{[-O|--output-document]}} {{pad/naar/bestand}} {{https://example.com/foo}}`
 
 - Download één webpagina en alle bijbehorende bronnen met een interval van 3 seconden tussen verzoeken (scripts, stylesheets, afbeeldingen, etc.):
 

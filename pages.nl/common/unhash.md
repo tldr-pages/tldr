@@ -16,7 +16,7 @@
 
 `unhash -s {{alias}}`
 
-- Unhash shell[f]uncties:
+- Unhash shell [f]uncties:
 
 `unhash -f {{functie}}`
 

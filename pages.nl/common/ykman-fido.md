@@ -1,9 +1,9 @@
 # ykman fido
 
-> Beheer YubiKey FIDO applicaties.
+> Beheer YubiKey FIDO-applicaties.
 > Meer informatie: <https://docs.yubico.com/software/yubikey/tools/ykman/FIDO_Commands.html>.
 
-- Toon algemene informatie over de FIDO2 applicatie:
+- Toon algemene informatie over de FIDO2-applicatie:
 
 `ykman fido info`
 
@@ -11,15 +11,15 @@
 
 `ykman fido access change-pin`
 
-- Toon een lijst van inloggegevens die opgeslagen zijn op de YubiKey:
+- Toon een lijst van residente inloggegevens die opgeslagen zijn op de YubiKey:
 
 `ykman fido credentials list`
 
-- Verwijder specifieke inloggegevens van de YubiKey:
+- Verwijder specifieke residente inloggegevens van de YubiKey:
 
 `ykman fido credentials delete {{inloggegevens_id}}`
 
-- Toon vingerafdrukken opgeslagen op de YubiKey (vereist een sleutel met een vingerafdruk sensor):
+- Toon vingerafdrukken opgeslagen op de YubiKey (vereist een sleutel met een vingerafdruksensor):
 
 `ykman fido fingerprints list`
 
@@ -31,6 +31,6 @@
 
 `ykman fido fingerprints delete {{naam}}`
 
-- Wis alle FIDO credentials (je moet dit doen nadat je het aantal pogingen voor de pin hebt overschreden):
+- Wis alle FIDO inloggegevens (je moet dit doen nadat je het aantal pogingen voor de pin hebt overschreden):
 
 `ykman fido reset`

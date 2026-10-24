@@ -11,7 +11,7 @@
 
 `expand`
 
-- Vervang geen tabs na een karakter:
+- Vervang geen tabs na niet-lege tekens:
 
 `expand {{[-i|--initial]}} {{pad/naar/bestand}}`
 

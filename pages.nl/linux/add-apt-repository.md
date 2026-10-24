@@ -1,13 +1,13 @@
 # add-apt-repository
 
-> Beheer `apt` repository-definities.
+> Beheer `apt`-repositorydefinities.
 > Meer informatie: <https://manned.org/add-apt-repository>.
 
-- Voeg een nieuwe `apt` repository toe:
+- Voeg een nieuwe `apt`-repository toe:
 
 `add-apt-repository {{repository_spec}}`
 
-- Verwijder een `apt` repository:
+- Verwijder een `apt`-repository:
 
 `add-apt-repository {{[-r|--remove]}} {{repository_spec}}`
 

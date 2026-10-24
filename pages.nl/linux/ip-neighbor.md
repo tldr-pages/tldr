@@ -1,6 +1,7 @@
 # ip neighbor
 
 > IP-subcommando voor het beheren van neighbor/ARP/NDP-tabellen.
+> Zie ook: `arp-scan`.
 > Meer informatie: <https://manned.org/ip-neighbour>.
 
 - Toon de neighbor/ARP-tabelvermeldingen:

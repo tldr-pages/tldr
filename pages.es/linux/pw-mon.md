@@ -11,7 +11,7 @@
 
 `pw-mon {{[-r|--remote]}} {{nombre_remoto}}`
 
-- Supervisar la instancia predeterminada especificando una configuración de color:
+- Supervisa la instancia predeterminada especificando una configuración de color:
 
 `pw-mon {{[-N|--color]}} {{never|always|auto}}`
 

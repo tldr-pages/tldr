@@ -1,6 +1,6 @@
 # dirname
 
-> Berekent de bovenliggende map van een bestand of map.
+> Verwijder het laatste bestandsnaamdeel van een pad.
 > Zie ook: `basename`.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/dirname-invocation.html>.
 

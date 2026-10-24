@@ -15,7 +15,7 @@
 
 `jenv versions`
 
-- 设置全局JDK版本：
+- 设置全局 JDK 版本：
 
 `jenv global {{Java 版本}}`
 

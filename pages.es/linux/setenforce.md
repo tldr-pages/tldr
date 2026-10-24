@@ -2,7 +2,7 @@
 
 > Alterna SELinux entre los modos de aplicación y permisivo.
 > Para habilitar o deshabilitar SELinux, edita `/etc/selinux/config`.
-> Vea también: `getenforce`, `semanage-permissive`.
+> Vea también: `getenforce`, `semanage permissive`.
 > Más información: <https://manned.org/setenforce>.
 
 - Activa el modo de aplicación de SELinux:

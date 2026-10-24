@@ -1,6 +1,6 @@
 # false
 
-> Returns a non-zero exit code.
+> Return a non-zero exit code.
 > See also: `true`.
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#index-false>.
 

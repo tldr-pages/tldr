@@ -28,9 +28,9 @@
 
 `gh pr view {{[-w|--web]}} {{pr_nummer|url|branch}}`
 
-- Bekijk een pull request lokaal:
+- Haal een specifieke pull request lokaal op:
 
-`gh {{[co|pr checkout]}} {{pr_number|url|branch}}`
+`gh {{[co|pr checkout]}} {{pr_nummer|url|branch}}`
 
 - Controleer de status van pull requests van een repository:
 

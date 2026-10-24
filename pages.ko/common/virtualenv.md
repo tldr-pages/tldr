@@ -1,7 +1,7 @@
 # virtualenv
 
 > 가상 격리된 Python 환경 생성.
-> 더 많은 정보: <https://virtualenv.pypa.io/en/latest/cli_interface.html>.
+> 더 많은 정보: <https://virtualenv.pypa.io/en/latest/reference/cli.html>.
 
 - 새 환경 생성:
 

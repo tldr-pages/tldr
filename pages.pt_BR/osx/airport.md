@@ -9,7 +9,7 @@
 
 - Fareja tráfego de rede sem fio no canal 1:
 
-`airport sniff {{1}}`
+`airport sniff 1`
 
 - Procura redes sem fio disponíveis:
 

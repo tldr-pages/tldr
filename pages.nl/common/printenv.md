@@ -1,6 +1,6 @@
 # printenv
 
-> Toon waarden van alle of specifieke omgevingsvariabelen.
+> Toon waarden van omgevingsvariabelen.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/printenv-invocation.html>.
 
 - Toon key-value paren van alle omgevingsvariabelen:

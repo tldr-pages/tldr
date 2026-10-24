@@ -8,9 +8,9 @@
 
 `gawk '{print $5}' {{pad/naar/bestand}}`
 
-- Toon de tweede kolom van de regels die "foo" bevatten in een spatie-gescheiden bestand:
+- Toon de tweede kolom van de regels die overeenkomen met een patroon in een spatie-gescheiden bestand:
 
-`gawk '/{{foo}}/ {print $2}' {{pad/naar/bestand}}`
+`gawk '/{{patroon}}/ {print $2}' {{pad/naar/bestand}}`
 
 - Toon de laatste kolom van elke regel in een bestand, met een komma (in plaats van spatie) als veldscheidingsteken:
 
@@ -26,7 +26,7 @@
 
 - Toon verschillende waarden op basis van voorwaarden:
 
-`gawk '{if ($1 == "foo") print "Exact match foo"; else if ($1 ~ "bar") print "Partial match bar"; else print "Baz"}' {{pad/naar/bestand}}`
+`gawk '{if ($1 == "{{string1}}") print "{{Exacte overeenkomst}}"; else if ($1 ~ "{{string2}}") print "{{Gedeeltelijke overeenkomst}}"; else print "{{Geen overeenkomst}}"}' {{pad/naar/bestand}}`
 
 - Toon alle regels waarvan de waarde in de 10e kolom tussen een min en max ligt:
 

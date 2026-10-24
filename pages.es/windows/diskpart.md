@@ -11,11 +11,11 @@
 
 `list disk`
 
-- Seleccionar un volumen:
+- Selecciona un volumen:
 
 `select volume {{volúmen}}`
 
-- Asignar una letra de unidad al volumen seleccionado:
+- Asigna una letra de unidad al volumen seleccionado:
 
 `assign letter {{letra}}`
 

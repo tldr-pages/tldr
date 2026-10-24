@@ -11,7 +11,7 @@
 
 `realpath {{[-e|--canonicalize-existing]}} {{pad/naar/bestand_of_map}}`
 
-- Los ".." componenten op voordat symlinks worden gevolgd:
+- Los `..` componenten op voordat symlinks worden gevolgd:
 
 `realpath {{[-L|--logical]}} {{pad/naar/bestand_of_map}}`
 

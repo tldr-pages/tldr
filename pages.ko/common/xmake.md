@@ -1,7 +1,7 @@
 # xmake
 
 > Lua 기반의 크로스 플랫폼 C & C++ 빌드 유틸리티.
-> 더 많은 정보: <https://xmake.io/#/getting_started>.
+> 더 많은 정보: <https://github.com/xmake-io/xmake#command-line-interface-reference>.
 
 - Hello World와 `xmake.lua`를 포함한 Xmake C 프로젝트 생성:
 

@@ -1,6 +1,6 @@
 # free
 
-> Toon hoeveelheid beschikbare en gebruikt geheugen in het systeem.
+> Toon hoeveelheid beschikbaar en gebruikt geheugen in het systeem.
 > Meer informatie: <https://manned.org/free>.
 
 - Toon systeemgeheugen:

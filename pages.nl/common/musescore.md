@@ -4,7 +4,7 @@
 > Zie ook: `lilypond`.
 > Meer informatie: <https://handbook.musescore.org/appendix/command-line-usage>.
 
-- Stel de MP3 uitvoer bitsnelheid in kbit/s:
+- Stel de MP3-uitvoerbitsnelheid in kbit/s:
 
 `musescore {{[-b|--bitrate]}} {{bitsnelheid}}`
 
@@ -24,6 +24,6 @@
 
 `musescore --diff {{pad/naar/bestand1}} {{pad/naar/bestand2}}`
 
-- Specificeer een MIDI import operaties bestand:
+- Specificeer een MIDI-importoperatiesbestand:
 
 `musescore {{[-M|--midi-operations]}} {{pad/naar/bestand}}`

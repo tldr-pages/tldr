@@ -1,6 +1,6 @@
 # crane index filter
 
-> Modifies a remote index by filtering based on platform.
+> Modify a remote index by filtering based on platform.
 > More information: <https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_index_filter.md>.
 
 - Modify remote index:

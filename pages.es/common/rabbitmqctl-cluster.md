@@ -23,7 +23,7 @@
 
 `rabbitmqctl {{[-n|--node]}} {{nombre_del_nodo}} stop`
 
-- Restablecer un nodo RabbitMQ específico a un estado limpio:
+- Restablece un nodo RabbitMQ específico a un estado limpio:
 
 `rabbitmqctl {{[-n|--node]}} {{nombre_del_nodo}} reset`
 

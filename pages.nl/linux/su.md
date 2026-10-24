@@ -3,7 +3,7 @@
 > Wissel shell naar een andere gebruiker.
 > Meer informatie: <https://manned.org/su>.
 
-- Wissel naar superuser (vereist het root wachtwoord):
+- Wissel naar superuser (vereist het rootwachtwoord):
 
 `su`
 

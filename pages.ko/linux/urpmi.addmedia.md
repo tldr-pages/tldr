@@ -11,7 +11,7 @@
 
 - 하드 드라이브에서 미디엄 추가 (먼저 해당 디렉터리에서 `genhdlist2` 실행):
 
-`sudo urpmi.addmedia --distrib HD file:/{{경로/대상/저장소}}`
+`sudo urpmi.addmedia --distrib HD file://{{경로/대상/저장소}}`
 
 - 선택한 미러에서 중요한 미디어 추가:
 

@@ -14,7 +14,7 @@
 
 - Retas dan dapatkan kunci dari berkas tangkapan jaringan, [w]ordlist, dan [e]ssid milik perangkat titik akses Wi-Fi:
 
-`aircrack-ng -w {{jalan/menuju/wordlist.txt}} -e {{essid}} {{jalan/menuju/tangkapan_jaringan.cap}}`
+`aircrack-ng -w {{jalan/menuju/wordlist.txt}} -e {{extended_ssid}} {{jalan/menuju/tangkapan_jaringan.cap}}`
 
 - Retas dan dapatkan kunci dari berkas tangkapan jaringan, [w]ordlist, dan alamat MAC milik perangkat titik akses Wi-Fi:
 
