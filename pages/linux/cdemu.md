@@ -9,4 +9,4 @@
 
 - Unmount CDs:
 
-`cdemu unload {{device_number|all}} {{path/to/file.cue}}`
+`cdemu unload {{device_number|all}}`
