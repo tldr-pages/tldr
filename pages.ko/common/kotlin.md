@@ -5,7 +5,7 @@
 
 - jar 파일 실행:
 
-`kotlin {{파일이름.jar}}`
+`kotlin {{파일이름}}.jar`
 
 - Kotlin 및 JVM 버전 표시:
 

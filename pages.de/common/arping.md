@@ -26,4 +26,4 @@
 
 - Sende ARP Requests mit einem 3 Sekunden Timeout um duplizierte IP-Adressen im Netzwerk zu erkennen:
 
-`sudo arping -D -w {{3}} {{adresse_zum_checken}}`
+`sudo arping -D -w 3 {{adresse_zum_checken}}`

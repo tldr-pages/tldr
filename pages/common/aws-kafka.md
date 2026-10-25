@@ -7,7 +7,7 @@
 
 `aws kafka create-cluster --cluster-name {{cluster_name}} --broker-node-group-info instanceType={{instance_type}},clientSubnets={{subnet_id1 subnet_id2 ...}} --kafka-version {{version}} --number-of-broker-nodes {{number}}`
 
-- Describe a MSK cluster:
+- Describe an MSK cluster:
 
 `aws kafka describe-cluster --cluster-arn {{cluster_arn}}`
 
@@ -19,7 +19,7 @@
 
 `aws kafka create-configuration --name {{configuration_name}} --server-properties file://{{path/to/configuration_file.txt}}`
 
-- Describe a MSK configuration:
+- Describe an MSK configuration:
 
 `aws kafka describe-configuration --arn {{configuration_arn}}`
 

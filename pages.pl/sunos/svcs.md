@@ -13,12 +13,12 @@
 
 - Wypisz informacje o usłudze:
 
-`svcs apache`
+`svcs {{apache}}`
 
 - Pokaż lokalizację pliku dziennika usługi:
 
-`svcs -L apache`
+`svcs -L {{apache}}`
 
 - Wyświetl koniec pliku dziennika usługi:
 
-`tail $(svcs -L apache)`
+`tail $(svcs -L {{apache}})`

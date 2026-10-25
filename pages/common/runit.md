@@ -9,4 +9,4 @@
 
 - Shut down runit:
 
-`kill --CONT {{runit_process_id}}`
+`kill {{[-CONT|-SIGCONT]}} {{runit_process_id}}`

@@ -16,6 +16,6 @@
 
 `disown -a`
 
-- 保留作业（不解除关联），但标记为 shell 退出时不再接收 SIGHUP（仅限 Bash）：
+- 保留作业（不解除关联），但标记为 shell 退出时不再接收 `SIGHUP`（仅限 Bash）：
 
 `disown -h %{{作业编号}}`

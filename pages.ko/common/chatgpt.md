@@ -1,6 +1,6 @@
 # chatgpt
 
-> 터미널에서 OpenAI의 ChatGPT 및 DALL-E를 사용하기 위한 쉘 스크립트.
+> 터미널에서 OpenAI의 ChatGPT 및 DALL·E를 사용하기 위한 쉘 스크립트.
 > 더 많은 정보: <https://github.com/0xacx/chatGPT-shell-cli>.
 
 - 채팅 모드에서 시작:
@@ -23,6 +23,6 @@
 
 `echo "{{Ubuntu에서 실행중인 프로세스를 보는 방법?}}" | chatgpt`
 
-- DALL-E를 사용하여 이미지를 생성:
+- DALL·E를 사용하여 이미지를 생성:
 
 `chatgpt {{[-p|--prompt]}} "{{image: A white cat}}"`
