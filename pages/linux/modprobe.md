@@ -14,7 +14,7 @@
 
 - Load multiple modules:
 
-`sudp modprobe -a {{module_name1 module_name2 ...}}`
+`sudo modprobe -a {{module_name1 module_name2 ...}}`
 
 - Remove a module from the kernel:
 
