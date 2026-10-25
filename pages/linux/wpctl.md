@@ -23,7 +23,7 @@
 
 - Set the volume of a sink to `n` percent or increase or decrease it by `n`:
 
-`wpctl set-volume {{sink_id}} {{n%|n%+|n%-}}%`
+`wpctl set-volume {{sink_id}} {{n%|n%+|n%-}}`
 
 - Filter objects by type:
 
