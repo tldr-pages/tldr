@@ -18,7 +18,7 @@
 
 - List all available plugins and their options:
 
-`sudo sos report {[-l|--list-plugins]}`
+`sudo sos report {{[-l|--list-plugins]}}`
 
 - Collect complete logs without size restriction:
 
