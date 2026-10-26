@@ -15,7 +15,7 @@
 
 `fd {{[-t|--type]}} {{[x|executable]}}`
 
-- Search for empty files:
+- Search for empty files and directories:
 
 `fd {{[-t|--type]}} {{[e|empty]}}`
 
