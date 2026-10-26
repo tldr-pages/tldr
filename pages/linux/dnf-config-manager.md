@@ -1,29 +1,33 @@
 # dnf config-manager
 
-> Manage DNF configuration options and repositories on Fedora-based systems.
-> Not default to `dnf` but supported via `dnf-plugins-core`.
-> More information: <https://dnf-plugins-core.readthedocs.io/en/latest/config_manager.html>.
+> Manage DNF5 configuration, repositories, and variables.
+> Repository edits are written as drop-in overrides. Existing `.repo` files are not modified.
+> More information: <https://dnf5.readthedocs.io/en/latest/dnf5_plugins/config-manager.8.html>.
 
-- Add (and enable) a repository from a URL:
+- Add repositories from a `.repo` file:
 
-`dnf config-manager --add-repo={{repository_url}}`
+`sudo dnf config-manager addrepo --from-repofile={{https://example.com/file.repo}}`
 
-- Print current configuration values:
+- Add a repository with a base URL:
 
-`dnf config-manager --dump`
+`sudo dnf config-manager addrepo --set=baseurl={{https://example.com/repo}} --id={{repository_id}}`
 
-- Enable a specific repository:
+- Enable a repository:
 
-`dnf config-manager {{[--enable|--set-enabled]}} {{repository_id}}`
+`sudo dnf config-manager enable {{repository_id}}`
 
-- Disable specified repositories:
+- Disable repositories:
 
-`dnf config-manager {{[--disable|--set-disabled]}} {{repository_id1 repository_id2 ...}}`
+`sudo dnf config-manager disable {{repository_id1 repository_id2 ...}}`
 
-- Set a configuration option for a repository:
+- Set a main configuration option (for example, keep downloaded packages):
 
-`dnf config-manager --setopt={{option}}={{value}}`
+`sudo dnf config-manager setopt keepcache=1`
 
-- Display help:
+- Set a per-repository option:
 
-`dnf config-manager --help-cmd`
+`sudo dnf config-manager setopt {{repository_id}}.{{option}}={{value}}`
+
+- Set a variable used in repository configuration:
+
+`sudo dnf config-manager setvar {{name}}={{value}}`

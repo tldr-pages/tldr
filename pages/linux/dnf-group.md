@@ -1,24 +1,25 @@
 # dnf group
 
-> Manage virtual collections of packages on Fedora-based systems.
-> More information: <https://dnf.readthedocs.io/en/latest/command_ref.html#group-command>.
+> Manage collections of packages on Fedora-based systems.
+> Note: DNF5 lists environments with `dnf environment`. `dnf group` no longer accepts the DNF4 aliases `grp` and `groups`.
+> More information: <https://dnf5.readthedocs.io/en/latest/commands/group.8.html>.
 
-- List DNF groups, showing installed and uninstalled status in a table:
+- List groups:
 
-`dnf {{[grp|group]}} list`
+`dnf group list`
 
-- Show DNF group info, including repository and optional packages:
+- Show information about a group, including its packages:
 
-`dnf {{[grp|group]}} info {{group_name}}`
+`dnf group info {{group_name}}`
 
-- Install DNF group:
+- Install a group:
 
-`dnf {{[grp|group]}} install {{group_name}}`
+`sudo dnf group install {{group_name}}`
 
-- Remove DNF group:
+- Remove a group:
 
-`dnf {{[grp|group]}} remove {{group_name}}`
+`sudo dnf group remove {{group_name}}`
 
-- Upgrade DNF group:
+- Upgrade a group:
 
-`dnf {{[grp|group]}} upgrade {{group_name}}`
+`sudo dnf group upgrade {{group_name}}`

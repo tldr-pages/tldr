@@ -1,25 +1,25 @@
 # dnf versionlock
 
 > Protect packages from updates to newer versions.
-> Not default to `dnf` but supported via `dnf-plugins-core`.
-> More information: <https://dnf-plugins-core.readthedocs.io/en/latest/versionlock.html>.
+> Locks are stored in `/etc/dnf/versionlock.toml`.
+> More information: <https://dnf5.readthedocs.io/en/latest/commands/versionlock.8.html>.
 
 - List the current versionlock entries:
 
-`dnf versionlock`
+`dnf versionlock list`
 
-- Add a versionlock for all available packages matching the spec:
+- Lock a package to the installed version, or to the currently available versions if it is not installed:
 
-`dnf versionlock add {{package}}`
+`sudo dnf versionlock add {{package}}`
 
-- Add an exclude (within versionlock) for the available packages matching the spec:
+- Exclude one available version from transactions:
 
-`dnf versionlock exclude {{package}}`
+`sudo dnf versionlock exclude {{package}}`
 
-- Remove any matching versionlock entries:
+- Remove versionlock entries that match a package:
 
-`dnf versionlock delete {{package}}`
+`sudo dnf versionlock delete {{package}}`
 
-- Remove all versionlock entries:
+- Remove every versionlock entry:
 
-`dnf versionlock clear`
+`sudo dnf versionlock clear`

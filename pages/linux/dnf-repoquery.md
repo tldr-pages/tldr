@@ -1,8 +1,20 @@
 # dnf repoquery
 
-> Query packages for information.
-> More information: <https://dnf.readthedocs.io/en/latest/command_ref.html#repoquery-command>.
+> Query packages from the enabled repositories.
+> More information: <https://dnf5.readthedocs.io/en/latest/commands/repoquery.8.html>.
 
-- Query a package for its dependencies:
+- List the capabilities a package requires:
 
-`dnf {{[rq|repoquery]}} --deplist {{package}}`
+`dnf repoquery --requires {{package}}`
+
+- List packages that require a capability or package:
+
+`dnf repoquery --whatrequires {{package}}`
+
+- List packages that provide a given file:
+
+`dnf repoquery /{{path/to/file}}`
+
+- Show detailed information about a package:
+
+`dnf repoquery --info {{package}}`

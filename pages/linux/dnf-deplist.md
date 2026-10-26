@@ -1,7 +1,21 @@
 # dnf deplist
 
-> This command is an alias of `dnf repoquery --deplist`.
+> Show the dependency tree of a package.
+> Note: DNF5 removed `dnf deplist` and `dnf repoquery --deplist`. Use `dnf deptree`.
+> More information: <https://dnf5.readthedocs.io/en/latest/dnf5_plugins/deptree.8.html>.
 
-- View documentation for the original command:
+- Show the dependency tree of a package:
 
-`tldr dnf repoquery`
+`dnf deptree {{package}}`
+
+- Show the tree using installed packages only:
+
+`dnf deptree --installed {{package}}`
+
+- Show packages that depend on a package:
+
+`dnf deptree --reverse {{package}}`
+
+- Print a flat list of dependencies:
+
+`dnf deptree --flat {{package}}`
