@@ -11,11 +11,11 @@
 
 `proctl {{[-lL|-list-languages]}}`
 
-- Pick a license in a FZF menu:
+- Pick a license in an FZF menu:
 
 `proctl {{[-pl|-pick-license]}}`
 
-- Pick a language in a FZF menu:
+- Pick a language in an FZF menu:
 
 `proctl {{[-pL|-pick-language]}}`
 
