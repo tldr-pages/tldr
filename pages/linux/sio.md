@@ -17,7 +17,7 @@
 
 - Output report to filetype:
 
-`sio {{-f|--format}} {{json|xml|html}}`
+`sio {{[-f|--format]}} {{json|xml|html}}`
 
 - Output specific hardware details:
 
