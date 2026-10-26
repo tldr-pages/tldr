@@ -1,20 +1,20 @@
 # BaiduPCS-Go
 
-> A Baidu Netdisk CLI client.
+> A Baidu Netdisk client.
 > Supports uploading, downloading, saving shared files, and offline downloading.
 > More information: <https://github.com/qjfoidnh/BaiduPCS-Go>.
 
-- Log in to a Baidu Netdisk account using BDUSS and STOKEN (see <https://github.com/qjfoidnh/BaiduPCS-Go#%E7%99%BB%E5%BD%95%E7%99%BE%E5%BA%A6%E5%B8%90%E5%8F%B7>):
+- Log in to a Baidu Netdisk account using BDUSS and STOKEN:
 
-`BaiduPCS-Go login -bduss {{bduss}} -stoken {{stoken}}`
+`BaiduPCS-Go login --bduss {{bduss}} --stoken {{stoken}}`
 
 - Download remote files or directories to a specific local directory (downloads to `./download/` if `--saveto` is omitted):
 
-`BaiduPCS-Go download {{path/to/remote1 path/to/remote2 ...}} --saveto {{path/to/local_directory}}`
+`BaiduPCS-Go download {{path/to/remote_file_or_directory1 path/to/remote_file_or_directory2 ...}} --saveto {{path/to/local_directory}}`
 
 - Upload local files or directories to a remote directory:
 
-`BaiduPCS-Go upload {{path/to/local1 path/to/local2 ...}} {{path/to/remote_directory}}`
+`BaiduPCS-Go upload {{path/to/local_file_or_directory1 path/to/local_file_or_directory2 ...}} {{path/to/remote_directory}}`
 
 - Save files from a shared link to the remote working directory:
 
