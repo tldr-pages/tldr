@@ -2,7 +2,7 @@
 
 > 百度网盘客户端。
 > 上传、下载、转存和离线下载。
-> 更多信息：<https://github.com/qjfoidnh/BaiduPCS-Go>。
+> 更多信息：<https://github.com/qjfoidnh/BaiduPCS-Go>.
 
 - 使用 BDUSS 和 STOKEN 登录百度网盘账号：
 
