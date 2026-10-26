@@ -16,7 +16,7 @@
 
 `who {{[-aH|--all --heading]}}`
 
-- Display the name of the current terminal:
+- Display information only for the current terminal session:
 
 `who am i`
 
