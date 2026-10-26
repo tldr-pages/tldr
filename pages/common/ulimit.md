@@ -20,9 +20,9 @@
 
 `ulimit -u {{30}}`
 
-- Remove limits from a resource:
+- Remove limits for a specific resource:
 
-`ulimit {{-n}} unlimited`
+`ulimit -{{c|f|s|...}} unlimited`
 
 - Display help (Bash only):
 
