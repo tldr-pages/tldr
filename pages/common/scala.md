@@ -17,7 +17,7 @@
 
 - Execute a `.jar` program:
 
-`scala {{filename.jar}}`
+`scala {{filename}}.jar`
 
 - Execute a single Scala command:
 

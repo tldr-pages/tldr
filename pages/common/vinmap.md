@@ -11,7 +11,7 @@
 
 `vinmap {{[-ip|--ip_range]}} {{example.com}} {{[-s|--scan_type]}} "-sV -O" -o {{path/to/scan_results.xml}}`
 
-- Scan an IP range using 10 chunks and 20 concurrent threads, uses half of the system's CPU cores if not specified:
+- Scan an IP range using 10 chunks and 20 concurrent threads (uses half of the system's CPU cores if not specified):
 
 `vinmap {{[-ip|--ip_range]}} {{10.0.0.1-10.0.0.255}} {{[-n|--num_chunks]}} 10 {{[-t|--threads]}} 20`
 

@@ -20,6 +20,6 @@
 
 `doas -C {{ruta/al/archivo_de_configuración}} {{comando}}`
 
-- Haz que `doas` solicite una contraseña incluso después de haberla proporcionado anteriormente:
+- Hace que `doas` solicite una contraseña incluso después de haberla proporcionado anteriormente:
 
 `doas -L`
