@@ -1,20 +1,20 @@
 # BaiduPCS-Go
 
-> 百度网盘CLI客户端。
-> 支持上传、下载、转存和离线下载。
+> 百度网盘客户端。
+> 上传、下载、转存和离线下载。
 > 更多信息：<https://github.com/qjfoidnh/BaiduPCS-Go>。
 
-- 登录百度网盘账号（BDUSS 和 STOKEN 的获取方法参见 <https://github.com/qjfoidnh/BaiduPCS-Go#登录百度帐号>）：
+- 使用 BDUSS 和 STOKEN 登录百度网盘账号：
 
-`BaiduPCS-Go login -bduss {{bduss}} -stoken {{stoken}}`
+`BaiduPCS-Go login --bduss {{bduss}} --stoken {{stoken}}`
 
 - 下载云端文件或目录到指定的本地目录（省略 `--saveto` 时下载到 `./download/`）：
 
-`BaiduPCS-Go download {{云端/文件或目录1 云端/文件或目录2 ...}} --saveto {{本地/目录}}`
+`BaiduPCS-Go download {{路径/到/云端文件或目录1 路径/到/云端文件或目录2 ...}} --saveto {{路径/到/本地目录}}`
 
 - 上传本地文件或目录到云端目录：
 
-`BaiduPCS-Go upload {{本地/文件或目录1 本地/文件或目录2 ...}} {{云端/目录}}`
+`BaiduPCS-Go upload {{路径/到/本地文件或目录1 路径/到/本地文件或目录2 ...}} {{路径/到/云端目录}}`
 
 - 将分享链接中的文件转存到云端工作目录：
 
@@ -22,11 +22,11 @@
 
 - 切换云端工作目录：
 
-`BaiduPCS-Go cd {{云端/目标目录}}`
+`BaiduPCS-Go cd {{路径/到/云端目录}}`
 
 - 列出云端目录中的文件和目录：
 
-`BaiduPCS-Go ls {{云端/目录}}`
+`BaiduPCS-Go ls {{路径/到/云端目录}}`
 
 - 进入交互模式：
 
