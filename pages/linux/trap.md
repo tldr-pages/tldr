@@ -25,7 +25,7 @@
 
 - Execute a command when the current shell exits:
 
-`trap '{{echo "Initiating cleanup"}} EXIT`
+`trap '{{echo "Initiating cleanup"}}' EXIT`
 
 - Execute a command before every single command:
 
