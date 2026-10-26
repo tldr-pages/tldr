@@ -26,3 +26,7 @@
 - Search for block devices:
 
 `fd {{[-t|--type]}} {{[b|block-device]}}`
+
+- Search for regular files that are also empty:
+
+`fd {{[-t|--type]}} {{[f|file]}} {{[-t|--type]}} {{[e|empty]}}`
