@@ -1,8 +1,8 @@
 # distrobox
 
-> Use any Linux distribution inside your terminal in a container. Install & use packages inside it while tightly integrating with the host OS, sharing storage (`home` directory) and hardware.
-> Note: `distrobox` isn't a command, but a set of commands.
-> More information: <https://github.com/89luca89/distrobox>.
+> Use any Linux distribution inside your terminal in a container. Install and use packages inside it while integrating with the host, sharing storage (the `home` directory) and hardware.
+> Some subcommands such as `create`, `enter`, `export`, `host-exec`, `list`, `rm`, `stop`, and `upgrade` have their own usage documentation.
+> More information: <https://distrobox.it>.
 
 - View documentation for creating containers:
 

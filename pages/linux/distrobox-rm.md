@@ -1,13 +1,17 @@
-# distrobox-rm
+# distrobox rm
 
 > Remove a Distrobox container.
 > See also: `distrobox`.
 > More information: <https://distrobox.it/usage/distrobox-rm/>.
 
-- Remove a Distrobox container (Tip: Stop the container before removing it):
+- Remove a container:
 
-`distrobox-rm {{container_name}}`
+`distrobox rm {{container_name}}`
 
-- Remove a Distrobox container forcefully:
+- Remove a container without asking:
 
-`distrobox-rm {{container_name}} {{[-f|--force]}}`
+`distrobox rm {{[-f|--force]}} {{container_name}}`
+
+- Remove every Distrobox container:
+
+`distrobox rm {{[-a|--all]}}`

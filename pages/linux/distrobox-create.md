@@ -1,14 +1,26 @@
-# distrobox-create
+# distrobox create
 
 > Create a Distrobox container.
-> The container created will be tightly integrated with the host, allowing sharing of the user's `$HOME` directory, external storage, external USB devices, graphical apps (X11/Wayland), and audio.
+> The created container is integrated with the host and can share the user's `$HOME` directory, external storage, USB devices, graphical apps (X11/Wayland), and audio.
 > See also: `distrobox`.
 > More information: <https://distrobox.it/usage/distrobox-create/>.
 
-- Create a Distrobox container using the Ubuntu image:
+- Create a container from the Ubuntu image:
 
-`distrobox-create {{container_name}} {{[-i|--image]}} {{ubuntu:latest}}`
+`distrobox create {{[-n|--name]}} {{container_name}} {{[-i|--image]}} {{ubuntu:latest}}`
 
-- Clone a Distrobox container:
+- Clone an existing container:
 
-`distrobox-create {{[-c|--clone]}} {{container_name}} {{cloned_container_name}}`
+`distrobox create {{[-c|--clone]}} {{container_name}} {{[-n|--name]}} {{cloned_container_name}}`
+
+- Create a container with its own home directory:
+
+`distrobox create {{[-n|--name]}} {{container_name}} {{[-i|--image]}} {{image}} {{[-H|--home]}} {{path/to/directory}}`
+
+- Pull the image and create a container without asking:
+
+`distrobox create {{[-Y|--yes]}} {{[-p|--pull]}} {{[-n|--name]}} {{container_name}} {{[-i|--image]}} {{image}}`
+
+- Display help:
+
+`distrobox create {{[-h|--help]}}`

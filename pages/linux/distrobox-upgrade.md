@@ -1,17 +1,21 @@
-# distrobox-upgrade
+# distrobox upgrade
 
-> Upgrade one or multiple Distrobox containers.
+> Upgrade one or more Distrobox containers using each container's package manager.
 > See also: `distrobox`.
 > More information: <https://distrobox.it/usage/distrobox-upgrade/>.
 
-- Upgrade a container using the container's native package manager:
+- Upgrade a container:
 
-`distrobox-upgrade {{container_name}}`
+`distrobox upgrade {{container_name}}`
 
-- Upgrade all containers using the container's native package managers:
+- Upgrade every container:
 
-`distrobox-upgrade {{[-a|--all]}}`
+`distrobox upgrade {{[-a|--all]}}`
 
-- Upgrade specific containers via the container's native package manager:
+- Upgrade only containers that are already running:
 
-`distrobox-upgrade {{container1 container2 ...}}`
+`distrobox upgrade {{[-a|--all]}} --running`
+
+- Upgrade specific containers:
+
+`distrobox upgrade {{container1 container2 ...}}`
