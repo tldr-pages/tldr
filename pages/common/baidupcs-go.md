@@ -1,7 +1,7 @@
 # BaiduPCS-Go
 
 > A Baidu Netdisk client.
-> Supports uploading, downloading, saving shared files, and offline downloading.
+> Upload, download, save shared files, and perform cloud downloading.
 > More information: <https://github.com/qjfoidnh/BaiduPCS-Go>.
 
 - Log in to a Baidu Netdisk account using BDUSS and STOKEN:
