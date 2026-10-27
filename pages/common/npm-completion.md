@@ -9,11 +9,11 @@
 
 - Add completion to the shell profile (Bash):
 
-`npm completion >> ~/.bashrc`
+`npm completion >>~/.bashrc`
 
 - Add completion to the shell profile (Zsh):
 
-`npm completion >> ~/.zshrc`
+`npm completion >>~/.zshrc`
 
 - Write completions script to a specific file:
 

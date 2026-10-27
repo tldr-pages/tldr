@@ -13,7 +13,7 @@
 
 - Append several files to an output file:
 
-`cat {{path/to/file1 path/to/file2 ...}} >> {{path/to/output_file}}`
+`cat {{path/to/file1 path/to/file2 ...}} >>{{path/to/output_file}}`
 
 - Copy the contents of a file into an output file without buffering:
 

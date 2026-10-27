@@ -13,7 +13,7 @@
 
 - Append Bash completion script to `~/.bashrc`:
 
-`kubectl completion bash >> ~/.bashrc`
+`kubectl completion bash >>~/.bashrc`
 
 - Write Zsh completion script to a file in the `fpath`:
 
@@ -33,4 +33,4 @@
 
 - Persist PowerShell completions:
 
-`kubectl completion powershell >> $PROFILE`
+`kubectl completion powershell >>$PROFILE`
