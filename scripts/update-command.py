@@ -28,12 +28,12 @@ Examples:
 """
 
 from pathlib import Path
-import os
 import re
 import argparse
-import sys
 from functools import reduce
 import logging
+
+from _common import get_tldr_root
 
 
 class MyFormatter(logging.Formatter):
@@ -223,18 +223,6 @@ def update_pages(
 
 def clean_cmd_example(cmd_example: str) -> str:
     return remove_placeholders(cmd_example).strip("`")
-
-
-def get_tldr_root() -> Path:
-    f = Path("update-command.py").resolve()
-    return next(path for path in f.parents if path.name == "tldr")
-
-    if "TLDR_ROOT" in os.environ:
-        return Path(os.environ["TLDR_ROOT"])
-    logger.error(
-        "Please set TLDR_ROOT to the location of a clone of https://github.com/tldr-pages/tldr."
-    )
-    sys.exit(1)
 
 
 def main():
