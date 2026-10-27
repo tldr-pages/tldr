@@ -12,6 +12,10 @@
 
 `sudo modprobe {{module_name}}`
 
+- Load multiple modules:
+
+`sudo modprobe {{[-a|--all]}} {{module_name1 module_name2 ...}}`
+
 - Remove a module from the kernel:
 
 `sudo modprobe {{[-r|--remove]}} {{module_name}}`

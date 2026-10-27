@@ -4,19 +4,19 @@
 > Útil para el descubrimiento de direcciones MAC.
 > Más información: <https://manned.org/arping>.
 
-- Haz ping a un host mediante paquetes de petición ARP:
+- Hace ping a un host mediante paquetes de petición ARP:
 
 `sudo arping {{host_ip}}`
 
-- Haz ping a un host en una interfaz específica:
+- Hace ping a un host en una interfaz específica:
 
 `sudo arping -I {{interfaz}} {{host_ip}}`
 
-- Haz ping a un host y detenerse en la primera respuesta:
+- Hace ping a un host y detenerse en la primera respuesta:
 
 `sudo arping -f {{host_ip}}`
 
-- Haz ping a un host un determinado número de veces:
+- Hace ping a un host un determinado número de veces:
 
 `sudo arping -c {{cuenta}} {{host_ip}}`
 
