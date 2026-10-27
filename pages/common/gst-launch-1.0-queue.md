@@ -5,4 +5,4 @@
 
 - Separate a pipeline into multiple threads so that one blocking element doesn't block the rest:
 
-`gst-launch-1.0 {{source}} ! queue ! {{sink}}`
+`gst-launch-1.0 {{videotestsrc}} ! queue ! {{fakesink}}`
