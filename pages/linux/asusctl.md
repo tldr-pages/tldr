@@ -11,25 +11,25 @@
 
 `asusctl profile list`
 
+- Switch to the next profile:
+
+`asusctl profile next`
+
 - Set the active performance profile:
 
-`asusctl profile set performance`
+`asusctl profile set {{balanced|performance|quiet|low-power|custom}}`
 
 - Set the keyboard LED brightness:
 
 `asusctl leds set {{off|low|med|high}}`
 
-- Set the battery charge limit:
+- Set the battery charge limit to a percentage between 20 and 100:
 
-`asusctl battery limit {{80}}`
+`asusctl battery limit {{20..100}}`
 
 - Show the current battery charge limit:
 
 `asusctl battery info`
-
-- Get enabled fan profiles:
-
-`asusctl fan-curve --get-enabled`
 
 - Show system and supported-feature information:
 
