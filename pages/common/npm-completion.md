@@ -17,4 +17,4 @@
 
 - Write completions script to a specific file:
 
-`npm completion > {{path/to/file}}`
+`npm completion >{{path/to/file}}`

@@ -15,7 +15,7 @@
 
 `meshlabserver -d {{path/to/file}}`
 
-- Process a 3D file using a filter script created in the MeshLab GUI (Filters > Show current filter script > Save Script):
+- Process a 3D file using a filter script created in the MeshLab GUI (Filters >Show current filter script >Save Script):
 
 `meshlabserver -i {{input.ply}} -o {{output.ply}} -s {{filter_script.mlx}}`
 

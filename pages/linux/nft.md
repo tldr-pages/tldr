@@ -34,4 +34,4 @@
 
 - Save current configuration:
 
-`sudo nft list ruleset > {{/etc/nftables.conf}}`
+`sudo nft list ruleset >{{/etc/nftables.conf}}`

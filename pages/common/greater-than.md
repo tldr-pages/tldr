@@ -5,7 +5,7 @@
 
 - Redirect `stdout` to a file:
 
-`{{command}} > {{path/to/file}}`
+`{{command}} >{{path/to/file}}`
 
 - Append to a file:
 

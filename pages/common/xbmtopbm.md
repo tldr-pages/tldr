@@ -5,4 +5,4 @@
 
 - Convert an XBM image to a PPM image:
 
-`xbmtopbm {{path/to/input_file.xbm}} > {{path/to/output_file.pbm}}`
+`xbmtopbm {{path/to/input_file.xbm}} >{{path/to/output_file.pbm}}`

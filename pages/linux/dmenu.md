@@ -14,7 +14,7 @@
 
 - Let the user choose between multiple items and save the selected one to a file:
 
-`echo -e "{{red}}\n{{green}}\n{{blue}}" | dmenu > {{color.txt}}`
+`echo -e "{{red}}\n{{green}}\n{{blue}}" | dmenu >{{color.txt}}`
 
 - Launch dmenu on a specific monitor:
 

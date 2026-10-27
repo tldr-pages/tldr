@@ -21,4 +21,4 @@
 
 - Filter a multivariant playlist by an attribute's numeric value:
 
-`{{cat path/to/file.m3u8}} | hlsq -query '{{bandwidth > 1000000}}'`
+`{{cat path/to/file.m3u8}} | hlsq -query '{{bandwidth >1000000}}'`

@@ -9,7 +9,7 @@
 
 - Send output to `stdout`:
 
-`repomix --stdout > {{path/to/file}}`
+`repomix --stdout >{{path/to/file}}`
 
 - Send output to `stdout`, then pipe into another program:
 

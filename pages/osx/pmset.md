@@ -1,6 +1,6 @@
 # pmset
 
-> Configure macOS power management settings, as one might do in System Preferences > Energy Saver.
+> Configure macOS power management settings, as one might do in System Preferences >Energy Saver.
 > Commands that modify settings must begin with `sudo`.
 > More information: <https://keith.github.io/xcode-man-pages/pmset.1.html>.
 

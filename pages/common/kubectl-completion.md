@@ -17,7 +17,7 @@
 
 - Write Zsh completion script to a file in the `fpath`:
 
-`kubectl completion zsh > "${fpath[1]}/_kubectl"`
+`kubectl completion zsh >"${fpath[1]}/_kubectl"`
 
 - Load fish completions into the current shell session:
 
@@ -25,7 +25,7 @@
 
 - Persist fish completions:
 
-`kubectl completion fish > ~/.config/fish/completions/kubectl.fish`
+`kubectl completion fish >~/.config/fish/completions/kubectl.fish`
 
 - Load PowerShell completions into the current shell session:
 

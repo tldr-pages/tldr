@@ -5,4 +5,4 @@
 
 - Convert an XV thumbnail image file to PPM:
 
-`xvminitoppm {{path/to/input_file}} > {{path/to/output_file.ppm}}`
+`xvminitoppm {{path/to/input_file}} >{{path/to/output_file.ppm}}`
