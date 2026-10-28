@@ -11,6 +11,6 @@
 
 `fold -w30 {{path/to/file}}`
 
-- Wrap each line to width "5" and break the line at spaces (puts each space separated word in a new line, words with length >5 are wrapped):
+- Wrap each line to width "5" and break the line at spaces (puts each space separated word in a new line, words with length > 5 are wrapped):
 
 `fold -w5 -s {{path/to/file}}`
