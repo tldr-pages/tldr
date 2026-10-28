@@ -275,3 +275,28 @@ Example uses include (but are not limited to):
 
 > [!NOTE]
 > This mechanism is purely for automatic review requests for PRs and doesn't grant collaborators additional copyright over the code-owned files. View the [LICENSE](https://github.com/tldr-pages/tldr/blob/main/LICENSE.md) file for more information.
+
+### Removing inactive CODEOWNERS
+
+**CODEOWNERS who are no longer active should be removed from the file.**
+Review requests to inactive owners are never answered, which leaves PRs waiting for the [10-day fallback](contributing-guides/maintainers-guide.md#ii-handling-prs) and gives contributors false hope of a review.
+Specifically: CODEOWNERS whose account no longer exists, who lack write access, or who have been _inactive for over 6 months_ (no reviews, PRs or comments in the repository) should be removed.
+If they are still active in other ways, but haven't reviewed any PRs for over 6 months or regularly leave review requests unanswered for more than 10 days, ask them first whether they still want to receive review requests.
+
+The [CODEOWNERS activity report](https://github.com/tldr-pages/tldr-maintenance/actions/workflows/check-codeowners.yml) in the tldr-maintenance repository lists these CODEOWNERS every month.
+
+1. Open a PR removing them from the CODEOWNERS file with the following message template (edit it as appropriate):
+
+   ```md
+   Hi, @username! You are listed as a CODEOWNER for `pages.xx`, but you haven't been active in the repository for over 6 months.
+   To prevent pull requests from waiting for a review that might not come, we'll be removing you from the [CODEOWNERS](https://github.com/tldr-pages/tldr/blob/main/.github/CODEOWNERS) file.
+
+   This doesn't change your role in the project in any way.
+   If you'd like to keep receiving review requests, just let us know here, or add yourself back anytime.
+
+   Thanks for all the reviews you have done so far!
+   ```
+
+2. Once they acknowledge the message (or after a week without any reaction), merge the PR. If they want to keep receiving review requests, close the PR instead.
+
+3. If this leaves a language without any CODEOWNERS, consider asking for new reviewers in the [Matrix chat room](https://matrix.to/#/#tldr-pages:matrix.org) or in the language's translation issue.
