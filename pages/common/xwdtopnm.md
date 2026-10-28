@@ -3,7 +3,7 @@
 > Convert an X11 or X10 window dump file to PNM.
 > More information: <https://netpbm.sourceforge.net/doc/xwdtopnm.html>.
 
-- Convert a XWD image file to PBM:
+- Convert an XWD image file to PBM:
 
 `xwdtopnm {{path/to/input_file.xwd}} > {{path/to/output_file.pnm}}`
 
