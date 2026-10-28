@@ -9,7 +9,7 @@
 
 - Convert file to the current locale's encoding, and output to a file:
 
-`iconv {{[-f|--from-code]}} {{from_encoding}} {{input_file}} > {{output_file}}`
+`iconv {{[-f|--from-code]}} {{from_encoding}} {{input_file}} >{{output_file}}`
 
 - List supported encodings:
 

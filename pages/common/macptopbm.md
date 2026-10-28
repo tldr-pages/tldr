@@ -6,15 +6,15 @@
 
 - Convert a MacPaint file into a PGM image:
 
-`macptopbm {{path/to/file.macp}} > {{path/to/output.pbm}}`
+`macptopbm {{path/to/file.macp}} >{{path/to/output.pbm}}`
 
 - Skip over `n` bytes when reading the file:
 
-`macptopbm {{[-e|-extraskip]}} {{n}} > {{path/to/output.pbm}}`
+`macptopbm {{[-e|-extraskip]}} {{n}} >{{path/to/output.pbm}}`
 
 - Suppress all informational messages:
 
-`macptopbm {{[-q|-quiet]}} > {{path/to/output.pbm}}`
+`macptopbm {{[-q|-quiet]}} >{{path/to/output.pbm}}`
 
 - Display version:
 

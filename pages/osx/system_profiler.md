@@ -9,7 +9,7 @@
 
 - Display a full system profiler report which can be opened by `System Profiler.app`:
 
-`system_profiler -xml > MyReport.spx`
+`system_profiler -xml >MyReport.spx`
 
 - Display a hardware overview (Model, CPU, Memory, Serial, etc.) and software data (System, Kernel, Name, Uptime, etc.):
 

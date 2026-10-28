@@ -21,7 +21,7 @@
 
 - Record timing information (data is outputted to `stderr`):
 
-`script {{[-t|--timing]}} 2> {{path/to/timing_file}}`
+`script {{[-t|--timing]}} 2>{{path/to/timing_file}}`
 
 - Write out data as soon as it happens:
 

@@ -17,7 +17,7 @@
 
 - Create an archive from files, using output redirection:
 
-`pax -w {{path/to/file1 path/to/file2 ...}} > {{target.tar}}`
+`pax -w {{path/to/file1 path/to/file2 ...}} >{{target.tar}}`
 
 - Extract an archive into the current directory:
 

@@ -6,4 +6,4 @@
 
 - Convert a PPM image to an ANSI ISO 6429 ASCII image, mapping each pixel to an individual character:
 
-`ppmtoterm {{path/to/input.ppm}} > {{path/to/output.txt}}`
+`ppmtoterm {{path/to/input.ppm}} >{{path/to/output.txt}}`

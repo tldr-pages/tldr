@@ -5,7 +5,7 @@
 
 - Convert an SVG file to Netpbm format:
 
-`svgtopam {{path/to/file.svg}} > {{path/to/output.pam}}`
+`svgtopam {{path/to/file.svg}} >{{path/to/output.pam}}`
 
 - Emit textual output describing the input image:
 

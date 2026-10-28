@@ -18,7 +18,7 @@
 
 - Save all network interfaces to an HTML/XML/JSON file:
 
-`sudo lshw {{[-c|-class]}} network -{{html|xml|json}} > interfaces{{.html|.xml|.json}}`
+`sudo lshw {{[-c|-class]}} network -{{html|xml|json}} >interfaces{{.html|.xml|.json}}`
 
 - List network interfaces without revealing sensitive information (IP addresses, serial numbers, etc.):
 

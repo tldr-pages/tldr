@@ -5,12 +5,12 @@
 
 - Convert an XWD image file to PBM:
 
-`xwdtopnm {{path/to/input_file.xwd}} > {{path/to/output_file.pnm}}`
+`xwdtopnm {{path/to/input_file.xwd}} >{{path/to/output_file.pnm}}`
 
 - Display information about the conversion process:
 
-`xwdtopnm {{[-verb|-verbose]}} {{path/to/input_file.xwd}} > {{path/to/output_file.pnm}}`
+`xwdtopnm {{[-verb|-verbose]}} {{path/to/input_file.xwd}} >{{path/to/output_file.pnm}}`
 
 - Display the contents of the X11 header of the input file:
 
-`xwdtopnm {{[-h|-headerdump]}} {{path/to/input_file.xwd}} > {{path/to/output_file.pnm}}`
+`xwdtopnm {{[-h|-headerdump]}} {{path/to/input_file.xwd}} >{{path/to/output_file.pnm}}`

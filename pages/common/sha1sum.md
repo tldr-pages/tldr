@@ -9,7 +9,7 @@
 
 - Calculate and save the list of SHA1 checksums to a file:
 
-`sha1sum {{path/to/file1 path/to/file2 ...}} > {{path/to/file.sha1}}`
+`sha1sum {{path/to/file1 path/to/file2 ...}} >{{path/to/file.sha1}}`
 
 - Calculate a SHA1 checksum from `stdin`:
 

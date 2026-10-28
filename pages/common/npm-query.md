@@ -5,11 +5,11 @@
 
 - Print direct dependencies:
 
-`npm query ':root > *'`
+`npm query ':root >*'`
 
 - Print all direct production/development dependencies:
 
-`npm query ':root > .{{prod|dev}}'`
+`npm query ':root >.{{prod|dev}}'`
 
 - Print dependencies with a specific name:
 

@@ -10,7 +10,7 @@
 
 - Generate a graph and render it to a PNG file using GraphViz:
 
-`terraform graph | dot -Tpng > {{path/to/graph.png}}`
+`terraform graph | dot -Tpng >{{path/to/graph.png}}`
 
 - Generate a graph from a saved plan file:
 

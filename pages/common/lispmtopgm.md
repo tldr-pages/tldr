@@ -6,4 +6,4 @@
 
 - Convert the specified Lisp Machine bitmap file into a PGM image:
 
-`lispmtopgm {{path/to/input.lispm}} > {{path/to/output.pgm}}`
+`lispmtopgm {{path/to/input.lispm}} >{{path/to/output.pgm}}`
