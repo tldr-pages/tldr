@@ -14,4 +14,4 @@
 
 - 将当前目录下的所有 JPEG 图片的尺寸属性：
 
-`magick identify -format "{{%f,%w,%h\n}}" {{*.jpg}} > {{路径/到/文件列表.csv}}`
+`magick identify -format "{{%f,%w,%h\n}}" {{*.jpg}} >{{路径/到/文件列表.csv}}`
