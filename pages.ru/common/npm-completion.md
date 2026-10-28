@@ -9,12 +9,12 @@
 
 - Добавить автодополнение в профиль оболочки (Bash):
 
-`npm completion >> ~/.bashrc`
+`npm completion >>~/.bashrc`
 
 - Добавить автодополнение в профиль оболочки (Zsh):
 
-`npm completion >> ~/.zshrc`
+`npm completion >>~/.zshrc`
 
 - Записать скрипт автодополнения в файл:
 
-`npm completion > {{путь/к/файлу}}`
+`npm completion >{{путь/к/файлу}}`
