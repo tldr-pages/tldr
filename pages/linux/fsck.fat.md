@@ -3,7 +3,7 @@
 > Check and repair a FAT filesystem. The filesystem should be unmounted.
 > More information: <https://manned.org/fsck.fat>.
 
-- Check a filesystem and interactively [r]epair any problems:
+- Check a filesystem and interactively repair any problems:
 
 `sudo fsck.fat {{/dev/sdXY}}`
 
@@ -17,8 +17,8 @@
 
 - Check a filesystem and [l]ist path names of files being processed:
 
-`sudo fsck.fat -n -l {{/dev/sdXY}}`
+`sudo fsck.fat -nl {{/dev/sdXY}}`
 
-- Automatically repair a filesystem and [t]est for bad clusters:
+- [a]utomatically repair a filesystem and [t]est for bad clusters:
 
-`sudo fsck.fat -a -t {{/dev/sdXY}}`
+`sudo fsck.fat -at {{/dev/sdXY}}`
