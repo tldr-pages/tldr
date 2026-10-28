@@ -30,8 +30,8 @@
 
 - 모든 규칙을 파일에 저장:
 
-`ip {{[ru|rule]}} {{[s|save]}} > {{경로/대상/ip_규칙들.dat}}`
+`ip {{[ru|rule]}} {{[s|save]}} >{{경로/대상/ip_규칙들.dat}}`
 
 - 파일에서 모든 규칙 복원:
 
-`sudo ip {{[ru|rule]}} {{[r|restore]}} < {{경로/대상/ip_규칙들.dat}}`
+`sudo ip {{[ru|rule]}} {{[r|restore]}} <{{경로/대상/ip_규칙들.dat}}`

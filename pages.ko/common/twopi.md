@@ -18,7 +18,7 @@
 
 - `stdin` 및 `stdout`을 사용하여 GIF 이미지 렌더링:
 
-`echo "{{digraph {this -> that} }}" | twopi -T {{gif}} > {{경로/대상/이미지.gif}}`
+`echo "{{digraph {this -> that} }}" | twopi -T {{gif}} >{{경로/대상/이미지.gif}}`
 
 - 도움말 표시:
 

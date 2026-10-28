@@ -6,15 +6,15 @@
 
 - MacPaint 파일을 PGM 이미지로 변환:
 
-`macptopbm {{경로/대상/파일.macp}} > {{경로/대상/출력.pbm}}`
+`macptopbm {{경로/대상/파일.macp}} >{{경로/대상/출력.pbm}}`
 
 - 파일을 읽을 때 지정된 바이트 수만큼 건너뜀:
 
-`macptopbm {{[-e|-extraskip]}} {{N}} > {{경로/대상/출력.pbm}}`
+`macptopbm {{[-e|-extraskip]}} {{N}} >{{경로/대상/출력.pbm}}`
 
 - 모든 정보 메시지 억제:
 
-`macptopbm {{[-q|-quiet]}} > {{경로/대상/출력.pbm}}`
+`macptopbm {{[-q|-quiet]}} >{{경로/대상/출력.pbm}}`
 
 - 버전 표시:
 

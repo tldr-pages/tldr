@@ -34,4 +34,4 @@
 
 - 현재 구성 저장:
 
-`sudo nft list ruleset > {{/etc/nftables.conf}}`
+`sudo nft list ruleset >{{/etc/nftables.conf}}`

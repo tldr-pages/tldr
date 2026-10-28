@@ -5,7 +5,7 @@
 
 - PPM 이미지(즉, PBM, PGM 또는 PPM 이미지)를 `stdin`에서 `stdout`으로 복사:
 
-`ppmtoppm < {{경로/대상/이미지.ppm}} > {{경로/대상/출력.ppm}}`
+`ppmtoppm <{{경로/대상/이미지.ppm}} >{{경로/대상/출력.ppm}}`
 
 - 버전 표시:
 

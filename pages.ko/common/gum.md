@@ -26,4 +26,4 @@
 
 - 여러 줄의 텍스트를 대화식으로 프롬프트하고 (저장하려면 `<Ctrl d>`) `data.txt`에 작성:
 
-`gum write > {{data.txt}}`
+`gum write >{{data.txt}}`

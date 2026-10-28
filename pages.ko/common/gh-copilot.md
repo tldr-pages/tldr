@@ -18,11 +18,11 @@
 
 - Bash용 쉘 별칭 생성:
 
-`echo 'eval "$(gh copilot alias -- bash)"' >> ~/.bashrc`
+`echo 'eval "$(gh copilot alias -- bash)"' >>~/.bashrc`
 
 - Zsh용 쉘 별칭 생성:
 
-`echo 'eval "$(gh copilot alias -- zsh)"' >> ~/.zshrc`
+`echo 'eval "$(gh copilot alias -- zsh)"' >>~/.zshrc`
 
 - 옵션 설정:
 

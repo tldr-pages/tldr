@@ -15,7 +15,7 @@
 
 `meshlabserver -d {{경로/대상/파일}}`
 
-- MeshLab GUI에서 생성된 필터 스크립트를 사용하여 3D 파일 처리 (Filters > Show current filter script > Save Script):
+- MeshLab GUI에서 생성된 필터 스크립트를 사용하여 3D 파일 처리 (Filters >Show current filter script >Save Script):
 
 `meshlabserver -i {{입력.ply}} -o {{출력.ply}} -s {{필터_스크립트.mlx}}`
 

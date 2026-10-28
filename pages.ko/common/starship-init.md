@@ -9,11 +9,11 @@
 
 - `starship` 통합 코드를 `~/.bashrc`에 추가:
 
-`starship init {{bash}} >> {{~/.bashrc}}`
+`starship init {{bash}} >>{{~/.bashrc}}`
 
 - `starship` 통합 코드를 `~/.zshrc`에 추가:
 
-`starship init {{zsh}} >> {{~/.zshrc}}`
+`starship init {{zsh}} >>{{~/.zshrc}}`
 
 - 도움말 표시:
 

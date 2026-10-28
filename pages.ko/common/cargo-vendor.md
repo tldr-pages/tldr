@@ -5,4 +5,4 @@
 
 - 공급업체 종속성 및 현재 프로젝트에서 공급업체 소스를 사용하도록 `cargo`를 구성:
 
-`cargo vendor {{경로/대상/디렉터리}} > .cargo/config.toml`
+`cargo vendor {{경로/대상/디렉터리}} >.cargo/config.toml`

@@ -5,16 +5,16 @@
 
 - 이미지를 BT.709 휘도에서 방사선 또는 sRGB 휘도로 변환:
 
-`pnmgamma -{{bt709tolinear|bt709tosrgb}} {{경로/대상/이미지.pnm}} > {{경로/대상/출력.pnm}}`
+`pnmgamma -{{bt709tolinear|bt709tosrgb}} {{경로/대상/이미지.pnm}} >{{경로/대상/출력.pnm}}`
 
 - 이미지를 방사선 또는 sRGB 휘도에서 BT.709 휘도로 변환:
 
-`pnmgamma -{{lineartobt709|srgbtobt709}} {{경로/대상/이미지.pnm}} > {{경로/대상/출력.pnm}}`
+`pnmgamma -{{lineartobt709|srgbtobt709}} {{경로/대상/이미지.pnm}} >{{경로/대상/출력.pnm}}`
 
 - 감마 전송 함수에 사용될 감마 값 지정:
 
-`pnmgamma {{[-ga|-gamma]}} {{값}} {{경로/대상/이미지.pnm}} > {{경로/대상/출력.pnm}}`
+`pnmgamma {{[-ga|-gamma]}} {{값}} {{경로/대상/이미지.pnm}} >{{경로/대상/출력.pnm}}`
 
 - 색 구성 요소별로 감마 전송 함수에 사용될 감마 값 지정:
 
-`pnmgamma {{[-rg|-rgamma]}} {{값}} {{[-gg|-ggamma]}} {{값}} {{[-bg|-bgamma]}} {{값}} {{경로/대상/이미지.pnm}} > {{경로/대상/출력.pnm}}`
+`pnmgamma {{[-rg|-rgamma]}} {{값}} {{[-gg|-ggamma]}} {{값}} {{[-bg|-bgamma]}} {{값}} {{경로/대상/이미지.pnm}} >{{경로/대상/출력.pnm}}`

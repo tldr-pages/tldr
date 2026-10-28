@@ -13,4 +13,4 @@
 
 - 보고서를 HTML 파일로 저장:
 
-`hardinfo {{[-r|--generate-report]}} {{[-f|--report-format]}} html > hardinfo.html`
+`hardinfo {{[-r|--generate-report]}} {{[-f|--report-format]}} html >hardinfo.html`

@@ -18,7 +18,7 @@
 
 - `stdin`과 `stdout`을 사용해 GIF 이미지를 렌더링:
 
-`echo "{{digraph {this -> that} }}" | dot -T {{gif}} > {{경로/대상/이미지.gif}}`
+`echo "{{digraph {this -> that} }}" | dot -T {{gif}} >{{경로/대상/이미지.gif}}`
 
 - 도움말을 표시:
 

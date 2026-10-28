@@ -5,4 +5,4 @@
 
 - 커밋 해시 ID를 추출하거나, 정보가 없으면 조용히 종료하며 반환 코드 1 반환:
 
-`git < {{경로/대상/아카이브.tar}} get-tar-commit-id`
+`git <{{경로/대상/아카이브.tar}} get-tar-commit-id`

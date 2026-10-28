@@ -9,12 +9,12 @@
 
 - Bash 프로파일에 자동완성 추가:
 
-`npm completion >> ~/.bashrc`
+`npm completion >>~/.bashrc`
 
 - Zsh 프로파일에 자동완성 추가:
 
-`npm completion >> ~/.zshrc`
+`npm completion >>~/.zshrc`
 
 - 자동완성 스크립트를 특정 파일로 저장:
 
-`npm completion > {{경로/대상/파일}}`
+`npm completion >{{경로/대상/파일}}`

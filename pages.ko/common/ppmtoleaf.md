@@ -5,4 +5,4 @@
 
 - PPM 이미지를 LEAF 파일로 변환:
 
-`ppmtoleaf {{경로/대상/파일.ppm}} > {{경로/대상/파일.leaf}}`
+`ppmtoleaf {{경로/대상/파일.ppm}} >{{경로/대상/파일.leaf}}`

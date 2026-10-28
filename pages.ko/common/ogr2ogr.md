@@ -9,7 +9,7 @@
 
 - 조건에 맞는 특징만 포함하도록 GeoJSON 축소:
 
-`ogr2ogr -where '{{myProperty > 42}}' -f {{GeoJSON}} {{경로/대상/출력.geojson}} {{경로/대상/입력.geojson}}`
+`ogr2ogr -where '{{myProperty >42}}' -f {{GeoJSON}} {{경로/대상/출력.geojson}} {{경로/대상/입력.geojson}}`
 
 - 지오패키지의 좌표 참조 시스템을 `EPSG:4326`에서 `EPSG:3857`로 변경:
 

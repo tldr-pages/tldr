@@ -9,7 +9,7 @@
 
 - `System Profiler.app`에서 열 수 있는 전체 시스템 프로파일러 보고서 표시:
 
-`system_profiler -xml > MyReport.spx`
+`system_profiler -xml >MyReport.spx`
 
 - 하드웨어 개요(모델, CPU, 메모리, 시리얼 등) 및 소프트웨어 데이터(시스템, 커널, 이름, 가동 시간 등) 표시:
 

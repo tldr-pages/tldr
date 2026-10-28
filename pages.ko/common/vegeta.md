@@ -22,7 +22,7 @@
 
 - 공격을 시작하고 결과를 그래프에 플롯(시간에 따른 지연):
 
-`echo "{{GET https://example.com}}" | vegeta attack -duration={{30s}} | vegeta plot > {{경로/대상/결과.html}}`
+`echo "{{GET https://example.com}}" | vegeta attack -duration={{30s}} | vegeta plot >{{경로/대상/결과.html}}`
 
 - 파일에 있는 여러 URL에 대한 공격 시작:
 

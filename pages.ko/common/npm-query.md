@@ -5,11 +5,11 @@
 
 - 직접 의존성 출력:
 
-`npm query ':root > *'`
+`npm query ':root >*'`
 
 - 모든 직접 프로덕션/개발 의존성을 출력:
 
-`npm query ':root > .{{prod|dev}}'`
+`npm query ':root >.{{prod|dev}}'`
 
 - 특정 이름으로 의존성 출력:
 

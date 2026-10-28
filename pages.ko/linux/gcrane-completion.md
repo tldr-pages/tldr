@@ -22,15 +22,15 @@
 
 - 새로운 세션마다 완성 로드 (bash):
 
-`gcrane completion bash > /etc/bash_completion.d/gcrane`
+`gcrane completion bash >/etc/bash_completion.d/gcrane`
 
 - 새로운 세션마다 완성 로드 (zsh):
 
-`gcrane completion zsh > "${fpath[1]}/_gcrane"`
+`gcrane completion zsh >"${fpath[1]}/_gcrane"`
 
 - 새로운 세션마다 완성 로드 (fish):
 
-`gcrane completion fish > ~/.config/fish/completions/gcrane.fish`
+`gcrane completion fish >~/.config/fish/completions/gcrane.fish`
 
 - 도움말 표시:
 

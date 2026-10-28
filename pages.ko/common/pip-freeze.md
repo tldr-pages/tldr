@@ -9,7 +9,7 @@
 
 - 설치된 패키지를 나열하고 `requirements.txt` 파일에 작성:
 
-`pip freeze > requirements.txt`
+`pip freeze >requirements.txt`
 
 - 가상 환경에서 설치된 패키지를 나열하고, 전역적으로 설치된 패키지를 제외:
 

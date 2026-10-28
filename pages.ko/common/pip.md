@@ -22,7 +22,7 @@
 
 - 설치된 패키지 목록을 파일로 저장:
 
-`pip freeze > {{requirements.txt}}`
+`pip freeze >{{requirements.txt}}`
 
 - 설치된 패키지 목록 표시:
 

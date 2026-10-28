@@ -5,7 +5,7 @@
 
 - PNM 이미지를 입력으로 읽고 JPEG/JFIF/EXIF 이미지로 출력:
 
-`pnmtojpeg {{경로/대상/파일.pnm}} > {{경로/대상/파일.jpg}}`
+`pnmtojpeg {{경로/대상/파일.pnm}} >{{경로/대상/파일.jpg}}`
 
 - 버전 표시:
 

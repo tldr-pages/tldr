@@ -21,11 +21,11 @@
 
 - 다이어그램의 소스 코드를 저장하지 않고 렌더링 (참고: `-nometadata` 옵션이 지정되지 않으면 기본적으로 저장됨):
 
-`plantuml -nometadata {{다이어그램.png}} > {{다이어그램.puml}}`
+`plantuml -nometadata {{다이어그램.png}} >{{다이어그램.puml}}`
 
 - `plantuml` 다이어그램의 메타데이터에서 소스 코드 가져오기:
 
-`plantuml -metadata {{다이어그램.png}} > {{다이어그램.puml}}`
+`plantuml -metadata {{다이어그램.png}} >{{다이어그램.puml}}`
 
 - 구성 파일을 사용하여 다이어그램 렌더링:
 

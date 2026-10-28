@@ -1,7 +1,7 @@
 # herdr
 
 > AI 코딩 에이전트를 위한 터미널 작업 공간 관리자.
-> 참고: 레이아웃은 Session > Workspace > Tab > Pane 구조로 구성됨.
+> 참고: 레이아웃은 Session >Workspace >Tab >Pane 구조로 구성됨.
 > 관련 항목: `tmux`, `zellij`, `screen`.
 > 더 많은 정보: <https://herdr.dev/docs/cli-reference/>.
 

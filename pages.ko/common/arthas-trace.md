@@ -10,7 +10,7 @@
 
 - 메서드 호출 체인을 추적하고, 호출 시간이 10ms보다 긴 경우만 표시:
 
-`trace {{class_pattern}} {{method_pattern}} '#cost > {{10}}'`
+`trace {{class_pattern}} {{method_pattern}} '#cost >{{10}}'`
 
 - 여러 클래스 또는 여러 메서드의 호출 체인을 추적:
 
@@ -18,4 +18,4 @@
 
 - 메서드 호출 체인을 추적하고, 호출 시간이 10ms를 초과하는 경우만 표시하며, 5회 추적 후 중료:
 
-`trace {{class_pattern}} {{method_pattern}} '#cost > {{10}}' -n 5`
+`trace {{class_pattern}} {{method_pattern}} '#cost >{{10}}' -n 5`
