@@ -15,7 +15,7 @@
 
 `sesh list {{[-p|--panes]}}`
 
-- Start fuzzy picker of sessions with icons:
+- Start an interactive session picker with icons:
 
 `sesh picker {{[-i|--icons]}}`
 
