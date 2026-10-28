@@ -17,7 +17,7 @@
 
 - Asigna varios valores a varias variables:
 
-`read {{_ variable1 _ variable2}} <<< "{{El apellido es Bond}}"`
+`read {{_ variable1 _ variable2}} <<<"{{El apellido es Bond}}"`
 
 - No dejes que la barra invertida (`\`) actúe como carácter de escape:
 
@@ -33,4 +33,4 @@
 
 - Lee `stdin` y realiza una acción en cada línea:
 
-`while read line; do {{echo|ls|rm|...}} "$line"; done < {{dev/stdin|ruta/al/archivo|...}}`
+`while read line; do {{echo|ls|rm|...}} "$line"; done <{{dev/stdin|ruta/al/archivo|...}}`

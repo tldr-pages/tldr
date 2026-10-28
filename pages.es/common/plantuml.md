@@ -21,11 +21,11 @@
 
 - Renderiza un diagrama sin almacenar el código fuente del diagrama (Nota: Se almacena por defecto cuando no se especifica la opción `-nometadata`):
 
-`plantuml -nometadata {{diagrama.png}} > {{diagrama.puml}}`
+`plantuml -nometadata {{diagrama.png}} >{{diagrama.puml}}`
 
 - Recupera la fuente de los metadatos de un diagrama `plantuml`:
 
-`plantuml -metadata {{diagrama.png}} > {{diagrama.puml}}`
+`plantuml -metadata {{diagrama.png}} >{{diagrama.puml}}`
 
 - Renderiza un diagrama con el archivo de configuración:
 

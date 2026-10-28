@@ -1,7 +1,7 @@
 # herdr
 
 > Gestor de espacios de trabajo en terminal para agentes de programación de IA.
-> Nota: La estructura es Sesión > Espacio de trabajo > Pestaña > Panel.
+> Nota: La estructura es Sesión >Espacio de trabajo >Pestaña >Panel.
 > Vea también: `tmux`, `zellij`, `screen`.
 > Más información: <https://herdr.dev/docs/cli-reference/>.
 

@@ -6,12 +6,12 @@
 
 - Convierte una imagen Netpbm en una imagen GIF no animada:
 
-`pamtogif {{ruta/a/imagen.pam}} > {{ruta/a/imagen_de_salida.gif}}`
+`pamtogif {{ruta/a/imagen.pam}} >{{ruta/a/imagen_de_salida.gif}}`
 
 - Marca el color especificado como transparente en el archivo GIF de salida:
 
-`pamtogif {{[-t|-transparent]}} {{color}} {{ruta/a/imagen.pam}} > {{ruta/a/imagen_de_salida.gif}}`
+`pamtogif {{[-t|-transparent]}} {{color}} {{ruta/a/imagen.pam}} >{{ruta/a/imagen_de_salida.gif}}`
 
 - Incluye el texto especificado como comentario en el archivo GIF de salida:
 
-`pamtogif {{[-c|-comment]}} "{{¡Hola Mundo!}}" {{ruta/a/imagen.pam}} > {{ruta/a/imagen_de_salida.gif}}`
+`pamtogif {{[-c|-comment]}} "{{¡Hola Mundo!}}" {{ruta/a/imagen.pam}} >{{ruta/a/imagen_de_salida.gif}}`

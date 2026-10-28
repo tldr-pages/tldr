@@ -13,7 +13,7 @@
 
 - Utiliza el operador condicional en una expresión:
 
-`let "{{result = (x > 10) ? x : 0}}"`
+`let "{{result = (x >10) ? x : 0}}"`
 
 - Muestra la ayuda:
 

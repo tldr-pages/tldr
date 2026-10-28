@@ -6,8 +6,8 @@
 
 - Escala una imagen PAM por un factor entero:
 
-`pamstretch {{n}} {{ruta/a/la/imagen.pam}} > {{ruta/al/resultado.pam}}`
+`pamstretch {{n}} {{ruta/a/la/imagen.pam}} >{{ruta/al/resultado.pam}}`
 
 - Escala una imagen PAM por los factores especificados en las direcciones horizontales y verticales:
 
-`pamstretch {{[-x|-xscale]}} {{xn}} {{[-y|-yscale]}} {{yn}} {{ruta/a/la/imagen.pam}} > {{ruta/al/resultado.pam}}`
+`pamstretch {{[-x|-xscale]}} {{xn}} {{[-y|-yscale]}} {{yn}} {{ruta/a/la/imagen.pam}} >{{ruta/al/resultado.pam}}`

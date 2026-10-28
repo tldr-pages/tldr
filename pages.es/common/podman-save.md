@@ -10,11 +10,11 @@
 
 - Guarda una imagen en `stdout`:
 
-`podman save {{image:tag}} > {{ruta/al/archivo.tar}}`
+`podman save {{image:tag}} >{{ruta/al/archivo.tar}}`
 
 - Guarda una imagen con compresión:
 
-`podman save {{image:tag}} | {{gzip|bzip2|xz|zstd|zstdchunked}} > {{ruta/al/archivo.tar.ext]}}`
+`podman save {{image:tag}} | {{gzip|bzip2|xz|zstd|zstdchunked}} >{{ruta/al/archivo.tar.ext]}}`
 
 - Transfiere una imagen a un sistema remoto con compresión sobre la marcha y barra de progreso:
 

@@ -6,7 +6,7 @@
 
 - Haz un gráfico acíclico invirtiendo algunos bordes:
 
-`acyclic {{ruta/a/entrada.gv}} > {{ruta/a/salida.gv}}`
+`acyclic {{ruta/a/entrada.gv}} >{{ruta/a/salida.gv}}`
 
 - Imprime si un gráfico es acíclico, tiene un ciclo o si no posee instrucciones, no genera ningún gráfico de salida:
 
