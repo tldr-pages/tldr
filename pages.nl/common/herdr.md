@@ -1,7 +1,7 @@
 # herdr
 
 > Terminal workspace manager voor AI coding agents.
-> Opmerking: de indeling is Sessie > Workspace > Tab > Pane.
+> Opmerking: de indeling is Sessie >Workspace >Tab >Pane.
 > Zie ook: `tmux`, `zellij`, `screen`.
 > Meer informatie: <https://herdr.dev/docs/cli-reference/>.
 

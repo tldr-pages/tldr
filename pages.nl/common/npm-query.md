@@ -5,11 +5,11 @@
 
 - Print directe afhankelijkheden:
 
-`npm query ':root > *'`
+`npm query ':root >*'`
 
 - Print alle directe productie-/ontwikkelingsafhankelijkheden:
 
-`npm query ':root > .{{prod|dev}}'`
+`npm query ':root >.{{prod|dev}}'`
 
 - Print afhankelijkheden met een specifieke naam:
 

@@ -13,7 +13,7 @@
 
 - Gebruik een voorwaardelijke operator in een uitdrukking:
 
-`let "{{result = (x > 10) ? x : 0}}"`
+`let "{{result = (x >10) ? x : 0}}"`
 
 - Toon de help:
 

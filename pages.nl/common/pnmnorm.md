@@ -6,16 +6,16 @@
 
 - Forceer de helderste pixels om wit te zijn, de donkerste pixels om zwart te zijn en verspreid de tussenliggende pixels lineair:
 
-`pnmnorm {{pad/naar/afbeelding.pnm}} > {{pad/naar/uitvoer.pnm}}`
+`pnmnorm {{pad/naar/afbeelding.pnm}} >{{pad/naar/uitvoer.pnm}}`
 
 - Forceer de helderste pixels om wit te zijn, de donkerste pixels om zwart te zijn en verspreid de tussenliggende pixels kwadratisch zodat pixels met een helderheid van `n` 50% helder worden:
 
-`pnmnorm {{[-midv|-midvalue]}} {{n}} {{pad/naar/afbeelding.pnm}} > {{pad/naar/uitvoer.pnm}}`
+`pnmnorm {{[-midv|-midvalue]}} {{n}} {{pad/naar/afbeelding.pnm}} >{{pad/naar/uitvoer.pnm}}`
 
 - Behoud de tint van de pixels, pas alleen de helderheid aan:
 
-`pnmnorm {{[-k|-keephues]}} {{pad/naar/afbeelding.pnm}} > {{pad/naar/uitvoer.pnm}}`
+`pnmnorm {{[-k|-keephues]}} {{pad/naar/afbeelding.pnm}} >{{pad/naar/uitvoer.pnm}}`
 
 - Specificeer een methode om de helderheid van een pixel te berekenen:
 
-`pnmnorm -{{luminosity|colorvalue|saturation}} {{pad/naar/afbeelding.pnm}} > {{pad/naar/uitvoer.pnm}}`
+`pnmnorm -{{luminosity|colorvalue|saturation}} {{pad/naar/afbeelding.pnm}} >{{pad/naar/uitvoer.pnm}}`

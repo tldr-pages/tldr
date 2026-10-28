@@ -6,8 +6,8 @@
 
 - Maak een afbeelding van een kraterterrein met de gespecificeerde dimensies:
 
-`pamcrater {{[-h|-height]}} {{hoogte}} {{[-w|-width]}} {{breedte}} > {{pad/naar/uitvoer.pam}}`
+`pamcrater {{[-h|-height]}} {{hoogte}} {{[-w|-width]}} {{breedte}} >{{pad/naar/uitvoer.pam}}`
 
 - Maak een afbeelding met het gespecificeerde aantal kraters:
 
-`pamcrater {{[-n|-number]}} {{n_kraters}} > {{pad/naar/uitvoer.pam}}`
+`pamcrater {{[-n|-number]}} {{n_kraters}} >{{pad/naar/uitvoer.pam}}`

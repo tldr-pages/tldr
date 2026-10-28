@@ -14,7 +14,7 @@
 
 - Selecteer meerdere bestanden met `<Shift Tab>` en schrijf naar een bestand:
 
-`find {{pad/naar/map}} -type f | fzf {{[-m|--multi]}} > {{pad/naar/bestand}}`
+`find {{pad/naar/map}} -type f | fzf {{[-m|--multi]}} >{{pad/naar/bestand}}`
 
 - Start `fzf` met een bepaalde query:
 
