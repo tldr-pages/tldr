@@ -13,11 +13,7 @@
 
 - Sync profiles from `tmpfs` back to disk immediately:
 
-`psd sync`
-
-- Sync profiles from `tmpfs` back to disk once an hour:
-
-`psd resync`
+`psd {{sync|resync}}`
 
 - Sync profiles back to disk, close browsers, and restore original profile directories:
 
