@@ -9,7 +9,7 @@
 
 - Export all Kustomization resources and save them to a file:
 
-`flux export kustomization --all > {{path/to/kustomizations.yaml}}`
+`flux export kustomization --all >{{path/to/kustomizations.yaml}}`
 
 - Export a GitRepository source including credentials:
 

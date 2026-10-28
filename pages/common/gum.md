@@ -26,4 +26,4 @@
 
 - Interactively prompt for multi-line text and write the input to a file:
 
-`gum write > {{path/to/file}}`
+`gum write >{{path/to/file}}`

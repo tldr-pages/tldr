@@ -30,7 +30,7 @@
 
 - Generate and save the source information into `.SRCINFO`:
 
-`makepkg --printsrcinfo > .SRCINFO`
+`makepkg --printsrcinfo >.SRCINFO`
 
 - Download the source and install only the build dependencies for a program:
 

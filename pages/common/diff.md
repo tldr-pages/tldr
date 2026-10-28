@@ -30,7 +30,7 @@
 
 - Create a patch file for Git from the differences of two text files, treating nonexistent files as empty:
 
-`diff {{[-a|--text]}} {{[-u|--unified]}} {{[-N|--new-file]}} {{path/to/old_file}} {{path/to/new_file}} > {{path/to/diff.patch}}`
+`diff {{[-a|--text]}} {{[-u|--unified]}} {{[-N|--new-file]}} {{path/to/old_file}} {{path/to/new_file}} >{{path/to/diff.patch}}`
 
 - Compare files, showing output in color, trying hard to find the smallest set of changes:
 

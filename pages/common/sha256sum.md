@@ -9,7 +9,7 @@
 
 - Calculate and save the list of SHA256 checksums to a file:
 
-`sha256sum {{path/to/file1 path/to/file2 ...}} > {{path/to/file.sha256}}`
+`sha256sum {{path/to/file1 path/to/file2 ...}} >{{path/to/file.sha256}}`
 
 - Calculate a SHA256 checksum from `stdin`:
 

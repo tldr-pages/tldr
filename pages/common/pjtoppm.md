@@ -5,4 +5,4 @@
 
 - Convert an HP PaintJet file to PPM:
 
-`pjtoppm {{path/to/input.pj}} > {{path/to/output.ppm}}`
+`pjtoppm {{path/to/input.pj}} >{{path/to/output.ppm}}`

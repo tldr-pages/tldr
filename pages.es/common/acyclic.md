@@ -1,10 +1,10 @@
 # acyclic
 
-> Haz un gráfico acíclico invirtiendo algunos bordes.
+> Hace un gráfico acíclico invirtiendo algunos bordes.
 > Filtros Graphviz: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, y `unflatten`.
 > Más información: <https://graphviz.org/pdf/acyclic.1.pdf>.
 
-- Haz un gráfico acíclico invirtiendo algunos bordes:
+- Hace un gráfico acíclico invirtiendo algunos bordes:
 
 `acyclic {{ruta/a/entrada.gv}} > {{ruta/a/salida.gv}}`
 

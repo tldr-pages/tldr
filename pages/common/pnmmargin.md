@@ -5,8 +5,8 @@
 
 - Add a border of the specified size to a PNM image:
 
-`pnmmargin {{size}} {{path/to/image.pnm}} > {{path/to/output.pnm}}`
+`pnmmargin {{size}} {{path/to/image.pnm}} >{{path/to/output.pnm}}`
 
 - Specify the color of the border:
 
-`pnmmargin {{[-c|-color]}} {{color}} {{size}} {{path/to/image.pnm}} > {{path/to/output.pnm}}`
+`pnmmargin {{[-c|-color]}} {{color}} {{size}} {{path/to/image.pnm}} >{{path/to/output.pnm}}`
