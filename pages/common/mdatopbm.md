@@ -4,7 +4,7 @@
 > See also: `pbmtomda`.
 > More information: <https://netpbm.sourceforge.net/doc/mdatopbm.html>.
 
-- Convert a MDA file to a PBM image:
+- Convert an MDA file to a PBM image:
 
 `mdatopbm {{path/to/image.mda}} > {{path/to/output.pbm}}`
 
