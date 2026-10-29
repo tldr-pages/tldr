@@ -13,7 +13,7 @@
 
 - Cek pengecualian berkas dan direktori menggunakan daftar yang didefinisikan dalam `stdin`:
 
-`git < {{jalan/menuju/berkas_daftar}} check-ignore --stdin`
+`git <{{jalan/menuju/berkas_daftar}} check-ignore --stdin`
 
 - Jangan cek index Git (biasanya dipakai untuk mengetahui mengapa terdapat jalur yang tetap dilacak Git dan tak diabaikan):
 
