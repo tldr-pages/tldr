@@ -21,4 +21,4 @@
 
 - Buat konfigurasi berbagi persisten dengan menambahkan entri perintah ke dalam `/etc/dfs/dfstab`:
 
-`echo "share -F nfs -o rw /{{jalan/menuju/direktori}}" >> /etc/dfs/dfstab`
+`echo "share -F nfs -o rw /{{jalan/menuju/direktori}}" >>/etc/dfs/dfstab`

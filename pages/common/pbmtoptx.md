@@ -5,4 +5,4 @@
 
 - Convert a PBM image into a PTX file:
 
-`pbmtoptx {{path/to/image.pbm}} > {{path/to/output.ptx}}`
+`pbmtoptx {{path/to/image.pbm}} >{{path/to/output.ptx}}`

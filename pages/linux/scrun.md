@@ -15,7 +15,7 @@
 
 `scrun state {{container_id}}`
 
-- Send a signal to a container (default: SIGTERM):
+- Send a signal to a container (default: `SIGTERM`):
 
 `scrun kill {{container_id}}`
 

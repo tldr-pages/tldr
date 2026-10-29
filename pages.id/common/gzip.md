@@ -17,15 +17,15 @@
 
 - Kompres sebuah berkas dengan menentukan nama berkas output:
 
-`gzip {{[-c|--stdout]}} {{lokasi/ke/berkas}} > {{lokasi/ke/berkas_terkompres.gz}}`
+`gzip {{[-c|--stdout]}} {{lokasi/ke/berkas}} >{{lokasi/ke/berkas_terkompres.gz}}`
 
 - Dekompres sebuah arsip `gzip` dengan menentukan nama berkas output:
 
-`gzip {{[-cd|--stdout --decompress]}} {{lokasi/ke/berkas.gz}} > {{lokasi/ke/berkas_dekompres}}`
+`gzip {{[-cd|--stdout --decompress]}} {{lokasi/ke/berkas.gz}} >{{lokasi/ke/berkas_dekompres}}`
 
 - Tentukan level kompresi. 1 berarti yang tercepat (kompresi rendah), 9 berarti yang terlambat (kompresi tinggi), 6 berarti default:
 
-`gzip -{{1..9}} {{[-c|--stdout]}} {{lokasi/ke/berkas}} > {{lokasi/ke/berkas_terkompres.gz}}`
+`gzip -{{1..9}} {{[-c|--stdout]}} {{lokasi/ke/berkas}} >{{lokasi/ke/berkas_terkompres.gz}}`
 
 - Tampilkan nama dan persentase reduksi untuk setiap berkas yang dikompres atau didekompres:
 

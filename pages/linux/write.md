@@ -9,10 +9,10 @@
 
 `write {{username}} {{terminal_id}}`
 
-- Send message to "testuser" on terminal `/dev/tty/5`:
+- Send message to "testuser" on terminal `/dev/tty5`:
 
-`write {{testuser}} {{tty/5}}`
+`write testuser tty5`
 
 - Send message to "johndoe" on pseudo terminal `/dev/pts/5`:
 
-`write {{johndoe}} {{pts/5}}`
+`write johndoe pts/5`

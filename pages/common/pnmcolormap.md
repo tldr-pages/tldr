@@ -5,12 +5,12 @@
 
 - Generate an image using only `n_colors` or less colors as close as possible to the input image:
 
-`pnmcolormap {{n_colors}} {{path/to/input.pnm}} > {{path/to/output.ppm}}`
+`pnmcolormap {{n_colors}} {{path/to/input.pnm}} >{{path/to/output.ppm}}`
 
 - Use the splitspread strategy for determining the output colors, possibly producing a better result for images with small details:
 
-`pnmcolormap {{[-splits|-splitspread]}} {{n_colors}} {{path/to/input.pnm}} > {{path/to/output.ppm}}`
+`pnmcolormap {{[-splits|-splitspread]}} {{n_colors}} {{path/to/input.pnm}} >{{path/to/output.ppm}}`
 
 - Sort the resulting colormap, which is useful for comparing colormaps:
 
-`pnmcolormap {{[-so|-sort]}} {{path/to/input.pnm}} > {{path/to/output.ppm}}`
+`pnmcolormap {{[-so|-sort]}} {{path/to/input.pnm}} >{{path/to/output.ppm}}`

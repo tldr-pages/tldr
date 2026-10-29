@@ -25,4 +25,4 @@
 
 - 검색 쿼리 나열:
 
-`aws kendra list-query-suggestions --index-id {{인덱스_아이디}} --query-text {{쿼리_문자열}}`
+`aws kendra get-query-suggestions --index-id {{인덱스_아이디}} --query-text {{쿼리_문자열}}`

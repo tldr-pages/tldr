@@ -8,11 +8,11 @@
 
 `flock {{pad/naar/lock.lock}} {{commando}}`
 
-- Voer een opdracht uit met een bestandslock, of sluit het programma af als de lock momenteel actief is (met foutcode 1):
+- Voer een opdracht uit met een bestandslock, of sluit het programma af als de lock momenteel wordt vastgehouden (met foutcode 1):
 
 `flock {{[-n|--nonblock]}} {{pad/naar/lock.lock}} {{commando}}`
 
-- Voer een opdracht uit met een bestandslock, of sluit af met een specifieke foutcode als de lock momenteel actief is:
+- Voer een opdracht uit met een bestandslock, of sluit af met een specifieke foutcode als de lock momenteel wordt vastgehouden:
 
 `flock {{[-n|--nonblock]}} {{[-E|--conflict-exit-code]}} {{123}} {{pad/naar/lock.lock}} {{commando}}`
 

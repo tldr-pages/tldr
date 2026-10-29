@@ -26,4 +26,4 @@
 
 - Save the current ARP rules to a file:
 
-`sudo arptables-save > {{path/to/file}}`
+`sudo arptables-save >{{path/to/file}}`

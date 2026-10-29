@@ -9,7 +9,7 @@
 
 - Export the entire repository to a file:
 
-`git fast-export --all > {{path/to/file}}`
+`git fast-export --all >{{path/to/file}}`
 
 - Export a specific branch only:
 
@@ -17,8 +17,8 @@
 
 - Export with `progress` statements every `n` objects (for showing progress during `git fast-import`):
 
-`git fast-export --progress {{n}} --all > {{path/to/file}}`
+`git fast-export --progress {{n}} --all >{{path/to/file}}`
 
 - Export only a specific subdirectory's history:
 
-`git fast-export --all -- {{path/to/directory}} > {{path/to/file}}`
+`git fast-export --all -- {{path/to/directory}} >{{path/to/file}}`

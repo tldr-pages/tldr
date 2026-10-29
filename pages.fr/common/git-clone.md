@@ -3,7 +3,7 @@
 > Clone un dépôt existant.
 > Plus d'informations : <https://git-scm.com/docs/git-clone>.
 
-- Clone un dépôt existant dans un répertoire spécifique (le répertoire par défaut porte le nom du dépôt):
+- Clone un dépôt existant dans un répertoire spécifique (le répertoire par défaut porte le nom du dépôt) :
 
 `git clone {{emplacement_dépôt_distant}} {{chemin/vers/répertoire}}`
 

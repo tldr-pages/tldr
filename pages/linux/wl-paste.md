@@ -14,7 +14,7 @@
 
 - Write the contents of the clipboard to a file:
 
-`wl-paste > {{path/to/file}}`
+`wl-paste >{{path/to/file}}`
 
 - Pipe the contents of the clipboard to a command:
 

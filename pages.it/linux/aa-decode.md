@@ -13,7 +13,7 @@
 
 - Decodifica i log da `stdin` (es. file reindirizzato):
 
-`sudo aa-decode - < {{file_di_log}}`
+`sudo aa-decode - <{{file_di_log}}`
 
 - Mostra aiuto:
 

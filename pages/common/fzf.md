@@ -1,7 +1,7 @@
 # fzf
 
 > Fuzzy finder.
-> Similar to `sk`.
+> See also: `sk`.
 > More information: <https://github.com/junegunn/fzf#usage>.
 
 - Start `fzf` on all files in the specified directory:
@@ -14,7 +14,7 @@
 
 - Select multiple files with `<Shift Tab>` and write to a file:
 
-`find {{path/to/directory}} -type f | fzf {{[-m|--multi]}} > {{path/to/file}}`
+`find {{path/to/directory}} -type f | fzf {{[-m|--multi]}} >{{path/to/file}}`
 
 - Start `fzf` with a specified query:
 

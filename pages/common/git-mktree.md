@@ -21,4 +21,4 @@
 
 - Sort and build a tree from `stdin` (non-recursive `git ls-tree` output format is required):
 
-`git < {{path/to/tree.txt}} mktree`
+`git <{{path/to/tree.txt}} mktree`

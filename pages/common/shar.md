@@ -5,4 +5,4 @@
 
 - Create a shell script that when executed extracts the given files from itself:
 
-`shar {{path/to/file1 path/to/file2 ...}} > {{path/to/archive.sh}}`
+`shar {{path/to/file1 path/to/file2 ...}} >{{path/to/archive.sh}}`

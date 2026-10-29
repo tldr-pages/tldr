@@ -71,7 +71,7 @@ The templates can be changed when necessary.
 
 > هذا الأمر هو اسم مستعار لـ `example`.
 
-- إعرض التوثيقات للأمر الأصلي:
+- اعرض التوثيقات للأمر الأصلي:
 
 `tldr example`
 ```

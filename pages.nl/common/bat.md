@@ -5,7 +5,7 @@
 > Zie ook: `cat`.
 > Meer informatie: <https://manned.org/bat>.
 
-- Toon de inhoud van een of meerdere bestanden in `stdout`:
+- Print de inhoud van een of meerdere bestanden met opmaak naar `stdout`:
 
 `bat {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
 

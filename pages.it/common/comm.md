@@ -17,7 +17,7 @@
 
 - Filtra le linee trovate solo nel primo file, salvando il risultato in un terzo file:
 
-`comm -23 {{file1}} {{file2}} > {{file3}}`
+`comm -23 {{file1}} {{file2}} >{{file3}}`
 
 - Filtra le linee trovate solo nel secondo file, con due file che non sono ordinati:
 

@@ -10,7 +10,7 @@
 
 - Log output of `virt-what` into a file:
 
-`virt-what > {{path/to/file}}`
+`virt-what >{{path/to/file}}`
 
 - Display version:
 

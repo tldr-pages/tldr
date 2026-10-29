@@ -14,7 +14,7 @@
 
 - Despeja arquivo de configuração do convidado:
 
-`virsh dumpxml {{guest_id}} > {{caminho/para/convidado.xml}}`
+`virsh dumpxml {{guest_id}} >{{caminho/para/convidado.xml}}`
 
 - Cria um convidado a partir de um arquivo de configuração:
 
