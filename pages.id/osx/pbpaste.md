@@ -5,7 +5,7 @@
 
 - Tulis konten papan klip ke dalam sebuah file:
 
-`pbpaste > {{file}}`
+`pbpaste >{{file}}`
 
 - Gunakan konten papan klip sebagai input bagi sebuah perintah:
 

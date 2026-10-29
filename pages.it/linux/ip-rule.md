@@ -30,8 +30,8 @@
 
 - Salva tutte le regole in un file:
 
-`ip {{[ru|rule]}} {{[s|save]}} > {{path/to/ip_rules.dat}}`
+`ip {{[ru|rule]}} {{[s|save]}} >{{path/to/ip_rules.dat}}`
 
 - Ripristina tutte le regole da un file:
 
-`sudo ip < {{path/to/ip_rules.dat}} {{[ru|rule]}} {{[r|restore]}}`
+`sudo ip <{{path/to/ip_rules.dat}} {{[ru|rule]}} {{[r|restore]}}`

@@ -30,7 +30,7 @@
 
 - Crea un file patch per Git dalle differenze di due file di testo, trattando i file inesistenti come vuoti:
 
-`diff {{[-a|--text]}} {{[-u|--unified]}} {{[-N|--new-file]}} {{file_vecchio}} {{file_nuovo}} > {{diff.patch}}`
+`diff {{[-a|--text]}} {{[-u|--unified]}} {{[-N|--new-file]}} {{file_vecchio}} {{file_nuovo}} >{{diff.patch}}`
 
 - Confronta file, mostrando l'output colorato e cercando duramente un insieme minimo di cambiamenti:
 
