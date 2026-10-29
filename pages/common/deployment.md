@@ -1,7 +1,7 @@
 # deployment
 
 > Automatically pull Git repositories and run their `deploy` scripts.
-> Read deployments as `path,repository_url` rows from a CSV file.
+> Reads deployments as `path,repository_url` rows from a CSV file.
 > More information: <https://github.com/chrissxMedia/deployment>.
 
 - Continuously deploy repositories listed in `/etc/deployments.csv`, using `/var/deployment` as the base directory for relative paths:
