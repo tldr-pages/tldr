@@ -8,7 +8,7 @@
 
 - Active la commande `nix ` :
 
-`mkdir {{[-p|--parents]}} ~/.config/nix; echo 'experimental-features = nix-command flakes' > ~/.config/nix/nix.conf`
+`mkdir {{[-p|--parents]}} ~/.config/nix; echo 'experimental-features = nix-command flakes' >~/.config/nix/nix.conf`
 
 - Recherche un paquet dans `nixpkgs` par son nom ou sa description :
 

@@ -9,8 +9,8 @@
 
 - Concatène le contenu de plusieurs fichiers vers le fichier de destination :
 
-`cat {{chemin/vers/fichier1 chemin/vers/fichier2 ...}} > {{chemin/vers/fichier_de_destination}}`
+`cat {{chemin/vers/fichier1 chemin/vers/fichier2 ...}} >{{chemin/vers/fichier_de_destination}}`
 
 - Ajoute le contenu d'un ficher à la fin du fichier de destination :
 
-`cat {{chemin/vers/fichier1 chemin/vers/fichier2 ...}} >> {{chemin/vers/fichier_de_destination}}`
+`cat {{chemin/vers/fichier1 chemin/vers/fichier2 ...}} >>{{chemin/vers/fichier_de_destination}}`
