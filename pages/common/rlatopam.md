@@ -5,4 +5,4 @@
 
 - Convert the specified SPOT image to PGM format:
 
-`rlatopam {{path/to/file}} > {{path/to/output.pam}}`
+`rlatopam {{path/to/file}} >{{path/to/output.pam}}`

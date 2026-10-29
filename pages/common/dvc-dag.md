@@ -13,4 +13,4 @@
 
 - Export the pipeline in the dot format:
 
-`dvc dag --dot > {{path/to/pipeline.dot}}`
+`dvc dag --dot >{{path/to/pipeline.dot}}`

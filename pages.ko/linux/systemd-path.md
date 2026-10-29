@@ -15,6 +15,6 @@
 
 `systemd-path --suffix {{suffix_string}}`
 
-- 짧은 버전 문자열을 출력하고 종료:
+- 버전 표시:
 
 `systemd-path --version`

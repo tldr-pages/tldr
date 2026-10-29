@@ -13,4 +13,4 @@
 
 - Save report to HTML file:
 
-`hardinfo {{[-r|--generate-report]}} {{[-f|--report-format]}} html > hardinfo.html`
+`hardinfo {{[-r|--generate-report]}} {{[-f|--report-format]}} html >hardinfo.html`

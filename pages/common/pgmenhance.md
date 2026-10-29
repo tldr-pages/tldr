@@ -6,8 +6,8 @@
 
 - Edge-enhance a PGM image:
 
-`pgmenhance {{path/to/image.pgm}} > {{path/to/output.pgm}}`
+`pgmenhance {{path/to/image.pgm}} >{{path/to/output.pgm}}`
 
 - Specify the level of enhancement:
 
-`pgmenhance -{{1..9}} {{path/to/image.pgm}} > {{path/to/output.pgm}}`
+`pgmenhance -{{1..9}} {{path/to/image.pgm}} >{{path/to/output.pgm}}`

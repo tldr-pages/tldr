@@ -18,11 +18,11 @@
 
 - Generate shell-specific aliases for Bash:
 
-`echo 'eval "$(gh copilot alias -- bash)"' >> ~/.bashrc`
+`echo 'eval "$(gh copilot alias -- bash)"' >>~/.bashrc`
 
 - Generate shell-specific aliases for Zsh:
 
-`echo 'eval "$(gh copilot alias -- zsh)"' >> ~/.zshrc`
+`echo 'eval "$(gh copilot alias -- zsh)"' >>~/.zshrc`
 
 - Configure options:
 

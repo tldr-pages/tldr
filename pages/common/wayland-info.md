@@ -13,4 +13,4 @@
 
 - Save the output to a file:
 
-`wayland-info > {{path/to/file.txt}}`
+`wayland-info >{{path/to/file.txt}}`

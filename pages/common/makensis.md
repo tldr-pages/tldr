@@ -1,14 +1,14 @@
 # makensis
 
 > Cross-platform compiler for NSIS installers.
-> It compiles a NSIS script into a Windows installer executable.
+> It compiles an NSIS script into a Windows installer executable.
 > More information: <https://nsis.sourceforge.io/Docs/Chapter3.html>.
 
-- Compile a NSIS script:
+- Compile an NSIS script:
 
 `makensis {{path/to/file.nsi}}`
 
-- Compile a NSIS script in strict mode (treat warnings as errors):
+- Compile an NSIS script in strict mode (treat warnings as errors):
 
 `makensis -WX {{path/to/file.nsi}}`
 

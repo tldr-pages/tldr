@@ -22,7 +22,7 @@
 
 - Save installed packages to file:
 
-`pip freeze > {{requirements.txt}}`
+`pip freeze >{{requirements.txt}}`
 
 - List installed packages:
 

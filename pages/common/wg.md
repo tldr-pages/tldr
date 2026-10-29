@@ -17,11 +17,11 @@
 
 - Generate a public key from a private key and print it to `stdout`:
 
-`wg < {{path/to/private_key}} pubkey`
+`wg <{{path/to/private_key}} pubkey`
 
 - Generate a public and private key and save them to files:
 
-`wg genkey | tee {{path/to/private_key}} | wg pubkey > {{path/to/public_key}}`
+`wg genkey | tee {{path/to/private_key}} | wg pubkey >{{path/to/public_key}}`
 
 - Generate a pre-shared key and print it to `stdout`:
 

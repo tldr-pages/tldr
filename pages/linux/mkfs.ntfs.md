@@ -1,9 +1,9 @@
 # mkfs.ntfs
 
-> Create a NTFS filesystem inside a partition.
+> Create an NTFS filesystem inside a partition.
 > More information: <https://manned.org/mkfs.ntfs>.
 
-- Create a NTFS filesystem inside partition Y on device X:
+- Create an NTFS filesystem inside partition Y on device X:
 
 `sudo mkfs.ntfs {{/dev/sdXY}}`
 

@@ -30,4 +30,4 @@
 
 - Gera e salva as informações da fonte no arquivo `.SRCINFO`:
 
-`makepkg --printsrcinfo > .SRCINFO`
+`makepkg --printsrcinfo >.SRCINFO`

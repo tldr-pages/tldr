@@ -5,7 +5,7 @@
 
 - Copy a PPM image (i.e. a PBM, PGM, or PPM image) from `stdin` to `stdout`:
 
-`ppmtoppm < {{path/to/image.ppm}} > {{path/to/output.ppm}}`
+`ppmtoppm <{{path/to/image.ppm}} >{{path/to/output.ppm}}`
 
 - Display version:
 

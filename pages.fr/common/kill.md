@@ -1,10 +1,10 @@
 # kill
 
 > Envoie un signal à un processus, généralement pour l'interrompre.
-> Tous les signaux sauf SIGKILL et SIGSTOP peuvent être interceptés par le processus pour pouvoir se terminer proprement.
+> Tous les signaux sauf `SIGKILL` et `SIGSTOP` peuvent être interceptés par le processus pour pouvoir se terminer proprement.
 > Plus d'informations : <https://manned.org/kill.1posix>.
 
-- Termine un processus avec le signal SIGTERM (terminaison) par défaut :
+- Termine un processus avec le signal `SIGTERM` (terminaison) par défaut :
 
 `kill {{identifiant_processus}}`
 
@@ -12,22 +12,22 @@
 
 `kill -l`
 
-- Termine un processus avec le signal SIGHUP ("raccrocher"). Beaucoup de daemons se rafraîchissent au lieu de terminer :
+- Termine un processus avec le signal `SIGHUP` ("raccrocher"). Beaucoup de daemons se rafraîchissent au lieu de terminer :
 
-`kill {{[-1|-HUP]}} {{identifiant_processus}}`
+`kill {{[-1|-SIGHUP]}} {{identifiant_processus}}`
 
-- Termine un processus avec le signal SIGINT ("interruption"). Généralement initié par l'utilisateur appuyant sur `<Ctrl c>` :
+- Termine un processus avec le signal `SIGINT` ("interruption"). Généralement initié par l'utilisateur appuyant sur `<Ctrl c>` :
 
-`kill {{[-2|-INT]}} {{identifiant_processus}}`
+`kill {{[-2|-SIGINT]}} {{identifiant_processus}}`
 
 - Demande au système d'exploitation de mettre fin à un processus immédiatement (sans possibilité d'intercepter le signal) :
 
-`kill {{[-9|-KILL]}} {{identifiant_processus}}`
+`kill {{[-9|-SIGKILL]}} {{identifiant_processus}}`
 
-- Demande au système d'exploitation de suspendre un processus jusqu'à recevoir le signal SIGCONT ("continue") :
+- Demande au système d'exploitation de suspendre un processus jusqu'à recevoir le signal `SIGCONT` ("continue") :
 
-`kill {{[-19|-STOP]}} {{identifiant_processus}}`
+`kill {{[-STOP|-SIGSTOP]}} {{identifiant_processus}}`
 
 - Envoie le signal `SIGUSR1` à tous les processus dans le groupe avec l'identifiant indiqué :
 
-`kill -SIGUSR1 -{{identifiant_groupe}}`
+`kill {{[-USR1|-SIGUSR1]}} -{{identifiant_groupe}}`

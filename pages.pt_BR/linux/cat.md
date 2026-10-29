@@ -10,15 +10,15 @@
 
 - Concatena vários arquivos em um arquivo de saída:
 
-`cat {{caminho/para/arquivo1 caminho/para/arquivo2 ...}} > {{caminho/para/arquivo_de_saída}}`
+`cat {{caminho/para/arquivo1 caminho/para/arquivo2 ...}} >{{caminho/para/arquivo_de_saída}}`
 
 - Anexa vários arquivos a um arquivo de saída:
 
-`cat {{caminho/para/arquivo1 caminho/para/arquivo2 ...}} >> {{caminho/para/arquivo_de_saída}}`
+`cat {{caminho/para/arquivo1 caminho/para/arquivo2 ...}} >>{{caminho/para/arquivo_de_saída}}`
 
 - Escreve a `stdin` em um arquivo:
 
-`cat - > {{caminho/para/arquivo}}`
+`cat - >{{caminho/para/arquivo}}`
 
 - [n]umera todas as linhas de saída:
 
