@@ -33,4 +33,4 @@
 
 - Scarica la policy di bucket Amazon S3 da un bucket specificato:
 
-`aws s3api get-bucket-policy --bucket {{nome_bucket}} --query Policy --output {{json|table|text|yaml|yaml-stream}} > {{percorso/del/bucket_policy}}`
+`aws s3api get-bucket-policy --bucket {{nome_bucket}} --query Policy --output {{json|table|text|yaml|yaml-stream}} >{{percorso/del/bucket_policy}}`

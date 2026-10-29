@@ -11,7 +11,7 @@
 
 - Gabungkan konten beberapa berkas ke berkas tujuan:
 
-`bat {{jalan/menuju/berkas1 jalan/menuju/berkas2 ...}} > {{jalan/menuju/berkas_tujuan}}`
+`bat {{jalan/menuju/berkas1 jalan/menuju/berkas2 ...}} >{{jalan/menuju/berkas_tujuan}}`
 
 - Hapus dekorasi dan matikan fitur tampilan halaman (paging):
 

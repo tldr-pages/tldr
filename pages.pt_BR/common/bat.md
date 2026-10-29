@@ -11,7 +11,7 @@
 
 - Concatena o conteúdo de vários arquivos em um arquivo destino:
 
-`bat {{/caminho/para/arquivo1 /caminho/para/arquivo2 ...}} > {{/caminho/para/arquivo_destino}}`
+`bat {{/caminho/para/arquivo1 /caminho/para/arquivo2 ...}} >{{/caminho/para/arquivo_destino}}`
 
 - Remove estilizacão e desabilita páginação:
 
