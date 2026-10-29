@@ -9,7 +9,7 @@
 
 - Показать сертификат, предоставленный SSL/TLS-сервером:
 
-`openssl < /dev/null s_client -connect {{хост}}:{{порт}}`
+`openssl </dev/null s_client -connect {{хост}}:{{порт}}`
 
 - Указать индикатор имени сервера (SNI) при подключении к SSL/TLS-серверу:
 
@@ -17,4 +17,4 @@
 
 - Показать полную цепочку сертификатов HTTPS-сервера:
 
-`openssl < /dev/null s_client -connect {{хост}}:443 -showcerts`
+`openssl </dev/null s_client -connect {{хост}}:443 -showcerts`
