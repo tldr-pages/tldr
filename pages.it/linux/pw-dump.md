@@ -18,7 +18,7 @@
 
 - Scarica lo stato corrente di un'istanza remota in un file:
 
-`pw-dump {{[-r|--remote]}} {{nome_remoto}} > {{percorso/file_dump.json}}`
+`pw-dump {{[-r|--remote]}} {{nome_remoto}} >{{percorso/file_dump.json}}`
 
 - Imposta una configurazione colore:
 
