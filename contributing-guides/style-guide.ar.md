@@ -115,7 +115,7 @@ tldr --render path/to/tldr_page.md
 
 > هذا الأمر هو لقب لـ `اسم-الأمر-الأصلي`.
 
-- عرض التوثيقات للأمر الأصلي:
+- اعرض التوثيقات للأمر الأصلي:
 
 `tldr original_command_name`
 ```
@@ -127,7 +127,7 @@ tldr --render path/to/tldr_page.md
 
 > هذا الأمر هو لقب لـ `vim`.
 
-- عرض التوثيقات للأمر الأصلي:
+- اعرض التوثيقات للأمر الأصلي:
 
 `tldr vim`
 ```
@@ -143,17 +143,17 @@ tldr --render path/to/tldr_page.md
 ```md
 # cd
 
-> عرض الدليل الحالي أو الانتقال إلى دليل آخر.
+> اعرض الدليل الحالي أو الانتقال إلى دليل آخر.
 > في PowerShell، هذا الأمر هو لقب لـ `Set-Location`. هذه الوثائق تستند إلى النسخة الخاصة بـ Command Prompt (`cmd`) من `cd`.
 > مزيد من التفاصيل: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
 
-- عرض التوثيقات الخاصة بالأمر المقابل في PowerShell:
+- اعرض التوثيقات الخاصة بالأمر المقابل في PowerShell:
 
 `tldr set-location`
 ```
 
 > [!NOTE]
-> مثال "عرض التوثيقات للأمر المعادل في PowerShell" اختياري ويجب استبعاده إذا كانت الصفحة تحتوي بالفعل على الحد الأقصى من الأمثلة (8).
+> مثال "اعرض التوثيقات للأمر المعادل في PowerShell" اختياري ويجب استبعاده إذا كانت الصفحة تحتوي بالفعل على الحد الأقصى من الأمثلة (8).
 
 2. **يوفر لقبًا جديدًا يمكن تنفيذه فقط في PowerShell**، مثل `ni` لـ `New-Item`. في هذه الحالة، استخدم [قالب اللقب القياسي](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/translation-templates/alias-pages.md)، ولكن أضف كلمة "في PowerShell" (أو ما يعادلها) للإشارة إلى أن الأمر حصري لـ PowerShell. على سبيل المثال:
 
@@ -163,7 +163,7 @@ tldr --render path/to/tldr_page.md
 > في PowerShell، هذا الأمر هو لقب لـ `New-Item`.
 > مزيد من التفاصيل: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/new-item>.
 
-- عرض التوثيقات للأمر الأصلي:
+- اعرض التوثيقات للأمر الأصلي:
 
 `tldr new-item`
 ```
@@ -183,11 +183,11 @@ tldr --render path/to/tldr_page.md
 
 `curl --version`
 
-- عرض التوثيقات الخاصة بأمر `curl` الأصلي:
+- اعرض التوثيقات الخاصة بأمر `curl` الأصلي:
 
 `tldr curl -p common`
 
-- عرض التوثيقات الخاصة بأمر `Invoke-WebRequest` في PowerShell:
+- اعرض التوثيقات الخاصة بأمر `Invoke-WebRequest` في PowerShell:
 
 `tldr invoke-webrequest`
 ```
@@ -335,7 +335,7 @@ tldr --render path/to/tldr_page.md
 ### أوامر المساعدة والإصدار
 
 - عادةً ما نضع، **بهذا الترتيب**، أوامر المساعدة والإصدار كـ **آخر مثالين** في الصفحة لإبراز الأوامر العملية أكثر في بداية الصفحة. يمكن استبدالها لاستيعاب أمثلة مفيدة أخرى إذا لزم الأمر.
-- للحفاظ على التناسق، نفضل الصياغة العامة `عرض المساعدة` و `عرض الإصدار` لهذه الأوامر.
+- للحفاظ على التناسق، نفضل الصياغة العامة `اعرض المساعدة` و `اعرض الإصدار` لهذه الأوامر.
 - يُقترح توثيق أمثلة المساعدة والإصدار إذا كان الأمر يتبع علامات غير تقليدية في منصات مثل Windows.
 
 ## قواعد اللغة والترجمة

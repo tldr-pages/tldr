@@ -18,7 +18,7 @@
 
 - Render a GIF image using `stdin` and `stdout`:
 
-`echo "{{digraph {this -> that} }}" | dot -T {{gif}} > {{path/to/image.gif}}`
+`echo "{{digraph {this -> that} }}" | dot -T {{gif}} >{{path/to/image.gif}}`
 
 - Display help:
 

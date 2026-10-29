@@ -9,7 +9,7 @@
 
 - Ispeziona e salva l'output in un file:
 
-`pip inspect > {{environment_report.json}}`
+`pip inspect >{{environment_report.json}}`
 
 - Ispeziona solo i pacchetti installati localmente (non globali):
 

@@ -5,4 +5,4 @@
 
 - Convert an SPU file to a PPM image:
 
-`sputoppm {{path/to/input.spu}} > {{path/to/output.ppm}}`
+`sputoppm {{path/to/input.spu}} >{{path/to/output.ppm}}`

@@ -21,7 +21,7 @@
 
 - Get EoLs of one or more products as a single markdown file:
 
-`eol {{product1 product2 ...}} --{{markdown}} > {{eol_report.md}}`
+`eol {{product1 product2 ...}} --{{markdown}} >{{eol_report.md}}`
 
 - Display help:
 

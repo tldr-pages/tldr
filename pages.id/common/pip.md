@@ -22,7 +22,7 @@
 
 - Simpan daftar paket-paket terpasang ke dalam suatu berkas:
 
-`pip freeze > {{requirements.txt}}`
+`pip freeze >{{requirements.txt}}`
 
 - Tampilkan informasi suatu paket yang terpasang:
 

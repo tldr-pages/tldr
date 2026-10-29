@@ -9,7 +9,7 @@
 
 - Calculate and save the list of MD5 checksums to a file:
 
-`md5sum {{path/to/file1 path/to/file2 ...}} > {{path/to/file.md5}}`
+`md5sum {{path/to/file1 path/to/file2 ...}} >{{path/to/file.md5}}`
 
 - Calculate an MD5 checksum from `stdin`:
 

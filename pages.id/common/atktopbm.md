@@ -6,4 +6,4 @@
 
 - Ubah suatu objek raster Andrew Toolkit menjadi suatu gambar PBM:
 
-`atktopbm {{jalan/menuju/gambar.atk}} > {{jalan/menuju/output.pbm}}`
+`atktopbm {{jalan/menuju/gambar.atk}} >{{jalan/menuju/output.pbm}}`

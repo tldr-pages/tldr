@@ -6,8 +6,8 @@
 
 - Draw on the specified PPM image by executing the supplied script:
 
-`ppmdraw -script '{{setpos 50 50; text_here "hello!"; }}' {{path/to/image.pnm}} > {{path/to/output.pnm}}`
+`ppmdraw -script '{{setpos 50 50; text_here "hello!"; }}' {{path/to/image.pnm}} >{{path/to/output.pnm}}`
 
 - Draw on the specified PPM image by executing the script in the specified file:
 
-`ppmdraw -scriptfile {{path/to/script}} {{path/to/image.pnm}} > {{path/to/output.pnm}}`
+`ppmdraw -scriptfile {{path/to/script}} {{path/to/image.pnm}} >{{path/to/output.pnm}}`

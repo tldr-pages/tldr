@@ -18,7 +18,7 @@
 
 - Export your network configuration settings to a file:
 
-`netsh dump > {{path\to\output_file.txt}}`
+`netsh dump >{{path\to\output_file.txt}}`
 
 - Show available network interfaces for tracing:
 
