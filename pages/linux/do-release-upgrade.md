@@ -17,4 +17,4 @@
 
 - Check if a new distribution release is available, without actually updating to it:
 
-`do-release-upgrade --check-dist-upgrade-only`
+`do-release-upgrade {{[-c|--check-dist-upgrade-only]}}`
