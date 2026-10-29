@@ -4,11 +4,11 @@
 > Conflicts between branches are tracked down to pairs of individual commits, to simplify conflict resolution.
 > More information: <https://github.com/mhagger/git-imerge>.
 
-- Start imerge-based rebase (checkout the branch to be rebased, first):
+- Start imerge-based rebase (check out the branch to be rebased, first):
 
 `git imerge rebase {{branch_to_rebase_onto}}`
 
-- Start imerge-based merge (checkout the branch to merge into, first):
+- Start imerge-based merge (check out the branch to merge into, first):
 
 `git imerge merge {{branch_to_be_merged}}`
 

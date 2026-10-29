@@ -6,4 +6,4 @@
 
 - Convert a Netpbm image to the FITS format:
 
-`pamtofits {{path/to/image.pam}} > {{path/to/output.fits}}`
+`pamtofits {{path/to/image.pam}} >{{path/to/output.fits}}`

@@ -5,23 +5,23 @@
 
 - Convert [y]AML to JSON (default) from `stdin` and write the result to `stdout`:
 
-`yj < {{file.yml}} -y`
+`yj <{{file.yml}} -y`
 
 - Convert [t]OML to [y]AML:
 
-`yj < {{file.toml}} -ty`
+`yj <{{file.toml}} -ty`
 
 - Convert [j]SON to [t]OML with [i]ndentation:
 
-`yj < {{file.json}} -jti`
+`yj <{{file.json}} -jti`
 
 - Convert H[c]L to [j]SON:
 
-`yj < {{file.hcl}} -cj`
+`yj <{{file.hcl}} -cj`
 
 - Convert [y]AML to H[c]L ignoring inf/[n]aN conversion:
 
-`yj < {{file.yml}} -ycn`
+`yj <{{file.yml}} -ycn`
 
 - Display [v]ersion:
 

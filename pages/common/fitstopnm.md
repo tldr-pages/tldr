@@ -6,8 +6,8 @@
 
 - Convert a FITS file to a PNM image:
 
-`fitstopnm {{path/to/file.fits}} > {{path/to/output.pnm}}`
+`fitstopnm {{path/to/file.fits}} >{{path/to/output.pnm}}`
 
 - Convert the image on the specified position of the third axis in the FITS file:
 
-`fitstopnm {{[-i|-image]}} {{z_position}} {{path/to/file.fits}} > {{path/to/output.pnm}}`
+`fitstopnm {{[-i|-image]}} {{z_position}} {{path/to/file.fits}} >{{path/to/output.pnm}}`

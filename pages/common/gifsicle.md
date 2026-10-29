@@ -13,11 +13,11 @@
 
 - Extract a frame from a GIF:
 
-`gifsicle {{path/to/input.gif}} '#{{0}}' > {{path/to/first_frame.gif}}`
+`gifsicle {{path/to/input.gif}} '#{{0}}' >{{path/to/first_frame.gif}}`
 
 - Make a GIF animation from selected GIFs:
 
-`gifsicle {{*.gif}} {{[-d|--delay]}} {{10}} {{[-l|--loop]}} > {{path/to/output.gif}}`
+`gifsicle {{*.gif}} {{[-d|--delay]}} {{10}} {{[-l|--loop]}} >{{path/to/output.gif}}`
 
 - Reduce file size using lossy compression:
 

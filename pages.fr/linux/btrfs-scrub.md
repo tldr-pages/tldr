@@ -6,24 +6,24 @@
 
 - Démarre un examen :
 
-`sudo btrfs {{[sc|scrub]}} start {{chemin/vers/point_de_montage_btrfs}}`
+`sudo btrfs {{[sc|scrub]}} start {{chemin/vers/point_montage_btrfs}}`
 
 - Affiche le statut d'un examen en cours, ou du dernier examen complété :
 
-`sudo btrfs {{[sc|scrub]}} status {{chemin/vers/point_de_montage_btrfs}}`
+`sudo btrfs {{[sc|scrub]}} status {{chemin/vers/point_montage_btrfs}}`
 
 - Arrête un examen en cours :
 
-`sudo btrfs {{[sc|scrub]}} {{[c|cancel]}} {{chemin/vers/point_de_montage_btrfs}}`
+`sudo btrfs {{[sc|scrub]}} {{[c|cancel]}} {{chemin/vers/point_montage_btrfs}}`
 
 - Reprend un examen précédemment stoppé :
 
-`sudo btrfs {{[sc|scrub]}} {{[r|resume]}} {{chemin/vers/point_de_montage_btrfs}}`
+`sudo btrfs {{[sc|scrub]}} {{[r|resume]}} {{chemin/vers/point_montage_btrfs}}`
 
 - Démarre un examen, mais attend qu'il termine avant de rendre la main :
 
-`sudo btrfs {{[sc|scrub]}} start -B {{chemin/vers/point_de_montage_btrfs}}`
+`sudo btrfs {{[sc|scrub]}} start -B {{chemin/vers/point_montage_btrfs}}`
 
 - Démarre un examen en mode silencieux (n'affiche ni erreurs ni statistiques) :
 
-`sudo btrfs {{[sc|scrub]}} start {{[-q|--quiet]}} {{chemin/vers/le/point_de_montage_btrfs}}`
+`sudo btrfs {{[sc|scrub]}} start {{[-q|--quiet]}} {{chemin/vers/le/point_montage_btrfs}}`

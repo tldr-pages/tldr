@@ -22,4 +22,4 @@ https://cla-assistant.io/tldr-pages/tldr
 <!-- Only use "Closes:" if this PR fixes the entire issue. -->
 
 ### Additional details:
-<!-- If you have additional information that you need to give, write it under here. -->
+<!-- Only write here if have information that you *need* to give. Otherwise you will be suspected of being a bot. -->

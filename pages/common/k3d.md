@@ -7,6 +7,18 @@
 
 `k3d cluster create {{cluster_name}}`
 
+- List all clusters:
+
+`k3d cluster list`
+
+- List clusters in JSON or YAML format:
+
+`k3d cluster list {{[-o|--output]}} {{json|yaml}}`
+
+- List clusters without headers:
+
+`k3d cluster list --no-headers`
+
 - Delete a cluster:
 
 `k3d cluster delete {{cluster_name}}`

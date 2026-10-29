@@ -6,4 +6,4 @@
 
 - Convert an SRF file to Netpbm format:
 
-`srftopam {{path/to/file.srf}} > {{path/to/output.pam}}`
+`srftopam {{path/to/file.srf}} >{{path/to/output.pam}}`

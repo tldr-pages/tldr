@@ -3,7 +3,7 @@
 > Roll a user-defined dice sequence.
 > More information: <https://manned.org/roll>.
 
-- Roll 3 6-sided dice and sums the results:
+- Roll 3 6-sided dice and sum the results:
 
 `roll {{3d}}`
 

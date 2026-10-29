@@ -9,7 +9,7 @@
 
 - Export service configurations to file:
 
-`svccfg export {{servicename}} > {{path/to/smf_file.xml}}`
+`svccfg export {{servicename}} >{{path/to/smf_file.xml}}`
 
 - Import/update service configurations from file:
 

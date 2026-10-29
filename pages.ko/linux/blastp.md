@@ -17,7 +17,7 @@
 
 - 단백질 쿼리를 사용하여 단백질 데이터베이스 검색, BLAST 검색에 사용할 16개의 스레드, 최대 10개의 정렬된 서열 유지:
 
-`blastp -query {{쿼리.fa}} -db {{blast_데이터베이스_이름}} -num_threads {{16}} -max_target_seqs {{10}}`
+`blastp -query {{쿼리.fa}} -db {{blast_데이터베이스_이름}} -num_threads 16 -max_target_seqs 10`
 
 - 원격 비중복 단백질 데이터베이스를 단백질 쿼리로 검색:
 

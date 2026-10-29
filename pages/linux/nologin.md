@@ -9,4 +9,4 @@
 
 - Customize message for users with the login shell of `nologin`:
 
-`echo "{{declined_login_message}}" > /etc/nologin.txt`
+`echo "{{declined_login_message}}" >/etc/nologin.txt`
