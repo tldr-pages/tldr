@@ -7,6 +7,10 @@
 
 `flatpak run {{com.example.app}}`
 
+- Run an installed application, passing arguments to it:
+
+`flatpak run {{com.example.app}} {{argument1 argument2 ...}}`
+
 - Run an installed application from a specific branch e.g. stable, beta, master:
 
 `flatpak run --branch={{stable|beta|master|...}} {{com.example.app}}`

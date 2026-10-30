@@ -23,14 +23,6 @@
 
 `flatpak remote-add --if-not-exists {{remote_name}} {{remote_url}}`
 
-- Remove an installed application:
-
-`flatpak remove {{com.example.app}}`
-
-- Remove all unused applications:
-
-`flatpak remove --unused`
-
 - Show information about an installed application:
 
 `flatpak info {{com.example.app}}`
