@@ -2,6 +2,6 @@
 
 > هذا الأمر هو اسم مستعار لـ `docker container stop`.
 
-- إعرض التوثيقات للأمر الأصلي:
+- اعرض التوثيقات للأمر الأصلي:
 
 `tldr docker container stop`
