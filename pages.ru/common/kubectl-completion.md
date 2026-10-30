@@ -13,11 +13,11 @@
 
 - Добавить скрипт автодополнения Bash в `~/.bashrc`:
 
-`kubectl completion bash >> ~/.bashrc`
+`kubectl completion bash >>~/.bashrc`
 
 - Записать скрипт автодополнения Zsh в файл в `fpath`:
 
-`kubectl completion zsh > "${fpath[1]}/_kubectl"`
+`kubectl completion zsh >"${fpath[1]}/_kubectl"`
 
 - Загрузить автодополнение fish в текущую сессию оболочки:
 
@@ -25,7 +25,7 @@
 
 - Сохранить автодополнение fish:
 
-`kubectl completion fish > ~/.config/fish/completions/kubectl.fish`
+`kubectl completion fish >~/.config/fish/completions/kubectl.fish`
 
 - Загрузить автодополнение PowerShell в текущую сессию оболочки:
 
@@ -33,4 +33,4 @@
 
 - Сохранить автодополнение PowerShell:
 
-`kubectl completion powershell >> $PROFILE`
+`kubectl completion powershell >>$PROFILE`
