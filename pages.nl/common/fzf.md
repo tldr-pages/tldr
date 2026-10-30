@@ -1,7 +1,7 @@
 # fzf
 
 > Fuzzy finder.
-> Vergelijkbaar met `sk`.
+> Zie ook: `sk`.
 > Meer informatie: <https://github.com/junegunn/fzf#usage>.
 
 - Start `fzf` op alle bestanden in de opgegeven map:
