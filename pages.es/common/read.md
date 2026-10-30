@@ -19,7 +19,7 @@
 
 `read {{_ variable1 _ variable2}} <<< "{{El apellido es Bond}}"`
 
-- No dejes que la barra invertida (`\`) actúe como carácter de escape:
+- No deja que la barra invertida (`\`) actúe como carácter de escape:
 
 `read -r {{variable}}`
 
@@ -27,7 +27,7 @@
 
 `read -p "{{Introduce aquí tu entrada: }}" {{variable}}`
 
-- No hacer eco de los caracteres introducidos (modo silencioso):
+- No hace eco de los caracteres introducidos (modo silencioso):
 
 `read -s {{variable}}`
 
