@@ -21,7 +21,7 @@
 
 - 将安装的包列表，保存到文件：
 
-`uv pip freeze > {{requirements.txt}}`
+`uv pip freeze >{{requirements.txt}}`
 
 - 列出安装的包：
 

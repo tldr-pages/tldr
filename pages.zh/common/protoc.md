@@ -17,12 +17,12 @@
 
 - 从 `.proto` 文件将文本格式消息编码为协议消息：
 
-`protoc < {{消息.txt}} --encode={{类型名称}} {{输入文件.proto}}`
+`protoc <{{消息.txt}} --encode={{类型名称}} {{输入文件.proto}}`
 
 - 从 `.proto` 文件将协议消息解码为文本格式：
 
-`protoc < {{消息.bin}} --decode={{类型名称}} {{输入文件.proto}}`
+`protoc <{{消息.bin}} --decode={{类型名称}} {{输入文件.proto}}`
 
 - 将协议消息解码为原始标签/值对：
 
-`protoc < {{消息.bin}} --decode_raw`
+`protoc <{{消息.bin}} --decode_raw`

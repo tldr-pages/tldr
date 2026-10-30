@@ -21,7 +21,7 @@
 
 - 将已安装的包以 Requirements 的格式保存文件中：
 
-`pip freeze > {{requirements.txt}}`
+`pip freeze >{{requirements.txt}}`
 
 - 查看包的详细信息：
 
