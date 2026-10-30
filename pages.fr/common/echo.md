@@ -18,7 +18,7 @@
 
 - Ajoute un message à un fichier :
 
-`echo "{{Hello World}}" >> {{fichier.txt}}`
+`echo "{{Hello World}}" >>{{fichier.txt}}`
 
 - Active l'interprétation des spécificateurs d'échappement :
 

@@ -11,7 +11,7 @@
 
 - Voeg verschillende bestanden samen in het doelbestand:
 
-`bat {{pad/naar/bestand1 pad/naar/bestand2 ...}} > {{pad/naar/doelbestand}}`
+`bat {{pad/naar/bestand1 pad/naar/bestand2 ...}} >{{pad/naar/doelbestand}}`
 
 - Verwijder decoraties en schakel paging uit:
 
