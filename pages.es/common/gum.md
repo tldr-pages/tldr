@@ -26,4 +26,4 @@
 
 - Solicita texto de varias líneas interactivamente (`<Ctrl d>` para salvar) y escribir en `datos.txt`:
 
-`gum write > {{datos.txt}}`
+`gum write >{{datos.txt}}`

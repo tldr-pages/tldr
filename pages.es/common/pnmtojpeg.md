@@ -5,7 +5,7 @@
 
 - Lee una imagen PNM como entrada y produce una imagen JPEG/JFIF/EXIF como salida:
 
-`pnmtojpeg {{ruta/al/archivo.pnm}} > {{ruta/al/archivo.jpg}}`
+`pnmtojpeg {{ruta/al/archivo.pnm}} >{{ruta/al/archivo.jpg}}`
 
 - Muestra la versión:
 

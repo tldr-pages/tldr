@@ -9,7 +9,7 @@
 
 - Calcula y guarda la lista de sumas de comprobación BLAKE2 en un archivo:
 
-`b2sum {{ruta/al/archivo1 ruta/al/archivo2 ...}} > {{ruta/al/archivo.b2}}`
+`b2sum {{ruta/al/archivo1 ruta/al/archivo2 ...}} >{{ruta/al/archivo.b2}}`
 
 - Calcula una suma de comprobación BLAKE2 desde `stdin`:
 

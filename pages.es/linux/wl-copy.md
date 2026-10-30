@@ -18,7 +18,7 @@
 
 - Copia una imagen:
 
-`wl-copy < {{ruta/a/la/imagen}}`
+`wl-copy <{{ruta/a/la/imagen}}`
 
 - Limpia el portapapeles:
 

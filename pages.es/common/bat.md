@@ -11,7 +11,7 @@
 
 - Concatena varios archivos en el archivo destino:
 
-`bat {{ruta/al/archivo1 ruta/al/archivo2 ...}} > {{ruta/al/archivo_destino}}`
+`bat {{ruta/al/archivo1 ruta/al/archivo2 ...}} >{{ruta/al/archivo_destino}}`
 
 - Elimina decoraciones y desactiva la paginación:
 

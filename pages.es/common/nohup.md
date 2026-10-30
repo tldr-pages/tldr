@@ -17,4 +17,4 @@
 
 - Ejecuta un proceso y escribe la salida en un archivo específico:
 
-`nohup {{comando}} {{argumento1 argumento2 ...}} > {{ruta/al/archivo_de_salida}} &`
+`nohup {{comando}} {{argumento1 argumento2 ...}} >{{ruta/al/archivo_de_salida}} &`

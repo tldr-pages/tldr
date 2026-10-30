@@ -9,12 +9,12 @@
 
 - Lee líneas de un archivo y las inserta en un arreglo:
 
-`readarray {{nombre_arreglo}} < {{ruta/al/archivo.txt}}`
+`readarray {{nombre_arreglo}} <{{ruta/al/archivo.txt}}`
 
 - Elimina los delimitadores finales (newline por defecto):
 
-`readarray -t {{nombre_arreglo}} < {{ruta/al/archivo.txt}}`
+`readarray -t {{nombre_arreglo}} <{{ruta/al/archivo.txt}}`
 
 - Copia como máximo el número de líneas especificado:
 
-`readarray -n {{N}} {{nombre_arreglo}} < {{ruta/al/archivo.txt}}`
+`readarray -n {{N}} {{nombre_arreglo}} <{{ruta/al/archivo.txt}}`

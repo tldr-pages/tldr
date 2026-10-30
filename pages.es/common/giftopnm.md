@@ -5,7 +5,7 @@
 
 - Convierte una imagen GIF en una imagen Netpbm píxel a píxel:
 
-`giftopnm {{ruta/a/entrada.gif}} > {{ruta/a/salida.pnm}}`
+`giftopnm {{ruta/a/entrada.gif}} >{{ruta/a/salida.pnm}}`
 
 - Muestra la versión:
 

@@ -13,15 +13,15 @@
 
 - Busca archivos duplicados solo en el directorio especificado, omitiendo los subdirectorios y guarda los resultados en un archivo:
 
-`fclones group {{ruta/al/directorio}} --depth 1 > {{ruta/al/archivo.txt}}`
+`fclones group {{ruta/al/directorio}} --depth 1 >{{ruta/al/archivo.txt}}`
 
 - Mueve los archivos duplicados en un archivo de texto a un directorio diferente:
 
-`fclones < {{ruta/al/archivo.txt}} move {{ruta/al/directorio_objetivo}}`
+`fclones <{{ruta/al/archivo.txt}} move {{ruta/al/directorio_objetivo}}`
 
 - Simula un enlace simbólico a un archivo de texto sin realmente enlazarlo:
 
-`fclones < {{ruta/al/archivo.txt}} link --soft --dry-run 2 > /dev/null`
+`fclones <{{ruta/al/archivo.txt}} link --soft --dry-run 2 >/dev/null`
 
 - Elimina los archivos duplicados más recientes en el directorio actual sin almacenarlos en un archivo:
 

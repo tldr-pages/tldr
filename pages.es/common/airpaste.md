@@ -13,11 +13,11 @@
 
 - Envía un archivo:
 
-`airpaste < {{ruta/al/archivo}}`
+`airpaste <{{ruta/al/archivo}}`
 
 - Recibe un archivo:
 
-`airpaste > {{ruta/al/archivo}}`
+`airpaste >{{ruta/al/archivo}}`
 
 - Crea un canal o se une al mismo:
 

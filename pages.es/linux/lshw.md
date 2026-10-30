@@ -18,7 +18,7 @@
 
 - Guarda todas las interfaces de red en un archivo HTML/XML/JSON:
 
-`sudo lshw {{[-c|-class]}} network -{{html|xml|json}} > interfaces{{.html|.xml|.json}}`
+`sudo lshw {{[-c|-class]}} network -{{html|xml|json}} >interfaces{{.html|.xml|.json}}`
 
 - Muestra las interfaces de red sin revelar información confidencial (direcciones IP, números de serie, etc.):
 
