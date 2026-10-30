@@ -22,7 +22,7 @@
 
 - Sauvegarde les paquets installés à un fichier :
 
-`pip freeze > {{requirements.txt}}`
+`pip freeze >{{requirements.txt}}`
 
 - Liste les paquets installés :
 

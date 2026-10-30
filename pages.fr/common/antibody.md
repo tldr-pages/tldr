@@ -5,7 +5,7 @@
 
 - Regroupe tous les modules pour un chargement statique :
 
-`antibody < {{~/.zsh_modules.txt}} bundle > {{~/.zsh_modules.sh}}`
+`antibody <{{~/.zsh_modules.txt}} bundle >{{~/.zsh_modules.sh}}`
 
 - Mets à jour tous les modules :
 

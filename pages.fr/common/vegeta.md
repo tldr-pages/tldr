@@ -22,7 +22,7 @@
 
 - Lance une attaque et reporte les résultats sur un graphique (latence en fonction du temps) :
 
-`echo "{{GET https://example.com}}" | vegeta attack -duration={{30s}} | vegeta plot > {{chemin/au/results.html}}`
+`echo "{{GET https://example.com}}" | vegeta attack -duration={{30s}} | vegeta plot >{{chemin/au/results.html}}`
 
 - Lance une attaque contre plusieurs URL à partir d'un fichier :
 
