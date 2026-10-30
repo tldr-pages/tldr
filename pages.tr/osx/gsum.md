@@ -2,6 +2,6 @@
 
 > Bu komut `sum` için bir takma addır.
 
-- Asıl komutun belgelerini görüntüleyin:
+- Asıl komutun dokümantasyonunu görüntüleyin:
 
 `tldr sum`
