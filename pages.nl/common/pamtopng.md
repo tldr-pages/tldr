@@ -6,16 +6,16 @@
 
 - Converteer de gespecificeerde PAM afbeelding naar PNG:
 
-`pamtopng {{pad/naar/afbeelding.pam}} > {{pad/naar/uitvoer.png}}`
+`pamtopng {{pad/naar/afbeelding.pam}} >{{pad/naar/uitvoer.png}}`
 
 - Markeer de gespecificeerde kleur als transparant in de uitvoerafbeelding:
 
-`pamtopng {{[-t|-transparent]}} {{kleur}} {{pad/naar/afbeelding.pam}} > {{pad/naar/uitvoer.png}}`
+`pamtopng {{[-t|-transparent]}} {{kleur}} {{pad/naar/afbeelding.pam}} >{{pad/naar/uitvoer.png}}`
 
 - Voeg de tekst in het gespecificeerde bestand toe als tEXt chunks in de uitvoer:
 
-`pamtopng {{[-te|-text]}} {{pad/naar/bestand.txt}} {{pad/naar/afbeelding.pam}} > {{pad/naar/uitvoer.png}}`
+`pamtopng {{[-te|-text]}} {{pad/naar/bestand.txt}} {{pad/naar/afbeelding.pam}} >{{pad/naar/uitvoer.png}}`
 
 - Zorg ervoor dat het uitvoerbestand geïnterlaced is in Adam7-formaat:
 
-`pamtopng {{[-in|-interlace]}} {{pad/naar/afbeelding.pam}} > {{pad/naar/uitvoer.png}}`
+`pamtopng {{[-in|-interlace]}} {{pad/naar/afbeelding.pam}} >{{pad/naar/uitvoer.png}}`

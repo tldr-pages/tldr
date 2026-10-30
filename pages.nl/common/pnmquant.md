@@ -7,4 +7,4 @@
 
 - Genereer een afbeelding door alleen gebruik te maken van `n_kleuren` of minder kleuren, zo dicht mogelijk bij de invoerafbeelding:
 
-`pnmquant {{n_kleuren}} {{pad/naar/invoer.pnm}} > {{pad/naar/uitvoer.pnm}}`
+`pnmquant {{n_kleuren}} {{pad/naar/invoer.pnm}} >{{pad/naar/uitvoer.pnm}}`

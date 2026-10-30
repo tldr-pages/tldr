@@ -9,7 +9,7 @@
 
 - Bereken en sla de lijst van SHA512 checksums op in een bestand:
 
-`sha512sum {{pad/naar/bestand1 pad/naar/bestand2 ...}} > {{pad/naar/bestand.sha512}}`
+`sha512sum {{pad/naar/bestand1 pad/naar/bestand2 ...}} >{{pad/naar/bestand.sha512}}`
 
 - Bereken een SHA512 checksum van `stdin`:
 
