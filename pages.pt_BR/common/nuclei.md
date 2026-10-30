@@ -7,15 +7,15 @@
 
 `nuclei {{[-ut|-update-templates]}}`
 
-- Lista todos os templates por tipo específico de protocolo:
+- [l]ista todos os [t]emplates por [t]ipo específico de [p]rotocolo:
 
 `nuclei -tl {{[-pt|-type]}} {{dns|file|http|headless|tcp|workflow|ssl|websocket|whois|code|javascript}}`
 
-- Executa uma varredura web automática usando detecção de tecnologias do Wappalyzer para uma URL/host alvo:
+- Executa uma varredura web automática usando detecção de tecnologias do Wappalyzer para uma [u]RL/host alvo:
 
 `nuclei {{[-as|-automatic-scan]}} {{[-u|-target]}} {{example.com}}`
 
-- Executa templates de protocolo HTTP de severidade específica, exportando os resultados em arquivos Markdown dentro de um diretório:
+- Executa templates de [p]rotocolo do [t]ipo HTTP de severidade específica, exportando os resultados em arquivos Markdown dentro de um diretório específico:
 
 `nuclei {{[-s|-severity]}} {{high,critical,...}} {{[-pt|-type]}} http {{[-u|-target]}} {{https://example.com}} {{[-me|-markdown-export]}} {{caminho/para/diretorio}}`
 
