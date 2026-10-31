@@ -17,4 +17,4 @@
 
 - 장 번호와 언어별로 만화 장을 필터링:
 
-`gallery-dl --chapter-filter "{{10 <= chapter <20}}" --option "lang={{언어_코드}}" "{{주소}}"`
+`gallery-dl --chapter-filter "{{10 <= chapter < 20}}" --option "lang={{언어_코드}}" "{{주소}}"`
