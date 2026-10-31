@@ -21,4 +21,4 @@
 
 - 높은 사용률 또는 낮은 여유 공간을 가진 디스크 표시:
 
-`dysk {{[-f|--filter]}} 'use >65% | free <50G'`
+`dysk {{[-f|--filter]}} 'use > 65% | free < 50G'`
