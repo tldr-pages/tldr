@@ -6,7 +6,7 @@
 
 - Convert a SAM input file to BAM stream and save to file:
 
-`samtools view -S {{[-b|--bam]}} {{input.sam}} > {{output.bam}}`
+`samtools view -S {{[-b|--bam]}} {{input.sam}} >{{output.bam}}`
 
 - Take input from `stdin` (-) and print the SAM header and any reads overlapping a specific region to `stdout`:
 

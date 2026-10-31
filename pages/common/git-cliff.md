@@ -5,7 +5,7 @@
 
 - Generate a changelog from all commits in a Git repository and save it to `CHANGELOG.md`:
 
-`git cliff > {{CHANGELOG.md}}`
+`git cliff >{{CHANGELOG.md}}`
 
 - Generate a changelog from commits starting from the latest tag and print it to `stdout`:
 

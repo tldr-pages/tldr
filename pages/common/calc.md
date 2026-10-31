@@ -21,7 +21,7 @@
 
 - Start `calc` in a specific permission [m]ode (0 to 7, defaults to 7):
 
-`calc -m {{mode}}`
+`calc -m {{0..7}}`
 
 - View an introduction to `calc`:
 

@@ -21,15 +21,15 @@
 
 - Comprimeer een bestand en geef de uitvoerbestandsnaam op:
 
-`gzip {{[-c|--stdout]}} {{pad/naar/bestand}} > {{pad/naar/gecomprimeerd_bestand.gz}}`
+`gzip {{[-c|--stdout]}} {{pad/naar/bestand}} >{{pad/naar/gecomprimeerd_bestand.gz}}`
 
 - Decomprimeer een `gzip`-archief en geef de uitvoerbestandsnaam op:
 
-`gzip {{[-cd|--stdout --decompress]}} {{pad/naar/bestand.gz}} > {{pad/naar/gedecomprimeerd_bestand}}`
+`gzip {{[-cd|--stdout --decompress]}} {{pad/naar/bestand.gz}} >{{pad/naar/gedecomprimeerd_bestand}}`
 
 - Specificeer het compressieniveau. 1 is het snelst (lage compressie), 9 is het traagst (hoge compressie) en 6 is de standaard:
 
-`gzip -{{1..9}} {{[-c|--stdout]}} {{pad/naar/bestand}} > {{pad/naar/gecomprimeerd_bestand.gz}}`
+`gzip -{{1..9}} {{[-c|--stdout]}} {{pad/naar/bestand}} >{{pad/naar/gecomprimeerd_bestand.gz}}`
 
 - Toon de inhoud van een gecomprimeerd bestand:
 

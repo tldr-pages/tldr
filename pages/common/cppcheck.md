@@ -6,7 +6,7 @@
 
 - Recursively check the current directory, showing progress on the screen and logging error messages to a file:
 
-`cppcheck . 2> cppcheck.log`
+`cppcheck . 2>cppcheck.log`
 
 - Recursively check a given directory, and don't print progress messages:
 

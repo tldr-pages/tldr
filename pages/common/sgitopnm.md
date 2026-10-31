@@ -5,12 +5,12 @@
 
 - Convert an SGI image to a PNM file:
 
-`sgitopnm {{path/to/input.sgi}} > {{path/to/output.pnm}}`
+`sgitopnm {{path/to/input.sgi}} >{{path/to/output.pnm}}`
 
 - Display information about the SGI file:
 
-`sgitopnm {{[-verb|-verbose]}} {{path/to/input.sgi}} > {{path/to/output.pnm}}`
+`sgitopnm {{[-verb|-verbose]}} {{path/to/input.sgi}} >{{path/to/output.pnm}}`
 
 - Extract channel n of the SGI file:
 
-`sgitopnm {{[-c|-channel]}} {{n}} {{path/to/input.sgi}} > {{path/to/output.pnm}}`
+`sgitopnm {{[-c|-channel]}} {{n}} {{path/to/input.sgi}} >{{path/to/output.pnm}}`

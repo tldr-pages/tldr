@@ -6,4 +6,4 @@
 
 - Convert the specified PGM image to Usenix FaceSave format:
 
-`pgmtofs {{path/to/input.pgm}} > {{path/to/output.fs}}`
+`pgmtofs {{path/to/input.pgm}} >{{path/to/output.fs}}`

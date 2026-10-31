@@ -7,4 +7,4 @@
 
 - Generate an image using only `n_colors` or less colors as close as possible to the input image:
 
-`pnmquant {{n_colors}} {{path/to/input.pnm}} > {{path/to/output.pnm}}`
+`pnmquant {{n_colors}} {{path/to/input.pnm}} >{{path/to/output.pnm}}`

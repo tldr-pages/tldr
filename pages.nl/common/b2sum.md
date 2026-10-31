@@ -9,7 +9,7 @@
 
 - Bereken en sla de lijst van BLAKE2 checksums op in een bestand:
 
-`b2sum {{pad/naar/bestand1 pad/naar/bestand2 ...}} > {{pad/naar/bestand.b2}}`
+`b2sum {{pad/naar/bestand1 pad/naar/bestand2 ...}} >{{pad/naar/bestand.b2}}`
 
 - Bereken een BLAKE2 checksum van `stdin`:
 

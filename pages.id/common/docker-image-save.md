@@ -5,7 +5,7 @@
 
 - Simpan suatu citra dengan menangkap isi dari `stdout` menuju suatu berkas arsip `.tar`:
 
-`docker {{[save|image save]}} {{citra}}:{{tag}} > {{jalan/menuju/berkas.tar}}`
+`docker {{[save|image save]}} {{citra}}:{{tag}} >{{jalan/menuju/berkas.tar}}`
 
 - Simpan suatu citra menuju suatu arsip `.tar`:
 

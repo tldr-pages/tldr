@@ -17,4 +17,4 @@
 
 - Atualiza manualmente o arquivo known_hosts do SSH com a impressão digital de um determinado servidor:
 
-`ssh-keyscan -H {{servidor}} >> ~/.ssh/known_hosts`
+`ssh-keyscan -H {{servidor}} >>~/.ssh/known_hosts`

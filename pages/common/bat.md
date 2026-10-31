@@ -11,7 +11,7 @@
 
 - Concatenate several files into the target file:
 
-`bat {{path/to/file1 path/to/file2 ...}} > {{path/to/target_file}}`
+`bat {{path/to/file1 path/to/file2 ...}} >{{path/to/target_file}}`
 
 - Remove decorations and disable paging:
 

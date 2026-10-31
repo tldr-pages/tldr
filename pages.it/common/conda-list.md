@@ -21,4 +21,4 @@
 
 - Esporta l'elenco dei pacchetti per usi futuri:
 
-`conda list {{[-e|--export]}} > {{percorso/alla/lista-pacchetti.txt}}`
+`conda list {{[-e|--export]}} >{{percorso/alla/lista-pacchetti.txt}}`

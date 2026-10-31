@@ -18,7 +18,7 @@
 
 - Convert a certificate to `.pem` or `.der` format:
 
-`openssl x509 -in {{path/to/certificate.crt}} -out {{path/to/certificate.pem|path/to/certificate.der}} -outform {{pem|der}}`
+`openssl x509 -in {{path/to/certificate.crt}} -out {{path/to/certificate}}.{{pem|der}} -outform {{pem|der}}`
 
 - Check certificate details:
 

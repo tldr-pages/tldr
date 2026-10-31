@@ -6,7 +6,7 @@
 
 - Place the contents of a specific file in the clipboard:
 
-`pbcopy < {{path/to/file}}`
+`pbcopy <{{path/to/file}}`
 
 - Place the results of a specific command in the clipboard:
 

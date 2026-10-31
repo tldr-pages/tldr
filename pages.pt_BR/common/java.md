@@ -13,11 +13,11 @@
 
 - Executa um programa `.jar`:
 
-`java -jar {{nome_do_arquivo.jar}}`
+`java -jar {{nome_do_arquivo}}.jar`
 
 - Executa um programa `.jar` com o debugger aguardando conexão na porta 5005:
 
-`java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar {{nome_do_arquivo.jar}}`
+`java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar {{nome_do_arquivo}}.jar`
 
 - Exibe os comandos disponíveis do Java:
 

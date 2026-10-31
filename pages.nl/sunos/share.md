@@ -21,4 +21,4 @@
 
 - Maak delen persistent door vermeldingen toe te voegen aan `/etc/dfs/dfstab`:
 
-`echo "share -F nfs -o rw /{{pad/naar/map}}" >> /etc/dfs/dfstab`
+`echo "share -F nfs -o rw /{{pad/naar/map}}" >>/etc/dfs/dfstab`

@@ -11,7 +11,7 @@
 
 - Concatena diversi file nel file di destinazione:
 
-`bat {{percorso/del/file1 percorso/del/file2 ...}} > {{percorso/del/file_destinazione}}`
+`bat {{percorso/del/file1 percorso/del/file2 ...}} >{{percorso/del/file_destinazione}}`
 
 - Rimuove decorazioni e disabilita paging:
 

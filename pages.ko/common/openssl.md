@@ -18,7 +18,7 @@
 
 - 인증서를 `.pem` 또는 `.der` 형식으로 변환:
 
-`openssl x509 -in {{경로/대상/인증서.crt}} -out {{경로/대상/인증서.pem|경로/대상/인증서.der}} -outform {{pem|der}}`
+`openssl x509 -in {{경로/대상/인증서.crt}} -out {{경로/대상/인증서}}.{{pem|der}} -outform {{pem|der}}`
 
 - 인증서 상세 정보 확인:
 

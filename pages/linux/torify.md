@@ -30,4 +30,4 @@
 
 - Redirect output to a file:
 
-`torify {{command}} > {{path/to/output}}`
+`torify {{command}} >{{path/to/output}}`

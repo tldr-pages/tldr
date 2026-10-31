@@ -5,4 +5,4 @@
 
 - Vendor dependencies and configure `cargo` to use the vendored sources in the current project:
 
-`cargo vendor {{path/to/directory}} > .cargo/config.toml`
+`cargo vendor {{path/to/directory}} >.cargo/config.toml`

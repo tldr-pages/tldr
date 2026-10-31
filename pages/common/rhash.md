@@ -9,7 +9,7 @@
 
 - Recursively process a directory to generate an SFV file using SHA1:
 
-`rhash --sha1 --recursive {{path/to/folder}} > {{path/to/output.sfv}}`
+`rhash --sha1 --recursive {{path/to/folder}} >{{path/to/output.sfv}}`
 
 - Verify the integrity of files based on an SFV file:
 

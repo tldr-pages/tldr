@@ -17,7 +17,7 @@
 
 - Encrypt the text and append it to the `.service` file (the credentials will be available in `$CREDENTIALS_DIRECTORY`):
 
-`echo -n {{text}} | systemd-creds encrypt --name {{name}} --pretty - - >> {{service}}`
+`echo -n {{text}} | systemd-creds encrypt --name {{name}} --pretty - - >>{{service}}`
 
 - Create a credential that is only valid until the given timestamp:
 
