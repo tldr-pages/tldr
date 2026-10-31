@@ -9,4 +9,4 @@
 
 - `nologin` 로그인 셸을 가진 사용자에게 표시할 메시지 사용자 지정:
 
-`echo "{{로그인_거부_메시지}}" > /etc/nologin.txt`
+`echo "{{로그인_거부_메시지}}" >/etc/nologin.txt`

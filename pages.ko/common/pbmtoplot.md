@@ -5,4 +5,4 @@
 
 - PBM 이미지를 UNIX 플롯 파일로 변환:
 
-`pbmtoplot {{경로/대상/이미지.pbm}} > {{경로/대상/출력.plot}}`
+`pbmtoplot {{경로/대상/이미지.pbm}} >{{경로/대상/출력.plot}}`

@@ -29,4 +29,4 @@
 
 - 오프라인 검증용 서명 인증서의 신뢰 루트를 파일로 저장:
 
-`gh {{[at|attestation]}} trusted-root > {{경로/대상/신뢰가능한_루트.jsonl}}`
+`gh {{[at|attestation]}} trusted-root >{{경로/대상/신뢰가능한_루트.jsonl}}`

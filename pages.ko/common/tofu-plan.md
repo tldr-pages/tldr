@@ -29,4 +29,4 @@
 
 - 실행 계획을 색상 코드 없이 지정한 파일에 저장:
 
-`tofu plan -no-color > {{path/to/file}}`
+`tofu plan -no-color >{{path/to/file}}`

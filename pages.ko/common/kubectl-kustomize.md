@@ -17,7 +17,7 @@
 
 - 생성된 리소스를 파일로 저장:
 
-`kubectl kustomize {{경로/대상/디렉터리}} > {{output.yaml}}`
+`kubectl kustomize {{경로/대상/디렉터리}} >{{output.yaml}}`
 
 - Load restrictor를 비활성화하고 빌드 수행:
 

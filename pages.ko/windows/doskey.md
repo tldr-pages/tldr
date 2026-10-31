@@ -25,7 +25,7 @@
 
 - 매크로를 파일에 저장하여 휴대성 확보:
 
-`doskey /macros > {{경로\대상\macinit_파일}}`
+`doskey /macros >{{경로\대상\macinit_파일}}`
 
 - 파일에서 매크로 로드:
 

@@ -11,7 +11,7 @@
 
 - 모든 DNS 레코드(A, AAAA, CNAME, NS, TXT, SRV, PTR, MX, SOA, AXFR, CAA)를 쿼리:
 
-`dnsx <<< {{example.com}} -recon {{[-re|-resp]}}`
+`dnsx <<<{{example.com}} -recon {{[-re|-resp]}}`
 
 - 특정 유형의 DNS 레코드를 쿼리:
 

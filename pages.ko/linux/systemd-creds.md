@@ -17,7 +17,7 @@
 
 - 텍스트를 암호화하고 서비스 파일에 추가 (자격 증명은 `$CREDENTIALS_DIRECTORY`에서 사용 가능):
 
-`echo -n {{텍스트}} | systemd-creds encrypt --name {{이름}} --pretty - - >> {{서비스}}`
+`echo -n {{텍스트}} | systemd-creds encrypt --name {{이름}} --pretty - - >>{{서비스}}`
 
 - 주어진 타임스탬프까지 유효한 자격 증명 생성:
 

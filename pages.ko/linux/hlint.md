@@ -21,4 +21,4 @@
 
 - 모든 미해결 힌트를 무시하는 설정 파일 생성:
 
-`hlint {{경로/대상/파일}} --default > {{.hlint.yaml}}`
+`hlint {{경로/대상/파일}} --default >{{.hlint.yaml}}`

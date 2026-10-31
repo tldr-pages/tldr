@@ -21,4 +21,4 @@
 
 - 사용자 정의 `.clang-format` 파일을 생성:
 
-`clang-format --style {{LLVM|GNU|Google|Chromium|Microsoft|Mozilla|WebKit}} --dump-config > {{.clang-format}}`
+`clang-format --style {{LLVM|GNU|Google|Chromium|Microsoft|Mozilla|WebKit}} --dump-config >{{.clang-format}}`

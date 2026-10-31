@@ -5,7 +5,7 @@
 
 - 입력 PPM 이미지보다 `flashfactor` 배 밝은 출력 PPM 이미지 생성:
 
-`ppmflash {{flashfactor}} {{경로/대상/파일.ppm}} > {{경로/대상/파일.ppm}}`
+`ppmflash {{flashfactor}} {{경로/대상/파일.ppm}} >{{경로/대상/파일.ppm}}`
 
 - 버전 표시:
 

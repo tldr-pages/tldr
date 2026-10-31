@@ -5,8 +5,8 @@
 
 - PBM 이미지를 BitGraph 터미널 Display Pixel Data 시퀀스로 변환:
 
-`pbmtobbnbg < {{경로/대상/이미지.pbm}} > {{경로/대상/출력.dpd}}`
+`pbmtobbnbg <{{경로/대상/이미지.pbm}} >{{경로/대상/출력.dpd}}`
 
 - rasterop 지정:
 
-`pbmtobbnbg < {{경로/대상/이미지.pbm}} {{3}} > {{경로/대상/출력.dpd}}`
+`pbmtobbnbg <{{경로/대상/이미지.pbm}} {{3}} >{{경로/대상/출력.dpd}}`

@@ -21,7 +21,7 @@
 
 - `stdin`에서 읽어들인 파일(`data.txt`)의 전체 입력 내용을 메시지로 전송하고 `sensors/temperature` 주제로 게시:
 
-`mosquitto_pub < {{data.txt}} {{[-t|--topic]}} {{sensors/temperature}} {{[-s|--stdin-file]}}`
+`mosquitto_pub <{{data.txt}} {{[-t|--topic]}} {{sensors/temperature}} {{[-s|--stdin-file]}}`
 
 - `stdin`에서 줄바꿈된 데이터를 메시지로 읽어들여 `sensors/temperature` 주제로 게시:
 

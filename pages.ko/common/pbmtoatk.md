@@ -6,4 +6,4 @@
 
 - PBM 이미지를 Andrew Toolkit 래스터 객체로 변환:
 
-`pbmtoatk {{경로/대상/이미지.pbm}} > {{경로/대상/출력.atk}}`
+`pbmtoatk {{경로/대상/이미지.pbm}} >{{경로/대상/출력.atk}}`

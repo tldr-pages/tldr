@@ -6,8 +6,8 @@
 
 - 입력 이미지의 짝수 행으로 구성된 이미지 생성:
 
-`pamdeinterlace {{경로/대상/이미지.ppm}} > {{경로/대상/출력.ppm}}`
+`pamdeinterlace {{경로/대상/이미지.ppm}} >{{경로/대상/출력.ppm}}`
 
 - 입력 이미지의 홀수 행으로 구성된 이미지 생성:
 
-`pamdeinterlace {{[-takeo|-takeodd]}} {{경로/대상/이미지.ppm}} > {{경로/대상/출력.ppm}}`
+`pamdeinterlace {{[-takeo|-takeodd]}} {{경로/대상/이미지.ppm}} >{{경로/대상/출력.ppm}}`

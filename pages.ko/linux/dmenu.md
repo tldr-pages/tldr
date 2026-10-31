@@ -14,7 +14,7 @@
 
 - 여러 항목 중 사용자가 선택한 항목을 파일에 저장:
 
-`echo -e "{{red}}\n{{green}}\n{{blue}}" | dmenu > {{color.txt}}`
+`echo -e "{{red}}\n{{green}}\n{{blue}}" | dmenu >{{color.txt}}`
 
 - 특정 모니터에서 dmenu 실행:
 
