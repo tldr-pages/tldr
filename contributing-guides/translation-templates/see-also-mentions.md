@@ -21,6 +21,7 @@ This file contains the translation templates of this notice.
 [fa](#fa) •
 [fi](#fi) •
 [fr](#fr) •
+[he](#he) •
 [hi](#hi) •
 [id](#id) •
 [it](#it) •
@@ -158,6 +159,14 @@ This file contains the translation templates of this notice.
 
 ```markdown
 > Voir aussi : `example`.
+```
+
+---
+
+### he
+
+```markdown
+> ראו גם: `example`.
 ```
 
 ---
