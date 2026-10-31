@@ -5,7 +5,7 @@ The best way to edit this file is by using [tableconvert.com](https://tableconve
 There, the old table can be **imported**, **edited** in a WYSIWYG editor and **exported** again.
 
 > [!NOTE]
-> Placeholders in Arabian (`ar`) and Farsi (`fa`) pages shouldn't be translated to prevent flipped text when reading.
+> Placeholders in Arabian (`ar`), Farsi (`fa`), and Hebrew (`he`) pages shouldn't be translated to prevent flipped text when reading.
 
 | en    | path/to/file          | path/to/directory        | path/to/file_or_directory            | package       | username           | password          | command  | port   | value    |
 |-------|-----------------------|--------------------------|--------------------------------------|---------------|--------------------|-------------------|----------|--------|----------|
@@ -22,6 +22,7 @@ There, the old table can be **imported**, **edited** in a WYSIWYG editor and **e
 | fa    | path/to/file          | path/to/directory        | path/to/file_or_directory            | package       | username           | password          | command  | port   | value    |
 | fi    | polku/tiedostoon      | polku/hakemistoon        | polku/tiedostoon_tai_hakemistoon     | paketti       | käyttäjätunnus     | salasana          | komento  | portti | arvo     |
 | fr    | chemin/vers/fichier   | chemin/vers/répertoire   | chemin/vers/fichier_ou_répertoire    | paquet        | nom_d_utilisateur  | mot_de_passe      | commande | port   | valeur   |
+| he    | path/to/file          | path/to/directory        | path/to/file_or_directory            | package       | username           | password          | command  | port   | value    |
 | hi    | फ़ाइल/का/पथ           | निर्देशिका/का/पथ         | फ़ाइल_या_निर्देशिका/का/पथ            | पैकेज         | उपयोगकर्ता_नाम     |                   |          |        |          |
 | id    | jalan/menuju/berkas   | jalan/menuju/direktori   | jalan/menuju/berkas_atau_direktori   | paket         | nama_pengguna      | kata_sandi        | perintah | port   | nilai    |
 | it    | percorso/del/file     | percorso/della/directory | percorso/del/file_o_directory        | pacchetto     | nome_utente        | password          | comando  | porta  | valore   |
