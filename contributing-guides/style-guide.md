@@ -315,8 +315,8 @@ When linking pages to websites that have locale settings like the Microsoft Lear
 The heading should adhere to the following order:
 
 ```md
-> Short description of the functionality.
-> Further clarification of the functionality.
+> Short description of the functionality written in imperative mood.
+> Further clarification of the functionality written in present tense.
 > Note: Any note for the usage.
 > Part of the Example suite.
 > Some subcommands such as `subcommand1`, `subcommand2`, etc. have their own usage documentation.

@@ -29,4 +29,4 @@
 
 - Sla de vertrouwde root van ondertekeningscertificaten op in een bestand voor offline verificatie:
 
-`gh {{[at|attestation]}} trusted-root > {{pad/naar/vertrouwde_root.jsonl}}`
+`gh {{[at|attestation]}} trusted-root >{{pad/naar/vertrouwde_root.jsonl}}`

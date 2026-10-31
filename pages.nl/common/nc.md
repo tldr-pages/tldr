@@ -5,11 +5,11 @@
 
 - Start een [l]uisteraar op de opgegeven TCP-[p]oort en stuur er een bestand in:
 
-`nc < {{bestandsnaam}} -l -p {{poort}}`
+`nc <{{bestandsnaam}} -l -p {{poort}}`
 
 - Maak verbinding met een doelluisteraar op de opgegeven poort en ontvang er een bestand uit:
 
-`nc {{host}} {{poort}} > {{ontvangen_bestandsnaam}}`
+`nc {{host}} {{poort}} >{{ontvangen_bestandsnaam}}`
 
 - Scan de open TCP-poorten van een opgegeven host:
 

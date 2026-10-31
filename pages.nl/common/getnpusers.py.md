@@ -22,4 +22,4 @@
 
 - Sla de output op in een bestand voor verdere analyse:
 
-`GetNPUsers.py {{domein}}/ -usersfile {{pad/naar/gebruikerslijst}} -dc-ip {{domain_controller_ip}} -request > {{pad/naar/output.txt}}`
+`GetNPUsers.py {{domein}}/ -usersfile {{pad/naar/gebruikerslijst}} -dc-ip {{domain_controller_ip}} -request >{{pad/naar/output.txt}}`
