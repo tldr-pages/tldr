@@ -1,15 +1,14 @@
 # systemctl
 
 > Kelola sistem systemd dan manajer layanan (service manager).
-> beberpaa subperintah seperti `disable`, `status`, `reboot`, dll. memiliki dokumentasi penggunaannya sendiri.
+> Beberapa subperintah seperti `disable`, `status`, `reboot`, dll. memiliki dokumentasi penggunaannya sendiri.
 > Informasi lebih lanjut: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html>.
 
-
-- Tampilkan semua layanan (sevice) yang sedang berjalan: 
+- Tampilkan semua layanan (service) yang sedang berjalan:
 
 `systemctl status`
 
-- Tampilkan daftar unit yang gagal dijalankan(failed): 
+- Tampilkan daftar unit yang gagal dijalankan (failed):
 
 `systemctl --failed`
 
