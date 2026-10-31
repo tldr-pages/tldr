@@ -19,6 +19,7 @@ This file contains the translation templates of this label.
 [fa](#fa) •
 [fi](#fi) •
 [fr](#fr) •
+[he](#he) •
 [hi](#hi) •
 [id](#id) •
 [it](#it) •
@@ -156,6 +157,14 @@ This file contains the translation templates of this label.
 
 ```markdown
 > Remarque : Cette commande est obsolète, utiliser `example` à la place.
+```
+
+---
+
+### he
+
+```markdown
+> הערה: השימוש בפקודה זו אינו מומלץ עוד; יש להשתמש בפקודה `example` במקומה.
 ```
 
 ---
