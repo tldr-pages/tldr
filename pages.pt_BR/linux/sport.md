@@ -29,4 +29,4 @@
 
 - Instala uma lista de pacotes de um arquivo (formato: pacotes separados por espaço):
 
-`sudo sport install $(< {{caminho/para/lista}})`
+`sudo sport install $(<{{caminho/para/lista}})`
