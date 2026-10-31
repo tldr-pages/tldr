@@ -4,6 +4,6 @@
 > Se även: `regex`.
 > Mer information: <https://manned.org/egrep>.
 
-- Se dokumentationen för orginalkommandot:
+- Se dokumentationen för originalkommandot:
 
 `tldr grep`
