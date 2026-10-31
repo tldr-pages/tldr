@@ -13,4 +13,4 @@
 
 - Delete a folder from history:
 
-`git filter-branch --tree-filter 'rm {{[-rf|--recursive --force]}} {{folder}}' HEAD`
+`git filter-branch --tree-filter 'rm {{[-rf|--recursive --force]}} {{path/to/folder}}' HEAD`

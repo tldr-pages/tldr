@@ -21,4 +21,4 @@
 
 - Recursively delete an attribute in a given directory:
 
-`xattr -rd {{attribute_key}} {{directory}}`
+`xattr -rd {{attribute_key}} {{path/to/directory}}`
