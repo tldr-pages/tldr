@@ -19,6 +19,7 @@ This file contains the translation templates of this notice.
 [fa](#fa) •
 [fi](#fi) •
 [fr](#fr) •
+[he](#he) •
 [hi](#hi) •
 [id](#id) •
 [it](#it) •
@@ -156,6 +157,14 @@ This file contains the translation templates of this notice.
 
 ```markdown
 > Certaines sous-commandes comme `example` ont leur propre documentation.
+```
+
+---
+
+### he
+
+```markdown
+> לחלק מפקודות המשנה, כגון `example`, יש תיעוד שימוש נפרד.
 ```
 
 ---
