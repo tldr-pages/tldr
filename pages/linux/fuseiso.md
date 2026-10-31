@@ -15,6 +15,6 @@
 
 `fuseiso -f {{path/to/image.iso}} {{path/to/mount_point}}`
 
-- Unmount an image (note: this uses the standard FUSE unmount utility):
+- Unmount an image using the standard FUSE unmount utility:
 
 `fusermount3 -u {{path/to/mount_point}}`
