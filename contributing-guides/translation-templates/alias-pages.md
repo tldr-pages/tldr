@@ -20,6 +20,7 @@ The templates can be changed when necessary.
 [fa](#fa) •
 [fi](#fi) •
 [fr](#fr) •
+[he](#he) •
 [hi](#hi) •
 [id](#id) •
 [it](#it) •
@@ -240,6 +241,20 @@ The templates can be changed when necessary.
 > Cette commande est un alias de `example`.
 
 - Affiche la documentation de la commande originale :
+
+`tldr example`
+```
+
+---
+
+### he
+
+```markdown
+# example
+
+> פקודה זו היא שם חלופי לפקודה `example`.
+
+- הצגת התיעוד של הפקודה המקורית:
 
 `tldr example`
 ```
