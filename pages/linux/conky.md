@@ -25,4 +25,4 @@
 
 - Pause for 5 seconds at startup before launching:
 
-`conky {{[-p|--pause]}} {{5}}`
+`conky {{[-p|--pause]}} 5`
