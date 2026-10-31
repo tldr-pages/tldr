@@ -6,7 +6,7 @@
 
 - Format the output of a command for a 30 characters wide display:
 
-`printf "header1 header2\nbar foo\n" | column {{[-c|--output-width]}} {{30}}`
+`printf "header1 header2\nbar foo\n" | column {{[-c|--output-width]}} 30`
 
 - Split columns automatically and auto-align them in a tabular format:
 
