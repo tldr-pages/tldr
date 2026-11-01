@@ -5,8 +5,8 @@
 
 - Convert an XPM image to a PPM image:
 
-`xpmtoppm {{path/to/input_file.xpm}} > {{path/to/output_file.ppm}}`
+`xpmtoppm {{path/to/input_file.xpm}} >{{path/to/output_file.ppm}}`
 
 - Store the transparency mask of the input image in the specified file:
 
-`xpmtoppm {{[-a|--alphaout]}} {{path/to/alpha_file.pbm}} {{path/to/input_file.xpm}} > {{path/to/output_file.ppm}}`
+`xpmtoppm {{[-a|--alphaout]}} {{path/to/alpha_file.pbm}} {{path/to/input_file.xpm}} >{{path/to/output_file.ppm}}`

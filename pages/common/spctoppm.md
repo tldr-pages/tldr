@@ -5,4 +5,4 @@
 
 - Convert an SPC file to a PPM image:
 
-`spctoppm {{path/to/input.spc}} > {{path/to/output.ppm}}`
+`spctoppm {{path/to/input.spc}} >{{path/to/output.ppm}}`

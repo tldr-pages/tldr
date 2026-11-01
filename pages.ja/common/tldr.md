@@ -1,6 +1,7 @@
 # tldr
 
 > コマンドの簡単なマニュアル。
+> 参照: `cheatshh`, `cheat`, `navi`。
 > 詳細情報: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>。
 
 - コマンドのよくある使用例を見られます (ヒント: このページにたどり着いた方法です！):

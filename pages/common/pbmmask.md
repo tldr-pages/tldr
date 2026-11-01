@@ -6,8 +6,8 @@
 
 - Create a mask bitmap separating background from foreground:
 
-`pbmmask {{path/to/image.pbm}} > {{path/to/output.pbm}}`
+`pbmmask {{path/to/image.pbm}} >{{path/to/output.pbm}}`
 
 - Expand the generated mask by one pixel:
 
-`pbmmask {{[-r|-expand]}} {{path/to/image.pbm}} > {{path/to/output.pbm}}`
+`pbmmask {{[-r|-expand]}} {{path/to/image.pbm}} >{{path/to/output.pbm}}`

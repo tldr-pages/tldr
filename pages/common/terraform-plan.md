@@ -29,4 +29,4 @@
 
 - Write a plan to a specific file:
 
-`terraform plan -no-color > {{path/to/file}}`
+`terraform plan -no-color >{{path/to/file}}`

@@ -6,4 +6,4 @@
 
 - Convert an Atari Degas PI1 image into PPM image:
 
-`pi1toppm {{path/to/atari_image.pi1}} > {{path/to/image.ppm}}`
+`pi1toppm {{path/to/atari_image.pi1}} >{{path/to/image.ppm}}`

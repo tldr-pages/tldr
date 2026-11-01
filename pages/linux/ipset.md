@@ -21,4 +21,4 @@
 
 - Save an IP set:
 
-`ipset save {{set_name}} > {{path/to/ip_set}}`
+`ipset save {{set_name}} >{{path/to/ip_set}}`

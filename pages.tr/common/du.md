@@ -1,6 +1,7 @@
 # du
 
 > Disk kullanımı: dosyaların ve dizinlerin kapladığı alanı tahmin et ve özetle.
+> Ayrıca bakınız: `ncdu`.
 > Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/manual/html_node/du-invocation.html>.
 
 - Bir dizinin ve tüm alt dizinlerinin boyutlarını verilen birimde (B/KiB/MiB) listele:

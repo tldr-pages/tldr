@@ -6,4 +6,4 @@
 
 - Create a daily planner with specified language, lettercase (uppercase or lowercase) and year:
 
-`yplan {{language}} {{lettercase}} {{year}} > {{path/to/file.tex}}`
+`yplan {{language}} {{lettercase}} {{year}} >{{path/to/file.tex}}`

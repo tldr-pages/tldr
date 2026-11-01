@@ -5,8 +5,8 @@
 
 - Generate a PGM image containing white noise:
 
-`pgmnoise {{width}} {{height}} > {{path/to/output.pgm}}`
+`pgmnoise {{width}} {{height}} >{{path/to/output.pgm}}`
 
 - Specify the seed for the pseudo-random number generator:
 
-`pgmnoise {{width}} {{height}} -randomseed {{value}} > {{path/to/output.pgm}}`
+`pgmnoise {{width}} {{height}} -randomseed {{value}} >{{path/to/output.pgm}}`
