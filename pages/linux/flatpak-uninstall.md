@@ -26,7 +26,7 @@
 
 - Uninstall an application without prompting for confirmation:
 
-`flatpak uninstall --assumeyes {{com.example.app}}`
+`flatpak uninstall {{[-y|--assumeyes]}} {{com.example.app}}`
 
 - Uninstall all applications and runtimes:
 
