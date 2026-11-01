@@ -3,7 +3,7 @@
 > A configurable clock, timer, and stopwatch for the terminal.
 > More information: <https://github.com/Oughie/clock-rs>.
 
-- Display the clock in the terminal
+- Display the clock in the terminal:
 
 `clock-rs`
 
