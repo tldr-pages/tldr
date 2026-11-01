@@ -5,16 +5,16 @@
 
 - Convert a PPM image into a PJXL file:
 
-`ppmtopjxl {{path/to/image.ppm}} > {{path/to/output.pjxl}}`
+`ppmtopjxl {{path/to/image.ppm}} >{{path/to/output.pjxl}}`
 
 - Resize the input image:
 
-`ppmtopjxl {{[-xsi|-xsize]}} {{10cm}} {{[-ysi|-ysize]}} {{5cm}} {{path/to/image.ppm}} > {{path/to/output.pjxl}}`
+`ppmtopjxl {{[-xsi|-xsize]}} {{10cm}} {{[-ysi|-ysize]}} {{5cm}} {{path/to/image.ppm}} >{{path/to/output.pjxl}}`
 
 - Shift the input image:
 
-`ppmtopjxl {{[-xsh|-xshift]}} {{10pt}} {{[-ysh|-yshift]}} {{5pt}} {{path/to/image.ppm}} > {{path/to/output.pjxl}}`
+`ppmtopjxl {{[-xsh|-xshift]}} {{10pt}} {{[-ysh|-yshift]}} {{5pt}} {{path/to/image.ppm}} >{{path/to/output.pjxl}}`
 
 - Do not use the normal TIFF 4.0 compression method:
 
-`ppmtopjxl {{[-n|-nopack]}} {{path/to/image.ppm}} > {{path/to/output.pjxl}}`
+`ppmtopjxl {{[-n|-nopack]}} {{path/to/image.ppm}} >{{path/to/output.pjxl}}`

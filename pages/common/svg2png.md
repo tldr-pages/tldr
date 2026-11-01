@@ -25,7 +25,7 @@
 
 - Convert an SVG from `stdin` to PNG on `stdout`:
 
-`cat {{path/to/file.svg}} | svg2png - - > {{path/to/output.png}}`
+`cat {{path/to/file.svg}} | svg2png - - >{{path/to/output.png}}`
 
 - Flip the output image horizontally or vertically:
 

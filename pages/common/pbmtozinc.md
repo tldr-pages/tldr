@@ -5,4 +5,4 @@
 
 - Convert a PBM image to a Zinc bitmap:
 
-`pbmtozinc {{path/to/image.pbm}} > {{path/to/output.zinc}}`
+`pbmtozinc {{path/to/image.pbm}} >{{path/to/output.zinc}}`

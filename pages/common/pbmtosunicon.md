@@ -5,4 +5,4 @@
 
 - Convert a PBM image into a Sun icon:
 
-`pbmtosunicon {{path/to/input.pbm}} > {{path/to/output.ico}}`
+`pbmtosunicon {{path/to/input.pbm}} >{{path/to/output.ico}}`

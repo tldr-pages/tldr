@@ -25,4 +25,4 @@
 
 - [Interactief] Dump raw bytes van het huidige block naar een bestand:
 
-`pr > {{pad/naar/bestand.bin}}`
+`pr >{{pad/naar/bestand.bin}}`

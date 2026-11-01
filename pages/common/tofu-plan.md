@@ -29,4 +29,4 @@
 
 - Write a plan to a specific file:
 
-`tofu plan -no-color > {{path/to/file}}`
+`tofu plan -no-color >{{path/to/file}}`

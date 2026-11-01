@@ -5,7 +5,7 @@
 
 - Загрузить образ Docker из `stdin`:
 
-`docker < {{путь/к/файлу_образа.tar}} {{[load|image load]}}`
+`docker <{{путь/к/файлу_образа.tar}} {{[load|image load]}}`
 
 - Загрузить образ Docker из определённого файла:
 

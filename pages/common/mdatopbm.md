@@ -6,12 +6,12 @@
 
 - Convert an MDA file to a PBM image:
 
-`mdatopbm {{path/to/image.mda}} > {{path/to/output.pbm}}`
+`mdatopbm {{path/to/image.mda}} >{{path/to/output.pbm}}`
 
 - Invert the colors in the input image:
 
-`mdatopbm -i {{path/to/image.mda}} > {{path/to/output.pbm}}`
+`mdatopbm -i {{path/to/image.mda}} >{{path/to/output.pbm}}`
 
 - Double the input image's height:
 
-`mdatopbm -d {{path/to/image.mda}} > {{path/to/output.pbm}}`
+`mdatopbm -d {{path/to/image.mda}} >{{path/to/output.pbm}}`

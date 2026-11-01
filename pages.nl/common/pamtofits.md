@@ -6,4 +6,4 @@
 
 - Converteer een Netpbm-afbeelding naar het FITS-formaat:
 
-`pamtofits {{pad/naar/afbeelding.pam}} > {{pad/naar/uitvoer.fits}}`
+`pamtofits {{pad/naar/afbeelding.pam}} >{{pad/naar/uitvoer.fits}}`

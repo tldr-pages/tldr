@@ -18,7 +18,7 @@
 
 - Renderiza uma imagem GIF usando `stdin` e `stdout`:
 
-`echo "{{digraph {isso -> aquilo} }}" | fdp -T gif > {{caminho/para/imagem.gif}}`
+`echo "{{digraph {isso -> aquilo} }}" | fdp -T gif >{{caminho/para/imagem.gif}}`
 
 - Exibe ajuda:
 

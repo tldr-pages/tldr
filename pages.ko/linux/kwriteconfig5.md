@@ -17,7 +17,7 @@
 
 - systemd를 사용하여 Plasma 세션이 가능할 때 시작:
 
-`kwriteconfig5 --file {{startkderc}} --group {{General}} --key {{systemdBoot}} {{true}}`
+`kwriteconfig5 --file {{startkderc}} --group {{General}} --key systemdBoot {{true}}`
 
 - 창이 최대화될 때 제목 표시줄 숨기기 (Ubuntu와 유사):
 

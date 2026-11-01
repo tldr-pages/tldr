@@ -5,16 +5,16 @@
 
 - Make the RGB colors in a PPM image compatible with NTSC color systems:
 
-`ppmntsc {{path/to/input_file.ppm}} > {{path/to/output_file.ppm}}`
+`ppmntsc {{path/to/input_file.ppm}} >{{path/to/output_file.ppm}}`
 
 - Make the RGB colors in a PPM image compatible with PAL color systems:
 
-`ppmntsc --pal {{path/to/input_file.ppm}} > {{path/to/output_file.ppm}}`
+`ppmntsc --pal {{path/to/input_file.ppm}} >{{path/to/output_file.ppm}}`
 
 - Print the number of illegal pixels in the input image to `stderr`:
 
-`ppmntsc {{[--verb|--verbose]}} {{path/to/input_file.ppm}} > {{path/to/output_file.ppm}}`
+`ppmntsc {{[--verb|--verbose]}} {{path/to/input_file.ppm}} >{{path/to/output_file.ppm}}`
 
 - Output only legal/illegal/corrected pixels, set other pixels to black:
 
-`ppmntsc --{{legalonly|illegalonly|correctedonly}} {{path/to/input_file.ppm}} > {{path/to/output_file.ppm}}`
+`ppmntsc --{{legalonly|illegalonly|correctedonly}} {{path/to/input_file.ppm}} >{{path/to/output_file.ppm}}`

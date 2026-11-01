@@ -9,7 +9,7 @@
 
 - Bereken en sla de lijst van SHA1 checksums op in een bestand:
 
-`sha1sum {{pad/naar/bestand1 pad/naar/bestand2 ...}} > {{pad/naar/bestand.sha1}}`
+`sha1sum {{pad/naar/bestand1 pad/naar/bestand2 ...}} >{{pad/naar/bestand.sha1}}`
 
 - Bereken een SHA1 checksum van `stdin`:
 

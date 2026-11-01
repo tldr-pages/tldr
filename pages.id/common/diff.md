@@ -30,7 +30,7 @@
 
 - Buat suatu berkas patch untuk Git dari perbedaan atas kedua berkas teks, dengan memperlakukan berkas yang tidak tersedia sebagai kosong:
 
-`diff {{[-a|--text]}} {{[-u|--unified]}} {{[-N|--new-file]}} {{berkas_lawas}} {{berkas_baru}} > {{diff.patch}}`
+`diff {{[-a|--text]}} {{[-u|--unified]}} {{[-N|--new-file]}} {{berkas_lawas}} {{berkas_baru}} >{{diff.patch}}`
 
 - Bandingkan berkas-berkas, menampilkan luaran program secara berwarna dan upayakan untuk mencari perubahan-perubahan secara minimal:
 
