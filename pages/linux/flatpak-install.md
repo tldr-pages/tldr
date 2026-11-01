@@ -10,7 +10,7 @@
 
 - Install an application for the current user only:
 
-`flatpak install --user {{remote_name}} {{com.example.app}}`
+`flatpak install {{[-u|--user]}} {{remote_name}} {{com.example.app}}`
 
 - Install a specific branch of an application:
 
