@@ -1,7 +1,6 @@
 # rc
 
 > Um ouvinte de porta moderno e simplista e shell reverso.
-> Similar a `nc`.
 > Veja também: `nc`.
 > Mais informações: <https://github.com/robiot/rustcat/wiki/Basic-Usage>.
 

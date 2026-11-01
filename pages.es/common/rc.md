@@ -1,7 +1,6 @@
 # rc
 
 > Una escucha de puerto moderna simplificada y con interfaz de comando reversa.
-> Similar a `nc`.
 > Vea también: `nc`.
 > Más información: <https://github.com/robiot/rustcat/wiki/Basic-Usage>.
 

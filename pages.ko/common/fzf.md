@@ -1,7 +1,6 @@
 # fzf
 
 > 명령줄 퍼지 찾기.
-> `sk`와 유사.
 > 관련 항목: `sk`.
 > 더 많은 정보: <https://github.com/junegunn/fzf#usage>.
 

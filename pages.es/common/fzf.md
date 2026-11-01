@@ -1,7 +1,6 @@
 # fzf
 
 > Buscador aproximado (fuzzy search) de la línea de comando.
-> Parecido a `sk`.
 > Vea también: `sk`.
 > Más información: <https://github.com/junegunn/fzf#usage>.
 

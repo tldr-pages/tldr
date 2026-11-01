@@ -1,7 +1,6 @@
 # fzf
 
 > أداة بحث تقريبي (fuzzy) لسطر الأوامر.
-> مشابهة لـ `sk`.
 > انظر أيضًا: `sk`.
 > لمزيد من التفاصيل: <https://github.com/junegunn/fzf#usage>.
 
