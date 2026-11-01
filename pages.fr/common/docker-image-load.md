@@ -5,7 +5,7 @@
 
 - Charge une image Docker depuis `stdin` :
 
-`docker < {{chemin/vers/fichier_image.tar}} {{[load|image load]}}`
+`docker <{{chemin/vers/fichier_image.tar}} {{[load|image load]}}`
 
 - Charge une image Docker depuis un fichier spécifique :
 

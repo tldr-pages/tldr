@@ -14,7 +14,7 @@
 
 - Salva o estado atual de uma instância remota para um arquivo:
 
-`pw-dump --remote {{nome_do_remoto}} > {{caminho/para/arquivo.json}}`
+`pw-dump --remote {{nome_do_remoto}} >{{caminho/para/arquivo.json}}`
 
 - Define uma configuração de [C]or:
 
