@@ -34,4 +34,4 @@
 
 - Install an application without prompting for confirmation:
 
-`flatpak install --assumeyes {{remote_name}} {{com.example.app}}`
+`flatpak install {{[-y|--assumeyes]}} {{remote_name}} {{com.example.app}}`
