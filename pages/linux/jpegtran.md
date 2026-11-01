@@ -5,23 +5,23 @@
 
 - Mirror an image horizontally or vertically:
 
-`jpegtran {{[-f|-flip]}} {{horizontal|vertical}} {{path/to/image.jpg}} > {{path/to/output.jpg}}`
+`jpegtran {{[-f|-flip]}} {{horizontal|vertical}} {{path/to/image.jpg}} >{{path/to/output.jpg}}`
 
 - Rotate an image 90, 180, or 270 degrees clockwise:
 
-`jpegtran {{[-ro|-rotate]}} {{90|180|270}} {{path/to/image.jpg}} > {{path/to/output.jpg}}`
+`jpegtran {{[-ro|-rotate]}} {{90|180|270}} {{path/to/image.jpg}} >{{path/to/output.jpg}}`
 
 - Transpose the image across the upper-left to lower right axis:
 
-`jpegtran -transpose {{path/to/image.jpg}} > {{path/to/output.jpg}}`
+`jpegtran -transpose {{path/to/image.jpg}} >{{path/to/output.jpg}}`
 
 - Transverse the image across the upper right to lower left axis:
 
-`jpegtran -transverse {{path/to/image.jpg}} > {{path/to/output.jpg}}`
+`jpegtran -transverse {{path/to/image.jpg}} >{{path/to/output.jpg}}`
 
 - Convert the image to grayscale:
 
-`jpegtran {{[-g|-grayscale]}} {{path/to/image.jpg}} > {{path/to/output.jpg}}`
+`jpegtran {{[-g|-grayscale]}} {{path/to/image.jpg}} >{{path/to/output.jpg}}`
 
 - Crop the image to a rectangular region of width `W` and height `H` from the upper-left corner, saving the output to a specific file:
 
@@ -29,4 +29,4 @@
 
 - Crop the image to a rectangular region of width `W` and height `H`, starting at point `X` and `Y` from the upper-left corner:
 
-`jpegtran -crop {{W}}x{{H}}+{{X}}+{{Y}} {{path/to/image.jpg}} > {{path/to/output.jpg}}`
+`jpegtran -crop {{W}}x{{H}}+{{X}}+{{Y}} {{path/to/image.jpg}} >{{path/to/output.jpg}}`

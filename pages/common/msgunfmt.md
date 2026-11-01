@@ -9,4 +9,4 @@
 
 - Convert a `.mo` file to a `.po` file:
 
-`msgunfmt {{path/to/file.mo}} > {{path/to/file.po}}`
+`msgunfmt {{path/to/file.mo}} >{{path/to/file.po}}`

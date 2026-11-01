@@ -5,8 +5,8 @@
 
 - Create a blank bitmap of the specified dimensions:
 
-`pbmmake {{width}} {{height}} > {{path/to/output_file.pbm}}`
+`pbmmake {{width}} {{height}} >{{path/to/output_file.pbm}}`
 
 - Specify the color of the created bitmap:
 
-`pbmmake -{{white|black|grey}} {{width}} {{height}} > {{path/to/output_file.pbm}}`
+`pbmmake -{{white|black|grey}} {{width}} {{height}} >{{path/to/output_file.pbm}}`

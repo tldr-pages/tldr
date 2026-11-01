@@ -10,8 +10,8 @@
 
 - Extract the comments on a Zip archive to a file:
 
-`zipnote {{path/to/file.zip}} > {{path/to/file.txt}}`
+`zipnote {{path/to/file.zip}} >{{path/to/file.txt}}`
 
 - Add/Update comments in a Zip archive from a file:
 
-`zipnote < {{path/to/file.txt}} -w {{path/to/file.zip}}`
+`zipnote <{{path/to/file.txt}} -w {{path/to/file.zip}}`

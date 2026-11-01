@@ -13,11 +13,11 @@
 
 - Extraheer een frame uit een GIF:
 
-`gifsicle {{pad/naar/invoer.gif}} '#{{0}}' > {{pad/naar/eerste_frame.gif}}`
+`gifsicle {{pad/naar/invoer.gif}} '#{{0}}' >{{pad/naar/eerste_frame.gif}}`
 
 - Maak een GIF-animatie van geselecteerde GIFs:
 
-`gifsicle {{*.gif}} {{[-d|--delay]}} {{10}} {{[-l|--loop]}} > {{pad/naar/uitvoer.gif}}`
+`gifsicle {{*.gif}} {{[-d|--delay]}} {{10}} {{[-l|--loop]}} >{{pad/naar/uitvoer.gif}}`
 
 - Verklein de bestandsgrootte met behulp van lossy-compressie:
 

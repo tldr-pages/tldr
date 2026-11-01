@@ -1,7 +1,7 @@
 # rc
 
 > Een moderne simplistische poortluisteraar en omgekeerde shell.
-> Vergelijkbaar met `nc`.
+> Zie ook: `nc`.
 > Meer informatie: <https://github.com/robiot/rustcat/wiki/Basic-Usage>.
 
 - Start met luisteren op een specifieke poort:

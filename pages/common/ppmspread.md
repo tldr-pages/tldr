@@ -5,8 +5,8 @@
 
 - Displace the pixels in a PPM image by a randomized amount that is at most `a`:
 
-`ppmspread {{a}} {{path/to/input_file.ppm}} > {{path/to/output_file.ppm}}`
+`ppmspread {{a}} {{path/to/input_file.ppm}} >{{path/to/output_file.ppm}}`
 
 - Specify a seed to a the pseudo-random number generator:
 
-`ppmspread {{a}} {{path/to/input_file.ppm}} {{[-r|-randomseed]}} {{seed}} > {{path/to/output_file.ppm}}`
+`ppmspread {{a}} {{path/to/input_file.ppm}} {{[-r|-randomseed]}} {{seed}} >{{path/to/output_file.ppm}}`

@@ -6,4 +6,4 @@
 
 - Create a mask of the background in a PAM image:
 
-`pambackground {{path/to/image.pam}} > {{path/to/output.pam}}`
+`pambackground {{path/to/image.pam}} >{{path/to/output.pam}}`

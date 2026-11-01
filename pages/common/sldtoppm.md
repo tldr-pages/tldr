@@ -5,8 +5,8 @@
 
 - Convert an SLD file to a PPM image:
 
-`sldtoppm {{path/to/input.sld}} > {{path/to/output.ppm}}`
+`sldtoppm {{path/to/input.sld}} >{{path/to/output.ppm}}`
 
 - Compensate for non-square pixels by scaling the width of the image:
 
-`sldtoppm {{[-a|-adjust]}} {{path/to/input.sld}} > {{path/to/output.ppm}}`
+`sldtoppm {{[-a|-adjust]}} {{path/to/input.sld}} >{{path/to/output.ppm}}`

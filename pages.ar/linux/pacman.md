@@ -1,8 +1,8 @@
 # pacman
 
 > أداة مدير الحزم لنظام Arch Linux.
-> انظر أيضًا: `pacman-sync`, `pacman-remove`, `pacman-query`, `pacman-upgrade`, `pacman-files`, `pacman-database`, `pacman-deptest`, `pacman-key`, `pacman-mirrors`.
 > لأوامر مكافئة في مديري الحزم الآخرين، انظر <https://wiki.archlinux.org/title/Pacman/Rosetta>.
+> انظر أيضًا: `pacman-sync`, `pacman-remove`, `pacman-query`, `pacman-upgrade`, `pacman-files`, `pacman-database`, `pacman-deptest`, `pacman-key`, `pacman-mirrors`.
 > لمزيد من التفاصيل: <https://manned.org/pacman.8>.
 
 - مزامنة وتحديث جميع الحزم:

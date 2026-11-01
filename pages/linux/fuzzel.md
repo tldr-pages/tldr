@@ -21,7 +21,7 @@
 
 - Let the user choose between multiple items and save the selected one to a file:
 
-`echo -e "{{red}}\n{{green}}\n{{blue}}" | fuzzel {{[-d|--dmenu]}} > {{color.txt}}`
+`echo -e "{{red}}\n{{green}}\n{{blue}}" | fuzzel {{[-d|--dmenu]}} >{{color.txt}}`
 
 - Reset apps usage count (default cache directory: `$XDG_CACHE_HOME/fuzzel`):
 

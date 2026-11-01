@@ -5,7 +5,7 @@
 
 - Copy a PAM image (i.e. a PBM, PGM, PPM, or PAM image) from `stdin` to `stdout`:
 
-`pamtopam < {{path/to/image.pam}} > {{path/to/output.pam}}`
+`pamtopam <{{path/to/image.pam}} >{{path/to/output.pam}}`
 
 - Display version:
 

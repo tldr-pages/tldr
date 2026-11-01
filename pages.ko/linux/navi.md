@@ -1,6 +1,7 @@
 # navi
 
 > 명령줄 및 애플리케이션 실행기를 위한 대화형 치트시트 도구.
+> 관련 항목: `tldr`, `cheatshh`, `cheat`.
 > 더 많은 정보: <https://github.com/denisidoro/navi>.
 
 - 사용 가능한 모든 치트시트를 탐색:

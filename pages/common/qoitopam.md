@@ -5,4 +5,4 @@
 
 - Convert a QOI image to Netpbm:
 
-`qoitopam {{path/to/image.qoi}} > {{path/to/output.pnm}}`
+`qoitopam {{path/to/image.qoi}} >{{path/to/output.pnm}}`
