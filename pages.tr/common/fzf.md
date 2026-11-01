@@ -1,7 +1,6 @@
 # fzf
 
 > Komut satırı belirsiz bulucu.
-> Sk'ya benzer.
 > Ayrıca bakınız: `sk`.
 > Daha fazla bilgi için: <https://github.com/junegunn/fzf#usage>.
 
