@@ -6,4 +6,4 @@
 
 - Vergroot een PAM afbeelding met de gespecificeerde decimale factor:
 
-`pamstretch-gen {{n}} {{pad/naar/afbeelding.pam}} > {{pad/naar/uitvoer.pam}}`
+`pamstretch-gen {{n}} {{pad/naar/afbeelding.pam}} >{{pad/naar/uitvoer.pam}}`

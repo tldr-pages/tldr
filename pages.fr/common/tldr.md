@@ -1,6 +1,7 @@
 # tldr
 
 > Affiche des pages d'aide simples pour les outils en ligne de commande, depuis le projet `tldr-pages`.
+> Voir aussi : `cheatshh`, `cheat`, `navi`.
 > Plus d'informations : <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.
 
 - Affiche la page tldr d'une commande (indice : c'est comme ça que vous êtes arrivé ici !) :

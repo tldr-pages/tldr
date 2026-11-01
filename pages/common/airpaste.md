@@ -13,11 +13,11 @@
 
 - Send a file:
 
-`airpaste < {{path/to/file}}`
+`airpaste <{{path/to/file}}`
 
 - Receive a file:
 
-`airpaste > {{path/to/file}}`
+`airpaste >{{path/to/file}}`
 
 - Create or join a channel:
 

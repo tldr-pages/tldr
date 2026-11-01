@@ -11,7 +11,7 @@
 
 - Query all the DNS records (A, AAAA, CNAME, NS, TXT, SRV, PTR, MX, SOA, AXFR, CAA):
 
-`dnsx <<< {{example.com}} -recon {{[-re|-resp]}}`
+`dnsx <<<{{example.com}} -recon {{[-re|-resp]}}`
 
 - Query a specific type of DNS record:
 

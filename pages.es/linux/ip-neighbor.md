@@ -1,6 +1,7 @@
 # ip neighbor
 
 > Subcomando de gestión de tablas IP de vecinos/ARP.
+> Vea también: `arp-scan`.
 > Más información: <https://manned.org/ip-neighbour>.
 
 - Muestra las entradas de la tabla de vecinos/ARP:

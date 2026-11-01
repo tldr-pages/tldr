@@ -5,7 +5,7 @@
 
 - Convert PPM image to PGM image:
 
-`ppmtopgm {{path/to/file.ppm}} > {{path/to/file.pgm}}`
+`ppmtopgm {{path/to/file.ppm}} >{{path/to/file.pgm}}`
 
 - Display version:
 
