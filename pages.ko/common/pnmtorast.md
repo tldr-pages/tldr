@@ -5,8 +5,8 @@
 
 - PNM 이미지를 RAST 이미지로 변환:
 
-`pnmtorast {{경로/대상/입력.pnm}} > {{경로/대상/출력.rast}}`
+`pnmtorast {{경로/대상/입력.pnm}} >{{경로/대상/출력.rast}}`
 
 - 출력 형식을 `RT_STANDARD` 또는 `RT_BYTE_ENCODED` 형식으로 강제 지정:
 
-`pnmtorast -{{standard|rle}} {{경로/대상/입력.pnm}} > {{경로/대상/출력.rast}}`
+`pnmtorast -{{standard|rle}} {{경로/대상/입력.pnm}} >{{경로/대상/출력.rast}}`

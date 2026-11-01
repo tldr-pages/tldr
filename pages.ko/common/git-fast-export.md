@@ -9,7 +9,7 @@
 
 - 전체 저장소를 파일로 내보내기:
 
-`git fast-export --all > {{경로/대상/파일}}`
+`git fast-export --all >{{경로/대상/파일}}`
 
 - 특정 브랜치만 내보내기:
 
@@ -17,8 +17,8 @@
 
 - `n`개 객체마다 진행 상태(`progress`) 출력하며 내보내기 (`git fast-import` 진행 표시용):
 
-`git fast-export --progress {{n}} --all > {{경로/대상/파일}}`
+`git fast-export --progress {{n}} --all >{{경로/대상/파일}}`
 
 - 특정 하위 디렉터리의 히스토리만 내보내기:
 
-`git fast-export --all -- {{경로/대상/디렉토리}} > {{경로/대상/파일}}`
+`git fast-export --all -- {{경로/대상/디렉토리}} >{{경로/대상/파일}}`

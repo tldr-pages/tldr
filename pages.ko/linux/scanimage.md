@@ -9,4 +9,4 @@
 
 - 이미지를 스캔하여 파일로 저장:
 
-`scanimage --format={{pnm|tiff|png|jpeg}} > {{경로/대상/새_이미지}}`
+`scanimage --format={{pnm|tiff|png|jpeg}} >{{경로/대상/새_이미지}}`
