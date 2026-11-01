@@ -5,7 +5,7 @@
 
 - Align two or more sequences using megablast (default), with the e-value threshold of 1e-9, pairwise output format (default):
 
-`blastn -query {{query.fa}} -subject {{subject.fa}} -evalue {{1e-9}}`
+`blastn -query {{query.fa}} -subject {{subject.fa}} -evalue 1e-9`
 
 - Align two or more sequences using blastn:
 
@@ -17,7 +17,7 @@
 
 - Search nucleotide databases using a nucleotide query, 16 threads (CPUs) to use in the BLAST search, with a maximum number of 10 aligned sequences to keep:
 
-`blastn -query {{query.fa}} -db {{path/to/blast_db}} -num_threads {{16}} -max_target_seqs {{10}}`
+`blastn -query {{query.fa}} -db {{path/to/blast_db}} -num_threads 16 -max_target_seqs 10`
 
 - Search the remote non-redundant nucleotide database using a nucleotide query:
 

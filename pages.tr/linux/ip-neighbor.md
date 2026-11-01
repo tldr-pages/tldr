@@ -1,6 +1,7 @@
 # ip neighbor
 
 > Komşu/ARP tablosu yönetimi IP alt komutu.
+> Ayrıca bakınız: `arp-scan`.
 > Daha fazla bilgi için: <https://manned.org/ip-neighbour>.
 
 - Komşu/ARP tablosu girdilerini görüntüle:
