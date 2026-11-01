@@ -14,7 +14,7 @@
 
 - Selecciona varios archivos con `<Shift Tab>` y los escribe a un archivo:
 
-`find {{ruta/al/directorio}} -type f | fzf {{[-m|--multi]}} > {{ruta/al/archivo}}`
+`find {{ruta/al/directorio}} -type f | fzf {{[-m|--multi]}} >{{ruta/al/archivo}}`
 
 - Aplica `fzf` con una consulta especificada:
 
