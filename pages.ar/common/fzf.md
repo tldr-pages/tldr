@@ -14,7 +14,7 @@
 
 - تحديد ملفات متعددة باستخدام `<Shift Tab>` وكتابتها إلى ملف:
 
-`find {{path/to/directory}} -type f | fzf {{[-m|--multi]}} > {{path/to/file}}`
+`find {{path/to/directory}} -type f | fzf {{[-m|--multi]}} >{{path/to/file}}`
 
 - تشغيل `fzf` مع نص بحثي محدد:
 
