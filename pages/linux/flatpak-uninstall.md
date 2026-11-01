@@ -10,7 +10,7 @@
 
 - Uninstall an application from the per-user installation:
 
-`flatpak uninstall --user {{com.example.app}}`
+`flatpak uninstall {{[-u|--user]}} {{com.example.app}}`
 
 - Uninstall an application and delete its data in `~/.var/app`:
 
