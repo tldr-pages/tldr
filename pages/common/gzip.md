@@ -21,15 +21,15 @@
 
 - Compress a file, specifying the output filename:
 
-`gzip {{[-c|--stdout]}} {{path/to/file}} > {{path/to/compressed_file.gz}}`
+`gzip {{[-c|--stdout]}} {{path/to/file}} >{{path/to/compressed_file.gz}}`
 
 - Decompress a `gzip` archive specifying the output filename:
 
-`gzip {{[-cd|--stdout --decompress]}} {{path/to/file.gz}} > {{path/to/uncompressed_file}}`
+`gzip {{[-cd|--stdout --decompress]}} {{path/to/file.gz}} >{{path/to/uncompressed_file}}`
 
 - Specify the compression level. 1 is the fastest (low compression), 9 is the slowest (high compression), 6 is the default:
 
-`gzip -{{1..9}} {{[-c|--stdout]}} {{path/to/file}} > {{path/to/compressed_file.gz}}`
+`gzip -{{1..9}} {{[-c|--stdout]}} {{path/to/file}} >{{path/to/compressed_file.gz}}`
 
 - List the contents of a compressed file:
 

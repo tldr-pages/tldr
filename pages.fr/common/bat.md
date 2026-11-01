@@ -11,11 +11,11 @@
 
 - Concatène le contenu de plusieurs fichiers vers le fichier de destination :
 
-`bat {{fichier1}} {{fichier2}} > {{fichier_de_destination}}`
+`bat {{fichier1}} {{fichier2}} >{{fichier_de_destination}}`
 
 - Ajoute le contenu d'un ficher à la fin du fichier de destination :
 
-`bat {{fichier1}} {{fichier2}} >> {{fichier_de_destination}}`
+`bat {{fichier1}} {{fichier2}} >>{{fichier_de_destination}}`
 
 - Numérote toutes les lignes affichées :
 

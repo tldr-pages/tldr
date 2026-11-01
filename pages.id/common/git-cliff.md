@@ -5,7 +5,7 @@
 
 - Buat suatu pesan changelog dari seluruh komit dalam suatu repositori Git, kemudian simpan ke dalam `CHANGELOG.md`:
 
-`git cliff > {{CHANGELOG.md}}`
+`git cliff >{{CHANGELOG.md}}`
 
 - Buat suatu pesan changelog atas komit-komit yang dimulai sejak tag terkini dan tampilkan pesan menuju `stdout`:
 

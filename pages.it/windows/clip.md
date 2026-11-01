@@ -9,7 +9,7 @@
 
 - Copia i contenuti di un file negli appunti di Windows:
 
-`clip < {{percorso\per\file.ext}}`
+`clip <{{percorso\per\file.ext}}`
 
 - Copia il testo con una nuova riga finale negli appunti di Windows:
 

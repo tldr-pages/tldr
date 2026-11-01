@@ -6,8 +6,8 @@
 
 - Genereer een schaduwwerkingsafbeelding met de invoerafbeelding als een hoogtekaart:
 
-`pamshadedrelief < {{pad/naar/invoer.pam}} > {{pad/naar/uitvoer.pam}}`
+`pamshadedrelief <{{pad/naar/invoer.pam}} >{{pad/naar/uitvoer.pam}}`
 
 - Pas de gamma aan van een afbeelding met de gespecificeerde factor:
 
-`pamshadedrelief < {{pad/naar/invoer.pam}} {{[-g|-gamma]}} {{factor}} > {{pad/naar/uitvoer.pam}}`
+`pamshadedrelief <{{pad/naar/invoer.pam}} {{[-g|-gamma]}} {{factor}} >{{pad/naar/uitvoer.pam}}`

@@ -9,7 +9,7 @@
 
 - Schrijf geïnstalleerde pakketten naar `requirements.txt`:
 
-`pip freeze > requirements.txt`
+`pip freeze >requirements.txt`
 
 - Toon geïnstalleerde pakketten van een virtuele omgeving, met uitzondering van globaal geïnstalleerde pakketten:
 

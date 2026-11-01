@@ -6,4 +6,4 @@
 
 - Copy a Netpbm file from `stdin` to `stdout` if and only if it valid; fail otherwise:
 
-`{{command}} | pamvalidate > {{path/to/output.ext}}`
+`{{command}} | pamvalidate >{{path/to/output.ext}}`

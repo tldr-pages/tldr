@@ -6,11 +6,11 @@
 
 - Format output for a PostScript printer, saving the output to a file:
 
-`troff {{path/to/input.roff}} | grops > {{path/to/output.ps}}`
+`troff {{path/to/input.roff}} | grops >{{path/to/output.ps}}`
 
 - Format output for a PostScript printer using the me macro package, saving the output to a file:
 
-`troff -{{me}} {{path/to/input.roff}} | grops > {{path/to/output.ps}}`
+`troff -{{me}} {{path/to/input.roff}} | grops >{{path/to/output.ps}}`
 
 - Format output as ASCII text using the man macro package:
 
@@ -18,4 +18,4 @@
 
 - Format output as a pdf file, saving the output to a file:
 
-`troff -T {{pdf}} {{path/to/input.roff}} | gropdf > {{path/to/output.pdf}}`
+`troff -T {{pdf}} {{path/to/input.roff}} | gropdf >{{path/to/output.pdf}}`
