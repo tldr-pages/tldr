@@ -18,7 +18,7 @@
 
 - 감사 결과를 JSON 형식으로 파일에 저장:
 
-`composer audit --format json > audit_report.json`
+`composer audit --format json >audit_report.json`
 
 - 프로젝트의 특정 패키지가 보안 문제의 영향을 받는지 확인:
 

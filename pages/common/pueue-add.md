@@ -21,7 +21,7 @@
 
 - Add a command and start it after commands 9 and 12 finish successfully:
 
-`pueue add {{[-a|--after]}} {{9}} {{12}} {{[-g|--group]}} "{{torrents}}" -- {{transmission-cli torrent_file.torrent}}`
+`pueue add {{[-a|--after]}} 9 12 {{[-g|--group]}} "{{torrents}}" -- {{transmission-cli torrent_file.torrent}}`
 
 - Add a command with a label after some delay has passed, see `pueue enqueue` for valid datetime formats:
 

@@ -6,7 +6,7 @@
 
 checks="TLDR104"
 case $1 in
-  *ar*|*bn*|*fa*|*hi*|*ja*|*ko*|*lo*|*ml*|*ne*|*ta*|*th*|*tr*)
+  *ar*|*bn*|*fa*|*he*|*hi*|*ja*|*ko*|*lo*|*ml*|*ne*|*ta*|*th*|*tr*)
     checks+=",TLDR003,TLDR004,TLDR015"
   ;;
   *zh*)

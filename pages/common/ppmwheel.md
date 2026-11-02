@@ -5,12 +5,12 @@
 
 - Generate a color wheel of type `Ppmcirc`:
 
-`ppmwheel {{diameter}} > {{path/to/output.ppm}}`
+`ppmwheel {{diameter}} >{{path/to/output.ppm}}`
 
 - Generate a color wheel of type `Hue-value`:
 
-`ppmwheel {{[-huev|-huevalue]}} {{diameter}} > {{path/to/output.ppm}}`
+`ppmwheel {{[-huev|-huevalue]}} {{diameter}} >{{path/to/output.ppm}}`
 
 - Generate a color wheel of type `Hue-saturation`:
 
-`ppmwheel {{[-hues|-huesaturation]}} {{diameter}} > {{path/to/output.ppm}}`
+`ppmwheel {{[-hues|-huesaturation]}} {{diameter}} >{{path/to/output.ppm}}`

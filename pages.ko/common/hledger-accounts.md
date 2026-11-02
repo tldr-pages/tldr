@@ -17,7 +17,7 @@
 
 - 사용되었지만 선언되지 않은 계정에 대해 account 지시문을 생성하여 저널에 추가:
 
-`hledger {{[acc|accounts]}} --undeclared --directives >> {{2024-accounts.journal}}`
+`hledger {{[acc|accounts]}} --undeclared --directives >>{{2024-accounts.journal}}`
 
 - 이름에 `asset`이 포함된 계정과 해당 계정의 선언된/추론된 타입 표시:
 

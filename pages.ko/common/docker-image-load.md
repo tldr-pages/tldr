@@ -5,7 +5,7 @@
 
 - `stdin`에서 Docker 이미지 로드:
 
-`docker < {{경로/대상/이미지_파일.tar}} {{[load|image load]}}`
+`docker <{{경로/대상/이미지_파일.tar}} {{[load|image load]}}`
 
 - 특정 파일에서 Docker 이미지 로드:
 

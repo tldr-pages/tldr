@@ -17,4 +17,4 @@
 
 - 주어진 호스트의 지문으로 SSH known_hosts 파일 수동 업데이트:
 
-`ssh-keyscan -H {{호스트}} >> ~/.ssh/known_hosts`
+`ssh-keyscan -H {{호스트}} >>~/.ssh/known_hosts`

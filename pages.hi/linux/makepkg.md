@@ -30,4 +30,4 @@
 
 - स्रोत जानकारी बनाएं और `.SRCINFO` में सहेजें:
 
-`makepkg --printsrcinfo > .SRCINFO`
+`makepkg --printsrcinfo >.SRCINFO`

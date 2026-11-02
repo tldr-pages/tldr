@@ -9,7 +9,7 @@
 
 - Copia el contenido de un archivo al portapapeles de Windows:
 
-`clip < {{ruta\al\archivo.ext}}`
+`clip <{{ruta\al\archivo.ext}}`
 
 - Copia texto con un salto de línea al portapapeles de Windows:
 

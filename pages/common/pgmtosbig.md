@@ -5,4 +5,4 @@
 
 - Convert a PGM image file to the SBIG CCDOPS format:
 
-`pgmtosbig {{path/to/input_file.pgm}} > {{path/to/output.sbig}}`
+`pgmtosbig {{path/to/input_file.pgm}} >{{path/to/output.sbig}}`

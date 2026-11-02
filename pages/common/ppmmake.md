@@ -5,4 +5,4 @@
 
 - Create a PPM image of the specified color and dimensions:
 
-`ppmmake {{color}} {{width}} {{height}} > {{path/to/output_file.ppm}}`
+`ppmmake {{color}} {{width}} {{height}} >{{path/to/output_file.ppm}}`

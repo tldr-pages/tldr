@@ -5,7 +5,7 @@
 
 - Biorad 공초점 파일을 읽고 여기에 포함된 n번째 이미지를 PGM 파일로 저장:
 
-`bioradtopgm -{{n}} {{경로/대상/file.pic}} > {{경로/대상/file.pgm}}`
+`bioradtopgm -{{n}} {{경로/대상/file.pic}} >{{경로/대상/file.pgm}}`
 
 - Biorad 공초점 파일을 읽고 포함된 이미지 수를 인쇄:
 

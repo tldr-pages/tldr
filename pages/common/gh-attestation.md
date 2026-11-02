@@ -29,4 +29,4 @@
 
 - Save the trusted root of signing certificates to a file for offline verification:
 
-`gh {{[at|attestation]}} trusted-root > {{path/to/trusted_root.jsonl}}`
+`gh {{[at|attestation]}} trusted-root >{{path/to/trusted_root.jsonl}}`

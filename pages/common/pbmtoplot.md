@@ -5,4 +5,4 @@
 
 - Convert a PBM image into a UNIX plot file:
 
-`pbmtoplot {{path/to/image.pbm}} > {{path/to/output.plot}}`
+`pbmtoplot {{path/to/image.pbm}} >{{path/to/output.plot}}`

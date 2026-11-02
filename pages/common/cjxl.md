@@ -24,6 +24,10 @@
 
 `cjxl {{[-q|--quality]}} {{0..100}} {{[-j|--lossless_jpeg]}} 0 {{path/to/image.jpeg}} {{path/to/output}}.jxl`
 
+- Adjust decoding speed at the expense of filesize:
+
+`cjxl --faster_decoding {{0..4}} {{path/to/image.ext}} {{path/to/output}}.jxl`
+
 - Display an extremely detailed help:
 
 `cjxl {{[-h -v -v -v -v|--help --verbose --verbose --verbose --verbose]}}`

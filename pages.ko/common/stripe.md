@@ -1,7 +1,7 @@
 # stripe
 
 > Stripe 계정과 상호 작용.
-> 더 많은 정보: <https://docs.stripe.com/stripe-cli>.
+> 더 많은 정보: <https://docs.stripe.com/cli>.
 
 - 계정 활동 로그 팔로우:
 

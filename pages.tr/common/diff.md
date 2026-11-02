@@ -30,4 +30,4 @@
 
 - Git için iki metin dosyasının farklarından, var olmayan dosyaları ise boş olarak değerlendirerek bir yama dosyası oluşturun:
 
-`diff {{[-a|--text]}} {{[-u|--unified]}} {{[-N|--new-file]}} {{eski_dosya}} {{yeni_dosya}} > {{fark.patch}}`
+`diff {{[-a|--text]}} {{[-u|--unified]}} {{[-N|--new-file]}} {{eski_dosya}} {{yeni_dosya}} >{{fark.patch}}`

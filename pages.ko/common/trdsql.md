@@ -5,7 +5,7 @@
 
 - 여러 JSON 파일의 객체 데이터를 헤더와 큰따옴표가 포함된 CSV 파일로 변환 (`-oh`):
 
-`trdsql -ocsv -oh "SELECT * FROM {{경로/대상/directory/*.json}}" | sed 's/\([^,]*\)/"&"/g' > {{경로/대상/파일.csv}}`
+`trdsql -ocsv -oh "SELECT * FROM {{경로/대상/directory/*.json}}" | sed 's/\([^,]*\)/"&"/g' >{{경로/대상/파일.csv}}`
 
 - JSON 리스트를 테이블로 해석하고 내부 객체의 필드를 열로 사용 (`경로/대상/파일.json: {"list":[{"age":"26","name":"Tanaka"}]}`):
 

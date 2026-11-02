@@ -6,7 +6,7 @@
 
 - Coloca el contenido de un archivo específico en el portapapeles:
 
-`pbcopy < {{ruta/al/archivo}}`
+`pbcopy <{{ruta/al/archivo}}`
 
 - Coloca los resultados de un comando específico en el portapapeles:
 

@@ -23,6 +23,14 @@
 
 `trap '' {{[2|SIGINT]}}`
 
+- Execute a command when the current shell exits:
+
+`trap '{{echo "Initiating cleanup"}}' EXIT`
+
+- Execute a command before every single command:
+
+`trap '{{echo "Debug output"}}' DEBUG`
+
 - Display help:
 
 `help trap`

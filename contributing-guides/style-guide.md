@@ -315,8 +315,8 @@ When linking pages to websites that have locale settings like the Microsoft Lear
 The heading should adhere to the following order:
 
 ```md
-> Short description of the functionality.
-> Further clarification of the functionality.
+> Short description of the functionality written in imperative mood.
+> Further clarification of the functionality written in present tense.
 > Note: Any note for the usage.
 > Part of the Example suite.
 > Some subcommands such as `subcommand1`, `subcommand2`, etc. have their own usage documentation.
@@ -368,9 +368,11 @@ Try to keep the following order:
 - Options with arguments
 - Output redirection to a file
 
-For example: `systemctl < input_file.txt status pipewire --user > output_file.txt`
+For example: `systemctl <input_file.txt status pipewire --user >output_file.txt`
 
 This is only a suggestion and should be disregarded when program functionality or readability dictates otherwise. For example when a page is repeating arguments between commands try to align them vertically.
+
+Prefer omitting the space after redirection operators (`<input`, `>output`) to treat them as a single unit.
 
 If the command does multiple things, try to keep the chronological order in which things happen.
 

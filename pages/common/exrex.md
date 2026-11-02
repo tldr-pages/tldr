@@ -14,7 +14,7 @@
 
 - Generate at most 100 strings that match a `regex`:
 
-`exrex {{[-m|--max-number]}} {{100}} '{{regex}}'`
+`exrex {{[-m|--max-number]}} 100 '{{regex}}'`
 
 - Generate all possible strings that match a `regex`, joined by a custom delimiter string:
 

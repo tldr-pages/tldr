@@ -5,4 +5,4 @@
 
 - Remove grey shadows from a PGM image:
 
-`pgmdeshadow {{path/to/input_file.pgm}} > {{path/to/output_file.pgm}}`
+`pgmdeshadow {{path/to/input_file.pgm}} >{{path/to/output_file.pgm}}`

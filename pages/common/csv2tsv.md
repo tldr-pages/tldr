@@ -5,7 +5,7 @@
 
 - Convert from CSV to TSV:
 
-`csv2tsv {{path/to/input_csv1 path/to/input_csv2 ...}} > {{path/to/output_tsv}}`
+`csv2tsv {{path/to/input_csv1 path/to/input_csv2 ...}} >{{path/to/output_tsv}}`
 
 - Convert field delimiter separated CSV to TSV:
 
