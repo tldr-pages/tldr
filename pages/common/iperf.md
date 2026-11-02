@@ -9,7 +9,7 @@
 
 - Run on server using UDP mode and set server port to listen on 5001:
 
-`iperf {{[-u|--udp]}} {{[-s|--server]}} {{[-p|--port]}} {{5001}}`
+`iperf {{[-u|--udp]}} {{[-s|--server]}} {{[-p|--port]}} 5001`
 
 - Run on client:
 
@@ -17,11 +17,11 @@
 
 - Run on client every 2 seconds:
 
-`iperf {{[-c|--client]}} {{server_address}} {{[-i|--interval]}} {{2}}`
+`iperf {{[-c|--client]}} {{server_address}} {{[-i|--interval]}} 2`
 
 - Run on client with 5 parallel threads:
 
-`iperf {{[-c|--client]}} {{server_address}} {{[-P|--parallel]}} {{5}}`
+`iperf {{[-c|--client]}} {{server_address}} {{[-P|--parallel]}} 5`
 
 - Run on client using UDP mode:
 
