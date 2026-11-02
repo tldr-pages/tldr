@@ -10,7 +10,7 @@
 
 - Print 2 copies:
 
-`lpr -# {{2}} {{path/to/file}}`
+`lpr -# 2 {{path/to/file}}`
 
 - Print to a named printer:
 
