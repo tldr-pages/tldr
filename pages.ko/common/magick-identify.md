@@ -14,4 +14,4 @@
 
 - 현재 디렉토리의 모든 JPEG 파일의 크기를 수집하여 CSV 파일에 저장:
 
-`magick identify -format "{{%f,%w,%h\n}}" {{*.jpg}} > {{경로/대상/파일목록.csv}}`
+`magick identify -format "{{%f,%w,%h\n}}" {{*.jpg}} >{{경로/대상/파일목록.csv}}`

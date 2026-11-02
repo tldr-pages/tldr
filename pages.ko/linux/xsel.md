@@ -17,7 +17,7 @@
 
 - 클립보드의 내용을 파일에 출력:
 
-`xsel {{[-ob|--output --clipboard]}} > {{경로/대상/파일}}`
+`xsel {{[-ob|--output --clipboard]}} >{{경로/대상/파일}}`
 
 - 클립보드 내용 지우기:
 
