@@ -17,7 +17,7 @@
 
 - Start a daemon with a lowered priority that can run a maximum of 4 tasks at a time:
 
-`distccd --daemon {{[-j|--jobs]}} {{4}} {{[-N|--nice]}} {{5}}`
+`distccd --daemon {{[-j|--jobs]}} 4 {{[-N|--nice]}} {{5}}`
 
 - Start a daemon and register it via mDNS/DNS-SD (Zeroconf):
 

@@ -21,4 +21,4 @@
 
 - 환경 변수 쌍 이름 값을 사용하여 가상 머신 시작:
 
-`VBoxManage startvm {{vm_이름|uuid}} --put-env={{이름}}={{값}}`
+`VBoxManage startvm {{vm_이름|uuid}} {{[-E|--putenv]}} {{이름}}={{값}}`
