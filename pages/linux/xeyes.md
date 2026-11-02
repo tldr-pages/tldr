@@ -10,4 +10,4 @@
 
 - Launch xeyes on a remote machine's display 0, screen 0:
 
-`xeyes -display {{remote_host}}:{{0}}.{{0}}`
+`xeyes -display {{remote_host}}:0.0`
