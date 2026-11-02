@@ -1,7 +1,7 @@
 # pm install-write
 
 > Añade paquetes a la sesión de instalación.
-> Consulta también: `pm install-create`, `pm install-commit`.
+> Vea también: `pm install-create`, `pm install-commit`.
 > Más información: <https://developer.android.com/tools/adb#pm>.
 
 - Añade un paquete al lote de instalación:
