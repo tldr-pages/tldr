@@ -268,7 +268,7 @@ The templates can be changed when necessary.
 
 > यह आदेश `example` का उपनाम है।
 
-- मूल आदेश के लिए दस्तावेज़ देखें:
+- मूल आदेश के लिए प्रलेखन देखें:
 
 `tldr example`
 ```
