@@ -21,4 +21,4 @@
 
 - Face partajarea persistentă prin adăugarea intrărilor în `/etc/dfs/dfstab`:
 
-`echo "share -F nfs -o rw /{{cale/către/director}}" >> /etc/dfs/dfstab`
+`echo "share -F nfs -o rw /{{cale/către/director}}" >>/etc/dfs/dfstab`

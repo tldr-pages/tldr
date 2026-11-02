@@ -9,7 +9,7 @@
 
 - Eksportuj konfigurację usług do pliku:
 
-`svccfg export {{nazwa_usługi}} > {{ścieżka/do/pliku_smf.xml}}`
+`svccfg export {{nazwa_usługi}} >{{ścieżka/do/pliku_smf.xml}}`
 
 - Importuj/aktualizuj konfigurację usług z pliku:
 

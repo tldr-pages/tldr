@@ -22,4 +22,4 @@
 
 - পরবর্তী বিশ্লেষণের জন্য আউটপুট একটি ফাইলে সংরক্ষণ করুন:
 
-`GetNPUsers.py {{ডোমেইন}}/ -usersfile {{ইউজারলিস্ট/এর/পাথ}} -dc-ip {{domain_controller_ip}} -request > {{pathname}}`
+`GetNPUsers.py {{ডোমেইন}}/ -usersfile {{ইউজারলিস্ট/এর/পাথ}} -dc-ip {{domain_controller_ip}} -request >{{pathname}}`

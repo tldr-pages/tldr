@@ -9,7 +9,7 @@
 
 - Crea una nova configuració per defecte:
 
-`conky {{[-C|--print-config]}} > ~/.conkyrc`
+`conky {{[-C|--print-config]}} >~/.conkyrc`
 
 - Executa conky amb un arxiu de configuració concret:
 

@@ -21,15 +21,15 @@
 
 - Komprimovat soubor a zadat název výstupního souboru:
 
-`gzip {{[-c|--stdout]}} {{cesta/k/souboru}} > {{cesta/ke/komprimovanemu_souboru.gz}}`
+`gzip {{[-c|--stdout]}} {{cesta/k/souboru}} >{{cesta/ke/komprimovanemu_souboru.gz}}`
 
 - Dekomprimovat `gzip` archiv a zadat název výstupního souboru:
 
-`gzip {{[-cd|--stdout --decompress]}} {{cesta/k/souboru.gz}} > {{cesta/k/nekomprimovanemu_souboru}}`
+`gzip {{[-cd|--stdout --decompress]}} {{cesta/k/souboru.gz}} >{{cesta/k/nekomprimovanemu_souboru}}`
 
 - Upřesnit úroveň komprese. 1 je nejrychlejší (nízká komprese), 9 je nejpomalejší (vysoká komprese), 6 je výchozí:
 
-`gzip -{{1..9}} {{[-c|--stdout]}} {{cesta/k/souboru}} > {{cesta/ke/komprimovanemu_souboru.gz}}`
+`gzip -{{1..9}} {{[-c|--stdout]}} {{cesta/k/souboru}} >{{cesta/ke/komprimovanemu_souboru.gz}}`
 
 - Vypsat obsah komprimovaného souboru:
 
