@@ -14,4 +14,4 @@
 
 - Recopila las dimensiones de todos los archivos JPEG en el directorio actual y los guarda en un archivo CSV:
 
-`magick identify -format "{{%f,%w,%h\n}}" {{*.jpg}} > {{ruta/al/archivo.csv}}`
+`magick identify -format "{{%f,%w,%h\n}}" {{*.jpg}} >{{ruta/al/archivo.csv}}`

@@ -10,4 +10,4 @@
 
 - Exporteer het bestandssysteem van een container naar `stdout`:
 
-`podman export {{container_naam_of_id}} > {{pad/naar/bestand.tar}}`
+`podman export {{container_naam_of_id}} >{{pad/naar/bestand.tar}}`

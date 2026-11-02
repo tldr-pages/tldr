@@ -1,6 +1,7 @@
 # arp-scan
 
 > Invia pacchetti ARP agli host (IP o hostname) per scansionare la rete locale.
+> Vedi anche: `ip neighbor`.
 > Maggiori informazioni: <https://github.com/royhills/arp-scan>.
 
 - Scansiona la rete locale corrente:

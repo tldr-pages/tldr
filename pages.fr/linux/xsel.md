@@ -17,7 +17,7 @@
 
 - Sortie du contenu du presse-papiers dans un fichier :
 
-`xsel {{[-ob|--output --clipboard]}} > {{fichier}}`
+`xsel {{[-ob|--output --clipboard]}} >{{fichier}}`
 
 - Efface le presse-papiers :
 

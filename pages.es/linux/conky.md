@@ -9,7 +9,7 @@
 
 - Crea una nueva configuración por defecto:
 
-`conky {{[-C|--print-config]}} > ~/.conkyrc`
+`conky {{[-C|--print-config]}} >~/.conkyrc`
 
 - Ejecuta conky con un archivo de configuración concreto:
 
@@ -25,4 +25,4 @@
 
 - Pausa de 5 segundos al iniciar antes de ejecutarlo:
 
-`conky {{[-p|--pause]}} {{5}}`
+`conky {{[-p|--pause]}} 5`

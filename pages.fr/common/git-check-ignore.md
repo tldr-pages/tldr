@@ -13,7 +13,7 @@
 
 - Utilisez des chemins d'accès, un par ligne, de `stdin` :
 
-`git < {{chemin/vers/fichier_annexe}} check-ignore --stdin`
+`git <{{chemin/vers/fichier_annexe}} check-ignore --stdin`
 
 - Ne pas vérifier l'index (utilisé pour déboguer pourquoi les chemins ont été suivis et non ignorés) :
 

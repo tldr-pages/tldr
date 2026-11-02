@@ -2,6 +2,6 @@
 
 > Bu komut `b2sum` için bir takma addır.
 
-- Asıl komutun belgelerini görüntüleyin:
+- Asıl komutun dokümantasyonunu görüntüleyin:
 
 `tldr b2sum`

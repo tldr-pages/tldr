@@ -9,7 +9,7 @@
 
 - Build in the current directory, executing 4 [j]obs at a time in parallel:
 
-`ninja -j {{4}}`
+`ninja -j 4`
 
 - Build a program in a given directory:
 
