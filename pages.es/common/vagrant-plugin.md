@@ -1,7 +1,6 @@
 # vagrant plugin
 
 > Gestiona los complementos de Vagrant.
-> Vea también: `vagrant`.
 > Más información: <https://developer.hashicorp.com/vagrant/docs/cli/plugin>.
 
 - Lista todos los complementos actualmente instalados:

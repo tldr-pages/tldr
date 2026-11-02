@@ -1,7 +1,6 @@
 # composer audit
 
 > PHP 프로젝트의 의존성을 분석하여 알려진 보안 취약점을 탐지하고 영향을 받는 패키지를 표시.
-> 관련 항목: `composer`.
 > 더 많은 정보: <https://getcomposer.org/doc/03-cli.md#audit>.
 
 - 현재 프로젝트의 보안 취약점을 확인:

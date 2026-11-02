@@ -2,7 +2,6 @@
 
 > 원격 DNF 저장소의 패키지 및 메타데이터를 로컬 디렉터리와 동기화.
 > 기본 `dnf` 명령에는 포함되지 않으며, `dnf-plugins-core`을 통해 지원됨.
-> 관련 항목: `dnf`.
 > 더 많은 정보: <https://dnf-plugins-core.readthedocs.io/en/latest/reposync.html>.
 
 - 지정한 저장소 (`repo_name`)의 모든 패키지를 현재 작업 디렉터리의 `repo_name` 하위 디렉터리로 동기화:
