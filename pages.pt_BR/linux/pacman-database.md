@@ -2,7 +2,6 @@
 
 > Atua no banco de dados de pacotes do Arch Linux.
 > Modifica certos atributos dos pacotes instalados.
-> Veja também: `pacman`.
 > Mais informações: <https://manned.org/pacman.8>.
 
 - Marca um pacote como instalado implicitamente:

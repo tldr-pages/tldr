@@ -1,7 +1,6 @@
 # vagrant plugin
 
 > Vagrant 플러그인을 관리.
-> 관련 항목: `vagrant`.
 > 더 많은 정보: <https://developer.hashicorp.com/vagrant/docs/cli/plugin>.
 
 - 현재 설치된 모든 플러그인 목록 표시:
