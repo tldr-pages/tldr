@@ -1,9 +1,9 @@
 # runc
 
 > Run applications packaged according to the Open Container Initiative (OCI) format.
-> Note: Rootless containers can store their state in a custom directory with `--root {{path/to/state_dir}}`.
+> Note: Rootless containers can store their state in a custom directory with `--root`.
 > See also: `ctr`, `nerdctl`.
-> More information: <https://manpages.debian.org/latest/runc/runc.8.html>.
+> More information: <https://manned.org/runc>.
 
 - Generate a default OCI bundle specification (`config.json`) in the current directory:
 
