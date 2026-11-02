@@ -163,7 +163,7 @@ This file contains the translation templates of this notice.
 ### hi
 
 ```markdown
-> कुछ कमांड्स जैसे की `example`, उनके अपने उपयोग प्रलेखन हैं।
+> कुछ उप-आदेशों, जैसे कि `example`, के अपने उपयोग प्रलेखन हैं।
 ```
 
 ---
