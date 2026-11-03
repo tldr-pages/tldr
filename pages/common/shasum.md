@@ -33,4 +33,4 @@
 
 - Check a known SHA checksum of a file (Note: two spaces separating checksum and path):
 
-`echo '{{known_sha_checksum_of_the_file}} {{path/to/file}}' | shasum {{[-c|--check]}}`
+`echo '{{known_sha_checksum_of_the_file}}  {{path/to/file}}' | shasum {{[-c|--check]}}`
