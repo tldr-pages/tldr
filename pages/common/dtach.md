@@ -24,6 +24,6 @@
 
 `<Ctrl \>`
 
-- Attach with the `winch` redraw method, for full-screen programs:
+- Attach using the `winch` redraw method (useful for full-screen programs):
 
 `dtach -a {{path/to/socket}} -r winch`
