@@ -21,4 +21,4 @@
 
 - 파일을 업로드하고 4번의 다운로드를 허용:
 
-`ffsend upload {{경로/대상/파일}} {{[-d|--downloads]}} {{4}}`
+`ffsend upload {{경로/대상/파일}} {{[-d|--downloads]}} 4`

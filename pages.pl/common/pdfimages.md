@@ -9,7 +9,7 @@
 
 - Wyodrębnij obrazy ze stron 3 do 5:
 
-`pdfimages -f {{3}} -l {{5}} {{ścieżka/do/pliku.pdf}} {{przedrostek_nazwy_pliku}}`
+`pdfimages -f 3 -l 5 {{ścieżka/do/pliku.pdf}} {{przedrostek_nazwy_pliku}}`
 
 - Wyodrębnij obrazy z pliku PDF oraz zawrzyj numer strony w nazwach wyjściowych:
 

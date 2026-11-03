@@ -9,7 +9,7 @@
 
 - 以 "CD" 质量录制 10 秒钟声音：
 
-`arecord {{[-vv|--verbose --verbose]}} {{[-f|--format]}} cd {{[-d|--duration]}} {{10}} {{路径/文件名.wav}}`
+`arecord {{[-vv|--verbose --verbose]}} {{[-f|--format]}} cd {{[-d|--duration]}} 10 {{路径/文件名.wav}}`
 
 - 录制一段声音并以 mp3 格式保存（录制结束以 `<Ctrl c>` 停止）：
 

@@ -5,4 +5,4 @@
 
 - مخفی کردن نشان ماوس بعد از 3 ثانیه:
 
-`unclutter -idle {{3}}`
+`unclutter -idle 3`
