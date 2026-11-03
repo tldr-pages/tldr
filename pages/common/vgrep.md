@@ -16,7 +16,9 @@
 
 `vgrep {{[-s|--show]}} 4`
 
+- Display a context of "3" lines for each match in the cache:
 
+`vgrep {{[-s|--show]}} {{[c|context]}}3`
 
 - Display the number of matches for each directory in the tree:
 
