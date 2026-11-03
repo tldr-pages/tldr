@@ -1,4 +1,4 @@
-xargs
+# xargs
 
 > Execute a command with piped arguments coming from another command, a file, etc.
 > The input is treated as a single block of text and split into separate pieces on spaces, tabs, newlines, and end-of-file.
