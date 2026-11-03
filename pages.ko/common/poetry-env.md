@@ -20,7 +20,7 @@
 
 `poetry env info {{[-e|--executable]}}`
 
-- 현재 프로젝트와 연결된 모든 가상 환경 목록 표시  (전체 경로를 포함):
+- 현재 프로젝트와 연결된 모든 가상 환경 목록 표시 (전체 경로를 포함):
 
 `poetry env list --full-path`
 

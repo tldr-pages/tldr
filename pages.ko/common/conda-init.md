@@ -4,7 +4,7 @@
 > 대부분 쉘은 변경 사항이 적용되려면, 종료 후 다시 시작해야 합니다.
 > 더 많은 정보: <https://docs.conda.io/projects/conda/en/latest/commands/init.html>.
 
-- 특정 쉘 초기화 (지정하지 않으면, UNIX는 `bash`,  Windows는 `powershell` 기본 사용):
+- 특정 쉘 초기화 (지정하지 않으면, UNIX는 `bash`, Windows는 `powershell` 기본 사용):
 
 `conda init {{zsh|bash|powershell|fish|tcsh|xonsh}}`
 
