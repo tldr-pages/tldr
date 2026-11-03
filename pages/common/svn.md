@@ -21,7 +21,7 @@
 
 - Display changes from the last 10 revisions, showing modified files for each revision:
 
-`svn log {{[-vl|--verbose --limit]}} {{10}}`
+`svn log {{[-vl|--verbose --limit]}} 10`
 
 - Display help:
 

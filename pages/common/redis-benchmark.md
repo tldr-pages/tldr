@@ -21,12 +21,10 @@
 
 - Run benchmark by using 100000 [r]andom keys:
 
-`redis-benchmark -t {{set}} -r {{100000}}`
+`redis-benchmark -t {{set}} -r 100000`
 
 - Run benchmark by using a [P]ipelining of 16 commands:
 
-`redis-benchmark -n {{1000000}} -t {{set,get}} -P {{16}}`
-
-- Run benchmark [q]uietly and only show query per seconds result:
+`redis-benchmark -n {{1000000}} -t {{set,get}} -P 16- Run benchmark [q]uietly and only show query per seconds result:
 
 `redis-benchmark -q`
