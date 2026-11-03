@@ -1,4 +1,4 @@
- screenrecord
+# screenrecord
 
 > Record a video of a mobile display.
 > Note: This command can only be used through `adb shell`.
