@@ -1,7 +1,7 @@
 # flatpak install
 
 > Install flatpak applications and runtimes.
-> See also: `flatpak`, `flatpak-update`, `flatpak-run`.
+> See also: `flatpak`, `flatpak update`, `flatpak run`.
 > More information: <https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-install>.
 
 - Install an application from a remote source:
