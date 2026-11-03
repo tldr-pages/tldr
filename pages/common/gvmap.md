@@ -25,4 +25,4 @@
 
 - Only draw cluster 2 (by default, all clusters are drawn):
 
-`gvmap -highlight={{2}} {{graph.gv}} -o {{output.xdot}}`
+`gvmap -highlight=2 {{graph.gv}} -o {{output.xdot}}`
