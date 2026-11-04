@@ -1,28 +1,27 @@
 # tfenv
 
 > Install, uninstall, or switch between Terraform versions.
-> Supports version numbers like "1.5.7" and keywords like "latest", "min-required" or "latest-allowed".
-> Automatically uses the Terraform version from a `.terraform-version` file, if present.
+> Note: Automatically uses the version from `.terraform-version`, if present.
 > See also: `terraform`, `asdf`.
 > More information: <https://github.com/tfutils/tfenv#usage>.
 
-- Install/uninstall a specific version of Terraform:
+- Install/uninstall a specific version:
 
 `tfenv {{install|uninstall}} {{terraform_version}}`
 
-- Install the latest version of Terraform matching a `regex`:
+- Install the latest version matching a `regex`:
 
 `tfenv install latest:{{regex}}`
 
-- Install the minimum version of Terraform required by the configuration files in the current directory:
+- Install the minimum version required by the current workspace:
 
 `tfenv install min-required`
 
-- Switch the Terraform version to use (also sets it as the default version):
+- Switch to a version and set it as default:
 
 `tfenv use {{terraform_version}}`
 
-- List remote versions available for install:
+- List available remote versions:
 
 `tfenv list-remote`
 
@@ -30,6 +29,6 @@
 
 `tfenv list`
 
-- Create a `.terraform-version` file in the current directory pinning the currently used version:
+- Pin the currently used version in `.terraform-version`:
 
 `tfenv pin`
