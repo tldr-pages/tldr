@@ -13,7 +13,7 @@
 
 - Run a subset of tests with default 100000 requests:
 
-`redis-benchmark -h {{host}} -p {{port}} -t {{set,lpush}} -n {{100000}}`
+`redis-benchmark -h {{host}} -p {{port}} -t {{set,lpush}} -n 100000`
 
 - Run with a specific script:
 
