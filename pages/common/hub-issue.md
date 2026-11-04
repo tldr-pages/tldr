@@ -13,4 +13,4 @@
 
 - List 10 closed issues assigned to a specific user:
 
-`hub issue {{[-s|--state]}} closed|--assignee]}} {{username}} --limit 10`
+`hub issue {{[-s|--state]}} closed {{[-a|--assignee]}} {{username}} {{[-L|--limit]}} 10`
