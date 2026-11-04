@@ -122,6 +122,8 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [6 September 2018](https://github.com/tldr-pages/tldr/issues/2306) — [21 June 2021](https://github.com/tldr-pages/tldr/issues/6142), [9 September 2026](https://github.com/tldr-pages/tldr/issues/23433) — present
 - **open-source-learner ([@open-source-learner](https://github.com/open-source-learner))**:
   [10 September 2026](https://github.com/tldr-pages/tldr/issues/23903) — present
+- **Pradeep Tarakar ([@pradeept](https://github.com/pradeept))**:
+  [3 November 2026](https://github.com/tldr-pages/tldr/issues/24969) — present  
 - Owen Voke ([@owenvoke](https://github.com/owenvoke)):
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):

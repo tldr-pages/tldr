@@ -9,7 +9,7 @@
 
 - 短縮コミットハッシュを4桁にした名前を作成する:
 
-`git describe --abbrev={{4}}`
+`git describe --abbrev=4`
 
 - タグ参照パスを含む名前を生成する:
 

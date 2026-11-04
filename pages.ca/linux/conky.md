@@ -25,4 +25,4 @@
 
 - Pausa de 5 segons al iniciar abans d'executar-lo:
 
-`conky {{[-p|--pause]}} {{5}}`
+`conky {{[-p|--pause]}} 5`
