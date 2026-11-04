@@ -22,7 +22,7 @@
 
 - Show end balances (including from postings before the start date), quarterly in 2024, in accounts whose name contains `assets` or `liabilities`:
 
-`hledger {{[bal|balance]}} {{[-H|--historical]}} {{[-p|--period]}} '{{quarterly in 2024}}' assets liabilities`
+`hledger {{[bal|balance]}} {{[-H|--historical]}} {{[-p|--period]}} 'quarterly in 2024' assets liabilities`
 
 - Show quarterly end balances in 2024 for asset and liability accounts, including zero balances, sorted by total, and summarized to three levels:
 
