@@ -6,7 +6,7 @@
 
 - 30초 동안 공격 시작:
 
-`echo "{{GET https://example.com}}" | vegeta attack -duration={{30s}}`
+`echo "{{GET https://example.com}}" | vegeta attack -duration=30s`
 
 - 자체 서명된 HTTPS 인증서가 있는 서버에 대한 공격 시작:
 
@@ -14,7 +14,7 @@
 
 - 초당 10개의 요청 비율로 공격 시작:
 
-`echo "{{GET https://example.com}}" | vegeta attack -duration={{30s}} -rate={{10}}`
+`echo "{{GET https://example.com}}" | vegeta attack -duration={{30s}} -rate=10`
 
 - 공격을 시작하고 보고서 표시:
 
