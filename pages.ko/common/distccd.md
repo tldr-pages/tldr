@@ -17,7 +17,7 @@
 
 - 한 번에 최대 4개의 작업을 실행할 수 있는 낮은 우선순위로 데몬을 시작:
 
-`distccd --daemon {{[-j|--jobs]}} {{4}} {{[-N|--nice]}} {{5}}`
+`distccd --daemon {{[-j|--jobs]}} 4 {{[-N|--nice]}} {{5}}`
 
 - 데몬을 시작하고 mDNS/DNS-SD (Zeroconf)를 통해 등록:
 

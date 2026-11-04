@@ -9,7 +9,7 @@
 
 - HTML 문서를 4칸의 공백으로 들여쓰기하여 포맷:
 
-`xml {{[fo|format]}} {{[-H|--html]}} {{[-s|--indent-spaces]}} {{4}} {{경로/대상/입력.html|uri}} >{{경로/대상/출력.html}}`
+`xml {{[fo|format]}} {{[-H|--html]}} {{[-s|--indent-spaces]}} 4 {{경로/대상/입력.html|uri}} >{{경로/대상/출력.html}}`
 
 - 잘못된 XML 문서에서 구문 분석이 가능한 부분을 복구하고 들여쓰지 않음:
 
