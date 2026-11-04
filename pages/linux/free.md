@@ -7,7 +7,8 @@
 
 `free`
 
-- Display memory in bytes/KiB/MiB/GiB:
+- Display memory in bytes/KiB/MiB/GiB (power of 1024):
+
 
 `free -{{b|k|m|g}}`
 
